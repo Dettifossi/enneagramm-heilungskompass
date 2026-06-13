@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-05-so5-visual-pages-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-wound-section-v1";
 
 const app = document.querySelector("#app");
 const state = {
@@ -435,6 +435,7 @@ function knowledgeCard(item) {
           <ul>${item.essence.qualities.map((entry) => `<li>${entry}</li>`).join("")}</ul>
         </div>
       ` : ""}
+      ${item.woundBehindPassion ? woundBehindPassionSection(item.woundBehindPassion) : ""}
       ${item.remedies ? `
         <div class="knowledge-section">
           <strong>${labels.remedies}</strong>
@@ -449,6 +450,43 @@ function knowledgeCard(item) {
       </div>
     </article>
 	  `;
+}
+
+function woundBehindPassionSection(wound) {
+  const w = text.knowledgeCard.woundBehindPassion;
+  const steps = [
+    ["passion", w.passion],
+    ["belief", w.belief],
+    ["wound", w.wound],
+    ["compensation", w.compensation],
+    ["sufferingCycle", w.sufferingCycle],
+    ["healingDirection", w.healingDirection],
+    ["remedy", w.remedy],
+  ];
+  const placeholder = `<span class="wound-step__pending">${w.pending}</span>`;
+  return `
+    <div class="knowledge-section wound-box">
+      <strong>${w.title}</strong>
+      <ol class="wound-chain">
+        ${steps
+          .map(
+            ([key, label]) => `
+          <li class="wound-step${wound[key] ? "" : " wound-step--empty"}">
+            <span class="wound-step__label">${label}</span>
+            <span class="wound-step__value">${wound[key] ? wound[key] : placeholder}</span>
+          </li>`,
+          )
+          .join("")}
+      </ol>
+      ${
+        wound.needsReview && wound.needsReview.length
+          ? `<div class="wound-review">${wound.needsReview
+              .map((entry) => `<p>${entry}</p>`)
+              .join("")}</div>`
+          : ""
+      }
+    </div>
+  `;
 }
 
 function remedyCardSection(cards) {

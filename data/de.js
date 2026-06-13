@@ -1044,6 +1044,25 @@ function type3ContentModules(subtypeCode) {
   ];
 }
 
+// ---------------------------------------------------------------------------
+// Optionales Feld je Subtyp: "woundBehindPassion"
+// Bereich "Die Wunde hinter der Leidenschaft".
+// Wird in app.js (woundBehindPassionSection) nur angezeigt, wenn vorhanden.
+// WICHTIG: Inhalte ausschliesslich aus den fachlichen Anhaengen einsetzen –
+// keine eigenen Zuordnungen erfinden. Leere Felder bleiben leer und werden in
+// der App als "noch zu ergaenzen" dargestellt. Bei Unsicherheit needsReview setzen.
+//
+// woundBehindPassion: {
+//   passion: "",          // Leidenschaft
+//   belief: "",           // darunterliegende Ueberzeugung
+//   wound: "",            // tiefere Wunde
+//   compensation: "",     // Kompensation
+//   sufferingCycle: "",   // Leidenskreislauf
+//   healingDirection: "", // Heilungsrichtung
+//   remedy: "",           // Heilmittel
+//   needsReview: [],      // offene Pruefpunkte
+// },
+// ---------------------------------------------------------------------------
 export const knowledgePrototype = {
   source:
     "PDF-Kartenset und Architektur-Notizen, als strukturierte Wissensbasis vorbereitet",
@@ -2222,6 +2241,18 @@ export const knowledgePrototype = {
         text: "Weisheit, Tiefe, selektive Intimität, Vertrauen, Rückzug und echte Verbindung.",
       },
       remedies: ["Stramonium", "Water Violet", "Silicea", "Amazonit", "Haferkrauttee"],
+      woundBehindPassion: {
+        passion: "",
+        belief: "",
+        wound: "",
+        compensation: "",
+        sufferingCycle: "",
+        healingDirection: "",
+        remedy: "",
+        needsReview: [
+          "Inhalte aus den fachlichen Anhängen einsetzen: Leidenschaft, Überzeugung, Wunde, Kompensation, Leidenskreislauf, Heilungsrichtung, Heilmittel.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2703,6 +2734,17 @@ export const uiText = {
     lifeTheme: "Lebensthema",
     practice: "Praxis",
     remedies: "Unterstützende Mittel",
+    woundBehindPassion: {
+      title: "Die Wunde hinter der Leidenschaft",
+      passion: "Leidenschaft",
+      belief: "Darunterliegende Überzeugung",
+      wound: "Tiefere Wunde",
+      compensation: "Kompensation",
+      sufferingCycle: "Leidenskreislauf",
+      healingDirection: "Heilungsrichtung",
+      remedy: "Heilmittel",
+      pending: "— aus den Anhängen zu ergänzen —",
+    },
     review: "Noch zu prüfen",
     noRequiredReviews: "Für diese Screenshot-Ladung aktuell keine offenen Pflichtprüfungen markiert.",
     sourceCoverage: "Lückenlose Quellenstruktur",

@@ -665,6 +665,84 @@ textarea:focus {
   background: rgba(216, 226, 227, 0.38);
 }
 
+.knowledge-section.wound-box {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(168, 100, 63, 0.22);
+  background: rgba(168, 100, 63, 0.06);
+}
+
+.wound-chain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  counter-reset: wound;
+}
+
+.wound-step {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: baseline;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(36, 57, 72, 0.1);
+}
+
+.wound-step:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.wound-chain .wound-step::before {
+  counter-increment: wound;
+  content: counter(wound);
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(168, 100, 63, 0.16);
+  color: var(--deep);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.wound-step__label {
+  grid-column: 2;
+  display: block;
+  color: var(--deep);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.wound-step__value {
+  grid-column: 2;
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.wound-step__pending {
+  color: rgba(120, 120, 120, 0.85);
+  font-style: italic;
+}
+
+.wound-review {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: rgba(180, 120, 60, 0.12);
+}
+
+.wound-review p {
+  margin: 0;
+  color: var(--deep);
+  font-size: 0.9rem;
+}
+
 .source-coverage-section {
   padding: 14px;
   border-radius: 8px;
