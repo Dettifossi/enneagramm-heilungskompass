@@ -3070,16 +3070,16 @@ export const werkRegister = [
     title: "Die verborgene Dynamik der 27 Subtypen",
     themes: ["Subtypen", "Instinkte", "Typbestimmung", "Entwicklung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
+    link: "https://buchshop.bod.de/die-verborgene-dynamik-der-27-subtypen-detlef-rathmer-9783695741359",
+    status: "live",
   },
   {
     id: "code-der-persoenlichkeit",
     title: "Der Code deiner Persönlichkeit",
     themes: ["Typbestimmung", "Spurensuche", "Selbsterkenntnis"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
+    link: "https://buchshop.bod.de/der-code-deiner-persoenlichkeit-detlef-rathmer-9783695192557",
+    status: "live",
   },
   {
     id: "hinter-der-leidenschaft",
@@ -3091,11 +3091,11 @@ export const werkRegister = [
   },
   {
     id: "wer-du-wirklich-bist",
-    title: "Wer du wirklich bist – Enneagrammwissen in Übersichten",
+    title: "Wer du wirklich bist – Enneagrammwissen in Übersichten (Band 3)",
     themes: ["Grundlagen", "Übersichten", "Typen & Subtypen"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
+    link: "https://buchshop.bod.de/wer-du-wirklich-bist-band-3-detlef-rathmer-9783755736264",
+    status: "live",
   },
   {
     id: "kindheitstraumata",
@@ -3115,11 +3115,11 @@ export const werkRegister = [
   },
   {
     id: "enneagramm-biochemie-xxl",
-    title: "Enneagramm-Biochemie XXL",
+    title: "Enneagramm-Biochemie",
     themes: ["Schüßler-Salze", "Biochemie", "Heilmittel"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
+    link: "https://buchshop.bod.de/enneagramm-biochemie-detlef-rathmer-9783695101559",
+    status: "live",
   },
 ];
 

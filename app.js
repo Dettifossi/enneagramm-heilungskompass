@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-13-se1-blueprint-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-13-buchlinks-v1";
 
 const app = document.querySelector("#app");
 const state = {
