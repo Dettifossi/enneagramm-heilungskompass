@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Amethyst">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff9ee"/>
+      <stop offset="1" stop-color="#e6d9cb"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3dbff"/>
+      <stop offset=".35" stop-color="#a06dbb"/>
+      <stop offset=".72" stop-color="#654084"/>
+      <stop offset="1" stop-color="#d8b6ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4a314f" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="720" height="520" fill="url(#bg)"/>
+  <ellipse cx="360" cy="410" rx="214" ry="43" fill="#8a5e35" opacity=".12"/>
+  <g filter="url(#shadow)" stroke="#6b4a78" stroke-width="4" stroke-linejoin="round">
+    <path d="M214 380 252 176l58 204z" fill="url(#violet)"/>
+    <path d="M280 390 333 98l70 292z" fill="#8d59ae"/>
+    <path d="M383 388 452 134l61 254z" fill="url(#violet)"/>
+    <path d="M176 392 222 240l56 152z" fill="#744791"/>
+    <path d="M502 390 554 234l54 156z" fill="#8d59ae"/>
+    <path d="M208 391h404l-66 44H256z" fill="#5d4f55"/>
+    <path d="M333 98 362 390" fill="none" opacity=".28"/>
+    <path d="M452 134 434 388" fill="none" opacity=".26"/>
+    <path d="M252 176 280 390" fill="none" opacity=".22"/>
+  </g>
+  <g fill="#fff7ff" opacity=".68">
+    <circle cx="345" cy="152" r="7"/>
+    <circle cx="451" cy="190" r="6"/>
+    <circle cx="259" cy="237" r="5"/>
+    <circle cx="515" cy="282" r="5"/>
+  </g>
+  <path d="M99 105c74-23 157-18 249 14 72 26 151 19 237-22" fill="none" stroke="#c99b55" stroke-width="4" opacity=".22"/>
+</svg>
