@@ -1278,12 +1278,12 @@ export const knowledgePrototype = {
           tee: "Melissentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Arsenicum album",
+          schuessler: "Kalium chloratum",
+          bachbluete: "Rock Water",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 1). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       remedyCards: [
@@ -1782,12 +1782,12 @@ export const knowledgePrototype = {
           tee: "Melissentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Arsenicum album",
+          schuessler: "Kalium chloratum",
+          bachbluete: "Rock Water",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 1). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       mediaGroups: type1MediaGroups("SO1", {
@@ -1873,12 +1873,12 @@ export const knowledgePrototype = {
           tee: "Melissentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Arsenicum album",
+          schuessler: "Kalium chloratum",
+          bachbluete: "Rock Water",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 1). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       mediaGroups: type1MediaGroups("SX1", {
@@ -1929,12 +1929,12 @@ export const knowledgePrototype = {
           tee: "Rosenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Pulsatilla pratensis",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -1981,12 +1981,12 @@ export const knowledgePrototype = {
           tee: "Rosenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Pulsatilla pratensis",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2033,12 +2033,12 @@ export const knowledgePrototype = {
           tee: "Rosenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Pulsatilla pratensis",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2085,12 +2085,12 @@ export const knowledgePrototype = {
           tee: "Rosmarintee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Lycopodium clavatum",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Walnut",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2137,12 +2137,12 @@ export const knowledgePrototype = {
           tee: "Rosmarintee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Lycopodium clavatum",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Walnut",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2189,12 +2189,12 @@ export const knowledgePrototype = {
           tee: "Rosmarintee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Lycopodium clavatum",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Walnut",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2239,12 +2239,12 @@ export const knowledgePrototype = {
           tee: "Weidenröschentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Ignatia amara",
+          schuessler: "Calcium phosphoricum",
+          bachbluete: "Willow",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: ["Grundthema auf Seite 1 später fachlich prüfen."],
@@ -2286,12 +2286,12 @@ export const knowledgePrototype = {
           tee: "Weidenröschentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Ignatia amara",
+          schuessler: "Calcium phosphoricum",
+          bachbluete: "Willow",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: ["Grundthema auf Seite 1 später fachlich prüfen."],
@@ -2333,12 +2333,12 @@ export const knowledgePrototype = {
           tee: "Weidenröschentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Ignatia amara",
+          schuessler: "Calcium phosphoricum",
+          bachbluete: "Willow",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: ["Subtyp-Organismusfrage wurde sprachlich geglättet und sollte später mit dem Original abgeglichen werden."],
@@ -2380,12 +2380,12 @@ export const knowledgePrototype = {
           tee: "Haferkrauttee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Silicea",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 5). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2427,12 +2427,12 @@ export const knowledgePrototype = {
           tee: "Haferkrauttee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Silicea",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 5). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: ["Problem/Wendepunkt/Integration auf einer SO5-Seite später gegen Original prüfen."],
@@ -2473,12 +2473,12 @@ export const knowledgePrototype = {
           tee: "Haferkrauttee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Silicea",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 5). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       woundBehindPassion: {
@@ -2539,12 +2539,12 @@ export const knowledgePrototype = {
           tee: "Kamillenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Cerato",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2585,12 +2585,12 @@ export const knowledgePrototype = {
           tee: "Kamillenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Cerato",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2631,12 +2631,12 @@ export const knowledgePrototype = {
           tee: "Kamillenblütentee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Cerato",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2677,12 +2677,12 @@ export const knowledgePrototype = {
           tee: "Pfefferminztee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Calcarea carbonica",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2723,12 +2723,12 @@ export const knowledgePrototype = {
           tee: "Pfefferminztee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Calcarea carbonica",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2769,12 +2769,12 @@ export const knowledgePrototype = {
           tee: "Pfefferminztee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Calcarea carbonica",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2815,12 +2815,12 @@ export const knowledgePrototype = {
           tee: "Ingwertee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Oak",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2861,12 +2861,12 @@ export const knowledgePrototype = {
           tee: "Ingwertee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Oak",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2907,12 +2907,12 @@ export const knowledgePrototype = {
           tee: "Ingwertee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Oak",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2953,12 +2953,12 @@ export const knowledgePrototype = {
           tee: "Fencheltee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Staphysagria",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -2999,12 +2999,12 @@ export const knowledgePrototype = {
           tee: "Fencheltee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Staphysagria",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3045,12 +3045,12 @@ export const knowledgePrototype = {
           tee: "Fencheltee",
         },
         wunde: {
-          homoeopathie: "",
-          schuessler: "",
-          bachbluete: "",
+          homoeopathie: "Staphysagria",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
         },
         needsReview: [
-          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+          "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
         ],
       },
       needsReview: [],

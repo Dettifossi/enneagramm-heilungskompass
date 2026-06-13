@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-heilmittel-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-wunde-remedies-v1";
 
 const app = document.querySelector("#app");
 const state = {
