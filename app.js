@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-wound-section-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-sx5-wound-content-v1";
 
 const app = document.querySelector("#app");
 const state = {

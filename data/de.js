@@ -2242,15 +2242,23 @@ export const knowledgePrototype = {
       },
       remedies: ["Stramonium", "Water Violet", "Silicea", "Amazonit", "Haferkrauttee"],
       woundBehindPassion: {
-        passion: "",
-        belief: "",
-        wound: "",
-        compensation: "",
-        sufferingCycle: "",
-        healingDirection: "",
-        remedy: "",
+        passion:
+          "Geiz – nicht in erster Linie materiell, sondern ein Geiz mit Energie, Zeit, Aufmerksamkeit und innerer Beteiligung. Der Fünfer hält zurück, weil er befürchtet, mehr zu verlieren, als er geben kann. Bei der SX5 verdichtet sich dies zu einer Verschmelzungssehnsucht auf rationaler Ebene, die leicht obsessive Züge annimmt.",
+        belief:
+          "„Das Leben fordert mehr, als ich geben kann.“ Darunter die Überzeugung, dass die eigenen Ressourcen begrenzt sind und geschützt werden müssen – Nähe, Beziehungen und Erwartungen erscheinen als etwas, das ständig vom eigenen Vorrat abzieht.",
+        wound:
+          "Die Wunde des Mangels: das tiefe Gefühl „Ich habe nicht genug“ – nicht genug Kraft, Energie, Wissen oder Kompetenz, um den Anforderungen des Lebens gewachsen zu sein. Die eigentliche Wunde liegt nicht im tatsächlichen Mangel, sondern in der Überzeugung, dem Leben nicht genügen zu können.",
+        compensation:
+          "Rückzug und Selbstgenügsamkeit: Wissen sammeln, Fähigkeiten entwickeln, innere Rückzugsräume schaffen, beobachten statt teilnehmen, Energie und Nähe dosieren. Bei der SX5 zeigt sich der Schutz als kontrollierte, scheue Nähe – tiefe Verbindung wird ersehnt und zugleich auf Abstand gehalten.",
+        sufferingCycle:
+          "Der Mangel erzeugt Rückzug. Der Rückzug erzeugt Distanz. Die Distanz verhindert neue Erfahrungen. Die fehlenden Erfahrungen bestätigen den Mangel. Und der Kreislauf beginnt erneut.",
+        healingDirection:
+          "Über das Wissen hinausgehen und dem Leben vertrauen: sich beteiligen, bevor alles verstanden ist, und erfahren, dass Energie wächst, wenn sie fließt. Aus dem Beobachter wird ein Teilnehmer. Für die SX5 konkret: die kontrollierte Nähe (Scheuheit) loslassen – von Selbstisolation zu echter Verbundenheit.",
+        remedy:
+          "Wundenmittel: Silicea · Leidenschaftsmittel: Stramonium · Schüßler-Salz: Silicea · Bach-Blüte: Water Violet. Anwendung nur in therapeutischer Rücksprache.",
         needsReview: [
-          "Inhalte aus den fachlichen Anhängen einsetzen: Leidenschaft, Überzeugung, Wunde, Kompensation, Leidenskreislauf, Heilungsrichtung, Heilmittel.",
+          "Quelle: „Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 5 „Die Wunde des Mangels“ (S. 136–156). Der Buchtext ist typ-bezogen (Typ 5); SX5-Nuancen aus der Subtypen-Tabelle (S. 102) und der sx5-Quelldatei ergänzt – bitte gegen das Buch prüfen.",
+          "Edelstein (Amazonit) und Tee (Haferkrauttee) aus der bisherigen App-/Screenshot-Quelle stammen NICHT aus diesem Buch – Zuordnung für SX5 prüfen.",
         ],
       },
       needsReview: [],
