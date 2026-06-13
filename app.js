@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-wunde-remedies-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-13-se1-blueprint-v1";
 
 const app = document.querySelector("#app");
 const state = {
@@ -362,7 +362,176 @@ function libraryPage() {
         .map(([title, text]) => `<article><h2>${title}</h2><p>${text}</p></article>`)
         .join("")}
     </section>
+    ${werkSection()}
   `);
+}
+
+function werkSection() {
+  const w = text.werk;
+  return `
+    <section class="werk">
+      <div class="section-divider"><span>${w.title}</span></div>
+      <p class="lead-small werk__lead">${w.lead}</p>
+      <div class="werk-grid">
+        ${werkRegister
+          .map((book) => {
+            const link = book.status === "link_pruefen"
+              ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
+              : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${w.openBook} →</a>`;
+            return `
+              <article class="werk-card">
+                <h3>${book.title}</h3>
+                <p class="werk-card__themes">${w.themes}: ${book.themes.join(" · ")}</p>
+                ${link}
+              </article>`;
+          })
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function subtypeEntry(code) {
+  return knowledgePrototype.subtypes.find(
+    (s) => s.code.toLowerCase() === code.toLowerCase()
+  );
+}
+
+function subtypePage(code) {
+  const sp = text.subtypePage;
+  const entry = subtypeEntry(code);
+  if (!entry) {
+    return shell(`
+      ${pageHeader("knowledge")}
+      <section class="narrow centered">
+        <button class="ghost-link" data-route="knowledge">${sp.back}</button>
+        <h1>${code.toUpperCase()}</h1>
+        <p class="lead-small">Für diesen Subtyp ist noch keine Detailseite angelegt.</p>
+      </section>
+    `);
+  }
+  const details = subtypeDetails[code.toLowerCase()] || {};
+  return shell(`
+    ${pageHeader("knowledge")}
+    <section class="subtype-hero">
+      <button class="ghost-link" data-route="knowledge">${sp.back}</button>
+      <p class="eyebrow">${entry.code} · ${text.knowledgeCard.animalPrefix} ${entry.animal}</p>
+      <h1>${entry.title}</h1>
+      <p class="lead-small">${entry.coreSentence}</p>
+    </section>
+    ${details.meinKompass ? meinKompassSection(details.meinKompass, sp) : ""}
+    <section class="rooms">
+      <div class="section-divider"><span>${sp.raeumeTitle}</span></div>
+      <div class="rooms-grid">
+        ${roomCard("verstehen", sp.rooms.verstehen, verstehenInner(entry, sp))}
+        ${roomCard("spueren", sp.rooms.spueren, spuerenInner(entry, sp))}
+        ${roomCard("regulieren", sp.rooms.regulieren, regulierenInner(entry, sp))}
+        ${roomCard("unterstuetzen", sp.rooms.unterstuetzen, entry.heilmittel ? heilmittelSection(entry.heilmittel) : "")}
+        ${roomCard("verkoerpern", sp.rooms.verkoerpern, verkoerpernInner(entry, sp))}
+        ${roomCard("vertiefen", sp.rooms.vertiefen, vertiefungSection(details.vertiefung, sp))}
+      </div>
+    </section>
+  `);
+}
+
+function meinKompassSection(k, sp) {
+  const list = (items) => `<ul>${items.map((i) => `<li>${i}</li>`).join("")}</ul>`;
+  return `
+    <section class="mein-kompass">
+      <div class="section-divider"><span>${sp.meinKompassTitle}</span></div>
+      <div class="mein-kompass__block">
+        <strong>${sp.lebensthema}</strong>
+        <p>${k.lebensthema}</p>
+      </div>
+      <div class="mein-kompass__block">
+        <strong>${sp.grundstrategie}</strong>
+        <p>${k.grundstrategie}</p>
+      </div>
+      <div class="mein-kompass__cols">
+        <div class="mein-kompass__block">
+          <strong>${sp.staerken}</strong>
+          ${list(k.staerken)}
+        </div>
+        <div class="mein-kompass__block">
+          <strong>${sp.herausforderungen}</strong>
+          ${list(k.herausforderungen)}
+        </div>
+      </div>
+      <div class="mein-kompass__block">
+        <strong>${sp.entwicklungspotenzial}</strong>
+        ${list(k.entwicklungspotenzial)}
+        ${k.wandlung ? `<p class="mein-kompass__wandlung">${k.wandlung}</p>` : ""}
+      </div>
+      ${k.gedankeFuerHeute ? `
+        <blockquote class="mein-kompass__gedanke">
+          <span>${sp.gedankeFuerHeute}</span>
+          <p>${k.gedankeFuerHeute}</p>
+        </blockquote>
+      ` : ""}
+    </section>
+  `;
+}
+
+function roomCard(key, title, inner) {
+  if (!inner) return "";
+  return `
+    <article class="room room--${key}">
+      <h3 class="room__title">${title}</h3>
+      <div class="room__body">${inner}</div>
+    </article>
+  `;
+}
+
+function verstehenInner(entry, sp) {
+  const blocks = [];
+  if (entry.lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${entry.lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${entry.organismQuestion}</p></div>`);
+  if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence}</p></div>`);
+  if (entry.woundBehindPassion) blocks.push(woundBehindPassionSection(entry.woundBehindPassion));
+  return blocks.join("");
+}
+
+function spuerenInner(entry, sp) {
+  const blocks = [];
+  if (entry.signature) blocks.push(`<div class="room-field"><strong>${entry.signature.title}</strong><p>${entry.signature.text}</p></div>`);
+  if (entry.essence && entry.essence.qualities) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities}</strong><ul>${entry.essence.qualities.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  return blocks.join("");
+}
+
+function regulierenInner(entry, sp) {
+  if (!entry.practice) return "";
+  return `<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`;
+}
+
+function verkoerpernInner(entry, sp) {
+  if (entry.mediaGroups) return mediaGroupSection(entry.mediaGroups);
+  if (entry.mediaResources) return mediaResourceSection(entry.mediaResources);
+  return `<p class="room-pending">${sp.mediaPending}</p>`;
+}
+
+function vertiefungSection(refs, sp) {
+  if (!refs || !refs.length) return "";
+  const byId = Object.fromEntries(werkRegister.map((b) => [b.id, b]));
+  return `
+    <p class="deepen-intro">${sp.deepenIntro}</p>
+    <ul class="deepen-list">
+      ${refs
+        .map((ref) => {
+          const book = byId[ref.werkId];
+          if (!book) return "";
+          const link = book.status === "link_pruefen"
+            ? `<span class="deepen-link deepen-link--pending">${sp.linkPending}</span>`
+            : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${sp.openBook} →</a>`;
+          return `
+            <li class="deepen-item">
+              <strong>${book.title}</strong>
+              <p>${ref.hinweis}</p>
+              ${link}
+            </li>`;
+        })
+        .join("")}
+    </ul>
+  `;
 }
 
 function knowledgePage() {
@@ -399,6 +568,7 @@ function knowledgeCard(item) {
       <h2>${item.title}</h2>
       <p class="animal">${labels.animalPrefix} ${item.animal}</p>
       <p class="source-line">${item.pages}</p>
+      ${subtypeDetails[item.code.toLowerCase()] ? `<button class="card-open" data-route="subtype/${item.code.toLowerCase()}">${text.subtypePage.meinKompassTitle} öffnen →</button>` : ""}
       ${item.sourceCoverage ? sourceCoverageSection(item.sourceCoverage) : ""}
       ${item.contentModules ? contentModuleSection(item.contentModules) : ""}
       ${item.remedyCards ? remedyCardSection(item.remedyCards) : ""}
@@ -749,7 +919,12 @@ function render() {
     library: libraryPage,
     knowledge: knowledgePage,
   };
-  app.innerHTML = (routes[state.route] || routes.start)();
+  const [base, param] = state.route.split("/");
+  if (base === "subtype" && param) {
+    app.innerHTML = subtypePage(param);
+  } else {
+    app.innerHTML = (routes[base] || routes.start)();
+  }
   bindEvents();
 }
 

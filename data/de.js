@@ -3058,6 +3058,120 @@ export const knowledgePrototype = {
   ],
 };
 
+// ---------------------------------------------------------------------------
+// Werk-Register: zentrales Verzeichnis der Bücher von Detlef (& David) Rathmer.
+// Dient als Rückgrat für kontextuelle "Vertiefung"-Verweise überall in der App.
+// Beliebig erweiterbar. link: Hauptseite, solange keine geprüften Direktlinks
+// vorliegen (status: "link_pruefen"). Keine Direktlinks erfinden.
+// ---------------------------------------------------------------------------
+export const werkRegister = [
+  {
+    id: "dynamik-27-subtypen",
+    title: "Die verborgene Dynamik der 27 Subtypen",
+    themes: ["Subtypen", "Instinkte", "Typbestimmung", "Entwicklung"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "code-der-persoenlichkeit",
+    title: "Der Code deiner Persönlichkeit",
+    themes: ["Typbestimmung", "Spurensuche", "Selbsterkenntnis"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "hinter-der-leidenschaft",
+    title: "Hinter der Leidenschaft – Die neun Wunden des Enneagramms",
+    themes: ["Wunde", "Leidenschaft", "Heilmittel", "Heilung"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "wer-du-wirklich-bist",
+    title: "Wer du wirklich bist – Enneagrammwissen in Übersichten",
+    themes: ["Grundlagen", "Übersichten", "Typen & Subtypen"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "kindheitstraumata",
+    title: "Die Kindheitstraumata der 9 Enneagrammtypen",
+    themes: ["Wunde", "Kindheit", "Prägung"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "heilsteine-prinzipien",
+    title: "Heilsteine & Enneagrammprinzipien",
+    themes: ["Edelsteine", "Heilmittel", "Prinzipien"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+  {
+    id: "enneagramm-biochemie-xxl",
+    title: "Enneagramm-Biochemie XXL",
+    themes: ["Schüßler-Salze", "Biochemie", "Heilmittel"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    link: "https://verlagshausrathmer.com",
+    status: "link_pruefen",
+  },
+];
+
+// ---------------------------------------------------------------------------
+// Subtyp-Detailseiten ("Mein Kompass" + Vertiefung). Zunächst SE1 als Blaupause.
+// Die 6 Entwicklungsräume werden aus dem jeweiligen knowledgePrototype-Eintrag
+// gespeist; hier liegen nur die ergänzenden, redaktionellen Teile:
+//  - meinKompass: warmer, persönlicher Einstieg (Quelle: Fachkonzept Abschnitt 11)
+//  - vertiefung: kontextuelle Verweise ins Werk-Register
+// ---------------------------------------------------------------------------
+export const subtypeDetails = {
+  se1: {
+    meinKompass: {
+      lebensthema:
+        "Du möchtest dein Leben auf ein solides Fundament stellen. Verantwortung, Verlässlichkeit und innere Ordnung spielen dabei eine wichtige Rolle. Oft entsteht das Gefühl, dass vieles von deinem eigenen Einsatz abhängt und dass du wachsam bleiben musst, damit die Dinge nicht aus dem Ruder laufen. Dein Weg besteht nicht darin, noch perfekter zu werden, sondern zu entdecken, dass auch Unvollkommenheit zum Leben gehört und dass Sicherheit nicht nur durch Kontrolle entsteht.",
+      grundstrategie:
+        "Die selbsterhaltende Eins versucht, Stabilität durch Disziplin, Ordnung und Selbstkontrolle zu schaffen. Sie beobachtet sich selbst aufmerksam und entwickelt hohe Ansprüche an das eigene Verhalten. Die Grundfrage lautet häufig: „Habe ich alles richtig gemacht?“",
+      staerken: [
+        "Verantwortungsbewusstsein",
+        "Verlässlichkeit",
+        "Integrität",
+        "Ausdauer und Gewissenhaftigkeit",
+        "praktische Vernunft",
+        "die Fähigkeit, Dinge zu verbessern",
+      ],
+      herausforderungen: [
+        "Selbstkritik und innerer Druck",
+        "Anspannung und Perfektionismus",
+        "Ungeduld",
+        "übermäßige Kontrolle",
+        "Schwierigkeiten, Fehler zu akzeptieren",
+      ],
+      entwicklungspotenzial: [
+        "dass Fehler menschlich sind",
+        "dass Bedürfnisse wichtig sind",
+        "dass Entspannung keine Schwäche ist",
+        "dass das Leben nicht ständig optimiert werden muss",
+      ],
+      wandlung: "Aus Kontrolle wird Vertrauen. Aus Anspannung wird Präsenz. Aus Selbstverbesserung wird Selbstannahme.",
+      gedankeFuerHeute:
+        "Vielleicht ist heute nicht der Tag, an dem du noch besser werden musst. Vielleicht ist heute der Tag, an dem du bemerkst, dass bereits vieles gut genug ist.",
+    },
+    vertiefung: [
+      { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
+      { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SE1 zu dir passt." },
+      { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 1 (Kapitel Typ 1)." },
+      { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 1." },
+      { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amethyst und den Enneagrammprinzipien." },
+    ],
+  },
+};
+
 export const uiText = {
   meta: {
     appTitle: "Enneagramm-Heilungskompass",
@@ -3073,6 +3187,43 @@ export const uiText = {
     { route: "knowledge", label: "Wissen" },
     { route: "library", label: "Bibliothek" },
   ],
+  subtypePage: {
+    back: "← Zur Wissensbasis",
+    meinKompassTitle: "Mein Kompass",
+    lebensthema: "Mein Lebensthema",
+    grundstrategie: "Meine Grundstrategie",
+    staerken: "Meine Stärken",
+    herausforderungen: "Meine Herausforderungen",
+    entwicklungspotenzial: "Mein Entwicklungspotenzial",
+    gedankeFuerHeute: "Ein Gedanke für heute",
+    raeumeTitle: "Die sechs Entwicklungsräume",
+    rooms: {
+      verstehen: "Verstehen",
+      spueren: "Spüren",
+      regulieren: "Regulieren",
+      unterstuetzen: "Unterstützen",
+      verkoerpern: "Verkörpern",
+      vertiefen: "Vertiefen",
+    },
+    organismQuestion: "Organismusfrage",
+    coreSentence: "Kernsatz",
+    lifeTheme: "Lebensthema",
+    resourceField: "Ressourcenfeld",
+    essenceQualities: "Verkörperte Qualitäten",
+    practice: "2-Punkte-Integration",
+    media: "Musik & Medien",
+    mediaPending: "Musik wird hier später eingebunden.",
+    deepenIntro: "Hier kannst du in Detlef Rathmers Werk weitergehen:",
+    openBook: "Zum Buch",
+    linkPending: "Link wird ergänzt",
+  },
+  werk: {
+    title: "Das Werk",
+    lead: "Bücher, Forschung und Wissen aus über zwanzig Jahren – das Lebenswerk als wachsende Bibliothek.",
+    themes: "Themen",
+    openBook: "Zum Buch",
+    linkPending: "Link wird ergänzt",
+  },
   routes: {
     start: {
       brandAria: "Zur Startseite",

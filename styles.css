@@ -1456,3 +1456,170 @@ textarea:focus {
     width: 96px;
   }
 }
+
+/* ==================== Subtyp-Detailseite (Blaupause SE1) ==================== */
+.ghost-link {
+  background: none;
+  border: none;
+  color: var(--copper, #a8643f);
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  margin-bottom: 12px;
+}
+.ghost-link:hover { text-decoration: underline; }
+
+.card-open {
+  margin-top: 6px;
+  align-self: flex-start;
+  background: rgba(168, 100, 63, 0.12);
+  border: 1px solid rgba(168, 100, 63, 0.3);
+  color: var(--deep);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+.card-open:hover { background: rgba(168, 100, 63, 0.2); }
+
+.subtype-hero {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 0 4px;
+}
+.subtype-hero h1 { margin: 6px 0; }
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 28px auto 18px;
+  max-width: 900px;
+  color: var(--deep);
+}
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(36, 57, 72, 0.18);
+}
+.section-divider span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.mein-kompass {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+.mein-kompass__block strong {
+  display: block;
+  color: var(--deep);
+  margin-bottom: 6px;
+}
+.mein-kompass__block p { margin: 0; color: var(--muted); line-height: 1.6; }
+.mein-kompass__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.mein-kompass__wandlung {
+  margin-top: 10px !important;
+  font-style: italic;
+  color: var(--deep) !important;
+}
+.mein-kompass__gedanke {
+  margin: 6px 0 0;
+  padding: 16px 18px;
+  border-left: 3px solid var(--copper, #a8643f);
+  background: rgba(168, 100, 63, 0.07);
+  border-radius: 4px;
+}
+.mein-kompass__gedanke span {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--copper, #a8643f);
+  margin-bottom: 6px;
+}
+.mein-kompass__gedanke p {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--deep);
+}
+
+.rooms { max-width: 900px; margin: 0 auto; }
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.room {
+  border: 1px solid rgba(36, 57, 72, 0.14);
+  border-radius: 10px;
+  background: rgba(255, 252, 245, 0.6);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.room__title {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--deep);
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(168, 100, 63, 0.25);
+}
+.room__body { display: grid; gap: 12px; }
+.room-field strong { display: block; color: var(--deep); margin-bottom: 4px; }
+.room-field p { margin: 0; color: var(--muted); line-height: 1.55; }
+.room-pending { color: rgba(120,120,120,0.85); font-style: italic; margin: 0; }
+
+.deepen-intro { margin: 0 0 6px; color: var(--muted); }
+.deepen-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.deepen-list .deepen-item::before { content: none; }
+.deepen-item strong { display: block; color: var(--deep); }
+.deepen-item p { margin: 4px 0 6px; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+.deepen-link {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--copper, #a8643f);
+  text-decoration: none;
+}
+.deepen-link:hover { text-decoration: underline; }
+.deepen-link--pending { color: rgba(120,120,120,0.8); font-weight: 400; font-style: italic; }
+
+/* ==================== Werk-Register (Bibliothek) ==================== */
+.werk { max-width: 900px; margin: 0 auto; }
+.werk__lead { text-align: center; margin-bottom: 18px; }
+.werk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+.werk-card {
+  border: 1px solid rgba(36, 57, 72, 0.14);
+  border-radius: 10px;
+  background: rgba(255, 252, 245, 0.6);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.werk-card h3 { margin: 0; font-size: 1rem; color: var(--deep); }
+.werk-card__themes { margin: 0; font-size: 0.85rem; color: var(--muted); flex: 1; }
+
+@media (max-width: 640px) {
+  .rooms-grid, .mein-kompass__cols { grid-template-columns: 1fr; }
+}
