@@ -743,6 +743,80 @@ textarea:focus {
   font-size: 0.9rem;
 }
 
+.knowledge-section.heilmittel-box {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(36, 57, 72, 0.16);
+  background: rgba(216, 231, 231, 0.34);
+}
+
+.remedy-level {
+  margin-top: 12px;
+}
+
+.remedy-level__title {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.remedy-level__title--passion {
+  background: rgba(168, 100, 63, 0.14);
+  color: var(--deep);
+}
+
+.remedy-level__title--wound {
+  background: rgba(105, 120, 105, 0.16);
+  color: var(--deep);
+}
+
+.remedy-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.remedy-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.remedy-list .remedy-row::before {
+  content: none;
+  display: none;
+}
+
+.remedy-row__label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.remedy-row__value {
+  color: var(--deep);
+  font-weight: 600;
+}
+
+.remedy-row__value--empty {
+  color: rgba(120, 120, 120, 0.85);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.remedy-note {
+  margin: 12px 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .source-coverage-section {
   padding: 14px;
   border-radius: 8px;

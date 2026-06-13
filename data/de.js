@@ -1269,7 +1269,23 @@ export const knowledgePrototype = {
         title: "Verkörperte Signatur",
         text: "Ich bewahre meine Integrität, indem ich mich selbst schütze und richtig handle.",
       },
-      remedies: ["Platinum metallicum", "Rock Water", "Kalium sulfuricum", "Amethyst", "Melissentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Platinum metallicum",
+          schuessler: "Kalium sulfuricum",
+          bachbluete: "Rock Water",
+          edelstein: "Amethyst",
+          tee: "Melissentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       remedyCards: [
         {
           title: "Platinum metallicum",
@@ -1757,7 +1773,23 @@ export const knowledgePrototype = {
         title: "Verkörperte Signatur",
         text: "Ich stehe für das Richtige ein – für mich und für das Ganze.",
       },
-      remedies: ["Platinum metallicum", "Rock Water", "Kalium sulfuricum", "Amethyst", "Melissentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Platinum metallicum",
+          schuessler: "Kalium sulfuricum",
+          bachbluete: "Rock Water",
+          edelstein: "Amethyst",
+          tee: "Melissentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       mediaGroups: type1MediaGroups("SO1", {
         deId: "eOJAkd-QohU",
         enCode: "SO1",
@@ -1832,7 +1864,23 @@ export const knowledgePrototype = {
         title: "Verkörperte Signatur",
         text: "Ich bleibe meiner inneren Wahrheit treu – ohne Kompromisse.",
       },
-      remedies: ["Platinum metallicum", "Rock Water", "Kalium sulfuricum", "Amethyst", "Melissentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Platinum metallicum",
+          schuessler: "Kalium sulfuricum",
+          bachbluete: "Rock Water",
+          edelstein: "Amethyst",
+          tee: "Melissentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       mediaGroups: type1MediaGroups("SX1", {
         deId: "s1AQHS_gOHg",
         enCode: "SX1",
@@ -1872,7 +1920,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Herzöffnung, Geborgenheit, praktische Unterstützung, Treue und Wärme.",
       },
-      remedies: ["Hyoscyamus niger", "Chicory", "Natrium chloratum", "Rosenquarz", "Rosenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Hyoscyamus niger",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
+          edelstein: "Rosenquarz",
+          tee: "Rosenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "SE2 ist als erster Typ-2-Prototyp mit Typ-2-Grundkarte und Seiten 1-5 als Wissenskarten angelegt.",
         "Medienlinks fuer Typ 2, SE2, SO2 und SX2 sind noch nicht eingetragen.",
@@ -1908,7 +1972,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Herzöffnung, Mitgefühl, Geborgenheit, praktische Unterstützung und Lebensfreude.",
       },
-      remedies: ["Hyoscyamus niger", "Chicory", "Natrium chloratum", "Rosenquarz", "Rosenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Hyoscyamus niger",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
+          edelstein: "Rosenquarz",
+          tee: "Rosenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "Typ-2-Tafeln sind sichtbar verortet; die lückenlose Tiefenextraktion der Einzelmodule folgt nach Freigabe des Architekturtests.",
         "Medienlinks fuer Typ 2 und SO2 sind noch nicht eingetragen.",
@@ -1944,7 +2024,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Herzöffnung, Mitgefühl, Treue, Sinn für Nähe und emotionale Tiefe.",
       },
-      remedies: ["Hyoscyamus niger", "Chicory", "Natrium chloratum", "Rosenquarz", "Rosenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Hyoscyamus niger",
+          schuessler: "Natrium chloratum",
+          bachbluete: "Chicory",
+          edelstein: "Rosenquarz",
+          tee: "Rosenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "Typ-2-Tafeln sind sichtbar verortet; die lückenlose Tiefenextraktion der Einzelmodule folgt nach Freigabe des Architekturtests.",
         "Medienlinks fuer Typ 2 und SX2 sind noch nicht eingetragen.",
@@ -1980,7 +2076,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Kompetenz, Ziele, Wert schaffen, Anerkennung und Freude an Ergebnissen.",
       },
-      remedies: ["Tarentula hispanica", "Vervain", "Ferrum phosphoricum", "Tigerauge", "Rosmarintee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Tarentula hispanica",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Vervain",
+          edelstein: "Tigerauge",
+          tee: "Rosmarintee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "Typ-3-Tafeln sind sichtbar verortet; SE3 ist als mehrsprachig vorbereiteter Wissensblock angelegt.",
         "Medienlinks fuer Typ 3 und SE3 sind noch nicht eingetragen.",
@@ -2016,7 +2128,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Kompetenz, Ziele, Wert schaffen, Anerkennung und Freude an Ergebnissen.",
       },
-      remedies: ["Tarentula hispanica", "Vervain", "Ferrum phosphoricum", "Tigerauge", "Rosmarintee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Tarentula hispanica",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Vervain",
+          edelstein: "Tigerauge",
+          tee: "Rosmarintee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "Typ-3-Tafeln sind sichtbar verortet; SO3 ist als mehrsprachig vorbereiteter Wissensblock angelegt.",
         "Medienlinks fuer Typ 3 und SO3 sind noch nicht eingetragen.",
@@ -2052,7 +2180,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Kompetenz, Ziele, Wert schaffen, Anerkennung und Freude an Ergebnissen.",
       },
-      remedies: ["Tarentula hispanica", "Vervain", "Ferrum phosphoricum", "Tigerauge", "Rosmarintee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Tarentula hispanica",
+          schuessler: "Ferrum phosphoricum",
+          bachbluete: "Vervain",
+          edelstein: "Tigerauge",
+          tee: "Rosmarintee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [
         "Typ-3-Tafeln sind sichtbar verortet; SX3 ist als mehrsprachig vorbereiteter Wissensblock angelegt.",
         "Medienlinks fuer Typ 3 und SX3 sind noch nicht eingetragen.",
@@ -2086,7 +2230,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Authentizität, Selbstakzeptanz, Kreativität, Tiefe und Mitgefühl.",
       },
-      remedies: ["Ignatia amara", "Sweet Chestnut", "Kalium phosphoricum", "Rhodonit", "Weidenröschentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Ignatia amara",
+          schuessler: "Kalium phosphoricum",
+          bachbluete: "Sweet Chestnut",
+          edelstein: "Rhodonit",
+          tee: "Weidenröschentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: ["Grundthema auf Seite 1 später fachlich prüfen."],
     },
     {
@@ -2117,7 +2277,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Kreativität, Tiefe Verbindung, Rückzug, Schönheit, Mitgefühl und Verständnis.",
       },
-      remedies: ["Ignatia amara", "Sweet Chestnut", "Kalium phosphoricum", "Rhodonit", "Weidenröschentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Ignatia amara",
+          schuessler: "Kalium phosphoricum",
+          bachbluete: "Sweet Chestnut",
+          edelstein: "Rhodonit",
+          tee: "Weidenröschentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: ["Grundthema auf Seite 1 später fachlich prüfen."],
     },
     {
@@ -2148,7 +2324,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Authentizität, Kreativität, Tiefe Verbindung, Selbstachtung, Inspiration und Vision.",
       },
-      remedies: ["Ignatia amara", "Sweet Chestnut", "Kalium phosphoricum", "Rhodonit", "Weidenröschentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Ignatia amara",
+          schuessler: "Kalium phosphoricum",
+          bachbluete: "Sweet Chestnut",
+          edelstein: "Rhodonit",
+          tee: "Weidenröschentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: ["Subtyp-Organismusfrage wurde sprachlich geglättet und sollte später mit dem Original abgeglichen werden."],
     },
     {
@@ -2179,7 +2371,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Weisheit, Erkenntnis, innere Stille, Klarheit, Tiefe und Vertrauen in den eigenen Verstand.",
       },
-      remedies: ["Stramonium", "Water Violet", "Silicea", "Amazonit", "Haferkrauttee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Stramonium",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
+          edelstein: "Amazonit",
+          tee: "Haferkrauttee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2210,7 +2418,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Tiefes Verstehen, sinnvolle Verbindung, Vertrauen, klare Struktur und kollektive Klarheit.",
       },
-      remedies: ["Stramonium", "Water Violet", "Silicea", "Amazonit", "Haferkrauttee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Stramonium",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
+          edelstein: "Amazonit",
+          tee: "Haferkrauttee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: ["Problem/Wendepunkt/Integration auf einer SO5-Seite später gegen Original prüfen."],
     },
     {
@@ -2240,7 +2464,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Weisheit, Tiefe, selektive Intimität, Vertrauen, Rückzug und echte Verbindung.",
       },
-      remedies: ["Stramonium", "Water Violet", "Silicea", "Amazonit", "Haferkrauttee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Stramonium",
+          schuessler: "Silicea",
+          bachbluete: "Water Violet",
+          edelstein: "Amazonit",
+          tee: "Haferkrauttee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       woundBehindPassion: {
         passion:
           "Geiz – nicht in erster Linie materiell, sondern ein Geiz mit Energie, Zeit, Aufmerksamkeit und innerer Beteiligung. Der Fünfer hält zurück, weil er befürchtet, mehr zu verlieren, als er geben kann. Bei der SX5 verdichtet sich dies zu einer Verschmelzungssehnsucht auf rationaler Ebene, die leicht obsessive Züge annimmt.",
@@ -2290,7 +2530,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Vertrauen, Bindung, innere Sicherheit, Loyalität, Gemeinschaft und Mut.",
       },
-      remedies: ["Opium", "Aspen", "Magnesium phosphoricum", "Hämatit", "Kamillenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Aspen",
+          edelstein: "Hämatit",
+          tee: "Kamillenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2320,7 +2576,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Vertrauen, Loyalität, Gemeinschaft, Zusammenhalt, Verantwortung und Kooperation.",
       },
-      remedies: ["Opium", "Aspen", "Magnesium phosphoricum", "Hämatit", "Kamillenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Aspen",
+          edelstein: "Hämatit",
+          tee: "Kamillenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2350,7 +2622,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Mut, Entschlossenheit, Loyalität, Schutzinstinkt, Leidenschaft und strategische Intelligenz.",
       },
-      remedies: ["Opium", "Aspen", "Magnesium phosphoricum", "Hämatit", "Kamillenblütentee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Opium",
+          schuessler: "Magnesium phosphoricum",
+          bachbluete: "Aspen",
+          edelstein: "Hämatit",
+          tee: "Kamillenblütentee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2380,7 +2668,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Lebensfreude, Dankbarkeit, Genussfähigkeit, Vertrauen, Kreativität, Bewegung und Fülle.",
       },
-      remedies: ["Belladonna", "Agrimony", "Natrium phosphoricum", "Rauchquarz", "Pfefferminztee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Belladonna",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
+          edelstein: "Rauchquarz",
+          tee: "Pfefferminztee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2410,7 +2714,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Lebensfreude, Enthusiasmus, Kreativität, Vernetzung, Taktkraft, Inspiration und Motivation.",
       },
-      remedies: ["Belladonna", "Agrimony", "Natrium phosphoricum", "Rauchquarz", "Pfefferminztee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Belladonna",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
+          edelstein: "Rauchquarz",
+          tee: "Pfefferminztee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2440,7 +2760,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Lebensfreude, Leidenschaft, Mut, Abenteuer, Kreativität, Ausdruckskraft und Freiheit.",
       },
-      remedies: ["Belladonna", "Agrimony", "Natrium phosphoricum", "Rauchquarz", "Pfefferminztee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Belladonna",
+          schuessler: "Natrium phosphoricum",
+          bachbluete: "Agrimony",
+          edelstein: "Rauchquarz",
+          tee: "Pfefferminztee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2470,7 +2806,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Innere Stärke, Standhaftigkeit, Mut, Entschlossenheit, Loyalität, Schutzinstinkt und Gerechtigkeit.",
       },
-      remedies: ["Veratrum album", "Vine", "Calcium fluoratum", "Fluorit", "Ingwertee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Vine",
+          edelstein: "Fluorit",
+          tee: "Ingwertee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2500,7 +2852,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Führungsstärke, Verantwortung, Organisation, Struktur, Schutz, Sicherheit, Gerechtigkeit und Loyalität.",
       },
-      remedies: ["Veratrum album", "Vine", "Calcium fluoratum", "Fluorit", "Ingwertee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Vine",
+          edelstein: "Fluorit",
+          tee: "Ingwertee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2530,7 +2898,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Leidenschaft, Lebensenergie, Präsenz, Magnetismus, Mut, Unabhängigkeit, Schutz und Loyalität.",
       },
-      remedies: ["Veratrum album", "Vine", "Calcium fluoratum", "Fluorit", "Ingwertee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Veratrum album",
+          schuessler: "Calcium fluoratum",
+          bachbluete: "Vine",
+          edelstein: "Fluorit",
+          tee: "Ingwertee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2560,7 +2944,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Weisheit, Erfahrung, Verantwortung, Gerechtigkeit, Geduld, Standhaftigkeit, Schutz und Fürsorge.",
       },
-      remedies: ["Cannabis indica", "Wild Rose", "Natrium sulfuricum", "Karneol", "Fencheltee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Cannabis indica",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
+          edelstein: "Karneol",
+          tee: "Fencheltee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2590,7 +2990,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Harmonie, Ausgleich, Geduld, Weitblick, Stabilität, Beständigkeit, Verständnis und Mitgefühl.",
       },
-      remedies: ["Cannabis indica", "Wild Rose", "Natrium sulfuricum", "Karneol", "Fencheltee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Cannabis indica",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
+          edelstein: "Karneol",
+          tee: "Fencheltee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -2620,7 +3036,23 @@ export const knowledgePrototype = {
         title: "Ressourcenfeld",
         text: "Einheit, Liebe, Frieden, Sanftheit, Geborgenheit, Nähe, Empfindlichkeit, Hingabe und tiefe Verbindung.",
       },
-      remedies: ["Cannabis indica", "Wild Rose", "Natrium sulfuricum", "Karneol", "Fencheltee"],
+      heilmittel: {
+        leidenschaft: {
+          homoeopathie: "Cannabis indica",
+          schuessler: "Natrium sulfuricum",
+          bachbluete: "Wild Rose",
+          edelstein: "Karneol",
+          tee: "Fencheltee",
+        },
+        wunde: {
+          homoeopathie: "",
+          schuessler: "",
+          bachbluete: "",
+        },
+        needsReview: [
+          "Wunden-Ebene (Wundenmittel, Schüßler, Bach-Blüte) aus dem Buch „Hinter der Leidenschaft“ je Typ ergänzen.",
+        ],
+      },
       needsReview: [],
     },
   ],
@@ -2742,6 +3174,18 @@ export const uiText = {
     lifeTheme: "Lebensthema",
     practice: "Praxis",
     remedies: "Unterstützende Mittel",
+    heilmittel: {
+      title: "Heilmittel-Kompass",
+      leidenschaftTitle: "Leidenschafts-Ebene",
+      wundeTitle: "Wunden-Ebene",
+      homoeopathie: "Homöopathie",
+      schuessler: "Schüßler-Salz",
+      bachbluete: "Bach-Blüte",
+      edelstein: "Edelstein",
+      tee: "Tee",
+      pending: "— noch zu ergänzen —",
+      note: "Anwendung nur in therapeutischer Rücksprache.",
+    },
     woundBehindPassion: {
       title: "Die Wunde hinter der Leidenschaft",
       passion: "Leidenschaft",

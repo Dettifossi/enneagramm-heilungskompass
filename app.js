@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-sx5-wound-content-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, uiText } from "./data/de.js?v=2026-06-13-heilmittel-v1";
 
 const app = document.querySelector("#app");
 const state = {
@@ -436,7 +436,7 @@ function knowledgeCard(item) {
         </div>
       ` : ""}
       ${item.woundBehindPassion ? woundBehindPassionSection(item.woundBehindPassion) : ""}
-      ${item.remedies ? `
+      ${item.heilmittel ? heilmittelSection(item.heilmittel) : item.remedies ? `
         <div class="knowledge-section">
           <strong>${labels.remedies}</strong>
           <p>${item.remedies.join(" · ")}</p>
@@ -450,6 +450,43 @@ function knowledgeCard(item) {
       </div>
     </article>
 	  `;
+}
+
+function heilmittelSection(h) {
+  const w = text.knowledgeCard.heilmittel;
+  const row = (label, value) =>
+    `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${value ? "" : " remedy-row__value--empty"}">${value || w.pending}</span></li>`;
+  const passion = h.leidenschaft || {};
+  const wound = h.wunde || {};
+  return `
+    <div class="knowledge-section heilmittel-box">
+      <strong>${w.title}</strong>
+      <div class="remedy-level">
+        <span class="remedy-level__title remedy-level__title--passion">${w.leidenschaftTitle}</span>
+        <ul class="remedy-list">
+          ${row(w.homoeopathie, passion.homoeopathie)}
+          ${row(w.schuessler, passion.schuessler)}
+          ${row(w.bachbluete, passion.bachbluete)}
+          ${row(w.edelstein, passion.edelstein)}
+          ${row(w.tee, passion.tee)}
+        </ul>
+      </div>
+      <div class="remedy-level">
+        <span class="remedy-level__title remedy-level__title--wound">${w.wundeTitle}</span>
+        <ul class="remedy-list">
+          ${row(w.homoeopathie, wound.homoeopathie)}
+          ${row(w.schuessler, wound.schuessler)}
+          ${row(w.bachbluete, wound.bachbluete)}
+        </ul>
+      </div>
+      <p class="remedy-note">${w.note}</p>
+      ${
+        h.needsReview && h.needsReview.length
+          ? `<div class="wound-review">${h.needsReview.map((e) => `<p>${e}</p>`).join("")}</div>`
+          : ""
+      }
+    </div>
+  `;
 }
 
 function woundBehindPassionSection(wound) {
