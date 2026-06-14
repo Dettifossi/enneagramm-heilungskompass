@@ -1,6 +1,6 @@
 # CLAUDE.md — Enneagramm-Kompass (App)
 
-> **Aktiver Ordner:** `~/Desktop/enneagramm-kompass-arbeitskopie` (Git-Repo).
+> **Aktiver Ordner:** `~/Desktop/Enneagramm-Material & Kurse/enneagramm-kompass-arbeitskopie` (Git-Repo).
 > Nicht verwechseln mit den Kopien (`… Kopie`, `… Kopie 2`) oder `enneagramm-kompass-mvp` —
 > die sind Sicherungen/ältere Stände und **nicht** der Arbeitsstand.
 
