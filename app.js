@@ -1,9 +1,20 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v10";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v14";
 
 const app = document.querySelector("#app");
+const PROFILE_KEY = "enneagramm-kompass:profile";
+const VISITED_KEY = "enneagramm-kompass:visited";
+
+function hasProfile() {
+  return !!localStorage.getItem(PROFILE_KEY);
+}
+function loadProfile() {
+  const code = localStorage.getItem(PROFILE_KEY) || "sx6";
+  return subtypeProfiles[code.toLowerCase()] || subtypeProfiles.sx6;
+}
 const state = {
   route: location.hash.replace("#", "") || "start",
-  profile: subtypeProfiles.sx6,
+  profile: loadProfile(),
+  isFirstVisit: !localStorage.getItem(VISITED_KEY),
 };
 const text = uiText;
 
@@ -98,14 +109,42 @@ function pageHeader(active) {
 function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
+  const firstVisit = state.isFirstVisit;
+
+  const onboardingBanner = firstVisit ? `
+    <div class="onboarding-banner">
+      <div class="onboarding-banner__icon">${compassMark("mini")}</div>
+      <div class="onboarding-banner__copy">
+        <strong>Willkommen beim Enneagramm-Heilungskompass</strong>
+        <p>Damit der Kompass auf dich persönlich ausgerichtet ist, wähle zuerst deinen Enneagramm-Subtyp.</p>
+      </div>
+      <button class="primary" data-route="profile">Meinen Subtyp wählen →</button>
+    </div>
+  ` : '';
+
+  const profileGlimpse = !firstVisit ? `
+    <div class="first-glimpse">
+      ${p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge">${p.emoji || p.code}</div>`}
+      <div>
+        <span>${p.code} · ${p.title}</span>
+        <strong>${p.focus}</strong>
+        <em>${copy.animalPrefix} ${p.archetype}</em>
+      </div>
+    </div>
+  ` : '';
+
   return shell(`
+    ${onboardingBanner}
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
       <h1>${copy.headline}</h1>
       <p class="lead">${copy.lead}</p>
       <div class="hero__actions">
-        <button class="primary" data-route="dashboard">${copy.primaryAction}</button>
+        ${firstVisit
+          ? `<button class="primary" data-route="profile">Meinen Subtyp wählen →</button>`
+          : `<button class="primary" data-route="dashboard">${copy.primaryAction}</button>`
+        }
         <button class="secondary" data-route="knowledge">${copy.secondaryAction}</button>
       </div>
       <div class="entry-panel">
@@ -116,14 +155,7 @@ function startPage() {
             .join("")}
         </div>
       </div>
-      <div class="first-glimpse">
-        <img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />
-        <div>
-          <span>${p.code} · ${p.title}</span>
-          <strong>${p.focus}</strong>
-          <em>${copy.animalPrefix} ${p.archetype}</em>
-        </div>
-      </div>
+      ${profileGlimpse}
     </section>
   `);
 }
@@ -135,17 +167,19 @@ function dashboardPage() {
     ${pageHeader("dashboard")}
     <section class="dashboard">
       <div class="profile-visual">
-        <img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />
+        ${p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge profile-badge--large">${p.emoji || p.code}</div>`}
       </div>
       <div class="dashboard__copy">
-        <p class="eyebrow">${copy.greeting} · ${p.center}</p>
+        <p class="eyebrow">${copy.greeting} · ${p.center} · ${p.typeLabel || ''}</p>
         <h1>${p.code} · ${p.title}</h1>
-        <p class="subtle-archetype">${copy.animalBackground} ${p.archetype}</p>
+        <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype}</p>
+        ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${p.variant}</span>` : ''}
         <p class="focus">${copy.todayFocus} ${p.focus}</p>
         <div class="question-box">
           <span>${copy.organismQuestion}</span>
           <p>${p.organismQuestion}</p>
         </div>
+        <button class="ghost-link" data-route="profile">Profil wechseln →</button>
       </div>
     </section>
     <section class="daily-grid">
@@ -901,6 +935,51 @@ function mediaTile(resource) {
   `;
 }
 
+function profilePage() {
+  const allCodes = Object.keys(subtypeProfiles);
+  const groups = [
+    { label: "Bauchzentrum · Typ 1, 8, 9", hint: "Handlung, Instinkt, Körper", codes: allCodes.filter(c => [1,8,9].includes(parseInt(c[2]))) },
+    { label: "Herzzentrum · Typ 2, 3, 4", hint: "Gefühl, Beziehung, Identität", codes: allCodes.filter(c => [2,3,4].includes(parseInt(c[2]))) },
+    { label: "Kopfzentrum · Typ 5, 6, 7", hint: "Denken, Sicherheit, Vorstellung", codes: allCodes.filter(c => [5,6,7].includes(parseInt(c[2]))) },
+  ];
+  const current = state.profile.id;
+  const firstVisit = state.isFirstVisit;
+
+  return shell(`
+    ${firstVisit ? '' : pageHeader("profile")}
+    <section class="narrow centered profile-intro">
+      ${firstVisit ? `<div class="profile-intro__compass">${compassMark("small")}</div>` : ''}
+      <h1>${firstVisit ? 'Welcher Subtyp bist du?' : 'Profil wechseln'}</h1>
+      <p class="lead-small">${firstVisit
+        ? 'Wähle deinen Enneagramm-Subtyp. Der Kompass richtet sich vollständig auf dich aus — Tagesimpuls, Muster, Werkzeuge und Heilungsweg.'
+        : 'Dein aktuelles Profil ist <strong>' + state.profile.code + ' · ' + state.profile.title + '</strong>. Wähle einen anderen Subtyp, um den Kompass neu auszurichten.'
+      }</p>
+    </section>
+    ${groups.map(g => `
+      <section class="profile-group">
+        <div class="profile-group__head">
+          <h2 class="profile-group__label">${g.label}</h2>
+          <span class="profile-group__hint">${g.hint}</span>
+        </div>
+        <div class="profile-grid">
+          ${g.codes.map(id => {
+            const p = subtypeProfiles[id];
+            const active = id === current ? ' profile-card--active' : '';
+            return `<button class="profile-card${active}" data-select-profile="${id}">
+              <span class="profile-card__emoji">${p.emoji || ''}</span>
+              <span class="profile-card__code">${p.code}</span>
+              <strong class="profile-card__title">${p.title}</strong>
+              ${p.titleAlt ? `<em class="profile-card__alt">${p.titleAlt}</em>` : ''}
+              ${p.variant ? `<span class="profile-card__variant">${p.variant}</span>` : ''}
+            </button>`;
+          }).join("")}
+        </div>
+      </section>
+    `).join("")}
+    ${firstVisit ? `<p class="profile-skip">Noch unsicher? <button class="ghost-link" data-route="knowledge">Erst den Wissens-Atlas erkunden</button></p>` : ''}
+  `);
+}
+
 function statusLabel(status) {
   return text.statusLabels[status] || status;
 }
@@ -935,6 +1014,19 @@ function bindEvents() {
       document.querySelector("#saveStatus").textContent = text.routes.reflection.saved;
     });
   }
+
+  document.querySelectorAll("[data-select-profile]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.selectProfile;
+      if (subtypeProfiles[id]) {
+        localStorage.setItem(PROFILE_KEY, id);
+        localStorage.setItem(VISITED_KEY, "1");
+        state.profile = subtypeProfiles[id];
+        state.isFirstVisit = false;
+        go("dashboard");
+      }
+    });
+  });
 }
 
 function render() {
@@ -949,6 +1041,7 @@ function render() {
     practice: practicePage,
     library: libraryPage,
     knowledge: knowledgePage,
+    profile: profilePage,
   };
   const [base, param] = state.route.split("/");
   if (base === "subtype" && param) {

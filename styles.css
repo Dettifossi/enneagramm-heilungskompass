@@ -1631,3 +1631,126 @@ textarea:focus {
 @media (max-width: 640px) {
   .rooms-grid, .mein-kompass__cols { grid-template-columns: 1fr; }
 }
+
+/* ==================== Profil-Badge (wenn kein Bild vorhanden) ==================== */
+.profile-badge {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--sage), var(--deep));
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; font-weight: 700; letter-spacing: 0.05em;
+}
+.profile-badge--large { width: 120px; height: 120px; font-size: 1.4rem; }
+
+/* ==================== Profil-Wähler ==================== */
+.profile-group { max-width: 900px; margin: 0 auto 32px; }
+.profile-group__label { font-size: 0.85rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 12px; }
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+}
+.profile-card {
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255,252,245,0.7);
+  padding: 12px 10px;
+  text-align: left;
+  display: flex; flex-direction: column; gap: 4px;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.profile-card:hover { border-color: var(--sage); box-shadow: 0 2px 10px rgba(60,72,48,0.1); }
+.profile-card--active { border-color: var(--copper); background: rgba(165,96,61,0.06); }
+.profile-card__code { font-size: 0.78rem; font-weight: 700; color: var(--copper); }
+.profile-card__title { font-size: 0.92rem; color: var(--deep); line-height: 1.2; }
+.profile-card__animal { font-size: 0.78rem; color: var(--muted); }
+
+/* ==================== Onboarding-Banner ==================== */
+.onboarding-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, var(--moss), var(--deep));
+  color: #fff;
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.onboarding-banner__icon { flex-shrink: 0; opacity: 0.7; }
+.onboarding-banner__copy { flex: 1; min-width: 200px; }
+.onboarding-banner__copy strong { display: block; font-size: 1rem; margin-bottom: 4px; }
+.onboarding-banner__copy p { margin: 0; font-size: 0.9rem; opacity: 0.88; line-height: 1.45; }
+.onboarding-banner .primary {
+  background: rgba(255,255,255,0.15);
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.onboarding-banner .primary:hover { background: rgba(255,255,255,0.25); }
+
+/* ==================== Profil-Intro (Wahl-Seite) ==================== */
+.profile-intro { padding-top: 12px; }
+.profile-intro__compass { margin-bottom: 16px; }
+.profile-group__head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.profile-group__hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.profile-skip {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin-top: 32px;
+}
+
+/* ==================== Emoji-Badge & Profilkarte ==================== */
+.profile-badge {
+  font-size: 2rem;
+  line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.profile-badge--large { font-size: 3.2rem; }
+.profile-card__emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ==================== Varianten-Tag (Normal/Verstärkungs/Kontratyp) ==================== */
+.variant-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+.variant-tag--normaltyp       { background: rgba(96, 116, 104, 0.12); color: var(--moss); }
+.variant-tag--verstaerkungstyp { background: rgba(165, 96, 61, 0.12); color: var(--copper); }
+.variant-tag--kontratyp       { background: rgba(36, 57, 72, 0.1);   color: var(--deep); }
+
+.profile-card__alt {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.2;
+}
+.profile-card__variant {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--copper);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2px;
+}
