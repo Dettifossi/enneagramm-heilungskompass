@@ -1583,6 +1583,14 @@ textarea:focus {
 .room__body { display: grid; gap: 12px; }
 .room-field strong { display: block; color: var(--deep); margin-bottom: 4px; }
 .room-field p { margin: 0; color: var(--muted); line-height: 1.55; }
+.room-field--quote blockquote {
+  margin: 0;
+  padding: 8px 12px;
+  border-left: 3px solid var(--copper, #a8643f);
+  color: var(--deep);
+  font-style: italic;
+  line-height: 1.55;
+}
 .room-pending { color: rgba(120,120,120,0.85); font-style: italic; margin: 0; }
 
 .deepen-intro { margin: 0 0 6px; color: var(--muted); }
