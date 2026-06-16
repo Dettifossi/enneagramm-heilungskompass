@@ -1922,6 +1922,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
       subtypeQuestion:
         "Wie kann ich richtig handeln und meine Integrität bewahren, ohne mich innerlich zu verhärten?",
+      integrationSentence: "Ordnung entsteht aus Präsenz, nicht aus Kontrolle.",
       coreSentence:
         "Wenn du Ordnung zulässt, ohne dich zu verhärten, entsteht innere Sicherheit und echte Stabilität.",
       visualPages: [
@@ -2663,6 +2664,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
       subtypeQuestion:
         "Wie kann ich Orientierung und Integrität geben, ohne andere oder mich selbst zu verurteilen?",
+      integrationSentence: "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.",
       coreSentence:
         "Wenn du Vorbild bist, ohne zu richten, entsteht Würde, Klarheit und natürliche Autorität.",
       visualPages: [
@@ -2862,6 +2864,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
       subtypeQuestion:
         "Wie kann ich meine Leidenschaft für das Richtige leben, ohne Druck, Kontrolle oder Härte zu erzeugen?",
+      integrationSentence: "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.",
       coreSentence:
         "Wenn du dein Feuer nicht bekämpfst, sondern bewusst führst, wird Leidenschaft klar und heilsam.",
       visualPages: [
@@ -3061,6 +3064,7 @@ export const knowledgePrototype = {
       organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
       subtypeQuestion:
         "Wie kann ich Geborgenheit und Fürsorge geben, ohne meine eigenen Bedürfnisse zu übergehen?",
+      integrationSentence: "Ich bin eine Quelle der Fürsorge, die zuerst mich selbst nährt.",
       coreSentence:
         "Wenn du deine eigenen Bedürfnisse ernst nimmst, entsteht Nähe ohne Erwartung.",
       visualPages: type2VisualPages("SE2", "Selbsterhaltende Zwei"),
@@ -3222,6 +3226,7 @@ export const knowledgePrototype = {
       organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
       subtypeQuestion:
         "Wie kann ich Menschen verbinden und unterstützen, ohne meinen Wert aus dem Gebrauchtwerden zu beziehen?",
+      integrationSentence: "Ich gebe aus Liebe – und empfange mit offenem Herzen.",
       coreSentence:
         "Wenn du nicht gebraucht werden musst, wird deine Liebe frei, großzügig und liebevoll.",
       visualPages: type2VisualPages("SO2", "Soziale Zwei"),
@@ -3385,6 +3390,7 @@ export const knowledgePrototype = {
       organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
       subtypeQuestion:
         "Wie kann ich tiefe Nähe und Liebe zulassen, ohne sie durch Geben, Locken oder Kümmern sichern zu müssen?",
+      integrationSentence: "Ich gebe mich ganz hin und empfange echte Verbindung.",
       coreSentence:
         "Wenn du Liebe nicht erobern musst, kann echte Verbundenheit dich wirklich erreichen.",
       visualPages: type2VisualPages("SX2", "Sexuelle Zwei"),
@@ -3548,6 +3554,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
       subtypeQuestion:
         "Wie kann ich wirksam und verlässlich sein, ohne meinen Wert über Leistung und Funktionieren zu beweisen?",
+      integrationSentence: "Ich passe mich an, ohne mich zu verlieren, und finde Halt in mir selbst.",
       coreSentence:
         "Wenn du aufhörst, nur zu funktionieren, erscheint dein Wert ohne Leistung und Anpassung.",
       visualPages: type3VisualPages("SE3", "Selbsterhaltende Drei"),
@@ -3712,6 +3719,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
       subtypeQuestion:
         "Wie kann ich sichtbar wirken und beitragen, ohne mich über Erfolg, Rolle oder Anerkennung zu definieren?",
+      integrationSentence: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
       coreSentence:
         "Wenn du nicht glänzen musst, wird deine Wirkung wahrhaftig, menschlich und stark.",
       visualPages: type3VisualPages("SO3", "Soziale Drei"),
@@ -3862,6 +3870,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
       subtypeQuestion:
         "Wie kann ich anziehend und lebendig sein, ohne mich für Liebe, Resonanz oder Bewunderung inszenieren zu müssen?",
+      integrationSentence: "Ich bin genug, auch wenn ich nicht performe – meine echte Ausstrahlung zieht an.",
       coreSentence:
         "Wenn du dich nicht inszenieren musst, entsteht echte Ausstrahlung aus innerem Wert.",
       visualPages: type3VisualPages("SX3", "Sexuelle Drei"),
@@ -4013,6 +4022,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
       subtypeQuestion:
         "Wie kann ich meine Tiefe und Verletzlichkeit tragen, ohne mich über Schmerz oder Mangel zu definieren?",
+      integrationSentence: "Frieden entsteht, wenn du aufhörst, dich selbst zu verleugnen.",
       coreSentence:
         "Wenn du Schmerz nicht still beweisen musst, entsteht würdevolle Lebendigkeit und innere Kraft.",
       visualPages: type4VisualPages("SE4", "Selbsterhaltende Vier"),
@@ -4173,6 +4183,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
       subtypeQuestion:
         "Wie kann ich mich in meiner Besonderheit zeigen, ohne mich mit anderen zu vergleichen oder ausgeschlossen zu fühlen?",
+      integrationSentence: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
       coreSentence:
         "Wenn du deinen Mangel nicht festhältst, entsteht Zugehörigkeit, Selbstannahme und stille Würde.",
       visualPages: type4VisualPages("SO4", "Soziale Vier"),
@@ -4322,6 +4333,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
       subtypeQuestion:
         "Wie kann ich Intensität und Echtheit leben, ohne Drama, Konkurrenz oder emotionale Zuspitzung zu brauchen?",
+      integrationSentence: "Ich bin einzigartig – und genau darin liegt meine Verbindung zur Welt.",
       coreSentence:
         "Wenn du Intensität nicht erzwingen musst, wird Tiefe zu Liebe ohne Drama.",
       visualPages: type4VisualPages("SX4", "Sexuelle Vier"),
@@ -4480,6 +4492,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
       subtypeQuestion:
         "Wie kann ich meinen Raum und meine Energie schützen, ohne mich vom Leben zurückzuziehen?",
+      integrationSentence: "Ich vertraue auf mein Wissen und wähle, was mir wirklich dient.",
       coreSentence:
         "Wenn du dem Leben wieder Zugang gewährst, entsteht Sicherheit ohne ständigen Rückzug.",
       visualPages: type5VisualPages("SE5", "Selbsterhaltende Fünf"),
@@ -4639,6 +4652,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
       subtypeQuestion:
         "Wie kann ich mein Wissen teilen und Orientierung geben, ohne mich über Distanz oder Überlegenheit zu sichern?",
+      integrationSentence: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
       coreSentence:
         "Wenn Wissen nicht über Menschen steht, entsteht wirkliche Weisheit und lebendiger Kontakt.",
       visualPages: type5VisualPages("SO5", "Soziale Fünf"),
@@ -4798,6 +4812,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
       subtypeQuestion:
         "Wie kann ich tiefe Verbindung zulassen, ohne mich in Geheimhaltung, Rückzug oder innerer Kontrolle zu verlieren?",
+      integrationSentence: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
       coreSentence:
         "Wenn du dich nicht nur im Geheimen öffnest, wird Nähe tragfähig und frei.",
       lifeTheme: [
@@ -4964,6 +4979,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
       subtypeQuestion:
         "Wie kann ich Sicherheit und Halt finden, ohne mich dauerhaft abzusichern?",
+      integrationSentence: "Ich wähle Vertrauen statt Angst und Mut statt Kontrolle.",
       coreSentence:
         "Wenn du deinem Körper vertraust, entsteht Ruhe, auch wenn nicht alles sicher ist.",
       lifeTheme: [
@@ -5113,6 +5129,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
       subtypeQuestion:
         "Wie kann ich loyal beitragen und Orientierung schaffen, ohne meine innere Autorität an Regeln oder Gruppen abzugeben?",
+      integrationSentence: "Ich wähle Vertrauen statt Angst und Verbundenheit statt Kontrolle.",
       coreSentence:
         "Wenn Regeln nicht dein Gewissen ersetzen, entsteht innere Standfestigkeit und Freiheit.",
       lifeTheme: [
@@ -5262,6 +5279,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
       subtypeQuestion:
         "Wie kann ich mutig und klar sein, ohne Angst durch Kampf, Härte oder Misstrauen zu kompensieren?",
+      integrationSentence: "Ich wähle Vertrauen statt Angst und Verbindung statt Kontrolle.",
       coreSentence:
         "Wenn du nicht kämpfen musst, um sicher zu sein, entsteht Mut und Vertrauen.",
       lifeTheme: [
@@ -5411,6 +5429,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
       subtypeQuestion:
         "Wie kann ich Freude, Genuss und Möglichkeiten erleben, ohne vor Begrenzung oder innerer Leere auszuweichen?",
+      integrationSentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
       coreSentence:
         "Wenn du genug hast, ohne mehr zu brauchen, entsteht wirklicher Genuss und innere Ruhe.",
       lifeTheme: [
@@ -5506,6 +5525,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
       subtypeQuestion:
         "Wie kann ich inspirieren und Zukunft gestalten, ohne mich durch Ideen, Projekte oder Gruppenaktivität zu zerstreuen?",
+      integrationSentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
       coreSentence:
         "Wenn du nicht gut sein musst, wird deine Freude ehrlich, frei und nahbar.",
       lifeTheme: [
@@ -5601,6 +5621,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
       subtypeQuestion:
         "Wie kann ich Intensität und Begeisterung leben, ohne Tiefe, Begrenzung oder Ernüchterung zu vermeiden?",
+      integrationSentence: "Ich tauche tief in das Leben ein und ermögliche mir echte Verbundenheit.",
       coreSentence:
         "Wenn du Tiefe zulässt, statt das Besondere zu jagen, entsteht echte Erfüllung.",
       lifeTheme: [
@@ -5696,6 +5717,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
       subtypeQuestion:
         "Wie kann ich Kraft und Selbstbestimmung leben, ohne Weichheit, Vertrauen oder Verletzlichkeit abzuwehren?",
+      integrationSentence: "Ich nutze meine Kraft, um zu schützen, zu gestalten und das Leben zu stärken.",
       coreSentence:
         "Wenn du Kontrolle loslässt, bleibt deine Kraft lebendig, klar und ohne Härte.",
       lifeTheme: [
@@ -5791,6 +5813,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
       subtypeQuestion:
         "Wie kann ich schützen und führen, ohne Verantwortung in Kontrolle oder Besitz zu verwandeln?",
+      integrationSentence: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu gestalten.",
       coreSentence:
         "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
       lifeTheme: [
@@ -5886,6 +5909,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
       subtypeQuestion:
         "Wie kann ich Intensität und Macht bewusst leben, ohne Nähe zur Machtprobe werden zu lassen?",
+      integrationSentence: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in seiner Tiefe zu erfahren.",
       coreSentence:
         "Wenn du Intensität nicht mit Kampf verwechselst, entsteht Nähe und Vertrauen ohne Machtprobe.",
       lifeTheme: [
@@ -5981,6 +6005,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
       subtypeQuestion:
         "Wie kann ich Ruhe und Stabilität bewahren, ohne mich selbst zu betäuben oder unsichtbar zu machen?",
+      integrationSentence: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
       coreSentence:
         "Wenn du dich selbst wichtig nimmst und nicht betäubst, entsteht lebendige innere Präsenz.",
       lifeTheme: [
@@ -6076,6 +6101,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
       subtypeQuestion:
         "Wie kann ich Harmonie und Zugehörigkeit fördern, ohne meine eigene Position zu verlieren?",
+      integrationSentence: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
       coreSentence:
         "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
       lifeTheme: [
@@ -6171,6 +6197,7 @@ export const knowledgePrototype = {
       organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
       subtypeQuestion:
         "Wie kann ich Verschmelzung und Liebe zulassen, ohne mich selbst im Anderen aufzugeben?",
+      integrationSentence: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
       coreSentence:
         "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
       lifeTheme: [
@@ -7825,6 +7852,7 @@ export const uiText = {
     coreSentence: "Kernsatz",
     lifeTheme: "Lebensthema",
     resourceField: "Ressourcenfeld",
+    integrationSentence: "Leitsatz der Integration",
     integrationPath: "Integrationsweg",
     integratedState: "Integrierter Zustand",
     unconsciousStrategy: "Unbewusste Strategie",
