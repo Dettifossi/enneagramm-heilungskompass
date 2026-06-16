@@ -6976,7 +6976,7 @@ export const subtypeDetails = {
   se2: {
     meinKompass: {
       lebensthema: "Nähe, Unterstützung und emotionale Sicherheit suchen. Gebraucht werden wollen und dabei die Bedürfnisse anderer oft über die eigenen stellen. Dein innerer Weg führt von Selbstaufgabe hin zu Selbstfürsorge.",
-      grundstrategie: "Bindung über Fürsorge und Verfügbarkeit absichern. Sich stark nach den Bedürfnissen anderer richten und eigene Wünsche zurückhalten"",
+      grundstrategie: "Bindung über Fürsorge und Verfügbarkeit absichern. Sich stark nach den Bedürfnissen anderer richten und eigene Wünsche zurückhalten",
       staerken: [
       "warme Ausstrahlung",
       "natürliche Hilfsbereitschaft",
@@ -7012,7 +7012,7 @@ export const subtypeDetails = {
   se3: {
     meinKompass: {
       lebensthema: "Sicherheit durch Leistung, Effizienz und Selbstständigkeit suchen. Erfolgreich und wirksam sein wollen und dabei eigene Bedürfnisse oft zurückhalten. Dein innerer Weg führt von Selbsttäuschung hin zu Authentizität.",
-      grundstrategie: "Sicherheit über Leistung und Kontrolle gewinnen wollen. Gefühle und Bedürfnisse zurückhalten und sich stark auf Funktionieren ausrichten"",
+      grundstrategie: "Sicherheit über Leistung und Kontrolle gewinnen wollen. Gefühle und Bedürfnisse zurückhalten und sich stark auf Funktionieren ausrichten",
       staerken: [
       "praktisch und lösungsorientiert",
       "flexibel und situationsfähig",
@@ -7049,7 +7049,7 @@ export const subtypeDetails = {
   se4: {
     meinKompass: {
       lebensthema: "Tiefe, Echtheit und inneren Halt in dir selbst suchen. Mangel und Sehnsucht intensiv spüren und still mit dir allein tragen. Dein innerer Weg führt von Selbstmangel hin zu Selbstannahme.",
-      grundstrategie: "Schmerz und Enttäuschung innerlich festhalten. Sich zurückziehen, wenn Verletzung oder Missverstehen auftaucht"",
+      grundstrategie: "Schmerz und Enttäuschung innerlich festhalten. Sich zurückziehen, wenn Verletzung oder Missverstehen auftaucht",
       staerken: [
       "tiefer innerer Rückzug",
       "reiche Gefühlswelt",
@@ -7086,7 +7086,7 @@ export const subtypeDetails = {
   se5: {
     meinKompass: {
       lebensthema: "Sicherheit durch Wissen, Rückzug und innere Unabhängigkeit suchen. Lieber aus sicherer Distanz beobachten und dabei den eigenen Raum schützen. Dein innerer Weg führt von Selbstisolation hin zu Verbundenheit.",
-      grundstrategie: "Abstand halten und Rückzug bewahren. Vereinnahmung vermeiden und Energie, Gefühle und Bedürfnisse stark kontrollieren"",
+      grundstrategie: "Abstand halten und Rückzug bewahren. Vereinnahmung vermeiden und Energie, Gefühle und Bedürfnisse stark kontrollieren",
       staerken: [
       "ruhiger Atem",
       "fokussierter Blick",
@@ -7123,7 +7123,7 @@ export const subtypeDetails = {
   se6: {
     meinKompass: {
       lebensthema: "Sicherheit, Stabilität und verlässlichen Halt im Leben suchen. Vorbereitet und geschützt sein wollen und mögliche Gefahren früh erkennen. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
-      grundstrategie: "Sicherheit durch Kontrolle und Vorbereitung herstellen. Den Blick stark auf mögliche Risiken richten und Anspannung innerlich halten"",
+      grundstrategie: "Sicherheit durch Kontrolle und Vorbereitung herstellen. Den Blick stark auf mögliche Risiken richten und Anspannung innerlich halten",
       staerken: [],
       herausforderungen: [
       "Gefahren früh erkennen und Kontrolle behalten wollen",
@@ -7150,7 +7150,7 @@ export const subtypeDetails = {
   se7: {
     meinKompass: {
       lebensthema: "Sicherheit durch Freiheit, Möglichkeiten und positive Erfahrungen suchen. Lebendig und unabhängig bleiben wollen und dabei leicht Schmerz und Begrenzung vermeiden. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
-      grundstrategie: "Sicherheit durch Möglichkeiten, Ideen und positive Perspektiven suchen"",
+      grundstrategie: "Sicherheit durch Möglichkeiten, Ideen und positive Perspektiven suchen",
       staerken: [],
       herausforderungen: [
       "Sicherheit durch Möglichkeiten, Ideen und positive Perspektiven suchen",
@@ -7177,7 +7177,7 @@ export const subtypeDetails = {
   se8: {
     meinKompass: {
       lebensthema: "Sicherheit durch Kraft, Kontrolle und Selbstbehauptung suchen. Unabhängig und unangreifbar bleiben wollen und dabei Verletzlichkeit besonders stark schützen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
-      grundstrategie: "Die Umgebung kontrollieren, um Schwäche und Abhängigkeit zu vermeiden"",
+      grundstrategie: "Die Umgebung kontrollieren, um Schwäche und Abhängigkeit zu vermeiden",
       staerken: [],
       herausforderungen: [
       "Die Umgebung kontrollieren, um Schwäche und Abhängigkeit zu vermeiden",
@@ -7204,7 +7204,7 @@ export const subtypeDetails = {
   se9: {
     meinKompass: {
       lebensthema: "Ruhe, Stabilität und angenehme Sicherheit im Alltag suchen. Spannungen vermeiden und sich harmonisch anpassen wollen. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
-      grundstrategie: "Konflikte vermeiden und Gewohntes aufrechterhalten, um innere Ruhe zu bewahren"",
+      grundstrategie: "Konflikte vermeiden und Gewohntes aufrechterhalten, um innere Ruhe zu bewahren",
       staerken: [],
       herausforderungen: [
       "Konflikte vermeiden und Gewohntes aufrechterhalten, um innere Ruhe zu bewahren",
@@ -7231,7 +7231,7 @@ export const subtypeDetails = {
   so1: {
     meinKompass: {
       lebensthema: "Verantwortung übernehmen und das Richtige bewirken wollen. Sich an hohen Idealen orientieren und auch von anderen Integrität und Haltung erwarten. Klarheit durch Vertrauen, Offenheit und mitfühlende Selbstannahme finden.",
-      grundstrategie: "Starke Orientierung an Regeln, Werten und moralischer Klarheit. Sich und andere kontrollieren, um Fehler oder falsches Verhalten zu vermeiden"",
+      grundstrategie: "Starke Orientierung an Regeln, Werten und moralischer Klarheit. Sich und andere kontrollieren, um Fehler oder falsches Verhalten zu vermeiden",
       staerken: [
       "ruhiger Atem",
       "entspannter Kiefer",
@@ -7268,7 +7268,7 @@ export const subtypeDetails = {
   so2: {
     meinKompass: {
       lebensthema: "Zugehörigkeit, Anerkennung und Verbindung in Gemeinschaften suchen. Für andere da sein wollen und darüber leicht den eigenen Wert gewinnen. Dein innerer Weg führt von Selbstaufgabe hin zu Selbstfürsorge.",
-      grundstrategie: "Über Nähe und Fürsorge sozialen Wert gewinnen. Sich stark an Erwartungen anderer anpassen und eigene Bedürfnisse zurückhalten"",
+      grundstrategie: "Über Nähe und Fürsorge sozialen Wert gewinnen. Sich stark an Erwartungen anderer anpassen und eigene Bedürfnisse zurückhalten",
       staerken: [
       "warme Ausstrahlung",
       "empathisches Gespür",
@@ -7305,7 +7305,7 @@ export const subtypeDetails = {
   so3: {
     meinKompass: {
       lebensthema: "Anerkennung, Erfolg und Wirkung im sozialen Umfeld suchen. Gesehen und geschätzt werden wollen und sich dabei leicht an Erwartungen anderer ausrichten. Dein innerer Weg führt von Selbsttäuschung hin zu Authentizität.",
-      grundstrategie: "Über Leistung und Wirkung den eigenen Wert absichern. Sich stark an Erwartungen und Erfolgsbilder anpassen"",
+      grundstrategie: "Über Leistung und Wirkung den eigenen Wert absichern. Sich stark an Erwartungen und Erfolgsbilder anpassen",
       staerken: [
       "starke Ausstrahlung",
       "zielgerichtete Energie",
@@ -7342,7 +7342,7 @@ export const subtypeDetails = {
   so4: {
     meinKompass: {
       lebensthema: "Zugehörigkeit, Tiefe und einen Platz suchen, an dem du wirklich gesehen wirst. Dich leicht mit anderen vergleichen und besonders stark spüren, was dir fehlt. Dein innerer Weg führt von Selbstmangel hin zu Selbstannahme.",
-      grundstrategie: "Über Besonderheit und Gefühlstiefe deinen Platz sichern wollen. Anderssein sichtbar machen und darüber Resonanz und Zugehörigkeit suchen"",
+      grundstrategie: "Über Besonderheit und Gefühlstiefe deinen Platz sichern wollen. Anderssein sichtbar machen und darüber Resonanz und Zugehörigkeit suchen",
       staerken: [
       "tiefer innerer Rückzug",
       "reiche Gefühlswelt",
@@ -7379,7 +7379,7 @@ export const subtypeDetails = {
   so5: {
     meinKompass: {
       lebensthema: "Orientierung durch Wissen, Verständnis und geistige Klarheit suchen. Zusammenhänge durchdringen wollen und dabei Gefühle und Nähe oft auf Abstand halten. Dein innerer Weg führt von Selbstisolation hin zu Verbundenheit.",
-      grundstrategie: "Sicherheit über Wissen und geistige Klarheit gewinnen. Menschen und Systeme lieber aus der Distanz beobachten und Gefühle zurückhalten"",
+      grundstrategie: "Sicherheit über Wissen und geistige Klarheit gewinnen. Menschen und Systeme lieber aus der Distanz beobachten und Gefühle zurückhalten",
       staerken: [
       "ruhige Präsenz",
       "analytischer Verstand",
@@ -7415,7 +7415,7 @@ export const subtypeDetails = {
   so6: {
     meinKompass: {
       lebensthema: "Sicherheit durch Zugehörigkeit, Regeln und klare Orientierung suchen. Loyal und verlässlich sein wollen und genau prüfen, wem vertraut werden kann. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
-      grundstrategie: "Sicherheit über Orientierung, Regeln und Zugehörigkeit gewinnen. Menschen und Situationen genau prüfen und Zweifel stark kontrollieren"",
+      grundstrategie: "Sicherheit über Orientierung, Regeln und Zugehörigkeit gewinnen. Menschen und Situationen genau prüfen und Zweifel stark kontrollieren",
       staerken: [],
       herausforderungen: [
       "Starke Orientierung an Zugehörigkeit, Regeln und Verlässlichkeit",
@@ -7469,7 +7469,7 @@ export const subtypeDetails = {
   so8: {
     meinKompass: {
       lebensthema: "Einfluss, Schutz und Gerechtigkeit im sozialen Umfeld suchen. Für andere einstehen und dabei leicht zu viel Kontrolle übernehmen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
-      grundstrategie: "Verantwortung und Stärke für andere übernehmen"",
+      grundstrategie: "Verantwortung und Stärke für andere übernehmen",
       staerken: [],
       herausforderungen: [
       "Verantwortung und Stärke für andere übernehmen",
@@ -7496,7 +7496,7 @@ export const subtypeDetails = {
   so9: {
     meinKompass: {
       lebensthema: "Harmonie, Zugehörigkeit und den eigenen Platz im sozialen Gefüge suchen. Verbinden und niemanden stören wollen und sich dabei leicht den Erwartungen anderer anpassen. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
-      grundstrategie: "Zugehörigkeit und Harmonie in Gruppen suchen und die eigene Position hinten anstellen"",
+      grundstrategie: "Zugehörigkeit und Harmonie in Gruppen suchen und die eigene Position hinten anstellen",
       staerken: [],
       herausforderungen: [
       "Zugehörigkeit und Harmonie in Gruppen suchen und die eigene Position hinten anstellen",
@@ -7523,7 +7523,7 @@ export const subtypeDetails = {
   sx1: {
     meinKompass: {
       lebensthema: "Intensive Verbindung und gemeinsame Entwicklung suchen. Menschen inspirieren und verbessern wollen und dabei leicht in innere Spannung geraten. Fehler und Schwäche vermeiden wollen und dadurch leicht innere Entspannung verlieren.",
-      grundstrategie: "Gefühle und Spannungen verstärken, um Verbindung lebendig zu halten. Empfindlich auf Distanz oder Unstimmigkeiten reagieren"",
+      grundstrategie: "Gefühle und Spannungen verstärken, um Verbindung lebendig zu halten. Empfindlich auf Distanz oder Unstimmigkeiten reagieren",
       staerken: [
       "tiefer, fokussierter Blick",
       "kraftvolle Präsenz",
@@ -7560,7 +7560,7 @@ export const subtypeDetails = {
   sx2: {
     meinKompass: {
       lebensthema: "Intensive Nähe suchen und für besondere Menschen unentbehrlich sein wollen. Viel Liebe und Aufmerksamkeit geben und dafür tiefe Resonanz und Erwiderung erwarten. Dein innerer Weg führt von Selbstaufgabe hin zu Selbstfürsorge.",
-      grundstrategie: "Über besondere Nähe emotionale Bedeutung bekommen wollen. Sich stark an einzelne Menschen binden und dabei leicht Eigenständigkeit verlieren"",
+      grundstrategie: "Über besondere Nähe emotionale Bedeutung bekommen wollen. Sich stark an einzelne Menschen binden und dabei leicht Eigenständigkeit verlieren",
       staerken: [
       "magnetische Ausstrahlung",
       "intensive Präsenz",
@@ -7597,7 +7597,7 @@ export const subtypeDetails = {
   sx3: {
     meinKompass: {
       lebensthema: "Verbindung suchen und durch Ausstrahlung beeindrucken wollen. Begehrt und besonders wahrgenommen werden wollen und sich dabei leicht an ideale Bilder anpassen. Dein innerer Weg führt von Selbsttäuschung hin zu Authentizität.",
-      grundstrategie: "Über Ausstrahlung und Wirkung Anerkennung bekommen wollen. Sich stark an Wünschen und Idealen anderer anpassen, um begehrt und bewundert zu werden"",
+      grundstrategie: "Über Ausstrahlung und Wirkung Anerkennung bekommen wollen. Sich stark an Wünschen und Idealen anderer anpassen, um begehrt und bewundert zu werden",
       staerken: [
       "starke Ausstrahlung",
       "begeisterungsfähig",
@@ -7634,7 +7634,7 @@ export const subtypeDetails = {
   sx4: {
     meinKompass: {
       lebensthema: "Intensive Verbindung und tiefe emotionale Resonanz suchen. Sehnsucht, Leidenschaft und Verletzung besonders intensiv erleben und oft impulsiv reagieren. Dein innerer Weg führt von Selbstmangel hin zu Selbstannahme.",
-      grundstrategie: "Über Intensität und starke Gefühle Verbindung sichern wollen. Sehnsucht, Verletzung und Spannung sichtbar machen und darin Resonanz suchen"",
+      grundstrategie: "Über Intensität und starke Gefühle Verbindung sichern wollen. Sehnsucht, Verletzung und Spannung sichtbar machen und darin Resonanz suchen",
       staerken: [
       "tiefe emotionale Intensität",
       "authentischer Selbstausdruck",
@@ -7671,7 +7671,7 @@ export const subtypeDetails = {
   sx5: {
     meinKompass: {
       lebensthema: "Tiefe Verbindung mit wenigen, ausgewählten Menschen suchen. Sich nur vorsichtig öffnen und die Innenwelt besonders stark schützen. Dein innerer Weg führt von Selbstisolation hin zu Verbundenheit.",
-      grundstrategie: "Nähe nur sehr kontrolliert zulassen. Menschen aufmerksam beobachten und die Innenwelt lange verborgen halten"",
+      grundstrategie: "Nähe nur sehr kontrolliert zulassen. Menschen aufmerksam beobachten und die Innenwelt lange verborgen halten",
       staerken: [
       "feine Wahrnehmung",
       "emotionale Tiefe",
@@ -7708,7 +7708,7 @@ export const subtypeDetails = {
   sx6: {
     meinKompass: {
       lebensthema: "Intensive Verbindung, Schutz und absolute Verlässlichkeit suchen. Stark und unabhängig wirken wollen und dabei oft gegen innere Angst und Unsicherheit kämpfen. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
-      grundstrategie: "Sicherheit über Stärke, Kontrolle und intensive Bindung herstellen. Nähe und Vertrauen ständig prüfen und empfindlich auf Unsicherheit oder Distanz reagieren"",
+      grundstrategie: "Sicherheit über Stärke, Kontrolle und intensive Bindung herstellen. Nähe und Vertrauen ständig prüfen und empfindlich auf Unsicherheit oder Distanz reagieren",
       staerken: [],
       herausforderungen: [
       "Gegen Angst angehen, indem Stärke, Mut oder Widerstand gezeigt wird",
@@ -7735,7 +7735,7 @@ export const subtypeDetails = {
   sx7: {
     meinKompass: {
       lebensthema: "Intensive Erfahrung, Inspiration und besondere Verbindung suchen. Frei, lebendig und grenzenlos fühlen wollen und dabei Schmerz und Ernüchterung vermeiden. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
-      grundstrategie: "Intensive Erfahrungen, Inspiration und Begeisterung suchen"",
+      grundstrategie: "Intensive Erfahrungen, Inspiration und Begeisterung suchen",
       staerken: [],
       herausforderungen: [
       "Intensive Erfahrungen, Inspiration und Begeisterung suchen",
@@ -7762,7 +7762,7 @@ export const subtypeDetails = {
   sx8: {
     meinKompass: {
       lebensthema: "Intensive Verbindung, Stärke und absolute Lebendigkeit suchen. Kontrolle behalten und sich zugleich ganz hingeben wollen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
-      grundstrategie: "Intensive Begegnung, Wahrheit und direkte Konfrontation suchen"",
+      grundstrategie: "Intensive Begegnung, Wahrheit und direkte Konfrontation suchen",
       staerken: [],
       herausforderungen: [
       "Intensive Begegnung, Wahrheit und direkte Konfrontation suchen",
@@ -7789,7 +7789,7 @@ export const subtypeDetails = {
   sx9: {
     meinKompass: {
       lebensthema: "Tiefe Verbindung suchen und möglichst im Kontakt eins werden wollen. Andere intensiv spüren und sich dabei leicht selbst verlieren. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
-      grundstrategie: "Sich leicht in anderen verlieren und anpassen, um Harmonie zu bewahren"",
+      grundstrategie: "Sich leicht in anderen verlieren und anpassen, um Harmonie zu bewahren",
       staerken: [],
       herausforderungen: [
       "Sich leicht in anderen verlieren und anpassen, um Harmonie zu bewahren",
