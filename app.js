@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v6";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v7";
 
 const app = document.querySelector("#app");
 const state = {
@@ -517,6 +517,8 @@ function spuerenInner(entry, sp) {
       if (tp.microInstructions && tp.microInstructions.length) blocks.push(`<div class="room-field"><strong>${bsl.microInstructions || "Mikro-Anleitung"}</strong><ul>${tp.microInstructions.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
     }
   }
+  if (entry.archetypalEssence) blocks.push(`<div class="room-field"><strong>${sp.archetypalEssence || "Archetypische Essenz"}</strong><p>${entry.archetypalEssence}</p></div>`);
+  if (entry.integrativePotential) blocks.push(`<div class="room-field"><strong>${sp.integrativePotential || "Integratives Potenzial"}</strong><p>${entry.integrativePotential}</p></div>`);
   if (entry.essence && entry.essence.qualities) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities}</strong><ul>${entry.essence.qualities.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   return blocks.join("");
 }
@@ -524,6 +526,7 @@ function spuerenInner(entry, sp) {
 function regulierenInner(entry, sp) {
   const blocks = [];
   if (entry.turningPoint && entry.turningPoint.length) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Wendepunkt"}</strong><ul>${entry.turningPoint.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervensystem-Regulation"}</strong><ul>${entry.nervousSystemRegulation.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
   return blocks.join("");
 }

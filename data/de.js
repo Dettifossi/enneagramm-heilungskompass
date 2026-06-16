@@ -2120,6 +2120,16 @@ export const knowledgePrototype = {
         "Sich selbst mit mehr Milde und Verständnis begegnen.",
         "Entspannung ermöglicht Natürlichkeit und Vertrauen.",
       ],
+      archetypalEssence: "Integrität",
+      integrativePotential: "Ruhe & Integrität",
+      nervousSystemRegulation: [
+        "Spannung schneller loslassen",
+        "Kontrolle durch Wahrnehmung ersetzen",
+        "zwischen Aktivität und Ruhe wechseln",
+        "Perfektionismus und Härte lösen",
+        "Fehler nicht sofort als Bedrohung wahrnehmen",
+        "sich selbst weniger unter Dauerdruck setzen",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch, richtig und gut zu sein, und der Angst, Fehler zu machen oder die Kontrolle zu verlieren.",
         gazeQuality: [
@@ -2704,6 +2714,17 @@ export const knowledgePrototype = {
         "Mehr Menschlichkeit, Wärme und persönliche Lebendigkeit erlauben.",
         "Mitgefühl ersetzt innere Strenge und Bewertung.",
       ],
+      archetypalEssence: "Verbindung von Ideal, Gewissen und Herz",
+      integrativePotential: "Mitgefühl & Weisheit",
+      nervousSystemRegulation: [
+        "Spannung schneller loslassen",
+        "Bewertung in Verständnis wandeln",
+        "zwischen Aktivität und Ruhe wechseln",
+        "Perfektionismus und Härte lösen",
+        "sich selbst weniger verurteilen",
+        "Verantwortung entspannter tragen",
+        "inneren Druck reduzieren",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch, perfekt, richtig und gerecht zu sein, und der Angst, Fehler zu machen oder das Ganze im Stich zu lassen.",
         gazeQuality: [
@@ -2876,6 +2897,17 @@ export const knowledgePrototype = {
         "Unvollkommenheit bei sich selbst und anderen zulassen.",
         "Liebevolle Hingabe ersetzt inneren Kampf und Druck.",
       ],
+      archetypalEssence: "Hingabe",
+      integrativePotential: "Leidenschaft & Hingabe",
+      nervousSystemRegulation: [
+        "Spannung bewusst regulieren",
+        "intensive Energie kanalisieren",
+        "zwischen Nähe und Rückzug pendeln",
+        "Perfektionismus und Härte lösen",
+        "Impuls nicht sofort ausagieren",
+        "Leidenschaft in Dienst nehmen",
+        "sich selbst weniger unter Druck setzen",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch auf vollkommene Integrität und der Wut über Unordnung, Unrecht und menschliche Unvollkommenheit.",
         gazeQuality: [
@@ -3013,6 +3045,18 @@ export const knowledgePrototype = {
         "Beginnen, sich selbst ernst zu nehmen und Fürsorge auch anzunehmen.",
         "Innere Geborgenheit entsteht aus Selbstkontakt statt aus Abhängigkeit.",
       ],
+      archetypalEssence: "Fürsorge",
+      integrativePotential: "Selbstfürsorge & Fülle",
+      nervousSystemRegulation: [
+        "Sicherheit im Körper verankern",
+        "Grenzen wahrnehmen und achten",
+        "zwischen Geben und Nehmen balancieren",
+        "Überverantwortung loslassen",
+        "sich selbst versorgen",
+        "Bedürfnisse klar kommunizieren",
+        "Erholung bewusst einplanen",
+        "inneren Halt stärken",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, liebevoll und hilfsbereit zu sein, und der Angst, ausgenutzt, übergangen oder nicht wertgeschätzt zu werden.",
         gazeQuality: [
@@ -3145,6 +3189,18 @@ export const knowledgePrototype = {
         "Erkennen, dass Anerkennung und Gebrauchtwerden nicht den inneren Wert bestimmen.",
         "Sich selbst wichtiger nehmen und klare Grenzen setzen.",
         "Beziehungen entstehen aus Echtheit statt aus Anpassung und Helferrolle.",
+      ],
+      archetypalEssence: "Liebe",
+      integrativePotential: "Herz & Verbundenheit",
+      nervousSystemRegulation: [
+        "Sicherheit durch Beziehung",
+        "Grenzen spüren und achten",
+        "zwischen Geben und Empfangen balancieren",
+        "Überverantwortung loslassen",
+        "sich selbst wichtiger nehmen",
+        "Bedürfnisse klar kommunizieren",
+        "Erholung bewusst einplanen",
+        "inneren Halt stärken",
       ],
       bodySignature: {
         gazeQuality: [
@@ -3281,6 +3337,18 @@ export const knowledgePrototype = {
         "Authentisch und verletzlich sein, ohne sich beweisen zu müssen.",
         "Nähe entsteht durch Wahrhaftigkeit statt durch emotionale Verschmelzung.",
       ],
+      archetypalEssence: "Hingabe",
+      integrativePotential: "Tiefe & Hingabe",
+      nervousSystemRegulation: [
+        "Spannung im Körper regulieren",
+        "Eifersucht und Besitzdenken lösen",
+        "zwischen Nähe und Freiheit balancieren",
+        "Überidentifikation transformieren",
+        "sich selbst nicht verlieren",
+        "Bedürfnisse klar kommunizieren",
+        "Erholung bewusst einplanen",
+        "innere Grenzen stärken",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, gebraucht und einzigartig zu sein, und der Angst, nicht die wichtigste Person zu sein oder verlassen zu werden.",
         gazeQuality: [
@@ -3415,6 +3483,18 @@ export const knowledgePrototype = {
         "Erkennen, dass ständiges Funktionieren von echten Gefühlen entfernt.",
         "Sich unabhängig von Leistung wahrnehmen.",
         "Energie beruhigt sich, Authentizität wird wichtiger als Effizienz und Erfolg.",
+      ],
+      archetypalEssence: "Anpassungsfähigkeit",
+      integrativePotential: "Flexibilität & innere Stabilität",
+      nervousSystemRegulation: [
+        "Sicherheit durch Routine",
+        "sich selbst wahrnehmen",
+        "zwischen Aktivität und Ruhe balancieren",
+        "Reizüberflutung reduzieren",
+        "Bedürfnisse klar kommunizieren",
+        "Erholung bewusst einplanen",
+        "Grenzen spüren und wahren",
+        "inneren Halt stärken",
       ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
@@ -3552,6 +3632,18 @@ export const knowledgePrototype = {
         "Sich von äußeren Rollen und Erwartungen lösen.",
         "Energie wird authentischer; Wahrhaftigkeit ersetzt Identifikation mit Erfolg und Wirkung.",
       ],
+      archetypalEssence: "charismatische Wirksamkeit",
+      integrativePotential: "Wirkung & Exzellenz",
+      nervousSystemRegulation: [
+        "Aktivierung gezielt steuern",
+        "Erholung bewusst einplanen",
+        "zwischen Anspannung und Entspannung balancieren",
+        "Überidentifikation vermeiden",
+        "sich selbst nicht überfordern",
+        "Bedürfnisse klar kommunizieren",
+        "inneren Druck loslassen",
+        "inneren Halt stärken",
+      ],
       bodySignature: {
         gazeQuality: [
             "wach, prüfend und fokussiert",
@@ -3674,6 +3766,18 @@ export const knowledgePrototype = {
         "Sich erlauben, hinter Rollen und Bildern sichtbar zu werden.",
         "Energie wird ehrlicher; echte Präsenz ersetzt Druck, beeindrucken zu müssen.",
       ],
+      archetypalEssence: "magnetische Anziehungskraft",
+      integrativePotential: "Wirkung & Anziehung",
+      nervousSystemRegulation: [
+        "Spannung gezielt steuern",
+        "Erregung bewusst kanalisieren",
+        "zwischen Nähe und Rückzug pendeln",
+        "Perfektionismus und Überanpassung lösen",
+        "sich selbst spüren",
+        "Bedürfnisse ehrlich wahrnehmen",
+        "innere Leere füllen",
+        "im Körper ankommen",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
         gazeQuality: [
@@ -3794,6 +3898,18 @@ export const knowledgePrototype = {
         "Erkennen, dass stilles Leiden und Rückzug innere Schwere verstärken.",
         "Unterstützung annehmen und sich emotional öffnen.",
         "Selbstannahme ersetzt inneren Mangel und Härte gegen sich selbst.",
+      ],
+      archetypalEssence: "Authentizität",
+      integrativePotential: "Authentizität & Innerer Frieden",
+      nervousSystemRegulation: [
+        "Rückzug bewusst gestalten",
+        "kreativen Ausdruck pflegen",
+        "zwischen Nähe und Alleinsein balancieren",
+        "Perfektionismus und Selbstkritik lösen",
+        "Gefühle fließen lassen",
+        "sich selbst annehmen",
+        "Dauersehnsucht entspannen",
+        "im Körper ankommen",
       ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, authentisch und bedeutungsvoll zu sein, und der Angst, unverstanden oder zu viel zu sein.",
@@ -3927,6 +4043,8 @@ export const knowledgePrototype = {
         "Sich selbst annehmen, ohne sich ständig mit anderen zu messen.",
         "Zugehörigkeit entsteht durch Selbstannahme statt durch Leidensidentität.",
       ],
+      archetypalEssence: "emotionale Echtheit",
+      integrativePotential: "Authentizität & Bedeutungsvolle Verbindung",
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu werden.",
         gazeQuality: [
@@ -4058,6 +4176,18 @@ export const knowledgePrototype = {
         "Gefühle bewusster wahrnehmen, ohne sie ständig zu steigern.",
         "Echte Nähe entsteht durch innere Reife statt durch emotionale Zuspitzung.",
       ],
+      archetypalEssence: "emotionale Tiefe",
+      integrativePotential: "Tiefe & Einzigartigkeit",
+      nervousSystemRegulation: [
+        "Gefühle bewusst zulassen",
+        "kreativen Ausdruck kultivieren",
+        "zwischen Nähe und Rückzug pendeln",
+        "Selbstkritik sanft transformieren",
+        "sich selbst wahrnehmen",
+        "innere Leere annehmen",
+        "Perfektionismus und Idealismus lösen",
+        "im Körper ankommen",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, unverwechselbar und authentisch zu sein, und der Angst, übersehen, bewertet oder nicht verstanden zu werden.",
         gazeQuality: [
@@ -4187,6 +4317,18 @@ export const knowledgePrototype = {
         "Erkennen, dass dauerhafter Rückzug und Distanz innerlich isolieren.",
         "Sich wieder lebendig auf Kontakt und Erfahrung einlassen.",
         "Vertrauen ersetzt den ständigen Schutz innerer Räume.",
+      ],
+      archetypalEssence: "Sicherheit",
+      integrativePotential: "Wissen & Innere Sicherheit",
+      nervousSystemRegulation: [
+        "Reize dosiert aufnehmen",
+        "Rückzug zur Regeneration",
+        "zwischen Anspannung und Pause pendeln",
+        "Gedanken ordnen und filtern",
+        "Informationsflut begrenzen",
+        "sich selbst regulieren",
+        "Sicherheit im Inneren finden",
+        "Perfektionismus sanft lösen",
       ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
@@ -4319,6 +4461,18 @@ export const knowledgePrototype = {
         "Emotional präsenter und menschlich greifbarer werden.",
         "Austausch und Beteiligung statt Distanz und Kontrolle zulassen.",
       ],
+      archetypalEssence: "Tiefes Verstehen und sinnvolle Verbindung",
+      integrativePotential: "Wissen teilen & Verbindungen gestalten",
+      nervousSystemRegulation: [
+        "Reize filtern und priorisieren",
+        "Rückzug zur Regeneration",
+        "innere Ruhe kultivieren",
+        "Geist und Körper synchronisieren",
+        "Informationsflut begrenzen",
+        "bewusst Pausen schaffen",
+        "Sicherheit im Inneren stärken",
+        "Vertrauen durch Verbindung",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
         gazeQuality: [
@@ -4448,6 +4602,18 @@ export const knowledgePrototype = {
         "Erkennen, dass Sehnsucht und Idealisierung echte Nähe oft verhindern.",
         "Beziehungen realistischer und gleichzeitig offener erleben.",
         "Vertrauen statt Rückzug und Fantasie als Quelle von Verbundenheit zulassen.",
+      ],
+      archetypalEssence: "Vertrauensvolle Offenheit",
+      integrativePotential: "Vertrauen & Lebendigkeit",
+      nervousSystemRegulation: [
+        "innere Sicherheit kultivieren",
+        "langsame, tiefe Atmung",
+        "Grenzen spüren und wahren",
+        "Nähe dosiert zulassen",
+        "emotionale Regulation üben",
+        "Erdung im Körper verankern",
+        "Rückzug als Ressource nutzen",
+        "Verbindung bewusst gestalten",
       ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch nach tiefer Verbindung und der Angst, sich zu verletzlich zu zeigen.",
@@ -4587,6 +4753,8 @@ export const knowledgePrototype = {
         "Mehr Vertrauen in sich selbst und ins Leben entwickeln.",
         "Innere Sicherheit entsteht zunehmend aus Selbstvertrauen statt aus Kontrolle.",
       ],
+      archetypalEssence: "Der loyale Wächter",
+      integrativePotential: "Mut & Vertrauen",
       bodySignature: {
         basicTension: "Zwischen dem Wunsch nach Sicherheit und der Angst vor Gefahr oder Verrat.",
         gazeQuality: [
@@ -4718,6 +4886,8 @@ export const knowledgePrototype = {
         "Der inneren Stimme mehr vertrauen.",
         "Selbstverantwortung ersetzt dauerhafte Absicherung und Zweifel.",
       ],
+      archetypalEssence: "Die treue Beschützerin",
+      integrativePotential: "Zugehörigkeit & Vertrauen",
       bodySignature: {
         basicTension: "Zwischen dem Bedürfnis nach Sicherheit und Zugehörigkeit und der Angst vor Verrat oder Überforderung.",
         gazeQuality: [
@@ -4849,6 +5019,8 @@ export const knowledgePrototype = {
         "Angst bewusst wahrnehmen, ohne sie bekämpfen zu müssen.",
         "Echte Stärke entsteht durch Vertrauen statt durch permanente Spannung.",
       ],
+      archetypalEssence: "Der intensive Beschützer",
+      integrativePotential: "Mut & bedingungsloser Schutz",
       bodySignature: {
         basicTension: "Zwischen Angst und Mut, Rückzug und Angriff, Sicherheit und intensiver Bindung.",
         gazeQuality: [
@@ -4975,6 +5147,7 @@ export const knowledgePrototype = {
         "Auch unangenehme Gefühle bewusst wahrnehmen.",
         "Zufriedenheit entsteht aus Präsenz statt aus dauernder Reizsuche.",
       ],
+      integrativePotential: "Lebensfreude & Ressourcenfülle",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5064,6 +5237,7 @@ export const knowledgePrototype = {
         "Mehr Tiefe, Ruhe und Verbindlichkeit erlauben.",
         "Echte Freude entsteht durch Präsenz statt durch dauernde Ablenkung.",
       ],
+      integrativePotential: "Lebensfreude & inspirierende Verbindung",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5153,6 +5327,7 @@ export const knowledgePrototype = {
         "Sich tiefer auf den gegenwärtigen Moment einlassen.",
         "Echte Lebendigkeit entsteht durch Verkörperung statt durch Flucht in Möglichkeiten.",
       ],
+      integrativePotential: "Lebensfreude & tiefe, erfüllende Verbindungen",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5242,6 +5417,7 @@ export const knowledgePrototype = {
         "Weicher und empfänglicher werden, ohne Stärke zu verlieren.",
         "Vertrauen ersetzt den dauerhaften inneren Kampf ums Überleben.",
       ],
+      integrativePotential: "Selbstbestimmung & innere Stärke",
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5331,6 +5507,7 @@ export const knowledgePrototype = {
         "Nicht immer stark und bestimmend sein müssen.",
         "Führung entsteht durch Vertrauen statt durch Dominanz und permanente Spannung.",
       ],
+      integrativePotential: "Reife Stärke & verantwortliche Führung",
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5420,6 +5597,7 @@ export const knowledgePrototype = {
         "Kraft bewusster und achtsamer einsetzen.",
         "Herzensnähe entsteht durch Offenheit statt durch Dominanz und Druck.",
       ],
+      integrativePotential: "Magnetische Kraft & souveräne Intensität",
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5509,6 +5687,7 @@ export const knowledgePrototype = {
         "Bewusster auf die eigenen Impulse und Bedürfnisse achten.",
         "Präsenz ersetzt Passivität und Selbstvergessenheit.",
       ],
+      integrativePotential: "Innere Ruhe & stabile Präsenz",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5598,6 +5777,7 @@ export const knowledgePrototype = {
         "Meinung, Wünsche und Grenzen bewusster wahrnehmen und ausdrücken.",
         "Echte Verbindung entsteht durch Selbstständigkeit statt durch Selbstvergessenheit.",
       ],
+      integrativePotential: "Verbindende Stärke & gelassene Präsenz",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5687,6 +5867,7 @@ export const knowledgePrototype = {
         "Eigene Impulse, Bedürfnisse und Grenzen unabhängig vom Außen spüren.",
         "Harmonie entsteht durch wache Präsenz und echten Selbstkontakt.",
       ],
+      integrativePotential: "Frieden stiften & universelle Verbundenheit",
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -7314,6 +7495,9 @@ export const uiText = {
     integrationPath: "Integrationsweg",
     unconsciousStrategy: "Unbewusste Strategie",
     turningPoint: "Wendepunkt",
+    nervousSystemRegulation: "Nervenystem-Regulation",
+    archetypalEssence: "Archetypische Essenz",
+    integrativePotential: "Integratives Potenzial",
     essenceQualities: "Verkörperte Qualitäten",
     bodySignature: {
       basicTension: "Grundspannung",
