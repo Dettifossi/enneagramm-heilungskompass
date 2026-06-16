@@ -7124,7 +7124,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Sicherheit, Stabilität und verlässlichen Halt im Leben suchen. Vorbereitet und geschützt sein wollen und mögliche Gefahren früh erkennen. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
       grundstrategie: "Sicherheit durch Kontrolle und Vorbereitung herstellen. Den Blick stark auf mögliche Risiken richten und Anspannung innerlich halten",
-      staerken: [],
+      staerken: [
+      "wachsam und loyal",
+      "vorsichtig und verlässlich",
+      "innere Sicherheit",
+      "ruhigere Atmung",
+      "belastbare Standfestigkeit"
+    ],
       herausforderungen: [
       "Gefahren früh erkennen und Kontrolle behalten wollen",
       "Innere Spannung wird eher abgesichert als beruhigt",
@@ -7151,7 +7157,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Sicherheit durch Freiheit, Möglichkeiten und positive Erfahrungen suchen. Lebendig und unabhängig bleiben wollen und dabei leicht Schmerz und Begrenzung vermeiden. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
       grundstrategie: "Sicherheit durch Möglichkeiten, Ideen und positive Perspektiven suchen",
-      staerken: [],
+      staerken: [
+      "lebensfroh",
+      "spontan",
+      "ressourcenorientiert",
+      "genussfähig",
+      "zentrierte Lebendigkeit"
+    ],
       herausforderungen: [
       "Sicherheit durch Möglichkeiten, Ideen und positive Perspektiven suchen",
       "Unangenehme Gefühle und innere Leere vermeiden",
@@ -7178,7 +7190,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Sicherheit durch Kraft, Kontrolle und Selbstbehauptung suchen. Unabhängig und unangreifbar bleiben wollen und dabei Verletzlichkeit besonders stark schützen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
       grundstrategie: "Die Umgebung kontrollieren, um Schwäche und Abhängigkeit zu vermeiden",
-      staerken: [],
+      staerken: [
+      "selbstbestimmt",
+      "standhaft",
+      "mutig",
+      "beschützend",
+      "vertrauensvolle Kraft"
+    ],
       herausforderungen: [
       "Die Umgebung kontrollieren, um Schwäche und Abhängigkeit zu vermeiden",
       "Den Zugang zu weichen Seiten leicht abschneiden",
@@ -7205,7 +7223,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Ruhe, Stabilität und angenehme Sicherheit im Alltag suchen. Spannungen vermeiden und sich harmonisch anpassen wollen. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
       grundstrategie: "Konflikte vermeiden und Gewohntes aufrechterhalten, um innere Ruhe zu bewahren",
-      staerken: [],
+      staerken: [
+      "ruhig",
+      "geerdet",
+      "standhaft",
+      "weise",
+      "lebendige Selbstpräsenz"
+    ],
       herausforderungen: [
       "Konflikte vermeiden und Gewohntes aufrechterhalten, um innere Ruhe zu bewahren",
       "Innere Spannung eher betäuben als bewusst wahrnehmen",
@@ -7416,7 +7440,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Sicherheit durch Zugehörigkeit, Regeln und klare Orientierung suchen. Loyal und verlässlich sein wollen und genau prüfen, wem vertraut werden kann. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
       grundstrategie: "Sicherheit über Orientierung, Regeln und Zugehörigkeit gewinnen. Menschen und Situationen genau prüfen und Zweifel stark kontrollieren",
-      staerken: [],
+      staerken: [
+      "verantwortungsbewusst",
+      "teamorientiert",
+      "loyal",
+      "klare Kommunikation",
+      "stabile Zugehörigkeit"
+    ],
       herausforderungen: [
       "Starke Orientierung an Zugehörigkeit, Regeln und Verlässlichkeit",
       "Innere Angst wird über Anpassung und Absicherung reguliert",
@@ -7443,7 +7473,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Freiheit, Inspiration und Möglichkeiten im sozialen Umfeld suchen. Begeistern und verbinden wollen und dabei leicht Schmerz und Begrenzung ausweichen. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
       grundstrategie: "Leichtigkeit, Ideen und Möglichkeiten in Gruppen einbringen und dabei Tiefe, Schmerz und Begrenzung ausweichen",
-      staerken: [],
+      staerken: [
+      "visionär",
+      "kontaktfreudig",
+      "ideenreich",
+      "verbindend",
+      "kreative Verantwortung"
+    ],
       herausforderungen: [
       "Leichtigkeit, Ideen und Möglichkeiten in Gruppen einbringen und dabei Tiefe, Schmerz und Begrenzu…",
       "Innere Unsicherheit wird eher sozial überspielt als integriert",
@@ -7470,7 +7506,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Einfluss, Schutz und Gerechtigkeit im sozialen Umfeld suchen. Für andere einstehen und dabei leicht zu viel Kontrolle übernehmen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
       grundstrategie: "Verantwortung und Stärke für andere übernehmen",
-      staerken: [],
+      staerken: [
+      "führungsstark",
+      "gerecht",
+      "beschützend",
+      "organisiert",
+      "verantwortliche Autorität"
+    ],
       herausforderungen: [
       "Verantwortung und Stärke für andere übernehmen",
       "Unbewusst Beziehungen und Situationen kontrollieren",
@@ -7497,7 +7539,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Harmonie, Zugehörigkeit und den eigenen Platz im sozialen Gefüge suchen. Verbinden und niemanden stören wollen und sich dabei leicht den Erwartungen anderer anpassen. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
       grundstrategie: "Zugehörigkeit und Harmonie in Gruppen suchen und die eigene Position hinten anstellen",
-      staerken: [],
+      staerken: [
+      "verbindend",
+      "gelassen",
+      "standhaft",
+      "ausgleichend",
+      "klare Zugehörigkeit"
+    ],
       herausforderungen: [
       "Zugehörigkeit und Harmonie in Gruppen suchen und die eigene Position hinten anstellen",
       "Innere Spannung wird eher ausgeglichen als klar benannt",
@@ -7709,7 +7757,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Intensive Verbindung, Schutz und absolute Verlässlichkeit suchen. Stark und unabhängig wirken wollen und dabei oft gegen innere Angst und Unsicherheit kämpfen. Dein innerer Weg führt von Selbstunsicherheit hin zu Vertrauen.",
       grundstrategie: "Sicherheit über Stärke, Kontrolle und intensive Bindung herstellen. Nähe und Vertrauen ständig prüfen und empfindlich auf Unsicherheit oder Distanz reagieren",
-      staerken: [],
+      staerken: [
+      "intensiv wachsam",
+      "mutig",
+      "loyal",
+      "schutzbereit",
+      "kraftvoll und ruhig zugleich"
+    ],
       herausforderungen: [
       "Gegen Angst angehen, indem Stärke, Mut oder Widerstand gezeigt wird",
       "Dabei leicht den Zugang zur eigenen Verletzlichkeit verlieren",
@@ -7736,7 +7790,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Intensive Erfahrung, Inspiration und besondere Verbindung suchen. Frei, lebendig und grenzenlos fühlen wollen und dabei Schmerz und Ernüchterung vermeiden. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
       grundstrategie: "Intensive Erfahrungen, Inspiration und Begeisterung suchen",
-      staerken: [],
+      staerken: [
+      "leidenschaftlich",
+      "magnetisch",
+      "sinnlich",
+      "abenteuerlustig",
+      "tiefe erfüllende Verbindung"
+    ],
       herausforderungen: [
       "Intensive Erfahrungen, Inspiration und Begeisterung suchen",
       "Sich leicht vom gegenwärtigen Moment entfernen",
@@ -7763,7 +7823,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Intensive Verbindung, Stärke und absolute Lebendigkeit suchen. Kontrolle behalten und sich zugleich ganz hingeben wollen. Dein innerer Weg führt von Selbstüberhöhung hin zu Verletzlichkeit.",
       grundstrategie: "Intensive Begegnung, Wahrheit und direkte Konfrontation suchen",
-      staerken: [],
+      staerken: [
+      "magnetisch",
+      "intensiv",
+      "leidenschaftlich",
+      "souverän",
+      "vertrauensvolle Nähe"
+    ],
       herausforderungen: [
       "Intensive Begegnung, Wahrheit und direkte Konfrontation suchen",
       "Leicht Grenzen überschreiten und Druck erzeugen",
@@ -7790,7 +7856,13 @@ export const subtypeDetails = {
     meinKompass: {
       lebensthema: "Tiefe Verbindung suchen und möglichst im Kontakt eins werden wollen. Andere intensiv spüren und sich dabei leicht selbst verlieren. Dein innerer Weg führt von Selbstvergessenheit hin zu Selbstpräsenz.",
       grundstrategie: "Sich leicht in anderen verlieren und anpassen, um Harmonie zu bewahren",
-      staerken: [],
+      staerken: [
+      "hingebungsvoll",
+      "mitfühlend",
+      "friedlich",
+      "verbunden",
+      "klare Selbstpräsenz"
+    ],
       herausforderungen: [
       "Sich leicht in anderen verlieren und anpassen, um Harmonie zu bewahren",
       "Innere Spannungen eher vermeiden als fühlen",
