@@ -2105,6 +2105,21 @@ export const knowledgePrototype = {
         sentence: "Ordnung entsteht aus Präsenz, nicht aus Kontrolle.",
         qualities: ["ruhiger Atem", "entspannter Kiefer", "klarer Blick", "mehr Ruhe im Bauchraum", "natürliche Körperpräsenz"],
       },
+      integrationPath: [
+        "Mehr innere Ruhe entwickeln.",
+        "Fehler, Bedürfnisse und menschliche Unvollkommenheit erlauben.",
+        "Stabilität durch Gelassenheit, Vertrauen und lebendige Selbstannahme finden.",
+      ],
+      unconsciousStrategy: [
+        "Starke Selbstkontrolle, um Fehler und Kritik zu vermeiden.",
+        "Bedürfnisse und spontane Impulse zurückhalten.",
+        "Stabilisierung über Disziplin, Selbstbeherrschung und hohe Ansprüche.",
+      ],
+      turningPoint: [
+        "Erkennen, dass dauerhafte Kontrolle und Selbstanspannung von Lebendigkeit trennen.",
+        "Sich selbst mit mehr Milde und Verständnis begegnen.",
+        "Entspannung ermöglicht Natürlichkeit und Vertrauen.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch, richtig und gut zu sein, und der Angst, Fehler zu machen oder die Kontrolle zu verlieren.",
         gazeQuality: [
@@ -2674,6 +2689,21 @@ export const knowledgePrototype = {
         sentence: "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.",
         qualities: ["ruhiger Atem", "klarer Blick", "offene Brust und Herzraum", "mitfühlende Führung", "lebendige Gerechtigkeit"],
       },
+      integrationPath: [
+        "Verantwortung mit mehr Menschlichkeit und innerer Ruhe verbinden.",
+        "Nicht ständig bewerten, verbessern oder alles richtig machen müssen.",
+        "Klarheit durch Vertrauen, Offenheit und mitfühlende Selbstannahme finden.",
+      ],
+      unconsciousStrategy: [
+        "Starke Orientierung an Regeln, Werten und moralischer Klarheit.",
+        "Sich und andere kontrollieren, um Fehler oder falsches Verhalten zu vermeiden.",
+        "Stabilisierung über Disziplin, Verantwortung und hohe Ansprüche, auch wenn innerer Druck entsteht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Pflichtgefühl und moralische Kontrolle vom Herzen entfernen können.",
+        "Mehr Menschlichkeit, Wärme und persönliche Lebendigkeit erlauben.",
+        "Mitgefühl ersetzt innere Strenge und Bewertung.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch, perfekt, richtig und gerecht zu sein, und der Angst, Fehler zu machen oder das Ganze im Stich zu lassen.",
         gazeQuality: [
@@ -2831,6 +2861,21 @@ export const knowledgePrototype = {
         sentence: "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.",
         qualities: ["tiefer, fokussierter Blick", "kraftvolle Präsenz", "kompromisslose Klarheit", "Leidenschaft klug einsetzen", "Hingabe ohne Selbstaufgabe"],
       },
+      integrationPath: [
+        "Sicherheit, Ordnung und Kontrolle im eigenen Leben suchen.",
+        "Alles richtig machen wollen und sich dabei oft selbst unter Druck setzen.",
+        "Fehler und Schwäche vermeiden wollen und dadurch leicht innere Entspannung verlieren.",
+      ],
+      unconsciousStrategy: [
+        "Gefühle und Spannungen verstärken, um Verbindung lebendig zu halten.",
+        "Empfindlich auf Distanz oder Unstimmigkeiten reagieren.",
+        "Sich über Intensität, Ausdruck und Konfrontation stabilisieren, auch wenn innere Ruhe verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass innere Intensität und ständige Verbesserung keinen inneren Frieden erzeugen.",
+        "Unvollkommenheit bei sich selbst und anderen zulassen.",
+        "Liebevolle Hingabe ersetzt inneren Kampf und Druck.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Anspruch auf vollkommene Integrität und der Wut über Unordnung, Unrecht und menschliche Unvollkommenheit.",
         gazeQuality: [
@@ -2953,6 +2998,21 @@ export const knowledgePrototype = {
         sentence: "Wahre Fürsorge beginnt bei dir, denn nur aus einem vollen Herzen kannst du wirklich geben.",
         qualities: ["warme Ausstrahlung", "natürliche Hilfsbereitschaft", "beruhigende Präsenz", "loyale Verbundenheit", "Schutzinstinkt"],
       },
+      integrationPath: [
+        "Sich selbst wichtiger nehmen und die eigenen Grenzen ernst nehmen.",
+        "Nicht ständig für andere da sein müssen, um geliebt zu werden.",
+        "Verbindung durch Selbstfürsorge, Ehrlichkeit und inneres Gleichgewicht finden.",
+      ],
+      unconsciousStrategy: [
+        "Bindung über Fürsorge und Verfügbarkeit absichern.",
+        "Sich stark nach den Bedürfnissen anderer richten und eigene Wünsche zurückhalten.",
+        "Sich über Nähe, Geben und emotionale Bedeutung stabilisieren, auch wenn Erschöpfung entsteht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass ständiges Kümmern die eigenen Bedürfnisse unsichtbar macht.",
+        "Beginnen, sich selbst ernst zu nehmen und Fürsorge auch anzunehmen.",
+        "Innere Geborgenheit entsteht aus Selbstkontakt statt aus Abhängigkeit.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, liebevoll und hilfsbereit zu sein, und der Angst, ausgenutzt, übergangen oder nicht wertgeschätzt zu werden.",
         gazeQuality: [
@@ -3071,6 +3131,21 @@ export const knowledgePrototype = {
         sentence: "Ich gebe aus Liebe und empfange mit offenem Herzen.",
         qualities: ["warme Ausstrahlung", "empathisches Gespür", "aufmerksame Zuwendung", "loyale Verbundenheit", "natürliche Herzlichkeit"],
       },
+      integrationPath: [
+        "Den eigenen Wert nicht über Zustimmung definieren.",
+        "Dazugehören dürfen, ohne sich ständig nützlich zu machen.",
+        "Verbindung durch klare Grenzen, Selbstachtung und echte Gegenseitigkeit finden.",
+      ],
+      unconsciousStrategy: [
+        "Über Nähe und Fürsorge sozialen Wert gewinnen.",
+        "Sich stark an Erwartungen anderer anpassen und eigene Bedürfnisse zurückhalten.",
+        "Sich über Zustimmung, Hilfe und Zugehörigkeit stabilisieren, auch wenn Abhängigkeit entsteht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Anerkennung und Gebrauchtwerden nicht den inneren Wert bestimmen.",
+        "Sich selbst wichtiger nehmen und klare Grenzen setzen.",
+        "Beziehungen entstehen aus Echtheit statt aus Anpassung und Helferrolle.",
+      ],
       bodySignature: {
         gazeQuality: [
             "warm, weich und einladend",
@@ -3191,6 +3266,21 @@ export const knowledgePrototype = {
         sentence: "Ich gebe mich ganz hin und empfange echte Verbindung.",
         qualities: ["magnetische Ausstrahlung", "intensive Präsenz", "tiefe emotionale Intelligenz", "leidenschaftliche Liebe", "schutzende Hingabe"],
       },
+      integrationPath: [
+        "Nähe zulassen, ohne sich selbst dabei zu verlieren.",
+        "Nicht unentbehrlich sein müssen, um geliebt zu werden.",
+        "Verbindung durch innere Freiheit, Selbstachtung und echte Gegenseitigkeit finden.",
+      ],
+      unconsciousStrategy: [
+        "Über besondere Nähe emotionale Bedeutung bekommen wollen.",
+        "Sich stark an einzelne Menschen binden und dabei leicht Eigenständigkeit verlieren.",
+        "Sich über Aufmerksamkeit, Intensität und Verführung stabilisieren, auch wenn Abhängigkeit entsteht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass intensive Bindung und Verführung keine echte Selbstliebe ersetzen können.",
+        "Authentisch und verletzlich sein, ohne sich beweisen zu müssen.",
+        "Nähe entsteht durch Wahrhaftigkeit statt durch emotionale Verschmelzung.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, gebraucht und einzigartig zu sein, und der Angst, nicht die wichtigste Person zu sein oder verlassen zu werden.",
         gazeQuality: [
@@ -3311,6 +3401,21 @@ export const knowledgePrototype = {
         sentence: "Ich passe mich an, ohne mich zu verlieren, und finde Halt in mir selbst.",
         qualities: ["praktisch und lösungsorientiert", "flexibel", "effizient", "verlässlich", "gute Beobachtungsgabe"],
       },
+      integrationPath: [
+        "Sich nicht nur über Leistung und Funktionieren definieren.",
+        "Gefühle, Unsicherheit und echte Bedürfnisse zeigen.",
+        "Wert durch Echtheit, innere Präsenz und lebendige Selbstwahrnehmung finden.",
+      ],
+      unconsciousStrategy: [
+        "Sicherheit über Leistung und Kontrolle gewinnen wollen.",
+        "Gefühle und Bedürfnisse zurückhalten und sich stark auf Funktionieren ausrichten.",
+        "Sich über Effizienz, Erfolg und Selbstständigkeit stabilisieren, auch wenn innerer Selbstkontakt verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass ständiges Funktionieren von echten Gefühlen entfernt.",
+        "Sich unabhängig von Leistung wahrnehmen.",
+        "Energie beruhigt sich, Authentizität wird wichtiger als Effizienz und Erfolg.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
         gazeQuality: [
@@ -3432,6 +3537,21 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
         qualities: ["charismatische Präsenz", "klare Zielorientierung", "soziale Kompetenz", "positive Ausstrahlung", "menschliche Wärme"],
       },
+      integrationPath: [
+        "Sich nicht nur über Erfolg und Wirkung definieren.",
+        "Nicht ständig leisten oder überzeugen müssen, um wertvoll zu sein.",
+        "Erfüllung durch Echtheit, Selbstkontakt und innere Wahrhaftigkeit finden.",
+      ],
+      unconsciousStrategy: [
+        "Über Leistung und Wirkung den eigenen Wert absichern.",
+        "Sich stark an Erwartungen und Erfolgsbilder anpassen.",
+        "Sich über Anerkennung, Kompetenz und Status stabilisieren, auch wenn echte Gefühle verborgen bleiben.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Status und Anerkennung den inneren Wert nicht sichern können.",
+        "Sich von äußeren Rollen und Erwartungen lösen.",
+        "Energie wird authentischer; Wahrhaftigkeit ersetzt Identifikation mit Erfolg und Wirkung.",
+      ],
       bodySignature: {
         gazeQuality: [
             "wach, prüfend und fokussiert",
@@ -3539,6 +3659,21 @@ export const knowledgePrototype = {
         sentence: "Ich bin genug, auch wenn ich nicht performe – meine echte Ausstrahlung zieht an.",
         qualities: ["starke Ausstrahlung", "emotionale Präsenz", "magnetische Anziehung", "kreative Selbstdarstellung", "Hingabe ohne Kontrolle"],
       },
+      integrationPath: [
+        "Sich nicht über Wirkung oder Bewunderung definieren.",
+        "Echt sein dürfen, ohne ständig ein ideales Bild aufrechtzuerhalten.",
+        "Nähe durch Wahrhaftigkeit, Selbstkontakt und emotionale Offenheit finden.",
+      ],
+      unconsciousStrategy: [
+        "Über Ausstrahlung und Wirkung Anerkennung bekommen wollen.",
+        "Sich stark an Wünschen und Idealen anderer anpassen, um begehrt und bewundert zu werden.",
+        "Sich über Attraktivität, Aufmerksamkeit und Erfolg stabilisieren, auch wenn Echtheit verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Ausstrahlung und Bewunderung keine echte innere Nähe erzeugen.",
+        "Sich erlauben, hinter Rollen und Bildern sichtbar zu werden.",
+        "Energie wird ehrlicher; echte Präsenz ersetzt Druck, beeindrucken zu müssen.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
         gazeQuality: [
@@ -3645,6 +3780,21 @@ export const knowledgePrototype = {
         sentence: "Frieden entsteht, wenn du aufhörst, dich selbst zu verleugnen.",
         qualities: ["tiefer innerer Rückzug", "reiche Gefühlswelt", "authentischer Ausdruck", "starke Intuition", "verbunden mit dem Wesentlichen"],
       },
+      integrationPath: [
+        "Dich zeigen, ohne dich hinter Schmerz oder Rückzug zu schützen.",
+        "Nicht alles allein tragen müssen, um stark oder echt zu sein.",
+        "Halt durch Selbstannahme, Verbundenheit und innere Lebendigkeit finden.",
+      ],
+      unconsciousStrategy: [
+        "Schmerz und Enttäuschung innerlich festhalten.",
+        "Sich zurückziehen, wenn Verletzung oder Missverstehen auftaucht.",
+        "Sich über Rückzug, Selbstkontrolle und emotionale Tiefe stabilisieren, auch wenn Nähe verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass stilles Leiden und Rückzug innere Schwere verstärken.",
+        "Unterstützung annehmen und sich emotional öffnen.",
+        "Selbstannahme ersetzt inneren Mangel und Härte gegen sich selbst.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, authentisch und bedeutungsvoll zu sein, und der Angst, unverstanden oder zu viel zu sein.",
         gazeQuality: [
@@ -3762,6 +3912,21 @@ export const knowledgePrototype = {
         sentence: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
         qualities: ["emotionale Echtheit", "tiefe Verbindung", "wertschätzende Ehrlichkeit", "Raum für Individualität", "kreatives Miteinander"],
       },
+      integrationPath: [
+        "Den eigenen Wert nicht ständig über Besonderheit beweisen müssen.",
+        "Dazugehören dürfen, ohne dich über Mangel oder Anderssein zu definieren.",
+        "Tiefe durch Selbstannahme, echte Verbindung und innere Stabilität finden.",
+      ],
+      unconsciousStrategy: [
+        "Über Besonderheit und Gefühlstiefe deinen Platz sichern wollen.",
+        "Anderssein sichtbar machen und darüber Resonanz und Zugehörigkeit suchen.",
+        "Dich über Ausdruck, Identität und Emotionen stabilisieren, auch wenn Selbstzweifel entstehen.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Vergleiche und Außenseitergefühle vom eigenen Wert trennen.",
+        "Sich selbst annehmen, ohne sich ständig mit anderen zu messen.",
+        "Zugehörigkeit entsteht durch Selbstannahme statt durch Leidensidentität.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu werden.",
         gazeQuality: [
@@ -3878,6 +4043,21 @@ export const knowledgePrototype = {
         sentence: "Ich bin einzigartig – und genau darin liegt meine Verbindung zur Welt.",
         qualities: ["tiefe emotionale Intensität", "authentischer Selbstausdruck", "kreative Originalität", "magnetische Anziehungskraft", "sinnliche Wahrnehmung"],
       },
+      integrationPath: [
+        "Nähe zulassen, ohne Drama oder emotionale Zuspitzung zu brauchen.",
+        "Gefühle nicht verstärken müssen, um Verbindung oder Tiefe zu erleben.",
+        "Erfüllung durch innere Ruhe, Selbstannahme und echte Verbundenheit finden.",
+      ],
+      unconsciousStrategy: [
+        "Über Intensität und starke Gefühle Verbindung sichern wollen.",
+        "Sehnsucht, Verletzung und Spannung sichtbar machen und darin Resonanz suchen.",
+        "Dich über Leidenschaft, Ausdruck und emotionale Zuspitzung stabilisieren, auch wenn Ruhe verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass emotionale Intensität und Drama Sehnsucht nicht wirklich erfüllen.",
+        "Gefühle bewusster wahrnehmen, ohne sie ständig zu steigern.",
+        "Echte Nähe entsteht durch innere Reife statt durch emotionale Zuspitzung.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, unverwechselbar und authentisch zu sein, und der Angst, übersehen, bewertet oder nicht verstanden zu werden.",
         gazeQuality: [
@@ -3993,6 +4173,21 @@ export const knowledgePrototype = {
         sentence: "Ich vertraue auf mein Wissen und wähle, was mir wirklich dient.",
         qualities: ["ruhiger Atem", "fokussierter Blick", "klare Grenzen", "vorausschauendes Handeln", "natürliche Zurückhaltung"],
       },
+      integrationPath: [
+        "Sich zeigen, ohne Freiheit oder Autonomie zu verlieren.",
+        "Sich nicht ständig zurückziehen müssen, um sicher zu bleiben.",
+        "Stabilität durch Vertrauen, lebendige Nähe und echten inneren Kontakt finden.",
+      ],
+      unconsciousStrategy: [
+        "Abstand halten und Rückzug bewahren.",
+        "Vereinnahmung vermeiden und Energie, Gefühle und Bedürfnisse stark kontrollieren.",
+        "Sich über Wissen, Unabhängigkeit und innere Distanz stabilisieren, auch wenn Verbindung verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass dauerhafter Rückzug und Distanz innerlich isolieren.",
+        "Sich wieder lebendig auf Kontakt und Erfahrung einlassen.",
+        "Vertrauen ersetzt den ständigen Schutz innerer Räume.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
         gazeQuality: [
@@ -4109,6 +4304,21 @@ export const knowledgePrototype = {
         sentence: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
         qualities: ["ruhige Präsenz", "analytischer Verstand", "tiefes Zuhören", "klare Struktur", "durchdachte Kommunikation"],
       },
+      integrationPath: [
+        "Wissen und Gefühle miteinander verbinden.",
+        "Sich nicht zurückziehen müssen, um klar oder kompetent zu bleiben.",
+        "Sicherheit durch echten Austausch, innere Beteiligung und lebendige Verbindung finden.",
+      ],
+      unconsciousStrategy: [
+        "Sicherheit über Wissen und geistige Klarheit gewinnen.",
+        "Menschen und Systeme lieber aus der Distanz beobachten und Gefühle zurückhalten.",
+        "Sich über Analyse, Kompetenz und Überblick stabilisieren, auch wenn Teilhabe schwerfällt.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Wissen und Beobachtung allein keine echte Teilhabe ersetzen.",
+        "Emotional präsenter und menschlich greifbarer werden.",
+        "Austausch und Beteiligung statt Distanz und Kontrolle zulassen.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
         gazeQuality: [
@@ -4224,6 +4434,21 @@ export const knowledgePrototype = {
         sentence: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
         qualities: ["feine Wahrnehmung", "emotionale Tiefe", "intellektuelle Klarheit", "vertrauensvolle Offenheit", "stille Stärke"],
       },
+      integrationPath: [
+        "Sich emotional öffnen, ohne sich dabei ausgeliefert zu fühlen.",
+        "Nicht alles kontrollieren oder zurückhalten müssen, um sicher zu sein.",
+        "Nähe durch Vertrauen, ehrliche Begegnung und innere Beteiligung finden.",
+      ],
+      unconsciousStrategy: [
+        "Nähe nur sehr kontrolliert zulassen.",
+        "Menschen aufmerksam beobachten und die Innenwelt lange verborgen halten.",
+        "Sich über Vertrauen, Rückzug und selektive Bindung stabilisieren, auch wenn Offenheit schwerfällt.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Sehnsucht und Idealisierung echte Nähe oft verhindern.",
+        "Beziehungen realistischer und gleichzeitig offener erleben.",
+        "Vertrauen statt Rückzug und Fantasie als Quelle von Verbundenheit zulassen.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch nach tiefer Verbindung und der Angst, sich zu verletzlich zu zeigen.",
         gazeQuality: [
@@ -4347,6 +4572,21 @@ export const knowledgePrototype = {
         sentence: "Ich wähle Vertrauen statt Angst und Mut statt Kontrolle.",
         qualities: ["wachsam und loyal", "vorsichtig und verlässlich", "innere Sicherheit", "ruhigere Atmung", "belastbare Standfestigkeit"],
       },
+      integrationPath: [
+        "Dem Leben mehr vertrauen und nicht alles kontrollieren müssen.",
+        "Nicht ständig vorbereitet oder abgesichert sein müssen, um sicher zu bleiben.",
+        "Ruhe durch Vertrauen, innere Stabilität und lebendige Gelassenheit finden.",
+      ],
+      unconsciousStrategy: [
+        "Sicherheit durch Kontrolle und Vorbereitung herstellen.",
+        "Den Blick stark auf mögliche Risiken richten und Anspannung innerlich halten.",
+        "Sich über Wachsamkeit, Vorsicht und Absicherung stabilisieren, auch wenn Vertrauen verloren geht.",
+      ],
+      turningPoint: [
+        "Erkennen, dass ständige Vorsicht und Absicherung Angst nicht wirklich beruhigen.",
+        "Mehr Vertrauen in sich selbst und ins Leben entwickeln.",
+        "Innere Sicherheit entsteht zunehmend aus Selbstvertrauen statt aus Kontrolle.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Wunsch nach Sicherheit und der Angst vor Gefahr oder Verrat.",
         gazeQuality: [
@@ -4463,6 +4703,21 @@ export const knowledgePrototype = {
         sentence: "Ich wähle Vertrauen statt Angst und Verbundenheit statt Kontrolle.",
         qualities: ["verantwortungsbewusst", "teamorientiert", "loyal", "klare Kommunikation", "stabile Zugehörigkeit"],
       },
+      integrationPath: [
+        "Der eigenen Wahrnehmung und inneren Stimme mehr vertrauen.",
+        "Nicht ständig prüfen oder absichern müssen, um Halt zu finden.",
+        "Stabilität durch Selbstvertrauen, Offenheit und innere Ruhe finden.",
+      ],
+      unconsciousStrategy: [
+        "Sicherheit über Orientierung, Regeln und Zugehörigkeit gewinnen.",
+        "Menschen und Situationen genau prüfen und Zweifel stark kontrollieren.",
+        "Sich über Loyalität, Wachsamkeit und klare Strukturen stabilisieren, auch wenn Vertrauen schwerfällt.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Anpassung an Regeln und Autoritäten die eigene Orientierung schwächen kann.",
+        "Der inneren Stimme mehr vertrauen.",
+        "Selbstverantwortung ersetzt dauerhafte Absicherung und Zweifel.",
+      ],
       bodySignature: {
         basicTension: "Zwischen dem Bedürfnis nach Sicherheit und Zugehörigkeit und der Angst vor Verrat oder Überforderung.",
         gazeQuality: [
@@ -4579,6 +4834,21 @@ export const knowledgePrototype = {
         sentence: "Ich wähle Vertrauen statt Angst und Verbindung statt Kontrolle.",
         qualities: ["intensiv wachsam", "mutig", "loyal", "schutzbereit", "kraftvoll und ruhig zugleich"],
       },
+      integrationPath: [
+        "Nähe zulassen, ohne sich ständig schützen oder kontrollieren zu müssen.",
+        "Nicht stark oder unangreifbar wirken müssen, um sicher zu sein.",
+        "Vertrauen durch Offenheit, innere Ruhe und echte Verletzlichkeit finden.",
+      ],
+      unconsciousStrategy: [
+        "Sicherheit über Stärke, Kontrolle und intensive Bindung herstellen.",
+        "Nähe und Vertrauen ständig prüfen und empfindlich auf Unsicherheit oder Distanz reagieren.",
+        "Sich über Wachsamkeit, Loyalität und emotionale Kontrolle stabilisieren, auch wenn innere Anspannung bleibt.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Kampf und Gegenangriff die Verletzlichkeit nur verdecken.",
+        "Angst bewusst wahrnehmen, ohne sie bekämpfen zu müssen.",
+        "Echte Stärke entsteht durch Vertrauen statt durch permanente Spannung.",
+      ],
       bodySignature: {
         basicTension: "Zwischen Angst und Mut, Rückzug und Angriff, Sicherheit und intensiver Bindung.",
         gazeQuality: [
@@ -4695,6 +4965,16 @@ export const knowledgePrototype = {
         sentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
         qualities: ["lebensfroh", "spontan", "ressourcenorientiert", "genussfähig", "zentrierte Lebendigkeit"],
       },
+      integrationPath: [
+        "Auch unangenehme Gefühle und Begrenzungen annehmen.",
+        "Nicht ständig in Bewegung bleiben müssen, um sich lebendig zu fühlen.",
+        "Erfüllung durch innere Ruhe, Präsenz und echte Tiefe finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass ständige Planung und Ablenkung vom gegenwärtigen Moment entfernen.",
+        "Auch unangenehme Gefühle bewusst wahrnehmen.",
+        "Zufriedenheit entsteht aus Präsenz statt aus dauernder Reizsuche.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -4774,6 +5054,16 @@ export const knowledgePrototype = {
         sentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
         qualities: ["visionär", "kontaktfreudig", "ideenreich", "verbindend", "kreative Verantwortung"],
       },
+      integrationPath: [
+        "Auch Ruhe, Tiefe und Begrenzung annehmen.",
+        "Nicht ständig neue Möglichkeiten suchen müssen, um erfüllt zu sein.",
+        "Freude durch Präsenz, Verbindlichkeit und echten inneren Kontakt finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass soziale Aktivität und ständige Möglichkeiten innerlich zerstreuen können.",
+        "Mehr Tiefe, Ruhe und Verbindlichkeit erlauben.",
+        "Echte Freude entsteht durch Präsenz statt durch dauernde Ablenkung.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -4853,6 +5143,16 @@ export const knowledgePrototype = {
         sentence: "Ich tauche tief in das Leben ein und ermögliche mir echte Verbundenheit.",
         qualities: ["leidenschaftlich", "magnetisch", "sinnlich", "abenteuerlustig", "tiefe erfüllende Verbindung"],
       },
+      integrationPath: [
+        "Auch Stille, Begrenzung und unerfüllte Gefühle aushalten.",
+        "Nicht ständig Intensität oder neue Erfahrungen suchen müssen, um lebendig zu sein.",
+        "Erfüllung durch Präsenz, innere Ruhe und echte Verbundenheit finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Intensität und Begeisterung innere Leere nicht dauerhaft überdecken können.",
+        "Sich tiefer auf den gegenwärtigen Moment einlassen.",
+        "Echte Lebendigkeit entsteht durch Verkörperung statt durch Flucht in Möglichkeiten.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -4932,6 +5232,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um zu schützen, zu gestalten und das Leben zu stärken.",
         qualities: ["selbstbestimmt", "standhaft", "mutig", "beschützend", "vertrauensvolle Kraft"],
       },
+      integrationPath: [
+        "Weich und offen bleiben, ohne Kontrolle zu verlieren.",
+        "Nicht ständig stark oder unangreifbar wirken müssen, um sicher zu sein.",
+        "Kraft durch Vertrauen, Verletzlichkeit und echte Verbundenheit finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Kontrolle und Härte von der eigenen Verletzlichkeit abschneiden.",
+        "Weicher und empfänglicher werden, ohne Stärke zu verlieren.",
+        "Vertrauen ersetzt den dauerhaften inneren Kampf ums Überleben.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5011,6 +5321,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu gestalten.",
         qualities: ["führungsstark", "gerecht", "beschützend", "organisiert", "verantwortliche Autorität"],
       },
+      integrationPath: [
+        "Stärke mit Vertrauen und Offenheit verbinden.",
+        "Nicht alles kontrollieren oder schützen müssen, um wirksam zu sein.",
+        "Kraft durch Mitgefühl, innere Ruhe und echte Verbundenheit finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Verantwortung und Kontrolle innerlich verhärten können.",
+        "Nicht immer stark und bestimmend sein müssen.",
+        "Führung entsteht durch Vertrauen statt durch Dominanz und permanente Spannung.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5090,6 +5410,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in seiner Tiefe zu erfahren.",
         qualities: ["magnetisch", "intensiv", "leidenschaftlich", "souverän", "vertrauensvolle Nähe"],
       },
+      integrationPath: [
+        "Nähe zulassen, ohne Kontrolle oder Stärke beweisen zu müssen.",
+        "Nicht kämpfen oder dominieren müssen, um lebendig und verbunden zu sein.",
+        "Kraft durch Vertrauen, Verletzlichkeit und echte Offenheit finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Intensität und Konfrontation echte Nähe verhindern können.",
+        "Kraft bewusster und achtsamer einsetzen.",
+        "Herzensnähe entsteht durch Offenheit statt durch Dominanz und Druck.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
@@ -5169,6 +5499,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
         qualities: ["ruhig", "geerdet", "standhaft", "weise", "lebendige Selbstpräsenz"],
       },
+      integrationPath: [
+        "Sich klar zeigen und die eigenen Bedürfnisse ernst nehmen.",
+        "Sich nicht anpassen oder zurücknehmen müssen, um Frieden zu bewahren.",
+        "Ruhe durch Präsenz, Selbstkontakt und lebendige innere Klarheit finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass Rückzug, Gewohnheit und innere Trägheit die Lebendigkeit blockieren.",
+        "Bewusster auf die eigenen Impulse und Bedürfnisse achten.",
+        "Präsenz ersetzt Passivität und Selbstvergessenheit.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5248,6 +5588,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
         qualities: ["verbindend", "gelassen", "standhaft", "ausgleichend", "klare Zugehörigkeit"],
       },
+      integrationPath: [
+        "Sich klar zeigen, ohne Angst vor Ablehnung oder Konflikten.",
+        "Sich nicht anpassen müssen, um dazuzugehören oder Verbindung zu bewahren.",
+        "Frieden durch Selbstkontakt, Eigenständigkeit und ehrliche Präsenz finden.",
+      ],
+      turningPoint: [
+        "Erkennen, dass ständige Anpassung und Zugehörigkeit von der eigenen Position entfernen können.",
+        "Meinung, Wünsche und Grenzen bewusster wahrnehmen und ausdrücken.",
+        "Echte Verbindung entsteht durch Selbstständigkeit statt durch Selbstvergessenheit.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -5327,6 +5677,16 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
         qualities: ["hingebungsvoll", "mitfühlend", "friedlich", "verbunden", "klare Selbstpräsenz"],
       },
+      integrationPath: [
+        "Nähe zulassen, ohne sich selbst dabei aufzugeben.",
+        "Sich nicht anpassen oder verschmelzen müssen, um verbunden zu sein.",
+        "Frieden durch Selbstkontakt, Eigenständigkeit und klare Präsenz finden.",
+      ],
+      turningPoint: [
+        "Sich selbst wieder wahrnehmen, statt sich im Anderen zu verlieren.",
+        "Eigene Impulse, Bedürfnisse und Grenzen unabhängig vom Außen spüren.",
+        "Harmonie entsteht durch wache Präsenz und echten Selbstkontakt.",
+      ],
       bodySignature: {
         twoPoints: {
           point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
@@ -6951,6 +7311,9 @@ export const uiText = {
     coreSentence: "Kernsatz",
     lifeTheme: "Lebensthema",
     resourceField: "Ressourcenfeld",
+    integrationPath: "Integrationsweg",
+    unconsciousStrategy: "Unbewusste Strategie",
+    turningPoint: "Wendepunkt",
     essenceQualities: "Verkörperte Qualitäten",
     bodySignature: {
       basicTension: "Grundspannung",

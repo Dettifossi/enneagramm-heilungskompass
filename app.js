@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v5";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText } from "./data/de.js?v=2026-06-16-vollwerk-v6";
 
 const app = document.querySelector("#app");
 const state = {
@@ -485,8 +485,10 @@ function roomCard(key, title, inner) {
 function verstehenInner(entry, sp) {
   const blocks = [];
   if (entry.lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${entry.lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.unconsciousStrategy && entry.unconsciousStrategy.length) blocks.push(`<div class="room-field"><strong>${sp.unconsciousStrategy || "Unbewusste Strategie"}</strong><ul>${entry.unconsciousStrategy.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${entry.organismQuestion}</p></div>`);
   if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence}</p></div>`);
+  if (entry.integrationPath && entry.integrationPath.length) blocks.push(`<div class="room-field"><strong>${sp.integrationPath || "Integrationsweg"}</strong><ul>${entry.integrationPath.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.woundBehindPassion) blocks.push(woundBehindPassionSection(entry.woundBehindPassion));
   return blocks.join("");
 }
@@ -520,8 +522,10 @@ function spuerenInner(entry, sp) {
 }
 
 function regulierenInner(entry, sp) {
-  if (!entry.practice) return "";
-  return `<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`;
+  const blocks = [];
+  if (entry.turningPoint && entry.turningPoint.length) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Wendepunkt"}</strong><ul>${entry.turningPoint.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
+  return blocks.join("");
 }
 
 function verkoerpernInner(entry, sp) {
