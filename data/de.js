@@ -7442,7 +7442,7 @@ export const subtypeDetails = {
   so7: {
     meinKompass: {
       lebensthema: "Freiheit, Inspiration und Möglichkeiten im sozialen Umfeld suchen. Begeistern und verbinden wollen und dabei leicht Schmerz und Begrenzung ausweichen. Dein innerer Weg führt von Selbstzerstreuung hin zu Präsenz.",
-      grundstrategie: "Leichtigkeit, Ideen und Möglichkeiten in Gruppen einbringen und dabei Tiefe, Schmerz und Begrenzung ausweichen"",
+      grundstrategie: "Leichtigkeit, Ideen und Möglichkeiten in Gruppen einbringen und dabei Tiefe, Schmerz und Begrenzung ausweichen",
       staerken: [],
       herausforderungen: [
       "Leichtigkeit, Ideen und Möglichkeiten in Gruppen einbringen und dabei Tiefe, Schmerz und Begrenzu…",
