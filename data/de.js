@@ -2105,6 +2105,59 @@ export const knowledgePrototype = {
         sentence: "Ordnung entsteht aus Präsenz, nicht aus Kontrolle.",
         qualities: ["ruhiger Atem", "entspannter Kiefer", "klarer Blick", "mehr Ruhe im Bauchraum", "natürliche Körperpräsenz"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Anspruch, richtig und gut zu sein, und der Angst, Fehler zu machen oder die Kontrolle zu verlieren.",
+        gazeQuality: [
+            "aufmerksam und prüfend",
+            "scannt nach Sicherheit und Ordnung",
+            "eher bei sich, weniger expansiv",
+            "klare, ruhige Präsenz",
+          ],
+        microTension: [
+            "Stirn: leichte Konzentrationsfalten",
+            "Augen: fokussiert, kritisch",
+            "Mund: kontrolliert, knapp",
+            "Kiefer: leicht angespannt",
+            "Haltung: aufrecht, zurückhaltend",
+          ],
+        breathingRhythm: [
+            "tief, ruhig und kontrolliert",
+            "neigt zu Anhalten des Atems bei innerer Anspannung",
+            "Regulation über Kontrolle",
+          ],
+        movementInitiation: [
+            "überlegt und vorsichtig",
+            "erst prüfen, dann handeln",
+            "schützt Energie und Ressourcen",
+            "Bewegung zielgerichtet und sparsam",
+          ],
+        contactStyle: [
+            "respektvoll, korrekt, verlässlich",
+            "wahrt Distanz, bis Vertrauen da ist",
+            "klare Grenzen, klare Worte",
+            "hilfsbereit, wenn Sicherheit gegeben ist",
+          ],
+        twoPoints: {
+          point1: { name: "Solarplexus / Oberbauch", location: "oberhalb des Nabels", need: [
+              "Ordnung",
+              "Integrität",
+              "Kontrolle",
+              "innere Stabilität",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts korrigieren.",
+            "Im Körper bleiben.",
+            "Ruhig weiteratmen.",
+            "Einfach wahrnehmen.",
+            "Weich werden lassen.",
+          ],
+        },
+      },
       signature: {
         title: "Verkörperte Signatur",
         text: "Ich bewahre meine Integrität, indem ich mich selbst schütze und richtig handle.",
@@ -2621,6 +2674,60 @@ export const knowledgePrototype = {
         sentence: "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.",
         qualities: ["ruhiger Atem", "klarer Blick", "offene Brust und Herzraum", "mitfühlende Führung", "lebendige Gerechtigkeit"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Anspruch, perfekt, richtig und gerecht zu sein, und der Angst, Fehler zu machen oder das Ganze im Stich zu lassen.",
+        gazeQuality: [
+            "klar und wach",
+            "beobachtet das Feld",
+            "prüfend und bewertend",
+            "sucht Fairness und Gerechtigkeit",
+          ],
+        microTension: [
+            "Stirn: vertikale Konzentrationsfalten",
+            "Augen: gespannt, fokussiert",
+            "Mund: kontrolliert, leicht angespannt",
+            "Kiefer: fest, zurückhaltend",
+            "Haltung: aufrecht, kontrolliert",
+          ],
+        breathingRhythm: [
+            "eher flach und kontrolliert",
+            "hält Atem an bei innerer Anspannung",
+            "reguliert Atem bewusst",
+            "Fokus auf Kontrolle und Haltung",
+          ],
+        movementInitiation: [
+            "überlegt und ausgerichtet",
+            "plant bevor er/sie handelt",
+            "strukturiert und geordnet",
+            "bewegt sich mit Zweck und Disziplin",
+          ],
+        contactStyle: [
+            "respektvoll und korrekt",
+            "klar in Kommunikation und Haltung",
+            "vertrauensfördernd durch Verlässlichkeit",
+            "orientiert sich an gemeinsamen Werten",
+          ],
+        twoPoints: {
+          point1: { name: "Solarplexus / Oberbauch", location: "oberhalb des Nabels", need: [
+              "Ordnung",
+              "Integrität",
+              "Kontrolle",
+              "innere Stabilität",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nicht kontrollieren.",
+            "Milde zulassen.",
+            "Einfach da sein.",
+            "Verantwortung lösen.",
+            "Ruhig bleiben.",
+          ],
+        },
+      },
       signature: {
         title: "Verkörperte Signatur",
         text: "Ich stehe für das Richtige ein – für mich und für das Ganze.",
@@ -2724,6 +2831,60 @@ export const knowledgePrototype = {
         sentence: "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.",
         qualities: ["tiefer, fokussierter Blick", "kraftvolle Präsenz", "kompromisslose Klarheit", "Leidenschaft klug einsetzen", "Hingabe ohne Selbstaufgabe"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Anspruch auf vollkommene Integrität und der Wut über Unordnung, Unrecht und menschliche Unvollkommenheit.",
+        gazeQuality: [
+            "durchdringend und fokussiert",
+            "scharf beobachtend",
+            "entlarvend",
+            "sucht Unstimmigkeiten",
+          ],
+        microTension: [
+            "Stirn: vertikale Falten, gespannt",
+            "Augen: intensiv, leicht verengt",
+            "Mund: kontrolliert, oft fest",
+            "Kiefer: angespannt, Kieferdruck",
+            "Haltung: aufrecht, kontrolliert, steif",
+          ],
+        breathingRhythm: [
+            "eher flach und kontrolliert",
+            "Atem wird oft angehalten bei innerem Urteil",
+            "unbewusste Spannung im Brustkorb",
+            "Perfektionsdruck im Atem",
+          ],
+        movementInitiation: [
+            "zielgerichtet und kontrolliert",
+            "zögert nicht, wenn klar ist, was zu tun ist",
+            "bewegt sich geradlinig und effizient",
+            "meidet Unordnung und Chaos",
+          ],
+        contactStyle: [
+            "direkt, klar, fordernd",
+            "hohe Ansprüche an sich und andere",
+            "sucht Tiefe und Wahrheit",
+            "konfrontiert, wenn Prinzipien verletzt werden",
+          ],
+        twoPoints: {
+          point1: { name: "Solarplexus / Oberbauch", location: "oberhalb des Nabels", need: [
+              "Ordnung",
+              "Integrität",
+              "Kontrolle",
+              "innere Stabilität",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nicht antreiben.",
+            "Weich bleiben.",
+            "Wärme zulassen.",
+            "Intensität beruhigen.",
+            "Sanfter werden.",
+          ],
+        },
+      },
       signature: {
         title: "Verkörperte Signatur",
         text: "Ich bleibe meiner inneren Wahrheit treu – ohne Kompromisse.",
@@ -2792,6 +2953,60 @@ export const knowledgePrototype = {
         sentence: "Wahre Fürsorge beginnt bei dir, denn nur aus einem vollen Herzen kannst du wirklich geben.",
         qualities: ["warme Ausstrahlung", "natürliche Hilfsbereitschaft", "beruhigende Präsenz", "loyale Verbundenheit", "Schutzinstinkt"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, liebevoll und hilfsbereit zu sein, und der Angst, ausgenutzt, übergangen oder nicht wertgeschätzt zu werden.",
+        gazeQuality: [
+            "warm, weich und einladend",
+            "prüfend: Wer ist sicher für mich?",
+            "leicht gierig, bedürfnisorientiert",
+            "sucht Resonanz und Dankbarkeit",
+            "beobachtet, bevor sie oder er sich öffnet",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, sorgend",
+            "Augen: vorsichtig, sammelnd",
+            "Mund: weich, leicht unsicher",
+            "Kiefer: entspannt, wenig Druck",
+            "Haltung: weich, schützend, zurückhaltend",
+          ],
+        breathingRhythm: [
+            "eher flach im Brustbereich",
+            "atmet mit, wenn Nähe entsteht",
+            "Atem stockt bei Unsicherheit",
+            "reguliert über Geben und Rückzug",
+          ],
+        movementInitiation: [
+            "geht nicht sofort auf andere zu und wartet ab oder prüft zuerst",
+            "bewegt sich, wenn jemand Unterstützung oder Nähe zeigt",
+            "handelt aus dem Bedürfnis, gebraucht und verbindlich zu sein",
+            "bewahrt Energie für Menschen, die ihr oder ihm wichtig sind",
+          ],
+        contactStyle: [
+            "herzlich, warm, einladend",
+            "gibt, um Beziehung und Sicherheit zu schaffen",
+            "wahrt Dankbarkeit und gegenseitige Verbindlichkeit",
+            "zieht sich zurück, wenn die Balance nicht stimmt",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberbauch / Innerer Raum", location: "oberhalb des Nabels", need: [
+              "Selbstkontakt",
+              "Ruhe",
+              "eigene Grenze",
+            ] },
+          microInstructions: [
+            "Nicht leisten.",
+            "Bei dir bleiben.",
+            "Empfangend werden.",
+            "Nichts erwarten.",
+            "Dich selbst spüren.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Herzöffnung, Geborgenheit, praktische Unterstützung, Treue und Wärme.",
@@ -2855,6 +3070,62 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Herz & Verbundenheit",
         sentence: "Ich gebe aus Liebe und empfange mit offenem Herzen.",
         qualities: ["warme Ausstrahlung", "empathisches Gespür", "aufmerksame Zuwendung", "loyale Verbundenheit", "natürliche Herzlichkeit"],
+      },
+      bodySignature: {
+        gazeQuality: [
+            "warm, weich und einladend",
+            "prüfend: Was braucht der andere?",
+            "liebevoll, herzoffen und zugewandt",
+            "leicht gierig, beziehungsorientiert",
+            "sucht Resonanz und Dankbarkeit",
+            "beobachtet, bevor sie oder er sich öffnet",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, wach",
+            "Augen: aufmerksam, verbindend",
+            "Mund: weich, freundlich",
+            "Kiefer: entspannt oder leicht angespannt",
+            "Haltung: offen, nach vorne gewandt",
+          ],
+        breathingRhythm: [
+            "eher tief im Brustbereich",
+            "atmet mit, wenn Nähe entsteht",
+            "Atem stockt bei Unsicherheit",
+            "reguliert über Geben und Verbindung",
+          ],
+        movementInitiation: [
+            "geht aktiv auf andere zu",
+            "bietet Hilfe an, bevor sie erbeten wird",
+            "bewegt sich mit Bedacht und Herz",
+            "orientiert sich an Bedürfnissen",
+            "schafft Nähe und Vertrauen",
+          ],
+        contactStyle: [
+            "herzlich, warm und verbindend",
+            "sucht Nähe, Resonanz und Dankbarkeit",
+            "zeigt Interesse und Anteilnahme",
+            "hilft gerne und zuverlässig",
+            "kann sich zurücknehmen, wenn Liebe erwidert wird",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberbauch / Innerer Raum", location: "oberhalb des Nabels", need: [
+              "Selbstkontakt",
+              "Ruhe",
+              "eigene Grenze",
+            ] },
+          microInstructions: [
+            "Nicht gebraucht werden.",
+            "Raum einnehmen.",
+            "Dich mitnehmen.",
+            "Grenzen spüren.",
+            "Einfach bleiben.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -2920,6 +3191,62 @@ export const knowledgePrototype = {
         sentence: "Ich gebe mich ganz hin und empfange echte Verbindung.",
         qualities: ["magnetische Ausstrahlung", "intensive Präsenz", "tiefe emotionale Intelligenz", "leidenschaftliche Liebe", "schutzende Hingabe"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, gebraucht und einzigartig zu sein, und der Angst, nicht die wichtigste Person zu sein oder verlassen zu werden.",
+        gazeQuality: [
+            "warm, intensiv und einladend",
+            "prüfend: Wer ist mir wirklich wichtig?",
+            "leicht gierig, fokussiert und durchdringend",
+            "sucht Tiefe, Resonanz und Exklusivität",
+            "beobachtet, bevor sie oder er sich ganz öffnet",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, konzentriert",
+            "Augen: intensiv, fixierend, suchend",
+            "Mund: weich, sinnlich, lebendig",
+            "Kiefer: entspannt, kann sich anspannen",
+            "Haltung: offen, hingezogen, präsent",
+          ],
+        breathingRhythm: [
+            "eher tief im Brust- und Bauchbereich",
+            "atmet mit, wenn Verbindung entsteht",
+            "Atem stockt bei Distanz oder Ablehnung",
+            "reguliert über Nähe, Berührung und Tiefe",
+          ],
+        movementInitiation: [
+            "geht aktiv auf Menschen zu, die sie mag",
+            "sucht körperliche Nähe und Kontakt",
+            "bewegt sich mit Anziehung und Präsenz",
+            "orientiert sich an intensiven Bindungen",
+            "schafft Nähe, Vertrautheit und Loyalität",
+          ],
+        contactStyle: [
+            "herzlich, persönlich und einnehmend",
+            "sucht Tiefe, Resonanz und Hingabe",
+            "zeigt Interesse und Exklusivität",
+            "kann klammern oder eifersüchtig werden",
+            "zieht sich zurück, wenn sie oder er sich abgelehnt fühlt",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberbauch / Innerer Raum", location: "oberhalb des Nabels", need: [
+              "Selbstkontakt",
+              "Ruhe",
+              "eigene Grenze",
+            ] },
+          microInstructions: [
+            "Nicht verschmelzen.",
+            "Nähe halten.",
+            "Bei dir bleiben.",
+            "Sanft atmen.",
+            "Für sich bleiben.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Herzöffnung, Mitgefühl, Treue, Sinn für Nähe und emotionale Tiefe.",
@@ -2983,6 +3310,63 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Flexibilität & innere Stabilität",
         sentence: "Ich passe mich an, ohne mich zu verlieren, und finde Halt in mir selbst.",
         qualities: ["praktisch und lösungsorientiert", "flexibel", "effizient", "verlässlich", "gute Beobachtungsgabe"],
+      },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
+        gazeQuality: [
+            "wach, prüfend und fokussiert",
+            "prüfend: Was bringt es? Was nützt es?",
+            "leicht distanziert, nüchtern",
+            "sucht Wirkung und Vorteile",
+            "beobachtet, bevor sie oder er handelt",
+          ],
+        microTension: [
+            "Stirn: fokussiert, angespannt",
+            "Augen: kontrollierend, durchdringend",
+            "Mund: fest, zurückhaltend",
+            "Kiefer: leicht angespannt, zusammenziehend",
+            "Haltung: aufrecht, präsent, leistungsbereit",
+          ],
+        breathingRhythm: [
+            "eher flach im Brustbereich",
+            "atmet schneller, wenn Ziele verfolgt werden",
+            "Atem stockt bei Unsicherheit oder Kritik",
+            "reguliert über Erfolg und Bestätigung",
+          ],
+        movementInitiation: [
+            "geht zielgerichtet und entschlossen",
+            "handelt schnell, wenn es Vorteile bringt",
+            "bewertet ständig Möglichkeiten und wägt Nutzen ab",
+            "orientiert sich an Ergebnissen und Erfolgsaussichten",
+            "schafft Bewegung durch Strategie und Planung",
+          ],
+        contactStyle: [
+            "direkt, charmant und angepasst",
+            "spricht lösungs- und nutzenorientiert",
+            "zeigt Kompetenz und Überblick",
+            "hört zu, um Informationen für sich zu nutzen",
+            "kommuniziert überzeugend und zielgerichtet",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen",
+              "Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          microInstructions: [
+            "Nichts erreichen.",
+            "Langsamer werden.",
+            "Druck lösen.",
+            "Nicht funktionieren.",
+            "Echtheit spüren.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3048,6 +3432,49 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
         qualities: ["charismatische Präsenz", "klare Zielorientierung", "soziale Kompetenz", "positive Ausstrahlung", "menschliche Wärme"],
       },
+      bodySignature: {
+        gazeQuality: [
+            "wach, prüfend und fokussiert",
+            "prüfend: Was bringt es? Was nützt es?",
+            "leicht distanziert, nüchtern",
+            "sucht Wirkung und Vorteile",
+            "beobachtet, bevor sie oder er handelt",
+          ],
+        movementInitiation: [
+            "geht zielgerichtet und entschlossen",
+            "handelt schnell, wenn es Vorteile bringt",
+            "bewertet ständig Möglichkeiten und wägt Nutzen ab",
+            "orientiert sich an Ergebnissen und Erfolgsaussichten",
+            "schafft Bewegung durch Strategie und Planung",
+          ],
+        contactStyle: [
+            "direkt, charmant und angepasst",
+            "spricht lösungs- und nutzenorientiert",
+            "zeigt Kompetenz und Überblick",
+            "hört zu, um Informationen für sich zu nutzen",
+            "kommuniziert überzeugend und zielgerichtet",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen",
+              "Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          microInstructions: [
+            "Keine Rolle spielen.",
+            "Echt bleiben.",
+            "Maske lockern.",
+            "Sichtbar sein.",
+            "Ruhig atmen.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Kompetenz, Ziele, Wert schaffen, Anerkennung und Freude an Ergebnissen.",
@@ -3112,6 +3539,50 @@ export const knowledgePrototype = {
         sentence: "Ich bin genug, auch wenn ich nicht performe – meine echte Ausstrahlung zieht an.",
         qualities: ["starke Ausstrahlung", "emotionale Präsenz", "magnetische Anziehung", "kreative Selbstdarstellung", "Hingabe ohne Kontrolle"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, wertvoll zu sein und etwas zu erreichen, und der Angst, nicht genug zu sein oder zu versagen und dadurch abgelehnt zu werden.",
+        gazeQuality: [
+            "durchdringend, präsent und fokussiert",
+            "prüfend: Was bringt es? Was nützt es?",
+            "leicht herausfordernd, selbstsicher",
+            "sucht Wirkung, Einfluss und Vorteile",
+            "beobachtet genau, bevor sie oder er handelt",
+          ],
+        microTension: [
+            "Stirn: fokussiert, leicht angespannt",
+            "Augen: kontrollierend, durchdringend",
+            "Mund: fest, selbstbewusst, leicht spitz",
+            "Kiefer: leicht angespannt, präsent",
+            "Haltung: aufrecht, dynamisch, präsent",
+          ],
+        contactStyle: [
+            "charmant, überzeugend und angepasst",
+            "spricht lösungs- und nutzenorientiert",
+            "zeigt Kompetenz und Überblick",
+            "hört zu, um Informationen für sich zu nutzen",
+            "kommuniziert überzeugend und zielgerichtet",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen",
+              "Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          microInstructions: [
+            "Nicht glänzen.",
+            "Nähe nicht spielen.",
+            "Körper spüren.",
+            "Wahr bleiben.",
+            "Echtheit zulassen.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Kompetenz, Ziele, Wert schaffen, Anerkennung und Freude an Ergebnissen.",
@@ -3174,6 +3645,64 @@ export const knowledgePrototype = {
         sentence: "Frieden entsteht, wenn du aufhörst, dich selbst zu verleugnen.",
         qualities: ["tiefer innerer Rückzug", "reiche Gefühlswelt", "authentischer Ausdruck", "starke Intuition", "verbunden mit dem Wesentlichen"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, authentisch und bedeutungsvoll zu sein, und der Angst, unverstanden oder zu viel zu sein.",
+        gazeQuality: [
+            "tief, suchend und introspektiv",
+            "prüfend: Was berührt es? Was bedeutet es?",
+            "leicht verträumt, abwesend wirkend",
+            "sensibel für Nuancen und Stimmungen",
+            "beobachtet innerlich, bevor sie oder er handelt",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, in Gedanken",
+            "Augen: weich, feinfühlig, aufmerksam",
+            "Mund: entspannt, leicht ernst",
+            "Kiefer: locker, nicht angespannt",
+            "Haltung: zurückhaltend, geschlossen",
+          ],
+        breathingRhythm: [
+            "eher flach im Brustbereich",
+            "atmet seufzend oder unregelmäßig",
+            "Atem stockt bei Überforderung",
+            "reguliert über Rückzug und Kreativität",
+          ],
+        movementInitiation: [
+            "bewegt sich zögerlich und beobachtend",
+            "handelt, wenn es sich stimmig anfühlt",
+            "bevorzugt Rückzug und Reflexion",
+            "nutzt Zeit allein für Kreativität",
+            "handelt intuitiv und situationsabhängig",
+            "schafft Raum durch Grenzen und inneren Rückzug",
+          ],
+        contactStyle: [
+            "tiefgründig, authentisch und ehrlich",
+            "spricht über Gefühle und Bedeutung",
+            "zeigt Verständnis und Mitgefühl",
+            "hört zu, um wirklich zu verstehen",
+            "teilt sich mit, wenn Vertrauen da ist",
+            "kommuniziert poetisch und bildhaft",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nicht vertiefen.",
+            "Schmerz halten.",
+            "Ruhig atmen.",
+            "Hier bleiben.",
+            "Weich werden.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Authentizität, Selbstakzeptanz, Kreativität, Tiefe und Mitgefühl.",
@@ -3232,6 +3761,63 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Authentizität & Bedeutungsvolle Verbindung",
         sentence: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
         qualities: ["emotionale Echtheit", "tiefe Verbindung", "wertschätzende Ehrlichkeit", "Raum für Individualität", "kreatives Miteinander"],
+      },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu werden.",
+        gazeQuality: [
+            "tief, melancholisch und distanziert",
+            "nach innen gerichtet, suchend",
+            "leicht traurig, als sähe er mehr als andere",
+            "beobachtet aus der Ferne",
+            "zurückhaltend, fast unsichtbar wirkend",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, in Gedanken",
+            "Augen: träumerisch, mit feiner Traurigkeit",
+            "Mund: neutral bis leicht gesenkt",
+            "Kiefer: entspannt, zugespannter Unterton",
+            "Haltung: zurückhaltend, leicht in sich gekehrt",
+          ],
+        breathingRhythm: [
+            "eher flach im Brustbereich",
+            "atmet unregelmäßig und tiefer bei Rückzug",
+            "Atem stockt bei emotionaler Überforderung",
+            "reguliert über Rückzug und Kreativität",
+          ],
+        movementInitiation: [
+            "bewegt sich bewusst und dosiert",
+            "handelt erst, wenn es sich stimmig anfühlt",
+            "bevorzugt Rückzug und Reflexion",
+            "nutzt Kreativität als Ausdruck",
+            "zieht sich bei Überstimulation zurück",
+            "schafft Raum durch Grenzen",
+          ],
+        contactStyle: [
+            "zurückhaltend, achtend und anspruchsvoll",
+            "spricht erst, wenn es wirklich etwas zu sagen gibt",
+            "sagt wenig, aber mit Bedeutung",
+            "hört tief zu und spürt zwischen den Zeilen",
+            "kommuniziert feinfühlig und differenziert",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nicht vergleichen.",
+            "Platz spüren.",
+            "Kontakt halten.",
+            "Dazugehören dürfen.",
+            "Ruhig bleiben.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3292,6 +3878,62 @@ export const knowledgePrototype = {
         sentence: "Ich bin einzigartig – und genau darin liegt meine Verbindung zur Welt.",
         qualities: ["tiefe emotionale Intensität", "authentischer Selbstausdruck", "kreative Originalität", "magnetische Anziehungskraft", "sinnliche Wahrnehmung"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, unverwechselbar und authentisch zu sein, und der Angst, übersehen, bewertet oder nicht verstanden zu werden.",
+        gazeQuality: [
+            "intensiv, durchdringend und magnetisch",
+            "sucht Tiefe, Bedeutung und Resonanz",
+            "vergleicht sich mit anderen",
+            "spürt Neid im Hintergrund",
+            "beobachtet genau und sucht Wirkung",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, konzentriert",
+            "Augen: intensiv, nach innen gerichtet",
+            "Mund: leicht angespannt, sinnlich",
+            "Kiefer: locker, aber wachsam",
+            "Haltung: geladen, präsent, bereit",
+          ],
+        breathingRhythm: [
+            "atmet flacher bei Konkurrenz oder Kritik",
+            "Atem stockt, wenn nicht verstanden",
+            "atmet schneller bei Inspiration",
+            "Atem vertieft sich bei echter Verbindung",
+          ],
+        movementInitiation: [
+            "bewegt sich impulsiv und aus Ausdruck",
+            "handelt schnell, wenn sie oder er begeistert ist",
+            "nutzt Gestik und Mimik stark",
+            "zieht sich zurück, wenn verletzt oder abgelehnt",
+            "liebt extremes Engagement als lebendige Beteiligung",
+          ],
+        contactStyle: [
+            "intensiv, direkt und leidenschaftlich",
+            "spricht tiefgründig, emotional und bildhaft",
+            "will verstanden werden, nicht nur gehört",
+            "testet Grenzen in Nähe und Distanz",
+            "zieht sich zurück, wenn sie oder er sich nicht echt gesehen fühlt",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Sehnsucht beruhigen.",
+            "Nicht hineinsteigern.",
+            "Nähe lassen.",
+            "Körper halten.",
+            "Weich bleiben.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Authentizität, Kreativität, Tiefe Verbindung, Selbstachtung, Inspiration und Vision.",
@@ -3350,6 +3992,63 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Wissen & Innere Sicherheit",
         sentence: "Ich vertraue auf mein Wissen und wähle, was mir wirklich dient.",
         qualities: ["ruhiger Atem", "fokussierter Blick", "klare Grenzen", "vorausschauendes Handeln", "natürliche Zurückhaltung"],
+      },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
+        gazeQuality: [
+            "tief, ruhig und beobachtend",
+            "wirkt oft nach innen gerichtet",
+            "aufmerksame Klarheit",
+            "durchdringend, aber nicht eindringlich",
+            "zurückhaltend, mit innerer Distanz",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt beim Nachdenken",
+            "Augen: fokussiert, leicht verengt",
+            "Mund: neutral, Lippen meist zusammen",
+            "Kiefer: locker, nach innen entspannt",
+            "Haltung: aufrecht, in sich ruhend",
+          ],
+        breathingRhythm: [
+            "atmet flach im Brustbereich",
+            "Atem vertieft sich beim Nachdenken",
+            "atmet langsamer, wenn in Konzentration",
+            "Atem stockt bei Überforderung",
+            "reguliert über Rückzug und Stille",
+          ],
+        movementInitiation: [
+            "bewegt sich gezielt und sparsam",
+            "handelt erst, wenn es notwendig ist",
+            "nutzt Pausen zur Beobachtung",
+            "zieht sich zurück, wenn zu viel los ist",
+            "liebt geistige Klarheit und Struktur",
+          ],
+        contactStyle: [
+            "lieber wenige, aber echte Gespräche",
+            "spricht bedächtig, überlegt und präzise",
+            "hört aufmerksam zu",
+            "braucht Zeit, um sich zu öffnen",
+            "kommuniziert tiefgründig und ehrlich",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Bauch / Körpermitte", location: "mittig auf dem Bauchnabel", need: [
+              "Spüren",
+              "Präsenz",
+              "innere Sicherheit",
+            ] },
+          microInstructions: [
+            "Körper bewohnen.",
+            "Nicht zurückziehen.",
+            "Wahrnehmung öffnen.",
+            "Kontakt zulassen.",
+            "Präsent bleiben.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3410,6 +4109,63 @@ export const knowledgePrototype = {
         sentence: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
         qualities: ["ruhige Präsenz", "analytischer Verstand", "tiefes Zuhören", "klare Struktur", "durchdachte Kommunikation"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch, alles zu verstehen, und der Angst, überflutet oder vereinnahmt zu werden.",
+        gazeQuality: [
+            "tief, ruhig und beobachtend",
+            "wirkt oft nach innen gerichtet",
+            "aufmerksame Klarheit",
+            "durchdringend, aber nicht eindringlich",
+            "zurückhaltend, mit innerer Distanz",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt beim Nachdenken",
+            "Augen: fokussiert, leicht verengt",
+            "Mund: neutral, Lippen meist zusammen",
+            "Kiefer: locker, nach innen entspannt",
+            "Haltung: aufrecht, in sich ruhend",
+          ],
+        breathingRhythm: [
+            "atmet flach im Brustbereich",
+            "Atem vertieft sich beim Nachdenken",
+            "atmet langsamer, wenn in Konzentration",
+            "Atem stockt bei Überforderung",
+            "reguliert über Rückzug und Stille",
+          ],
+        movementInitiation: [
+            "bewegt sich gezielt und sparsam",
+            "handelt erst, wenn es notwendig ist",
+            "nutzt Pausen zur Beobachtung",
+            "zieht sich zurück, wenn zu viel los ist",
+            "liebt geistige Klarheit und Struktur",
+          ],
+        contactStyle: [
+            "lieber wenige, aber echte Gespräche",
+            "spricht bedächtig, überlegt und präzise",
+            "hört aufmerksam zu",
+            "braucht Zeit, um sich zu öffnen",
+            "kommuniziert tiefgründig und ehrlich",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Bauch / Körpermitte", location: "mittig auf dem Bauchnabel", need: [
+              "Spüren",
+              "Präsenz",
+              "innere Sicherheit",
+            ] },
+          microInstructions: [
+            "Nicht nur beobachten.",
+            "Dich zeigen.",
+            "Mitatmen dürfen.",
+            "Nähe dosieren.",
+            "Anwesend bleiben.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Tiefes Verstehen, sinnvolle Verbindung, Vertrauen, klare Struktur und kollektive Klarheit.",
@@ -3467,6 +4223,63 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Vertrauen & Lebendigkeit",
         sentence: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
         qualities: ["feine Wahrnehmung", "emotionale Tiefe", "intellektuelle Klarheit", "vertrauensvolle Offenheit", "stille Stärke"],
+      },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch nach tiefer Verbindung und der Angst, sich zu verletzlich zu zeigen.",
+        gazeQuality: [
+            "weich, suchend und leicht scheu",
+            "forschend, aber selektiv",
+            "zugewandt, wenn Vertrauen da ist",
+            "beobachtend mit emotionaler Tiefe",
+            "nicht so distanziert wie SO5 oder SE5",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt beim Nachdenken",
+            "Augen: offen, weich, manchmal fragend",
+            "Mund: leicht geschlossen, sensibel",
+            "Kiefer: zart angespannt, Schutzhaltung",
+            "Haltung: zurückhaltend, innerlich wach",
+          ],
+        breathingRhythm: [
+            "Atem flach im Brustbereich",
+            "Atem vertieft sich bei Nähe und Vertrauen",
+            "atmet langsamer, wenn in Kontakt",
+            "Atem stockt bei Unsicherheit",
+            "reguliert über Rückzug und Intimität",
+          ],
+        movementInitiation: [
+            "bewegt sich zögerlich und bedacht",
+            "braucht Sicherheit, um aktiv zu werden",
+            "nutzt Pausen zur inneren Sortierung",
+            "zieht sich zurück, wenn zu viel Nähe entsteht",
+            "liebt geistige Tiefe und Rückzug",
+          ],
+        contactStyle: [
+            "sucht tiefe, echte Verbindung",
+            "spricht wenig, aber bedeutungsvoll",
+            "hört aufmerksam und mitfühlend zu",
+            "braucht Zeit, um sich zu öffnen",
+            "kommuniziert feinfühlig und intuitiv",
+          ],
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Bauch / Körpermitte", location: "mittig auf dem Bauchnabel", need: [
+              "Spüren",
+              "Präsenz",
+              "innere Sicherheit",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3534,6 +4347,64 @@ export const knowledgePrototype = {
         sentence: "Ich wähle Vertrauen statt Angst und Mut statt Kontrolle.",
         qualities: ["wachsam und loyal", "vorsichtig und verlässlich", "innere Sicherheit", "ruhigere Atmung", "belastbare Standfestigkeit"],
       },
+      bodySignature: {
+        basicTension: "Zwischen dem Wunsch nach Sicherheit und der Angst vor Gefahr oder Verrat.",
+        gazeQuality: [
+            "wachsam, prüfend und suchend",
+            "sieht Details und potenzielle Risiken",
+            "misstrauisch, aber zugewandt",
+            "scannt Umgebung und Menschen",
+            "achtet auf Stimmungen und Signale",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, sorgenvoll",
+            "Augen: wach, angespannt, schnell reagierend",
+            "Mund: leicht angespannt, zurückhaltend",
+            "Kiefer: leicht angespannt, kontrollierend",
+            "Haltung: aufmerksam, leicht angespannt",
+          ],
+        breathingRhythm: [
+            "atmet eher flach und unregelmäßig",
+            "Atem stockt bei Unsicherheit",
+            "atmet schneller bei Anspannung",
+            "seufzt bei Erschöpfung",
+            "braucht tiefe, bewusste Atempausen",
+          ],
+        movementInitiation: [
+            "bewegt sich vorsichtig und bedacht",
+            "beobachtet erst, dann handelt sie",
+            "prüft Umfeld, bevor er losgeht",
+            "hält sich zurück, bis Sicherheit da ist",
+            "braucht Bestätigung, bevor er aktiv wird",
+          ],
+        contactStyle: [
+            "höflich, respektvoll und loyal",
+            "fragt nach, hört genau zu",
+            "sucht Klarheit und Verlässlichkeit",
+            "braucht Zeit, um Vertrauen zu fassen",
+            "ist unterstützend, wenn sicher",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberschenkel", location: "mittig auf dem Oberschenkel", need: [
+              "Halt",
+              "Vertrauen",
+              "Stabilität",
+              "Sicherheit",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Vertrauen, Bindung, innere Sicherheit, Loyalität, Gemeinschaft und Mut.",
@@ -3591,6 +4462,64 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Zugehörigkeit & Vertrauen",
         sentence: "Ich wähle Vertrauen statt Angst und Verbundenheit statt Kontrolle.",
         qualities: ["verantwortungsbewusst", "teamorientiert", "loyal", "klare Kommunikation", "stabile Zugehörigkeit"],
+      },
+      bodySignature: {
+        basicTension: "Zwischen dem Bedürfnis nach Sicherheit und Zugehörigkeit und der Angst vor Verrat oder Überforderung.",
+        gazeQuality: [
+            "wachsam, überlegend und gruppenorientiert",
+            "sieht Zusammenhänge und Dynamiken",
+            "angst nur auf den zweiten Blick erkennbar",
+            "ruhig, verantwortungsbewusst, loyal",
+            "achtet auf Sicherheit, Vertrautheit und Signale",
+          ],
+        microTension: [
+            "Stirn: leicht angespannt, fokussiert",
+            "Augen: aufmerksam, prüfend, mit Weitblick",
+            "Mund: neutral bis leicht angespannt",
+            "Kiefer: moderat angespannt, kontrolliert",
+            "Haltung: aufrecht, bereit, wachsam",
+          ],
+        breathingRhythm: [
+            "atmet ruhig und gleichmäßig",
+            "Atem eher tief in den Brustbereich",
+            "atmet bewusster bei Verantwortung",
+            "seufzt selten, aber bewusst",
+            "braucht Sicherheit und Verbindungsatmen",
+          ],
+        movementInitiation: [
+            "handelt mit Bedacht und im Team",
+            "prüft erst, dann setzt er sich ein",
+            "bewegt sich mit Ziel und Richtung",
+            "orientiert sich an Bedürfnissen der Gruppe",
+            "braucht Sicherheit, bevor er aktiv wird",
+          ],
+        contactStyle: [
+            "freundlich, verbindlich und zuvorkommend",
+            "hört zu, beobachtet, fragt nach",
+            "spricht klar, überlegt und respektvoll",
+            "bringt Ideen für das Wohl der Gruppe ein",
+            "kommuniziert loyal und unterstützend",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberschenkel", location: "mittig auf dem Oberschenkel", need: [
+              "Halt",
+              "Vertrauen",
+              "Stabilität",
+              "Sicherheit",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3650,6 +4579,64 @@ export const knowledgePrototype = {
         sentence: "Ich wähle Vertrauen statt Angst und Verbindung statt Kontrolle.",
         qualities: ["intensiv wachsam", "mutig", "loyal", "schutzbereit", "kraftvoll und ruhig zugleich"],
       },
+      bodySignature: {
+        basicTension: "Zwischen Angst und Mut, Rückzug und Angriff, Sicherheit und intensiver Bindung.",
+        gazeQuality: [
+            "durchdringend, intensiv und misstrauisch",
+            "wolfsblick: sieht tief und prüfend",
+            "sucht die Schwachstelle, bevor Vertrauen entsteht",
+            "gleichzeitig anziehend und abweisend",
+            "immer bereit, zu kämpfen oder zu fliehen",
+          ],
+        microTension: [
+            "Stirn: angespannt, fokussiert, kontrollierend",
+            "Augen: intensiv, verengt, durchdringend",
+            "Mund: fest, oft leicht zusammengepresst",
+            "Kiefer: ausgeprägt und stark angespannt",
+            "Haltung: kampfbereit, stolz, angespannt",
+          ],
+        breathingRhythm: [
+            "atmet tief und kraftvoll in den Brustbereich",
+            "Atem stockt bei Bedrohung oder Zurückweisung",
+            "atmet schneller bei Kampfbereitschaft",
+            "Atem vertieft sich, wenn Leidenschaft aktiv ist",
+            "seufzt selten, lieber Aktion als Nachgeben",
+          ],
+        movementInitiation: [
+            "bewegt sich zielstrebig und entschlossen",
+            "reagiert schnell, wenn Gefahr spürbar ist",
+            "geht auf andere zu, wenn Interesse geweckt ist",
+            "zieht sich explosiv zurück, wenn verletzt",
+            "braucht Herausforderung, um sich lebendig und stark zu fühlen",
+          ],
+        contactStyle: [
+            "sucht intensive, echte Verbindungen",
+            "spricht direkt, leidenschaftlich und fordernd",
+            "testet Loyalität durch Nähe und Konfrontation",
+            "bringt Gefühl stark und ungefiltert ein",
+            "kommuniziert mit Unterton und Spannung",
+          ],
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Oberschenkel", location: "mittig auf dem Oberschenkel", need: [
+              "Halt",
+              "Vertrauen",
+              "Stabilität",
+              "Sicherheit",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Mut, Entschlossenheit, Loyalität, Schutzinstinkt, Leidenschaft und strategische Intelligenz.",
@@ -3707,6 +4694,27 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Lebensfreude & Ressourcenfülle",
         sentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
         qualities: ["lebensfroh", "spontan", "ressourcenorientiert", "genussfähig", "zentrierte Lebendigkeit"],
+      },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3766,6 +4774,27 @@ export const knowledgePrototype = {
         sentence: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
         qualities: ["visionär", "kontaktfreudig", "ideenreich", "verbindend", "kreative Verantwortung"],
       },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Lebensfreude, Enthusiasmus, Kreativität, Vernetzung, Taktkraft, Inspiration und Motivation.",
@@ -3823,6 +4852,27 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Lebensfreude & tiefe, erfüllende Verbindungen",
         sentence: "Ich tauche tief in das Leben ein und ermögliche mir echte Verbundenheit.",
         qualities: ["leidenschaftlich", "magnetisch", "sinnlich", "abenteuerlustig", "tiefe erfüllende Verbindung"],
+      },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Unterbauch / Beckenbereich", location: "unterhalb des Nabels", need: [
+              "Sicherheit",
+              "Schutz",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3882,6 +4932,27 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um zu schützen, zu gestalten und das Leben zu stärken.",
         qualities: ["selbstbestimmt", "standhaft", "mutig", "beschützend", "vertrauensvolle Kraft"],
       },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Schambein-Bereich", location: "auf dem Schambein", need: [
+              "Urvertrauen",
+              "Erdung",
+              "Schutz",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Innere Stärke, Standhaftigkeit, Mut, Entschlossenheit, Loyalität, Schutzinstinkt und Gerechtigkeit.",
@@ -3939,6 +5010,27 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Reife Stärke & verantwortliche Führung",
         sentence: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu gestalten.",
         qualities: ["führungsstark", "gerecht", "beschützend", "organisiert", "verantwortliche Autorität"],
+      },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Schambein-Bereich", location: "auf dem Schambein", need: [
+              "Urvertrauen",
+              "Erdung",
+              "Schutz",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -3998,6 +5090,27 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in seiner Tiefe zu erfahren.",
         qualities: ["magnetisch", "intensiv", "leidenschaftlich", "souverän", "vertrauensvolle Nähe"],
       },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Herzraum / Brustmitte", location: "mittig auf dem Brustbein", need: [
+              "Nähe",
+              "Verbindung",
+              "Resonanz",
+            ] },
+          point2: { name: "Schambein-Bereich", location: "auf dem Schambein", need: [
+              "Urvertrauen",
+              "Erdung",
+              "Schutz",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Leidenschaft, Lebensenergie, Präsenz, Magnetismus, Mut, Unabhängigkeit, Schutz und Loyalität.",
@@ -4055,6 +5168,27 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Innere Ruhe & stabile Präsenz",
         sentence: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
         qualities: ["ruhig", "geerdet", "standhaft", "weise", "lebendige Selbstpräsenz"],
+      },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Suprapubischer Bereich", location: "knapp oberhalb des Schambeins", need: [
+              "Ruhe",
+              "Harmonie",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -4114,6 +5248,27 @@ export const knowledgePrototype = {
         sentence: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
         qualities: ["verbindend", "gelassen", "standhaft", "ausgleichend", "klare Zugehörigkeit"],
       },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Suprapubischer Bereich", location: "knapp oberhalb des Schambeins", need: [
+              "Ruhe",
+              "Harmonie",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
+      },
       signature: {
         title: "Ressourcenfeld",
         text: "Harmonie, Ausgleich, Geduld, Weitblick, Stabilität, Beständigkeit, Verständnis und Mitgefühl.",
@@ -4171,6 +5326,27 @@ export const knowledgePrototype = {
         title: "Integrationspotenzial: Frieden stiften & universelle Verbundenheit",
         sentence: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
         qualities: ["hingebungsvoll", "mitfühlend", "friedlich", "verbunden", "klare Selbstpräsenz"],
+      },
+      bodySignature: {
+        twoPoints: {
+          point1: { name: "Stirn / Kopf", location: "mittig auf der Stirn", need: [
+              "Wissen / Verstehen",
+              "Wahrnehmung",
+              "innere Klarheit",
+            ] },
+          point2: { name: "Suprapubischer Bereich", location: "knapp oberhalb des Schambeins", need: [
+              "Ruhe",
+              "Harmonie",
+              "Verwurzelung",
+            ] },
+          microInstructions: [
+            "Nichts verändern.",
+            "Nichts korrigieren.",
+            "Nur halten und atmen.",
+            "Lass den Atem ruhig fließen.",
+            "Bleibe in deiner Aufmerksamkeit.",
+          ],
+        },
       },
       signature: {
         title: "Ressourcenfeld",
@@ -5776,6 +6952,18 @@ export const uiText = {
     lifeTheme: "Lebensthema",
     resourceField: "Ressourcenfeld",
     essenceQualities: "Verkörperte Qualitäten",
+    bodySignature: {
+      basicTension: "Grundspannung",
+      gazeQuality: "Blickqualität",
+      microTension: "Mikro-Spannung im Gesicht",
+      breathingRhythm: "Atemrhythmus",
+      movementInitiation: "Bewegungsinitiierung",
+      contactStyle: "Kontaktstil",
+      twoPoints: "2-Punkte-Integration",
+      point1: "Erster Punkt",
+      point2: "Zweiter Punkt",
+      microInstructions: "Mikro-Anleitung",
+    },
     practice: "2-Punkte-Integration",
     media: "Musik & Medien",
     mediaPending: "Musik wird hier später eingebunden.",
