@@ -2539,6 +2539,18 @@ export const knowledgePrototype = {
           ],
         },
       ],
+      woundBehindPassion: {
+        passion: "Groll – eine verhaltene, nach innen gerichtete Anspannung, die entsteht, wenn die Wirklichkeit nicht dem inneren Ideal entspricht.",
+        belief: "„Die Welt sollte besser sein – und ich bin dafür verantwortlich.“ Darunter: „Wenn ich nicht alles kontrolliere, geht es schief.“",
+        wound: "Die Wunde der Unvollkommenheit: das tiefe Gefühl, dass die Wirklichkeit niemals ganz dem inneren Ideal entsprechen kann.",
+        compensation: "Ordnung schaffen, korrigieren, verbessern und kontrollieren. Die Energie richtet sich auf das Beseitigen von Mängeln. Dabei entsteht eine innere Daueranspannung.",
+        sufferingCycle: "Der Einser versucht, durch Verbesserung Frieden zu finden. Doch kaum ist ein Mangel behoben, erscheint der nächste. Die Unvollkommenheit bestätigt sich immer wieder, die Anspannung wächst, der Druck zur Verbesserung nimmt zu. Und der Kreislauf beginnt erneut.",
+        healingDirection: "Den inneren Richter still werden lassen und entdecken, dass das eigene Menschsein – mit all seinen Fehlern – nicht das Problem ist. Frieden entsteht nicht am Ende aller Verbesserungen, sondern mitten im unvollkommenen Leben.",
+        remedy: "Wundenmittel: Arsenicum album · Leidenschaftsmittel: Platinum metallicum · Schüßler-Salz: Kalium chloratum · Bach-Blüte: Rock Water. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 1 (S. 30–57). Buchtext ist typ-bezogen; SE1-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       mediaGroups: type1MediaGroups("SE1", {
         deId: "XHB8xTxJtHY",
         enCode: "SP1",
@@ -2628,6 +2640,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 1). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Groll – eine verhaltene, nach innen gerichtete Anspannung, die entsteht, wenn die Wirklichkeit nicht dem inneren Ideal entspricht.",
+        belief: "„Die Welt sollte besser sein – und ich bin dafür verantwortlich.“ Darunter: „Wenn ich nicht alles kontrolliere, geht es schief.“",
+        wound: "Die Wunde der Unvollkommenheit: das tiefe Gefühl, dass die Wirklichkeit niemals ganz dem inneren Ideal entsprechen kann.",
+        compensation: "Ordnung schaffen, korrigieren, verbessern und kontrollieren. Die Energie richtet sich auf das Beseitigen von Mängeln. Dabei entsteht eine innere Daueranspannung.",
+        sufferingCycle: "Der Einser versucht, durch Verbesserung Frieden zu finden. Doch kaum ist ein Mangel behoben, erscheint der nächste. Die Unvollkommenheit bestätigt sich immer wieder, die Anspannung wächst, der Druck zur Verbesserung nimmt zu. Und der Kreislauf beginnt erneut.",
+        healingDirection: "Den inneren Richter still werden lassen und entdecken, dass das eigene Menschsein – mit all seinen Fehlern – nicht das Problem ist. Frieden entsteht nicht am Ende aller Verbesserungen, sondern mitten im unvollkommenen Leben.",
+        remedy: "Wundenmittel: Arsenicum album · Leidenschaftsmittel: Platinum metallicum · Schüßler-Salz: Kalium chloratum · Bach-Blüte: Rock Water. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 1 (S. 30–57). Buchtext ist typ-bezogen; SO1-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       mediaGroups: type1MediaGroups("SO1", {
@@ -2721,6 +2745,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 1). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Groll – eine verhaltene, nach innen gerichtete Anspannung, die entsteht, wenn die Wirklichkeit nicht dem inneren Ideal entspricht.",
+        belief: "„Die Welt sollte besser sein – und ich bin dafür verantwortlich.“ Darunter: „Wenn ich nicht alles kontrolliere, geht es schief.“",
+        wound: "Die Wunde der Unvollkommenheit: das tiefe Gefühl, dass die Wirklichkeit niemals ganz dem inneren Ideal entsprechen kann.",
+        compensation: "Ordnung schaffen, korrigieren, verbessern und kontrollieren. Die Energie richtet sich auf das Beseitigen von Mängeln. Dabei entsteht eine innere Daueranspannung.",
+        sufferingCycle: "Der Einser versucht, durch Verbesserung Frieden zu finden. Doch kaum ist ein Mangel behoben, erscheint der nächste. Die Unvollkommenheit bestätigt sich immer wieder, die Anspannung wächst, der Druck zur Verbesserung nimmt zu. Und der Kreislauf beginnt erneut.",
+        healingDirection: "Den inneren Richter still werden lassen und entdecken, dass das eigene Menschsein – mit all seinen Fehlern – nicht das Problem ist. Frieden entsteht nicht am Ende aller Verbesserungen, sondern mitten im unvollkommenen Leben.",
+        remedy: "Wundenmittel: Arsenicum album · Leidenschaftsmittel: Platinum metallicum · Schüßler-Salz: Kalium chloratum · Bach-Blüte: Rock Water. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 1 (S. 30–57). Buchtext ist typ-bezogen; SX1-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       mediaGroups: type1MediaGroups("SX1", {
         deId: "s1AQHS_gOHg",
         enCode: "SX1",
@@ -2777,6 +2813,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Stolz – nicht als Überheblichkeit, sondern als das Gefühl, sich durch Geben und Helfen unentbehrlich zu machen. Der Zweier definiert seinen Wert über seine Bedeutung für andere und verdrängt dabei die eigene Bedürftigkeit.",
+        belief: "„Ich bin nur liebenswert, wenn ich für andere da bin.“ Darunter: „Eigene Bedürfnisse sind eine Belastung für andere – und müssen versteckt werden.“",
+        wound: "Die Wunde der verbotenen Bedürftigkeit: das tiefe Gefühl, dass die eigenen Bedürfnisse nicht zählen oder nicht erlaubt sind.",
+        compensation: "Fürsorge, Unterstützung und emotionale Verfügbarkeit – immer für andere da sein, bevor die eigenen Bedürfnisse sichtbar werden.",
+        sufferingCycle: "Der Zweier gibt, unterstützt und hört zu, und erwartet dafür Nähe und Anerkennung. Wenn diese ausbleibt, gibt er noch mehr – die eigenen Bedürfnisse werden weiter verdrängt, die innere Erschöpfung wächst.",
+        healingDirection: "Erkennen, dass auch eigene Bedürfnisse Raum verdienen. Nähe entsteht nicht allein durch Geben, sondern auch durch ehrliches Zeigen dessen, was man selbst braucht.",
+        remedy: "Wundenmittel: Pulsatilla pratensis · Leidenschaftsmittel: Hyoscyamus niger · Schüßler-Salz: Natrium chloratum · Bach-Blüte: Chicory. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 2 (S. 59–92). Buchtext ist typ-bezogen; SE2-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [
         "SE2 ist als erster Typ-2-Prototyp mit Typ-2-Grundkarte und Seiten 1-5 als Wissenskarten angelegt.",
         "Medienlinks fuer Typ 2, SE2, SO2 und SX2 sind noch nicht eingetragen.",
@@ -2827,6 +2875,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Stolz – nicht als Überheblichkeit, sondern als das Gefühl, sich durch Geben und Helfen unentbehrlich zu machen. Der Zweier definiert seinen Wert über seine Bedeutung für andere und verdrängt dabei die eigene Bedürftigkeit.",
+        belief: "„Ich bin nur liebenswert, wenn ich für andere da bin.“ Darunter: „Eigene Bedürfnisse sind eine Belastung für andere – und müssen versteckt werden.“",
+        wound: "Die Wunde der verbotenen Bedürftigkeit: das tiefe Gefühl, dass die eigenen Bedürfnisse nicht zählen oder nicht erlaubt sind.",
+        compensation: "Fürsorge, Unterstützung und emotionale Verfügbarkeit – immer für andere da sein, bevor die eigenen Bedürfnisse sichtbar werden.",
+        sufferingCycle: "Der Zweier gibt, unterstützt und hört zu, und erwartet dafür Nähe und Anerkennung. Wenn diese ausbleibt, gibt er noch mehr – die eigenen Bedürfnisse werden weiter verdrängt, die innere Erschöpfung wächst.",
+        healingDirection: "Erkennen, dass auch eigene Bedürfnisse Raum verdienen. Nähe entsteht nicht allein durch Geben, sondern auch durch ehrliches Zeigen dessen, was man selbst braucht.",
+        remedy: "Wundenmittel: Pulsatilla pratensis · Leidenschaftsmittel: Hyoscyamus niger · Schüßler-Salz: Natrium chloratum · Bach-Blüte: Chicory. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 2 (S. 59–92). Buchtext ist typ-bezogen; SO2-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2881,6 +2941,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 2). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Stolz – nicht als Überheblichkeit, sondern als das Gefühl, sich durch Geben und Helfen unentbehrlich zu machen. Der Zweier definiert seinen Wert über seine Bedeutung für andere und verdrängt dabei die eigene Bedürftigkeit.",
+        belief: "„Ich bin nur liebenswert, wenn ich für andere da bin.“ Darunter: „Eigene Bedürfnisse sind eine Belastung für andere – und müssen versteckt werden.“",
+        wound: "Die Wunde der verbotenen Bedürftigkeit: das tiefe Gefühl, dass die eigenen Bedürfnisse nicht zählen oder nicht erlaubt sind.",
+        compensation: "Fürsorge, Unterstützung und emotionale Verfügbarkeit – immer für andere da sein, bevor die eigenen Bedürfnisse sichtbar werden.",
+        sufferingCycle: "Der Zweier gibt, unterstützt und hört zu, und erwartet dafür Nähe und Anerkennung. Wenn diese ausbleibt, gibt er noch mehr – die eigenen Bedürfnisse werden weiter verdrängt, die innere Erschöpfung wächst.",
+        healingDirection: "Erkennen, dass auch eigene Bedürfnisse Raum verdienen. Nähe entsteht nicht allein durch Geben, sondern auch durch ehrliches Zeigen dessen, was man selbst braucht.",
+        remedy: "Wundenmittel: Pulsatilla pratensis · Leidenschaftsmittel: Hyoscyamus niger · Schüßler-Salz: Natrium chloratum · Bach-Blüte: Chicory. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 2 (S. 59–92). Buchtext ist typ-bezogen; SX2-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [
         "Typ-2-Tafeln sind sichtbar verortet; die lückenlose Tiefenextraktion der Einzelmodule folgt nach Freigabe des Architekturtests.",
         "Medienlinks fuer Typ 2 und SX2 sind noch nicht eingetragen.",
@@ -2931,6 +3003,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Täuschung – nicht unbedingt bewusste Lüge, sondern das Angleichen des eigenen Selbstbildes an das, was Erfolg und Anerkennung bringt.",
+        belief: "„Mein Wert hängt von meiner Leistung ab.“ Darunter: „Wer ich wirklich bin, reicht nicht aus – ich muss zeigen, was ich kann.“",
+        wound: "Die Wunde der Wertlosigkeit: das tiefe Gefühl, dass das eigene Sein ohne Leistung, Erfolg oder Anerkennung nicht genug ist.",
+        compensation: "Leisten, optimieren, sich anpassen und sichtbar werden – der Dreier orientiert sich an dem, was Anerkennung bringt. Das Bild nach außen tritt in den Vordergrund, das innere Erleben zurück.",
+        sufferingCycle: "Der Dreier leistet und erreicht Anerkennung – doch die Frage „Reicht es schon?“ verstummt nicht. Kurze Befriedigung weicht schnell dem nächsten Ziel.",
+        healingDirection: "Entdecken, dass das eigene Sein – jenseits von Leistung und Erfolg – wertvoll ist. Ankunft geschieht nicht nach dem nächsten Ziel, sondern im Jetzt.",
+        remedy: "Wundenmittel: Lycopodium clavatum · Leidenschaftsmittel: Tarentula hispanica · Schüßler-Salz: Ferrum phosphoricum · Bach-Blüte: Walnut. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 3 (S. 93–117). Buchtext ist typ-bezogen; SE3-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [
@@ -2985,6 +3069,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Täuschung – nicht unbedingt bewusste Lüge, sondern das Angleichen des eigenen Selbstbildes an das, was Erfolg und Anerkennung bringt.",
+        belief: "„Mein Wert hängt von meiner Leistung ab.“ Darunter: „Wer ich wirklich bin, reicht nicht aus – ich muss zeigen, was ich kann.“",
+        wound: "Die Wunde der Wertlosigkeit: das tiefe Gefühl, dass das eigene Sein ohne Leistung, Erfolg oder Anerkennung nicht genug ist.",
+        compensation: "Leisten, optimieren, sich anpassen und sichtbar werden – der Dreier orientiert sich an dem, was Anerkennung bringt. Das Bild nach außen tritt in den Vordergrund, das innere Erleben zurück.",
+        sufferingCycle: "Der Dreier leistet und erreicht Anerkennung – doch die Frage „Reicht es schon?“ verstummt nicht. Kurze Befriedigung weicht schnell dem nächsten Ziel.",
+        healingDirection: "Entdecken, dass das eigene Sein – jenseits von Leistung und Erfolg – wertvoll ist. Ankunft geschieht nicht nach dem nächsten Ziel, sondern im Jetzt.",
+        remedy: "Wundenmittel: Lycopodium clavatum · Leidenschaftsmittel: Tarentula hispanica · Schüßler-Salz: Ferrum phosphoricum · Bach-Blüte: Walnut. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 3 (S. 93–117). Buchtext ist typ-bezogen; SO3-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [
         "Typ-3-Tafeln sind sichtbar verortet; SO3 ist als mehrsprachig vorbereiteter Wissensblock angelegt.",
         "Medienlinks fuer Typ 3 und SO3 sind noch nicht eingetragen.",
@@ -3037,6 +3133,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 3). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Täuschung – nicht unbedingt bewusste Lüge, sondern das Angleichen des eigenen Selbstbildes an das, was Erfolg und Anerkennung bringt.",
+        belief: "„Mein Wert hängt von meiner Leistung ab.“ Darunter: „Wer ich wirklich bin, reicht nicht aus – ich muss zeigen, was ich kann.“",
+        wound: "Die Wunde der Wertlosigkeit: das tiefe Gefühl, dass das eigene Sein ohne Leistung, Erfolg oder Anerkennung nicht genug ist.",
+        compensation: "Leisten, optimieren, sich anpassen und sichtbar werden – der Dreier orientiert sich an dem, was Anerkennung bringt. Das Bild nach außen tritt in den Vordergrund, das innere Erleben zurück.",
+        sufferingCycle: "Der Dreier leistet und erreicht Anerkennung – doch die Frage „Reicht es schon?“ verstummt nicht. Kurze Befriedigung weicht schnell dem nächsten Ziel.",
+        healingDirection: "Entdecken, dass das eigene Sein – jenseits von Leistung und Erfolg – wertvoll ist. Ankunft geschieht nicht nach dem nächsten Ziel, sondern im Jetzt.",
+        remedy: "Wundenmittel: Lycopodium clavatum · Leidenschaftsmittel: Tarentula hispanica · Schüßler-Salz: Ferrum phosphoricum · Bach-Blüte: Walnut. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 3 (S. 93–117). Buchtext ist typ-bezogen; SX3-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [
         "Typ-3-Tafeln sind sichtbar verortet; SX3 ist als mehrsprachig vorbereiteter Wissensblock angelegt.",
         "Medienlinks fuer Typ 3 und SX3 sind noch nicht eingetragen.",
@@ -3083,7 +3191,19 @@ export const knowledgePrototype = {
           schuessler: "Calcium phosphoricum",
           bachbluete: "Willow",
         },
+        woundBehindPassion: {
+        passion: "Neid – nicht als Missgunst, sondern als das schmerzhafte Gefühl, dass anderen etwas zukommt, das einem selbst fehlt.",
+        belief: "„Mir fehlt etwas, das andere haben.“ Darunter: „Ich bin auf eine Weise anders – und das macht mich unvollständig.“",
+        wound: "Die Wunde der Trennung: das tiefe Gefühl, von etwas Wesentlichem abgetrennt zu sein – von sich selbst, von anderen oder vom Leben.",
+        compensation: "Die Suche nach Intensität, Tiefe und Authentizität – sich in Gefühlen verweilen, Erfahrungen bedeutsam aufladen. Die Sehnsucht selbst wird manchmal zur Identität.",
+        sufferingCycle: "Der Vierer sucht das Fehlende in intensiveren Erfahrungen. Wenn die Fülle kurz aufleuchtet, weicht sie bald der nächsten Sehnsucht. Die Überzeugung, dass etwas fehlt, bestätigt sich immer wieder.",
+        healingDirection: "Erkennen, dass das Wesentliche nicht verloren gegangen ist. Die Sehnsucht kann sich auflösen, wenn der Mensch aufhört zu suchen und beginnt, in dem anzukommen, was bereits da ist.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
         needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 4 (S. 118–138). Buchtext ist typ-bezogen; SE4-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
+      needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
@@ -3130,7 +3250,19 @@ export const knowledgePrototype = {
           schuessler: "Calcium phosphoricum",
           bachbluete: "Willow",
         },
+        woundBehindPassion: {
+        passion: "Neid – nicht als Missgunst, sondern als das schmerzhafte Gefühl, dass anderen etwas zukommt, das einem selbst fehlt.",
+        belief: "„Mir fehlt etwas, das andere haben.“ Darunter: „Ich bin auf eine Weise anders – und das macht mich unvollständig.“",
+        wound: "Die Wunde der Trennung: das tiefe Gefühl, von etwas Wesentlichem abgetrennt zu sein – von sich selbst, von anderen oder vom Leben.",
+        compensation: "Die Suche nach Intensität, Tiefe und Authentizität – sich in Gefühlen verweilen, Erfahrungen bedeutsam aufladen. Die Sehnsucht selbst wird manchmal zur Identität.",
+        sufferingCycle: "Der Vierer sucht das Fehlende in intensiveren Erfahrungen. Wenn die Fülle kurz aufleuchtet, weicht sie bald der nächsten Sehnsucht. Die Überzeugung, dass etwas fehlt, bestätigt sich immer wieder.",
+        healingDirection: "Erkennen, dass das Wesentliche nicht verloren gegangen ist. Die Sehnsucht kann sich auflösen, wenn der Mensch aufhört zu suchen und beginnt, in dem anzukommen, was bereits da ist.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
         needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 4 (S. 118–138). Buchtext ist typ-bezogen; SO4-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
+      needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
@@ -3177,7 +3309,19 @@ export const knowledgePrototype = {
           schuessler: "Calcium phosphoricum",
           bachbluete: "Willow",
         },
+        woundBehindPassion: {
+        passion: "Neid – nicht als Missgunst, sondern als das schmerzhafte Gefühl, dass anderen etwas zukommt, das einem selbst fehlt.",
+        belief: "„Mir fehlt etwas, das andere haben.“ Darunter: „Ich bin auf eine Weise anders – und das macht mich unvollständig.“",
+        wound: "Die Wunde der Trennung: das tiefe Gefühl, von etwas Wesentlichem abgetrennt zu sein – von sich selbst, von anderen oder vom Leben.",
+        compensation: "Die Suche nach Intensität, Tiefe und Authentizität – sich in Gefühlen verweilen, Erfahrungen bedeutsam aufladen. Die Sehnsucht selbst wird manchmal zur Identität.",
+        sufferingCycle: "Der Vierer sucht das Fehlende in intensiveren Erfahrungen. Wenn die Fülle kurz aufleuchtet, weicht sie bald der nächsten Sehnsucht. Die Überzeugung, dass etwas fehlt, bestätigt sich immer wieder.",
+        healingDirection: "Erkennen, dass das Wesentliche nicht verloren gegangen ist. Die Sehnsucht kann sich auflösen, wenn der Mensch aufhört zu suchen und beginnt, in dem anzukommen, was bereits da ist.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
         needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 4 (S. 118–138). Buchtext ist typ-bezogen; SX4-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
+      needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 4). Bitte gegen die Originalseiten prüfen.",
         ],
       },
@@ -3228,6 +3372,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 5). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Geiz – nicht in erster Linie materiell, sondern ein Geiz mit Energie, Zeit, Aufmerksamkeit und innerer Beteiligung. Der Fünfer hält zurück, weil er befürchtet, mehr zu verlieren, als er geben kann.",
+        belief: "„Das Leben fordert mehr, als ich geben kann.“ Darunter: die eigenen Ressourcen sind begrenzt und müssen geschützt werden – Nähe und Erwartungen erscheinen als etwas, das ständig vom eigenen Vorrat abzieht.",
+        wound: "Die Wunde des Mangels: das tiefe Gefühl „Ich habe nicht genug“ – nicht genug Kraft, Energie, Wissen oder Kompetenz, um den Anforderungen des Lebens gewachsen zu sein.",
+        compensation: "Rückzug und Selbstgenügsamkeit: Wissen sammeln, Fähigkeiten entwickeln, innere Rückzugsräume schaffen, beobachten statt teilnehmen.",
+        sufferingCycle: "Der Mangel erzeugt Rückzug. Der Rückzug erzeugt Distanz. Die Distanz verhindert neue Erfahrungen. Die fehlenden Erfahrungen bestätigen den Mangel. Und der Kreislauf beginnt erneut.",
+        healingDirection: "Über das Wissen hinausgehen und dem Leben vertrauen: sich beteiligen, bevor alles verstanden ist, und erfahren, dass Energie wächst, wenn sie fließt.",
+        remedy: "Wundenmittel: Silicea · Leidenschaftsmittel: Stramonium · Schüßler-Salz: Silicea · Bach-Blüte: Water Violet. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 5 (S. 140–161). Buchtext ist typ-bezogen; SE5-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3271,7 +3427,19 @@ export const knowledgePrototype = {
           schuessler: "Silicea",
           bachbluete: "Water Violet",
         },
+        woundBehindPassion: {
+        passion: "Geiz – nicht in erster Linie materiell, sondern ein Geiz mit Energie, Zeit, Aufmerksamkeit und innerer Beteiligung. Der Fünfer hält zurück, weil er befürchtet, mehr zu verlieren, als er geben kann.",
+        belief: "„Das Leben fordert mehr, als ich geben kann.“ Darunter: die eigenen Ressourcen sind begrenzt und müssen geschützt werden – Nähe und Erwartungen erscheinen als etwas, das ständig vom eigenen Vorrat abzieht.",
+        wound: "Die Wunde des Mangels: das tiefe Gefühl „Ich habe nicht genug“ – nicht genug Kraft, Energie, Wissen oder Kompetenz, um den Anforderungen des Lebens gewachsen zu sein.",
+        compensation: "Rückzug und Selbstgenügsamkeit: Wissen sammeln, Fähigkeiten entwickeln, innere Rückzugsräume schaffen, beobachten statt teilnehmen.",
+        sufferingCycle: "Der Mangel erzeugt Rückzug. Der Rückzug erzeugt Distanz. Die Distanz verhindert neue Erfahrungen. Die fehlenden Erfahrungen bestätigen den Mangel. Und der Kreislauf beginnt erneut.",
+        healingDirection: "Über das Wissen hinausgehen und dem Leben vertrauen: sich beteiligen, bevor alles verstanden ist, und erfahren, dass Energie wächst, wenn sie fließt.",
+        remedy: "Wundenmittel: Silicea · Leidenschaftsmittel: Stramonium · Schüßler-Salz: Silicea · Bach-Blüte: Water Violet. Anwendung nur in therapeutischer Rücksprache.",
         needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 5 (S. 140–161). Buchtext ist typ-bezogen; SO5-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
+      needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 5). Bitte gegen die Originalseiten prüfen.",
         ],
       },
@@ -3387,6 +3555,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Angst – ein Grundmisstrauen gegenüber dem Leben, das sich als ständige innere Wachsamkeit, Zweifel und Absicherungsbedarf zeigt.",
+        belief: "„Die Welt ist gefährlich, und ich muss auf der Hut sein.“ Darunter: „Vertrauen ist riskant – ich kann mich nur auf eigene Vorsicht verlassen.“",
+        wound: "Die Wunde des verlorenen Vertrauens: das Gefühl, dass die innere Gewissheit, vom Leben getragen zu sein, brüchig ist.",
+        compensation: "Vorsicht, Absicherung, Risikoprfüung und Suche nach äußerer Autorität oder Gemeinschaft. Die Strategie richtet die Aufmerksamkeit ständig auf mögliche Bedrohungen.",
+        sufferingCycle: "Wer ständig nach Unsicherheiten sucht, findet sie. Mehr Vorsicht schafft mehr Wachsamkeit, die mehr Bedrohungen wahrnimmt, die mehr Angst erzeugt – und der Kreis schließt sich.",
+        healingDirection: "Erkennen, dass Sicherheit und Vertrauen nicht dasselbe sind. Vertrauen entsteht nicht durch Beseitigung aller Risiken, sondern durch die Erfahrung, dem Leben standhalten zu können.",
+        remedy: "Wundenmittel: Opium · Leidenschaftsmittel: Opium · Schüßler-Salz: Magnesium phosphoricum · Bach-Blüte: Cerato. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 6 (S. 162–193). Buchtext ist typ-bezogen; SE6-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3431,6 +3611,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Angst – ein Grundmisstrauen gegenüber dem Leben, das sich als ständige innere Wachsamkeit, Zweifel und Absicherungsbedarf zeigt.",
+        belief: "„Die Welt ist gefährlich, und ich muss auf der Hut sein.“ Darunter: „Vertrauen ist riskant – ich kann mich nur auf eigene Vorsicht verlassen.“",
+        wound: "Die Wunde des verlorenen Vertrauens: das Gefühl, dass die innere Gewissheit, vom Leben getragen zu sein, brüchig ist.",
+        compensation: "Vorsicht, Absicherung, Risikoprfüung und Suche nach äußerer Autorität oder Gemeinschaft. Die Strategie richtet die Aufmerksamkeit ständig auf mögliche Bedrohungen.",
+        sufferingCycle: "Wer ständig nach Unsicherheiten sucht, findet sie. Mehr Vorsicht schafft mehr Wachsamkeit, die mehr Bedrohungen wahrnimmt, die mehr Angst erzeugt – und der Kreis schließt sich.",
+        healingDirection: "Erkennen, dass Sicherheit und Vertrauen nicht dasselbe sind. Vertrauen entsteht nicht durch Beseitigung aller Risiken, sondern durch die Erfahrung, dem Leben standhalten zu können.",
+        remedy: "Wundenmittel: Opium · Leidenschaftsmittel: Opium · Schüßler-Salz: Magnesium phosphoricum · Bach-Blüte: Cerato. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 6 (S. 162–193). Buchtext ist typ-bezogen; SO6-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3479,6 +3671,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 6). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Angst – ein Grundmisstrauen gegenüber dem Leben, das sich als ständige innere Wachsamkeit, Zweifel und Absicherungsbedarf zeigt.",
+        belief: "„Die Welt ist gefährlich, und ich muss auf der Hut sein.“ Darunter: „Vertrauen ist riskant – ich kann mich nur auf eigene Vorsicht verlassen.“",
+        wound: "Die Wunde des verlorenen Vertrauens: das Gefühl, dass die innere Gewissheit, vom Leben getragen zu sein, brüchig ist.",
+        compensation: "Vorsicht, Absicherung, Risikoprfüung und Suche nach äußerer Autorität oder Gemeinschaft. Die Strategie richtet die Aufmerksamkeit ständig auf mögliche Bedrohungen.",
+        sufferingCycle: "Wer ständig nach Unsicherheiten sucht, findet sie. Mehr Vorsicht schafft mehr Wachsamkeit, die mehr Bedrohungen wahrnimmt, die mehr Angst erzeugt – und der Kreis schließt sich.",
+        healingDirection: "Erkennen, dass Sicherheit und Vertrauen nicht dasselbe sind. Vertrauen entsteht nicht durch Beseitigung aller Risiken, sondern durch die Erfahrung, dem Leben standhalten zu können.",
+        remedy: "Wundenmittel: Opium · Leidenschaftsmittel: Opium · Schüßler-Salz: Magnesium phosphoricum · Bach-Blüte: Cerato. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 6 (S. 162–193). Buchtext ist typ-bezogen; SX6-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3523,6 +3727,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Maßlosigkeit – das ständige Suchen nach neuen Erfahrungen als Strategie, Schmerz und innerer Leere zu entfliehen. Der Siebener will in Bewegung bleiben, um nicht mit dem zu sitzen, was schmerzt.",
+        belief: "„Das Gute liegt immer woanders – in der nächsten Erfahrung, dem nächsten Plan.“ Darunter: „Wenn ich innehalte, kommt der Schmerz.“",
+        wound: "Die Wunde der Schmerzvermeidung: das Gefühl, dass tiefere Gefühle – besonders Schmerz, Verlust und Begrenztheit – zu bedrohlich sind, um ihnen zu begegnen.",
+        compensation: "Planung, Begeisterung, neue Ideen und Projektinitiativen – das Bewusstsein bleibt ständig auf Möglichkeiten gerichtet. Bindungen werden manchmal vermieden, weil sie Begrenztheit bedeuten.",
+        sufferingCycle: "Der Siebener sucht Erfüllung in neuen Erfahrungen. Kurze Begeisterung weicht dem Bedürfnis nach dem Nächsten. Die Fülle, die er sucht, liegt immer einen Schritt weiter.",
+        healingDirection: "Das Gute liegt nicht vor ihm, sondern in der Gegenwart. Heilung beginnt in der Fähigkeit, ganz bei dem zu sein, was gerade ist – auch wenn es schmerzt.",
+        remedy: "Wundenmittel: Calcarea carbonica · Leidenschaftsmittel: Belladonna · Schüßler-Salz: Natrium phosphoricum · Bach-Blüte: Agrimony. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 7 (S. 195–225). Buchtext ist typ-bezogen; SE7-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3571,6 +3787,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Maßlosigkeit – das ständige Suchen nach neuen Erfahrungen als Strategie, Schmerz und innerer Leere zu entfliehen. Der Siebener will in Bewegung bleiben, um nicht mit dem zu sitzen, was schmerzt.",
+        belief: "„Das Gute liegt immer woanders – in der nächsten Erfahrung, dem nächsten Plan.“ Darunter: „Wenn ich innehalte, kommt der Schmerz.“",
+        wound: "Die Wunde der Schmerzvermeidung: das Gefühl, dass tiefere Gefühle – besonders Schmerz, Verlust und Begrenztheit – zu bedrohlich sind, um ihnen zu begegnen.",
+        compensation: "Planung, Begeisterung, neue Ideen und Projektinitiativen – das Bewusstsein bleibt ständig auf Möglichkeiten gerichtet. Bindungen werden manchmal vermieden, weil sie Begrenztheit bedeuten.",
+        sufferingCycle: "Der Siebener sucht Erfüllung in neuen Erfahrungen. Kurze Begeisterung weicht dem Bedürfnis nach dem Nächsten. Die Fülle, die er sucht, liegt immer einen Schritt weiter.",
+        healingDirection: "Das Gute liegt nicht vor ihm, sondern in der Gegenwart. Heilung beginnt in der Fähigkeit, ganz bei dem zu sein, was gerade ist – auch wenn es schmerzt.",
+        remedy: "Wundenmittel: Calcarea carbonica · Leidenschaftsmittel: Belladonna · Schüßler-Salz: Natrium phosphoricum · Bach-Blüte: Agrimony. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 7 (S. 195–225). Buchtext ist typ-bezogen; SO7-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3615,6 +3843,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 7). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Maßlosigkeit – das ständige Suchen nach neuen Erfahrungen als Strategie, Schmerz und innerer Leere zu entfliehen. Der Siebener will in Bewegung bleiben, um nicht mit dem zu sitzen, was schmerzt.",
+        belief: "„Das Gute liegt immer woanders – in der nächsten Erfahrung, dem nächsten Plan.“ Darunter: „Wenn ich innehalte, kommt der Schmerz.“",
+        wound: "Die Wunde der Schmerzvermeidung: das Gefühl, dass tiefere Gefühle – besonders Schmerz, Verlust und Begrenztheit – zu bedrohlich sind, um ihnen zu begegnen.",
+        compensation: "Planung, Begeisterung, neue Ideen und Projektinitiativen – das Bewusstsein bleibt ständig auf Möglichkeiten gerichtet. Bindungen werden manchmal vermieden, weil sie Begrenztheit bedeuten.",
+        sufferingCycle: "Der Siebener sucht Erfüllung in neuen Erfahrungen. Kurze Begeisterung weicht dem Bedürfnis nach dem Nächsten. Die Fülle, die er sucht, liegt immer einen Schritt weiter.",
+        healingDirection: "Das Gute liegt nicht vor ihm, sondern in der Gegenwart. Heilung beginnt in der Fähigkeit, ganz bei dem zu sein, was gerade ist – auch wenn es schmerzt.",
+        remedy: "Wundenmittel: Calcarea carbonica · Leidenschaftsmittel: Belladonna · Schüßler-Salz: Natrium phosphoricum · Bach-Blüte: Agrimony. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 7 (S. 195–225). Buchtext ist typ-bezogen; SX7-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3663,6 +3903,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Wollust – eine intensive Kraft, die sich als Drang nach Stärke, Kontrolle und Intensität zeigt. Der Achter will das Leben in vollen Zügen erfahren, ohne Schwäche oder Abhängigkeit zuzulassen.",
+        belief: "„Schwäche ist gefährlich – ich muss stark sein, um sicher zu sein.“ Darunter: „Wer Verletzlichkeit zeigt, macht sich angreifbar.“",
+        wound: "Die Wunde der Verletzlichkeit: das tiefe Gefühl, dass das eigene Verletzt-werden-Können bedrohlich ist. Stärke ist auch Schutz vor dem Schmerz des Hilflos-sein-Müssens.",
+        compensation: "Stärke, Durchsetzungsfähigkeit, Kontrolle und Direktheit. Der Achter übernimmt Initiative und vermeidet Situationen, die Hilflosigkeit erzeugen könnten. Die Rüstung schützt – und isoliert.",
+        sufferingCycle: "Die Angst vor Verletzlichkeit erzeugt Kontrolle. Die Kontrolle erzeugt Distanz. Die Distanz verhindert tiefe Verbundenheit. Das Fehlen echter Nähe bestätigt die Notwendigkeit der Stärke.",
+        healingDirection: "Verletzlichkeit nicht als Schwäche, sondern als Zugang zu echter Kraft entdecken. Stärke muss nicht aufgegeben werden – aber sie darf sich öffnen. Echte Verbundenheit entsteht nicht trotz Verletzlichkeit, sondern durch sie.",
+        remedy: "Wundenmittel: Veratrum album · Leidenschaftsmittel: Veratrum album · Schüßler-Salz: Calcium fluoratum · Bach-Blüte: Oak. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 8 (S. 213–255). Buchtext ist typ-bezogen; SE8-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3707,6 +3959,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Wollust – eine intensive Kraft, die sich als Drang nach Stärke, Kontrolle und Intensität zeigt. Der Achter will das Leben in vollen Zügen erfahren, ohne Schwäche oder Abhängigkeit zuzulassen.",
+        belief: "„Schwäche ist gefährlich – ich muss stark sein, um sicher zu sein.“ Darunter: „Wer Verletzlichkeit zeigt, macht sich angreifbar.“",
+        wound: "Die Wunde der Verletzlichkeit: das tiefe Gefühl, dass das eigene Verletzt-werden-Können bedrohlich ist. Stärke ist auch Schutz vor dem Schmerz des Hilflos-sein-Müssens.",
+        compensation: "Stärke, Durchsetzungsfähigkeit, Kontrolle und Direktheit. Der Achter übernimmt Initiative und vermeidet Situationen, die Hilflosigkeit erzeugen könnten. Die Rüstung schützt – und isoliert.",
+        sufferingCycle: "Die Angst vor Verletzlichkeit erzeugt Kontrolle. Die Kontrolle erzeugt Distanz. Die Distanz verhindert tiefe Verbundenheit. Das Fehlen echter Nähe bestätigt die Notwendigkeit der Stärke.",
+        healingDirection: "Verletzlichkeit nicht als Schwäche, sondern als Zugang zu echter Kraft entdecken. Stärke muss nicht aufgegeben werden – aber sie darf sich öffnen. Echte Verbundenheit entsteht nicht trotz Verletzlichkeit, sondern durch sie.",
+        remedy: "Wundenmittel: Veratrum album · Leidenschaftsmittel: Veratrum album · Schüßler-Salz: Calcium fluoratum · Bach-Blüte: Oak. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 8 (S. 213–255). Buchtext ist typ-bezogen; SO8-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3755,6 +4019,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 8). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Wollust – eine intensive Kraft, die sich als Drang nach Stärke, Kontrolle und Intensität zeigt. Der Achter will das Leben in vollen Zügen erfahren, ohne Schwäche oder Abhängigkeit zuzulassen.",
+        belief: "„Schwäche ist gefährlich – ich muss stark sein, um sicher zu sein.“ Darunter: „Wer Verletzlichkeit zeigt, macht sich angreifbar.“",
+        wound: "Die Wunde der Verletzlichkeit: das tiefe Gefühl, dass das eigene Verletzt-werden-Können bedrohlich ist. Stärke ist auch Schutz vor dem Schmerz des Hilflos-sein-Müssens.",
+        compensation: "Stärke, Durchsetzungsfähigkeit, Kontrolle und Direktheit. Der Achter übernimmt Initiative und vermeidet Situationen, die Hilflosigkeit erzeugen könnten. Die Rüstung schützt – und isoliert.",
+        sufferingCycle: "Die Angst vor Verletzlichkeit erzeugt Kontrolle. Die Kontrolle erzeugt Distanz. Die Distanz verhindert tiefe Verbundenheit. Das Fehlen echter Nähe bestätigt die Notwendigkeit der Stärke.",
+        healingDirection: "Verletzlichkeit nicht als Schwäche, sondern als Zugang zu echter Kraft entdecken. Stärke muss nicht aufgegeben werden – aber sie darf sich öffnen. Echte Verbundenheit entsteht nicht trotz Verletzlichkeit, sondern durch sie.",
+        remedy: "Wundenmittel: Veratrum album · Leidenschaftsmittel: Veratrum album · Schüßler-Salz: Calcium fluoratum · Bach-Blüte: Oak. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 8 (S. 213–255). Buchtext ist typ-bezogen; SX8-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3799,6 +4075,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Trägheit – nicht als körperliche Faulheit, sondern als eine innere Bewegungslosigkeit, die das eigene Erleben und die eigene Existenz in den Hintergrund treten lässt.",
+        belief: "„Meine Bedürfnisse und meine Meinung sind weniger wichtig als Harmonie.“ Darunter: „Wenn ich zu viel will, verliere ich den Frieden – und die Verbundenheit mit anderen.“",
+        wound: "Die Wunde der Selbstvergessenheit: das tiefe Muster, sich selbst unsichtbar zu machen, um Konflikte zu vermeiden und Harmonie zu bewahren.",
+        compensation: "Anpassung, Vermittlung und Vermeidung von Konflikten – das Eigene wird zurückgestellt, damit der Frieden erhalten bleibt. Routine und angenehme Ablenkungen helfen, die innere Leere zu betäuben.",
+        sufferingCycle: "Der Neuner passt sich an und vermeidet Konflikte. Dadurch wird er immer unsichtbarer – auch für sich selbst. Das Schweigen schützt den Frieden, verhindert aber echte Verbundenheit.",
+        healingDirection: "Wieder spüren, dass die eigene Präsenz zählt. Heilung beginnt nicht mit mehr Aktivität, sondern mit mehr Bewusstsein dafür, was man selbst erlebt, braucht und möchte.",
+        remedy: "Wundenmittel: Staphysagria · Leidenschaftsmittel: Cannabis indica · Schüßler-Salz: Natrium sulfuricum · Bach-Blüte: Wild Rose. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 9 (S. 258–290). Buchtext ist typ-bezogen; SE9-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
@@ -3847,6 +4135,18 @@ export const knowledgePrototype = {
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
         ],
       },
+      woundBehindPassion: {
+        passion: "Trägheit – nicht als körperliche Faulheit, sondern als eine innere Bewegungslosigkeit, die das eigene Erleben und die eigene Existenz in den Hintergrund treten lässt.",
+        belief: "„Meine Bedürfnisse und meine Meinung sind weniger wichtig als Harmonie.“ Darunter: „Wenn ich zu viel will, verliere ich den Frieden – und die Verbundenheit mit anderen.“",
+        wound: "Die Wunde der Selbstvergessenheit: das tiefe Muster, sich selbst unsichtbar zu machen, um Konflikte zu vermeiden und Harmonie zu bewahren.",
+        compensation: "Anpassung, Vermittlung und Vermeidung von Konflikten – das Eigene wird zurückgestellt, damit der Frieden erhalten bleibt. Routine und angenehme Ablenkungen helfen, die innere Leere zu betäuben.",
+        sufferingCycle: "Der Neuner passt sich an und vermeidet Konflikte. Dadurch wird er immer unsichtbarer – auch für sich selbst. Das Schweigen schützt den Frieden, verhindert aber echte Verbundenheit.",
+        healingDirection: "Wieder spüren, dass die eigene Präsenz zählt. Heilung beginnt nicht mit mehr Aktivität, sondern mit mehr Bewusstsein dafür, was man selbst erlebt, braucht und möchte.",
+        remedy: "Wundenmittel: Staphysagria · Leidenschaftsmittel: Cannabis indica · Schüßler-Salz: Natrium sulfuricum · Bach-Blüte: Wild Rose. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 9 (S. 258–290). Buchtext ist typ-bezogen; SO9-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
+        ],
+      },
       needsReview: [],
     },
     {
@@ -3891,6 +4191,18 @@ export const knowledgePrototype = {
         },
         needsReview: [
           "Wunden-Ebene aus „Hinter der Leidenschaft“ (Kapitel Typ 9). Bitte gegen die Originalseiten prüfen.",
+        ],
+      },
+      woundBehindPassion: {
+        passion: "Trägheit – nicht als körperliche Faulheit, sondern als eine innere Bewegungslosigkeit, die das eigene Erleben und die eigene Existenz in den Hintergrund treten lässt.",
+        belief: "„Meine Bedürfnisse und meine Meinung sind weniger wichtig als Harmonie.“ Darunter: „Wenn ich zu viel will, verliere ich den Frieden – und die Verbundenheit mit anderen.“",
+        wound: "Die Wunde der Selbstvergessenheit: das tiefe Muster, sich selbst unsichtbar zu machen, um Konflikte zu vermeiden und Harmonie zu bewahren.",
+        compensation: "Anpassung, Vermittlung und Vermeidung von Konflikten – das Eigene wird zurückgestellt, damit der Frieden erhalten bleibt. Routine und angenehme Ablenkungen helfen, die innere Leere zu betäuben.",
+        sufferingCycle: "Der Neuner passt sich an und vermeidet Konflikte. Dadurch wird er immer unsichtbarer – auch für sich selbst. Das Schweigen schützt den Frieden, verhindert aber echte Verbundenheit.",
+        healingDirection: "Wieder spüren, dass die eigene Präsenz zählt. Heilung beginnt nicht mit mehr Aktivität, sondern mit mehr Bewusstsein dafür, was man selbst erlebt, braucht und möchte.",
+        remedy: "Wundenmittel: Staphysagria · Leidenschaftsmittel: Cannabis indica · Schüßler-Salz: Natrium sulfuricum · Bach-Blüte: Wild Rose. Anwendung nur in therapeutischer Rücksprache.",
+        needsReview: [
+          "„Hinter der Leidenschaft – die neun Wunden des Enneagramms“, Kapitel Typ 9 (S. 258–290). Buchtext ist typ-bezogen; SX9-Nuancen aus Codex-JSON ergänzt. Bitte gegen Originalseiten prüfen.",
         ],
       },
       needsReview: [],
