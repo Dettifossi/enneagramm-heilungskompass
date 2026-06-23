@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2377,6 +2377,60 @@ function bindDiagnosetest() {
   });
 }
 
+// ── PSYCHOGRAMME ──────────────────────────────────────────────────────────────
+
+const PSYCHOGRAMM_TYPEN = [
+  { typ: 1, name: "Der Verbesserer",     kern: "Heilige Vollkommenheit · Reinheit · Richtigkeit" },
+  { typ: 2, name: "Der Helfer",          kern: "Heiliger Wille · Liebe zum Einssein" },
+  { typ: 3, name: "Der Macher",          kern: "Heiliges Gesetz · Echtheit · Wahrhaftigkeit" },
+  { typ: 4, name: "Der Individualist",   kern: "Heiliger Ursprung · individueller Ausdruck des Seins" },
+  { typ: 5, name: "Der Forscher",        kern: "Heiliges Allwissen · Transparenz · Klarheit" },
+  { typ: 6, name: "Der Loyale",          kern: "Heiliger Glaube · Vertrauen · Sicherheit" },
+  { typ: 7, name: "Der Enthusiast",      kern: "Heiliger Plan · Freude · Entfaltung" },
+  { typ: 8, name: "Der Herausforderer",  kern: "Heilige Wahrheit · Stärke" },
+  { typ: 9, name: "Der Vermittler",      kern: "Heilige Liebe · Harmonie · Würde · Energie" },
+];
+
+function psychogrammePage() {
+  const param = state.route.split("/")[1];
+  const typNr = param ? parseInt(param) : null;
+
+  if (typNr && typNr >= 1 && typNr <= 9) {
+    const t = PSYCHOGRAMM_TYPEN[typNr - 1];
+    return shell(`
+      ${pageHeader("psychogramme")}
+      <div class="psycho-detail">
+        <button class="ghost-link psycho-back" data-route="psychogramme">← Alle Psychogramme</button>
+        <h1 class="psycho-detail__title">Typ ${t.typ} – ${t.name}</h1>
+        <p class="psycho-detail__kern">${t.kern}</p>
+        <div class="psycho-img-wrap">
+          <img src="assets/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
+        </div>
+      </div>
+    `);
+  }
+
+  // Übersicht aller 9 Typen
+  return shell(`
+    ${pageHeader("psychogramme")}
+    <div class="psycho-wrap">
+      <p class="eyebrow">Tiefenpsychologie</p>
+      <h1 class="section-title">Psychogramme der 9 Enneagrammtypen</h1>
+      <p class="psycho-intro">Jedes Psychogramm zeigt den vollständigen tiefenpsychologischen Kreislauf eines Typs: vom Höheren Selbst über das untergründige Mangelgefühl bis zum fiktiven Selbstbild und Schatten — und den Weg zurück zur Integration.</p>
+      <div class="psycho-grid">
+        ${PSYCHOGRAMM_TYPEN.map(t => `
+          <button class="psycho-card" data-route="psychogramme/${t.typ}">
+            <span class="psycho-card__nr">${t.typ}</span>
+            <span class="psycho-card__name">${t.name}</span>
+            <span class="psycho-card__kern">${t.kern}</span>
+            <span class="psycho-card__arrow">→</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `);
+}
+
 function freischaltPage(needed) {
   const isBasis = needed === "basis";
 
@@ -2559,6 +2613,7 @@ function render() {
     datenschutz: datenschutzPage,
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
+    psychogramme: psychogrammePage,
     diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");

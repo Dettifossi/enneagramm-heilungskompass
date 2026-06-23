@@ -4135,3 +4135,26 @@ button.primary:hover::after {
 .diag-scores li.is-top .diag-scores__bar { background: var(--copper, #a5603d); }
 .diag-scores__pts { width: 2rem; text-align: right; color: var(--muted); font-size: 0.78rem; }
 .start-path__btn--diag { border-color: var(--moss, #30483d); color: var(--moss, #30483d); }
+
+/* ── Psychogramme ────────────────────────────────────────────── */
+.psycho-wrap { max-width: 760px; margin: 0 auto; padding: 1.2rem 1rem 3rem; }
+.psycho-intro { font-size: 0.92rem; color: var(--muted); line-height: 1.6; margin: 0.5rem 0 1.5rem; }
+.psycho-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; }
+@media (max-width: 540px) { .psycho-grid { grid-template-columns: 1fr 1fr; } }
+.psycho-card {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 0.2rem;
+  background: rgba(255,255,255,0.6); border: 1.5px solid var(--line, rgba(114,102,90,0.22));
+  border-radius: 10px; padding: 0.9rem 1rem; cursor: pointer; text-align: left;
+  transition: border-color 0.15s, background 0.15s;
+}
+.psycho-card:hover { border-color: var(--copper, #a5603d); background: rgba(165,96,61,0.06); }
+.psycho-card__nr { font-size: 1.4rem; font-weight: 700; color: var(--copper, #a5603d); line-height: 1; }
+.psycho-card__name { font-size: 0.88rem; font-weight: 600; color: var(--ink); }
+.psycho-card__kern { font-size: 0.72rem; color: var(--muted); line-height: 1.35; }
+.psycho-card__arrow { font-size: 0.85rem; color: var(--copper, #a5603d); margin-top: 0.3rem; }
+.psycho-detail { max-width: 800px; margin: 0 auto; padding: 1rem 1rem 3rem; }
+.psycho-back { margin-bottom: 1rem; font-size: 0.85rem; }
+.psycho-detail__title { font-size: 1.4rem; margin: 0.2rem 0 0.2rem; }
+.psycho-detail__kern { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.2rem; }
+.psycho-img-wrap { width: 100%; display: flex; justify-content: center; }
+.psycho-img { width: 100%; max-width: 620px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
