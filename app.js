@@ -827,12 +827,12 @@ function subtypePage(code) {
   `);
 }
 
-function heilwissenLock() {
+function heilwissenLock(title = "Heilmittel, TCM & Kindheitsprägung") {
   return `
     <div class="heilwissen-lock">
       <span class="heilwissen-lock__icon">🔒</span>
       <div>
-        <strong>Heilmittel, TCM & Kindheitsprägung</strong>
+        <strong>${title}</strong>
         <p>Diese Inhalte sind Teil des Heilungskompass-Upgrades.</p>
       </div>
       <button class="heilwissen-lock__btn" data-route="freischalt/heilwissen">Upgrade ansehen →</button>
@@ -1056,6 +1056,8 @@ function regulierenInner(entry, sp) {
 }
 
 function verkoerpernInner(entry, sp) {
+  const hasMedia = entry.mediaGroups || entry.mediaResources;
+  if (hasMedia && !hasHeilwissen()) return heilwissenLock("Musik & Klang");
   if (entry.mediaGroups) return mediaGroupSection(entry.mediaGroups);
   if (entry.mediaResources) return mediaResourceSection(entry.mediaResources);
   return `<p class="room-pending">${sp.mediaPending}</p>`;
@@ -1250,7 +1252,11 @@ function knowledgeCard(item) {
             : heilwissenLock()
           : ""}
       ${item.visualPages ? visualPageSection(item.visualPages) : ""}
-      ${item.mediaGroups ? mediaGroupSection(item.mediaGroups) : item.mediaResources ? mediaResourceSection(item.mediaResources) : ""}
+      ${(item.mediaGroups || item.mediaResources)
+          ? hasHeilwissen()
+            ? (item.mediaGroups ? mediaGroupSection(item.mediaGroups) : mediaResourceSection(item.mediaResources))
+            : heilwissenLock("Musik & Klang")
+          : ""}
       <div class="review-box">
         <strong>${labels.review}</strong>
         ${item.needsReview.length ? `<ul>${item.needsReview.map((entry) => `<li>${entry}</li>`).join("")}</ul>` : `<p>${labels.noRequiredReviews}</p>`}
