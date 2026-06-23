@@ -1661,6 +1661,26 @@ function showElementModal(elementName) {
 }
 
 function bindEvents() {
+  // Kompass-Overlay auf ALLEN Vollseiten-Karten sicherstellen (deckt die Seitenzahl oben).
+  // Greift auch fuer Seiten, deren Render-Pfad den Wrap nicht selbst setzt (z. B. Heilmittel-Seite 4).
+  document.querySelectorAll(".vollseite-karte").forEach((fig) => {
+    if (fig.querySelector(".card-pg-compass")) return; // schon vorhanden – keine Dublette
+    const img = fig.querySelector(".vollseite-karte__img");
+    if (!img) return;
+    let wrap = img.closest(".card-pg-wrap");
+    if (!wrap) {
+      wrap = document.createElement("div");
+      wrap.className = "card-pg-wrap";
+      img.parentNode.insertBefore(wrap, img);
+      wrap.appendChild(img);
+    }
+    const comp = document.createElement("div");
+    comp.className = "card-pg-compass";
+    comp.setAttribute("aria-hidden", "true");
+    comp.innerHTML = compassMark("mini");
+    wrap.appendChild(comp);
+  });
+
   document.querySelectorAll("[data-route]").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.dataset.locked) {
