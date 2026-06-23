@@ -12,7 +12,7 @@ const BASIS_CODE   = "CHARAKTER-KOMPASS-2026";
 const HEILUNG_CODE = "HEILUNGS-UPGRADE-2026";
 const GESAMT_CODE  = "KOMPASS-GESAMT-2026";
 
-function getTier()  { return localStorage.getItem(TIER_KEY) || "demo"; }
+function getTier()  { return localStorage.getItem(TIER_KEY) || "heilwissen"; } // TEMP: Vorschau-Vollzugriff – vor Commit zurueck auf "demo"
 function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
@@ -232,9 +232,18 @@ function startPage() {
       <div class="start-path start-path--unknown">
         <div class="start-path__icon">◇</div>
         <h2 class="start-path__title">Ich kenne meinen Typ noch nicht</h2>
-        <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir den Typentest oder eine persönliche Typisierungsberatung.</p>
+        <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
         <div class="start-path__actions">
-          <button class="start-path__btn start-path__btn--test" data-route="typentest">Zum Typentest →</button>
+          <div class="start-path__test-row">
+            <button class="start-path__btn start-path__btn--test" data-route="typentest">
+              <span class="start-path__test-label">Struktureller Typentest</span>
+              <span class="start-path__test-sub">für Anfänger · kostenlos</span>
+            </button>
+            <button class="start-path__btn start-path__btn--test start-path__btn--motivational${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest-motivational" : "freischalt/basis"}">
+              <span class="start-path__test-label">Motivationaler Typentest${hasBasis() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">für Fortgeschrittene · ab 29 €</span>
+            </button>
+          </div>
         </div>
         <div class="start-path__berater">
           <div class="start-path__berater-card">
@@ -244,6 +253,7 @@ function startPage() {
               <li>Enneagramm-Typisierung</li>
               <li>Bewusstseins-<br>entwicklung</li>
             </ul>
+            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer → psychologische-homoeopathie.de</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
@@ -256,11 +266,11 @@ function startPage() {
               <li>Enneagramm-Typisierung</li>
               <li>Ennea Scholars</li>
             </ul>
+            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagramm-Profiling für Führungskräfte &amp; Unternehmen → enneascholars.de</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
             </div>
-            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagramm-Profiling für Führungskräfte &amp; Unternehmen → enneascholars.de</a>
           </div>
         </div>
       </div>
@@ -873,6 +883,7 @@ function beratungsCTA() {
               <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung">✉ E-Mail</a>
               <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
             </div>
+            <a class="beratungs-cta__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer → psychologische-homoeopathie.de</a>
           </div>
           <div class="beratungs-cta__berater-item">
             <span class="beratungs-cta__berater-name">David L. Rathmer</span>
@@ -1778,6 +1789,23 @@ function bindEvents() {
 
 // ── TYPENTEST ─────────────────────────────────────────────────────────────────
 
+function typentestMotivationalPage() {
+  return shell(`
+    ${pageHeader("typentest-motivational")}
+    <div class="typentest-wrap">
+      <div class="typentest-card">
+        <p class="eyebrow">Motivationaler Enneagrammtypentest · für Fortgeschrittene</p>
+        <h1 class="typentest-titel">Den tieferen Antrieb erkennen</h1>
+        <p class="typentest-intro">Dieser Test geht über die äußere Struktur hinaus und fragt nach den inneren Motivationen, Ängsten und Leidenschaften hinter dem Verhalten. Er setzt Grundkenntnisse des Enneagramms voraus.</p>
+        <div class="typentest-hinweis">
+          <strong>In Vorbereitung:</strong> Der motivationale Typentest wird in Kürze freigeschaltet. Sie werden mit Ihrem Zugang automatisch Zugriff erhalten.
+        </div>
+        <button class="typentest-start-btn" data-route="start" style="margin-top:1.5rem;">← Zurück zur Startseite</button>
+      </div>
+    </div>
+  `);
+}
+
 function typentestPage() {
   const ts = testState;
   const navBar = () => pageHeader("typentest");
@@ -1788,7 +1816,7 @@ function typentestPage() {
       ${navBar()}
       <div class="typentest-wrap">
         <div class="typentest-card">
-          <p class="eyebrow">Typentest</p>
+          <p class="eyebrow">Struktureller Enneagrammtypentest · für Anfänger</p>
           <h1 class="typentest-titel">Den Code deiner Persönlichkeit entschlüsseln</h1>
           <p class="typentest-intro">Dieser Test führt dich in drei Schritten zu einem ersten Hinweis auf deinen Enneagramm-Typ und Instinktschwerpunkt. Er dauert etwa 7–10 Minuten.</p>
           <div class="typentest-hinweis">
@@ -2173,6 +2201,7 @@ function render() {
     impressum: impressumPage,
     datenschutz: datenschutzPage,
     typentest: typentestPage,
+    "typentest-motivational": typentestMotivationalPage,
   };
   const [base, param] = state.route.split("/");
   const setContent = () => {
@@ -2184,7 +2213,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasBasis() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz") {
+    if (!hasBasis() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "typentest") {
       app.innerHTML = freischaltPage("basis");
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
