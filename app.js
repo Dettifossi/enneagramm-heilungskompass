@@ -2,6 +2,8 @@ import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, s
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=1";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
+import { MOTIVTEST } from "./data/motivtest.js?v=1";
+import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 
 const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
@@ -34,6 +36,19 @@ const state = {
 
 // Typentest-Zustand (session-only, kein localStorage)
 let testState = { phase: 0, triad: null, scores: {}, instinkt: null, qIndex: 0 };
+
+// Motivationaler Typentest-Zustand (session-only)
+let motivState = { phase: "intro", qIndex: 0, answers: {} };
+
+// Diagnosetest-Zustand (session-only)
+let diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
+
+const LETTER_TO_TYPE = { E: 1, Z: 2, D: 3, V: 4, F: 5, X: 6, S: 7, A: 8, N: 9 };
+const TYPNAMEN_MOTIV = {
+  1: "Der Verbesserer", 2: "Der Helfer", 3: "Der Macher",
+  4: "Der Individualist", 5: "Der Forscher", 6: "Der Loyale",
+  7: "Der Enthusiast", 8: "Der Herausforderer", 9: "Der Vermittler"
+};
 const text = uiText;
 
 document.title = text.meta.appTitle;
@@ -235,13 +250,17 @@ function startPage() {
         <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
-            <button class="start-path__btn start-path__btn--test" data-route="typentest">
-              <span class="start-path__test-label">Struktureller Typentest</span>
-              <span class="start-path__test-sub">für Anfänger · kostenlos</span>
+            <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
+              <span class="start-path__test-label">Diagnose-Test</span>
+              <span class="start-path__test-sub">Schnelleinstieg · kostenlos · 9 Profile</span>
             </button>
-            <button class="start-path__btn start-path__btn--test start-path__btn--motivational${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest-motivational" : "freischalt/basis"}">
-              <span class="start-path__test-label">Motivationaler Typentest${hasBasis() ? "" : " 🔒"}</span>
-              <span class="start-path__test-sub">für Fortgeschrittene · ab 29 €</span>
+            <button class="start-path__btn start-path__btn--test${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest" : "freischalt/basis"}">
+              <span class="start-path__test-label">Struktureller Typentest${hasBasis() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">mit Subtypen · ab 29 €</span>
+            </button>
+            <button class="start-path__btn start-path__btn--test start-path__btn--motivational${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "typentest-motivational" : "freischalt/heilwissen"}">
+              <span class="start-path__test-label">Motivationaler Typentest${hasHeilwissen() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">100 Fragen · ab 49 €</span>
             </button>
           </div>
         </div>
@@ -1782,28 +1801,157 @@ function bindEvents() {
     });
   });
 
-  if (state.route.startsWith("typentest")) {
+  if (state.route === "typentest") {
     bindTypentest();
+  }
+  if (state.route === "typentest-motivational") {
+    bindMotivtest();
+  }
+  if (state.route === "diagnosetest") {
+    bindDiagnosetest();
   }
 }
 
 // ── TYPENTEST ─────────────────────────────────────────────────────────────────
 
 function typentestMotivationalPage() {
-  return shell(`
-    ${pageHeader("typentest-motivational")}
-    <div class="typentest-wrap">
-      <div class="typentest-card">
-        <p class="eyebrow">Motivationaler Enneagrammtypentest · für Fortgeschrittene</p>
-        <h1 class="typentest-titel">Den tieferen Antrieb erkennen</h1>
-        <p class="typentest-intro">Dieser Test geht über die äußere Struktur hinaus und fragt nach den inneren Motivationen, Ängsten und Leidenschaften hinter dem Verhalten. Er setzt Grundkenntnisse des Enneagramms voraus.</p>
-        <div class="typentest-hinweis">
-          <strong>In Vorbereitung:</strong> Der motivationale Typentest wird in Kürze freigeschaltet. Sie werden mit Ihrem Zugang automatisch Zugriff erhalten.
+  const ms = motivState;
+
+  // ── Phase: Intro ───────────────────────────────────────────────────────────
+  if (ms.phase === "intro") {
+    return shell(`
+      ${pageHeader("typentest-motivational")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Motivationaler Enneagrammtypentest · für Fortgeschrittene</p>
+          <h1 class="typentest-titel">Den tieferen Antrieb erkennen</h1>
+          <p class="typentest-intro">Dieser Test fragt nach Ihren Motivationen, nicht nach Ihrem Verhalten. Wählen Sie bei jeder der 100 Fragen die zwei Aussagen, die am ehesten auf Sie zutreffen.</p>
+          <ul class="typentest-hinweis" style="list-style:none;padding:0;margin:1.2rem 0;">
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; 100 Fragen aus verschiedenen Lebensbereichen</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Je Frage: 1.&nbsp;Wahl (am wichtigsten) + 2.&nbsp;Wahl (zweitwichtigsten)</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Dauer: ca. 20–30 Minuten</li>
+            <li style="padding:0.35rem 0;">&#8226; Empfehlung: Ruhige Atmosphäre, ehrliche Antworten</li>
+          </ul>
+          <button class="typentest-start-btn" data-motiv-start>Test starten &#8594;</button>
         </div>
-        <button class="typentest-start-btn" data-route="start" style="margin-top:1.5rem;">← Zurück zur Startseite</button>
       </div>
-    </div>
-  `);
+    `);
+  }
+
+  // ── Phase: Test ────────────────────────────────────────────────────────────
+  if (ms.phase === "test") {
+    const total = MOTIVTEST.length;
+    const qi = ms.qIndex;
+    const q = MOTIVTEST[qi];
+    const pct = Math.round((qi / total) * 100);
+    const ans = ms.answers[q.nr] || {};
+    const letters = Object.keys(q.antworten);
+
+    const answerCards = letters.map(letter => {
+      const isFirst = ans.first === letter;
+      const isSecond = ans.second === letter;
+      const cls = isFirst ? "motiv-answer motiv-answer--first"
+                : isSecond ? "motiv-answer motiv-answer--second"
+                : "motiv-answer";
+      const badge = isFirst ? `<span class="motiv-answer__badge">1</span>`
+                  : isSecond ? `<span class="motiv-answer__badge">2</span>`
+                  : "";
+      return `<button class="${cls}" data-motiv-answer="${letter}" data-motiv-qnr="${q.nr}">
+        ${badge}
+        <span class="motiv-answer__text">${q.antworten[letter]}</span>
+      </button>`;
+    }).join("");
+
+    const hasTwo = ans.first && ans.second;
+    const canNext = hasTwo;
+
+    return shell(`
+      ${pageHeader("typentest-motivational")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <div class="motiv-progress">
+            <span class="motiv-progress__label">Frage ${qi + 1} von ${total}</span>
+            <div class="motiv-progress__track"><div class="motiv-progress__bar" style="width:${pct}%"></div></div>
+          </div>
+          <p class="eyebrow" style="margin-top:1.2rem;">Frage ${q.nr}: ${q.thema}</p>
+          <p class="typentest-frage">${q.frage}</p>
+          <p class="typentest-intro" style="margin-bottom:0.8rem;">Wählen Sie die <strong>zwei</strong> Aussagen, die am ehesten auf Sie zutreffen – zuerst die treffendste, dann die zweittreffendste.</p>
+          <div class="motiv-answer-grid">
+            ${answerCards}
+          </div>
+          <div class="typentest-cta-group" style="margin-top:1.5rem;">
+            ${qi > 0 ? `<button class="ghost-link" data-motiv-back>&#8592; Zurück</button>` : ""}
+            <button class="typentest-start-btn" data-motiv-next ${canNext ? "" : "disabled"} style="${canNext ? "" : "opacity:0.45;cursor:not-allowed;"}">${qi < total - 1 ? "Weiter &#8594;" : "Ergebnis anzeigen &#8594;"}</button>
+            <button class="ghost-link" data-motiv-skip style="font-size:0.8rem;opacity:0.6;">Frage überspringen</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+
+  // ── Phase: Result ──────────────────────────────────────────────────────────
+  if (ms.phase === "result") {
+    const scores = {};
+    for (let t = 1; t <= 9; t++) scores[t] = 0;
+    for (const [, ans] of Object.entries(ms.answers)) {
+      if (ans.first)  { const t = LETTER_TO_TYPE[ans.first];  if (t) scores[t] += 6; }
+      if (ans.second) { const t = LETTER_TO_TYPE[ans.second]; if (t) scores[t] += 3; }
+    }
+    const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+    const topType = parseInt(sorted[0][0]);
+    const topScore = sorted[0][1];
+    const maxScore = topScore || 1;
+    const top3 = sorted.slice(0, 3);
+
+    const typColors = {
+      1:"#7d593d",2:"#a5603d",3:"#30483d",4:"#5a4070",
+      5:"#243948",6:"#607468",7:"#d4900a",8:"#8b2020",9:"#556b2f"
+    };
+    const typColor = typColors[topType] || "var(--copper)";
+
+    const scoreBars = sorted.map(([typ, score], i) => {
+      const pct = Math.round((score / maxScore) * 100);
+      const highlight = i === 0 ? `style="background:${typColor}"` : "";
+      return `
+        <div class="motiv-score-row">
+          <span class="motiv-score-label">Typ&nbsp;${typ}</span>
+          <div class="motiv-score-track">
+            <div class="motiv-score-bar ${i === 0 ? "motiv-score-bar--top" : ""}" ${highlight} style="width:${pct}%"></div>
+          </div>
+          <span class="motiv-score-num">${score}</span>
+        </div>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("typentest-motivational")}
+      <div class="typentest-wrap">
+        <div class="typentest-card typentest-card--result">
+          <p class="eyebrow">Ihr Ergebnis</p>
+          <div class="typentest-result-badge" style="border-color:${typColor};color:${typColor}">${topType}</div>
+          <h2 class="typentest-titel" style="color:${typColor}">${TYPNAMEN_MOTIV[topType]}</h2>
+          <p class="typentest-intro">Ihre Auswertung deutet auf <strong>Typ&nbsp;${topType}</strong> hin. Das Ergebnis basiert auf Ihrer Selbsteinschätzung und ist als Orientierungshinweis zu verstehen.</p>
+
+          <div class="motiv-scores">
+            ${scoreBars}
+          </div>
+
+          <div class="typentest-disclaimer" style="margin-top:1.5rem;">
+            <strong>Zur Einordnung:</strong> Kein Selbsttest kann den eigenen blinden Fleck vollständig überbrücken. Das Ergebnis ist ein <em>Hinweis</em>, kein Urteil. Für eine präzise Bestimmung empfiehlt sich eine persönliche Typisierungsberatung.
+          </div>
+
+          <div class="typentest-cta-group">
+            <button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${topType}">Zum Typ&nbsp;${topType} im Kompass &#8594;</button>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">&#9993; Beratungstermin anfragen</a>
+          </div>
+
+          <button class="ghost-link" data-motiv-reset>Test wiederholen</button>
+          <button class="ghost-link" data-route="dashboard">&#8592; Zum Dashboard</button>
+        </div>
+      </div>
+    `);
+  }
+
+  return shell(`${pageHeader("typentest-motivational")}<div class="typentest-wrap"><p>Fehler im Test.</p></div>`);
 }
 
 function typentestPage() {
@@ -2020,6 +2168,215 @@ function bindTypentest() {
   document.getElementById("tt-back-q")?.addEventListener("click", () => { if (testState.qIndex > 0) { testState.qIndex--; render(); } });
 }
 
+function bindMotivtest() {
+  // Intro → Start
+  document.querySelector("[data-motiv-start]")?.addEventListener("click", () => {
+    motivState = { phase: "test", qIndex: 0, answers: {} };
+    render();
+  });
+
+  // Weiter / Ergebnis
+  document.querySelector("[data-motiv-next]")?.addEventListener("click", () => {
+    if (motivState.qIndex < MOTIVTEST.length - 1) {
+      motivState.qIndex++;
+    } else {
+      motivState.phase = "result";
+    }
+    render();
+  });
+
+  // Zurück
+  document.querySelector("[data-motiv-back]")?.addEventListener("click", () => {
+    if (motivState.qIndex > 0) { motivState.qIndex--; render(); }
+  });
+
+  // Überspringen
+  document.querySelector("[data-motiv-skip]")?.addEventListener("click", () => {
+    if (motivState.qIndex < MOTIVTEST.length - 1) {
+      motivState.qIndex++;
+    } else {
+      motivState.phase = "result";
+    }
+    render();
+  });
+
+  // Antwort auswählen
+  document.querySelectorAll("[data-motiv-answer]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const letter = btn.dataset.motivAnswer;
+      const nr = parseInt(btn.dataset.motivQnr);
+      const cur = motivState.answers[nr] || { first: null, second: null };
+      if (cur.first === letter) {
+        // Deselect first → second becomes first
+        motivState.answers[nr] = { first: cur.second, second: null };
+      } else if (cur.second === letter) {
+        // Deselect second
+        motivState.answers[nr] = { first: cur.first, second: null };
+      } else if (!cur.first) {
+        motivState.answers[nr] = { first: letter, second: cur.second };
+      } else if (!cur.second) {
+        motivState.answers[nr] = { first: cur.first, second: letter };
+      } else {
+        // Both taken → replace second
+        motivState.answers[nr] = { first: cur.first, second: letter };
+      }
+      render();
+    });
+  });
+
+  // Reset
+  document.querySelector("[data-motiv-reset]")?.addEventListener("click", () => {
+    motivState = { phase: "intro", qIndex: 0, answers: {} };
+    render();
+  });
+}
+
+// ── DIAGNOSETEST ───────────────────────────────────────────────────────────────
+
+function diagnosetestPage() {
+  const ds = diagnoseState;
+
+  // ── Phase: Intro ────────────────────────────────────────────────────────────
+  if (ds.phase === "intro") {
+    return shell(`
+      ${pageHeader("diagnosetest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Enneagramm-Diagnose-Test</p>
+          <h1 class="typentest-titel">Welcher Typ bin ich?</h1>
+          <p class="typentest-intro">Dieser Test führt Sie durch neun Persönlichkeitsprofile. Kreuzen Sie bei jedem Abschnitt die Aussagen an, die auf Sie zutreffen. Am Ende zeigt Ihnen die Auswertung, welchem Enneagrammtyp Sie am nächsten stehen.</p>
+          <ul class="typentest-hinweis" style="list-style:none;padding:0;margin:1.2rem 0;">
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; 9 Abschnitte mit je ca. 28–30 Aussagen</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Kreuzen Sie alles an, was auf Sie zutrifft</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Die Reihenfolge ist zufällig – kein Typ wird vorab benannt</li>
+            <li style="padding:0.35rem 0;">&#8226; Dauer: ca. 10–15 Minuten</li>
+          </ul>
+          <button class="typentest-start-btn" data-diag-start>Test starten &#8594;</button>
+        </div>
+      </div>
+    `);
+  }
+
+  // ── Phase: Step ─────────────────────────────────────────────────────────────
+  if (ds.phase === "step") {
+    const s = ds.step;
+    const entry = DIAGNOSETEST[ds.order[s]];
+    const typ = entry.typ;
+    const checked = ds.checks[typ] || [];
+    const pct = Math.round(((s + 1) / 9) * 100);
+    const isLast = s === 8;
+
+    const items = entry.aussagen.map((text, i) => {
+      const isChecked = checked.includes(i);
+      return `<label class="diag-item${isChecked ? " diag-item--checked" : ""}">
+        <input type="checkbox" data-diag-check data-diag-idx="${i}"${isChecked ? " checked" : ""}>
+        <span>${text}</span>
+      </label>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("diagnosetest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Abschnitt ${s + 1} von 9</p>
+          <div style="width:100%;height:6px;background:rgba(114,102,90,0.15);border-radius:3px;margin:0.4rem 0 1.2rem;">
+            <div style="width:${pct}%;height:6px;border-radius:3px;background:var(--copper,#a5603d);transition:width 0.3s;"></div>
+          </div>
+          <h2 class="typentest-titel" style="font-size:1.3rem;margin-bottom:0.3rem;">Welche Aussagen treffen auf Sie zu?</h2>
+          <p class="typentest-intro" style="margin-bottom:0.8rem;">Kreuzen Sie alle Aussagen an, die Sie als zutreffend empfinden.</p>
+          <div class="diag-list">${items}</div>
+          <div class="diag-nav">
+            ${s > 0 ? `<button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-back>&#8592; Zurück</button>` : `<span></span>`}
+            <button class="typentest-start-btn" data-diag-next>${isLast ? "Ergebnis anzeigen &#8594;" : "Weiter &#8594;"}</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+
+  // ── Phase: Result ───────────────────────────────────────────────────────────
+  if (ds.phase === "result") {
+    const scores = DIAGNOSETEST.map(entry => ({
+      typ: entry.typ,
+      name: entry.name,
+      total: entry.aussagen.length,
+      score: (ds.checks[entry.typ] || []).length,
+    }));
+    const sorted = [...scores].sort((a, b) => b.score - a.score);
+    const winner = sorted[0];
+    const maxScore = winner.score || 1;
+
+    const bars = sorted.map((s, i) => `
+      <li class="${i === 0 ? "is-top" : ""}">
+        <span class="diag-scores__label">Typ ${s.typ} – ${s.name.replace("Der ", "").replace("Die ", "")}</span>
+        <span class="diag-scores__bar-wrap"><span class="diag-scores__bar" style="width:${Math.round((s.score / maxScore) * 100)}%"></span></span>
+        <span class="diag-scores__pts">${s.score}</span>
+      </li>`).join("");
+
+    return shell(`
+      ${pageHeader("diagnosetest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card typentest-card--result">
+          <div class="diag-result__heading">
+            <p class="eyebrow">Ihr Ergebnis</p>
+            <div class="diag-result__typ">Typ ${winner.typ} – ${winner.name}</div>
+            <p class="typentest-intro">Von ${winner.total} Aussagen haben Sie <strong>${winner.score}</strong> als zutreffend angekreuzt.</p>
+          </div>
+          <ul class="diag-scores">${bars}</ul>
+          <div class="typentest-cta-group" style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
+            <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-reset>Test wiederholen</button>
+            <button class="typentest-start-btn" data-route="start">Zur Startseite</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+
+  return shell(`${pageHeader("diagnosetest")}<div class="typentest-wrap"><p>Fehler im Test.</p></div>`);
+}
+
+function bindDiagnosetest() {
+  document.querySelector("[data-diag-start]")?.addEventListener("click", () => {
+    const order = [0,1,2,3,4,5,6,7,8].sort(() => Math.random() - 0.5);
+    diagnoseState = { phase: "step", step: 0, order, checks: {} };
+    render();
+  });
+
+  document.querySelector("[data-diag-next]")?.addEventListener("click", () => {
+    if (diagnoseState.step < 8) {
+      diagnoseState.step++;
+    } else {
+      diagnoseState.phase = "result";
+    }
+    render();
+  });
+
+  document.querySelector("[data-diag-back]")?.addEventListener("click", () => {
+    if (diagnoseState.step > 0) { diagnoseState.step--; render(); }
+  });
+
+  document.querySelectorAll("[data-diag-check]").forEach(cb => {
+    cb.addEventListener("change", () => {
+      const typ = DIAGNOSETEST[diagnoseState.order[diagnoseState.step]].typ;
+      if (!diagnoseState.checks[typ]) diagnoseState.checks[typ] = [];
+      const idx = parseInt(cb.dataset.diagIdx);
+      const arr = diagnoseState.checks[typ];
+      if (cb.checked) {
+        if (!arr.includes(idx)) arr.push(idx);
+      } else {
+        const i = arr.indexOf(idx);
+        if (i > -1) arr.splice(i, 1);
+      }
+      cb.closest(".diag-item")?.classList.toggle("diag-item--checked", cb.checked);
+    });
+  });
+
+  document.querySelector("[data-diag-reset]")?.addEventListener("click", () => {
+    diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
+    render();
+  });
+}
+
 function freischaltPage(needed) {
   const isBasis = needed === "basis";
 
@@ -2202,6 +2559,7 @@ function render() {
     datenschutz: datenschutzPage,
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
+    diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");
   const setContent = () => {
@@ -2213,7 +2571,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasBasis() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "typentest") {
+    if (!hasBasis() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest") {
       app.innerHTML = freischaltPage("basis");
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));

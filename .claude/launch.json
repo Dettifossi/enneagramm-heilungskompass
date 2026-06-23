@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "enneagramm-kompass",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8005", "--directory", "/Users/detlefrathmer/Desktop/Enneagramm-Material & Kurse/enneagramm-kompass-arbeitskopie"],
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd '/Users/detlefrathmer/Desktop/Enneagramm-Material & Kurse/enneagramm-kompass-arbeitskopie' && python3 -m http.server 8005"],
       "port": 8005
     }
   ]

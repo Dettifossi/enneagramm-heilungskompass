@@ -4072,3 +4072,66 @@ button.primary:hover::after {
   opacity: 0.62;
   color: var(--muted);
 }
+
+/* ── Motivationaler Typentest ───────────────────────────────────── */
+.motiv-progress { margin-bottom: 1.2rem; }
+.motiv-progress__label { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.35rem; display: block; }
+.motiv-progress__track { height: 5px; background: rgba(114,102,90,0.18); border-radius: 3px; }
+.motiv-progress__bar { height: 5px; background: var(--copper, #a5603d); border-radius: 3px; transition: width 0.3s; }
+
+.motiv-answer-grid { display: flex; flex-direction: column; gap: 0.5rem; margin: 1rem 0; }
+.motiv-answer {
+  display: flex; align-items: flex-start; gap: 0.6rem;
+  background: rgba(255,255,255,0.55); border: 1.5px solid var(--line, rgba(114,102,90,0.22));
+  border-radius: 8px; padding: 0.7rem 0.9rem; cursor: pointer; text-align: left;
+  font-size: 0.88rem; line-height: 1.45; color: var(--ink); transition: border-color 0.15s, background 0.15s;
+  width: 100%;
+}
+.motiv-answer:hover { border-color: var(--copper, #a5603d); background: rgba(165,96,61,0.06); }
+.motiv-answer--first { border-color: var(--copper, #a5603d); background: rgba(165,96,61,0.1); }
+.motiv-answer--second { border-color: var(--moss, #30483d); background: rgba(48,72,61,0.08); }
+.motiv-answer__badge {
+  flex-shrink: 0; width: 1.4rem; height: 1.4rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.75rem; font-weight: 700; line-height: 1;
+}
+.motiv-answer--first .motiv-answer__badge { background: var(--copper, #a5603d); color: #fff; }
+.motiv-answer--second .motiv-answer__badge { background: var(--moss, #30483d); color: #fff; }
+.motiv-answer__text { flex: 1; }
+
+.motiv-nav { display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; gap: 0.5rem; flex-wrap: wrap; }
+
+.motiv-result { text-align: center; padding: 1.5rem 0; }
+.motiv-result__typ { font-size: 2rem; font-weight: 700; color: var(--copper, #a5603d); margin: 0.5rem 0 0.2rem; }
+.motiv-result__name { font-size: 1.1rem; color: var(--ink); margin-bottom: 1.5rem; }
+.motiv-scores { list-style: none; padding: 0; margin: 1.2rem 0; text-align: left; }
+.motiv-scores li { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; font-size: 0.85rem; }
+.motiv-scores__bar-wrap { flex: 1; height: 8px; background: rgba(114,102,90,0.15); border-radius: 4px; }
+.motiv-scores__bar { height: 8px; border-radius: 4px; background: var(--copper, #a5603d); }
+.motiv-scores li.is-top .motiv-scores__bar { background: var(--copper, #a5603d); }
+.motiv-scores li:not(.is-top) .motiv-scores__bar { background: rgba(114,102,90,0.35); }
+.motiv-scores__label { width: 4.5rem; font-weight: 600; }
+.motiv-scores__pts { width: 2.5rem; text-align: right; color: var(--muted); }
+
+/* ── Diagnosetest ─────────────────────────────────────────────── */
+.diag-item {
+  display: flex; align-items: flex-start; gap: 0.7rem;
+  padding: 0.55rem 0.7rem; border-radius: 7px; cursor: pointer;
+  font-size: 0.88rem; line-height: 1.45; color: var(--ink);
+  transition: background 0.12s; border: 1.5px solid transparent;
+}
+.diag-item:hover { background: rgba(165,96,61,0.06); }
+.diag-item--checked { background: rgba(165,96,61,0.1); border-color: rgba(165,96,61,0.3); }
+.diag-item input[type="checkbox"] { margin-top: 0.15rem; flex-shrink: 0; accent-color: var(--copper, #a5603d); width: 1rem; height: 1rem; cursor: pointer; }
+.diag-list { display: flex; flex-direction: column; gap: 0.25rem; margin: 1rem 0; }
+.diag-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 1.2rem; gap: 0.5rem; }
+.diag-result__heading { text-align: center; padding: 1rem 0 0.5rem; }
+.diag-result__typ { font-size: 1.8rem; font-weight: 700; color: var(--copper, #a5603d); }
+.diag-scores { list-style: none; padding: 0; margin: 1rem 0; }
+.diag-scores li { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.45rem; font-size: 0.83rem; }
+.diag-scores__label { width: 5rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.diag-scores__bar-wrap { flex: 1; height: 7px; background: rgba(114,102,90,0.15); border-radius: 3px; }
+.diag-scores__bar { height: 7px; border-radius: 3px; background: rgba(114,102,90,0.3); }
+.diag-scores li.is-top .diag-scores__bar { background: var(--copper, #a5603d); }
+.diag-scores__pts { width: 2rem; text-align: right; color: var(--muted); font-size: 0.78rem; }
+.start-path__btn--diag { border-color: var(--moss, #30483d); color: var(--moss, #30483d); }
