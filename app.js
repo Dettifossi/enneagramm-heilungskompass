@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2465,6 +2465,544 @@ function kindlicheTemperamentePage() {
   `);
 }
 
+function kindheitsperspektivenPage() {
+  return shell(`
+    ${pageHeader("kindheitsperspektiven")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Kindheitsperspektiven</p>
+      <h1>Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit</h1>
+      <p class="lead-small">Wie hat jeder Enneagrammtyp seine Kindheit erlebt? Diese Übersicht zeigt die typischen Kindheitsperspektiven — die prägenden subjektiven Wahrnehmungen, die das spätere Denken, Fühlen und Verhalten tief beeinflussen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg"
+             alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function kerneberzeugungPage() {
+  return shell(`
+    ${pageHeader("kerneberzeugungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Kernüberzeugungen</p>
+      <h1>Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp trägt eine oft unbewusste Grundüberzeugung über sich und die Welt in sich – sie entstand in der Kindheit und steuert seither das Denken, Fühlen und Handeln. Diese Übersicht zeigt die Kernüberzeugung jedes der 9 Typen im Zusammenhang mit der Triaden-Struktur.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
+             alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function lebensgluckPage() {
+  return shell(`
+    ${pageHeader("lebensgluck")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Lebensglück</p>
+      <h1>Wahres Lebensglück</h1>
+      <p class="lead-small">An welcher Stelle werden die 9 Enneagrammtypen ihr wahres Lebensglück finden? Nicht im Außen – sondern dort, wo die tiefste Sehnsucht jedes Typs wirklich beheimatet ist: in sich selbst.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/lebensgluck/lebensgluck.jpg"
+             alt="Wahres Lebensglück – wo die 9 Enneagrammtypen es finden"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function basisemotionenPage() {
+  return shell(`
+    ${pageHeader("basisemotionen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Psychologie</p>
+      <h1>Vermeidung der Basis-Emotionen</h1>
+      <p class="lead-small">Jeder Mensch verdrängt bestimmte Emotionen – nicht aus Schwäche, sondern weil sie gesellschaftlich nicht anerkannt sind. Jeder Enneagrammtyp entwickelt dafür charakteristische psychologische Abwehrmechanismen. Was nicht gefühlt werden darf, manifestiert sich: Krankheiten und Symptome sind oft Ausdruck nicht gelebter Emotionen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/basisemotionen/basisemotionen.jpg"
+             alt="Die Vermeidung der Basis-Emotionen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function intrinsischesVerlangenPage() {
+  return shell(`
+    ${pageHeader("intrinsisches-verlangen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Tiefenpsychologie</p>
+      <h1>Intrinsisches Verlangen</h1>
+      <p class="lead-small">Was streben die 9 Enneagrammtypen innerlich (meistens unbewusst) an? Diese Übersicht zeigt das tiefe intrinsische Verlangen hinter jedem Typ – und warum die Suche danach im Außen letztlich ins Leere führt.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg"
+             alt="Das intrinsische Verlangen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function frustrationenPage() {
+  return shell(`
+    ${pageHeader("frustrationen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Tiefenpsychologie</p>
+      <h1>Frustrationen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Warum sind die 9 Enneagrammtypen frustriert und demotiviert? Die Antwort ist einfacher, als man denkt: Jeder Typ sucht außen, was er nur innen finden kann.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/frustrationen/frustrationen.jpg"
+             alt="Warum die 9 Enneagrammtypen frustriert und demotiviert sind"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function illusionenPage() {
+  return shell(`
+    ${pageHeader("illusionen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Tiefenpsychologie</p>
+      <h1>Illusionen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp lebt einer charakteristischen Illusion nach — einer unbewussten Wahnvorstellung, die das Leben bestimmt. Was der Typ als erstrebenswert erlebt, ist in Wirklichkeit eine Privat-Wirklichkeit, die ihn gefangen hält.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/illusionen/illusionen.jpg"
+             alt="Die illusionären Wahnvorstellungen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function schutzdefizitePage() {
+  return shell(`
+    ${pageHeader("schutzdefizite")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Triaden</p>
+      <h1>Schutz-Defizite der Triaden</h1>
+      <p class="lead-small">Bauch-, Herz- und Kopftriade tragen je ein charakteristisches Schutz-Defizit: die Bauchtriade fürchtet Einschränkung, die Herztriade Liebesverlust, die Kopftriade Vertrauensverlust. Diese unbewussten Defizite prägen das Verhalten aller drei Typen einer Triade.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
+             alt="Die Schutz-Defizite der Bauch-, Herz- und Kopftriade"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function lasterTugendenAffirmationenPage() {
+  return shell(`
+    ${pageHeader("laster-tugenden-affirmationen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Laster · Tugenden · Affirmationen</p>
+      <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp hat ein charakteristisches Laster (die verdichtete Leidenschaft) und eine Tugend als heilsames Gegenstück. Die Affirmationen sprechen direkt das tiefste Bedürfnis jedes Typs an.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
+             alt="Laster, Tugenden und Affirmationen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <h2 style="margin-top:2.5rem; font-size:1.2rem; text-align:center; letter-spacing:0.05em; color:var(--ink);">Affirmationen für die 9 Enneatypen</h2>
+      <div style="margin-top:1rem; display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.75rem; grid-auto-rows:1fr;">
+        <div style="background:#c49090; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#3a1010; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 1<br><span style="font-weight:400; font-size:0.85rem;">Du bist ein wirklich guter Mensch!</span></div>
+        <div style="background:#7a2d90; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 2<br><span style="font-weight:400; font-size:0.85rem;">Ich bin so dankbar für deine Hilfe!</span></div>
+        <div style="background:#9ee0d0; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#0a3028; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 3<br><span style="font-weight:400; font-size:0.85rem;">Du machst wirklich einen guten Job!</span></div>
+        <div style="background:#70e030; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#1a3a00; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 4<br><span style="font-weight:400; font-size:0.85rem;">Ich schätze dich und deine authentische Wesensart sehr!</span></div>
+        <div style="background:#e09060; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#3a1800; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 5<br><span style="font-weight:400; font-size:0.85rem;">Deine Wünsche und Bedürfnisse sind wirklich keine Belastung!</span></div>
+        <div style="background:#f5c0d0; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#5a1a28; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 6<br><span style="font-weight:400; font-size:0.85rem;">Gott hat mit Sicherheit wunderbare Pläne mit dir!</span></div>
+        <div style="background:#f8d820; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#3a2e00; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 7<br><span style="font-weight:400; font-size:0.85rem;">Dein Lebensglück liegt mir sehr am Herzen!</span></div>
+        <div style="background:#8b2014; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 8<br><span style="font-weight:400; font-size:0.85rem;">In deiner Gegenwart fühle ich mich immer so sicher, danke!</span></div>
+        <div style="background:#d0dc28; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#303800; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 9<br><span style="font-weight:400; font-size:0.85rem;">Die Zeit mit dir ist immer sehr wertvoll für mich, danke!</span></div>
+      </div>
+    </section>
+  `);
+}
+
+function spirituelleUebungenPage() {
+  return shell(`
+    ${pageHeader("spirituelle-uebungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Spirituelle Praxis</p>
+      <h1>Spezielle spirituelle Übungen für die 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp hat seine eigene spirituelle Sehnsucht — und damit auch seine eigene spirituelle Übung. Diese Übersicht zeigt, welche innere Bewegung jeden Typ auf seinem Weg zur Selbstkenntnis trägt.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
+             alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function weihnachtsgeschenkePage() {
+  return shell(`
+    ${pageHeader("weihnachtsgeschenke")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Geschenke & Stärken</p>
+      <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
+      <p class="lead-small">Jeder der 9 Enneagrammtypen bringt ein einzigartiges Geschenk mit — einen besonderen Beitrag, den er von Natur aus in die Welt trägt. Diese festliche Übersicht zeigt, was jeder Typ der Welt zu geben hat.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
+             alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function wahrnehmungsstilePage() {
+  return shell(`
+    ${pageHeader("wahrnehmungsstile")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Wahrnehmung</p>
+      <h1>Die 9 Wahrnehmungsstile</h1>
+      <p class="lead-small">Jeder Enneagrammtyp trägt eine eigene Brille – einen 40-Grad-Blickwinkel auf die Welt, geprägt von seiner Leidenschaft und Motivation. Diese Übersicht zeigt alle 9 universellen Sichtweisen auf einen Blick.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg"
+             alt="Die 9 universellen Wahrnehmungsstile der Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function bedrohungsszenarienPage() {
+  return shell(`
+    ${pageHeader("bedrohungsszenarien")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Bedrohungsszenarien</p>
+      <h1>Bedrohungsszenarien der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp reagiert auf ganz spezifische Bedrohungsszenarien — Situationen, die seine tiefste Grundangst berühren. Diese Übersicht zeigt symbolisch, was jeden der 9 Typen im Innersten bedroht und antreibt.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg"
+             alt="Bedrohungsszenarien der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function dialektischeStrukturPage() {
+  return shell(`
+    ${pageHeader("dialektische-struktur")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Dialektische Struktur</p>
+      <h1>Die dialektische Struktur der drei psychologischen Triaden des Enneagramms</h1>
+      <p class="lead-small">Jeder der 9 Enneagrammtypen resultiert aus einer „Dialektik", die aus These, Antithese und Synthese der psychologischen Eigenschaften seiner Triade besteht. In jeder Triade wird einer der Typen diese charakteristische Eigenschaft <strong>überentwickeln</strong>, während einer sie <strong>unterentwickelt</strong> und der dritte den Bezug zu ihr <strong>verliert</strong>.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg"
+             alt="Die dialektische Struktur der drei psychologischen Triaden des Enneagramms"
+             class="psycho-img" />
+      </div>
+      <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
+        <div style="border-left:3px solid #7b5ea7; padding:0.75rem 1rem; background:color-mix(in srgb, #7b5ea7 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#7b5ea7;">Beziehungs-Triade (8 · 9 · 1)</strong><br>
+          Typ 8 hat die Fähigkeit, sich zur Umgebung in Beziehung zu setzen, <em>überentwickelt</em> und sieht sich als größer als alle anderen. Typ 9 <em>verliert</em> diese Fähigkeit weitgehend — er verschmilzt mit anderen, statt wirklich in Beziehung zu treten. Typ 1 hat sie <em>unterentwickelt</em>: Er ist dem Ideal gegenüber loyaler als den Menschen gegenüber.
+        </div>
+        <div style="border-left:3px solid #c0392b; padding:0.75rem 1rem; background:color-mix(in srgb, #c0392b 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#c0392b;">Gefühls-Triade (2 · 3 · 4)</strong><br>
+          Typ 2 hat seinen persönlichen Gefühlsausdruck weitgehend <em>verloren</em> und projiziert ein Bild. Typ 3 hat seinen Gefühlsausdruck zu wenig entwickelt (<em>unterentwickelt</em>) und zeigt ihn nur indirekt. Typ 4 <em>überentwickelt</em> ihn durch künstlerische Tätigkeit und äußere Lebensführung.
+        </div>
+        <div style="border-left:3px solid #c8a000; padding:0.75rem 1rem; background:color-mix(in srgb, #c8a000 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#c8a000;">Handlungs-Triade (5 · 6 · 7)</strong><br>
+          Typ 5 hat die Fähigkeit zum selbstständigen Handeln <em>unterentwickelt</em> — er braucht in einem kleineren Aktionsradius weniger externe Unterstützung. Typ 6 hat sie <em>überentwickelt</em>: Er wird hyperaktiv und manisch, bis er die Kontrolle verliert. Typ 7 <em>verliert</em> den Bezug zur ruhigen, fokussierten Handlung.
+        </div>
+      </div>
+    </section>
+  `);
+}
+
+function bewaeltigungsstrategiePage() {
+  return shell(`
+    ${pageHeader("bewaeltigungsstrategie")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Bewältigungsstrategien</p>
+      <h1>Die Bewältigungsstrategie-Triaden des Enneagramms</h1>
+      <p class="lead-small">Das Enneagramm kennt drei grundlegende Bewältigungstriaden — Experten-, Optimisten- und Intensitäts-Triade. Zu jedem Primärtypus (den Typen auf dem gleichseitigen Dreieck 3·6·9) gibt es jeweils zwei Sekundärtypen, die in ihrem Bewältigungsstil sehr ähnlich erscheinen und daher häufig zu Verwechslungen führen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg"
+             alt="Die Bewältigungsstrategie-Triaden des Enneagramms"
+             class="psycho-img" />
+      </div>
+      <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
+        <div style="border-left:3px solid #3a86c8; padding:0.75rem 1rem; background:color-mix(in srgb, #3a86c8 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#3a86c8;">Experten-Triade (1 · 3 · 5)</strong><br>
+          Diese Typen schieben zur Bewältigung von Schwierigkeiten ihre Gefühle beiseite und bemühen sich besonders um Objektivität, Effizienz und Kompetenz. Gefühle und Bedürfnisse werden dabei zugunsten von Logik und Stärke zurückgestellt — sie halten sich eher an eigene Regeln zu ihrem Vorteil und agieren gern außerhalb der Regeln.
+        </div>
+        <div style="border-left:3px solid #2db87a; padding:0.75rem 1rem; background:color-mix(in srgb, #2db87a 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#2db87a;">Optimisten-Triade (2 · 7 · 9)</strong><br>
+          Diese Typen reagieren auf Probleme und Konflikte damit, dass sie eine möglichst positive Haltung selbst in unangenehmen Situationen einnehmen. Sie haben Probleme damit, ihre Schattenseiten einzugestehen — und konzentrieren sich zu sehr auf die Bedürfnisse anderer oder versuchen, allen Bedürfnissen gerecht zu werden.
+        </div>
+        <div style="border-left:3px solid #e63946; padding:0.75rem 1rem; background:color-mix(in srgb, #e63946 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#e63946;">Intensitäts-Triade (4 · 6 · 8)</strong><br>
+          Diese Typen reagieren auf Schwierigkeiten und Konflikte sehr emotional und intensiv. Sie trauen und misstrauen anderen zugleich — brauchen Zuwendung, benötigen aber gleichzeitig mehr Abstand und übernehmen tendenziell die Rolle des selbstbestimmten Beschützers.
+        </div>
+      </div>
+    </section>
+  `);
+}
+
+function verbaleSignalePage() {
+  return shell(`
+    ${pageHeader("verbale-signale")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Verbale Signale</p>
+      <h1>Verbale Signale der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Wie spricht jeder Enneagrammtyp? Verbale Signale — Wortwahl, Satzbau, Sprachrhythmus — sind wertvolle Typisierungsfaktoren. Diese Übersicht zeigt die charakteristischen verbalen Muster aller 9 Typen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/verbale-signale/verbale-signale.jpg"
+             alt="Verbale Signale der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#nonverbale-signale" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          Weiter zu: Nonverbale Signale →
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function nonverbaleSignalePage() {
+  return shell(`
+    ${pageHeader("nonverbale-signale")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Nonverbale Signale</p>
+      <h1>Nonverbale Signale der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Körpersprache, Mimik, Gestik und Haltung verraten viel über den Enneagrammtyp eines Menschen. Diese Übersicht zeigt die typischen nonverbalen Signale aller 9 Typen als weitere Typisierungsfaktoren.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
+             alt="Nonverbale Signale der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#verbale-signale" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          ← Zurück zu: Verbale Signale
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function egoPersoenlichkeitPage() {
+  return shell(`
+    ${pageHeader("ego-persoenlichkeit")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Ego-Persönlichkeit</p>
+      <h1>Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Die 9 Enneagrammtypen besitzen im Kern eine spezifische Ego-Persönlichkeitsstruktur, die implizit ein fundamentales Misstrauen gegenüber der Realität beinhaltet. Durch das Versagen der haltenden Umwelt fehlt bereits dem Kind das Urvertrauen — was zur Abtrennung vom Sein und zur Ego-Aktivierung führt, in deren Rahmen die Person lernt, sich „sicher" zu fühlen. Das Enneagramm zeigt die verschiedenen Varianten auf, wie sich das Ego der einzelnen Typen entwickelt, um mit den Erschütterungen, Brüchen und Unterbrechungen der haltenden Umwelt umzugehen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
+             alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function dreiZentrenPage() {
+  return shell(`
+    ${pageHeader("drei-zentren")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Drei Zentren</p>
+      <h1>Die drei Intelligenzzentren der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Kopf, Herz und Bauch — jeder Enneagrammtyp nutzt diese drei Intelligenzzentren auf seine eigene Weise. Diese Übersicht zeigt, wie sich die Nutzung im schlechtesten und im besten Fall unterscheidet.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/drei-zentren/drei-zentren.jpg"
+             alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#zentren-weltwahrnehmung" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          Weiter zu: Weltwahrnehmung in den drei Zentren →
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function zentrenWeltwahrnehmungPage() {
+  return shell(`
+    ${pageHeader("zentren-weltwahrnehmung")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Drei Zentren</p>
+      <h1>Weltwahrnehmung in den drei Intelligenzzentren</h1>
+      <p class="lead-small">Wie nehmen die 9 Enneagrammtypen die Welt wahr — innerhalb ihrer drei Intelligenzzentren? Diese Übersicht zeigt die Reaktionen im positiven und negativen Sinne sowie die drei Intelligenzzentrum-Pyramiden.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
+             alt="Weltwahrnehmung in den drei Intelligenzzentren"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#drei-zentren" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          ← Zurück zu: Drei Zentren
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function energetischeBewegungPage() {
+  return shell(`
+    ${pageHeader("energetische-bewegungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Energetische Bewegungen</p>
+      <h1>Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp bewegt sich in Beziehungen auf eine charakteristische Weise: Angriff, Flucht oder Täuschung — diese drei energetischen Grundbewegungen prägen, wie die 9 Typen auf Nähe, Konflikt und Verbindung reagieren.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
+             alt="Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function lookalikeTypenPage() {
+  return shell(`
+    ${pageHeader("lookalike-typen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Lookalike-Typen</p>
+      <h1>Lookalike-Typen im Enneagramm</h1>
+      <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln ähnlich — obwohl sie nicht über Flügel oder Verbindungslinien miteinander verbunden sind. Diese Übersicht zeigt die wichtigsten sog. Lookalike-Typen und hilft bei der Differenzierung.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
+             alt="Lookalike-Typen im Enneagramm"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function befreiendeFragenPage() {
+  return shell(`
+    ${pageHeader("befreiende-fragen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Befreiende Fragen</p>
+      <h1>Befreiende Fragen an die 9 Enneagrammtypen</h1>
+      <p class="lead-small">Wie würde dein Leben aussehen, wenn du erkennen würdest...? Diese Fragen richten sich an das Heilungspotenzial jedes Enneagrammtyps — sie laden ein, einschränkende Überzeugungen loszulassen und ein befreites Leben im Rahmen des eigenen Typs zu entdecken.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
+             alt="Befreiende Fragen an die 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#zentrale-fragen" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          ← Zurück zu: Zentrale Fragen
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function zentraleFragenPage() {
+  return shell(`
+    ${pageHeader("zentrale-fragen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Zentrale Fragen</p>
+      <h1>Die zentralen Fragen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Die zentralen Fragen machen die wiederkehrenden inneren Themen jedes Enneagrammtyps bewusst. Sie helfen dabei, eigene Muster zu erkennen — als erster Schritt in Richtung Heilung und Wachstum.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg"
+             alt="Die zentralen Fragen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+      <p style="margin-top:1.5rem; text-align:center;">
+        <a href="#befreiende-fragen" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
+          Weiter zu: Befreiende Fragen →
+        </a>
+      </p>
+    </section>
+  `);
+}
+
+function fuehrungsstilePage() {
+  return shell(`
+    ${pageHeader("fuehrungsstile")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Führungsstile</p>
+      <h1>Die Führungsstile der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp führt auf seine ganz eigene Weise — geprägt durch seine Leidenschaft, seine Stärken und seinen blinden Fleck. Diese Übersicht zeigt die typischen Führungsstile der 9 Typen aus deren eigener Sicht.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
+             alt="Die Führungsstile der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function gifteDesGeistesPage() {
+  return shell(`
+    ${pageHeader("gifte-des-geistes")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Bewusstsein & Leidenschaft</p>
+      <h1>Die 3 Gifte des Geistes und die 9 Leidenschaften</h1>
+      <p class="lead-small">Die tibetisch-buddhistische Lehre kennt drei „Gifte des Geistes" (Gier, Hass, Unwissenheit), die zur Ruhe kommen müssen, damit innerer Frieden entsteht. Das Enneagramm ordnet die 9 Leidenschaften diesen drei Grundbewegungen zu.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
+             alt="Die 3 Gifte des Geistes und die 9 Enneagramm-Leidenschaften"
+             class="psycho-img" />
+      </div>
+      <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
+        <div style="border-left:3px solid #c0392b; padding:0.75rem 1rem; background:color-mix(in srgb, #c0392b 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#c0392b;">Dreieck der Begierde / des Verlangens (Typ 2 · 5 · 8)</strong><br>
+          Die Geisteshaltung der Enneagrammtypen 2, 5 und 8 ist geprägt durch eine extreme Gier / Anhaftung.<br><br>
+          Gier (pali <em>lobha</em>, tib. <em>'dod chags</em>), auch als Sucht oder Begierde übersetzt, ist das Haben- und Besitzenwollen, das Bestreben, auf jeden Fall und um jeden Preis zu existieren. Mit Gier verwandt sind die Leidenschaften heftiges Begehren (<em>raga</em>) und „Durst" nach Werden (<em>tanha</em>).<br><br>
+          Heilsam wirkt Großzügigkeit und Mildtätigkeit (<em>Dāna</em>) und das entsprechende homöopathische Enneagramm-Heilmittel.
+        </div>
+        <div style="border-left:3px solid #27ae60; padding:0.75rem 1rem; background:color-mix(in srgb, #27ae60 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#27ae60;">Dreieck des Hasses / der Aggression (Typ 1 · 4 · 7)</strong><br>
+          Die Geisteshaltung der Enneagrammtypen 1, 4 und 7 ist geprägt durch eine extreme ablehnende Haltung.<br><br>
+          Hass (pali <em>dosa</em>, skt. <em>dveṣa</em>), auch als Zorn oder Aggression übersetzt, ist die Selbstbehauptung eines illusionären Selbst dem Mitwesen gegenüber.<br><br>
+          Heilsam wirkt Güte (<em>Metta</em>) und das entsprechende homöopathische Enneagramm-Heilmittel.
+        </div>
+        <div style="border-left:3px solid #2980b9; padding:0.75rem 1rem; background:color-mix(in srgb, #2980b9 6%, transparent); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:#2980b9;">Dreieck der Unwissenheit / Ignoranz (Typ 3 · 6 · 9)</strong><br>
+          Die Geisteshaltung der Enneagrammtypen 3, 6 und 9 ist geprägt durch eine extreme gleichgültige Haltung.<br><br>
+          Verblendung (<em>moha</em>). Unwissenheit (skt. <em>avidyā</em>) und Nicht-Wissen sind weitgehend deckungsgleiche Begriffe. Die Unwissenheit ist ein Zustand, der als Grundursache für alles erfahrene Leid angesehen wird.<br><br>
+          Heilsam wirken Selbsterkenntnis und Liebe und das entsprechende homöopathische Enneagramm-Heilmittel.
+        </div>
+      </div>
+    </section>
+  `);
+}
+
+function empfindlichePunktePage() {
+  return shell(`
+    ${pageHeader("empfindliche-punkte")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Empfindliche Punkte</p>
+      <h1>Empfindliche Punkte der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Mit welchen Bemerkungen man das Ego — das falsche Selbst, die falsche Persönlichkeit — der 9 Enneagrammtypen maximal aktiviert und herausfordert. Wer diese Punkte kennt, kann bewusster und achtsamer mit anderen umgehen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg"
+             alt="Empfindliche Punkte der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function aufmerksamkeitsfokusPage() {
+  return shell(`
+    ${pageHeader("aufmerksamkeitsfokus")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Aufmerksamkeitsfokus</p>
+      <h1>Aufmerksamkeitsfokus & Blindheit der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp richtet seinen Aufmerksamkeitsfokus unbewusst auf bestimmte Aspekte des Lebens — und blendet andere dabei aus. Diese Übersicht zeigt, worauf jeder Typ besonders achtet und was ihm dadurch im blinden Fleck bleibt.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
+             alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
 function sechzigSekundenScanPage() {
   return shell(`
     ${pageHeader("60-sekunden-scan")}
@@ -2899,7 +3437,35 @@ function render() {
     "subtypen-checklisten": subtypChecklistePage,
     "perspektiven": perspektivenPage,
     "mangelgefuehle": mangelgefuehlePage,
+    "aufmerksamkeitsfokus": aufmerksamkeitsfokusPage,
+    "empfindliche-punkte": empfindlichePunktePage,
+    "befreiende-fragen": befreiendeFragenPage,
+    "fuehrungsstile": fuehrungsstilePage,
+    "gifte-des-geistes": gifteDesGeistesPage,
+    "drei-zentren": dreiZentrenPage,
+    "ego-persoenlichkeit": egoPersoenlichkeitPage,
+    "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
+    "energetische-bewegungen": energetischeBewegungPage,
+    "lookalike-typen": lookalikeTypenPage,
+    "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
+    "bedrohungsszenarien": bedrohungsszenarienPage,
+    "dialektische-struktur": dialektischeStrukturPage,
+    "verbale-signale": verbaleSignalePage,
+    "nonverbale-signale": nonverbaleSignalePage,
+    "zentrale-fragen": zentraleFragenPage,
     "60-sekunden-scan": sechzigSekundenScanPage,
+    "wahrnehmungsstile": wahrnehmungsstilePage,
+    "weihnachtsgeschenke": weihnachtsgeschenkePage,
+    "spirituelle-uebungen": spirituelleUebungenPage,
+    "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
+    "schutzdefizite": schutzdefizitePage,
+    "illusionen": illusionenPage,
+    "frustrationen": frustrationenPage,
+    "intrinsisches-verlangen": intrinsischesVerlangenPage,
+    "basisemotionen": basisemotionenPage,
+    "kerneberzeugungen": kerneberzeugungPage,
+    "kindheitsperspektiven": kindheitsperspektivenPage,
+    "lebensgluck": lebensgluckPage,
     diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");
