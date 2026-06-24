@@ -4,6 +4,7 @@ import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
 import { MOTIVTEST } from "./data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
+import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=1";
 
 const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
@@ -42,6 +43,7 @@ let motivState = { phase: "intro", qIndex: 0, answers: {} };
 
 // Diagnosetest-Zustand (session-only)
 let diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
+let beziehungSelected = null;
 
 const LETTER_TO_TYPE = { E: 1, Z: 2, D: 3, V: 4, F: 5, X: 6, S: 7, A: 8, N: 9 };
 const TYPNAMEN_MOTIV = {
@@ -54,7 +56,9 @@ const text = uiText;
 document.title = text.meta.appTitle;
 
 window.addEventListener("hashchange", () => {
-  state.route = location.hash.replace("#", "") || "start";
+  const newRoute = location.hash.replace("#", "") || "start";
+  if (newRoute !== "beziehungen") beziehungSelected = null;
+  state.route = newRoute;
   render();
 });
 
@@ -1742,6 +1746,21 @@ function showElementModal(elementName) {
 }
 
 function bindEvents() {
+  document.querySelectorAll("[data-bez-code]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const code = btn.dataset.bezCode;
+      beziehungSelected = beziehungSelected === code ? null : code;
+      app.style.opacity = "0";
+      setTimeout(() => {
+        app.innerHTML = beziehungenPage();
+        bindEvents();
+        requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
+        const sel = document.querySelector("[data-bez-code].active, [data-bez-code]");
+        setTimeout(() => document.getElementById("bez-paarungen")?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+      }, 120);
+    });
+  });
+
   // Kompass-Overlay auf ALLEN Vollseiten-Karten sicherstellen (deckt die Seitenzahl oben).
   // Greift auch fuer Seiten, deren Render-Pfad den Wrap nicht selbst setzt (z. B. Heilmittel-Seite 4).
   document.querySelectorAll(".vollseite-karte").forEach((fig) => {
@@ -2999,7 +3018,7 @@ function beziehungenPage() {
   return shell(`
     ${pageHeader("beziehungen")}
     <section class="narrow">
-      <p class="eyebrow">Schaubilder · Beziehungen & Nähe</p>
+      <p class="eyebrow">Beziehungen & Nähe</p>
       <h1>Die 9 Enneagrammtypen in Beziehungen</h1>
       <p class="lead-small">Was zieht uns zu anderen hin – und was bringt uns in Konflikt? Jeder Enneagrammtyp trägt seine Leidenschaft in jede Beziehung. Diese Übersicht zeigt Anziehungskraft, typische Konflikte und das Lernfeld jedes Typs.</p>
 
@@ -3023,6 +3042,53 @@ function beziehungenPage() {
           <strong style="color:var(--copper); font-size:0.78rem;">${s.code}</strong><br>
           <span style="color:var(--ink); line-height:1.35;">${s.text}</span>
         </div>`).join("")}
+      </div>
+
+      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Paarungen-Kompass: Wie passen zwei Subtypen zusammen?</h2>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Wähle deinen Subtyp – und sieh auf einen Blick, wie du mit allen anderen 26 Subtypen harmonierst, wo Reibung entsteht und was du voneinander lernen kannst.</p>
+
+      <div style="display:grid; grid-template-columns:repeat(9, 1fr); gap:0.3rem; margin-bottom:1.5rem;">
+        ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
+        <button data-bez-code="${code}" style="
+          padding:0.35rem 0.1rem; font-size:0.72rem; font-weight:600;
+          border:2px solid ${beziehungSelected === code ? "var(--copper)" : "var(--line)"};
+          background:${beziehungSelected === code ? "color-mix(in srgb, var(--copper) 15%, var(--paper))" : "var(--paper)"};
+          color:${beziehungSelected === code ? "var(--copper)" : "var(--ink)"};
+          border-radius:0.35rem; cursor:pointer; transition:all 0.15s; letter-spacing:0.01em;">
+          ${code}
+        </button>`).join("")}
+      </div>
+
+      <div id="bez-paarungen">
+      ${beziehungSelected ? (() => {
+        const matches = BEZIEHUNGS_PAARUNGEN.filter(p => p.a === beziehungSelected || p.b === beziehungSelected);
+        const partner = matches.map(p => p.a === beziehungSelected ? p.b : p.a);
+        const typeColors = {"1":"#8b6f47","2":"#7a2d90","3":"#c8860a","4":"#5b4fa0","5":"#2e7d6e","6":"#4a6fa5","7":"#b5870a","8":"#8b2014","9":"#5a7a3a"};
+        return `
+        <div style="margin-bottom:0.5rem; font-size:0.88rem; color:var(--muted);">
+          <strong style="color:var(--copper);">${beziehungSelected}</strong> in Kombination mit allen anderen 26 Subtypen:
+        </div>
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          ${matches.map((p, i) => {
+            const partnerCode = partner[i];
+            const typeNr = partnerCode.slice(-1);
+            const col = typeColors[typeNr] || "var(--copper)";
+            return `
+            <div style="border-left:3px solid ${col}; padding:0.7rem 1rem; background:color-mix(in srgb, ${col} 5%, var(--paper)); border-radius:0 0.4rem 0.4rem 0;">
+              <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.45rem;">
+                <strong style="color:${col}; font-size:0.92rem;">${beziehungSelected} + ${partnerCode}</strong>
+                <span style="font-size:0.8rem; color:var(--muted);">${p.dynamik}</span>
+              </div>
+              <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem; font-size:0.82rem; color:var(--ink);">
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Gefahr</span><br>${p.gefahr}</div>
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Chance</span><br>${p.chance}</div>
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Kurztipp</span><br>${p.kurztipp}</div>
+              </div>
+            </div>`;
+          }).join("")}
+        </div>`;
+      })() : `<div style="text-align:center; padding:2rem; color:var(--muted); font-size:0.9rem; border:2px dashed var(--line); border-radius:0.5rem;">Wähle oben einen Subtyp, um alle Paarungen zu sehen.</div>`}
+
       </div>
 
       ${bookTip("die-sprache-unserer-beziehungen", "365 Typ- und Subtypen-Kombinationen im Überblick – das komplette Beziehungslexikon des Enneagramms.", "Die Sprache unserer Beziehungen")}
