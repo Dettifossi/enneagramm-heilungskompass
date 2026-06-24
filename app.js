@@ -5,6 +5,7 @@ import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typente
 import { MOTIVTEST } from "./data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=1";
+import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=1";
 
 const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
@@ -20,7 +21,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -58,6 +59,7 @@ document.title = text.meta.appTitle;
 window.addEventListener("hashchange", () => {
   const newRoute = location.hash.replace("#", "") || "start";
   if (newRoute !== "beziehungen") beziehungSelected = null;
+  if (newRoute !== "differenzierung") diffState = { a: null, b: null };
   state.route = newRoute;
   render();
 });
@@ -1763,6 +1765,19 @@ function bindEvents() {
     });
   });
 
+  document.querySelectorAll("[data-diff-nr]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const nr = parseInt(btn.dataset.diffNr, 10);
+      if (diffState.a === null || (diffState.a !== null && diffState.b !== null)) {
+        diffState = { a: nr, b: null };
+      } else if (diffState.b === null) {
+        diffState.b = nr;
+      }
+      app.innerHTML = differenzierungPage();
+      bindEvents();
+    });
+  });
+
   document.querySelectorAll("[data-bez-code]").forEach(btn => {
     btn.addEventListener("click", () => {
       const code = btn.dataset.bezCode;
@@ -3128,6 +3143,72 @@ function beziehungenPage() {
   `);
 }
 
+let diffState = { a: null, b: null };
+
+function differenzierungPage() {
+  const typen = [1,2,3,4,5,6,7,8,9];
+  const { a, b } = diffState;
+
+  const key = a && b && a !== b ? [Math.min(a,b), Math.max(a,b)].join("-") : null;
+  const text = key ? DIFFERENZIERUNGEN[key] : null;
+
+  const btn = (nr) => {
+    const isA = a === nr, isB = b === nr;
+    const active = isA || isB;
+    return `<button data-diff-nr="${nr}" style="
+      width:2.6rem;height:2.6rem;border-radius:50%;border:2px solid ${active ? "var(--copper)" : "var(--line)"};
+      background:${active ? "var(--copper)" : "transparent"};color:${active ? "#fff" : "var(--ink)"};
+      font-weight:700;font-size:1rem;cursor:pointer;transition:all .18s;
+      flex-shrink:0;
+    ">${nr}</button>`;
+  };
+
+  const result = key && text ? `
+    <div style="margin-top:2rem;background:var(--paper);border:1px solid var(--copper);border-radius:1rem;padding:1.5rem 1.75rem;">
+      <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;flex-wrap:wrap;">
+        <span style="background:var(--copper);color:#fff;border-radius:50%;width:2.4rem;height:2.4rem;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;flex-shrink:0;">${a}</span>
+        <span style="color:var(--copper);font-size:1.2rem;">↔</span>
+        <span style="background:var(--copper);color:#fff;border-radius:50%;width:2.4rem;height:2.4rem;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;flex-shrink:0;">${b}</span>
+        <span style="color:var(--muted);font-size:.85rem;margin-left:.25rem;">Motivationale Differenzierung</span>
+      </div>
+      <p style="line-height:1.75;color:var(--ink);margin:0;">${text}</p>
+    </div>` : a && b && a === b ? `
+    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Bitte zwei <em>verschiedene</em> Typen wählen.</p>` : `
+    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Wähle oben zwei Typen aus, um die motivationale Differenzierung zu sehen.</p>`;
+
+  return shell(`
+    ${pageHeader("differenzierung")}
+    <section class="narrow" style="padding-bottom:3rem;">
+      <p class="eyebrow">Typisierungs-Hilfe</p>
+      <h1 style="font-size:1.75rem;margin-bottom:.5rem;">Motivationale Differenzierung</h1>
+      <p style="color:var(--muted);font-size:.95rem;margin-bottom:2rem;line-height:1.6;">
+        Ähnliche Typen lassen sich am sichersten durch ihre <strong>innere Motivation</strong> unterscheiden –
+        nicht durch äußeres Verhalten. Wähle zwei Typen, um den entscheidenden motivationalen Unterschied zu sehen.
+      </p>
+
+      <div style="background:var(--paper);border:1px solid var(--line);border-radius:1rem;padding:1.5rem;">
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Typ A wählen:</p>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.25rem;">
+          ${typen.map(btn).join("")}
+        </div>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Typ B wählen:</p>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
+          ${typen.map(btn).join("")}
+        </div>
+      </div>
+
+      ${result}
+
+      <div style="margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);">
+        <p style="font-size:.8rem;color:var(--muted);line-height:1.6;">
+          Quelle: Rathmer, D. – <em>Die Sprache unserer Beziehungen</em>, Verlagshaus Rathmer.
+          Die Beschreibungen sind motivational bedingt und helfen, äußerlich ähnliche Typen klar voneinander abzugrenzen.
+        </p>
+      </div>
+    </section>
+  `);
+}
+
 function gifteDesGeistesPage() {
   return shell(`
     ${pageHeader("gifte-des-geistes")}
@@ -3645,6 +3726,7 @@ function render() {
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
+    "differenzierung": differenzierungPage,
     "dialektische-struktur": dialektischeStrukturPage,
     "verbale-signale": verbaleSignalePage,
     "nonverbale-signale": nonverbaleSignalePage,
