@@ -11923,6 +11923,7 @@ export const uiText = {
     { route: "practice", label: "Praxis" },
     { route: "knowledge", label: "Wissen" },
     { route: "schaubilder", label: "Schaubilder", dropdown: [
+      { route: "kindliche-temperamente", label: "Kindliche Temperamente" },
       { route: "psychogramme", label: "Psychogramme" },
     ]},
     { route: "library", label: "Bibliothek" },

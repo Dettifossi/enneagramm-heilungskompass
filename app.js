@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2426,6 +2426,22 @@ const PSYCHOGRAMM_TYPEN = [
   { typ: 9, name: "Der Vermittler",      kern: "Heilige Liebe · Harmonie · Würde · Energie" },
 ];
 
+function kindlicheTemperamentePage() {
+  return shell(`
+    ${pageHeader("kindliche-temperamente")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Entwicklungspsychologie</p>
+      <h1>Die neun kindlichen Temperamente</h1>
+      <p class="lead-small">Die Chess-&amp;-Thomas-Studie (New Yorker Längsschnittstudie, ab 1956) untersuchte unabhängig vom Enneagramm kindliche Temperamente von Geburt an. Sie zeigt: Diese Grundanlagen sind angeboren und spiegeln sich in den neun Enneagrammtypen wider.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/kindliche-temperamente/temperamente.jpg"
+             alt="Die neun kindlichen Temperamente nach Chess"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
 function psychogrammePage() {
   const param = state.route.split("/")[1];
   const typNr = param ? parseInt(param) : null;
@@ -2649,6 +2665,7 @@ function render() {
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
     psychogramme: psychogrammePage,
+    "kindliche-temperamente": kindlicheTemperamentePage,
     diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");
