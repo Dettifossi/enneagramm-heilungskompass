@@ -891,10 +891,10 @@ function subtypePage(code) {
       <h1 style="color:${tc}">${entry.title}</h1>
       <p class="lead-small">${entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
-           onclick="this.classList.toggle('comic-expanded')" title="Klicken zum Vergrößern">
+           data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
         <img src="assets/comics/${code.toLowerCase()}.jpg"
              alt="Comic: ${entry.code} – ${entry.title}"
-             style="width:100%; display:block; filter:contrast(1.05);" />
+             style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
     </section>
     ${details.meinKompass ? meinKompassSection(details.meinKompass, sp) : ""}
@@ -1752,6 +1752,17 @@ function showElementModal(elementName) {
 }
 
 function bindEvents() {
+  document.querySelectorAll("[data-comic-open]").forEach(el => {
+    el.addEventListener("click", () => {
+      const code = el.dataset.comicOpen;
+      const lb = document.createElement("div");
+      lb.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:1rem;";
+      lb.innerHTML = `<img src="assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
+      lb.addEventListener("click", () => lb.remove());
+      document.body.appendChild(lb);
+    });
+  });
+
   document.querySelectorAll("[data-bez-code]").forEach(btn => {
     btn.addEventListener("click", () => {
       const code = btn.dataset.bezCode;
@@ -3054,12 +3065,12 @@ function beziehungenPage() {
       <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">In den Bildern schimmern die tiefen Wünsche, Ängste und Fluchten der 27 Subtypen durch – manchmal zart, manchmal drastisch. Klicke auf einen Comic, um ihn zu vergrößern.</p>
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; margin-bottom:2rem;">
         ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
-        <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:pointer;"
-             onclick="window.location.hash='subtype/${code.toLowerCase()}'"
-             title="${code} – zum Subtyp-Profil">
+        <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
+             data-comic-open="${code.toLowerCase()}"
+             title="${code} – antippen zum Vergrößern">
           <img src="assets/comics/${code.toLowerCase()}.jpg"
                alt="Comic ${code}"
-               style="width:100%; display:block; filter:contrast(1.05);" />
+               style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
           <div style="text-align:center; font-size:0.72rem; font-weight:700; color:var(--copper); padding:0.3rem 0;">${code}</div>
         </div>`).join("")}
       </div>
