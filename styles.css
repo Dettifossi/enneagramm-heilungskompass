@@ -4210,3 +4210,44 @@ button.primary:hover::after {
   color: var(--muted);
   font-style: italic;
 }
+
+/* ── Buchtipp-Banner ───────────────────────────────────────────────── */
+.book-tip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 0.5rem;
+  padding: 0.9rem 1.2rem;
+  background: color-mix(in srgb, var(--copper) 8%, var(--paper));
+  border: 1px solid color-mix(in srgb, var(--copper) 25%, transparent);
+  border-left: 4px solid var(--copper);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.15s;
+}
+.book-tip:hover {
+  background: color-mix(in srgb, var(--copper) 14%, var(--paper));
+  transform: translateY(-1px);
+}
+.book-tip__icon { font-size: 1.4rem; flex-shrink: 0; }
+.book-tip__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.book-tip__text strong {
+  font-size: 0.95rem;
+  color: var(--copper);
+  font-family: var(--font-body, "EB Garamond", serif);
+}
+.book-tip__text span {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.book-tip__arrow {
+  font-size: 1.1rem;
+  color: var(--copper);
+  flex-shrink: 0;
+}

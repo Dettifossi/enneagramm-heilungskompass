@@ -455,6 +455,22 @@ function toolsPage() {
   `);
 }
 
+// Buchtipp-Banner: bookTip(buchId, teaser)
+// buchId = Schlüssel aus buecher-daten.js, teaser = kurze Einladung
+const VERLAG_BASE = "https://www.verlagshausrathmer.com/buch/";
+function bookTip(buchId, teaser, title) {
+  return `
+    <div class="book-tip" onclick="window.open('${VERLAG_BASE}${buchId}', '_blank')">
+      <span class="book-tip__icon">📖</span>
+      <div class="book-tip__text">
+        <strong>Buchtipp: »${title}«</strong>
+        <span>${teaser}</span>
+      </div>
+      <span class="book-tip__arrow">→</span>
+    </div>
+  `;
+}
+
 function healingPage() {
   const se1 = knowledgePrototype.subtypes[0];
   const copy = text.routes.healing;
@@ -485,6 +501,8 @@ function healingPage() {
           <strong>${copy.nextBuild}</strong>
           <p>${copy.nextBuildText}</p>
         </div>
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Standardwerk der Enneagramm-Homöopathie – Typen I–IV mit Heilmittel-Profilen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypen mit Leidenschaften, Abwehrmuster und Heilungschancen – direkt aus der Praxis.", "Leidenschaft und Heilung")}
       </article>
     </section>
   `);
@@ -536,6 +554,7 @@ function oilsPage() {
           ${aetherischeOele.map(oilCard).join("")}
         </div>
         <p class="remedy-note">${copy.note}</p>
+        ${bookTip("enneagramm-bachblueten-therapie", "Welche Bachblüten helfen welchem Enneagramm-Typ? Ein einzigartiger Zugang zur Seelenarbeit.", "Enneagramm-Bachblüten-Therapie")}
       </article>
     </section>
   `);
@@ -628,6 +647,7 @@ function tcmPage() {
           ${tcmData.map(tcmCard).join("")}
         </div>
         <p class="remedy-note">${copy.note}</p>
+        ${bookTip("chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe", "Ernährung nach dem Enneagramm-Typ im Rhythmus der TCM-Organuhr – Chrono-Ennea-Typ.", "Chrono-Ennea-Typ: Ernährung im Rhythmus der Organe")}
       </article>
     </section>
   `);
@@ -2477,6 +2497,7 @@ function kindheitsperspektivenPage() {
              alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
              class="psycho-img" />
       </div>
+      ${bookTip("in-der-tiefe-der-zeit", "Wie prägende Kindheitserfahrungen die Persönlichkeitsstruktur jedes Enneagrammtyps formen.", "In der Tiefe der Zeit")}
     </section>
   `);
 }
@@ -2493,6 +2514,7 @@ function kerneberzeugungPage() {
              alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}
     </section>
   `);
 }
@@ -2617,6 +2639,7 @@ function lasterTugendenAffirmationenPage() {
         <div style="background:#8b2014; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 8<br><span style="font-weight:400; font-size:0.85rem;">In deiner Gegenwart fühle ich mich immer so sicher, danke!</span></div>
         <div style="background:#d0dc28; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#303800; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 9<br><span style="font-weight:400; font-size:0.85rem;">Die Zeit mit dir ist immer sehr wertvoll für mich, danke!</span></div>
       </div>
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
     </section>
   `);
 }
@@ -2633,6 +2656,8 @@ function spirituelleUebungenPage() {
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-Übungen für den Alltag – der ideale Begleiter zu dieser Übersicht.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen – Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
     </section>
   `);
 }
@@ -2649,6 +2674,7 @@ function weihnachtsgeschenkePage() {
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
       </div>
+      ${bookTip("die-sprache-unserer-beziehungen", "Jeder Typ hat ein einzigartiges Geschenk für Beziehungen – entdecke die Sprache der Nähe.", "Die Sprache unserer Beziehungen")}
     </section>
   `);
 }
@@ -2799,6 +2825,7 @@ function egoPersoenlichkeitPage() {
              alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "Schritt für Schritt den eigenen Typ erkennen und Wege zur persönlichen Entwicklung finden.", "Der Code deiner Persönlichkeit")}
     </section>
   `);
 }
@@ -2815,6 +2842,7 @@ function dreiZentrenPage() {
              alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Das Enneagramm mit Kopf, Herz und Bauch – die drei Zentren und ihre Bedeutung für deine Persönlichkeit.", "Wer du wirklich bist – Band 1")}
       <p style="margin-top:1.5rem; text-align:center;">
         <a href="#zentren-weltwahrnehmung" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
           Weiter zu: Weltwahrnehmung in den drei Zentren →
@@ -2857,6 +2885,7 @@ function energetischeBewegungPage() {
              alt="Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen"
              class="psycho-img" />
       </div>
+      ${bookTip("die-sprache-unserer-beziehungen", "Wie sich Nähe, Rückzug und Verbindung bei allen 9 Typen in Beziehungen zeigen – 365 Paarungskombinationen.", "Die Sprache unserer Beziehungen")}
     </section>
   `);
 }
@@ -2873,6 +2902,7 @@ function lookalikeTypenPage() {
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
     </section>
   `);
 }
@@ -2889,6 +2919,7 @@ function befreiendeFragenPage() {
              alt="Befreiende Fragen an die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("du-bist-nicht-dein-zweifel", "Befreiende Fragen und Impulse für alle 9 Typen – loslassen, was nicht wirklich du bist.", "Du bist nicht dein Zweifel")}
       <p style="margin-top:1.5rem; text-align:center;">
         <a href="#zentrale-fragen" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
           ← Zurück zu: Zentrale Fragen
@@ -2931,6 +2962,8 @@ function fuehrungsstilePage() {
              alt="Die Führungsstile der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("fuehrung-mit-fundament", "Führung mit dem Enneagramm – wie jeder der 9 Typen sein volles Führungspotenzial entfaltet.", "Führung mit Fundament")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligenz: Wie das Enneagramm Führungskräfte in ihrer tiefsten Wirksamkeit stärkt.", "Meta-Intelligenz")}
     </section>
   `);
 }
@@ -2967,6 +3000,7 @@ function gifteDesGeistesPage() {
           Heilsam wirken Selbsterkenntnis und Liebe und das entsprechende homöopathische Enneagramm-Heilmittel.
         </div>
       </div>
+      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
     </section>
   `);
 }
@@ -2999,6 +3033,7 @@ function aufmerksamkeitsfokusPage() {
              alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "Wo liegt dein Aufmerksamkeitsfokus – und was siehst du dabei nicht? Der Code deiner Persönlichkeit.", "Der Code deiner Persönlichkeit")}
     </section>
   `);
 }
