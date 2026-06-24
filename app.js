@@ -898,6 +898,9 @@ function subtypePage(code) {
     </section>
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
+    <section class="narrow" style="padding-top:0; padding-bottom:0;">
+      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `Die vollständige Einzelstudie zu ${entry.code} – ${entry.title}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${entry.code}: ${entry.title}`)}
+    </section>
     ${querverbindungen(entry)}
     ${beratungsCTA()}
   `);
