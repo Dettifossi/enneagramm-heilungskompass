@@ -6,6 +6,7 @@ import { MOTIVTEST } from "./data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=1";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=1";
+import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 
 const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
@@ -21,7 +22,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -3143,6 +3144,43 @@ function beziehungenPage() {
   `);
 }
 
+function tierentsprechungenPage() {
+  const grid = TIERENTSPRECHUNGEN.map(t => {
+    const rows = Object.entries(t.tiere).map(([sub, tiere]) =>
+      `<div style="margin-bottom:.35rem;">
+        <span style="font-weight:700;opacity:.85;">${sub}</span>
+        <span style="margin-left:.3rem;">${tiere.join(", ")}</span>
+      </div>`
+    ).join("");
+    return `<div style="
+      background:${t.farbe};color:${t.textFarbe};
+      border-radius:10px;padding:.9rem 1rem;
+      font-size:.82rem;line-height:1.45;
+    ">
+      <div style="font-weight:800;font-size:1rem;margin-bottom:.6rem;letter-spacing:.03em;">${t.label}</div>
+      ${rows}
+    </div>`;
+  }).join("");
+
+  return shell(`
+    ${pageHeader("tierentsprechungen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <img
+        src="./assets/tierentsprechungen-kreis.jpg"
+        alt="Tierentsprechungen Enneagramm-Kreis"
+        style="width:100%;border-radius:12px;margin-bottom:1.6rem;display:block;"
+      />
+      <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Tierentsprechungen aller 27 Subtypen</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.7rem;">
+        ${grid}
+      </div>
+      <p style="margin-top:1.4rem;font-size:.75rem;opacity:.55;text-align:center;">
+        Quelle: Verlagshaus Rathmer
+      </p>
+    </div>
+  `);
+}
+
 let diffState = { a: null, b: null };
 
 function differenzierungPage() {
@@ -3726,6 +3764,7 @@ function render() {
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
+    "tierentsprechungen": tierentsprechungenPage,
     "differenzierung": differenzierungPage,
     "dialektische-struktur": dialektischeStrukturPage,
     "verbale-signale": verbaleSignalePage,

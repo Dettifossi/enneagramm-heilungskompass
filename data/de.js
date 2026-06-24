@@ -2162,6 +2162,7 @@ export const uiText = {
     { route: "practice", label: "Praxis" },
     { route: "beziehungen", label: "Beziehungen" },
     { route: "differenzierung", label: "Differenzierung" },
+    { route: "tierentsprechungen", label: "Tiere" },
     { route: "knowledge", label: "Wissen" },
     { route: "schaubilder", label: "Schaubilder", dropdown: [
       { route: "60-sekunden-scan", label: "60-Sekunden-Scan" },
