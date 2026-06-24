@@ -4191,3 +4191,21 @@ button.primary:hover::after {
 }
 .nav-dropdown__item:last-child { border-bottom: none; }
 .nav-dropdown__item:hover { background: color-mix(in srgb, var(--copper) 8%, transparent); }
+
+.kompass-zitat {
+  border-left: 3px solid var(--copper);
+  padding: 1.25rem 1.5rem;
+  background: color-mix(in srgb, var(--copper) 6%, transparent);
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-family: var(--font-body, "EB Garamond", serif);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.kompass-zitat p { margin: 0; }
+.kompass-zitat footer {
+  margin-top: 1rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+}

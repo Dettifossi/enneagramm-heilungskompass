@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg", "tee-enneagramm", "aetherische-oele"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -45,7 +45,7 @@ let diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
 
 const LETTER_TO_TYPE = { E: 1, Z: 2, D: 3, V: 4, F: 5, X: 6, S: 7, A: 8, N: 9 };
 const TYPNAMEN_MOTIV = {
-  1: "Der Verbesserer", 2: "Der Helfer", 3: "Der Macher",
+  1: "Der Perfektionist", 2: "Der Helfer", 3: "Der Macher",
   4: "Der Individualist", 5: "Der Forscher", 6: "Der Loyale",
   7: "Der Enthusiast", 8: "Der Herausforderer", 9: "Der Vermittler"
 };
@@ -370,6 +370,13 @@ function dashboardPage() {
       <button class="secondary" data-route="path">${copy.viewPath}</button>
       <button class="secondary" data-route="tools">${copy.chooseTool}</button>
       <button class="secondary" data-route="knowledge">${copy.checkKnowledge}</button>
+    </section>
+    <section class="narrow" style="margin-top:2.5rem;">
+      <blockquote class="kompass-zitat">
+        <p>„Wir sehen die Welt nicht so, wie sie (objektiv) ist, sondern wie wir sie (subjektiv) wahrnehmen – entsprechend unseres Enneagrammtyps."</p>
+        <p style="margin-top:0.75rem;">Daraus ergeben sich alle Probleme zwischen Menschen, aber potenziell auch alle Lösungen dieser zwischenmenschlichen Probleme und somit letztlich alle Probleme und Lösungen dieser Welt.</p>
+        <footer>— Detlef Rathmer, 2026</footer>
+      </blockquote>
     </section>
   `);
 }
@@ -2458,6 +2465,172 @@ function kindlicheTemperamentePage() {
   `);
 }
 
+function sechzigSekundenScanPage() {
+  return shell(`
+    ${pageHeader("60-sekunden-scan")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Typisierung</p>
+      <h1>60-Sekunden-Fixierungs-Scan</h1>
+      <p class="lead-small">In drei Schritten zum Enneagrammtyp: Welche Persona zeigt die Person? Wie reagiert sie unter Druck? Wovor schützt sie sich? Diese Kurzübersicht hilft, einen Typ schnell einzuordnen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/scan/60-sekunden-scan.jpg"
+             alt="60-Sekunden-Fixierungs-Scan"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function mangelgefuehlePage() {
+  return shell(`
+    ${pageHeader("mangelgefuehle")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Tiefenpsychologie</p>
+      <h1>Mangelgefühle der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp trägt ein unbewusstes inneres Mangelgefühl in sich – ein tiefes Gefühl, dass etwas Wesentliches fehlt. Aus diesem Mangel heraus entsteht das charakteristische Streben nach außen, das den Typ antreibt.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
+             alt="Enneagrammtypen und ihre unbewussten inneren Mangelgefühle"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function perspektivenPage() {
+  return shell(`
+    ${pageHeader("perspektiven")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Blinde Flecken</p>
+      <h1>Wie Mitmenschen die Enneagrammtypen erleben</h1>
+      <p class="lead-small">Was sehen andere in uns, was wir selbst kaum wahrnehmen? Diese Übersicht zeigt, welche Aussagen Mitmenschen über jeden Enneagrammtyp immer wieder machen – ein Spiegel für den eigenen blinden Fleck.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
+             alt="Enneagrammtypen und die Perspektiven ihrer Mitmenschen"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+const INSTINKT_LABEL = { se: "Selbsterhaltung", so: "Sozial", sx: "Sexual" };
+const INSTINKT_KURZ  = { se: "SE", so: "SO", sx: "SX" };
+
+function subtypChecklistePage() {
+  const parts = state.route.split("/");
+  const typNr = parts[1] ? parseInt(parts[1]) : null;
+  const inst  = parts[2] || null; // "se" | "so" | "sx"
+
+  // Ebene 3: einzelne Checkliste groß
+  if (typNr && inst && INSTINKT_LABEL[inst]) {
+    const code = `${inst}${typNr}`;
+    return shell(`
+      ${pageHeader("subtypen-checklisten")}
+      <div class="psycho-detail">
+        <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">← Typ ${typNr} Subtypen</button>
+        <h1 class="psycho-detail__title">Typ ${typNr} · ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
+        <div class="psycho-img-wrap">
+          <img src="assets/schaubilder/subtypen-checklisten/${code}.jpg"
+               alt="Checkliste ${INSTINKT_KURZ[inst]}${typNr}"
+               class="psycho-img" />
+        </div>
+      </div>
+    `);
+  }
+
+  // Ebene 2: 3 Subtypen eines Typs
+  if (typNr && typNr >= 1 && typNr <= 9) {
+    return shell(`
+      ${pageHeader("subtypen-checklisten")}
+      <div class="psycho-wrap">
+        <button class="ghost-link psycho-back" data-route="subtypen-checklisten">← Alle Typen</button>
+        <p class="eyebrow">Subtypen-Checklisten · Typ ${typNr}</p>
+        <h1 class="section-title">Typ ${typNr} – Welcher Subtyp bin ich?</h1>
+        <p class="psycho-intro">Wähle einen Instinktschwerpunkt und prüfe anhand der Checkliste, wie gut die Aussagen auf dich zutreffen.</p>
+        <div class="psycho-grid psycho-grid--3">
+          ${["se","so","sx"].map(ins => `
+            <button class="psycho-card psycho-card--inst" data-route="subtypen-checklisten/${typNr}/${ins}">
+              <span class="psycho-card__nr">${INSTINKT_KURZ[ins]}${typNr}</span>
+              <span class="psycho-card__name">${INSTINKT_LABEL[ins]}</span>
+              <span class="psycho-card__arrow">→</span>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `);
+  }
+
+  // Ebene 1: Typauswahl 1–9
+  return shell(`
+    ${pageHeader("subtypen-checklisten")}
+    <div class="psycho-wrap">
+      <p class="eyebrow">Schaubilder · Subtypen-Checklisten</p>
+      <h1 class="section-title">Subtypen-Checklisten</h1>
+      <p class="psycho-intro">Welcher der 27 Subtypen beschreibt dich am treffendsten? Wähle deinen Haupttyp – dann kannst du die drei Subtypen vergleichen und anhand der Checklisten prüfen, was auf dich zutrifft.</p>
+      <div class="psycho-grid">
+        ${[1,2,3,4,5,6,7,8,9].map(n => `
+          <button class="psycho-card" data-route="subtypen-checklisten/${n}">
+            <span class="psycho-card__nr">${n}</span>
+            <span class="psycho-card__name">${TYPNAMEN_MOTIV[n]}</span>
+            <span class="psycho-card__arrow">→</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `);
+}
+
+const EDELSTEINE = [
+  { typ: 1, name: "Amethyst",    file: "typ-1-amethyst.png" },
+  { typ: 2, name: "Rosenquarz",  file: "typ-2-rosenquarz.png" },
+  { typ: 3, name: "Tigerauge",   file: "typ-3-tigerauge.png" },
+  { typ: 4, name: "Rhodonit",    file: "typ-4-rhodonit.png" },
+  { typ: 5, name: "Amazonit",    file: "typ-5-amazonit.png" },
+  { typ: 6, name: "Hämatit",     file: "typ-6-haematit.png" },
+  { typ: 7, name: "Rauchquarz",  file: "typ-7-rauchquarz.png" },
+  { typ: 8, name: "Fluorit",     file: "typ-8-fluorit.png" },
+  { typ: 9, name: "Karneol",     file: "typ-9-karneol.png" },
+];
+
+function edelsteinePage() {
+  const param = state.route.split("/")[1];
+  const typNr = param ? parseInt(param) : null;
+
+  if (typNr && typNr >= 1 && typNr <= 9) {
+    const e = EDELSTEINE[typNr - 1];
+    return shell(`
+      ${pageHeader("edelsteine")}
+      <div class="psycho-detail">
+        <button class="ghost-link psycho-back" data-route="edelsteine">← Alle Edelsteine</button>
+        <h1 class="psycho-detail__title">Typ ${e.typ} – ${e.name}</h1>
+        <div class="psycho-img-wrap">
+          <img src="assets/schaubilder/edelsteine/${e.file}"
+               alt="Typ ${e.typ} – ${e.name}"
+               class="psycho-img" />
+        </div>
+      </div>
+    `);
+  }
+
+  return shell(`
+    ${pageHeader("edelsteine")}
+    <div class="psycho-wrap">
+      <p class="eyebrow">Schaubilder · Edelsteine &amp; Enneagramm</p>
+      <h1 class="section-title">Edelsteine &amp; Enneagramm</h1>
+      <p class="psycho-intro">Jedem Enneagrammtyp ist ein Edelstein zugeordnet, dessen Eigenschaften mit den seelischen Themen, Mustern und Entwicklungsimpulsen des Typs resonieren. Tippe auf einen Typ, um das Schaubild groß zu sehen.</p>
+      <div class="psycho-grid">
+        ${EDELSTEINE.map(e => `
+          <button class="psycho-card" data-route="edelsteine/${e.typ}">
+            <span class="psycho-card__nr">${e.typ}</span>
+            <span class="psycho-card__name">${e.name}</span>
+            <span class="psycho-card__arrow">→</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `);
+}
+
 function aetherischeOelePage() {
   return shell(`
     ${pageHeader("aetherische-oele")}
@@ -2722,6 +2895,11 @@ function render() {
     "kindliche-temperamente": kindlicheTemperamentePage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
+    "edelsteine": edelsteinePage,
+    "subtypen-checklisten": subtypChecklistePage,
+    "perspektiven": perspektivenPage,
+    "mangelgefuehle": mangelgefuehlePage,
+    "60-sekunden-scan": sechzigSekundenScanPage,
     diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");
