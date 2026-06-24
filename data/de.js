@@ -11923,7 +11923,9 @@ export const uiText = {
     { route: "practice", label: "Praxis" },
     { route: "knowledge", label: "Wissen" },
     { route: "library", label: "Bibliothek" },
-    { route: "psychogramme", label: "Psychogramme" },
+    { route: "schaubilder", label: "Schaubilder", dropdown: [
+      { route: "psychogramme", label: "Psychogramme" },
+    ]},
   ],
   subtypePage: {
     back: "← Zur Wissensbasis",

@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -172,22 +172,35 @@ function compassMark(size = "large") {
 }
 
 function nav(active) {
-  return `
-    <nav class="tabbar" aria-label="${text.meta.mainNavigation}">
-      ${text.nav.map(({ route, label }) => {
-        const lockedHeil = HEILWISSEN_ROUTES.has(route) && !hasHeilwissen();
-        const lockedBasis = !hasBasis() && route !== "start" && route !== "profile";
-        const locked = lockedHeil || lockedBasis;
-        const lockTarget = lockedHeil ? "heilwissen" : "basis";
-        return `<button
-          class="${active === route ? "is-active" : ""} ${locked ? "nav-locked" : ""}"
-          data-route="${route}"
-          ${locked ? `data-locked="${lockTarget}"` : ""}
-          aria-disabled="${locked}"
-        >${label}${locked ? `<span class="nav-lock-icon" aria-hidden="true">🔒</span>` : ""}</button>`;
-      }).join("")}
-    </nav>
-  `;
+  const items = text.nav.map(({ route, label, dropdown }) => {
+    if (dropdown) {
+      const isActive = dropdown.some(d => d.route === active) || active === route;
+      const lockedHeil = HEILWISSEN_ROUTES.has(route) && !hasHeilwissen();
+      const lockedBasis = !hasBasis();
+      const locked = lockedHeil || lockedBasis;
+      const lockTarget = lockedHeil ? "heilwissen" : "basis";
+      const subItems = dropdown.map(({ route: sr, label: sl }) =>
+        `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}</button>`
+      ).join("");
+      return `<div class="nav-dropdown-wrap${isActive ? " is-active" : ""}">
+        <button class="nav-dropdown__trigger${isActive ? " is-active" : ""}${locked ? " nav-locked" : ""}"
+          data-dropdown-toggle aria-haspopup="true"
+        >${label} <span class="nav-dropdown__arrow">▾</span>${locked ? `<span class="nav-lock-icon" aria-hidden="true">🔒</span>` : ""}</button>
+        <div class="nav-dropdown__menu">${subItems}</div>
+      </div>`;
+    }
+    const lockedHeil = HEILWISSEN_ROUTES.has(route) && !hasHeilwissen();
+    const lockedBasis = !hasBasis() && route !== "start" && route !== "profile";
+    const locked = lockedHeil || lockedBasis;
+    const lockTarget = lockedHeil ? "heilwissen" : "basis";
+    return `<button
+      class="${active === route ? "is-active" : ""} ${locked ? "nav-locked" : ""}"
+      data-route="${route}"
+      ${locked ? `data-locked="${lockTarget}"` : ""}
+      aria-disabled="${locked}"
+    >${label}${locked ? `<span class="nav-lock-icon" aria-hidden="true">🔒</span>` : ""}</button>`;
+  }).join("");
+  return `<nav class="tabbar" aria-label="${text.meta.mainNavigation}">${items}</nav>`;
 }
 
 function pageHeader(active) {
@@ -1719,6 +1732,28 @@ function bindEvents() {
     wrap.appendChild(comp);
   });
 
+  document.querySelectorAll("[data-dropdown-toggle]").forEach((trigger) => {
+    trigger.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const wrap = trigger.closest(".nav-dropdown-wrap");
+      const menu = wrap.querySelector(".nav-dropdown__menu");
+      const isOpen = wrap.classList.contains("is-open");
+      document.querySelectorAll(".nav-dropdown-wrap.is-open").forEach(w => w.classList.remove("is-open"));
+      if (!isOpen) {
+        const rect = trigger.getBoundingClientRect();
+        menu.style.top = (rect.bottom + 6) + "px";
+        menu.style.right = (window.innerWidth - rect.right) + "px";
+        wrap.classList.add("is-open");
+      }
+    });
+  });
+  // Close dropdown when clicking outside — use bubble phase so stopPropagation above works
+  document.body.addEventListener("click", (e) => {
+    if (!e.target.closest(".nav-dropdown-wrap")) {
+      document.querySelectorAll(".nav-dropdown-wrap.is-open").forEach(w => w.classList.remove("is-open"));
+    }
+  });
+
   document.querySelectorAll("[data-route]").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.dataset.locked) {
@@ -2404,7 +2439,7 @@ function psychogrammePage() {
         <h1 class="psycho-detail__title">Typ ${t.typ} – ${t.name}</h1>
         <p class="psycho-detail__kern">${t.kern}</p>
         <div class="psycho-img-wrap">
-          <img src="assets/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
+          <img src="assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
         </div>
       </div>
     `);
