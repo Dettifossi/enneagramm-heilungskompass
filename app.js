@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2426,6 +2426,22 @@ const PSYCHOGRAMM_TYPEN = [
   { typ: 9, name: "Der Vermittler",      kern: "Heilige Liebe · Harmonie · Würde · Energie" },
 ];
 
+function heilungswegPage() {
+  return shell(`
+    ${pageHeader("heilungsweg")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Enneagramm-Homöopathie</p>
+      <h1>Der Heilungsweg des Menschen</h1>
+      <p class="lead-small">Diese Übersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Homöopathie von Detlef Rathmer: vom unbewussten Muster über die Erkenntnis der Leidenschaft bis zur Integration und Heilung.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/heilungsweg/heilungsweg.jpg"
+             alt="Der Heilungsweg des Menschen nach der Enneagramm-Homöopathie"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
 function kindlicheTemperamentePage() {
   return shell(`
     ${pageHeader("kindliche-temperamente")}
@@ -2665,6 +2681,7 @@ function render() {
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
     psychogramme: psychogrammePage,
+    "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
     diagnosetest: diagnosetestPage,
   };
