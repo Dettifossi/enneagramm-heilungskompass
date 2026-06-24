@@ -3146,37 +3146,62 @@ function beziehungenPage() {
 
 function tierentsprechungenPage() {
   const grid = TIERENTSPRECHUNGEN.map(t => {
+    const col = typeColor(t.typ);
     const rows = Object.entries(t.tiere).map(([sub, tiere]) =>
       `<div style="margin-bottom:.35rem;">
-        <span style="font-weight:700;opacity:.85;">${sub}</span>
-        <span style="margin-left:.3rem;">${tiere.join(", ")}</span>
+        <span style="font-weight:800;">${sub}</span>
+        <span style="margin-left:.35rem;opacity:.9;">${tiere.join(", ")}</span>
       </div>`
     ).join("");
     return `<div style="
-      background:${t.farbe};color:${t.textFarbe};
+      background:${col};color:#fff;
       border-radius:10px;padding:.9rem 1rem;
-      font-size:.82rem;line-height:1.45;
+      font-size:.82rem;line-height:1.5;
     ">
-      <div style="font-weight:800;font-size:1rem;margin-bottom:.6rem;letter-spacing:.03em;">${t.label}</div>
+      <div style="font-weight:800;font-size:1rem;margin-bottom:.6rem;letter-spacing:.04em;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:.4rem;">Typ ${t.typ}</div>
       ${rows}
     </div>`;
+  }).join("");
+
+  const byId = Object.fromEntries(werkRegister.map(b => [b.id, b]));
+  const buchIds = ["enneagramm-zoo", "archetypen-der-tiere"];
+  const buchCards = buchIds.map(id => {
+    const b = byId[id];
+    if (!b) return "";
+    return `<article style="
+      border:1px solid var(--line);border-radius:10px;
+      padding:1rem 1.1rem;background:var(--paper);
+    ">
+      <h3 style="font-size:.95rem;font-weight:700;margin:0 0 .3rem;">${b.title}</h3>
+      <p style="font-size:.78rem;color:var(--muted);margin:0 0 .7rem;">${b.themes.join(" · ")}</p>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
+        <a href="${b.link}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--copper);font-weight:600;">Im Verlag ansehen →</a>
+        ${b.bodUrl ? `<a href="${b.bodUrl}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--muted);">Bei BoD kaufen →</a>` : ""}
+      </div>
+    </article>`;
   }).join("");
 
   return shell(`
     ${pageHeader("tierentsprechungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder · Tierentsprechungen</p>
+      <h1 class="section-title">Tierentsprechungen der 27 Subtypen</h1>
+      <p class="psycho-intro">Jedem der 27 Subtypen sind charakteristische Tiere zugeordnet, deren Wesensart, Verhalten und Überlebensstrategien den jeweiligen Subtypus spiegeln. Das Bild zeigt die visuelle Übersicht; die Tabelle darunter listet alle Entsprechungen systematisch nach Typ und Instinkt (SE · SO · SX) auf.</p>
       <img
         src="./assets/tierentsprechungen-kreis.jpg"
         alt="Tierentsprechungen Enneagramm-Kreis"
-        style="width:100%;border-radius:12px;margin-bottom:1.6rem;display:block;"
+        style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
-      <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Tierentsprechungen aller 27 Subtypen</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.7rem;">
+      <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">Alle 27 Subtypen im Überblick</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.75rem;margin-bottom:2rem;">
         ${grid}
       </div>
-      <p style="margin-top:1.4rem;font-size:.75rem;opacity:.55;text-align:center;">
-        Quelle: Verlagshaus Rathmer
-      </p>
+      <div style="border-top:1px solid var(--line);padding-top:1.4rem;margin-top:.5rem;">
+        <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">Vertiefung: Bücher zum Thema</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem;">
+          ${buchCards}
+        </div>
+      </div>
     </div>
   `);
 }

@@ -2162,7 +2162,6 @@ export const uiText = {
     { route: "practice", label: "Praxis" },
     { route: "beziehungen", label: "Beziehungen" },
     { route: "differenzierung", label: "Differenzierung" },
-    { route: "tierentsprechungen", label: "Tiere" },
     { route: "knowledge", label: "Wissen" },
     { route: "schaubilder", label: "Schaubilder", dropdown: [
       { route: "60-sekunden-scan", label: "60-Sekunden-Scan" },
@@ -2199,6 +2198,7 @@ export const uiText = {
       { route: "spirituelle-uebungen", label: "Spirituelle Übungen" },
       { route: "subtypen-checklisten", label: "Subtypen-Checklisten" },
       { route: "tee-enneagramm", label: "Tees" },
+      { route: "tierentsprechungen", label: "Tierentsprechungen" },
       { route: "verbale-signale", label: "Verbale Signale" },
       { route: "wahrnehmungsstile", label: "Wahrnehmungsstile" },
       { route: "weihnachtsgeschenke", label: "Weihnachtsgeschenke" },
