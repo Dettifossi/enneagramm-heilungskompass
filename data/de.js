@@ -1420,7 +1420,7 @@ export const architectureAreas = [
   {
     route: "tcm",
     title: "TCM & Organuhr",
-    text: "Jedem Enneagramm-Typ ist ein TCM-Meridian zugeordnet – mit Organzeit, Ernährungsplan und energetischer Heilrichtung.",
+    text: "Jedem Enneagrammtyp ist ein TCM-Meridian zugeordnet – mit Organzeit, Ernährungsplan und energetischer Heilrichtung.",
   },
   {
     route: "music",
@@ -10339,7 +10339,7 @@ export const werkRegister = [
   },
   {
     id: "enneagramm-typentest",
-    title: "Rathmer's Enneagramm-Typentest",
+    title: "Rathmer's Enneagrammtypentest",
     themes: ["Typbestimmung", "Selbsttest"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
@@ -10349,7 +10349,7 @@ export const werkRegister = [
   },
   {
     id: "motivationaler-typentest",
-    title: "Motivationaler Enneagramm-Typentest",
+    title: "Motivationaler Enneagrammtypentest",
     themes: ["Typbestimmung", "Motivation", "Selbsttest"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
@@ -11926,6 +11926,8 @@ export const uiText = {
       { route: "heilungsweg", label: "Heilungsweg des Menschen" },
       { route: "kindliche-temperamente", label: "Kindliche Temperamente" },
       { route: "psychogramme", label: "Psychogramme" },
+      { route: "aetherische-oele", label: "Ätherische Öle" },
+      { route: "tee-enneagramm", label: "Tee & Enneagramm" },
     ]},
     { route: "library", label: "Bibliothek" },
   ],
@@ -12049,7 +12051,7 @@ export const uiText = {
     oils: {
       eyebrow: "Ätherische Öle · Wunden-Ebene",
       headline: "Ätherische Öle für die Ur-Wunde",
-      lead: "Jedem Enneagramm-Typ ist ein ätherisches Öl zugeordnet, das direkt auf der Wunden-Ebene wirkt – dort, wo die tiefste Prägung sitzt. Düfte berühren das limbische System unmittelbar und können heilsame Bewegung in festgefahrene Muster bringen.",
+      lead: "Jedem Enneagrammtyp ist ein ätherisches Öl zugeordnet, das direkt auf der Wunden-Ebene wirkt – dort, wo die tiefste Prägung sitzt. Düfte berühren das limbische System unmittelbar und können heilsame Bewegung in festgefahrene Muster bringen.",
       linked: "Eine Zuordnung",
       linkedRef: "9 Typen · 9 Öle",
       linkedText: "Diese Öle stehen bewusst neben dem Heilmittel-Kompass (Seite 4) – als eigene, gleichwertige Rubrik der Wunden-Ebene.",
@@ -12061,7 +12063,7 @@ export const uiText = {
     tcm: {
       eyebrow: "TCM & Enneagramm",
       headline: "Die neun Meridiane des Enneagramms",
-      lead: "Jedem Enneagramm-Typ ist ein TCM-Meridian zugeordnet – ein Energiekanal, der die Essenz seiner seelischen Dynamik spiegelt. Meridiane verraten, wo im Körper die Leidenschaft hockt und wie Heilung energetisch beginnen kann.",
+      lead: "Jedem Enneagrammtyp ist ein TCM-Meridian zugeordnet – ein Energiekanal, der die Essenz seiner seelischen Dynamik spiegelt. Meridiane verraten, wo im Körper die Leidenschaft hockt und wie Heilung energetisch beginnen kann.",
       linked: "Zwei Quellen",
       linkedRef: "Meridiane · Organuhr",
       linkedText: "Basiert auf zwei Werken des Verlags Rathmer: »Enneagramm & TCM-Meridiane« sowie dem »Chrono-Ennea-Typ: Die chinesische Organuhr«.",

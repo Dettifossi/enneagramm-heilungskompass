@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "kindliche-temperamente", "heilungsweg", "tee-enneagramm", "aetherische-oele"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -314,7 +314,7 @@ function startPage() {
         <div class="start-step">
           <span class="start-step__num">1</span>
           <h3 class="start-step__title">Typ & Subtyp bestimmen</h3>
-          <p class="start-step__body">Ermitteln Sie Ihren Enneagramm-Typ und Subtyp — über den Typentest, die Wissensbasis oder eine Beratung.</p>
+          <p class="start-step__body">Ermitteln Sie Ihren Enneagrammtyp und Subtyp — über den Typentest, die Wissensbasis oder eine Beratung.</p>
         </div>
         <div class="start-step">
           <span class="start-step__num">2</span>
@@ -2001,7 +2001,7 @@ function typentestPage() {
         <div class="typentest-card">
           <p class="eyebrow">Struktureller Enneagrammtypentest · für Anfänger</p>
           <h1 class="typentest-titel">Den Code deiner Persönlichkeit entschlüsseln</h1>
-          <p class="typentest-intro">Dieser Test führt dich in drei Schritten zu einem ersten Hinweis auf deinen Enneagramm-Typ und Instinktschwerpunkt. Er dauert etwa 7–10 Minuten.</p>
+          <p class="typentest-intro">Dieser Test führt dich in drei Schritten zu einem ersten Hinweis auf deinen Enneagrammtyp und Instinktschwerpunkt. Er dauert etwa 7–10 Minuten.</p>
           <div class="typentest-hinweis">
             <strong>Wichtiger Hinweis:</strong> Kein Selbsttest kann den eigenen blinden Fleck vollständig überbrücken. Das Ergebnis ist ein <em>Hinweis</em>, kein Urteil. Für eine präzise Bestimmung empfiehlt sich eine persönliche Typisierungsberatung.
           </div>
@@ -2458,6 +2458,43 @@ function kindlicheTemperamentePage() {
   `);
 }
 
+function aetherischeOelePage() {
+  return shell(`
+    ${pageHeader("aetherische-oele")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Ätherische Öle &amp; Enneagramm</p>
+      <h1>Ätherische Öle &amp; Enneagramm</h1>
+      <p class="lead-small">Jedem Enneagrammtyp ist ein ätherisches Öl zugeordnet, das direkt auf der Wunden-Ebene wirkt – dort, wo die tiefste Prägung sitzt. Düfte berühren das limbische System unmittelbar und können heilsame Bewegung in festgefahrene Muster bringen.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/oele/aetherische-oele.png"
+             alt="Ätherische Öle und Enneagramm – Übersicht"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
+function teeEnneagrammPage() {
+  return shell(`
+    ${pageHeader("tee-enneagramm")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Tee &amp; Enneagramm</p>
+      <h1>Tee &amp; Enneagramm</h1>
+      <p class="lead-small">Welcher Tee passt zu welchem Enneagrammtyp? Diese zwei Übersichten zeigen, wie die heilsamen Eigenschaften verschiedener Teesorten mit den Themen, Wunden und Entwicklungsimpulsen der neun Typen korrespondieren.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/tee/tee-uebersicht-1.png"
+             alt="Tee und Enneagramm – Übersicht 1"
+             class="psycho-img" />
+      </div>
+      <div class="psycho-img-wrap" style="margin-top:2rem;">
+        <img src="assets/schaubilder/tee/tee-uebersicht-2.png"
+             alt="Tee und Enneagramm – Übersicht 2"
+             class="psycho-img" />
+      </div>
+    </section>
+  `);
+}
+
 function psychogrammePage() {
   const param = state.route.split("/")[1];
   const typNr = param ? parseInt(param) : null;
@@ -2683,6 +2720,8 @@ function render() {
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
+    "tee-enneagramm": teeEnneagrammPage,
+    "aetherische-oele": aetherischeOelePage,
     diagnosetest: diagnosetestPage,
   };
   const [base, param] = state.route.split("/");

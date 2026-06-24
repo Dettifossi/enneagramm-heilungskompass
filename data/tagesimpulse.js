@@ -1482,7 +1482,7 @@ Das Enneagramm lädt zur Reflexion ein – und zur Aktion. Beides gehört zusamm
   },
   {
     titel: "Die neun Geschenke",
-    text: `Jeder Enneagramm-Typ bringt ein Geschenk in die Welt. Das ist kein Trost – es ist Tatsache.
+    text: `Jeder Enneagrammtyp bringt ein Geschenk in die Welt. Das ist kein Trost – es ist Tatsache.
 
 Typ 1: Integrität. Typ 2: Fürsorge. Typ 3: Inspiration. Typ 4: Tiefe. Typ 5: Klarheit. Typ 6: Verlässlichkeit. Typ 7: Lebensfreude. Typ 8: Schutz. Typ 9: Frieden.
 
@@ -1491,12 +1491,12 @@ Diese Geschenke entstehen nicht trotz des Musters. Sie entstehen, wenn das Muste
   },
   {
     titel: "Wenn man seinen Typ nicht mag",
-    text: `Manche Menschen finden ihren Enneagramm-Typ heraus – und mögen ihn nicht. Sie fühlen sich ertappt, eingeengt, falsch beschrieben.
+    text: `Manche Menschen finden ihren Enneagrammtyp heraus – und mögen ihn nicht. Sie fühlen sich ertappt, eingeengt, falsch beschrieben.
 
 Das ist ein wertvoller Moment.
 
 Denn was wir an unserem Typ ablehnen, ist oft genau das, was wir an uns selbst nicht sehen wollen. Die Konfrontation damit – ehrlich und mitfühlend – ist der Beginn echter Entwicklung.`,
-    impuls: `Was magst du an deinem Enneagramm-Typ nicht? Und was sagt dir diese Ablehnung über das, was du an dir selbst noch nicht angenommen hast?`,
+    impuls: `Was magst du an deinem Enneagrammtyp nicht? Und was sagt dir diese Ablehnung über das, was du an dir selbst noch nicht angenommen hast?`,
   },
   {
     titel: "Was die drei Instinkte über uns verraten",
@@ -2696,7 +2696,7 @@ Das Enneagramm zeigt, welche Geschichten welcher Typ bevorzugt. Welche er immer 
 
   {
     titel: "Was ein Typ bekommt, wenn er sich entwickelt",
-    text: `Jeder Enneagramm-Typ gewinnt etwas, wenn er sich entwickelt.
+    text: `Jeder Enneagrammtyp gewinnt etwas, wenn er sich entwickelt.
 
 Typ 1 gewinnt Gelassenheit. Typ 2 gewinnt echte Selbstliebe. Typ 3 gewinnt Authentizität. Typ 4 gewinnt Verbindung mit dem Alltag. Typ 5 gewinnt Verbundenheit. Typ 6 gewinnt inneren Halt. Typ 7 gewinnt Tiefe. Typ 8 gewinnt Verletzlichkeit. Typ 9 gewinnt Präsenz.
 
