@@ -2721,13 +2721,22 @@ function weihnachtsgeschenkePage() {
   return shell(`
     ${pageHeader("weihnachtsgeschenke")}
     <section class="narrow">
-      <p class="eyebrow">Schaubilder · Geschenke & Stärken</p>
+      <p class="eyebrow">Schaubilder · Weihnachten</p>
       <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
       <p class="lead-small">Jeder der 9 Enneagrammtypen bringt ein einzigartiges Geschenk mit — einen besonderen Beitrag, den er von Natur aus in die Welt trägt. Diese festliche Übersicht zeigt, was jeder Typ der Welt zu geben hat.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
+      </div>
+      <div style="border-top:1px solid var(--line);margin-top:2rem;padding-top:1.8rem;">
+        <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.6rem;">Weihnachtswünsche an alle 9 Enneagrammtypen</h2>
+        <p class="lead-small" style="margin-bottom:1.2rem;">Zu Weihnachten darf die Maske einmal fallen. Dieser herzliche Wunsch richtet sich an jeden der 9 Typen — mit der Einladung, sich selbst ein Stück weit loszulassen.</p>
+        <div class="psycho-img-wrap">
+          <img src="assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
+               alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
+               class="psycho-img" />
+        </div>
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "Jeder Typ hat ein einzigartiges Geschenk für Beziehungen – entdecke die Sprache der Nähe.", "Die Sprache unserer Beziehungen")}
     </section>

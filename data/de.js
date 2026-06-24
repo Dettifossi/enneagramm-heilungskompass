@@ -2201,7 +2201,7 @@ export const uiText = {
       { route: "tierentsprechungen", label: "Tierentsprechungen" },
       { route: "verbale-signale", label: "Verbale Signale" },
       { route: "wahrnehmungsstile", label: "Wahrnehmungsstile" },
-      { route: "weihnachtsgeschenke", label: "Weihnachtsgeschenke" },
+      { route: "weihnachtsgeschenke", label: "Weihnachten" },
       { route: "zentrale-fragen", label: "Zentrale Fragen" },
     ]},
     { route: "library", label: "Bibliothek" },
