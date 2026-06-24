@@ -19,7 +19,7 @@ function setTier(t) { localStorage.setItem(TIER_KEY, t); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
-const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck"]);
+const HEILWISSEN_ROUTES = new Set(["healing", "oils", "tcm", "kindheit", "music", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "kindliche-temperamente", "lookalike-typen", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "tee-enneagramm", "aetherische-oele", "edelsteine", "subtypen-checklisten", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "weihnachtsgeschenke", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2971,6 +2971,66 @@ function fuehrungsstilePage() {
   `);
 }
 
+function beziehungenPage() {
+  const typen = [
+    { nr: 1, leidenschaft: "Zorn / Groll", farbe: "#8b6f47", anziehung: "Zuverlässig, integer, verantwortungsbewusst", konflikt: "Tendenz zur Kritik und zum Perfektionismus – Partner fühlen sich oft, als ob sie nie genügen", lernfeld: "Milde üben – andere nicht korrigieren müssen" },
+    { nr: 2, leidenschaft: "Stolz / Hochmut", farbe: "#7a2d90", anziehung: "Liebevoll, fürsorglich, aufmerksam", konflikt: "Erwartet unbewusst Dankbarkeit und Gegenleistung; kann vereinnahmend wirken", lernfeld: "Eigene Bedürfnisse anerkennen – Liebe geschehen lassen" },
+    { nr: 3, leidenschaft: "Eitelkeit / Täuschung", farbe: "#c8860a", anziehung: "Dynamisch, zielstrebig, charismatisch", konflikt: "Hinter der Fassade bleibt Unsicherheit; Partner spüren, dass er nicht ganz echt ist", lernfeld: "Sich zeigen wie man ist – Echtheit schafft mehr Nähe als Erfolg" },
+    { nr: 4, leidenschaft: "Neid / Missgunst", farbe: "#5b4fa0", anziehung: "Tiefgründig, kreativ, leidenschaftlich", konflikt: "Schwankt zwischen Sehnsucht und Enttäuschung; fühlt sich schnell nicht gesehen", lernfeld: "Dankbarkeit kultivieren – würdigen, was da ist" },
+    { nr: 5, leidenschaft: "Geiz / Habsucht", farbe: "#2e7d6e", anziehung: "Ruhig, reflektiert, wissend", konflikt: "Distanz wirkt auf Partner schwer erträglich; Nähe fühlt sich für ihn wie Übergriff an", lernfeld: "Sich öffnen und teilen – im Herzen präsent sein" },
+    { nr: 6, leidenschaft: "Angst / Zweifel", farbe: "#4a6fa5", anziehung: "Treu, aufmerksam, zuverlässig", konflikt: "Zweifel und Misstrauen belasten die Partnerschaft; schwankt zwischen Bindung und Skepsis", lernfeld: "Vertrauen als Risiko akzeptieren – nicht ständig absichern" },
+    { nr: 7, leidenschaft: "Völlerei / Exzess", farbe: "#b5870a", anziehung: "Inspirierend, unterhaltsam, voller Ideen", konflikt: "Meidet Schmerz und Tiefe; Partner können sich zurückgesetzt fühlen", lernfeld: "Beständigkeit üben – Schmerz aushalten und Tiefe zulassen" },
+    { nr: 8, leidenschaft: "Wollust / Maßlosigkeit", farbe: "#8b2014", anziehung: "Kraftvoll, beschützend, entschlossen", konflikt: "Drang zur Kontrolle kann erdrückend sein; Partner fühlen sich überrollt", lernfeld: "Verletzlichkeit zulassen – Stärke auch als Zuwendung leben" },
+    { nr: 9, leidenschaft: "Trägheit / Selbstvergessenheit", farbe: "#5a7a3a", anziehung: "Ausgleichend, geduldig, freundlich", konflikt: "Vergisst sich selbst, passt sich an; Beziehung gerät in Stagnation", lernfeld: "Eigenen Willen einbringen – klar Position beziehen" },
+  ];
+
+  const subtypes = [
+    { code: "SE1", text: "Sucht Ordnung und Verlässlichkeit in Intimität" }, { code: "SO1", text: "Möchte ein richtiges Paar darstellen" }, { code: "SX1", text: "Leidenschaftlich und gleichzeitig streng mit hohen Ansprüchen" },
+    { code: "SE2", text: "Gibt Fürsorge körperlich, erwartet Dankbarkeit" }, { code: "SO2", text: "Sucht Bewunderung für die gemeinsame Nähe" }, { code: "SX2", text: "Will exklusive Verschmelzung, kann besitzergreifend sein" },
+    { code: "SE3", text: "Verbindet Erotik mit Leistungsfähigkeit" }, { code: "SO3", text: "Achtet auf äußere Wirkung, auch in der Partnerschaft" }, { code: "SX3", text: "Sucht Spiegelung durch intensive erotische Bestätigung" },
+    { code: "SE4", text: "Nähe über Fürsorge, mit unterschwelligem Gefühl des Mangels" }, { code: "SO4", text: "Vergleicht sich ständig, sucht besondere Bindung" }, { code: "SX4", text: "Drängt dramatisch in Intensität und Verschmelzung" },
+    { code: "SE5", text: "Hält Distanz, Sexualität kontrolliert" }, { code: "SO5", text: "Sucht Austausch im Denken, körperlich zurückhaltend" }, { code: "SX5", text: "Überraschend leidenschaftlich, wenn Vertrauen da ist" },
+    { code: "SE6", text: "Sucht Sicherheit und verlässliche Routinen" }, { code: "SO6", text: "Fragt nach Zugehörigkeit im sozialen Kontext" }, { code: "SX6", text: "Schwankt zwischen Hingabe und Misstrauen" },
+    { code: "SE7", text: "Verspielt, leicht, lustvoll ohne Risiko" }, { code: "SO7", text: "Erotisches Abenteuer im sozialen Raum" }, { code: "SX7", text: "Intensive Hingabe, manchmal maßlos" },
+    { code: "SE8", text: "Kraftvoll, sinnlich, mit Stärke verbunden" }, { code: "SO8", text: "Beschützerrolle auch sexuell betont" }, { code: "SX8", text: "Dominant, leidenschaftlich, zugleich zärtlich in der Tiefe" },
+    { code: "SE9", text: "Sucht friedvolle Nähe, Sexualität als Geborgenheit" }, { code: "SO9", text: "Will Harmonie im größeren Rahmen" }, { code: "SX9", text: "Verschmelzend, verliert sich leicht im Partner" },
+  ];
+
+  return shell(`
+    ${pageHeader("beziehungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Beziehungen & Nähe</p>
+      <h1>Die 9 Enneagrammtypen in Beziehungen</h1>
+      <p class="lead-small">Was zieht uns zu anderen hin – und was bringt uns in Konflikt? Jeder Enneagrammtyp trägt seine Leidenschaft in jede Beziehung. Diese Übersicht zeigt Anziehungskraft, typische Konflikte und das Lernfeld jedes Typs.</p>
+
+      <div style="display:flex; flex-direction:column; gap:1rem; margin-top:1.5rem;">
+        ${typen.map(t => `
+        <div style="border-left:4px solid ${t.farbe}; padding:0.85rem 1.1rem; background:color-mix(in srgb, ${t.farbe} 6%, var(--paper)); border-radius:0 0.5rem 0.5rem 0;">
+          <strong style="color:${t.farbe}; font-size:1rem;">Typ ${t.nr} · ${t.leidenschaft}</strong>
+          <div style="margin-top:0.5rem; display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem; font-size:0.85rem; color:var(--ink);">
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Anziehung</span><br>${t.anziehung}</div>
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Konflikt</span><br>${t.konflikt}</div>
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Lernfeld</span><br>${t.lernfeld}</div>
+          </div>
+        </div>`).join("")}
+      </div>
+
+      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Die 27 Subtypen – Nähe & Intimität</h2>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Wie der Instinkt (SE · SO · SX) die Art prägt, wie ein Typ Nähe erlebt und ausdrückt.</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem;">
+        ${subtypes.map(s => `
+        <div style="background:color-mix(in srgb, var(--copper) 5%, var(--paper)); border:1px solid var(--line); border-radius:0.4rem; padding:0.6rem 0.75rem; font-size:0.82rem;">
+          <strong style="color:var(--copper); font-size:0.78rem;">${s.code}</strong><br>
+          <span style="color:var(--ink); line-height:1.35;">${s.text}</span>
+        </div>`).join("")}
+      </div>
+
+      ${bookTip("die-sprache-unserer-beziehungen", "365 Typ- und Subtypen-Kombinationen im Überblick – das komplette Beziehungslexikon des Enneagramms.", "Die Sprache unserer Beziehungen")}
+      ${bookTip("die-sprache-unserer-sexualitaet", "Wie Nähe, Leidenschaft und Intimität bei allen 27 Subtypen erlebt werden – mit Übungen für Paare.", "Die Sprache unserer Sexualität")}
+    </section>
+  `);
+}
+
 function gifteDesGeistesPage() {
   return shell(`
     ${pageHeader("gifte-des-geistes")}
@@ -3487,6 +3547,7 @@ function render() {
     "lookalike-typen": lookalikeTypenPage,
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
+    "beziehungen": beziehungenPage,
     "dialektische-struktur": dialektischeStrukturPage,
     "verbale-signale": verbaleSignalePage,
     "nonverbale-signale": nonverbaleSignalePage,

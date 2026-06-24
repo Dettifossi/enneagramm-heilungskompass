@@ -2167,6 +2167,7 @@ export const uiText = {
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "bedrohungsszenarien", label: "Bedrohungsszenarien" },
+      { route: "beziehungen", label: "Beziehungen & Nähe" },
       { route: "befreiende-fragen", label: "Befreiende Fragen" },
       { route: "bewaeltigungsstrategie", label: "Bewältigungsstrategien" },
       { route: "dialektische-struktur", label: "Dialektische Struktur" },
