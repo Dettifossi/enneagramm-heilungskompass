@@ -11922,10 +11922,10 @@ export const uiText = {
     { route: "music", label: "Musik" },
     { route: "practice", label: "Praxis" },
     { route: "knowledge", label: "Wissen" },
-    { route: "library", label: "Bibliothek" },
     { route: "schaubilder", label: "Schaubilder", dropdown: [
       { route: "psychogramme", label: "Psychogramme" },
     ]},
+    { route: "library", label: "Bibliothek" },
   ],
   subtypePage: {
     back: "← Zur Wissensbasis",
