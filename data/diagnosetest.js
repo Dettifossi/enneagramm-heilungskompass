@@ -233,7 +233,7 @@ export const DIAGNOSETEST = [
       "Mangelnde Fokussierung lässt mich leicht ablenken.",
       "Ich habe oft mehrere Projekte gleichzeitig am Laufen.",
       "Ich mache auch gern mal Spaß und bin lustig.",
-      "„Don't worry, be happy" ist mein Lebensmotto.",
+      "„Don't worry, be happy” ist mein Lebensmotto.",
       "Man sollte sich das Leben nicht zu schwer machen.",
       "Unangenehme Ereignisse verarbeite ich relativ rasch.",
       "Ich bin manchmal unersättlich und anfällig für Süchte.",
@@ -279,7 +279,7 @@ export const DIAGNOSETEST = [
     name: "Der Vermittler",
     aussagen: [
       "Wichtige Dinge schiebe ich bis zuletzt auf.",
-      "„Nein" zu sagen fällt mir schwer.",
+      "„Nein” zu sagen fällt mir schwer.",
       "Freunde sagen, ich sei manchmal ein wenig zerstreut.",
       "Die Vergangenheit ist mir sehr real.",
       "Ich möchte von anderen geschätzt und gewürdigt werden.",
