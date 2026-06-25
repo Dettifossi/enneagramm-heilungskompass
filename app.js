@@ -841,9 +841,10 @@ function werkSection() {
 
   const cards = werkRegister.map((book) => {
     const isPending = book.status === "link_pruefen";
+    const linkLabel = book.category === "kalender" ? "Zum Kalender" : w.openBook;
     const verlagsLink = isPending
       ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
-      : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${w.openBook} →</a>`;
+      : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${linkLabel} →</a>`;
     const bodLink = !isPending && book.bodUrl
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Bei BoD kaufen →</a>`
       : "";

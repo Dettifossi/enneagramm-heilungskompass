@@ -1842,16 +1842,6 @@ export const werkRegister = [
     link: "https://verlagshausrathmer.com",
     status: "link_pruefen",
   },
-  {
-    id: "kindheitstraumata",
-    title: "Die Kindheitstraumata der 9 Enneagrammtypen",
-    themes: ["Wunde", "Kindheit", "Prägung"],
-    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    category: "enneagramm",
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
-  },
-
   // ── Persönliche Entwicklung ────────────────────────────────────────────────
 
   {
