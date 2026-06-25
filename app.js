@@ -847,11 +847,17 @@ function werkSection() {
     const bodLink = !isPending && book.bodUrl
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Bei BoD kaufen →</a>`
       : "";
+    const coverImg = `<img src="assets/covers/${book.id}.jpg" alt="" loading="lazy"
+      onerror="this.parentElement.style.display='none'"
+      style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
     return `
-      <article class="werk-card" data-category="${book.category || ""}">
-        <h3>${book.title}</h3>
-        <p class="werk-card__themes">${w.themes}: ${book.themes.join(" · ")}</p>
-        <div class="werk-card__links">${verlagsLink}${bodLink}</div>
+      <article class="werk-card" data-category="${book.category || ""}" style="display:flex;gap:.75rem;align-items:flex-start;">
+        <div style="width:60px;flex-shrink:0;">${coverImg}</div>
+        <div style="min-width:0;">
+          <h3 style="margin-top:0;">${book.title}</h3>
+          <p class="werk-card__themes">${w.themes}: ${book.themes.join(" · ")}</p>
+          <div class="werk-card__links">${verlagsLink}${bodLink}</div>
+        </div>
       </article>`;
   }).join("");
 
