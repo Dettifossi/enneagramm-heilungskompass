@@ -1839,8 +1839,9 @@ export const werkRegister = [
     themes: ["Wunde", "Leidenschaft", "Heilmittel", "Heilung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
-    link: "https://verlagshausrathmer.com",
-    status: "link_pruefen",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=hinter-der-leidenschaft-die-neun-wunden-des-enneagramms",
+    bodUrl: "https://buchshop.bod.de/hinter-der-leidenschaft-detlef-rathmer-9783696369446",
+    status: "live",
   },
   // ── Persönliche Entwicklung ────────────────────────────────────────────────
 
