@@ -2144,7 +2144,7 @@ export const werkRegister = [
 // ---------------------------------------------------------------------------
 //  subtypeDetails — aufgeteilt in data/subtypes/<key>.js
 // ---------------------------------------------------------------------------
-export { subtypeDetails } from './subtypes/index.js';
+export { subtypeDetails } from './subtypes/index.js?v=2026-06-29-burnout-v1';
 
 
 export const uiText = {
