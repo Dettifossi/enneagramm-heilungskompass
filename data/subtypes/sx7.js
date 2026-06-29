@@ -31,5 +31,6 @@ export const sx7 = {
     { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 7 (Kapitel Typ 7)." },
     { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 7." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rauchquarz und den Enneagrammprinzipien." },
+    { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 7 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
 };

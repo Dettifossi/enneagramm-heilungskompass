@@ -1956,6 +1956,16 @@ export const werkRegister = [
     link: "https://www.verlagshausrathmer.com/buch.html?slug=das-seminar-wenn-masken-fallen",
     status: "live",
   },
+  {
+    id: "wenn-die-stille-brennt",
+    title: "Wenn die Stille brennt – Burnout",
+    themes: ["Burnout", "Stille", "Heilung", "Entwicklung", "Selbsterkenntnis"],
+    typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    category: "persoenliche-entwicklung",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=wenn-die-stille-brennt-burnout",
+    bodUrl: "https://buchshop.bod.de/wenn-die-stille-brennt-burnout-detlef-rathmer-9783696354657",
+    status: "live",
+  },
 
   // ── Kalender ───────────────────────────────────────────────────────────────
 

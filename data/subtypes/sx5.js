@@ -31,5 +31,6 @@ export const sx5 = {
     { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 5 (Kapitel Typ 5)." },
     { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 5." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amazonit und den Enneagrammprinzipien." },
+    { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 5 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
 };

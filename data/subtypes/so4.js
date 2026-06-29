@@ -34,5 +34,6 @@ export const so4 = {
     { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 4 (Kapitel Typ 4)." },
     { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 4." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rhodonit und den Enneagrammprinzipien." },
+    { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 4 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
 };

@@ -31,5 +31,6 @@ export const so6 = {
     { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 6 (Kapitel Typ 6)." },
     { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 6." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Hämatit und den Enneagrammprinzipien." },
+    { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 6 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
 };

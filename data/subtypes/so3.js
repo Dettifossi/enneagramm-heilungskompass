@@ -34,5 +34,6 @@ export const so3 = {
     { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 3 (Kapitel Typ 3)." },
     { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 3." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Tigerauge und den Enneagrammprinzipien." },
+    { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 3 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
 };
