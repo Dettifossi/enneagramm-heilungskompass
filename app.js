@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v105";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v107";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=1";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -800,6 +800,18 @@ function kaufenPage() {
       <p class="eyebrow">Zugang kaufen</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">Enneagramm-Heilungskompass</h1>
       <p class="lead-small" style="margin-bottom:2rem;">Das interaktive Navigationssystem für alle 27 Subtypen — Heilmittel, Musik, TCM, ätherische Öle, Tagesimpulse und das gesamte Lebenswerk von Detlef Rathmer.</p>
+    </section>
+    <section class="narrow" style="padding:0 1rem 1.5rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
+        <h3 style="margin-top:0;">Was ist der Enneagramm-Heilungskompass?</h3>
+        <p>Ein lebendiges Nachschlagewerk, das dir zeigt, wie dein Enneagrammtyp denkt, fühlt, leidet — und wie er heilt.</p>
+        <p>Nicht irgendein Online-Test. Sondern das Destillat aus jahrzehntelanger therapeutischer Arbeit von Detlef Rathmer, interaktiv aufbereitet: Dein Subtyp, deine Wunde, deine Heilmittel — auf einen Blick.</p>
+        <h3>Für wen ist das gedacht?</h3>
+        <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
+        <h3>Was bekommst du?</h3>
+        <p>In wenigen Minuten weißt du: Welches homöopathische Mittel zu deinem Enneagrammtyp passt. Welche Bachblüte deine Wunde anspricht. Welche Musik deinen Typ bewegt. Welches ätherische Öl dich reguliert. Und was hinter deiner Leidenschaft steckt.</p>
+        <p>Das kostet sonst Stunden Recherche in dutzenden Büchern — hier ist es in einer App.</p>
+      </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;">
