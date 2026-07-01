@@ -12,13 +12,14 @@ const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
 const VISITED_KEY = "enneagramm-kompass:visited";
 const TIER_KEY    = "enneagramm-kompass:tier";
+const NAME_KEY    = "enneagramm-kompass:lizenz-name";
 
-const BASIS_CODE   = "CHARAKTER-KOMPASS-2026";
-const HEILUNG_CODE = "HEILUNGS-UPGRADE-2026";
-const GESAMT_CODE  = "KOMPASS-GESAMT-2026";
+const KOMPASS_CODE = "KOMPASS-7743";
 
-function getTier()  { return localStorage.getItem(TIER_KEY) || "heilwissen"; } // TEMP: Vorschau-Vollzugriff – vor Commit zurueck auf "demo"
-function setTier(t) { localStorage.setItem(TIER_KEY, t); }
+function getTier()        { return localStorage.getItem(TIER_KEY) || "demo"; }
+function setTier(t)       { localStorage.setItem(TIER_KEY, t); }
+function getLizenzName()  { return localStorage.getItem(NAME_KEY) || ""; }
+function setLizenzName(n) { localStorage.setItem(NAME_KEY, n); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
@@ -1950,15 +1951,20 @@ function bindEvents() {
   if (unlockBtn) {
     const doUnlock = () => {
       const code = (document.querySelector("#unlockCode").value || "").trim().toUpperCase();
+      const name = (document.querySelector("#unlockName").value || "").trim();
       const msg = document.querySelector("#unlockMsg");
-      if (code === BASIS_CODE) {
-        setTier("basis");
-        go("dashboard");
-      } else if (code === HEILUNG_CODE || code === GESAMT_CODE) {
+      if (code === KOMPASS_CODE) {
+        if (!name) {
+          msg.textContent = "Bitte tragen Sie zuerst Ihren Namen ein.";
+          msg.style.color = "var(--copper)";
+          document.querySelector("#unlockName").focus();
+          return;
+        }
         setTier("heilwissen");
-        go("healing");
+        setLizenzName(name);
+        go("start");
       } else {
-        msg.textContent = "Ungültiger Code. Bitte prüfen Sie die E-Mail von Digistore24.";
+        msg.textContent = "Ungültiger Code. Bitte prüfen Sie die Bestätigungs-E-Mail von Digistore24.";
         msg.style.color = "var(--copper)";
       }
     };
@@ -3657,66 +3663,32 @@ function psychogrammePage() {
   `);
 }
 
-function freischaltPage(needed) {
-  const isBasis = needed === "basis";
-
-  if (isBasis) {
-    return shell(`
-      <section class="freischalt-page">
-        <div class="freischalt-card">
-          <div class="freischalt-card__lock">🔒</div>
-          <h1 class="freischalt-card__title">Enneagramm-Charakterkompass</h1>
-          <p class="freischalt-card__desc">Alle 27 Subtypen in tiefer Detailtiefe: Verhaltensmuster, Beziehungsdynamik, blinde Flecken, Kernfragen und psychologische Engpässe. Sie sehen sich selbst glasklar im Spiegel.</p>
-          <div class="freischalt-card__angebote">
-            <div class="freischalt-angebot freischalt-angebot--basis">
-              <strong>Charakterkompass</strong>
-              <span class="freischalt-angebot__preis">29 €</span>
-              <span class="freischalt-angebot__label">Einmalzahlung</span>
-              <a class="freischalt-card__buy-btn" href="https://www.digistore24.com/product/PLATZHALTER-CHARAKTER" target="_blank" rel="noopener">Jetzt kaufen →</a>
-            </div>
-            <div class="freischalt-angebot freischalt-angebot--gesamt">
-              <strong>Gesamtpaket</strong>
-              <span class="freischalt-angebot__preis">69 €</span>
-              <span class="freischalt-angebot__label">Charakter + Heilung</span>
-              <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://www.digistore24.com/product/PLATZHALTER-GESAMT" target="_blank" rel="noopener">Alles freischalten →</a>
-            </div>
-          </div>
-          <div class="freischalt-card__divider"><span>Bereits gekauft? Code eingeben:</span></div>
-          <div class="freischalt-card__input-row">
-            <input id="unlockCode" type="text" placeholder="Zugangscode" autocomplete="off" spellcheck="false" />
-            <button id="unlockBtn" class="primary">Freischalten</button>
-          </div>
-          <p id="unlockMsg" class="freischalt-card__msg"></p>
-          <button class="ghost-link freischalt-card__back" data-route="start">← Zurück zur Startseite</button>
-        </div>
-      </section>
-    `);
-  }
-
+function freischaltPage() {
   return shell(`
     <section class="freischalt-page">
       <div class="freischalt-card">
-        <div class="freischalt-card__lock">🔒</div>
+        <div class="freischalt-card__lock">✦</div>
         <h1 class="freischalt-card__title">Enneagramm-Heilungskompass</h1>
-        <p class="freischalt-card__desc">Der Sprung von Erkenntnis in Transformation: Homöopathie, Bachblüten, Edelsteine, ätherische Öle, TCM, Heilungssongs und Kindheitstraumata für alle 27 Subtypen.</p>
-        <div class="freischalt-card__angebote">
-          <div class="freischalt-angebot freischalt-angebot--heilung">
-            <strong>Heilungskompass-Upgrade</strong>
-            <span class="freischalt-angebot__preis">+ 49 €</span>
-            <span class="freischalt-angebot__label">Ergänzung zum Charakterkompass</span>
-            <a class="freischalt-card__buy-btn" href="https://www.digistore24.com/product/PLATZHALTER-HEILUNG" target="_blank" rel="noopener">Upgrade kaufen →</a>
-          </div>
+        <p class="freischalt-card__desc">Das interaktive Navigationssystem für alle 27 Enneagramm-Subtypen — Blickqualitäten, Profiling, Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine, Teeempfehlungen, TCM, Musik und vieles mehr.</p>
+
+        <div class="freischalt-card__angebote" style="justify-content:center;">
           <div class="freischalt-angebot freischalt-angebot--gesamt">
-            <strong>Gesamtpaket</strong>
-            <span class="freischalt-angebot__preis">69 €</span>
-            <span class="freischalt-angebot__label">Charakter + Heilung zusammen</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://www.digistore24.com/product/PLATZHALTER-GESAMT" target="_blank" rel="noopener">Alles freischalten →</a>
+            <strong>Vollzugang</strong>
+            <span class="freischalt-angebot__preis">€ 49</span>
+            <span class="freischalt-angebot__label">Einführungspreis · inkl. aller Updates</span>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://www.checkout-ds24.com/product/707486" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
           </div>
         </div>
-        <div class="freischalt-card__divider"><span>Bereits gekauft? Code eingeben:</span></div>
+
+        <div class="freischalt-card__divider"><span>Bereits gekauft? Zugang aktivieren:</span></div>
+
+        <div style="margin-bottom:0.75rem;">
+          <input id="unlockName" type="text" placeholder="Ihr Name (für die Lizenzierung)" autocomplete="name" spellcheck="false"
+            style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
+        </div>
         <div class="freischalt-card__input-row">
-          <input id="unlockCode" type="text" placeholder="Zugangscode" autocomplete="off" spellcheck="false" />
-          <button id="unlockBtn" class="primary">Freischalten</button>
+          <input id="unlockCode" type="text" placeholder="Zugangscode (aus Ihrer Bestätigungs-E-Mail)" autocomplete="off" spellcheck="false" />
+          <button id="unlockBtn" class="primary">Aktivieren</button>
         </div>
         <p id="unlockMsg" class="freischalt-card__msg"></p>
         <button class="ghost-link freischalt-card__back" data-route="start">← Zurück zur Startseite</button>
@@ -3726,7 +3698,10 @@ function freischaltPage(needed) {
 }
 
 function legalFooter() {
+  const name = getLizenzName();
+  const lizenz = name ? `<span class="legal-footer__lizenz">Lizenziert für ${name}</span>` : "";
   return `<footer class="legal-footer">
+    ${lizenz}
     <button class="legal-footer__link" data-route="impressum">Impressum</button>
     <span class="legal-footer__sep">·</span>
     <button class="legal-footer__link" data-route="datenschutz">Datenschutz</button>
@@ -3887,20 +3862,14 @@ function render() {
   const setContent = () => {
     // Freischalt-Direktroute (von Nav-Schloss oder Link)
     if (base === "freischalt") {
-      app.innerHTML = freischaltPage(param || "basis");
+      app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
       return;
     }
     // Zugangsschutz
-    if (!hasBasis() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest") {
-      app.innerHTML = freischaltPage("basis");
-      bindEvents();
-      requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
-      return;
-    }
-    if (HEILWISSEN_ROUTES.has(base) && !hasHeilwissen()) {
-      app.innerHTML = freischaltPage("heilwissen");
+    if (!hasHeilwissen() && base !== "start" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "kaufen") {
+      app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
       return;

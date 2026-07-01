@@ -3704,6 +3704,13 @@ button.primary:hover::after {
 }
 .legal-footer__link:hover { color: var(--copper); }
 .legal-footer__sep { color: var(--line); font-size: 0.78rem; }
+.legal-footer__lizenz {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  opacity: 0.7;
+  margin-right: 0.5rem;
+}
 
 /* ── Legal Page (Impressum / Datenschutz) ── */
 .legal-page {
