@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-bibliothek-v101";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v103";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=1";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -245,6 +245,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Meinen Subtyp wählen →</button>
     <button class="secondary" data-route="knowledge">Wissensbasis ansehen</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen · € 49 →</button>
   `;
 
   return shell(`
@@ -789,6 +790,42 @@ function practicePage() {
         <p>${copy.twoPointText}</p>
         <button class="secondary" data-route="knowledge">${copy.openSe1}</button>
       </article>
+    </section>
+  `);
+}
+
+function kaufenPage() {
+  return shell(`
+    <section class="narrow centered" style="padding:2rem 1rem 1rem;">
+      <p class="eyebrow">Zugang kaufen</p>
+      <h1 style="font-size:2rem;margin-bottom:.5rem;">Enneagramm-Heilungskompass</h1>
+      <p class="lead-small" style="margin-bottom:2rem;">Das interaktive Navigationssystem für alle 27 Subtypen — Heilmittel, Musik, TCM, ätherische Öle, Tagesimpulse und das gesamte Lebenswerk von Detlef Rathmer.</p>
+    </section>
+    <section class="narrow" style="padding:0 1rem 2rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;">
+        <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem;">
+          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 49</span>
+          <span style="font-size:1.1rem;text-decoration:line-through;opacity:.5;">€ 69</span>
+          <span style="font-size:.85rem;background:#4a7c59;color:#fff;border-radius:20px;padding:.2rem .7rem;">Einführungspreis</span>
+        </div>
+        <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
+          <li>✓ Alle 27 Subtyp-Profile vollständig</li>
+          <li>✓ Heilmittel-Kompass (Homöopathie, Bach, Schüßler, Edelsteine, Tees)</li>
+          <li>✓ Ätherische Öle, TCM, Kindheitsprägung</li>
+          <li>✓ Musik & Tagesimpulse</li>
+          <li>✓ Komplette Bibliothek mit 60+ Büchern</li>
+          <li>✓ Alle zukünftigen Updates inklusive</li>
+        </ul>
+        <a href="https://www.checkout-ds24.com/product/707486" target="_blank" rel="noopener"
+           style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
+          Jetzt Zugang kaufen → € 49
+        </a>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf über Digistore24 · Sofortiger Zugang nach Zahlung</p>
+      </div>
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
+        <h3 style="margin-top:0;">Fragen?</h3>
+        <p style="margin:0;font-size:.95rem;">Bei Fragen zum Zugang schreib an <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+      </div>
     </section>
   `);
 }
@@ -3825,6 +3862,7 @@ function render() {
     "kindheitsperspektiven": kindheitsperspektivenPage,
     "lebensgluck": lebensgluckPage,
     diagnosetest: diagnosetestPage,
+    kaufen: kaufenPage,
   };
   const [base, param] = state.route.split("/");
   const setContent = () => {
