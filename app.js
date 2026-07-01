@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v103";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v105";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=1";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -806,7 +806,7 @@ function kaufenPage() {
         <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem;">
           <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 49</span>
           <span style="font-size:1.1rem;text-decoration:line-through;opacity:.5;">€ 69</span>
-          <span style="font-size:.85rem;background:#4a7c59;color:#fff;border-radius:20px;padding:.2rem .7rem;">Einführungspreis</span>
+          <span style="font-size:.85rem;background:#4a7c59;color:#fff;border-radius:20px;padding:.2rem .7rem;">Einführungspreis · zeitlich begrenzt</span>
         </div>
         <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
           <li>✓ Alle 27 Subtyp-Profile vollständig</li>
