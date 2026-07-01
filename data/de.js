@@ -2380,7 +2380,7 @@ export const uiText = {
     library: {
       eyebrow: "Bibliothek & Lebenswerk",
       headline: "Bücher, Verlag und Vertiefung",
-      lead: "Dieser Bereich bleibt bewusst im Hintergrund. Er soll später das Lebenswerk, Buchcover, Verlag, Praxis-Homepage, Musik und weiterführende Texte verbinden.",
+      lead: "Das gesamte Werk von Detlef Rathmer — Bücher zu Enneagramm, Homöopathie und persönlicher Entwicklung. Jedes Buch direkt bei BoD bestellbar.",
       systemOverview: "Systemübersicht",
       formulaHeadline: "Die Grundformel des Rathmer-Enneagramms",
       formulaText: "Diese Karte bündelt die drei Defizite, die drei Energieformen, die drei Instinkte und die Formel, aus der die 27 Subtypen entstehen.",
