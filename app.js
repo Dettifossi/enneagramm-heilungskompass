@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v107";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-06-29-kaufen-v109";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=1";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -804,13 +804,20 @@ function kaufenPage() {
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
         <h3 style="margin-top:0;">Was ist der Enneagramm-Heilungskompass?</h3>
-        <p>Ein lebendiges Nachschlagewerk, das dir zeigt, wie dein Enneagrammtyp denkt, fühlt, leidet — und wie er heilt.</p>
-        <p>Nicht irgendein Online-Test. Sondern das Destillat aus jahrzehntelanger therapeutischer Arbeit von Detlef Rathmer, interaktiv aufbereitet: Dein Subtyp, deine Wunde, deine Heilmittel — auf einen Blick.</p>
+        <p>Eine Synthese aus jahrzehntelanger therapeutischer Arbeit von Detlef Rathmer — interaktiv, persönlich, sofort nutzbar.</p>
+        <p>Kein Buch kann das leisten, was diese App kann: Du gibst deinen Enneagrammtyp ein — und bekommst sofort alles, was du brauchst. Kein Blättern, kein Suchen, kein Zusammensetzen aus dutzenden Quellen.</p>
+        <h3>Was nur diese App kann:</h3>
+        <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
+          <li>🔍 <strong>Alles auf einen Blick</strong> — Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine, Tees, ätherische Öle, TCM, Musik, Kindheitsprägung — für deinen Subtyp, sofort verfügbar</li>
+          <li>📚 <strong>Synthese des gesamten Werkes</strong> — was in 60+ Büchern verteilt ist, findest du hier gebündelt an einem Ort</li>
+          <li>🎯 <strong>Subtypgenau</strong> — nicht „Typ 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
+          <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
+          <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
+        </ul>
         <h3>Für wen ist das gedacht?</h3>
         <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
-        <h3>Was bekommst du?</h3>
-        <p>In wenigen Minuten weißt du: Welches homöopathische Mittel zu deinem Enneagrammtyp passt. Welche Bachblüte deine Wunde anspricht. Welche Musik deinen Typ bewegt. Welches ätherische Öl dich reguliert. Und was hinter deiner Leidenschaft steckt.</p>
-        <p>Das kostet sonst Stunden Recherche in dutzenden Büchern — hier ist es in einer App.</p>
+        <h3>Jetzt zum Einführungspreis — zeitlich begrenzt:</h3>
+        <p>€ 49 statt € 69 — dieser Preis gilt nur für die Einführungsphase. Wer früh kauft, spart € 20 und bekommt alle zukünftigen Updates inklusive.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
