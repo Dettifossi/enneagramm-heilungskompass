@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24199,6 +24199,98 @@ function humorDer9TypenPage() {
   `);
 }
 
+function solfeggioFrequenzenPage() {
+  const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
+
+  const frequenzen = [
+    { hz: 174, titel: "Schutz und Sicherheit",
+      wirkung: "Diese tiefste der Solfeggio-Frequenzen wird oft mit der Linderung von Schmerz und Stress assoziiert. Sie soll den K\xf6rper beruhigen und Stabilit\xe4t geben.",
+      chakra: "Wirkt erdend und hilft, ein Gef\xfchl von Sicherheit zu schaffen &mdash; korrespondiert mit dem Wurzelchakra." },
+    { hz: 285, titel: "Regeneration und Heilung",
+      wirkung: "Unterst\xfctzt die Regeneration von Gewebe und Zellen und wird mit k\xf6rperlicher Heilung in Verbindung gebracht.",
+      chakra: "F\xf6rdert ein Gef\xfchl der Ganzheit und Erneuerung &mdash; der K\xf6rper wird energetisch gest\xe4rkt." },
+    { hz: 396, titel: "Befreiung von Schuld und Angst",
+      wirkung: "Diese Frequenz wird verwendet, um emotionale Blockaden zu l\xf6sen, insbesondere Schuldgef\xfchle und \xc4ngste. Sie hilft, inneren Frieden zu finden.",
+      chakra: "Unterst\xfctzt das Wurzelchakra und bringt Stabilit\xe4t und Kraft." },
+    { hz: 417, titel: "Ver\xe4nderung und Neubeginn",
+      wirkung: "Hilft dabei, alte Muster und Gewohnheiten aufzul\xf6sen, um Platz f\xfcr Wachstum zu schaffen.",
+      chakra: "St\xe4rkt das Sakralchakra und f\xf6rdert Kreativit\xe4t sowie emotionale Transformation." },
+    { hz: 528, titel: "Liebe und DNA-Heilung",
+      wirkung: "Oft als „Liebesfrequenz“ bezeichnet &mdash; soll die DNA reparieren und Liebe sowie Heilung f\xf6rdern. Sie wird mit tiefer Harmonie und Vitalit\xe4t in Verbindung gebracht.",
+      chakra: "\xd6ffnet das Herzchakra und vertieft die emotionale Verbindung." },
+    { hz: 639, titel: "Harmonie in Beziehungen",
+      wirkung: "Diese Frequenz hilft, harmonische Beziehungen aufzubauen und zwischenmenschliche Konflikte zu l\xf6sen.",
+      chakra: "Aktiviert das Herzchakra und f\xf6rdert Empathie und Verst\xe4ndnis." },
+    { hz: 741, titel: "Reinigung und Selbstausdruck",
+      wirkung: "Unterst\xfctzt bei der Reinigung von negativen Energien und Toxinen und hilft, klar zu kommunizieren.",
+      chakra: "F\xf6rdert das Kehlchakra und hilft, die eigene Wahrheit authentisch auszudr\xfccken." },
+    { hz: 852, titel: "Intuition und spirituelles Erwachen",
+      wirkung: "Sch\xe4rft die Intuition und bringt den Geist in Einklang mit h\xf6heren spirituellen Dimensionen.",
+      chakra: "\xd6ffnet das Stirnchakra und f\xf6rdert das spirituelle Bewusstsein." },
+    { hz: 963, titel: "Einheit und Verbindung mit dem Universum",
+      wirkung: "Diese Frequenz wird mit der Aktivierung der Zirbeldr\xfcse und der Erfahrung von Einheit und g\xf6ttlicher Verbundenheit in Verbindung gebracht.",
+      chakra: "\xd6ffnet das Kronenchakra und f\xf6rdert die Verbindung zur universellen Energie." },
+  ];
+
+  const kartenHTML = frequenzen.map((f, i) => `
+    <div style="margin-bottom:1.2rem;padding:1.3rem 1.5rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);">
+      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0 0 .15rem;">${f.hz} Hz</p>
+      <p style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .6rem;">${f.titel}</p>
+      <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:0 0 .4rem;"><strong>Wirkung:</strong> ${f.wirkung}</p>
+      <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:0;font-style:italic;">${f.chakra}</p>
+    </div>
+  `).join("");
+
+  const einsteinZitate = [
+    "„Alles ist Energie und das ist alles, was ist. Triff die Schwingungszahl der von dir gew\xfcnschten Realit\xe4t, und du wirst nichts als diese Realit\xe4t bekommen. Es gibt keinen anderen Weg. Das ist keine Philosophie. Das ist Physik.“",
+    "„Was Materie betrifft, haben wir uns alle geirrt. Was wir Materie genannt haben, ist Energie, deren Vibrationen derart gesenkt wurde, dass man sie mit den Sinnen wahrnehmen konnte. Materie ist Geist, der reduziert ist bis zu dem Punkt der Sichtbarkeit.“",
+    "„Alles ist vorherbestimmt, jeder Anfang, jedes Ende, durch Kr\xe4fte, \xfcber die wir keine Kontrolle haben. Es ist vorherbestimmt f\xfcr die Insekten ebenso wie f\xfcr die Sterne.“",
+  ];
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("solfeggio-frequenzen")}
+      <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
+        <p class="eyebrow">Schaubilder &middot; Klang &middot; Heilung</p>
+        <h1 class="section-title">Die 9 Solfeggio-Frequenzen</h1>
+        <p style="font-size:.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 .75rem;">Die abgebildete \xdcbersicht veranschaulicht die <strong>neun Solfeggio-Frequenzen</strong>, die eine zentrale Rolle in der Klangheilung und spirituellen Entwicklung spielen. Jeder dieser Frequenzen werden bestimmte heilende, emotionale und spirituelle Wirkungen zugeschrieben, die auf den nat\xfcrlichen Schwingungen des Universums basieren.</p>
+        <p style="font-size:.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 1.5rem;">Die Solfeggio-Frequenzen sind einfach definierte Tonfrequenzen in Hertz. Um sie h\xf6rbar zu machen, braucht man im Grunde nur ein Instrument oder Tool, das einen sauberen Sinuston oder einen m\xf6glichst reinen Klang erzeugen kann.</p>
+      </div>
+
+      <img src="${IMG}" alt="Die 9 Solfeggio-Frequenzen im Enneagramm-Kreis"
+        style="width:100%;max-width:520px;display:block;margin:0 auto 2.5rem;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.18);" loading="lazy" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);margin:0 0 1.2rem;">Die Frequenzen und ihre Bedeutung</h2>
+        ${kartenHTML}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;padding:1.5rem;background:rgba(0,0,0,0.03);border-radius:16px;">
+        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 1rem;">Praktische Anwendung</h2>
+        <p style="font-size:.9rem;line-height:1.75;color:var(--anthracite);margin:0 0 .75rem;"><strong>Meditation:</strong> Die Frequenzen k\xf6nnen durch spezielle Musik oder Kl\xe4nge in der Meditation genutzt werden, um gezielt Chakren zu harmonisieren oder emotionale Blockaden zu l\xf6sen.</p>
+        <p style="font-size:.9rem;line-height:1.75;color:var(--anthracite);margin:0 0 .75rem;"><strong>Klangheilung:</strong> Sie werden h\xe4ufig in Klangtherapien eingesetzt, etwa mit Klangschalen, Stimmgabeln oder digitalen Aufnahmen.</p>
+        <p style="font-size:.9rem;line-height:1.75;color:var(--anthracite);margin:0;"><strong>Pers\xf6nliche Transformation:</strong> In Kombination mit Enneagramm-Arbeit k\xf6nnen die Frequenzen helfen, spezifische emotionale und mentale Herausforderungen zu adressieren. Die Solfeggio-Frequenzen bieten eine kraftvolle M\xf6glichkeit, K\xf6rper, Geist und Seele in Einklang zu bringen &mdash; und k\xf6nnen bez\xfcglich der Enneagrammtypen gezielt eingesetzt werden, um emotionale, mentale und spirituelle Blockaden zu l\xf6sen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 1rem;">Alles ist Energie &mdash; Albert Einstein</h2>
+        ${einsteinZitate.map(z => `
+          <blockquote style="border-left:3px solid var(--gold);padding:.75rem 1.2rem;margin:0 0 1rem;font-style:italic;font-size:.92rem;line-height:1.75;color:var(--anthracite);">${z}</blockquote>
+        `).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        ${bookTip("wer-du-wirklich-bist-1", "Das Grundlagenwerk \xfcber die 9 Enneagrammtypen und ihre spirituellen Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"bewusstseinsuebungen", label:"Bewusstsein\xfcbungen"},
+        {route:"stille", label:"9 Minuten Stille"},
+        {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+      ])}
+    </div>
+  `);
+}
+
 function zehnAnwendungenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783721122/kompass/stille-sounds/zehn-anwendungen-schaubild.png";
   const anwendungen = [
@@ -29155,6 +29247,7 @@ function render() {
     "limericks": limericksPage,
     "haiku-der-9-typen": haikuDer9TypenPage,
     "humor-der-9-typen": humorDer9TypenPage,
+    "solfeggio-frequenzen": solfeggioFrequenzenPage,
     "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,
     "rumi-zitate": rumiZitatePage,
