@@ -26832,7 +26832,10 @@ function syntheseTierLaut(animal) {
     "adler":"se1","gans":"so1","schwarze mamba":"sx1","flusspferd":"se2",
     "golden retriever":"so2","kamel":"sx2","waschbär":"se3","gepard":"so3",
     "pfau":"sx3","taube":"se4","gürteltier":"so4","chihuahua":"sx4",
-    "eule":"se5","igel":"sx5","wolf":"sx6","schimpanse":"sx7","krokodil":"sx8"
+    "eule":"se5","oktopus":"so5","igel":"sx5","kaninchen":"se6","erdmännchen":"so6",
+    "wolf":"sx6","gorilla":"se7","biber":"so7","schimpanse":"sx7",
+    "orang-utan":"se8","löwe":"so8","krokodil":"sx8",
+    "elefant":"se9","büffel":"so9","faultier":"sx9"
   };
   const key = animal.toLowerCase().trim();
   const code = TIER_CODES[key];

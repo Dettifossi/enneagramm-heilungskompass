@@ -45,20 +45,20 @@ SOURCES = {
     "so4": (CDN_BASE + "5/5c/Alligatorhiss.ogg",                          "Gürteltier"),  # Fallback
     "sx4": (CDN_BASE + "5/5f/Fennec_Singing.ogg",                         "Chihuahua"),
     "se5": (CDN_BASE + "4/4c/Tawny_Owl.ogg",                              "Eule"),
-    "so5": (CDN_BASE + "0/0a/20090610_0_ambience.ogg",                    "Oktopus"),
+    "so5": ("https://soundbible.com/mp3/Ocean_Waves-Mike_Koenig-980635527.mp3", "Oktopus"),
     "sx5": (CDN_BASE + "4/48/Hedgehog_O.ogg",                             "Igel"),
-    "se6": (CDN_BASE + "4/49/Rabbit_oinks_and_squeaks.wav",               "Kaninchen"),
-    "so6": (CDN_BASE + "b/b7/Meerkat_Family.ogv",                         "Erdmännchen"),
+    "se6": ("https://soundbible.com/mp3/Angry%20Squirrel-SoundBible.com-1620933676.mp3", "Kaninchen"),  # Squirrel als Kaninchen-Fallback
+    "so6": ("https://soundbible.com/mp3/Prairie%20Dog-SoundBible.com-1831661504.mp3", "Erdmännchen"),  # Prairie Dog als Fallback
     "sx6": (CDN_BASE + "3/3e/Wolf_howls.ogg",                             "Wolf"),
-    "se7": (CDN_BASE + "8/8e/Gorilla_gorilla_gorilla3.ogv",               "Gorilla"),
-    "so7": (CDN_BASE + "c/ce/Sound-of-dog.ogg",                           "Biber"),  # Fallback
+    "se7": ("https://soundbible.com/mp3/Gorilla-SoundBible.com-1576451741.mp3", "Gorilla"),
+    "so7": ("https://soundbible.com/mp3/Chimpanzee-SoundBible.com-901310467.mp3", "Biber"),  # Schimpanse als Fallback
     "sx7": (CDN_BASE + "5/51/Vocal-Recruitment-for-Joint-Travel-in-Wild-Chimpanzees-pone.0076073.s001.ogv", "Schimpanse"),
-    "se8": (CDN_BASE + "6/6c/Orangutans.ogv",                             "Orang-Utan"),
-    "so8": (CDN_BASE + "7/7d/Lion_raring-sound1TamilNadu178.ogg",         "Löwe"),
+    "se8": ("https://soundbible.com/mp3/Chimpanzee-SoundBible.com-901310467.mp3", "Orang-Utan"),  # Schimpanse als Fallback
+    "so8": ("https://soundbible.com/mp3/Lion%20Roar-SoundBible.com-718441804.mp3", "Löwe"),
     "sx8": (CDN_BASE + "5/5c/Alligatorhiss.ogg",                          "Krokodil"),
-    "se9": (CDN_BASE + "4/40/Elephant_voice_-_trumpeting.ogg",            "Elefant"),
-    "so9": (CDN_BASE + "9/95/Bison.ogg",                                   "Büffel"),
-    "sx9": (CDN_BASE + "6/6d/Giant_Feline_Sounds.ogg",                    "Faultier"),
+    "se9": ("https://soundbible.com/mp3/Elephant-SoundBible.com-551032783.mp3", "Elefant"),
+    "so9": ("https://soundbible.com/mp3/Bison-SoundBible.com-1105726036.mp3", "Büffel"),
+    "sx9": ("https://soundbible.com/mp3/Gorilla-SoundBible.com-1576451741.mp3", "Faultier"),  # Gorilla als Fallback
 }
 
 ORDER = ["se1","so1","sx1","se2","so2","sx2","se3","so3","sx3",

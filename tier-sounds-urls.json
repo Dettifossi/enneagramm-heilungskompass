@@ -66,8 +66,8 @@
   },
   "so5": {
     "name": "Oktopus",
-    "url": null,
-    "source": "20090610_0_ambience.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679136/kompass/tier-sounds/so5.mp3",
+    "source": "Ocean_Waves-Mike_Koenig-980635527.mp3"
   },
   "sx5": {
     "name": "Igel",
@@ -76,13 +76,13 @@
   },
   "se6": {
     "name": "Kaninchen",
-    "url": null,
-    "source": "Rabbit_oinks_and_squeaks.wav"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679138/kompass/tier-sounds/se6.mp3",
+    "source": "Angry%20Squirrel-SoundBible.com-1620933676.mp3"
   },
   "so6": {
     "name": "Erdmännchen",
-    "url": null,
-    "source": "Meerkat_Family.ogv"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679140/kompass/tier-sounds/so6.mp3",
+    "source": "Prairie%20Dog-SoundBible.com-1831661504.mp3"
   },
   "sx6": {
     "name": "Wolf",
@@ -91,13 +91,13 @@
   },
   "se7": {
     "name": "Gorilla",
-    "url": null,
-    "source": "Gorilla_gorilla_gorilla3.ogv"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679142/kompass/tier-sounds/se7.mp3",
+    "source": "Gorilla-SoundBible.com-1576451741.mp3"
   },
   "so7": {
     "name": "Biber",
-    "url": null,
-    "source": "Sound-of-dog.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679144/kompass/tier-sounds/so7.mp3",
+    "source": "Chimpanzee-SoundBible.com-901310467.mp3"
   },
   "sx7": {
     "name": "Schimpanse",
@@ -106,13 +106,13 @@
   },
   "se8": {
     "name": "Orang-Utan",
-    "url": null,
-    "source": "Orangutans.ogv"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679146/kompass/tier-sounds/se8.mp3",
+    "source": "Chimpanzee-SoundBible.com-901310467.mp3"
   },
   "so8": {
     "name": "Löwe",
-    "url": null,
-    "source": "Lion_raring-sound1TamilNadu178.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679147/kompass/tier-sounds/so8.mp3",
+    "source": "Lion%20Roar-SoundBible.com-718441804.mp3"
   },
   "sx8": {
     "name": "Krokodil",
@@ -121,17 +121,17 @@
   },
   "se9": {
     "name": "Elefant",
-    "url": null,
-    "source": "Elephant_voice_-_trumpeting.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679149/kompass/tier-sounds/se9.mp3",
+    "source": "Elephant-SoundBible.com-551032783.mp3"
   },
   "so9": {
     "name": "Büffel",
-    "url": null,
-    "source": "Bison.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679151/kompass/tier-sounds/so9.mp3",
+    "source": "Bison-SoundBible.com-1105726036.mp3"
   },
   "sx9": {
     "name": "Faultier",
-    "url": null,
-    "source": "Giant_Feline_Sounds.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679153/kompass/tier-sounds/sx9.mp3",
+    "source": "Gorilla-SoundBible.com-1576451741.mp3"
   }
 }
