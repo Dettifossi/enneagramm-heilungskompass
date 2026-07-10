@@ -27084,7 +27084,6 @@ function _stilleInit() {
         audioCtx = new (window.AudioContext || window.webkitAudioContext)();
       if (audioCtx.state === "suspended") audioCtx.resume();
       gong(160);
-      starteKlang(gewaehlterKlang);
       resetBtn.style.display = "";
     }
     if (interval) {
