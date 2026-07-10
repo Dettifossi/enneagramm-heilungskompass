@@ -5828,6 +5828,37 @@ function tierlexikonPage() {
   `);
 }
 
+// YouTube-Dokus je Subtyp-Tier  { ytId, start (Sekunden), titel, kanal }
+const TIER_DOKU = {
+  SE1: { ytId: "P8-jQuqto9M",  start: 0, titel: "Steinadler – König der Berge",                kanal: "Natur-Doku" },
+  SO1: { ytId: "8z6KZCUcOxg",  start: 0, titel: "Die Graugans und ihre Gössel",                 kanal: "ARD / BR" },
+  SX1: { ytId: "RhEuoglzi1o",  start: 0, titel: "Schlangen Afrikas: Die Schwarze Mamba",        kanal: "Tierdoku" },
+  SE2: { ytId: "_doL68KopkI",  start: 0, titel: "Nilpferd – das gefährlichste Tier auf dem Land", kanal: "Tierdoku" },
+  SO2: { ytId: "yI_y5QQ7QvM",  start: 0, titel: "Haustier Hund – Wahnsinn oder Liebe?",         kanal: "NDR Doku" },
+  SX2: { ytId: "kKr2LCU__Pg",  start: 0, titel: "Die letzten Kamelkarawanen der Sahara",         kanal: "ARTE / GEO" },
+  SE3: { ytId: "dYP_3p6zrEw",  start: 0, titel: "Waschbären – unsere neuen Nachbarn",           kanal: "ARTE 360°" },
+  SO3: { ytId: "r3H1D2Idb5A",  start: 0, titel: "Die Geparden-Familie",                          kanal: "Tierdoku" },
+  SX3: { ytId: "1c7jyPEB_oo",  start: 0, titel: "Außergewöhnliche Balzrituale der Tierwelt",     kanal: "Real Wild Deutschland" },
+  SE4: { ytId: "BNEnB9gwFmg",  start: 0, titel: "Hamburg und die Tauben",                        kanal: "NDR Doku" },
+  SO4: { ytId: "RZKM8J1UGNA",  start: 0, titel: "Gürteltier – der gepanzerte Einzelgänger",      kanal: "Real Wild" },
+  SX4: { ytId: "jCVjIfLsOSc",  start: 0, titel: "Chihuahua im Rasseportrait",                    kanal: "Hunde-Doku" },
+  SE5: { ytId: "CZGvgZ3k6Dw",  start: 0, titel: "Waldkauz – Erfolgs-Eule",                       kanal: "Natur-Doku" },
+  SO5: { ytId: "KIlQHsYhXFo",  start: 0, titel: "Oktopusse – Genies aus der Tiefsee",            kanal: "Tierdoku" },
+  SX5: { ytId: "UVuwD1vX8yQ",  start: 0, titel: "Der Igel – Jäger in der Nacht",                 kanal: "SWR / Planet Schule" },
+  SE6: { ytId: "pVM7t9ruVTc",  start: 0, titel: "Kaninchen – Dokumentation",                     kanal: "Tierdoku" },
+  SO6: { ytId: "gLGZBbIheX0",  start: 0, titel: "Erdmännchen – Dokumentation",                   kanal: "Tierdoku" },
+  SX6: { ytId: "DTvTz-AUec0",  start: 0, titel: "Wölfe – Schützen oder schießen?",               kanal: "WDR Doku" },
+  SE7: { ytId: "J84mSjxjqQ8",  start: 0, titel: "Berggorillas – Ugandas sanfte Riesen",           kanal: "SWR / Länder Menschen Abenteuer" },
+  SO7: { ytId: "r7xFnGXlPbk",  start: 0, titel: "Die Welt der Biber",                             kanal: "Real Wild Deutschland" },
+  SX7: { ytId: "nnaR0JAv5_Q",  start: 0, titel: "Schimpansen im Kongo mit Jane Goodall",          kanal: "ARTE" },
+  SE8: { ytId: "42giu2twppw",  start: 0, titel: "Orang-Utans in Indonesien",                      kanal: "Terra X / ZDF" },
+  SO8: { ytId: "yf0rClafS0s",  start: 0, titel: "Löwen fürs Leben",                               kanal: "Tierdoku" },
+  SX8: { ytId: "T5Nsp1OfvKw",  start: 0, titel: "Krokodile – gefährliche Jäger",                  kanal: "Real Wild Deutschland" },
+  SE9: { ytId: "oNgR0rnGKA8",  start: 0, titel: "Elefanten – die Könige der Savanne",             kanal: "Tierdoku" },
+  SO9: { ytId: "6BpC3eEtrYY",  start: 0, titel: "Bisons und Wasserbüffel",                        kanal: "NDR Doku" },
+  SX9: { ytId: "NpxUVkA3Dfs",  start: 0, titel: "Costa Rica – Leben wie die Faultiere",           kanal: "ARTE / GEO Reportage" },
+};
+
 function tierlexikonDetailPage(codeRaw) {
   const code = codeRaw.toUpperCase();
   const data = TIERLEXIKON[code];
@@ -5897,6 +5928,29 @@ function tierlexikonDetailPage(codeRaw) {
       </div>
       <p style="font-size:.88rem;line-height:1.6;color:var(--muted);margin:0 0 1.8rem;padding:.8rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">${data.intro}</p>
       <div>${faktenHtml}</div>
+      ${(() => {
+        const d = TIER_DOKU[code];
+        if (!d) return "";
+        const src = `https://www.youtube.com/embed/${d.ytId}?start=${d.start}&rel=0&modestbranding=1`;
+        return `
+          <div style="margin-top:2.5rem;">
+            <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .8rem;display:flex;align-items:center;gap:.4rem;">
+              🎬 <span>Tierdoku</span>
+            </h2>
+            <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);">
+              <iframe
+                src="${src}"
+                title="${d.titel}"
+                style="position:absolute;inset:0;width:100%;height:100%;border:none;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p style="margin:.5rem 0 0;font-size:.75rem;color:var(--muted);text-align:right;">${d.titel} &middot; ${d.kanal}</p>
+          </div>
+        `;
+      })()}
     </div>
   `);
 }
