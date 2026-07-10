@@ -26840,9 +26840,11 @@ function syntheseTierLaut(animal) {
   const key = animal.toLowerCase().trim();
   const code = TIER_CODES[key];
   const BASE = "https://res.cloudinary.com/ymooybdl/video/upload/kompass/tier-sounds/";
+  const SOUND_V = {"se2":2,"se5":2,"se8":3,"sx7":2,"sx8":2,"so7":2};
 
   if (code) {
-    const audio = new Audio(`${BASE}${code}.mp3`);
+    const v = SOUND_V[code] ? `?v=${SOUND_V[code]}` : "";
+    const audio = new Audio(`${BASE}${code}.mp3${v}`);
     audio.volume = 0.85;
     audio.play().catch(() => _syntheseFallback(animal));
     return;

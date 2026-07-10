@@ -17,7 +17,7 @@
   "se2": {
     "name": "Flusspferd",
     "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679318/kompass/tier-sounds/se2.mp3",
-    "source": "Hippo.ogv"
+    "source": "Hippos%20In%20A%20River-SoundBible.com-248446379.mp3"
   },
   "so2": {
     "name": "Golden Retriever",
@@ -62,7 +62,7 @@
   "se5": {
     "name": "Eule",
     "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679319/kompass/tier-sounds/se5.mp3",
-    "source": "Tawny_Owl.ogg"
+    "source": "Owl%20Hooting-SoundBible.com-1155496330.mp3"
   },
   "so5": {
     "name": "Oktopus",
@@ -102,12 +102,12 @@
   "sx7": {
     "name": "Schimpanse",
     "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679321/kompass/tier-sounds/sx7.mp3",
-    "source": "Vocal-Recruitment-for-Joint-Travel-in-Wild-Chimpanzees-pone.0076073.s001.ogv"
+    "source": "Monkeys%20Monkeying%20Around-SoundBible.com-1738007729.mp3"
   },
   "se8": {
     "name": "Orang-Utan",
-    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679146/kompass/tier-sounds/se8.mp3",
-    "source": "Chimpanzee-SoundBible.com-901310467.mp3"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679837/kompass/tier-sounds/se8.mp3",
+    "source": "gibbon-monkey-daniel_simon.mp3"
   },
   "so8": {
     "name": "Löwe",
@@ -116,8 +116,8 @@
   },
   "sx8": {
     "name": "Krokodil",
-    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678843/kompass/tier-sounds/sx8.mp3",
-    "source": "Alligatorhiss.ogg"
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783679766/kompass/tier-sounds/sx8.mp3",
+    "source": "Alligator%20Crocodile%20Growl-SoundBible.com-723655949.mp3"
   },
   "se9": {
     "name": "Elefant",
