@@ -24117,7 +24117,7 @@ function sucheNachLiebePage() {
 }
 
 function haikuDer9TypenPage() {
-  const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783718378/kompass/stille-sounds/haiku-japanische-frau.jpg";
+  const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783719838/kompass/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
     { nr:1, col:"#5f5f5f", typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
     { nr:2, col:"#7a2fa8", typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du z\xe4hlst.","Liebe dich zuerst."] },
@@ -24144,7 +24144,9 @@ function haikuDer9TypenPage() {
       <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
         <p class="eyebrow">Schaubilder &middot; Poesie &middot; Die 9 Typen</p>
         <h1 class="section-title">Haiku der 9 Enneagrammtypen</h1>
-        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.5rem;">Das Haiku ist die k\xfcrzeste Gedichtform der Welt &mdash; drei Zeilen, ein Moment, eine Wahrheit. Jedes dieser neun Haiku h\xe4lt den Kern eines Enneagrammtyps fest: seine Leidenschaft, seine Wunde und einen leisen Hinweis auf den Weg dar\xfcber hinaus.</p>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 0.8rem;">Das Haiku (japanisch 俳句; Plural: Haiku, auch: Haikus) ist eine traditionelle japanische Gedichtform, die heute weltweit verbreitet ist &mdash; und gilt als die k\xfcrzeste Gedichtform der Welt.</p>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 0.8rem;">Ein Haiku besteht aus drei Versen mit f\xfcnf, sieben und f\xfcnf Lauteinheiten (sogenannte <em>Moren</em>). Im Deutschen werden diese oft als Silben gez\xe4hlt. Die erste Zeile benennt zumeist einen konkreten Sachverhalt &mdash; h\xe4ufig eine Jahreszeit &mdash; und hat einen unmittelbaren Bezug zur Gegenwart, zum <em>Hier und Jetzt</em>.</p>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 1.5rem;">Jedes der folgenden neun Haiku h\xe4lt den Kern eines Enneagrammtyps fest: seine Leidenschaft, seine Wunde und einen leisen Hinweis auf den Weg dar\xfcber hinaus.</p>
       </div>
 
       <img src="${HAIKU_IMG}" alt="Japanische Frau in Landschaft &mdash; Haiku der 9 Enneagrammtypen"
