@@ -4783,7 +4783,7 @@ function _portraitTypPage(typ) {
   const bilder = Array.from({length: 8}, (_, i) => {
     const nr = String(typ.start + i).padStart(3, "0");
     return `<div class="psycho-img-wrap" style="margin-bottom:1.5rem;">
-      <img src="assets/schaubilder/portraits-typen/Portraits der 9 Typen und 27 Subtypen.${nr}.jpeg"
+      <img src="assets/schaubilder/portraits-typen/Portraits der 9 Typen und 27 Subtypen.${nr}.png"
            alt="Portrait Typ ${typ.nr} – Seite ${i+1}" class="psycho-img" loading="lazy"/>
     </div>`;
   }).join("");
