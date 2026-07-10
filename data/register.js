@@ -128,6 +128,7 @@ export const registerEntries = [
   { term: "Liebesverhalten der 9 Typen", route: "liebesverhalten",     description: "Schaubild: Liebessprachen & Bed\xfcrfnisse in Beziehungen je Typ" },
   { term: "Leidenschaft",            route: "gifte-des-geistes",        description: "Schaubild: die neun Hauptleidenschaften" },
   { term: "Limericks",               route: "limericks",                description: "Die 9 Enneagrammtypen als rhythmische F\xfcnfzeiler mit transformierender Pointe" },
+  { term: "Haiku der 9 Typen",      route: "haiku-der-9-typen",        description: "Neun japanische Kurzgedichte — je ein Haiku h\xe4lt den Kern eines Enneagrammtyps fest." },
   { term: "Lookalike-Typen",         route: "lookalike-typen",          description: "Schaubild: häufig verwechselte Typen im Vergleich" },
   { term: "Löwe",                    route: "tierlexikon/so8",              description: "Tierarchetyp des SO8 · Typ 8 · Bauchzentrum" },
 

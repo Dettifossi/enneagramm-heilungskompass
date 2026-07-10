@@ -2353,6 +2353,7 @@ export const uiText = {
       { route: "lebensgluck", label: "Lebensgl\xfcck" },
       { route: "liebesverhalten", label: "Liebesverhalten der 9 Typen" },
       { route: "limericks", label: "Limericks" },
+      { route: "haiku-der-9-typen", label: "Haiku der 9 Typen" },
       { route: "lookalike-typen", label: "Lookalike-Typen" },
       { route: "machtverhalten", label: "Machtverhalten der 9 Typen" },
       { route: "mangelgefuehle", label: "Mangelgef\xfchle" },

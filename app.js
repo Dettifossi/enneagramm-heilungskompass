@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-05-beziehungskompass-v164";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-10-haiku-v170";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24116,6 +24116,70 @@ function sucheNachLiebePage() {
   `);
 }
 
+function haikuDer9TypenPage() {
+  const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783718378/kompass/stille-sounds/haiku-japanische-frau.jpg";
+  const haiku = [
+    { nr:1, typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
+    { nr:2, typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du zählst.","Liebe dich zuerst."] },
+    { nr:3, typ:"Der Macher",        zeilen:["Erfolg glänzt so hell,","doch wer bist du, wenn es schweigt?","Zeig dein wahres Herz."] },
+    { nr:4, typ:"Der Individualist", zeilen:["Sehnsucht nach dem Sinn,","doch Schönheit wohnt tief in dir.","Erkenne dich selbst."] },
+    { nr:5, typ:"Der Beobachter",    zeilen:["Stille Gedanken,","Wissen ist unendlich weit —","doch Wärme heilt mehr."] },
+    { nr:6, typ:"Der Loyalist",      zeilen:["Zweifel nagt leise,","doch dein Herz kennt die Antwort.","Vertraue dem Mut."] },
+    { nr:7, typ:"Der Enthusiast",    zeilen:["Bunte Wege rufen,","doch im Jetzt blüht die Freude.","Halte inne, sieh."] },
+    { nr:8, typ:"Der Beschützer",    zeilen:["Stärke zeigt die Macht,","doch Sanftheit birgt wahre Kraft.","Lass dein Herz erblühn."] },
+    { nr:9, typ:"Der Vermittler",    zeilen:["Stille Harmonie —","doch sprich: die Welt will dich hörn.","Dein Wort schenkt Frieden."] },
+  ];
+  const haikuHTML = haiku.map(h => `
+    <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);text-align:center;">
+      <p style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 .3rem;">Typ ${h.nr}</p>
+      <p style="font-size:.92rem;font-weight:700;color:var(--ink);margin:0 0 1.1rem;">${h.typ}</p>
+      <div style="font-size:1.08rem;line-height:2.1;color:var(--ink);font-style:italic;">
+        ${h.zeilen.map(z => `<span style="display:block;">${z}</span>`).join("")}
+      </div>
+    </div>
+  `).join("");
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Haiku der 9 Enneagrammtypen", "Schaubilder · Poesie")}
+      <p class="psycho-intro">Das Haiku ist die kürzeste Gedichtform der Welt — drei Zeilen, ein Moment, eine Wahrheit. Jedes dieser neun Haiku hält den Kern eines Enneagrammtyps fest: seine Leidenschaft, seine Wunde und einen leisen Hinweis auf den Weg darüber hinaus.</p>
+
+      <img src="${HAIKU_IMG}" alt="Japanische Frau in Landschaft — Haiku der 9 Enneagrammtypen"
+        style="width:100%;max-width:620px;display:block;margin:0 auto 2rem;border-radius:14px;border:2px solid var(--gold,#c8a84b);" />
+
+      <div class="vb-section" style="max-width:100%;">
+        ${haikuHTML}
+      </div>
+
+      <div style="margin:2.5rem 0 1rem;">
+        <p style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:1.2rem;">Der Haiku-Song · alle 9 Typen</p>
+        <p style="font-size:.92rem;font-weight:600;color:var(--ink);text-align:center;margin:0 0 .6rem;">🇩🇪 Deutsch</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin-bottom:1.5rem;">
+          <iframe src="https://www.youtube.com/embed/nVoATnACLyg"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" title="Haiku-Song Deutsch"></iframe>
+        </div>
+        <p style="font-size:.92rem;font-weight:600;color:var(--ink);text-align:center;margin:0 0 .6rem;">🇬🇧 English</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin-bottom:2rem;">
+          <iframe src="https://www.youtube.com/embed/c4NAtdSJc7U"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" title="Haiku Song English"></iframe>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie.", "Wer du wirklich bist – Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"limericks", label:"Die 9 Enneagramm-Limericks"},
+        {route:"rumi-zitate", label:"Rumi-Zitate der 9 Typen"},
+        {route:"zitate-der-weisen", label:"Zitate der Weisen"},
+      ])}
+    </div>
+  `);
+}
+
 function rumiZitatePage() {
   const zitate = [
     { nr: 1, zitat: "Jenseits von richtig und falsch gibt es einen Ort. Hier können wir einander begegnen.", erklaerung: "Typ 1 lebt in einer Welt klarer Unterscheidungen: richtig oder falsch, gut oder schlecht. Rumi zeigt den Ausweg: Es gibt einen Raum jenseits dieser Urteile. Genau dort beginnt die Heilung des Reformers &ndash; wenn er aufhört, alles zu bewerten, und stattdessen einfach begegnet." },
@@ -28914,6 +28978,7 @@ function render() {
     "hunderassen": hunderassenPage,
     "verantwortung": verantwortungPage,
     "limericks": limericksPage,
+    "haiku-der-9-typen": haikuDer9TypenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,
     "rumi-zitate": rumiZitatePage,
     "suche-nach-liebe": sucheNachLiebePage,
