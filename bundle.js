@@ -27125,7 +27125,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings from Freesound (uploaded to Cloudinary)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund"]);
     if (REAL_SOUNDS.has(id)) {
       const TRIM_3MIN = new Set(["gewitter","blizzard"]);
       const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/" : "";
@@ -28143,9 +28143,9 @@ function _stilleInit() {
   };
   const KLANG_INFO = {
     stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
-    white:       "🎧 White Noise: gleichmäßiges Rauschen über alle Frequenzen — wie ein Ventilator. Perfekt, um laute Nachbarn oder Straßenlärm komplett zu blockieren.",
-    pink:        "🎧 Pink Noise: ähnlich White, aber wärmer und bassiger. Sehr beliebt zum Einschlafen — natürlicher für die Ohren als weißes Rauschen.",
-    brown:       "🎧 Brown Noise: tiefes, sattes Rauschen — wie starker Regen oder ein Wasserkocher von weitem. Extrem beruhigend für ein überaktives Gehirn (ADHS-Geheimtipp).",
+    white:       "🌊 Natural White Noise: ein schottischer Wasserfall, aufgenommen im Wald — breites, gleichmäßiges Rauschen über alle Frequenzen. Perfekt, um Lärm zu blockieren und den Fokus zu halten.",
+    pink:        "🌧️ Natural Pink Noise: starker Regen auf ein Dachfenster — wärmer und bassiger als weißes Rauschen. Sehr beliebt zum Einschlafen, angenehmer für die Ohren als synthetisches Rauschen.",
+    brown:       "🌲 Natural Brown Noise: schwerer Herbststurm in schwedischen Kiefernwäldern — tiefes, sattes Baumkronen-Rauschen. Extrem beruhigend für ein überaktives Gehirn (ADHS-Geheimtipp).",
     regen:       "Regengeräusche: gleichmäßiges Prasseln, gelegentlich einzelne Tropfen.",
     meer:        "Meeresrauschen: Wellen, die kommen und gehen — rhythmisch und beruhigend.",
     wasserfall:  "Wasserfall: konstantes Rauschen fließenden Wassers.",
