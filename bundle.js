@@ -10,7 +10,7 @@ import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=8";
 import { registerEntries } from "./data/register.js?v=20";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
-import { TIERLEXIKON } from "./data/tierlexikon.js?v=7";
+import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
 
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
 const app = document.querySelector("#app");
