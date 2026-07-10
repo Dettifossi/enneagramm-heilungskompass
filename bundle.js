@@ -4816,7 +4816,7 @@ function portraitsWegbegleiterPage() {
       { label: "Ennea Podcast",     url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpa_emzY7AAtPvfIEvJvO-3P" },
       { label: "Ennea Shorts",      url: "https://www.youtube.com/@davidlaurinrathmer/shorts" },
     ]},
-    { nr: "006", alt: "David L. Rathmer – Portrait" },
+    { nr: "006", alt: "Enneagrammlehrer Dr. Claudio Naranjo (1932–2019)", video: { id: "Xuwgwefqff0", label: "Enneagramm und berühmte Komponisten – Dr. Claudio Naranjo" } },
     { nr: "007", alt: "Claudio Naranjo – Portrait" },
     { nr: "008", alt: "Claudio Naranjo – Portrait" },
     { nr: "009", alt: "Claudio Naranjo – Portrait" },
@@ -4837,6 +4837,15 @@ function portraitsWegbegleiterPage() {
         style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.55rem 1.1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.9rem;text-decoration:none;font-weight:600;">
         ▶ ${l.label}
       </a>`).join("")}
+    </div>` : ""}
+    ${b.video ? `
+    <div style="margin-bottom:2rem;">
+      <p style="font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin-bottom:0.6rem;">▶ ${b.video.label}</p>
+      <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${b.video.id}?rel=0"
+          allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
     </div>` : ""}
   `).join("");
 
