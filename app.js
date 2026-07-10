@@ -26858,6 +26858,7 @@ function stillePage() {
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
           </button>`).join("")}
         </div>
+        <div id="stille-klang-tags" style="display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;min-height:1.6rem;margin:.5rem 0 0;"></div>
         <p id="stille-klang-info" style="margin:.7rem 0 0;font-size:0.8rem;color:var(--ink-muted);min-height:1.4em;text-align:center;font-style:italic;">Komplette Stille — nur Gong am Anfang und Ende.</p>
       </div>
 
@@ -28106,6 +28107,40 @@ function _stilleInit() {
   }
 
   // Klang-Buttons
+  const KLANG_TAGS = {
+    stille:      ["Tiefe Einkehr", "Vollpräsenz", "Klarheit"],
+    white:       ["Lärm blockieren", "Konzentration", "Einschlafen"],
+    pink:        ["Einschlafen", "Entspannung", "Lärm dämpfen"],
+    brown:       ["ADHS", "Grübeln stoppen", "Tiefenentspannung"],
+    regen:       ["Stress abbauen", "Einschlafen", "Loslassen"],
+    meer:        ["Loslassen", "Urlaubs-Gefühl", "Atemrhythmus"],
+    wasserfall:  ["Fokus", "Gedanken beruhigen", "Kraft tanken"],
+    wind:        ["Loslassen", "Freiheit", "Meditation"],
+    feuer:       ["Geborgenheit", "Wärme", "Entspannung"],
+    gewitter:    ["Katharsis", "Reinigung", "Tiefschlaf"],
+    wald:        ["Waldbaden", "Regeneration", "Stressabbau"],
+    hoehle:      ["Tiefe Meditation", "Abgeschlossenheit", "Trance"],
+    sommerregen: ["Grübeln stoppen", "Einschlafen", "Innerer Frieden"],
+    voegel:      ["Morgenfrische", "Neubeginn", "Lebensfreude"],
+    bach:        ["Mentaler Fluss", "Loslassen", "Gedanken klären"],
+    wiese:       ["Urlaubs-Gefühl", "Wärme", "Erdung"],
+    blizzard:    ["Geborgenheit", "Schutzgefühl", "Einschlafen"],
+    trommel:     ["Erdung", "Zentrierung", "Trance"],
+    chimes:      ["Achtsamkeit", "Hier & Jetzt", "Fokus"],
+    kosmos:      ["Tiefe Meditation", "Trance", "Loslassen"],
+    cafe:        ["Konzentration", "Kreativität", "Fokus"],
+    zug:         ["Einschlafen", "Nostalgie", "Entspannung"],
+    katze:       ["Blutdruck senken", "Geborgenheit", "Tiefenentspannung"],
+    geborgen:    ["Urvertrauen", "Tiefe Sicherheit", "Tiefenentspannung"],
+    wal:         ["Theta-Wellen", "Tiefe Meditation", "Loslassen"],
+    delfin:      ["Blockaden lösen", "Lebensfreude", "Mentale Freiheit"],
+    grosskatze:  ["Urvertrauen", "Stärke", "Geborgenheit"],
+    bienen:      ["Erdung", "Grübeln stoppen", "Hypnotisch"],
+    kuckuck:     ["Frühlingsgefühl", "Waldfrieden", "Nostalgie"],
+    eule:        ["Einschlafen", "Nachtmeditation", "Mystik"],
+    wolf:        ["Wildnis", "Freiheit", "Verbundenheit"],
+    seehund:     ["Tiefe Berührung", "Geborgenheit", "Loslassen"],
+  };
   const KLANG_INFO = {
     stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
     white:       "🎧 White Noise: gleichmäßiges Rauschen über alle Frequenzen — wie ein Ventilator. Perfekt, um laute Nachbarn oder Straßenlärm komplett zu blockieren.",
@@ -28149,6 +28184,13 @@ function _stilleInit() {
       btn.style.borderColor = "var(--copper)"; btn.style.background = "var(--paper)";
       gewaehlterKlang = btn.dataset.klang;
       if (infoEl) infoEl.textContent = KLANG_INFO[gewaehlterKlang] || "";
+      const tagsEl = document.getElementById("stille-klang-tags");
+      if (tagsEl) {
+        const tags = KLANG_TAGS[gewaehlterKlang] || [];
+        tagsEl.innerHTML = tags.map(t =>
+          `<span style="font-size:.72rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
+        ).join("");
+      }
       // Vorschau wenn Timer bereits läuft
       if (laedt && interval) starteKlang(gewaehlterKlang);
     });
