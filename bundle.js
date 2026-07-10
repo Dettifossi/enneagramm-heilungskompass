@@ -5830,7 +5830,7 @@ function tierlexikonPage() {
 
 // YouTube-Dokus je Subtyp-Tier  { ytId, start (Sekunden), titel, kanal }
 const TIER_DOKU = {
-  SE1: { ytId: "OcVR-revbiw",  start: 0, titel: "Seeadler – König der Lüfte",                   kanal: "OLI's Wilde Welt / SWR" },
+  SE1: { ytId: "MsgEyukOru4",  start: 0, titel: "Bedrohte Steinadler im Nationalpark",            kanal: "Terra X / ZDF" },
   SO1: { ytId: "8z6KZCUcOxg",  start: 0, titel: "Die Graugans und ihre Gössel",                  kanal: "ARD / BR" },
   SX1: { ytId: "ScMSj29cn7E",  start: 0, titel: "Schwarze Mamba – Der Kuss des Todes",           kanal: "Tierdoku" },
   SE2: { ytId: "_doL68KopkI",  start: 0, titel: "Nilpferd – das gefährlichste Tier auf dem Land", kanal: "Tierdoku" },
