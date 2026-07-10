@@ -5822,7 +5822,6 @@ function tierlexikonPage() {
       ">
         ${buttons}
       </div>
-      <p style="font-size:.78rem;color:var(--muted);text-align:center;margin-top:.5rem;">Ausgegraut = Fakten folgen in Kürze</p>
     </div>
   `);
 }
