@@ -26827,6 +26827,26 @@ function stillePage() {
 }
 
 function syntheseTierLaut(animal) {
+  // Codes mit echten Cloudinary-Audiodateien (schrittweise ergänzt)
+  const TIER_CODES = {
+    "adler":"se1","gans":"so1","flusspferd":"se2","golden retriever":"so2",
+    "waschbär":"se3","pfau":"sx3","taube":"se4","eule":"se5","igel":"sx5",
+    "wolf":"sx6","schimpanse":"sx7"
+  };
+  const key = animal.toLowerCase().trim();
+  const code = TIER_CODES[key];
+  const BASE = "https://res.cloudinary.com/ymooybdl/video/upload/kompass/tier-sounds/";
+
+  if (code) {
+    const audio = new Audio(`${BASE}${code}.mp3`);
+    audio.volume = 0.85;
+    audio.play().catch(() => _syntheseFallback(animal));
+    return;
+  }
+  _syntheseFallback(animal);
+}
+
+function _syntheseFallback(animal) {
   try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
     if (ctx.state === "suspended") ctx.resume();
@@ -26866,155 +26886,48 @@ function syntheseTierLaut(animal) {
       src.connect(lp); lp.connect(g); g.connect(master); src.start(start);
     }
 
-    const a = animal.toLowerCase().replace(/ü/g, "u").replace(/ö/g, "o").replace(/ä/g, "a").replace(/ß/g, "ss");
+    const a = animal.toLowerCase()
+      .replace(/ü/g,"u").replace(/ö/g,"o").replace(/ä/g,"a").replace(/ß/g,"ss");
 
-    if (a.includes("adler")) {
-      // Eagle: descending screech
-      osc("sawtooth", 2800, 0.6, t, 0.8, 800);
-      osc("sawtooth", 2800, 0.3, t + 0.05, 0.75, 820);
+    if (a.includes("schwarze mamba")||a.includes("mamba")||a.includes("schlange"))
+      noiseBurst(0.8,t,1.8,2000,12000);
+    else if (a.includes("kamel"))
+      { osc("sawtooth",180,0.6,t,1.5,120); for(let i=0;i<12;i++) osc("sine",180+Math.random()*40,0.15,t+i*0.12,0.1); }
+    else if (a.includes("gepard")||a.includes("cheetah"))
+      [0,0.25,0.5].forEach(d => osc("sine",1200,0.5,t+d,0.18,900));
+    else if (a.includes("gurteltier")||a.includes("armadillo"))
+      { for(let i=0;i<6;i++) noiseBurst(0.4,t+i*0.1,0.05,500,3000); osc("sine",1800,0.3,t+0.7,0.25,2200); }
+    else if (a.includes("chihuahua"))
+      [0,0.35,0.7].forEach(d => { osc("sawtooth",1800,0.5,t+d,0.15,1200); noiseBurst(0.4,t+d,0.12,800,4000); });
+    else if (a.includes("oktopus"))
+      { for(let i=0;i<12;i++) osc("sine",300+Math.random()*400,0.15,t+Math.random()*2,0.12); noiseBurst(0.2,t,2.5,100,600); }
+    else if (a.includes("kaninchen")||a.includes("rabbit"))
+      [0,0.3,0.6].forEach(d => thump(0.8,t+d,180));
+    else if (a.includes("erdmannchen")||a.includes("meerkat"))
+      for(let i=0;i<6;i++) osc("square",1400+i*60,0.4,t+i*0.15,0.12);
+    else if (a.includes("gorilla"))
+      { [0,0.18,0.36,0.55,0.75].forEach(d => thump(1.0,t+d,250)); osc("sawtooth",100,0.4,t,2.0,80); }
+    else if (a.includes("biber")||a.includes("beaver"))
+      { thump(1.0,t,300); noiseBurst(0.6,t,0.6,200,2000); }
+    else if (a.includes("orang"))
+      { osc("square",2200,0.5,t,0.3,1800); osc("sawtooth",120,0.4,t+0.5,1.5,90); noiseBurst(0.3,t+0.5,1.2,80,400); }
+    else if (a.includes("lowe")||a.includes("lion"))
+      { noiseBurst(0.9,t,2.5,60,600); osc("sawtooth",90,0.7,t,2.0,60); }
+    else if (a.includes("krokodil")||a.includes("croc"))
+      { noiseBurst(0.6,t,2.0,80,600); osc("sawtooth",70,0.5,t,2.0,55); }
+    else if (a.includes("elefant")||a.includes("elephant"))
+      { osc("sawtooth",300,0.8,t,0.6,1800); noiseBurst(0.4,t+0.4,0.5,500,5000); }
+    else if (a.includes("buffel")||a.includes("buffalo")||a.includes("bison"))
+      { noiseBurst(0.7,t,0.6,150,1000); osc("sawtooth",140,0.5,t,0.8,100); }
+    else if (a.includes("faultier")||a.includes("sloth"))
+      osc("sine",700,0.5,t,2.5,400);
+    else
+      osc("sine",800,0.5,t,0.5,600);
 
-    } else if (a.includes("gans")) {
-      // Goose: nasal honk ×3
-      [0, 0.5, 1.0].forEach(d => { osc("sawtooth", 400, 0.5, t + d, 0.35, 320); osc("square", 200, 0.2, t + d, 0.35, 160); });
-
-    } else if (a.includes("mamba") || a.includes("schlange")) {
-      // Mamba: sustained hiss
-      noiseBurst(0.8, t, 1.8, 2000, 12000);
-
-    } else if (a.includes("flusspferd") || a.includes("hippo")) {
-      // Hippo: deep bellow
-      osc("sawtooth", 80, 0.8, t, 1.2, 50);
-      osc("sawtooth", 90, 0.4, t + 0.1, 1.0, 55);
-      noiseBurst(0.5, t, 0.8, 60, 300);
-
-    } else if (a.includes("golden") || a.includes("retriever")) {
-      // Dog bark ×2
-      [0, 0.6].forEach(d => {
-        noiseBurst(0.7, t + d, 0.18, 300, 2500);
-        osc("sawtooth", 700, 0.5, t + d, 0.18, 400);
-      });
-
-    } else if (a.includes("kamel")) {
-      // Camel: gurgling bellow
-      osc("sawtooth", 180, 0.6, t, 1.5, 120);
-      for (let i = 0; i < 12; i++) {
-        const tt = t + i * 0.12;
-        osc("sine", 180 + Math.random() * 40, 0.15, tt, 0.1);
-      }
-
-    } else if (a.includes("waschbar")) {
-      // Raccoon: rapid chattering
-      for (let i = 0; i < 8; i++) osc("square", 900 + i * 80, 0.35, t + i * 0.09, 0.07);
-
-    } else if (a.includes("gepard") || a.includes("cheetah")) {
-      // Cheetah chirp (not a roar)
-      [0, 0.25, 0.5].forEach(d => { osc("sine", 1200, 0.5, t + d, 0.18, 900); });
-
-    } else if (a.includes("pfau")) {
-      // Peacock: loud wailing screech
-      osc("sawtooth", 600, 0.7, t, 0.6, 900);
-      osc("sawtooth", 600, 0.7, t + 0.8, 0.6, 900);
-      noiseBurst(0.3, t, 0.5, 500, 3000);
-
-    } else if (a.includes("taube")) {
-      // Dove coo: soft warbling
-      [0, 0.6, 1.2].forEach(d => { osc("sine", 420, 0.35, t + d, 0.4, 390); osc("sine", 840, 0.1, t + d, 0.4, 780); });
-
-    } else if (a.includes("gurteltier") || a.includes("armadillo")) {
-      // Armadillo: scuttling clicks + squeak
-      for (let i = 0; i < 6; i++) noiseBurst(0.4, t + i * 0.1, 0.05, 500, 3000);
-      osc("sine", 1800, 0.3, t + 0.7, 0.25, 2200);
-
-    } else if (a.includes("chihuahua")) {
-      // Chihuahua: high yappy bark ×3
-      [0, 0.35, 0.7].forEach(d => { osc("sawtooth", 1800, 0.5, t + d, 0.15, 1200); noiseBurst(0.4, t + d, 0.12, 800, 4000); });
-
-    } else if (a.includes("eule") || a.includes("owl")) {
-      // Owl: deep hoot ×2
-      [0, 1.2].forEach(d => { osc("sine", 260, 0.6, t + d, 0.7, 230); osc("sine", 520, 0.15, t + d, 0.7, 460); });
-
-    } else if (a.includes("oktopus")) {
-      // Octopus (silent): underwater bubbles
-      for (let i = 0; i < 12; i++) {
-        const tt = t + Math.random() * 2;
-        osc("sine", 300 + Math.random() * 400, 0.15, tt, 0.12 + Math.random() * 0.1, undefined);
-      }
-      noiseBurst(0.2, t, 2.5, 100, 600);
-
-    } else if (a.includes("igel") || a.includes("hedgehog")) {
-      // Hedgehog: snuffling — soft noise bursts
-      for (let i = 0; i < 5; i++) noiseBurst(0.5, t + i * 0.25, 0.18, 200, 1500);
-
-    } else if (a.includes("kaninchen") || a.includes("rabbit")) {
-      // Rabbit: foot thumps
-      [0, 0.3, 0.6].forEach(d => thump(0.8, t + d, 180));
-
-    } else if (a.includes("erdmannchen") || a.includes("meerkat")) {
-      // Meerkat: alarm chirp series
-      for (let i = 0; i < 6; i++) osc("square", 1400 + i * 60, 0.4, t + i * 0.15, 0.12);
-
-    } else if (a.includes("wolf")) {
-      // Wolf howl: rising then sustained
-      osc("sawtooth", 200, 0.5, t, 3.0, 600);
-      osc("sawtooth", 400, 0.2, t + 0.3, 2.5, 900);
-
-    } else if (a.includes("gorilla")) {
-      // Gorilla: chest beats + low growl
-      [0, 0.18, 0.36, 0.55, 0.75].forEach(d => thump(1.0, t + d, 250));
-      osc("sawtooth", 100, 0.4, t, 2.0, 80);
-
-    } else if (a.includes("biber") || a.includes("beaver")) {
-      // Beaver: tail slap on water
-      thump(1.0, t, 300);
-      noiseBurst(0.6, t, 0.6, 200, 2000);
-
-    } else if (a.includes("schimpanse") || a.includes("chimp")) {
-      // Chimp: pant-hoot
-      for (let i = 0; i < 6; i++) { osc("sawtooth", 500 + i * 80, 0.5, t + i * 0.2, 0.15, 300); }
-      osc("sawtooth", 900, 0.6, t + 1.4, 0.6, 1400);
-
-    } else if (a.includes("orang") || a.includes("utan")) {
-      // Orangutan: kiss-squeak + low grumble
-      osc("square", 2200, 0.5, t, 0.3, 1800);
-      osc("sawtooth", 120, 0.4, t + 0.5, 1.5, 90);
-      noiseBurst(0.3, t + 0.5, 1.2, 80, 400);
-
-    } else if (a.includes("lowe") || a.includes("lion")) {
-      // Lion: roar
-      noiseBurst(0.9, t, 2.5, 60, 600);
-      osc("sawtooth", 90, 0.7, t, 2.0, 60);
-      osc("sawtooth", 180, 0.3, t + 0.1, 1.8, 120);
-
-    } else if (a.includes("krokodil") || a.includes("croc")) {
-      // Crocodile: low hiss/rumble
-      noiseBurst(0.6, t, 2.0, 80, 600);
-      osc("sawtooth", 70, 0.5, t, 2.0, 55);
-
-    } else if (a.includes("elefant") || a.includes("elephant")) {
-      // Elephant: trumpet — ascending burst
-      osc("sawtooth", 300, 0.8, t, 0.6, 1800);
-      osc("sawtooth", 600, 0.4, t, 0.55, 2400);
-      noiseBurst(0.4, t + 0.4, 0.5, 500, 5000);
-
-    } else if (a.includes("buffel") || a.includes("buffalo")) {
-      // Buffalo: deep snort
-      noiseBurst(0.7, t, 0.6, 150, 1000);
-      osc("sawtooth", 140, 0.5, t, 0.8, 100);
-
-    } else if (a.includes("faultier") || a.includes("sloth")) {
-      // Sloth: slow eerie squeal
-      osc("sine", 700, 0.5, t, 2.5, 400);
-      osc("sine", 1400, 0.15, t + 0.5, 2.0, 800);
-
-    } else {
-      // Fallback: generic chirp
-      osc("sine", 800, 0.5, t, 0.5, 600);
-    }
-
-    // Auto-close context after 5 s
     setTimeout(() => { try { ctx.close(); } catch(e) {} }, 5000);
   } catch(e) {}
 }
+
 
 function _stilleInit() {
   const DAUER = 9 * 60;

@@ -1,0 +1,137 @@
+{
+  "se1": {
+    "name": "Adler",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678133/kompass/tier-sounds/se1.mp3",
+    "source": "Bald_Eagle_Yellowstone_National_Park.ogg"
+  },
+  "so1": {
+    "name": "Gans",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678135/kompass/tier-sounds/so1.mp3",
+    "source": "Geese_Honking_(loud).ogg"
+  },
+  "sx1": {
+    "name": "Schwarze Mamba",
+    "url": null,
+    "source": "Alligatorhiss.ogg"
+  },
+  "se2": {
+    "name": "Flusspferd",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678139/kompass/tier-sounds/se2.mp3",
+    "source": "Hippo.ogv"
+  },
+  "so2": {
+    "name": "Golden Retriever",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783677933/kompass/tier-sounds/so2.mp3",
+    "source": "Barking_of_a_dog_2.ogg"
+  },
+  "sx2": {
+    "name": "Kamel",
+    "url": null,
+    "source": "Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-(Acinonyx-pone.0158546.s001.oga"
+  },
+  "se3": {
+    "name": "Waschbär",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678144/kompass/tier-sounds/se3.mp3",
+    "source": "Baby_Raccoon_Chatter_1.flac"
+  },
+  "so3": {
+    "name": "Gepard",
+    "url": null,
+    "source": "Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-(Acinonyx-pone.0158546.s001.oga"
+  },
+  "sx3": {
+    "name": "Pfau",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678147/kompass/tier-sounds/sx3.mp3",
+    "source": "Pavo_cristatus_(call).ogg"
+  },
+  "se4": {
+    "name": "Taube",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678149/kompass/tier-sounds/se4.mp3",
+    "source": "Dove_cooing.ogg"
+  },
+  "so4": {
+    "name": "Gürteltier",
+    "url": null,
+    "source": "Sound-of-dog.ogg"
+  },
+  "sx4": {
+    "name": "Chihuahua",
+    "url": null,
+    "source": "Fennec_Singing.ogg"
+  },
+  "se5": {
+    "name": "Eule",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678154/kompass/tier-sounds/se5.mp3",
+    "source": "Tawny_Owl.ogg"
+  },
+  "so5": {
+    "name": "Oktopus",
+    "url": null,
+    "source": "20090610_0_ambience.ogg"
+  },
+  "sx5": {
+    "name": "Igel",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678157/kompass/tier-sounds/sx5.mp3",
+    "source": "Hedgehog_O.ogg"
+  },
+  "se6": {
+    "name": "Kaninchen",
+    "url": null,
+    "source": "Rabbit_oinks_and_squeaks.wav"
+  },
+  "so6": {
+    "name": "Erdmännchen",
+    "url": null,
+    "source": "Meerkat_Family.ogv"
+  },
+  "sx6": {
+    "name": "Wolf",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678161/kompass/tier-sounds/sx6.mp3",
+    "source": "Wolf_howls.ogg"
+  },
+  "se7": {
+    "name": "Gorilla",
+    "url": null,
+    "source": "Gorilla_gorilla_gorilla3.ogv"
+  },
+  "so7": {
+    "name": "Biber",
+    "url": null,
+    "source": "Sound-of-dog.ogg"
+  },
+  "sx7": {
+    "name": "Schimpanse",
+    "url": "https://res.cloudinary.com/ymooybdl/video/upload/v1783678165/kompass/tier-sounds/sx7.mp3",
+    "source": "Vocal-Recruitment-for-Joint-Travel-in-Wild-Chimpanzees-pone.0076073.s001.ogv"
+  },
+  "se8": {
+    "name": "Orang-Utan",
+    "url": null,
+    "source": "Orangutans.ogv"
+  },
+  "so8": {
+    "name": "Löwe",
+    "url": null,
+    "source": "Lion_raring-sound1TamilNadu178.ogg"
+  },
+  "sx8": {
+    "name": "Krokodil",
+    "url": null,
+    "source": "Alligatorhiss.ogg"
+  },
+  "se9": {
+    "name": "Elefant",
+    "url": null,
+    "source": "Elephant_voice_-_trumpeting.ogg"
+  },
+  "so9": {
+    "name": "Büffel",
+    "url": null,
+    "source": "Bison.ogg"
+  },
+  "sx9": {
+    "name": "Faultier",
+    "url": null,
+    "source": "Giant_Feline_Sounds.ogg"
+  }
+}
