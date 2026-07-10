@@ -26774,6 +26774,13 @@ function stillePage() {
             {id:"zug",         icon:"🚂",  label:"Zug"},
             {id:"katze",       icon:"🐱",  label:"Katze"},
             {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
+            {id:"wal",         icon:"🐋",  label:"Walgesang"},
+            {id:"delfin",      icon:"🐬",  label:"Delfine"},
+            {id:"grosskatze",  icon:"🐆",  label:"Großkatze"},
+            {id:"bienen",      icon:"🐝",  label:"Bienen"},
+            {id:"kuckuck",     icon:"🌿",  label:"Kuckuck"},
+            {id:"eule",        icon:"🦉",  label:"Eule"},
+            {id:"wolf",        icon:"🐺",  label:"Wölfe"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -27494,6 +27501,325 @@ function _stilleInit() {
         setTimeout(herzschlag, 100);
       }
       herzschlag();
+
+    } else if (id === "wal") {
+      // Walgesang: tiefe Seufzer, langgezogene sweepende Rufe
+      master.gain.setValueAtTime(0.28, ctx.currentTime);
+      // Unterwasser-Basis: sehr tief gefiltertes Rauschen
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp = lpf(200); const gSrc = ctx.createGain(); gSrc.gain.value = 0.2;
+      src.connect(lp); lp.connect(gSrc); gSrc.connect(master); src.start(); nodes.push(src);
+      function walRuf() {
+        if (stopped) return;
+        const type = Math.random();
+        if (type < 0.4) {
+          // Tiefer Seufzer: absteigende Frequenz
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine";
+          const startF = 90 + Math.random() * 40;
+          o.frequency.setValueAtTime(startF, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(startF * 0.4, ctx.currentTime + 4);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(0.6, ctx.currentTime + 0.8);
+          g.gain.setValueAtTime(0.6, ctx.currentTime + 3);
+          g.gain.linearRampToValueAtTime(0, ctx.currentTime + 4.5);
+          o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 4.6);
+        } else if (type < 0.7) {
+          // Singender Auf-Ab-Ruf
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine";
+          const f0 = 120 + Math.random() * 60;
+          o.frequency.setValueAtTime(f0 * 0.6, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f0 * 1.4, ctx.currentTime + 2);
+          o.frequency.linearRampToValueAtTime(f0 * 0.8, ctx.currentTime + 4);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(0.5, ctx.currentTime + 0.5);
+          g.gain.setValueAtTime(0.5, ctx.currentTime + 3.2);
+          g.gain.linearRampToValueAtTime(0, ctx.currentTime + 4.2);
+          o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 4.3);
+        } else {
+          // Klagendes hohes Pfeifen (Buckelwal-Signatur)
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine"; const f = 300 + Math.random() * 200;
+          o.frequency.setValueAtTime(f, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f * 0.55, ctx.currentTime + 3);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(0.3, ctx.currentTime + 0.4);
+          g.gain.setValueAtTime(0.3, ctx.currentTime + 2.5);
+          g.gain.linearRampToValueAtTime(0, ctx.currentTime + 3.2);
+          o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 3.3);
+        }
+        setTimeout(walRuf, 4000 + Math.random() * 8000);
+      }
+      walRuf();
+      setTimeout(walRuf, 1500 + Math.random() * 3000);
+
+    } else if (id === "delfin") {
+      // Delfinklicks + melodische Pfeiftöne
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(500); const gSrc = ctx.createGain(); gSrc.gain.value = 0.05;
+      src.connect(lp); lp.connect(gSrc); gSrc.connect(master); src.start(); nodes.push(src);
+      // Echoortungs-Klicks: schnelle hochfrequente Bursts
+      function klicks() {
+        if (stopped) return;
+        const n = 3 + Math.floor(Math.random() * 6);
+        let t = ctx.currentTime;
+        for (let i = 0; i < n; i++) {
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine"; o.frequency.value = 6000 + Math.random() * 4000;
+          g.gain.setValueAtTime(0.15, t); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.015);
+          o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.02);
+          t += 0.02 + Math.random() * 0.04;
+        }
+        setTimeout(klicks, 800 + Math.random() * 2500);
+      }
+      // Melodische Pfeiftöne: aufsteigende Kurven
+      function pfiff() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine";
+        const f0 = 1800 + Math.random() * 1200;
+        const contour = Math.random();
+        if (contour < 0.33) {
+          o.frequency.setValueAtTime(f0, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f0 * 1.6, ctx.currentTime + 0.4);
+        } else if (contour < 0.66) {
+          o.frequency.setValueAtTime(f0 * 1.4, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f0 * 0.8, ctx.currentTime + 0.35);
+        } else {
+          o.frequency.setValueAtTime(f0, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f0 * 1.5, ctx.currentTime + 0.2);
+          o.frequency.linearRampToValueAtTime(f0 * 0.9, ctx.currentTime + 0.5);
+        }
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.35, ctx.currentTime + 0.05);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.55);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.6);
+        setTimeout(pfiff, 600 + Math.random() * 2000);
+      }
+      klicks(); setTimeout(klicks, 400 + Math.random() * 600);
+      pfiff();  setTimeout(pfiff,  800 + Math.random() * 1200);
+
+    } else if (id === "grosskatze") {
+      // Großkatzen-Schnurren: tiefer und kraftvoller als Hauskatze
+      master.gain.setValueAtTime(0.5, ctx.currentTime);
+      const schnurrFreq = 18 + Math.random() * 5; // 18-23 Hz (tiefer als Hauskatze)
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.type = "sine"; lfo.frequency.value = 0.3; lfoG.gain.value = 0.15;
+      lfo.connect(lfoG); lfoG.connect(master.gain); lfo.start(); nodes.push(lfo);
+      [1, 1.5, 2, 3, 4, 6].forEach((mult, i) => {
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = i === 0 ? "sawtooth" : "sine";
+        o.frequency.value = schnurrFreq * mult;
+        const vib = ctx.createOscillator(); const vibG = ctx.createGain();
+        vib.frequency.value = 0.35 + i * 0.06; vibG.gain.value = schnurrFreq * mult * 0.012;
+        vib.connect(vibG); vibG.connect(o.frequency);
+        g.gain.value = [0.55, 0.3, 0.2, 0.1, 0.06, 0.03][i];
+        const lpF = lpf(400);
+        o.connect(lpF); lpF.connect(g); g.connect(master);
+        o.start(); vib.start(); nodes.push(o, vib);
+      });
+      // Gelegentliches Winseln (Gepard-typisch)
+      function winseln() {
+        if (stopped) return;
+        if (Math.random() < 0.4) {
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine"; const f = 600 + Math.random() * 300;
+          o.frequency.setValueAtTime(f, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(f * 0.7, ctx.currentTime + 0.6);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(0.12, ctx.currentTime + 0.1);
+          g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.65);
+          o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.7);
+        }
+        setTimeout(winseln, 5000 + Math.random() * 10000);
+      }
+      setTimeout(winseln, 3000 + Math.random() * 5000);
+
+    } else if (id === "bienen") {
+      // Bienenstock-Summen: ~240 Hz Grundton + Flügelschlagen-Obertöne
+      master.gain.setValueAtTime(0.3, ctx.currentTime);
+      const bienenFreqs = [240, 480, 720, 960, 1200];
+      bienenFreqs.forEach((f, i) => {
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sawtooth"; o.frequency.value = f * (0.99 + Math.random() * 0.02);
+        // Leichtes Wobble
+        const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+        lfo.frequency.value = 0.8 + i * 0.3 + Math.random() * 0.5;
+        lfoG.gain.value = f * 0.004;
+        lfo.connect(lfoG); lfoG.connect(o.frequency);
+        g.gain.value = [0.4, 0.2, 0.1, 0.05, 0.025][i];
+        const lpF = lpf(2000);
+        o.connect(lpF); lpF.connect(g); g.connect(master);
+        o.start(); lfo.start(); nodes.push(o, lfo);
+      });
+      // Einzelne Bienen die vorbeifliegen (kurzes Doppler-artiges Summen)
+      function einzelbiene() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sawtooth";
+        const f = 280 + Math.random() * 160;
+        o.frequency.setValueAtTime(f * 1.15, ctx.currentTime);
+        o.frequency.linearRampToValueAtTime(f * 0.88, ctx.currentTime + 1.5);
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.18, ctx.currentTime + 0.3);
+        g.gain.linearRampToValueAtTime(0, ctx.currentTime + 1.5);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 1.6);
+        setTimeout(einzelbiene, 3000 + Math.random() * 7000);
+      }
+      setTimeout(einzelbiene, 2000 + Math.random() * 4000);
+
+    } else if (id === "kuckuck") {
+      // Kuckucksruf + gelegentliche Waldvögel + Frühlingsatmosphäre
+      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(700); const gBg = ctx.createGain(); gBg.gain.value = 0.04;
+      src.connect(lp); lp.connect(gBg); gBg.connect(master); src.start(); nodes.push(src);
+      function kuckucksRuf() {
+        if (stopped) return;
+        const rufe = 2 + Math.floor(Math.random() * 4); // 2-5 Rufe
+        let t = ctx.currentTime + 0.1;
+        for (let r = 0; r < rufe; r++) {
+          // "Kuck" - hoher Ton
+          const o1 = ctx.createOscillator(); const g1 = ctx.createGain();
+          o1.type = "sine"; o1.frequency.value = 520;
+          g1.gain.setValueAtTime(0, t); g1.gain.linearRampToValueAtTime(0.4, t + 0.02);
+          g1.gain.setValueAtTime(0.4, t + 0.12); g1.gain.exponentialRampToValueAtTime(0.0001, t + 0.22);
+          o1.connect(g1); g1.connect(master); o1.start(t); o1.stop(t + 0.23);
+          // "Kuck" Oberton
+          const o1b = ctx.createOscillator(); const g1b = ctx.createGain();
+          o1b.type = "sine"; o1b.frequency.value = 1040;
+          g1b.gain.setValueAtTime(0, t); g1b.gain.linearRampToValueAtTime(0.12, t + 0.02);
+          g1b.gain.exponentialRampToValueAtTime(0.0001, t + 0.2);
+          o1b.connect(g1b); g1b.connect(master); o1b.start(t); o1b.stop(t + 0.22);
+          t += 0.25;
+          // "Uck" - tieferer Ton
+          const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+          o2.type = "sine"; o2.frequency.value = 380;
+          g2.gain.setValueAtTime(0, t); g2.gain.linearRampToValueAtTime(0.38, t + 0.02);
+          g2.gain.setValueAtTime(0.38, t + 0.15); g2.gain.exponentialRampToValueAtTime(0.0001, t + 0.28);
+          o2.connect(g2); g2.connect(master); o2.start(t); o2.stop(t + 0.3);
+          t += 0.7; // Pause zwischen Rufen
+        }
+        setTimeout(kuckucksRuf, 6000 + Math.random() * 10000);
+      }
+      kuckucksRuf();
+      // Gelegentlicher Waldvogel dazwischen
+      function waldvogel() {
+        if (stopped) return;
+        const chirps = 2 + Math.floor(Math.random() * 4);
+        let t = ctx.currentTime;
+        for (let i = 0; i < chirps; i++) {
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine"; o.frequency.value = 2400 + Math.random() * 1200;
+          g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(0.15, t + 0.01);
+          g.gain.exponentialRampToValueAtTime(0.0001, t + 0.1);
+          o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.12);
+          t += 0.12 + Math.random() * 0.08;
+        }
+        setTimeout(waldvogel, 3000 + Math.random() * 8000);
+      }
+      setTimeout(waldvogel, 1500 + Math.random() * 3000);
+
+    } else if (id === "eule") {
+      // Eule bei Nacht: sanftes Rufen + Nachtgeräusche
+      master.gain.setValueAtTime(0.18, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(400); const gBg = ctx.createGain(); gBg.gain.value = 0.03;
+      src.connect(lp); lp.connect(gBg); gBg.connect(master); src.start(); nodes.push(src);
+      // Grillen im Hintergrund
+      function nachtgrille() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 3800 + Math.random() * 400;
+        g.gain.setValueAtTime(0, ctx.currentTime); g.gain.linearRampToValueAtTime(0.04, ctx.currentTime + 0.005);
+        g.gain.setValueAtTime(0.04, ctx.currentTime + 0.025); g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.04);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.045);
+        setTimeout(nachtgrille, 60 + Math.random() * 120);
+      }
+      nachtgrille();
+      function eulenRuf() {
+        if (stopped) return;
+        // "Hu-Huuuu" — zwei Töne, zweiter länger und abfallend
+        const t = ctx.currentTime + 0.1;
+        // "Hu"
+        const o1 = ctx.createOscillator(); const g1 = ctx.createGain();
+        o1.type = "sine"; o1.frequency.value = 320;
+        g1.gain.setValueAtTime(0, t); g1.gain.linearRampToValueAtTime(0.45, t + 0.06);
+        g1.gain.setValueAtTime(0.45, t + 0.2); g1.gain.exponentialRampToValueAtTime(0.0001, t + 0.35);
+        o1.connect(g1); g1.connect(master); o1.start(t); o1.stop(t + 0.38);
+        // Oberton Hu
+        const o1h = ctx.createOscillator(); const g1h = ctx.createGain();
+        o1h.type = "sine"; o1h.frequency.value = 640;
+        g1h.gain.setValueAtTime(0, t); g1h.gain.linearRampToValueAtTime(0.1, t + 0.06);
+        g1h.gain.exponentialRampToValueAtTime(0.0001, t + 0.32);
+        o1h.connect(g1h); g1h.connect(master); o1h.start(t); o1h.stop(t + 0.34);
+        // "Huuuu" — länger, leicht abfallend
+        const t2 = t + 0.45;
+        const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+        o2.type = "sine"; o2.frequency.setValueAtTime(310, t2);
+        o2.frequency.linearRampToValueAtTime(290, t2 + 0.8);
+        g2.gain.setValueAtTime(0, t2); g2.gain.linearRampToValueAtTime(0.5, t2 + 0.08);
+        g2.gain.setValueAtTime(0.5, t2 + 0.6); g2.gain.exponentialRampToValueAtTime(0.0001, t2 + 0.85);
+        o2.connect(g2); g2.connect(master); o2.start(t2); o2.stop(t2 + 0.88);
+        const o2h = ctx.createOscillator(); const g2h = ctx.createGain();
+        o2h.type = "sine"; o2h.frequency.setValueAtTime(620, t2);
+        o2h.frequency.linearRampToValueAtTime(580, t2 + 0.8);
+        g2h.gain.setValueAtTime(0, t2); g2h.gain.linearRampToValueAtTime(0.12, t2 + 0.08);
+        g2h.gain.exponentialRampToValueAtTime(0.0001, t2 + 0.82);
+        o2h.connect(g2h); g2h.connect(master); o2h.start(t2); o2h.stop(t2 + 0.85);
+        setTimeout(eulenRuf, 5000 + Math.random() * 12000);
+      }
+      setTimeout(eulenRuf, 1000 + Math.random() * 3000);
+
+    } else if (id === "wolf") {
+      // Wölfe in der Ferne: langes Heulen + Nacht-Windatmosphäre
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp = lpf(500); const gBg = ctx.createGain(); gBg.gain.value = 0.08;
+      src.connect(lp); lp.connect(gBg); gBg.connect(master); src.start(); nodes.push(src);
+      // LFO für Windpuls
+      const lfoW = ctx.createOscillator(); const lfoWG = ctx.createGain();
+      lfoW.frequency.value = 0.08; lfoWG.gain.value = 0.04;
+      lfoW.connect(lfoWG); lfoWG.connect(master.gain); lfoW.start(); nodes.push(lfoW);
+      function wolfHeulen(delay) {
+        if (stopped) return;
+        setTimeout(() => {
+          if (stopped) return;
+          const dur = 2.5 + Math.random() * 2;
+          const startF = 180 + Math.random() * 80;
+          const peakF  = startF * (1.3 + Math.random() * 0.4);
+          const endF   = startF * (0.7 + Math.random() * 0.2);
+          const gain   = 0.15 + Math.random() * 0.15; // fern = leiser
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine";
+          o.frequency.setValueAtTime(startF, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(peakF,  ctx.currentTime + dur * 0.3);
+          o.frequency.linearRampToValueAtTime(endF,   ctx.currentTime + dur);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(gain, ctx.currentTime + 0.3);
+          g.gain.setValueAtTime(gain, ctx.currentTime + dur - 0.5);
+          g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur + 0.2);
+          // Oberton für Heul-Charakter
+          const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+          o2.type = "sine"; o2.frequency.value = peakF * 1.5;
+          o2.frequency.setValueAtTime(startF * 1.5, ctx.currentTime);
+          o2.frequency.linearRampToValueAtTime(peakF * 1.5, ctx.currentTime + dur * 0.3);
+          o2.frequency.linearRampToValueAtTime(endF * 1.5, ctx.currentTime + dur);
+          g2.gain.setValueAtTime(0, ctx.currentTime);
+          g2.gain.linearRampToValueAtTime(gain * 0.35, ctx.currentTime + 0.3);
+          g2.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur + 0.2);
+          o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + dur + 0.3);
+          o2.connect(g2); g2.connect(master); o2.start(); o2.stop(ctx.currentTime + dur + 0.3);
+          // Manchmal antwortet ein zweiter Wolf
+          if (Math.random() < 0.45) {
+            wolfHeulen(dur * 1000 + 800 + Math.random() * 1500);
+          }
+        }, delay);
+      }
+      wolfHeulen(2000 + Math.random() * 4000);
+      setTimeout(() => wolfHeulen(0), 8000 + Math.random() * 15000); // nächste Gruppe
     }
 
     klangStop = () => {
@@ -27529,6 +27855,13 @@ function _stilleInit() {
     zug:         "Fahrt im Zug: das rhythmische, dumpfe Rattern der Schienen — wirkt nachweislich einschläfernd und entspannend.",
     katze:       "Katzenschnurren: die Frequenz von ~25 Hz senkt nachweislich den Blutdruck und wirkt tief beruhigend.",
     geborgen:    "Geborgenheits-Effekt: sehr tief gefilterter Unterwasser-Sound mit dumpfem Herzschlag — erinnert unterbewusst an die Zeit im Mutterleib. Vermittelt tiefe Sicherheit und vollständige Abkapselung von der Außenwelt.",
+    wal:         "Walgesang: tiefe Seufzer, sweepende Rufe und klagende Pfeifen des Buckelwals — Wissenschaftler zeigen, dass diese Klänge Theta-Gehirnwellen (tiefe Entspannung) auslösen können.",
+    delfin:      "Delfine: rhythmische Echoortungs-Klicks und melodische Pfeiftöne — fröhlich, lebendig und mental befreiend. Beliebt zum Lösen innerer Blockaden.",
+    grosskatze:  "Großkatzen-Schnurren: tiefer und kraftvoller als die Hauskatze (~18 Hz) — vermittelt ein Gefühl von Urvertrauen, Stärke und Geborgenheit.",
+    bienen:      "Bienenstock: gleichmäßiges, tiefes Summen eines Bienenstocks — wirkt wie natürliches Brown Noise. Erdend, fast hypnotisch, hilft gegen kreisende Gedanken.",
+    kuckuck:     "Kuckuck im Frühlingswald: das vertraute Rufen versetzt uns sofort in einen sonnigen, friedlichen Waldtag — mit Waldvögeln im Hintergrund.",
+    eule:        "Eule in der Nacht: sanftes Hu-Huuuu in der Stille — mit Nachtgrillen im Hintergrund. Tiefenentspannt, mystisch, perfekt zum Einschlafen.",
+    wolf:        "Wölfe in der Ferne: langes, freies Heulen mit Windhauch — erzeugt ein tiefes Gefühl von Wildnis, Freiheit und Verbundenheit mit der Natur.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
