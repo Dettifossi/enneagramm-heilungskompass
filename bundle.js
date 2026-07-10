@@ -5845,7 +5845,7 @@ const TIER_DOKU = {
   SE5: { ytId: "CZGvgZ3k6Dw",  start: 0, titel: "Waldkauz – Erfolgs-Eule",                       kanal: "Natur-Doku" },
   SO5: { ytId: "oF-UN5vwaTM",  start: 0, titel: "Warum hat der Oktopus acht Arme?",              kanal: "WDR Die Maus" },
   SX5: { ytId: "vP9LcVgXYTE",  start: 0, titel: "Igel – Igelrettungsstation in Fürth",              kanal: "BR" },
-  SE6: { ytId: "Q2-OMwwtlig",  start: 0, titel: "Kaninchen – plüschig und hartgesotten",          kanal: "ARTE Fernweh" },
+  SE6: { ytId: "cHAIYpFO5bA",  start: 0, titel: "Kaninchen – gesellig oder Einzelgänger?",        kanal: "OLI's Wilde Welt / SWR" },
   SO6: { ytId: "vsWivaf9ZGY",  start: 0, titel: "Das Erdmännchen",                               kanal: "Unsere Tierwelt" },
   SX6: { ytId: "EX54rl8CNwU",  start: 0, titel: "Wolf – Schießen oder schützen?",                kanal: "NDR Story" },
   SE7: { ytId: "Se7jaFtVJmA",  start: 0, titel: "Im Nebelwald der Gorillas",                      kanal: "ZDF / Pia und die wilde Natur" },
