@@ -27121,7 +27121,23 @@ function _stilleInit() {
 
   function starteKlang(id) {
     stopKlang();
-    if (id === "stille" || !audioCtx) return;
+    if (id === "stille") return;
+
+    // Real CC0 recordings from Freesound (uploaded to Cloudinary)
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule"]);
+    if (REAL_SOUNDS.has(id)) {
+      const TRIM_3MIN = new Set(["gewitter","blizzard"]);
+      const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/" : "";
+      const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/" + transform + "kompass/stille-sounds/";
+      const audio = new Audio(cdn + id + ".mp3");
+      audio.loop = true;
+      audio.volume = 0.7;
+      audio.play().catch(() => {});
+      klangStop = () => { audio.pause(); audio.src = ""; };
+      return;
+    }
+
+    if (!audioCtx) return;
     const ctx = audioCtx;
     const master = ctx.createGain();
     master.gain.setValueAtTime(0.18, ctx.currentTime);
