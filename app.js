@@ -5855,7 +5855,7 @@ const TIER_DOKU = {
   SO8: { ytId: "Eo8-bkN7zUU",  start: 0, titel: "Löwe vs. Hyäne – Kampf der Intelligenz",        kanal: "Real Wild Deutschland" },
   SX8: { ytId: "SE1ys7-dc_k",  start: 0, titel: "Krokodile – Lauernde Urzeit-Jäger",             kanal: "Tierdoku" },
   SE9: { ytId: "olwdlzz-gzs",  start: 0, titel: "Der Elefant",                                    kanal: "Unsere Tierwelt" },
-  SO9: { ytId: "jLyKlZ9cEf0",  start: 0, titel: "Der Amerikanische Bison",                        kanal: "Unsere Tierwelt" },
+  SO9: { ytId: "r46Ztn1T3sU",  start: 0, titel: "Wasserbüffel – Kraft der Stille",                kanal: "Tierdoku" },
   SX9: { ytId: "5qsH7xRe3J8",  start: 0, titel: "Sind Faultiere faul?",                           kanal: "WDR Die Maus" },
 };
 
