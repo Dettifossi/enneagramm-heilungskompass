@@ -4772,7 +4772,10 @@ function berühmteKomponistenPage() {
              class="psycho-img" />
       </div>
 
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — Musik als Brücke zur inneren Stille.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen — der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen — Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild — Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen — Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"portraits-wegbegleiter", label:"Portraits zweier Wegbegleiter"},
         {route:"beruhmte-philosophen", label:"Berühmte Philosophen im Enneagramm"},
