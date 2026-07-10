@@ -139,7 +139,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -4758,6 +4758,31 @@ function spirituelleUebungenPage() {
   `);
 }
 
+function berühmteKomponistenPage() {
+  return shell(`
+    ${pageHeader("beruhmte-komponisten")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder &middot; Musik &middot; Geschichte</p>
+      <h1>Berühmte Komponisten im Enneagramm</h1>
+      <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypen zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SE9).</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
+             alt="Berühmte Komponisten im Enneagramm"
+             class="psycho-img" />
+      </div>
+
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — Musik als Brücke zur inneren Stille.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${relatedLinks([
+        {route:"portraits-wegbegleiter", label:"Portraits zweier Wegbegleiter"},
+        {route:"beruhmte-philosophen", label:"Berühmte Philosophen im Enneagramm"},
+        {route:"musik", label:"Entspannungs- und Heilungsmusik"},
+        {route:"tierentsprechungen", label:"Tierentsprechungen der 9 Typen"},
+      ])}
+    </section>
+  `);
+}
+
 function dasEventPage() {
   return shell(`
     ${pageHeader("das-event")}
@@ -4868,6 +4893,7 @@ function portraitsWegbegleiterPage() {
 
       ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
+        {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
         {route:"wer-wir-sind", label:"Wer wir sind"},
         {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
         {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
@@ -27407,6 +27433,7 @@ function render() {
     "suche-nach-liebe": sucheNachLiebePage,
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
+    "beruhmte-komponisten": berühmteKomponistenPage,
     suche: suchePage,
     quiz: quizPage,
     zitate: zitatePage,

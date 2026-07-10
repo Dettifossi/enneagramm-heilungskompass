@@ -2303,6 +2303,7 @@ export const uiText = {
       { route: "antriebskraefte", label: "Antriebskr\xe4fte der Menschheit" },
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
+      { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
       { route: "beruhmte-philosophen", label: "Berühmte Philosophen" },
       { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypen" },
       { route: "beziehungen-schaubild", label: "Beziehungen" },
