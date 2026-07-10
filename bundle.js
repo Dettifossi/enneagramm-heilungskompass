@@ -12,6 +12,7 @@ import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=7";
 
+const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
 const app = document.querySelector("#app");
 const PROFILE_KEY = "enneagramm-kompass:profile";
 const VISITED_KEY = "enneagramm-kompass:visited";
@@ -4923,7 +4924,7 @@ function portraitsWegbegleiterPage() {
 
   const bilder = BILDER.map(b => `
     <div class="psycho-img-wrap" style="margin-bottom:${b.links ? '1rem' : '2rem'};">
-      <img src="${CDN}assets/schaubilder/portraits-wegbegleiter/Portraits zweier Wegbegleiter.${b.nr}.jpeg"
+      <img src="${CDN}portraits-wegbegleiter/Portraits_zweier_Wegbegleiter.${b.nr}"
            alt="${b.alt}" class="psycho-img" loading="lazy"/>
     </div>
     ${b.links ? `
