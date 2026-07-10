@@ -5834,7 +5834,7 @@ const TIER_DOKU = {
   SO1: { ytId: "8z6KZCUcOxg",  start: 0, titel: "Die Graugans und ihre Gössel",                  kanal: "ARD / BR" },
   SX1: { ytId: "ScMSj29cn7E",  start: 0, titel: "Schwarze Mamba – Der Kuss des Todes",           kanal: "Tierdoku" },
   SE2: { ytId: "_doL68KopkI",  start: 0, titel: "Nilpferd – das gefährlichste Tier auf dem Land", kanal: "Tierdoku" },
-  SO2: { ytId: "WV2XQGTUn7Q",  start: 0, titel: "Warum gibt es Hunderassen?",                    kanal: "Terra X" },
+  SO2: { ytId: "GjNqazReP1Q",  start: 0, titel: "Golden Retriever – Wie tickt diese Hunderasse?", kanal: "Rasseportrait" },
   SX2: { ytId: "C71ID5P4Afs",  start: 0, titel: "Trampeltier – das Kamel",                       kanal: "Unsere Tierwelt" },
   SE3: { ytId: "cNd62Hl3qr8",  start: 0, titel: "Der Waschbär",                                  kanal: "Unsere Tierwelt" },
   SO3: { ytId: "I9IyQ-ZW9LE",  start: 0, titel: "So retten wir den Gepard",                      kanal: "Terra X plus" },
