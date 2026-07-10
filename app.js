@@ -26829,9 +26829,10 @@ function stillePage() {
 function syntheseTierLaut(animal) {
   // Codes mit echten Cloudinary-Audiodateien (schrittweise ergänzt)
   const TIER_CODES = {
-    "adler":"se1","gans":"so1","flusspferd":"se2","golden retriever":"so2",
-    "waschbär":"se3","pfau":"sx3","taube":"se4","eule":"se5","igel":"sx5",
-    "wolf":"sx6","schimpanse":"sx7"
+    "adler":"se1","gans":"so1","schwarze mamba":"sx1","flusspferd":"se2",
+    "golden retriever":"so2","kamel":"sx2","waschbär":"se3","gepard":"so3",
+    "pfau":"sx3","taube":"se4","gürteltier":"so4","chihuahua":"sx4",
+    "eule":"se5","igel":"sx5","wolf":"sx6","schimpanse":"sx7","krokodil":"sx8"
   };
   const key = animal.toLowerCase().trim();
   const code = TIER_CODES[key];
