@@ -1637,11 +1637,11 @@ function kaufenPage() {
           <p style="margin:0 0 .4rem;font-size:1.5rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);letter-spacing:.08em;">KOMPASS2026</p>
           <p style="margin:0;font-size:.8rem;color:var(--muted);">Wird automatisch eingetragen &ndash; Sie zahlen direkt <strong>€ 49</strong> statt € 69.</p>
         </div>
-        <a href="https://www.checkout-ds24.com/product/707486?voucher=KOMPASS2026" target="_blank" rel="noopener"
+        <a href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener"
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
-          Jetzt Zugang kaufen → € 49 (mit Code KOMPASS2026)
+          Jetzt Zugang kaufen → € 49
         </a>
-        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \xfcber Digistore24 &middot; Sofortiger Zugang nach Zahlung</p>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \xfcber Stripe &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Fragen?</h3>
@@ -3681,7 +3681,7 @@ function bindEvents() {
         setLizenzName(name);
         go("start");
       } else {
-        msg.textContent = "Ungültiger Code. Bitte prüfen Sie die Bestätigungs-E-Mail von Digistore24.";
+        msg.textContent = "Ungültiger Code. Bitte prüfen Sie die Bestätigungs-E-Mail von Stripe.";
         msg.style.color = "var(--copper)";
       }
     };
@@ -26437,7 +26437,7 @@ function freischaltPage() {
             <strong>Vollzugang</strong>
             <span class="freischalt-angebot__preis">€ 49</span>
             <span class="freischalt-angebot__label">Einführungspreis · inkl. aller Updates</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://www.checkout-ds24.com/product/707486" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
           </div>
         </div>
 
@@ -26511,7 +26511,7 @@ function datenschutzPage() {
     <h2>4. Google Fonts</h2>
     <p>Diese App verwendet Schriftarten des Dienstes Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland). Beim Laden der Seite wird eine Verbindung zu Google-Servern hergestellt, wobei Ihre IP-Adresse übertragen wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
     <h2>5. Kauf und Zahlungsabwicklung</h2>
-    <p>Der Kauf von Zugangscodes erfolgt über externe Plattformen (Digistore24 bzw. Stripe). Diese App selbst verarbeitet keine Zahlungsdaten. Rechtsgrundlage für die Verarbeitung durch den Zahlungsanbieter: Art. 6 Abs. 1 lit. b DSGVO.</p>
+    <p>Der Kauf von Zugangscodes erfolgt über Stripe (stripe.com). Diese App selbst verarbeitet keine Zahlungsdaten. Rechtsgrundlage für die Verarbeitung durch den Zahlungsanbieter: Art. 6 Abs. 1 lit. b DSGVO.</p>
     <h2>6. Keine Cookies, kein Tracking</h2>
     <p>Diese App setzt selbst keine Cookies und verwendet keine Analyse- oder Tracking-Dienste.</p>
     <h2>7. Ihre Rechte</h2>
