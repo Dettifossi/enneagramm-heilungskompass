@@ -27053,23 +27053,48 @@ function _stilleInit() {
       knistern();
 
     } else if (id === "gewitter") {
-      // Gewitter = Regen + gelegentlicher Donner (tiefes Rumpeln)
-      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      // Gewitter = Regen + Donner mit hörbarem Knall + langem Rumpeln
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
       const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
-      const hp3 = hpf(1500); const lp7 = lpf(8000);
+      const hp3 = hpf(1200); const lp7 = lpf(7000);
       src.connect(hp3); hp3.connect(lp7); lp7.connect(master); src.start(); nodes.push(src);
       function donner() {
         if (stopped) return;
-        const db = ctx.createBuffer(1, Math.ceil(SR*2), SR);
+        const dur = 3.5 + Math.random() * 2;       // 3.5–5.5 s Donnerrolle
+        const close = Math.random() < 0.35;          // 35% nah, 65% fern
+        const dlen = Math.ceil(SR * dur);
+        const db = ctx.createBuffer(1, dlen, SR);
         const dd = db.getChannelData(0);
-        for(let i=0;i<dd.length;i++) dd[i]=(Math.random()*2-1)*Math.pow(1-i/dd.length,0.3);
+        // Envelope: kurzer Anstieg, dann langsames Ausklingen
+        for (let i = 0; i < dlen; i++) {
+          const t = i / SR;
+          const attack = Math.min(1, t / 0.06);              // 60 ms Anstieg
+          const decay  = Math.pow(1 - t / dur, close ? 1.8 : 2.5);
+          dd[i] = (Math.random() * 2 - 1) * attack * decay;
+        }
         const ds = ctx.createBufferSource(); ds.buffer = db;
-        const dg = ctx.createGain(); dg.gain.value = 0.6;
-        const dlp = ctx.createBiquadFilter(); dlp.type="lowpass"; dlp.frequency.value=120;
-        ds.connect(dlp); dlp.connect(dg); dg.connect(master); ds.start();
-        setTimeout(donner, 8000 + Math.random()*20000);
+        // Rumpeln: Bandpass um 180-350 Hz — auf Handy-Lautsprechern hörbar
+        const bp1 = ctx.createBiquadFilter(); bp1.type = "bandpass";
+        bp1.frequency.value = close ? 220 : 160; bp1.Q.value = 0.7;
+        const lp9 = ctx.createBiquadFilter(); lp9.type = "lowpass"; lp9.frequency.value = 500;
+        const dg  = ctx.createGain(); dg.gain.value = close ? 1.1 : 0.75;
+        ds.connect(bp1); bp1.connect(lp9); lp9.connect(dg); dg.connect(master); ds.start();
+        // Kurzer hochfrequenter Knall am Anfang (nur bei nahem Donner)
+        if (close) {
+          const cb = ctx.createBuffer(1, Math.ceil(SR * 0.25), SR);
+          const cd = cb.getChannelData(0);
+          for (let i = 0; i < cd.length; i++) {
+            cd[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / cd.length, 4);
+          }
+          const cs = ctx.createBufferSource(); cs.buffer = cb;
+          const chp = ctx.createBiquadFilter(); chp.type = "highpass"; chp.frequency.value = 600;
+          const cg  = ctx.createGain(); cg.gain.value = 0.5;
+          cs.connect(chp); chp.connect(cg); cg.connect(master); cs.start();
+        }
+        // Nächster Donner in 7–22 s
+        setTimeout(donner, 7000 + Math.random() * 15000);
       }
-      setTimeout(donner, 3000 + Math.random()*6000);
+      setTimeout(donner, 2000 + Math.random() * 5000);
 
     } else if (id === "wald") {
       // Wald = leises Pink-Rauschen + Vogelstimmen (einfache Sinuston-Chirps)
