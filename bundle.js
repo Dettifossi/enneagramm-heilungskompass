@@ -4846,6 +4846,9 @@ function portraitsWegbegleiterPage() {
           src="https://www.youtube.com/embed/${b.video.id}?rel=0"
           allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
+      <p style="margin-top:0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">
+        💡 Das Video ist auf Englisch. Für deutsche Untertitel: im Video auf <strong>CC</strong> tippen → <strong>Einstellungen</strong> → <strong>Untertitel</strong> → <strong>Automatisch übersetzen</strong> → <strong>Deutsch</strong> wählen.
+      </p>
     </div>` : ""}
   `).join("");
 
