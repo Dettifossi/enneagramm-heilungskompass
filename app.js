@@ -26745,6 +26745,29 @@ function stillePage() {
         </div>
       </div>
 
+      <div style="margin:0 auto 1.5rem;max-width:480px;">
+        <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
+        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
+          ${[
+            {id:"stille",     icon:"🤫", label:"Stille"},
+            {id:"white",      icon:"〰️", label:"White"},
+            {id:"pink",       icon:"🌸", label:"Pink"},
+            {id:"brown",      icon:"🟤", label:"Brown"},
+            {id:"regen",      icon:"🌧️", label:"Regen"},
+            {id:"meer",       icon:"🌊", label:"Meer"},
+            {id:"wasserfall", icon:"💧", label:"Wasserfall"},
+            {id:"wind",       icon:"💨", label:"Wind"},
+            {id:"feuer",      icon:"🔥", label:"Feuer"},
+            {id:"gewitter",   icon:"⛈️", label:"Gewitter"},
+            {id:"wald",       icon:"🌲", label:"Wald"},
+            {id:"hoehle",     icon:"🪨", label:"Höhle"},
+          ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
+            style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
+            <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
+          </button>`).join("")}
+        </div>
+      </div>
+
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
         <button id="stille-start" class="primary" style="min-width:140px;">▶ Starten</button>
         <button id="stille-reset" class="ghost-link" style="display:none;">↺ Zurücksetzen</button>
@@ -26842,6 +26865,7 @@ function _stilleInit() {
     aktualisiere();
     if (verbleibend <= 0) {
       clearInterval(interval); interval = null;
+      stopKlang();
       gong(160);
       statusEl.textContent = "Willkommen zurück.";
       startBtn.textContent = "✓ Fertig";
@@ -26853,15 +26877,21 @@ function _stilleInit() {
     if (startBtn.disabled) return;
     if (!laedt) {
       laedt = true;
+      if (!audioCtx || audioCtx.state === "closed")
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === "suspended") audioCtx.resume();
       gong(160);
+      starteKlang(gewaehlterKlang);
       resetBtn.style.display = "";
     }
     if (interval) {
       clearInterval(interval); interval = null;
+      stopKlang();
       startBtn.textContent = "▶ Weiter";
       statusEl.textContent = "pausiert";
     } else {
       interval = setInterval(tick, 1000);
+      if (laedt) starteKlang(gewaehlterKlang);
       startBtn.textContent = "⏸ Pause";
       statusEl.textContent = "in der Stille …";
     }
@@ -26869,6 +26899,7 @@ function _stilleInit() {
 
   resetBtn.addEventListener("click", () => {
     clearInterval(interval); interval = null; laedt = false;
+    stopKlang();
     verbleibend = DAUER;
     aktualisiere();
     statusEl.textContent = "bereit";
@@ -26876,6 +26907,230 @@ function _stilleInit() {
     startBtn.textContent = "▶ Starten";
     startBtn.disabled = false;
     resetBtn.style.display = "none";
+  });
+
+  // Klang-Selektor
+  let gewaehlterKlang = "stille";
+  let klangStop = null;
+
+  function stopKlang() {
+    if (klangStop) { try { klangStop(); } catch(e) {} klangStop = null; }
+  }
+
+  function starteKlang(id) {
+    stopKlang();
+    if (id === "stille" || !audioCtx) return;
+    const ctx = audioCtx;
+    const master = ctx.createGain();
+    master.gain.setValueAtTime(0.18, ctx.currentTime);
+    master.connect(ctx.destination);
+    const nodes = [];
+    let stopped = false;
+
+    function noiseBuffer(seconds, gen) {
+      const n = Math.ceil(ctx.sampleRate * seconds);
+      const buf = ctx.createBuffer(1, n, ctx.sampleRate);
+      const d = buf.getChannelData(0);
+      gen(d, n);
+      return buf;
+    }
+
+    function loopNoise(buf, gainVal = 1) {
+      const src = ctx.createBufferSource();
+      src.buffer = buf; src.loop = true;
+      const g = ctx.createGain(); g.gain.value = gainVal;
+      src.connect(g); g.connect(master);
+      src.start(); nodes.push(src, g);
+      return src;
+    }
+
+    function bpf(freq, Q) {
+      const f = ctx.createBiquadFilter();
+      f.type = "bandpass"; f.frequency.value = freq; f.Q.value = Q;
+      nodes.push(f); return f;
+    }
+    function lpf(freq) {
+      const f = ctx.createBiquadFilter();
+      f.type = "lowpass"; f.frequency.value = freq;
+      nodes.push(f); return f;
+    }
+    function hpf(freq) {
+      const f = ctx.createBiquadFilter();
+      f.type = "highpass"; f.frequency.value = freq;
+      nodes.push(f); return f;
+    }
+
+    const SR = ctx.sampleRate;
+    const DUR = 3;
+
+    // --- Rausch-Buffer-Generatoren ---
+    const whiteBuf = noiseBuffer(DUR, (d,n) => { for(let i=0;i<n;i++) d[i]=Math.random()*2-1; });
+    let b0=0,b1=0,b2=0,b3=0,b4=0,b5=0,b6w=0;
+    const pinkBuf = noiseBuffer(DUR, (d,n) => {
+      for(let i=0;i<n;i++){const w=Math.random()*2-1;b0=0.99886*b0+w*0.0555179;b1=0.99332*b1+w*0.0750759;b2=0.969*b2+w*0.153852;b3=0.8665*b3+w*0.3104856;b4=0.55*b4+w*0.5329522;b5=-0.7616*b5-w*0.016898;d[i]=(b0+b1+b2+b3+b4+b5+b6w+w*0.5362)*0.11;b6w=w*0.115926;}
+    });
+    let last=0;
+    const brownBuf = noiseBuffer(DUR, (d,n) => {
+      for(let i=0;i<n;i++){const w=Math.random()*2-1;d[i]=(last+0.02*w)/1.02;last=d[i];d[i]*=3.5;}
+    });
+
+    if (id === "white") {
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      src.connect(master); src.start(); nodes.push(src);
+
+    } else if (id === "pink") {
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      src.connect(master); src.start(); nodes.push(src);
+
+    } else if (id === "brown") {
+      master.gain.setValueAtTime(0.28, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      src.connect(master); src.start(); nodes.push(src);
+
+    } else if (id === "regen") {
+      // Regen = gefiltertes Weißrauschen (2–8 kHz) + leichte LFO-Modulation
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      const hp = hpf(1800); const lp2 = lpf(9000);
+      src.connect(hp); hp.connect(lp2); lp2.connect(master); src.start(); nodes.push(src);
+      // Einzelne Tropfen
+      function drop() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 1200 + Math.random()*800;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.04, ctx.currentTime+0.005);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.08);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime+0.09);
+        setTimeout(drop, 80 + Math.random()*300);
+      }
+      drop();
+
+    } else if (id === "meer") {
+      // Meer = Brown + LFO (Wellenrhythmus)
+      master.gain.setValueAtTime(0.3, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp3 = lpf(600);
+      src.connect(lp3); lp3.connect(master); src.start(); nodes.push(src);
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.frequency.value = 0.12; lfoG.gain.value = 0.18;
+      lfo.connect(lfoG); lfoG.connect(master.gain); lfo.start(); nodes.push(lfo, lfoG);
+
+    } else if (id === "wasserfall") {
+      // Wasserfall = breitbandiges Rauschen 200–4000 Hz, konstant
+      master.gain.setValueAtTime(0.25, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      const hp2 = hpf(200); const lp4 = lpf(3500);
+      src.connect(hp2); hp2.connect(lp4); lp4.connect(master); src.start(); nodes.push(src);
+
+    } else if (id === "wind") {
+      // Wind = Pink Noise mit sehr langsamer LFO-Amplitude
+      master.gain.setValueAtTime(0.15, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp5 = lpf(800);
+      src.connect(lp5); lp5.connect(master); src.start(); nodes.push(src);
+      const lfo2 = ctx.createOscillator(); const lfoG2 = ctx.createGain();
+      lfo2.frequency.value = 0.05; lfoG2.gain.value = 0.12;
+      lfo2.connect(lfoG2); lfoG2.connect(master.gain); lfo2.start(); nodes.push(lfo2, lfoG2);
+
+    } else if (id === "feuer") {
+      // Kaminfeuer = Brown Noise + hochfrequente Knister-Transienten
+      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp6 = lpf(400);
+      src.connect(lp6); lp6.connect(master); src.start(); nodes.push(src);
+      function knistern() {
+        if (stopped) return;
+        const nb = ctx.createBuffer(1, Math.ceil(SR*0.04), SR);
+        const nd = nb.getChannelData(0);
+        for(let i=0;i<nd.length;i++) nd[i]=(Math.random()*2-1)*Math.pow(1-i/nd.length,3)*0.6;
+        const ns = ctx.createBufferSource(); ns.buffer = nb;
+        const ng = ctx.createGain(); ng.gain.value = 0.35;
+        ns.connect(ng); ng.connect(master); ns.start();
+        setTimeout(knistern, 80 + Math.random()*500);
+      }
+      knistern();
+
+    } else if (id === "gewitter") {
+      // Gewitter = Regen + gelegentlicher Donner (tiefes Rumpeln)
+      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      const hp3 = hpf(1500); const lp7 = lpf(8000);
+      src.connect(hp3); hp3.connect(lp7); lp7.connect(master); src.start(); nodes.push(src);
+      function donner() {
+        if (stopped) return;
+        const db = ctx.createBuffer(1, Math.ceil(SR*2), SR);
+        const dd = db.getChannelData(0);
+        for(let i=0;i<dd.length;i++) dd[i]=(Math.random()*2-1)*Math.pow(1-i/dd.length,0.3);
+        const ds = ctx.createBufferSource(); ds.buffer = db;
+        const dg = ctx.createGain(); dg.gain.value = 0.6;
+        const dlp = ctx.createBiquadFilter(); dlp.type="lowpass"; dlp.frequency.value=120;
+        ds.connect(dlp); dlp.connect(dg); dg.connect(master); ds.start();
+        setTimeout(donner, 8000 + Math.random()*20000);
+      }
+      setTimeout(donner, 3000 + Math.random()*6000);
+
+    } else if (id === "wald") {
+      // Wald = leises Pink-Rauschen + Vogelstimmen (einfache Sinuston-Chirps)
+      master.gain.setValueAtTime(0.08, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp8 = lpf(1200);
+      src.connect(lp8); lp8.connect(master); src.start(); nodes.push(src);
+      function vogel() {
+        if (stopped) return;
+        const freq = 2000 + Math.random()*2000;
+        const chirps = 2 + Math.floor(Math.random()*4);
+        for(let c=0;c<chirps;c++){
+          const t = ctx.currentTime + c*0.12;
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine"; o.frequency.setValueAtTime(freq, t);
+          o.frequency.linearRampToValueAtTime(freq*1.15, t+0.06);
+          g.gain.setValueAtTime(0, t);
+          g.gain.linearRampToValueAtTime(0.12, t+0.02);
+          g.gain.exponentialRampToValueAtTime(0.0001, t+0.1);
+          o.connect(g); g.connect(master); o.start(t); o.stop(t+0.11);
+        }
+        setTimeout(vogel, 2000 + Math.random()*6000);
+      }
+      vogel();
+
+    } else if (id === "hoehle") {
+      // Höhle = sehr tiefes Dröhnen + seltene Wassertropfen
+      master.gain.setValueAtTime(0.08, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp9 = lpf(120);
+      src.connect(lp9); lp9.connect(master); src.start(); nodes.push(src);
+      function tropfen() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 800 + Math.random()*400;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.18, ctx.currentTime+0.005);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.35);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime+0.36);
+        setTimeout(tropfen, 1500 + Math.random()*4000);
+      }
+      tropfen();
+    }
+
+    klangStop = () => {
+      stopped = true;
+      nodes.forEach(n => { try { n.disconnect(); if(n.stop) n.stop(); } catch(e){} });
+      try { master.disconnect(); } catch(e) {}
+    };
+  }
+
+  // Klang-Buttons
+  document.querySelectorAll(".stille-klang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".stille-klang-btn").forEach(b => {
+        b.style.borderColor = "var(--border)"; b.style.background = "transparent";
+      });
+      btn.style.borderColor = "var(--copper)"; btn.style.background = "var(--paper)";
+      gewaehlterKlang = btn.dataset.klang;
+      // Vorschau wenn Timer bereits läuft
+      if (laedt && interval) starteKlang(gewaehlterKlang);
+    });
   });
 }
 
