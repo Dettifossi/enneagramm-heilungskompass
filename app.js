@@ -27435,8 +27435,7 @@ function _stilleInit() {
   const klangPreload = {}; // pre-buffered Audio elements keyed by sound id
   const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
   function klangCdnUrl(id) {
-    const t = (id === "gewitter" || id === "blizzard") ? "so_0,eo_180/" : "";
-    return "https://res.cloudinary.com/ymooybdl/video/upload/" + t + "kompass/stille-sounds-64k/" + id + ".mp3";
+    return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
 
   function stopKlang() {
@@ -27450,9 +27449,7 @@ function _stilleInit() {
     // Real CC0 recordings from Freesound (uploaded to Cloudinary)
     const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
     if (REAL_SOUNDS.has(id)) {
-      const TRIM_3MIN = new Set(["gewitter","blizzard"]);
-      const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/" : "";
-      const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/" + transform + "kompass/stille-sounds-64k/";
+      const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/";
       const cached = klangPreload[id];
       const audio = cached || new Audio(cdn + id + ".mp3");
       delete klangPreload[id];
