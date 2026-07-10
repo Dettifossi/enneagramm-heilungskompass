@@ -4809,7 +4809,12 @@ function portraitsWegbegleiterPage() {
     { nr: "001", alt: "Portraits zweier Wegbegleiter – Titelbild" },
     { nr: "002", alt: "David L. Rathmer – Begründer des Enneagramm-Profilings" },
     { nr: "003", alt: "David L. Rathmer – Portrait" },
-    { nr: "004", alt: "David L. Rathmer – Portrait" },
+    { nr: "004", alt: "David L. Rathmer – Portrait", links: [
+      { label: "Ennea Business",    url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpYSYZA_f0XsGpSqCKX00gur" },
+      { label: "Ennea Experience",  url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpbgTrTm4R5OhiQtNF8nCVcI" },
+      { label: "Ennea Podcast",     url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpa_emzY7AAtPvfIEvJvO-3P" },
+      { label: "Ennea Shorts",      url: "https://www.youtube.com/@davidlaurinrathmer/shorts" },
+    ]},
     { nr: "005", alt: "David L. Rathmer – Portrait" },
     { nr: "006", alt: "David L. Rathmer – Portrait" },
     { nr: "007", alt: "Claudio Naranjo – Portrait" },
@@ -4822,10 +4827,17 @@ function portraitsWegbegleiterPage() {
   ];
 
   const bilder = BILDER.map(b => `
-    <div class="psycho-img-wrap" style="margin-bottom:2rem;">
+    <div class="psycho-img-wrap" style="margin-bottom:${b.links ? '1rem' : '2rem'};">
       <img src="assets/schaubilder/portraits-wegbegleiter/Portraits zweier Wegbegleiter.${b.nr}.jpeg"
            alt="${b.alt}" class="psycho-img" loading="lazy"/>
     </div>
+    ${b.links ? `
+    <div style="display:flex;flex-wrap:wrap;gap:0.7rem;margin-bottom:2rem;justify-content:center;">
+      ${b.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer"
+        style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.55rem 1.1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.9rem;text-decoration:none;font-weight:600;">
+        ▶ ${l.label}
+      </a>`).join("")}
+    </div>` : ""}
   `).join("");
 
   return shell(`
