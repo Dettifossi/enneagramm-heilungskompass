@@ -26841,13 +26841,13 @@ function stillePage() {
             {id:"trommel",     icon:"🥁",  label:"Trommel"},
             {id:"chimes",      icon:"🎐",  label:"Windspiele"},
             {id:"kosmos",      icon:"🌌",  label:"Kosmisch"},
-            {id:"cafe",        icon:"☕",  label:"Café"},
+            {id:"aquarium",    icon:"🐠",  label:"Aquarium"},
             {id:"zug",         icon:"🚂",  label:"Zug"},
             {id:"katze",       icon:"🐱",  label:"Katze"},
             {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
             {id:"wal",         icon:"🐋",  label:"Walgesang"},
             {id:"delfin",      icon:"🐬",  label:"Delfine"},
-            {id:"grosskatze",  icon:"🐆",  label:"Großkatze"},
+            {id:"gewaesser",   icon:"🏞️",  label:"Gewässer"},
             {id:"bienen",      icon:"🐝",  label:"Bienen"},
             {id:"kuckuck",     icon:"🌿",  label:"Kuckuck"},
             {id:"eule",        icon:"🦉",  label:"Eule"},
@@ -27125,7 +27125,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings from Freesound (uploaded to Cloudinary)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
     if (REAL_SOUNDS.has(id)) {
       const TRIM_3MIN = new Set(["gewitter","blizzard"]);
       const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/" : "";
@@ -28128,13 +28128,13 @@ function _stilleInit() {
     trommel:     ["Erdung", "Zentrierung", "Trance"],
     chimes:      ["Achtsamkeit", "Hier & Jetzt", "Fokus"],
     kosmos:      ["Tiefe Meditation", "Trance", "Loslassen"],
-    cafe:        ["Konzentration", "Kreativität", "Fokus"],
+    aquarium:    ["Innerer Frieden", "Fokus", "Entspannung"],
     zug:         ["Einschlafen", "Nostalgie", "Entspannung"],
     katze:       ["Blutdruck senken", "Geborgenheit", "Tiefenentspannung"],
     geborgen:    ["Urvertrauen", "Tiefe Sicherheit", "Tiefenentspannung"],
     wal:         ["Theta-Wellen", "Tiefe Meditation", "Loslassen"],
     delfin:      ["Blockaden lösen", "Lebensfreude", "Mentale Freiheit"],
-    grosskatze:  ["Urvertrauen", "Stärke", "Geborgenheit"],
+    gewaesser:   ["Loslassen", "Mentaler Fluss", "Naturverbundenheit"],
     bienen:      ["Erdung", "Grübeln stoppen", "Hypnotisch"],
     kuckuck:     ["Frühlingsgefühl", "Waldfrieden", "Nostalgie"],
     eule:        ["Einschlafen", "Nachtmeditation", "Mystik"],
@@ -28162,13 +28162,13 @@ function _stilleInit() {
     trommel:     "Schamanische Trommeln: langsamer, monotoner Herzschlag-Rhythmus (~60 BPM) — schenkt Erdung und Zentrierung.",
     chimes:      "Windspiele: helle, zufällige Töne in pentatonischer Stimmung — lenken den Fokus sanft ins Hier und Jetzt.",
     kosmos:      "Kosmische Pads: sphärische, langgezogene Synthesizerklänge ohne Rhythmus — ideal für tiefe Meditation und Trance.",
-    cafe:        "Café-Atmosphäre: echtes Gesprächsgemurmel mit Pausen, Kaffeemaschinen-Zischen und Tassenklappern — konzentriert und lebendig zugleich.",
+    aquarium:    "Aquarium: sanftes Blubbern und Plätschern eines Aquariums — gleichmäßig, beruhigend, wie Wasser in Zeitlupe.",
     zug:         "Fahrt im Zug: das rhythmische, dumpfe Rattern der Schienen — wirkt nachweislich einschläfernd und entspannend.",
     katze:       "Katzenschnurren: die Frequenz von ~25 Hz senkt nachweislich den Blutdruck und wirkt tief beruhigend.",
     geborgen:    "Geborgenheits-Effekt: sehr tief gefilterter Unterwasser-Sound mit dumpfem Herzschlag — erinnert unterbewusst an die Zeit im Mutterleib. Vermittelt tiefe Sicherheit und vollständige Abkapselung von der Außenwelt.",
     wal:         "Walgesang: tiefe Seufzer, sweepende Rufe und klagende Pfeifen des Buckelwals — Wissenschaftler zeigen, dass diese Klänge Theta-Gehirnwellen (tiefe Entspannung) auslösen können.",
     delfin:      "Delfine: rhythmische Echoortungs-Klicks und melodische Pfeiftöne — fröhlich, lebendig und mental befreiend. Beliebt zum Lösen innerer Blockaden.",
-    grosskatze:  "Großkatzen-Schnurren: tiefer und kraftvoller als die Hauskatze (~18 Hz) — vermittelt ein Gefühl von Urvertrauen, Stärke und Geborgenheit.",
+    gewaesser:   "Plätscherndes Gewässer: lebendiges Fließen und Murmeln — Bachsteine, Wassertropfen, reines Naturidyll.",
     bienen:      "Bienenstock: gleichmäßiges, tiefes Summen eines Bienenstocks — wirkt wie natürliches Brown Noise. Erdend, fast hypnotisch, hilft gegen kreisende Gedanken.",
     kuckuck:     "Kuckuck im Frühlingswald: das vertraute Rufen versetzt uns sofort in einen sonnigen, friedlichen Waldtag — mit Waldvögeln im Hintergrund.",
     eule:        "Eule in der Nacht: sanftes Hu-Huuuu in der Stille — mit Nachtgrillen im Hintergrund. Tiefenentspannt, mystisch, perfekt zum Einschlafen.",
