@@ -4809,13 +4809,13 @@ function portraitsWegbegleiterPage() {
     { nr: "001", alt: "Portraits zweier Wegbegleiter – Titelbild" },
     { nr: "002", alt: "David L. Rathmer – Begründer des Enneagramm-Profilings" },
     { nr: "003", alt: "David L. Rathmer – Portrait" },
-    { nr: "004", alt: "David L. Rathmer – Portrait", links: [
+    { nr: "004", alt: "David L. Rathmer – Portrait" },
+    { nr: "005", alt: "David L. Rathmer – Portrait", links: [
       { label: "Ennea Business",    url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpYSYZA_f0XsGpSqCKX00gur" },
       { label: "Ennea Experience",  url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpbgTrTm4R5OhiQtNF8nCVcI" },
       { label: "Ennea Podcast",     url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpa_emzY7AAtPvfIEvJvO-3P" },
       { label: "Ennea Shorts",      url: "https://www.youtube.com/@davidlaurinrathmer/shorts" },
     ]},
-    { nr: "005", alt: "David L. Rathmer – Portrait" },
     { nr: "006", alt: "David L. Rathmer – Portrait" },
     { nr: "007", alt: "Claudio Naranjo – Portrait" },
     { nr: "008", alt: "Claudio Naranjo – Portrait" },
