@@ -24203,40 +24203,48 @@ function solfeggioFrequenzenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
 
   const frequenzen = [
-    { hz: 174, titel: "Schutz und Sicherheit",
+    { hz: 174, typ: 7, titel: "Schutz und Sicherheit",
       wirkung: "Diese tiefste der Solfeggio-Frequenzen wird oft mit der Linderung von Schmerz und Stress assoziiert. Sie soll den K\xf6rper beruhigen und Stabilit\xe4t geben.",
       chakra: "Wirkt erdend und hilft, ein Gef\xfchl von Sicherheit zu schaffen &mdash; korrespondiert mit dem Wurzelchakra." },
-    { hz: 285, titel: "Regeneration und Heilung",
+    { hz: 285, typ: 8, titel: "Regeneration und Heilung",
       wirkung: "Unterst\xfctzt die Regeneration von Gewebe und Zellen und wird mit k\xf6rperlicher Heilung in Verbindung gebracht.",
       chakra: "F\xf6rdert ein Gef\xfchl der Ganzheit und Erneuerung &mdash; der K\xf6rper wird energetisch gest\xe4rkt." },
-    { hz: 396, titel: "Befreiung von Schuld und Angst",
+    { hz: 396, typ: 9, titel: "Befreiung von Schuld und Angst",
       wirkung: "Diese Frequenz wird verwendet, um emotionale Blockaden zu l\xf6sen, insbesondere Schuldgef\xfchle und \xc4ngste. Sie hilft, inneren Frieden zu finden.",
       chakra: "Unterst\xfctzt das Wurzelchakra und bringt Stabilit\xe4t und Kraft." },
-    { hz: 417, titel: "Ver\xe4nderung und Neubeginn",
+    { hz: 417, typ: 1, titel: "Ver\xe4nderung und Neubeginn",
       wirkung: "Hilft dabei, alte Muster und Gewohnheiten aufzul\xf6sen, um Platz f\xfcr Wachstum zu schaffen.",
       chakra: "St\xe4rkt das Sakralchakra und f\xf6rdert Kreativit\xe4t sowie emotionale Transformation." },
-    { hz: 528, titel: "Liebe und DNA-Heilung",
-      wirkung: "Oft als „Liebesfrequenz“ bezeichnet &mdash; soll die DNA reparieren und Liebe sowie Heilung f\xf6rdern. Sie wird mit tiefer Harmonie und Vitalit\xe4t in Verbindung gebracht.",
+    { hz: 528, typ: 2, titel: "Liebe und DNA-Heilung",
+      wirkung: "Oft als \u201eLiebesfrequenz\u201c bezeichnet &mdash; soll die DNA reparieren und Liebe sowie Heilung f\xf6rdern. Sie wird mit tiefer Harmonie und Vitalit\xe4t in Verbindung gebracht.",
       chakra: "\xd6ffnet das Herzchakra und vertieft die emotionale Verbindung." },
-    { hz: 639, titel: "Harmonie in Beziehungen",
+    { hz: 639, typ: 3, titel: "Harmonie in Beziehungen",
       wirkung: "Diese Frequenz hilft, harmonische Beziehungen aufzubauen und zwischenmenschliche Konflikte zu l\xf6sen.",
       chakra: "Aktiviert das Herzchakra und f\xf6rdert Empathie und Verst\xe4ndnis." },
-    { hz: 741, titel: "Reinigung und Selbstausdruck",
+    { hz: 741, typ: 4, titel: "Reinigung und Selbstausdruck",
       wirkung: "Unterst\xfctzt bei der Reinigung von negativen Energien und Toxinen und hilft, klar zu kommunizieren.",
       chakra: "F\xf6rdert das Kehlchakra und hilft, die eigene Wahrheit authentisch auszudr\xfccken." },
-    { hz: 852, titel: "Intuition und spirituelles Erwachen",
+    { hz: 852, typ: 5, titel: "Intuition und spirituelles Erwachen",
       wirkung: "Sch\xe4rft die Intuition und bringt den Geist in Einklang mit h\xf6heren spirituellen Dimensionen.",
       chakra: "\xd6ffnet das Stirnchakra und f\xf6rdert das spirituelle Bewusstsein." },
-    { hz: 963, titel: "Einheit und Verbindung mit dem Universum",
+    { hz: 963, typ: 6, titel: "Einheit und Verbindung mit dem Universum",
       wirkung: "Diese Frequenz wird mit der Aktivierung der Zirbeldr\xfcse und der Erfahrung von Einheit und g\xf6ttlicher Verbundenheit in Verbindung gebracht.",
       chakra: "\xd6ffnet das Kronenchakra und f\xf6rdert die Verbindung zur universellen Energie." },
   ];
 
   const kartenHTML = frequenzen.map((f, i) => `
     <div style="margin-bottom:1.2rem;padding:1.3rem 1.5rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);">
-      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0 0 .15rem;">${f.hz} Hz</p>
-      <p style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .6rem;">${f.titel}</p>
-      <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:0 0 .4rem;"><strong>Wirkung:</strong> ${f.wirkung}</p>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.15rem;flex-wrap:wrap;">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;">
+            <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0;">${f.hz} Hz &mdash; ${f.titel}</p>
+            <span style="font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cream,#f5f0e8);background:var(--anthracite,#2a2a2a);padding:.15rem .55rem;border-radius:999px;font-weight:700;white-space:nowrap;">Typ ${f.typ}</span>
+          </div>
+        <button class="solf-play-btn" data-hz="${f.hz}"
+          style="display:flex;align-items:center;gap:.35rem;background:var(--gold,#c8a84b);color:#1a1208;border:none;border-radius:999px;padding:.3rem .85rem;font-size:.78rem;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0;">
+          ▶ Anhören
+        </button>
+      </div>
+      <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:.5rem 0 .4rem;"><strong>Wirkung:</strong> ${f.wirkung}</p>
       <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:0;font-style:italic;">${f.chakra}</p>
     </div>
   `).join("");
@@ -29388,6 +29396,43 @@ document.addEventListener("click", (e) => {
   ripple.style.top  = (e.clientY - rect.top  - 30) + "px";
   btn.appendChild(ripple);
   ripple.addEventListener("animationend", () => ripple.remove());
+});
+
+// Solfeggio-Frequenz-Player (reine Sinust\xf6ne via Web Audio API)
+let _solfeggioCtx = null, _solfeggioOsc = null, _solfeggioActiveHz = null;
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".solf-play-btn");
+  if (!btn) return;
+  const hz = parseFloat(btn.dataset.hz);
+  // Laufenden Ton stoppen
+  if (_solfeggioCtx) {
+    try { _solfeggioOsc.stop(); } catch(ex) {}
+    _solfeggioCtx.close();
+    _solfeggioCtx = null; _solfeggioOsc = null;
+    document.querySelectorAll(".solf-play-btn").forEach(b => {
+      b.innerHTML = "&#9654; Anh\xf6ren"; b.style.background = "var(--gold,#c8a84b)"; b.style.color = "#1a1208";
+    });
+    if (_solfeggioActiveHz === hz) { _solfeggioActiveHz = null; return; } // gleicher Button = nur stopp
+  }
+  // Neuen Ton starten
+  _solfeggioActiveHz = hz;
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  if (ctx.state === "suspended") ctx.resume();
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = "sine";
+  osc.frequency.value = hz;
+  gain.gain.setValueAtTime(0.22, ctx.currentTime);
+  gain.gain.setValueAtTime(0.22, ctx.currentTime + 55);
+  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 60);
+  osc.connect(gain); gain.connect(ctx.destination);
+  osc.start(); osc.stop(ctx.currentTime + 60);
+  osc.onended = () => {
+    _solfeggioCtx = null; _solfeggioActiveHz = null;
+    if (btn.isConnected) { btn.innerHTML = "&#9654; Anh\xf6ren"; btn.style.background = "var(--gold,#c8a84b)"; btn.style.color = "#1a1208"; }
+  };
+  _solfeggioCtx = ctx; _solfeggioOsc = osc;
+  btn.innerHTML = "&#9646;&#9646; Stopp"; btn.style.background = "var(--copper,#8b5e3c)"; btn.style.color = "#fff";
 });
 
 render();
