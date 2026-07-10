@@ -27432,6 +27432,12 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
+  const klangPreload = {}; // pre-buffered Audio elements keyed by sound id
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
+  function klangCdnUrl(id) {
+    const t = (id === "gewitter" || id === "blizzard") ? "so_0,eo_180/br_64k/" : "br_64k/";
+    return "https://res.cloudinary.com/ymooybdl/video/upload/" + t + "kompass/stille-sounds/" + id + ".mp3";
+  }
 
   function stopKlang() {
     if (klangStop) { try { klangStop(); } catch(e) {} klangStop = null; }
@@ -27445,9 +27451,12 @@ function _stilleInit() {
     const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
     if (REAL_SOUNDS.has(id)) {
       const TRIM_3MIN = new Set(["gewitter","blizzard"]);
-      const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/" : "";
+      // br_64k = 64 kbps — reduces large files (e.g. 34 MB → 11 MB) for fast mobile buffering
+      const transform = TRIM_3MIN.has(id) ? "so_0,eo_180/br_64k/" : "br_64k/";
       const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/" + transform + "kompass/stille-sounds/";
-      const audio = new Audio(cdn + id + ".mp3");
+      const cached = klangPreload[id];
+      const audio = cached || new Audio(cdn + id + ".mp3");
+      delete klangPreload[id];
       audio.loop = true;
       audio.volume = 0.7;
       audio.play().catch(() => {});
@@ -28507,6 +28516,13 @@ function _stilleInit() {
         tagsEl.innerHTML = tags.map(t =>
           `<span style="font-size:.72rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
         ).join("");
+      }
+      // Preload audio when selected (starts buffering before Start is pressed)
+      if (REAL_SOUNDS_ALL.has(gewaehlterKlang) && !klangPreload[gewaehlterKlang]) {
+        const a = new Audio(klangCdnUrl(gewaehlterKlang));
+        a.preload = "auto";
+        a.load();
+        klangPreload[gewaehlterKlang] = a;
       }
       // Vorschau wenn Timer bereits läuft
       if (laedt && interval) starteKlang(gewaehlterKlang);
