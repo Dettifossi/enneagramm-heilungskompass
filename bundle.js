@@ -27451,10 +27451,11 @@ function _stilleInit() {
     if (REAL_SOUNDS.has(id)) {
       const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/";
       const cached = klangPreload[id];
-      const audio = cached || new Audio(cdn + id + ".mp3");
       delete klangPreload[id];
+      const audio = cached || new Audio(cdn + id + ".mp3");
       audio.loop = true;
       audio.volume = 0.7;
+      audio.currentTime = 0;
       audio.play().catch(() => {});
       klangStop = () => { audio.pause(); audio.src = ""; };
       return;
@@ -28513,11 +28514,15 @@ function _stilleInit() {
           `<span style="font-size:.72rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
         ).join("");
       }
-      // Preload audio when selected (starts buffering before Start is pressed)
-      if (REAL_SOUNDS_ALL.has(gewaehlterKlang) && !klangPreload[gewaehlterKlang]) {
+      // iOS fix: Audio-Element sofort per User-Geste entsperren (play+pause).
+      // Danach bleibt es dauerhaft entsperrt — auch wenn Start erst später gedrückt wird.
+      if (REAL_SOUNDS_ALL.has(gewaehlterKlang)) {
+        const prev = klangPreload[gewaehlterKlang];
+        if (prev) { try { prev.pause(); prev.src = ""; } catch(e) {} }
         const a = new Audio(klangCdnUrl(gewaehlterKlang));
         a.preload = "auto";
-        a.load();
+        a.volume = 0.001;
+        a.play().then(() => { a.pause(); a.currentTime = 0; a.volume = 0.7; }).catch(() => {});
         klangPreload[gewaehlterKlang] = a;
       }
       // Vorschau wenn Timer bereits läuft
