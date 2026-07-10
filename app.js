@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24199,6 +24199,68 @@ function humorDer9TypenPage() {
   `);
 }
 
+function zehnAnwendungenPage() {
+  const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783721122/kompass/stille-sounds/zehn-anwendungen-schaubild.png";
+  const anwendungen = [
+    { nr:1, titel:"Pers\xf6nliches Wachstum",
+      text:"Das Enneagramm als Selbsterkenntnismodell beginnt mit Selbstmanagement. Wir lernen zu erkennen, wie selektiv wir durch die Brille unseres Typs wahrnehmen und wie stark unsere Handlungsalternativen durch automatische Reaktionen und Muster eingeschr\xe4nkt werden. Wer das versteht, gewinnt dadurch einen enormen Effektivit\xe4tsgewinn &mdash; weil er nach und nach immer besser lernt, ganzheitlich und urteilsfrei wahrzunehmen: 360 Grad der Realit\xe4t statt nur einem Neuntel davon." },
+    { nr:2, titel:"Ver\xe4nderungsmanagement",
+      text:"Gerade wenn Menschen sich unsicher f\xfchlen und nicht ganz bewusst agieren, zeigen sie st\xe4rker ihr typspezifisches Verhalten. Das macht Widerspr\xfcche und Widerst\xe4nde in Ver\xe4nderungsprozessen erkl\xe4rbar. Enneagrammkenntnisse helfen, das Personalmanagement w\xe4hrend Ver\xe4nderungen gezielt zu unterst\xfctzen &mdash; Prozesse laufen gl\xe4tter, Mitarbeiter kommen leichter mit." },
+    { nr:3, titel:"Dauerhafte Beziehungen",
+      text:"Zwischen Menschen zu verstehen, anzuerkennen und zu sch\xe4tzen zu lernen, ist vielleicht der gr\xf6\xdfte Gewinn durch das Enneagramm. Zu verstehen, dass die Dinge bei anderen anders sind, f\xfchrt automatisch zu mehr Geduld und Mitgef\xfchl. Hinterher h\xf6rt man immer wieder von Menschen, dass sie, nachdem sie Enneagrammkenntnisse erworben haben, abends zu Hause ein ganz anderes, wunderbares Gespr\xe4ch gef\xfchrt haben." },
+    { nr:4, titel:"Mehr Erfolg bei der Mediation",
+      text:"Das Enneagramm bietet Mediatoren eine Abk\xfcrzung zu fundierter Menschenkenntnis und Einf\xfchlungsverm\xf6gen. Je besser ein Mediator die menschliche und emotionale Seite eines Konflikts in den Griff bekommt, desto h\xe4ufiger wird er ein befriedigendes Ergebnis verbuchen k\xf6nnen. Besonders bei Scheidungen und Trennungen, bei denen Kinder betroffen sind, ist fundiertes Enneagrammwissen au\xdferordentlich wertvoll." },
+    { nr:5, titel:"Effektivit\xe4tsgewinn als Manager",
+      text:"F\xfchrungskr\xe4fte neigen neben Anderen auch dazu, andere auf der Grundlage ihrer eigenen Selbstverst\xe4ndlichkeiten zu f\xfchren. Das Enneagramm dient ihnen als Handbuch, wie sie mit anderen Menschentypen umgehen k\xf6nnen &mdash; eine Anleitung f\xfcr situationsbezogenes Management, das hilft, eigene Selbstverst\xe4ndlichkeiten loszulassen und neue Handlungsoptionen zu gewinnen." },
+    { nr:6, titel:"Lernende Organisationen, Projektmanagement, Siegerteams",
+      text:"Das Enneagramm bietet die fundierte Menschenkenntnis, das Vehikel zur Reflexion, das F\xfchrungskr\xe4fte brauchen: f\xfcr die Gestaltung einer lernenden Organisation, f\xfcr erfolgreiches Projektmanagement und beim Schaffen von Siegerteams. Die entscheidende Frage bleibt: Wie k\xf6nnen F\xfchrungskr\xe4fte die eigenen Beschr\xe4nkungen \xfcberwinden, um das zu tun, was n\xf6tig ist &mdash; und wozu sie vielleicht nicht von Natur aus neigen?" },
+    { nr:7, titel:"Unterricht (f\xfcr Lehrkr\xe4fte)",
+      text:"Lehrenden, die die Enneagrammtypen kennen, k\xf6nnen besser verstehen, welche Schwierigkeiten ein Sch\xfcler mit manchen Dingen hat und vor allem warum. Sie k\xf6nnen erkennen, dass sie selbst (und dem Kind) gegen\xfcber vielleicht erkennen, dass ihnen die Begleitung eines bestimmten Kindertyps schwer f\xe4llt. Das Enneagramm hilft dabei, wahrzunehmen, in welcher Richtung die L\xf6sung zu finden ist &mdash; auch bei der Lehrperson selbst." },
+    { nr:8, titel:"Personalbeschaffung",
+      text:"Das Enneagramm ist sinnvoll bei der Personalbeschaffung, wenn es darum geht, zwei geeignete Kandidaten auszuw\xe4hlen und festzustellen, welcher der beiden in seiner Pers\xf6nlichkeitsstruktur besser zum zuk\xfcnftigen Chef und zum Rest des Teams passt. Wichtig: Das Enneagramm darf nicht zur Stereotypisierung verwendet werden &mdash; pers\xf6nliche Entwicklung und Lernverm\xf6gen z\xe4hlen ebenso." },
+    { nr:9, titel:"Erziehung",
+      text:"Eine der sch\xf6nsten Anwendungsm\xf6glichkeiten. Gerade die sozial-emotionale Entwicklung w\xe4hrend des Heranwachsens hat starken Einfluss auf das sp\xe4tere Verhalten als Erwachsener. Das Enneagramm hilft, sich besser auf das einzelne Kind abzustimmen &mdash; die Pers\xf6nlichkeitsstruktur des Kindes entwickelt sich zwar noch, zeigt sich aber bereits in jungen Jahren. Aufmerksame ErzieherInnen, die die Kinder wirklich sehen und h\xf6ren, k\xf6nnen das auch ohne Enneagramm." },
+    { nr:10, titel:"Elternschaft",
+      text:"Erziehung und Elternschaft klingt \xe4hnlich, aber es gibt einen gro\xdfen Unterschied. Elternschaft ist das, was wir mit den Kindern tun und ihnen anbieten. Sich in der eigenen Elternrolle zu entwickeln ist etwas anderes: Es geht darum, wie man sich selbst erzieht, was man sich selbst beibringt. Das Enneagramm eignet sich hier als Hilfsmittel, als hilfreiches Tool, um bewusst gemeinsam Elternschaft und Erziehung auszuf\xfcllen." },
+  ];
+
+  const kartenHTML = anwendungen.map(a => `
+    <div style="margin-bottom:1.5rem;padding:1.4rem 1.6rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);">
+      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0 0 .2rem;">Anwendung ${a.nr}</p>
+      <p style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .75rem;">${a.titel}</p>
+      <p style="font-size:.9rem;line-height:1.75;color:var(--anthracite);margin:0;">${a.text}</p>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("zehn-anwendungen-fuer-das-enneagramm")}
+      <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
+        <p class="eyebrow">Schaubilder &middot; Anwendung &middot; Praxis</p>
+        <h1 class="section-title">Zehn Anwendungen f\xfcr das Enneagramm</h1>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.5rem;">Das Enneagramm ist vielseitig anwendbar. Weil es dabei um unser Handeln als Mensch geht, ist das Enneagramm auf jedem Gebiet unseres Lebens einsetzbar &mdash; privat so wie beruflich gleicherma\xdfen. Mit einer Sache haben wir dabei t\xe4glich zu tun: die Beziehung zwischen zwei und mehr Personen. Die folgenden zehn Themen zeigen, wie vielf\xe4ltig die Vorteile des Enneagramms wirklich sind &mdash; und laden ein, die eigenen Gebiete und Themen noch tiefer zu erkunden.</p>
+      </div>
+
+      <img src="${IMG}" alt="10 Anwendungen f\xfcr das Enneagramm &mdash; \xdcbersicht"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
+
+      <div class="vb-section" style="max-width:100%;">
+        ${kartenHTML}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Das Standardwerk zum Einstieg &mdash; Typen, Leidenschaften und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("enneagramm-profiling", "Menschenkenntnis im Alltag und Beruf &mdash; das Profilingsystem nach Rathmer.", "Enneagramm-Profiling")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-profiling", label:"Enneagramm-Profiling"},
+        {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
+        {route:"humor-der-9-typen", label:"Humor der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function haikuDer9TypenPage() {
   const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783719838/kompass/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
@@ -29069,6 +29131,7 @@ function render() {
     "limericks": limericksPage,
     "haiku-der-9-typen": haikuDer9TypenPage,
     "humor-der-9-typen": humorDer9TypenPage,
+    "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,
     "rumi-zitate": rumiZitatePage,
     "suche-nach-liebe": sucheNachLiebePage,
