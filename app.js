@@ -24189,6 +24189,7 @@ function humorDer9TypenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer ganzen Tiefe &mdash; Leidenschaften, Wunden und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 27 Subtypen als innere Landkarte &mdash; Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
       </div>
       ${relatedLinks([
         {route:"limericks", label:"Die 9 Enneagramm-Limericks"},
