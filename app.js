@@ -139,7 +139,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -4757,6 +4757,70 @@ function spirituelleUebungenPage() {
     </section>
   `);
 }
+
+const PORTRAIT_TYPEN = [
+  { nr: 1, name: "Der Reformer",        subtypen: "SE1 · SO1 · SX1", start: 1,  farbe: "#7a7a7a",
+    intro: "Der Typ 1 trägt das Prinzip der Perfektion in sich — einen inneren Richter, der unablässig prüft, bewertet und verbessert. Diese Seiten zeigen alle drei Subtypen: der selbsterhaltende Einser (SE1) kämpft um Selbstbeherrschung und Kontrolle, der soziale Einser (SO1) wird zum Lehrer und Vorbild, der sexuelle Einser (SX1) trägt seine Reform in Beziehungen und die Welt hinaus." },
+  { nr: 2, name: "Der Helfer",           subtypen: "SE2 · SO2 · SX2", start: 9,  farbe: "#8b3a8b",
+    intro: "Der Typ 2 lebt aus dem Impuls der Liebe — einem tiefen Bedürfnis zu geben, gebraucht zu werden und zu verbinden. Der selbsterhaltende Zweier (SE2) zeigt seine Hilflosigkeit nach außen, der soziale Zweier (SO2) wird zur Verführerin in Gruppen, der sexuelle Zweier (SX2) überflutet einzelne Menschen mit Wärme und Aufmerksamkeit." },
+  { nr: 3, name: "Der Macher",           subtypen: "SE3 · SO3 · SX3", start: 17, farbe: "#009b9b",
+    intro: "Der Typ 3 ist der Archetyp des Erfolgs — schillernd, effizient, imageorientiert. Der selbsterhaltende Dreier (SE3) schafft Sicherheit durch stille Leistung, der soziale Dreier (SO3) sucht öffentliche Anerkennung, der sexuelle Dreier (SX3) bezaubert als charismatischer Verführer." },
+  { nr: 4, name: "Der Individualist",    subtypen: "SE4 · SO4 · SX4", start: 25, farbe: "#1a5c1a",
+    intro: "Der Typ 4 trägt die Sehnsucht nach dem Besonderen — und den Schmerz des Andersseins. Der selbsterhaltende Vierer (SE4) leidet still und kompensiert durch Ausdauer, der soziale Vierer (SO4) zeigt seinen Schmerz und sucht Mitgefühl, der sexuelle Vierer (SX4) kämpft um Intensität und projiziert seinen Mangel auf andere." },
+  { nr: 5, name: "Der Beobachter",       subtypen: "SE5 · SO5 · SX5", start: 33, farbe: "#1a3a8b",
+    intro: "Der Typ 5 zieht sich zurück, um zu verstehen — Wissen ist sein Schutzwall gegen eine Welt, die zu viel fordert. Der selbsterhaltende Fünfer (SE5) baut sich einen privaten Rückzugsraum, der soziale Fünfer (SO5) sucht den Zugang zur Welt über Ideen und Systeme, der sexuelle Fünfer (SX5) verbindet sich tief — aber nur mit einem einzigen Menschen." },
+  { nr: 6, name: "Der Loyale",           subtypen: "SE6 · SO6 · SX6", start: 41, farbe: "#8b6914",
+    intro: "Der Typ 6 ist der Hüter der Gemeinschaft — loyal, wachsam, zutiefst auf Sicherheit bedacht. Der selbsterhaltende Sechser (SE6) sucht Schutz in Vertrauen und Nähe (phobisch), der soziale Sechser (SO6) folgt Regeln und Autoritäten, der sexuelle Sechser (SX6) bekämpft die Angst durch Stärke und Provokation (kontraphobisch)." },
+  { nr: 7, name: "Der Enthusiast",       subtypen: "SE7 · SO7 · SX7", start: 49, farbe: "#c17f00",
+    intro: "Der Typ 7 ist die Energie der Freude — immer auf der Suche nach dem nächsten Erlebnis, dem nächsten Plan, der nächsten Möglichkeit. Der selbsterhaltende Siebener (SE7) sichert sich durch Netzwerke ab, der soziale Siebener (SO7) opfert sich im Dienst an anderen, der sexuelle Siebener (SX7) sucht Ideale und Visionen, die ihn begeistern." },
+  { nr: 8, name: "Der Herausforderer",   subtypen: "SE8 · SO8 · SX8", start: 57, farbe: "#8b1a1a",
+    intro: "Der Typ 8 trägt Macht, Stärke und ungebrochene Lebendigkeit in sich — er schützt die Schwachen und duldet keine Kontrolle von außen. Der selbsterhaltende Achter (SE8) kontrolliert Territorium und Ressourcen, der soziale Achter (SO8) kämpft für Gerechtigkeit und seine Gruppe, der sexuelle Achter (SX8) sucht intensive Verbindung und provoziert ohne Scheu." },
+  { nr: 9, name: "Der Friedensstifter",  subtypen: "SE9 · SO9 · SX9", start: 65, farbe: "#2e6b2e",
+    intro: "Der Typ 9 trägt das Prinzip des Friedens — eine tiefe Sehnsucht nach Harmonie, Einheit und dem Verschmelzen aller Widersprüche. Der selbsterhaltende Neuner (SE9) findet seinen Frieden in kleinen Ritualen und Trost, der soziale Neuner (SO9) geht in der Gruppe auf, der sexuelle Neuner (SX9) verschmilzt mit anderen Menschen oder Ideen." },
+];
+
+function _portraitTypPage(typ) {
+  const bilder = Array.from({length: 8}, (_, i) => {
+    const nr = String(typ.start + i).padStart(3, "0");
+    return `<div class="psycho-img-wrap" style="margin-bottom:1.5rem;">
+      <img src="assets/schaubilder/portraits-typen/Portraits der 9 Typen und 27 Subtypen.${nr}.jpeg"
+           alt="Portrait Typ ${typ.nr} – Seite ${i+1}" class="psycho-img" loading="lazy"/>
+    </div>`;
+  }).join("");
+
+  const prev = typ.nr > 1 ? `{route:"portrait-typ-${typ.nr-1}", label:"Porträt Typ ${typ.nr-1}"}` : null;
+  const next = typ.nr < 9 ? `{route:"portrait-typ-${typ.nr+1}", label:"Porträt Typ ${typ.nr+1}"}` : null;
+  const related = [
+    {route:"leidenschaft-und-heilung" , label:"Leidenschaft und Heilung"},
+    prev ? eval(`(${prev})`) : null,
+    next ? eval(`(${next})`) : null,
+    {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
+  ].filter(Boolean);
+
+  return shell(`
+    ${pageHeader(`portrait-typ-${typ.nr}`)}
+    <section class="narrow">
+      <p class="eyebrow" style="color:${typ.farbe};">Porträts · 9 Typen / 27 Subtypen</p>
+      <h1>Porträt Typ ${typ.nr}: ${typ.name}</h1>
+      <p style="font-size:0.88rem;color:var(--copper);margin-bottom:0.3rem;">${typ.subtypen}</p>
+      <p class="lead-small">${typ.intro}</p>
+      <div style="margin-top:1.5rem;">${bilder}</div>
+      ${bookTip(`einzelstudie-${["se","so","sx"].map(p=>`${p}${typ.nr}`).join("-")}` , `Die vollständige Einzelstudie zu Typ ${typ.nr} &ndash; ${typ.name}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie Typ ${typ.nr}: ${typ.name}`)}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${relatedLinks(related)}
+    </section>
+  `);
+}
+
+function portraitTyp1Page() { return _portraitTypPage(PORTRAIT_TYPEN[0]); }
+function portraitTyp2Page() { return _portraitTypPage(PORTRAIT_TYPEN[1]); }
+function portraitTyp3Page() { return _portraitTypPage(PORTRAIT_TYPEN[2]); }
+function portraitTyp4Page() { return _portraitTypPage(PORTRAIT_TYPEN[3]); }
+function portraitTyp5Page() { return _portraitTypPage(PORTRAIT_TYPEN[4]); }
+function portraitTyp6Page() { return _portraitTypPage(PORTRAIT_TYPEN[5]); }
+function portraitTyp7Page() { return _portraitTypPage(PORTRAIT_TYPEN[6]); }
+function portraitTyp8Page() { return _portraitTypPage(PORTRAIT_TYPEN[7]); }
+function portraitTyp9Page() { return _portraitTypPage(PORTRAIT_TYPEN[8]); }
 
 function berühmteKomponistenPage() {
   return shell(`
@@ -27437,6 +27501,15 @@ function render() {
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
     "beruhmte-komponisten": berühmteKomponistenPage,
+    "portrait-typ-1": portraitTyp1Page,
+    "portrait-typ-2": portraitTyp2Page,
+    "portrait-typ-3": portraitTyp3Page,
+    "portrait-typ-4": portraitTyp4Page,
+    "portrait-typ-5": portraitTyp5Page,
+    "portrait-typ-6": portraitTyp6Page,
+    "portrait-typ-7": portraitTyp7Page,
+    "portrait-typ-8": portraitTyp8Page,
+    "portrait-typ-9": portraitTyp9Page,
     suche: suchePage,
     quiz: quizPage,
     zitate: zitatePage,
