@@ -2410,6 +2410,7 @@ export const uiText = {
       { route: "walarten-der-9-typen", label: "Walarten der 9 Typen" },
       { route: "insektenarten-der-9-typen", label: "Insektenarten der 9 Typen" },
       { route: "perspektiven", label: "Perspektiven der Mitmenschen" },
+      { route: "portraits-wegbegleiter", label: "Portraits zweier Wegbegleiter" },
       { route: "prinzipien", label: "Prinzipien" },
       { route: "psychogramme", label: "Psychogramme" },
       { route: "schutzdefizite", label: "Schutz-Defizite der Triaden" },

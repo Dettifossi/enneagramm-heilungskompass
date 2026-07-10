@@ -106,7 +106,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 Kunstf\xe4lscher, geb. 1951. \xdcber 50 gef\xe4lschte Meisterwerke, Jahrzehnte unentdeckt \u2013 die sexuelle Neun mit Einserfl\xfcgel: Verschmelzung mit dem Geist toter Meister." , tags:["Betrug"]},
 ];
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -4799,6 +4799,51 @@ function dasEventPage() {
         {route:"naehe", label:"N\xe4he &amp; Distanz"},
         {route:"gaslighting-enneagramm", label:"Gaslighting &amp; Manipulation"},
         {route:"weihnachtsgeschenke", label:"Weihnachtsgeschenke der Typen"},
+      ])}
+    </section>
+  `);
+}
+
+function portraitsWegbegleiterPage() {
+  const BILDER = [
+    { nr: "001", alt: "Portraits zweier Wegbegleiter – Titelbild" },
+    { nr: "002", alt: "David L. Rathmer – Begründer des Enneagramm-Profilings" },
+    { nr: "003", alt: "David L. Rathmer – Portrait" },
+    { nr: "004", alt: "David L. Rathmer – Portrait" },
+    { nr: "005", alt: "David L. Rathmer – Portrait" },
+    { nr: "006", alt: "David L. Rathmer – Portrait" },
+    { nr: "007", alt: "Claudio Naranjo – Portrait" },
+    { nr: "008", alt: "Claudio Naranjo – Portrait" },
+    { nr: "009", alt: "Claudio Naranjo – Portrait" },
+    { nr: "010", alt: "Claudio Naranjo – Portrait" },
+    { nr: "011", alt: "Claudio Naranjo – Portrait" },
+    { nr: "012", alt: "Claudio Naranjo – Portrait" },
+    { nr: "013", alt: "Portraits zweier Wegbegleiter – Abschluss" },
+  ];
+
+  const bilder = BILDER.map(b => `
+    <div class="psycho-img-wrap" style="margin-bottom:2rem;">
+      <img src="assets/schaubilder/portraits-wegbegleiter/Portraits zweier Wegbegleiter.${b.nr}.jpeg"
+           alt="${b.alt}" class="psycho-img" loading="lazy"/>
+    </div>
+  `).join("");
+
+  return shell(`
+    ${pageHeader("portraits-wegbegleiter")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder &middot; Biographie &amp; Begegnung</p>
+      <h1>Portraits zweier Wegbegleiter</h1>
+      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagramm-Profilings, und sein Lehrer <strong>Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt, dessen Tradition Detlef Rathmer mit den 27 Subtypen weiterführt.</p>
+
+      <div style="margin-top:2rem;">
+        ${bilder}
+      </div>
+
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${relatedLinks([
+        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
       ])}
     </section>
   `);
@@ -27153,6 +27198,7 @@ function render() {
     "subtypen-checklisten": subtypChecklistePage,
     "subtypen-schaubilder": subtypeSchaubilderPage,
     "perspektiven": perspektivenPage,
+    "portraits-wegbegleiter": portraitsWegbegleiterPage,
     "mangelgefuehle": mangelgefuehlePage,
     "mikroimpressionen": mikroimpresionenPage,
     "aufmerksamkeitsfokus": aufmerksamkeitsfokusPage,
