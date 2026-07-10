@@ -20868,9 +20868,9 @@ function dynamikBewusstseinszustandesPage() {
       </div>
       ${relatedLinks([
         {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
-        {route:"dynamik-des-bewusstseinszustandes", label:"Dynamik des Bewusstseinszustandes"},
         {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
         {route:"heilungsweg", label:"Heilungsweg des Menschen"},
+        {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
       ])}
     </div>
   `);
@@ -24140,10 +24140,14 @@ function haikuDer9TypenPage() {
   `).join("");
   return shell(`
     <div class="page-container">
-      ${pageHeader("Haiku der 9 Enneagrammtypen", "Schaubilder · Poesie")}
-      <p class="psycho-intro">Das Haiku ist die kürzeste Gedichtform der Welt — drei Zeilen, ein Moment, eine Wahrheit. Jedes dieser neun Haiku hält den Kern eines Enneagrammtyps fest: seine Leidenschaft, seine Wunde und einen leisen Hinweis auf den Weg darüber hinaus.</p>
+      ${pageHeader("haiku-der-9-typen")}
+      <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
+        <p class="eyebrow">Schaubilder &middot; Poesie &middot; Die 9 Typen</p>
+        <h1 class="section-title">Haiku der 9 Enneagrammtypen</h1>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.5rem;">Das Haiku ist die k\xfcrzeste Gedichtform der Welt &mdash; drei Zeilen, ein Moment, eine Wahrheit. Jedes dieser neun Haiku h\xe4lt den Kern eines Enneagrammtyps fest: seine Leidenschaft, seine Wunde und einen leisen Hinweis auf den Weg dar\xfcber hinaus.</p>
+      </div>
 
-      <img src="${HAIKU_IMG}" alt="Japanische Frau in Landschaft — Haiku der 9 Enneagrammtypen"
+      <img src="${HAIKU_IMG}" alt="Japanische Frau in Landschaft &mdash; Haiku der 9 Enneagrammtypen"
         style="width:100%;max-width:620px;display:block;margin:0 auto 2rem;border-radius:14px;border:2px solid var(--gold,#c8a84b);" />
 
       <div class="vb-section" style="max-width:100%;">
