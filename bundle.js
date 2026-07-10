@@ -311,7 +311,10 @@ function nav(active) {
       const lockedBasis = !hasBasis();
       const locked = lockedHeil || lockedBasis;
       const lockTarget = lockedHeil ? "heilwissen" : "basis";
-      const subItems = dropdown.map(({ route: sr, label: sl }) =>
+      const sortedDropdown = label === "Schaubilder"
+        ? [...dropdown].sort((a, b) => a.label.localeCompare(b.label, "de"))
+        : dropdown;
+      const subItems = sortedDropdown.map(({ route: sr, label: sl }) =>
         `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}</button>`
       ).join("");
       const isSchaubilder = label === "Schaubilder";
