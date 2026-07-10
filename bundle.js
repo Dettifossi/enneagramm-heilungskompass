@@ -4833,7 +4833,7 @@ function portraitsWegbegleiterPage() {
     <section class="narrow">
       <p class="eyebrow">Schaubilder &middot; Biographie &amp; Begegnung</p>
       <h1>Portraits zweier Wegbegleiter</h1>
-      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagramm-Profilings, und sein Lehrer <strong>Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt, dessen Tradition Detlef Rathmer mit den 27 Subtypen weiterführt.</p>
+      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagramm-Profilings, und sein Lehrer <strong>Dr. Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt und Begründer der Subtypenlehre des Enneagramms mit 27 Subtypen — dessen Tradition Detlef Rathmer und sein Sohn David gemeinsam weiterführen.</p>
 
       <div style="margin-top:2rem;">
         ${bilder}
