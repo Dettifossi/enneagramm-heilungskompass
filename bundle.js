@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24116,6 +24116,89 @@ function sucheNachLiebePage() {
   `);
 }
 
+function humorDer9TypenPage() {
+  const HUMOR_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783720175/kompass/stille-sounds/humor-elefanten-schaubild.jpg";
+  const typen = [
+    { nr:1, col:"#5f5f5f", titel:"Zorn: Der satirische Humor",
+      art:"Satire wird oft genutzt, um Missstände anzuprangern und auf scheinbar „falsches“ Verhalten hinzuweisen. Satiriker f\xfchlen sich h\xe4ufig von einem Sinn f\xfcr das „Richtige“ oder „Gerechte“ angetrieben.",
+      typ:"Der Perfektionist strebt nach moralischer Integrit\xe4t und hat ein starkes Bed\xfcrfnis, die Welt und sich selbst zu verbessern. Humor als Satire erlaubt ihm, Zorn \xfcber wahrgenommene Unvollkommenheiten zu kanalisieren, ohne direkt destruktiv zu wirken." },
+    { nr:2, col:"#7a2fa8", titel:"Stolz: Der herzliche, soziale Humor",
+      art:"Der „herzliche Humor“ umfasst witzige Bemerkungen, die N\xe4he und Zugeh\xf6rigkeit f\xf6rdern. Es geht weniger um Spott, sondern um eine warme, manchmal auch selbstironische Art, die Verbindung schafft und anderen zeigt, dass man sie wahrnimmt.",
+      typ:"Der Helfer ist stark auf Beziehungen fokussiert und findet Erf\xfcllung darin, gebraucht zu werden. Durch einen herzlichen Humor kann er andere zum Lachen bringen und zeigt damit, dass er ihre Gef\xfchle kennt — was ihm das Gef\xfchl gibt, wichtig und wertvoll zu sein." },
+    { nr:3, col:"#1fa688", titel:"Eitelkeit: Der selbstbewusste, schlagfertige Humor",
+      art:"Schlagfertiger Humor, der oftmals auf Wortwitz und Selbstinszenierung basiert, ist bei humorvollen Pers\xf6nlichkeiten zu finden, die sich selbst gerne in Szene setzen und schnelle, pointierte Antworten geben.",
+      typ:"Der Erfolgsorientierte sucht Anerkennung und wirkt h\xe4ufig charmant und humorvoll, um sein Bild von sich selbst zu st\xfctzen. Sein Humor dient nicht selten dazu, Bewunderung zu wecken — und so wird er im Witz oft zum „Star“ des Moments." },
+    { nr:4, col:"#3cbf1f", titel:"Neid: Der melancholische, ironische Humor",
+      art:"Ironie und Melancholie k\xf6nnen eine Art tiefgr\xfcndigen Humor darstellen, bei dem oft ernste Themen auf bitters\xfc\xdfe Weise behandelt werden. Dieser Humortyp wirkt gleichzeitig anziehend und abgr\xfcndig.",
+      typ:"Der Individualist erlebt oft Gef\xfchle des Mangels und der Sehnsucht. Durch ironischen oder melancholischen Humor kann er seine Wahrnehmung des Lebens als komplex und tiefgr\xfcndig ausdr\xfccken — und gleichzeitig eine gewisse Distanz schaffen, die ihn vor zu intensiver Gef\xfchl\xfcberflutung sch\xfctzt." },
+    { nr:5, col:"#124fcc", titel:"Geiz: Der trockene, intellektuelle Humor",
+      art:"Trockener Humor, oft mit intellektuellen oder subtilen Elementen, spricht diejenigen an, die eine gewisse Distanz und Klarheit bevorzugen. Er basiert auf feinsinnigen, oft understatement-geladenen Pointen.",
+      typ:"Der Beobachter zieht sich gerne zur\xfcck und analysiert aus der Distanz. Sein Humor bleibt oft im Hintergrund und ist eine kontrollierte Ausdrucksform, die ihm erlaubt, seine Beobachtungen ohne emotionale \xdcberfrachtung darzustellen." },
+    { nr:6, col:"#8a5222", titel:"Angst: Der vorsichtige, absurde Humor",
+      art:"Absurder Humor ist oft paradox und spielt mit \xdcbertreibungen oder irrationalem. Er erm\xf6glicht es, \xc4ngste und Unsicherheiten zu benennen und gleichzeitig ins L\xe4cherliche zu ziehen.",
+      typ:"Der Loyale k\xe4mpft mit Zweifel und sucht Sicherheit. Durch absurden Humor kann er die Unvorhersehbarkeit des Lebens verarbeiten, indem er Bedrohliches ins Komische wendet — was ihm erlaubt, sich entspannter der Realit\xe4t zu n\xe4hern." },
+    { nr:7, col:"#d4a800", titel:"V\xf6llerei: Der enthusiastische, verspielte Humor",
+      art:"Dieser Humor ist voller Lebensfreude, Energie und oft recht unbeschwert. Verspielter Humor l\xe4dt dazu ein, sich einfach zu am\xfcsieren und ist h\xe4ufig sehr ansteckend.",
+      typ:"Der Enthusiast liebt es, das Leben in all seinen Facetten zu genie\xdfen und lenkt sich gern von negativen Gedanken ab. Sein Humor ist eine Fluchtm\xf6glichkeit — eine Art, das Leben mit Leichtigkeit zu nehmen und andere mitzurei\xdfen." },
+    { nr:8, col:"#a00802", titel:"Wollust: Der provokative, schwarzhumorige Humor",
+      art:"Provokanter Humor bricht Tabus und bringt oft unangenehme Wahrheiten ans Licht. Er ist kraftvoll und oft auch etwas rau — eine Art, Kontrolle und St\xe4rke zu zeigen.",
+      typ:"Der Herausforderer sch\xe4tzt St\xe4rke und l\xe4sst sich nicht von gesellschaftlichen Normen einschr\xe4nken. Schwarzer Humor gibt ihm die M\xf6glichkeit, seine Wahrnehmung der Welt als „hart“ und oft unerbittlich auszudr\xfccken — und dabei gleichzeitig seine Kraft zu demonstrieren." },
+    { nr:9, col:"#cc6e00", titel:"Tr\xe4gheit: Der friedliche, selbstironische Humor",
+      art:"Selbstironischer Humor wirkt beruhigend und vermittelt eine entspannte Lebenseinstellung. Oft ist er leicht und warm, voller Einsicht in die eigenen kleinen Fehler und Schrulle.",
+      typ:"Der Vermittler sucht Harmonie und vermeidet Konflikte. Durch selbstironischen Humor kann er eine entspannte Atmosph\xe4re schaffen, in der andere sich wohlf\xfchlen. Dieser Humortyp hilft ihm, die eigene „Tr\xe4gheit“ spielerisch zu benennen, ohne sich wirklich selbst infrage zu stellen." },
+  ];
+
+  const typenHTML = typen.map(t => `
+    <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${t.col};">
+      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Typ ${t.nr}</p>
+      <p style="font-size:1rem;font-weight:700;color:${t.col};margin:0 0 .9rem;">${t.titel}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--muted);margin:0 0 .7rem;font-style:italic;">${t.art}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${t.typ}</p>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("humor-der-9-typen")}
+      <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
+        <p class="eyebrow">Schaubilder &middot; Humor &middot; Die 9 Typen</p>
+        <h1 class="section-title">Humor der 9 Enneagrammtypen</h1>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 0.8rem;">Wie kann man einen Menschen &mdash; neben dem Rathmerschen Profilingsystem und den vielen anderen im Buch dargestellten Wegen zur zuverl\xe4ssigen Typisierung &mdash; nach dem Enneagramm noch besser kennenlernen als durch seine Art von Humor?</p>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 0.8rem;">Humor ist eine komplexe Mischung aus emotionalen, kognitiven und sozialen Komponenten. Er wird als Ph\xe4nomen verstanden, das Spannungen l\xf6st, Verbindungen schafft und oft auch als Ventil f\xfcr tieferliegende psychologische Themen dient. Im Kern geht es um die F\xe4higkeit, Widerspr\xfcche, \xdcbertreibungen oder Unstimmigkeiten in der Realit\xe4t zu erkennen und sie auf eine leichte, \xfcberraschende oder freudvolle Weise zu verarbeiten.</p>
+        <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 1rem;">Die Art von Humor, die ein Mensch bevorzugt, entspringt dabei nicht nur dem rationalen Denken &mdash; sie enth\xfcllt auch Paradoxe und Abs\xfcrdes, das dieser Mensch in der Welt wahrnimmt, und ist damit eng mit der F\xe4higkeit zur Abstraktion und zum Perspektivwechsel verbunden. Humor ist daher oft ein <em>psychologischer T\xfcr\xf6ffner</em>: Er gibt tiefe Einblicke in Pers\xf6nlichkeit, Leidenschaften und innere Konflikte &mdash; manchmal deutlicher als alles, was man im Allgemeinen preisgibt.</p>
+        <div style="background:rgba(200,168,75,0.08);border-left:4px solid var(--gold,#c8a84b);border-radius:10px;padding:1.1rem 1.4rem;margin:0 0 1.5rem;">
+          <p style="font-size:.85rem;font-weight:700;color:var(--gold-dark,#a07830);margin:0 0 .6rem;">Ein Schmunzeln &mdash; auch \xfcber sich selbst &mdash; kann verschiedene positive Effekte haben:</p>
+          <ol style="font-size:.88rem;line-height:1.8;color:var(--ink);margin:0;padding-left:1.3rem;">
+            <li><strong>Selbstakzeptanz:</strong> Ein selbstironisches L\xe4cheln hilft, sich selbst besser zu akzeptieren und die eigene Unvollkommenheit positiver zu betrachten.</li>
+            <li><strong>Stressreduktion:</strong> Sich selbst humorvoll zu betrachten baut Stress ab und hilft, eine leichtere Perspektive auf herausfordernde Situationen zu gewinnen.</li>
+            <li><strong>Selbstwertgef\xfchl:</strong> Ein gesundes Ma\xdf an Selbstironie kann zeigen, dass man sich nicht zu ernst nimmt und sich dadurch nicht von anderen definieren l\xe4sst.</li>
+            <li><strong>Resilienz:</strong> Humorvoller Umgang mit sich selbst erh\xf6ht die emotionale Resilienz &mdash; er hilft, R\xfcckschl\xe4ge und Missgesch\xfcke leichter zu bew\xe4ltigen.</li>
+            <li><strong>Soziale Verbindung:</strong> Selbstironischen Humor kann auch zwischenmenschliche Kommunikation erleichtern und Sympathie f\xf6rdern, da er Authentizit\xe4t und eine entspannte Atmosph\xe4re signalisiert.</li>
+          </ol>
+        </div>
+      </div>
+
+      <img src="${HUMOR_IMG}" alt="Die 9 Enneagramm-Elefanten &mdash; humorvolles Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);text-align:center;margin:0 0 1.5rem;">Die Humor-Stile der 9 Typen</h2>
+        ${typenHTML}
+        <p style="font-size:0.92rem;line-height:1.75;color:var(--anthracite);margin:1.5rem 0 0;padding:1.2rem 1.4rem;background:rgba(0,0,0,0.03);border-radius:12px;">Diese <em>humoristische Typologie des Enneagramms</em> zeigt, wie die spezifischen Pers\xf6nlichkeitsmuster in Form von Humor Ausdruck finden k\xf6nnen. Humor bietet f\xfcr jeden Typ die M\xf6glichkeit, innere Spannungen abzubauen, seine Leidenschaften zu kanalisieren und mit der Umwelt auf eine Weise zu interagieren, die seiner grundlegenden Lebenshaltung entspricht &mdash; eine Br\xfccke zur inneren Balance und zum Selbstausdruck.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer ganzen Tiefe &mdash; Leidenschaften, Wunden und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"limericks", label:"Die 9 Enneagramm-Limericks"},
+        {route:"haiku-der-9-typen", label:"Haiku der 9 Typen"},
+        {route:"tierentsprechungen", label:"Tierentsprechungen der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function haikuDer9TypenPage() {
   const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783719838/kompass/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
@@ -28985,6 +29068,7 @@ function render() {
     "verantwortung": verantwortungPage,
     "limericks": limericksPage,
     "haiku-der-9-typen": haikuDer9TypenPage,
+    "humor-der-9-typen": humorDer9TypenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,
     "rumi-zitate": rumiZitatePage,
     "suche-nach-liebe": sucheNachLiebePage,

@@ -129,6 +129,7 @@ export const registerEntries = [
   { term: "Leidenschaft",            route: "gifte-des-geistes",        description: "Schaubild: die neun Hauptleidenschaften" },
   { term: "Limericks",               route: "limericks",                description: "Die 9 Enneagrammtypen als rhythmische F\xfcnfzeiler mit transformierender Pointe" },
   { term: "Haiku der 9 Typen",      route: "haiku-der-9-typen",        description: "Neun japanische Kurzgedichte — je ein Haiku h\xe4lt den Kern eines Enneagrammtyps fest." },
+  { term: "Humor der 9 Typen",      route: "humor-der-9-typen",        description: "Die Humor-Stile der 9 Enneagrammtypen — vom satirischen Typ-1-Witz bis zum selbstironischen Schmunzeln des Typ 9." },
   { term: "Lookalike-Typen",         route: "lookalike-typen",          description: "Schaubild: häufig verwechselte Typen im Vergleich" },
   { term: "Löwe",                    route: "tierlexikon/so8",              description: "Tierarchetyp des SO8 · Typ 8 · Bauchzentrum" },
 
