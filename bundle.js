@@ -24249,8 +24249,10 @@ function zehnAnwendungenPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Das Standardwerk zum Einstieg &mdash; Typen, Leidenschaften und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
-        ${bookTip("enneagramm-profiling", "Menschenkenntnis im Alltag und Beruf &mdash; das Profilingsystem nach Rathmer.", "Enneagramm-Profiling")}
+        ${bookTip("wer-du-wirklich-bist-1", "Das Standardwerk zum Einstieg &mdash; Typen, Leidenschaften und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("sprache-unserer-beziehungen", "Wie die 9 Typen Beziehungen erleben, gestalten und daran wachsen k\xf6nnen.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("sprache-der-sexualitaet", "Der sexuelle Subtyp und die Kraft der Anziehung &mdash; tiefgehend und erhellend.", "Die Sprache unserer Sexualit\xe4t")}
+        ${bookTip("fuehrung-mit-fundament", "F\xfchrungskr\xe4fte und Teams verstehen &mdash; das Enneagramm als F\xfchrungskompass.", "F\xfchrung mit Fundament")}
       </div>
       ${relatedLinks([
         {route:"enneagramm-profiling", label:"Enneagramm-Profiling"},
