@@ -5847,7 +5847,7 @@ const TIER_DOKU = {
   SX5: { ytId: "vP9LcVgXYTE",  start: 0, titel: "Igel – Igelrettungsstation in Fürth",              kanal: "BR" },
   SE6: { ytId: "cHAIYpFO5bA",  start: 0, titel: "Kaninchen – gesellig oder Einzelgänger?",        kanal: "OLI's Wilde Welt / SWR" },
   SO6: { ytId: "vsWivaf9ZGY",  start: 0, titel: "Das Erdmännchen",                               kanal: "Unsere Tierwelt" },
-  SX6: { ytId: "EX54rl8CNwU",  start: 0, titel: "Wolf – Schießen oder schützen?",                kanal: "NDR Story" },
+  SX6: { ytId: "vC9Qur4VOl8",  start: 0, titel: "Wölfe – Ruf der Wildnis",                      kanal: "OLIs Wilde Welt / SWR" },
   SE7: { ytId: "Se7jaFtVJmA",  start: 0, titel: "Im Nebelwald der Gorillas",                      kanal: "ZDF / Pia und die wilde Natur" },
   SO7: { ytId: "CHTnJwvKKU0",  start: 0, titel: "Der Biber und seine Burg",                       kanal: "ZDF / Paula und die wilden Tiere" },
   SX7: { ytId: "OYlkjjTM3Zo",  start: 0, titel: "Das Geheimnis der Schimpansen",                  kanal: "Real Wild Deutschland" },
