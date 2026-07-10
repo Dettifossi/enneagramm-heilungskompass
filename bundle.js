@@ -26852,6 +26852,7 @@ function stillePage() {
             {id:"kuckuck",     icon:"🌿",  label:"Kuckuck"},
             {id:"eule",        icon:"🦉",  label:"Eule"},
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
+            {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -27566,27 +27567,62 @@ function _stilleInit() {
       });
 
     } else if (id === "cafe") {
-      // Café-Atmosphäre: Stimmengemurmel + Tassen + gedämpfter Hintergrund
-      master.gain.setValueAtTime(0.18, ctx.currentTime);
-      // Stimmengemurmel: gefiltertes Rauschen in Sprachfrequenzen
-      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
-      const bp = ctx.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = 500; bp.Q.value = 0.8;
-      const lp = lpf(3000);
-      // LFO für Lautstärkefluktuationen (jemand lacht, spricht lauter)
-      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
-      lfo.frequency.value = 0.15; lfoG.gain.value = 0.05;
-      lfo.connect(lfoG); lfoG.connect(master.gain);
-      src.connect(bp); bp.connect(lp); lp.connect(master); src.start(); lfo.start(); nodes.push(src, lfo);
+      // Café-Atmosphäre: mehrere Gesprächskanäle + Kaffeemaschine + Tassen
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      // 5 unabhängige Gesprächskanäle mit Sprechpausen
+      const voiceFreqs = [220, 340, 480, 620, 800];
+      voiceFreqs.forEach((freq, i) => {
+        function sprechBurst() {
+          if (stopped) return;
+          const dur = 0.4 + Math.random() * 1.8;
+          const pause = 0.6 + Math.random() * 3.0;
+          const vol = 0.03 + Math.random() * 0.04;
+          const src2 = ctx.createBufferSource(); src2.buffer = pinkBuf; src2.loop = true;
+          const bp2 = ctx.createBiquadFilter(); bp2.type = "bandpass";
+          bp2.frequency.value = freq + (Math.random() - 0.5) * 80;
+          bp2.Q.value = 3 + Math.random() * 3;
+          const lp2 = ctx.createBiquadFilter(); lp2.type = "lowpass"; lp2.frequency.value = 3500;
+          const gv = ctx.createGain(); gv.gain.setValueAtTime(0, ctx.currentTime);
+          gv.gain.linearRampToValueAtTime(vol, ctx.currentTime + 0.06);
+          gv.gain.setValueAtTime(vol, ctx.currentTime + dur - 0.08);
+          gv.gain.linearRampToValueAtTime(0, ctx.currentTime + dur);
+          src2.connect(bp2); bp2.connect(lp2); lp2.connect(gv); gv.connect(master);
+          src2.start(); src2.stop(ctx.currentTime + dur + 0.05);
+          setTimeout(sprechBurst, (dur + pause) * 1000);
+        }
+        setTimeout(sprechBurst, i * 400 + Math.random() * 800);
+      });
+      // Leise Raumakustik-Basis
+      const room = ctx.createBufferSource(); room.buffer = pinkBuf; room.loop = true;
+      const roomBp = ctx.createBiquadFilter(); roomBp.type = "bandpass";
+      roomBp.frequency.value = 700; roomBp.Q.value = 0.3;
+      const roomG = ctx.createGain(); roomG.gain.value = 0.015;
+      room.connect(roomBp); roomBp.connect(roomG); roomG.connect(master); room.start();
+      nodes.push(room);
+      // Kaffeemaschine: Dampf-Zisch alle 20-45s
+      function kaffeeMaschine() {
+        if (stopped) return;
+        const dur = 1.2 + Math.random() * 0.8;
+        const src3 = ctx.createBufferSource(); src3.buffer = whiteBuf; src3.loop = true;
+        const hp = ctx.createBiquadFilter(); hp.type = "highpass"; hp.frequency.value = 3000;
+        const gkm = ctx.createGain(); gkm.gain.setValueAtTime(0, ctx.currentTime);
+        gkm.gain.linearRampToValueAtTime(0.06, ctx.currentTime + 0.1);
+        gkm.gain.setValueAtTime(0.06, ctx.currentTime + dur - 0.15);
+        gkm.gain.linearRampToValueAtTime(0, ctx.currentTime + dur);
+        src3.connect(hp); hp.connect(gkm); gkm.connect(master);
+        src3.start(); src3.stop(ctx.currentTime + dur + 0.1);
+        setTimeout(kaffeeMaschine, 20000 + Math.random() * 25000);
+      }
+      setTimeout(kaffeeMaschine, 5000 + Math.random() * 10000);
       // Tassenklappern
       function tasse() {
         if (stopped) return;
         const o = ctx.createOscillator(); const g = ctx.createGain();
         o.type = "sine"; o.frequency.value = 900 + Math.random() * 600;
         g.gain.setValueAtTime(0, ctx.currentTime);
-        g.gain.linearRampToValueAtTime(0.08, ctx.currentTime + 0.003);
+        g.gain.linearRampToValueAtTime(0.07, ctx.currentTime + 0.003);
         g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.2);
         o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.22);
-        // Manchmal doppeltes Klappern
         if (Math.random() < 0.25) {
           setTimeout(() => {
             if (stopped) return;
@@ -27597,9 +27633,9 @@ function _stilleInit() {
             o2.connect(g2); g2.connect(master); o2.start(); o2.stop(ctx.currentTime + 0.16);
           }, 80 + Math.random() * 60);
         }
-        setTimeout(tasse, 2000 + Math.random() * 5000);
+        setTimeout(tasse, 2500 + Math.random() * 5000);
       }
-      setTimeout(tasse, 1000 + Math.random() * 2000);
+      setTimeout(tasse, 800 + Math.random() * 2000);
 
     } else if (id === "zug") {
       // Fahrt im Zug: rhythmisches Rattern der Schienen
@@ -28000,6 +28036,50 @@ function _stilleInit() {
       }
       wolfHeulen(2000 + Math.random() * 4000);
       setTimeout(() => wolfHeulen(0), 8000 + Math.random() * 15000); // nächste Gruppe
+
+    } else if (id === "seehund") {
+      // Seehundbabys: Wellenrauschen + klagende Baby-Rufe
+      master.gain.setValueAtTime(0.25, ctx.currentTime);
+      // Ozean-Basis: sanfte Wellen
+      const waveSrc = ctx.createBufferSource(); waveSrc.buffer = brownBuf; waveSrc.loop = true;
+      const waveLp = lpf(600); const waveG = ctx.createGain(); waveG.gain.value = 0.18;
+      const waveLfo = ctx.createOscillator(); const waveLfoG = ctx.createGain();
+      waveLfo.frequency.value = 0.12; waveLfoG.gain.value = 0.06;
+      waveLfo.connect(waveLfoG); waveLfoG.connect(waveG.gain);
+      waveSrc.connect(waveLp); waveLp.connect(waveG); waveG.connect(master);
+      waveSrc.start(); waveLfo.start(); nodes.push(waveSrc, waveLfo);
+      // Seehundbaby-Ruf: hoher, tremolierender Klageruf
+      function seehundRuf(delay) {
+        if (stopped) return;
+        setTimeout(() => {
+          if (stopped) return;
+          const dur = 1.2 + Math.random() * 0.8;
+          const baseF = 700 + Math.random() * 300;       // hohe Frequenz: ~700-1000 Hz
+          const gain  = 0.14 + Math.random() * 0.1;
+          // Hauptton (nasal, klagend)
+          const o = ctx.createOscillator(); const lp2 = lpf(2000); const g = ctx.createGain();
+          o.type = "sawtooth";
+          o.frequency.setValueAtTime(baseF * 0.85, ctx.currentTime);
+          o.frequency.linearRampToValueAtTime(baseF,       ctx.currentTime + dur * 0.15);
+          o.frequency.linearRampToValueAtTime(baseF * 1.1, ctx.currentTime + dur * 0.45);
+          o.frequency.linearRampToValueAtTime(baseF * 0.8, ctx.currentTime + dur);
+          g.gain.setValueAtTime(0, ctx.currentTime);
+          g.gain.linearRampToValueAtTime(gain, ctx.currentTime + 0.08);
+          g.gain.setValueAtTime(gain, ctx.currentTime + dur - 0.15);
+          g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur);
+          // Tremolo (charakteristisches Zittern)
+          const trem = ctx.createOscillator(); const tremG = ctx.createGain();
+          trem.frequency.value = 7 + Math.random() * 4; tremG.gain.value = gain * 0.4;
+          trem.connect(tremG); tremG.connect(g.gain);
+          o.connect(lp2); lp2.connect(g); g.connect(master);
+          o.start(); o.stop(ctx.currentTime + dur + 0.1);
+          trem.start(); trem.stop(ctx.currentTime + dur + 0.1);
+          // Manchmal ein zweiter Ruf kurz danach (Echo / Antwort)
+          const nextDelay = dur * 1000 + 3000 + Math.random() * 8000;
+          seehundRuf(Math.random() < 0.35 ? 600 + Math.random() * 800 : nextDelay);
+        }, delay);
+      }
+      seehundRuf(2500 + Math.random() * 3000);
     }
 
     klangStop = () => {
@@ -28031,7 +28111,7 @@ function _stilleInit() {
     trommel:     "Schamanische Trommeln: langsamer, monotoner Herzschlag-Rhythmus (~60 BPM) — schenkt Erdung und Zentrierung.",
     chimes:      "Windspiele: helle, zufällige Töne in pentatonischer Stimmung — lenken den Fokus sanft ins Hier und Jetzt.",
     kosmos:      "Kosmische Pads: sphärische, langgezogene Synthesizerklänge ohne Rhythmus — ideal für tiefe Meditation und Trance.",
-    cafe:        "Café-Atmosphäre: leises Stimmengemurmel, Tassenklappern, gedämpfte Geräusche — perfekt für konzentrierte Fokus-Meditation.",
+    cafe:        "Café-Atmosphäre: echtes Gesprächsgemurmel mit Pausen, Kaffeemaschinen-Zischen und Tassenklappern — konzentriert und lebendig zugleich.",
     zug:         "Fahrt im Zug: das rhythmische, dumpfe Rattern der Schienen — wirkt nachweislich einschläfernd und entspannend.",
     katze:       "Katzenschnurren: die Frequenz von ~25 Hz senkt nachweislich den Blutdruck und wirkt tief beruhigend.",
     geborgen:    "Geborgenheits-Effekt: sehr tief gefilterter Unterwasser-Sound mit dumpfem Herzschlag — erinnert unterbewusst an die Zeit im Mutterleib. Vermittelt tiefe Sicherheit und vollständige Abkapselung von der Außenwelt.",
@@ -28042,6 +28122,7 @@ function _stilleInit() {
     kuckuck:     "Kuckuck im Frühlingswald: das vertraute Rufen versetzt uns sofort in einen sonnigen, friedlichen Waldtag — mit Waldvögeln im Hintergrund.",
     eule:        "Eule in der Nacht: sanftes Hu-Huuuu in der Stille — mit Nachtgrillen im Hintergrund. Tiefenentspannt, mystisch, perfekt zum Einschlafen.",
     wolf:        "Wölfe in der Ferne: langes, freies Heulen mit Windhauch — erzeugt ein tiefes Gefühl von Wildnis, Freiheit und Verbundenheit mit der Natur.",
+    seehund:     "Seehundbabys: klagende, zitternde Rufe junger Seehunde auf dem Ozean — tief berührend, wie ein Ruf nach Geborgenheit. Im Hintergrund: sanftes Meeresrauschen.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
