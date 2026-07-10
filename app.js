@@ -27432,11 +27432,11 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const klangPreload = {}; // pre-buffered Audio elements keyed by sound id
   const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
+  const klangFetchCache = {}; // id → Promise<ArrayBuffer>, starts on klang-button click
 
   function stopKlang() {
     if (klangStop) { try { klangStop(); } catch(e) {} klangStop = null; }
@@ -27446,18 +27446,29 @@ function _stilleInit() {
     stopKlang();
     if (id === "stille") return;
 
-    // Real CC0 recordings from Freesound (uploaded to Cloudinary)
+    // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
     const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
     if (REAL_SOUNDS.has(id)) {
-      const cdn = "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/";
-      const cached = klangPreload[id];
-      delete klangPreload[id];
-      const audio = cached || new Audio(cdn + id + ".mp3");
-      audio.loop = true;
-      audio.volume = 0.7;
-      audio.currentTime = 0;
-      audio.play().catch(() => {});
-      klangStop = () => { audio.pause(); audio.src = ""; };
+      if (!audioCtx) return;
+      let cancelled = false;
+      klangStop = () => { cancelled = true; };
+      const bufPromise = klangFetchCache[id] || fetch(klangCdnUrl(id)).then(r => r.arrayBuffer());
+      delete klangFetchCache[id];
+      bufPromise
+        .then(ab => cancelled ? null : audioCtx.decodeAudioData(ab))
+        .then(decoded => {
+          if (!decoded || cancelled || !audioCtx || audioCtx.state === "closed") return;
+          const src = audioCtx.createBufferSource();
+          src.buffer = decoded;
+          src.loop = true;
+          const g = audioCtx.createGain();
+          g.gain.value = 0.7;
+          src.connect(g);
+          g.connect(audioCtx.destination);
+          src.start();
+          klangStop = () => { cancelled = true; try { src.stop(); } catch(e) {} };
+        })
+        .catch(() => {});
       return;
     }
 
@@ -28514,16 +28525,10 @@ function _stilleInit() {
           `<span style="font-size:.72rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
         ).join("");
       }
-      // iOS fix: Audio-Element sofort per User-Geste entsperren (play+pause).
-      // Danach bleibt es dauerhaft entsperrt — auch wenn Start erst später gedrückt wird.
-      if (REAL_SOUNDS_ALL.has(gewaehlterKlang)) {
-        const prev = klangPreload[gewaehlterKlang];
-        if (prev) { try { prev.pause(); prev.src = ""; } catch(e) {} }
-        const a = new Audio(klangCdnUrl(gewaehlterKlang));
-        a.preload = "auto";
-        a.volume = 0.001;
-        a.play().then(() => { a.pause(); a.currentTime = 0; a.volume = 0.7; }).catch(() => {});
-        klangPreload[gewaehlterKlang] = a;
+      // Sofort vorladen sobald ein Klang gewählt wird (fetch startet im Hintergrund)
+      if (REAL_SOUNDS_ALL.has(gewaehlterKlang) && !klangFetchCache[gewaehlterKlang]) {
+        klangFetchCache[gewaehlterKlang] = fetch(klangCdnUrl(gewaehlterKlang))
+          .then(r => r.arrayBuffer()).catch(() => null);
       }
       // Vorschau wenn Timer bereits läuft
       if (laedt && interval) starteKlang(gewaehlterKlang);
