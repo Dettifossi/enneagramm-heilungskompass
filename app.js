@@ -24291,8 +24291,8 @@ function solfeggioFrequenzenPage() {
         ${bookTip("wer-du-wirklich-bist-1", "Das Grundlagenwerk \xfcber die 9 Enneagrammtypen und ihre spirituellen Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
       </div>
       ${relatedLinks([
-        {route:"bewusstseinsuebungen", label:"Bewusstsein\xfcbungen"},
         {route:"stille", label:"9 Minuten Stille"},
+        {route:"musik", label:"Entspannungs- und Heilungsmusik"},
         {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
       ])}
     </div>
@@ -27299,6 +27299,7 @@ function stillePage() {
         <p style="margin:0 0 0.9rem;font-size:0.95rem;line-height:1.65;color:var(--ink);">Wer lieber Klang als Brücke nutzt, dem stehen neun Alben mit Entspannungs- und Heilungsmusik zur Verfügung — jedes fein auf einen Enneagrammtyp abgestimmt.</p>
         <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
           <button class="secondary" data-route="musik" style="font-size:0.9rem;">🎵 Zur Entspannungs- und Heilungsmusik →</button>
+          <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">🎧 Die 9 Solfeggio-Frequenzen →</button>
         </div>
       </div>
     </section>
@@ -28710,7 +28711,10 @@ function musikPage() {
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
         <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Lieber in absoluter Stille?</p>
         <p style="margin:0 0 0.9rem;font-size:0.95rem;line-height:1.65;color:var(--ink);">Nach dieser tiefen Klangreise gönnen Sie sich vielleicht die absolute Stille — neun Minuten für jeden Enneagrammtyp, eröffnet und beschlossen von einem Gong.</p>
-        <button class="secondary" data-route="stille" style="font-size:0.9rem;">⏱ Zur 9-Minuten-Stille →</button>
+        <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
+          <button class="secondary" data-route="stille" style="font-size:0.9rem;">⏱ Zur 9-Minuten-Stille →</button>
+          <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">🎧 Die 9 Solfeggio-Frequenzen →</button>
+        </div>
       </div>
     </section>
   `);
