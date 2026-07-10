@@ -26750,18 +26750,30 @@ function stillePage() {
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
         <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
           ${[
-            {id:"stille",     icon:"🤫", label:"Stille"},
-            {id:"white",      icon:"〰️", label:"White"},
-            {id:"pink",       icon:"🌸", label:"Pink"},
-            {id:"brown",      icon:"🟤", label:"Brown"},
-            {id:"regen",      icon:"🌧️", label:"Regen"},
-            {id:"meer",       icon:"🌊", label:"Meer"},
-            {id:"wasserfall", icon:"💧", label:"Wasserfall"},
-            {id:"wind",       icon:"💨", label:"Wind"},
-            {id:"feuer",      icon:"🔥", label:"Feuer"},
-            {id:"gewitter",   icon:"⛈️", label:"Gewitter"},
-            {id:"wald",       icon:"🌲", label:"Wald"},
-            {id:"hoehle",     icon:"🪨", label:"Höhle"},
+            {id:"stille",      icon:"🤫",  label:"Stille"},
+            {id:"white",       icon:"〰️",  label:"White"},
+            {id:"pink",        icon:"🌸",  label:"Pink"},
+            {id:"brown",       icon:"🟤",  label:"Brown"},
+            {id:"regen",       icon:"🌧️",  label:"Regen"},
+            {id:"meer",        icon:"🌊",  label:"Meer"},
+            {id:"wasserfall",  icon:"💧",  label:"Wasserfall"},
+            {id:"wind",        icon:"💨",  label:"Wind"},
+            {id:"feuer",       icon:"🔥",  label:"Feuer"},
+            {id:"gewitter",    icon:"⛈️",  label:"Gewitter"},
+            {id:"wald",        icon:"🌲",  label:"Wald"},
+            {id:"hoehle",      icon:"🪨",  label:"Höhle"},
+            {id:"sommerregen", icon:"🍃",  label:"Sommerregen"},
+            {id:"voegel",      icon:"🐦",  label:"Vogelstimmen"},
+            {id:"bach",        icon:"🏞️",  label:"Bach"},
+            {id:"wiese",       icon:"🦗",  label:"Sommerwiese"},
+            {id:"blizzard",    icon:"❄️",  label:"Blizzard"},
+            {id:"trommel",     icon:"🥁",  label:"Trommel"},
+            {id:"chimes",      icon:"🎐",  label:"Windspiele"},
+            {id:"kosmos",      icon:"🌌",  label:"Kosmisch"},
+            {id:"cafe",        icon:"☕",  label:"Café"},
+            {id:"zug",         icon:"🚂",  label:"Zug"},
+            {id:"katze",       icon:"🐱",  label:"Katze"},
+            {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -27138,6 +27150,350 @@ function _stilleInit() {
         setTimeout(tropfen, 1500 + Math.random()*4000);
       }
       tropfen();
+
+    } else if (id === "sommerregen") {
+      // Sanfter Sommerregen auf Blätterdach: dichtes Rauschen + vereinzelte Tropfen
+      master.gain.setValueAtTime(0.18, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const hp = hpf(800); const lp = lpf(5000);
+      src.connect(hp); hp.connect(lp); lp.connect(master); src.start(); nodes.push(src);
+      // Einzelne Tropfen auf Blatt: höher und heller als Regen
+      function blattTropfen() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 1200 + Math.random()*600;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.12, ctx.currentTime + 0.003);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.18);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.2);
+        setTimeout(blattTropfen, 80 + Math.random()*300);
+      }
+      blattTropfen();
+
+    } else if (id === "voegel") {
+      // Vogelgezwitscher am Morgen: helle Chirps verschiedener Tonlagen
+      master.gain.setValueAtTime(0.07, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(600); const g0 = ctx.createGain(); g0.gain.value = 0.3;
+      src.connect(lp); lp.connect(g0); g0.connect(master); src.start(); nodes.push(src);
+      const vogelTypen = [
+        {freq: 2800, steps: 4, gap: 60},   // hohe Drossel
+        {freq: 1800, steps: 3, gap: 90},   // Amsel
+        {freq: 3400, steps: 6, gap: 45},   // Meise
+      ];
+      function vogelRuf() {
+        if (stopped) return;
+        const typ = vogelTypen[Math.floor(Math.random() * vogelTypen.length)];
+        const steps = typ.steps + Math.floor(Math.random() * 3);
+        let t = ctx.currentTime;
+        for (let i = 0; i < steps; i++) {
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sine";
+          const f = typ.freq * (0.9 + Math.random() * 0.3);
+          o.frequency.setValueAtTime(f, t);
+          o.frequency.linearRampToValueAtTime(f * (1 + 0.15 * (Math.random() - 0.5)), t + 0.04);
+          g.gain.setValueAtTime(0, t);
+          g.gain.linearRampToValueAtTime(0.22, t + 0.01);
+          g.gain.exponentialRampToValueAtTime(0.0001, t + 0.07);
+          o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.08);
+          t += typ.gap / 1000;
+        }
+        setTimeout(vogelRuf, 1200 + Math.random() * 4000);
+      }
+      vogelRuf();
+      setTimeout(vogelRuf, 600 + Math.random() * 1500);
+
+    } else if (id === "bach") {
+      // Fließender Bach: unregelmäßiges Plätschern mit Turbulenzen
+      master.gain.setValueAtTime(0.15, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      const bp = ctx.createBiquadFilter(); bp.type = "bandpass";
+      bp.frequency.value = 800; bp.Q.value = 0.5;
+      const lp = lpf(3000);
+      src.connect(bp); bp.connect(lp); lp.connect(master); src.start(); nodes.push(src);
+      // LFO für Strömungsschwankungen
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.frequency.value = 0.3 + Math.random() * 0.3;
+      lfoG.gain.value = 200;
+      lfo.connect(lfoG); lfoG.connect(bp.frequency); lfo.start(); nodes.push(lfo);
+      // Einzelne Platscher
+      function platsch() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 400 + Math.random() * 500;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.1 + Math.random() * 0.08, ctx.currentTime + 0.01);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.12);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.14);
+        setTimeout(platsch, 120 + Math.random() * 400);
+      }
+      platsch();
+
+    } else if (id === "wiese") {
+      // Sommerwiese: Grillen + Zikaden
+      master.gain.setValueAtTime(0.12, ctx.currentTime);
+      // Grille 1: ~4000 Hz rhythmisches Zirpen
+      function grille(baseFreq, intervalMs, gain) {
+        function zirp() {
+          if (stopped) return;
+          const chirps = 3 + Math.floor(Math.random() * 3);
+          let t = ctx.currentTime;
+          for (let i = 0; i < chirps; i++) {
+            const o = ctx.createOscillator(); const g = ctx.createGain();
+            o.type = "sine"; o.frequency.value = baseFreq * (0.98 + Math.random() * 0.04);
+            g.gain.setValueAtTime(0, t);
+            g.gain.linearRampToValueAtTime(gain, t + 0.005);
+            g.gain.setValueAtTime(gain, t + 0.02);
+            g.gain.exponentialRampToValueAtTime(0.0001, t + 0.04);
+            o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.05);
+            t += 0.05;
+          }
+          setTimeout(zirp, intervalMs + Math.random() * intervalMs * 0.3);
+        }
+        setTimeout(zirp, Math.random() * intervalMs);
+      }
+      grille(4200, 400, 0.18);   // helle Grille
+      grille(3100, 280, 0.12);   // tiefere Grille
+      grille(5800, 180, 0.08);   // Zikade (höher, schneller)
+      // leises Hintergrundrauschen (Blätter, Wind)
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(800); const gBg = ctx.createGain(); gBg.gain.value = 0.04;
+      src.connect(lp); lp.connect(gBg); gBg.connect(master); src.start(); nodes.push(src);
+
+    } else if (id === "blizzard") {
+      // Blizzard von drinnen: tiefes Heulen + Fensterwummern
+      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp = lpf(300); src.connect(lp); lp.connect(master); src.start(); nodes.push(src);
+      // Heulton: langsamer LFO auf Bandpass
+      const bp = ctx.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = 180; bp.Q.value = 3;
+      const src2 = ctx.createBufferSource(); src2.buffer = whiteBuf; src2.loop = true;
+      const gWind = ctx.createGain(); gWind.gain.value = 0.15;
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.type = "sine"; lfo.frequency.value = 0.07; lfoG.gain.value = 90;
+      lfo.connect(lfoG); lfoG.connect(bp.frequency);
+      src2.connect(bp); bp.connect(gWind); gWind.connect(master);
+      src2.start(); lfo.start(); nodes.push(src2, lfo);
+      // Gelegentliches Fensterwummern
+      function wummern() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 55 + Math.random() * 30;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.3, ctx.currentTime + 0.2);
+        g.gain.linearRampToValueAtTime(0, ctx.currentTime + 1.2);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 1.3);
+        setTimeout(wummern, 4000 + Math.random() * 8000);
+      }
+      setTimeout(wummern, 2000 + Math.random() * 3000);
+
+    } else if (id === "trommel") {
+      // Schamanische Trommeln: langsamer Herzschlag-Rhythmus ~60 BPM
+      master.gain.setValueAtTime(0.5, ctx.currentTime);
+      const bpm = 58 + Math.random() * 4;
+      const beat = 60 / bpm;
+      function schlag(t, isAkzent) {
+        // Tiefes Trommelfell: Sinus mit schnellem Pitch-Abfall
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine";
+        o.frequency.setValueAtTime(isAkzent ? 120 : 90, t);
+        o.frequency.exponentialRampToValueAtTime(30, t + 0.18);
+        g.gain.setValueAtTime(isAkzent ? 1.0 : 0.7, t);
+        g.gain.exponentialRampToValueAtTime(0.0001, t + 0.4);
+        o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.42);
+        // Oberton (Fell-Klang)
+        const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+        o2.type = "triangle"; o2.frequency.value = isAkzent ? 220 : 160;
+        g2.gain.setValueAtTime(isAkzent ? 0.3 : 0.2, t);
+        g2.gain.exponentialRampToValueAtTime(0.0001, t + 0.15);
+        o2.connect(g2); g2.connect(master); o2.start(t); o2.stop(t + 0.16);
+      }
+      let nextBeat = ctx.currentTime + 0.1;
+      let beatCount = 0;
+      function takt() {
+        if (stopped) return;
+        const now = ctx.currentTime;
+        while (nextBeat < now + 0.3) {
+          schlag(nextBeat, beatCount % 4 === 0);
+          beatCount++;
+          nextBeat += beat;
+        }
+        setTimeout(takt, 100);
+      }
+      takt();
+
+    } else if (id === "chimes") {
+      // Windspiele: helle zufällige Töne in pentatonischer Skala
+      master.gain.setValueAtTime(0.35, ctx.currentTime);
+      const pentatonik = [523.25, 587.33, 659.25, 783.99, 880, 1046.5, 1174.66, 1318.51];
+      // Leiser Windhauch
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const lp = lpf(600); const gW = ctx.createGain(); gW.gain.value = 0.04;
+      src.connect(lp); lp.connect(gW); gW.connect(master); src.start(); nodes.push(src);
+      function chime() {
+        if (stopped) return;
+        const freq = pentatonik[Math.floor(Math.random() * pentatonik.length)];
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = freq;
+        const dur = 1.2 + Math.random() * 1.5;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.35 + Math.random() * 0.2, ctx.currentTime + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + dur + 0.05);
+        // Manchmal zwei Töne gleichzeitig
+        if (Math.random() < 0.3) {
+          const freq2 = pentatonik[Math.floor(Math.random() * pentatonik.length)];
+          const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+          o2.type = "sine"; o2.frequency.value = freq2;
+          g2.gain.setValueAtTime(0, ctx.currentTime + 0.05);
+          g2.gain.linearRampToValueAtTime(0.2, ctx.currentTime + 0.07);
+          g2.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur);
+          o2.connect(g2); g2.connect(master); o2.start(ctx.currentTime + 0.05); o2.stop(ctx.currentTime + dur + 0.05);
+        }
+        setTimeout(chime, 600 + Math.random() * 2500);
+      }
+      chime();
+      setTimeout(chime, 300 + Math.random() * 800);
+
+    } else if (id === "kosmos") {
+      // Kosmische Pads: langsam modulierte Sinus-Layers
+      master.gain.setValueAtTime(0.3, ctx.currentTime);
+      const freqs = [55, 82.4, 110, 146.8, 164.8];
+      freqs.forEach((f, i) => {
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = i % 2 === 0 ? "sine" : "triangle";
+        o.frequency.value = f;
+        // Sehr langsames Vibrato
+        const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+        lfo.frequency.value = 0.04 + i * 0.01; lfoG.gain.value = f * 0.005;
+        lfo.connect(lfoG); lfoG.connect(o.frequency);
+        // Langsamer Gain-LFO (atmen)
+        const gLfo = ctx.createOscillator(); const gLfoG = ctx.createGain();
+        gLfo.frequency.value = 0.06 + i * 0.013; gLfoG.gain.value = 0.03;
+        const baseGain = 0.06 - i * 0.007;
+        g.gain.value = Math.max(0.01, baseGain);
+        gLfo.connect(gLfoG); gLfoG.connect(g.gain);
+        o.connect(g); g.connect(master);
+        o.start(); lfo.start(); gLfo.start();
+        nodes.push(o, lfo, gLfo);
+      });
+
+    } else if (id === "cafe") {
+      // Café-Atmosphäre: Stimmengemurmel + Tassen + gedämpfter Hintergrund
+      master.gain.setValueAtTime(0.18, ctx.currentTime);
+      // Stimmengemurmel: gefiltertes Rauschen in Sprachfrequenzen
+      const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
+      const bp = ctx.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = 500; bp.Q.value = 0.8;
+      const lp = lpf(3000);
+      // LFO für Lautstärkefluktuationen (jemand lacht, spricht lauter)
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.frequency.value = 0.15; lfoG.gain.value = 0.05;
+      lfo.connect(lfoG); lfoG.connect(master.gain);
+      src.connect(bp); bp.connect(lp); lp.connect(master); src.start(); lfo.start(); nodes.push(src, lfo);
+      // Tassenklappern
+      function tasse() {
+        if (stopped) return;
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = "sine"; o.frequency.value = 900 + Math.random() * 600;
+        g.gain.setValueAtTime(0, ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.08, ctx.currentTime + 0.003);
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.2);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime + 0.22);
+        // Manchmal doppeltes Klappern
+        if (Math.random() < 0.25) {
+          setTimeout(() => {
+            if (stopped) return;
+            const o2 = ctx.createOscillator(); const g2 = ctx.createGain();
+            o2.type = "sine"; o2.frequency.value = 700 + Math.random() * 400;
+            g2.gain.setValueAtTime(0.05, ctx.currentTime);
+            g2.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.15);
+            o2.connect(g2); g2.connect(master); o2.start(); o2.stop(ctx.currentTime + 0.16);
+          }, 80 + Math.random() * 60);
+        }
+        setTimeout(tasse, 2000 + Math.random() * 5000);
+      }
+      setTimeout(tasse, 1000 + Math.random() * 2000);
+
+    } else if (id === "zug") {
+      // Fahrt im Zug: rhythmisches Rattern der Schienen
+      master.gain.setValueAtTime(0.4, ctx.currentTime);
+      // Hintergrund-Rumpeln
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp = lpf(400); const gBg = ctx.createGain(); gBg.gain.value = 0.3;
+      src.connect(lp); lp.connect(gBg); gBg.connect(master); src.start(); nodes.push(src);
+      // Schienen-Rhythmus: klopf-klopf ... klopf-klopf (2er-Gruppe)
+      const zugTempo = 0.38; // ~160 BPM "Räder"
+      let nextZug = ctx.currentTime + 0.1;
+      let zugCount = 0;
+      function zugTakt() {
+        if (stopped) return;
+        const now = ctx.currentTime;
+        while (nextZug < now + 0.4) {
+          const isHard = zugCount % 2 === 0; // erster Schlag der Gruppe lauter
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = "sawtooth"; o.frequency.value = isHard ? 68 : 55;
+          o.frequency.exponentialRampToValueAtTime(30, nextZug + 0.06);
+          g.gain.setValueAtTime(isHard ? 0.9 : 0.5, nextZug);
+          g.gain.exponentialRampToValueAtTime(0.0001, nextZug + 0.12);
+          o.connect(g); g.connect(master); o.start(nextZug); o.stop(nextZug + 0.13);
+          // Nach 2 Schlägen kurze Pause (Schienenabstand)
+          nextZug += zugCount % 2 === 0 ? zugTempo * 0.55 : zugTempo * 1.45;
+          zugCount++;
+        }
+        setTimeout(zugTakt, 80);
+      }
+      zugTakt();
+
+    } else if (id === "katze") {
+      // Katzenschnurren: ~25 Hz Grundton mit Obertönen
+      master.gain.setValueAtTime(0.55, ctx.currentTime);
+      const schnurrFreq = 25 + Math.random() * 5; // 25-30 Hz
+      // Einatmen/Ausatmen LFO
+      const lfo = ctx.createOscillator(); const lfoG = ctx.createGain();
+      lfo.type = "sine"; lfo.frequency.value = 0.4; lfoG.gain.value = 0.12;
+      lfo.connect(lfoG); lfoG.connect(master.gain); lfo.start(); nodes.push(lfo);
+      [1, 2, 3, 4, 6].forEach((mult, i) => {
+        const o = ctx.createOscillator(); const g = ctx.createGain();
+        o.type = i === 0 ? "sawtooth" : "sine";
+        o.frequency.value = schnurrFreq * mult;
+        // Leichtes Vibrato
+        const vib = ctx.createOscillator(); const vibG = ctx.createGain();
+        vib.frequency.value = 0.5 + i * 0.08; vibG.gain.value = schnurrFreq * mult * 0.01;
+        vib.connect(vibG); vibG.connect(o.frequency);
+        g.gain.value = [0.5, 0.25, 0.15, 0.08, 0.04][i];
+        const lpF = ctx.createBiquadFilter(); lpF.type = "lowpass"; lpF.frequency.value = 300;
+        o.connect(lpF); lpF.connect(g); g.connect(master);
+        o.start(); vib.start(); nodes.push(o, vib);
+      });
+
+    } else if (id === "geborgen") {
+      // Geborgenheits-Effekt: gedämpfter Unterwasser-Sound (Mutterleib-Artefakt)
+      master.gain.setValueAtTime(0.25, ctx.currentTime);
+      // Sehr tiefpassgefiltertes Rauschen (alle hohen Frequenzen entfernt)
+      const src = ctx.createBufferSource(); src.buffer = brownBuf; src.loop = true;
+      const lp1 = lpf(80); const lp2 = lpf(80); // zweifacher Tiefpass = steiler Abfall
+      src.connect(lp1); lp1.connect(lp2); lp2.connect(master); src.start(); nodes.push(src);
+      // Dumpfes Herzschlag-Wummern
+      const hbFreq = 60 / (62 + Math.random() * 6); // 62-68 BPM
+      let nextHb = ctx.currentTime + 0.5;
+      function herzschlag() {
+        if (stopped) return;
+        const now = ctx.currentTime;
+        while (nextHb < now + 0.4) {
+          // Doppelschlag (lub-dub)
+          [0, 0.22].forEach((offset, i) => {
+            const o = ctx.createOscillator(); const g = ctx.createGain();
+            o.type = "sine"; o.frequency.value = i === 0 ? 48 : 38;
+            o.frequency.exponentialRampToValueAtTime(20, nextHb + offset + 0.25);
+            g.gain.setValueAtTime(i === 0 ? 0.9 : 0.5, nextHb + offset);
+            g.gain.exponentialRampToValueAtTime(0.0001, nextHb + offset + 0.28);
+            o.connect(g); g.connect(master); o.start(nextHb + offset); o.stop(nextHb + offset + 0.3);
+          });
+          nextHb += hbFreq;
+        }
+        setTimeout(herzschlag, 100);
+      }
+      herzschlag();
     }
 
     klangStop = () => {
@@ -27149,18 +27505,30 @@ function _stilleInit() {
 
   // Klang-Buttons
   const KLANG_INFO = {
-    stille:     "Vollständige Stille — nur Gong am Anfang und Ende.",
-    white:      "White Noise: gleichmäßiges Rauschen über alle Frequenzen — wie ein Ventilator. Überdeckt Ablenkungen.",
-    pink:       "Pink Noise: ähnlich White, aber wärmer und weicher — natürlicher für die Ohren.",
-    brown:      "Brown Noise: tiefes, sattes Rauschen — wie starker Regen oder ein Wasserkocher von weitem.",
-    regen:      "Regengeräusche: gleichmäßiges Prasseln, gelegentlich einzelne Tropfen.",
-    meer:       "Meeresrauschen: Wellen, die kommen und gehen — rhythmisch und beruhigend.",
-    wasserfall: "Wasserfall: konstantes Rauschen fließenden Wassers.",
-    wind:       "Wind: mal stärker, mal schwächer — wie draußen in der Natur.",
-    feuer:      "Feuer: Knistern und Prasseln eines Lagerfeuers.",
-    gewitter:   "Gewitter: Regen mit gelegentlichen Donnergrollen in der Ferne.",
-    wald:       "Wald: Vogelgezwitscher und Blätterrascheln — stille Natur.",
-    hoehle:     "Höhle: tiefes Hall-Echo — weite, leere Stille.",
+    stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
+    white:       "🎧 White Noise: gleichmäßiges Rauschen über alle Frequenzen — wie ein Ventilator. Perfekt, um laute Nachbarn oder Straßenlärm komplett zu blockieren.",
+    pink:        "🎧 Pink Noise: ähnlich White, aber wärmer und bassiger. Sehr beliebt zum Einschlafen — natürlicher für die Ohren als weißes Rauschen.",
+    brown:       "🎧 Brown Noise: tiefes, sattes Rauschen — wie starker Regen oder ein Wasserkocher von weitem. Extrem beruhigend für ein überaktives Gehirn (ADHS-Geheimtipp).",
+    regen:       "Regengeräusche: gleichmäßiges Prasseln, gelegentlich einzelne Tropfen.",
+    meer:        "Meeresrauschen: Wellen, die kommen und gehen — rhythmisch und beruhigend.",
+    wasserfall:  "Wasserfall: konstantes Rauschen fließenden Wassers.",
+    wind:        "Wind: mal stärker, mal schwächer — wie draußen in der Natur.",
+    feuer:       "Feuer: Knistern und Prasseln eines Lagerfeuers.",
+    gewitter:    "Gewitter: Regen mit gelegentlichen Donnergrollen in der Ferne.",
+    wald:        "Wald: Vogelgezwitscher und Blätterrascheln — stille Natur.",
+    hoehle:      "Höhle: tiefes Hall-Echo — weite, leere Stille.",
+    sommerregen: "Sanfter Sommerregen auf ein Blätterdach — das monotone Prasseln blendet störende Gedanken perfekt aus.",
+    voegel:      "Vogelgezwitscher am Morgen: helle Chirps verschiedener Singvögel — aktiviert ein Gefühl von Frische, Neubeginn und Sicherheit.",
+    bach:        "Fließender Bach: lebendiges Plätschern und Glucksen — fördert den mentalen Fluss und das Loslassen.",
+    wiese:       "Sommerliche Wiese mit Grillen und Zikaden — erinnert unterbewusst an Urlaub, Wärme und Entspannung.",
+    blizzard:    "Blizzard von drinnen: das Heulen des Windes und gelegentliches Fensterwummern — während man selbst im Warmen sitzt. Verstärkt das Gefühl von Schutz und Geborgenheit.",
+    trommel:     "Schamanische Trommeln: langsamer, monotoner Herzschlag-Rhythmus (~60 BPM) — schenkt Erdung und Zentrierung.",
+    chimes:      "Windspiele: helle, zufällige Töne in pentatonischer Stimmung — lenken den Fokus sanft ins Hier und Jetzt.",
+    kosmos:      "Kosmische Pads: sphärische, langgezogene Synthesizerklänge ohne Rhythmus — ideal für tiefe Meditation und Trance.",
+    cafe:        "Café-Atmosphäre: leises Stimmengemurmel, Tassenklappern, gedämpfte Geräusche — perfekt für konzentrierte Fokus-Meditation.",
+    zug:         "Fahrt im Zug: das rhythmische, dumpfe Rattern der Schienen — wirkt nachweislich einschläfernd und entspannend.",
+    katze:       "Katzenschnurren: die Frequenz von ~25 Hz senkt nachweislich den Blutdruck und wirkt tief beruhigend.",
+    geborgen:    "Geborgenheits-Effekt: sehr tief gefilterter Unterwasser-Sound mit dumpfem Herzschlag — erinnert unterbewusst an die Zeit im Mutterleib. Vermittelt tiefe Sicherheit und vollständige Abkapselung von der Außenwelt.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
