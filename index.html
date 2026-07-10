@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enneagramm-Heilungskompass</title>
+    <meta
+      name="description"
+      content="MVP-Prototyp für den Enneagramm-Heilungskompass nach dem Modell von David und Detlef Rathmer."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#1a1208" />
+    <link rel="stylesheet" href="styles.css?v=2026-07-07-suche-v14" />
+    <!-- OneSignal Web Push – nur auf GitHub Pages aktiv, nicht lokal -->
+    <script>
+      if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+        var s = document.createElement("script");
+        s.src = "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js";
+        s.defer = true;
+        document.head.appendChild(s);
+        window.OneSignalDeferred = window.OneSignalDeferred || [];
+        OneSignalDeferred.push(async function(OneSignal) {
+          await OneSignal.init({
+            appId: "a8616f76-24df-4a4d-970f-59976a11503e",
+            notifyButton: { enable: false },
+            promptOptions: {
+              slidedown: {
+                prompts: [{
+                  type: "push",
+                  autoPrompt: true,
+                  text: {
+                    actionMessage: "Erhalte täglich einen Enneagramm-Impuls von Detlef Rathmer.",
+                    acceptButton: "Ja, gerne",
+                    cancelButton: "Nein danke"
+                  }
+                }]
+              }
+            }
+          });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="data/quiz.js?v=1"></script>
+    <script src="data/zitate.js?v=1"></script>
+    <script type="module" src="bundle.js?v=inhalt-v132"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js").then(reg => {
+          reg.addEventListener("updatefound", () => {
+            const newWorker = reg.installing;
+            newWorker.addEventListener("statechange", () => {
+              if (newWorker.state === "activated") {
+                window.location.reload();
+              }
+            });
+          });
+        });
+        // Beim Start prüfen ob ein wartender Worker da ist
+        navigator.serviceWorker.addEventListener("controllerchange", () => {
+          window.location.reload();
+        });
+      }
+    </script>
+  </body>
+</html>

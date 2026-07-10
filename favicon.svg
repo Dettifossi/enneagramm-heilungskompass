@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="face" cx="42%" cy="36%" r="68%">
+      <stop offset="0%"   stop-color="#fff8e8"/>
+      <stop offset="40%"  stop-color="#f5e8cc"/>
+      <stop offset="75%"  stop-color="#ddc898"/>
+      <stop offset="100%" stop-color="#c4a870"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0%"   stop-color="#f0d88a"/>
+      <stop offset="18%"  stop-color="#d4a050"/>
+      <stop offset="46%"  stop-color="#6a4020"/>
+      <stop offset="74%"  stop-color="#c89848"/>
+      <stop offset="100%" stop-color="#e8c860"/>
+    </linearGradient>
+    <linearGradient id="needle-n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#f08040"/>
+      <stop offset="40%"  stop-color="#cc3818"/>
+      <stop offset="100%" stop-color="#8a1e08"/>
+    </linearGradient>
+    <linearGradient id="needle-s" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#2e4255"/>
+      <stop offset="100%" stop-color="#0e1e2c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hintergrund -->
+  <rect width="200" height="200" rx="44" fill="#1a1208"/>
+
+  <!-- Metallring -->
+  <circle cx="100" cy="100" r="93" fill="url(#ring)"/>
+  <circle cx="100" cy="100" r="88" fill="#1e1510"/>
+  <circle cx="100" cy="100" r="85" fill="url(#ring)" opacity="0.7"/>
+
+  <!-- Zifferblatt -->
+  <circle cx="100" cy="100" r="80" fill="url(#face)"/>
+
+  <!-- Glasschimmer -->
+  <ellipse cx="78" cy="68" rx="26" ry="16" fill="white" opacity="0.2" transform="rotate(-30 78 68)"/>
+
+  <!-- Strichteilung -->
+  <g stroke="#8a6830" stroke-width="2" stroke-linecap="round">
+    <line x1="100" y1="18" x2="100" y2="28"/>
+    <line x1="100" y1="172" x2="100" y2="182"/>
+    <line x1="18"  y1="100" x2="28"  y2="100"/>
+    <line x1="172" y1="100" x2="182" y2="100"/>
+    <line x1="40"  y1="40"  x2="47"  y2="47"/>
+    <line x1="160" y1="40"  x2="153" y2="47"/>
+    <line x1="40"  y1="160" x2="47"  y2="153"/>
+    <line x1="160" y1="160" x2="153" y2="153"/>
+  </g>
+
+  <!-- Enneagramm -->
+  <g fill="none" stroke="#8a6020" stroke-width="1.4" opacity="0.85">
+    <polygon points="100,34 157,132 43,132"/>
+    <polyline points="143,50 122,162 166,88 57,50 78,162 34,88 143,50"/>
+  </g>
+  <g fill="#8a6020" opacity="0.85">
+    <circle cx="100" cy="34"  r="3.5"/>
+    <circle cx="143" cy="50"  r="3.5"/>
+    <circle cx="166" cy="88"  r="3.5"/>
+    <circle cx="157" cy="132" r="3.5"/>
+    <circle cx="122" cy="162" r="3.5"/>
+    <circle cx="78"  cy="162" r="3.5"/>
+    <circle cx="43"  cy="132" r="3.5"/>
+    <circle cx="34"  cy="88"  r="3.5"/>
+    <circle cx="57"  cy="50"  r="3.5"/>
+  </g>
+
+  <!-- Animierte Kompassnadel -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      values="0 100 100; 18 100 100; -8 100 100; 5 100 100; 0 100 100"
+      keyTimes="0; 0.35; 0.6; 0.82; 1"
+      dur="3.5s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"
+    />
+    <polygon points="100,22  104,100 100,94  96,100" fill="url(#needle-n)" stroke="rgba(80,30,10,0.25)" stroke-width="0.5"/>
+    <polygon points="100,178 104,100 100,106 96,100" fill="url(#needle-s)" stroke="rgba(10,20,30,0.2)" stroke-width="0.5"/>
+  </g>
+
+  <!-- Nabe -->
+  <circle cx="100" cy="100" r="10" fill="#150e08"/>
+  <circle cx="100" cy="100" r="7.5" fill="url(#ring)"/>
+  <circle cx="100" cy="100" r="4.5" fill="#f8e8c0"/>
+  <circle cx="100" cy="100" r="2"   fill="rgba(185,80,30,0.95)"/>
+</svg>

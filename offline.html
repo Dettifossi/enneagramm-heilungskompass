@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enneagramm-Heilungskompass – Kurze Pause</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, "EB Garamond", serif;
+      background: #e8e4da;
+      color: #2a2218;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+    .compass {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      color: #1a1208;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      max-width: 360px;
+      color: #5a4e3a;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #1a1208;
+      color: #e8dfc8;
+      padding: 0.75rem 2rem;
+      border-radius: 2rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border: none;
+    }
+    .btn:active { opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <img class="compass" src="favicon.svg" alt="Kompass" onerror="this.style.display='none'" />
+  <h1>Kurze Wartungspause</h1>
+  <p>
+    Der Enneagramm-Heilungskompass wird gerade aktualisiert.<br>
+    Bitte versuchen Sie es in wenigen Minuten erneut.
+  </p>
+  <p style="font-size:0.85rem;">
+    Falls das Problem länger besteht, löschen Sie bitte den Browser-Cache<br>
+    und laden die Seite neu.
+  </p>
+  <button class="btn" onclick="window.location.reload()">Jetzt neu laden</button>
+</body>
+</html>

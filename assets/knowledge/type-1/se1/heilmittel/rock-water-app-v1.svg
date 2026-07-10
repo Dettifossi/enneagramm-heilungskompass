@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Rock Water">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbf7e9"/>
+      <stop offset="1" stop-color="#d9e2dd"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff4f3" stop-opacity=".92"/>
+      <stop offset=".5" stop-color="#8fc4c2" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#547f81" stop-opacity=".82"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#415453" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="720" height="520" fill="url(#bg)"/>
+  <path d="M70 188c84-55 163-63 236-24 83 44 170 45 259 0 35-18 70-25 104-20" fill="none" stroke="#b79051" stroke-width="4" opacity=".2"/>
+  <path d="M0 330c91-41 158-28 243-70 76-37 147-86 265-60 73 16 134-8 212-38v358H0z" fill="url(#water)"/>
+  <g fill="none" stroke="#fafffb" stroke-linecap="round" opacity=".76">
+    <path d="M66 360c92-36 149-17 235-58 74-36 118-67 232-50" stroke-width="8"/>
+    <path d="M114 408c90 17 176-22 272-62 83-34 141-36 238-12" stroke-width="5"/>
+    <path d="M248 235c48-34 100-48 160-35" stroke-width="5"/>
+  </g>
+  <g filter="url(#shadow)">
+    <ellipse cx="204" cy="394" rx="118" ry="58" fill="#6d7070"/>
+    <ellipse cx="457" cy="357" rx="147" ry="72" fill="#5d6261"/>
+    <ellipse cx="554" cy="409" rx="93" ry="45" fill="#767a78"/>
+    <ellipse cx="320" cy="431" rx="104" ry="45" fill="#4f5453"/>
+  </g>
+  <g fill="#f8f4dc" stroke="#d2b66d" stroke-width="4">
+    <circle cx="145" cy="178" r="15"/>
+    <circle cx="170" cy="198" r="12"/>
+    <circle cx="125" cy="211" r="10"/>
+  </g>
+  <g stroke="#879a69" stroke-width="5" stroke-linecap="round">
+    <path d="M145 191c-6 39-21 71-46 96"/>
+    <path d="M152 193c21 28 36 60 45 96"/>
+  </g>
+</svg>

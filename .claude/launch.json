@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "enneagramm-kompass",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/detlefrathmer/Enneagramm-Kompass/.claude/server.py"],
+      "port": 8006,
+      "open": "preview.html"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8"/>
+<title>Test2</title></head>
+<body>
+<div id="app"></div>
+<div id="err" style="color:red;white-space:pre-wrap;font-size:12px;padding:10px;"></div>
+<script>
+window.onerror = function(msg, src, line, col, err) {
+  document.getElementById('err').textContent = 'ERROR: ' + msg + '\nLine: ' + line + ' Col: ' + col;
+};
+</script>
+<script src="bundle.js" charset="utf-8"></script>
+<script>
+if(!document.getElementById('err').textContent) {
+  document.getElementById('err').textContent = 'Bundle ok. app: ' + document.getElementById('app').innerHTML.length;
+}
+</script>
+</body>
+</html>

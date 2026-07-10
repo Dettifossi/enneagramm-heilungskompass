@@ -1,0 +1,3087 @@
+{
+  ".claude/launch.json": {
+    "mtime": 1782284239.1533818,
+    "ast_hash": "438e60d50ed2661d070aa4b2b96a16eb",
+    "semantic_hash": "438e60d50ed2661d070aa4b2b96a16eb"
+  },
+  ".claude/settings.json": {
+    "mtime": 1782650002.566546,
+    "ast_hash": "e51077b6a7f1f67afc748f1a32a1557d",
+    "semantic_hash": "e51077b6a7f1f67afc748f1a32a1557d"
+  },
+  "app.js": {
+    "mtime": 1782377879.0679395,
+    "ast_hash": "1eb8a6519ceb29f96c2c3a909bcd08d2",
+    "semantic_hash": "1eb8a6519ceb29f96c2c3a909bcd08d2"
+  },
+  "data/beziehungspaarungen.js": {
+    "mtime": 1782324564.7165031,
+    "ast_hash": "4553f998c6a6b49f8c541f18c23d19cb",
+    "semantic_hash": "4553f998c6a6b49f8c541f18c23d19cb"
+  },
+  "data/de.js": {
+    "mtime": 1782377846.4826603,
+    "ast_hash": "3e8b50b7e76b2bd13d1c66fa7f1d804a",
+    "semantic_hash": "3e8b50b7e76b2bd13d1c66fa7f1d804a"
+  },
+  "data/diagnosetest.js": {
+    "mtime": 1782286855.6852868,
+    "ast_hash": "2ddc4dd2cef6f102acdf474b92bdeb6f",
+    "semantic_hash": "2ddc4dd2cef6f102acdf474b92bdeb6f"
+  },
+  "data/differenzierungen.js": {
+    "mtime": 1782330022.5667422,
+    "ast_hash": "18a1baeebcd2575432031fadbb8f2a4e",
+    "semantic_hash": "18a1baeebcd2575432031fadbb8f2a4e"
+  },
+  "data/impulse.js": {
+    "mtime": 1782198175.5233877,
+    "ast_hash": "7008b5320197bf159f3b5cca9725a26f",
+    "semantic_hash": "7008b5320197bf159f3b5cca9725a26f"
+  },
+  "data/knowledge/helpers.js": {
+    "mtime": 1782313360.9386551,
+    "ast_hash": "6cb550785bd7eeca596f412d64f6accb",
+    "semantic_hash": "6cb550785bd7eeca596f412d64f6accb"
+  },
+  "data/knowledge/index.js": {
+    "mtime": 1782313184.640808,
+    "ast_hash": "788389ffdfcbad57878b40bf452e197f",
+    "semantic_hash": "788389ffdfcbad57878b40bf452e197f"
+  },
+  "data/knowledge/se1.js": {
+    "mtime": 1782313380.235355,
+    "ast_hash": "c39d389c9a75b4341e3fd94d83f9af04",
+    "semantic_hash": "c39d389c9a75b4341e3fd94d83f9af04"
+  },
+  "data/knowledge/se2.js": {
+    "mtime": 1782313380.2435808,
+    "ast_hash": "2d059357c8ef66532d0abe942dc136d5",
+    "semantic_hash": "2d059357c8ef66532d0abe942dc136d5"
+  },
+  "data/knowledge/se3.js": {
+    "mtime": 1782313380.2519577,
+    "ast_hash": "7ec536ca22f3945ff53139574a9e616e",
+    "semantic_hash": "7ec536ca22f3945ff53139574a9e616e"
+  },
+  "data/knowledge/se4.js": {
+    "mtime": 1782313380.2591987,
+    "ast_hash": "87a7dffe9f3e9290493e13225a619ac4",
+    "semantic_hash": "87a7dffe9f3e9290493e13225a619ac4"
+  },
+  "data/knowledge/se5.js": {
+    "mtime": 1782313380.2671258,
+    "ast_hash": "d9ca410e998be723eac09f57ba4f18b3",
+    "semantic_hash": "d9ca410e998be723eac09f57ba4f18b3"
+  },
+  "data/knowledge/se6.js": {
+    "mtime": 1782313380.2752304,
+    "ast_hash": "690c148194d7659a37897406565ae683",
+    "semantic_hash": "690c148194d7659a37897406565ae683"
+  },
+  "data/knowledge/se7.js": {
+    "mtime": 1782313380.2839832,
+    "ast_hash": "1e15ddbc8a7da47278b91d4ad9d073e4",
+    "semantic_hash": "1e15ddbc8a7da47278b91d4ad9d073e4"
+  },
+  "data/knowledge/se8.js": {
+    "mtime": 1782313380.2916136,
+    "ast_hash": "60e3663d8a7751663ef84110dfd6cc49",
+    "semantic_hash": "60e3663d8a7751663ef84110dfd6cc49"
+  },
+  "data/knowledge/se9.js": {
+    "mtime": 1782313380.299216,
+    "ast_hash": "89f85105b29991329a26b0c474d149f3",
+    "semantic_hash": "89f85105b29991329a26b0c474d149f3"
+  },
+  "data/knowledge/so1.js": {
+    "mtime": 1782313380.2387297,
+    "ast_hash": "1865aa590a43c6ce86212e7dafd0bcde",
+    "semantic_hash": "1865aa590a43c6ce86212e7dafd0bcde"
+  },
+  "data/knowledge/so2.js": {
+    "mtime": 1782313380.2470844,
+    "ast_hash": "86bb44fe333266ebb0c6e876a4375270",
+    "semantic_hash": "86bb44fe333266ebb0c6e876a4375270"
+  },
+  "data/knowledge/so3.js": {
+    "mtime": 1782313380.2549164,
+    "ast_hash": "1c46f8405f40a62c35a8967ae0b70e08",
+    "semantic_hash": "1c46f8405f40a62c35a8967ae0b70e08"
+  },
+  "data/knowledge/so4.js": {
+    "mtime": 1782313380.262055,
+    "ast_hash": "961e332a74b5119134e049c6a0935a7d",
+    "semantic_hash": "961e332a74b5119134e049c6a0935a7d"
+  },
+  "data/knowledge/so5.js": {
+    "mtime": 1782313380.270816,
+    "ast_hash": "b47d65bca2ab6ef0ba92d6e4c66885e3",
+    "semantic_hash": "b47d65bca2ab6ef0ba92d6e4c66885e3"
+  },
+  "data/knowledge/so6.js": {
+    "mtime": 1782313380.2782412,
+    "ast_hash": "4d660db888c7c1595aacad690108e330",
+    "semantic_hash": "4d660db888c7c1595aacad690108e330"
+  },
+  "data/knowledge/so7.js": {
+    "mtime": 1782313380.2874074,
+    "ast_hash": "08d438f1cb3cdc99a874262d75f197cd",
+    "semantic_hash": "08d438f1cb3cdc99a874262d75f197cd"
+  },
+  "data/knowledge/so8.js": {
+    "mtime": 1782313380.2939408,
+    "ast_hash": "cfc49b337e07e26f9faa83d6d81922a0",
+    "semantic_hash": "cfc49b337e07e26f9faa83d6d81922a0"
+  },
+  "data/knowledge/so9.js": {
+    "mtime": 1782313380.3034909,
+    "ast_hash": "6de64442cdedae3fd57a716f751114fb",
+    "semantic_hash": "6de64442cdedae3fd57a716f751114fb"
+  },
+  "data/knowledge/sx1.js": {
+    "mtime": 1782313380.2410798,
+    "ast_hash": "a4f95f7e821ba241c95a44e529a84568",
+    "semantic_hash": "a4f95f7e821ba241c95a44e529a84568"
+  },
+  "data/knowledge/sx2.js": {
+    "mtime": 1782313380.2493067,
+    "ast_hash": "64b00c30f93d56304d5813615dd4d975",
+    "semantic_hash": "64b00c30f93d56304d5813615dd4d975"
+  },
+  "data/knowledge/sx3.js": {
+    "mtime": 1782313380.2570739,
+    "ast_hash": "a3c8cb24c48ec7ae5490988debf94cd1",
+    "semantic_hash": "a3c8cb24c48ec7ae5490988debf94cd1"
+  },
+  "data/knowledge/sx4.js": {
+    "mtime": 1782313380.26479,
+    "ast_hash": "4bd20da85c1c2849b0abdf8ed143a1ea",
+    "semantic_hash": "4bd20da85c1c2849b0abdf8ed143a1ea"
+  },
+  "data/knowledge/sx5.js": {
+    "mtime": 1782313380.2731254,
+    "ast_hash": "ecfd3647e724820c146606478e8a1b78",
+    "semantic_hash": "ecfd3647e724820c146606478e8a1b78"
+  },
+  "data/knowledge/sx6.js": {
+    "mtime": 1782313380.2810662,
+    "ast_hash": "8da271763092905339b0e1f34b3d389c",
+    "semantic_hash": "8da271763092905339b0e1f34b3d389c"
+  },
+  "data/knowledge/sx7.js": {
+    "mtime": 1782313380.289661,
+    "ast_hash": "23b8704d3ef70bf200e6254eef493c9b",
+    "semantic_hash": "23b8704d3ef70bf200e6254eef493c9b"
+  },
+  "data/knowledge/sx8.js": {
+    "mtime": 1782313380.2967684,
+    "ast_hash": "00c974fb1dbb196f2978d6725126be50",
+    "semantic_hash": "00c974fb1dbb196f2978d6725126be50"
+  },
+  "data/knowledge/sx9.js": {
+    "mtime": 1782313380.3058386,
+    "ast_hash": "949bae2ea903705cb1b3a322938632ee",
+    "semantic_hash": "949bae2ea903705cb1b3a322938632ee"
+  },
+  "data/motivtest.js": {
+    "mtime": 1782239722.724039,
+    "ast_hash": "eb73fb46d5dcecf1abfda8f899327a3a",
+    "semantic_hash": "eb73fb46d5dcecf1abfda8f899327a3a"
+  },
+  "data/subtypes/index.js": {
+    "mtime": 1782312715.9737399,
+    "ast_hash": "b6c1c6f08a39063f31c6f9ddbe8816f7",
+    "semantic_hash": "b6c1c6f08a39063f31c6f9ddbe8816f7"
+  },
+  "data/subtypes/se1.js": {
+    "mtime": 1782312708.3181126,
+    "ast_hash": "ec59148c1e7f1c4292157da3dd74d762",
+    "semantic_hash": "ec59148c1e7f1c4292157da3dd74d762"
+  },
+  "data/subtypes/se2.js": {
+    "mtime": 1782312708.3183055,
+    "ast_hash": "91251bcb13adca529bae4e4c94a4126a",
+    "semantic_hash": "91251bcb13adca529bae4e4c94a4126a"
+  },
+  "data/subtypes/se3.js": {
+    "mtime": 1782312708.3184383,
+    "ast_hash": "bd644cdc8ae9ec7abf8a933f0134fae3",
+    "semantic_hash": "bd644cdc8ae9ec7abf8a933f0134fae3"
+  },
+  "data/subtypes/se4.js": {
+    "mtime": 1782312708.318556,
+    "ast_hash": "200daedf0ce2e1f0b9c0c6a41663fae8",
+    "semantic_hash": "200daedf0ce2e1f0b9c0c6a41663fae8"
+  },
+  "data/subtypes/se5.js": {
+    "mtime": 1782312708.318676,
+    "ast_hash": "02cbc4cf68368dfc0566992324d4ddce",
+    "semantic_hash": "02cbc4cf68368dfc0566992324d4ddce"
+  },
+  "data/subtypes/se6.js": {
+    "mtime": 1782312708.3187776,
+    "ast_hash": "f4377c4e5db7e95fa4a829f3ef6e81f4",
+    "semantic_hash": "f4377c4e5db7e95fa4a829f3ef6e81f4"
+  },
+  "data/subtypes/se7.js": {
+    "mtime": 1782312708.318878,
+    "ast_hash": "b891318ef0d63c765163064df1feaac4",
+    "semantic_hash": "b891318ef0d63c765163064df1feaac4"
+  },
+  "data/subtypes/se8.js": {
+    "mtime": 1782312708.3189797,
+    "ast_hash": "7255929459f433996b50406f3fdc57e8",
+    "semantic_hash": "7255929459f433996b50406f3fdc57e8"
+  },
+  "data/subtypes/se9.js": {
+    "mtime": 1782312708.3191183,
+    "ast_hash": "8a2c69c39ed1e4e6ddf67bd832e1c090",
+    "semantic_hash": "8a2c69c39ed1e4e6ddf67bd832e1c090"
+  },
+  "data/subtypes/so1.js": {
+    "mtime": 1782312708.3192346,
+    "ast_hash": "a7029f2062a7decbb44eb34f9c9bf060",
+    "semantic_hash": "a7029f2062a7decbb44eb34f9c9bf060"
+  },
+  "data/subtypes/so2.js": {
+    "mtime": 1782312708.3193395,
+    "ast_hash": "21a2706c0254c0a60f5edd3b9d2f1260",
+    "semantic_hash": "21a2706c0254c0a60f5edd3b9d2f1260"
+  },
+  "data/subtypes/so3.js": {
+    "mtime": 1782312708.3194432,
+    "ast_hash": "63ee03be5ea5096b49f2b8640c6d5a9b",
+    "semantic_hash": "63ee03be5ea5096b49f2b8640c6d5a9b"
+  },
+  "data/subtypes/so4.js": {
+    "mtime": 1782312708.319551,
+    "ast_hash": "6933c1ddc2923084bf386de137a434d2",
+    "semantic_hash": "6933c1ddc2923084bf386de137a434d2"
+  },
+  "data/subtypes/so5.js": {
+    "mtime": 1782312708.3196583,
+    "ast_hash": "3fdf7ec69d534a5e6fa953f1045a1bd8",
+    "semantic_hash": "3fdf7ec69d534a5e6fa953f1045a1bd8"
+  },
+  "data/subtypes/so6.js": {
+    "mtime": 1782312708.3197634,
+    "ast_hash": "6faffbe53b9af1a46123a18b7208f88b",
+    "semantic_hash": "6faffbe53b9af1a46123a18b7208f88b"
+  },
+  "data/subtypes/so7.js": {
+    "mtime": 1782312708.3198597,
+    "ast_hash": "70e430cb7105f1ebdce40c46bc9694e9",
+    "semantic_hash": "70e430cb7105f1ebdce40c46bc9694e9"
+  },
+  "data/subtypes/so8.js": {
+    "mtime": 1782312708.319955,
+    "ast_hash": "577862ae187b6aa1a8dc45153b3e4149",
+    "semantic_hash": "577862ae187b6aa1a8dc45153b3e4149"
+  },
+  "data/subtypes/so9.js": {
+    "mtime": 1782312708.3200586,
+    "ast_hash": "a8cd289d0105b71707778b32fd20976d",
+    "semantic_hash": "a8cd289d0105b71707778b32fd20976d"
+  },
+  "data/subtypes/sx1.js": {
+    "mtime": 1782312708.3201544,
+    "ast_hash": "900ad069122306d83fc5ee95036da845",
+    "semantic_hash": "900ad069122306d83fc5ee95036da845"
+  },
+  "data/subtypes/sx2.js": {
+    "mtime": 1782312708.3202515,
+    "ast_hash": "bfc482c1ff4dacff278cd06a50306f05",
+    "semantic_hash": "bfc482c1ff4dacff278cd06a50306f05"
+  },
+  "data/subtypes/sx3.js": {
+    "mtime": 1782312708.32035,
+    "ast_hash": "f955d2ceb68f20afa7349f06d51fb18d",
+    "semantic_hash": "f955d2ceb68f20afa7349f06d51fb18d"
+  },
+  "data/subtypes/sx4.js": {
+    "mtime": 1782312708.320446,
+    "ast_hash": "fd3a701e9e48ae431250aa806a92831f",
+    "semantic_hash": "fd3a701e9e48ae431250aa806a92831f"
+  },
+  "data/subtypes/sx5.js": {
+    "mtime": 1782312708.320537,
+    "ast_hash": "93daf9b77c9dd550bc87092b42af7242",
+    "semantic_hash": "93daf9b77c9dd550bc87092b42af7242"
+  },
+  "data/subtypes/sx6.js": {
+    "mtime": 1782312708.3206258,
+    "ast_hash": "7742a3d28a60e66ed9a9ffe21dbfd396",
+    "semantic_hash": "7742a3d28a60e66ed9a9ffe21dbfd396"
+  },
+  "data/subtypes/sx7.js": {
+    "mtime": 1782312708.3207161,
+    "ast_hash": "27235c6bfa24f659e2204cd772745609",
+    "semantic_hash": "27235c6bfa24f659e2204cd772745609"
+  },
+  "data/subtypes/sx8.js": {
+    "mtime": 1782312708.320805,
+    "ast_hash": "ac2e5b8be4a59a4286100a9d973cb774",
+    "semantic_hash": "ac2e5b8be4a59a4286100a9d973cb774"
+  },
+  "data/subtypes/sx9.js": {
+    "mtime": 1782312708.3209062,
+    "ast_hash": "ddddd220678c2e8ed34415cf359f500c",
+    "semantic_hash": "ddddd220678c2e8ed34415cf359f500c"
+  },
+  "data/tagesimpulse.js": {
+    "mtime": 1782288284.9984815,
+    "ast_hash": "4dac5001818bae56be3bf5564969a2d5",
+    "semantic_hash": "4dac5001818bae56be3bf5564969a2d5"
+  },
+  "data/tierentsprechungen.js": {
+    "mtime": 1782330766.1006641,
+    "ast_hash": "7c0d0585165c8cfa26049b01e0904e33",
+    "semantic_hash": "7c0d0585165c8cfa26049b01e0904e33"
+  },
+  "data/typentest.js": {
+    "mtime": 1782216521.3507977,
+    "ast_hash": "855ca8707d60efecf81884bb97ef3c2b",
+    "semantic_hash": "855ca8707d60efecf81884bb97ef3c2b"
+  },
+  "package.json": {
+    "mtime": 1780427801.233855,
+    "ast_hash": "79a85513c07bb364bbbe4037acfb3e32",
+    "semantic_hash": "79a85513c07bb364bbbe4037acfb3e32"
+  },
+  "serve.py": {
+    "mtime": 1782244167.1705089,
+    "ast_hash": "96e03163e1eb1dcf42b1791d27fcc4c9",
+    "semantic_hash": "96e03163e1eb1dcf42b1791d27fcc4c9"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1782650002.5652661,
+    "ast_hash": "db73b0edd7ffbc61ceac177130730865",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/SKILL.md": {
+    "mtime": 1782650002.5649269,
+    "ast_hash": "5bc28728a68fa52adb97f26b0ffa1324",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/add-watch.md": {
+    "mtime": 1782649722.9602892,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/exports.md": {
+    "mtime": 1782649722.9608583,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1782649722.961297,
+    "ast_hash": "2e620982acb506f557538cdcfb1ef6da",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1782649722.9615912,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/hooks.md": {
+    "mtime": 1782649722.9618623,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/query.md": {
+    "mtime": 1782649722.9621813,
+    "ast_hash": "9e5aadc2c57ab561bc56600fcfa70735",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/transcribe.md": {
+    "mtime": 1782649722.9656425,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/update.md": {
+    "mtime": 1782649722.9658864,
+    "ast_hash": "c698309979460d0f02ba616417844399",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1782650002.566253,
+    "ast_hash": "31d6cbb1b412b6c46b42f7c9014a7c96",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1780432695.5502884,
+    "ast_hash": "4d75d577dedebe7ab8d90ba3ed46ad1b",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1782377883.7098837,
+    "ast_hash": "4ddaff11622ee894ec6aa4dc965aee8e",
+    "semantic_hash": ""
+  },
+  "assets/comics/se1.jpg": {
+    "mtime": 1782327238.2409544,
+    "ast_hash": "14f749e2c7711fb5610579e1fb7fc46a",
+    "semantic_hash": ""
+  },
+  "assets/comics/se2.jpg": {
+    "mtime": 1782327238.797386,
+    "ast_hash": "5f0a19ffed7cec86f3fd7568434699c2",
+    "semantic_hash": ""
+  },
+  "assets/comics/se3.jpg": {
+    "mtime": 1782327239.8027263,
+    "ast_hash": "9cbd322be81d2393ede576d963a632cf",
+    "semantic_hash": ""
+  },
+  "assets/comics/se4.jpg": {
+    "mtime": 1782327240.3017936,
+    "ast_hash": "d6c9a1dc23bbf99c081c37ce5341f550",
+    "semantic_hash": ""
+  },
+  "assets/comics/se5.jpg": {
+    "mtime": 1782327241.2782056,
+    "ast_hash": "cdee0fc87daaed5a6e321e892e138d2a",
+    "semantic_hash": ""
+  },
+  "assets/comics/se6.jpg": {
+    "mtime": 1782327241.6827376,
+    "ast_hash": "62912b39b8c51a175099f9ff8d39b045",
+    "semantic_hash": ""
+  },
+  "assets/comics/se7.jpg": {
+    "mtime": 1782327242.6040165,
+    "ast_hash": "f6c0e3891858a71ba241d9f8cdf0f6d0",
+    "semantic_hash": ""
+  },
+  "assets/comics/se8.jpg": {
+    "mtime": 1782327243.1020393,
+    "ast_hash": "19d9135b2287a3cb3b175c8fbea9dfa2",
+    "semantic_hash": ""
+  },
+  "assets/comics/se9.jpg": {
+    "mtime": 1782327244.1104891,
+    "ast_hash": "84831e26d535234542a3dabd57b43e3e",
+    "semantic_hash": ""
+  },
+  "assets/comics/so1.jpg": {
+    "mtime": 1782327238.2428706,
+    "ast_hash": "9c8a47b321febd4b3c9702f34a4db86c",
+    "semantic_hash": ""
+  },
+  "assets/comics/so2.jpg": {
+    "mtime": 1782327239.3210492,
+    "ast_hash": "a565fedc49b14019b99657975a2c26ea",
+    "semantic_hash": ""
+  },
+  "assets/comics/so3.jpg": {
+    "mtime": 1782327239.8044786,
+    "ast_hash": "f2676733008c04c7cae309020ab72358",
+    "semantic_hash": ""
+  },
+  "assets/comics/so4.jpg": {
+    "mtime": 1782327240.799039,
+    "ast_hash": "3b3fc80e4a8ad0a3192358799f0831dd",
+    "semantic_hash": ""
+  },
+  "assets/comics/so5.jpg": {
+    "mtime": 1782327241.2798264,
+    "ast_hash": "e68188477464215f650c8cdd0248d708",
+    "semantic_hash": ""
+  },
+  "assets/comics/so6.jpg": {
+    "mtime": 1782327242.1233563,
+    "ast_hash": "4e93940f6f538d552f905cfacceb7230",
+    "semantic_hash": ""
+  },
+  "assets/comics/so7.jpg": {
+    "mtime": 1782327242.6059322,
+    "ast_hash": "fa4d727b85a4f81b2f89405958f5b4cd",
+    "semantic_hash": ""
+  },
+  "assets/comics/so8.jpg": {
+    "mtime": 1782327243.6128664,
+    "ast_hash": "67051506b8a3b35ef73458f21f12af92",
+    "semantic_hash": ""
+  },
+  "assets/comics/so9.jpg": {
+    "mtime": 1782327244.1122603,
+    "ast_hash": "2db0b5c2b61076667b9e57902eb15a5c",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx1.jpg": {
+    "mtime": 1782327238.7951818,
+    "ast_hash": "d8f3363f4e24651f396ccfd0aa6e68a4",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx2.jpg": {
+    "mtime": 1782327239.3228078,
+    "ast_hash": "69d1256719bd06156e7d616a72e2a078",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx3.jpg": {
+    "mtime": 1782327240.299831,
+    "ast_hash": "ad1da49a48decf92966276bd1cce9ca0",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx4.jpg": {
+    "mtime": 1782327240.8099349,
+    "ast_hash": "0bd81a3b193f0fe657c7700d959598e3",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx5.jpg": {
+    "mtime": 1782327241.6806688,
+    "ast_hash": "5f8de74496e489c7d70db66e322f2635",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx6.jpg": {
+    "mtime": 1782327242.1255906,
+    "ast_hash": "fb784d1e17dcd13a3270a012c4cbc113",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx7.jpg": {
+    "mtime": 1782327243.1000693,
+    "ast_hash": "5e27c98880a7e52a612e63e116ee5bff",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx8.jpg": {
+    "mtime": 1782327243.6147206,
+    "ast_hash": "b0f0820170a1aac7dba59b316572c024",
+    "semantic_hash": ""
+  },
+  "assets/comics/sx9.jpg": {
+    "mtime": 1782327283.2924998,
+    "ast_hash": "cf039fbeb46dbb670989a82ff6bd0d96",
+    "semantic_hash": ""
+  },
+  "assets/covers/27-gesichter-der-seele.jpg": {
+    "mtime": 1782377458.2330856,
+    "ast_hash": "fef5e1250aecddc8386fa9e94b5abb82",
+    "semantic_hash": ""
+  },
+  "assets/covers/27-persoenlichkeiten.jpg": {
+    "mtime": 1782377459.611621,
+    "ast_hash": "a86b040f3bd66c8c1d37e006ac835193",
+    "semantic_hash": ""
+  },
+  "assets/covers/7-wege-zu-dir-selbst.jpg": {
+    "mtime": 1782377459.7525659,
+    "ast_hash": "e153c50205e079e1c8b6e75aa3ada37e",
+    "semantic_hash": ""
+  },
+  "assets/covers/archetypen-der-tiere.jpg": {
+    "mtime": 1782377459.6476257,
+    "ast_hash": "f9b2106937c3a874f913aea25c626ac2",
+    "semantic_hash": ""
+  },
+  "assets/covers/arzneimittellehre-single-rubriken.jpg": {
+    "mtime": 1782377459.6804821,
+    "ast_hash": "050808cbf3bb91e00010a845165f3f5e",
+    "semantic_hash": ""
+  },
+  "assets/covers/chrono-ennea-typ.jpg": {
+    "mtime": 1782377459.6676676,
+    "ast_hash": "4aea9e46d21dad5487fc315a97e24305",
+    "semantic_hash": ""
+  },
+  "assets/covers/code-der-persoenlichkeit.jpg": {
+    "mtime": 1782377459.6148648,
+    "ast_hash": "1ed55e4c2892111f6568f9e365a3a35a",
+    "semantic_hash": ""
+  },
+  "assets/covers/code-of-your-personality.jpg": {
+    "mtime": 1782377459.7653325,
+    "ast_hash": "5f60ab8ad6f6ca355401753e7339514e",
+    "semantic_hash": ""
+  },
+  "assets/covers/du-bist-nicht-dein-zweifel.jpg": {
+    "mtime": 1782377459.734843,
+    "ast_hash": "369bb0c3905166969457390ac0f6e962",
+    "semantic_hash": ""
+  },
+  "assets/covers/dynamik-27-subtypen.jpg": {
+    "mtime": 1782377459.530751,
+    "ast_hash": "ebdfdff1562091911f79e31e70a667f4",
+    "semantic_hash": ""
+  },
+  "assets/covers/dynamik-9-heilmittel.jpg": {
+    "mtime": 1782377459.6957405,
+    "ast_hash": "1237afc7686a3354493236520368dd7a",
+    "semantic_hash": ""
+  },
+  "assets/covers/eh-repertorium.jpg": {
+    "mtime": 1782377459.698583,
+    "ast_hash": "db31dee68a46fd29ac4d0f2fc38eb504",
+    "semantic_hash": ""
+  },
+  "assets/covers/eh-unterrichtsmaterial.jpg": {
+    "mtime": 1782377459.7197194,
+    "ast_hash": "5d514c437f3383b6fb5bf21110a4106a",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-bachblueten.jpg": {
+    "mtime": 1782377459.7288063,
+    "ast_hash": "c4a3319923c94834df72e838047e32a0",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-biochemie-xxl.jpg": {
+    "mtime": 1782377459.7248557,
+    "ast_hash": "cff11df310c4a492706b93a367af3c79",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-homoeopathie-1.jpg": {
+    "mtime": 1782377459.688005,
+    "ast_hash": "bc54dfd874021e5cf52dca21a474de84",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-homoeopathie-2.jpg": {
+    "mtime": 1782377459.6920314,
+    "ast_hash": "811c65a53bc73cd644f65b26cfbd7f29",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-homoeopathie-repertorium.jpg": {
+    "mtime": 1782377474.393024,
+    "ast_hash": "47883651b90e91de2b972c78aac14507",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-lexikon.jpg": {
+    "mtime": 1782377459.6199098,
+    "ast_hash": "544871d94219911e7f3d6829faa00311",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-tischkalender.jpg": {
+    "mtime": 1782377870.8569295,
+    "ast_hash": "932f03d36b55b305faf7ddf0b80eeaa9",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-typentest.jpg": {
+    "mtime": 1782377459.5847247,
+    "ast_hash": "d35d2d664f5e217f81df8e9c32f2479a",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-wandkalender.jpg": {
+    "mtime": 1782377870.851816,
+    "ast_hash": "6d0ef0f32cb4bec7be66997c0ed6e07d",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagramm-zoo.jpg": {
+    "mtime": 1782377459.6441383,
+    "ast_hash": "e42f57909e62d80db54c833ded23a5dd",
+    "semantic_hash": ""
+  },
+  "assets/covers/enneagrammatische-homoeopathie.jpg": {
+    "mtime": 1782377459.7153847,
+    "ast_hash": "942b0e36440a01b5e241f9d16e95b660",
+    "semantic_hash": ""
+  },
+  "assets/covers/eternal-wall-calendar.jpg": {
+    "mtime": 1782377870.8610318,
+    "ast_hash": "c04e4e67e896961e2a683711dfe5f0bc",
+    "semantic_hash": ""
+  },
+  "assets/covers/fuehrung-mit-fundament.jpg": {
+    "mtime": 1782377870.9548068,
+    "ast_hash": "904d096649d3ba381dee8e7edb808077",
+    "semantic_hash": ""
+  },
+  "assets/covers/gesetzeskunde-heilpraktiker.jpg": {
+    "mtime": 1782377459.731576,
+    "ast_hash": "6e11d405288b0ff210640fc257dba26d",
+    "semantic_hash": ""
+  },
+  "assets/covers/gesichter-inneres-feuer.jpg": {
+    "mtime": 1782377458.2241461,
+    "ast_hash": "40372dabed2a632f979328a486226d8c",
+    "semantic_hash": ""
+  },
+  "assets/covers/heilung-als-erinnerung.jpg": {
+    "mtime": 1782377459.7483032,
+    "ast_hash": "535df83527071202dd6c5513c61eabfc",
+    "semantic_hash": ""
+  },
+  "assets/covers/hidden-dynamics-english.jpg": {
+    "mtime": 1782377459.638821,
+    "ast_hash": "b481e68dd0e98a275259c8db1d5df82a",
+    "semantic_hash": ""
+  },
+  "assets/covers/in-der-tiefe-der-zeit.jpg": {
+    "mtime": 1782377459.782703,
+    "ast_hash": "6471945c881129b26750a0da75a7c353",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-liebe.jpg": {
+    "mtime": 1782377870.908601,
+    "ast_hash": "427d6d09cee70e093aebe0ed93c6c804",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-naturwunder.jpg": {
+    "mtime": 1782377870.9035795,
+    "ast_hash": "d36729c15fc859e0d2e27ac5fbf24a0a",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-selbsterkenntnis.jpg": {
+    "mtime": 1782377870.8981156,
+    "ast_hash": "befceeb1dc419aa602049bdcded7e24b",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-1.jpg": {
+    "mtime": 1782377870.8643477,
+    "ast_hash": "087efd20840f2b89c79e665c3907b7f9",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-2.jpg": {
+    "mtime": 1782377870.8676953,
+    "ast_hash": "b65f87902df5bf3416bf13c6d079684e",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-3.jpg": {
+    "mtime": 1782377870.872566,
+    "ast_hash": "23e7294a3a9cc0070433f14db536eaf5",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-4.jpg": {
+    "mtime": 1782377870.876288,
+    "ast_hash": "6aa812aaa6c1f1227c7ad485158e1347",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-5.jpg": {
+    "mtime": 1782377870.8796635,
+    "ast_hash": "dcf1430e461e5bf87fa4b988c50f08cc",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-6.jpg": {
+    "mtime": 1782377870.8828456,
+    "ast_hash": "51999ad595cfe3bcd9e9bae56f87b380",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-7.jpg": {
+    "mtime": 1782377870.8874676,
+    "ast_hash": "23054fd6a8e12b16684ca7e758375042",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-8.jpg": {
+    "mtime": 1782377870.8908987,
+    "ast_hash": "14368d514d1c3c4b925746e9d3003f25",
+    "semantic_hash": ""
+  },
+  "assets/covers/kalender-typ-9.jpg": {
+    "mtime": 1782377870.8941905,
+    "ast_hash": "fb9479a0d9b713c173741df4473263b4",
+    "semantic_hash": ""
+  },
+  "assets/covers/kern-der-heilmittel.jpg": {
+    "mtime": 1782377459.6834376,
+    "ast_hash": "9a8eb208954e4226112b74ac1d49bafa",
+    "semantic_hash": ""
+  },
+  "assets/covers/lehrbuch-eh-1.jpg": {
+    "mtime": 1782377459.7015598,
+    "ast_hash": "41a045864a81e8ec014ca3524fd38294",
+    "semantic_hash": ""
+  },
+  "assets/covers/lehrbuch-eh-2.jpg": {
+    "mtime": 1782377459.7049549,
+    "ast_hash": "6d3f2fa69d41b327e2219894b43168ed",
+    "semantic_hash": ""
+  },
+  "assets/covers/lehrbuch-eh-3.jpg": {
+    "mtime": 1782377459.708161,
+    "ast_hash": "86e6fd7b6b2903f93876f9ec21c7d986",
+    "semantic_hash": ""
+  },
+  "assets/covers/leidenschaft-und-heilung.jpg": {
+    "mtime": 1782377459.7592595,
+    "ast_hash": "247ce151e6bf5b0c36dcf2eb7fa1f6f6",
+    "semantic_hash": ""
+  },
+  "assets/covers/meta-intelligenz-hoerbuch.jpg": {
+    "mtime": 1782377870.993207,
+    "ast_hash": "d3580f944defb8c65a2de515441cb39a",
+    "semantic_hash": ""
+  },
+  "assets/covers/meta-intelligenz.jpg": {
+    "mtime": 1782377870.9496849,
+    "ast_hash": "49073c06cdd470cd48f1f5d222cafbed",
+    "semantic_hash": ""
+  },
+  "assets/covers/motivational-type-test-english.jpg": {
+    "mtime": 1782377459.608261,
+    "ast_hash": "d458f8b88cad2549c7e28e03f14c9e50",
+    "semantic_hash": ""
+  },
+  "assets/covers/motivationaler-typentest.jpg": {
+    "mtime": 1782377459.6004798,
+    "ast_hash": "1984714a8b8c038c7b8faea180765c59",
+    "semantic_hash": ""
+  },
+  "assets/covers/nichts-und-alles.jpg": {
+    "mtime": 1782377459.738475,
+    "ast_hash": "da67c771dcc667a21f0b0c00aee82bc7",
+    "semantic_hash": ""
+  },
+  "assets/covers/praxis-der-typbestimmung.jpg": {
+    "mtime": 1782377459.5813105,
+    "ast_hash": "3f9b0f2686c7ce7d6cd2fa3a569549eb",
+    "semantic_hash": ""
+  },
+  "assets/covers/rathmers-repertorium.jpg": {
+    "mtime": 1782377459.6741915,
+    "ast_hash": "048a385414ca4f1b641f25c1555e3ee6",
+    "semantic_hash": ""
+  },
+  "assets/covers/raum-hinter-allem.jpg": {
+    "mtime": 1782377459.741587,
+    "ast_hash": "e7e1fabc9cf4b42e359f5bc6445f7514",
+    "semantic_hash": ""
+  },
+  "assets/covers/repertorium-gemuetsrubriken.jpg": {
+    "mtime": 1782377459.6774309,
+    "ast_hash": "580bb7aa96f07081bbe6b96f95ade01e",
+    "semantic_hash": ""
+  },
+  "assets/covers/sehgal-unterrichtsskript.jpg": {
+    "mtime": 1782377459.7124727,
+    "ast_hash": "9122c8bb3b605bd6728e7b3cf270637d",
+    "semantic_hash": ""
+  },
+  "assets/covers/sei-still-und-wisse.jpg": {
+    "mtime": 1782377459.7449727,
+    "ast_hash": "a5db0a6c8431b09f961422de75282c31",
+    "semantic_hash": ""
+  },
+  "assets/covers/seminar-wenn-masken-fallen.jpg": {
+    "mtime": 1782377459.7996054,
+    "ast_hash": "310a6c59cf0ca31d52f437388c890ab7",
+    "semantic_hash": ""
+  },
+  "assets/covers/sprache-der-sexualitaet.jpg": {
+    "mtime": 1782377459.7622633,
+    "ast_hash": "212cdc29c18bb46cbdd52560f4ff029e",
+    "semantic_hash": ""
+  },
+  "assets/covers/sprache-unserer-beziehungen.jpg": {
+    "mtime": 1782377459.7560518,
+    "ast_hash": "dae4744bfb6bdc1f0f1fc91db60b60af",
+    "semantic_hash": ""
+  },
+  "assets/covers/wer-du-wirklich-bist-1.jpg": {
+    "mtime": 1782377459.5343919,
+    "ast_hash": "2c0d9fd72ae256d295d49c284f6dda97",
+    "semantic_hash": ""
+  },
+  "assets/covers/wer-du-wirklich-bist-2.jpg": {
+    "mtime": 1782377459.5568366,
+    "ast_hash": "df966583f528bf51254a9b201e297c27",
+    "semantic_hash": ""
+  },
+  "assets/covers/wer-du-wirklich-bist.jpg": {
+    "mtime": 1782377459.577798,
+    "ast_hash": "de9d337013d2b214c1080a6d08c258c8",
+    "semantic_hash": ""
+  },
+  "assets/grundformel-rathmer-enneagramm.jpg": {
+    "mtime": 1780428308.1708748,
+    "ast_hash": "eab2d361c3b5f633031e56b009479a61",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-1.jpg": {
+    "mtime": 1782132802.7382598,
+    "ast_hash": "5f8f004fbc1ca2cd3da2b9604b7bea31",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-2.jpg": {
+    "mtime": 1782132802.7416275,
+    "ast_hash": "7279c64d22a14d4ba430e20eeac1fd79",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-3.jpg": {
+    "mtime": 1782132802.743876,
+    "ast_hash": "91173698d7a08ca3afbbba514d98f94e",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-4.jpg": {
+    "mtime": 1782132802.7464406,
+    "ast_hash": "5b65651a7d3a51e6866f8d835adc26c9",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-5.jpg": {
+    "mtime": 1782132802.7487192,
+    "ast_hash": "fd19e26d5675cd45efbc5c69cd6c8b60",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-6.jpg": {
+    "mtime": 1782132802.7512562,
+    "ast_hash": "a63076baf5519cc22bfe51ff2b5650a3",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-7.jpg": {
+    "mtime": 1782134453.8833125,
+    "ast_hash": "4b21f17fbf4c2a8974e632b7a6188f11",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-8.jpg": {
+    "mtime": 1782134453.8869388,
+    "ast_hash": "296af1e86159b2b33dd4c323e19dab9a",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/aetherische-oele/typ-9.jpg": {
+    "mtime": 1782134453.889484,
+    "ast_hash": "f5b451160e7109788122e985faa17b7b",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/arsenicum-album.jpg": {
+    "mtime": 1782154352.7857761,
+    "ast_hash": "824397e2006601cf68cbe0019243b5c5",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/calcarea-carbonica.jpg": {
+    "mtime": 1782154509.9143503,
+    "ast_hash": "7f503712d1ed17cd4fba7d89d1e61eeb",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/ignatia-amara.jpg": {
+    "mtime": 1782154557.494348,
+    "ast_hash": "9bd82acb57451c0331a7f31b5000b662",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/lycopodium-clavatum.jpg": {
+    "mtime": 1782154500.463783,
+    "ast_hash": "f59b11efba9604c2cfcc9a04d7e7a6c0",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/opium.jpg": {
+    "mtime": 1782154538.6527565,
+    "ast_hash": "afa54693ad1c5440473b90d3626011b0",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/pulsatilla-pratensis.jpg": {
+    "mtime": 1782154557.4448905,
+    "ast_hash": "d0b09514960380926a1b70ea858a433f",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/silicea.jpg": {
+    "mtime": 1782154503.6774662,
+    "ast_hash": "3036afcbabb2c7f7cff4127ddbbcd958",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/staphysagria.jpg": {
+    "mtime": 1782154544.0754976,
+    "ast_hash": "dc3e97f66908040994c078e237d3af46",
+    "semantic_hash": ""
+  },
+  "assets/heilmittel/wundenmittel/veratrum-album.jpg": {
+    "mtime": 1782154557.2325625,
+    "ast_hash": "a8842a236293e16073d49c095bbfac51",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/amethyst-app-v1.svg": {
+    "mtime": 1780564648.9781647,
+    "ast_hash": "d4733c1c546ab8de8e978a4fc205cd56",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/amethyst-photo-v1.jpg": {
+    "mtime": 1780565590.0594702,
+    "ast_hash": "972ad3389ed03599788f573a58921184",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/amethyst.jpeg": {
+    "mtime": 1780523819.585667,
+    "ast_hash": "e7723c89eee35bbe4be65ab8614de0b1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/kalium-sulfuricum-app-v1.svg": {
+    "mtime": 1780564647.6281052,
+    "ast_hash": "8a430b33df3bd899916acc568a26c44c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/kalium-sulfuricum-photo-v1.jpg": {
+    "mtime": 1780565588.52116,
+    "ast_hash": "240db347e9f888ea60d4516bf5b0c7c1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/kalium-sulfuricum.jpeg": {
+    "mtime": 1780523819.5792694,
+    "ast_hash": "d98b840082ea891806dd936450abcdfe",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/melissentee-app-v1.svg": {
+    "mtime": 1780564650.2980478,
+    "ast_hash": "dc957e48eefeb33bd833ec129d08b0f2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/melissentee-photo-v1.jpg": {
+    "mtime": 1780565590.110529,
+    "ast_hash": "071d0a7b39524c56debec75c7d930de4",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/melissentee.jpeg": {
+    "mtime": 1780523899.0245638,
+    "ast_hash": "b8c6e2b2928b20ce7e5b3b8398d0a29e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/platinum-metallicum-app-v1.svg": {
+    "mtime": 1780564646.689967,
+    "ast_hash": "2d2bc28238b893d94d0ea0fcee22401a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/platinum-metallicum-photo-v1.jpg": {
+    "mtime": 1780566451.9727213,
+    "ast_hash": "4860914a8831781d52a4158b2ddc0647",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/platinum-metallicum.jpeg": {
+    "mtime": 1780523819.5786626,
+    "ast_hash": "7e222ce7065fec12f700f3872902b0ec",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/rock-water-app-v1.svg": {
+    "mtime": 1780564648.205245,
+    "ast_hash": "7ecf9234c17f65f8bf90e245097266b8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/rock-water-photo-v1.jpg": {
+    "mtime": 1780565588.5250866,
+    "ast_hash": "cca7cfdde19e5b508c81823d827e823e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/rock-water.jpeg": {
+    "mtime": 1780523819.5842683,
+    "ast_hash": "cf7cff214c39c5d422c60866e2c59a04",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/se1-bachbluete.jpg": {
+    "mtime": 1782129147.303508,
+    "ast_hash": "d057fa70ea42c3cc233e6f4d8082dd66",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/se1-edelstein.jpg": {
+    "mtime": 1782129147.361221,
+    "ast_hash": "cdfc2cad82936657224d010872f3e501",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/se1-homoeopathie.jpg": {
+    "mtime": 1782131971.032044,
+    "ast_hash": "b3d997c880965e7a8cd404cf93638f4c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/se1-schuessler.jpg": {
+    "mtime": 1782129147.250113,
+    "ast_hash": "3cc0652f15b3239d4024abf82b398ce6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/heilmittel/se1-tee.jpg": {
+    "mtime": 1782129147.41738,
+    "ast_hash": "4af5be067982eff9b210c4217571171a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-anleitung.jpeg": {
+    "mtime": 1782166584.5900023,
+    "ast_hash": "0ba104ce6ce7c888d901abefed750bba",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-bauch.jpeg": {
+    "mtime": 1782166542.7670102,
+    "ast_hash": "e14585b22c771c67a90ac5727aa9e540",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-finger.jpeg": {
+    "mtime": 1782166542.7687366,
+    "ast_hash": "49b7114e4e9fb411618913ffcb221bbb",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-fuss.jpeg": {
+    "mtime": 1782166542.7657905,
+    "ast_hash": "507ba09cd3b84beb332941cd66484d7e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-gesicht.jpeg": {
+    "mtime": 1782166542.7625751,
+    "ast_hash": "679592bb940d04dab59239ad23703d51",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-haltung.jpeg": {
+    "mtime": 1782166584.5946076,
+    "ast_hash": "3d8c7f3afa813ec47d999a2d858ee032",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-hand.jpeg": {
+    "mtime": 1782166542.7643862,
+    "ast_hash": "4a54e06becd865eda2b40fb2e8b27455",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-ohr.jpeg": {
+    "mtime": 1782166542.7701075,
+    "ast_hash": "459d07dc425d1fc8f70444111754f684",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/koerperarbeit/se1-koerper-stillsitzen.jpeg": {
+    "mtime": 1782166584.591594,
+    "ast_hash": "3813127e72038c80505aa9673790c8d5",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/se1-page-1.jpeg": {
+    "mtime": 1780521925.3348553,
+    "ast_hash": "b5e4cde41f0c41a0bcf5fa4046c693e1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/se1-page-2.jpeg": {
+    "mtime": 1780521925.3763597,
+    "ast_hash": "fe2468d5cddcb88d3ab3c2784b411e32",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/se1-page-3.jpeg": {
+    "mtime": 1780521927.5715086,
+    "ast_hash": "9fbda97b4672bd2890d6271e5967a9b6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/se1-page-4.jpeg": {
+    "mtime": 1780521927.5570192,
+    "ast_hash": "4d6725fcf608eba80ca5b5810f866861",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/se1/se1-page-5.jpeg": {
+    "mtime": 1780521968.656598,
+    "ast_hash": "9255e3c6c08fe782817b24a781d7037e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/heilmittel/so1-bachbluete.jpg": {
+    "mtime": 1782129147.5230365,
+    "ast_hash": "d057fa70ea42c3cc233e6f4d8082dd66",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/heilmittel/so1-edelstein.jpg": {
+    "mtime": 1782129147.5435047,
+    "ast_hash": "cdfc2cad82936657224d010872f3e501",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/heilmittel/so1-homoeopathie.jpg": {
+    "mtime": 1782131971.1027715,
+    "ast_hash": "b3d997c880965e7a8cd404cf93638f4c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/heilmittel/so1-schuessler.jpg": {
+    "mtime": 1782129147.5023518,
+    "ast_hash": "3cc0652f15b3239d4024abf82b398ce6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/heilmittel/so1-tee.jpg": {
+    "mtime": 1782129147.563703,
+    "ast_hash": "4af5be067982eff9b210c4217571171a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/so1-page-1.jpeg": {
+    "mtime": 1780597942.7668395,
+    "ast_hash": "35a0d90842d613159731791e7874bc9e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/so1-page-2.jpeg": {
+    "mtime": 1780597946.6573734,
+    "ast_hash": "7fc73c09ea35e532573448f5276cbaf7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/so1-page-3.jpeg": {
+    "mtime": 1780597946.7481647,
+    "ast_hash": "7e7a1bfd1becdbab8b976eb9357c185c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/so1-page-4.jpeg": {
+    "mtime": 1780597946.8284981,
+    "ast_hash": "d6886a1dbb5e5b1e2f007b318b3e8875",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/so1/so1-page-5.jpeg": {
+    "mtime": 1780597946.9000823,
+    "ast_hash": "a05bed4b9c6aebf70d08486c720a9c1d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/heilmittel/sx1-bachbluete.jpg": {
+    "mtime": 1782129147.665339,
+    "ast_hash": "d057fa70ea42c3cc233e6f4d8082dd66",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/heilmittel/sx1-edelstein.jpg": {
+    "mtime": 1782129147.6849458,
+    "ast_hash": "cdfc2cad82936657224d010872f3e501",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/heilmittel/sx1-homoeopathie.jpg": {
+    "mtime": 1782131971.1739793,
+    "ast_hash": "b3d997c880965e7a8cd404cf93638f4c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/heilmittel/sx1-schuessler.jpg": {
+    "mtime": 1782129147.6444764,
+    "ast_hash": "3cc0652f15b3239d4024abf82b398ce6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/heilmittel/sx1-tee.jpg": {
+    "mtime": 1782129147.703337,
+    "ast_hash": "4af5be067982eff9b210c4217571171a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/sx1-page-1.jpeg": {
+    "mtime": 1780597947.1081371,
+    "ast_hash": "02d16048aec0dbac825c5129464410f2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/sx1-page-2.jpeg": {
+    "mtime": 1780597947.4107783,
+    "ast_hash": "385ed824977e02e1ddbb25d6974a6d78",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/sx1-page-3.jpeg": {
+    "mtime": 1780597947.3704565,
+    "ast_hash": "62a3481a75511cf144780ee7e3c72b78",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/sx1-page-4.jpeg": {
+    "mtime": 1780597947.5821698,
+    "ast_hash": "a98db312b3bdc5cba81d302b6e43ef7e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/sx1/sx1-page-5.jpeg": {
+    "mtime": 1780597947.4628918,
+    "ast_hash": "a24ab4b05cc8fb4f6d7b6babc3e9476b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-1/type-1-overview.jpeg": {
+    "mtime": 1780521887.634012,
+    "ast_hash": "9293b088f0cb9342a906a5637b6a9379",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/heilmittel/se2-bachbluete.jpg": {
+    "mtime": 1782129270.0987802,
+    "ast_hash": "401df7d37023a99e36fbd10b71d20d2b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/heilmittel/se2-edelstein.jpg": {
+    "mtime": 1782129270.1553793,
+    "ast_hash": "758814c34098cc66033c8d2d168aa4c0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/heilmittel/se2-homoeopathie.jpg": {
+    "mtime": 1782129269.996852,
+    "ast_hash": "fdf8feb5d0aa4b3b4e08dd8a70d2a7b8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/heilmittel/se2-schuessler.jpg": {
+    "mtime": 1782129270.0488682,
+    "ast_hash": "ae8715d5ff0362698027cbb955b30346",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/heilmittel/se2-tee.jpg": {
+    "mtime": 1782129270.207214,
+    "ast_hash": "07af9745bc0d3d63a1074fcbfe5b24ab",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/se2-page-1.jpeg": {
+    "mtime": 1780568492.464872,
+    "ast_hash": "67ff6d18e212fefe4f25ea2414febf33",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/se2-page-2.jpeg": {
+    "mtime": 1780568492.47913,
+    "ast_hash": "d0e076ca1a3109ce5766fdc50e117af8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/se2-page-3.jpeg": {
+    "mtime": 1780568494.7838295,
+    "ast_hash": "62907438acc2408881785f4f93c4fdbe",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/se2-page-4.jpeg": {
+    "mtime": 1780568494.8552883,
+    "ast_hash": "75c93464550674a23b810e5611a1642f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/se2/se2-page-5.jpeg": {
+    "mtime": 1780568494.8199844,
+    "ast_hash": "222ebab2552d359bf90bc01c891c11a9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/heilmittel/so2-bachbluete.jpg": {
+    "mtime": 1782129270.3171616,
+    "ast_hash": "401df7d37023a99e36fbd10b71d20d2b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/heilmittel/so2-edelstein.jpg": {
+    "mtime": 1782129270.3366234,
+    "ast_hash": "758814c34098cc66033c8d2d168aa4c0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/heilmittel/so2-homoeopathie.jpg": {
+    "mtime": 1782129270.276402,
+    "ast_hash": "fdf8feb5d0aa4b3b4e08dd8a70d2a7b8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/heilmittel/so2-schuessler.jpg": {
+    "mtime": 1782129270.2965863,
+    "ast_hash": "ae8715d5ff0362698027cbb955b30346",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/heilmittel/so2-tee.jpg": {
+    "mtime": 1782129270.3567536,
+    "ast_hash": "07af9745bc0d3d63a1074fcbfe5b24ab",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/so2-page-1.jpeg": {
+    "mtime": 1780568494.9460938,
+    "ast_hash": "fd7e83fb9d161bea74f0a9749ad59ee1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/so2-page-2.jpeg": {
+    "mtime": 1780568550.2748399,
+    "ast_hash": "a63daf97b3dfa7a92833429f0d1cbd36",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/so2-page-3.jpeg": {
+    "mtime": 1780568550.4904044,
+    "ast_hash": "0b047313c915c573028bc008075fae60",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/so2-page-4.jpeg": {
+    "mtime": 1780568552.821019,
+    "ast_hash": "a5eaf90e1784f182a4b6037fc3a22fed",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/so2/so2-page-5.jpeg": {
+    "mtime": 1782233589.6386776,
+    "ast_hash": "c46b40c9c7df2291adf47d1eb31d412f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/heilmittel/sx2-bachbluete.jpg": {
+    "mtime": 1782129270.466923,
+    "ast_hash": "401df7d37023a99e36fbd10b71d20d2b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/heilmittel/sx2-edelstein.jpg": {
+    "mtime": 1782129270.4869847,
+    "ast_hash": "758814c34098cc66033c8d2d168aa4c0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/heilmittel/sx2-homoeopathie.jpg": {
+    "mtime": 1782129270.42493,
+    "ast_hash": "fdf8feb5d0aa4b3b4e08dd8a70d2a7b8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/heilmittel/sx2-schuessler.jpg": {
+    "mtime": 1782129270.4466782,
+    "ast_hash": "ae8715d5ff0362698027cbb955b30346",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/heilmittel/sx2-tee.jpg": {
+    "mtime": 1782129270.5063066,
+    "ast_hash": "07af9745bc0d3d63a1074fcbfe5b24ab",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/sx2-page-1.jpeg": {
+    "mtime": 1780568552.7795212,
+    "ast_hash": "ca884deb9d4b56825de7ea4d2eab0a59",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/sx2-page-2.jpeg": {
+    "mtime": 1780568552.799747,
+    "ast_hash": "4ea1cba35f40f9b370787286719a5f1f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/sx2-page-3.jpeg": {
+    "mtime": 1780568598.8705997,
+    "ast_hash": "49eb41426069dee6c87e92869462d419",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/sx2-page-4.jpeg": {
+    "mtime": 1780568598.9266648,
+    "ast_hash": "e5e2656150f9a1e2eb038920cb68c78f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/sx2/sx2-page-5.jpeg": {
+    "mtime": 1780568601.0010624,
+    "ast_hash": "0ef0a0217ba0df1f40142daa6dcfed06",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-2/type-2-overview.jpeg": {
+    "mtime": 1780568441.1348548,
+    "ast_hash": "91796a0660bcac0bb942e098a87facaf",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/heilmittel/se3-bachbluete.jpg": {
+    "mtime": 1782129270.697426,
+    "ast_hash": "5a1dddfb866b3738cf6e40870ea50f2d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/heilmittel/se3-edelstein.jpg": {
+    "mtime": 1782129270.7479413,
+    "ast_hash": "a5dbb2a18af90364a5316c31c0ef0be1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/heilmittel/se3-homoeopathie.jpg": {
+    "mtime": 1782131190.5430715,
+    "ast_hash": "7560bf921e8bc1f391fba868e9173f73",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/heilmittel/se3-schuessler.jpg": {
+    "mtime": 1782129270.6499496,
+    "ast_hash": "7e6981ff3f850ba2e01c4ac84c4defb7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/heilmittel/se3-tee.jpg": {
+    "mtime": 1782129270.7958925,
+    "ast_hash": "e534baca675af2780db70ce26c41cbad",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/se3-page-1.jpeg": {
+    "mtime": 1780575348.0712862,
+    "ast_hash": "15d0470c4afc6ec2a926bf3b6608407d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/se3-page-2.jpeg": {
+    "mtime": 1780575348.082565,
+    "ast_hash": "ae72a97eafec43ffb9e33a07a92e61bf",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/se3-page-3.jpeg": {
+    "mtime": 1780575348.094384,
+    "ast_hash": "4a52bd6cbef237f0fcc17b6fc84d84fc",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/se3-page-4.jpeg": {
+    "mtime": 1780575348.1078222,
+    "ast_hash": "e5dcb5b001442be5b1339259ca58aa7d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/se3/se3-page-5.jpeg": {
+    "mtime": 1780575348.1195388,
+    "ast_hash": "827a201d3ef751f97da055d42a02397e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/heilmittel/so3-bachbluete.jpg": {
+    "mtime": 1782129270.899262,
+    "ast_hash": "5a1dddfb866b3738cf6e40870ea50f2d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/heilmittel/so3-edelstein.jpg": {
+    "mtime": 1782129270.9197748,
+    "ast_hash": "a5dbb2a18af90364a5316c31c0ef0be1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/heilmittel/so3-homoeopathie.jpg": {
+    "mtime": 1782131190.6061966,
+    "ast_hash": "7560bf921e8bc1f391fba868e9173f73",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/heilmittel/so3-schuessler.jpg": {
+    "mtime": 1782129270.8774295,
+    "ast_hash": "7e6981ff3f850ba2e01c4ac84c4defb7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/heilmittel/so3-tee.jpg": {
+    "mtime": 1782129270.939842,
+    "ast_hash": "e534baca675af2780db70ce26c41cbad",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/so3-page-1.jpeg": {
+    "mtime": 1780575348.131236,
+    "ast_hash": "1c7d7232a060578a5b12794ec65da287",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/so3-page-2.jpeg": {
+    "mtime": 1780575348.143257,
+    "ast_hash": "1e21595fafc1c47b61ca319d486ee9e2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/so3-page-3.jpeg": {
+    "mtime": 1780575348.1551473,
+    "ast_hash": "c4995450efead1566d452900e516b384",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/so3-page-4.jpeg": {
+    "mtime": 1780575348.169631,
+    "ast_hash": "92e16b129f86ef5c25b231c226f976ee",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/so3/so3-page-5.jpeg": {
+    "mtime": 1780575348.1841009,
+    "ast_hash": "3a0dcb7436d53758bd17c92f387dd4fe",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/heilmittel/sx3-bachbluete.jpg": {
+    "mtime": 1782129271.038416,
+    "ast_hash": "5a1dddfb866b3738cf6e40870ea50f2d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/heilmittel/sx3-edelstein.jpg": {
+    "mtime": 1782129271.0573099,
+    "ast_hash": "a5dbb2a18af90364a5316c31c0ef0be1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/heilmittel/sx3-homoeopathie.jpg": {
+    "mtime": 1782131190.667678,
+    "ast_hash": "7560bf921e8bc1f391fba868e9173f73",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/heilmittel/sx3-schuessler.jpg": {
+    "mtime": 1782129271.0200458,
+    "ast_hash": "7e6981ff3f850ba2e01c4ac84c4defb7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/heilmittel/sx3-tee.jpg": {
+    "mtime": 1782129271.0772433,
+    "ast_hash": "e534baca675af2780db70ce26c41cbad",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/sx3-page-1.jpeg": {
+    "mtime": 1780575348.1960087,
+    "ast_hash": "f68527b393ed7109b8e8f6571bb0040d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/sx3-page-2.jpeg": {
+    "mtime": 1780575348.2081683,
+    "ast_hash": "31dd75c4a88d1adca69fba8f8537b83d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/sx3-page-3.jpeg": {
+    "mtime": 1780575348.2184129,
+    "ast_hash": "6ff0e8175bdb5b575c8d1ce654d38dc9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/sx3-page-4.jpeg": {
+    "mtime": 1780575348.2500608,
+    "ast_hash": "d6326fa53418c3df176c3e0ae429d982",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/sx3/sx3-page-5.jpeg": {
+    "mtime": 1780575348.2628121,
+    "ast_hash": "fcdc55693ba87f212fed4a213da29e17",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-3/type-3-overview.jpeg": {
+    "mtime": 1780575348.0602424,
+    "ast_hash": "e4500c32176871b9198c6e6c6849fae1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/heilmittel/se4-bachbluete.jpg": {
+    "mtime": 1782129271.2431107,
+    "ast_hash": "8a0cd0141548bd592e30d79c67158da7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/heilmittel/se4-edelstein.jpg": {
+    "mtime": 1782129271.281383,
+    "ast_hash": "af6ac37a190be096268fed0464405bb3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/heilmittel/se4-homoeopathie.jpg": {
+    "mtime": 1782129271.1660273,
+    "ast_hash": "d6339290ced70d427f06c230b4f78aac",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/heilmittel/se4-schuessler.jpg": {
+    "mtime": 1782129271.204325,
+    "ast_hash": "3a99882ac498b0f15c72b20aed61b1e0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/heilmittel/se4-tee.jpg": {
+    "mtime": 1782129271.321236,
+    "ast_hash": "da544c74b35a868caf32cc7ff56b0114",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/se4-page-1.jpeg": {
+    "mtime": 1782226275.9275663,
+    "ast_hash": "0746fb10b46d951c6a904c516a38eb4d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/se4-page-2.jpeg": {
+    "mtime": 1780655502.1911054,
+    "ast_hash": "4b53d9e9c8afe4b52e56f86c9adcccb9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/se4-page-3.jpeg": {
+    "mtime": 1780655514.3570719,
+    "ast_hash": "8f959eea6e50b619da85c60db4513aa2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/se4-page-4.jpeg": {
+    "mtime": 1780655515.0884204,
+    "ast_hash": "61807b416b62b3f6d64b7d8e34ca3a75",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/se4/se4-page-5.jpeg": {
+    "mtime": 1780655515.764234,
+    "ast_hash": "b0bac802c65726846e19473ffcc2ce69",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/heilmittel/so4-bachbluete.jpg": {
+    "mtime": 1782129271.426589,
+    "ast_hash": "8a0cd0141548bd592e30d79c67158da7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/heilmittel/so4-edelstein.jpg": {
+    "mtime": 1782129271.4461973,
+    "ast_hash": "af6ac37a190be096268fed0464405bb3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/heilmittel/so4-homoeopathie.jpg": {
+    "mtime": 1782129271.3853095,
+    "ast_hash": "d6339290ced70d427f06c230b4f78aac",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/heilmittel/so4-schuessler.jpg": {
+    "mtime": 1782129271.4050725,
+    "ast_hash": "3a99882ac498b0f15c72b20aed61b1e0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/heilmittel/so4-tee.jpg": {
+    "mtime": 1782129271.465392,
+    "ast_hash": "da544c74b35a868caf32cc7ff56b0114",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/so4-page-1.jpeg": {
+    "mtime": 1782226276.000476,
+    "ast_hash": "d5b708e558415dd3265faeb35c9fd179",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/so4-page-2.jpeg": {
+    "mtime": 1782233589.7055254,
+    "ast_hash": "16c170726423273c974991cb5dff51e4",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/so4-page-3.jpeg": {
+    "mtime": 1780670805.7512064,
+    "ast_hash": "ac64eecdadaef3b68d7e45ed276c9c42",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/so4-page-4.jpeg": {
+    "mtime": 1780670813.240767,
+    "ast_hash": "fdbb7e5a01eb320e3ab222bb37aed7ae",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/so4/so4-page-5.jpeg": {
+    "mtime": 1780670815.6099212,
+    "ast_hash": "f6f47db0b99d9506956e172184f77625",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/heilmittel/sx4-bachbluete.jpg": {
+    "mtime": 1782129271.5656261,
+    "ast_hash": "8a0cd0141548bd592e30d79c67158da7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/heilmittel/sx4-edelstein.jpg": {
+    "mtime": 1782129271.5859404,
+    "ast_hash": "af6ac37a190be096268fed0464405bb3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/heilmittel/sx4-homoeopathie.jpg": {
+    "mtime": 1782129271.52529,
+    "ast_hash": "d6339290ced70d427f06c230b4f78aac",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/heilmittel/sx4-schuessler.jpg": {
+    "mtime": 1782129271.546235,
+    "ast_hash": "3a99882ac498b0f15c72b20aed61b1e0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/heilmittel/sx4-tee.jpg": {
+    "mtime": 1782129271.609233,
+    "ast_hash": "da544c74b35a868caf32cc7ff56b0114",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/sx4-page-1.jpeg": {
+    "mtime": 1782226276.074597,
+    "ast_hash": "3793761d7fcdb1fb1b393e0b3bd7b948",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/sx4-page-2.jpeg": {
+    "mtime": 1780671107.2476246,
+    "ast_hash": "ffd7863b1fd9429bfa25fca5265d7aa9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/sx4-page-3.jpeg": {
+    "mtime": 1780671109.5857377,
+    "ast_hash": "107fd1e977581d3c7c865d162bd148c8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/sx4-page-4.jpeg": {
+    "mtime": 1780671105.8344114,
+    "ast_hash": "3eb2f8c78cf759d4f8f94aaef7ea1093",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/sx4/sx4-page-5.jpeg": {
+    "mtime": 1780671106.5590596,
+    "ast_hash": "eb9b3e4c8177dd7976f9ea014ecc4e56",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-4/type-4-overview.jpeg": {
+    "mtime": 1780655512.1418893,
+    "ast_hash": "28b8f7128e4bd46707a6075f723add57",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/heilmittel/se5-bachbluete.jpg": {
+    "mtime": 1782130598.5513613,
+    "ast_hash": "abd65cb9c881dd32efb5f2d87634c83a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/heilmittel/se5-edelstein.jpg": {
+    "mtime": 1782130598.6677237,
+    "ast_hash": "78260da5f45cd29755bb0b2ffdd63087",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/heilmittel/se5-homoeopathie.jpg": {
+    "mtime": 1782129271.7001793,
+    "ast_hash": "ae2c0f8ec28088a44bc4201f57b3d4db",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/heilmittel/se5-schuessler.jpg": {
+    "mtime": 1782130598.4365485,
+    "ast_hash": "45f27391638361bc493a45ebd9a166cd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/heilmittel/se5-tee.jpg": {
+    "mtime": 1782130598.7683575,
+    "ast_hash": "eabd78747524327c4d06291cbdf4ea1f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/se5-page-1.jpeg": {
+    "mtime": 1780671411.8954992,
+    "ast_hash": "f624acda062e06701e010ec5520ffb09",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/se5-page-2.jpeg": {
+    "mtime": 1780671410.9620857,
+    "ast_hash": "48f470b5cd90c5ed03b28827282844e2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/se5-page-3.jpeg": {
+    "mtime": 1780671409.33168,
+    "ast_hash": "f57365dd36fc2327c1cd25f83ec9d6b0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/se5-page-4.jpeg": {
+    "mtime": 1780671407.0005958,
+    "ast_hash": "14c50b41d8a4dbcd0667f296baded2c1",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/se5/se5-page-5.jpeg": {
+    "mtime": 1780671403.3425756,
+    "ast_hash": "3a9ffee443d8a6bcbe3d7d7d369c4449",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/heilmittel/so5-bachbluete.jpg": {
+    "mtime": 1782130598.5731895,
+    "ast_hash": "abd65cb9c881dd32efb5f2d87634c83a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/heilmittel/so5-edelstein.jpg": {
+    "mtime": 1782130598.6917918,
+    "ast_hash": "78260da5f45cd29755bb0b2ffdd63087",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/heilmittel/so5-homoeopathie.jpg": {
+    "mtime": 1782129271.9661145,
+    "ast_hash": "ae2c0f8ec28088a44bc4201f57b3d4db",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/heilmittel/so5-schuessler.jpg": {
+    "mtime": 1782130598.4611514,
+    "ast_hash": "45f27391638361bc493a45ebd9a166cd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/heilmittel/so5-tee.jpg": {
+    "mtime": 1782130598.7868798,
+    "ast_hash": "eabd78747524327c4d06291cbdf4ea1f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/so5-page-1.jpeg": {
+    "mtime": 1780688498.274574,
+    "ast_hash": "d22b60ab2fae348257fb103d37fcb10d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/so5-page-2.jpeg": {
+    "mtime": 1780688498.2514062,
+    "ast_hash": "8e8f84b73dd7d1d9f4a1d1e6f420647a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/so5-page-3.jpeg": {
+    "mtime": 1780688498.2424932,
+    "ast_hash": "eed8068519bb82bedc6c5ad7572069f7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/so5-page-4.jpeg": {
+    "mtime": 1780688498.2693503,
+    "ast_hash": "ff24781f400f70a69e562394ffc27235",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/so5/so5-page-5.jpeg": {
+    "mtime": 1780688498.2576964,
+    "ast_hash": "479a0e965272bd9b0974a292fa937573",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/heilmittel/sx5-bachbluete.jpg": {
+    "mtime": 1782130598.5996594,
+    "ast_hash": "abd65cb9c881dd32efb5f2d87634c83a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/heilmittel/sx5-edelstein.jpg": {
+    "mtime": 1782130598.7135873,
+    "ast_hash": "78260da5f45cd29755bb0b2ffdd63087",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/heilmittel/sx5-homoeopathie.jpg": {
+    "mtime": 1782129272.1171222,
+    "ast_hash": "ae2c0f8ec28088a44bc4201f57b3d4db",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/heilmittel/sx5-schuessler.jpg": {
+    "mtime": 1782130598.4879944,
+    "ast_hash": "45f27391638361bc493a45ebd9a166cd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/heilmittel/sx5-tee.jpg": {
+    "mtime": 1782130598.8082778,
+    "ast_hash": "eabd78747524327c4d06291cbdf4ea1f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/sx5-page-1.jpeg": {
+    "mtime": 1782230204.6010983,
+    "ast_hash": "b53878004a7b492c3b77082359b7649c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/sx5-page-2.jpeg": {
+    "mtime": 1782230204.7135355,
+    "ast_hash": "ea05c081ad34078da82d74ae405ba837",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/sx5-page-3.jpeg": {
+    "mtime": 1782230204.8064399,
+    "ast_hash": "a8cd4e5125ea71ccbc9b62f1f3ab484e",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/sx5-page-4.jpeg": {
+    "mtime": 1782230204.9219015,
+    "ast_hash": "7205c573b5108727e9778efe052f2cd5",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/sx5/sx5-page-5.jpeg": {
+    "mtime": 1782230205.043297,
+    "ast_hash": "05d532ab97765e2d469a12bcecca0b97",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-5/type-5-overview.jpeg": {
+    "mtime": 1780671405.2756927,
+    "ast_hash": "18cfa4296e4d6c2978a44c6d197067f2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/heilmittel/se6-bachbluete.jpg": {
+    "mtime": 1782129272.3697672,
+    "ast_hash": "c83430a3c92d94e30d146d0088263acd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/heilmittel/se6-edelstein.jpg": {
+    "mtime": 1782130598.8865137,
+    "ast_hash": "0f5d14ca3d8cdb4654a6ad8450338aef",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/heilmittel/se6-homoeopathie.jpg": {
+    "mtime": 1782129272.2864668,
+    "ast_hash": "a8e900fd13b6dac6b3cba11ec78fbc70",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/heilmittel/se6-schuessler.jpg": {
+    "mtime": 1782129272.3271403,
+    "ast_hash": "232953d47532a54088eb3ef72c70aa79",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/heilmittel/se6-tee.jpg": {
+    "mtime": 1782129272.4602585,
+    "ast_hash": "45cc7c6e17db744e193958b738206a7b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/se6-page-1.jpeg": {
+    "mtime": 1782235723.658663,
+    "ast_hash": "5e1192dedbcbbd5149c96d2620359015",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/se6-page-2.jpeg": {
+    "mtime": 1780568433.076917,
+    "ast_hash": "06d7cdc33d7457e8b15b4f07f8c7f41a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/se6-page-3.jpeg": {
+    "mtime": 1780568434.4837136,
+    "ast_hash": "d9f7d71a507c48d35946ded3886278e8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/se6-page-4.jpeg": {
+    "mtime": 1780568435.4752579,
+    "ast_hash": "bbe9586f2940b47f62eeb73c8ee1a032",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/se6/se6-page-5.jpeg": {
+    "mtime": 1780568435.818258,
+    "ast_hash": "2b76950ece4d093eccb22d3d564f3ed8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/heilmittel/so6-bachbluete.jpg": {
+    "mtime": 1782129272.5744503,
+    "ast_hash": "c83430a3c92d94e30d146d0088263acd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/heilmittel/so6-edelstein.jpg": {
+    "mtime": 1782130598.9104328,
+    "ast_hash": "0f5d14ca3d8cdb4654a6ad8450338aef",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/heilmittel/so6-homoeopathie.jpg": {
+    "mtime": 1782129272.5282254,
+    "ast_hash": "a8e900fd13b6dac6b3cba11ec78fbc70",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/heilmittel/so6-schuessler.jpg": {
+    "mtime": 1782129272.553784,
+    "ast_hash": "232953d47532a54088eb3ef72c70aa79",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/heilmittel/so6-tee.jpg": {
+    "mtime": 1782129272.616788,
+    "ast_hash": "45cc7c6e17db744e193958b738206a7b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/so6-page-1.jpeg": {
+    "mtime": 1782235723.7193785,
+    "ast_hash": "66b01f3c193338163bd2276756dbf13c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/so6-page-2.jpeg": {
+    "mtime": 1780568436.8962786,
+    "ast_hash": "7b65ee25ce902b1939930299d0f8a769",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/so6-page-3.jpeg": {
+    "mtime": 1780568438.218117,
+    "ast_hash": "317bc34c589ebfbbdc59e6afcff3043b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/so6-page-4.jpeg": {
+    "mtime": 1780568439.0441353,
+    "ast_hash": "18b04c18e162438dee088b5345392fd7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/so6/so6-page-5.jpeg": {
+    "mtime": 1780568439.3797908,
+    "ast_hash": "3243ec18c0a47f83228e40b187cb87a2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/heilmittel/sx6-bachbluete.jpg": {
+    "mtime": 1782129272.7182295,
+    "ast_hash": "c83430a3c92d94e30d146d0088263acd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/heilmittel/sx6-edelstein.jpg": {
+    "mtime": 1782130598.932689,
+    "ast_hash": "0f5d14ca3d8cdb4654a6ad8450338aef",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/heilmittel/sx6-homoeopathie.jpg": {
+    "mtime": 1782129272.67668,
+    "ast_hash": "a8e900fd13b6dac6b3cba11ec78fbc70",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/heilmittel/sx6-schuessler.jpg": {
+    "mtime": 1782129272.69804,
+    "ast_hash": "232953d47532a54088eb3ef72c70aa79",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/heilmittel/sx6-tee.jpg": {
+    "mtime": 1782129272.7621398,
+    "ast_hash": "45cc7c6e17db744e193958b738206a7b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/sx6-page-1.jpeg": {
+    "mtime": 1782235723.777133,
+    "ast_hash": "29a69e27712a1daa57a9a4f1eeedf5d6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/sx6-page-2.jpeg": {
+    "mtime": 1780568440.3681736,
+    "ast_hash": "5d2d27b08a4edc98754bef5af00d0396",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/sx6-page-3.jpeg": {
+    "mtime": 1780568441.839103,
+    "ast_hash": "ee8535fa144d310d76450391a7d38388",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/sx6-page-4.jpeg": {
+    "mtime": 1780568443.1190302,
+    "ast_hash": "59a12ab3b8b5931dbff898ce050d218c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/sx6/sx6-page-5.jpeg": {
+    "mtime": 1780568444.1094468,
+    "ast_hash": "a15edb7d1f4da1fc9e0758f8550eff5b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-6/type-6-overview.jpeg": {
+    "mtime": 1780568431.9209328,
+    "ast_hash": "4bea3dc5c5be3b586a31c3100793f71c",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/heilmittel/se7-bachbluete.jpg": {
+    "mtime": 1782129272.9290454,
+    "ast_hash": "0c775a55f8c9e91dc0f27862a7dfb393",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/heilmittel/se7-edelstein.jpg": {
+    "mtime": 1782129272.967221,
+    "ast_hash": "a5fbc0faa4dec94107501c74b856c36a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/heilmittel/se7-homoeopathie.jpg": {
+    "mtime": 1782129272.8522823,
+    "ast_hash": "63a8915156f6a7b19d8d4d7211ea18d7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/heilmittel/se7-schuessler.jpg": {
+    "mtime": 1782129272.8915992,
+    "ast_hash": "e780062e28f0db398d2b755c5a43b6a9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/heilmittel/se7-tee.jpg": {
+    "mtime": 1782129273.0027442,
+    "ast_hash": "802b5f92b9e3eb48a2779c91dadc1872",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/se7-page-1.jpeg": {
+    "mtime": 1780568489.3422225,
+    "ast_hash": "623559968a07c6a70140cd45e85a3d66",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/se7-page-2.jpeg": {
+    "mtime": 1780568490.227963,
+    "ast_hash": "72542eae937fb93d93bb937d8e97ca7f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/se7-page-3.jpeg": {
+    "mtime": 1780568491.7348108,
+    "ast_hash": "ad941b302bc3b7fc90ab3c1d29dda38f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/se7-page-4.jpeg": {
+    "mtime": 1780568492.9807768,
+    "ast_hash": "99f3c7d7d47c3ca6cc11d693b5f0397d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/se7/se7-page-5.jpeg": {
+    "mtime": 1780568493.6370437,
+    "ast_hash": "59849b6cb0a8a818b3715a5a14bfbe29",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/heilmittel/so7-bachbluete.jpg": {
+    "mtime": 1782129273.1018076,
+    "ast_hash": "0c775a55f8c9e91dc0f27862a7dfb393",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/heilmittel/so7-edelstein.jpg": {
+    "mtime": 1782129273.1245277,
+    "ast_hash": "a5fbc0faa4dec94107501c74b856c36a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/heilmittel/so7-homoeopathie.jpg": {
+    "mtime": 1782129273.0621815,
+    "ast_hash": "63a8915156f6a7b19d8d4d7211ea18d7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/heilmittel/so7-schuessler.jpg": {
+    "mtime": 1782129273.082487,
+    "ast_hash": "e780062e28f0db398d2b755c5a43b6a9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/heilmittel/so7-tee.jpg": {
+    "mtime": 1782129273.1458247,
+    "ast_hash": "802b5f92b9e3eb48a2779c91dadc1872",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/so7-page-1.jpeg": {
+    "mtime": 1780568494.215328,
+    "ast_hash": "175b77c07bac1e9b99353e1ea11d4a98",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/so7-page-2.jpeg": {
+    "mtime": 1780568495.5089805,
+    "ast_hash": "cd57f9c410e7ca28ce84f11d2b9cb928",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/so7-page-3.jpeg": {
+    "mtime": 1780568497.507634,
+    "ast_hash": "edfda0067055da461293801a6dbd8357",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/so7-page-4.jpeg": {
+    "mtime": 1780568498.6214669,
+    "ast_hash": "c952fb0838968168208102148898169b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/so7/so7-page-5.jpeg": {
+    "mtime": 1780568499.51377,
+    "ast_hash": "bef03e97cecae5ea794256b9a5ea4937",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/heilmittel/sx7-bachbluete.jpg": {
+    "mtime": 1782129273.2460475,
+    "ast_hash": "0c775a55f8c9e91dc0f27862a7dfb393",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/heilmittel/sx7-edelstein.jpg": {
+    "mtime": 1782129273.2654324,
+    "ast_hash": "a5fbc0faa4dec94107501c74b856c36a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/heilmittel/sx7-homoeopathie.jpg": {
+    "mtime": 1782129273.2057207,
+    "ast_hash": "63a8915156f6a7b19d8d4d7211ea18d7",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/heilmittel/sx7-schuessler.jpg": {
+    "mtime": 1782129273.2273295,
+    "ast_hash": "e780062e28f0db398d2b755c5a43b6a9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/heilmittel/sx7-tee.jpg": {
+    "mtime": 1782129273.2839572,
+    "ast_hash": "802b5f92b9e3eb48a2779c91dadc1872",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/sx7-page-1.jpeg": {
+    "mtime": 1780568500.041401,
+    "ast_hash": "8b1f78945be6fee10af42029d33b9b36",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/sx7-page-2.jpeg": {
+    "mtime": 1780568500.937623,
+    "ast_hash": "1ef8eb9a64541c4e7416c88f529101bc",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/sx7-page-3.jpeg": {
+    "mtime": 1780568502.5892231,
+    "ast_hash": "92348533f5ae827999d9c8aac0571a17",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/sx7-page-4.jpeg": {
+    "mtime": 1780568503.7164247,
+    "ast_hash": "04220e8003c753205aa6d88bfaa34f87",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/sx7/sx7-page-5.jpeg": {
+    "mtime": 1780568504.2695146,
+    "ast_hash": "8cdfa6c044b99d6a99df437b4d6965cd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-7/type-7-overview.jpeg": {
+    "mtime": 1780568488.8524847,
+    "ast_hash": "3f8bd5cfd8ebe9bb3b4f0d5a54987dbe",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/heilmittel/se8-bachbluete.jpg": {
+    "mtime": 1782129273.4457974,
+    "ast_hash": "75912c881e25ccd472b328d34b5102bd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/heilmittel/se8-edelstein.jpg": {
+    "mtime": 1782130599.022792,
+    "ast_hash": "7ef825c73f3419b5c947c7e59c5f00f8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/heilmittel/se8-homoeopathie.jpg": {
+    "mtime": 1782129273.3693366,
+    "ast_hash": "0ea8f712c940cb8c04028fb3396d7ff3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/heilmittel/se8-schuessler.jpg": {
+    "mtime": 1782129273.4065394,
+    "ast_hash": "fb7e30c69eb65595755c8c0bc2cfbc22",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/heilmittel/se8-tee.jpg": {
+    "mtime": 1782129273.5277982,
+    "ast_hash": "b13665282a5a2a9be894f55ac204321d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/se8-page-1.jpeg": {
+    "mtime": 1780568541.6549535,
+    "ast_hash": "ea3f092292a7502dc05d8f34c347e586",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/se8-page-2.jpeg": {
+    "mtime": 1780568542.5353985,
+    "ast_hash": "0cc5506f9d7bb5b2e44a1f5bb5cee549",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/se8-page-3.jpeg": {
+    "mtime": 1780568543.9469662,
+    "ast_hash": "6c66927e1c18aa6335e561d37aeb5e80",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/se8-page-4.jpeg": {
+    "mtime": 1780568544.9073575,
+    "ast_hash": "6e02d1977f485803b56c8dbdd82c58a3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/se8/se8-page-5.jpeg": {
+    "mtime": 1780568545.2871742,
+    "ast_hash": "5b9e25754595b58a5cd1fb270f636278",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/heilmittel/so8-bachbluete.jpg": {
+    "mtime": 1782129273.6280713,
+    "ast_hash": "75912c881e25ccd472b328d34b5102bd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/heilmittel/so8-edelstein.jpg": {
+    "mtime": 1782130599.0499477,
+    "ast_hash": "7ef825c73f3419b5c947c7e59c5f00f8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/heilmittel/so8-homoeopathie.jpg": {
+    "mtime": 1782129273.5884583,
+    "ast_hash": "0ea8f712c940cb8c04028fb3396d7ff3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/heilmittel/so8-schuessler.jpg": {
+    "mtime": 1782129273.6076925,
+    "ast_hash": "fb7e30c69eb65595755c8c0bc2cfbc22",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/heilmittel/so8-tee.jpg": {
+    "mtime": 1782129273.6665823,
+    "ast_hash": "b13665282a5a2a9be894f55ac204321d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/so8-page-1.jpeg": {
+    "mtime": 1780568545.6771305,
+    "ast_hash": "d3ef273d067dae2fea11e2477ab9485a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/so8-page-2.jpeg": {
+    "mtime": 1782233589.7737427,
+    "ast_hash": "80a0faeb266b22c68499cac3a5279b25",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/so8-page-3.jpeg": {
+    "mtime": 1780568547.722487,
+    "ast_hash": "1e50e3b82eafa48c60876a250456d477",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/so8-page-4.jpeg": {
+    "mtime": 1780568548.5888107,
+    "ast_hash": "137f411bca6bb95142dc2ef64aac6271",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/so8/so8-page-5.jpeg": {
+    "mtime": 1780568548.933939,
+    "ast_hash": "faf9ba55c2a9ca9f6d8a5b09b9cdec3a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/heilmittel/sx8-bachbluete.jpg": {
+    "mtime": 1782129273.768446,
+    "ast_hash": "75912c881e25ccd472b328d34b5102bd",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/heilmittel/sx8-edelstein.jpg": {
+    "mtime": 1782130599.0747411,
+    "ast_hash": "7ef825c73f3419b5c947c7e59c5f00f8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/heilmittel/sx8-homoeopathie.jpg": {
+    "mtime": 1782129273.7285094,
+    "ast_hash": "0ea8f712c940cb8c04028fb3396d7ff3",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/heilmittel/sx8-schuessler.jpg": {
+    "mtime": 1782129273.7487311,
+    "ast_hash": "fb7e30c69eb65595755c8c0bc2cfbc22",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/heilmittel/sx8-tee.jpg": {
+    "mtime": 1782129273.8053412,
+    "ast_hash": "b13665282a5a2a9be894f55ac204321d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/sx8-page-1.jpeg": {
+    "mtime": 1780568549.325921,
+    "ast_hash": "298d3e9a287f144e2a4dd2ba1436c556",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/sx8-page-2.jpeg": {
+    "mtime": 1780568550.0565438,
+    "ast_hash": "de0562e5b53bcbed6a07c74e5ab18f62",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/sx8-page-3.jpeg": {
+    "mtime": 1780568551.7732637,
+    "ast_hash": "22e1a4a363c1a6da45b0e0e42733b693",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/sx8-page-4.jpeg": {
+    "mtime": 1780568552.942266,
+    "ast_hash": "e23d8ca824f785c59a0cd064ed06d4b2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/sx8/sx8-page-5.jpeg": {
+    "mtime": 1780568553.5400312,
+    "ast_hash": "e7f98f2f919a84d50c36e717e7430a0b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-8/type-8-overview.jpeg": {
+    "mtime": 1780568541.2521813,
+    "ast_hash": "c943922f7133c3e5486dfcb63ed0560b",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/heilmittel/se9-bachbluete.jpg": {
+    "mtime": 1782131647.8532612,
+    "ast_hash": "82d7a76a9e52e7baa5f13956039f2775",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/heilmittel/se9-edelstein.jpg": {
+    "mtime": 1782132324.9259825,
+    "ast_hash": "5ab9a5d15d10fd091eb5662dc83bf183",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/heilmittel/se9-homoeopathie.jpg": {
+    "mtime": 1782129273.8911693,
+    "ast_hash": "05dadfc37d72e1cfbf0c4848e2c737b9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/heilmittel/se9-schuessler.jpg": {
+    "mtime": 1782129273.9295866,
+    "ast_hash": "337078e987e8653e1d323cdbab07c41f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/heilmittel/se9-tee.jpg": {
+    "mtime": 1782129274.045543,
+    "ast_hash": "ac9d3ca108f3770d71bb16f049468551",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/se9-page-1.jpeg": {
+    "mtime": 1782235830.5853932,
+    "ast_hash": "2b8b36f5c8617a3f25980b2eecc0859a",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/se9-page-2.jpeg": {
+    "mtime": 1780568595.854166,
+    "ast_hash": "8888c361fb5cc8da4e3517af7628bd71",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/se9-page-3.jpeg": {
+    "mtime": 1780568597.268902,
+    "ast_hash": "e8b0c58aededee39e0d8e876ae01a988",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/se9-page-4.jpeg": {
+    "mtime": 1780568598.1369853,
+    "ast_hash": "861ddd6f4362a534add9f9dfc750388f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/se9/se9-page-5.jpeg": {
+    "mtime": 1780568598.5377991,
+    "ast_hash": "4c484e79d25049c7f492fdf5b9f57df9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/heilmittel/so9-bachbluete.jpg": {
+    "mtime": 1782131647.873675,
+    "ast_hash": "82d7a76a9e52e7baa5f13956039f2775",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/heilmittel/so9-edelstein.jpg": {
+    "mtime": 1782132324.944175,
+    "ast_hash": "5ab9a5d15d10fd091eb5662dc83bf183",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/heilmittel/so9-homoeopathie.jpg": {
+    "mtime": 1782129274.1088762,
+    "ast_hash": "05dadfc37d72e1cfbf0c4848e2c737b9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/heilmittel/so9-schuessler.jpg": {
+    "mtime": 1782129274.1292386,
+    "ast_hash": "337078e987e8653e1d323cdbab07c41f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/heilmittel/so9-tee.jpg": {
+    "mtime": 1782129274.1915767,
+    "ast_hash": "ac9d3ca108f3770d71bb16f049468551",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/so9-page-1.jpeg": {
+    "mtime": 1782235830.6503165,
+    "ast_hash": "5d0e2b84603e56c203020f2a703afda8",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/so9-page-2.jpeg": {
+    "mtime": 1782227879.6059744,
+    "ast_hash": "e0c328e4c0bdbbb645adef1e1f31b2d0",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/so9-page-3.jpeg": {
+    "mtime": 1780568601.7112117,
+    "ast_hash": "2ad331b51521ad61305b9bc5f1c22412",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/so9-page-4.jpeg": {
+    "mtime": 1780568602.912282,
+    "ast_hash": "960fb1368c51f781d156beff2391c1a4",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/so9/so9-page-5.jpeg": {
+    "mtime": 1780568603.4714928,
+    "ast_hash": "9f3b0b9a3154d877cdaf304b5a1a061d",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/heilmittel/sx9-bachbluete.jpg": {
+    "mtime": 1782131647.892455,
+    "ast_hash": "82d7a76a9e52e7baa5f13956039f2775",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/heilmittel/sx9-edelstein.jpg": {
+    "mtime": 1782132324.9632137,
+    "ast_hash": "5ab9a5d15d10fd091eb5662dc83bf183",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/heilmittel/sx9-homoeopathie.jpg": {
+    "mtime": 1782129274.2589757,
+    "ast_hash": "05dadfc37d72e1cfbf0c4848e2c737b9",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/heilmittel/sx9-schuessler.jpg": {
+    "mtime": 1782129274.2823243,
+    "ast_hash": "337078e987e8653e1d323cdbab07c41f",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/heilmittel/sx9-tee.jpg": {
+    "mtime": 1782129274.3385167,
+    "ast_hash": "ac9d3ca108f3770d71bb16f049468551",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/sx9-page-1.jpeg": {
+    "mtime": 1782235830.6766706,
+    "ast_hash": "a2f198cb32a342d61b13c8602df84351",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/sx9-page-2.jpeg": {
+    "mtime": 1780568604.7450452,
+    "ast_hash": "91f7ea13e1626ce45ad65a3f6d22a3bf",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/sx9-page-3.jpeg": {
+    "mtime": 1780568606.25043,
+    "ast_hash": "33cff491c09e787a811fe16236802fe2",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/sx9-page-4.jpeg": {
+    "mtime": 1780568607.1570623,
+    "ast_hash": "27503965ffde95e1a94f99289271bbb6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/sx9/sx9-page-5.jpeg": {
+    "mtime": 1780568607.5105855,
+    "ast_hash": "517c41523ac07b62c551655891c983a6",
+    "semantic_hash": ""
+  },
+  "assets/knowledge/type-9/type-9-overview.jpeg": {
+    "mtime": 1780568593.8501265,
+    "ast_hash": "f33f0caae7855843fb1a78275fd31d79",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg": {
+    "mtime": 1782295004.7386482,
+    "ast_hash": "f848ea5b6869754180e94db261837635",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/basisemotionen/basisemotionen.jpg": {
+    "mtime": 1782294156.6776407,
+    "ast_hash": "6460bd24b22babe0c975452004ad3023",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg": {
+    "mtime": 1782304653.6760988,
+    "ast_hash": "b336ed280c3f6296fc520a978e4fad7d",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg": {
+    "mtime": 1782296384.198073,
+    "ast_hash": "5bfa2c542000bf3f6f03bb24c92d1daa",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg": {
+    "mtime": 1782304264.16905,
+    "ast_hash": "df3087dfc0227b86d2685faa3212cd37",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg": {
+    "mtime": 1782304507.3434184,
+    "ast_hash": "d96ad58547905c987dbc8603c3bfc5e0",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/drei-zentren/drei-zentren.jpg": {
+    "mtime": 1782297239.2296946,
+    "ast_hash": "08118a4ac3e7916a694cdfb391d4d2af",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-1-amethyst.png": {
+    "mtime": 1782289081.2420187,
+    "ast_hash": "e2b4c82f5d974e9a9e17a8299cbd8d6a",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-2-rosenquarz.png": {
+    "mtime": 1782289081.2489226,
+    "ast_hash": "71aa3338053a61ded46884abef68441c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-3-tigerauge.png": {
+    "mtime": 1782289081.254937,
+    "ast_hash": "0e7d9cc75796c4f1d2f0301d3370d551",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-4-rhodonit.png": {
+    "mtime": 1782289081.262369,
+    "ast_hash": "2a7ce5b073c52fab2c5a01acb7437e30",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-5-amazonit.png": {
+    "mtime": 1782289081.270276,
+    "ast_hash": "fd533069f5f6faba895dfad9a61427c5",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-6-haematit.png": {
+    "mtime": 1782289081.2809286,
+    "ast_hash": "b2d8dcdd7fa75a7b587e6d6d46b0c60b",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-7-rauchquarz.png": {
+    "mtime": 1782289081.2871552,
+    "ast_hash": "3cf66568f31477dc4a5528d553d882f8",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-8-fluorit.png": {
+    "mtime": 1782289081.2952707,
+    "ast_hash": "1b7c2e7f6d6a4991b3f2af61a45aa09e",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/edelsteine/typ-9-karneol.png": {
+    "mtime": 1782289081.300535,
+    "ast_hash": "10163522cc37c1ada8b8c425cd1b220b",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg": {
+    "mtime": 1782303706.2018359,
+    "ast_hash": "055b617d069f07b38de374cfa7799c3c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg": {
+    "mtime": 1782295744.7700105,
+    "ast_hash": "89c02386cdd8b6a7ba6c049b6cee5fcd",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg": {
+    "mtime": 1782296992.2031667,
+    "ast_hash": "5f411fbdde3cbf40d321d1af38074cb5",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/frustrationen/frustrationen.jpg": {
+    "mtime": 1782293444.5150871,
+    "ast_hash": "e3c063e38f2c0bd53ae9b0b3d51bbc83",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg": {
+    "mtime": 1782296144.2216377,
+    "ast_hash": "24434affdb9a0d32527145c83192ae4a",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg": {
+    "mtime": 1782306651.6360378,
+    "ast_hash": "3b0774451508a150b7e3d97e7e357b5c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/heilungsweg/heilungsweg.jpg": {
+    "mtime": 1782287965.556671,
+    "ast_hash": "921732236c1e76c22e9806a02204e419",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/illusionen/illusionen.jpg": {
+    "mtime": 1782293138.3058577,
+    "ast_hash": "f91a1cf761715a2f481937c96d9aa70d",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg": {
+    "mtime": 1782293802.3295836,
+    "ast_hash": "71c3eba6154c694fd1b6337301186212",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg": {
+    "mtime": 1782294561.0726166,
+    "ast_hash": "7035d44a7e1c46f916afe109f683f6ec",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg": {
+    "mtime": 1782294825.842002,
+    "ast_hash": "0a06278545b62d9242f5446c82ea437d",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/kindliche-temperamente/temperamente.jpg": {
+    "mtime": 1782287800.515259,
+    "ast_hash": "b619562563cad6e9cc9197e4455b22b8",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg": {
+    "mtime": 1782307632.9787765,
+    "ast_hash": "1a92a8510e799ba077ca62094431d321",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/lebensgluck/lebensgluck.jpg": {
+    "mtime": 1782294309.1954608,
+    "ast_hash": "668abd7507b8e44beb8092968a759537",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/lebensgluck/lebensgl\u00fcck.jpg": {
+    "mtime": 1782294242.8966553,
+    "ast_hash": "668abd7507b8e44beb8092968a759537",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/lookalike-typen/lookalike-typen.jpg": {
+    "mtime": 1782296838.4471195,
+    "ast_hash": "357be07e824f4958aa26d2cd9f1a65bb",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg": {
+    "mtime": 1782291759.6729112,
+    "ast_hash": "47e21d6fd09366cd85565b79725a3118",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg": {
+    "mtime": 1782303900.655831,
+    "ast_hash": "d82acf5291a636565f51b43a49862b33",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/oele/aetherische-oele.png": {
+    "mtime": 1782288716.572066,
+    "ast_hash": "cc71c490db74af41c6f4491553655ff9",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg": {
+    "mtime": 1782291501.359389,
+    "ast_hash": "2db908f334a1ce618bb8d5f2292d5941",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-1.jpg": {
+    "mtime": 1782243454.861221,
+    "ast_hash": "ee2ffae656787ede0833ca065f56c89d",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-2.jpg": {
+    "mtime": 1782243454.8671486,
+    "ast_hash": "1c4e1ecf62b39e2a7f5bbc6a0afac207",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-3.jpg": {
+    "mtime": 1782243454.8708684,
+    "ast_hash": "7549cce45a18d709db1c1970dd249c44",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-4.jpg": {
+    "mtime": 1782243454.8738298,
+    "ast_hash": "838d6b19970c45881aba5c0b50ef8bb9",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-5.jpg": {
+    "mtime": 1782243454.87637,
+    "ast_hash": "94983488e840b835bc2b4055accaea8c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-6.jpg": {
+    "mtime": 1782243454.8794363,
+    "ast_hash": "95ce28408ccf9e8f3346c9ad33a57c67",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-7.jpg": {
+    "mtime": 1782243454.8825753,
+    "ast_hash": "3d2b719adda0319908851536a0c1f7b9",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-8.jpg": {
+    "mtime": 1782243454.886937,
+    "ast_hash": "305f83f711bbb993098aeda87c5cf407",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/psychogramme/typ-9.jpg": {
+    "mtime": 1782243454.8899255,
+    "ast_hash": "36ccde12f1190e01b08ac57bf76f0024",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/scan/60-sekunden-scan.jpg": {
+    "mtime": 1782292201.5715415,
+    "ast_hash": "8e6093a6b4444e56343ebc93b60c7355",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/schutzdefizite/schutzdefizite.jpg": {
+    "mtime": 1782292963.696439,
+    "ast_hash": "8a180800a6701b3344f15bf9c2c2c356",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg": {
+    "mtime": 1782307210.951998,
+    "ast_hash": "7f693789f3d495f9a65aa948ec95add5",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se1.jpg": {
+    "mtime": 1782291134.0975623,
+    "ast_hash": "347874dfd3f55d428ad54594d18b0e26",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se2.jpg": {
+    "mtime": 1782291134.1150339,
+    "ast_hash": "bda63f40796cf2c479ea1f9201fc4e9a",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se3.jpg": {
+    "mtime": 1782291134.1314833,
+    "ast_hash": "b55a3705d1b3d647b07d564802d87a90",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se4.jpg": {
+    "mtime": 1782291134.1507206,
+    "ast_hash": "c23f1bc65a0ee632b599965efe14aeaa",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se5.jpg": {
+    "mtime": 1782291134.1693516,
+    "ast_hash": "f32f038052e1fa937265157c42506ca6",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se6.jpg": {
+    "mtime": 1782291134.1893194,
+    "ast_hash": "fbae656029cb44f296ad8397e6d58cc5",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se7.jpg": {
+    "mtime": 1782291134.2076876,
+    "ast_hash": "da85ccab1dab681f27f6111145cef373",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se8.jpg": {
+    "mtime": 1782291134.224074,
+    "ast_hash": "5d321c6d286acc7a7e9966113e57f90b",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/se9.jpg": {
+    "mtime": 1782291134.242228,
+    "ast_hash": "801c3ac5c33da75dfc58edb552a44ffe",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so1.jpg": {
+    "mtime": 1782291134.1037683,
+    "ast_hash": "c5312c4292b8af4c5818f563a3115eda",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so2.jpg": {
+    "mtime": 1782291134.1211514,
+    "ast_hash": "ccdc011a6db85f9150f1a6445ff94b6c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so3.jpg": {
+    "mtime": 1782291134.1384945,
+    "ast_hash": "80e03d243be4480c34613bbf9054638f",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so4.jpg": {
+    "mtime": 1782291134.157611,
+    "ast_hash": "396bdd786178ec55526198888071a9f4",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so5.jpg": {
+    "mtime": 1782291134.1765573,
+    "ast_hash": "9ba35692c881844c8d7ce976d301c543",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so6.jpg": {
+    "mtime": 1782291134.1941955,
+    "ast_hash": "94ee003858434cb48906ebf39efd0c72",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so7.jpg": {
+    "mtime": 1782291134.2123077,
+    "ast_hash": "99e60446978ac549fe3e003fbb2b4dd7",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so8.jpg": {
+    "mtime": 1782291134.22927,
+    "ast_hash": "f7539fe38843445a4ef3cf13ea09c493",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/so9.jpg": {
+    "mtime": 1782291134.2476366,
+    "ast_hash": "230e45213697e26485453cbe052aa7e3",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx1.jpg": {
+    "mtime": 1782291134.1090682,
+    "ast_hash": "18c434cab0698265eb21dd631ebe019c",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx2.jpg": {
+    "mtime": 1782291134.1264973,
+    "ast_hash": "8776d84c6b952880f2c6a5109e82ce94",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx3.jpg": {
+    "mtime": 1782291134.1448374,
+    "ast_hash": "a9f5adf90264602a9c63eeb7dd788c82",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx4.jpg": {
+    "mtime": 1782291134.1620517,
+    "ast_hash": "7d4dee6185313ae6b359148af863a7f6",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx5.jpg": {
+    "mtime": 1782291134.1826806,
+    "ast_hash": "d994f5f9f0f521bdf6a22d3a04cd8199",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx6.jpg": {
+    "mtime": 1782291134.199454,
+    "ast_hash": "69caeb72bc57552904fdf18efccc13b6",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx7.jpg": {
+    "mtime": 1782291134.2175558,
+    "ast_hash": "bf3f5d22c4bea555589bbc884152e218",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx8.jpg": {
+    "mtime": 1782291134.2348757,
+    "ast_hash": "f4c2d1d7e11a49f6c0ec0ff3e855f874",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/subtypen-checklisten/sx9.jpg": {
+    "mtime": 1782291134.2555828,
+    "ast_hash": "6b613603c216675a938feba3bc491600",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/tee/tee-uebersicht-1.png": {
+    "mtime": 1782288418.8474324,
+    "ast_hash": "d4486d7bbb88536f207926c8e028bcd1",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/tee/tee-uebersicht-2.png": {
+    "mtime": 1782288418.8611045,
+    "ast_hash": "926d2c1a6faea1de5b63e76e3485af5e",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/verbale-signale/verbale-signale.jpg": {
+    "mtime": 1782303900.6514194,
+    "ast_hash": "28dd8697c0c68dec5e44ec13cf394726",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg": {
+    "mtime": 1782292793.2078843,
+    "ast_hash": "4dfbc1f69be78ed57b03b742239133f3",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg": {
+    "mtime": 1782307092.757059,
+    "ast_hash": "c1df34b9a12f089e4c574d4b9a804c10",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg": {
+    "mtime": 1782337755.2173817,
+    "ast_hash": "8ab27e98defec0d61f7abee1facfdef4",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg": {
+    "mtime": 1782296384.1910625,
+    "ast_hash": "801bc6dbb215664e3190aca479078c91",
+    "semantic_hash": ""
+  },
+  "assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg": {
+    "mtime": 1782297472.011156,
+    "ast_hash": "d7af51afa90c72378252991f9323b3ae",
+    "semantic_hash": ""
+  },
+  "assets/se1-adler.jpg": {
+    "mtime": 1781609370.7429547,
+    "ast_hash": "3896d32259f7731053a8d1b8c62e9529",
+    "semantic_hash": ""
+  },
+  "assets/se1-portrait.jpg": {
+    "mtime": 1760673750.0,
+    "ast_hash": "61f16af8a0a9bb94a796f7933c656886",
+    "semantic_hash": ""
+  },
+  "assets/se1-tier.jpg": {
+    "mtime": 1781609685.0885448,
+    "ast_hash": "3896d32259f7731053a8d1b8c62e9529",
+    "semantic_hash": ""
+  },
+  "assets/se2-portrait.jpg": {
+    "mtime": 1760676650.0,
+    "ast_hash": "df430bba5cb6b66408ea9d2a34619e60",
+    "semantic_hash": ""
+  },
+  "assets/se2-tier.jpg": {
+    "mtime": 1781609685.1828036,
+    "ast_hash": "1e1c8049c61d08919fc294d83919ffb8",
+    "semantic_hash": ""
+  },
+  "assets/se3-tier.jpg": {
+    "mtime": 1781609685.284612,
+    "ast_hash": "5302a8141857f6590351571568ece91a",
+    "semantic_hash": ""
+  },
+  "assets/se4-tier.jpg": {
+    "mtime": 1781609685.3800411,
+    "ast_hash": "a82d010b66487ab7f189c916e902de0e",
+    "semantic_hash": ""
+  },
+  "assets/se5-tier.jpg": {
+    "mtime": 1781609685.4767334,
+    "ast_hash": "169680efaf7e034dbf8250c55461804a",
+    "semantic_hash": ""
+  },
+  "assets/se6-tier.jpg": {
+    "mtime": 1781609685.5432308,
+    "ast_hash": "039982a74127706f924a3bad45792bab",
+    "semantic_hash": ""
+  },
+  "assets/se7-tier.jpg": {
+    "mtime": 1781609688.2122533,
+    "ast_hash": "fe5f03db01eb0a47f2b9da73b00ac605",
+    "semantic_hash": ""
+  },
+  "assets/se8-tier.jpg": {
+    "mtime": 1781609688.3128223,
+    "ast_hash": "8d4248a9e6a1c0b86372f3a42d4f5968",
+    "semantic_hash": ""
+  },
+  "assets/se9-tier.jpg": {
+    "mtime": 1781609692.7588637,
+    "ast_hash": "3eb3826b7eee03140dd155c7e204f0b9",
+    "semantic_hash": ""
+  },
+  "assets/so1-portrait.jpg": {
+    "mtime": 1760674090.0,
+    "ast_hash": "ba694743268d6283ac49d01c4038e43b",
+    "semantic_hash": ""
+  },
+  "assets/so1-tier.jpg": {
+    "mtime": 1781609685.1204154,
+    "ast_hash": "9e34c8cc1324b89a80ae311ec901cf91",
+    "semantic_hash": ""
+  },
+  "assets/so2-portrait.jpg": {
+    "mtime": 1760676824.0,
+    "ast_hash": "36c46e92cbe093e7dd5faffc292d196a",
+    "semantic_hash": ""
+  },
+  "assets/so2-tier.jpg": {
+    "mtime": 1781609685.2144246,
+    "ast_hash": "24c85cfc5e26686a88dcd86848d4fe20",
+    "semantic_hash": ""
+  },
+  "assets/so3-tier.jpg": {
+    "mtime": 1781609685.316598,
+    "ast_hash": "b5e270ac688bbb2de6d155d5c818ab5d",
+    "semantic_hash": ""
+  },
+  "assets/so4-tier.jpg": {
+    "mtime": 1781609685.411709,
+    "ast_hash": "c27422666052c787451ad8e387ddfd73",
+    "semantic_hash": ""
+  },
+  "assets/so5-tier.jpg": {
+    "mtime": 1781609685.509861,
+    "ast_hash": "779279c1c4f63652c564d13f801d83df",
+    "semantic_hash": ""
+  },
+  "assets/so6-tier.jpg": {
+    "mtime": 1781609685.578858,
+    "ast_hash": "61f8e19f7c84e801e5a7aad38252502b",
+    "semantic_hash": ""
+  },
+  "assets/so7-tier.jpg": {
+    "mtime": 1781609688.247857,
+    "ast_hash": "41381e505a3f18d4a28ec3320db249bb",
+    "semantic_hash": ""
+  },
+  "assets/so8-tier.jpg": {
+    "mtime": 1781609688.3447354,
+    "ast_hash": "cdebfcfdd85a5e193e69ef130b11d5b4",
+    "semantic_hash": ""
+  },
+  "assets/so9-tier.jpg": {
+    "mtime": 1781609692.7953558,
+    "ast_hash": "3358f25f4415cb474366cc1206be1570",
+    "semantic_hash": ""
+  },
+  "assets/sx1-portrait.jpg": {
+    "mtime": 1760674436.0,
+    "ast_hash": "b381a23745e17c41769a71b8e6a53ddf",
+    "semantic_hash": ""
+  },
+  "assets/sx1-tier.jpg": {
+    "mtime": 1781609685.150879,
+    "ast_hash": "234d0f186010833f0509bc0d839d28ee",
+    "semantic_hash": ""
+  },
+  "assets/sx2-portrait.jpg": {
+    "mtime": 1781608745.3598359,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "assets/sx2-tier.jpg": {
+    "mtime": 1781609685.246031,
+    "ast_hash": "5517e45aeb4039addde824f31766d3c1",
+    "semantic_hash": ""
+  },
+  "assets/sx3-tier.jpg": {
+    "mtime": 1781609685.348044,
+    "ast_hash": "615f819b3a696e94c43faff3880ec763",
+    "semantic_hash": ""
+  },
+  "assets/sx4-tier.jpg": {
+    "mtime": 1781609685.4439635,
+    "ast_hash": "f28056c0db3d33873f6e4098305cdfe1",
+    "semantic_hash": ""
+  },
+  "assets/sx5-tier.jpg": {
+    "mtime": 1781609714.1478233,
+    "ast_hash": "347179861364fa8a1848b701c03c0d12",
+    "semantic_hash": ""
+  },
+  "assets/sx6-tier.jpg": {
+    "mtime": 1781609685.6109726,
+    "ast_hash": "649e39687b6aae5ba7ead1806ea04cf8",
+    "semantic_hash": ""
+  },
+  "assets/sx6-wolf.png": {
+    "mtime": 1780409729.450374,
+    "ast_hash": "5e9441c81cc1f095c1a3ef9cefc6eda5",
+    "semantic_hash": ""
+  },
+  "assets/sx7-tier.jpg": {
+    "mtime": 1781609688.2810671,
+    "ast_hash": "f9107990b3ab16649402c3f821139292",
+    "semantic_hash": ""
+  },
+  "assets/sx8-tier.jpg": {
+    "mtime": 1781609690.8059654,
+    "ast_hash": "af9d188e4e4188cf45d82e8846189a98",
+    "semantic_hash": ""
+  },
+  "assets/sx9-tier.jpg": {
+    "mtime": 1781609692.8288863,
+    "ast_hash": "c1a5687abc64675e69165bcd6cc723b1",
+    "semantic_hash": ""
+  },
+  "assets/tierentsprechungen-kreis.jpg": {
+    "mtime": 1782330745.987565,
+    "ast_hash": "179e33554bb76c0c81cf450938ebf171",
+    "semantic_hash": ""
+  }
+}

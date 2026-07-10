@@ -1,0 +1,27 @@
+name: Täglicher Push-Impuls
+
+on:
+  schedule:
+    # Jeden Morgen um 08:00 Uhr deutscher Zeit (= 06:00 UTC)
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Manuell auslösbar zum Testen
+
+jobs:
+  send-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push-Benachrichtigung senden
+        run: |
+          curl -s -X POST "https://onesignal.com/api/v1/notifications" \
+            -H "Authorization: Basic ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "app_id": "a8616f76-24df-4a4d-970f-59976a11503e",
+              "included_segments": ["All"],
+              "target_channel": "push",
+              "headings": {"en": "Enneagramm-Heilungskompass", "de": "Enneagramm-Heilungskompass"},
+              "contents": {"en": "Your daily impulse is waiting for you", "de": "Dein Tagesimpuls wartet auf dich"},
+              "url": "https://kompass.verlagshausrathmer.com/#dashboard",
+              "chrome_web_icon": "https://kompass.verlagshausrathmer.com/apple-touch-icon.png",
+              "isAnyWeb": true
+            }'
