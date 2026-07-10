@@ -70,6 +70,7 @@ export const registerEntries = [
   { term: "Gepard",                  route: "tierlexikon/so3",              description: "Tierarchetyp des SO3 · Typ 3 · Herzzentrum" },
   { term: "Gifte des Geistes",       route: "gifte-des-geistes",        description: "Schaubild: die 9 Hauptleidenschaften im \xdcberblick" },
   { term: "Hauptfokus des Bewusstseins", route: "hauptfokus-des-bewusstseins-der-9-typen", description: "Worauf die innere Kamera jedes Typs automatisch zielt: die charakteristischen Bewusstseinsfoki der 9 Typen." },
+  { term: "Dynamik des Bewusstseinszustandes", route: "dynamik-des-bewusstseinszustandes", description: "Die 9 Bewusstseinsstufen (Bewusstseinsgrade) aller 9 Enneagrammtypen — von vollkommen unbewusst bis vollkommen bewusst." },
   { term: "Psychologisches Abwehrverhalten", route: "psychologisches-abwehrverhalten-der-9-typen", description: "Verdrängung, Projektion, Introjektion & Co.: die 9 Abwehrmechanismen der Enneagrammtypen ausführlich erklärt." },
   { term: "Heilfasten der 9 Typen", route: "heilfasten-der-9-typen", description: "9 Fastentage als Reise durch die 9 Enneagrammprinzipien: Gemütszustände, Gedanken, Gefühle, Körper." },
   { term: "Psychologische Verhaltensmuster", route: "psychologische-verhaltensmuster-der-9-typen", description: "Tiefe Persönlichkeitsmuster der 9 Typen: zwanghaft, narzisstisch, passiv-aggressiv u.v.m. — mit Triaden-Zuordnung." },
