@@ -5844,7 +5844,7 @@ const TIER_DOKU = {
   SX4: { ytId: "jCVjIfLsOSc",  start: 0, titel: "Chihuahua im Rasseportrait",                    kanal: "Hunde-Doku" },
   SE5: { ytId: "CZGvgZ3k6Dw",  start: 0, titel: "Waldkauz – Erfolgs-Eule",                       kanal: "Natur-Doku" },
   SO5: { ytId: "oF-UN5vwaTM",  start: 0, titel: "Warum hat der Oktopus acht Arme?",              kanal: "WDR Die Maus" },
-  SX5: { ytId: "UVuwD1vX8yQ",  start: 0, titel: "Der Igel – Jäger in der Nacht",                 kanal: "Planet Schule / SWR" },
+  SX5: { ytId: "vP9LcVgXYTE",  start: 0, titel: "Igel – Igelrettungsstation in Fürth",              kanal: "BR" },
   SE6: { ytId: "Q2-OMwwtlig",  start: 0, titel: "Kaninchen – plüschig und hartgesotten",          kanal: "ARTE Fernweh" },
   SO6: { ytId: "vsWivaf9ZGY",  start: 0, titel: "Das Erdmännchen",                               kanal: "Unsere Tierwelt" },
   SX6: { ytId: "EX54rl8CNwU",  start: 0, titel: "Wolf – Schießen oder schützen?",                kanal: "NDR Story" },
