@@ -5948,6 +5948,10 @@ function tierlexikonDetailPage(codeRaw) {
               ></iframe>
             </div>
             <p style="margin:.5rem 0 0;font-size:.75rem;color:var(--muted);text-align:right;">${d.titel} &middot; ${d.kanal}</p>
+            <button onclick="window.scrollTo({top:0,behavior:'smooth'})"
+                    style="display:block;margin:1.2rem auto 0;background:none;border:1px solid var(--line);border-radius:20px;padding:.35rem 1rem;font-size:.78rem;color:var(--muted);cursor:pointer;">
+              ↑ Nach oben
+            </button>
           </div>
         `;
       })()}
