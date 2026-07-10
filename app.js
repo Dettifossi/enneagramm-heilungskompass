@@ -5887,7 +5887,11 @@ function tierlexikonDetailPage(codeRaw) {
           <p class="eyebrow" style="color:${col};margin-bottom:.2rem;">Wissen &middot; Tierlexikon</p>
           <h1 style="margin:0 0 .1rem;font-size:1.6rem;color:var(--ink);">${data.tier}</h1>
           ${data.lateinisch ? `<p style="margin:0 0 .15rem;font-size:.82rem;color:var(--muted);font-style:italic;">${data.lateinisch}</p>` : ""}
-          <p style="margin:0;font-size:.78rem;color:var(--muted);opacity:.7;">${code} &middot; ${data.fakten.length} Fakten</p>
+          <p style="margin:0 0 .4rem;font-size:.78rem;color:var(--muted);opacity:.7;">${code} &middot; ${data.fakten.length} Fakten</p>
+          <button class="ghost-link" data-tier-laut="${data.tier}"
+                  style="font-size:.82rem;padding:.25rem .6rem;border:1px solid var(--line);border-radius:20px;opacity:.8;">
+            🔊 ${data.tier}-Laut
+          </button>
         </div>
       </div>
       <p style="font-size:.88rem;line-height:1.6;color:var(--muted);margin:0 0 1.8rem;padding:.8rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">${data.intro}</p>
