@@ -655,27 +655,27 @@ function leseprobePage() {
       <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Hunderte illustrierter \xdcbersichten machen das Unsichtbare sichtbar &ndash; von den Grundstrukturen der Pers\xf6nlichkeit bis zu K\xf6rper, Energie und Lebensthemen.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.5rem;">
         <div data-route="symmetrie-des-enneagramms" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/symmetrie-des-enneagramms.jpg" alt="Symmetrie des Enneagramms" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/symmetrie-des-enneagramms.jpg" alt="Symmetrie des Enneagramms" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Symmetrie des Enneagramms &#8594;</div>
         </div>
         <div data-route="koerperregulation" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/koerperregulation.jpg" alt="K\xf6rperregulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/koerperregulation.jpg" alt="K\xf6rperregulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagramm & K\xf6rperregulation &#8594;</div>
         </div>
         <div data-route="enneagramm-profiling" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/enneagramm-profiling.jpg" alt="Enneagramm-Profiling" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/enneagramm-profiling.jpg" alt="Enneagramm-Profiling" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagramm-Profiling &#8594;</div>
         </div>
         <div data-route="wunden" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/wunden.jpg" alt="Wunden & Schutzstrategien" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/wunden.jpg" alt="Wunden & Schutzstrategien" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Wunden & Schutzstrategien &#8594;</div>
         </div>
         <div data-route="bedeutung-27-subtypen" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypen" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypen" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Bedeutung der 27 Subtypen &#8594;</div>
         </div>
         <div data-route="neun-logismoi" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="./assets/neun-logismoi.jpg" alt="9 Logismoi nach Evagrius Ponticus" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="${CDN}assets/neun-logismoi.jpg" alt="9 Logismoi nach Evagrius Ponticus" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">9 Logismoi nach Evagrius &#8594;</div>
         </div>
       </div>
@@ -689,7 +689,7 @@ function leseprobePage() {
 
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.4rem;margin-bottom:.5rem;">
         <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
-          <img src="./assets/se1-adler.jpg" alt="SE1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
+          <img src="${CDN}assets/se1-adler.jpg" alt="SE1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
           <div>
             <p style="margin:0;font-size:0.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);">Selbsterhaltungs-Eins</p>
             <p style="margin:.2rem 0 0;font-size:1.15rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);">Der Adler</p>
@@ -744,7 +744,7 @@ function leseprobePage() {
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Philosophische Tiefe</h2>
       <div data-route="schopenhauer-zitat" style="cursor:pointer;display:flex;gap:1rem;align-items:center;background:var(--ivory);border-radius:12px;padding:1rem 1.2rem;border:1px solid var(--border);margin-bottom:1.8rem;">
-        <img src="./assets/schopenhauer-zitat.png" alt="Schopenhauer" style="width:68px;height:68px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+        <img src="${CDN}assets/schopenhauer-zitat.png" alt="Schopenhauer" style="width:68px;height:68px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
         <div>
           <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:600;color:var(--copper);">Schaubild &ndash; Philosophie & Enneagramm</p>
           <p style="margin:0 0 .3rem;font-size:0.95rem;font-family:'EB Garamond',serif;color:var(--ink);">Wir k\xf6nnen nicht wollen, was wir wollen</p>
@@ -1671,7 +1671,7 @@ function libraryPage() {
         <p>${copy.formulaText}</p>
       </div>
       <figure>
-        <img src="assets/grundformel-rathmer-enneagramm.jpg" alt="${copy.formulaAlt}" />
+        <img src="${CDN}assets/grundformel-rathmer-enneagramm.jpg" alt="${copy.formulaAlt}" />
       </figure>
     </section>
     <section class="library-grid">
@@ -1717,7 +1717,7 @@ function werkSection() {
     const bodLink = !isPending && book.bodUrl
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Bei BoD kaufen →</a>`
       : "";
-    const coverImg = `<img src="assets/covers/${book.id}.jpg" alt="" loading="lazy"
+    const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
       onerror="this.parentElement.style.display='none'"
       style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
     return `
@@ -1929,7 +1929,7 @@ function frankAbagnalePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/frank-abagnale-portrait.jpg" alt="Frank Abagnale Jr. – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/frank-abagnale-portrait.jpg" alt="Frank Abagnale Jr. – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Frank Abagnale Jr.</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
@@ -2394,7 +2394,7 @@ function subtypePage(code) {
       <p class="lead-small">${entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
            data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
-        <img src="assets/comics/${code.toLowerCase()}.jpg"
+        <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
              alt="Comic: ${entry.code} &ndash; ${entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
@@ -2590,7 +2590,7 @@ function verstehenInner(entry, sp) {
 function spuerenInner(entry, sp) {
   const blocks = [];
   // Profilbild (Seite 1) — zeigt Prototypen, Blickqualität, Körpersignatur
-  const seite1 = `assets/knowledge/type-${entry.code.slice(-1)}/${entry.code.toLowerCase()}/${entry.code.toLowerCase()}-page-1.jpeg`;
+  const seite1 = `${CDN}assets/knowledge/type-${entry.code.slice(-1)}/${entry.code.toLowerCase()}/${entry.code.toLowerCase()}-page-1.jpeg`;
   blocks.push(`
     <figure class="vollseite-karte">
       <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
@@ -2893,7 +2893,7 @@ function heilmittelSection(h, oel, code) {
   };
   const passion = h.leidenschaft || {};
   const wound = h.wunde || {};
-  const seite4 = code ? `assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
+  const seite4 = code ? `${CDN}assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
   return `
     <div class="knowledge-section heilmittel-box">
       <strong>${w.title}</strong>
@@ -3345,7 +3345,7 @@ function bindEvents() {
       const code = el.dataset.comicOpen;
       const lb = document.createElement("div");
       lb.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:1rem;";
-      lb.innerHTML = `<img src="assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
+      lb.innerHTML = `<img src="${CDN}assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
       lb.addEventListener("click", () => lb.remove());
       document.body.appendChild(lb);
     });
@@ -4312,7 +4312,7 @@ function heilungswegPage() {
       <h1 class="section-title">Der Heilungsweg des Menschen</h1>
       <p class="psycho-intro">Diese \xdcbersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Hom\xf6opathie von Detlef Rathmer: vom unbewussten Muster \xfcber die Erkenntnis der Leidenschaft bis zur Integration und Heilung.</p>
       <div class="psycho-img-wrap" style="margin:1.2rem 0 2.5rem;">
-        <img src="assets/schaubilder/heilungsweg/heilungsweg.jpg"
+        <img src="${CDN}assets/schaubilder/heilungsweg/heilungsweg.jpg"
              alt="Der Heilungsweg des Menschen nach der Enneagramm-Hom\xf6opathie"
              class="psycho-img" style="border-radius:12px;" />
       </div>
@@ -4373,7 +4373,7 @@ function kindlicheTemperamentePage() {
       <h1>Die neun kindlichen Temperamente</h1>
       <p class="lead-small">Die Chess-&amp;-Thomas-Studie (New Yorker Längsschnittstudie, ab 1956) untersuchte unabhängig vom Enneagramm kindliche Temperamente von Geburt an. Sie zeigt: Diese Grundanlagen sind angeboren und spiegeln sich in den neun Enneagrammtypen wider.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/kindliche-temperamente/temperamente.jpg"
+        <img src="${CDN}assets/schaubilder/kindliche-temperamente/temperamente.jpg"
              alt="Die neun kindlichen Temperamente nach Chess"
              class="psycho-img" />
       </div>
@@ -4394,7 +4394,7 @@ function kindheitsperspektivenPage() {
       <h1>Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit</h1>
       <p class="lead-small">Wie hat jeder Enneagrammtyp seine Kindheit erlebt? Diese Übersicht zeigt die typischen Kindheitsperspektiven — die prägenden subjektiven Wahrnehmungen, die das spätere Denken, Fühlen und Verhalten tief beeinflussen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg"
+        <img src="${CDN}assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg"
              alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
              class="psycho-img" />
       </div>
@@ -4416,7 +4416,7 @@ function kerneberzeugungPage() {
       <h1>Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp trägt eine oft unbewusste Grundüberzeugung über sich und die Welt in sich &ndash; sie entstand in der Kindheit und steuert seither das Denken, Fühlen und Handeln. Diese Übersicht zeigt die Kernüberzeugung jedes der 9 Typen im Zusammenhang mit der Triaden-Struktur.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
+        <img src="${CDN}assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
              alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4438,7 +4438,7 @@ function lebensgluckPage() {
       <h1>Wahres Lebensglück</h1>
       <p class="lead-small">An welcher Stelle werden die 9 Enneagrammtypen ihr wahres Lebensglück finden? Nicht im Außen &ndash; sondern dort, wo die tiefste Sehnsucht jedes Typs wirklich beheimatet ist: in sich selbst.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/lebensgluck/lebensgluck.jpg"
+        <img src="${CDN}assets/schaubilder/lebensgluck/lebensgluck.jpg"
              alt="Wahres Lebensglück &ndash; wo die 9 Enneagrammtypen es finden"
              class="psycho-img" />
       </div>
@@ -4459,7 +4459,7 @@ function basisemotionenPage() {
       <h1>Vermeidung der Basis-Emotionen</h1>
       <p class="lead-small">Jeder Mensch verdrängt bestimmte Emotionen &ndash; nicht aus Schwäche, sondern weil sie gesellschaftlich nicht anerkannt sind. Jeder Enneagrammtyp entwickelt dafür charakteristische psychologische Abwehrmechanismen. Was nicht gefühlt werden darf, manifestiert sich: Krankheiten und Symptome sind oft Ausdruck nicht gelebter Emotionen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/basisemotionen/basisemotionen.jpg"
+        <img src="${CDN}assets/schaubilder/basisemotionen/basisemotionen.jpg"
              alt="Die Vermeidung der Basis-Emotionen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4480,7 +4480,7 @@ function intrinsischesVerlangenPage() {
       <h1>Intrinsisches Verlangen</h1>
       <p class="lead-small">Was streben die 9 Enneagrammtypen innerlich (meistens unbewusst) an? Diese Übersicht zeigt das tiefe intrinsische Verlangen hinter jedem Typ &ndash; und warum die Suche danach im Außen letztlich ins Leere führt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg"
+        <img src="${CDN}assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg"
              alt="Das intrinsische Verlangen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4501,7 +4501,7 @@ function frustrationenPage() {
       <h1>Frustrationen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Warum sind die 9 Enneagrammtypen frustriert und demotiviert? Die Antwort ist einfacher, als man denkt: Jeder Typ sucht außen, was er nur innen finden kann.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/frustrationen/frustrationen.jpg"
+        <img src="${CDN}assets/schaubilder/frustrationen/frustrationen.jpg"
              alt="Warum die 9 Enneagrammtypen frustriert und demotiviert sind"
              class="psycho-img" />
       </div>
@@ -4522,7 +4522,7 @@ function horneyTriadenPage() {
       <h1 class="section-title">Horney-Triaden und Subtypen</h1>
       <p class="psycho-intro">Diese \xdcbersicht verbindet zwei hochkompatible Ebenen der Pers\xf6nlichkeitsdiagnostik: die Horney-Triaden als grundlegende Bewegungsrichtungen des Menschen zur Welt und die instinktiven Subtypen als Lebensfelder, in denen sich diese Bewegung konkret zeigt. Zusammengenommen entsteht eine differenzierte, beobachtbare und im Profiling \xe4u\xdferst hilfreiche Landkarte.</p>
 
-      <img src="./assets/horney-triaden-subtypen.jpg" alt="Horney-Triaden und Subtypen"
+      <img src="${CDN}assets/horney-triaden-subtypen.jpg" alt="Horney-Triaden und Subtypen"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -4640,7 +4640,7 @@ function illusionenPage() {
       <h1>Illusionen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp lebt einer charakteristischen Illusion nach — einer unbewussten Wahnvorstellung, die das Leben bestimmt. Was der Typ als erstrebenswert erlebt, ist in Wirklichkeit eine Privat-Wirklichkeit, die ihn gefangen hält.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/illusionen/illusionen.jpg"
+        <img src="${CDN}assets/schaubilder/illusionen/illusionen.jpg"
              alt="Die illusionären Wahnvorstellungen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4661,14 +4661,14 @@ function schutzdefizitePage() {
       <h1>Schutz-Defizite der Triaden</h1>
       <p class="lead-small">Bauch-, Herz- und Kopftriade tragen je ein charakteristisches Schutz-Defizit: die Bauchtriade fürchtet Einschränkung, die Herztriade Liebesverlust, die Kopftriade Vertrauensverlust. Diese unbewussten Defizite prägen das Verhalten aller drei Typen einer Triade.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
+        <img src="${CDN}assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
              alt="Die Schutz-Defizite der Bauch-, Herz- und Kopftriade"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Der Typ ist Schutz, nicht Identität</h2>
         <img
-          src="./assets/schutz.jpg"
+          src="${CDN}assets/schutz.jpg"
           alt="Der Typ ist Schutz, nicht Identität. Muster entstehen dort, wo Freiheit einst verletzt wurde."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -4697,7 +4697,7 @@ function lasterTugendenAffirmationenPage() {
       <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp hat ein charakteristisches Laster (die verdichtete Leidenschaft) und eine Tugend als heilsames Gegenstück. Die Affirmationen sprechen direkt das tiefste Bedürfnis jedes Typs an.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
+        <img src="${CDN}assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
              alt="Laster, Tugenden und Affirmationen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4716,7 +4716,7 @@ function lasterTugendenAffirmationenPage() {
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Die Tugend ist schon da</h2>
         <img
-          src="./assets/tugend.jpg"
+          src="${CDN}assets/tugend.jpg"
           alt="Die Tugend des Typs ist schon da – sie ist nur von Angst überdeckt."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -4743,7 +4743,7 @@ function spirituelleUebungenPage() {
       <h1>Spezielle spirituelle Übungen für die 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp hat seine eigene spirituelle Sehnsucht — und damit auch seine eigene spirituelle Übung. Diese Übersicht zeigt, welche innere Bewegung jeden Typ auf seinem Weg zur Selbstkenntnis trägt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
+        <img src="${CDN}assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -4831,7 +4831,7 @@ function berühmteKomponistenPage() {
       <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypen zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SE9).</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
+        <img src="${CDN}assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
              alt="Berühmte Komponisten im Enneagramm"
              class="psycho-img" />
       </div>
@@ -4862,7 +4862,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">Vor dem Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Neun Typen stehen vor dem Spiegel &ndash; und haben neun sehr verschiedene Gedanken. Die Eins sorgt sich um die Rotweinauswahl. Die F\xfcnf w\xfcrd eigentlich lieber ihr Buch lesen. Die Sechs pr\xfcft noch schnell Fenster und Katze. Und die Sieben hat selbstverst\xe4ndlich schon einen Notfallplan, falls die Stimmung kippt.</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/das-event/vor-dem-event.jpg"
+          <img src="${CDN}assets/schaubilder/das-event/vor-dem-event.jpg"
                alt="Die 9 Enneagrammtypen vor dem Event"
                class="psycho-img" />
         </div>
@@ -4872,7 +4872,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">Auf dem Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Alle neun sitzen am runden Tisch &ndash; und erleben denselben Abend auf neun v\xf6llig verschiedene Weisen. Die Zwei reicht Appetith\xe4ppchen. Die Acht \xfcbernimmt das Kommando. Die Vier findet alle gew\xf6hnlich. Die Neun f\xfchlt sich eins mit der Welt. Und die Sechs hat bereits einen Notfallplan f\xfcr den Fall, dass die Verpflegung nicht reicht &ndash; während die Katze zu Hause ihren Platz kennt.</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/das-event/auf-dem-event.jpg"
+          <img src="${CDN}assets/schaubilder/das-event/auf-dem-event.jpg"
                alt="Die 9 Enneagrammtypen auf dem Event"
                class="psycho-img" />
         </div>
@@ -4882,7 +4882,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">Nach dem Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Heimgekommen. Die Eins hofft, niemanden vor den Kopf gesto\xdfen zu haben. Die F\xfcnf greift erleichtert zum Buch. Die Sechs atmet tief durch in den eigenen vier W\xe4nden. Die Acht hat der Debatte Kontra gegeben &ndash; und ist zufrieden. Harry (Typ 7) hat bislang noch nicht den Weg nach Hause gefunden und l\xe4sst es wohl noch krachen.</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/das-event/nach-dem-event.jpg"
+          <img src="${CDN}assets/schaubilder/das-event/nach-dem-event.jpg"
                alt="Die 9 Enneagrammtypen nach dem Event"
                class="psycho-img" />
         </div>
@@ -4923,7 +4923,7 @@ function portraitsWegbegleiterPage() {
 
   const bilder = BILDER.map(b => `
     <div class="psycho-img-wrap" style="margin-bottom:${b.links ? '1rem' : '2rem'};">
-      <img src="assets/schaubilder/portraits-wegbegleiter/Portraits zweier Wegbegleiter.${b.nr}.jpeg"
+      <img src="${CDN}assets/schaubilder/portraits-wegbegleiter/Portraits zweier Wegbegleiter.${b.nr}.jpeg"
            alt="${b.alt}" class="psycho-img" loading="lazy"/>
     </div>
     ${b.links ? `
@@ -4977,7 +4977,7 @@ function weihnachtsgeschenkePage() {
       <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
       <p class="lead-small">Jeder der 9 Enneagrammtypen bringt ein einzigartiges Geschenk mit — einen besonderen Beitrag, den er von Natur aus in die Welt trägt. Diese festliche Übersicht zeigt, was jeder Typ der Welt zu geben hat.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
+        <img src="${CDN}assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
       </div>
@@ -4985,7 +4985,7 @@ function weihnachtsgeschenkePage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.6rem;">Weihnachtswünsche an alle 9 Enneagrammtypen</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Zu Weihnachten darf die Maske einmal fallen. Dieser herzliche Wunsch richtet sich an jeden der 9 Typen — mit der Einladung, sich selbst ein Stück weit loszulassen.</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
+          <img src="${CDN}assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
                alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
                class="psycho-img" />
         </div>
@@ -5018,7 +5018,7 @@ function wahrnehmungsstilePage() {
       <h1>Die 9 Wahrnehmungsstile</h1>
       <p class="lead-small">Jeder Enneagrammtyp trägt eine eigene Brille &ndash; einen 40-Grad-Blickwinkel auf die Welt, geprägt von seiner Leidenschaft und Motivation. Diese Übersicht zeigt alle 9 universellen Sichtweisen auf einen Blick.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg"
+        <img src="${CDN}assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg"
              alt="Die 9 universellen Wahrnehmungsstile der Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5039,7 +5039,7 @@ function bedrohungsszenarienPage() {
       <h1>Bedrohungsszenarien der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp reagiert auf ganz spezifische Bedrohungsszenarien — Situationen, die seine tiefste Grundangst berühren. Diese Übersicht zeigt symbolisch, was jeden der 9 Typen im Innersten bedroht und antreibt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg"
+        <img src="${CDN}assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg"
              alt="Bedrohungsszenarien der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5060,7 +5060,7 @@ function dialektischeStrukturPage() {
       <h1>Die dialektische Struktur der drei psychologischen Triaden des Enneagramms</h1>
       <p class="lead-small">Jeder der 9 Enneagrammtypen resultiert aus einer „Dialektik", die aus These, Antithese und Synthese der psychologischen Eigenschaften seiner Triade besteht. In jeder Triade wird einer der Typen diese charakteristische Eigenschaft <strong>überentwickeln</strong>, während einer sie <strong>unterentwickelt</strong> und der dritte den Bezug zu ihr <strong>verliert</strong>.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg"
+        <img src="${CDN}assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg"
              alt="Die dialektische Struktur der drei psychologischen Triaden des Enneagramms"
              class="psycho-img" />
       </div>
@@ -5095,7 +5095,7 @@ function bewaeltigungsstrategiePage() {
       <h1>Die Bewältigungsstrategie-Triaden des Enneagramms</h1>
       <p class="lead-small">Das Enneagramm kennt drei grundlegende Bewältigungstriaden — Experten-, Optimisten- und Intensitäts-Triade. Zu jedem Primärtypus (den Typen auf dem gleichseitigen Dreieck 3·6·9) gibt es jeweils zwei Sekundärtypen, die in ihrem Bewältigungsstil sehr ähnlich erscheinen und daher häufig zu Verwechslungen führen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg"
+        <img src="${CDN}assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg"
              alt="Die Bewältigungsstrategie-Triaden des Enneagramms"
              class="psycho-img" />
       </div>
@@ -5130,7 +5130,7 @@ function verbaleSignalePage() {
       <h1>Verbale Signale der 9 Enneagrammtypen</h1>
       <p class="lead-small">Wie spricht jeder Enneagrammtyp? Verbale Signale — Wortwahl, Satzbau, Sprachrhythmus — sind wertvolle Typisierungsfaktoren. Diese Übersicht zeigt die charakteristischen verbalen Muster aller 9 Typen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/verbale-signale/verbale-signale.jpg"
+        <img src="${CDN}assets/schaubilder/verbale-signale/verbale-signale.jpg"
              alt="Verbale Signale der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5156,7 +5156,7 @@ function naehePage() {
       <h1 class="section-title">N\xe4he</h1>
       <p class="psycho-intro">N\xe4he entsteht nicht durch gemeinsame Interessen oder \xe4u\xdfere Harmonie. Sie entsteht an einem viel feineren Punkt: dort, wo wir beginnen, hinter das Verhalten eines Menschen zu schauen. Das Enneagramm er\xf6ffnet genau diesen Blick &mdash; und macht Begegnung in einer neuen Tiefe m\xf6glich.</p>
       <img
-        src="./assets/naehe.png"
+        src="${CDN}assets/naehe.png"
         alt="N\xe4he &ndash; Schaubild"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;"
       />
@@ -5224,7 +5224,7 @@ function nonverbaleSignalePage() {
       <h1>Nonverbale Signale der 9 Enneagrammtypen</h1>
       <p class="lead-small">Körpersprache, Mimik, Gestik und Haltung verraten viel über den Enneagrammtyp eines Menschen. Diese Übersicht zeigt die typischen nonverbalen Signale aller 9 Typen als weitere Typisierungsfaktoren.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
+        <img src="${CDN}assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
              alt="Nonverbale Signale der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5250,14 +5250,14 @@ function egoPersoenlichkeitPage() {
       <h1>Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen</h1>
       <p class="lead-small">Die 9 Enneagrammtypen besitzen im Kern eine spezifische Ego-Persönlichkeitsstruktur, die implizit ein fundamentales Misstrauen gegenüber der Realität beinhaltet. Durch das Versagen der haltenden Umwelt fehlt bereits dem Kind das Urvertrauen — was zur Abtrennung vom Sein und zur Ego-Aktivierung führt, in deren Rahmen die Person lernt, sich „sicher" zu fühlen. Das Enneagramm zeigt die verschiedenen Varianten auf, wie sich das Ego der einzelnen Typen entwickelt, um mit den Erschütterungen, Brüchen und Unterbrechungen der haltenden Umwelt umzugehen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
+        <img src="${CDN}assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
              alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Das Ego in Bewegung &ndash; und der Raum dahinter</h2>
         <img
-          src="./assets/ego-in-bewegung.jpg"
+          src="${CDN}assets/ego-in-bewegung.jpg"
           alt="Der Typ ist das Ego in Bewegung. Essenz ist der Raum, in dem es sich bewegt."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -5284,7 +5284,7 @@ function dreiZentrenPage() {
       <h1>Die drei Intelligenzzentren der 9 Enneagrammtypen</h1>
       <p class="lead-small">Kopf, Herz und Bauch — jeder Enneagrammtyp nutzt diese drei Intelligenzzentren auf seine eigene Weise. Diese Übersicht zeigt, wie sich die Nutzung im schlechtesten und im besten Fall unterscheidet.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/drei-zentren/drei-zentren.jpg"
+        <img src="${CDN}assets/schaubilder/drei-zentren/drei-zentren.jpg"
              alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5311,7 +5311,7 @@ function zentrenWeltwahrnehmungPage() {
       <h1>Weltwahrnehmung in den drei Intelligenzzentren</h1>
       <p class="lead-small">Wie nehmen die 9 Enneagrammtypen die Welt wahr — innerhalb ihrer drei Intelligenzzentren? Diese Übersicht zeigt die Reaktionen im positiven und negativen Sinne sowie die drei Intelligenzzentrum-Pyramiden.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
+        <img src="${CDN}assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
              alt="Weltwahrnehmung in den drei Intelligenzzentren"
              class="psycho-img" />
       </div>
@@ -5337,7 +5337,7 @@ function energetischeBewegungPage() {
       <h1>Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen</h1>
       <p class="lead-small">Jeder Enneagrammtyp bewegt sich in Beziehungen auf eine charakteristische Weise: Angriff, Flucht oder Täuschung — diese drei energetischen Grundbewegungen prägen, wie die 9 Typen auf Nähe, Konflikt und Verbindung reagieren.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
+        <img src="${CDN}assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
              alt="Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen"
              class="psycho-img" />
       </div>
@@ -5360,7 +5360,7 @@ function lookalikeTypenPage() {
       <h1>Lookalike-Typen im Enneagramm</h1>
       <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln ähnlich — obwohl sie nicht über Flügel oder Verbindungslinien miteinander verbunden sind. Diese Übersicht zeigt die wichtigsten sog. Lookalike-Typen und hilft bei der Differenzierung.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
+        <img src="${CDN}assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
@@ -5382,7 +5382,7 @@ function befreiendeFragenPage() {
       <h1>Befreiende Fragen an die 9 Enneagrammtypen</h1>
       <p class="lead-small">Wie würde dein Leben aussehen, wenn du erkennen würdest...? Diese Fragen richten sich an das Heilungspotenzial jedes Enneagrammtyps — sie laden ein, einschränkende Überzeugungen loszulassen und ein befreites Leben im Rahmen des eigenen Typs zu entdecken.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
+        <img src="${CDN}assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
              alt="Befreiende Fragen an die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5409,7 +5409,7 @@ function zentraleFragenPage() {
       <h1>Die zentralen Fragen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Die zentralen Fragen machen die wiederkehrenden inneren Themen jedes Enneagrammtyps bewusst. Sie helfen dabei, eigene Muster zu erkennen — als erster Schritt in Richtung Heilung und Wachstum.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg"
+        <img src="${CDN}assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg"
              alt="Die zentralen Fragen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5435,7 +5435,7 @@ function fuehrungsstilePage() {
       <h1>Die Führungsstile der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp führt auf seine ganz eigene Weise — geprägt durch seine Leidenschaft, seine Stärken und seinen blinden Fleck. Diese Übersicht zeigt die typischen Führungsstile der 9 Typen aus deren eigener Sicht.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
+        <img src="${CDN}assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
              alt="Die Führungsstile der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -5511,7 +5511,7 @@ function beziehungenPage() {
         <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
              data-comic-open="${code.toLowerCase()}"
              title="${code} &ndash; antippen zum Vergrößern">
-          <img src="assets/comics/${code.toLowerCase()}.jpg"
+          <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
                alt="Comic ${code}"
                style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
           <div style="text-align:center; font-size:0.72rem; font-weight:700; color:${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'}; background:color-mix(in srgb,${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'} 10%,var(--paper)); padding:0.3rem 0; border-top:1px solid var(--line);">${code}</div>
@@ -5692,7 +5692,7 @@ function tierentsprechungenPage() {
       <h1 class="section-title">Tierentsprechungen der 27 Subtypen</h1>
       <p class="psycho-intro">Jedem der 27 Subtypen sind charakteristische Tiere zugeordnet, deren Wesensart, Verhalten und Überlebensstrategien den jeweiligen Subtypus spiegeln. Das Bild zeigt die visuelle Übersicht; die Tabelle darunter listet alle Entsprechungen systematisch nach Typ und Instinkt (SE · SO · SX) auf.</p>
       <img
-        src="./assets/tierentsprechungen-kreis.jpg"
+        src="${CDN}assets/tierentsprechungen-kreis.jpg"
         alt="Tierentsprechungen Enneagramm-Kreis"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
@@ -5709,7 +5709,7 @@ function tierentsprechungenPage() {
         </p>
       </div>
       <img
-        src="./assets/tierentsprechungen-portraits.png"
+        src="${CDN}assets/tierentsprechungen-portraits.png"
         alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypen"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
@@ -5787,7 +5787,7 @@ function tierlexikonPage() {
       >
         <div style="position:relative;width:80px;height:80px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${col};${hasData ? "" : "filter:grayscale(60%);"}">
           <img
-            src="./assets/${s.code.toLowerCase()}-tier.jpg"
+            src="${CDN}assets/${s.code.toLowerCase()}-tier.jpg"
             alt="${s.tier}"
             style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
             loading="lazy"
@@ -5869,7 +5869,7 @@ function tierlexikonDetailPage(codeRaw) {
       ">
         <div style="position:relative;width:100px;height:100px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${col};">
           <img
-            src="./assets/${code.toLowerCase()}-tier.jpg"
+            src="${CDN}assets/${code.toLowerCase()}-tier.jpg"
             alt="${data.tier}"
             style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
           />
@@ -5895,7 +5895,7 @@ function obstsortPage() {
       <h1 class="section-title">Die 9 Obstsorten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Frucht \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/obstsorten.jpg"
+        src="${CDN}assets/obstsorten.jpg"
         alt="Die 9 Obstsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -5949,7 +5949,7 @@ function gemuesesortenPage() {
       <h1 class="section-title">Die 9 Gem\xfcsesorten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jedes Gem\xfcse \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/gemuesesorten.jpg"
+        src="${CDN}assets/gemuesesorten.jpg"
         alt="Die 9 Gem\xfcse &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -6003,7 +6003,7 @@ function weinsortenPage() {
       <h1 class="section-title">Die 9 Weinsorten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Weinsorte \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/weinsorten.jpg"
+        src="${CDN}assets/weinsorten.jpg"
         alt="Die 9 Weinsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -6057,7 +6057,7 @@ function brotsortenPage() {
       <h1 class="section-title">Die 9 Brotsorten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Brotsorte \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/brotsorten.jpg"
+        src="${CDN}assets/brotsorten.jpg"
         alt="Die 9 Brotsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -6111,7 +6111,7 @@ function kaesesortenPage() {
       <h1 class="section-title">Die 9 K\xe4sesorten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede K\xe4sesorte \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/kaesesorten.jpg"
+        src="${CDN}assets/kaesesorten.jpg"
         alt="Die 9 K\xe4sesorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -6314,7 +6314,7 @@ function elliotRodgerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/elliot-rodger-portrait.jpg" alt="Elliot Rodger – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/elliot-rodger-portrait.jpg" alt="Elliot Rodger – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Elliot Rodger</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit F\xfcnferfl\xfcgel</p>
@@ -6409,7 +6409,7 @@ function adolfHitlerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/adolf-hitler-portrait.jpg" alt="Adolf Hitler – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/adolf-hitler-portrait.jpg" alt="Adolf Hitler – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Adolf Hitler</p>
         <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel</p>
@@ -6632,7 +6632,7 @@ function lukaMagnottaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/luka-magnotta-portrait.jpg" alt="Luka Magnotta – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/luka-magnotta-portrait.jpg" alt="Luka Magnotta – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Luka Magnotta</p>
         <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
@@ -6847,7 +6847,7 @@ function richardRamirezPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/richard-ramirez-portrait.jpg" alt="Richard Ramírez – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/richard-ramirez-portrait.jpg" alt="Richard Ramírez – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Richard Ramírez</p>
         <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
@@ -7046,7 +7046,7 @@ function harveyWeinsteinPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/harvey-weinstein-portrait.jpg" alt="Harvey Weinstein – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/harvey-weinstein-portrait.jpg" alt="Harvey Weinstein – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Harvey Weinstein</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -7271,7 +7271,7 @@ function pabloEscobarPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/pablo-escobar-portrait.jpg" alt="Pablo Escobar – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/pablo-escobar-portrait.jpg" alt="Pablo Escobar – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Pablo Escobar</p>
         <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -7491,7 +7491,7 @@ function dennisNilsenPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" />
+          <img src="${CDN}assets/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
         <p class="krim-portrait-typ">SE1w2 · Selbsterhaltender Typ 1 mit Zweierflügel</p>
@@ -7691,7 +7691,7 @@ function dorotheaPuentePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/dorothea-puente-portrait.jpg" alt="Dorothea Puente \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" />
+          <img src="${CDN}assets/dorothea-puente-portrait.jpg" alt="Dorothea Puente \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Dorothea Puente</p>
         <p class="krim-portrait-typ">SE1w2 · Selbsterhaltende Typ 1 mit Zweierflügel</p>
@@ -7907,7 +7907,7 @@ function michailPopkowPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/michail-popkow-portrait.jpg" alt="Michail Popkow – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/michail-popkow-portrait.jpg" alt="Michail Popkow – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Michail Popkow</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -8203,7 +8203,7 @@ function dennisRaderPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/dennis-rader-portrait.jpg" alt="Dennis Rader – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/dennis-rader-portrait.jpg" alt="Dennis Rader – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Dennis Rader</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -8476,7 +8476,7 @@ function andreiTschikatiloPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/andrei-tschikatilo-portrait.jpg" alt="Andrei Tschikatilo – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/andrei-tschikatilo-portrait.jpg" alt="Andrei Tschikatilo – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Andrei Tschikatilo</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -8742,7 +8742,7 @@ function bernieMadoffPortraitPage() {
       ${pageHeader("Bernie Madoff \u2013 Kriminalpsychologie")}
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame"><img class="krim-portrait-img" src="assets/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
+        <div class="krim-portrait-frame"><img class="krim-portrait-img" src="${CDN}assets/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
         <p class="krim-portrait-name">Bernie Madoff</p>
         <p class="krim-portrait-typ">SE3w4 \xb7 Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xf6\xdftes Ponzi-System der Geschichte \xb7 65 Mrd. Dollar \xb7 Tierentsprechung: Waschb\xe4r</p>
@@ -8859,7 +8859,7 @@ function arnoFunkePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/arno-funke-portrait.jpg" alt="Arno Funke – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/arno-funke-portrait.jpg" alt="Arno Funke – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Arno Funke</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -9084,7 +9084,7 @@ function chrisWattsPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/chris-watts-portrait.jpg" alt="Chris Watts – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/chris-watts-portrait.jpg" alt="Chris Watts – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Chris Watts</p>
         <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
@@ -9178,7 +9178,7 @@ function aileenWuornosPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/aileen-wuornos-portrait.jpg" alt="Aileen Wuornos – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/aileen-wuornos-portrait.jpg" alt="Aileen Wuornos – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Aileen Wuornos</p>
         <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
@@ -9376,7 +9376,7 @@ function grisdaBlancoPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/griselda-blanco-portrait.jpg" alt="Griselda Blanco – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/griselda-blanco-portrait.jpg" alt="Griselda Blanco – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Griselda Blanco</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerfl\xfcgel</p>
@@ -9478,7 +9478,7 @@ function salvatoreRiinaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/salvatore-riina-portrait.jpg" alt="Salvatore Riina – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/salvatore-riina-portrait.jpg" alt="Salvatore Riina – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Salvatore Riina</p>
         <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel</p>
@@ -9714,7 +9714,7 @@ function jeffreyEpsteinPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/jeffrey-epstein-portrait.jpg" alt="Jeffrey Epstein – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/jeffrey-epstein-portrait.jpg" alt="Jeffrey Epstein – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Jeffrey Epstein</p>
         <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
@@ -9959,7 +9959,7 @@ function samuelBankmanFriedPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/samuel-bankman-fried-portrait.jpg" alt="Samuel Bankman-Fried – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/samuel-bankman-fried-portrait.jpg" alt="Samuel Bankman-Fried – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Samuel Bankman-Fried</p>
         <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -10272,7 +10272,7 @@ function rujaIgnatovaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/ruja-ignatova-portrait.jpg" alt="Ruja Ignatova – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/ruja-ignatova-portrait.jpg" alt="Ruja Ignatova – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Ruja Ignatova</p>
         <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -10503,7 +10503,7 @@ function johnWayneGacyPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/john-wayne-gacy-portrait.jpg" alt="John Wayne Gacy – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/john-wayne-gacy-portrait.jpg" alt="John Wayne Gacy – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">John Wayne Gacy</p>
         <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -10753,7 +10753,7 @@ function belleGunnessPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/belle-gunness-portrait.jpg" alt="Belle Gunness – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/belle-gunness-portrait.jpg" alt="Belle Gunness – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Belle Gunness</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
@@ -10856,7 +10856,7 @@ function karlaHomolkaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/karla-homolka-portrait.jpg" alt="Karla Homolka – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/karla-homolka-portrait.jpg" alt="Karla Homolka – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Karla Homolka</p>
         <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -11023,7 +11023,7 @@ function busterMurdaughPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/buster-murdaugh-portrait.jpg" alt="Buster Murdaugh – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/buster-murdaugh-portrait.jpg" alt="Buster Murdaugh – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Buster Murdaugh</p>
         <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -11291,7 +11291,7 @@ function angelResendezPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/angel-resendez-portrait.jpg" alt="Ángel Reséndez – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/angel-resendez-portrait.jpg" alt="Ángel Reséndez – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Ángel Reséndez</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -11489,7 +11489,7 @@ function tommyLynnSellsPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Tommy Lynn Sells</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -11684,7 +11684,7 @@ function peterSutcliffePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/peter-sutcliffe-portrait.jpg" alt="Peter Sutcliffe – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/peter-sutcliffe-portrait.jpg" alt="Peter Sutcliffe – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Peter Sutcliffe</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -11910,7 +11910,7 @@ function annaDelveyPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/anna-delvey-portrait.jpg" alt="Anna Delvey – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/anna-delvey-portrait.jpg" alt="Anna Delvey – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Anna Delvey</p>
         <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -12154,7 +12154,7 @@ function jonathanMeijerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Jonathan Meijer</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -12424,7 +12424,7 @@ function michaelFranzesePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/michael-franzese-portrait.jpg" alt="Michael Franzese – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/michael-franzese-portrait.jpg" alt="Michael Franzese – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Michael Franzese</p>
         <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
@@ -12630,7 +12630,7 @@ function sebastianGreenwoodPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Sebastian Greenwood</p>
         <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -12826,7 +12826,7 @@ function pedroAlonsoLopezPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/pedro-alonso-lopez-portrait.jpg" alt="Pedro Alonso López – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/pedro-alonso-lopez-portrait.jpg" alt="Pedro Alonso López – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Pedro Alonso López</p>
         <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
@@ -13039,7 +13039,7 @@ function andrewCunananPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/andrew-cunanan-portrait.jpg" alt="Andrew Cunanan – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/andrew-cunanan-portrait.jpg" alt="Andrew Cunanan – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Andrew Cunanan</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
@@ -13134,7 +13134,7 @@ function ojSimpsonPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/oj-simpson-portrait.jpg" alt="O. J. Simpson – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/oj-simpson-portrait.jpg" alt="O. J. Simpson – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">O.J. Simpson</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
@@ -13239,7 +13239,7 @@ function wadeWilsonPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/wade-wilson-portrait.jpg" alt="Wade Wilson – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/wade-wilson-portrait.jpg" alt="Wade Wilson – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Wade Wilson</p>
         <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
@@ -13587,7 +13587,7 @@ function davidBerkowitzPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/david-berkowitz-portrait.jpg" alt="David Berkowitz – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/david-berkowitz-portrait.jpg" alt="David Berkowitz – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">David Berkowitz</p>
         <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
@@ -13796,7 +13796,7 @@ function johnMcAfeePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/john-mcafee-portrait.jpg" alt="John McAfee – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/john-mcafee-portrait.jpg" alt="John McAfee – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">John McAfee</p>
         <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
@@ -14020,7 +14020,7 @@ function johnGottiPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/john-gotti-portrait.jpg" alt="John Gotti – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/john-gotti-portrait.jpg" alt="John Gotti – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">John Gotti</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerfl\xfcgel</p>
@@ -14130,7 +14130,7 @@ function leslieVanHoutenPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/leslie-van-houten-portrait.jpg" alt="Leslie Van Houten – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/leslie-van-houten-portrait.jpg" alt="Leslie Van Houten – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Leslie Van Houten</p>
         <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserfl\xfcgel</p>
@@ -14211,7 +14211,7 @@ function nickLeesonPortraitPage() {
       ${pageHeader("Nick Leeson – Kriminalpsychologie")}
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/nick-leeson-portrait.jpg" alt="Nick Leeson – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/nick-leeson-portrait.jpg" alt="Nick Leeson – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Nick Leeson</p>
         <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achterflügel</p>
@@ -14317,7 +14317,7 @@ function wolfgangBeltracchiPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Wolfgang Beltracchi</p>
         <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
@@ -14537,7 +14537,7 @@ function nielsHoegelPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/niels-hoegel-portrait.jpg" alt="Niels Högel – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/niels-hoegel-portrait.jpg" alt="Niels Högel – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Niels Högel</p>
         <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
@@ -14752,7 +14752,7 @@ function joachimKrollPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/joachim-kroll-portrait.jpg" alt="Joachim Kroll – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/joachim-kroll-portrait.jpg" alt="Joachim Kroll – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Joachim Kroll</p>
         <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
@@ -15097,7 +15097,7 @@ function tedKaczynskiPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Ted Kaczynski</p>
         <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererfl\xfcgel</p>
@@ -15197,7 +15197,7 @@ function haroldShipmanPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/harold-shipman-portrait.jpg" alt="Harold Shipman – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/harold-shipman-portrait.jpg" alt="Harold Shipman – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Harold Shipman</p>
         <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
@@ -15383,7 +15383,7 @@ function rudolfPleilPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Rudolf Pleil</p>
         <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -15771,7 +15771,7 @@ function jackUnterweegerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/jack-unterweger-portrait.jpg" alt="Jack Unterweger – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/jack-unterweger-portrait.jpg" alt="Jack Unterweger – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Jack Unterweger</p>
         <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
@@ -15979,7 +15979,7 @@ function jimJonesPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/jim-jones-portrait.jpg" alt="Jim Jones – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/jim-jones-portrait.jpg" alt="Jim Jones – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Jim Jones</p>
         <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
@@ -16178,7 +16178,7 @@ function cedricMaakePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/cedric-maake-portrait.jpg" alt="Cedric Maake – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/cedric-maake-portrait.jpg" alt="Cedric Maake – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Cedric Maake</p>
         <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
@@ -16355,7 +16355,7 @@ function pamelaSmartPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/pamela-smart-portrait.jpg" alt="Pamela Smart – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/pamela-smart-portrait.jpg" alt="Pamela Smart – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Pamela Smart</p>
         <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierfl\xfcgel</p>
@@ -16459,7 +16459,7 @@ function dianeDownsPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/diane-downs-portrait.jpg" alt="Diane Downs – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/diane-downs-portrait.jpg" alt="Diane Downs – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Diane Downs</p>
         <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
@@ -16635,7 +16635,7 @@ function heinrichPommerenkePortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/heinrich-pommerenke-portrait.jpg" alt="Heinrich Pommerenke – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/heinrich-pommerenke-portrait.jpg" alt="Heinrich Pommerenke – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Heinrich Pommerenke</p>
         <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
@@ -16998,7 +16998,7 @@ function paulOgorzowPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Paul Ogorzow</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -17403,7 +17403,7 @@ function joelRifkinPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/joel-rifkin-portrait.jpg" alt="Joel Rifkin – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/joel-rifkin-portrait.jpg" alt="Joel Rifkin – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Joel Rifkin</p>
         <p class="krim-portrait-typ">SX5w6 · Sexueller Typ 5 mit Sechserflügel</p>
@@ -17620,7 +17620,7 @@ function charlesMansonPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/charles-manson-portrait.jpg" alt="Charles Manson – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/charles-manson-portrait.jpg" alt="Charles Manson – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Charles Manson</p>
         <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
@@ -17714,7 +17714,7 @@ function johnListPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/john-list-portrait.jpg" alt="John List – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/john-list-portrait.jpg" alt="John List – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">John List</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
@@ -17817,7 +17817,7 @@ function adolfEichmannPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/adolf-eichmann-portrait.jpg" alt="Adolf Eichmann – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/adolf-eichmann-portrait.jpg" alt="Adolf Eichmann – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Adolf Eichmann</p>
         <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit F\xfcnferfl\xfcgel</p>
@@ -17903,7 +17903,7 @@ function andersBreivikPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/anders-breivik-portrait.jpg" alt="Anders Breivik – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/anders-breivik-portrait.jpg" alt="Anders Breivik – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Anders Breivik</p>
         <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
@@ -18113,7 +18113,7 @@ function arminMeiwesPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/armin-meiwes-portrait.jpg" alt="Armin Meiwes – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/armin-meiwes-portrait.jpg" alt="Armin Meiwes – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Armin Meiwes</p>
         <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
@@ -18318,7 +18318,7 @@ function jeffreyDahmerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/jeffrey-dahmer-portrait.jpg" alt="Jeffrey Dahmer – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/jeffrey-dahmer-portrait.jpg" alt="Jeffrey Dahmer – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Jeffrey Dahmer</p>
         <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
@@ -18532,7 +18532,7 @@ function gennadiMikhasevichPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/gennadi-mikhasevich-portrait.jpg" alt="Gennadi Mikhasevich – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/gennadi-mikhasevich-portrait.jpg" alt="Gennadi Mikhasevich – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Gennadi Mikhasevich</p>
         <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
@@ -18728,7 +18728,7 @@ function fritzHaarmannPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/fritz-haarmann-portrait.jpg" alt="Fritz Haarmann – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/fritz-haarmann-portrait.jpg" alt="Fritz Haarmann – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Fritz Haarmann</p>
         <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
@@ -19130,7 +19130,7 @@ function josefFritzlPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/josef-fritzl-portrait.jpg" alt="Josef Fritzl – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/josef-fritzl-portrait.jpg" alt="Josef Fritzl – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Josef Fritzl</p>
         <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
@@ -19542,7 +19542,7 @@ function alexMurdaughPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/alex-murdaugh-portrait.jpg" alt="Alex Murdaugh – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/alex-murdaugh-portrait.jpg" alt="Alex Murdaugh – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Alex Murdaugh</p>
         <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
@@ -19905,7 +19905,7 @@ function garyRidgwayPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/gary-ridgway-portrait.jpg" alt="Gary Ridgway – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/gary-ridgway-portrait.jpg" alt="Gary Ridgway – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Gary Ridgway</p>
         <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
@@ -20108,7 +20108,7 @@ function osamaBinLadenPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/osama-bin-laden-portrait.jpg" alt="Osama bin Laden – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/osama-bin-laden-portrait.jpg" alt="Osama bin Laden – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Osama bin Laden</p>
         <p class="krim-portrait-typ">SO2w1 \xb7 Sozialer Typ 2 mit Einserfl\xfcgel</p>
@@ -20200,7 +20200,7 @@ function alfonsSchuhbeckPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/alfons-schuhbeck-portrait.jpg" alt="Alfons Schuhbeck – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/alfons-schuhbeck-portrait.jpg" alt="Alfons Schuhbeck – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Alfons Schuhbeck</p>
         <p class="krim-portrait-typ">SE9w1 \xb7 Selbsterhaltender Typ 9 mit Einserfl\xfcgel</p>
@@ -20317,7 +20317,7 @@ function paulBernardoPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/paul-bernardo-portrait.jpg" alt="Paul Bernardo – Porträt" class="krim-portrait-img" />
+          <img src="${CDN}assets/paul-bernardo-portrait.jpg" alt="Paul Bernardo – Porträt" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Paul Bernardo</p>
         <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
@@ -20493,7 +20493,7 @@ function tedBundyPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/ted-bundy-portrait-neu.png" alt="Ted Bundy – Bleistiftzeichnung" class="krim-portrait-img" />
+          <img src="${CDN}assets/ted-bundy-portrait-neu.png" alt="Ted Bundy – Bleistiftzeichnung" class="krim-portrait-img" />
         </div>
         <p class="krim-portrait-name">Ted Bundy</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
@@ -20598,7 +20598,7 @@ function hauptfokusBewusstseinsDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hauptfokus des Bewusstseins der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Jeder Enneagrammtyp hat einen charakteristischen Bewusstseinsfokus — eine Art innere Kameralinse, die automatisch auf ganz bestimmte Themen, Fragen und Wahrnehmungen ausgerichtet ist. Was der eine sofort sieht, übersieht der andere vollständig. Diese Fokussierung ist der Kern des jeweiligen Typs.</p>
-      <img src="./assets/hauptfokus-des-bewusstseins-der-9-typen.jpg" alt="Hauptfokus des Bewusstseins der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/hauptfokus-des-bewusstseins-der-9-typen.jpg" alt="Hauptfokus des Bewusstseins der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20653,7 +20653,7 @@ function abwehrverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Psychologisches Abwehrverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Jeder Enneagrammtyp hat ein charakteristisches psychologisches Abwehrverhalten — einen unbewussten Schutzmechanismus, der verhindert, dass er seinen eigenen Typ klar erkennt. Er idealisiert ein bestimmtes Selbstbild, vermeidet eine bestimmte Erfahrung und setzt dafür einen spezifischen Abwehrmechanismus ein.</p>
-      <img src="./assets/psychologisches-abwehrverhalten-der-9-typen.jpg" alt="Das psychologische Abwehrverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/psychologisches-abwehrverhalten-der-9-typen.jpg" alt="Das psychologische Abwehrverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20708,7 +20708,7 @@ function heilfastenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Heilfasten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Ein neuntägiges Heilfasten kann als transformative Erfahrung im Rahmen des Prozessmodells des Enneagramms betrachtet werden, die auf verschiedene Weise mit den neun Enneagrammprinzipien interagiert. Jeder Fastentag trägt die Qualität eines anderen Prinzips.</p>
-      <img src="./assets/heilfasten-der-9-typen.jpg" alt="Neuntägige Fastenerfahrung im Rahmen des Enneagramm-Prozessmodells – Schaubild"
+      <img src="${CDN}assets/heilfasten-der-9-typen.jpg" alt="Neuntägige Fastenerfahrung im Rahmen des Enneagramm-Prozessmodells – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20765,7 +20765,7 @@ function psychologischeVerhaltensmuster9TypenPage() {
     <div class="page-container">
       ${pageHeader("Psychologische Verhaltensmuster der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Diese psychologischen Verhaltensmuster sind tief in der Persönlichkeit verwurzelt und beeinflussen, wie jeder der 9 Typen denkt, fühlt und handelt. Das Kreisdiagramm ordnet die Typen ihren drei Triaden zu: <strong>Bauchtriiade</strong> (Typen 8, 9, 1), <strong>Herztriade</strong> (Typen 2, 3, 4) und <strong>Kopftriade</strong> (Typen 5, 6, 7).</p>
-      <img src="./assets/psychologische-verhaltensmuster-der-9-typen.jpg" alt="Psychologische Verhaltensmuster der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/psychologische-verhaltensmuster-der-9-typen.jpg" alt="Psychologische Verhaltensmuster der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20816,7 +20816,7 @@ function frisurenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Frisuren der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Auch die Haare sprechen. Wer weiß, wonach er sucht, kann am Stil einer Frisur — ihrer Pflege, ihrer Strenge oder Lockerheit, ihrer Auffälligkeit oder Unauffälligkeit — oft erstaunlich viel über den Enneagrammtyp ihres Trägers ablesen.</p>
-      <img src="./assets/frisuren-der-9-typen.jpg" alt="Typische Frisuren der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/frisuren-der-9-typen.jpg" alt="Typische Frisuren der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20867,7 +20867,7 @@ function auffaelligeMerkmale9TypenPage() {
     <div class="page-container">
       ${pageHeader("Auffällige körperliche Merkmale der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Das Resonanzprinzip „Wie innen so außen" geht davon aus, dass unsere äußere Realität ein Spiegelbild unserer inneren Zustände ist — auch „Spiegelgesetz" genannt. Jeder Enneagrammtyp trägt seine innere Natur auf ganz charakteristische Weise nach außen: in Gesichtszügen, Blick, Gestik und Körperhaltung.</p>
-      <img src="./assets/auffaellige-merkmale-der-9-typen.jpg" alt="Auffällige körperliche Merkmale der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/auffaellige-merkmale-der-9-typen.jpg" alt="Auffällige körperliche Merkmale der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20921,7 +20921,7 @@ function haendedruckeDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Händedrücke der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Jeder Enneagrammtyp hat aufgrund seiner Enneagramm-Persönlichkeit auch einen gewissen Lebensausdruck, der sich unter anderem auch in der charakteristischen Ausdrucksweise seines Händedrucks zeigen kann.</p>
-      <img src="./assets/haendedrucke-der-9-typen.jpg" alt="Die Händedrücke der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/haendedrucke-der-9-typen.jpg" alt="Die Händedrücke der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -20975,7 +20975,7 @@ function suchtverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Suchtverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Jeder Mensch kennt Muster, die sich wiederholen — Verhaltensweisen, nach denen man greift, wenn der Druck zu groß wird oder die innere Leere sich meldet. Das Enneagramm zeigt, welche typspezifischen Suchtstrukturen hinter diesen Mustern stecken.</p>
-      <img src="./assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21029,7 +21029,7 @@ function niesverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Niesverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Mithilfe des Niesens führt der Körper vordergründig eine körperliche, hintergründig eine energetische Selbstreinigung durch. Es werden dadurch körperliche und psychische Blockaden gelöst und Energie kann insgesamt besser fließen. Häufiges Niesen bewirkt manchmal auch einen gewissen Neustart. Die unterschiedlichen Enneatypen reagieren sehr unterschiedlich auf den unwillkürlichen, unerwarteten Niesreflex, der zum explosionsartigen Ausstoß von Luft durch die Nase, oft zugleich auch durch den Mund führt.</p>
-      <img src="./assets/niesverhalten-der-9-typen.jpg" alt="Das Niesverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/niesverhalten-der-9-typen.jpg" alt="Das Niesverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21083,7 +21083,7 @@ function essverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Essverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Was und wie wir essen, ist selten nur eine Frage des Geschmacks. Es spiegelt unsere innere Struktur, unsere Ängste, unsere Sehnsüchte — und unseren Enneagrammtyp. Jeder Typ bringt seine ganz eigene Haltung zum Essen mit an den Tisch.</p>
-      <img src="./assets/essverhalten-der-9-typen.jpg" alt="Das Essverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/essverhalten-der-9-typen.jpg" alt="Das Essverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21137,7 +21137,7 @@ function arbeitsverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Arbeitsverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Wie jemand arbeitet, verrät fast alles über seinen Enneagrammtyp: Was antreibt ihn, was bremst ihn, wie verhält er sich im Team, worüber gerät er in Konflikt? Jeder Typ bringt seine ganz eigene Energie an den Arbeitsplatz.</p>
-      <img src="./assets/arbeitsverhalten-der-9-typen.jpg" alt="Das Arbeitsverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/arbeitsverhalten-der-9-typen.jpg" alt="Das Arbeitsverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21191,7 +21191,7 @@ function verhaeltnisZuGeldDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Verhältnis zu Geld der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Geld ist nie nur Geld — es ist ein Spiegel. Was wir damit machen, wie wir es festhalten oder loslassen, ob es uns Angst macht oder beflügelt: All das verrät etwas über unseren Enneagrammtyp. Jeder Typ bringt seine eigenen Muster, Ängste und Sehnsüchte in den Umgang mit Geld ein.</p>
-      <img src="./assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verhältnis zu Geld der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verhältnis zu Geld der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21245,7 +21245,7 @@ function sexualverhaltenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Sexualverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Der bekannte Enneagrammlehrer Claudio Naranjo hat das Sexualverhalten im Kontext der Enneagrammtypen untersucht. Jeder Typ bringt seine eigenen charakteristischen Muster, Ängste und Sehnsüchte in sein Sexualverhalten ein.</p>
-      <img src="./assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21299,7 +21299,7 @@ function kussverhaltenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Kussverhalten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Der berühmte Enneagrammlehrer Claudio Naranjo hat einmal in den 80er-Jahren innerhalb eines Seminars in Berkeley, Californien, eine interessante Perspektive auf das Kussverhalten im Kontext der Enneagrammtypen entwickelt. Laut Naranjo kann das Kussverhalten eines Menschen Einblick in dessen Enneagrammtyp geben.</p>
-      <img src="./assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21353,7 +21353,7 @@ function hochsensibilitaetDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hochsensibilität der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Diese Eigenschaften sind bei hochsensiblen Menschen häufig in starker Form ausgeprägt, da sich hier die universellen Ur-Prinzipien in einem Menschen übermäßig einseitig intensiv manifestieren. Diese Qualitäten können im Einzelfall Segen und Fluch zugleich sein.</p>
-      <img src="./assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
+      <img src="${CDN}assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21404,7 +21404,7 @@ function superpowerDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Superpower der 9 Typen", "Schaubilder · Spirituelle Sicht")}
       <p class="psycho-intro">Suche nicht mehr im Außen nach deinem vermeintlichen Glück — erkenne dein Verlangen (deine Kernmotivation), im Außen nach dir selbst zu suchen. Indem du dir deiner intrinsischen Motivation nach und nach immer bewusster wirst, erkennst du den verzweifelten Versuch deiner Egostruktur und gibst ihn auf: den Holzweg, auf dem Rahmen der äußeren Lebensumstände Liebe zu erhalten, dabei aber genau das Gegenteil zu bewirken.</p>
-      <img src="./assets/superpower-der-9-typen.jpg" alt="Superpower der 9 Enneatypen aus spiritueller Sicht – Schaubild"
+      <img src="${CDN}assets/superpower-der-9-typen.jpg" alt="Superpower der 9 Enneatypen aus spiritueller Sicht – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21455,7 +21455,7 @@ function wolkenformationenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Wolkenformationen der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Wolkenformationen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Wolken und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Der Himmel spiegelt in seinen unzähligen Formen das gesamte Spektrum menschlicher Wesensarten — von klarer Struktur bis zur stillen Decke aus Gleichmut.</p>
-      <img src="./assets/wolkenformationen-der-9-typen.jpg" alt="Wolkenformationen der 9 Typen – Schaubild"
+      <img src="${CDN}assets/wolkenformationen-der-9-typen.jpg" alt="Wolkenformationen der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21506,7 +21506,7 @@ function wolfsartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Wolfsarten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Wolfsarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Wölfe und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Der Wolf steht seit Urzeiten für Instinkt, Gemeinschaft und innere Stärke — jede Art auf ihre ganz eigene Weise.</p>
-      <img src="./assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21557,7 +21557,7 @@ function eulenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Eulenarten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Eulenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Eulen und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Eulen sind seit der Antike Symbole der Weisheit, Stille und inneren Schau — jede Art auf ihre ganz eigene Weise.</p>
-      <img src="./assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21608,7 +21608,7 @@ function papageienartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Papageienarten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Papageienarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Papageien und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Art spiegelt auf faszinierende Weise das Wesen eines Typs — vom analytischen Graupapagei bis zum friedliebenden Nymphensittich.</p>
-      <img src="./assets/papageienarten-der-9-typen.jpg" alt="Papageienarten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/papageienarten-der-9-typen.jpg" alt="Papageienarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21659,7 +21659,7 @@ function blumenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Blumenarten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Blumenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Blumen und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Blume trägt ein archetypisches Wesen in sich — von der makellosen Reinheit der Lilie bis zur stillen Erleuchtung der Lotusblume.</p>
-      <img src="./assets/blumenarten-der-9-typen.jpg" alt="Blumenarten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/blumenarten-der-9-typen.jpg" alt="Blumenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21710,7 +21710,7 @@ function hunderassenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hunderassen der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Hunderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die symbolischen Eigenschaften und Charakteristika dieser unterschiedlichen Hunde mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Rasse trägt ein unverwechselbares Wesen in sich — vom präzisen Border Collie bis zum sanftmütigen Berner Sennenhund.</p>
-      <img src="./assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen – Schaubild"
+      <img src="${CDN}assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21761,7 +21761,7 @@ function pferdearteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Pferdearten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Pferderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die verschiedenen Aspekte und Charakteristika dieser Pferde mit den Persönlichkeitstypen des Enneagramms zu verbinden. Jede Rasse verkörpert auf eindrucksvolle Weise die Wesensart ihres Typs — von der edlen Präzision des Lippizaners bis zur friedvollen Ausgeglichenheit des Connemara Ponys.</p>
-      <img src="./assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21813,7 +21813,7 @@ function nagetierartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Nagetierarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Nagetiere sind die erfolgreichste S\u00e4ugetiergruppe der Erde \u2013 \u00fcber 40 Prozent aller S\u00e4ugetierarten sind Nagetiere. Sie leben auf jedem Kontinent, in jedem Klima, in jeder Nische. Ihr Erfolgsrezept ist Vielfalt: Jede Art hat ein vollkommen eigenes Prinzip entwickelt, um zu \u00fcberleben und zu gedeihen. Neun Nagetierarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21864,7 +21864,7 @@ function baerenarteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("B\u00e4renarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">B\u00e4ren geh\u00f6ren zu den m\u00e4chtigsten und r\u00e4tselhaftesten Tieren der Erde \u2013 in nahezu allen Kulturen der Welt verehrt, gef\u00fcrchtet und als Symbol innerer Kraft verstanden. Jede Art hat dabei ein vollkommen eigenes Wesen: eine eigene Strategie, eine eigene Art zu leben, ein eigenes Prinzip. Neun B\u00e4renarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21915,7 +21915,7 @@ function milchkuhartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Milchkuharten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Die Kuh ist seit \u00fcber 10.000 Jahren die engste tierische Gef\u00e4hrtin des Menschen \u2013 sie hat Kulturen ern\u00e4hrt, Religionen gepr\u00e4gt und Landschaften geformt. Jede Rasse hat dabei ein unverwechselbares Wesen entwickelt: eine eigene Leistung, eine eigene Haltung, ein eigenes Prinzip. Neun Milchkuhrassen, neun Enneagrammprinzipien.</p>
-      <img src="./assets/milchkuharten-der-9-typen.jpg" alt="Milchkuharten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/milchkuharten-der-9-typen.jpg" alt="Milchkuharten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -21966,7 +21966,7 @@ function vogelartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Vogelarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">V\u00f6gel sind die einzigen Lebewesen, die den Himmel wirklich zu Hause nennen \u2013 in \u00fcber 10.000 Arten, auf jedem Kontinent, in jedem Klima. Jede Art hat dabei ein unverwechselbares Wesen entwickelt: einen Blick, eine Haltung, eine Art sich in der Welt zu bewegen. Neun Vogelarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/vogelarten-der-9-typen.jpg" alt="Vogelarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/vogelarten-der-9-typen.jpg" alt="Vogelarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22017,7 +22017,7 @@ function froschartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Froscharten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Fr\u00f6sche geh\u00f6ren zu den \u00e4ltesten Lebewesen der Erde \u2013 sie existieren seit \u00fcber 250 Millionen Jahren und haben seither fast jede feuchte Nische des Planeten besiedelt: W\u00fcste, Regenwald, Gebirge, Polarregionen. Jede Art tr\u00e4gt dabei ein eigenes Prinzip in sich. Neun Froscharten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/froscharten-der-9-typen.jpg" alt="Froscharten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/froscharten-der-9-typen.jpg" alt="Froscharten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22068,7 +22068,7 @@ function spinnenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Spinnenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Spinnen existieren seit \u00fcber 380 Millionen Jahren \u2013 l\u00e4nger als die Dinosaurier, l\u00e4nger als die Bl\u00fctenpflanzen. Auf jedem Kontinent, in jedem Lebensraum, in jeder H\u00f6henlage. Jede Art hat dabei eine vollkommen eigene Strategie entwickelt: zu bauen, zu lauern, zu jagen, zu verf\u00fchren. Neun Spinnenarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/spinnenarten-der-9-typen.jpg" alt="Spinnenarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/spinnenarten-der-9-typen.jpg" alt="Spinnenarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22119,7 +22119,7 @@ function reptilienartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Reptilienarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Reptilien sind die \u00e4ltesten Landwirbeltiere der Erde \u2013 sie haben die Dinosaurier \u00fcberlebt, Eiszeiten \u00fcberdauert und jeden Kontinent besiedelt. Jede Art tr\u00e4gt ein uraltes Prinzip in sich, das sich \u00fcber Millionen von Jahren bew\u00e4hrt hat. Neun Reptilienarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/reptilienarten-der-9-typen.jpg" alt="Reptilienarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/reptilienarten-der-9-typen.jpg" alt="Reptilienarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22170,7 +22170,7 @@ function schildkroetenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Schildkr\u00f6tenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Schildkr\u00f6ten sind die \u00e4ltesten Reptilien der Erde \u2013 sie existieren seit \u00fcber 220 Millionen Jahren nahezu unver\u00e4ndert. W\u00e4hrend Dinosaurier kamen und gingen, hat die Schildkr\u00f6te \u00fcberlebt. Nicht durch Schnelligkeit, nicht durch Gr\u00f6\u00dfe \u2013 sondern weil jede Art ein unverwechselbares Prinzip perfektioniert hat. Neun Schildkr\u00f6tenarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/schildkroetenarten-der-9-typen.jpg" alt="Schildkr\u00f6tenarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/schildkroetenarten-der-9-typen.jpg" alt="Schildkr\u00f6tenarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22221,7 +22221,7 @@ function fischartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Fischarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Fische bev\u00f6lkern die Erde seit \u00fcber 500 Millionen Jahren \u2013 sie waren vor den Dinosauriern da und werden nach uns noch da sein. Jede Art hat dabei ein unverwechselbares Prinzip entwickelt, das ihr das \u00dcberleben sichert. Neun Fischarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/fischarten-der-9-typen.jpg" alt="Fischarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/fischarten-der-9-typen.jpg" alt="Fischarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22272,7 +22272,7 @@ function walartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Walarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Wale sind die gr\u00f6\u00dften und r\u00e4tselhaftesten Lebewesen der Erde \u2013 sie tauchen tiefer als wir messen konnten, singen Lieder, die tausende Kilometer weit reichen, und leben in Gemeinschaften, die uns an menschliche Kulturen erinnern. Neun Walarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/walarten-der-9-typen.jpg" alt="Walarten der 9 Typen \u2013 Schaubild"
+      <img src="${CDN}assets/walarten-der-9-typen.jpg" alt="Walarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22323,7 +22323,7 @@ function insektenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Insektenarten der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Insekten sind die erfolgreichsten Lebewesen der Erde – sie existieren seit 400 Millionen Jahren, stellen über 80 Prozent aller Tierarten und haben nahezu jeden Lebensraum besiedelt. Und jede Art folgt dabei einem unverwechselbaren Prinzip. Neun Insekten, neun Enneagrammtypen.</p>
-      <img src="./assets/insektenarten-der-9-typen.jpg" alt="Insektenarten der 9 Typen – Schaubild"
+      <img src="${CDN}assets/insektenarten-der-9-typen.jpg" alt="Insektenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22374,7 +22374,7 @@ function flugzeugmodelleDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Flugzeugmodelle der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Neun Flugzeuge – jedes ein Meisterwerk der Ingenieurskunst, jedes mit einem unverwechselbaren Charakter und Zweck. Vom Kampfjet bis zum Rettungshubschrauber, vom Oldtimer-Doppeldecker bis zum Langstrecken-Business-Jet: Welches Enneagrammprinzip steckt hinter diesen neun Flugzeugtypen?</p>
-      <img src="./assets/flugzeugmodelle-der-9-typen.jpg" alt="Flugzeugmodelle der 9 Typen – Schaubild"
+      <img src="${CDN}assets/flugzeugmodelle-der-9-typen.jpg" alt="Flugzeugmodelle der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22428,7 +22428,7 @@ function brillenmodelleDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Brillenmodelle der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Eine Brille ist mehr als ein Sehhilfsmittel – sie ist das erste, was andere von uns wahrnehmen. Welches Brillenmodell passt zu welchem Enneagrammprinzip? Detlef Rathmer hat sich selbst als Modell zur Verfügung gestellt und alle neun Modelle aufgesetzt.</p>
-      <img src="./assets/brillenmodelle-der-9-typen.jpg" alt="Brillenmodelle der 9 Typen – Schaubild"
+      <img src="${CDN}assets/brillenmodelle-der-9-typen.jpg" alt="Brillenmodelle der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22482,7 +22482,7 @@ function luxusuhrend9TypenPage() {
     <div class="page-container">
       ${pageHeader("Luxusuhren der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Neun Uhren – jede ein Meisterwerk der Uhrmacherkunst, jede Ausdruck eines unverwechselbaren Charakters. Welches Enneagrammprinzip steckt hinter diesen Ikonen am Handgelenk?</p>
-      <img src="./assets/luxusuhren-der-9-typen.jpg" alt="Luxusuhren der 9 Typen – Schaubild"
+      <img src="${CDN}assets/luxusuhren-der-9-typen.jpg" alt="Luxusuhren der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22536,7 +22536,7 @@ function luxusautosDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Luxusautos der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Neun Luxusautos – jedes ein Meisterwerk der Ingenieurskunst und des Designs, jedes ein Ausdruck eines unverwechselbaren Charakters. Welches Enneagrammprinzip steckt hinter diesen Ikonen der Automobilwelt?</p>
-      <img src="./assets/luxusautos-der-9-typen.jpg" alt="Luxusautos der 9 Typen – Schaubild"
+      <img src="${CDN}assets/luxusautos-der-9-typen.jpg" alt="Luxusautos der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22591,7 +22591,7 @@ function bergeDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Berge der 9 Typen", "Schaubilder · Archetypen")}
       <p class="psycho-intro">Neun berühmte Berge der Welt – jeder einzigartig in Form, Charakter und Symbolik. Und jeder ein Spiegel eines der neun Enneagrammprinzipien. Diese Zuordnung ist keine Geographie-Lektion, sondern eine archetypische Betrachtung: Was verkörpern diese Berge, das uns etwas über uns selbst verrät?</p>
-      <img src="./assets/berge-der-9-typen.jpg" alt="Berge der 9 Typen – Schaubild"
+      <img src="${CDN}assets/berge-der-9-typen.jpg" alt="Berge der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22644,7 +22644,7 @@ function baumartenPage() {
       <p class="eyebrow">Schaubilder · Archetypen</p>
       <h1 class="section-title">Die 9 Baumarten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Baumart über den Wesenskern eines Enneagrammtyps verrät – mit erstaunlichen Fakten, die das Prinzip lebendig machen.</p>
-      <img src="./assets/baumarten.jpg" alt="Die 9 Baumarten – Schaubild"
+      <img src="${CDN}assets/baumarten.jpg" alt="Die 9 Baumarten – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22682,7 +22682,7 @@ function baumartenPage() {
         <p class="eyebrow">Schaubilder · Archetypen</p>
         <h2 class="section-title" style="font-size:1.4rem;">Die höchsten Bäume der Welt</h2>
         <p class="psycho-intro">Dieselbe archetypische Linse, eine andere Referenzmenge: Welches Enneagrammprinzip verkörpern die berühmtesten und gewaltigsten Bäume der Erde?</p>
-        <img src="./assets/hoechste-baeume-welt.jpg" alt="Die höchsten Bäume der Welt – Schaubild"
+        <img src="${CDN}assets/hoechste-baeume-welt.jpg" alt="Die höchsten Bäume der Welt – Schaubild"
           style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
         <div class="vb-section" style="max-width:100%;">
 
@@ -22737,7 +22737,7 @@ function affenartenPage() {
       <p class="eyebrow">Schaubilder \xb7 Archetypen</p>
       <h1 class="section-title">Die 9 Affenarten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Affenart \xfcber den Wesenskern eines Enneagrammtyps verr\xe4t &ndash; betrachtet im Vergleich der Affenarten untereinander.</p>
-      <img src="./assets/affenarten.jpg" alt="Die 9 Affenarten &ndash; Schaubild"
+      <img src="${CDN}assets/affenarten.jpg" alt="Die 9 Affenarten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
 
       <div style="background:var(--surface-2,#f5f0e8);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin:0 0 2rem;" class="vb-section">
@@ -22799,7 +22799,7 @@ function epochenWeltgeschichtePage() {
       <p class="eyebrow">Schaubilder \xb7 Archetypen</p>
       <h1 class="section-title">Epochen der Weltgeschichte</h1>
       <p class="psycho-intro">Die 9 Enneagrammprinzipien in den Epochen der Geschichte: Jede Epoche tr\xe4gt eine dominante Zeitqualit\xe4t &ndash; und die spiegelt den Wesenskern eines Typs.</p>
-      <img src="./assets/epochen-weltgeschichte.jpg" alt="Epochen der Weltgeschichte &ndash; Schaubild"
+      <img src="${CDN}assets/epochen-weltgeschichte.jpg" alt="Epochen der Weltgeschichte &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22850,7 +22850,7 @@ function kaffeeartenPage() {
       <p class="eyebrow">Schaubilder \xb7 Archetypen</p>
       <h1 class="section-title">Die 9 Kaffeearten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Kaffeeart \xfcber den Wesenskern eines Typs verr\xe4t.</p>
-      <img src="./assets/kaffeearten.jpg" alt="Die 9 Kaffeearten &ndash; Schaubild"
+      <img src="${CDN}assets/kaffeearten.jpg" alt="Die 9 Kaffeearten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22901,7 +22901,7 @@ function getreideartenPage() {
       <p class="eyebrow">Schaubilder \xb7 Archetypen</p>
       <h1 class="section-title">Die 9 Getreidearten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Getreideart \xfcber den Wesenskern eines Typs verr\xe4t.</p>
-      <img src="./assets/getreidearten.jpg" alt="Die 9 Getreidearten &ndash; Schaubild"
+      <img src="${CDN}assets/getreidearten.jpg" alt="Die 9 Getreidearten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -22953,7 +22953,7 @@ function gewuerzartenPage() {
       <h1 class="section-title">Die 9 Gew\xfcrzarten</h1>
       <p class="psycho-intro">Eine enneagrammatisch-archetypische Betrachtung: Was jede Gew\xfcrzart \xfcber den Wesenskern eines Typs verr\xe4t.</p>
       <img
-        src="./assets/gewuerzarten.jpg"
+        src="${CDN}assets/gewuerzarten.jpg"
         alt="Die 9 Gew\xfcrzarten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23007,7 +23007,7 @@ function friedenSchliessenPage() {
       <h1 class="section-title">Frieden schlie\xdfen</h1>
       <p class="psycho-intro">Vom Splitter im Auge und der Kunst, mit Mitgef\xfchl statt Urteil zu begegnen.</p>
       <img
-        src="./assets/frieden-schliessen.jpg"
+        src="${CDN}assets/frieden-schliessen.jpg"
         alt="Frieden schlie\xdfen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23054,7 +23054,7 @@ function werWirSindPage() {
       <h1 class="section-title">Wer wir sind</h1>
       <p class="psycho-intro">Die Landkarte ist nicht das Gebiet &ndash; warum das Enneagramm uns beschreibt, aber nicht definiert.</p>
       <img
-        src="./assets/wer-wir-sind.jpg"
+        src="${CDN}assets/wer-wir-sind.jpg"
         alt="Wer wir sind &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23097,7 +23097,7 @@ function symmetrieDesEnneagrammsPage() {
       <h1 class="section-title">Die Symmetrie des Enneagramms</h1>
       <p class="psycho-intro">Hinter den neun verschiedenen Pers\xf6nlichkeitsstrukturen verbirgt sich eine bemerkenswerte innere Ordnung: Gegen\xfcberliegende Typen teilen oft dieselbe Grundwunde &ndash; und entwickeln doch entgegengesetzte Strategien, um mit ihr umzugehen.</p>
       <img
-        src="./assets/symmetrie-des-enneagramms.jpg"
+        src="${CDN}assets/symmetrie-des-enneagramms.jpg"
         alt="Die Symmetrie des Enneagramms: gegen\xfcberliegende Typenpaare im \xdcberblick"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23157,7 +23157,7 @@ function koerperregulationPage() {
       <h1 class="section-title">Enneagramm & K\xf6rperregulation</h1>
       <p class="psycho-intro">Die neun Typen als Ordnungsmuster von K\xf6rper, Seele und Energie &ndash; keine Diagnose, sondern eine Landkarte f\xfcr Verst\xe4ndnis, Selbstwahrnehmung und ganzheitliche Balance.</p>
       <img
-        src="./assets/koerperregulation.jpg"
+        src="${CDN}assets/koerperregulation.jpg"
         alt="Enneagramm & K\xf6rperregulation: Die neun Typen als Ordnungsmuster"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23226,7 +23226,7 @@ function schopenhauerZitatPage() {
       <h1 class="section-title">Wir k\xf6nnen nicht wollen, was wir wollen</h1>
       <p class="psycho-intro">Arthur Schopenhauers ber\xfchmter Satz trifft auf erstaunliche Weise den Kern dessen, was das Enneagramm \xfcber die verborgenen Antriebskr\xe4fte der Pers\xf6nlichkeit beschreibt.</p>
       <img
-        src="./assets/schopenhauer-zitat.png"
+        src="${CDN}assets/schopenhauer-zitat.png"
         alt="Schopenhauer-Zitat: Der Mensch kann zwar tun, was er will, aber er kann nicht wollen, was er will."
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23292,7 +23292,7 @@ function bewusstseinsuebungenPage() {
       <h1 class="section-title">Neun Bewusstseins\xfcbungen als Weg zur\xfcck zur Pr\xe4senz</h1>
       <p class="psycho-intro">Neun aufeinander aufbauende Schritte, durch die sich das Bewusstsein allmählich von seinen Fixierungen löst &ndash; aus dem Buch <em>7 Wege zu Dir selbst</em>.</p>
       <img
-        src="./assets/bewusstseinsuebungen.jpg"
+        src="${CDN}assets/bewusstseinsuebungen.jpg"
         alt="Neun Bewusstseins\xfcbungen &ndash; Detlef Rathmer"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23356,7 +23356,7 @@ function schaubilderAlsSpiegelPage() {
       <h1 class="section-title">Schaubilder als Spiegel</h1>
       <p class="psycho-intro">Wie wir auf eine Darstellung reagieren, verr\xe4t oft mehr \xfcber uns als die Darstellung selbst. Kein Mensch nimmt Schaubilder neutral auf &ndash; jeder liest und deutet sie durch die eigene Struktur hindurch.</p>
       <img
-        src="./assets/schaubilder-als-spiegel.jpg"
+        src="${CDN}assets/schaubilder-als-spiegel.jpg"
         alt="Schaubilder als Spiegel der inneren Struktur"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23384,7 +23384,7 @@ function schaubilderAlsSpiegelPage() {
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Kein Urteil &ndash; ein Spiegel</h2>
         <img
-          src="./assets/enneagramm-als-spiegel.jpg"
+          src="${CDN}assets/enneagramm-als-spiegel.jpg"
           alt="Das Enneagramm ist ein Spiegel, kein Urteil. Wer mit Typen etikettiert, verletzt die Freiheit des Anderen."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -23413,7 +23413,7 @@ function neunLogismoiPage() {
       <h1 class="section-title">Die 9 Logismoi nach Evagrius Ponticus</h1>
       <p class="psycho-intro">Womit f\xfcllen wir unsere innere Leere? Evagrius Ponticus beschrieb bereits im 4. Jahrhundert neun innere Bewegungen, die den Menschen von seiner Mitte wegziehen &ndash; und die erstaunliche N\xe4he zum Enneagramm zeigen.</p>
       <img
-        src="./assets/neun-logismoi.jpg"
+        src="${CDN}assets/neun-logismoi.jpg"
         alt="Die 9 Logismoi nach Evagrius Ponticus"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23473,7 +23473,7 @@ function gaslightingPage() {
       <h1 class="section-title">Gaslighting und Enneagramm</h1>
       <p class="psycho-intro">Gaslighting ist eine Form psychischer Manipulation, bei der die Wahrnehmung, das Erleben oder das Erinnern eines anderen Menschen systematisch infrage gestellt wird &ndash; mit dem Ziel, Verunsicherung zu erzeugen und die Deutungshoheit \xfcber die gemeinsame Realit\xe4t zu gewinnen.</p>
       <img
-        src="./assets/gaslighting-enneagramm.jpg"
+        src="${CDN}assets/gaslighting-enneagramm.jpg"
         alt="Gaslighting und Enneagramm"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23523,7 +23523,7 @@ function interessanteErkenntnissePage() {
       <h1 class="section-title">Neun interessante Erkenntnisse</h1>
       <p class="psycho-intro">Was viele \xfcber die neun Enneagrammtypen glauben zu wissen &ndash; und was wirklich dahintersteckt. Neun Beobachtungen aus jahrzehntelanger therapeutischer und diagnostischer Praxis.</p>
       <img
-        src="./assets/interessante-erkenntnisse.jpg"
+        src="${CDN}assets/interessante-erkenntnisse.jpg"
         alt="Neun interessante Erkenntnisse zu den Enneagrammtypen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23580,7 +23580,7 @@ function bedeutungSubtypenPage() {
       <h1 class="section-title">Warum die 27 Subtypen unerl\xe4sslich sind</h1>
       <p class="psycho-intro">Wer sich ernsthaft mit dem Enneagramm besch\xe4ftigt, kommt an den 27 Subtypen nicht vorbei. Es ist ein grundlegender Irrtum zu glauben, man k\xf6nne zun\xe4chst &bdquo;nur mit den neun Typen anfangen&ldquo; und sp\xe4ter die Subtypen erg\xe4nzen &ndash; denn ohne sie bleibt das Bild zu grob f\xfcr eine ernsthafte Typisierung.</p>
       <img
-        src="./assets/bedeutung-27-subtypen.jpg"
+        src="${CDN}assets/bedeutung-27-subtypen.jpg"
         alt="Die Bedeutung der 27 Subtypen im Enneagramm"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23630,7 +23630,7 @@ function identifikationPage() {
       <h1 class="section-title">Je enger die Identifikation, desto lauter das Muster</h1>
       <p class="psycho-intro">Ein Satz \xfcber den Zusammenhang zwischen Bewusstsein und Leidenschaft &ndash; und warum das Enneagramm kein Etikettensystem ist, sondern ein Weg zur inneren Freiheit.</p>
       <img
-        src="./assets/identifikation.jpg"
+        src="${CDN}assets/identifikation.jpg"
         alt="Identifikation &ndash; Je enger die Identifikation, desto lauter das Muster"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23678,7 +23678,7 @@ function schmerzschutzPage() {
       <h1 class="section-title">Der Typ schützt vor Schmerz, aber er verhindert Nähe</h1>
       <p class="psycho-intro">Ein Satz über die doppelte Funktion des Enneagrammtyps &ndash; und warum das, was uns schützt, uns gleichzeitig von uns selbst und von anderen trennt.</p>
       <img
-        src="./assets/schmerzschutz.jpg"
+        src="${CDN}assets/schmerzschutz.jpg"
         alt="Schmerzschutz &ndash; Der Typ schützt vor Schmerz, aber er verhindert Nähe, wenn wir ihn für die Wahrheit halten"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23720,7 +23720,7 @@ function blickqualitaetPage() {
       <h1 class="section-title">Die primäre Blickqualität der 9 Enneagrammtypen</h1>
       <p class="psycho-intro">Der Blick verrät mehr als Worte. Jeder Enneagrammtyp trägt eine charakteristische Blickqualität &ndash; eine Art zu schauen, die tief mit seiner inneren Welt, seiner Motivation und seinem Energiezentrum verbunden ist.</p>
       <img
-        src="./assets/blickqualitaet.jpg"
+        src="${CDN}assets/blickqualitaet.jpg"
         alt="Die primäre Blickqualität der 9 Enneagrammtypen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -23815,7 +23815,7 @@ function beruhmtePhilosophenPage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Wichtiger Hinweis: Die Subtypen (Untertypen) &ndash; selbsterhaltend, sozial, sexuell &ndash; sind drei Varianten innerhalb jedes Typs, die das Grundmuster feiner differenzieren. „Subtyp" und „Untertyp" bezeichnen dasselbe: die instinktive Grundausrichtung, die die Persönlichkeit noch einmal präziser formt. Bei Typ 6 erscheinen sogar zwei Philosophen &ndash; einer phobisch, einer kontraphobisch &ndash; weil dieser Typ als einziger so deutlich in zwei Richtungen ausschlagen kann.</p>
 
       <img
-        src="./assets/beruhmte-philosophen.jpg"
+        src="${CDN}assets/beruhmte-philosophen.jpg"
         alt="Berühmte Philosophen im Enneagramm"
         style="width:100%;border-radius:8px;margin:0 0 2rem;"
       />
@@ -23849,7 +23849,7 @@ function dreiLebenskraeftePage() {
       <p class="psycho-intro">Hinter den neun Enneagrammtypen wirken drei grundlegende Energierichtungen: aktiv, ausgleichend und passiv. Sie beschreiben nicht den Charakter, sondern die Art und Weise, wie ein Typ grundsätzlich mit der Welt in Kontakt tritt.</p>
 
       <img
-        src="./assets/drei-lebenskraefte.jpg"
+        src="${CDN}assets/drei-lebenskraefte.jpg"
         alt="Die drei grundlegenden Lebenskräfte des Enneagramms"
         style="width:100%;border-radius:8px;margin:1.5rem 0 2rem;"
       />
@@ -23917,7 +23917,7 @@ function sucheNachLiebePage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">Das Enneagramm benennt diese Muster nicht als Vorwurf, sondern als Einladung: Erkenne, womit du Liebe ersetzt &ndash; und was dich dabei aufhält, weiterzugehen.</p>
 
       <img
-        src="./assets/suche-nach-liebe.jpg"
+        src="${CDN}assets/suche-nach-liebe.jpg"
         alt="Die Suche nach der wahren Liebe – alle 9 Enneagrammtypen"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
@@ -23968,7 +23968,7 @@ function rumiZitatePage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">Was Rumi beschreibt &ndash; die Wunde, die Flucht, das Suchen, das Erwachen &ndash; sind Bewegungen, die das Enneagramm als Typenstrukturen kartiert. Rumi kannte keine Nummern. Aber er kannte die inneren Landschaften: die Sehnsucht des Vierers, die Angst des Sechsers, die Rastlosigkeit des Siebers, die Kraft des Achters. In seinen Zeilen sind sie alle da &ndash; jeder Typ in seinem Lernfeld, jeder Schmerz mit seiner Antwort.</p>
 
       <img
-        src="./assets/rumi-zitate.jpg"
+        src="${CDN}assets/rumi-zitate.jpg"
         alt="Rumi-Zitate für die 9 Enneagrammtypen"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
@@ -23999,7 +23999,7 @@ function beziehungenSchaubildPage() {
       <h1 class="section-title">Beziehungen &ndash; Liebe und Schutz</h1>
       <p class="psycho-intro">Viele Beziehungen enden nicht, weil die Liebe verschwunden ist &ndash; sondern weil unbewusste Schutzmechanismen das Sehen füreinander verstellen.</p>
       <img
-        src="./assets/beziehungen.jpg"
+        src="${CDN}assets/beziehungen.jpg"
         alt="Beziehungen im Enneagramm"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -24018,7 +24018,7 @@ function beziehungenSchaubildPage() {
 
       <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:2.5rem 0 0.75rem;">Zwei Strategien, geliebt zu werden</h2>
       <img
-        src="./assets/beziehungen-2.jpg"
+        src="${CDN}assets/beziehungen-2.jpg"
         alt="In Beziehungen begegnen sich nie nur zwei Menschen – es begegnen sich auch zwei Strategien, geliebt zu werden."
         style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
       />
@@ -24044,7 +24044,7 @@ function limericksPage() {
       <h1 class="section-title">Die 9 Enneagramm-Limericks</h1>
       <p class="psycho-intro">Ein Limerick ist ein kurzes, rhythmisches Fünfzeiler-Gedicht mit festem Reim und meist humorvoller oder gar transformierender Pointe — und damit ein überraschend präzises Gefäß für die neun Typen.</p>
       <img
-        src="./assets/limericks.jpg"
+        src="${CDN}assets/limericks.jpg"
         alt="Die 9 Enneagramm-Limericks"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -24088,7 +24088,7 @@ function verantwortungPage() {
       <h1 class="section-title">Verantwortung im Enneagramm</h1>
       <p class="psycho-intro">Den eigenen Typ zu kennen, ist der Anfang. Ihn wirklich zu sehen &ndash; ohne ihn zu verteidigen &ndash; das ist der eigentliche Schritt.</p>
       <img
-        src="./assets/verantwortung.jpg"
+        src="${CDN}assets/verantwortung.jpg"
         alt="Verantwortung im Enneagramm"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -24133,7 +24133,7 @@ function hunderassenPage() {
       <h1 class="section-title">Die Enneagrammtypen &ndash; auf den Hund gekommen</h1>
       <p class="psycho-intro">Neun Typen, neun Hunderassen &ndash; und erstaunlich viel Wiedererkennungswert. Was Hunde über Enneagrammprinzipien erzählen können.</p>
       <img
-        src="./assets/hunderassen.jpg"
+        src="${CDN}assets/hunderassen.jpg"
         alt="Die 9 Enneagrammtypen – auf den Hund gekommen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24197,7 +24197,7 @@ function prinzipienPage() {
       <h1 class="section-title">Das Enneagramm als Landkarte für Entwicklung</h1>
       <p class="psycho-intro">Vom präzisen Instrument zur Typbestimmung bis zur Landkarte grundlegender Ordnungen &ndash; was das Enneagramm wirklich zeigt, wenn man genauer hinschaut.</p>
       <img
-        src="./assets/prinzipien.jpg"
+        src="${CDN}assets/prinzipien.jpg"
         alt="Die neun Prinzipien des Enneagramms"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;"
       />
@@ -24239,7 +24239,7 @@ function antriebskraeftePage() {
       <h1 class="section-title">Die 9 Antriebskr\xe4fte der Menschheit</h1>
       <p class="psycho-intro">Wie die neun Leidenschaften als innere Motoren wirken &ndash; und warum derselbe Typ so unterschiedlich aussehen kann.</p>
       <img
-        src="./assets/antriebskraefte.jpg"
+        src="${CDN}assets/antriebskraefte.jpg"
         alt="Die 9 Antriebskr\xe4fte der Menschheit innerhalb der 27 Untertypen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24281,7 +24281,7 @@ function enneagrammProfilingPage() {
       <h1 class="section-title">Enneagramm-Profiling</h1>
       <p class="psycho-intro">Typisierung \xfcber Blick, Haltung und Rhythmus &ndash; nicht \xfcber Gespr\xe4ch und Selbstauskunft.</p>
       <img
-        src="./assets/enneagramm-profiling.jpg"
+        src="${CDN}assets/enneagramm-profiling.jpg"
         alt="Enneagramm-Profiling &ndash; Detlef Rathmer"
         style="width:100%;max-width:480px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24336,7 +24336,7 @@ function egoFixierungenPage() {
       <h1 class="section-title">Die 9 Ego-Fixierungen nach Oscar Ichazo</h1>
       <p class="psycho-intro">Was das urspr\xfcngliche Enneagramm wirklich lehrt &ndash; und warum es tiefer reicht als die meisten heutigen Typenbeschreibungen.</p>
       <img
-        src="./assets/ego-fixierungen.jpg"
+        src="${CDN}assets/ego-fixierungen.jpg"
         alt="Die 9 Ego-Fixierungen nach Oscar Ichazo"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24382,7 +24382,7 @@ function grundformelPage() {
       <h1 class="section-title">Die Grundformel des Rathmer-Enneagramms</h1>
       <p class="psycho-intro">Drei Defizite. Drei Energieformen. Drei Instinkte. &ndash; Das Fundament eines Enneagramm-Modells, das \xfcber zwanzig Jahre gewachsen ist.</p>
       <img
-        src="./assets/grundformel.jpg"
+        src="${CDN}assets/grundformel.jpg"
         alt="Die Grundformel des Rathmer-Enneagramms"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24439,7 +24439,7 @@ function leidenschaftUndWundePage() {
       <h1 class="section-title">Leidenschaft und Wunde</h1>
       <p class="psycho-intro">Zwei Ebenen eines Musters &ndash; was sichtbar wird und was wirklich dahintersteckt.</p>
       <img
-        src="./assets/leidenschaft-und-wunde.jpg"
+        src="${CDN}assets/leidenschaft-und-wunde.jpg"
         alt="Leidenschaft und Wunde der 9 Typen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24482,7 +24482,7 @@ function wundenPage() {
       <h1 class="section-title">Jede Wunde hat eine Schutzstrategie hervorgebracht</h1>
       <p class="psycho-intro">Warum die Muster der 9 Typen keine Schw\xe4chen sind &ndash; sondern einst kluge Antworten auf echte Not.</p>
       <img
-        src="./assets/wunden.jpg"
+        src="${CDN}assets/wunden.jpg"
         alt="Wunden und Schutzstrategien der 9 Typen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24523,7 +24523,7 @@ function verwechslungenPage() {
       <h1 class="section-title">Die gro\xdfen Verwechslungen</h1>
       <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagramm-Typisierung.</p>
       <img
-        src="./assets/verwechslungen.png"
+        src="${CDN}assets/verwechslungen.png"
         alt="Verwechslungen &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -24566,7 +24566,7 @@ function wurzelnDesEnneagrammsPage() {
       <h1 class="section-title">Die Wurzeln des Enneagramms</h1>
       <p class="psycho-intro">Das Enneagramm wird heute h\xe4ufig als Pers\xf6nlichkeitsmodell verstanden &ndash; als eine Typologie neben vielen anderen. Doch wer sich intensiver damit besch\xe4ftigt, bemerkt schnell: Diese Einordnung greift zu kurz. Das Enneagramm wirkt nicht wie ein beliebiges psychologisches System, sondern wie ein Zugang zu tieferen Gesetzm\xe4\xdfigkeiten des Lebens selbst. Das folgende Symbol und der begleitende Text geben einen \xdcberblick \xfcber seine historischen Wurzeln, philosophischen Zusammenh\xe4nge und die pers\xf6nliche Erfahrung, die aus jahrzehntelanger Arbeit damit entsteht.</p>
       <img
-        src="./assets/wurzeln-des-enneagramms.png"
+        src="${CDN}assets/wurzeln-des-enneagramms.png"
         alt="Das Enneagramm-Symbol"
         style="width:100%;max-width:420px;display:block;margin:0 auto 2rem;border-radius:12px;"
       />
@@ -25044,7 +25044,7 @@ function gifteDesGeistesPage() {
       <h1>Die 3 Gifte des Geistes und die 9 Leidenschaften</h1>
       <p class="lead-small">Die tibetisch-buddhistische Lehre kennt drei „Gifte des Geistes" (Gier, Hass, Unwissenheit), die zur Ruhe kommen müssen, damit innerer Frieden entsteht. Das Enneagramm ordnet die 9 Leidenschaften diesen drei Grundbewegungen zu.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
+        <img src="${CDN}assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
              alt="Die 3 Gifte des Geistes und die 9 Enneagramm-Leidenschaften"
              class="psycho-img" />
       </div>
@@ -25086,7 +25086,7 @@ function empfindlichePunktePage() {
       <h1>Empfindliche Punkte der 9 Enneagrammtypen</h1>
       <p class="lead-small">Mit welchen Bemerkungen man das Ego — das falsche Selbst, die falsche Persönlichkeit — der 9 Enneagrammtypen maximal aktiviert und herausfordert. Wer diese Punkte kennt, kann bewusster und achtsamer mit anderen umgehen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg"
+        <img src="${CDN}assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg"
              alt="Empfindliche Punkte der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -25107,7 +25107,7 @@ function angstEssenzPage() {
       <h1 class="section-title">Angst → Essenz</h1>
       <p class="psycho-intro">Die neun Enneagrammtypen lassen sich nicht nur \xfcber ihre Leidenschaften verstehen, sondern tiefer: \xfcber ihre Grundangst. Was nach au\xdfen als Zorn, Stolz oder Trägheit erscheint, ist psychodynamisch betrachtet die emotionale F\xe4rbung einer existenziellen Schutzreaktion. Dieses Schaubild zeigt den Weg von der Angst \xfcber Stabilisierung und Fixierung bis zur Essenz eines jeden Typs.</p>
       <img
-        src="./assets/angst-essenz.png"
+        src="${CDN}assets/angst-essenz.png"
         alt="Angst zur Essenz &ndash; alle 9 Enneagrammtypen"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;"
       />
@@ -25235,7 +25235,7 @@ function aufmerksamkeitsfokusPage() {
       <h1>Aufmerksamkeitsfokus & Blindheit der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp richtet seinen Aufmerksamkeitsfokus unbewusst auf bestimmte Aspekte des Lebens — und blendet andere dabei aus. Diese Übersicht zeigt, worauf jeder Typ besonders achtet und was ihm dadurch im blinden Fleck bleibt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
+        <img src="${CDN}assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
              alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -25257,7 +25257,7 @@ function sechzigSekundenScanPage() {
       <h1>60-Sekunden-Fixierungs-Scan</h1>
       <p class="lead-small">In drei Schritten zum Enneagrammtyp: Welche Persona zeigt die Person? Wie reagiert sie unter Druck? Wovor schützt sie sich? Diese Kurzübersicht hilft, einen Typ schnell einzuordnen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/scan/60-sekunden-scan.jpg"
+        <img src="${CDN}assets/schaubilder/scan/60-sekunden-scan.jpg"
              alt="60-Sekunden-Fixierungs-Scan"
              class="psycho-img" />
       </div>
@@ -25320,7 +25320,7 @@ function mikroimpresionenPage() {
           <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:800;font-size:.9rem;flex-shrink:0;">${t.nr}</span>
           <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);margin:0;">Typ\xa0${t.nr} &ndash; ${t.name}</h2>
         </div>
-        <img src="./assets/mikroimpressionen-${t.nr}.jpg"
+        <img src="${CDN}assets/mikroimpressionen-${t.nr}.jpg"
           alt="Mikroimpressionen Typ ${t.nr}"
           style="width:100%;border-radius:10px;margin-bottom:1.1rem;display:block;" />
         <div style="display:grid;gap:.7rem;">
@@ -25360,7 +25360,7 @@ function mangelgefuehlePage() {
       <h1>Mangelgefühle der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp trägt ein unbewusstes inneres Mangelgefühl in sich &ndash; ein tiefes Gefühl, dass etwas Wesentliches fehlt. Aus diesem Mangel heraus entsteht das charakteristische Streben nach außen, das den Typ antreibt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
+        <img src="${CDN}assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
              alt="Enneagrammtypen und ihre unbewussten inneren Mangelgefühle"
              class="psycho-img" />
       </div>
@@ -25381,7 +25381,7 @@ function perspektivenPage() {
       <h1>Wie Mitmenschen die Enneagrammtypen erleben</h1>
       <p class="lead-small">Was sehen andere in uns, was wir selbst kaum wahrnehmen? Diese Übersicht zeigt, welche Aussagen Mitmenschen über jeden Enneagrammtyp immer wieder machen &ndash; ein Spiegel für den eigenen blinden Fleck.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
+        <img src="${CDN}assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
              alt="Enneagrammtypen und die Perspektiven ihrer Mitmenschen"
              class="psycho-img" />
       </div>
@@ -25411,7 +25411,7 @@ function subtypChecklistePage() {
         <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">← Typ ${typNr} Subtypen</button>
         <h1 class="psycho-detail__title">Typ ${typNr} · ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/subtypen-checklisten/${code}.jpg"
+          <img src="${CDN}assets/schaubilder/subtypen-checklisten/${code}.jpg"
                alt="Checkliste ${INSTINKT_KURZ[inst]}${typNr}"
                class="psycho-img" />
         </div>
@@ -25994,7 +25994,7 @@ function edelsteinePage() {
         <h1 class="psycho-detail__title">Typ ${e.typ} &ndash; ${e.name}</h1>
         <p style="font-size:.82rem;color:var(--muted);letter-spacing:.05em;margin:-.3rem 0 1rem;">${e.crystal}</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/edelsteine/${e.file}"
+          <img src="${CDN}assets/schaubilder/edelsteine/${e.file}"
                alt="Typ ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
@@ -26043,7 +26043,7 @@ function aetherischeOelePage() {
       <h1>Ätherische Öle &amp; Enneagramm</h1>
       <p class="lead-small">Jedem Enneagrammtyp ist ein ätherisches Öl zugeordnet, das direkt auf der Wunden-Ebene wirkt &ndash; dort, wo die tiefste Prägung sitzt. Düfte berühren das limbische System unmittelbar und können heilsame Bewegung in festgefahrene Muster bringen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/oele/aetherische-oele.png"
+        <img src="${CDN}assets/schaubilder/oele/aetherische-oele.png"
              alt="Ätherische Öle und Enneagramm &ndash; Übersicht"
              class="psycho-img" />
       </div>
@@ -26065,9 +26065,9 @@ function triadendefizitePage() {
       <h2 style="font-size:1rem;font-weight:600;color:var(--muted);margin:-.4rem 0 1.2rem;letter-spacing:.03em;">Schutz \xb7 Liebe \xb7 Vertrauen</h2>
       <p class="psycho-intro">Im Enneagramm lassen sich die neun Typen in drei Grundzentren ordnen: Bauch, Herz und Kopf. Diese Zentren beschreiben weniger Verhalten als vielmehr die prim\xe4re Art, wie ein Mensch Wirklichkeit verarbeitet und wie er auf ein empfundenes Grunddefizit reagiert. Die Bauchtriade ist von einem Schutzdefizit gepr\xe4gt, die Herztriade von einem Liebesdefizit und die Kopftriade von einem Vertrauensdefizit. Aus diesen Grundspannungen entfalten sich die unterschiedlichen Strategien der einzelnen Typen.</p>
 
-      <img src="./assets/triadendefizite-1.png" alt="Triadendefizite Schaubild 1"
+      <img src="${CDN}assets/triadendefizite-1.png" alt="Triadendefizite Schaubild 1"
         style="width:100%;border-radius:12px;margin:0 auto 1.5rem;display:block;" />
-      <img src="./assets/triadendefizite-2.png" alt="Triadendefizite Schaubild 2"
+      <img src="${CDN}assets/triadendefizite-2.png" alt="Triadendefizite Schaubild 2"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -26131,12 +26131,12 @@ function teeEnneagrammPage() {
       <h1>Tee &amp; Enneagramm</h1>
       <p class="lead-small">Welcher Tee passt zu welchem Enneagrammtyp? Diese zwei Übersichten zeigen, wie die heilsamen Eigenschaften verschiedener Teesorten mit den Themen, Wunden und Entwicklungsimpulsen der neun Typen korrespondieren.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/schaubilder/tee/tee-uebersicht-1.png"
+        <img src="${CDN}assets/schaubilder/tee/tee-uebersicht-1.png"
              alt="Tee und Enneagramm &ndash; Übersicht 1"
              class="psycho-img" />
       </div>
       <div class="psycho-img-wrap" style="margin-top:2rem;">
-        <img src="assets/schaubilder/tee/tee-uebersicht-2.png"
+        <img src="${CDN}assets/schaubilder/tee/tee-uebersicht-2.png"
              alt="Tee und Enneagramm &ndash; Übersicht 2"
              class="psycho-img" />
       </div>
@@ -26162,7 +26162,7 @@ function psychogrammePage() {
         <h1 class="psycho-detail__title">Typ ${t.typ} &ndash; ${t.name}</h1>
         <p class="psycho-detail__kern">${t.kern}</p>
         <div class="psycho-img-wrap">
-          <img src="assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
+          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
         </div>
       </div>
     `);
@@ -26577,7 +26577,7 @@ function gesichtsausdrueckePage() {
       <h1 class="schaubild-page__title">Gesichtsausdrücke der 9 Typen</h1>
       <p class="schaubild-page__intro">Die Gesichtsausdrücke der Enneagrammtypen können als Spiegel ihrer inneren Welt und ihrer typischen emotionalen Zustände gesehen werden.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/gesichtsausdruecke.jpg" alt="Die Gesichtsausdrücke der 9 Enneagrammtypen" class="psycho-img" style="max-width:480px;" />
+        <img src="${CDN}assets/gesichtsausdruecke.jpg" alt="Die Gesichtsausdrücke der 9 Enneagrammtypen" class="psycho-img" style="max-width:480px;" />
       </div>
     </div>
   `;
@@ -26589,7 +26589,7 @@ function maennlicheWeiblicheSeitePage() {
       <h1 class="schaubild-page__title">Männliche &amp; weibliche Seite des Enneagramms</h1>
       <p class="schaubild-page__intro">Typen 5&ndash;8 verkörpern die männliche Seite (Rebellion, eher antisozial, psychopathische Tendenz), Typen 1&ndash;4 die weibliche Seite (Verführung, sozial, hysterische Tendenz). Typ 9 steht als neutraler Pol in der Mitte.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="assets/maennliche-weibliche-seite.jpg" alt="Die weibliche und die männliche Seite des Enneagramms" class="psycho-img" style="max-width:480px;" />
+        <img src="${CDN}assets/maennliche-weibliche-seite.jpg" alt="Die weibliche und die männliche Seite des Enneagramms" class="psycho-img" style="max-width:480px;" />
       </div>
     </div>
   `;
@@ -26643,7 +26643,7 @@ function bundeslaenderPage() {
   const kartenHtml = `
     <div class="bl-karte-wrap">
       <div class="bl-karte-container">
-        <img src="assets/bundeslaender-karte.jpg" alt="Karte: 16 Bundesländer und ihre Enneagramm-Zuordnung" class="bl-karte" />
+        <img src="${CDN}assets/bundeslaender-karte.jpg" alt="Karte: 16 Bundesländer und ihre Enneagramm-Zuordnung" class="bl-karte" />
         <div class="bl-karte-emblem">${compassMark("small")}</div>
       </div>
       <p class="bl-karte-caption">Übersichtskarte: Zuordnung der 16 Bundesländer zu den 9 Enneagramm-Prinzipien</p>
@@ -27031,7 +27031,7 @@ function typenvergleichePage() {
   const cards = VERGLEICHE.map(v => `
     <div class="tv-card" data-gruppe="${v.a}">
       <div class="tv-card__badge">Typ ${v.a} · Typ ${v.b}</div>
-      <img class="tv-card__img" src="assets/vergleiche/vergleich-${v.a}-${v.b}.jpg"
+      <img class="tv-card__img" src="${CDN}assets/vergleiche/vergleich-${v.a}-${v.b}.jpg"
         alt="Typenvergleich ${v.a} und ${v.b}: ${v.titel}" loading="lazy" />
       <p class="tv-card__titel">${v.titel}</p>
     </div>
@@ -27584,7 +27584,7 @@ function render() {
           const wrap = document.createElement("span");
           wrap.className = "krim-tier-badge-wrap";
           const img = document.createElement("img");
-          img.src = "./assets/" + code + "-tier.jpg";
+          img.src = "${CDN}assets/" + code + "-tier.jpg";
           img.alt = "";
           wrap.appendChild(img);
           typEl.appendChild(wrap);
