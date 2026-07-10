@@ -26766,6 +26766,7 @@ function stillePage() {
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
           </button>`).join("")}
         </div>
+        <p id="stille-klang-info" style="margin:.7rem 0 0;font-size:0.8rem;color:var(--ink-muted);min-height:1.4em;text-align:center;font-style:italic;">Komplette Stille — nur Gong am Anfang und Ende.</p>
       </div>
 
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
@@ -27121,6 +27122,21 @@ function _stilleInit() {
   }
 
   // Klang-Buttons
+  const KLANG_INFO = {
+    stille:     "Vollständige Stille — nur Gong am Anfang und Ende.",
+    white:      "White Noise: gleichmäßiges Rauschen über alle Frequenzen — wie ein Ventilator. Überdeckt Ablenkungen.",
+    pink:       "Pink Noise: ähnlich White, aber wärmer und weicher — natürlicher für die Ohren.",
+    brown:      "Brown Noise: tiefes, sattes Rauschen — wie starker Regen oder ein Wasserkocher von weitem.",
+    regen:      "Regengeräusche: gleichmäßiges Prasseln, gelegentlich einzelne Tropfen.",
+    meer:       "Meeresrauschen: Wellen, die kommen und gehen — rhythmisch und beruhigend.",
+    wasserfall: "Wasserfall: konstantes Rauschen fließenden Wassers.",
+    wind:       "Wind: mal stärker, mal schwächer — wie draußen in der Natur.",
+    feuer:      "Feuer: Knistern und Prasseln eines Lagerfeuers.",
+    gewitter:   "Gewitter: Regen mit gelegentlichen Donnergrollen in der Ferne.",
+    wald:       "Wald: Vogelgezwitscher und Blätterrascheln — stille Natur.",
+    hoehle:     "Höhle: tiefes Hall-Echo — weite, leere Stille.",
+  };
+  const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".stille-klang-btn").forEach(b => {
@@ -27128,6 +27144,7 @@ function _stilleInit() {
       });
       btn.style.borderColor = "var(--copper)"; btn.style.background = "var(--paper)";
       gewaehlterKlang = btn.dataset.klang;
+      if (infoEl) infoEl.textContent = KLANG_INFO[gewaehlterKlang] || "";
       // Vorschau wenn Timer bereits läuft
       if (laedt && interval) starteKlang(gewaehlterKlang);
     });
