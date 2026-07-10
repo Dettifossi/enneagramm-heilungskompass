@@ -5677,7 +5677,7 @@ function tierentsprechungenPage() {
   }).join("");
 
   const byId = Object.fromEntries(werkRegister.map(b => [b.id, b]));
-  const buchIds = ["enneagramm-zoo", "archetypen-der-tiere-im-enneagramm"];
+  const buchIds = ["enneagramm-zoo", "archetypen-der-tiere"];
   const buchCards = buchIds.map(id => {
     const b = byId[id];
     if (!b) return "";
