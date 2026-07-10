@@ -24119,20 +24119,20 @@ function sucheNachLiebePage() {
 function haikuDer9TypenPage() {
   const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783718378/kompass/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
-    { nr:1, typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
-    { nr:2, typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du zählst.","Liebe dich zuerst."] },
-    { nr:3, typ:"Der Macher",        zeilen:["Erfolg glänzt so hell,","doch wer bist du, wenn es schweigt?","Zeig dein wahres Herz."] },
-    { nr:4, typ:"Der Individualist", zeilen:["Sehnsucht nach dem Sinn,","doch Schönheit wohnt tief in dir.","Erkenne dich selbst."] },
-    { nr:5, typ:"Der Beobachter",    zeilen:["Stille Gedanken,","Wissen ist unendlich weit —","doch Wärme heilt mehr."] },
-    { nr:6, typ:"Der Loyalist",      zeilen:["Zweifel nagt leise,","doch dein Herz kennt die Antwort.","Vertraue dem Mut."] },
-    { nr:7, typ:"Der Enthusiast",    zeilen:["Bunte Wege rufen,","doch im Jetzt blüht die Freude.","Halte inne, sieh."] },
-    { nr:8, typ:"Der Beschützer",    zeilen:["Stärke zeigt die Macht,","doch Sanftheit birgt wahre Kraft.","Lass dein Herz erblühn."] },
-    { nr:9, typ:"Der Vermittler",    zeilen:["Stille Harmonie —","doch sprich: die Welt will dich hörn.","Dein Wort schenkt Frieden."] },
+    { nr:1, col:"#5f5f5f", typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
+    { nr:2, col:"#7a2fa8", typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du z\xe4hlst.","Liebe dich zuerst."] },
+    { nr:3, col:"#1fa688", typ:"Der Macher",        zeilen:["Erfolg gl\xe4nzt so hell,","doch wer bist du, wenn es schweigt?","Zeig dein wahres Herz."] },
+    { nr:4, col:"#3cbf1f", typ:"Der Individualist", zeilen:["Sehnsucht nach dem Sinn,","doch Sch\xf6nheit wohnt tief in dir.","Erkenne dich selbst."] },
+    { nr:5, col:"#124fcc", typ:"Der Beobachter",    zeilen:["Stille Gedanken,","Wissen ist unendlich weit —","doch W\xe4rme heilt mehr."] },
+    { nr:6, col:"#8a5222", typ:"Der Loyalist",      zeilen:["Zweifel nagt leise,","doch dein Herz kennt die Antwort.","Vertraue dem Mut."] },
+    { nr:7, col:"#d4a800", typ:"Der Enthusiast",    zeilen:["Bunte Wege rufen,","doch im Jetzt bl\xfcht die Freude.","Halte inne, sieh."] },
+    { nr:8, col:"#a00802", typ:"Der Besch\xfctzer", zeilen:["St\xe4rke zeigt die Macht,","doch Sanftheit birgt wahre Kraft.","Lass dein Herz erbl\xfchn."] },
+    { nr:9, col:"#cc6e00", typ:"Der Vermittler",    zeilen:["Stille Harmonie —","doch sprich: die Welt will dich h\xf6rn.","Dein Wort schenkt Frieden."] },
   ];
   const haikuHTML = haiku.map(h => `
-    <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);text-align:center;">
-      <p style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 .3rem;">Typ ${h.nr}</p>
-      <p style="font-size:.92rem;font-weight:700;color:var(--ink);margin:0 0 1.1rem;">${h.typ}</p>
+    <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${h.col};text-align:center;">
+      <p style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:${h.col};margin:0 0 .3rem;font-weight:700;">Typ ${h.nr}</p>
+      <p style="font-size:.92rem;font-weight:700;color:${h.col};margin:0 0 1.1rem;">${h.typ}</p>
       <div style="font-size:1.08rem;line-height:2.1;color:var(--ink);font-style:italic;">
         ${h.zeilen.map(z => `<span style="display:block;">${z}</span>`).join("")}
       </div>
