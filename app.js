@@ -4791,7 +4791,7 @@ function _portraitTypPage(typ) {
   const prev = typ.nr > 1 ? `{route:"portrait-typ-${typ.nr-1}", label:"Porträt Typ ${typ.nr-1}"}` : null;
   const next = typ.nr < 9 ? `{route:"portrait-typ-${typ.nr+1}", label:"Porträt Typ ${typ.nr+1}"}` : null;
   const related = [
-    {route:"leidenschaft-und-heilung" , label:"Leidenschaft und Heilung"},
+    {route:"leidenschaft-und-wunde" , label:"Leidenschaft und Wunde"},
     prev ? eval(`(${prev})`) : null,
     next ? eval(`(${next})`) : null,
     {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
