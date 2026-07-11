@@ -4853,12 +4853,35 @@ function portraitTyp9Page() { return _portraitTypPage(PORTRAIT_TYPEN[8]); }
 
 function homoeopathieSongsPage() {
   const songs = [
-    // Songs werden hier eingetragen
+    { id: "i_BW505pltc",  label: "1. Die sanfte Heilung – DER Homöopathie-Song" },
+    { id: "SYIFgh3DTMA",  label: "2. Gentle Healing – The Homeopathy Song No. 1" },
+    { id: "2L7S1fLhucA",  label: "3. Guérison douce – la chanson de l’homéopathie" },
+    { id: "bAbmGCml6Ro",  label: "4. Sanft und stark – der Homöopathie-Song Nr. 2" },
+    { id: "9IQVG9o4HAk",  label: "5. Gentle and Strong – The Homeopathy Song No. 2" },
+    { id: "K3juL1t_fVs",  label: "6. Gemeinsam heilen – zwei Wege, ein Ziel!" },
+    { id: "hUacc8X0O6U",  label: "7. Stille, sanfte Kraft (Song über das Wesen der Homöopathie)" },
+    { id: "oEs0VlT7WfI",  label: "8. Heilung in der Stille (2. Song über das Wesen der Homöopathie)" },
+    { id: "A6xBEHS5F1c",  label: "9. Tiefer als die Masken (Hommage an die Enneagramm-Homöopathie)" },
+    { id: "cDQjVJyJgSk",  label: "10. Homöopathie – die wahre Heilkunst!" },
+    { id: "f76ujLEpVWM",  label: "11. Homöopathie. Was sonst?" },
+    { id: "87SMopSaPQw",  label: "12. Homöopathie – die sanfte Kraft!" },
+    { id: "eaSw6b0Kbwo",  label: "13. Loblied auf die Homöopathie" },
+    { id: "Mc8eWUPgmGA",  label: "14. D’ WEISHEIT VO DE GROßEN – Homöopathie-Song Nr. 3 (Schwäbisch)" },
+    { id: "lJk4fvkyxxM",  label: "15. WEISHEIT DER GROß’N – Homöopathie-Song Nr. 3 (Hessisch)" },
+    { id: "ejmHTVhWctI",  label: "16. DIE WEISHEIT VON DIE JRßEN – Homöopathie-Song Nr. 3 (Berlinerisch)" },
+    { id: "CdJkHBg1uZU",  label: "17. DE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Thüringisch)" },
+    { id: "cNmWcQgOZUs",  label: "18. DE KLAUKHEIT VAN DE GROTEN – Homöopathie-Song Nr. 3 (Münsterländisch)" },
+    { id: "V5pf7eGdVBg",  label: "19. DE WIESENHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Mecklenburgisch)" },
+    { id: "OlARiATUSvA",  label: "20. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Hamburgisch)" },
+    { id: "49gzcMAYl4o",  label: "21. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niedersächsisch)" },
+    { id: "Ad2V2BGIXNU",  label: "22. DIE WIEßHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niederdeutsch/Plattdeutsch)" },
+    { id: "8Wwtb__JQPU",  label: "23. THE WISDOM OF THE GREATS – The Homeopathy Song No. 3" },
+    { id: "trV1Zfjps6M",  label: "24. DIE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Hochdeutsch)" },
   ];
 
   const songKacheln = songs.map(s => `
     <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
-      <p style="margin:0;padding:0.7rem 1rem 0.4rem;font-size:0.82rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.08em;">${s.label}</p>
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${s.label}</p>
       <div style="position:relative;aspect-ratio:16/9;background:#000;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
           src="https://www.youtube.com/embed/${s.id}?rel=0"
@@ -4866,6 +4889,17 @@ function homoeopathieSongsPage() {
       </div>
     </div>
   `).join("");
+
+  const song25 = `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);display:flex;flex-direction:column;">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">25. Homöopathie- und Enneagramm-Homöopathie-Songs</p>
+      <div style="aspect-ratio:16/9;background:var(--paper-deep, #f0ebe0);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;">
+        <span style="font-size:2.5rem;">&#127925;</span>
+        <p style="margin:0;font-size:0.9rem;color:var(--copper);font-weight:600;">Audio-only</p>
+        <p style="margin:0;font-size:0.8rem;color:var(--ink-muted);text-align:center;padding:0 1rem;">WAV-Datei – demnächst als Download verfügbar</p>
+      </div>
+    </div>
+  `;
 
   return shell(`
     ${pageHeader("homoeopathie-songs")}
@@ -4884,6 +4918,7 @@ function homoeopathieSongsPage() {
 
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;margin-top:2rem;">
         ${songKacheln}
+        ${song25}
       </div>
 
       ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
