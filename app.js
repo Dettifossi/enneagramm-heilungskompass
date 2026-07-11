@@ -24233,7 +24233,7 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
   const katHTML = kategorien.map(kat => `
     <div style="margin-bottom:2.5rem;">
       <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:0 0 1.2rem;">${kat.titel}</h2>
-      ${kat.videos.map(videoCard).join("")}
+      ${kat.videos.map(v => videoCard(v) + (kat.bookTipAfterEach || "")).join("")}
     </div>
   `).join("");
 
@@ -24356,7 +24356,7 @@ function davidRathmerErfolgsinterviewsPage() {
     "Erfolgsinterviews",
     "David L. Rathmer im Gespräch mit Unternehmern, Führungskräften und Persönlichkeiten — wie das Enneagramm in der Praxis wirkt und welche Erfolge durch Profiling entstehen.",
     [
-      { titel: "Erfolgsinterviews", videos: [
+      { titel: "Erfolgsinterviews", bookTipAfterEach: bookTip("fuehrung-mit-fundament", "Führungskräfte und Teams verstehen — das Enneagramm als Führungskompass.", "Führung mit Fundament"), videos: [
         { id: "1cXW4E-2R3A", titel: "Interview 1: Keine Fehlbesetzungen dank Enneagramm-Profiling", untertitel: "Digistore24" },
         { id: "WD8fThkCyWs", titel: "Interview 2: Kunden verstehen, Teams führen: Jörgs Resultate mit Profiling", untertitel: "" },
         { id: "tWrlusgiGr4", titel: "Interview 3: Wie das Profiling Coaching, Verkauf und Beziehung verbessert", untertitel: "Kundeninterview mit Philip" },
