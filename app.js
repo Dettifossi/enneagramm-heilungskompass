@@ -3679,7 +3679,26 @@ function bindEvents() {
         }
         setTier("heilwissen");
         setLizenzName(name);
-        go("start");
+        // Erfolgsmeldung + Homescreen-Anleitung anzeigen
+        const card = document.querySelector(".freischalt-card");
+        if (card) {
+          card.innerHTML = `
+            <div style="text-align:center;padding:1rem 0 .5rem;">
+              <div style="font-size:2.5rem;margin-bottom:.75rem;">✅</div>
+              <h2 style="font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:.5rem;">Herzlich willkommen, ${name}!</h2>
+              <p style="font-size:1rem;line-height:1.7;margin-bottom:1.5rem;">Ihr Zugang zum <strong>Enneagramm-Heilungskompass</strong> wurde erfolgreich aktiviert. Sie haben jetzt Zugriff auf alle Inhalte.</p>
+            </div>
+            <div style="background:var(--surface,#f9f6f0);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1.25rem;text-align:left;">
+              <p style="font-weight:700;font-size:.95rem;margin-bottom:.6rem;color:var(--ink);">📱 App auf den Homescreen legen</p>
+              <p style="font-size:.88rem;line-height:1.65;margin-bottom:.7rem;color:var(--ink);"><strong>iPhone / iPad (Safari):</strong><br>Tippen Sie unten auf das Teilen-Symbol <span style="font-size:1rem;">⬆</span> und wählen Sie <em>„Zum Home-Bildschirm"</em>. Dann können Sie die App wie eine normale App öffnen.</p>
+              <p style="font-size:.88rem;line-height:1.65;margin:0;color:var(--ink);"><strong>Android (Chrome):</strong><br>Tippen Sie oben auf das Menü <span style="font-size:1rem;">⋮</span> und wählen Sie <em>„Zum Startbildschirm hinzufügen"</em>.</p>
+            </div>
+            <button class="primary" style="width:100%;font-size:1rem;" id="unlockWeiter">Jetzt loslegen →</button>
+          `;
+          document.querySelector("#unlockWeiter").addEventListener("click", () => go("start"));
+        } else {
+          go("start");
+        }
       } else {
         msg.textContent = "Ungültiger Code. Bitte prüfen Sie die Bestätigungs-E-Mail von Stripe.";
         msg.style.color = "var(--copper)";
