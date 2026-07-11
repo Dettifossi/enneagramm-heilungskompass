@@ -24297,6 +24297,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "S9NpViOEOmU", label: "Episode 5: Persönlichkeitsanalyse von Kollegah" },
         { id: "XnS_8QaUL8Y", label: "Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein" },
         { id: "tk05kjDO1JA", label: "Episode 7: Persönlichkeitsanalyse von Elon Musk" },
+        { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Warum Freunde zu Feinden wurden | Profiling-Analyse" },
       ]},
     ]
   );
