@@ -1,4 +1,4 @@
-const CACHE = "kompass-v8";
+const CACHE = "kompass-v9";
 const PRECACHE = ["./", "./index.html", "./styles.css", "./bundle.js", "./manifest.json", "./offline.html"];
 
 self.addEventListener("install", e => {
