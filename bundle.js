@@ -6677,15 +6677,6 @@ function adolfHitlerPortraitPage() {
         Pathologie kippen k\xf6nnen, wenn kein Boden der Selbsterkenntnis vorhanden ist.</p>
       </div>
 
-      <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
-        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Persönlichkeitsanalyse Jeffrey Epstein (SX8)</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/XnS_8QaUL8Y?rel=0"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
-      </div>
-
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexuelle Typ 4 in seiner tiefsten Auspr\xe4gung – Rivalit\xe4t, Neid und der Weg von der Selbstz\xf6rst\xf6rung zur Heilung.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die sexuelle Vier von der Sozialen und Selbsterhaltenden Vier unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
@@ -10011,6 +10002,15 @@ function jeffreyEpsteinPortraitPage() {
         Die SX8 schafft Strukturen, die \xfcber den Einzelnen hinaus
         weiterbestehen – das ist sowohl ihre gr\xf6\xdfte St\xe4rke
         als auch ihr dunkelster Ausdruck.</p>
+      </div>
+
+      <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Persönlichkeitsanalyse Jeffrey Epstein (SX8)</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/XnS_8QaUL8Y?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
