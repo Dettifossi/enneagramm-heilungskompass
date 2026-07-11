@@ -13641,6 +13641,15 @@ function wadeWilsonPortraitPage() {
         blieb er auf der Bühne.</p>
       </div>
 
+      <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Persönlichkeitsanalyse Wade Wilson (SO3)</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/XS7g6LzrUxk?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SE3 und SX3 – Verstärkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SE3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
