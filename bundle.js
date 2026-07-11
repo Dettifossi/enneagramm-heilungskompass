@@ -4936,7 +4936,7 @@ function homoeopathieSongsPage() {
       ${bookTip("die-enneagramm-homoeopathie-unterrichtsmaterial", "Das Unterrichtsskript zur Enneagramm-Homöopathie – 376 Seiten kompaktes Lernmaterial für das Selbststudium.", "Enneagramm-Homöopathie – Unterrichtsmaterial (376 Seiten)")}
       ${bookTip("das-unterrichtsskript-zur-sehgal-ausbildung-ebook", "Das vollständige Unterrichtsskript der Sehgal-Schule – 500 Seiten für alle, die die Sehgal-Methode tiefgreifend erlernen möchten.", "Unterrichtsskript zur Sehgal-Ausbildung (500 Seiten)")}
       ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
-      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre enneagrammatischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"musik",               label:"Entspannungs- und Heilungsmusik"},
         {route:"solfeggio-frequenzen", label:"Die 9 Solfeggio-Frequenzen"},
