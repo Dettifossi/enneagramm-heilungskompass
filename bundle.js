@@ -4871,7 +4871,8 @@ function homoeopathieSongsPage() {
     ${pageHeader("homoeopathie-songs")}
     <section class="narrow">
       <p class="eyebrow">Schaubilder · Homöopathie · Musik</p>
-      <h1>Enneagramm-Homöopathie-Songs</h1>
+      <h1>Homöopathie- und Enneagramm-Homöopathie-Songs</h1>
+      <p style="font-style:italic;color:var(--copper);margin:0.2rem 0 1rem;font-size:1.05rem;">Die Essenz der Homöopathie in Liedern</p>
       <p class="lead-small"><strong>Enneagramm-Homöopathie</strong> verbindet zwei Ebenen: das Persönlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Homöopathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grundängste – diese inneren Dynamiken prägen nicht nur die Psyche, sondern oft auch körperliche Beschwerden. Die Songs spiegeln diese seelischen Qualitäten und machen sie hörbar.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
