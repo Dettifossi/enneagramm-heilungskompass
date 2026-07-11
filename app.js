@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -181,7 +181,8 @@ const text = uiText;
 document.title = text.meta.appTitle;
 
 window.addEventListener("hashchange", () => {
-  const newRoute = location.hash.replace("#", "") || "start";
+  const raw = location.hash.replace("#", "") || "start";
+  const [newRoute, scrollAnchor] = raw.split("|");
   if (newRoute !== "beziehungen") beziehungSelected = null;
   if (newRoute !== "suche") _sucheQuery = "";
   if (newRoute !== "differenzierung") diffState = { a: null, b: null };
@@ -189,6 +190,10 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "krisenkompass") krisenState = { typNr: null, krisenId: null };
   state.route = newRoute;
   render();
+  if (scrollAnchor) setTimeout(() => {
+    const el = document.getElementById(scrollAnchor);
+    if (el) el.scrollIntoView({ behavior: "auto", block: "start" });
+  }, 300);
 });
 
 function go(route) {
@@ -2371,6 +2376,70 @@ function subtypeEntry(code) {
   );
 }
 
+const DYNAMIK_VIDEOS = {
+  1: "b3NTI3JH2wo",
+  2: "BlxNIC_VxV4",
+  3: "Txkm8yZ88kw",
+  4: "XoJD38aD5kg",
+  5: "kEikxOZt4fM",
+  6: "_nQGpZhlsQo",
+  7: "l87ai_tZAoU",
+  8: "jnyg4qjQUf8",
+  9: "GT3XxoDyHeo",
+};
+
+const DYNAMIK_TYPE_NAMES = {
+  1: "Typ 1 – Der Reformer",
+  2: "Typ 2 – Der Helfer",
+  3: "Typ 3 – Der Erfolgsmensch",
+  4: "Typ 4 – Der Individualist",
+  5: "Typ 5 – Der Denker",
+  6: "Typ 6 – Der Loyalist",
+  7: "Typ 7 – Der Enthusiast",
+  8: "Typ 8 – Der Herausforderer",
+  9: "Typ 9 – Der Friedensstifter",
+};
+
+function dynamikDerTypenPage() {
+  const typeColors = ["","#7B7B52","#6B8E6B","#8B5E3C","#4A6670","#5A6E8C","#8B7355","#6B8E8C","#8B3A3A","#5A7A5A"];
+  const cards = Object.entries(DYNAMIK_VIDEOS).map(([num, vid]) => {
+    const n = parseInt(num);
+    const col = typeColors[n] || "var(--copper)";
+    return `
+      <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);border-top:3px solid ${col};">
+        <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${DYNAMIK_TYPE_NAMES[n]}</p>
+        <div style="position:relative;aspect-ratio:16/9;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/${vid}?rel=0"
+            allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  return shell(`
+    ${pageHeader("dynamik-der-typen")}
+    <div class="section-content">
+      <h1 style="font-size:1.6rem;line-height:1.3;margin-bottom:1rem;">Die innere Dynamik der Enneagrammtypen</h1>
+      <p style="font-size:1.05rem;line-height:1.7;margin-bottom:1.8rem;">
+        Diese neun Videos vermitteln ein lebendiges Bild der inneren Dynamik der Enneagrammtypen –
+        die Denk- und Fühlmuster, Motivationen und blinden Flecken jedes Typs,
+        dargestellt in jeweils 10–12 Minuten.
+        Es sind die meistgesehenen Videos des Kanals.
+      </p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;">
+        ${cards}
+      </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "In dieser Zeit entstanden auch die Videos – das Buch liefert die schriftliche Vertiefung zur Typbestimmung, Schritt für Schritt.", "Die Praxis der Typbestimmung")}
+      ${relatedLinks([
+        { route: "dynamik-des-bewusstseinszustandes", label: "Dynamik des Bewusstseinszustands" },
+        { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypen" },
+        { route: "enneagramm-profiling", label: "Enneagramm-Profiling" },
+      ])}
+    </div>
+  `);
+}
+
 function subtypePage(code) {
   const sp = text.subtypePage;
   const entry = subtypeEntry(code);
@@ -2405,6 +2474,15 @@ function subtypePage(code) {
       </button>
     </section>
     ${details.meinKompass ? meinKompassSection(details.meinKompass, sp) : ""}
+    ${(function(){ const dn = parseInt(code.match(/\d+/)[0]); const dv = DYNAMIK_VIDEOS[dn]; return dv ? `
+    <section class="narrow" style="padding-top:0;padding-bottom:0;">
+      <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">Die Dynamik des Typs ${dn}</h3>
+      <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${dv}?rel=0"
+          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>` : ""; })()} 
     <section class="subtype-sections">
       ${sectionBlock("verstehen", sp.rooms.verstehen, verstehenInner(entry, sp) + impulseBlock(SUBTYP_IMPULSE[code.toLowerCase()], tc), tc)}
       ${sectionBlock("spueren", sp.rooms.spueren, spuerenInner(entry, sp), tc)}
@@ -4850,6 +4928,266 @@ function portraitTyp7Page() { return _portraitTypPage(PORTRAIT_TYPEN[6]); }
 function portraitTyp8Page() { return _portraitTypPage(PORTRAIT_TYPEN[7]); }
 function portraitTyp9Page() { return _portraitTypPage(PORTRAIT_TYPEN[8]); }
 
+
+
+const ENNEA_TRACKS = {
+  "14": ["Galway Light", "Thyme Upon the Hills", "Star of the County Town", "The Fields of Athenry", "Dreams of Home", "Arthur McBride", "The Wild Rover", "The Foggy Dew", "Mountain Thyme"],
+  "15": ["Perfeição Serena", "No Abraço do Amor", "Reflexos do Meu Verdadeiro Ser", "Entre as Marés do Meu Ser", "Segredo ao Sol", "Coragem ao Vento", "Céu Aberto", "Fortaleza Serena", "Na Paz do Caminho"],
+  "16": ["SERENE PERFECTION", "IN LOVE´S EMBRACE", "REFLECTION OF MY TRUE SELF", "WITHIN THE TIDES OF MY BEING", "SECRET IN THE SUN", "COURAGE IN THE WIND", "OPEN SKY", "SERENE STRENGTH", "IN THE PEACE OF THE PATH"],
+  "17": ["GELASSENE VOLLKOMMENHEIT", "IN DER UMARMUNG DER LIEBE", "IM SPIEGEL MEINES WAHREN SELBST", "IN DEN GEZEITEN MEINES SEINS", "GEHEIMNIS IM LICHT", "MUT IM WIND", "OFFENER HIMMEL", "GELASSENE STÄRKE", "IM FRIEDEN DES WEGES"],
+  "18": ["Die perfekte Liebe", "Für dich gebe ich alles", "Erfolg in der Liebe", "Die unerreichbare Liebe", "Liebe auf Abstand", "Kann ich dir vertrauen?", "Frei und doch bei dir", "Du & ich gegen die Welt", "Sanfte Harmonie"],
+  "19": ["Perfection - Anger", "Love - Pride", "Success - Vanity", "Individuality - Envy", "Knowledge - Greed", "Safety - Anxiety", "Joy - Gluttony", "Power - Lust", "Harmony - Inertia"],
+  "20": ["Letting Go", "Let Me Be", "Who I Am", "Whole Again", "Step Into the Light", "Stronger Than My Fear", "Here and Now", "Stronger in Love", "Wake Me Up"],
+  "21": ["Sunrise of Purpose", "Let Love Flow Free", "True Reflection", "Colors of My Soul", "Into the Light", "Rise Beyond the Fear", "Dance of Freedom", "Open the Gates", "Awakened Peace"],
+  "22": ["Ein neuer Tag", "Lass’ die Liebe frei fließen", "Wenn die Masken fallen", "Bunte Seelenfarben", "Licht im Kopf", "Durch die Angst ins Licht", "Flieg’ mein Freund, doch lande auch", "Lass’ die Mauern fallen", "Lebe deinen stillen Klang"],
+};
+
+const JAZZ_TRACKS = {
+  "64": [{t:"Morning Rhapsody",s:0}, {t:"Cityscape Serenade",s:190}, {t:"Midnight Reflections",s:401}, {t:"Blue Notes of Longing",s:596}, {t:"Soulful Interlude",s:769}, {t:"Rhythm of Abundance",s:969}, {t:"Nocturne of Solitude",s:1144}, {t:"Whispers in the Wind",s:1318}, {t:"Harmonious Journeys",s:1508}, {t:"Echoes of the Heart",s:1693}, {t:"Serenade of Truth",s:1878}, {t:"Eternal Dawn",s:2063}],
+  "65": [{t:"First Light",s:0}, {t:"Footsteps on the Pavement",s:178}, {t:"The Stranger's Smile",s:386}, {t:"Beneath the Old Sycamore",s:569}, {t:"Echoes in the Rain",s:727}, {t:"The Space Between Notes",s:907}, {t:"Holding a Memory",s:1049}, {t:"Turning Tides",s:1235}, {t:"In a Single Breath",s:1408}, {t:"The Quietest Sound",s:1580}, {t:"Returning to Silence",s:1802}, {t:"After the Music Fades",s:1957}],
+  "66": [{t:"Whisper of Dawn",s:0}, {t:"Drifting Through Time",s:176}, {t:"Embers of Yesterday",s:339}, {t:"Unspoken Words",s:526}, {t:"Between the Lines",s:726}, {t:"Winds of Change",s:889}, {t:"Still Water",s:1074}, {t:"Carrying the Light",s:1291}, {t:"Footprints in the Mist",s:1473}, {t:"Unfinished Conversations",s:1690}, {t:"The Weight of Time",s:1894}, {t:"Homeward",s:2068}],
+  "67": [{t:"The Way the River Knows",s:0}, {t:"Dancing Between the Raindrops:",s:168}, {t:"A Stranger's Name",s:372}, {t:"Midnight and the Moon",s:549}, {t:"Footprints in the Sand",s:756}, {t:"Love Like a Lantern",s:957}, {t:"Café Conversations",s:1130}, {t:"When the Musik Fades",s:1322}, {t:"Echoes of Yesterday",s:1497}, {t:"The Space Between the Words",s:1697}, {t:"The Road to Stillness",s:1871}, {t:"Just This Moment",s:2101}],
+  "68": [{t:"Before the Day Begins",s:0}, {t:"Stranger in the Rain:",s:223}, {t:"Conversations in Blue",s:428}, {t:"Shadows and Silhouettes",s:608}, {t:"A Door Left Open",s:795}, {t:"The Rhythm of Goodbye",s:988}, {t:"When the World Stands Still",s:1206}, {t:"One Step at a Time",s:1371}, {t:"The Space Between the Stars",s:1554}, {t:"The River Knows the Way",s:1736}, {t:"The Last Light on the Horizon",s:1944}, {t:"Oh, Returning to Silence",s:2157}],
+  "69": [{t:"One Breath, One Step",s:0}, {t:"Coffee in a Silent Café",s:187}, {t:"The Language of Rain",s:415}, {t:"Shadows of the Moon",s:608}, {t:"The Heart's Compass",s:811}, {t:"The Dance of Time",s:995}, {t:"Lost in the Moment",s:1188}, {t:"Through the Quiet Storm",s:1385}, {t:"The Light We Share",s:1565}, {t:"The Edge of Tomorrow",s:1748}, {t:"The Quiet Within",s:1951}, {t:"Return to the Heart",s:2121}],
+  "70": [{t:"Whispers of the Unknown",s:0}, {t:"A Chance Encounter",s:184}, {t:"The Wind Knows Our Names",s:392}, {t:"Levers Never Sent",s:591}, {t:"Café of Forgotten Dreams",s:773}, {t:"Oh, Shadows and Silhouettes",s:947}, {t:"The Synchronicity Waltz",s:1103}, {t:"Painted Skies and Passing Trains",s:1267}, {t:"Language of Rain",s:1459}, {t:"The Invisible Thread",s:1624}, {t:"Home is a Feeling",s:1806}, {t:"The Full Circle",s:1968}],
+  "71": [{t:"Awakening in Blue",s:0}, {t:"Moonlight Conversations",s:177}, {t:"Tides of Time",s:366}, {t:"Serenade for the Lost",s:557}, {t:"Whispers in the Rain",s:739}, {t:"Dancing with Time",s:922}, {t:"Silent Echoes",s:1098}, {t:"Through the Keyhole",s:1318}, {t:"The Space Between",s:1471}, {t:"Lanterns on the Water",s:1696}, {t:"Where the Wind Goes",s:1898}, {t:"The Quiet Light",s:2053}],
+  "72": [{t:"The First Light",s:0}, {t:"Traces on the Tide",s:154}, {t:"Serendipity Blues",s:355}, {t:"Whispers of the Moon",s:568}, {t:"Between the Notes",s:752}, {t:"Unwritten Pages",s:946}, {t:"Velvet Skies",s:1174}, {t:"Dancing with the Wind",s:1413}, {t:"Falling into Time",s:1591}, {t:"Silent Agreements",s:1817}, {t:"The Shape of Light",s:2021}, {t:"Where the Road Begins",s:2241}],
+  "73": [{t:"The Echo of Dawn",s:0}, {t:"Midnight Confessions",s:159}, {t:"Chance Encounters",s:376}, {t:"Footprints in the Rain",s:554}, {t:"Paper Boats",s:747}, {t:"Mirror of the Moon",s:975}, {t:"When We Were Fire",s:1214}, {t:"Serendipity Street",s:1443}, {t:"The Space Between Words",s:1625}, {t:"Silent Conversations",s:1826}, {t:"Beneath the Surface",s:2022}, {t:"The Light Within",s:2216}],
+  "74": [{t:"Footsteps in the Fog",s:0}, {t:"The Rhythm of Chance",s:203}, {t:"Echoes on the Page",s:332}, {t:"Crossroads Café",s:510}, {t:"When the Wind Decides",s:705}, {t:"Conversations with the Moon",s:931}, {t:"Silent Promises",s:1127}, {t:"The River Remembers",s:1326}, {t:"Shadows That Dance",s:1518}, {t:"The Weight of a Whisper",s:1757}, {t:"The Space Unwritten",s:1941}, {t:"The Open Road",s:2145}],
+  "75": [{t:"Awakening Breeze",s:0}, {t:"Fading Footprints",s:189}, {t:"When the Night Sings",s:400}, {t:"Echoes on the Shore",s:541}, {t:"Whispers Left Behind",s:746}, {t:"The Road Not Taken",s:949}, {t:"Unfinished Lines",s:1116}, {t:"Threads of Time",s:1309}, {t:"When the Wind Remembers",s:1527}, {t:"Beneath the Neon Glow",s:1745}, {t:"The Spaces Between Us",s:1952}, {t:"Awaken to the Dawn",s:2170}],
+  "77": [{t:"River of Time",s:0}, {t:"The Stranger's Eyes",s:211}, {t:"Footprints on the Wind",s:566}, {t:"Where the Moonlight Falls",s:759}, {t:"Threads of Gold",s:916}, {t:"The Turning of the Tide",s:1125}, {t:"Whispers on the Water",s:1315}, {t:"Written in the Wind",s:1493}, {t:"Between the Silence",s:1700}, {t:"Golden Threads of Time",s:1900}, {t:"The Light Behind the Sky",s:2096}, {t:"Forever in the Moment",s:2327}],
+  "78": [{t:"Destiny as Your Friend",s:0}, {t:"The Chance We Never Took",s:169}, {t:"Raindrop Reverie",s:393}, {t:"Echoes of Tomorrow",s:618}, {t:"Serenade of the Unseen",s:811}, {t:"Beneath the Velvet Sky",s:1127}, {t:"Echoes of the Soul",s:1354}, {t:"Spaces in Time",s:1533}, {t:"When the River Sings Your Name",s:1749}, {t:"Whispers of the Forgotten Dream",s:1953}, {t:"In the Quiet of the Night",s:2156}, {t:"The Heart's Eternal Song",s:2367}],
+  "79": [{t:"Echoes of an Unfinished Dream",s:0}, {t:"The Distance Between Heartbeats",s:198}, {t:"Golden Threads in a Tapestry of Time",s:398}, {t:"Footsteps on a Vanishing Road",s:621}, {t:"Where the Moonlight Used to Fall",s:847}, {t:"Whispers in a Half-Forgotten Song",s:1047}, {t:"Beneath the Surface of Time",s:1264}, {t:"The Dance of Forgotten Dreams",s:1502}, {t:"In the Quiet of Tomorrow",s:1721}, {t:"Through the Veil of Time",s:1900}, {t:"Echoes of a Soul's Embrace",s:2119}, {t:"The Light We Become",s:2322}],
+  "80": [{t:"Silent Wonders",s:0}, {t:"Echoes of a Distant Heart",s:224}, {t:"Silent Verses on the Breeze",s:459}, {t:"A Place Called Home",s:642}, {t:"Hushed Between the Heartbeats",s:788}, {t:"No Yesterday, No Tomorrow",s:979}, {t:"Unwritten Roads",s:1189}, {t:"Shadows of Unspoken Tomorrows",s:1395}, {t:"Where the River Knows",s:1617}, {t:"Woven in the Wind",s:1820}, {t:"Echoes of the Unseen",s:2040}, {t:"Where the River Knows No Name",s:2242}],
+  "81": [{t:"Celestial Beginnings",s:0}, {t:"Urban Reverie",s:169}, {t:"Twilight Conversations",s:349}, {t:"Blue Heart Soliloguy",s:541}, {t:"Melody of Embrace",s:721}, {t:"Rhythms of Destiny",s:935}, {t:"Nocturne of Reflection",s:1087}, {t:"Whispers of the Infinite",s:1296}, {t:"Serenade of the Soul",s:1468}, {t:"Harmonic Truth",s:1663}, {t:"Echoes of Unbound Love",s:1825}, {t:"Dawn of Renewal",s:2000}],
+  "82": [{t:"Echoes Beyond the Veil",s:0}, {t:"Dawn of Awakening",s:211}, {t:"Ebbing Shadows",s:431}, {t:"Currents of Connection",s:642}, {t:"Mirrors of the Soul",s:863}, {t:"Fragments of Destiny",s:1045}, {t:"Interwoven Fates",s:1237}, {t:"Embers of Reflection",s:1476}, {t:"Resonance of the Heart",s:1697}, {t:"Infinite Embrace",s:1890}, {t:"Clarity in the Silence",s:2069}, {t:"Transcendental Horizon",s:2274}],
+  "83": [{t:"Echoes of a Timeless Heart",s:0}, {t:"Underneath the Lantern Glow",s:195}, {t:"Waves of Forgotten Tomorrows",s:387}, {t:"Silhouettes in Silent Rain",s:596}, {t:"The Space Between Our Words",s:795}, {t:"Beneath the Crescent Glow",s:1031}, {t:"Unfinished Letters",s:1226}, {t:"Autumn's Last Serenade",s:1429}, {t:"A Glimpse Beyond Time",s:1641}, {t:"Stillness Between Stars",s:1955}, {t:"The Weight of Unspoken Words",s:2172}, {t:"Where Time Stands Still",s:2498}],
+  "84": [{t:"Rhythms of Awakening",s:0}, {t:"Dancing with Destiny",s:227}, {t:"Eternal Echoes",s:390}, {t:"Waves of Unspoken Grace",s:590}, {t:"Symphony of the Heart's Voyage",s:777}, {t:"Melodies in the Midnight Light",s:967}, {t:"Embers of Unconditional Love",s:1112}, {t:"Pathways of Serendipity",s:1304}, {t:"Chords of Inner Clarity",s:1510}, {t:"Whispers of Timeless Hope",s:1691}, {t:"Reflections in a Gentle Breeze",s:1875}, {t:"Final Cadence of Renewal",s:2084}],
+  "85": [{t:"Dawn's Swinging Revelation",s:0}, {t:"Destiny's Rhythmic Dance",s:182}, {t:"Echoes of Timeless Swing",s:382}, {t:"Urban Pulse of Healing",s:664}, {t:"Swing of Unfolding Hearts",s:882}, {t:"Cadence of Inner Wisdom",s:1073}, {t:"Syncopated Journeys",s:1266}, {t:"Harmonic Convergence",s:1444}, {t:"Resonance of the Infinite",s:1657}, {t:"Swing of Serendipity",s:1879}, {t:"Unveiled Truths in Swing",s:2080}, {t:"Rebirth Beneath the Swing",s:2275}],
+  "86": [{t:"Lighthearted Improvisations",s:0}, {t:"Liveliness of the Moment",s:324}, {t:"Illusion of the Past",s:500}, {t:"Love is a Mystery",s:782}, {t:"Simplicity of Life",s:967}, {t:"Lost Dreams",s:1161}, {t:"Always Now",s:1401}, {t:"The Way Home",s:1575}, {t:"Everlasting Spring",s:1815}, {t:"Past Feelings",s:2048}, {t:"What Else, What Else",s:2288}, {t:"Such Is Life",s:2357}, {t:"Driving Without Destination",s:2579}, {t:"Minor Steps in Major Time",s:2770}, {t:"Highway to Silence",s:2922}, {t:"Moonlight Over Mulholland",s:3070}, {t:"Shadows on Melrose",s:3253}, {t:"Whispers from the Coast",s:3473}, {t:"The Coffee Was Jazz",s:3713}, {t:"Cool Breeze, Warm Soul",s:3884}],
+};
+
+function detlefRathmerJazzPage() {
+  const kachel = (id, label, tracks, desc, langs) => `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
+      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${id}?rel=0"
+          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
+      ${langs && langs.length ? `
+      <details style="padding:0.4rem 1rem 0.6rem;">
+        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
+          ▶ In ${langs.length} weiteren Sprachen
+        </summary>
+        <ul style="margin:0.4rem 0 0;padding-left:1.2rem;font-size:0.81rem;line-height:2;">
+          ${langs.map(l => `<li><a href="https://www.youtube.com/watch?v=${l.id}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${l.label}</a></li>`).join("")}
+        </ul>
+      </details>` : ""}
+      ${tracks && tracks.length ? `
+      <details style="padding:0.4rem 1rem 0.6rem;">
+        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
+          ▶ Alle ${tracks.length} Songs
+        </summary>
+        <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
+          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
+        </ol>
+      </details>` : ""}
+    </div>
+  `;
+
+  const jazzAlben = [
+    { id: "LcOU_Hn_yBo", num: "64", label: "Album 64 – Jazz of Eternal Reflections" },
+    { id: "pKnb8mB0Zfo", num: "65", label: "Album 65 – Jazz of the Soul’s Journey" },
+    { id: "UUV-PEfF_nM", num: "66", label: "Album 66 – Timeless Currents" },
+    { id: "k9cTNPdppLk", num: "67", label: "Album 67 – Jazz of Life’s Essence" },
+    { id: "h0sa7RYZM1E", num: "68", label: "Album 68 – Jazz of Infinite Horizons" },
+    { id: "BEWN4kSD0BY", num: "69", label: "Album 69 – Jazz of the Heart’s Journey" },
+    { id: "xPExswhyM14", num: "70", label: "Album 70 – Jazz of Serendipity" },
+    { id: "r00wftzVgB4", num: "71", label: "Album 71 – Jazz of Awakening" },
+    { id: "pD4nIBarcLM", num: "72", label: "Album 72 – Jazz of Timeless Whispers" },
+    { id: "bjuxx198edA", num: "73", label: "Album 73 – Jazz of Inner Light" },
+    { id: "jtN0f9j99Lc", num: "74", label: "Album 74 – Jazz of the Unwritten Path" },
+    { id: "HkzeR-6z428", num: "75", label: "Album 75 – Jazz of the Wandering Soul" },
+    { id: "4O3ukz_lkTM", num: "76", label: "Album 76 – Jazz & Healing Vibes", desc: "70 der schönsten Jazzkompositionen von Detlef Rathmer – eine 3¾-stündige Reise durch Klang und Wohlbefinden." },
+    { id: "BIVoUgrInEY", num: "77", label: "Album 77 – Jazz of the Eternal Flow" },
+    { id: "jwaiY-XAICw", num: "78", label: "Album 78 – Jazz of Destiny’s Flow" },
+    { id: "vHzAIXpkOro", num: "79", label: "Album 79 – Jazz of the Unfolding Mystery" },
+    { id: "71n7_wtBpRw", num: "80", label: "Album 80 – Jazz of Sacred Moments" },
+    { id: "2H8AeBJiD1Q", num: "81", label: "Album 81 – Jazz of Life’s Symphony" },
+    { id: "VL5UoR4u-b4", num: "82", label: "Album 82 – Jazz of Sacred Frequencies" },
+    { id: "lpaiPZmq3cM", num: "83", label: "Album 83 – Jazz of Hidden Truth" },
+    { id: "NE7kqSM1PGU", num: "84", label: "Album 84 – Jazz of Vital Resonance" },
+    { id: "1AGJ32cw6lI", num: "85", label: "Album 85 – Swinging Jazz of Cosmic Clarity" },
+    { id: "LlqDcFqqm8I", num: "86", label: "Album 86 – Spirit of 1950s West Coast Jazz" },
+    { id: "U5CgE4r9G9c", num: "87", label: "Album 87 – Spirit of 1920s New Orleans Jazz (Dixieland)", desc: "Mitreißende Klarinetten, Trompeten und Posaunen im Dixieland-Stil des frühen New-Orleans-Jazz." },
+    { id: "MC-fXn94Nv0", label: "Album 88 – Spirit of 1930s Energetic Swing Jazz", desc: "Mitreißende Big-Band-Klänge und tanzbare Rhythmen des Swing-Jazz der 1930er Jahre." },
+    { id: "GInMSoLraG0", num: "89", label: "Album 89 – Spirit of 1940s Fast-paced Bebop Jazz", desc: "Rasanter Bebop mit komplexen Harmonien und virtuosen Soli – Jazz der 1940er in seiner schnellsten Form." },
+    { id: "Vnre_ymfs3Y", label: "Album 90 – Spirit of 1950s Smooth Cool Jazz", desc: "Sanfte Melodien und weiche Bläser im Stil des Cool Jazz der 1950er – entspannt und stilvoll." },
+    { id: "-MK_u80PKWw", label: "Album 91 – Spirit of Lively Latin Jazz", desc: "Lateinamerikanische Rhythmen treffen auf Jazz-Improvisation – kubanische und brasilianische Einflüsse." },
+    { id: "ddD6oSU_I_4", label: "Album 92 – Spirit of Meditative Modal Jazz", desc: "Modaler Jazz mit wenigen Harmoniewechseln und viel Tiefe – meditativ und frei in der Improvisation." },
+    { id: "uoDD_45vCgU", label: "Album 93 – Spirit of Relaxing Lo-Fi Jazz", desc: "Entspannter Lo-Fi-Jazz mit weichen Beats und nostalgischem Klang – ideal zum Lernen, Arbeiten oder Entspannen." },
+    { id: "IaxD4i3ZIUo", num: "94", label: "Album 94 – Lo-Fi Jazz of the Unwritten Language of Life" },
+    { id: "5d-jXATn2Lk", num: "95", label: "Album 95 – Jazz of Gravity and Grace" },
+    { id: "xIIbqGrQB_U", label: "Album 96 – Jazz of Echoes Beyond the Form", desc: "Klangreisen jenseits der Form – Jazz als Spiegel des Unausgesprochenen und Fluss des inneren Nachhalls." },
+    { id: "BDyzUXBdy-o", num: "97", label: "Album 97 – Jazz of Inner Stillness (Lo-fi, Bossanova)" },
+    { id: "g8k8nzvnTSo", label: "Album 98 – Jazz of the Spiritual Flow", desc: "Lo-fi, Bossa und Swing im Fluss des Spirituellen – Musik für tiefe Stille und innere Weite." },
+    { id: "jw9n6Dccr7M", num: "99", label: "Album 99 – Jazz of Cosmic Law (Lo-fi, Swing Jazz)" },
+    { id: "5AYWhg50bnw", label: "Album 100 – Jazz XXI – 21st Century Jazz", desc: "Lo-fi, Swing und Nordic Jazz des 21. Jahrhunderts – zeitgenössischer Jazz zwischen Stille und Energie." },
+    { id: "ku-pxWpNCZc", num: "101", label: "Album 101 – Stillness in the Shifting Sky (Nordic Jazz)" },
+    { id: "4firu1KRKIk", label: "Album 102 – Breath of the Unseen (Nordic Jazz)", desc: "Nordischer Jazz mit Atem und Weite – Musik für das Unsichtbare zwischen den Tönen." },
+  ];
+
+  const enneagrammAlben = [
+    { id: "J0Vq9I81i-Q", num: "14", label: "Album 14 – Irish Folk & Enneagram (English)" },
+    { id: "OUQ5-VXvK7M", num: "15", label: "Album 15 – Bossa Nova & Enneagramm (Português)" },
+    { id: "59S6PAWebZ8", num: "16", label: "Album 16 – Bossa Nova & Enneagram (English)" },
+    { id: "T057IXeqDG4", num: "17", label: "Album 17 – Bossa Nova & Enneagramm (Deutsch)" },
+    { id: "2qaItk2k21s", num: "18", label: "Album 18 – Love Ballads & Enneagram" },
+    { id: "LoUJ6097Als", num: "19", label: "Album 19 – Classical Music & Enneagram" },
+    { id: "LSpTS9uSeaM", num: "20", label: "Album 20 – R&B Meets Enneagram" },
+    { id: "nwXeqwPDTr0", num: "21", label: "Album 21 – Reggae Meets Enneagram" },
+    { id: "7HFR5e_mS-E", num: "22", label: "Album 22 – Charming German Hits Meets Enneagram" },
+    { id: "QWeHHcDySkk", label: "Album 23 – Rap Meets Enneagram" },
+    { id: "mumR1QESNzQ", label: "Album 24 – Healing Music for Enneagram Type 1" },
+    { id: "6nCg7G-91Lc", label: "Album 25 – Healing Music for Enneagram Type 2" },
+    { id: "8SmbE-4Za_k", label: "Album 26 – Healing Music for Enneagram Type 3" },
+    { id: "R09IW7vjcxQ", label: "Album 27 – Healing Music for Enneagram Type 4" },
+    { id: "rzkLF6KDCFw", label: "Album 28 – Healing Music for Enneagram Type 5" },
+    { id: "rIfT6OQgOAU", label: "Album 29 – Healing Music for Enneagram Type 6" },
+    { id: "BVYOCZ6xMlA", label: "Album 30 – Healing Music for Enneagram Type 7" },
+    { id: "afuljgIKAOU", label: "Album 31 – Healing Music for Enneagram Type 8" },
+    { id: "prWKIp0Voq8", label: "Album 32 – Healing Music for Enneagram Type 9" },
+    { id: "HRAp3ECem00", label: "Album 46 – Healing Music for Soziale Vierer (SO4)" },
+    { id: "QogJd6km5W8", label: "Album 61 – Healing Music for Selbsterhaltende Neuner (SE9)" },
+  ];
+
+  const enneagrammSongs = [
+    { id: "UIs80tsNcmE", label: "Enneagramm-Hymne – Loblied auf die 9 Typen (Deutsch)" },
+    { id: "2li9BrwEdGo", label: "Enneagram Anthem – Hymn of Praise (English)" },
+    { id: "zQV3lWHeOWk", label: "Flammen des Lebens – Die Leidenschaften der 9 Typen (Deutsch)", desc: '' },
+    { id: "gfGQVCffmL0", label: "Flames of Life – The Passions of the 9 Types (English)", langs: [
+      { id: "bTNPBa2CCPQ", label: "Flammes de Vie (Français)" },
+      { id: "ccmZzNuGsQw", label: "Llamas de la Vida (Español)" },
+      { id: "t3elU2OR-P8", label: "Chamas da Vida (Português)" },
+      { id: "lwgNhlyj_Vs", label: "Fiamme della Vita (Italiano)" },
+      { id: "PCbcJQYfJPQ", label: "生命之火 (Mandarin-Chinesisch)" },
+      { id: "zhfEHpi7guY", label: "Огни жизни (Russisch)" },
+      { id: "TONsxxciVeM", label: "Вогонь життя (Ukrainisch)" },
+      { id: "ceWj_6bq5sY", label: "Hayatın Alevleri (Türkisch)" },
+      { id: "RWnOplcD-NM", label: "जीवन की ज्वाला (Hindi)" },
+    ]},
+    { id: "0wuNFvrDWgs", label: "27 Pfade – Song über die 27 Persönlichkeiten (Deutsch)" },
+    { id: "gKt5ewn7MY4", label: "27 Paths – Song About the 27 Personalities (English)" },
+    { id: "UiiJxzKg_8k", label: "Neun Wege – Jazz-Version" },
+    { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song (Deutsch)" },
+    { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song (English)" },
+    { id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" },
+    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie" },
+  ];
+
+  const spirituelleSongs = [
+    { id: "5IDHooCHCqc", label: "Album 35 – Masters of the Art of Living (18 Spiritual Songs)" },
+    { id: "KGl8HgGkOr0", label: "True Love – A Song About True Love Beyond All Forms" },
+    { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
+    { id: "Jx5Do6FMZT0", label: "I Am the Light – What We Really, Truly Are" },
+    { id: "D8SJdoRG_qA", label: "Ich bin das Licht (Deutsch)" },
+    { id: "77_c82jSzKE", label: "Happiness – The Nature of Happiness Beyond All Ideas" },
+    { id: "lVFsolN5SEg", label: "Glück – Das Wesen des Glücks (Deutsch)" },
+    { id: "JWpnfwWLeAw", label: "The Meaning – The Profound Question of Life’s Purpose" },
+    { id: "FqQVnBwlPQE", label: "Der Sinn – Song über den Sinn des Lebens (Deutsch)" },
+    { id: "BjmK-rYIssY", label: "Peace Without a Reason" },
+    { id: "IbqquR7wrOM", label: "Two Sides of a Coin – The Polarities of Life" },
+    { id: "yeFTF6ORXM0", label: "Circle of Truth" },
+  ];
+
+  const liebeslieder = [
+    { id: "vqtriJwS9So", label: "1. Wenn du bei mir bist" },
+    { id: "rCbdd7DbWfw", label: "2. Hinter deinen Schatten" },
+    { id: "fmabw2nvHvI", label: "3. Was bleibt von uns" },
+    { id: "tAzZV6z8nL8", label: "4. So fühlt sich Ewigkeit an" },
+    { id: "6CSq2mRUJiE", label: "5. Zwischen den Zeilen" },
+    { id: "-elL4ahOCOI", label: "6. Dein Licht in mir" },
+    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
+    { id: "i4GxkTdlPCk", label: "8. Für immer und ein Tag" },
+    { id: "c2CcthcXRxc", label: "9. Flügel aus Licht" },
+  ];
+
+  const grid = (items, tracksMap) => `
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-top:1rem;">
+      ${items.map(a => kachel(a.id, a.label, a.num ? (tracksMap || JAZZ_TRACKS)[a.num] : null, a.desc || null, a.langs || null)).join("")}
+    </div>
+  `;
+
+  return shell(`
+    ${pageHeader("detlef-rathmer-jazz")}
+    <div class="section-content">
+
+      <p style="font-size:1.05rem;line-height:1.7;margin-bottom:1.5rem;">
+        Über 32 Jahre habe ich Menschen an Volkshochschulen im Bereich der Homöopathie,
+        aber auch im Bereich Gitarre unterrichtet – und während all dieser Zeit begleitete mich
+        die Musik auch privat immer wieder. Auf dieser Seite finden Sie meine Jazz-Alben,
+        meine Enneagramm-Songs und spirituelle Lieder – alles, was ich über die Jahre
+        komponiert und aufgenommen habe.
+      </p>
+
+      <!-- Abschnitts-Navigation -->
+      <nav id="dr-top" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2.5rem;">
+        <button onclick="document.getElementById('dr-jazz').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Jazz-Alben</button>
+        <button onclick="document.getElementById('dr-enn-alben').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Alben</button>
+        <button onclick="document.getElementById('dr-enn-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Songs</button>
+        <button onclick="document.getElementById('dr-spirituell').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Spirituelle Songs</button>
+        <button onclick="document.getElementById('dr-liebe').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Liebeslieder</button>
+      </nav>
+
+      <h2 id="dr-jazz" style="margin-top:0;margin-bottom:0.3rem;">Jazz-Alben</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        30 Jazz-Alben zum Entspannen und Heilen – Kanal:
+        <a href="https://www.youtube.com/@SOULFULJAZZHIGHERVIBES/videos" target="_blank" rel="noopener"
+           style="color:var(--copper);">@SOULFULJAZZHIGHERVIBES</a>
+      </p>
+      ${grid(jazzAlben)}
+      <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
+
+      <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Entspannungs- und Heilungsmusik für alle 9 Enneagrammtypen sowie thematische Alben.
+      </p>
+      ${grid(enneagrammAlben, ENNEA_TRACKS)}
+      <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
+
+      <h2 id="dr-enn-songs" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Songs</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Einzelne Lieder rund um das Enneagramm – zum Mitsingen und Nachdenken.
+        Die Homöopathie-Songs finden Sie auf der eigenen Seite
+        <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Homöopathie & Songs</a>.
+      </p>
+      ${grid(enneagrammSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
+
+      <h2 id="dr-spirituell" style="margin-top:3rem;margin-bottom:0.3rem;">Spirituelle Songs</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
+      </p>
+      ${grid(spirituelleSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
+
+      <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        9 Liebeslieder – auch auf Spotify erhältlich.
+      </p>
+      ${grid(liebeslieder)}
+
+      ${relatedLinks([
+        { route: "homoeopathie-songs", label: "Homöopathie- und Enneagramm-Homöopathie-Songs" },
+        { route: "musik", label: "Entspannungs- und Heilungsmusik" },
+        { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
+      ])}
+    </div>
+  `);
+}
 
 function homoeopathieSongsPage() {
   const songs = [
@@ -30045,6 +30383,7 @@ function render() {
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
     "homoeopathie-songs": homoeopathieSongsPage,
+    "detlef-rathmer-jazz": detlefRathmerJazzPage,
     "beruhmte-komponisten": berühmteKomponistenPage,
     "portrait-typ-1": portraitTyp1Page,
     "portrait-typ-2": portraitTyp2Page,
@@ -30060,6 +30399,7 @@ function render() {
     zitate: zitatePage,
     "gaslighting-enneagramm": gaslightingPage,
     "bedeutung-27-subtypen": bedeutungSubtypenPage,
+    "dynamik-der-typen": dynamikDerTypenPage,
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
