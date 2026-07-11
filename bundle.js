@@ -24271,8 +24271,8 @@ function davidRathmerFuehrungPage() {
     "David L. Rathmer ist Begründer des Enneagramm-Profilings für Führungskräfte und Unternehmen. In diesen Videos zeigt er, wie das Enneagramm im Business-Kontext wirkt — von Mitarbeiterführung über Teamdynamik bis zur Persönlichkeitsanalyse im Unternehmen.",
     [
       { titel: "Mitarbeiterführung & Enneagramm", videos: [
-        { id: "PLATZHALTER_1", label: "Video 1 – Titel folgt" },
-        { id: "PLATZHALTER_2", label: "Video 2 – Titel folgt" },
+        { id: "Zj9RXScwEPY", label: "Enneagramm-Profiling für Führungskräfte" },
+        { id: "DQ3zIJWTUpw", label: "Profiler erklärt: So liest du Menschen richtig – wer vor dir sitzt" },
       ]},
       { titel: "Enneagramm-Profiling im Unternehmen", videos: [
         { id: "PLATZHALTER_3", label: "Video 3 – Titel folgt" },
