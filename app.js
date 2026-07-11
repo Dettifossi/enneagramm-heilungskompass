@@ -1295,12 +1295,19 @@ function bookTip(buchId, teaser, title) {
 
 function relatedLinks(links) {
   if (!links || !links.length) return "";
+  const ALBUM_KEYS = ["jazz", "musik", "stille", "songs", "lieder", "alben", "homoeopathie-songs"];
+  const isAlbum = r => ALBUM_KEYS.some(k => r.includes(k));
+  const hasAlbum = links.some(l => isAlbum(l.route));
+  const hasOverview = links.some(l => !isAlbum(l.route));
+  const heading = hasAlbum && hasOverview ? "\xc4hnliche \xdcbersichten und Alben"
+                : hasAlbum                ? "\xc4hnliche Alben"
+                :                          "\xc4hnliche \xdcbersichten";
   const buttons = links.map(({route, label}) =>
     `<button data-route="${route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${label} &#8594;</button>`
   ).join("");
   return `
     <div style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border);">
-      <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .6rem;">&#10022;&nbsp;\xc4hnliche \xdcbersichten</p>
+      <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .6rem;">&#10022;&nbsp;${heading}</p>
       <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${buttons}</div>
     </div>
   `;
