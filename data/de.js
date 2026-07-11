@@ -2304,6 +2304,7 @@ export const uiText = {
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
+      { route: "homoeopathie-songs", label: "Enneagramm, Homöopathie & Songs" },
       { route: "beruhmte-philosophen", label: "Berühmte Philosophen" },
       { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypen" },
       { route: "beziehungen-schaubild", label: "Beziehungen" },

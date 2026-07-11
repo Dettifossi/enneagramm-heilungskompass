@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -4849,6 +4849,32 @@ function portraitTyp6Page() { return _portraitTypPage(PORTRAIT_TYPEN[5]); }
 function portraitTyp7Page() { return _portraitTypPage(PORTRAIT_TYPEN[6]); }
 function portraitTyp8Page() { return _portraitTypPage(PORTRAIT_TYPEN[7]); }
 function portraitTyp9Page() { return _portraitTypPage(PORTRAIT_TYPEN[8]); }
+
+
+function homoeopathieSongsPage() {
+  return shell(`
+    ${pageHeader("homoeopathie-songs")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder &middot; Homöopathie &middot; Musik</p>
+      <h1>Enneagramm, Homöopathie &amp; Songs</h1>
+      <p class="lead-small">Dieses Schaubild verbindet drei Welten: das Enneagramm als Karte der Persönlichkeit, die Homöopathie als Weg zur Heilung auf tiefen Schichten &ndash; und Songs als Spiegel der seelischen Zustände. Musik erreicht uns dort, wo Worte enden. Homöopathische Mittel wirken auf denselben Ebenen. Das Enneagramm zeigt, warum.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
+             alt="Enneagramm, Homöopathie &amp; Songs"
+             class="psycho-img" />
+      </div>
+
+      ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
+      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
+      ${relatedLinks([
+        {route:"musik",               label:"Entspannungs- und Heilungsmusik"},
+        {route:"solfeggio-frequenzen", label:"Die 9 Solfeggio-Frequenzen"},
+        {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
+      ])}
+    </section>
+  `);
+}
 
 function berühmteKomponistenPage() {
   return shell(`
@@ -29948,6 +29974,7 @@ function render() {
     "suche-nach-liebe": sucheNachLiebePage,
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
+    "homoeopathie-songs": homoeopathieSongsPage,
     "beruhmte-komponisten": berühmteKomponistenPage,
     "portrait-typ-1": portraitTyp1Page,
     "portrait-typ-2": portraitTyp2Page,
