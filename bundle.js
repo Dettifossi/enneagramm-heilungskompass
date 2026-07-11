@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24688,6 +24688,38 @@ function davidRathmerKriminalfaellePage() {
   );
 }
 
+function davidRathmerGrundlagenPage() {
+  const bt = [
+    bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe — Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1"),
+    bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich — wie sich die Subtypen eines Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms"),
+    bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit"),
+    bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen"),
+    bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt — inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung"),
+  ].join("");
+  return shell(`
+    ${pageHeader("david-rathmer-grundlagen")}
+    <section class="content-section">
+      <p class="eyebrow">David L. Rathmer · Wissen</p>
+      <h1 class="section-title">Enneagramm-Grundlagen</h1>
+      <p class="section-intro">David L. Rathmer erklärt die Grundbausteine des Enneagramms — von den neun Typen über die drei Zentren bis zu den Triaden. Ideal für alle, die das System von Grund auf verstehen wollen.</p>
+      <div class="video-card" style="margin-bottom:1.5rem;">
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagramm Typ 1 – Der Perfektionist – Kurzbeschreibung</div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/Oj5L0_6f7G4?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
+      ${relatedLinks([
+        {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
+        {route:"david-rathmer-impulse",            label:"Impulse & Einsichten"},
+        {route:"david-rathmer-persoenlichkeiten",  label:"Berühmte Persönlichkeiten"},
+      ])}
+    </section>
+  `);
+}
+
 function solfeggioFrequenzenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
 
@@ -29769,6 +29801,7 @@ function render() {
     "david-rathmer-erfolgsinterviews": davidRathmerErfolgsinterviewsPage,
     "david-rathmer-impulse": davidRathmerImpulsePage,
     "david-rathmer-kriminalfaelle": davidRathmerKriminalfaellePage,
+    "david-rathmer-grundlagen": davidRathmerGrundlagenPage,
     "solfeggio-frequenzen": solfeggioFrequenzenPage,
     "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,

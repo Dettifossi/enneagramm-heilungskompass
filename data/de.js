@@ -2464,6 +2464,7 @@ export const uiText = {
       { route: "david-rathmer-erfolgsinterviews",      label: "Erfolgsinterviews" },
       { route: "david-rathmer-impulse",               label: "Impulse & Einsichten" },
       { route: "david-rathmer-persoenlichkeiten",      label: "Berühmte Persönlichkeiten" },
+      { route: "david-rathmer-grundlagen",             label: "Enneagramm-Grundlagen" },
     ]},
   ],
   subtypePage: {
