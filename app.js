@@ -20,7 +20,7 @@ const TIER_KEY    = "enneagramm-kompass:tier";
 const NAME_KEY    = "enneagramm-kompass:lizenz-name";
 const PHOTO_KEY   = "enneagramm-kompass:user-photo";
 
-const KOMPASS_CODE = "KOMPASS-7743";
+const KOMPASS_CODE = "KOMPASS-19681291";
 
 function getUserPhoto()   { return localStorage.getItem(PHOTO_KEY) || ""; }
 function setUserPhoto(d) { try { localStorage.setItem(PHOTO_KEY, d); } catch(e) {} }
