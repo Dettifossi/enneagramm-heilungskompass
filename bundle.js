@@ -24695,6 +24695,7 @@ function davidRathmerGrundlagenPage() {
     bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit"),
     bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen"),
     bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt — inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung"),
+    bookTip("enneagramm-lexikon", "Das umfassendste Nachschlagewerk — alle Begriffe, Typen und Konzepte des Enneagramms von A bis Z.", "Rathmer's großes Enneagramm-Lexikon von A–Z"),
   ].join("");
   return shell(`
     ${pageHeader("david-rathmer-grundlagen")}
