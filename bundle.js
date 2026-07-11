@@ -24388,6 +24388,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "jJCUgSFPpsM", label: "Andrew Tate: Was steckt hinter seinem Verhalten? – Reaktion vom Profiler" },
         { id: "QzEfQ2M_wL8", label: "AnniTheDuck in der Tiefe erklärt – Was steckt hinter ihrem Verhalten?" },
         { id: "jr4Uk0y4NoI", label: "Profiler reagiert auf Tomatolix – „Diese Selbstexperimente musste ich abbrechen“" },
+        { id: "kCeWwTbC38I", label: "Marc Gebauer psychologisch erklärt!" },
       ]},
     ]
   );
