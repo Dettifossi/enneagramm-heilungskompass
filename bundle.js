@@ -24222,7 +24222,7 @@ function humorDer9TypenPage() {
 function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
   const videoCard = (v) => `
     <div style="margin-bottom:2rem;">
-      <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.label}</p>
+      ${v.titel ? `<p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.titel}${v.untertitel ? ' — ' + v.untertitel : ''}</p>` : v.label ? `<p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.label}</p>` : ''}
       <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
           src="https://www.youtube.com/embed/${v.id}?rel=0"
@@ -24306,9 +24306,23 @@ function davidRathmerErfolgsinterviewsPage() {
     "david-rathmer-erfolgsinterviews",
     "David L. Rathmer · Erfolgsinterviews",
     "Erfolgsinterviews",
-    "David L. Rathmer im Gespräch mit Unternehmern, Führungskräften und Persönlichkeiten â wie das Enneagramm in der Praxis wirkt und welche Erfolge durch Profiling entstehen.",
+    "David L. Rathmer im Gespräch mit Unternehmern, Führungskräften und Persönlichkeiten — wie das Enneagramm in der Praxis wirkt und welche Erfolge durch Profiling entstehen.",
     [
-      { titel: "Erfolgsinterviews", videos: [] },
+      { titel: "Erfolgsinterviews", videos: [
+        { id: "1cXW4E-2R3A", titel: "Interview 1: Keine Fehlbesetzungen dank Enneagramm-Profiling", untertitel: "Digistore24" },
+        { id: "WD8fThkCyWs", titel: "Interview 2: Kunden verstehen, Teams führen: Jörgs Resultate mit Profiling", untertitel: "" },
+        { id: "tWrlusgiGr4", titel: "Interview 3: Wie das Profiling Coaching, Verkauf und Beziehung verbessert", untertitel: "Kundeninterview mit Philip" },
+        { id: "EMocsifWclE", titel: "Interview 4: „Für JEDEN, der sich tiefgehend entwickeln möchte!“", untertitel: "Erfolgsinterview mit Daniel Scholz" },
+        { id: "I6EBy-bOmyI", titel: "Interview 5: „Wir können nicht mehr ohne dieses Wissen!“", untertitel: "Erfolgsinterview mit Raimund & Max" },
+        { id: "UxYnrQWLzgM", titel: "Interview 6: So profitieren Unternehmen durch Profiling", untertitel: "Erfolgsinterview mit Philip Hohn" },
+        { id: "JYVFhXC_VXM", titel: "Interview 7: Das mächtigste Tool in deinem Leben", untertitel: "Erfolgsinterview mit Angelika Sauer" },
+        { id: "zGdDhXEecyA", titel: "Interview 8: Wie wendet ein Vereinspräsident das Profiling an?", untertitel: "Erfolgsinterview mit Bastian" },
+        { id: "yIY_a2OTJ4s", titel: "Interview 9: „Typisieren heißt nicht gleich bewerten …“", untertitel: "Erfolgsinterview mit Simon Dornauer" },
+        { id: "IEjfGtWFnjQ", titel: "Interview 10: „Ich sehe die Welt jetzt mit anderen Augen.“", untertitel: "Erfolgsinterview mit Stefan Wittmann" },
+        { id: "jeiv9zBYeCA", titel: "Interview 11: „Per se sollte jede Führungskraft die RP-Methode können.“", untertitel: "Erfolgsinterview mit Nico Bückemeyer" },
+        { id: "Jutfgzmo7aM", titel: "Interview 12: „Ich habe volles Verständnis für mein Umfeld.“", untertitel: "Erfolgsinterview mit Tobias Klamm" },
+        { id: "rgYZio4l8Ro", titel: "Interview 13: „Die erfolgreichsten Monate unserer Unternehmensgeschichte.“", untertitel: "Erfolgsinterview mit Simon Schwarze" },
+      ]},
     ]
   );
 }
