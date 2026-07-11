@@ -4897,7 +4897,7 @@ function homoeopathieSongsPage() {
         <span style="font-size:3rem;">&#127925;</span>
         <p style="margin:0;font-size:0.85rem;color:rgba(255,255,255,0.7);text-align:center;">Audio-only · ca. 3:51 Min.</p>
         <audio controls style="width:100%;max-width:380px;">
-          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/homoeopathie-song-25-bairisch.wav" type="audio/wav">
+          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/homoeopathie-song-25-bairisch-mp3.mp3" type="audio/mpeg">
         </audio>
       </div>
     </div>
