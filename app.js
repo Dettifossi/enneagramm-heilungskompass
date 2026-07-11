@@ -24390,6 +24390,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "jr4Uk0y4NoI", label: "Profiler reagiert auf Tomatolix – „Diese Selbstexperimente musste ich abbrechen“" },
         { id: "kCeWwTbC38I", label: "Marc Gebauer psychologisch erklärt!" },
         { id: "RenXmYRwdps", label: "Jeremy Fragrance - Verhaltensweisen in der Tiefe erklärt - Reaktion vom Profiler" },
+        { id: "dYs0myM02ec", label: "Profiler reagiert auf ApoRed - „Ich zeige euch ALLES! Auto, Wohnung..." },
       ]},
     ]
   );
