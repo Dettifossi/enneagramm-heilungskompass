@@ -24319,6 +24319,15 @@ function davidRathmerFuehrungPage() {
         </div>
       </div>
       ${bt}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Der geheime Hebel im Kundenkontakt: So durchschaust Du deine Kunden</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/JHi_XKSS_Fo?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
       ${relatedLinks([
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
         {route:"david-rathmer-impulse",           label:"Impulse & Einsichten"},
