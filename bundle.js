@@ -5085,7 +5085,6 @@ function detlefRathmerJazzPage() {
     { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song (Deutsch)" },
     { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song (English)" },
     { id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" },
-    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie" },
   ];
 
 const SPIRITUELL_TRACKS = {
@@ -5113,6 +5112,7 @@ const SPIRITUELL_TRACKS = {
 
   const spirituelleSongs = [
     { id: "5IDHooCHCqc", num: "35", label: "Album 35 – Masters of the Art of Living (18 Spiritual Songs)" },
+    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie" },
     { id: "KGl8HgGkOr0", label: "True Love – A Song About True Love Beyond All Forms" },
     { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
     { id: "Jx5Do6FMZT0", label: "I Am the Light – What We Really, Truly Are" },
