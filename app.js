@@ -24372,6 +24372,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
