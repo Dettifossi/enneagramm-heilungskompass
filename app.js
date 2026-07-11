@@ -24275,7 +24275,7 @@ function davidRathmerFuehrungPage() {
         { id: "DQ3zIJWTUpw", label: "Profiler erklärt: So liest du Menschen richtig – wer vor dir sitzt" },
       ]},
       { titel: "Enneagramm-Profiling im Unternehmen", videos: [
-        { id: "r3y-b4F1Bf0", label: "Video 3 – Enneagramm-Profiling im Unternehmen" },
+        { id: "r3y-b4F1Bf0", label: "Warum Digistore24 auf Profiling setzt | Ein Blick hinter die Kulissen" },
       ]},
     ]
   );
