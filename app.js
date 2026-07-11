@@ -24381,6 +24381,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "XnS_8QaUL8Y", label: "Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein" },
         { id: "tk05kjDO1JA", label: "Episode 7: Persönlichkeitsanalyse von Elon Musk" },
         { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Warum Freunde zu Feinden wurden | Profiling-Analyse" },
+        { id: "CHQsVdYZ_eo", label: "Jordan Peterson: Was ihn in Diskussionen unschlagbar macht – Profiler reagiert …" },
       ]},
     ]
   );
