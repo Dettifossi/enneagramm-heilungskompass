@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24256,8 +24256,8 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
       ${katHTML}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
+        {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
         {route:"david-rathmer-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
-        {route:"david-rathmer-kriminalfaelle",    label:"Kriminalfälle"},
       ].filter(l => l.route !== routeSlug))}
     </section>
   `);
@@ -24297,6 +24297,18 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "XnS_8QaUL8Y", label: "Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein" },
         { id: "tk05kjDO1JA", label: "Episode 7: Persönlichkeitsanalyse von Elon Musk" },
       ]},
+    ]
+  );
+}
+
+function davidRathmerErfolgsinterviewsPage() {
+  return _davidVideoPage(
+    "david-rathmer-erfolgsinterviews",
+    "David L. Rathmer · Erfolgsinterviews",
+    "Erfolgsinterviews",
+    "David L. Rathmer im Gespräch mit Unternehmern, Führungskräften und Persönlichkeiten â wie das Enneagramm in der Praxis wirkt und welche Erfolge durch Profiling entstehen.",
+    [
+      { titel: "Erfolgsinterviews", videos: [] },
     ]
   );
 }
@@ -29393,6 +29405,7 @@ function render() {
     "humor-der-9-typen": humorDer9TypenPage,
     "david-rathmer-fuehrung": davidRathmerFuehrungPage,
     "david-rathmer-persoenlichkeiten": davidRathmerPersoenlichkeitenPage,
+    "david-rathmer-erfolgsinterviews": davidRathmerErfolgsinterviewsPage,
     "david-rathmer-kriminalfaelle": davidRathmerKriminalfaellePage,
     "solfeggio-frequenzen": solfeggioFrequenzenPage,
     "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,
