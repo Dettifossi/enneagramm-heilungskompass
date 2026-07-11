@@ -4968,6 +4968,15 @@ function portraitsWegbegleiterPage() {
       </div>
 
       ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Die Wahrheit über Schubladendenken im Profiling: Ein tieferer Blick hinter die Fassade</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/hv8wVIBNMmU?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
         {route:"wer-wir-sind", label:"Wer wir sind"},
