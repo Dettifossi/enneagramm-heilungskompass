@@ -24513,6 +24513,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
+      ${bookTip("hinter-der-leidenschaft", "Die verborgenen Körpermuster der 27 Subtypen – wo Leidenschaft sich im Körper einschreibt.", "Hinter der Leidenschaft")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
