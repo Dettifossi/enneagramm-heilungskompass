@@ -24276,6 +24276,7 @@ function davidRathmerFuehrungPage() {
       ]},
       { titel: "Enneagramm-Profiling im Unternehmen", videos: [
         { id: "r3y-b4F1Bf0", label: "Warum Digistore24 auf Profiling setzt | Ein Blick hinter die Kulissen" },
+        { id: "bbPofC84J2M", label: "Remote Leadership: So machst Du dein Team im Homeoffice wirklich produktiv" },
       ]},
     ]
   );
