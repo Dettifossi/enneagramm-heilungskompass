@@ -5172,6 +5172,7 @@ const SPIRITUELL_TRACKS = {
            style="color:var(--copper);">@SOULFULJAZZHIGHERVIBES</a>
       </p>
       ${grid(jazzAlben)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
@@ -5179,6 +5180,7 @@ const SPIRITUELL_TRACKS = {
         Entspannungs- und Heilungsmusik für alle 9 Enneagrammtypen sowie thematische Alben.
       </p>
       ${grid(enneagrammAlben, ENNEA_TRACKS)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-enn-songs" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Songs</h2>
@@ -5188,6 +5190,7 @@ const SPIRITUELL_TRACKS = {
         <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Homöopathie & Songs</a>.
       </p>
       ${grid(enneagrammSongs)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-spirituell" style="margin-top:3rem;margin-bottom:0.3rem;">Spirituelle Songs</h2>
@@ -5202,6 +5205,7 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft – die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
@@ -5212,8 +5216,11 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("sprache-der-sexualitaet", "Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.", "Die Sprache unserer Sexualität")}
 
       ${relatedLinks([
-        { route: "homoeopathie-songs", label: "Homöopathie- und Enneagramm-Homöopathie-Songs" },
+        { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
+        { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
+        { route: "stille", label: "9 Minuten Stille" },
         { route: "musik", label: "Entspannungs- und Heilungsmusik" },
+        { route: "homoeopathie-songs", label: "Homöopathie- und Enneagramm-Homöopathie-Songs" },
         { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
       ])}
     </div>
@@ -28444,6 +28451,7 @@ function stillePage() {
         </div>
       </div>
     </section>
+    ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"musik",label:"Entspannungs- und Heilungsmusik"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"}])}
   `);
 }
 
@@ -29848,6 +29856,7 @@ function musikPage() {
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen — Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"stille",label:"9 Minuten Stille"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"}])}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
         <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Lieber in absoluter Stille?</p>
