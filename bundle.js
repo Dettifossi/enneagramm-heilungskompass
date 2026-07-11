@@ -3685,8 +3685,8 @@ function bindEvents() {
           card.innerHTML = `
             <div style="text-align:center;padding:1rem 0 .5rem;">
               <div style="font-size:2.5rem;margin-bottom:.75rem;">✅</div>
-              <h2 style="font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:.5rem;">Herzlich willkommen, ${name}!</h2>
-              <p style="font-size:1rem;line-height:1.7;margin-bottom:1.5rem;">Ihr Zugang zum <strong>Enneagramm-Heilungskompass</strong> wurde erfolgreich aktiviert. Sie haben jetzt Zugriff auf alle Inhalte.</p>
+              <h2 style="font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:.5rem;">Herzlich willkommen im Enneagramm-Heilungskompass!</h2>
+              <p style="font-size:1rem;line-height:1.7;margin-bottom:1.5rem;">Ihr Zugang zur <strong>Enneagramm-Heilungskompass-App</strong> wurde erfolgreich aktiviert. Sie haben jetzt Zugriff auf alle Inhalte.</p>
             </div>
             <div style="background:var(--surface,#f9f6f0);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1.25rem;text-align:left;">
               <p style="font-weight:700;font-size:.95rem;margin-bottom:.6rem;color:var(--ink);">📱 App auf den Homescreen legen</p>
