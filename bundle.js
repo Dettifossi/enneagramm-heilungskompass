@@ -1687,7 +1687,7 @@ function libraryPage() {
         <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">»Warum dein Enneagrammtyp<br>deine Gesundheit bestimmt«</h2>
         <p style="color:rgba(245,233,208,0.75);line-height:1.7;margin:0 0 1.8rem;font-size:0.97rem;max-width:560px;margin-left:auto;margin-right:auto;">Ein Gespräch über das Verlagsprogramm des Verlagshaus Rathmer — von Homöopathie über Enneagramm bis zum Weltfrieden. Was diese Bücher bewegen können und warum das Wissen über den eigenen Typ so vieles verändert.</p>
         <audio controls style="width:100%;max-width:560px;border-radius:6px;accent-color:#c4a456;margin-bottom:0.5rem;">
-          <source src="https://www.verlagshausrathmer.com/audio/interview-gesundheit.m4a" type="audio/mp4">
+          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/interview-gesundheit.mp4" type="audio/mp4">
           Ihr Browser unterstützt keinen Audio-Player.
         </audio>
         <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Laufzeit ca. 22 Minuten · Verlagshaus Rathmer</p>
