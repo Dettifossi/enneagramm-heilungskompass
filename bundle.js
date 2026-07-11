@@ -5220,7 +5220,7 @@ const SPIRITUELL_TRACKS = {
         9 Liebeslieder – auch auf Spotify erhältlich.
       </p>
       ${grid(liebeslieder)}
-      ${bookTip("sprache-der-sexualitaet", "Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.", "Die Sprache unserer Sexualität")}
+      ${bookTip("die-sprache-unserer-sexualitaet", "Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.", "Die Sprache unserer Sexualität")}
 
       ${relatedLinks([
         { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
