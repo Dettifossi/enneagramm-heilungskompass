@@ -4860,7 +4860,7 @@ function spirituelleUebungenPage() {
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-Übungen für den Alltag &ndash; der ideale Begleiter zu dieser Übersicht.", "7 Wege zu Dir selbst")}
+      ${bookTip("7-wege-zu-dir-selbst", "7 spirituelle Lebenskunst-Übungen für den Alltag &ndash; der ideale Begleiter zu dieser Übersicht.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
       ${relatedLinks([
         {route:"bewusstseinsuebungen", label:"Bewusstseinsübungen"},
@@ -5205,9 +5205,9 @@ const SPIRITUELL_TRACKS = {
         Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
       </p>
       ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
+      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
       ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft – die neun Wunden")}
@@ -24024,7 +24024,7 @@ function bewusstseinsuebungenPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Jeder spirituelle Entwicklungsvorgang beginnt bei Punkt 9 &ndash; der Pr\xe4senz. Ohne Bewusstheit als Grundlage ist alles nichts. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Das Buch zu diesen \xdcbungen &ndash; sieben spirituelle Lebenskunst-Schritte f\xfcr den Alltag.", "7 Wege zu Dir selbst")}
+        ${bookTip("7-wege-zu-dir-selbst", "Das Buch zu diesen \xdcbungen &ndash; sieben spirituelle Lebenskunst-Schritte f\xfcr den Alltag.", "7 Wege zu Dir selbst")}
         ${bookTip("heilung-als-erinnerung", "Heilung als R\xfcckkehr zur Pr\xe4senz &ndash; die spirituelle Dimension der inneren Arbeit.", "Heilung als Erinnerung")}
         ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite &ndash; die Tiefe jenseits der Pers\xf6nlichkeit.", "Nichts und Alles")}
         ${relatedLinks([
@@ -24345,7 +24345,7 @@ function identifikationPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Je enger die Identifikation, desto lauter das Muster. Je bewusster der Abstand, desto stiller wird es &ndash; und desto mehr wird der Mensch sichtbar, der dahinter war, bevor das Muster begann. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\xe4sst &ndash; ein medidatives Werk \xfcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+        ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\xe4sst &ndash; ein medidatives Werk \xfcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
         ${bookTip("nichts-und-alles", "Sein ohne Festhalten &ndash; ein stilles Buch \xfcber den Raum jenseits der Pers\xf6nlichkeit und die innere Weite, die entsteht, wenn wir aufh\xf6ren, uns zu de finieren.", "Nichts und Alles")}
         ${bookTip("hinter-der-leidenschaft", "Was hinter dem Muster steckt: die neun Wunden des Enneagramms und die Heilmittel, die an die Wurzel gehen.", "Hinter der Leidenschaft")}
         ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypen &ndash; aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
@@ -28444,9 +28444,9 @@ function stillePage() {
         Lege das Handy zur Seite. Ein Gong ertönt am Anfang und am Ende.
       </p>
 
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag &ndash; der ideale Begleiter zur täglichen Stille-Praxis.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag &ndash; der ideale Begleiter zur täglichen Stille-Praxis.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt &ndash; ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt &ndash; ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
         <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Lieber mit Musik?</p>
@@ -29860,9 +29860,9 @@ function musikPage() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
       </div>
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen — Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"stille",label:"9 Minuten Stille"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"}])}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
