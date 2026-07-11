@@ -5143,6 +5143,7 @@ const SPIRITUELL_TRACKS = {
     { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
     { id: "i4GxkTdlPCk", label: "8. Für immer und ein Tag" },
     { id: "c2CcthcXRxc", label: "9. Flügel aus Licht" },
+    { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "Ein Liebeslied für die neun Typen des Enneagramms – jeder Typ wird mit seiner ganz eigenen Lebensart, seiner Sehnsucht und seinem Weg zur Liebe besungen." },
   ];
 
   const grid = (items, tracksMap) => `
