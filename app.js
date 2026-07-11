@@ -5088,8 +5088,31 @@ function detlefRathmerJazzPage() {
     { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie" },
   ];
 
+const SPIRITUELL_TRACKS = {
+  "35": [
+    "Buddha's Song (Siddhartha Gautama)",
+    "Douglas' Song (Douglas Harding)",
+    "Epicurus' Song (Epikur von Samos)",
+    "Goethe's Song (Johann Wolfgang von Goethe)",
+    "Huang Po's Song (Pei Xiu)",
+    "Jesus Christ Song (Jeschua ha-Nozri)",
+    "Jiddu's Song (Jiddu Krishnamurti)",
+    "Lao Tzu's Song (Lī ʒr)",
+    "Marcus Aurelius' Song",
+    "Master Eckhart's Song (Eckhart von Hochheim)",
+    "Nisargadatta's Song (Nisargadatta Maharaj)",
+    "Osho's Song (Rajneesh Chandra Mohan Jain)",
+    "Ramana's Song (Venkataraman Iyer)",
+    "Ramesh's Song (Ramesh Sitaram Balsekar)",
+    "Rumi's Song (Dschalal ad-Din Muhammad Rumi)",
+    "Shankara's Song",
+    "Sokrates' Song",
+    "Spinoza's Song (Baruch de Spinoza)",
+  ],
+};
+
   const spirituelleSongs = [
-    { id: "5IDHooCHCqc", label: "Album 35 – Masters of the Art of Living (18 Spiritual Songs)" },
+    { id: "5IDHooCHCqc", num: "35", label: "Album 35 – Masters of the Art of Living (18 Spiritual Songs)" },
     { id: "KGl8HgGkOr0", label: "True Love – A Song About True Love Beyond All Forms" },
     { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
     { id: "Jx5Do6FMZT0", label: "I Am the Light – What We Really, Truly Are" },
@@ -5171,7 +5194,7 @@ function detlefRathmerJazzPage() {
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
         Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
       </p>
-      ${grid(spirituelleSongs)}
+      ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
