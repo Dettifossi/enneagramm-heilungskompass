@@ -24739,6 +24739,15 @@ function davidRathmerGrundlagenPage() {
         </div>
       </div>
       ${bt}
+      <div class="video-card" style="margin-bottom:1.5rem;">
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagramm Typ 5 – Der Forscher – Kurzbeschreibung</div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/nH6N85S0Fjk?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-impulse",            label:"Impulse & Einsichten"},
