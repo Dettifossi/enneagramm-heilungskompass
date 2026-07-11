@@ -24264,22 +24264,68 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
 }
 
 function davidRathmerFuehrungPage() {
-  return _davidVideoPage(
-    "david-rathmer-fuehrung",
-    "David L. Rathmer · Führung & Unternehmen",
-    "Führung & Unternehmen",
-    "David L. Rathmer ist Begründer des Enneagramm-Profilings für Führungskräfte und Unternehmen. In diesen Videos zeigt er, wie das Enneagramm im Business-Kontext wirkt — von Mitarbeiterführung über Teamdynamik bis zur Persönlichkeitsanalyse im Unternehmen.",
-    [
-      { titel: "Mitarbeiterführung & Enneagramm", videos: [
-        { id: "Zj9RXScwEPY", label: "Enneagramm-Profiling für Führungskräfte" },
-        { id: "DQ3zIJWTUpw", label: "Profiler erklärt: So liest du Menschen richtig – wer vor dir sitzt" },
-      ]},
-      { titel: "Enneagramm-Profiling im Unternehmen", videos: [
-        { id: "r3y-b4F1Bf0", label: "Warum Digistore24 auf Profiling setzt | Ein Blick hinter die Kulissen" },
-        { id: "bbPofC84J2M", label: "Remote Leadership: So machst Du dein Team im Homeoffice wirklich produktiv" },
-      ]},
-    ]
-  );
+  const bt = bookTip("fuehrung-mit-fundament", "Führungskräfte und Teams verstehen — das Enneagramm als Führungskompass.", "Führung mit Fundament");
+  return shell(`
+    ${pageHeader("david-rathmer-fuehrung")}
+    <section class="narrow">
+      <p class="eyebrow">David L. Rathmer · Führung & Unternehmen</p>
+      <h1>Führung &amp; Unternehmen</h1>
+      <p class="lead-small">David L. Rathmer ist Begründer des Enneagramm-Profilings für Führungskräfte und Unternehmen. In diesen Videos zeigt er, wie das Enneagramm im Business-Kontext wirkt — von Mitarbeiterführung über Teamdynamik bis zur Persönlichkeitsanalyse im Unternehmen.</p>
+      <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
+        <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          🌐 enneascholars.de
+        </a>
+        <a href="https://www.youtube.com/@davidlaurinrathmer" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--line);color:var(--ink);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          ▶ YouTube-Kanal
+        </a>
+      </div>
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:0 0 1.2rem;">Mitarbeiterführung &amp; Enneagramm</h2>
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Enneagramm-Profiling für Führungskräfte</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Profiler erklärt: So liest du Menschen richtig – wer vor dir sitzt</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:1.5rem 0 1.2rem;">Enneagramm-Profiling im Unternehmen</h2>
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Warum Digistore24 auf Profiling setzt | Ein Blick hinter die Kulissen</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/r3y-b4F1Bf0?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Remote Leadership: So machst Du dein Team im Homeoffice wirklich produktiv</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/bbPofC84J2M?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bt}
+      ${relatedLinks([
+        {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
+        {route:"david-rathmer-impulse",           label:"Impulse & Einsichten"},
+        {route:"david-rathmer-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+      ])}
+    </section>
+  `);
 }
 
 function davidRathmerPersoenlichkeitenPage() {
