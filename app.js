@@ -24322,6 +24322,7 @@ function davidRathmerErfolgsinterviewsPage() {
         { id: "jeiv9zBYeCA", titel: "Interview 11: „Per se sollte jede Führungskraft die RP-Methode können.“", untertitel: "Erfolgsinterview mit Nico Bückemeyer" },
         { id: "Jutfgzmo7aM", titel: "Interview 12: „Ich habe volles Verständnis für mein Umfeld.“", untertitel: "Erfolgsinterview mit Tobias Klamm" },
         { id: "rgYZio4l8Ro", titel: "Interview 13: „Die erfolgreichsten Monate unserer Unternehmensgeschichte.“", untertitel: "Erfolgsinterview mit Simon Schwarze" },
+        { id: "WB9UlyIktOE", titel: "Interview 14: „Das Business-Profiling hat das Unternehmertum revolutioniert!“", untertitel: "Erfolgsinterview mit Peter Misch" },
       ]},
     ]
   );
