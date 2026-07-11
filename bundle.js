@@ -24271,7 +24271,7 @@ function davidRathmerPersoenlichkeitenPage() {
     "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
     [
       { titel: "Ennea Exposed: Berühmte Persönlichkeiten", videos: [
-        { id: "LaWtvvpo-x8", label: "Ennea Exposed – Episode 1" },
+        { id: "LaWtvvpo-x8", label: "Episode 1: Persönlichkeitsanalyse von Wladimir Putin" },
       ]},
     ]
   );
