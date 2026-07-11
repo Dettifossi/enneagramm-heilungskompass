@@ -2459,6 +2459,11 @@ export const uiText = {
     ]},
     { route: "stille", label: "⏱ Stille" },
     { route: "musik",  label: "🎵 Entspannungs- und Heilungsmusik" },
+    { route: "david-rathmer", label: "▶ David L. Rathmer", dropdown: [
+      { route: "david-rathmer-fuehrung",               label: "Führung & Unternehmen" },
+      { route: "david-rathmer-persoenlichkeiten",      label: "Berühmte Persönlichkeiten" },
+      { route: "david-rathmer-kriminalfaelle",         label: "Kriminalfälle" },
+    ]},
   ],
   subtypePage: {
     back: "← Zur Wissensbasis",

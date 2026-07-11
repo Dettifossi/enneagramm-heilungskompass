@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24199,6 +24199,100 @@ function humorDer9TypenPage() {
   `);
 }
 
+// ── David L. Rathmer – Video-Seiten ──────────────────────────────────────────
+
+function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
+  const videoCard = (v) => `
+    <div style="margin-bottom:2rem;">
+      <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.label}</p>
+      <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${v.id}?rel=0"
+          allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>`;
+
+  const katHTML = kategorien.map(kat => `
+    <div style="margin-bottom:2.5rem;">
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:0 0 1.2rem;">${kat.titel}</h2>
+      ${kat.videos.map(videoCard).join("")}
+    </div>
+  `).join("");
+
+  return shell(`
+    ${pageHeader(routeSlug)}
+    <section class="narrow">
+      <p class="eyebrow">${eyebrow}</p>
+      <h1>${title}</h1>
+      <p class="lead-small">${intro}</p>
+      <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
+        <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          🌐 enneascholars.de
+        </a>
+        <a href="https://www.youtube.com/@davidlaurinrathmer" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--line);color:var(--ink);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          ▶ YouTube-Kanal
+        </a>
+      </div>
+      ${katHTML}
+      ${relatedLinks([
+        {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
+        {route:"david-rathmer-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        {route:"david-rathmer-kriminalfaelle",    label:"Kriminalfälle"},
+      ].filter(l => l.route !== routeSlug))}
+    </section>
+  `);
+}
+
+function davidRathmerFuehrungPage() {
+  return _davidVideoPage(
+    "david-rathmer-fuehrung",
+    "David L. Rathmer · Führung & Unternehmen",
+    "Führung & Unternehmen",
+    "David L. Rathmer ist Begründer des Enneagramm-Profilings für Führungskräfte und Unternehmen. In diesen Videos zeigt er, wie das Enneagramm im Business-Kontext wirkt — von Mitarbeiterführung über Teamdynamik bis zur Persönlichkeitsanalyse im Unternehmen.",
+    [
+      { titel: "Mitarbeiterführung & Enneagramm", videos: [
+        { id: "PLATZHALTER_1", label: "Video 1 – Titel folgt" },
+        { id: "PLATZHALTER_2", label: "Video 2 – Titel folgt" },
+      ]},
+      { titel: "Enneagramm-Profiling im Unternehmen", videos: [
+        { id: "PLATZHALTER_3", label: "Video 3 – Titel folgt" },
+      ]},
+    ]
+  );
+}
+
+function davidRathmerPersoenlichkeitenPage() {
+  return _davidVideoPage(
+    "david-rathmer-persoenlichkeiten",
+    "David L. Rathmer · Berühmte Persönlichkeiten",
+    "Berühmte Persönlichkeiten",
+    "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
+    [
+      { titel: "Persönlichkeitsanalysen", videos: [
+        { id: "PLATZHALTER_4", label: "Video 1 – Titel folgt" },
+        { id: "PLATZHALTER_5", label: "Video 2 – Titel folgt" },
+      ]},
+    ]
+  );
+}
+
+function davidRathmerKriminalfaellePage() {
+  return _davidVideoPage(
+    "david-rathmer-kriminalfaelle",
+    "David L. Rathmer · Kriminalfälle",
+    "Kriminalfälle",
+    "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypen.",
+    [
+      { titel: "Täterprofile & Hintergründe", videos: [
+        { id: "PLATZHALTER_6", label: "Video 1 – Titel folgt" },
+        { id: "PLATZHALTER_7", label: "Video 2 – Titel folgt" },
+      ]},
+    ]
+  );
+}
+
 function solfeggioFrequenzenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
 
@@ -29259,6 +29353,9 @@ function render() {
     "limericks": limericksPage,
     "haiku-der-9-typen": haikuDer9TypenPage,
     "humor-der-9-typen": humorDer9TypenPage,
+    "david-rathmer-fuehrung": davidRathmerFuehrungPage,
+    "david-rathmer-persoenlichkeiten": davidRathmerPersoenlichkeitenPage,
+    "david-rathmer-kriminalfaelle": davidRathmerKriminalfaellePage,
     "solfeggio-frequenzen": solfeggioFrequenzenPage,
     "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,
     "beziehungen-schaubild": beziehungenSchaubildPage,
