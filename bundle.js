@@ -24275,7 +24275,7 @@ function davidRathmerFuehrungPage() {
         { id: "DQ3zIJWTUpw", label: "Profiler erklärt: So liest du Menschen richtig – wer vor dir sitzt" },
       ]},
       { titel: "Enneagramm-Profiling im Unternehmen", videos: [
-        { id: "PLATZHALTER_3", label: "Video 3 – Titel folgt" },
+        { id: "r3y-b4F1Bf0", label: "Video 3 – Enneagramm-Profiling im Unternehmen" },
       ]},
     ]
   );
