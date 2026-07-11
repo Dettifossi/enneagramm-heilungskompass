@@ -24385,6 +24385,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "N-gMMS2SMBk", label: "Profiler exposed Taddl – Was steckt hinter seinem Image?" },
         { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
         { id: "If5jZpTLUac", label: "Til Schweiger: Was ihn als Filmemacher einzigartig macht – Profiler reagiert …" },
+        { id: "jJCUgSFPpsM", label: "Andrew Tate: Was steckt hinter seinem Verhalten? – Reaktion vom Profiler" },
       ]},
     ]
   );
