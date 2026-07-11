@@ -4852,17 +4852,36 @@ function portraitTyp9Page() { return _portraitTypPage(PORTRAIT_TYPEN[8]); }
 
 
 function homoeopathieSongsPage() {
+  const songs = [
+    // Songs werden hier eingetragen
+  ];
+
+  const songKacheln = songs.map(s => `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.4rem;font-size:0.82rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.08em;">${s.label}</p>
+      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${s.id}?rel=0"
+          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  `).join("");
+
   return shell(`
     ${pageHeader("homoeopathie-songs")}
     <section class="narrow">
-      <p class="eyebrow">Schaubilder &middot; Homöopathie &middot; Musik</p>
-      <h1>Enneagramm, Homöopathie &amp; Songs</h1>
-      <p class="lead-small">Dieses Schaubild verbindet drei Welten: das Enneagramm als Karte der Persönlichkeit, die Homöopathie als Weg zur Heilung auf tiefen Schichten &ndash; und Songs als Spiegel der seelischen Zustände. Musik erreicht uns dort, wo Worte enden. Homöopathische Mittel wirken auf denselben Ebenen. Das Enneagramm zeigt, warum.</p>
+      <p class="eyebrow">Schaubilder · Homöopathie · Musik</p>
+      <h1>Enneagramm-Homöopathie-Songs</h1>
+      <p class="lead-small"><strong>Enneagramm-Homöopathie</strong> verbindet zwei Ebenen: das Persönlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Homöopathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grundängste – diese inneren Dynamiken prägen nicht nur die Psyche, sondern oft auch körperliche Beschwerden. Die Songs spiegeln diese seelischen Qualitäten und machen sie hörbar.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
-             alt="Enneagramm, Homöopathie &amp; Songs"
+             alt="Enneagramm-Homöopathie-Songs"
              class="psycho-img" />
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;margin-top:2rem;">
+        ${songKacheln}
       </div>
 
       ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
