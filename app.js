@@ -24355,6 +24355,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
+      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt &ndash; Burnout")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Tipps, um nie wieder getäuscht zu werden!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -24371,7 +24372,6 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt &ndash; Burnout")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
