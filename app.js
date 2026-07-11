@@ -5208,7 +5208,7 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
-      ${bookTip("sei-still-und-wisse", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft – die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
