@@ -24456,6 +24456,15 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen")}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Warum Du dich ständig leer fühlst – ohne zu wissen, warum</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/2oq3buWKEt4?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
