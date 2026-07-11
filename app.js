@@ -5209,6 +5209,7 @@ const SPIRITUELL_TRACKS = {
         9 Liebeslieder – auch auf Spotify erhältlich.
       </p>
       ${grid(liebeslieder)}
+      ${bookTip("sprache-der-sexualitaet", "Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.", "Die Sprache unserer Sexualität")}
 
       ${relatedLinks([
         { route: "homoeopathie-songs", label: "Homöopathie- und Enneagramm-Homöopathie-Songs" },
