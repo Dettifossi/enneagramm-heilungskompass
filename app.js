@@ -4924,6 +4924,10 @@ function homoeopathieSongsPage() {
         ${song25}
       </div>
 
+      ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten homöopathischen Arzneimittel – über 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
       ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
       ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
