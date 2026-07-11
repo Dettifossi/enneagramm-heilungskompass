@@ -24386,6 +24386,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
         { id: "If5jZpTLUac", label: "Til Schweiger: Was ihn als Filmemacher einzigartig macht – Profiler reagiert …" },
         { id: "jJCUgSFPpsM", label: "Andrew Tate: Was steckt hinter seinem Verhalten? – Reaktion vom Profiler" },
+        { id: "QzEfQ2M_wL8", label: "AnniTheDuck in der Tiefe erklärt – Was steckt hinter ihrem Verhalten?" },
       ]},
     ]
   );
