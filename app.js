@@ -14199,12 +14199,12 @@ function vincenzoPeruggiaPortraitPage() {
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Vincenzo Peruggia</strong> wird dem <strong>Sozialen Typ 3 mit Vierfl\xfcgel</strong>
+        <strong>Vincenzo Peruggia</strong> wird dem <strong>Sozialen Typ 3 mit Viererfl\xfcgel</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> &ndash; nicht als
         Oberfl\xe4chlichkeit, sondern als strukturelles Bed\xfcrfnis, durch Bild, Wirkung und Leistung
         zu existieren. Der Soziale Subtyp (SO3) richtet diese Energie auf die Gruppe: Er will als
         bewundernswert, als heldenhaft, als bedeutend gelten &ndash; in den Augen anderer.
-        Der Vierfl\xfcgel verleiht dieser Orientierung eine romantisch-\xe4sthetische Tiefe:
+        Der Viererfl\xfcgel verleiht dieser Orientierung eine romantisch-\xe4sthetische Tiefe:
         Nicht nur Anerkennung, sondern Einzigartigkeit. Nicht nur Erfolg, sondern ein Mythos.
         </p>
       </div>
@@ -14221,9 +14221,9 @@ function vincenzoPeruggiaPortraitPage() {
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Vierfl\xfcgel: \xc4sthetik, Einzigartigkeit, romantische Projektion</h3>
-        <p class="vb-intro">Der <strong>Vierfl\xfcgel (w4)</strong> bringt in Peruggias Geschichte eine Dimension, die ihn von einem simplen Gelegenheitsdieb unterscheidet. Die Vier tr\xe4gt Sch\xf6nheitssinn, Tiefe und eine intensive Beziehung zum Besonderen in sich &ndash; und Peruggia hatte eine echte Beziehung zur Mona Lisa. Berichten zufolge betrachtete er das Bild regelm\xe4\xdfig, w\xe4hrend es in seiner Wohnung stand. Er soll Sch\xf6nheit darin gesehen haben, nicht nur Marktwert. Er hielt das Bild zwei Jahre &ndash; eine Zeitspanne, die f\xfcr einen profitorientierten Dieb keinen Sinn ergibt, f\xfcr jemanden, dem das Objekt selbst etwas bedeutet, aber schon.</p>
-        <p class="vb-intro">Der Vierfl\xfcgel f\xfcgt dem SO3-Muster die Sehnsucht nach Einzigartigkeit hinzu: nicht nur ber\xfchmt zu sein, sondern <em>unverwechselbar</em>. Der Mann, der die Mona Lisa gestohlen hat &ndash; nicht irgendein Bild, das ber\xfchmteste Bild der Welt. Die Wahl des Objektes ist kein Zufall. Sie ist Signatur.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: \xc4sthetik, Einzigartigkeit, romantische Projektion</h3>
+        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt in Peruggias Geschichte eine Dimension, die ihn von einem simplen Gelegenheitsdieb unterscheidet. Die Vier tr\xe4gt Sch\xf6nheitssinn, Tiefe und eine intensive Beziehung zum Besonderen in sich &ndash; und Peruggia hatte eine echte Beziehung zur Mona Lisa. Berichten zufolge betrachtete er das Bild regelm\xe4\xdfig, w\xe4hrend es in seiner Wohnung stand. Er soll Sch\xf6nheit darin gesehen haben, nicht nur Marktwert. Er hielt das Bild zwei Jahre &ndash; eine Zeitspanne, die f\xfcr einen profitorientierten Dieb keinen Sinn ergibt, f\xfcr jemanden, dem das Objekt selbst etwas bedeutet, aber schon.</p>
+        <p class="vb-intro">Der Viererfl\xfcgel f\xfcgt dem SO3-Muster die Sehnsucht nach Einzigartigkeit hinzu: nicht nur ber\xfchmt zu sein, sondern <em>unverwechselbar</em>. Der Mann, der die Mona Lisa gestohlen hat &ndash; nicht irgendein Bild, das ber\xfchmteste Bild der Welt. Die Wahl des Objektes ist kein Zufall. Sie ist Signatur.</p>
       </div>
 
       <div class="vb-section">
@@ -14248,7 +14248,7 @@ function vincenzoPeruggiaPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) Die Inszenierung als Heldengeschichte:</strong> Der SO3 braucht eine Erz\xe4hlung, in der er bewundert wird &ndash; und Peruggia hat eine geliefert, die historisch falsch, aber psychologisch perfekt ist. Den Diebstahl als R\xfcckgabe zu rahmen, sich selbst als Retter der italienischen Kultur zu inszenieren &ndash; das ist klassische Drei-Energie: pers\xf6nliche Motivation in gesellschaftlich respektable Form gie\xdfen, bis man selbst nicht mehr sicher ist, was stimmt.</p>
-        <p class="vb-intro"><strong>b) Zwei Jahre Stille:</strong> Was ein rein profitorientierter T\xe4ter nie getan h\xe4tte. Peruggia hielt die Mona Lisa zwei Jahre bei sich, ohne sie zu verkaufen. Das deutet auf eine Beziehung zum Objekt &ndash; Vierfl\xfcgel-Energie: Sch\xf6nheit, Einzigartigkeit, emotionale Bindung. Das Bild war nicht nur Ware. Es war Teil seiner Identit\xe4t geworden.</p>
+        <p class="vb-intro"><strong>b) Zwei Jahre Stille:</strong> Was ein rein profitorientierter T\xe4ter nie getan h\xe4tte. Peruggia hielt die Mona Lisa zwei Jahre bei sich, ohne sie zu verkaufen. Das deutet auf eine Beziehung zum Objekt &ndash; Viererfl\xfcgel-Energie: Sch\xf6nheit, Einzigartigkeit, emotionale Bindung. Das Bild war nicht nur Ware. Es war Teil seiner Identit\xe4t geworden.</p>
         <p class="vb-intro"><strong>c) Die Wahl des Objektes:</strong> Nicht irgendein Gem\xe4lde. Das ber\xfchmteste Bild der Welt. Ein SO3w4 im Mangel sucht nicht kleinen Erfolg &ndash; er sucht den Mythos. Den Akt, der ihn unverwechselbar macht. Den Moment, in dem sein Name in einem Atemzug mit Leonardo da Vinci f\xe4llt.</p>
         <p class="vb-intro"><strong>d) Der Unterschied zu SE3 und SX3:</strong> Ein selbsterhaltender Drei h\xe4tte das Bild sofort verkauft und sich abgesetzt. Ein sexueller Drei h\xe4tte das Bild vielleicht als Verf\xfchrungsmittel eingesetzt. Der soziale Drei wartet auf den Moment der \xf6ffentlichen Anerkennung &ndash; und sucht ihn durch eine Geschichte, die ihn zum Helden macht. Genau das tat Peruggia.</p>
       </div>
@@ -14263,7 +14263,7 @@ function vincenzoPeruggiaPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Vincenzo Peruggia</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Vierfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit (als Heldeninszenierung, als Identit\xe4tskonstruktion)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 8. Oktober 1881 &ndash; 8. Oktober 1925</span>
