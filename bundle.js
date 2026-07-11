@@ -27491,7 +27491,7 @@ function freischaltPage() {
         <div class="freischalt-card__divider"><span>Bereits gekauft? Zugang aktivieren:</span></div>
 
         <div style="margin-bottom:0.75rem;">
-          <input id="unlockName" type="text" placeholder="Ihr Name (für die Lizenzierung)" autocomplete="name" spellcheck="false"
+          <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
         </div>
         <div class="freischalt-card__input-row">
