@@ -24930,6 +24930,14 @@ function enneagrammProfilingPage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
+      <div style="max-width:100%;margin-top:1.5rem;margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Enneagramm-Profiling im Unternehmen</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail &ndash; das theoretische Fundament f\xfcr eine fundierte Profiling-Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt f\xfcr Schritt &ndash; der ideale Einstieg vor der Profiling-Ausbildung.", "Die Praxis der Typbestimmung")}
         ${relatedLinks([
