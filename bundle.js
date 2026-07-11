@@ -24493,6 +24493,18 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen")}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Thema Narzissmus: So erkennst Du narzisstische Menschen</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/WYdu11U1QVg?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bookTip("hinter-der-leidenschaft", "Die verborgenen Körpermuster der 27 Subtypen – wo Leidenschaft sich im Körper einschreibt.", "Hinter der Leidenschaft")}
+      ${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}
+      ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
