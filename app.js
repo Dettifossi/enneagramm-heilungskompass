@@ -24384,6 +24384,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "CHQsVdYZ_eo", label: "Jordan Peterson: Was ihn in Diskussionen unschlagbar macht – Profiler reagiert …" },
         { id: "N-gMMS2SMBk", label: "Profiler exposed Taddl – Was steckt hinter seinem Image?" },
         { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
+        { id: "If5jZpTLUac", label: "Til Schweiger: Was ihn als Filmemacher einzigartig macht – Profiler reagiert …" },
       ]},
     ]
   );
