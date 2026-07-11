@@ -76,6 +76,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Sozialer Typ 3",                                   teaser:"SO3w2 – 'Monster der Anden', geb. 1948. Mindestens 350 Morde an jungen Mädchen in Kolumbien, Peru und Ecuador, 1969–1980. Der Gepard: zielgenaue Verführung, charismatische Maske, Erfolg als Opferzahl – die soziale Drei mit Zweierflügel in ihrer dunkelsten Ausprägung." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Sozialer Typ 3",                                       teaser:"SO3w4 – F\xfcnffachmörder und Mörder von Gianni Versace, 1969–1997. Vier Morde in zwölf Tagen quer durch die USA, dann Versace vor seiner Villa in Miami Beach. Der Gepard: Prestige als Lebensinhalt, Fassade als einzige Realität, Viererflügel als dunkle Unterströmung." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Sozialer Typ 3",                                         teaser:"SO3w4 – NFL-Legende und Protagonist des „Processes des Jahrhunderts“, 1947–2024. Freigesprochen im Strafprozess 1995, zivilrechtlich schuldig 1997. Der Gepard: das \xf6ffentliche Selbstbild als einzige Realit\xe4t, Inszenierung bis zur letzten Sekunde. Tierentsprechung: Gepard." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-vincenzo-peruggia",     name:"Vincenzo Peruggia",                    subtyp:"SO3w4",  heading:"Vincenzo Peruggia \u2013 Sozialer Typ 3",                      teaser:"SO3w4 \u2013 Der Dieb der Mona Lisa, 1881\u20131925. Stahl am 21. August 1911 die Mona Lisa aus dem Louvre und verbarg sie zwei Jahre in seiner Pariser Mansardenwohnung. Verhaftet 1913. Der Gepard: einmaliger pr\xe4ziser Schlag, patriotische Inszenierung, \xe4sthetische Bindung ans Objekt. Tierentsprechung: Gepard.", tags:["Kunstdiebstahl"]},
   { route:"kriminalpsychologie-wade-wilson",         name:"Wade Wilson",                         subtyp:"SO3w4",  heading:"Wade Wilson \u2013 Sozialer Typ 3",                                         teaser:"SO3w4 \u2013 Doppelm\u00f6rder, geb. 1996. Zwei Morde in einer Nacht (Oktober 2019, Florida). Todesurteil 2024. Der Gerichtssaal als B\u00fchne: wie die soziale Drei mit Vierfl\u00fcgel Aufmerksamkeit zur einzigen W\u00e4hrung macht. Tierentsprechung: Gepard." , tags:["Nahbereich","Serienmord"]},
   { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexueller Typ 3",                                       teaser:"SX3w4 \u2013 Kindsmörderin, geb. 1955. 1983 erschoss sie ihre drei Kinder in Oregon, um einem Mann das perfekte, ungebundene Ideal zu sein. Die sexuelle Drei mit Viererflügel: Kinder als störende Requisiten, blockierte Herzenergie als Tatmotiv, Kalkül statt Gefühl. Tierentsprechung: Pfau." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexueller Typ 3",                                     teaser:"SX3w4 \u2013 M\xf6rder und digitaler Selbstinszenierer, 2012. 70+ Aliasnamen, Mord als Content, Verhaftung beim Lesen eigener Schlagzeilen \u2013 die sexuelle Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Serienmord"]},
@@ -14170,6 +14171,122 @@ function wadeWilsonPortraitPage() {
     </div>
   `);
 }
+
+function vincenzoPeruggiaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Vincenzo Peruggia \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/vincenzo-peruggia-portrait.jpg" alt="Vincenzo Peruggia \u2013 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincenzo Peruggia</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Der Dieb der Mona Lisa &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Vincenzo Peruggia</strong>, geboren am 8. Oktober 1881 im norditalienischen Dumenza,
+        war Anstreicher und Glaser &ndash; ein einfacher Handwerker, der im fr\xfchen 20. Jahrhundert
+        als Gastarbeiter nach Paris kam. Am 21. August 1911 beging er das damals meistdiskutierte
+        Verbrechen der Welt: Er stahl die Mona Lisa aus dem Louvre. Das Bild blieb \xfcber zwei Jahre
+        in seiner Pariser Mansardenwohnung versteckt. Als er es im Dezember 1913 einem Florentiner
+        Kunsth\xe4ndler zum Kauf anbot &ndash; unter dem Deckmantel des Patriotismus &ndash;,
+        wurde er verhaftet. Der Prozess machte ihn weltweit bekannt. In Italien wurde er von Teilen
+        der \xd6ffentlichkeit als Held gefeiert. Er war 32 Jahre alt.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Vincenzo Peruggia</strong> wird dem <strong>Sozialen Typ 3 mit Vierfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> &ndash; nicht als
+        Oberfl\xe4chlichkeit, sondern als strukturelles Bed\xfcrfnis, durch Bild, Wirkung und Leistung
+        zu existieren. Der Soziale Subtyp (SO3) richtet diese Energie auf die Gruppe: Er will als
+        bewundernswert, als heldenhaft, als bedeutend gelten &ndash; in den Augen anderer.
+        Der Vierfl\xfcgel verleiht dieser Orientierung eine romantisch-\xe4sthetische Tiefe:
+        Nicht nur Anerkennung, sondern Einzigartigkeit. Nicht nur Erfolg, sondern ein Mythos.
+        </p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Vincenzo Peruggia mit einer stillen, fast untersch\xe4tzten Genauigkeit. Der Gepard ist nicht der st\xe4rkste J\xe4ger, aber der pr\xe4ziseste. Er wartet. Er beobachtet. Er schl\xe4gt im richtigen Moment zu &ndash; und dann ist er weg, bevor jemand begriffen hat, was geschehen ist. Peruggia arbeitete 1908 und 1909 selbst im Louvre &ndash; als Handwerker, der die Glasschutzrahmen f\xfcr die wichtigsten Gem\xe4lde anfertigte. Er kannte die G\xe4nge, die Sicherheitsl\xfccken, die Tagesabl\xe4ufe. Er wusste, dass die Mona Lisa am fr\xfchen Morgen des 21. August 1911 unbewacht war. Er wartete einen Feiertag ab, verbarg sich \xfcber Nacht im Museum und entnahm das Bild in Ruhe aus dem Rahmen. Kein Gewalt. Kein L\xe4rm. Kein Chaos. Nur ein pr\xe4ziser Schlag &ndash; und dann zwei Jahre Stille.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Held in den Augen der Gruppe</h3>
+        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> lebt f\xfcr die Frage: <em>Wie wirke ich auf meine Gruppe?</em> Nicht auf irgendeine Gruppe &ndash; auf <em>die</em> Gruppe, deren Urteil z\xe4hlt. F\xfcr Peruggia war das die italienische Gemeinschaft. Als Immigrant in Paris lebte er am Rand der Gesellschaft: gering bezahlt, wenig angesehen, einer unter Tausenden. Sein Selbstbild als Italiener war jedoch gepr\xe4gt von nationalem Stolz &ndash; und von dem, was er als Unrecht empfand: dass die Mona Lisa, Leonardos Meisterwerk, in einem franz\xf6sischen Museum hing, w\xe4hrend Italien &ndash; das Land ihrer Entstehung &ndash; sie nicht besa\xdf.</p>
+        <p class="vb-intro">Sein erkl\xe4rtes Motiv: Wiedergutmachung. Napoleon hatte Italiens Kunstsch\xe4tze geraubt; er, Vincenzo Peruggia, wollte das korrigieren. Was er dabei \xfcbersah oder ignorierte: Die Mona Lisa war nie geraubt worden. Leonardo da Vinci selbst hatte sie nach Frankreich mitgenommen; K\xf6nig Franz I. hatte sie k\xe4uflich erworben. Peruggias Erz\xe4hlung war historisch falsch &ndash; aber psychologisch aufschlussreich. Der SO3 kleidet pers\xf6nliche Ambitionen in gesellschaftlich respektable Gew\xe4nder. Er braucht eine Geschichte, in der er der Held ist.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Vierfl\xfcgel: \xc4sthetik, Einzigartigkeit, romantische Projektion</h3>
+        <p class="vb-intro">Der <strong>Vierfl\xfcgel (w4)</strong> bringt in Peruggias Geschichte eine Dimension, die ihn von einem simplen Gelegenheitsdieb unterscheidet. Die Vier tr\xe4gt Sch\xf6nheitssinn, Tiefe und eine intensive Beziehung zum Besonderen in sich &ndash; und Peruggia hatte eine echte Beziehung zur Mona Lisa. Berichten zufolge betrachtete er das Bild regelm\xe4\xdfig, w\xe4hrend es in seiner Wohnung stand. Er soll Sch\xf6nheit darin gesehen haben, nicht nur Marktwert. Er hielt das Bild zwei Jahre &ndash; eine Zeitspanne, die f\xfcr einen profitorientierten Dieb keinen Sinn ergibt, f\xfcr jemanden, dem das Objekt selbst etwas bedeutet, aber schon.</p>
+        <p class="vb-intro">Der Vierfl\xfcgel f\xfcgt dem SO3-Muster die Sehnsucht nach Einzigartigkeit hinzu: nicht nur ber\xfchmt zu sein, sondern <em>unverwechselbar</em>. Der Mann, der die Mona Lisa gestohlen hat &ndash; nicht irgendein Bild, das ber\xfchmteste Bild der Welt. Die Wahl des Objektes ist kein Zufall. Sie ist Signatur.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Handwerker, Immigrant, nationaler Tr\xe4umer</h3>
+        <p class="vb-intro">Vincenzo Peruggia w\xe4chst in \xe4rmlichen Verh\xe4ltnissen im norditalienischen Varese auf. Um 1908 kommt er nach Paris, wo er als Anstreicher und Glaser Arbeit findet &ndash; unter anderem, vor\xfcbergehend, im Louvre selbst. Dort hilft er dabei, Schutzverglasungen f\xfcr Gem\xe4lde anzufertigen. Er lernt das Museum von innen kennen: die Korridore, die Servicer\xe4ume, den Rhythmus der Wachmannschaften.</p>
+        <p class="vb-intro">\xdcber sein Privatleben in Paris ist wenig bekannt. Er lebte in einer Mansardenwohnung, hatte wenig soziale Einbindung, galt als ruhig und unauff\xe4llig. Was in ihm vorging, l\xe4sst sich nur indirekt erschlie\xdfen &ndash; aus dem, was er tat, und aus dem, was er sp\xe4ter dar\xfcber sagte. Er hat das, was er plante, \xfcber l\xe4ngere Zeit vorbereitet &ndash; ein Zeichen f\xfcr planvolle Handlung, nicht impulsiven Affekt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Der Morgen des 21. August 1911</h3>
+        <p class="vb-intro"><strong>Montag, 21. August 1911, Paris:</strong> Der Louvre ist an diesem Augusttag wegen Routinearbeiten geschlossen. Peruggia hat sich am Vorabend im Museum verborgen. In den fr\xfchen Morgenstunden, w\xe4hrend das Geb\xe4ude noch ruhig ist, betritt er den Salon Carr\xe9. Er nimmt die Mona Lisa &ndash; damals noch ohne Schutzglas ausgestellt &ndash; von der Wand. Er tr\xe4gt sie in einen Nebengang, l\xf6st sie aus dem Rahmen und versteckt sie unter seinem Handwerkermantel. Dann verl\xe4sst er das Museum durch einen Seitenausgang. Der gesamte Vorgang dauert Minuten.</p>
+        <p class="vb-intro">Das Verschwinden des Bildes wird erst am n\xe4chsten Morgen bemerkt &ndash; zun\xe4chst h\xe4lt ein W\xe4chter den leeren Haken f\xfcr einen Fotografen-Platz. Es vergehen Stunden, bis die Tragweite des Verlustes begriffen wird. Die Nachricht ersch\xfcttert die Welt. Der Louvre bleibt eine Woche geschlossen. Pablo Picasso und sein Freund Guillaume Apollinaire werden zun\xe4chst verd\xe4chtigt. \xdcber zwei Jahre bleibt die Spur kalt.</p>
+        <p class="vb-intro"><strong>Dezember 1913, Florenz:</strong> Peruggia schreibt dem Kunsth\xe4ndler Alfredo Geri und bietet an, die Mona Lisa &ndash; er nennt sie in dem Brief &bdquo;La Gioconda&ldquo; &ndash; gegen eine Belohnung nach Italien zur\xfcckzubringen. Er pr\xe4sentiert sich als Patriot, nicht als Dieb. Geri alarmiert die Beh\xf6rden. Bei der \xdcbergabe wird Peruggia verhaftet. Das Bild befindet sich in einem mit rotem Samt ausgekleideten Holzkoffer in seiner Wohnung &ndash; zusammen mit einem Portr\xe4t von K\xf6nig Viktor Emanuel II.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Der Prozess und der Held</h3>
+        <p class="vb-intro">Der Prozess in Florenz entwickelt sich f\xfcr Peruggia zur unerwarteten B\xfchne. Teile der italienischen Presse und \xd6ffentlichkeit sehen in ihm tats\xe4chlich einen Patrioten. Zeitungen bezeichnen ihn als Helden. Briefe und Blumen erreichen ihn in der Untersuchungshaft. Das ist genau das, was der SO3w4 tief in sich ersehnt: bewundert zu werden, als besonders zu gelten, als jemand, der etwas getan hat, das andere nicht gewagt h\xe4tten.</p>
+        <p class="vb-intro">Das Gericht urteilt milder als erwartet: ein Jahr und f\xfcnfzehn Tage Haft, sp\xe4ter auf knapp acht Monate reduziert. Peruggia kommt als freier Mann frei. Er kehrt nach Frankreich zur\xfcck, heiratet, er\xf6ffnet einen kleinen Malerhandel. Er stirbt am 8. Oktober 1925 &ndash; ausgerechnet an seinem Geburtstag &ndash; in Saint-Maur-des-Foss\xe9s bei Paris. Er wird 44 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Die Inszenierung als Heldengeschichte:</strong> Der SO3 braucht eine Erz\xe4hlung, in der er bewundert wird &ndash; und Peruggia hat eine geliefert, die historisch falsch, aber psychologisch perfekt ist. Den Diebstahl als R\xfcckgabe zu rahmen, sich selbst als Retter der italienischen Kultur zu inszenieren &ndash; das ist klassische Drei-Energie: pers\xf6nliche Motivation in gesellschaftlich respektable Form gie\xdfen, bis man selbst nicht mehr sicher ist, was stimmt.</p>
+        <p class="vb-intro"><strong>b) Zwei Jahre Stille:</strong> Was ein rein profitorientierter T\xe4ter nie getan h\xe4tte. Peruggia hielt die Mona Lisa zwei Jahre bei sich, ohne sie zu verkaufen. Das deutet auf eine Beziehung zum Objekt &ndash; Vierfl\xfcgel-Energie: Sch\xf6nheit, Einzigartigkeit, emotionale Bindung. Das Bild war nicht nur Ware. Es war Teil seiner Identit\xe4t geworden.</p>
+        <p class="vb-intro"><strong>c) Die Wahl des Objektes:</strong> Nicht irgendein Gem\xe4lde. Das ber\xfchmteste Bild der Welt. Ein SO3w4 im Mangel sucht nicht kleinen Erfolg &ndash; er sucht den Mythos. Den Akt, der ihn unverwechselbar macht. Den Moment, in dem sein Name in einem Atemzug mit Leonardo da Vinci f\xe4llt.</p>
+        <p class="vb-intro"><strong>d) Der Unterschied zu SE3 und SX3:</strong> Ein selbsterhaltender Drei h\xe4tte das Bild sofort verkauft und sich abgesetzt. Ein sexueller Drei h\xe4tte das Bild vielleicht als Verf\xfchrungsmittel eingesetzt. Der soziale Drei wartet auf den Moment der \xf6ffentlichen Anerkennung &ndash; und sucht ihn durch eine Geschichte, die ihn zum Helden macht. Genau das tat Peruggia.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Das ber\xfchmteste Kunstverbrechen der Geschichte</h3>
+        <p class="vb-intro">Vincenzo Peruggia ist in vielerlei Hinsicht ein ungew\xf6hnlicher Fall f\xfcr diese Sammlung &ndash; kein M\xf6rder, kein Serienstraft\xe4ter, sondern ein Mann, der einmal in seinem Leben etwas Au\xdfergew\xf6hnliches tat und daf\xfcr weltweit bekannt wurde. Was ihn hineinzieht in die Logik des SO3w4, ist gerade das: die Wahl des Objektes, die Rahmung als Heldentat, die Unf\xe4higkeit, das Bild loszulassen, und der Wunsch nach \xf6ffentlicher W\xfcrdigung statt nach Profit.</p>
+        <p class="vb-intro">Der Gepard schl\xe4gt einmal zu &ndash; und dieser eine Schlag definiert sein Leben. Peruggia war danach nicht mehr der namenlose Glaser aus Dumenza. Er war der Mann, der die Mona Lisa gestohlen hatte. Das ist Drei-Energie in Reinform: Identit\xe4t durch Tat, Existenz durch Wirkung. Ob das ausreichte, um ihn gl\xfccklich zu machen, wissen wir nicht. Er starb still, in einer kleinen Stadt bei Paris, mit 44 Jahren &ndash; und hinterlie\xdf eine Geschichte, die die Welt bis heute kennt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Vincenzo Peruggia</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Vierfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit (als Heldeninszenierung, als Identit\xe4tskonstruktion)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 8. Oktober 1881 &ndash; 8. Oktober 1925</span>
+          <span style="display:block;"><strong>Tat:</strong> Diebstahl der Mona Lisa aus dem Louvre, 21. August 1911 &ndash; Verhaftung Dezember 1913</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("hinter-der-leidenschaft", "Hinter der Eitelkeit die tiefere Wunde: Was den Drei antreibt, wenn das Bild wichtiger wird als das Sein.", "Hinter der Leidenschaft &ndash; die neun Wunden")}
+        <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+          <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+            <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Vincenzo Peruggia wurde 1914 zu einer Haftstrafe verurteilt, die er verb\xfc\xdfte. Die Mona Lisa kehrte unversehrt in den Louvre zur\xfcck. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+          </p>
+        </div>
+        ${relatedLinks([
+          {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4)"},
+          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
+          {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function davidBerkowitzPortraitPage() {
   return shell(`
@@ -30299,6 +30416,7 @@ function render() {
       "kriminalpsychologie-luka-magnotta": lukaMagnottaPortraitPage,
       "kriminalpsychologie-andrew-cunanan": andrewCunananPortraitPage,
       "kriminalpsychologie-oj-simpson": ojSimpsonPortraitPage,
+      "kriminalpsychologie-vincenzo-peruggia": vincenzoPeruggiaPortraitPage,
       "kriminalpsychologie-wade-wilson": wadeWilsonPortraitPage,
             "kriminalpsychologie-elliot-rodger": elliotRodgerPortraitPage,
       "kriminalpsychologie-adolf-hitler": adolfHitlerPortraitPage,
