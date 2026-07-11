@@ -23695,6 +23695,14 @@ function gaslightingPage() {
       </div>
 
       ${bookTip("hinter-der-leidenschaft", "Die tieferen Antriebskr\xe4fte hinter den neun Mustern &ndash; warum Menschen so handeln, wie sie handeln, und was das mit ihrer Wunde zu tun hat.", "Hinter der Leidenschaft")}
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Menschen lesen in Sekunden: Profiler David Rathmer erklärt seine Methode</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/kDyxrC3sqTk?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
       ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zur\xfcck zu sich selbst.", "Wenn die Stille brennt &ndash; Burnout")}
       ${bookTip("du-bist-nicht-dein-zweifel", "Loslassen, was nicht wirklich du bist &ndash; ein Wegweiser aus den inneren Fixierungen und Abh\xe4ngigkeiten heraus.", "Du bist nicht dein Zweifel")}
       ${relatedLinks([
