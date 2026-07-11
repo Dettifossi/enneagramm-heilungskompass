@@ -4891,12 +4891,14 @@ function homoeopathieSongsPage() {
   `).join("");
 
   const song25 = `
-    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);display:flex;flex-direction:column;">
-      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">25. Homöopathie- und Enneagramm-Homöopathie-Songs</p>
-      <div style="aspect-ratio:16/9;background:var(--paper-deep, #f0ebe0);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;">
-        <span style="font-size:2.5rem;">&#127925;</span>
-        <p style="margin:0;font-size:0.9rem;color:var(--copper);font-weight:600;">Audio-only</p>
-        <p style="margin:0;font-size:0.8rem;color:var(--ink-muted);text-align:center;padding:0 1rem;">WAV-Datei – demnächst als Download verfügbar</p>
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">25. De Weisheit vo de Großen – Homöopathie-Song Nr. 3 (Bairisch)</p>
+      <div style="background:linear-gradient(135deg,#4a1c1c 0%,#2d0e0e 100%);padding:2rem 1.2rem;display:flex;flex-direction:column;align-items:center;gap:1rem;">
+        <span style="font-size:3rem;">&#127925;</span>
+        <p style="margin:0;font-size:0.85rem;color:rgba(255,255,255,0.7);text-align:center;">Audio-only · ca. 3:51 Min.</p>
+        <audio controls style="width:100%;max-width:380px;">
+          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/homoeopathie-song-25-bairisch.wav" type="audio/wav">
+        </audio>
       </div>
     </div>
   `;
