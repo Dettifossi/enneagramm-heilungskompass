@@ -5195,6 +5195,10 @@ const SPIRITUELL_TRACKS = {
         Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
       </p>
       ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
