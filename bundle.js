@@ -4928,6 +4928,12 @@ function homoeopathieSongsPage() {
       ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}
       ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
       ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten homöopathischen Arzneimittel – über 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
+      ${bookTip("homoeopathische-arzneimittellehre-der-single-rubriken-aus-de", "8.594 Single-Rubriken der 500 wichtigsten homöopathischen Arzneimittel – das Standardwerk zur Sehgal-Methode.", "Homöopathische Arzneimittellehre der Single-Rubriken")}
+      ${bookTip("repertorium-der-hervorstechenden-gemuetsrubriken-gebundene-a", "Die hervorstechendsten Gemütsrubriken kompakt und kommentiert – das Praxisrepertorium für den homöopathischen Alltag.", "Repertorium der hervorstechenden Gemütsrubriken")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "Das Lehrbuch zur Enneagramm-Homöopathie – Band 1: Grundlagen, Typen und Heilmittel.", "Lehrbuch der Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-2-taschenbuch", "Band 2 des Lehrbuchs: Vertiefte Heilmittelzuordnungen für alle 27 Subtypen.", "Lehrbuch der Enneagramm-Homöopathie – Band 2")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-3-taschenbuch", "Band 3 des Lehrbuchs: Das vollständige System der Enneagramm-Homöopathie in der Praxis.", "Lehrbuch der Enneagramm-Homöopathie – Band 3")}
+      ${bookTip("die-enneagramm-homoeopathie-unterrichtsmaterial", "Das vollständige Unterrichtsskript der Sehgal-Schule – 500 Seiten für das Selbststudium der Enneagramm-Homöopathie.", "Die Enneagramm-Homöopathie – Unterrichtsmaterial")}
       ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
       ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
