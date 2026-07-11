@@ -24266,13 +24266,12 @@ function davidRathmerFuehrungPage() {
 function davidRathmerPersoenlichkeitenPage() {
   return _davidVideoPage(
     "david-rathmer-persoenlichkeiten",
-    "David L. Rathmer · Berühmte Persönlichkeiten",
-    "Berühmte Persönlichkeiten",
+    "David L. Rathmer · Ennea Exposed",
+    "Ennea Exposed: Berühmte Persönlichkeiten",
     "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
     [
-      { titel: "Persönlichkeitsanalysen", videos: [
-        { id: "PLATZHALTER_4", label: "Video 1 – Titel folgt" },
-        { id: "PLATZHALTER_5", label: "Video 2 – Titel folgt" },
+      { titel: "Ennea Exposed: Berühmte Persönlichkeiten", videos: [
+        { id: "LaWtvvpo-x8", label: "Ennea Exposed – Episode 1" },
       ]},
     ]
   );
