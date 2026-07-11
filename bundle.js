@@ -4975,14 +4975,23 @@ const JAZZ_TRACKS = {
 };
 
 function detlefRathmerJazzPage() {
-  const kachel = (id, label, tracks, desc, langs) => `
+  const kachel = (id, label, tracks, desc, langs, noEmbed) => `
     <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
       <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
-      <div style="position:relative;aspect-ratio:16/9;background:#000;">
-        <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${id}?rel=0"
-          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-      </div>
+      ${noEmbed
+        ? `<div style="aspect-ratio:16/9;background:var(--paper-deep,#ede8dc);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.8rem;">
+             <span style="font-size:2.5rem;">🎵</span>
+             <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener"
+                style="padding:0.5rem 1.2rem;border-radius:20px;background:var(--copper);color:#fff;font-size:0.88rem;font-weight:600;text-decoration:none;">
+               ▶ Auf YouTube ansehen
+             </a>
+           </div>`
+        : `<div style="position:relative;aspect-ratio:16/9;background:#000;">
+             <iframe width="100%" height="100%" style="border:none;display:block;"
+               src="https://www.youtube.com/embed/${id}?rel=0"
+               allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+           </div>`
+      }
       ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
       ${langs && langs.length ? `
       <details style="padding:0.4rem 1rem 0.6rem;">
@@ -5140,14 +5149,14 @@ const SPIRITUELL_TRACKS = {
     { id: "tAzZV6z8nL8", label: "4. So fühlt sich Ewigkeit an" },
     { id: "6CSq2mRUJiE", label: "5. Zwischen den Zeilen" },
     { id: "-elL4ahOCOI", label: "6. Dein Licht in mir" },
-    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
+    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut", noEmbed: true },
     { id: "i4GxkTdlPCk", label: "8. Für immer und ein Tag" },
     { id: "c2CcthcXRxc", label: "9. Flügel aus Licht" },
   ];
 
   const grid = (items, tracksMap) => `
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-top:1rem;">
-      ${items.map(a => kachel(a.id, a.label, a.num ? (tracksMap || JAZZ_TRACKS)[a.num] : null, a.desc || null, a.langs || null)).join("")}
+      ${items.map(a => kachel(a.id, a.label, a.num ? (tracksMap || JAZZ_TRACKS)[a.num] : null, a.desc || null, a.langs || null, a.noEmbed || false)).join("")}
     </div>
   `;
 
