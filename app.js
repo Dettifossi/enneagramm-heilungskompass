@@ -24272,6 +24272,12 @@ function davidRathmerPersoenlichkeitenPage() {
     [
       { titel: "Ennea Exposed: Berühmte Persönlichkeiten", videos: [
         { id: "LaWtvvpo-x8", label: "Episode 1: Persönlichkeitsanalyse von Wladimir Putin" },
+        { id: "wcYhn3-K3Pc", label: "Episode 2: Persönlichkeitsanalyse von Friedrich Merz" },
+        { id: "KUMqh3aiCwk", label: "Episode 3: Persönlichkeitsanalyse von P. Diddy" },
+        { id: "su80pHiYfAg", label: "Episode 4: Persönlichkeitsanalyse von Mark Zuckerberg" },
+        { id: "XnS_8QaUL8Y", label: "Episode 5: Persönlichkeitsanalyse von Kollegah" },
+        { id: "XnS_8QaUL8Y", label: "Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein" },
+        { id: "tk05kjDO1JA", label: "Episode 7: Persönlichkeitsanalyse von Elon Musk" },
       ]},
     ]
   );
@@ -24285,8 +24291,7 @@ function davidRathmerKriminalfaellePage() {
     "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypen.",
     [
       { titel: "Täterprofile & Hintergründe", videos: [
-        { id: "PLATZHALTER_6", label: "Video 1 – Titel folgt" },
-        { id: "PLATZHALTER_7", label: "Video 2 – Titel folgt" },
+        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Persönlichkeitsanalyse (Enneagramm-Typ SX8)" },
       ]},
     ]
   );
