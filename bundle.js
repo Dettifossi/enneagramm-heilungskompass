@@ -140,7 +140,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -24330,6 +24330,41 @@ function davidRathmerErfolgsinterviewsPage() {
   );
 }
 
+function davidRathmerImpulsePage() {
+  return shell(`
+    ${pageHeader("david-rathmer-impulse")}
+    <section class="narrow">
+      <p class="eyebrow">David L. Rathmer · Impulse & Einsichten</p>
+      <h1>Impulse &amp; Einsichten</h1>
+      <p class="lead-small">Kurze, lehrreiche Videos von David L. Rathmer — zu Persönlichkeit, Beziehungen, Burnout und persönlichem Wachstum.</p>
+      <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
+        <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          🌐 enneascholars.de
+        </a>
+        <a href="https://www.youtube.com/@davidlaurinrathmer" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--line);color:var(--ink);font-size:0.88rem;text-decoration:none;font-weight:600;">
+          ▶ YouTube-Kanal
+        </a>
+      </div>
+      <div style="margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Stress, Druck, Burnout &ndash; Das steckt WIRKLICH dahinter!</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/3XE6esDr770?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt &ndash; Burnout")}
+      ${relatedLinks([
+        {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
+        {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
+        {route:"david-rathmer-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+      ])}
+    </section>
+  `);
+}
+
 function davidRathmerKriminalfaellePage() {
   return _davidVideoPage(
     "david-rathmer-kriminalfaelle",
@@ -29423,6 +29458,7 @@ function render() {
     "david-rathmer-fuehrung": davidRathmerFuehrungPage,
     "david-rathmer-persoenlichkeiten": davidRathmerPersoenlichkeitenPage,
     "david-rathmer-erfolgsinterviews": davidRathmerErfolgsinterviewsPage,
+    "david-rathmer-impulse": davidRathmerImpulsePage,
     "david-rathmer-kriminalfaelle": davidRathmerKriminalfaellePage,
     "solfeggio-frequenzen": solfeggioFrequenzenPage,
     "zehn-anwendungen-fuer-das-enneagramm": zehnAnwendungenPage,

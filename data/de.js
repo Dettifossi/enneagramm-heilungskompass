@@ -2462,6 +2462,7 @@ export const uiText = {
     { route: "david-rathmer", label: "▶ David L. Rathmer", dropdown: [
       { route: "david-rathmer-fuehrung",               label: "Führung & Unternehmen" },
       { route: "david-rathmer-erfolgsinterviews",      label: "Erfolgsinterviews" },
+      { route: "david-rathmer-impulse",               label: "Impulse & Einsichten" },
       { route: "david-rathmer-persoenlichkeiten",      label: "Berühmte Persönlichkeiten" },
     ]},
   ],
