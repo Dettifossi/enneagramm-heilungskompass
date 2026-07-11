@@ -24383,6 +24383,7 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Warum Freunde zu Feinden wurden | Profiling-Analyse" },
         { id: "CHQsVdYZ_eo", label: "Jordan Peterson: Was ihn in Diskussionen unschlagbar macht – Profiler reagiert …" },
         { id: "N-gMMS2SMBk", label: "Profiler exposed Taddl – Was steckt hinter seinem Image?" },
+        { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
       ]},
     ]
   );
