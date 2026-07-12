@@ -6927,8 +6927,7 @@ function beruehmtePersoenlichkeitenPage() {
     const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
     const kats = (p.tags||[]).join(",");
     const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
-    const tierExt = {se1:'jpg',so1:'jpg',sx1:'jpg',se2:'jpg',so2:'jpg',sx2:'jpg',se3:'jpg',so3:'jpg',sx3:'jpg',se4:'png',so4:'png',sx4:'png',se5:'png',so5:'png',sx5:'png',se6:'png',so6:'png',sx6:'png',se7:'png',so7:'png',sx7:'png',se8:'png',so8:'png',sx8:'png',se9:'png',so9:'png',sx9:'png'};
-    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/beruehmte-tier-'+tierKey+'.'+(tierExt[tierKey]||'png') : '';
+    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
     return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
