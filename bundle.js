@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
+    heading:"Herbert Kickl – Selbsterhaltender Typ 6",
+    teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
+    tags:["Politik"] },
   { route:"beruehmte-edward-snowden", name:"Edward Snowden", subtyp:"SX5w6",
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
@@ -7533,6 +7537,64 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function herbertKicklPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se6.png" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herbert Kickl</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Politiker &amp; FPÖ-Parteiobmann, geb. 1968 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; ein Wesen von außerordentlicher Wachheit. Seine Sinne sind auf Gefahr ausgerichtet: Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt. Es lebt in Gemeinschaft &ndash; der Bau ist sein Zuhause, und das Zuhause ist das Volk, dem es zugehört. Das Kaninchen ist kein Tier der großen Geste. Aber wer glaubt, es sei nur scheu, hat es missverstanden: Wenn es gilt, verteidigt es sein Territorium mit einer Entschlossenheit, die überrascht.</p>
+          <p class="vb-intro">Herbert Kickl ist dieses Kaninchen. Ein Mann, der früher als die meisten spürt, was in der Luft liegt &ndash; welche Bedrohungen real sind, welche Narrative gebaut werden, welche Angst die Politik instrumentalisiert. Er hat diese Wachheit in eine politische Sprache verwandelt, die Millionen von Menschen ansprechen, weil sie sich in ihr wiedererkennen: das Gefühl, dass irgendetwas nicht stimmt. Dass man nicht gehört wird. Dass die Institutionen nicht mehr schützen, sondern kontrollieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wärme und Wachheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte: Sicherheit wird nicht durch Stärke oder Pflicht gesucht, sondern durch echte menschliche Verbindung, durch Zugehörigkeit, durch das Vertrauen in die Menschen, die man kennt und schätzt. Die SE6 baut keine Hierarchien &ndash; sie baut Gemeinschaft. Ihr Schutz ist nicht die Institution, sondern das Wir.</p>
+          <p class="vb-intro">Bei Herbert Kickl zeigt sich das in seiner tiefen Verbindung zur österreichischen Bevölkerung &ndash; nicht als abstraktem Wahlvolk, sondern als konkreten Menschen mit konkreten Sorgen. Seine politische Sprache ist direkt, manchmal ruppig, aber sie ist nicht kalt. Sie sucht den Kontakt. Sie will, dass die Menschen sich verstanden fühlen. Das ist SE6-Wärme: <em>Ich bin einer von euch. Ich sehe, was ihr seht. Und ich sage es aus, auch wenn es unbequem ist.</em></p>
+          <p class="vb-intro">Die selbsterhaltende Sechs trägt eine tiefe Sorge um das, was Bestand hat: Heimat, Identität, die Sicherheit des Vertrauten. Diese Sorge ist kein Rückwärtsblick &ndash; sie ist die ernsthafte Frage: <em>Was schützen wir? Und wer schützt es, wenn wir es nicht tun?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Analyse statt Schlagwort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der selbsterhaltenden Sechs eine charakteristische intellektuelle Tiefe: die Fähigkeit, Zusammenhänge zu analysieren, Narrative auseinanderzunehmen, Argumente Schritt für Schritt aufzubauen. Die SE6w5 begnügt sich nicht mit dem Bauchgefühl &ndash; sie will wissen, warum etwas nicht stimmt. Sie will es belegen können.</p>
+          <p class="vb-intro">Bei Kickl zeigt sich das in seiner Rolle als politischer Stratege und Redner. Er ist kein Mann der spontanen Emotion &ndash; er ist ein Mann der vorbereiteten Argumentation, der präzisen Analyse, der Fähigkeit, komplexe politische Zusammenhänge in klare Sprache zu übersetzen. Das ist der Fünferflügel: Wissen als Rüstzeug, Analyse als Mittel der Sicherheit. <em>Wenn ich verstehe, was geschieht, bin ich weniger ausgeliefert.</em></p>
+          <p class="vb-intro">Diese Kombination &ndash; die emotionale Verbindung der SE6 mit der analytischen Schärfe des Fünferflügels &ndash; macht ihn zu einem ungewöhnlich wirksamen politischen Kommunikator: Er spricht das Herz an und liefert gleichzeitig die Argumente dazu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Coronakrise: Angst aktiv überwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Coronakrise war für den Typ 6 eine besondere Prüfung &ndash; denn nirgendwo wurde Angst so systematisch eingesetzt wie in dieser Zeit. Für eine Sechs, die Bedrohungen früh wahrnimmt und auf Sicherheit ausgerichtet ist, war das eine doppelte Herausforderung: die Angst vor dem Virus auf der einen Seite &ndash; und die Angst vor einer Politik, die Angst als Steuerungsinstrument nutzt, auf der anderen.</p>
+          <p class="vb-intro">Herbert Kickl wählte den zweiten Weg. Er stellte sich öffentlich gegen Lockdowns, Impfpflicht und die Einschränkung von Grundrechten &ndash; zu einem Zeitpunkt, als das politisch und gesellschaftlich mit erheblichem Gegenwind verbunden war. Das ist kein kleiner Schritt für eine Sechs: die Institutionen, die normalerweise Sicherheit garantieren sollen, als Bedrohung zu benennen, erfordert, die eigene Angst zu durcharbeiten und trotzdem zu sprechen. Das ist die Sechs auf ihrem Mut-Weg: nicht das Fehlen von Angst &ndash; sondern das Handeln trotz ihr.</p>
+          <p class="vb-intro">Er gab damit vielen Menschen eine Stimme, die sich in der offiziellen Politik nicht mehr wiederfanden &ndash; Menschen, die dieselbe Dissonanz spürten, aber keine Sprache dafür hatten. Das ist der tiefste Dienst, den eine SE6w5 leisten kann: die kollektive Wahrnehmung benennen, die andere noch nicht aussprechen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vertrauen wählen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wo lauert die nächste Gefahr?</em> zur Erkenntnis <em>Ich habe genug Kraft, um mit dem umzugehen, was kommt.</em> Für die SE6w5 bedeutet das, die Wachheit nicht aufzugeben &ndash; sie ist ein Geschenk &ndash; aber sie nicht von Angst antreiben zu lassen, sondern von Mut. Nicht das System zu misstrauen, weil es Systeme gibt, die misstrauenswürdig sind &ndash; sondern selektiv zu vertrauen, weil es Menschen gibt, die vertrauenswürdig sind.</p>
+          <p class="vb-intro">Das Kaninchen, das früher spürt als andere &ndash; und das gelernt hat, diese Gabe nicht als Last zu tragen, sondern als Verantwortung: <em>Ich sehe, was kommt. Also sage ich es. Damit wir uns vorbereiten können.</em> Das ist Herbert Kickl auf seinem besten Weg.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
       ])}
     </div>
   `);
@@ -32388,6 +32450,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
