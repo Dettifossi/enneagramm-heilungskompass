@@ -113,10 +113,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · „Der Adler“, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
     tags:["Musik"] },
-  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
-    heading:"Sting – Selbsterhaltender Typ 1",
-    teaser:"SE1w9 · „Der Adler“, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
-    tags:["Musik"] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -125,6 +121,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
     tags:["Medien"] },
+  { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
+    heading:"Angelina Jolie – Sozialer Typ 1",
+    teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7087,6 +7087,65 @@ function kaiPflaumePortraitPage() {
     </div>
   `);
 }
+
+function angelinaJoliePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#0f766e18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🪿</span>
+        </div>
+        <p class="krim-portrait-name">Angelina Jolie</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1975 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; und ein Tier, das auf den ersten Blick unterschätzt wird. Keine Schönheit wie der Pfau. Keine Stärke wie der Adler. Aber wer je einer Gans begegnet ist, weiß: Sie weicht nicht. Sie schützt ihr Revier. Sie warnt ihre Gruppe. Und wenn sie in Formation fliegt, dann nicht für sich &ndash; sondern für alle.</p>
+          <p class="vb-intro">Angelina Jolie ist seit Jahrzehnten im Blickfeld der Weltöffentlichkeit. Nicht weil sie Aufsehen sucht &ndash; sondern weil Aufsehen entsteht, wenn jemand mit dieser Klarheit spricht. Als UN-Sonderbotschafterin für Flüchtlinge, als Regisseurin von Filmen über Genozid, als Mutter von sechs Kindern aus drei Kontinenten: Sie hat ihr Leben in den Dienst einer Überzeugung gestellt. Die Überzeugung, dass es falsch ist, wegzuschauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der seinen Perfektionismus nach außen &ndash; auf die Gesellschaft, auf Systeme, auf kollektive Ungerechtigkeit &ndash; richtet. Während die selbsterhaltende Eins ihr inneres Leben korrigiert und die sexuelle Eins ihre Überzeugungen im direkten Kontakt ausdrückt, brennt die SO1 für das große Bild: Was ist falsch an dieser Welt? Und was muss getan werden?</p>
+          <p class="vb-intro">Naranjo nennt diesen Subtyp <em>Inadaptability</em> &ndash; Unnachgiebigkeit gegenüber dem, was ist, wenn es nicht sein sollte. Die SO1 akzeptiert keine Kompromisse mit Unrecht. Sie hat hohe Maßstäbe &ndash; nicht nur für sich, sondern für die Welt. Das macht sie zur geborenen Reformerin, zur Stimme derer, die keine Stimme haben.</p>
+          <p class="vb-intro">Angelina Jolies Lebensweg ist ohne diese Struktur nicht zu verstehen. Seit 2001 reist sie für den UNHCR in Konfliktgebiete &ndash; Syrien, Irak, Pakistan, Kambodscha, Sudan. Nicht als PR-Aktion. Als Verpflichtung. Sie hat vor dem UN-Sicherheitsrat gesprochen, Gesetze mitentworfen, Reportagen über sexuelle Kriegsgewalt produziert. Die SO1er kämpft nicht für sich. Sie kämpft für das Richtige.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Herz hinter der Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der sozialen Eins etwas Entscheidendes hinzu: direktes, persönliches Mitgefühl. Die reine Eins kann kalt wirken in ihrer Geradlinigkeit &ndash; unerbittlich, fordernd, schwer zugänglich. Der Zweierflügel öffnet diese Energie: Er macht aus der Systemkritikerin einen Menschen, der auch die Hand ausstreckt.</p>
+          <p class="vb-intro">Bei Angelina Jolie zeigt sich das in einer ungewöhnlichen Verbindung: Sie kann vor der UN sprechen und gleichzeitig ein traumatisiertes Kind in Kambodscha halten. Sie kann Gesetze zitieren und gleichzeitig weinen. Die SO1w2er verbindet die Schärfe der Eins mit der Wärme der Zwei &ndash; Haltung mit Herz. Das ist kein Widerspruch. Das ist Stärke.</p>
+          <p class="vb-intro">Ihre sechs Kinder &ndash; drei biologische, drei adoptierte &ndash; sind kein Publicity-Projekt. Sie sind der Ausdruck einer SO1w2er-Überzeugung: Wenn die Welt ungerecht ist, beginnt die Antwort zuhause. Im Kleinen, im Direkten, im Persönlichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1 ist offensichtlich: moralische Klarheit, Ausdauer, die Fähigkeit, unbequeme Wahrheiten zu sagen, wenn andere schweigen. Angelina Jolie hat ihre Plattform nie für Banalitäten genutzt. Sie hat sie genutzt, um Dinge sichtbar zu machen, die die Welt lieber nicht sehen möchte.</p>
+          <p class="vb-intro">Der Schatten ist subtiler. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; und bei der SO1 richtet sich dieser Zorn gegen das System, gegen die Ungerechtigkeit, gegen diejenigen, die nicht handeln. Diese Energie kann befreien &ndash; und sie kann erschöpfen. Die SO1 läuft Gefahr, das Gewicht der Welt als persönliche Pflicht zu tragen. Als wäre jedes Unrecht, das noch besteht, ihr Versagen.</p>
+          <p class="vb-intro">Jolies öffentliche Auseinandersetzung mit ihrer Gesundheit &ndash; Mastektomie, Ovarektomie, beide offen kommuniziert &ndash; trägt auch diese Qualität: die Pflicht, das Richtige zu tun und es sichtbar zu machen. Nicht um Bewunderung zu ernten. Sondern weil andere davon profitieren könnten. Die SO1er kann nicht nicht-handeln, wenn sie sieht, dass Handlung möglich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Kampf zur Würde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Stille, von der Pflicht zur Freiheit. Die wachsende Eins lernt: Ich muss nicht alles reparieren. Das Richtige geschieht auch ohne meinen Einsatz &ndash; zumindest manchmal. Die Welt darf unvollkommen sein, ohne dass das meine Niederlage ist.</p>
+          <p class="vb-intro">Für die soziale Eins bedeutet das: den Rückzug vom Kämpfen lernen, ohne das Engagement aufzugeben. Die Gans fliegt in Formation &ndash; aber sie fliegt auch manchmal allein. Angelina Jolie ist in den letzten Jahren stiller geworden. Weniger öffentlichkeitswirksam, mehr hinter den Kulissen. Vielleicht ist das der Reifeprozess der SO1er: Die Überzeugung bleibt. Aber der Druck &ndash; auf sich selbst und die Welt &ndash; lässt nach. Und dann kommt etwas, das stärker ist als Kampf: Würde.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
@@ -30760,9 +30819,9 @@ function render() {
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
-      "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
+      "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
