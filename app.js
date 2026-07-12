@@ -225,6 +225,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
     tags:["Politik","Recht"] },
+  { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
+    heading:"Alice Schwarzer – Sexueller Typ 6",
+    teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
+    tags:["Journalismus","Politik"] },
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
@@ -7549,6 +7553,63 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function aliceSchwarzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx6.png" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alice Schwarzer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin, Feministin &amp; Emma-Gründerin, geb. 1942 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das in den Märchen als Bedrohung erscheint, in der Realität aber vor allem eines ist: loyal, territorial und missverstanden. Der Wolf lebt im Rudel, kämpft für das Rudel &ndash; und zeigt die Zähne, wenn das Rudel bedroht wird. Er duckt sich nicht. Er weicht nicht aus. Und er erinnert sich, wer ihm feindlich gegenüberstand.</p>
+          <p class="vb-intro">Alice Schwarzer ist dieser Wolf. Seit mehr als fünf Jahrzehnten kämpft sie für Frauenrechte &ndash; mit einer Direktheit, die viele erschreckt, und einer Ausdauer, die wenige aufbringen. Sie hat Debatten angestoßen, die niemand führen wollte. Sie hat Strukturen benannt, die niemand benennen wollte. Und sie hat dafür einen Preis gezahlt: Anfeindungen, Verachtung, Missverständnisse &ndash; und mehr Gegner als die meisten Menschen in einem Leben sammeln. Der Wolf, der nicht aufhört zu heulen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke gegen die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am stärksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Rückzug, sondern mit Angriff. <em>Wenn ich schneller bin als die Bedrohung, wenn ich lauter bin, wenn ich als erste angreife &ndash; dann bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 sucht Kraft, weil sie Angst kennt &ndash; und weil sie sich geschworen hat, dieser Angst nie wieder nachzugeben.</p>
+          <p class="vb-intro">Bei Alice Schwarzer zeigt sich das in ihrer Kampfbereitschaft, die seit Jahrzehnten nicht nachlässt. Sie war es, die 1971 in Deutschland die Aktion <em>Wir haben abgetrieben</em> organisierte &ndash; zu einer Zeit, als das strafrechtliche Konsequenzen haben konnte. Sie war es, die Pornographie öffentlich als Gewalt gegen Frauen benannte, als das noch ein gesellschaftliches Tabu war. Sie war es, die die Debatte um Prostitution in Deutschland in eine Richtung gelenkt hat, die viele nicht hören wollten. Das ist die SX6: <em>Ich habe Angst. Also kämpfe ich.</em></p>
+          <p class="vb-intro">Ihr Rudel ist Emma &ndash; die Frauenzeitschrift, die sie 1977 gründete und bis heute herausgibt. Kein Konzern im Rücken, keine Investoren, kein Kompromiss mit der Werbewirtschaft. Emma ist das Territorium des Wolfes: geschützt, verteidigt, kompromisslos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Analyse als Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sexuellen Sechs eine intellektuelle Schärfe, die ihren Kampf von bloßem Aktivismus unterscheidet. Die SX6w5 kämpft nicht aus dem Bauch heraus &ndash; sie kämpft mit Belegen, mit Analysen, mit einem Wissen, das sie sich über Jahrzehnte erarbeitet hat. <em>Ich will nicht nur recht haben. Ich will beweisen können, dass ich recht habe.</em></p>
+          <p class="vb-intro">Schwarzers Werk ist durchdrungen von diesem Fünferflügel: <em>Der kleine Unterschied und seine großen Folgen</em> (1975) war kein Pamphlet &ndash; es war eine Feldstudie, basierend auf Interviews mit Frauen über ihre Sexualität und ihre Erfahrungen mit Männern. Ihre Interviews mit Simone de Beauvoir, ihre Analyse der Prostitutionsdebatte, ihre Auseinandersetzung mit dem politischen Islam &ndash; stets verbindet sich bei ihr die kämpferische Haltung der SX6 mit der analytischen Tiefe des Fünferflügels. Der Wolf, der seine Beute kennt, bevor er angreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre Unnachgiebigkeit im Dienst einer Sache, die sie für gerecht hält &ndash; und ihre Bereitschaft, dafür jeden Preis zu zahlen. Schwarzer hat die Situation von Frauen in Deutschland verändert. Nicht allein, aber maßgeblich. Wer heute selbstverständlich über sexuelle Belästigung spricht, über strukturelle Ungleichheit, über Körperautonomie &ndash; steht auf einem Fundament, das Schwarzer mit aufgebaut hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die SX6 bekämpft sie durch Gegenwehr. Aber dieser Mechanismus hat eine Schattenseite: Wenn die Gegenwehr zum Selbstzweck wird, wenn jeder, der anderer Meinung ist, zum Feind erklärt wird, wenn die eigene Position unantastbar werden muss &ndash; dann verliert der Wolf seinen Instinkt für das, was er eigentlich schützen wollte. Schwarzers Positionierungen haben nicht immer Freunde gefunden, auch nicht in feministischen Kreisen.</p>
+          <p class="vb-intro">Ihr bekanntestes Eingeständnis einer eigenen Schwäche: 2014 räumte sie öffentlich ein, Geld auf einem Schweizer Konto versteckt zu haben &ndash; und damit Steuern hinterzogen zu haben. Sie entschuldigte sich. Der Wolf, der zugibt, sich selbst nicht immer treu gewesen zu sein. Das kostet Kraft. Und es ist ein Zeichen von Stärke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Kämpfen aus Liebe, nicht aus Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wie schütze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich bin stark genug &ndash; auch ohne den Kampf.</em> Für die SX6w5 bedeutet das, die Waffe nicht niederzulegen, aber sie aus einem anderen Ort heraus zu führen: nicht aus der Angst, die angreift, bevor sie angegriffen wird &ndash; sondern aus der Liebe zu dem, was man schützen will.</p>
+          <p class="vb-intro">Alice Schwarzer hat fünf Jahrzehnte lang für Frauen gekämpft. Der Wolf, der nicht aufhört zu heulen &ndash; weil er weiß, dass das Rudel es hört. Das ist die SX6w5 auf ihrem Heilungsweg: Wenn die Stärke nicht mehr aus der Angst kommt, sondern aus dem tiefen Wissen um den Wert dessen, wofür man steht.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -32634,6 +32695,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
