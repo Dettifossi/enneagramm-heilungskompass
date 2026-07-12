@@ -109,6 +109,14 @@ const KRIMINAL_PORTRAITS = [
 ];
 
 const BERUEHMT_PORTRAITS = [
+  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
+    heading:"Sting – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · „Der Adler“, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
+    tags:["Musik"] },
+  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
+    heading:"Sting – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · „Der Adler“, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
+    tags:["Musik"] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -6909,6 +6917,118 @@ window.bpApply = function() {
     b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
   });
 };
+
+function stingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦅</span>
+        </div>
+        <p class="krim-portrait-name">Sting</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1951 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> fliegt allein. Er braucht keine Formation, keine Bestätigung, keine Bühne. Er ist in seiner Höhe zu Hause &ndash; weit über dem Lärm der Welt, mit einem Blick, der alles umfasst und nichts übersieht. Wenn er landet, dann mit vollständiger Absicht.</p>
+          <p class="vb-intro">Gordon Sumner, der sich Sting nannte, hätte Lehrer bleiben können. Er hatte das Diplom, er hatte die Stelle, er hatte die Sicherheit. Doch die innere Stimme der Eins duldet keinen Kompromiss: Wenn das Richtige wartet, muss man es tun. Sting gab den sicheren Hafen auf und ging nach London &ndash; mit dem Wissen, dass es nicht anders sein konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Handwerk als Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihre Maßstäbe nicht nach außen. Sie korrigiert nicht die Welt &ndash; sie korrigiert sich selbst, immer wieder, mit einer Strenge, die andere selten sehen. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Der SE1er fragt sich: Ist das wirklich gut genug? Habe ich das Richtige getan? Genüge ich meinem eigenen Anspruch?</p>
+          <p class="vb-intro">Bei Sting zeigt sich das in der außergewöhnlichen Ernsthaftigkeit, mit der er Musik betreibt. Während andere Rockstars Hits wiederholen, nimmt Sting Alben mit dem Saxophonisten Branford Marsalis auf, vertont elisabethanische Lautenlieder von John Dowland, studiert die Kompositionskunst vergangener Jahrhunderte. Seinen bekanntesten Song, <em>Every Breath You Take</em>, erklärt er bis heute geduldig als düsteres Lied über Besessenheit und Überwachung &ndash; nicht als Liebeslied. Die Eins besteht darauf, dass die Dinge richtig verstanden werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Stille hinter dem Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie etwas hinzu, was selten zusammengehört: Stille. Während die reine Einser-Energie angespannt, wachsam, korrekturbewusst ist, bringt der Neunerflügel eine Qualität der Ruhe, des Loslassens, der Verbundenheit mit etwas Größerem.</p>
+          <p class="vb-intro">Das erklärt Stings jahrzehntelange Yogapraxis, seine Beschäftigung mit Buddhismus und Tantra, seinen Rückzug auf das toskanische Landgut. Der SE1w9er sucht nicht nur das Richtige &ndash; er sucht auch den Frieden. Die Neuner-Energie gibt der Eins die Fähigkeit, innezuhalten, zu atmen, die Perfektion loszulassen. Stings Musik hat genau diese Qualität: Sie ist präzise und zugleich weiträumig, anspruchsvoll und zugleich meditativ. Der Adler kreist &ndash; aber er genießt auch die Höhe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist von seltener Schönheit: ein Künstler, der nie aufgehört hat, sich zu entwickeln; ein Mensch, der seine Überzeugungen lebt &ndash; die Rainforest Foundation, die er 1989 gemeinsam mit seiner Frau Trudie Styler gründete, ist bis heute aktiv; eine Integrität, die im Musikbusiness auffällt wie ein Adler unter Hamstern.</p>
+          <p class="vb-intro">Der Schatten ist zweifach. Die SE1 neigt zur Selbstgerechtigkeit &ndash; zum unbewussten Gefühl, dass man selbst das Richtige tut und andere es nicht tun. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich bei der SE1 nach innen wendet: chronische Unzufriedenheit mit dem Eigenen, das Gefühl, nie ganz angekommen zu sein. Der Neunerflügel fügt seinen eigenen Schatten hinzu: Rückzug, Distanz, eine Abschirmung, die andere als Kälte erleben.</p>
+          <p class="vb-intro">Sting hat in Interviews offen über Jahre der kreativen Stagnation gesprochen &ndash; Phasen, in denen ihm nichts Würdiges einfiel. Das ist der SE1w9er in seiner Nacht: Der innere Richter schweigt. Der äußere Frieden bleibt. Aber es entsteht nichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Richter zur Schönheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit. Die wachsende Eins lernt: Das Gute muss nicht perfekt sein, um gut zu sein. Das Richtige zeigt sich nicht nur durch Kontrolle, sondern auch durch Vertrauen &ndash; Vertrauen in den Fluss, den die Neun kennt.</p>
+          <p class="vb-intro">Sting hat diesen Weg beschritten. Nicht durch Aufgabe seiner Maßstäbe &ndash; sondern durch die Entdeckung, dass Schönheit größer ist als Richtigkeit. Dass ein unvollkommener Song, der berührt, mehr wert ist als ein perfekter, der niemanden erreicht. Der Adler muss nicht immer oben sein. Manchmal fliegt er einfach.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function stingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦅</span>
+        </div>
+        <p class="krim-portrait-name">Sting</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1951 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> fliegt allein. Er braucht keine Formation, keine Bestätigung, keine Bühne. Er ist in seiner Höhe zu Hause &ndash; weit über dem Lärm der Welt, mit einem Blick, der alles umfasst und nichts übersieht. Wenn er landet, dann mit vollständiger Absicht.</p>
+          <p class="vb-intro">Gordon Sumner, der sich Sting nannte, hätte Lehrer bleiben können. Er hatte das Diplom, er hatte die Stelle, er hatte die Sicherheit. Doch die innere Stimme der Eins duldet keinen Kompromiss: Wenn das Richtige wartet, muss man es tun. Sting gab den sicheren Hafen auf und ging nach London &ndash; mit dem Wissen, dass es nicht anders sein konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Handwerk als Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihre Maßstäbe nicht nach außen. Sie korrigiert nicht die Welt &ndash; sie korrigiert sich selbst, immer wieder, mit einer Strenge, die andere selten sehen. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Der SE1er fragt sich: Ist das wirklich gut genug? Habe ich das Richtige getan? Genüge ich meinem eigenen Anspruch?</p>
+          <p class="vb-intro">Bei Sting zeigt sich das in der außergewöhnlichen Ernsthaftigkeit, mit der er Musik betreibt. Während andere Rockstars Hits wiederholen, nimmt Sting Alben mit dem Saxophonisten Branford Marsalis auf, vertont elisabethanische Lautenlieder von John Dowland und studiert die Kompositionskunst vergangener Jahrhunderte. Seinen bekanntesten Song, <em>Every Breath You Take</em>, erklärt er bis heute geduldig als düsteres Lied über Besessenheit und Überwachung &ndash; nicht als Liebeslied. Die Eins besteht darauf, dass die Dinge richtig verstanden werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Stille hinter dem Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie etwas hinzu, was selten zusammengehört: Stille. Während die reine Einser-Energie angespannt, wachsam, korrekturbewusst ist, bringt der Neunerflügel eine Qualität der Ruhe, des Loslassens, der Verbundenheit mit etwas Größerem.</p>
+          <p class="vb-intro">Das erklärt Stings jahrzehntelange Yogapraxis, seine Beschäftigung mit Buddhismus und Tantra, seinen Rückzug auf das toskanische Landgut. Der SE1w9er sucht nicht nur das Richtige &ndash; er sucht auch den Frieden. Die Neuner-Energie gibt der Eins die Fähigkeit, innezuhalten, zu atmen, die Perfektion loszulassen. Stings Musik hat genau diese Qualität: präzise und weiträumig zugleich, anspruchsvoll und meditativ. Der Adler kreist &ndash; aber er genießt auch die Höhe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist von seltener Schönheit: ein Künstler, der nie aufgehört hat, sich zu entwickeln; ein Mensch, der seine Überzeugungen lebt &ndash; die Rainforest Foundation, die er 1989 gemeinsam mit seiner Frau Trudie Styler gründete, ist bis heute aktiv; eine Integrität, die im Musikbusiness auffällt wie ein Adler unter Hamstern.</p>
+          <p class="vb-intro">Der Schatten ist zweifach. Die SE1 neigt zur Selbstgerechtigkeit &ndash; zum unbewussten Gefühl, selbst das Richtige zu tun, während andere es nicht tun. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich bei der SE1 nach innen wendet: chronische Unzufriedenheit mit dem Eigenen, das Gefühl, nie ganz angekommen zu sein. Der Neunerflügel fügt seinen eigenen Schatten hinzu: Rückzug, Distanz, eine Abschirmung, die andere als Kälte erleben.</p>
+          <p class="vb-intro">Sting hat in Interviews offen über Jahre der kreativen Stagnation gesprochen &ndash; Phasen, in denen ihm nichts Würdiges einfiel. Das ist der SE1w9er in seiner Nacht: Der innere Richter schweigt. Der äußere Frieden bleibt. Aber es entsteht nichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Richter zur Schönheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit. Die wachsende Eins lernt: Das Gute muss nicht perfekt sein, um gut zu sein. Das Richtige zeigt sich nicht nur durch Kontrolle, sondern auch durch Vertrauen &ndash; Vertrauen in den Fluss, den die Neuner-Energie kennt.</p>
+          <p class="vb-intro">Sting hat diesen Weg beschritten &ndash; nicht durch Aufgabe seiner Maßstäbe, sondern durch die Entdeckung, dass Schönheit größer ist als Richtigkeit. Dass ein unvollkommener Song, der berührt, mehr wert ist als ein perfekter, der niemanden erreicht. Der Adler muss nicht immer oben sein. Manchmal fliegt er einfach.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function christophWaltzPortraitPage() {
   return shell(`
@@ -30695,6 +30815,8 @@ function render() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "beruehmte-sting": stingPortraitPage,
+      "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
