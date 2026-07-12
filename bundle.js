@@ -732,7 +732,7 @@ function leseprobePage() {
       <!-- Kriminalpsychologie -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
-          Kriminalpsychologie
+          Spannende Kriminalfälle (Kriminalpsychologie)
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
           ${KRIMINAL_PORTRAITS.length} tiefenpsychologische T\xe4terportr\xe4ts &ndash; ber\xfchmte F\xe4lle durch die Linse des Enneagramms. Lehrreich, pr\xe4zise, nie rei\xdferisch.
