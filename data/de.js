@@ -2294,7 +2294,7 @@ export const uiText = {
       { route: "quiz", label: "Quiz" },
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
-      { route: "kriminalpsychologie", label: "Kriminalpsychologie" },
+      { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
       { route: "tierlexikon", label: "Tierlexikon" },
     ]},
     { route: "schaubilder", label: "Schaubilder", dropdown: [
