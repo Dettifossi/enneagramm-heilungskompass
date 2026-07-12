@@ -157,6 +157,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
+    heading:"Sadhguru – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
+    tags:["Spiritualität"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7584,6 +7588,65 @@ function matthiasSchweighoeferPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function sadhguruPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦝</span>
+        </div>
+        <p class="krim-portrait-name">Sadhguru</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Yogi, Guru &amp; Bestsellerautor, geb. 1957 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; und es ist ein Tier, das auf den ersten Blick unscheinbar wirkt. Kein Löwe, der brüllt. Kein Pfau, der glänzt. Der Waschbär trägt eine natürliche Maske &ndash; nicht aus Täuschungsabsicht, sondern weil Anpassungsfähigkeit und stille Geschicklichkeit sein Wesen sind. Er findet, was er braucht. Er nutzt, was da ist. Er übersieht nichts.</p>
+          <p class="vb-intro">Sadhguru (bürgerlicher Name: Jaggi Vasudev) könnte man für einen einfachen Mann halten: Motorradfahrer, Yogalehrer, barfuß auf der Bühne. Kein Thronsaal, kein Ornat, keine göttliche Entrückung. Und doch hat dieser Mann die Isha Foundation aufgebaut &ndash; eine der größten yogischen Institutionen weltweit, mit über neun Millionen Freiwilligen. Der Waschbär macht aus dem Wenigen viel &ndash; leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Stille Leistung statt Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der sogenannte Kontratyp der Drei: Claudio Naranjo beschreibt ihn als denjenigen, der am wenigsten wie eine Drei aussieht. Während die soziale Drei auf Bühnen strahlt und die sexuelle Drei durch Charisma bezaubert, richtet die SE3 ihre Energie auf etwas Bodenständigeres: auf Kompetenz, Sicherheit, Aufbau. Kein Glanz um seiner selbst willen &ndash; nur Effizienz im Dienst eines Ziels.</p>
+          <p class="vb-intro">Bei Sadhguru zeigt sich das in der enormen Produktivität ohne Eitelkeit &ndash; oder zumindest ohne sichtbare Eitelkeit. Er schreibt Bücher (<em>Inner Engineering</em> stand auf der New-York-Times-Bestsellerliste), hält Vorträge auf dem Weltwirtschaftsforum in Davos, leitet ökologische Großprojekte wie &bdquo;Save Soil&ldquo; und &bdquo;Project GreenHands&ldquo;, berät Regierungen, reist täglich durch die Welt &ndash; und tritt dabei auf wie jemand, der gerade vom Feld kommt. Die SE3 investiert in Wirksamkeit, nicht in Image. Das Image entsteht als Nebenprodukt.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt gibt der Drei eine Richtung: nicht nach oben, nicht ins Licht, sondern in die Tiefe des Aufbaus. Strukturen, Institutionen, Systeme &ndash; das sind die Gefäße, in die die SE3 ihre Energie gießt. Sadhgurus Werk ist weniger ein spiritueller Auftritt als ein Lebensunternehmen. Das ist Waschbär-Energie in ihrer produktivsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Geben als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei eine wichtige Dimension: den echten Impuls zur Verbindung, zur Unterstützung, zum Geben. Die reine SE3 könnte sich in Aufbau und Effizienz erschöpfen &ndash; immer funktional, immer produktiv, aber ohne das Feuer der persönlichen Zugewandtheit. Der Zweierflügel entzündet dieses Feuer. Er sagt: <em>Es geht nicht nur darum, etwas zu leisten. Es geht darum, dass Menschen davon berührt werden.</em></p>
+          <p class="vb-intro">Bei Sadhguru ist der Zweierflügel in seiner Unterrichtsweise unübersehbar. Er ist kein kühler Systemdenker &ndash; er ist ein Lehrer, der Menschen anschaut, ihre Fragen ernst nimmt, mit ihnen lacht. Seine Vorträge sind gespickt mit Humor, mit Geschichten, mit dem direkten Kontakt zum Publikum. Die SE3w2 will nicht nur bauen &ndash; sie will, dass es die Menschen weiterbringt. Das Geben ist kein Mittel, es ist Teil des Antriebs.</p>
+          <p class="vb-intro">Der Zweierflügel erklärt auch Sadhgurus Fähigkeit zur Massenmobilisierung: Neun Millionen Freiwillige folgen nicht einer Effizienzmaschine &ndash; sie folgen jemandem, der ihnen das Gefühl gibt, gesehen und gebraucht zu werden. Das ist die Zwei, die die Drei trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Fähigkeit, spirituelle Vision in greifbare Wirklichkeit zu verwandeln. Viele Mystiker hinterlassen Worte. Sadhguru hinterlässt Institutionen, Bäume, Gesetze, Bücher, Podcasts, ein Yoga-Zentrum in Tennessee und ein Lehrprogramm, das in 300 Städten läuft. Das ist die SE3 als Kraft der Manifestation: Ideen bekommen Körper.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; nicht notwendigerweise bewusste Lüge, sondern das tiefe Bedürfnis, als kompetent, wertvoll und wirkungsvoll zu erscheinen. Bei der SE3 äußert sich das subtil: Die Maske der Bescheidenheit kann selbst zu einer Form der Inszenierung werden. &bdquo;Ich brauche kein Rampenlicht&ldquo; kann &ndash; wenn man genau hinschaut &ndash; eine sehr wirkungsvolle Bühne sein. Kritiker Sadhgurus haben genau dieses Spannungsfeld benannt: zwischen aufrichtigem Dienst und meisterhaft inszenierter Einfachheit.</p>
+          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster: das Bedürfnis, gebraucht zu werden, kann sich mit der SE3-Effizienz verbinden zu einer Dynamik, in der &bdquo;helfen&ldquo; und &bdquo;kontrollieren&ldquo; kaum zu unterscheiden sind. Wer das System ist, durch das alle fließen, hat Macht &ndash; auch wenn er Dienst sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Wirken zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3 bedeutet das einen besonders paradoxen Schritt: die eigene Kompetenz loszulassen als Grundlage des Selbstwerts. Nicht mehr zu wissen, was zu tun ist &ndash; und trotzdem zu vertrauen, dass man gut ist.</p>
+          <p class="vb-intro">Sadhguru lehrt genau das &ndash; und das ist vielleicht das Interessanteste an ihm: Er unterrichtet das, was seine eigene tiefste Aufgabe ist. <em>Inner Engineering</em> ist kein Buch über äußere Effizienz. Es ist ein Buch darüber, wie man aufhört, das Innenleben als Projekt zu behandeln. Der Waschbär, der gelernt hat, die Maske auch vor sich selbst abzunehmen, findet darunter nicht Leere &ndash; sondern Stille. Und aus dieser Stille heraus entsteht ein Wirken, das nicht mehr beweisen muss.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
       ])}
     </div>
   `);
@@ -31332,6 +31395,7 @@ function render() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
+      "beruehmte-sadhguru": sadhguruPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
