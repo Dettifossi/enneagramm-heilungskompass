@@ -117,10 +117,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
-    heading:"Kai Pflaume – Sexueller Typ 3",
-    teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
-    tags:["Medien"] },
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
@@ -173,6 +169,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bella Thorne – Sozialer Typ 3",
     teaser:"SO3w4 · geb. 1997. Schauspielerin, Regisseurin, Social-Media-Star. Vom Disney-Kind zur Regisseurin – der Gepard, der nicht nur sprintet, sondern auch die Dunkelheit kennt.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
+    heading:"Kai Pflaume – Sexueller Typ 3",
+    teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
+    tags:["Medien"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
