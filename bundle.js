@@ -6915,7 +6915,7 @@ function kaiPflaumePortraitPage() {
           <span style="font-size:4.5rem;">🦚</span>
         </div>
         <p class="krim-portrait-name">Kai Pflaume</p>
-        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweiflügel</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
         <p class="krim-portrait-subtitle">Moderator, geb. 1967 &ndash; Tierentsprechung: Pfau</p>
       </div>
       <div class="page-content">
@@ -6933,11 +6933,11 @@ function kaiPflaumePortraitPage() {
           <p class="vb-intro">Claudio Naranjo nennt diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Anziehungskraft in ihrer reinsten, persönlichsten Form. Beim gesunden SX3 ist das keine Fassade &ndash; es ist eine echte Gabe. Die Fähigkeit, in jedem Gegenüber etwas Besonderes zu sehen und ihm das spürbar zu machen.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Zweiflügel: Wärme als zweite Natur</h2>
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme als zweite Natur</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweiflügel (w2)</strong> fügt der Drei-Energie etwas Entscheidendes hinzu: echte Fürsorge. Während die reine Drei mit Charisma und Leistung punktet, kommt beim SX3w2 noch eine zweite Kraft hinzu &ndash; das aufrichtige Interesse an anderen, die Freude daran, jemandem etwas Gutes zu tun. Die Zwei gibt, nicht um Gegenleistung zu erwarten, sondern weil Geben ihr Wesen ist.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der Drei-Energie etwas Entscheidendes hinzu: echte Fürsorge. Während die reine Drei mit Charisma und Leistung punktet, kommt beim SX3w2 noch eine zweite Kraft hinzu &ndash; das aufrichtige Interesse an anderen, die Freude daran, jemandem etwas Gutes zu tun. Die Zwei gibt, nicht um Gegenleistung zu erwarten, sondern weil Geben ihr Wesen ist.</p>
           <p class="vb-intro">Bei Kai Pflaume zeigt sich das in der Art, wie er Kandidaten behandelt &ndash; geduldig, ermutigend, nie auf Kosten anderer. In &bdquo;Klein gegen Groß&ldquo; stehen Kinder neben Weltmeistern. Pflaume moderiert dieses Aufeinandertreffen so, dass immer der Mensch im Mittelpunkt steht, nicht die Quote. Das ist kein Konzept, das ist Charakter.</p>
-          <p class="vb-intro">Der SX3w2 strahlt nicht nur &ndash; er wärmt auch. Er zieht nicht nur an &ndash; er kümmert sich auch. Dieser Unterschied erklärt, warum Pflaume über Jahrzehnte Vertrauen gewonnen hat, das bei anderen Moderatoren schnell verbrennt.</p>
+          <p class="vb-intro">Der SX3w2er strahlt nicht nur &ndash; er wärmt auch. Er zieht nicht nur an &ndash; er kümmert sich auch. Dieser Unterschied erklärt, warum Pflaume über Jahrzehnte Vertrauen gewonnen hat, das bei anderen Moderatoren schnell verbrennt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
