@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
+    heading:"Taylor Swift – Sexueller Typ 5",
+    teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
+    tags:["Musik"] },
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
@@ -7525,6 +7529,64 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function taylorSwiftPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx5.png" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Taylor Swift</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Musikproduzentin, geb. 1989 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher fühlt. Andernfalls: Kugel. Stacheln. Warten.</p>
+          <p class="vb-intro">Taylor Swift ist dieser Igel. Eine der meistgehörten Künstlerinnen der Welt, mit einem Werk, das aus persönlichsten Erfahrungen destilliert ist &ndash; und zugleich eine Frau, die außerordentlich kontrolliert damit umgeht, was sie wirklich von sich preisgibt. Die Musik ist das Innere. Alles andere ist die Oberfläche. Und die Stacheln sind aus Worten gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Fünf: Hier zeigt sich die Leidenschaft des Geizes am wenigsten offensichtlich &ndash; weil die sexuelle Energie die Fünf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen lässt. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht die eine Verbindung, die alles trägt &ndash; den Partner, den Freund, das Publikum &ndash; dem sie sich wirklich öffnen kann. Aber diese Öffnung gilt nur für wenige. Für den Rest: Stacheln.</p>
+          <p class="vb-intro">Bei Taylor Swift zeigt sich das in der Art, wie sie Nähe organisiert. Öffentlich ist sie überall &ndash; in den Charts, auf Bühnen, in den Schlagzeilen. Aber was sie wirklich denkt, fühlt, glaubt: das steht in den Songs. Nicht in Interviews. Nicht in Social Media. In den Texten, in den Vault Tracks, in den Easter Eggs, die nur diejenigen entschlüsseln können, die wirklich zuhören. Das ist SX5: Ich gebe alles preis &ndash; aber nur für die, die die Sprache sprechen.</p>
+          <p class="vb-intro">Das Horten der Fünf zeigt sich bei Swift in einem anderen Bereich: dem Horten von Kontrolle. Als ihr früheres Label ihre ersten sechs Alben an den Manager Scooter Braun verkaufte, ohne sie zu fragen, reagierte sie nicht mit Resignation. Sie nahm ihre Alben neu auf &ndash; eines nach dem anderen, unter dem Zusatz <em>Taylor's Version</em> &ndash; und rief ihre Fans dazu auf, nur noch diese Versionen zu streamen. Das ist die SX5 im Kampf um ihr Totem: <em>Das hier gehört mir. Ich hole es zurück.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Poetin der eigenen Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sexuellen Fünf eine charakteristische Tiefe: das Bedürfnis, das Einzigartige zu benennen, das Unsagbare in Sprache zu fassen, die eigene Erfahrung als etwas zu behandeln, das Bedeutung verdient. Die SX5w4 lebt nicht nur &ndash; sie beobachtet, wie sie lebt, und verwandelt das Beobachtete in Kunst.</p>
+          <p class="vb-intro">Taylor Swifts Songwriting ist das reinste Beispiel dafür. Sie schreibt nicht über abstrakte Gefühle &ndash; sie schreibt über bestimmte Momente, bestimmte Menschen, bestimmte Dezemberabende. Sie dokumentiert obsessiv: Tagebücher, geheime Notizen, versteckte Hinweise in Albumartworks. Das ist der Viererflügel: <em>Ich muss festhalten, was war. Weil es sonst verloren geht. Weil es bedeutsam ist, auch wenn es niemand sieht.</em></p>
+          <p class="vb-intro">Der Viererflügel erklärt auch Swifts Fähigkeit zur künstlerischen Neuerfindung. Von Country zu Pop zu Indie-Folk zu Electropop &ndash; jedes Album ist eine neue Identität, ein neuer Blick auf sich selbst. Das ist keine Marketingstrategie. Das ist die SX5w4: immer auf der Suche nach dem Bild, das noch genauer trifft, was innen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre Fähigkeit, das Innen in Außen zu verwandeln &ndash; persönliche Erfahrungen in Kunst, die Millionen berührt. Taylor Swifts Songs haben eine Präzision, die nur aus echter Beobachtung kommt: der richtige Schuh auf dem falschen Boden, das falsche Lächeln zum richtigen Zeitpunkt. Das ist das Geschenk der Igelin: Sie sieht, was andere wegsehen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; und bei der SX5 zeigt er sich als Kontrollsucht über das eigene Bild. Swifts Verhältnis zur Öffentlichkeit ist ambivalent: Sie inszeniert sich mit enormem Aufwand, aber immer auf eigenen Bedingungen. Narrative, die nicht passen, werden in Songs verarbeitet &ndash; und damit endgültig definiert. <em>Ich entscheide, wie diese Geschichte erzählt wird.</em></p>
+          <p class="vb-intro">Der Viererflügel bringt die Gefahr der Selbstbezogenheit: wenn die eigene Erfahrung so sehr zum Zentrum wird, dass andere hauptsächlich als Material vorkommen. Songs über Ex-Partner, die diese nicht gefragt haben &ndash; das ist ein Grenzbereich, den Swift selbst immer wieder berührt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Horten zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Ich bin genug &ndash; auch ohne Kontrolle über alles.</em> Für die SX5w4 bedeutet das, das Vertrauen, das sie in ihren engsten Kreis legt, langsam auch in die Welt zu verlängern: nicht jede Geschichte selbst zu erzählen, nicht jeden Angriff in einen Song zu gießen, nicht jede Deutungshoheit zu behalten.</p>
+          <p class="vb-intro">Der Igel, der sich zusammenrollt, schützt sich &ndash; aber er erkundet die Welt nicht. Taylor Swift hat in ihrem Werk immer wieder Momente der echten Öffnung gefunden: <em>folklore</em> und <em>evermore</em>, geschrieben im Lockdown, ohne Publikum, ohne Inszenierung &ndash; nur Worte und Gitarre. Das ist die SX5w4 auf ihrem Heilungsweg: Wenn die Stacheln fallen, kommt das Weichste raus. Und das ist das Stärkste.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
       ])}
     </div>
   `);
@@ -32264,6 +32326,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
