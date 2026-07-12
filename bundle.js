@@ -32955,7 +32955,9 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
-    if (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie") {
+    const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
+      || (base.startsWith("beruehmte-") && base !== "beruehmte-persoenlichkeiten");
+    if (isBadgePage) {
       const typEl = app.querySelector(".krim-portrait-typ");
       if (typEl) {
         const match = typEl.textContent.match(/^(S[EeOoXx][1-9])/);
