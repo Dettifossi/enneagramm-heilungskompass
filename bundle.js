@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
+    heading:"Peter Lustig – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
+    tags:["Medien","Bildung"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7455,6 +7459,64 @@ function christianRaetschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function peterLustigPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se5.png" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Lustig</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Fernsehmoderator &amp; Kinderbuchautor, 1937&ndash;2016 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der Stille, der Beobachtung und der konzentrierten Wahrnehmung. Sie sieht, was andere übersehen. Sie fragt nicht laut &ndash; sie schaut. Und wenn sie spricht, dann mit einer Klarheit, die aus langem Beobachten kommt, nicht aus Selbstdarstellung.</p>
+          <p class="vb-intro">Peter Lustig war diese Eule: Ein Mann, der sich einen Wohnwagen auf eine Wiese stellte, die Welt mit wachem Blick betrachtete &ndash; und daraus eine der erfolgreichsten Kindersendungen des deutschen Fernsehens machte. <em>Löwenzahn</em> war kein Unterhaltungsprogramm. Es war ein Denkprogramm. Die Frage hinter jeder Folge: <em>Wie funktioniert das eigentlich?</em> Das ist die Eule.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Der Wohnwagen als Burg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> ist nach Naranjo der <strong>Verstärkungstyp</strong> der Fünf: Hier lebt die Leidenschaft des Geizes &ndash; das Horten von Energie, Raum und Zeit &ndash; am unverhülltesten. Naranjo nannte diesen Subtyp <em>Burg</em>: Das eigene Territorium wird zur Festung. Wer eindringen will, muss sich ankündigen. Wer zu viel will, bekommt zu wenig. Die SE5 ist einer der isoliertesten Typen des gesamten Enneagramms.</p>
+          <p class="vb-intro">Kein Symbol trifft das besser als Peter Lustigs Wohnwagen. Dieser kleine, rollende Rückzugsraum inmitten einer Wiese &ndash; mit allem, was man braucht, und ohne alles, was man nicht braucht &ndash; ist das perfekte Bild der SE5-Burg. Peter Lustig lebte das nicht nur in der Sendung: Auch im wirklichen Leben galt er als ausgesprochen zurückgezogen, medienscheu, schwer erreichbar. Der Wohnwagen war kein Requisit. Er war ein Weltbild.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt fragt: <em>Habe ich genug? Bin ich sicher? Wie viel Raum brauche ich, um frei zu denken?</em> Peters Antwort war radikal einfach: wenig Besitz, viel Stille, ein klarer Blick auf das, was wirklich wichtig ist. Sein berühmtes „Tschüss!" am Ende jeder Folge &ndash; der Kopf aus dem Wohnwagenfenster &ndash; war kein Abschied. Es war eine Grenzziehung: <em>Das war es für heute. Ich ziehe mich zurück.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Skepsis und Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der selbsterhaltenden Fünf eine charakteristische Färbung: Skepsis gegenüber Autoritäten, ein waches Auge für Systeme und deren Schwächen, ein tiefes Verantwortungsgefühl gegenüber dem, was man für richtig hält. Die SE5w6 sammelt nicht nur Wissen &ndash; sie fragt, was dieses Wissen bedeutet, wem es nützt, und was man dagegen tun kann.</p>
+          <p class="vb-intro">Bei Peter Lustig zeigte sich das in der ökologischen und gesellschaftskritischen Haltung, die <em>Löwenzahn</em> durchzog. Die Sendung erklärte nicht nur, wie ein Blitzableiter funktioniert oder warum Löwenzahn so hartnäckig ist. Sie fragte immer auch: <em>Was machen wir mit dieser Welt? Warum bauen wir Dinge so, dass man sie nicht reparieren kann? Wem gehört eigentlich dieser Boden?</em> Das ist der Sechserflügel: Wissen als Werkzeug für Verantwortung.</p>
+          <p class="vb-intro">Der Sechserflügel erklärt auch Peters tiefe Loyalität gegenüber seinem Publikum &ndash; den Kindern. Nicht als Entertainer, der gefallen will, sondern als jemand, der Kinder für ernst hält und ihnen zutraut, die Welt zu verstehen. Dahinter steckt eine SE5w6-Überzeugung: <em>Wer versteht, kann sich schützen. Wer weiß, kann handeln.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 ist ihre Fähigkeit, komplexe Zusammenhänge klar und ohne Selbstbezug zu vermitteln. Peter Lustig hat Millionen von Kindern das Staunen beigebracht &ndash; nicht durch Spektakel, sondern durch Genauigkeit. Das ist das Geschenk der Eule: Sie sieht, was wirklich da ist, und zeigt es, ohne es aufzublasen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, die Angst, zu viel zu geben und dabei leer zu werden. Bei der SE5 äußert sich das als Rückzug hinter die Burgmauern: <em>Ich gebe euch diese Sendung. Den Rest behalte ich für mich.</em> Peter Lustig war off-screen kaum greifbar. Interviews, öffentliche Auftritte, persönliche Nähe &ndash; das blieb hinter der Burg.</p>
+          <p class="vb-intro">Der Sechserflügel kann die Skepsis in Misstrauen kippen lassen &ndash; eine Welt voller Gefahren, Systeme und Mächte, gegen die man sich schützen muss. Das kann lähmen. Bei Lustig blieb es produktiv: Die Skepsis wurde zur Frage, die Frage wurde zur Sendung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beobachten zum Teilhaben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em> Für die SE5w6 bedeutet das, die Burg nicht aufzugeben, aber die Zugbrücke gelegentlich herunterzulassen &ndash; nicht weil man muss, sondern weil echter Kontakt nährt statt kostet.</p>
+          <p class="vb-intro">Peter Lustig hat diesen Schritt über seine Arbeit getan. Der Wohnwagen blieb seine Burg &ndash; aber er öffnete das Fenster. Jedes „Tschüss!" war auch ein Versprechen: <em>Ich komme wieder. Ich zeige euch mehr.</em> Die Eule, die in der Dunkelheit sieht und das, was sie sieht, in Worte fasst &ndash; damit andere lernen, ebenfalls zu schauen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
       ])}
     </div>
   `);
@@ -32079,6 +32141,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
