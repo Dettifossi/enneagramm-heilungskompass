@@ -7643,7 +7643,7 @@ function kathrinBauerfeindPortraitPage() {
         <h2 class="vb-section">5. Der Heilungsweg: Vom Leisten zum Sein</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 ist dieser Weg besonders vielschichtig: Der Viererflügel öffnet die Tür zur inneren Welt, aber er kann auch die Quelle tiefer Selbstkritik sein. Der nächste Schritt ist nicht mehr Reflexion &ndash; sondern Akzeptanz.</p>
-          <p class="vb-intro">Die wachsende SE3w4 entdeckt: Sie muss weder der kompetentesten noch der einzigartigsten Person im Raum sein, um zu gehören. Der Waschbär, der die Maske abnimmt, findet darunter kein Defizit &ndash; sondern ein Gesicht, das schon immer da war. Kathrin Bauerfeind hat in ihren Texten und Auftritten immer wieder Momente, in denen genau das sichtbar wird: eine Bereitschaft zur Verletzlichkeit, die zeigt, dass die Kompetenz nicht alles ist. Das ist der Heilungsweg, der schon begonnen hat.</p>
+          <p class="vb-intro">Die wachsende SE3w4 entdeckt: Sie muss weder die kompetenteste noch die einzigartigste Person im Raum sein, um dazuzugehören. Der Waschbär, der die Maske abnimmt, findet darunter kein Defizit &ndash; sondern ein Gesicht, das schon immer da war. Kathrin Bauerfeind hat in ihren Texten und Auftritten immer wieder Momente, in denen genau das sichtbar wird: eine Bereitschaft zur Verletzlichkeit, die zeigt, dass die Kompetenz nicht alles ist. Das ist der Heilungsweg, der schon begonnen hat.</p>
         </blockquote>
 
       </div>
