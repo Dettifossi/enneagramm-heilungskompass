@@ -201,6 +201,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
+    heading:"Christian Rätsch – Selbsterhaltender Typ 5",
+    teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
+    tags:["Wissenschaft"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7393,6 +7397,64 @@ function anaDeArmasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function christianRaetschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se5.png" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christian Rätsch</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Ethnologe &amp; Ethnopharmakologe, 1957&ndash;2022 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typ 5 &ndash; und sie ist ein Tier der Stille und der Tiefe. Sie sieht, was andere nicht sehen: in der Dunkelheit, in den Zwischenräumen, dort, wo das gewöhnliche Auge versagt. Die Eule ist kein geselliges Tier. Sie beobachtet aus der Distanz, sie hortet ihr Wissen, sie wartet &ndash; und wenn sie handelt, dann mit einer Präzision, die keine Energie verschwendet. Sie ist kein Tier der großen Geste. Sie ist ein Tier der konzentrierten Kraft.</p>
+          <p class="vb-intro">Christian Rätsch war einer der bedeutendsten Ethnopharmakologen seiner Zeit &ndash; ein Forscher, der sein Leben dem Wissen über Heilpflanzen, Räucherstoffe und schamanische Traditionen gewidmet hat. Sein Standardwerk <em>Enzyklopädie der psychoaktiven Pflanzen</em> gilt als das umfassendste botanisch-ethnologische Nachschlagewerk auf diesem Gebiet überhaupt. Er hat nicht popularisiert. Er hat dokumentiert, systematisiert, bewahrt. Die Eule, die in der Dunkelheit sieht &ndash; dort, wo andere nicht hinschauen wollen oder dürfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Wissen als Zuhause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der den Rückzug der Fünf auf das eigene Territorium richtet. Naranjo nennt diesen Subtyp <em>Totem</em> &ndash; die Suche nach einem sicheren, privaten Raum, in dem das Wissen gehütet und das Selbst geschützt werden kann. Die SE5 baut sich ein unsichtbares Gehäuse aus Wissen, Routine und Abstand: klar definierte Grenzen, minimale Abhängigkeiten, maximale Kontrolle über die eigene Welt.</p>
+          <p class="vb-intro">Bei Christian Rätsch zeigte sich das in der Art, wie er forschte: nicht von Universitätslehrstühlen aus, nicht als Teil institutioneller Strukturen, sondern als unabhängiger Wissenschaftler, der seinen eigenen Weg ging. Er verbrachte Jahrzehnte in schamanischen Traditionen &ndash; bei den Maya in Mexiko, bei Völkern in Südamerika und Asien &ndash; nicht als distanzierter Beobachter, sondern als jemand, der verstehen wollte, was wirklich geschieht. Aber er ist nie aufgegangen. Er ist immer der Forscher geblieben, der beobachtet, notiert, systematisiert.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Fünf auf die Frage aus: <em>Habe ich genug? Bin ich sicher? Habe ich genügend Ressourcen &ndash; an Wissen, an Raum, an Zeit &ndash; um zu überleben?</em> Bei Rätsch ist diese Frage zur Berufung geworden: Das Wissen über die Pflanzen ist sein Totem &ndash; sein sicheres Territorium in einer Welt, die oft feindlich auf dieses Wissen reagiert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe statt Breite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Fünf eine charakteristische Färbung: das Bedürfnis nach Einzigartigkeit, nach dem Unverwechselbaren, nach dem, was andere nicht sehen oder nicht sehen wollen. Die reine SE5 könnte in der Breite des Wissens aufgehen &ndash; sammeln, systematisieren, archivieren. Der Viererflügel fragt dahinter: <em>Was ist das Besondere? Was trägt eine eigene Seele? Was ist mehr als nur Information?</em></p>
+          <p class="vb-intro">Bei Christian Rätsch zeigte sich der Viererflügel in seiner besonderen Affinität zur spirituellen und rituellen Dimension der Pflanzen. Er forschte nicht nur über Wirksubstanzen &ndash; er forschte über Bedeutung. Über die Frage, was eine Pflanze für eine Kultur bedeutet, wie sie in Ritualen eingesetzt wird, welche Weltbilder hinter ihrem Gebrauch stehen. Das ist die SE5w4: Wissen, das Tiefe sucht, nicht nur Breite. Erkenntnis, die berühren will, nicht nur erklären.</p>
+          <p class="vb-intro">Der Viererflügel erklärt auch Rätschs enge Zusammenarbeit mit Künstlern und Musikern &ndash; besonders mit der psychedelischen Szene, mit Bands wie Brainticket oder mit dem Umfeld von Timothy Leary. Die SE5w4 weiß: Manche Wahrheiten lassen sich nicht nur in Lexika fassen. Sie brauchen Kunst, Ritual, Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w4 ist ihre Fähigkeit zur vollständigen Hingabe an ein Thema &ndash; ohne Ablenkung, ohne Kompromiss, ohne den Wunsch nach sozialer Bestätigung. Christian Rätsch hat ein Werk aufgebaut, das seinesgleichen sucht: über 30 Bücher, darunter Standardwerke, die in zahlreiche Sprachen übersetzt wurden. Das ist keine Karriere. Das ist eine Berufung. Die Eule, die ihr ganzes Leben lang in die Dunkelheit schaut &ndash; und dabei Licht findet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; nicht im materiellen Sinn, sondern als das Horten von Energie, Zeit und Wissen: <em>Ich habe nicht genug, um zu geben. Wenn ich gebe, verliere ich.</em> Bei der SE5 äußert sich das als Tendenz zum Rückzug &ndash; hinter die Bücher, hinter die Forschung, hinter die klaren Grenzen des eigenen Territoriums. Kontakt kostet Energie. Und Energie ist kostbar.</p>
+          <p class="vb-intro">Der Viererflügel bringt die Gefahr der Isolierung durch Einzigartigkeit: Wenn das Thema so spezifisch wird, dass es kaum jemanden mehr gibt, der mitkommt, kann die SE5w4 in der eigenen Welt verschwinden &ndash; reich an Wissen, arm an Verbindung. Das ist kein Fehler. Aber es ist ein Preis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Horten zum Teilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen wird größer, wenn ich es teile &ndash; nicht kleiner.</em> Für die SE5w4 bedeutet das, das eigene Territorium nicht als Festung zu nutzen, sondern als Ausgangspunkt: <em>Was ich weiß, kann anderen helfen. Was ich gesammelt habe, kann weiterleben.</em></p>
+          <p class="vb-intro">Christian Rätsch hat diesen Schritt in seinem Werk getan &ndash; indem er jahrzehntelang Wissen zugänglich gemacht hat, das sonst verloren gegangen wäre. Die Eule, die in der Dunkelheit sieht und das, was sie sieht, in Worte fasst &ndash; damit andere es sehen können, auch wenn es hell geworden ist. Das ist das Geschenk der SE5w4: ein Wissen, das nicht für sich selbst gehütet wird, sondern für die, die nach ihm suchen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
       ])}
     </div>
   `);
@@ -32016,6 +32078,7 @@ function render() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
+      "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
