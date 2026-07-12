@@ -169,6 +169,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cristiano Ronaldo – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1985. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore. Der Gepard, der nie aufhört zu rennen – und der trotzdem weiß, wo er herkommt.",
     tags:["Sport"] },
+  { route:"beruehmte-bella-thorne", name:"Bella Thorne", subtyp:"SO3w4",
+    heading:"Bella Thorne – Sozialer Typ 3",
+    teaser:"SO3w4 · geb. 1997. Schauspielerin, Regisseurin, Social-Media-Star. Vom Disney-Kind zur Regisseurin – der Gepard, der nicht nur sprintet, sondern auch die Dunkelheit kennt.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7596,6 +7600,65 @@ function matthiasSchweighoeferPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function bellaThornePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#9f123a18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐆</span>
+        </div>
+        <p class="krim-portrait-name">Bella Thorne</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1997 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde. Was den Gepard auszeichnet, ist nicht Größe oder rohe Kraft, sondern die Fähigkeit, sich in kürzester Zeit auf volle Geschwindigkeit zu bringen. Kein Zögern, kein Umweg, nur der direkte Sprung auf das Ziel. Der Gepard ist ein Tier des öffentlichen Raums &ndash; er jagt nicht im Verborgenen, er jagt auf der Savanne, sichtbar für alle.</p>
+          <p class="vb-intro">Bella Thorne ist mit dreizehn Jahren als Kinderschauspielerin bei Disney bekannt geworden &ndash; und hat seitdem keine Pause gemacht. Schauspielerin, Sängerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star mit Dutzenden Millionen Followern. Das Tempo ist Gepard-Tempo: immer in Bewegung, immer präsent, immer auf dem nächsten Sprung. Stillstand ist für die soziale Drei keine Option &ndash; sie braucht den Lauf, um sich lebendig zu fühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Sichtbarkeit als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> richtet ihre Energie auf das Feld der öffentlichen Anerkennung: auf Status, Ansehen, die Frage, wie sie von anderen wahrgenommen wird. Claudio Naranjo nennt diesen Subtyp den Verstärkungstyp &ndash; derjenige, bei dem die Dreier-Themen Eitelkeit und Leistungsdrang am deutlichsten hervortreten. Die SO3 braucht kein stilles Territorium. Sie braucht die Bühne.</p>
+          <p class="vb-intro">Bei Bella Thorne zeigt sich das in einer Konsequenz, die beeindruckt und manchmal überfordert: Sie ist überall. Nicht passiv präsent, sondern aktiv gestaltend. Sie hat ihren OnlyFans-Account in den ersten 24 Stunden auf über eine Million Dollar Umsatz gebracht &ndash; nicht trotz der öffentlichen Aufmerksamkeit, sondern wegen ihr. Sie hat die Regeln des Spiels verstanden und nutzt sie. Die SO3 weiß instinktiv: Sichtbarkeit ist Kapital. Wer gesehen wird, existiert.</p>
+          <p class="vb-intro">Charakteristisch für die SO3 ist auch der Mut zur Provokation als Strategie. Bella Thorne hat wiederholt Grenzen verschoben &ndash; in ihrer Darstellung von Sexualität, in ihrer öffentlichen Auseinandersetzung mit Hollywood, in ihrer Bereitschaft, das Unbequeme zu sagen. Das ist nicht Rücksichtslosigkeit. Das ist die SO3, die gelernt hat: Wer nicht auffällt, wird vergessen. Und vergessen sein ist der tiefste Schrecken der sozialen Drei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe unter der Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sozialen Drei etwas Unerwartetes: das Bewusstsein für Schmerz, für das Unvollständige, für die eigene innere Welt jenseits des Erfolgs. Die reine SO3 könnte glatt wirken &ndash; immer im Glanz, immer optimiert, immer das richtige Bild. Der Viererflügel bricht das auf: Hier ist jemand, der auch das Dunkle kennt &ndash; und bereit ist, es zu zeigen.</p>
+          <p class="vb-intro">Bei Bella Thorne ist der Viererflügel in ihrer ungewöhnlichen Offenheit sichtbar. Sie hat öffentlich über ihre Kindheit gesprochen &ndash; über den frühen Verlust ihres Vaters, über sexuellen Missbrauch, über Dyslexie und die Herausforderungen ihrer Schulzeit. Diese Offenheit ist kein Kalkül allein &ndash; sie ist das Zeichen einer Persönlichkeit, die sich nicht nur als Erfolgsmaschine versteht, sondern als Mensch mit Geschichte. Der Viererflügel will nicht nur strahlen. Er will auch wahr sein.</p>
+          <p class="vb-intro">Der Viererflügel erklärt auch Thornes künstlerische Entscheidungen: Sie hat Rollen übernommen und Projekte inszeniert, die weit über das hinausgehen, was ihrer Marke nützen würde. Die SO3w4 sucht nicht nur den sicheren Erfolg &ndash; sie sucht den Ausdruck. Das macht sie komplexer und widersprüchlicher als viele ihrer Altersgenossen im Showbusiness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre Energie und Gestaltungskraft. Bella Thorne hat sich in einem Metier behauptet, das Menschen schnell verbraucht &ndash; und sie hat dabei die Kontrolle über ihre eigene Geschichte nie vollständig aus der Hand gegeben. Wer mit dreizehn anfängt und mit Ende zwanzig bereits Regisseurin ist, hat mehr geleistet als die meisten, die doppelt so alt sind. Das ist Gepard-Energie in ihrer kreativsten Form.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; das tiefe Bedürfnis, als erfolgreich und wertvoll wahrgenommen zu werden, auch dann, wenn die innere Realität anders klingt. Bei der SO3 äußert sich das als Versuchung, das Bild über die Wahrheit zu stellen: die perfekte Inszenierung, das strategisch gesetzte Skandälchen, die Emotion, die für das Publikum performt wird. Die Grenze zwischen echtem Ausdruck und kalkulierter Wirkung ist für die SO3w4 eine der schwierigsten Fragen des Lebens.</p>
+          <p class="vb-intro">Der Viererflügel verstärkt das Spannungsfeld: Er bringt die Sehnsucht nach Echtheit &ndash; und gleichzeitig das Risiko, auch den Schmerz zu inszenieren. Wer gelernt hat, dass Verletzlichkeit Aufmerksamkeit erzeugt, muss sich fragen: Wann zeige ich mich, und wann zeige ich eine Version von mir?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Bild zur Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne Publikum.</em> Für die SO3w4 bedeutet das einen doppelten Schritt: loszulassen, dass der öffentliche Erfolg den eigenen Wert definiert &ndash; und gleichzeitig die innere Tiefe des Viererflügels nicht nur als Quelle interessanter Inhalte zu nutzen, sondern als echten Lebensraum.</p>
+          <p class="vb-intro">Bella Thorne ist jung &ndash; und ihr Heilungsweg liegt noch vor ihr. Aber die Schritte, die sie bereits gegangen ist: die Offenheit über Trauma, der Wechsel hinter die Kamera, der Versuch, die eigene Geschichte selbst zu erzählen statt erzählt zu werden &ndash; das sind Zeichen, dass der Gepard bereits weiß: Es gibt ein Leben jenseits des Sprints. Und dieses Leben könnte das tiefste sein, das er je gelebt hat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
       ])}
     </div>
   `);
@@ -31524,6 +31587,7 @@ function render() {
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
+      "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
