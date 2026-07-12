@@ -7573,7 +7573,7 @@ function taylorSwiftPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX5w4 ist ihre Fähigkeit, das Innen in Außen zu verwandeln &ndash; persönliche Erfahrungen in Kunst, die Millionen berührt. Taylor Swifts Songs haben eine Präzision, die nur aus echter Beobachtung kommt: der richtige Schuh auf dem falschen Boden, das falsche Lächeln zum richtigen Zeitpunkt. Das ist das Geschenk der Igelin: Sie sieht, wo andere wegsehen.</p>
           <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; und bei der SX5 zeigt er sich als Kontrollsucht über das eigene Bild. Swifts Verhältnis zur Öffentlichkeit ist ambivalent: Sie inszeniert sich mit enormem Aufwand, aber immer auf eigenen Bedingungen. Narrative, die nicht passen, werden in Songs verarbeitet &ndash; und damit endgültig definiert. <em>Ich entscheide, wie diese Geschichte erzählt wird.</em></p>
-          <p class="vb-intro">Der Viererflügel bringt die Gefahr der Selbstbezogenheit: wenn die eigene Erfahrung so sehr zum Zentrum wird, dass andere hauptsächlich als Material vorkommen. Songs über Ex-Partner, die diese nicht gefragt haben &ndash; das ist ein Grenzbereich, den Swift selbst immer wieder berührt.</p>
+          <p class="vb-intro">Der Viererflügel bringt die Gefahr der Selbstbezogenheit: wenn die eigene Erfahrung so sehr zum Zentrum wird, dass andere hauptsächlich als Material vorkommen. Songs über Ex-Partner, die sie nicht gefragt hat &ndash; das ist ein Grenzbereich, den Swift selbst immer wieder berührt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Vom Horten zum Vertrauen</h2>
