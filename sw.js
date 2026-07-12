@@ -1,4 +1,4 @@
-const CACHE = "kompass-v12";
+const CACHE = "kompass-v13";
 const PRECACHE = ["./", "./index.html", "./styles.css", "./bundle.js", "./manifest.json", "./offline.html"];
 
 self.addEventListener("install", e => {
@@ -16,7 +16,6 @@ self.addEventListener("activate", e => {
       Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
     ).then(() => {
       self.clients.claim();
-      // Alle offenen Tabs neu laden damit sie den neuen SW sofort nutzen
       return self.clients.matchAll({ type: "window" }).then(clients => {
         clients.forEach(client => client.navigate(client.url));
       });
@@ -34,7 +33,11 @@ self.addEventListener("fetch", e => {
         const clone = res.clone();
         caches.open(CACHE).then(c => c.put(e.request, clone));
         return res;
-      }).catch(() => caches.match(e.request).then(r => r || caches.match("./offline.html")))
+      }).catch(() =>
+        caches.match(e.request)
+          .then(r => r || caches.match("./index.html"))
+          .then(r => r || caches.match("./offline.html"))
+      )
     );
     return;
   }

@@ -61,6 +61,34 @@
     Falls das Problem länger besteht, löschen Sie bitte den Browser-Cache<br>
     und laden die Seite neu.
   </p>
-  <button class="btn" onclick="window.location.reload()">Jetzt neu laden</button>
+  <button class="btn" id="reload-btn" onclick="tryReload()">Jetzt neu laden</button>
+  <script>
+    function tryReload() {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          if (regs.length > 0) {
+            Promise.all(regs.map(function(r) { return r.unregister(); })).then(function() {
+              window.location.reload(true);
+            });
+          } else {
+            window.location.reload(true);
+          }
+        }).catch(function() { window.location.reload(true); });
+      } else {
+        window.location.reload(true);
+      }
+    }
+    // Automatisch versuchen: SW deregistrieren & neu laden (nur einmal)
+    if ("serviceWorker" in navigator && !sessionStorage.getItem("sw-recovery")) {
+      sessionStorage.setItem("sw-recovery", "1");
+      navigator.serviceWorker.getRegistrations().then(function(regs) {
+        if (regs.length > 0) {
+          Promise.all(regs.map(function(r) { return r.unregister(); })).then(function() {
+            window.location.reload(true);
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
