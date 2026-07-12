@@ -257,6 +257,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
+    heading:"Umberto Eco – Selbsterhaltender Typ 8",
+    teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
+    tags:["Literatur","Wissenschaft"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7792,6 +7796,61 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function umbertEcoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/se8-tier.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Umberto Eco</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, Semiotiker &amp; Philosoph, 1932&ndash;2016 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild trifft Umberto Eco genauer. Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel. Er bewegt sich langsam, bedächtig, mit einer Würde, die keine Eile kennt. Sein Werkzeuggebrauch ist legendär. Er ist der Einzige unter den Affen, der Jahrzehnte alte Kenntnisse über Nahrungsquellen in einem bestimmten Revier speichert &ndash; ein wandelndes Archiv.</p>
+          <p class="vb-intro">Umberto Eco besaß über 30.000 Bücher. Nicht als Dekoration, sondern als Denkinstrument. Er nannte es seine <em>Antibibliothek</em>: die Bücher, die man noch nicht gelesen hat, seien wichtiger als die gelesenen &ndash; denn sie erinnern an alles, was man noch nicht weiß. Der Orang-Utan thront in seinem Baum, umgeben von dem, was er angesammelt hat. Und er lächelt, wenn andere fragen, ob er das alles wirklich gelesen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Lust als Lebensphilosophie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht &ndash; die <em>Wollust</em> &ndash; durch Sammeln, Genuss und sinnliche Fülle aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Befriedigung als Lebensprinzip. Die SE8 will haben, was sie braucht &ndash; in Hülle und Fülle. Bücher, Wissen, gutes Essen, guten Wein, Raum, Einfluss. Nicht aus Gier, sondern aus einem tiefen Gespür dafür, dass Überfluss Sicherheit bedeutet.</p>
+          <p class="vb-intro">Eco lebte dieses Prinzip mit enzyklopädischer Konsequenz. Er schrieb über Ästhetik, Semiotik, Medienwissenschaft, Mittelalter, Comicstrips, James Bond und die Struktur von Labyrinthen &ndash; alles mit derselben Intensität, derselben Lust am Material. Die SE8 trennt nicht zwischen wichtig und unwichtig. Alles, was fasziniert, gehört gesammelt, durchdrungen, besessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Witz als Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der selbsterhaltenden Acht etwas, das die reine Acht manchmal vermissen lässt: Leichtigkeit. Die reine Acht kann schwer werden, fordernd, kompromisslos. Der Siebenerflügel öffnet ein Fenster &ndash; er bringt Spielfreude, Ironie, die Bereitschaft, das eigene Wissen nicht als Keule zu benutzen, sondern als Einladung.</p>
+          <p class="vb-intro">Eco war ein brillanter Humorist. Sein <em>Name der Rose</em> ist ein Kriminalroman, der gleichzeitig eine Abhandlung über mittelalterliche Semiotik ist &ndash; und der trotzdem 50 Millionen Menschen weltweit fesselte. Seine Kolumnen für die <em>Espresso</em> waren geistreich, bissig, nie selbstgefällig. Er konnte über Trivialkultur schreiben wie über Aristoteles &ndash; mit derselben Neugier, demselben Vergnügen. Das ist der Siebenerflügel: Erkenntnis als Genuss, nicht als Pflicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Schöpfungskraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> &ndash; nicht im engeren Sinne, sondern als Hunger nach Intensität, nach Lebendigkeit, nach dem vollen Erleben. Die selbsterhaltende Acht richtet diesen Hunger auf das Materielle: auf Besitz, auf sinnliche Erfahrung, auf alles, was sich anfassen, lesen, schmecken, durchdenken lässt.</p>
+          <p class="vb-intro">Eco las alles. Er schrieb über alles. Er sammelte alles. Seine Semiotik war keine trockene Wissenschaft &ndash; sie war der Versuch, die Welt als System von Zeichen zu begreifen, das man durchdringen, besitzen, entschlüsseln kann. Das <em>Foucaultsche Pendel</em> ist ein Roman über Männer, die aus Zeichen eine Weltverschwörung konstruieren &ndash; und daran zugrunde gehen. Eco kannte die Verführungskraft des Wissens. Und er erlag ihr, lustvoll, ein Leben lang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Das Labyrinth als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Umberto Eco der Welt gegeben hat, ist mehr als Literatur oder Wissenschaft. Es ist eine Haltung: dass Komplexität kein Problem ist, das gelöst werden muss, sondern ein Raum, in dem man leben kann. Das Labyrinth ist nicht beängstigend &ndash; es ist interessant. Wer darin zu Hause ist, verliert sich nicht. Er entdeckt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE8w7: die Lust am Undurchdringlichen, verbunden mit der Großzügigkeit, andere mitzunehmen. Eco hat nicht vereinfacht. Aber er hat verständlich gemacht, warum Komplexität schön ist. Der Orang-Utan, der im Geäst sitzt, umgeben von 30.000 Büchern &ndash; und der jedem, der fragt, zeigt, wie man darin nicht verloren geht, sondern gefunden wird.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);
@@ -32886,6 +32945,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
