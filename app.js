@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
+    heading:"Bill Gates – Sozialer Typ 5",
+    teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
+    tags:["Wirtschaft","Macht"] },
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -7463,6 +7467,64 @@ function christianRaetschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function billGatesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so5.png" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Gates</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Microsoft-Gründer, geb. 1955 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; intelligent, anpassungsfähig, mit acht Armen gleichzeitig in alle Richtungen greifend. Er ist kein Tier der offenen Konfrontation. Er tarnt sich. Er wartet. Er umfasst sein Ziel, bevor dieses bemerkt hat, dass es umfasst wird. Und wenn er zupackt, dann mit einer Kraft, die man von außen nicht erahnt hätte.</p>
+          <p class="vb-intro">Bill Gates ist dieser Oktopus &ndash; und das ist kein Lob. Es ist eine Beschreibung. Einer der reichsten Menschen der Welt, Gründer von Microsoft, heute als Philanthrop bekannt. Aber hinter dem freundlichen Pullover und dem bescheidenen Auftreten liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen. Und der unerschütterliche Glaube, dass er derjenige sein sollte, der entscheidet, wie es genutzt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Das Totem als Machtinstrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> ist nach Naranjo der Subtyp, der Wissen mit der Gemeinschaft teilt &ndash; <em>Totem</em>: das Wissen als Identität, als Band, als Beitrag. Im Licht ist das ein Geschenk. Im Schatten wird das Totem zum Thron: <em>Ich definiere, was Wissen ist. Ich entscheide, was zählt. Und wer Zugang will, kommt zu mir.</em></p>
+          <p class="vb-intro">Microsoft war kein Unternehmen, das ein besseres Produkt baute und damit gewann. Es war ein Unternehmen, das Märkte systematisch verschloss. In den 1990er Jahren führten die USA und die EU Antitrust-Verfahren gegen Microsoft &ndash; mit dem Ergebnis, dass das Unternehmen Wettbewerber aktiv behindert, Hersteller unter Druck gesetzt und Konkurrenzprodukte aus dem Markt gedrängt hatte. Der Browser-Krieg, die Knebelung von Herstellern, die sogenannte „Embrace, extend, extinguish"-Strategie: erst den Standard übernehmen, dann erweitern, dann den Konkurrenten aussperren. Das ist kein Kapitalismus. Das ist Kontrolle.</p>
+          <p class="vb-intro">Das Totem der SO5 ist hier zum Monopol geworden: <em>Jeder braucht mein System. Und weil jeder mein System braucht, braucht jeder mich.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Systeme bauen, Systeme kontrollieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Sicherheit durch Systeme: Regeln, Strukturen, Allianzen &ndash; Netzwerke, die schützen. Im Licht ist das Verlässlichkeit. Im Schatten ist es die Überzeugung, dass man die Systeme selbst bauen muss &ndash; denn nur dann kann man sicher sein, dass sie funktionieren. Für einen, der so denkt.</p>
+          <p class="vb-intro">Als Gates die Welt der Technologie zu durchdringen begann, wandte er sich einem neuen System zu: der globalen Gesundheit. Die <em>Bill &amp; Melinda Gates Foundation</em> ist heute einer der größten privaten Geldgeber der Weltgesundheitsorganisation WHO &ndash; und damit einer der einflussreichsten Akteure in der globalen Gesundheitspolitik überhaupt. Ein Privatmann ohne demokratische Legitimation entscheidet mit, welche Krankheiten bekämpft werden, welche Forschung gefördert wird, welche Länder welche Gesundheitsprogramme erhalten.</p>
+          <p class="vb-intro">Gates selbst hat in einem CNBC-Interview 2019 erklärt, dass Investitionen in Impfstoffe eine Rendite von etwa 20:1 brächten &ndash; zwanzig Dollar zurück für jeden investierten Dollar. Man kann das als nüchterne Kosten-Nutzen-Rechnung lesen. Man kann es auch als Offenbarung lesen: <em>Philanthropie rechnet sich.</em> Das ist die SO5w6 im Schatten: Wissen als Investition, Hilfe als Geschäftsmodell, Nächstenliebe als Portfolio.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Schatten: Geiz, Kontrolle und die Epstein-Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; aber nicht nur Geiz im materiellen Sinn. Es ist das Horten von Einfluss, von Zugang, von Kontrolle. <em>Ich gebe &ndash; aber ich behalte die Entscheidungsgewalt darüber, wem ich wie viel gebe, wofür und unter welchen Bedingungen.</em> Gates' Philanthropie folgt diesem Muster: Sie ist groß, sie ist sichtbar &ndash; und sie ist nie wirklich aus der Hand gegeben.</p>
+          <p class="vb-intro">Schwerer wiegt, was über seine Verbindung zu Jeffrey Epstein bekannt ist. Epstein war ein verurteilter Sexualstraftäter &ndash; und Gates traf sich nach dieser Verurteilung wiederholt mit ihm, flog auf seinem Privatjet, pflegte eine Beziehung, die nach Epsteins Tod ans Licht kam. Gates erklärte zunächst, Epstein kaum zu kennen. Als die E-Mails und Zeugenaussagen das Gegenteil belegten, sprach er von einem „Fehler". Die Verbindung spielte auch eine Rolle bei der Scheidung von Melinda Gates, die laut Berichten über das Ausmaß der Beziehung entsetzt war.</p>
+          <p class="vb-intro">Das ist kein Lapsus. Das ist ein Muster: ein Mann, der öffentlich Kontrolle über sein Image aufrechterhält &ndash; und privat Verbindungen pflegt, die diesem Image fundamental widersprechen. Der Oktopus, der tarnt und umfasst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Macht loslassen, nicht verteilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Ich habe mehr als genug &ndash; und das Festhalten macht mich nicht sicherer, sondern ärmer.</em> Für die SO5w6 im Schatten bedeutet das etwas Radikales: nicht nur Geld verteilen, sondern Macht abgeben. Nicht entscheiden, wer welche Impfstoffe bekommt &ndash; sondern die Entscheidung denen überlassen, die betroffen sind. Nicht Systeme bauen, in denen man selbst unentbehrlich bleibt &ndash; sondern Systeme stärken, die ohne einen selbst funktionieren.</p>
+          <p class="vb-intro">Ob Bill Gates diesen Schritt je gehen wird, bleibt offen. Was bleibt, ist das Bild: ein Oktopus, der mit acht Armen greift und hält &ndash; und der vielleicht noch nicht begriffen hat, dass das Loslassen der Akt wäre, der wirklich etwas verändert.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
       ])}
     </div>
   `);
@@ -32202,6 +32264,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
