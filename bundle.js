@@ -173,6 +173,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
     tags:["Medien"] },
+  { route:"beruehmte-dieter-bohlen", name:"Dieter Bohlen", subtyp:"SX3w4",
+    heading:"Dieter Bohlen – Sexueller Typ 3",
+    teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
+    tags:["Musik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7077,6 +7081,65 @@ function christophWaltzPortraitPage() {
     </div>
   `);
 }
+
+function dieterBohlenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦚</span>
+        </div>
+        <p class="krim-portrait-name">Dieter Bohlen</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Musikproduzent &amp; Komponist, geb. 1954 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; und er ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung. Eine Darbietung, die sagt: <em>Schau mich an. Ich bin das Schönste, was du heute siehst.</em> Der Pfau weiß genau, was er ist &ndash; und er versteckt es nicht.</p>
+          <p class="vb-intro">Dieter Bohlen hat Deutschland über vier Jahrzehnte lang mit einer Energie beschäftigt, die man lieben oder hassen kann, aber nicht ignorieren. Als Hälfte von Modern Talking hat er mit Thomas Anders in den 1980er Jahren Welthits produziert, die bis heute gespielt werden. Als Juror bei <em>Deutschland sucht den Superstar</em> hat er ein Jahrzehnt lang das Fernsehen geprägt. Als Autor seiner Biografie <em>Nichts bleibt für immer</em> hat er Millionen Exemplare verkauft. Der Pfau schlägt das Rad &ndash; und das Rad ist groß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Verführung als Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der die Energie der Drei in die unmittelbare persönliche Anziehung lenkt. Nicht die öffentliche Bühne wie die soziale Drei, nicht die stille Kompetenz wie die selbsterhaltende Drei &ndash; sondern die direkte, elektrisierende Wirkung auf den Menschen gegenüber. Die SX3 verführt. Nicht im banalen Sinn, sondern im tiefen: Sie schafft eine Atmosphäre, in der der andere fühlt, dass er gerade einem besonderen Moment begegnet.</p>
+          <p class="vb-intro">Bei Dieter Bohlen zeigt sich das in einer Mischung aus Charme und Provokation, die sein Markenzeichen ist. Er sagt Dinge, die andere nicht sagen &ndash; direkt, zugespitzt, manchmal verletzend. Aber er sagt sie mit einer Selbstsicherheit, die fasziniert: Wer so redet, glaubt wirklich daran. Die SX3 bezaubert nicht durch Höflichkeit, sondern durch die Kraft der eigenen Überzeugung. Bohlen wirkt echt, weil er vollständig bei sich ist &ndash; zumindest auf der Oberfläche.</p>
+          <p class="vb-intro">Als Musikproduzent ist diese Energie in jedem seiner Hits spürbar. Der Erfolg von Modern Talking liegt nicht allein in eingängigen Melodien &ndash; er liegt in einer emotionalen Unmittelbarkeit, die Millionen Menschen direkt trifft. <em>You're My Heart, You're My Soul</em> spricht keine Köpfe an. Es spricht Körper an. Das ist SX3-Energie: Kontakt durch Klang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Wunde unter dem Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sexuellen Drei etwas, das man auf den ersten Blick nicht vermutet: Tiefe. Die reine SX3 könnte in der Verführung aufgehen &ndash; immer glänzend, immer überzeugend, immer auf der Jagd nach dem nächsten Moment der Verbindung. Der Viererflügel stellt eine andere Frage dahinter: <em>Aber wer bin ich wirklich? Was bleibt, wenn der Glanz verblasst?</em></p>
+          <p class="vb-intro">Bei Dieter Bohlen zeigt sich der Viererflügel in seiner Autobiografie und in den Momenten, in denen er über seine Herkunft spricht &ndash; über die einfachen Verhältnisse in Oldenburg, über den frühen Hunger nach mehr. Die SX3w4 weiß, dass unter dem Pfauenrad etwas liegt, das nicht glänzt. Und manchmal bricht das durch: in den Zuspitzungen, die zu weit gehen, in der Bereitschaft, sich öffentlich zu verletzen, in dem Bedürfnis, nicht nur erfolgreich zu sein, sondern auch <em>bedeutsam</em>.</p>
+          <p class="vb-intro">Der Viererflügel erklärt auch die Kontinuität in Bohlens Schaffen: Er hat nicht aufgehört, als der Erfolg gesichert war. Er ist immer weiter gegangen &ndash; neue Projekte, neue Kontroversen, neue Bücher. Das ist nicht nur Geltungsdrang. Das ist die Vier, die fragt: <em>Reicht das? Bin ich wirklich gesehen &ndash; nicht nur als Produzent, sondern als Mensch?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3 ist ihr Gespür für Resonanz. Dieter Bohlen hat ein musikalisches Instinkt, der nicht lehrbar ist: Er weiß, was Menschen bewegt, bevor sie es selbst wissen. Über 500 Millionen verkaufte Tonträger sind kein Zufall &ndash; das ist eine Fähigkeit, die tief in der SX3-Energie wurzelt: den anderen zu spüren, zu wissen, was ihn berührt, und genau das zu liefern.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; das tiefe Bedürfnis, als erfolgreich und bewundernswert wahrgenommen zu werden, auch dann, wenn die innere Realität komplizierter ist. Bei der SX3 äußert sich das als Schwierigkeit, verletzlich zu sein ohne Publikum: Echte Intimität, die nicht inszeniert ist, fällt der SX3 schwer. Bohlens Beziehungsgeschichte &ndash; viel beschrieben, oft öffentlich &ndash; spiegelt dieses Muster: Verbindung ja, aber immer mit einer Bühne darunter.</p>
+          <p class="vb-intro">Der Viererflügel bringt die Gefahr der Selbstdramatisierung: Wenn die innere Leere nicht durch Erfolg gefüllt werden kann, sucht die SX3w4 den Schmerz &ndash; und inszeniert ihn. Dann wird auch das Scheitern zur Vorstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Strahlen zum Schweigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch wenn niemand schaut.</em> Für die SX3 bedeutet das einen besonders persönlichen Schritt: Verbindung ohne Publikum zuzulassen. Den anderen wirklich zu sehen &ndash; nicht als Spiegel des eigenen Erfolgs, sondern als Mensch.</p>
+          <p class="vb-intro">Der Viererflügel gibt Dieter Bohlen dabei einen Hinweis: Die Fragen, die er immer wieder stellt &ndash; nach Herkunft, nach Bedeutung, nach dem, was bleibt &ndash; sind keine Schwäche. Sie sind die Einladung. Der Pfau, der das Rad einmal einklappt und einfach steht &ndash; ruhig, ohne Vorstellung, ohne Publikum &ndash; ist nicht weniger Pfau. Er ist vollständiger.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function kaiPflaumePortraitPage() {
   return shell(`
@@ -31575,6 +31638,7 @@ function render() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
+      "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
