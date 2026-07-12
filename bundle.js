@@ -161,6 +161,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
     tags:["Spiritualität"] },
+  { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
+    heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
+    tags:["Medien"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7588,6 +7592,65 @@ function matthiasSchweighoeferPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function kathrinBauerfeindPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#64748b18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦝</span>
+        </div>
+        <p class="krim-portrait-name">Kathrin Bauerfeind</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin, Moderatorin &amp; Autorin, geb. 1981 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist ein Tier, das man unterschätzt. Kein lauter Auftritt, kein Glanz, keine Bühne. Der Waschbär trägt eine natürliche Maske, bewegt sich leise durch die Nacht, nimmt das wahr, was andere übersehen, und wendet seine Geschicklichkeit ganz praktisch an: Was brauche ich? Wie komme ich dorthin? Der Waschbär ist kein Performer &ndash; er ist ein Überlebenskünstler mit feinen Händen.</p>
+          <p class="vb-intro">Kathrin Bauerfeind ist in der deutschen Medienlandschaft eine Figur, die sich dieser Logik entzieht. Sie ist nicht laut. Sie ist nicht glamourös. Und trotzdem ist sie überall: Talkshows, Podcasts, Bücher, Fernsehserien, journalistische Texte. Nicht durch Selbstinszenierung, sondern durch Kompetenz, Verlässlichkeit und eine stilistische Unverwechselbarkeit, die sich über Jahre aufgebaut hat. Der Waschbär wühlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; derjenige Subtyp, der am wenigsten wie eine Drei aussieht. Claudio Naranjo beschreibt ihn als denjenigen, der Leistung nach innen richtet: nicht auf Bewunderung, nicht auf öffentliche Anerkennung, sondern auf Sicherheit, Kompetenz und Aufbau. Die SE3 fragt nicht: <em>Wie werde ich gesehen?</em> Sie fragt: <em>Was kann ich? Was brauche ich? Was funktioniert?</em></p>
+          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich das in ihrer Bandbreite: Journalistin, Moderatorin, Entertainerin, Schauspielerin, Buchautorin &ndash; das ist kein Geltungsdrang, das ist Kompetenzaufbau. Die SE3 investiert in Können, weil Können Sicherheit bedeutet. Wer viel kann, ist schwer zu ersetzen. Wer in vielen Feldern zuhause ist, braucht kein Rampenlicht &ndash; er hat immer einen Weg.</p>
+          <p class="vb-intro">Charakteristisch für die SE3 ist auch ihre Glaubwürdigkeit: Sie muss nicht beeindrucken, sie muss überzeugen. Bauerfeind hat sich einen Ruf erarbeitet, der auf Qualität beruht, nicht auf Popularität. Ihre Interviews gelten als präzise und substanzreich, ihre Texte als geschliffen, ihre Moderationen als verlässlich. Das ist SE3-Energie in ihrer besten Form: Arbeit, die für sich spricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Sachlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei etwas, das sie von innen heraus verändert: das Bewusstsein für das Besondere, für das Unwiederholbare, für die eigene innere Welt. Die reine SE3 könnte sich in Effizienz und Nützlichkeit erschöpfen &ndash; immer funktional, immer produktiv, immer im Dienst des Aufbaus. Der Viererflügel stellt eine andere Frage daneben: <em>Aber was bedeutet das alles? Wer bin ich wirklich, jenseits dessen, was ich leiste?</em></p>
+          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich der Viererflügel in der stilistischen Eigenwilligkeit, die ihr Werk durchzieht. Sie hat keine Mainstream-Karriere gemacht &ndash; sie hat eine erkennbar persönliche Handschrift entwickelt. Ihr Buch <em>Wir könnten auch einfach gar nichts tun</em> ist kein Sachbuch im klassischen Sinn, sondern ein Essay-Band mit eigenem Ton: nachdenklich, ironisch, zuweilen melancholisch. Das ist der Viererflügel, der die Drei bereichert &ndash; er bringt Tiefe in das, was sonst vielleicht nur Kompetenz wäre.</p>
+          <p class="vb-intro">Der Viererflügel ist auch verantwortlich für eine gewisse innere Distanz zu sich selbst &ndash; die Fähigkeit, die eigene Arbeit nicht nur als Leistung zu betrachten, sondern als Ausdruck von etwas, das tiefer liegt. Die SE3w4 will nicht nur gut sein &ndash; sie will authentisch sein. Das macht sie komplexer als viele, die ähnlich produktiv sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Verlässlichkeit und Vielseitigkeit. Kathrin Bauerfeind ist in einem Metier zuhause, das schnell verbrennt, was es produziert &ndash; und sie ist seit Jahren präsent, ohne sich zu verausgaben oder zu wiederholen. Das ist kein Glück, das ist Strategie &ndash; die bewusste oder unbewusste Strategie der SE3, die in Kompetenz investiert statt in Aufmerksamkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; nicht im plakativen Sinn, sondern als das tiefe Bedürfnis, als wertvoll zu gelten. Bei der SE3 ist das besonders subtil: Die Bescheidenheit kann selbst zur Inszenierung werden. &bdquo;Ich brauche keine große Bühne&ldquo; ist manchmal eine sehr wirkungsvolle Art, auf sich aufmerksam zu machen, ohne den Verdacht der Eitelkeit auf sich zu ziehen.</p>
+          <p class="vb-intro">Der Viererflügel bringt seinen eigenen Schatten: das Gefühl, im Wesentlichen anders zu sein, nicht ganz dazuzugehören. Die SE3w4 kann zwischen dem Wunsch nach Anerkennung und dem Bedürfnis nach Einzigartigkeit hin- und herpendeln &ndash; und dabei den eigenen Beitrag chronisch unterschätzen, weil er ihr selbstverständlich erscheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Leisten zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 ist dieser Weg besonders vielschichtig: Der Viererflügel öffnet die Tür zur inneren Welt, aber er kann auch die Quelle tiefer Selbstkritik sein. Der nächste Schritt ist nicht mehr Reflexion &ndash; sondern Akzeptanz.</p>
+          <p class="vb-intro">Die wachsende SE3w4 entdeckt: Sie muss weder der kompetentesten noch der einzigartigsten Person im Raum sein, um zu gehören. Der Waschbär, der die Maske abnimmt, findet darunter kein Defizit &ndash; sondern ein Gesicht, das schon immer da war. Kathrin Bauerfeind hat in ihren Texten und Auftritten immer wieder Momente, in denen genau das sichtbar wird: eine Bereitschaft zur Verletzlichkeit, die zeigt, dass die Kompetenz nicht alles ist. Das ist der Heilungsweg, der schon begonnen hat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
       ])}
     </div>
   `);
@@ -31396,6 +31459,7 @@ function render() {
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
+      "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
