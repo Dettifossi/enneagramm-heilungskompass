@@ -150,8 +150,8 @@ const BERUEHMT_PORTRAITS = [
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
     tags:["Musik"] },
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
-    heading:"Matthias Schweighöfer â Sexueller Typ 2",
-    teaser:"SX2w1 Â· geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz â ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
+    heading:"Matthias Schweighöfer – Sexueller Typ 2",
+    teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
     tags:["Schauspiel"] },
 ];
 
