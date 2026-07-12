@@ -149,6 +149,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nina Chuba – Soziale Typ 2",
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
     tags:["Musik"] },
+  { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
+    heading:"Matthias Schweighöfer â Sexueller Typ 2",
+    teaser:"SX2w1 Â· geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz â ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7517,6 +7521,65 @@ function ninaChubaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function matthiasSchweighoeferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#0f766e18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐪</span>
+        </div>
+        <p class="krim-portrait-name">Matthias Schweighöfer</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1981 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und es ist ein Tier, das trägt. Nicht weil es muss. Sondern weil Tragen seine Art ist, Verbindung herzustellen. Das Kamel überquert Wüsten, gibt seine Energie in den Dienst des Weges, und verlangt dabei wenig zurück. Aber es ist kein Lasttier ohne Eigenleben. Das Kamel hat Würde. Es hat Wärme. Und wer je einem Kamel begegnet ist, weiß: Es schaut einen an &ndash; direkt, neugierig, ohne Scheu.</p>
+          <p class="vb-intro">Matthias Schweighöfer trägt. Er trägt Projekte, Ensemble, Publikum. Als Schauspieler bringt er eine unmittelbare Wärme in jede Rolle, die er spielt &ndash; ob komisch, dramatisch oder verletzlich. Als Regisseur nimmt er seine Crew mit, als wäre jedes Set eine Gemeinschaft, die er zusammenhält. Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Anziehung als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei direkt in den Raum zwischen zwei Menschen lenkt. Nicht in die große Gruppe wie die soziale Zwei, nicht in die eigene Existenzsicherung wie die selbsterhaltende Zwei &ndash; sondern in die direkte, persönliche, manchmal elektrisierende Verbindung. Naranjo nennt diesen Subtyp <em>Aggressivität</em> &ndash; nicht im aggressiven Sinn, sondern als aktives, vorwärtsdrängendes Zugehen auf den anderen. Die SX2 wartet nicht. Sie geht auf dich zu.</p>
+          <p class="vb-intro">Bei Matthias Schweighöfer zeigt sich das in einer seltenen Qualität: Er macht aus Begegnung ein Erlebnis. Ob in Interviews, auf der Bühne oder im Film &ndash; er schafft sofort Nähe. Nicht durch Strategie, sondern durch echtes Interesse. Die SX2 ist fasziniert vom Gegenüber. Sie will wissen, wer du bist. Sie will, dass du weißt, wer sie ist. Aus dieser gegenseitigen Neugier entsteht eine Wärme, die ansteckt.</p>
+          <p class="vb-intro">Sein künstlerisches Werk trägt dieselbe Energie. Vom romantischen Komödienformat bis zur internationalen Netflix-Produktion <em>Army of Thieves</em> &ndash; Schweighöfer erzählt immer von Verbindung. Von zwei Menschen, die sich finden. Von dem, was zwischen ihnen entsteht. Das ist kein Zufall. Das ist die SX2, die ihre innerste Frage in Kunst verwandelt: <em>Kann ich wirklich gesehen werden? Kann ich wirklich lieben?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Haltung hinter der Herzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> bringt der sexuellen Zwei eine wichtige innere Achse: das Bewusstsein für Qualität, für das Richtige, für Verantwortung. Die reine SX2 könnte sich in der Intensität des Kontakts verlieren &ndash; immer auf der Suche nach dem nächsten Verbindungsmoment, ohne einen stabilen inneren Kompass. Der Einserflügel gibt ihr Substanz. Er sagt: <em>Es reicht nicht, geliebt zu werden. Es kommt auch darauf an, wie.</em></p>
+          <p class="vb-intro">Bei Matthias Schweighöfer zeigt sich der Einserflügel in seinem Anspruch an sich selbst. Er ist nicht nur Darsteller, er ist Regisseur, Produzent, Unternehmer &ndash; und nimmt diese Rollen ernst. Die Qualität seiner Arbeit liegt ihm am Herzen, nicht nur das Ergebnis. Er hat sich mehrfach öffentlich über Erschöpfung und die Grenzen seiner Belastbarkeit geäußert &ndash; auch das ist Einser-Energie: die Pflicht, gut zu machen, was man tut, auch wenn es kostet.</p>
+          <p class="vb-intro">Der Einserflügel macht aus der SX2 jemanden, der nicht nur verbindet, sondern auch Verantwortung übernimmt. Schweighöfer ist in der deutschen Filmlandschaft ein Mensch, dem viele vertrauen &ndash; Kollegen, Crew, Publikum. Dieses Vertrauen ist kein Zufall. Es ist der Einserflügel, der dafür sorgt, dass auf die Herzlichkeit auch Verlässlichkeit folgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2 ist ihre Unmittelbarkeit. Matthias Schweighöfer erreicht Menschen direkt &ndash; ohne Umwege, ohne Distanz. Er hat eine Fähigkeit, Filme zu machen, die nicht über dem Publikum stehen, sondern mit ihm sprechen. Das ist ein seltenes Geschenk, und es kommt aus dem Kern der sexuellen Zwei: der echten Sehnsucht nach Kontakt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, geliebt werden zu müssen, und die Schwierigkeit, eigene Bedürfnisse zu benennen, solange man gibt. Bei der SX2 äußert sich das besonders intensiv: Die Verbindung zum anderen kann so wichtig werden, dass die eigene Mitte darüber verloren geht. Wer für andere da ist, muss irgendwann fragen, wer für ihn da ist.</p>
+          <p class="vb-intro">Schweighöfer hat in Interviews über Phasen gesprochen, in denen er sich überdehnt hat &ndash; zu viel gegeben, zu wenig empfangen. Das ist die Kehrseite des Kamels: Es trägt so lange, bis es nicht mehr kann. Und dann braucht es selbst Wasser.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Geben zum Empfangen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich geliebt?</em> zur Erkenntnis <em>Ich bin liebenswert &ndash; auch ohne zu geben.</em> Für die SX2 bedeutet das einen besonders persönlichen Schritt: zuzulassen, dass der andere auch trägt. Sich nicht nur zu verbinden, sondern sich auch zu empfangen. Das Kamel darf auch trinken.</p>
+          <p class="vb-intro">Matthias Schweighöfer ist auf diesem Weg &ndash; und die Offenheit, mit der er darüber spricht, was ihn kostet und was ihm gibt, ist selbst ein Zeichen davon. Die SX2, die gelernt hat, auch um Hilfe zu bitten, verliert nichts von ihrer Wärme. Sie gewinnt etwas: das Wissen, dass Verbindung in beide Richtungen fließen darf.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
       ])}
     </div>
   `);
@@ -31204,6 +31267,7 @@ function render() {
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
+      "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
