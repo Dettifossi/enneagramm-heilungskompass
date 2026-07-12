@@ -177,6 +177,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
     tags:["Musik"] },
+  { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
+    heading:"Lady Diana – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7081,6 +7085,65 @@ function christophWaltzPortraitPage() {
     </div>
   `);
 }
+
+function ladyDianaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🕊️</span>
+        </div>
+        <p class="krim-portrait-name">Lady Diana</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Princess of Wales, 1961&ndash;1997 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist seit Jahrtausenden das Symbol des Friedens &ndash; und es ist ein Tier, das auf den ersten Blick zart wirkt, fast verletzlich. Und doch ist die Taube zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm. Sie trägt Botschaften. Sie kehrt zurück. Die Taube hält inne, wo andere weiterfliegen &ndash; und in diesem Innehalten entsteht etwas Stilles, das mehr bewegt als viele laute Gesten.</p>
+          <p class="vb-intro">Diana Frances Spencer, Princess of Wales, war eines der bekanntesten Gesichter des 20. Jahrhunderts &ndash; und gleichzeitig eine der einsamsten Persönlichkeiten ihrer Zeit. In einer Welt aus Protokoll, Palast und Öffentlichkeit trug sie etwas in sich, das sich nicht einordnen ließ: eine Empfindlichkeit, die manchmal lähmte, und eine Fähigkeit zur Verbindung, die Millionen berührte. Die Taube, die Botschaften trägt &ndash; auch dann, wenn der Weg beschwerlich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Leiden als stille Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Tradition der Kontratyp der Vier: Sie zeigt ihr Innenleben nicht nach außen, sie zieht es nicht in große Gesten oder dramatische Selbstdarstellung. Naranjo beschreibt diesen Subtyp als <em>Rücksichtslosigkeit</em> &ndash; nicht im Sinn von Härte gegenüber anderen, sondern als einen Antrieb, sich selbst gegenüber kompromisslos zu sein. Die SE4 kämpft mit dem Schmerz &ndash; aber sie kämpft ihn still aus. Sie zeigt Stärke nach außen, während sie innen ringt.</p>
+          <p class="vb-intro">Bei Diana zeigt sich das in dem Widerspruch, der ihr Leben prägte: Die Frau, die auf öffentlichen Fotos strahlte und Menschenmassen in Begeisterung versetzte, kämpfte privat mit Essstörungen, Depressionen und dem tiefen Gefühl, nicht gesehen zu werden. Die SE4 trägt den Schmerz nach innen, weil Klagen ihr zu viel erscheint &ndash; oder weil sie gelernt hat, dass niemand zuhört. Diana hat beides erlebt: die Last der inneren Welt und die Erschöpfung, sie allein zu tragen.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf das eigene Überleben aus &ndash; nicht als Rückzug, sondern als stilles Ausharren. Diana hat in den Jahren am Hof ausgeharrt, lange nach dem Ende der Liebe, lange nach dem Ende des Scheins. Das ist SE4-Energie: das Durchhalten, das niemand sieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Botschaft nach außen tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der selbsterhaltenden Vier etwas Entscheidendes: die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln. Die reine SE4 könnte sich in der inneren Welt verlieren &ndash; tief empfindend, aber unsichtbar. Der Dreierflügel gibt ihr eine Bühne &ndash; nicht aus Eitelkeit, sondern aus dem Bedürfnis, das Erlebte zu gestalten und weiterzugeben.</p>
+          <p class="vb-intro">Bei Diana zeigt sich der Dreierflügel in ihrer außergewöhnlichen öffentlichen Wirksamkeit. Sie hat die Rolle der Königin nie bekommen &ndash; aber sie hat eine eigene Macht entwickelt, die keine Institution verleihen konnte: die Macht der Zugewandtheit. Ihr Einsatz für AIDS-Kranke, für Krebskinder, gegen Landminen &ndash; das war nicht Pflicht, das war Berufung. Die SE4w3 weiß: Was ich durchlebt habe, kann anderen helfen. Der eigene Schmerz wird zur Brücke.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt auch Dianas Fähigkeit zur Selbstdarstellung &ndash; nicht im oberflächlichen Sinn, sondern als Bewusstsein dafür, wie Bilder wirken. Das berühmte Interview mit Martin Bashir 1995, das Minefeld-Foto in Angola, der Händedruck ohne Handschuhe mit einem AIDS-Patienten &ndash; das sind Bilder, die Geschichte gemacht haben. Die SE4w3 weiß, dass die richtige Geste zur richtigen Zeit die Welt verändert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4 ist ihre Empathie &ndash; die Fähigkeit, den Schmerz anderer nicht nur zu verstehen, sondern wirklich zu fühlen. Diana hat an Krankenbetten gesessen, hat Hände gehalten, hat geschaut und zugehört, während andere wegsahen. Das ist kein Talent, das man lernt. Das ist die SE4, die den eigenen Schmerz in Verbindung verwandelt: <em>Ich kenne das. Du bist nicht allein.</em></p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das tiefe Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SE4 äußert sich das als das chronische Gefühl der Unvollständigkeit: nie ganz richtig, nie ganz genug, immer etwas außen vor. Diana hat dieses Gefühl ihr Leben lang beschrieben &ndash; das Gefühl, in einer Welt zu leben, die für andere gemacht war, nicht für sie.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Gefahr, den eigenen Wert an äußerer Wirksamkeit zu messen. Wenn der Applaus verstummt, wenn die Kameras wegschauen &ndash; wer ist die SE4w3 dann? Diese Frage hat Diana begleitet, gerade in den Jahren nach der Scheidung, als das Protokoll wegfiel und eine neue Identität gefunden werden musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Ausharren zum Ankommen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was anderen gegeben wurde?</em> zur Erkenntnis <em>Was ich bin, ist genug &ndash; und es ist einmalig.</em> Für die SE4 bedeutet das, den inneren Kampf nicht länger allein auszufechten &ndash; sondern zuzulassen, dass auch die eigene Wunde gesehen und berührt wird.</p>
+          <p class="vb-intro">Diana hat in den letzten Jahren ihres Lebens Schritte in diese Richtung gemacht. Sie hat öffentlich über ihre Essstörungen gesprochen, hat Hilfe gesucht, hat ihre eigene Geschichte in die Hand genommen. Die Taube, die aufhört, nur Botschaften für andere zu tragen, und beginnt, auch für sich selbst zu fliegen &ndash; das war Diana auf dem Weg. Dieser Weg wurde 1997 abrupt beendet. Was bleibt, ist das Bild einer Frau, die in ihrer Verletzlichkeit mehr Kraft zeigte als viele in ihrer Stärke.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function dieterBohlenPortraitPage() {
   return shell(`
@@ -31639,6 +31702,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
+      "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
