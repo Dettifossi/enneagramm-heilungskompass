@@ -137,6 +137,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Greta Thunberg â Selbsterhaltender Typ 2",
     teaser:"SE2w1 Â· geb. 2003. Klimaaktivistin, Gründerin von Fridays for Future. Mit 15 Jahren allein vor dem schwedischen Reichstag â und einem selbstgebastelten Schild. Das Flusspferd weicht nicht. Tierentsprechung: Flusspferd.",
     tags:["Politik"] },
+  { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
+    heading:"Jan Ullrich â Selbsterhaltender Typ 2",
+    teaser:"SE2w3 Â· geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong â nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
+    tags:["Sport"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7329,6 +7333,64 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function janUllrichPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#0f766e18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦛</span>
+        </div>
+        <p class="krim-portrait-name">Jan Ullrich</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Radrennfahrer, geb. 1973 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und es ist ein Tier, das in zwei Welten lebt. Im Wasser ist es schwerelos, geschmeidig, erstaunlich schnell. An Land wirkt es massig, träge, fast unbeweglich. Diesen Wechsel kennt das Flusspferd seit Millionen von Jahren. Es braucht beides: die Tiefe des Wassers und die Wärme der Sonne. Entzieht man ihm eines davon, gerät es aus dem Gleichgewicht.</p>
+          <p class="vb-intro">Jan Ullrich hat dieses Tier in sich gelebt &ndash; mit allem, was dazugehört. Auf dem Rad war er das reinste Naturtalent der Radsportgeschichte: Kraftentfaltung, Rhythmus, Leidensfähigkeit auf einem Niveau, das selbst seine schärfsten Rivalen zur Ehrerbietung zwang. Abseits des Rads suchte er das Gleichgewicht immer wieder &ndash; und fand es nicht immer. Das Flusspferd braucht sein Wasser. Für Ullrich war das Fahrrad dieses Wasser.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der Genuss als Grundgefühl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen körperlichen und emotionalen Bedürfnisse am direktesten erlebt und auslebt. Naranjo nennt ihn <em>Me First</em>: nicht im egoistischen Sinn, sondern im sinnlichen. Die SE2 lebt im Körper, im Moment, im unmittelbaren Erleben. Genuss ist kein Luxus für sie &ndash; er ist ein Grundbedürfnis, das sich nicht dauerhaft unterdrücken lässt.</p>
+          <p class="vb-intro">Bei Jan Ullrich zeigte sich das in einem Phänomen, das die gesamte Radsportwelt in Atem hielt: dem winterlichen Gewichtszuwachs. Während andere Profis streng diszipliniert in die Nebensaison gingen, gönnte sich Ullrich Entspannung, Genuss, das Leben außerhalb des Wettkampfs. Jedes Frühjahr begann er mit Übergewicht &ndash; und jedes Frühjahr brachte er sich mit einer Konditionsstärke zurück, die physiologisch kaum erklärbar schien. Das war nicht Disziplinlosigkeit. Das war die SE2: der Körper, der sich nimmt, was er braucht &ndash; und dann zeigt, was in ihm steckt.</p>
+          <p class="vb-intro">Die SE2 ist auch die Zwei, die am deutlichsten nach Fürsorge sucht &ndash; und am schwersten ohne sie auskommt. Ullrichs Karriere und sein Leben nach dem Sport zeigen beide Seiten: die Kraft, die entsteht, wenn er getragen wird &ndash; und die Verletzlichkeit, wenn dieser Halt fehlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Triumph als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der selbsterhaltenden Zwei etwas Entscheidendes: den Hunger nach Sieg, nach Anerkennung, nach dem Moment des Triumphes. Die reine SE2 kann bequem werden &ndash; der Dreierflügel treibt sie an. Er flüstert: <em>Gut ist nicht genug. Du musst gewinnen.</em></p>
+          <p class="vb-intro">Bei Jan Ullrich ist dieser Flügel in jedem großen Moment seiner Karriere sichtbar. Der Tour-de-France-Sieg 1997 mit 23 Jahren &ndash; der jüngste Sieger bis dahin. Olympiagold 2000 im Einzelzeitfahren in Sydney. Fünf zweite Plätze bei der Tour de France, fast alle hinter Lance Armstrong. Die SE2w3er gibt nicht leicht auf &ndash; auch dann nicht, wenn der Gegner übermächtig wirkt. Das Flusspferd weicht nicht zurück. Und der Dreierflügel sorgt dafür, dass es wieder und wieder antritt.</p>
+          <p class="vb-intro">Der Dreierflügel bringt aber auch die Schattenseite der Drei mit: die Gefahr, das Image über die Wahrheit zu stellen. Der Druck, immer der strahlende Sieger zu sein. Für Ullrich war dieser Druck Teil des Systems, in dem er sich bewegte &ndash; und Teil des Weges, der ihn schließlich in die Doping-Affäre Operación Puerto führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2 ist ihre Lebendigkeit. Jan Ullrich war auf dem Rad ein Erlebnis &ndash; nicht nur ein Ergebnis. Wer ihn je am Col du Galibier oder in einem Zeitfahren gesehen hat, weiß: Da war etwas Unwiederholbares. Keine berechnende Maschine, sondern ein Mensch, der sein ganzes körperliches Wesen in Bewegung verwandelte. Das ist das Geschenk der SE2: Vollständigkeit im Erleben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; und bei der SE2 zeigt er sich als tiefes, oft unbewusstes Bedürfnis, gebraucht, geliebt, bewundert zu werden. Dieses Bedürfnis war bei Ullrich mit dem Rad erfüllbar. Nach dem Karriereende 2006 &ndash; inmitten der Dopingermittlungen und des öffentlichen Absturzes &ndash; fehlte das Fundament. Die Jahre danach, mit Suchtproblemen, juristischen Auseinandersetzungen und persönlichen Krisen, erzählen die Geschichte eines SE2ers ohne sein Wasser: das Flusspferd an Land, ohne Orientierung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Hunger zur Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt vom Geben und Gebraucht-Werden zur inneren Fülle &ndash; zur Erkenntnis, dass der eigene Wert nicht vom Triumph abhängt. Die wachsende Zwei lernt: Ich bin auch dann genug, wenn ich nicht gewinne. Auch dann liebenswert, wenn ich schwach bin. Auch dann real, wenn mich niemand ansieht.</p>
+          <p class="vb-intro">Für Jan Ullrich bedeutet das einen Weg, der schwerer ist als jeder Alpenpass: den Weg zu sich selbst, ohne das Fahrrad als Träger. Es gibt Berichte, dass er in den letzten Jahren ruhiger geworden ist, Unterstützung angenommen hat, langsam wieder Boden findet. Das Flusspferd gehört ins Wasser &ndash; aber es kann auch lernen, an Land zu stehen. Nicht als Sieger. Als es selbst.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
       ])}
     </div>
   `);
@@ -31013,6 +31075,7 @@ function render() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
