@@ -181,6 +181,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
     tags:["Politik"] },
+  { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
+    heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
+    tags:["Natur"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7085,6 +7089,65 @@ function christophWaltzPortraitPage() {
     </div>
   `);
 }
+
+function clemensArvayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#14532d18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🕊️</span>
+        </div>
+        <p class="krim-portrait-name">Clemens G. Arvay</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Autor &amp; Biologe, 1980&ndash;2022 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typ 4 &ndash; und sie ist ein Tier, das man leicht übersieht. Keine Schärfe, keine Dominanz, kein lautes Auftreten. Die Taube bewegt sich nah am Boden, nah an den Menschen, nah an dem, was wächst und atmet. Und doch trägt sie seit Jahrtausenden die tiefsten Botschaften: Frieden. Heimkehr. Das Versprechen, dass es weitergeht.</p>
+          <p class="vb-intro">Clemens G. Arvay war ein österreichischer Biologe und Autor, der einer breiten Öffentlichkeit zeigte, was Wissenschaft und innere Sehnsucht gemeinsam wissen: dass der Wald heilt. Sein Werk &ndash; darunter <em>Der Biophilia-Effekt</em> und <em>Wir können es besser</em> &ndash; ist die Arbeit einer Taube: kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt. 2022 hat er sich das Leben genommen. Die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz als stille Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zeigt den inneren Schmerz nicht nach außen, sie dramatisiert ihn nicht. Naranjo nennt diesen Subtyp <em>Rücksichtslosigkeit</em> &ndash; einen Antrieb, sich selbst gegenüber kompromisslos ehrlich zu sein, auch wenn es kostet. Die SE4 kämpft mit dem, was sie innen trägt, und sie kämpft es still aus. Nach außen zeigt sie Stärke, manchmal sogar Heiterkeit &ndash; während innen etwas ringt.</p>
+          <p class="vb-intro">Bei Clemens Arvay zeigt sich das in der Art, wie er geschrieben hat: nicht aus der Distanz des kühlen Beobachters, sondern aus einer tiefen persönlichen Betroffenheit. Die Natur war für ihn kein Studieobjekt &ndash; sie war ein Zuhause. Die SE4 findet im Schönen und im Lebendigen einen Spiegel für das, was in ihr selbst lebt: die Sehnsucht nach Stille, nach Verbindung, nach einem Ort, der hält. Der Wald war Arvays innerer Raum &ndash; und er hat ihn für andere geöffnet.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf das eigene Überleben aus &ndash; auf die Frage: <em>Habe ich genug? Bin ich sicher? Gibt es einen Ort für mich?</em> Bei Arvay wurde diese Frage zunehmend zur inneren Notlage, die nach außen hin nicht sichtbar war. Das ist das stille Leiden der SE4: Sie gibt anderen Halt, während sie selbst auf der Suche nach Boden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Wissen als Schutz und Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der selbsterhaltenden Vier eine charakteristische Prägung: das Bedürfnis nach Wissen, nach Verstehen, nach der intellektuellen Durchdringung der Welt. Die reine SE4 könnte sich in der inneren Welt der Gefühle verlieren &ndash; tief empfindend, aber ohne festen Boden. Der Fünferflügel gibt ihr Struktur: Er sucht die Wahrheit nicht nur im Gefühl, sondern auch in der Erkenntnis.</p>
+          <p class="vb-intro">Bei Clemens Arvay ist der Fünferflügel in seiner wissenschaftlichen Genauigkeit unübersehbar. Er hat nicht einfach über den Wald geschwärmt &ndash; er hat die Forschung zusammengetragen, die zeigt, warum Naturkontakt heilt: Terpene, Immunsystem, Stresshormone, Herzfrequenz. Die SE4w5 verbindet das Fühlen mit dem Wissen und entdeckt: <em>Was ich innerlich ahne, lässt sich beweisen.</em> Das gibt der eigenen Sehnsucht eine Stimme, der andere vertrauen können.</p>
+          <p class="vb-intro">Der Fünferflügel erklärt auch Arvays Bereitschaft zur Kontroverse. In seinem späteren Werk hat er sich kritisch mit der Pharmaindustrie, mit der Agrarpolitik und mit der Pandemiepolitik auseinandergesetzt &ndash; manchmal an der Grenze des wissenschaftlichen Konsenses. Die SE4w5 ist keine bequeme Stimme. Sie sucht die Wahrheit, auch wenn sie unbequem macht &ndash; und auch wenn sie damit allein dasteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist ihre Verbindung von Tiefe und Präzision. Clemens Arvay hat Menschen erreicht, die weder von reiner Wissenschaft noch von reiner Spiritualität angesprochen werden &ndash; Menschen, die beides suchen: den Beweis und das Gefühl. Er hat gezeigt, dass Sehnsucht nach Natur keine Romantik ist, sondern biologische Notwendigkeit. Das ist die SE4w5 auf ihrem Heilungsweg: Erfahrung und Erkenntnis werden zur Brücke für andere.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt: Leichtigkeit, Zugehörigkeit, ein Platz in der Welt, der sich selbstverständlich anfühlt. Bei der SE4 ist dieses Gefühl besonders still und tief. Es äußert sich nicht als Bitterkeit, sondern als ein chronisches Moll-Ton im Inneren &ndash; die Überzeugung, irgendwie anders zu sein als die anderen, nie ganz anzukommen.</p>
+          <p class="vb-intro">Der Fünferflügel kann diesen Schmerz verstärken, indem er den Rückzug ins Wissen fördert: Wenn die Welt zu laut wird, zieht sich die SE4w5 in die Bücher, in die Forschung, in die eigene Gedankenwelt zurück. Das schützt &ndash; und isoliert. Arvays innerer Rückzug in den letzten Lebensjahren, der in seiner Tragödie endete, spricht von dieser Dynamik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Wissen zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was anderen gegeben wurde?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig.</em> Für die SE4w5 bedeutet das, das Wissen nicht als Ersatz für Verbindung zu nutzen, sondern als Einladung dazu. Die Fähigkeit, die Welt tiefer zu sehen als die meisten &ndash; das ist kein Defizit. Das ist ein Geschenk.</p>
+          <p class="vb-intro">Clemens Arvay hat diesen Weg in seinem Werk weit vorangetragen &ndash; und andere dabei mitgenommen. Sein Beitrag zur Heilkraft der Natur, zur Frage nach einer menschlicheren Welt, bleibt lebendig. Die Taube, die abgeflogen ist, hat Botschaften hinterlassen. Und manchmal ist das das Größte, was ein Mensch tun kann: hinterlassen, was andere trägt, auch wenn man selbst nicht mehr kann.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function ladyDianaPortraitPage() {
   return shell(`
@@ -31703,6 +31766,7 @@ function render() {
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
+      "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
