@@ -1,9 +1,9 @@
-// Kompass Service Worker – Network-First + Auto-Reload bei Update
+// Kompass Service Worker – iOS-kompatibler Auto-Reload
 const SW_VERSION = 'v352';
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
-  self.skipWaiting(); // Neuer SW übernimmt sofort, wartet nicht
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
@@ -14,9 +14,9 @@ self.addEventListener('activate', event => {
       ))
       .then(() => self.clients.claim())
       .then(() =>
-        // Alle offenen Tabs/PWA-Fenster neu laden – Nutzer sieht aktuellen Stand
+        // postMessage statt clients.navigate() – iOS-kompatibel
         self.clients.matchAll({ type: 'window' }).then(clients =>
-          clients.forEach(c => c.navigate(c.url))
+          clients.forEach(c => c.postMessage({ type: 'SW_UPDATED' }))
         )
       )
   );
@@ -32,7 +32,6 @@ self.addEventListener('fetch', event => {
     url.pathname.includes('app.js');
 
   if (isAppShell) {
-    // App-Shell immer vom Netz – nie aus Cache
     event.respondWith(
       fetch(event.request, { cache: 'no-store' })
         .catch(() => caches.match(event.request))
