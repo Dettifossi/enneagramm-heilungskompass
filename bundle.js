@@ -125,6 +125,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
+    heading:"Friedrich Merz – Sozialer Typ 1",
+    teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7141,6 +7145,65 @@ function angelinaJoliePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function friedrichMerzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🪿</span>
+        </div>
+        <p class="krim-portrait-name">Friedrich Merz</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Bundeskanzler &amp; Politiker, geb. 1955 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; und es ist ein Tier, das nicht dekoriert, sondern funktioniert. Keine Eleganz um der Eleganz willen. Keine Scheu vor Konflikten, wenn das Revier verteidigt werden muss. Die Gans fliegt in Formation, hält die Ordnung aufrecht und warnt die Gruppe, wenn etwas nicht stimmt. Wer sie unterschätzt, erlebt eine Überraschung.</p>
+          <p class="vb-intro">Friedrich Merz ist in der deutschen Politik eine Erscheinung, die polarisiert &ndash; und das nicht zufällig. Er sagt, was er denkt. Er benennt, was er für falsch hält. Er hat keine Angst vor unbequemen Positionen. Das ist kein Stilmittel &ndash; das ist Struktur. Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung als Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist der Subtyp, der seinen Perfektionismus nach außen richtet &ndash; auf Gesellschaft, Institutionen, kollektive Werte. Nicht das eigene Leben steht im Mittelpunkt, sondern die Frage: Wie müsste die Welt beschaffen sein, damit sie gerecht und geordnet funktioniert? Die SO1 trägt ein inneres Regelwerk, das sie auf alles anwendet &ndash; auf Gesetze, auf Haushaltspolitik, auf das Verhalten anderer Politiker.</p>
+          <p class="vb-intro">Naranjo nennt diesen Subtyp <em>Inadaptability</em> &ndash; Unnachgiebigkeit gegenüber dem, was abweicht. Die SO1 hat Schwierigkeiten damit, Kompromisse mit dem zu machen, was sie für strukturell falsch hält. Das macht sie zur konsequentesten Reformerin unter den Einser-Subtypen &ndash; und zur unbequemsten Gesprächspartnerin.</p>
+          <p class="vb-intro">Friedrich Merz verkörpert diese Energie in Reinform. Als Jurist, als Wirtschaftspolitiker, als CDU-Vorsitzender und jetzt als Bundeskanzler: Ihm geht es immer um das Prinzip. Um Haushaltsdisziplin als moralische Frage. Um die Grenze als rechtliche Pflicht. Um den Staat als Ordnungsrahmen, der gehalten werden muss. Das ist keine Ideologie. Das ist der Blick der sozialen Eins auf die Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Ruhe im Inneren, Klarheit nach außen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verändert die soziale Eins auf subtile, aber entscheidende Weise. Die reine SO1 kann hitzig, anklagend, moralisierend wirken &ndash; der Zorn liegt nah an der Oberfläche. Der Neunerflügel kühlt diese Energie ab. Er bringt eine gewisse Gelassenheit, eine Fähigkeit zur Ruhe, die die Botschaft der Eins stabiler und weniger angreifbar macht.</p>
+          <p class="vb-intro">Der Neunerflügel fügt auch eine Qualität hinzu, die man bei Merz häufig beobachtet: die Fähigkeit, lange zu warten. Die Neun ist geduldig &ndash; fast zu geduldig manchmal. Merz hat jahrelang auf seine politische Stunde gewartet, nach der Ära Merkel im Hintergrund gearbeitet, sich nicht verbiegen lassen. Das ist nicht die Energie eines reinen Einser-Kämpfers. Das ist die geduldige Beharrlichkeit der SO1w9er.</p>
+          <p class="vb-intro">Gleichzeitig kann der Neunerflügel die Schattenseiten der Neun einbringen: Sturheit, Abschottung gegen abweichende Perspektiven, eine Tendenz, den inneren Widerstand nach außen zu verschweigen &ndash; bis er sich plötzlich entlädt. Wer Friedrich Merz kennt, erkennt auch das.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1 ist ihre Integrität. Friedrich Merz ist ein Politiker, dem man abnimmt, dass er wirklich von dem überzeugt ist, was er sagt. Ob man seiner Meinung ist oder nicht &ndash; die Haltung wirkt echt. Das ist in einer Zeit zunehmend strategischer Kommunikation ein seltenes Gut.</p>
+          <p class="vb-intro">Der Schatten der SO1 ist der <strong>Zorn</strong> &ndash; und die Überzeugung, das Richtige zu wissen. Die soziale Eins neigt dazu, moralische Überlegenheit mit faktischer Überlegenheit zu verwechseln. Sie sieht klar, wie die Dinge sein sollten &ndash; und verliert dabei manchmal den Blick dafür, dass andere Perspektiven ebenfalls ihre Berechtigung haben. Das Schicksalsmuster der Eins ist nicht Böswilligkeit. Es ist Verblendung durch Gewissheit.</p>
+          <p class="vb-intro">Bei Merz zeigt sich das in Momenten, in denen pointierte Aussagen mehr Schaden angerichtet haben als geplant &ndash; nicht weil sie gelogen waren, sondern weil sie das Prinzip über den Kontext stellten. Die Gans warnt laut. Manchmal zu laut für den Moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Richter zum Baumeister</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Richten zum Bauen. Von der Frage <em>Was ist falsch?</em> zur Frage <em>Was ist möglich?</em> Die wachsende Eins behält ihre Maßstäbe &ndash; aber sie lernt, dass Ordnung nicht durch Kontrolle entsteht, sondern durch Vertrauen. Dass das Gute nicht nur in der Korrektur liegt, sondern auch im Zulassen.</p>
+          <p class="vb-intro">Friedrich Merz hat als Bundeskanzler eine Bühne, die der SO1w9er selten bekommt: Gestaltungsmacht. Die Frage ist, ob die Energie der sozialen Eins sich vom Diagnostizieren zum Erschaffen verschiebt. Ob die Gans, die jahrzehntelang gewarnt hat, jetzt auch bauen kann. Das wäre der Weg &ndash; vom strengen Wächter zum stillen Architekten einer Ordnung, die trägt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
       ])}
     </div>
   `);
@@ -30822,6 +30885,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
+      "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
