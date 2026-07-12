@@ -133,6 +133,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio â Sexueller Typ 1",
     teaser:"SX1w2 Â· geb. 1974. Schauspieler, Klimaaktivist. Fünfmal Oscar-nominiert, sechsmal angetreten â und im Moment des Triumphes sprach er über den Klimawandel, nicht über sich. Die Schwarze Mamba brennt nicht für Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
+    heading:"Greta Thunberg â Selbsterhaltender Typ 2",
+    teaser:"SE2w1 Â· geb. 2003. Klimaaktivistin, Gründerin von Fridays for Future. Mit 15 Jahren allein vor dem schwedischen Reichstag â und einem selbstgebastelten Schild. Das Flusspferd weicht nicht. Tierentsprechung: Flusspferd.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7266,6 +7270,65 @@ function leonardoDiCaprioPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function gretaThunbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#0f766e18,#c8a84b18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦛</span>
+        </div>
+        <p class="krim-portrait-name">Greta Thunberg</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einerflügel</p>
+        <p class="krim-portrait-subtitle">Klimaaktivistin, geb. 2003 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und es ist ein Tier, das man unterschätzt, bis man es nicht mehr unterschätzen kann. Es wirkt träge, beinahe harmlos. Es liegt im Wasser. Es hält inne. Aber das Flusspferd ist eines der gefährlichsten Tiere Afrikas. Es schützt sein Territorium mit einer Kraft, die aus dem Inneren kommt &ndash; nicht aus Aggression, sondern aus dem absoluten Wissen: Das hier ist meins. Das hier ist notwendig. Das gebe ich nicht auf.</p>
+          <p class="vb-intro">Greta Thunberg hat im August 2018 allein vor dem schwedischen Reichstag gesessen &ndash; ein fünfzehnjähriges Mädchen mit einem selbstgebastelten Schild. Sie hat nicht um Erlaubnis gefragt. Sie hat nicht auf die richtige Gelegenheit gewartet. Sie hat gehandelt, weil die Situation Handlung verlangte. Das ist die Energie des Flusspferds: nicht laut, bis sie laut sein muss &ndash; und dann unaufhaltsam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Das Recht auf Existenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei am stärksten nach innen und auf das eigene Überleben richtet. Während die soziale Zwei für die Gruppe kämpft und die sexuelle Zwei durch Verführung und persönliche Anziehung wirkt, fragt die SE2 zuerst: <em>Was brauche ich, um zu überleben? Was braucht die Welt, in der ich lebe, um zu überleben?</em> Naranjo nennt diesen Subtyp <em>Me First</em> &ndash; nicht im egoistischen Sinn, sondern im existenziellen: die Zwei, die ihre eigenen Bedürfnisse nicht verleugnet, sondern direkt benennt.</p>
+          <p class="vb-intro">Bei Greta Thunberg zeigt sich das in einer seltenen, fast schonungslosen Direktheit. Sie sagt nicht: <em>Ich sorge mich um die Zukunft anderer.</em> Sie sagt: <em>Ihr stehlt meine Zukunft.</em> Das ist der SE2-Blick: Klimawandel ist keine abstrakte humanitäre Frage &ndash; er ist eine Bedrohung der eigenen Lebensgrundlage. Diese Unmittelbarkeit macht ihre Botschaft so anders als die vieler anderer Aktivisten. Sie redet nicht über die Welt da draußen. Sie redet über die Welt, in der sie selbst existiert.</p>
+          <p class="vb-intro">Auch ihre Offenheit über die eigene Neurodivergenz &ndash; Asperger-Syndrom, Zwangsstörungen, selektiver Mutismus &ndash; trägt diese SE2-Qualität: kein Verstecken, kein Beschönigen. <em>Mein Gehirn funktioniert anders. Das ist, wer ich bin.</em> Die SE2 benennt ihre Realität &ndash; auch wenn die Welt lieber wegschaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einerflügel: Moralische Klarheit als Rückgrat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einerflügel (w1)</strong> bringt der selbsterhaltenden Zwei etwas Entscheidendes: ein inneres Regelwerk, das unabhängig von der Reaktion anderer trägt. Die reine Zwei sucht Bestätigung, Zuneigung, Anerkennung &ndash; der Einerflügel macht sie unabhängiger davon. Er sagt: <em>Es gibt ein Richtig und ein Falsch. Und ich weiß, auf welcher Seite ich stehe.</em></p>
+          <p class="vb-intro">Bei Greta Thunberg ist dieser Flügel nicht zu übersehen. Sie hat Staats- und Regierungschefs ins Gesicht gesagt, was sie falsch machen. Sie hat den UN-Gipfel mit <em>How dare you!</em> eröffnet &ndash; einer Anklage, die keine diplomatische Formulierung kannte, weil die SE2w1er keine diplomatische Formulierung braucht, wenn das Prinzip klar ist. Der Einerflügel gibt der Zwei die Erlaubnis, unbequem zu sein.</p>
+          <p class="vb-intro">Das zeigt sich auch in ihrer politischen Entwicklung: Thunberg ist über die Jahre klarer und radikaler geworden &ndash; nicht weil sie sich verändert hat, sondern weil der Einerflügel mit der Zeit stärker zum Tragen kommt. Die Zwei möchte geliebt werden. Die Eins hat kein Interesse daran, für etwas geliebt zu werden, das falsch ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2 ist ihre Authentizität. Greta Thunberg hat nie eine Rolle gespielt. Was sie sagt, ist, was sie meint. Was sie fühlt, zeigt sie. Das ist in einer Welt politischer Kommunikation eine außergewöhnliche Qualität &ndash; und ein Grund, warum sie Millionen Menschen berührt hat, die sich von professionellen Aktivisten längst nicht mehr erreicht fühlen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht zu werden, unentbehrlich zu sein, für andere da zu sein, während man die eigenen Bedürfnisse verleugnet. Bei der SE2 zeigt sich das subtiler: Es ist der Glaube, dass die eigene Stimme zählt, weil die eigene Existenz auf dem Spiel steht. Das kann befreiend sein &ndash; und es kann erschöpfen. Die SE2w1 trägt das Gewicht ihrer Überzeugung mit einer Intensität, die wenig Raum für Ruhe lässt.</p>
+          <p class="vb-intro">Greta Thunberg hat in Interviews beschrieben, wie die Klimakrise sie in eine schwere Depression geführt hat &ndash; bevor sie begann zu handeln. Das Handeln war Rettung. Aber Rettung durch Handeln hat ihren Preis. Das Flusspferd kann nicht immer im Wasser bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Kämpfen zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt vom Geben zum Empfangen &ndash; von der Frage <em>Was braucht die Welt von mir?</em> zur Frage <em>Was brauche ich?</em> Nicht als Rückzug, sondern als Ergänzung. Die wachsende Zwei lernt: Ich bin auch dann wertvoll, wenn ich nichts tue. Meine Existenz selbst ist genug.</p>
+          <p class="vb-intro">Für die SE2w1 bedeutet das: lernen, die eigene Stimme nicht nur als Werkzeug für den Kampf zu verstehen, sondern als Ausdruck des eigenen Lebens. Das Flusspferd muss nicht immer warnen und verteidigen. Manchmal darf es einfach im Wasser treiben &ndash; ruhig, ganz, in seinem Element. Greta Thunberg ist noch sehr jung. Dieser Weg liegt vor ihr &ndash; und die Grundlage dafür hat sie bereits gelegt: das Wissen, wer sie ist.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
       ])}
     </div>
   `);
@@ -30949,6 +31012,7 @@ function render() {
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
+      "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
