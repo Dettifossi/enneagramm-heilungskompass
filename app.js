@@ -6944,7 +6944,7 @@ function kaiPflaumePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jeder Enneagramm-Typ trägt sein Licht und seinen Schatten. Das Licht der SX3 ist offensichtlich: Charisma, Wärme, die Fähigkeit, Menschen direkt zu berühren. Der Schatten ist subtiler: Die Drei kann ihre Identität mit ihrer Wirkung verwechseln. <em>Ich bin, wie andere mich sehen.</em> Wenn niemand mehr bewundert, wer bin ich dann?</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; nicht als böse Absicht, sondern als strukturelle Gefahr. Die Drei kann beginnen, eine Rolle zu spielen, so überzeugend, dass sie vergisst, dass es eine Rolle ist. Das Image wird zur Identität. Der Pfau vergisst, wie er ohne sein Gefieder aussieht.</p>
-          <p class="vb-intro">Bei Kai Pflaume ist dieser Schatten kaum sichtbar &ndash; und das ist ein Zeichen gesunder Entwicklung. Er hat offenbar eine stabile innere Basis gefunden, die unabhängig von Einschaltquoten trägt. Dreißig Jahre Fernsehen ohne Burnout, ohne Skandal, ohne Imagewechsel: Das spricht für einen SX3, der seinen Schatten kennt und mit ihm umzugehen gelernt hat.</p>
+          <p class="vb-intro">Bei Kai Pflaume ist dieser Schatten kaum sichtbar &ndash; und das ist ein Zeichen gesunder Entwicklung. Er hat offenbar eine stabile innere Basis gefunden, die unabhängig von Einschaltquoten trägt. Dreißig Jahre Fernsehen ohne Burnout, ohne Skandal, ohne Imagewechsel: Das spricht für einen SX3er, der seinen Schatten kennt und mit ihm umzugehen gelernt hat.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Von der Wirkung zur Echtheit</h2>
