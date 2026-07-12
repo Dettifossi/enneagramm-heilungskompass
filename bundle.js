@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
+    heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
+    teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
+    tags:["Sport"] },
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -7537,6 +7541,63 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function beatriceChebetPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se6.png" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Beatrice Chebet</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Langstreckenläuferin, geb. 2000 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, schnell, in der Gemeinschaft verwurzelt. Es kennt das Gefühl der Bedrohung, und genau deshalb hat es gelernt, schneller zu sein als das, was es bedroht. Sein Lauf ist kein panisches Fliehen &ndash; er ist trainiert, präzise, kraftvoll. Das Kaninchen rennt nicht weg. Es rennt nach Hause.</p>
+          <p class="vb-intro">Beatrice Chebet ist dieses Kaninchen. Mit zwanzig Jahren gehört sie zur Weltspitze der Langstrecke. Bei den Olympischen Spielen 2024 in Paris gewann sie Gold über 5000 Meter &ndash; und vier Tage später Gold über 10.000 Meter. Doppel-Olympiasiegerin. Eine Leistung, die selbst in der Geschichte des kenianischen Laufsports herausragt. Und das mit einer Leichtigkeit, die täuscht: Was auf der Bahn wie Schwerelosigkeit aussieht, ist das Ergebnis von Jahren disziplinierter Arbeit, von Zugehörigkeit zu einer Gemeinschaft, die diese Disziplin trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Heimat als Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte: Sicherheit entsteht nicht durch Stärke oder durch Regeln, sondern durch echte menschliche Zugehörigkeit. Die SE6 trägt ihre Gemeinschaft in sich &ndash; als Fundament, als Orientierung, als Grund, weiterzumachen, wenn es schwer wird.</p>
+          <p class="vb-intro">Beatrice Chebet stammt aus Kenia &ndash; einem Land, dessen Läuferinnen und Läufer nicht einfach trainieren, sondern eine Tradition verkörpern. Das Rift Valley, die Höhenlagen, die Gemeinschaft der Trainingsgruppen: Das ist nicht Kulisse, das ist Heimat. Chebet läuft nicht trotz dieser Verwurzelung &ndash; sie läuft aus ihr heraus. Die SE6-Wärme zeigt sich in der Art, wie kenianische Athleten einander tragen: gemeinsame Trainingseinheiten, gegenseitiges Anfeuern, das Wissen, dass man nicht allein ist auf der langen Strecke.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt der Sechs fragt: <em>Bin ich sicher? Habe ich, was ich brauche, um durchzuhalten?</em> Chebets Antwort ist die Strecke selbst: In der Bewegung, in der Disziplin, in der Gemeinschaft der Läuferinnen findet sie die Sicherheit, die anderen vielleicht in festen Mauern suchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Freude als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der selbsterhaltenden Sechs eine charakteristische Helligkeit: Vorwärtsdrang, Freude an der Bewegung, das Gefühl, dass das Leben etwas Gutes bereithält, wenn man nur schnell genug läuft. Die SE6w7 kennt die Angst der Sechs &ndash; aber der Siebenerflügel verwandelt sie in Energie, in Leichtigkeit, in den Willen, die nächste Kurve zu nehmen, bevor die Erschöpfung sich festsetzen kann.</p>
+          <p class="vb-intro">Wer Beatrice Chebet laufen sieht, sieht diese Energie. Ihre berühmte Schlussphase &ndash; das Anziehen in den letzten Runden, wenn andere nachlassen &ndash; ist kein Trick und kein taktisches Kalkül allein. Es ist der Siebenerflügel: <em>Jetzt kommt der Teil, der mir gehört. Jetzt werde ich schneller, nicht langsamer.</em> Die Freude am Laufen ist spürbar, auch wenn der Körper am Limit ist.</p>
+          <p class="vb-intro">Der Siebenerflügel erklärt auch Chebets Fähigkeit, unter Druck zu strahlen statt zu erstarren. Die Sechs kennt den Impuls, bei Gefahr innezuhalten. Der Siebenerflügel übersetzt diesen Impuls in Bewegung: <em>Wenn ich schnell genug bin, ist die Bedrohung hinter mir. Also renne ich.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w7 ist ihre Fähigkeit, Gemeinschaft und Freude zu verbinden &ndash; die Zugehörigkeit der Sechs mit dem Vorwärtsdrang der Sieben. Beatrice Chebet trägt beides: Sie läuft für sich, aber sie läuft auch für ihr Land, für ihre Trainingsgruppe, für die Frauen, die nach ihr kommen werden. Dieses doppelte Fundament gibt ihr eine Stabilität, die man auf der Bahn sieht: Sie bricht nicht ein. Sie zieht an.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; nicht im Sinne von Schwäche, sondern als die innere Bewegung, die zögert, die zweifelt, die fragt: <em>Bin ich wirklich gut genug? Reicht das?</em> Jede Langstreckenläuferin kennt diesen inneren Dialog. Der Siebenerflügel hilft, ihn zu übertönen &ndash; mit Tempo, mit Freude, mit dem Rhythmus der Schritte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Dem eigenen Schritt vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich sicher genug, um loszulaufen?</em> zur Erkenntnis <em>Im Laufen selbst entsteht die Sicherheit.</em> Für die SE6w7 bedeutet das, dem eigenen Körper zu vertrauen, dem eigenen Rhythmus, der eigenen Kraft &ndash; nicht weil alles garantiert ist, sondern weil die Erfahrung zeigt: Ich komme an. Ich halte durch. Ich werde schneller, wenn es darauf ankommt.</p>
+          <p class="vb-intro">Beatrice Chebet hat dieses Vertrauen auf der größten Bühne der Welt bewiesen &ndash; zweimal, innerhalb weniger Tage, in Paris. Das Kaninchen, das nicht vor der Strecke flieht, sondern auf ihr nach Hause kommt. Das ist die SE6w7 auf ihrem Heilungsweg: Nicht trotz der Angst laufen &ndash; sondern so lange laufen, bis die Angst keine Rolle mehr spielt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
       ])}
     </div>
   `);
@@ -32450,6 +32511,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
