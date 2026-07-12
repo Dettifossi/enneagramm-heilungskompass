@@ -225,6 +225,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
     tags:["Politik","Recht"] },
+  { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
+    heading:"Herbert Grönemeyer – Sozialer Typ 6",
+    teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
+    tags:["Musik"] },
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
@@ -7545,6 +7549,63 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function herbertGroenomeyerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so6.png" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herbert Grönemeyer</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Komponist &amp; Schauspieler, geb. 1956 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier des sozialen Typs 6 &ndash; wachsam, loyal, tief in der Gemeinschaft verwurzelt. Es lebt nicht für sich. Es lebt mit und für die anderen. Wenn Gefahr droht, schlägt es Alarm. Wenn die Gruppe in Not ist, bleibt es. Und wenn es einen Verlust gibt &ndash; es steht wieder auf, weil die Gemeinschaft es braucht.</p>
+          <p class="vb-intro">Herbert Grönemeyer ist dieses Erdmännchen. Einer der erfolgreichsten deutschen Musiker überhaupt, mit einem Werk, das seit vier Jahrzehnten Gemeinschaft stiftet &ndash; in Stadien, in Wohnzimmern, in den Momenten, in denen Menschen Worte für das suchen, was sie selbst nicht sagen können. <em>Bochum</em>, <em>Männer</em>, <em>Alkohol</em>, <em>Mensch</em> &ndash; das sind keine Songs. Das sind Treffpunkte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Pflicht zur Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> ist nach Naranjo der Subtyp, den er <em>Pflicht</em> nannte: Sicherheit entsteht durch Zugehörigkeit, durch das Erfüllen einer Aufgabe für das Kollektiv, durch die Überzeugung, dass man gebraucht wird &ndash; und dass man da ist, wenn man gebraucht wird. Die SO6 singt nicht für sich. Sie singt für die, die zuhören.</p>
+          <p class="vb-intro">Grönemeyers Verbindung zur Gemeinschaft beginnt mit einem Ort: Bochum, das Ruhrgebiet, die Arbeiterwelt des deutschen Westens. Sein erstes Megaalbum war eine Liebeserklärung an eine Stadt &ndash; nicht an eine glamouröse, sondern an eine echte, dreckige, warmherzige. <em>Du bist keine Schönheit, doch das macht nichts.</em> Das ist SO6-Wärme: Ich sehe dich, wie du bist. Ich liebe dich trotzdem. Ich liebe dich deshalb.</p>
+          <p class="vb-intro">Diese Pflicht zur Gemeinschaft zeigt sich auch in Grönemeyers politischem Engagement: gegen Rassismus, für Geflüchtete, für ein solidarisches Europa. Er nutzt seine Reichweite nicht für sich selbst. Er nutzt sie für das, was er für richtig hält &ndash; auch wenn er dafür Gegenwind bekommt. Das Erdmännchen schlägt Alarm, weil es seine Pflicht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vorwärts, immer vorwärts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der sozialen Sechs eine charakteristische Leichtigkeit: den Drang nach vorne, die Freude an Vielfalt, die Fähigkeit, selbst aus Schmerz noch Energie zu ziehen. Die SO6w7 trauert &ndash; aber sie trauert nicht still. Sie verwandelt.</p>
+          <p class="vb-intro">Das zeigt sich bei Grönemeyer in seiner außerordentlichen Bandbreite: Musiker, Produzent, Komponist, Texter, Schauspieler &ndash; er wechselt die Ausdrucksformen, weil ihn jede neue Form reizt. Der Siebenerflügel erklärt auch seinen unverwechselbaren Sound: diese Mischung aus Tiefe und Energie, aus Schmerz und Aufbruch, aus dem Gefühl, dass das Leben schwer ist &ndash; und trotzdem weitergeht. Unbedingt weitergeht.</p>
+          <p class="vb-intro">1998 verlor Grönemeyer innerhalb weniger Tage seine Frau Marion an Krebs und seinen Bruder Wilhelm. Es war einer der verheerendsten Verluste, die ein Mensch tragen kann. Er zog sich zurück, lebte jahrelang in London. Und dann &ndash; er kam zurück. <em>Mensch</em>, das Album von 2002, wurde das meistverkaufte deutsche Studioalbum aller Zeiten. Aus dem tiefsten Verlust entstand das größte Zeichen des Lebens. Das ist der Siebenerflügel: <em>Ich war unten. Und ich bin wieder da.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 ist ihre Fähigkeit, Gemeinschaft zu stiften und dabei lebendig zu bleiben &ndash; nicht verbittert, nicht erstarrt, sondern in Bewegung. Grönemeyer hat über vier Jahrzehnte hinweg eine Verbindung zu seinem Publikum aufrechterhalten, die für einen Popstar außergewöhnlich ist: Sie basiert nicht auf Image, sondern auf Echtheit. Die Menschen glauben ihm, weil er es meint.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; die innere Bewegung, die zögert, die zweifelt, die fragt: <em>Bin ich genug? Halte ich das aus?</em> Der Siebenerflügel beantwortet diese Frage mit Tempo: <em>Ich halte es aus, indem ich weitermache.</em> Das kann in Überaktivität kippen &ndash; das Nicht-Innehalten als Schutz vor dem, was man fühlen müsste, wenn man anhält. Grönemeyers Jahre in London nach dem Tod seiner Frau waren vielleicht auch das: der notwendige Stopp, den der Siebenerflügel alleine nicht zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Bleiben und Singen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich sicher genug, um da zu sein?</em> zur Erkenntnis <em>Ich bin da &ndash; und das reicht.</em> Für die SO6w7 bedeutet das, nicht nur vorwärts zu rennen, sondern auch anzuhalten, zu fühlen, zu trauern &ndash; und dann aus einem echten Ort heraus wieder zu singen, nicht aus Pflicht oder Bewegungsdrang allein.</p>
+          <p class="vb-intro">Herbert Grönemeyer hat diesen Weg gegangen. Das Erdmännchen, das nach jedem Verlust wieder aufsteht &ndash; nicht weil es keine Wahl hat, sondern weil die Gemeinschaft wartet und weil das Singen selbst heilt. Das ist die SO6w7 auf ihrem Heilungsweg: Wenn die Pflicht und die Freude zusammenfallen, entsteht das, wofür Menschen in Stadien stehen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -32573,6 +32634,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
