@@ -165,6 +165,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
     tags:["Medien"] },
+  { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
+    heading:"Cristiano Ronaldo – Sozialer Typ 3",
+    teaser:"SO3w2 · geb. 1985. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore. Der Gepard, der nie aufhört zu rennen – und der trotzdem weiß, wo er herkommt.",
+    tags:["Sport"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7592,6 +7596,65 @@ function matthiasSchweighoeferPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function cristianoRonaldoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#15803d18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐆</span>
+        </div>
+        <p class="krim-portrait-name">Cristiano Ronaldo</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Fußballspieler, geb. 1985 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und es ist das schnellste Tier der Erde. Nicht das stärkste, nicht das größte. Das schnellste. Was den Gepard auszeichnet, ist nicht rohe Kraft, sondern Präzision: jede Bewegung optimiert, jede Energie auf das Ziel gerichtet, keine Verschwendung, keine Ablenkung. Der Gepard jagt nicht mit Geduld wie der Löwe &ndash; er jagt mit Tempo, mit Technik, mit dem absoluten Willen, der Erste zu sein.</p>
+          <p class="vb-intro">Cristiano Ronaldo ist der Gepard in Reinform. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore &ndash; Zahlen, die nicht aus Talent allein entstehen, sondern aus einem Antrieb, der sich jedem bekannt ist, der ihn je beobachtet hat: Er will der Beste sein. Nicht einer der Besten. Der Beste. Der Gepard schläft nicht auf seinen Lorbeeren. Er trainiert, während andere feiern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg als Botschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei &ndash; derjenige Subtyp, bei dem Eitelkeit und Leistungsdrang am sichtbarsten werden. Während die selbsterhaltende Drei Leistung nach innen richtet und lieber im Hintergrund arbeitet, braucht die soziale Drei die Bühne. Nicht aus Selbstgefälligkeit, sondern weil Anerkennung &ndash; öffentliche, kollektive, messbare Anerkennung &ndash; der tiefste Treibstoff ist. Die SO3 fragt: <em>Sehen mich alle? Weiß die Welt, was ich geleistet habe?</em></p>
+          <p class="vb-intro">Bei Cristiano Ronaldo ist diese Energie in jedem Jubel sichtbar. Das berühmte &bdquo;Siuuu&ldquo;, der gereckte Arm, der Blick ins Stadion &ndash; das ist kein Zufall. Das ist die SO3, die den Moment der Anerkennung vollständig auskosten will. Kein Tor ohne Feier. Keine Leistung ohne Bestätigung. Nicht weil er eitel wäre im leeren Sinn &ndash; sondern weil die öffentliche Anerkennung für die soziale Drei so wesentlich ist wie Wasser für das Pflanzenwachstum.</p>
+          <p class="vb-intro">Die SO3 misst sich an anderen &ndash; und braucht Maßstäbe, um sich zu orientieren. Ronaldos jahrzehntelanger Wettbewerb mit Lionel Messi ist das vielleicht reinste Beispiel dafür in der Sportgeschichte: Zwei Männer, die sich gegenseitig zu Höchstleistungen antreiben, weil keiner der Zweite sein will. Für die SO3 ist Konkurrenz kein Stress &ndash; sie ist Treibstoff.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Der Star, der auch Bruder ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der sozialen Drei eine entscheidende menschliche Dimension: den echten Impuls zur Verbindung, zur Fürsorge, zur Loyalität. Die reine SO3 könnte kalt wirken &ndash; ein Erfolgsautomat, der alles dem Ergebnis unterordnet. Der Zweierflügel wärmt dieses Bild von innen: Hier ist jemand, dem andere wirklich wichtig sind.</p>
+          <p class="vb-intro">Ronaldos Beziehung zu seiner Familie ist dafür das deutlichste Zeichen. Er hat seine Mutter aus der Armut geholt, seinen Sohn Cristiano Jr. offen in sein Leben integriert, spricht in Interviews regelmäßig über seine Herkunft aus Madeira, über die schwierigen Jahre der Kindheit, über den früh verstorbenen Vater. Die SO3 allein würde diese Geschichten vielleicht strategisch einsetzen. Der Zweierflügel macht sie echt: Das sind keine PR-Momente &ndash; das ist ein Mensch, der weiß, wo er herkommt, und der diejenigen, die ihn geliebt haben, nicht vergisst.</p>
+          <p class="vb-intro">Der Zweierflügel erklärt auch Ronaldos Verhältnis zu seinen Mannschaften. Er ist kein einsamer Wolf &ndash; er will, dass alle mitgewinnen. Er jubelt mit seinen Mitspielern, trägt Trikots mit ihren Namen, lobt öffentlich. Das Gepard-Tempo bleibt &ndash; aber der Zweierflügel sorgt dafür, dass der Zieleinlauf gemeinsam gefeiert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihr Antrieb zur Exzellenz. Cristiano Ronaldo hat den Fußball mitdefiniert, was es bedeutet, sich professionell auf Sport einzulassen: sein Ernährungsregime, sein Schlafrhythmus, sein Training nach dem Training. Er hat eine Generation von Spielern inspiriert, die verstanden haben: Talent reicht nicht. Wille entscheidet. Das ist die SO3 in ihrer heilsamsten Form &ndash; als Vorbild für das, was möglich ist, wenn man sich vollständig einem Ziel widmet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; das tiefe Bedürfnis, als erfolgreich wahrgenommen zu werden, auch wenn die innere Realität anders aussieht. Bei der SO3 äußert sich das als Schwierigkeit, Niederlagen wirklich anzunehmen. Ronaldo hat in Momenten der Kritik oder des sportlichen Misserfolgs gelegentlich Reaktionen gezeigt, die mehr über das Innenleben der Drei verraten als über die Situation selbst: Wut, Rückzug, das Bedürfnis nach Rechtfertigung. Der Gepard, der verliert, leidet.</p>
+          <p class="vb-intro">Der Zweierflügel bringt die Gefahr, die eigene Großzügigkeit als Teil des eigenen Bildes zu nutzen &ndash; unbewusst, aber wirksam. Die Grenze zwischen echtem Geben und dem Bedürfnis, als gebend gesehen zu werden, ist für die SO3w2 eine lebenslange Frage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Siegen zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Siege.</em> Für die SO3 bedeutet das einen besonders schweren Schritt: loszulassen, dass die Anzahl der Trophäen etwas über den eigenen Wert aussagt. Der Gepard, der aufgehört hat zu rennen, muss lernen: Ich bin auch dann, wenn kein Stadion jubelt.</p>
+          <p class="vb-intro">Cristiano Ronaldo nähert sich dem Ende einer beispiellosen Karriere &ndash; und die Frage, wer er ist, wenn der Fußball endet, ist vielleicht die tiefste, die er je beantworten muss. Der Zweierflügel gibt ihm dabei einen Vorsprung: Die Liebe zu seiner Familie, zu seinen Kindern, zu den Menschen, die ihn nicht wegen seiner Tore lieben, ist ein Fundament, das bleibt. Darauf kann eine Identität gebaut werden, die größer ist als jede Bestenliste.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
       ])}
     </div>
   `);
@@ -31460,6 +31523,7 @@ function render() {
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
