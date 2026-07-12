@@ -185,6 +185,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
     tags:["Natur"] },
+  { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
+    heading:"John Lennon – Sozialer Typ 4",
+    teaser:"SO4w5 · 1940–1980. Musiker, Komponist, Friedensaktivist, Mitbegründer der Beatles. Das Gürteltier, das die Welt fragte: Stell Dir vor, es wäre Frieden.",
+    tags:["Musik"] },
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
@@ -7089,6 +7093,64 @@ function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
+
+function johnLennonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so4.png" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Lennon</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Komponist &amp; Friedensaktivist, 1940&ndash;1980 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; und es ist ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Das Gürteltier ist kein Einzelgänger &ndash; es lebt in der Gemeinschaft, braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt. Und in seiner Einzigartigkeit unter den Säugetieren trägt es etwas Unverwechselbares: Niemand sonst sieht so aus. Niemand sonst ist so gebaut.</p>
+          <p class="vb-intro">John Lennon war einer der einflussreichsten Musiker des 20. Jahrhunderts &ndash; und ein Mann, der sein ganzes Leben zwischen Panzer und Verletzlichkeit pendelte. Auf der Bühne: Schärfe, Witz, Provokation. Im Inneren: ein Mensch, der tief nach Frieden suchte &ndash; in der Welt und in sich selbst. Das Gürteltier, das sich manchmal einrollt, um sich zu schützen, und manchmal aus dem Panzer heraustritt, um die Welt zu verändern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der den Schmerz der Vier in die soziale Dimension trägt. Naranjo nennt diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht gut genug zu sein für die Welt, in der man lebt &ndash; und gleichzeitig der brennende Wunsch, dazuzugehören, bedeutsam zu sein, etwas zu hinterlassen, das bleibt. Die SO4 vergleicht sich unablässig mit anderen und sucht in der Resonanz der Gemeinschaft eine Bestätigung, die nur von innen kommen kann.</p>
+          <p class="vb-intro">Bei John Lennon zeigt sich das in dem Widerspruch, der sein Leben prägte: Er war einer der berühmtesten Menschen der Welt &ndash; und fühlte sich trotzdem oft ungesehen, unverstanden, allein. Die frühe Verlassenheit durch seinen Vater, der Tod seiner Mutter Julia als Teenager &ndash; das sind Wunden, die die SO4 tief in sich trägt und in Kunst verwandelt. <em>Mother</em>, <em>Isolation</em>, <em>Working Class Hero</em> &ndash; das sind keine Songs über den Ruhm. Das sind Dokumente eines Menschen, der seinen eigenen Schmerz in Sprache verwandelt hat, damit andere wissen: Du bist nicht allein damit.</p>
+          <p class="vb-intro">Charakteristisch für die SO4 ist die Fähigkeit, das Persönlichste in das Universale zu verwandeln. Lennon schrieb nicht für sich &ndash; er schrieb für eine Generation. Und eine Generation hörte sich selbst in seinen Worten. Das ist das Geschenk der sozialen Vier: Sie macht das Innerste öffentlich und entdeckt dabei, dass das Innerste allen gehört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Wissen, Rückzug und die Kraft der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sozialen Vier eine charakteristische Prägung: das Bedürfnis nach Rückzug, nach Tiefe, nach der intellektuellen Durchdringung der Welt. Die reine SO4 sucht die Verbindung &ndash; sie will gesehen werden, will berühren. Der Fünferflügel zieht sie in die Stille zurück: <em>Denk zuerst. Versteh zuerst. Dann rede.</em></p>
+          <p class="vb-intro">Bei John Lennon zeigt sich der Fünferflügel in seiner philosophischen Neugier, die weit über die Musik hinausging. Er las, er dachte, er hinterfragte &ndash; Institutionen, Religionen, den Krieg, die eigene Rolle. <em>Imagine</em> ist nicht das Lied eines Entertainers. Es ist das Lied eines Menschen, der sich gefragt hat: <em>Was wäre, wenn wir wirklich nachdenken würden?</em> Der Fünferflügel gibt der SO4 Distanz &ndash; die Fähigkeit, das Persönliche in das Allgemeine zu heben und dabei klar zu bleiben.</p>
+          <p class="vb-intro">Der Fünferflügel erklärt auch Lennons Bereitschaft, sich zurückzuziehen &ndash; die Jahre nach den Beatles, in denen er in der Dakota in New York lebte, Vater war, Brot backte, still war. Die SO4w5 weiß: Manchmal ist das Schweigen lauter als jeder Song. Die fünf Jahre, in denen er aus dem Rampenlicht trat und zurückkehrte kurz vor seinem Tod &ndash; das ist Fünferflügel in seiner reinsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4 ist ihre Fähigkeit, Schmerz in Schönheit zu verwandeln &ndash; und diese Schönheit mit der Welt zu teilen. John Lennon hat Lieder geschrieben, die Generationen überdauern: nicht weil sie technisch perfekt sind, sondern weil sie wahr sind. <em>In My Life</em>, <em>Come Together</em>, <em>Imagine</em> &ndash; das sind Zeugnisse eines Menschen, der tief gefühlt hat und nicht aufgehört hat, das Gefühlte in Sprache zu bringen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SO4 äußert sich das als sozialer Vergleich: <em>Die anderen wissen, wie man dazugehört. Ich tue nur so.</em> Lennon hat dieses Gefühl immer wieder in Interviews beschrieben &ndash; die Überzeugung, ein Außenseiter zu sein, auch inmitten des größten Erfolgs. Die Beatles haben die Welt verändert. Und Lennon fragte sich, ob er wirklich dazugehörte.</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr des Rückzugs in die Bitterkeit: Wenn die Welt nicht versteht, was die SO4w5 sieht und fühlt, kann sie sich verschließen &ndash; zynisch werden, hart. Lennons öffentliche Reibungen, seine Schärfe in Interviews, seine Bereitschaft zur Verletzung sind der Schatten dieser Energie: Die Verletzlichkeit, die keinen Ort findet, wird zur Waffe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Vergleichen zum Ankommen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich weniger als die anderen?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig.</em> Für die SO4w5 bedeutet das, das innere Wissen nicht länger als Abstand zur Welt zu nutzen, sondern als Brücke zu ihr. Die Tiefe, die manchmal isoliert, ist auch das, was verbindet.</p>
+          <p class="vb-intro">Lennon hat in den letzten Jahren seines Lebens Schritte in diese Richtung gemacht. Die Zeit mit Sean, die Stille der Hausmanns-Jahre, die Rückkehr mit <em>Double Fantasy</em> &ndash; ein Album, das nicht mehr bewies, sondern einfach war. Das Gürteltier, das den Panzer nicht mehr braucht, weil es gelernt hat, dass sein Inneres stark genug ist. Dieser Weg wurde am 8. Dezember 1980 abrupt beendet. Was bleibt, sind Lieder, die fragen: <em>Stell Dir vor, es wäre Frieden. Was hält uns davon ab?</em> Diese Frage ist noch nicht beantwortet.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -31830,6 +31892,7 @@ function render() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
+      "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
