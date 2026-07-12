@@ -1,9 +1,14 @@
-const CACHE = "kompass-v10";
+const CACHE = "kompass-v11";
 const PRECACHE = ["./", "./index.html", "./styles.css", "./bundle.js", "./manifest.json", "./offline.html"];
 
 self.addEventListener("install", e => {
+  // Sofort übernehmen – kein Warten auf vollständiges Precaching
+  self.skipWaiting();
+  // Precache im Hintergrund (Fehler werden ignoriert, damit der SW nicht scheitert)
   e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(PRECACHE)).then(() => self.skipWaiting())
+    caches.open(CACHE).then(c =>
+      Promise.allSettled(PRECACHE.map(url => c.add(url).catch(() => {})))
+    )
   );
 });
 
@@ -26,7 +31,7 @@ self.addEventListener("fetch", e => {
         const clone = res.clone();
         caches.open(CACHE).then(c => c.put(e.request, clone));
         return res;
-      }).catch(() => caches.match(e.request) || caches.match("./offline.html"))
+      }).catch(() => caches.match(e.request).then(r => r || caches.match("./offline.html")))
     );
     return;
   }
