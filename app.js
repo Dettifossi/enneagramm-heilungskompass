@@ -6926,12 +6926,15 @@ function beruehmtePersoenlichkeitenPage() {
     const inst = (p.subtyp||"").substring(0,2).toUpperCase();
     const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
     const kats = (p.tags||[]).join(",");
+    const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
+    const tierExt = {se1:'jpg',so1:'jpg',sx1:'jpg',se2:'jpg',so2:'jpg',sx2:'jpg',se3:'jpg',so3:'jpg',sx3:'jpg',se4:'png',so4:'png',sx4:'png',se5:'png',so5:'png',sx5:'png',se6:'png',so6:'png',sx6:'png',se7:'png',so7:'png',sx7:'png',se8:'png',so8:'png',sx8:'png',se9:'png',so9:'png',sx9:'png'};
+    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/beruehmte-tier-'+tierKey+'.'+(tierExt[tierKey]||'png') : '';
     return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){
@@ -6940,7 +6943,10 @@ function beruehmtePersoenlichkeitenPage() {
       }).join("")
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
-      +'<span style="font-size:1.6rem;color:var(--gold);flex-shrink:0;margin-top:0.1rem;">&#9655;</span>'
+      +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
+      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />' : '')
+      +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
+      +'</div>'
       +'</div></div>';
   };
 
