@@ -7713,13 +7713,13 @@ function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">3. Der Sechserflügel: Loyalität als Fundament</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der selbsterhaltenden Sieben etwas, das ihr ohne ihn fehlen könnte: Beharrlichkeit. Die reine Sieben springt von Erfahrung zu Erfahrung, scheut Schwere, sucht den nächsten Aufbruch. Der Sechserflügel verankert sie &ndash; er bringt Loyalität, Verantwortungsgefühl, die Bereitschaft, auch dann noch zu kämpfen, wenn die Freude gerade schwer zu finden ist.</p>
-          <p class="vb-intro">Paolinis Karriere ist kein gerader Weg nach oben. Jahrelang spielte sie in der Weltrangliste im Mittelfeld, arbeitete mit ihrem Trainer Renzo Furlan an jedem Detail. Kein Wechsel, keine Ungeduld &ndash; Bindung. Der Sechserflügel hält sie auf dem Boden, wenn die Sieben zu abheben droht, und gibt ihr die Ausdauer für die langen Matches, in denen Freude allein nicht ausreicht.</p>
+          <p class="vb-intro">Paolinis Karriere ist kein gerader Weg nach oben. Jahrelang spielte sie in der Weltrangliste im Mittelfeld, arbeitete mit ihrem Trainer Renzo Furlan an jedem Detail. Kein Wechsel, keine Ungeduld &ndash; Bindung. Der Sechserflügel hält sie auf dem Boden, wenn die Sieben abzuheben droht, und gibt ihr die Ausdauer für die langen Matches, in denen Freude allein nicht ausreicht.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als innerer Motor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Maßlosigkeit</strong> &ndash; auf Englisch <em>Gluttony</em>: der unstillbare Hunger nach Erfahrung, Freude, Leben. In der selbsterhaltenden Sieben zeigt er sich nicht als Exzess, sondern als Fülle: mehr Wärme, mehr Verbindung, mehr dieser Momente, in denen alles stimmt.</p>
-          <p class="vb-intro">Bei Paolini sieht man das im Spiel selbst. Sie gibt keine Punkte auf. Sie läuft jeden Ball. Sie lächelt nach verlorenen Sätzen und kämpft sich zurück. 2024 stand sie in den Finals von Roland Garros und Wimbledon &ndash; und verlor beide. Vier Wochen später gewann sie die WTA Finals. Das ist die Maßlosigkeit der SE7: nicht zerstörerisch, sondern unerschöpflich. Der Hunger nach dem nächsten Moment, der nächsten Chance, dem nächsten Aufschlag.</p>
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> &ndash; oder Maßlosigkeit: der unstillbare Hunger nach Erfahrung, Freude, Leben. In der selbsterhaltenden Sieben zeigt er sich nicht als Exzess, sondern als Fülle: mehr Wärme, mehr Verbindung, mehr dieser Momente, in denen alles stimmt.</p>
+          <p class="vb-intro">Bei Paolini sieht man das im Spiel selbst. Sie gibt keine Punkte auf. Sie versucht jeden Ball zu erreichen. Sie lächelt nach verlorenen Sätzen und kämpft sich zurück. 2024 stand sie in den Finals von Roland Garros und Wimbledon &ndash; und verlor beide. Vier Wochen später gewann sie die WTA Finals. Das ist die Maßlosigkeit der SE7: nicht zerstörerisch, sondern unerschöpflich. Der Hunger nach dem nächsten Moment, der nächsten Chance, dem nächsten Aufschlag.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
