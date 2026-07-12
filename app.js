@@ -141,6 +141,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jan Ullrich â Selbsterhaltender Typ 2",
     teaser:"SE2w3 Â· geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong â nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
     tags:["Sport"] },
+  { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
+    heading:"Barack Obama â Sozialer Typ 2",
+    teaser:"SO2w1 Â· geb. 1961. 44. US-Präsident, Community Organizer, Friedensnobelpreisträger. Yes We Can â keine Botschaft über Obama, sondern über das, was wir gemeinsam möglich machen. Tierentsprechung: Golden Retriever.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7391,6 +7395,65 @@ function janUllrichPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function barackObamaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#1e3a5f18,#c8a84b18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐕</span>
+        </div>
+        <p class="krim-portrait-name">Barack Obama</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">44. US-Präsident, geb. 1961 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; und es ist ein Tier, das jeden Raum wärmt, den es betritt. Freundlich, zugewandt, von Natur aus auf Verbindung ausgerichtet. Der Golden Retriever will gefallen, will nützen, will gebraucht werden. Aber er ist kein Schoßhund. Hinter der Wärme steckt eine erhebliche innere Kraft &ndash; und die Fähigkeit, diese Kraft in den Dienst anderer zu stellen, ohne sich selbst dabei aufzugeben.</p>
+          <p class="vb-intro">Barack Obama ist seit seiner ersten öffentlichen Rede eine Kraft, die Menschen anzieht &ndash; nicht durch Einschüchterung, sondern durch Verbindung. Er tritt in einen Raum und lässt ihn größer werden. Er spricht, und Menschen, die sich nie gemeint fühlten, fühlen sich gemeint. Das ist das Geschenk des sozialen Zweiers: die Fähigkeit, das Band zwischen Menschen zu stärken, nur dadurch, dass er da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Hilfe als gesellschaftliche Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> ist in der Enneagramm-Tradition der Subtyp, der seine Energie der Zwei nicht in persönliche Beziehungen oder körperliche Fürsorge lenkt, sondern in gesellschaftliche Wirksamkeit. Die SO2 will nicht nur jemandem helfen &ndash; sie will Systeme verändern, Strukturen gestalten, die Bedingungen verbessern, unter denen Menschen leben. Naranjo nennt diesen Subtyp <em>Ambition</em>: nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, durch Einfluss und Ansehen mehr für andere tun zu können.</p>
+          <p class="vb-intro">Barack Obamas politischer Weg ist ohne diesen Blickwinkel nicht vollständig zu verstehen. Als Community Organizer in Chicago arbeitete er mit den ärmsten Vierteln der Stadt &ndash; nicht aus der Distanz, sondern direkt, von Haus zu Haus. Der Weg ins Weiße Haus war kein Aufstieg um des Aufstiegs willen. Er war &ndash; zumindest in seiner inneren Logik &ndash; die größtmögliche Plattform für das, was er tun wollte: Menschen eine Stimme geben, die keine hatten.</p>
+          <p class="vb-intro">Der Wahlkampf 2008 mit dem Slogan <em>Yes We Can</em> war die SO2 in ihrer reinsten Form: keine Botschaft über Obama, sondern eine Botschaft über das, was wir gemeinsam möglich machen können. Der Golden Retriever bellt nicht: <em>Schaut mich an.</em> Er läuft voraus und schaut zurück: <em>Kommt ihr mit?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Haltung als innere Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> verändert die soziale Zwei auf entscheidende Weise. Die reine SO2 kann sich im Strudel der Erwartungen anderer verlieren &ndash; immer für alle da, immer bereit, immer zustimmend. Der Einserflügel bringt eine innere Achse: das Bewusstsein für Richtig und Falsch, die Bereitschaft, auch dann Stellung zu beziehen, wenn es unbequem ist.</p>
+          <p class="vb-intro">Bei Barack Obama zeigt sich das in seiner Fähigkeit, moralische Klarheit zu bewahren, ohne in Moralisieren zu verfallen. Er benennt Ungerechtigkeit &ndash; ruhig, präzise, ohne die Verbindung zum Gegenüber zu verlieren. Das ist die SO2w1er-Kombination in ihrer stärksten Form: die Wärme der Zwei mit der inneren Geradlinigkeit der Eins. Er sagt das Unbequeme &ndash; aber er sagt es so, dass der andere sich noch immer eingeladen fühlt.</p>
+          <p class="vb-intro">Der Einserflügel erklärt auch seine Disziplin: die präzisen Reden, die sorgfältige Wortwahl, die Beharrlichkeit im Detail. Die Eins lässt nicht locker, wenn das Prinzip auf dem Spiel steht. Obamas Satz <em>We are the ones we have been waiting for</em> trägt beide Energien: die Zwei, die verbindet, und die Eins, die auf das Richtige besteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2 ist ihre Fähigkeit, Brücken zu bauen, wo andere Mauern sehen. Barack Obama hat in einer der polarisiertesten Epochen der amerikanischen Geschichte eine Präsidentschaft gestaltet, die &ndash; trotz aller Widerstände &ndash; nie die Sprache der Feindschaft angenommen hat. Das ist keine politische Strategie. Das ist Charakter.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; das tiefe Bedürfnis, gebraucht zu werden, unverzichtbar zu sein. Bei der SO2 äußert sich das als Gefahr, Zustimmung über Wahrheit zu stellen. Die Kunst des Kompromisses, für die Obama oft gerühmt wird, hat eine Kehrseite: Momente, in denen das Bedürfnis nach Einheit das Benennen von Unrecht verzögerte. Der Golden Retriever will, dass alle mitkommen &ndash; auch dann, wenn manche nicht mitkommen wollen.</p>
+          <p class="vb-intro">Kritiker aus dem progressiven Lager haben Obama genau das vorgehalten: zu viel Bereitschaft, die Hand auszustrecken, wo Klarheit nötiger gewesen wäre. Das ist der Schatten der SO2: die Verbindung als Wert, der manchmal über die Wahrheit gestellt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Dienen zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Was kann ich für andere tun?</em> zur Frage <em>Was bin ich, wenn ich nichts tue?</em> Die wachsende Zwei entdeckt: Ihr Wert liegt nicht in ihrer Nützlichkeit. Sie ist nicht um der anderen willen da &ndash; sie ist einfach da. Das ist genug.</p>
+          <p class="vb-intro">Barack Obama ist seit seiner Präsidentschaft stiller geworden &ndash; und das auf eine Weise, die Reife ausstrahlt. Er mischt sich ein, wenn es nötig ist. Er hält sich zurück, wenn andere die Bühne brauchen. Er schreibt, spricht, erinnert &ndash; aber ohne den Hunger, unentbehrlich zu sein. Der Golden Retriever muss nicht immer rennen. Manchmal liegt er einfach in der Sonne &ndash; und ist vollständig darin.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
       ])}
     </div>
   `);
@@ -31076,6 +31139,7 @@ function render() {
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
+      "beruehmte-barack-obama": barackObamaPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
