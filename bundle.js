@@ -129,6 +129,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
     tags:["Politik"] },
+  { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
+    heading:"Leonardo DiCaprio â Sexueller Typ 1",
+    teaser:"SX1w2 Â· geb. 1974. Schauspieler, Klimaaktivist. Fünfmal Oscar-nominiert, sechsmal angetreten â und im Moment des Triumphes sprach er über den Klimawandel, nicht über sich. Die Schwarze Mamba brennt nicht für Applaus. Tierentsprechung: Schwarze Mamba.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7204,6 +7208,64 @@ function friedrichMerzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function leonardoDiCaprioPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#1e1e1e18,#c8a84b18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐍</span>
+        </div>
+        <p class="krim-portrait-name">Leonardo DiCaprio</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Klimaaktivist, geb. 1974 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; und es ist ein Tier, das unter Druck steht. Nicht äußerlich. Innerlich. Die Schwarze Mamba ist präzise, schnell und unerbittlich. Wenn sie zuschlägt, dann nicht aus Brutalität, sondern aus einem Impuls, der sich nicht mehr aufhalten lässt. Sie ist das Tier eines Wesens, das an sich selbst die höchsten Maßstäbe anlegt &ndash; und das diese Maßstäbe mit einer Intensität verfolgt, die andere kaum nachvollziehen können.</p>
+          <p class="vb-intro">Leonardo DiCaprio hat sich für jede Rolle seines Lebens in Zonen begeben, in die kaum ein anderer Schauspieler freiwillig geht. Rohes Fleisch gegessen. Im Schnee geschlafen. Sprachen gelernt, Körper transformiert, Jahrzehnte in Figuren investiert. Das ist kein Ehrgeiz. Das ist der Biss der Mamba: vollständig, präzise, ohne Halbheiten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Perfektion als inniges Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist in der Enneagramm-Tradition der intensivste aller Einser-Subtypen. Während die selbsterhaltende Eins ihre Perfektion nach innen richtet und die soziale Eins die Welt reformieren will, kanalisiert die SX1 ihren Zorn und ihre Leidenschaft in den direkten, persönlichen Kontakt &ndash; in die Beziehung, das Projekt, die Sache, der sie sich verschrieben hat. Naranjo nennt diesen Subtyp <em>Jealousy</em> &ndash; Eifersucht: eine brennende Intensität im Erleben dessen, was sie liebt oder ablehnt.</p>
+          <p class="vb-intro">Bei Leonardo DiCaprio zeigt sich das in einer lebenslangen, fast besessenen Beziehung zu seiner Kunst. Er wählt Rollen, die etwas von ihm verlangen, das über technisches Können weit hinausgeht. Howard Hughes in <em>The Aviator</em> &ndash; er hat Zwangsstörungen am eigenen Leib erlebt. Hugh Glass in <em>The Revenant</em> &ndash; er hat echte Kälte, echte Erschöpfung, echten Schmerz als Material benutzt. Die SX1 kann nicht halbherzig sein. Sie muss vollständig darin sein &ndash; oder gar nicht.</p>
+          <p class="vb-intro">Dasselbe Feuer zeigt sich in seinem Klimaaktivismus. Seit den 1990er Jahren engagiert sich DiCaprio für den Schutz der Erde &ndash; nicht als Beiwerk, sondern als zweite Lebensachse. Die Leonardo DiCaprio Foundation hat über 100 Millionen Dollar in Umweltschutzprojekte investiert. Das ist die SX1 in ihrem Licht: leidenschaftlich, präzise, kompromisslos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme hinter dem Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verändert die sexuelle Eins auf entscheidende Weise. Die reine SX1 kann verzehrend wirken &ndash; hitzig, fordernd, schwer zugänglich in ihrer Intensität. Der Zweierflügel bringt eine natürliche Wärme ins Spiel: das echte Interesse am anderen, die Freude am Geben, die Fähigkeit, andere in die eigene Welt einzuladen statt sie auf Abstand zu halten.</p>
+          <p class="vb-intro">Bei DiCaprio zeigt sich der Zweierflügel in der Art, wie er mit Regisseuren und Kollegen arbeitet. Seine langjährige Zusammenarbeit mit Martin Scorsese &ndash; fünf Filme, eine echte kreative Freundschaft &ndash; ist kein strategisches Bündnis. Es ist Zuneigung. Die SX1w2er baut tiefe, loyale Verbindungen zu den Menschen, denen sie vertraut. Und sie verteidigt diese Verbindungen mit derselben Intensität, mit der sie alles andere verfolgt.</p>
+          <p class="vb-intro">Auch in seinen Beziehungen zur Umweltbewegung trägt der Zweierflügel: DiCaprio spricht nicht nur &ndash; er verbindet sich. Er bringt Wissenschaftler, Aktivisten und Politiker zusammen. Der SX1w2er will nicht nur recht haben. Er will, dass die richtigen Menschen sich finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1 ist ihre Tiefe. Leonardo DiCaprio hat kein breites Werk &ndash; er hat ein intensives. Jede Rolle ist ein Eintauchen. Kein Durchschnitt, kein Mittelmaß. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; und bei der SX1 ist dieser Zorn lebendig, nah an der Oberfläche, manchmal kaum zu bändigen. Die Intensität, die DiCaprio in Rollen wie Jordan Belfort oder Calvin Candie verwandelt, kommt nicht aus dem Nichts. Sie kommt aus einem inneren Feuer, das auch im Alltag brennt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Perfektion als Gefängnis. Die SX1 kann so hohe Maßstäbe haben, dass sie sich selbst nicht genug ist &ndash; auch dann nicht, wenn die Welt ihr applaudiert. DiCaprio hat fünfmal vergeblich auf den Oscar gewartet. Bei der sechsten Nominierung &ndash; für <em>The Revenant</em>, 2016 &ndash; gewann er endlich. In seiner Rede sprach er über den Klimawandel, nicht über sich selbst. Das ist die SX1: Auch im Moment des Triumphes steht das Prinzip vor der Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Feuer zur Freiheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Heiterkeit. Von der Forderung zur Akzeptanz. Die wachsende Eins lernt: Ich muss nicht perfekt sein, um vollständig zu sein. Das Gute entsteht nicht nur durch Kontrolle &ndash; manchmal entsteht es auch durch Loslassen.</p>
+          <p class="vb-intro">Für die SX1 bedeutet das einen besonderen Schritt: die eigene Intensität annehmen, ohne von ihr regiert zu werden. Das Feuer der Mamba nicht löschen &ndash; aber lernen, auch in seiner Stille zu ruhen. Leonardo DiCaprio ist noch auf diesem Weg. Das Engagement bleibt. Die Leidenschaft bleibt. Aber vielleicht kommt ein Moment, in dem die Mamba nicht mehr zuschlagen muss, um zu wissen, wer sie ist.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
       ])}
     </div>
   `);
@@ -30886,6 +30948,7 @@ function render() {
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
+      "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
