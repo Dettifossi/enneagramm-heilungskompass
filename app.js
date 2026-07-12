@@ -112,7 +112,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
-    tags:["Sonstiges"] },
+    tags:["Medien"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -6745,7 +6745,7 @@ function kaesesortenPage() {
 }
 
 function beruehmtePersoenlichkeitenPage() {
-  const allKats = ["Musik","Schauspiel","Wissenschaft","Sport","Politik","Kunst","Literatur","Wirtschaft","Astronaut","Sonstiges"];
+  const allKats = ["Musik","Schauspiel","Wissenschaft","Sport","Politik","Kunst","Literatur","Wirtschaft","Astronaut","Medien","Sonstiges"];
   const katLabel = {
     "Musik":        "Musik",
     "Schauspiel":   "Schauspiel / Film",
@@ -6756,12 +6756,13 @@ function beruehmtePersoenlichkeitenPage() {
     "Literatur":    "Literatur",
     "Wirtschaft":   "Wirtschaft / Unternehmertum",
     "Astronaut":    "Raumfahrt / Exploration",
+    "Medien":       "Medien / TV",
     "Sonstiges":    "Sonstiges",
   };
   const katColors = {
     "Musik":"#7c3aed","Schauspiel":"#b45309","Wissenschaft":"#0369a1",
     "Sport":"#15803d","Politik":"#c0392b","Kunst":"#be185d",
-    "Literatur":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Sonstiges":"#6b7280"
+    "Literatur":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Medien":"#0f766e","Sonstiges":"#6b7280"
   };
 
   function filterBar() {
