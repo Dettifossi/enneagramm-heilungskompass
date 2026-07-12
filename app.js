@@ -5376,6 +5376,9 @@ const SPIRITUELL_TRACKS = {
         <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Homöopathie & Songs</a>.
       </p>
       ${grid(enneagrammSongs)}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
