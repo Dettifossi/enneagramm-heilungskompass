@@ -197,6 +197,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
     tags:["Musik"] },
+  { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
+    heading:"Ana de Armas – Sexueller Typ 4",
+    teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7331,6 +7335,64 @@ function freddieMercuryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function anaDeArmasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx4.png" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ana de Armas</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1988 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und verhält sich wie der größte. Er fürchtet nichts. Er bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Aber hinter dieser Kühnheit liegt ein Tier, das tief empfindet: empfindlich, bindungsintensiv, manchmal dramatisch &ndash; und trotz aller Selbstdarstellung auf echte Verbindung angewiesen. Der Chihuahua ist kein Tier der Masse. Er ist ein Tier der Intensität.</p>
+          <p class="vb-intro">Ana de Armas ist eine der außergewöhnlichsten Schauspielerinnen ihrer Generation &ndash; eine Frau, die mit nichts begann und alles aus sich selbst heraus aufgebaut hat. Aufgewachsen in Kuba, mit 18 Jahren nach Spanien ausgewandert, ohne Spanisch zu sprechen, ohne Kontakte, ohne Netz: Sie hat sich durchgekämpft. Und als Hollywood kam, hat sie nicht gespielt, dass sie dort hingehört &ndash; sie hat bewiesen, dass sie dorthin gehört. Der Chihuahua, der sich vor keiner Bühne fürchtet &ndash; und der dabei nie vergisst, woher er kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität als innerer Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der den Schmerz der Vier in die unmittelbare persönliche Intensität trägt. Naranjo nennt diesen Subtyp <em>Rivalität</em> &ndash; die brennende Überzeugung, dass andere haben, was einem selbst verweigert wurde, verbunden mit dem Impuls, sich zu messen, zu überbieten, zu übertreffen. Das Leitmotiv der SX4 lautet: <em>Verletzte Menschen verletzen Menschen.</em> Die SX4 kämpft &ndash; mit anderen, mit sich selbst, mit der Welt &ndash; weil der eigene Schmerz keinen anderen Ausweg findet. Diese Energie ist ein Feuer, das verbrennen und erwärmen kann.</p>
+          <p class="vb-intro">Bei Ana de Armas zeigt sich das in der Intensität, mit der sie ihre Rollen bewohnt. In <em>Knives Out</em> spielte sie eine Figur, die auf den ersten Blick unscheinbar wirkt &ndash; und am Ende den ganzen Film trägt. In <em>Blonde</em> hat sie Marilyn Monroe nicht nachgeahmt, sondern von innen gespürt: den Schmerz, die Sehnsucht, das Gefühl, nie wirklich gesehen zu werden &ndash; nur die Oberfläche, nie der Mensch. Das ist SX4-Energie: Sie spielt nicht die Figur. Sie wird die Figur.</p>
+          <p class="vb-intro">Der sexuelle Instinkt richtet die Vier auf die unmittelbare Verbindung aus: <em>Ich will, dass du mich wirklich siehst &ndash; nicht das Bild, nicht die Rolle, mich.</em> Ana de Armas hat dieses Bedürfnis in ihre Arbeit kanalisiert: Jede Rolle ist auch eine Frage an das Publikum &ndash; <em>Siehst du mich jetzt?</em> Die Antwort, die sie bekommen hat, lautet: Ja.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Tiefe statt Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sexuellen Vier eine charakteristische Prägung: das Bedürfnis nach Verstehen, nach Durchdringung, nach der inneren Wahrheit einer Figur &ndash; bevor sie nach außen tritt. Die reine SX4 könnte in der Intensität aufgehen &ndash; expressiv, feurig, impulsiv. Der Fünferflügel zieht sie in die Stille zurück: <em>Er denkt zuerst. Er versteht zuerst. Dann erst redet er.</em> Bei der SX4w5 wird das zur Vorbereitung: Sie beobachtet, studiert, sammelt &ndash; und tritt dann auf die Bühne mit einer Präzision, die überrascht.</p>
+          <p class="vb-intro">Bei Ana de Armas ist der Fünferflügel in ihrer Arbeitsweise unübersehbar. Sie ist bekannt für ihre intensive Vorbereitung: Für <em>Blonde</em> hat sie über ein Jahr an der Rolle gearbeitet, Marilyn Monroe-Archivmaterial studiert, mit Dialektcoaches trainiert. Die SX4w5 gibt sich nicht mit der Oberfläche zufrieden &ndash; sie will die Struktur darunter verstehen. Was treibt diese Figur an? Was verbirgt sie? Was hat sie nie gesagt?</p>
+          <p class="vb-intro">Der Fünferflügel erklärt auch Ana de Armas' Fähigkeit zur Stille auf der Leinwand &ndash; die Momente, in denen sie nichts sagt und trotzdem alles kommuniziert. Die SX4w5 weiß: Manchmal ist der stärkste Ausdruck kein Ausdruck. Es ist das, was darunter liegt &ndash; und das Publikum spürt es, auch wenn es es nicht benennen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4 ist ihre Fähigkeit zur vollständigen Hingabe &ndash; an die Figur, an den Moment, an die Wahrheit der Szene. Ana de Armas bringt in jede Rolle etwas, das nicht in einem Drehbuch steht: eine Verletzlichkeit, die echt ist, weil sie aus echter Erfahrung kommt. Die Frau, die mit 18 Jahren allein in ein fremdes Land gegangen ist, weiß, was Einsamkeit bedeutet. Und diese Erfahrung macht ihre Arbeit unverwechselbar.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SX4 äußert sich das als persönliche Rivalität: <em>Du hast etwas, das ich nicht habe. Und das tut weh &ndash; und treibt mich an.</em> Für Ana de Armas war das lange die Frage nach Zugehörigkeit: Gehöre ich nach Hollywood? Darf ich hier sein? Die Antwort hat sie sich selbst erarbeitet &ndash; Rolle für Rolle.</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr des Rückzugs in die Vorbereitung: Wenn die innere Welt reicher wird als die äußere, kann die SX4w5 zögern &ndash; nicht aus Angst, sondern aus dem Wunsch, noch besser vorbereitet zu sein. Noch tiefer zu verstehen. Noch sicherer zu sein. Das ist kein Fehler &ndash; aber manchmal ist der mutigste Schritt, einfach auf die Bühne zu treten, bevor alles perfekt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Rivalität zur Einzigartigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Ich bin, wie ich bin &ndash; und das ist nicht weniger, sondern einmalig.</em> Für die SX4w5 bedeutet das, die Energie der Rivalität in die Energie der Schöpfung umzuwandeln: nicht mehr fragen, warum andere haben, was sie nicht hat &ndash; sondern entdecken, was sie hat, das niemand sonst hat.</p>
+          <p class="vb-intro">Ana de Armas ist auf diesem Weg weit vorangeschritten. Sie hat eine Präsenz entwickelt, die nicht kopierbar ist: die Kombination aus kubanischer Wärme, europäischer Präzision und einer Verletzlichkeit, die keine Schule lehrt. Der Chihuahua, der keine Angst mehr kennen muss &ndash; nicht weil die Welt kleiner geworden ist, sondern weil er größer geworden ist. Nicht im Lärm, sondern in der Tiefe.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
       ])}
     </div>
   `);
@@ -31953,6 +32015,7 @@ function render() {
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
+      "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
