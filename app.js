@@ -109,7 +109,10 @@ const KRIMINAL_PORTRAITS = [
 ];
 
 const BERUEHMT_PORTRAITS = [
-  // Einträge werden nach und nach ergänzt
+  { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
+    heading:"Kai Pflaume – Sexueller Typ 3",
+    teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
+    tags:["Sonstiges"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -6901,6 +6904,64 @@ window.bpApply = function() {
     b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
   });
 };
+
+function kaiPflaumePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦚</span>
+        </div>
+        <p class="krim-portrait-name">Kai Pflaume</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweiflügel</p>
+        <p class="krim-portrait-subtitle">Moderator, geb. 1967 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; und kaum ein Bild trifft Kai Pflaume besser. Der Pfau trägt sein schönstes Gefieder nicht zur Schau, um zu beeindrucken. Er trägt es, weil es zu ihm gehört. Seine Pracht ist keine Inszenierung, sie ist Ausdruck seines Wesens. Wer einen Pfau beobachtet, spürt: Das ist echt. Das braucht keine Bühne.</p>
+          <p class="vb-intro">Kai Pflaume ist seit über dreißig Jahren im deutschen Fernsehen präsent &ndash; und das ohne Skandal, ohne Bruch, ohne die Maske zu wechseln. Er ist derselbe geblieben: warm, neugierig, persönlich. Das ist das Geheimnis des Pfaus. Er strahlt nicht, weil er strahlen muss. Er strahlt, weil sein Licht von innen kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> ist in der Enneagramm-Tradition der Subtyp, der persönliche Anziehungskraft zur Lebensaufgabe macht. Nicht Erfolg vor der Masse &ndash; das wäre die soziale Drei &ndash;, sondern die direkte, persönliche Resonanz mit dem Menschen gegenüber. Die SX3 fragt: <em>Wirke ich auf dich? Bin ich begehrenswert für dich?</em> Ihr Charisma ist intim, unmittelbar, auf Augenhöhe.</p>
+          <p class="vb-intro">Das erklärt Kai Pflaufmes Moderationsstil präzise. Er sitzt einem Kandidaten beim &bdquo;Wer weiß denn sowas?&ldquo; gegenüber &ndash; und dieser Kandidat fühlt sich gesehen. Nicht als Fernsehgast, sondern als Mensch. Pflaume schaut hin. Er fragt nach. Er lacht nicht für die Kamera, er lacht, weil ihn etwas wirklich amüsiert. Diese Qualität &ndash; echte Präsenz im direkten Kontakt &ndash; ist das Markenzeichen der SX3.</p>
+          <p class="vb-intro">Claudio Naranjo nennt diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Anziehungskraft in ihrer reinsten, persönlichsten Form. Beim gesunden SX3 ist das keine Fassade &ndash; es ist eine echte Gabe. Die Fähigkeit, in jedem Gegenüber etwas Besonderes zu sehen und ihm das spürbar zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweiflügel: Wärme als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweiflügel (w2)</strong> fügt der Drei-Energie etwas Entscheidendes hinzu: echte Fürsorge. Während die reine Drei mit Charisma und Leistung punktet, kommt beim SX3w2 noch eine zweite Kraft hinzu &ndash; das aufrichtige Interesse an anderen, die Freude daran, jemandem etwas Gutes zu tun. Die Zwei gibt, nicht um Gegenleistung zu erwarten, sondern weil Geben ihr Wesen ist.</p>
+          <p class="vb-intro">Bei Kai Pflaume zeigt sich das in der Art, wie er Kandidaten behandelt &ndash; geduldig, ermutigend, nie auf Kosten anderer. In &bdquo;Klein gegen Groß&ldquo; stehen Kinder neben Weltmeistern. Pflaume moderiert dieses Aufeinandertreffen so, dass immer der Mensch im Mittelpunkt steht, nicht die Quote. Das ist kein Konzept, das ist Charakter.</p>
+          <p class="vb-intro">Der SX3w2 strahlt nicht nur &ndash; er wärmt auch. Er zieht nicht nur an &ndash; er kümmert sich auch. Dieser Unterschied erklärt, warum Pflaume über Jahrzehnte Vertrauen gewonnen hat, das bei anderen Moderatoren schnell verbrennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jeder Enneagramm-Typ trägt sein Licht und seinen Schatten. Das Licht der SX3 ist offensichtlich: Charisma, Wärme, die Fähigkeit, Menschen direkt zu berühren. Der Schatten ist subtiler: Die Drei kann ihre Identität mit ihrer Wirkung verwechseln. <em>Ich bin, wie andere mich sehen.</em> Wenn niemand mehr bewundert, wer bin ich dann?</p>
+          <p class="vb-intro">Das Schiksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; nicht als böse Absicht, sondern als strukturelle Gefahr. Die Drei kann beginnen, eine Rolle zu spielen, so überzeugend, dass sie vergisst, dass es eine Rolle ist. Das Image wird zur Identität. Der Pfau vergisst, wie er ohne sein Gefieder aussieht.</p>
+          <p class="vb-intro">Bei Kai Pflaume ist dieser Schatten kaum sichtbar &ndash; und das ist ein Zeichen gesunder Entwicklung. Er hat offenbar eine stabile innere Basis gefunden, die unabhängig von Einschaltquoten trägt. Dreißig Jahre Fernsehen ohne Burnout, ohne Skandal, ohne Imagewechsel: Das spricht für einen SX3, der seinen Schatten kennt und mit ihm umzugehen gelernt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Wirkung zur Echtheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Außenwirkung zur inneren Wahrheit. Die wachsende Drei lernt, ihren Wert von innen zu definieren &ndash; nicht aus Reaktionen anderer. Aus dem <em>Ich bin begehrenswert</em> wird: <em>Ich bin.</em> Aus Anziehung wird Echtheit. Aus Charisma wird Charakter.</p>
+          <p class="vb-intro">Kai Pflaume verkörpert diese Entwicklung in seltener Reinheit. Sein Strahlen ist echt geworden &ndash; nicht weil er aufgehört hat zu strahlen, sondern weil die Quelle dieses Lichts nicht mehr die Kamera ist. Der Pfau braucht kein Publikum. Er ist schön, auch wenn niemand hinschaut.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Strahlende: Subtyp-Profil"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
 
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
@@ -30361,6 +30422,8 @@ function _favLabel(r) {
   if (!r) return null;
   const k = KRIMINAL_PORTRAITS.find(p => p.route === r);
   if (k) return k.name;
+  const bp = BERUEHMT_PORTRAITS.find(p => p.route === r);
+  if (bp) return bp.name;
   if (r.startsWith('subtype/')) {
     const c = r.split('/')[1];
     const s = subtypeProfiles[c];
@@ -30571,6 +30634,7 @@ function render() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
