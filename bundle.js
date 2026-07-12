@@ -7088,7 +7088,7 @@ function stingPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se1.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-sting-portrait.jpg" alt="Sting" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sting</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>

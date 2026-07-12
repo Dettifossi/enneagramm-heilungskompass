@@ -1,5 +1,5 @@
 // Kompass Service Worker – iOS-kompatibler Auto-Reload
-const SW_VERSION = 'v358';
+const SW_VERSION = 'v359';
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
