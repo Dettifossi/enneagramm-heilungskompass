@@ -1,10 +1,8 @@
-const CACHE = "kompass-v11";
+const CACHE = "kompass-v12";
 const PRECACHE = ["./", "./index.html", "./styles.css", "./bundle.js", "./manifest.json", "./offline.html"];
 
 self.addEventListener("install", e => {
-  // Sofort übernehmen – kein Warten auf vollständiges Precaching
   self.skipWaiting();
-  // Precache im Hintergrund (Fehler werden ignoriert, damit der SW nicht scheitert)
   e.waitUntil(
     caches.open(CACHE).then(c =>
       Promise.allSettled(PRECACHE.map(url => c.add(url).catch(() => {})))
@@ -16,13 +14,18 @@ self.addEventListener("activate", e => {
   e.waitUntil(
     caches.keys().then(keys =>
       Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
+    ).then(() => {
+      self.clients.claim();
+      // Alle offenen Tabs neu laden damit sie den neuen SW sofort nutzen
+      return self.clients.matchAll({ type: "window" }).then(clients => {
+        clients.forEach(client => client.navigate(client.url));
+      });
+    })
   );
 });
 
 self.addEventListener("fetch", e => {
   const url = e.request.url;
-  // Network-first für HTML, JS und CSS – damit Updates sofort ankommen
   if (e.request.mode === "navigate" ||
       url.includes("bundle.js") ||
       url.includes("styles.css")) {
@@ -35,7 +38,6 @@ self.addEventListener("fetch", e => {
     );
     return;
   }
-  // Bilder und andere Assets: cache-first
   e.respondWith(
     caches.match(e.request).then(cached => {
       const net = fetch(e.request).then(res => {
