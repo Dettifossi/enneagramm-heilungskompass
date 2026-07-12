@@ -249,6 +249,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
     tags:["Sport"] },
+  { route:"beruehmte-jasmin-paolini", name:"Jasmin Paolini", subtyp:"SE7w6",
+    heading:"Jasmin Paolini – Selbsterhaltender Typ 7",
+    teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
+    tags:["Sport"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7674,6 +7678,61 @@ function ankeEngelkePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function jasminPaoliniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se7.png" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jasmin Paolini</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Tennisspielerin, geb. 1996 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er überrascht, weil man ihn auf den ersten Blick nicht mit Leichtigkeit verbindet. Der Gorilla ist mächtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, schützt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine Stärke ist keine Aggression. Sie ist Verlässlichkeit.</p>
+          <p class="vb-intro">Jasmin Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unermüdlich. Abseits davon: warm, lachend, familiär. Sie feiert Siege mit einer Offenheit, die ansteckt, und trägt Niederlagen mit einer Würde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er lächelt, leuchtet der ganze Wald.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Maßlosigkeit der Sieben durch Wärme und Gemeinschaft ausdrückt. Naranjo nannte ihn <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest &ndash; einen Kreis aus Menschen, Ritualen, Freuden, der ihr Sicherheit gibt. Nicht durch Kontrolle wie die Acht, nicht durch Regeln wie die Eins &ndash; sondern durch Verbindung und Geborgenheit.</p>
+          <p class="vb-intro">Bei Jasmin Paolini sieht man das in jedem Turnier: ihr Team, ihr Lachen mit dem Trainer, ihre Ausbrüche echter Freude nach gewonnenen Punkten. Sie wirkt nie wie jemand, der Tennis spielt, um Ruhm zu ernten. Sie wirkt wie jemand, der Tennis liebt &ndash; und dieses Lieben mit allen teilt, die gerade zusehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der selbsterhaltenden Sieben etwas, das ihr ohne ihn fehlen könnte: Beharrlichkeit. Die reine Sieben springt von Erfahrung zu Erfahrung, scheut Schwere, sucht den nächsten Aufbruch. Der Sechserflügel verankert sie &ndash; er bringt Loyalität, Verantwortungsgefühl, die Bereitschaft, auch dann noch zu kämpfen, wenn die Freude gerade schwer zu finden ist.</p>
+          <p class="vb-intro">Paolinis Karriere ist kein gerader Weg nach oben. Jahrelang spielte sie in der Weltrangliste im Mittelfeld, arbeitete mit ihrem Trainer Renzo Furlan an jedem Detail. Kein Wechsel, keine Ungeduld &ndash; Bindung. Der Sechserflügel hält sie auf dem Boden, wenn die Sieben zu abheben droht, und gibt ihr die Ausdauer für die langen Matches, in denen Freude allein nicht ausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als innerer Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Maßlosigkeit</strong> &ndash; auf Englisch <em>Gluttony</em>: der unstillbare Hunger nach Erfahrung, Freude, Leben. In der selbsterhaltenden Sieben zeigt er sich nicht als Exzess, sondern als Fülle: mehr Wärme, mehr Verbindung, mehr dieser Momente, in denen alles stimmt.</p>
+          <p class="vb-intro">Bei Paolini sieht man das im Spiel selbst. Sie gibt keine Punkte auf. Sie läuft jeden Ball. Sie lächelt nach verlorenen Sätzen und kämpft sich zurück. 2024 stand sie in den Finals von Roland Garros und Wimbledon &ndash; und verlor beide. Vier Wochen später gewann sie die WTA Finals. Das ist die Maßlosigkeit der SE7: nicht zerstörerisch, sondern unerschöpflich. Der Hunger nach dem nächsten Moment, der nächsten Chance, dem nächsten Aufschlag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jasmin Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren lässt: echte Freude. Nicht das Lächeln einer Marke, nicht die kalkulierte Zugänglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standhält. Nicht die flüchtige Begeisterung, die beim ersten Rückschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu überstehen. Wer Jasmin Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unerschütterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
       ])}
     </div>
   `);
@@ -32766,6 +32825,7 @@ function render() {
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
+      "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
