@@ -109,6 +109,10 @@ const KRIMINAL_PORTRAITS = [
 ];
 
 const BERUEHMT_PORTRAITS = [
+  { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
+    heading:"Christoph Waltz – Selbsterhaltender Typ 1",
+    teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
@@ -6905,6 +6909,62 @@ window.bpApply = function() {
     b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
   });
 };
+
+function christophWaltzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦅</span>
+        </div>
+        <p class="krim-portrait-name">Christoph Waltz</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1956 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; und kein Bild trifft Christoph Waltz präziser. Der Adler kreist hoch, weit über dem Geschehen. Er sieht, was andere nicht sehen. Er wartet. Er urteilt. Und wenn er handelt, dann mit einer Präzision, die keine zweite Chance braucht.</p>
+          <p class="vb-intro">Christoph Waltz hat fünfzig Jahre gewartet. Nicht weil es ihm an Talent fehlte &ndash; sondern weil das System noch nicht das Richtige für ihn bereithielt. Mit 52 Jahren entdeckte ihn Quentin Tarantino und gab ihm Hans Landa &ndash; eine der komplexesten Rollen der Filmgeschichte. Der Adler hatte geduldig gekreist. Dann schlug er zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als innere Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> ist in der Enneagramm-Tradition der zurückgezogenste der drei Eins-Subtypen. Während die soziale Eins die Welt korrigieren möchte und die sexuelle Eins ihre Überzeugungen im direkten Kontakt ausdrückt, wendet die SE1 ihr Perfektionsstreben nach innen: auf das eigene Handwerk, die eigene Vorbereitung, die eigene Integrität. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 macht sich Sorgen, ob sie das Richtige tut, ob es gut genug ist, ob sie der Aufgabe wirklich gerecht wird.</p>
+          <p class="vb-intro">Bei Christoph Waltz zeigt sich das in seiner legendären Arbeitsdisziplin. Er liest Drehbücher viele Male, auf der Suche nach der genauen Intention hinter jedem Wort. Er spricht seine Rollen auf Deutsch, Englisch, Französisch und Italienisch &ndash; und findet in jeder Sprache die eigene Nuance. Das ist kein Ehrgeiz. Das ist Pflicht. Das ist die innere Stimme der Eins: <em>Es muss richtig sein.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme hinter der Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der SE1-Dreierenergie etwas Entscheidendes hinzu: die Fähigkeit zur Wärme, zur Großzügigkeit, zum Geben. Die reine Eins kann kühl, rigide und unerbittlich wirken. Der Zweierflügel öffnet diese Energie nach außen &ndash; er macht aus dem innerlichen Kontrolleur einen Menschen, der gibt, der trägt, der sich kümmert.</p>
+          <p class="vb-intro">Das erklärt, warum Christoph Waltz auch in seinen dunkelsten Rollen nie kalt wirkt. Hans Landa in <em>Inglourious Basterds</em> ist ein Monster &ndash; und doch schaut man ihm nicht weg. Dr. King Schultz in <em>Django Unchained</em> ist ein Kopfgeldjäger &ndash; und doch wärmt er jeden Raum, den er betritt. Der SE1w2er trägt seine Strenge innen und seine Wärme außen. Genau das macht seine Rollen so magnetisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1 ist offensichtlich: außergewöhnliches Handwerk, innere Integrität, eine Präzision, die andere in Staunen versetzt. Wer mit Christoph Waltz dreht, weiß: Er ist vorbereitet. Er ist fokussiert. Er verschwendet keine Energie.</p>
+          <p class="vb-intro">Der Schatten ist subtiler: Die SE1 neigt zur inneren Erschöpfung durch ständige Selbstkritik. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; und beim SE1er richtet sich dieser Zorn zuerst gegen sich selbst. Nie gut genug. Nie fertig. Nie wirklich sicher, ob es richtig war. Waltz hat in Interviews angedeutet, dass er sein Schaffen kaum wirklich genießen kann &ndash; er sieht immer zuerst, was hätte besser sein können.</p>
+          <p class="vb-intro">Dass er trotzdem zwei Oscars gewonnen hat und dabei außergewöhnlich gefässt wirkte, ist kein Zeichen von Gleichgültigkeit. Es ist das Zeichen eines SE1ers, der gelernt hat, seinen inneren Richter zu kennen &ndash; und ihn nicht mehr alles entscheiden zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom inneren Richter zur inneren Würde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Stille. Von der Selbstkritik zur Selbstachtung. Die wachsende Eins lernt: Gut gemacht ist gut genug. Das Richtige entsteht nicht durch Sorge, sondern durch Vertrauen &ndash; Vertrauen in das Handwerk, das man ein Leben lang gepflegt hat.</p>
+          <p class="vb-intro">Christoph Waltz verkörpert diesen Weg auf eigene Weise. Fünfzig Jahre Arbeit, dann der Ruf der Welt. Er hat nicht gezweifelt, ob er das Richtige tat. Er hat es getan. Der Adler braucht keine Bestätigung. Er weiß, wann der Moment gekommen ist.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
 
 function kaiPflaumePortraitPage() {
   return shell(`
@@ -30635,6 +30695,7 @@ function render() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
