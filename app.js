@@ -7566,7 +7566,7 @@ function herbertKicklPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wärme und Wachheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte: Sicherheit wird nicht durch Stärke oder Pflicht gesucht, sondern durch echte menschliche Verbindung, durch Zugehörigkeit, durch das Vertrauen in die Menschen, die man kennt und schätzt. Die SE6 baut keine Hierarchien &ndash; sie baut Gemeinschaft. Ihr Schutz ist nicht die Institution, sondern das Wir.</p>
-          <p class="vb-intro">Bei Herbert Kickl zeigt sich das in seiner tiefen Verbindung zur österreichischen Bevölkerung &ndash; nicht als abstraktem Wahlvolk, sondern als konkreten Menschen mit konkreten Sorgen. Seine politische Sprache ist direkt, manchmal ruppig, aber sie ist nicht kalt. Sie sucht den Kontakt. Sie will, dass die Menschen sich verstanden fühlen. Das ist SE6-Wärme: <em>Ich bin einer von euch. Ich sehe, was ihr seht. Und ich sage es aus, auch wenn es unbequem ist.</em></p>
+          <p class="vb-intro">Bei Herbert Kickl zeigt sich das in seiner tiefen Verbindung zur österreichischen Bevölkerung &ndash; nicht als abstraktem Wahlvolk, sondern als konkreten Menschen mit konkreten Sorgen. Seine politische Sprache ist direkt, manchmal ruppig, aber sie ist nicht kalt. Sie sucht den Kontakt. Sie will, dass die Menschen sich verstanden fühlen. Das ist SE6-Wärme: <em>Ich bin einer von euch. Ich sehe, was ihr seht. Und ich spreche es aus, auch wenn es unbequem ist.</em></p>
           <p class="vb-intro">Die selbsterhaltende Sechs trägt eine tiefe Sorge um das, was Bestand hat: Heimat, Identität, die Sicherheit des Vertrauten. Diese Sorge ist kein Rückwärtsblick &ndash; sie ist die ernsthafte Frage: <em>Was schützen wir? Und wer schützt es, wenn wir es nicht tun?</em></p>
         </blockquote>
 
@@ -7586,7 +7586,7 @@ function herbertKicklPortraitPage() {
 
         <h2 class="vb-section">5. Der Heilungsweg: Vertrauen wählen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wo lauert die nächste Gefahr?</em> zur Erkenntnis <em>Ich habe genug Kraft, um mit dem umzugehen, was kommt.</em> Für die SE6w5 bedeutet das, die Wachheit nicht aufzugeben &ndash; sie ist ein Geschenk &ndash; aber sie nicht von Angst antreiben zu lassen, sondern von Mut. Nicht das System zu misstrauen, weil es Systeme gibt, die misstrauenswürdig sind &ndash; sondern selektiv zu vertrauen, weil es Menschen gibt, die vertrauenswürdig sind.</p>
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wo lauert die nächste Gefahr?</em> zur Erkenntnis <em>Ich habe genug Kraft, um mit dem umzugehen, was kommt.</em> Für die SE6w5 bedeutet das, die Wachheit nicht aufzugeben &ndash; sie ist ein Geschenk &ndash; aber sich nicht von Angst antreiben zu lassen, sondern von Mut. Nicht dem System zu misstrauen, weil es Systeme gibt, die misstrauenswürdig sind &ndash; sondern selektiv zu vertrauen, weil es Menschen gibt, die vertrauenswürdig sind.</p>
           <p class="vb-intro">Das Kaninchen, das früher spürt als andere &ndash; und das gelernt hat, diese Gabe nicht als Last zu tragen, sondern als Verantwortung: <em>Ich sehe, was kommt. Also sage ich es. Damit wir uns vorbereiten können.</em> Das ist Herbert Kickl auf seinem besten Weg.</p>
         </blockquote>
 
