@@ -14344,7 +14344,7 @@ function vincenzoPeruggiaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1783799771/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/vincenzo-peruggia-portrait.jpg" alt="Vincenzo Peruggia \u2013 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/vincenzo-peruggia-portrait.jpg" alt="Vincenzo Peruggia \u2013 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vincenzo Peruggia</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
