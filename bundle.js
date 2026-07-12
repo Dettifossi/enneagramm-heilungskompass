@@ -7598,7 +7598,7 @@ function herbertGroenomeyerPortraitPage() {
         <h2 class="vb-section">5. Der Heilungsweg: Bleiben und Singen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich sicher genug, um da zu sein?</em> zur Erkenntnis <em>Ich bin da &ndash; und das reicht.</em> Für die SO6w7 bedeutet das, nicht nur vorwärts zu rennen, sondern auch anzuhalten, zu fühlen, zu trauern &ndash; und dann aus einem echten Ort heraus wieder zu singen, nicht aus Pflicht oder Bewegungsdrang allein.</p>
-          <p class="vb-intro">Herbert Grönemeyer hat diesen Weg gegangen. Das Erdmännchen, das nach jedem Verlust wieder aufsteht &ndash; nicht weil es keine Wahl hat, sondern weil die Gemeinschaft wartet und weil das Singen selbst heilt. Das ist die SO6w7 auf ihrem Heilungsweg: Wenn die Pflicht und die Freude zusammenfallen, entsteht das, wofür Menschen in Stadien stehen.</p>
+          <p class="vb-intro">Herbert Grönemeyer ist diesen Weg gegangen. Das Erdmännchen, das nach jedem Verlust wieder aufsteht &ndash; nicht weil es keine Wahl hat, sondern weil die Gemeinschaft wartet und weil das Singen selbst heilt. Das ist die SO6w7 auf ihrem Heilungsweg: Wenn die Pflicht und die Freude zusammenfallen, entsteht das, wofür Menschen in Stadien stehen.</p>
         </blockquote>
 
       </div>
