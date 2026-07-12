@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-edward-snowden", name:"Edward Snowden", subtyp:"SX5w6",
+    heading:"Edward Snowden – Sexueller Typ 5",
+    teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
+    tags:["Politik","Recht"] },
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
@@ -7529,6 +7533,64 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function edwardSnowdenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx5.png" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edward Snowden</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Whistleblower &amp; ehem. NSA-Mitarbeiter, geb. 1983 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein Wesen, das in der Stille lebt, das beobachtet statt lärmt, das sich bei Gefahr zur Kugel zusammenrollt und seine Stacheln zeigt. Wer einen Igel sehen will, muss Geduld haben. Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen.</p>
+          <p class="vb-intro">Edward Snowden ist dieser Igel: ein Mann, der jahrelang im Innern eines der mächtigsten Geheimdienstapparate der Welt arbeitete &ndash; still, präzise, unsichtbar &ndash; und dann, in einem einzigen Moment, alles preisgab. Nicht aus Impulsivität. Nicht aus Rache. Sondern weil er zu viel gesehen hatte, um schweigen zu können. 2013 übergab er der Presse Tausende von geheimen NSA-Dokumenten und enthüllte das Ausmaß globaler Massenüberwachung. Seitdem lebt er in Moskau &ndash; im Exil, im Verborgenen. Der Igel, der alles riskiert hat &ndash; und nun wieder in seiner Höhle sitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Fünf: Hier tritt die Leidenschaft des Geizes am wenigsten offen zutage &ndash; weil die sexuelle Energie die Fünf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen lässt. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht die eine Verbindung, die alles trägt &ndash; den Menschen, das Prinzip, die Wahrheit &ndash; dem sie sich vollständig öffnen kann. Für alle anderen: Stacheln.</p>
+          <p class="vb-intro">Bei Snowden war diese Verbindung keine Person &ndash; es war ein Prinzip: die Überzeugung, dass Menschen das Recht haben zu wissen, was in ihrem Namen getan wird. Er arbeitete jahrelang als Systemtechniker für CIA und NSA, hatte Zugang zu Informationen, die kaum jemand sah &ndash; und er schwieg. Bis er nicht mehr schweigen konnte. Die SX5 hortet nicht ewig. Wenn das Vertrauen in eine tiefere Wahrheit stark genug ist, gibt sie alles preis &ndash; und nimmt dafür jeden Preis in Kauf.</p>
+          <p class="vb-intro">Snowden lebt seit 2013 in Moskau. Er hat seine Heimat, seine Familie, seine Freiheit riskiert. Das ist nicht Kalkulation. Das ist die SX5, die ihrem Vertrauen folgt &ndash; bis zur letzten Konsequenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Pflicht und Widerstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sexuellen Fünf ein tiefes Pflichtgefühl und eine wache Skepsis gegenüber Institutionen. Die SX5w6 folgt nicht blind dem System &ndash; sie prüft es. Sie fragt: <em>Ist das, was hier getan wird, wirklich das, wofür es ausgegeben wird? Und wenn nicht &ndash; was bin ich schuldig?</em> Die Antwort des Sechserflügels ist nicht immer Mut. Oft ist es zuerst Angst. Aber manchmal &ndash; wenn die Angst durchgearbeitet ist &ndash; wird aus Pflichtgefühl Handlung.</p>
+          <p class="vb-intro">Snowden beschreibt in seiner Autobiografie <em>Permanent Record</em>, wie er lange zögerte, wie er hoffte, dass andere handeln würden, wie er sich fragte, ob er das Richtige tue. Das ist der Sechserflügel: nicht der Held, der keine Angst kennt, sondern der Mensch, der Angst hat &ndash; und trotzdem handelt, weil er nicht anders kann. Der Zweifel gehört dazu. Er ist kein Zeichen von Schwäche. Er ist der Beweis, dass die Entscheidung ernst genommen wurde.</p>
+          <p class="vb-intro">Der Sechserflügel erklärt auch Snowdens tiefe Loyalität gegenüber den Grundsätzen der Verfassung, der er einst einen Eid geschworen hatte. Er brach die Geheimhaltung nicht trotz seines Eids &ndash; sondern weil er glaubte, dass der Staat seinen Eid gebrochen hatte. Das ist die SX5w6: Loyalität gegenüber dem Prinzip, nicht gegenüber der Institution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 ist ihre Fähigkeit, trotz allem Wissen &ndash; trotz des vollständigen Einblicks in das, was wirklich geschieht &ndash; handlungsfähig zu bleiben. Snowden hatte gesehen, was Massenüberwachung bedeutet: jede E-Mail, jedes Telefonat, jeder Klick &ndash; gespeichert, ausgewertet, verfügbar. Er hätte schweigen können. Er hätte sich hinter sein Wissen zurückziehen können. Stattdessen hat er es geteilt &ndash; mit der ganzen Welt, auf einmal, unumkehrbar.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; das Zurückhalten, das Horten, das Nicht-Geben. Snowdens Akt war die radikalste Überwindung dieses Musters, die man sich vorstellen kann: Er gab alles. Und er wusste, dass er es nicht zurückbekommen würde. Das ist kein geringer Preis für eine Fünf.</p>
+          <p class="vb-intro">Der Schatten: Das Leben im Exil, weit weg von allem, was vertraut war, in einem Land, dessen Sprache er kaum spricht &ndash; das ist auch eine Form des Rückzugs. Der Igel in seiner Höhle. Die Frage, ob die Isolation gewählt ist oder auferlegt, lässt sich von außen nicht beantworten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Sichtbar bleiben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von <em>Ich habe nicht genug, um zu geben</em> zu <em>Was ich weiß, gehört nicht nur mir.</em> Snowden hat diesen Schritt vollzogen &ndash; in einer Radikalität, die ihresgleichen sucht. Der Igel, der sich öffnet, ist verletzlich. Und Snowden ist verletzlich: rechtlich, politisch, persönlich. Er kann nicht zurück. Er kann sich nicht verstecken. Er hat sich sichtbar gemacht &ndash; für immer.</p>
+          <p class="vb-intro">Was bleibt, ist die Frage, die sein Leben stellt: <em>Was bist du bereit zu riskieren, wenn du weißt, was du weißt?</em> Die SX5w6 gibt darauf keine einfache Antwort. Aber Snowden hat gezeigt, dass es eine Antwort gibt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-taylor-swift", label:"Porträt: Taylor Swift (SX5w4)"},
       ])}
     </div>
   `);
@@ -32326,6 +32388,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
