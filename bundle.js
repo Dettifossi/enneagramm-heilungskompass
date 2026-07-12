@@ -7826,7 +7826,7 @@ function umbertEcoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/se8-tier.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se8.png" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Umberto Eco</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerflügel</p>
