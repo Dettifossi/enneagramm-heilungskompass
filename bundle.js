@@ -185,6 +185,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
     tags:["Natur"] },
+  { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
+    heading:"Romy Schneider – Sozialer Typ 4",
+    teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7089,6 +7093,65 @@ function christophWaltzPortraitPage() {
     </div>
   `);
 }
+
+function romySchneiderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🦔</span>
+        </div>
+        <p class="krim-portrait-name">Romy Schneider</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, 1938&ndash;1982 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; und es ist ein Tier voller Widersprüche. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Aber dieser Panzer schützt ein Inneres, das außergewöhnlich empfindlich ist: Das Gürteltier ist eines der wenigen Säugetiere, das sich bei Gefahr nicht kämpfend oder fliehend verhält, sondern sich zusammenrollt &ndash; es hüllt sich in sich selbst ein. Gleichzeitig ist das Gürteltier ein geselliges Tier. Es lebt nicht allein. Es braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt.</p>
+          <p class="vb-intro">Romy Schneider war eine der größten Schauspielerinnen des 20. Jahrhunderts &ndash; und eine der einsamsten. Die Welt sah den Glanz: <em>Sissi</em>, die Leinwand, die Preise, die Eleganz. Was hinter dem Panzer lag, hat sie selbst immer wieder beschrieben: Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden &ndash; nur die Rolle, nie die Frau. Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der den Schmerz der Vier in die soziale Dimension trägt. Naranjo nennt diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht gut genug zu sein für die Welt, in der man lebt &ndash; und gleichzeitig der brennende Wunsch, dazuzugehören, gesehen zu werden, bedeutsam zu sein. Die SO4 vergleicht sich unablässig mit anderen: <em>Sie haben etwas, das mir fehlt. Ich bin weniger.</em></p>
+          <p class="vb-intro">Bei Romy Schneider zeigt sich das in dem Widerspruch, der ihr Leben prägte: Sie war einer der begehrtesten Stars Europas &ndash; und fühlte sich trotzdem nie wirklich angekommen. Die Rollen, die Kritik, der Applaus &ndash; nichts füllte das innere Loch. Die SO4 sucht in der Resonanz der anderen eine Bestätigung, die nur von innen kommen kann. Und weil sie diese Bestätigung nicht findet, arbeitet sie härter, spielt tiefer, gibt mehr &ndash; in der Hoffnung, dass der nächste Auftritt das gibt, was alle anderen nicht konnten.</p>
+          <p class="vb-intro">Charakteristisch für die SO4 ist auch die Fähigkeit, den eigenen Schmerz in Kunst zu verwandeln. Romys beste Rollen &ndash; in <em>Das Mädchen und der Kommissar</em>, <em>Die Dinge des Lebens</em>, <em>César und Rosalie</em> oder <em>La Piscine</em> &ndash; tragen diese Energie: Eine Intensität, die nicht gespielt ist, sondern gelebt. Die SO4 weiß: Was ich wirklich fühle, ist stärker als jede Technik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als Lebensnotwendigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der sozialen Vier eine entscheidende Spannung: das Bedürfnis nach Leistung, nach Wirksamkeit, nach der öffentlichen Bestätigung, die die Drei braucht. Die reine SO4 könnte sich in der Tiefe der eigenen Empfindung verlieren &ndash; zu empfindlich, zu verletzlich für die Anforderungen des Betriebs. Der Dreierflügel treibt sie hinaus: <em>Wenn du schon leidest, dann lass wenigstens etwas Großes daraus werden.</em></p>
+          <p class="vb-intro">Bei Romy Schneider zeigt sich der Dreierflügel in ihrer außergewöhnlichen Disziplin und Professionalität am Set &ndash; die alle Zeitzeugen beschreiben. Sie war oft zerrissen, oft am Rand, aber sie lieferte. Die SO4w3 trennt das Private vom Professionellen nicht durch Kälte, sondern durch eine Art Verwandlungskraft: Die Bühne wird zum Ort, an dem das Innere Form annimmt &ndash; und für diesen Moment liegt der Schmerz nicht in ihr, sondern in der Rolle.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt auch Romys ambivalente Beziehung zur Öffentlichkeit: Sie brauchte die Aufmerksamkeit &ndash; und litt unter ihr. Das ist die SO4w3 in ihrem Kernkonflikt: Der Dreierflügel treibt sie ins Licht, die Vier zieht sie zurück in die Stille. Das Leben zwischen diesen Polen hat sie erschöpft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4 ist ihre Fähigkeit zur Tiefe &ndash; zur echten, ungeschminkten Darstellung menschlicher Erfahrung. Romy Schneider hat auf der Leinwand etwas gezeigt, das viele Schauspielerinnen nicht zeigen können oder wollen: die rohe Wirklichkeit von Schmerz, Liebe und Verlust. Ihre Filme sind keine Unterhaltung. Sie sind Erfahrung. Das ist das Geschenk der SO4: Sie macht das Menschlichste sichtbar.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SO4 äußert sich das als soziale Scham: <em>Die anderen wissen, wie das geht. Ich tue nur so.</em> Romy Schneider hat dieses Gefühl in Interviews immer wieder angedeutet &ndash; die Überzeugung, dass andere das Leben besser verstanden haben, dass ihr die Leichtigkeit fehlte, die sie bei anderen sah.</p>
+          <p class="vb-intro">Der Dreierflügel verschärft den Druck: Er fordert Ergebnisse, Rollen, Anerkennung &ndash; auch dann, wenn die SO4 eigentlich Stille braucht. Der Tod ihres Sohnes David 1981, nur ein Jahr vor ihrem eigenen Tod, hat dieses System zum Zusammenbruch gebracht. Was blieb, war eine Frau, die zu viel gegeben hatte &ndash; und zu wenig empfangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Vergleichen zum Ankommen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich weniger als die anderen?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig.</em> Für die SO4 bedeutet das, den unablässigen Vergleich ruhen zu lassen und zu entdecken: Die Tiefe, die ich als Last trage, ist auch ein Geschenk. Nicht jeder kann so fühlen. Nicht jeder kann so spielen. Nicht jeder kann so berühren.</p>
+          <p class="vb-intro">Romy Schneider hat diesen Weg nicht zu Ende gehen können. Aber was sie hinterlassen hat, trägt: Filme, die Jahrzehnte später noch Gänsehaut erzeugen. Eine Präsenz, die nicht nachlässt. Das Gürteltier hat sich eingerollt &ndash; aber die Wärme, die in ihm war, ist noch spürbar. Das ist vielleicht das Tiefste, was die SO4 der Welt geben kann: das Gefühl, dass es jemanden gab, der wirklich gefühlt hat. Für alle.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function clemensArvayPortraitPage() {
   return shell(`
@@ -31767,6 +31830,7 @@ function render() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
+      "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
