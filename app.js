@@ -9059,18 +9059,23 @@ function kriminalpsychologiePage() {
     const inst = (p.subtyp||"").substring(0,2).toUpperCase();
     const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
     const tags = (p.tags||[]).join(",");
+    const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
+    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
     return '<div class="kf-card" data-kf-inst="'+inst+'" data-kf-typ="'+typ+'" data-kf-tags="'+tags+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){return'<span class="kf-tag kf-tag--'+t.toLowerCase()+'">'+t+'</span>';}).join("")
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
-      +'<span style="font-size:1.6rem;color:var(--gold);flex-shrink:0;margin-top:0.1rem;">&#9655;</span>'
+      +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
+      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />' : '')
+      +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
+      +'</div>'
       +'</div></div>';
   };
 
