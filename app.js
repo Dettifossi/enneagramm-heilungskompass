@@ -6762,18 +6762,18 @@ function beruehmtePersoenlichkeitenPage() {
   };
 
   function filterBar() {
-    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet('inst',''+inst+'')">'+(inst==="ALL"?"Alle":inst)+'</button>';
+    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"Alle":inst)+'</button>';
     const typBtn = n => {
       const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
       const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
       return '<button class="kf-btn kf-btn--typ'+(col?' kf-btn--typ-colored':'')+'"'
         +' data-bp-typ="'+n+'" data-kf-col="'+(col||'')+'"'
-        +style+' onclick="bpSet('typ','+n+')">'+(n===0?"Alle":n)+'</button>';
+        +style+' onclick="bpSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
     };
     const katBtn = k => {
       const col = katColors[k]||"var(--copper)";
       return '<button class="kf-btn kf-btn--tag" data-bp-kat="'+k+'"'
-        +' style="--kf-tag-col:'+col+';" onclick="bpSet('kat',''+k+'')">'+(katLabel[k]||k)+'</button>';
+        +' style="--kf-tag-col:'+col+';" onclick="bpSet(\'kat\',\''+k+'\')">'+(katLabel[k]||k)+'</button>';
     };
     return '<div class="kf-bar">'
       +'<div class="kf-row"><span class="kf-label">Instinkt</span>'
@@ -6792,8 +6792,8 @@ function beruehmtePersoenlichkeitenPage() {
     const kats = (p.tags||[]).join(",");
     return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
-      +' onmouseover="this.style.borderColor='var(--gold)';this.style.boxShadow='0 2px 12px rgba(0,0,0,.1)'"'
-      +' onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">'
+      +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
+      +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
       +'<div><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
@@ -6816,11 +6816,11 @@ function beruehmtePersoenlichkeitenPage() {
     +allCodes.map(function(code){
       const n = parseInt(code.slice(-1));
       const col = TYPE_COLORS[n]||"var(--copper)";
-      return '<a href="#" onclick="event.preventDefault();var el=document.getElementById('bp-'+code.toLowerCase()+'');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"'
+      return '<a href="#" onclick="event.preventDefault();var el=document.getElementById(\'bp-'+code.toLowerCase()+'\');if(el)el.scrollIntoView({behavior:\'smooth\',block:\'start\'});"'
         +' style="display:inline-block;padding:0.25rem 0.6rem;border-radius:6px;border:1.5px solid '+col+';'
         +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
-        +' onmouseover="this.style.opacity='1';this.style.background=''+col+'20'"'
-        +' onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">'
+        +' onmouseover="this.style.opacity=\'1\';this.style.background=\''+col+'20\'"'
+        +' onmouseout="this.style.opacity=\'0.85\';this.style.background=\'var(--bg)\'">'
         +code+'</a>';
     }).join("")
     +'</div></div>';
@@ -6834,7 +6834,7 @@ function beruehmtePersoenlichkeitenPage() {
       const code = (p.subtyp||'').substring(0,3).toUpperCase();
       if (code && code !== lastCode) {
         if (lastCode !== null) {
-          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById('bp-register').scrollIntoView({behavior:'smooth'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 zum Register</a></div>';
+          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'bp-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 zum Register</a></div>';
         }
         const n = parseInt(code.slice(-1));
         const col = TYPE_COLORS[n]||"var(--copper)";
