@@ -225,6 +225,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
     tags:["Politik","Recht"] },
+  { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
+    heading:"Sigmund Freud – Sozialer Typ 6",
+    teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
+    tags:["Wissenschaft","Psychologie"] },
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -7541,6 +7545,64 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function sigmundFreudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so6.png" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sigmund Freud</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Arzt, Neurophysiologe &amp; Begründer der Psychoanalyse, 1856&ndash;1939 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier des sozialen Typs 6 &ndash; ein hochsoziales Wesen, das in streng organisierten Gemeinschaften lebt und seinen Zusammenhalt durch Wachheit sichert. Erdmännchen stellen Posten auf: Wächter, die aufrecht auf den Hinterbeinen stehen und den Horizont beobachten &ndash; bereit, beim ersten Anzeichen von Gefahr Alarm zu schlagen. Sie sind mutig, loyal und zutiefst auf die Gruppe ausgerichtet. Ohne Gemeinschaft sind sie verloren. In ihr sind sie unerschöpflich.</p>
+          <p class="vb-intro">Sigmund Freud war dieses Erdmännchen &ndash; aufrecht, wachsam, den Blick auf das gerichtet, was andere nicht sehen wollten oder konnten: das Unbewusste. Er stand auf den Hinterbeinen seiner Zeit und rief Alarm &ndash; nicht vor äußeren Feinden, sondern vor den inneren. Die Psychoanalyse war sein Wachposten: ein System, das die verborgenen Kräfte der Seele sichtbar machen sollte, bevor sie den Menschen von innen heraus zerstörten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Pflicht und Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> ist nach Naranjo der Subtyp, den er <em>Pflicht</em> nannte: Sicherheit entsteht durch Zugehörigkeit zu einer Gruppe mit klaren Regeln, durch Treue zur Gemeinschaft, durch das Erfüllen einer Aufgabe, die größer ist als man selbst. Die SO6 baut Institutionen, Bewegungen, Systeme &ndash; weil das Kollektiv Schutz bietet, den der Einzelne allein nicht findet.</p>
+          <p class="vb-intro">Freud gründete nicht nur eine Therapiemethode &ndash; er gründete eine Bewegung. Die Wiener Psychoanalytische Vereinigung, später die Internationale Psychoanalytische Vereinigung: Freud wollte eine Gemeinschaft von Gleichgesinnten, die seine Erkenntnisse trügen, verbreiteten, verteidigten. Er war ihnen gegenüber tief loyal &ndash; und erwartete dieselbe Loyalität zurück. Als Carl Gustav Jung und Alfred Adler eigene Wege gingen, erlebte Freud das nicht als intellektuelle Meinungsverschiedenheit, sondern als persönlichen Verrat. Das ist die SO6: <em>Wir sind eine Gemeinschaft. Wer geht, bricht den Bund.</em></p>
+          <p class="vb-intro">Seine Pflicht sah Freud in der Wahrheit &ndash; auch dort, wo sie unbequem war. Sexualität als treibende Kraft der Psyche, das Unbewusste als eigentliches Zentrum des Seelenlebens, Religion als kollektive Neurose: Das waren keine harmlosen Thesen in einer Zeit, die das alles lieber verdrängte. Freud sagte es trotzdem. Das Erdmännchen schlägt Alarm, auch wenn der Schwarm es nicht hören will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das System der Seele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sozialen Sechs eine charakteristische intellektuelle Tiefe: die Fähigkeit, nicht nur zu beobachten, sondern das Beobachtete in ein kohärentes System zu überführen. Die SO6w5 genügt sich nicht mit Warnrufen &ndash; sie will verstehen, warum die Gefahr existiert, wie sie funktioniert, wie man ihr systematisch begegnen kann.</p>
+          <p class="vb-intro">Freuds Werk ist das reinste Beispiel dafür: Triebtheorie, Topisches Modell, Strukturmodell (Es, Ich, Über-Ich), Traumdeutung, Abwehrmechanismen, Übertragung, Gegenübertragung &ndash; ein theoretisches Gebäude von außerordentlicher Geschlossenheit. Der Fünferflügel ermöglichte ihm, jahrzehntelang an einem System zu bauen, ohne den Faden zu verlieren. <em>Die Traumdeutung</em>, <em>Drei Abhandlungen zur Sexualtheorie</em>, <em>Das Unbehagen in der Kultur</em>: Diese Werke kommen nicht aus Intuition allein. Sie kommen aus jahrelangem Beobachten, Sammeln, Denken, Ordnen.</p>
+          <p class="vb-intro">Der Fünferflügel erklärt auch Freuds berühmte Unnahbarkeit im analytischen Setting: Schweigen, Abstinenz, die Couch statt des Augenkontakts. Das ist nicht Kälte. Das ist der Fünferflügel, der Beobachtungsraum schafft &ndash; damit die SO6 sehen kann, was wirklich geschieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist ihre Fähigkeit, das Unsichtbare sichtbar zu machen und daraus ein Werkzeug zu bauen, das anderen hilft. Freuds Entdeckung des Unbewussten hat die Art, wie Menschen über sich selbst denken, für immer verändert. Ob man seine Theorien für richtig hält oder nicht: Die Frage nach dem, was unter der Oberfläche des Bewusstseins wirkt, ist seitdem nicht mehr wegzudenken.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; nicht als mangelnder Mut, sondern als die innere Bewegung, die Autoritäten aufbaut und dann fürchtet, was passiert, wenn diese Autoritäten fallen. Freud, der Religionskritiker, war in seiner eigenen Bewegung nicht frei davon: Er erwartete Gefolgschaft, reagierte auf Abweichung mit Ausschluss, baute eine Orthodoxie auf, die er selbst zu hinterfragen nicht immer bereit war. Das Erdmännchen, das den Wachposten verteidigt &ndash; manchmal auch gegen die eigene Herde.</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr der Systemgeschlossenheit: Wenn das Gebäude zu fest gebaut ist, lässt es keine neuen Fenster mehr zu. Freuds späte Unbeugsamkeit gegenüber Kritik ist auch das: der Preis eines Lebenswerks, das sich selbst nicht mehr in Frage stellen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vertrauen ohne Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Gruppe vertrauen?</em> zur Erkenntnis <em>Ich kann mir selbst vertrauen &ndash; auch ohne Wachposten.</em> Für die SO6w5 bedeutet das, die Bewegung, die man aufgebaut hat, loszulassen &ndash; nicht zu verlassen, aber nicht mehr zu kontrollieren. Wissen zu teilen, ohne zu bestimmen, was daraus wird.</p>
+          <p class="vb-intro">Freud floh 1938, mit 82 Jahren und schwer krank, aus Wien nach London &ndash; nachdem die Nationalsozialisten seine Bücher verbrannt und seine Welt zerstört hatten. Er arbeitete bis kurz vor seinem Tod weiter. Das Erdmännchen auf seinem Posten, bis zum letzten Moment. Das ist SO6w5 auf ihrem Heilungsweg: nicht aus Pflicht, sondern weil das Wachen selbst Sinn ergibt &ndash; und weil man dem vertraut, was man gesehen hat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
       ])}
     </div>
   `);
@@ -32511,6 +32573,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
