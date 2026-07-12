@@ -145,6 +145,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Barack Obama â Sozialer Typ 2",
     teaser:"SO2w1 Â· geb. 1961. 44. US-Präsident, Community Organizer, Friedensnobelpreisträger. Yes We Can â keine Botschaft über Obama, sondern über das, was wir gemeinsam möglich machen. Tierentsprechung: Golden Retriever.",
     tags:["Politik"] },
+  { route:"beruehmte-nina-chuba", name:"Nina Chuba", subtyp:"SO2w3",
+    heading:"Nina Chuba â Soziale Typ 2",
+    teaser:"SO2w3 Â· geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung â Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
+    tags:["Musik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7454,6 +7458,65 @@ function barackObamaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function ninaChubaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#7c3aed18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐕</span>
+        </div>
+        <p class="krim-portrait-name">Nina Chuba</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, geb. 2000 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; und es ist ein Tier, dem man sich kaum entziehen kann. Nicht weil es sich aufdrängt. Sondern weil es so unverstellbar da ist. Keine Berechnung, keine Distanz, keine Maske. Der Golden Retriever kommt auf dich zu &ndash; und du weißt sofort: Das ist echt. Das meint er so.</p>
+          <p class="vb-intro">Nina Chuba hat in kürzester Zeit eine der tiefsten Fan-Bindungen der deutschen Musikszene aufgebaut &ndash; nicht durch perfekte Inszenierung, sondern durch Nähe. Sie spricht über ihre Gefühle, über schlechte Tage, über Unsicherheit. Sie antwortet auf Kommentare. Sie macht ihre Musik zu einem Raum, in dem sich ihre Hörerinnen und Hörer nicht allein fühlen. Das ist der Golden Retriever: Er wärmt nicht, weil er es muss. Er wärmt, weil Wärme sein Wesen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Verbindung als Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet ihre Energie der Zwei nicht in einzelne persönliche Beziehungen, sondern in das große Feld: in Gemeinschaft, Öffentlichkeit, kollektive Resonanz. Naranjo nennt diesen Subtyp <em>Ambition</em> &ndash; nicht im kalten Sinn, sondern als den Antrieb, durch Sichtbarkeit und Einfluss mehr Verbindung, mehr Wärme, mehr Verständnis in die Welt zu bringen. Die SO2 will nicht nur einer Person helfen &ndash; sie will viele Menschen erreichen.</p>
+          <p class="vb-intro">Bei Nina Chuba zeigt sich das in der Art, wie sie ihre Musik einsetzt: als Brücke. Ihre Songs sind keine Selbstdarstellung &ndash; sie sind Angebote. <em>Wildberry Lillet</em> traf einen Nerv, weil der Song nicht über Chuba handelte, sondern über ein Gefühl, das Millionen kennen. Die SO2 schreibt nicht für sich. Sie schreibt für den Raum zwischen sich und anderen.</p>
+          <p class="vb-intro">Dass sie sich öffentlich über psychische Gesundheit, über Druck und Erschöpfung äußert, ist ebenfalls SO2-Energie: das Persönliche wird geteilt, damit andere sich weniger allein damit fühlen. Nicht Therapie in der Öffentlichkeit &ndash; sondern die Überzeugung, dass Sichtbarkeit heilt. Meine Geschichte gehört auch dir.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Strahlkraft mit Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der sozialen Zwei etwas Entscheidendes: den Antrieb zur Wirksamkeit, zur sichtbaren Leistung, zum Erfolg, der das Gute verstärkt. Die reine SO2 könnte sich im Geben verlieren &ndash; immer für andere da, immer erreichbar, ohne zu fragen, wohin das führt. Der Dreierflügel setzt Ziele. Er sagt: <em>Wenn du wirklich etwas bewegen willst, musst du auch ankommen. Musst du auch strahlen.</em></p>
+          <p class="vb-intro">Bei Nina Chuba ist dieser Flügel in ihrer Bühnenpräsenz und ihrer Professionalität spürbar. Sie ist nicht nur herzlich &ndash; sie ist wirksam. Die Songs sind produziert, die Auftritte präzise, die Marke kohärent. Das ist kein Widerspruch zur Echtheit der Zwei. Das ist der Dreierflügel, der dafür sorgt, dass die Wärme auch wirklich ankommt &ndash; und nicht im Rauschen untergeht.</p>
+          <p class="vb-intro">Die SO2w3 trägt in sich die seltene Kombination aus echtem Mitgefühl und strategischer Klarheit. Sie will verbinden &ndash; und sie weiß, wie man das so gestaltet, dass es auch wirklich trägt. Das ist kein Kalkül. Das ist die natürliche Synergie dieser beiden Energien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2 ist ihre Zugänglichkeit. Nina Chuba hat in wenigen Jahren eine Nähe zu ihrem Publikum aufgebaut, die viele Künstlerinnen in einer ganzen Karriere nicht erreichen. Das liegt nicht an Strategie. Es liegt daran, dass die SO2 wirklich interessiert ist &ndash; an den Menschen, an ihren Geschichten, an dem, was sie bewegt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; das tiefe, oft unbewusste Bedürfnis, gebraucht zu werden, unverzichtbar zu sein. Bei der SO2 äußert sich das als Gefahr, die eigene Erschöpfung zu übersehen: Immer verfügbar, immer offen, immer für andere da &ndash; bis der Tank leer ist. Nina Chuba hat dieses Thema selbst öffentlich angesprochen. Das ist ein Zeichen von Reife &ndash; und gleichzeitig die Aufgabe, die vor ihr liegt: zu lernen, auch dann wertvoll zu sein, wenn sie sich nicht gibt.</p>
+          <p class="vb-intro">Der Dreierflügel verstärkt den Druck: Die Drei möchte gewinnen, strahlen, liefern. Wenn SO2 und w3 gemeinsam in die Erschöpfung führen, fehlt eine innere Stimme, die sagt: Jetzt ist genug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Geben zum Empfangen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt vom Geben zum Empfangen &ndash; von der Frage <em>Was brauchen andere von mir?</em> zur Frage <em>Was brauche ich?</em> Die wachsende Zwei entdeckt: Sie ist nicht nur dann liebenswert, wenn sie gibt. Sie ist liebenswert, weil sie ist. Ganz ohne Leistung. Ganz ohne Song.</p>
+          <p class="vb-intro">Für Nina Chuba, die mit 22 Jahren bereits mehr erreicht hat als die meisten in einem ganzen Künstlerleben, liegt dieser Weg noch vor ihr &ndash; und sie ist gut unterwegs. Wer in diesem Alter schon über Grenzen und Erschöpfung sprechen kann, hat das Wichtigste begriffen: dass der Golden Retriever sich auch selbst Fürsorge verdient. Nicht nur denen gegenüber, die er wärmt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
       ])}
     </div>
   `);
@@ -31140,6 +31203,7 @@ function render() {
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
+      "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
