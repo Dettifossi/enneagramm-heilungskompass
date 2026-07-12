@@ -153,6 +153,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweighöfer – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
+    heading:"Braco – Sexueller Typ 2",
+    teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
+    tags:["Sonstiges"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7580,6 +7584,65 @@ function matthiasSchweighoeferPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function bracoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame" style="background:linear-gradient(135deg,#c8a84b18,#1e3a5f18);display:flex;align-items:center;justify-content:center;min-height:180px;">
+          <span style="font-size:4.5rem;">🐪</span>
+        </div>
+        <p class="krim-portrait-name">Braco</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Heiler &amp; &bdquo;The Gazer&ldquo;, geb. 1967 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und unter allen Tieren ist es vielleicht das einzige, das durch bloßes Anschauen Wirkung erzeugt. Wer je einem Kamel direkt in die Augen geschaut hat, kennt diesen Moment: Da ist jemand. Kein Ausweichen, kein Verstecken. Nur dieser ruhige, nicht wertende Blick &ndash; der den Blick des anderen hält, ohne ihn zu fordern.</p>
+          <p class="vb-intro">Braco (bürgerlicher Name Josip Grbavac) hat aus diesem Blick eine Praxis gemacht. Er spricht nicht, er berührt nicht, er lehrt nicht. Er schaut. In schweigsamen Gruppenveranstaltungen steht er vor Hunderten, manchmal Tausenden von Menschen &ndash; und schaut. Was dabei geschieht, beschreiben Teilnehmer auf der ganzen Welt mit denselben Worten: Wärme, Stille, das Gefühl, gesehen zu werden. Das ist das Kamel in seiner reinsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Der Blick als Kontakt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei unmittelbar in den Raum zwischen zwei Menschen lenkt. Naranjo nennt diesen Subtyp <em>Aggressivität</em> &ndash; nicht im negativen Sinn, sondern als das aktive, vorwärts drängende Zugehen auf den anderen. Die SX2 wartet nicht darauf, dass Verbindung entsteht. Sie stellt sie her &ndash; durch Präsenz, durch Aufmerksamkeit, durch die Intensität des Kontakts.</p>
+          <p class="vb-intro">Bei Braco ist diese Energie auf die äußerste Wesentlichkeit reduziert. Kein Wort, keine Geste, keine Lehre &ndash; nur der Blick. Es ist, als hätte die SX2 alle äußeren Formen der Verbindung weggeräumt und das Innerste freigelegt: das direkte Aufeinandertreffen zweier Bewusstseine. Der Blick ist die reinste Form des Kontakts. Und die sexuelle Zwei hat ihn als ihr Medium erkannt.</p>
+          <p class="vb-intro">Braco begann seine Tätigkeit nach dem Tod seines Lehrers Ivica Prokic im Jahr 1995. Er führte das Erbe fort &ndash; aber auf seine eigene, radikal vereinfachte Weise. Keine Worte, keine Deutungen. Nur die Präsenz. Das ist keine Methode. Das ist die SX2, die verstanden hat, dass Verbindung keine Erklärung braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Ausstrahlung als Gabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der sexuellen Zwei eine zweite Dimension: das Bewusstsein für Wirksamkeit, für die Kraft der eigenen Ausstrahlung, für das, was der andere in einem sieht. Die reine SX2 könnte sich in der Intensität des Kontakts erschöpfen &ndash; immer gebend, immer präsent, immer für den anderen. Der Dreierflügel bringt eine Qualität der Selbstinszenierung mit &ndash; nicht im egoistischen Sinn, sondern als das Wissen: <em>Wie ich erscheine, ist Teil dessen, was ich gebe.</em></p>
+          <p class="vb-intro">Bei Braco zeigt sich der Dreierflügel in der Sorgfalt, mit der seine Veranstaltungen gestaltet sind. Die Stille, die Atmosphäre, die Musik, die Art, wie er den Raum betritt &ndash; all das ist nicht zufällig. Es ist die SX2w3 in Aktion: die Verbindung wird so inszeniert, dass sie am stärksten wirken kann. Das ist kein Widerspruch zur Echtheit. Es ist der Dreierflügel, der dafür sorgt, dass das Echte auch ankommt.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt auch Bracos weltweite Reichweite. Dutzende Länder, Millionen von Menschen, die seine Videos oder Live-Sessions erlebt haben. Die SX2 allein wäre vielleicht tiefer &ndash; aber weniger weit. Der Dreierflügel weitet den Kreis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2 ist die Fähigkeit zur echten Begegnung. Braco erzeugt in seinen Sitzungen etwas, das Menschen tiefgreifend berührt &ndash; unabhängig davon, wie man es erklärt. Ob man das als spirituelles Phänomen, als Wirkung meditativer Stille, als Projektion oder als Resonanz begreift: Das Erleben der Teilnehmer ist real. Und dieses Erleben hat seinen Ursprung in der SX2-Energie: dem bedingungslosen Angebot von Kontakt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht zu werden, unverzichtbar zu sein. Bei der SX2w3 verbindet sich das mit dem Dreierflügel-Bedürfnis nach Bestätigung und Erfolg: Der Blick, der heilt, ist auch ein Blick, der gesehen werden möchte. Wo die Grenze zwischen Dienst und Bedürfnis verläuft, ist eine Frage, die jeder spirituelle Lehrer mit sich trägt &ndash; Braco eingeschlossen.</p>
+          <p class="vb-intro">Die SX2 kann so sehr auf den anderen ausgerichtet sein, dass sie die eigene Mitte verliert. Das Kamel, das immer trägt, braucht selbst Wasser. Auch derjenige, dessen Blick anderen Halt gibt, braucht einen Ort der inneren Stille &ndash; jenseits der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Geben zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin.</em> Für die SX2 bedeutet das: zu verstehen, dass der Blick, den sie anderen gibt, auch nach innen gerichtet werden darf. Das Kamel, das durch Wüsten trägt, findet seine Oase nicht in der Bestätigung der anderen &ndash; sondern in der Stille, die es in sich selbst entdeckt.</p>
+          <p class="vb-intro">Braco hat eine Praxis gewählt, die &ndash; paradoxerweise &ndash; genau das verkörpert: das Schweigen, die Stille, das Nichts-Erklären. Vielleicht ist der Gazer deshalb auch selbst auf dem Heilungsweg. Der Blick, den er gibt, ist am echtesten, wenn er nicht aus dem Bedürfnis entsteht, gebraucht zu werden &ndash; sondern aus der stillen Fülle dessen, der nicht mehr sucht.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
       ])}
     </div>
   `);
@@ -31268,6 +31331,7 @@ function render() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-braco": bracoPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
