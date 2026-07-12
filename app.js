@@ -205,6 +205,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
+    heading:"Gertrude Belle Elion – Sozialer Typ 5",
+    teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
+    tags:["Wissenschaft"] },
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
@@ -7459,6 +7463,63 @@ function christianRaetschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function gertrudeElionPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so5.png" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gertrude Belle Elion</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Biochemikerin &amp; Pharmakologin, 1918&ndash;1999 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; und er ist eines der intelligentesten Lebewesen der Erde. Acht Arme, jeder mit eigenem Nervensystem, jeder fähig, unabhängig zu denken und zu handeln. Der Oktopus löst Probleme, die kein anderes Tier seiner Art löst. Er passt sich an, er beobachtet, er versteht Zusammenhänge &ndash; und er tut das meist im Verborgenen, ohne Aufheben, ohne Publikum.</p>
+          <p class="vb-intro">Gertrude Belle Elion war dieser Oktopus: eine Wissenschaftlerin, die gleichzeitig in mehreren Richtungen dachte, die Zusammenhänge sah, die andere nicht sahen &ndash; und die mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen. 1988 erhielt sie den Nobelpreis für Physiologie oder Medizin. Aber ihr eigentliches Werk begann Jahrzehnte früher &ndash; in einem Labor, in das man sie zunächst gar nicht hineinlassen wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen als Beitrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> ist nach Naranjo der Subtyp, der die Isolation der Fünf am stärksten überwindet &ndash; nicht durch Emotionalität, sondern durch den Wunsch, das eigene Wissen der Gemeinschaft zur Verfügung zu stellen. Naranjo nannte diesen Subtyp <em>Totem</em>: Das Wissen wird zum Identitätsmerkmal, zum Beitrag für die Gruppe, zum Band zwischen dem Einzelnen und der Welt. Die SO5 forscht nicht nur für sich &ndash; sie forscht, weil sie der Überzeugung ist, dass Wissen etwas verändern kann.</p>
+          <p class="vb-intro">Bei Gertrude Elion zeigte sich das in dem, was sie die <em>rationale Wirkstoffforschung</em> nannte: statt systematisch Tausende von Substanzen blind zu testen, verstand sie zuerst die Biochemie des Feindes &ndash; des Krebses, des Virus, der Krankheit &ndash; und entwarf dann gezielt Moleküle, die dort angreifen, wo es wirkt. Das war damals revolutionär. Ihre Entdeckungen umfassen Medikamente gegen Leukämie, gegen Abstoßungsreaktionen nach Organtransplantationen, gegen Herpes &ndash; und sie legten den Grundstein für die Entwicklung der ersten HIV-Medikamente.</p>
+          <p class="vb-intro">Die SO5 fragt nicht: <em>Was nützt mir dieses Wissen?</em> Sie fragt: <em>Was kann dieses Wissen bewirken?</em> Elion forschte ihr Leben lang für Menschen, die sie nie treffen würde. Das ist Totem &ndash; Wissen, das über den Einzelnen hinausweist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe und Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sozialen Fünf eine charakteristische Tiefe: das Bedürfnis nach Einzigartigkeit, nach dem Unverwechselbaren, nach Arbeit, die nicht nur nützlich ist, sondern auch <em>bedeutsam</em>. Die SO5w4 sucht nicht nur Wissen &ndash; sie sucht Wissen, das zählt. Erkenntnis, die wirklich etwas verändert.</p>
+          <p class="vb-intro">Bei Gertrude Elion zeigte sich der Viererflügel in ihrer besonderen Beharrlichkeit angesichts von Ausgrenzung. Als Frau und als Jüdin wurde sie aus Doktorandenprogrammen abgelehnt, erhielt keine Stellen, die ihren Fähigkeiten entsprachen. Sie ließ sich davon nicht definieren. Sie arbeitete als Lehrerin, als Lebensmittelchemikerin &ndash; und forschte nebenbei weiter, bis sich eine Tür öffnete. Diese Unnachgiebigkeit ist SO5w4: <em>Ich weiß, was ich zu geben habe. Ich warte, bis man es annimmt.</em></p>
+          <p class="vb-intro">Der Viererflügel erklärt auch Elions lebenslange Verbindung zu ihrer Arbeit als persönlichem Ausdruck. Ihr Antrieb zur Forschung entstand, als ihr Großvater an Krebs starb &ndash; sie war fünfzehn. Aus einem persönlichen Verlust wurde ein wissenschaftliches Lebenswerk. Das ist die SO5w4: Wissen, das aus dem Inneren kommt und nach außen wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 ist ihre Fähigkeit, komplexes Wissen mit Hingabe und Ausdauer zu durchdringen und daraus etwas zu erschaffen, das der Welt nützt. Gertrude Elion hat nicht popularisiert, nicht vereinfacht, nicht verkauft. Sie hat geforscht &ndash; präzise, geduldig, jahrzehntelang &ndash; und das Ergebnis hat das Leben unzähliger Menschen verlängert und gerettet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; das Zurückhalten von Energie und Kontakt. Die SO5 überwindet dieses Muster am stärksten durch ihren Beitrag zur Gemeinschaft. Aber auch sie kennt die Versuchung des Rückzugs: hinter die Forschung, hinter das Labor, hinter das Thema. Elion blieb ihr Leben lang verhältnismäßig im Hintergrund &ndash; bis der Nobelpreis sie ins Licht drängte, das sie nicht gesucht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Wissen zum Wirken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Was ich weiß, kann gebraucht werden &ndash; jetzt, hier, von echten Menschen.</em> Für die SO5w4 bedeutet das, das Wissen nicht nur zu vervollständigen, sondern es loszulassen: in die Welt zu geben, ohne Kontrolle darüber zu behalten, was daraus wird.</p>
+          <p class="vb-intro">Gertrude Elion hat diesen Schritt vollzogen &ndash; nicht in einem Moment, sondern über ein ganzes Forscherleben. Der Oktopus, der mit acht Armen gleichzeitig denkt, der Zusammenhänge erkennt, die andere nicht sehen &ndash; und der sein Wissen in Moleküle verwandelt hat, die Menschen heilen. Das ist das Geschenk der SO5w4: Intelligenz, die nicht für sich selbst leuchtet, sondern für die, die im Dunkeln sitzen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
       ])}
     </div>
   `);
@@ -32141,6 +32202,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
