@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-11-v294";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-11-v295";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -108,7 +108,11 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 Kunstf\xe4lscher, geb. 1951. \xdcber 50 gef\xe4lschte Meisterwerke, Jahrzehnte unentdeckt \u2013 die sexuelle Neun mit Einserfl\xfcgel: Verschmelzung mit dem Geist toter Meister." , tags:["Betrug"]},
 ];
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const BERUEHMT_PORTRAITS = [
+  // Einträge werden nach und nach ergänzt
+];
+
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6736,6 +6740,167 @@ function kaesesortenPage() {
     </div>
   `);
 }
+
+function beruehmtePersoenlichkeitenPage() {
+  const allKats = ["Musik","Schauspiel","Wissenschaft","Sport","Politik","Kunst","Literatur","Wirtschaft","Astronaut","Sonstiges"];
+  const katLabel = {
+    "Musik":        "Musik",
+    "Schauspiel":   "Schauspiel / Film",
+    "Wissenschaft": "Wissenschaft",
+    "Sport":        "Sport",
+    "Politik":      "Politik",
+    "Kunst":        "Kunst",
+    "Literatur":    "Literatur",
+    "Wirtschaft":   "Wirtschaft / Unternehmertum",
+    "Astronaut":    "Raumfahrt / Exploration",
+    "Sonstiges":    "Sonstiges",
+  };
+  const katColors = {
+    "Musik":"#7c3aed","Schauspiel":"#b45309","Wissenschaft":"#0369a1",
+    "Sport":"#15803d","Politik":"#c0392b","Kunst":"#be185d",
+    "Literatur":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Sonstiges":"#6b7280"
+  };
+
+  function filterBar() {
+    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet('inst',''+inst+'')">'+(inst==="ALL"?"Alle":inst)+'</button>';
+    const typBtn = n => {
+      const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
+      const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
+      return '<button class="kf-btn kf-btn--typ'+(col?' kf-btn--typ-colored':'')+'"'
+        +' data-bp-typ="'+n+'" data-kf-col="'+(col||'')+'"'
+        +style+' onclick="bpSet('typ','+n+')">'+(n===0?"Alle":n)+'</button>';
+    };
+    const katBtn = k => {
+      const col = katColors[k]||"var(--copper)";
+      return '<button class="kf-btn kf-btn--tag" data-bp-kat="'+k+'"'
+        +' style="--kf-tag-col:'+col+';" onclick="bpSet('kat',''+k+'')">'+(katLabel[k]||k)+'</button>';
+    };
+    return '<div class="kf-bar">'
+      +'<div class="kf-row"><span class="kf-label">Instinkt</span>'
+      +instBtn("ALL")+["SE","SO","SX"].map(instBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Typ</span>'
+      +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Bereich</span>'
+      +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
+      +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> von '+BERUEHMT_PORTRAITS.length+' Portr\xe4ts</div>'
+      +'</div>';
+  }
+
+  const card = p => {
+    const inst = (p.subtyp||"").substring(0,2).toUpperCase();
+    const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
+    const kats = (p.tags||[]).join(",");
+    return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-route="'+p.route+'"'
+      +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
+      +' onmouseover="this.style.borderColor='var(--gold)';this.style.boxShadow='0 2px 12px rgba(0,0,0,.1)'"'
+      +' onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">'
+      +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
+      +'<div><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
+      +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
+      +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
+      +(p.tags||[]).map(function(t){
+        const col = katColors[t]||"var(--copper)";
+        return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+t+'</span>';
+      }).join("")
+      +'</div>'
+      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
+      +'<span style="font-size:1.6rem;color:var(--gold);flex-shrink:0;margin-top:0.1rem;">&#9655;</span>'
+      +'</div></div>';
+  };
+
+  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p+n));
+  const registerBox = BERUEHMT_PORTRAITS.length === 0 ? "" :
+    '<div id="bp-register" style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">'
+    +'<p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Schnellnavigation nach Subtyp</p>'
+    +'<div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">'
+    +allCodes.map(function(code){
+      const n = parseInt(code.slice(-1));
+      const col = TYPE_COLORS[n]||"var(--copper)";
+      return '<a href="#" onclick="event.preventDefault();var el=document.getElementById('bp-'+code.toLowerCase()+'');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"'
+        +' style="display:inline-block;padding:0.25rem 0.6rem;border-radius:6px;border:1.5px solid '+col+';'
+        +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
+        +' onmouseover="this.style.opacity='1';this.style.background=''+col+'20'"'
+        +' onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">'
+        +code+'</a>';
+    }).join("")
+    +'</div></div>';
+
+  function buildList() {
+    if (BERUEHMT_PORTRAITS.length === 0) {
+      return '<p style="color:var(--muted);font-style:italic;padding:2rem 0;">Die ersten Portr\xe4ts werden in K\xfcrze hinzugef\xfcgt.</p>';
+    }
+    let lastCode = null, out = '';
+    BERUEHMT_PORTRAITS.forEach(function(p) {
+      const code = (p.subtyp||'').substring(0,3).toUpperCase();
+      if (code && code !== lastCode) {
+        if (lastCode !== null) {
+          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById('bp-register').scrollIntoView({behavior:'smooth'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 zum Register</a></div>';
+        }
+        const n = parseInt(code.slice(-1));
+        const col = TYPE_COLORS[n]||"var(--copper)";
+        out += '<div id="bp-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code+'</div>';
+        lastCode = code;
+      }
+      out += card(p);
+    });
+    return out;
+  }
+
+  return shell(
+    '<div class="page-container">'
+    +pageHeader("ber\xfchmte-pers\xf6nlichkeiten")
+    +'<p class="psycho-intro">Ber\xfchmte Pers\xf6nlichkeiten aus Wissenschaft, Kunst, Musik, Sport und Geschichte durch die Linse des Enneagramms. '
+    +'Jedes Portr\xe4t zeigt, wie die innere Struktur eines Menschen seine Leistungen, seine Kreativit\xe4t und seinen Lebensweg pr\xe4gt \u2013 '
+    +'vom Komponisten bis zum Astronauten, vom Friedensnobelpreistr\xe4ger bis zum vision\xe4ren Unternehmer.</p>'
+    +filterBar()
+    +registerBox
+    +'<div id="bp-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
+    +buildList()
+    +'</div>'
+    +relatedLinks([
+      {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+      {route:"psychogramme", label:"Psychogramme"},
+      {route:"portraits-wegbegleiter", label:"Portr\xe4ts: Wegbegleiter"},
+    ])
+    +'</div>'
+  );
+}
+
+window.bpState = { inst:"ALL", typ:0, kat:"ALL" };
+window.bpSet = function(dim, val) {
+  if(window.bpState[dim]===val){ window.bpState[dim]= dim==="typ"?0:"ALL"; }
+  else { window.bpState[dim]=val; }
+  bpApply();
+};
+window.bpApply = function() {
+  const s = window.bpState;
+  const cards = document.querySelectorAll(".kf-card[data-bp-inst]");
+  let vis = 0;
+  cards.forEach(function(c){
+    const ok = (s.inst==="ALL" || c.dataset.bpInst===s.inst)
+      && (s.typ===0 || parseInt(c.dataset.bpTyp)===s.typ)
+      && (s.kat==="ALL" || (c.dataset.bpKats||"").split(",").indexOf(s.kat)>=0);
+    c.style.display = ok ? "" : "none";
+    if(ok) vis++;
+  });
+  const cnt = document.getElementById("bp-count-num");
+  if(cnt) cnt.textContent = vis;
+  const filtered = s.inst!=="ALL" || s.typ!==0 || s.kat!=="ALL";
+  const reg = document.getElementById("bp-register");
+  if(reg) reg.style.display = filtered ? "none" : "";
+  document.querySelectorAll(".kf-section-head[id^=bp-],.kf-section-back").forEach(function(el){
+    el.style.display = filtered ? "none" : "";
+  });
+  document.querySelectorAll(".kf-btn[data-bp-inst]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.bpInst===s.inst||(s.inst==="ALL"&&b.dataset.bpInst==="ALL"));
+  });
+  document.querySelectorAll(".kf-btn[data-bp-typ]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", parseInt(b.dataset.bpTyp)===(s.typ||0));
+  });
+  document.querySelectorAll(".kf-btn[data-bp-kat]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
+  });
+};
 
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
@@ -30405,6 +30570,7 @@ function render() {
     "flugzeugmodelle-der-9-typen": flugzeugmodelleDer9TypenPage,
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
+      "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,

@@ -2293,6 +2293,7 @@ export const uiText = {
       { route: "register", label: "Register" },
       { route: "quiz", label: "Quiz" },
       { route: "zitate", label: "Zitate der Weisen" },
+      { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
       { route: "kriminalpsychologie", label: "Kriminalpsychologie" },
       { route: "tierlexikon", label: "Tierlexikon" },
     ]},
