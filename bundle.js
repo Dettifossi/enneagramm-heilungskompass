@@ -177,6 +177,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
     tags:["Musik"] },
+  { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
+    heading:"Freddie Mercury – Sexueller Typ 4",
+    teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
+    tags:["Musik"] },
   { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
@@ -7273,6 +7277,64 @@ function clemensArvayPortraitPage() {
   `);
 }
 
+
+function freddieMercuryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx4.png" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Freddie Mercury</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Rocksänger &amp; Songwriter, 1946&ndash;1991 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das kleinste Hunderassen der Welt &ndash; und verhält sich wie das größte. Er fürchtet nichts. Er bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Aber hinter dieser Kühnheit liegt ein Tier, das tief empfindet: Der Chihuahua ist empfindlich, bindungsintensiv, manchmal dramatisch &ndash; und er braucht, trotz aller Selbstdarstellung, die tiefe Verbindung zu einem Menschen, dem er vertraut. Der Chihuahua ist kein Tier der Masse. Er ist ein Tier der Intensität.</p>
+          <p class="vb-intro">Freddie Mercury war einer der größten Bühnenkünstler aller Zeiten &ndash; und einer der verletzlichsten Menschen hinter der Maske. Auf der Bühne: ein Tier, das sich verwandelte. Kein anderer Rockstar hat das Publikum so vollständig in Besitz genommen wie er &ndash; mit Stimme, Körper, Geste, Blick. Und hinter der Bühne: ein Mann aus Sansibar, der nie ganz wusste, wo er hingehörte, der seinen bürgerlichen Namen Farrokh Bulsara versteckte und sich in Freddie Mercury verwandelte. Der Chihuahua, der sich in einen Löwen verwandelt &ndash; und dabei nie aufhört, ein Chihuahua zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Eifersucht als Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition derjenige Subtyp, der den Schmerz der Vier in die unmittelbare persönliche Intensität trägt. Naranjo nennt diesen Subtyp <em>Eifersucht</em> &ndash; nicht im banalen Sinn von Missgunst, sondern als die brennende Überzeugung: <em>Was anderen gegeben wurde, wurde mir verweigert.</em> Die SX4 vergleicht sich nicht mit der Gesellschaft wie die soziale Vier &ndash; sie vergleicht sich mit dem Menschen direkt gegenüber und fragt: <em>Warum du? Warum nicht ich?</em> Diese Energie ist ein Feuer, das verbrennen und erwärmen kann.</p>
+          <p class="vb-intro">Bei Freddie Mercury zeigt sich das in der Intensität, mit der er liebte, begehrte, litt und schuf. Seine Songs sind keine Produktionen &ndash; sie sind emotionale Erdbeben. <em>Bohemian Rhapsody</em> ist keine Ballade. Es ist eine Innenwelt, die explodiert. <em>Somebody to Love</em> ist kein Liebeslied &ndash; es ist ein Hilferuf aus einer tiefen Einsamkeit. Die SX4 verwandelt den persönlichen Schmerz in etwas so Großes, dass er universal wird. Und genau das hat Freddie Mercury getan: Er hat sich selbst auf die Bühne gestellt &ndash; mit allem, was da war.</p>
+          <p class="vb-intro">Der sexuelle Instinkt richtet die Vier auf die unmittelbare Verbindung aus: <em>Ich will dich. Ich will, dass du mich siehst. Wirklich.</em> Freddie Mercury hat dieses Bedürfnis in seiner Kunst und in seinem Leben ausgelebt &ndash; mit einer Rückhaltlosigkeit, die bewunderte und manchmal verstörte. Die SX4 weiß: Halbherzig ist keine Option.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der sexuellen Vier etwas Entscheidendes: die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln. Die reine SX4 könnte in der Intensität des eigenen Erlebens versinken &ndash; tief, dunkel, unzugänglich. Der Dreierflügel gibt ihr eine Bühne: <em>Was du fühlst, kann gestaltet werden. Und was gestaltet wird, kann die Welt verändern.</em></p>
+          <p class="vb-intro">Bei Freddie Mercury ist der Dreierflügel in jeder Sekunde seiner Bühnenpräsenz spürbar. Er hat nicht gespielt &ndash; er hat regiert. Das Live-Aid-Konzert 1985, das oft als die beste Bühnenperformance der Rockgeschichte gilt, zeigt diese Energie in ihrer reinsten Form: Ein Mensch, der weiß, was er kann, und der dieses Wissen ohne Zögern einsetzt. Die SX4w3 trennt das Private vom Öffentlichen nicht durch Kälte, sondern durch Verwandlung: Das Innere wird zur Kunst, die Kunst zur Verbindung.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt auch Freddie Mercurys außergewöhnliche Professionalität im Studio. Er war kein chaotischer Künstler &ndash; er war präzise, ausdauernd, anspruchsvoll. Die SX4w3 weiß: Das Gefühl allein reicht nicht. Es muss Form annehmen. Und diese Form muss so nah an der Wahrheit sein, dass kein Raum für Kompromisse bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4 ist ihre Fähigkeit zur vollständigen Hingabe &ndash; an die Kunst, an den Menschen, an den Moment. Freddie Mercury hat auf der Bühne etwas gezeigt, das die meisten Menschen nie erleben werden: den Zustand vollständiger Präsenz. Wenn er sang, war er nicht Farrokh Bulsara, nicht der Junge aus Sansibar, nicht der Außenseiter &ndash; er war einfach da. Vollständig. Das ist das Geschenk der SX4: Sie gibt alles, in jedem Moment.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SX4 äußert sich das als persönliche Verletzung: <em>Du hast etwas, das ich nicht habe. Und das tut weh.</em> Freddie Mercury trug diese Verletzung sein Leben lang &ndash; die Frage nach Herkunft, Zugehörigkeit, sexueller Identität, nach einem Platz, der sich wirklich wie Zuhause anfühlte. Die Bühne war sein Zuhause. Was dahinter kam, war oft Einsamkeit.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Gefahr der Selbstauflösung in der Rolle: Wenn die Bühne das einzige Zuhause ist, wo ist man dann, wenn die Bühne leer ist? Freddie Mercury hat diese Frage nie ganz beantwortet &ndash; und die Exzesse der späten 1970er-Jahre sprechen von einem Menschen, der abseits der Scheinwerfer nicht immer wusste, wo er war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Rolle zum Selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Ich bin, wie ich bin &ndash; und das ist nicht weniger, sondern einmalig.</em> Für die SX4w3 bedeutet das, die Verwandlungskraft nicht länger als Flucht vor sich selbst zu nutzen, sondern als Ausdruck von sich selbst. Die Bühne nicht als Ort, an dem man wird, wer man sein möchte &ndash; sondern als Ort, an dem man zeigt, wer man bereits ist.</p>
+          <p class="vb-intro">Freddie Mercury hat diesen Weg in seinen letzten Jahren in stiller Weise gegangen. Im Wissen um seine AIDS-Erkrankung, die er bis kurz vor seinem Tod nicht öffentlich bestätigte, hat er weitergemacht &ndash; <em>The Show Must Go On</em> war kein Statement, es war ein Bekenntnis. Der Chihuahua, der keine Angst kennt &ndash; auch nicht vor dem Ende. Was bleibt, ist eine Stimme, die Jahrzehnte später noch Gänsehaut erzeugt. Und die Frage, was wäre, wenn er länger Zeit gehabt hätte.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
 
 function ladyDianaPortraitPage() {
   return shell(`
@@ -31890,6 +31952,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
+      "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
