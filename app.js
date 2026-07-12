@@ -229,6 +229,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
     tags:["Journalismus","Politik"] },
+  { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
+    heading:"Anke Engelke – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
+    tags:["Medien / TV","Kunst"] },
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
@@ -7614,7 +7618,62 @@ function aliceSchwarzerPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function ankeEngelkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx6.png" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anke Engelke</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Komikerin, Schauspielerin &amp; Entertainerin, geb. 1965 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; und er passt zu Anke Engelke mit einer Präzision, die man erst erkennt, wenn man genauer hinsieht. Wölfe gelten als soziale Tiere: loyal, verspielt, eng im Rudel verbunden. Doch was sie von anderen Rudeltieren unterscheidet, ist ihre Bereitschaft zur offenen Auseinandersetzung. Der Wolf weicht nicht aus. Er stellt sich. Er zeigt Zähne &ndash; nicht aus Aggression, sondern aus Klarheit. Er definiert, wer er ist, indem er sagt, was er nicht hinnimmt.</p>
+          <p class="vb-intro">Anke Engelke ist eine Wölfin. Ihre Bühne ist das Rudel: Ensemble, Comedy-Partner, Kolleginnen. Ihre Stärke kommt nicht aus Isolation, sondern aus Verbindung. Und ihr Humor ist kein Rückzug &ndash; er ist ein Auftreten. Direkt. Unverkleidet. Mit Zähnen, die man sieht, weil man weiß, dass dahinter kein Angriff steckt &ndash; sondern Klarheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort auf die Angst (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist in der Enneagramm-Tradition der Kontratyp der Sechs &ndash; der Subtyp, der die Angst nicht zeigt, sondern überdeckt: durch Stärke, durch Direktheit, durch eine Energie, die nach außen eher nach Sieben oder Acht aussieht als nach der grüblerischen Sechs, die man erwarten würde. Naranjo nannte diesen Subtyp <em>Strength</em> &ndash; Stärke als Gegengewicht zur inneren Unsicherheit.</p>
+          <p class="vb-intro">Anke Engelke wirkt nicht ängstlich. Sie wirkt mutig, schlagfertig, unerschütterlich. Was man nicht sofort sieht: Diese Stärke ist erarbeitet. Die SX6 konfrontiert ihre Angst, indem sie ihr entgegengeht &ndash; auf die Bühne geht, sich exponiert, riskiert. Engelke hat das über Jahrzehnte getan: in Live-Sendungen, in Rollen, die Verletzlichkeit fordern, in Momenten, die schiefgehen konnten. Die Stärke der SX6 ist keine Abwesenheit von Angst. Sie ist die Entscheidung, trotzdem zu erscheinen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Humor als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sexuellen Sechs eine Leichtigkeit, die ihr ohne ihn fehlen würde. Die reine Sechs tendiert zur Schwere: Grübeln, Misstrauen, das ständige Abwägen von Risiken. Der Siebenerflügel hellt das auf &ndash; er bringt Neugier, Spielfreude, die Fähigkeit, Verbindungen herzustellen, die anderen nicht auffallen.</p>
+          <p class="vb-intro">Bei Anke Engelke zeigt sich das in ihrer schieren Vielseitigkeit: Sie begann im Radio, wurde zur Fernsehkomikerin, spielt dramatische Rollen, synchronisiert, singt, tritt live auf. Die Sieben-Energie macht sie flexibel, anpassungsfähig, ständig bereit für das nächste Format, das nächste Abenteuer. Ihr Humor ist selten bitter &ndash; er ist warm, absurd, bisweilen kindlich. Das ist der Siebenerflügel: Angst in Spiel verwandeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Angst als unsichtbarer Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sechs heißt <strong>Angst</strong> &ndash; aber in der sexuellen Sechs zeigt sie sich paradox. Nicht als Lähmung, sondern als Treibstoff. Die SX6 bewegt sich auf das zu, was sie fürchtet. Sie sucht die Konfrontation. Sie provoziert, testet, fordert heraus &ndash; nicht weil es ihr leichtfällt, sondern weil sie gelernt hat, dass Stärke das einzige Mittel ist, das zuverlässig wirkt.</p>
+          <p class="vb-intro">Engelkes Karriere ist durchzogen von Momenten, die Mut erforderten: eine eigene Late-Night-Show tragen, politische Satire wagen, international auftreten. 2011 moderierte sie den Eurovision Song Contest &ndash; eine Bühne, auf der alles schiefgehen kann, vor hunderten Millionen Zuschauern. Sie wirkte souverän. Dahinter stand die Entscheidung der SX6: Ich gehe hinein. Ich stelle mich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Mut, der andere ermutigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was die sexuelle Sechs mit Siebenerflügel als Stärke gibt, ist mehr als persönlicher Mut. Es ist ein Modell. Wer Anke Engelke zusieht, sieht jemanden, der sich nicht kleiner macht. Der seinen Raum einnimmt. Der Fehler zum Teil der Vorstellung macht, Unsicherheit zum Ausdrucksmittel &ndash; und damit anderen die Erlaubnis gibt, das auch zu tun.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX6w7: Mut durch Erscheinen. Nicht die Abwesenheit von Zweifel, sondern das Einladen des Zweifels auf die Bühne &ndash; und das Spielen damit. Das ist Anke Engelke. Das ist der Wolf, der tanzt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
   `);
@@ -32706,6 +32765,7 @@ function render() {
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
+      "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
