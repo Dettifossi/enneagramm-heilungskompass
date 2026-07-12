@@ -279,6 +279,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
     tags:["Literatur","Wissenschaft"] },
+  { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
+    heading:"Toni Morrison – Selbsterhaltende Typ 8",
+    teaser:"SE8w9 · 1931–2019. Schriftstellerin, Literaturnobelpreisträgerin 1993. Beloved, Sula, The Bluest Eye. Die Orang-Utan-Frau, die das Schweigen der Geschichte gebrochen hat – geerdet, unerschütterlich, von bleibender Wucht. Tierentsprechung: Orang-Utan.",
+    tags:["Literatur"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7869,6 +7873,62 @@ function umbertEcoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-toni-morrison", label:"Porträt: Toni Morrison (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function toniMorrisonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se8.png" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Toni Morrison</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schriftstellerin &amp; Literaturnobelpreisträgerin, 1931&ndash;2019 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild passt besser zu Toni Morrison. Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Bestätigung, keine Zuschauer. Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer Würde, die nicht erklärt werden muss. Sein Blick ist ruhig und tief zugleich &ndash; der Blick eines Wesens, das schon viel gesehen hat und nichts davon verdrängt.</p>
+          <p class="vb-intro">Toni Morrison schrieb über das, was Amerika verdrängt hatte. Die Sklaverei, die Demütigung, das Schweigen der Überlebenden. Sie tat das nicht anklagend oder hysterisch, sondern mit der Ruhe des Orang-Utans: geerdet, geduldig, unausweichlich. Wer ihren Büchern begegnet, kommt nicht unbeschädigt heraus &ndash; und das war ihre Absicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Satisfaktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Energie der Acht durch Fülle, Besitz und die Sicherung des eigenen Territoriums aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Es geht um die Befriedigung materieller und vitaler Bedürfnisse &ndash; nicht aus Gier, sondern aus dem tiefen Wissen, dass man nur dann stark für andere sein kann, wenn man selbst sicher steht.</p>
+          <p class="vb-intro">Morrison sicherte ihre Basis mit bedingungsloser Konsequenz. Als alleinerziehende Mutter zweier Söhne schrieb sie nachts, wenn die Kinder schliefen &ndash; tagsüber arbeitete sie als Lektorin bei Random House. Sie baute sich eine Existenz, die niemand ihr wegnehmen konnte: wirtschaftlich, literarisch, intellektuell. Ihre SE8-Energie zeigte sich nicht in Lautstärke, sondern in Beharrlichkeit. Sie gab nicht auf. Sie gab nie auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Würde der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der selbsterhaltenden Acht etwas Kostbares: Geduld und Weiträumigkeit. Die SE8w7 ist impulsiv, risikofreudig, direkt &ndash; sie will sofort. Die SE8w9 kann warten. Sie sieht das große Bild. Sie lässt Dinge reifen.</p>
+          <p class="vb-intro">Toni Morrisons Stimme hatte diese Qualität: ruhig, tief, ohne Eile. In Interviews sprach sie langsam und präzise &ndash; jedes Wort gewählt, keine Energie verschwendet. Der Neunerflügel gab ihr auch die Fähigkeit, viele Perspektiven gleichzeitig zu halten &ndash; die der Täter, der Opfer, der Schweigenden, der Verstorbenen. Ihr Roman <em>Beloved</em> erzählt von einer Mutter, die ihr Kind tötet, um es vor der Sklaverei zu bewahren. Morrison verurteilt nicht. Sie versteht. Das ist der Neunerflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Zeugenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> &ndash; als Hunger nach dem vollen Leben, nach Intensität, nach der ungeschminkten Wahrheit. Die selbsterhaltende Acht richtet diesen Hunger auf das Konkrete: Sie will das Wesentliche besitzen, sichern, durchdringen.</p>
+          <p class="vb-intro">Morrisons Wollust war die Weigerung, wegzusehen. Sie schrieb über Vergewaltigung, Mord, Trauma, die langsame Vernichtung eines Menschen durch Unterdrückung &ndash; mit einer sinnlichen Genauigkeit, die manchen Lesern unerträglich war. Das war kein Sadismus. Das war die Leidenschaft der SE8: Lieber die volle Wahrheit als eine bequeme Lüge. Lieber das Unbequeme benennen als im Schweigen Komplize werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Das Gedächtnis eines Volkes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Toni Morrison der Welt hinterlassen hat, ist mehr als Literatur. Es ist ein kollektives Gedächtnis. Sie hat einer ganzen Geschichte eine Sprache gegeben &ndash; der Geschichte der Afroamerikaner, die über Jahrhunderte systematisch zum Schweigen gebracht wurde. Und sie tat das nicht als Anklage, sondern als Liebende: mit der Überzeugung, dass Menschen, die ihre Geschichte kennen, freier sind als Menschen, die sie vergessen haben.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE8w9: die Kombination aus Stärke und Geduld, aus Tiefe und Ausdauer. Der Orang-Utan, der still im Baum sitzt, alles beobachtet und alles behält &ndash; und der, wenn er spricht, Worte wählt, die bleiben.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
       ])}
     </div>
   `);
@@ -32964,6 +33024,7 @@ function render() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
+      "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
