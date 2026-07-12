@@ -14,6 +14,24 @@ import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
 
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
 const app = document.querySelector("#app");
+
+// Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
+const APP_BUILD = "354";
+(function checkForUpdate() {
+  fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
+    .then(r => r.json())
+    .then(data => {
+      if (data && data.build && data.build !== APP_BUILD) {
+        if ("caches" in window) {
+          caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))))
+            .then(() => { window.location.reload(true); });
+        } else {
+          window.location.reload(true);
+        }
+      }
+    })
+    .catch(() => {}); // kein Netz → still ignorieren
+})();
 const PROFILE_KEY = "enneagramm-kompass:profile";
 const VISITED_KEY = "enneagramm-kompass:visited";
 const TIER_KEY    = "enneagramm-kompass:tier";
