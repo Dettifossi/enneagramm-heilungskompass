@@ -59,19 +59,10 @@
     <script src="data/zitate.js?v=1"></script>
     <script type="module" src="bundle.js?v=inhalt-v310"></script>
     <script>
+      // Service Worker deaktiviert – alle alten SWs entfernen
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("./sw.js").then(reg => {
-          reg.addEventListener("updatefound", () => {
-            const newWorker = reg.installing;
-            newWorker.addEventListener("statechange", () => {
-              if (newWorker.state === "activated") {
-                window.location.reload();
-              }
-            });
-          });
-        });
-        navigator.serviceWorker.addEventListener("controllerchange", () => {
-          window.location.reload();
+        navigator.serviceWorker.getRegistrations().then(regs => {
+          regs.forEach(r => r.unregister());
         });
       }
     </script>
