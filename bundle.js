@@ -7286,7 +7286,7 @@ function gretaThunbergPortraitPage() {
           <span style="font-size:4.5rem;">🦛</span>
         </div>
         <p class="krim-portrait-name">Greta Thunberg</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einerflügel</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Klimaaktivistin, geb. 2003 &ndash; Tierentsprechung: Flusspferd</p>
       </div>
       <div class="page-content">
@@ -7304,18 +7304,18 @@ function gretaThunbergPortraitPage() {
           <p class="vb-intro">Auch ihre Offenheit über die eigene Neurodivergenz &ndash; Asperger-Syndrom, Zwangsstörungen, selektiver Mutismus &ndash; trägt diese SE2-Qualität: kein Verstecken, kein Beschönigen. <em>Mein Gehirn funktioniert anders. Das ist, wer ich bin.</em> Die SE2 benennt ihre Realität &ndash; auch wenn die Welt lieber wegschaut.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Einerflügel: Moralische Klarheit als Rückgrat</h2>
+        <h2 class="vb-section">3. Der Einserflügel: Moralische Klarheit als Rückgrat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einerflügel (w1)</strong> bringt der selbsterhaltenden Zwei etwas Entscheidendes: ein inneres Regelwerk, das unabhängig von der Reaktion anderer trägt. Die reine Zwei sucht Bestätigung, Zuneigung, Anerkennung &ndash; der Einerflügel macht sie unabhängiger davon. Er sagt: <em>Es gibt ein Richtig und ein Falsch. Und ich weiß, auf welcher Seite ich stehe.</em></p>
-          <p class="vb-intro">Bei Greta Thunberg ist dieser Flügel nicht zu übersehen. Sie hat Staats- und Regierungschefs ins Gesicht gesagt, was sie falsch machen. Sie hat den UN-Gipfel mit <em>How dare you!</em> eröffnet &ndash; einer Anklage, die keine diplomatische Formulierung kannte, weil die SE2w1er keine diplomatische Formulierung braucht, wenn das Prinzip klar ist. Der Einerflügel gibt der Zwei die Erlaubnis, unbequem zu sein.</p>
-          <p class="vb-intro">Das zeigt sich auch in ihrer politischen Entwicklung: Thunberg ist über die Jahre klarer und radikaler geworden &ndash; nicht weil sie sich verändert hat, sondern weil der Einerflügel mit der Zeit stärker zum Tragen kommt. Die Zwei möchte geliebt werden. Die Eins hat kein Interesse daran, für etwas geliebt zu werden, das falsch ist.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> bringt der selbsterhaltenden Zwei etwas Entscheidendes: ein inneres Regelwerk, das unabhängig von der Reaktion anderer trägt. Die reine Zwei sucht Bestätigung, Zuneigung, Anerkennung &ndash; der Einserflügel macht sie unabhängiger davon. Er sagt: <em>Es gibt ein Richtig und ein Falsch. Und ich weiß, auf welcher Seite ich stehe.</em></p>
+          <p class="vb-intro">Bei Greta Thunberg ist dieser Flügel nicht zu übersehen. Sie hat Staats- und Regierungschefs ins Gesicht gesagt, was sie falsch machen. Sie hat den UN-Gipfel mit <em>How dare you!</em> eröffnet &ndash; einer Anklage, die keine diplomatische Formulierung kannte, weil die SE2w1 keine diplomatische Formulierung braucht, wenn das Prinzip klar ist. Der Einserflügel gibt der Zwei die Erlaubnis, unbequem zu sein.</p>
+          <p class="vb-intro">Das zeigt sich auch in ihrer politischen Entwicklung: Thunberg ist über die Jahre klarer und radikaler geworden &ndash; nicht weil sie sich verändert hat, sondern weil der Einserflügel mit der Zeit stärker zum Tragen kommt. Die Zwei möchte geliebt werden. Die Eins hat kein Interesse daran, für etwas geliebt zu werden, das falsch ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE2 ist ihre Authentizität. Greta Thunberg hat nie eine Rolle gespielt. Was sie sagt, ist, was sie meint. Was sie fühlt, zeigt sie. Das ist in einer Welt politischer Kommunikation eine außergewöhnliche Qualität &ndash; und ein Grund, warum sie Millionen Menschen berührt hat, die sich von professionellen Aktivisten längst nicht mehr erreicht fühlen.</p>
           <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht zu werden, unentbehrlich zu sein, für andere da zu sein, während man die eigenen Bedürfnisse verleugnet. Bei der SE2 zeigt sich das subtiler: Es ist der Glaube, dass die eigene Stimme zählt, weil die eigene Existenz auf dem Spiel steht. Das kann befreiend sein &ndash; und es kann erschöpfen. Die SE2w1 trägt das Gewicht ihrer Überzeugung mit einer Intensität, die wenig Raum für Ruhe lässt.</p>
-          <p class="vb-intro">Greta Thunberg hat in Interviews beschrieben, wie die Klimakrise sie in eine schwere Depression geführt hat &ndash; bevor sie begann zu handeln. Das Handeln war Rettung. Aber Rettung durch Handeln hat ihren Preis. Das Flusspferd kann nicht immer im Wasser bleiben.</p>
+          <p class="vb-intro">Greta Thunberg hat in Interviews beschrieben, wie die Klimakrise sie in eine schwere Depression geführt hat &ndash; bevor sie begann zu handeln. Das Handeln war Rettung. Aber Rettung durch Handeln hat seinen Preis. Das Flusspferd kann nicht immer im Wasser bleiben.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Vom Kämpfen zum Sein</h2>
