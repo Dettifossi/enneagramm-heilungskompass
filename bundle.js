@@ -6939,7 +6939,7 @@ function christophWaltzPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Wärme hinter der Präzision</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der SE1-Dreierenergie etwas Entscheidendes hinzu: die Fähigkeit zur Wärme, zur Großzügigkeit, zum Geben. Die reine Eins kann kühl, rigide und unerbittlich wirken. Der Zweierflügel öffnet diese Energie nach außen &ndash; er macht aus dem innerlichen Kontrolleur einen Menschen, der gibt, der trägt, der sich kümmert.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der SE1-Energie etwas Entscheidendes hinzu: die Fähigkeit zur Wärme, zur Großzügigkeit, zum Geben. Die reine Eins kann kühl, rigide und unerbittlich wirken. Der Zweierflügel öffnet diese Energie nach außen &ndash; er macht aus dem innerlichen Kontrolleur einen Menschen, der gibt, der trägt, der sich kümmert.</p>
           <p class="vb-intro">Das erklärt, warum Christoph Waltz auch in seinen dunkelsten Rollen nie kalt wirkt. Hans Landa in <em>Inglourious Basterds</em> ist ein Monster &ndash; und doch schaut man ihm nicht weg. Dr. King Schultz in <em>Django Unchained</em> ist ein Kopfgeldjäger &ndash; und doch wärmt er jeden Raum, den er betritt. Der SE1w2er trägt seine Strenge innen und seine Wärme außen. Genau das macht seine Rollen so magnetisch.</p>
         </blockquote>
 
