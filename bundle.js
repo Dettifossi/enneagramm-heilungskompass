@@ -275,6 +275,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
+    heading:"Elon Musk – Sozialer Typ 7",
+    teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
+    tags:["Wirtschaft / Unternehmertum","Wissenschaft"] },
   { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
@@ -7822,6 +7826,61 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmine Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function elonMuskPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-elon-musk-portrait.jpg" alt="Elon Musk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elon Musk</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer &amp; Visionär, geb. 1971 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und kein Tier der Welt beschreibt Elon Musk treffender. Der Biber baut. Nicht weil er muss. Nicht weil man ihn bittet. Sondern weil Bauen sein Wesen ist. Er fällt Bäume, staut Flüsse auf, erschafft Teiche, wo keiner war, verändert ganze Landschaften &ndash; und fängt am nächsten Morgen von vorne an. Was er hinterlässt, verändert Ökosysteme, schafft neuen Lebensraum, macht aus Wüste Feuchtgebiet.</p>
+          <p class="vb-intro">Elon Musk hat in weniger als dreißig Jahren PayPal mitgegründet, SpaceX aus dem Nichts aufgebaut, Tesla vor dem Bankrott gerettet, Starlink ins All geschossen, X (ehemals Twitter) übernommen und nebenbei einen Flammenwerferhersteller namens The Boring Company auf die Welt losgelassen. Der Biber macht keine halben Sachen. Er baut und baut &ndash; und sucht sich das nächste Hindernis, das es zu stauen gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude als Vision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Subtyp der Sieben, der am stärksten nach außen wirkt. Naranjo nannte diesen Subtyp <em>Sacrifice</em>: Die SO7 opfert ihre eigene Freude für eine größere Idee &ndash; aber anders als man denkt. Sie findet ihre Freude gerade darin, die Welt zu gestalten, Systeme zu bauen, Visionen in die Realität zu zwingen. Nicht für sich allein, sondern für alle. Die SO7 ist überzeugt, dass ihre persönliche Begeisterung und das Wohl der Menschheit sich decken.</p>
+          <p class="vb-intro">Elon Musk spricht nicht über Raketen als Produkt. Er spricht über die Zukunft der Menschheit als multiplanetare Spezies. Er spricht nicht über Elektroautos als Marktanteil. Er spricht über die Rettung der Erde vor dem Klimakollaps. Ob man ihm glaubt oder nicht: Der SO7 meint es ernst. Der Biber baut nicht für sich &ndash; er baut, weil er glaubt, dass die Welt diesen Damm braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität und Skepsis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Qualität, die überraschend klingt: Misstrauen. Der Sechserflügel ist wachsam, sucht Risiken, denkt Szenarien durch, bleibt loyal gegenüber denen, die sich bewährt haben &ndash; und hartleibig gegenüber denen, die er für unzuverlässig hält. Kombiniert mit der Energie der Sieben entsteht ein Mensch, der gleichzeitig visionär und paranoid ist: Er sieht die strahlende Zukunft und die existenziellen Risiken, die dorthin führen.</p>
+          <p class="vb-intro">Musk spricht regelmäßig über künstliche Intelligenz als existenzielle Bedrohung &ndash; und gründet gleichzeitig ein KI-Unternehmen. Er warnt vor dem Untergang demokratischer Öffentlichkeiten &ndash; und kauft Twitter. Der Sechserflügel ist kein Widerspruch in sich: Er ist die Fähigkeit, die Gefahr so klar zu sehen, dass man selbst handeln muss, weil man niemandem anderen traut, es zu tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Maßlosigkeit</strong> &ndash; Gula: der unstillbare Appetit auf mehr Möglichkeiten, mehr Projekte, mehr Ideen, mehr Welt. In der sozialen Sieben richtet sich diese Maßlosigkeit nicht auf persönlichen Genuss, sondern auf das Bauen selbst. Mehr Unternehmen, mehr Raketen, mehr Follower, mehr Einfluss, mehr Schlagzeilen. Der Biber schläft nicht lange. Er hat immer noch einen Damm, der fertig werden will.</p>
+          <p class="vb-intro">Musks Arbeitstage sind legendär: Er schläft kaum, arbeitet an mehreren Projekten gleichzeitig, fordert von seinen Mitarbeitern ein Tempo, das viele an ihre Grenzen bringt. Das ist nicht Sadismus &ndash; das ist die Sieben, die nicht verstehen kann, warum andere nicht genauso brennen. Der Biber baut. Der Biber baut immer. Und wenn alle anderen schlafen, baut er trotzdem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: eine Welt in Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Elon Musk der Welt gegeben hat &ndash; unabhängig davon, was man von ihm hält &ndash; ist das Momentum. Er hat gezeigt, dass private Raumfahrt möglich ist, als niemand daran glaubte. Er hat Elektroautos massentauglich gemacht, als die gesamte Industrie noch zögerte. Er hat Satelliten-Internet in entlegene Regionen der Erde gebracht, die es sich nie hätten vorstellen können. Der Biber verändert Landschaften. Manchmal zum Besseren, manchmal auf Kosten anderer &ndash; aber er lässt nichts, wie es war.</p>
+          <p class="vb-intro">Das ist das Geschenk der SO7w6: eine Energie, die Trägheit auflöst. Nicht immer sanft, nicht immer einladend &ndash; aber unübersehbar. Der Biber fragt nicht, ob der Fluss einverstanden ist. Er baut. Ob die Welt Elon Musk braucht, ist eine offene Frage. Dass er die Welt verändert hat, ist keine.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);
@@ -33027,6 +33086,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
