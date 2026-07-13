@@ -275,6 +275,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
+    heading:"Ina Müller – Sexueller Typ 7",
+    teaser:"SX7w8 · geb. 1965. Sängerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterflügel: lebenslustig, direkt, unerschrocken – und immer nah am Menschen. Tierentsprechung: Schimpanse.",
+    tags:["Musik","Medien / TV"] },
   { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexueller Typ 7",
     teaser:"SX7w6 · geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? – 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar – und immer auf der Suche nach dem nächsten Funken. Tierentsprechung: Schimpanse.",
@@ -7889,6 +7893,61 @@ function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function inaMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-ina-mueller-portrait.jpg" alt="Ina Müller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ina Müller</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Kabarettistin &amp; Moderatorin, geb. 1965 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Ina Müller ist ein Schimpanse durch und durch. Der Schimpanse braucht den Kontakt: direkt, lebendig, unverfälscht. Er lernt nicht aus Büchern, sondern durch Begegnung. Er ist neugierig, energiegeladen, manchmal laut, manchmal zart &ndash; aber immer präsent. Und wenn er lacht, lacht der ganze Wald mit.</p>
+          <p class="vb-intro">Ina Müller hat mit <em>Inas Nacht</em> ein Format geschaffen, das in der deutschen Fernsehlandschaft einzigartig ist: keine Couch, kein Schreibtisch, keine Distanz. Eine Bar, ein Klavier, ein Gast, ein Gespräch &ndash; und eine Gastgeberin, die wirklich zuhört. Der Schimpanse sitzt nicht gegenüber. Er sitzt daneben. Und das macht den Unterschied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensität im Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensität &ndash; nicht im großen Spektakel, sondern im echten Kontakt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich vollständig auf das einzulassen, was gerade passiert, und andere dabei mitzureißen. Die SX7 ist ansteckend. Ihre Begeisterung überträgt sich nicht durch Überzeugung, sondern durch Präsenz.</p>
+          <p class="vb-intro">Ina Müller ist auf der Bühne kein Konzept &ndash; sie ist ein Erlebnis. Ob sie singt, spielt, moderiert oder einfach redet: Man hat das Gefühl, dass sie genau jetzt genau hier sein will. Das ist die SX7 in ihrer reinsten Form: nicht Planung, sondern Begegnung. Nicht Karriere, sondern Kontakt. Der Schimpanse will nicht beeindrucken. Er will berühren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Direktheit ohne Umwege</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Sieben etwas, das man bei ihr sofort spürt: Unerschrockenheit. Die reine Sieben weicht aus, wenn es unangenehm wird. Der Achterflügel hält stand. Er sagt, was er denkt. Er scheut keine Konfrontation &ndash; nicht aus Aggression, sondern aus dem tiefen Vertrauen, dass Wahrheit mehr verbindet als Höflichkeit.</p>
+          <p class="vb-intro">Ina Müller stellt unbequeme Fragen &ndash; und tut es so, dass der Gast sich nicht bedrängt fühlt, sondern gesehen. Das ist das Kunstwerk des Achterflügels in der Sieben: Direktheit, die nicht verletzt, weil sie aus echter Neugier kommt. Der Schimpanse mit Achterflügel greift nach dem anderen nicht um zu reißen, sondern um zu halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei oder auch Maßlosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der Hunger nach dem vollen Erleben, nach dem nächsten Lachen, dem nächsten Lied, dem nächsten echten Gespräch. Bei der sexuellen Sieben richtet sich dieser Hunger auf Menschen &ndash; auf die Fülle des Kontakts, auf die Tiefe des Augenblicks. Ina Müller singt, spielt, moderiert, tourt, schreibt &ndash; und hat dabei immer das Gefühl gemacht, dass sie nicht genug bekommen kann vom Leben.</p>
+          <p class="vb-intro">Das ist kein Übermaß im negativen Sinne. Es ist die SX7w8, die die Welt ganz nehmen will &ndash; und sie ganz gibt. Der Schimpanse greift nach allem, was lebt. Nicht aus Gier. Aus Liebe zum Leben selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Nähe als Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ina Müller dem deutschen Fernsehen &ndash; und der Musik &ndash; gegeben hat, ist eine Qualität, die sich nicht produzieren lässt: echte Nähe. <em>Inas Nacht</em> ist kein Format, das man kopieren kann. Es lebt von ihr. Von ihrer Bereitschaft, sich wirklich einzulassen. Von ihrem Mut, auch in der Stille zu bleiben, wenn ein Gast etwas Schweres sagt. Von ihrem Lachen, das nicht gespielt ist.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX7w8: Intensität, die trägt. Ein Schimpanse, der nicht nur spielt &ndash; sondern fühlt. Ina Müller hat nie eine Maske gebraucht. Ihr Gesicht ist ihr Programm. Und das ist das Seltenste, was es im Showgeschäft gibt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -33204,6 +33263,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
