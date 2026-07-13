@@ -315,6 +315,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
     tags:["Musik / Kunst"] },
+  { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
+    heading:"Bärbel Bas – Selbsterhaltender Typ 9",
+    teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8407,6 +8411,61 @@ function genesisPOrridgePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function baerbelBasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-baerbel-bas-portrait.jpg" alt="Bärbel Bas" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bärbel Bas</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Politikerin, Bundestagspräsidentin seit 2021, geb. 1968 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und kaum ein Bild trifft Bärbel Bas besser. Der Elefant ist kein Tier des Spektakels. Er ist kein Tier der Eitelkeit. Er ist ein Tier der Ausdauer, des Gedächtnisses und der stillen Präsenz, die man nicht übersehen kann, auch wenn man es versucht. Der Elefant braucht keinen Lärm, um zu wirken &ndash; seine bloße Anwesenheit verändert den Raum.</p>
+          <p class="vb-intro">Bärbel Bas hat genau diese Qualität. Die Bundestagspräsidentin aus Duisburg ist keine Politikerin, die mit großen Gesten auffällt. Sie ist eine, die durch Verlässlichkeit wirkt, durch Fairness, durch das beharrliche Bemühen um Ordnung in einem Haus, das zunehmend unruhiger geworden ist. Der Elefant hütet die Herde. Bärbel Bas hütet das Parlament.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Die SE9 sucht Frieden und Beharrlichkeit durch den Körper &ndash; durch Rhythmus, Routine, Vertrautheit, durch das Genießen der kleinen, sicheren Dinge des Lebens. Sie ist kein Aufsteiger und kein Revolutionär. Sie ist jemand, der seinen Platz kennt, seine Aufgabe kennt und diese Aufgabe mit ruhiger Konsequenz erfüllt.</p>
+          <p class="vb-intro">Bärbel Bas verkntöpert diese Energie in der deutschen Politik: aufgewachsen in Duisburg-Walsum als Tochter einer Arbeiterfamilie, ausgebildet zur Krankenversicherungsfachangestellten, jahrelang in der Gesundheitspolitik tätig &ndash; ohne glamouröse Karrieresprünge, ohne mediale Inszenierung. Die SE9 arbeitet. Sie arbeitet stetig, verlässlich und ohne Aufhebens &ndash; und auf einmal ist sie da, wo niemand sie erwartet hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Die Pflicht zur Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualität: ein Gefühl für Ordnung, für das Richtige, für die Form, die den Inhalt erst möglich macht. Die <strong>SE9w1</strong> ist nicht nur geduldig &ndash; sie ist auch prinzipientreu. Sie duldet keine Willkür, kein Chaos aus Bequemlichkeit, keine Ungerechtigkeit, die man einfach übersehen könnte.</p>
+          <p class="vb-intro">Als Bundestagspräsidentin hat Bärbel Bas diesen Flügel deutlich gezeigt. Sie leitet das Parlament mit ruhiger Bestimmtheit, greift durch, wenn die Grenze des Sagbaren überschritten wird, und besteht auf den Regeln des Hauses &ndash; nicht aus Pedanterie, sondern weil sie weiß, dass ohne Form keine echte Debatte möglich ist. Der Einserflügel gibt ihr den Mut zu sagen: Bis hierher und nicht weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Schutz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; aber nicht im Sinne von Faulheit. Es ist eine innere Trägheit, ein Beharren im Bestehenden, eine Tendenz, den eigenen Willen und die eigenen Bedürf nisse zu übersehen, um den Frieden nicht zu gefährden. Die Neun schläft nicht. Sie schlummert &ndash; und wartet darauf, dass der Moment kommt, in dem sie aufwacht.</p>
+          <p class="vb-intro">Bei Bärbel Bas zeigt sich die Überwindung dieser Trägheit in ihrem politischen Weg: Es hat lange gedauert, bis sie in den Vordergrund getreten ist. Jahrzehntelange stille Arbeit, bis 2021 der Schritt an die Spitze des Bundestags kam &ndash; ein Amt, das sie nicht gesucht hat, aber das sie mit einer Konsequenz ausfüllt, die zeigt, dass die Neun, wenn sie erst einmal erwacht ist, unerschütterlich sein kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die Stille, die bindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bärbel Bas in das Amt der Bundestagspräsidentin mitgebracht hat, ist etwas, das selten geworden ist: die Fähigkeit, alle gleich zu behandeln. Nicht als abstraktes Prinzip, sondern als gelebte Haltung. Sie ist nicht Parteipoliitikerin am Rednerpult &ndash; sie ist Gastgeberin des Hauses. Sie hört zu, bevor sie spricht. Sie wägt ab, bevor sie entscheidet.</p>
+          <p class="vb-intro">Das Geschenk der SE9w1 ist diese integrierende Kraft: die Fähigkeit, Menschen zusammenzuhalten, die eigentlich auseinanderdriften wollen, und dem Diskurs einen Rahmen zu geben, in dem er überhaupt stattfinden kann. Der Elefant erinnert sich an alles. Er vergisst keine Ungerechtigkeit &ndash; aber er macht nicht jeden Tag Theater darüber. Er trägt. Still, beharrlich und ohne Applaus zu brauchen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Porträt: Alfons Schuhbeck (SE9w1)"},
       ])}
     </div>
   `);
@@ -33511,6 +33570,7 @@ function render() {
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
+      "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
