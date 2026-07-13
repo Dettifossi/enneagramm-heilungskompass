@@ -10257,7 +10257,7 @@ function bracoPortraitPage() {
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
-  const allTags = ["Serienmord","Betrug","Mafia","Terror","Nahbereich","Missbrauch"];
+  const allTags = ["Serienmord","Betrug","Mafia","Terror","Nahbereich","Missbrauch","Sonstiges"];
 
   const tagLabel = {"Serienmord":"Serienmord","Betrug":"Betrug / Hochstapelei","Mafia":"Mafia / Organisiert","Terror":"Terror / Massengewalt","Nahbereich":"Beziehungs­tat","Missbrauch":"Missbrauch"};
 
@@ -10270,7 +10270,7 @@ function kriminalpsychologiePage() {
         +' data-kf-typ="'+n+'" data-kf-col="'+(col||'')+'"'
         +style+' onclick="kfSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
     };
-    const tagColors = {Serienmord:"#c0392b",Betrug:"#2563c7",Mafia:"#7c3aed",Terror:"#b45309",Nahbereich:"#15803d",Missbrauch:"#be185d"};
+    const tagColors = {Serienmord:"#c0392b",Betrug:"#2563c7",Mafia:"#7c3aed",Terror:"#b45309",Nahbereich:"#15803d",Missbrauch:"#be185d",Sonstiges:"#6b7280"};
     const tagBtn = t => {
       const col = tagColors[t]||"var(--copper)";
       return '<button class="kf-btn kf-btn--tag" data-kf-tag="'+t+'"'
@@ -10284,6 +10284,7 @@ function kriminalpsychologiePage() {
       +'<div class="kf-row"><span class="kf-label">Tatmuster</span>'
       +tagBtn("ALL")+allTags.map(tagBtn).join("")+'</div>'
       +'<div class="kf-count"><span id="kf-count-num">'+KRIMINAL_PORTRAITS.length+'</span> von '+KRIMINAL_PORTRAITS.length+' Portr\xe4ts</div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="kfRandom()">&#127922; Zuf\xe4lliges Portr\xe4t</button></div>'
       +'</div>';
   }
 
@@ -10370,6 +10371,13 @@ window.kfSet = function(dim, val) {
   if(window.kfState[dim]===val){ window.kfState[dim]= dim==="typ"?0:"ALL"; }
   else { window.kfState[dim]=val; }
   kfApply();
+};
+window.kfRandom = function() {
+  var cards = Array.prototype.slice.call(document.querySelectorAll("#kf-list .kf-card[data-route]")).filter(function(c){ return c.style.display !== "none"; });
+  if (!cards.length) return;
+  var pick = cards[Math.floor(Math.random() * cards.length)];
+  var route = pick.getAttribute("data-route");
+  if (route) go(route);
 };
 window.kfApply = function() {
   const s = window.kfState;
