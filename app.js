@@ -7204,7 +7204,7 @@ function johnLennonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so4.png" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-john-lennon-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Lennon</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
@@ -7262,7 +7262,7 @@ function romySchneiderPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so4.png" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-romy-schneider-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Romy Schneider</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
@@ -7321,7 +7321,7 @@ function clemensArvayPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se4.png" alt="Taube" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-clemens-arvay-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clemens G. Arvay</p>
         <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
@@ -7380,7 +7380,7 @@ function freddieMercuryPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx4.png" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-freddie-mercury-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Freddie Mercury</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
@@ -7438,7 +7438,7 @@ function anaDeArmasPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx4.png" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-ana-de-armas-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ana de Armas</p>
         <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
@@ -7496,7 +7496,7 @@ function christianRaetschPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se5.png" alt="Eule" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Christian Rätsch</p>
         <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererflügel</p>
@@ -7554,7 +7554,7 @@ function billGatesPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so5.png" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-bill-gates-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bill Gates</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
@@ -7612,7 +7612,7 @@ function aliceSchwarzerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx6.png" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-alice-schwarzer-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alice Schwarzer</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
@@ -7669,7 +7669,7 @@ function ankeEngelkePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx6.png" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-anke-engelke-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anke Engelke</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
@@ -7724,7 +7724,7 @@ function jasminPaoliniPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se7.png" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-jasmine-paolini-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jasmine Paolini</p>
         <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
@@ -7779,7 +7779,7 @@ function hansZimmerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se7.png" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-hans-zimmer-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans Zimmer</p>
         <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
@@ -7834,7 +7834,7 @@ function umbertEcoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se8.png" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Umberto Eco</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerflügel</p>
@@ -7945,7 +7945,7 @@ function herbertGroenomeyerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so6.png" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-herbert-groenemeyer-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Herbert Grönemeyer</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
@@ -8002,7 +8002,7 @@ function sigmundFreudPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so6.png" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-sigmund-freud-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sigmund Freud</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
@@ -8060,7 +8060,7 @@ function beatriceChebetPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se6.png" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-beatrice-chebet-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Beatrice Chebet</p>
         <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
@@ -8117,7 +8117,7 @@ function herbertKicklPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se6.png" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-herbert-kickl-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Herbert Kickl</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
@@ -8175,7 +8175,7 @@ function edwardSnowdenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx5.png" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-edward-snowden-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Edward Snowden</p>
         <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
@@ -8233,7 +8233,7 @@ function taylorSwiftPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx5.png" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-taylor-swift-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Taylor Swift</p>
         <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
@@ -8291,7 +8291,7 @@ function gertrudeElionPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so5.png" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-gertrude-elion-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gertrude Belle Elion</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
@@ -8348,7 +8348,7 @@ function peterLustigPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se5.png" alt="Eule" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-peter-lustig-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Lustig</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
@@ -8406,7 +8406,7 @@ function ladyDianaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se4.png" alt="Taube" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-lady-diana-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lady Diana</p>
         <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
@@ -8465,7 +8465,7 @@ function dieterBohlenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx3.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-dieter-bohlen-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dieter Bohlen</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
@@ -8524,7 +8524,7 @@ function kaiPflaumePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx3.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-kai-pflaume-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kai Pflaume</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
@@ -8817,7 +8817,7 @@ function janUllrichPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se2.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-jan-ullrich-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jan Ullrich</p>
         <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
@@ -8875,7 +8875,7 @@ function barackObamaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so2.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-barack-obama-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Barack Obama</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
@@ -8934,7 +8934,7 @@ function ninaChubaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so2.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-nina-chuba-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nina Chuba</p>
         <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
@@ -8993,7 +8993,7 @@ function matthiasSchweighoeferPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx2.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-matthias-schweighoefer-portrait.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Matthias Schweighöfer</p>
         <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserflügel</p>
@@ -9052,7 +9052,7 @@ function bellaThornePage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so3.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-bella-thorne-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bella Thorne</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
@@ -9111,7 +9111,7 @@ function cristianoRonaldoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-so3.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-cristiano-ronaldo-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cristiano Ronaldo</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
@@ -9170,7 +9170,7 @@ function kathrinBauerfeindPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se3.jpg" alt="Waschbär" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Waschbär" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kathrin Bauerfeind</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -9229,7 +9229,7 @@ function sadhguruPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se3.jpg" alt="Waschbär" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-sadhguru-portrait.jpg" alt="Waschbär" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sadhguru</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
@@ -9288,7 +9288,7 @@ function bracoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx2.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-braco-portrait.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Braco</p>
         <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
