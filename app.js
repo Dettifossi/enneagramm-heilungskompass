@@ -7021,7 +7021,7 @@ function beruehmtePersoenlichkeitenPage() {
       +'<div class="kf-row"><span class="kf-label">Bereich</span>'
       +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
       +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> von '+BERUEHMT_PORTRAITS.length+' Portr\xe4ts</div>'
-      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Porträt</button></div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Porträt</button></div>'
       +'</div>';
   }
 
