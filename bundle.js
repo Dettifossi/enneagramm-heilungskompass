@@ -339,6 +339,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
     tags:["Kultur"] },
+  { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", subtyp:"SX9w8",
+    heading:"Heike Makatsch – Sexueller Typ 9",
+    teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
+    tags:["Kultur"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8543,6 +8547,63 @@ function steffiGrafPortraitPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function heikeMakatschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heike-makatsch-portrait.jpg" alt="Heike Makatsch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heike Makatsch</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1971 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer dabei an Passivität denkt, versteht das Faultier falsch. Faultiere sind keine faulen Tiere. Sie sind Meister der Energieeffizienz: Sie warten, bis der richtige Moment kommt &ndash; und dann bewegen sie sich mit einer Präzision und Ausdauer, die überrascht. Ihr Gleichgewicht im Baum ist keine Schwäche. Es ist eine Form von Kontrolle, die nach innen gerichtet ist.</p>
+          <p class="vb-intro">Heike Makatsch trägt diese Qualität auf der Leinwand und dahinter. Sie ist keine Schauspielerin der großen Gesten, der bewusst platzierten Auftritte. Sie ist jemand, der wartet &ndash; auf die richtige Rolle, den richtigen Moment, den richtigen Ton &ndash; und dann vollständig eintaucht. Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Der Verstärkungstyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Union</em>: das Verlangen nach vollständiger Verschmelzung mit dem anderen Menschen, der anderen Welt, der anderen Figur. Unter den drei Neun-Subtypen ist die SX9 der <strong>Verstärkungstyp</strong>: Sie lebt ihre Neun-Themen &ndash; Verschmelzung, Selbstvergessenheit, Hingabe &ndash; nicht zurückgehalten, sondern mit maximaler Intensität. Was die selbsterhaltende Neun im Stillen tut und die soziale Neun in der Gruppe verteilt, bringt die sexuelle Neun in ein einziges, vollständiges Eintauchen &ndash; in eine Person, eine Rolle, einen Augenblick.</p>
+          <p class="vb-intro">Bei Heike Makatsch zeigt sich das in einer schauspielerischen Qualität, die Kritiker immer wieder bemerkt haben: Sie verschwindet. In <em>Aimée &amp; Jaguar</em> (1999) spielt sie Felice Schönherr, eine jüdische Frau in der NS-Zeit, die sich leidenschaftlich in eine andere Frau verliebt &ndash; eine Rolle, die totale emotionale Anwesenheit verlangt. Heike Makatsch gibt genau das. Sie ist nicht die Schauspielerin, die eine Figur spielt. Sie ist die Figur &ndash; für die Dauer des Films. Und danach kehrt sie zurück in die Stille, als wäre nichts gewesen.</p>
+          <p class="vb-intro">Dieselbe Energie zeigt sich in ihrer langen, diskreten Privatheit. Jahrelange Beziehungen, Kinder, ein Leben außerhalb des Rampenlichts &ndash; nicht weil sie sich verweigert, sondern weil die wirkliche Verschmelzung im Privaten stattfindet, nicht vor der Kamera. Die SX9 gibt ihr Intensivtestes dem, was ihr wirklich wichtig ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Kraft hinter der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verändert die sexuelle Neun grundlegend. Wo die <strong>SX9w1</strong> (wie Keanu Reeves) ruhig und prinzipientreu agiert, bringt der Achterflügel eine andere Qualität: Direktheit, Leidenschaft, eine unterschwellige Kraft, die man spürt, ohne dass sie laut wird. Die <strong>SX9w8</strong> ist keine sanfte Verschmelzerin &ndash; sie verschmilzt mit Vehemenz. Sie gibt nicht nach. Sie weicht nicht aus. Und wenn sie in eine Rolle eintaucht, nimmt sie das Ernst bis zur letzten Konsequenz.</p>
+          <p class="vb-intro">Bei Heike Makatsch ist dieser Flügel in ihrer schauspielerischen Wahl ablesbar: Sie wählt schwierige Stoffe. Historische Figuren mit moralischer Komplexität, Charaktere am Rand, Geschichten, die nicht bequem enden. Der Achterflügel gibt der Neun die Fähigkeit, sich der Dunkelheit nicht zu entziehen &ndash; und trotzdem geerdet zu bleiben. Er ist das Rückgrat hinter der Sanftheit: Man spürt, dass da jemand weiß, was er tut &ndash; auch wenn er es leise tut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; das Beharren im Strom des Anderen, das Zurückstellen des eigenen Willens zugunsten der Verbindung. Bei der sexuellen Neun nimmt diese Trägheit eine besondere Form an: Sie erscheint nicht als Passivität, sondern als vollständige Hingabe. Die SX9 <em>will</em> verschwinden &ndash; im Partner, in der Figur, im Werk. Das ist keine Flucht. Das ist ihre höchste Form von Anwesenheit.</p>
+          <p class="vb-intro">Heike Makatsch hat über Jahrzehnte hinweg eine Karriere aufgebaut, die nicht auf Selbstvermarktung basiert, sondern auf Verlässlichkeit und Tiefe. Sie ist keine Medienpersönlichkeit, die ihren Namen zu einer Marke gemacht hat. Sie ist eine Schauspielerin &ndash; und das mit einer Konsequenz, die den Achterflügel sichtbar macht: nicht laut, aber unbedingt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Vollständige Anwesenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Heike Makatsch als Schauspielerin auszeichnet, ist auch das, was die SX9w8 in echten Beziehungen anbieten kann: vollständige Anwesenheit. Kein halbes Eintauchen, kein Abstand halten, kein Sich-Schonen. Die SX9w8 gibt ihr Ganzes &ndash; und der Achterflügel sorgt dafür, dass dieses Ganze auch eine gewisse Kraft hat. Man spürt: Hier ist jemand wirklich dabei.</p>
+          <p class="vb-intro">Das Geschenk der SX9w8 ist diese Verbindung aus Tiefe und Stärke. Heike Makatsch bringt in jede Rolle etwas mit, das nicht einstudiert werden kann: die Fähigkeit, sich aufzugeben, ohne sich zu verlieren. Das Faultier hängt im Baum &ndash; ruhig, geerdet, vollkommen präsent. Es wartet nicht auf den Applaus. Es wartet auf den Moment, in dem es sich bewegen darf. Und dann &ndash; bewegt es sich ganz.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
       ])}
     </div>
   `);
@@ -33886,6 +33947,7 @@ function render() {
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
+      "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
