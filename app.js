@@ -303,6 +303,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michelle Obama – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964. Anwältin, Autorin, ehemalige First Lady der USA (2009–2017). Bestseller-Autorin (Becoming). Der Löwe, der für sein Rudel kämpft – und der weiß, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: Löwe.",
     tags:["Politik"] },
+  { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
+    heading:"Bud Spencer – Sozialer Typ 8",
+    teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
+    tags:["Schauspiel / Film"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8229,6 +8233,61 @@ function michelleObamaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-toni-morrison", label:"Porträt: Toni Morrison (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function budSpencerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-bud-spencer-portrait.jpg" alt="Bud Spencer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bud Spencer</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Schwimmer &amp; Familienvater, 1929&ndash;2016 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; und kein Bild passt besser zu Bud Spencer. Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug. Er sitzt im Schatten des Akazienbaums, ruhig und massiv, während kleinere Tiere einen großen Bogen um ihn machen &ndash; nicht aus Feindschaft, sondern aus Respekt. Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da.</p>
+          <p class="vb-intro">Bud Spencer war dieses Tier. Fast 1,90 Meter, über 120 Kilo &ndash; und dennoch war er kein Einschüchterer. Wer ihn kannte, sah den warmen Blick, das tiefe Lachen, die bedingungslose Treue zu seiner Familie und zu seinem lebenslangen Freund Terence Hill. Der Löwe schützt, ohne zu drohen. Bud Spencer schützte, ohne große Worte zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft &ndash; der Familie, der Freunde, der Schwachen. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 kämpft nicht für sich selbst, sondern für andere. Sie ist der natürliche Beschützer, die Schutzhand über denen, die kleiner sind.</p>
+          <p class="vb-intro">Carlo Pedersoli &ndash; so sein bürgerlicher Name &ndash; war Jurist, Olympia-Schwimmer, Unternehmer und Schauspieler. Aber was ihn am meisten definierte, war seine Rolle als Vater und Freund. Er heiratete 1960 Maria Amato, bekam vier Kinder, blieb ein Leben lang mit Terence Hill befreundet &ndash; 50 Jahre Filmpartnerschaft, 50 Jahre echte Freundschaft. Die SO8 wählt ihr Rudel und bleibt. Für immer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Ruhe des Riesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der sozialen Acht eine besondere Qualität: Geduld, Gelassenheit und eine fast magische Fähigkeit, große Menschen in Ruhe zu halten. Die SO8w7 ist lebhafter, impulsiver, lauter. Die <strong>SO8w9</strong> ist ruhiger &ndash; ein schlafendes Vulkan, der nur ausbricht, wenn es wirklich nötig ist.</p>
+          <p class="vb-intro">Bud Spencers Filmfiguren spiegeln das perfekt wider: Er ist immer der Ruhigere, der erst reagiert, wenn provoziert wird &ndash; und dann mit einer Wucht, die niemand erwartet hat. Sein Humor war trocken, fast lakonisch. Er sprach wenig und tat viel. Der Neunerflügel gab ihm auch die Fähigkeit, neben Terence Hills lebhaftem Sieben-Charakter zu bestehen: Das Phlegmatische des Neuners ergänzte die Quicklebendigkeit des Siebners zu einem der beliebtesten Duos der Filmgeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Schutz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> &ndash; ein Hunger nach Intensität, nach dem vollen Leben, nach dem Ungefilterten. Die soziale Acht richtet diesen Hunger auf die Gruppe: Sie will voll da sein, vollständig eingesetzt, bedingungslos loyal.</p>
+          <p class="vb-intro">Bud Spencer lebte dieses Prinzip ohne Abstriche. Er war kein halber Mensch: kein halber Schwimmer (er war Olympiateilnehmer), kein halber Vater (er war bei seinen Kindern), kein halber Freund (er war ein Freund fürs Leben). Selbst seine Filmkämpfe hatten diese Qualität: kein Stilett, keine Waffe, sondern die volle Körperkraft &ndash; direkt, ehrlich, unübersehbar. Wollust als Träger von Wahrhaftigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die Stille, die trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bud Spencer hinterlassen hat, ist eine Qualität, die selten geworden ist: die Stille des Starken. Er hat bewiesen, dass man laut sein kann, ohne zu schreien &ndash; dass Größe nicht aus lautstarkem Auftreten kommt, sondern aus dem, was man ist, wenn niemand zuschaut.</p>
+          <p class="vb-intro">Generationen von Kindern in Deutschland, Österreich und der Schweiz sind mit ihm aufgewachsen &ndash; und was sie geliebt haben, war nicht der Schauspieler, sondern den Menschen dahinter: groß, warm, zuverlässig. Den Löwen, der immer da ist. Das ist das Geschenk der SO8w9: Die Stärke, die nicht dominieren will &ndash; sondern einfach trägt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
       ])}
     </div>
   `);
@@ -33330,6 +33389,7 @@ function render() {
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
+      "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
