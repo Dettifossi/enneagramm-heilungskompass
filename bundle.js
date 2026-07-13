@@ -8440,7 +8440,7 @@ function baerbelBasPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Die SE9 sucht Frieden und Beharrlichkeit durch den Körper &ndash; durch Rhythmus, Routine, Vertrautheit, durch das Genießen der kleinen, sicheren Dinge des Lebens. Sie ist kein Aufsteiger und kein Revolutionär. Sie ist jemand, der seinen Platz kennt, seine Aufgabe kennt und diese Aufgabe mit ruhiger Konsequenz erfüllt.</p>
-          <p class="vb-intro">Bärbel Bas verkntöpert diese Energie in der deutschen Politik: aufgewachsen in Duisburg-Walsum als Tochter einer Arbeiterfamilie, ausgebildet zur Krankenversicherungsfachangestellten, jahrelang in der Gesundheitspolitik tätig &ndash; ohne glamouröse Karrieresprünge, ohne mediale Inszenierung. Die SE9 arbeitet. Sie arbeitet stetig, verlässlich und ohne Aufhebens &ndash; und auf einmal ist sie da, wo niemand sie erwartet hatte.</p>
+          <p class="vb-intro">Bärbel Bas verkörpert diese Energie in der deutschen Politik: aufgewachsen in Duisburg-Walsum als Tochter einer Arbeiterfamilie, ausgebildet zur Krankenversicherungsfachangestellten, jahrelang in der Gesundheitspolitik tätig &ndash; ohne glamouröse Karrieresprünge, ohne mediale Inszenierung. Die SE9 arbeitet. Sie arbeitet stetig, verlässlich und ohne Aufhebens &ndash; und auf einmal ist sie da, wo niemand sie erwartet hatte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Die Pflicht zur Form</h2>
@@ -8451,7 +8451,7 @@ function baerbelBasPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Schutz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; aber nicht im Sinne von Faulheit. Es ist eine innere Trägheit, ein Beharren im Bestehenden, eine Tendenz, den eigenen Willen und die eigenen Bedürf nisse zu übersehen, um den Frieden nicht zu gefährden. Die Neun schläft nicht. Sie schlummert &ndash; und wartet darauf, dass der Moment kommt, in dem sie aufwacht.</p>
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; aber nicht im Sinne von Faulheit. Es ist eine innere Trägheit, ein Beharren im Bestehenden, eine Tendenz, den eigenen Willen und die eigenen Bedürfnisse zu übersehen, um den Frieden nicht zu gefährden. Die Neun schläft nicht. Sie schlummert &ndash; und wartet darauf, dass der Moment kommt, in dem sie aufwacht.</p>
           <p class="vb-intro">Bei Bärbel Bas zeigt sich die Überwindung dieser Trägheit in ihrem politischen Weg: Es hat lange gedauert, bis sie in den Vordergrund getreten ist. Jahrzehntelange stille Arbeit, bis 2021 der Schritt an die Spitze des Bundestags kam &ndash; ein Amt, das sie nicht gesucht hat, aber das sie mit einer Konsequenz ausfüllt, die zeigt, dass die Neun, wenn sie erst einmal erwacht ist, unerschütterlich sein kann.</p>
         </blockquote>
 
