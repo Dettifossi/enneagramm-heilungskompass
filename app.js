@@ -7848,7 +7848,7 @@ function elonMuskPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und kein Tier der Welt beschreibt Elon Musk treffender. Der Biber baut. Nicht weil er muss. Nicht weil man ihn bittet. Sondern weil Bauen sein Wesen ist. Er fällt Bäume, staut Flüsse auf, erschafft Teiche, wo keiner war, verändert ganze Landschaften &ndash; und fängt am nächsten Morgen von vorne an. Was er hinterlässt, verändert Ökosysteme, schafft neuen Lebensraum, macht aus Wüste Feuchtgebiet.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und kein Tier der Welt beschreibt Elon Musk treffender. Der Biber baut. Nicht weil er muss. Nicht weil man ihn bittet. Sondern weil Bauen sein Wesen ist. Er fällt Bäume, staut Flüsse auf, erschafft Teiche, wo keine waren, verändert ganze Landschaften &ndash; und fängt am nächsten Morgen von vorne an. Was er hinterlässt, verändert Ökosysteme, schafft neuen Lebensraum, macht aus Wüste Feuchtgebiet.</p>
           <p class="vb-intro">Elon Musk hat in weniger als dreißig Jahren PayPal mitgegründet, SpaceX aus dem Nichts aufgebaut, Tesla vor dem Bankrott gerettet, Starlink ins All geschossen, X (ehemals Twitter) übernommen und nebenbei einen Flammenwerferhersteller namens The Boring Company auf die Welt losgelassen. Der Biber macht keine halben Sachen. Er baut und baut &ndash; und sucht sich das nächste Hindernis, das es zu stauen gilt.</p>
         </blockquote>
 
@@ -7866,8 +7866,8 @@ function elonMuskPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Motor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Maßlosigkeit</strong> &ndash; Gula: der unstillbare Appetit auf mehr Möglichkeiten, mehr Projekte, mehr Ideen, mehr Welt. In der sozialen Sieben richtet sich diese Maßlosigkeit nicht auf persönlichen Genuss, sondern auf das Bauen selbst. Mehr Unternehmen, mehr Raketen, mehr Follower, mehr Einfluss, mehr Schlagzeilen. Der Biber schläft nicht lange. Er hat immer noch einen Damm, der fertig werden will.</p>
-          <p class="vb-intro">Musks Arbeitstage sind legendär: Er schläft kaum, arbeitet an mehreren Projekten gleichzeitig, fordert von seinen Mitarbeitern ein Tempo, das viele an ihre Grenzen bringt. Das ist nicht Sadismus &ndash; das ist die Sieben, die nicht verstehen kann, warum andere nicht genauso brennen. Der Biber baut. Der Biber baut immer. Und wenn alle anderen schlafen, baut er trotzdem.</p>
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der unstillbare Appetit auf mehr Möglichkeiten, mehr Projekte, mehr Ideen, mehr Welt. In der sozialen Sieben richtet sich diese Maßlosigkeit nicht auf persönlichen Genuss, sondern auf das Bauen selbst. Mehr Unternehmen, mehr Raketen, mehr Follower, mehr Einfluss, mehr Schlagzeilen. Der Biber schläft nicht lange. Er hat immer noch einen Damm, der fertig werden will.</p>
+          <p class="vb-intro">Musks Arbeitstage sind legendär: Er schläft kaum, arbeitet an mehreren Projekten gleichzeitig, fordert von seinen Mitarbeitern ein Tempo, das viele an ihre Grenzen bringt. Das ist kein Sadismus &ndash; das ist die Sieben, die nicht verstehen kann, warum andere nicht genauso brennen. Der Biber baut. Der Biber baut immer. Und wenn alle anderen schlafen, baut er trotzdem.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Geschenk: eine Welt in Bewegung</h2>
