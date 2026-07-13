@@ -1061,6 +1061,7 @@ function startPage() {
         <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
+            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" onclick="go('tierquiz')" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
               <span class="start-path__test-label">Diagnose-Test</span>
               <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
@@ -2489,6 +2490,185 @@ function zitatePage() {
     </section>
   `);
 }
+
+
+// ─── Welches-Tier-Quiz ───────────────────────────────────────────────────────
+window._tqState = null;
+
+const _TQ_TIERE = {
+  SE1:"Adler",SO1:"Gans",SX1:"Schwarze Mamba",
+  SE2:"Flusspferd",SO2:"Golden Retriever",SX2:"Kamel",
+  SE3:"Waschb\xe4r",SO3:"Gepard",SX3:"Pfau",
+  SE4:"Taube",SO4:"G\xfcrteltier",SX4:"Chihuahua",
+  SE5:"Eule",SO5:"Oktopus",SX5:"Igel",
+  SE6:"Kaninchen",SO6:"Erdm\xe4nnchen",SX6:"Wolf",
+  SE7:"Gorilla",SO7:"Biber",SX7:"Schimpanse",
+  SE8:"Orang-Utan",SO8:"L\xf6we",SX8:"Krokodil",
+  SE9:"Elefant",SO9:"B\xfcffel",SX9:"Faultier"
+};
+const _TQ_EMOJI = {
+  SE1:"🦅",SO1:"🪷",SX1:"🐍",
+  SE2:"🦛",SO2:"🐕",SX2:"🐪",
+  SE3:"🦝",SO3:"🐆",SX3:"🦚",
+  SE4:"🕊️",SO4:"🦔",SX4:"🐕",
+  SE5:"🦉",SO5:"🐙",SX5:"🦔",
+  SE6:"🐇",SO6:"🦦",SX6:"🐺",
+  SE7:"🦍",SO7:"🪸",SX7:"🐒",
+  SE8:"🦧",SO8:"🦁",SX8:"🐊",
+  SE9:"🐘",SO9:"🐃",SX9:"🦥"
+};
+const _TQ_BESCHR = {
+  SE1:"Der Adler fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Ruhig, präzise, mit einem inneren Kompass, der nicht schweigt.",
+  SO1:"Die Gans fliegt in Formation und sorgt dafür, dass alle Regeln stimmen. Gerecht, prinzipientreu, mit einem ausgeprägten Sinn für das Richtige.",
+  SX1:"Die Schwarze Mamba handelt schnell und präzise – sie duldet keine Kompromisse bei dem, was ihr wichtig ist. Leidenschaftlich und exakt zugleich.",
+  SE2:"Das Flusspferd ist wärmer als es aussieht – ruhig, gründend, zutiefst fürsorglich für den engen Kreis um es herum. Es braucht Vertrauen, bevor es sich zeigt.",
+  SO2:"Der Golden Retriever liebt unbedingt – und möchte, dass alle glücklich sind. Er ist der geborene Verbinder, immer bereit zu helfen.",
+  SX2:"Das Kamel trägt, was andere nicht tragen würden – es gibt alles für den, dem es sich verbunden fühlt. Ausdauernd, treu, manchmal erschöpft.",
+  SE3:"Der Waschbär ist clever, anpassungsfähig und immer auf der Suche nach dem, was funktioniert. Pragmatisch und charmant, leise und effektiv.",
+  SO3:"Der Gepard ist schnell, brillant und auf Erfolg ausgerichtet – mit einer natürlichen Eleganz im Umgang mit anderen. Er ist gern vorne.",
+  SX3:"Der Pfau weiß, wie er wirkt – und er setzt das bewusst ein. Charismatisch, intensiv, mit einem Sinn für das Besondere.",
+  SE4:"Die Taube trägt ihre Sehnsucht still – sie sucht Tiefe im Stillen und empfindet intensiver als sie zeigt. Sanft und verletzlich zugleich.",
+  SO4:"Das Gürteltier trägt seinen Schmerz als Schutz – außen hart, innen empfindsam. Es sucht Zugehörigkeit und kämpft still um seinen Platz.",
+  SX4:"Der Chihuahua ist klein und macht trotzdem auf sich aufmerksam – leidenschaftlich, intensiv, von tiefer Gefühlstiefe getrieben.",
+  SE5:"Die Eule beobachtet alles, bevor sie sich bewegt – sie denkt, analysiert und braucht Raum. Klug und zurückgezogen, mit einem inneren Reichtum an Wissen.",
+  SO5:"Der Oktopus ist das intelligenteste wirbellose Tier der Erde – er denkt in Systemen, vernetzt still und agiert mit erstaunlicher Präzision.",
+  SX5:"Der Igel schützt sich mit Stacheln und öffnet sich nur, wenn er vertraut. Intensiv in der Tiefe, aber nach außen kaum greifbar.",
+  SE6:"Das Kaninchen ist wachsam, liebenswert und braucht sichere Strukturen. Es ist loyal zu denen, denen es vertraut – und vorsichtig gegenüber dem Unbekannten.",
+  SO6:"Das Erdmännchen hält Wache für die Gruppe – alert, kooperativ, immer darauf bedacht, dass alle sicher sind. Verlässlichkeit ist sein Lebensprinzip.",
+  SX6:"Der Wolf ist intensiv loyal – aber er prüft zuerst, ob er wirklich vertrauen kann. Stark in der Verbindung, mutig wenn er sich sicher fühlt.",
+  SE7:"Der Gorilla ist stärker als er aussieht – verspielt, neugierig und voller Energie, wenn er seine Welt erkundet. Er genießt das Leben mit allen Sinnen.",
+  SO7:"Der Biber baut, plant und gestaltet – er bringt seine Ideen in die Welt und liebt es, wenn alle davon profitieren. Pragmatisch und voller Ideen.",
+  SX7:"Der Schimpanse ist sozial, improvisationsfreudig und lebt im Moment – mit einer Intensität, die ansteckend ist. Er braucht Freiheit und Verbindung zugleich.",
+  SE8:"Der Orang-Utan ist mächtig und unabhängig – er braucht niemanden, der ihm sagt, was er tun soll. In seinem Tempo, auf seinem Weg.",
+  SO8:"Der Löwe führt und schützt – mit Kraft, Präsenz und dem natürlichen Anspruch, Verantwortung zu übernehmen. Er ist für seine Gruppe da.",
+  SX8:"Das Krokodil ist still bis es handelt – und dann mit voller Kraft. Intensiv in der Verbindung, unerbittlich in der Verfolgung seiner Ziele.",
+  SE9:"Der Elefant vergisst nicht und bewegt sich in seinem eigenen Rhythmus – ruhig, gründend, mit einer Präsenz, die den Raum verändert.",
+  SO9:"Der Büffel läuft mit der Herde – beharrlich, verlässlich, mit einer stillen Kraft, die andere erst im Rückblick bemerken.",
+  SX9:"Das Faultier spart Energie für das, was wirklich zählt – und wenn es sich verbindet, tut es das vollständig. Stille als Stärke."
+};
+
+function _tqBtn(label, sub, onclick) {
+  return '<button onclick="'+onclick+'" style="width:100%;text-align:left;padding:1rem 1.2rem;margin-bottom:0.7rem;background:var(--ivory);border:1.5px solid var(--border);border-radius:10px;cursor:pointer;font-family:inherit;transition:border-color .15s,box-shadow .15s;" onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 10px rgba(0,0,0,.08)\'" onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
+    +'<div style="font-size:1rem;font-weight:600;color:var(--ink);margin-bottom:0.15rem;">'+label+'</div>'
+    +'<div style="font-size:0.85rem;color:var(--muted);">'+sub+'</div>'
+    +'</button>';
+}
+
+function _tqProgress(step) {
+  const steps = ["Instinkt","Zentrum","Typ"];
+  return '<div style="display:flex;gap:0.5rem;margin-bottom:1.5rem;">'
+    +steps.map((s,i) => '<div style="flex:1;height:4px;border-radius:2px;background:'+(i<step?'var(--gold)':'var(--border)')+'"></div>').join("")
+    +'</div><p style="font-size:0.8rem;color:var(--muted);margin-bottom:1rem;">Frage '+(step)+' von 3</p>';
+}
+
+function tierquizPage() {
+  const s = window._tqState;
+  if (!s) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("Welches Tier bin ich?")}
+        <div class="typentest-wrap">
+          <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
+            <div style="font-size:3.5rem;margin-bottom:1rem;letter-spacing:0.2rem;">&#129413;&#128025;&#129445;</div>
+            <p class="eyebrow">Kostenloses Kurzquiz</p>
+            <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
+            <p class="typentest-intro">3 kurze Fragen – und du erfährst, welches der 27 Enneagramm-Tiere am ehesten zu dir passt.</p>
+            <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kostenlos &middot; kein Konto nötig</p>
+            <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+  if (s.step === 1) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("Welches Tier bin ich?")}
+        <div class="typentest-wrap"><div class="typentest-card">
+          ${_tqProgress(1)}
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">An einem freien Wochenende zieht es mich am ehesten…</h2>
+          ${_tqBtn("… in meine gewohnte Welt", "Zuhause, Routinen, mein eigener Raum – ich brauche Zeit für mich.", "window._tqA('SE')")}
+          ${_tqBtn("… zu Menschen", "Eine Gruppe, ein Event, gemeinsame Aktivitäten – das gibt mir Energie.", "window._tqA('SO')")}
+          ${_tqBtn("… zu einer bestimmten Person", "Tiefe, intensive Verbindung mit jemandem, dem ich nahestehe.", "window._tqA('SX')")}
+        </div></div>
+      </div>
+    `);
+  }
+  if (s.step === 2) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("Welches Tier bin ich?")}
+        <div class="typentest-wrap"><div class="typentest-card">
+          ${_tqProgress(2)}
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Welcher Satz trifft auf dich am ehesten zu?</h2>
+          ${_tqBtn("„Ich will die Dinge in die Hand nehmen, stark sein und Kontrolle behalten."", "Stärke, Qualität, Frieden oder klare Ordnung sind mir wichtig.", "window._tqA('gut')")}
+          ${_tqBtn("„Ich will echte Verbindung, gesehen werden und wirklich dazugehören."", "Beziehungen, Anerkennung und Tiefe sind für mich zentral.", "window._tqA('heart')")}
+          ${_tqBtn("„Ich will verstehen, sicher sein und meine Optionen offenhalten."", "Wissen, Orientierung und Freiheit des Denkens sind mir wichtig.", "window._tqA('head')")}
+        </div></div>
+      </div>
+    `);
+  }
+  if (s.step === 3) {
+    const qMap = {
+      gut:  [["Ich stehe für mich ein und scheue keine direkte Konfrontation.","Stärke und Selbstbestimmung sind mein Grundmodus.","8"],
+              ["Ich suche inneren Frieden und vermeide Konflikte, wo es geht.","Harmonie und Ruhe sind das, wonach ich mich sehne.","9"],
+              ["Ich habe hohe innere Maßstäbe und möchte Dinge wirklich richtig machen.","Qualität und Prinzipientreue liegen mir tief im Blut.","1"]],
+      heart:[["Für Menschen, die mir wichtig sind, gebe ich alles – oft mehr als für mich selbst.","Fürsorge und Nähe sind mein natürlicher Ausdruck.","2"],
+              ["Ich möchte etwas leisten und einen kompetenten, guten Eindruck machen.","Erfolg und Anerkennung motivieren mich.","3"],
+              ["Ich suche das Echte und Tiefe – Oberflächlichkeit langweilt mich schnell.","Sehnsucht nach dem Besonderen und nach echtem Verständnis.","4"]],
+      head: [["Ich beobachte lieber, bevor ich handle, und brauche viel eigenen Raum.","Wissen und Rückzug geben mir Kraft.","5"],
+              ["Ich frage mich oft, ob ich vertrauen kann und ob ich der Situation gewachsen bin.","Sicherheit und Loyalität sind für mich existenziell.","6"],
+              ["Ich mag Abwechslung, neue Ideen und will mich nicht festlegen müssen.","Freiheit und Möglichkeiten halten mich lebendig.","7"]]
+    };
+    const opts = qMap[s.center] || qMap.gut;
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("Welches Tier bin ich?")}
+        <div class="typentest-wrap"><div class="typentest-card">
+          ${_tqProgress(3)}
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Und welcher Satz beschreibt dich am treffendsten?</h2>
+          ${opts.map(o => _tqBtn('„'+o[0]+'“', o[1], "window._tqA('"+o[2]+"')")).join("")}
+        </div></div>
+      </div>
+    `);
+  }
+  // Result
+  const code = s.inst + s.type;
+  const tier  = _TQ_TIERE[code] || "Unbekannt";
+  const emoji = _TQ_EMOJI[code] || "🤔";
+  const beschr = _TQ_BESCHR[code] || "";
+  const subtypRoute = "subtype/" + code.toLowerCase();
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Welches Tier bin ich?")}
+      <div class="typentest-wrap">
+        <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
+          <div style="font-size:5rem;margin-bottom:0.5rem;">${emoji}</div>
+          <p class="eyebrow" style="margin-bottom:0.3rem;">Dein Enneagramm-Tier</p>
+          <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
+          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${code} &ndash; ${s.inst === "SE" ? "Selbsterhaltend" : s.inst === "SO" ? "Sozial" : "Sexuell"} &middot; Typ ${s.type}</p>
+          <p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin-bottom:1.8rem;text-align:left;">${beschr}</p>
+          <button class="typentest-start-btn" onclick="go('${subtypRoute}')" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
+          <br>
+          <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.5rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" onclick="event.preventDefault();go('diagnosetest')" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
+window._tqStart = function() { window._tqState = {step:1,inst:"",center:"",type:""}; go("tierquiz"); };
+window._tqA = function(val) {
+  const s = window._tqState;
+  if (!s) return;
+  if (s.step === 1) { s.inst = val; s.step = 2; }
+  else if (s.step === 2) { s.center = val; s.step = 3; }
+  else if (s.step === 3) { s.type = val; s.step = 4; }
+  go("tierquiz");
+};
+window._tqReset = function() { window._tqState = null; go("tierquiz"); };
+// ─── Ende Welches-Tier-Quiz ──────────────────────────────────────────────────
 
 function quizPage() {
   if (!_quizState) return quizIntroScreen();
@@ -34150,6 +34330,7 @@ function render() {
     "portrait-typ-8": portraitTyp8Page,
     "portrait-typ-9": portraitTyp9Page,
     suche: suchePage,
+    tierquiz: tierquizPage,
     quiz: quizPage,
     zitate: zitatePage,
     "gaslighting-enneagramm": gaslightingPage,
@@ -34199,7 +34380,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "tierquiz" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
