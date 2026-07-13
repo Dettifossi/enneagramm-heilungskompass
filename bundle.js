@@ -2599,7 +2599,7 @@ function tierquizPage() {
             <div style="font-size:3.5rem;margin-bottom:1rem;letter-spacing:0.2rem;">&#129413;&#128025;&#129445;</div>
             <p class="eyebrow">Kostenloses Kurzquiz</p>
             <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
-            <p class="typentest-intro">3 kurze Fragen – und du erfährst, welches der 27 Enneagramm-Tiere am ehesten zu dir passt.</p>
+            <p class="typentest-intro">3 kurze Fragen – und Sie erfahren, welches der 27 Enneagramm-Tiere am ehesten zu Ihnen passt.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
               <strong>Kurzer Hinweis, bevor Sie starten:</strong> Kein Test kann beweisen, wer Sie wirklich sind – denn Sie bewerten sich selbst, und wir alle haben blinde Flecken für unsere eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nehmen Sie das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
             </div>
@@ -4455,7 +4455,7 @@ function typentestPage() {
         <div class="typentest-card">
           <p class="eyebrow">Struktureller Enneagrammtypentest · für Anfänger</p>
           <h1 class="typentest-titel">Den Code deiner Persönlichkeit entschlüsseln</h1>
-          <p class="typentest-intro">Dieser Test führt dich in drei Schritten zu einem ersten Hinweis auf deinen Enneagrammtyp und Instinktschwerpunkt. Er dauert etwa 7&ndash;10 Minuten.</p>
+          <p class="typentest-intro">Dieser Test führt Sie in drei Schritten zu einem ersten Hinweis auf Ihren Enneagrammtyp und Instinktschwerpunkt. Er dauert etwa 7&ndash;10 Minuten.</p>
           <div class="typentest-hinweis">
             <strong>Wichtiger Hinweis, bevor Sie starten:</strong> Kein Test kann Ihren Typ wirklich beweisen – denn Sie füllen ihn selbst aus, und wir alle sind für unsere eigenen psychologischen und seelischen Anteile oft blind. Das Ergebnis ist daher immer nur eine <em>Annäherung</em>: Es macht Sie mit den Fragestellungen des Enneagramms vertraut und gibt einen ersten Orientierungshinweis. Je umfangreicher ein Test, desto näher kommt er einer möglichen Typenbestimmung – aber auch dieser Test ersetzt keine persönliche Begleitung oder Typisierungsberatung. Gehen Sie offen und neugierig in die Fragen – ohne den Anspruch, sofort die endgültige Antwort zu finden.
           </div>
@@ -4482,7 +4482,7 @@ function typentestPage() {
         <div class="typentest-card">
           <p class="eyebrow">Schritt 1 von 3 · Triade</p>
           <h2 class="typentest-titel">Bauch, Herz oder Kopf?</h2>
-          <p class="typentest-intro">Lies die drei Blöcke aufmerksam. Welcher beschreibt dich am besten &ndash; nicht wie du sein möchtest, sondern wie du <em>wirklich</em> bist?</p>
+          <p class="typentest-intro">Lesen Sie die drei Blöcke aufmerksam. Welcher beschreibt Sie am besten &ndash; nicht wie Sie sein möchten, sondern wie Sie <em>wirklich</em> sind?</p>
           <div class="typentest-triad-grid">
             ${triaden.map(([key, t]) => `
               <button class="typentest-triad-card" data-tt-triad="${key}">
@@ -4514,7 +4514,7 @@ function typentestPage() {
           <p class="eyebrow">Schritt 2 von 3 · Frage ${qi + 1} von ${total}</p>
           <div class="typentest-progress"><div class="typentest-progress__bar" style="width:${pct}%"></div></div>
           <h2 class="typentest-frage">${frage.frage}</h2>
-          <p class="typentest-intro">Wähle die Aussage, die am ehesten zutrifft &ndash; nicht die ideale, sondern die ehrlichste.</p>
+          <p class="typentest-intro">Wählen Sie die Aussage, die am ehesten zutrifft &ndash; nicht die ideale, sondern die ehrlichste.</p>
           <div class="typentest-antworten">
             ${frage.antworten.map((a, i) => `
               <button class="typentest-antwort" data-tt-antwort="${a.typ}" data-tt-qi="${qi}">
@@ -4537,7 +4537,7 @@ function typentestPage() {
         <div class="typentest-card">
           <p class="eyebrow">Schritt 3 von 3 · Instinkt</p>
           <h2 class="typentest-titel">Dein Instinktschwerpunkt</h2>
-          <p class="typentest-intro">Jeder Mensch trägt alle drei Instinkte in sich &ndash; aber einer dominiert. Welche Beschreibung trifft am ehesten auf dich zu?</p>
+          <p class="typentest-intro">Jeder Mensch trägt alle drei Instinkte in sich &ndash; aber einer dominiert. Welche Beschreibung trifft am ehesten auf Sie zu?</p>
           <div class="typentest-antworten">
             ${INSTINKTE.map(inst => `
               <button class="typentest-antwort" data-tt-instinkt="${inst.code}">
@@ -4573,7 +4573,7 @@ function typentestPage() {
       ${navBar()}
       <div class="typentest-wrap">
         <div class="typentest-card typentest-card--result">
-          <p class="eyebrow">Dein Tipp-Typ</p>
+          <p class="eyebrow">Ihr Tipp-Typ</p>
           <div class="typentest-result-badge" style="border-color:${typColor};color:${typColor}">
             Typ ${typNum} · ${instCode}
           </div>
