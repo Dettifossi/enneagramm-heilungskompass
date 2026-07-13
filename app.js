@@ -32734,7 +32734,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
@@ -32749,7 +32749,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden"]);
     if (REAL_SOUNDS.has(id)) {
       if (!audioCtx) return;
       let cancelled = false;
@@ -34043,11 +34043,11 @@ function _stilleInit() {
     eule:        "Eule in der Nacht: sanftes Hu-Huuuu in der Stille — mit Nachtgrillen im Hintergrund. Tiefenentspannt, mystisch, perfekt zum Einschlafen.",
     wolf:        "Wölfe in der Ferne: langes, freies Heulen mit Windhauch — erzeugt ein tiefes Gefühl von Wildnis, Freiheit und Verbundenheit mit der Natur.",
     seehund:     "Seehundbabys: klagende, zitternde Rufe junger Seehunde auf dem Ozean — tief berührend, wie ein Ruf nach Geborgenheit. Im Hintergrund: sanftes Meeresrauschen.",
-    herzschlag:  "Reiner Herzschlag: ein ruhiger, tiefer Herzrhythmus (~65 BPM) — vermittelt Urvertrauen und tiefe Sicherheit.",
-    regenwald:   "Tropischer Regenwald: dichtes Regenrauschen auf Blättern, Tropfen, Zikaden-Chor und gelegentliche exotische Vogelrufe — versetzt Sie sofort in üppige, grüne Stille.",
-    nachtmeer:   "Meer bei Nacht: tiefe, langsame Wellen unter dem Sternenhimmel — mit entfernten Nacht-Grillen. Perfekt zum Einschlafen.",
-    tropfen:     "Tropfsteinhöhle: einzelne Wassertropfen fallen in stille Tiefe, jeder mit langem, echendem Nachhall — einer der ruhigsten Klänge der Welt.",
-    zikaden:     "Zikaden-Nacht: der vielstimmige Chor von Zikaden in einer warmen Sommernacht — mit gelegentlichen Ruhepausen. Mediterrane Nostalgie.",
+    herzschlag:  "Echter Herzschlag: mit einem DIY-Stethoskop aufgenommen — ruhiger, tiefer Herzrhythmus. Vermittelt Urvertrauen und tiefe Sicherheit.",
+    regenwald:   "Echter Regenwald: natürliche Aufnahme — dichtes Regenrauschen auf Blättern, tropische Vogelrufe, Zikaden. Versetzt Sie sofort in üppige, grüne Stille.",
+    nachtmeer:   "Echtes Meeresrauschen: Zen-Ozeanwellen, sanft und gleichmäßig — tiefe, rhythmische Wellen. Perfekt zum Einschlafen.",
+    tropfen:     "Echte Tropfsteinhöhle: Originalaufnahme von tropfendem Wasser in einer Höhle — jeder Tropfen mit langem, hallenden Nachhall. Einer der ruhigsten Klänge der Welt.",
+    zikaden:     "Echte Zikaden-Nacht: Feldaufnahme von Grillen um Mitternacht — vielstimmiger Chor in warmer Sommernacht. Mediterrane Nostalgie.",
     hz432:       "432 Hz — der 'Herzton der Natur': ein sanfter, leicht schwebender Reinton. Manche Menschen empfinden diese Frequenz als harmonischer und beruhigender als der übliche 440-Hz-Standard.",
     schumann:    "Schumann-Resonanz 7.83 Hz: die Eigenfrequenz der Erde zwischen Erdoberfläche und Ionosphäre. Als Amplituden-Pulsation spürbar gemacht — soll Gehirnwellen synchronisieren und Erholung fördern.",
     klangschale: "Tibetische Klangschale: tiefe Anschläge (~220 Hz Grundton + natürliche Obertöne) mit langem, schimmerndem Nachklang — dazwischen ein leises Reibedrone. Klassische Klangmeditation.",
