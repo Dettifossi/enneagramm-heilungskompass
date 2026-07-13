@@ -174,7 +174,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
     heading:"Sadhguru – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
-    tags:["Spiritualität"] },
+    tags:["Sonstiges"] },
   { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
@@ -202,7 +202,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
-    tags:["Natur"] },
+    tags:["Wissenschaft"] },
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
@@ -226,7 +226,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
-    tags:["Medien","Bildung"] },
+    tags:["Medien","Wissenschaft"] },
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -234,11 +234,11 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
     heading:"Claudio Naranjo – Sozialer Typ 5",
     teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
-    tags:["Wissen / Lehre"] },
+    tags:["Wissenschaft"] },
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
-    tags:["Wirtschaft","Macht"] },
+    tags:["Wirtschaft"] },
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
@@ -246,7 +246,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-edward-snowden", name:"Edward Snowden", subtyp:"SX5w6",
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
-    tags:["Politik","Recht"] },
+    tags:["Politik"] },
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -258,7 +258,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
-    tags:["Wissenschaft","Psychologie"] },
+    tags:["Wissenschaft"] },
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
@@ -266,11 +266,11 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
-    tags:["Journalismus","Politik"] },
+    tags:["Medien","Politik"] },
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
-    tags:["Medien / TV","Kunst"] },
+    tags:["Medien","Kunst"] },
   { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
     heading:"Jasmine Paolini – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
@@ -282,19 +282,19 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
-    tags:["Wirtschaft / Unternehmertum","Wissenschaft"] },
+    tags:["Wirtschaft","Wissenschaft"] },
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
-    tags:["Schauspiel / Film","Musik"] },
+    tags:["Schauspiel","Musik"] },
   { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexueller Typ 7",
     teaser:"SX7w6 · geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? – 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar – und immer auf der Suche nach dem nächsten Funken. Tierentsprechung: Schimpanse.",
-    tags:["Schauspiel / Film","Medien / TV"] },
+    tags:["Schauspiel","Medien"] },
   { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexueller Typ 7",
     teaser:"SX7w8 · geb. 1965. Sängerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterflügel: lebenslustig, direkt, unerschrocken – und immer nah am Menschen. Tierentsprechung: Schimpanse.",
-    tags:["Musik","Medien / TV"] },
+    tags:["Musik","Medien"] },
   { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
@@ -310,7 +310,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
-    tags:["Schauspiel / Film"] },
+    tags:["Schauspiel"] },
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
@@ -318,7 +318,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
-    tags:["Musik / Kunst"] },
+    tags:["Musik","Kunst"] },
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
@@ -338,11 +338,11 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
-    tags:["Kultur"] },
+    tags:["Schauspiel"] },
   { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
-    tags:["Kultur"] },
+    tags:["Schauspiel"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -7021,6 +7021,7 @@ function beruehmtePersoenlichkeitenPage() {
       +'<div class="kf-row"><span class="kf-label">Bereich</span>'
       +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
       +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> von '+BERUEHMT_PORTRAITS.length+' Portr\xe4ts</div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Porträt</button></div>'
       +'</div>';
   }
 
@@ -7114,6 +7115,13 @@ window.bpSet = function(dim, val) {
   if(window.bpState[dim]===val){ window.bpState[dim]= dim==="typ"?0:"ALL"; }
   else { window.bpState[dim]=val; }
   bpApply();
+};
+window.bpRandom = function() {
+  var cards = Array.prototype.slice.call(document.querySelectorAll("#bp-list .kf-card[data-route]")).filter(function(c){ return c.style.display !== "none"; });
+  if (!cards.length) return;
+  var pick = cards[Math.floor(Math.random() * cards.length)];
+  var route = pick.getAttribute("data-route");
+  if (route) go(route);
 };
 window.bpApply = function() {
   const s = window.bpState;
