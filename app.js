@@ -32484,6 +32484,7 @@ function stillePage() {
             {id:"savanne",    icon:"🦋",  label:"Savanne"},
             {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
+            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -32736,7 +32737,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
@@ -32751,7 +32752,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert"]);
     if (REAL_SOUNDS.has(id)) {
       if (!audioCtx) return;
       let cancelled = false;
@@ -33931,35 +33932,7 @@ function _stilleInit() {
       gDrn.gain.linearRampToValueAtTime(0.06,ctx.currentTime+4);
       oDrn.connect(gDrn); gDrn.connect(master); oDrn.start(); nodes.push(oDrn,gDrn);
 
-    } else if (id === "om") {
-      master.gain.setValueAtTime(0.0001, ctx.currentTime);
-      master.gain.linearRampToValueAtTime(0.15, ctx.currentTime+4);
-      // Om-Drone: tiefe Vokalformanten
-      const omPartials = [
-        {freq:110, amp:0.5},
-        {freq:220, amp:0.3},
-        {freq:330, amp:0.15},
-        {freq:440, amp:0.08},
-        {freq:550, amp:0.05},
-      ];
-      omPartials.forEach(p => {
-        const o6=ctx.createOscillator(); const g6=ctx.createGain();
-        o6.type="sine"; o6.frequency.value=p.freq;
-        // Langsame Frequenz-Modulation (Tremolo der Stimme)
-        const vibr=ctx.createOscillator(); const vibrG=ctx.createGain();
-        vibr.frequency.value=4.5+Math.random(); vibrG.gain.value=p.freq*0.005;
-        vibr.connect(vibrG); vibrG.connect(o6.frequency);
-        g6.gain.value=p.amp;
-        o6.connect(g6); g6.connect(master);
-        o6.start(); vibr.start(); nodes.push(o6,g6,vibr,vibrG);
-      });
-      // Formant-Pulsation (für "m" vs "o" Wechsel)
-      const filtOm=ctx.createBiquadFilter(); filtOm.type="bandpass"; filtOm.frequency.value=400; filtOm.Q.value=3;
-      const lfoOm=ctx.createOscillator(); const lfoOmG=ctx.createGain();
-      lfoOm.frequency.value=0.08; lfoOmG.gain.value=200;
-      lfoOm.connect(lfoOmG); lfoOmG.connect(filtOm.frequency); lfoOm.start(); nodes.push(filtOm,lfoOm,lfoOmG);
 
-    } // end om
 
     klangStop = () => {
       stopped = true;
@@ -34009,7 +33982,8 @@ function _stilleInit() {
     zikaden:     ["Sommernacht", "Nostalgie", "Einschlafen"],
     hz432:       ["Frequenz-Heilung", "Zellharmonisierung", "Meditation"],
     schumann:    ["Erdfrequenz", "Neurobalance", "Tiefenentspannung"],
-    om:          ["Mantren-Meditation", "Tiefste Stille", "Verbundenheit"],
+    om:          ["Mantren-Meditation", "Urklang", "Tiefe Meditation"],
+    morgenkonzert: ["Neubeginn", "Lebensfreude", "Frische"],
     savanne:     ["Wildnis", "Weite", "Erdung"],
     unterwasser: ["Tiefste Stille", "Schwerelosigkeit", "Loslassen"],
     klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
@@ -34054,7 +34028,8 @@ function _stilleInit() {
     zikaden:     "Echte Zikaden-Nacht: Feldaufnahme von Grillen um Mitternacht — vielstimmiger Chor in warmer Sommernacht. Mediterrane Nostalgie.",
     hz432:       "432 Hz — der 'Herzton der Natur': ein sanfter, leicht schwebender Reinton. Manche Menschen empfinden diese Frequenz als harmonischer und beruhigender als der übliche 440-Hz-Standard.",
     schumann:    "Schumann-Resonanz 7.83 Hz: die Eigenfrequenz der Erde zwischen Erdoberfläche und Ionosphäre. Als Amplituden-Pulsation spürbar gemacht — soll Gehirnwellen synchronisieren und Erholung fördern.",
-    om:          "Om-Mantra-Drone: das uralte Urklang-Mantra als mehrschichtiger Vokalklang — Grundton 110 Hz mit Obertönen, leichtem Vibrato und einer langsamen Formant-Pulsation zwischen 'O' und 'M'.",
+    om:          "Echtes Om: eine reine, gehaltene Om-Stimme — der Urklang aus echter Stimmaufnahme, loopbar. Ideal für Mantren-Meditation.",
+    morgenkonzert: "Morgenkonzert der Vögel (Dawn Chorus): aufgenommen um 4 Uhr morgens — Rotkehlchen, Stieglitz und Singdrossel in vollem Gesang. Einer der schönsten Klänge der Natur.",
     savanne:     "Afrikanische Savanne bei Nacht: echte Feldaufnahme um Mitternacht im Masai Mara, Kenia — Grillen, Froschquaken, Wind. Eine der eindrucksvollsten Naturkulissen der Welt.",
     unterwasser: "Unterwasser-Ambience: echte Hydrofonaufnahmen, überlagert mit gefiltertem Rauschen — tiefes Blubbern, gedämpfte Stille. Vermittelt vollständige Abgeschlossenheit und Schwerelosigkeit.",
     klangschale: "Echte Tibetische Klangschalen: Originalaufnahme mehrerer Klangschalen — tiefes Anschlagen mit langem, schimmerndem Nachklang. Klassische Klangmeditation.",
