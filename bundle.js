@@ -307,6 +307,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
     tags:["Schauspiel / Film"] },
+  { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
+    heading:"Donald J. Trump – Sexueller Typ 8",
+    teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8287,6 +8291,62 @@ function budSpencerPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function donaldTrumpPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-donald-trump-portrait.jpg" alt="Donald J. Trump" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Donald J. Trump</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, 45. &amp; 47. US-Präsident, geb. 1946 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; und kaum ein Bild trifft Donald Trump besser. Das Krokodil ist das älteste Raubtier der Erde: geduldig im Warten, blitzschnell im Zugriff, unbeeindruckt von Kritik und überaus schwer zu bezwingen. Es zieht andere an – und wer zu nah kommt, merkt: Das war keine Einladung zur Freundschaft.</p>
+          <p class="vb-intro">Trump hat genau diese Qualität. Er dominiert Räume, zieht Kameras an, ist nie neutral – immer provokant, immer laut, immer im Zentrum. Jahrzehntelang war er Medienthema, bevor er Politiker wurde. Er hat die Regeln des öffentlichen Auftretens nicht gebrochen – er hat sie neu geschrieben, so wie das Krokodil die Regeln im Wasser setzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitzergreifung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> ist nach Naranjo der Subtyp, den er <em>Besitzergreifung</em> nannte &ndash; auf Englisch <em>Possession</em>. Die sexuelle Acht will nicht schlichter Sieger sein, sie will alles: die volle Aufmerksamkeit, die bedingungslose Loyalität, den totalen Eindruck. Die SX8 ist leidenschaftlich, intensiv und immer auf der Suche nach der nächsten Herausforderung, die groß genug ist, um sie wirklich zu füllen.</p>
+          <p class="vb-intro">Trumps Leben liest sich wie eine SX8-Biografie: Immobilienimperium, Casinobetörieb, Fernsehshow (<em>The Apprentice</em>), Präsidentschaft, erneute Präsidentschaft. Kein Stillstand, kein Rückzug, keine ruhige Größe. Immer der nächste Deal, die nächste Eskalation, das nächste Projekt, das größer ist als das letzte. Die SX8 hört nicht auf, weil sie nicht aufhören kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Die Lust am Spiel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sexuellen Acht eine besondere Energie: Leichtigkeit, Humor, Risikobereitschaft und eine gewisse Spielfreude, die die rohe Kraft des Acht-Kerns aufhellt. Die SX8w7 ist nicht nur Angreifer &ndash; sie ist auch Entertainer. Sie weiß, wie man ein Publikum hält. Sie schleudert Einzeiler, dreht die Wahrheit so, dass sie wie Show wirkt, und geniesst das Spektakel des Streits.</p>
+          <p class="vb-intro">Trump ist kein Politiker im klassischen Sinn &ndash; er ist eine Figur. Seine Rallyes sind Auftritte, seine Interviews sind Ringkämpfe, seine Tweets waren Performances. Der Siebenerflügel gibt ihm die Energie, das alles zu genießen. Ihm ist nicht unwohl dabei. Er liebt es. Das unterscheidet die SX8w7 von der rein destruktiven Kraft: Es macht ihr Spaß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Intensität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heisst <strong>Wollust</strong> – aber nicht im engeren Sinn. Es ist ein Hunger nach dem Ganzen, nach Intensität, nach dem ungefilterten Leben. Die sexuelle Acht richtet diesen Hunger auf eine Person, auf ein Projekt, auf eine Vision. Und sie duldet keine Halbberzigkeiten.</p>
+          <p class="vb-intro">Bei Trump zeigt sich das in seiner Beziehung zur Marke Trump selbst: Er hat nicht einfach Geschäfte gemacht – er hat <em>Trump</em> zur Marke gemacht, zu einem Versprechen für Größe, Luxus und Sieg. Der Name auf den Hochhäusern, die Goldfarbe, der Superlativ als Standardmäßig: alles Ausdruck einer Leidenschaft, die nicht unterscheiden kann zwischen sich selbst und dem, was sie besitzt. Das ist SX8 in Reinform.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Mut zum Unmöglichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was die SX8w7 in ihrer besten Version verkörpert, ist echter Mut: die Fähigkeit, gegen jede Erwartung anzutreten, keine Niederlage als endgültig zu akzeptieren und in einem Spiel mitzuspielen, das alle anderen für verloren halten. Trump hat zweimal das Präsidentenamt errungen – das zweite Mal nach einer Niederlage, zwei Amtsenthebungsverfahren und mehreren Strafprozessen. Das ist keine Kleinigkeit.</p>
+          <p class="vb-intro">Das Geschenk der SX8w7 ist diese Unerschrockenheit: die Weigerung, klein beizugeben, die Energie, die aus dem Kampf selbst entsteht, und die Bereitschaft, sich zu zeigen – komplett und unverhüllt, mit allen Widersprüchen. Das Krokodil taucht nicht unter. Es bleibt an der Oberfläche. Sichtbar, unbeweglich, immer bereit.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
       ])}
     </div>
@@ -33390,6 +33450,7 @@ function render() {
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
+      "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
