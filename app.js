@@ -33733,7 +33733,6 @@ function _stilleInit() {
         }, delay);
       }
       seehundRuf(2500 + Math.random() * 3000);
-    }
 
     } else if (id === "herzschlag") {
       master.gain.setValueAtTime(0.22, ctx.currentTime);
@@ -33957,6 +33956,8 @@ function _stilleInit() {
       const lfoOm=ctx.createOscillator(); const lfoOmG=ctx.createGain();
       lfoOm.frequency.value=0.08; lfoOmG.gain.value=200;
       lfoOm.connect(lfoOmG); lfoOmG.connect(filtOm.frequency); lfoOm.start(); nodes.push(filtOm,lfoOm,lfoOmG);
+
+    } // end om
 
     klangStop = () => {
       stopped = true;
