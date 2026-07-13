@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-12-v296";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-13-v297";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -505,8 +505,9 @@ function nav(active) {
       const searchBox = isSchaubilder
         ? `<div class="nav-dropdown__search-wrap"><input class="nav-dropdown__search" type="text" placeholder="Schaubild suchen …" autocomplete="off" /></div>`
         : "";
+      const isMultiline = label.includes("<br>");
       return `<div class="nav-dropdown-wrap${isActive ? " is-active" : ""}${isSchaubilder ? " nav-dropdown-wrap--searchable" : ""}">
-        <button class="nav-dropdown__trigger${isActive ? " is-active" : ""}${locked ? " nav-locked" : ""}"
+        <button class="nav-dropdown__trigger${isActive ? " is-active" : ""}${locked ? " nav-locked" : ""}${isMultiline ? " nav-dropdown__trigger--multiline" : ""}"
           data-dropdown-toggle aria-haspopup="true"
         >${label} <span class="nav-dropdown__arrow">▾</span>${locked ? `<span class="nav-lock-icon" aria-hidden="true">🔒</span>` : ""}</button>
         <div class="nav-dropdown__menu">${searchBox}${subItems}</div>
@@ -8699,7 +8700,7 @@ function leonardoDiCaprioPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx1.jpg" alt="Schwarze Mamba" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-leonardo-dicaprio-portrait.jpg" alt="Leonardo DiCaprio" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Leonardo DiCaprio</p>
         <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
@@ -8757,7 +8758,7 @@ function gretaThunbergPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se2.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Greta Thunberg</p>
         <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>

@@ -4320,6 +4320,7 @@ button.primary:hover::after {
 /* --- Nav Dropdown --- */
 .nav-dropdown-wrap { position: static; display: inline-flex; }
 .nav-dropdown__trigger { white-space: nowrap; }
+.nav-dropdown__trigger--multiline { white-space: normal; text-align: center; line-height: 1.25; }
 .nav-dropdown__arrow { font-size: 0.7em; margin-left: 2px; transition: transform 0.2s; display: inline-block; }
 .nav-dropdown-wrap.is-open .nav-dropdown__arrow { transform: rotate(180deg); }
 .nav-dropdown__menu {
