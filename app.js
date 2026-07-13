@@ -231,6 +231,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
+    heading:"Claudio Naranjo – Sozialer Typ 5",
+    teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm-Lehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
+    tags:["Wissen / Lehre"] },
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
@@ -8871,6 +8875,68 @@ function taylorSwiftPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function claudioNaranjoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Claudio Naranjo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Claudio Naranjo</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Psychiater, Autor &amp; Enneagramm-Lehrer, 1932&ndash;2019 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; und kaum ein Bild trifft Claudio Naranjo präziser. Der Oktopus ist das intelligenteste Wirbellose der Erde: ein Wesen mit neun Gehirnen, das gleichzeitig in acht verschiedene Richtungen denken kann. Er lebt in der Tiefe, wo das Licht nicht mehr hinreicht &ndash; und dort findet er, was anderen verborgen bleibt. Er ist kein Tier der Oberfläche. Er ist ein Tier des Grundes.</p>
+          <p class="vb-intro">Claudio Naranjo war dieser Oktopus. Ein chilenischer Psychiater, der in den 1970er Jahren begann, das Enneagramm systematisch zu erforschen &ndash; und der daraus ein Werk entwickelte, das bis heute keine wirkliche Äquivalenz hat. Die neun Typen, die siebenundzwanzig Subtypen, die Charakterleidenschaften, die Heilungswege &ndash; alles, was heute als modernes Enneagramm-Wissen gilt, geht im Kern auf seine Arbeit zurück. Der Oktopus hat getan, was Oktopusse tun: Er hat die Tiefe erkundet. Und er hat mitgebracht, was er dort fand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Totem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> nannte Naranjo selbst <em>Totem</em>: Das Wissen als Schutzgeist der Gemeinschaft, als lebendiges Erbe, das weitergegeben werden will. Während die selbsterhaltende Fünf ihr Wissen hütet und die sexuelle Fünf es als Brücke zum Einzelnen nutzt, richtet die SO5 ihr Wissen auf die Welt. Sie möchte, dass das, was sie weiß, weiterläuft &ndash; dass es anderen nützt, dass es in Menschen übergeht, die es tragen und mehren.</p>
+          <p class="vb-intro">Naranjo hat diesen Impuls ein Leben lang gelebt. Seine SAT-Kurse &ndash; Seekers After Truth &ndash; wurden zu einem weltweiten Netzwerk der Selbsterkenntnisarbeit. Er lehrte in Spanien, in Mexiko, in Chile, in den USA. Er schrieb Bücher, die übersetzt wurden. Er bildete Lehrer aus, die wieder Lehrer ausbildeten. Der Oktopus der SO5 streckt seine Arme aus &ndash; nicht um zu halten, sondern um zu übergeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Tiefe hinter dem Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel</strong> verleiht der sozialen Fünf eine Qualität, die reine Wissensvermittlung überschreitet: emotionale Tiefe, künstlerische Sensibilität und ein Bewusstsein für das, was im Inneren des Menschen wirklich vorgeht. Die <strong>SO5w4</strong> weiß nicht nur &ndash; sie fühlt auch. Und sie weiß, dass Wissen ohne diese Fähigkeit leer bleibt.</p>
+          <p class="vb-intro">Naranjo war musisch veranlagt auf eine Weise, die viele überraschte. Er komponierte, er liebte Musik als Weg zur Seele &ndash; nicht als Hintergrundkulisse, sondern als Erkenntnisquelle. Diesen Zug hat der Viererflügel: das Gefühl, dass bestimmte Wahrheiten sich nicht in Sätzen sagen lassen, sondern nur in der Form, im Klang, im Bild. Sein Werk hat diese Tiefe &ndash; es ist nicht nur Systematik, sondern gelebte Menschenkunde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Die siebenundzwanzig Gesichter des Menschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Naranjo der Welt gegeben hat, lässt sich in einer Zahl zusammenfassen: <strong>27</strong>. Neun Typen, drei Instinkte, siebenundzwanzig Subtypen &ndash; ein System, das jeden Menschen präziser beschreibt, als jedes andere Persönlichkeitsmodell es vermag. Wo andere Systeme an der Oberfläche bleiben, geht das Subtypen-Enneagramm in die Tiefe des Charakters, der Leidenschaften, der unbewussten Muster. Es ist kein Schubladensystem. Es ist ein Spiegel.</p>
+          <p class="vb-intro">Naranjo hat dieses System nicht erfunden &ndash; aber er hat es aus dem Dunkel geholt, es systematisiert, beschrieben und lehrbar gemacht. Auf der Grundlage von Oscar Ichazo, Fritz Perls und seiner eigenen jahrzehntelangen therapeutischen Praxis hat er ein Werk geschaffen, das nach seinem Tod 2019 weiterlebt &ndash; in Tausenden von Lehrern, Büchern, Kursen und Menschen, die sich in ihm erkannt haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Lehrer: Großzügigkeit des Wissenden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo war, trotz seines Weltruhms, kein Mensch, der sich hinter seiner Bekanntheit versteckte. Wer ihm mit echter Neugier begegnete &ndash; mit einer Frage, die wirklich eine Frage war und nicht nur Bewunderung &ndash; der bekam eine Antwort, die es wert war. Er war ein Lehrer im alten Sinn: jemand, der nicht nur Wissen weitergibt, sondern auch das Denken selbst.</p>
+          <p class="vb-intro">So entstand auch ein Austausch mit dem Autor dieses Kompasses: Im Zuge des Buchs <em>Wer Du wirklich bist</em> (2015) &ndash; dem ersten deutschsprachigen Buch, das die 27 Subtypen umfassend darstellte &ndash; kam es zu einem Kontakt über E-Mail und später Skype. Naranjo las, kommentierte, gab Rückm eldungen zu den Schaubildern berühmter Komponisten im Buch &ndash; er, der selbst musisch war, hatte dafür ein besonderes Gespür. Und als das Gespräch auf Homöopathie kam &ndash; auf die Frage, welche Mittel zu welchen Subtypen passen &ndash; reagierte er sofort mit einer Gegenfrage: Er sprach von den einundfünfzig Opiumderivaten, die sein Lehrer klassifiziert hatte. Zwei Wissende, die aneinander tasteten, jeder vom anderen Feld fasziniert. Das ist das Bild einer SO5w4 in echter Begegnung: nicht Belehrung, sondern echtes Staunen darüber, was der andere weiß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Das Licht, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo ist 2019 mit 87 Jahren gestorben &ndash; in einem Alter, das einem Leben Raum gegeben hat, das wirklich zu Ende gedacht wurde. Er hat gesehen, was er in die Welt gesetzt hat. Er hat Menschen erlebt, die sein Werk trugen, es übersetzten, es weiterführten. Er hatte die seltene Erfahrung, das Wachsen des eigenen Erbes noch mitzuerleben &ndash; und dabei ruhig zu bleiben.</p>
+          <p class="vb-intro">Das Geschenk der SO5w4 ist dieses Licht: das Wissen, das nicht stirbt, weil es weitergegeben wurde. Der Oktopus ist vergangen &ndash; aber die neun Gehirne, die er in die Welt gesetzt hat, denken weiter. In jedem Menschen, der sich durch das Subtypen-Enneagramm selbst besser versteht. In jedem Lehrer, der sein Werk trägt. Und in diesem Kompass.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+        {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
       ])}
     </div>
   `);
@@ -33638,6 +33704,7 @@ function render() {
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
+      "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
