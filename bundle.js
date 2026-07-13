@@ -267,8 +267,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
     tags:["Medien / TV","Kunst"] },
-  { route:"beruehmte-jasmin-paolini", name:"Jasmin Paolini", subtyp:"SE7w6",
-    heading:"Jasmin Paolini – Selbsterhaltender Typ 7",
+  { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
+    heading:"Jasmine Paolini – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
     tags:["Sport"] },
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
@@ -7726,7 +7726,7 @@ function jasminPaoliniPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-se7.png" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Jasmin Paolini</p>
+        <p class="krim-portrait-name">Jasmine Paolini</p>
         <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Tennisspielerin, geb. 1996 &ndash; Tierentsprechung: Gorilla</p>
       </div>
@@ -7735,13 +7735,13 @@ function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er überrascht, weil man ihn auf den ersten Blick nicht mit Leichtigkeit verbindet. Der Gorilla ist mächtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, schützt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine Stärke ist keine Aggression. Sie ist Verlässlichkeit.</p>
-          <p class="vb-intro">Jasmin Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unermüdlich. Abseits davon: warm, lachend, familiär. Sie feiert Siege mit einer Offenheit, die ansteckt, und trägt Niederlagen mit einer Würde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er lächelt, leuchtet der ganze Wald.</p>
+          <p class="vb-intro">Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unermüdlich. Abseits davon: warm, lachend, familiär. Sie feiert Siege mit einer Offenheit, die ansteckt, und trägt Niederlagen mit einer Würde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er lächelt, leuchtet der ganze Wald.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Heimat</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Maßlosigkeit der Sieben durch Wärme und Gemeinschaft ausdrückt. Naranjo nannte ihn <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest &ndash; einen Kreis aus Menschen, Ritualen, Freuden, der ihr Sicherheit gibt. Nicht durch Kontrolle wie die Acht, nicht durch Regeln wie die Eins &ndash; sondern durch Verbindung und Geborgenheit.</p>
-          <p class="vb-intro">Bei Jasmin Paolini sieht man das in jedem Turnier: ihr Team, ihr Lachen mit dem Trainer, ihre Ausbrüche echter Freude nach gewonnenen Punkten. Sie wirkt nie wie jemand, der Tennis spielt, um Ruhm zu ernten. Sie wirkt wie jemand, der Tennis liebt &ndash; und dieses Lieben mit allen teilt, die gerade zusehen.</p>
+          <p class="vb-intro">Bei Jasmine Paolini sieht man das in jedem Turnier: ihr Team, ihr Lachen mit dem Trainer, ihre Ausbrüche echter Freude nach gewonnenen Punkten. Sie wirkt nie wie jemand, der Tennis spielt, um Ruhm zu ernten. Sie wirkt wie jemand, der Tennis liebt &ndash; und dieses Lieben mit allen teilt, die gerade zusehen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Loyalität als Fundament</h2>
@@ -7758,8 +7758,8 @@ function jasminPaoliniPortraitPage() {
 
         <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Jasmin Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren lässt: echte Freude. Nicht das Lächeln einer Marke, nicht die kalkulierte Zugänglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standhält. Nicht die flüchtige Begeisterung, die beim ersten Rückschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu überstehen. Wer Jasmin Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unerschütterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
+          <p class="vb-intro">Was Jasmine Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren lässt: echte Freude. Nicht das Lächeln einer Marke, nicht die kalkulierte Zugänglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standhält. Nicht die flüchtige Begeisterung, die beim ersten Rückschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu überstehen. Wer Jasmine Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unerschütterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
         </blockquote>
 
       </div>
@@ -7821,7 +7821,7 @@ function hansZimmerPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
+        {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmine Paolini (SE7w6)"},
       ])}
     </div>
   `);
