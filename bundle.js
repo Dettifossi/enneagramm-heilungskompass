@@ -32480,8 +32480,10 @@ function stillePage() {
             {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
             {id:"hz432",      icon:"🎵",  label:"432 Hz"},
             {id:"schumann",   icon:"🌀",  label:"Schumann"},
-            {id:"klangschale",icon:"🔔",  label:"Klangschale"},
             {id:"om",         icon:"🧘",  label:"Om-Mantra"},
+            {id:"savanne",    icon:"🦋",  label:"Savanne"},
+            {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
+            {id:"klangschale",icon:"🔔",  label:"Klangschale"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -32734,7 +32736,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
@@ -32749,7 +32751,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale"]);
     if (REAL_SOUNDS.has(id)) {
       if (!audioCtx) return;
       let cancelled = false;
@@ -34007,8 +34009,10 @@ function _stilleInit() {
     zikaden:     ["Sommernacht", "Nostalgie", "Einschlafen"],
     hz432:       ["Frequenz-Heilung", "Zellharmonisierung", "Meditation"],
     schumann:    ["Erdfrequenz", "Neurobalance", "Tiefenentspannung"],
-    klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
     om:          ["Mantren-Meditation", "Tiefste Stille", "Verbundenheit"],
+    savanne:     ["Wildnis", "Weite", "Erdung"],
+    unterwasser: ["Tiefste Stille", "Schwerelosigkeit", "Loslassen"],
+    klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
   };
   const KLANG_INFO = {
     stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
@@ -34050,8 +34054,10 @@ function _stilleInit() {
     zikaden:     "Echte Zikaden-Nacht: Feldaufnahme von Grillen um Mitternacht — vielstimmiger Chor in warmer Sommernacht. Mediterrane Nostalgie.",
     hz432:       "432 Hz — der 'Herzton der Natur': ein sanfter, leicht schwebender Reinton. Manche Menschen empfinden diese Frequenz als harmonischer und beruhigender als der übliche 440-Hz-Standard.",
     schumann:    "Schumann-Resonanz 7.83 Hz: die Eigenfrequenz der Erde zwischen Erdoberfläche und Ionosphäre. Als Amplituden-Pulsation spürbar gemacht — soll Gehirnwellen synchronisieren und Erholung fördern.",
-    klangschale: "Tibetische Klangschale: tiefe Anschläge (~220 Hz Grundton + natürliche Obertöne) mit langem, schimmerndem Nachklang — dazwischen ein leises Reibedrone. Klassische Klangmeditation.",
     om:          "Om-Mantra-Drone: das uralte Urklang-Mantra als mehrschichtiger Vokalklang — Grundton 110 Hz mit Obertönen, leichtem Vibrato und einer langsamen Formant-Pulsation zwischen 'O' und 'M'.",
+    savanne:     "Afrikanische Savanne bei Nacht: echte Feldaufnahme um Mitternacht im Masai Mara, Kenia — Grillen, Froschquaken, Wind. Eine der eindrucksvollsten Naturkulissen der Welt.",
+    unterwasser: "Unterwasser-Ambience: echte Hydrofonaufnahmen, überlagert mit gefiltertem Rauschen — tiefes Blubbern, gedämpfte Stille. Vermittelt vollständige Abgeschlossenheit und Schwerelosigkeit.",
+    klangschale: "Echte Tibetische Klangschalen: Originalaufnahme mehrerer Klangschalen — tiefes Anschlagen mit langem, schimmerndem Nachklang. Klassische Klangmeditation.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
