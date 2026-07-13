@@ -2604,6 +2604,8 @@ function tierquizPage() {
               <strong>Kurzer Hinweis, bevor Sie starten:</strong> Kein Test kann beweisen, wer Sie wirklich sind – denn Sie bewerten sich selbst, und wir alle haben blinde Flecken für unsere eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nehmen Sie das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
             </div>
             <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kostenlos &middot; kein Konto nötig</p>
+            ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+            ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
             <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
           </div>
         </div>
@@ -4295,6 +4297,7 @@ function typentestMotivationalPage() {
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Dauer: ca. 20&ndash;30 Minuten</li>
             <li style="padding:0.35rem 0;">&#8226; Empfehlung: Ruhige Atmosphäre, ehrliche Antworten</li>
           </ul>
+          ${bookTip("motivationaler-enneagramm-typentest", "Das Buch zum Test – motivationale Hintergründe, Auswertungshilfen und vertiefende Erläuterungen zu allen 9 Typen.", "Motivationaler Enneagramm-Typentest")}
           <button class="typentest-start-btn" data-motiv-start>Test starten &#8594;</button>
         </div>
       </div>
@@ -4439,6 +4442,8 @@ function typentestPage() {
             <div class="typentest-step"><span class="typentest-step__num">2</span><span>Typ innerhalb der Triade</span></div>
             <div class="typentest-step"><span class="typentest-step__num">3</span><span>Instinktschwerpunkt</span></div>
           </div>
+          ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           <button class="primary" id="tt-start">Test starten →</button>
           <button class="ghost-link" data-route="dashboard">← Zurück</button>
         </div>
@@ -4732,6 +4737,7 @@ function diagnosetestPage() {
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Die Reihenfolge ist zufällig &ndash; kein Typ wird vorab benannt</li>
             <li style="padding:0.35rem 0;">&#8226; Dauer: ca. 10&ndash;15 Minuten</li>
           </ul>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           <button class="typentest-start-btn" data-diag-start>Test starten &#8594;</button>
         </div>
       </div>
