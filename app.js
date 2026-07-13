@@ -275,6 +275,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
+    heading:"Thomas Gottschalk – Sexueller Typ 7",
+    teaser:"SX7w6 · geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? – 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar – und immer auf der Suche nach dem nächsten Funken. Tierentsprechung: Schimpanse.",
+    tags:["Schauspiel / Film","Medien / TV"] },
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
@@ -7885,6 +7889,61 @@ function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasGottschalkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-thomas-gottschalk-portrait.jpg" alt="Thomas Gottschalk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas Gottschalk</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Moderator, Entertainer &amp; Schauspieler, geb. 1950 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und kein Bild passt besser auf Thomas Gottschalk. Der Schimpanse ist das lebendigste, neugierigste, unberechenbarste der Menschenaffen. Er braucht Stimulation: Kontakt, Spiel, Überraschung, Verbindung. Er lernt durch Nachahmung, durch Interaktion, durch den direkten Kontakt mit dem anderen. In Gefangenschaft verkümmert er &ndash; nicht weil er krank wird, sondern weil ihm fehlt, was er am meisten braucht: den Funken des Augenblicks.</p>
+          <p class="vb-intro">Thomas Gottschalk hat 23 Jahre lang vor einem Millionenpublikum moderiert &ndash; und dabei nie gewirkt, als würde er eine Rolle spielen. Er war immer er selbst: sprunghaft, charmant, direkt, manchmal überraschend, manchmal unbequem, immer lebendig. Der Schimpanse ist nicht programmierbar. Er reagiert auf das, was gerade passiert. Und genau das macht ihn zum faszinierendsten Tier im Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Enthusiasmus als Funken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der Subtyp der Sieben, bei dem die Energie nicht nach innen (SE7) oder in die Gesellschaft (SO7) geht, sondern direkt in den Kontakt: in die andere Person, in den Moment, in die Verbindung. Naranjo nannte diesen Subtyp <em>Suggestibility</em> &ndash; Begeisterungsfähigkeit, die sich überträgt. Die SX7 steckt andere an. Nicht mit einer Botschaft, sondern mit ihrer bloßen Energie.</p>
+          <p class="vb-intro">Thomas Gottschalk war nie eine Marke. Er war eine Energie. Die Zuschauer schalteten <em>Wetten, dass..?</em> nicht wegen der Wetten ein. Sie schalteten ein, weil sie wissen wollten, was passiert, wenn Gottschalk auf der Bühne ist &ndash; was er sagen würde, was ihn begeistern würde, womit er diesmal überrascht. Das ist die SX7: nicht das Format zieht an, sondern der Mensch. Nicht das Konzept, sondern der Funke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue und Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sexuellen Sieben eine Qualität, die nicht sofort sichtbar ist: Treue. Der Sechserflügel sucht Zugehörigkeit, Verlässlichkeit, das Gefühl, dazuzugehören. In Kombination mit der SX7 entsteht jemand, der gleichzeitig absolut freigeistig und tief loyal ist &ndash; gegenüber Menschen, Werten, Gewohnheiten.</p>
+          <p class="vb-intro">Gottschalk hat <em>Wetten, dass..?</em> nicht verlassen, weil er genug hatte. Er hat die Sendung nach dem Unfall von Samuel Koch 2010 aus einem Gefühl der Verantwortung heraus zunächst pausiert &ndash; und ist 2021 auf ausdrücklichen Wunsch des ZDF zurückgekehrt. Der Sechserflügel erklärt, warum ein Mann wie er über Jahrzehnte demselben Format treu geblieben ist: nicht Pflicht, sondern Loyalität. Der Schimpanse bleibt im Rudel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei oder auch Maßlosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der unstillbare Hunger nach Erfahrung, Kontakt, Erlebnis. In der sexuellen Sieben ist dieser Hunger auf den Moment gerichtet &ndash; auf den nächsten Funken, die nächste Verbindung, die nächste Überraschung. Gottschalk hat in Interviews erzählt, dass er nie ein Ziel verfolgt hat. Er ist von Chance zu Chance gegangen, von Begegnung zu Begegnung &ndash; und hat jedesmal das Beste daraus gemacht.</p>
+          <p class="vb-intro">Das ist kein Getriebensein. Das ist der Schimpanse, der im Moment lebt &ndash; weil der Moment das einzige ist, was wirklich zählt. Der nächste Gast, das nächste Lachen, der nächste unerwartete Satz. Der Schimpanse braucht kein Ziel. Er braucht Bewegung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: die Bühne als lebendiger Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Thomas Gottschalk dem deutschen Fernsehen gegeben hat, ist schwer zu ersetzen: die Erfahrung, dass eine Sendung atmet. Dass nicht das Skript trägt, sondern der Mensch. Dass das Publikum nicht zuschaut, sondern miterlebt. 212 Ausgaben <em>Wetten, dass..?</em>, Jahrzehnte im Radio, Film, Buch &ndash; und immer derselbe Grundton: Hier ist jemand, dem das gerade wirklich Spaß macht. Das Publikum spürt das. Und lacht mit.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX7w6: Begeisterung, die sich überträgt. Ein Schimpanse, der tanzt &ndash; und dabei jeden im Raum mitreißt, ohne auch nur einen einzigen davon zu fragen, ob er tanzen möchte. Thomas Gottschalk hat nie geplant, ein Phänomen zu werden. Er hat einfach immer weitergemacht. Das ist die sexuelle Sieben. Das ist der Schimpanse.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-hazel-brugger", label:"Porträt: Hazel Brugger (SO7w8)"},
       ])}
     </div>
   `);
@@ -33145,6 +33204,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
