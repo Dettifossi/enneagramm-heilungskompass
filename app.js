@@ -4286,6 +4286,9 @@ function typentestMotivationalPage() {
           <p class="eyebrow">Motivationaler Enneagrammtypentest · für Fortgeschrittene</p>
           <h1 class="typentest-titel">Den tieferen Antrieb erkennen</h1>
           <p class="typentest-intro">Dieser Test fragt nach Ihren Motivationen, nicht nach Ihrem Verhalten. Wählen Sie bei jeder der 100 Fragen die zwei Aussagen, die am ehesten auf Sie zutreffen.</p>
+          <div class="typentest-hinweis" style="margin-bottom:1.2rem;">
+            <strong>Wichtiger Hinweis, bevor Sie starten:</strong> Auch dieser Test – so ausführlich er ist – kann Ihren Typ nicht beweisen. Sie bewerten sich selbst, und wir alle sind für unsere eigenen psychologischen und seelischen Anteile oft blind. Eine Falschtypisierung kann mehr schaden als nützen: Wer mit dem falschen Typ durch die Welt geht, interpretiert sich und andere durch eine verzerrte Linse. Nehmen Sie das Ergebnis deshalb als erste Orientierung – nicht als endgültige Wahrheit. Erst wenn ein Typ sich über längere Zeit von innen heraus stimmig anfühlt, darf man ihm trauen.
+          </div>
           <ul class="typentest-hinweis" style="list-style:none;padding:0;margin:1.2rem 0;">
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; 100 Fragen aus verschiedenen Lebensbereichen</li>
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Je Frage: 1.&nbsp;Wahl (am wichtigsten) + 2.&nbsp;Wahl (zweitwichtigsten)</li>
