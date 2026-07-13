@@ -315,6 +315,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
     tags:["Musik / Kunst"] },
+  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
+    heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
+    tags:["Politik"] },
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
@@ -8411,6 +8415,61 @@ function genesisPOrridgePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function hansDietrichGenscherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Außenminister &amp; Vizekanzler 1974&ndash;1992, 1927&ndash;2016 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und Hans-Dietrich Genscher war dieser Elefant. Das Tier mit dem längsten Gedächtnis der Natur, das Tier, das nie aufhört zu lernen, das Tier, das sich an jeden Weg, jede Wasserstelle, jeden Verbündeten und jeden Verrat erinnert. Und das dabei ruhig bleibt. Immer ruhig. Auch wenn es längst weiß, was gespielt wird.</p>
+          <p class="vb-intro">18 Jahre außenpolitisches Gewicht, 23 Jahre als bestimmende Kraft der deutschen Diplomatie: Genscher war der längstdienende Außenminister der Bundesrepublik. Wer in diesen Jahrzehnten mit Deutschland verhandeln wollte, verhandelte mit ihm &ndash; in Bonn, Genf, New York, Moskau. Der Elefant behält seine Ruhe. Er behält den Überblick. Und er bewegt sich langsam &ndash; aber er hört nie auf, sich vorwärts zu bewegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden durch Beharrlichkeit, durch das Einleben in das, was ist, durch die Fähigkeit, im Bestehenden Sicherheit zu finden &ndash; ohne große Gerichtsrede, ohne Showdown. Die SE9 arbeitet durch Kontinuität. Ihr Instrument ist die Ausdauer &ndash; nicht der Coup.</p>
+          <p class="vb-intro">Genschers politische Karriere ist das Musterbeispiel dieser Kontinuität: 1969 Innenminister, 1974 Außenminister und Vizekanzler, 1992 Rücktritt &ndash; nach 23 Jahren im Amt. Dazwischen: die Begleitung der Ostverträge, die KSZE-Schlussakte von Helsinki, der Doppelbeschluss, die Abrüstungsverhandlungen, die Vereinigung. Keine Karriere der großen Brüche, sondern eine Karriere der geduldigen Akkumulation &ndash; Jahr für Jahr, Verhandlung für Verhandlung, Schritt für Schritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Kraft hinter der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualität: Durchsetzungskraft, Willenstärke und eine ruhige, aber unverkennbare Entschlossenheit, die sich nicht wegdrängen lässt. Die <strong>SE9w8</strong> ist keine passive Neun. Sie ist geduldig &ndash; aber sie ist nicht schwach. Wenn der Moment kommt, handelt sie. Und dann handelt sie entschlossen.</p>
+          <p class="vb-intro">Genscher hat diesen Flügel in Prag gezeigt. Am 30. September 1989 trat er auf den Balkon der deutschen Botschaft in Prag und erklärte den dort gestrandeten DDR-Bürgern, dass ihre Ausreise genehmigt sei. Er konnte den Satz nicht zu Ende sprechen &ndash; der Jubel übertönte ihn. Es war ein Moment, der Geschichte gemacht hat &ndash; und er war möglich, weil Genscher monatelang hinter den Kulissen verhandelt hatte, unaufgeregt, beharrlich, mit der Kraft der Neun und der Entschlossenheit der Acht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Beharren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; das Beharren im Vertrauten, das Meiden des offenen Konflikts, die Tendenz, Positionen zu umrunden statt zu konfrontieren. Für Genscher war das zugleich seine größte Stärke: Er konnte beide Seiten des Eisernen Vorhangs gesprächsbereit halten, weil er keine Seite zum Feind erklärte. Er konnte mit Moskau reden und mit Washington. Er konnte Brücken bauen, weil er nie Brücken abbrach.</p>
+          <p class="vb-intro">Die Kehrseite war der Vorwurf, zu lange zu bleiben, zu lange das Spiel mitzuspielen, zu lange Kompromisse zu suchen, wo Klarheit nötig gewesen wäre. Genscherismus wurde zum Begriff &ndash; mal Lob, mal Kritik. Aber er hat überlebt. Die meisten seiner Kritiker nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Der Brückenmensch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hans-Dietrich Genscher der deutschen Politik gegeben hat, ist die Erkenntnis, dass Diplomatie keine Schwäche ist, sondern die höchste Form der Stärke. Er hat bewiesen, dass man ohne Krieg Grenzen verschieben kann &ndash; wenn man geduldig genug ist, klug genug und bereit ist, jeden Schritt mehrfach zu gehen. Die deutsche Einheit ist nicht durch Konfrontation entstanden. Sie ist durch jahrzehntelange Vertrauensarbeit entstanden &ndash; an der Genscher entscheidenden Anteil hatte.</p>
+          <p class="vb-intro">Das Geschenk der SE9w8 ist dieser Brükenmensch: jemand, der die Seiten kennt, der zwischen ihnen steht, der nicht die lauteste Stimme ist &ndash; aber die, auf die man hört, wenn es darauf ankommt. Der Elefant vergisst nichts. Und er läuft nie davon.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
       ])}
     </div>
   `);
@@ -33570,6 +33629,7 @@ function render() {
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
+      "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
