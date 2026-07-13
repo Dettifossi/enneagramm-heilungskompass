@@ -32473,6 +32473,15 @@ function stillePage() {
             {id:"eule",        icon:"🦉",  label:"Eule"},
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
             {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
+            {id:"herzschlag", icon:"❤️",  label:"Herzschlag"},
+            {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
+            {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
+            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle"},
+            {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
+            {id:"hz432",      icon:"🎵",  label:"432 Hz"},
+            {id:"schumann",   icon:"🌀",  label:"Schumann"},
+            {id:"klangschale",icon:"🔔",  label:"Klangschale"},
+            {id:"om",         icon:"🧘",  label:"Om-Mantra"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -33726,6 +33735,229 @@ function _stilleInit() {
       seehundRuf(2500 + Math.random() * 3000);
     }
 
+    } else if (id === "herzschlag") {
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      function hb() {
+        if (stopped) return;
+        // Lub
+        const buf1 = ctx.createBuffer(1, Math.ceil(SR*0.07), SR);
+        const d1 = buf1.getChannelData(0);
+        for(let i=0;i<d1.length;i++) d1[i]=(Math.random()*2-1)*Math.pow(1-i/d1.length,2)*0.9;
+        const s1 = ctx.createBufferSource(); s1.buffer=buf1;
+        const lp1h=lpf(90); const g1=ctx.createGain(); g1.gain.value=1;
+        s1.connect(lp1h); lp1h.connect(g1); g1.connect(master); s1.start();
+        // Dub (0.15s later)
+        setTimeout(() => {
+          if (stopped) return;
+          const buf2=ctx.createBuffer(1,Math.ceil(SR*0.06),SR); const d2=buf2.getChannelData(0);
+          for(let i=0;i<d2.length;i++) d2[i]=(Math.random()*2-1)*Math.pow(1-i/d2.length,2)*0.6;
+          const s2=ctx.createBufferSource(); s2.buffer=buf2;
+          const lp2h=lpf(70); const g2=ctx.createGain(); g2.gain.value=1;
+          s2.connect(lp2h); lp2h.connect(g2); g2.connect(master); s2.start();
+        }, 150);
+        setTimeout(hb, 920);
+      }
+      hb();
+
+    } else if (id === "regenwald") {
+      master.gain.setValueAtTime(0.2, ctx.currentTime);
+      // Regen-Hintergrundrauschen (tropisch, dichter als normaler Regen)
+      const src = ctx.createBufferSource(); src.buffer = whiteBuf; src.loop = true;
+      const hp_rf = hpf(1200); const lp_rf = lpf(10000);
+      src.connect(hp_rf); hp_rf.connect(lp_rf); lp_rf.connect(master); src.start(); nodes.push(src);
+      // Tropfen von Blättern
+      function tropf() {
+        if (stopped) return;
+        const o=ctx.createOscillator(); const g=ctx.createGain();
+        o.type="sine"; o.frequency.value=900+Math.random()*600;
+        g.gain.setValueAtTime(0,ctx.currentTime);
+        g.gain.linearRampToValueAtTime(0.035,ctx.currentTime+0.004);
+        g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+0.06);
+        o.connect(g); g.connect(master); o.start(); o.stop(ctx.currentTime+0.07);
+        setTimeout(tropf, 40+Math.random()*180);
+      }
+      tropf();
+      // Zikaden-Schicht (tropisch)
+      const zik = ctx.createOscillator(); const zikG = ctx.createGain(); const zikLFO = ctx.createOscillator(); const zikLFOG = ctx.createGain();
+      zik.type="sawtooth"; zik.frequency.value=4200;
+      const zikBpf=bpf(4200,8);
+      zikLFO.frequency.value=22; zikLFOG.gain.value=600;
+      zikLFO.connect(zikLFOG); zikLFOG.connect(zik.frequency);
+      zikG.gain.value=0.04;
+      zik.connect(zikBpf); zikBpf.connect(zikG); zikG.connect(master);
+      zik.start(); zikLFO.start(); nodes.push(zik,zikG,zikBpf,zikLFO,zikLFOG);
+      // Vögelrufe (selten)
+      function vogelrf() {
+        if (stopped) return;
+        const o2=ctx.createOscillator(); const g2=ctx.createGain();
+        o2.type="sine"; const f0=600+Math.random()*1000;
+        o2.frequency.setValueAtTime(f0,ctx.currentTime);
+        o2.frequency.exponentialRampToValueAtTime(f0*1.4,ctx.currentTime+0.12);
+        o2.frequency.exponentialRampToValueAtTime(f0*0.9,ctx.currentTime+0.28);
+        g2.gain.setValueAtTime(0,ctx.currentTime);
+        g2.gain.linearRampToValueAtTime(0.045,ctx.currentTime+0.05);
+        g2.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+0.3);
+        o2.connect(g2); g2.connect(master); o2.start(); o2.stop(ctx.currentTime+0.35);
+        setTimeout(vogelrf, 3000+Math.random()*8000);
+      }
+      vogelrf();
+
+    } else if (id === "nachtmeer") {
+      master.gain.setValueAtTime(0.28, ctx.currentTime);
+      // Wellen (Brown + LFO, tiefer als "meer")
+      const srcNM = ctx.createBufferSource(); srcNM.buffer = brownBuf; srcNM.loop = true;
+      const lpNM = lpf(500); srcNM.connect(lpNM); lpNM.connect(master); srcNM.start(); nodes.push(srcNM);
+      const lfoNM = ctx.createOscillator(); const lfoNMG = ctx.createGain();
+      lfoNM.frequency.value = 0.09; lfoNMG.gain.value = 0.2;
+      lfoNM.connect(lfoNMG); lfoNMG.connect(master.gain); lfoNM.start(); nodes.push(lfoNM,lfoNMG);
+      // Nacht-Grillen (tiefer Chirp ~2 kHz)
+      function grilleNM() {
+        if (stopped) return;
+        const o3=ctx.createOscillator(); const g3=ctx.createGain();
+        o3.type="square"; o3.frequency.value=2100+Math.random()*300;
+        const bpNM=bpf(2200,15);
+        g3.gain.setValueAtTime(0,ctx.currentTime);
+        g3.gain.linearRampToValueAtTime(0.025,ctx.currentTime+0.005);
+        g3.gain.setValueAtTime(0.025,ctx.currentTime+0.04);
+        g3.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+0.06);
+        o3.connect(bpNM); bpNM.connect(g3); g3.connect(master); o3.start(); o3.stop(ctx.currentTime+0.07);
+        setTimeout(grilleNM, 120+Math.random()*80);
+      }
+      setTimeout(grilleNM, 2000);
+
+    } else if (id === "tropfen") {
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      // Tiefes Höhlen-Hum (Druckluft / Stille)
+      const srcT = ctx.createBufferSource(); srcT.buffer = brownBuf; srcT.loop = true;
+      const lpT = lpf(60); const gT = ctx.createGain(); gT.gain.value = 0.15;
+      srcT.connect(lpT); lpT.connect(gT); gT.connect(master); srcT.start(); nodes.push(srcT);
+      // Wassertropfen mit Hall-Simulation
+      function tropfTrop() {
+        if (stopped) return;
+        const freq = 800+Math.random()*400;
+        const dur2 = 0.06+Math.random()*0.04;
+        const o4=ctx.createOscillator(); const g4=ctx.createGain();
+        o4.type="sine"; o4.frequency.value=freq;
+        g4.gain.setValueAtTime(0,ctx.currentTime);
+        g4.gain.linearRampToValueAtTime(0.18,ctx.currentTime+0.004);
+        g4.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+dur2);
+        // Echo 1
+        const g4e1=ctx.createGain(); g4e1.gain.value=0.35;
+        const del1=ctx.createDelay(); del1.delayTime.value=0.28;
+        g4.connect(del1); del1.connect(g4e1); g4e1.connect(master);
+        // Echo 2
+        const g4e2=ctx.createGain(); g4e2.gain.value=0.12;
+        const del2=ctx.createDelay(); del2.delayTime.value=0.65;
+        g4.connect(del2); del2.connect(g4e2); g4e2.connect(master);
+        o4.connect(g4); g4.connect(master); o4.start(); o4.stop(ctx.currentTime+dur2+0.1);
+        nodes.push(o4,g4,del1,g4e1,del2,g4e2);
+        setTimeout(tropfTrop, 1500+Math.random()*3500);
+      }
+      tropfTrop();
+
+    } else if (id === "zikaden") {
+      master.gain.setValueAtTime(0.18, ctx.currentTime);
+      // Mehrschichtiges Zikaden-Chor
+      [3800,4100,4400].forEach((freq,i) => {
+        const oz=ctx.createOscillator(); const gzl=ctx.createGain(); const lfoZ=ctx.createOscillator(); const lfoZG=ctx.createGain();
+        oz.type="sawtooth"; oz.frequency.value=freq;
+        const bpZ=bpf(freq,12);
+        lfoZ.frequency.value=18+i*3; lfoZG.gain.value=freq*0.15;
+        lfoZ.connect(lfoZG); lfoZG.connect(oz.frequency);
+        gzl.gain.value=0.045;
+        oz.connect(bpZ); bpZ.connect(gzl); gzl.connect(master);
+        oz.start(); lfoZ.start(); nodes.push(oz,gzl,bpZ,lfoZ,lfoZG);
+      });
+      // Gelegentliche Stille-Phasen
+      function outrz() { if(stopped) return; setTimeout(() => { if(!stopped) { master.gain.linearRampToValueAtTime(0.004,ctx.currentTime+0.6); setTimeout(() => { if(!stopped) { master.gain.linearRampToValueAtTime(0.18,ctx.currentTime+1.2); outrz(); } }, 600+Math.random()*1200); } }, 5000+Math.random()*10000); }
+      outrz();
+
+    } else if (id === "hz432") {
+      // 432 Hz — sehr sanfter Sinus-Ton, leicht schwebend
+      master.gain.setValueAtTime(0.0001, ctx.currentTime);
+      master.gain.linearRampToValueAtTime(0.12, ctx.currentTime+3);
+      const o432a = ctx.createOscillator(); const g432a = ctx.createGain();
+      const o432b = ctx.createOscillator(); const g432b = ctx.createGain();
+      o432a.type="sine"; o432a.frequency.value=432;
+      o432b.type="sine"; o432b.frequency.value=432.5; // leichte Schwebung
+      g432a.gain.value=0.6; g432b.gain.value=0.4;
+      o432a.connect(g432a); g432a.connect(master);
+      o432b.connect(g432b); g432b.connect(master);
+      o432a.start(); o432b.start(); nodes.push(o432a,o432b,g432a,g432b);
+
+    } else if (id === "schumann") {
+      // 7.83 Hz Schumann-Resonanz — pulsierendes Brown Noise
+      master.gain.setValueAtTime(0.22, ctx.currentTime);
+      const srcSR = ctx.createBufferSource(); srcSR.buffer = brownBuf; srcSR.loop = true;
+      const lpSR = lpf(300);
+      srcSR.connect(lpSR); lpSR.connect(master); srcSR.start(); nodes.push(srcSR);
+      // 7.83 Hz Amplituden-Pulsation
+      const lfoSR = ctx.createOscillator(); const lfoSRG = ctx.createGain();
+      lfoSR.frequency.value = 7.83; lfoSRG.gain.value = 0.15;
+      lfoSR.connect(lfoSRG); lfoSRG.connect(master.gain); lfoSR.start(); nodes.push(lfoSR,lfoSRG);
+      // Sanfter 14.3 Hz Oberton
+      const lfo2SR = ctx.createOscillator(); const lfo2SRG = ctx.createGain();
+      lfo2SR.frequency.value = 14.3; lfo2SRG.gain.value = 0.05;
+      lfo2SR.connect(lfo2SRG); lfo2SRG.connect(master.gain); lfo2SR.start(); nodes.push(lfo2SR,lfo2SRG);
+
+    } else if (id === "klangschale") {
+      master.gain.setValueAtTime(0.18, ctx.currentTime);
+      // Tibetische Klangschale: Grundton ~220 Hz + Obertöne
+      function schlage() {
+        if (stopped) return;
+        const partials = [
+          {freq:220, amp:0.55, decay:8},
+          {freq:520, amp:0.30, decay:5},
+          {freq:870, amp:0.18, decay:3.5},
+          {freq:1360,amp:0.10, decay:2.5},
+        ];
+        partials.forEach(p => {
+          const o5=ctx.createOscillator(); const g5=ctx.createGain();
+          o5.type="sine"; o5.frequency.value=p.freq;
+          g5.gain.setValueAtTime(0.0001,ctx.currentTime);
+          g5.gain.exponentialRampToValueAtTime(p.amp,ctx.currentTime+0.015);
+          g5.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+p.decay);
+          o5.connect(g5); g5.connect(master);
+          o5.start(); o5.stop(ctx.currentTime+p.decay+0.1);
+        });
+        setTimeout(schlage, 9000+Math.random()*4000);
+      }
+      schlage();
+      // Leises Reibeton-Drone (als ob man den Rand reibt)
+      const oDrn=ctx.createOscillator(); const gDrn=ctx.createGain();
+      oDrn.type="sine"; oDrn.frequency.value=220;
+      gDrn.gain.setValueAtTime(0.0001,ctx.currentTime);
+      gDrn.gain.linearRampToValueAtTime(0.06,ctx.currentTime+4);
+      oDrn.connect(gDrn); gDrn.connect(master); oDrn.start(); nodes.push(oDrn,gDrn);
+
+    } else if (id === "om") {
+      master.gain.setValueAtTime(0.0001, ctx.currentTime);
+      master.gain.linearRampToValueAtTime(0.15, ctx.currentTime+4);
+      // Om-Drone: tiefe Vokalformanten
+      const omPartials = [
+        {freq:110, amp:0.5},
+        {freq:220, amp:0.3},
+        {freq:330, amp:0.15},
+        {freq:440, amp:0.08},
+        {freq:550, amp:0.05},
+      ];
+      omPartials.forEach(p => {
+        const o6=ctx.createOscillator(); const g6=ctx.createGain();
+        o6.type="sine"; o6.frequency.value=p.freq;
+        // Langsame Frequenz-Modulation (Tremolo der Stimme)
+        const vibr=ctx.createOscillator(); const vibrG=ctx.createGain();
+        vibr.frequency.value=4.5+Math.random(); vibrG.gain.value=p.freq*0.005;
+        vibr.connect(vibrG); vibrG.connect(o6.frequency);
+        g6.gain.value=p.amp;
+        o6.connect(g6); g6.connect(master);
+        o6.start(); vibr.start(); nodes.push(o6,g6,vibr,vibrG);
+      });
+      // Formant-Pulsation (für "m" vs "o" Wechsel)
+      const filtOm=ctx.createBiquadFilter(); filtOm.type="bandpass"; filtOm.frequency.value=400; filtOm.Q.value=3;
+      const lfoOm=ctx.createOscillator(); const lfoOmG=ctx.createGain();
+      lfoOm.frequency.value=0.08; lfoOmG.gain.value=200;
+      lfoOm.connect(lfoOmG); lfoOmG.connect(filtOm.frequency); lfoOm.start(); nodes.push(filtOm,lfoOm,lfoOmG);
+
     klangStop = () => {
       stopped = true;
       nodes.forEach(n => { try { n.disconnect(); if(n.stop) n.stop(); } catch(e){} });
@@ -33767,6 +33999,15 @@ function _stilleInit() {
     eule:        ["Einschlafen", "Nachtmeditation", "Mystik"],
     wolf:        ["Wildnis", "Freiheit", "Verbundenheit"],
     seehund:     ["Tiefe Berührung", "Geborgenheit", "Loslassen"],
+    herzschlag:  ["Urvertrauen", "Geborgenheit", "Beruhigung"],
+    regenwald:   ["Exotik", "Tiefenentspannung", "Loslassen"],
+    nachtmeer:   ["Einschlafen", "Stille", "Tiefenentspannung"],
+    tropfen:     ["Tiefe Meditation", "Höhlen-Trance", "Loslassen"],
+    zikaden:     ["Sommernacht", "Nostalgie", "Einschlafen"],
+    hz432:       ["Frequenz-Heilung", "Zellharmonisierung", "Meditation"],
+    schumann:    ["Erdfrequenz", "Neurobalance", "Tiefenentspannung"],
+    klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
+    om:          ["Mantren-Meditation", "Tiefste Stille", "Verbundenheit"],
   };
   const KLANG_INFO = {
     stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
@@ -33801,6 +34042,15 @@ function _stilleInit() {
     eule:        "Eule in der Nacht: sanftes Hu-Huuuu in der Stille — mit Nachtgrillen im Hintergrund. Tiefenentspannt, mystisch, perfekt zum Einschlafen.",
     wolf:        "Wölfe in der Ferne: langes, freies Heulen mit Windhauch — erzeugt ein tiefes Gefühl von Wildnis, Freiheit und Verbundenheit mit der Natur.",
     seehund:     "Seehundbabys: klagende, zitternde Rufe junger Seehunde auf dem Ozean — tief berührend, wie ein Ruf nach Geborgenheit. Im Hintergrund: sanftes Meeresrauschen.",
+    herzschlag:  "Reiner Herzschlag: ein ruhiger, tiefer Herzrhythmus (~65 BPM) — vermittelt Urvertrauen und tiefe Sicherheit.",
+    regenwald:   "Tropischer Regenwald: dichtes Regenrauschen auf Blättern, Tropfen, Zikaden-Chor und gelegentliche exotische Vogelrufe — versetzt Sie sofort in üppige, grüne Stille.",
+    nachtmeer:   "Meer bei Nacht: tiefe, langsame Wellen unter dem Sternenhimmel — mit entfernten Nacht-Grillen. Perfekt zum Einschlafen.",
+    tropfen:     "Tropfsteinhöhle: einzelne Wassertropfen fallen in stille Tiefe, jeder mit langem, echendem Nachhall — einer der ruhigsten Klänge der Welt.",
+    zikaden:     "Zikaden-Nacht: der vielstimmige Chor von Zikaden in einer warmen Sommernacht — mit gelegentlichen Ruhepausen. Mediterrane Nostalgie.",
+    hz432:       "432 Hz — der 'Herzton der Natur': ein sanfter, leicht schwebender Reinton. Manche Menschen empfinden diese Frequenz als harmonischer und beruhigender als der übliche 440-Hz-Standard.",
+    schumann:    "Schumann-Resonanz 7.83 Hz: die Eigenfrequenz der Erde zwischen Erdoberfläche und Ionosphäre. Als Amplituden-Pulsation spürbar gemacht — soll Gehirnwellen synchronisieren und Erholung fördern.",
+    klangschale: "Tibetische Klangschale: tiefe Anschläge (~220 Hz Grundton + natürliche Obertöne) mit langem, schimmerndem Nachklang — dazwischen ein leises Reibedrone. Klassische Klangmeditation.",
+    om:          "Om-Mantra-Drone: das uralte Urklang-Mantra als mehrschichtiger Vokalklang — Grundton 110 Hz mit Obertönen, leichtem Vibrato und einer langsamen Formant-Pulsation zwischen 'O' und 'M'.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
