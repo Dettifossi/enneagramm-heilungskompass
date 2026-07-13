@@ -327,6 +327,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
     tags:["Politik"] },
+  { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
+    heading:"Steffi Graf – Sozialer Typ 9",
+    teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
+    tags:["Sport"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8474,6 +8478,62 @@ function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function steffiGrafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-steffi-graf-portrait.jpg" alt="Steffi Graf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steffi Graf</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Tennisspielerin, 22 Grand-Slam-Titel, geb. 1969 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Steffi Graf genauer. Der Büffel ist kein Tier des Showrooms. Er ist kein Tier der Posen und der Gesten. Er senkt den Kopf und läuft. Er geht durch, was auch immer vor ihm liegt &ndash; ruhig, massiv, unaufhaltsam. Er macht kein Drama. Er braucht kein Publikum, um zu wissen, dass er da ist.</p>
+          <p class="vb-intro">Steffi Graf hatte diese Qualität auf dem Tennisplatz wie sonst kaum jemand. Sie hat 22 Grand-Slam-Titel gewonnen &ndash; mehr als jede andere Spielerin ihrer Generation. 1988 gelang ihr der <strong>Golden Slam</strong>: alle vier Grand-Slam-Turniere und die Olympische Goldmedaille in einem Jahr. Eine Leistung, die in der Geschichte des Tennis einmalig ist. Und sie hat das alles gemacht, ohne dass man je das Gefühl hatte, sie müsse es sich beweisen. Der Büffel beweist nichts. Er ist einfach da &ndash; und er gewinnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugehörigkeit, durch das Eingebundensein in eine Gemeinschaft, durch das Mitlaufen im Strom des Lebens. Die SO9 findet ihren Platz nicht durch Dominanz, sondern durch Anwesenheit &ndash; durch das einfache Dasein, das anderen Stabilität gibt.</p>
+          <p class="vb-intro">Steffi Graf hat dieses Prinzip gelebt, ohne je große Worte darüber zu verlieren. Sie war nicht die Lauteste im Raum. Sie war nicht diejenige, die Interviews suchte oder Kameras anzog. Sie hat Tennis gespielt &ndash; und das mit einer Selbstverständlichkeit, als sei es das Normalste der Welt. Ihre Zugehörigkeit galt dem Sport, dem Spiel, der Bewegung &ndash; nicht dem Ruhm, der als Nebenprodukt davon entstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Die stille Pflichterfüllung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sozialen Neun eine Qualität, die über bloßes Mitmachen hinausgeht: Disziplin, Prinzipientreue und ein innerer Maßstab, der unabhängig von Außenerwartungen funktioniert. Die <strong>SO9w1</strong> tut nicht, was andere von ihr erwarten &ndash; sie tut, was sie selbst für richtig hält. Und sie tut es gründlich.</p>
+          <p class="vb-intro">Bei Steffi Graf war das spürbar in ihrer Trainingsethik, ihrer Beharrlichkeit und ihrer Fähigkeit, auch nach Rückschlägen &ndash; Verletzungen, persönliche Krisen rund um ihren Vater &ndash; ruhig zurückzukehren und weiterzumachen. Der Einserflügel gibt der Neun die Fähigkeit zur Selbstkorrektur: nicht als Selbstkritik, sondern als stilles Nachjustieren auf dem Weg zu dem, was sie werden will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; das Beharren im einmal eingeschlagenen Weg, die Tendenz, im Fluss zu bleiben statt umzuschwenken. Für Steffi Graf hat sich diese Trägheit in das verwandelt, was Menschen Ausdauer nennen: die Fähigkeit, Jahr für Jahr auf höchstem Niveau zu spielen, ohne den inneren Motor abstellen zu müssen.</p>
+          <p class="vb-intro">17 Jahre Profikarriere, davon acht Jahre als Weltranglistenerste. Nicht weil Steffi Graf die Sensation suchte, sondern weil sie einfach weitermachte. Der Büffel wechselt nicht die Richtung, wenn der Wind sich dreht. Er läuft. Und am Ende des Feldes steht er noch &ndash; ruhig, geerdet, unbeeindruckt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die Stille der Meisterschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne Lärm auskommt. Sie hat gezeigt, dass man der Größte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine äußere Leistung.</p>
+          <p class="vb-intro">Das Geschenk der SO9w1 ist diese stille Integrität: die Fähigkeit, präsent zu sein, ohne sich in den Vordergrund zu drängen &ndash; und dabei dennoch unverkennbar zu sein. Steffi Graf braucht keine Geste, um erkannt zu werden. Der Büffel auch nicht. Er ist einfach da &ndash; und alle wissen, wer er ist.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
       ])}
     </div>
   `);
@@ -33697,6 +33757,7 @@ function render() {
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
+      "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
