@@ -872,6 +872,26 @@ function leseprobePage() {
         </div>
       </div>
 
+      <!-- Berühmte Persönlichkeiten -->
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
+          54 Berühmte Persönlichkeiten &ndash; Porträts
+        </h2>
+        <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
+          Für alle 27 Subtypen gibt es je zwei Porträts berühmter Persönlichkeiten &ndash; mit beiden Flügelausprägungen. So wird der Subtyp lebendig und konkret erkennbar.
+        </p>
+        <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
+          Von Bärbel Bas bis Keanu Reeves, von Willy Brandt bis Heike Makatsch &ndash; aus Politik, Kultur, Sport und Wissenschaft.
+        </p>
+        <div style="margin-top:0.5rem;">
+          <button data-route="beruehmte-persoenlichkeiten"
+            style="background:none;border:1px solid var(--gold);color:var(--copper);
+                   border-radius:8px;padding:.4rem 1rem;font-size:0.83rem;cursor:pointer;">
+            Alle Porträts ansehen &rarr;
+          </button>
+        </div>
+      </div>
+
       <!-- Kriminalpsychologie -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
