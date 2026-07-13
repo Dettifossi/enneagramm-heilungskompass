@@ -311,6 +311,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
     tags:["Politik"] },
+  { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
+    heading:"Genesis P-Orridge – Sexueller Typ 8",
+    teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
+    tags:["Musik / Kunst"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8348,6 +8352,61 @@ function donaldTrumpPortraitPage() {
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function genesisPOrridgePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-genesis-p-orridge-portrait.jpg" alt="Genesis P-Orridge" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Genesis P-Orridge</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexueller Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Performance-Künstler &amp; Okkultist, 1950&ndash;2020 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; das älteste Raubtier der Erde, urtümlich, geduldig und von einer Beharrlichkeit, die Jahrmillionen überdauert hat. Es verändert sich nicht, weil es keinen Grund dazu sieht. Es liegt im Wasser, fast reglos, und wartet. Wenn es zuschnappt, gibt es kein Zurück mehr.</p>
+          <p class="vb-intro">Genesis P-Orridge war dieses Krokodil &ndash; ein Wesen, das in den Tiefen der Gegenkultur lauerte und mit einem Werk zuschnappte, das die Welt der Kunst, der Musik und des Bewusstseins für immer verändert hat. Als Gründer von Throbbing Gristle schuf Genesis 1975 mit Industrial Music ein Genre, das Jahrzehnte vor seiner Zeit war. Als Gründer der COUM Transmissions provozierte Genesis das Establishment so grundlegend, dass ein britischer Abgeordneter die Gruppe im Parlament als "Feinde der Gesellschaft" bezeichnete. Das Krokodil muss nicht laut sein. Es muss nur da sein &ndash; und zuschlagen, wenn der Moment kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitzergreifung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> nennt Naranjo <em>Besitzergreifung</em> &ndash; einen Hunger, der sich auf Menschen, Ideen und Erfahrungen richtet und keine halben Sachen kennt. Die SX8 will das Ganze: die vollständige Verschmelzung, die totale Transformation, die bedingungslose Intensität. Sie ist das Feuer, das nicht kontrolliert werden kann &ndash; nur gelebt.</p>
+          <p class="vb-intro">Bei Genesis P-Orridge zeigte sich das im Projekt Pandrogeny: die freiwillige körperliche Verschmelzung mit der Partnerin Lady Jaye Breyer durch aufeinander abgestimmte chirurgische Veränderungen, bis beide Teile eines einzigen Wesens wurden. Das war kein Kunstprojekt im gewöhnlichen Sinn. Das war SX8-Besitzergreifung in ihrer radikalsten Form: Ich will nicht neben dir sein &ndash; ich will mit dir eins werden. Die Grenze zwischen Selbst und Anderem sollte vollständig aufgelöst werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die ruhende Urgewalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> gibt der sexuellen Acht eine besondere Qualität: Geduld, Tiefe und eine fast meditativen Beharrlichkeit, die die pure Explosivität der SX8w7 erdöndet. Die <strong>SX8w9</strong> ist nicht weniger intensiv &ndash; aber die Intensität sitzt tiefer. Sie kommt nicht als Explosion, sondern als konstante, unaufhörliche Strömung, die alles mitreißt, was nicht fest verankert ist.</p>
+          <p class="vb-intro">Genesis P-Orridge hat nie laut um Aufmerksamkeit gekämpft. Das Werk sprach für sich. Über Jahrzehnte, durch immer neue Formen &ndash; Noise, Industrial, Acid House, Okkultuismus, körperliche Transformation &ndash; blieb Genesis sich selbst treu: der Suche nach dem, was jenseits der gesellschaftlich gesetzten Grenzen liegt. Der Neunerflügel gab dieser Suche Ausdauer. Nicht der Sprint des Revoluzzärs, sondern der lange Atem des Entdeckers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Grenzauflösung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> &ndash; nicht im engeren Sinn, sondern als Hunger nach dem Ungefilterten, nach dem direkten Kontakt mit dem, was ist. Für die sexuelle Acht richtet sich dieser Hunger auf die Person, den Körper, die Begegnung &ndash; und auf das, was zwischen Menschen entsteht, wenn alle Konventionen fallen.</p>
+          <p class="vb-intro">Genesis P-Orridge hat diese Wollust auf die Grenzen des Bewusstseins selbst gerichtet: durch Rituale, durch Okkultismus, durch die körperliche Kunst, durch Psychedelik, durch die Auflösung der Grenze zwischen männlich und weiblich. Der in Manchester geborene Neil Megson wurde zu Genesis, dann zu einer Pandrogyne, die keine Kategorien mehr brauchte. Wollust als Methode der Selbstüberschreitung &ndash; und als konsequenteste Form von Freiheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die Weigerung, normal zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Genesis P-Orridge hinterlassen hat, ist eine Einladung: die radikale Frage, warum das, was als normal gilt, unhinterfragt bleiben soll. Throbbing Gristle hat bewiesen, dass Musik nicht schön sein muss, um tief zu berühren. Die Pandrogeny hat gezeigt, dass Identität kein Schicksal ist. Das COUM-Werk hat dem Kunstbetrieb einen Spiegel vorgehalten, den dieser nicht mögen wollte.</p>
+          <p class="vb-intro">Das Geschenk der SX8w9 ist diese unnachgiebige Authentizität: die Weigerung, sich anzupassen, und die Bereitschaft, dafür jeden Preis zu zahlen. Das Krokodil passt sich nicht an. Es ist, was es ist &ndash; seit Jahrmillionen. Genesis P-Orridge war genauso: kompromisslos, unverwechselbar, von einer Tiefe, die erst im Rückblick ganz sichtbar wird.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7)"},
       ])}
     </div>
   `);
@@ -33451,6 +33510,7 @@ function render() {
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
+      "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
