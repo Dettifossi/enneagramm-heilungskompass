@@ -315,13 +315,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
     tags:["Musik / Kunst"] },
-  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
-    heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
-    teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
-    tags:["Politik"] },
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
+    tags:["Politik"] },
+  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
+    heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
     tags:["Politik"] },
 ];
 
