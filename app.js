@@ -1061,7 +1061,7 @@ function startPage() {
         <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
-            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" onclick="go('tierquiz')" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
+            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
               <span class="start-path__test-label">Diagnose-Test</span>
               <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
@@ -2648,10 +2648,10 @@ function tierquizPage() {
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
           <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${code} &ndash; ${s.inst === "SE" ? "Selbsterhaltend" : s.inst === "SO" ? "Sozial" : "Sexuell"} &middot; Typ ${s.type}</p>
           <p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin-bottom:1.8rem;text-align:left;">${beschr}</p>
-          <button class="typentest-start-btn" onclick="go('${subtypRoute}')" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
+          <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
           <br>
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.5rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" onclick="event.preventDefault();go('diagnosetest')" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.5rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
         </div>
       </div>
     </div>
