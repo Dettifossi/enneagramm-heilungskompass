@@ -33932,7 +33932,7 @@ function _stilleInit() {
       gDrn.gain.linearRampToValueAtTime(0.06,ctx.currentTime+4);
       oDrn.connect(gDrn); gDrn.connect(master); oDrn.start(); nodes.push(oDrn,gDrn);
 
-
+    } // end klangschale
 
     klangStop = () => {
       stopped = true;
