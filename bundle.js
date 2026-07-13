@@ -8699,7 +8699,7 @@ function leonardoDiCaprioPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-tier-sx1.jpg" alt="Schwarze Mamba" class="krim-portrait-img" loading="lazy" />
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-leonardo-dicaprio-portrait.jpg" alt="Leonardo DiCaprio" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Leonardo DiCaprio</p>
         <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
