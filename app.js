@@ -2662,9 +2662,10 @@ window._tqStart = function() { window._tqState = {step:1,inst:"",center:"",type:
 window._tqA = function(val) {
   const s = window._tqState;
   if (!s) return;
-  if (s.step === 1) { s.inst = val; s.step = 2; }
-  else if (s.step === 2) { s.center = val; s.step = 3; }
-  else if (s.step === 3) { s.type = val; s.step = 4; }
+  if (s.step === 1 && ["SE","SO","SX"].indexOf(val) >= 0) { s.inst = val; s.step = 2; }
+  else if (s.step === 2 && ["gut","heart","head"].indexOf(val) >= 0) { s.center = val; s.step = 3; }
+  else if (s.step === 3 && ["1","2","3","4","5","6","7","8","9"].indexOf(val) >= 0) { s.type = val; s.step = 4; }
+  else return;
   go("tierquiz");
 };
 window._tqReset = function() { window._tqState = null; go("tierquiz"); };
