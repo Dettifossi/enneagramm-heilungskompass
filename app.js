@@ -331,6 +331,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
     tags:["Sport"] },
+  { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
+    heading:"Willy Brandt – Sozialer Typ 9",
+    teaser:"SO9w8 · 1913–1992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau – ein Schweigen, das Geschichte schrieb. Tierentsprechung: Büffel.",
+    tags:["Politik"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8535,6 +8539,65 @@ function steffiGrafPortraitPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function willyBrandtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-willy-brandt-portrait.jpg" alt="Willy Brandt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willy Brandt</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Bundeskanzler, Friedensnobelpreis 1971, geb. 1913 &ndash; Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\u00fcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kaum eine Pers\u00f6nlichkeit des 20. Jahrhunderts verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Willy Brandt. Der B\u00fcffel ist ein Tier der Herde: gro\u00df, geerdet, still im Inneren. Er trumpft nicht auf, er dominiert nicht durch L\u00e4rm. Er ist einfach da &ndash; massiv, verl\u00e4sslich, unerschtterlich. Und wenn er sich in Bewegung setzt, h\u00e4lt ihn nichts auf.</p>
+          <p class="vb-intro">Am 7. Dezember 1970 kniete Willy Brandt vor dem Mahnmal des Warschauer Ghettos. Kein Wort. Keine Geste der \u00dcberlegung &ndash; er lie\u00df sich einfach nieder, im Regen, auf den Knien, und schwieg. Minuten lang. Das war kein diplomatischer Akt, kein Protokoll, keine Regieanweisung. Es war ein B\u00fcffel, der sich vor dem beuge, was war &ndash; und damit ein ganzes Volk repr\u00e4sentierte. Dieser Kniefall ging um die Welt. Er ist bis heute eines der m\u00e4chtigsten Bilder der deutschen Nachkriegsgeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit, durch das Eingebundensein in eine Gemeinschaft, in eine Bewegung, in etwas Gr\u00f6\u00dferes als das eigene Ich. Die SO9 sucht ihren Platz nicht durch Dominanz, sondern durch Anwesenheit und Dienst &ndash; durch das Einstehen f\u00fcr eine Gemeinschaft, die sie als ihre eigene empfindet.</p>
+          <p class="vb-intro">Willy Brandts Leben war von Anfang an ein Leben im Dienst einer Sache. Als Herbert Ernst Karl Frahm in Ltibeck geboren, schloss er sich fr\u00fch der Sozialistischen Arbeiterjugend an. Im Widerstand gegen den Nationalsozialismus lebte er unter falschem Namen &ndash; er nannte sich Willy Brandt, ein Name, der sp\u00e4ter zu seinem offiziellen wurde. Im norwegischen und schwedischen Exil k\u00e4mpfte er weiter &ndash; nicht f\u00fcr sich selbst, sondern f\u00fcr das, was er f\u00fcr das eigentliche Deutschland hielt. Diese Energie, sich einer gr\u00f6\u00dferen Sache anzuschlie\u00dfen und f\u00fcr sie einzustehen, pr\u00e4gte sein gesamtes politisches Leben.</p>
+          <p class="vb-intro">Die SO9 ist der <strong>Kontratyp der Neun</strong>: Sie negiert ihre eigene Leidenschaft &ndash; die Tr\u00e4gheit &ndash; und arbeitet innerlich gegen sie an. Nach au\u00dfen wirkt sie dadurch oft aktiv, entschlossen, fast leidenschaftlich. Willy Brandt, der ber\u00fchmteste Kanzler der sozialen Neun, war kein scheu-passiver Mensch: Er verhandelte, reiste, sprach &ndash; aber immer im Dienst des Friedens, immer f\u00fcr die Gemeinschaft. Die Kraft, die ihn antrieb, war nicht Ehrgeiz um seiner selbst willen, sondern das tiefe Bed\u00fcrfnis, dazuzugeh\u00f6ren &ndash; und etwas beizutragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: R\u00fcckgrat und Entschlossenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der sozialen Neun etwas, das die reine Neun oft vermisst: R\u00fcckgrat. Durchsetzungswillen. Die F\u00e4higkeit, unbequeme Wahrheiten auszusprechen und sich gegen Widerstand nicht wegzuducken. Die <strong>SO9w8</strong> ist kein Weichspitler: Wenn sie von etwas \u00fcberzeugt ist, setzt sie es durch &ndash; ruhig, bestimmt, mit der Kraft des B\u00fcffels.</p>
+          <p class="vb-intro">Brandts <em>Neue Ostpolitik</em> &ndash; die Normalisierung der Beziehungen zu Ostdeutschland, Polen und der Sowjetunion &ndash; war kein popul\u00e4rer Schritt. Ein gro\u00dfer Teil der westdeutschen \u00d6ffentlichkeit lehnte sie ab. Die CDU/CSU sprach von Verrat. Der Achterfl\u00fcgel lie\u00df ihn standhalten. Er verhandelte, er reiste, er unterschrieb &ndash; den Warschauer Vertrag (1970), den Moskauer Vertrag (1970), den Grundlagenvertrag mit der DDR (1972). Nicht weil es einfach war, sondern weil er es f\u00fcr richtig hielt und die Kraft hatte, diesen \u00dcberzeugungen treu zu bleiben.</p>
+          <p class="vb-intro">1972 gewann die SPD unter Brandt die Bundestagswahl mit dem h\u00f6chsten Stimmenanteil ihrer Geschichte bis dahin: 45,8 Prozent. Das B\u00fcffelnatur des Achterfl\u00fcgels hatte sich bew\u00e4hrt: Wer klar bleibt, gewinnt das Vertrauen &ndash; auch wenn er zun\u00e4chst auf Widerstand st\u00f6\u00dft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im einmal eingeschlagenen Weg, die Tendenz, im Strom zu bleiben statt umzuschwenken. F\u00fcr Willy Brandt verwandelte sich diese Tr\u00e4gheit in das, was man Ausdauer nennt: Ein Leben im Dienst der Sozialdemokratie, des Friedens, der Versttihnung.</p>
+          <p class="vb-intro">Er war von 1964 bis 1987 &ndash; mehr als zwei Jahrzehnte &ndash; Vorsitzender der SPD. Er leitete die Sozialistische Internationale von 1976 bis zu seinem Tod 1992. Selbst nach seinem R\u00fccktritt als Bundeskanzler 1974, ausgel\u00f6st durch die Guillaume-Aff\u00e4re (sein enger Mitarbeiter G\u00fcnter Guillaume stellte sich als DDR-Spion heraus), zog er sich nicht zur\u00fcck: Er arbeitete weiter. Die Brandt-Kommission, die 1980 den Bericht \u201eNord-S\u00fcd: Ein \u00dcberlebensprogramm\u201c ver\u00f6ffentlichte, war sein Beitrag zur globalen Gerechtigkeitsdebatte. Der B\u00fcffel h\u00f6rt nicht auf zu laufen &ndash; auch wenn das Feld sich ver\u00e4ndert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Stille, die Geschichte schreibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Willy Brandt hinterlassen hat, ist ein Bild von politischer Gr\u00f6\u00dfe, das ohne Selbstdarstellung auskommt. Der Kniefall von Warschau war das Gegenteil einer Inszenierung: Es war ein Mensch, der in einem Augenblick vollst\u00e4ndig anwesend war &ndash; f\u00fcr das, was war, und f\u00fcr das, was h\u00e4tte anders sein k\u00f6nnen. Die japanische Presse schrieb damals: \u201eEin Mann, der es nicht n\u00f6tig hatte zu knien, kniete f\u00fcr alle, die es n\u00f6tig gehabt h\u00e4tten und nicht knieten.\u201e</p>
+          <p class="vb-intro">Das Geschenk der SO9w8 ist diese Verbindung: die Stille der Neun und die Kraft der Acht. Willy Brandt hat beides vereint &ndash; die F\u00e4higkeit, still zu sein, wenn Stille m\u00e4chtiger ist als jedes Wort, und die Entschlossenheit, nicht nachzugeben, wenn Entschlossenheit gef\u00f6rdert ist. Der B\u00fcffel l\u00e4uft nicht, weil er mu\u00df. Er l\u00e4uft, weil er ein Teil von etwas ist &ndash; und weil er wei\u00df, dass dieser Teil z\u00e4hlt.</p>
+          <p class="vb-intro">1971 erhielt Willy Brandt den Friedensnobelpreis. In seiner Dankesrede sagte er: \u201eIch halte Frieden f\u00fcr m\u00f6glich &ndash; ich halte ihn sogar f\u00fcr m\u00f6glich zwischen M\u00e4nnern, die noch gestern Feinde waren.\u201e Das ist kein Satz eines Realisten. Das ist ein Satz des sozialen Typs 9: Frieden als tiefste \u00dcberzeugung &ndash; und der Mut des Achterfl\u00fcgels, diese \u00dcberzeugung zur Politik zu machen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
       ])}
     </div>
   `);
@@ -33759,6 +33822,7 @@ function render() {
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
+      "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
