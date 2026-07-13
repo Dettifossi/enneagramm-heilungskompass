@@ -2632,7 +2632,7 @@ function tierquizPage() {
         ${pageHeader("Welches Tier bin ich?")}
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(2)}
-          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Welcher Satz trifft auf dich am ehesten zu?</h2>
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Welcher Satz trifft auf Sie am ehesten zu?</h2>
           ${_tqBtn("„Ich will die Dinge in die Hand nehmen, stark sein und Kontrolle behalten.“", "Stärke, Qualität, Frieden oder klare Ordnung sind mir wichtig.", "window._tqA('gut')")}
           ${_tqBtn("„Ich will echte Verbindung, gesehen werden und wirklich dazugehören.“", "Beziehungen, Anerkennung und Tiefe sind für mich zentral.", "window._tqA('heart')")}
           ${_tqBtn("„Ich will verstehen, sicher sein und meine Optionen offenhalten.“", "Wissen, Orientierung und Freiheit des Denkens sind mir wichtig.", "window._tqA('head')")}
@@ -2658,7 +2658,7 @@ function tierquizPage() {
         ${pageHeader("Welches Tier bin ich?")}
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(3)}
-          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Und welcher Satz beschreibt dich am treffendsten?</h2>
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Und welcher Satz beschreibt Sie am treffendsten?</h2>
           ${opts.map(o => _tqBtn('„'+o[0]+'“', o[1], "window._tqA('"+o[2]+"')")).join("")}
         </div></div>
       </div>
@@ -3235,7 +3235,7 @@ function regulierenInner(entry, sp) {
   if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
   blocks.push(`
     <div class="room-field" style="margin-top:1.4rem;padding:1.1rem 1.2rem;background:var(--paper);border-radius:12px;border-left:3px solid var(--gold);text-align:left;">
-      <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Wenn du die Muster dieses Subtyps erkannt hast — lass das Gelesene jetzt zur Ruhe kommen. Nicht weiter analysieren. Einfach sein.</p>
+      <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Wenn Sie die Muster dieses Subtyps erkannt haben — lassen Sie das Gelesene jetzt zur Ruhe kommen. Nicht weiter analysieren. Einfach sein.</p>
       <button class="ghost-link" data-route="stille" style="font-size:0.95rem;">⏱ 9 Minuten Stille sitzen →</button>
     </div>
   `);
@@ -3779,12 +3779,12 @@ function profilePage() {
     ${firstVisit ? '' : pageHeader("profile")}
     <section class="narrow centered profile-intro">
       ${firstVisit ? `<div class="profile-intro__compass">${compassMark("small")}</div>` : ''}
-      <h1>${firstVisit ? 'Welcher Subtyp bist du?' : 'Subtyp wählen'}</h1>
+      <h1>${firstVisit ? 'Welcher Subtyp sind Sie?' : 'Subtyp wählen'}</h1>
       <p class="lead-small">${firstVisit
-        ? 'Wähle deinen Enneagramm-Subtyp. Der Kompass richtet sich vollständig auf dich aus — Tagesimpuls, Muster, Werkzeuge und Heilungsweg.'
+        ? 'Wählen Sie Ihren Enneagramm-Subtyp. Der Kompass richtet sich vollständig auf Sie aus — Tagesimpuls, Muster, Werkzeuge und Heilungsweg.'
         : 'Dein aktuelles Profil ist <strong>' + state.profile.code + ' · ' + state.profile.title + '</strong>. Wähle einen anderen Subtyp, um den Kompass neu auszurichten.'
       }</p>
-      <p class="profile-type-hint">Kennst du deinen Subtyp noch nicht? Kein Problem — schau dir die drei Varianten deines Typs an (z.&nbsp;B. SE6, SO6, SX6) und wähle die, die sich am stimmigsten anfühlt.</p>
+      <p class="profile-type-hint">Kennen Sie Ihren Subtyp noch nicht? Kein Problem — schauen Sie sich die drei Varianten Ihres Typs an (z.&nbsp;B. SE6, SO6, SX6) und wählen Sie die, die sich am stimmigsten anfühlt.</p>
     </section>
     ${groupsHTML}
     ${firstVisit ? `<p class="profile-skip">Noch unsicher? <button class="ghost-link" data-route="knowledge">Erst den Wissens-Atlas erkunden</button></p>` : ''}
@@ -4832,6 +4832,11 @@ function diagnosetestPage() {
             <p class="typentest-intro">Von ${winner.total} Aussagen haben Sie <strong>${winner.score}</strong> als zutreffend angekreuzt.</p>
           </div>
           <ul class="diag-scores">${bars}</ul>
+          <div style="margin:1.5rem 0;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
+            <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Mit dem Vollzugang sehen Sie das komplette Profil Ihres Typs — Heilmittel, Schaubilder und alle 27 Subtypen.</p>
+            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
+          </div>
           <div class="typentest-cta-group" style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
             <p class="typentest-berater-label">Beratungstermin anfragen:</p>
             <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
