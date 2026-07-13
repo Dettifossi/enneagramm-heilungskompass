@@ -1079,6 +1079,68 @@ function leseprobePage() {
   `);
 }
 
+function onboardingOverlay() {
+  const shown = localStorage.getItem("kompass:onboarding-done");
+  if (shown) return "";
+  return `
+    <div id="onboarding-overlay" style="
+      position:fixed;inset:0;z-index:9999;
+      background:rgba(20,14,6,0.82);
+      display:flex;align-items:center;justify-content:center;
+      padding:1.5rem;box-sizing:border-box;">
+      <div style="
+        background:var(--surface,#faf7f2);border-radius:18px;
+        max-width:420px;width:100%;padding:2rem 1.8rem;
+        box-shadow:0 8px 40px rgba(0,0,0,0.35);text-align:center;">
+        <div style="font-size:2.8rem;margin-bottom:0.6rem;">🧭</div>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.6rem;color:var(--ink);margin:0 0 0.4rem;">Willkommen im Heilungskompass</h2>
+        <p style="font-size:0.9rem;color:var(--muted);margin:0 0 1.6rem;line-height:1.6;">Ein kurzer Überblick – dann können Sie sofort loslegen.</p>
+        <div style="display:flex;flex-direction:column;gap:1rem;text-align:left;margin-bottom:1.8rem;">
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">1</div>
+            <div>
+              <strong style="color:var(--ink);font-size:0.95rem;">Ihren Subtyp wählen</strong>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Kennen Sie Ihren Enneagramm-Subtyp? Wählen Sie ihn – der Kompass richtet sich vollständig auf Sie aus.</p>
+            </div>
+          </div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">2</div>
+            <div>
+              <strong style="color:var(--ink);font-size:0.95rem;">Kostenlos erkunden</strong>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Der Tierquiz, der Diagnosetest und die Leseprobe stehen sofort kostenlos zur Verfügung.</p>
+            </div>
+          </div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">3</div>
+            <div>
+              <strong style="color:var(--ink);font-size:0.95rem;">Vollzugang freischalten</strong>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Für alle 27 Subtyp-Profile, Heilmittel und Schaubilder: einmalig € 49, lebenslanger Zugang.</p>
+            </div>
+          </div>
+        </div>
+        <button id="onboarding-close" style="
+          background:var(--gold-dark,#a8872d);color:var(--copper,#a5603d);
+          border:3px solid #8a5a1a;border-radius:10px;
+          padding:0.85rem 2.2rem;font-size:1rem;font-weight:700;
+          cursor:pointer;font-family:'EB Garamond',serif;
+          box-shadow:0 4px 16px rgba(0,0,0,.2);width:100%;">
+          Los geht's →
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+function bindOnboarding() {
+  const btn = document.getElementById("onboarding-close");
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    localStorage.setItem("kompass:onboarding-done", "1");
+    const overlay = document.getElementById("onboarding-overlay");
+    if (overlay) overlay.remove();
+  });
+}
+
 function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
@@ -1109,6 +1171,7 @@ function startPage() {
   `;
 
   return shell(`
+    ${onboardingOverlay()}
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -4349,6 +4412,7 @@ function bindEvents() {
   if (state.route === "diagnosetest") {
     bindDiagnosetest();
   }
+  bindOnboarding();
 }
 
 // ── TYPENTEST ─────────────────────────────────────────────────────────────────
