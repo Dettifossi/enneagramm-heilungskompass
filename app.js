@@ -233,7 +233,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Wissenschaft"] },
   { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
     heading:"Claudio Naranjo – Sozialer Typ 5",
-    teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm-Lehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
+    teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
     tags:["Wissen / Lehre"] },
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
@@ -8891,7 +8891,7 @@ function claudioNaranjoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Claudio Naranjo</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Psychiater, Autor &amp; Enneagramm-Lehrer, 1932&ndash;2019 &ndash; Tierentsprechung: Oktopus</p>
+        <p class="krim-portrait-subtitle">Psychiater, Autor, Enneagramm- &amp; Meditationslehrer, 1932&ndash;2019 &ndash; Tierentsprechung: Oktopus</p>
       </div>
       <div class="page-content">
 
