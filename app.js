@@ -2666,10 +2666,22 @@ function tierquizPage() {
   }
   // Result
   const code = s.inst + s.type;
-  const tier  = _TQ_TIERE[code] || "Unbekannt";
-  const emoji = _TQ_EMOJI[code] || "🤔";
+  const tier  = _TQ_TIERE[code];
+  const emoji = _TQ_EMOJI[code] || "🦁";
   const beschr = _TQ_BESCHR[code] || "";
   const subtypRoute = "subtype/" + code.toLowerCase();
+  if (!tier) return shell(`
+    <div class="page-container">
+      ${pageHeader("Welches Tier bin ich?")}
+      <div class="typentest-wrap"><div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
+        <div style="font-size:3rem;margin-bottom:1rem;">🦁</div>
+        <h2 class="typentest-titel">Das Tier versteckt sich noch</h2>
+        <p style="color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:1.5rem;">Manchmal müssen wir zweimal hinschauen. Versuchen Sie es noch einmal – vielleicht fühlt sich eine andere Antwort ehrlicher an.</p>
+        <button class="typentest-start-btn" onclick="window._tqReset()">↺ Nochmal starten</button>
+      </div></div>
+    </div>
+  `);
+
   return shell(`
     <div class="page-container">
       ${pageHeader("Welches Tier bin ich?")}
@@ -2683,7 +2695,17 @@ function tierquizPage() {
           <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
           <br>
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.5rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
+          <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
+            <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Der Kompass zeigt Ihnen das vollständige Heilungswissen für Ihr Tier.</p>
+            <ul style="font-size:0.85rem;color:var(--muted);margin:0 0 1rem;padding-left:1.2rem;line-height:1.7;">
+              <li>Hunderte Schaubilder & Heilmittel für Ihren Subtyp</li>
+              <li>Alle 27 Subtyp-Portraits mit Tiefenpsychologie</li>
+              <li>Motivationale Typenbestimmung & Begleitung</li>
+            </ul>
+            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
+          </div>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
         </div>
       </div>
     </div>
@@ -31881,6 +31903,13 @@ function freischaltPage() {
         <div class="freischalt-card__lock">✦</div>
         <h1 class="freischalt-card__title">Enneagramm-Heilungskompass</h1>
         <p class="freischalt-card__desc">Das interaktive Navigationssystem für alle 27 Enneagramm-Subtypen — Blickqualitäten, Profiling, Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine, Teeempfehlungen, TCM, Musik und vieles mehr.</p>
+
+        <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
+          <li><strong style="color:var(--ink);">Alle 27 Subtyp-Portraits</strong> – tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
+          <li><strong style="color:var(--ink);">Hunderte Schaubilder</strong> – Enneagramm, Spiritualität, Philosophie, Musik & mehr</li>
+          <li><strong style="color:var(--ink);">Alle 3 Typen-Tests</strong> – Diagnose-, Struktur- & Motivationstest mit persönlicher Auswertung</li>
+          <li><strong style="color:var(--ink);">Einmalig kaufen</strong> – lebenslanger Zugang, wächst ständig weiter</li>
+        </ul>
 
         <div class="freischalt-card__angebote" style="justify-content:center;">
           <div class="freischalt-angebot freischalt-angebot--gesamt">
