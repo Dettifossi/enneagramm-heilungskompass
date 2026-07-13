@@ -4381,6 +4381,7 @@ function typentestMotivationalPage() {
 }
 
 function typentestPage() {
+  if (!hasBasis()) { go("freischalt/basis"); return ""; }
   const ts = testState;
   const navBar = () => pageHeader("typentest");
 
