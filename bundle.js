@@ -2601,9 +2601,9 @@ function tierquizPage() {
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(2)}
           <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Welcher Satz trifft auf dich am ehesten zu?</h2>
-          ${_tqBtn("„Ich will die Dinge in die Hand nehmen, stark sein und Kontrolle behalten."", "Stärke, Qualität, Frieden oder klare Ordnung sind mir wichtig.", "window._tqA('gut')")}
-          ${_tqBtn("„Ich will echte Verbindung, gesehen werden und wirklich dazugehören."", "Beziehungen, Anerkennung und Tiefe sind für mich zentral.", "window._tqA('heart')")}
-          ${_tqBtn("„Ich will verstehen, sicher sein und meine Optionen offenhalten."", "Wissen, Orientierung und Freiheit des Denkens sind mir wichtig.", "window._tqA('head')")}
+          ${_tqBtn("„Ich will die Dinge in die Hand nehmen, stark sein und Kontrolle behalten.“", "Stärke, Qualität, Frieden oder klare Ordnung sind mir wichtig.", "window._tqA('gut')")}
+          ${_tqBtn("„Ich will echte Verbindung, gesehen werden und wirklich dazugehören.“", "Beziehungen, Anerkennung und Tiefe sind für mich zentral.", "window._tqA('heart')")}
+          ${_tqBtn("„Ich will verstehen, sicher sein und meine Optionen offenhalten.“", "Wissen, Orientierung und Freiheit des Denkens sind mir wichtig.", "window._tqA('head')")}
         </div></div>
       </div>
     `);
