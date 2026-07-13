@@ -7933,7 +7933,7 @@ function inaMuellerPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Völlerei oder auch Maßlosigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der Hunger nach dem vollen Erleben, nach dem nächsten Lachen, dem nächsten Lied, dem nächsten echten Gespräch. Bei der sexuellen Sieben richtet sich dieser Hunger auf Menschen &ndash; auf die Fülle des Kontakts, auf die Tiefe des Augenblicks. Ina Müller singt, spielt, moderiert, tourt, schreibt &ndash; und hat dabei immer das Gefühl gemacht, dass sie nicht genug bekommen kann vom Leben.</p>
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der Hunger nach dem vollen Erleben, nach dem nächsten Lachen, dem nächsten Lied, dem nächsten echten Gespräch. Bei der sexuellen Sieben richtet sich dieser Hunger auf Menschen &ndash; auf die Fülle des Kontakts, auf die Tiefe des Augenblicks. Ina Müller singt, spielt, moderiert, tourt, schreibt &ndash; und hat dabei immer das Gefühl ausgedrückt, dass sie nicht genug bekommen kann vom Leben.</p>
           <p class="vb-intro">Das ist kein Übermaß im negativen Sinne. Es ist die SX7w8, die die Welt ganz nehmen will &ndash; und sie ganz gibt. Der Schimpanse greift nach allem, was lebt. Nicht aus Gier. Aus Liebe zum Leben selbst.</p>
         </blockquote>
 
