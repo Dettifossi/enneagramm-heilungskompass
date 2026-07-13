@@ -32645,30 +32645,19 @@ function _stilleInit() {
       master.gain.setValueAtTime(0.75, ctx.currentTime);
       master.connect(ctx.destination);
 
-      // Anschlag-Transient — kurzer Klöppel-Impuls
-      const buf = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.03), ctx.sampleRate);
-      const data = buf.getChannelData(0);
-      for (let i = 0; i < data.length; i++) data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / data.length, 2);
-      const click = ctx.createBufferSource();
-      click.buffer = buf;
-      const clickG = ctx.createGain();
-      clickG.gain.setValueAtTime(0.3, ctx.currentTime);
-      click.connect(clickG);
-      clickG.connect(master);
-      click.start(ctx.currentTime);
-
-      // Klangschale: langsam ausklingende inharmonische Obertöne
+      // Klangschale: sanft anschwellend, ohne Rausch-Transient
       [
-        { ratio: 1.0,   amp: 0.65, decay: 22 },
-        { ratio: 2.756, amp: 0.20, decay: 14 },
-        { ratio: 5.404, amp: 0.08, decay:  8 },
-        { ratio: 8.933, amp: 0.03, decay:  4 },
-      ].forEach(({ ratio, amp, decay }) => {
+        { ratio: 1.0,   amp: 0.65, decay: 22, attack: 0.012 },
+        { ratio: 2.756, amp: 0.20, decay: 14, attack: 0.008 },
+        { ratio: 5.404, amp: 0.08, decay:  8, attack: 0.005 },
+        { ratio: 8.933, amp: 0.03, decay:  4, attack: 0.003 },
+      ].forEach(({ ratio, amp, decay, attack }) => {
         const osc = ctx.createOscillator();
         const g   = ctx.createGain();
         osc.type = "sine";
         osc.frequency.value = freq * ratio;
-        g.gain.setValueAtTime(amp, ctx.currentTime + 0.01);
+        g.gain.setValueAtTime(0.0001, ctx.currentTime);
+        g.gain.exponentialRampToValueAtTime(amp, ctx.currentTime + attack);
         g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + decay);
         osc.connect(g);
         g.connect(master);
