@@ -335,6 +335,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Willy Brandt – Sozialer Typ 9",
     teaser:"SO9w8 · 1913–1992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau – ein Schweigen, das Geschichte schrieb. Tierentsprechung: Büffel.",
     tags:["Politik"] },
+  { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
+    heading:"Keanu Reeves – Sexueller Typ 9",
+    teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
+    tags:["Kultur"] },
 ];
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -8539,6 +8543,64 @@ function steffiGrafPortraitPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function keanuReevesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-keanu-reeves-portrait.jpg" alt="Keanu Reeves" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Keanu Reeves</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1964 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und kein Bild trifft Keanu Reeves genauer, auch wenn es auf den ersten Blick paradox wirkt: Denn Faultiere sind nicht faul. Sie sind äußerst energiesparend &ndash; sie machen <em>genau das, was nötig ist</em>, mit einem Minimum an Aufwand und einem Maximum an Wirkung. Das Faultier h\xe4ngt still im Baum, bewegt sich kaum &ndash; und niemand kommt auf die Idee, es zu untersch\xe4tzen.</p>
+          <p class="vb-intro">Keanu Reeves ist einer der erfolgreichsten Schauspieler der Welt. Er hat mit <em>The Matrix</em> (1999) eine der ikonischsten Filmfiguren des Kinos verkörpert, mit <em>John Wick</em> eine der intensivsten Actionrollen der letzten Jahrzehnte gespielt &ndash; und ist im wirklichen Leben der Mann, der allein auf einer Parkbank sitzt und ein Sandwich isst. Kein Bodyguard, kein Entourage. Der Faultier-Mensch braucht keine Bühne. Er ist einfach da.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Union</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Union</em>: das tiefe Verlangen nach Verschmelzung &ndash; mit einer Person, einer Rolle, einer Welt, einer Idee. Die SX9 sucht nicht Zugehörigkeit zu einer Gruppe wie die soziale Neun, sondern das vollst\xe4ndige Eintauchen in das Andere. Sie l\xf6st sich auf &ndash; in den Partner, in den Charakter, in die Stille des Augenblicks.</p>
+          <p class="vb-intro">Keanu Reeves spielt keine Rollen. Er <em>wird</em> sie. Als Neo in <em>The Matrix</em> trainierte er monatelang, lernte Kampfsport auf Profi-Niveau, arbeitete mit buddhistischen Philosophen zusammen, um die existenzielle Leere des Charakters von innen zu verstehen &ndash; nicht nachzuahmen. Als John Wick absolvierte er Tausende Stunden Waffentraining und Combat-Choreographie, bis die Bewegungen keine Technik mehr waren, sondern Körpergedächtnis. Das ist keine Methodik. Das ist SX9-Verschmelzung: Die Rolle ist nicht Mittel zum Zweck &ndash; die Rolle <em>ist</em> er, f\xfcr die Dauer des Films.</p>
+          <p class="vb-intro">Im pers\xf6nlichen Leben zeigt sich dieselbe Qualit\xe4t. Keanu Reeves hat schwere Verluste erlitten &ndash; seine Tochter kam 1999 tot zur Welt, wenige Monate sp\xe4ter starb seine damalige Partnerin Jennifer Syme bei einem Autounfall. Er hat dar\xfcber nie ge\xf6ffentlicht, nie Mitleid eingefordert, nie eine Talkshow-Konfession gemacht. Die SX9 tr\xe4gt ihren Schmerz innen. Was nach au\xdfen kommt, ist Stille &ndash; und manchmal, in einem unbeobachteten Moment auf einer Parkbank, ein kurzer Blick, der alles sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Das stille Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sexuellen Neun eine innere Haltung, die \xfcber blo\xdfes Mitmachen hinausgeht: ein Gef\xfchl f\xfcr Richtigkeit, f\xfcr das, was man schuldet &ndash; dem Beruf, den Menschen, dem Augenblick. Die <strong>SX9w1</strong> ist nicht einfach nur ruhig. Sie hat Prinzipien. Sie wei\xdf, was sie nicht tut.</p>
+          <p class="vb-intro">Keanu Reeves hat f\xfcr <em>The Matrix</em> einen Teil seines Gewinnanteils freiwillig an die Spezialeffekt- und Kostümabteilung abgetreten &ndash; Berichten zufolge bis zu 80 Millionen Dollar. Er ist daf\xfcr nicht auf die B\xfchne gegangen. Er hat kein Interview gegeben. Er hat einfach entschieden, dass das richtig ist, und es getan. Das ist der Einserf l\xfcgel in Aktion: Gerechtigkeit nicht als Pose, sondern als stille Selbstverst\xe4ndlichkeit.</p>
+          <p class="vb-intro">Er kaufte seinen Stunt-Doubles Motorr\xe4der als Geschenk. Er benutzt die New Yorker U-Bahn und gibt seinen Sitzplatz an \xe4ltere Mitreisende ab. Er bringt Kaffee und Donuts ans Filmset. Diese Handlungen sind keine PR-Strategie &ndash; sie wurden von anderen bemerkt und berichtet, nicht von ihm selbst. Der Einserfl\xfcgel macht das Richtige dann, wenn niemand hinschaut. Genau dann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> &ndash; nicht Faulheit, sondern eine Schwerkraft nach innen: die Neigung, im Strom zu bleiben statt aufzutauchen, die eigene Stimme im Hintergrund zu lassen, das eigene Wollen nicht zu stark in den Vordergrund zu stellen. Die Neun schläft nicht &ndash; aber sie flüstert, wo andere schreien.</p>
+          <p class="vb-intro">Bei Keanu Reeves zeigt sich das in seiner bemerkenswerten Abwesenheit vom Betrieb des Ruhms. Er gibt keine Interviews, die er nicht geben muss. Er erscheint nicht auf Veranstaltungen, auf denen er nicht sein muss. Er redet nicht \xfcber sich selbst &ndash; er redet \xfcber die Figur, die Geschichte, die Crew. Die SX9-Tr\xe4gheit ist kein R\xfcckzug aus dem Leben, sondern ein R\xfcckzug aus dem Spektakel. Das Leben selbst &ndash; die echten Begegnungen, die stillen Momente, die tiefe Verbindung &ndash; das interessiert ihn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Der Spiegel ohne Rahmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Keanu Reeves auf der Leinwand so wirkungsvoll macht, ist paradoxerweise genau das, was ihn au\xdferhalb der Leinwand so unauff\xe4llig erscheinen l\xe4sst: Er enth\xe4lt sich selbst. Er bringt das Minimum an Pers\xf6nlichkeit mit, das n\xf6tig ist &ndash; und l\xe4sst die Figur den Rest f\xfcllen. Publikum kann sich in Neo oder John Wick hineinsehen, weil Reeves keine Barriere errichtet. Er ist ein Spiegel &ndash; aber einer ohne Rahmen.</p>
+          <p class="vb-intro">Das Geschenk der SX9w1 ist diese Pr\xe4senz ohne Anspruch: die F\xe4higkeit, vollst\xe4ndig anwesend zu sein, ohne die Aufmerksamkeit auf sich selbst zu lenken &ndash; und dabei Menschen zu ber\xfchren, die es nicht einmal erklären können. Keanu Reeves ist seit Jahrzehnten einer der bekanntesten Menschen der Welt &ndash; und die meisten Menschen w\xfcrden ihn, wenn sie ihm auf der Stra\xdfe begegnen w\xfcrden, zuerst fragen, ob es ihm gut geht. Das Faultier macht keinen Lärm. Aber es hinterl\xe4sst eine Stille, die noch lange nachklingt.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
       ])}
     </div>
   `);
@@ -33823,6 +33885,7 @@ function render() {
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
+      "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
