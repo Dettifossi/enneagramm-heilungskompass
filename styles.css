@@ -1946,12 +1946,25 @@ textarea:focus {
   }
 
   .topline {
+    flex-direction: column;
     align-items: stretch;
+    gap: 8px;
+    padding-bottom: 14px;
+  }
+
+  .brand {
+    justify-content: center;
   }
 
   .tabbar {
     overflow-x: auto;
     justify-content: flex-start;
+    border-radius: 14px;
+    scrollbar-width: none;
+  }
+
+  .tabbar::-webkit-scrollbar {
+    display: none;
   }
 
   .dashboard {
