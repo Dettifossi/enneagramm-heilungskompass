@@ -400,7 +400,13 @@ const state = {
 let testState = { phase: 0, triad: null, scores: {}, instinkt: null, qIndex: 0 };
 
 // Motivationaler Typentest-Zustand (session-only)
-let motivState = { phase: "intro", qIndex: 0, answers: {} };
+let motivState = (() => {
+  try {
+    const saved = localStorage.getItem("kompass:motivState");
+    if (saved) return JSON.parse(saved);
+  } catch(e) {}
+  return { phase: "intro", qIndex: 0, answers: {} };
+})();
 
 // Diagnosetest-Zustand (session-only)
 let diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
@@ -2725,13 +2731,14 @@ function tierquizPage() {
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
           <div style="font-size:5rem;margin-bottom:0.5rem;">${emoji}</div>
-          <p class="eyebrow" style="margin-bottom:0.3rem;">Dein Enneagramm-Tier</p>
+          <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
-          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${code} &ndash; ${s.inst === "SE" ? "Selbsterhaltend" : s.inst === "SO" ? "Sozial" : "Sexuell"} &middot; Typ ${s.type}</p>
+          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" ? "Selbsterhaltender" : s.inst === "SO" ? "Sozialer" : "Sexueller"} Typ ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
           <p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin-bottom:1.8rem;text-align:left;">${beschr}</p>
           <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
           <br>
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
+          <button onclick="window._tqShare('${emoji} Ich bin ${tier} (${code}) – mein Enneagramm-Tier im Heilungskompass von Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Ergebnis teilen</button>
           <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
             <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Der Kompass zeigt Ihnen das vollständige Heilungswissen für Ihr Tier.</p>
@@ -2763,6 +2770,17 @@ window._tqA = function(val) {
   _tqNav();
 };
 window._tqReset = function() { window._tqState = null; _tqNav(); };
+window._tqShare = function(text) {
+  if (navigator.share) {
+    navigator.share({ text: text, url: "https://kompass.verlagshausrathmer.com/#tierquiz" }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Text wurde kopiert – jetzt einfach einfügen!");
+    }).catch(() => {
+      prompt("Text zum Kopieren:", text);
+    });
+  }
+};
 // ─── Ende Welches-Tier-Quiz ──────────────────────────────────────────────────
 
 function quizPage() {
@@ -4714,10 +4732,15 @@ function bindTypentest() {
   document.getElementById("tt-back-q")?.addEventListener("click", () => { if (testState.qIndex > 0) { testState.qIndex--; render(); } });
 }
 
+function _saveMotivState() {
+  try { localStorage.setItem("kompass:motivState", JSON.stringify(motivState)); } catch(e) {}
+}
+
 function bindMotivtest() {
   // Intro → Start
   document.querySelector("[data-motiv-start]")?.addEventListener("click", () => {
     motivState = { phase: "test", qIndex: 0, answers: {} };
+    _saveMotivState();
     history.pushState({test:true}, "");
     render();
   });
@@ -4729,6 +4752,7 @@ function bindMotivtest() {
     } else {
       motivState.phase = "result";
     }
+    _saveMotivState();
     history.pushState({test:true}, "");
     render();
   });
@@ -4768,6 +4792,7 @@ function bindMotivtest() {
         // Both taken → replace second
         motivState.answers[nr] = { first: cur.first, second: letter };
       }
+      _saveMotivState();
       render();
     });
   });
@@ -4775,6 +4800,7 @@ function bindMotivtest() {
   // Reset
   document.querySelector("[data-motiv-reset]")?.addEventListener("click", () => {
     motivState = { phase: "intro", qIndex: 0, answers: {} };
+    localStorage.removeItem("kompass:motivState");
     render();
   });
 }
@@ -4873,6 +4899,7 @@ function diagnosetestPage() {
             <p class="eyebrow">Ihr Ergebnis</p>
             <div class="diag-result__typ">Typ ${winner.typ} &ndash; ${winner.name}</div>
             <p class="typentest-intro">Von ${winner.total} Aussagen haben Sie <strong>${winner.score}</strong> als zutreffend angekreuzt.</p>
+            ${TYPKURZ[winner.typ] ? `<p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin:0.8rem 0 0;font-style:italic;">${TYPKURZ[winner.typ]}</p>` : ""}
           </div>
           <ul class="diag-scores">${bars}</ul>
           <div style="margin:1.5rem 0;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
