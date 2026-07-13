@@ -2601,7 +2601,7 @@ function tierquizPage() {
             <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
             <p class="typentest-intro">3 kurze Fragen – und du erfährst, welches der 27 Enneagramm-Tiere am ehesten zu dir passt.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
-              <strong>Kurzer Hinweis, bevor du startest:</strong> Kein Test kann beweisen, wer du wirklich bist – denn du bewertest dich selbst, und du hast wie jeder Mensch blinde Flecken für deine eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nimm das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
+              <strong>Kurzer Hinweis, bevor Sie starten:</strong> Kein Test kann beweisen, wer Sie wirklich sind – denn Sie bewerten sich selbst, und wir alle haben blinde Flecken für unsere eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nehmen Sie das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
             </div>
             <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kostenlos &middot; kein Konto nötig</p>
             <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
@@ -4429,7 +4429,7 @@ function typentestPage() {
           <h1 class="typentest-titel">Den Code deiner Persönlichkeit entschlüsseln</h1>
           <p class="typentest-intro">Dieser Test führt dich in drei Schritten zu einem ersten Hinweis auf deinen Enneagrammtyp und Instinktschwerpunkt. Er dauert etwa 7&ndash;10 Minuten.</p>
           <div class="typentest-hinweis">
-            <strong>Wichtiger Hinweis, bevor du startest:</strong> Kein Test kann deinen Typ wirklich beweisen – denn du füllst ihn selbst aus, und du bist wie jeder Mensch für deine eigenen psychologischen und seelischen Anteile oft blind. Das Ergebnis ist daher immer nur eine <em>Annäherung</em>: Es macht dich mit den Fragestellungen des Enneagramms vertraut und gibt einen ersten Orientierungshinweis. Je umfangreicher ein Test, desto näher kommt er einer möglichen Typenbestimmung – aber auch dieser Test ersetzt keine persönliche Begleitung oder Typisierungsberatung. Geh offen und neugierig in die Fragen – ohne den Anspruch, sofort die endgültige Antwort zu finden.
+            <strong>Wichtiger Hinweis, bevor Sie starten:</strong> Kein Test kann Ihren Typ wirklich beweisen – denn Sie füllen ihn selbst aus, und wir alle sind für unsere eigenen psychologischen und seelischen Anteile oft blind. Das Ergebnis ist daher immer nur eine <em>Annäherung</em>: Es macht Sie mit den Fragestellungen des Enneagramms vertraut und gibt einen ersten Orientierungshinweis. Je umfangreicher ein Test, desto näher kommt er einer möglichen Typenbestimmung – aber auch dieser Test ersetzt keine persönliche Begleitung oder Typisierungsberatung. Gehen Sie offen und neugierig in die Fragen – ohne den Anspruch, sofort die endgültige Antwort zu finden.
           </div>
           <div class="typentest-steps">
             <div class="typentest-step"><span class="typentest-step__num">1</span><span>Triade erkennen <small>(Bauch · Herz · Kopf)</small></span></div>
