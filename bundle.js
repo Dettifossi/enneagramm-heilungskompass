@@ -275,6 +275,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
+    heading:"Hazel Brugger – Sozialer Typ 7",
+    teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
+    tags:["Schauspiel / Film","Musik"] },
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
@@ -7826,6 +7830,61 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmine Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function hazelBruggerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_440,h_440,c_fill/kompass/assets/beruehmte-hazel-brugger-portrait.jpg" alt="Hazel Brugger" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hazel Brugger</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Comedian, Kabarettistin &amp; Autorin, geb. 1993 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und Hazel Brugger ist ein Biber, der auf der Bühne baut. Der Biber erschafft etwas, wo vorher nichts war: Er staut Wasser auf, verändert Landschaften, macht aus Stille Bewegung. Hazel Brugger betritt die Bühne &ndash; und danach ist der Raum ein anderer. Nicht weil sie laut wäre. Sondern weil ihre Gedanken Dämme bauen, die das Wasser der Realität aufstauen und in eine andere Richtung lenken.</p>
+          <p class="vb-intro">Biber sind Einzelgänger, die trotzdem für andere bauen. Sie konstruieren ihr Habitat nicht für die Galerie, sondern weil sie gar nicht anders können &ndash; und was entsteht, nützt dem ganzen Ökosystem. Hazel Brugger schreibt Bücher, steht auf der Bühne, moderiert, bloggt, podcastet, slamt. Der Biber hat immer ein neues Projekt. Und alle, die zuschauen, profitieren davon.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Humor als Weltgestaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Subtyp der Sieben, der am stärksten nach außen wirkt &ndash; der, bei dem die Freude nicht nur persönlich bleibt, sondern zum gesellschaftlichen Projekt wird. Naranjo beschrieb diesen Subtyp als <em>Sacrifice</em>: Die SO7 gibt ihre eigene Energie in den Dienst einer größeren Idee &ndash; und findet darin ihre eigentliche Freude.</p>
+          <p class="vb-intro">Für Hazel Brugger ist Humor kein Unterhaltungsformat. Es ist eine Erkenntnisform. Sie nimmt Alltagsbeobachtungen &ndash; über Beziehungen, Körper, Gesellschaft, Sprache &ndash; und dehnt sie so lange, bis die Absurdität, die immer schon darin steckte, sichtbar wird. Das ist die SO7 bei der Arbeit: Wirklichkeit so arrangieren, dass andere sie plötzlich anders sehen können. Der Biber baut keinen Damm für sich. Er baut ihn, damit sich das Wasser sammeln kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Schärfe hinter dem Lachen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sozialen Sieben eine Qualität, die nicht jeder Sieben zur Verfügung steht: Schlagkraft. Die reine Sieben kann ausweichen, verharmlosen, das Unangenehme in Humor auflösen, bevor es wirklich landet. Der Achterflügel hält dagegen. Er sagt: Nein, das darf auch treffen. Humor muss nicht immer kuschelig sein.</p>
+          <p class="vb-intro">Hazel Brugger ist nicht nur witzig &ndash; sie ist präzise. Ihre Pointen haben Zähne. Sie seziert gesellschaftliche Selbstverständlichkeiten mit einer Direktheit, die den Achterflügel verrät: Kein Thema ist zu heiß, keine Beobachtung zu unbequem, um auf der Bühne ausgesprochen zu werden. Der Biber mit Achterflügel fällt den Baum nicht zögerlich. Er fällt ihn genau dort, wo er gebraucht wird &ndash; und wundert sich nicht, wenn die Erschütterung zu spüren ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei oder auch Maßlosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der unstillbare Hunger nach Erfahrung, Ausdruck, Bedeutung. In der sozialen Sieben richtet sich dieser Hunger nicht auf Genuss im privaten Sinne, sondern auf Wirkung. Mehr Formate, mehr Perspektiven, mehr Themen, mehr Reichweite. Hazel Brugger steht nicht nur auf einer Bühne. Sie schreibt, bloggt, podcastet, moderiert, slamt, veröffentlicht. Der Biber ruht nicht, solange es noch etwas zu bauen gibt.</p>
+          <p class="vb-intro">Das ist kein Getriebensein im neurötischen Sinne &ndash; das ist die Sieben, die in der Fülle des Ausdrucks ihre Heimat findet. Nicht Angst treibt den Biber. Es ist die Freude am nächsten Damm, der noch nicht fertig ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: ein Lachen, das denkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hazel Brugger ihrem Publikum gibt, ist seltener als es klingt: ein Lachen, das denkt. Nicht Unterhaltung als Betäubung, sondern Humor als Erkenntnisweg. Man geht aus ihren Shows raus und sieht die Welt etwas schräger &ndash; und weil man sie schräger sieht, sieht man sie klarer. Das ist die Gabe der SO7w8: Freude, die schärft, statt zu betäuben.</p>
+          <p class="vb-intro">Der Biber verändert, was er berührt. Hazel Brugger verändert, wie man denkt &ndash; mit Tempo, Tiefe und dem Achterflügel, der sicherstellt, dass die Pointe auch landet, wenn sie wehtut. Das ist die soziale Sieben mit Achterflügel. Das ist der Biber auf der Bühne.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);
@@ -33086,6 +33145,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
