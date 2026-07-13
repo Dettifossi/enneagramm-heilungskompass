@@ -434,6 +434,43 @@ window.addEventListener("hashchange", () => {
   }, 300);
 });
 
+// Browser-Zurück innerhalb von Tests abfangen
+window.addEventListener("popstate", (e) => {
+  const base = location.hash.replace("#", "").split("/")[0];
+
+  // Tierquiz
+  if (base === "tierquiz" && window._tqState) {
+    const s = window._tqState;
+    if (s.step > 1) { s.step--; render(); return; }
+    window._tqState = null; render(); return;
+  }
+
+  // Struktureller Typentest
+  if (base === "typentest") {
+    const ts = testState;
+    if (ts.phase === 2 && ts.qIndex > 0) { ts.qIndex--; history.pushState({test:true}, ""); render(); return; }
+    if (ts.phase === 2) { ts.phase = 1; history.pushState({test:true}, ""); render(); return; }
+    if (ts.phase === 3) { ts.phase = 2; ts.qIndex = TYPFRAGEN[ts.triad].length - 1; history.pushState({test:true}, ""); render(); return; }
+    if (ts.phase >= 4) { ts.phase = 0; render(); return; }
+  }
+
+  // Motivationaler Typentest
+  if (base === "typentest-motivational") {
+    const ms = motivState;
+    if (ms.phase === "test" && ms.qIndex > 0) { ms.qIndex--; history.pushState({test:true}, ""); render(); return; }
+    if (ms.phase === "test") { ms.phase = "intro"; render(); return; }
+    if (ms.phase === "result") { ms.phase = "test"; ms.qIndex = MOTIVTEST.length - 1; history.pushState({test:true}, ""); render(); return; }
+  }
+
+  // Diagnosetest
+  if (base === "diagnosetest") {
+    const ds = diagnoseState;
+    if (ds.phase === "step" && ds.step > 0) { ds.step--; history.pushState({test:true}, ""); render(); return; }
+    if (ds.phase === "step") { diagnoseState = { phase: "intro", step: 0, order: [], checks: {} }; render(); return; }
+    if (ds.phase === "result") { ds.phase = "step"; ds.step = 8; history.pushState({test:true}, ""); render(); return; }
+  }
+});
+
 function go(route) {
   location.hash = route;
 }
@@ -4637,6 +4674,7 @@ function bindTypentest() {
       testState.phase = 2;
       testState.qIndex = 0;
       testState.scores = {};
+      history.pushState({test:true}, "");
       render();
     });
   });
@@ -4649,9 +4687,11 @@ function bindTypentest() {
       const total = TYPFRAGEN[testState.triad].length;
       if (testState.qIndex < total - 1) {
         testState.qIndex++;
+        history.pushState({test:true}, "");
         render();
       } else {
         testState.phase = 3;
+        history.pushState({test:true}, "");
         render();
       }
     });
@@ -4662,6 +4702,7 @@ function bindTypentest() {
     btn.addEventListener("click", () => {
       testState.instinkt = btn.dataset.ttInstinkt;
       testState.phase = 4;
+      history.pushState({test:true}, "");
       render();
     });
   });
@@ -4677,6 +4718,7 @@ function bindMotivtest() {
   // Intro → Start
   document.querySelector("[data-motiv-start]")?.addEventListener("click", () => {
     motivState = { phase: "test", qIndex: 0, answers: {} };
+    history.pushState({test:true}, "");
     render();
   });
 
@@ -4687,6 +4729,7 @@ function bindMotivtest() {
     } else {
       motivState.phase = "result";
     }
+    history.pushState({test:true}, "");
     render();
   });
 
@@ -4858,6 +4901,7 @@ function bindDiagnosetest() {
   document.querySelector("[data-diag-start]")?.addEventListener("click", () => {
     const order = [0,1,2,3,4,5,6,7,8].sort(() => Math.random() - 0.5);
     diagnoseState = { phase: "step", step: 0, order, checks: {} };
+    history.pushState({test:true}, "");
     render();
   });
 
@@ -4867,6 +4911,7 @@ function bindDiagnosetest() {
     } else {
       diagnoseState.phase = "result";
     }
+    history.pushState({test:true}, "");
     render();
   });
 
