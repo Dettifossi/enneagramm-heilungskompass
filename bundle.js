@@ -835,6 +835,12 @@ function inhaltsübersichtPage() {
                    cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">
             Jetzt freischalten &#8594;
           </button>
+          <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
+            Noch unsicher? <button data-route="tierquiz"
+              style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">
+              &#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest
+            </button>
+          </p>
         </div>
       </div>
 
@@ -1023,6 +1029,7 @@ function leseprobePage() {
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Schaubilder &middot; Alle 27 Subtyp-Portraits &middot; Subtypspezifische Heilmittel & Naturheilkunde</p>
         <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Jetzt freischalten &#8594;</button>
+        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Noch unsicher? <button data-route="tierquiz" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">&#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest</button></p>
       </div>
 
     </div>
