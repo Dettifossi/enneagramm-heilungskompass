@@ -445,7 +445,11 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du aufhörst, nur zu funktionieren, erscheint dein Wert ohne Leistung und Anpassung.",
     daily: {
       topic: "Leistung & Erfolg",
-      impulse: "Ich bin wertvoll, wenn ich leiste, wenn ich nützlich und erfolgreich bin. Durch meine Leistung erreiche ich Ziele, schaffe Wert und bekomme Anerkennung.",
+      impulse: [
+        "Ich bin wertvoll, wenn ich leiste, wenn ich nützlich und erfolgreich bin. Durch meine Leistung erreiche ich Ziele, schaffe Wert und bekomme Anerkennung.",
+        "Mein Wert liegt nicht in dem, was ich erreiche, sondern in dem, wer ich bin. Heute übe ich, einfach da zu sein – ohne Bühne, ohne Publikum.",
+        "Echte Ausstrahlung entsteht nicht durch Inszenierung, sondern durch inneren Kontakt. Was fühle ich wirklich – jenseits des Erfolges?",
+      ],
       question: "Wer bin ich heute jenseits meiner Leistung?",
       step: "Erkennen, dass ständiges Funktionieren von echten Gefühlen entfernt.",
       body: "Sicherheit durch Routine",

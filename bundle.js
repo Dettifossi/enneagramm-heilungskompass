@@ -1355,9 +1355,9 @@ function dashboardPage() {
       </div>
     </section>
     <section class="daily-grid">
-      ${infoCard(copy.dailyImpulse, p.daily.impulse)}
-      ${infoCard(copy.reflectionQuestion, p.daily.question)}
-      ${infoCard(copy.nextStep, p.daily.step)}
+      ${infoCard(copy.dailyImpulse, dailyPick(p.daily.impulse))}
+      ${infoCard(copy.reflectionQuestion, dailyPick(p.daily.question))}
+      ${infoCard(copy.nextStep, dailyPick(p.daily.step))}
     </section>
     <section class="quick-actions">
       <button class="primary" data-route="reflection">${copy.reflectToday}</button>
@@ -3913,6 +3913,10 @@ function statusLabel(status) {
   return text.statusLabels[status] || status;
 }
 
+function dailyPick(val) {
+  const day = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+  return Array.isArray(val) ? val[day % val.length] : val;
+}
 function infoCard(title, text) {
   return `<article class="info-card"><span>${title}</span><p>${text}</p></article>`;
 }
