@@ -25443,6 +25443,296 @@ function abwehrverhalteDer9TypenPage() {
   `);
 }
 
+
+function bewusstseinsgradTestPage() {
+  const DATA = {
+    1: { name:"Typ 1 – Der Reformer", stufen:[
+      {level:"1–2", label:"Zwanghafter Heuchler · Gnadenloser Rächer",   farbe:"#c0392b", text:"Ich fühle mich von Wut und bitterem Groll überwältigt. Andere halten meine Maßstäbe nie ein – das empfinde ich als unerträglich."},
+      {level:"3–4", label:"Intoleranter · Besserwisserischer Perfektionist", farbe:"#e67e22", text:"Ich sage den Menschen, was richtig und falsch ist – auch wenn sie es nicht hören wollen. Kompromisse fühlen sich wie Qualitätsverlust an."},
+      {level:"5–6", label:"Ordnungssüchtiger Mensch · Idealistischer Reformer", farbe:"#f1c40f", text:"Ich setze hohe Maßstäbe – für mich und andere. Innere Kritik ist mein ständiger Begleiter, aber sie hält mich auf Kurs."},
+      {level:"7–8", label:"Prinzipientreuer Lehrer · Vernunftsbegabter Mensch", farbe:"#27ae60", text:"Ich engagiere mich für das, was ich für richtig halte, ohne andere zu verurteilen. Fehler – auch meine eigenen – kann ich gelassen annehmen."},
+      {level:"9",   label:"Weiser Realist",                                farbe:"#2980b9", text:"Ich handle aus tiefer innerer Überzeugung und Weisheit, ohne mich an Regeln zu klammern. In mir herrscht Friede mit der Unvollkommenheit des Lebens."},
+    ]},
+    2: { name:"Typ 2 – Der Helfer", stufen:[
+      {level:"1–2", label:"Dominanter Erpresser · Psychosomatisches Opfer", farbe:"#c0392b", text:"Ich fühle mich ausgenutzt und nicht gewürdigt, obwohl ich alles für andere tue. Manchmal manipuliere ich, um Anerkennung zu bekommen."},
+      {level:"3–4", label:"Selbstbetrügerischer Manipulierer · Überheblicher Heiliger", farbe:"#e67e22", text:"Ich gebe viel – und erwarte innerlich Dankbarkeit. Wenn die ausbleibt, bin ich tief verletzt."},
+      {level:"5–6", label:"Besitzergreifender Intimfreund · Großsprecherischer Freund", farbe:"#f1c40f", text:"Ich helfe gerne, aber manchmal frage ich mich: Tue ich das für andere – oder weil ich gebraucht werden möchte?"},
+      {level:"7–8", label:"Fürsorglicher · Einfühlsamer",                  farbe:"#27ae60", text:"Ich kann aufrichtig geben, ohne eine Gegenleistung zu erwarten. Meine Fürsorge kommt aus dem Herzen."},
+      {level:"9",   label:"Uneigennütziger Altruist",                      farbe:"#2980b9", text:"Ich liebe bedingungslos – mich selbst eingeschlossen. Geben und Empfangen sind für mich in tiefer Balance."},
+    ]},
+    3: { name:"Typ 3 – Der Macher", stufen:[
+      {level:"1–2", label:"Böswilliger Verräter · Rachsüchtiger Psychopath", farbe:"#c0392b", text:"Ich bin bereit, über Leichen zu gehen, um meine Ziele zu erreichen. Loyalität zählt wenig, wenn sie meinem Erfolg im Weg steht."},
+      {level:"3–4", label:"Ausbeuterischer Opportunist · Durchsetzungsstarker Narzisst", farbe:"#e67e22", text:"Ich passe mein Image der Situation an und verliere dabei manchmal, wer ich wirklich bin."},
+      {level:"5–6", label:"Imageorientierter Pragmatiker · Statusbesessener", farbe:"#f1c40f", text:"Erfolg ist mir wichtig – manchmal zu wichtig. Ich bemerke, dass ich mich mehr mit meinen Leistungen identifiziere als mit mir selbst."},
+      {level:"7–8", label:"Großes Vorbild · Selbstsicherer Mensch",         farbe:"#27ae60", text:"Ich bin authentisch und erfolgreich zugleich. Meine Leistungen sind echt – ich muss nichts vortäuschen."},
+      {level:"9",   label:"Authentische Persönlichkeit",                   farbe:"#2980b9", text:"Ich bin ich – vollständig und ohne Maske. Erfolg ist schön, aber nicht das, was mich ausmacht."},
+    ]},
+    4: { name:"Typ 4 – Der Individualist", stufen:[
+      {level:"1–2", label:"Emotional Leidender · Selbstzerstörerischer",   farbe:"#c0392b", text:"Ich fühle mich hoffnungslos missverstanden und kämpfe mit tiefer Selbstzerstörung. Der Schmerz scheint kein Ende zu haben."},
+      {level:"3–4", label:"Selbstentfremdeter Depressiver · Schwacher Ästhet", farbe:"#e67e22", text:"Ich leide – manchmal intensiver als nötig. Schmerz fühlt sich echter an als Freude."},
+      {level:"5–6", label:"Selbstverliebter Introvertierter · Fantasievoller Künstler", farbe:"#f1c40f", text:"Ich bin kreativ und tief fühlend, aber neige dazu, mich in Gefühlen zu verlieren und andere auf Abstand zu halten."},
+      {level:"7–8", label:"Sich offenbarender Mensch · Intuitiv Lebender",  farbe:"#27ae60", text:"Ich lebe meine Einzigartigkeit authentisch und kann tiefe Gefühle in echte Kreativität verwandeln."},
+      {level:"9",   label:"Inspiriert-schöpferischer Mensch",              farbe:"#2980b9", text:"Ich bin zutiefst schöpferisch und in mich selbst verwurzelt. Mein Anderssein ist ein Geschenk, kein Fluch."},
+    ]},
+    5: { name:"Typ 5 – Der Beobachter", stufen:[
+      {level:"1–2", label:"Von Wahnvorstellungen Gequälter · Leerer Schizoider", farbe:"#c0392b", text:"Ich habe mich vollständig aus der Welt zurückgezogen. Kontakt mit anderen kostet mehr, als ich habe."},
+      {level:"3–4", label:"Isolierter Nihilist · Extremer Reduktionist",    farbe:"#e67e22", text:"Ich lebe lieber in meiner Gedankenwelt als in der Realität. Beziehungen erschöpfen mich schnell."},
+      {level:"5–6", label:"Versponnener Theoretiker · Analytiker & Spezialist", farbe:"#f1c40f", text:"Ich beobachte lieber, als zu handeln. Wissen gibt mir Sicherheit, aber ich setze es selten um."},
+      {level:"7–8", label:"Kundiger Experte · Erkennender Beobachter",      farbe:"#27ae60", text:"Ich teile mein Wissen gerne und merke, dass echte Verbindung mich bereichert, nicht erschöpft."},
+      {level:"9",   label:"Pionier & Visionär",                             farbe:"#2980b9", text:"Ich bin ein Visionär mit Bodenhaftung – mein Wissen fließt in die Welt und verändert sie."},
+    ]},
+    6: { name:"Typ 6 – Der Loyale", stufen:[
+      {level:"1–2", label:"Hysteriker · Selbstzerstörerischer Masochist",   farbe:"#c0392b", text:"Ich bin von Angst gelähmt oder schlage blind um mich. Überall sehe ich Bedrohungen."},
+      {level:"3–4", label:"Unsicherer Mensch · Überkompensierter (harter) Typ", farbe:"#e67e22", text:"Ich zweifle ständig – an mir, an anderen, an Entscheidungen. Sicherheit finde ich kaum."},
+      {level:"5–6", label:"Ambivalenter · Gehorsamer Traditionalist",       farbe:"#f1c40f", text:"Ich bin loyal und engagiert, aber Vertrauen fällt mir schwer. Worst-Case-Szenarien beschäftigen mich viel."},
+      {level:"7–8", label:"Engagierter & loyaler Freund · Liebenswerter Mensch", farbe:"#27ae60", text:"Ich vertraue mir selbst und den Menschen, die ich kenne. Meine Loyalität ist eine echte Stärke."},
+      {level:"9",   label:"Selbstbejahende Persönlichkeit",                 farbe:"#2980b9", text:"Ich ruhe in mir selbst – Angst ist nicht mehr mein Steuermann. Ich vertraue dem Leben."},
+    ]},
+    7: { name:"Typ 7 – Der Enthusiast", stufen:[
+      {level:"1–2", label:"Manisch-triebhafter Mensch · Panischer Hysteriker", farbe:"#c0392b", text:"Ich flüchte in Sucht, Panik oder Hysterie. Die Leere, die ich verdränge, holt mich ein."},
+      {level:"3–4", label:"Impulsiver Realitäts-Flüchtling · Exzessiver Materialist", farbe:"#e67e22", text:"Ich springe von einer Idee zur nächsten, ohne wirklich anzukommen. Tiefe ist selten – Ablenkung ständig."},
+      {level:"5–6", label:"Hyperaktiver Extravertierter · Welterfahrener Lebenskünstler", farbe:"#f1c40f", text:"Ich genieße das Leben und halte viele Optionen offen. Manchmal habe ich das Gefühl, etwas zu verpassen."},
+      {level:"7–8", label:"Tüchtiger Alleskönner · Glücklicher Enthusiast",  farbe:"#27ae60", text:"Ich bin präsent und genieße das Leben voll – ohne ständig woanders sein zu wollen."},
+      {level:"9",   label:"Ekstatischer Genießer",                          farbe:"#2980b9", text:"Ich lebe in tiefer Dankbarkeit und Fülle. Das Jetzt ist genug – ich brauche nichts mehr zu jagen."},
+    ]},
+    8: { name:"Typ 8 – Der Herausforderer", stufen:[
+      {level:"1–2", label:"Allmächtiger Größenwahnsinniger · Gewalttätiger Zerstörer", farbe:"#c0392b", text:"Ich setze Macht rücksichtslos ein. Schwäche – in mir oder anderen – löst Verachtung aus."},
+      {level:"3–4", label:"Skrupelloser Tyrann · Feindseliger Kämpfer",      farbe:"#e67e22", text:"Ich kämpfe um Kontrolle und Dominanz. Verletzlichkeit zeige ich nicht – das wäre Schwäche."},
+      {level:"5–6", label:"Dominierender Machtmensch · Unternehmungslustiger Abenteurer", farbe:"#f1c40f", text:"Ich führe und beschütze – manchmal zu direkt. Ich merke, dass ich andere einschüchtere, auch wenn ich es nicht will."},
+      {level:"7–8", label:"Konstruktiver Anführer · Sich selbst vertrauender Mensch", farbe:"#27ae60", text:"Ich setze meine Stärke für andere ein. Verletzlichkeit zu zeigen erfordert die größte Stärke."},
+      {level:"9",   label:"Großmütiger Menschenfreund",                     farbe:"#2980b9", text:"Ich bin ein großherziger Beschützer. Meine Kraft dient dem Leben – nicht der Kontrolle."},
+    ]},
+    9: { name:"Typ 9 – Der Friedensstifter", stufen:[
+      {level:"1–2", label:"Gespaltener Mensch · Sich selbst aufgebender Mensch", farbe:"#c0392b", text:"Ich habe mich selbst vollständig aufgegeben – ich weiß kaum noch, wer ich bin oder was ich will."},
+      {level:"3–4", label:"Nachlässiger · Resignierter Fatalist",            farbe:"#e67e22", text:"Ich vermeide Konflikte um jeden Preis und schlucke meine eigenen Bedürfnisse herunter."},
+      {level:"5–6", label:"Passiv-gleichgültiger Mensch · Angepasster Mensch", farbe:"#f1c40f", text:"Ich bin friedliebend und angenehm im Umgang – aber manchmal frage ich mich, wo ich selbst stehe."},
+      {level:"7–8", label:"Gutherziger Friedensstifter · Empfänglicher Mensch", farbe:"#27ae60", text:"Ich kann Harmonie schaffen und gleichzeitig meine eigene Meinung vertreten. Frieden ohne Selbstverleugnung."},
+      {level:"9",   label:"In sich ruhender Mensch",                        farbe:"#2980b9", text:"Ich ruhe tief in mir selbst. Harmonie entsteht nicht durch Anpassung, sondern durch echte Präsenz."},
+    ]},
+  };
+
+  const profile = (() => { try { return JSON.parse(localStorage.getItem("enneagramm-kompass:profile") || "{}"); } catch(e) { return {}; } })();
+  const vorTyp = profile.typ ? parseInt(profile.typ) : null;
+
+  const typButtons = [1,2,3,4,5,6,7,8,9].map(n => `
+    <button class="bgt-typ-btn" data-typ="${n}" style="
+      padding:.55rem .9rem;border-radius:8px;font-size:.9rem;cursor:pointer;
+      border:2px solid ${vorTyp === n ? "var(--copper)" : "var(--line)"};
+      background:${vorTyp === n ? "var(--copper)" : "transparent"};
+      color:${vorTyp === n ? "#fff" : "var(--ink)"};
+      font-weight:${vorTyp === n ? "700" : "400"};
+      font-family:inherit;transition:all .15s;">Typ ${n}</button>
+  `).join("");
+
+  return shell(`
+    ${pageHeader("Bewusstseinsgrad-Selbsttest", "Selbstreflexion · Orientierung")}
+    <section class="narrow" style="padding-bottom:3rem;">
+      <p class="eyebrow">Wo stehe ich gerade?</p>
+      <h1 style="margin-bottom:0.5rem;">Mein aktueller Bewusstseinsgrad</h1>
+      <p style="font-size:.97rem;line-height:1.75;color:var(--ink);margin:0 0 1.5rem;">
+        Wähle deinen Typ und dann die Aussage, die <em>gerade jetzt</em> am ehrlichsten auf dich zutrifft —
+        ohne Idealbild, ohne wie du sein möchtest.
+      </p>
+      <div style="background:var(--paper);border-radius:10px;border-left:3px solid var(--gold);padding:.8rem 1.2rem;margin-bottom:2rem;font-size:.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieser Test ist ein Spiegel, keine Diagnose. Bewusstseinsgrade sind fließend —
+        wir pendeln täglich zwischen verschiedenen Stufen. Und: Die Stufen, die wir bei uns am wenigsten sehen,
+        sind oft die, auf denen wir uns tatsächlich befinden.
+      </div>
+
+      <!-- Schritt 1: Typ wählen -->
+      <div id="bgt-step1">
+        <h2 style="font-size:1rem;font-weight:700;margin:0 0 .8rem;">Schritt 1: Mein Enneagramm-Typ</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem;">${typButtons}</div>
+      </div>
+
+      <!-- Schritt 2: Aussagen -->
+      <div id="bgt-step2" style="display:none;">
+        <h2 style="font-size:1rem;font-weight:700;margin:0 0 .3rem;">Schritt 2: Welche Aussage trifft gerade am meisten auf mich zu?</h2>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 1rem;">Nur eine Auswahl — die ehrlichste, nicht die schönste.</p>
+        <div id="bgt-aussagen" style="display:flex;flex-direction:column;gap:.75rem;"></div>
+      </div>
+
+      <!-- Ergebnis -->
+      <div id="bgt-result" style="display:none;margin-top:2rem;"></div>
+    </section>
+  `);
+}
+
+function _bewusstseinsgradTestInit() {
+  const DATA = {
+    1: { name:"Typ 1 – Der Reformer", stufen:[
+      {level:"1–2", label:"Zwanghafter Heuchler · Gnadenloser Rächer",   farbe:"#c0392b", text:"Ich fühle mich von Wut und bitterem Groll überwältigt. Andere halten meine Maßstäbe nie ein – das empfinde ich als unerträglich."},
+      {level:"3–4", label:"Intoleranter · Besserwisserischer Perfektionist", farbe:"#e67e22", text:"Ich sage den Menschen, was richtig und falsch ist – auch wenn sie es nicht hören wollen. Kompromisse fühlen sich wie Qualitätsverlust an."},
+      {level:"5–6", label:"Ordnungssüchtiger Mensch · Idealistischer Reformer", farbe:"#f1c40f", text:"Ich setze hohe Maßstäbe – für mich und andere. Innere Kritik ist mein ständiger Begleiter, aber sie hält mich auf Kurs."},
+      {level:"7–8", label:"Prinzipientreuer Lehrer · Vernunftsbegabter Mensch", farbe:"#27ae60", text:"Ich engagiere mich für das, was ich für richtig halte, ohne andere zu verurteilen. Fehler – auch meine eigenen – kann ich gelassen annehmen."},
+      {level:"9",   label:"Weiser Realist",                                farbe:"#2980b9", text:"Ich handle aus tiefer innerer Überzeugung und Weisheit, ohne mich an Regeln zu klammern. In mir herrscht Friede mit der Unvollkommenheit des Lebens."},
+    ]},
+    2: { name:"Typ 2 – Der Helfer", stufen:[
+      {level:"1–2", label:"Dominanter Erpresser · Psychosomatisches Opfer", farbe:"#c0392b", text:"Ich fühle mich ausgenutzt und nicht gewürdigt, obwohl ich alles für andere tue. Manchmal manipuliere ich, um Anerkennung zu bekommen."},
+      {level:"3–4", label:"Selbstbetrügerischer Manipulierer · Überheblicher Heiliger", farbe:"#e67e22", text:"Ich gebe viel – und erwarte innerlich Dankbarkeit. Wenn die ausbleibt, bin ich tief verletzt."},
+      {level:"5–6", label:"Besitzergreifender Intimfreund · Großsprecherischer Freund", farbe:"#f1c40f", text:"Ich helfe gerne, aber manchmal frage ich mich: Tue ich das für andere – oder weil ich gebraucht werden möchte?"},
+      {level:"7–8", label:"Fürsorglicher · Einfühlsamer",                  farbe:"#27ae60", text:"Ich kann aufrichtig geben, ohne eine Gegenleistung zu erwarten. Meine Fürsorge kommt aus dem Herzen."},
+      {level:"9",   label:"Uneigennütziger Altruist",                      farbe:"#2980b9", text:"Ich liebe bedingungslos – mich selbst eingeschlossen. Geben und Empfangen sind für mich in tiefer Balance."},
+    ]},
+    3: { name:"Typ 3 – Der Macher", stufen:[
+      {level:"1–2", label:"Böswilliger Verräter · Rachsüchtiger Psychopath", farbe:"#c0392b", text:"Ich bin bereit, über Leichen zu gehen, um meine Ziele zu erreichen. Loyalität zählt wenig, wenn sie meinem Erfolg im Weg steht."},
+      {level:"3–4", label:"Ausbeuterischer Opportunist · Durchsetzungsstarker Narzisst", farbe:"#e67e22", text:"Ich passe mein Image der Situation an und verliere dabei manchmal, wer ich wirklich bin."},
+      {level:"5–6", label:"Imageorientierter Pragmatiker · Statusbesessener", farbe:"#f1c40f", text:"Erfolg ist mir wichtig – manchmal zu wichtig. Ich bemerke, dass ich mich mehr mit meinen Leistungen identifiziere als mit mir selbst."},
+      {level:"7–8", label:"Großes Vorbild · Selbstsicherer Mensch",         farbe:"#27ae60", text:"Ich bin authentisch und erfolgreich zugleich. Meine Leistungen sind echt – ich muss nichts vortäuschen."},
+      {level:"9",   label:"Authentische Persönlichkeit",                   farbe:"#2980b9", text:"Ich bin ich – vollständig und ohne Maske. Erfolg ist schön, aber nicht das, was mich ausmacht."},
+    ]},
+    4: { name:"Typ 4 – Der Individualist", stufen:[
+      {level:"1–2", label:"Emotional Leidender · Selbstzerstörerischer",   farbe:"#c0392b", text:"Ich fühle mich hoffnungslos missverstanden und kämpfe mit tiefer Selbstzerstörung. Der Schmerz scheint kein Ende zu haben."},
+      {level:"3–4", label:"Selbstentfremdeter Depressiver · Schwacher Ästhet", farbe:"#e67e22", text:"Ich leide – manchmal intensiver als nötig. Schmerz fühlt sich echter an als Freude."},
+      {level:"5–6", label:"Selbstverliebter Introvertierter · Fantasievoller Künstler", farbe:"#f1c40f", text:"Ich bin kreativ und tief fühlend, aber neige dazu, mich in Gefühlen zu verlieren und andere auf Abstand zu halten."},
+      {level:"7–8", label:"Sich offenbarender Mensch · Intuitiv Lebender",  farbe:"#27ae60", text:"Ich lebe meine Einzigartigkeit authentisch und kann tiefe Gefühle in echte Kreativität verwandeln."},
+      {level:"9",   label:"Inspiriert-schöpferischer Mensch",              farbe:"#2980b9", text:"Ich bin zutiefst schöpferisch und in mich selbst verwurzelt. Mein Anderssein ist ein Geschenk, kein Fluch."},
+    ]},
+    5: { name:"Typ 5 – Der Beobachter", stufen:[
+      {level:"1–2", label:"Von Wahnvorstellungen Gequälter · Leerer Schizoider", farbe:"#c0392b", text:"Ich habe mich vollständig aus der Welt zurückgezogen. Kontakt mit anderen kostet mehr, als ich habe."},
+      {level:"3–4", label:"Isolierter Nihilist · Extremer Reduktionist",    farbe:"#e67e22", text:"Ich lebe lieber in meiner Gedankenwelt als in der Realität. Beziehungen erschöpfen mich schnell."},
+      {level:"5–6", label:"Versponnener Theoretiker · Analytiker & Spezialist", farbe:"#f1c40f", text:"Ich beobachte lieber, als zu handeln. Wissen gibt mir Sicherheit, aber ich setze es selten um."},
+      {level:"7–8", label:"Kundiger Experte · Erkennender Beobachter",      farbe:"#27ae60", text:"Ich teile mein Wissen gerne und merke, dass echte Verbindung mich bereichert, nicht erschöpft."},
+      {level:"9",   label:"Pionier & Visionär",                             farbe:"#2980b9", text:"Ich bin ein Visionär mit Bodenhaftung – mein Wissen fließt in die Welt und verändert sie."},
+    ]},
+    6: { name:"Typ 6 – Der Loyale", stufen:[
+      {level:"1–2", label:"Hysteriker · Selbstzerstörerischer Masochist",   farbe:"#c0392b", text:"Ich bin von Angst gelähmt oder schlage blind um mich. Überall sehe ich Bedrohungen."},
+      {level:"3–4", label:"Unsicherer Mensch · Überkompensierter (harter) Typ", farbe:"#e67e22", text:"Ich zweifle ständig – an mir, an anderen, an Entscheidungen. Sicherheit finde ich kaum."},
+      {level:"5–6", label:"Ambivalenter · Gehorsamer Traditionalist",       farbe:"#f1c40f", text:"Ich bin loyal und engagiert, aber Vertrauen fällt mir schwer. Worst-Case-Szenarien beschäftigen mich viel."},
+      {level:"7–8", label:"Engagierter & loyaler Freund · Liebenswerter Mensch", farbe:"#27ae60", text:"Ich vertraue mir selbst und den Menschen, die ich kenne. Meine Loyalität ist eine echte Stärke."},
+      {level:"9",   label:"Selbstbejahende Persönlichkeit",                 farbe:"#2980b9", text:"Ich ruhe in mir selbst – Angst ist nicht mehr mein Steuermann. Ich vertraue dem Leben."},
+    ]},
+    7: { name:"Typ 7 – Der Enthusiast", stufen:[
+      {level:"1–2", label:"Manisch-triebhafter Mensch · Panischer Hysteriker", farbe:"#c0392b", text:"Ich flüchte in Sucht, Panik oder Hysterie. Die Leere, die ich verdränge, holt mich ein."},
+      {level:"3–4", label:"Impulsiver Realitäts-Flüchtling · Exzessiver Materialist", farbe:"#e67e22", text:"Ich springe von einer Idee zur nächsten, ohne wirklich anzukommen. Tiefe ist selten – Ablenkung ständig."},
+      {level:"5–6", label:"Hyperaktiver Extravertierter · Welterfahrener Lebenskünstler", farbe:"#f1c40f", text:"Ich genieße das Leben und halte viele Optionen offen. Manchmal habe ich das Gefühl, etwas zu verpassen."},
+      {level:"7–8", label:"Tüchtiger Alleskönner · Glücklicher Enthusiast",  farbe:"#27ae60", text:"Ich bin präsent und genieße das Leben voll – ohne ständig woanders sein zu wollen."},
+      {level:"9",   label:"Ekstatischer Genießer",                          farbe:"#2980b9", text:"Ich lebe in tiefer Dankbarkeit und Fülle. Das Jetzt ist genug – ich brauche nichts mehr zu jagen."},
+    ]},
+    8: { name:"Typ 8 – Der Herausforderer", stufen:[
+      {level:"1–2", label:"Allmächtiger Größenwahnsinniger · Gewalttätiger Zerstörer", farbe:"#c0392b", text:"Ich setze Macht rücksichtslos ein. Schwäche – in mir oder anderen – löst Verachtung aus."},
+      {level:"3–4", label:"Skrupelloser Tyrann · Feindseliger Kämpfer",      farbe:"#e67e22", text:"Ich kämpfe um Kontrolle und Dominanz. Verletzlichkeit zeige ich nicht – das wäre Schwäche."},
+      {level:"5–6", label:"Dominierender Machtmensch · Unternehmungslustiger Abenteurer", farbe:"#f1c40f", text:"Ich führe und beschütze – manchmal zu direkt. Ich merke, dass ich andere einschüchtere, auch wenn ich es nicht will."},
+      {level:"7–8", label:"Konstruktiver Anführer · Sich selbst vertrauender Mensch", farbe:"#27ae60", text:"Ich setze meine Stärke für andere ein. Verletzlichkeit zu zeigen erfordert die größte Stärke."},
+      {level:"9",   label:"Großmütiger Menschenfreund",                     farbe:"#2980b9", text:"Ich bin ein großherziger Beschützer. Meine Kraft dient dem Leben – nicht der Kontrolle."},
+    ]},
+    9: { name:"Typ 9 – Der Friedensstifter", stufen:[
+      {level:"1–2", label:"Gespaltener Mensch · Sich selbst aufgebender Mensch", farbe:"#c0392b", text:"Ich habe mich selbst vollständig aufgegeben – ich weiß kaum noch, wer ich bin oder was ich will."},
+      {level:"3–4", label:"Nachlässiger · Resignierter Fatalist",            farbe:"#e67e22", text:"Ich vermeide Konflikte um jeden Preis und schlucke meine eigenen Bedürfnisse herunter."},
+      {level:"5–6", label:"Passiv-gleichgültiger Mensch · Angepasster Mensch", farbe:"#f1c40f", text:"Ich bin friedliebend und angenehm im Umgang – aber manchmal frage ich mich, wo ich selbst stehe."},
+      {level:"7–8", label:"Gutherziger Friedensstifter · Empfänglicher Mensch", farbe:"#27ae60", text:"Ich kann Harmonie schaffen und gleichzeitig meine eigene Meinung vertreten. Frieden ohne Selbstverleugnung."},
+      {level:"9",   label:"In sich ruhender Mensch",                        farbe:"#2980b9", text:"Ich ruhe tief in mir selbst. Harmonie entsteht nicht durch Anpassung, sondern durch echte Präsenz."},
+    ]},
+  };
+
+  let gewaehlterTyp = null;
+
+  function zeigeAussagen(typ) {
+    const d = DATA[typ];
+    const container = document.getElementById("bgt-aussagen");
+    const step2 = document.getElementById("bgt-step2");
+    const result = document.getElementById("bgt-result");
+    if (!container || !step2) return;
+    result.style.display = "none"; result.innerHTML = "";
+    // Zufällig mischen (Fisher-Yates)
+    const idxArr = [0,1,2,3,4];
+    for (let i = idxArr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [idxArr[i], idxArr[j]] = [idxArr[j], idxArr[i]];
+    }
+    container.innerHTML = idxArr.map(i => {
+      const s = d.stufen[i];
+      return `<button class="bgt-aussage-btn" data-idx="${i}" style="
+        text-align:left;padding:1rem 1.2rem;border-radius:10px;cursor:pointer;
+        border:2px solid var(--line);background:var(--paper);
+        font-size:.93rem;line-height:1.65;color:var(--ink);
+        font-family:inherit;transition:border-color .15s,background .15s;">
+        ${s.text}
+      </button>`;
+    }).join("");
+    step2.style.display = "";
+    // Events
+    container.querySelectorAll(".bgt-aussage-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        container.querySelectorAll(".bgt-aussage-btn").forEach(b => {
+          b.style.borderColor = "var(--line)"; b.style.background = "var(--paper)";
+        });
+        btn.style.borderColor = "var(--copper)"; btn.style.background = "var(--surface-2, rgba(0,0,0,.04))";
+        zeigeErgebnis(typ, parseInt(btn.dataset.idx));
+      });
+    });
+  }
+
+  function zeigeErgebnis(typ, idx) {
+    const d = DATA[typ];
+    const s = d.stufen[idx];
+    const LEVEL_NR = [1.5, 3.5, 5.5, 7.5, 9];
+    const nr = LEVEL_NR[idx];
+    const TIPPS = {
+      0: "Ein ehrlicher Blick in den Spiegel. Dieser Bewusstheitsgrad ruft nach Unterstützung – Therapie, Begleitung, Seelsorge. Sie sind nicht festgelegt.",
+      1: "Hier liegen viele Muster im Verborgenen. Das Enneagramm kann helfen, Mechanismen sichtbar zu machen – ein erster Schritt zur Veränderung.",
+      2: "Der Durchschnitt – nicht gut, nicht schlecht. Die meisten Menschen pendeln hier. Bewusstsein entsteht durch ehrliche Beobachtung des eigenen Verhaltens.",
+      3: "Ein guter Platz. Sie sehen sich klarer, als es viele tun. Vertiefen Sie das durch regelmäßige Reflexion und den Kontakt mit Ihrer Essenz.",
+      4: "Eine seltene und bemerkenswerte Reife. Hier entsteht echter Einfluss auf andere – nicht durch Kontrolle, sondern durch Sein.",
+    };
+    const result = document.getElementById("bgt-result");
+    result.innerHTML = `
+      <div style="border-radius:14px;border-left:5px solid ${s.farbe};padding:1.3rem 1.5rem;background:var(--paper);margin-bottom:1.5rem;">
+        <p style="font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:${s.farbe};margin:0 0 .3rem;font-weight:700;">
+          Stufe ${s.level} · ${d.name}
+        </p>
+        <h2 style="font-size:1.2rem;margin:0 0 .6rem;color:var(--ink);">${s.label}</h2>
+        <p style="font-size:.93rem;line-height:1.7;color:var(--ink);margin:0 0 1rem;font-style:italic;">&bdquo;${s.text}&ldquo;</p>
+        <p style="font-size:.88rem;line-height:1.65;color:var(--muted);margin:0;">${TIPPS[idx]}</p>
+      </div>
+      <a href="#dynamik-des-bewusstseinszustandes" style="
+        display:inline-flex;align-items:center;gap:.5rem;
+        background:var(--gold,#c8a84b);color:#1a1208;border-radius:8px;
+        padding:.6rem 1.1rem;font-size:.88rem;font-weight:700;text-decoration:none;margin-bottom:1rem;">
+        &#128247; Alle 9 Bewusstseinsgrade für Typ ${typ} ansehen
+      </a>
+      <br>
+      <button id="bgt-neu" style="
+        margin-top:.5rem;background:none;border:1px solid var(--line);border-radius:8px;
+        padding:.5rem 1rem;font-size:.85rem;color:var(--muted);cursor:pointer;font-family:inherit;">
+        &#8635; Test wiederholen
+      </button>
+    `;
+    result.style.display = "";
+    result.querySelector("#bgt-neu").addEventListener("click", () => {
+      result.style.display = "none"; result.innerHTML = "";
+      document.getElementById("bgt-aussagen").innerHTML = "";
+      document.getElementById("bgt-step2").style.display = "none";
+      document.querySelectorAll(".bgt-aussage-btn").forEach(b => {
+        b.style.borderColor = "var(--line)"; b.style.background = "var(--paper)";
+      });
+      zeigeAussagen(gewaehlterTyp);
+    });
+    result.scrollIntoView({ behavior:"smooth", block:"start" });
+  }
+
+  // Typ-Buttons
+  document.querySelectorAll(".bgt-typ-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".bgt-typ-btn").forEach(b => {
+        b.style.borderColor = "var(--line)"; b.style.background = "transparent";
+        b.style.color = "var(--ink)"; b.style.fontWeight = "400";
+      });
+      btn.style.borderColor = "var(--copper)"; btn.style.background = "var(--copper)";
+      btn.style.color = "#fff"; btn.style.fontWeight = "700";
+      gewaehlterTyp = parseInt(btn.dataset.typ);
+      zeigeAussagen(gewaehlterTyp);
+    });
+  });
+
+  // Vorausgewählten Typ direkt laden
+  const profile = (() => { try { return JSON.parse(localStorage.getItem("enneagramm-kompass:profile") || "{}"); } catch(e) { return {}; } })();
+  if (profile.typ) {
+    gewaehlterTyp = parseInt(profile.typ);
+    zeigeAussagen(gewaehlterTyp);
+  }
+}
+
 function dynamikBewusstseinszustandesPage() {
   const TYPEN = [
     { nr:1, titel:"Typ 1 – Perfektionist · Reformer · Normorientierter", farbe:"#8b3a3a",
@@ -25564,6 +25854,11 @@ function dynamikBewusstseinszustandesPage() {
         </div>
       </div>
       <p class="psycho-intro">Jeder Enneagrammtyp durchläuft neun Bewusstseinsstufen — von vollkommen unbewusst (Stufe 1) bis vollkommen bewusst (Stufe 9). Diese Skala zeigt, wie sich das Verhalten und die innere Haltung eines Typs mit steigendem Bewusstsein wandelt: von destruktiven Mustern hin zu seiner höchsten Entfaltung.</p>
+      <div style="margin-bottom:1.5rem;">
+        <a href="#bewusstseinstest" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--gold,#c8a84b);color:#1a1208;border-radius:8px;padding:.65rem 1.2rem;font-size:.92rem;font-weight:700;text-decoration:none;">
+          &#127919; Wo stehe ich gerade? – Zum Bewusstseinsgrad-Selbsttest
+        </a>
+      </div>
       <div style="background:var(--surface-2,rgba(0,0,0,0.03));border-radius:10px;padding:.8rem 1.2rem;margin-bottom:1.8rem;display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.85rem;">
         <span>🟢 Stufe 7–9: bewusst · heilsam</span>
         <span>🟡 Stufe 4–6: durchschnittlich</span>
@@ -35000,6 +35295,7 @@ function render() {
     "portrait-typ-9": portraitTyp9Page,
     suche: suchePage,
     tierquiz: tierquizPage,
+    bewusstseinstest: bewusstseinsgradTestPage,
     quiz: quizPage,
     zitate: zitatePage,
     "gaslighting-enneagramm": gaslightingPage,
@@ -35049,7 +35345,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "tierquiz" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "tierquiz" && base !== "bewusstseinstest" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -35086,6 +35382,7 @@ function render() {
     }
     }
     if (base === "stille") requestAnimationFrame(_stilleInit);
+    if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
     bindEvents();
     requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -35217,7 +35514,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v446';
+  const MY_VERSION = 'inhalt-v447';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
