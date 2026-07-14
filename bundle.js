@@ -35129,46 +35129,97 @@ document.addEventListener("click", (e) => {
   ripple.addEventListener("animationend", () => ripple.remove());
 });
 
-// Solfeggio-Frequenz-Player (reine Sinust\xf6ne via Web Audio API)
-let _solfeggioCtx = null, _solfeggioOsc = null, _solfeggioActiveHz = null;
-document.addEventListener("click", (e) => {
-  const btn = e.target.closest(".solf-play-btn");
-  if (!btn) return;
-  const hz = parseFloat(btn.dataset.hz);
-  // Laufenden Ton stoppen
-  if (_solfeggioCtx) {
-    try { _solfeggioOsc.stop(); } catch(ex) {}
-    _solfeggioCtx.close();
-    _solfeggioCtx = null; _solfeggioOsc = null;
-    document.querySelectorAll(".solf-play-btn").forEach(b => {
-      b.innerHTML = "&#9654; Anh\xf6ren"; b.style.background = "var(--gold,#c8a84b)"; b.style.color = "#1a1208";
-    });
-    if (_solfeggioActiveHz === hz) { _solfeggioActiveHz = null; return; } // gleicher Button = nur stopp
-  }
-  // Neuen Ton starten
-  _solfeggioActiveHz = hz;
+// Solfeggio-Frequenz-Player (OfflineAudioContext → WAV-Blob → HTML Audio, AirPlay-kompatibel)
+let _solfeggioAudio = null, _solfeggioActiveHz = null;
+
+function _solfeggioReset() {
+  document.querySelectorAll(".solf-play-btn").forEach(b => {
+    b.innerHTML = "&#9654; Anhören"; b.style.background = "var(--gold,#c8a84b)"; b.style.color = "#1a1208";
+  });
+  if (_solfeggioAudio) { _solfeggioAudio.pause(); _solfeggioAudio.src = ""; _solfeggioAudio = null; }
+  if (navigator.mediaSession) { navigator.mediaSession.playbackState = "none"; }
+  _solfeggioActiveHz = null;
+}
+
+function _solfeggioPlay(hz, btn) {
+  const SR = 8000, DUR = 60;
+  try {
+    const offline = new OfflineAudioContext(1, SR * DUR, SR);
+    const osc = offline.createOscillator();
+    const gain = offline.createGain();
+    osc.type = "sine"; osc.frequency.value = hz;
+    gain.gain.setValueAtTime(0.22, 0);
+    gain.gain.setValueAtTime(0.22, 55);
+    gain.gain.exponentialRampToValueAtTime(0.001, DUR);
+    osc.connect(gain); gain.connect(offline.destination);
+    osc.start(0); osc.stop(DUR);
+    offline.startRendering().then(buf => {
+      const pcm = buf.getChannelData(0);
+      const ab  = new ArrayBuffer(44 + pcm.length * 2);
+      const v   = new DataView(ab);
+      const ws  = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+      ws(0,"RIFF"); v.setUint32(4, 36 + pcm.length*2, true);
+      ws(8,"WAVE"); ws(12,"fmt "); v.setUint32(16,16,true); v.setUint16(20,1,true);
+      v.setUint16(22,1,true); v.setUint32(24,SR,true); v.setUint32(28,SR*2,true);
+      v.setUint16(32,2,true); v.setUint16(34,16,true); ws(36,"data");
+      v.setUint32(40, pcm.length*2, true);
+      for (let i = 0; i < pcm.length; i++) {
+        const s = Math.max(-1, Math.min(1, pcm[i]));
+        v.setInt16(44 + i*2, s < 0 ? s*32768 : s*32767, true);
+      }
+      const url = URL.createObjectURL(new Blob([ab], { type:"audio/wav" }));
+      const audio = new Audio(url);
+      _solfeggioAudio = audio;
+      audio.play().catch(() => {});
+      if (navigator.mediaSession) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: hz + " Hz Solfeggio-Frequenz",
+          artist: "Enneagramm-Heilungskompass",
+          artwork: [{ src: "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg", sizes:"512x512", type:"image/jpeg" }]
+        });
+        navigator.mediaSession.playbackState = "playing";
+        navigator.mediaSession.setActionHandler("pause", () => { audio.pause(); navigator.mediaSession.playbackState = "paused"; });
+        navigator.mediaSession.setActionHandler("play",  () => { audio.play().catch(()=>{}); navigator.mediaSession.playbackState = "playing"; });
+        navigator.mediaSession.setActionHandler("stop",  () => _solfeggioReset());
+      }
+      audio.onended = () => { URL.revokeObjectURL(url); if (_solfeggioAudio === audio) _solfeggioReset(); };
+      btn.innerHTML = "&#9646;&#9646; Stopp"; btn.style.background = "var(--copper,#8b5e3c)"; btn.style.color = "#fff";
+    }).catch(() => _solfeggioFallback(hz, btn));
+  } catch(e) { _solfeggioFallback(hz, btn); }
+}
+
+function _solfeggioFallback(hz, btn) {
   const ctx = new (window.AudioContext || window.webkitAudioContext)();
   if (ctx.state === "suspended") ctx.resume();
-  const osc = ctx.createOscillator();
-  const gain = ctx.createGain();
-  osc.type = "sine";
-  osc.frequency.value = hz;
+  const osc = ctx.createOscillator(), gain = ctx.createGain();
+  osc.type = "sine"; osc.frequency.value = hz;
   gain.gain.setValueAtTime(0.22, ctx.currentTime);
   gain.gain.setValueAtTime(0.22, ctx.currentTime + 55);
   gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 60);
   osc.connect(gain); gain.connect(ctx.destination);
   osc.start(); osc.stop(ctx.currentTime + 60);
-  osc.onended = () => {
-    _solfeggioCtx = null; _solfeggioActiveHz = null;
-    if (btn.isConnected) { btn.innerHTML = "&#9654; Anh\xf6ren"; btn.style.background = "var(--gold,#c8a84b)"; btn.style.color = "#1a1208"; }
-  };
-  _solfeggioCtx = ctx; _solfeggioOsc = osc;
+  osc.onended = () => { ctx.close(); if (btn.isConnected) _solfeggioReset(); };
   btn.innerHTML = "&#9646;&#9646; Stopp"; btn.style.background = "var(--copper,#8b5e3c)"; btn.style.color = "#fff";
+}
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".solf-play-btn");
+  if (!btn) return;
+  const hz = parseFloat(btn.dataset.hz);
+  if (_solfeggioActiveHz !== null) {
+    const wasHz = _solfeggioActiveHz;
+    _solfeggioReset();
+    if (wasHz === hz) return;
+  }
+  _solfeggioActiveHz = hz;
+  _solfeggioPlay(hz, btn);
+});
+
 });
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v444';
+  const MY_VERSION = 'inhalt-v445';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
