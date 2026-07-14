@@ -5901,7 +5901,7 @@ const SPIRITUELL_TRACKS = {
     <div class="section-content">
 
       <p style="font-size:1.05rem;line-height:1.7;margin-bottom:1.5rem;">
-        Über 32 Jahre habe ich Menschen an Volkshochschulen im Bereich der Homöopathie,
+        Über 40 Jahre habe ich Menschen an Volkshochschulen im Bereich der Homöopathie,
         aber auch im Bereich Gitarre unterrichtet – und während all dieser Zeit begleitete mich
         die Musik auch privat immer wieder. Auf dieser Seite finden Sie meine Jazz-Alben,
         meine Enneagramm-Songs und spirituelle Lieder – alles, was ich über die Jahre
@@ -35530,7 +35530,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v454';
+  const MY_VERSION = 'inhalt-v455';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
