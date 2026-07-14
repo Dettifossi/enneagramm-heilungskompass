@@ -32977,7 +32977,35 @@ function _stilleInit() {
       audio.loop = true;
       audio.volume = 0.7;
       audio.play().catch(() => {});
-      klangStop = () => { audio.pause(); audio.src = ""; };
+      // Media Session API → Hintergrund-Audio + Sperrbildschirm-Steuerung auf iOS
+      if (navigator.mediaSession) {
+        const KLANG_LABEL = {
+          regen:"Regen", meer:"Meeresrauschen", wasserfall:"Wasserfall", wind:"Wind",
+          gewitter:"Gewitter", sommerregen:"Sommerregen", wald:"Wald", voegel:"Vögel",
+          bach:"Bach", wiese:"Wiese", kuckuck:"Kuckuck", blizzard:"Blizzard",
+          trommel:"Trommel", eule:"Eule", white:"Weißes Rauschen", pink:"Pinkes Rauschen",
+          brown:"Braunes Rauschen", feuer:"Feuer", hoehle:"Höhle", chimes:"Klangspiele",
+          zug:"Zug", katze:"Katze", wal:"Wal", delfin:"Delfin", bienen:"Bienen",
+          wolf:"Wolf", seehund:"Seehund", aquarium:"Aquarium", gewaesser:"Gewässer",
+          herzschlag:"Herzschlag", regenwald:"Regenwald", nachtmeer:"Nachtmeer",
+          tropfen:"Tropfen", zikaden:"Zikaden", savanne:"Savanne", unterwasser:"Unterwasser",
+          klangschale:"Klangschale", om:"Om", morgenkonzert:"Morgenkonzert"
+        };
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: KLANG_LABEL[id] || id,
+          artist: "Enneagramm-Heilungskompass",
+          album: "Stille & Klang",
+          artwork: [{ src: "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg", sizes: "512x512", type: "image/jpeg" }]
+        });
+        navigator.mediaSession.playbackState = "playing";
+        navigator.mediaSession.setActionHandler("pause", () => { audio.pause(); navigator.mediaSession.playbackState = "paused"; });
+        navigator.mediaSession.setActionHandler("play",  () => { audio.play().catch(() => {}); navigator.mediaSession.playbackState = "playing"; });
+        navigator.mediaSession.setActionHandler("stop",  () => { audio.pause(); audio.src = ""; navigator.mediaSession.playbackState = "none"; });
+      }
+      klangStop = () => {
+        audio.pause(); audio.src = "";
+        if (navigator.mediaSession) { navigator.mediaSession.playbackState = "none"; try { navigator.mediaSession.setActionHandler("pause", null); navigator.mediaSession.setActionHandler("play", null); navigator.mediaSession.setActionHandler("stop", null); } catch(e) {} }
+      };
       return;
     }
 
@@ -35141,7 +35169,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v438';
+  const MY_VERSION = 'inhalt-v439';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
