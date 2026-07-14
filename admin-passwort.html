@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kompass Admin – Passwort zurücksetzen</title>
+<style>
+  body { font-family: Georgia, serif; background: #faf8f4; margin: 0; padding: 2rem 1rem; color: #333; }
+  .box { max-width: 480px; margin: 2rem auto; background: #fff; border: 2px solid #c9a84c; border-radius: 12px; padding: 2rem; }
+  h1 { color: #8a6a1a; font-size: 1.3rem; margin: 0 0 1.5rem; }
+  label { display: block; font-size: .9rem; color: #555; margin-bottom: .3rem; }
+  input { width: 100%; box-sizing: border-box; padding: .7rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; margin-bottom: 1rem; font-family: Georgia, serif; }
+  button { background: #8a6a1a; color: #fff; border: none; padding: .85rem 2rem; border-radius: 8px; font-size: 1rem; cursor: pointer; width: 100%; }
+  button:disabled { opacity: .5; cursor: default; }
+  .result { margin-top: 1.5rem; padding: 1rem 1.2rem; border-radius: 8px; font-size: .95rem; line-height: 1.6; display: none; }
+  .result.ok { background: #f0faf0; border: 1px solid #4caf50; color: #2e7d32; }
+  .result.err { background: #fff3f3; border: 1px solid #e57373; color: #c62828; }
+  .pw { font-size: 1.2rem; font-weight: bold; color: #8a6a1a; letter-spacing: .05em; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>🔑 Passwort zurücksetzen</h1>
+  <p style="color:#666;font-size:.9rem;margin-bottom:1.5rem;">
+    Neues Passwort generieren und automatisch per E-Mail an den Kunden schicken.
+  </p>
+
+  <label for="adminPw">Admin-Passwort</label>
+  <input type="password" id="adminPw" placeholder="Ihr Admin-Passwort">
+
+  <label for="customerEmail">Kunden-E-Mail</label>
+  <input type="email" id="customerEmail" placeholder="kunde@beispiel.de">
+
+  <button id="btn" onclick="resetPw()">Neues Passwort generieren &amp; senden</button>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script>
+async function resetPw() {
+  const adminSecret = document.getElementById("adminPw").value.trim();
+  const email = document.getElementById("customerEmail").value.trim();
+  const btn = document.getElementById("btn");
+  const result = document.getElementById("result");
+
+  if (!adminSecret || !email) {
+    showResult("Bitte beide Felder ausfüllen.", false);
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = "Wird gesendet…";
+  result.style.display = "none";
+
+  try {
+    const res = await fetch("https://enneagramm-heilungskompass.vercel.app/api/reset-password", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, adminSecret })
+    });
+    const data = await res.json();
+
+    if (res.ok && data.success) {
+      showResult(
+        `✅ Erfolgreich!<br><br>
+         Kunde: <strong>${data.email}</strong><br>
+         Neues Passwort: <span class="pw">${data.password}</span><br><br>
+         E-Mail wurde automatisch verschickt.`,
+        true
+      );
+    } else {
+      showResult("Fehler: " + (data.error || "Unbekannter Fehler"), false);
+    }
+  } catch (e) {
+    showResult("Netzwerkfehler: " + e.message, false);
+  }
+
+  btn.disabled = false;
+  btn.textContent = "Neues Passwort generieren & senden";
+}
+
+function showResult(html, ok) {
+  const el = document.getElementById("result");
+  el.innerHTML = html;
+  el.className = "result " + (ok ? "ok" : "err");
+  el.style.display = "block";
+}
+</script>
+</body>
+</html>
