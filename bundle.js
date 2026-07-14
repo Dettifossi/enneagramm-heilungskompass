@@ -34328,6 +34328,12 @@ function musikPage() {
             src="https://www.youtube.com/embed/${t.vid}?autoplay=1&rel=0"
             allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
+        <a href="https://www.youtube.com/watch?v=${t.vid}" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:0.5rem;padding:0.65rem 1rem;background:var(--paper);border-top:1px solid var(--line);font-size:0.82rem;color:var(--copper);text-decoration:none;">
+          <span style="font-size:1rem;">▶</span>
+          In YouTube-App öffnen (läuft im Hintergrund weiter)
+          <span style="margin-left:auto;opacity:0.5;">↗</span>
+        </a>
       </div>
     </div>
   `).join("");
@@ -34354,7 +34360,7 @@ function musikPage() {
       </div>
 
       <p style="font-size:0.82rem;color:var(--ink-muted);margin-bottom:2rem;">
-        Die Alben laufen auf YouTube. Ein Tipp auf das Thumbnail öffnet den Player direkt hier.
+        Die Alben laufen auf YouTube. Tipp auf das Thumbnail öffnet den Player direkt hier — oder nutze „In YouTube-App öffnen", damit die Musik beim Wegschieben der App weiterläuft.
       </p>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
@@ -35168,7 +35174,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v442';
+  const MY_VERSION = 'inhalt-v443';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
