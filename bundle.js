@@ -35530,7 +35530,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v452';
+  const MY_VERSION = 'inhalt-v453';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
@@ -61304,164 +61304,6 @@ function _bewusstseinsgradTestInit() {
 }
 
 
-function _dynamikBewusstseinszustandesInit() {
-  const typ = sessionStorage.getItem("bwg-scroll-typ");
-  if (!typ) return;
-  sessionStorage.removeItem("bwg-scroll-typ");
-  setTimeout(function() {
-    const el = document.getElementById("bwg-typ-" + typ);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, 400);
-}
-
-function dynamikBewusstseinszustandesPage() {
-  const TYPEN = [
-    { nr:1, titel:"Typ 1 – Perfektionist · Reformer · Normorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Weiser Realist"}, {n:8,label:"Vernunftsbegabter Mensch"}, {n:7,label:"Prinzipientreuer Lehrer"},
-        {n:6,label:"Idealistischer Reformer"}, {n:5,label:"Ordnungssüchtiger Mensch"}, {n:4,label:"Besserwisserischer Perfektionist"},
-        {n:3,label:"Intoleranter"}, {n:2,label:"Zwanghafter Heuchler"}, {n:1,label:"Gnadenloser Rächer"}
-      ]},
-    { nr:2, titel:"Typ 2 – Geber/Helfer · Fürsorglicher · Liebesorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Uneigennütziger Altruist"}, {n:8,label:"Einfühlsamer"}, {n:7,label:"Fürsorglicher"},
-        {n:6,label:"Großsprecherischer Freund"}, {n:5,label:"Besitzergreifender Intimfreund"}, {n:4,label:"Überheblicher Heiliger"},
-        {n:3,label:"Selbstbetrügerischer Manipulierer"}, {n:2,label:"Dominanter Erpresser"}, {n:1,label:"Psychosomatisches Opfer"}
-      ]},
-    { nr:3, titel:"Typ 3 – Dynamiker · Leistungsmensch · Erfolgsorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Authentische Persönlichkeit"}, {n:8,label:"Selbstsicherer Mensch"}, {n:7,label:"Großes Vorbild"},
-        {n:6,label:"Statusbesessener"}, {n:5,label:"Imageorientierter Pragmatiker"}, {n:4,label:"Durchsetzungsstarker Narzisst"},
-        {n:3,label:"Ausbeuterischer Opportunist"}, {n:2,label:"Böswilliger Verräter"}, {n:1,label:"Rachsüchtiger Psychopath"}
-      ]},
-    { nr:4, titel:"Typ 4 – Individualist · Kreativer Künstler · Selbstorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Inspiriert-schöpferischer Mensch"}, {n:8,label:"Intuitiv Lebender"}, {n:7,label:"Sich offenbarender Mensch"},
-        {n:6,label:"Fantasievoller Künstler"}, {n:5,label:"Selbstverliebter Introvertierter"}, {n:4,label:"Schwacher Ästhet"},
-        {n:3,label:"Selbstentfremdeter Depressiver"}, {n:2,label:"Emotional Leidender"}, {n:1,label:"Selbstzerstörerischer"}
-      ]},
-    { nr:5, titel:"Typ 5 – Beobachter · Intellektueller · Erkenntnissorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Pionier & Visionär"}, {n:8,label:"Erkennender Beobachter"}, {n:7,label:"Kundiger Experte"},
-        {n:6,label:"Analytiker & Spezialist"}, {n:5,label:"Versponnener Theoretiker"}, {n:4,label:"Extremer Reduktionist"},
-        {n:3,label:"Isolierter Nihilist"}, {n:2,label:"Von Wahnvorstellungen Gequälter"}, {n:1,label:"Leerer Schizoider"}
-      ]},
-    { nr:6, titel:"Typ 6 – Loyaler Skeptiker · Fragensteller · Sicherheitsorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Selbstbejahende Persönlichkeit"}, {n:8,label:"Liebenswerter Mensch"}, {n:7,label:"Engagierter & loyaler Freund"},
-        {n:6,label:"Gehorsamer Traditionalist"}, {n:5,label:"Ambivalenter"}, {n:4,label:"Überkompensierter (harter) Typ"},
-        {n:3,label:"Unsicherer Mensch"}, {n:2,label:"Hysteriker"}, {n:1,label:"Selbstzerstörerischer Masochist"}
-      ]},
-    { nr:7, titel:"Typ 7 – Optimist · Vielseitiger · Spaßorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Ekstatischer Genießer"}, {n:8,label:"Glücklicher Enthusiast"}, {n:7,label:"Tüchtiger Alleskönner"},
-        {n:6,label:"Welterfahrener Lebenskünstler"}, {n:5,label:"Hyperaktiver Extravertierter"}, {n:4,label:"Exzessiver Materialist"},
-        {n:3,label:"Impulsiver Realitäts-Flüchtling"}, {n:2,label:"Manisch-triebhafter Mensch"}, {n:1,label:"Panischer Hysteriker"}
-      ]},
-    { nr:8, titel:"Typ 8 – Boss/Chef · Beschützer · Machtorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"Großmütiger Menschenfreund"}, {n:8,label:"Sich selbst vertrauender Mensch"}, {n:7,label:"Konstruktiver Anführer"},
-        {n:6,label:"Unternehmungslustiger Abenteurer"}, {n:5,label:"Dominierender Machtmensch"}, {n:4,label:"Feindseligter Kämpfer"},
-        {n:3,label:"Skrupelloser Tyrann"}, {n:2,label:"Allmächtiger Größenwahnsinniger"}, {n:1,label:"Gewalttätiger Zerstörer"}
-      ]},
-    { nr:9, titel:"Typ 9 – Vermittler · Friedensstifter · Harmonieorientierter", farbe:"#8b3a3a",
-      stufen:[
-        {n:9,label:"In sich ruhender Mensch"}, {n:8,label:"Empfänglicher Mensch"}, {n:7,label:"Gutherziger Friedensstifter"},
-        {n:6,label:"Angepasster Mensch"}, {n:5,label:"Passiv-gleichgültiger Mensch"}, {n:4,label:"Resignierter Fatalist"},
-        {n:3,label:"Nachlässiger"}, {n:2,label:"Gespaltener Mensch"}, {n:1,label:"Sich selbst aufgebender Mensch"}
-      ]},
-  ];
-  const typenHTML = TYPEN.map(t => `
-    <div id="bwg-typ-${t.nr}" style="margin-bottom:2rem;padding:1.2rem 1.4rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:12px;border-left:4px solid var(--gold,#c8a84b);">
-      <h3 style="margin:0 0 1rem;font-size:1rem;font-weight:700;color:var(--ink);">${t.titel}</h3>
-      <div style="display:grid;gap:.4rem;">
-        ${t.stufen.map(s => {
-          const pct = Math.round((s.n / 9) * 100);
-          const bg = s.n >= 7 ? "rgba(80,140,80,0.15)" : s.n >= 4 ? "rgba(200,168,75,0.12)" : "rgba(180,60,60,0.1)";
-          const dot = s.n >= 7 ? "🟢" : s.n >= 4 ? "🟡" : "🔴";
-          return `<div style="display:flex;align-items:center;gap:.6rem;padding:.35rem .5rem;border-radius:6px;background:${bg};">
-            <span style="font-size:.75rem;font-weight:700;color:var(--muted);min-width:1.4rem;text-align:right;">${s.n}</span>
-            <span style="font-size:.7rem;">${dot}</span>
-            <span style="font-size:.88rem;color:var(--ink);">${s.label}</span>
-          </div>`;
-        }).join("")}
-      </div>
-    </div>
-  `).join("");
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Die Dynamik des Bewusstseinszustandes", "Schaubilder · Bewusstseinsgrade")}
-
-      <!-- Schaubilder: Die Dynamik des Bewusstseinszustandes (Typ 1–9) -->
-      <div style="margin-bottom:2rem;">
-        <h2 style="font-size:1.05rem;color:var(--gold-dark);margin-bottom:1rem;">Schaubilder: Bewusstseinsgrade der 9 Typen</h2>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;">
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 1</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042033/kompass/assets/bewusstseinsgrade-typ-1.jpg" alt="Bewusstseinsgrade Typ 1" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 2</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042035/kompass/assets/bewusstseinsgrade-typ-2.jpg" alt="Bewusstseinsgrade Typ 2" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 3</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042037/kompass/assets/bewusstseinsgrade-typ-3.jpg" alt="Bewusstseinsgrade Typ 3" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 4</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042039/kompass/assets/bewusstseinsgrade-typ-4.jpg" alt="Bewusstseinsgrade Typ 4" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 5</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042041/kompass/assets/bewusstseinsgrade-typ-5.jpg" alt="Bewusstseinsgrade Typ 5" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 6</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042043/kompass/assets/bewusstseinsgrade-typ-6.jpg" alt="Bewusstseinsgrade Typ 6" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 7</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042045/kompass/assets/bewusstseinsgrade-typ-7.jpg" alt="Bewusstseinsgrade Typ 7" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 8</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042047/kompass/assets/bewusstseinsgrade-typ-8.jpg" alt="Bewusstseinsgrade Typ 8" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-          <div style="text-align:center;">
-            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 9</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042049/kompass/assets/bewusstseinsgrade-typ-9.jpg" alt="Bewusstseinsgrade Typ 9" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
-          </div>
-        </div>
-      </div>
-      <p class="psycho-intro">Jeder Enneagrammtyp durchläuft neun Bewusstseinsstufen — von vollkommen unbewusst (Stufe 1) bis vollkommen bewusst (Stufe 9). Diese Skala zeigt, wie sich das Verhalten und die innere Haltung eines Typs mit steigendem Bewusstsein wandelt: von destruktiven Mustern hin zu seiner höchsten Entfaltung.</p>
-      <div style="margin-bottom:1.5rem;">
-        <a href="#bewusstseinstest" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--gold,#c8a84b);color:#1a1208;border-radius:8px;padding:.65rem 1.2rem;font-size:.92rem;font-weight:700;text-decoration:none;">
-          &#127919; Wo stehe ich gerade? – Zum Bewusstseinsgrad-Selbsttest
-        </a>
-      </div>
-      <div style="background:var(--surface-2,rgba(0,0,0,0.03));border-radius:10px;padding:.8rem 1.2rem;margin-bottom:1.8rem;display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.85rem;">
-        <span>🟢 Stufe 7–9: bewusst · heilsam</span>
-        <span>🟡 Stufe 4–6: durchschnittlich</span>
-        <span>🔴 Stufe 1–3: unbewusst · destruktiv</span>
-      </div>
-      <div class="vb-section" style="max-width:100%;">
-        ${typenHTML}
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Dynamik der 27 Subtypen — Vertiefung der Bewusstseinsstufen je Subtyp.", "Die verborgene Dynamik der 27 Subtypen")}
-      </div>
-      ${relatedLinks([
-        {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
-        {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
-        {route:"heilungsweg", label:"Heilungsweg des Menschen"},
-        {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
-      ])}
-    </div>
-  `);
-}
-
 function heilfastenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -71096,7 +70938,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v452';
+  const MY_VERSION = 'inhalt-v453';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
