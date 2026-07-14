@@ -38,7 +38,7 @@ const TIER_KEY    = "enneagramm-kompass:tier";
 const NAME_KEY    = "enneagramm-kompass:lizenz-name";
 const PHOTO_KEY   = "enneagramm-kompass:user-photo";
 
-const KOMPASS_CODE = "KOMPASS-19681291";
+const KOMPASS_CODES = new Set(["KOMPASS-19681291", "KOMPASS-7743"]);
 
 function getUserPhoto()   { return localStorage.getItem(PHOTO_KEY) || ""; }
 function setUserPhoto(d) { try { localStorage.setItem(PHOTO_KEY, d); } catch(e) {} }
@@ -4354,7 +4354,7 @@ function bindEvents() {
       const code = (document.querySelector("#unlockCode").value || "").trim().toUpperCase();
       const name = (document.querySelector("#unlockName").value || "").trim();
       const msg = document.querySelector("#unlockMsg");
-      if (code === KOMPASS_CODE) {
+      if (KOMPASS_CODES.has(code)) {
         if (!name) {
           msg.textContent = "Bitte tragen Sie zuerst Ihren Namen ein.";
           msg.style.color = "var(--copper)";
