@@ -5600,7 +5600,7 @@ function spirituelleUebungenPage() {
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
-      ${bookTip("7-wege-zu-dir-selbst", "7 spirituelle Lebenskunst-Übungen für den Alltag &ndash; der ideale Begleiter zu dieser Übersicht.", "7 Wege zu Dir selbst")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-Übungen für den Alltag &ndash; der ideale Begleiter zu dieser Übersicht.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
       ${relatedLinks([
         {route:"bewusstseinsuebungen", label:"Bewusstseinsübungen"},
@@ -5949,15 +5949,15 @@ const SPIRITUELL_TRACKS = {
         Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
       </p>
       ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
-      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.", "Nichts und Alles")}
-      ${bookTip("raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
       ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft – die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
       ${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}
-      ${bookTip("meta-intelligenz-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
@@ -25574,7 +25574,7 @@ function dynamikBewusstseinszustandesPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik", "Die Dynamik der 27 Subtypen — Vertiefung der Bewusstseinsstufen je Subtyp.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Dynamik der 27 Subtypen — Vertiefung der Bewusstseinsstufen je Subtyp.", "Die verborgene Dynamik der 27 Subtypen")}
       </div>
       ${relatedLinks([
         {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
@@ -28218,7 +28218,7 @@ function bewusstseinsuebungenPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Jeder spirituelle Entwicklungsvorgang beginnt bei Punkt 9 &ndash; der Pr\xe4senz. Ohne Bewusstheit als Grundlage ist alles nichts. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("7-wege-zu-dir-selbst", "Das Buch zu diesen \xdcbungen &ndash; sieben spirituelle Lebenskunst-Schritte f\xfcr den Alltag.", "7 Wege zu Dir selbst")}
+        ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Das Buch zu diesen \xdcbungen &ndash; sieben spirituelle Lebenskunst-Schritte f\xfcr den Alltag.", "7 Wege zu Dir selbst")}
         ${bookTip("heilung-als-erinnerung", "Heilung als R\xfcckkehr zur Pr\xe4senz &ndash; die spirituelle Dimension der inneren Arbeit.", "Heilung als Erinnerung")}
         ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite &ndash; die Tiefe jenseits der Pers\xf6nlichkeit.", "Nichts und Alles")}
         ${relatedLinks([
@@ -28539,7 +28539,7 @@ function identifikationPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Je enger die Identifikation, desto lauter das Muster. Je bewusster der Abstand, desto stiller wird es &ndash; und desto mehr wird der Mensch sichtbar, der dahinter war, bevor das Muster begann. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\xe4sst &ndash; ein medidatives Werk \xfcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+        ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\xe4sst &ndash; ein medidatives Werk \xfcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
         ${bookTip("nichts-und-alles", "Sein ohne Festhalten &ndash; ein stilles Buch \xfcber den Raum jenseits der Pers\xf6nlichkeit und die innere Weite, die entsteht, wenn wir aufh\xf6ren, uns zu de finieren.", "Nichts und Alles")}
         ${bookTip("hinter-der-leidenschaft", "Was hinter dem Muster steckt: die neun Wunden des Enneagramms und die Heilmittel, die an die Wurzel gehen.", "Hinter der Leidenschaft")}
         ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypen &ndash; aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
@@ -29407,7 +29407,7 @@ function davidRathmerGrundlagenPage() {
     bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit"),
     bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypen"),
     bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt — inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung"),
-    bookTip("enneagramm-lexikon", "Das umfassendste Nachschlagewerk — alle Begriffe, Typen und Konzepte des Enneagramms von A bis Z.", "Rathmer's großes Enneagramm-Lexikon von A–Z"),
+    bookTip("rathmer-s-grosses-enneagramm-lexikon-von-a-z-taschenbuch", "Das umfassendste Nachschlagewerk — alle Begriffe, Typen und Konzepte des Enneagramms von A bis Z.", "Rathmer's großes Enneagramm-Lexikon von A–Z"),
   ].join("");
   return shell(`
     ${pageHeader("david-rathmer-grundlagen")}
@@ -29621,7 +29621,7 @@ function solfeggioFrequenzenPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">
-        ${bookTip("wer-du-wirklich-bist-1", "Das Grundlagenwerk \xfcber die 9 Enneagrammtypen und ihre spirituellen Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Das Grundlagenwerk \xfcber die 9 Enneagrammtypen und ihre spirituellen Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
       </div>
       ${relatedLinks([
         {route:"stille", label:"9 Minuten Stille"},
@@ -29682,9 +29682,9 @@ function zehnAnwendungenPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">
-        ${bookTip("wer-du-wirklich-bist-1", "Das Standardwerk zum Einstieg &mdash; Typen, Leidenschaften und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
-        ${bookTip("sprache-unserer-beziehungen", "Wie die 9 Typen Beziehungen erleben, gestalten und daran wachsen k\xf6nnen.", "Die Sprache unserer Beziehungen")}
-        ${bookTip("sprache-der-sexualitaet", "Der sexuelle Subtyp und die Kraft der Anziehung &mdash; tiefgehend und erhellend.", "Die Sprache unserer Sexualit\xe4t")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Das Standardwerk zum Einstieg &mdash; Typen, Leidenschaften und Entwicklungswege.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("die-sprache-unserer-beziehungen", "Wie die 9 Typen Beziehungen erleben, gestalten und daran wachsen k\xf6nnen.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "Der sexuelle Subtyp und die Kraft der Anziehung &mdash; tiefgehend und erhellend.", "Die Sprache unserer Sexualit\xe4t")}
         ${bookTip("fuehrung-mit-fundament", "F\xfchrungskr\xe4fte und Teams verstehen &mdash; das Enneagramm als F\xfchrungskompass.", "F\xfchrung mit Fundament")}
       </div>
       ${relatedLinks([
@@ -32691,9 +32691,9 @@ function stillePage() {
         Lege das Handy zur Seite. Ein Gong ertönt am Anfang und am Ende.
       </p>
 
-      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag &ndash; der ideale Begleiter zur täglichen Stille-Praxis.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag &ndash; der ideale Begleiter zur täglichen Stille-Praxis.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt &ndash; ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt &ndash; ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
         <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Lieber mit Musik?</p>
@@ -34359,9 +34359,9 @@ function musikPage() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
       </div>
-      ${bookTip("7-wege-zu-dir-selbst", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen — Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"stille",label:"9 Minuten Stille"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"}])}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
@@ -35168,7 +35168,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v441';
+  const MY_VERSION = 'inhalt-v442';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
