@@ -126,8 +126,8 @@ export const subtypeProfiles = {
         "Mein Heilmittel: Aus Gegenphobik wird echter innerer Mut und Vertrauen.",
         "Was waere, wenn inneres Vertrauen heute meine staerkste Form von Mut ist?",
         "Mein SX6-Weg: Aus Angst-als-Antrieb wird Vertrauen als Fundament.",
-      ]
         "Vertrauen wächst nicht dadurch, dass alle Risiken verschwinden. Vertrauen wächst, wenn du einen Schritt gehst, obwohl noch nicht alles sicher ist.",
+      ],
       question: "Wo versuchst du heute Sicherheit durch Kontrolle herzustellen?",
       step:
         "Halte heute in einer herausfordernden Situation für drei Atemzüge inne, bevor du reagierst.",
@@ -322,7 +322,7 @@ export const subtypeProfiles = {
         "Selbstkontrolle",
         "Disziplin",
         "Funktionieren",
-        "Perfektion"
+        "Perfektion",
       ],
     growth: [
         "Vertrauen",
@@ -330,7 +330,7 @@ export const subtypeProfiles = {
         "Natürlichkeit",
         "Genuss",
         "Wohlbefinden",
-        "Menschlichkeit"
+        "Menschlichkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -479,7 +479,7 @@ export const subtypeProfiles = {
         "Moral",
         "Pflicht",
         "Kontrolle",
-        "Verantwortung"
+        "Verantwortung",
       ],
     growth: [
         "Menschlichkeit",
@@ -487,7 +487,7 @@ export const subtypeProfiles = {
         "Lebendigkeit",
         "Freude",
         "Vertrauen",
-        "Leichtigkeit"
+        "Leichtigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -636,7 +636,7 @@ export const subtypeProfiles = {
         "Kontrolle",
         "Ideale",
         "Forderung",
-        "Spannung"
+        "Spannung",
       ],
     growth: [
         "Hingabe",
@@ -644,7 +644,7 @@ export const subtypeProfiles = {
         "Vertrauen",
         "Wirklichkeit",
         "Annahme",
-        "Entspannung"
+        "Entspannung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -793,7 +793,7 @@ export const subtypeProfiles = {
         "Gebrauchtwerden",
         "Anpassung",
         "Nähebedürfnis",
-        "Verfügbarkeit"
+        "Verfügbarkeit",
       ],
     growth: [
         "Selbstfürsorge",
@@ -801,7 +801,7 @@ export const subtypeProfiles = {
         "Selbstwert",
         "Ehrlichkeit",
         "innere Geborgenheit",
-        "Abgrenzung"
+        "Abgrenzung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -950,7 +950,7 @@ export const subtypeProfiles = {
         "Fürsorge",
         "Anerkennung",
         "Einfluss",
-        "Verantwortung"
+        "Verantwortung",
       ],
     growth: [
         "Selbstachtung",
@@ -958,7 +958,7 @@ export const subtypeProfiles = {
         "Abgrenzung",
         "Selbstannahme",
         "Demut",
-        "Leichtigkeit"
+        "Leichtigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1107,7 +1107,7 @@ export const subtypeProfiles = {
         "emotionale Abhängigkeit",
         "Anziehung",
         "Besitzanspruch",
-        "Intensität"
+        "Intensität",
       ],
     growth: [
         "Wahrhaftigkeit",
@@ -1115,7 +1115,7 @@ export const subtypeProfiles = {
         "innere Freiheit",
         "Echtheit",
         "Vertrauen",
-        "Selbstkontakt"
+        "Selbstkontakt",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1264,7 +1264,7 @@ export const subtypeProfiles = {
         "Leistung",
         "Kontrolle",
         "Erfolg",
-        "Anpassung"
+        "Anpassung",
       ],
     growth: [
         "Echtheit",
@@ -1272,7 +1272,7 @@ export const subtypeProfiles = {
         "Wertgefühl",
         "Lebendigkeit",
         "innere Wahrheit",
-        "Authentizität"
+        "Authentizität",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1421,7 +1421,7 @@ export const subtypeProfiles = {
         "Image",
         "Anerkennung",
         "Wirkung",
-        "Leistung"
+        "Leistung",
       ],
     growth: [
         "Selbstwert",
@@ -1429,7 +1429,7 @@ export const subtypeProfiles = {
         "Wahrhaftigkeit",
         "innere Sicherheit",
         "echtes Sein",
-        "Selbstannahme"
+        "Selbstannahme",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1578,7 +1578,7 @@ export const subtypeProfiles = {
         "Begehren",
         "Wirkung",
         "Glanz",
-        "Verführung"
+        "Verführung",
       ],
     growth: [
         "Echtheit",
@@ -1586,7 +1586,7 @@ export const subtypeProfiles = {
         "Authentizität",
         "innerer Kontakt",
         "Verletzlichkeit",
-        "Wahrhaftigkeit"
+        "Wahrhaftigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1735,7 +1735,7 @@ export const subtypeProfiles = {
         "Mangelgefühl",
         "Rückzug",
         "Schmerzbindung",
-        "Härte gegen sich selbst"
+        "Härte gegen sich selbst",
       ],
     growth: [
         "Selbstannahme",
@@ -1743,7 +1743,7 @@ export const subtypeProfiles = {
         "innere Fülle",
         "Verbindung",
         "Lebendigkeit",
-        "Selbstmitgefühl"
+        "Selbstmitgefühl",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -1892,7 +1892,7 @@ export const subtypeProfiles = {
         "Außenseitergefühl",
         "Mangelgefühl",
         "Leidensidentität",
-        "Sehnsucht"
+        "Sehnsucht",
       ],
     growth: [
         "Selbstwert",
@@ -1900,7 +1900,7 @@ export const subtypeProfiles = {
         "Zugehörigkeit",
         "innere Fülle",
         "Selbstannahme",
-        "Gegenwärtigkeit"
+        "Gegenwärtigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2049,7 +2049,7 @@ export const subtypeProfiles = {
         "Intensität",
         "Begehren",
         "Schmerzenssteigerung",
-        "Drama"
+        "Drama",
       ],
     growth: [
         "Selbstannahme",
@@ -2057,7 +2057,7 @@ export const subtypeProfiles = {
         "innerer Frieden",
         "Würde",
         "emotionale Befreiung",
-        "Gleichmut"
+        "Gleichmut",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2206,7 +2206,7 @@ export const subtypeProfiles = {
         "Distanz",
         "Kontrolle",
         "Selbstschutz",
-        "Wissen"
+        "Wissen",
       ],
     growth: [
         "Kontakt",
@@ -2214,7 +2214,7 @@ export const subtypeProfiles = {
         "Verbindung",
         "Vertrauen",
         "Offenheit",
-        "Erfahrung"
+        "Erfahrung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2363,7 +2363,7 @@ export const subtypeProfiles = {
         "Distanz",
         "Kontrolle",
         "Selbstschutz",
-        "Wissen"
+        "Wissen",
       ],
     growth: [
         "Kontakt",
@@ -2371,7 +2371,7 @@ export const subtypeProfiles = {
         "Verbindung",
         "Vertrauen",
         "Offenheit",
-        "Erfahrung"
+        "Erfahrung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2520,7 +2520,7 @@ export const subtypeProfiles = {
         "Idealisierung",
         "Rückzug",
         "innere Fantasie",
-        "Distanz"
+        "Distanz",
       ],
     growth: [
         "Wirklichkeit",
@@ -2528,7 +2528,7 @@ export const subtypeProfiles = {
         "Wahrhaftigkeit",
         "Hingabe",
         "gelebte Nähe",
-        "Vertrauen"
+        "Vertrauen",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2677,7 +2677,7 @@ export const subtypeProfiles = {
         "Absicherung",
         "Angst",
         "Kontrolle",
-        "Misstrauen"
+        "Misstrauen",
       ],
     growth: [
         "Vertrauen",
@@ -2685,7 +2685,7 @@ export const subtypeProfiles = {
         "Offenheit",
         "innere Ruhe",
         "Hingabe",
-        "Geborgenheit"
+        "Geborgenheit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2834,7 +2834,7 @@ export const subtypeProfiles = {
         "Pflicht",
         "Anpassung",
         "Zweifel",
-        "Autorität"
+        "Autorität",
       ],
     growth: [
         "innere Orientierung",
@@ -2842,7 +2842,7 @@ export const subtypeProfiles = {
         "Eigenständigkeit",
         "klare Position",
         "Entschiedenheit",
-        "innere Sicherheit"
+        "innere Sicherheit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -2988,14 +2988,14 @@ export const subtypeProfiles = {
     pattern: [
         "Möglichkeiten und Freude genießen, ohne dem gegenwärtigen Moment auszuweichen.",
         "Offen für Tiefe und alle Gefühle des Lebens bleiben.",
-        "Energie wird ruhig und lebendig zugleich."
+        "Energie wird ruhig und lebendig zugleich.",
       ],
     growth: [
         "lebensfroh",
         "spontan",
         "ressourcenorientiert",
         "genussfähig",
-        "zentrierte Lebendigkeit"
+        "zentrierte Lebendigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3141,14 +3141,14 @@ export const subtypeProfiles = {
     pattern: [
         "Leichtigkeit und Inspiration einbringen, ohne sich in Aktivität zu verlieren.",
         "Präsent und verbindlich im Kontakt bleiben.",
-        "Freude entsteht aus Tiefe statt aus Zerstreuung."
+        "Freude entsteht aus Tiefe statt aus Zerstreuung.",
       ],
     growth: [
         "visionär",
         "kontaktfreudig",
         "ideenreich",
         "verbindend",
-        "kreative Verantwortung"
+        "kreative Verantwortung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3294,14 +3294,14 @@ export const subtypeProfiles = {
     pattern: [
         "Begeisterung und Intensität erleben, ohne sich in Fantasien oder Möglichkeiten zu verlieren.",
         "Mit dem Körper und dem gegenwärtigen Moment verbunden bleiben.",
-        "Lebendigkeit entsteht aus Tiefe und echter Präsenz."
+        "Lebendigkeit entsteht aus Tiefe und echter Präsenz.",
       ],
     growth: [
         "leidenschaftlich",
         "magnetisch",
         "sinnlich",
         "abenteuerlustig",
-        "tiefe erfüllende Verbindung"
+        "tiefe erfüllende Verbindung",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3447,14 +3447,14 @@ export const subtypeProfiles = {
     pattern: [
         "Stärke bewusst nutzen, ohne ständig kontrollieren oder kämpfen zu müssen.",
         "Vertrauen, Offenheit und echte Verletzlichkeit erlauben.",
-        "Kraft wird ruhig und lebendig zugleich."
+        "Kraft wird ruhig und lebendig zugleich.",
       ],
     growth: [
         "selbstbestimmt",
         "standhaft",
         "mutig",
         "beschützend",
-        "vertrauensvolle Kraft"
+        "vertrauensvolle Kraft",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3600,14 +3600,14 @@ export const subtypeProfiles = {
     pattern: [
         "Verantwortung und Führung übernehmen, ohne andere kontrollieren zu müssen.",
         "Stärke mit Mitgefühl und innerer Offenheit verbinden.",
-        "Autorität entsteht aus Vertrauen statt aus Dominanz."
+        "Autorität entsteht aus Vertrauen statt aus Dominanz.",
       ],
     growth: [
         "führungsstark",
         "gerecht",
         "beschützend",
         "organisiert",
-        "verantwortliche Autorität"
+        "verantwortliche Autorität",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3753,14 +3753,14 @@ export const subtypeProfiles = {
     pattern: [
         "Anderen direkt und kraftvoll begegnen, ohne Druck oder Dominanz erzeugen zu müssen.",
         "Offen für Nähe, Vertrauen und emotionale Ehrlichkeit bleiben.",
-        "Kraftvolle Lebendigkeit verbindet sich mit Herzkraft und Bewusstheit."
+        "Kraftvolle Lebendigkeit verbindet sich mit Herzkraft und Bewusstheit.",
       ],
     growth: [
         "magnetisch",
         "intensiv",
         "leidenschaftlich",
         "souverän",
-        "vertrauensvolle Nähe"
+        "vertrauensvolle Nähe",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -3906,14 +3906,14 @@ export const subtypeProfiles = {
     pattern: [
         "Ruhig und gelassen bleiben, ohne sich in Gewohnheit oder Passivität zu verlieren.",
         "Eigene Impulse und Bedürfnisse bewusst wahrnehmen.",
-        "Energie wird stabil und lebendig, innere Ruhe verbindet sich mit Klarheit und Handlungskraft."
+        "Energie wird stabil und lebendig, innere Ruhe verbindet sich mit Klarheit und Handlungskraft.",
       ],
     growth: [
         "ruhig",
         "geerdet",
         "standhaft",
         "weise",
-        "lebendige Selbstpräsenz"
+        "lebendige Selbstpräsenz",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -4059,14 +4059,14 @@ export const subtypeProfiles = {
     pattern: [
         "Verbunden bleiben, ohne die eigene Position zu verlieren.",
         "Klarer einbringen und den eigenen Impulsen und Entscheidungen vertrauen.",
-        "Zugehörigkeit entsteht aus Selbstständigkeit und echtem Selbstkontakt."
+        "Zugehörigkeit entsteht aus Selbstständigkeit und echtem Selbstkontakt.",
       ],
     growth: [
         "verbindend",
         "gelassen",
         "standhaft",
         "ausgleichend",
-        "klare Zugehörigkeit"
+        "klare Zugehörigkeit",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
@@ -4212,14 +4212,14 @@ export const subtypeProfiles = {
     pattern: [
         "Mit sich selbst und mit anderen in lebendigem Kontakt bleiben.",
         "Den Platz einnehmen, ohne sich zurückzunehmen oder im Anderen aufzugehen.",
-        "Ruhe wird zu stabiler Kraft, die echte Nähe, Präsenz und Verbundenheit ermöglicht."
+        "Ruhe wird zu stabiler Kraft, die echte Nähe, Präsenz und Verbundenheit ermöglicht.",
       ],
     growth: [
         "hingebungsvoll",
         "mitfühlend",
         "friedlich",
         "verbunden",
-        "klare Selbstpräsenz"
+        "klare Selbstpräsenz",
       ],
     tools: [
       { name: "2-Punkte-Integration", label: "Körper & Gegenwart", text: "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen." },
