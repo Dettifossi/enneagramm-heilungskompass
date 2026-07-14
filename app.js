@@ -4465,7 +4465,7 @@ function bindEvents() {
         setLizenzName(cred.user.displayName || cred.user.email);
         const card = document.querySelector(".freischalt-card");
         if (card) {
-          card.innerHTML = \`
+          card.innerHTML = `
             <div style="text-align:center;padding:1rem 0 .5rem;">
               <div style="font-size:2.5rem;margin-bottom:.75rem;">✅</div>
               <h2 style="font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:.5rem;">Herzlich willkommen!</h2>
@@ -4477,7 +4477,7 @@ function bindEvents() {
               <p style="font-size:.88rem;line-height:1.65;margin:0;color:var(--ink);"><strong>Android (Chrome):</strong><br>Menü ⋮ → <em>„Zum Startbildschirm hinzufügen"</em></p>
             </div>
             <button class="primary" style="width:100%;font-size:1rem;" id="unlockWeiter">Jetzt loslegen →</button>
-          \`;
+          `;
           document.querySelector("#unlockWeiter").addEventListener("click", () => go("start"));
         } else {
           go("start");
