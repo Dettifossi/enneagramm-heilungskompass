@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=14";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=3";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=8";
-import { registerEntries } from "./data/register.js?v=20";
+import { registerEntries } from "./data/register.js?v=21";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -4430,23 +4430,15 @@ function bindEvents() {
     });
   }
 
-  // Tab-Umschalter Email / Zugangscode
-  const tabEmail = document.querySelector("#tabEmail");
-  const tabCode  = document.querySelector("#tabCode");
-  if (tabEmail && tabCode) {
-    const showTab = (tab) => {
-      const isEmail = tab === "email";
-      document.querySelector("#panelEmail").style.display = isEmail ? "" : "none";
-      document.querySelector("#panelCode").style.display  = isEmail ? "none" : "";
-      tabEmail.style.background   = isEmail ? "var(--gold-dark)" : "transparent";
-      tabEmail.style.color        = isEmail ? "var(--cream)" : "var(--muted)";
-      tabEmail.style.border       = isEmail ? "2px solid var(--gold-dark)" : "2px solid #ccc";
-      tabCode.style.background    = isEmail ? "transparent" : "var(--gold-dark)";
-      tabCode.style.color         = isEmail ? "var(--muted)" : "var(--cream)";
-      tabCode.style.border        = isEmail ? "2px solid #ccc" : "2px solid var(--gold-dark)";
-    };
-    tabEmail.addEventListener("click", () => showTab("email"));
-    tabCode.addEventListener("click",  () => showTab("code"));
+  // Zugangscode-Toggle
+  const toggleCode = document.querySelector("#toggleCode");
+  if (toggleCode) {
+    toggleCode.addEventListener("click", () => {
+      const panel = document.querySelector("#panelCode");
+      const visible = panel.style.display !== "none";
+      panel.style.display = visible ? "none" : "";
+      toggleCode.textContent = visible ? "Ich habe einen Zugangscode" : "Zugangscode ausblenden";
+    });
   }
 
   // Firebase E-Mail-Login
@@ -25528,6 +25520,49 @@ function dynamikBewusstseinszustandesPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Die Dynamik des Bewusstseinszustandes", "Schaubilder · Bewusstseinsgrade")}
+
+      <!-- Schaubilder: Die Dynamik des Bewusstseinszustandes (Typ 1–9) -->
+      <div style="margin-bottom:2rem;">
+        <h2 style="font-size:1.05rem;color:var(--gold-dark);margin-bottom:1rem;">Schaubilder: Bewusstseinsgrade der 9 Typen</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;">
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 1</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042033/kompass/assets/bewusstseinsgrade-typ-1.jpg" alt="Bewusstseinsgrade Typ 1" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 2</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042035/kompass/assets/bewusstseinsgrade-typ-2.jpg" alt="Bewusstseinsgrade Typ 2" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 3</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042037/kompass/assets/bewusstseinsgrade-typ-3.jpg" alt="Bewusstseinsgrade Typ 3" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 4</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042039/kompass/assets/bewusstseinsgrade-typ-4.jpg" alt="Bewusstseinsgrade Typ 4" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 5</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042041/kompass/assets/bewusstseinsgrade-typ-5.jpg" alt="Bewusstseinsgrade Typ 5" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 6</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042043/kompass/assets/bewusstseinsgrade-typ-6.jpg" alt="Bewusstseinsgrade Typ 6" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 7</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042045/kompass/assets/bewusstseinsgrade-typ-7.jpg" alt="Bewusstseinsgrade Typ 7" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 8</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042047/kompass/assets/bewusstseinsgrade-typ-8.jpg" alt="Bewusstseinsgrade Typ 8" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+          <div style="text-align:center;">
+            <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 9</p>
+            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042049/kompass/assets/bewusstseinsgrade-typ-9.jpg" alt="Bewusstseinsgrade Typ 9" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+          </div>
+        </div>
+      </div>
       <p class="psycho-intro">Jeder Enneagrammtyp durchläuft neun Bewusstseinsstufen — von vollkommen unbewusst (Stufe 1) bis vollkommen bewusst (Stufe 9). Diese Skala zeigt, wie sich das Verhalten und die innere Haltung eines Typs mit steigendem Bewusstsein wandelt: von destruktiven Mustern hin zu seiner höchsten Entfaltung.</p>
       <div style="background:var(--surface-2,rgba(0,0,0,0.03));border-radius:10px;padding:.8rem 1.2rem;margin-bottom:1.8rem;display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.85rem;">
         <span>🟢 Stufe 7–9: bewusst · heilsam</span>
@@ -32182,32 +32217,28 @@ function freischaltPage() {
 
         <div class="freischalt-card__divider"><span>Bereits gekauft? Jetzt anmelden:</span></div>
 
-        <!-- Tab-Umschalter -->
-        <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
-          <button id="tabEmail" style="flex:1;padding:.55rem;border-radius:8px;border:2px solid var(--gold-dark);background:var(--gold-dark);color:var(--cream);font-family:inherit;font-size:.9rem;cursor:pointer;font-weight:700;">E-Mail-Login</button>
-          <button id="tabCode" style="flex:1;padding:.55rem;border-radius:8px;border:2px solid #ccc;background:transparent;color:var(--muted);font-family:inherit;font-size:.9rem;cursor:pointer;">Zugangscode</button>
-        </div>
-
-        <!-- E-Mail-Login (Firebase) -->
+        <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">
           <input id="fbEmail" type="email" placeholder="Ihre E-Mail-Adresse" autocomplete="email" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
-          <input id="fbPass" type="password" placeholder="Ihr Passwort" autocomplete="current-password"
+          <input id="fbPass" type="password" placeholder="Ihr Passwort (aus der Bestätigungs-E-Mail)" autocomplete="current-password"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.75rem;" />
           <button id="fbLoginBtn" class="primary" style="width:100%;">Anmelden</button>
           <p id="fbMsg" class="freischalt-card__msg"></p>
         </div>
 
-        <!-- Zugangscode (alter Weg) -->
-        <div id="panelCode" style="display:none;">
-          <div style="margin-bottom:0.75rem;">
-            <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
-              style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
-          </div>
-          <div class="freischalt-card__input-row">
-            <input id="unlockCode" type="text" placeholder="Zugangscode eingeben" autocomplete="off" spellcheck="false" style="width:100%;margin-bottom:.75rem;" />
-            <button id="unlockBtn" class="primary" style="width:100%;">Aktivieren</button>
-          </div>
+        <!-- Zugangscode (alte Kunden, ausklappbar) -->
+        <div style="margin-top:1rem;text-align:center;">
+          <button id="toggleCode" style="background:none;border:none;color:var(--muted);font-size:.85rem;cursor:pointer;text-decoration:underline;font-family:inherit;">
+            Ich habe einen Zugangscode
+          </button>
+        </div>
+        <div id="panelCode" style="display:none;margin-top:.75rem;">
+          <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
+            style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
+          <input id="unlockCode" type="text" placeholder="Zugangscode eingeben" autocomplete="off" spellcheck="false"
+            style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:.75rem;" />
+          <button id="unlockBtn" class="primary" style="width:100%;">Aktivieren</button>
           <p id="unlockMsg" class="freischalt-card__msg"></p>
         </div>
 
@@ -32578,6 +32609,22 @@ function stillePage() {
         </div>
       </div>
 
+      <div style="margin:0 auto 1.5rem;max-width:420px;text-align:center;">
+        <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;">Dauer wählen</p>
+        <div style="display:flex;gap:.4rem;justify-content:center;flex-wrap:wrap;">
+          <button class="stille-dauer-btn" data-min="2"  style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">2 min</button>
+          <button class="stille-dauer-btn" data-min="3"  style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">3 min</button>
+          <button class="stille-dauer-btn" data-min="5"  style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">5 min</button>
+          <button class="stille-dauer-btn active" data-min="9" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--copper);background:var(--paper);cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--copper);font-weight:700;">9 min</button>
+          <button class="stille-dauer-btn" data-min="12" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">12 min</button>
+          <button class="stille-dauer-btn" data-min="15" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">15 min</button>
+          <button class="stille-dauer-btn" data-min="20" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">20 min</button>
+          <button class="stille-dauer-btn" data-min="30" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">30 min</button>
+          <button class="stille-dauer-btn" data-min="60" style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">1 Std</button>
+          <button class="stille-dauer-btn" data-min="0"  style="padding:.35rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);">∞ endlos</button>
+        </div>
+      </div>
+
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
         <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
@@ -32772,13 +32819,41 @@ function _syntheseFallback(animal) {
 
 
 function _stilleInit() {
-  const DAUER = 9 * 60;
+  let DAUER = 9 * 60;
+  let ENDLOS = false;
   const arc = document.getElementById("stille-arc");
   const zeitEl = document.getElementById("stille-zeit");
   const statusEl = document.getElementById("stille-status");
   const startBtn = document.getElementById("stille-start");
   const resetBtn = document.getElementById("stille-reset");
   if (!arc || !startBtn) return;
+
+  // Dauer-Buttons
+  document.querySelectorAll(".stille-dauer-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (laedt) return; // kein Wechsel während Sitzung
+      document.querySelectorAll(".stille-dauer-btn").forEach(b => {
+        b.style.borderColor = "var(--border)";
+        b.style.background = "transparent";
+        b.style.color = "var(--ink)";
+        b.style.fontWeight = "normal";
+      });
+      btn.style.borderColor = "var(--copper)";
+      btn.style.background = "var(--paper)";
+      btn.style.color = "var(--copper)";
+      btn.style.fontWeight = "700";
+      const min = parseInt(btn.dataset.min);
+      ENDLOS = min === 0;
+      DAUER = ENDLOS ? 0 : min * 60;
+      verbleibend = DAUER;
+      if (ENDLOS) {
+        zeitEl.textContent = "∞";
+        arc.style.strokeDashoffset = "0";
+      } else {
+        aktualisiere();
+      }
+    });
+  });
 
   const UMFANG = 2 * Math.PI * 136;
   let verbleibend = DAUER;
@@ -32828,15 +32903,17 @@ function _stilleInit() {
   }
 
   function tick() {
-    verbleibend--;
-    aktualisiere();
-    if (verbleibend <= 0) {
-      clearInterval(interval); interval = null;
-      stopKlang();
-      gong(160);
-      statusEl.textContent = "Willkommen zurück.";
-      startBtn.textContent = "✓ Fertig";
-      startBtn.disabled = true;
+    if (!ENDLOS) {
+      verbleibend--;
+      aktualisiere();
+      if (verbleibend <= 0) {
+        clearInterval(interval); interval = null;
+        stopKlang();
+        gong(160);
+        statusEl.textContent = "Willkommen zurück.";
+        startBtn.textContent = "✓ Fertig";
+        startBtn.disabled = true;
+      }
     }
   }
 
@@ -32867,7 +32944,7 @@ function _stilleInit() {
     clearInterval(interval); interval = null; laedt = false;
     stopKlang();
     verbleibend = DAUER;
-    aktualisiere();
+    if (ENDLOS) { zeitEl.textContent = "∞"; arc.style.strokeDashoffset = "0"; } else { aktualisiere(); }
     statusEl.textContent = "bereit";
     startBtn.id = "stille-start";
     startBtn.textContent = "▶ Starten";
@@ -32895,26 +32972,12 @@ function _stilleInit() {
     // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
     const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert"]);
     if (REAL_SOUNDS.has(id)) {
-      if (!audioCtx) return;
-      let cancelled = false;
-      klangStop = () => { cancelled = true; };
-      const bufPromise = klangFetchCache[id] || fetch(klangCdnUrl(id)).then(r => r.arrayBuffer());
-      delete klangFetchCache[id];
-      bufPromise
-        .then(ab => cancelled ? null : audioCtx.decodeAudioData(ab))
-        .then(decoded => {
-          if (!decoded || cancelled || !audioCtx || audioCtx.state === "closed") return;
-          const src = audioCtx.createBufferSource();
-          src.buffer = decoded;
-          src.loop = true;
-          const g = audioCtx.createGain();
-          g.gain.value = 0.7;
-          src.connect(g);
-          g.connect(audioCtx.destination);
-          src.start();
-          klangStop = () => { cancelled = true; try { src.stop(); } catch(e) {} };
-        })
-        .catch(() => {});
+      // HTML Audio statt AudioContext → funktioniert mit AirPlay/HomePod auf iOS
+      const audio = new Audio(klangCdnUrl(id));
+      audio.loop = true;
+      audio.volume = 0.7;
+      audio.play().catch(() => {});
+      klangStop = () => { audio.pause(); audio.src = ""; };
       return;
     }
 
@@ -35075,6 +35138,39 @@ document.addEventListener("click", (e) => {
   _solfeggioCtx = ctx; _solfeggioOsc = osc;
   btn.innerHTML = "&#9646;&#9646; Stopp"; btn.style.background = "var(--copper,#8b5e3c)"; btn.style.color = "#fff";
 });
+
+// Automatischer Versions-Check: holt index.html frisch vom Server und lädt neu wenn Version veraltet
+(function() {
+  const MY_VERSION = 'inhalt-v437';
+  setTimeout(function() {
+    fetch('./index.html', { cache: 'no-store' })
+      .then(function(r) { return r.text(); })
+      .then(function(html) {
+        var m = html.match(/bundle\.js\?v=([^"']+)/);
+        if (m && m[1] !== MY_VERSION) {
+          console.log('[Kompass] Neue Version gefunden:', m[1], '– Cache löschen und neu laden');
+          // Caches leeren + SW deregistrieren, dann neu laden
+          var chain = Promise.resolve();
+          if (window.caches) {
+            chain = chain.then(function() {
+              return caches.keys().then(function(keys) {
+                return Promise.all(keys.map(function(k) { return caches.delete(k); }));
+              });
+            });
+          }
+          if (navigator.serviceWorker) {
+            chain = chain.then(function() {
+              return navigator.serviceWorker.getRegistrations().then(function(regs) {
+                return Promise.all(regs.map(function(r) { return r.unregister(); }));
+              });
+            });
+          }
+          chain.then(function() { location.reload(); }).catch(function() { location.reload(); });
+        }
+      })
+      .catch(function() {});
+  }, 3000); // 3 Sek nach Start prüfen
+})();
 
 render();
 setTimeout(showTagesimpuls, 600);
