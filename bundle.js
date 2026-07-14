@@ -35139,9 +35139,11 @@ document.addEventListener("click", (e) => {
   btn.innerHTML = "&#9646;&#9646; Stopp"; btn.style.background = "var(--copper,#8b5e3c)"; btn.style.color = "#fff";
 });
 
-// Automatischer Versions-Check: holt index.html frisch vom Server und lädt neu wenn Version veraltet
+// Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v437';
+  const MY_VERSION = 'inhalt-v438';
+  const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
+  if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
     fetch('./index.html', { cache: 'no-store' })
       .then(function(r) { return r.text(); })
@@ -35149,7 +35151,7 @@ document.addEventListener("click", (e) => {
         var m = html.match(/bundle\.js\?v=([^"']+)/);
         if (m && m[1] !== MY_VERSION) {
           console.log('[Kompass] Neue Version gefunden:', m[1], '– Cache löschen und neu laden');
-          // Caches leeren + SW deregistrieren, dann neu laden
+          sessionStorage.setItem(GUARD_KEY, '1'); // vor dem Reload setzen!
           var chain = Promise.resolve();
           if (window.caches) {
             chain = chain.then(function() {
@@ -35169,7 +35171,7 @@ document.addEventListener("click", (e) => {
         }
       })
       .catch(function() {});
-  }, 3000); // 3 Sek nach Start prüfen
+  }, 3000);
 })();
 
 render();
