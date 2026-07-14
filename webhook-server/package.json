@@ -1,0 +1,9 @@
+{
+  "name": "kompass-stripe-webhook",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "stripe": "^15.0.0"
+  }
+}
