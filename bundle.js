@@ -25745,7 +25745,7 @@ function _dynamikBewusstseinszustandesInit() {
   setTimeout(function() {
     const el = document.getElementById("bwg-typ-" + typ);
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, 80);
+  }, 400);
 }
 
 function dynamikBewusstseinszustandesPage() {
@@ -35530,7 +35530,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v450';
+  const MY_VERSION = 'inhalt-v451';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
