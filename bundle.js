@@ -12,6 +12,42 @@ import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
 
+// ── Firebase Auth ────────────────────────────────────────────────────────────
+const FB_CONFIG = {
+  apiKey: "AIzaSyBxHC00W5lUKHCng5gyk7-b_whAvC-d6TE",
+  authDomain: "enneagramm-heilungskompass.firebaseapp.com",
+  projectId: "enneagramm-heilungskompass",
+  storageBucket: "enneagramm-heilungskompass.firebasestorage.app",
+  messagingSenderId: "193387465412",
+  appId: "1:193387465412:web:c0ba0b9c0e0fae3a75d791"
+};
+let fbAuth = null;
+let fbSignIn = null;
+let fbSignOut = null;
+
+(async () => {
+  try {
+    const { initializeApp } = await import("https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js");
+    const { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } =
+      await import("https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js");
+    const fbApp = initializeApp(FB_CONFIG);
+    fbAuth = getAuth(fbApp);
+    fbSignIn = signInWithEmailAndPassword;
+    fbSignOut = signOut;
+    onAuthStateChanged(fbAuth, (user) => {
+      if (user && !hasBasis()) {
+        setTier("heilwissen");
+        setLizenzName(user.displayName || user.email);
+        if (typeof state !== "undefined" && state.route && state.route.startsWith("freischalt")) {
+          go("start");
+        }
+      }
+    });
+  } catch (e) { console.warn("Firebase init:", e); }
+})();
+// ── Ende Firebase ─────────────────────────────────────────────────────────────
+
+
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
 const app = document.querySelector("#app");
 
@@ -4391,6 +4427,85 @@ function bindEvents() {
     unlockBtn.addEventListener("click", doUnlock);
     document.querySelector("#unlockCode").addEventListener("keydown", (e) => {
       if (e.key === "Enter") doUnlock();
+    });
+  }
+
+  // Tab-Umschalter Email / Zugangscode
+  const tabEmail = document.querySelector("#tabEmail");
+  const tabCode  = document.querySelector("#tabCode");
+  if (tabEmail && tabCode) {
+    const showTab = (tab) => {
+      const isEmail = tab === "email";
+      document.querySelector("#panelEmail").style.display = isEmail ? "" : "none";
+      document.querySelector("#panelCode").style.display  = isEmail ? "none" : "";
+      tabEmail.style.background   = isEmail ? "var(--gold-dark)" : "transparent";
+      tabEmail.style.color        = isEmail ? "var(--cream)" : "var(--muted)";
+      tabEmail.style.border       = isEmail ? "2px solid var(--gold-dark)" : "2px solid #ccc";
+      tabCode.style.background    = isEmail ? "transparent" : "var(--gold-dark)";
+      tabCode.style.color         = isEmail ? "var(--muted)" : "var(--cream)";
+      tabCode.style.border        = isEmail ? "2px solid #ccc" : "2px solid var(--gold-dark)";
+    };
+    tabEmail.addEventListener("click", () => showTab("email"));
+    tabCode.addEventListener("click",  () => showTab("code"));
+  }
+
+  // Firebase E-Mail-Login
+  const fbLoginBtn = document.querySelector("#fbLoginBtn");
+  if (fbLoginBtn) {
+    const doFbLogin = async () => {
+      const email = (document.querySelector("#fbEmail").value || "").trim();
+      const pass  = document.querySelector("#fbPass").value || "";
+      const msg   = document.querySelector("#fbMsg");
+      if (!email || !pass) { msg.textContent = "Bitte E-Mail und Passwort eingeben."; msg.style.color = "var(--copper)"; return; }
+      if (!fbAuth || !fbSignIn) { msg.textContent = "Verbindung wird aufgebaut, bitte kurz warten..."; return; }
+      msg.textContent = "Anmelden..."; msg.style.color = "var(--muted)";
+      try {
+        const cred = await fbSignIn(fbAuth, email, pass);
+        setTier("heilwissen");
+        setLizenzName(cred.user.displayName || cred.user.email);
+        const card = document.querySelector(".freischalt-card");
+        if (card) {
+          card.innerHTML = \`
+            <div style="text-align:center;padding:1rem 0 .5rem;">
+              <div style="font-size:2.5rem;margin-bottom:.75rem;">✅</div>
+              <h2 style="font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:.5rem;">Herzlich willkommen!</h2>
+              <p style="font-size:1rem;line-height:1.7;margin-bottom:1.5rem;">Ihr Zugang wurde erfolgreich aktiviert.</p>
+            </div>
+            <div style="background:var(--surface,#f9f6f0);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1.25rem;text-align:left;">
+              <p style="font-weight:700;font-size:.95rem;margin-bottom:.6rem;color:var(--ink);">📱 App auf den Homescreen legen</p>
+              <p style="font-size:.88rem;line-height:1.65;margin-bottom:.7rem;color:var(--ink);"><strong>iPhone / iPad (Safari):</strong><br>Teilen-Symbol ⬆ → <em>„Zum Home-Bildschirm"</em></p>
+              <p style="font-size:.88rem;line-height:1.65;margin:0;color:var(--ink);"><strong>Android (Chrome):</strong><br>Menü ⋮ → <em>„Zum Startbildschirm hinzufügen"</em></p>
+            </div>
+            <button class="primary" style="width:100%;font-size:1rem;" id="unlockWeiter">Jetzt loslegen →</button>
+          \`;
+          document.querySelector("#unlockWeiter").addEventListener("click", () => go("start"));
+        } else {
+          go("start");
+        }
+      } catch (e) {
+        const map = {
+          "auth/invalid-credential": "E-Mail oder Passwort falsch.",
+          "auth/user-not-found": "Kein Konto mit dieser E-Mail.",
+          "auth/wrong-password": "Falsches Passwort.",
+          "auth/too-many-requests": "Zu viele Versuche – bitte kurz warten.",
+          "auth/network-request-failed": "Keine Internetverbindung.",
+        };
+        msg.textContent = map[e.code] || "Anmeldung fehlgeschlagen.";
+        msg.style.color = "var(--copper)";
+      }
+    };
+    fbLoginBtn.addEventListener("click", doFbLogin);
+    document.querySelector("#fbPass").addEventListener("keydown", (e) => { if (e.key === "Enter") doFbLogin(); });
+  }
+
+  // Abmelden-Button im Footer
+  const fbLogoutBtn = document.querySelector("#fbLogoutBtn");
+  if (fbLogoutBtn) {
+    fbLogoutBtn.addEventListener("click", async () => {
+      if (fbAuth && fbSignOut) { try { await fbSignOut(fbAuth); } catch(e) {} }
+      setTier("demo");
+      setLizenzName("");
+      go("start");
     });
   }
 
@@ -32065,18 +32180,38 @@ function freischaltPage() {
           </div>
         </div>
 
-        <div class="freischalt-card__divider"><span>Bereits gekauft? Zugang aktivieren:</span></div>
+        <div class="freischalt-card__divider"><span>Bereits gekauft? Jetzt anmelden:</span></div>
 
-        <div style="margin-bottom:0.75rem;">
-          <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
+        <!-- Tab-Umschalter -->
+        <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
+          <button id="tabEmail" style="flex:1;padding:.55rem;border-radius:8px;border:2px solid var(--gold-dark);background:var(--gold-dark);color:var(--cream);font-family:inherit;font-size:.9rem;cursor:pointer;font-weight:700;">E-Mail-Login</button>
+          <button id="tabCode" style="flex:1;padding:.55rem;border-radius:8px;border:2px solid #ccc;background:transparent;color:var(--muted);font-family:inherit;font-size:.9rem;cursor:pointer;">Zugangscode</button>
+        </div>
+
+        <!-- E-Mail-Login (Firebase) -->
+        <div id="panelEmail">
+          <input id="fbEmail" type="email" placeholder="Ihre E-Mail-Adresse" autocomplete="email" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
+          <input id="fbPass" type="password" placeholder="Ihr Passwort" autocomplete="current-password"
+            style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.75rem;" />
+          <button id="fbLoginBtn" class="primary" style="width:100%;">Anmelden</button>
+          <p id="fbMsg" class="freischalt-card__msg"></p>
         </div>
-        <div class="freischalt-card__input-row">
-          <input id="unlockCode" type="text" placeholder="Zugangscode eingeben" autocomplete="off" spellcheck="false" style="width:100%;margin-bottom:.75rem;" />
-          <button id="unlockBtn" class="primary" style="width:100%;">Aktivieren</button>
+
+        <!-- Zugangscode (alter Weg) -->
+        <div id="panelCode" style="display:none;">
+          <div style="margin-bottom:0.75rem;">
+            <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
+              style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
+          </div>
+          <div class="freischalt-card__input-row">
+            <input id="unlockCode" type="text" placeholder="Zugangscode eingeben" autocomplete="off" spellcheck="false" style="width:100%;margin-bottom:.75rem;" />
+            <button id="unlockBtn" class="primary" style="width:100%;">Aktivieren</button>
+          </div>
+          <p id="unlockMsg" class="freischalt-card__msg"></p>
         </div>
-        <p id="unlockMsg" class="freischalt-card__msg"></p>
-        <button class="ghost-link freischalt-card__back" data-route="start">← Zurück zur Startseite</button>
+
+        <button class="ghost-link freischalt-card__back" data-route="start" style="margin-top:.75rem;">← Zurück zur Startseite</button>
       </div>
     </section>
   `);
@@ -32085,6 +32220,7 @@ function freischaltPage() {
 function legalFooter() {
   const name = getLizenzName();
   const lizenz = name ? `<span class="legal-footer__lizenz">Lizenziert für ${name}</span>` : "";
+  const abmelden = hasBasis() ? `<span class="legal-footer__sep">·</span><button class="legal-footer__link" id="fbLogoutBtn" style="opacity:.6;">Abmelden</button>` : "";
   return `<footer class="legal-footer">
     ${lizenz}
     <button class="legal-footer__link" data-route="impressum">Impressum</button>
@@ -32092,6 +32228,7 @@ function legalFooter() {
     <button class="legal-footer__link" data-route="datenschutz">Datenschutz</button>
     <span class="legal-footer__sep">·</span>
     <a class="legal-footer__link" href="mailto:detlefrathmer@t-online.de?subject=Kompass-Hinweis" style="font-size:.78rem;opacity:.6;color:inherit;text-decoration:none;">Anmerkung senden</a>
+    ${abmelden}
   </footer>`;
 }
 
