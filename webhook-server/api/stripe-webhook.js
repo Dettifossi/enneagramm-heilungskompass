@@ -1,16 +1,21 @@
-// Stripe → Firebase: Automatisch Nutzer anlegen nach Zahlung
-// Umgebungsvariablen (in Vercel setzen):
-//   STRIPE_WEBHOOK_SECRET  – aus Stripe Dashboard / Webhooks
-//   FIREBASE_SERVICE_ACCOUNT – Inhalt der service-account.json als ein-zeiliger String
+// Stripe → Firebase: Automatisch Nutzer anlegen + Passwort generieren + E-Mail senden
 
 import Stripe from "stripe";
 import { initializeApp, cert, getApps } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
 
-// Firebase Admin initialisieren (nur einmal)
 if (!getApps().length) {
   const sa = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
   initializeApp({ credential: cert(sa) });
+}
+
+// Zufälliges sicheres Passwort generieren: z.B. "Kompass-7X3k-9mPq"
+function generatePassword() {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
+  let part1 = "", part2 = "";
+  for (let i = 0; i < 4; i++) part1 += chars[Math.floor(Math.random() * chars.length)];
+  for (let i = 0; i < 4; i++) part2 += chars[Math.floor(Math.random() * chars.length)];
+  return `Kompass-${part1}-${part2}`;
 }
 
 export default async function handler(req, res) {
@@ -21,42 +26,36 @@ export default async function handler(req, res) {
 
   let event;
   try {
-    // Rohes Request-Body für Signaturprüfung nötig
     event = stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
   } catch (err) {
     console.error("Webhook signature error:", err.message);
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
 
-  // Nur abgeschlossene Zahlungen verarbeiten
   if (event.type !== "checkout.session.completed") {
     return res.status(200).json({ received: true });
   }
 
   const session = event.data.object;
   const email = session.customer_details?.email;
+  const name = session.customer_details?.name || "";
   if (!email) return res.status(200).json({ received: true, note: "no email" });
 
   const auth = getAuth();
+  const password = generatePassword();
 
   try {
-    // Prüfen ob Nutzer schon existiert
-    let user;
+    // Nutzer anlegen oder Passwort aktualisieren
     try {
-      user = await auth.getUserByEmail(email);
+      const existing = await auth.getUserByEmail(email);
+      await auth.updateUser(existing.uid, { password });
     } catch (e) {
-      // Nutzer existiert noch nicht → neu anlegen
-      user = await auth.createUser({ email, emailVerified: false });
+      await auth.createUser({ email, password, displayName: name, emailVerified: true });
     }
 
-    // Passwort-setzen-Link per Email schicken
-    const link = await auth.generatePasswordResetLink(email);
+    await sendWelcomeMail(email, name, password);
 
-    // Email über Firebase senden (via nodemailer oder direkt)
-    // → Wir nutzen hier den Firebase-eigenen Link und senden eine schöne Email
-    await sendWelcomeMail(email, link);
-
-    console.log(`✅ Zugang erstellt für: ${email}`);
+    console.log(`✅ Zugang erstellt für: ${email} / ${password}`);
     return res.status(200).json({ success: true, email });
   } catch (err) {
     console.error("Firebase error:", err);
@@ -64,10 +63,11 @@ export default async function handler(req, res) {
   }
 }
 
-async function sendWelcomeMail(email, resetLink) {
-  // Sendet eine Willkommens-Email mit dem Passwort-Link
-  // Nutzt den kostenlosen Resend.com-Dienst (100 Mails/Tag gratis)
-  const res = await fetch("https://api.resend.com/emails", {
+async function sendWelcomeMail(email, name, password) {
+  const anrede = name ? `Hallo ${name.split(" ")[0]},` : "Hallo,";
+  const appUrl = "https://www.verlagshausrathmer.com/enneagramm-kompass/";
+
+  const response = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${process.env.RESEND_API_KEY}`,
@@ -76,35 +76,35 @@ async function sendWelcomeMail(email, resetLink) {
     body: JSON.stringify({
       from: "Enneagramm-Heilungskompass <noreply@verlagshausrathmer.com>",
       to: email,
-      subject: "Ihr Zugang zum Enneagramm-Heilungskompass",
+      subject: "Ihr persönlicher Zugang zum Enneagramm-Heilungskompass",
       html: `
         <div style="font-family:Georgia,serif;max-width:560px;margin:0 auto;padding:2rem;background:#faf8f4;">
           <h1 style="color:#8a6a1a;font-size:1.4rem;margin-bottom:1rem;">
             Herzlich willkommen im Enneagramm-Heilungskompass!
           </h1>
-          <p style="color:#333;line-height:1.7;margin-bottom:1rem;">
-            Vielen Dank für Ihren Kauf. Ihr persönlicher Zugang wurde eingerichtet.
-          </p>
           <p style="color:#333;line-height:1.7;margin-bottom:1.5rem;">
-            Bitte klicken Sie auf den Button, um Ihr Passwort zu setzen und die App freizuschalten:
+            ${anrede}<br><br>
+            vielen Dank für Ihren Kauf. Hier sind Ihre persönlichen Zugangsdaten:
           </p>
-          <a href="${resetLink}"
+          <div style="background:#fff;border:2px solid #c9a84c;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;">
+            <p style="margin:0 0 0.5rem;color:#555;font-size:.9rem;">Ihre Zugangsdaten:</p>
+            <p style="margin:0 0 0.3rem;font-size:1rem;color:#333;"><strong>E-Mail:</strong> ${email}</p>
+            <p style="margin:0;font-size:1.1rem;color:#8a6a1a;"><strong>Passwort:</strong> ${password}</p>
+          </div>
+          <a href="${appUrl}"
              style="display:inline-block;background:#8a6a1a;color:#fff;padding:.85rem 2rem;border-radius:8px;text-decoration:none;font-size:1rem;font-weight:bold;">
-            Passwort setzen &amp; App öffnen →
+            Jetzt zur App →
           </a>
           <p style="color:#888;font-size:.85rem;margin-top:2rem;line-height:1.6;">
-            Nach dem Setzen Ihres Passworts können Sie sich jederzeit unter<br>
-            <a href="https://www.verlagshausrathmer.com/enneagramm-kompass/" style="color:#8a6a1a;">
-              www.verlagshausrathmer.com/enneagramm-kompass/
-            </a> anmelden.<br><br>
-            Der Link ist 24 Stunden gültig. Bei Fragen: detlefrathmer@t-online.de
+            In der App: „Freischalten" → Tab „E-Mail-Login" → E-Mail und Passwort eingeben.<br><br>
+            Sie können Ihr Passwort jederzeit ändern. Bei Fragen: detlefrathmer@t-online.de
           </p>
         </div>
       `,
     }),
   });
-  if (!res.ok) {
-    const err = await res.text();
+  if (!response.ok) {
+    const err = await response.text();
     throw new Error(`Email error: ${err}`);
   }
 }
