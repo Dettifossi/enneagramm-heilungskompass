@@ -311,7 +311,7 @@ export const subtypeProfiles = {
         "Mein Heilmittel: Aus perfekter Ordnung wird echte innere Freiheit. Heute mache ich einen Schritt.",
         "Was waere, wenn gut genug heute wirklich gut genug ist?",
         "Ich lerne: Echte Qualitaet entsteht auch ohne Perfektion.",
-      ]
+      ],
       question: "Wo darf ich heute unvollkommen und menschlich sein?",
       step: "Erkennen, dass dauerhafte Kontrolle und Selbstanspannung von Lebendigkeit trennen.",
       body: "Spannung schneller loslassen",
@@ -468,7 +468,7 @@ export const subtypeProfiles = {
         "Ich lerne: Echtes Gutes entsteht auch ohne Perfektion als Massstab.",
         "Mein SO1-Weg: Aus Zorn-auf-Ungerechtigkeit wird Mitgefuehl mit der Unvollkommenheit.",
         "Was waere, wenn die Welt heute besser ist, als ich dachte?",
-      ]
+      ],
       question: "Wo darf ich heute unvollkommen und menschlich sein?",
       step: "Erkennen, dass Pflichtgefühl und moralische Kontrolle vom Herzen entfernen können.",
       body: "Spannung schneller loslassen",
@@ -625,7 +625,7 @@ export const subtypeProfiles = {
         "Mein Heilmittel: Aus Eifersucht-und-Kontrolle wird freie liebevolle Begegnung.",
         "Was waere, wenn ich heute jemanden vollstaendig akzeptiere - ohne Verbesserungswunsch?",
         "Ich lerne: Echter Kontakt entsteht, wenn ich aufhoere zu verbessern.",
-      ]
+      ],
       question: "Wo darf ich heute unvollkommen und menschlich sein?",
       step: "Erkennen, dass innere Intensität und ständige Verbesserung keinen inneren Frieden erzeugen.",
       body: "Spannung bewusst regulieren",
@@ -782,7 +782,7 @@ export const subtypeProfiles = {
         "Was waere, wenn Erhalten heute eine Staerke ist - nicht eine Schwaeche?",
         "Ich merke, wenn Selbstverzicht beginnt. Heute erlaube ich mir, anzunehmen.",
         "Mein Heilmittel: Aus Selbstaufopferung wird echte Selbstfuersorge. Heute lebe ich das.",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass ständiges Kümmern die eigenen Bedürfnisse unsichtbar macht.",
       body: "Sicherheit im Körper verankern",
@@ -939,7 +939,7 @@ export const subtypeProfiles = {
         "Was waere, wenn ich heute einfach ich bin - und das reicht fuer die Gruppe?",
         "Ich merke, wenn Helfen zur Strategie wird. Heute helfe ich aus Liebe - nicht aus Berechnung.",
         "Mein Heilmittel: Aus Stolz auf Unentbehrlichkeit wird stille echte Praesenz.",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Anerkennung und Gebrauchtwerden nicht den inneren Wert bestimmen.",
       body: "Sicherheit durch Beziehung",
@@ -1096,7 +1096,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn Charme als Schutz dient. Heute zeige ich, was dahinter lebt.",
         "Mein Heilmittel: Aus Verloeckung wird tiefe, echte Verbundenheit.",
         "Was waere, wenn ich heute geliebt werde - fuer das, was ich wirklich bin?",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass intensive Bindung und Verführung keine echte Selbstliebe ersetzen können.",
       body: "Spannung im Körper regulieren",
@@ -1410,7 +1410,7 @@ export const subtypeProfiles = {
         "Ich lerne: Wer praesent ist, traegt echte Fruechte - ohne Performance.",
         "Mein Verbindungsinstinkt ist echt. Heute bringt er mich als ganzer Mensch in die Gruppe.",
         "Was waere, wenn echter Erfolg heute echte Verbundenheit bedeutet?",
-      ]
+      ],
       question: "Wer bin ich heute jenseits meiner Leistung?",
       step: "Erkennen, dass Status und Anerkennung den inneren Wert nicht sichern können.",
       body: "Aktivierung gezielt steuern",
@@ -1567,7 +1567,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn der Wunsch nach Bewunderung lauter wird. Ich atme durch und kehre zu mir zurueck.",
         "Mein Heilmittel: Aus Eitelkeit entsteht Wahrhaftigkeit - Schritt fuer Schritt.",
         "Was waere, wenn das Echt-Sein heute staerker strahlt als das Inszenierte?",
-      ]
+      ],
       question: "Wer bin ich heute jenseits meiner Leistung?",
       step: "Erkennen, dass Ausstrahlung und Bewunderung keine echte innere Nähe erzeugen.",
       body: "Spannung gezielt steuern",
@@ -1724,7 +1724,7 @@ export const subtypeProfiles = {
         "Was waere, wenn ich heute einfach lebe - ohne mich zu erklaeren?",
         "Ich lerne: Frieden mit mir selbst ist das Fundament echter Tiefe.",
         "Mein Wert ist echt, vollstaendig, und bedarf keiner Demonstration.",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass stilles Leiden und Rückzug innere Schwere verstärken.",
       body: "Rückzug bewusst gestalten",
@@ -1881,7 +1881,7 @@ export const subtypeProfiles = {
         "Was waere, wenn ich heute einfach dazugehoere?",
         "Ich merke, wenn Scham aufkommt. Ich atme durch und waehle Wuerde.",
         "Mein Heilmittel: Innere Fuelle statt Mangelgefuehl. Heute kultiviere ich sie.",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Vergleiche und Außenseitergefühle vom eigenen Wert trennen.",
       body: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu we",
@@ -2038,7 +2038,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn Neid mich erschoepft. Ich kehre zu mir selbst und meiner Energie zurueck.",
         "Mein Heilmittel: Aus Begehren wird echte Verbundenheit. Heute bin ich auf diesem Weg.",
         "Was waere, wenn ich heute echt und ruhig bin - und das genuegt?",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass emotionale Intensität und Drama Sehnsucht nicht wirklich erfüllen.",
       body: "Gefühle bewusst zulassen",
@@ -2195,7 +2195,7 @@ export const subtypeProfiles = {
         "Was waere, wenn Vertrauen in das Leben heute meine groesste Sicherheit ist?",
         "Was waere, wenn Selbstfuersorge heute meine effizienteste Handlung ist?",
         "Ich lerne: Der Koerper weiss, wann genug ist. Heute hoere ich auf ihn.",
-      ]
+      ],
       question: "Was weiß ich schon genug, um heute anzufangen?",
       step: "Erkennen, dass dauerhafter Rückzug und Distanz innerlich isolieren.",
       body: "Reize dosiert aufnehmen",
@@ -2352,7 +2352,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn ich in den Beobachtermodus gehe. Heute bin ich Teilnehmer.",
         "Mein Heilmittel: Aus Selbstbeschraenkung wird Lebendigkeit. Heute waechst sie.",
         "Was waere, wenn Vertrauen heute meine staerkste Ressource ist?",
-      ]
+      ],
       question: "Was weiß ich schon genug, um heute anzufangen?",
       step: "Erkennen, dass Wissen und Beobachtung allein keine echte Teilhabe ersetzen.",
       body: "Reize filtern und priorisieren",
@@ -2509,7 +2509,7 @@ export const subtypeProfiles = {
         "Mein Heilmittel: Naehe in der Wirklichkeit ist moeglich - auch fuer mich.",
         "Was waere, wenn ich heute jemandem begegne und mich wirklich zeige?",
         "Ich lerne: Echte Verbindung ist die tiefste Form von Wissen.",
-      ]
+      ],
       question: "Was weiß ich schon genug, um heute anzufangen?",
       step: "Erkennen, dass Sehnsucht und Idealisierung echte Nähe oft verhindern.",
       body: "innere Sicherheit kultivieren",
@@ -2666,7 +2666,7 @@ export const subtypeProfiles = {
         "Was waere, wenn ich heute vertraue - und alles gut ist?",
         "Ich merke, wenn Angst als Signal kommt. Ich nehme es an und handle trotzdem.",
         "Mein Heilmittel: Innere Ruhe als Fundament. Heute baue ich sie bewusst.",
-      ]
+      ],
       question: "Was trägt mich, auch wenn ich nicht alles kontrolliere?",
       step: "Erkennen, dass ständige Vorsicht und Absicherung Angst nicht wirklich beruhigen.",
       body: "Zwischen dem Wunsch nach Sicherheit und der Angst vor Gefahr oder Verrat.",
@@ -2823,7 +2823,7 @@ export const subtypeProfiles = {
         "Was waere, wenn Loyalitaet und Freiheit heute dasselbe sind?",
         "Ich lerne: Echte Gemeinschaft braucht eigenstaendige Mitglieder.",
         "Mein Gewissen ist meine groesste Ressource. Heute folge ich ihm.",
-      ]
+      ],
       question: "Was trägt mich, auch wenn ich nicht alles kontrolliere?",
       step: "Erkennen, dass Anpassung an Regeln und Autoritäten die eigene Orientierung schwächen kann.",
       body: "Zwischen dem Bedürfnis nach Sicherheit und Zugehörigkeit und der Angst vor Verrat oder Überforderung",
@@ -2980,7 +2980,7 @@ export const subtypeProfiles = {
         "Mein SE7-Weg: Aus Masslosigkeit wird gelebte Genuegsamkeit.",
         "Was waere, wenn dieser Moment heute alles hat, was ich brauche?",
         "Ich merke, wenn Reizsuche beginnt. Ich atme tief und bleibe.",
-      ]
+      ],
       question: "Was wäre heute schon genug?",
       step: "Erkennen, dass ständige Planung und Ablenkung vom gegenwärtigen Moment entfernen.",
       body: "",
@@ -3133,7 +3133,7 @@ export const subtypeProfiles = {
         "Ich lerne: Echter Beitrag entsteht aus Stille und Naehe.",
         "Mein SO7-Heilmittel: Echte, nahbare Freude - heute teile ich sie.",
         "Was waere, wenn Tiefsein heute ansteckender ist als Optimismus?",
-      ]
+      ],
       question: "Was wäre heute schon genug?",
       step: "Erkennen, dass soziale Aktivität und ständige Möglichkeiten innerlich zerstreuen können.",
       body: "",
@@ -3286,7 +3286,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn Euphorie beginnt, Realitaet zu verdecken. Ich kehre zur Wirklichkeit zurueck.",
         "Mein Heilmittel: Aus Jagen wird Ankommen. Heute komme ich an.",
         "Was waere, wenn dieser Moment der intensivste heute ist - genau so?",
-      ]
+      ],
       question: "Was wäre heute schon genug?",
       step: "Erkennen, dass Intensität und Begeisterung innere Leere nicht dauerhaft überdecken können.",
       body: "",
@@ -3439,7 +3439,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn Haerte beginnt. Ich atme durch und oeffne mich.",
         "Mein Heilmittel: Lebendige Kraft aus Vertrauen. Heute lebe ich sie.",
         "Was waere, wenn das Mutigste heute Offenheit ist?",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Kontrolle und Härte von der eigenen Verletzlichkeit abschneiden.",
       body: "",
@@ -3592,7 +3592,7 @@ export const subtypeProfiles = {
         "Ich lerne: Wer fuehrt, gibt auch Raum - dem eigenen Herzen.",
         "Mein Fuehrungsinstinkt und mein Vertrauen kommen heute zusammen.",
         "Was waere, wenn echte Fuehrung heute Verbundenheit und Stille schafft?",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Verantwortung und Kontrolle innerlich verhärten können.",
       body: "",
@@ -3745,7 +3745,7 @@ export const subtypeProfiles = {
         "Ich lerne: Naehe und Intensitaet koennen zusammen entstehen - ohne Kampf.",
         "Mein SX8-Weg: Aus Kampf wird freie, echte Verbundenheit.",
         "Was waere, wenn meine Leidenschaft heute vollstaendig frei ist - fuer echte Begegnung?",
-      ]
+      ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Intensität und Konfrontation echte Nähe verhindern können.",
       body: "",
@@ -3898,7 +3898,7 @@ export const subtypeProfiles = {
         "Ich lerne: Echter Friede entsteht aus Praesenz - nicht aus Vermeidung.",
         "Mein SE9-Heilmittel: Lebendige innere Praesenz als Fundament echter Gelassenheit.",
         "Was waere, wenn ich heute vollstaendig bei mir bin - ruhig und lebendig?",
-      ]
+      ],
       question: "Welche eine Sache möchte ich heute wirklich spüren?",
       step: "Erkennen, dass Rückzug, Gewohnheit und innere Trägheit die Lebendigkeit blockieren.",
       body: "",
@@ -4051,7 +4051,7 @@ export const subtypeProfiles = {
         "Ich lerne: Echte Harmonie entsteht, wenn alle ganz sie selbst sind.",
         "Mein Zusammenhaltsinstinkt und meine eigene Stimme kommen heute zusammen.",
         "Was waere, wenn meine Praesenz heute das Wertvollste ist, das ich beitragen kann?",
-      ]
+      ],
       question: "Welche eine Sache möchte ich heute wirklich spüren?",
       step: "Erkennen, dass ständige Anpassung und Zugehörigkeit von der eigenen Position entfernen können.",
       body: "",
@@ -4204,7 +4204,7 @@ export const subtypeProfiles = {
         "Ich merke, wenn Verschmelzungsdrang kommt. Ich atme und bleibe bei mir.",
         "Mein Heilmittel: Begegnung statt Verschmelzung. Heute lebe ich das.",
         "Was waere, wenn echte Liebe heute bedeutet: ich bleibe auch ich?",
-      ]
+      ],
       question: "Welche eine Sache möchte ich heute wirklich spüren?",
       step: "Sich selbst wieder wahrnehmen, statt sich im Anderen zu verlieren.",
       body: "",
