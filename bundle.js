@@ -1243,6 +1243,10 @@ function startPage() {
               <span class="start-path__test-label">Motivationaler Typentest${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">100 Fragen · Schwerpunkt Motivation</span>
             </button>
+            <button class="start-path__btn start-path__btn--test${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "bewusstseinstest" : "freischalt/heilwissen"}">
+              <span class="start-path__test-label">Bewusstseinsgrad-Selbsttest${hasHeilwissen() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">Wo stehe ich gerade? · Spiegel für Fortgeschrittene</span>
+            </button>
           </div>
         </div>
         <div class="start-path__berater">
@@ -35514,7 +35518,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v448';
+  const MY_VERSION = 'inhalt-v449';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
