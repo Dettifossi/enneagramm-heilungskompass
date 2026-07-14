@@ -32862,61 +32862,17 @@ function _stilleInit() {
   let audioCtx = null;
 
   function gong(freq = 160) {
-    // Gong als WAV-Blob via OfflineAudioContext → HTML Audio (AirPlay/HomePod-kompatibel)
-    const SR = 11025, DUR = 8;
-    const PARTIALS = [
-      { ratio: 1.0,   amp: 0.65, decay: 7.5, attack: 0.012 },
-      { ratio: 2.756, amp: 0.20, decay: 6.0, attack: 0.008 },
-      { ratio: 5.404, amp: 0.08, decay: 4.5, attack: 0.005 },
-      { ratio: 8.933, amp: 0.03, decay: 2.5, attack: 0.003 },
-    ];
     try {
-      const offline = new OfflineAudioContext(1, SR * DUR, SR);
-      const master = offline.createGain();
-      master.gain.setValueAtTime(0.75, 0);
-      master.connect(offline.destination);
-      PARTIALS.forEach(({ ratio, amp, decay, attack }) => {
-        const osc = offline.createOscillator();
-        const g   = offline.createGain();
-        osc.type = "sine";
-        osc.frequency.value = freq * ratio;
-        g.gain.setValueAtTime(0.0001, 0);
-        g.gain.exponentialRampToValueAtTime(amp, attack);
-        g.gain.exponentialRampToValueAtTime(0.0001, decay);
-        osc.connect(g); g.connect(master);
-        osc.start(0); osc.stop(decay + 0.05);
-      });
-      offline.startRendering().then(buf => {
-        // PCM → WAV-Header → Blob → HTML Audio
-        const pcm = buf.getChannelData(0);
-        const ab  = new ArrayBuffer(44 + pcm.length * 2);
-        const v   = new DataView(ab);
-        const ws  = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
-        ws(0,'RIFF'); v.setUint32(4, 36 + pcm.length*2, true);
-        ws(8,'WAVE'); ws(12,'fmt '); v.setUint32(16,16,true); v.setUint16(20,1,true);
-        v.setUint16(22,1,true); v.setUint32(24,SR,true); v.setUint32(28,SR*2,true);
-        v.setUint16(32,2,true); v.setUint16(34,16,true); ws(36,'data');
-        v.setUint32(40, pcm.length*2, true);
-        for (let i = 0; i < pcm.length; i++) {
-          const s = Math.max(-1, Math.min(1, pcm[i]));
-          v.setInt16(44 + i*2, s < 0 ? s*32768 : s*32767, true);
-        }
-        const url = URL.createObjectURL(new Blob([ab], { type:'audio/wav' }));
-        const a = new Audio(url);
-        a.play().catch(() => {});
-        a.onended = () => URL.revokeObjectURL(url);
-      }).catch(() => _gongDirect(freq));
-    } catch(e) { _gongDirect(freq); }
-  }
-
-  function _gongDirect(freq = 160) {
-    try {
-      if (!audioCtx || audioCtx.state === "closed") audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (!audioCtx || audioCtx.state === "closed") {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
       if (audioCtx.state === "suspended") audioCtx.resume();
       const ctx = audioCtx;
       const master = ctx.createGain();
       master.gain.setValueAtTime(0.75, ctx.currentTime);
       master.connect(ctx.destination);
+
+      // Klangschale: sanft anschwellend, langer Ausklang
       [
         { ratio: 1.0,   amp: 0.65, decay: 22, attack: 0.012 },
         { ratio: 2.756, amp: 0.20, decay: 14, attack: 0.008 },
@@ -32930,8 +32886,10 @@ function _stilleInit() {
         g.gain.setValueAtTime(0.0001, ctx.currentTime);
         g.gain.exponentialRampToValueAtTime(amp, ctx.currentTime + attack);
         g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + decay);
-        osc.connect(g); g.connect(master);
-        osc.start(ctx.currentTime); osc.stop(ctx.currentTime + decay + 0.1);
+        osc.connect(g);
+        g.connect(master);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + decay + 0.1);
       });
     } catch(e) {}
   }
@@ -35210,7 +35168,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v440';
+  const MY_VERSION = 'inhalt-v441';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
