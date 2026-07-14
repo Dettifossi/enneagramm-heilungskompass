@@ -25692,7 +25692,7 @@ function _bewusstseinsgradTestInit() {
       <a href="#dynamik-des-bewusstseinszustandes" style="
         display:inline-flex;align-items:center;gap:.5rem;
         background:var(--gold,#c8a84b);color:#1a1208;border-radius:8px;
-        padding:.6rem 1.1rem;font-size:.88rem;font-weight:700;text-decoration:none;margin-bottom:1rem;">
+        padding:.6rem 1.1rem;font-size:.88rem;font-weight:700;text-decoration:none;margin-bottom:1rem;" onclick="sessionStorage.setItem('bwg-scroll-typ',''+typ+'')">
         &#128247; Alle 9 Bewusstseinsgrade für Typ ${typ} ansehen
       </a>
       <br>
@@ -25735,6 +25735,17 @@ function _bewusstseinsgradTestInit() {
     gewaehlterTyp = parseInt(profile.typ);
     zeigeAussagen(gewaehlterTyp);
   }
+}
+
+
+function _dynamikBewusstseinszustandesInit() {
+  const typ = sessionStorage.getItem("bwg-scroll-typ");
+  if (!typ) return;
+  sessionStorage.removeItem("bwg-scroll-typ");
+  setTimeout(function() {
+    const el = document.getElementById("bwg-typ-" + typ);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 80);
 }
 
 function dynamikBewusstseinszustandesPage() {
@@ -25795,7 +25806,7 @@ function dynamikBewusstseinszustandesPage() {
       ]},
   ];
   const typenHTML = TYPEN.map(t => `
-    <div style="margin-bottom:2rem;padding:1.2rem 1.4rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:12px;border-left:4px solid var(--gold,#c8a84b);">
+    <div id="bwg-typ-${t.nr}" style="margin-bottom:2rem;padding:1.2rem 1.4rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:12px;border-left:4px solid var(--gold,#c8a84b);">
       <h3 style="margin:0 0 1rem;font-size:1rem;font-weight:700;color:var(--ink);">${t.titel}</h3>
       <div style="display:grid;gap:.4rem;">
         ${t.stufen.map(s => {
@@ -35387,6 +35398,7 @@ function render() {
     }
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
+    if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
     bindEvents();
     requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -35518,7 +35530,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v449';
+  const MY_VERSION = 'inhalt-v450';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
