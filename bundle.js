@@ -8104,7 +8104,7 @@ function tilSchweigerPortraitPage() {
             „Neid bringt euch gar nichts. Das ist eine negative Eigenschaft. Gibt euch nur ein schlechtes Gefühl. Ihr werdet nicht schlauer, wenn ihr neidisch seid. Ihr werdet nicht reicher. Ihr werdet nicht sportlicher. Ihr kriegt nicht größere Muskeln. Ihr seht nicht besser aus. Ihr werdet nicht erfolgreicher. Wenn ihr nicht neidisch seid, seid ihr viel besser dran."
             <footer style="margin-top:0.4rem;font-style:normal;font-size:0.88em;color:#777;">&mdash; Til Schweiger, <em>Hotel Matze</em>, März 2024</footer>
           </blockquote>
-          <p class="vb-intro">Aus enneagrammatischer Sicht ist diese Aussage von einer geradezu klassischen Tiefe: Der soziale Typ 4, dessen verborgene Leidenschaft der <strong>Neid</strong> ist &ndash; und zwar in seiner verstärkten, nach innen gewendeten Form als Scham und Mangelbewusstsein &ndash; erklärt öffentlich, er selbst sei niemals neidisch gewesen. Er hat sogar eine Botschaft darüber, die er an seine Kinder weitergibt. Die Leidenschaft ist so tief in der Persönlichkeitsstruktur verankert, so sehr das Wasser, in dem er schwimmt, dass er sie bei sich selbst nicht erkennen kann. Das ist kein Vorwurf &ndash; das ist die Natur der Leidenschaft. Und es erinnert an das homöopathische Mittel <em>Ignatia amara</em>, das dem SO4 zugeordnet wird: ein Mittel, das für seine paradoxen Symptombilder bekannt ist &ndash; der Patient isst, obwohl er trinken will; trinkt, obwohl er Hunger hat. Das Äußere und das Innere klaffen auseinander, ohne dass der Betroffene es bemerkt.</p>
+          <p class="vb-intro">Aus enneagrammatischer Sicht ist diese Aussage von einer geradezu klassischen Tiefe: Der soziale Typ 4, dessen verborgene Leidenschaft der <strong>Neid</strong> ist &ndash; und zwar in seiner verstärkten, nach innen gewendeten Form als Scham und Mangelbewusstsein &ndash; erklärt öffentlich, er selbst sei niemals neidisch gewesen. Er hat sogar eine Botschaft darüber, die er an seine Kinder weitergibt. Die Leidenschaft ist so tief in der Persönlichkeitsstruktur verankert, so sehr das Wasser, in dem er schwimmt, dass er sie bei sich selbst nicht erkennen kann. Das ist kein Vorwurf &ndash; das ist die Natur der Leidenschaft. Und es erinnert an das homöopathische Mittel <em>Ignatia amara</em>, das dem sozialen Typ 4 zugeordnet wird: ein Mittel, das für seine paradoxen Symptombilder bekannt ist &ndash; der Patient isst, obwohl er trinken will; trinkt, obwohl er Hunger hat. Das Äußere und das Innere klaffen auseinander, ohne dass der Betroffene es bemerkt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Coolness als Schutzmaske</h2>
@@ -36520,7 +36520,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v495';
+  const MY_VERSION = 'inhalt-v496';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
