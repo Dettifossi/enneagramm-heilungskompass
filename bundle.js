@@ -14428,7 +14428,7 @@ function pDiddyPortraitPage() {
         <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, Überzeugung eigener Legitimität<br>
         <strong>Tierentsprechung:</strong> Schimpanse – hochintelligent, sozial dominant, zur kalkulierten kollektiven Gewalt fähig<br>
         <strong>Lebensdaten:</strong> Geb. 4. November 1969 in Harlem, New York<br>
-        <strong>Verbrechen:</strong> Sex-Trafficking, Nötigung, Körperverletzung – verurteilt Oktober 2025 zu 4 Jahren 2 Monaten Haft
+        <strong>Verbrechen:</strong> Sex-Trafficking, Nötigung, Körperverletzung – verurteilt im Oktober 2025 zu vier Jahren und zwei Monaten Haft
         </p>
       </div>
 
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v472';
+  const MY_VERSION = 'inhalt-v473';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
