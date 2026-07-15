@@ -1150,7 +1150,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">3</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Vollzugang freischalten</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Für alle 27 Subtyp-Profile, Heilmittel und Schaubilder: einmalig € 49, lebenslanger Zugang.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Für alle 27 Subtyp-Profile · Heilmittel &amp; Naturheilkunde · Hunderte Schaubilder · Porträts berühmter Persönlichkeiten · Enneagramm-Profiling · Musik &amp; Klang · Praxisanwendungen · regelmäßige Erweiterung · lebenslanger Zugang.</p>
             </div>
           </div>
         </div>
@@ -35740,7 +35740,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v466';
+  const MY_VERSION = 'inhalt-v467';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
