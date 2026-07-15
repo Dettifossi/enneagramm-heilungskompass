@@ -1178,13 +1178,130 @@ function bindOnboarding() {
 }
 
 
-const FREIGEGEBENE_BEWERTUNGEN = [
-  // Freigegebene Bewertungen hier eintragen (nach E-Mail von Nutzer):
-  // { sterne: 5, name: "Maria K.", text: "Absolut beeindruckend..." },
-];
+const JSONBIN_KEY = '$2a$10$LNlgIJOGbl6mnMlsX.luWuOkm/0og9HUbwLyoqdb9hHh9Uk9hbt6O';
+const JSONBIN_WARTEND = '6a573182f5f4af5e299123ac';
+const JSONBIN_FREIGEGEBEN = '6a573185da38895dfe5f9c4b';
+const ADMIN_CODE = 'rathmer9';
+
+
+function adminPage() {
+  const app = document.getElementById('app');
+  const code = window.location.hash.split('/')[1] || '';
+  if (code !== ADMIN_CODE) {
+    app.innerHTML = '<div style="max-width:400px;margin:4rem auto;padding:2rem;text-align:center;">' +
+      '<p style="color:var(--ink);font-size:1rem;margin-bottom:1rem;">Admin-Code eingeben:</p>' +
+      '<input id="admin-code-input" type="password" placeholder="Code..." ' +
+      'style="width:100%;padding:0.6rem;font-size:1rem;border:1px solid var(--border);border-radius:8px;text-align:center;margin-bottom:0.8rem;">' +
+      '<button onclick="var v=document.getElementById('admin-code-input').value;if(v===ADMIN_CODE){location.hash='admin/'+v;}else{alert('Falscher Code');}" ' +
+      'style="background:var(--gold);border:none;border-radius:8px;padding:0.6rem 1.5rem;font-weight:700;cursor:pointer;">Einloggen</button>' +
+      '</div>';
+    return;
+  }
+  app.innerHTML = '<div style="max-width:680px;margin:2rem auto;padding:1rem;">' +
+    '<h1 style="font-size:1.2rem;font-weight:700;color:var(--ink);margin-bottom:1.5rem;">Bewertungen verwalten</h1>' +
+    '<div id="admin-liste"><p style="color:var(--muted);">Lade Bewertungen...</p></div>' +
+    '</div>';
+  _adminLaden();
+}
+
+function _adminLaden() {
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
+    headers: { 'X-Master-Key': JSONBIN_KEY } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      const el = document.getElementById('admin-liste');
+      if (!el) return;
+      if (!liste.length) { el.innerHTML = '<p style="color:var(--muted);">Keine wartenden Bewertungen.</p>'; return; }
+      el.innerHTML = liste.map(function(b, i) {
+        const sternText = '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne);
+        const datum = b.datum ? new Date(b.datum).toLocaleDateString('de-DE') : '';
+        return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:0.8rem;">' +
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;">' +
+          '<div>' +
+          '<span style="color:#f4a900;font-size:1.1rem;">' + sternText + '</span>' +
+          '<span style="font-size:0.78rem;color:var(--muted);margin-left:0.5rem;">' + datum + '</span>' +
+          '<p style="font-size:0.9rem;color:var(--ink);margin:0.5rem 0 0;line-height:1.6;">' + (b.text || '(kein Kommentar)') + '</p>' +
+          '</div></div>' +
+          '<div style="display:flex;gap:0.5rem;margin-top:0.8rem;">' +
+          '<button onclick="window._adminFreigeben(' + i + ')" ' +
+          'style="background:#27ae60;color:#fff;border:none;border-radius:8px;padding:0.5rem 1rem;font-size:0.88rem;font-weight:700;cursor:pointer;">✓ Freigeben</button>' +
+          '<button onclick="window._adminLoeschen(' + i + ')" ' +
+          'style="background:#e74c3c;color:#fff;border:none;border-radius:8px;padding:0.5rem 1rem;font-size:0.88rem;font-weight:700;cursor:pointer;">✗ Löschen</button>' +
+          '</div></div>';
+      }).join('');
+    }).catch(function() {
+      const el = document.getElementById('admin-liste');
+      if (el) el.innerHTML = '<p style="color:red;">Fehler beim Laden.</p>';
+    });
+}
+
+window._adminFreigeben = function(index) {
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
+    headers: { 'X-Master-Key': JSONBIN_KEY } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      const wartend = (data.record && data.record.reviews) ? data.record.reviews : [];
+      const review = wartend[index];
+      if (!review) return;
+      wartend.splice(index, 1);
+      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
+        headers: { 'X-Master-Key': JSONBIN_KEY } })
+        .then(function(r){ return r.json(); })
+        .then(function(fd) {
+          const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
+          freigegeben.push(review);
+          return Promise.all([
+            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+              body: JSON.stringify({ reviews: wartend }) }),
+            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
+              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+              body: JSON.stringify({ reviews: freigegeben }) })
+          ]);
+        });
+    })
+    .then(function() { _adminLaden(); })
+    .catch(function() { alert('Fehler beim Freigeben.'); });
+};
+
+window._adminLoeschen = function(index) {
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
+    headers: { 'X-Master-Key': JSONBIN_KEY } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      liste.splice(index, 1);
+      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+        body: JSON.stringify({ reviews: liste }) });
+    })
+    .then(function() { _adminLaden(); })
+    .catch(function() { alert('Fehler beim Löschen.'); });
+};
 
 window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
+  // Freigegebene Bewertungen laden
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
+    headers: { 'X-Master-Key': JSONBIN_KEY } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      if (!liste.length) return;
+      const section = document.getElementById('community-bewertungen');
+      const container = document.getElementById('community-liste');
+      if (!section || !container) return;
+      container.innerHTML = liste.map(function(b) {
+        return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
+          '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
+          '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
+          '</div>' +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + (b.text || '') + '</p>' +
+          '</div>';
+      }).join('');
+      section.style.display = 'block';
+    }).catch(function() {});
   const sterne = document.querySelectorAll('#bwrt-sterne span');
   if (!sterne.length) return;
   let gewaehlt = 0;
@@ -1210,18 +1327,26 @@ function _bewertungSenden() {
   const text = document.getElementById('bwrt-text').value.trim();
   if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
-  const body = 'Bewertung Enneagramm-Heilungskompass\n\nSterne: ' + sternText + ' (' + sterne + '/5)\n\nKommentar:\n' + (text || '(kein Kommentar)');
-  // Formular sofort durch Dankes-Nachricht ersetzen
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
     '<div style="font-size:2.5rem;margin-bottom:0.6rem;">' + sternText + '</div>' +
     '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
     '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
     '</div>';
-  // E-Mail im Hintergrund versuchen
-  setTimeout(function() {
-    window.location.href = 'mailto:detlefrathmer@t-online.de?subject=Kompass-Bewertung%20(' + sterne + '%20Sterne)&body=' + encodeURIComponent(body);
-  }, 300);
+  const review = { sterne: sterne, text: text, datum: new Date().toISOString() };
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
+    headers: { 'X-Master-Key': JSONBIN_KEY } })
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      liste.push(review);
+      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+        body: JSON.stringify({ reviews: liste })
+      });
+    })
+    .catch(function() {});
 }
 
 function startPage() {
@@ -1423,20 +1548,10 @@ function startPage() {
       </div>
     </section>` : ''}
 
-    ${FREIGEGEBENE_BEWERTUNGEN.length > 0 ? `
-    <section style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;">
+    <section id="community-bewertungen" style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;display:none;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
-      <div style="display:flex;flex-direction:column;gap:0.8rem;">
-        ${FREIGEGEBENE_BEWERTUNGEN.map(function(b){ return `
-        <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">
-          <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">
-            <span style="color:#f4a900;font-size:1rem;">${'★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne)}</span>
-            <span style="font-size:0.8rem;color:var(--muted);">${b.name}</span>
-          </div>
-          <p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">${b.text}</p>
-        </div>`; }).join('')}
-      </div>
-    </section>` : ''}
+      <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;"></div>
+    </section>
 
     ${legalFooter()}
   `);
@@ -35483,6 +35598,7 @@ function render() {
       }
     }
     }
+    if (base === "admin") { adminPage(); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
@@ -35618,7 +35734,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v460';
+  const MY_VERSION = 'inhalt-v461';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
