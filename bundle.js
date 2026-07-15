@@ -1527,16 +1527,16 @@ function startPage() {
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 1rem;">
             ${[
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
-              ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
-              ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
-              ["&#128172;","Wahrnehmung","Blick, Mikro, Verbal, Nonverbal"],
-              ["&#128444;","Schaubilder","100+ farbige Übersichten"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
-              ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
+              ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
               ["&#127775;","Berühmte Persönlichkeiten","59 Porträts aus Kultur, Musik & Gesellschaft"],
+              ["&#128444;","Schaubilder","100+ farbige Übersichten"],
               ["&#128269;","Kriminalfälle (Kriminalpsychologie)","72 psychologische Täterporträts"],
+              ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
               ["&#127759;","Kultur & Lifestyle","Tiere, Natur, Lifestyle der 9 Typen"],
+              ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
               ["&#129812;","Philosophie","Schopenhauer, Rumi, Logismoi"],
+              ["&#128172;","Wahrnehmung","Blick, Mikro, Verbal, Nonverbal"],
             ].map(([icon, title, sub]) => `
               <div style="display:flex;gap:0.5rem;align-items:flex-start;padding:0.35rem 0;">
                 <span style="font-size:1rem;flex-shrink:0;margin-top:0.05rem;">${icon}</span>
@@ -36547,7 +36547,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v507';
+  const MY_VERSION = 'inhalt-v508';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
