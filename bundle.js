@@ -34260,7 +34260,7 @@ function _stilleInit() {
       statusEl.textContent = "pausiert";
     } else {
       interval = setInterval(tick, 1000);
-      if (laedt) { starteKlangLeise(gewaehlterKlang); setTimeout(() => { if (interval) blendeKlangEin(); }, 10000); }
+      if (laedt) starteKlang(gewaehlterKlang);
       startBtn.textContent = "⏸ Pause";
       statusEl.textContent = "in der Stille …";
     }
@@ -34291,60 +34291,13 @@ function _stilleInit() {
     if (klangStop) { try { klangStop(); } catch(e) {} klangStop = null; }
   }
 
-  let _fadeAudio = null;   // aktives HTML-Audio-Element für Fade
-  let _fadeTimer = null;   // laufendes Fade-Interval
-
-  function starteKlangLeise(id) {
-    // Sofort im User-Gesture-Kontext starten (iOS-Autoplay), aber lautlos
-    stopKlang();
-    if (id === "stille") return;
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet"]);
-    if (REAL_SOUNDS.has(id)) {
-      const audio = new Audio(klangCdnUrl(id));
-      audio.loop = true;
-      audio.volume = 0;
-      audio.play().catch(() => {});
-      _fadeAudio = audio;
-      klangStop = () => {
-        if (_fadeTimer) { clearInterval(_fadeTimer); _fadeTimer = null; }
-        audio.pause(); audio.src = ""; _fadeAudio = null;
-        if (navigator.mediaSession) { navigator.mediaSession.playbackState = "none"; try { navigator.mediaSession.setActionHandler("pause",null); navigator.mediaSession.setActionHandler("play",null); navigator.mediaSession.setActionHandler("stop",null); } catch(e){} }
-      };
-      // Media Session
-      if (navigator.mediaSession) {
-        const KLANG_LABEL = {regen:"Regen",meer:"Meeresrauschen",wasserfall:"Wasserfall",wind:"Wind",gewitter:"Gewitter",sommerregen:"Sommerregen",wald:"Wald",voegel:"Vögel",bach:"Bach",wiese:"Wiese",kuckuck:"Kuckuck",blizzard:"Blizzard",trommel:"Trommel",eule:"Eule",white:"Weißes Rauschen",pink:"Pinkes Rauschen",brown:"Braunes Rauschen",feuer:"Feuer",hoehle:"Höhle",chimes:"Windspiele",zug:"Zug",katze:"Katze",wal:"Wal",delfin:"Delfin",bienen:"Bienen",wolf:"Wolf",seehund:"Seehund",aquarium:"Aquarium",gewaesser:"Gewässer",herzschlag:"Herzschlag",regenwald:"Regenwald",nachtmeer:"Nachtmeer",tropfen:"Tropfen",zikaden:"Zikaden",savanne:"Savanne",unterwasser:"Unterwasser",klangschale:"Klangschale",om:"Om",morgenkonzert:"Morgenkonzert",polareis:"Polareis",wuestensturm:"Wüstensturm",elefanten:"Elefanten",mangroven:"Mangroven",nordlichter:"Nordlichter","japanischer-garten":"Japan. Garten",dschungelregen:"Dschungelregen",tibet:"Tibet"};
-        navigator.mediaSession.metadata = new MediaMetadata({title: KLANG_LABEL[id]||id, artist:"Enneagramm-Heilungskompass", album:"Stille & Klang", artwork:[{src:"https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg",sizes:"512x512",type:"image/jpeg"}]});
-        navigator.mediaSession.playbackState = "playing";
-        navigator.mediaSession.setActionHandler("pause", ()=>{ audio.pause(); navigator.mediaSession.playbackState="paused"; });
-        navigator.mediaSession.setActionHandler("play",  ()=>{ audio.play().catch(()=>{}); navigator.mediaSession.playbackState="playing"; });
-        navigator.mediaSession.setActionHandler("stop",  ()=>{ audio.pause(); audio.src=""; navigator.mediaSession.playbackState="none"; });
-      }
-      return;
-    }
-    // AudioContext-Sounds: lautlos starten mit fade-in nach Aufruf von blendeKlangEin
-    starteKlang(id);
-  }
-
-  function blendeKlangEin() {
-    // HTML Audio: Lautstärke über 12 Sekunden auf 0.7 hochfahren
-    if (_fadeAudio) {
-      let vol = 0;
-      _fadeTimer = setInterval(() => {
-        vol = Math.min(vol + 0.7 / 120, 0.7);
-        if (_fadeAudio) _fadeAudio.volume = vol;
-        if (vol >= 0.7) { clearInterval(_fadeTimer); _fadeTimer = null; }
-      }, 100);
-    }
-    // AudioContext-Sounds: Master-Gain wurde bereits auf Ramp gesetzt — nichts weiter nötig
-  }
-
   function starteKlang(id) {
     stopKlang();
     if (id === "stille") return;
 
+    // Real recordings — played via HTML Audio (works with AirPlay/HomePod on iOS)
     const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet"]);
     if (REAL_SOUNDS.has(id)) {
-      // Wird jetzt über starteKlangLeise gehandhabt — Fallback falls direkt aufgerufen
       const audio = new Audio(klangCdnUrl(id));
       audio.loop = true;
       audio.volume = 0.7;
@@ -34361,7 +34314,10 @@ function _stilleInit() {
           wolf:"Wolf", seehund:"Seehund", aquarium:"Aquarium", gewaesser:"Gewässer",
           herzschlag:"Herzschlag", regenwald:"Regenwald", nachtmeer:"Nachtmeer",
           tropfen:"Tropfen", zikaden:"Zikaden", savanne:"Savanne", unterwasser:"Unterwasser",
-          klangschale:"Klangschale", om:"Om", morgenkonzert:"Morgenkonzert"
+          klangschale:"Klangschale", om:"Om", morgenkonzert:"Morgenkonzert",
+          polareis:"Polareis", wuestensturm:"Wüstensturm", elefanten:"Elefanten",
+          mangroven:"Mangroven", nordlichter:"Nordlichter", "japanischer-garten":"Japan. Garten",
+          dschungelregen:"Dschungelregen", tibet:"Tibet"
         };
         navigator.mediaSession.metadata = new MediaMetadata({
           title: KLANG_LABEL[id] || id,
@@ -34384,9 +34340,7 @@ function _stilleInit() {
     if (!audioCtx) return;
     const ctx = audioCtx;
     const master = ctx.createGain();
-    master.gain.setValueAtTime(0.0001, ctx.currentTime);
-    master.gain.setValueAtTime(0.0001, ctx.currentTime + 10);
-    master.gain.linearRampToValueAtTime(0.18, ctx.currentTime + 22);
+    master.gain.setValueAtTime(0.18, ctx.currentTime);
     master.connect(ctx.destination);
     const nodes = [];
     let stopped = false;
@@ -36619,7 +36573,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v520';
+  const MY_VERSION = 'inhalt-v521';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
