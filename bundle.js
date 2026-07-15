@@ -35740,7 +35740,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v464';
+  const MY_VERSION = 'inhalt-v465';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
@@ -35773,5 +35773,9 @@ document.addEventListener("click", (e) => {
   }, 3000);
 })();
 
+if (localStorage.getItem('kompass-admin-redirect')) {
+  localStorage.removeItem('kompass-admin-redirect');
+  location.hash = 'admin/rathmer9';
+}
 render();
 setTimeout(showTagesimpuls, 600);
