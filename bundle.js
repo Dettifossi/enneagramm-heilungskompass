@@ -1177,6 +1177,45 @@ function bindOnboarding() {
   });
 }
 
+
+const FREIGEGEBENE_BEWERTUNGEN = [
+  // Freigegebene Bewertungen hier eintragen (nach E-Mail von Nutzer):
+  // { sterne: 5, name: "Maria K.", text: "Absolut beeindruckend..." },
+];
+
+function _bewertungSterneInit() {
+  const sterne = document.querySelectorAll('#bwrt-sterne span');
+  if (!sterne.length) return;
+  let gewaehlt = 0;
+  sterne.forEach(function(s) {
+    s.addEventListener('mouseover', function() {
+      const n = parseInt(this.dataset.s);
+      sterne.forEach(function(x, i) { x.style.opacity = i < n ? '1' : '0.3'; });
+    });
+    s.addEventListener('mouseout', function() {
+      sterne.forEach(function(x, i) { x.style.opacity = i < gewaehlt ? '1' : '0.3'; });
+    });
+    s.addEventListener('click', function() {
+      gewaehlt = parseInt(this.dataset.s);
+      sterne.forEach(function(x, i) { x.style.opacity = i < gewaehlt ? '1' : '0.3'; });
+      document.getElementById('bwrt-senden').dataset.sterne = gewaehlt;
+    });
+  });
+}
+
+function _bewertungSenden() {
+  const btn = document.getElementById('bwrt-senden');
+  const sterne = parseInt(btn.dataset.sterne || '0');
+  const text = document.getElementById('bwrt-text').value.trim();
+  if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
+  const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
+  const body = 'Bewertung Enneagramm-Heilungskompass\n\nSterne: ' + sternText + ' (' + sterne + '/5)\n\nKommentar:\n' + (text || '(kein Kommentar)');
+  window.location.href = 'mailto:detlefrathmer@t-online.de?subject=Kompass-Bewertung%20(' + sterne + '%20Sterne)&body=' + encodeURIComponent(body);
+  document.getElementById('bwrt-danke').style.display = 'block';
+  btn.disabled = true;
+  btn.style.opacity = '0.5';
+}
+
 function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
@@ -1351,6 +1390,46 @@ function startPage() {
       <p class="model-credit__text">Der Enneagramm-Kompass beruht auf der über Jahre gemeinsam entwickelten Arbeit von <strong>Detlef Rathmer</strong> (Therapie &amp; Heilung) und <strong>David L. Rathmer</strong> (Enneagramm-Profiling für Führungskräfte &amp; Unternehmen).</p>
       <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Mehr zu Davids Arbeit → enneascholars.de</a>
     </section>
+
+    ${hasHeilwissen() ? `
+    <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Den Kompass bewerten</h2>
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">Wie gefaellt Dir der Heilungskompass? Deine Bewertung hilft anderen, sich zu orientieren.</p>
+      <div id="bwrt-form" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.2rem;">
+        <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
+          ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
+        </div>
+        <textarea id="bwrt-text" placeholder="Dein Kommentar (optional)..."
+          style="width:100%;min-height:80px;border:1px solid var(--border);border-radius:8px;
+                 padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
+                 color:var(--ink);resize:vertical;box-sizing:border-box;"></textarea>
+        <button id="bwrt-senden" data-sterne="0" onclick="_bewertungSenden()"
+          style="margin-top:0.8rem;background:var(--gold);color:var(--anthracite,#2c2c2c);
+                 border:none;border-radius:8px;padding:0.6rem 1.4rem;
+                 font-size:0.9rem;font-weight:700;cursor:pointer;">
+          Bewertung absenden
+        </button>
+        <p id="bwrt-danke" style="display:none;color:var(--copper);font-size:0.88rem;margin-top:0.8rem;font-weight:600;">
+          &#10003; Danke fuer Deine Bewertung! Sie wird nach Pruefung freigeschaltet.
+        </p>
+      </div>
+    </section>` : ''}
+
+    ${FREIGEGEBENE_BEWERTUNGEN.length > 0 ? `
+    <section style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;">
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
+      <div style="display:flex;flex-direction:column;gap:0.8rem;">
+        ${FREIGEGEBENE_BEWERTUNGEN.map(function(b){ return `
+        <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">
+          <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">
+            <span style="color:#f4a900;font-size:1rem;">${'★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne)}</span>
+            <span style="font-size:0.8rem;color:var(--muted);">${b.name}</span>
+          </div>
+          <p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">${b.text}</p>
+        </div>`; }).join('')}
+      </div>
+    </section>` : ''}
+
     ${legalFooter()}
   `);
 }
@@ -35396,6 +35475,7 @@ function render() {
       }
     }
     }
+    if (base === "start") requestAnimationFrame(_bewertungSterneInit);
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
     if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
@@ -35530,7 +35610,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v455';
+  const MY_VERSION = 'inhalt-v456';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
