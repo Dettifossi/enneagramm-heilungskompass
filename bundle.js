@@ -33418,7 +33418,7 @@ function stillePage() {
             {id:"stille",      icon:"🤫",  label:"Stille"},
             {id:"white",       icon:"〰️",  label:"White"},
             {id:"pink",        icon:"🌸",  label:"Pink"},
-            {id:"brown",       icon:"🟤",  label:"Brown <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"brown",       icon:"🟤",  label:"Brown <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"regen",       icon:"🌧️",  label:"Regen"},
             {id:"meer",        icon:"🌊",  label:"Meer"},
             {id:"wasserfall",  icon:"💧",  label:"Wasserfall"},
@@ -33439,7 +33439,7 @@ function stillePage() {
             {id:"zug",         icon:"🚂",  label:"Zug"},
             {id:"katze",       icon:"🐱",  label:"Katze"},
             {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
-            {id:"wal",         icon:"🐋",  label:"Walgesang <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"wal",         icon:"🐋",  label:"Walgesang <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"delfin",      icon:"🐬",  label:"Delfine"},
             {id:"gewaesser",   icon:"🏞️",  label:"Gewässer"},
             {id:"bienen",      icon:"🐝",  label:"Bienen"},
@@ -33447,18 +33447,18 @@ function stillePage() {
             {id:"eule",        icon:"🦉",  label:"Eule"},
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
             {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
-            {id:"herzschlag", icon:"❤️",  label:"Herzschlag <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"herzschlag", icon:"❤️",  label:"Herzschlag <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
             {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
-            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
-            {id:"hz432",      icon:"🎵",  label:"432 Hz <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
-            {id:"schumann",   icon:"🌀",  label:"Schumann <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"hz432",      icon:"🎵",  label:"432 Hz <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"schumann",   icon:"🌀",  label:"Schumann <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"om",         icon:"🧘",  label:"Om-Mantra"},
             {id:"savanne",    icon:"🦋",  label:"Savanne"},
             {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
-            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v476';
+  const MY_VERSION = 'inhalt-v477';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
