@@ -1500,6 +1500,12 @@ function startPage() {
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
           🌿 Naturheilpraxis Rathmer
         </a>
+        <a href="https://enneascholars.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          🎓 Ennea Scholars
+        </a>
       </div>
     </section>
 
@@ -36537,7 +36543,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v497';
+  const MY_VERSION = 'inhalt-v498';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
