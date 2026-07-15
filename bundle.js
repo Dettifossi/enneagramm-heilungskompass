@@ -1192,7 +1192,7 @@ function adminPage() {
       '<p style="color:var(--ink);font-size:1rem;margin-bottom:1rem;">Admin-Code eingeben:</p>' +
       '<input id="admin-code-input" type="password" placeholder="Code..." ' +
       'style="width:100%;padding:0.6rem;font-size:1rem;border:1px solid var(--border);border-radius:8px;text-align:center;margin-bottom:0.8rem;">' +
-      '<button onclick="var v=document.getElementById('admin-code-input').value;if(v===ADMIN_CODE){location.hash='admin/'+v;}else{alert('Falscher Code');}" ' +
+      '<button onclick="_adminLogin()" ' +
       'style="background:var(--gold);border:none;border-radius:8px;padding:0.6rem 1.5rem;font-weight:700;cursor:pointer;">Einloggen</button>' +
       '</div>';
     return;
@@ -1235,6 +1235,12 @@ function _adminLaden() {
       if (el) el.innerHTML = '<p style="color:red;">Fehler beim Laden.</p>';
     });
 }
+
+window._adminLogin = function() {
+  var v = document.getElementById('admin-code-input').value;
+  if (v === ADMIN_CODE) { location.hash = 'admin/' + v; }
+  else { alert('Falscher Code'); }
+};
 
 window._adminFreigeben = function(index) {
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
@@ -35734,7 +35740,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v461';
+  const MY_VERSION = 'inhalt-v462';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
