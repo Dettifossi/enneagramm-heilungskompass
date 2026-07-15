@@ -1394,7 +1394,7 @@ function startPage() {
     ${hasHeilwissen() ? `
     <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Den Kompass bewerten</h2>
-      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">Wie gefaellt Dir der Heilungskompass? Deine Bewertung hilft anderen, sich zu orientieren.</p>
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">Wie gefällt Dir der Heilungskompass? Deine Bewertung hilft anderen, sich zu orientieren.</p>
       <div id="bwrt-form" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.2rem;">
         <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
           ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
@@ -1410,7 +1410,7 @@ function startPage() {
           Bewertung absenden
         </button>
         <p id="bwrt-danke" style="display:none;color:var(--copper);font-size:0.88rem;margin-top:0.8rem;font-weight:600;">
-          &#10003; Danke fuer Deine Bewertung! Sie wird nach Pruefung freigeschaltet.
+          &#10003; Danke für Deine Bewertung! Sie wird nach Prüfung freigeschaltet.
         </p>
       </div>
     </section>` : ''}
@@ -35610,7 +35610,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v456';
+  const MY_VERSION = 'inhalt-v457';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
