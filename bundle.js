@@ -35543,6 +35543,14 @@ function _stilleInit() {
     om:          ["Mantren-Meditation", "Urklang", "Tiefe Meditation"],
     morgenkonzert: ["Neubeginn", "Lebensfreude", "Frische"],
     savanne:     ["Wildnis", "Weite", "Erdung"],
+    polareis:    ["Arktische Weite", "Tiefe Stille", "Entrückung"],
+    wuestensturm:["Wildnis", "Erdung", "Weite"],
+    elefanten:   ["Afrikanische Nacht", "Wildnis", "Tiefe Berührung"],
+    mangroven:   ["Urwald", "Lebendigkeit", "Naturverbundenheit"],
+    nordlichter: ["Winterzauber", "Mystik", "Kosmische Stille"],
+    "japanischer-garten": ["Zen", "Innerer Frieden", "Klarheit"],
+    dschungelregen: ["Exotik", "Tiefenentspannung", "Loslassen"],
+    tibet:       ["Tiefe Meditation", "Chakra-Arbeit", "Innerer Frieden"],
     unterwasser: ["Tiefste Stille", "Schwerelosigkeit", "Loslassen"],
     klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
   };
@@ -35591,6 +35599,14 @@ function _stilleInit() {
     savanne:     "Afrikanische Savanne bei Nacht: echte Feldaufnahme um Mitternacht im Masai Mara, Kenia — Grillen, Froschquaken, Wind. Eine der eindrucksvollsten Naturkulissen der Welt.",
     unterwasser: "Unterwasser-Ambience: echte Hydrofonaufnahmen, überlagert mit gefiltertem Rauschen — tiefes Blubbern, gedämpfte Stille. Vermittelt vollständige Abgeschlossenheit und Schwerelosigkeit.",
     klangschale: "Echte Tibetische Klangschalen: Originalaufnahme mehrerer Klangschalen — tiefes Anschlagen mit langem, schimmerndem Nachklang. Klassische Klangmeditation.",
+    polareis:    "Gletscherlagune Jökulsárlón, Island: Hydrofonaufnahme unter dem Eiswasser Islands größter Gletscherlagune — Knacken und Stöhnen brechender Eisberge. Eine der eindrucksvollsten Klangwelten der Erde.",
+    wuestensturm:"Wüstensturm in der Atacama, Chile: Wind, der durch Kaktusdornen pfeift — auf dem Gipfel der trockensten Wüste der Welt. Roh, weit und absolut unberührt.",
+    elefanten:   "Afrikanische Savanne, Masai Mara, Kenia: Nacht unter dem Vollmond — Elefanten, Büffel, Hyänen und Löwen aus der Ferne. Eine der eindrucksvollsten Naturaufnahmen der Erde.",
+    mangroven:   "Feuchtgebiet in Berisso, Argentinien: echte Feldaufnahme aus einem Sumpfgebiet — Vögel, fließendes Wasser, Insekten. Ursprüngliche, lebendige Natur pur.",
+    nordlichter: "Wintersonnenwende-Nacht: Eis, Wind und knackende Äste unter sternenklarem Winterhimmel — das Knistern der Natur in einer stillen Nacht, in der man die Nordlichter erwartet.",
+    "japanischer-garten": "Bambusgarten, Tottori, Japan: binaural aufgenommen — Vogelgesang, Wind durch Bambus und ein kleiner Wasserbach. Echter japanischer Zen-Garten-Klang.",
+    dschungelregen: "Tropenwald-Nacht, St. Lucia, Karibik: Nachtambiente über Soufrière — tropische Vögel, Insekten und Frösche in feuchter Urwald-Luft. Exotik pur.",
+    tibet:       "Tibetische Klangschale mit Vogelgesang: tiefe, anhaltende Töne einer traditionellen Klangschale aus dem Himalaya — überlagert mit sanftem Naturvogelgesang. Tiefe Klangmeditation.",
   };
   const infoEl = document.getElementById("stille-klang-info");
   document.querySelectorAll(".stille-klang-btn").forEach(btn => {
@@ -36555,7 +36571,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v512';
+  const MY_VERSION = 'inhalt-v513';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
