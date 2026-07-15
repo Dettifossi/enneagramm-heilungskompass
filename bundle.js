@@ -1183,6 +1183,7 @@ const FREIGEGEBENE_BEWERTUNGEN = [
   // { sterne: 5, name: "Maria K.", text: "Absolut beeindruckend..." },
 ];
 
+window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
   const sterne = document.querySelectorAll('#bwrt-sterne span');
   if (!sterne.length) return;
@@ -35617,7 +35618,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v459';
+  const MY_VERSION = 'inhalt-v460';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
