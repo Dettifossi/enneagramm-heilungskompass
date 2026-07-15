@@ -9743,9 +9743,7 @@ function markZuckerbergPortraitPage() {
       ${pageHeader("Berühmte Persönlichkeiten")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-mark-zuckerberg-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
-        </div>
+        <div class="krim-portrait-frame" style="display:none;"></div>
         <p class="krim-portrait-name">Mark Zuckerberg</p>
         <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Gründer &amp; CEO von Meta (Facebook, Instagram, WhatsApp), geb. 1984 &ndash; Tierentsprechung: Igel</p>
@@ -36072,7 +36070,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v478';
+  const MY_VERSION = 'inhalt-v479';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
