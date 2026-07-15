@@ -33450,15 +33450,15 @@ function stillePage() {
             {id:"herzschlag", icon:"❤️",  label:"Herzschlag"},
             {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
             {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
-            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle"},
+            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
             {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
-            {id:"hz432",      icon:"🎵",  label:"432 Hz"},
-            {id:"schumann",   icon:"🌀",  label:"Schumann"},
+            {id:"hz432",      icon:"🎵",  label:"432 Hz <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
+            {id:"schumann",   icon:"🌀",  label:"Schumann <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
             {id:"om",         icon:"🧘",  label:"Om-Mantra"},
             {id:"savanne",    icon:"🦋",  label:"Savanne"},
             {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
-            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert"},
+            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v474';
+  const MY_VERSION = 'inhalt-v475';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
