@@ -8099,6 +8099,12 @@ function tilSchweigerPortraitPage() {
           <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> ist der <em>Verstärkungstyp</em> der Vier: Er trägt seine Leidenschaft des Neids nach innen &ndash; als <strong>Scham</strong>. Naranjo nannte diesen Subtyp treffend so. Das Lebensgefühl der SO4 ist ein tiefes Mangelbewusstsein: Das Gras auf der anderen Seite des Zauns ist immer grüner. Die anderen haben etwas, das ich nicht habe. Die anderen <em>sind</em> etwas, das ich nicht bin. Dieses Gefühl der Unterlegenheit arbeitet still, hartnäckig und erschöpfend im Inneren &ndash; und ist zugleich der Antrieb, der die SO4 zur Leistung treibt.</p>
           <p class="vb-intro">Bei Til Schweiger zeigt sich diese Dynamik in einem charakteristischen Widerspruch: Er ist einer der erfolgreichsten deutschen Filmschaffenden &ndash; und sucht trotzdem unaufhörlich nach echter Anerkennung. Sein Bedürfnis, als authentischer Künstler gesehen zu werden, ist keine Eitelkeit. Es ist die SO4 in ihrer reinsten Form: <em>Ich brauche nicht nur Erfolg. Ich brauche das Gefühl, dass das, was ich tue, wirklich zählt.</em> Dieser Antrieb ist der Kern seiner kreativen Energie.</p>
           <p class="vb-intro">Sein intensiver, durchdringender Blick &ndash; in Filmen wie <em>Der bewegte Mann</em>, <em>Keinohrhasen</em> oder <em>Tschiller: Off Duty</em> &ndash; vermittelt genau das: eine emotionale Tiefe, die mehr sucht als Applaus. Er sucht Resonanz. Er sucht Verbindung. Das ist die SO4: stets auf der Suche nach einer Verbundenheit, die das innere Gefühl des Zu-kurz-Kommens endlich heilen könnte.</p>
+          <p class="vb-intro"><strong>Ein verblüffendes Paradox</strong> trat im März 2024 zutage, als Schweiger im Interview-Podcast <em>Hotel Matze</em> (Moderator: Matze Hielscher) über Neid in der deutschen Kulturbranche sprach. Schweiger erklärte, er selbst sei <em>nie</em> ein neidischer Mensch gewesen &ndash; und gab sogar weiter, was er seinen Kindern stets mitgegeben hat:</p>
+          <blockquote style="border-left:3px solid var(--gold,#c4a456);margin:0.8rem 0 0.8rem 1rem;padding:0.6rem 1rem;font-style:italic;color:var(--ink);font-size:0.97em;line-height:1.7;">
+            „Neid bringt euch gar nichts. Das ist eine negative Eigenschaft. Gibt euch nur ein schlechtes Gefühl. Ihr werdet nicht schlauer, wenn ihr neidisch seid. Ihr werdet nicht reicher. Ihr werdet nicht sportlicher. Ihr kriegt nicht größere Muskeln. Ihr seht nicht besser aus. Ihr werdet nicht erfolgreicher. Wenn ihr nicht neidisch seid, seid ihr viel besser dran."
+            <footer style="margin-top:0.4rem;font-style:normal;font-size:0.88em;color:#777;">&mdash; Til Schweiger, <em>Hotel Matze</em>, März 2024</footer>
+          </blockquote>
+          <p class="vb-intro">Aus enneagrammatischer Sicht ist diese Aussage von einer geradezu klassischen Tiefe: Der soziale Typ 4, dessen verborgene Leidenschaft der <strong>Neid</strong> ist &ndash; und zwar in seiner verstärkten, nach innen gewendeten Form als Scham und Mangelbewusstsein &ndash; erklärt öffentlich, er selbst sei niemals neidisch gewesen. Er hat sogar eine Botschaft darüber, die er an seine Kinder weitergibt. Die Leidenschaft ist so tief in der Persönlichkeitsstruktur verankert, so sehr das Wasser, in dem er schwimmt, dass er sie bei sich selbst nicht erkennen kann. Das ist kein Vorwurf &ndash; das ist die Natur der Leidenschaft. Und es erinnert an das homöopathische Mittel <em>Ignatia amara</em>, das dem SO4 zugeordnet wird: ein Mittel, das für seine paradoxen Symptombilder bekannt ist &ndash; der Patient isst, obwohl er trinken will; trinkt, obwohl er Hunger hat. Das Äußere und das Innere klaffen auseinander, ohne dass der Betroffene es bemerkt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Coolness als Schutzmaske</h2>
@@ -36514,7 +36520,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v494';
+  const MY_VERSION = 'inhalt-v495';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
