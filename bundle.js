@@ -311,7 +311,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-kollegah", name:"Kollegah", subtyp:"SX6w5",
     heading:"Kollegah – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1984. Rapper, Unternehmer, Konvertit. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
-    added:"2026-07-15", tags:["Musik"] },
+    added:"2026-07-15", tags:["Musik","Gesellschaft"] },
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
@@ -36316,7 +36316,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v485';
+  const MY_VERSION = 'inhalt-v486';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
