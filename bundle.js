@@ -35604,7 +35604,7 @@ function render() {
       }
     }
     }
-    if (base === "admin") { adminPage(); return; }
+    if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
@@ -35740,7 +35740,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v462';
+  const MY_VERSION = 'inhalt-v463';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
