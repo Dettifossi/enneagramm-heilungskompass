@@ -310,7 +310,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Medien","Politik"] },
   { route:"beruehmte-kollegah", name:"Kollegah", subtyp:"SX6w5",
     heading:"Kollegah – Sexueller Typ 6",
-    teaser:"SX6w5 · geb. 1984. Rapper, Unternehmer, Konvertit. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
+    teaser:"SX6w5 · geb. 1984. Rapper, Künstler & Unternehmer, 2016 zum Islam übergetreten. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
     added:"2026-07-15", tags:["Musik","Gesellschaft"] },
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
@@ -8440,7 +8440,7 @@ function kollegahPortraitPage() {
         </div>
         <p class="krim-portrait-name">Kollegah</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Rapper, Unternehmer &amp; Konvertit, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+        <p class="krim-portrait-subtitle">Rapper, Künstler &amp; Unternehmer, geb. 1984 &ndash; 2016 zum Islam übergetreten &ndash; Tierentsprechung: Wolf</p>
       </div>
       <div class="page-content">
 
@@ -36316,7 +36316,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v486';
+  const MY_VERSION = 'inhalt-v487';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
