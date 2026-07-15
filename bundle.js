@@ -34296,7 +34296,7 @@ function _stilleInit() {
     if (id === "stille") return;
 
     // Real CC0 recordings — played via AudioContext (works on all devices incl. iOS)
-    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert"]);
+    const REAL_SOUNDS = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet"]);
     if (REAL_SOUNDS.has(id)) {
       // HTML Audio statt AudioContext → funktioniert mit AirPlay/HomePod auf iOS
       const audio = new Audio(klangCdnUrl(id));
@@ -36571,7 +36571,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v513';
+  const MY_VERSION = 'inhalt-v514';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
