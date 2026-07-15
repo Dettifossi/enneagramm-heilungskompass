@@ -248,6 +248,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
+    heading:"Taddl – Sozialer Typ 4",
+    teaser:"SO4w3 · geb. 1996. YouTuber, Künstler & Musiker. Das Gürteltier, das sich jahrelang hinter einer Maske aus Humor verbarg – und irgendwann begann, das Echte zu zeigen.",
+    added:"2026-07-15", tags:["Medien","Kunst"] },
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon – Sozialer Typ 4",
     teaser:"SO4w5 · 1940–1980. Musiker, Komponist, Friedensaktivist, Mitbegründer der Beatles. Das Gürteltier, das die Welt fragte: Stell Dir vor, es wäre Frieden.",
@@ -8056,6 +8060,67 @@ function johnLennonPortraitPage() {
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function taddlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-taddl-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Taddl (Daniel Tjarks)</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">YouTuber, Künstler &amp; Musiker, geb. 1996 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Wesen, das nach außen hin gepanzert ist, das sich bei Gefahr einrollt und eine undurchdringliche Schale zeigt. Wer es von außen beobachtet, sieht die Panzerung. Wer es kennt, weiß: Darunter ist etwas außerordentlich Weiches. Ein Tier, das fühlt. Das verletzlich ist. Das sich sehnt. Und das diese Sehnsucht jahrelang hinter seiner Schale versteckt halten kann.</p>
+          <p class="vb-intro">Taddl &ndash; bürgerlicher Name Daniel Tjarks, geb. 1996 &ndash; begann seine Karriere als Teenager auf YouTube und wurde einer der bekanntesten deutschen Content-Creator seiner Generation. Millionen verfolgten seine Videos, seine Kollegenschaft mit anderen YouTubern, seinen scheinbar sorglosen Humor. Aber wer genau hinsah, konnte das Gürteltier erkennen: einen jungen Mann, der mit Witz und Selbstironie das Innen schützte &ndash; und der irgendwann begann, die Panzerung abzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Typ 4: Scham als stille Triebkraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> trägt seine Leidenschaft des Neids nach innen &ndash; als Scham. Naranjo nannte diesen Subtyp <em>Scham</em>: Die SO4 vergleicht sich ständig mit anderen &ndash; und fühlt sich dabei immer zu kurz. Nicht laut, nicht anklagend, sondern still und erschöpfend. <em>Die anderen haben etwas, das ich nicht habe. Die anderen sind etwas, das ich nicht bin.</em> Diese innere Überzeugung ist das Fundament der SO4 &ndash; und zugleich der Antrieb, der sie zur Leistung treibt.</p>
+          <p class="vb-intro">Bei Taddl zeigt sich das in der Spannung zwischen Sichtbarkeit und Rückzug, die seinen öffentlichen Weg geprägt hat. Er war präsent &ndash; und verschwand. Er teilte &ndash; und schützte. Er zeigte Humor &ndash; und dahinter lag etwas, das er lange nicht zeigte. Das ist die SO4: Sie will gesehen werden. Aber sie fürchtet sich davor, wirklich gesehen zu werden &ndash; weil sie nicht sicher ist, ob das, was man dann sieht, gut genug ist.</p>
+          <p class="vb-intro">Sein späteres Schaffen &ndash; Musik, Kunst, ehrlichere Einblicke in sein Leben &ndash; zeigt die SO4 auf einem Weg: von der Scham, die verbirgt, zur Verletzlichkeit, die zeigt. Das ist kein kleiner Schritt. Das ist der wesentliche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Auftritt als Schutzmechanismus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt dem sozialen Typ 4 etwas, das die Vier allein nicht hätte: die Fähigkeit, sich zu präsentieren, auf der Bühne zu bestehen, ein Publikum zu unterhalten. Die SO4w3 spürt die Scham &ndash; und tritt trotzdem auf. Oder besser: <em>wegen</em> der Scham. Denn der Dreierflügel liefert die Energie, die Maske zu bauen, die das Innere schützt, solange man noch nicht bereit ist, es zu zeigen.</p>
+          <p class="vb-intro">Taddls frühe YouTube-Phase ist das Paradebeispiel dieser Dynamik: unterhaltsam, selbstironisch, immer leicht auf Abstand. Der Dreierflügel macht ihn zu einem natürlichen Entertainer &ndash; und die Vier darunter sorgt dafür, dass dieser Entertainer mehr ist als eine Oberfläche. Er sucht Bedeutung. Er sucht Echtheit. Er will nicht nur unterhalten &ndash; er will etwas hinterlassen, das bleibt.</p>
+          <p class="vb-intro">Diese Spannung &ndash; Entertainer gegen Suchender &ndash; ist das kreative Zentrum der SO4w3. Musik, bildende Kunst, persönlichere Inhalte: Taddl hat begonnen, den Dreierflügel weniger als Schutz und mehr als Ausdrucksmittel zu nutzen. Das ist Reifung. Das ist Entwicklung. Das ist das Gürteltier, das lernt, sich auch ohne Panzerung in der Welt zu bewegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist ihre Fähigkeit, das Innere in Kunst zu verwandeln &ndash; auf eine Weise, die andere berührt, weil sie darin sich selbst erkennen. Taddls Entwicklung vom reinen Entertainment zur künstlerischen Auseinandersetzung ist dieses Licht: ein Mensch, der begreift, dass seine Empfindlichkeit kein Defizit ist, sondern ein Rohstoff.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; und bei der SO4 ist er besonders still und zermürbend. Der ständige Vergleich, das Gefühl des Zu-kurz-Kommens, die Überzeugung, dass andere eine Selbstverständlichkeit im Leben haben, die einem selbst fehlt. Das kann lähmen. Es kann aber auch &ndash; wenn es bewusst wird &ndash; in Energie verwandelt werden: <em>Ich will zeigen, dass ich mehr bin als das, was ich bisher gezeigt habe.</em></p>
+          <p class="vb-intro">Der Dreierflügel bringt seine eigene Schattenseite: die Versuchung, das Echte dem Erfolgreichen zu opfern. Wenn der Applaus wichtiger wird als das Werk. Wenn die Reaktion des Publikums die innere Stimme übertönt. Das Gürteltier in der Falle seiner eigenen Panzerung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Sichtbarkeit ohne Panzerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von <em>Ich bin nicht genug</em> zu <em>Das, was ich bin, reicht.</em> Für die SO4w3 bedeutet das, die Maske des Dreiers nicht abzulegen &ndash; sondern hinter ihr das Echte zu zeigen. Nicht entweder Entertainer oder Suchender. Beides. Gleichzeitig. Das ist die reife SO4w3: jemand, der sein Publikum unterhält &ndash; und dabei gleichzeitig wirklich etwas von sich preisgibt.</p>
+          <p class="vb-intro">Taddls Weg ist noch nicht abgeschlossen &ndash; er ist Ende zwanzig. Aber die Richtung ist erkennbar: weg von der Panzerung, hin zur Präsenz. Das Gürteltier, das gelernt hat, dass es keine Panzerung braucht, um sicher zu sein &ndash; weil die Sicherheit von innen kommt. Das ist der Heilungsweg. Und es ist ein mutiger.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
@@ -35984,6 +36049,7 @@ function render() {
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
@@ -36381,7 +36447,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v491';
+  const MY_VERSION = 'inhalt-v492';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
