@@ -1210,10 +1210,17 @@ function _bewertungSenden() {
   if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const body = 'Bewertung Enneagramm-Heilungskompass\n\nSterne: ' + sternText + ' (' + sterne + '/5)\n\nKommentar:\n' + (text || '(kein Kommentar)');
-  window.location.href = 'mailto:detlefrathmer@t-online.de?subject=Kompass-Bewertung%20(' + sterne + '%20Sterne)&body=' + encodeURIComponent(body);
-  document.getElementById('bwrt-danke').style.display = 'block';
-  btn.disabled = true;
-  btn.style.opacity = '0.5';
+  // Formular sofort durch Dankes-Nachricht ersetzen
+  const form = document.getElementById('bwrt-form');
+  form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
+    '<div style="font-size:2.5rem;margin-bottom:0.6rem;">' + sternText + '</div>' +
+    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Deine Bewertung!</p>' +
+    '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
+    '</div>';
+  // E-Mail im Hintergrund versuchen
+  setTimeout(function() {
+    window.location.href = 'mailto:detlefrathmer@t-online.de?subject=Kompass-Bewertung%20(' + sterne + '%20Sterne)&body=' + encodeURIComponent(body);
+  }, 300);
 }
 
 function startPage() {
@@ -35610,7 +35617,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v457';
+  const MY_VERSION = 'inhalt-v458';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
