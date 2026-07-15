@@ -33946,7 +33946,7 @@ function stillePage() {
 
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
-        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
+        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(5,1fr);gap:.45rem;">
           ${[
             {id:"stille",      icon:"🤫",  label:"Stille"},
             {id:"white",       icon:"〰️",  label:"White"},
@@ -33992,6 +33992,14 @@ function stillePage() {
             {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
             {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"polareis",    icon:"🧊",  label:"Polareis <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"wuestensturm",icon:"🏜️",  label:"Wüstensturm <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"elefanten",   icon:"🐘",  label:"Elefanten <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"mangroven",   icon:"🌿",  label:"Mangroven <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"nordlichter", icon:"🌠",  label:"Nordlichter <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"japanischer-garten", icon:"🎋", label:"Japan. Garten <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"dschungelregen", icon:"🌧️", label:"Dschungelregen <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"tibet",       icon:"🏔️",  label:"Tibet <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
@@ -36547,7 +36555,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v509';
+  const MY_VERSION = 'inhalt-v510';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
