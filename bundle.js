@@ -10552,9 +10552,9 @@ function jordanPetersonPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Typ 1: Vollkommenheit als Vorbild</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seine Leidenschaft des Zorns nicht als persönlichen Groll, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Unanpassbarkeit</em>: Die SO1 kann sich nicht damit abfinden, wie die Dinge sind &ndash; weil sie ein inneres Bild davon hat, wie sie sein sollten. Dieses Bild ist nicht verhandelbar. Es ist moralisch. Es ist ein Prinzip.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seine Leidenschaft des Zorns nicht als persönlichen Groll, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann sich nicht damit abfinden, wie die Dinge sind &ndash; weil sie ein inneres Bild davon hat, wie sie sein sollten. Dieses Bild ist nicht verhandelbar. Es ist moralisch. Es ist ein Prinzip.</p>
           <p class="vb-intro">Bei Peterson zeigt sich das in seiner zentralen Botschaft: <em>Bring Ordnung in dein Leben. Übernimm Verantwortung. Räum dein Zimmer auf.</em> Diese Sätze klingen einfach &ndash; aber hinter ihnen steckt eine tiefe Überzeugung: dass Chaos nicht nur unbequem ist, sondern gefährlich. Peterson hat dieses Chaos persönlich erlebt &ndash; in der schweren Erkrankung seiner Tochter, in seiner eigenen Abhängigkeit von Benzodiazepinen, in Jahren klinischer Arbeit mit Menschen am Rand. Der SO1 predigt nicht aus der Theorie. Er predigt aus der Erfahrung, was es bedeutet, wenn Ordnung fehlt.</p>
-          <p class="vb-intro">Die Kritik an ihm greift genau diesen Punkt an: dass seine Ordnung zu eng ist, zu patriarchal, zu sehr auf westliche, konservative Werte verengt. Das ist die Schattenseite der SO1: wenn das eigene Bild des Richtigen zur einzigen Wahrheit wird, wenn die Unanpassbarkeit an das Falsche in die Unduldsamkeit gegenüber dem Anderen kippt.</p>
+          <p class="vb-intro">Die Kritik an ihm greift genau diesen Punkt an: dass seine Ordnung zu eng ist, zu patriarchal, zu sehr auf westliche, konservative Werte verengt. Das ist die Schattenseite der SO1: wenn die Nichtanpassung an das Falsche zur Nichtakzeptanz des Anderen wird – wenn der Maßstab, den man an sich selbst anlegt, zum Urteil über alle anderen wird.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Die ruhige Überzeugung</h2>
@@ -36381,7 +36381,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v490';
+  const MY_VERSION = 'inhalt-v491';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
