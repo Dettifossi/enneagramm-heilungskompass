@@ -14354,6 +14354,31 @@ function pDiddyPortraitPage() {
         ihn zunächst in neue Verteidigungsreflexe drängt – bleibt offen.</p>
       </div>
 
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Name:</strong> Sean John Combs (Künstlername: P. Diddy, Puff Daddy, Diddy)<br>
+        <strong>Subtyp:</strong> SX7w8 – Sexuelle Sieben mit Achterflügel<br>
+        <strong>Leidenschaft:</strong> Maßlosigkeit – das unstillbare Verlangen nach Genuss, Kontrolle und Intensität ohne natürliche Grenze<br>
+        <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, Überzeugung eigener Legitimität<br>
+        <strong>Tierentsprechung:</strong> Schimpanse – hochintelligent, sozial dominant, zur kalkulierten kollektiven Gewalt fähig<br>
+        <strong>Lebensdaten:</strong> Geb. 4. November 1969 in Harlem, New York<br>
+        <strong>Verbrechen:</strong> Sex-Trafficking, Nötigung, Körperverletzung – verurteilt Oktober 2025 zu 4 Jahren 2 Monaten Haft
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SE7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Persönlichkeiten in dir")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Maßlosigkeit, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein juristisches Urteil. Sean Combs wurde im Oktober 2025 wegen Sex-Trafficking und Nötigung verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-griselda-blanco", label:"Kriminalpsychologie: Griselda Blanco (SE8w9)"},
@@ -35919,7 +35944,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v469';
+  const MY_VERSION = 'inhalt-v470';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
