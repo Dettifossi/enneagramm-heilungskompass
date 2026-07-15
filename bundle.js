@@ -386,6 +386,11 @@ const BERUEHMT_PORTRAITS = [
     tags:["Schauspiel"] },
 ];
 
+// NEU-Markierungen für Schaubilder: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
+// Beispiel: { "neues-schaubild": "2026-07-15" }
+const SCHAUBILDER_NEU = {
+};
+
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
@@ -642,9 +647,11 @@ function nav(active) {
       const sortedDropdown = label === "Schaubilder"
         ? [...dropdown].sort((a, b) => a.label.localeCompare(b.label, "de"))
         : dropdown;
-      const subItems = sortedDropdown.map(({ route: sr, label: sl }) =>
-        `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}</button>`
-      ).join("");
+      const subItems = sortedDropdown.map(({ route: sr, label: sl }) => {
+        const neuBadge = SCHAUBILDER_NEU[sr] && new Date()-new Date(SCHAUBILDER_NEU[sr])<30*864e5
+          ? ' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>' : '';
+        return `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}${neuBadge}</button>`;
+      }).join("");
       const isSchaubilder = label === "Schaubilder";
       const searchBox = isSchaubilder
         ? `<div class="nav-dropdown__search-wrap"><input class="nav-dropdown__search" type="text" placeholder="Schaubild suchen …" autocomplete="off" /></div>`
@@ -36243,7 +36250,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v482';
+  const MY_VERSION = 'inhalt-v483';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
