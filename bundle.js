@@ -1486,6 +1486,23 @@ function startPage() {
       </div>
     </section>
 
+    <section style="max-width:680px;margin:0.5rem auto 0;padding:0.5rem 1rem;">
+      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
+        <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          📚 Verlagshaus Rathmer
+        </a>
+        <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
+                  border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
+                  font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
+          🌿 Naturheilpraxis Rathmer
+        </a>
+      </div>
+    </section>
+
     <section style="max-width:680px;margin:0 auto;padding:2rem 1rem 0.5rem;">
       <details style="border:1px solid var(--border);border-radius:12px;overflow:hidden;">
         <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
@@ -36520,7 +36537,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v496';
+  const MY_VERSION = 'inhalt-v497';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
