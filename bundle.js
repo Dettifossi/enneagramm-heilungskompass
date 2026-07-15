@@ -1532,7 +1532,7 @@ function startPage() {
               ["&#127759;","Kultur","Tiere, Natur, Lifestyle der 9 Typen"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
               ["&#127775;","Berühmte Persönlichkeiten","59 Porträts aus Kultur, Musik & Gesellschaft"],
-              ["&#128269;","Kriminalfälle (Kriminalpsychologie)","63 psychologische Täterporträts"],
+              ["&#128269;","Kriminalfälle (Kriminalpsychologie)","72 psychologische Täterporträts"],
               ["&#129812;","Philosophie","Schopenhauer, Rumi, Logismoi"],
               ["&#127807;","Entwicklung","Heilungsweg, \xdcbungen, Fragen"],
             ].map(([icon, title, sub]) => `
@@ -36545,7 +36545,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v503';
+  const MY_VERSION = 'inhalt-v504';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
