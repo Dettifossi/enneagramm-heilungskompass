@@ -280,6 +280,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
     tags:["Musik"] },
+  { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", subtyp:"SX5w6",
+    heading:"Mark Zuckerberg – Sexueller Typ 5",
+    teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
+    tags:["Wirtschaft", "Technik"] },
   { route:"beruehmte-edward-snowden", name:"Edward Snowden", subtyp:"SX5w6",
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
@@ -9727,6 +9731,64 @@ function herbertKicklPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function markZuckerbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mark-zuckerberg-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mark Zuckerberg</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Gründer &amp; CEO von Meta (Facebook, Instagram, WhatsApp), geb. 1984 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein stilles, nachtaktives Wesen mit stacheligen Abwehrmechanismen, das die Welt aus sicherer Distanz erkundet. Wer ihn antrifft, merkt sofort: Das hier ist kein Tier der großen Gesten. Aber unterschätze es nicht. Darunter liegt etwas außergewöhnlich Scharfes &ndash; ein Verstand, der mehr wahrnimmt, als er zeigt.</p>
+          <p class="vb-intro">Mark Zuckerberg ist dieser Igel. Er hat als 19-Jähriger aus seinem Harvardstudenten-Zimmer heraus ein Netzwerk gebaut, das heute mehr als drei Milliarden Menschen täglich nutzen. Er ist einer der mächtigsten Menschen der Welt &ndash; und zugleich jemand, der in einem Interview wirkt, als ob er lieber woanders wäre. Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Fünf: Die Leidenschaft des Geizes zeigt sich hier am wenigsten offensichtlich &ndash; weil die sexuelle Energie die Fünf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen lässt. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht die eine Verbindung, die alles trägt. Aber diese Öffnung gilt nur für wenige. Für den Rest: Stacheln.</p>
+          <p class="vb-intro">Bei Zuckerberg zeigt sich das mit großer Klarheit in seiner Beziehung zu Priscilla Chan, die er in Harvard kennenlernte &ndash; lange bevor er berühmt wurde. Sie heirateten 2012, einen Tag nach dem Börsengang von Facebook. Sie haben drei Kinder. Was in dieser Ehe vorgeht, ist fast vollständig öffentlich unsichtbar &ndash; und das ist kein Zufall. Die SX5 bewacht den Kern dessen, was ihr wirklich gehört. Was die Welt sieht, ist die Hülle. Was zählt, ist privat.</p>
+          <p class="vb-intro">Facebook selbst &ndash; das globale Netzwerk menschlicher Verbindungen &ndash; kann man als die nach außen projizierte SX5-Sehnsucht lesen: das Begehren, Nähe zu skalieren, Verbindung zum Prinzip zu machen, das die Welt organisiert. Zuckerberg wollte nicht nur eine App bauen. Er wollte verstehen, wie Menschen sich verbinden &ndash; und das System sein, das dabei hilft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität und Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sexuellen Fünf ein tiefes Sicherheitsbedürfnis, ein Denken in Bedrohungsszenarien und eine außerordentliche Loyalität gegenüber dem inneren Kreis. Die SX5w6 baut keine offenen Strukturen. Sie baut Systeme, die sie versteht und kontrolliert &ndash; weil Kontrolle Sicherheit bedeutet.</p>
+          <p class="vb-intro">Das zeigt sich bei Zuckerberg in seiner Art, Meta zu führen. Er ist kein Delegierer aus Überzeugung. Die wichtigsten Entscheidungen &ndash; Produktstrategie, Akquisitionen, die grundlegenden architektonischen Entscheidungen der Plattform &ndash; trifft er selbst oder mit einem winzigen Kreis enger Vertrauter. Der Kauf von Instagram (2012) und WhatsApp (2014) für jeweils Milliarden Dollar, als beide noch kaum Umsatz machten &ndash; das waren keine Entscheidungen aus Datenbankmodellen. Das war der Sechserflügel, der potenzielle Bedrohungen früh erkennt und eliminiert: <em>Was mich gefährden könnte, will ich lieber kontrollieren.</em></p>
+          <p class="vb-intro">Der Sechserflügel zeigt sich auch in Zuckerbergs ungewöhnlicher Reaktion auf Kritik und Druck: Er wird nicht emotional, er wird systematischer. Auf die Facebook-Anhörungen im US-Kongress (2018) bereitete er sich mit einer Intensität vor, die Insider als fast beängstigend beschrieben. Stundenlange Vorbereitung, auswendig gelernte Antworten, kein Anzeichen von Nervosität &ndash; aber auch kein Anzeichen von Spontaneität. Das ist die SX5w6 unter Beobachtung: Sie gibt nicht nach. Sie bereitet sich vor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 ist ihre Fähigkeit zur außergewöhnlichen Fokussierung. Zuckerberg hat mit 19 Jahren etwas gebaut, das die Kommunikation der Menschheit verändert hat &ndash; und er hat es nicht aus Geltungsdrang getan, sondern aus echter intellektueller Faszination: <em>Wie funktioniert das, wie Menschen sich kennenlernen, was hält Gemeinschaften zusammen?</em> Diese Fragen waren real. Der Antrieb war nicht Ego, sondern Neugier &ndash; und das ist das Geschenk der Fünf.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; das Zurückhalten, das Nicht-Teilen, die Angst, durch Geben weniger zu werden. Bei Zuckerberg zeigt sich das auf einer strukturellen Ebene: Meta teilt enorme Mengen an Nutzerdaten mit Werbetreibenden, aber Zuckerberg selbst teilt kaum etwas von sich. Die Asymmetrie ist bemerkenswert: Das System lebt vom Teilen. Der Mensch dahinter verweigert es.</p>
+          <p class="vb-intro">Der Sechserflügel bringt seinen eigenen Schatten: das Denken in Loyalität und Verrat, in Freund und Feind. Ehemalige Mitgründer &ndash; Eduardo Saverin, Chris Hughes &ndash; erfuhren, wie schnell man im Zuckerberg-System vom Vertrauten zum Außenseiter werden kann. Die SX5w6 vergibt nicht leicht. Und sie vergisst nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Das Innere zeigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von <em>Ich habe nicht genug, um zu geben</em> zu <em>Was ich bin, reicht &ndash; auch ohne Kontrolle über das Bild.</em> Für die SX5w6 bedeutet das: das Vertrauen, das sie dem inneren Kreis schenkt, langsam auch in die eigene Sichtbarkeit zu verlängern &ndash; nicht alles zu steuern, nicht jede Reaktion zu antizipieren, sich zeigen ohne Rüstung.</p>
+          <p class="vb-intro">Zuckerberg hat in den letzten Jahren Schritte in diese Richtung unternommen, die für einen SX5w6 erstaunlich sind: Jiu-Jitsu, MMA-Training, öffentlich Kampfsport zu betreiben &ndash; mit dem Körper präsent sein statt hinter Bildschirmen. Das ist nicht nur ein Hobby. Das ist der Igel, der sich bewegt &ndash; der die Stacheln nicht einzieht, aber lernt, auch ohne sie stabil zu sein. Die Reise ist nicht abgeschlossen. Aber sie hat begonnen.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
       ])}
     </div>
@@ -35604,6 +35666,7 @@ function render() {
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
+      "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
@@ -36009,7 +36072,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v477';
+  const MY_VERSION = 'inhalt-v478';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
