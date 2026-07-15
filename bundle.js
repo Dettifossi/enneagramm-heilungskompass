@@ -1155,7 +1155,7 @@ function onboardingOverlay() {
           </div>
         </div>
         <button id="onboarding-close" style="
-          background:var(--gold-dark,#a8872d);color:var(--copper,#a5603d);
+          background:var(--gold-dark,#a8872d);color:#fff;
           border:3px solid #8a5a1a;border-radius:10px;
           padding:0.85rem 2.2rem;font-size:1rem;font-weight:700;
           cursor:pointer;font-family:'EB Garamond',serif;
@@ -35740,7 +35740,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v465';
+  const MY_VERSION = 'inhalt-v466';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
