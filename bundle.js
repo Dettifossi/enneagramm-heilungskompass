@@ -150,6 +150,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Sozialer Typ 7",                                  teaser:"SO7w6 – US-amerikanischer Familienmörder, geb. 1985. Ermordete seine schwangere Frau und zwei Töchter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, fünfmal lebenslänglich. Tierentsprechung: Biber." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexueller Typ 7",                                       teaser:"SX7w8 – US-amerikanische Serienmörderin, 1956–2002. Sieben Morde an Männern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterflügel: idealisierte Liebe als Überlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Selbsterhaltender Typ 8",                        teaser:"SE8w9 – Die Patin von Medellín, 1943–2012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars – die selbsterhaltende Acht mit Neunerflügel: Macht als Überlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"]},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"]},
@@ -13981,6 +13982,7 @@ function chrisWattsPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
+        {route:"kriminalpsychologie-p-diddy", label:"Kriminalpsychologie: P. Diddy – Sean Combs (SX7w8)"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel (SE7w8)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
       ])}
@@ -14180,6 +14182,181 @@ function aileenWuornosPortraitPage() {
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels Högel (SE7w8)"},
         {route:"kriminalpsychologie-diane-downs", label:"Kriminalpsychologie: Diane Downs (SX3w4) – Mutter als Täterin"},
         {route:"kriminalpsychologie-karla-homolka", label:"Kriminalpsychologie: Karla Homolka (SE3w4) – Frau als Täterin"},
+      ])}
+    </div>
+  `);
+}
+
+
+function pDiddyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Sean ’P. Diddy‘ Combs – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/p-diddy-portrait.jpg" alt="Sean P. Diddy Combs – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean „P. Diddy“ Combs</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">New York 1990–2024 · Verurteilt 2025</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sean John Combs</strong>, bekannt als <em>Puff Daddy</em>, <em>P. Diddy</em> und später nur noch <em>Diddy</em>,
+        wurde am 4. November 1969 in Harlem, New York, geboren.
+        Er wuchs in bescheidenen Verhältnissen auf – sein Vater, ein kleinkrimineller Drogenkurier,
+        wurde erschossen, als Sean drei Jahre alt war.
+        Aus diesem Fundament der Abwesenheit und des Verlustes
+        entwickelte er eine unstillbare Energie nach oben.
+        Er studierte an der Howard University in Washington, D.C.,
+        brach jedoch ab, um bei Uptown Records zu arbeiten.
+        1993 gründete er sein eigenes Label: <strong>Bad Boy Records</strong>.
+        Mit Künstlern wie The Notorious B.I.G., Mary J. Blige und Faith Evans
+        prägte er eine ära des Hip-Hop und R&B.
+        Forbes schätzte sein Vermögen zeitweise auf über eine Milliarde Dollar.
+        Im September 2024 wurde er verhaftet. Im Oktober 2025 verurteilte ihn
+        ein Bundesgericht in New York wegen Sex-Trafficking, Nötigung und Körperverletzung
+        zu vier Jahren und zwei Monaten Haft.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der alles haben wollte –
+        Ruhm, Geld, Kontrolle, Liebe – ein System der Unterwerfung erschuf,
+        das Jahrzehnte im Verborgenen blieb.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sean Combs</strong> wird dem <strong>Sexuellen Typ 7 mit Achterflügel</strong> zugeordnet.
+        Die sexuelle Sieben ist nicht die Sieben, die von Party zu Party springt –
+        sie sucht die absolute Intensität: im Erleben, in der Kontrolle, in der Verbindung.
+        Sie will alles, und sie will es vollständig.
+        Der Achterflügel verleiht ihr Durchsetzungskraft, Einschüchterungsbereitschaft
+        und die Überzeugung, dass Regeln für andere gelten.
+        Die Sieben flüchtet vor Schmerz – der Achterflügel gibt ihr die Mittel,
+        diesen Schmerz auf andere zu übertragen.
+        Das Ergebnis ist ein Mensch, der Freude und Genuss als absolutes Recht empfindet –
+        und jeden, der sich dem entgegenstellt, als Bedrohung behandelt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Schimpanse</h3>
+        <p class="vb-intro">
+        Der <strong>Schimpanse</strong> ist die Tierentsprechung der sexuellen Sieben.
+        Er ist hochintelligent, sozial gewandt, auf Bindung und Statuserwerb ausgerichtet –
+        und er kann in Sekundenbruchteilen zur brutalen Durchsetzungskraft werden,
+        wenn sein Rang oder sein Territorium bedroht ist.
+        Schimpansen leben in komplexen Hierarchien: Sie pflegen Allianzen,
+        nutzen Koalitionen und schalten Rivalen aus – mit kalkulierter Gewalt.
+        Combs baute ähnliche Strukturen: ein Netz aus Loyalität, Abhängigkeit und Einschüchterung,
+        in dem er der unbestrittene Alfa war.
+        Die Liebenswürdigkeit des Schimpansen und seine Aggressivität
+        sind keine Gegensätze – sie sind zwei Seiten derselben Kontrollstrategie.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Genuss als absolutes Recht</h3>
+        <p class="vb-intro"><strong>a) Das Grundmuster der sexuellen Sieben:</strong>
+        Die sexuelle Sieben ist die intensivste aller Siebenausprägungen.
+        Sie sucht nicht das nächste Vergnügen – sie sucht das <em>ultimative</em> Vergnügen,
+        die vollständige Erfüllung, den Zustand, in dem nichts fehlt.
+        Diese Energie brachte Combs an die Spitze der Musikbranche –
+        sie machte ihn zum unermüdlichen Gestalter, Produzenten, Markenarchitekten.
+        Doch dieselbe Energie, die Größe schafft,
+        kennt keine innere Begrenzung.
+        Was Combs wollte, sollte er bekommen – sei es kommerzieller Erfolg,
+        soziale Dominanz oder die körperliche Unterwerfung anderer Menschen.</p>
+
+        <p class="vb-intro"><strong>b) Der Achterflügel: Kontrolle durch Einschüchterung:</strong>
+        Der Achterflügel der sexuellen Sieben ist kein gelegentliches Aufflackern von Direktheit –
+        er ist eine permänente Haltung: Ich bestimme, was hier passiert.
+        Zeugenaussagen im Prozess beschrieben ein System physischer Einschüchterung,
+        systematischer Drohungen und psychologischer Kontrolle gegenüber Frauen in seinem Umfeld.
+        Mitarbeiter, Partner und Künstler berichteten von einem Klima der Angst,
+        in dem Widerspruch gefährlich war.
+        Der Achterflügel macht es möglich, Gewält nicht als Kontrollverlust zu erleben,
+        sondern als legitimes Mittel der Durchsetzung –
+        ein Denken, das Combs offenbar über Jahrzehnte trug.</p>
+
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Maßlosigkeit:</strong>
+        Die Leidenschaft der Sieben ist die <strong>Maßlosigkeit</strong> –
+        das Verlangen, das sich nicht satt essen kann.
+        Bei Combs zeigte sie sich auf mehreren Ebenen:
+        im Aufbau eines Imperiums, das nie groß genug war,
+        in Feiern, die Legenden wurden („White Parties“ in den Hamptons, Partys auf Yachten),
+        und – nach Aussage zahlreicher Kläger – in organisierten „Freak-offs“:
+        stundenlangen, unter Narkose erzwungenen sexuellen Ereignissen,
+        die er nach Zeugenaussagen selbst inszenierte und filmte.
+        Die Maßlosigkeit der Sieben kennt keine natürliche Grenze –
+        und wenn der Achterflügel hinzukommt, keine ethische.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Ein System hinter der Fassade</h3>
+        <p class="vb-intro"><strong>a) Der Aufstieg:</strong>
+        Combs gründete 1993 Bad Boy Records und produzierte einige der meistverkauften Alben der 1990er Jahre.
+        Sein Ruf als knallharter, aber brillanter Produzent wuchs mit jedem Erfolg.
+        Er gründete eine Modemarke (Sean John), ein Spirituosenimperium (Ciróc Vodka)
+        und galt als Vorbild für unternehmerischen Erfolg aus dem afroamerikanischen Milieu.
+        Dieser Glanz war kein Zufall – er war Teil einer sorgfältig kontrollierten öffentlichen Identität,
+        hinter der sich ein anderes System verbarg.</p>
+
+        <p class="vb-intro"><strong>b) Die Klagen und Ermittlungen:</strong>
+        Ab 2023 häuften sich Zivilklagen gegen Combs.
+        Die erste öffentlich bekannte Klage stammt von seiner früheren Partnerin
+        <strong>Cassie Ventura</strong>, die ihm Vergewaltigung und jahrelangen Missbrauch vorwarf.
+        Combs einigte sich innerhalb eines Tages auf einen außergericht录lichen Vergleich –
+        doch das Video, das kurz darauf öffentlich wurde, änderte alles:
+        Sicherheitskameras eines Hotels zeigten ihn dabei, wie er Cassie im Flur schlug,
+        während sie versuchte zu fliehen.
+        Das FBI durchsuchte im März 2024 seine Anwesen in Miami und Los Angeles
+        und beschlagnahmte u.a. große Mengen Babyöl und Gleitmittel –
+        Materialien, die später im Zusammenhang mit den beschriebenen „Freak-offs“ erwähnt wurden.
+        Im September 2024 wurde Combs in New York verhaftet.</p>
+
+        <p class="vb-intro"><strong>c) Der Prozess und das Urteil:</strong>
+        Im Oktober 2025 wurde Sean Combs vom Bundesgericht des Southern District of New York
+        wegen Sex-Trafficking, Nötigung und körperlicher Misshandlung schuldig gesprochen.
+        Richter Arun Subramanian verurteilte ihn zu <strong>vier Jahren und zwei Monaten Haft</strong>
+        sowie einer Geldstrafe von 500.000 Dollar und fünf Jahren Bewährung nach der Haftentlassung.
+        Die Verteidigung legte Berufung ein.
+        Durch ein Drogenrehabilitationsprogramm während der Untersuchungshaft
+        wurde die Haftzeit verkürzt; eine frühzeitige Entlassung wurde für April 2026 ermöglicht.
+        Ob er tatsächlich entlassen wurde, hängt vom Ausgang der Berufungsverfahren ab.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Enneagramm-Analyse: Die Dynamik der Entgleisung</h3>
+        <p class="vb-intro"><strong>a) Der Stresspunkt – die Eins:</strong>
+        Unter Dauerstress bewegt sich die Sieben in Richtung Eins:
+        Rigides Denken, moralisierendes Urteilen, kompromisslose Kontrolle.
+        Anstatt die eigene Angst zu fühlen, hält die gestresste Sieben
+        an einer inneren Überzeugung fest: <em>Ich habe Recht. Meine Bedürf冀sse sind legitim. Andere haben zu funktionieren.</em>
+        Dieser Mechanismus erklärt, warum Combs – trotz wachsender Klagen –
+        offenbar nicht aufhörte, sondern das System weiter ausdehnte.
+        Die Sieben im Stress sieht sich nicht als Täter, sondern als jemanden,
+        der nur bekommt, was ihm zusteht.</p>
+
+        <p class="vb-intro"><strong>b) Die Flucht vor dem Schmerz:</strong>
+        Das Kernthema der Sieben ist die <strong>Angst vor Schmerz und Einschränkung</strong>.
+        Combs’ frühe Biographie – Vater erschossen, Armut, Aufstieg durch Selbstdisziplin –
+        legte ein Fundament, das Verlust und Schmerz als etwas verstand,
+        das durch Erfolg, Kontrolle und Fülle überwunden werden muss.
+        Diese innere Logik wird zur Falle, wenn sie pathologisch wird:
+        Dann ist jede Einschränkung ein Angriff, jedes Nein eine Bedrohung,
+        jede Grenze eine Zumutung, die mit Mitteln der Macht beseitigt werden muss.</p>
+
+        <p class="vb-intro"><strong>c) Der Lichtpunkt – Heilungsrichtung der Sieben:</strong>
+        Die Heilungsrichtung der Sieben führt zur <strong>Fünf</strong>: zur Stille, zur Tiefe, zur Bereitschaft,
+        im Augenblick zu bleiben, auch wenn er schmerzhaft ist.
+        Für eine Sieben bedeutet Heilung: die eigene Leere aushalten,
+        ohne sie sofort füllen zu müssen.
+        Ob Combs jemals diesen Weg gehen wird – oder ob das Berufungsverfahren
+        ihn zunächst in neue Verteidigungsreflexe drängt – bleibt offen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Kriminalpsychologie: Griselda Blanco (SE8w9)"},
+        {route:"portrait-typ-7", label:"Typporträt: Der Typ 7 im Überblick"},
       ])}
     </div>
   `);
@@ -35403,6 +35580,7 @@ function render() {
       "kriminalpsychologie-andrei-tschikatilo": andreiTschikatiloPortraitPage,
       "kriminalpsychologie-bernie-madoff": bernieMadoffPortraitPage,
       "kriminalpsychologie-arno-funke": arnoFunkePortraitPage,
+      "kriminalpsychologie-p-diddy": pDiddyPortraitPage,
       "kriminalpsychologie-griselda-blanco": grisdaBlancoPortraitPage,
       "kriminalpsychologie-salvatore-riina": salvatoreRiinaPortraitPage,
       "kriminalpsychologie-jeffrey-epstein": jeffreyEpsteinPortraitPage,
@@ -35740,7 +35918,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v467';
+  const MY_VERSION = 'inhalt-v468';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
