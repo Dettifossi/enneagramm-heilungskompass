@@ -33946,7 +33946,7 @@ function stillePage() {
 
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
-        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(5,1fr);gap:.45rem;">
+        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
           ${[
             {id:"stille",      icon:"🤫",  label:"Stille"},
             {id:"white",       icon:"〰️",  label:"White"},
@@ -36555,7 +36555,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v510';
+  const MY_VERSION = 'inhalt-v511';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
