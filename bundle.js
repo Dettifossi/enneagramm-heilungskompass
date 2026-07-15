@@ -150,7 +150,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Sozialer Typ 7",                                  teaser:"SO7w6 – US-amerikanischer Familienmörder, geb. 1985. Ermordete seine schwangere Frau und zwei Töchter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, fünfmal lebenslänglich. Tierentsprechung: Biber." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"]},
+  { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexueller Typ 7",                                       teaser:"SX7w8 – US-amerikanische Serienmörderin, 1956–2002. Sieben Morde an Männern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterflügel: idealisierte Liebe als Überlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Selbsterhaltender Typ 8",                        teaser:"SE8w9 – Die Patin von Medellín, 1943–2012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars – die selbsterhaltende Acht mit Neunerflügel: Macht als Überlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"]},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"]},
@@ -280,7 +280,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
     tags:["Musik"] },
-  { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", neu:"2026-08-14", subtyp:"SX5w6",
+  { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
     tags:["Wirtschaft", "Technik"] },
@@ -380,7 +380,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", neu:"2026-08-14", subtyp:"SX9w8",
+  { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", added:"2026-07-15", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
@@ -7754,7 +7754,7 @@ function beruehmtePersoenlichkeitenPage() {
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.neu&&new Date()<new Date(p.neu)?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){
@@ -11237,7 +11237,7 @@ function kriminalpsychologiePage() {
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){return'<span class="kf-tag kf-tag--'+t.toLowerCase()+'">'+t+'</span>';}).join("")
@@ -36243,7 +36243,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v481';
+  const MY_VERSION = 'inhalt-v482';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
