@@ -33418,7 +33418,7 @@ function stillePage() {
             {id:"stille",      icon:"🤫",  label:"Stille"},
             {id:"white",       icon:"〰️",  label:"White"},
             {id:"pink",        icon:"🌸",  label:"Pink"},
-            {id:"brown",       icon:"🟤",  label:"Brown"},
+            {id:"brown",       icon:"🟤",  label:"Brown <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
             {id:"regen",       icon:"🌧️",  label:"Regen"},
             {id:"meer",        icon:"🌊",  label:"Meer"},
             {id:"wasserfall",  icon:"💧",  label:"Wasserfall"},
@@ -33439,7 +33439,7 @@ function stillePage() {
             {id:"zug",         icon:"🚂",  label:"Zug"},
             {id:"katze",       icon:"🐱",  label:"Katze"},
             {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
-            {id:"wal",         icon:"🐋",  label:"Walgesang"},
+            {id:"wal",         icon:"🐋",  label:"Walgesang <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
             {id:"delfin",      icon:"🐬",  label:"Delfine"},
             {id:"gewaesser",   icon:"🏞️",  label:"Gewässer"},
             {id:"bienen",      icon:"🐝",  label:"Bienen"},
@@ -33447,7 +33447,7 @@ function stillePage() {
             {id:"eule",        icon:"🦉",  label:"Eule"},
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
             {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
-            {id:"herzschlag", icon:"❤️",  label:"Herzschlag"},
+            {id:"herzschlag", icon:"❤️",  label:"Herzschlag <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
             {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
             {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
             {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;">NEU</span>"},
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v475';
+  const MY_VERSION = 'inhalt-v476';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
