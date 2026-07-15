@@ -1214,7 +1214,7 @@ function _bewertungSenden() {
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
     '<div style="font-size:2.5rem;margin-bottom:0.6rem;">' + sternText + '</div>' +
-    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Deine Bewertung!</p>' +
+    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
     '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
     '</div>';
   // E-Mail im Hintergrund versuchen
@@ -1401,7 +1401,7 @@ function startPage() {
     ${hasHeilwissen() ? `
     <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Den Kompass bewerten</h2>
-      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">Wie gefällt Dir der Heilungskompass? Deine Bewertung hilft anderen, sich zu orientieren.</p>
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">Wie gefällt Ihnen der Heilungskompass? Ihre Bewertung hilft anderen, sich zu orientieren.</p>
       <div id="bwrt-form" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.2rem;">
         <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
           ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
@@ -35617,7 +35617,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v458';
+  const MY_VERSION = 'inhalt-v459';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
