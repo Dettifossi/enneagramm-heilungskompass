@@ -14215,7 +14215,7 @@ function pDiddyPortraitPage() {
         prägte er eine Ära des Hip-Hop und R&B.
         Forbes schätzte sein Vermögen zeitweise auf über eine Milliarde Dollar.
         Im September 2024 wurde er verhaftet. Im Oktober 2025 verurteilte ihn
-        ein Bundesgericht in New York wegen Sex-Trafficking, Nötigung und Körperverletzung
+        ein Bundesgericht in New York wegen Sex-Trafficking – Menschenhandel zum Zweck der sexuellen Ausbeutung, eine schwere Menschenrechtsverletzung und Form moderner Sklaverei –, Nötigung und Körperverletzung
         zu vier Jahren und zwei Monaten Haft.
         Das Enneagramm macht sichtbar, wie ein Mensch, der alles haben wollte –
         Ruhm, Geld, Kontrolle, Liebe – ein System der Unterwerfung erschuf,
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v473';
+  const MY_VERSION = 'inhalt-v474';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
