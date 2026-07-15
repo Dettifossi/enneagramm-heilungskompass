@@ -1527,16 +1527,16 @@ function startPage() {
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 1rem;">
             ${[
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
+              ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
               ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
-              ["&#127807;","Heilmittel","H\xf6m., \xd6le, Bachbl., Tee, Edelsteine"],
+              ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
               ["&#128172;","Wahrnehmung","Blick, Mikro, Verbal, Nonverbal"],
-              ["&#128444;","Schaubilder","100+ farbige \xdcbersichten"],
+              ["&#128444;","Schaubilder","100+ farbige Übersichten"],
               ["&#127759;","Kultur","Tiere, Natur, Lifestyle der 9 Typen"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
               ["&#127775;","Berühmte Persönlichkeiten","59 Porträts aus Kultur, Musik & Gesellschaft"],
               ["&#128269;","Kriminalfälle (Kriminalpsychologie)","72 psychologische Täterporträts"],
               ["&#129812;","Philosophie","Schopenhauer, Rumi, Logismoi"],
-              ["&#127807;","Entwicklung","Heilungsweg, \xdcbungen, Fragen"],
             ].map(([icon, title, sub]) => `
               <div style="display:flex;gap:0.5rem;align-items:flex-start;padding:0.35rem 0;">
                 <span style="font-size:1rem;flex-shrink:0;margin-top:0.05rem;">${icon}</span>
@@ -36547,7 +36547,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v505';
+  const MY_VERSION = 'inhalt-v506';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
