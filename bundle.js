@@ -1524,7 +1524,7 @@ function startPage() {
           <p style="font-size:0.82rem;color:var(--muted);margin:0 0 1rem;font-style:italic;">
             Ein vollst\xe4ndiges Enneagramm-Universum &ndash; hier ein \xdcberblick:
           </p>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 1rem;">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.5rem 1rem;">
             ${[
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
@@ -36547,7 +36547,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v508';
+  const MY_VERSION = 'inhalt-v509';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
