@@ -14212,7 +14212,7 @@ function pDiddyPortraitPage() {
         brach jedoch ab, um bei Uptown Records zu arbeiten.
         1993 gründete er sein eigenes Label: <strong>Bad Boy Records</strong>.
         Mit Künstlern wie The Notorious B.I.G., Mary J. Blige und Faith Evans
-        prägte er eine ära des Hip-Hop und R&B.
+        prägte er eine Ära des Hip-Hop und R&B.
         Forbes schätzte sein Vermögen zeitweise auf über eine Milliarde Dollar.
         Im September 2024 wurde er verhaftet. Im Oktober 2025 verurteilte ihn
         ein Bundesgericht in New York wegen Sex-Trafficking, Nötigung und Körperverletzung
@@ -14225,7 +14225,7 @@ function pDiddyPortraitPage() {
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Sean Combs</strong> wird dem <strong>Sexuellen Typ 7 mit Achterflügel</strong> zugeordnet.
-        Die sexuelle Sieben ist nicht die Sieben, die von Party zu Party springt –
+        Die sexuelle Sieben ist nicht nur die Sieben, die von Party zu Party springt –
         sie sucht die absolute Intensität: im Erleben, in der Kontrolle, in der Verbindung.
         Sie will alles, und sie will es vollständig.
         Der Achterflügel verleiht ihr Durchsetzungskraft, Einschüchterungsbereitschaft
@@ -14247,6 +14247,7 @@ function pDiddyPortraitPage() {
         nutzen Koalitionen und schalten Rivalen aus – mit kalkulierter Gewalt.
         Combs baute ähnliche Strukturen: ein Netz aus Loyalität, Abhängigkeit und Einschüchterung,
         in dem er der unbestrittene Alfa war.
+        Schimpansen sind zudem dokumentiert dafür bekannt, Artgenossen, die aus der Gruppe fallen oder als Rivalen gelten, gemeinschaftlich zu verfolgen und zu töten – ein Verhalten, das Primatologen wie Jane Goodall erstmals in Tansania beschrieben. Diese Fähigkeit zur kalkulierten, kollektiven Gewalt ist keine Ausnahme, sondern Teil des Schimpansen-Wesens.
         Die Liebenswürdigkeit des Schimpansen und seine Aggressivität
         sind keine Gegensätze – sie sind zwei Seiten derselben Kontrollstrategie.
         </p>
@@ -14256,7 +14257,7 @@ function pDiddyPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Genuss als absolutes Recht</h3>
         <p class="vb-intro"><strong>a) Das Grundmuster der sexuellen Sieben:</strong>
         Die sexuelle Sieben ist die intensivste aller Siebenausprägungen.
-        Sie sucht nicht das nächste Vergnügen – sie sucht das <em>ultimative</em> Vergnügen,
+        Sie sucht nicht nur das nächste Vergnügen – sie sucht das <em>ultimative</em> Vergnügen,
         die vollständige Erfüllung, den Zustand, in dem nichts fehlt.
         Diese Energie brachte Combs an die Spitze der Musikbranche –
         sie machte ihn zum unermüdlichen Gestalter, Produzenten, Markenarchitekten.
@@ -14285,8 +14286,8 @@ function pDiddyPortraitPage() {
         und – nach Aussage zahlreicher Kläger – in organisierten „Freak-offs“:
         stundenlangen, unter Narkose erzwungenen sexuellen Ereignissen,
         die er nach Zeugenaussagen selbst inszenierte und filmte.
-        Die Maßlosigkeit der Sieben kennt keine natürliche Grenze –
-        und wenn der Achterflügel hinzukommt, keine ethische.</p>
+        Die Maßlosigkeit der Sieben in sehr unbewussten, pathologischen Bereichen – also wenn ein Mensch auf niedrigen Bewusstseinsstufen agiert – kennt keine natürliche Grenze –
+        und wenn der Achterflügel hinzukommt, auch keine ethische.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -14303,7 +14304,7 @@ function pDiddyPortraitPage() {
         Ab 2023 häuften sich Zivilklagen gegen Combs.
         Die erste öffentlich bekannte Klage stammt von seiner früheren Partnerin
         <strong>Cassie Ventura</strong>, die ihm Vergewaltigung und jahrelangen Missbrauch vorwarf.
-        Combs einigte sich innerhalb eines Tages auf einen außergericht录lichen Vergleich –
+        Combs einigte sich innerhalb eines Tages auf einen außergerichtlichen Vergleich –
         doch das Video, das kurz darauf öffentlich wurde, änderte alles:
         Sicherheitskameras eines Hotels zeigten ihn dabei, wie er Cassie im Flur schlug,
         während sie versuchte zu fliehen.
@@ -14329,7 +14330,7 @@ function pDiddyPortraitPage() {
         Unter Dauerstress bewegt sich die Sieben in Richtung Eins:
         Rigides Denken, moralisierendes Urteilen, kompromisslose Kontrolle.
         Anstatt die eigene Angst zu fühlen, hält die gestresste Sieben
-        an einer inneren Überzeugung fest: <em>Ich habe Recht. Meine Bedürf冀sse sind legitim. Andere haben zu funktionieren.</em>
+        an einer inneren Überzeugung fest: <em>Ich habe Recht. Meine Bedürfnisse sind legitim. Andere haben zu funktionieren.</em>
         Dieser Mechanismus erklärt, warum Combs – trotz wachsender Klagen –
         offenbar nicht aufhörte, sondern das System weiter ausdehnte.
         Die Sieben im Stress sieht sich nicht als Täter, sondern als jemanden,
@@ -35918,7 +35919,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v468';
+  const MY_VERSION = 'inhalt-v469';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
