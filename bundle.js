@@ -14156,7 +14156,7 @@ function aileenWuornosPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
         <p class="vb-intro">
         <strong>Subtyp:</strong> SX7w8 – Sexuelle Sieben mit Achterflügel.<br>
         <strong>Leidenschaft:</strong> Maßlosigkeit (Völlerei) – das unstillbare Verlangen nach vollkommener Zweierbindung, nicht nach Erlebnissen.<br>
@@ -14325,7 +14325,72 @@ function pDiddyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Enneagramm-Analyse: Die Dynamik der Entgleisung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Kindheit: Wurzel des Typmusters</h3>
+        <p class="vb-intro"><strong>a) Der frühe Verlust:</strong>
+        Sean Combs wuchs ohne Vater auf. Melvin Earl Combs, ein Mitläufer im Umfeld des Harlem-Drogenmilieus,
+        wurde 1972 erschossen – Sean war drei Jahre alt.
+        Seine Mutter Janice zog ihn allein auf, arbeitete als Lehrerin und Modell
+        und schirmte ihn nach Kräften ab.
+        Der frühe Verlust des Vaters durch Gewalt ist bei der sexuellen Sieben typologisch bedeutsam:
+        Er legt den Grundstein für ein Muster, das Schmerz nicht verarbeitet, sondern überwältigt –
+        durch Leistung, durch Charme, durch Überfluss, durch Kontrolle.
+        Was fehlt, soll durch Fülle ersetzt werden. Was schmerzt, soll durch Erfolg zum Schweigen gebracht werden.</p>
+
+        <p class="vb-intro"><strong>b) Der frühe Aufstieg als Kompensation:</strong>
+        Bereits an der Howard University fiel Combs durch Organisationstalent und Durchsetzungswillen auf.
+        Er veranstaltete Partys, baute Netzwerke, brachte sich bei André Harrell von Uptown Records ins Gespräch.
+        Die sexuelle Sieben kompensiert frühen Mangel durch maximale Selbsterschaffung:
+        Ich werde so groß, so sichtbar, so unentbehrlich, dass Verlust mich nie wieder treffen kann.
+        Combs wurde zu einem der mächtigsten Männer der Musikbranche –
+        und das Muster, das ihn dahin gebracht hatte, blieb unverändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Die Fassade: Öffentlichkeit und verborgenes System</h3>
+        <p class="vb-intro"><strong>a) Das öffentliche Bild:</strong>
+        Combs war ein Meister der Inszenierung. Seine „White Parties" in den Hamptons
+        galten als kulturelle Institutionen – Gästelisten lasen sich wie Who's Who der Unterhaltungswelt.
+        Er trat als Philanthrop auf, unterstützte Bildungsinitiativen, sprach über seine Mutter
+        und seine schwierige Kindheit. Das Bild: ein Selfmade-Mensch, der zurückgibt.
+        Die sexuelle Sieben mit Achterflügel versteht instinktiv,
+        dass öffentliche Strahlkraft Schutz ist. Wer so sichtbar beliebt ist,
+        wirkt per Definition unverdächtig.</p>
+
+        <p class="vb-intro"><strong>b) Das verborgene System:</strong>
+        Hinter dieser Fassade existierte nach Darstellung zahlreicher Kläger
+        ein jahrzehntelanges System der Kontrolle:
+        Mitarbeiter wurden eingeschüchtert, Künstler unter Druck gesetzt,
+        Frauen in Situationen manövriert, aus denen sie keinen Ausweg sahen.
+        Das Hotelflur-Video mit Cassie Ventura – das ohne sein Wissen existierte –
+        machte erstmals sichtbar, was hinter der glamourösen Oberfläche lag.
+        Die Diskrepanz zwischen Fassade und Realität ist kein Widerspruch zum Typus –
+        sie ist sein Ausdruck: Die Sieben präsentiert Licht und verbirgt die Dunkelheit,
+        weil sie selbst nicht hinschauen will.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Wegbegleiter im Enneagramm-Spiegel</h3>
+        <p class="vb-intro"><strong>The Notorious B.I.G. (Christopher Wallace):</strong>
+        Combs' engste Zusammenarbeit war mit Biggie Smalls – einem der größten Rapper aller Zeiten.
+        Wallace starb 1997 durch einen Schuss aus einem fahrenden Auto, ungeklärt bis heute.
+        Im Enneagramm-Kontext ist die Beziehung aufschlussreich:
+        Combs als SX7w8 suchte Intensität, Exklusivität, Bindung durch gemeinsame Größe.
+        Nach Biggies Tod zeigte Combs öffentlich großen Schmerz –
+        und produzierte gleichzeitig „I'll Be Missing You", das ihm kommerziell
+        neue Höhen bescherte. Die sexuelle Sieben verwandelt Verlust in Projekt.</p>
+
+        <p class="vb-intro"><strong>Cassie Ventura:</strong>
+        Cassie war über ein Jahrzehnt Combs' Partnerin – und nach Aussage der Klageschrift
+        zugleich sein Hauptopfer. Sie beschrieb eine Beziehung, in der Zuneigung
+        und Kontrolle untrennbar verflochten waren: Reisen, Luxus, öffentliche Auftritte –
+        und hinter geschlossenen Türen physische Gewalt und psychologische Unterwerfung.
+        Das Muster ist typisch für die SX7w8 in der Entgleisung:
+        Die intensive Bindung, die die sexuelle Sieben sucht, kann zur Besitznahme werden –
+        die andere Person als Objekt totaler Kontrolle statt als freies Gegenüber.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Enneagramm-Analyse: Die Dynamik der Entgleisung</h3>
         <p class="vb-intro"><strong>a) Der Stresspunkt – die Eins:</strong>
         Unter Dauerstress bewegt sich die Sieben in Richtung Eins:
         Rigides Denken, moralisierendes Urteilen, kompromisslose Kontrolle.
@@ -35944,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v470';
+  const MY_VERSION = 'inhalt-v471';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
