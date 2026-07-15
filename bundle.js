@@ -280,7 +280,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
     tags:["Musik"] },
-  { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", subtyp:"SX5w6",
+  { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", neu:"2026-08-14", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
     tags:["Wirtschaft", "Technik"] },
@@ -380,7 +380,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", subtyp:"SX9w8",
+  { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", neu:"2026-08-14", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
@@ -7754,7 +7754,7 @@ function beruehmtePersoenlichkeitenPage() {
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.neu&&new Date()<new Date(p.neu)?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){
@@ -9842,7 +9842,9 @@ function markZuckerbergPortraitPage() {
       ${pageHeader("Berühmte Persönlichkeiten")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame" style="display:none;"></div>
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mark-zuckerberg-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
         <p class="krim-portrait-name">Mark Zuckerberg</p>
         <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Gründer &amp; CEO von Meta (Facebook, Instagram, WhatsApp), geb. 1984 &ndash; Tierentsprechung: Igel</p>
@@ -36241,7 +36243,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v480';
+  const MY_VERSION = 'inhalt-v481';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
