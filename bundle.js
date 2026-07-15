@@ -34260,7 +34260,7 @@ function _stilleInit() {
       statusEl.textContent = "pausiert";
     } else {
       interval = setInterval(tick, 1000);
-      if (laedt) setTimeout(() => { if (interval) starteKlang(gewaehlterKlang); }, 2500);
+      if (laedt) setTimeout(() => { if (interval) starteKlang(gewaehlterKlang); }, 10000);
       startBtn.textContent = "⏸ Pause";
       statusEl.textContent = "in der Stille …";
     }
@@ -34303,10 +34303,10 @@ function _stilleInit() {
       audio.loop = true;
       audio.volume = 0;
       audio.play().catch(() => {});
-      // Sanftes Einblenden über 3 Sekunden
+      // Sanftes Einblenden über 12 Sekunden (während der Gong ausklingt)
       let vol = 0;
       const fadeIn = setInterval(() => {
-        vol = Math.min(vol + 0.7 / 30, 0.7);
+        vol = Math.min(vol + 0.7 / 120, 0.7);
         audio.volume = vol;
         if (vol >= 0.7) clearInterval(fadeIn);
       }, 100);
@@ -34345,7 +34345,8 @@ function _stilleInit() {
     if (!audioCtx) return;
     const ctx = audioCtx;
     const master = ctx.createGain();
-    master.gain.setValueAtTime(0.18, ctx.currentTime);
+    master.gain.setValueAtTime(0.0001, ctx.currentTime);
+    master.gain.linearRampToValueAtTime(0.18, ctx.currentTime + 12);
     master.connect(ctx.destination);
     const nodes = [];
     let stopped = false;
@@ -36578,7 +36579,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v518';
+  const MY_VERSION = 'inhalt-v519';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
