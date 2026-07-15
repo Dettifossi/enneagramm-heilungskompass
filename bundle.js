@@ -34260,7 +34260,7 @@ function _stilleInit() {
       statusEl.textContent = "pausiert";
     } else {
       interval = setInterval(tick, 1000);
-      if (laedt) starteKlang(gewaehlterKlang);
+      if (laedt) setTimeout(() => { if (interval) starteKlang(gewaehlterKlang); }, 2500);
       startBtn.textContent = "⏸ Pause";
       statusEl.textContent = "in der Stille …";
     }
@@ -34301,8 +34301,15 @@ function _stilleInit() {
       // HTML Audio statt AudioContext → funktioniert mit AirPlay/HomePod auf iOS
       const audio = new Audio(klangCdnUrl(id));
       audio.loop = true;
-      audio.volume = 0.7;
+      audio.volume = 0;
       audio.play().catch(() => {});
+      // Sanftes Einblenden über 3 Sekunden
+      let vol = 0;
+      const fadeIn = setInterval(() => {
+        vol = Math.min(vol + 0.7 / 30, 0.7);
+        audio.volume = vol;
+        if (vol >= 0.7) clearInterval(fadeIn);
+      }, 100);
       // Media Session API → Hintergrund-Audio + Sperrbildschirm-Steuerung auf iOS
       if (navigator.mediaSession) {
         const KLANG_LABEL = {
@@ -36571,7 +36578,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v517';
+  const MY_VERSION = 'inhalt-v518';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
