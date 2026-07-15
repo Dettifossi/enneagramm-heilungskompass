@@ -33993,7 +33993,7 @@ function stillePage() {
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
             {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
             {id:"hz432",      icon:"🎵",  label:"432 Hz <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
-            {id:"chimes",      icon:"🎐",  label:"Chimes"},
+            {id:"chimes",      icon:"🎐",  label:"Windspiele"},
             {id:"herzschlag", icon:"❤️",  label:"Herzschlag <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
             {id:"kosmos",      icon:"🌌",  label:"Kosmisch"},
@@ -36571,7 +36571,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v515';
+  const MY_VERSION = 'inhalt-v516';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
