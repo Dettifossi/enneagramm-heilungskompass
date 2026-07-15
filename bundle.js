@@ -911,7 +911,9 @@ function inhaltsübersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag – von der Natur bis zur Kultur.")}
 
-        ${cat("Kriminalpsychologie", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "Ber\xfchmte Kriminalf\xe4lle durch die Linse des Enneagramms – lehrreich, nie rei\xdferisch.")}
+        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
+
+        ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "72 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
 
         ${cat("Philosophie & Spiritualit\xe4t", "&#129812;", [
           "Schopenhauer & Enneagramm",
@@ -2293,7 +2295,7 @@ function kaufenPage() {
           <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
           <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 59 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
-          <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 63 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
+          <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 72 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
         </ul>
         <h3>Für wen ist das gedacht?</h3>
         <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
@@ -36545,7 +36547,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v504';
+  const MY_VERSION = 'inhalt-v505';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
