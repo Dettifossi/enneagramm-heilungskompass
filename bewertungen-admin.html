@@ -58,14 +58,17 @@ laden();
 async function holen(bin) {
   const r = await fetch(API + bin + '/latest', { headers: { 'X-Master-Key': KEY } });
   const d = await r.json();
-  return Array.isArray(d.record) ? d.record : [];
+  const rec = d.record;
+  if (Array.isArray(rec)) return rec;
+  if (rec && Array.isArray(rec.reviews)) return rec.reviews;
+  return [];
 }
 
 async function speichern(bin, daten) {
   await fetch(API + bin, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json', 'X-Master-Key': KEY },
-    body: JSON.stringify(daten)
+    body: JSON.stringify({ reviews: daten })
   });
 }
 
@@ -92,7 +95,7 @@ function rendern() {
 function karte(b, i, ausstehend) {
   const sterne = '★'.repeat(b.sterne || 0) + '☆'.repeat(5 - (b.sterne || 0));
   const datum = b.datum ? new Date(b.datum).toLocaleDateString('de-DE') : '';
-  const kommentar = b.kommentar ? `<div class="kommentar">"${b.kommentar}"</div>` : '';
+  const kommentar = (b.kommentar || b.text) ? `<div class="kommentar">"${b.kommentar || b.text}"</div>` : '';
   const aktionen = ausstehend
     ? `<button class="btn-ok" onclick="freigeben(${i})">✓ Freigeben</button>
        <button class="btn-del" onclick="loeschen(${i}, true)">✕ Löschen</button>`
