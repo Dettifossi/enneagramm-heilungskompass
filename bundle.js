@@ -8454,7 +8454,7 @@ function kollegahPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Rückzug, sondern mit Angriff. <em>Ich bin gefährlich &ndash; also bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 sucht Kraft, Dominanz und Intensität, weil sie weiß, was es bedeutet, schwach zu sein &ndash; und weil sie sich geschworen hat, nie wieder dort zu sein.</p>
           <p class="vb-intro">Kollegahs gesamtes künstlerisches Projekt ist eine Inszenierung dieser Gegenangst. Das Boss-Narrativ, die Muskeln, die Statussymbole, die Sprache der Dominanz &ndash; alles dient dazu, eine Aura der Unverwundbarkeit zu erzeugen. Wer die SX6 kennt, erkennt das Muster sofort: Je mehr jemand seine Stärke demonstriert, desto mehr sagt er darüber, was er zu verbergen versucht. Der Wolf, der seine Reißzähne zeigt, weiß genau, warum.</p>
-          <p class="vb-intro">Das Rudel der SX6 ist klein und loyal. Kollegah arbeitete jahrelang eng mit Farid Bang zusammen &ndash; enneagrammtypologisch ein ganz anderes Profil: Farid Bang ist selbsterhaltender Typ 7 mit Achterflügel (SE7w8), kein Kontratyp, sondern ein Siebner, der seinen Hunger nach Erleben und Intensität mit der Direktheit des Achters verbindet. Zwei völlig verschiedene Charakterstrukturen, die sich im Ergebnis ergänzten: der Wolf, der aus Angst angreift, und der Siebner, der aus Lust provoziert. Das Projekt <em>Jung, brutal, gutaussehend</em> (2013) ist das Dokument dieser Allianz: ein Album, das Provokation zum Kunstprinzip erhob.</p>
+          <p class="vb-intro">Das Rudel der SX6 ist klein und loyal. Kollegah arbeitete jahrelang eng mit Farid Bang zusammen &ndash; enneagrammtypologisch ein ganz anderes Profil: Farid Bang ist selbsterhaltender Typ 7 mit Achterflügel (SE7w8), kein Kontratyp, sondern ein Siebener, der seinen Hunger nach Erleben und Intensität mit der Direktheit des Achters verbindet. Zwei völlig verschiedene Charakterstrukturen, die sich im Ergebnis ergänzten: der Wolf, der aus Angst angreift, und der Siebener, der aus Lust provoziert. Das Projekt <em>Jung, brutal, gutaussehend</em> (2013) ist das Dokument dieser Allianz: ein Album, das Provokation zum Kunstprinzip erhob.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Fünferflügel: Der Handwerker</h2>
@@ -36316,7 +36316,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v488';
+  const MY_VERSION = 'inhalt-v489';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
