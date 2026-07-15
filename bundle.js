@@ -252,6 +252,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taddl – Sozialer Typ 4",
     teaser:"SO4w3 · geb. 1996. YouTuber, Künstler & Musiker. Das Gürteltier, das sich jahrelang hinter einer Maske aus Humor verbarg – und irgendwann begann, das Echte zu zeigen.",
     added:"2026-07-15", tags:["Medien","Kunst"] },
+  { route:"beruehmte-til-schweiger", name:"Til Schweiger", subtyp:"SO4w3",
+    heading:"Til Schweiger – Sozialer Typ 4",
+    teaser:"SO4w3 · geb. 1963. Schauspieler, Regisseur & Produzent. Das Gürteltier, das sich hinter einer Maske aus Coolness verbirgt – und darunter eine tiefe Sehnsucht nach echter Anerkennung trägt.",
+    added:"2026-07-15", tags:["Film","Kunst"] },
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon – Sozialer Typ 4",
     teaser:"SO4w5 · 1940–1980. Musiker, Komponist, Friedensaktivist, Mitbegründer der Beatles. Das Gürteltier, das die Welt fragte: Stell Dir vor, es wäre Frieden.",
@@ -8063,6 +8067,68 @@ function johnLennonPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function tilSchweigerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-til-schweiger-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Til Schweiger</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Regisseur &amp; Produzent, geb. 1963 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; gepanzert nach außen, weich im Inneren. Es rollt sich ein, wenn es sich bedroht fühlt, und zeigt der Welt eine undurchdringliche Schale. Wer es wirklich kennt, weiß: Dahinter liegt ein außerordentlich feinfühliges Wesen, das mehr fühlt, als es je zeigen würde.</p>
+          <p class="vb-intro">Til Schweiger &ndash; geb. 1963, Schauspieler, Regisseur und Produzent &ndash; ist eine der bekanntesten Persönlichkeiten des deutschen Films. Sein Markenzeichen: eine Aura aus Coolness, Selbstbewusstsein und leicht provokanter Direktheit. Wer genauer hinsieht, erkennt das Gürteltier: einen Menschen, der unter seiner glatten Außenfassade eine tiefe emotionale Verletzlichkeit trägt &ndash; und diese mit großem handwerklichem Können in Kunst verwandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Scham als stille Triebkraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> ist der <em>Verstärkungstyp</em> der Vier: Er trägt seine Leidenschaft des Neids nach innen &ndash; als <strong>Scham</strong>. Naranjo nannte diesen Subtyp treffend so. Das Lebensgefühl der SO4 ist ein tiefes Mangelbewusstsein: Das Gras auf der anderen Seite des Zauns ist immer grüner. Die anderen haben etwas, das ich nicht habe. Die anderen <em>sind</em> etwas, das ich nicht bin. Dieses Gefühl der Unterlegenheit arbeitet still, hartnäckig und erschöpfend im Inneren &ndash; und ist zugleich der Antrieb, der die SO4 zur Leistung treibt.</p>
+          <p class="vb-intro">Bei Til Schweiger zeigt sich diese Dynamik in einem charakteristischen Widerspruch: Er ist einer der erfolgreichsten deutschen Filmschaffenden &ndash; und sucht trotzdem unaufhörlich nach echter Anerkennung. Sein Bedürfnis, als authentischer Künstler gesehen zu werden, ist keine Eitelkeit. Es ist die SO4 in ihrer reinsten Form: <em>Ich brauche nicht nur Erfolg. Ich brauche das Gefühl, dass das, was ich tue, wirklich zählt.</em> Dieser Antrieb ist der Kern seiner kreativen Energie.</p>
+          <p class="vb-intro">Sein intensiver, durchdringender Blick &ndash; in Filmen wie <em>Der bewegte Mann</em>, <em>Keinohrhasen</em> oder <em>Tschiller: Off Duty</em> &ndash; vermittelt genau das: eine emotionale Tiefe, die mehr sucht als Applaus. Er sucht Resonanz. Er sucht Verbindung. Das ist die SO4: stets auf der Suche nach einer Verbundenheit, die das innere Gefühl des Zu-kurz-Kommens endlich heilen könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Coolness als Schutzmaske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der sozialen Vier etwas, das sie allein nicht hätte: Bühnenenergie, Auftritt, die Fähigkeit zur überzeugenden Selbstdarstellung. Die SO4w3 spürt die Scham &ndash; und tritt dennoch auf. Sie baut eine Fassade, die sie schützt, solange das Innere noch nicht bereit ist, sich zu zeigen.</p>
+          <p class="vb-intro">Schweigers öffentliches Image ist das Paradebeispiel: cool, direkt, leicht unnahbar, von einer selbstbewussten Lässigkeit, die nicht jeden einlässt. Der Dreierflügel macht ihn zum natürlichen Entertainer und zum handwerklich versierten Filmschaffenden, der weiß, wie er Publikum erreicht. Die Vier darunter sorgt dafür, dass dieser Unterhaltungsprofi mehr ist als eine Oberfläche: Er sucht bedeutungsvolle Geschichten, emotionale Tiefe, echte Berührung.</p>
+          <p class="vb-intro">Diese Spannung &ndash; zwischen der Lässigkeit des Dreiers und der Sehnsucht der Vier &ndash; ist das kreative Zentrum der SO4w3. Filme wie <em>Keinohrhasen</em> oder <em>Kokowääh</em> zeigen die warme, verletzliche Seite. Die Actionrollen zeigen die gepanzerte. Beide sind echt. Beide sind Schweiger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist ihre Fähigkeit, tiefe Emotionen zu erspüren und in Kunstformen zu gießen, die andere berühren, weil sie darin sich selbst wiederfinden. Schweigers Filme sind emotionsgeladen nicht als Kalkül, sondern weil er als Herztyp (Typ 4 gehört zum Herzzentrum des Enneagramms) gar nicht anders kann: Fühlen ist seine Muttersprache.</p>
+          <p class="vb-intro">Der Schatten: Das untergründige Gefühl von Unzufriedenheit, gemischt mit einer Aura von Traurigkeit und Melancholie, begleitet die soziale Vier permanent. Kein Erfolg, kein Applaus, keine Anerkennung von außen kann dieses Grundgefühl dauerhaft auflösen &ndash; weil es aus der inneren Überzeugung stammt, irgendwie nicht wirklich zu genügen. Der Dreierflügel kann die Versuchung bringen, das Echte dem Erfolgreichen zu opfern. Wenn die Reaktion des Publikums wichtiger wird als die innere Wahrheit des Werks.</p>
+          <p class="vb-intro">Schweiger ist bekannt für ein hohes Maß an Stolz und eine gewisse Empfindlichkeit gegenüber Kritik. Das ist kein Charakterdefizit &ndash; das ist die SO4 in ihrem Schutzmodus: Wer im Inneren so viel fühlt, braucht eine stabile Außenfassade, um nicht von jeder Welle des Urteils fortgetragen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Anerkennung von innen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von <em>Ich bin nicht genug</em> zu <em>Das, was ich bin, reicht.</em> Für die SO4w3 bedeutet das, die Maske des Dreiers nicht als Schutz zu brauchen, sondern als freie Ausdrucksform zu nutzen: nicht spielen, weil man sich nicht zeigen darf &ndash; sondern spielen, weil man wirklich etwas zu sagen hat.</p>
+          <p class="vb-intro">Das Gürteltier braucht seine Panzerung &ndash; aber es muss nicht permanent in ihr leben. Die reife SO4w3 lernt, das innere Gefühl des Mangels nicht als Beweis anzunehmen, sondern als altes Muster zu erkennen, das nichts über den wahren Wert der eigenen Person aussagt. Til Schweiger hat in Jahrzehnten einer langen Karriere Werke geschaffen, die Menschen bewegt haben. Das ist keine Kleinigkeit. Das ist &ndash; im wörtlichsten Sinne &ndash; genug.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-taddl", label:"Porträt: Taddl (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
       ])}
     </div>
@@ -36049,6 +36115,7 @@ function render() {
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
@@ -36447,7 +36514,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v493';
+  const MY_VERSION = 'inhalt-v494';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
