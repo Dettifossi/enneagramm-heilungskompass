@@ -308,6 +308,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
     tags:["Medien","Politik"] },
+  { route:"beruehmte-kollegah", name:"Kollegah", subtyp:"SX6w5",
+    heading:"Kollegah – Sexueller Typ 6",
+    teaser:"SX6w5 · geb. 1984. Rapper, Unternehmer, Konvertit. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
+    added:"2026-07-15", tags:["Musik","Gesellschaft"] },
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
@@ -8420,6 +8424,67 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function kollegahPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kollegah</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Rapper, Unternehmer &amp; Konvertit, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Raubtier, das nicht aus Bosheit tötet, sondern aus Notwendigkeit. Er lebt in Hierarchien, er kämpft um seine Position, und er zeigt seine Zähne, nicht weil er Freude am Schmerz hat, sondern weil er weiß: Wer sich nicht durchsetzt, wird verdrängt. Der Wolf hat Angst &ndash; und er verwandelt diese Angst in Kraft.</p>
+          <p class="vb-intro">Kollegah &ndash; bürgerlicher Name Felix Antoine Blume, geb. 1984 in Singen &ndash; ist dieser Wolf. Einer der kommerziell erfolgreichsten deutschen Rapper überhaupt, bekannt für ein künstlerisches Alter Ego, das nach außen hin keine Schwäche kennt: der Boss, der Zuhälter-Barón, die überlegene Figur, die jeden Gegner wegflüstert. Aber das Alter Ego ist eine Rüstung. Darunter liegt die Frage, die alle Sechser kennen: <em>Bin ich wirklich sicher? Bin ich wirklich stark genug?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Rückzug, sondern mit Angriff. <em>Ich bin gefährlich &ndash; also bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 sucht Kraft, Dominanz und Intensität, weil sie weiß, was es bedeutet, schwach zu sein &ndash; und weil sie sich geschworen hat, nie wieder dort zu sein.</p>
+          <p class="vb-intro">Kollegahs gesamtes künstlerisches Projekt ist eine Inszenierung dieser Gegenangst. Das Boss-Narrativ, die Muskeln, die Statussymbole, die Sprache der Dominanz &ndash; alles dient dazu, eine Aura der Unverwundbarkeit zu erzeugen. Wer die SX6 kennt, erkennt das Muster sofort: Je mehr jemand seine Stärke demonstriert, desto mehr sagt er darüber, was er zu verbergen versucht. Der Wolf, der seine Reißzähne zeigt, weiß genau, warum.</p>
+          <p class="vb-intro">Das Rudel der SX6 ist klein und loyal. Kollegah arbeitete jahrelang eng mit Farid Bang zusammen &ndash; dem anderen Wolf in einem gemeinsamen künstlerischen Territorium. Zwei Kontratypen, die gemeinsam das Feld besetzen. Das Projekt <em>Jung, brutal, gutaussehend</em> (2013) ist das Dokument dieser Allianz: ein Album, das Provokation zum Kunstprinzip erhob.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der Handwerker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sexuellen Sechs eine Präzision, die ihren Stil von bloßer Provokation unterscheidet. Die SX6w5 kämpft nicht nur mit Lautstärke &ndash; sie kämpft mit Technik. <em>Ich will nicht nur gefährlich wirken. Ich will der Beste sein. Ich will es beweisen können.</em></p>
+          <p class="vb-intro">Kollegah ist, bei aller inhaltlichen Kontroversiät, handwerklich einer der präzisesten Rapper der deutschsprachigen Szene. Mehrsilbige Reime, komplexe Kadenzen, die für die deutsche Sprache ungewöhnlich sind, eine Dichte an Wörtern pro Takt, die wenige erreichen. Er hat das Rappen studiert wie ein Fach &ndash; analysiert, systematisiert, optimiert. Das ist der Fünferflügel: Wissen als Werkzeug, Handwerk als Schutzschild. <em>Was ich kann, kann mir niemand nehmen.</em></p>
+          <p class="vb-intro">Der Fünferflügel erklärt auch Kollegahs überraschend tiefe Auseinandersetzung mit Religion. Seine Konversion zum Islam 2016 kam nicht aus dem Nichts. Der SX6w5 sucht ein stabiles Fundament für seine Weltsicht &ndash; ein System, dem er vertrauen kann, das ihn trägt. Die Fünf im Flügel macht ihn zum Forscher: Er liest, analysiert, entwickelt Positionen. Auch das ist eine Form der Kämpfernatur der Sechs: Ich brauche etwas, das standhält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre Fähigkeit, Intensität in Leistung zu verwandeln. Kollegah hat aus einer Startposition ohne Netzwerk und ohne Plattform heraus eine der erfolgreichsten Karrieren im deutschen Hip-Hop aufgebaut. Fünf Nummer-eins-Alben in Serie, mehrfacher Echo-Gewinner, eines der meistgehörten Acts der deutschen Musikgeschichte. Das ist nicht Glück. Das ist die SX6w5: gnadenlos diszipliniert, gnadenlos fokussiert, gnadenlos auf Kontrolle bedacht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die Kontrareaktion der SX6 darauf ist Provokation. Wenn Provokation aber zum Selbstzweck wird, verliert sie ihre Grenze. Der Echo-Skandal 2018 &ndash; antisemitische Textzeilen auf dem gemeinsamen Album mit Farid Bang, die zum Rückgabe-Eklat führten &ndash; ist das düsterste Kapitel in Kollegahs öffentlichem Leben. Was als Ästhetik der Grenzüberschreitung begann, wurde zur realen Verletzung. Der Wolf, der nicht mehr weiß, wohin mit seinen Zähnen.</p>
+          <p class="vb-intro"><em>Hinweis: Das Porträt analysiert die Persönlichkeitsstruktur. Antisemitische Texte sind nicht relativierbar &ndash; sie werden hier nicht verteidigt, sondern eingeordnet: als Überschreitung eines Musters, das in seinem Ursprung aus Angst und Gegenangst entsteht.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Stärke ohne Rüstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wie schütze ich mich?</em> zur Erkenntnis <em>Ich brauche diesen Schutz nicht.</em> Für die SX6w5 bedeutet das, die Rüstung abzulegen &ndash; nicht weil man schwach ist, sondern weil man stark genug ist, ohne sie aufzutreten. Der Boss-Charakter ist eine Antwort auf eine innere Not. Wenn diese Not gehört wird, braucht es den Charakter nicht mehr.</p>
+          <p class="vb-intro">Kollegahs späteres Schaffen zeigt Spuren dieses Weges. Die Konversion, die bewusste Auseinandersetzung mit Grenzen, die öffentliche Distanzierung von bestimmten Ästhetiken &ndash; das sind keine Brüche, sondern Bewegungen. Der Wolf, der beginnt, sein Rudel nicht mehr durch Zähnezeigen zu führen, sondern durch Ruhe und Richtung. Die Stärke bleibt. Die Angst dahinter wird kleiner.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
   `);
@@ -35820,6 +35885,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
@@ -36250,7 +36316,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v483';
+  const MY_VERSION = 'inhalt-v484';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
