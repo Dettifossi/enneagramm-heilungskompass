@@ -14385,7 +14385,7 @@ function pDiddyPortraitPage() {
         und Kontrolle untrennbar verflochten waren: Reisen, Luxus, öffentliche Auftritte –
         und hinter geschlossenen Türen physische Gewalt und psychologische Unterwerfung.
         Das Muster ist typisch für die SX7w8 in der Entgleisung:
-        Die intensive Bindung, die die sexuelle Sieben sucht, kann zur Besitznahme werden –
+        Die intensive Bindung, die die sexuelle Sieben sucht, kann zur Inbesitznahme des Gegenübers werden –
         die andere Person als Objekt totaler Kontrolle statt als freies Gegenüber.</p>
       </div>
 
@@ -36009,7 +36009,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v471';
+  const MY_VERSION = 'inhalt-v472';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
