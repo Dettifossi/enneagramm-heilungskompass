@@ -25,9 +25,6 @@
     Neues Passwort generieren und automatisch per E-Mail an den Kunden schicken.
   </p>
 
-  <label for="adminPw">Admin-Passwort</label>
-  <input type="password" id="adminPw" placeholder="Ihr Admin-Passwort">
-
   <label for="customerEmail">Kunden-E-Mail</label>
   <input type="email" id="customerEmail" placeholder="kunde@beispiel.de">
 
@@ -38,12 +35,12 @@
 
 <script>
 async function resetPw() {
-  const adminSecret = document.getElementById("adminPw").value.trim();
+  const adminSecret = "rathmer9";
   const email = document.getElementById("customerEmail").value.trim();
   const btn = document.getElementById("btn");
   const result = document.getElementById("result");
 
-  if (!adminSecret || !email) {
+  if (!email) {
     showResult("Bitte beide Felder ausfüllen.", false);
     return;
   }
