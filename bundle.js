@@ -176,6 +176,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
     tags:["Politik"] },
+  { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
+    heading:"Jordan Peterson – Sozialer Typ 1",
+    teaser:"SO1w9 · geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt – weil sie das Chaos aus eigener Erfahrung kennt und weiß, was es kostet, wenn Struktur fehlt.",
+    added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] },
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
@@ -10524,6 +10528,66 @@ function angelinaJoliePortraitPage() {
   `);
 }
 
+
+function jordanPetersonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jordan Peterson</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Psychologe, Autor &amp; Vortragsredner, geb. 1962 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 &ndash; ein Tier, das in Formationen fliegt, das seine Richtung kennt und sie hält, das laut wird, wenn es bedroht wird, und das in Gemeinschaft stark ist. Die Gans folgt keiner Laune. Sie folgt einer inneren Ordnung &ndash; dem Instinkt für das Richtige, dem Sinn für Formation, dem Wissen, dass ein Schwarm nur dann weit kommt, wenn jeder seinen Platz kennt.</p>
+          <p class="vb-intro">Jordan Peterson ist diese Gans. Der kanadische Psychologe, geb. 1962 in Fairview, Alberta, wurde in den 2010er Jahren zu einer der umstrittensten intellektuellen Figuren der westlichen Welt. Sein Buch <em>12 Rules for Life</em> (2018) verkaufte sich mehr als fünf Millionen Mal. Seine YouTube-Vorlesungen wurden hunderte Millionen Male angeschaut. Er predigt Verantwortung, Ordnung, Struktur &ndash; weil er weiß, was das Chaos kostet. Die Gans, die weiß, warum die Formation wichtig ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Typ 1: Vollkommenheit als Vorbild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seine Leidenschaft des Zorns nicht als persönlichen Groll, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Unanpassbarkeit</em>: Die SO1 kann sich nicht damit abfinden, wie die Dinge sind &ndash; weil sie ein inneres Bild davon hat, wie sie sein sollten. Dieses Bild ist nicht verhandelbar. Es ist moralisch. Es ist ein Prinzip.</p>
+          <p class="vb-intro">Bei Peterson zeigt sich das in seiner zentralen Botschaft: <em>Bring Ordnung in dein Leben. Übernimm Verantwortung. Räum dein Zimmer auf.</em> Diese Sätze klingen einfach &ndash; aber hinter ihnen steckt eine tiefe Überzeugung: dass Chaos nicht nur unbequem ist, sondern gefährlich. Peterson hat dieses Chaos persönlich erlebt &ndash; in der schweren Erkrankung seiner Tochter, in seiner eigenen Abhängigkeit von Benzodiazepinen, in Jahren klinischer Arbeit mit Menschen am Rand. Der SO1 predigt nicht aus der Theorie. Er predigt aus der Erfahrung, was es bedeutet, wenn Ordnung fehlt.</p>
+          <p class="vb-intro">Die Kritik an ihm greift genau diesen Punkt an: dass seine Ordnung zu eng ist, zu patriarchal, zu sehr auf westliche, konservative Werte verengt. Das ist die Schattenseite der SO1: wenn das eigene Bild des Richtigen zur einzigen Wahrheit wird, wenn die Unanpassbarkeit an das Falsche in die Unduldsamkeit gegenüber dem Anderen kippt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die ruhige Überzeugung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine Qualität, die ihren Worten eine besondere Wirkung verleiht: innere Ruhe. Die SO1w9 kämpft nicht mit Hitze &ndash; sie überzeugt mit Tiefe. <em>Ich muss nicht schreien. Was ich sage, trägt sein eigenes Gewicht.</em> Die Stille des Neuners verstärkt die Präzision der Eins zu einer Kombination, die auf viele Menschen außergewöhnlich überzeugend wirkt.</p>
+          <p class="vb-intro">Peterson ist kein Redner, der Emotionen schürt &ndash; er ist ein Denker, der langsam, bedächtig und mit ungewöhnlicher Genauigkeit spricht. Seine Vorlesungen dauern oft zwei Stunden. Sein Ton ist ruhig, fast meditativ. Und trotzdem &ndash; oder gerade deswegen &ndash; erreichen seine Worte Menschen, die das Gefühl haben, dass ihnen lange niemand zugehört hat. Der Neunerflügel bringt die Gabe der Verbindung: nicht durch Kraft, sondern durch Stille.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist ihre Fähigkeit, Menschen eine Richtung zu geben, die orientierungslos sind. Petersen hat Millionen junger Männer erreicht &ndash; eine Gruppe, die von vielen anderen öffentlichen Intellektuellen kaum angesprochen wurde. Seine Botschaft &ndash; <em>Übernimm Verantwortung für dein Leben</em> &ndash; ist im Kern gesund. Sie gibt jemandem, der sich als Opfer seiner Umstände fühlt, ein Werkzeug zurück: die eigene Handlungsfähigkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; nicht der laute, explosive Zorn der Acht, sondern der unterdrückte, moralisch aufgeladene Zorn derer, die wissen, wie es sein sollte. Bei Peterson tritt dieser Zorn in Momenten auf, in denen er sich falsch verstanden oder unfair behandelt fühlt. Das berühmteste Beispiel: das Interview mit Cathy Newman auf Channel 4 (2018), in dem er ruhig und präzise seinen Positionen standhielt &ndash; und am Ende sagte: <em>„So what you're saying is..."</em> als lautlose Form, die Verzerrung zu korrigieren. Kontrollierter Zorn als Stilmittel.</p>
+          <p class="vb-intro">Der Schatten der SO1w9 liegt in der Rigidität: wenn die eigene Ordnung so absolut wird, dass kein Raum mehr bleibt für das Mehrdeutige, das Unfertige, das Experiment. Petersen wurde in den letzten Jahren zunehmend polarisierender &ndash; weniger Psychologe, mehr Kulturkämpfer. Das ist die Gans, die ihre Formation verliert und nicht mehr weiß, wohin sie fliegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Ordnung, die trägt &ndash; nicht bindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Frage <em>Wie mache ich es richtig?</em> zur Erkenntnis <em>Es darf auch unvollständig sein.</em> Für die SO1w9 bedeutet das, die Ordnung nicht als Endzustand zu begreifen, sondern als Richtung &ndash; eine Haltung, die trägt, ohne zu erstarren. Die Gans weiß, wohin die Formation fliegt. Aber sie weiß auch: der Weg ist nicht perfekt. Manchmal bricht die Formation. Manchmal muss man den Kurs korrigieren.</p>
+          <p class="vb-intro">Petersen hat in seinen offenen Momenten &ndash; besonders im Gespräch über die Krankheit seiner Tochter, über seine eigene Gebrechlichkeit &ndash; gezeigt, was möglich ist, wenn die Rüstung der Prinzipien fällt und der Mensch darunter sichtbar wird. Das ist die SO1w9 auf ihrem Heilungsweg: Wenn die Ordnung nicht mehr dem Schutz vor dem Chaos dient, sondern dem Leben. Der Unterschied ist klein. Aber er ändert alles.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
 
 function friedrichMerzPortraitPage() {
   return shell(`
@@ -35922,6 +35986,7 @@ function render() {
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
+      "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
@@ -36316,7 +36381,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v489';
+  const MY_VERSION = 'inhalt-v490';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
