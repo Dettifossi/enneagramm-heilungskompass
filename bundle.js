@@ -8092,7 +8092,7 @@ function taddlPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Typ 4: Scham als stille Triebkraft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> trägt seine Leidenschaft des Neids nach innen &ndash; als Scham. Naranjo nannte diesen Subtyp <em>Scham</em>: Die SO4 vergleicht sich ständig mit anderen &ndash; und fühlt sich dabei immer zu kurz. Nicht laut, nicht anklagend, sondern still und erschöpfend. <em>Die anderen haben etwas, das ich nicht habe. Die anderen sind etwas, das ich nicht bin.</em> Diese innere Überzeugung ist das Fundament der SO4 &ndash; und zugleich der Antrieb, der sie zur Leistung treibt.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> ist der <em>Verstärkungstyp</em> der Vier: Er trägt seine Leidenschaft des Neids nach innen &ndash; als Scham. Naranjo nannte diesen Subtyp treffend <em>Scham</em>. Das Lebensgefühl der SO4 ist ein tiefes Mangelbewusstsein: Das Gras auf der anderen Seite des Zauns ist immer grüner. Die anderen haben etwas, das ich nicht habe. Die anderen <em>sind</em> etwas, das ich nicht bin. Dieses Gefühl der Unterlegenheit ist nicht laut und anklagend &ndash; es arbeitet still, hartnäckig und erschöpfend im Inneren. Und es ist zugleich der Antrieb, der die SO4 zur Leistung treibt: <em>Vielleicht reiche ich dann irgendwann doch.</em></p>
           <p class="vb-intro">Bei Taddl zeigt sich das in der Spannung zwischen Sichtbarkeit und Rückzug, die seinen öffentlichen Weg geprägt hat. Er war präsent &ndash; und verschwand. Er teilte &ndash; und schützte. Er zeigte Humor &ndash; und dahinter lag etwas, das er lange nicht zeigte. Das ist die SO4: Sie will gesehen werden. Aber sie fürchtet sich davor, wirklich gesehen zu werden &ndash; weil sie nicht sicher ist, ob das, was man dann sieht, gut genug ist.</p>
           <p class="vb-intro">Sein späteres Schaffen &ndash; Musik, Kunst, ehrlichere Einblicke in sein Leben &ndash; zeigt die SO4 auf einem Weg: von der Scham, die verbirgt, zur Verletzlichkeit, die zeigt. Das ist kein kleiner Schritt. Das ist der wesentliche.</p>
         </blockquote>
@@ -36447,7 +36447,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v492';
+  const MY_VERSION = 'inhalt-v493';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
