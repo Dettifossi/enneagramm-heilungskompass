@@ -2890,7 +2890,7 @@ function zitatePage() {
     };
     window._doShare = function(btn, i) {
       const z = window._zShare[i];
-      const text = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\nEnneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/';
+      const text = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
       if (navigator.share) {
         navigator.share({ text: text }).catch(function(){});
       } else {
