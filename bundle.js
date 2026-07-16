@@ -34617,12 +34617,12 @@ function _stilleInit() {
 
     } else if (id === "wind") {
       // Wind = Pink Noise mit sehr langsamer LFO-Amplitude
-      master.gain.setValueAtTime(0.45, ctx.currentTime);
+      master.gain.setValueAtTime(0.9, ctx.currentTime);
       const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
-      const lp5 = lpf(800);
+      const lp5 = lpf(1200);
       src.connect(lp5); lp5.connect(master); src.start(); nodes.push(src);
       const lfo2 = ctx.createOscillator(); const lfoG2 = ctx.createGain();
-      lfo2.frequency.value = 0.05; lfoG2.gain.value = 0.3;
+      lfo2.frequency.value = 0.05; lfoG2.gain.value = 0.4;
       lfo2.connect(lfoG2); lfoG2.connect(master.gain); lfo2.start(); nodes.push(lfo2, lfoG2);
 
     } else if (id === "feuer") {
@@ -35741,7 +35741,7 @@ function _stilleInit() {
     kathedrale: "Kirchenraum mit langem Hall — sakrale Stille, die trägt.",
     kornfeld: "Sommerfeld im Wind — weite Natur, Freiheit, Stille.",
     regenamfenster: "Regen von innen gehört — geborgen, meditativ, sicher.",
-    froesche: "Froschkonzert am Teich — lebendige Nacht, Urkraft des Lebens.",
+    froesche: "Froschkonzert am Teich — lebendige Nacht, Urkraft des Lebens. Aufgenommen im Naturschutzgebiet Liesberg, Schweiz.",
     vinyl: "Knisterndes Vinyl — warme Nostalgie, sanftes Rauschen.",
     cafe: "Lebendiges Café-Gemurmel — belebt den Geist, fördert kreatives Denken.",
     standuhr: "Das gleichmäßige Ticken einer alten Standuhr — gibt Struktur und Beständigkeit.",
