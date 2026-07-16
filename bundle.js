@@ -2906,99 +2906,120 @@ function zitatePage() {
 
       function fallback() {
         navigator.clipboard.writeText(shareText).then(function() {
-          var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
+          var orig = btn.innerHTML; btn.innerHTML = '✓ Kopiert!'; btn.style.background='#e8f5e9';
           setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
-        }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+        }).catch(function(){ btn.textContent='❌'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
       }
 
       function shareBlob(blob) {
         var file = new File([blob], 'kompass-zitat.png', { type: 'image/png' });
         var shareObj = { files: [file] };
         if (navigator.canShare && navigator.canShare(shareObj)) {
-          navigator.share(shareObj).catch(function(e){
-            if (e.name !== 'AbortError') { fallback(); }
-          });
+          navigator.share(shareObj).catch(function(e){ if (e.name !== 'AbortError') fallback(); });
         } else {
-          // Nur Text teilen
           if (navigator.share) {
             navigator.share({ text: shareText }).catch(function(e){ if (e.name !== 'AbortError') fallback(); });
           } else { fallback(); }
         }
       }
 
-      // Quote-Card auf Canvas zeichnen
-      var img = new Image();
-      img.crossOrigin = 'anonymous';
-      img.onload = function() {
-        var W = 900, H = 600;
+      function wrapText(ctx, text, maxW, font) {
+        ctx.font = font;
+        var words = text.split(' '), lines = [], line = '';
+        words.forEach(function(w) {
+          var test = line ? line + ' ' + w : w;
+          if (ctx.measureText(test).width > maxW) { lines.push(line); line = w; }
+          else line = test;
+        });
+        if (line) lines.push(line);
+        return lines;
+      }
+
+      function drawCard(logoImg) {
+        var W = 1000, H = 1000;
         var cvs = document.createElement('canvas');
         cvs.width = W; cvs.height = H;
         var ctx = cvs.getContext('2d');
 
-        // Hintergrund (Creme)
         ctx.fillStyle = '#fdf6ec';
         ctx.fillRect(0, 0, W, H);
 
-        // Goldener Rand oben und unten
-        ctx.fillStyle = '#c8a964';
-        ctx.fillRect(0, 0, W, 4);
-        ctx.fillRect(0, H-4, W, 4);
+        // Doppelrahmen
+        var brd = 22;
+        ctx.strokeStyle = '#c8a964'; ctx.lineWidth = 4;
+        ctx.strokeRect(brd, brd, W-brd*2, H-brd*2);
+        ctx.strokeStyle = '#c8a96440'; ctx.lineWidth = 1;
+        ctx.strokeRect(brd+11, brd+11, W-(brd+11)*2, H-(brd+11)*2);
 
-        // Anführungszeichen gross
-        ctx.fillStyle = '#c8a96433';
-        ctx.font = 'bold 160px Georgia, serif';
-        ctx.fillText('„', 24, 160);
+        // Eckornamente
+        function corner(x, y, dx, dy) {
+          ctx.strokeStyle = '#c8a96477'; ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.moveTo(x+dx*28, y); ctx.lineTo(x, y); ctx.lineTo(x, y+dy*28);
+          ctx.stroke();
+        }
+        corner(brd+20, brd+20, 1, 1); corner(W-brd-20, brd+20, -1, 1);
+        corner(brd+20, H-brd-20, 1, -1); corner(W-brd-20, H-brd-20, -1, -1);
 
-        // Zitat-Text (Zeilenumbruch)
-        ctx.fillStyle = '#2c2c2c';
-        ctx.font = '32px Georgia, serif';
-        var words = z.q.split(' ');
-        var lines = [], line = '';
-        var maxW = W - 160;
-        words.forEach(function(w) {
-          var test = line ? line + ' ' + w : w;
-          if (ctx.measureText(test).width > maxW) { lines.push(line); line = w; }
-          else { line = test; }
-        });
-        if (line) lines.push(line);
-        var textY = Math.max(120, (H - lines.length * 46 - 120) / 2);
-        lines.forEach(function(l, idx) {
-          ctx.fillText(l, 80, textY + idx * 46);
-        });
+        // Logo zentriert oben
+        var logoSize = 130, logoY = 58;
+        if (logoImg) ctx.drawImage(logoImg, (W-logoSize)/2, logoY, logoSize, logoSize);
+
+        // Gradient-Linie unter Logo
+        var lineY = logoY + logoSize + 22;
+        var g = ctx.createLinearGradient(W/2-140, 0, W/2+140, 0);
+        g.addColorStop(0, '#c8a96400'); g.addColorStop(0.2, '#c8a964');
+        g.addColorStop(0.8, '#c8a964'); g.addColorStop(1, '#c8a96400');
+        ctx.strokeStyle = g; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(W/2-140, lineY); ctx.lineTo(W/2+140, lineY); ctx.stroke();
+
+        // Dekoratives Anführungszeichen oben
+        ctx.fillStyle = '#c8a96430';
+        ctx.font = 'italic 150px Georgia,serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('„', W/2, lineY + 148);
+
+        // Zitat
+        var qFont = 'italic 44px Georgia,serif';
+        var lines = wrapText(ctx, z.q, W-160, qFont);
+        var lineH = 44 * 1.48;
+        var totalH = lines.length * lineH;
+        var zoneTop = lineY + 60, zoneBot = H - 160;
+        var startY = zoneTop + (zoneBot - zoneTop - totalH) / 2 + 44;
+        ctx.fillStyle = '#2c2c2c'; ctx.font = qFont; ctx.textAlign = 'center';
+        lines.forEach(function(l, i) { ctx.fillText(l, W/2, startY + i*lineH); });
+
+        // Dekoratives Anführungszeichen unten
+        ctx.fillStyle = '#c8a96430';
+        ctx.font = 'italic 150px Georgia,serif';
+        var closeY = startY + lines.length * lineH + 14;
+        ctx.fillText('“', W/2, closeY);
 
         // Autor + Jahr
+        var authorY = closeY + 44;
         ctx.fillStyle = '#7a5c2e';
-        ctx.font = '22px Georgia, serif';
-        ctx.fillText('— ' + z.a + ' (' + z.y + ')', 80, textY + lines.length * 46 + 36);
+        ctx.font = '500 30px Georgia,serif'; ctx.textAlign = 'center';
+        ctx.fillText('— ' + z.a + '  (' + z.y + ')', W/2, authorY);
 
-        // Trennlinie
-        ctx.strokeStyle = '#c8a96455';
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.moveTo(80, H - 90);
-        ctx.lineTo(W - 80, H - 90);
-        ctx.stroke();
+        // Raute als Trenner
+        var sepY = authorY + 36;
+        ctx.fillStyle = '#c8a964';
+        ctx.save(); ctx.translate(W/2, sepY); ctx.rotate(Math.PI/4);
+        ctx.fillRect(-5, -5, 10, 10); ctx.restore();
 
-        // Kompass-Logo klein (60x60) unten rechts
-        var logoSize = 52;
-        ctx.drawImage(img, W - 80 - logoSize, H - 72, logoSize, logoSize);
-
-        // Branding unten links
-        ctx.fillStyle = '#a08050';
-        ctx.font = '18px Georgia, serif';
-        ctx.fillText('Enneagramm-Heilungskompass', 80, H - 44);
-        ctx.font = '14px Georgia, serif';
-        ctx.fillStyle = '#bba070';
-        ctx.fillText('kompass.verlagshausrathmer.com', 80, H - 22);
+        // Branding
+        ctx.fillStyle = '#a08050'; ctx.font = '500 24px Georgia,serif'; ctx.textAlign = 'center';
+        ctx.fillText('Enneagramm-Heilungskompass', W/2, H-56);
+        ctx.fillStyle = '#c8a96499'; ctx.font = '18px Georgia,serif';
+        ctx.fillText('kompass.verlagshausrathmer.com', W/2, H-28);
 
         cvs.toBlob(function(blob) { shareBlob(blob); }, 'image/png');
-      };
-      img.onerror = function() {
-        // Ohne Logo, nur Text teilen
-        if (navigator.share) {
-          navigator.share({ text: shareText }).catch(function(e){ if (e.name !== 'AbortError') fallback(); });
-        } else { fallback(); }
-      };
+      }
+
+      var img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function() { drawCard(img); };
+      img.onerror = function() { drawCard(null); };
       img.src = './apple-touch-icon.png';
     };
   }
