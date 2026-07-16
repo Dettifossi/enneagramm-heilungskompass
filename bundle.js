@@ -34081,53 +34081,53 @@ function stillePage() {
             {id:"stille",      icon:"🤫",  label:"Stille"},
             {id:"white",       icon:"〰️",  label:"White"},
             {id:"pink",        icon:"🌸",  label:"Pink"},
-            {id:"brown",       icon:"🟤",  label:"Brown <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"brown",       icon:"🟤",  label:"Brown "},
             {id:"bach",        icon:"🏞️",  label:"Bach"},
-            {id:"dschungelregen", icon:"🌧️", label:"Dschungelregen <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"dschungelregen", icon:"🌧️", label:"Dschungelregen "},
             {id:"gewaesser",   icon:"🏞️",  label:"Gewässer"},
-            {id:"mangroven",   icon:"🌿",  label:"Mangroven <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"mangroven",   icon:"🌿",  label:"Mangroven "},
             {id:"meer",        icon:"🌊",  label:"Meer"},
             {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
             {id:"regen",       icon:"🌧️",  label:"Regen"},
             {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
             {id:"sommerregen", icon:"🍃",  label:"Sommerregen"},
-            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle "},
             {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
             {id:"wasserfall",  icon:"💧",  label:"Wasserfall"},
             {id:"blizzard",    icon:"❄️",  label:"Blizzard"},
             {id:"feuer",       icon:"🔥",  label:"Feuer"},
             {id:"gewitter",    icon:"⛈️",  label:"Gewitter"},
             {id:"hoehle",      icon:"🪨",  label:"Höhle"},
-            {id:"nordlichter", icon:"🌠",  label:"Nordlichter <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
-            {id:"polareis",    icon:"🧊",  label:"Polareis <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"nordlichter", icon:"🌠",  label:"Nordlichter "},
+            {id:"polareis",    icon:"🧊",  label:"Polareis "},
             {id:"wald",        icon:"🌲",  label:"Wald"},
             {id:"wind",        icon:"💨",  label:"Wind"},
-            {id:"wuestensturm",icon:"🏜️",  label:"Wüstensturm <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"wuestensturm",icon:"🏜️",  label:"Wüstensturm "},
             {id:"aquarium",    icon:"🐠",  label:"Aquarium"},
             {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
-            {id:"japanischer-garten", icon:"🎋", label:"Japan. Garten <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
-            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"japanischer-garten", icon:"🎋", label:"Japan. Garten "},
+            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert "},
             {id:"savanne",    icon:"🦋",  label:"Savanne"},
             {id:"wiese",       icon:"🦗",  label:"Sommerwiese"},
-            {id:"tibet",       icon:"🏔️",  label:"Tibet <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"tibet",       icon:"🏔️",  label:"Tibet "},
             {id:"zug",         icon:"🚂",  label:"Zug"},
             {id:"bienen",      icon:"🐝",  label:"Bienen"},
             {id:"delfin",      icon:"🐬",  label:"Delfine"},
-            {id:"elefanten",   icon:"🐘",  label:"Elefanten <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"elefanten",   icon:"🐘",  label:"Elefanten "},
             {id:"eule",        icon:"🦉",  label:"Eule"},
             {id:"katze",       icon:"🐱",  label:"Katze"},
             {id:"kuckuck",     icon:"🌿",  label:"Kuckuck"},
             {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
             {id:"voegel",      icon:"🐦",  label:"Vogelstimmen"},
-            {id:"wal",         icon:"🐋",  label:"Walgesang <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"wal",         icon:"🐋",  label:"Walgesang "},
             {id:"wolf",        icon:"🐺",  label:"Wölfe"},
             {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
-            {id:"hz432",      icon:"🎵",  label:"432 Hz <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
-            {id:"herzschlag", icon:"❤️",  label:"Herzschlag <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"hz432",      icon:"🎵",  label:"432 Hz "},
+            {id:"herzschlag", icon:"❤️",  label:"Herzschlag "},
             {id:"klangschale",icon:"🔔",  label:"Klangschale"},
             {id:"kosmos",      icon:"🌌",  label:"Kosmisch"},
             {id:"om",         icon:"🧘",  label:"Om-Mantra"},
-            {id:"schumann",   icon:"🌀",  label:"Schumann <span style='background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:4px;vertical-align:middle;margin-left:0.3rem;letter-spacing:0.03em;'>NEU</span>"},
+            {id:"schumann",   icon:"🌀",  label:"Schumann "},
             {id:"trommel",     icon:"🥁",  label:"Trommel"},
             {id:"chimes",      icon:"🎐",  label:"Windspiele"},
           ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
@@ -34137,6 +34137,18 @@ function stillePage() {
         </div>
         <div id="stille-klang-tags" style="display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;min-height:1.6rem;margin:.5rem 0 0;"></div>
         <p id="stille-klang-info" style="margin:.7rem 0 0;font-size:0.8rem;color:var(--ink-muted);min-height:1.4em;text-align:center;font-style:italic;">Komplette Stille — nur Gong am Anfang und Ende.</p>
+      </div>
+
+      <div style="max-width:480px;margin:1.8rem auto 1.5rem;border-top:1px solid var(--border);padding-top:1.5rem;">
+        <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem;text-align:center;">Klang-Empfehlung f&uuml;r deinen Subtyp</p>
+        <p style="font-size:0.8rem;color:var(--ink-muted);text-align:center;margin:0 0 1rem;line-height:1.5;">W&auml;hle Typ und Instinktvariante &mdash; du erh&auml;ltst drei pers&ouml;nlich abgestimmte Kl&auml;nge.</p>
+        <div style="display:flex;gap:.3rem;justify-content:center;flex-wrap:wrap;margin-bottom:.7rem;">
+          ${[1,2,3,4,5,6,7,8,9].map(n => `<button class="stille-typ-btn" data-typ="${n}" style="padding:.3rem .65rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);transition:all .15s;">Typ ${n}</button>`).join('')}
+        </div>
+        <div style="display:flex;gap:.5rem;justify-content:center;margin-bottom:1rem;">
+          ${[['SE','Selbsterhaltung'],['SO','Sozial'],['SX','Beziehung']].map(([k,v]) => `<button class="stille-inst-btn" data-inst="${k}" style="padding:.35rem .9rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);transition:all .15s;">${k} &ndash; ${v}</button>`).join('')}
+        </div>
+        <div id="stille-matrix-result" style="display:none;border-radius:12px;background:var(--paper);padding:.8rem 1rem;"></div>
       </div>
 
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
