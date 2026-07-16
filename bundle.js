@@ -2902,34 +2902,104 @@ function zitatePage() {
     };
     window._doShare = function(btn, i) {
       const z = window._zShare[i];
-      const shareText = '„' + z.q + '" — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
-      const shareUrl = 'https://kompass.verlagshausrathmer.com/';
+      const shareText = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/';
 
-      function textOnly() {
-        if (navigator.share) {
-          navigator.share({ text: shareText, url: shareUrl }).catch(function(){});
+      function fallback() {
+        navigator.clipboard.writeText(shareText).then(function() {
+          var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
+          setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
+        }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+      }
+
+      function shareBlob(blob) {
+        var file = new File([blob], 'kompass-zitat.png', { type: 'image/png' });
+        var shareObj = { files: [file] };
+        if (navigator.canShare && navigator.canShare(shareObj)) {
+          navigator.share(shareObj).catch(function(e){
+            if (e.name !== 'AbortError') { fallback(); }
+          });
         } else {
-          navigator.clipboard.writeText(shareText + '\n' + shareUrl).then(function() {
-            var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
-            setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
-          }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+          // Nur Text teilen
+          if (navigator.share) {
+            navigator.share({ text: shareText }).catch(function(e){ if (e.name !== 'AbortError') fallback(); });
+          } else { fallback(); }
         }
       }
 
-      if (!navigator.share) { textOnly(); return; }
+      // Quote-Card auf Canvas zeichnen
+      var img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function() {
+        var W = 900, H = 600;
+        var cvs = document.createElement('canvas');
+        cvs.width = W; cvs.height = H;
+        var ctx = cvs.getContext('2d');
 
-      // Kompass-Logo als Datei laden und mitteilen
-      fetch('./apple-touch-icon.png')
-        .then(function(r){ return r.blob(); })
-        .then(function(blob) {
-          var file = new File([blob], 'kompass.png', { type: 'image/png' });
-          if (navigator.canShare && navigator.canShare({ files: [file] })) {
-            navigator.share({ files: [file], text: shareText }).catch(function(){ textOnly(); });
-          } else {
-            textOnly();
-          }
-        })
-        .catch(function(){ textOnly(); });
+        // Hintergrund (Creme)
+        ctx.fillStyle = '#fdf6ec';
+        ctx.fillRect(0, 0, W, H);
+
+        // Goldener Rand oben und unten
+        ctx.fillStyle = '#c8a964';
+        ctx.fillRect(0, 0, W, 4);
+        ctx.fillRect(0, H-4, W, 4);
+
+        // Anführungszeichen gross
+        ctx.fillStyle = '#c8a96433';
+        ctx.font = 'bold 160px Georgia, serif';
+        ctx.fillText('„', 24, 160);
+
+        // Zitat-Text (Zeilenumbruch)
+        ctx.fillStyle = '#2c2c2c';
+        ctx.font = '32px Georgia, serif';
+        var words = z.q.split(' ');
+        var lines = [], line = '';
+        var maxW = W - 160;
+        words.forEach(function(w) {
+          var test = line ? line + ' ' + w : w;
+          if (ctx.measureText(test).width > maxW) { lines.push(line); line = w; }
+          else { line = test; }
+        });
+        if (line) lines.push(line);
+        var textY = Math.max(120, (H - lines.length * 46 - 120) / 2);
+        lines.forEach(function(l, idx) {
+          ctx.fillText(l, 80, textY + idx * 46);
+        });
+
+        // Autor + Jahr
+        ctx.fillStyle = '#7a5c2e';
+        ctx.font = '22px Georgia, serif';
+        ctx.fillText('— ' + z.a + ' (' + z.y + ')', 80, textY + lines.length * 46 + 36);
+
+        // Trennlinie
+        ctx.strokeStyle = '#c8a96455';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(80, H - 90);
+        ctx.lineTo(W - 80, H - 90);
+        ctx.stroke();
+
+        // Kompass-Logo klein (60x60) unten rechts
+        var logoSize = 52;
+        ctx.drawImage(img, W - 80 - logoSize, H - 72, logoSize, logoSize);
+
+        // Branding unten links
+        ctx.fillStyle = '#a08050';
+        ctx.font = '18px Georgia, serif';
+        ctx.fillText('Enneagramm-Heilungskompass', 80, H - 44);
+        ctx.font = '14px Georgia, serif';
+        ctx.fillStyle = '#bba070';
+        ctx.fillText('kompass.verlagshausrathmer.com', 80, H - 22);
+
+        cvs.toBlob(function(blob) { shareBlob(blob); }, 'image/png');
+      };
+      img.onerror = function() {
+        // Ohne Logo, nur Text teilen
+        if (navigator.share) {
+          navigator.share({ text: shareText }).catch(function(e){ if (e.name !== 'AbortError') fallback(); });
+        } else { fallback(); }
+      };
+      img.src = './apple-touch-icon.png';
     };
   }
   const cards = data.map((z, i) => {
