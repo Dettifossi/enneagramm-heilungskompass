@@ -1403,21 +1403,22 @@ function startPage() {
     </div>
   ` : '';
 
-  const freischaltLink = !hasHeilwissen() ? `<button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren →</button>` : "";
+  const freischaltLink = !hasHeilwissen() ? `<button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>` : "";
   const returnActions = !firstVisit ? `
     <button class="primary" data-route="dashboard">${copy.primaryAction}</button>
-    <button class="secondary" data-route="knowledge">Wissensbasis</button>
+    <button class="secondary" data-route="knowledge">Knowledge Base</button>
     <button class="secondary${hasHeilwissen() ? "" : " is-locked"}" data-route="healing">Remedies${hasHeilwissen() ? "" : " <span class=\"btn-lock\" aria-hidden=\"true\">🔒</span>"}</button>
     ${freischaltLink}
   ` : `
-    <button class="primary" data-route="profile">Meinen Subtype wählen →</button>
+    <button class="primary" data-route="profile">Choose my subtype →</button>
     <button class="secondary" data-route="leseprobe">View app sample</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen · € 49 →</button>
-    <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren →</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · € 49 →</button>
+    <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>
   `;
 
   return shell(`
     ${onboardingOverlay()}
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">DE</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -2280,9 +2281,9 @@ function practicePage() {
 function kaufenPage() {
   return shell(`
     <section class="narrow centered" style="padding:2rem 1rem 1rem;">
-      <p class="eyebrow">Zugang kaufen</p>
+      <p class="eyebrow">Buy access</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">Enneagram Healing Compass</h1>
-      <p class="lead-small" style="margin-bottom:2rem;">Das interaktive Navigationssystem für alle 27 Subtypees — Remedies, Musik, TCM, ätherische Öle, Tagesimpulse und das gesamte Lebenswerk von Detlef Rathmer.</p>
+      <p class="lead-small" style="margin-bottom:2rem;">The interactive navigation system for all 27 subtypes — remedies, music, TCM, essential oils, daily impulses and the complete work of Detlef Rathmer.</p>
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
@@ -2329,7 +2330,7 @@ function kaufenPage() {
         </div>
         <a href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener"
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
-          Jetzt Zugang kaufen → € 49
+          Buy access now → € 49
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \xfcber Stripe &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
@@ -33459,12 +33460,12 @@ function freischaltPage() {
       <div class="freischalt-card">
         <div class="freischalt-card__lock">✦</div>
         <h1 class="freischalt-card__title">Enneagram Healing Compass</h1>
-        <p class="freischalt-card__desc">Das interaktive Navigationssystem für alle 27 Enneagramm-Subtypees — Blickqualitäten, Profiling, Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine, Teeempfehlungen, TCM, Musik und vieles mehr.</p>
+        <p class="freischalt-card__desc">The interactive navigation system for all 27 Enneagram subtypes — gazing qualities, profiling, homeopathy, Bach flowers, Schuessler salts, gemstones, TCM, music and much more.</p>
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
-          <li><strong style="color:var(--ink);">Alle 27 Subtype-Portraits</strong> – tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
-          <li><strong style="color:var(--ink);">Hunderte Charts</strong> – Enneagramm, Spiritualität, Philosophie, Musik & mehr</li>
-          <li><strong style="color:var(--ink);">Alle 3 Typen-Tests</strong> – Diagnose-, Struktur- & Motivationstest mit persönlicher Auswertung</li>
+          <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
+          <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
+          <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
           <li><strong style="color:var(--ink);">One-time purchase</strong> – lifetime access, constantly growing</li>
         </ul>
 
@@ -33472,12 +33473,12 @@ function freischaltPage() {
           <div class="freischalt-angebot freischalt-angebot--gesamt">
             <strong>Full access</strong>
             <span class="freischalt-angebot__preis">€ 49</span>
-            <span class="freischalt-angebot__label">Einführungspreis · inkl. aller Updates</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
+            <span class="freischalt-angebot__label">Introductory price · incl. all updates</span>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Buy access now →</a>
           </div>
         </div>
 
-        <div class="freischalt-card__divider"><span>Bereits gekauft? Jetzt anmelden:</span></div>
+        <div class="freischalt-card__divider"><span>Already purchased? Sign in here:</span></div>
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">
@@ -33496,15 +33497,15 @@ function freischaltPage() {
           </button>
         </div>
         <div id="panelCode" style="display:none;margin-top:.75rem;">
-          <input id="unlockName" type="text" placeholder="Ihr Vor- und Zuname" autocomplete="name" spellcheck="false"
+          <input id="unlockName" type="text" placeholder="Your first and last name" autocomplete="name" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
           <input id="unlockCode" type="text" placeholder="Enter access code" autocomplete="off" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:.75rem;" />
-          <button id="unlockBtn" class="primary" style="width:100%;">Aktivieren</button>
+          <button id="unlockBtn" class="primary" style="width:100%;">Activate</button>
           <p id="unlockMsg" class="freischalt-card__msg"></p>
         </div>
 
-        <button class="ghost-link freischalt-card__back" data-route="start" style="margin-top:.75rem;">← Back zur Startseite</button>
+        <button class="ghost-link freischalt-card__back" data-route="start" style="margin-top:.75rem;">← Back to start</button>
       </div>
     </section>
   `);
