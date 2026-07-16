@@ -1370,7 +1370,8 @@ function _bewertungSenden() {
     '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
     '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
     '</div>';
-  const review = { sterne: sterne, text: text, datum: new Date().toISOString() };
+  const nameVal = (document.getElementById('bwrt-name').value.trim()) || '';
+  const review = { sterne: sterne, text: text, datum: new Date().toISOString(), ...(nameVal ? { name: nameVal } : {}) };
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
     headers: { 'X-Master-Key': JSONBIN_KEY } })
     .then(function(r){ return r.json(); })
@@ -1593,6 +1594,10 @@ function startPage() {
         <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
           ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
         </div>
+        <input id="bwrt-name" type="text" placeholder="Ihr Name (z. B. Thomas K.)"
+          style="width:100%;border:1px solid var(--border);border-radius:8px;
+                 padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
+                 color:var(--ink);box-sizing:border-box;margin-bottom:0.6rem;" />
         <textarea id="bwrt-text" placeholder="Dein Kommentar (optional)..."
           style="width:100%;min-height:80px;border:1px solid var(--border);border-radius:8px;
                  padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
