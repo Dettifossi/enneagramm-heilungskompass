@@ -729,7 +729,7 @@ function inhaltsübersichtPage() {
       <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
                       background:var(--ivory);list-style:none;user-select:none;font-weight:700;
                       font-size:0.98rem;color:var(--ink);" class="inhalt-summary">
-        <span style="font-size:1.3rem;flex-shrink:0;">${icon}</span>
+        <span style="font-size:1.1rem;flex-shrink:0;">${icon}</span>
         <span style="flex:1;">${title}</span>
         <span class="inhalt-chevron" style="font-size:0.75rem;color:var(--muted);transition:transform .2s;">&#9660;</span>
       </summary>
@@ -991,7 +991,7 @@ function leseprobePage() {
 
       <!-- Berühmte Persönlichkeiten -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
           54 Berühmte Persönlichkeiten &ndash; Porträts
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
@@ -1011,7 +1011,7 @@ function leseprobePage() {
 
       <!-- Kriminalpsychologie -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
           Spannende Kriminalfälle (Kriminalpsychologie)
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
@@ -1920,7 +1920,7 @@ function toolDetailPage(slug) {
       : "";
     return `
       <div style="background:#e8f2ec;border:1.5px solid #2d4a3e;border-radius:14px;padding:1.5rem;margin-bottom:1.2rem;">
-        <p style="font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#2d4a3e;margin:0 0 1rem;">Ihre zwei Punkte · ${p.code}</p>
+        <p style="font-size:.65rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#2d4a3e;margin:0 0 1rem;">Ihre zwei Punkte · ${p.code}</p>
         ${ptsHtml}
         ${microHtml}
       </div>
@@ -5432,7 +5432,7 @@ function diagnosetestPage() {
           <div style="width:100%;height:6px;background:rgba(114,102,90,0.15);border-radius:3px;margin:0.4rem 0 1.2rem;">
             <div style="width:${pct}%;height:6px;border-radius:3px;background:var(--copper,#a5603d);transition:width 0.3s;"></div>
           </div>
-          <h2 class="typentest-titel" style="font-size:1.3rem;margin-bottom:0.3rem;">Welche Aussagen treffen auf Sie zu?</h2>
+          <h2 class="typentest-titel" style="font-size:1.1rem;margin-bottom:0.3rem;">Welche Aussagen treffen auf Sie zu?</h2>
           <p class="typentest-intro" style="margin-bottom:0.8rem;">Kreuzen Sie alle Aussagen an, die Sie als zutreffend empfinden.</p>
           <div class="diag-list">${items}</div>
           <div class="diag-nav">
@@ -7443,7 +7443,7 @@ function tierlexikonPage() {
             loading="lazy"
           />
         </div>
-        <span style="font-size:.72rem;font-weight:700;color:${col};letter-spacing:.04em;${hasData ? "" : "opacity:.5;"}">${s.code}</span>
+        <span style="font-size:.65rem;font-weight:700;color:${col};letter-spacing:.04em;${hasData ? "" : "opacity:.5;"}">${s.code}</span>
         <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;${hasData ? "" : "opacity:.5;"}">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>bald</span>"}</span>
       </button>
     `;
@@ -30309,7 +30309,7 @@ function humorDer9TypenPage() {
 
   const typenHTML = typen.map(t => `
     <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${t.col};">
-      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Typ ${t.nr}</p>
+      <p style="font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Typ ${t.nr}</p>
       <p style="font-size:1rem;font-weight:700;color:${t.col};margin:0 0 .9rem;">${t.titel}</p>
       <p style="font-size:.9rem;line-height:1.7;color:var(--muted);margin:0 0 .7rem;font-style:italic;">${t.art}</p>
       <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${t.typ}</p>
@@ -31018,7 +31018,7 @@ function solfeggioFrequenzenPage() {
     <div style="margin-bottom:1.2rem;padding:1.3rem 1.5rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.15rem;flex-wrap:wrap;">
         <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;">
-            <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0;">${f.hz} Hz &mdash; ${f.titel}</p>
+            <p style="font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0;">${f.hz} Hz &mdash; ${f.titel}</p>
             <span style="font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cream,#f5f0e8);background:var(--anthracite,#2a2a2a);padding:.15rem .55rem;border-radius:999px;font-weight:700;white-space:nowrap;">Typ ${f.typ}</span>
           </div>
         <button class="solf-play-btn" data-hz="${f.hz}"
@@ -31108,7 +31108,7 @@ function zehnAnwendungenPage() {
 
   const kartenHTML = anwendungen.map(a => `
     <div style="margin-bottom:1.5rem;padding:1.4rem 1.6rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid var(--gold,#c8a84b);">
-      <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0 0 .2rem;">Anwendung ${a.nr}</p>
+      <p style="font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0 0 .2rem;">Anwendung ${a.nr}</p>
       <p style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .75rem;">${a.titel}</p>
       <p style="font-size:.9rem;line-height:1.75;color:var(--anthracite);margin:0;">${a.text}</p>
     </div>
@@ -32186,7 +32186,7 @@ function krisenkompassPage() {
             border:2px solid var(--line);border-radius:12px;
             background:var(--paper);cursor:pointer;
             transition:border-color .15s, background .15s;">
-            <span style="font-size:1.3rem;margin-right:.6rem;">${k.emoji}</span>
+            <span style="font-size:1.1rem;margin-right:.6rem;">${k.emoji}</span>
             <span style="font-size:.95rem;font-weight:600;color:var(--ink);">${k.label}</span>
           </button>`).join("")}
         </div>
@@ -32212,7 +32212,7 @@ function krisenkompassPage() {
             border:2px solid color-mix(in srgb, ${c} 25%, var(--line));
             cursor:pointer;text-align:center;transition:border-color .15s;">
             <span style="display:block;font-size:1.4rem;font-weight:800;color:${c};line-height:1;">${nr}</span>
-            <span style="display:block;font-size:.72rem;color:var(--ink);margin-top:.35rem;line-height:1.3;">${name}</span>
+            <span style="display:block;font-size:.65rem;color:var(--ink);margin-top:.35rem;line-height:1.3;">${name}</span>
           </button>`;
         }).join("")}
       </div>
@@ -32253,7 +32253,7 @@ function situationskompasPage() {
         ${!hasData ? "disabled" : ""}
         style="display:flex;flex-direction:column;align-items:center;gap:.3rem;padding:.75rem .5rem;border-radius:.75rem;border:1.5px solid ${borderColor};background:${bg};cursor:${cursor};opacity:${opacity};font-family:inherit;transition:border-color .15s,background .15s;">
         <span style="font-size:1.4rem;">${s.icon}</span>
-        <span style="font-size:.72rem;font-weight:600;color:${textColor};text-align:center;line-height:1.25;">${s.label}${!hasData ? '<br><span style="font-size:.65rem;color:var(--muted);font-weight:400;">bald</span>' : ''}</span>
+        <span style="font-size:.65rem;font-weight:600;color:${textColor};text-align:center;line-height:1.25;">${s.label}${!hasData ? '<br><span style="font-size:.65rem;color:var(--muted);font-weight:400;">bald</span>' : ''}</span>
       </button>`;
   }).join("");
 
@@ -32313,7 +32313,7 @@ function situationskompasPage() {
       <details style="margin-bottom:1rem;">
         <summary style="font-size:.82rem;color:var(--muted);cursor:pointer;user-select:none;list-style:none;display:flex;align-items:center;gap:.4rem;">
           <span style="color:var(--copper);font-weight:600;">Subtyp wechseln</span>
-          <span style="font-size:.72rem;">&middot; aktuell: <strong>${activeSubtype}</strong>${activeSubtype === profCode ? " (mein Profil)" : ""}</span>
+          <span style="font-size:.65rem;">&middot; aktuell: <strong>${activeSubtype}</strong>${activeSubtype === profCode ? " (mein Profil)" : ""}</span>
         </summary>
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;padding:.75rem 0 .25rem;">
           ${subtypeRow}
@@ -33258,7 +33258,7 @@ function heilteesPage() {
             <div style="margin-bottom:.5rem;">
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Heiltee</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.tee}</span>
-              <span style="font-size:.72rem;color:var(--muted);letter-spacing:.04em;display:block;margin-top:.1rem;">${d.teename}</span>
+              <span style="font-size:.65rem;color:var(--muted);letter-spacing:.04em;display:block;margin-top:.1rem;">${d.teename}</span>
             </div>
             ${d.wirkungsfeld ? `<p style="font-size:.7rem;color:var(--muted);margin:.5rem 0 0;line-height:1.4;">${d.wirkungsfeld}</p>` : ""}
           </div>
@@ -34076,7 +34076,7 @@ function stillePage() {
 
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
-        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.45rem;">
+        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.3rem;">
           ${(()=>{
   const G = (label) => ({type:"group", label});
   const S = (id,icon,lbl,isNew) => ({id,icon,label:lbl,isNew});
@@ -34162,9 +34162,9 @@ function stillePage() {
       return `<div style="grid-column:1/-1;padding:.5rem 0 .2rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;border-bottom:1px solid var(--border);margin-bottom:.2rem;">${s.label}</div>`;
     }
     return `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
-            style="position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
+            style="position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.35rem .1rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.65rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             ${s.isNew?'<span style="position:absolute;top:-4px;right:-4px;font-size:.55rem;font-weight:700;color:#fff;background:var(--copper);border-radius:4px;padding:1px 4px;line-height:1.4;letter-spacing:.04em;">NEU</span>':''}
-            <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
+            <span style="font-size:1.1rem;">${s.icon}</span>${s.label}
           </button>`;
   }).join("");
 })()}
@@ -35814,7 +35814,7 @@ function _stilleInit() {
       if (tagsEl) {
         const tags = KLANG_TAGS[gewaehlterKlang] || [];
         tagsEl.innerHTML = tags.map(t =>
-          `<span style="font-size:.72rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
+          `<span style="font-size:.65rem;padding:.2rem .6rem;border-radius:999px;background:var(--paper);border:1px solid var(--border);color:var(--ink-muted);white-space:nowrap;">${t}</span>`
         ).join("");
       }
       // Sofort vorladen sobald ein Klang gewählt wird (fetch startet im Hintergrund)
@@ -36021,7 +36021,7 @@ function _stilleInit() {
     resultEl.innerHTML = sounds.map(s => `
       <div style="display:flex;align-items:flex-start;gap:.75rem;padding:.7rem .9rem;background:var(--paper);border-radius:10px;border:1px solid var(--border);">
         <button data-matrix-klang="${s.id}" title="Diesen Klang auswählen"
-          style="flex-shrink:0;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:1.3rem;display:flex;align-items:center;justify-content:center;transition:background .15s;"
+          style="flex-shrink:0;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center;transition:background .15s;"
           onmouseenter="this.style.background='var(--paper)'"
           onmouseleave="this.style.background='transparent'"
         >${s.icon}</button>
