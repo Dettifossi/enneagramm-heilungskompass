@@ -2902,15 +2902,80 @@ function zitatePage() {
     };
     window._doShare = function(btn, i) {
       const z = window._zShare[i];
-      const text = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
-      if (navigator.share) {
-        navigator.share({ text: text }).catch(function(){});
-      } else {
-        navigator.clipboard.writeText(text).then(function() {
-          var orig = btn.innerHTML; btn.innerHTML = '\u2713 Link kopiert!'; btn.style.background='#e8f5e9';
-          setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
-        }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+      const shareText = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/';
+
+      function fallbackShare() {
+        if (navigator.share) {
+          navigator.share({ text: shareText }).catch(function(){});
+        } else {
+          navigator.clipboard.writeText(shareText).then(function() {
+            var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
+            setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
+          }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+        }
       }
+
+      if (!navigator.share) { fallbackShare(); return; }
+
+      var canvas = document.createElement('canvas');
+      canvas.width = 1080; canvas.height = 1080;
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#fdf6ec';
+      ctx.fillRect(0, 0, 1080, 1080);
+      ctx.strokeStyle = '#c4a456';
+      ctx.lineWidth = 12;
+      ctx.strokeRect(24, 24, 1032, 1032);
+
+      var logo = new Image();
+      logo.onload = function() {
+        ctx.drawImage(logo, 440, 70, 200, 200);
+        ctx.fillStyle = '#7a5c2e';
+        ctx.font = '500 34px Georgia, serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('Enneagramm-Heilungskompass', 540, 315);
+        ctx.strokeStyle = '#c4a45666';
+        ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.moveTo(120, 340); ctx.lineTo(960, 340); ctx.stroke();
+        ctx.fillStyle = '#c4a456';
+        ctx.font = '110px Georgia, serif';
+        ctx.textAlign = 'left';
+        ctx.fillText('„', 85, 445);
+        ctx.fillStyle = '#1a1208';
+        ctx.font = 'italic 42px Georgia, serif';
+        ctx.textAlign = 'center';
+        var words = z.q.split(' ');
+        var lines = []; var line = '';
+        words.forEach(function(w) {
+          var test = line ? line + ' ' + w : w;
+          if (ctx.measureText(test).width > 820) { lines.push(line); line = w; }
+          else { line = test; }
+        });
+        if (line) lines.push(line);
+        var lineH = 58;
+        var startY = 520 - (Math.min(lines.length, 8) * lineH) / 2;
+        lines.slice(0, 8).forEach(function(l, idx) { ctx.fillText(l, 540, startY + idx * lineH); });
+        var endY = startY + Math.min(lines.length, 8) * lineH + 10;
+        ctx.fillStyle = '#c4a456';
+        ctx.font = '110px Georgia, serif';
+        ctx.textAlign = 'right';
+        ctx.fillText('“', 995, endY);
+        ctx.fillStyle = '#555';
+        ctx.font = '500 34px Georgia, serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('— ' + z.a + ' (' + z.y + ')', 540, 935);
+        ctx.fillStyle = '#bbb';
+        ctx.font = '26px Georgia, serif';
+        ctx.fillText('kompass.verlagshausrathmer.com', 540, 988);
+        canvas.toBlob(function(blob) {
+          if (!blob) { fallbackShare(); return; }
+          var file = new File([blob], 'zitat.png', { type: 'image/png' });
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            navigator.share({ files: [file], text: '„' + z.q + '“ — ' + z.a }).catch(function(){ fallbackShare(); });
+          } else { fallbackShare(); }
+        }, 'image/png');
+      };
+      logo.onerror = function() { fallbackShare(); };
+      logo.src = './apple-touch-icon.png';
     };
   }
   const cards = data.map((z, i) => {
