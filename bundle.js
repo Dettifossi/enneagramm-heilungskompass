@@ -2330,11 +2330,7 @@ function kaufenPage() {
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
           Jetzt Zugang kaufen → € 49
         </a>
-        <a href="https://paypal.me/detlefrathmer/49EUR" target="_blank" rel="noopener"
-           style="display:block;width:100%;text-align:center;background:#003087;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;margin-top:.75rem;">
-          Mit PayPal bezahlen → € 49
-        </a>
-        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf über Stripe oder PayPal &middot; Sofortiger Zugang nach Zahlung</p>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf über Stripe &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Fragen?</h3>
@@ -33543,7 +33539,6 @@ function freischaltPage() {
             <span class="freischalt-angebot__preis">€ 49</span>
             <span class="freischalt-angebot__label">Einführungspreis · inkl. aller Updates</span>
             <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
-            <a class="freischalt-card__buy-btn" href="https://paypal.me/detlefrathmer/49EUR" target="_blank" rel="noopener" style="background:#003087;color:#fff;border:none;margin-top:.5rem;">Mit PayPal bezahlen →</a>
           </div>
         </div>
 
