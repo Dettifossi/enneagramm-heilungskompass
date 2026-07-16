@@ -34455,7 +34455,7 @@ function _stilleInit() {
   let klangStop = null;
   const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma","brandung","hagel","kornfeld","kathedrale","regenamfenster","froesche","herbstlaub","vinyl"]);
   function klangCdnUrl(id) {
-    const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder"];
+    const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder","brandung"];
     const ver = v2.includes(id) ? "?v=3" : "";
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3" + ver;
   }
@@ -34617,12 +34617,12 @@ function _stilleInit() {
 
     } else if (id === "wind") {
       // Wind = Pink Noise mit sehr langsamer LFO-Amplitude
-      master.gain.setValueAtTime(0.15, ctx.currentTime);
+      master.gain.setValueAtTime(0.45, ctx.currentTime);
       const src = ctx.createBufferSource(); src.buffer = pinkBuf; src.loop = true;
       const lp5 = lpf(800);
       src.connect(lp5); lp5.connect(master); src.start(); nodes.push(src);
       const lfo2 = ctx.createOscillator(); const lfoG2 = ctx.createGain();
-      lfo2.frequency.value = 0.05; lfoG2.gain.value = 0.12;
+      lfo2.frequency.value = 0.05; lfoG2.gain.value = 0.3;
       lfo2.connect(lfoG2); lfoG2.connect(master.gain); lfo2.start(); nodes.push(lfo2, lfoG2);
 
     } else if (id === "feuer") {
