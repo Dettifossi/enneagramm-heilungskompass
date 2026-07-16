@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enneagram Healing Compass</title>
+    <meta
+      name="description"
+      content="The interactive Enneagram Healing Compass by Detlef Rathmer – 27 subtypes, homeopathy, Bach flowers, gemstones, TCM and more."
+    />
+    <meta property="og:title" content="Enneagram Healing Compass" />
+    <meta property="og:description" content="The interactive navigation compass for all 27 subtypes – homeopathy, Bach flowers, gemstones, TCM and more. By Detlef Rathmer." />
+    <meta property="og:image" content="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/share-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:url" content="https://kompass.verlagshausrathmer.com/en/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/share-image.png" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+    <link rel="manifest" href="../manifest.json" />
+    <meta name="theme-color" content="#1a1208" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="../styles.css?v=2026-07-13-nav-v15" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="../data/quiz.js?v=1"></script>
+    <script src="../data/zitate.js?v=1"></script>
+    <script type="module" src="./bundle.js?v=inhalt-v525"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        const hadController = !!navigator.serviceWorker.controller;
+        navigator.serviceWorker.addEventListener('message', e => {
+          if (e.data && e.data.type === 'SW_UPDATED' && hadController) window.location.reload();
+        });
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (hadController) window.location.reload();
+        });
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
+          .then(reg => reg.update());
+      }
+    </script>
+  </body>
+</html>

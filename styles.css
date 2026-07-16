@@ -5011,3 +5011,21 @@ button.primary:hover::after {
 .kf-tag--nahbereich  { background: #e6f9f0; color: #15803d; }
 .kf-tag--missbrauch  { background: #fef0f6; color: #be185d; }
 .kf-tag--sonstiges   { background: #f0f0f0; color: #555; }
+
+/* ── Sprachumschalter ────────────────────────────────────────────────────── */
+.lang-switcher {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  background: transparent;
+  border: 1.5px solid var(--gold-dark);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+.lang-switcher:hover { opacity: 1; }
