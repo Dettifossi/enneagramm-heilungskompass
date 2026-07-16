@@ -74,7 +74,7 @@ const TIER_KEY    = "enneagramm-kompass:tier";
 const NAME_KEY    = "enneagramm-kompass:lizenz-name";
 const PHOTO_KEY   = "enneagramm-kompass:user-photo";
 
-const KOMPASS_CODES = new Set(["KOMPASS-19681291", "KOMPASS-7743"]);
+const KOMPASS_CODES = new Set([]);
 
 function getUserPhoto()   { return localStorage.getItem(PHOTO_KEY) || ""; }
 function setUserPhoto(d) { try { localStorage.setItem(PHOTO_KEY, d); } catch(e) {} }
@@ -36573,7 +36573,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v521';
+  const MY_VERSION = 'inhalt-v522';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
