@@ -34077,68 +34077,88 @@ function stillePage() {
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
         <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
-          ${[
-            {id:"stille",      icon:"🤫",  label:"Stille"},
-            {id:"white",       icon:"〰️",  label:"White"},
-            {id:"pink",        icon:"🌸",  label:"Pink"},
-            {id:"brown",       icon:"🟤",  label:"Brown "},
-            {id:"bach",        icon:"🏞️",  label:"Bach"},
-            {id:"dschungelregen", icon:"🌧️", label:"Dschungelregen "},
-            {id:"gewaesser",   icon:"🏞️",  label:"Gewässer"},
-            {id:"mangroven",   icon:"🌿",  label:"Mangroven "},
-            {id:"meer",        icon:"🌊",  label:"Meer"},
-            {id:"nachtmeer",  icon:"🌄",  label:"Meer nachts"},
-            {id:"regen",       icon:"🌧️",  label:"Regen"},
-            {id:"regenwald",  icon:"🌳",  label:"Regenwald"},
-            {id:"sommerregen", icon:"🍃",  label:"Sommerregen"},
-            {id:"tropfen",    icon:"🪨",  label:"Tropfsteinhöhle "},
-            {id:"unterwasser",icon:"💧",  label:"Unterwasser"},
-            {id:"wasserfall",  icon:"💧",  label:"Wasserfall"},
-            {id:"blizzard",    icon:"❄️",  label:"Blizzard"},
-            {id:"feuer",       icon:"🔥",  label:"Feuer"},
-            {id:"gewitter",    icon:"⛈️",  label:"Gewitter"},
-            {id:"hoehle",      icon:"🪨",  label:"Höhle"},
-            {id:"nordlichter", icon:"🌠",  label:"Nordlichter "},
-            {id:"polareis",    icon:"🧊",  label:"Polareis "},
-            {id:"wald",        icon:"🌲",  label:"Wald"},
-            {id:"wind",        icon:"💨",  label:"Wind"},
-            {id:"wuestensturm",icon:"🏜️",  label:"Wüstensturm "},
-            {id:"aquarium",    icon:"🐠",  label:"Aquarium"},
-            {id:"geborgen",    icon:"🫧",  label:"Geborgen"},
-            {id:"japanischer-garten", icon:"🎋", label:"Japan. Garten "},
-            {id:"morgenkonzert",icon:"🌅",  label:"Morgenkonzert "},
-            {id:"savanne",    icon:"🦋",  label:"Savanne"},
-            {id:"wiese",       icon:"🦗",  label:"Sommerwiese"},
-            {id:"tibet",       icon:"🏔️",  label:"Tibet "},
-            {id:"zug",         icon:"🚂",  label:"Zug"},
-            {id:"cafe",        icon:"☕",  label:"Café"},
-            {id:"standuhr",    icon:"🕰️",  label:"Standuhr"},
-            {id:"bibliothek",  icon:"📚",  label:"Bibliothek"},
-            {id:"kinder",      icon:"👧",  label:"Kinderstimmen"},
-            {id:"schreibmaschine", icon:"⌨️", label:"Schreibmaschin"},
-            {id:"bienen",      icon:"🐝",  label:"Bienen"},
-            {id:"delfin",      icon:"🐬",  label:"Delfine"},
-            {id:"elefanten",   icon:"🐘",  label:"Elefanten "},
-            {id:"eule",        icon:"🦉",  label:"Eule"},
-            {id:"katze",       icon:"🐱",  label:"Katze"},
-            {id:"kuckuck",     icon:"🌿",  label:"Kuckuck"},
-            {id:"seehund",     icon:"🦭",  label:"Seehundbabys"},
-            {id:"voegel",      icon:"🐦",  label:"Vogelstimmen"},
-            {id:"wal",         icon:"🐋",  label:"Walgesang "},
-            {id:"wolf",        icon:"🐺",  label:"Wölfe"},
-            {id:"zikaden",    icon:"🦇",  label:"Zikaden-Nacht"},
-            {id:"hz432",      icon:"🎵",  label:"432 Hz "},
-            {id:"herzschlag", icon:"❤️",  label:"Herzschlag "},
-            {id:"klangschale",icon:"🔔",  label:"Klangschale"},
-            {id:"kosmos",      icon:"🌌",  label:"Kosmisch"},
-            {id:"om",         icon:"🧘",  label:"Om-Mantra"},
-            {id:"schumann",   icon:"🌀",  label:"Schumann "},
-            {id:"trommel",     icon:"🥁",  label:"Trommel"},
-            {id:"chimes",      icon:"🎐",  label:"Windspiele"},
-          ].map(s => `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
+          ${(()=>{
+  const G = (label) => ({type:"group", label});
+  const S = (id,icon,lbl) => ({id,icon,label:lbl});
+  const items = [
+    G("Stille & Rauschen"),
+    S("stille","🤫","Stille"),
+    S("white","~~","White"),
+    S("pink","🌸","Pink"),
+    S("brown","🟤","Brown"),
+    G("Wasser"),
+    S("bach","🏞️","Bach"),
+    S("gewaesser","🏞️","Gewässer"),
+    S("meer","🌊","Meer"),
+    S("nachtmeer","🌄","Meer nachts"),
+    S("regen","🌧️","Regen"),
+    S("sommerregen","🍃","Sommerregen"),
+    S("wasserfall","💧","Wasserfall"),
+    S("tropfen","🪨","Tropfsteinh."),
+    S("unterwasser","💧","Unterwasser"),
+    S("dschungelregen","🌧️","Dschungelregen"),
+    S("regenwald","🌳","Regenwald"),
+    S("mangroven","🌿","Mangroven"),
+    G("Wetter & Elemente"),
+    S("blizzard","❄️","Blizzard"),
+    S("feuer","🔥","Feuer"),
+    S("gewitter","⛈️","Gewitter"),
+    S("hoehle","🪨","Höhle"),
+    S("nordlichter","🌠","Nordlichter"),
+    S("polareis","🧊","Polareis"),
+    S("wald","🌲","Wald"),
+    S("wind","💨","Wind"),
+    S("wuestensturm","🏜️","Wüstensturm"),
+    G("Orte & Atmosphäre"),
+    S("aquarium","🐠","Aquarium"),
+    S("japanischer-garten","🎋","Japan. Garten"),
+    S("morgenkonzert","🌅","Morgenkonzert"),
+    S("savanne","🦋","Savanne"),
+    S("tibet","🏔️","Tibet"),
+    S("wiese","🦗","Sommerwiese"),
+    G("Alltag & Innen"),
+    S("bibliothek","📚","Bibliothek"),
+    S("cafe","☕","Café"),
+    S("kinder","👧","Kinderstimmen"),
+    S("schreibmaschine","⌨️","Schreibmaschin."),
+    S("standuhr","🕰️","Standuhr"),
+    S("zug","🚂","Zug"),
+    G("Tiere"),
+    S("bienen","🐝","Bienen"),
+    S("delfin","🐬","Delfine"),
+    S("elefanten","🐘","Elefanten"),
+    S("eule","🦉","Eule"),
+    S("katze","🐱","Katze"),
+    S("kuckuck","🌿","Kuckuck"),
+    S("seehund","🦭","Seehundbabys"),
+    S("voegel","🐦","Vogelstimmen"),
+    S("wal","🐋","Walgesang"),
+    S("wolf","🐺","Wölfe"),
+    S("zikaden","🦇","Zikaden-Nacht"),
+    G("Meditation & Töne"),
+    S("alpha","🧠","Alpha (8–12 Hz)"),
+    S("chimes","🎐","Windspiele"),
+    S("delta","🌙","Delta (0,5–4 Hz)"),
+    S("gamma","✨","Gamma (>30 Hz)"),
+    S("herzschlag","❤️","Herzschlag"),
+    S("hz432","🎵","432 Hz"),
+    S("klangschale","🔔","Klangschale"),
+    S("kosmos","🌌","Kosmisch"),
+    S("om","🧘","Om-Mantra"),
+    S("schumann","🌀","Schumann"),
+    S("theta","🌊","Theta (4–8 Hz)"),
+    S("trommel","🥁","Trommel"),
+  ];
+  return items.map(s => {
+    if (s.type === "group") {
+      return `<div style="width:100%;padding:.5rem 0 .2rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;border-bottom:1px solid var(--border);margin-bottom:.2rem;">${s.label}</div>`;
+    }
+    return `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
             style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
-          </button>`).join("")}
+          </button>`;
+  }).join("");
+})()}
         </div>
         <div id="stille-klang-tags" style="display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;min-height:1.6rem;margin:.5rem 0 0;"></div>
         <p id="stille-klang-info" style="margin:.7rem 0 0;font-size:0.8rem;color:var(--ink-muted);min-height:1.4em;text-align:center;font-style:italic;">Komplette Stille — nur Gong am Anfang und Ende.</p>
@@ -34424,7 +34444,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
@@ -35700,6 +35720,10 @@ function _stilleInit() {
     klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
   };
   const KLANG_INFO = {
+    alpha: "Alpha-Wellen (8–12 Hz) — entspannte Wachheit, das klassische Einstiegstor zur Meditation.",
+    theta: "Theta-Wellen (4–8 Hz) — traumhafte Schwingungen, tiefe Kreativität und Innenschau.",
+    delta: "Delta-Wellen (0,5–4 Hz) — die langsamsten Hirnwellen, tiefer traumloser Schlaf und Samadhi.",
+    gamma: "Gamma-Wellen (>30 Hz) — kosmische Wachheit, Mitgefühl, Verbindung aller Gehirnareale.",
     cafe: "Lebendiges Café-Gemurmel — belebt den Geist, fördert kreatives Denken.",
     standuhr: "Das gleichmäßige Ticken einer alten Standuhr — gibt Struktur und Beständigkeit.",
     bibliothek: "Stille Bibliothek mit leisen Geräuschen — Raum für Konzentration und Wissen.",
