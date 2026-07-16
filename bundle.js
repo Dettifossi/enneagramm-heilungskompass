@@ -35777,6 +35777,221 @@ function _stilleInit() {
       if (laedt && interval) starteKlang(gewaehlterKlang);
     });
   });
+
+  // Klang-Matrix: Typ × Instinkt → 3 Klang-Empfehlungen
+  const KLANG_MATRIX = {
+    "1-SE": [
+      {id:"stille",      icon:"🤫", desc:"Absolute Stille — Raum für innere Ordnung und Sammlung."},
+      {id:"sommerregen", icon:"🍃", desc:"Warmer Sommerregen — rhythmisch, reinigend, strukturiert."},
+      {id:"brown",       icon:"🟤", desc:"Brown Noise — sanfter Klangteppich für konzentriertes Arbeiten."}
+    ],
+    "1-SO": [
+      {id:"morgenkonzert",icon:"🌅", desc:"Vogelkonzert im Morgengrauen — Anfang und Erneuerung."},
+      {id:"wald",        icon:"🌲", desc:"Stiller Wald — Aufrichtigkeit und tiefe Verwurzelung."},
+      {id:"bach",        icon:"🏞️", desc:"Plätschernder Bach — klarer, unverfälschter Fluss."}
+    ],
+    "1-SX": [
+      {id:"gewitter",    icon:"⛈️", desc:"Fernes Gewitter — Entladung von aufgestauter Spannung."},
+      {id:"feuer",       icon:"🔥", desc:"Knisterndes Feuer — Wärme und innere Leidenschaft."},
+      {id:"klangschale", icon:"🔔", desc:"Klangschale — Reinigung und Zentrierung im Moment."}
+    ],
+    "2-SE": [
+      {id:"katze",       icon:"🐱", desc:"Schnurren einer Katze — Geborgenheit und Urvertrauen."},
+      {id:"herzschlag",  icon:"❤️", desc:"Herzschlag — Verbindung mit dem eigenen Körper."},
+      {id:"gewaesser",   icon:"🏞️", desc:"Stilles Gewässer — sanfte Fürsorge für sich selbst."}
+    ],
+    "2-SO": [
+      {id:"voegel",      icon:"🐦", desc:"Vogelstimmen — lebendige Gemeinschaft in der Natur."},
+      {id:"wiese",       icon:"🦗", desc:"Sommerwiese — Wärme und Fülle des Zusammenseins."},
+      {id:"morgenkonzert",icon:"🌅", desc:"Morgenkonzert — freudvoller Beginn eines neuen Tages."}
+    ],
+    "2-SX": [
+      {id:"meer",        icon:"🌊", desc:"Meeresrauschen — tiefe Sehnsucht und Hingabe."},
+      {id:"delfin",      icon:"🐬", desc:"Delfingesang — spielerische Verbundenheit."},
+      {id:"chimes",      icon:"🎐", desc:"Windspiele — zarte, einladende Schwingung."}
+    ],
+    "3-SE": [
+      {id:"zug",         icon:"🚂", desc:"Zugfahrt — gleichmäßiger Rhythmus und klares Ziel."},
+      {id:"wind",        icon:"💨", desc:"Wind — Bewegung und Anpassungsfähigkeit."},
+      {id:"pink",        icon:"🌸", desc:"Pink Noise — effizienter Fokus ohne Ablenkung."}
+    ],
+    "3-SO": [
+      {id:"savanne",     icon:"🦋", desc:"Savanne — weite Bühne und natürliche Präsenz."},
+      {id:"elefanten",   icon:"🐘", desc:"Elefanten — Kraft, Würde und Führungsstärke."},
+      {id:"trommel",     icon:"🥁", desc:"Trommel — Rhythmus und Antrieb zum Handeln."}
+    ],
+    "3-SX": [
+      {id:"feuer",       icon:"🔥", desc:"Feuer — Ausstrahlung und magnetische Anziehung."},
+      {id:"klangschale", icon:"🔔", desc:"Klangschale — Authentizität hinter der Maske."},
+      {id:"tibet",       icon:"🏔️", desc:"Tibet — Stille und Tiefe jenseits des Erfolgs."}
+    ],
+    "4-SE": [
+      {id:"regen",       icon:"🌧️", desc:"Regen — das Schöne im Melancholischen annehmen."},
+      {id:"hoehle",      icon:"🪨", desc:"Tropfsteinhöhle — Rückzug und innere Schätze."},
+      {id:"brown",       icon:"🟤", desc:"Brown Noise — erdender Klangraum für die Tiefe."}
+    ],
+    "4-SO": [
+      {id:"nachtmeer",   icon:"🌄", desc:"Meer nachts — Sehnsucht und stille Schönheit."},
+      {id:"zikaden",     icon:"🦇", desc:"Zikaden-Nacht — das Besondere im Verborgenen."},
+      {id:"chimes",      icon:"🎐", desc:"Windspiele — kunstvoller Ausdruck des Einzigartigen."}
+    ],
+    "4-SX": [
+      {id:"gewitter",    icon:"⛈️", desc:"Gewitter — Leidenschaft und emotionale Intensität."},
+      {id:"eule",        icon:"🦉", desc:"Eule — Weisheit in der Dunkelheit der Nacht."},
+      {id:"om",          icon:"🧘", desc:"Om-Mantra — Verbindung mit dem Urklang."}
+    ],
+    "5-SE": [
+      {id:"stille",      icon:"🤫", desc:"Stille — der kostbarste Rückzugsort des Beobachters."},
+      {id:"hoehle",      icon:"🪨", desc:"Höhle — geschützter Raum für Gedanken und Wissen."},
+      {id:"white",       icon:"〰️", desc:"White Noise — neutrale Abschirmung von außen."}
+    ],
+    "5-SO": [
+      {id:"wald",        icon:"🌲", desc:"Wald — stille Gemeinschaft mit der Natur."},
+      {id:"eule",        icon:"🦉", desc:"Eule — Wächter des Wissens in der Nacht."},
+      {id:"polareis",    icon:"🧊", desc:"Polareis — Reinheit und unberührte Weite."}
+    ],
+    "5-SX": [
+      {id:"bach",        icon:"🏞️", desc:"Bach — klares, tiefes Vertrauen im Verborgenen."},
+      {id:"wal",         icon:"🐋", desc:"Walgesang — Kommunikation aus der Tiefe."},
+      {id:"aquarium",    icon:"🐠", desc:"Aquarium — faszinierende Welt unter der Oberfläche."}
+    ],
+    "6-SE": [
+      {id:"feuer",       icon:"🔥", desc:"Feuer — Wärme und Sicherheit am vertrauten Ort."},
+      {id:"herzschlag",  icon:"❤️", desc:"Herzschlag — Urvertrauen in den eigenen Körper."},
+      {id:"katze",       icon:"🐱", desc:"Katze — Geborgenheit und entspannte Wachsamkeit."}
+    ],
+    "6-SO": [
+      {id:"voegel",      icon:"🐦", desc:"Vogelstimmen — vertraute Gemeinschaft in der Natur."},
+      {id:"wiese",       icon:"🦗", desc:"Sommerwiese — Sicherheit und Zugehörigkeit."},
+      {id:"morgenkonzert",icon:"🌅", desc:"Morgenkonzert — verlässlicher Neuanfang jeden Tag."}
+    ],
+    "6-SX": [
+      {id:"gewitter",    icon:"⛈️", desc:"Gewitter — Mut, sich der Angst zu stellen."},
+      {id:"wolf",        icon:"🐺", desc:"Wölfe — Stärke im Rudel, Loyalität und Schutz."},
+      {id:"trommel",     icon:"🥁", desc:"Trommel — Kraft und Entschlossenheit."}
+    ],
+    "7-SE": [
+      {id:"japanischer-garten",icon:"🎋", desc:"Japanischer Garten — Ästhetik und genussvolle Ruhe."},
+      {id:"sommerregen", icon:"🍃", desc:"Sommerregen — lebendige Frische und Genuss."},
+      {id:"chimes",      icon:"🎐", desc:"Windspiele — spielerische Leichtigkeit des Moments."}
+    ],
+    "7-SO": [
+      {id:"mangroven",   icon:"🌿", desc:"Mangroven — Tiefe hinter dem heiteren Schein."},
+      {id:"regenwald",   icon:"🌳", desc:"Regenwald — Fülle und Verbundenheit mit allem."},
+      {id:"dschungelregen",icon:"🌧️", desc:"Dschungelregen — Reinigung und Erdung."}
+    ],
+    "7-SX": [
+      {id:"meer",        icon:"🌊", desc:"Meer — grenzenlose Weite und Abenteuergeist."},
+      {id:"delfin",      icon:"🐬", desc:"Delfine — Freude, Spiel und Verbundenheit."},
+      {id:"nordlichter", icon:"🌠", desc:"Nordlichter — das Staunen vor dem Wunderbaren."}
+    ],
+    "8-SE": [
+      {id:"wuestensturm", icon:"🏜️", desc:"Wüstensturm — rohe Kraft und Überlebensinstinkt."},
+      {id:"elefanten",   icon:"🐘", desc:"Elefanten — Stärke, Schutz und Beständigkeit."},
+      {id:"trommel",     icon:"🥁", desc:"Trommel — Urrhythmus und physische Präsenz."}
+    ],
+    "8-SO": [
+      {id:"savanne",     icon:"🦋", desc:"Savanne — weites Territorium und Schutz der Gruppe."},
+      {id:"wolf",        icon:"🐺", desc:"Wölfe — Rudelführung und Loyalität."},
+      {id:"feuer",       icon:"🔥", desc:"Feuer — Lagerfeuer, Gemeinschaft und Wärme."}
+    ],
+    "8-SX": [
+      {id:"gewitter",    icon:"⛈️", desc:"Gewitter — vollständige Hingabe und Intensität."},
+      {id:"meer",        icon:"🌊", desc:"Meer — tiefe Leidenschaft und Naturgewalt."},
+      {id:"klangschale", icon:"🔔", desc:"Klangschale — Zentrieren nach dem Sturm."}
+    ],
+    "9-SE": [
+      {id:"bach",        icon:"🏞️", desc:"Bach — sanfter, beständiger Fluss des Lebens."},
+      {id:"wiese",       icon:"🦗", desc:"Sommerwiese — Frieden und entspannte Fülle."},
+      {id:"voegel",      icon:"🐦", desc:"Vogelstimmen — Harmonie und natürliche Stille."}
+    ],
+    "9-SO": [
+      {id:"mangroven",   icon:"🌿", desc:"Mangroven — Verwurzelung in der Gemeinschaft."},
+      {id:"regenwald",   icon:"🌳", desc:"Regenwald — alles verbindet sich im großen Ganzen."},
+      {id:"morgenkonzert",icon:"🌅", desc:"Morgenkonzert — friedliches Erwachen im Miteinander."}
+    ],
+    "9-SX": [
+      {id:"meer",        icon:"🌊", desc:"Meer — Verschmelzung und Grenzenlosigkeit."},
+      {id:"om",          icon:"🧘", desc:"Om — Verbindung mit dem Urgrund des Seins."},
+      {id:"tibet",       icon:"🏔️", desc:"Tibet — stille Weite und innerer Frieden."}
+    ]
+  };
+
+  let _stilleMatrixTyp = null;
+  let _stilleMatrixInst = null;
+
+  function _stilleMatrixHighlight() {
+    document.querySelectorAll('.stille-typ-btn').forEach(b => {
+      const sel = b.dataset.typ === String(_stilleMatrixTyp);
+      b.style.borderColor = sel ? 'var(--copper)' : 'var(--border)';
+      b.style.background  = sel ? 'var(--paper)'  : 'transparent';
+      b.style.color       = sel ? 'var(--copper)'  : 'var(--ink)';
+      b.style.fontWeight  = sel ? '600' : 'normal';
+    });
+    document.querySelectorAll('.stille-inst-btn').forEach(b => {
+      const sel = b.dataset.inst === _stilleMatrixInst;
+      b.style.borderColor = sel ? 'var(--copper)' : 'var(--border)';
+      b.style.background  = sel ? 'var(--paper)'  : 'transparent';
+      b.style.color       = sel ? 'var(--copper)'  : 'var(--ink)';
+      b.style.fontWeight  = sel ? '600' : 'normal';
+    });
+  }
+
+  function _stilleMatrixShow() {
+    const resultEl = document.getElementById('stille-matrix-result');
+    if (!resultEl) return;
+    if (!_stilleMatrixTyp || !_stilleMatrixInst) { resultEl.style.display = 'none'; return; }
+    const key = _stilleMatrixTyp + '-' + _stilleMatrixInst;
+    const sounds = KLANG_MATRIX[key];
+    if (!sounds) { resultEl.style.display = 'none'; return; }
+    resultEl.style.display = 'block';
+    resultEl.innerHTML = sounds.map(s => `
+      <div style="display:flex;align-items:flex-start;gap:.75rem;padding:.7rem .9rem;background:var(--paper);border-radius:10px;border:1px solid var(--border);">
+        <button data-matrix-klang="${s.id}" title="Diesen Klang auswählen"
+          style="flex-shrink:0;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:1.3rem;display:flex;align-items:center;justify-content:center;transition:background .15s;"
+          onmouseenter="this.style.background='var(--paper)'"
+          onmouseleave="this.style.background='transparent'"
+        >${s.icon}</button>
+        <div style="flex:1;min-width:0;">
+          <p style="margin:0 0 .2rem;font-size:.8rem;font-weight:600;color:var(--copper);">${s.id.charAt(0).toUpperCase()+s.id.slice(1).replace(/-/g,' ')}</p>
+          <p style="margin:0;font-size:.78rem;color:var(--ink-muted);line-height:1.45;">${s.desc}</p>
+        </div>
+      </div>
+    `).join('');
+    resultEl.querySelectorAll('[data-matrix-klang]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const kid = btn.dataset.matrixKlang;
+        gewaehlterKlang = kid;
+        document.querySelectorAll('.stille-klang-btn').forEach(b => {
+          const isThis = b.dataset.klang === kid;
+          b.style.borderColor = isThis ? 'var(--copper)' : 'var(--border)';
+          b.style.background  = isThis ? 'var(--paper)' : 'transparent';
+        });
+        const infoEl = document.getElementById('stille-klang-info');
+        if (infoEl) infoEl.textContent = KLANG_INFO[kid] || '';
+        if (REAL_SOUNDS_ALL.has(kid) && !klangFetchCache[kid]) {
+          klangFetchCache[kid] = fetch(klangCdnUrl(kid)).then(r => r.arrayBuffer()).catch(() => null);
+        }
+        if (laedt && interval) starteKlang(kid);
+      });
+    });
+  }
+
+  document.querySelectorAll('.stille-typ-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _stilleMatrixTyp = Number(btn.dataset.typ);
+      _stilleMatrixHighlight();
+      _stilleMatrixShow();
+    });
+  });
+  document.querySelectorAll('.stille-inst-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _stilleMatrixInst = btn.dataset.inst;
+      _stilleMatrixHighlight();
+      _stilleMatrixShow();
+    });
+  });
+
 }
 
 function musikPage() {
