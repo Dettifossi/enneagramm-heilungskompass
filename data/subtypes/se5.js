@@ -25,32 +25,6 @@ export const se5 = {
     wandlung: "Aus Rückzug wird Kontakt. Aus Energiesparen wird Lebendigkeit. Aus Selbstgenügsamkeit wird echte Verbundenheit.",
     gedankeFuerHeute: "Ich vertraue darauf, dass Lebendigkeit mich nicht erschöpft — sie nährt mich.",
   },
-  meinKompass_en: {
-    lebensthema: "You carry stillness within you — a quiet that can appear as distance from the outside, but for you is often the only way to think more clearly and stay safe. As the amplifier type among the Fives, you live the core strategy of the type most purely: you withdraw, observe, conserve energy. Your owl gaze remains calm and knowing even when you have already retreated far within. What appears from the outside as needlessness is often a carefully constructed protected space. Your inner path does not lead toward expending yourself more — but toward experiencing that aliveness does not exhaust but nourishes.",
-    grundstrategie: "The self-preservation Five secures itself through maximum withdrawal, self-sufficiency, and energy conservation — as the amplifier type, it shows the Five strategy in its purest form: retreat, distance, and protecting every inner reserve.",
-    staerken: [
-      "Deep calm and inner composure",
-      "Penetrating, knowing gaze",
-      "Clear, structured thinking",
-      "Economical energy management",
-      "Self-sufficiency and independence",
-      "Precise powers of observation",
-      "Deep reliability in the quiet",
-    ],
-    herausforderungen: [
-      "Withdrawal as a way of life that can easily become isolation",
-      "Closeness and aliveness appear as something that exhausts rather than nourishes",
-      "Inner experience often remains invisible to others",
-      "Energy appears so conserved that warmth and contact are difficult to establish",
-    ],
-    entwicklungspotenzial: [
-      "Showing yourself — and experiencing that energy flows through contact rather than being lost.",
-      "Combining inner stillness with vibrant participation.",
-      "Shifting from the observer position into genuine involvement.",
-    ],
-    wandlung: "From withdrawal comes contact. From conserving energy comes aliveness. From self-sufficiency comes genuine connection.",
-    gedankeFuerHeute: "I trust that aliveness does not exhaust me — it nourishes me.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SE5 zu dir passt." },

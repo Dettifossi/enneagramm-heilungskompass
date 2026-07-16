@@ -25,32 +25,6 @@ export const sx9 = {
     wandlung: "Aus Verschmelzung wird Begegnung. Aus Selbstverlust wird Selbstkontakt. Aus Anpassung wird klare, liebevolle Präsenz.",
     gedankeFuerHeute: "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
   },
-  meinKompass_en: {
-    lebensthema: "You long for fusion — to become fully one with a beloved person, a task, or life itself. As the amplifier type among the Nines, you live self-forgetting most deeply: you immerse yourself in the other, taking in their wishes, moods, and world so fully that your own contour blurs. Like the sloth, you lovingly cling to what you are connected with. Your devotion is a genuine gift — yet the trap is self-loss: through fusion you forget who you yourself are and what you want. Your inner path leads to allowing closeness without giving yourself up.",
-    grundstrategie: "The sexual Nine finds its peace in fusion with another — as the amplifier type, it lives inertia as self-forgetting: it merges into the connection and sacrifices its own clarity and contour in doing so.",
-    staerken: [
-      "Devoted and loving",
-      "Compassionate and empathetic",
-      "Peaceful and gentle",
-      "Deeply capable of connection",
-      "Accepting and warm-hearted",
-      "Fine sense for others",
-      "Capable of genuine closeness",
-    ],
-    herausforderungen: [
-      "Losing oneself in the other in order to feel connection",
-      "Avoiding inner tensions rather than feeling them",
-      "Own impulses, wishes, and limits blur",
-      "Energy appears sluggish, decisions are delayed",
-    ],
-    entwicklungspotenzial: [
-      "Remaining in vibrant contact with yourself and with others.",
-      "Taking your own place without merging into the other.",
-      "Calm becomes stable strength that enables genuine closeness.",
-    ],
-    wandlung: "From fusion comes genuine encounter. From self-loss comes self-contact. From adaptation comes clear, loving presence.",
-    gedankeFuerHeute: "When fusion does not lead to self-loss, love can truly become an encounter.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SX9 zu dir passt." },

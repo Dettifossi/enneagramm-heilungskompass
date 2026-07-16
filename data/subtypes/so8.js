@@ -25,32 +25,6 @@ export const so8 = {
     wandlung: "Aus Kontrolle wird Vertrauen. Aus Besitz wird echter Schutz. Aus Dominanz wird Führung, die trägt.",
     gedankeFuerHeute: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
   },
-  meinKompass_en: {
-    lebensthema: "You place yourself protectively in front of those who matter to you. As the countertype among the Eights, your strength is directed outward, in service of others: you take on responsibility, fight for justice, and stand loyally for your group. Like the lion, you protect your pride — this makes you the softer, more social Eight, whose aggression transforms into care and leadership. The trap is that protection can imperceptibly tip into control and possession, and your own vulnerability remains hidden behind the role of the strong one. Your inner path leads to leading without needing to possess.",
-    grundstrategie: "The social Eight places its strength in service of the community — as the countertype, it transforms aggression into protection, loyalty, and responsibility for others, but can thereby turn care into control and possession.",
-    staerken: [
-      "Strong leadership and sense of responsibility",
-      "Just and principled",
-      "Protective and loyal",
-      "Organized and assertive",
-      "Courageous in standing up for others",
-      "Generous and energetic",
-      "Authority that gives security",
-    ],
-    herausforderungen: [
-      "Protection and responsibility easily tip into control and possession",
-      "Relationships and situations are unconsciously managed",
-      "Own vulnerability remains hidden behind the strong role",
-      "Energy appears dominant and demanding, inner tension is slow to rest",
-    ],
-    entwicklungspotenzial: [
-      "Taking responsibility and leading without needing to control others.",
-      "Combining strength with compassion and inner openness.",
-      "Living authority from trust rather than from dominance.",
-    ],
-    wandlung: "From control comes trust. From possession comes genuine protection. From dominance comes leadership that carries.",
-    gedankeFuerHeute: "When protection does not become possession, strong, just, and trusting leadership arises.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 8 / SO8 zu dir passt." },

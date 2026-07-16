@@ -28,32 +28,6 @@ export const sx4 = {
     gedankeFuerHeute:
       "Deine Tiefe braucht keine Steigerung, um real zu sein. Was ist heute — genau jetzt — wirklich da?",
   },
-  meinKompass_en: {
-    lebensthema: "You love intensely — and you suffer intensely. This is not a weakness but the core of this subtype: feelings are not dampened or managed; they are lived — directly, immediately, visibly. You seek encounters that truly mean something, relationships that touch you and see your being completely. As the normal type of the Four, the dynamic structures itself particularly clearly here: longing, passion, and the sense of lack belong to your immediate experience. Your path does not lead to suppressing this intensity — but to no longer reading it as proof of your deficiency.",
-    grundstrategie: "The sexual Four secures emotional significance through intensity, passion, and immediate expression in personal contact. She seeks encounters that truly touch — and responds directly and strongly when disappointment, frustration, or envy arise. The core question is: "Am I truly seen — is there genuine depth in this encounter?"",
-    staerken: [
-      "Emotional intensity and passionate aliveness",
-      "Direct, authentic expressiveness",
-      "Fine perception of emotional quality and resonance",
-      "Deep, loyal bonding capacity",
-      "Creative originality and aesthetic sensitivity",
-      "Magnetic presence and touchability",
-      "Capacity for genuine, deep interpersonal connection",
-    ],
-    herausforderungen: [
-      "Easily slipping into drama, longing, and emotional escalation",
-      "Using intensity as a means to create connection or cover a sense of lack",
-      "Showing disappointment and hurt strongly and directly — which can strain relationships",
-      "Losing inner calm when resonance is absent or closeness is not fully reciprocated",
-    ],
-    entwicklungspotenzial: [
-      "Experiencing intense feelings without fueling them further or making them your identity.",
-      "Allowing deep closeness — without needing emotional escalation as an entry point.",
-      "Passion and inner peace can coexist.",
-    ],
-    wandlung: "From passion comes self-acceptance. From competition comes togetherness. From intensity comes inner peace. From desire comes dignity.",
-    gedankeFuerHeute: "Your depth needs no amplification to be real. What is here today — right now — truly?",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SX4 zu dir passt." },

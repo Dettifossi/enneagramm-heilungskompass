@@ -27,31 +27,6 @@ export const so2 = {
     gedankeFuerHeute:
       "Heute darfst du auch da sein, ohne nützlich zu sein. Dein Dasein allein hat Wert — unabhängig davon, wer dich gerade braucht.",
   },
-  meinKompass_en: {
-    lebensthema: "You move through social fields with a natural warmth and a fine sense of who needs what — and who belongs with whom. Connecting people, building networks, being needed and important: this gives you stability and meaning. Yet the price is often that you tie your own worth to the response of others. Your path does not lead away from social engagement — but toward a foundation that holds independent of recognition.",
-    grundstrategie: "The social Two secures belonging and significance through engagement, help, and building connections in the social space. She quickly recognizes who needs support and where she can be needed. As the amplifier type among the Twos, pride shows most clearly: she places her care visibly in service of the group and gains her place through influence and indispensability. The core question is: "Am I important enough — am I seen and needed?"",
-    staerken: [
-      "Natural sense for relationships and social dynamics",
-      "Warm, inviting presence — the "golden retriever gaze"",
-      "Ability to connect people and strengthen groups",
-      "Generous helpfulness and engagement",
-      "Loyal and reliable connectedness",
-      "Social competence and emotional warmth",
-    ],
-    herausforderungen: [
-      "Strongly tying one's own worth to social recognition and being needed",
-      "When recognition is absent, giving even more — rather than naming one's own needs",
-      "Difficulty saying no when engagement exceeds limits",
-      "Inner exhaustion from continually functioning for others",
-    ],
-    entwicklungspotenzial: [
-      "Being there for others without tying your own worth to it.",
-      "Shaping relationships from genuine mutuality, not only from giving.",
-      "Building inner stability that does not depend on social response.",
-    ],
-    wandlung: "From seeking significance comes self-worth. From social engagement comes genuine connection. From giving comes receiving. From adaptation comes authenticity.",
-    gedankeFuerHeute: "Today you are allowed to simply be present, without being useful. Your presence alone has value — regardless of who needs you right now.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SO2 zu dir passt." },

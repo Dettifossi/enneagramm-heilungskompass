@@ -28,32 +28,6 @@ export const sx3 = {
     gedankeFuerHeute:
       "Wahre Anziehung entsteht, wenn du aufhörst, anderen zu gefallen — und beginnst, du selbst zu sein.",
   },
-  meinKompass_en: {
-    lebensthema: "You radiate — and that is not a mask. Personal impact, charisma, and the ability to directly touch and fascinate people: these truly belong to you. Yet when this radiance becomes the condition for your own worth, an inner cycle arises: you perform to be seen — and in doing so lose what is essential. As the normal type, the Three dynamic structures itself particularly clearly in you: performance, radiance, and the desire for admiration flow seamlessly into one another. Your path does not lead to shining less — but to truly finding the source of this light within yourself.",
-    grundstrategie: "The sexual Three experiences worth and success in close connection with personal radiance and immediate resonance in direct contact. She adapts finely to what is desired and admired — and in doing so easily loses access to authentic experience. The core question is: "Do I make an impression on this person — am I desirable and special enough?"",
-    staerken: [
-      "Magnetic, vibrant presence",
-      "Natural ability to hold attention",
-      "Charming, stylish, and emotionally present",
-      "Fine perception of resonance and the reactions of others",
-      "Enthusiastic and creative",
-      "Passionate energy and dynamism",
-      "Capable of genuine, deep connection — when performance lets go",
-    ],
-    herausforderungen: [
-      "Tying worth to admiration and being desired in direct contact",
-      "Easily slipping into an idealized role instead of showing genuine authenticity",
-      "Compensating emotional tension through attractiveness and impact",
-      "Relationships lose authenticity when resonance is absent",
-    ],
-    entwicklungspotenzial: [
-      "Showing yourself openly and radiantly without having to maintain a role.",
-      "Staying in genuine contact with your inner self — even when no one admires.",
-      "Genuine radiance arises from truthfulness, not from performance.",
-    ],
-    wandlung: "From radiance comes authenticity. From attractiveness comes self-worth. From desire comes authenticity. From performance comes vibrant presence.",
-    gedankeFuerHeute: "True attraction arises when you stop trying to please others — and begin to be yourself.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SX3 zu dir passt." },

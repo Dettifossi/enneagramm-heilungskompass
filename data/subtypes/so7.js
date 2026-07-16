@@ -25,32 +25,6 @@ export const so7 = {
     wandlung: "Aus Idealismus wird gelebte Tiefe. Aus Aktivität wird Präsenz. Aus dem Dienst an der Vision wird echte Verbindung.",
     gedankeFuerHeute: "Ich muss nicht gut sein, um dazuzugehören — meine Freude darf ehrlich und nahbar sein.",
   },
-  meinKompass_en: {
-    lebensthema: "You burn for what could be — for visions, projects, and a better future that you create together with others. As the countertype among the Sevens, you consciously hold back your gluttony: instead of only enjoying, you place your enthusiasm in service of a larger goal, a group, a cause. Like the beaver you build tirelessly at what is shared. This appears noble and often is — yet beneath it the old flight movement can continue: in service of the vision, depth, pain, and limitation can be bypassed just as much as in pure enjoyment. Your inner path leads to not needing to be "good" in order to belong.",
-    grundstrategie: "The social Seven renounces immediate enjoyment in favor of an ideal — as the countertype, it places its enthusiasm in service of group, vision, and future, but can bypass depth and limitation behind idealism and activity.",
-    staerken: [
-      "Visionary and forward-looking",
-      "Sociable and connecting",
-      "Rich in ideas and inspiring",
-      "Committed to the common good",
-      "Enthusiastic and compelling",
-      "Cooperative and generous",
-      "Sense for the greater whole",
-    ],
-    herausforderungen: [
-      "Enthusiasm for ideals can become a subtler form of flight",
-      "Inner uncertainty is socially glossed over rather than integrated",
-      "Enjoyment is sacrificed without genuine depth arising",
-      "Energy appears restless, superficial, and permanently busy",
-    ],
-    entwicklungspotenzial: [
-      "Contributing inspiration without losing yourself in activity.",
-      "Remaining present and committed in contact.",
-      "Joy and belonging without the pressure of having to be "good".",
-    ],
-    wandlung: "From idealism comes lived depth. From activity comes presence. From service to the vision comes genuine connection.",
-    gedankeFuerHeute: "I do not need to be good to belong — my joy is allowed to be honest and approachable.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SO7 zu dir passt." },

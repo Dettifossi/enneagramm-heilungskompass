@@ -25,32 +25,6 @@ export const so5 = {
     wandlung: "Aus Verstehen wird Verbindung. Aus Beobachten wird Mitwirken. Aus Distanz wird lebendiger Austausch.",
     gedankeFuerHeute: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
   },
-  meinKompass_en: {
-    lebensthema: "You understand connections — and you love diving deep into systems, knowledge, and structures. As the normal type among the Fives, your withdrawal is often less complete than that of the self-preservation Five: you find connection to the world through what you know and understand. Your octopus gaze captures many fields simultaneously — knowledge becomes a bridge for you, an entry ticket, a way of belonging. What is sometimes missing: direct, spontaneous contact — sharing what you already know without having to fully penetrate it first. Your inner path leads from clever distance toward genuine participation.",
-    grundstrategie: "The social Five gains security through intellectual understanding, systems competence, and an overview of the big picture — as the normal type, it finds access to the social world through knowledge and clarity, but often keeps feelings and direct closeness at a distance.",
-    staerken: [
-      "Far-sighted, networked perspective",
-      "Systemic thinking and overview",
-      "Deep listening and calm presence",
-      "Clear, well-considered communication",
-      "Analytical sharpness",
-      "Structured approach",
-      "Reliable depth in topics and projects",
-    ],
-    herausforderungen: [
-      "Using knowledge and observation as a substitute for genuine participation",
-      "Protecting oneself behind intellectual distance or systemic overview",
-      "Emotional presence and human accessibility are difficult",
-      "Connection forms in the mind but not always in genuine contact",
-    ],
-    entwicklungspotenzial: [
-      "Sharing knowledge — and remaining in genuine connection while doing so.",
-      "Participating before everything is fully understood.",
-      "Wisdom arises from lived participation in life.",
-    ],
-    wandlung: "From understanding comes connection. From observing comes contributing. From distance comes vibrant exchange.",
-    gedankeFuerHeute: "I share my knowledge in connection and thereby strengthen the whole.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SO5 zu dir passt." },

@@ -27,31 +27,6 @@ export const sx2 = {
     gedankeFuerHeute:
       "Du musst heute nichts tun, um geliebt zu werden. Dein Dasein — so wie du bist — ist genug.",
   },
-  meinKompass_en: {
-    lebensthema: "You love deeply and intensely — and you want to be irreplaceable for the people who matter to you. The ability to create a special connection, to touch people and make them feel seen: this is a genuine strength. But when closeness has to be secured through devotion, exhaustion arises instead of togetherness. Your path leads you to the discovery that true love does not need to be earned — it is allowed to simply exist.",
-    grundstrategie: "The sexual Two secures emotional significance through intense personal bonding, attraction, and devotion. She invests deeply in certain relationships and expects deep resonance and uniqueness in return. As the normal type among the Twos, this devotion is directed entirely toward individual people: she woos, enchants, and makes herself indispensable in order to win a special, exclusive connection. The core question is: "Am I truly indispensable and special to this person?"",
-    staerken: [
-      "Magnetic, vibrant presence",
-      "Ability to form deep emotional connections",
-      "Strong bonding capacity and exclusive loyalty",
-      "Deep emotional intelligence and sensitivity",
-      "Passionate presence and devotion",
-      "Senses the finest shifts in relationship energy",
-    ],
-    herausforderungen: [
-      "Tying one's own worth to being desired and indispensable",
-      "Relationships can come under pressure from high intensity and expectation",
-      "Easily losing inner center when resonance is absent",
-      "Wanting to create closeness through seduction or emotional fusion",
-    ],
-    entwicklungspotenzial: [
-      "Being deeply connected without losing yourself in the process.",
-      "Not needing to be indispensable in order to be loved.",
-      "Genuine closeness arises through authenticity — not through intensity or giving.",
-    ],
-    wandlung: "From seduction comes authenticity. From desire comes self-worth. From fusion comes genuine connection. From giving comes receiving.",
-    gedankeFuerHeute: "You do not need to do anything today to be loved. Your presence — just as you are — is enough.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SX2 zu dir passt." },

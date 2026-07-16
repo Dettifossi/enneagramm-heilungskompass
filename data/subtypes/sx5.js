@@ -25,32 +25,6 @@ export const sx5 = {
     wandlung: "Aus Sehnsucht wird Wirklichkeit. Aus Idealisierung wird Begegnung. Aus Scheu wird gelebte Nähe.",
     gedankeFuerHeute: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
   },
-  meinKompass_en: {
-    lebensthema: "You long for depth — for the one person to whom you can truly show yourself. As the countertype among the Fives, you appear surprisingly intense and personal when you trust. From the outside this is hardly predictable: the hedgehog carries its protection outward — but when someone gets close enough, it opens with a warmth that surprises. Your relational ideal is depth: knowledge and trust, insight and closeness, all in one special connection. What remains difficult: sustaining this openness without fleeing back into withdrawal or control. Your inner path leads from shy longing toward lived connection.",
-    grundstrategie: "The sexual Five secures itself through selective, deep bonding with a few special people — as the countertype, it appears more intense and personal than the other Five subtypes, yet protects its inner world just as carefully: closeness arises slowly, in trust and depth.",
-    staerken: [
-      "Fine perception and emotional depth",
-      "Deep bonding capacity with a few",
-      "Intellectual intensity and personal warmth",
-      "Honest, substantive conversation",
-      "Loyalty and reliability in close relationships",
-      "Intuitive wisdom",
-      "Quiet, attentive strength",
-    ],
-    herausforderungen: [
-      "Deep longing for connection alongside simultaneous protection of the inner world",
-      "Open closeness triggers fear of dissolution or exhaustion",
-      "Relationships are easily idealized and kept at a distance",
-      "Alternating between intense longing and withdrawal consumes much energy",
-    ],
-    entwicklungspotenzial: [
-      "Opening yourself — and experiencing that you do not lose yourself in doing so.",
-      "Allowing genuine closeness before everything feels safe enough.",
-      "From shy longing comes lived, vibrant connection.",
-    ],
-    wandlung: "From longing comes reality. From idealization comes genuine encounter. From shyness comes lived closeness.",
-    gedankeFuerHeute: "I am allowed to show myself and connect — without losing myself.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SX5 zu dir passt." },

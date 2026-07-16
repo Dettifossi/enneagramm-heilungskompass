@@ -28,32 +28,6 @@ export const sx1 = {
     gedankeFuerHeute:
       "Dein Feuer braucht keine Kontrolle — es braucht Richtung. Was wäre, wenn du heute eine Situation einfach lässt, wie sie ist?",
   },
-  meinKompass_en: {
-    lebensthema: "Your life is moved by an inner flame — the desire for genuine encounter, personal integrity, and depth. You do not just want to live correctly; you want to transform: yourself and the people who are close to you. This intensity is a strength — and a challenge. When the inner fire becomes a struggle rather than a connection, tension arises. Your path leads you from inner tension toward conscious devotion.",
-    grundstrategie: "The sexual One seeks peace through intensity, perfection, and depth in personal encounters. Relationships become the field in which inner ideals are lived — or enforced. The core question is often: "Does this encounter, this person, this conversation match what I truly desire?"",
-    staerken: [
-      "Passionate depth and inner clarity",
-      "Inspiring effect on others",
-      "Uncompromising integrity",
-      "Courage for confrontation and truth",
-      "High sensitivity to incongruence",
-      "Transformative power in relationships",
-      "Strong inner drive and perseverance",
-    ],
-    herausforderungen: [
-      "Relationships come under pressure from high inner standards",
-      "Easily sliding into dissatisfaction with oneself or others",
-      "Emotional intensity comes across as combative rather than connecting",
-      "Inner peace slips away because reality never matches the ideal",
-    ],
-    entwicklungspotenzial: [
-      "Leading passion consciously, without turning it into control or pressure.",
-      "Allowing imperfection in yourself and others.",
-      "Discovering love rather than demand as the foundation of connection.",
-    ],
-    wandlung: "From struggle comes devotion. From demand comes love. From control comes trust. From intensity comes depth.",
-    gedankeFuerHeute: "Your fire does not need control — it needs direction. What would happen if you simply let a situation be today, as it is?",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SX1 zu dir passt." },

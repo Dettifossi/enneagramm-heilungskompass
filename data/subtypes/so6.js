@@ -25,32 +25,6 @@ export const so6 = {
     wandlung: "Aus Regeln wird innere Orientierung. Aus Pflicht wird Eigenständigkeit. Aus Anpassung wird eine klare, eigene Position.",
     gedankeFuerHeute: "Mein Gewissen ist meine Autorität — ich vertraue meiner eigenen inneren Stimme.",
   },
-  meinKompass_en: {
-    lebensthema: "You seek security in clarity — in rules, in duty, in the certainty of doing what is right and of belonging. As the normal type among the Sixes, you find stability in orienting yourself to something larger: a group, a system, a task, an idea that you can serve. Like the meerkat, you stand watch for the community — conscientious, loyal, and reliable. Your anxiety does not show openly but as a subtle need for clarity about what applies and whom one can trust. What is sometimes lost beneath this is your own inner authority. Your inner path leads to not surrendering your own voice to rules or groups.",
-    grundstrategie: "The social Six gains security through belonging, duty, and clear orientation — as the normal type, it ties its stability to rules, systems, and trust in a community, but can easily relinquish its own inner authority in doing so.",
-    staerken: [
-      "Conscientious and dutiful",
-      "Loyal and reliable in teams",
-      "Strategic, forward-thinking",
-      "Clear, considered communication",
-      "Sense of justice and fairness",
-      "Cooperative and community-building",
-      "Dependable and committed",
-    ],
-    herausforderungen: [
-      "Strong orientation to rules, duty, and belonging",
-      "Inner anxiety is regulated through adaptation and securing rather than soothed",
-      "One's own inner authority is handed over to the outside",
-      "Energy appears cautious, controlled, and internally tense",
-    ],
-    entwicklungspotenzial: [
-      "Orienting yourself to community without losing your own voice.",
-      "Trusting your own inner orientation and personal standpoint.",
-      "Living belonging from self-confidence rather than from adaptation.",
-    ],
-    wandlung: "From rules comes inner orientation. From duty comes independence. From adaptation comes a clear, personal position.",
-    gedankeFuerHeute: "My conscience is my authority — I trust my own inner voice.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SO6 zu dir passt." },

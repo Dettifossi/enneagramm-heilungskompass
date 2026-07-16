@@ -25,32 +25,6 @@ export const sx8 = {
     wandlung: "Aus Kampf wird Begegnung. Aus Besitz wird freie Verbindung. Aus Eroberung wird Herzensnähe.",
     gedankeFuerHeute: "Wenn ich Intensität nicht mit Kampf verwechsle, entsteht Nähe ohne Machtprobe.",
   },
-  meinKompass_en: {
-    lebensthema: "You want life whole — intense, real, without half measures. As the amplifier type among the Eights, you live strength most passionately: you rebel against conventions, draw toward you what you desire, and give yourself entirely to the moment. Like the crocodile, you are fascinated by intensity and power — you want to possess, challenge, feel what is real. Your magnetic presence draws others into your orbit. The trap: closeness can become a power play, and intensity is easily confused with struggle. Your inner path does not lead toward becoming tamer — but toward experiencing that genuine closeness without conquest runs deeper.",
-    grundstrategie: "The sexual Eight seeks aliveness in intensity, rebellion, and passionate devotion — as the amplifier type, it lives strength most visibly: possessive, challenging, magnetic, in search of what is fully real.",
-    staerken: [
-      "Magnetic and compelling",
-      "Passionate and hungry for life",
-      "Courageously and uncompromisingly real",
-      "Sovereign and present",
-      "Loyal and protective in closeness",
-      "Capable of deep, intense bonding",
-      "Strength that sets others in motion",
-    ],
-    herausforderungen: [
-      "Intensity is easily confused with struggle and confrontation",
-      "Closeness becomes a power play; limits are crossed",
-      "Wanting to possess rather than allowing free connection",
-      "Energy appears overwhelming, impulsive, and difficult to regulate",
-    ],
-    entwicklungspotenzial: [
-      "Meeting powerfully without needing to create pressure or dominance.",
-      "Remaining open to closeness, trust, and emotional honesty.",
-      "Experiencing that closeness without conquest runs deeper.",
-    ],
-    wandlung: "From struggle comes encounter. From possession comes free connection. From conquest comes heart closeness.",
-    gedankeFuerHeute: "When I do not confuse intensity with struggle, closeness arises without a power play.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 8 / SX8 zu dir passt." },

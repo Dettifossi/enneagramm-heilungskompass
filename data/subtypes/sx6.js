@@ -25,32 +25,6 @@ export const sx6 = {
     wandlung: "Aus Gegenangriff wird Vertrauen. Aus Härte wird Herzenskontakt. Aus Kampf wird innerer Frieden.",
     gedankeFuerHeute: "Echte Stärke entsteht aus Vertrauen — ich muss nicht kämpfen, um sicher zu sein.",
   },
-  meinKompass_en: {
-    lebensthema: "Where others retreat in the face of fear, you step forward. As the countertype among the Sixes, you meet fear not with caution but with strength — you seek the challenge in order to prove to yourself that you are not anxious. Your wolf gaze is intense, testing, and ready for combat; you sense threat early and face it. In relationships you seek intensity, faithfulness, and absolute reliability — and you test them at the same time. What lies beneath the courage is the same fear as in all Sixes, only turned outward. Your inner path does not lead toward becoming harder — but toward experiencing that genuine strength arises from trust, not from struggle.",
-    grundstrategie: "The sexual Six overcomes fear through courage, strength, and intense bonding — as the counterphobic countertype, it turns toward the threat combatively instead of avoiding it, and conceals inner insecurity behind resolve and force.",
-    staerken: [
-      "Courageous and resolute",
-      "Intensely vigilant and sharp-minded",
-      "Protective and loyal to the utmost",
-      "Passionate and assertive",
-      "Strategic intelligence under pressure",
-      "Endurance and fighting spirit",
-      "Powerful and present",
-    ],
-    herausforderungen: [
-      "Countering fear by showing strength and resistance",
-      "Easily losing access to one's own vulnerability",
-      "Closeness is tested through combat and confrontation",
-      "Energy appears combative, impulsive, and permanently charged",
-    ],
-    entwicklungspotenzial: [
-      "Using strength without constantly having to fight or prove yourself.",
-      "Perceiving fear without needing to combat it.",
-      "Remaining open to trust and genuine vulnerability.",
-    ],
-    wandlung: "From counterattack comes trust. From hardness comes heart contact. From struggle comes inner peace.",
-    gedankeFuerHeute: "Genuine strength arises from trust — I do not need to fight to be safe.",
-  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SX6 zu dir passt." },
