@@ -2882,7 +2882,7 @@ function zitatePage() {
   if (!window._doCopy) {
     window._doCopy = function(btn, i) {
       const z = window._zShare[i];
-      const t = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
+      const t = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/';
       navigator.clipboard.writeText(t).then(function() {
         const orig = btn.innerHTML; btn.innerHTML = '✓ Kopiert!'; btn.style.background='#e8f5e9';
         setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
