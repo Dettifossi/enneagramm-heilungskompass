@@ -34455,7 +34455,7 @@ function _stilleInit() {
   let klangStop = null;
   const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma","brandung","hagel","kornfeld","kathedrale","regenamfenster","froesche","herbstlaub","vinyl"]);
   function klangCdnUrl(id) {
-    const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder","brandung"];
+    const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder","brandung","froesche"];
     const ver = v2.includes(id) ? "?v=3" : "";
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3" + ver;
   }
