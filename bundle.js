@@ -34079,7 +34079,7 @@ function stillePage() {
         <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
           ${(()=>{
   const G = (label) => ({type:"group", label});
-  const S = (id,icon,lbl) => ({id,icon,label:lbl});
+  const S = (id,icon,lbl,isNew) => ({id,icon,label:lbl,isNew});
   const items = [
     G("Stille & Rauschen"),
     S("stille","🤫","Stille"),
@@ -34117,11 +34117,11 @@ function stillePage() {
     S("tibet","🏔️","Tibet"),
     S("wiese","🦗","Sommerwiese"),
     G("Alltag & Innen"),
-    S("bibliothek","📚","Bibliothek"),
-    S("cafe","☕","Café"),
-    S("kinder","👧","Kinderstimmen"),
-    S("schreibmaschine","⌨️","Schreibmaschin."),
-    S("standuhr","🕰️","Standuhr"),
+    S("bibliothek","📚","Bibliothek",true),
+    S("cafe","☕","Café",true),
+    S("kinder","👧","Kinderstimmen",true),
+    S("schreibmaschine","⌨️","Schreibmaschin.",true),
+    S("standuhr","🕰️","Standuhr",true),
     S("zug","🚂","Zug"),
     G("Tiere"),
     S("bienen","🐝","Bienen"),
@@ -34136,25 +34136,26 @@ function stillePage() {
     S("wolf","🐺","Wölfe"),
     S("zikaden","🦇","Zikaden-Nacht"),
     G("Meditation & Töne"),
-    S("alpha","🧠","Alpha (8–12 Hz)"),
+    S("alpha","🧠","Alpha (8–12 Hz)",true),
     S("chimes","🎐","Windspiele"),
-    S("delta","🌙","Delta (0,5–4 Hz)"),
-    S("gamma","✨","Gamma (>30 Hz)"),
+    S("delta","🌙","Delta (0,5–4 Hz)",true),
+    S("gamma","✨","Gamma (>30 Hz)",true),
     S("herzschlag","❤️","Herzschlag"),
     S("hz432","🎵","432 Hz"),
     S("klangschale","🔔","Klangschale"),
     S("kosmos","🌌","Kosmisch"),
     S("om","🧘","Om-Mantra"),
     S("schumann","🌀","Schumann"),
-    S("theta","🌊","Theta (4–8 Hz)"),
+    S("theta","🌊","Theta (4–8 Hz)",true),
     S("trommel","🥁","Trommel"),
   ];
   return items.map(s => {
     if (s.type === "group") {
-      return `<div style="width:100%;padding:.5rem 0 .2rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;border-bottom:1px solid var(--border);margin-bottom:.2rem;">${s.label}</div>`;
+      return `<div style="grid-column:1/-1;padding:.5rem 0 .2rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;border-bottom:1px solid var(--border);margin-bottom:.2rem;">${s.label}</div>`;
     }
     return `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
-            style="display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
+            style="position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
+            ${s.isNew?'<span style="position:absolute;top:-4px;right:-4px;font-size:.55rem;font-weight:700;color:#fff;background:var(--copper);border-radius:4px;padding:1px 4px;line-height:1.4;letter-spacing:.04em;">NEU</span>':''}
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
           </button>`;
   }).join("");
