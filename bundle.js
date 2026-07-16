@@ -35828,6 +35828,32 @@ function _stilleInit() {
   });
 
   // Klang-Matrix: Typ × Instinkt → 3 Klang-Empfehlungen
+  const KLANG_LABELS = {
+    "stille":"Stille","white":"White Noise","pink":"Pink Noise","brown":"Brown Noise",
+    "bach":"Bach","gewaesser":"Gewässer","meer":"Meer","nachtmeer":"Meer nachts",
+    "regen":"Regen","sommerregen":"Sommerregen","wasserfall":"Wasserfall",
+    "tropfen":"Tropfsteinhöhle","unterwasser":"Unterwasser",
+    "dschungelregen":"Dschungelregen","regenwald":"Regenwald","mangroven":"Mangroven",
+    "blizzard":"Blizzard","feuer":"Feuer","gewitter":"Gewitter","hoehle":"Höhle",
+    "nordlichter":"Nordlichter","polareis":"Polareis","wald":"Wald","wind":"Wind",
+    "brandung":"Brandung","hagel":"Hagel","herbstlaub":"Herbstlaub",
+    "wuestensturm":"Wüstensturm",
+    "aquarium":"Aquarium","japanischer-garten":"Japanischer Garten",
+    "morgenkonzert":"Morgenkonzert","savanne":"Savanne","kathedrale":"Kathedrale",
+    "kornfeld":"Kornfeld","tibet":"Tibet","wiese":"Sommerwiese",
+    "bibliothek":"Bibliothek","cafe":"Café","kinder":"Kinderstimmen",
+    "schreibmaschine":"Schreibmaschine","standuhr":"Standuhr",
+    "regenamfenster":"Regen am Fenster","vinyl":"Vinyl","zug":"Zug",
+    "bienen":"Bienen","delfin":"Delfine","elefanten":"Elefanten","eule":"Eule",
+    "katze":"Katze","kuckuck":"Kuckuck","seehund":"Seehundbabys",
+    "voegel":"Vogelstimmen","wal":"Walgesang","wolf":"Wölfe",
+    "froesche":"Frösche","zikaden":"Zikaden-Nacht",
+    "alpha":"Alpha (8–12 Hz)","chimes":"Windspiele",
+    "delta":"Delta (0,5–4 Hz)","gamma":"Gamma (>30 Hz)",
+    "herzschlag":"Herzschlag","hz432":"432 Hz","klangschale":"Klangschale",
+    "kosmos":"Kosmisch","om":"Om-Mantra","schumann":"Schumann",
+    "theta":"Theta (4–8 Hz)","trommel":"Trommel"
+  };
   const KLANG_MATRIX = {
     "1-SE": [
       {id:"stille",      icon:"🤫", desc:"Absolute Stille — Raum für innere Ordnung und Sammlung."},
@@ -36000,7 +36026,7 @@ function _stilleInit() {
           onmouseleave="this.style.background='transparent'"
         >${s.icon}</button>
         <div style="flex:1;min-width:0;">
-          <p style="margin:0 0 .2rem;font-size:.8rem;font-weight:600;color:var(--copper);">${s.id.charAt(0).toUpperCase()+s.id.slice(1).replace(/-/g,' ')}</p>
+          <p style="margin:0 0 .2rem;font-size:.8rem;font-weight:600;color:var(--copper);">${(KLANG_LABELS[s.id]||s.id.charAt(0).toUpperCase()+s.id.slice(1).replace(/-/g,' '))}</p>
           <p style="margin:0;font-size:.78rem;color:var(--ink-muted);line-height:1.45;">${s.desc}</p>
         </div>
       </div>
