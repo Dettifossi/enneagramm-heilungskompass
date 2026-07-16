@@ -533,6 +533,37 @@ text.subtypePage.gedankeFuerHeute = "Thought for Today";
 text.subtypePage.meinKompassTitle = "My Compass";
 text.subtypePage.vertiefung = "Deepen Your Knowledge";
 text.subtypePage.raeumeTitle = "The Six Development Rooms";
+text.subtypePage.back = "← Back to Knowledge";
+
+// knowledgeCard labels
+text.knowledgeCard.animalPrefix = "Animal Archetype:";
+text.knowledgeCard.organismQuestion = "Core Organism Question";
+text.knowledgeCard.subtypeQuestion = "Subtype Variant";
+text.knowledgeCard.coreSentence = "Core Sentence";
+text.knowledgeCard.lifeTheme = "Life Theme";
+text.knowledgeCard.practice = "Practice";
+text.knowledgeCard.remedies = "Supportive Remedies";
+text.knowledgeCard.heilmittel.title = "Remedy Compass";
+text.knowledgeCard.heilmittel.leidenschaftTitle = "Passion Level";
+text.knowledgeCard.heilmittel.wundeTitle = "Wound Level";
+text.knowledgeCard.heilmittel.homoeopathie = "Homeopathy";
+text.knowledgeCard.heilmittel.schuessler = "Schuessler Salt";
+text.knowledgeCard.heilmittel.bachbluete = "Bach Flower";
+text.knowledgeCard.heilmittel.edelstein = "Gemstone";
+text.knowledgeCard.heilmittel.tee = "Herbal Tea";
+text.knowledgeCard.heilmittel.aetherischesOel = "Essential Oil (Wound Level)";
+text.knowledgeCard.heilmittel.pending = "— to be added —";
+text.knowledgeCard.heilmittel.note = "For use only in consultation with a therapist.";
+text.knowledgeCard.heilmittel.individualNote = "These assignments apply to the core type. In individual cases, wing, stress and relaxation directions may call for additional remedies — requiring experienced therapeutic guidance.";
+text.knowledgeCard.woundBehindPassion.title = "The Wound Behind the Passion";
+text.knowledgeCard.woundBehindPassion.passion = "Passion";
+text.knowledgeCard.woundBehindPassion.belief = "Underlying Belief";
+text.knowledgeCard.woundBehindPassion.wound = "Deeper Wound";
+text.knowledgeCard.woundBehindPassion.compensation = "Compensation";
+text.knowledgeCard.woundBehindPassion.sufferingCycle = "Cycle of Suffering";
+text.knowledgeCard.woundBehindPassion.healingDirection = "Direction of Healing";
+text.knowledgeCard.woundBehindPassion.remedy = "Remedy";
+text.knowledgeCard.woundBehindPassion.pending = "— to be added from appendices —";
 text.subtypePage.rooms = {
   verstehen: "Understand",
   spueren: "Feel",
@@ -3475,7 +3506,7 @@ function subtypePage(code) {
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">
-      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `Die vollständige Einzelstudie zu ${entry.code} &ndash; ${entry.title}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${entry.code}: ${entry.title}`)}
+      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `The complete individual study on ${enCode(entry.code)} &ndash; ${entry.title}. Approx. 70 pages of in-depth psychological analysis.`, `Individual Study ${enCode(entry.code)}: ${entry.title}`)}
     </section>
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
@@ -3621,7 +3652,7 @@ function impulseBlock(impulse, color) {
   return `
     <div class="typ-impuls" style="border-left-color:${color || "var(--accent)"}">
       ${paragraphs}
-      <p class="typ-impuls__impuls"><em>Impuls für heute: ${impulse.impuls}</em></p>
+      <p class="typ-impuls__impuls"><em>Impulse for today: ${impulse.impuls}</em></p>
       <p class="typ-impuls__autor">— Detlef Rathmer</p>
     </div>
   `;
