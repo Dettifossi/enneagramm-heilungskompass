@@ -529,6 +529,30 @@ text.subtypePage.wandlung = "Transformation";
 text.subtypePage.gedankeFuerHeute = "Thought for Today";
 text.subtypePage.meinKompassTitle = "My Compass";
 text.subtypePage.vertiefung = "Deepen Your Knowledge";
+text.subtypePage.raeumeTitle = "The Six Development Rooms";
+text.subtypePage.rooms = {
+  verstehen: "Understand",
+  spueren: "Feel",
+  regulieren: "Regulate",
+  unterstuetzen: "Support",
+  verkoerpern: "Embody",
+  vertiefen: "Deepen",
+};
+text.subtypePage.meinKompassLabel = "My Compass";
+text.subtypePage.organismQuestion = "Core Question";
+text.subtypePage.coreSentence = "Core Sentence";
+text.subtypePage.lifeTheme = "Life Theme";
+text.subtypePage.resourceField = "Resource Field";
+text.subtypePage.integrationSentence = "Integration Guideline";
+text.subtypePage.integrationPath = "Path of Integration";
+text.subtypePage.integratedState = "Integrated State";
+text.subtypePage.unconsciousStrategy = "Unconscious Strategy";
+text.subtypePage.turningPoint = "Turning Point";
+text.subtypePage.tensionFields = "Tension Fields";
+text.subtypePage.nervousSystemRegulation = "Nervous System Regulation";
+text.subtypePage.archetypalEssence = "Archetypal Essence";
+text.subtypePage.integrativePotential = "Integrative Potential";
+text.subtypePage.essenceQualities = "Embodied Qualities";
 
 document.title = text.meta.appTitle;
 
@@ -3430,7 +3454,7 @@ function subtypePage(code) {
     ${(details.meinKompass_en || details.meinKompass) ? meinKompassSection(details.meinKompass_en || details.meinKompass, sp) : ""}
     ${(function(){ const dn = parseInt(code.match(/\d+/)[0]); const dv = DYNAMIK_VIDEOS[dn]; return dv ? `
     <section class="narrow" style="padding-top:0;padding-bottom:0;">
-      <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">Die Dynamik des Typs ${dn}</h3>
+      <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">The Dynamics of Type ${dn} <span style="font-size:.78rem;font-weight:400;opacity:.72;">(German · turn on CC for English subtitles)</span></h3>
       <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
         <iframe width="100%" height="100%" style="border:none;display:block;"
           src="https://www.youtube.com/embed/${dv}?rel=0"
@@ -3453,8 +3477,8 @@ function subtypePage(code) {
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
       <details class="subtype-note-wrap">
-        <summary class="subtype-note-toggle">📝 Meine Notiz zu ${entry.code}</summary>
-        <textarea class="subtype-note-area" data-note-key="note-${code}" oninput="localStorage.setItem(this.dataset.noteKey,this.value)" placeholder="Persönliche Beobachtungen, Klientenbeispiele, Gedanken …"></textarea>
+        <summary class="subtype-note-toggle">📝 My Notes on ${entry.code}</summary>
+        <textarea class="subtype-note-area" data-note-key="note-${code}" oninput="localStorage.setItem(this.dataset.noteKey,this.value)" placeholder="Personal observations, client examples, thoughts …"></textarea>
       </details>
     </section>
     ${beratungsCTA()}
