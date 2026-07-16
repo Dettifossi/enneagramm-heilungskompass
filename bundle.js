@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-16-oele-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-16-oele-v2";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -28594,7 +28594,7 @@ function walartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Walarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
       <p class="psycho-intro">Wale sind die gr\u00f6\u00dften und r\u00e4tselhaftesten Lebewesen der Erde \u2013 sie tauchen tiefer als wir messen konnten, singen Lieder, die tausende Kilometer weit reichen, und leben in Gemeinschaften, die uns an menschliche Kulturen erinnern. Neun Walarten, neun Enneagrammprinzipien.</p>
-      <img src="${CDN}assets/walarten-der-9-typen.jpg" alt="Walarten der 9 Typen \u2013 Schaubild"
+      <img src="./assets/walarten-der-9-typen.jpg" alt="Walarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
