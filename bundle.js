@@ -2902,16 +2902,34 @@ function zitatePage() {
     };
     window._doShare = function(btn, i) {
       const z = window._zShare[i];
-      const text = '„' + z.q + '" — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
-      const url = 'https://kompass.verlagshausrathmer.com/';
-      if (navigator.share) {
-        navigator.share({ text: text, url: url }).catch(function(){});
-      } else {
-        navigator.clipboard.writeText(text + '\n' + url).then(function() {
-          var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
-          setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
-        }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+      const shareText = '„' + z.q + '" — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass';
+      const shareUrl = 'https://kompass.verlagshausrathmer.com/';
+
+      function textOnly() {
+        if (navigator.share) {
+          navigator.share({ text: shareText, url: shareUrl }).catch(function(){});
+        } else {
+          navigator.clipboard.writeText(shareText + '\n' + shareUrl).then(function() {
+            var orig = btn.innerHTML; btn.innerHTML = '\u2713 Kopiert!'; btn.style.background='#e8f5e9';
+            setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
+          }).catch(function(){ btn.textContent='\u274c'; setTimeout(function(){ btn.textContent='Teilen'; },2000); });
+        }
       }
+
+      if (!navigator.share) { textOnly(); return; }
+
+      // Kompass-Logo als Datei laden und mitteilen
+      fetch('./apple-touch-icon.png')
+        .then(function(r){ return r.blob(); })
+        .then(function(blob) {
+          var file = new File([blob], 'kompass.png', { type: 'image/png' });
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            navigator.share({ files: [file], text: shareText }).catch(function(){ textOnly(); });
+          } else {
+            textOnly();
+          }
+        })
+        .catch(function(){ textOnly(); });
     };
   }
   const cards = data.map((z, i) => {
