@@ -34108,12 +34108,17 @@ function stillePage() {
     S("polareis","🧊","Polareis"),
     S("wald","🌲","Wald"),
     S("wind","💨","Wind"),
+    S("brandung","🌊","Brandung",true),
+    S("hagel","🧊","Hagel",true),
+    S("herbstlaub","🍂","Herbstlaub",true),
     S("wuestensturm","🏜️","Wüstensturm"),
     G("Orte & Atmosphäre"),
     S("aquarium","🐠","Aquarium"),
     S("japanischer-garten","🎋","Japan. Garten"),
     S("morgenkonzert","🌅","Morgenkonzert"),
     S("savanne","🦋","Savanne"),
+    S("kathedrale","🕍","Kathedrale",true),
+    S("kornfeld","🌾","Kornfeld",true),
     S("tibet","🏔️","Tibet"),
     S("wiese","🦗","Sommerwiese"),
     G("Alltag & Innen"),
@@ -34122,6 +34127,8 @@ function stillePage() {
     S("kinder","👧","Kinderstimmen",true),
     S("schreibmaschine","⌨️","Schreibmaschin.",true),
     S("standuhr","🕰️","Standuhr",true),
+    S("regenamfenster","🪟","Regen am Fenster",true),
+    S("vinyl","🎵","Vinyl",true),
     S("zug","🚂","Zug"),
     G("Tiere"),
     S("bienen","🐝","Bienen"),
@@ -34134,6 +34141,7 @@ function stillePage() {
     S("voegel","🐦","Vogelstimmen"),
     S("wal","🐋","Walgesang"),
     S("wolf","🐺","Wölfe"),
+    S("froesche","🐸","Frösche",true),
     S("zikaden","🦇","Zikaden-Nacht"),
     G("Meditation & Töne"),
     S("alpha","🧠","Alpha (8–12 Hz)",true),
@@ -34445,7 +34453,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma","brandung","hagel","kornfeld","kathedrale","regenamfenster","froesche","herbstlaub","vinyl"]);
   function klangCdnUrl(id) {
     const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder"];
     const ver = v2.includes(id) ? "?v=3" : "";
@@ -35727,6 +35735,14 @@ function _stilleInit() {
     theta: "Theta-Wellen (4–8 Hz) — traumhafte Schwingungen, tiefe Kreativität und Innenschau. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
     delta: "Delta-Wellen (0,5–4 Hz) — die langsamsten Hirnwellen, tiefer traumloser Schlaf und Samadhi. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
     gamma: "Gamma-Wellen (>30 Hz) — kosmische Wachheit, Mitgefühl, Verbindung aller Gehirnareale. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
+    brandung: "Wellen brechen an Felsenküste — kraftvoll, ursprünglich, reinigend.",
+    hagel: "Hagelschauer auf einem Dach — intensiver Naturrhythmus, wachmachend.",
+    herbstlaub: "Blätter rascheln im Herbstwind — melancholisch, sanft, vergänglich.",
+    kathedrale: "Kirchenraum mit langem Hall — sakrale Stille, die trägt.",
+    kornfeld: "Sommerfeld im Wind — weite Natur, Freiheit, Stille.",
+    regenamfenster: "Regen von innen gehört — geborgen, meditativ, sicher.",
+    froesche: "Froschkonzert am Teich — lebendige Nacht, Urkraft des Lebens.",
+    vinyl: "Knisterndes Vinyl — warme Nostalgie, sanftes Rauschen.",
     cafe: "Lebendiges Café-Gemurmel — belebt den Geist, fördert kreatives Denken.",
     standuhr: "Das gleichmäßige Ticken einer alten Standuhr — gibt Struktur und Beständigkeit.",
     bibliothek: "Stille Bibliothek mit leisen Geräuschen — Raum für Konzentration und Wissen.",
