@@ -38,7 +38,7 @@ body {
     linear-gradient(90deg, rgba(36, 57, 72, 0.04) 1px, transparent 1px),
     linear-gradient(0deg, rgba(36, 57, 72, 0.035) 1px, transparent 1px),
     radial-gradient(ellipse at 50% 0%, rgba(216, 231, 231, 0.9), transparent 34rem),
-    linear-gradient(140deg, #edf3ec 0%, #fffaf0 46%, #dbe7e0 100%);
+    linear-gradient(180deg, #edf3ec 0%, #fffaf0 46%, #dbe7e0 100%);
   background-size: 34px 34px, 34px 34px, auto, auto;
   animation: bgDrift 45s ease-in-out infinite;
 }
