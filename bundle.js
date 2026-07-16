@@ -1370,7 +1370,13 @@ function _bewertungSenden() {
     '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
     '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
     '</div>';
-  const nameVal = (document.getElementById('bwrt-name').value.trim()) || '';
+  const nameRaw = (document.getElementById('bwrt-name').value.trim()) || '';
+  const nameVal = (function(n) {
+    if (!n) return '';
+    var parts = n.split(/\s+/);
+    if (parts.length === 1) return parts[0];
+    return parts[0] + ' ' + parts[parts.length - 1][0].toUpperCase() + '.';
+  })(nameRaw);
   const review = { sterne: sterne, text: text, datum: new Date().toISOString(), ...(nameVal ? { name: nameVal } : {}) };
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
     headers: { 'X-Master-Key': JSONBIN_KEY } })
