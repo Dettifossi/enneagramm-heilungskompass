@@ -28,6 +28,32 @@ export const so4 = {
     gedankeFuerHeute:
       "Du musst heute niemandem beweisen, dass du dazugehörst. Du bist bereits hier — und das genügt.",
   },
+  meinKompass_en: {
+    lebensthema: "You know very well how it feels not to fully belong. Your gaze often turns to what others have and what seems to be missing for you — ease, recognition, a fixed place. As the amplifier type, you live the Four dynamic most clearly: envy here becomes an almost inescapable inner movement of comparison. The difficult part: the more you compare, the more you drift away from what you truly already are. Your inner path does not lead to stopping your deep feeling — but to ceasing to seek your worth in the mirror of others.",
+    grundstrategie: "The social Four secures belonging and significance through distinctiveness, emotional depth, and making itselfness visible in the social space. She observes finely how others appear — and simultaneously feels what seems to be missing for her. The core question is: "Do I really belong — or can people tell that I am not enough?"",
+    staerken: [
+      "Fine perception of human vulnerability and shame",
+      "Deep compassion and genuine listening",
+      "Aesthetic sensibility and sense for meaning",
+      "Emotional differentiation and self-reflection",
+      "Authentic expression and creative depth",
+      "Connection with what is essential in life",
+      "Touchability that truly reaches others",
+    ],
+    herausforderungen: [
+      "Strongly regulating one's own worth through comparison with others",
+      "The feeling of exclusion and shame intensifies in a social context",
+      "Cultivating inner sadness and a sense of lack rather than transforming them",
+      "Losing access to one's own worth when social resonance is absent",
+    ],
+    entwicklungspotenzial: [
+      "Experiencing your own worth without constantly seeking it in the mirror of others.",
+      "Belonging arises from self-acceptance — not from recognition.",
+      "Depth and dignity are already here — they do not need to be earned first.",
+    ],
+    wandlung: "From comparison comes self-worth. From shame comes dignity. From feeling like an outsider comes belonging. From a sense of lack comes inner fullness.",
+    gedankeFuerHeute: "You do not need to prove today that you belong. You are already here — and that is enough.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SO4 zu dir passt." },

@@ -25,6 +25,32 @@ export const se8 = {
     wandlung: "Aus Kontrolle wird Vertrauen. Aus Härte wird lebendige Kraft. Aus Autonomie wird echte Verbundenheit.",
     gedankeFuerHeute: "Wenn ich Kontrolle loslasse, bleibt meine Kraft lebendig, klar und ohne Härte.",
   },
+  meinKompass_en: {
+    lebensthema: "You ensure that you survive and that no one gets too close. As the normal type among the Eights, you live strength most directly and unpretentiously: it is about autonomy, getting what you need, and not being dependent on anyone. Like the orangutan, you need your territory, your independence, your solid security. You do not talk much about strength — you simply live it, practically and uncompromisingly. What is especially strongly protected beneath this is the vulnerability that every Eight carries within. Your inner path does not lead toward becoming weaker — but toward experiencing that you are safe even when you open yourself.",
+    grundstrategie: "The self-preservation Eight secures itself through autonomy, self-assertion, and the straightforward fulfillment of its own needs — as the normal type, it lives strength most directly: independent, uncompromising, focused on its own survival and territory.",
+    staerken: [
+      "Self-determined and independent",
+      "Steadfast and assertive",
+      "Practical and capable of action",
+      "Courageous and uncompromising",
+      "Reliable for one's own people",
+      "Clear, unpretentious directness",
+      "Strength that gives security",
+    ],
+    herausforderungen: [
+      "Autonomy and control in order to avoid dependency",
+      "Cutting off access to soft, vulnerable sides",
+      "Difficulty accepting support or showing neediness",
+      "Energy appears hard, dominant, and constantly tense",
+    ],
+    entwicklungspotenzial: [
+      "Using strength without constantly having to control or fight.",
+      "Allowing trust, openness, and genuine vulnerability.",
+      "Experiencing that opening yourself does not weaken but connects.",
+    ],
+    wandlung: "From control comes trust. From hardness comes vibrant strength. From autonomy comes genuine connection.",
+    gedankeFuerHeute: "When I release control, my strength remains vibrant, clear, and without hardness.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 8 / SE8 zu dir passt." },

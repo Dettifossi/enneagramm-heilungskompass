@@ -29,6 +29,33 @@ export const se1 = {
     gedankeFuerHeute:
       "Vielleicht ist heute nicht der Tag, an dem du noch besser werden musst. Vielleicht ist heute der Tag, an dem du bemerkst, dass bereits vieles gut genug ist.",
   },
+  meinKompass_en: {
+    lebensthema: "You want to build your life on a solid foundation. Responsibility, reliability, and inner order play an important role. You often sense that a great deal depends on your own effort and that you must stay vigilant to keep things from going off the rails. Your path is not about becoming even more perfect — it is about discovering that imperfection belongs to life and that security does not arise only through control.",
+    grundstrategie: "The self-preservation One tries to create stability through discipline, order, and self-control. She observes herself attentively and holds herself to high standards. The core question is often: "Have I done everything right?"",
+    staerken: [
+      "Sense of responsibility",
+      "Reliability",
+      "Integrity",
+      "Perseverance and conscientiousness",
+      "Practical reason",
+      "The ability to improve things",
+    ],
+    herausforderungen: [
+      "Self-criticism and inner pressure",
+      "Tension and perfectionism",
+      "Impatience",
+      "Excessive control",
+      "Difficulty accepting mistakes",
+    ],
+    entwicklungspotenzial: [
+      "that mistakes are human",
+      "that needs are important",
+      "that relaxation is not weakness",
+      "that life does not need to be constantly optimized",
+    ],
+    wandlung: "From control comes trust. From tension comes presence. From self-improvement comes self-acceptance.",
+    gedankeFuerHeute: "Perhaps today is not the day you need to become better. Perhaps today is the day you notice that much is already good enough.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SE1 zu dir passt." },

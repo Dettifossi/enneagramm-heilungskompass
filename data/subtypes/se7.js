@@ -25,6 +25,32 @@ export const se7 = {
     wandlung: "Aus Anhäufen wird Genügsamkeit. Aus Reizsuche wird Präsenz. Aus äußerer Fülle wird innere Ruhe.",
     gedankeFuerHeute: "Wenn ich genug habe, ohne mehr zu brauchen, entsteht wirklicher Genuss.",
   },
+  meinKompass_en: {
+    lebensthema: "You love life in its fullness — and you practically ensure that you lack for nothing. As the normal type among the Sevens, you live gluttony most groundedly: you enjoy, plan, network, and create for yourself allies and comforts that make life pleasant. Where other Sevens dream in ideas, you are the pleasure-seeking doer who knows how to arrange a good life. What is sometimes concealed beneath this: the same fear of lack and emptiness as in all Sevens, only translated into practical fullness. Your inner path does not lead to enjoying less — but to experiencing that stillness and limitation can also be enough.",
+    grundstrategie: "The self-preservation Seven secures itself through practical enjoyment, good planning, and useful allies — as the normal type, it translates gluttony into concrete fullness: pleasant experiences, networks, and provisions so that nothing is ever lacking.",
+    staerken: [
+      "Joyful and capable of enjoyment",
+      "Practical and forward-planning",
+      "Warm-hearted and connecting",
+      "Resource-rich and resourceful",
+      "Optimistic and energetic",
+      "Grounded in implementation",
+      "Generous in sharing joy",
+    ],
+    herausforderungen: [
+      "Seeking security through accumulating comforts and possibilities",
+      "Covering unpleasant feelings and inner emptiness with enjoyment",
+      "Difficulty having enough without wanting more",
+      "Energy appears restless, scattered, and constantly stimulated",
+    ],
+    entwicklungspotenzial: [
+      "Enjoying without evading the present moment.",
+      "Allowing stillness, limitation, and depth as well.",
+      "Experiencing that less can be enough.",
+    ],
+    wandlung: "From accumulating comes contentment. From seeking stimulation comes presence. From outer fullness comes inner calm.",
+    gedankeFuerHeute: "When I have enough without needing more, genuine enjoyment arises.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SE7 zu dir passt." },

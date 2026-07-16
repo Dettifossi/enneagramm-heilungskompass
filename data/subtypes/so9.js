@@ -25,6 +25,32 @@ export const so9 = {
     wandlung: "Aus Anpassung wird eigene Position. Aus Mitmachen wird echte Teilhabe. Aus Selbstvergessenheit wird klare Präsenz.",
     gedankeFuerHeute: "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
   },
+  meinKompass_en: {
+    lebensthema: "You give yourself over to the community — you ensure that everyone holds together, that no one is left out, that the mood is good. As the countertype among the Nines, your inertia is surprisingly active: instead of resting, you work hard for the group, take on tasks, and place yourself in service of the whole in order to truly belong. Like the buffalo, you reliably carry your share for the herd. The trap: in service of the community you forget yourself — your own position, opinion, and tiredness disappear behind participation. Your inner path leads to belonging without losing yourself in the process.",
+    grundstrategie: "The social Nine finds its peace in belonging to the group — as the countertype, it turns inertia outward: it works earnestly for the community and subordinates its own position to cohesion.",
+    staerken: [
+      "Connecting and community-building",
+      "Serene and balancing",
+      "Reliable and committed",
+      "Mediating and reconciling",
+      "Patient and generous",
+      "Sense for what is essential to the group",
+      "Creates trust and stability",
+    ],
+    herausforderungen: [
+      "Placing one's own position behind cohesion",
+      "Balancing inner tension rather than clearly naming it",
+      "Losing one's own voice through participation",
+      "Energy appears diffuse, adapted, and little focused",
+    ],
+    entwicklungspotenzial: [
+      "Remaining connected without losing your own position.",
+      "Expressing opinions, wishes, and limits more clearly.",
+      "Living belonging from independence rather than from self-forgetting.",
+    ],
+    wandlung: "From adaptation comes one's own position. From participation comes genuine involvement. From self-forgetting comes clear presence.",
+    gedankeFuerHeute: "When belonging does not mean self-forgetting, genuine and stable community arises.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SO9 zu dir passt." },

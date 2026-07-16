@@ -25,6 +25,32 @@ export const se9 = {
     wandlung: "Aus Gewohnheit wird lebendige Präsenz. Aus Betäubung wird Selbstkontakt. Aus Trägheit wird ruhige Handlungskraft.",
     gedankeFuerHeute: "Wenn ich mich selbst wichtig nehme und nicht betäube, entsteht lebendige innere Präsenz.",
   },
+  meinKompass_en: {
+    lebensthema: "You find peace in the familiar — in routines, small comforts, the cozy rhythm of everyday life. As the normal type among the Nines, you live inertia most groundedly: you make yourself comfortable, maintain what is customary, and soothe inner tension with substitute satisfactions — food, television, activities that do not hurt. Like the elephant, you are calm, grounded, and hard to derail. The trap: in preserving outer calm you easily lose touch with what you truly want and need. Your inner path does not lead to giving up your calm — but to not forgetting yourself within it.",
+    grundstrategie: "The self-preservation Nine secures its peace through comfort, routines, and familiar habits — as the normal type, it numbs inner tension with concrete substitute satisfactions rather than truly sensing its own needs and impulses.",
+    staerken: [
+      "Calm, grounded, and steady",
+      "Serene and balancing",
+      "Practical and content with little",
+      "Reliable and patient",
+      "Accepting and uncomplicated",
+      "Creates cozy stability",
+      "Natural, quiet presence",
+    ],
+    herausforderungen: [
+      "Maintaining what is customary to avoid tension",
+      "Numbing inner tension with substitute satisfactions rather than feeling it",
+      "Losing contact with one's own wishes and impulses",
+      "Energy appears heavy, passive, and restrained",
+    ],
+    entwicklungspotenzial: [
+      "Remaining calm without losing yourself in habit or passivity.",
+      "Consciously perceiving your own impulses and needs.",
+      "Combining inner calm with clarity and capacity for action.",
+    ],
+    wandlung: "From habit comes vibrant presence. From numbness comes self-contact. From inertia comes quiet capacity for action.",
+    gedankeFuerHeute: "When I take myself seriously and do not numb myself, vibrant inner presence arises.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SE9 zu dir passt." },

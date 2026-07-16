@@ -25,6 +25,32 @@ export const se6 = {
     wandlung: "Aus Vorsicht wird Vertrauen. Aus Absicherung wird innere Ruhe. Aus gesuchtem Schutz wird eigene Standfestigkeit.",
     gedankeFuerHeute: "Ich darf dem Leben vertrauen — und halte auch dann stand, wenn nicht alles sicher ist.",
   },
+  meinKompass_en: {
+    lebensthema: "You sense danger before others see it — and you seek support before the ground starts shaking. As the amplifier type among the Sixes, you live the anxious, phobic side of the type most clearly: not the combative side, but the warmth-seeking one. You bond, seek protection, allies, and reliability, and in doing so you often appear friendly, cautious, and loyal. Your gaze scans the surroundings like a rabbit registering every movement. What lies beneath is not weakness, but a fine sense for safety. Your inner path does not lead to eliminating all risks — but to experiencing that you can hold your ground even when not everything is secured.",
+    grundstrategie: "The self-preservation Six secures itself through bonding, protection, and seeking reliable allies — as the phobic amplifier type, it meets fear not with combat but with warmth, caution, and the wish not to stand alone.",
+    staerken: [
+      "Fine sense for safety and danger",
+      "Warmth-seeking, bonding capacity, and loyalty",
+      "Cautious and reliable",
+      "Attentive vigilance for details",
+      "Caring toward one's own people",
+      "Modest and devoted",
+      "Responsible in the quiet",
+    ],
+    herausforderungen: [
+      "Recognizing dangers early and wanting to secure against them permanently",
+      "Inner tension is secured against rather than soothed",
+      "Protection is sought outside rather than within oneself",
+      "Energy appears tense, cautious, and easily depleted",
+    ],
+    entwicklungspotenzial: [
+      "Meeting uncertainty without needing to permanently secure against it.",
+      "Trusting one's own perception and inner stability.",
+      "Carrying security from within rather than only seeking it from outside.",
+    ],
+    wandlung: "From caution comes trust. From securing comes inner calm. From sought protection comes one's own groundedness.",
+    gedankeFuerHeute: "I am allowed to trust life — and I hold my ground even when not everything is safe.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SE6 zu dir passt." },

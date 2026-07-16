@@ -519,6 +519,17 @@ text.nav = [
   { route: "schaubilder", label: "Diagrams", dropdown: [] },
 ];
 
+// EN: override subtypePage section labels
+text.subtypePage.lebensthema = "Life Theme";
+text.subtypePage.grundstrategie = "Core Strategy";
+text.subtypePage.staerken = "Strengths";
+text.subtypePage.herausforderungen = "Challenges";
+text.subtypePage.entwicklungspotenzial = "Growth Potential";
+text.subtypePage.wandlung = "Transformation";
+text.subtypePage.gedankeFuerHeute = "Thought for Today";
+text.subtypePage.meinKompassTitle = "My Compass";
+text.subtypePage.vertiefung = "Deepen Your Knowledge";
+
 document.title = text.meta.appTitle;
 
 window.addEventListener("hashchange", () => {
@@ -3416,7 +3427,7 @@ function subtypePage(code) {
         🔊 ${entry.animal}-Laut
       </button>
     </section>
-    ${details.meinKompass ? meinKompassSection(details.meinKompass, sp) : ""}
+    ${(details.meinKompass_en || details.meinKompass) ? meinKompassSection(details.meinKompass_en || details.meinKompass, sp) : ""}
     ${(function(){ const dn = parseInt(code.match(/\d+/)[0]); const dv = DYNAMIK_VIDEOS[dn]; return dv ? `
     <section class="narrow" style="padding-top:0;padding-bottom:0;">
       <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">Die Dynamik des Typs ${dn}</h3>
@@ -3849,7 +3860,7 @@ function knowledgeCard(item) {
       <h2>${item.title}</h2>
       <p class="animal">${labels.animalPrefix} ${item.animal}</p>
       <p class="source-line">${item.pages}</p>
-      ${subtypeDetails[item.code.toLowerCase()] ? `<button class="card-open" data-route="subtype/${item.code.toLowerCase()}">${text.subtypePage.meinKompassTitle} öffnen →</button>` : ""}
+      ${subtypeDetails[item.code.toLowerCase()] ? `<button class="card-open" data-route="subtype/${item.code.toLowerCase()}">${text.subtypePage.meinKompassTitle} open →</button>` : ""}
       ${item.sourceCoverage ? sourceCoverageSection(item.sourceCoverage) : ""}
       ${item.contentModules ? contentModuleSection(item.contentModules) : ""}
       ${item.remedyCards ? remedyCardSection(item.remedyCards) : ""}

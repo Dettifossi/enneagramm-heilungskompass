@@ -27,6 +27,31 @@ export const se2 = {
     gedankeFuerHeute:
       "Was brauchst du heute — wirklich? Nicht was andere brauchen, nicht was du tun solltest. Was brauchst du selbst?",
   },
+  meinKompass_en: {
+    lebensthema: "You carry a deep need for closeness and security within you — and you express it mainly by being there for others. Care, practicality, reliability: these are your languages of love. In the process, you easily lose touch with what you yourself need. Your inner path does not lead away from giving — but toward yourself: toward the question of what you need, and toward the experience that your needs matter just as much as those of others.",
+    grundstrategie: "The self-preservation Two secures closeness and belonging through practical care and emotional availability. She strongly orients herself to the needs of others and keeps her own wishes in the background. As the countertype among the Twos, she lives her pride least openly: her care is more reserved and more focused on her own security, and she has particular difficulty asking for support herself. The core question is: "Am I doing enough to belong and to be loved?"",
+    staerken: [
+      "Warm, calming presence",
+      "Natural helpfulness and protective instinct",
+      "Strong sensitivity to the needs of others",
+      "Loyal and reliable connectedness",
+      "Practical care in concrete everyday situations",
+      "Gift for making others feel secure and at home",
+    ],
+    herausforderungen: [
+      "Holding back own needs to avoid jeopardizing closeness and recognition",
+      "Regulating inner emptiness through care rather than honest self-awareness",
+      "Exhaustion grows when giving is not reciprocated — yet giving continues",
+      "Difficulty asking for support or setting limits",
+    ],
+    entwicklungspotenzial: [
+      "Caring for others without losing yourself in the process.",
+      "Recognizing, voicing, and allowing your own needs to be met.",
+      "Closeness arises not only through giving — but also through honestly showing your own vulnerability.",
+    ],
+    wandlung: "From care comes self-care. From dependency comes independence. From being needed comes self-worth. From adaptation comes authenticity.",
+    gedankeFuerHeute: "What do you need today — truly? Not what others need, not what you should do. What do you yourself need?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SE2 zu dir passt." },

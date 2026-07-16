@@ -28,6 +28,32 @@ export const so1 = {
     gedankeFuerHeute:
       "Deine Klarheit und dein Gerechtigkeitssinn sind Geschenke. Heute reicht es, sie zu tragen — ohne dich in Verbesserung erschöpfen zu müssen.",
   },
+  meinKompass_en: {
+    lebensthema: "You feel a deep inner obligation — not only to keep your own life in order, but also the life of the community around you. You see grievances, injustices, and contradictions between ideals and reality early and clearly. This often creates an impulse to change something, to demand clarity, or to take responsibility where others do not. Your inner path does not lead to giving up this sense of justice — but to connecting it with more humanity and inner spaciousness.",
+    grundstrategie: "The social One orients itself by moral and social standards and seeks stability by standing up for values and principles — in its own life and in the social environment. The core question is often: "Are the right standards being applied here — and am I doing enough for that?"",
+    staerken: [
+      "Moral clarity and natural sense of direction",
+      "Strong sense of justice",
+      "Willingness to stand up for values",
+      "Reliability and sense of responsibility",
+      "Ability to name problems precisely",
+      "Bringing order and structure to groups",
+      "Clear stance and inner integrity",
+    ],
+    herausforderungen: [
+      "Easily perceived as strict, preachy, or corrective",
+      "Applying one's own moral standard to others and generating resistance",
+      "Inner tension because reality never fully matches the ideals",
+      "Difficulty letting go when something does not fit one's understanding of right",
+    ],
+    entwicklungspotenzial: [
+      "Combining moral clarity with inner spaciousness and serenity.",
+      "Standing up for values without judging or correcting others.",
+      "Carrying responsibility from inner strength, not from inner pressure.",
+    ],
+    wandlung: "From anger comes clarity. From judgment comes understanding. From duty comes joy. From principles comes humanity.",
+    gedankeFuerHeute: "Your clarity and your sense of justice are gifts. Today it is enough to carry them — without having to exhaust yourself in improvement.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SO1 zu dir passt." },

@@ -28,6 +28,32 @@ export const se3 = {
     gedankeFuerHeute:
       "Dein Wert liegt nicht in dem, was du heute erledigst. Was würde passieren, wenn du heute einfach da wärst — ohne Aufgabe?",
   },
+  meinKompass_en: {
+    lebensthema: "You know how to get things done. Your gaze quickly falls on what works — what is feasible, actionable, and useful. Efficiency is not merely a means to an end for you; it is a way of feeling alive. In the process, you easily lose something: contact with what you truly need and truly feel. As the countertype among the Threes, you appear less conspicuous — your ambition shows not in the spotlight but in a quiet sense of competence. Your inner path does not lead to achieving less — but to not losing yourself in your achievement.",
+    grundstrategie: "The self-preservation Three secures self-worth and inner stability through efficiency, competence, and reliably fulfilling tasks — not through visible glamour or status display. As the countertype, vanity is quieter: it shows in the need to be effective and competent. The core question is: "Am I achieving enough — am I truly reliable and competent?"",
+    staerken: [
+      "Pragmatic and solution-oriented",
+      "Flexible and situationally astute",
+      "Efficient and resource-conscious",
+      "Reliable and loyal",
+      "Attentive powers of observation",
+      "Grounded and adaptable",
+      "Structured, clear communication",
+    ],
+    herausforderungen: [
+      "Strongly tying self-worth to performance and functioning",
+      "Losing contact with genuine feelings and inner needs",
+      "Regulating inner uncertainty through busyness rather than self-awareness",
+      "Difficulty pausing without immediately returning to goal orientation",
+    ],
+    entwicklungspotenzial: [
+      "Acting clearly and effectively without defining yourself only by performance.",
+      "Allowing and showing genuine feelings and needs.",
+      "Inner worth arises from authenticity — not from efficiency and success.",
+    ],
+    wandlung: "From efficiency comes authenticity. From functioning comes self-contact. From performance comes a sense of worth. From control comes aliveness.",
+    gedankeFuerHeute: "Your worth does not lie in what you accomplish today. What would happen if you simply were present today — without a task?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SE3 zu dir passt." },

@@ -25,6 +25,32 @@ export const sx7 = {
     wandlung: "Aus Idealisierung wird Wirklichkeit. Aus Euphorie wird Präsenz. Aus dem Jagen des Besonderen wird echte, tiefe Verbundenheit.",
     gedankeFuerHeute: "Wenn ich Tiefe zulasse, statt das Besondere zu jagen, entsteht echte Erfüllung.",
   },
+  meinKompass_en: {
+    lebensthema: "You want life at its highest intensity — luminous, boundless, full of possibility. As the amplifier type among the Sevens, you live enthusiasm most ardently: you idealize, rhapsodize, paint the extraordinary in your mind, and carry others along with your euphoria. Like the chimpanzee, you leap from spark to spark in full zest for life. The world often appears more beautiful in your imagination than in sober reality — and precisely there lies the subtle trap: enthusiasm for what could be can distract from what is right now. Your inner path does not lead toward shining less — but toward experiencing that genuine depth is more fulfilling than the chased extraordinary.",
+    grundstrategie: "The sexual Seven seeks security in intense enthusiasm, idealization, and extraordinary experiences — as the amplifier type, it lives gluttony euphorically and rhapsodically and thereby easily drifts away from sober present reality.",
+    staerken: [
+      "Passionate and compelling",
+      "Magnetic and enthusiastic",
+      "Imaginative and rich in ideas",
+      "Adventurous and courageous",
+      "Sensual and hungry for life",
+      "Inspiring for others",
+      "Open to the extraordinary",
+    ],
+    herausforderungen: [
+      "Idealization and euphoria cover sober reality",
+      "Easily drifting away from the present moment into fantasies",
+      "Disillusionment and limitation are avoided",
+      "Energy becomes euphoric, erratic, and difficult to center",
+    ],
+    entwicklungspotenzial: [
+      "Experiencing intensity without losing yourself in fantasies or possibilities.",
+      "Remaining connected to your body and the present moment.",
+      "Experiencing that depth is more fulfilling than the chased extraordinary.",
+    ],
+    wandlung: "From idealization comes reality. From euphoria comes presence. From chasing the extraordinary comes genuine, deep connection.",
+    gedankeFuerHeute: "When I allow depth instead of chasing the extraordinary, genuine fulfillment arises.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SX7 zu dir passt." },

@@ -28,6 +28,32 @@ export const so3 = {
     gedankeFuerHeute:
       "Heute musst du nirgendwo glänzen. Was wärst du, wenn niemand zuschaut — und wäre das genug?",
   },
+  meinKompass_en: {
+    lebensthema: "You move through social fields with a natural achievement energy — and you know how to create impact. Success should not only exist; it should be visible. Recognition, status, and influence confirm for you that you belong and that you count. As the amplifier type, you embody the classic image of the Three: goal-oriented, present, success-driven. The danger: the more you define yourself through external impact, the more you lose touch with what truly lives within you. Your path does not lead out of social engagement — but deeper into yourself, so that your impact can arise from authenticity.",
+    grundstrategie: "The social Three secures meaning and self-worth through visible success, recognition, and impact in the social space. She develops a keen sense of social expectations and aligns herself accordingly. The core question is: "Can people see that I am successful — am I recognized in the social field?"",
+    staerken: [
+      "Strong, charismatic presence",
+      "Focused, persuasive energy",
+      "Pronounced social competence and presence",
+      "Ability to advance groups and processes",
+      "High discipline and willingness to perform",
+      "Clear, effective communication",
+      "Natural leadership qualities in the social field",
+    ],
+    herausforderungen: [
+      "Strongly tying self-worth to status, recognition, and social visibility",
+      "Concealing genuine feelings behind a success image and role",
+      "Covering inner emptiness with activity and success rather than feeling it",
+      "Difficulty experiencing oneself as worthy beyond role and performance",
+    ],
+    entwicklungspotenzial: [
+      "Using abilities for the good of the whole without defining yourself by status.",
+      "Remaining authentic and human — even when no audience is watching.",
+      "Impact arises from authenticity, not from adapting to expectations.",
+    ],
+    wandlung: "From status comes self-worth. From success comes authenticity. From image comes truthfulness. From recognition comes inner security.",
+    gedankeFuerHeute: "Today you do not need to shine anywhere. Who would you be if no one were watching — and would that be enough?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SO3 zu dir passt." },

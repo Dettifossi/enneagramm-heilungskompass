@@ -28,6 +28,32 @@ export const se4 = {
     gedankeFuerHeute:
       "Frieden entsteht nicht am Ende aller Schmerzen — sondern wenn du aufhörst, deine Verletzlichkeit vor dir selbst zu verbergen.",
   },
+  meinKompass_en: {
+    lebensthema: "You carry your inner world quietly. What others might express dramatically outward, you hold within — differentiated, reflective, and with a quiet toughness toward yourself. Dr. Claudio Naranjo called this subtype "stoic tenacity" — a remarkable ability to endure pain, disappointment, and longing without breaking. As the countertype, you often appear calmer and more composed on the outside than you experience yourself within. Your inner path does not lead to feeling less — but to trusting that you can be with your depth in contact with others as well.",
+    grundstrategie: "The self-preservation Four regulates inner tension through self-control, withdrawal, and quiet perseverance. Emotional intensity remains inside — it is shared selectively, only when genuine trust arises. The core question is: "Can I carry this quietly — am I strong enough to be with this alone?"",
+    staerken: [
+      "Extraordinary inner endurance and quiet strength",
+      "Differentiated, deep self-awareness",
+      "Genuine reliability in close, trusting relationships",
+      "High emotional intelligence and empathy",
+      "Aesthetic sensibility and connection to beauty",
+      "Strong intuition and sense for the essential",
+      "Capacity for deep, meaningful connection",
+    ],
+    herausforderungen: [
+      "Carrying pain and longing quietly, without being able to share them",
+      "Concealing inner wounds rather than showing them — and emotionally exhausting oneself",
+      "Emotionally isolating when closeness requires safety",
+      "Difficulty making one's own depth accessible in contact",
+    ],
+    entwicklungspotenzial: [
+      "Developing trust in showing emotional depth even in contact with others.",
+      "Allowing support, warmth, and genuine closeness.",
+      "Letting genuine connection arise from quiet inner strength.",
+    ],
+    wandlung: "From endurance comes self-acceptance. From quiet suffering comes inner relief. From withdrawal comes connection. From a sense of lack comes inner fullness.",
+    gedankeFuerHeute: "Peace does not arise at the end of all pain — but when you stop hiding your vulnerability from yourself.",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SE4 zu dir passt." },
