@@ -1425,6 +1425,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">EN</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
