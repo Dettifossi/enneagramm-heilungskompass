@@ -25,6 +25,35 @@ export const se8 = {
     wandlung: "Aus Kontrolle wird Vertrauen. Aus Härte wird lebendige Kraft. Aus Autonomie wird echte Verbundenheit.",
     gedankeFuerHeute: "Wenn ich Kontrolle loslasse, bleibt meine Kraft lebendig, klar und ohne Härte.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You make sure you survive and that no one gets too close. As the standard type among the Eights, you live strength most directly and unpretentiously: it is about autonomy, getting what you need, and not being dependent on anyone. You do not talk much about strength — you simply live it, practically and without compromise. What is especially strongly protected beneath is the vulnerability that every Eight carries. Your inner path does not lead to becoming weaker — but to experiencing that you are also safe when you open up.",
+    grundstrategie:
+      "The self-preservation Eight secures through autonomy, self-assertion, and concretely fulfilling their own needs.",
+    staerken: [
+      "Self-sufficiency",
+      "Directness",
+      "Practical strength",
+      "Courage",
+      "Ability to assert clear boundaries",
+    ],
+    herausforderungen: [
+      "Difficulty with vulnerability",
+      "Tendency toward isolation",
+      "Distrust",
+      "Dominance in relationships",
+      "Difficulty asking for help",
+    ],
+    entwicklungspotenzial: [
+      "that vulnerability is also a form of strength",
+      "that support does not mean losing autonomy",
+      "that trust can be built gradually",
+      "that closeness does not have to threaten independence",
+    ],
+    wandlung: "From isolation comes chosen connection. From self-sufficiency comes shared strength. From protection comes openness.",
+    gedankeFuerHeute:
+      "What would you allow today — from someone you trust — that you usually handle alone?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 8 / SE8 zu dir passt." },

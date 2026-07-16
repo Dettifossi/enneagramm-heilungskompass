@@ -25,6 +25,35 @@ export const so9 = {
     wandlung: "Aus Anpassung wird eigene Position. Aus Mitmachen wird echte Teilhabe. Aus Selbstvergessenheit wird klare Präsenz.",
     gedankeFuerHeute: "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You give yourself to the community — you make sure everyone stays together, that no one is left out, that the mood is good. As the counter-type among the Nines, your sloth is surprisingly active: instead of resting, you work hard for the group, take on tasks, and place yourself in service of the whole in order to truly belong. The trap: in the effort for the community, you forget yourself — your own position, opinion, and tiredness disappear behind the joining in. Your inner path leads toward belonging without losing yourself in it.",
+    grundstrategie:
+      "The social Nine seeks their peace in belonging to the group — as the counter-type, they turn their sloth outward, working hard to secure their place.",
+    staerken: [
+      "Community spirit",
+      "Reliability",
+      "Ability to mediate",
+      "Inclusive warmth",
+      "Willingness to contribute",
+    ],
+    herausforderungen: [
+      "Self-erasure for the sake of the group",
+      "Difficulty asserting own opinion",
+      "Exhaustion from constant giving",
+      "Resentment that is never expressed",
+      "Confusing belonging with self-abandonment",
+    ],
+    entwicklungspotenzial: [
+      "that they can belong and still have a position",
+      "that their opinion strengthens the group",
+      "that genuine rest is part of their contribution",
+      "that saying no is also a form of care",
+    ],
+    wandlung: "From self-erasure comes self-inclusion. From serving comes contributing. From merging comes genuine belonging.",
+    gedankeFuerHeute:
+      "What would you say today if you knew your opinion truly mattered to the group?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SO9 zu dir passt." },

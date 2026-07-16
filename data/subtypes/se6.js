@@ -25,6 +25,35 @@ export const se6 = {
     wandlung: "Aus Vorsicht wird Vertrauen. Aus Absicherung wird innere Ruhe. Aus gesuchtem Schutz wird eigene Standfestigkeit.",
     gedankeFuerHeute: "Ich darf dem Leben vertrauen — und halte auch dann stand, wenn nicht alles sicher ist.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You sense danger before others see it — and you seek support before the ground starts shaking. As the amplifier type among the Sixes, you live the anxious, phobic side of the type most clearly: not the combative, but the warmth-seeking. You bind, seek protection, allies, and reliability, and in doing so you often appear friendly, cautious, and loyal. What lies beneath is not weakness, but a fine sense for safety. Your inner path does not lead to eliminating all risks — but to experiencing that you can hold steady even when not everything is secured.",
+    grundstrategie:
+      "The self-preservation Six secures through binding, protection, and seeking reliable relationships and systems.",
+    staerken: [
+      "Loyalty",
+      "Warmheartedness",
+      "Reliability",
+      "Anticipatory care",
+      "Fine instinct for trustworthiness",
+    ],
+    herausforderungen: [
+      "Anxiety and worry",
+      "Dependency on reassurance",
+      "Difficulty trusting own judgment",
+      "Hesitation and self-doubt",
+      "Tendency to catastrophize",
+    ],
+    entwicklungspotenzial: [
+      "that they can trust their own inner voice",
+      "that uncertainty is not the same as danger",
+      "that they are stronger than their anxiety suggests",
+      "that support is available even without constant seeking",
+    ],
+    wandlung: "From anxiety comes trust. From seeking protection comes inner stability. From doubt comes grounded knowing.",
+    gedankeFuerHeute:
+      "What is one thing you know to be true right now — without needing anyone to confirm it?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SE6 zu dir passt." },

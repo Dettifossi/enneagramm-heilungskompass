@@ -27,6 +27,35 @@ export const sx2 = {
     gedankeFuerHeute:
       "Du musst heute nichts tun, um geliebt zu werden. Dein Dasein — so wie du bist — ist genug.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You love deeply and intensely — and you want to be irreplaceable for the people who matter to you. The ability to create a special connection, to touch people and make them feel seen: that is a real strength. But when closeness must be secured through surrender, exhaustion arises instead of connection. Your path leads you to discovering that real love does not need to be earned — it may simply be.",
+    grundstrategie:
+      "The sexual Two secures emotional significance through intense personal bond, attraction, and surrender. They give themselves strongly into certain relationships and expect deep resonance and uniqueness in return.",
+    staerken: [
+      "Deep capacity for love",
+      "Emotional presence",
+      "Ability to create special connection",
+      "Passion",
+      "Seductive warmth",
+    ],
+    herausforderungen: [
+      "Fear of losing the bond",
+      "Emotional dependency",
+      "Jealousy",
+      "Blurring own identity in relationships",
+      "Hidden expectations and hurt",
+    ],
+    entwicklungspotenzial: [
+      "that genuine love does not require surrender",
+      "that they can be loved without having to be indispensable",
+      "that their own identity deserves space",
+      "that closeness is possible without losing themselves",
+    ],
+    wandlung: "From yearning comes trust. From surrender comes genuine encounter. From needing to be needed comes freedom to love.",
+    gedankeFuerHeute:
+      "What if today you were loved not because of what you do — but simply because you are here?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SX2 zu dir passt." },

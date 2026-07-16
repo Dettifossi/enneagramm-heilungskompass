@@ -25,6 +25,35 @@ export const so7 = {
     wandlung: "Aus Idealismus wird gelebte Tiefe. Aus Aktivität wird Präsenz. Aus dem Dienst an der Vision wird echte Verbindung.",
     gedankeFuerHeute: "Ich muss nicht gut sein, um dazuzugehören — meine Freude darf ehrlich und nahbar sein.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You burn for what could be — for visions, projects, and a better future that you create together with others. As the counter-type among the Sevens, you consciously hold back your gluttony: instead of only enjoying, you put your enthusiasm in service of a larger goal, a group, a cause. This looks noble and often is — yet beneath it the old escape movement can continue: in service to the vision, depth, pain, and limitation can be avoided just as well as in pure enjoyment. Your inner path leads toward not needing to be good to belong.",
+    grundstrategie:
+      "The social Seven forgoes immediate enjoyment in favor of an ideal — as the counter-type, they channel their enthusiasm into serving a larger vision.",
+    staerken: [
+      "Visionary thinking",
+      "Enthusiasm for shared projects",
+      "Selflessness",
+      "Ability to inspire and organize",
+      "Commitment to meaningful causes",
+    ],
+    herausforderungen: [
+      "Using idealism to avoid personal pain",
+      "Difficulty with own needs in the context of larger goals",
+      "Tendency toward burnout from over-commitment",
+      "Postponing personal pleasure indefinitely",
+      "Fear of appearing selfish",
+    ],
+    entwicklungspotenzial: [
+      "that serving a vision does not require self-sacrifice",
+      "that their own pleasure is also a contribution",
+      "that belonging does not require earning it through sacrifice",
+      "that the present moment is also worthy of their presence",
+    ],
+    wandlung: "From self-sacrifice comes self-inclusion. From serving the vision comes living it. From belonging through giving comes belonging through being.",
+    gedankeFuerHeute:
+      "What do you want — not for the project, not for the group — but just for yourself, today?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SO7 zu dir passt." },

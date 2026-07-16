@@ -28,6 +28,35 @@ export const so3 = {
     gedankeFuerHeute:
       "Heute musst du nirgendwo glänzen. Was wärst du, wenn niemand zuschaut — und wäre das genug?",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You move in social fields with a natural achievement energy — and you know how to create impact. Success should not only exist but become visible. Recognition, status, and influence confirm to you that you belong and matter. As the amplifier type, you embody the classic image of the Three: goal-oriented, present, success-focused. The risk is that the more you define yourself through outside impact, the more you lose contact with what truly lives in you. Your path does not lead out of social engagement — but deeper into yourself, so your impact can arise from authenticity.",
+    grundstrategie:
+      "The social Three secures significance and self-worth through visible success, recognition, and impact in the social space.",
+    staerken: [
+      "Charisma",
+      "Goal-orientation",
+      "Social intelligence",
+      "Leadership ability",
+      "Inspiring presence",
+    ],
+    herausforderungen: [
+      "Defining self through image",
+      "Loss of authentic identity",
+      "Competitive thinking",
+      "Difficulty showing vulnerability",
+      "Confusing image with essence",
+    ],
+    entwicklungspotenzial: [
+      "that success from within is more lasting",
+      "that vulnerability strengthens real connection",
+      "that achievement and authenticity can coexist",
+      "that they can rest without losing their standing",
+    ],
+    wandlung: "From image comes essence. From performance comes authenticity. From role comes self.",
+    gedankeFuerHeute:
+      "Who are you when no one is applauding?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SO3 zu dir passt." },

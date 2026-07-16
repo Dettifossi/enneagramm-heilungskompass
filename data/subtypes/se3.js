@@ -28,6 +28,35 @@ export const se3 = {
     gedankeFuerHeute:
       "Dein Wert liegt nicht in dem, was du heute erledigst. Was würde passieren, wenn du heute einfach da wärst — ohne Aufgabe?",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You know how to get things done. Your gaze falls quickly on what works — what is feasible, implementable, and useful. Efficiency is not a means to an end for you, but a way of life. In doing so, you easily lose something: contact with what you really need and really feel. As the counter-type among the Threes, you appear less conspicuous — your ambition shows not in the spotlight, but in a quiet sense of competence. Your inner path does not lead to achieving less — but to not losing yourself in your achievement.",
+    grundstrategie:
+      "The self-preservation Three secures self-worth and inner stability through efficiency, competence, and reliably fulfilling tasks — not through visible glamour or status demonstration.",
+    staerken: [
+      "Efficiency and reliability",
+      "Pragmatism",
+      "Quiet competence",
+      "Willingness to work",
+      "Ability to inspire through example",
+    ],
+    herausforderungen: [
+      "Suppressing own feelings",
+      "Tendency toward workaholism",
+      "Difficulty asking for help",
+      "Losing contact with own needs",
+      "Identifying too strongly with performance",
+    ],
+    entwicklungspotenzial: [
+      "that rest is also productive",
+      "that they have value beyond performance",
+      "that feelings can be guideposts",
+      "that being enough is not the same as doing enough",
+    ],
+    wandlung: "From doing comes being. From efficiency comes presence. From performance comes authentic self.",
+    gedankeFuerHeute:
+      "What would you do today if you had nothing left to prove?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SE3 zu dir passt." },

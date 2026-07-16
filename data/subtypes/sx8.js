@@ -25,6 +25,35 @@ export const sx8 = {
     wandlung: "Aus Kampf wird Begegnung. Aus Besitz wird freie Verbindung. Aus Eroberung wird Herzensnähe.",
     gedankeFuerHeute: "Wenn ich Intensität nicht mit Kampf verwechsle, entsteht Nähe ohne Machtprobe.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You want life completely — intensely, authentically, without half-measures. As the amplifier type among the Eights, you live strength most passionately: you rebel against conventions, pull toward what you desire, and give yourself wholly to the moment. Your magnetic presence draws others in. The trap: closeness can become a power struggle, and intensity easily confuses itself with combat. Your inner path does not lead to becoming tamer — but to experiencing that genuine closeness without conquest runs deeper.",
+    grundstrategie:
+      "The sexual Eight seeks aliveness in intensity, rebellion, and passionate surrender — as the amplifier type, they live the Eight dynamic most powerfully.",
+    staerken: [
+      "Magnetic presence",
+      "Passion",
+      "Courage to go all in",
+      "Authenticity",
+      "Ability to awaken others",
+    ],
+    herausforderungen: [
+      "Difficulty with vulnerability in closeness",
+      "Tendency toward dominance in relationships",
+      "Intensity that can overwhelm others",
+      "Difficulty sustaining gentle contact",
+      "Confusing conquest with genuine union",
+    ],
+    entwicklungspotenzial: [
+      "that depth is possible without dominance",
+      "that genuine encounter requires allowing the other to be other",
+      "that surrender is also a form of strength",
+      "that intensity can be gentle",
+    ],
+    wandlung: "From conquest comes encounter. From dominance comes presence. From passionate possession comes genuine union.",
+    gedankeFuerHeute:
+      "What would it feel like today to be fully present with someone — without needing to win?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 8 / SX8 zu dir passt." },

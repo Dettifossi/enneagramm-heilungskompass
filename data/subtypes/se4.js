@@ -28,6 +28,35 @@ export const se4 = {
     gedankeFuerHeute:
       "Frieden entsteht nicht am Ende aller Schmerzen — sondern wenn du aufhörst, deine Verletzlichkeit vor dir selbst zu verbergen.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You carry your inner world quietly. What others might express dramatically outward, you hold within — differentiated, reflective, and with a quiet toughness toward yourself. Claudio Naranjo called this subtype stoic endurance — a remarkable ability to bear pain, disappointment, and longing without breaking. As the counter-type, you appear calmer and more composed outwardly than you experience yourself inwardly. Your inner path does not lead to feeling less — but to trusting that you can be in contact with others from your depth.",
+    grundstrategie:
+      "The self-preservation Four regulates inner tension through self-control, withdrawal, and quiet perseverance. Emotional intensity stays inward — it is selectively expressed.",
+    staerken: [
+      "Inner resilience",
+      "Depth and sensitivity",
+      "Reflective capacity",
+      "Ability to endure difficulty",
+      "Quiet integrity",
+    ],
+    herausforderungen: [
+      "Self-criticism and inner harshness",
+      "Withdrawing rather than connecting",
+      "Suppressed longing",
+      "Feeling perpetually not enough",
+      "Difficulty expressing vulnerability",
+    ],
+    entwicklungspotenzial: [
+      "that their depth is a gift, not a burden",
+      "that vulnerability can create connection",
+      "that they deserve to be seen as they are",
+      "that their inner world has value even when not expressed",
+    ],
+    wandlung: "From endurance comes openness. From self-sufficiency comes trust. From silent suffering comes shared depth.",
+    gedankeFuerHeute:
+      "What would change if today you allowed one person to truly see how things are with you?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SE4 zu dir passt." },

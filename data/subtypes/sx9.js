@@ -25,6 +25,35 @@ export const sx9 = {
     wandlung: "Aus Verschmelzung wird Begegnung. Aus Selbstverlust wird Selbstkontakt. Aus Anpassung wird klare, liebevolle Präsenz.",
     gedankeFuerHeute: "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You long for merging — to become completely one with a beloved person, a task, or life itself. As the amplifier type among the Nines, you live self-forgetting most deeply: you dissolve in the other, absorb their wishes, moods, and world so thoroughly that your own contour blurs. Your surrender is a genuine gift — yet the trap is self-loss: through merging, you forget who you yourself are and what you want. Your inner path leads toward allowing closeness without giving yourself up.",
+    grundstrategie:
+      "The sexual Nine seeks peace in merging with another — as the amplifier type, they live sloth as complete self-surrender to the beloved.",
+    staerken: [
+      "Deep capacity for connection",
+      "Empathy",
+      "Ability to make others feel accepted",
+      "Gentle presence",
+      "Gift for creating harmony",
+    ],
+    herausforderungen: [
+      "Loss of own identity in relationships",
+      "Difficulty knowing own wishes",
+      "Passive-aggressiveness instead of direct expression",
+      "Becoming whoever the other needs them to be",
+      "Deep tiredness from constant merging",
+    ],
+    entwicklungspotenzial: [
+      "that they can be close without disappearing",
+      "that their own wishes are part of the relationship",
+      "that a clear self-position deepens rather than threatens love",
+      "that their presence is a gift, not a burden",
+    ],
+    wandlung: "From merging comes genuine meeting. From self-surrender comes self-presence. From disappearing in love comes loving as oneself.",
+    gedankeFuerHeute:
+      "What do you want right now — not what would make the other happy, not what the situation demands — but what you, in this moment, truly want?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SX9 zu dir passt." },

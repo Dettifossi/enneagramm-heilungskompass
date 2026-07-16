@@ -25,6 +25,35 @@ export const se7 = {
     wandlung: "Aus Anhäufen wird Genügsamkeit. Aus Reizsuche wird Präsenz. Aus äußerer Fülle wird innere Ruhe.",
     gedankeFuerHeute: "Wenn ich genug habe, ohne mehr zu brauchen, entsteht wirklicher Genuss.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You love life in its fullness — and you take care practically to ensure you lack nothing. As the standard type among the Sevens, you live gluttony most grounded: you enjoy, plan, network, and create allies and comforts that make life pleasant. What is sometimes hidden beneath: the same fear of lack and emptiness as all Sevens, only translated into practical fullness. Your inner path does not lead to enjoying less — but to experiencing that stillness and limitation can also be enough.",
+    grundstrategie:
+      "The self-preservation Seven secures through practical enjoyment, good planning, and networks of pleasure — as the standard type, they live the gluttony most tangibly.",
+    staerken: [
+      "Enjoyment of life",
+      "Practical planning",
+      "Networking",
+      "Optimism",
+      "Ability to create comfort and pleasure",
+    ],
+    herausforderungen: [
+      "Avoiding depth and pain through pleasure",
+      "Overindulgence and excess",
+      "Difficulty with commitment",
+      "Fear of deprivation",
+      "Restlessness when stillness arrives",
+    ],
+    entwicklungspotenzial: [
+      "that limitation can also feel abundant",
+      "that stillness is not emptiness",
+      "that discomfort does not last forever",
+      "that depth is reachable without losing lightness",
+    ],
+    wandlung: "From seeking more comes finding enough. From planning ahead comes being present. From fullness outside comes fullness within.",
+    gedankeFuerHeute:
+      "What is already here — right now — that is truly enough?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SE7 zu dir passt." },

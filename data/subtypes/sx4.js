@@ -28,6 +28,35 @@ export const sx4 = {
     gedankeFuerHeute:
       "Deine Tiefe braucht keine Steigerung, um real zu sein. Was ist heute — genau jetzt — wirklich da?",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You love intensely — and you suffer intensely. That is not a weakness, but the core of this subtype: feelings are not dampened or managed, they are lived — directly, immediately, visibly. You seek encounters that truly mean something, relationships that touch you and see your being completely. Your path does not lead to suppressing this intensity — but to no longer reading it as proof of your insufficiency.",
+    grundstrategie:
+      "The sexual Four secures emotional significance through intensity, passion, and immediate expression in personal contact.",
+    staerken: [
+      "Emotional intensity",
+      "Authenticity",
+      "Depth in relationships",
+      "Creative passion",
+      "Ability to be moved and to move others",
+    ],
+    herausforderungen: [
+      "Emotional turbulence",
+      "Idealization and devaluation",
+      "Fear of abandonment",
+      "Merging identity with suffering",
+      "Difficulty with the ordinary in relationships",
+    ],
+    entwicklungspotenzial: [
+      "that intensity can also arise without pain",
+      "that stability is not the same as emptiness",
+      "that longing can be met in the present",
+      "that their depth does not require drama to be real",
+    ],
+    wandlung: "From drama comes depth. From longing comes presence. From suffering comes aliveness.",
+    gedankeFuerHeute:
+      "What is here right now — not in memory or longing — that you can actually touch?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SX4 zu dir passt." },

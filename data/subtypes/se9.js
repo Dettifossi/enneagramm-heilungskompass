@@ -25,6 +25,35 @@ export const se9 = {
     wandlung: "Aus Gewohnheit wird lebendige Präsenz. Aus Betäubung wird Selbstkontakt. Aus Trägheit wird ruhige Handlungskraft.",
     gedankeFuerHeute: "Wenn ich mich selbst wichtig nehme und nicht betäube, entsteht lebendige innere Präsenz.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You find peace in the familiar — in routines, small comforts, in the pleasant rhythm of everyday life. As the standard type among the Nines, you live sloth most grounded: you make yourself comfortable, maintain what is familiar, and soothe inner tension with substitute satisfactions. Like the elephant, you are calm, grounded, and hard to derail. The trap: in maintaining outer calm, you easily lose contact with what you truly want and need. Your inner path does not lead to giving up your calm — but to not forgetting yourself within it.",
+    grundstrategie:
+      "The self-preservation Nine secures their peace through comfort, routines, and familiar habits — as the standard type, they live the sloth most tangibly.",
+    staerken: [
+      "Steadiness",
+      "Warmth",
+      "Ability to create comfort",
+      "Reliability in the everyday",
+      "Grounding presence for others",
+    ],
+    herausforderungen: [
+      "Inertia and procrastination",
+      "Substitute satisfactions instead of real contact",
+      "Loss of own priorities",
+      "Difficulty with change",
+      "Numbing rather than feeling",
+    ],
+    entwicklungspotenzial: [
+      "that their own wishes deserve space",
+      "that small steps count",
+      "that discomfort passes",
+      "that presence in their own life is the real home",
+    ],
+    wandlung: "From numbing comes feeling. From habit comes choice. From comfort comes aliveness.",
+    gedankeFuerHeute:
+      "What is one small thing you have been postponing — and what would it feel like to simply begin it today?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SE9 zu dir passt." },

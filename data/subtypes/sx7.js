@@ -25,6 +25,35 @@ export const sx7 = {
     wandlung: "Aus Idealisierung wird Wirklichkeit. Aus Euphorie wird Präsenz. Aus dem Jagen des Besonderen wird echte, tiefe Verbundenheit.",
     gedankeFuerHeute: "Wenn ich Tiefe zulasse, statt das Besondere zu jagen, entsteht echte Erfüllung.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You want life at its highest intensity — glowing, boundless, full of possibility. As the amplifier type among the Sevens, you live enthusiasm most ardently: you idealize, are captivated, and sweep others along with your euphoria. The world often appears more beautiful in imagination than in sober reality — and exactly there lies the subtle trap: enthusiasm for what could be can distract from what is right now. Your inner path does not lead to shining less — but to experiencing that real depth is more fulfilling than the chased extraordinary.",
+    grundstrategie:
+      "The sexual Seven seeks security in intensity, idealization, and inspiring personal connections.",
+    staerken: [
+      "Infectious enthusiasm",
+      "Creative imagination",
+      "Ability to inspire",
+      "Openness to the new",
+      "Visionary joy of life",
+    ],
+    herausforderungen: [
+      "Difficulty sustaining commitment",
+      "Idealization followed by disillusionment",
+      "Avoiding ordinariness and depth",
+      "Chasing novelty at the expense of presence",
+      "Difficulty with painful reality",
+    ],
+    entwicklungspotenzial: [
+      "that depth is more fulfilling than breadth",
+      "that the ordinary can also glow",
+      "that real encounter includes disappointment",
+      "that staying is sometimes the greatest adventure",
+    ],
+    wandlung: "From the chased extraordinary comes the found ordinary. From euphoria comes presence. From idealization comes real encounter.",
+    gedankeFuerHeute:
+      "What is here right now — not in the vision of what could be — that is worth your full presence?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 7 / SX7 zu dir passt." },

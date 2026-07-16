@@ -28,6 +28,35 @@ export const so4 = {
     gedankeFuerHeute:
       "Du musst heute niemandem beweisen, dass du dazugehörst. Du bist bereits hier — und das genügt.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You know very well what it feels like not quite to belong. Your gaze often turns toward what others have and what seems to be missing for you — ease, recognition, a fixed place. As the amplifier type, you live the Four dynamic most clearly: envy becomes an almost inescapable inner movement of comparison. The difficult part: the more you compare, the further you move from what you already truly are. Your inner path does not lead to stopping feeling deeply — but to stopping searching for your worth in the mirror of others.",
+    grundstrategie:
+      "The social Four secures belonging and significance through uniqueness, emotional depth, and making visible their differentness in the social space.",
+    staerken: [
+      "Emotional depth",
+      "Authenticity",
+      "Sensitivity to beauty and meaning",
+      "Empathy",
+      "Creative self-expression",
+    ],
+    herausforderungen: [
+      "Envy and comparison",
+      "Feeling of fundamental insufficiency",
+      "Social withdrawal or dramatic attention-seeking",
+      "Idealizing what is absent",
+      "Difficulty accepting ordinary belonging",
+    ],
+    entwicklungspotenzial: [
+      "that they already belong as they are",
+      "that envy can be a compass toward their own desires",
+      "that ordinary moments have depth",
+      "that their worth is not relative to others",
+    ],
+    wandlung: "From comparison comes self-recognition. From envy comes longing. From longing comes direction.",
+    gedankeFuerHeute:
+      "What is already there — in you, in your life — that you have not yet truly seen?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 4 / SO4 zu dir passt." },

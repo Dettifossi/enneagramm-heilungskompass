@@ -25,6 +25,35 @@ export const se5 = {
     wandlung: "Aus Rückzug wird Kontakt. Aus Energiesparen wird Lebendigkeit. Aus Selbstgenügsamkeit wird echte Verbundenheit.",
     gedankeFuerHeute: "Ich vertraue darauf, dass Lebendigkeit mich nicht erschöpft — sie nährt mich.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You carry stillness within you — a quiet that can look like distance from outside, but for you is often the only way to think more clearly and stay safe. As the amplifier type among the Fives, you live the basic strategy of the type most purely: you withdraw, observe, conserve energy. What looks like needlessness from outside is often a carefully constructed protected space. Your inner path does not lead to exhausting yourself more — but to experiencing that aliveness nourishes rather than depletes.",
+    grundstrategie:
+      "The self-preservation Five secures through maximum withdrawal, self-sufficiency, and energy conservation — as the amplifier type, they live the Five dynamics most clearly.",
+    staerken: [
+      "Keen observation",
+      "Analytical depth",
+      "Self-sufficiency",
+      "Calm in crises",
+      "Ability to think independently",
+    ],
+    herausforderungen: [
+      "Social withdrawal and isolation",
+      "Hoarding information, time, and energy",
+      "Difficulty with spontaneous sharing",
+      "Emotional detachment",
+      "Living theoretically rather than actually",
+    ],
+    entwicklungspotenzial: [
+      "that sharing knowledge creates connection",
+      "that contact gives energy as well as taking it",
+      "that enough is already enough",
+      "that life does not need to be completely understood to be lived",
+    ],
+    wandlung: "From withdrawal comes presence. From accumulation comes sharing. From observation comes participation.",
+    gedankeFuerHeute:
+      "What do you already know — that you could share with one person today, even before it feels complete?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SE5 zu dir passt." },

@@ -27,6 +27,35 @@ export const se2 = {
     gedankeFuerHeute:
       "Was brauchst du heute — wirklich? Nicht was andere brauchen, nicht was du tun solltest. Was brauchst du selbst?",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You carry a deep need for closeness and security — and you express it mainly by being there for others. Care, practicality, and reliability are your languages of love. In doing so, you easily lose touch with what you yourself need. Your inner path does not lead you away from giving — but toward yourself: to the question of what you need, and to the experience that your needs count just as much as everyone else's.",
+    grundstrategie:
+      "The self-preservation Two secures closeness and belonging through practical care and emotional availability. They orient strongly toward the needs of others and keep their own wishes in the background. As the counter-type among the Twos, they live their pride least openly.",
+    staerken: [
+      "Practical care",
+      "Reliability",
+      "Warmth and attentiveness",
+      "Loyalty",
+      "Ability to create security for others",
+    ],
+    herausforderungen: [
+      "Neglecting own needs",
+      "Hidden expectations",
+      "Difficulty receiving",
+      "Subtle control through giving",
+      "Tendency toward martyrdom",
+    ],
+    entwicklungspotenzial: [
+      "that they can also receive",
+      "that their own needs are worth expressing",
+      "that care can also be self-directed",
+      "that love does not always need to be earned",
+    ],
+    wandlung: "From giving comes receiving. From giving away comes presence. From care for others comes care for self.",
+    gedankeFuerHeute:
+      "What do you need today — and who could you ask for it?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SE2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SE2 zu dir passt." },

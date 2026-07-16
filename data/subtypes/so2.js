@@ -27,6 +27,35 @@ export const so2 = {
     gedankeFuerHeute:
       "Heute darfst du auch da sein, ohne nützlich zu sein. Dein Dasein allein hat Wert — unabhängig davon, wer dich gerade braucht.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You move in social fields with natural warmth and a fine sense for who needs what — and who belongs together. Connecting people, building networks, being needed and being important: these give you stability and meaning. But the price is often that you tie your own worth to others' responses. Your path does not lead away from social engagement — but toward a foundation that supports you independent of recognition.",
+    grundstrategie:
+      "The social Two secures belonging and significance through engagement, help, and building connections in the social space. As the amplifier type among the Twos, they show their pride most clearly: they present their care as something special and expect recognition in return.",
+    staerken: [
+      "Social intelligence",
+      "Generosity",
+      "Ability to connect others",
+      "Warmth and presence",
+      "Inspiring leadership through care",
+    ],
+    herausforderungen: [
+      "Need for recognition",
+      "Pride and vanity",
+      "Difficulty with boundaries",
+      "Tendency to manipulate through giving",
+      "Emotional dependency on social role",
+    ],
+    entwicklungspotenzial: [
+      "that their value does not depend on recognition",
+      "that boundaries are also an act of love",
+      "that genuine connection does not require performance",
+      "that they can be seen without having to earn it",
+    ],
+    wandlung: "From performance comes presence. From networking comes genuine meeting. From needing to give comes freedom to simply be.",
+    gedankeFuerHeute:
+      "Today, notice once: what would you do if no one were watching — and no one needed to thank you?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 2 / SO2 zu dir passt." },

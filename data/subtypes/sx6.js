@@ -25,6 +25,35 @@ export const sx6 = {
     wandlung: "Aus Gegenangriff wird Vertrauen. Aus Härte wird Herzenskontakt. Aus Kampf wird innerer Frieden.",
     gedankeFuerHeute: "Echte Stärke entsteht aus Vertrauen — ich muss nicht kämpfen, um sicher zu sein.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "Where others retreat at fear, you move forward. As the counter-type among the Sixes, you meet fear not with caution but with strength — you seek the challenge to prove to yourself that you are not afraid. Your gaze is intense, probing, and ready for battle; you sense threat early and face it. In relationships you seek intensity, loyalty, and absolute reliability — and simultaneously test them. What lies beneath the courage is the same anxiety as in all Sixes, only turned outward. Your inner path does not lead to becoming harder — but to experiencing that true strength arises from trust, not from combat.",
+    grundstrategie:
+      "The sexual Six overcomes anxiety through courage, strength, and intense bonding — as the counter-phobic type, they meet danger head-on rather than avoiding it.",
+    staerken: [
+      "Courage",
+      "Intensity in relationships",
+      "Loyalty and commitment",
+      "Direct and honest communication",
+      "Ability to face what others avoid",
+    ],
+    herausforderungen: [
+      "Aggression and provocativeness",
+      "Difficulty trusting completely",
+      "Testing the loyalty of others to the breaking point",
+      "Confusing strength with hardness",
+      "Suppressing the very fear that drives them",
+    ],
+    entwicklungspotenzial: [
+      "that genuine strength includes vulnerability",
+      "that trust does not require testing",
+      "that courage is also the courage to be afraid",
+      "that safety can be built rather than fought for",
+    ],
+    wandlung: "From combat comes trust. From testing comes acceptance. From proving strength comes being at peace with it.",
+    gedankeFuerHeute:
+      "What would you risk today if you knew you were truly safe?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SX6 zu dir passt." },

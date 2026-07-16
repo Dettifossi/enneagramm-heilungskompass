@@ -28,6 +28,35 @@ export const so1 = {
     gedankeFuerHeute:
       "Deine Klarheit und dein Gerechtigkeitssinn sind Geschenke. Heute reicht es, sie zu tragen — ohne dich in Verbesserung erschöpfen zu müssen.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You feel a deep inner obligation — not only to keep your own life in order, but also that of the community around you. You see injustices and contradictions between ideals and reality early and clearly. This often creates an impulse to change things, demand clarity, or take responsibility where others do not. Your inner path is not about giving up this sense of justice — but about connecting it with greater humanity and inner spaciousness.",
+    grundstrategie:
+      "The social One orients toward moral and social standards and finds stability by standing up for values and principles — in their own life and in the social sphere. The central inner question is often: Am I doing enough for what truly matters?",
+    staerken: [
+      "Moral clarity",
+      "Sense of justice",
+      "Commitment to change",
+      "Reliability",
+      "Ability to inspire others",
+    ],
+    herausforderungen: [
+      "Rigidity in own views",
+      "Putting social pressure on others",
+      "Difficulty accepting imperfection in systems",
+      "Tendency toward moral superiority",
+      "Difficulty tolerating contradictions",
+    ],
+    entwicklungspotenzial: [
+      "that others have good reasons for their views",
+      "that change takes time",
+      "that compassion is also a virtue",
+      "that imperfect steps are still progress",
+    ],
+    wandlung: "From judgment comes understanding. From correction comes accompaniment. From demand comes invitation.",
+    gedankeFuerHeute:
+      "What if the world is not waiting for you to fix it — but for you to meet it with more compassion?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SO1 zu dir passt." },

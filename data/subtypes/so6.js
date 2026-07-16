@@ -25,6 +25,35 @@ export const so6 = {
     wandlung: "Aus Regeln wird innere Orientierung. Aus Pflicht wird Eigenständigkeit. Aus Anpassung wird eine klare, eigene Position.",
     gedankeFuerHeute: "Mein Gewissen ist meine Autorität — ich vertraue meiner eigenen inneren Stimme.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You seek security in clarity — in rules, in duty, in the certainty of doing the right thing and belonging. As the standard type among the Sixes, you find support in orienting toward something larger: a group, a system, a task, an idea you can serve. Like the meerkat, you stand watch for the community — responsibly, loyally, and reliably. What is sometimes lost is your own inner authority. Your inner path leads toward not handing your own voice over to rules or groups.",
+    grundstrategie:
+      "The social Six gains security through belonging, duty, and clear orientation — as the standard type, they find stability in serving a larger whole.",
+    staerken: [
+      "Reliability",
+      "Loyalty to the community",
+      "Sense of responsibility",
+      "Ability to build structures",
+      "Clear orientation toward shared values",
+    ],
+    herausforderungen: [
+      "Over-conformity to rules and authority",
+      "Suppressing own needs for the sake of belonging",
+      "Difficulty questioning the system",
+      "Anxiety about exclusion",
+      "Subordinating own authority to external structures",
+    ],
+    entwicklungspotenzial: [
+      "that their own judgment is trustworthy",
+      "that belonging does not require blind conformity",
+      "that rules serve people, not the reverse",
+      "that they can question a system and still belong to it",
+    ],
+    wandlung: "From conformity comes integrity. From duty comes choice. From group loyalty comes self-loyalty.",
+    gedankeFuerHeute:
+      "What would you decide today if no one's approval were at stake?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SO6 zu dir passt." },

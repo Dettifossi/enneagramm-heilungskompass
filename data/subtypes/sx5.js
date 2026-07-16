@@ -25,6 +25,35 @@ export const sx5 = {
     wandlung: "Aus Sehnsucht wird Wirklichkeit. Aus Idealisierung wird Begegnung. Aus Scheu wird gelebte Nähe.",
     gedankeFuerHeute: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You long for depth — for the one person to whom you can truly show yourself. As the counter-type among the Fives, you appear surprisingly intense and personal when you trust. The hedgehog carries its protection outward — but when someone comes close enough, it opens with a warmth that surprises. Your relationship ideal is depth: knowledge and trust, insight and closeness, all in one special connection. What remains difficult: enduring this openness without retreating into withdrawal or control. Your inner path leads from shy longing toward lived connection.",
+    grundstrategie:
+      "The sexual Five secures through selective, deep bonds with a few special people — as the counter-type, they appear more intense and open when trust is established.",
+    staerken: [
+      "Depth in relationships",
+      "Intellectual and emotional intensity",
+      "Loyalty",
+      "Unique openness in trust",
+      "Ability to see the other deeply",
+    ],
+    herausforderungen: [
+      "Extreme selectivity in relationships",
+      "Fear of intrusion",
+      "Withdrawing when feeling too close",
+      "Difficulty maintaining multiple connections",
+      "Jealously protecting the special bond",
+    ],
+    entwicklungspotenzial: [
+      "that closeness does not exhaust if chosen freely",
+      "that more connections are possible without losing depth",
+      "that vulnerability in relationships is a strength",
+      "that trust can grow gradually",
+    ],
+    wandlung: "From selective withdrawal comes chosen openness. From shy longing comes real encounter. From depth in theory comes depth in life.",
+    gedankeFuerHeute:
+      "To whom could you show a little more of yourself today — and what is truly stopping you?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SX5 zu dir passt." },

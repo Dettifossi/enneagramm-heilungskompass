@@ -25,6 +25,35 @@ export const so5 = {
     wandlung: "Aus Verstehen wird Verbindung. Aus Beobachten wird Mitwirken. Aus Distanz wird lebendiger Austausch.",
     gedankeFuerHeute: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
   },
+  meinKompass_en: {
+    lebensthema:
+      "You understand connections — and you love diving deep into systems, knowledge, and structures. As the standard type among the Fives, your withdrawal is often less complete: you find connection to the world through what you know and understand. Your gaze encompasses many fields at once — knowledge becomes your bridge, your entry ticket, your way of belonging. What is sometimes missing: direct, spontaneous contact — sharing what you already know without first having to penetrate it completely. Your inner path leads from clever distance toward genuine participation.",
+    grundstrategie:
+      "The social Five gains security through intellectual understanding, systems competence, and an overview of the big picture — as the standard type, they find belonging through knowledge.",
+    staerken: [
+      "Systems thinking",
+      "Breadth of knowledge",
+      "Strategic overview",
+      "Intellectual generosity",
+      "Ability to make complex things accessible",
+    ],
+    herausforderungen: [
+      "Using knowledge as a substitute for direct contact",
+      "Difficulty with emotional spontaneity",
+      "Remaining in the observer role",
+      "Withdrawing behind expertise",
+      "Postponing participation until fully prepared",
+    ],
+    entwicklungspotenzial: [
+      "that belonging is possible even without complete understanding",
+      "that sharing feels different from losing",
+      "that intellectual presence is also a form of connection",
+      "that the gap between knowing and being can be bridged",
+    ],
+    wandlung: "From understanding comes participation. From overview comes encounter. From theory comes lived experience.",
+    gedankeFuerHeute:
+      "What do you know that someone around you needs to hear — and what is stopping you from simply saying it?",
+  },
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SO5 zu dir passt." },
