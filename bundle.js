@@ -34076,7 +34076,7 @@ function stillePage() {
 
       <div style="margin:0 auto 1.5rem;max-width:480px;">
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;text-align:center;">Klangbegleitung wählen</p>
-        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;">
+        <div id="stille-klang-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.45rem;">
           ${(()=>{
   const G = (label) => ({type:"group", label});
   const S = (id,icon,lbl,isNew) => ({id,icon,label:lbl,isNew});
@@ -34162,7 +34162,7 @@ function stillePage() {
       return `<div style="grid-column:1/-1;padding:.5rem 0 .2rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;border-bottom:1px solid var(--border);margin-bottom:.2rem;">${s.label}</div>`;
     }
     return `<button class="stille-klang-btn${s.id==="stille"?" active":""}" data-klang="${s.id}"
-            style="position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
+            style="position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.5rem .3rem;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto;border-radius:10px;border:1.5px solid ${s.id==="stille"?"var(--copper)":"var(--border)"};background:${s.id==="stille"?"var(--paper)":"transparent"};cursor:pointer;font-size:.72rem;color:var(--ink);line-height:1.2;transition:border-color .2s,background .2s;">
             ${s.isNew?'<span style="position:absolute;top:-4px;right:-4px;font-size:.55rem;font-weight:700;color:#fff;background:var(--copper);border-radius:4px;padding:1px 4px;line-height:1.4;letter-spacing:.04em;">NEU</span>':''}
             <span style="font-size:1.3rem;">${s.icon}</span>${s.label}
           </button>`;
