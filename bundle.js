@@ -34111,6 +34111,11 @@ function stillePage() {
             {id:"wiese",       icon:"🦗",  label:"Sommerwiese"},
             {id:"tibet",       icon:"🏔️",  label:"Tibet "},
             {id:"zug",         icon:"🚂",  label:"Zug"},
+            {id:"cafe",        icon:"☕",  label:"Café"},
+            {id:"standuhr",    icon:"🕰️",  label:"Standuhr"},
+            {id:"bibliothek",  icon:"📚",  label:"Bibliothek"},
+            {id:"kinder",      icon:"👧",  label:"Kinderstimmen"},
+            {id:"schreibmaschine", icon:"⌨️", label:"Schreibmaschin"},
             {id:"bienen",      icon:"🐝",  label:"Bienen"},
             {id:"delfin",      icon:"🐬",  label:"Delfine"},
             {id:"elefanten",   icon:"🐘",  label:"Elefanten "},
@@ -34419,7 +34424,7 @@ function _stilleInit() {
   // Klang-Selektor
   let gewaehlterKlang = "stille";
   let klangStop = null;
-  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet"]);
+  const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine"]);
   function klangCdnUrl(id) {
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3";
   }
@@ -35695,6 +35700,11 @@ function _stilleInit() {
     klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
   };
   const KLANG_INFO = {
+    cafe: "Lebendiges Café-Gemurmel — belebt den Geist, fördert kreatives Denken.",
+    standuhr: "Das gleichmäßige Ticken einer alten Standuhr — gibt Struktur und Beständigkeit.",
+    bibliothek: "Stille Bibliothek mit leisen Geräuschen — Raum für Konzentration und Wissen.",
+    kinder: "Fröhliche Kinderstimmen auf einem Spielplatz — Lebensfreude und Unbeschwertheit.",
+    schreibmaschine: "Das Rattern einer Schreibmaschine — Fokus, Fluss und kreative Energie.",
     stille:      "Vollständige Stille — nur Gong am Anfang und Ende.",
     white:       "🌊 Natural White Noise: ein schottischer Wasserfall, aufgenommen im Wald — breites, gleichmäßiges Rauschen über alle Frequenzen. Perfekt, um Lärm zu blockieren und den Fokus zu halten.",
     pink:        "🌧️ Natural Pink Noise: starker Regen auf ein Dachfenster — wärmer und bassiger als weißes Rauschen. Sehr beliebt zum Einschlafen, angenehmer für die Ohren als synthetisches Rauschen.",
