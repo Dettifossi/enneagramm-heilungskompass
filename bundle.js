@@ -34140,15 +34140,11 @@ function stillePage() {
       </div>
 
       <div style="max-width:480px;margin:1.8rem auto 1.5rem;border-top:1px solid var(--border);padding-top:1.5rem;">
-        <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem;text-align:center;">Klang-Empfehlung f&uuml;r deinen Subtyp</p>
-        <p style="font-size:0.8rem;color:var(--ink-muted);text-align:center;margin:0 0 1rem;line-height:1.5;">W&auml;hle Typ und Instinktvariante &mdash; du erh&auml;ltst drei pers&ouml;nlich abgestimmte Kl&auml;nge.</p>
-        <div style="display:flex;gap:.3rem;justify-content:center;flex-wrap:wrap;margin-bottom:.7rem;">
-          ${[1,2,3,4,5,6,7,8,9].map(n => `<button class="stille-typ-btn" data-typ="${n}" style="padding:.3rem .65rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);transition:all .15s;">Typ ${n}</button>`).join('')}
-        </div>
-        <div style="display:flex;gap:.5rem;justify-content:center;margin-bottom:1rem;">
-          ${[['SE','Selbsterhaltung'],['SO','Sozial'],['SX','Beziehung']].map(([k,v]) => `<button class="stille-inst-btn" data-inst="${k}" style="padding:.35rem .9rem;border-radius:20px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--ink);transition:all .15s;">${k} &ndash; ${v}</button>`).join('')}
-        </div>
-        <div id="stille-matrix-result" style="display:none;border-radius:12px;background:var(--paper);padding:.8rem 1rem;"></div>
+        <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Klang-Empfehlung f&uuml;r deinen Subtyp</p>
+        <p style="font-size:0.8rem;color:var(--ink-muted);text-align:center;margin:0 0 1.1rem;line-height:1.5;">W&auml;hle Typ und Instinktvariante &mdash; du erh&auml;ltst drei pers&ouml;nlich abgestimmte Kl&auml;nge.</p>
+        <div style="display:flex;gap:.4rem;justify-content:center;flex-wrap:wrap;margin-bottom:.8rem;"><button class="stille-typ-btn" data-typ="1" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #5f5f5f;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#5f5f5f;font-weight:600;transition:all .15s;opacity:.7;">Typ 1</button><button class="stille-typ-btn" data-typ="2" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #7a2fa8;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#7a2fa8;font-weight:600;transition:all .15s;opacity:.7;">Typ 2</button><button class="stille-typ-btn" data-typ="3" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #1fa688;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#1fa688;font-weight:600;transition:all .15s;opacity:.7;">Typ 3</button><button class="stille-typ-btn" data-typ="4" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #3cbf1f;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#3cbf1f;font-weight:600;transition:all .15s;opacity:.7;">Typ 4</button><button class="stille-typ-btn" data-typ="5" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #124fcc;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#124fcc;font-weight:600;transition:all .15s;opacity:.7;">Typ 5</button><button class="stille-typ-btn" data-typ="6" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #8a5222;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#8a5222;font-weight:600;transition:all .15s;opacity:.7;">Typ 6</button><button class="stille-typ-btn" data-typ="7" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #d4a800;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#d4a800;font-weight:600;transition:all .15s;opacity:.7;">Typ 7</button><button class="stille-typ-btn" data-typ="8" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #a00802;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#a00802;font-weight:600;transition:all .15s;opacity:.7;">Typ 8</button><button class="stille-typ-btn" data-typ="9" style="padding:.3rem .6rem;border-radius:20px;border:2px solid #cc6e00;background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:#cc6e00;font-weight:600;transition:all .15s;opacity:.7;">Typ 9</button></div>
+        <div style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem;"><button class="stille-inst-btn" data-inst="SE" style="padding:.35rem .9rem;border-radius:20px;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--copper);transition:all .15s;">SE &ndash; Selbsterhaltung</button><button class="stille-inst-btn" data-inst="SO" style="padding:.35rem .9rem;border-radius:20px;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--copper);transition:all .15s;">SO &ndash; Sozial</button><button class="stille-inst-btn" data-inst="SX" style="padding:.35rem .9rem;border-radius:20px;border:1.5px solid var(--copper);background:transparent;cursor:pointer;font-size:.82rem;font-family:inherit;color:var(--copper);transition:all .15s;">SX &ndash; Beziehung</button></div>
+        <div id="stille-matrix-result" style="display:none;display:flex;flex-direction:column;gap:.5rem;margin-top:.5rem;"></div>
       </div>
 
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
@@ -35923,17 +35919,15 @@ function _stilleInit() {
   function _stilleMatrixHighlight() {
     document.querySelectorAll('.stille-typ-btn').forEach(b => {
       const sel = b.dataset.typ === String(_stilleMatrixTyp);
-      b.style.borderColor = sel ? 'var(--copper)' : 'var(--border)';
-      b.style.background  = sel ? 'var(--paper)'  : 'transparent';
-      b.style.color       = sel ? 'var(--copper)'  : 'var(--ink)';
-      b.style.fontWeight  = sel ? '600' : 'normal';
+      b.style.opacity    = sel ? '1' : '0.55';
+      b.style.background = sel ? 'rgba(255,255,255,0.12)' : 'transparent';
+      b.style.transform  = sel ? 'scale(1.08)' : 'scale(1)';
     });
     document.querySelectorAll('.stille-inst-btn').forEach(b => {
       const sel = b.dataset.inst === _stilleMatrixInst;
-      b.style.borderColor = sel ? 'var(--copper)' : 'var(--border)';
-      b.style.background  = sel ? 'var(--paper)'  : 'transparent';
-      b.style.color       = sel ? 'var(--copper)'  : 'var(--ink)';
-      b.style.fontWeight  = sel ? '600' : 'normal';
+      b.style.opacity    = sel ? '1' : '0.6';
+      b.style.background = sel ? 'rgba(255,255,255,0.1)' : 'transparent';
+      b.style.fontWeight = sel ? '700' : 'normal';
     });
   }
 
