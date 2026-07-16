@@ -484,6 +484,41 @@ const TYPNAMEN_MOTIV = {
 };
 const text = uiText;
 
+// EN: override German nav labels with English
+text.nav = [
+  { route: "dashboard", label: "Compass" },
+  { route: "heilung", label: "Healing", dropdown: [
+    { route: "healing",        label: "Healing Compass" },
+    { route: "tcm",            label: "TCM & Meridians" },
+    { route: "homoeopathie",   label: "Homeopathic Remedies" },
+    { route: "mineralstoffe",  label: "Mineral Impulses" },
+    { route: "bachblueten",    label: "Bach Flowers" },
+    { route: "edelsteine",     label: "Gemstones" },
+    { route: "heiltees",       label: "Healing Teas" },
+    { route: "oils",           label: "Essential Oils" },
+    { route: "music",          label: "Music & Sound" },
+  ]},
+  { route: "praxis", label: "Practice", dropdown: [
+    { route: "practice", label: "Tools" },
+    { route: "differenzierung", label: "Differentiation" },
+    { route: "beziehungen", label: "Relationship Compass" },
+    { route: "situationskompass", label: "Situation Compass" },
+    { route: "krisenkompass", label: "Crisis Compass" },
+  ]},
+  { route: "wissen", label: "Knowledge", dropdown: [
+    { route: "knowledge", label: "Knowledge Base" },
+    { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
+    { route: "library", label: "Library" },
+    { route: "register", label: "Index" },
+    { route: "quiz", label: "Quiz" },
+    { route: "zitate", label: "Quotes of the Wise" },
+    { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
+    { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
+    { route: "tierlexikon", label: "Animal Lexicon" },
+  ]},
+  { route: "schaubilder", label: "Diagrams", dropdown: [] },
+];
+
 document.title = text.meta.appTitle;
 
 window.addEventListener("hashchange", () => {
@@ -749,8 +784,8 @@ function inhaltsübersichtPage() {
 
         <p style="font-size:0.95rem;color:var(--muted);margin:0 0 1.8rem;line-height:1.65;">
           Ein vollst\xe4ndiges Enneagramm-Universum &ndash; hier finden Sie alles,
-          was der Healing Compass enth\xe4lt. Klicken Sie auf eine Kategorie,
-          um die Inhalte aufzuklappen.
+          was der Healing Compass contains. Click on a category,
+          to expand the contents.
         </p>
 
         ${cat("Typensystem & Grundlagen", "&#9672;", [
@@ -1015,16 +1050,16 @@ function leseprobePage() {
           Fascinating Criminal Cases (Criminal Psychology)
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
-          ${KRIMINAL_PORTRAITS.length} tiefenpsychologische T\xe4terportr\xe4ts &ndash; ber\xfchmte F\xe4lle durch die Linse des Enneagramms. Lehrreich, pr\xe4zise, nie rei\xdferisch.
+          ${KRIMINAL_PORTRAITS.length} in-depth psychological perpetrator portraits &ndash; famous cases through the lens of the Enneagram. Educational, precise, never sensational.
         </p>
         <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
-          Von Dennis Nilsen bis Andrew Cunanan, von Adolf Hitler bis Jeffrey Dahmer &ndash; alle 9 Typen und alle 3 Subtypees vertreten.
+          From Dennis Nilsen to Andrew Cunanan, from Adolf Hitler to Jeffrey Dahmer &ndash; all 9 types and all 3 subtypes represented.
         </p>
         <div style="margin-top:0.5rem;">
           <button data-route="kriminalpsychologie"
             style="background:none;border:1px solid var(--gold);color:var(--copper);
                    border-radius:8px;padding:.4rem 1rem;font-size:0.83rem;cursor:pointer;">
-            Alle Portraits ansehen &rarr;
+            View all portraits &rarr;
           </button>
         </div>
       </div>
@@ -1454,14 +1489,14 @@ function startPage() {
     <section class="start-paths">
       <div class="start-path start-path--known">
         <div class="start-path__icon">◎</div>
-        <h2 class="start-path__title">Ich kenne meinen Subtype</h2>
-        <p class="start-path__body">Wählen Sie Ihren Subtype und erkunden Sie Remedies, TCM-Zuordnung, Kindheitsprägung, Musik und persönliche Entwicklungswege.</p>
-        <button class="start-path__btn" data-route="profile">Subtype wählen →</button>
+        <h2 class="start-path__title">I know my Subtype</h2>
+        <p class="start-path__body">Select your Subtype and explore Remedies, TCM assignments, childhood imprints, music, and personal development paths.</p>
+        <button class="start-path__btn" data-route="profile">Choose Subtype →</button>
       </div>
       <div class="start-path start-path--unknown">
         <div class="start-path__icon">◇</div>
-        <h2 class="start-path__title">Ich kenne meinen Typ noch nicht</h2>
-        <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
+        <h2 class="start-path__title">I don't know my Type yet</h2>
+        <p class="start-path__body">For an accurate type determination, we recommend one of the two tests or a personal typing consultation.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
@@ -1570,8 +1605,8 @@ function startPage() {
         </div>
         <div class="start-step">
           <span class="start-step__num">2</span>
-          <h3 class="start-step__title">Subtype-Profil erkunden</h3>
-          <p class="start-step__body">Jede der 27 Subtype-Seiten zeigt Remedies, TCM-Zuordnung, Kindheitsprägung, Musik und Entwicklungswege.</p>
+          <h3 class="start-step__title">Explore Subtype Profile</h3>
+          <p class="start-step__body">Each of the 27 Subtype pages shows Remedies, TCM assignments, childhood imprints, music, and development paths.</p>
         </div>
         <div class="start-step">
           <span class="start-step__num">3</span>
@@ -3434,18 +3469,18 @@ function beratungsCTA() {
       <div class="beratungs-cta__card beratungs-cta__card--behandlung">
         <div class="beratungs-cta__text">
           <p class="beratungs-cta__eyebrow">Enneagramm-Homöopathie</p>
-          <h3 class="beratungs-cta__title">Sie möchten sich homöopathisch behandeln lassen?</h3>
-          <p class="beratungs-cta__body">Die Enneagramm-Homöopathie arbeitet mit dem individuellen Remedies Ihres Typs. Wenn Sie eine persönliche Behandlung anstreben, können Sie eine Erstberatung anfragen.</p>
+          <h3 class="beratungs-cta__title">Would you like to receive homeopathic treatment?</h3>
+          <p class="beratungs-cta__body">Enneagram Homeopathy works with the individual remedies of your type. If you are seeking personal treatment, you can request an initial consultation.</p>
         </div>
         <a class="beratungs-cta__btn" href="https://www.psychologische-homoeopathie.de/beratung.html" target="_blank" rel="noopener">
-          Zur Erstberatung →
+          To the initial consultation →
         </a>
       </div>
       <div class="beratungs-cta__card beratungs-cta__card--typisierung">
         <div class="beratungs-cta__text">
-          <p class="beratungs-cta__eyebrow">Typisierungsberatung</p>
-          <h3 class="beratungs-cta__title">Noch unsicher über Ihren Typ oder Subtype?</h3>
-          <p class="beratungs-cta__body">Eine persönliche Typisierungsberatung gibt Klarheit. Sie können sich an Detlef oder David L. Rathmer wenden — beide sind erfahrene Typisierungsberater.</p>
+          <p class="beratungs-cta__eyebrow">Typing Consultation</p>
+          <h3 class="beratungs-cta__title">Still unsure about your Type or Subtype?</h3>
+          <p class="beratungs-cta__body">A personal typing consultation provides clarity. You can contact Detlef or David L. Rathmer — both are experienced typing consultants.</p>
         </div>
         <div class="beratungs-cta__berater-row">
           <div class="beratungs-cta__berater-item">
@@ -3737,7 +3772,7 @@ function typesPage() {
     <section class="narrow">
       <p class="eyebrow">Enneagram Healing Compass</p>
       <h1>Die 9 Grundtypen</h1>
-      <p class="lead-small">Wählen Sie Ihren Typ, um die drei Subtypees und alle Inhalte zu erkunden.</p>
+      <p class="lead-small">Select your Type to explore the three Subtypes and all content.</p>
     </section>
     <section class="typen-liste">${kartenHtml}</section>
   `);
@@ -3766,7 +3801,7 @@ function typePage(num) {
   return shell(`
     ${pageHeader("knowledge")}
     <section class="narrow">
-      <button class="ghost-link" data-route="knowledge">← Alle Typen</button>
+      <button class="ghost-link" data-route="knowledge">← All Types</button>
       <p class="eyebrow" style="color:${c}">Typ ${t.num} · ${t.label}</p>
       <h1 style="color:${c}">${t.name}</h1>
       <p class="lead-small">${t.thema}</p>
@@ -4203,15 +4238,15 @@ function profilePage() {
     ${firstVisit ? '' : pageHeader("profile")}
     <section class="narrow centered profile-intro">
       ${firstVisit ? `<div class="profile-intro__compass">${compassMark("small")}</div>` : ''}
-      <h1>${firstVisit ? 'Welcher Subtype sind Sie?' : 'Subtype wählen'}</h1>
+      <h1>${firstVisit ? 'Which Subtype are you?' : 'Choose Subtype'}</h1>
       <p class="lead-small">${firstVisit
-        ? 'Wählen Sie Ihren Enneagramm-Subtype. Der Kompass richtet sich vollständig auf Sie aus — Tagesimpuls, Muster, Werkzeuge und Heilungsweg.'
-        : 'Dein aktuelles Profil ist <strong>' + state.profile.code + ' · ' + state.profile.title + '</strong>. Wähle einen anderen Subtype, um den Kompass neu auszurichten.'
+        ? 'Select your Enneagram Subtype. The Compass aligns fully to you — daily impulse, patterns, tools and healing path.'
+        : 'Your current profile is <strong>' + state.profile.code + ' · ' + state.profile.title + '</strong>. Choose a different Subtype to realign the Compass.'
       }</p>
-      <p class="profile-type-hint">Kennen Sie Ihren Subtype noch nicht? Kein Problem — schauen Sie sich die drei Varianten Ihres Typs an (z.&nbsp;B. SE6, SO6, SX6) und wählen Sie die, die sich am stimmigsten anfühlt.</p>
+      <p class="profile-type-hint">Don't know your Subtype yet? No problem — look at the three variants of your type (e.g. SE6, SO6, SX6) and choose the one that feels most resonant.</p>
     </section>
     ${groupsHTML}
-    ${firstVisit ? `<p class="profile-skip">Not sure yet? <button class="ghost-link" data-route="knowledge">Erst den Wissens-Atlas erkunden</button></p>` : ''}
+    ${firstVisit ? `<p class="profile-skip">Not sure yet? <button class="ghost-link" data-route="knowledge">Explore the Knowledge Atlas first</button></p>` : ''}
   `);
 }
 
@@ -7934,7 +7969,7 @@ function stingPortraitPage() {
           <img src="./assets/portraits/beruehmte-sting-portrait.jpg" alt="Sting" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sting</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Musician, born 1951 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -7993,7 +8028,7 @@ function christophWaltzPortraitPage() {
           <img src="./assets/portraits/beruehmte-christoph-waltz-portrait.jpg" alt="Christoph Waltz" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Christoph Waltz</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
         <p class="krim-portrait-subtitle">Actor, born 1956 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -8052,7 +8087,7 @@ function johnLennonPortraitPage() {
           <img src="./assets/portraits/beruehmte-john-lennon-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Lennon</p>
-        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 mit Five-wing</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
         <p class="krim-portrait-subtitle">Musician, Composer &amp; Peace Activist, 1940&ndash;1980 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -8113,7 +8148,7 @@ function tilSchweigerPortraitPage() {
           <img src="./assets/portraits/beruehmte-til-schweiger-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Til Schweiger</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">Actor, Director &amp; Producer, born 1963 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -8181,7 +8216,7 @@ function taddlPortraitPage() {
           <img src="./assets/portraits/beruehmte-taddl-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Taddl (Daniel Tjarks)</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">YouTuber, Artist &amp; Musician, born 1996 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -8242,7 +8277,7 @@ function romySchneiderPortraitPage() {
           <img src="./assets/portraits/beruehmte-romy-schneider-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Romy Schneider</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">Actress, 1938&ndash;1982 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -8304,7 +8339,7 @@ function clemensArvayPortraitPage() {
           <img src="./assets/portraits/beruehmte-clemens-arvay-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clemens G. Arvay</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 mit Five-wing</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
         <p class="krim-portrait-subtitle">Author &amp; Biologist, 1980&ndash;2022 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
@@ -8366,7 +8401,7 @@ function freddieMercuryPortraitPage() {
           <img src="./assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Freddie Mercury</p>
-        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">Rock Singer &amp; Songwriter, 1946&ndash;1991 &ndash; Animal correspondence: Chihuahua</p>
       </div>
       <div class="page-content">
@@ -8427,7 +8462,7 @@ function anaDeArmasPortraitPage() {
           <img src="./assets/portraits/beruehmte-ana-de-armas-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ana de Armas</p>
-        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 mit Five-wing</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
         <p class="krim-portrait-subtitle">Actress, born 1988 &ndash; Animal correspondence: Chihuahua</p>
       </div>
       <div class="page-content">
@@ -8488,7 +8523,7 @@ function christianRaetschPortraitPage() {
           <img src="./assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Christian Rätsch</p>
-        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 mit Four-wing</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Ethnologist &amp; Ethnopharmacologist, 1957&ndash;2022 &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -8549,7 +8584,7 @@ function billGatesPortraitPage() {
           <img src="./assets/portraits/beruehmte-bill-gates-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bill Gates</p>
-        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 mit Six-wing</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">Microsoft co-founder, born 1955 &ndash; Animal correspondence: Octopus</p>
       </div>
       <div class="page-content">
@@ -8610,7 +8645,7 @@ function kollegahPortraitPage() {
           <img src="./assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kollegah</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 mit Five-wing</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Rapper, artist &amp; entrepreneur, born 1984 &ndash; converted to Islam in 2016 &ndash; Animal correspondence: Wolf</p>
       </div>
       <div class="page-content">
@@ -8671,7 +8706,7 @@ function aliceSchwarzerPortraitPage() {
           <img src="./assets/portraits/beruehmte-alice-schwarzer-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alice Schwarzer</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 mit Five-wing</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Journalist, feminist &amp; founder of Emma, born 1942 &ndash; Animal correspondence: Wolf</p>
       </div>
       <div class="page-content">
@@ -8731,7 +8766,7 @@ function ankeEngelkePortraitPage() {
           <img src="./assets/portraits/beruehmte-anke-engelke-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anke Engelke</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 mit Seven-wing</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Comedian, actress &amp; entertainer, born 1965 &ndash; Animal correspondence: Wolf</p>
       </div>
       <div class="page-content">
@@ -8789,7 +8824,7 @@ function jasminPaoliniPortraitPage() {
           <img src="./assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jasmine Paolini</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 mit Six-wing</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
         <p class="krim-portrait-subtitle">Tennis player, born 1996 &ndash; Animal correspondence: Gorilla</p>
       </div>
       <div class="page-content">
@@ -8847,7 +8882,7 @@ function hansZimmerPortraitPage() {
           <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans Zimmer</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Film composer, arranger &amp; music producer, born 1957 &ndash; Animal correspondence: Gorilla</p>
       </div>
       <div class="page-content">
@@ -8905,7 +8940,7 @@ function hazelBruggerPortraitPage() {
           <img src="./assets/portraits/beruehmte-hazel-brugger-portrait.jpg" alt="Hazel Brugger" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hazel Brugger</p>
-        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Comedian, cabaret artist &amp; author, born 1993 &ndash; Animal correspondence: Beaver</p>
       </div>
       <div class="page-content">
@@ -8963,7 +8998,7 @@ function inaMuellerPortraitPage() {
           <img src="./assets/portraits/beruehmte-ina-mueller-portrait.jpg" alt="Ina Müller" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ina Müller</p>
-        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Singer, cabaret artist &amp; presenter, born 1965 &ndash; Animal correspondence: Chimpanzee</p>
       </div>
       <div class="page-content">
@@ -9021,7 +9056,7 @@ function thomasGottschalkPortraitPage() {
           <img src="./assets/portraits/beruehmte-thomas-gottschalk-portrait.jpg" alt="Thomas Gottschalk" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Thomas Gottschalk</p>
-        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 mit Six-wing</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
         <p class="krim-portrait-subtitle">Television presenter, entertainer &amp; actor, born 1950 &ndash; Animal correspondence: Chimpanzee</p>
       </div>
       <div class="page-content">
@@ -9079,7 +9114,7 @@ function elonMuskPortraitPage() {
           <img src="./assets/portraits/beruehmte-elon-musk-portrait.jpg" alt="Elon Musk" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Elon Musk</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 mit Six-wing</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
         <p class="krim-portrait-subtitle">Entrepreneur &amp; visionary, born 1971 &ndash; Animal correspondence: Beaver</p>
       </div>
       <div class="page-content">
@@ -9137,7 +9172,7 @@ function umbertEcoPortraitPage() {
           <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Umberto Eco</p>
-        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 mit Seven-wing</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Writer, semiotician &amp; philosopher, 1932&ndash;2016 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -9196,7 +9231,7 @@ function toniMorrisonPortraitPage() {
           <img src="./assets/portraits/beruehmte-toni-morrison-portrait.jpg" alt="Toni Morrison" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Toni Morrison</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Author &amp; Nobel Prize laureate in literature, 1931&ndash;2019 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -11698,7 +11733,7 @@ function adolfHitlerPortraitPage() {
           <img src="./assets/portraits/adolf-hitler-portrait.jpg" alt="Adolf Hitler – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Adolf Hitler</p>
-        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Österreichisch-deutscher Diktator und Massenmörder · Animal correspondence: Chihuahua</p>
       </div>
 
@@ -11719,7 +11754,7 @@ function adolfHitlerPortraitPage() {
         <strong>Rivalit\xe4t</strong>: das intensive, konkurrierende Begehren nach dem, was andere haben.
         Der Fl\xfcgel 5 erg\xe4nzt dies mit intellektueller Isolation, pseudo-theoretischem Weltbild-Konstruieren
         und der F\xe4higkeit, sich vollst\xe4ndig von der Realit\xe4t abzukoppeln. In seiner pathologischsten
-        Auspr\xe4gung ist die sexuelle Vier mit Five-wing der gef\xe4hrlichste Typ des Enneagramms: Neid, Grandiosit\xe4t und
+        Auspr\xe4gung ist die sexuelle Vier with Five-wing der gef\xe4hrlichste Typ des Enneagramms: Neid, Grandiosit\xe4t und
         k\xfchle intellektuelle Planung verbinden sich zu einer Ideologie des Vernichtungswillens.</p>
       </div>
 
@@ -11921,7 +11956,7 @@ function lukaMagnottaPortraitPage() {
           <img src="./assets/portraits/luka-magnotta-portrait.jpg" alt="Luka Magnotta – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Luka Magnotta</p>
-        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Kanadischer Mörder und Selbstinszenierungstäter · Animal correspondence: Pfau</p>
       </div>
 
@@ -11935,7 +11970,7 @@ function lukaMagnottaPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Luka Magnotta</strong> wird dem <strong>Sexuellen Typ 3 mit Four-wing</strong> im Enneagramm zugeordnet.
+        <strong>Luka Magnotta</strong> wird dem <strong>Sexuellen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
         Die Leidenschaft der Drei ist <em>T\xe4uschung</em> (Deceit) – beim sexuellen Subtype
         ausgedr\xfcckt als <strong>Charisma und Verf\xfchrung</strong>: das Bed\xfcrfnis, durch Bild,
         K\xf6rper und Ausstrahlung die begehrenswerteste Person im Raum zu sein.
@@ -12136,7 +12171,7 @@ function richardRamirezPortraitPage() {
           <img src="./assets/portraits/richard-ramirez-portrait.jpg" alt="Richard Ramírez – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Richard Ramírez</p>
-        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Night Stalker" – Südkalifornien 1984–1985</p>
       </div>
       <p class="psycho-intro">
@@ -12157,7 +12192,7 @@ function richardRamirezPortraitPage() {
 
       <div class="vb-section" style="background:rgba(100,0,120,0.06);border-left:3px solid #640078;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Richard Ramírez</strong> wird dem <strong>Sexuellen Typ 3 mit Four-wing</strong> zugeordnet.
+        <strong>Richard Ramírez</strong> wird dem <strong>Sexuellen Typ 3 with Four-wing</strong> zugeordnet.
         Die sexuelle Drei ist auf intensive, exklusive Verbindung ausgerichtet –
         sie will in den Augen des anderen einzigartig, unwiderstehlich, unvergesslich sein.
         Der Four-wing verleiht ihr Tiefe, Dunkelheit, das Bedürfnis nach einem
@@ -12296,7 +12331,7 @@ function richardRamirezPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX3w4 – Sexuelle Drei mit Four-wing.<br>
+        <strong>Subtype:</strong> SX3w4 – Sexuelle Drei with Four-wing.<br>
         <strong>Leidenschaft:</strong> Eitelkeit – Selbstmythologisierung, Schrecken als Marke, Unsterblichkeit als Ziel.<br>
         <strong>Stresspunkt:</strong> Neun – Dissoziation, Entrückung, der traumhafte Zustand während der Taten.<br>
         <strong>Animal correspondence:</strong> Pfau – existiert um gesehen zu werden; bei Ramírez: das Rad als satanische Ikonografie.<br>
@@ -12335,7 +12370,7 @@ function harveyWeinsteinPortraitPage() {
           <img src="./assets/portraits/harvey-weinstein-portrait.jpg" alt="Harvey Weinstein – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Harvey Weinstein</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Filmproduzent und Serientäter · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -12421,7 +12456,7 @@ function harveyWeinsteinPortraitPage() {
         das Gute und das Gef\xe4hrliche kommen aus derselben Quelle.</p>
         <p class="vb-intro"><strong>b) Unterdr\xfcckende Pr\xe4senz:</strong>
         Gleichzeitig wurde er von Mitarbeitern als tyrannisch, explosiv und unberechenbar
-        beschrieben. Der selbsterhaltende Zwei mit One-wing kann bei Frustration seiner Anspruchsstruktur in extreme
+        beschrieben. Der selbsterhaltende Zwei with One-wing kann bei Frustration seiner Anspruchsstruktur in extreme
         Wutausbr\xfcche verfallen – wenn das Geben nicht die erwartete R\xfcckkehr bringt.</p>
         <p class="vb-intro"><strong>c) Genie und Monster in einer Person:</strong>
         Diese Doppelnatur erm\xf6glichte es dem System, so lange wegzusehen. Denn wer Weinstein
@@ -12518,7 +12553,7 @@ function harveyWeinsteinPortraitPage() {
         Frauenrechts-Kampagnen und an die Demokratische Partei. Er finanzierte Filme,
         die Frauen in starken Rollen zeigten. Der Fl\xfcgel 1 liefert der selbsterhaltenden Zwei eine
         moralische Identit\xe4t: <em>Ich bin auf der richtigen Seite der Geschichte.</em>
-        Diese Selbstwahrnehmung als guter Mensch ist keine Heuchelei – die selbsterhaltende Zwei mit One-wing glaubt
+        Diese Selbstwahrnehmung als guter Mensch ist keine Heuchelei – die selbsterhaltende Zwei with One-wing glaubt
         es wirklich. Das macht die Diskrepanz zwischen Selbstbild und Taten so extrem.</p>
         <p class="vb-intro"><strong>g) Das systemische Schweigen – Komplizenschaft als Produkt der selbsterhaltenden Zwei:</strong>
         Hunderte Menschen in Hollywood wussten es oder ahnten es – und schwiegen.
@@ -12560,7 +12595,7 @@ function pabloEscobarPortraitPage() {
           <img src="./assets/portraits/pablo-escobar-portrait.jpg" alt="Pablo Escobar – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pablo Escobar</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Pablo Escobar</strong> (1949–1993) war der Kopf des Medell\xedn-Kartells und kontrollierte
@@ -12572,7 +12607,7 @@ function pabloEscobarPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Pablo Escobar</strong> wird dem <strong>Self-Preservationen Typ 3 mit Four-wing</strong> im Enneagramm zugeordnet.
+        <strong>Pablo Escobar</strong> wird dem <strong>Self-Preservationen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
         Die Leidenschaft der Drei ist <em>T\xe4uschung</em> (Deceit) – aber beim selbsterhaltenden
         Subtype richtet sie sich nicht auf Image und \xf6ffentliche Bewunderung wie bei der Sozialen Drei,
         sondern auf <strong>Akkumulation und Sicherheit</strong>: Reichtum, Kontrolle, Ressourcen.
@@ -12780,7 +12815,7 @@ function dennisNilsenPortraitPage() {
           <img src="./assets/portraits/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
-        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Mörder von Melrose Avenue" – London 1978–1983</p>
       </div>
       <p class="psycho-intro">
@@ -12803,7 +12838,7 @@ function dennisNilsenPortraitPage() {
 
       <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dennis Nilsen</strong> wird dem <strong>Self-Preservationen Typ 1 mit Two-wing</strong> zugeordnet.
+        <strong>Dennis Nilsen</strong> wird dem <strong>Self-Preservationen Typ 1 with Two-wing</strong> zugeordnet.
         Die selbsterhaltende Eins organisiert ihr Leben um innere Ordnung, Korrektheit
         und die Aufrechterhaltung einer bestimmten Qualität des privaten Raums.
         Der Two-wing verleiht ihr Wärme, Fürsorge, das Bedürfnis, gebraucht und geliebt zu werden.
@@ -12941,7 +12976,7 @@ function dennisNilsenPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins mit Two-wing.<br>
+        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – der stille Ordnungszwang, der nicht erlaubte, dass Verbindungen endeten.<br>
         <strong>Stresspunkt:</strong> Vier – chronische Einsamkeit, Melancholie, das Gefühl fundamentaler Unverbundenheit.<br>
         <strong>Animal correspondence:</strong> Adler – majestätisch, präzise, vollständig auf den eigenen Raum fixiert.<br>
@@ -12980,7 +13015,7 @@ function dorotheaPuentePortraitPage() {
           <img src="./assets/portraits/dorothea-puente-portrait.jpg" alt="Dorothea Puente \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dorothea Puente</p>
-        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Die Vermieterin des Todes" – Sacramento, Kalifornien 1982–1988</p>
       </div>
       <p class="psycho-intro">
@@ -13003,7 +13038,7 @@ function dorotheaPuentePortraitPage() {
 
       <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dorothea Puente</strong> wird dem <strong>Self-Preservationen Typ 1 mit Two-wing</strong> zugeordnet.
+        <strong>Dorothea Puente</strong> wird dem <strong>Self-Preservationen Typ 1 with Two-wing</strong> zugeordnet.
         Die selbsterhaltende Eins organisiert ihr Leben um innere Ordnung, Kontrolle
         und die Aufrechterhaltung eines makellosen privaten Raums.
         Der Two-wing verleiht ihr Wärme, Hilfsbereitschaft und das Bedürfnis,
@@ -13137,7 +13172,7 @@ function dorotheaPuentePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
-        Dorothea Puente zeigt, wie die selbsterhaltende Eins mit Two-wing
+        Dorothea Puente zeigt, wie die selbsterhaltende Eins with Two-wing
         zur perfekten Täterin werden kann – nicht durch Aggression, sondern durch
         die absolute Kontrolle über einen geschlossenen Raum und die Menschen darin.
         Sie brauchte keine Waffe. Sie brauchte ein Haus, Medikamente und das Vertrauen
@@ -13155,7 +13190,7 @@ function dorotheaPuentePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins mit Two-wing.<br>
+        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – still, akkumuliert, endgültig; richtet ohne Aufschrei.<br>
         <strong>Stresspunkt:</strong> Vier – innere Leere, Unfähigkeit zu echter Verbindung, Fürsorge als Inszenierung.<br>
         <strong>Animal correspondence:</strong> Adler – makellos, präzise, herrscht im eigenen Horst ohne Lärm.<br>
@@ -13196,7 +13231,7 @@ function michailPopkowPortraitPage() {
           <img src="./assets/portraits/michail-popkow-portrait.jpg" alt="Michail Popkow – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michail Popkow</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Michail Wiktorowitsch Popkow</strong>, geboren am 7. März 1964
@@ -13215,7 +13250,7 @@ function michailPopkowPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Michail Popkow</strong> wird der <strong>Self-Preservationen Eins mit Nine-wing</strong>
+        <strong>Michail Popkow</strong> wird der <strong>Self-Preservationen Eins with Nine-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen moralische Unvollkommenheit,
         gegen das Unreine, gegen das, was als Abweichung von der Ordnung erlebt wird.
@@ -13492,7 +13527,7 @@ function dennisRaderPortraitPage() {
           <img src="./assets/portraits/dennis-rader-portrait.jpg" alt="Dennis Rader – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dennis Rader</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Dennis Lynn Rader</strong>, geboren am 9. März 1945 in Pittsburg, Kansas,
@@ -13509,7 +13544,7 @@ function dennisRaderPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dennis Rader</strong> wird der <strong>Self-Preservationen Eins mit Nine-wing</strong>
+        <strong>Dennis Rader</strong> wird der <strong>Self-Preservationen Eins with Nine-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen innere Unvollkommenheit und gegen eine Welt,
         die als ungerecht oder unkontrollierbar erlebt wird. Die selbsterhaltende Eins (SE1)
@@ -13765,7 +13800,7 @@ function andreiTschikatiloPortraitPage() {
           <img src="./assets/portraits/andrei-tschikatilo-portrait.jpg" alt="Andrei Tschikatilo – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andrei Tschikatilo</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Andrei Romanowitsch Tschikatilo</strong>, geboren am 16. Oktober 1936
@@ -14151,7 +14186,7 @@ function arnoFunkePortraitPage() {
           <img src="./assets/portraits/arno-funke-portrait.jpg" alt="Arno Funke – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Arno Funke</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Arno Funke</strong>, besser bekannt als „Dagobert“, ist einer der bekanntesten deutschen
@@ -14376,7 +14411,7 @@ function chrisWattsPortraitPage() {
           <img src="./assets/portraits/chris-watts-portrait.jpg" alt="Chris Watts – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Chris Watts</p>
-        <p class="krim-portrait-typ">SO7w6 · Social Type 7 mit Six-wing</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Familienmörder · Animal correspondence: Biber</p>
       </div>
 
@@ -14432,7 +14467,7 @@ function chrisWattsPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Chris Lee Watts</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. Mai 1985, Spring Lake, North Carolina</p>
           <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Verbüßt fünf lebenslange Haftstrafen ohne Bewährungsmöglichkeit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO7w6 – Social Type 7 mit Six-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO7w6 – Social Type 7 with Six-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Biber</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> Shanann Watts (34, schwanger), Bella Watts (4), Celeste Watts (3) – getötet am 13. August 2018</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Maßlosigkeit</p>
@@ -14471,7 +14506,7 @@ function aileenWuornosPortraitPage() {
           <img src="./assets/portraits/aileen-wuornos-portrait.jpg" alt="Aileen Wuornos – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Aileen Wuornos</p>
-        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Florida 1989–1990 · 7 Morde</p>
       </div>
       <p class="psycho-intro">
@@ -14494,7 +14529,7 @@ function aileenWuornosPortraitPage() {
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Aileen Wuornos</strong> wird dem <strong>Sexuellen Typ 7 mit Eight-wing</strong> zugeordnet.
+        <strong>Aileen Wuornos</strong> wird dem <strong>Sexuellen Typ 7 with Eight-wing</strong> zugeordnet.
         Die sexuelle Sieben idealisiert die eine, vollkommene Beziehung –
         sie sucht einen einzigen Menschen, der alles sein soll: Heimat, Schutz, Anerkennung, Liebe.
         Diese Intensität auf eine einzige Person zu richten ist ihr Grundmuster und ihr Verhängnis.
@@ -14629,7 +14664,7 @@ function aileenWuornosPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben mit Eight-wing.<br>
+        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben with Eight-wing.<br>
         <strong>Leidenschaft:</strong> Maßlosigkeit (Völlerei) – das unstillbare Verlangen nach vollkommener Zweierbindung, nicht nach Erlebnissen.<br>
         <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, moralische Verhärtung.<br>
         <strong>Animal correspondence:</strong> Schimpanse – intensiv gebunden, leidenschaftlich, zur Gewalt fähig wenn die Bindung bedroht ist.<br>
@@ -14669,7 +14704,7 @@ function pDiddyPortraitPage() {
           <img src="./assets/portraits/p-diddy-portrait.jpg" alt="Sean P. Diddy Combs – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sean „P. Diddy“ Combs</p>
-        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">New York 1990–2024 · Verurteilt 2025</p>
       </div>
       <p class="psycho-intro">
@@ -14695,7 +14730,7 @@ function pDiddyPortraitPage() {
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Sean Combs</strong> wird dem <strong>Sexuellen Typ 7 mit Eight-wing</strong> zugeordnet.
+        <strong>Sean Combs</strong> wird dem <strong>Sexuellen Typ 7 with Eight-wing</strong> zugeordnet.
         Die sexuelle Sieben ist nicht nur die Sieben, die von Party zu Party springt –
         sie sucht die absolute Intensität: im Erleben, in der Kontrolle, in der Verbindung.
         Sie will alles, und sie will es vollständig.
@@ -14823,7 +14858,7 @@ function pDiddyPortraitPage() {
         galten als kulturelle Institutionen – Gästelisten lasen sich wie Who's Who der Unterhaltungswelt.
         Er trat als Philanthrop auf, unterstützte Bildungsinitiativen, sprach über seine Mutter
         und seine schwierige Kindheit. Das Bild: ein Selfmade-Mensch, der zurückgibt.
-        Die sexuelle Sieben mit Eight-wing versteht instinktiv,
+        Die sexuelle Sieben with Eight-wing versteht instinktiv,
         dass öffentliche Strahlkraft Schutz ist. Wer so sichtbar beliebt ist,
         wirkt per Definition unverdächtig.</p>
 
@@ -14894,7 +14929,7 @@ function pDiddyPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
         <p class="vb-intro">
         <strong>Name:</strong> Sean John Combs (Künstlername: P. Diddy, Puff Daddy, Diddy)<br>
-        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben mit Eight-wing<br>
+        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben with Eight-wing<br>
         <strong>Leidenschaft:</strong> Maßlosigkeit – das unstillbare Verlangen nach Genuss, Kontrolle und Intensität ohne natürliche Grenze<br>
         <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, Überzeugung eigener Legitimität<br>
         <strong>Animal correspondence:</strong> Schimpanse – hochintelligent, sozial dominant, zur kalkulierten kollektiven Gewalt fähig<br>
@@ -15037,7 +15072,7 @@ function salvatoreRiinaPortraitPage() {
           <img src="./assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Salvatore Riina</p>
-        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Sizilianischer Mafia-Boss und Massenmörder · Animal correspondence: Orang-Utan</p>
       </div>
 
@@ -15527,7 +15562,7 @@ function samuelBankmanFriedPortraitPage() {
           <img src="./assets/portraits/samuel-bankman-fried-portrait.jpg" alt="Samuel Bankman-Fried – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Samuel Bankman-Fried</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Samuel „Sam" Bankman-Fried</strong>, geboren am 5. März 1992,
@@ -15549,7 +15584,7 @@ function samuelBankmanFriedPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Samuel Bankman-Fried</strong> wird dem <strong>Self-Preservationen Typ 3 mit Four-wing</strong>
+        <strong>Samuel Bankman-Fried</strong> wird dem <strong>Self-Preservationen Typ 3 with Four-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> –
         das tiefe Bedürfnis, durch Leistung und Erfolg zu existieren,
         das eigene Bild konsequent auf Wirkung auszurichten
@@ -15776,7 +15811,7 @@ function samuelBankmanFriedPortraitPage() {
         Wenn Erfolg nicht mehr möglich ist,
         schaltet sie ab.</p>
         <p class="vb-intro"><strong>d) Vergleich mit Ruja Ignatova (SE3w4):</strong>
-        Beide sind selbsterhaltende Dreien mit Four-wing,
+        Beide sind selbsterhaltende Dreien with Four-wing,
         beide im Kryptobereich tätig,
         beide mit einer narrativen Hülle um ihr Vergehen:
         Ignatova als „Cryptoqueen", <strong>Bankman-Fried</strong> als Altruist.
@@ -15840,7 +15875,7 @@ function rujaIgnatovaPortraitPage() {
           <img src="./assets/portraits/ruja-ignatova-portrait.jpg" alt="Ruja Ignatova – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ruja Ignatova</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Bulgarisch-deutsche Betrügerin, „Cryptoqueen" · Animal correspondence: Waschbär</p>
       </div>
 
@@ -16071,7 +16106,7 @@ function johnWayneGacyPortraitPage() {
           <img src="./assets/portraits/john-wayne-gacy-portrait.jpg" alt="John Wayne Gacy – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Wayne Gacy</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Killer Clown" · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -16424,7 +16459,7 @@ function karlaHomolkaPortraitPage() {
           <img src="./assets/portraits/karla-homolka-portrait.jpg" alt="Karla Homolka – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Karla Homolka</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Kanada 1990–1993</p>
       </div>
       <p class="psycho-intro">
@@ -16445,7 +16480,7 @@ function karlaHomolkaPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Karla Homolka</strong> wird dem <strong>Self-Preservationen Typ 3 mit Four-wing</strong> zugeordnet.
+        <strong>Karla Homolka</strong> wird dem <strong>Self-Preservationen Typ 3 with Four-wing</strong> zugeordnet.
         Die selbsterhaltende Drei organisiert ihr Leben um den Aufbau eines stabilen, attraktiven Selbstbildes –
         Sicherheit durch Erscheinungsbild, Kontrolle durch Anpassung.
         Der Four-wing bringt Tiefe, Selbstbezogenheit und die Fähigkeit zur emotionalen Selbstinszenierung.
@@ -16551,7 +16586,7 @@ function karlaHomolkaPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE3w4 – Self-Preservatione Drei mit Four-wing.<br>
+        <strong>Subtype:</strong> SE3w4 – Self-Preservatione Drei with Four-wing.<br>
         <strong>Leidenschaft:</strong> Täuschung (Vanity) – das Selbstbild über die Wirklichkeit stellen.<br>
         <strong>Stresspunkt:</strong> Neun – Selbstauslöschung, Passivität, Verschwinden hinter dem Willen eines anderen.<br>
         <strong>Animal correspondence:</strong> Waschbär – natürliche Maske, extreme Anpassungsfähigkeit, immer ein Entkommen.<br>
@@ -16591,7 +16626,7 @@ function busterMurdaughPortraitPage() {
           <img src="./assets/portraits/buster-murdaugh-portrait.jpg" alt="Buster Murdaugh – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Buster Murdaugh</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Buster Murdaugh</strong> ist der \xfcberlebende Sohn von Alex Murdaugh –
@@ -16859,7 +16894,7 @@ function angelResendezPortraitPage() {
           <img src="./assets/portraits/angel-resendez-portrait.jpg" alt="Ángel Reséndez – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ángel Reséndez</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Eisenbahn-Killer" – USA 1997–1999</p>
       </div>
       <p class="psycho-intro">
@@ -16881,7 +16916,7 @@ function angelResendezPortraitPage() {
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Ángel Reséndez</strong> wird dem <strong>Self-Preservationen Typ 2 mit One-wing</strong> zugeordnet.
+        <strong>Ángel Reséndez</strong> wird dem <strong>Self-Preservationen Typ 2 with One-wing</strong> zugeordnet.
         Die selbsterhaltende Zwei – auch als <em>„Ich zuerst"</em> oder <em>„Privileg"</em> bezeichnet –
         sichert ihren Platz in der Welt durch Annäherung, durch das Erzwingen von Nähe,
         durch das Besetzen fremder Sphären.
@@ -17020,7 +17055,7 @@ function angelResendezPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Ángel Maturino Reséndez</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Izúcar de Matamoros, Puebla, Mexiko</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 mit One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 with One-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Bestätigte Opfer:</strong> 9 Morde in den USA (1997–1999); 6 weitere zugeschrieben</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
@@ -17057,7 +17092,7 @@ function tommyLynnSellsPortraitPage() {
           <img src="./assets/portraits/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Tommy Lynn Sells</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Coast-to-Coast-Killer" – USA 1980–1999</p>
       </div>
       <p class="psycho-intro">
@@ -17075,7 +17110,7 @@ function tommyLynnSellsPortraitPage() {
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Tommy Lynn Sells</strong> wird dem <strong>Self-Preservationen Typ 2 mit One-wing</strong> zugeordnet.
+        <strong>Tommy Lynn Sells</strong> wird dem <strong>Self-Preservationen Typ 2 with One-wing</strong> zugeordnet.
         Die selbsterhaltende Zwei sichert ihren Selbstwert durch Fürsorge, Unentbehrlichkeit
         und das Erschaffen von Nähe – auch zu Fremden, auch dort, wo Nähe zur Gefahr wird.
         Der One-wing verleiht ihr moralische Selbstgerechtigkeit:
@@ -17217,7 +17252,7 @@ function tommyLynnSellsPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 mit One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 with One-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 bestätigt, bis zu 70 beansprucht</p>
           <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz · <strong>Stresspunkt:</strong> Typ 8</p>
@@ -17252,7 +17287,7 @@ function peterSutcliffePortraitPage() {
           <img src="./assets/portraits/peter-sutcliffe-portrait.jpg" alt="Peter Sutcliffe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Sutcliffe</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Yorkshire Ripper" – Nordengland 1975–1980</p>
       </div>
       <p class="psycho-intro">
@@ -17274,7 +17309,7 @@ function peterSutcliffePortraitPage() {
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Peter Sutcliffe</strong> wird dem <strong>Self-Preservationen Typ 2 mit One-wing</strong> zugeordnet.
+        <strong>Peter Sutcliffe</strong> wird dem <strong>Self-Preservationen Typ 2 with One-wing</strong> zugeordnet.
         Die selbsterhaltende Zwei koppelt ihren Selbstwert an das Bild des Unentbehrlichen,
         des Beschützers, des Menschen, der für andere da ist.
         Der One-wing verleiht ihr moralische Strenge, ein inneres Regelwerk
@@ -17419,7 +17454,7 @@ function peterSutcliffePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
-        Peter Sutcliffe zeigt, wie der selbsterhaltende Typ 2 mit One-wing
+        Peter Sutcliffe zeigt, wie der selbsterhaltende Typ 2 with One-wing
         zur tödlichsten Kombination werden kann:
         Fürsorge nach außen schafft Unsichtbarkeit.
         Moralisches Regelwerk nach innen schafft Rechtfertigung.
@@ -17437,7 +17472,7 @@ function peterSutcliffePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE2w1 – Self-Preservatione Zwei mit One-wing.<br>
+        <strong>Subtype:</strong> SE2w1 – Self-Preservatione Zwei with One-wing.<br>
         <strong>Leidenschaft:</strong> Stolz – Überlegenheitsgefühl, moralische Selbstgerechtigkeit, Unantastbarkeit des eigenen Urteils.<br>
         <strong>Stresspunkt:</strong> Acht – explosive Aggression, rohe Gewalt als Entladung eines übervollen Systems.<br>
         <strong>Animal correspondence:</strong> Flusspferd – scheinbar harmlos, gefährlichstes Großtier Afrikas, schlägt zu wenn die innere Sphäre verletzt ist.<br>
@@ -17478,7 +17513,7 @@ function annaDelveyPortraitPage() {
           <img src="./assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anna Delvey</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russisch-deutsche Hochstaplerin in New York · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -17722,7 +17757,7 @@ function jonathanMeijerPortraitPage() {
           <img src="./assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jonathan Meijer</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Jonathan Meijer</strong> ist ein niederl\xe4ndischer Samenspender, der \xfcber 550 Kinder
@@ -17992,7 +18027,7 @@ function michaelFranzesePortraitPage() {
           <img src="./assets/portraits/michael-franzese-portrait.jpg" alt="Michael Franzese – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Franzese</p>
-        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 mit Two-wing</p>
+        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Mafia-Underboss und Aussteiger · Animal correspondence: Waschbär</p>
       </div>
 
@@ -18198,7 +18233,7 @@ function sebastianGreenwoodPortraitPage() {
           <img src="./assets/portraits/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sebastian Greenwood</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Sebastian Greenwood</strong> (geb. 1978, Schweden) war Mitgr\xfcnder und
@@ -18394,7 +18429,7 @@ function pedroAlonsoLopezPortraitPage() {
           <img src="./assets/portraits/pedro-alonso-lopez-portrait.jpg" alt="Pedro Alonso López – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pedro Alonso López</p>
-        <p class="krim-portrait-typ">SO3w2 · Social Type 3 mit Two-wing</p>
+        <p class="krim-portrait-typ">SO3w2 · Social Type 3 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Das Monster der Anden" – Kolumbien, Peru, Ecuador 1969–1980</p>
       </div>
       <p class="psycho-intro">
@@ -18413,7 +18448,7 @@ function pedroAlonsoLopezPortraitPage() {
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid #b47800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Pedro Alonso López</strong> wird dem <strong>Sozialen Typ 3 mit Two-wing</strong> zugeordnet.
+        <strong>Pedro Alonso López</strong> wird dem <strong>Sozialen Typ 3 with Two-wing</strong> zugeordnet.
         Die soziale Drei ist der Verstärkungstyp unter den Dreiertypen –
         sie koppelt ihren Selbstwert vollständig an sozialen Status, Ansehen und Leistungsnachweis.
         Der Two-wing verleiht ihr Wärme, Zugewandtheit und die Fähigkeit,
@@ -18568,7 +18603,7 @@ function pedroAlonsoLopezPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO3w2 – Soziale Drei mit Two-wing.<br>
+        <strong>Subtype:</strong> SO3w2 – Soziale Drei with Two-wing.<br>
         <strong>Leidenschaft:</strong> Eitelkeit – Selbstwert durch Akkumulation, Leistung ohne Inhalt, Erfolg als Selbstzweck.<br>
         <strong>Stresspunkt:</strong> Neun – Betäubung, Dissoziation, das affektlose Abarbeiten einer inneren Routine.<br>
         <strong>Animal correspondence:</strong> Gepard – präzise, schnell, vertrauenserweckend bis zur letzten Sekunde.<br>
@@ -18807,7 +18842,7 @@ function wadeWilsonPortraitPage() {
           <img src="./assets/portraits/wade-wilson-portrait.jpg" alt="Wade Wilson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wade Wilson</p>
-        <p class="krim-portrait-typ">SO3w4 · Social Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, Florida · Animal correspondence: Gepard</p>
       </div>
 
@@ -18830,7 +18865,7 @@ function wadeWilsonPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wade Wilson</strong> wird dem <strong>Sozialen Typ 3 mit Four-wing</strong>
+        <strong>Wade Wilson</strong> wird dem <strong>Sozialen Typ 3 with Four-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> –
         nicht im flachen Sinne von Egoismus, sondern als tiefes strukturelles Bedürfnis,
         durch Leistung, Bild und Wirkung auf andere zu existieren.
@@ -19045,7 +19080,7 @@ function wadeWilsonPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Wade Wilson</strong> verkörpert den Sozialen Typ 3 mit Four-wing
+        <strong>Wade Wilson</strong> verkörpert den Sozialen Typ 3 with Four-wing
         in einer Ausprägung, die das Muster der Drei
         bis an seine äußerste Grenze führt.
         Die soziale Drei braucht ein Publikum,
@@ -19280,7 +19315,7 @@ function davidBerkowitzPortraitPage() {
           <img src="./assets/portraits/david-berkowitz-portrait.jpg" alt="David Berkowitz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">David Berkowitz</p>
-        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Son of Sam" · Animal correspondence: Taube</p>
       </div>
 
@@ -19294,7 +19329,7 @@ function davidBerkowitzPortraitPage() {
         den Auftrag zu töten gegeben. 1977 verhaftet, wurde er zu 365 Jahren
         Gefängnis verurteilt. Im Gefängnis konvertierte er zum christlichen
         Glauben und nennt sich seitdem „Son of Hope“. Diese Analyse fragt:
-        Wie formt die selbsterhaltende Vier mit Three-wing einen Menschen,
+        Wie formt die selbsterhaltende Vier with Three-wing einen Menschen,
         der seine tiefste Einsamkeit in Gewalt verwandelt?
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
@@ -19504,7 +19539,7 @@ function johnMcAfeePortraitPage() {
         Steuerhinterziehung verhaftet, starb er 2021 in einer spanischen
         Gefängniszelle – offiziell durch Suizid, nach Ansicht vieler durch das
         System, dem er ein Leben lang getrotzt hatte. Diese Analyse fragt:
-        Wie formt die sexuelle Acht mit Nine-wing einen Menschen, der
+        Wie formt die sexuelle Acht with Nine-wing einen Menschen, der
         Grenzen nicht respektiert – weder die der Gesellschaft noch die seiner selbst?
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
@@ -19904,7 +19939,7 @@ function nickLeesonPortraitPage() {
           <img src="./assets/portraits/nick-leeson-portrait.jpg" alt="Nick Leeson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nick Leeson</p>
-        <p class="krim-portrait-typ">SO9w8 · Social Type 9 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SO9w8 · Social Type 9 with Eight-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Rogue Trader · Barings Bank, Singapur 1992–1995 · Animal correspondence: Büffel</p>
       </div>
       <div class="page-content">
@@ -20230,7 +20265,7 @@ function nielsHoegelPortraitPage() {
           <img src="./assets/portraits/niels-hoegel-portrait.jpg" alt="Niels Högel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Niels Högel</p>
-        <p class="krim-portrait-typ">SE7w8 · Self-Preservation Type 7 mit Eight-wing</p>
+        <p class="krim-portrait-typ">SE7w8 · Self-Preservation Type 7 with Eight-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Krankenpfleger und Serienmörder · Animal correspondence: Gorilla</p>
       </div>
 
@@ -20445,7 +20480,7 @@ function joachimKrollPortraitPage() {
           <img src="./assets/portraits/joachim-kroll-portrait.jpg" alt="Joachim Kroll – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Joachim Kroll</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 mit Six-wing</p>
+        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder und Kannibale · Animal correspondence: Eule</p>
       </div>
 
@@ -20468,7 +20503,7 @@ function joachimKrollPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Joachim Kroll</strong> wird der <strong>Self-Preservationen Fünf mit Six-wing</strong>
+        <strong>Joachim Kroll</strong> wird der <strong>Self-Preservationen Fünf with Six-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Fünf ist <em>Geiz</em> –
         nicht im monetären Sinne, sondern als radikales Horten von Energie, Ressourcen
         und innerem Erleben. Die selbsterhaltende Fünf (SE5) ist der
@@ -20890,7 +20925,7 @@ function haroldShipmanPortraitPage() {
           <img src="./assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Harold Shipman</p>
-        <p class="krim-portrait-typ">SO5w6 · Social Type 5 mit Six-wing</p>
+        <p class="krim-portrait-typ">SO5w6 · Social Type 5 with Six-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Doctor Death" – Hyde, England 1975–1998</p>
       </div>
       <p class="psycho-intro">
@@ -20907,7 +20942,7 @@ function haroldShipmanPortraitPage() {
 
       <div class="vb-section" style="background:rgba(0,60,100,0.06);border-left:3px solid #003c64;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Harold Shipman</strong> wird dem <strong>Sozialen Typ 5 mit Six-wing</strong> zugeordnet.
+        <strong>Harold Shipman</strong> wird dem <strong>Sozialen Typ 5 with Six-wing</strong> zugeordnet.
         Die soziale Fünf sucht Zugehörigkeit über Wissen – sie sammelt Kompetenz als Eintrittskarte
         in Systeme, in denen sie gebraucht wird, ohne sich wirklich anzunähern.
         Der Six-wing verleiht ihr Pflichtbewusstsein, ein Gespür für Strukturen und Regeln –
@@ -21038,7 +21073,7 @@ function haroldShipmanPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO5w6 – Soziale Fünf mit Six-wing.<br>
+        <strong>Subtype:</strong> SO5w6 – Soziale Fünf with Six-wing.<br>
         <strong>Leidenschaft:</strong> Geiz – das Festhalten von Wissen, Energie und Kontrolle als einzige Währung.<br>
         <strong>Stresspunkt:</strong> Sieben – verdecktes Genusserleben, die stille innere Freude an der Überlegenheit.<br>
         <strong>Animal correspondence:</strong> Oktopus – höchste Intelligenz, perfekte Tarnung, solitäres Operieren.<br>
@@ -21076,7 +21111,7 @@ function rudolfPleilPortraitPage() {
           <img src="./assets/portraits/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Rudolf Pleil</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, selbsternannter „Henker" · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -21106,7 +21141,7 @@ function rudolfPleilPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Rudolf Pleil</strong> wird der <strong>Self-Preservationen Zwei mit Three-wing</strong>
+        <strong>Rudolf Pleil</strong> wird der <strong>Self-Preservationen Zwei with Three-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
         nicht im Sinne gesunden Selbstwertgefühls, sondern als aufgeblähtes
         Selbstbild, das Grenzen nicht kennt: Ich bin außergewöhnlich,
@@ -21464,7 +21499,7 @@ function jackUnterweegerPortraitPage() {
           <img src="./assets/portraits/jack-unterweger-portrait.jpg" alt="Jack Unterweger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jack Unterweger</p>
-        <p class="krim-portrait-typ">SO2w1 · Social Type 2 mit One-wing</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Dichter und der Tod" – Österreich 1974 & 1990–1991</p>
       </div>
       <p class="psycho-intro">
@@ -21487,7 +21522,7 @@ function jackUnterweegerPortraitPage() {
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jack Unterweger</strong> wird dem <strong>Sozialen Typ 2 mit One-wing</strong> zugeordnet.
+        <strong>Jack Unterweger</strong> wird dem <strong>Sozialen Typ 2 with One-wing</strong> zugeordnet.
         Die soziale Zwei ist auf gesellschaftliche Anerkennung ausgerichtet –
         sie will nicht nur einzelnen Menschen helfen, sondern wichtig sein:
         als Stimme, als Persönlichkeit, als Wohltäter der Öffentlichkeit.
@@ -21636,7 +21671,7 @@ function jackUnterweegerPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Johann „Jack" Unterweger</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. August 1950, Judenburg, Steiermark</p>
           <p style="margin:0 0 0.3rem;"><strong>Gestorben:</strong> 29. Juni 1994, Graz (Suizid in der Gefängniszelle)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w1 – Social Type 2 mit One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w1 – Social Type 2 with One-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Golden Retriever</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> mind. 10 Morde (1 in 1974, 9 nach Entlassung 1990–1991), möglicherweise 3 weitere in Los Angeles</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
@@ -21672,7 +21707,7 @@ function jimJonesPortraitPage() {
           <img src="./assets/portraits/jim-jones-portrait.jpg" alt="Jim Jones – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jim Jones</p>
-        <p class="krim-portrait-typ">SO2w3 · Social Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Jim Jones</strong> (1931–1978) gründete die <em>Peoples Temple</em>-Bewegung und baute über Jahrzehnte
@@ -21688,7 +21723,7 @@ function jimJonesPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jim Jones</strong> wird dem <strong>Sozialen Typ 2 mit Three-wing</strong> im Enneagramm zugeordnet.
+        <strong>Jim Jones</strong> wird dem <strong>Sozialen Typ 2 with Three-wing</strong> im Enneagramm zugeordnet.
         Die soziale Zwei lebt für die Gruppe – Helfen, Führen, Gebrauchtwerden sind ihr Sauerstoff.
         Der Three-wing verleiht ihr Ehrgeiz, Inszenierungskraft und ein untrügliches Gespür
         für Wirkung auf andere. Der Stresspunkt der Zwei liegt bei der <strong>Acht</strong>:
@@ -21831,7 +21866,7 @@ function jimJonesPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO2w3 – Soziale Zwei mit Three-wing.<br>
+        <strong>Subtype:</strong> SO2w3 – Soziale Zwei with Three-wing.<br>
         <strong>Leidenschaft:</strong> Stolz – das unbewusste Wissen, unersetzlich zu sein und zu geben, was andere nicht können.<br>
         <strong>Stresspunkt:</strong> Acht – Herrschaft, Zerstörung, wenn die Liebe kippt.<br>
         <strong>Animal correspondence:</strong> Golden Retriever – unermüdlicher Dienst, emotionale Feinfühligkeit, existenzielle Abhängigkeit von Gegenseitigkeit.<br>
@@ -21871,7 +21906,7 @@ function cedricMaakePortraitPage() {
           <img src="./assets/portraits/cedric-maake-portrait.jpg" alt="Cedric Maake – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cedric Maake</p>
-        <p class="krim-portrait-typ">SO2w3 · Social Type 2 mit Three-wing</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Wemmer-Pan-Killer" – Johannesburg 1996–1997</p>
       </div>
       <p class="psycho-intro">
@@ -21893,8 +21928,8 @@ function cedricMaakePortraitPage() {
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Cedric Maake</strong> wird dem <strong>Sozialen Typ 2 mit Three-wing</strong> zugeordnet.
-        Die soziale Zwei mit Three-wing ist auf Sichtbarkeit, Status und gesellschaftliche Bedeutung ausgerichtet.
+        <strong>Cedric Maake</strong> wird dem <strong>Sozialen Typ 2 with Three-wing</strong> zugeordnet.
+        Die soziale Zwei with Three-wing ist auf Sichtbarkeit, Status und gesellschaftliche Bedeutung ausgerichtet.
         Sie will nicht nur helfen – sie will anerkannt werden, zählen, eine Rolle spielen.
         Der Three-wing verstärkt das Leistungs- und Imagebewusstsein:
         Wie wirke ich? Welchen Eindruck hinterlasse ich?
@@ -21922,7 +21957,7 @@ function cedricMaakePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei mit Three-wing: Sichtbarkeit und Selbstbehauptung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei with Three-wing: Sichtbarkeit und Selbstbehauptung</h3>
         <p class="vb-intro"><strong>a) Das Grundmuster der sozialen Zwei:</strong>
         Die soziale Zwei – in der Enneagramm-Tradition auch als <em>„Ambition"</em> bezeichnet –
         ist auf gesellschaftliche Bedeutung ausgerichtet.
@@ -22011,7 +22046,7 @@ function cedricMaakePortraitPage() {
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Maoupa Cedric Maake</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1965, Südafrika</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w3 – Social Type 2 mit Three-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w3 – Social Type 2 with Three-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Golden Retriever</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 27 Morde, 26 Vergewaltigungen, 14 versuchte Tötungen (1996–1997)</p>
           <p style="margin:0 0 0.3rem;"><strong>Verurteilt:</strong> 2000, 1.395 Jahre Haft</p>
@@ -22152,7 +22187,7 @@ function dianeDownsPortraitPage() {
           <img src="./assets/portraits/diane-downs-portrait.jpg" alt="Diane Downs – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Diane Downs</p>
-        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 mit Four-wing</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanische Kindsmörderin · Animal correspondence: Pfau</p>
       </div>
       <p class="psycho-intro">
@@ -22169,7 +22204,7 @@ function dianeDownsPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Diane Downs</strong> wird dem <strong>Sexuellen Typ 3 mit Four-wing</strong> im Enneagramm zugeordnet.
+        <strong>Diane Downs</strong> wird dem <strong>Sexuellen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
         Die sexuelle Drei will nicht nur erfolgreich sein – sie will für eine bestimmte Person das perfekte, begehrliche Bild verkörpern.
         Der Four-wing bringt dramatische Tiefe, innere Leere und eine Tendenz zur melodramatischen Selbstinszenierung.
         Im Stress geht die Drei in Richtung <strong>Neun</strong>: emotionale Betäubung, Dissoziation,
@@ -22287,7 +22322,7 @@ function dianeDownsPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Einordnung</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Diane Downs, geb. 1955</p>
-          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX3w4 – Sexuelle Drei mit Four-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX3w4 – Sexuelle Drei with Four-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit – das konstruierte Außenbild hat Vorrang vor jeder inneren Wahrheit</p>
           <p style="margin:0 0 0.3rem;"><strong>Stresspunkt:</strong> Neun – Dissoziation, emotionale Betäubung, Einfrieren des Innenlebens</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Pfau – Eindruck durch Konstruktion, nicht durch Substanz; ändert nicht sich selbst, sondern was er zeigt</p>
@@ -22328,7 +22363,7 @@ function heinrichPommerenkePortraitPage() {
           <img src="./assets/portraits/heinrich-pommerenke-portrait.jpg" alt="Heinrich Pommerenke – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Heinrich Pommerenke</p>
-        <p class="krim-portrait-typ">SO1w9 · Social Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder und Vergewaltiger · Animal correspondence: Gans</p>
       </div>
 
@@ -22691,7 +22726,7 @@ function paulOgorzowPortraitPage() {
           <img src="./assets/portraits/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Paul Ogorzow</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, „S-Bahn-Mörder" · Animal correspondence: Adler</p>
       </div>
 
@@ -23096,7 +23131,7 @@ function joelRifkinPortraitPage() {
           <img src="./assets/portraits/joel-rifkin-portrait.jpg" alt="Joel Rifkin – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Joel Rifkin</p>
-        <p class="krim-portrait-typ">SX5w6 · Sexual Type 5 mit Six-wing</p>
+        <p class="krim-portrait-typ">SX5w6 · Sexual Type 5 with Six-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Long Island / New York City 1989–1993 · 17 Morde</p>
       </div>
       <p class="psycho-intro">
@@ -23121,7 +23156,7 @@ function joelRifkinPortraitPage() {
 
       <div class="vb-section" style="background:rgba(40,40,80,0.06);border-left:3px solid #282850;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Joel Rifkin</strong> wird dem <strong>Sexuellen Typ 5 mit Six-wing</strong> zugeordnet.
+        <strong>Joel Rifkin</strong> wird dem <strong>Sexuellen Typ 5 with Six-wing</strong> zugeordnet.
         Die sexuelle Fünf ist die intensivste und paradoxeste Ausprägung des Typ 5:
         Sie sucht tiefe, vollständige Verbindung mit einem Menschen oder einem Thema –
         und zieht sich gleichzeitig zurück, wenn diese Verbindung zu nah zu werden droht.
@@ -23276,7 +23311,7 @@ function joelRifkinPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Joel David Rifkin</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 20. Januar 1959, East Meadow, Long Island, New York</p>
           <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Verbüßt 203 Jahre Haft ohne Bewährungsmöglichkeit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SX5w6 – Sexual Type 5 mit Six-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SX5w6 – Sexual Type 5 with Six-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Igel</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 17 Morde gestanden (9 vor Gericht bewiesen), 1989–1993</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Geiz</p>
@@ -23596,7 +23631,7 @@ function andersBreivikPortraitPage() {
           <img src="./assets/portraits/anders-breivik-portrait.jpg" alt="Anders Breivik – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anders Breivik</p>
-        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 mit Five-wing</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Norwegischer Rechtsterrorist · Animal correspondence: Wolf</p>
       </div>
 
@@ -23806,7 +23841,7 @@ function arminMeiwesPortraitPage() {
           <img src="./assets/portraits/armin-meiwes-portrait.jpg" alt="Armin Meiwes – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Armin Meiwes</p>
-        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 mit Five-wing</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Täter · Animal correspondence: Wolf</p>
       </div>
       <p class="psycho-intro">
@@ -23823,7 +23858,7 @@ function arminMeiwesPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Armin Meiwes</strong> wird dem <strong>Sexuellen Typ 6 mit Five-wing</strong> im Enneagramm zugeordnet.
+        <strong>Armin Meiwes</strong> wird dem <strong>Sexuellen Typ 6 with Five-wing</strong> im Enneagramm zugeordnet.
         Die sexuelle Sechs dreht sich nicht um die Gruppe – sie sucht intensive, exklusive Verbindung zu einer einzigen Person.
         Ihre Kernangst ist absolute Einsamkeit und Verlassenheit. Der Five-wing bringt
         introvertierte Abschottung, obsessives Denken, intellektuelle Isolation und die Tendenz,
@@ -23939,7 +23974,7 @@ function arminMeiwesPortraitPage() {
         <p class="vb-intro">
         Der Fall wird erst vollständig verständlich, wenn man auch das Opfer durch die Brille des Enneagramms betrachtet.
         Bernd Jürgen Armando Brandes, 43 Jahre, Berliner Softwareingenieur, reiste freiwillig nach Wüstefeld.
-        Aus Sicht des Enneagramms war er eine <strong>Sexuelle Neun mit One-wing (SX9w1)</strong> –
+        Aus Sicht des Enneagramms war er eine <strong>Sexuelle Neun with One-wing (SX9w1)</strong> –
         und in ihrer dunkelsten Ausprägung.
         </p>
         <p class="vb-intro"><strong>a) Das Kernmotiv der ungesunden Neun: totale Selbstauflösung:</strong>
@@ -23971,7 +24006,7 @@ function arminMeiwesPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Einordnung</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Armin Meiwes, geb. 1961 in Essen</p>
-          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX6w5 – Sexuelle Sechs mit Five-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX6w5 – Sexuelle Sechs with Five-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Angst – existenzielle Einsamkeit, Panik vor Verlassenwerden, Kontrolle als Sicherheitsersatz</p>
           <p style="margin:0 0 0.3rem;"><strong>Stresspunkt:</strong> Drei – Selbstinszenierung, das Bedürfnis, durch Taten gesehen zu werden</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Wolf – Rudeltier, das in Isolation zu obsessivem Verhalten neigt; Verbindung als existenzielle Notwendigkeit</p>
@@ -24011,7 +24046,7 @@ function jeffreyDahmerPortraitPage() {
           <img src="./assets/portraits/jeffrey-dahmer-portrait.jpg" alt="Jeffrey Dahmer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jeffrey Dahmer</p>
-        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 mit Four-wing</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Milwaukee-Kannibale" · Animal correspondence: Igel</p>
       </div>
 
@@ -24225,7 +24260,7 @@ function gennadiMikhasevichPortraitPage() {
           <img src="./assets/portraits/gennadi-mikhasevich-portrait.jpg" alt="Gennadi Mikhasevich – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gennadi Mikhasevich</p>
-        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Würger von Witebsk" – Weißrussische SSR 1971–1985</p>
       </div>
       <p class="psycho-intro">
@@ -24246,7 +24281,7 @@ function gennadiMikhasevichPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Gennadi Mikhasevich</strong> wird dem <strong>Sexuellen Typ 1 mit Two-wing</strong> zugeordnet.
+        <strong>Gennadi Mikhasevich</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong> zugeordnet.
         Die sexuelle Eins sucht vollständige Kontrolle in der intimsten Sphäre –
         ein starres, absolutes Bild davon, wie Nähe, Reinheit und Ordnung auszusehen haben.
         Der Two-wing verleiht ihr soziale Gewandtheit, Wärme nach außen,
@@ -24382,7 +24417,7 @@ function gennadiMikhasevichPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins mit Two-wing.<br>
+        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – der stille innere Richter, der Frauen verurteilte, die seinem Bild von Reinheit und Ordnung nicht entsprachen.<br>
         <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Gefühl des inneren Defekts, Beruhigung nur in der Tat.<br>
         <strong>Animal correspondence:</strong> Schwarze Mamba – präzise, unauffällig, tödlich in der kontrollierten Nähe.<br>
@@ -24421,7 +24456,7 @@ function fritzHaarmannPortraitPage() {
           <img src="./assets/portraits/fritz-haarmann-portrait.jpg" alt="Fritz Haarmann – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Fritz Haarmann</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Friedrich „Fritz" Heinrich Karl Haarmann</strong>,
@@ -24448,7 +24483,7 @@ function fritzHaarmannPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Fritz Haarmann</strong> wird dem <strong>Sexuellen Typ 1 mit Nine-wing</strong>
+        <strong>Fritz Haarmann</strong> wird dem <strong>Sexuellen Typ 1 with Nine-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll, der sich im Sexuellen Subtype (SX1)
         nicht auf Institutionen oder die Welt im Allgemeinen richtet,
@@ -24698,7 +24733,7 @@ function fritzHaarmannPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Fritz Haarmann</strong> verkörpert den Sexuellen Typ 1 mit Nine-wing
+        <strong>Fritz Haarmann</strong> verkörpert den Sexuellen Typ 1 with Nine-wing
         in einer Ausprägung, die das Einser-Muster der totalen Kontrolle
         mit der Neuner-Wärme der sozialen Unauffälligkeit verbindet.
         Der SX-Instinkt trieb ihn zur intimsten Form der Besitznahme;
@@ -24755,7 +24790,7 @@ function fritzHaarmannPortraitPage() {
         eine Partnerschaft strukturieren kann –
         bis hin zur gemeinsamen Täterschaft.</p>
         <p class="vb-intro"><strong>d) Vergleich mit Josef Fritzl (SX1w9):</strong>
-        Beide sind Sexuelle Einsen mit Nine-wing,
+        Beide sind Sexuelle Einsen with Nine-wing,
         beide nutzten eine institutionelle Einbettung
         als Schutzraum, beide zeigten eine
         bürgerliche Fassade ohne erkennbare Risse.
@@ -24823,7 +24858,7 @@ function josefFritzlPortraitPage() {
           <img src="./assets/portraits/josef-fritzl-portrait.jpg" alt="Josef Fritzl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Josef Fritzl</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 mit Nine-wing</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Österreichischer Inzesttäter und Entführer · Animal correspondence: Schwarze Mamba</p>
       </div>
 
@@ -24853,7 +24888,7 @@ function josefFritzlPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Josef Fritzl</strong> wird dem <strong>Sexuellen Typ 1 mit Nine-wing</strong>
+        <strong>Josef Fritzl</strong> wird dem <strong>Sexuellen Typ 1 with Nine-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen alles, was der eigenen Kontrolle
         und dem eigenen Ordnungswillen entgleitet.
@@ -25110,7 +25145,7 @@ function josefFritzlPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Josef Fritzl</strong> verkörpert den Sexuellen Typ 1 mit Nine-wing
+        <strong>Josef Fritzl</strong> verkörpert den Sexuellen Typ 1 with Nine-wing
         in einer Ausprägung, die in ihrer Konsequenz beispiellos ist.
         Der SX-Instinkt erzeugte das Bedürfnis nach vollständiger Kontrolle
         über die intimste Beziehung – ohne Kompromiss, ohne Grenze.
@@ -25235,7 +25270,7 @@ function alexMurdaughPortraitPage() {
           <img src="./assets/portraits/alex-murdaugh-portrait.jpg" alt="Alex Murdaugh – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alex Murdaugh</p>
-        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Anwalt und Doppelmörder · Animal correspondence: Schwarze Mamba</p>
       </div>
 
@@ -25264,7 +25299,7 @@ function alexMurdaughPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Alex Murdaugh</strong> wird dem <strong>Sexuellen Typ 1 mit Two-wing</strong>
+        <strong>Alex Murdaugh</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen Unvollkommenheit, Kontrollverlust
         und alles, was das eigene Bild gefährdet. Der Sexuelle Subtype (SX1)
@@ -25482,7 +25517,7 @@ function alexMurdaughPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Alex Murdaugh</strong> verkörpert den Sexuellen Typ 1 mit Two-wing
+        <strong>Alex Murdaugh</strong> verkörpert den Sexuellen Typ 1 with Two-wing
         in einer Ausprägung, die durch dynastisches Erbe
         und institutionelle Macht eine eigene Kategorie bildet.
         Die SX1-Energie erzeugte die intensive persönliche
@@ -25598,7 +25633,7 @@ function garyRidgwayPortraitPage() {
           <img src="./assets/portraits/gary-ridgway-portrait.jpg" alt="Gary Ridgway – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gary Ridgway</p>
-        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Gary Ridgway</strong>, geboren 1949 in Salt Lake City, ist einer der produktivsten
@@ -25610,13 +25645,13 @@ function garyRidgwayPortraitPage() {
         Dreimal verheiratet. Vater eines Sohnes. Arbeitete über zwanzig Jahre als Lkw-Lackierer
         bei derselben Firma. Kein Vorstrafen-Register, das auf Mord hingedeutet hätte.
         Das Enneagramm macht sichtbar, was hinter dieser Unauffälligkeit arbeitete –
-        und warum die sexuelle Eins mit Two-wing einer der gefährlichsten Typen
+        und warum die sexuelle Eins with Two-wing einer der gefährlichsten Typen
         in der Desintegration sein kann.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Gary Ridgway</strong> wird dem <strong>Sexuellen Typ 1 mit Two-wing</strong> im Enneagramm zugeordnet.
+        <strong>Gary Ridgway</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong> im Enneagramm zugeordnet.
         Die sexuelle Eins ist getrieben von dem Bedürfnis, in der intimsten Beziehung vollständige Kontrolle
         und Reinheit zu besitzen. Der Two-wing verleiht ihr Charme, Hilfsbereitschaft und die Fähigkeit,
         Nähe herzustellen. Der Stresspunkt der Eins liegt bei der <strong>Vier</strong>:
@@ -25761,7 +25796,7 @@ function garyRidgwayPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins mit Two-wing.<br>
+        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – der innere Richter, der alles bewertet und verurteilt, was nicht dem Bild der Reinheit entspricht.<br>
         <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Selbstverurteilung, das Gefühl des inneren Defekts.<br>
         <strong>Animal correspondence:</strong> Schwarze Mamba – schnell, präzise, unauffällig bis zur letzten Sekunde; giftig in der intimsten Nähe.<br>
@@ -26016,7 +26051,7 @@ function paulBernardoPortraitPage() {
           <img src="./assets/portraits/paul-bernardo-portrait.jpg" alt="Paul Bernardo – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Paul Bernardo</p>
-        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 mit Two-wing</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Kanada 1990–1993</p>
       </div>
       <p class="psycho-intro">
@@ -26035,7 +26070,7 @@ function paulBernardoPortraitPage() {
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Paul Bernardo</strong> wird dem <strong>Sexuellen Typ 1 mit Two-wing</strong> zugeordnet.
+        <strong>Paul Bernardo</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong> zugeordnet.
         Die sexuelle Eins sucht vollständige Kontrolle über die intimste Beziehung –
         Reinheit, Absolutheit, keine Abweichung vom inneren Bild.
         Der Two-wing verleiht ihr Charme, soziale Gewandtheit und die Fähigkeit,
@@ -26152,7 +26187,7 @@ function paulBernardoPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins mit Two-wing.<br>
+        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – der innere Richter, der alles verurteilt, was nicht dem Bild der Reinheit entspricht.<br>
         <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Selbsthass, das Gefühl des inneren Defekts.<br>
         <strong>Animal correspondence:</strong> Schwarze Mamba – unauffällig, präzise, giftig in der intimsten Nähe.<br>
