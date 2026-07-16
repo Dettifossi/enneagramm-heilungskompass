@@ -35987,6 +35987,385 @@ function openCropDialog(src, onConfirm) {
 }
 
 function render() {
+
+function bedeutungSubtypenPage() {
+  return shell(`
+    ${pageHeader("bedeutung-27-subtypen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder &middot; Subtypen &amp; Typisierung</p>
+      <h1 class="section-title">Warum die 27 Subtypen unerl\xe4sslich sind</h1>
+      <p class="psycho-intro">Wer sich ernsthaft mit dem Enneagramm besch\xe4ftigt, kommt an den 27 Subtypen nicht vorbei. Es ist ein grundlegender Irrtum zu glauben, man k\xf6nne zun\xe4chst &bdquo;nur mit den neun Typen anfangen&ldquo; und sp\xe4ter die Subtypen erg\xe4nzen &ndash; denn ohne sie bleibt das Bild zu grob f\xfcr eine ernsthafte Typisierung.</p>
+      <img
+        src="${CDN}assets/bedeutung-27-subtypen.jpg"
+        alt="Die Bedeutung der 27 Subtypen im Enneagramm"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+
+      <div class="vb-section">
+        <p class="vb-intro">Die neun Typen allein erzeugen zu schnell Karikaturen. Typ 8 wird &bdquo;der Starke&ldquo;, Typ 2 &bdquo;der Helfer&ldquo;, Typ 5 &bdquo;der Denker&ldquo;, Typ 4 &bdquo;der Gef\xfchlstiefe&ldquo;. Das mag f\xfcr einen ersten \xdcberblick gen\xfcgen &ndash; f\xfcr eine ernsthafte Typbestimmung reicht es nicht. Denn Menschen leben nicht als Schablonen. Sie leben als konkrete, differenzierte, oft \xfcberraschende Auspr\xe4gungen eines Musters.</p>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die neun Typen ohne Subtypen f\xfchren in die Irre</h2>
+        <p class="vb-intro">Wer ausschlie\xdflich mit den neun Grundtypen arbeitet, l\xe4uft Gefahr, Menschen zu schnell einzuordnen. Man erkennt gewisse Verhaltenszuge, gewisse Grundthemen &ndash; und meint, schon am Ziel zu sein. In Wirklichkeit hat man oft erst die grobe Landkarte in der Hand. Die eigentliche Landschaft zeigt sich erst, wenn die drei Instinktbereiche hinzukommen: selbsterhaltend, sozial oder sexuell.</p>
+        <p class="vb-intro">Erst dann wird deutlich, warum zwei Menschen vom selben Grundtyp so verschieden wirken k\xf6nnen, dass man sie auf den ersten Blick f\xfcr zwei v\xf6llig verschiedene Typen halten w\xfcrde. Ein selbsterhaltender Vierer kann sachlicher und stoischer wirken, als das g\xe4ngige Bild von Typ 4 vermuten lie\xdfe. Ein sozialer Achter kann f\xfcrsorglicher und gemeinschaftsbezogener erscheinen, als viele von einer Acht erwarten. Ein sexueller Sechser kann wie eine Acht erscheinen. Ein selbsterhaltender Zweier kann leicht f\xfcr eine Sechs oder Vier gehalten werden.</p>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die 27 Subtypen sind keine Verfeinerung f\xfcr Spezialisten</h2>
+        <p class="vb-intro">Man kann es direkt sagen: In der Praxis begegnen uns nicht neun Typen, sondern 27 Erscheinungsweisen dieser neun Typen. Der Grundtyp bleibt zentral. Aber er tritt nie abstrakt auf. Er erscheint immer schon in einer bestimmten Instinktdynamik, in einer bestimmten Art, sich in der Welt zu organisieren. Wer nur den Grundtyp betrachtet und die Subtypen ausblendet, arbeitet mit einem Skelett &ndash; aber noch nicht mit dem lebendigen Menschen.</p>
+        <p class="vb-intro">Die Subtypen sind deshalb keine sp\xe4tere Kur f\xfcr Fortgeschrittene, sondern von Anfang an ein notwendiger Teil des Verst\xe4ndnisses. Sie zeigen, wie sich ein Typ tats\xe4chlich verk\xf6rpert, wohin seine Energie flie\xdft, wodurch seine Leidenschaft gef\xe4rbt wird.</p>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Typisierung braucht Beweglichkeit</h2>
+        <p class="vb-intro">Ein gutes Enneagramm-Verst\xe4ndnis lebt nicht davon, stur an einer Ebene festzuhalten. Es braucht die F\xe4higkeit, zwischen verschiedenen Ebenen hin und her zu zoomen. Manchmal muss man weit herauszoomen: Ist dieser Mensch eher im Herz-, Kopf- oder Bauchzentrum verankert? Dann wieder n\xe4her heran: Welcher der drei Typen innerhalb dieser Triade k\xf6nnte es sein? Und dann noch einmal genauer hinsehen: In welcher instinktiven F\xe4rbung zeigt sich dieser Typ?</p>
+        <p class="vb-intro">Das ist kein Luxus, sondern echte Notwendigkeit. Die Zahl 3 bleibt wichtig wegen der Triaden. Die Zahl 9 bleibt wichtig wegen der Grundtypen. Aber die Zahl 27 ist in der konkreten Arbeit mit realen Menschen unentbehrlich.</p>
+
+        <blockquote class="pull-quote">Die eigentliche Frage ist nicht: Welcher Typ ist das? Sondern: In welcher konkreten Form lebt dieser Mensch seinen Typ?</blockquote>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Subtypen sch\xfctzen vor Vereinfachung</h2>
+        <p class="vb-intro">Viele Menschen machen die Erfahrung, dass sie sich lange mit dem Enneagramm besch\xe4ftigen, viel lesen, viele Typenbeschreibungen kennen &ndash; und bei der eigenen Typbestimmung trotzdem nicht vorankommen. Man bleibt unsicher, schwankt zwischen Typen oder hat das Gef\xfchl, dass keine Beschreibung wirklich passt. Oft liegt das schlicht daran, dass zu grob gearbeitet wurde.</p>
+        <p class="vb-intro">Die Subtypen machen das Enneagramm nicht unn\xf6tig kompliziert. Sie machen es erst wirklich realit\xe4tsnah. Sie sch\xfctzen vor der Versuchung, Menschen vorschnell festzulegen. Sie sch\xfctzen vor Typenkarikaturen und oberfl\xe4chlichen Zuschreibungen. Und sie holen das Enneagramm aus der Abstraktion zur\xfcck ins Leben &ndash; denn ein Mensch ist eben nicht einfach &bdquo;eine Vier&ldquo; oder &bdquo;eine Sechs&ldquo;. Er lebt seinen Typ immer in einer bestimmten Weise. Und diese Weise ist psychologisch, energetisch und diagnostisch hoch bedeutsam.</p>
+
+        <p class="vb-intro">Subtypen von Anfang an mitzudenken hei\xdft nicht, sich zu verzetteln. Es geht darum, von Anfang an das richtige innere Bild zu geben: Es gibt neun Grundtypen, und jeder dieser Typen erscheint in drei grundlegenden instinktiven Varianten. Allein dieses Wissen ver\xe4ndert die ganze Haltung. Man lernt dann nicht neun starre Schablonen, sondern von Anfang an ein lebendiges, differenziertes System.</p>
+
+        <p class="vb-intro">Erst in den 27 Subtypen zeigt sich der Mensch in seiner wirklichen seelischen Gestalt. Wer bei den neun Grundtypen stehenbleibt, sieht nur die grobe Kontur.</p>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Untertypen im Detail &ndash; Normal-, Verst\xe4rkungs- und Kontratyp jedes Enneagrammtyps ausf\xfchrlich erl\xe4utert.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Das Schaubild-Buch schlechthin: die neun Typen in farbigen, anschaulichen \xdcbersichten &ndash; der direkte Einstieg ins visuelle Enneagramm.", "Wer du wirklich bist &ndash; Band 1")}
+      ${relatedLinks([
+        {route:"antriebskraefte", label:"Antriebskr\xe4fte der Menschheit"},
+        {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
+        {route:"horney-triaden", label:"Horney-Triaden & Subtypen"},
+      ])}
+    </div>
+  `);
+}
+
+
+function bellaThornePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bella Thorne</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1997 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde. Was den Gepard auszeichnet, ist nicht Größe oder rohe Kraft, sondern die Fähigkeit, sich in kürzester Zeit auf volle Geschwindigkeit zu bringen. Kein Zögern, kein Umweg, nur der direkte Sprung auf das Ziel. Der Gepard ist ein Tier des öffentlichen Raums &ndash; er jagt nicht im Verborgenen, er jagt auf der Savanne, sichtbar für alle.</p>
+          <p class="vb-intro">Bella Thorne ist mit dreizehn Jahren als Kinderschauspielerin bei Disney bekannt geworden &ndash; und hat seitdem keine Pause gemacht. Schauspielerin, Sängerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star mit Dutzenden Millionen Followern. Das Tempo ist Gepard-Tempo: immer in Bewegung, immer präsent, immer auf dem nächsten Sprung. Stillstand ist für die soziale Drei keine Option &ndash; sie braucht den Lauf, um sich lebendig zu fühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Sichtbarkeit als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> richtet ihre Energie auf das Feld der öffentlichen Anerkennung: auf Status, Ansehen, die Frage, wie sie von anderen wahrgenommen wird. Claudio Naranjo nennt diesen Subtyp den Verstärkungstyp &ndash; derjenige, bei dem die Dreier-Themen Eitelkeit und Leistungsdrang am deutlichsten hervortreten. Die SO3 braucht kein stilles Territorium. Sie braucht die Bühne.</p>
+          <p class="vb-intro">Bei Bella Thorne zeigt sich das in einer Konsequenz, die beeindruckt und manchmal überfordert: Sie ist überall. Nicht passiv präsent, sondern aktiv gestaltend. Sie hat ihren OnlyFans-Account in den ersten 24 Stunden auf über eine Million Dollar Umsatz gebracht &ndash; nicht trotz der öffentlichen Aufmerksamkeit, sondern wegen ihr. Sie hat die Regeln des Spiels verstanden und nutzt sie. Die SO3 weiß instinktiv: Sichtbarkeit ist Kapital. Wer gesehen wird, existiert.</p>
+          <p class="vb-intro">Charakteristisch für die SO3 ist auch der Mut zur Provokation als Strategie. Bella Thorne hat wiederholt Grenzen verschoben &ndash; in ihrer Darstellung von Sexualität, in ihrer öffentlichen Auseinandersetzung mit Hollywood, in ihrer Bereitschaft, das Unbequeme zu sagen. Das ist nicht Rücksichtslosigkeit. Das ist die SO3, die gelernt hat: Wer nicht auffällt, wird vergessen. Und vergessen sein ist der tiefste Schrecken der sozialen Drei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe unter der Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sozialen Drei etwas Unerwartetes: das Bewusstsein für Schmerz, für das Unvollständige, für die eigene innere Welt jenseits des Erfolgs. Die reine SO3 könnte glatt wirken &ndash; immer im Glanz, immer optimiert, immer das richtige Bild. Der Viererflügel bricht das auf: Hier ist jemand, der auch das Dunkle kennt &ndash; und bereit ist, es zu zeigen.</p>
+          <p class="vb-intro">Bei Bella Thorne ist der Viererflügel in ihrer ungewöhnlichen Offenheit sichtbar. Sie hat öffentlich über ihre Kindheit gesprochen &ndash; über den frühen Verlust ihres Vaters, über sexuellen Missbrauch, über Dyslexie und die Herausforderungen ihrer Schulzeit. Diese Offenheit ist kein Kalkül allein &ndash; sie ist das Zeichen einer Persönlichkeit, die sich nicht nur als Erfolgsmaschine versteht, sondern als Mensch mit Geschichte. Der Viererflügel will nicht nur strahlen. Er will auch wahr sein.</p>
+          <p class="vb-intro">Der Viererflügel erklärt auch Thornes künstlerische Entscheidungen: Sie hat Rollen übernommen und Projekte inszeniert, die weit über das hinausgehen, was ihrer Marke nützen würde. Die SO3w4 sucht nicht nur den sicheren Erfolg &ndash; sie sucht den Ausdruck. Das macht sie komplexer und widersprüchlicher als viele ihrer Altersgenossen im Showbusiness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre Energie und Gestaltungskraft. Bella Thorne hat sich in einem Metier behauptet, das Menschen schnell verbraucht &ndash; und sie hat dabei die Kontrolle über ihre eigene Geschichte nie vollständig aus der Hand gegeben. Wer mit dreizehn anfängt und mit Ende zwanzig bereits Regisseurin ist, hat mehr geleistet als die meisten, die doppelt so alt sind. Das ist Gepard-Energie in ihrer kreativsten Form.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; das tiefe Bedürfnis, als erfolgreich und wertvoll wahrgenommen zu werden, auch dann, wenn die innere Realität anders klingt. Bei der SO3 äußert sich das als Versuchung, das Bild über die Wahrheit zu stellen: die perfekte Inszenierung, das strategisch gesetzte Skandälchen, die Emotion, die für das Publikum performt wird. Die Grenze zwischen echtem Ausdruck und kalkulierter Wirkung ist für die SO3w4 eine der schwierigsten Fragen des Lebens.</p>
+          <p class="vb-intro">Der Viererflügel verstärkt das Spannungsfeld: Er bringt die Sehnsucht nach Echtheit &ndash; und gleichzeitig das Risiko, auch den Schmerz zu inszenieren. Wer gelernt hat, dass Verletzlichkeit Aufmerksamkeit erzeugt, muss sich fragen: Wann zeige ich mich, und wann zeige ich eine Version von mir?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Bild zur Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne Publikum.</em> Für die SO3w4 bedeutet das einen doppelten Schritt: loszulassen, dass der öffentliche Erfolg den eigenen Wert definiert &ndash; und gleichzeitig die innere Tiefe des Viererflügels nicht nur als Quelle interessanter Inhalte zu nutzen, sondern als echten Lebensraum.</p>
+          <p class="vb-intro">Bella Thorne ist jung &ndash; und ihr Heilungsweg liegt noch vor ihr. Aber die Schritte, die sie bereits gegangen ist: die Offenheit über Trauma, der Wechsel hinter die Kamera, der Versuch, die eigene Geschichte selbst zu erzählen statt erzählt zu werden &ndash; das sind Zeichen, dass der Gepard bereits weiß: Es gibt ein Leben jenseits des Sprints. Und dieses Leben könnte das tiefste sein, das er je gelebt hat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+
+function osamaBinLadenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Osama bin Laden \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/osama-bin-laden-portrait.jpg" alt="Osama bin Laden – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osama bin Laden</p>
+        <p class="krim-portrait-typ">SO2w1 \xb7 Sozialer Typ 2 mit Einserfl\xfcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xfcnder al-Qaida \xb7 11. September 2001 \xb7 Tierentsprechung: Golden Retriever</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Osama bin Laden</strong> (1957\u20132011), Sohn einer reichen saudi-arabischen Unternehmerfamilie, gr\xfcndete Ende der 1980er-Jahre die Terrororganisation al-Qaida. Er organisierte zahlreiche Anschl\xe4ge, darunter die Bombenanschl\xe4ge auf die US-Botschaften in Kenia und Tansania (1998), den Anschlag auf die USS Cole (2000) und \u2013 in seiner gr\xf6\xdften Tat \u2013 die Anschl\xe4ge vom <strong>11. September 2001</strong> in New York, Washington und Pennsylvania: 2.977 Todesopfer, der schwerste Terroranschlag der Geschichte. Seit 2001 von US-Streitkr\xe4ften weltweit gesucht, lebte er jahrelang verborgen in Pakistan. Am 2. Mai 2011 wurde er bei einem gezielten US-Milit\xe4reinsatz in Abbottabad get\xf6tet. Das Enneagramm erkl\xe4rt, wie ein privilegierter, frommer Mann sich zur Vernichtungsinstanz f\xfcr Tausende verwandeln konnte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(100,50,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Osama bin Laden</strong> wird dem <strong>Sozialen Typ 2 mit Einserfl\xfcgel</strong> zugeordnet. Claudio Naranjo nannte den sozialen Subtyp der Zwei \u201eAmbition\u201c: die soziale Zwei gibt nicht an Einzelne, sondern an Gruppen, Gemeinschaften, Ideen \u2013 und zieht daraus Bedeutung, Zugeh\xf6rigkeit und Stolz. Bin Ladens Stolz \u2013 die Leidenschaft der Zwei \u2013 war kein pers\xf6nlicher Stolz, sondern ein <em>kollektiver</em>: der Stolz als Besch\xfctzer und Retter der muslimischen Welt. Der Einserf\xfcgel f\xfcgte die moralische Unerbittlichkeit hinzu: eine unbedingte, rigoristische \xdcberzeugung der eigenen Rechtm\xe4\xdfigkeit, die jeden Kompromiss verbot. Das Tier \u2013 der <em>Golden Retriever</em> \u2013 illustriert das Paradox: loyal, warmherzig, zur Aufopferung f\xfcr das Rudel bereit \u2013 und gef\xe4hrlich, wenn er glaubt, seine Familie zu verteidigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <p class="vb-intro"><strong>a) Ruhig und \xfcberzeugt:</strong>
+        Bin Ladens Auftreten in Video-Botschaften war niemals aufgeregt oder aggressiv \u2013 es war die Ruhe eines Mannes, der wei\xdf, dass er recht hat. Kein Funkeln des Sadismus, keine Spur von Rausch. Die soziale Zwei braucht keine Erregung \u2013 sie braucht die Gew\xdfheit der eigenen Unentbehrlichkeit.</p>
+        <p class="vb-intro"><strong>b) W\xe4rmend und einladend:</strong>
+        In Interviews und Aufnahmen aus dem engsten Kreis zeigte sich bin Laden als f\xfcrsorglich, zugewandt, v\xe4terlich. Angeblich sch\xe4tzte er Humor, h\xf6rte seinen Mitk\xe4mpfern zu, kannte ihre Familien. Das ist keine Tarnung \u2013 es ist der authentische SO2-Kern: echte W\xe4rme als Grundlage von F\xfchrung.</p>
+        <p class="vb-intro"><strong>c) Moralisch und richterlich \u2013 der Einserfl\xfcgel:</strong>
+        Nach au\xdfen \u2013 gegen\xfcber dem \u201eFeind\u201c \u2013 war sein Blick verurteilend und kalt. Der Einserf\xfcgel produziert den moralischen Richter: <em>Ich tue nicht, was ich will \u2013 ich tue, was gerecht ist.</em> Das macht die soziale Zwei mit Einserfl\xfcgel so gef\xe4hrlich: die Vernichtung wird zur Pflicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Geber f\xfcr die Gemeinschaft:</strong>
+        Bin Laden stammte aus einer der reichsten Familien Saudi-Arabiens. Er h\xe4tte in Komfort leben k\xf6nnen. Stattdessen gab er sein Verm\xf6gen, seine Sicherheit, schlie\xdflich sein Leben f\xfcr das, was er als Befreiung der muslimischen Welt verstand. Dieses <em>Geben</em> war kein Zeichen von Selbstlosigkeit \u2013 es war die Lebensstrategie der sozialen Zwei: Bedeutung durch Aufopferung.</p>
+        <p class="vb-intro"><strong>b) Der Besch\xfctzer des Rudels:</strong>
+        Al-Qaida war nicht prim\xe4r eine Ideologie \u2013 sie war eine Familie. Bin Laden pflegte seine Mitk\xe4mpfer, sch\xfctzte ihre Angeh\xf6rigen, ehrte die Gefallenen. Der Golden Retriever verteidigt sein Rudel mit absoluter Loyalit\xe4t. Bin Ladens Terrorismus war \u2013 in seiner eigenen Wahrnehmung \u2013 Verteidigung.</p>
+        <p class="vb-intro"><strong>c) Stolz als Motor:</strong>
+        Die Leidenschaft der Zwei ist Stolz \u2013 beim sozialen Subtyp nicht als Eitelkeit, sondern als <em>kollektiver Stolz</em>: die Demut\xfctigungen der muslimischen Welt durch den Westen wurden zu seinen pers\xf6nlichen Verletzungen. Jede weitere Dem\xfctigung der muslimischen Welt versch\xe4rfte seinen Antrieb. Er sprach selten von sich selbst \u2013 er sprach immer von \u201euns\u201c.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Der Weg zur Gewalt:</strong>
+        Bin Ladens Radikalisierung begann im sowjetisch-afghani\xadschen Krieg (1979\u20131989), wo er als Freiwilliger k\xe4mpfte und al-Qaida aus dem Netzwerk der Mudschaheddin heraus gr\xfcndete. Die US-Milit\xe4rpr\xe4senz in Saudi-Arabien nach dem Golfkrieg 1991 \u2013 heiliges Land, ber\xfchrt von Ungl\xe4ubigen \u2013 war f\xfcr ihn eine unertr\xe4gliche Dem\xfctigung. Der Einserfl\xfcgel verwandelte diese Verletzung in eine moralische Pflicht zur Gegenwehr.</p>
+        <p class="vb-intro"><strong>b) 11. September 2001:</strong>
+        Die Anschl\xe4ge auf das World Trade Center und das Pentagon waren das Ergebnis jahrelanger Planung: 19 Attent\xe4ter, vier entf\xfchrte Flugzeuge, 2.977 Tote. Bin Laden erkl\xe4rte sp\xe4ter, er habe nicht mit einem so vollst\xe4ndigen Gelingen gerechnet. Sein Ziel war nicht prim\xe4r die Maximierung von Opfern \u2013 es war die Demonstration: <em>Ihr seid nicht unangreifbar. Wir sind da.</em> Die soziale Zwei sendet eine Botschaft an die Gemeinschaft, f\xfcr die sie handelt.</p>
+        <p class="vb-intro"><strong>c) Das Versteck und das Ende:</strong>
+        Nach dem US-Einmarsch in Afghanistan 2001 lebte bin Laden jahrelang im Verborgenen \u2013 schlie\xdflich in einer Anlage in Abbottabad, Pakistan, keine zwei Kilometer von der Milit\xe4rakademie entfernt. Am 2. Mai 2011 t\xf6teten US-Spezialk\xe4mpfer ihn bei einem Nachteinsatz. Er war 53 Jahre alt. Sein Leichnam wurde auf See beigesetzt. Al-Qaida besteht fort.</p>
+        <p class="vb-intro"><strong>d) Ein Spiel des Schicksals:</strong>
+        Den Befehl zur Operation gab <strong>Barack Obama</strong> \u2013 damaliger US-Pr\xe4sident und, nach enneagrammatischer Einsch\xe4tzung, ebenfalls <strong>ein Sozialer Typ 2 mit Einserfl\xfcgel</strong>. Zwei M\xe4nner desselben Typs, an entgegengesetzten Polen der Geschichte: der eine, der alles gab, um seine Gemeinschaft zu befreien \u2013 der andere, der alles gab, um seine Gemeinschaft zu sch\xfctzen. Beide gepr\xe4gt von derselben inneren Struktur: kollektiver Stolz, moralische \xdcberzeugung, Dienst an der Gemeinschaft \xfcber das eigene Wohl. Was sie trennte, war nicht der Typ \u2013 es war die Welt, in der sie aufgewachsen waren, und die Gemeinschaft, der sie sich verpflichtet sahen. Das Enneagramm urteilt nicht. Es macht die wesentlichen Strukturen des Menschseins erkennbar und begreifbar.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Psychologisches Profil</h3>
+        <p class="vb-intro"><strong>a) Stolz ohne Hybris:</strong>
+        Bin Laden war kein narzisstischer Selbstdarsteller. Er inszenierte sich nicht als gro\xdfen F\xfchrer \u2013 er inszenierte sich als Diener. Das ist der Kern der sozialen Zwei: <em>Ich bin wichtig, weil ich gebraucht werde. Ich bin gro\xdf, weil ich gebe.</em> Dieser Stolz ist schwer zu erkennen \u2013 er tr\xe4gt das Gewand der Demut.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Rechtfertigungsmaschine:</strong>
+        Typ 1 liefert die moralische Grammatik: Es gibt Recht und Unrecht. Wir sind im Recht. Also ist das, was wir tun, gerecht \u2013 egal wie es aussieht. Diese Struktur macht aus einem f\xfcrsorglichen, loyalen Menschen einen kaltberechnenden Strategen des Massentods. Er trug keine innere Spannung zwischen Werten und Taten \u2013 er erlebte seine Taten als Ausdruck seiner Werte.</p>
+        <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Terrortypen:</strong>
+        Anders Breivik (SX6w5) handelte aus kontraphobischer Angst und narzisstischem Gr\xf6\xdfenwahn. Anders Breivik wollte anerkannt werden \u2013 bin Laden wollte <em>dienen</em>. Der Unterschied ist typologisch bedeutsam: Breivik war auf sich selbst fixiert, bin Laden auf die Gemeinschaft. Das macht die soziale Zwei in ihrer destruktiven Auspr\xe4gung so schwer zu stoppen: Sie h\xf6rt nicht auf, solange die Gemeinschaft leidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(60,20,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Zusammenfassung</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Osama bin Laden war kein Monster im klassischen Sinne \u2013 er war ein frommer, loyaler, aufopferungsvoller Mann, dessen Geben zur Vernichtung wurde. Die soziale Zwei mit Einserfl\xfcgel braucht keine Feindseligkeit aus Hass \u2013 sie braucht die \xdcberzeugung, dass das Leiden ihrer Gemeinschaft eine moralische Antwort verlangt. Wenn diese \xdcberzeugung unkorrigiert w\xe4chst, wenn kein Gegen\xfcber die Wahrnehmung bricht, wenn der Einserf\xfcgel jede Tat als Pflicht rahmt \u2013 dann kann aus dem Golden Retriever, der sein Rudel liebt, ein Tier werden, das auf Befehl des eigenen Gewissens t\xf6tet.
+        </p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Der Golden Retriever h\xf6rte nie auf zu lieben. Darin liegt das eigentliche Grauen.
+        </p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Taten bin Ladens sind uneingeschr\xe4nkt zu verurteilen \u2013 das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"},
+        {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Massenmord in Jonestown"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5) \u2013 Vergleich: Terror aus Angst vs. Terror aus Stolz"}
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
+      </div>
+    </div>
+  `);
+}
+
+function portraitsWegbegleiterPage() {
+  const BILDER = [
+    { nr: "001", alt: "Portraits zweier Wegbegleiter – Titelbild" },
+    { nr: "002", alt: "David L. Rathmer – Begründer des Enneagramm-Profilings" },
+    { nr: "003", alt: "David L. Rathmer – Portrait" },
+    { nr: "004", alt: "David L. Rathmer – Portrait" },
+    { nr: "005", alt: "David L. Rathmer – Portrait", links: [
+      { label: "Ennea Business",    url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpYSYZA_f0XsGpSqCKX00gur" },
+      { label: "Ennea Experience",  url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpbgTrTm4R5OhiQtNF8nCVcI" },
+      { label: "Ennea Podcast",     url: "https://www.youtube.com/playlist?list=PLgYZrunXbgpa_emzY7AAtPvfIEvJvO-3P" },
+      { label: "Ennea Shorts",      url: "https://www.youtube.com/@davidlaurinrathmer/shorts" },
+    ]},
+    { nr: "006", alt: "Enneagrammlehrer Dr. Claudio Naranjo (1932–2019)", video: { id: "Xuwgwefqff0", label: "Enneagramm und berühmte Komponisten – Dr. Claudio Naranjo" } },
+    { nr: "007", alt: "Claudio Naranjo – Portrait" },
+    { nr: "008", alt: "Claudio Naranjo – Portrait" },
+    { nr: "009", alt: "Claudio Naranjo – Portrait" },
+    { nr: "010", alt: "Claudio Naranjo – Portrait" },
+    { nr: "011", alt: "Claudio Naranjo – Portrait" },
+    { nr: "012", alt: "Claudio Naranjo – Portrait" },
+    { nr: "013", alt: "Portraits zweier Wegbegleiter – Abschluss" },
+  ];
+
+  const bilder = BILDER.map(b => `
+    <div class="psycho-img-wrap" style="margin-bottom:${b.links ? '1rem' : '2rem'};">
+      <img src="${CDN}portraits-wegbegleiter/Portraits_zweier_Wegbegleiter.${b.nr}"
+           alt="${b.alt}" class="psycho-img" loading="lazy"/>
+    </div>
+    ${b.links ? `
+    <div style="display:flex;flex-wrap:wrap;gap:0.7rem;margin-bottom:2rem;justify-content:center;">
+      ${b.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer"
+        style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.55rem 1.1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.9rem;text-decoration:none;font-weight:600;">
+        ▶ ${l.label}
+      </a>`).join("")}
+    </div>` : ""}
+    ${b.video ? `
+    <div style="margin-bottom:2rem;">
+      <p style="font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin-bottom:0.6rem;">▶ ${b.video.label}</p>
+      <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${b.video.id}?rel=0"
+          allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p style="margin-top:0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">
+        💡 Das Video ist auf Englisch. Für deutsche Untertitel: im Video auf das <strong>Zahnrad-Symbol ⚙</strong> tippen → <strong>Untertitel</strong> → <strong>Automatisch übersetzen</strong> → <strong>Deutsch</strong> wählen.
+      </p>
+    </div>` : ""}
+  `).join("");
+
+  return shell(`
+    ${pageHeader("portraits-wegbegleiter")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder &middot; Biographie &amp; Begegnung</p>
+      <h1>Portraits zweier Wegbegleiter</h1>
+      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagramm-Profilings, und sein Lehrer <strong>Dr. Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt und Begründer der Subtypenlehre des Enneagramms mit 27 Subtypen — dessen Tradition Detlef Rathmer und sein Sohn David gemeinsam weiterführen.</p>
+
+      <div style="margin-top:2rem;">
+        ${bilder}
+      </div>
+
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${relatedLinks([
+        {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
+        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
+      ])}
+    </section>
+  `);
+}
+
+
+function subtypeSchaubilderPage() {
+  const code = state.route.split("/")[1] || null;
+
+  // Detailansicht: alle Seiten eines Subtyps
+  if (code) {
+    const entry = subtypeEntry(code);
+    if (!entry || !entry.visualPages || !entry.visualPages.length) {
+      return shell(`
+        <section class="narrow" style="padding:1.5rem 1rem 0;">
+          <button class="ghost-link" data-route="subtypen-schaubilder">← Zurück zur Übersicht</button>
+        </section>
+        <section class="narrow centered" style="padding:1rem;">
+          <p>Für diesen Subtyp sind noch keine Schaubilder hinterlegt.</p>
+        </section>
+      `);
+    }
+    const tc = typeColorFromCode(code);
+    const pagesHtml = entry.visualPages.map(pg => `
+      <figure class="vollseite-karte" style="margin:0 0 1.5rem;">
+        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <div class="card-pg-wrap">
+          <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
+            onerror="this.closest('.vollseite-karte').style.display='none'" />
+          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
+        </div>
+        <figcaption class="vollseite-karte__titel">${pg.title}${pg.caption ? ` · <span style="font-weight:400;opacity:.7;">${pg.caption}</span>` : ""}</figcaption>
+      </figure>
+    `).join("");
+
+    return shell(`
+      ${pageHeader("subtypen-schaubilder")}
+      <section class="narrow" style="padding:1rem 1rem 0;">
+        <button class="ghost-link" data-route="subtypen-schaubilder">← Alle Subtypen</button>
+      </section>
+      <section class="narrow centered" style="padding:.75rem 1rem 1rem;">
+        <p class="eyebrow" style="color:${tc}">${entry.code}</p>
+        <h1 style="color:${tc};font-size:1.8rem;">${entry.title}</h1>
+        <p class="lead-small">${entry.coreSentence || ""}</p>
+      </section>
+      <section class="narrow" style="padding:0 1rem 2rem;">
+        ${pagesHtml}
+        <button class="secondary" style="width:100%;margin-top:.5rem;" data-route="subtypen-schaubilder">← Zurück zur Übersicht</button>
+      </section>
+    `);
+  }
+
+  // Übersicht: alle 27 Subtypen als klickbare Kacheln, gruppiert nach Typ
+  const typeNames = {
+    1:"Typ 1 · Der Verbesserer", 2:"Typ 2 · Der Helfer", 3:"Typ 3 · Der Macher",
+    4:"Typ 4 · Der Individualist", 5:"Typ 5 · Der Forscher", 6:"Typ 6 · Der Loyale",
+    7:"Typ 7 · Der Enthusiast", 8:"Typ 8 · Der Herausforderer", 9:"Typ 9 · Der Vermittler"
+  };
+  const instLabels = { se: "Selbst\xaderhaltung", so: "Sozial", sx: "Sexuell" };
+
+  const groupsHtml = [1,2,3,4,5,6,7,8,9].map(n => {
+    const tc = typeColor(n);
+    const codes = ["se","so","sx"].map(inst => `${inst}${n}`);
+    const tilesHtml = codes.map(c => {
+      const e = subtypeEntry(c);
+      const inst = c.slice(0,2);
+      const thumb = e?.visualPages?.[0]?.src || "";
+      return `
+        <button class="subtyp-schaubilder-tile" data-route="subtypen-schaubilder/${c}" style="border-color:${tc};">
+          ${thumb ? `<img src="${thumb}" alt="${c} Vorschau" loading="lazy" style="width:100%;border-radius:6px 6px 0 0;display:block;" onerror="this.style.display='none'" />` : ""}
+          <div style="padding:.6rem .75rem .75rem;">
+            <span style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${tc};">${instLabels[inst]}</span>
+            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title || c.toUpperCase()}</p>
+            <p style="margin:.15rem 0 0;font-size:.75rem;color:#888;">${e?.visualPages?.length || 0} Schaubilder</p>
+          </div>
+        </button>
+      `;
+    }).join("");
+    return `
+      <div style="margin-bottom:1.5rem;">
+        <h2 style="font-size:1rem;font-weight:700;color:${tc};border-left:3px solid ${tc};padding-left:.6rem;margin:0 0 .75rem;">${typeNames[n]}</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;">
+          ${tilesHtml}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  return shell(`
+    ${pageHeader("subtypen-schaubilder")}
+    <section class="narrow centered" style="padding:1rem 1rem .5rem;">
+      <p class="eyebrow">Schaubilder · Alle 27 Subtypen</p>
+      <h1>Subtypen-Schaubilder</h1>
+      <p class="lead-small">Alle Originaltafeln der 27 Enneagramm-Subtypen — tippen Sie auf einen Subtyp, um alle Schaubilder zu sehen.</p>
+    </section>
+    <section class="narrow" style="padding:.5rem 1rem 2rem;">
+      ${groupsHtml}
+      ${relatedLinks([
+        {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
+        {route:"horney-triaden", label:"Horney-Triaden"},
+      ])}
+    </section>
+  `);
+}
+
   const routes = {
     start: startPage,
     leseprobe: leseprobePage,
