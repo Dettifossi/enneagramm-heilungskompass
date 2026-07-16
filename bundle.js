@@ -1362,6 +1362,7 @@ function _bewertungSenden() {
   const btn = document.getElementById('bwrt-senden');
   const sterne = parseInt(btn.dataset.sterne || '0');
   const text = document.getElementById('bwrt-text').value.trim();
+  const nameRaw = (document.getElementById('bwrt-name').value.trim()) || '';
   if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const form = document.getElementById('bwrt-form');
@@ -1370,7 +1371,6 @@ function _bewertungSenden() {
     '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
     '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
     '</div>';
-  const nameRaw = (document.getElementById('bwrt-name').value.trim()) || '';
   const nameVal = (function(n) {
     if (!n) return '';
     var parts = n.split(/\s+/);
