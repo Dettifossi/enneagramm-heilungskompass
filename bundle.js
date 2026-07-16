@@ -2893,6 +2893,12 @@ function zitatePage() {
       const t = encodeURIComponent('„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagramm-Heilungskompass');
       window.open('https://wa.me/?text=' + t, '_blank');
     };
+    window._doFB = function(i) {
+      const z = window._zShare[i];
+      const quote = encodeURIComponent('„' + z.q + '“ — ' + z.a + ' (' + z.y + ')');
+      const url = encodeURIComponent('https://kompass.verlagshausrathmer.com/');
+      window.open('https://www.facebook.com/sharer/sharer.php?u=' + url + '&quote=' + quote, '_blank');
+    };
   }
   const cards = data.map((z, i) => {
     const col = themeColors[z.t] || "#555";
@@ -2913,6 +2919,10 @@ function zitatePage() {
         + '<button onclick="window._doWA('+i+')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:0.35rem;padding:0.4rem 0.7rem;border:1.5px solid #25d36644;border-radius:7px;background:#f0fdf4;color:#128c3e;font-size:0.82rem;font-family:inherit;cursor:pointer;">'
           + '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.528 5.845L.057 23.203a.75.75 0 0 0 .918.916l5.453-1.48A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.938 9.938 0 0 1-5.074-1.385l-.363-.216-3.764 1.021 1.01-3.669-.236-.374A9.94 9.94 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
           + ' WhatsApp'
+        + '</button>'
+        + '<button onclick="window._doFB('+i+')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:0.35rem;padding:0.4rem 0.7rem;border:1.5px solid #1877f244;border-radius:7px;background:#f0f4ff;color:#1877f2;font-size:0.82rem;font-family:inherit;cursor:pointer;">'
+          + '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.032 4.388 11.028 10.125 11.927v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.884v2.27h3.328l-.532 3.49h-2.796v8.437C19.612 23.101 24 18.105 24 12.073z"/></svg>'
+          + ' Facebook'
         + '</button>'
       + '</div>'
     + '</div>';
