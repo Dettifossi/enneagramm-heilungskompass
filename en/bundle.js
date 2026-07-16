@@ -483,6 +483,9 @@ const TYPNAMEN_MOTIV = {
   7: "Der Enthusiast", 8: "Der Herausforderer", 9: "Der Vermittler"
 };
 const text = uiText;
+// SE → SP for English display
+function enCode(c) { return c ? c.replace(/^SE(\d)/, "SP$1") : c; }
+
 
 // EN: override German nav labels with English
 text.nav = [
@@ -1464,9 +1467,9 @@ function startPage() {
 
   const profileGlimpse = !firstVisit ? `
     <div class="first-glimpse">
-      ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || p.code}</div>`}
+      ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${enCode(p.code)}" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || enCode(p.code)}</div>`}
       <div>
-        <span>${p.code} · ${p.title}</span>
+        <span>${enCode(p.code)} · ${p.title}</span>
         <strong>${p.focus}</strong>
         <em>${copy.animalPrefix} ${p.archetype}</em>
       </div>
@@ -1699,7 +1702,7 @@ function dashboardPage() {
       <div class="profile-visual" style="box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};position:relative;">
         ${getUserPhoto()
           ? `<img id="user-photo-img" src="${getUserPhoto()}" alt="Mein Foto" style="position:absolute;inset:0;width:100%;height:100%;margin:0;object-fit:cover;border-radius:inherit;" />`
-          : (p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge profile-badge--large">${p.emoji || p.code}</div>`)
+          : (p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge profile-badge--large">${p.emoji || enCode(p.code)}</div>`)
         }
       </div>
       <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;gap:0.4rem;">
@@ -1716,10 +1719,10 @@ function dashboardPage() {
       </div>
       <div class="dashboard__copy">
         <p class="eyebrow">${copy.greeting} · ${p.center} · ${p.typeLabel || ''}</p>
-        <h1>${p.code} · ${p.title}</h1>
+        <h1>${enCode(p.code)} · ${p.title}</h1>
         <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype}</p>
         ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${p.variant}</span>` : ''}
-        <p class="focus">Dein Fokus als ${p.code}: ${p.focus}</p>
+        <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus}</p>
         <div class="question-box">
           <span>${copy.organismQuestion}</span>
           <p>${p.organismQuestion}</p>
@@ -1980,7 +1983,7 @@ function toolDetailPage(slug) {
       : "";
     return `
       <div style="background:#e8f2ec;border:1.5px solid #2d4a3e;border-radius:14px;padding:1.5rem;margin-bottom:1.2rem;">
-        <p style="font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#2d4a3e;margin:0 0 1rem;">Ihre zwei Punkte · ${p.code}</p>
+        <p style="font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#2d4a3e;margin:0 0 1rem;">Your two points · ${enCode(p.code)}</p>
         ${ptsHtml}
         ${microHtml}
       </div>
@@ -1994,7 +1997,7 @@ function toolDetailPage(slug) {
     <section class="narrow centered" style="padding:1rem 1rem 0;">
       <p class="eyebrow">${tool.label}</p>
       <h1 style="font-size:1.8rem;">${tool.name}</h1>
-      <p style="font-style:italic;color:var(--text-muted,#888);font-size:.95rem;">${p.code} · Ihr Werkzeug für heute</p>
+      <p style="font-style:italic;color:var(--text-muted,#888);font-size:.95rem;">${enCode(p.code)} · Your tool for today</p>
     </section>
 
     <section class="narrow" style="padding:1rem 1rem 2rem;">
@@ -2598,7 +2601,7 @@ function _sucheResults(q) {
   Object.values(subtypeProfiles).forEach(p => {
     const hay = [p.code, p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
     if (hay.includes(lq)) {
-      res.subtypen.push({ label: p.code + " – " + p.title, sub: p.archetype || "", route: "subtype/" + p.id });
+      res.subtypen.push({ label: enCode(p.code) + " – " + p.title, sub: p.archetype || "", route: "subtype/" + p.id });
     }
   });
 
@@ -3443,7 +3446,7 @@ function subtypePage(code) {
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
            data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
         <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
-             alt="Comic: ${entry.code} &ndash; ${entry.title}"
+             alt="Comic: ${enCode(entry.code)} &ndash; ${entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
       <button class="ghost-link" data-tier-laut="${entry.animal}"
@@ -3477,7 +3480,7 @@ function subtypePage(code) {
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
       <details class="subtype-note-wrap">
-        <summary class="subtype-note-toggle">📝 My Notes on ${entry.code}</summary>
+        <summary class="subtype-note-toggle">📝 My Notes on ${enCode(entry.code)}</summary>
         <textarea class="subtype-note-area" data-note-key="note-${code}" oninput="localStorage.setItem(this.dataset.noteKey,this.value)" placeholder="Personal observations, client examples, thoughts …"></textarea>
       </details>
     </section>
@@ -3826,7 +3829,7 @@ function typePage(num) {
         <div class="subtyp-karte__icon" style="color:${c}">${p.emoji || p.code}</div>
         <div class="subtyp-karte__body">
           <strong style="color:${c}">${p.title}</strong>
-          <span>${p.code} · ${instinktLabel}</span>
+          <span>${enCode(p.code)} · ${instinktLabel}</span>
           <em>${p.focus}</em>
         </div>
         <span class="subtyp-karte__arrow" style="color:${c}">→</span>
@@ -3878,7 +3881,7 @@ function knowledgeCard(item) {
   return `
     <article class="knowledge-card ${item.visualPages ? "knowledge-card--expanded" : ""}">
       <div class="knowledge-card__top">
-        <span>${item.code}</span>
+        <span>${enCode(item.code)}</span>
         <em class="${item.status === "needs_review" ? "needs-review" : ""}">${statusLabel(item.status)}</em>
       </div>
       <h2>${item.title}</h2>
@@ -4254,7 +4257,7 @@ function profilePage() {
             ? `<img src="${p.image}" alt="${p.archetype || p.code}" class="profile-card__img" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;animation:none;" />`
             : `<span class="profile-card__emoji">${p.emoji || ''}</span>`}
         </div>
-        <span class="profile-card__code" style="color:${tc};">${p.code}</span>
+        <span class="profile-card__code" style="color:${tc};">${enCode(p.code)}</span>
         <strong class="profile-card__title">${p.title}</strong>
         ${p.titleAlt ? `<em class="profile-card__alt">${p.titleAlt}</em>` : ''}
         ${p.variant ? `<span class="profile-card__variant">${p.variant}</span>` : ''}
@@ -4276,7 +4279,7 @@ function profilePage() {
       <h1>${firstVisit ? 'Which Subtype are you?' : 'Choose Subtype'}</h1>
       <p class="lead-small">${firstVisit
         ? 'Select your Enneagram Subtype. The Compass aligns fully to you — daily impulse, patterns, tools and healing path.'
-        : 'Your current profile is <strong>' + state.profile.code + ' · ' + state.profile.title + '</strong>. Choose a different Subtype to realign the Compass.'
+        : 'Your current profile is <strong>' + enCode(state.profile.code) + ' · ' + state.profile.title + '</strong>. Choose a different Subtype to realign the Compass.'
       }</p>
       <p class="profile-type-hint">Don't know your Subtype yet? No problem — look at the three variants of your type (e.g. SE6, SO6, SX6) and choose the one that feels most resonant.</p>
     </section>
