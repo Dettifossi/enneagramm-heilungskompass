@@ -35720,10 +35720,10 @@ function _stilleInit() {
     klangschale: ["Chakra-Arbeit", "Meditation", "Energiereinigung"],
   };
   const KLANG_INFO = {
-    alpha: "Alpha-Wellen (8–12 Hz) — entspannte Wachheit, das klassische Einstiegstor zur Meditation.",
-    theta: "Theta-Wellen (4–8 Hz) — traumhafte Schwingungen, tiefe Kreativität und Innenschau.",
-    delta: "Delta-Wellen (0,5–4 Hz) — die langsamsten Hirnwellen, tiefer traumloser Schlaf und Samadhi.",
-    gamma: "Gamma-Wellen (>30 Hz) — kosmische Wachheit, Mitgefühl, Verbindung aller Gehirnareale.",
+    alpha: "Alpha-Wellen (8–12 Hz) — entspannte Wachheit, das klassische Einstiegstor zur Meditation. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
+    theta: "Theta-Wellen (4–8 Hz) — traumhafte Schwingungen, tiefe Kreativität und Innenschau. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
+    delta: "Delta-Wellen (0,5–4 Hz) — die langsamsten Hirnwellen, tiefer traumloser Schlaf und Samadhi. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
+    gamma: "Gamma-Wellen (>30 Hz) — kosmische Wachheit, Mitgefühl, Verbindung aller Gehirnareale. ⚠️ Wichtig: Am besten mit Kopfhörern hören — das Gehirn verarbeitet die Differenz zwischen linkem und rechtem Kanal.",
     cafe: "Lebendiges Café-Gemurmel — belebt den Geist, fördert kreatives Denken.",
     standuhr: "Das gleichmäßige Ticken einer alten Standuhr — gibt Struktur und Beständigkeit.",
     bibliothek: "Stille Bibliothek mit leisen Geräuschen — Raum für Konzentration und Wissen.",
