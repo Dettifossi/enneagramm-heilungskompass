@@ -4065,11 +4065,6 @@ function heilmittelSection(h, oel, code) {
       </div>
       <p class="remedy-note">${w.note}</p>
       <p class="remedy-note remedy-note--individual">${w.individualNote}</p>
-      ${
-        h.needsReview && h.needsReview.length
-          ? `<div class="wound-review">${h.needsReview.map((e) => `<p>${e}</p>`).join("")}</div>`
-          : ""
-      }
     </div>
   `;
 }
@@ -4100,13 +4095,7 @@ function woundBehindPassionSection(wound) {
           )
           .join("")}
       </ol>
-      ${
-        wound.needsReview && wound.needsReview.length
-          ? `<div class="wound-review">${wound.needsReview
-              .map((entry) => `<p>${entry}</p>`)
-              .join("")}</div>`
-          : ""
-      }
+      ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
     </div>
   `;
 }
