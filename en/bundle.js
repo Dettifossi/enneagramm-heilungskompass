@@ -2156,7 +2156,7 @@ function toolDetailPage(slug) {
     "heilmittel-impuls": {
       intro: "The Remedies Compass translates your subtype pattern into a healing symbol field. Each remedy addresses a specific level — physical, psychological, and energetic.",
       steps: [
-        "Open the Remedy Compass (button below) and observe which remedy draws your attention.",
+        'Open the <button class="inline-link" data-route="healing" data-scroll-to="heilmittel-kompass" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Remedy Compass →</button> and observe which remedy draws your attention.',
         "Read its associated meaning — let it sink in without immediately analysing.",
         "Choose one remedy for today: homeopathy, Bach flower, Schüßler salt, gemstone, or tea.",
         "Use it consciously — holding your healing theme in mind.",
@@ -2287,8 +2287,6 @@ function toolDetailPage(slug) {
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Back to all tools</button>
-        ${slug === "heilmittel-impuls" ? '<button class="secondary" data-route="healing">&#x2192; Remedy Compass</button>' : ''}
-        ${slug === "aromatherapie" ? '<button class="secondary" data-route="oils">&#x2192; Essential Oils</button>' : ''}
         <button class="secondary" data-route="tcm">TCM Profile &amp; Acupuncture</button>
         <button class="secondary" data-route="subtype/${getProfile()}">My Subtype Compass</button>
       </div>
@@ -7559,7 +7557,7 @@ function heilmittelSection(h, oel, code) {
   const typeNum = code ? parseInt(String(code).replace(/\D/g, ""), 10) : null;
   const oilEN = typeNum && OILS_EN[typeNum] ? OILS_EN[typeNum] : null;
   return `
-    <div class="knowledge-section heilmittel-box">
+    <div class="knowledge-section heilmittel-box" id="heilmittel-kompass">
       <strong>${w.title}</strong>
       ${seite4 ? `
       <figure class="vollseite-karte">
@@ -7999,6 +7997,14 @@ function bindEvents() {
     });
     window.kfApply();
   }
+
+  // data-scroll-to: store scroll target before navigation
+  document.querySelectorAll('[data-scroll-to]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      sessionStorage.setItem('kompass:scrollTo', btn.dataset.scrollTo);
+      go(btn.dataset.route);
+    });
+  });
 
   // Search autofocus
   const _si = document.getElementById("suche-input");
@@ -40579,6 +40585,14 @@ function subtypeSchaubilderPage() {
     if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
     bindEvents();
+    const _scrollTo = sessionStorage.getItem('kompass:scrollTo');
+    if (_scrollTo) {
+      sessionStorage.removeItem('kompass:scrollTo');
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        const _el = document.getElementById(_scrollTo);
+        if (_el) _el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }));
+    }
     requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
   };
   if (app.innerHTML === "") {
@@ -40708,7 +40722,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v592';
+  const MY_VERSION = 'inhalt-v593';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -1864,7 +1864,7 @@ function toolDetailPage(slug) {
     "heilmittel-impuls": {
       intro: "Der Heilmittel-Kompass übersetzt Ihr Subtyp-Muster in ein heilkundliches Symbolfeld. Jedes Mittel spricht eine bestimmte Ebene an — körperlich, seelisch und energetisch.",
       steps: [
-        "Öffnen Sie den Heilmittel-Kompass (Taste unten) und betrachten Sie, welches Mittel Ihre Aufmerksamkeit anzieht.",
+        'Öffnen Sie den <button class="inline-link" data-route="healing" data-scroll-to="heilmittel-kompass" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Heilmittel-Kompass →</button> und betrachten Sie, welches Mittel Ihre Aufmerksamkeit anzieht.',
         "Lesen Sie die zugehörige Bedeutung — lassen Sie sie wirken, ohne sofort zu analysieren.",
         "Wählen Sie heute ein Mittel aus: Homöopathie, Bachblüte, Schüßler-Salz, Edelstein oder Tee.",
         "Verwenden Sie es bewusst — mit dem Gedanken an Ihr Heilungsthema.",
@@ -1995,8 +1995,6 @@ function toolDetailPage(slug) {
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Zurück zu allen Werkzeugen</button>
-        ${slug === "heilmittel-impuls" ? '<button class="secondary" data-route="healing">&#x2192; Zum Heilmittel-Kompass</button>' : ''}
-        ${slug === "aromatherapie" ? '<button class="secondary" data-route="oils">&#x2192; Zu den ätherischen Ölen</button>' : ''}
         <button class="secondary" data-route="tcm">TCM-Profil &amp; Akupunktur ansehen</button>
         <button class="secondary" data-route="subtype/${getProfile()}">Mein Subtyp-Kompass</button>
       </div>
@@ -4051,7 +4049,7 @@ function heilmittelSection(h, oel, code) {
   const wound = h.wunde || {};
   const seite4 = code ? `${CDN}assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
   return `
-    <div class="knowledge-section heilmittel-box">
+    <div class="knowledge-section heilmittel-box" id="heilmittel-kompass">
       <strong>${w.title}</strong>
       ${seite4 ? `
       <figure class="vollseite-karte">
@@ -4469,6 +4467,14 @@ function bindEvents() {
     });
     window.kfApply();
   }
+
+  // data-scroll-to: store scroll target before navigation
+  document.querySelectorAll('[data-scroll-to]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      sessionStorage.setItem('kompass:scrollTo', btn.dataset.scrollTo);
+      go(btn.dataset.route);
+    });
+  });
 
   // Suche autofocus
   const _si = document.getElementById("suche-input");
@@ -36901,6 +36907,15 @@ function render() {
     if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
     bindEvents();
+    // scroll to stored target (e.g. from heilmittel-impuls inline button)
+    const _scrollTo = sessionStorage.getItem('kompass:scrollTo');
+    if (_scrollTo) {
+      sessionStorage.removeItem('kompass:scrollTo');
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        const _el = document.getElementById(_scrollTo);
+        if (_el) _el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }));
+    }
     requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
   };
   if (app.innerHTML === "") {
@@ -37030,7 +37045,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v578';
+  const MY_VERSION = 'inhalt-v579';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
