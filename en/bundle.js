@@ -36432,15 +36432,15 @@ function mineralstoffePage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Reinigung, Stoffwechsel und innere Erneuerung`, beschreibung:`Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Ordnung nicht starr, sondern beweglich zu halten.` },
-    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Flüssigkeitshaushalt und Lösen von altem Kummer`, beschreibung:`` },
-    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energie, Widerstandskraft und Initiative`, beschreibung:`` },
-    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nervenkraft bei Erschöpfung, seelische Stärke`, beschreibung:`` },
-    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`innere Struktur, Standfestigkeit und Selbstvertrauen`, beschreibung:`` },
-    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Entspannung und Lösen von Anspannung`, beschreibung:`` },
-    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Säure-Basen-Ausgleich und innere Balance`, beschreibung:`` },
-    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsSalz:"Calcium fluoratum", wundeSalz:"Calcium fluoratum", nr:"1", wirkungsfeld:`Festigkeit und Elastizität zugleich`, beschreibung:`` },
-    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsSalz:"Natrium sulfuricum", wundeSalz:"Natrium sulfuricum", nr:"10", wirkungsfeld:`Ausscheidung und Loslassen von Belastendem`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Purification, metabolism and inner renewal`, beschreibung:`Kalium sulfuricum points to balance, purification and renewal. It symbolically supports the ability to release inner tension and to hold order not rigidly, but flexibly.` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Fluid balance and releasing old grief`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energy, resilience and initiative`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nerve strength during exhaustion, inner resilience`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`Inner structure, steadiness and self-confidence`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Relaxation and releasing tension`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Acid-base balance and inner equilibrium`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsSalz:"Calcium fluoratum", wundeSalz:"Calcium fluoratum", nr:"1", wirkungsfeld:`Firmness and elasticity combined`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsSalz:"Natrium sulfuricum", wundeSalz:"Natrium sulfuricum", nr:"10", wirkungsfeld:`Elimination and letting go of burdens`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36454,26 +36454,26 @@ function mineralstoffePage() {
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <div style="margin-bottom:${sameSalz ? "0" : "1.2rem"};">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Leidenschafts-Salz</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Passion Salt</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 .1rem;font-style:italic;">${d.leidenschaftsSalz}</p>
             ${d.nr !== "?" ? `<span style="font-size:.78rem;color:var(--muted);">Sch&uuml;&szlig;ler-Salz Nr.&thinsp;${d.nr}</span>` : ""}
           </div>
-          ${sameSalz ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Leidenschafts-Salz und Wunden-Salz sind identisch.</p>` : `
+          ${sameSalz ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Passion salt and wound salt are identical.</p>` : `
           <div style="padding-top:1rem;border-top:1px solid var(--line);">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wunden-Salz</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wound Salt</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.wundeSalz}</p>
           </div>`}
         </div>
         ${d.wirkungsfeld ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Wirkungsfeld</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Field of Action</p>
           <p style="font-size:.95rem;line-height:1.6;margin:0;color:var(--ink);">${d.wirkungsfeld}</p>
         </div>` : ""}
         ${d.beschreibung ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -36487,7 +36487,7 @@ function mineralstoffePage() {
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
-            <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">K&ouml;rperregulation</button>
+            <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Body Regulation</button>
             <button class="ghost-link" data-route="heilungsweg" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">The Healing Path</button>
           </div>
         </div>
@@ -36500,9 +36500,9 @@ function mineralstoffePage() {
     ${pageHeader("mineralstoffe")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">Heilung &middot; Mineralstoffimpulse</p>
-        <h1>Mineralstoffimpulse (Sch&uuml;&szlig;ler-Salze)</h1>
-        <p class="lead-small">Leidenschafts- und Wunden-Salze f&uuml;r alle 9 Enneagrammtypen &ndash; aus der hom&ouml;opathischen Enneagramm-Praxis nach dem &Auml;hnlichkeitsgesetz.</p>
+        <p class="eyebrow">Healing · Mineral Impulses</p>
+        <h1>Mineral Impulses (Schüßler Salts)</h1>
+        <p class="lead-small">Passion and wound salts for all 9 Enneagram types – from homeopathic Enneagram practice according to the law of similars.</p>
       </div>
     </section>
     <section class="oils-grid" style="padding:0 1rem 3rem;">
@@ -36511,15 +36511,15 @@ function mineralstoffePage() {
         return `
         <article class="oil-card" style="cursor:pointer;" data-route="mineralstoffe/${d.typ}">
           <div class="oil-card__body" style="padding:1.2rem;">
-            <span class="oil-card__type">Typ ${d.typ}${d.nr !== "?" ? ` &middot; Nr.&thinsp;${d.nr}` : ""}</span>
+            <span class="oil-card__type">Type ${d.typ}${d.nr !== "?" ? ` &middot; Nr.&thinsp;${d.nr}` : ""}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Leidenschafts-Salz</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Passion Salt</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.leidenschaftsSalz}</span>
             </div>
             ${sameSalz ? "" : `
             <div style="margin-bottom:.5rem;padding-top:.5rem;border-top:1px solid var(--line);">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wunden-Salz</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wound Salt</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.wundeSalz}</span>
             </div>`}
             ${d.wirkungsfeld ? `<p style="font-size:.7rem;color:var(--muted);margin:.5rem 0 0;line-height:1.4;">${d.wirkungsfeld}</p>` : ""}
@@ -36527,7 +36527,7 @@ function mineralstoffePage() {
         </article>`;
       }).join("")}
     </section>
-    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus.</p>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
 
@@ -36569,14 +36569,14 @@ function bachbluetenPage() {
         </div>
         ${d.wirkungsfeld ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Wirkungsfeld</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Field of Action</p>
           <p style="font-size:.95rem;line-height:1.6;margin:0;color:var(--ink);">${d.wirkungsfeld}</p>
         </div>` : ""}
         ${d.beschreibung ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -36630,7 +36630,7 @@ function bachbluetenPage() {
         </article>`;
       }).join("")}
     </section>
-    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus.</p>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
 
@@ -36666,7 +36666,7 @@ function heilteesPage() {
         </div>
         ${d.wirkungsfeld ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Wirkungsfeld</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Field of Action</p>
           <p style="font-size:.95rem;line-height:1.6;margin:0;color:var(--ink);">${d.wirkungsfeld}</p>
         </div>` : ""}
         ${d.beschreibung ? `
@@ -36687,7 +36687,7 @@ function heilteesPage() {
             <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">&#9749; Tee &amp; Enneagramm &ndash; ausführlich</button>
             <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
-            <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">K&ouml;rperregulation</button>
+            <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Body Regulation</button>
           </div>
         </div>
       </div>
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v575';
+  const MY_VERSION = 'inhalt-v576';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
