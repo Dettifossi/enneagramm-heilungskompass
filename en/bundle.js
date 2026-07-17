@@ -2029,6 +2029,39 @@ function pathPage() {
   `);
 }
 
+// EN: translate tool names, labels, texts from German data
+const EN_TOOL_NAMES = {
+  "2-Punkte-Integration": "Two-Point Integration",
+  "Atemimpuls":           "Breath Impulse",
+  "Merksatz":             "Key Phrase",
+  "Körperübung":          "Body Exercise",
+  "Heilmittel-Impuls":    "Remedy Impulse",
+  "Stille sitzen":        "Sitting in Silence",
+  "Aromatherapie":        "Aromatherapy",
+  "Blickqualität":        "Gaze Quality",
+};
+const EN_TOOL_LABELS = {
+  "Körper & Gegenwart":    "Body & Presence",
+  "3 ruhige Atemzüge":     "3 Calm Breaths",
+  "Körper spüren":          "Feel Your Body",
+  "Dein Heilmittel":       "Your Remedy",
+  "2 Minuten Stille":      "2 Minutes of Silence",
+  "Dein Öl-Impuls":        "Your Oil Impulse",
+  "Selbst-Beobachtung":    "Self-Observation",
+};
+const EN_TOOL_TEXTS = {
+  "2-Punkte-Integration": "Feel both feet on the ground and place one hand on your heart. Breathe deeply. Let the moment arrive.",
+  "Atemimpuls":           "Regulate tension in the body",
+  "Körperübung":          "Dissolve the subtype’s characteristic physical holding pattern",
+  "Heilmittel-Impuls":    "Homeopathy, Bach flowers, gemstones and tea — attuned to your subtype.",
+  "Stille sitzen":        "Sit upright, close your eyes, and do nothing for two minutes. Let the body show its own intelligence.",
+  "Aromatherapie":        "Choose an essential oil suited to your subtype today and inhale it three times deeply.",
+  "Blickqualität":        "How are you looking at the world today? Observe your gaze direction, eye tension and the quality of your attention.",
+};
+function enToolName(t)  { return EN_TOOL_NAMES[t.name]  || t.name;  }
+function enToolLabel(t) { return EN_TOOL_LABELS[t.label] || t.label; }
+function enToolText(t)  { return EN_TOOL_TEXTS[t.name]  || t.text;  }
+
 function toolSlug(name) {
   return name.toLowerCase().replace(/[äöü]/g, c => ({ä:"ae",ö:"oe",ü:"ue"}[c])).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -2048,18 +2081,18 @@ function toolsPage() {
         .map(
           (tool) => `
             <button class="tool-card tool-card--link" data-route="tool/${toolSlug(tool.name)}">
-              <span>${tool.label}</span>
-              <h2>${tool.name}</h2>
-              <p>${tool.text}</p>
+              <span>${enToolLabel(tool)}</span>
+              <h2>${enToolName(tool)}</h2>
+              <p>${enToolText(tool)}</p>
               <span class="tool-card__arrow">Details →</span>
             </button>
           `
         )
         .join("")}
       <button class="tool-card tool-card--link" data-route="tcm">
-        <span>TCM · Meridiane · Akupunktur</span>
-        <h2>TCM-Profil ansehen</h2>
-        <p>Ihren persönlichen TCM-Meridian, Organzeiten und Akupunktur-Empfehlungen ansehen.</p>
+        <span>TCM · Meridians · Acupuncture</span>
+        <h2>View TCM Profile</h2>
+        <p>Your personal TCM meridian, organ times and acupuncture recommendations for your type.</p>
         <span class="tool-card__arrow">Open →</span>
       </button>
     </section>
@@ -2077,68 +2110,68 @@ function toolDetailPage(slug) {
 
   const DETAIL_INSTRUCTIONS = {
     "atemimpuls": {
-      intro: "Der Atemimpuls ist eine einfache Atemtechnik, die das Nervensystem in Sekunden beruhigt. Längeres Ausatmen aktiviert den Parasympathikus — das Gegenteil von Stress.",
+      intro: "The breath impulse is a simple breathing technique that calms the nervous system within seconds. A longer exhale activates the parasympathetic nervous system — the opposite of stress.",
       steps: [
-        "Setzen oder stellen Sie sich aufrecht hin.",
-        "Atmen Sie durch die Nase ein — zählen Sie dabei langsam bis 4.",
-        "Atmen Sie durch den Mund aus — zählen Sie langsam bis 6.",
-        "Wiederholen Sie das dreimal.",
-        "Bemerken Sie, wie Schultern und Kiefer weicher werden."
+        "Sit or stand upright.",
+        "Inhale through your nose — count slowly to 4.",
+        "Exhale through your mouth — count slowly to 6.",
+        "Repeat three times.",
+        "Notice how your shoulders and jaw soften."
       ],
-      hinweis: "Ideal in Stresssituationen, vor wichtigen Gesprächen oder als Abendritual."
+      hinweis: "Ideal in stressful situations, before important conversations, or as an evening ritual."
     },
     "2-punkte-integration": {
       intro: "Two-Point Integration connects body awareness with presence. It helps hold tension without fighting it — until the body naturally finds more space.",
       steps: [
-        "Legen Sie eine Hand auf Punkt 1, die andere auf Punkt 2 (siehe oben).",
-        "Halten Sie beide Punkte gleichzeitig im Bewusstsein — wechseln Sie nicht zwischen ihnen.",
-        "Atmen Sie ruhig weiter und warten Sie, ohne etwas erzwingen zu wollen.",
-        "Nichts verändern. Nichts korrigieren. Nur halten und atmen.",
-        "Beobachten Sie, wie sich das Verhältnis der beiden Punkte verändert."
+        "Place one hand on Point 1, the other on Point 2 (see diagram above).",
+        "Hold both points in awareness simultaneously — do not alternate between them.",
+        "Keep breathing calmly and wait, without forcing anything.",
+        "Nothing to change. Nothing to correct. Just hold and breathe.",
+        "Observe how the relationship between the two points shifts."
       ],
-      hinweis: "Kein Kämpfen — nur Beobachten. Der Körper löst sich, wenn er beides gleichzeitig spüren darf."
+      hinweis: "No fighting — only observing. The body releases when it is allowed to feel both at once."
     },
     "merksatz": {
       intro: "The affirmation is a personal guiding sentence that captures the essential core of your subtype in one line. Repeated regularly, it works like an inner compass.",
       steps: [
-        "Lesen Sie den Merksatz laut vor.",
-        "Atmen Sie tief ein und sprechen Sie ihn dann langsam nochmals — als würden Sie ihn fühlen statt nur denken.",
-        "Lassen Sie einen Moment stillen Nachklingens entstehen.",
-        "Notieren Sie ihn an einem sichtbaren Ort (Spiegel, Notizbuch, Handy-Wallpaper)."
+        "Read your key phrase out loud.",
+        "Take a deep breath and speak it again slowly — as if you were feeling it rather than just thinking it.",
+        "Allow a moment of quiet resonance.",
+        "Write it somewhere visible (mirror, notebook, phone wallpaper)."
       ],
-      hinweis: "Der Merksatz wirkt nicht durch einmaliges Lesen, sondern durch regelmäßige Wiederholung — besonders morgens und abends."
+      hinweis: "The key phrase works not through reading it once, but through regular repetition — especially morning and evening."
     },
     "koerperuebung": {
-      intro: "Körperübungen verankern das Bewusstsein im Körper — weg vom Kopf, weg vom Stress. Was der Körper spürt, kann der Geist loslassen.",
+      intro: "Body exercises anchor awareness in the body — away from the head, away from stress. What the body feels, the mind can release.",
       steps: [
-        "Stellen Sie sich aufrecht hin, Füße hüftbreit auseinander.",
-        "Spüren Sie das Gewicht Ihrer Füße auf dem Boden — drücken Sie leicht auf.",
-        "Bemerken Sie Ihren Rücken: aufrecht aber nicht starr.",
-        "Legen Sie eine Hand auf den Bauch, die andere auf die Brust.",
-        "Atmen Sie dreimal tief in den Bauch — die Bauchhand hebt sich, die Brusthand bleibt ruhiger.",
-        "Beantworten Sie erst danach, was Sie beschäftigt."
+        "Stand upright, feet hip-width apart.",
+        "Feel the weight of your feet on the ground — press down lightly.",
+        "Notice your back: upright but not rigid.",
+        "Place one hand on your belly, the other on your chest.",
+        "Breathe deeply into the belly three times — the belly hand rises, the chest hand stays quieter.",
+        "Only then address whatever is on your mind."
       ],
-      hinweis: "Diese Übung kann jederzeit und überall gemacht werden — auch im Sitzen."
+      hinweis: "This exercise can be done anywhere, anytime — sitting down works too."
     },
     "heilmittel-impuls": {
       intro: "The Remedies Compass translates your subtype pattern into a healing symbol field. Each remedy addresses a specific level — physical, psychological, and energetic.",
       steps: [
-        "Betrachten Sie das Schaubild oben: Welches Mittel zieht Ihre Aufmerksamkeit an?",
-        "Lesen Sie die zugehörige Bedeutung — lassen Sie sie wirken, ohne sofort zu analysieren.",
-        "Wählen Sie heute ein Mittel aus: Homöopathie, Bachblüte, Schüßler-Salz, Edelstein oder Tee.",
-        "Verwenden Sie es bewusst — mit dem Gedanken an Ihr Heilungsthema.",
-        "Notieren Sie abends, was Sie bemerkt haben."
+        "Look at the diagram above: which remedy draws your attention?",
+        "Read its associated meaning — let it sink in without immediately analysing.",
+        "Choose one remedy for today: homeopathy, Bach flower, Schüßler salt, gemstone, or tea.",
+        "Use it consciously — holding your healing theme in mind.",
+        "In the evening, note what you noticed."
       ],
       hinweis: "Remedies are supportive and do not replace therapeutic guidance. Detlef Rathmer is available for individual consultations."
     },
     "stille-sitzen": {
       intro: "Sitting completely still is one of the most effective practices in the Enneagram healing model. The body reveals its own intelligence — when you stop trying to control it.",
       steps: [
-        "Setzen Sie sich aufrecht und bequem hin — Rücken gerade, Hände auf den Oberschenkeln.",
-        "Close Sie die Augen. Lassen Sie alle Kontrolle los.",
-        "Tun Sie zwei Minuten lang nichts — keine Korrektur, keine Bewegung.",
-        "Beobachten Sie, was der Körper von alleine tut: Atem, Spannung, Impulse.",
-        "Open Sie danach die Augen. Bemerken Sie den Unterschied."
+        "Sit upright and comfortably — back straight, hands on your thighs.",
+        "Close your eyes. Let go of all control.",
+        "Do nothing for two minutes — no correcting, no moving.",
+        "Observe what the body does on its own: breath, tension, impulses.",
+        "Open your eyes. Notice the difference."
       ],
       hinweis: "Effect and aim: The body reveals its own intelligence. In this time (no longer!) something essential may emerge."
     },
@@ -2146,21 +2179,21 @@ function toolDetailPage(slug) {
       intro: "Essential oils speak directly to the limbic system — they work faster than words. The right oil for your subtype supports the themes you are currently working on.",
       steps: [
         "Open the bottle of your subtype oil (see diagram above).",
-        "Geben Sie einen Tropfen auf Ihre Handflächen und reiben Sie sie sanft aneinander.",
-        "Halten Sie die Hände vor Nase und Mund — atmen Sie dreimal tief ein.",
-        "Lassen Sie den Duft wirken, ohne ihn zu bewerten.",
-        "Sprechen Sie dabei innerlich das Heilungsthema Ihres Subtypes aus."
+        "Place a drop on your palms and rub them gently together.",
+        "Hold your hands in front of your nose and mouth — inhale deeply three times.",
+        "Let the scent unfold without judging it.",
+        "Inwardly speak the healing theme of your subtype."
       ],
       hinweis: "Always dilute essential oils before use. For the complete oil chart of all 27 subtypes → Oils page in the app."
     },
     "blickqualitaet": {
       intro: "Gaze quality is the most visible feature of your Enneagram subtype. Those who know their own gaze recognise their pattern — and can consciously choose a different quality.",
       steps: [
-        "Betrachten Sie das Profil-Schaubild oben: Wie ist Ihr typischer Blick beschrieben?",
+        "Look at the profile diagram above: how is your typical gaze described?",
         "Stand in front of a mirror or close your eyes and imagine how you are looking right now.",
-        "Bemerken Sie: Ist der Blick eher eng, weit, prüfend, suchend, weich, distanziert?",
-        "Wählen Sie bewusst eine andere Blickqualität — einen Moment lang weich, offen, ruhig.",
-        "Beobachten Sie, wie sich das auf Ihre innere Haltung auswirkt."
+        "Notice: is your gaze more narrow, wide, scrutinising, searching, soft, or distant?",
+        "Consciously choose a different gaze quality — for a moment: soft, open, calm.",
+        "Observe how this affects your inner posture."
       ],
       hinweis: "Gaze quality is not a technique — it is a mirror. Changing your gaze changes your inner state."
     }
@@ -2228,8 +2261,8 @@ function toolDetailPage(slug) {
       <button class="ghost-link" data-route="tools">← Back to Tools</button>
     </section>
     <section class="narrow centered" style="padding:1rem 1rem 0;">
-      <p class="eyebrow">${tool.label}</p>
-      <h1 style="font-size:1.8rem;">${tool.name}</h1>
+      <p class="eyebrow">${enToolLabel(tool)}</p>
+      <h1 style="font-size:1.8rem;">${enToolName(tool)}</h1>
       <p style="font-style:italic;color:var(--text-muted,#888);font-size:.95rem;">${enCode(p.code)} · Your tool for today</p>
     </section>
 
@@ -2244,7 +2277,7 @@ function toolDetailPage(slug) {
       ${detail ? `
         <div style="background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:14px;padding:1.5rem;margin-bottom:1.2rem;">
           <p style="font-size:.95rem;line-height:1.7;margin:0 0 1.2rem;color:#444;">${detail.intro}</p>
-          <h3 style="font-size:1rem;margin:0 0 .75rem;">So geht es:</h3>
+          <h3 style="font-size:1rem;margin:0 0 .75rem;">How to practice:</h3>
           <ol style="padding-left:1.2rem;margin:0 0 1.2rem;line-height:1.8;font-size:.95rem;">
             ${detail.steps.map(s => `<li style="margin-bottom:.4rem;">${s}</li>`).join("")}
           </ol>
@@ -2254,9 +2287,8 @@ function toolDetailPage(slug) {
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Back to all tools</button>
-        <button class="secondary" data-route="tcm">TCM-Profil & Akupunktur ansehen</button>
-        <button class="secondary" data-route="subtype/${getProfile()}">Mein Subtype-Kompass</button>
-      </div>
+        <button class="secondary" data-route="tcm">TCM Profile &amp; Acupuncture</button>
+        <button class="secondary" data-route="subtype/${getProfile()}">My Subtype Compass</button>      </div>
     </section>
   `);
 }
@@ -2781,32 +2813,32 @@ function practicePage() {
         .map(
           (tool) => `
             <button class="tool-card tool-card--link" data-route="tool/${toolSlug(tool.name)}">
-              <span>${tool.label}</span>
-              <h2>${tool.name}</h2>
-              <p>${tool.text}</p>
+              <span>${enToolLabel(tool)}</span>
+              <h2>${enToolName(tool)}</h2>
+              <p>${enToolText(tool)}</p>
               <span class="tool-card__arrow">Details →</span>
             </button>
           `
         )
         .join("")}
       <button class="tool-card tool-card--link" data-route="tcm">
-        <span>TCM · Meridiane · Akupunktur</span>
-        <h2>TCM-Profil ansehen</h2>
-        <p>Persönlichen Meridian, Organzeiten und Akupunktur-Empfehlungen für Ihren Typ.</p>
+        <span>TCM · Meridians · Acupuncture</span>
+        <h2>View TCM Profile</h2>
+        <p>Your personal TCM meridian, organ times and acupuncture recommendations for your type.</p>
         <span class="tool-card__arrow">Open →</span>
       </button>
       <button class="tool-card tool-card--link" data-route="stille">
         <span>Präsenz · Innehalten · Stille</span>
-        <h2>9 Minuten Stille sitzen</h2>
-        <p>Das Ego greift ständig — nach Erkenntnis, nach Verbesserung, nach dem nächsten Gedanken. Diese Übung lädt dich ein, für 9 Minuten vollständig im Hier und Jetzt zu bleiben. Eine Minute für jeden Enneagrammtyp — ein Symbol für die Ganzheit. Ein Gong eröffnet die Stille, ein Gong holt dich zurück.</p>
-        <span class="tool-card__arrow">Starten →</span>
-      </button>
+        <span>Presence · Stillness · Silence</span>
+        <h2>9 Minutes of Silence</h2>
+        <p>The ego constantly grasps — for insight, for improvement, for the next thought. This practice invites you to remain fully in the here and now for 9 minutes. One minute for each Enneagram type — a symbol of wholeness. A gong opens the silence, a gong brings you back.</p>
+        <span class="tool-card__arrow">Begin →</span>
       <button class="tool-card tool-card--link" data-route="musik">
         <span>Klang · Kontemplation · Typ</span>
-        <h2>Entspannungs- und Heilungsmusik</h2>
-        <p>Neun vollständige Alben — eines für jeden Enneagrammtyp. Jedes Album begleitet dich ca. 1 Std. 20 Min. in die Stille und Tiefe deines Typs.</p>
-        <span class="tool-card__arrow">Anhören →</span>
-      </button>
+        <span>Sound · Contemplation · Type</span>
+        <h2>Relaxation &amp; Healing Music</h2>
+        <p>Nine complete albums — one for each Enneagram type. Each album accompanies you for approx. 1 hr 20 min into the stillness and depth of your type.</p>
+        <span class="tool-card__arrow">Listen →</span>
     </section>
   `);
 }
@@ -40673,7 +40705,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v590';
+  const MY_VERSION = 'inhalt-v591';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
