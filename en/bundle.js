@@ -610,6 +610,58 @@ text.routes.dashboard.dailyImpulse = "Daily Impulse";
 text.routes.dashboard.reflectionQuestion = "Reflection Question";
 text.routes.dashboard.nextStep = "Next Step";
 
+const CENTER_EN = {
+  "Bauchzentrum": "Body Centre",
+  "Herzzentrum": "Heart Centre",
+  "Kopfzentrum": "Head Centre",
+};
+const TYPELABEL_EN = {
+  "Der Ordnungsorientierte": "Order-oriented",
+  "Der Beziehungsorientierte": "Relationship-oriented",
+  "Der Erfolgsorientierte": "Success-oriented",
+  "Der Identitätsorientierte": "Identity-oriented",
+  "Der Wissensorientierte": "Knowledge-oriented",
+  "Der Sicherheitsorientierte": "Security-oriented",
+  "Der Möglichkeitsorientierte": "Possibility-oriented",
+  "Der Machtorientierte": "Power-oriented",
+  "Der Harmonieorientierte": "Harmony-oriented",
+};
+const VARIANT_EN = {
+  "Kontratyp": "Countertype",
+  "Normaltyp": "Core type",
+  "Verstärkungstyp": "Amplifier type",
+};
+const TITLEALT_EN = {
+  "Der Willensstarke": "The Determined One",
+  "Der Sorgenvolle": "The Worrier",
+  "Der Reformer": "The Reformer",
+  "Der Missionar": "The Missionary",
+  "Der Bedürftige": "The Needy One",
+  "Der Hingebungsvolle": "The Devoted One",
+  "Der Verführer": "The Seducer",
+  "Der Leistungsmensch": "The Achiever",
+  "Der Statusbewusste": "The Status-Conscious",
+  "Der Bewunderte": "The Admired One",
+  "Der Schamvolle": "The Shame-Bearer",
+  "Der Rivale": "The Rival",
+  "Der Besitzergreifende": "The Possessive One",
+  "Der verletzte Heiler": "The Wounded Healer",
+  "Der Euphorische": "The Euphoric One",
+  "Der Einsiedler": "The Hermit",
+  "Der Forscher": "The Researcher",
+  "Der Spion": "The Spy",
+  "Der Ersatzbefriedigte": "The Substitute-Seeker",
+  "Der Wachsame": "The Vigilant One",
+  "Der Angepasste": "The Conformist",
+  "Der Autonome": "The Autonomous One",
+  "Der Netzwerker": "The Networker",
+  "Der Planer": "The Planner",
+  "Der Ehrgeizige": "The Ambitious One",
+  "Der Anführer": "The Leader",
+  "Der Vermittler": "The Mediator",
+};
+
+
 document.title = text.meta.appTitle;
 
 window.addEventListener("hashchange", () => {
@@ -1800,13 +1852,13 @@ function dashboardPage() {
     <section class="dashboard">
       <div class="profile-visual" style="box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};position:relative;">
         ${getUserPhoto()
-          ? `<img id="user-photo-img" src="${getUserPhoto()}" alt="Mein Foto" style="position:absolute;inset:0;width:100%;height:100%;margin:0;object-fit:cover;border-radius:inherit;" />`
+          ? `<img id="user-photo-img" src="${getUserPhoto()}" alt="My photo" style="position:absolute;inset:0;width:100%;height:100%;margin:0;object-fit:cover;border-radius:inherit;" />`
           : (p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge profile-badge--large">${p.emoji || enCode(p.code)}</div>`)
         }
       </div>
       <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;gap:0.4rem;">
         <button id="user-photo-menu-btn" style="background:var(--surface);border:1px solid var(--border);color:var(--muted);border-radius:20px;padding:0.3rem 0.9rem;font-size:0.78rem;cursor:pointer;display:inline-flex;align-items:center;gap:0.3rem;">
-          📷 ${getUserPhoto() ? 'Foto ▾' : 'Eigenes Foto'}
+          📷 ${getUserPhoto() ? 'Photo ▾' : 'Add photo'}
         </button>
         <input type="file" accept="image/*" id="user-photo-input" style="display:none;" />
         <div id="user-photo-menu" style="display:none;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;width:180px;">
@@ -1817,17 +1869,17 @@ function dashboardPage() {
         </div>
       </div>
       <div class="dashboard__copy">
-        <p class="eyebrow">${copy.greeting} · ${p.center} · ${p.typeLabel || ''}</p>
+        <p class="eyebrow">${copy.greeting} · ${CENTER_EN[p.center] || p.center} · ${TYPELABEL_EN[p.typeLabel] || p.typeLabel || ''}</p>
         <h1>${enCode(p.code)} · ${p.title_en || p.title}</h1>
-        <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype_en || p.archetype}</p>
-        ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${p.variant}</span>` : ''}
+        <p class="subtle-archetype">${p.titleAlt ? `also: ${TITLEALT_EN[p.titleAlt] || p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype_en || p.archetype}</p>
+        ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${VARIANT_EN[p.variant] || p.variant}</span>` : ''}
         <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus_en || p.focus}</p>
         <div class="question-box">
           <span>${copy.organismQuestion}</span>
           <p>${p.organismQuestion}</p>
         </div>
-        <button class="ghost-link" data-route="profile">Profil wechseln →</button>
-        <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 Mein Typalbum →</button>
+        <button class="ghost-link" data-route="profile">Switch profile →</button>
+        <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 My Type Album →</button>
         <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">🔔 Push-Benachrichtigungen aktivieren</button>
       </div>
     </section>
@@ -1844,8 +1896,8 @@ function dashboardPage() {
     </section>
     <section class="narrow" style="margin-top:2.5rem;">
       <blockquote class="kompass-zitat">
-        <p>„Wir sehen die Welt nicht so, wie sie (objektiv) ist, sondern wie wir sie (subjektiv) wahrnehmen &ndash; entsprechend unseres Enneagrammtyps."</p>
-        <p style="margin-top:0.75rem;">Daraus ergeben sich alle Probleme zwischen Menschen, aber potenziell auch alle Lösungen dieser zwischenmenschlichen Probleme und somit letztlich alle Probleme und Lösungen dieser Welt.</p>
+        <p>&ldquo;We do not see the world as it (objectively) is, but as we (subjectively) perceive it &ndash; according to our Enneagram type.&rdquo;</p>
+        <p style="margin-top:0.75rem;">This is the source of all problems between people, but also potentially all solutions to these interpersonal problems — and ultimately all problems and solutions in this world.</p>
         <footer>— Detlef Rathmer, 2026</footer>
       </blockquote>
     </section>
@@ -2091,7 +2143,7 @@ function toolDetailPage(slug) {
 
   return shell(`
     <section class="narrow" style="padding:1.5rem 1rem 0;">
-      <button class="ghost-link" data-route="tools">← Back zu Werkzeuge</button>
+      <button class="ghost-link" data-route="tools">← Back to Tools</button>
     </section>
     <section class="narrow centered" style="padding:1rem 1rem 0;">
       <p class="eyebrow">${tool.label}</p>
@@ -2119,7 +2171,7 @@ function toolDetailPage(slug) {
       ` : ""}
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
-        <button class="secondary" data-route="tools">Back zu allen Werkzeugen</button>
+        <button class="secondary" data-route="tools">Back to all tools</button>
         <button class="secondary" data-route="tcm">TCM-Profil & Akupunktur ansehen</button>
         <button class="secondary" data-route="subtype/${getProfile()}">Mein Subtype-Kompass</button>
       </div>
@@ -4358,8 +4410,8 @@ function profilePage() {
         </div>
         <span class="profile-card__code" style="color:${tc};">${enCode(p.code)}</span>
         <strong class="profile-card__title">${p.title_en || p.title}</strong>
-        ${p.titleAlt ? `<em class="profile-card__alt">${p.titleAlt}</em>` : ''}
-        ${p.variant ? `<span class="profile-card__variant">${p.variant}</span>` : ''}
+        ${p.titleAlt ? `<em class="profile-card__alt">${TITLEALT_EN[p.titleAlt] || p.titleAlt}</em>` : ''}
+        ${p.variant ? `<span class="profile-card__variant">${VARIANT_EN[p.variant] || p.variant}</span>` : ''}
       </button>`;
     }).join("");
     return `<section class="profile-group">
@@ -4740,7 +4792,7 @@ function bindEvents() {
         pushBtn.textContent = "🔕 Push aus – tippen zum Aktivieren";
         pushBtn.style.color = "var(--muted)";
       } else if (state === "denied") {
-        pushBtn.textContent = "🔕 Push blockiert – Einstellungen → App → Mitteilungen";
+        pushBtn.textContent = "🔕 Push blocked – Settings → App → Notifications";
         pushBtn.style.color = "#c0392b";
       } else {
         pushBtn.textContent = "🔔 Push-Benachrichtigungen aktivieren";
@@ -4771,7 +4823,7 @@ function bindEvents() {
         pushOptedOut = false;
         setPushBtnState("active");
       } else if (state === "denied") {
-        pushBtn.textContent = "🔕 Einstellungen → [App-Name] → Mitteilungen → erlauben";
+        pushBtn.textContent = "🔕 Settings → [App name] → Notifications → allow";
       } else {
         pushBtn.textContent = "⏳ Erlaubnis wird angefragt…";
         try {
@@ -33526,7 +33578,7 @@ function typalbumPage() {
 
   return shell(`
     <div class="page-container">
-      ${pageHeader("Mein Typalbum")}
+      ${pageHeader("My Type Album")}
       <div style="padding:0 0.5rem 1rem;">
         <p style="color:var(--muted);font-size:0.88rem;margin-bottom:1.5rem;">Lade Fotos von Menschen hoch und ordne sie den 27 Subtypees zu — als persönliches Enneagramm-Notizbuch.</p>
         <div id="album-lightbox" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:1rem;">
@@ -36448,7 +36500,7 @@ function subtypeSchaubilderPage() {
     if (!entry || !entry.visualPages || !entry.visualPages.length) {
       return shell(`
         <section class="narrow" style="padding:1.5rem 1rem 0;">
-          <button class="ghost-link" data-route="subtypen-schaubilder">← Zurück zur Übersicht</button>
+          <button class="ghost-link" data-route="subtypen-schaubilder">← Back to overview</button>
         </section>
         <section class="narrow centered" style="padding:1rem;">
           <p>Für diesen Subtyp sind noch keine Schaubilder hinterlegt.</p>
@@ -36480,7 +36532,7 @@ function subtypeSchaubilderPage() {
       </section>
       <section class="narrow" style="padding:0 1rem 2rem;">
         ${pagesHtml}
-        <button class="secondary" style="width:100%;margin-top:.5rem;" data-route="subtypen-schaubilder">← Zurück zur Übersicht</button>
+        <button class="secondary" style="width:100%;margin-top:.5rem;" data-route="subtypen-schaubilder">← Back to overview</button>
       </section>
     `);
   }
@@ -37068,7 +37120,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v542';
+  const MY_VERSION = 'inhalt-v543';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
