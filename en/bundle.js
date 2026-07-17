@@ -1411,14 +1411,17 @@ window._adminFreigeben = function(index) {
       wartend.splice(index, 1);
       // Auto-translate text to English via MyMemory (free, no key needed)
       const textToTranslate = review.text || '';
+      const isEnglishSource = !!(review.text_en);
+      const langpair = isEnglishSource ? 'en|de' : 'de|en';
       const translatePromise = textToTranslate
-        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate) + '&langpair=de|en')
+        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate.slice(0,500)) + '&langpair=' + langpair)
             .then(function(r){ return r.json(); })
             .then(function(t){ return (t.responseData && t.responseData.translatedText) || null; })
             .catch(function(){ return null; })
         : Promise.resolve(null);
-      return translatePromise.then(function(text_en) {
-        if (text_en) review.text_en = text_en;
+      return translatePromise.then(function(translated) {
+        if (translated && isEnglishSource) review.text_de = translated;
+        if (translated && !isEnglishSource) review.text_en = translated;
         return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
           headers: { 'X-Master-Key': JSONBIN_KEY } })
           .then(function(r){ return r.json(); })
@@ -37055,7 +37058,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v537';
+  const MY_VERSION = 'inhalt-v538';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

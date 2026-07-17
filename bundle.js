@@ -1284,14 +1284,18 @@ window._adminFreigeben = function(index) {
       if (!review) return;
       wartend.splice(index, 1);
       const textToTranslate = review.text || '';
+      // Detect language direction: if text_en already exists, source is EN; otherwise translate DE→EN
+      const isEnglishSource = !!(review.text_en);
+      const langpair = isEnglishSource ? 'en|de' : 'de|en';
       const translatePromise = textToTranslate
-        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate) + '&langpair=de|en')
+        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate.slice(0,500)) + '&langpair=' + langpair)
             .then(function(r){ return r.json(); })
             .then(function(t){ return (t.responseData && t.responseData.translatedText) || null; })
             .catch(function(){ return null; })
         : Promise.resolve(null);
-      return translatePromise.then(function(text_en) {
-        if (text_en) review.text_en = text_en;
+      return translatePromise.then(function(translated) {
+        if (translated && isEnglishSource) review.text_de = translated;
+        if (translated && !isEnglishSource) review.text_en = translated;
         return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
           headers: { 'X-Master-Key': JSONBIN_KEY } })
           .then(function(r){ return r.json(); })
@@ -1341,13 +1345,14 @@ function _bewertungSterneInit() {
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
+        const displayText = b.text_de || b.text || '';
         const meta = [b.name, b.land ? b.land : null].filter(Boolean).join(' · ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
           (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
-          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + (b.text || '') + '</p>' +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + displayText + '</p>' +
           '</div>';
       }).join('');
       section.style.display = 'block';
@@ -37014,7 +37019,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v569';
+  const MY_VERSION = 'inhalt-v570';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
