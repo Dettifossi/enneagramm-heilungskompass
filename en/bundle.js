@@ -573,8 +573,25 @@ text.knowledgeCard.youtubeOpen = "Open on YouTube";
 text.knowledgeCard.linkPending = "Link to be assigned";
 text.knowledgeCard.linkPendingText = "This slot is planned. The YouTube ID will be added after title verification.";
 text.knowledgeCard.mediaResources = "Media Resources";
+text.routes.tcm.eyebrow       = "TCM & Enneagram";
+text.routes.tcm.headline      = "The Nine Meridians of the Enneagram";
+text.routes.tcm.lead          = "Each Enneagram type is assigned a TCM meridian – an energy channel that mirrors the essence of its inner dynamic. Meridians reveal where in the body the passion resides and how healing can begin energetically.";
+text.routes.tcm.linked        = "Two Sources";
+text.routes.tcm.linkedRef     = "Meridians · Organ Clock";
+text.routes.tcm.linkedText    = "Based on two works by Verlag Rathmer: »Enneagramm & TCM-Meridiane« and »Chrono-Ennea-Typ: Die chinesische Organuhr«.";
+text.routes.tcm.cardsTitle    = "The Nine Meridian Types";
+text.routes.tcm.note          = "These assignments serve self-reflection and do not replace medical or therapeutic care. TCM treatments belong in qualified hands.";
+text.routes.tcm.meridianLabel = "Meridian";
+text.routes.tcm.elementLabel  = "Element";
+text.routes.tcm.organzeitLabel = "Organ Time";
+text.routes.tcm.polaritaetLabel = "Polarity";
+text.routes.tcm.leitorganLabel = "Key Organ";
+text.routes.tcm.symptomLabel  = "Energetic Pattern";
 text.routes.tcm.ausgleichLabel = "Healing Direction";
 text.routes.tcm.ernaehrungLabel = "Nutrition Theme";
+text.routes.tcm.empfehlungLabel = "Recommendations";
+text.routes.tcm.tagesplanLabel = "Daily Plan";
+text.routes.tcm.ritualLabel   = "Ritual";
 text.subtypePage.rooms = {
   verstehen: "Understand",
   spueren: "Feel",
@@ -2637,7 +2654,7 @@ function tcmPage() {
               <figcaption class="vollseite-karte__titel">${pg.title || ""}</figcaption>
             </figure>` : "";
         })()}
-        ${bookTip("chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe", "Ernährung nach dem Enneagrammtyp im Rhythmus der TCM-Organuhr &ndash; Chrono-Ennea-Typ.", "Chrono-Ennea-Typ: Ernährung im Rhythmus der Organe")}
+        ${bookTip("chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe", "Nutrition according to your Enneagram type in the rhythm of the TCM organ clock – Chrono-Ennea-Typ.", "Chrono-Ennea-Typ: Ernährung im Rhythmus der Organe")}
       </article>
     </section>
   `);
@@ -40527,7 +40544,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v571';
+  const MY_VERSION = 'inhalt-v572';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
