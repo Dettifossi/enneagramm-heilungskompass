@@ -582,6 +582,13 @@ text.routes.tcm.linkedText    = "Based on two works by Verlag Rathmer: »Enneagr
 text.routes.tcm.cardsTitle    = "The Nine Meridian Types";
 text.routes.tcm.note          = "These assignments serve self-reflection and do not replace medical or therapeutic care. TCM treatments belong in qualified hands.";
 text.routes.tcm.meridianLabel = "Meridian";
+// EN: practice and tools route text overrides
+text.routes.practice.eyebrow   = "Practice & Healing";
+text.routes.practice.headline  = "Your Practice Tools";
+text.routes.practice.lead      = "Two-Point Integration · Breath Impulse · Key Phrase · Body Exercise · Remedy Impulse · Sitting in Silence · Aromatherapy · Gaze Quality · TCM Profile";
+text.routes.tools.suffix       = "Tools";
+text.routes.tools.headline     = "What helps me today?";
+text.routes.tools.healingCompassText = "Homeopathy, Bach flowers, Schüßler salts, gemstones and herbal teas — attuned to your subtype.";
 text.routes.tcm.elementLabel  = "Element";
 text.routes.tcm.organzeitLabel = "Organ Time";
 text.routes.tcm.polaritaetLabel = "Polarity";
@@ -40725,7 +40732,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v594';
+  const MY_VERSION = 'inhalt-v595';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

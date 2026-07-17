@@ -5434,10 +5434,10 @@ export const uiText = {
     },
     tools: {
       suffix: "Werkzeuge",
-      headline: "Was hilft mir jetzt?",
+      headline: "Was hilft mir heute?",
       premiumLater: "Premium später",
       healingCompass: "Heilmittel-Kompass",
-      healingCompassText: "Akupressur, Bachblüten, Schüßler-Salze, Edelsteine und Kräutertees können hier modular ergänzt werden.",
+      healingCompassText: "Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine und Kräutertees — abgestimmt auf Ihren Subtyp.",
     },
     healing: {
       eyebrow: "Heilmittel-Kompass",
@@ -5499,8 +5499,8 @@ export const uiText = {
     },
     practice: {
       eyebrow: "Praxis & Heilung",
-      headline: "Körperarbeit als Zugang",
-      lead: "Dieser Bereich sammelt 2-Punkte-Integration, Akupressur, Atemimpulse, stilles Sitzen und naturheilkundliche Praxisfelder.",
+      headline: "Deine Praxis-Werkzeuge",
+      lead: "2-Punkte-Integration · Atemimpuls · Merksatz · Körperübung · Heilmittel-Impuls · In Stille sitzen · Aromatherapie · Blickqualität · TCM-Profil",
       se1Pattern: "SE1 · Muster",
       twoPoint: "2-Punkte-Integration",
       twoPointText: "Solarplexus/Oberbauch und Unterbauch/Beckenbereich werden gleichzeitig gehalten. Die Praxis ist in der Wissensbasis vollständig angelegt.",
