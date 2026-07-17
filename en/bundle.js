@@ -2036,7 +2036,7 @@ const EN_TOOL_NAMES = {
   "Merksatz":             "Key Phrase",
   "Körperübung":          "Body Exercise",
   "Heilmittel-Impuls":    "Remedy Impulse",
-  "Stille sitzen":        "Sitting in Silence",
+  "In Stille sitzen":     "Sitting in Silence",
   "Aromatherapie":        "Aromatherapy",
   "Blickqualität":        "Gaze Quality",
 };
@@ -2054,7 +2054,7 @@ const EN_TOOL_TEXTS = {
   "Atemimpuls":           "Regulate tension in the body",
   "Körperübung":          "Dissolve the subtype’s characteristic physical holding pattern",
   "Heilmittel-Impuls":    "Homeopathy, Bach flowers, gemstones and tea — attuned to your subtype.",
-  "Stille sitzen":        "Sit upright, close your eyes, and do nothing for two minutes. Let the body show its own intelligence.",
+  "In Stille sitzen":     "Sit upright, close your eyes, and do nothing for two minutes. Let the body show its own intelligence.",
   "Aromatherapie":        "Choose an essential oil suited to your subtype today and inhale it three times deeply.",
   "Blickqualität":        "How are you looking at the world today? Observe your gaze direction, eye tension and the quality of your attention.",
 };
@@ -2156,7 +2156,7 @@ function toolDetailPage(slug) {
     "heilmittel-impuls": {
       intro: "The Remedies Compass translates your subtype pattern into a healing symbol field. Each remedy addresses a specific level — physical, psychological, and energetic.",
       steps: [
-        "Look at the diagram above: which remedy draws your attention?",
+        "Open the Remedy Compass (button below) and observe which remedy draws your attention.",
         "Read its associated meaning — let it sink in without immediately analysing.",
         "Choose one remedy for today: homeopathy, Bach flower, Schüßler salt, gemstone, or tea.",
         "Use it consciously — holding your healing theme in mind.",
@@ -2164,7 +2164,7 @@ function toolDetailPage(slug) {
       ],
       hinweis: "Remedies are supportive and do not replace therapeutic guidance. Detlef Rathmer is available for individual consultations."
     },
-    "stille-sitzen": {
+    "in-stille-sitzen": {
       intro: "Sitting completely still is one of the most effective practices in the Enneagram healing model. The body reveals its own intelligence — when you stop trying to control it.",
       steps: [
         "Sit upright and comfortably — back straight, hands on your thighs.",
@@ -2206,7 +2206,7 @@ function toolDetailPage(slug) {
     "2-punkte-integration": "page-2",
     "atemimpuls":           "page-3",
     "koerperuebung":        "page-3",
-    "stille-sitzen":        "page-3",
+    "in-stille-sitzen":     "page-3",
     "merksatz":             "page-5",
     "heilmittel-impuls":    "page-4",
     "aromatherapie":        "page-4",
@@ -2287,8 +2287,11 @@ function toolDetailPage(slug) {
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Back to all tools</button>
+        ${slug === "heilmittel-impuls" ? '<button class="secondary" data-route="healing">&#x2192; Remedy Compass</button>' : ''}
+        ${slug === "aromatherapie" ? '<button class="secondary" data-route="oils">&#x2192; Essential Oils</button>' : ''}
         <button class="secondary" data-route="tcm">TCM Profile &amp; Acupuncture</button>
-        <button class="secondary" data-route="subtype/${getProfile()}">My Subtype Compass</button>      </div>
+        <button class="secondary" data-route="subtype/${getProfile()}">My Subtype Compass</button>
+      </div>
     </section>
   `);
 }
@@ -40705,7 +40708,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v591';
+  const MY_VERSION = 'inhalt-v592';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

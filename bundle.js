@@ -1864,7 +1864,7 @@ function toolDetailPage(slug) {
     "heilmittel-impuls": {
       intro: "Der Heilmittel-Kompass übersetzt Ihr Subtyp-Muster in ein heilkundliches Symbolfeld. Jedes Mittel spricht eine bestimmte Ebene an — körperlich, seelisch und energetisch.",
       steps: [
-        "Betrachten Sie das Schaubild oben: Welches Mittel zieht Ihre Aufmerksamkeit an?",
+        "Öffnen Sie den Heilmittel-Kompass (Taste unten) und betrachten Sie, welches Mittel Ihre Aufmerksamkeit anzieht.",
         "Lesen Sie die zugehörige Bedeutung — lassen Sie sie wirken, ohne sofort zu analysieren.",
         "Wählen Sie heute ein Mittel aus: Homöopathie, Bachblüte, Schüßler-Salz, Edelstein oder Tee.",
         "Verwenden Sie es bewusst — mit dem Gedanken an Ihr Heilungsthema.",
@@ -1872,7 +1872,7 @@ function toolDetailPage(slug) {
       ],
       hinweis: "Heilmittel wirken unterstützend, ersetzen aber keine therapeutische Begleitung. Für eine individuelle Beratung steht Detlef Rathmer zur Verfügung."
     },
-    "stille-sitzen": {
+    "in-stille-sitzen": {
       intro: "Vollkommen still sitzen ist eine der wirkungsvollsten Übungen aus dem Enneagramm-Heilungsmodell. Der Körper zeigt seine eigene Intelligenz — wenn man aufhört, ihn zu steuern.",
       steps: [
         "Setzen Sie sich aufrecht und bequem hin — Rücken gerade, Hände auf den Oberschenkeln.",
@@ -1914,7 +1914,7 @@ function toolDetailPage(slug) {
     "2-punkte-integration": "page-2",
     "atemimpuls":           "page-3",
     "koerperuebung":        "page-3",
-    "stille-sitzen":        "page-3",
+    "in-stille-sitzen":     "page-3",
     "merksatz":             "page-5",
     "heilmittel-impuls":    "page-4",
     "aromatherapie":        "page-4",
@@ -1995,7 +1995,9 @@ function toolDetailPage(slug) {
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Zurück zu allen Werkzeugen</button>
-        <button class="secondary" data-route="tcm">TCM-Profil & Akupunktur ansehen</button>
+        ${slug === "heilmittel-impuls" ? '<button class="secondary" data-route="healing">&#x2192; Zum Heilmittel-Kompass</button>' : ''}
+        ${slug === "aromatherapie" ? '<button class="secondary" data-route="oils">&#x2192; Zu den ätherischen Ölen</button>' : ''}
+        <button class="secondary" data-route="tcm">TCM-Profil &amp; Akupunktur ansehen</button>
         <button class="secondary" data-route="subtype/${getProfile()}">Mein Subtyp-Kompass</button>
       </div>
     </section>
@@ -37028,7 +37030,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v577';
+  const MY_VERSION = 'inhalt-v578';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
