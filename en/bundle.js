@@ -2252,7 +2252,7 @@ function bookTip(buchId, teaser, title) {
     <a class="book-tip" href="${VERLAG_BASE}${buchId}" target="_blank" rel="noopener">
       <span class="book-tip__icon">📖</span>
       <div class="book-tip__text">
-        <strong>Buchtipp: »${title}«</strong>
+        <strong>Book Tip: »${title}«</strong>
         <span>${teaser}</span>
       </div>
       <span class="book-tip__arrow">→</span>
@@ -2668,6 +2668,7 @@ function kindheitInlineBlock(k) {
         <div class="kindheit-inline">
           <div class="kindheit-inline__body">${paragraphs}</div>
           <p class="kindheit-inline__zombie">${zombie}</p>
+          <p class="remedy-note" style="margin-top:.75rem;font-size:.8rem;color:var(--muted,#888);"><em>Source: Based on seminar notes by Dr. Beatrice Chestnut (CPEA). More at <a href="https://cpea.enneagramacademy.com" target="_blank" rel="noopener" style="color:inherit;">cpea.enneagramacademy.com</a>.</em></p>
         </div>
       </div>
     </div>
@@ -2713,7 +2714,6 @@ function kindheitPage() {
           ${kindheitstraumata.map(kindheitCard).join("")}
         </div>
         <p class="remedy-note">These stories describe archetypal patterns. Every individual's experience is always more complex than the type pattern &ndash; working with one's own childhood traumas requires professional therapeutic guidance.</p>
-        <p class="remedy-note" style="margin-top:1rem;"><strong>Note on Sources:</strong> The descriptions of childhood patterns for each type are reconstructed based on notes from the online seminars conducted by Dr. Beatrice Chestnut (Chestnut Paes Enneagram Academy). For deeper insights, please visit her official website at <a href="https://cpea.enneagramacademy.com" target="_blank" rel="noopener">cpea.enneagramacademy.com</a>.</p>
       </article>
     </section>
   `);
@@ -40527,7 +40527,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v569';
+  const MY_VERSION = 'inhalt-v570';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
