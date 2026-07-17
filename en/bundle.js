@@ -36418,12 +36418,12 @@ function homoeopathiePage() {
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wound Remedy</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.wundeMittel}</span>
             </div>`}
-            <p style="font-size:.7rem;color:var(--muted);margin:.6rem 0 0;">Leidenschaft: ${d.leidenschaft}</p>
+            <p style="font-size:.7rem;color:var(--muted);margin:.6rem 0 0;">Passion: ${d.leidenschaft}</p>
           </div>
         </article>`;
       }).join("")}
     </section>
-    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer Rücksprache. Die Zuordnungen gelten für den Kerntypus.</p>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
 
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v574';
+  const MY_VERSION = 'inhalt-v575';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
