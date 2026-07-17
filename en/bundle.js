@@ -609,6 +609,10 @@ text.routes.dashboard.todayFocus = "Today\'s Focus:";
 text.routes.dashboard.dailyImpulse = "Daily Impulse";
 text.routes.dashboard.reflectionQuestion = "Reflection Question";
 text.routes.dashboard.nextStep = "Next Step";
+text.routes.dashboard.reflectToday = "Reflect today";
+text.routes.dashboard.viewPath = "View development path";
+text.routes.dashboard.chooseTool = "Choose a tool";
+text.routes.dashboard.checkKnowledge = "Explore knowledge base";
 
 const CENTER_EN = {
   "Bauchzentrum": "Body Centre",
@@ -659,6 +663,17 @@ const TITLEALT_EN = {
   "Der Ehrgeizige": "The Ambitious One",
   "Der Anführer": "The Leader",
   "Der Vermittler": "The Mediator",
+};
+const ORGANISM_Q_EN = {
+  "Wie kann ich richtig sein und Fehler vermeiden?": "How can I be right and avoid making mistakes?",
+  "Bin ich liebenswert, wenn ich für andere da bin?": "Am I loveable if I am there for others?",
+  "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?": "How can I be successful and prove my worth in the process?",
+  "Wer bin ich wirklich und was macht mich einzigartig?": "Who am I really, and what makes me unique?",
+  "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?": "How can I understand and be certain that I am competent?",
+  "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?": "How can I be certain I am not threatened and that I have support?",
+  "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?": "How can I discover more possibilities and avoid difficulties?",
+  "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?": "How can I protect my boundaries, stand up for myself, and guard what matters to me?",
+  "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?": "How can I remain at peace and preserve harmony, within myself and around me?",
 };
 
 
@@ -1876,7 +1891,7 @@ function dashboardPage() {
         <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus_en || p.focus}</p>
         <div class="question-box">
           <span>${copy.organismQuestion}</span>
-          <p>${p.organismQuestion}</p>
+          <p>${ORGANISM_Q_EN[p.organismQuestion] || p.organismQuestion}</p>
         </div>
         <button class="ghost-link" data-route="profile">Switch profile →</button>
         <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 My Type Album →</button>
@@ -37120,7 +37135,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v543';
+  const MY_VERSION = 'inhalt-v544';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
