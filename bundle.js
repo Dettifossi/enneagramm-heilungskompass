@@ -703,7 +703,7 @@ function pageHeader(active) {
         <span>${text.meta.appTitle}</span>
       </button>
       ${nav(active)}
-      <a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">EN</a>
+      <a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">🇬🇧 EN</a>
     </header>
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
@@ -1425,7 +1425,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">EN</a></div>
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">🇬🇧 EN</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -36993,7 +36993,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v567';
+  const MY_VERSION = 'inhalt-v568';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
