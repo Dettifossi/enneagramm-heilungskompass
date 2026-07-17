@@ -89,13 +89,13 @@ function hasHeilwissen() { return getTier() === "heilwissen"; }
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Table of Contents und Leseprobe aktualisieren sich automatisch.
 const KRIMINAL_PORTRAITS = [
-  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SE1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SE1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SE1w9",  heading:"Michail Popkow – Self-Preservation Type 1",                          teaser:"SE1w9 – Serial killer, born 1964. At least 86 victims in the Siberian city of Angarsk between 1992 and 2010. Police officer, family man, neighborhood figure – and the man who understood his murders as moral cleansing." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SE1w9",  heading:"Dennis Rader – Self-Preservation Type 1",                               teaser:"SE1w9 – BTK Killer, born 1945. Ten murders between 1974 and 1991. Church council chairman, compliance officer, family man – and the man who signed his crimes with a self-coined label and craved recognition for decades." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SE1w9",  heading:"Andrei Tschikatilo \u2013 Self-Preservation Type 1",                          teaser:"SE1w9 – Serial killer, 1936–1994. 52 confirmed victims in the Soviet Union. The Butcher of Rostov: One’s perfectionism as extermination logic, Nine-wing as perfect camouflage." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SE1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Self-Preservation Type 1",        teaser:"Extortionist, born 1951. Six years, never harming anyone – the self-preservation One with Nine-wing: quiet resentment, meticulous method, absolute non-violence." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SE1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SP1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SP1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SP1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SP1w9",  heading:"Michail Popkow – Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, born 1964. At least 86 victims in the Siberian city of Angarsk between 1992 and 2010. Police officer, family man, neighborhood figure – and the man who understood his murders as moral cleansing." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SP1w9",  heading:"Dennis Rader – Self-Preservation Type 1",                               teaser:"SP1w9 – BTK Killer, born 1945. Ten murders between 1974 and 1991. Church council chairman, compliance officer, family man – and the man who signed his crimes with a self-coined label and craved recognition for decades." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SP1w9",  heading:"Andrei Tschikatilo \u2013 Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, 1936–1994. 52 confirmed victims in the Soviet Union. The Butcher of Rostov: One’s perfectionism as extermination logic, Nine-wing as perfect camouflage." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SP1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Self-Preservation Type 1",        teaser:"Extortionist, born 1951. Six years, never harming anyone – the self-preservation One with Nine-wing: quiet resentment, meticulous method, absolute non-violence." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SP1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Social Type 1",                                           teaser:"SO1w9 – Serial killer, 1946–1989. Bourgeois facade, repressed rage, resentment. The social One with Nine-wing: self-righteousness as delusion, anger as cold driving force. Animal correspondence: Goose." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Social Type 1",                                teaser:"SO1w9 – Serial killer, 1937–2008. At least 10 victims in southern Germany 1959–60. The ‘Monster of the Black Forest’: delusional divine mandate for punishment, emotional dissociation and a life under the sign of compulsive atonement." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexual Type 1",                                      teaser:"SX1w2 – Lawyer and double murderer, born 1968. 87 years of legal dynasty, million-dollar fraud, double murder of wife and son 2021. The Two-wing as charm facade, the One as merciless judge over its own image. Animal correspondence: Black Mamba." , tags:["Nahbereich"]},
@@ -104,29 +104,29 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-gennadi-mikhasevich",  name:"Gennadi Mikhasevich",                 subtyp:"SX1w2",  heading:"Gennadi Mikhasevich – Sexual Type 1",                                 teaser:"SX1w2 – 'The Strangler of Vitebsk', born 1947. 36 women murdered in the Byelorussian SSR (now Belarus) (1971–1985). Family man, Druzhinnik (voluntary civil order keeper), party activist – and serial killer who remained undetected for 14 years while an innocent man was executed for his crimes. Animal correspondence: Black Mamba." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-fritz-haarmann",        name:"Fritz Haarmann",                   subtyp:"SX1w9",  heading:"Fritz Haarmann – Sexual Type 1",                                     teaser:"SX1w9 – Hannover 1918–1924. At least 24 murders, police informant, neighborhood figure. The Werewolf of Hannover: SX1 will to control as final possession, Nine-wing as warm everyday facade. Animal correspondence: Black Mamba." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-josef-fritzl",         name:"Josef Fritzl",                     subtyp:"SX1w9",  heading:"Josef Fritzl – Sexual Type 1",                                       teaser:"SX1w9 – Amstetten, Austria, 1984–2008. 24 years of imprisonment, 7 children, double life as a respected citizen. The sexual One with Nine-wing: absolute control over the most intimate relationship, completely inconspicuous to the outside world. Animal correspondence: Black Mamba." , tags:["Missbrauch","Nahbereich"]},
-  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SE2w1",  heading:"Harvey Weinstein \u2013 Self-Preservation Type 2",                           teaser:"Film producer, born 1952. Patron and predator in one – the self-preservation Two with One-wing as blueprint of systemic abuse of power. Trigger of the global #MeToo movement." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Self-Preservation Type 2",                              teaser:"SE2w1 – Sperm donor who fathered over 550 children. Helping as identity, pride as blind spot: Type 2 in the Jonathan Meijer case." , tags:["Betrug","Missbrauch"]},
-  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SE2w1",  heading:"Ángel Reséndez – Self-Preservation Type 2",                          teaser:"SE2w1 – 'The Railroad Killer', 1960–2006. 9 confirmed murders in the USA (1997–1999), 6 more attributed. Traveling the USA as an illegal immigrant along freight train routes – break-in and violence as survival strategy. Animal correspondence: Hippopotamus." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells – Self-Preservation Type 2",                           teaser:"SE2w1 – 'The Coast-to-Coast Killer', 1964–2014. Between 13 and 70 murders in numerous US states over two decades. Itinerant laborer, drifter, seemingly harmless stranger – care as bait, moral self-righteousness as justification. Animal correspondence: Coyote." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe – Self-Preservation Type 2",                             teaser:"SE2w1 – 'The Yorkshire Ripper', 1946–2020. 13 murders of women in northern England 1975–1980, 7 further survivors. Truck driver, family man, helpful neighbor – care as camouflage, moral judgment as murder motive. Animal correspondence: Hippopotamus." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Self-Preservation Type 2",                                  teaser:"SE2w3 – Fake heiress of New York high society. Pride as performance: how the Three-wing of the Two enables a complete life fiction." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Self-Preservation Type 2",                              teaser:"SE2w3 – Son of the Murdaugh dynasty. Inherited Two privilege: how an adopted power system shapes Enneagram Type 2." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SE2w3",  heading:"John Wayne Gacy \u2013 Self-Preservation Type 2",                              teaser:"SE2w3 – the ‘Killer Clown’. 33 murders behind the facade of civic engagement: the Two privilege in its most extreme manifestation." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SE2w3",  heading:"Sebastian Greenwood \u2013 Self-Preservation Type 2",                          teaser:"SE2w3 – Co-founder of the OneCoin fraud. The networker behind the 'Cryptoqueen': relationship architecture as weapon, giving as an instrument of domination." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SE2w3",  heading:"Rudolf Pleil \u2013 Self-Preservation Type 2",                              teaser:"SE2w3 – Serial killer, 1924–1958. At least 9 victims in the postwar border zone. ‘The best death-maker’: the self-preservation Two with Three-wing in its darkest manifestation – pride as claim over life and death." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SP2w1",  heading:"Harvey Weinstein \u2013 Self-Preservation Type 2",                           teaser:"Film producer, born 1952. Patron and predator in one – the self-preservation Two with One-wing as blueprint of systemic abuse of power. Trigger of the global #MeToo movement." , tags:["Missbrauch"]},
+  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SP2w1",  heading:"Jonathan Meijer \u2013 Self-Preservation Type 2",                              teaser:"SP2w1 – Sperm donor who fathered over 550 children. Helping as identity, pride as blind spot: Type 2 in the Jonathan Meijer case." , tags:["Betrug","Missbrauch"]},
+  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SP2w1",  heading:"Ángel Reséndez – Self-Preservation Type 2",                          teaser:"SP2w1 – 'The Railroad Killer', 1960–2006. 9 confirmed murders in the USA (1997–1999), 6 more attributed. Traveling the USA as an illegal immigrant along freight train routes – break-in and violence as survival strategy. Animal correspondence: Hippopotamus." , tags:["Sonstiges"]},
+  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SP2w1",  heading:"Tommy Lynn Sells – Self-Preservation Type 2",                           teaser:"SP2w1 – 'The Coast-to-Coast Killer', 1964–2014. Between 13 and 70 murders in numerous US states over two decades. Itinerant laborer, drifter, seemingly harmless stranger – care as bait, moral self-righteousness as justification. Animal correspondence: Coyote." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SP2w1",  heading:"Peter Sutcliffe – Self-Preservation Type 2",                             teaser:"SP2w1 – 'The Yorkshire Ripper', 1946–2020. 13 murders of women in northern England 1975–1980, 7 further survivors. Truck driver, family man, helpful neighbor – care as camouflage, moral judgment as murder motive. Animal correspondence: Hippopotamus." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SP2w3",  heading:"Anna Delvey \u2013 Self-Preservation Type 2",                                  teaser:"SP2w3 – Fake heiress of New York high society. Pride as performance: how the Three-wing of the Two enables a complete life fiction." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SP2w3",  heading:"Buster Murdaugh \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Son of the Murdaugh dynasty. Inherited Two privilege: how an adopted power system shapes Enneagram Type 2." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SP2w3",  heading:"John Wayne Gacy \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – the ‘Killer Clown’. 33 murders behind the facade of civic engagement: the Two privilege in its most extreme manifestation." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SP2w3",  heading:"Sebastian Greenwood \u2013 Self-Preservation Type 2",                          teaser:"SP2w3 – Co-founder of the OneCoin fraud. The networker behind the 'Cryptoqueen': relationship architecture as weapon, giving as an instrument of domination." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SP2w3",  heading:"Rudolf Pleil \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Serial killer, 1924–1958. At least 9 victims in the postwar border zone. ‘The best death-maker’: the self-preservation Two with Three-wing in its darkest manifestation – pride as claim over life and death." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jack-unterweger",     name:"Jack Unterweger",                     subtyp:"SO2w1",  heading:"Jack Unterweger – Social Type 2",                                      teaser:"SO2w1 – 'The Poet and Death', 1950–1994. Serial killer, prison author, TV journalist – a 'rehabilitated' man celebrated by intellectuals, who resumed murdering immediately after his release. At least 10 murders, possibly 13. Animal correspondence: Golden Retriever." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jim-jones",             name:"Jim Jones",                           subtyp:"SO2w3",  heading:"Jim Jones – Social Type 2",                                          teaser:"SO2w3 – Cult leader and mass murder director, 1931–1978. Over 900 dead in Jonestown, Guyana. The helper as savior: how the social Two with Three-wing went from hospital builder to master over life and death – and in the Eight stress point destroyed everything it loved." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-cedric-maake",        name:"Cedric Maake",                        subtyp:"SO2w3",  heading:"Cedric Maake – Social Type 2",                                         teaser:"SO2w3 – 'The Wemmer Pan Killer', born 1965. 27 murders in Johannesburg 1996–1997 – one of the most severe serial murder cases in South African history. 1,395 years imprisonment. The social Two with Three-wing: sociable invisibility as cover. Animal correspondence: Golden Retriever." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-osama-bin-laden",      name:"Osama bin Laden",                    subtyp:"SO2w1",  heading:"Osama bin Laden – Social Type 2",                                    teaser:"SO2w1 – Founder of al-Qaeda, 1957–2011. Chief responsible for the attacks of September 11, 2001. The social Two with One-wing: self-sacrifice for the community as the highest pride, moral sensitivity as extermination logic. Animal correspondence: Golden Retriever." , tags:["Terror"]},
   { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexual Type 2",                                        teaser:"SX2w3 – The Seductress of Derry, born 1967. Manipulated a 15-year-old student into murdering her husband (1990). The only one of those involved still in prison. The sexual Two with Three-wing: love as leverage, pride as blind spot. Animal correspondence: Camel." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SE3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SE3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
-  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SE3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SE3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
-  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Self-Preservation Type 3",                           teaser:"SE3w4 – ‘Barbie’ of the Ken-and-Barbie Killers, born 1970. Three murders together with Paul Bernardo 1990–93, including her own sister. Raccoon energy: perfect adaptation, double face, the deal with justice as a final act of staging." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SE3w4", heading:"Frank Abagnale Jr. – Self-Preservation Type 3", teaser:"SE3w4 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The self-preserving Three counter-type with Four-wing: competence as survival strategy, identity as resource. Animal correspondence: Raccoon.", tags:["Betrug"]},
-  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Self-Preservation Type 3",                              teaser:"SE3w4 – Largest investment fraud in history, 1938–2021. 65 billion dollars in falsified account statements, at least 20 years of Ponzi scheme – the self-preservation Three with Four-wing: quiet staging, trust as weapon, raccoon energy until the last day. Animal correspondence: Raccoon." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SP3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SP3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SP3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SP3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
+  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SP3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SP3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SP3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
+  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SP3w4",  heading:"Karla Homolka \u2013 Self-Preservation Type 3",                           teaser:"SP3w4 – ‘Barbie’ of the Ken-and-Barbie Killers, born 1970. Three murders together with Paul Bernardo 1990–93, including her own sister. Raccoon energy: perfect adaptation, double face, the deal with justice as a final act of staging." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SP3w4", heading:"Frank Abagnale Jr. – Self-Preservation Type 3", teaser:"SP3w4 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The self-preserving Three counter-type with Four-wing: competence as survival strategy, identity as resource. Animal correspondence: Raccoon.", tags:["Betrug"]},
+  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SP3w4",  heading:"Bernie Madoff – Self-Preservation Type 3",                              teaser:"SP3w4 – Largest investment fraud in history, 1938–2021. 65 billion dollars in falsified account statements, at least 20 years of Ponzi scheme – the self-preservation Three with Four-wing: quiet staging, trust as weapon, raccoon energy until the last day. Animal correspondence: Raccoon." , tags:["Betrug"]},
   { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Social Type 3",                                   teaser:"SO3w2 – 'Monster of the Andes', born 1948. At least 350 murders of young girls in Colombia, Peru and Ecuador, 1969–1980. The cheetah: precise seduction, charismatic mask, success measured in victim count – the social Three with Two-wing in its darkest manifestation." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Social Type 3",                                       teaser:"SO3w4 – Five-time killer and murderer of Gianni Versace, 1969–1997. Four murders in twelve days across the USA, then Versace in front of his villa in Miami Beach. The cheetah: prestige as purpose of life, facade as the only reality, Four-wing as dark undercurrent." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Social Type 3",                                         teaser:"SO3w4 – NFL legend and protagonist of the ‘Trial of the Century’, 1947–2024. Acquitted in the criminal trial 1995, found civilly liable 1997. The cheetah: the public self-image as the only reality, performance until the last moment. Animal correspondence: Cheetah." , tags:["Nahbereich"]},
@@ -135,42 +135,42 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexual Type 3",                                       teaser:"SX3w4 – Child killer, born 1955. In 1983 she shot her three children in Oregon to be the perfect, unattached ideal for a man. The sexual Three with Four-wing: children as disruptive props, blocked heart energy as murder motive, calculation instead of feeling. Animal correspondence: Peacock." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexual Type 3",                                     teaser:"SX3w4 – Murderer and digital self-stager, 2012. 70+ aliases, murder as content, arrested while reading his own headlines – the sexual Three in its darkest manifestation." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexual Type 3",                                     teaser:"SX3w4 – 'The Night Stalker', born 1960, died 2013. 13 murders, rapes, burglaries in Southern California 1984–1985. Satanic iconography, staging of evil, groupies in the courtroom – the sexual Three with Four-wing: self-mythologization as lethal weapon. Animal correspondence: Peacock." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SE4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SP4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SP4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Social Type 4",                                        teaser:"SO4w5 – Isla Vista massacre 2014. 6 dead, 14 injured – the social Four with Five-wing: envy as world judgment, exclusion as mandate for annihilation. Animal correspondence: Armadillo." , tags:["Terror"]},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , tags:["Terror"]},
-  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SE5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SP5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
   { route:"kriminalpsychologie-harold-shipman",    name:"Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Social Type 5",                                      teaser:"SO5w6 – General practitioner and serial killer, 1946–2004. At least 218 victims – the most lethal solo perpetrator in British criminal history. The octopus: knowledge as control, quiet dominance over life and death behind the facade of the trusted doctor." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexual Type 5",                                    teaser:"SX5w4 – Serial killer, 1960–1994. 17 victims, radical merger fantasies – the sexual Five with Four-wing in its darkest manifestation: greed as absorption." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-joel-rifkin",          name:"Joel Rifkin",                         subtyp:"SX5w6",  heading:"Joel Rifkin – Sexual Type 5",                                         teaser:"SX5w6 – American serial killer, born 1959. 17 murders of prostitutes in New York City 1989–1993. Suburban resident, socially invisible, active at night in search of controlled closeness. Animal correspondence: Hedgehog." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SE6w5",  heading:"John List – Self-Preservation Type 6",                                   teaser:"SE6w5 – Five-time killer, 1925–2008. Shot his entire family on November 9, 1971 in Westfield, New Jersey – and lived undetected for 17 years afterwards as accountant \'Robert Clark\'. The rabbit: fear as motive, silence as Five-wing, religion as destructive justification." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SP6w5",  heading:"John List – Self-Preservation Type 6",                                   teaser:"SP6w5 – Five-time killer, 1925–2008. Shot his entire family on November 9, 1971 in Westfield, New Jersey – and lived undetected for 17 years afterwards as accountant \'Robert Clark\'. The rabbit: fear as motive, silence as Five-wing, religion as destructive justification." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-adolf-eichmann",      name:"Adolf Eichmann",                       subtyp:"SO6w5",  heading:"Adolf Eichmann \u2013 Social Type 6",                                     teaser:"SO6w5 – SS Lieutenant Colonel and chief organizer of the Holocaust logistics, 1906–1962. The textbook example of the banality of evil: the social Six with Five-wing as obedient bureaucratic executor. Animal correspondence: Meerkat." , tags:["Terror"]},
   { route:"kriminalpsychologie-anders-breivik",      name:"Anders Breivik",                      subtyp:"SX6w5",  heading:"Anders Breivik \u2013 Sexual Type 6",                                    teaser:"SX6w5 – Attacker, born 1979. 77 dead, years of secret planning – the sexual Six with Five-wing in its darkest manifestation: counter-phobic fear as extermination logic." , tags:["Terror"]},
   { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexual Type 6",                                      teaser:"SX6w5 – ‘The Cannibal of Rotenburg’, born 1961. Voluntary cannibalism case 2001 – the sexual Six with Five-wing: fear of being alone as absolute, deadly longing for merger. Animal correspondence: Wolf." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexual Type 6",                                     teaser:"SX6w7 – Cult founder and mastermind, 1934–2017. Tate-LaBianca murders 1969 – the sexual Six with Seven-wing: fear as charisma, control through surrender. Animal correspondence: Wolf." , tags:["Terror","Missbrauch"]},
-  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SE7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SP7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Social Type 7",                                  teaser:"SO7w6 – American family murderer, born 1985. Murdered his pregnant wife and two daughters to start a new life with his mistress. Arrested 2018, five consecutive life sentences. Animal correspondence: Beaver." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexual Type 7",                                       teaser:"SX7w8 – American serial killer, 1956–2002. Seven murders of men in Florida, November 1989 to November 1990. The sexual Seven with Eight-wing: idealized love as survival project, relationship as the only foundation, rage as the final boundary. Animal correspondence: Chimpanzee." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SE8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SP8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SP8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SP8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Social Type 8",                                     teaser:"SO8w7 – The Teflon Don, 1940–2002. Boss of the Gambino family, acquitted three times, ultimately betrayed by his closest confidant – the social Eight with Seven-wing: dominance through protection, power through visibility. Animal correspondence: Lion." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-mcafee",          name:"John McAfee",                         subtyp:"SX8w9",  heading:"John McAfee – Sexual Type 8",                                    teaser:"SX8w9 – Founder of the first antivirus program, fugitive, anarchist. From Belize to a Spanish prison cell: the sexual Eight without limits – inward as much as outward." , tags:["Betrug","Nahbereich"]},
   { route:"kriminalpsychologie-jeffrey-epstein",     name:"Jeffrey Epstein",                     subtyp:"SX8w9",  heading:"Jeffrey Epstein \u2013 Sexual Type 8",                                   teaser:"Financier and sex offender, 1953–2019. Decades-long network of power and compromise – the sexual Eight with Nine-wing: possession through closeness, dominance through inclusion." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SE9w1",  heading:"Alfons Schuhbeck \u2013 Self-Preservation Type 9",                              teaser:"SE9w1 – The TV chef, born 1949. Tax evasion of 2.3 million euros – for years, quietly and persistently. The self-preservation Nine with One-wing: appetite as way of life, inertia as the sleep of conscience. Animal correspondence: Elephant." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SP9w1",  heading:"Alfons Schuhbeck \u2013 Self-Preservation Type 9",                              teaser:"SP9w1 – The TV chef, born 1949. Tax evasion of 2.3 million euros – for years, quietly and persistently. The self-preservation Nine with One-wing: appetite as way of life, inertia as the sleep of conscience. Animal correspondence: Elephant." , tags:["Betrug"]},
   { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Social Type 9",                                  teaser:"SO9w8 – Rogue Trader, born 1967. Brought down Barings Bank in 1995 – the social Nine with Eight-wing: belonging as identity, inertia as self-forgetting. Animal correspondence: Buffalo." , tags:["Betrug"]},
   { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Social Type 9",                                   teaser:"SO9w1 – Member of the Manson Family, born 1949. Involved in the LaBianca murders 1969 – the social Nine with One-wing: dissolution into the group as home, service to the community as life's path. Animal correspondence: Buffalo." , tags:["Terror"]},
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexual Type 9",                               teaser:"SX9w1 – Art forger, born 1951. Over 50 forged masterworks, undetected for decades – the sexual Nine with One-wing: merger with the spirit of dead masters." , tags:["Betrug"]},
 ];
 
 const BERUEHMT_PORTRAITS = [
-  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
+  { route:"beruehmte-sting", name:"Sting", subtyp:"SP1w9",
     heading:"Sting – Self-Preservation Type 1",
-    teaser:"SE1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
+    teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
     tags:["Musik"] },
-  { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
+  { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SP1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
-    teaser:"SE1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
+    teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
     tags:["Schauspiel"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
@@ -188,13 +188,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
+  { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SP2w1",
     heading:"Greta Thunberg – Self-Preservation Type 2",
-    teaser:"SE2w1 · born 2003. Climate activist, founder of Fridays for Future. At 15 years old, alone in front of the Swedish parliament – with a homemade sign. The hippopotamus does not yield. Animal correspondence: Hippopotamus.",
+    teaser:"SP2w1 · born 2003. Climate activist, founder of Fridays for Future. At 15 years old, alone in front of the Swedish parliament – with a homemade sign. The hippopotamus does not yield. Animal correspondence: Hippopotamus.",
     tags:["Politik"] },
-  { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
+  { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SP2w3",
     heading:"Jan Ullrich – Self-Preservation Type 2",
-    teaser:"SE2w3 · born 1973. Cyclist, Tour de France winner 1997, Olympic champion 2000. Five times runner-up behind Armstrong – never gave up. The hippopotamus needs its water. Animal correspondence: Hippopotamus.",
+    teaser:"SP2w3 · born 1973. Cyclist, Tour de France winner 1997, Olympic champion 2000. Five times runner-up behind Armstrong – never gave up. The hippopotamus needs its water. Animal correspondence: Hippopotamus.",
     tags:["Sport"] },
   { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Social Type 2",
@@ -212,13 +212,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexual Type 2",
     teaser:"SX2w3 · born 1967. Healer, The Gazer. He does not speak, he does not touch – he looks. In silent group events worldwide, his gaze creates what many words cannot: the feeling of being truly seen. Animal correspondence: Camel.",
     tags:["Sonstiges"] },
-  { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
+  { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SP3w2",
     heading:"Sadhguru – Self-Preservation Type 3",
-    teaser:"SE3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
+    teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"] },
-  { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
+  { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SP3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
-    teaser:"SE3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
+    teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
     tags:["Medien"] },
   { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
     heading:"Cristiano Ronaldo – Social Type 3",
@@ -236,13 +236,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen – Sexual Type 3",
     teaser:"SX3w4 · born 1954. Music producer, composer, TV judge. Over 500 million records sold. The peacock that spreads its feathers – and wants to know what lies beneath.",
     tags:["Musik"] },
-  { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
+  { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SP4w3",
     heading:"Lady Diana – Self-Preservation Type 4",
-    teaser:"SE4w3 · 1961–1997. Princess of Wales. The dove that carries messages – empathy as strength, inner pain as a silent burden, and a warmth that touched millions.",
+    teaser:"SP4w3 · 1961–1997. Princess of Wales. The dove that carries messages – empathy as strength, inner pain as a silent burden, and a warmth that touched millions.",
     tags:["Politik"] },
-  { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
+  { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SP4w5",
     heading:"Clemens G. Arvay – Self-Preservation Type 4",
-    teaser:"SE4w5 · 1980–2022. Biologist, author, nature healer. The Biophilia Effect – knowledge and longing as a bridge. The dove that showed others the way into the forest.",
+    teaser:"SP4w5 · 1980–2022. Biologist, author, nature healer. The Biophilia Effect – knowledge and longing as a bridge. The dove that showed others the way into the forest.",
     tags:["Wissenschaft"] },
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Social Type 4",
@@ -268,13 +268,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ana de Armas – Sexual Type 4",
     teaser:"SX4w5 · born 1988. Actress. Knives Out, Blonde. The chihuahua that fears no stage – and never forgets where it comes from.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
+  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SP5w4",
     heading:"Christian Rätsch – Self-Preservation Type 5",
-    teaser:"SE5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
+    teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
     tags:["Wissenschaft"] },
-  { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
+  { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SP5w6",
     heading:"Peter Lustig – Self-Preservation Type 5",
-    teaser:"SE5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
+    teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
     tags:["Medien","Wissenschaft"] },
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Social Type 5",
@@ -300,13 +300,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexual Type 5",
     teaser:"SX5w6 · born 1983. Whistleblower, former NSA contractor. Permanent Record. The hedgehog that curled up – and then revealed everything, because it could no longer carry it alone.",
     tags:["Politik"] },
-  { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
+  { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SP6w5",
     heading:"Herbert Kickl – Self-Preservation Type 6",
-    teaser:"SE6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
+    teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
     tags:["Politik"] },
-  { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
+  { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SP6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
-    teaser:"SE6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
+    teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
     tags:["Sport"] },
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Social Type 6",
@@ -328,13 +328,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexual Type 6",
     teaser:"SX6w7 · born 1965. Comedian, actress, entertainer, singer, voice actress, presenter. Courage through showing up: the SX6 that transforms fear into energy and humor. Animal correspondence: Wolf.",
     tags:["Medien","Kunst"] },
-  { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
+  { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SP7w6",
     heading:"Jasmine Paolini – Self-Preservation Type 7",
-    teaser:"SE7w6 · born 1996. Italian tennis player, world number four 2024. Finalist Roland Garros & Wimbledon, WTA Finals winner. The gorilla: joy as foundation, warmth as weapon, fighting spirit as gift. Animal correspondence: Gorilla.",
+    teaser:"SP7w6 · born 1996. Italian tennis player, world number four 2024. Finalist Roland Garros & Wimbledon, WTA Finals winner. The gorilla: joy as foundation, warmth as weapon, fighting spirit as gift. Animal correspondence: Gorilla.",
     tags:["Sport"] },
-  { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
+  { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SP7w8",
     heading:"Hans Zimmer – Self-Preservation Type 7",
-    teaser:"SE7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
+    teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
     tags:["Musik"] },
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Social Type 7",
@@ -352,13 +352,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
     tags:["Musik","Medien"] },
-  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
+  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SP8w7",
     heading:"Umberto Eco – Self-Preservation Type 8",
-    teaser:"SE8w7 · 1932–2016. Writer, semiotician, philosopher, media scholar. The Name of the Rose, Foucault's Pendulum. 30,000 books. The orangutan at home in the labyrinth – who knows that all signs lie. Animal correspondence: Orangutan.",
+    teaser:"SP8w7 · 1932–2016. Writer, semiotician, philosopher, media scholar. The Name of the Rose, Foucault's Pendulum. 30,000 books. The orangutan at home in the labyrinth – who knows that all signs lie. Animal correspondence: Orangutan.",
     tags:["Literatur","Wissenschaft"] },
-  { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
+  { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SP8w9",
     heading:"Toni Morrison – Self-Preservation Type 8",
-    teaser:"SE8w9 · 1931–2019. Writer, Nobel Prize in Literature 1993. Beloved, Sula, The Bluest Eye. The orangutan woman who broke the silence of history – grounded, unshakeable, of lasting force. Animal correspondence: Orangutan.",
+    teaser:"SP8w9 · 1931–2019. Writer, Nobel Prize in Literature 1993. Beloved, Sula, The Bluest Eye. The orangutan woman who broke the silence of history – grounded, unshakeable, of lasting force. Animal correspondence: Orangutan.",
     tags:["Literatur"] },
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Social Type 8",
@@ -376,13 +376,13 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
     tags:["Musik","Kunst"] },
-  { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
+  { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SP9w1",
     heading:"Bärbel Bas – Self-Preservation Type 9",
-    teaser:"SE9w1 · born 1968. Politician (SPD), President of the Bundestag since 2021. The elephant that guards the house – persistent, quiet, with a stability stronger than any volume. Animal correspondence: Elephant.",
+    teaser:"SP9w1 · born 1968. Politician (SPD), President of the Bundestag since 2021. The elephant that guards the house – persistent, quiet, with a stability stronger than any volume. Animal correspondence: Elephant.",
     tags:["Politik"] },
-  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
+  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SP9w8",
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
-    teaser:"SE9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
+    teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
     tags:["Politik"] },
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Social Type 9",
@@ -1327,21 +1327,21 @@ function leseprobePage() {
 
       <!-- 2: Subtype-Portrait Vorschau -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">27 Subtype-Portraits &ndash; tiefste Typenstruktur</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Jeder der 27 Subtypees erh\xe4lt ein eigenes Portrait mit Kerndynamik, Tierarchetyp, Remediesn und Entwicklungswegen. Hier ein Auszug aus dem Portrait des <strong>SE1 &ndash; Der Adler</strong>:</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Jeder der 27 Subtypees erh\xe4lt ein eigenes Portrait mit Kerndynamik, Tierarchetyp, Remediesn und Entwicklungswegen. Hier ein Auszug aus dem Portrait des <strong>SP1 &ndash; Der Adler</strong>:</p>
 
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.4rem;margin-bottom:.5rem;">
         <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
-          <img src="${CDN}assets/se1-adler.jpg" alt="SE1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
+          <img src="${CDN}assets/se1-adler.jpg" alt="SP1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
           <div>
             <p style="margin:0;font-size:0.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);">Selbsterhaltungs-Eins</p>
             <p style="margin:.2rem 0 0;font-size:1.15rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);">Der Adler</p>
             <p style="margin:.15rem 0 0;font-size:0.8rem;color:var(--muted);">Typ 1 &middot; Selbsterhaltungs-Instinkt &middot; Bauchzentrum</p>
           </div>
         </div>
-        <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Der SE1er ist von allen Einser-Varianten am st\xe4rksten auf Perfektion im pers\xf6nlichen Alltag ausgerichtet. Er kontrolliert, ordnet und verfeinert &ndash; nicht um anderen zu imponieren, sondern weil Unvollkommenheit innerlich unertr\xe4glich wirkt. Sein Zorn ist still, sein Anspr\xfcch an sich selbst enorm.</p>
+        <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Der SP1er ist von allen Einser-Varianten am st\xe4rksten auf Perfektion im pers\xf6nlichen Alltag ausgerichtet. Er kontrolliert, ordnet und verfeinert &ndash; nicht um anderen zu imponieren, sondern weil Unvollkommenheit innerlich unertr\xe4glich wirkt. Sein Zorn ist still, sein Anspr\xfcch an sich selbst enorm.</p>
         <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; das vollst\xe4ndige Portrait includes: Core Wound &middot; Passion &middot; Healing Path &middot; Essential Oil &middot; Homeopathic Remedy &middot; Affirmation &middot; Growth Impulse</p>
       </div>
-      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SE1-Portrait ansehen &#8594;</button>
+      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SP1-Portrait ansehen &#8594;</button>
 
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
 
@@ -3149,7 +3149,7 @@ function frankAbagnalePortraitPage() {
           <img src="./assets/portraits/frank-abagnale-portrait.jpg" alt="Frank Abagnale Jr. – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Frank Abagnale Jr.</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 mit Viererfl\xfcgel</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Hochstapler und Betrug&shy;er &middot; Animal correspondence: Cham\xe4leon</p>
       </div>
 
@@ -3173,12 +3173,12 @@ function frankAbagnalePortraitPage() {
       <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Frank Abagnale Jr.</strong> wird dem <strong>Self-Preservationen Typ 3
-        mit Viererfl\xfcgel (SE3w4)</strong> im Enneagramm zugeordnet.
-        Der SE3er ist der <em>Kontratyp</em> der Drei: Er zeigt Eitelkeit nicht als offene
+        mit Viererfl\xfcgel (SP3w4)</strong> im Enneagramm zugeordnet.
+        Der SP3er ist der <em>Kontratyp</em> der Drei: Er zeigt Eitelkeit nicht als offene
         Selbstdarstellung, sondern nach innen gewendet als unerbittlichen Antrieb,
         kompetent, funktionst\xfcchtig und unangreifbar zu wirken.
         Der Selbsterhaltungsinstinkt richtet diese Energie auf pers\xf6nliche Sicherheit:
-        Der SE3er arbeitet nicht f\xfcr Applaus, sondern f\xfcr Ressourcen –
+        Der SP3er arbeitet nicht f\xfcr Applaus, sondern f\xfcr Ressourcen –
         f\xfcr die abgesicherte Position, den n\xe4chsten Schritt, das n\xe4chste Fundament.
         Bei Abagnale \xfcbersetzte sich das in eine k\xfchle, pragmatische Logik:
         Welche Identit\xe4t verschafft mir Zugang, Versorgung und Schutz?
@@ -3209,24 +3209,24 @@ function frankAbagnalePortraitPage() {
         Abagnales Auftreten war nie das des Blenders, der Aufmerksamkeit sucht.
         Er wirkte <em>gew\xf6hnlich kompetent</em> – gerade so viel,
         dass keine R\xfcckfragen entstanden.
-        Das ist die Meisterleistung des SE3:
+        Das ist die Meisterleistung des SP3:
         Er liefert genau das erwartete Bild, nicht mehr.
         Eine Sieben h\xe4tte zu viel geredet.
         Eine Acht h\xe4tte zu viel dominiert.
-        Der SE3er trifft instinktiv den richtigen Ton –
+        Der SP3er trifft instinktiv den richtigen Ton –
         weil sein ganzes System auf Effizienz getrimmt ist.</p>
         <p class="vb-intro"><strong>b) Zielgerichteter Blick, keine Vertr\xe4umtheit:</strong>
         Zeitgenossen beschrieben Abagnale als fokussiert und gesch\xe4ftsm\xe4\xdfig.
         Kein Schwelgen, kein Philosophieren.
         Er war immer auf den n\xe4chsten Schritt konzentriert.
-        Das ist die SE3-Energie in Reinform:
+        Das ist die SP3-Energie in Reinform:
         Das Ziel steht fest, die Mittel werden pragmatisch gew\xe4hlt.
         Der Viererfl\xfcgel sorgt f\xfcr ein gewisses inneres Grau –
         eine Nachdenklichkeit, die er aber nie nach au\xdfen lie\xdf.</p>
         <p class="vb-intro"><strong>c) Keine Spur von Eitelkeit – und genau das ist die Eitelkeit:</strong>
         Der Kontratyp der Drei wirkt paradox: Er zeigt keine Drei-Eitelkeit.
         Er tr\xe4gt keine Zeichen von Status, protzt nicht, sucht keinen Beifall.
-        Und genau darin liegt die tiefere Eitelkeit des SE3 –
+        Und genau darin liegt die tiefere Eitelkeit des SP3 –
         die Identifikation mit dem Bild des selbstgen\xfcgsamen,
         kompetenten, unauff\xe4lligen Experten.
         Auch das ist ein Bild. Auch das ist Konstruktion.
@@ -3242,9 +3242,9 @@ function frankAbagnalePortraitPage() {
         Pilot: Freifl\xfcge, Unterkunft, Status ohne Risiko.
         Arzt: ein stabiles Institutionsgef\xfcge, das keine tiefen Fragen stellt.
         Anwalt: der Schutz des Systems selbst.
-        All das sind SE3-Entscheidungen –
+        All das sind SP3-Entscheidungen –
         Ressourcensicherung durch Identit\xe4tsadaption.</p>
-        <p class="vb-intro"><strong>b) Effizienz statt \xdcbertreibung – das Minimalprinzip der SE3:</strong>
+        <p class="vb-intro"><strong>b) Effizienz statt \xdcbertreibung – das Minimalprinzip der SP3:</strong>
         Die selbsterhaltende Drei folgt einem Grundsatz,
         den man bei keinem anderen Subtype so konsequent findet:
         <em>minimaler Mitteleinsatz, maximaler Erfolg</em>.
@@ -3252,9 +3252,9 @@ function frankAbagnalePortraitPage() {
         Sie beeindruckt nicht mehr als n\xf6tig.
         Sie gibt so wenig von sich preis wie m\xf6glich –
         und erzielt damit mehr als jene, die alles geben.
-        Dieses Minimalprinzip ist eines der sichersten Erkennungszeichen der SE3:
+        Dieses Minimalprinzip ist eines der sichersten Erkennungszeichen der SP3:
         W\xe4hrend die soziale oder sexuelle Drei auf Wirkung aus ist
-        und gerne etwas dr\xfcber l\xe4sst, rechnet die SE3 genau nach,
+        und gerne etwas dr\xfcber l\xe4sst, rechnet die SP3 genau nach,
         was die Situation <em>braucht</em> – und liefert exakt das.
         Nicht mehr. Nie mehr.
         Abagnale eignete sich das Minimum an Fachvokabular an,
@@ -3263,10 +3263,10 @@ function frankAbagnalePortraitPage() {
         das sein Bild von allein erg\xe4nzte.
         Keine Sieben h\xe4tte es dabei belassen.
         Eine soziale oder sexuelle Drei h\xe4tte sich als Star inszeniert.
-        Der SE3er inszeniert sich als Normalit\xe4t –
+        Der SP3er inszeniert sich als Normalit\xe4t –
         und das ist die schwerer zu durchschauende T\xe4uschung.</p>
         <p class="vb-intro"><strong>c) Der Viererfl\xfcgel: Tiefe und Unruhe:</strong>
-        Was den SE3 von einer glatten Drei unterscheidet,
+        Was den SP3 von einer glatten Drei unterscheidet,
         ist der Viererfl\xfcgel: ein nagender Unterton,
         ein Gef\xfchl, nie wirklich zu sein, was man darstellt –
         selbst wenn die Darstellung perfekt gelingt.
@@ -3303,7 +3303,7 @@ function frankAbagnalePortraitPage() {
         Abagnale f\xe4lschte ein Harvard-Abschlusszeugnis
         und legte das Staatsexamen erst beim dritten Anlauf ab.
         Keine Panik, kein Aufgeben –
-        die ruhige Ausdauer des SE3,
+        die ruhige Ausdauer des SP3,
         der so lange an einer Aufgabe bleibt,
         bis sie nutzbar ist.
         Fast ein Jahr arbeitete er als Assistant Attorney General,
@@ -3327,7 +3327,7 @@ function frankAbagnalePortraitPage() {
         Nach einer Haftstrafe schloss Abagnale einen Deal mit dem FBI:
         Er half bei der \xdcberf\xfchrung von Scheckf\xe4lschern
         und wurde zum gesuchten Experten f\xfcr Dokumentenbetrug.
-        Das ist die SE3-Rehabilitation in Reinform:
+        Das ist die SP3-Rehabilitation in Reinform:
         Dieselbe Kompetenz, dieselbe Effizienz –
         nur jetzt von einem System gedeckt und bezahlt.</p>
       </div>
@@ -3344,15 +3344,15 @@ function frankAbagnalePortraitPage() {
         <p class="vb-intro"><strong>b) Die Biografie als letzte Inszenierung:</strong>
         Sp\xe4tere Recherchen haben Teile seiner
         Selbstdarstellung als \xfcbertrieben oder erfunden entlarvt.
-        Auch das ist SE3w4:
+        Auch das ist SP3w4:
         Sobald die eigene Geschichte zur Ressource wird –
         zur Grundlage eines Buchdeals, einer Beratungskarriere,
         einer Hollywood-Verfilmung –
         wird sie genauso optimiert wie die Piloten-Identit\xe4t zuvor.
         Das Cham\xe4leon – \xfcbergeordnetes Sinnbild des Enneagrammtyps 3 – h\xf6rte nie auf, seine Farbe zu wechseln.</p>
-        <p class="vb-intro"><strong>c) Der SE3er unter den Hochstaplern:</strong>
-        Was Abagnale von klassischen Betr\xfcgern wie Anna Delvey (SE2w3)
-        oder Ruja Ignatova (SE3w4)
+        <p class="vb-intro"><strong>c) Der SP3er unter den Hochstaplern:</strong>
+        Was Abagnale von klassischen Betr\xfcgern wie Anna Delvey (SP2w3)
+        oder Ruja Ignatova (SP3w4)
         unterscheidet: er brauchte keine B\xfchne.
         Ruja Ignatova ist zwar derselbe Typ –
         aber sie brauchte die B\xfchne, um ihre T\xe4uschung zu entfalten.
@@ -3365,7 +3365,7 @@ function frankAbagnalePortraitPage() {
       <div class="vb-section" style="background:rgba(31,166,136,0.06);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Frank Abagnale Jr. ist der SE3w4 in seiner pathologischen Reinform:
+        Frank Abagnale Jr. ist der SP3w4 in seiner pathologischen Reinform:
         ein Mensch, der Identit\xe4t nicht als Selbstausdruck versteht,
         sondern als Werkzeug zur Ressourcensicherung.
         Die Leidenschaft der Eitelkeit zeigt sich bei ihm nicht als Glanz,
@@ -3460,53 +3460,53 @@ function zitatePage() {
 window._tqState = null;
 
 const _TQ_TIERE = {
-  SE1:"Adler",SO1:"Gans",SX1:"Schwarze Mamba",
-  SE2:"Flusspferd",SO2:"Golden Retriever",SX2:"Kamel",
-  SE3:"Waschb\xe4r",SO3:"Gepard",SX3:"Pfau",
-  SE4:"Taube",SO4:"G\xfcrteltier",SX4:"Chihuahua",
-  SE5:"Eule",SO5:"Oktopus",SX5:"Igel",
-  SE6:"Kaninchen",SO6:"Erdm\xe4nnchen",SX6:"Wolf",
-  SE7:"Gorilla",SO7:"Biber",SX7:"Schimpanse",
-  SE8:"Orang-Utan",SO8:"L\xf6we",SX8:"Krokodil",
-  SE9:"Elefant",SO9:"B\xfcffel",SX9:"Faultier"
+  SP1:"Adler",SO1:"Gans",SX1:"Schwarze Mamba",
+  SP2:"Flusspferd",SO2:"Golden Retriever",SX2:"Kamel",
+  SP3:"Waschb\xe4r",SO3:"Gepard",SX3:"Pfau",
+  SP4:"Taube",SO4:"G\xfcrteltier",SX4:"Chihuahua",
+  SP5:"Eule",SO5:"Oktopus",SX5:"Igel",
+  SP6:"Kaninchen",SO6:"Erdm\xe4nnchen",SX6:"Wolf",
+  SP7:"Gorilla",SO7:"Biber",SX7:"Schimpanse",
+  SP8:"Orang-Utan",SO8:"L\xf6we",SX8:"Krokodil",
+  SP9:"Elefant",SO9:"B\xfcffel",SX9:"Faultier"
 };
 const _TQ_EMOJI = {
-  SE1:"🦅",SO1:"🪷",SX1:"🐍",
-  SE2:"🦛",SO2:"🐕",SX2:"🐪",
-  SE3:"🦝",SO3:"🐆",SX3:"🦚",
-  SE4:"🕊️",SO4:"🦔",SX4:"🐕",
-  SE5:"🦉",SO5:"🐙",SX5:"🦔",
-  SE6:"🐇",SO6:"🦦",SX6:"🐺",
-  SE7:"🦍",SO7:"🪸",SX7:"🐒",
-  SE8:"🦧",SO8:"🦁",SX8:"🐊",
-  SE9:"🐘",SO9:"🐃",SX9:"🦥"
+  SP1:"🦅",SO1:"🪷",SX1:"🐍",
+  SP2:"🦛",SO2:"🐕",SX2:"🐪",
+  SP3:"🦝",SO3:"🐆",SX3:"🦚",
+  SP4:"🕊️",SO4:"🦔",SX4:"🐕",
+  SP5:"🦉",SO5:"🐙",SX5:"🦔",
+  SP6:"🐇",SO6:"🦦",SX6:"🐺",
+  SP7:"🦍",SO7:"🪸",SX7:"🐒",
+  SP8:"🦧",SO8:"🦁",SX8:"🐊",
+  SP9:"🐘",SO9:"🐃",SX9:"🦥"
 };
 const _TQ_BESCHR = {
-  SE1:"Der Adler fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Ruhig, präzise, mit einem inneren Kompass, der nicht schweigt.",
+  SP1:"Der Adler fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Ruhig, präzise, mit einem inneren Kompass, der nicht schweigt.",
   SO1:"The goose flies in formation, ensuring all the rules are right. Fair, principled, with a strong sense of what is correct.",
   SX1:"The black mamba acts swiftly and precisely — tolerating no compromise on what matters to it. Passionate and exact in equal measure.",
-  SE2:"Das Flusspferd ist wärmer als es aussieht – ruhig, gründend, zutiefst fürsorglich für den engen Kreis um es herum. Es braucht Vertrauen, bevor es sich zeigt.",
+  SP2:"Das Flusspferd ist wärmer als es aussieht – ruhig, gründend, zutiefst fürsorglich für den engen Kreis um es herum. Es braucht Vertrauen, bevor es sich zeigt.",
   SO2:"The golden retriever loves unconditionally — and wants everyone to be happy. A natural connector, always ready to help.",
   SX2:"Das Kamel trägt, was andere nicht tragen würden – es gibt alles für den, dem es sich verbunden fühlt. Ausdauernd, treu, manchmal erschöpft.",
-  SE3:"Der Waschbär ist clever, anpassungsfähig und immer auf der Search nach dem, was funktioniert. Pragmatisch und charmant, leise und effektiv.",
+  SP3:"Der Waschbär ist clever, anpassungsfähig und immer auf der Search nach dem, was funktioniert. Pragmatisch und charmant, leise und effektiv.",
   SO3:"Der Gepard ist schnell, brillant und auf Erfolg ausgerichtet – mit einer natürlichen Eleganz im Umgang mit anderen. Er ist gern vorne.",
   SX3:"Der Pfau weiß, wie er wirkt – und er setzt das bewusst ein. Charismatisch, intensiv, mit einem Sinn für das Besondere.",
-  SE4:"Die Taube trägt ihre Sehnsucht still – sie sucht Tiefe im Stillen und empfindet intensiver als sie zeigt. Sanft und verletzlich zugleich.",
+  SP4:"Die Taube trägt ihre Sehnsucht still – sie sucht Tiefe im Stillen und empfindet intensiver als sie zeigt. Sanft und verletzlich zugleich.",
   SO4:"Das Gürteltier trägt seinen Schmerz als Schutz – außen hart, innen empfindsam. Es sucht Zugehörigkeit und kämpft still um seinen Platz.",
   SX4:"Der Chihuahua ist klein und macht trotzdem auf sich aufmerksam – leidenschaftlich, intensiv, von tiefer Gefühlstiefe getrieben.",
-  SE5:"The owl observes everything before it moves — it thinks, analyses, and needs space. Wise and withdrawn, with an inner wealth of knowledge.",
+  SP5:"The owl observes everything before it moves — it thinks, analyses, and needs space. Wise and withdrawn, with an inner wealth of knowledge.",
   SO5:"Der Oktopus ist das intelligenteste wirbellose Tier der Erde – er denkt in Systemen, vernetzt still und agiert mit erstaunlicher Präzision.",
   SX5:"Der Igel schützt sich mit Stacheln und öffnet sich nur, wenn er vertraut. Intensiv in der Tiefe, aber nach außen kaum greifbar.",
-  SE6:"Das Kaninchen ist wachsam, liebenswert und braucht sichere Strukturen. Es ist loyal zu denen, denen es vertraut – und vorsichtig gegenüber dem Unbekannten.",
+  SP6:"Das Kaninchen ist wachsam, liebenswert und braucht sichere Strukturen. Es ist loyal zu denen, denen es vertraut – und vorsichtig gegenüber dem Unbekannten.",
   SO6:"The meerkat keeps watch for the group — alert, cooperative, always ensuring everyone is safe. Reliability is its life principle.",
   SX6:"Der Wolf ist intensiv loyal – aber er prüft zuerst, ob er wirklich vertrauen kann. Stark in der Verbindung, mutig wenn er sich sicher fühlt.",
-  SE7:"Der Gorilla ist stärker als er aussieht – verspielt, neugierig und voller Energie, wenn er seine Welt erkundet. Er genießt das Leben mit allen Sinnen.",
+  SP7:"Der Gorilla ist stärker als er aussieht – verspielt, neugierig und voller Energie, wenn er seine Welt erkundet. Er genießt das Leben mit allen Sinnen.",
   SO7:"Der Biber baut, plant und gestaltet – er bringt seine Ideen in die Welt und liebt es, wenn alle davon profitieren. Pragmatisch und voller Ideen.",
   SX7:"Der Schimpanse ist sozial, improvisationsfreudig und lebt im Moment – mit einer Intensität, die ansteckend ist. Er braucht Freiheit und Verbindung zugleich.",
-  SE8:"Der Orang-Utan ist mächtig und unabhängig – er braucht niemanden, der ihm sagt, was er tun soll. In seinem Tempo, auf seinem Weg.",
+  SP8:"Der Orang-Utan ist mächtig und unabhängig – er braucht niemanden, der ihm sagt, was er tun soll. In seinem Tempo, auf seinem Weg.",
   SO8:"Der Löwe führt und schützt – mit Kraft, Präsenz und dem natürlichen Anspruch, Verantwortung zu übernehmen. Er ist für seine Gruppe da.",
   SX8:"Das Krokodil ist still bis es handelt – und dann mit voller Kraft. Intensiv in der Verbindung, unerbittlich in der Verfolgung seiner Ziele.",
-  SE9:"The elephant never forgets and moves at its own pace — calm, grounding, with a presence that changes the room.",
+  SP9:"The elephant never forgets and moves at its own pace — calm, grounding, with a presence that changes the room.",
   SO9:"Der Büffel läuft mit der Herde – beharrlich, verlässlich, mit einer stillen Kraft, die andere erst im Rückblick bemerken.",
   SX9:"Das Faultier spart Energie für das, was wirklich zählt – und wenn es sich verbindet, tut es das vollständig. Stille als Stärke."
 };
@@ -4976,7 +4976,7 @@ const PAGE1_SUMMARY_EN = {
       "searching, but selective",
       "devoted when trust is there",
       "observing with emotional depth",
-      "not as distanced as SO5 or SE5",
+      "not as distanced as SO5 or SP5",
     ],
     microTension: [
       "Forehead: slightly tense during thinking",
@@ -6020,12 +6020,12 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Lycopodium clavatum · Passion remedy: Tarentula hispanica · Schuessler Salt: Ferrum phosphoricum · Bach Flower: Walnut. Use only after consulting a practitioner.",
   },
   se4: {
-    passion: "Envy – not as ill will, but as the painful feeling that others receive something one lacks oneself. In the SE4 this envy is carried inward: as quiet, stoic tenacity that endures pain and longing without showing them outwardly.",
+    passion: "Envy – not as ill will, but as the painful feeling that others receive something one lacks oneself. In the SP4 this envy is carried inward: as quiet, stoic tenacity that endures pain and longing without showing them outwardly.",
     belief: "\"I must endure what I lack without complaining.\" Beneath this: \"If I show my lack, I will be loved even less.\"",
-    wound: "The wound of separation: the deep feeling of being cut off from something essential – from oneself, from others or from life. In the SE4 this pain is carried quietly and tenaciously rather than expressed dramatically.",
+    wound: "The wound of separation: the deep feeling of being cut off from something essential – from oneself, from others or from life. In the SP4 this pain is carried quietly and tenaciously rather than expressed dramatically.",
     compensation: "Enduring, holding oneself together, bearing the lack inwardly. Instead of living out the longing, it is disciplined and borne – hardness towards oneself becomes a quiet identity.",
-    sufferingCycle: "The SE4 bears the lack quietly without showing it. As a result she remains misunderstood, which intensifies the feeling of separation. Endurance protects against rejection, but prevents genuine closeness.",
-    healingDirection: "Recognising that what is essential has not been lost. Healing begins when the SE4 shares the quiet pain instead of bearing it alone – and discovers that she is also seen and loved with her longing.",
+    sufferingCycle: "The SP4 bears the lack quietly without showing it. As a result she remains misunderstood, which intensifies the feeling of separation. Endurance protects against rejection, but prevents genuine closeness.",
+    healingDirection: "Recognising that what is essential has not been lost. Healing begins when the SP4 shares the quiet pain instead of bearing it alone – and discovers that she is also seen and loved with her longing.",
     remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
   },
   so4: {
@@ -6047,9 +6047,9 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
   },
   se5: {
-    passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SE5 this condenses into complete self-sufficiency: withdrawal becomes a way of life, not merely a strategy.",
+    passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SP5 this condenses into complete self-sufficiency: withdrawal becomes a way of life, not merely a strategy.",
     belief: "\"If I show myself or give, I will become empty.\" Beneath this: one's own resources are limited and must be protected at all costs – life takes away more than can be regenerated.",
-    wound: "The wound of lack: the deep feeling that \"I don't have enough\" – not enough strength, energy, knowledge or competence to meet the demands of life. In the SE5 this lack is most quietly and deeply buried.",
+    wound: "The wound of lack: the deep feeling that \"I don't have enough\" – not enough strength, energy, knowledge or competence to meet the demands of life. In the SP5 this lack is most quietly and deeply buried.",
     compensation: "Maximum withdrawal: little contact, little visible neediness, few demands – this preserves the inner reserves. Accumulating knowledge and self-sufficiency as a way of life stabilises the wound without touching it.",
     sufferingCycle: "The lack generates withdrawal. The withdrawal generates distance. The distance prevents new experiences. The missing experiences confirm the lack. And the cycle begins again.",
     healingDirection: "Experiencing that energy grows when it flows: showing oneself before everything is certain, and noticing that aliveness does not exhaust but nourishes. From complete withdrawal comes step-by-step participation.",
@@ -6074,9 +6074,9 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Silicea · Passion remedy: Stramonium · Schuessler Salt: Silicea · Bach Flower: Water Violet. Use only after consulting a practitioner.",
   },
   se6: {
-    passion: "Fear – a basic mistrust of life that shows as constant inner vigilance, doubt and need for reassurance. In the SE6 the fear turns inward: they do not seek the fight, but warmth, bonds and allies who promise protection.",
+    passion: "Fear – a basic mistrust of life that shows as constant inner vigilance, doubt and need for reassurance. In the SP6 the fear turns inward: they do not seek the fight, but warmth, bonds and allies who promise protection.",
     belief: "\"The world is dangerous, and I must not stand alone.\" Beneath this: \"Only if I have reliable allies and remain careful am I safe.\"",
-    wound: "The wound of lost trust: the feeling that the inner certainty of being carried by life is fragile. In the SE6 this shows as a deep need for protection and a fear of being unprotected.",
+    wound: "The wound of lost trust: the feeling that the inner certainty of being carried by life is fragile. In the SP6 this shows as a deep need for protection and a fear of being unprotected.",
     compensation: "Bonding, caution and seeking reliable allies. Warmth, loyalty and belonging become a protective space – security is sought outside rather than found within oneself.",
     sufferingCycle: "Whoever constantly searches for uncertainties finds them. More caution creates more vigilance, which perceives more threats, which generates more fear – and the circle closes.",
     healingDirection: "Recognising that security and trust are not the same. Trust does not arise by eliminating all risks or achieving perfect protection, but through the experience of being able to face life alone as well.",
@@ -6101,11 +6101,11 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Opium · Passion remedy: Opium · Schuessler Salt: Magnesium phosphoricum · Bach Flower: Cerato. Use only after consulting a practitioner.",
   },
   se7: {
-    passion: "Gluttony – the constant search for more as a strategy to escape pain and inner emptiness. In the SE7 the gluttony is directed at practical abundance: creature comforts, allies and reserves so that nothing is ever lacking.",
+    passion: "Gluttony – the constant search for more as a strategy to escape pain and inner emptiness. In the SP7 the gluttony is directed at practical abundance: creature comforts, allies and reserves so that nothing is ever lacking.",
     belief: "\"If I have accumulated enough and lack nothing, I am safe.\" Beneath this: \"Lack and emptiness are threatening – I must provide.\"",
-    wound: "The wound of pain avoidance: the feeling that deeper feelings – especially pain, loss and limitation – are too threatening to confront. In the SE7 this is translated into accumulating pleasure and security.",
+    wound: "The wound of pain avoidance: the feeling that deeper feelings – especially pain, loss and limitation – are too threatening to confront. In the SP7 this is translated into accumulating pleasure and security.",
     compensation: "Planning, enjoying, networking and securing – awareness remains directed at pleasant possibilities and provision. Genuine limitation and stillness are circumvented.",
-    sufferingCycle: "The SE7 seeks fulfilment in the next pleasure, the next comfort. Brief satisfaction gives way to the need for more. The abundance she seeks is always one step further away.",
+    sufferingCycle: "The SP7 seeks fulfilment in the next pleasure, the next comfort. Brief satisfaction gives way to the need for more. The abundance she seeks is always one step further away.",
     healingDirection: "Experiencing that enough is enough. Healing begins in the capacity to be fully present with what is – including stillness and limitation – rather than always accumulating more.",
     remedy: "Wound remedy: Calcium carbonicum · Passion remedy: Belladonna · Schuessler Salt: Natrium phosphoricum · Bach Flower: Agrimony. Use only after consulting a practitioner.",
   },
@@ -6128,10 +6128,10 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Calcium carbonicum · Passion remedy: Belladonna · Schuessler Salt: Natrium phosphoricum · Bach Flower: Agrimony. Use only after consulting a practitioner.",
   },
   se8: {
-    passion: "Lust – an intense force that shows as a drive towards strength, control and intensity. In the SE8 this force is directed at autonomy and survival: the concrete securing of one's own needs without being dependent on anyone.",
+    passion: "Lust – an intense force that shows as a drive towards strength, control and intensity. In the SP8 this force is directed at autonomy and survival: the concrete securing of one's own needs without being dependent on anyone.",
     belief: "\"Weakness is dangerous – I must be self-sufficient in order to be safe.\" Beneath this: \"Whoever relies on others or shows neediness makes themselves vulnerable.\"",
-    wound: "The wound of vulnerability: the deep feeling that one's own capacity to be hurt is threatening. In the SE8 vulnerability is most thoroughly concealed behind independence and self-sufficiency.",
-    compensation: "Autonomy, directness and the independent fulfilment of all needs. The SE8 avoids dependency and situations that could generate helplessness. The armour protects – and isolates.",
+    wound: "The wound of vulnerability: the deep feeling that one's own capacity to be hurt is threatening. In the SP8 vulnerability is most thoroughly concealed behind independence and self-sufficiency.",
+    compensation: "Autonomy, directness and the independent fulfilment of all needs. The SP8 avoids dependency and situations that could generate helplessness. The armour protects – and isolates.",
     sufferingCycle: "Fear of vulnerability generates control. Control generates distance. Distance prevents deep connection. The absence of genuine closeness confirms the necessity of strength.",
     healingDirection: "Discovering vulnerability not as weakness, but as access to genuine strength. Experiencing that accepting and being able to rely on others does not weaken but connects.",
     remedy: "Wound remedy: Veratrum album · Passion remedy: Veratrum album · Schuessler Salt: Calcium fluoratum · Bach Flower: Oak. Use only after consulting a practitioner.",
@@ -6155,11 +6155,11 @@ const WOUNDS_EN = {
     remedy: "Wound remedy: Veratrum album · Passion remedy: Veratrum album · Schuessler Salt: Calcium fluoratum · Bach Flower: Oak. Use only after consulting a practitioner.",
   },
   se9: {
-    passion: "Sloth – not as physical laziness, but as an inner immobility that lets one's own experience recede into the background. In the SE9 it shows as retreat into comfort, routine and substitute satisfactions.",
+    passion: "Sloth – not as physical laziness, but as an inner immobility that lets one's own experience recede into the background. In the SP9 it shows as retreat into comfort, routine and substitute satisfactions.",
     belief: "\"As long as it is comfortable and familiar, everything is fine.\" Beneath this: \"If I step out of my routine and want something, I jeopardise my peace.\"",
-    wound: "The wound of self-forgetting: the deep pattern of making oneself invisible in order to avoid conflict and preserve harmony. In the SE9 what is one's own is buried beneath habit and cosiness.",
+    wound: "The wound of self-forgetting: the deep pattern of making oneself invisible in order to avoid conflict and preserve harmony. In the SP9 what is one's own is buried beneath habit and cosiness.",
     compensation: "Routine, comfort and pleasant distractions – food, activity, the familiar numb the inner emptiness. What is one's own is set aside so that accustomed peace is maintained.",
-    sufferingCycle: "The SE9 maintains familiar habits and numbs tension with substitute satisfactions. In the process she becomes ever more invisible to herself. Cosiness protects peace, but prevents genuine aliveness.",
+    sufferingCycle: "The SP9 maintains familiar habits and numbs tension with substitute satisfactions. In the process she becomes ever more invisible to herself. Cosiness protects peace, but prevents genuine aliveness.",
     healingDirection: "Feeling again that one's own presence counts. Healing begins not with more activity, but with more awareness of what one experiences, needs and wants oneself – beyond accustomed comfort.",
     remedy: "Wound remedy: Staphysagria · Passion remedy: Cannabis indica · Schuessler Salt: Natrium sulfuricum · Bach Flower: Wild Rose. Use only after consulting a practitioner.",
   },
@@ -7849,7 +7849,7 @@ function profilePage() {
         ? 'Select your Enneagram Subtype. The Compass aligns fully to you — daily impulse, patterns, tools and healing path.'
         : 'Your current profile is <strong>' + enCode(state.profile.code) + ' · ' + state.profile.title + '</strong>. Choose a different Subtype to realign the Compass.'
       }</p>
-      <p class="profile-type-hint">Don't know your Subtype yet? No problem — look at the three variants of your type (e.g. SE6, SO6, SX6) and choose the one that feels most resonant.</p>
+      <p class="profile-type-hint">Don't know your Subtype yet? No problem — look at the three variants of your type (e.g. SP6, SO6, SX6) and choose the one that feels most resonant.</p>
     </section>
     ${groupsHTML}
     ${firstVisit ? `<p class="profile-skip">Not sure yet? <button class="ghost-link" data-route="knowledge">Explore the Knowledge Atlas first</button></p>` : ''}
@@ -9523,23 +9523,23 @@ function spirituelleUebungenPage() {
 }
 
 const PORTRAIT_TYPEN = [
-  { nr: 1, name: "Der Reformer",        subtypen: "SE1 · SO1 · SX1", start: 1,  farbe: "#7a7a7a",
+  { nr: 1, name: "Der Reformer",        subtypen: "SP1 · SO1 · SX1", start: 1,  farbe: "#7a7a7a",
     intro: "Type 1 carries the principle of perfection — an inner judge that ceaselessly checks, evaluates, and corrects. These pages show all three subtypes: the self-preservation One (SP1) fights for self-control, the social One (SO1) becomes teacher and role model, the sexual One (SX1) carries reform into relationships and the world." },
-  { nr: 2, name: "Der Helfer",           subtypen: "SE2 · SO2 · SX2", start: 9,  farbe: "#8b3a8b",
+  { nr: 2, name: "Der Helfer",           subtypen: "SP2 · SO2 · SX2", start: 9,  farbe: "#8b3a8b",
     intro: "Type 2 lives from the impulse of love — a deep need to give, to be needed, and to connect. The self-preservation Two (SP2) expresses helplessness outwardly, the social Two (SO2) becomes the seducer in groups, the sexual Two (SX2) floods individuals with warmth and attention." },
-  { nr: 3, name: "Der Macher",           subtypen: "SE3 · SO3 · SX3", start: 17, farbe: "#009b9b",
+  { nr: 3, name: "Der Macher",           subtypen: "SP3 · SO3 · SX3", start: 17, farbe: "#009b9b",
     intro: "Type 3 is the archetype of success — brilliant, efficient, image-conscious. The self-preservation Three (SP3) creates security through quiet achievement, the social Three (SO3) seeks public recognition, the sexual Three (SX3) enchants as a charismatic seducer." },
-  { nr: 4, name: "Der Individualist",    subtypen: "SE4 · SO4 · SX4", start: 25, farbe: "#1a5c1a",
+  { nr: 4, name: "Der Individualist",    subtypen: "SP4 · SO4 · SX4", start: 25, farbe: "#1a5c1a",
     intro: "Type 4 carries the longing for the unique — and the pain of being different. The self-preservation Four (SP4) suffers quietly and compensates through endurance, the social Four (SO4) displays pain and seeks compassion, the sexual Four (SX4) fights for intensity and projects its lack onto others." },
-  { nr: 5, name: "Der Beobachter",       subtypen: "SE5 · SO5 · SX5", start: 33, farbe: "#1a3a8b",
+  { nr: 5, name: "Der Beobachter",       subtypen: "SP5 · SO5 · SX5", start: 33, farbe: "#1a3a8b",
     intro: "Type 5 withdraws in order to understand — knowledge is its shield against a world that demands too much. The self-preservation Five (SP5) builds a private retreat, the social Five (SO5) accesses the world through ideas and systems, the sexual Five (SX5) connects deeply — but only with one single person." },
-  { nr: 6, name: "Der Loyale",           subtypen: "SE6 · SO6 · SX6", start: 41, farbe: "#8b6914",
+  { nr: 6, name: "Der Loyale",           subtypen: "SP6 · SO6 · SX6", start: 41, farbe: "#8b6914",
     intro: "Type 6 is the guardian of community — loyal, vigilant, deeply concerned with safety. The self-preservation Six (SP6) seeks protection in trust and closeness (phobic), the social Six (SO6) follows rules and authorities, the sexual Six (SX6) fights fear through strength and provocation (counterphobic)." },
-  { nr: 7, name: "Der Enthusiast",       subtypen: "SE7 · SO7 · SX7", start: 49, farbe: "#c17f00",
+  { nr: 7, name: "Der Enthusiast",       subtypen: "SP7 · SO7 · SX7", start: 49, farbe: "#c17f00",
     intro: "Type 7 is the energy of joy — always seeking the next experience, the next plan, the next possibility. The self-preservation Seven (SP7) secures itself through networks, the social Seven (SO7) sacrifices itself in service to others, the sexual Seven (SX7) seeks ideals and visions that inspire." },
-  { nr: 8, name: "Der Herausforderer",   subtypen: "SE8 · SO8 · SX8", start: 57, farbe: "#8b1a1a",
+  { nr: 8, name: "Der Herausforderer",   subtypen: "SP8 · SO8 · SX8", start: 57, farbe: "#8b1a1a",
     intro: "Type 8 carries power, strength, and unbroken vitality — protecting the vulnerable and tolerating no outside control. The self-preservation Eight (SP8) controls territory and resources, the social Eight (SO8) fights for justice and its group, the sexual Eight (SX8) seeks intense connection and provokes without hesitation." },
-  { nr: 9, name: "Der Friedensstifter",  subtypen: "SE9 · SO9 · SX9", start: 65, farbe: "#2e6b2e",
+  { nr: 9, name: "Der Friedensstifter",  subtypen: "SP9 · SO9 · SX9", start: 65, farbe: "#2e6b2e",
     intro: "Type 9 carries the principle of peace — a deep longing for harmony, unity, and the merging of all contradictions. The self-preservation Nine (SP9) finds peace in small rituals and comfort, the social Nine (SO9) merges into the group, the sexual Nine (SX9) fuses with other people or ideas." },
 ];
 
@@ -9719,7 +9719,7 @@ function detlefRathmerJazzPage() {
     { id: "afuljgIKAOU", label: "Album 31 – Healing Music for Enneagram Type 8" },
     { id: "prWKIp0Voq8", label: "Album 32 – Healing Music for Enneagram Type 9" },
     { id: "HRAp3ECem00", label: "Album 46 – Healing Music for Soziale Vierer (SO4)" },
-    { id: "QogJd6km5W8", label: "Album 61 – Healing Music for Self-Preservatione Neuner (SE9)" },
+    { id: "QogJd6km5W8", label: "Album 61 – Healing Music for Self-Preservatione Neuner (SP9)" },
   ];
 
   const enneagrammSongs = [
@@ -9992,7 +9992,7 @@ function berühmteKomponistenPage() {
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Musik &middot; Geschichte</p>
       <h1>Berühmte Komponisten im Enneagramm</h1>
-      <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypees zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SE9).</p>
+      <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypees zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SP9).</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
@@ -10628,15 +10628,15 @@ function beziehungenPage() {
   ];
 
   const subtypes = [
-    { code: "SE1", text: "Sucht Ordnung und Verlässlichkeit in Intimität" }, { code: "SO1", text: "Möchte ein richtiges Paar darstellen" }, { code: "SX1", text: "Leidenschaftlich und gleichzeitig streng mit hohen Ansprüchen" },
-    { code: "SE2", text: "Gibt Fürsorge körperlich, erwartet Dankbarkeit" }, { code: "SO2", text: "Sucht Bewunderung für die gemeinsame Nähe" }, { code: "SX2", text: "Will exklusive Verschmelzung, kann besitzergreifend sein" },
-    { code: "SE3", text: "Verbindet Erotik mit Leistungsfähigkeit" }, { code: "SO3", text: "Achtet auf äußere Wirkung, auch in der Partnerschaft" }, { code: "SX3", text: "Sucht Spiegelung durch intensive erotische Bestätigung" },
-    { code: "SE4", text: "Nähe über Fürsorge, mit unterschwelligem Gefühl des Mangels" }, { code: "SO4", text: "Vergleicht sich ständig, sucht besondere Bindung" }, { code: "SX4", text: "Drängt dramatisch in Intensität und Verschmelzung" },
-    { code: "SE5", text: "Hält Distanz, Sexualität kontrolliert" }, { code: "SO5", text: "Sucht Austausch im Denken, körperlich zurückhaltend" }, { code: "SX5", text: "Überraschend leidenschaftlich, wenn Vertrauen da ist" },
-    { code: "SE6", text: "Sucht Sicherheit und verlässliche Routinen" }, { code: "SO6", text: "Fragt nach Zugehörigkeit im sozialen Kontext" }, { code: "SX6", text: "Schwankt zwischen Hingabe und Misstrauen" },
-    { code: "SE7", text: "Verspielt, leicht, lustvoll ohne Risiko" }, { code: "SO7", text: "Erotisches Abenteuer im sozialen Raum" }, { code: "SX7", text: "Intensive Hingabe, manchmal maßlos" },
-    { code: "SE8", text: "Kraftvoll, sinnlich, mit Stärke verbunden" }, { code: "SO8", text: "Beschützerrolle auch sexuell betont" }, { code: "SX8", text: "Dominant, leidenschaftlich, zugleich zärtlich in der Tiefe" },
-    { code: "SE9", text: "Sucht friedvolle Nähe, Sexualität als Geborgenheit" }, { code: "SO9", text: "Will Harmonie im größeren Rahmen" }, { code: "SX9", text: "Verschmelzend, verliert sich leicht im Partner" },
+    { code: "SP1", text: "Sucht Ordnung und Verlässlichkeit in Intimität" }, { code: "SO1", text: "Möchte ein richtiges Paar darstellen" }, { code: "SX1", text: "Leidenschaftlich und gleichzeitig streng mit hohen Ansprüchen" },
+    { code: "SP2", text: "Gibt Fürsorge körperlich, erwartet Dankbarkeit" }, { code: "SO2", text: "Sucht Bewunderung für die gemeinsame Nähe" }, { code: "SX2", text: "Will exklusive Verschmelzung, kann besitzergreifend sein" },
+    { code: "SP3", text: "Verbindet Erotik mit Leistungsfähigkeit" }, { code: "SO3", text: "Achtet auf äußere Wirkung, auch in der Partnerschaft" }, { code: "SX3", text: "Sucht Spiegelung durch intensive erotische Bestätigung" },
+    { code: "SP4", text: "Nähe über Fürsorge, mit unterschwelligem Gefühl des Mangels" }, { code: "SO4", text: "Vergleicht sich ständig, sucht besondere Bindung" }, { code: "SX4", text: "Drängt dramatisch in Intensität und Verschmelzung" },
+    { code: "SP5", text: "Hält Distanz, Sexualität kontrolliert" }, { code: "SO5", text: "Sucht Austausch im Denken, körperlich zurückhaltend" }, { code: "SX5", text: "Überraschend leidenschaftlich, wenn Vertrauen da ist" },
+    { code: "SP6", text: "Sucht Sicherheit und verlässliche Routinen" }, { code: "SO6", text: "Fragt nach Zugehörigkeit im sozialen Kontext" }, { code: "SX6", text: "Schwankt zwischen Hingabe und Misstrauen" },
+    { code: "SP7", text: "Verspielt, leicht, lustvoll ohne Risiko" }, { code: "SO7", text: "Erotisches Abenteuer im sozialen Raum" }, { code: "SX7", text: "Intensive Hingabe, manchmal maßlos" },
+    { code: "SP8", text: "Kraftvoll, sinnlich, mit Stärke verbunden" }, { code: "SO8", text: "Beschützerrolle auch sexuell betont" }, { code: "SX8", text: "Dominant, leidenschaftlich, zugleich zärtlich in der Tiefe" },
+    { code: "SP9", text: "Sucht friedvolle Nähe, Sexualität als Geborgenheit" }, { code: "SO9", text: "Will Harmonie im größeren Rahmen" }, { code: "SX9", text: "Verschmelzend, verliert sich leicht im Partner" },
   ];
 
   return shell(`
@@ -10671,7 +10671,7 @@ function beziehungenPage() {
       <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">27 Comics: Mirror of Human Patterns</h2>
       <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">The images reflect the deep desires, fears, and escapes of the 27 subtypes &ndash; sometimes tender, sometimes stark. Tap a comic to zoom in.</p>
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; margin-bottom:2rem;">
-        ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
+        ${["SP1","SO1","SX1","SP2","SO2","SX2","SP3","SO3","SX3","SP4","SO4","SX4","SP5","SO5","SX5","SP6","SO6","SX6","SP7","SO7","SX7","SP8","SO8","SX8","SP9","SO9","SX9"].map(code => `
         <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
              data-comic-open="${code.toLowerCase()}"
              title="${code} &ndash; tap to zoom in">
@@ -10686,7 +10686,7 @@ function beziehungenPage() {
       <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Choose your subtype &ndash; and see at a glance how you harmonise with all 26 other subtypes, where friction arises, and what you can learn from each other.</p>
 
       <div style="display:grid; grid-template-columns:repeat(9, 1fr); gap:0.3rem; margin-bottom:1.5rem;">
-        ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
+        ${["SP1","SO1","SX1","SP2","SO2","SX2","SP3","SO3","SX3","SP4","SO4","SX4","SP5","SO5","SX5","SP6","SO6","SX6","SP7","SO7","SX7","SP8","SO8","SX8","SP9","SO9","SX9"].map(code => `
         <button data-bez-code="${code}" style="
           padding:0.35rem 0.1rem; font-size:0.72rem; font-weight:600;
           border:2px solid ${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'};
@@ -10907,31 +10907,31 @@ function tierentsprechungenPage() {
 
 function tierlexikonPage() {
   const subtypes = [
-    { code: "SE1", tier: "Adler",             emoji: "🦅" },
+    { code: "SP1", tier: "Adler",             emoji: "🦅" },
     { code: "SO1", tier: "Gans",              emoji: "🪿" },
     { code: "SX1", tier: "Schwarze Mamba",    emoji: "🐍" },
-    { code: "SE2", tier: "Flusspferd",        emoji: "🦛" },
+    { code: "SP2", tier: "Flusspferd",        emoji: "🦛" },
     { code: "SO2", tier: "Golden Retriever",  emoji: "🐕" },
     { code: "SX2", tier: "Kamel",             emoji: "🐪" },
-    { code: "SE3", tier: "Waschbär",          emoji: "🦝" },
+    { code: "SP3", tier: "Waschbär",          emoji: "🦝" },
     { code: "SO3", tier: "Gepard",            emoji: "🐆" },
     { code: "SX3", tier: "Pfau",              emoji: "🦚" },
-    { code: "SE4", tier: "Taube",             emoji: "🕊️" },
+    { code: "SP4", tier: "Taube",             emoji: "🕊️" },
     { code: "SO4", tier: "Gürteltier",        emoji: "🦔" },
     { code: "SX4", tier: "Chihuahua",         emoji: "🐕" },
-    { code: "SE5", tier: "Eule",              emoji: "🦉" },
+    { code: "SP5", tier: "Eule",              emoji: "🦉" },
     { code: "SO5", tier: "Oktopus",           emoji: "🐙" },
     { code: "SX5", tier: "Igel",              emoji: "🦔" },
-    { code: "SE6", tier: "Kaninchen",         emoji: "🐇" },
+    { code: "SP6", tier: "Kaninchen",         emoji: "🐇" },
     { code: "SO6", tier: "Erdmännchen",       emoji: "🦦" },
     { code: "SX6", tier: "Wolf",              emoji: "🐺" },
-    { code: "SE7", tier: "Gorilla",           emoji: "🦍" },
+    { code: "SP7", tier: "Gorilla",           emoji: "🦍" },
     { code: "SO7", tier: "Biber",             emoji: "🦫" },
     { code: "SX7", tier: "Schimpanse",        emoji: "🐒" },
-    { code: "SE8", tier: "Orang-Utan",        emoji: "🦧" },
+    { code: "SP8", tier: "Orang-Utan",        emoji: "🦧" },
     { code: "SO8", tier: "Löwe",              emoji: "🦁" },
     { code: "SX8", tier: "Krokodil",          emoji: "🐊" },
-    { code: "SE9", tier: "Elefant",           emoji: "🐘" },
+    { code: "SP9", tier: "Elefant",           emoji: "🐘" },
     { code: "SO9", tier: "Büffel",            emoji: "🐃" },
     { code: "SX9", tier: "Faultier",          emoji: "🦥" },
   ];
@@ -10985,31 +10985,31 @@ function tierlexikonPage() {
 
 // YouTube-Dokus je Subtype-Tier  { ytId, start (Sekunden), titel, kanal }
 const TIER_DOKU = {
-  SE1: { ytId: "MsgEyukOru4",  start: 0, titel: "Bedrohte Steinadler im Nationalpark",            kanal: "Terra X / ZDF" },
+  SP1: { ytId: "MsgEyukOru4",  start: 0, titel: "Bedrohte Steinadler im Nationalpark",            kanal: "Terra X / ZDF" },
   SO1: { ytId: "8z6KZCUcOxg",  start: 0, titel: "Die Graugans und ihre Gössel",                  kanal: "ARD / BR" },
   SX1: { ytId: "ScMSj29cn7E",  start: 0, titel: "Schwarze Mamba – Der Kuss des Todes",           kanal: "Tierdoku" },
-  SE2: { ytId: "_doL68KopkI",  start: 0, titel: "Nilpferd – das gefährlichste Tier auf dem Land", kanal: "Tierdoku" },
+  SP2: { ytId: "_doL68KopkI",  start: 0, titel: "Nilpferd – das gefährlichste Tier auf dem Land", kanal: "Tierdoku" },
   SO2: { ytId: "GjNqazReP1Q",  start: 0, titel: "Golden Retriever – Wie tickt diese Hunderasse?", kanal: "Rasseportrait" },
   SX2: { ytId: "C71ID5P4Afs",  start: 0, titel: "Trampeltier – das Kamel",                       kanal: "Unsere Tierwelt" },
-  SE3: { ytId: "cNd62Hl3qr8",  start: 0, titel: "Der Waschbär",                                  kanal: "Unsere Tierwelt" },
+  SP3: { ytId: "cNd62Hl3qr8",  start: 0, titel: "Der Waschbär",                                  kanal: "Unsere Tierwelt" },
   SO3: { ytId: "I9IyQ-ZW9LE",  start: 0, titel: "So retten wir den Gepard",                      kanal: "Terra X plus" },
   SX3: { ytId: "7cKwYKir46k",  start: 0, titel: "Der Pfau",                                      kanal: "BR / Anna und die Haustiere" },
-  SE4: { ytId: "1dE8MSxnaXI",  start: 0, titel: "Brieftauben vs. Stadttauben",                   kanal: "Quarks / WDR" },
+  SP4: { ytId: "1dE8MSxnaXI",  start: 0, titel: "Brieftauben vs. Stadttauben",                   kanal: "Quarks / WDR" },
   SO4: { ytId: "sRlfrOPrV7w",  start: 0, titel: "Willkommen in der Gürteltierwelt",               kanal: "ZDF / Anna und die wilden Tiere" },
   SX4: { ytId: "jCVjIfLsOSc",  start: 0, titel: "Chihuahua im Rasseportrait",                    kanal: "Hunde-Doku" },
-  SE5: { ytId: "CZGvgZ3k6Dw",  start: 0, titel: "Waldkauz – Erfolgs-Eule",                       kanal: "Natur-Doku" },
+  SP5: { ytId: "CZGvgZ3k6Dw",  start: 0, titel: "Waldkauz – Erfolgs-Eule",                       kanal: "Natur-Doku" },
   SO5: { ytId: "oF-UN5vwaTM",  start: 0, titel: "Warum hat der Oktopus acht Arme?",              kanal: "WDR Die Maus" },
   SX5: { ytId: "vP9LcVgXYTE",  start: 0, titel: "Igel – Igelrettungsstation in Fürth",              kanal: "BR" },
-  SE6: { ytId: "cHAIYpFO5bA",  start: 0, titel: "Kaninchen – gesellig oder Einzelgänger?",        kanal: "OLI's Wilde Welt / SWR" },
+  SP6: { ytId: "cHAIYpFO5bA",  start: 0, titel: "Kaninchen – gesellig oder Einzelgänger?",        kanal: "OLI's Wilde Welt / SWR" },
   SO6: { ytId: "vsWivaf9ZGY",  start: 0, titel: "Das Erdmännchen",                               kanal: "Unsere Tierwelt" },
   SX6: { ytId: "2tZ2kcgRD54",  start: 0, titel: "Die Rückkehr der Wölfe in Deutschland",         kanal: "DW Deutsch" },
-  SE7: { ytId: "Se7jaFtVJmA",  start: 0, titel: "Im Nebelwald der Gorillas",                      kanal: "ZDF / Pia und die wilde Natur" },
+  SP7: { ytId: "Se7jaFtVJmA",  start: 0, titel: "Im Nebelwald der Gorillas",                      kanal: "ZDF / Pia und die wilde Natur" },
   SO7: { ytId: "CHTnJwvKKU0",  start: 0, titel: "Der Biber und seine Burg",                       kanal: "ZDF / Paula und die wilden Tiere" },
   SX7: { ytId: "OYlkjjTM3Zo",  start: 0, titel: "Das Geheimnis der Schimpansen",                  kanal: "Real Wild Deutschland" },
-  SE8: { ytId: "42giu2twppw",  start: 0, titel: "Orang-Utans in Indonesien",                      kanal: "Terra X / ZDF" },
+  SP8: { ytId: "42giu2twppw",  start: 0, titel: "Orang-Utans in Indonesien",                      kanal: "Terra X / ZDF" },
   SO8: { ytId: "Eo8-bkN7zUU",  start: 0, titel: "Löwe vs. Hyäne – Kampf der Intelligenz",        kanal: "Real Wild Deutschland" },
-  SX8: { ytId: "SE1ys7-dc_k",  start: 0, titel: "Krokodile – Lauernde Urzeit-Jäger",             kanal: "Tierdoku" },
-  SE9: { ytId: "olwdlzz-gzs",  start: 0, titel: "Der Elefant",                                    kanal: "Unsere Tierwelt" },
+  SX8: { ytId: "SP1ys7-dc_k",  start: 0, titel: "Krokodile – Lauernde Urzeit-Jäger",             kanal: "Tierdoku" },
+  SP9: { ytId: "olwdlzz-gzs",  start: 0, titel: "Der Elefant",                                    kanal: "Unsere Tierwelt" },
   SO9: { ytId: "r46Ztn1T3sU",  start: 0, titel: "Wasserbüffel – Kraft der Stille",                kanal: "Tierdoku" },
   SX9: { ytId: "5qsH7xRe3J8",  start: 0, titel: "Sind Faultiere faul?",                           kanal: "WDR Die Maus" },
 };
@@ -11575,7 +11575,7 @@ function stingPortraitPage() {
           <img src="./assets/portraits/beruehmte-sting-portrait.jpg" alt="Sting" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sting</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Musician, born 1951 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -11588,21 +11588,21 @@ function stingPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Craftsmanship as Conscience</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> does not carry its standards outward. It does not correct the world &ndash; it corrects itself, over and over, with a severity that others rarely see. Naranjo calls this subtype <em>Worry</em> &ndash; concern. The SE1 asks itself: Is this really good enough? Have I done the right thing? Do I live up to my own standard?</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> does not carry its standards outward. It does not correct the world &ndash; it corrects itself, over and over, with a severity that others rarely see. Naranjo calls this subtype <em>Worry</em> &ndash; concern. The SP1 asks itself: Is this really good enough? Have I done the right thing? Do I live up to my own standard?</p>
           <p class="vb-intro">In Sting, this manifests in the extraordinary seriousness with which he approaches music. While other rock stars repeat their hits, Sting records albums with saxophonist Branford Marsalis, sets Elizabethan lute songs by John Dowland to music, and studies the compositional craft of past centuries. His best-known song, <em>Every Breath You Take</em>, he patiently explains to this day as a dark song about obsession and surveillance &ndash; not a love song. The One insists that things be understood correctly.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: The Silence Behind the Standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds something to the SE1 energy that rarely belongs together: silence. While the pure One energy is tense, alert, and correction-conscious, the Nine-wing brings a quality of calm, of letting go, of connectedness with something greater.</p>
-          <p class="vb-intro">This explains Sting's decades-long yoga practice, his engagement with Buddhism and Tantra, his retreat to his Tuscan estate. The SE1w9 does not only seek the right thing &ndash; he also seeks peace. The Nine energy gives the One the capacity to pause, to breathe, to release perfection. Sting's music has exactly this quality: precise and spacious at the same time, demanding and meditative. The eagle circles &ndash; but he also enjoys the heights.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds something to the SP1 energy that rarely belongs together: silence. While the pure One energy is tense, alert, and correction-conscious, the Nine-wing brings a quality of calm, of letting go, of connectedness with something greater.</p>
+          <p class="vb-intro">This explains Sting's decades-long yoga practice, his engagement with Buddhism and Tantra, his retreat to his Tuscan estate. The SP1w9 does not only seek the right thing &ndash; he also seeks peace. The Nine energy gives the One the capacity to pause, to breathe, to release perfection. Sting's music has exactly this quality: precise and spacious at the same time, demanding and meditative. The eagle circles &ndash; but he also enjoys the heights.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 is of rare beauty: an artist who has never stopped developing; a person who lives his convictions &ndash; the Rainforest Foundation, which he founded in 1989 together with his wife Trudie Styler, is still active today; an integrity that stands out in the music business like an eagle among hamsters.</p>
-          <p class="vb-intro">The shadow is twofold. The SE1 tends toward self-righteousness &ndash; toward the unconscious sense of doing the right thing oneself while others do not. The fate pattern of the One is <strong>anger</strong>, which in the SE1 turns inward: chronic dissatisfaction with one's own work, the feeling of never having quite arrived. The Nine-wing adds its own shadow: withdrawal, distance, a shielding that others experience as coldness.</p>
-          <p class="vb-intro">Sting has spoken openly in interviews about years of creative stagnation &ndash; phases in which nothing worthy occurred to him. That is the SE1w9 in its night: the inner judge falls silent. The outer peace remains. But nothing comes into being.</p>
+          <p class="vb-intro">The light of the SP1w9 is of rare beauty: an artist who has never stopped developing; a person who lives his convictions &ndash; the Rainforest Foundation, which he founded in 1989 together with his wife Trudie Styler, is still active today; an integrity that stands out in the music business like an eagle among hamsters.</p>
+          <p class="vb-intro">The shadow is twofold. The SP1 tends toward self-righteousness &ndash; toward the unconscious sense of doing the right thing oneself while others do not. The fate pattern of the One is <strong>anger</strong>, which in the SP1 turns inward: chronic dissatisfaction with one's own work, the feeling of never having quite arrived. The Nine-wing adds its own shadow: withdrawal, distance, a shielding that others experience as coldness.</p>
+          <p class="vb-intro">Sting has spoken openly in interviews about years of creative stagnation &ndash; phases in which nothing worthy occurred to him. That is the SP1w9 in its night: the inner judge falls silent. The outer peace remains. But nothing comes into being.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Path of Healing: From the Judge to Beauty</h2>
@@ -11617,8 +11617,8 @@ function stingPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Worried One: Subtype Profile"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
     </div>
   `);
@@ -11634,7 +11634,7 @@ function christophWaltzPortraitPage() {
           <img src="./assets/portraits/beruehmte-christoph-waltz-portrait.jpg" alt="Christoph Waltz" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Christoph Waltz</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
         <p class="krim-portrait-subtitle">Actor, born 1956 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -11647,21 +11647,21 @@ function christophWaltzPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Perfection as Inner Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> is, in the Enneagram tradition, the most withdrawn of the three One subtypes. While the social One wishes to correct the world and the sexual One expresses its convictions in direct contact, the SE1 turns its striving for perfection inward: onto its own craft, its own preparation, its own integrity. Naranjo calls this subtype <em>Worry</em> &ndash; concern. The SE1 worries about whether it is doing the right thing, whether it is good enough, whether it truly measures up to the task.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> is, in the Enneagram tradition, the most withdrawn of the three One subtypes. While the social One wishes to correct the world and the sexual One expresses its convictions in direct contact, the SP1 turns its striving for perfection inward: onto its own craft, its own preparation, its own integrity. Naranjo calls this subtype <em>Worry</em> &ndash; concern. The SP1 worries about whether it is doing the right thing, whether it is good enough, whether it truly measures up to the task.</p>
           <p class="vb-intro">In Christoph Waltz, this manifests in his legendary work discipline. He reads scripts many times, searching for the precise intention behind every word. He speaks his roles in German, English, French, and Italian &ndash; and finds the individual nuance in each language. This is not ambition. This is duty. This is the inner voice of the One: <em>It must be right.</em></p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Warmth Behind the Precision</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the SE1 energy: the capacity for warmth, generosity, giving. The pure One can appear cool, rigid, and unrelenting. The Two-wing opens this energy outward &ndash; it transforms the inner controller into a person who gives, who carries, who cares.</p>
-          <p class="vb-intro">This explains why Christoph Waltz never seems cold, even in his darkest roles. Hans Landa in <em>Inglourious Basterds</em> is a monster &ndash; and yet one cannot look away from him. Dr. King Schultz in <em>Django Unchained</em> is a bounty hunter &ndash; and yet he warms every room he enters. The SE1w2 carries its severity within and its warmth without. That is precisely what makes his roles so magnetic.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the SP1 energy: the capacity for warmth, generosity, giving. The pure One can appear cool, rigid, and unrelenting. The Two-wing opens this energy outward &ndash; it transforms the inner controller into a person who gives, who carries, who cares.</p>
+          <p class="vb-intro">This explains why Christoph Waltz never seems cold, even in his darkest roles. Hans Landa in <em>Inglourious Basterds</em> is a monster &ndash; and yet one cannot look away from him. Dr. King Schultz in <em>Django Unchained</em> is a bounty hunter &ndash; and yet he warms every room he enters. The SP1w2 carries its severity within and its warmth without. That is precisely what makes his roles so magnetic.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1 is obvious: extraordinary craftsmanship, inner integrity, a precision that leaves others in awe. Whoever films with Christoph Waltz knows: he is prepared. He is focused. He wastes no energy.</p>
-          <p class="vb-intro">The shadow is subtler: the SE1 tends toward inner exhaustion through constant self-criticism. The fate pattern of the One is <strong>anger</strong> &ndash; and in the SE1 this anger turns against itself first. Never good enough. Never finished. Never truly certain whether it was right. Waltz has suggested in interviews that he can barely truly enjoy his work &ndash; he always sees first what could have been better.</p>
-          <p class="vb-intro">That he nevertheless won two Oscars and appeared remarkably composed in doing so is no sign of indifference. It is the sign of an SE1 who has learned to know his inner judge &ndash; and to no longer let it decide everything.</p>
+          <p class="vb-intro">The light of the SP1 is obvious: extraordinary craftsmanship, inner integrity, a precision that leaves others in awe. Whoever films with Christoph Waltz knows: he is prepared. He is focused. He wastes no energy.</p>
+          <p class="vb-intro">The shadow is subtler: the SP1 tends toward inner exhaustion through constant self-criticism. The fate pattern of the One is <strong>anger</strong> &ndash; and in the SP1 this anger turns against itself first. Never good enough. Never finished. Never truly certain whether it was right. Waltz has suggested in interviews that he can barely truly enjoy his work &ndash; he always sees first what could have been better.</p>
+          <p class="vb-intro">That he nevertheless won two Oscars and appeared remarkably composed in doing so is no sign of indifference. It is the sign of an SP1 who has learned to know his inner judge &ndash; and to no longer let it decide everything.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Path of Healing: From the Inner Judge to Inner Dignity</h2>
@@ -11676,7 +11676,7 @@ function christophWaltzPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Worried One: Subtype Profile"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – Portraits"},
       ])}
     </div>
@@ -11928,7 +11928,7 @@ function romySchneiderPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
-        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
       ])}
     </div>
   `);
@@ -11945,7 +11945,7 @@ function clemensArvayPortraitPage() {
           <img src="./assets/portraits/beruehmte-clemens-arvay-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clemens G. Arvay</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
         <p class="krim-portrait-subtitle">Author &amp; Biologist, 1980&ndash;2022 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
@@ -11958,28 +11958,28 @@ function clemensArvayPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Pain as Quiet Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> is the counter-type of the Four: it does not show its inner pain outward, it does not dramatize it. Naranjo calls this subtype <em>Recklessness</em> &ndash; a drive to be uncompromisingly honest with oneself, even at a cost. The SE4 wrestles with what it carries within, and wrestles quietly. Outwardly it shows strength, sometimes even cheerfulness &ndash; while something struggles within.</p>
-          <p class="vb-intro">In Clemens Arvay, this manifests in the way he wrote: not from the distance of the cool observer, but from deep personal involvement. Nature was for him not a subject of study &ndash; it was a home. The SE4 finds in what is beautiful and living a mirror for what lives within itself: the longing for stillness, for connection, for a place that holds. The forest was Arvay's inner space &ndash; and he opened it for others.</p>
-          <p class="vb-intro">The self-preservation instinct orients the Four toward its own survival &ndash; toward the question: <em>Do I have enough? Am I safe? Is there a place for me?</em> For Arvay, this question increasingly became an inner crisis that was not visible outwardly. That is the quiet suffering of the SE4: it gives others support while itself still searching for ground.</p>
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is the counter-type of the Four: it does not show its inner pain outward, it does not dramatize it. Naranjo calls this subtype <em>Recklessness</em> &ndash; a drive to be uncompromisingly honest with oneself, even at a cost. The SP4 wrestles with what it carries within, and wrestles quietly. Outwardly it shows strength, sometimes even cheerfulness &ndash; while something struggles within.</p>
+          <p class="vb-intro">In Clemens Arvay, this manifests in the way he wrote: not from the distance of the cool observer, but from deep personal involvement. Nature was for him not a subject of study &ndash; it was a home. The SP4 finds in what is beautiful and living a mirror for what lives within itself: the longing for stillness, for connection, for a place that holds. The forest was Arvay's inner space &ndash; and he opened it for others.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Four toward its own survival &ndash; toward the question: <em>Do I have enough? Am I safe? Is there a place for me?</em> For Arvay, this question increasingly became an inner crisis that was not visible outwardly. That is the quiet suffering of the SP4: it gives others support while itself still searching for ground.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five-Wing: Knowledge as Protection and Calling</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the self-preservation Four a characteristic imprint: the need for knowledge, for understanding, for the intellectual penetration of the world. The pure SE4 could lose itself in the inner world of feelings &ndash; deeply sensitive, but without firm ground. The Five-wing gives it structure: it seeks truth not only in feeling, but also in insight.</p>
-          <p class="vb-intro">In Clemens Arvay, the Five-wing is unmistakable in his scientific precision. He did not simply enthuse about the forest &ndash; he assembled the research showing why contact with nature heals: terpenes, the immune system, stress hormones, heart rate. The SE4w5 connects feeling with knowledge and discovers: <em>What I sense inwardly can be proven.</em> This gives one's own longing a voice that others can trust.</p>
-          <p class="vb-intro">The Five-wing also explains Arvay's willingness to engage in controversy. In his later work he engaged critically with the pharmaceutical industry, agricultural policy, and pandemic policy &ndash; sometimes at the edge of scientific consensus. The SE4w5 is not a comfortable voice. It seeks truth, even when it makes things uncomfortable &ndash; and even when it stands alone in doing so.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the self-preservation Four a characteristic imprint: the need for knowledge, for understanding, for the intellectual penetration of the world. The pure SP4 could lose itself in the inner world of feelings &ndash; deeply sensitive, but without firm ground. The Five-wing gives it structure: it seeks truth not only in feeling, but also in insight.</p>
+          <p class="vb-intro">In Clemens Arvay, the Five-wing is unmistakable in his scientific precision. He did not simply enthuse about the forest &ndash; he assembled the research showing why contact with nature heals: terpenes, the immune system, stress hormones, heart rate. The SP4w5 connects feeling with knowledge and discovers: <em>What I sense inwardly can be proven.</em> This gives one's own longing a voice that others can trust.</p>
+          <p class="vb-intro">The Five-wing also explains Arvay's willingness to engage in controversy. In his later work he engaged critically with the pharmaceutical industry, agricultural policy, and pandemic policy &ndash; sometimes at the edge of scientific consensus. The SP4w5 is not a comfortable voice. It seeks truth, even when it makes things uncomfortable &ndash; and even when it stands alone in doing so.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w5 is its union of depth and precision. Clemens Arvay reached people who are moved neither by pure science nor by pure spirituality &ndash; people who seek both: the proof and the feeling. He showed that longing for nature is not romanticism but biological necessity. That is the SE4w5 on its healing path: experience and insight become a bridge for others.</p>
-          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something that one oneself lacks: ease, belonging, a place in the world that feels self-evident. In the SE4 this feeling is particularly quiet and deep. It does not manifest as bitterness, but as a chronic minor key within &ndash; the conviction of being somehow different from others, of never quite arriving.</p>
-          <p class="vb-intro">The Five-wing can intensify this pain by promoting retreat into knowledge: when the world becomes too loud, the SE4w5 withdraws into books, into research, into its own world of thought. This protects &ndash; and isolates. Arvay's inner withdrawal in the last years of his life, which ended in his tragedy, speaks to this dynamic.</p>
+          <p class="vb-intro">The light of the SP4w5 is its union of depth and precision. Clemens Arvay reached people who are moved neither by pure science nor by pure spirituality &ndash; people who seek both: the proof and the feeling. He showed that longing for nature is not romanticism but biological necessity. That is the SP4w5 on its healing path: experience and insight become a bridge for others.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something that one oneself lacks: ease, belonging, a place in the world that feels self-evident. In the SP4 this feeling is particularly quiet and deep. It does not manifest as bitterness, but as a chronic minor key within &ndash; the conviction of being somehow different from others, of never quite arriving.</p>
+          <p class="vb-intro">The Five-wing can intensify this pain by promoting retreat into knowledge: when the world becomes too loud, the SP4w5 withdraws into books, into research, into its own world of thought. This protects &ndash; and isolates. Arvay's inner withdrawal in the last years of his life, which ended in his tragedy, speaks to this dynamic.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Path of Healing: From Knowledge to Trust</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others were given?</em> to the realization <em>What I am is complete &ndash; and it is unique.</em> For the SE4w5, this means not using knowledge as a substitute for connection, but as an invitation to it. The ability to see the world more deeply than most &ndash; that is not a deficit. That is a gift.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others were given?</em> to the realization <em>What I am is complete &ndash; and it is unique.</em> For the SP4w5, this means not using knowledge as a substitute for connection, but as an invitation to it. The ability to see the world more deeply than most &ndash; that is not a deficit. That is a gift.</p>
           <p class="vb-intro">Clemens Arvay carried this path far in his work &ndash; and took others with him. His contribution to the healing power of nature, to the question of a more humane world, remains alive. The dove that has flown has left messages behind. And sometimes that is the greatest thing a person can do: leave behind what carries others, even when one can no longer carry on oneself.</p>
         </blockquote>
 
@@ -11989,8 +11989,8 @@ function clemensArvayPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
       ])}
     </div>
   `);
@@ -12129,7 +12129,7 @@ function christianRaetschPortraitPage() {
           <img src="./assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Christian Rätsch</p>
-        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Ethnologist &amp; Ethnopharmacologist, 1957&ndash;2022 &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -12142,29 +12142,29 @@ function christianRaetschPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Five: The Castle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> is, according to Naranjo, the <strong>reinforcement type</strong> of the Five: here the passion of the Five &ndash; <em>avarice</em>, the hoarding of energy, time and space &ndash; is lived most intensely and most openly. Naranjo called this subtype <em>Castle</em>: one's own home, one's own territory becomes a fortress, a protective stronghold behind whose walls the outside world remains. The SE5 is one of the most isolated types in the entire Enneagram &ndash; not from coldness, but because retreat into silence and knowledge is the only place where the self feels safe.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Five (SP5)</strong> is, according to Naranjo, the <strong>reinforcement type</strong> of the Five: here the passion of the Five &ndash; <em>avarice</em>, the hoarding of energy, time and space &ndash; is lived most intensely and most openly. Naranjo called this subtype <em>Castle</em>: one's own home, one's own territory becomes a fortress, a protective stronghold behind whose walls the outside world remains. The SP5 is one of the most isolated types in the entire Enneagram &ndash; not from coldness, but because retreat into silence and knowledge is the only place where the self feels safe.</p>
           <p class="vb-intro">In Christian Rätsch this showed in the way he researched: not from university chairs, not as part of institutional structures, but as an independent scholar who went his own way. He spent decades within shamanic traditions &ndash; among the Maya in Mexico, among peoples in South America and Asia &ndash; not as a detached observer but as someone who wanted to understand what was really happening. Yet he always remained the researcher behind the subject: observing, noting, systematising &ndash; and within his castle.</p>
           <p class="vb-intro">The self-preservation instinct directs the Five toward the question: <em>Do I have enough? Am I safe? Do I have sufficient resources &ndash; in knowledge, in space, in time &ndash; to survive?</em> For Rätsch this question became the structure of his life: knowledge of plants was his castle &ndash; a safe territory in a world that often met this knowledge with suspicion or hostility.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-Wing: Depth over Breadth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Five a characteristic coloring: the need for uniqueness, for the distinctive, for what others do not see or do not want to see. The pure SE5 might be absorbed in the breadth of knowledge &ndash; collecting, systematising, archiving. The Four-wing asks the deeper question: <em>What is special? What carries its own soul? What is more than mere information?</em></p>
-          <p class="vb-intro">In Christian Rätsch the Four-wing showed in his particular affinity for the spiritual and ritual dimension of plants. He researched not only active substances &ndash; he researched meaning. The question of what a plant means to a culture, how it is used in rituals, what worldviews lie behind its use. That is the SE5w4: knowledge that seeks depth, not only breadth. Insight that wants to touch, not only explain.</p>
-          <p class="vb-intro">The Four-wing also explains Rätsch's close collaboration with artists and musicians &ndash; particularly with the psychedelic scene, with bands such as Brainticket or the circle around Timothy Leary. The SE5w4 knows: some truths cannot be contained in encyclopedias alone. They require art, ritual, experience.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Five a characteristic coloring: the need for uniqueness, for the distinctive, for what others do not see or do not want to see. The pure SP5 might be absorbed in the breadth of knowledge &ndash; collecting, systematising, archiving. The Four-wing asks the deeper question: <em>What is special? What carries its own soul? What is more than mere information?</em></p>
+          <p class="vb-intro">In Christian Rätsch the Four-wing showed in his particular affinity for the spiritual and ritual dimension of plants. He researched not only active substances &ndash; he researched meaning. The question of what a plant means to a culture, how it is used in rituals, what worldviews lie behind its use. That is the SP5w4: knowledge that seeks depth, not only breadth. Insight that wants to touch, not only explain.</p>
+          <p class="vb-intro">The Four-wing also explains Rätsch's close collaboration with artists and musicians &ndash; particularly with the psychedelic scene, with bands such as Brainticket or the circle around Timothy Leary. The SP5w4 knows: some truths cannot be contained in encyclopedias alone. They require art, ritual, experience.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Five</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE5w4 is its capacity for complete dedication to a subject &ndash; without distraction, without compromise, without the desire for social validation. Christian Rätsch built a body of work without equal: over 30 books, including standard works translated into numerous languages. That is not a career. That is a calling. The Owl that looks into the darkness its whole life long &ndash; and finds light there.</p>
-          <p class="vb-intro">The core passion of the Five is <strong>avarice</strong> &ndash; not in the material sense, but as the hoarding of energy, time and knowledge: <em>I do not have enough to give. If I give, I lose.</em> In the SE5 this manifests as a tendency toward withdrawal &ndash; behind the books, behind the research, behind the clear boundaries of one's own territory. Contact costs energy. And energy is precious.</p>
-          <p class="vb-intro">The Four-wing carries the danger of isolation through uniqueness: when a subject becomes so specific that almost no one can follow along, the SE5w4 can disappear into its own world &ndash; rich in knowledge, poor in connection. That is not a flaw. But it is a price.</p>
+          <p class="vb-intro">The light of the SP5w4 is its capacity for complete dedication to a subject &ndash; without distraction, without compromise, without the desire for social validation. Christian Rätsch built a body of work without equal: over 30 books, including standard works translated into numerous languages. That is not a career. That is a calling. The Owl that looks into the darkness its whole life long &ndash; and finds light there.</p>
+          <p class="vb-intro">The core passion of the Five is <strong>avarice</strong> &ndash; not in the material sense, but as the hoarding of energy, time and knowledge: <em>I do not have enough to give. If I give, I lose.</em> In the SP5 this manifests as a tendency toward withdrawal &ndash; behind the books, behind the research, behind the clear boundaries of one's own territory. Contact costs energy. And energy is precious.</p>
+          <p class="vb-intro">The Four-wing carries the danger of isolation through uniqueness: when a subject becomes so specific that almost no one can follow along, the SP5w4 can disappear into its own world &ndash; rich in knowledge, poor in connection. That is not a flaw. But it is a price.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Path of Healing: From Hoarding to Sharing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to give?</em> to the recognition <em>Knowledge grows larger when I share it &ndash; not smaller.</em> For the SE5w4 this means using one's own territory not as a fortress but as a starting point: <em>What I know can help others. What I have gathered can live on.</em></p>
-          <p class="vb-intro">Christian Rätsch took this step in his work &ndash; by making accessible, over decades, knowledge that would otherwise have been lost. The Owl that sees in the darkness and puts what it sees into words &ndash; so that others can see it, even when it has grown light. That is the gift of the SE5w4: knowledge that is not guarded for itself, but for those who seek it.</p>
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to give?</em> to the recognition <em>Knowledge grows larger when I share it &ndash; not smaller.</em> For the SP5w4 this means using one's own territory not as a fortress but as a starting point: <em>What I know can help others. What I have gathered can live on.</em></p>
+          <p class="vb-intro">Christian Rätsch took this step in his work &ndash; by making accessible, over decades, knowledge that would otherwise have been lost. The Owl that sees in the darkness and puts what it sees into words &ndash; so that others can see it, even when it has grown light. That is the gift of the SP5w4: knowledge that is not guarded for itself, but for those who seek it.</p>
         </blockquote>
 
       </div>
@@ -12173,8 +12173,8 @@ function christianRaetschPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SE4w5)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
       ])}
     </div>
   `);
@@ -12266,7 +12266,7 @@ function kollegahPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Six &ndash; the subtype in which the passion of cowardice is least visible because it is turned into its opposite. The SX6 meets its fear not with retreat but with attack. <em>I am dangerous &ndash; therefore I am safe.</em> Naranjo called this subtype <em>Strength</em>: the SX6 seeks power, dominance and intensity because it knows what it means to be weak &ndash; and because it has sworn never to be there again.</p>
           <p class="vb-intro">Kollegah's entire artistic project is a staging of this counter-fear. The Boss narrative, the muscles, the status symbols, the language of dominance &ndash; all of it serves to generate an aura of invulnerability. Anyone who knows the SX6 recognises the pattern immediately: the more someone demonstrates their strength, the more they reveal about what they are trying to conceal. The Wolf that bares its fangs knows exactly why.</p>
-          <p class="vb-intro">The SX6's pack is small and loyal. Kollegah worked closely with Farid Bang for years &ndash; enneagrammatically a completely different profile: Farid Bang is a Self-Preservation Type 7 with Eight-wing (SE7w8), not a counter-type but a Seven who combines his hunger for experience and intensity with the directness of the Eight. Two entirely different character structures that complemented each other in their output: the Wolf who attacks out of fear, and the Seven who provokes out of desire. The project <em>Jung, brutal, gutaussehend</em> (2013) is the document of this alliance: an album that elevated provocation to an artistic principle.</p>
+          <p class="vb-intro">The SX6's pack is small and loyal. Kollegah worked closely with Farid Bang for years &ndash; enneagrammatically a completely different profile: Farid Bang is a Self-Preservation Type 7 with Eight-wing (SP7w8), not a counter-type but a Seven who combines his hunger for experience and intensity with the directness of the Eight. Two entirely different character structures that complemented each other in their output: the Wolf who attacks out of fear, and the Seven who provokes out of desire. The project <em>Jung, brutal, gutaussehend</em> (2013) is the document of this alliance: an album that elevated provocation to an artistic principle.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five-Wing: The Craftsman</h2>
@@ -12430,7 +12430,7 @@ function jasminPaoliniPortraitPage() {
           <img src="./assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jasmine Paolini</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
         <p class="krim-portrait-subtitle">Tennis player, born 1996 &ndash; Animal correspondence: Gorilla</p>
       </div>
       <div class="page-content">
@@ -12443,7 +12443,7 @@ function jasminPaoliniPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Joy as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Seven (SE7)</strong> is, in the Enneagram tradition, the subtype that expresses the Seven's excessiveness through warmth and community. Naranjo called it <em>Family</em>: the SE7 creates its own nest &ndash; a circle of people, rituals and joys that gives it security. Not through control like the Eight, not through rules like the One &ndash; but through connection and a sense of belonging.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Seven (SP7)</strong> is, in the Enneagram tradition, the subtype that expresses the Seven's excessiveness through warmth and community. Naranjo called it <em>Family</em>: the SP7 creates its own nest &ndash; a circle of people, rituals and joys that gives it security. Not through control like the Eight, not through rules like the One &ndash; but through connection and a sense of belonging.</p>
           <p class="vb-intro">In Jasmine Paolini one can see this at every tournament: her team, her laughter with her coach, her outbursts of genuine joy after won points. She never appears like someone who plays tennis to harvest fame. She appears like someone who loves tennis &ndash; and shares that love with everyone watching.</p>
         </blockquote>
 
@@ -12456,13 +12456,13 @@ function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">4. The Passion: Excess as Inner Engine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> &ndash; or excess: the insatiable hunger for experience, joy, life. In the Self-Preservation Seven it does not show as excess but as abundance: more warmth, more connection, more of those moments when everything is right.</p>
-          <p class="vb-intro">In Paolini one can see this in the game itself. She concedes no points. She tries to reach every ball. She smiles after lost sets and fights her way back. In 2024 she reached the finals of Roland Garros and Wimbledon &ndash; and lost both. Four weeks later she won the WTA Finals. That is the excess of the SE7: not destructive, but inexhaustible. The hunger for the next moment, the next chance, the next serve.</p>
+          <p class="vb-intro">In Paolini one can see this in the game itself. She concedes no points. She tries to reach every ball. She smiles after lost sets and fights her way back. In 2024 she reached the finals of Roland Garros and Wimbledon &ndash; and lost both. Four weeks later she won the WTA Finals. That is the excess of the SP7: not destructive, but inexhaustible. The hunger for the next moment, the next chance, the next serve.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Gift: Joy That Does Not Give Up</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Jasmine Paolini gives to tennis &ndash; and to the audience &ndash; is something that cannot be trained: genuine joy. Not the smile of a brand, not the calculated accessibility of a communications team. But the joy of a woman who is at home on the court, who loves her profession and does not hide it.</p>
-          <p class="vb-intro">That is the gift of the SE7w6: joy that holds firm. Not the fleeting enthusiasm that vanishes at the first setback, but a joy anchored deeply enough to survive even defeat. Watching Jasmine Paolini at tennis, one sees a Gorilla in its element: strong, warm, unshakeable. That is the SE7w6. That is joy as home.</p>
+          <p class="vb-intro">That is the gift of the SP7w6: joy that holds firm. Not the fleeting enthusiasm that vanishes at the first setback, but a joy anchored deeply enough to survive even defeat. Watching Jasmine Paolini at tennis, one sees a Gorilla in its element: strong, warm, unshakeable. That is the SP7w6. That is joy as home.</p>
         </blockquote>
 
       </div>
@@ -12471,8 +12471,8 @@ function jasminPaoliniPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
-        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
       ])}
     </div>
   `);
@@ -12488,7 +12488,7 @@ function hansZimmerPortraitPage() {
           <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans Zimmer</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Film composer, arranger &amp; music producer, born 1957 &ndash; Animal correspondence: Gorilla</p>
       </div>
       <div class="page-content">
@@ -12501,7 +12501,7 @@ function hansZimmerPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Joy as Creation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Seven (SE7)</strong> finds its joy not in spectacle but in the warmth of creating itself &ndash; in the process, in collaboration, in the act of making. Naranjo called this subtype <em>Family</em>: the SE7 creates its own nest, a space where creativity and a sense of safety come together.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Seven (SP7)</strong> finds its joy not in spectacle but in the warmth of creating itself &ndash; in the process, in collaboration, in the act of making. Naranjo called this subtype <em>Family</em>: the SP7 creates its own nest, a space where creativity and a sense of safety come together.</p>
           <p class="vb-intro">Zimmer left school at sixteen. He never had a formal musical education &ndash; and never let that stop him. Instead of studying notation, he experimented: with synthesisers, with orchestral sounds, with anything that produces sound. His joy in discovery remains palpable today. No score sounds like the previous one. Every film is a new adventure.</p>
         </blockquote>
 
@@ -12520,7 +12520,7 @@ function hansZimmerPortraitPage() {
         <h2 class="vb-section">5. The Gift: Emotions That Touch the World</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Hans Zimmer has given to cinema &ndash; and through cinema to the world &ndash; is the experience that music can be a space. Not background wallpaper, not an emotional marker, but an independent experience: one sits in the cinema, hears the score, and suddenly understands something about the scene, about the character, about oneself.</p>
-          <p class="vb-intro">That is the gift of the SE7w8: joy that does not keep to itself. A Gorilla that not only protects its troop but lets it grow &ndash; and whose voice, once heard, cannot be got out of one's head. Hans Zimmer did not study notation. He learned how sound touches people. That is the Self-Preservation Seven with Eight-wing. That is the Gorilla who sings.</p>
+          <p class="vb-intro">That is the gift of the SP7w8: joy that does not keep to itself. A Gorilla that not only protects its troop but lets it grow &ndash; and whose voice, once heard, cannot be got out of one's head. Hans Zimmer did not study notation. He learned how sound touches people. That is the Self-Preservation Seven with Eight-wing. That is the Gorilla who sings.</p>
         </blockquote>
 
       </div>
@@ -12529,8 +12529,8 @@ function hansZimmerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
-        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmine Paolini (SE7w6)"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmine Paolini (SP7w6)"},
       ])}
     </div>
   `);
@@ -12675,7 +12675,7 @@ function thomasGottschalkPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Seven: Enthusiasm as a Spark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> is the subtype of the Seven in which energy does not turn inward (SE7) or into society (SO7) but directly into contact: into the other person, into the moment, into the connection. Naranjo called this subtype <em>Suggestibility</em> &ndash; the capacity for enthusiasm that is transmitted. The SX7 infects others. Not with a message, but with its sheer energy.</p>
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> is the subtype of the Seven in which energy does not turn inward (SP7) or into society (SO7) but directly into contact: into the other person, into the moment, into the connection. Naranjo called this subtype <em>Suggestibility</em> &ndash; the capacity for enthusiasm that is transmitted. The SX7 infects others. Not with a message, but with its sheer energy.</p>
           <p class="vb-intro">Thomas Gottschalk was never a brand. He was an energy. Viewers did not tune in to <em>Wetten, dass..?</em> for the bets. They tuned in because they wanted to know what would happen when Gottschalk was on stage &ndash; what he would say, what would excite him, what he would surprise them with this time. That is the SX7: it is not the format that draws people in, but the person. Not the concept, but the spark.</p>
         </blockquote>
 
@@ -12762,7 +12762,7 @@ function elonMuskPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
       ])}
     </div>
   `);
@@ -12778,7 +12778,7 @@ function umbertEcoPortraitPage() {
           <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Umberto Eco</p>
-        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
+        <p class="krim-portrait-typ">SP8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Writer, semiotician &amp; philosopher, 1932&ndash;2016 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -12791,8 +12791,8 @@ function umbertEcoPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Lust as Life Philosophy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the passion of the Eight &ndash; <em>lust</em> &ndash; through collecting, enjoyment and sensory abundance. Naranjo called this subtype <em>Satisfacción</em>: satisfaction as a life principle. The SE8 wants what it needs &ndash; in abundance. Books, knowledge, good food, good wine, space, influence. Not from greed but from a deep sense that abundance means safety.</p>
-          <p class="vb-intro">Eco lived this principle with encyclopedic consistency. He wrote about aesthetics, semiotics, media science, the Middle Ages, comic strips, James Bond and the structure of labyrinths &ndash; all with the same intensity, the same pleasure in the material. The SE8 does not distinguish between important and unimportant. Everything that fascinates belongs to be collected, penetrated, possessed.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> expresses the passion of the Eight &ndash; <em>lust</em> &ndash; through collecting, enjoyment and sensory abundance. Naranjo called this subtype <em>Satisfacción</em>: satisfaction as a life principle. The SP8 wants what it needs &ndash; in abundance. Books, knowledge, good food, good wine, space, influence. Not from greed but from a deep sense that abundance means safety.</p>
+          <p class="vb-intro">Eco lived this principle with encyclopedic consistency. He wrote about aesthetics, semiotics, media science, the Middle Ages, comic strips, James Bond and the structure of labyrinths &ndash; all with the same intensity, the same pleasure in the material. The SP8 does not distinguish between important and unimportant. Everything that fascinates belongs to be collected, penetrated, possessed.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: Wit as a Weapon</h2>
@@ -12810,7 +12810,7 @@ function umbertEcoPortraitPage() {
         <h2 class="vb-section">5. The Gift: The Labyrinth as Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Umberto Eco gave the world is more than literature or scholarship. It is an attitude: that complexity is not a problem to be solved but a space in which one can live. The labyrinth is not frightening &ndash; it is interesting. Those who are at home in it do not get lost. They discover.</p>
-          <p class="vb-intro">That is the gift of the SE8w7: the pleasure in the impenetrable, combined with the generosity to take others along. Eco did not simplify. But he made it comprehensible why complexity is beautiful. The Orangutan sitting in the branches, surrounded by 30,000 books &ndash; and showing everyone who asks how to not get lost in them, but found.</p>
+          <p class="vb-intro">That is the gift of the SP8w7: the pleasure in the impenetrable, combined with the generosity to take others along. Eco did not simplify. But he made it comprehensible why complexity is beautiful. The Orangutan sitting in the branches, surrounded by 30,000 books &ndash; and showing everyone who asks how to not get lost in them, but found.</p>
         </blockquote>
 
       </div>
@@ -12819,9 +12819,9 @@ function umbertEcoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
-        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
       ])}
     </div>
   `);
@@ -12837,7 +12837,7 @@ function toniMorrisonPortraitPage() {
           <img src="./assets/portraits/beruehmte-toni-morrison-portrait.jpg" alt="Toni Morrison" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Toni Morrison</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Author &amp; Nobel Prize laureate in literature, 1931&ndash;2019 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -12850,26 +12850,26 @@ function toniMorrisonPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the energy of the Eight through abundance, possession and the securing of one's own territory. Naranjo called this subtype <em>Satisfacción</em>: it is about the satisfaction of material and vital needs &ndash; not from greed, but from the deep knowledge that one can only be strong for others when one is secure oneself.</p>
-          <p class="vb-intro">Morrison secured her foundation with unconditional consistency. As a single mother of two sons, she wrote at night when the children were sleeping &ndash; during the day she worked as an editor at Random House. She built an existence that no one could take from her: economically, literarily, intellectually. Her SE8 energy showed not in loudness but in persistence. She did not give up. She never gave up.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> expresses the energy of the Eight through abundance, possession and the securing of one's own territory. Naranjo called this subtype <em>Satisfacción</em>: it is about the satisfaction of material and vital needs &ndash; not from greed, but from the deep knowledge that one can only be strong for others when one is secure oneself.</p>
+          <p class="vb-intro">Morrison secured her foundation with unconditional consistency. As a single mother of two sons, she wrote at night when the children were sleeping &ndash; during the day she worked as an editor at Random House. She built an existence that no one could take from her: economically, literarily, intellectually. Her SP8 energy showed not in loudness but in persistence. She did not give up. She never gave up.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: The Dignity of Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> lends the Self-Preservation Eight something precious: patience and spaciousness. The SE8w7 is impulsive, risk-taking, direct &ndash; it wants things immediately. The SE8w9 can wait. It sees the larger picture. It lets things ripen.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> lends the Self-Preservation Eight something precious: patience and spaciousness. The SP8w7 is impulsive, risk-taking, direct &ndash; it wants things immediately. The SP8w9 can wait. It sees the larger picture. It lets things ripen.</p>
           <p class="vb-intro">Toni Morrison's voice had this quality: calm, deep, unhurried. In interviews she spoke slowly and precisely &ndash; every word chosen, no energy wasted. The Nine-wing also gave her the ability to hold many perspectives simultaneously &ndash; those of the perpetrators, the victims, the silent, the dead. Her novel <em>Beloved</em> tells of a mother who kills her child to save it from slavery. Morrison does not judge. She understands. That is the Nine-wing.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Lust as Witnessing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The passion of the Eight is called <strong>lust</strong> &ndash; as a hunger for the full life, for intensity, for the unvarnished truth. The Self-Preservation Eight directs this hunger toward the concrete: it wants to possess, secure, penetrate what is essential.</p>
-          <p class="vb-intro">Morrison's lust was the refusal to look away. She wrote about rape, murder, trauma, the slow destruction of a person through oppression &ndash; with a sensory precision that some readers found unbearable. That was not sadism. That was the passion of the SE8: better the full truth than a comfortable lie. Better to name the uncomfortable than to become complicit in silence.</p>
+          <p class="vb-intro">Morrison's lust was the refusal to look away. She wrote about rape, murder, trauma, the slow destruction of a person through oppression &ndash; with a sensory precision that some readers found unbearable. That was not sadism. That was the passion of the SP8: better the full truth than a comfortable lie. Better to name the uncomfortable than to become complicit in silence.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Gift: The Memory of a People</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Toni Morrison has left the world is more than literature. It is a collective memory. She gave an entire history a language &ndash; the history of African Americans, systematically silenced over centuries. And she did so not as an accuser but as someone who loves: with the conviction that people who know their history are freer than people who have forgotten it.</p>
-          <p class="vb-intro">That is the gift of the SE8w9: the combination of strength and patience, of depth and endurance. The Orangutan sitting quietly in the tree, observing everything and retaining everything &ndash; and who, when it speaks, chooses words that remain.</p>
+          <p class="vb-intro">That is the gift of the SP8w9: the combination of strength and patience, of depth and endurance. The Orangutan sitting quietly in the tree, observing everything and retaining everything &ndash; and who, when it speaks, chooses words that remain.</p>
         </blockquote>
 
       </div>
@@ -12878,8 +12878,8 @@ function toniMorrisonPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SP8w7)"},
       ])}
     </div>
   `);
@@ -12938,7 +12938,7 @@ function michelleObamaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
-        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
       ])}
     </div>
   `);
@@ -12974,7 +12974,7 @@ function budSpencerPortraitPage() {
         <h2 class="vb-section">3. The Nine-wing: The Calm of the Giant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing</strong> gives the Social Eight a special quality: patience, composure, and an almost magical ability to keep large people calm. The SO8w7 is livelier, more impulsive, louder. The <strong>SO8w9</strong> is calmer &ndash; a sleeping volcano that only erupts when it truly must.</p>
-          <p class="vb-intro">Bud Spencer's film characters reflect this perfectly: he is always the calmer one, who only reacts when provoked &ndash; and then with a force that no one expected. His humour was dry, almost laconic. He spoke little and did much. The Nine-wing also gave him the ability to hold his own beside Terence Hill &ndash; a self-preservation One with a Two-wing, healthily developed and with the natural lightness that arises when a One lives in their relaxation point of the Seven. This cheerful, warm-hearted energy of the SE1w2 complemented the calm weight of the SO8w9 to form one of the most beloved duos in film history.</p>
+          <p class="vb-intro">Bud Spencer's film characters reflect this perfectly: he is always the calmer one, who only reacts when provoked &ndash; and then with a force that no one expected. His humour was dry, almost laconic. He spoke little and did much. The Nine-wing also gave him the ability to hold his own beside Terence Hill &ndash; a self-preservation One with a Two-wing, healthily developed and with the natural lightness that arises when a One lives in their relaxation point of the Seven. This cheerful, warm-hearted energy of the SP1w2 complemented the calm weight of the SO8w9 to form one of the most beloved duos in film history.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Lust as Protection</h2>
@@ -13129,7 +13129,7 @@ function hansDietrichGenscherPortraitPage() {
           <img src="./assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Foreign Minister &amp; Vice Chancellor 1974&ndash;1992, 1927&ndash;2016 &ndash; Animal correspondence: Elephant</p>
       </div>
       <div class="page-content">
@@ -13142,13 +13142,13 @@ function hansDietrichGenscherPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Nine (SE9)</strong> is what Naranjo called <em>Appetite</em>: peace through persistence, through settling into what is, through the ability to find security in the existing &ndash; without grand speeches, without a showdown. The SE9 works through continuity. Its instrument is endurance &ndash; not the coup.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Nine (SP9)</strong> is what Naranjo called <em>Appetite</em>: peace through persistence, through settling into what is, through the ability to find security in the existing &ndash; without grand speeches, without a showdown. The SP9 works through continuity. Its instrument is endurance &ndash; not the coup.</p>
           <p class="vb-intro">Genscher's political career is the textbook example of this continuity: Interior Minister in 1969, Foreign Minister and Vice Chancellor in 1974, resignation in 1992 &ndash; after 23 years in office. In between: accompanying the Eastern treaties, the Helsinki Final Act, the NATO Double-Track Decision, the disarmament negotiations, reunification. Not a career of great ruptures, but a career of patient accumulation &ndash; year by year, negotiation by negotiation, step by step.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-wing: The Force behind the Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine a special quality: assertiveness, strength of will, and a calm but unmistakable resolve that cannot be pushed aside. The <strong>SE9w8</strong> is not a passive Nine. She is patient &ndash; but she is not weak. When the moment comes, she acts. And then she acts decisively.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine a special quality: assertiveness, strength of will, and a calm but unmistakable resolve that cannot be pushed aside. The <strong>SP9w8</strong> is not a passive Nine. She is patient &ndash; but she is not weak. When the moment comes, she acts. And then she acts decisively.</p>
           <p class="vb-intro">Genscher showed this wing in Prague. On 30 September 1989 he stepped onto the balcony of the German embassy in Prague and told the stranded East German citizens that their exit had been approved. He could not finish the sentence &ndash; the cheering drowned him out. It was a moment that made history &ndash; and it was possible because Genscher had negotiated behind the scenes for months, calmly, persistently, with the patience of the Nine and the resolve of the Eight.</p>
         </blockquote>
 
@@ -13161,7 +13161,7 @@ function hansDietrichGenscherPortraitPage() {
         <h2 class="vb-section">5. The Gift: The Bridge-Builder</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Hans-Dietrich Genscher gave German politics is the recognition that diplomacy is not weakness, but the highest form of strength. He proved that borders can be moved without war &ndash; if one is patient enough, wise enough, and willing to take every step more than once. German reunification did not come about through confrontation. It came through decades of trust-building &ndash; in which Genscher played a decisive part.</p>
-          <p class="vb-intro">The gift of the SE9w8 is this bridge-builder: someone who knows both sides, who stands between them, who is not the loudest voice &ndash; but the one people listen to when it matters. The elephant forgets nothing. And it never runs away.</p>
+          <p class="vb-intro">The gift of the SP9w8 is this bridge-builder: someone who knows both sides, who stands between them, who is not the loudest voice &ndash; but the one people listen to when it matters. The elephant forgets nothing. And it never runs away.</p>
         </blockquote>
 
       </div>
@@ -13170,8 +13170,8 @@ function hansDietrichGenscherPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
-        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
       ])}
     </div>
   `);
@@ -13230,8 +13230,8 @@ function steffiGrafPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
-        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
       ])}
     </div>
   `);
@@ -13413,7 +13413,7 @@ function willyBrandtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
       ])}
     </div>
@@ -13430,7 +13430,7 @@ function baerbelBasPortraitPage() {
           <img src="./assets/portraits/beruehmte-baerbel-bas-portrait.jpg" alt="Bärbel Bas" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bärbel Bas</p>
-        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Politician, President of the Bundestag since 2021, born 1968 &ndash; Animal correspondence: Elephant</p>
       </div>
       <div class="page-content">
@@ -13443,13 +13443,13 @@ function baerbelBasPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Nine (SE9)</strong> is what Naranjo called <em>Appetite</em>: the SE9 seeks peace and persistence through the body &ndash; through rhythm, routine, familiarity, through enjoying the small, safe things in life. She is not a climber and not a revolutionary. She is someone who knows her place, knows her task, and fulfils this task with quiet consistency.</p>
-          <p class="vb-intro">Bärbel Bas embodies this energy in German politics: growing up in Duisburg-Walsum as the daughter of a working-class family, trained as a health insurance specialist, active in health policy for years &ndash; without glamorous career leaps, without media staging. The SE9 works. She works steadily, reliably, and without fuss &ndash; and suddenly she is where no one expected her.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Nine (SP9)</strong> is what Naranjo called <em>Appetite</em>: the SP9 seeks peace and persistence through the body &ndash; through rhythm, routine, familiarity, through enjoying the small, safe things in life. She is not a climber and not a revolutionary. She is someone who knows her place, knows her task, and fulfils this task with quiet consistency.</p>
+          <p class="vb-intro">Bärbel Bas embodies this energy in German politics: growing up in Duisburg-Walsum as the daughter of a working-class family, trained as a health insurance specialist, active in health policy for years &ndash; without glamorous career leaps, without media staging. The SP9 works. She works steadily, reliably, and without fuss &ndash; and suddenly she is where no one expected her.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-wing: The Duty to Form</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing</strong> gives the Self-Preservation Nine a special quality: a sense of order, of what is right, of the form that first makes content possible. The <strong>SE9w1</strong> is not only patient &ndash; she is also true to principles. She tolerates no arbitrariness, no chaos born of convenience, no injustice that could simply be overlooked.</p>
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Self-Preservation Nine a special quality: a sense of order, of what is right, of the form that first makes content possible. The <strong>SP9w1</strong> is not only patient &ndash; she is also true to principles. She tolerates no arbitrariness, no chaos born of convenience, no injustice that could simply be overlooked.</p>
           <p class="vb-intro">As President of the Bundestag, Bärbel Bas has shown this wing clearly. She chairs the parliament with quiet firmness, intervenes when the limits of acceptable speech are crossed, and insists on the rules of the chamber &ndash; not out of pedantry, but because she knows that without form no genuine debate is possible. The One-wing gives her the courage to say: this far and no further.</p>
         </blockquote>
 
@@ -13462,7 +13462,7 @@ function baerbelBasPortraitPage() {
         <h2 class="vb-section">5. The Gift: The Silence That Binds</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Bärbel Bas has brought to the office of President of the Bundestag is something that has become rare: the ability to treat everyone equally. Not as an abstract principle, but as a lived attitude. She is not a party politician at the podium &ndash; she is the host of the chamber. She listens before she speaks. She weighs before she decides.</p>
-          <p class="vb-intro">The gift of the SE9w1 is this integrating force: the ability to hold together people who actually want to drift apart, and to give discourse a framework within which it can take place at all. The elephant remembers everything. It forgets no injustice &ndash; but it does not make a scene about it every day. It carries. Quietly, persistently, and without needing applause.</p>
+          <p class="vb-intro">The gift of the SP9w1 is this integrating force: the ability to hold together people who actually want to drift apart, and to give discourse a framework within which it can take place at all. The elephant remembers everything. It forgets no injustice &ndash; but it does not make a scene about it every day. It carries. Quietly, persistently, and without needing applause.</p>
         </blockquote>
 
       </div>
@@ -13471,8 +13471,8 @@ function baerbelBasPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
-        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Portrait: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Portrait: Alfons Schuhbeck (SP9w1)"},
       ])}
     </div>
   `);
@@ -13593,7 +13593,7 @@ function sigmundFreudPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
       ])}
     </div>
   `);
@@ -13609,7 +13609,7 @@ function beatriceChebetPortraitPage() {
           <img src="./assets/portraits/beruehmte-beatrice-chebet-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Beatrice Chebet</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with Seven-wing</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Long-distance runner, born 2000 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -13622,28 +13622,28 @@ function beatriceChebetPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Six: Home as Strength</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Six (SE6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security arises not through strength or through rules, but through genuine human belonging. The SE6 carries her community within herself &ndash; as a foundation, as orientation, as the reason to keep going when things get hard.</p>
-          <p class="vb-intro">Beatrice Chebet comes from Kenya &ndash; a country whose runners do not simply train, but embody a tradition. The Rift Valley, the high altitudes, the community of training groups: this is not a backdrop, it is home. Chebet does not run despite this rootedness &ndash; she runs from it. The SE6 warmth shows itself in the way Kenyan athletes carry one another: shared training sessions, mutual encouragement, the knowledge that one is not alone on the long course.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security arises not through strength or through rules, but through genuine human belonging. The SP6 carries her community within herself &ndash; as a foundation, as orientation, as the reason to keep going when things get hard.</p>
+          <p class="vb-intro">Beatrice Chebet comes from Kenya &ndash; a country whose runners do not simply train, but embody a tradition. The Rift Valley, the high altitudes, the community of training groups: this is not a backdrop, it is home. Chebet does not run despite this rootedness &ndash; she runs from it. The SP6 warmth shows itself in the way Kenyan athletes carry one another: shared training sessions, mutual encouragement, the knowledge that one is not alone on the long course.</p>
           <p class="vb-intro">The self-preservation instinct of the Six asks: <em>Am I safe? Do I have what I need to endure?</em> Chebet's answer is the course itself: in the movement, in the discipline, in the community of runners she finds the security that others perhaps seek in solid walls.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-wing: Joy as Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Self-Preservation Six a characteristic brightness: the drive forward, joy in movement, the feeling that life holds something good if one only runs fast enough. The SE6w7 knows the anxiety of the Six &ndash; but the Seven-wing transforms it into energy, into lightness, into the will to take the next corner before exhaustion can set in.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Self-Preservation Six a characteristic brightness: the drive forward, joy in movement, the feeling that life holds something good if one only runs fast enough. The SP6w7 knows the anxiety of the Six &ndash; but the Seven-wing transforms it into energy, into lightness, into the will to take the next corner before exhaustion can set in.</p>
           <p class="vb-intro">Those who watch Beatrice Chebet run see this energy. Her famous finishing phase &ndash; the acceleration in the final laps when others fade &ndash; is not a trick and not tactical calculation alone. It is the Seven-wing: <em>Now comes the part that belongs to me. Now I get faster, not slower.</em> The joy of running is palpable, even when the body is at its limit.</p>
           <p class="vb-intro">The Seven-wing also explains Chebet's ability to radiate under pressure rather than freeze. The Six knows the impulse to halt when danger approaches. The Seven-wing translates this impulse into movement: <em>If I am fast enough, the threat is behind me. So I run.</em></p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE6w7 is her ability to connect community and joy &ndash; the belonging of the Six with the forward drive of the Seven. Beatrice Chebet carries both: she runs for herself, but she also runs for her country, for her training group, for the women who will come after her. This double foundation gives her a stability that one can see on the track: she does not buckle. She accelerates.</p>
+          <p class="vb-intro">The light of the SP6w7 is her ability to connect community and joy &ndash; the belonging of the Six with the forward drive of the Seven. Beatrice Chebet carries both: she runs for herself, but she also runs for her country, for her training group, for the women who will come after her. This double foundation gives her a stability that one can see on the track: she does not buckle. She accelerates.</p>
           <p class="vb-intro">The shadow pattern of the Six is <strong>Cowardice</strong> &ndash; not in the sense of weakness, but as the inner movement that hesitates, that doubts, that asks: <em>Am I really good enough? Is that enough?</em> Every long-distance runner knows this inner dialogue. The Seven-wing helps to drown it out &ndash; with pace, with joy, with the rhythm of footsteps.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: Trust Your Own Step</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Six leads from the question <em>Am I safe enough to start running?</em> to the recognition <em>Safety itself arises in the running.</em> For the SE6w7 this means trusting one's own body, one's own rhythm, one's own strength &ndash; not because everything is guaranteed, but because experience shows: I arrive. I endure. I get faster when it matters.</p>
-          <p class="vb-intro">Beatrice Chebet has proven this trust on the world's biggest stage &ndash; twice, within a few days, in Paris. The rabbit that does not flee the course, but finds its way home on it. That is the SE6w7 on its healing path: not running despite the fear &ndash; but running long enough until the fear no longer matters.</p>
+          <p class="vb-intro">The healing path of the Six leads from the question <em>Am I safe enough to start running?</em> to the recognition <em>Safety itself arises in the running.</em> For the SP6w7 this means trusting one's own body, one's own rhythm, one's own strength &ndash; not because everything is guaranteed, but because experience shows: I arrive. I endure. I get faster when it matters.</p>
+          <p class="vb-intro">Beatrice Chebet has proven this trust on the world's biggest stage &ndash; twice, within a few days, in Paris. The rabbit that does not flee the course, but finds its way home on it. That is the SP6w7 on its healing path: not running despite the fear &ndash; but running long enough until the fear no longer matters.</p>
         </blockquote>
 
       </div>
@@ -13652,8 +13652,8 @@ function beatriceChebetPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
       ])}
     </div>
   `);
@@ -13669,7 +13669,7 @@ function herbertKicklPortraitPage() {
           <img src="./assets/portraits/beruehmte-herbert-kickl-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Herbert Kickl</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Politician &amp; FPÖ party leader, born 1968 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -13682,28 +13682,28 @@ function herbertKicklPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Six: Warmth and Alertness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Six (SE6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security is sought not through strength or duty, but through genuine human connection, through belonging, through trust in the people one knows and values. The SE6 does not build hierarchies &ndash; it builds community. Its protection is not the institution, but the we.</p>
-          <p class="vb-intro">In Herbert Kickl this shows itself in his deep connection to the Austrian population &ndash; not as an abstract electorate, but as concrete people with concrete concerns. His political language is direct, sometimes blunt, but it is not cold. It seeks contact. It wants people to feel understood. That is SE6 warmth: <em>I am one of you. I see what you see. And I say it out loud, even when it is uncomfortable.</em></p>
+          <p class="vb-intro">The <strong>Self-Preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security is sought not through strength or duty, but through genuine human connection, through belonging, through trust in the people one knows and values. The SP6 does not build hierarchies &ndash; it builds community. Its protection is not the institution, but the we.</p>
+          <p class="vb-intro">In Herbert Kickl this shows itself in his deep connection to the Austrian population &ndash; not as an abstract electorate, but as concrete people with concrete concerns. His political language is direct, sometimes blunt, but it is not cold. It seeks contact. It wants people to feel understood. That is SP6 warmth: <em>I am one of you. I see what you see. And I say it out loud, even when it is uncomfortable.</em></p>
           <p class="vb-intro">The Self-Preservation Six carries a deep concern for what endures: homeland, identity, the security of the familiar. This concern is not a backward glance &ndash; it is the serious question: <em>What are we protecting? And who protects it if we do not?</em></p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five-wing: Analysis Instead of Slogans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Self-Preservation Six a characteristic intellectual depth: the ability to analyse connections, to deconstruct narratives, to build arguments step by step. The SE6w5 is not satisfied with gut feeling &ndash; she wants to know why something is wrong. She wants to be able to demonstrate it.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Self-Preservation Six a characteristic intellectual depth: the ability to analyse connections, to deconstruct narratives, to build arguments step by step. The SP6w5 is not satisfied with gut feeling &ndash; she wants to know why something is wrong. She wants to be able to demonstrate it.</p>
           <p class="vb-intro">In Kickl this shows itself in his role as political strategist and orator. He is not a man of spontaneous emotion &ndash; he is a man of prepared argumentation, of precise analysis, of the ability to translate complex political connections into clear language. That is the Five-wing: knowledge as armour, analysis as a means of security. <em>If I understand what is happening, I am less at the mercy of it.</em></p>
-          <p class="vb-intro">This combination &ndash; the emotional connection of the SE6 with the analytical sharpness of the Five-wing &ndash; makes him an unusually effective political communicator: he speaks to the heart and simultaneously delivers the arguments for it.</p>
+          <p class="vb-intro">This combination &ndash; the emotional connection of the SP6 with the analytical sharpness of the Five-wing &ndash; makes him an unusually effective political communicator: he speaks to the heart and simultaneously delivers the arguments for it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Corona Crisis: Actively Overcoming Fear</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The corona crisis was a particular test for Type 6 &ndash; for nowhere was fear deployed as systematically as in that period. For a Six who perceives threats early and is oriented toward security, this was a double challenge: the fear of the virus on one side &ndash; and the fear of a politics that uses fear as an instrument of control on the other.</p>
           <p class="vb-intro">Herbert Kickl chose the second path. He publicly opposed lockdowns, compulsory vaccination and the restriction of fundamental rights &ndash; at a point when this was associated with considerable headwinds politically and socially. This is no small step for a Six: naming the institutions that are normally supposed to guarantee security as a threat requires working through one's own fear and speaking anyway. That is the Six on its path of courage: not the absence of fear &ndash; but acting despite it.</p>
-          <p class="vb-intro">In doing so he gave a voice to many people who no longer recognised themselves in official politics &ndash; people who felt the same dissonance, but had no language for it. That is the deepest service an SE6w5 can render: naming the collective perception that others cannot yet put into words.</p>
+          <p class="vb-intro">In doing so he gave a voice to many people who no longer recognised themselves in official politics &ndash; people who felt the same dissonance, but had no language for it. That is the deepest service an SP6w5 can render: naming the collective perception that others cannot yet put into words.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: Choosing Trust</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Six leads from the question <em>Where does the next danger lurk?</em> to the recognition <em>I have enough strength to deal with what comes.</em> For the SE6w5 this means not giving up alertness &ndash; it is a gift &ndash; but not being driven by fear, but by courage. Not distrusting the system because there are systems that are untrustworthy &ndash; but trusting selectively, because there are people who are trustworthy.</p>
+          <p class="vb-intro">The healing path of the Six leads from the question <em>Where does the next danger lurk?</em> to the recognition <em>I have enough strength to deal with what comes.</em> For the SP6w5 this means not giving up alertness &ndash; it is a gift &ndash; but not being driven by fear, but by courage. Not distrusting the system because there are systems that are untrustworthy &ndash; but trusting selectively, because there are people who are trustworthy.</p>
           <p class="vb-intro">The rabbit that senses earlier than others &ndash; and that has learned to carry this gift not as a burden, but as a responsibility: <em>I see what is coming. So I say it. So that we can prepare.</em> That is Herbert Kickl on his best path.</p>
         </blockquote>
 
@@ -13713,7 +13713,7 @@ function herbertKicklPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6)"},
       ])}
     </div>
@@ -13897,7 +13897,7 @@ function taylorSwiftPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
-        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SE5w4)"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
   `);
@@ -14023,7 +14023,7 @@ function gertrudeElionPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
-        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SE5w4)"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
   `);
@@ -14039,7 +14039,7 @@ function peterLustigPortraitPage() {
           <img src="./assets/portraits/beruehmte-peter-lustig-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Lustig</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">TV presenter &amp; children&apos;s book author, 1937&ndash;2016 &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -14052,28 +14052,28 @@ function peterLustigPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Five: The Caravan as Castle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Five (SE5)</strong> is, according to Naranjo, the <strong>amplification type</strong> of the Five: here the passion of avarice &ndash; the hoarding of energy, space, and time &ndash; lives most undisguised. Naranjo named this subtype <em>Castle</em>: one&apos;s own territory becomes a fortress. Anyone who wants to enter must announce themselves. Anyone who wants too much gets too little. The SE5 is one of the most isolated types in the entire Enneagram.</p>
-          <p class="vb-intro">No symbol captures this better than Peter Lustig&apos;s caravan. This small, mobile retreat in the middle of a meadow &ndash; with everything one needs, and without everything one does not need &ndash; is the perfect image of the SE5 castle. Peter Lustig lived this not only in the program: in real life he was also considered exceptionally withdrawn, media-shy, hard to reach. The caravan was not a prop. It was a worldview.</p>
+          <p class="vb-intro">The <strong>self-preservation Five (SP5)</strong> is, according to Naranjo, the <strong>amplification type</strong> of the Five: here the passion of avarice &ndash; the hoarding of energy, space, and time &ndash; lives most undisguised. Naranjo named this subtype <em>Castle</em>: one&apos;s own territory becomes a fortress. Anyone who wants to enter must announce themselves. Anyone who wants too much gets too little. The SP5 is one of the most isolated types in the entire Enneagram.</p>
+          <p class="vb-intro">No symbol captures this better than Peter Lustig&apos;s caravan. This small, mobile retreat in the middle of a meadow &ndash; with everything one needs, and without everything one does not need &ndash; is the perfect image of the SP5 castle. Peter Lustig lived this not only in the program: in real life he was also considered exceptionally withdrawn, media-shy, hard to reach. The caravan was not a prop. It was a worldview.</p>
           <p class="vb-intro">The self-preservation instinct asks: <em>Do I have enough? Am I safe? How much space do I need in order to think freely?</em> Peter&apos;s answer was radically simple: few possessions, much silence, a clear view of what truly matters. His famous &quot;Tschüss!&quot; at the end of each episode &ndash; the head out of the caravan window &ndash; was not a farewell. It was a boundary: <em>That is enough for today. I am withdrawing.</em></p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: Skepticism and Responsibility</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Five a characteristic coloring: skepticism toward authorities, a watchful eye for systems and their weaknesses, a deep sense of responsibility toward what one holds to be right. The SE5w6 does not merely collect knowledge &ndash; it asks what that knowledge means, whom it serves, and what can be done about it.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Five a characteristic coloring: skepticism toward authorities, a watchful eye for systems and their weaknesses, a deep sense of responsibility toward what one holds to be right. The SP5w6 does not merely collect knowledge &ndash; it asks what that knowledge means, whom it serves, and what can be done about it.</p>
           <p class="vb-intro">In Peter Lustig, this showed in the ecological and socially critical attitude that ran through <em>Löwenzahn</em>. The program did not merely explain how a lightning rod works or why dandelions are so tenacious. It always also asked: <em>What are we doing with this world? Why do we build things that cannot be repaired? Who does this land actually belong to?</em> That is the Six-wing: knowledge as a tool for responsibility.</p>
-          <p class="vb-intro">The Six-wing also explains Peter&apos;s deep loyalty toward his audience &ndash; the children. Not as an entertainer seeking to please, but as someone who takes children seriously and trusts them to understand the world. Behind this lies an SE5w6 conviction: <em>Those who understand can protect themselves. Those who know can act.</em></p>
+          <p class="vb-intro">The Six-wing also explains Peter&apos;s deep loyalty toward his audience &ndash; the children. Not as an entertainer seeking to please, but as someone who takes children seriously and trusts them to understand the world. Behind this lies an SP5w6 conviction: <em>Those who understand can protect themselves. Those who know can act.</em></p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Five</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE5w6 is its ability to communicate complex connections clearly and without self-reference. Peter Lustig taught millions of children how to wonder &ndash; not through spectacle but through precision. That is the gift of the owl: it sees what is truly there, and shows it without inflating it.</p>
-          <p class="vb-intro">The karmic pattern of the Five is <strong>avarice</strong> &ndash; the hoarding of energy, the fear of giving too much and becoming empty. In the SE5 this expresses as withdrawal behind the castle walls: <em>I give you this program. The rest I keep for myself.</em> Peter Lustig was barely reachable off-screen. Interviews, public appearances, personal closeness &ndash; that stayed behind the castle.</p>
+          <p class="vb-intro">The light of the SP5w6 is its ability to communicate complex connections clearly and without self-reference. Peter Lustig taught millions of children how to wonder &ndash; not through spectacle but through precision. That is the gift of the owl: it sees what is truly there, and shows it without inflating it.</p>
+          <p class="vb-intro">The karmic pattern of the Five is <strong>avarice</strong> &ndash; the hoarding of energy, the fear of giving too much and becoming empty. In the SP5 this expresses as withdrawal behind the castle walls: <em>I give you this program. The rest I keep for myself.</em> Peter Lustig was barely reachable off-screen. Interviews, public appearances, personal closeness &ndash; that stayed behind the castle.</p>
           <p class="vb-intro">The Six-wing can tip skepticism into mistrust &ndash; a world full of dangers, systems, and powers one must defend against. This can be paralyzing. In Lustig it remained productive: the skepticism became the question, the question became the program.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Observing to Participating</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to give?</em> to the realization <em>Knowledge does not diminish when shared &ndash; it grows.</em> For the SE5w6 this means not abandoning the castle, but occasionally lowering the drawbridge &ndash; not because one must, but because genuine contact nourishes rather than costs.</p>
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to give?</em> to the realization <em>Knowledge does not diminish when shared &ndash; it grows.</em> For the SP5w6 this means not abandoning the castle, but occasionally lowering the drawbridge &ndash; not because one must, but because genuine contact nourishes rather than costs.</p>
           <p class="vb-intro">Peter Lustig took this step through his work. The caravan remained his castle &ndash; but he opened the window. Each &quot;Tschüss!&quot; was also a promise: <em>I will be back. I will show you more.</em> The owl that sees in the dark and puts what it sees into words &ndash; so that others learn to look too.</p>
         </blockquote>
 
@@ -14083,8 +14083,8 @@ function peterLustigPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SE5w4)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
   `);
@@ -14100,7 +14100,7 @@ function ladyDianaPortraitPage() {
           <img src="./assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lady Diana</p>
-        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">Princess of Wales, 1961&ndash;1997 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
@@ -14113,28 +14113,28 @@ function ladyDianaPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Suffering as a Silent World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> is, in the Enneagram tradition, the counter-type of the Four: it does not display its inner life outwardly, does not draw it into grand gestures or dramatic self-presentation. Naranjo describes this subtype as <em>Recklessness</em> &ndash; not in the sense of harshness toward others, but as a drive toward ruthless honesty with oneself. The SE4 wrestles with pain &ndash; but wrestles with it silently. It shows strength outwardly while struggling within.</p>
-          <p class="vb-intro">In Diana, this shows in the contradiction that defined her life: the woman who radiated in public photographs and sent crowds into rapture struggled privately with eating disorders, depression, and the deep feeling of not being seen. The SE4 carries pain inward, because complaining seems too much &ndash; or because it has learned that no one listens. Diana experienced both: the weight of the inner world and the exhaustion of carrying it alone.</p>
-          <p class="vb-intro">The self-preservation instinct orients the Four toward its own survival &ndash; not as withdrawal, but as quiet endurance. Diana endured the years at court, long after love had ended, long after appearances had ended. That is SE4 energy: the persevering that no one sees.</p>
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is, in the Enneagram tradition, the counter-type of the Four: it does not display its inner life outwardly, does not draw it into grand gestures or dramatic self-presentation. Naranjo describes this subtype as <em>Recklessness</em> &ndash; not in the sense of harshness toward others, but as a drive toward ruthless honesty with oneself. The SP4 wrestles with pain &ndash; but wrestles with it silently. It shows strength outwardly while struggling within.</p>
+          <p class="vb-intro">In Diana, this shows in the contradiction that defined her life: the woman who radiated in public photographs and sent crowds into rapture struggled privately with eating disorders, depression, and the deep feeling of not being seen. The SP4 carries pain inward, because complaining seems too much &ndash; or because it has learned that no one listens. Diana experienced both: the weight of the inner world and the exhaustion of carrying it alone.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Four toward its own survival &ndash; not as withdrawal, but as quiet endurance. Diana endured the years at court, long after love had ended, long after appearances had ended. That is SP4 energy: the persevering that no one sees.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: Carrying the Message Outward</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Four something decisive: the ability to turn the interior outward and transform it into impact. The pure SE4 might lose itself in the inner world &ndash; deeply feeling, but invisible. The Three-wing gives it a stage &ndash; not out of vanity, but from the need to shape and pass on what has been experienced.</p>
-          <p class="vb-intro">In Diana, the Three-wing shows in her extraordinary public effectiveness. She never received the role of queen &ndash; but she developed a power of her own that no institution could confer: the power of attentiveness. Her work for AIDS patients, for children with cancer, against landmines &ndash; this was not duty, it was vocation. The SE4w3 knows: what I have lived through can help others. One&apos;s own pain becomes a bridge.</p>
-          <p class="vb-intro">The Three-wing also explains Diana&apos;s ability to self-present &ndash; not in the superficial sense, but as an awareness of how images work. The famous Bashir interview in 1995, the minefield photograph in Angola, the handshake without gloves with an AIDS patient &ndash; these are images that made history. The SE4w3 knows that the right gesture at the right moment changes the world.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Four something decisive: the ability to turn the interior outward and transform it into impact. The pure SP4 might lose itself in the inner world &ndash; deeply feeling, but invisible. The Three-wing gives it a stage &ndash; not out of vanity, but from the need to shape and pass on what has been experienced.</p>
+          <p class="vb-intro">In Diana, the Three-wing shows in her extraordinary public effectiveness. She never received the role of queen &ndash; but she developed a power of her own that no institution could confer: the power of attentiveness. Her work for AIDS patients, for children with cancer, against landmines &ndash; this was not duty, it was vocation. The SP4w3 knows: what I have lived through can help others. One&apos;s own pain becomes a bridge.</p>
+          <p class="vb-intro">The Three-wing also explains Diana&apos;s ability to self-present &ndash; not in the superficial sense, but as an awareness of how images work. The famous Bashir interview in 1995, the minefield photograph in Angola, the handshake without gloves with an AIDS patient &ndash; these are images that made history. The SP4w3 knows that the right gesture at the right moment changes the world.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4 is its empathy &ndash; the ability not merely to understand the pain of others but to truly feel it. Diana sat at bedsides, held hands, looked and listened while others looked away. That is not a talent one learns. That is the SE4 transforming its own pain into connection: <em>I know this. You are not alone.</em></p>
-          <p class="vb-intro">The karmic pattern of the Four is <strong>envy</strong> &ndash; not as ill will, but as the deep feeling that others were given something that was withheld from oneself. In the SE4 this expresses as the chronic feeling of incompleteness: never quite right, never quite enough, always somewhat excluded. Diana described this feeling throughout her life &ndash; the feeling of living in a world made for others, not for her.</p>
-          <p class="vb-intro">The Three-wing brings the danger of measuring one&apos;s own worth by external effectiveness. When the applause falls silent, when the cameras look away &ndash; who is the SE4w3 then? This question accompanied Diana, especially in the years after the divorce, when the protocol fell away and a new identity had to be found.</p>
+          <p class="vb-intro">The light of the SP4 is its empathy &ndash; the ability not merely to understand the pain of others but to truly feel it. Diana sat at bedsides, held hands, looked and listened while others looked away. That is not a talent one learns. That is the SP4 transforming its own pain into connection: <em>I know this. You are not alone.</em></p>
+          <p class="vb-intro">The karmic pattern of the Four is <strong>envy</strong> &ndash; not as ill will, but as the deep feeling that others were given something that was withheld from oneself. In the SP4 this expresses as the chronic feeling of incompleteness: never quite right, never quite enough, always somewhat excluded. Diana described this feeling throughout her life &ndash; the feeling of living in a world made for others, not for her.</p>
+          <p class="vb-intro">The Three-wing brings the danger of measuring one&apos;s own worth by external effectiveness. When the applause falls silent, when the cameras look away &ndash; who is the SP4w3 then? This question accompanied Diana, especially in the years after the divorce, when the protocol fell away and a new identity had to be found.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Enduring to Arriving</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why is what others were given withheld from me?</em> to the realization <em>What I am is enough &ndash; and it is unique.</em> For the SE4 this means no longer fighting the inner struggle alone &ndash; but allowing one&apos;s own wound to be seen and touched as well.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why is what others were given withheld from me?</em> to the realization <em>What I am is enough &ndash; and it is unique.</em> For the SP4 this means no longer fighting the inner struggle alone &ndash; but allowing one&apos;s own wound to be seen and touched as well.</p>
           <p class="vb-intro">Diana took steps in this direction in the final years of her life. She spoke publicly about her eating disorders, sought help, took her own story in hand. The dove that stops carrying only messages for others and begins to fly for itself as well &ndash; that was Diana on her path. This path was abruptly ended in 1997. What remains is the image of a woman who showed more strength in her vulnerability than many show in their strength.</p>
         </blockquote>
 
@@ -14144,8 +14144,8 @@ function ladyDianaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
       ])}
     </div>
   `);
@@ -14330,7 +14330,7 @@ function angelinaJoliePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
     </div>
   `);
@@ -14513,7 +14513,7 @@ function leonardoDiCaprioPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
     </div>
   `);
@@ -14530,7 +14530,7 @@ function gretaThunbergPortraitPage() {
           <img src="./assets/portraits/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Greta Thunberg</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
         <p class="krim-portrait-subtitle">Climate Activist, born 2003 &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -14543,29 +14543,29 @@ function gretaThunbergPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: The Right to Exist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Two (SE2)</strong> is, in the Enneagram tradition, the subtype that most strongly directs the energy of the Two inward and toward its own survival. While the social Two fights for the group and the sexual Two operates through seduction and personal attraction, the SE2 asks first: <em>What do I need to survive? What does the world I live in need to survive?</em> Naranjo calls this subtype <em>Me First</em> &ndash; not in the egotistical sense, but in the existential: the Two that does not deny its own needs, but names them directly.</p>
-          <p class="vb-intro">In Greta Thunberg this shows in a rare, almost relentless directness. She does not say: <em>I am worried about the future of others.</em> She says: <em>You are stealing my future.</em> That is the SE2 view: climate change is not an abstract humanitarian question &ndash; it is a threat to her own basis of existence. This immediacy makes her message so different from that of many other activists. She does not talk about the world out there. She talks about the world in which she herself exists.</p>
-          <p class="vb-intro">Her openness about her own neurodivergence &ndash; Asperger syndrome, OCD, selective mutism &ndash; carries this SE2 quality too: no hiding, no sugarcoating. <em>My brain works differently. That is who I am.</em> The SE2 names its reality &ndash; even when the world would rather look away.</p>
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> is, in the Enneagram tradition, the subtype that most strongly directs the energy of the Two inward and toward its own survival. While the social Two fights for the group and the sexual Two operates through seduction and personal attraction, the SP2 asks first: <em>What do I need to survive? What does the world I live in need to survive?</em> Naranjo calls this subtype <em>Me First</em> &ndash; not in the egotistical sense, but in the existential: the Two that does not deny its own needs, but names them directly.</p>
+          <p class="vb-intro">In Greta Thunberg this shows in a rare, almost relentless directness. She does not say: <em>I am worried about the future of others.</em> She says: <em>You are stealing my future.</em> That is the SP2 view: climate change is not an abstract humanitarian question &ndash; it is a threat to her own basis of existence. This immediacy makes her message so different from that of many other activists. She does not talk about the world out there. She talks about the world in which she herself exists.</p>
+          <p class="vb-intro">Her openness about her own neurodivergence &ndash; Asperger syndrome, OCD, selective mutism &ndash; carries this SP2 quality too: no hiding, no sugarcoating. <em>My brain works differently. That is who I am.</em> The SP2 names its reality &ndash; even when the world would rather look away.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-wing: Moral Clarity as Backbone</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the self-preservation Two something essential: an inner code that carries independently of others&#39; reactions. The pure Two seeks confirmation, affection, recognition &ndash; the One-wing makes it more independent of these. It says: <em>There is a right and a wrong. And I know which side I am on.</em></p>
-          <p class="vb-intro">In Greta Thunberg this wing cannot be overlooked. She has said to heads of state and government, to their faces, what they are doing wrong. She opened the UN summit with <em>How dare you!</em> &ndash; an indictment that knew no diplomatic formulation, because the SE2w1 needs no diplomatic formulation when the principle is clear. The One-wing gives the Two permission to be uncomfortable.</p>
+          <p class="vb-intro">In Greta Thunberg this wing cannot be overlooked. She has said to heads of state and government, to their faces, what they are doing wrong. She opened the UN summit with <em>How dare you!</em> &ndash; an indictment that knew no diplomatic formulation, because the SP2w1 needs no diplomatic formulation when the principle is clear. The One-wing gives the Two permission to be uncomfortable.</p>
           <p class="vb-intro">This also shows in her political development: Thunberg has become clearer and more radical over the years &ndash; not because she has changed, but because the One-wing has come to bear more strongly with time. The Two wants to be loved. The One has no interest in being loved for something that is wrong.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2 is its authenticity. Greta Thunberg has never played a role. What she says is what she means. What she feels, she shows. In a world of political communication that is an extraordinary quality &ndash; and a reason why she has touched millions of people who have long since stopped feeling reached by professional activists.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the deep conviction of being needed, of being indispensable, of being there for others while denying one&#39;s own needs. In the SE2 this shows more subtly: it is the belief that one&#39;s own voice counts because one&#39;s own existence is at stake. This can be liberating &ndash; and it can exhaust. The SE2w1 carries the weight of its conviction with an intensity that leaves little room for rest.</p>
+          <p class="vb-intro">The light of the SP2 is its authenticity. Greta Thunberg has never played a role. What she says is what she means. What she feels, she shows. In a world of political communication that is an extraordinary quality &ndash; and a reason why she has touched millions of people who have long since stopped feeling reached by professional activists.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the deep conviction of being needed, of being indispensable, of being there for others while denying one&#39;s own needs. In the SP2 this shows more subtly: it is the belief that one&#39;s own voice counts because one&#39;s own existence is at stake. This can be liberating &ndash; and it can exhaust. The SP2w1 carries the weight of its conviction with an intensity that leaves little room for rest.</p>
           <p class="vb-intro">Greta Thunberg has described in interviews how the climate crisis led her into severe depression &ndash; before she began to act. The acting was rescue. But rescue through acting has its price. The hippopotamus cannot always stay in the water.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Fighting to Being</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Two leads from giving to receiving &ndash; from the question <em>What does the world need from me?</em> to the question <em>What do I need?</em> Not as a withdrawal, but as a complement. The growing Two learns: I am valuable even when I do nothing. My existence itself is enough.</p>
-          <p class="vb-intro">For the SE2w1 this means: learning to understand one&#39;s own voice not only as a tool for the fight, but as an expression of one&#39;s own life. The hippopotamus does not always have to warn and defend. Sometimes it may simply drift in the water &ndash; calm, whole, in its element. Greta Thunberg is still very young. This path lies before her &ndash; and she has already laid the foundation: the knowledge of who she is.</p>
+          <p class="vb-intro">For the SP2w1 this means: learning to understand one&#39;s own voice not only as a tool for the fight, but as an expression of one&#39;s own life. The hippopotamus does not always have to warn and defend. Sometimes it may simply drift in the water &ndash; calm, whole, in its element. Greta Thunberg is still very young. This path lies before her &ndash; and she has already laid the foundation: the knowledge of who she is.</p>
         </blockquote>
 
       </div>
@@ -14574,7 +14574,7 @@ function gretaThunbergPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
       ])}
     </div>
@@ -14592,7 +14592,7 @@ function janUllrichPortraitPage() {
           <img src="./assets/portraits/beruehmte-jan-ullrich-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jan Ullrich</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">Racing Cyclist, born 1973 &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -14605,22 +14605,22 @@ function janUllrichPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Pleasure as a Basic Feeling</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Two (SE2)</strong> is, in the Enneagram tradition, the subtype that most directly experiences and lives out its own physical and emotional needs. Naranjo calls it <em>Me First</em>: not in the egotistical sense, but in the sensory. The SE2 lives in the body, in the moment, in immediate experience. Pleasure is not a luxury for it &ndash; it is a basic need that cannot be suppressed indefinitely.</p>
-          <p class="vb-intro">In Jan Ullrich this showed in a phenomenon that kept the entire cycling world holding its breath: the winter weight gain. While other professionals went into the off-season with strict discipline, Ullrich allowed himself relaxation, pleasure, life outside competition. Every spring he returned overweight &ndash; and every spring he came back with a fitness level that seemed physiologically barely explicable. That was not lack of discipline. That was the SE2: the body taking what it needs &ndash; and then showing what it is capable of.</p>
-          <p class="vb-intro">The SE2 is also the Two that most clearly seeks care &ndash; and finds it hardest to manage without. Ullrich&#39;s career and his life after sport both show two sides: the strength that arises when he is supported &ndash; and the vulnerability when that support is absent.</p>
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> is, in the Enneagram tradition, the subtype that most directly experiences and lives out its own physical and emotional needs. Naranjo calls it <em>Me First</em>: not in the egotistical sense, but in the sensory. The SP2 lives in the body, in the moment, in immediate experience. Pleasure is not a luxury for it &ndash; it is a basic need that cannot be suppressed indefinitely.</p>
+          <p class="vb-intro">In Jan Ullrich this showed in a phenomenon that kept the entire cycling world holding its breath: the winter weight gain. While other professionals went into the off-season with strict discipline, Ullrich allowed himself relaxation, pleasure, life outside competition. Every spring he returned overweight &ndash; and every spring he came back with a fitness level that seemed physiologically barely explicable. That was not lack of discipline. That was the SP2: the body taking what it needs &ndash; and then showing what it is capable of.</p>
+          <p class="vb-intro">The SP2 is also the Two that most clearly seeks care &ndash; and finds it hardest to manage without. Ullrich&#39;s career and his life after sport both show two sides: the strength that arises when he is supported &ndash; and the vulnerability when that support is absent.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: Triumph as Second Nature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Two something decisive: the hunger for victory, for recognition, for the moment of triumph. The pure SE2 can become comfortable &ndash; the Three-wing drives it forward. It whispers: <em>Good is not enough. You must win.</em></p>
-          <p class="vb-intro">In Jan Ullrich this wing is visible in every great moment of his career. The Tour de France victory in 1997 at age 23 &ndash; the youngest winner up to that point. Olympic gold in 2000 in the individual time trial in Sydney. Five second places at the Tour de France, almost all behind Lance Armstrong. The SE2w3 does not give up easily &ndash; not even when the opponent seems overwhelming. The hippopotamus does not back away. And the Three-wing ensures it lines up again and again.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Two something decisive: the hunger for victory, for recognition, for the moment of triumph. The pure SP2 can become comfortable &ndash; the Three-wing drives it forward. It whispers: <em>Good is not enough. You must win.</em></p>
+          <p class="vb-intro">In Jan Ullrich this wing is visible in every great moment of his career. The Tour de France victory in 1997 at age 23 &ndash; the youngest winner up to that point. Olympic gold in 2000 in the individual time trial in Sydney. Five second places at the Tour de France, almost all behind Lance Armstrong. The SP2w3 does not give up easily &ndash; not even when the opponent seems overwhelming. The hippopotamus does not back away. And the Three-wing ensures it lines up again and again.</p>
           <p class="vb-intro">But the Three-wing also brings the shadow side of the Three: the danger of placing image over truth. The pressure of always being the radiant winner. For Ullrich this pressure was part of the system in which he moved &ndash; and part of the path that ultimately led him into the doping affair Operaci&oacute;n Puerto.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2 is its vitality. Jan Ullrich on the bike was an experience &ndash; not just a result. Anyone who ever saw him on the Col du Galibier or in a time trial knows: there was something irrepeatable there. Not a calculating machine, but a human being who transformed his entire physical being into movement. That is the gift of the SE2: completeness in experience.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; and in the SE2 it shows as a deep, often unconscious need to be needed, loved, admired. This need was fulfillable through cycling. After the career ended in 2006 &ndash; amid doping investigations and public collapse &ndash; the foundation was gone. The years that followed, with addiction problems, legal disputes, and personal crises, tell the story of an SE2 without its water: the hippopotamus on land, without orientation.</p>
+          <p class="vb-intro">The light of the SP2 is its vitality. Jan Ullrich on the bike was an experience &ndash; not just a result. Anyone who ever saw him on the Col du Galibier or in a time trial knows: there was something irrepeatable there. Not a calculating machine, but a human being who transformed his entire physical being into movement. That is the gift of the SP2: completeness in experience.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; and in the SP2 it shows as a deep, often unconscious need to be needed, loved, admired. This need was fulfillable through cycling. After the career ended in 2006 &ndash; amid doping investigations and public collapse &ndash; the foundation was gone. The years that followed, with addiction problems, legal disputes, and personal crises, tell the story of an SP2 without its water: the hippopotamus on land, without orientation.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Hunger to Fullness</h2>
@@ -14635,8 +14635,8 @@ function janUllrichPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
       ])}
     </div>
   `);
@@ -14901,7 +14901,7 @@ function kathrinBauerfeindPortraitPage() {
           <img src="./assets/portraits/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Waschb&auml;r" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kathrin Bauerfeind</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
         <p class="krim-portrait-subtitle">Journalist, Presenter &amp; Author, born 1981 &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -14914,29 +14914,29 @@ function kathrinBauerfeindPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Skill Over Shine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that looks least like a Three. Claudio Naranjo describes it as the one that directs performance inward: not toward admiration, not toward public recognition, but toward security, competence, and building. The SE3 does not ask: <em>How am I seen?</em> It asks: <em>What can I do? What do I need? What works?</em></p>
-          <p class="vb-intro">In Kathrin Bauerfeind this shows in her range: journalist, presenter, entertainer, actress, book author &ndash; that is not a drive for recognition, it is building competence. The SE3 invests in skill because skill means security. Whoever can do much is hard to replace. Whoever is at home in many fields needs no spotlight &ndash; there is always a way.</p>
-          <p class="vb-intro">Also characteristic of the SE3 is its credibility: it does not need to impress, it needs to convince. Bauerfeind has built a reputation based on quality, not popularity. Her interviews are regarded as precise and substantive, her texts as polished, her presenting as reliable. That is SE3 energy in its best form: work that speaks for itself.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that looks least like a Three. Claudio Naranjo describes it as the one that directs performance inward: not toward admiration, not toward public recognition, but toward security, competence, and building. The SP3 does not ask: <em>How am I seen?</em> It asks: <em>What can I do? What do I need? What works?</em></p>
+          <p class="vb-intro">In Kathrin Bauerfeind this shows in her range: journalist, presenter, entertainer, actress, book author &ndash; that is not a drive for recognition, it is building competence. The SP3 invests in skill because skill means security. Whoever can do much is hard to replace. Whoever is at home in many fields needs no spotlight &ndash; there is always a way.</p>
+          <p class="vb-intro">Also characteristic of the SP3 is its credibility: it does not need to impress, it needs to convince. Bauerfeind has built a reputation based on quality, not popularity. Her interviews are regarded as precise and substantive, her texts as polished, her presenting as reliable. That is SP3 energy in its best form: work that speaks for itself.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: Depth Behind the Matter-of-Factness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the self-preservation Three something that changes it from within: the awareness of what is special, of the irrepeatable, of one&#39;s own inner world beyond achievement. The pure SE3 could exhaust itself in efficiency and usefulness &ndash; always functional, always productive, always in service of building. The Four-wing places another question beside it: <em>But what does all this mean? Who am I really, beyond what I achieve?</em></p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the self-preservation Three something that changes it from within: the awareness of what is special, of the irrepeatable, of one&#39;s own inner world beyond achievement. The pure SP3 could exhaust itself in efficiency and usefulness &ndash; always functional, always productive, always in service of building. The Four-wing places another question beside it: <em>But what does all this mean? Who am I really, beyond what I achieve?</em></p>
           <p class="vb-intro">In Kathrin Bauerfeind the Four-wing shows in the stylistic wilfulness that runs through her work. She has not built a mainstream career &ndash; she has developed a recognizably personal voice. Her book <em>Wir k&ouml;nnten auch einfach gar nichts tun</em> is not a non-fiction book in the classical sense, but an essay collection with its own tone: thoughtful, ironic, at times melancholic. That is the Four-wing enriching the Three &ndash; it brings depth to what might otherwise be only competence.</p>
-          <p class="vb-intro">The Four-wing is also responsible for a certain inner distance from oneself &ndash; the ability to view one&#39;s own work not only as achievement, but as expression of something that lies deeper. The SE3w4 does not only want to be good &ndash; it wants to be authentic. That makes it more complex than many who are similarly productive.</p>
+          <p class="vb-intro">The Four-wing is also responsible for a certain inner distance from oneself &ndash; the ability to view one&#39;s own work not only as achievement, but as expression of something that lies deeper. The SP3w4 does not only want to be good &ndash; it wants to be authentic. That makes it more complex than many who are similarly productive.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3 is its reliability and versatility. Kathrin Bauerfeind is at home in a trade that quickly burns what it produces &ndash; and she has been present for years without burning out or repeating herself. That is not luck, that is strategy &ndash; the conscious or unconscious strategy of the SE3, which invests in competence rather than attention.</p>
-          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; not in the obvious sense, but as the deep need to be regarded as valuable. In the SE3 this is particularly subtle: modesty can itself become staging. &bdquo;I don&#39;t need a big stage&ldquo; is sometimes a very effective way of drawing attention to oneself without attracting the suspicion of vanity.</p>
-          <p class="vb-intro">The Four-wing brings its own shadow: the feeling of being essentially different, of not quite belonging. The SE3w4 can oscillate between the desire for recognition and the need for uniqueness &ndash; and in doing so chronically underestimate its own contribution, because it seems self-evident to itself.</p>
+          <p class="vb-intro">The light of the SP3 is its reliability and versatility. Kathrin Bauerfeind is at home in a trade that quickly burns what it produces &ndash; and she has been present for years without burning out or repeating herself. That is not luck, that is strategy &ndash; the conscious or unconscious strategy of the SP3, which invests in competence rather than attention.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; not in the obvious sense, but as the deep need to be regarded as valuable. In the SP3 this is particularly subtle: modesty can itself become staging. &bdquo;I don&#39;t need a big stage&ldquo; is sometimes a very effective way of drawing attention to oneself without attracting the suspicion of vanity.</p>
+          <p class="vb-intro">The Four-wing brings its own shadow: the feeling of being essentially different, of not quite belonging. The SP3w4 can oscillate between the desire for recognition and the need for uniqueness &ndash; and in doing so chronically underestimate its own contribution, because it seems self-evident to itself.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Achieving to Being</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am &ndash; beyond all achievement.</em> For the SE3w4 this path is particularly multi-layered: the Four-wing opens the door to the inner world, but can also be the source of deep self-criticism. The next step is not more reflection &ndash; but acceptance.</p>
-          <p class="vb-intro">The growing SE3w4 discovers: it neither needs to be the most competent nor the most unique person in the room in order to belong. The raccoon that removes its mask finds beneath it not a deficit &ndash; but a face that was always there. Kathrin Bauerfeind has, in her texts and appearances, moments again and again where exactly that becomes visible: a willingness to be vulnerable, which shows that competence is not everything. That is the healing path that has already begun.</p>
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am &ndash; beyond all achievement.</em> For the SP3w4 this path is particularly multi-layered: the Four-wing opens the door to the inner world, but can also be the source of deep self-criticism. The next step is not more reflection &ndash; but acceptance.</p>
+          <p class="vb-intro">The growing SP3w4 discovers: it neither needs to be the most competent nor the most unique person in the room in order to belong. The raccoon that removes its mask finds beneath it not a deficit &ndash; but a face that was always there. Kathrin Bauerfeind has, in her texts and appearances, moments again and again where exactly that becomes visible: a willingness to be vulnerable, which shows that competence is not everything. That is the healing path that has already begun.</p>
         </blockquote>
 
       </div>
@@ -14945,8 +14945,8 @@ function kathrinBauerfeindPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
       ])}
     </div>
   `);
@@ -14963,7 +14963,7 @@ function sadhguruPortraitPage() {
           <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Waschb&auml;r" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sadhguru</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
         <p class="krim-portrait-subtitle">Yogi, Guru &amp; Bestselling Author, born 1957 &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -14976,28 +14976,28 @@ function sadhguruPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Quiet Achievement Instead of Spotlight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the so-called counter-type of the Three: Claudio Naranjo describes it as the one that looks least like a Three. While the social Three shines on stages and the sexual Three enchants through charisma, the SE3 directs its energy toward something more grounded: competence, security, building. No shine for its own sake &ndash; only efficiency in service of a goal.</p>
-          <p class="vb-intro">In Sadhguru this shows in enormous productivity without vanity &ndash; or at least without visible vanity. He writes books (<em>Inner Engineering</em> appeared on the New York Times bestseller list), gives talks at the World Economic Forum in Davos, leads large ecological projects such as &bdquo;Save Soil&ldquo; and &bdquo;Project GreenHands&ldquo;, advises governments, travels the world daily &ndash; and appears throughout like someone who just came in from the field. The SE3 invests in effectiveness, not in image. The image arises as a by-product.</p>
-          <p class="vb-intro">The self-preservation instinct gives the Three a direction: not upward, not into the light, but into the depth of building. Structures, institutions, systems &ndash; these are the vessels into which the SE3 pours its energy. Sadhguru&#39;s work is less a spiritual performance than a life enterprise. That is raccoon energy in its most productive form.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the so-called counter-type of the Three: Claudio Naranjo describes it as the one that looks least like a Three. While the social Three shines on stages and the sexual Three enchants through charisma, the SP3 directs its energy toward something more grounded: competence, security, building. No shine for its own sake &ndash; only efficiency in service of a goal.</p>
+          <p class="vb-intro">In Sadhguru this shows in enormous productivity without vanity &ndash; or at least without visible vanity. He writes books (<em>Inner Engineering</em> appeared on the New York Times bestseller list), gives talks at the World Economic Forum in Davos, leads large ecological projects such as &bdquo;Save Soil&ldquo; and &bdquo;Project GreenHands&ldquo;, advises governments, travels the world daily &ndash; and appears throughout like someone who just came in from the field. The SP3 invests in effectiveness, not in image. The image arises as a by-product.</p>
+          <p class="vb-intro">The self-preservation instinct gives the Three a direction: not upward, not into the light, but into the depth of building. Structures, institutions, systems &ndash; these are the vessels into which the SP3 pours its energy. Sadhguru&#39;s work is less a spiritual performance than a life enterprise. That is raccoon energy in its most productive form.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: Giving as Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the self-preservation Three an important dimension: the genuine impulse toward connection, toward support, toward giving. The pure SE3 could exhaust itself in building and efficiency &ndash; always functional, always productive, but without the fire of personal warmth. The Two-wing kindles this fire. It says: <em>It is not only about achieving something. It is about people being touched by it.</em></p>
-          <p class="vb-intro">In Sadhguru the Two-wing is unmistakable in his teaching style. He is not a cool systems thinker &ndash; he is a teacher who looks at people, takes their questions seriously, laughs with them. His talks are laced with humor, with stories, with direct contact with the audience. The SE3w2 does not only want to build &ndash; it wants people to be carried forward. Giving is not a means; it is part of the drive.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the self-preservation Three an important dimension: the genuine impulse toward connection, toward support, toward giving. The pure SP3 could exhaust itself in building and efficiency &ndash; always functional, always productive, but without the fire of personal warmth. The Two-wing kindles this fire. It says: <em>It is not only about achieving something. It is about people being touched by it.</em></p>
+          <p class="vb-intro">In Sadhguru the Two-wing is unmistakable in his teaching style. He is not a cool systems thinker &ndash; he is a teacher who looks at people, takes their questions seriously, laughs with them. His talks are laced with humor, with stories, with direct contact with the audience. The SP3w2 does not only want to build &ndash; it wants people to be carried forward. Giving is not a means; it is part of the drive.</p>
           <p class="vb-intro">The Two-wing also explains Sadhguru&#39;s ability to mobilize masses: nine million volunteers do not follow an efficiency machine &ndash; they follow someone who makes them feel seen and needed. That is the Two that carries the Three.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3 is its ability to transform spiritual vision into tangible reality. Many mystics leave behind words. Sadhguru leaves behind institutions, trees, laws, books, podcasts, a yoga center in Tennessee and a teaching programme running in 300 cities. That is the SE3 as a force of manifestation: ideas are given body.</p>
-          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; not necessarily conscious lying, but the deep need to appear competent, valuable, and effective. In the SE3 this expresses itself subtly: the mask of modesty can itself become a form of staging. &bdquo;I don&#39;t need a spotlight&ldquo; can &ndash; on closer inspection &ndash; be a very effective stage. Critics of Sadhguru have named exactly this tension: between sincere service and masterfully staged simplicity.</p>
-          <p class="vb-intro">The Two-wing brings its own shadow pattern: the need to be needed can combine with SE3 efficiency into a dynamic in which &bdquo;helping&ldquo; and &bdquo;controlling&ldquo; are barely distinguishable. Whoever is the system through which everything flows has power &ndash; even when they say service.</p>
+          <p class="vb-intro">The light of the SP3 is its ability to transform spiritual vision into tangible reality. Many mystics leave behind words. Sadhguru leaves behind institutions, trees, laws, books, podcasts, a yoga center in Tennessee and a teaching programme running in 300 cities. That is the SP3 as a force of manifestation: ideas are given body.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; not necessarily conscious lying, but the deep need to appear competent, valuable, and effective. In the SP3 this expresses itself subtly: the mask of modesty can itself become a form of staging. &bdquo;I don&#39;t need a spotlight&ldquo; can &ndash; on closer inspection &ndash; be a very effective stage. Critics of Sadhguru have named exactly this tension: between sincere service and masterfully staged simplicity.</p>
+          <p class="vb-intro">The Two-wing brings its own shadow pattern: the need to be needed can combine with SP3 efficiency into a dynamic in which &bdquo;helping&ldquo; and &bdquo;controlling&ldquo; are barely distinguishable. Whoever is the system through which everything flows has power &ndash; even when they say service.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Doing to Being</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am &ndash; beyond all achievement.</em> For the SE3 this means a particularly paradoxical step: releasing competence as the basis of self-worth. No longer knowing what to do &ndash; and still trusting that one is good.</p>
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am &ndash; beyond all achievement.</em> For the SP3 this means a particularly paradoxical step: releasing competence as the basis of self-worth. No longer knowing what to do &ndash; and still trusting that one is good.</p>
           <p class="vb-intro">Sadhguru teaches exactly that &ndash; and that is perhaps the most interesting thing about him: he teaches what his own deepest task is. <em>Inner Engineering</em> is not a book about outer efficiency. It is a book about how to stop treating one&#39;s inner life as a project. The raccoon that has learned to remove the mask even before itself finds beneath it not emptiness &ndash; but stillness. And from that stillness a doing arises that no longer needs to prove itself.</p>
         </blockquote>
 
@@ -15007,7 +15007,7 @@ function sadhguruPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
       ])}
     </div>
@@ -15310,8 +15310,8 @@ function elliotRodgerPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 24. Juli 1991 &ndash; 23. Mai 2014</span>
           <span style="display:block;"><strong>Tatfolgen:</strong> 6 Tote, 14 Verletzte; Isla Vista, Kalifornien</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SE4, SO4 und SX4 unterschiedlich ausdr\xfcckt – und warum die SO4 Scham nach innen tr\xe4gt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SP4, SO4 und SX4 unterschiedlich ausdr\xfcckt – und warum die SO4 Scham nach innen tr\xe4gt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Neid als Grundmotiv der Vier: Wie der Schmerz des Andersseins entsteht und wie Verbindung w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -15321,7 +15321,7 @@ function elliotRodgerPortraitPage() {
 
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-david-berkowitz", label:"Criminal Psychology: David Berkowitz (SE4w3)"},
+          {route:"kriminalpsychologie-david-berkowitz", label:"Criminal Psychology: David Berkowitz (SP4w3)"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-ted-kaczynski", label:"Criminal Psychology: Ted Kaczynski (SO5w4)"},
         ])}
@@ -15946,7 +15946,7 @@ function richardRamirezPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 3 von selbsterhaltender und sozialer Drei unterscheidet – 27 Charakterprofile.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, blockierte Herzenergie und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -15976,7 +15976,7 @@ function harveyWeinsteinPortraitPage() {
           <img src="./assets/portraits/harvey-weinstein-portrait.jpg" alt="Harvey Weinstein – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Harvey Weinstein</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Filmproduzent und Serientäter · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -16201,7 +16201,7 @@ function pabloEscobarPortraitPage() {
           <img src="./assets/portraits/pablo-escobar-portrait.jpg" alt="Pablo Escobar – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pablo Escobar</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Pablo Escobar</strong> (1949–1993) war der Kopf des Medell\xedn-Kartells und kontrollierte
@@ -16421,7 +16421,7 @@ function dennisNilsenPortraitPage() {
           <img src="./assets/portraits/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
-        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Mörder von Melrose Avenue" – London 1978–1983</p>
       </div>
       <p class="psycho-intro">
@@ -16582,7 +16582,7 @@ function dennisNilsenPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins with Two-wing.<br>
+        <strong>Subtype:</strong> SP1w2 – Self-Preservatione Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – der stille Ordnungszwang, der nicht erlaubte, dass Verbindungen endeten.<br>
         <strong>Stresspunkt:</strong> Vier – chronische Einsamkeit, Melancholie, das Gefühl fundamentaler Unverbundenheit.<br>
         <strong>Animal correspondence:</strong> Adler – majestätisch, präzise, vollständig auf den eigenen Raum fixiert.<br>
@@ -16592,8 +16592,8 @@ function dennisNilsenPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -16603,7 +16603,7 @@ function dennisNilsenPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SE1w9)"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SP1w9)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – ähnliches Tatmuster"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
       ])}
@@ -16621,7 +16621,7 @@ function dorotheaPuentePortraitPage() {
           <img src="./assets/portraits/dorothea-puente-portrait.jpg" alt="Dorothea Puente \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dorothea Puente</p>
-        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Die Vermieterin des Todes" – Sacramento, Kalifornien 1982–1988</p>
       </div>
       <p class="psycho-intro">
@@ -16688,7 +16688,7 @@ function dorotheaPuentePortraitPage() {
         ein freundliches Gesicht. Sie gab es – und schuf damit totale Abhängigkeit.
         Wer von ihr abhängig war, hatte keine eigene Stimme mehr.
         Wer keine eigene Stimme hatte, stellte keine Fragen.
-        Der Two-wing der SE1 ist das Werkzeug, das Vertrauen schafft –
+        Der Two-wing der SP1 ist das Werkzeug, das Vertrauen schafft –
         damit die Eins in ihrem Raum ungestört walten kann.</p>
         <p class="vb-intro"><strong>c) Die Leidenschaft: Zorn als stiller Ordnungszwang:</strong>
         Die Leidenschaft der Eins ist der <strong>Zorn</strong> –
@@ -16785,7 +16785,7 @@ function dorotheaPuentePortraitPage() {
         von Menschen, die keine andere Wahl hatten.
         Der Adler braucht keinen Lärm. Er braucht nur Geduld und einen Horst,
         in dem er ungestört herrscht.
-        Was Puente von Dennis Nilsen unterscheidet – ebenfalls SE1w2 –
+        Was Puente von Dennis Nilsen unterscheidet – ebenfalls SP1w2 –
         ist das vollständige Fehlen von emotionalem Motiv:
         Sie tötete nicht aus Einsamkeit, nicht aus Zorn auf eine Person,
         sondern aus Ordnungslogik: Diese Menschen störten das System.
@@ -16796,7 +16796,7 @@ function dorotheaPuentePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE1w2 – Self-Preservatione Eins with Two-wing.<br>
+        <strong>Subtype:</strong> SP1w2 – Self-Preservatione Eins with Two-wing.<br>
         <strong>Leidenschaft:</strong> Zorn – still, akkumuliert, endgültig; richtet ohne Aufschrei.<br>
         <strong>Stresspunkt:</strong> Vier – innere Leere, Unfähigkeit zu echter Verbindung, Fürsorge als Inszenierung.<br>
         <strong>Animal correspondence:</strong> Adler – makellos, präzise, herrscht im eigenen Horst ohne Lärm.<br>
@@ -16808,8 +16808,8 @@ function dorotheaPuentePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -16819,9 +16819,9 @@ function dorotheaPuentePortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-dennis-nilsen", label:"Criminal Psychology: Dennis Nilsen (SE1w2) – ebenfalls Adler"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Criminal Psychology: Dennis Nilsen (SP1w2) – ebenfalls Adler"},
         {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6) – Arzt als Täter"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SE7w8) – Pfleger als Täter"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8) – Pfleger als Täter"},
       ])}
     </div>
   `);
@@ -16837,7 +16837,7 @@ function michailPopkowPortraitPage() {
           <img src="./assets/portraits/michail-popkow-portrait.jpg" alt="Michail Popkow – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michail Popkow</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Michail Wiktorowitsch Popkow</strong>, geboren am 7. März 1964
@@ -16860,7 +16860,7 @@ function michailPopkowPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen moralische Unvollkommenheit,
         gegen das Unreine, gegen das, was als Abweichung von der Ordnung erlebt wird.
-        Die selbsterhaltende Eins (SE1) richtet diese Energie auf materielle Kontrolle,
+        Die selbsterhaltende Eins (SP1) richtet diese Energie auf materielle Kontrolle,
         praktische Pflichterfüllung und ein tadelloses äußeres Bild.
         Der Nine-wing mildert die sichtbare Schärfe der Eins erheblich:
         Er verleiht Geduld, ruhige Unauffälligkeit und eine soziale Wärme,
@@ -16913,7 +16913,7 @@ function michailPopkowPortraitPage() {
         und seiner Tochter zusammen, pflegte nachbarschaftliche Contacte
         und galt als unauffällig und verlässlich. Die vollständige
         Trennung zwischen dem Familien- und Berufsalltag und den
-        nächtlichen Taten ist das klassische SE1-Muster: Die äußere
+        nächtlichen Taten ist das klassische SP1-Muster: Die äußere
         Ordnung wird mit absolutem Aufwand aufrechterhalten, weil
         sie das Fundament des Selbstbildes ist.</p>
       </div>
@@ -16966,7 +16966,7 @@ function michailPopkowPortraitPage() {
         Nachbarn und Bekannte erinnern sich an einen normalen,
         umgänglichen Menschen. <strong>Popkow</strong> war kein Einzelgänger,
         kein Sonderling, kein sozial Isolierter – er war Teil
-        der Gemeinschaft. Die SE1w9 funktioniert in Gemeinschaften
+        der Gemeinschaft. Die SP1w9 funktioniert in Gemeinschaften
         oft gut: Sie hält Regeln ein, stört den Frieden nicht
         und macht ihre innere Welt für andere unsichtbar.</p>
       </div>
@@ -17045,7 +17045,7 @@ function michailPopkowPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE1 – „Worry / Angst":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP1 – „Worry / Angst":</strong>
         Claudio Naranjo beschrieb die selbsterhaltende Eins als den
         Subtype, der am stärksten auf materielle Sicherheit und
         praktische Funktionstüchtigkeit ausgerichtet ist.
@@ -17053,7 +17053,7 @@ function michailPopkowPortraitPage() {
         geregelter Haushalt, stabiles Einkommen – spiegelt
         diese Orientierung. Die nächtlichen Taten bedrohten
         diese Sicherheit, was die extreme Sorgfalt erklärt,
-        mit der er Spuren verwischte: Die SE1 kalkuliert
+        mit der er Spuren verwischte: Die SP1 kalkuliert
         Risiken, sie handelt nicht leichtsinnig.</p>
         <p class="vb-intro"><strong>b) Der Nine-wing als institutionelle Anpassung:</strong>
         Der Nine-wing macht die Eins sozialer, geduldiger
@@ -17105,7 +17105,7 @@ function michailPopkowPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -17133,7 +17133,7 @@ function dennisRaderPortraitPage() {
           <img src="./assets/portraits/dennis-rader-portrait.jpg" alt="Dennis Rader – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dennis Rader</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Dennis Lynn Rader</strong>, geboren am 9. März 1945 in Pittsburg, Kansas,
@@ -17153,7 +17153,7 @@ function dennisRaderPortraitPage() {
         <strong>Dennis Rader</strong> wird der <strong>Self-Preservationen Eins with Nine-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen innere Unvollkommenheit und gegen eine Welt,
-        die als ungerecht oder unkontrollierbar erlebt wird. Die selbsterhaltende Eins (SE1)
+        die als ungerecht oder unkontrollierbar erlebt wird. Die selbsterhaltende Eins (SP1)
         richtet diese Energie auf materielle Sicherheit, praktische Kontrolle und
         die Aufrechterhaltung eines tadellosen äußeren Bildes. Der Nine-wing verleiht
         ihr Geduld, Angepasstheit und eine scheinbare Wärme, die das innere Brodeln
@@ -17179,7 +17179,7 @@ function dennisRaderPortraitPage() {
         <p class="vb-intro"><strong>c) Ohne erkennbares Bedrohungspotenzial:</strong>
         Bekannte und Kollegen beschrieben Rader als gewöhnlich und manchmal
         sogar etwas langweilig. Diese absolute Unauffälligkeit ist das
-        Kennzeichen der SE1w9 in ihrer dunkelsten Ausprägung: Die Gefährlichkeit
+        Kennzeichen der SP1w9 in ihrer dunkelsten Ausprägung: Die Gefährlichkeit
         liegt vollständig unterhalb jeder wahrnehmbaren Oberfläche.</p>
       </div>
 
@@ -17220,10 +17220,10 @@ function dennisRaderPortraitPage() {
         keine moralische Bedeutung mehr trägt.</p>
         <p class="vb-intro"><strong>b) Das Verlangen nach Anerkennung als Bruchstelle:</strong>
         <strong>Rader</strong> unterscheidet sich in einem zentralen Punkt von anderen
-        SE1w9-Profilen: Er wollte als BTK bekannt sein. Er schrieb Briefe
+        SP1w9-Profilen: Er wollte als BTK bekannt sein. Er schrieb Briefe
         an Polizei und Medien, prägte den Begriff BTK selbst und kehrte
         nach 25-jährigem Schweigen zurück – weil er das Gefühl hatte,
-        vergessen zu werden. Dieses Geltungsbedürfnis ist für die SE1
+        vergessen zu werden. Dieses Geltungsbedürfnis ist für die SP1
         untypisch, aber psychologisch erklärbar: Es ist der aufgestaute
         Zorn, der Ausdruck sucht – nicht im Ausbruch, sondern in
         der Forderung nach Sichtbarkeit.</p>
@@ -17265,7 +17265,7 @@ function dennisRaderPortraitPage() {
         Zwischen 1977 und 1991 tötete <strong>Rader</strong> nicht – vierzehn Jahre Pause.
         Die BTK-Aktivitäten kehrten erst in Form von Briefen zurück,
         bevor er 2004 die Diskette schickte. Diese Fähigkeit zum
-        langen Warten ist die SE1w9 in ihrer kontrolliertesten Form:
+        langen Warten ist die SP1w9 in ihrer kontrolliertesten Form:
         Der aufgestaute Druck findet keinen sofortigen Auslass,
         er wird gehalten – manchmal jahrzehntelang.</p>
         <p class="vb-intro"><strong>b) Innere Spannung als Dauerzustand:</strong>
@@ -17326,14 +17326,14 @@ function dennisRaderPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE1 – „Worry / Angst":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP1 – „Worry / Angst":</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Eins als den Subtype
         der Sorge um materielle Sicherheit und praktische Korrektheit.
         Raders gesamte Lebensstruktur – der sichere Beamtenjob,
         das Eigenheim, die Kirchenmitgliedschaft – war auf Sicherheit
         und Unanfechtbarkeit ausgerichtet. Das BTK-Leben bedrohte
         diese Sicherheit, was die Sorgfalt der Planung erklärt:
-        Die SE1 kalkuliert Risiken aus, sie stürzt sich nicht hinein.</p>
+        Die SP1 kalkuliert Risiken aus, sie stürzt sich nicht hinein.</p>
         <p class="vb-intro"><strong>b) Nine-wing als soziale Maske:</strong>
         Der Nine-wing der Eins verleiht ihr eine soziale Zugänglichkeit
         und Wärme, die die Eins ohne ihn kaum hätte. Bei Rader war dies
@@ -17351,7 +17351,7 @@ function dennisRaderPortraitPage() {
         Einser-Selbstbildes: Ich bin eigentlich gut –
         das Böse kommt von woanders.</p>
         <p class="vb-intro"><strong>d) Das Geltungsbedürfnis als Einser-Variante:</strong>
-        Raders Hunger nach Anerkennung ist für einen SE1w9 ungewöhnlich –
+        Raders Hunger nach Anerkennung ist für einen SP1w9 ungewöhnlich –
         der Subtype neigt eher zur Unsichtbarkeit. Psychologisch lässt
         sich das jedoch als Variante des Einser-Zorns lesen:
         Der Zorn will Recht behalten. Bei Tschikatilo blieb der Zorn
@@ -17378,7 +17378,7 @@ function dennisRaderPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -17406,7 +17406,7 @@ function andreiTschikatiloPortraitPage() {
           <img src="./assets/portraits/andrei-tschikatilo-portrait.jpg" alt="Andrei Tschikatilo – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andrei Tschikatilo</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Andrei Romanowitsch Tschikatilo</strong>, geboren am 16. Oktober 1936
@@ -17424,7 +17424,7 @@ function andreiTschikatiloPortraitPage() {
         <strong>Andrei Tschikatilo</strong> wird der <strong>Self-Preservationen Eins mit Neunerfl\xfcgel</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer, aufgestauter Groll gegen innere Unvollkommenheit und gegen eine Welt,
-        die als ungerecht und demütigend erlebt wird. Die selbsterhaltende Eins (SE1) richtet
+        die als ungerecht und demütigend erlebt wird. Die selbsterhaltende Eins (SP1) richtet
         diese Energie auf materielle Sicherheit, praktische Kontrolle und die
         Aufrechterhaltung eines tadellosen \xe4u\xdferen Bildes. Der Neunerfl\xfcgel
         d\xe4mpft die sichtbare Sch\xe4rfe der Eins erheblich: Er verleiht Geduld,
@@ -17451,7 +17451,7 @@ function andreiTschikatiloPortraitPage() {
         Das Gef\xe4hrliche an Tschikatilo war gerade das Fehlen jedes Warnzeichens.
         Opfer gingen freiwillig mit ihm – er wirkte wie ein normaler Mensch.
         Diese Qualit\xe4t, keine Bedrohung auszustrahlen, ist ein Kennzeichen
-        der SE1w9 in ihrer dunkelsten Auspr\xe4gung: Die Gef\xe4hrlichkeit liegt
+        der SP1w9 in ihrer dunkelsten Auspr\xe4gung: Die Gef\xe4hrlichkeit liegt
         vollst\xe4ndig unter der Oberfl\xe4che.</p>
       </div>
 
@@ -17463,7 +17463,7 @@ function andreiTschikatiloPortraitPage() {
         Er berichtete, sein \xe4lterer Bruder sei von hungernden Nachbarn entf\xfchrt
         und gefressen worden. Ob historisch belegt oder nicht: Dieses Trauma
         pr\xe4gte sein innerstes Bild von einer Welt, die den Schwachen verschlingt.
-        F\xfcr die SE1 ist existenzielle Bedrohung das Urthema – und kaum jemand
+        F\xfcr die SP1 ist existenzielle Bedrohung das Urthema – und kaum jemand
         hat sie so fr\xfch und so radikal erfahren.</p>
         <p class="vb-intro"><strong>b) Sexuelle Dysfunktion als Schamquelle:</strong>
         <strong>Tschikatilo</strong> war impotent. Diese Dysfunktion war eine Quelle
@@ -17477,7 +17477,7 @@ function andreiTschikatiloPortraitPage() {
         Industriebetriebs, KPdSU-Parteimitglied. Er f\xfchrte ein tadelloses
         b\xfcrgerliches Leben – unscheinbar, pflichtbewusst, niemals auff\xe4llig.
         Diese F\xe4higkeit zur vollst\xe4ndigen Spaltung zwischen \xe4u\xdferer
-        Korrektheit und innerem Abgrund ist eine Extremform der SE1w9:
+        Korrektheit und innerem Abgrund ist eine Extremform der SP1w9:
         Die \xe4u\xdfere Ordnung dient als Panzerung gegen die innere Aufl\xf6sung.</p>
       </div>
 
@@ -17544,7 +17544,7 @@ function andreiTschikatiloPortraitPage() {
         <p class="vb-intro"><strong>c) Intensit\xe4t hinter Stille:</strong>
         Im Verh\xf6r nach seiner Verhaftung beschrieben Ermittler
         eine Intensit\xe4t, die pl\xf6tzlich sichtbar wurde – als habe
-        sich eine Schleuse ge\xf6ffnet. Das ist das Muster der SE1w9:
+        sich eine Schleuse ge\xf6ffnet. Das ist das Muster der SP1w9:
         Lange Stille, dann unerwartete Eruption der aufgestauten Energie.</p>
       </div>
 
@@ -17569,7 +17569,7 @@ function andreiTschikatiloPortraitPage() {
         \xfcber zw\xf6lf Jahre eine eiserne Geduld: zwischen den Taten
         lebte er sein bürgerliches Leben, wartete, kontrollierte
         den inneren Druck – bis er ihn nicht mehr kontrollieren konnte.
-        Diese Geduld ist die SE1w9 in ihrer dunkelsten Form.</p>
+        Diese Geduld ist die SP1w9 in ihrer dunkelsten Form.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
@@ -17591,11 +17591,11 @@ function andreiTschikatiloPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE1 – „Angst / Worry“:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP1 – „Angst / Worry“:</strong>
         Claudio Naranjo nannte die selbsterhaltende Eins „Angst" oder „Worry":
         Sie ist die am st\xe4rksten auf materielle Sicherheit und k\xf6rperliches
         \xdcberleben fixierte aller Einsen. Tschikatilo hatte in der Kindheit
-        existenziellen Hunger, Kälte und Verlust erlebt. Die SE1 entwickelt
+        existenziellen Hunger, Kälte und Verlust erlebt. Die SP1 entwickelt
         daraus eine chronische Wachheit gegen\xfcber Bedrohung und eine
         zwanghafte Kontrolle \xfcber das eigene Leben – als Schutz gegen
         die Wiederkehr des Urtraumas.</p>
@@ -17629,7 +17629,7 @@ function andreiTschikatiloPortraitPage() {
         weil das sowjetische System nicht glauben konnte,
         dass ein Parteimitglied und Familienmensch ein Serienm\xf6rder war.
         Seine bürgerliche Fassade schützte ihn institutionell.
-        Das ist die SE1w9 als systemische Fehlfunktion:
+        Das ist die SP1w9 als systemische Fehlfunktion:
         Das Image der Korrektheit als Schutzpanzer.</p>
         <p class="vb-intro"><strong>f) Kein Wachstum, keine Integration:</strong>
         Der Wachstumspunkt der Eins ist die Sieben – Leichtigkeit,
@@ -17645,7 +17645,7 @@ function andreiTschikatiloPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -17671,7 +17671,7 @@ function bernieMadoffPortraitPage() {
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame"><img class="krim-portrait-img" loading="lazy" src="./assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
         <p class="krim-portrait-name">Bernie Madoff</p>
-        <p class="krim-portrait-typ">SE3w4 \xb7 Self-Preservation Type 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP3w4 \xb7 Self-Preservation Type 3 mit Viererfl\xfcgel</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xf6\xdftes Ponzi-System der Geschichte \xb7 65 Mrd. Dollar \xb7 Animal correspondence: Waschb\xe4r</p>
       </div>
 
@@ -17681,17 +17681,17 @@ function bernieMadoffPortraitPage() {
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #7c5200;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        Bernie Madoff wird dem <strong>Self-Preservationen Typ 3 mit Viererfl\xfcgel (SE3w4)</strong> zugeordnet. Der SE3er ist der Kontratyp der Drei: Er inszeniert sich nicht laut und glamour\xf6s wie der SO3, sondern still, seri\xf6s, vertrauensw\xfcrdig. Der selbsterhaltende Instinkt richtet den Dreier auf materielle Sicherheit aus \u2013 Wohlstand, Besitz, Stabilit\xe4t als tiefstes Ziel. Der Viererfl\xfcgel f\xfcgt eine eigent\xfcmliche Tiefe hinzu: ein Gesp\xfcr f\xfcr das Besondere, den exklusiven Zirkel, die Einzigartigkeit des eigenen Angebots. Das Tier \u2013 der <em>Waschb\xe4r</em> \u2013 trifft den Kern: geschickt, anpassungsf\xe4hig, nachtaktiv, mit einer Maske, die zur Natur geh\xf6rt. Der Waschb\xe4r nimmt, was er braucht \u2013 leise, geschickt und ohne Drama.</p>
+        Bernie Madoff wird dem <strong>Self-Preservationen Typ 3 mit Viererfl\xfcgel (SP3w4)</strong> zugeordnet. Der SP3er ist der Kontratyp der Drei: Er inszeniert sich nicht laut und glamour\xf6s wie der SO3, sondern still, seri\xf6s, vertrauensw\xfcrdig. Der selbsterhaltende Instinkt richtet den Dreier auf materielle Sicherheit aus \u2013 Wohlstand, Besitz, Stabilit\xe4t als tiefstes Ziel. Der Viererfl\xfcgel f\xfcgt eine eigent\xfcmliche Tiefe hinzu: ein Gesp\xfcr f\xfcr das Besondere, den exklusiven Zirkel, die Einzigartigkeit des eigenen Angebots. Das Tier \u2013 der <em>Waschb\xe4r</em> \u2013 trifft den Kern: geschickt, anpassungsf\xe4hig, nachtaktiv, mit einer Maske, die zur Natur geh\xf6rt. Der Waschb\xe4r nimmt, was er braucht \u2013 leise, geschickt und ohne Drama.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
         <p class="vb-intro"><strong>a) Ruhig und vertrauenerweckend:</strong>
-        Madoff strahlte keine Energie aus, die \xfcberw\xe4ltigte oder blendete. Er war kein Marktschreier, kein Blender. Er war ruhig, sachlich, kompetent. Genau das war die Falle: Wer so wenig Aufhebens um sich macht, muss wirklich sicher sein. Der SE3-Kontratyp t\xe4uscht nicht durch \xdcbertreibung \u2013 er t\xe4uscht durch <em>Understatement</em>.</p>
+        Madoff strahlte keine Energie aus, die \xfcberw\xe4ltigte oder blendete. Er war kein Marktschreier, kein Blender. Er war ruhig, sachlich, kompetent. Genau das war die Falle: Wer so wenig Aufhebens um sich macht, muss wirklich sicher sein. Der SP3-Kontratyp t\xe4uscht nicht durch \xdcbertreibung \u2013 er t\xe4uscht durch <em>Understatement</em>.</p>
         <p class="vb-intro"><strong>b) Exklusiv und ausw\xe4hlend:</strong>
         Madoff nahm nicht jeden als Kunden. Wer bei ihm investieren durfte, f\xfchlte sich auserw\xe4hlt. Der Viererfl\xfcgel verleiht der Drei eine \xc4sthetik der Einzigartigkeit: <em>Nicht jeder kommt herein. Du bist etwas Besonderes, weil ich dich aufnehme.</em> Das war kein Zufall \u2013 das war Methode. Exklusivit\xe4t als Vertrauensmechanismus.</p>
         <p class="vb-intro"><strong>c) Warm im privaten Kreis:</strong>
-        Wer ihn pers\xf6nlich kannte, beschreibt ihn als charmant, f\xfcrsorglich, zugewandt. Er investierte in Relationships \u2013 spielte Golf mit Kunden, kannte ihre Kinder, erschien zuverl\xe4ssig zu Veranstaltungen. Der SE3er wei\xdf instinktiv: Vertrauen entsteht in der N\xe4he. Er gab N\xe4he, um Sicherheit zu kaufen.</p>
+        Wer ihn pers\xf6nlich kannte, beschreibt ihn als charmant, f\xfcrsorglich, zugewandt. Er investierte in Relationships \u2013 spielte Golf mit Kunden, kannte ihre Kinder, erschien zuverl\xe4ssig zu Veranstaltungen. Der SP3er wei\xdf instinktiv: Vertrauen entsteht in der N\xe4he. Er gab N\xe4he, um Sicherheit zu kaufen.</p>
         <p class="vb-intro"><strong>d) Leer hinter der Oberfl\xe4che:</strong>
         In sp\xe4teren Interviews beschrieb Madoff selbst eine tiefe innere Leere. Der Viererfl\xfcgel macht die Drei ahnungsf\xe4hig f\xfcr das, was fehlt \u2013 und gleichzeitig unf\xe4hig, damit wirklich umzugehen. Der Betrug lief weiter, auch als kein wirtschaftlicher Druck mehr bestand: weil die Inszenierung selbst zur einzigen Identit\xe4t geworden war.</p>
       </div>
@@ -17699,13 +17699,13 @@ function bernieMadoffPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Sicherheit durch Akkumulation:</strong>
-        Der SE3er strebt nach materiellem Fundament. Nicht nach Ruhm \u2013 nach Sicherheit. Madoff baute keine Marke um sein Gesicht herum. Er baute ein System: eine Firma, einen Ruf, ein Netzwerk. Der SE-Instinkt ist der Instinkt des Nestes, der Vorr\xe4te, der gesch\xfctzten Position. Madoffs Ponzi-System war, auf einer verdrehten Ebene, genau das: ein Nest, das er verzweifelt sch\xfctzte.</p>
+        Der SP3er strebt nach materiellem Fundament. Nicht nach Ruhm \u2013 nach Sicherheit. Madoff baute keine Marke um sein Gesicht herum. Er baute ein System: eine Firma, einen Ruf, ein Netzwerk. Der SE-Instinkt ist der Instinkt des Nestes, der Vorr\xe4te, der gesch\xfctzten Position. Madoffs Ponzi-System war, auf einer verdrehten Ebene, genau das: ein Nest, das er verzweifelt sch\xfctzte.</p>
         <p class="vb-intro"><strong>b) Die Maske als Natur:</strong>
         Der Dreier tr\xe4gt keine Maske, die er irgendwann absetzt \u2013 er <em>ist</em> die Maske. Das macht ihn so schwer zu durchschauen. Madoff hatte keine zweite, private Pers\xf6nlichkeit, die das Gegenteil seiner \xf6ffentlichen war. Er glaubte, so weit man das rekonstruieren kann, zeitweise selbst an die Stabilit\xe4t seines Systems. Die Dissoziation war vollst\xe4ndig.</p>
         <p class="vb-intro"><strong>c) Der Kontratyp: unsichtbare Drei:</strong>
-        Der SE3er ist der Typ, den man nicht als Dreier erkennt. Wo der SO3 gl\xe4nzen will, will der SE3 <em>zuverl\xe4ssig</em> sein. Keine Arroganz, keine B\xfchne. Madoffs B\xfcro war bekannt f\xfcr seine schlichte Professionalit\xe4t. Die Investmentstrategie wurde nie offengelegt \u2013 angeblich zu komplex. Genau das verf\xfchrte: Wer Diskretion ausstrahlt, scheint Integrit\xe4t zu haben.</p>
+        Der SP3er ist der Typ, den man nicht als Dreier erkennt. Wo der SO3 gl\xe4nzen will, will der SP3 <em>zuverl\xe4ssig</em> sein. Keine Arroganz, keine B\xfchne. Madoffs B\xfcro war bekannt f\xfcr seine schlichte Professionalit\xe4t. Die Investmentstrategie wurde nie offengelegt \u2013 angeblich zu komplex. Genau das verf\xfchrte: Wer Diskretion ausstrahlt, scheint Integrit\xe4t zu haben.</p>
         <p class="vb-intro"><strong>d) Viererfl\xfcgel: der Sinn f\xfcr das Besondere:</strong>
-        Der Viererfl\xfcgel f\xfcgt dem SE3 eine melancholische Tiefe hinzu und ein ausgepr\xe4gtes Gesp\xfcr f\xfcr \xc4sthetik und Exklusivit\xe4t. Madoffs Kunden waren keine Masse \u2013 es war ein ausgew\xe4hlter Kreis aus der j\xfcdischen Oberschicht, dem Showbusiness, Stiftungen. Der Vier-Fl\xfcgel erm\xf6glicht der Drei eine Art aristokratischen Stil: nicht jeder geh\xf6rt dazu. Das ist Selektion als Vertrauensstrategie.</p>
+        Der Viererfl\xfcgel f\xfcgt dem SP3 eine melancholische Tiefe hinzu und ein ausgepr\xe4gtes Gesp\xfcr f\xfcr \xc4sthetik und Exklusivit\xe4t. Madoffs Kunden waren keine Masse \u2013 es war ein ausgew\xe4hlter Kreis aus der j\xfcdischen Oberschicht, dem Showbusiness, Stiftungen. Der Vier-Fl\xfcgel erm\xf6glicht der Drei eine Art aristokratischen Stil: nicht jeder geh\xf6rt dazu. Das ist Selektion als Vertrauensstrategie.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -17722,13 +17722,13 @@ function bernieMadoffPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Drei im Spiegel</h3>
-        <p class="vb-intro">Der Typ 3 verliert sich in der Performanz. Das ist nicht Berechnung \u2013 es ist sein tiefster psychischer Mechanismus: <em>Ich bin, was ich leiste. Ich bin, was andere in mir sehen.</em> Irgendwann im Leben des SE3ers verschwimmt die Grenze zwischen dem echten Selbst und der Rolle. Madoff hatte so lange den unfehlbaren Investor gespielt, dass die Figur die Person ersetzt hatte.</p>
+        <p class="vb-intro">Der Typ 3 verliert sich in der Performanz. Das ist nicht Berechnung \u2013 es ist sein tiefster psychischer Mechanismus: <em>Ich bin, was ich leiste. Ich bin, was andere in mir sehen.</em> Irgendwann im Leben des SP3ers verschwimmt die Grenze zwischen dem echten Selbst und der Rolle. Madoff hatte so lange den unfehlbaren Investor gespielt, dass die Figur die Person ersetzt hatte.</p>
         <p class="vb-intro">Was in fr\xfchen Jahren vielleicht noch als Notl\xf6sung begann \u2013 <em>dieses eine Mal \xfcberbr\xfccke ich den Verlust</em> \u2013 wurde zur Struktur, zur Identit\xe4t, zur einzigen Welt, die er noch kannte. Der Dreier <em>glaubt</em> an seine Inszenierung. Und genau das macht ihn so gef\xe4hrlich: Er l\xfcgt nicht im \xfcblichen Sinne. Er <em>ist</em> die L\xfcge.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Viererfl\xfcgel: Tiefe im Dienst der T\xe4uschung</h3>
-        <p class="vb-intro">Ohne Viererfl\xfcgel w\xe4re Madoff vielleicht ein gieriger Betr\xfcger unter vielen. Der Viererfl\xfcgel machte ihn zu etwas Eigenartigem: einem Betr\xfcger mit Stil, mit Geschmack, mit einer fast k\xfcnstlerischen Sorgfalt in der Konstruktion seiner Welt. Die Vier sucht nach Bedeutung und Tiefe \u2013 beim SE3w4er richtet sich diese Energie auf die Einzigartigkeit des eigenen Projekts.</p>
+        <p class="vb-intro">Ohne Viererfl\xfcgel w\xe4re Madoff vielleicht ein gieriger Betr\xfcger unter vielen. Der Viererfl\xfcgel machte ihn zu etwas Eigenartigem: einem Betr\xfcger mit Stil, mit Geschmack, mit einer fast k\xfcnstlerischen Sorgfalt in der Konstruktion seiner Welt. Die Vier sucht nach Bedeutung und Tiefe \u2013 beim SP3w4er richtet sich diese Energie auf die Einzigartigkeit des eigenen Projekts.</p>
         <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Das ist der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
       </div>
 
@@ -17743,9 +17743,9 @@ function bernieMadoffPortraitPage() {
         <p class="vb-intro"><strong>a) Kein Monstrum \u2013 ein Mechanismus:</strong>
         Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Das ist die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
         <p class="vb-intro"><strong>b) Die S\xf6hne als tragischer Spiegel:</strong>
-        Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SE3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
+        Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SP3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
         <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Betr\xfcgern:</strong>
-        Samuel Bankman-Fried (SE3w4) brauchte das Narrativ des altruistischen Genies \u2013 er inszenierte sich als Retter der Welt. Ruja Ignatova (SE3w4) brauchte die B\xfchne, den Glamour, die Menge. Madoff brauchte keines davon. Er brauchte <em>Stille</em>. Diskretion. Das leise Vertrauen des Zirkels. Das ist der reinste SE3w4: nicht der lauteste Betr\xfcger, sondern der, den man am wenigsten f\xfcr einen h\xe4lt. Auch Frank Abagnale Jr. betrog auf diese stille, unauff\xe4llige Art \u2013 nicht durch Lautst\xe4rke, sondern durch Glaubw\xfcrdigkeit.</p>
+        Samuel Bankman-Fried (SP3w4) brauchte das Narrativ des altruistischen Genies \u2013 er inszenierte sich als Retter der Welt. Ruja Ignatova (SP3w4) brauchte die B\xfchne, den Glamour, die Menge. Madoff brauchte keines davon. Er brauchte <em>Stille</em>. Diskretion. Das leise Vertrauen des Zirkels. Das ist der reinste SP3w4: nicht der lauteste Betr\xfcger, sondern der, den man am wenigsten f\xfcr einen h\xe4lt. Auch Frank Abagnale Jr. betrog auf diese stille, unauff\xe4llige Art \u2013 nicht durch Lautst\xe4rke, sondern durch Glaubw\xfcrdigkeit.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #7c5200;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
@@ -17771,9 +17771,9 @@ function bernieMadoffPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SE3w4) \u2013 FTX-Betrug"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SE3w4) \u2013 Die Cryptoqueen"},
-        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SE3w4) \u2013 Der Hochstapler"}
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SP3w4) \u2013 FTX-Betrug"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4) \u2013 Die Cryptoqueen"},
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SP3w4) \u2013 Der Hochstapler"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
@@ -17792,7 +17792,7 @@ function arnoFunkePortraitPage() {
           <img src="./assets/portraits/arno-funke-portrait.jpg" alt="Arno Funke – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Arno Funke</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Arno Funke</strong>, besser bekannt als „Dagobert“, ist einer der bekanntesten deutschen
@@ -17810,7 +17810,7 @@ function arnoFunkePortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tiefer innerer Groll gegen das, was falsch l\xe4uft, gegen Ungerechtigkeit
         und gegen ein System, das man als korrumpiert erlebt. Die selbsterhaltende
-        Eins (SE1) richtet diese Energie auf materielle Sicherheit und praktische
+        Eins (SP1) richtet diese Energie auf materielle Sicherheit und praktische
         Pflicht: Sie sorgt sich chronisch darum, dass die Dinge des t\xe4glichen Lebens
         richtig funktionieren, und reagiert auf existenzielle Not mit akribischer,
         methodischer L\xf6sungssuche. Der Neunerfl\xfcgel mildert die Sch\xe4rfe der Eins
@@ -17833,7 +17833,7 @@ function arnoFunkePortraitPage() {
         Neunerfl\xfcgels.</p>
         <p class="vb-intro"><strong>c) Ohne Aggression:</strong>
         Anders als viele Kriminelle wirkte Funke nie bedrohlich. Sein Blick
-        signalisierte keine Dominanz, sondern Konzentration. Das ist die SE1w9
+        signalisierte keine Dominanz, sondern Konzentration. Das ist die SP1w9
         in ihrer zivilen Auspr\xe4gung: Intensit\xe4t ohne Gef\xe4hrlichkeit.</p>
       </div>
 
@@ -17941,14 +17941,14 @@ function arnoFunkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE1 – „Angst / Worry“:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP1 – „Angst / Worry“:</strong>
         Claudio Naranjo nannte die selbsterhaltende Eins „Angst“ oder „Worry“:
         Sie ist von allen Einsen die am st\xe4rksten auf materielle Sicherheit
         fixierte. Chronische Sorge um das praktische \xdcberleben, um das
-        Funktionieren der Dinge des Alltags – das ist der Kern der SE1.
+        Funktionieren der Dinge des Alltags – das ist der Kern der SP1.
         Funkes Erpressung war kein Abenteuer, sondern eine Antwort auf
         existenzielle Bedrohung: Seine Werkstatt stand vor dem Aus.
-        Die SE1 l\xf6st Probleme – methodisch, kontrolliert, vollst\xe4ndig.</p>
+        Die SP1 l\xf6st Probleme – methodisch, kontrolliert, vollst\xe4ndig.</p>
         <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel – Geduld und Gewaltlosigkeit:</strong>
         Der Neunerfl\xfcgel d\xe4mpft die Sch\xe4rfe und Kritik der Eins erheblich.
         Er gibt ihr Geduld, eine tiefere Harmonieneigung und einen
@@ -17988,7 +17988,7 @@ function arnoFunkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -18083,7 +18083,7 @@ function chrisWattsPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Typ 7 als Kontratyp – wie die Sieben hinter Pflicht und Aufopferung ihre eigene Maßlosigkeit verbirgt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert – Ma\xdflosigkeit, Zukunftsflucht und der Heilungsweg \xfcber N\xfcchternheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -18095,7 +18095,7 @@ function chrisWattsPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-p-diddy", label:"Criminal Psychology: P. Diddy – Sean Combs (SX7w8)"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel (SE7w8)"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel (SP7w8)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
       ])}
     </div>
@@ -18280,7 +18280,7 @@ function aileenWuornosPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Gier bei SE7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Gier bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Gier, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -18291,9 +18291,9 @@ function aileenWuornosPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SE7w8)"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
         {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4) – Mutter als Täterin"},
-        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SE3w4) – Frau als Täterin"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Frau als Täterin"},
       ])}
     </div>
   `);
@@ -18545,7 +18545,7 @@ function pDiddyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SE7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Persönlichkeiten in dir")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Maßlosigkeit, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -18558,7 +18558,7 @@ function pDiddyPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
-        {route:"kriminalpsychologie-griselda-blanco", label:"Criminal Psychology: Griselda Blanco (SE8w9)"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Criminal Psychology: Griselda Blanco (SP8w9)"},
         {route:"portrait-typ-7", label:"Typporträt: Der Typ 7 im Überblick"},
       ])}
     </div>
@@ -18576,7 +18576,7 @@ function grisdaBlancoPortraitPage() {
           <img src="./assets/portraits/griselda-blanco-portrait.jpg" alt="Griselda Blanco – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Griselda Blanco</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 mit Neunerfl\xfcgel</p>
         <p class="krim-portrait-sub">Die Patin von Medell\xedn, Miami 1970er&ndash;1985 &ndash; Animal correspondence: Orang-Utan</p>
       </div>
 
@@ -18588,13 +18588,13 @@ function grisdaBlancoPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Acht: Macht als \xdcberlebensgarantie</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 8 (SE8)</strong> unterscheidet sich grundlegend von der sozialen oder sexuellen Acht. Claudio Naranjo nennt diesen Subtype &bdquo;Satisfactory Survival&ldquo; &ndash; \xdcberleben durch pers\xf6nliche Machtakkumulation. Die selbsterhaltende Acht baut kein soziales K\xf6nigreich wie die soziale Acht, sie verschmilzt nicht mit einer Person wie die sexuelle Acht. Sie sichert sich selbst ab. Ihr Territorium ist materiell, konkret, pers\xf6nlich.</p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 8 (SP8)</strong> unterscheidet sich grundlegend von der sozialen oder sexuellen Acht. Claudio Naranjo nennt diesen Subtype &bdquo;Satisfactory Survival&ldquo; &ndash; \xdcberleben durch pers\xf6nliche Machtakkumulation. Die selbsterhaltende Acht baut kein soziales K\xf6nigreich wie die soziale Acht, sie verschmilzt nicht mit einer Person wie die sexuelle Acht. Sie sichert sich selbst ab. Ihr Territorium ist materiell, konkret, pers\xf6nlich.</p>
         <p class="vb-intro">Die Leidenschaft der Acht ist <em>Wollust</em> &ndash; nicht im engen sexuellen Sinne, sondern als \xfcberwältigende Lebensintensit\xe4t. Bei der selbsterhaltenden Acht richtet sich diese Intensit\xe4t auf Ressourcen, Kontrolle und pers\xf6nliche Unantastbarkeit. Griselda Blanco kam aus dem \xe4rmsten Milieu Kolumbiens. Armut hatte sie als Kind fast vernichtet. Die Acht in ihr zog daraus eine Konsequenz, die so einfach wie gnadenlos war: <em>Niemals wieder.</em></p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Neunerfl\xfcgel: Geduld, Kalk\xfcl, stille Kontrolle</h3>
-        <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> verleiht der selbsterhaltenden Acht eine entscheidende Qualit\xe4t: Geduld. Wo die SE8w7 explosiv und risikofreudig agiert, wirkt die SE8w9 ruhiger, berechnender, langfristiger. Der Neunerfl\xfcgel d\xe4mpft die Impulsivit\xe4t und verst\xe4rkt das Strategische. Die SE8w9 wartet. Beobachtet. Handelt im richtigen Moment &ndash; und dann vollst\xe4ndig.</p>
+        <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> verleiht der selbsterhaltenden Acht eine entscheidende Qualit\xe4t: Geduld. Wo die SP8w7 explosiv und risikofreudig agiert, wirkt die SP8w9 ruhiger, berechnender, langfristiger. Der Neunerfl\xfcgel d\xe4mpft die Impulsivit\xe4t und verst\xe4rkt das Strategische. Die SP8w9 wartet. Beobachtet. Handelt im richtigen Moment &ndash; und dann vollst\xe4ndig.</p>
         <p class="vb-intro">Bei Griselda Blanco war dieser Fl\xfcgel unverkennbar. Sie operierte jahrzehntelang im Verborgenen, baute Strukturen auf, die auch ohne sie funktionierten, und ließ Mittelm\xe4nner f\xfcr sie arbeiten. Sie war selten direkt sichtbar &ndash; und genau das machte sie so gef\xe4hrlich. Der Neunerfl\xfcgel gab ihr die Ruhe des Orang-Utans: keine unn\xf6tige Bewegung, keine unn\xf6tige Gefahr. Nur das Notwendige &ndash; aber das mit absoluter Konsequenz.</p>
       </div>
 
@@ -18627,7 +18627,7 @@ function grisdaBlancoPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) \xdcberleben als tiefstes Motiv:</strong> Griselda Blanco begann nicht als Verbrecherin aus Gier oder Ideologie. Sie begann als jemand, der in einer Welt aufwuchs, in der Schw\xe4che den Tod bedeutete. Die selbsterhaltende Acht zieht aus einer solchen Kindheit eine strukturelle Konsequenz: Macht ist Sicherheit. Ressourcen sind Sicherheit. Wer nichts hat, ist schutzlos. Dieses Muster ließ sich sp\xe4ter nicht mehr abschalten &ndash; auch dann nicht, als die materielle Not l\xe4ngst \xfcberwunden war.</p>
-        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als strategischer Vorteil:</strong> Was Griselda Blanco von vielen m\xe4nnlichen Kartellfiguren unterschied, war ihre F\xe4higkeit, unsichtbar zu bleiben. Die SE8w7 sucht die Konfrontation, genießt Macht sichtbar. Die SE8w9 verwaltet Macht still. Griselda Blanco blieb jahrzehntelang im Verborgenen, w\xe4hrend die M\xe4nner um sie herum starben. Der Neunerfl\xfcgel rettete ihr mehrfach das Leben.</p>
+        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als strategischer Vorteil:</strong> Was Griselda Blanco von vielen m\xe4nnlichen Kartellfiguren unterschied, war ihre F\xe4higkeit, unsichtbar zu bleiben. Die SP8w7 sucht die Konfrontation, genießt Macht sichtbar. Die SP8w9 verwaltet Macht still. Griselda Blanco blieb jahrzehntelang im Verborgenen, w\xe4hrend die M\xe4nner um sie herum starben. Der Neunerfl\xfcgel rettete ihr mehrfach das Leben.</p>
         <p class="vb-intro"><strong>c) Mutterschaft und Machtlogik:</strong> Sie k\xe4mpfte um ihre S\xf6hne mit derselben Kompromisslosigkeit, mit der sie ihr Gesch\xe4ft f\xfchrte. Als ihr dritter Mann ihren j\xfcngsten Sohn Michael entf\xfchrte, lie\xdf sie ihn t\xf6ten. Das ist keine Pathologie der Lieblosigkeit &ndash; das ist die selbsterhaltende Acht, die alles, was ihr geh\xf6rt, mit absoluter Konsequenz sch\xfctzt. Ihr Revier umfasste auch ihre Kinder.</p>
         <p class="vb-intro"><strong>d) Die eigene Methode als Ende:</strong> Dass sie durch einen Moto Sicario get\xf6tet wurde &ndash; exakt die Methode, die sie selbst entwickelt und verfeinert hatte &ndash; ist mehr als tragische Ironie. Es zeigt, was die selbsterhaltende Acht in der Pathologie \xfcbersieht: Die Welt, die man durch Gewalt kontrolliert, bleibt eine Welt voller Gewalt. Es gibt kein sicheres Ende in einem System, das man selbst auf Angst gebaut hat.</p>
       </div>
@@ -18642,14 +18642,14 @@ function grisdaBlancoPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Griselda Blanco Restrepo</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE8w9 &ndash; Self-Preservation Type 8 mit Neunerfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP8w9 &ndash; Self-Preservation Type 8 mit Neunerfl\xfcgel</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Wollust (als Macht- und Ressourcenkontrolle aus absolutem \xdcberlebenswillen)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Orang-Utan</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 15. Februar 1943 &ndash; 3. September 2012</span>
           <span style="display:block;"><strong>Verbrechen:</strong> Aufbau des ersten Kokain-Netzwerks Miami&ndash;Kolumbien; sch\xe4tzungsweise \xfcber 200 Morde in Auftrag gegeben; verurteilt 1994; erschossen 2012 in Medell\xedn durch einen Moto Sicario</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei SE8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SE8 so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SP8 so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -18659,7 +18659,7 @@ function grisdaBlancoPortraitPage() {
 
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SE8w9)"},
+          {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9)"},
           {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SO8w7)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
         ])}
@@ -18678,7 +18678,7 @@ function salvatoreRiinaPortraitPage() {
           <img src="./assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Salvatore Riina</p>
-        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Sizilianischer Mafia-Boss und Massenmörder · Animal correspondence: Orang-Utan</p>
       </div>
 
@@ -18700,7 +18700,7 @@ function salvatoreRiinaPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Acht ist <em>Wollust</em> –
         nicht im sexuellen Sinne, sondern als \xfcberm\xe4\xdfige Intensit\xe4t, als Hunger
         nach Kontrolle, Macht und der F\xe4higkeit, die eigene Welt zu dominieren.
-        Die selbsterhaltende Acht (SE8) richtet diese Energie auf territoriale Sicherheit:
+        Die selbsterhaltende Acht (SP8) richtet diese Energie auf territoriale Sicherheit:
         Sie sichert ihren Bereich, ihre Familie, ihre Ressourcen – und eliminiert
         kompromisslos jede Bedrohung. Der Neunerfl\xfcgel mildert die \xe4u\xdfere Pr\xe4senz
         erheblich: Er gibt der Acht eine scheinbare Ruhe, eine F\xe4higkeit zum
@@ -18725,7 +18725,7 @@ function salvatoreRiinaPortraitPage() {
         In seinem Blick war kein Raum f\xfcr Unsicherheit oder Empathie mit
         denen, die er als Bedrohung einstufte. Die Acht schaut die Welt
         durch die Linse von St\xe4rke und Schw\xe4che – und Schw\xe4che
-        ist f\xfcr die SE8 eine Einladung zur Ausbeutung oder Elimination.</p>
+        ist f\xfcr die SP8 eine Einladung zur Ausbeutung oder Elimination.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -18737,12 +18737,12 @@ function salvatoreRiinaPortraitPage() {
         alles musste unter seiner Kontrolle stehen oder beseitigt werden.</p>
         <p class="vb-intro"><strong>b) Absolute Loyalit\xe4t zur Kerngruppe:</strong>
         <strong>Riina</strong> war seinen Corleoneser Clan-Angeh\xf6rigen gegen\xfcber tief loyal
-        und sch\xfctzend – das typische SE8-Muster: nach innen stark f\xfcrsorgend,
+        und sch\xfctzend – das typische SP8-Muster: nach innen stark f\xfcrsorgend,
         nach au\xdfen kompromisslos hart. Die Acht teilt die Welt in wenige
         echte Vertraute und den Rest.</p>
         <p class="vb-intro"><strong>c) Kompromisslose Eskalation bei Bedrohung:</strong>
         Als Riina die rivalisierende Mafia-F\xfchrung als Bedrohung einstufte,
-        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Das ist die SE8
+        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Das ist die SP8
         unter existenziellem Druck: kein Verhandeln, kein halbes Ma\xdf –
         sondern die vollst\xe4ndige Ausl\xf6schung der Bedrohungsquelle.</p>
       </div>
@@ -18760,12 +18760,12 @@ function salvatoreRiinaPortraitPage() {
         Der Neunerfl\xfcgel gab Riina eine Geduld, die bei einer Acht
         ungew\xf6hnlich ist. Er wartete Jahrzehnte auf den richtigen Moment,
         lebte 23 Jahre im Verborgenen ohne Ungeduld oder \xdcberheblichkeit.
-        Das ist die SE8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
+        Das ist die SP8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
         den eigenen Angriffstrieb so lange zu z\xfcgeln, bis der Zeitpunkt stimmt.</p>
         <p class="vb-intro"><strong>c) Einsch\xfccherung als Kommunikation:</strong>
         <strong>Riina</strong> musste selten laut werden. Seine Reputation war sein Werkzeug –
         der Ruf allein gen\xfcgte, um Gehorsam zu erzeugen. Das ist eine
-        SE8w9-Qualit\xe4t: Macht durch Pr\xe4senz statt durch Larm. Die Neun
+        SP8w9-Qualit\xe4t: Macht durch Pr\xe4senz statt durch Larm. Die Neun
         verst\xe4rkt die stille Dimension der Acht.</p>
       </div>
 
@@ -18774,7 +18774,7 @@ function salvatoreRiinaPortraitPage() {
         <p class="vb-intro"><strong>a) Unscheinbar und \xfcberwältigend zugleich:</strong>
         <strong>Riina</strong> war k\xf6rperlich klein – der Spitzname „der Kurze" war nicht
         zuf\xe4llig. Und doch war seine Wirkung auf den Raum \xfcberw\xe4ltigend.
-        Das ist das Paradox der SE8w9: Au\xdfen ruhig und zur\xfcckgenommen,
+        Das ist das Paradox der SP8w9: Au\xdfen ruhig und zur\xfcckgenommen,
         innen eine Kraft, die jeden im Raum sp\xfcrte.</p>
         <p class="vb-intro"><strong>b) Unlesbar f\xfcr Feinde:</strong>
         Riinas Feinde konnten seine Absichten selten rechtzeitig erkennen.
@@ -18801,7 +18801,7 @@ function salvatoreRiinaPortraitPage() {
         <p class="vb-intro"><strong>c) Keine verschwendete Energie:</strong>
         <strong>Riina</strong> agierte \xf6konomisch. Keine Auftritte, kein Protz, keine
         unn\xf6tigen Konflikte – nur Handlungen, die seiner Machtsicherung
-        dienten. Das ist SE8-Effizienz: alle Kraft f\xfcr das Wesentliche,
+        dienten. Das ist SP8-Effizienz: alle Kraft f\xfcr das Wesentliche,
         nichts f\xfcr das Nebens\xe4chliche.</p>
       </div>
 
@@ -18842,7 +18842,7 @@ function salvatoreRiinaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE8 – territoriale Befriedigung:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP8 – territoriale Befriedigung:</strong>
         Claudio Naranjo nannte die selbsterhaltende Acht „Befriedigung":
         Sie ist die Acht, die ihre Leidenschaft – die \xfcbersteigerte Intensit\xe4t
         und den Hunger nach Kontrolle – direkt auf die materielle und
@@ -18856,11 +18856,11 @@ function salvatoreRiinaPortraitPage() {
         unter falschen Namen, umgeben von normalen Menschen – w\xe4ren f\xfcr
         eine „reine" Acht ohne Neunerfl\xfcgel kaum m\xf6glich gewesen.
         Der Fl\xfcgel gab ihm die F\xe4higkeit zur Anpassung und zum Zur\xfcckhalten.</p>
-        <p class="vb-intro"><strong>c) Der Corleoneser Mafia-Krieg als SE8-Eskalation:</strong>
+        <p class="vb-intro"><strong>c) Der Corleoneser Mafia-Krieg als SP8-Eskalation:</strong>
         In den 1980er Jahren initiierte Riina den brutalen Vernichtungskrieg
         gegen die traditionelle Mafia-F\xfchrung (die Kommission) und lie\xdf
         rivalisierende Bosse, deren Familien und Verbündete systematisch
-        t\xf6ten. Das ist SE8-Logik in ihrer extremsten Form: Wenn das Territorium
+        t\xf6ten. Das ist SP8-Logik in ihrer extremsten Form: Wenn das Territorium
         bedroht ist, gibt es keine halben Ma\xdfnahmen. Entweder totale Kontrolle
         oder totale Ausl\xf6schung der Bedrohung.</p>
         <p class="vb-intro"><strong>d) Entspannungspunkt Zwei – F\xfcrsorglichkeit im Inneren:</strong>
@@ -18878,7 +18878,7 @@ function salvatoreRiinaPortraitPage() {
         Strategie des \xdcberlebens.</p>
         <p class="vb-intro"><strong>f) Macht ohne Repr\xe4sentation:</strong>
         <strong>Riina</strong> prunkte nicht. Keine Villen, keine \xf6ffentlichen Auftritte,
-        kein Protz – er lebte schlicht. Das unterscheidet die SE8 von
+        kein Protz – er lebte schlicht. Das unterscheidet die SP8 von
         anderen Machttypen: Macht ist f\xfcr sie Sicherheitsinstrument,
         nicht Bühne. Der Orang-Utan baut keinen Palast –
         er beansprucht den Wald.</p>
@@ -18886,7 +18886,7 @@ function salvatoreRiinaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\xfchrlich portr\xe4tiert – Wollust, Macht und der Heilungsweg \xfcber echte St\xe4rke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -18980,7 +18980,7 @@ function jeffreyEpsteinPortraitPage() {
         sie schafft Abh\xe4ngigkeit.</p>
         <p class="vb-intro"><strong>c) Unantastbarkeit als Ziel:</strong>
         <strong>Epstein</strong> arrangierte sein Leben so, dass er \xfcber dem Gesetz stand.
-        Das ist das tiefste Motiv der SE8: nicht Reichtum um seiner selbst
+        Das ist das tiefste Motiv der SP8: nicht Reichtum um seiner selbst
         willen, sondern Sicherheit durch absolute Macht. Niemand kann
         mich ber\xfchren – das ist das Lebensprinzip der Acht
         in ihrer dunkelsten Auspr\xe4gung.</p>
@@ -19140,7 +19140,7 @@ function jeffreyEpsteinPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\xfchrlich portr\xe4tiert – Wollust, Macht und der Heilungsweg \xfcber echte St\xe4rke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -19168,7 +19168,7 @@ function samuelBankmanFriedPortraitPage() {
           <img src="./assets/portraits/samuel-bankman-fried-portrait.jpg" alt="Samuel Bankman-Fried – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Samuel Bankman-Fried</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Samuel „Sam" Bankman-Fried</strong>, geboren am 5. März 1992,
@@ -19195,13 +19195,13 @@ function samuelBankmanFriedPortraitPage() {
         das tiefe Bedürfnis, durch Leistung und Erfolg zu existieren,
         das eigene Bild konsequent auf Wirkung auszurichten
         und Gefühle dem Funktionieren unterzuordnen.
-        Die selbsterhaltende Drei (SE3) richtet diese Energie
+        Die selbsterhaltende Drei (SP3) richtet diese Energie
         auf materielle Sicherheit, Effizienz und praktischen Erfolg –
         sie ist weniger auf öffentliche Bewunderung als auf
         tatsächliche Leistungsfähigkeit ausgerichtet.
         Der Four-wing verleiht ihr Tiefe, emotionale Intensität
         und eine Sehnsucht nach Bedeutung jenseits des bloßen Erfolgs:
-        Der SE3w4er will nicht nur gewinnen, er will,
+        Der SP3w4er will nicht nur gewinnen, er will,
         dass sein Gewinn etwas bedeutet.
         Bei Bankman-Fried verschmolzen diese Elemente
         zu einer Figur, die sich als altruistischen Vorreiter inszenierte,
@@ -19382,18 +19382,18 @@ function samuelBankmanFriedPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) SE3 – der Kontratyp:</strong>
+        <p class="vb-intro"><strong>a) SP3 – der Kontratyp:</strong>
         Die selbsterhaltende Drei ist der Kontratyp –
         der Einser-Subtype der Drei, der am wenigsten
         nach einer Drei aussieht.
-        Der SE3er will nicht bewundert werden;
+        Der SP3er will nicht bewundert werden;
         er will liefern, funktionieren, gewinnen.
         <strong>Bankman-Frieds</strong> gesamter Auftritt –
         die zerknitterten Shorts, das ungekämmte Haar,
         das absichtlich Unfertige – war die Inszenierung
         von Effizienz als Wert: Ich tue nicht so,
         als würde ich gut aussehen, ich tue Dinge, die zählen.
-        Das ist die SE3 als Selbstbild.</p>
+        Das ist die SP3 als Selbstbild.</p>
         <p class="vb-intro"><strong>b) Der Four-wing und das altruistische Narrativ:</strong>
         Der Four-wing der Drei bringt das Bedürfnis nach Tiefe,
         nach Bedeutung, nach einer Geschichte,
@@ -19416,7 +19416,7 @@ function samuelBankmanFriedPortraitPage() {
         Das ist die Drei in der Desintegration:
         Wenn Erfolg nicht mehr möglich ist,
         schaltet sie ab.</p>
-        <p class="vb-intro"><strong>d) Vergleich mit Ruja Ignatova (SE3w4):</strong>
+        <p class="vb-intro"><strong>d) Vergleich mit Ruja Ignatova (SP3w4):</strong>
         Beide sind selbsterhaltende Dreien with Four-wing,
         beide im Kryptobereich tätig,
         beide mit einer narrativen Hülle um ihr Vergehen:
@@ -19452,8 +19452,8 @@ function samuelBankmanFriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE3 im Vergleich mit SO3 und SX3 – Kontratyp-Dynamik und das Dreier-Muster der Selbsterhaltung.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 im Vergleich mit SO3 und SX3 – Kontratyp-Dynamik und das Dreier-Muster der Selbsterhaltung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Maske und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -19463,8 +19463,8 @@ function samuelBankmanFriedPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SE3w4)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3)"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
       ])}
     </div>
@@ -19481,7 +19481,7 @@ function rujaIgnatovaPortraitPage() {
           <img src="./assets/portraits/ruja-ignatova-portrait.jpg" alt="Ruja Ignatova – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ruja Ignatova</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Bulgarisch-deutsche Betrügerin, „Cryptoqueen" · Animal correspondence: Waschbär</p>
       </div>
 
@@ -19503,7 +19503,7 @@ function rujaIgnatovaPortraitPage() {
         <strong>Ruja Ignatova</strong> wird der <strong>Self-Preservationen Drei mit Viererfl\xfcgel</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>T\xe4uschung</em> –
         das Erschaffen eines Bildes von Erfolg, das den eigentlichen Kern verbirgt.
-        Die selbsterhaltende Drei (SE3) richtet diese Energie auf materielle Sicherheit
+        Die selbsterhaltende Drei (SP3) richtet diese Energie auf materielle Sicherheit
         und die Absicherung durch Leistung und Ansehen: Sie akkumuliert Ressourcen,
         Status und Einfluss als Schutzwall. Der Viererfl\xfcgel verleiht ihr eine
         dramatische Tiefe, eine Sehnsucht nach Einzigartigkeit und einen Sinn f\xfcr
@@ -19536,18 +19536,18 @@ function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>a) Meisterhafte Selbstinszenierung:</strong>
         <strong>Ignatova</strong> verstand Auftritte als Kunstform. Arenas, Opernbühnen, funkelnde
         Kleider, pathetische Reden – das war keine Eitelkeit, sondern Kalkül.
-        Die SE3 wei\xdf: Image ist Kapital. Wer gro\xdf genug wirkt, wird nicht
+        Die SP3 wei\xdf: Image ist Kapital. Wer gro\xdf genug wirkt, wird nicht
         in Frage gestellt.</p>
         <p class="vb-intro"><strong>b) Akademische Legitimation als Werkzeug:</strong>
         Sie betonte ihren Doktortitel, ihre Oxford-Ausbildung, ihre intellektuelle
         Überlegenheit – und das nicht aus Eitelkeit, sondern als Strategie.
-        Die SE3w4 ben\xf6tigt Kompetenzbelege als Schutzwall: Wer die Professorin
+        Die SP3w4 ben\xf6tigt Kompetenzbelege als Schutzwall: Wer die Professorin
         anzweifelt, zweifelt nicht nur am Produkt, sondern an sich selbst.
         Der Viererfl\xfcgel f\xfcgt dabei die Dimension intellektueller Einzigartigkeit
         hinzu: nicht nur erfolgreich, sondern tiefgr\xfcndig anders.</p>
         <p class="vb-intro"><strong>c) Globaler Ma\xdfstab als Schutz:</strong>
         Indem Ignatova ihr System auf alle Kontinente ausdehnte, schuf sie
-        eine Komplexit\xe4t, die Aufdeckung erschwerte. Die SE3 sichert sich ab –
+        eine Komplexit\xe4t, die Aufdeckung erschwerte. Die SP3 sichert sich ab –
         je gr\xf6\xdfer das System, desto schwerer greifbar.</p>
       </div>
 
@@ -19564,7 +19564,7 @@ function rujaIgnatovaPortraitPage() {
         zu wechseln, ist die Drei in ihrer extremsten Auspr\xe4gung:
         kein fester Kern, sondern reine Anpassung.</p>
         <p class="vb-intro"><strong>c) Materielle Sicherung als tiefstes Motiv:</strong>
-        Hinter der Vision\xe4rin stand eine SE3-Grundmotivation: Akkumulation
+        Hinter der Vision\xe4rin stand eine SP3-Grundmotivation: Akkumulation
         von Ressourcen als Schutz. Milliarden auf Konten, Immobilien,
         Fluchtnetzwerke – die selbsterhaltende Drei baut ein Sicherheitsnetz
         aus Kapital, das niemand ihr nehmen kann.</p>
@@ -19596,7 +19596,7 @@ function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>b) Dramatisch und emotional aufgeladen:</strong>
         Der Viererfl\xfcgel gibt der Energie eine emotionale Tiefe.
         Ignatova sprach von Mission, von Ver\xe4nderung der Welt, von
-        historischer Bedeutung. Diese Dramatik ist SE3w4 pur:
+        historischer Bedeutung. Diese Dramatik ist SP3w4 pur:
         nicht nur erfolgreich sein, sondern bedeutsam sein.</p>
         <p class="vb-intro"><strong>c) K\xfchl dahinter:</strong>
         Wer n\xe4her heranr\xfcckte, sp\xfcrte die K\xe4lte hinter der Ausstrahlung.
@@ -19639,11 +19639,11 @@ function rujaIgnatovaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE3 – Sicherheit durch Leistungsbild:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP3 – Sicherheit durch Leistungsbild:</strong>
         Claudio Naranjo beschrieb die selbsterhaltende Drei als den Subtype,
         der Sicherheit durch das Bild von Leistung und Erfolg anstrebt.
         Anders als die soziale Drei, die Prestige in der Gruppe sucht,
-        akkumuliert die SE3 Ressourcen als Sch\xfctzwall: Geld, Immobilien,
+        akkumuliert die SP3 Ressourcen als Sch\xfctzwall: Geld, Immobilien,
         Netzwerke, die unantastbar machen. Ignatovas Milliarden waren
         nicht Selbstzweck – sie waren materielle Sicherheit in ihrer
         reinsten Form.</p>
@@ -19678,13 +19678,13 @@ function rujaIgnatovaPortraitPage() {
         Geschichte nicht abgeschlossen. Sie ist auf der Flucht.
         Das FBI, Interpol und zahlreiche Beh\xf6rden suchen sie.
         Die Cryptoqueen existiert noch – irgendwo, in irgendeiner
-        neuen Rolle. Das ist das letzte, dunkelste Kapitel der SE3w4:
+        neuen Rolle. Das ist das letzte, dunkelste Kapitel der SP3w4:
         die Drei, die nie aufh\xf6rt, sich neu zu erschaffen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich T\xe4uschung bei den drei Dreier-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -19712,7 +19712,7 @@ function johnWayneGacyPortraitPage() {
           <img src="./assets/portraits/john-wayne-gacy-portrait.jpg" alt="John Wayne Gacy – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Wayne Gacy</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Killer Clown" · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -19736,7 +19736,7 @@ function johnWayneGacyPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
         das \xdcberzeugtsein, durch F\xfcrsorge, Einsatz und gesellschaftliche Pr\xe4senz
         besonderen Schutz und besondere Rechte zu verdienen.
-        Die selbsterhaltende Zwei (SE2) – von Naranjo als „Privileg" beschrieben –
+        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
         sichert ihre Stellung durch Geben: durch Arbeit, Anwesenheit, Gro\xdfz\xfcgigkeit.
         Der Dreierfl\xfcgel verleiht ihr ein ausgepr\xe4gtes Gef\xfchl f\xfcr Images
         und Rollen: Gacy wusste genau, welche Erscheinung in welchem Kontext
@@ -19769,7 +19769,7 @@ function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>a) Helfen als Zugang und Schutz:</strong>
         <strong>Gacy</strong> stellte junge Männer in seinem Bauunternehmen ein,
         lud sie ein, gab Arbeit und Struktur.
-        Das ist SE2-Helfen in seiner dunkelsten Form:
+        Das ist SP2-Helfen in seiner dunkelsten Form:
         F\xfcrsorge als Mittel der Ann\xe4herung, nicht als Selbstzweck.</p>
         <p class="vb-intro"><strong>b) Gemeinschaft als Schutzschild:</strong>
         Sein gesellschaftliches Engagement war kein Schmuck –
@@ -19782,7 +19782,7 @@ function johnWayneGacyPortraitPage() {
         Im Gef\xe4ngnis, nach der Verurteilung, im Todestrakt
         zeigte Gacy keine echte Reue – er malte Clownsbilder,
         gab Interviews und bestand darauf, missverstanden worden zu sein.
-        Die SE2 im schweren Stolz kann Schuld nicht integrieren:
+        Die SP2 im schweren Stolz kann Schuld nicht integrieren:
         Sie existiert nicht in ihrem Selbstbild.</p>
       </div>
 
@@ -19798,7 +19798,7 @@ function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>b) Kontrolle \xfcber Abh\xe4ngige:</strong>
         <strong>Gacy</strong> suchte bewusst junge, wirtschaftlich verletzliche M\xe4nner –
         Angestellte, die ihm etwas schuldeten oder von ihm abh\xe4ngig waren.
-        Das ist SE2-Kontrolle durch F\xfcrsorge:
+        Das ist SP2-Kontrolle durch F\xfcrsorge:
         Verbindlichkeit erzeugen, dann ausnutzen.</p>
         <p class="vb-intro"><strong>c) Grandioses Selbstbild bis zuletzt:</strong>
         <strong>Gacy</strong> sah sich als bedeutenden Menschen, dem Unrecht geschah.
@@ -19893,8 +19893,8 @@ function johnWayneGacyPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 und das Privileg:</strong>
-        Naranjo beschreibt die SE2 als den Subtype,
+        <p class="vb-intro"><strong>a) Naranjos SP2 und das Privileg:</strong>
+        Naranjo beschreibt die SP2 als den Subtype,
         der sein Geben als Anspruch versteht.
         Bei Gacy war dieser Anspruch absolut:
         Er glaubte, durch seinen gesellschaftlichen Einsatz
@@ -19907,8 +19907,8 @@ function johnWayneGacyPortraitPage() {
         dass keine Inkonsistenz sichtbar wird.
         Gacy war nicht Schauspieler – er war Verwandlungsk\xfcnstler.</p>
         <p class="vb-intro"><strong>c) Vergleich mit Harvey Weinstein:</strong>
-        Weinstein (SE2w1) nutzte Macht und moralische Selbstrechtfertigung.
-        Gacy (SE2w3) nutzte Charme und gesellschaftliche Integration.
+        Weinstein (SP2w1) nutzte Macht und moralische Selbstrechtfertigung.
+        Gacy (SP2w3) nutzte Charme und gesellschaftliche Integration.
         Beide zeigen das Zweier-Privileg – aber in verschiedenen Auspr\xe4gungen:
         der Einserfl\xfcgel moralisiert, der Dreierfl\xfcgel inszeniert.</p>
         <p class="vb-intro"><strong>d) Entspannungspunkt Vier – vollst\xe4ndig blockiert:</strong>
@@ -19933,8 +19933,8 @@ function johnWayneGacyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierfl\xfcgel.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierfl\xfcgel.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -19962,7 +19962,7 @@ function belleGunnessPortraitPage() {
           <img src="./assets/portraits/belle-gunness-portrait.jpg" alt="Belle Gunness – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Belle Gunness</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 mit Viererfl\xfcgel</p>
         <p class="krim-portrait-sub">Die Schwarze Witwe von La Porte &ndash; Animal correspondence: Waschb\xe4r</p>
       </div>
 
@@ -19974,7 +19974,7 @@ function belleGunnessPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Der Kontratyp</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 3 (SE3)</strong> ist unter den Dreier-Subtypees derjenige, der am wenigsten wie eine Drei aussieht. Claudio Naranjo nennt ihn den &bdquo;Kontratyp&ldquo;: Statt Gl\xe4nzen und Pr\xe4sentieren zeigt die SE3 Bescheidenheit, Zur\xfcckhaltung, Bodenst\xe4ndigkeit. Kein Auftreten. Kein Rampenlicht. Aber die Energie darunter ist dieselbe &ndash; nur dass sie nicht auf Ruhm, sondern auf materielle Sicherheit gerichtet ist. Die selbsterhaltende Drei fragt nicht: <em>Wie werde ich bewundert?</em> Sie fragt: <em>Wie sichere ich meinen Besitz, meine Ressourcen, meinen \xdcberlebensspielraum?</em></p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 3 (SP3)</strong> ist unter den Dreier-Subtypees derjenige, der am wenigsten wie eine Drei aussieht. Claudio Naranjo nennt ihn den &bdquo;Kontratyp&ldquo;: Statt Gl\xe4nzen und Pr\xe4sentieren zeigt die SP3 Bescheidenheit, Zur\xfcckhaltung, Bodenst\xe4ndigkeit. Kein Auftreten. Kein Rampenlicht. Aber die Energie darunter ist dieselbe &ndash; nur dass sie nicht auf Ruhm, sondern auf materielle Sicherheit gerichtet ist. Die selbsterhaltende Drei fragt nicht: <em>Wie werde ich bewundert?</em> Sie fragt: <em>Wie sichere ich meinen Besitz, meine Ressourcen, meinen \xdcberlebensspielraum?</em></p>
         <p class="vb-intro">Im Gleichgewicht ist das eine enorme Kraft: Pragmatismus, Flei\xdf, Verl\xe4sslichkeit, die F\xe4higkeit, eine Familie oder ein Unternehmen durch schwierige Zeiten zu f\xfchren. Im tiefen Ungleichgewicht wird diese Kraft zur reinen Kalkulation: Was brauche ich, was steht mir im Weg, wie r\xe4ume ich das Hindernis beiseite. Die T\xe4uschung ist nicht laut &ndash; sie ist still. Und sie ist gr\xfcndlich.</p>
       </div>
 
@@ -20008,15 +20008,15 @@ function belleGunnessPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Das R\xe4tsel: Entkommen oder gestorben?</h3>
         <p class="vb-intro">Das Verschwinden Belle Gunness&rsquo; ist bis heute ungekl\xe4rt. In den Jahren nach dem Brand wurden an verschiedenen Orten in den USA Frauen gemeldet, die ihrer Beschreibung entsprachen. Keine Spur wurde je best\xe4tigt. Eine DNA-Analyse im Jahr 2007 an exhumierten Knochenresten der Toten aus dem Kellerbrand erbrachte kein eindeutiges Ergebnis.</p>
-        <p class="vb-intro">Psychologisch betrachtet w\xe4re die Flucht das konsequenteste SE3w4-Szenario: Als das System unter Druck ger\xe4t, l\xf6scht die selbsterhaltende Drei die bisherige Identit\xe4t und baut eine neue auf. Keine Bindung, keine Nostalgie, keine R\xfcckblicke. Der Waschb\xe4r wechselt das Revier, wenn es gef\xe4hrlich wird &ndash; und findet anderswo eine neue Ressource.</p>
+        <p class="vb-intro">Psychologisch betrachtet w\xe4re die Flucht das konsequenteste SP3w4-Szenario: Als das System unter Druck ger\xe4t, l\xf6scht die selbsterhaltende Drei die bisherige Identit\xe4t und baut eine neue auf. Keine Bindung, keine Nostalgie, keine R\xfcckblicke. Der Waschb\xe4r wechselt das Revier, wenn es gef\xe4hrlich wird &ndash; und findet anderswo eine neue Ressource.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) T\xe4uschung ohne Geltungsdrang:</strong> Der entscheidende Unterschied zwischen Belle Gunness und einem SO3-Profil liegt im Fehlen jedes \xf6ffentlichen Geltungsdrangs. Belle wollte keinen Ruhm. Sie wollte keine Bühne. Sie wollte Geld und Sicherheit &ndash; und alles, was im Weg stand, wurde entfernt. Das ist reine SE3-Energie: T\xe4uschung als Werkzeug der Selbsterhaltung, nicht als Selbstzweck.</p>
+        <p class="vb-intro"><strong>a) T\xe4uschung ohne Geltungsdrang:</strong> Der entscheidende Unterschied zwischen Belle Gunness und einem SO3-Profil liegt im Fehlen jedes \xf6ffentlichen Geltungsdrangs. Belle wollte keinen Ruhm. Sie wollte keine Bühne. Sie wollte Geld und Sicherheit &ndash; und alles, was im Weg stand, wurde entfernt. Das ist reine SP3-Energie: T\xe4uschung als Werkzeug der Selbsterhaltung, nicht als Selbstzweck.</p>
         <p class="vb-intro"><strong>b) Die bescheidene Fassade als Waffe:</strong> Der Kontratyp pr\xe4sentiert sich als unscheinbar, bodenst\xe4ndig, hilfebedürftig &ndash; genau das Gegenteil dessen, was er in Wirklichkeit ist. Belle Gunness war keine gl\xe4nzende Verf\xfchrerin wie eine SX2. Sie war eine m\xfcdige Witwe, die dringend Hilfe brauchte. Diese Rolle war glaubw\xfcrdiger und damit gef\xe4hrlicher als jede Erotik.</p>
-        <p class="vb-intro"><strong>c) Opfer als Ressource:</strong> Die SE3w4 im tiefen Ungleichgewicht behandelt andere Menschen wie Posten in einem Haushaltsbuch: Was bringen sie ein, wann sind sie aufgebraucht, wann m\xfcssen sie ersetzt werden. Es ist kein Hass im Spiel. Es ist etwas K\xe4lteres: v\xf6llige emotionale Neutralit\xe4t gegen\xfcber dem Leid anderer.</p>
-        <p class="vb-intro"><strong>d) Der Viererfl\xfcgel als Deckel:</strong> Der Four-wing macht die SE3 f\xe4hig zu einer isolierten, nach innen gewendeten Existenz, die keine sozialen Ankerpunkte braucht. Belle hatte keine engen Freundschaften, keine Vertrauten, keine Relationships, die ihr h\xe4tten gef\xe4hrlich werden k\xf6nnen &ndash; bis auf Ray Lamphere, der ihr schlie\xdflich doch zu nahe kam.</p>
+        <p class="vb-intro"><strong>c) Opfer als Ressource:</strong> Die SP3w4 im tiefen Ungleichgewicht behandelt andere Menschen wie Posten in einem Haushaltsbuch: Was bringen sie ein, wann sind sie aufgebraucht, wann m\xfcssen sie ersetzt werden. Es ist kein Hass im Spiel. Es ist etwas K\xe4lteres: v\xf6llige emotionale Neutralit\xe4t gegen\xfcber dem Leid anderer.</p>
+        <p class="vb-intro"><strong>d) Der Viererfl\xfcgel als Deckel:</strong> Der Four-wing macht die SP3 f\xe4hig zu einer isolierten, nach innen gewendeten Existenz, die keine sozialen Ankerpunkte braucht. Belle hatte keine engen Freundschaften, keine Vertrauten, keine Relationships, die ihr h\xe4tten gef\xe4hrlich werden k\xf6nnen &ndash; bis auf Ray Lamphere, der ihr schlie\xdflich doch zu nahe kam.</p>
       </div>
 
       <div class="vb-section">
@@ -20029,14 +20029,14 @@ function belleGunnessPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Brynhild Paulsdatter St\xf8rseth, bekannt als Belle Gunness</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE3w4 &ndash; Self-Preservation Type 3 mit Viererfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP3w4 &ndash; Self-Preservation Type 3 mit Viererfl\xfcgel</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als stilles, rationales System der Selbsterhaltung)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Waschb\xe4r</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 11. November 1859, Selbu, Norwegen &ndash; vermutlich 1908 (ungekl\xe4rt)</span>
           <span style="display:block;"><strong>Opfer:</strong> Mindestens 25&ndash;40 Tote (beide Ehem\xe4nner, mehrere Kinder, mindestens 11&ndash;14 M\xe4nner auf der Farm), La Porte, Indiana, ca. 1900&ndash;1908</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SE3, SO3 und SX3 unterschiedlich ausdrückt – und warum der Kontratyp so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum der Kontratyp so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Täuschung als Grundmotiv der Drei: Das Selbst als Konstruktion – und was passiert, wenn die Konstruktion zum Werkzeug für Schlimmeres wird.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -20046,8 +20046,8 @@ function belleGunnessPortraitPage() {
 
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SE3w4)"},
-          {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SE3w4)"},
+          {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4)"},
+          {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
           {route:"kriminalpsychologie-pamela-smart", label:"Criminal Psychology: Pamela Smart (SX2w3)"},
         ])}
       </div>
@@ -20065,7 +20065,7 @@ function karlaHomolkaPortraitPage() {
           <img src="./assets/portraits/karla-homolka-portrait.jpg" alt="Karla Homolka – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Karla Homolka</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Kanada 1990–1993</p>
       </div>
       <p class="psycho-intro">
@@ -20113,7 +20113,7 @@ function karlaHomolkaPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Sicherheit durch Selbstbild</h3>
         <p class="vb-intro"><strong>a) Das Erscheinungsbild als Schutz:</strong>
-        Die SE3 investiert in ihr Erscheinungsbild als primäre Überlebensstrategie.
+        Die SP3 investiert in ihr Erscheinungsbild als primäre Überlebensstrategie.
         Sie will attraktiv, erfolgreich, bewundert und stabil wirken –
         nicht für andere, sondern für sich selbst als Fundament.
         Homolka war in der Schule beliebt, arbeitete als Tierarzthelferin,
@@ -20127,7 +20127,7 @@ function karlaHomolkaPortraitPage() {
         fast literarisch beschrieben. Sie beschrieb sich selbst als Opfer Bernardos –
         und war sich zugleich präzise bewusst, was sie getan hatte.
         Diese Fähigkeit, beides gleichzeitig zu sein – Täter und Opfer,
-        kalt und verletzlich –, ist das Four-wing-Muster der SE3 in der Desintegration.</p>
+        kalt und verletzlich –, ist das Four-wing-Muster der SP3 in der Desintegration.</p>
         <p class="vb-intro"><strong>c) Der Neuner-Stresspunkt: Auslöschung des Selbst:</strong>
         Die Drei geht im Stress in Richtung Neun – Betäubung, Passivität,
         das Verschwinden hinter dem Willen einer anderen Person.
@@ -20148,7 +20148,7 @@ function karlaHomolkaPortraitPage() {
         gefilmt von Karla, die die Szene absicherte.
         Tammy aspiriierte ihren eigenen Mageninhalt und starb.
         Der Tod wurde als Unfall eingestuft. Karla nahm an der Beerdigung teil.
-        Das ist die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
+        Das ist die SP3 im Zusammenbruch: Die Schwester war ein Hindernis
         für das Bild der perfekten Beziehung geworden. Bernardo wollte sie.
         Karla lieferte sie.</p>
         <p class="vb-intro"><strong>b) Leslie Mahaffy und Kristen French:</strong>
@@ -20179,20 +20179,20 @@ function karlaHomolkaPortraitPage() {
         Karla Homolka ist kein Monster im klassischen Sinn. Sie ist die selbsterhaltende Drei
         in ihrer absoluten Desintegration: ein Mensch, der das Überleben des eigenen Selbstbildes
         über alles stellte – über die Schwester, über die Opfer, über das eigene Gewissen.
-        Die SE3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
+        Die SP3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
         Wenn Bernardo ihr Bild trug – wenn er die Quelle ihrer Selbstdefinition war –
         dann wurde alles, was er wollte, zum Teil dieses Bildes.
         Die Täuschung, die Homolka betrieb, war nicht nur nach außen gerichtet.
         Sie täuschte sich selbst – über ihre Verantwortung, über ihren Anteil, über wer sie war.
         Das ist das Erschreckendste an diesem Fall:
-        die Fähigkeit der SE3, sich selbst die überzeugendste Geschichte zu erzählen.
+        die Fähigkeit der SP3, sich selbst die überzeugendste Geschichte zu erzählen.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE3w4 – Self-Preservatione Drei with Four-wing.<br>
+        <strong>Subtype:</strong> SP3w4 – Self-Preservatione Drei with Four-wing.<br>
         <strong>Leidenschaft:</strong> Täuschung (Vanity) – das Selbstbild über die Wirklichkeit stellen.<br>
         <strong>Stresspunkt:</strong> Neun – Selbstauslöschung, Passivität, Verschwinden hinter dem Willen eines anderen.<br>
         <strong>Animal correspondence:</strong> Waschbär – natürliche Maske, extreme Anpassungsfähigkeit, immer ein Entkommen.<br>
@@ -20203,8 +20203,8 @@ function karlaHomolkaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SE3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Täuschung, Erfolg und der Heilungsweg über echte Wahrhaftigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -20215,7 +20215,7 @@ function karlaHomolkaPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2) – Partner"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SE3w4)"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
       ])}
     </div>
@@ -20232,7 +20232,7 @@ function busterMurdaughPortraitPage() {
           <img src="./assets/portraits/buster-murdaugh-portrait.jpg" alt="Buster Murdaugh – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Buster Murdaugh</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Buster Murdaugh</strong> ist der \xfcberlebende Sohn von Alex Murdaugh –
@@ -20257,7 +20257,7 @@ function busterMurdaughPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
         das \xdcberzeugtsein, durch Zugeh\xf6rigkeit und Relationships
         besonderen Schutz und besondere Rechte zu verdienen.
-        Die selbsterhaltende Zwei (SE2) – Naranjos „Privileg" –
+        Die selbsterhaltende Zwei (SP2) – Naranjos „Privileg" –
         stellt die Sicherung der eigenen Ressourcen und der eigenen Stellung
         in den Vordergrund, getarnt durch den Anschein von Loyalit\xe4t
         und Familiensinn. Der Dreierfl\xfcgel verleiht ihr die F\xe4higkeit,
@@ -20280,7 +20280,7 @@ function busterMurdaughPortraitPage() {
         Buster stand an der Seite seines Vaters bis zu dessen Verurteilung.
         Diese Loyalit\xe4t war sichtbar, aber schwer einzusch\xe4tzen:
         Handelte er aus Bindung oder aus strategischem
-        Selbstschutz? Die SE2w3 kann beides gleichzeitig sein.</p>
+        Selbstschutz? Die SP2w3 kann beides gleichzeitig sein.</p>
         <p class="vb-intro"><strong>c) Sympathisch-defensiv unter Druck:</strong>
         In den wenigen Interviews wirkte Buster besonnen
         und verletzt zugleich – ein Opfer der Umst\xe4nde,
@@ -20299,7 +20299,7 @@ function busterMurdaughPortraitPage() {
         hier keine individuelle Einbildung, sondern
         strukturell verankerte Realit\xe4t.</p>
         <p class="vb-intro"><strong>b) Verbindungen als Schutzwall:</strong>
-        Die SE2 sichert sich ab durch Relationships.
+        Die SP2 sichert sich ab durch Relationships.
         In der Murdaugh-Welt bedeutete das:
         Man kannte die Richter, die Staatsanw\xe4lte, die Sheriffs.
         Buster erbte dieses Netz – und mit ihm die Erwartung,
@@ -20307,7 +20307,7 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Selbstbild als Opfer der Geschichte:</strong>
         Nach dem Zusammenbruch der Familie positionierte sich Buster
         als Hinterbliebener einer Tragödie – nicht als Teil des Problems.
-        Das ist SE2-Logik: Man gibt, man bleibt, man tr\xe4gt –
+        Das ist SP2-Logik: Man gibt, man bleibt, man tr\xe4gt –
         und bekommt daf\xfcr Straffreiheit.</p>
       </div>
 
@@ -20330,7 +20330,7 @@ function busterMurdaughPortraitPage() {
         Die Wiederer\xf6ffnung des Falls Stephen Smith
         warf einen langen Schatten auf Buster.
         Bis heute sind diese Ermittlungen nicht
-        abgeschlossen. Die SE2 kann unangeklagt bleiben –
+        abgeschlossen. Die SP2 kann unangeklagt bleiben –
         aber das Zweier-Privileg l\xf6scht Zusammenh\xe4nge
         nicht aus der Geschichte.</p>
       </div>
@@ -20342,7 +20342,7 @@ function busterMurdaughPortraitPage() {
         eine ambivalente Reaktion aus: Mitleid mit dem Sohn
         eines Mörders – und Misstrauen gegen\xfcber dem,
         was unaufgekl\xe4rt blieb. Diese Spannung ist
-        f\xfcr die SE2w3 charakteristisch:
+        f\xfcr die SP2w3 charakteristisch:
         Sie lebt in der L\xfccke zwischen Selbstdarstellung
         und dem, was andere ahnen.</p>
         <p class="vb-intro"><strong>b) Neuanfang als Inszenierung:</strong>
@@ -20418,7 +20418,7 @@ function busterMurdaughPortraitPage() {
         zuteil – es war eine Erbschaft. Und darin liegt
         die eigentliche Enneagramm-Frage: Wie viel Verantwortung
         tr\xe4gt jemand f\xfcr ein System, das er nicht erfunden,
-        sondern \xfcbernommen hat? Die SE2 im Stolz kann
+        sondern \xfcbernommen hat? Die SP2 im Stolz kann
         diese Frage nicht wirklich stellen –
         weil das Privileg f\xfcr sie keine Frage ist,
         sondern eine Tatsache.
@@ -20427,7 +20427,7 @@ function busterMurdaughPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 – das Privileg als Erbschaft:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg als Erbschaft:</strong>
         Die selbsterhaltende Zwei glaubt, durch ihre besondere
         Zugeh\xf6rigkeit und ihre F\xfcrsorge besondere Rechte
         verdient zu haben. Im Fall Buster wurde dieses Privileg
@@ -20442,7 +20442,7 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Vergleich mit Anna Delvey:</strong>
         Delvey baute das Zweier-Privileg selbst –
         aus dem Nichts, mit Charme und Kalkül.
-        Buster erbte es. Beide sind SE2w3,
+        Buster erbte es. Beide sind SP2w3,
         aber die Quelle des Privilegs ist verschieden.
         Was sie verbindet: das Gef\xfchl, dass die Regeln
         f\xfcr jemanden wie sie nicht in gleicher Weise gelten.</p>
@@ -20471,8 +20471,8 @@ function busterMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2 – das Zweier-Privileg im Vergleich der drei Subtypees.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg im Vergleich der drei Subtypees.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -20500,7 +20500,7 @@ function angelResendezPortraitPage() {
           <img src="./assets/portraits/angel-resendez-portrait.jpg" alt="Ángel Reséndez – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ángel Reséndez</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Eisenbahn-Killer" – USA 1997–1999</p>
       </div>
       <p class="psycho-intro">
@@ -20561,7 +20561,7 @@ function angelResendezPortraitPage() {
         Er drang in Häuser ein, nicht um zu helfen,
         sondern weil das Haus jemand anderem gehörte
         und er keine eigene Sphäre besaß.
-        Das Eindringen war die Überlebensstrategie des SE2 in ihrer dunkelsten Form:
+        Das Eindringen war die Überlebensstrategie des SP2 in ihrer dunkelsten Form:
         nicht Fürsorge als Tarnung, sondern Besitznahme als Trieb.</p>
         <p class="vb-intro"><strong>b) Der One-wing: Die innere Rechtfertigung:</strong>
         Der One-wing verleiht der selbsterhaltenden Zwei
@@ -20570,7 +20570,7 @@ function angelResendezPortraitPage() {
         er zeigte wenig Reue, aber auch keine offene Grausamkeit im Ton.
         Es war, als ob ein inneres Regelwerk besagte:
         Das war notwendig. Das war mein Recht.
-        Diese moralische Selbstrechtfertigung ist das Markenzeichen des SE2w1 –
+        Diese moralische Selbstrechtfertigung ist das Markenzeichen des SP2w1 –
         nicht Sadismus, sondern Indifferenz gegenüber dem Leid anderer,
         wenn die eigene Überlebensstrategie bedroht ist.</p>
         <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als Anspruch:</strong>
@@ -20645,7 +20645,7 @@ function angelResendezPortraitPage() {
         das sich in die Nähe des Menschlichen wagt und tötet,
         wenn sein Überlebensraum berührt wird –
         das ist das treffende Bild.
-        Was diesen Fall von anderen SE2-Tätern unterscheidet:
+        Was diesen Fall von anderen SP2-Tätern unterscheidet:
         Reséndez tötete nicht aus moralischem Urteil wie Sutcliffe,
         nicht aus Identitätsfassade wie Unterweger.
         Er tötete, weil Anwesenheit und Überleben für ihn identisch waren.
@@ -20661,7 +20661,7 @@ function angelResendezPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Ángel Maturino Reséndez</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Izúcar de Matamoros, Puebla, Mexiko</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 with One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Bestätigte Opfer:</strong> 9 Morde in den USA (1997–1999); 6 weitere zugeschrieben</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
@@ -20669,8 +20669,8 @@ function angelResendezPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -20679,8 +20679,8 @@ function angelResendezPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1) – Yorkshire Ripper"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Criminal Psychology: Tommy Lynn Sells (SE2w1) – Coast-to-Coast-Killer"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Criminal Psychology: Tommy Lynn Sells (SP2w1) – Coast-to-Coast-Killer"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Criminal Psychology: Osama bin Loading (SO2w1) – al-Qaida"},
         {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – Der Dichter und der Tod"}
       ])}
@@ -20698,7 +20698,7 @@ function tommyLynnSellsPortraitPage() {
           <img src="./assets/portraits/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Tommy Lynn Sells</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Coast-to-Coast-Killer" – USA 1980–1999</p>
       </div>
       <p class="psycho-intro">
@@ -20746,7 +20746,7 @@ function tommyLynnSellsPortraitPage() {
         auch als <em>„Ich zuerst"</em> oder <em>„Privileg"</em> bezeichnet –
         ist die am wenigsten typisch wirkende Ausprägung der Zwei.
         Während andere Zweien offen Fürsorglichkeit zeigen,
-        ist die SE2 darauf ausgerichtet, die eigenen Überlebensbedürfnisse zu sichern:
+        ist die SP2 darauf ausgerichtet, die eigenen Überlebensbedürfnisse zu sichern:
         durch Einschmeicheln, durch das Erschaffen von Abhängigkeit,
         durch Kontrolle über die unmittelbare Umgebung.
         Die Fürsorge ist real – aber sie hat immer einen Preis.
@@ -20760,7 +20760,7 @@ function tommyLynnSellsPortraitPage() {
         und nun Rechnung beglich.
         Diese moralische Selbstrechtfertigung, die eigene Täterschaft
         als Reaktion auf erlittenes Unrecht zu rahmen,
-        ist das typische Narrativ des SE2w1 in seiner destruktiven Ausprägung.</p>
+        ist das typische Narrativ des SP2w1 in seiner destruktiven Ausprägung.</p>
         <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz:</strong>
         Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
         das unbewusste Festhalten an der eigenen Überlegenheit,
@@ -20783,7 +20783,7 @@ function tommyLynnSellsPortraitPage() {
         Diese und viele andere Angaben ließen sich nicht vollständig verifizieren.
         Die frühe Bindungslosigkeit, das wiederholte Erlebnis von Verrat durch Bezugspersonen
         und der damit verbundene Vertrauensbruch bilden den psychologischen Boden,
-        auf dem sich die SE2-Dynamik in ihrer dunkelsten Form entfalten konnte:
+        auf dem sich die SP2-Dynamik in ihrer dunkelsten Form entfalten konnte:
         Nähe als Vorstufe zur Gefahr.
         </p>
       </div>
@@ -20820,7 +20820,7 @@ function tommyLynnSellsPortraitPage() {
         In einigen Fällen stimmten die Details exakt, in anderen nicht.
         Sells nutzte die Geständnisse offenkundig auch als Bühne:
         Er war der Mittelpunkt, die Ermittler kamen zu ihm, er kontrollierte den Informationsfluss.
-        Das ist SE2-Dynamik in Reinform –
+        Das ist SP2-Dynamik in Reinform –
         auch in der Gefangenschaft noch Aufmerksamkeit und Einfluss sichernd.</p>
       </div>
 
@@ -20844,7 +20844,7 @@ function tommyLynnSellsPortraitPage() {
         <p class="vb-intro">
         Tommy Lynn Sells verkörpert die dunkelste Möglichkeit des Self-Preservationen Typ 2:
         ein Mensch, dessen frühe Bindungserfahrungen so zerstörerisch waren,
-        dass die SE2-Überlebensstrategie – Fürsorge als Mittel zur Kontrolle,
+        dass die SP2-Überlebensstrategie – Fürsorge als Mittel zur Kontrolle,
         Annäherung als Vorstufe zur Ausbeutung – keine sozialen Grenzen mehr kannte.
         Das Flusspferd, das sich in die Nähe von Menschen wagt,
         weil es dort findet, was es braucht, und dabei keine Schwäche zeigt –
@@ -20858,15 +20858,15 @@ function tommyLynnSellsPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 – Self-Preservation Type 2 with One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
           <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 bestätigt, bis zu 70 beansprucht</p>
           <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz · <strong>Stresspunkt:</strong> Typ 8</p>
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -20875,9 +20875,9 @@ function tommyLynnSellsPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1) – Yorkshire Ripper"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SE2w1)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SE1w2) – Die Vermieterin des Todes"}
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Die Vermieterin des Todes"}
       ])}
     </div>
   `);
@@ -20893,7 +20893,7 @@ function peterSutcliffePortraitPage() {
           <img src="./assets/portraits/peter-sutcliffe-portrait.jpg" alt="Peter Sutcliffe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Sutcliffe</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Yorkshire Ripper" – Nordengland 1975–1980</p>
       </div>
       <p class="psycho-intro">
@@ -21066,7 +21066,7 @@ function peterSutcliffePortraitPage() {
         Moralisches Regelwerk nach innen schafft Rechtfertigung.
         Stolz macht blind für die eigene Zerstörungskraft.
         Und der Achter-Stress sorgt für die explosive Umsetzung.
-        Was Sutcliffe von Harvey Weinstein unterscheidet – ebenfalls SE2w1 –
+        Was Sutcliffe von Harvey Weinstein unterscheidet – ebenfalls SP2w1 –
         ist der Schritt in physische Vernichtung:
         Weinstein nutzte Macht als Werkzeug.
         Sutcliffe nutzte Gewalt.
@@ -21078,7 +21078,7 @@ function peterSutcliffePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SE2w1 – Self-Preservatione Zwei with One-wing.<br>
+        <strong>Subtype:</strong> SP2w1 – Self-Preservatione Zwei with One-wing.<br>
         <strong>Leidenschaft:</strong> Stolz – Überlegenheitsgefühl, moralische Selbstgerechtigkeit, Unantastbarkeit des eigenen Urteils.<br>
         <strong>Stresspunkt:</strong> Acht – explosive Aggression, rohe Gewalt als Entladung eines übervollen Systems.<br>
         <strong>Animal correspondence:</strong> Flusspferd – scheinbar harmlos, gefährlichstes Großtier Afrikas, schlägt zu wenn die innere Sphäre verletzt ist.<br>
@@ -21090,8 +21090,8 @@ function peterSutcliffePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, verdrängte Bedürfnisse und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -21101,9 +21101,9 @@ function peterSutcliffePortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SE2w1) – ebenfalls Flusspferd"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo (SE1w9) – ähnliche Täterstruktur"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9) – moralische Selbstrechtfertigung"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1) – ebenfalls Flusspferd"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo (SP1w9) – ähnliche Täterstruktur"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9) – moralische Selbstrechtfertigung"},
       ])}
     </div>
   `);
@@ -21119,7 +21119,7 @@ function annaDelveyPortraitPage() {
           <img src="./assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anna Delvey</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russisch-deutsche Hochstaplerin in New York · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -21144,7 +21144,7 @@ function annaDelveyPortraitPage() {
         das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen, verbunden mit
         dem unbewussten Anspruch auf Gegenleistung und Zugeh\xf6rigkeit zu einer
         Sph\xe4re, die man sich nicht verdient hat, sondern die man sich nimmt.
-        Die selbsterhaltende Zwei (SE2) – von Naranjo als „Privileg" beschrieben –
+        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
         stellt die eigenen Bed\xfcrfnisse ins Zentrum, verh\xfcllt durch das Spiel
         der F\xfcrsorge und der Zugeh\xf6rigkeit. Der Dreierfl\xfcgel verleiht ihr
         eine strahlende, selbstbewusste Au\xdfenpr\xe4senz: Sie wei\xdf, wie man
@@ -21176,7 +21176,7 @@ function annaDelveyPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Status als Mittel der Zugeh\xf6rigkeit:</strong>
         F\xfcr Delvey war Luxus kein Selbstzweck –
-        er war eine Sprache. Die SE2 will dazugeh\xf6ren,
+        er war eine Sprache. Die SP2 will dazugeh\xf6ren,
         will in einer bestimmten Welt willkommen sein.
         Delvey lernte diese Sprache perfekt und sprach sie
         flie\xdfend – auch ohne die Mittel daf\xfcr zu haben.</p>
@@ -21186,7 +21186,7 @@ function annaDelveyPortraitPage() {
         das Gef\xfchl, besonders zu sein – und erschuf so
         Netzwerke aus Verbindlichkeit.</p>
         <p class="vb-intro"><strong>c) Privilegiertheitsgef\xfchl als innere \xdcberzeugung:</strong>
-        Die SE2 glaubt, auf Grund ihrer besonderen Qualit\xe4ten
+        Die SP2 glaubt, auf Grund ihrer besonderen Qualit\xe4ten
         Anspruch auf Dinge zu haben, die anderen verwehrt bleiben.
         Delvey glaubte offenbar wirklich, dass ihr
         der Aufstieg in diese Welt zustand –
@@ -21228,7 +21228,7 @@ function annaDelveyPortraitPage() {
         <p class="vb-intro"><strong>b) Keine klassische Reue:</strong>
         Im Gef\xe4ngnis, nach der Verurteilung und sp\xe4ter in Interviews
         zeigte Delvey wenig klassische Schuldbek\xe4mmerung.
-        Dem SE2w3er fehlt der Zugang zur eigenen Verletzlichkeit –
+        Dem SP2w3er fehlt der Zugang zur eigenen Verletzlichkeit –
         sie ist immer noch in der Rolle, immer noch
         auf der B\xfchne.</p>
         <p class="vb-intro"><strong>c) Marke als letzter Akt:</strong>
@@ -21281,7 +21281,7 @@ function annaDelveyPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Anna Delvey</strong> ist das pr\xe4ziseste Portr\xe4t der SE2w3 in der Popkultur:
+        <strong>Anna Delvey</strong> ist das pr\xe4ziseste Portr\xe4t der SP2w3 in der Popkultur:
         Sie zeigt, wie der Stolz der Zwei – das Gef\xfchl, besonders zu sein
         und besondere Rechte zu haben – durch den Dreierfl\xfcgel in eine
         vollst\xe4ndige Lebensinszenierung \xfcbersetzt werden kann.
@@ -21295,8 +21295,8 @@ function annaDelveyPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 – das Privileg:</strong>
-        Claudio Naranjo nennt die SE2 den Subtype des Privilegs:
+        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg:</strong>
+        Claudio Naranjo nennt die SP2 den Subtype des Privilegs:
         Sie glaubt, durch ihre besondere Art zu geben und zu sein,
         Anspruch auf mehr zu haben als andere.
         F\xfcr Delvey war das kein Wunsch – es war eine Gewissheit.</p>
@@ -21319,7 +21319,7 @@ function annaDelveyPortraitPage() {
         sie bewegte sich immer auf der Oberfl\xe4che
         der Inszenierung, nie darunter.</p>
         <p class="vb-intro"><strong>e) Vergleich mit Harvey Weinstein:</strong>
-        Weinstein (SE2w1) und Delvey (SE2w3) nutzen denselben
+        Weinstein (SP2w1) und Delvey (SP2w3) nutzen denselben
         Grundmechanismus: das Gef\xfchl der Ausnahmestellung,
         das Zweier-Privileg. Der Einserfl\xfcgel moralisiert
         das Privileg; der Dreierfl\xfcgel \xe4sthetisiert es.
@@ -21334,8 +21334,8 @@ function annaDelveyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich: Stolz, F\xfcrsorge, Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -21363,7 +21363,7 @@ function jonathanMeijerPortraitPage() {
           <img src="./assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jonathan Meijer</p>
-        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Jonathan Meijer</strong> ist ein niederl\xe4ndischer Samenspender, der \xfcber 550 Kinder
@@ -21386,7 +21386,7 @@ function jonathanMeijerPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
         das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen und zu geben,
         verbunden mit dem unbewussten Anspruch auf Gegenleistung und Anerkennung.
-        Die selbsterhaltende Zwei (SE2) – von Naranjo als „Privileg" beschrieben –
+        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
         richtet diese Energie nach innen: Sie stellt die eigenen Bed\xfcrfnisse
         unter dem Deckmantel des Helfens ins Zentrum und entwickelt ein Gef\xfchl
         von Ausnahmestellung und Unantastbarkeit. Der Einserfl\xfcgel verleiht ihr
@@ -21415,7 +21415,7 @@ function jonathanMeijerPortraitPage() {
         Handlungen angerichtet hatten, wirkte er h\xe4ufig verletzt
         und unverstanden. Der Einserfl\xfcgel verst\xe4rkt das: Er,
         der Gutes tut, wird missverstanden – eine typische
-        SE2w1-Reaktion auf Grenzsetzung.</p>
+        SP2w1-Reaktion auf Grenzsetzung.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -21429,7 +21429,7 @@ function jonathanMeijerPortraitPage() {
         nichts mehr zu sein.</p>
         <p class="vb-intro"><strong>b) Regeln als Hindernisse f\xfcr das Gute:</strong>
         Klinische Obergrenzen, Gerichtsurteile, Absprachen –
-        Meijer umging sie systematisch. F\xfcr die SE2w1 gilt:
+        Meijer umging sie systematisch. F\xfcr die SP2w1 gilt:
         Wer Gutes tut, steht \xfcber den Regeln, die f\xfcr
         gew\xf6hnliche Menschen gemacht wurden. Der Einserfl\xfcgel
         formuliert das als moralisches Prinzip: Die Regeln sind
@@ -21440,14 +21440,14 @@ function jonathanMeijerPortraitPage() {
         sind besonders, ihr Beitrag ist besonders.
         Meijer sah seine genetische Gesundheit und sein
         Aussehen als Gabe, die er der Welt nicht vorenthalten
-        durfte. Das ist SE2-Stolz in seiner reinsten Form.</p>
+        durfte. Das ist SP2-Stolz in seiner reinsten Form.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Unbewusste Eigeninteressen:</strong>
         <strong>Meijer</strong> betonte immer wieder seinen altruistischen Antrieb.
-        Aber was die SE2 nicht sieht: Hinter dem Geben stecken
+        Aber was die SP2 nicht sieht: Hinter dem Geben stecken
         eigene Bed\xfcrfnisse – nach Bedeutung, nach Verbindung,
         nach dem Gef\xfchl, unersetzlich zu sein.
         550 Kinder sind nicht Altruismus – sie sind
@@ -21463,7 +21463,7 @@ function jonathanMeijerPortraitPage() {
         Die Zwei h\xe4lt Verbindungen aufrecht, weil sie
         gebraucht werden will. Meijer suchte aktiv Contact
         zu donorkind-Gruppen, zum Teil gegen deren Willen.
-        Das ist SE2-Kontrolle: nicht durch Macht,
+        Das ist SP2-Kontrolle: nicht durch Macht,
         sondern durch das Angebot von sich selbst.</p>
       </div>
 
@@ -21552,11 +21552,11 @@ function jonathanMeijerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 – das Privileg:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg:</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Zwei
         als den Subtype des „Privilegs": Sie glaubt, auf Grund
         ihres Gebens und ihrer F\xfcrsorge besondere Rechte zu haben.
-        Die SE2 stellt ihre eigenen Bed\xfcrfnisse ins Zentrum –
+        Die SP2 stellt ihre eigenen Bed\xfcrfnisse ins Zentrum –
         aber so geschickt verh\xfcllt durch F\xfcrsorge f\xfcr andere,
         dass sie es selbst nicht sieht. Meijer wollte spenden
         und gleichzeitig bedeutsam, erinnert, relevant sein.
@@ -21605,7 +21605,7 @@ function jonathanMeijerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei den drei Zweier-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -21633,7 +21633,7 @@ function michaelFranzesePortraitPage() {
           <img src="./assets/portraits/michael-franzese-portrait.jpg" alt="Michael Franzese – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Franzese</p>
-        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with Two-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Mafia-Underboss und Aussteiger · Animal correspondence: Waschbär</p>
       </div>
 
@@ -21653,7 +21653,7 @@ function michaelFranzesePortraitPage() {
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
           <strong>Typzuordnung:</strong> Self-Preservation Type 3 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SE3w2 &middot;
+          <strong>Typ mit Fl\xfcgel:</strong> SP3w2 &middot;
           <em>Leidenschaft:</em> T\xe4uschung &middot;
           <em>Tieranalogie:</em> Waschb\xe4r
         </p>
@@ -21669,11 +21669,11 @@ function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>b) Souver\xe4n und situationsangepasst:</strong>
         <strong>Franzese</strong> wechselte m\xfchelos zwischen der Sprache der Stra\xdfe und der
         Sprache der Gesch\xe4ftswelt. Mit Bankern sprach er wie ein Finanzier,
-        mit Soldaten wie ein Boss. Die SE3 ist ein Meister der Rollenanpassung:
+        mit Soldaten wie ein Boss. Die SP3 ist ein Meister der Rollenanpassung:
         Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
         <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
         Wer <strong>Franzese</strong> begegnet – damals wie heute – beschreibt ihn als jemanden,
-        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SE3w2-Typ: er strahlt Erfolg aus,
+        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SP3w2-Typ: er strahlt Erfolg aus,
         ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
       </div>
 
@@ -21683,7 +21683,7 @@ function michaelFranzesePortraitPage() {
         Die selbsterhaltende Drei richtet ihren Blick zuerst auf Effizienz:
         Welcher Weg f\xfchrt am schnellsten zum Ergebnis? <strong>Franzeses</strong> Benzinsteuerbetrug
         war ein Meisterwerk der operativen Logik – er nutzte legale Strukturen,
-        um illegale Ziele zu verschleiern. Der Blick der SE3 ist pragmatisch, nicht ideologisch.</p>
+        um illegale Ziele zu verschleiern. Der Blick der SP3 ist pragmatisch, nicht ideologisch.</p>
         <p class="vb-intro"><strong>b) Wie sichere ich das Erreichte ab?</strong>
         Sicherheit ist das Kernthema der selbsterhaltenden Variante. <strong>Franzese</strong>
         baute Strukturen auf, die ihn sch\xfctzten: Anw\xe4lte, Gesellschaften, Tarnnamen.
@@ -21691,7 +21691,7 @@ function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
         Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Relationships.
         <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt – er bezahlte gut,
-        behandelte seine Leute fair. Das ist die SE3w2-Kombination: Leistung plus
+        behandelte seine Leute fair. Das ist die SP3w2-Kombination: Leistung plus
         Verbindlichkeit.</p>
       </div>
 
@@ -21719,15 +21719,15 @@ function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>a) Leistung als Sprache:</strong>
         <strong>Franzese</strong> kommunizierte \xfcber Ergebnisse. Im Mob: Geld, Macht, Loyalit\xe4t.
         Heute: B\xfccher, Vortr\xe4ge, Reichweite. Der Kanal wechselt, das Muster bleibt.
-        Die SE3 lebt durch das, was sie produziert – Sein ohne Leistung ist ihr fremd.</p>
+        Die SP3 lebt durch das, was sie produziert – Sein ohne Leistung ist ihr fremd.</p>
         <p class="vb-intro"><strong>b) Strategische Gro\xdfz\xfcgigkeit:</strong>
         <strong>Franzese</strong> war bekannt daf\xfcr, seine Leute zu belohnen. Das ist der
         Zweierfl\xfcgel: Geben als Bindungsmittel. Aber anders als die reine Zwei
-        gibt die SE3w2 nicht aus emotionalem Bed\xfcrfnis – sie gibt, weil es
+        gibt die SP3w2 nicht aus emotionalem Bed\xfcrfnis – sie gibt, weil es
         Loyalit\xe4t erzeugt, die das System stabil h\xe4lt.</p>
         <p class="vb-intro"><strong>c) Risikoberechnung statt Impuls:</strong>
         <strong>Franzese</strong> handelte selten aus Emotion. Sein Benzinsteuerbetrug war
-        jahrelang wasserdicht, weil er methodisch vorgegangen war. Die SE3 ist
+        jahrelang wasserdicht, weil er methodisch vorgegangen war. Die SP3 ist
         kein Hasardeur – sie kalkuliert, sichert ab, plant Auswege. Das unterscheidet
         sie von impulsiveren Typen wie der Acht.</p>
       </div>
@@ -21740,10 +21740,10 @@ function michaelFranzesePortraitPage() {
         Sohn von Sonny Franzese auf – einem gefürchteten Mobster. Den Vater
         zu \xfcbertreffen war die unbewusste Mission. Leistung als Liebesbeweis.</p>
         <p class="vb-intro"><strong>b) Schutz durch Unaufhaltbarkeit:</strong>
-        Die SE3 sch\xfctzt sich durch dauerhaften Erfolg: Wer immer gewinnt,
+        Die SP3 sch\xfctzt sich durch dauerhaften Erfolg: Wer immer gewinnt,
         muss nie verlieren. <strong>Franzese</strong> baute ein System, das selbst Verh\xe4ngnisse
         abfedern konnte. Die Gef\xe4ngnisstrafe wurde zum Transformationsnarrativ
-        umgedeutet – der SE3 verliert nicht, sie wechselt die Spielfeld-Seite.</p>
+        umgedeutet – der SP3 verliert nicht, sie wechselt die Spielfeld-Seite.</p>
         <p class="vb-intro"><strong>c) Identit\xe4t als Projekt:</strong>
         Die Schutzstrategie der Drei ist Identit\xe4tskonstruktion: Ich bin, was ich
         leiste. <strong>Franzeses</strong> radikale Neuerfindung als Christ und Sprecher ist
@@ -21753,7 +21753,7 @@ function michaelFranzesePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE3: der gute Mensch als Tarnung:</strong>
+        <p class="vb-intro"><strong>a) SP3: der gute Mensch als Tarnung:</strong>
         Naranjo beschreibt die selbsterhaltende Drei als den Subtype, der am
         intensivsten das Image des „guten, anst\xe4ndigen Menschen" pflegt –
         weil Ansehen Sicherheit bedeutet. <strong>Franzese</strong> war im Mob der Mann,
@@ -21764,9 +21764,9 @@ function michaelFranzesePortraitPage() {
         Er war kein k\xfchler Rechner wie eine reine Drei – er war auch warm,
         zugewandt, f\xe4hig zur echten Verbindung. Das machte ihn gef\xe4hrlicher
         im Mob und gl\xe4ubw\xfcrdiger danach.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Escobar (SE3):</strong>
-        <strong>Escobar</strong> war die SE3 ohne moralischen Anker – Leistung um jeden Preis.
-        <strong>Franzese</strong> ist die SE3 mit dem Zweierfl\xfcgel und einem sp\xe4teren Wendepunkt.
+        <p class="vb-intro"><strong>c) Vergleich mit Escobar (SP3):</strong>
+        <strong>Escobar</strong> war die SP3 ohne moralischen Anker – Leistung um jeden Preis.
+        <strong>Franzese</strong> ist die SP3 mit dem Zweierfl\xfcgel und einem sp\xe4teren Wendepunkt.
         Beide bauten Imperien. Einer zerst\xf6rte sich dabei, der andere
         erfand sich neu. Die Fl\xfcgelenergie macht den Unterschied.</p>
       </div>
@@ -21781,7 +21781,7 @@ function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>b) Anpassungsf\xe4hig in jeder Umgebung:</strong>
         Waschb\xe4ren \xfcberleben in W\xe4ldern, St\xe4dten, W\xfcstenrandgebieten – sie
         brauchen keine ideale Umgebung. <strong>Franzese</strong> \xfcberlebte die Mafia,
-        das Gef\xe4ngnis und die \xf6ffentliche Entlassung gleicherma\xdfen. Der SE3w2er
+        das Gef\xe4ngnis und die \xf6ffentliche Entlassung gleicherma\xdfen. Der SP3w2er
         ist der Anpassungsf\xe4higste aller Typen.</p>
         <p class="vb-intro"><strong>c) Gewissenhaft und pragmatisch:</strong>
         Waschb\xe4ren „waschen" ihre Nahrung – ein Ritual, das Sorgfalt und
@@ -21810,8 +21810,8 @@ function michaelFranzesePortraitPage() {
         sondern geschenkt. Das ist der Weg von der T\xe4uschung zur Wahrheit.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE3 – der gute Mensch als Subtype: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – alle Dreier-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 – der gute Mensch als Subtype: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – alle Dreier-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -21839,7 +21839,7 @@ function sebastianGreenwoodPortraitPage() {
           <img src="./assets/portraits/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sebastian Greenwood</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Sebastian Greenwood</strong> (geb. 1978, Schweden) war Mitgr\xfcnder und
@@ -21857,7 +21857,7 @@ function sebastianGreenwoodPortraitPage() {
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
           <strong>Typzuordnung:</strong> Self-Preservation Type 2 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SE2w3 &middot;
+          <strong>Typ mit Fl\xfcgel:</strong> SP2w3 &middot;
           <em>Leidenschaft:</em> Stolz &middot;
           <em>Tieranalogie:</em> Flusspferd
         </p>
@@ -21878,7 +21878,7 @@ function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
         <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
         Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
-        Das ist das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
+        Das ist das SP2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -21908,7 +21908,7 @@ function sebastianGreenwoodPortraitPage() {
         nicht der Dieb – er war der Architekt der Gemeinschaft. Der Typ 2
         braucht das Gef\xfchl, unersetzlich zu sein.</p>
         <p class="vb-intro"><strong>b) Blind gegen\xfcber dem Schaden:</strong>
-        Wie bei allen SE2-Typen schirmte der Stolz den Blick auf die Wirklichkeit ab.
+        Wie bei allen SP2-Typen schirmte der Stolz den Blick auf die Wirklichkeit ab.
         <strong>Greenwood</strong> konnte den Betrug fortsetzen, weil er sich als Helfer
         erlebte – jemand, der anderen eine Chance gab. Dass die Chance gef\xe4lscht war,
         blieb unbewusst.</p>
@@ -21923,7 +21923,7 @@ function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>a) Geben als Machtinstrument:</strong>
         <strong>Greenwoods</strong> Provisionsstruktur war psychologisch virtuos: sie schuf
         ein System, in dem Helfen und Bereichern identisch wirkten. Wer andere anwarb,
-        half ihnen scheinbar. Die SE2-Dynamik des „Ich gebe, also habe ich Recht“
+        half ihnen scheinbar. Die SP2-Dynamik des „Ich gebe, also habe ich Recht“
         wurde hier zur Gesch\xe4ftsstrategie.</p>
         <p class="vb-intro"><strong>b) Netzwerken ohne Grenzen:</strong>
         <strong>Greenwood</strong> operierte in Uganda, Indien, China, den Emiraten und Europa.
@@ -21933,7 +21933,7 @@ function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>c) Statusf\xf6rderung als Bindungsmittel:</strong>
         OneCoin vergab Titel und Ränge an erfolgreiche Distributor-Partner. <strong>Greenwood</strong>
         verstand, dass Menschen nicht nur Geld wollen – sie wollen Bedeutung.
-        Er verkaufte Bedeutung. Das ist SE2w3 in seiner reinsten Form.</p>
+        Er verkaufte Bedeutung. Das ist SP2w3 in seiner reinsten Form.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -21943,7 +21943,7 @@ function sebastianGreenwoodPortraitPage() {
         Die Zwei baut Relationships auf, weil sie glaubt, nur durch Geben geliebt
         zu werden. <strong>Greenwood</strong> brauchte das System, um sich selbst zu sp\xfcren.</p>
         <p class="vb-intro"><strong>b) Schutz durch Unentbehrlichkeit:</strong>
-        Die Schutzstrategie der SE2: so viele Menschen an sich binden, dass das
+        Die Schutzstrategie der SP2: so viele Menschen an sich binden, dass das
         Loslassen undenkbar wird. <strong>Greenwood</strong> baute ein Netz, das ihn
         ebenso gefangen hielt wie seine Opfer. Der Betrug wurde zur Identit\xe4t.</p>
         <p class="vb-intro"><strong>c) Dreierfl\xfcgel als Rüstung:</strong>
@@ -21955,7 +21955,7 @@ function sebastianGreenwoodPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE2 und das Zweier-Privileg:</strong>
+        <p class="vb-intro"><strong>a) SP2 und das Zweier-Privileg:</strong>
         Die selbsterhaltende Zwei nimmt, was ihr zusteht – verh\xfcllt durch das
         Narrativ des Gebens. <strong>Greenwood</strong> nahm Milliarden, aber er „gab“
         sie weiter: in Form von Provisionen, Status, Versprechen. Das Zweier-Privileg
@@ -21963,10 +21963,10 @@ function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>b) Dreierfl\xfcgel als Inszenierungsmotor:</strong>
         Ohne den w3-Anteil w\xe4re <strong>Greenwood</strong> ein lokaler Netzwerker geblieben.
         Der Dreierfl\xfcgel lieferte das Gro\xdfformat: die B\xfchne, das Narrativ,
-        die Marke. SE2w3 kann Betrug in eine globale Vision verwandeln.</p>
+        die Marke. SP2w3 kann Betrug in eine globale Vision verwandeln.</p>
         <p class="vb-intro"><strong>c) Vergleich mit Ignatova:</strong>
-        <strong>Ignatova</strong> (SE3w4) lieferte das intellektuelle Fundament, <strong>Greenwood</strong>
-        (SE2w3) die Beziehungsarchitektur. Zwei komplementäre Selbsterhaltungstypen,
+        <strong>Ignatova</strong> (SP3w4) lieferte das intellektuelle Fundament, <strong>Greenwood</strong>
+        (SP2w3) die Beziehungsarchitektur. Zwei komplementäre Selbsterhaltungstypen,
         die sich gegenseitig verst\xe4rkten: die eine baut die Marke, der andere
         baut die Gemeinschaft. Ein Lehrbeispiel f\xfcr Typ-Dynamiken im Team.</p>
       </div>
@@ -21986,7 +21986,7 @@ function sebastianGreenwoodPortraitPage() {
         Das Flusspferd lebt zwischen Wasser und Land – nirgendwo ganz zuhause,
         \xfcberall funktionst\xfcchtig. <strong>Greenwood</strong> operierte zwischen Legalit\xe4t
         und Betrug, zwischen Helfer und R\xe4uber, zwischen Vision und Manipulation.
-        Diese Ambivalenz ist das Markenzeichen des SE2w3 im Schatten.</p>
+        Diese Ambivalenz ist das Markenzeichen des SP2w3 im Schatten.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -22006,8 +22006,8 @@ function sebastianGreenwoodPortraitPage() {
         gef\xfchlt, \xf6ffnet den Heilungsweg.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 – das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtypes.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 – das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtypes.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -22219,8 +22219,8 @@ function pedroAlonsoLopezPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Selbstbild und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -22314,8 +22314,8 @@ function andrewCunananPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 31. August 1969 &ndash; 23. Juli 1997</span>
           <span style="display:block;"><strong>Tatfolgen:</strong> 5 Tote; Mordserie April&ndash;Juli 1997, USA</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -22327,7 +22327,7 @@ function andrewCunananPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
-          {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey (SE2w3)"},
+          {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey (SP2w3)"},
         ])}
       </div>
     </div>
@@ -22418,8 +22418,8 @@ function ojSimpsonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 9. Juli 1947 &ndash; 10. April 2024</span>
           <span style="display:block;"><strong>Tatvorwurf:</strong> Doppelmord an Nicole Brown Simpson und Ron Goldman (12. Juni 1994); strafrechtlich freigesprochen 1995; zivilrechtlich schuldig 1997; 2008 wegen bewaffneten Raubes in Las Vegas verurteilt</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -22722,7 +22722,7 @@ function wadeWilsonPortraitPage() {
         <p class="vb-intro"><strong>b) Der Four-wing und die Sehnsucht nach Tiefe:</strong>
         Der Four-wing verleiht der Drei eine innere Dramatik,
         die sie von der reinen Leistungsorientierung
-        der SE3 unterscheidet. Der SO3w4er will nicht nur
+        der SP3 unterscheidet. Der SO3w4er will nicht nur
         bewundert werden – er will für einzigartig gehalten werden.
         Diese Sehnsucht nach Unverwechselbarkeit
         kann, wenn keine konstruktive Form gefunden wird,
@@ -22776,8 +22776,8 @@ function wadeWilsonPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SE3 und SX3 – Verstärkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SE3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SP3 und SX3 – Verstärkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SP3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Maske und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -22788,7 +22788,7 @@ function wadeWilsonPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta (SX3)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
       ])}
     </div>
@@ -22892,8 +22892,8 @@ function vincenzoPeruggiaPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 8. Oktober 1881 &ndash; 8. Oktober 1925</span>
           <span style="display:block;"><strong>Tat:</strong> Diebstahl der Mona Lisa aus dem Louvre, 21. August 1911 &ndash; Verhaftung Dezember 1913</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("hinter-der-leidenschaft", "Hinter der Eitelkeit die tiefere Wunde: Was den Drei antreibt, wenn das Bild wichtiger wird als das Sein.", "Hinter der Leidenschaft &ndash; die neun Wunden")}
         <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
           <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -22921,7 +22921,7 @@ function davidBerkowitzPortraitPage() {
           <img src="./assets/portraits/david-berkowitz-portrait.jpg" alt="David Berkowitz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">David Berkowitz</p>
-        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-typ">SP4w3 · Self-Preservation Type 4 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Son of Sam" · Animal correspondence: Taube</p>
       </div>
 
@@ -22942,7 +22942,7 @@ function davidBerkowitzPortraitPage() {
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
           <strong>Typzuordnung:</strong> Self-Preservation Type 4 &middot;
-          <strong>Typ mit Flügel:</strong> SE4w3 &middot;
+          <strong>Typ mit Flügel:</strong> SP4w3 &middot;
           <em>Leidenschaft:</em> Neid &middot;
           <em>Tieranalogie:</em> Taube
         </p>
@@ -23019,7 +23019,7 @@ function davidBerkowitzPortraitPage() {
         eigene dunkle Liturgie.</p>
         <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
         <strong>Berkowitz</strong> hinterließ Briefe an die Polizei und die Presse –
-        literarisch, theatralisch, selbstmitleidig. Das ist der SE4w3:
+        literarisch, theatralisch, selbstmitleidig. Das ist der SP4w3:
         die innere Welt muss nach außen, sie muss eine Form finden.
         Der Three-wing drang auf Sichtbarkeit.</p>
       </div>
@@ -23032,7 +23032,7 @@ function davidBerkowitzPortraitPage() {
         ich bin nicht genug, ich wurde weggegeben. Diese Wunde formte alles
         Spätere.</p>
         <p class="vb-intro"><strong>b) Schutz durch Bedeutsamkeit:</strong>
-        Die Schutzstrategie der SE4 ist das Beharren auf der eigenen
+        Die Schutzstrategie der SP4 ist das Beharren auf der eigenen
         Einzigartigkeit. <strong>Berkowitz</strong> konnte nicht geliebt sein – aber er
         konnte gefürchtet sein. Furcht ist eine Form von Bedeutung, und
         Bedeutung ist ein Schutz vor dem Nichtsein.</p>
@@ -23046,7 +23046,7 @@ function davidBerkowitzPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE4: die unerschrockene Vier:</strong>
+        <p class="vb-intro"><strong>a) SP4: die unerschrockene Vier:</strong>
         Die selbsterhaltende Vier zeigt ihren Schmerz nicht – sie erträgt ihn.
         Naranjo nennt diesen Subtype „dauntless“: furchtlos, ausdauernd, fähig
         zu großem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
@@ -23059,7 +23059,7 @@ function davidBerkowitzPortraitPage() {
         <p class="vb-intro"><strong>c) Vergleich mit Hitler (SX4):</strong>
         Beide sind Typ 4 – aber die Subtypees unterscheiden sich grundlegend.
         <strong>Hitler</strong> (SX4) externalisierte den Neid in politische Vernichtung,
-        <strong>Berkowitz</strong> (SE4) richtete ihn auf individuelle, körperliche
+        <strong>Berkowitz</strong> (SP4) richtete ihn auf individuelle, körperliche
         Nähe. Die sexuelle Vier sucht Verschmelzung und Rivalität, die
         selbsterhaltende Vier sucht Sicherheit – und bestraft ihre Abwesenheit.</p>
       </div>
@@ -23101,8 +23101,8 @@ function davidBerkowitzPortraitPage() {
         eine Frage, die jeder Leser für sich beantworten muss.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – alle Vierer-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – alle Vierer-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausführlich porträtiert – Neid, Sehnsucht und der Heilungsweg über echten Gleichmut.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -23266,7 +23266,7 @@ function johnMcAfeePortraitPage() {
         Die sexuelle Acht ist der Subtype mit der größten Intensität.
         Naranjo beschreibt sie als „besessenheit“ – ein Hunger, der sich
         auf Menschen, Ideen und Erfahrungen richtet. <strong>McAfee</strong> war
-        kein gekühlter Stratege wie die SE8 – er war Feuer.
+        kein gekühlter Stratege wie die SP8 – er war Feuer.
         Jede Begegnung wurde zur totalen Erfahrung.</p>
         <p class="vb-intro"><strong>b) Nine-wing als Entspannungspunkt:</strong>
         Die w9-Energie gibt der Acht die Fähigkeit zur Selbstvergessenheit,
@@ -23324,7 +23324,7 @@ function johnMcAfeePortraitPage() {
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 – die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerstörung zur schützenden Kraft.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – alle Achter-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – alle Achter-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausführlich porträtiert – Wollust, Macht und der Heilungsweg über echte Stärke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -23434,8 +23434,8 @@ function johnGottiPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 27. Oktober 1940 &ndash; 10. Juni 2002</span>
           <span style="display:block;"><strong>Verurteilung:</strong> F\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung &ndash; lebenslang ohne Bew\xe4hrung, 1992; gestorben im Bundesgef\xe4ngnis Springfield, Missouri</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SE8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -23445,7 +23445,7 @@ function johnGottiPortraitPage() {
 
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SE8w9)"},
+          {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
         ])}
@@ -23515,8 +23515,8 @@ function leslieVanHoutenPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> geb. 23. August 1949</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Mord, lebensl\xe4nglich; 2023 nach 53 Jahren entlassen</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SE9, SO9 und SX9 unterschiedlich ausdr\xfcckt – und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE9, SO9, SX9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich ausdr\xfcckt – und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP9, SO9, SX9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Tr\xe4gheit als Grundmotiv der Neun: Wie der psychische Schlaf entsteht und wie Erwachen aussieht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -23620,7 +23620,7 @@ function nickLeesonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Zusammenbruch von Barings Bank 1995, Verlust von 827 Mio. Pfund</span>
         </div>
 
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SE9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO9w8 im Profil: Zugeh\xf6rigkeit als Identit\xe4t, Sturheit als Schutzschicht &ndash; und was passiert, wenn das System versagt.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Die Neun als Friedensstifter und Harmoniesucher &ndash; und wie Tr\xe4gheit als Selbstvergessenheit zum blinden Fleck wird.", "Wer du wirklich bist, Band 1")}
 
@@ -23843,7 +23843,7 @@ function wolfgangBeltracchiPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Neun im Vergleich: Verschmelzung, Selbstvergessenheit und die Search nach Union.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX9, SO9, SE9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX9, SO9, SP9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 9 ausf\xfchrlich portr\xe4tiert – Tr\xe4gheit, Selbstvergessenheit und der Heilungsweg \xfcber echte Pr\xe4senz.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -23871,7 +23871,7 @@ function nielsHoegelPortraitPage() {
           <img src="./assets/portraits/niels-hoegel-portrait.jpg" alt="Niels Högel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Niels Högel</p>
-        <p class="krim-portrait-typ">SE7w8 · Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Krankenpfleger und Serienmörder · Animal correspondence: Gorilla</p>
       </div>
 
@@ -23889,7 +23889,7 @@ function nielsHoegelPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Sieben ist <em>Maßlosigkeit</em>
         (Gluttony) – nicht prim\xe4r im materiellen Sinne, sondern als unstillbares Verlangen
         nach Stimulation, Erleben und Positivit\xe4t, um innere Leere und Schmerz zu
-        vermeiden. Die selbsterhaltende Sieben (SE7) sucht diesen Schutz besonders
+        vermeiden. Die selbsterhaltende Sieben (SP7) sucht diesen Schutz besonders
         durch Sicherheit, warme Verbindungen und das Gef\xfchl, im eigenen Lebensumfeld
         unverzichtbar zu sein. Der Achterfl\xfcgel erg\xe4nzt dies mit einem verborgenen
         Machttrieb. Niels H\xf6gel wird in der Enneagramm-Literatur daher auch als
@@ -23921,7 +23921,7 @@ function nielsHoegelPortraitPage() {
         <p class="vb-intro"><strong>b) Pathologisches Bed\xfcrfnis nach Kontrolle:</strong>
         Trotz seiner stillen Fassade hatte H\xf6gel ein tiefes, pathologisches Bed\xfcrfnis
         nach Kontrolle \xfcber Leben und Tod. Er spielte mit dem Schicksal seiner Patienten
-        und genoss die Macht, die er \xfcber sie hatte. Die SE7 und speziell die SE7 mit
+        und genoss die Macht, die er \xfcber sie hatte. Die SP7 und speziell die SP7 mit
         Achterfl\xfcgel werden auch als „versteckter Achter" bezeichnet.</p>
         <p class="vb-intro"><strong>c) Scheinbare Bescheidenheit:</strong>
         <strong>H\xf6gel</strong> machte nach au\xdfen hin nie den Eindruck eines Narzissten oder egomanen
@@ -24014,7 +24014,7 @@ function nielsHoegelPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE7 – „Familie / Corviviality":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP7 – „Familie / Corviviality":</strong>
         Claudio Naranjo nannte die selbsterhaltende Sieben „Familie": Sie sucht Sicherheit
         durch warme Zugeh\xf6rigkeit, durch das Gef\xfchl, in ihrem n\xe4heren Lebensumfeld
         unverzichtbar und geliebt zu sein. Das Krankenhaus war H\xf6gels Familie –
@@ -24032,7 +24032,7 @@ function nielsHoegelPortraitPage() {
         Der Achterfl\xfcgel verleiht der Sieben einen Machttrieb, der nach au\xdfen nicht
         sichtbar ist. H\xf6gel wirkte sanft, f\xfcrsorglich und hilfreich – darunter lag
         das Acht-Bed\xfcrfnis nach totaler Kontrolle. Dieser „versteckte Achter" ist
-        das Gef\xe4hrlichste an der SE7w8: Die Achterkraft ist vorhanden, aber verkleidet.
+        das Gef\xe4hrlichste an der SP7w8: Die Achterkraft ist vorhanden, aber verkleidet.
         Niemand warnt sich vor einem freundlichen Krankenpfleger.</p>
         <p class="vb-intro"><strong>d) Die Sieben flieht vor Schmerz und Bedeutungslosigkeit:</strong>
         Der fundamentale Sieben-Mechanismus ist die Vermeidung von Schmerz,
@@ -24058,7 +24058,7 @@ function nielsHoegelPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert – Ma\xdflosigkeit, Reframing und der Heilungsweg \xfcber echte N\xfcchternheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -24086,7 +24086,7 @@ function joachimKrollPortraitPage() {
           <img src="./assets/portraits/joachim-kroll-portrait.jpg" alt="Joachim Kroll – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Joachim Kroll</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder und Kannibale · Animal correspondence: Eule</p>
       </div>
 
@@ -24112,7 +24112,7 @@ function joachimKrollPortraitPage() {
         <strong>Joachim Kroll</strong> wird der <strong>Self-Preservationen Fünf with Six-wing</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Fünf ist <em>Geiz</em> –
         nicht im monetären Sinne, sondern als radikales Horten von Energie, Ressourcen
-        und innerem Erleben. Die selbsterhaltende Fünf (SE5) ist der
+        und innerem Erleben. Die selbsterhaltende Fünf (SP5) ist der
         am stärksten auf Überleben ausgerichtete Subtype der Fünf:
         Sie beschränkt Bedürfnisse auf ein absolutes Minimum,
         zieht sich aus sozialen Contacten nahezu vollständig zurück
@@ -24121,7 +24121,7 @@ function joachimKrollPortraitPage() {
         Angst und eine tiefe Orientierung an eigenen Sicherheitsregeln hinzu –
         bei Kroll wurde diese Angst zur absoluten Isolation.
         Sein Fall ist der dunkelste Ausdruck dessen, was entsteht,
-        wenn die SE5 jeden Contact mit menschlicher Wärme verloren hat:
+        wenn die SP5 jeden Contact mit menschlicher Wärme verloren hat:
         andere Menschen werden zu reinen Ressourcen – buchstäblich.</p>
       </div>
 
@@ -24142,7 +24142,7 @@ function joachimKrollPortraitPage() {
         Kroll hatte eine stark eingeschränkte emotionale Entwicklung,
         einen Intelligenzquotienten von etwa 76 und keinen Zugang
         zu dem, was andere als moralisches Empfinden erleben.
-        Die SE5 in ihrer tiefsten Regression erscheint manchmal
+        Die SP5 in ihrer tiefsten Regression erscheint manchmal
         nicht gefährlich, sondern schlicht nicht ganz präsent –
         als fehle eine grundlegende menschliche Schicht.</p>
         <p class="vb-intro"><strong>c) Kein Warnsignal, keine Maske:</strong>
@@ -24161,7 +24161,7 @@ function joachimKrollPortraitPage() {
         Er lebte seit Jahrzehnten allein in einer kleinen Mietwohnung,
         sprach kaum mit Nachbarn und verbrachte seine Zeit
         mit einer einfachen Routine: Arbeit, Wohnung, Fantasien.
-        Die SE5 reduziert soziale Bedürfnisse auf ein Minimum –
+        Die SP5 reduziert soziale Bedürfnisse auf ein Minimum –
         bei Kroll war dieses Minimum gleich null.
         Die Außenwelt existierte für ihn nur als Ressourcenfeld,
         nicht als Beziehungsraum.</p>
@@ -24169,9 +24169,9 @@ function joachimKrollPortraitPage() {
         <strong>Krolls</strong> Wohnung war spärlich eingerichtet, seine Lebensführung
         auf das Notwendigste beschränkt. Er aß einfach, besaß wenig,
         brauchte wenig. Dieser Minimalismus ist das Kernmerkmal
-        der SE5: Sie empfindet sich als Menschen mit minimalen Ansprüchen
+        der SP5: Sie empfindet sich als Menschen mit minimalen Ansprüchen
         und maximaler innerer Selbstgenügsamkeit.
-        Was bei gesunden SE5-Typen zu einem asketischen, fokussierten
+        Was bei gesunden SP5-Typen zu einem asketischen, fokussierten
         Lebensstil führt, wurde bei Kroll zur totalen Verarmung
         aller menschlichen Dimensionen – emotional, sozial, moralisch.</p>
         <p class="vb-intro"><strong>c) Doppelleben ohne Bewusstsein des Widerspruchs:</strong>
@@ -24201,10 +24201,10 @@ function joachimKrollPortraitPage() {
         <strong>Kroll</strong> aß Teile seiner Opfer – das ist historisch belegt
         und von ihm selbst unaufgeregt bestätigt worden.
         Aus Sicht der Enneagramm-Psychologie ist dies der dunkelste
-        denkbare Ausdruck der SE5-Leidenschaft:
+        denkbare Ausdruck der SP5-Leidenschaft:
         Der Selbsterhaltungsinstinkt der Fünf dreht sich im Kern
         um Ressourcen – Energie beschaffen, sichern, einverleiben.
-        Was bei der gesunden SE5 als Sparsamkeit, Vorratshaltung
+        Was bei der gesunden SP5 als Sparsamkeit, Vorratshaltung
         und innerer Rückzug erscheint, hat bei Kroll eine buchstäbliche,
         körperliche Gestalt angenommen:
         Der andere Mensch wird zur Nahrungsressource –
@@ -24218,7 +24218,7 @@ function joachimKrollPortraitPage() {
         Kroll erlebte den Kannibalismus nicht als Exzess,
         sondern als naheliegende Konsequenz seiner inneren Welt,
         in der andere Menschen schlicht keine eigenständige Realität besaßen.
-        Die SE5 in ihrer tiefsten Regression kennt keine Grenze
+        Die SP5 in ihrer tiefsten Regression kennt keine Grenze
         zwischen Ressource und Person – bei Kroll war diese Grenze
         nie vorhanden gewesen.</p>
         <p class="vb-intro"><strong>c) Kooperation ohne Schuldgefühl:</strong>
@@ -24241,7 +24241,7 @@ function joachimKrollPortraitPage() {
         um als Täter in Betracht gezogen zu werden.
         Ein stiller Kanalarbeiter ohne Auffälligkeiten,
         ohne bekannte Vorstrafen, ohne sichtbare Aggression.
-        Die SE5 ist von Natur aus unsichtbar –
+        Die SP5 ist von Natur aus unsichtbar –
         sie beansprucht keinen Raum, fällt nicht auf,
         zieht sich zurück. Diese Eigenschaft schützte Kroll
         länger als jede aktive Tarnung es hätte können.</p>
@@ -24271,7 +24271,7 @@ function joachimKrollPortraitPage() {
         war nicht Schrecken oder Dominanz, sondern Leere –
         ein tiefes Gefühl der Abwesenheit.
         Wer mit ihm sprach, traf niemanden an.
-        Die SE5 hält Energie zurück – sie gibt kaum etwas
+        Die SP5 hält Energie zurück – sie gibt kaum etwas
         nach außen. Bei Kroll war auch der Empfang abgeschaltet:
         Keine Resonanz, keine Reaktion, keine Spur von
         Verstehen oder Interesse an dem, was der andere erlebt.</p>
@@ -24281,10 +24281,10 @@ function joachimKrollPortraitPage() {
         Kein Ausbruch, keine Panik, keine Empörung.
         Diese gleichmütige Ruhe ist das Gegenteil von Kontrolle –
         es ist das Fehlen von Impulsen, die überhaupt kontrolliert
-        werden müssten. Die SE5 lebt in gedämpfter Intensität;
+        werden müssten. Die SP5 lebt in gedämpfter Intensität;
         bei Kroll war die Dämpfung vollständig.</p>
         <p class="vb-intro"><strong>c) Six-wing: Angst ohne Ausweg:</strong>
-        Der Six-wing der SE5 fügt der Isolation eine Grundangst hinzu –
+        Der Six-wing der SP5 fügt der Isolation eine Grundangst hinzu –
         das Gefühl, nicht sicher zu sein, immer auf der Hut sein zu müssen.
         Bei <strong>Kroll</strong> äußerte sich diese Angst nicht als Paranoia,
         sondern als totaler Rückzug: Wenn niemand an mich herankommt,
@@ -24295,7 +24295,7 @@ function joachimKrollPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Eule</h3>
         <p class="vb-intro"><strong>a) Die Eule beobachtet, greift aber nicht ein:</strong>
-        Die Eule ist das Tier der SE5 im Tierlexikon:
+        Die Eule ist das Tier der SP5 im Tierlexikon:
         sie sieht alles, bleibt aber unsichtbar –
         still auf ihrem Ast, wachsam, ohne sich zu zeigen.
         Bei <strong>Kroll</strong> war diese Qualität absolut:
@@ -24333,17 +24333,17 @@ function joachimKrollPortraitPage() {
         Empathie, Bindungsfähigkeit, moralische Bewertung des eigenen Handelns.
         Der Six-wing verstärkte die Isolation durch Misstrauen und Angst –
         sein einziger Schutz war totaler Rückzug.
-        Was die SE5 im gesunden Pol zu Genügsamkeit, Fokus und tiefer
+        Was die SP5 im gesunden Pol zu Genügsamkeit, Fokus und tiefer
         innerer Stärke befähigt, wurde bei Kroll zur vollständigen
         Auflösung der Grenze zwischen Selbst und Welt.
-        Er ist kein Beispiel für die SE5 als Typ –
+        Er ist kein Beispiel für die SP5 als Typ –
         er ist ihr dunkelster Abgrund.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE5 – „Geiz / Avarice":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP5 – „Geiz / Avarice":</strong>
         Claudio Naranjo beschrieb die selbsterhaltende Fünf als den Subtype,
         der am stärksten auf die Sicherung des eigenen Überlebens
         durch Reduktion ausgerichtet ist – weniger wollen heißt,
@@ -24357,13 +24357,13 @@ function joachimKrollPortraitPage() {
         also dazu, sich vorzustellen, dass andere Menschen
         eine innere Welt, Gefühle und Perspektiven haben.
         Dies ist kein spezifisches Enneagramm-Merkmal,
-        aber es erklärt, warum der SE5-Mechanismus des Rückzugs
+        aber es erklärt, warum der SP5-Mechanismus des Rückzugs
         bei ihm eine so extreme Form annahm:
         Wer keine innere Welt im anderen erkennt,
         der hat keine Grenze mehr,
         die ihn davor schützt, den anderen zu instrumentalisieren.</p>
         <p class="vb-intro"><strong>c) Der Six-wing als Angstsystem:</strong>
-        Die Sechs bringt der SE5 eine chronische Grundangst,
+        Die Sechs bringt der SP5 eine chronische Grundangst,
         die sich als hypervigilantes Sicherheitsdenken äußert.
         Bei <strong>Kroll</strong> zeigte sich dies als totale soziale Abschottung:
         Keine Beziehung, kein Vertrauen, keine Öffnung.
@@ -24389,20 +24389,20 @@ function joachimKrollPortraitPage() {
         und Verbindung zur Außenwelt – auch dieser Impuls fehlte vollständig.
         Kroll lebte dauerhaft in der tiefsten Schicht der Fünf:
         Rückzug, Reduktion, Auflösung.</p>
-        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SE5:</strong>
+        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SP5:</strong>
         <strong>Krolls</strong> Fall ist lehrreich nicht weil er typisch ist –
-        sondern weil er zeigt, wohin der SE5-Mechanismus führen kann,
+        sondern weil er zeigt, wohin der SP5-Mechanismus führen kann,
         wenn alle menschlichen Korrektive fehlen:
         Beziehung, Empathie, Entwicklung.
-        Die gesunde SE5 ist ein Mensch von großer innerer Stärke,
+        Die gesunde SP5 ist ein Mensch von großer innerer Stärke,
         Genügsamkeit und Tiefe. Was Kroll fehlte,
         war nicht der Typ – sondern alles,
         was einen Typ zu einem Menschen macht.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Fünf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -24502,8 +24502,8 @@ function tedKaczynskiPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 22. Mai 1942 &ndash; 10. Juni 2023</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Dreifacher Mord, 23-facher K\xf6rperverletzung; lebensl\xe4nglich ohne Bew\xe4hrung</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SE5, SO5 und SX5 unterschiedlich ausdr\xfcckt – und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SP5, SO5 und SX5 unterschiedlich ausdr\xfcckt – und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Gier als Grundmotiv der F\xfcnf: Wie der R\xfcckzug entsteht und wie Contact zur Welt w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -24688,8 +24688,8 @@ function haroldShipmanPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Fünf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -24699,9 +24699,9 @@ function haroldShipmanPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll (SE5w6)"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll (SP5w6)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4)"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SE2w1) – Krankenpfleger, Serienmörder"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP2w1) – Krankenpfleger, Serienmörder"},
       ])}
     </div>
   `);
@@ -24717,7 +24717,7 @@ function rudolfPleilPortraitPage() {
           <img src="./assets/portraits/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Rudolf Pleil</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, selbsternannter „Henker" · Animal correspondence: Flusspferd</p>
       </div>
 
@@ -24752,13 +24752,13 @@ function rudolfPleilPortraitPage() {
         nicht im Sinne gesunden Selbstwertgefühls, sondern als aufgeblähtes
         Selbstbild, das Grenzen nicht kennt: Ich bin außergewöhnlich,
         ich bin unentbehrlich, mein Wille hat Vorrang.
-        Die selbsterhaltende Zwei (SE2) kämpft tief im Inneren
+        Die selbsterhaltende Zwei (SP2) kämpft tief im Inneren
         um Sicherheit, Anerkennung und das Gefühl, unverzichtbar zu sein.
         Der Three-wing verleiht dieser Dynamik eine
         performative, auf Außenwirkung ausgerichtete Dimension:
         Er will nicht nur herrschen – er will <em>gesehen</em> werden dabei.
         Pleils Selbstbezeichnung als „bester Totmacher" ist das
-        präziseste psychologische Selbstporträt eines SE2w3:
+        präziseste psychologische Selbstporträt eines SP2w3:
         Stolz gepaart mit dem Bedürfnis nach Anerkennung –
         selbst für das Unfassbarste.</p>
       </div>
@@ -24805,7 +24805,7 @@ function rudolfPleilPortraitPage() {
         es ist der Stolz der Zwei: Ich habe mehr geleistet als alle anderen.
         Seht mich an. Tragt meinen Namen.</p>
         <p class="vb-intro"><strong>b) Anspruchsdenken ohne Schranken:</strong>
-        Die SE2 entwickelt im Verfall das Gefühl,
+        Die SP2 entwickelt im Verfall das Gefühl,
         dass ihr alles zusteht – weil sie so viel gibt,
         so viel leistet, so unentbehrlich ist.
         Bei <strong>Pleil</strong> war dieser Anspruch von jedem sozialen Korrektiv
@@ -24819,7 +24819,7 @@ function rudolfPleilPortraitPage() {
         Die Zwei braucht Menschen, aber zu ihren Bedingungen.
         Er zog andere in seinen Orbit, machte sie
         abhängig, verwickelt, mitschuldig.
-        Diese Form der Bindung ist das Kernmuster der SE2:
+        Diese Form der Bindung ist das Kernmuster der SP2:
         Ich sorge dafür, dass du mich brauchst –
         und dann entscheide ich, was mit dir geschieht.</p>
       </div>
@@ -24867,7 +24867,7 @@ function rudolfPleilPortraitPage() {
         die ihm schon immer zugestanden hätte.
         Im Gerichtssaal zeigte er keine Reue –
         er genoss das Spektakel.
-        Die SE2 im Verfall verliert jede Fähigkeit,
+        Die SP2 im Verfall verliert jede Fähigkeit,
         die Wirkung des eigenen Handelns auf andere
         wirklich wahrzunehmen.</p>
         <p class="vb-intro"><strong>b) Anziehung und Abstoßung zugleich:</strong>
@@ -24901,7 +24901,7 @@ function rudolfPleilPortraitPage() {
         <strong>Pleil</strong> operierte in einem gesellschaftlichen Vakuum.
         Die Grenzzone der Nachkriegszeit war ein Raum ohne Gesetz,
         ohne Schutz, ohne Zeugen.
-        Die SE2 braucht eine Bühne – und die Chaos-Jahre nach 1945
+        Die SP2 braucht eine Bühne – und die Chaos-Jahre nach 1945
         boten ihm eine, auf der keine Regeln galten.
         Sein Typus hätte in geordneten Verhältnissen
         vielleicht andere Wege gefunden, Macht auszuüben –
@@ -24923,10 +24923,10 @@ function rudolfPleilPortraitPage() {
         was blieb, war der reine Sog.</p>
         <p class="vb-intro"><strong>b) Selbsterhaltung als Grundangst:</strong>
         Hinter allem Stolz und aller Inszenierung liegt
-        bei der SE2 eine tiefe Angst: nicht zu überleben,
+        bei der SP2 eine tiefe Angst: nicht zu überleben,
         nicht zu genügen, nicht gebraucht zu werden.
         <strong>Pleils</strong> Kindheit war von Armut, Instabilität
-        und Gewalt geprägt – ein Umfeld, in dem die SE2-Grundangst
+        und Gewalt geprägt – ein Umfeld, in dem die SP2-Grundangst
         früh und brutal aktiviert wird.
         Was entstand, war ein Mensch, der um jeden Preis
         sicherstellen wollte, dass er Bedeutung hat –
@@ -24937,14 +24937,14 @@ function rudolfPleilPortraitPage() {
         <strong>Pleil</strong> brauchte Zeugen –
         sei es Komplizen, sei es das Gericht, sei es die Presse.
         Ohne Publikum verlor seine Identität ihren Halt.
-        Das ist die tiefste Not der SE2w3:
+        Das ist die tiefste Not der SP2w3:
         Ich existiere nur, solange jemand zuschaut.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Das Flusspferd</h3>
         <p class="vb-intro"><strong>a) Massiv, territorial und unterschätzt:</strong>
-        Das Flusspferd ist das Tier der SE2 im Tierlexikon:
+        Das Flusspferd ist das Tier der SP2 im Tierlexikon:
         Es wirkt schwerfällig und harmlos – und ist doch
         eines der gefährlichsten Tiere Afrikas.
         Es beansprucht sein Territorium absolut,
@@ -24962,7 +24962,7 @@ function rudolfPleilPortraitPage() {
         um dann zuzuschlagen.
         Diese Fähigkeit, die echte Bedrohung unter einer
         sozialen Oberfläche zu verbergen,
-        ist ein Kernmerkmal des SE2w3.</p>
+        ist ein Kernmerkmal des SP2w3.</p>
         <p class="vb-intro"><strong>c) Selbsterhaltung als oberstes Gesetz:</strong>
         Das Flusspferd kennt keine Feinde –
         es kennt nur Bedrohungen für seinen Bestand.
@@ -24984,7 +24984,7 @@ function rudolfPleilPortraitPage() {
         sondern wegen der unverhüllten Selbstdarstellung dahinter.
         Kein anderer Täter hat sein eigenes Profil so offen formuliert wie er:
         „der beste Totmacher" ist kein Deckname – es ist ein Selbstbild.
-        Der SE2w3-Mechanismus im Verfall erzeugt genau das:
+        Der SP2w3-Mechanismus im Verfall erzeugt genau das:
         Stolz ohne Mitgefühl, Leistungsdenken ohne moralisches Fundament,
         das Bedürfnis nach Anerkennung ohne die Fähigkeit,
         den anderen als Person wahrzunehmen.
@@ -24998,7 +24998,7 @@ function rudolfPleilPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 – „Ich zuerst":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SP2 – „Ich zuerst":</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Zwei
         als den Subtype mit dem stärksten Überlebenswillen –
         „Ich zuerst" als Lebensmotto.
@@ -25010,7 +25010,7 @@ function rudolfPleilPortraitPage() {
         <p class="vb-intro"><strong>b) Die Nachkriegsbiografie als Verstärker:</strong>
         <strong>Pleil</strong> wuchs in extremer Armut auf,
         erlebte früh Gewalt und soziale Entwurzelung.
-        Für die SE2 ist das Umfeld entscheidend:
+        Für die SP2 ist das Umfeld entscheidend:
         Wer früh lernt, dass Fürsorge nicht kommt,
         es sei denn man fordert sie ein,
         entwickelt ein Überlebenssystem, das auf Einfordern,
@@ -25021,7 +25021,7 @@ function rudolfPleilPortraitPage() {
         <p class="vb-intro"><strong>c) Komplizen als Zwei-Dynamik:</strong>
         <strong>Pleil</strong> begann seine Mordserie nicht allein –
         er zog Männer in seinen Bann, die mitgemacht haben.
-        Das ist eine klassische SE2-Dynamik:
+        Das ist eine klassische SP2-Dynamik:
         Die Zwei schafft Abhängigkeit, macht andere mitschuldig,
         hält sie durch gemeinsame Schuld in Reichweite.
         Das Muster „Ich sorge dafür, dass du mich brauchst"
@@ -25065,19 +25065,19 @@ function rudolfPleilPortraitPage() {
         In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss –
         sie war der einzige Contactmodus,
         den er mit anderen Menschen kannte.</p>
-        <p class="vb-intro"><strong>g) Bedeutung für das Verständnis der SE2:</strong>
-        <strong>Pleils</strong> Fall macht sichtbar, wohin die SE2-Logik
+        <p class="vb-intro"><strong>g) Bedeutung für das Verständnis der SP2:</strong>
+        <strong>Pleils</strong> Fall macht sichtbar, wohin die SP2-Logik
         führen kann, wenn alle menschlichen Korrektive fehlen:
         Empathie, echte Bindung, das Erleben von Grenzen.
-        Die gesunde SE2 ist ein Mensch von großer Wärme,
+        Die gesunde SP2 ist ein Mensch von großer Wärme,
         Aufmerksamkeit und echter Sorge um andere.
         Was Pleil fehlte, war nicht der Typ –
         sondern alles, was einen Typ zu einem Menschen macht.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -25286,7 +25286,7 @@ function jackUnterweegerPortraitPage() {
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w1 im systemischen Vergleich – Ambition, gesellschaftliche Bedeutung und ihr Schatten.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -25297,7 +25297,7 @@ function jackUnterweegerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Sektenführer"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Criminal Psychology: Osama bin Loading (SO2w1) – al-Qaida"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SE2w1)"}
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"}
       ])}
     </div>
   `);
@@ -25483,8 +25483,8 @@ function jimJonesPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdrückt – und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -25494,9 +25494,9 @@ function jimJonesPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SE2w3)"},
-        {route:"kriminalpsychologie-rudolf-pleil", label:"Criminal Psychology: Rudolf Pleil (SE2w3)"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SE2w1)"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3)"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Criminal Psychology: Rudolf Pleil (SP2w3)"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
       ])}
     </div>
   `);
@@ -25662,7 +25662,7 @@ function cedricMaakePortraitPage() {
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w3 im systemischen Vergleich – Ambition, Image und die dunkle Seite gesellschaftlicher Sichtbarkeit.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -25673,7 +25673,7 @@ function cedricMaakePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Sektenführer"},
         {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – Der Dichter und der Tod"},
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SE2w3) – Der Killer Clown"}
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3) – Der Killer Clown"}
       ])}
     </div>
   `);
@@ -25763,8 +25763,8 @@ function pamelaSmartPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Verurteilung:</strong> 22. März 1991; lebenslänglich ohne Bewährung (New Hampshire)</span>
           <span style="display:block;"><strong>Status:</strong> Seit 1991 in Haft; seit ca. 2000 im Bedford Hills Correctional Facility, New York. Alle Mittäter sind in Freiheit.</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdrückt – und warum die SX2 Liebe als einzige Währung kennt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum die SX2 Liebe als einzige Währung kennt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie die Überzeugung, unersetzlich zu sein, zur gefährlichsten Blindheit wird.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -25775,7 +25775,7 @@ function pamelaSmartPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4)"},
-          {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SE2w1)"},
+          {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
           {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3)"},
         ])}
       </div>
@@ -25939,8 +25939,8 @@ function dianeDownsPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Erfolg und der Heilungsweg über echte Herzverbindung.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26303,8 +26303,8 @@ function heinrichPommerenkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektion und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26332,7 +26332,7 @@ function paulOgorzowPortraitPage() {
           <img src="./assets/portraits/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Paul Ogorzow</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, „S-Bahn-Mörder" · Animal correspondence: Adler</p>
       </div>
 
@@ -26367,13 +26367,13 @@ function paulOgorzowPortraitPage() {
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein nach innen gekehrter, strukturierter Groll
         gegen die eigene Unvollkommenheit und die Unvollkommenheit der Welt.
-        Die selbsterhaltende Eins (SE1) unterscheidet sich
+        Die selbsterhaltende Eins (SP1) unterscheidet sich
         grundlegend von der sozialen Eins (SO1):
         Wo die SO1 nach außen belehrt und moralisiert,
-        richtet die SE1 ihre Energie nach innen –
+        richtet die SP1 ihre Energie nach innen –
         auf perfekte Selbstkontrolle, makellose Fassade,
         tadellosen Alltag. Sie wirkt gutmütig, fast kindlich,
-        harmlos. Das ist kein Zufall: Die SE1 maskiert
+        harmlos. Das ist kein Zufall: Die SP1 maskiert
         ihre innere Anspannung durch übertriebene Korrektheit,
         weil Error – und damit Strafe – um jeden Preis vermieden werden müssen.
         Der Neunflügel fügt die Fähigkeit zur vollständigen
@@ -26387,7 +26387,7 @@ function paulOgorzowPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
         <p class="vb-intro"><strong>a) Unauffällig und angepasst:</strong>
         <strong>Ogorzow</strong> fiel niemandem auf – und das war kein Zufall.
-        Die SE1 trainiert sich darauf, keinen Anlass zur Kritik zu bieten:
+        Die SP1 trainiert sich darauf, keinen Anlass zur Kritik zu bieten:
         kein Fehlverhalten, kein Aufsehen, keine Angriffsfläche.
         Sein Blick war der eines pflichtbewussten Mannes –
         offen, direkt, ohne Besonderheit.
@@ -26413,7 +26413,7 @@ function paulOgorzowPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Die kindliche Fassade der SE1:</strong>
+        <p class="vb-intro"><strong>a) Die kindliche Fassade der SP1:</strong>
         Naranjo beschreibt die selbsterhaltende Eins
         als den Subtype, der am stärksten nach
         Harmlosigkeit und Sanftmut strebt –
@@ -26422,14 +26422,14 @@ function paulOgorzowPortraitPage() {
         Gemüsegarten, Fleiß, Freundlichkeit, Väterlichkeit.
         Das Bild des spießbürgerlichen Musterbürgers
         war keine bewusste Maske – es war der
-        tiefste Ausdruck seiner SE1-Logik:
+        tiefste Ausdruck seiner SP1-Logik:
         Wenn ich fehlerfrei bin, bin ich sicher.
         Wenn ich sicher bin, bin ich unangreifbar.</p>
         <p class="vb-intro"><strong>b) Fachwissen als Kontrollwerkzeug:</strong>
         <strong>Ogorzow</strong> nutzte seine Arbeit als Weichenwärter
         nicht nur für die Taten – er nutzte sie als
         Ordnungssystem für sein gesamtes Doppelleben.
-        Die SE1 braucht Struktur, Routine und einen Rahmen,
+        Die SP1 braucht Struktur, Routine und einen Rahmen,
         in dem sie sich sicher fühlt.
         Der Bahnbetrieb war dieser Rahmen:
         Schichten, Abläufe, Streckenkenntnis –
@@ -26439,7 +26439,7 @@ function paulOgorzowPortraitPage() {
         Dass <strong>Ogorzow</strong> ausgerechnet in den Jahren
         der kriegsbedingten Berliner Verdunkelung agierte,
         ist psychologisch bedeutsam.
-        Die SE1 handelt nur, wenn sie sich unangreifbar glaubt –
+        Die SP1 handelt nur, wenn sie sich unangreifbar glaubt –
         wenn die äußere Struktur ihr Schutz gibt.
         Die Dunkelheit der Verdunkelung war für ihn
         das Äquivalent zur inneren Abspaltung:
@@ -26450,7 +26450,7 @@ function paulOgorzowPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Zorn ohne sichtbaren Furor:</strong>
         Die Leidenschaft der Eins ist Zorn –
-        aber bei der SE1 ist dieser Zorn tief eingegraben,
+        aber bei der SP1 ist dieser Zorn tief eingegraben,
         kaum sichtbar, nach innen verdichtet.
         <strong>Ogorzow</strong> zeigte nach außen keinen Groll, keine Erregung,
         keine Aggressivität. Dennoch war dieser Zorn vorhanden:
@@ -26472,7 +26472,7 @@ function paulOgorzowPortraitPage() {
         Also muss die Schuld woanders liegen.
         Immer.</p>
         <p class="vb-intro"><strong>c) Neunflügel: Das hermetische Doppelleben:</strong>
-        Der Neunflügel erlaubt dem SE1 eine Form
+        Der Neunflügel erlaubt dem SP1 eine Form
         der Dissoziation, die für Außenstehende unbegreiflich ist:
         vollständige Trennung zweier Lebenswirklichkeiten,
         ohne dass eine die andere berührt oder stört.
@@ -26484,13 +26484,13 @@ function paulOgorzowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Tathandlung im Licht der SE1</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Tathandlung im Licht der SP1</h3>
         <p class="vb-intro"><strong>a) Routine und Präzision als Tatprinzip:</strong>
         <strong>Ogorzow</strong> griff überwiegend auf Bahnanlagen
         und in Abteilen der S-Bahn an –
         exakt in dem Umfeld, das er als Weichenwärter
         in- und auswendig kannte.
-        Das ist kein Zufall: Die SE1 handelt nur
+        Das ist kein Zufall: Die SP1 handelt nur
         im Rahmen dessen, was sie vollständig kontrolliert.
         Die Strecken, die Schichten, die Verdunkelungszeiten –
         alles war vorab bekannt, kalkuliert, vertraut.
@@ -26503,23 +26503,23 @@ function paulOgorzowPortraitPage() {
         Er schlug zu, würgte, warf Opfer aus fahrenden Zügen.
         Die Brutalität war vorhanden – aber sie war
         funktional, nicht auslebend.
-        Das entspricht der SE1-Logik:
+        Das entspricht der SP1-Logik:
         kein Ausbruch um des Ausbruchs willen,
         sondern ein Vorgang, der vollzogen und abgeschlossen wird.
         Danach Rückkehr in die Routine.
         Kein Nachhall, keine Spur, keine Erregung.</p>
-        <p class="vb-intro"><strong>c) Die Verdunkelung als SE1-Schutzstruktur:</strong>
+        <p class="vb-intro"><strong>c) Die Verdunkelung als SP1-Schutzstruktur:</strong>
         Die kriegsbedingte Berliner Verdunkelung war für
         <strong>Ogorzow</strong> die äußere Entsprechung seiner inneren Abspaltung:
         ein strukturell gesicherter Raum der Unsichtbarkeit.
-        Die SE1 handelt nur, wenn sie glaubt, unangreifbar zu sein –
+        Die SP1 handelt nur, wenn sie glaubt, unangreifbar zu sein –
         wenn keine Kontrolle von außen möglich ist.
         Die Dunkelheit war sein System.
         Als die Ermittler begannen, gezielt auf Bahnpersonal
         zu schauen, und sein Name fiel,
         brach das System sofort zusammen:
         Er gestand noch in derselben Nacht.
-        Das ist die SE1 ohne ihre Schutzstruktur –
+        Das ist die SP1 ohne ihre Schutzstruktur –
         sie hält nicht stand.</p>
       </div>
 
@@ -26531,7 +26531,7 @@ function paulOgorzowPortraitPage() {
         nicht weil er clever täuschte,
         sondern weil er tatsächlich das Bild des
         vollkommen unverdächtigen Mannes verkörperte.
-        Die SE1 arbeitet ihr ganzes Leben daran,
+        Die SP1 arbeitet ihr ganzes Leben daran,
         keinen Error zu machen – und genau das machte ihn
         für die Ermittler so schwer greifbar:
         Es gab nichts, woran man ihn erkennen konnte.</p>
@@ -26540,16 +26540,16 @@ function paulOgorzowPortraitPage() {
         scheiterten zunächst, weil <strong>Ogorzow</strong>
         kein erkennbares Profil hatte.
         Kein Vorstrafen, kein Alkohol, keine bekannten Konflikte.
-        Die SE1 hinterlässt bewusst keine Spuren –
+        Die SP1 hinterlässt bewusst keine Spuren –
         nicht durch Raffinesse, sondern durch das
         jahrelang eingeübte Verschwinden hinter der Norm.
         Er war der Täter, der aussah wie keiner.</p>
         <p class="vb-intro"><strong>c) Kriegskontext als Verstärker:</strong>
         Der Zweite Weltkrieg bot <strong>Ogorzow</strong>
-        strukturelle Bedingungen, die seiner SE1-Logik entgegenkamen:
+        strukturelle Bedingungen, die seiner SP1-Logik entgegenkamen:
         Verdunkelung, eingeschränkte Ermittlungskapazitäten,
         allgemeine Verunsicherung.
-        Die SE1 handelt nur unter dem Schutz von Ordnung und Unsichtbarkeit –
+        Die SP1 handelt nur unter dem Schutz von Ordnung und Unsichtbarkeit –
         beides war im kriegsbedingt verdunkelten Berlin
         zuverlässig gegeben.</p>
       </div>
@@ -26557,19 +26557,19 @@ function paulOgorzowPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Energetische Wirkung</h3>
         <p class="vb-intro"><strong>a) Komprimiert und kontrolliert:</strong>
-        Die energetische Wirkung des SE1w9
+        Die energetische Wirkung des SP1w9
         ist kaum spürbar – und das ist ihr Wesen.
         Keine Dominanz, keine Spannung, kein Sog.
         <strong>Ogorzow</strong> strahlte nicht aus,
         er zog nicht an, er drängte nicht vor.
         Er war einfach da – pflichtbewusst, ordentlich, unsichtbar.
         Diese Energie der Nicht-Auffälligkeit ist die
-        vollendete Ausdrucksform des SE1w9 im Alltag.</p>
+        vollendete Ausdrucksform des SP1w9 im Alltag.</p>
         <p class="vb-intro"><strong>b) Innere Starre hinter äußerer Weichheit:</strong>
         Hinter der freundlichen Oberfläche lag bei <strong>Ogorzow</strong>
         ein rigides, unbewegliches inneres System:
         starre Überzeugungen, starre Selbstbilder, starre Grenzziehungen.
-        Die SE1 ist innen unerbittlich – sie duldet keine Abweichung
+        Die SP1 ist innen unerbittlich – sie duldet keine Abweichung
         von der eigenen inneren Norm.
         Wer diesen inneren Raum betrat, traf auf Eis,
         nicht auf Wärme.</p>
@@ -26588,7 +26588,7 @@ function paulOgorzowPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Animal correspondence: Der Adler</h3>
         <p class="vb-intro"><strong>a) Präzision aus der Höhe:</strong>
-        Der Adler ist das Tier der SE1 im Tierlexikon:
+        Der Adler ist das Tier der SP1 im Tierlexikon:
         ein Tier von makelloser Haltung, überlegener Sicht
         und absoluter Präzision im Angriff.
         Der Adler kreist ruhig, unsichtbar in der Höhe,
@@ -26605,7 +26605,7 @@ function paulOgorzowPortraitPage() {
         ohne wirklich zu ihr zu gehören:
         freundlich, korrekt, unauffällig –
         aber innerlich vollständig getrennt.
-        Die SE1 ist kein Typ der echten Nähe –
+        Die SP1 ist kein Typ der echten Nähe –
         sie hält Distanz durch tadelloses Funktionieren.</p>
         <p class="vb-intro"><strong>c) Makellose Oberfläche als Tarnung:</strong>
         Das Gefieder des Adlers ist perfekt,
@@ -26626,14 +26626,14 @@ function paulOgorzowPortraitPage() {
         zu Heinrich Pommerenke: Wo der SO1w9
         seinen Strafauftrag laut formulierte und
         vor Gericht darüber referierte,
-        hat der SE1w9 nie eine Erklärung gegeben –
+        hat der SP1w9 nie eine Erklärung gegeben –
         weil er keine brauchte.
         Die selbsterhaltende Eins braucht keine Ideologie,
         keinen göttlichen Auftrag, keine gesellschaftliche Mission.
         Sie braucht nur das Gefühl, fehlerfrei zu sein –
         und die Abwesenheit von allem, was sie darin stört.
         Ogorzows Schuldzuweisung an den Arzt
-        ist das präziseste Selbstporträt des SE1:
+        ist das präziseste Selbstporträt des SP1:
         Ich bin makellos. Der Error liegt woanders.
         Immer.
         Der Neunflügel hat dafür gesorgt,
@@ -26644,11 +26644,11 @@ function paulOgorzowPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) SE1 vs. SO1 – der entscheidende Unterschied:</strong>
+        <p class="vb-intro"><strong>a) SP1 vs. SO1 – der entscheidende Unterschied:</strong>
         Der direkte Vergleich mit Pommerenke (SO1w9)
         macht das Profil des <strong>Ogorzow</strong> schärfer:
         Der SO1er moralisiert nach außen, predigt, erklärt, begründet.
-        Der SE1er schweigt – er hält sich für korrekt,
+        Der SP1er schweigt – er hält sich für korrekt,
         ohne darüber reden zu müssen.
         Pommerenke hatte einen Strafauftrag.
         Ogorzow hatte einen inneren Standard –
@@ -26664,7 +26664,7 @@ function paulOgorzowPortraitPage() {
         die mit diesen Bildern nichts gemein hatte.
         Je vollkommener die Fassade, desto tiefer der Abgrund darunter.</p>
         <p class="vb-intro"><strong>c) Der Frauenhass als Einser-Projektion:</strong>
-        <strong>Ogorzows</strong> Hass auf Frauen ist aus SE1-Perspektive
+        <strong>Ogorzows</strong> Hass auf Frauen ist aus SP1-Perspektive
         eine klassische Einser-Projektion:
         Die eigene Unreinheit, der eigene Error (die Krankheit),
         wird auf den anderen projiziert.
@@ -26682,7 +26682,7 @@ function paulOgorzowPortraitPage() {
         statt diesen Schmerz anzunehmen,
         projizierte er ihn sofort nach außen.
         Der Vierer-Stresspunkt hätte Selbstbegegnung bedeutet –
-        das war für die SE1 unerträglich.
+        das war für die SP1 unerträglich.
         Die Projektion auf den Arzt war der Fluchtweg.</p>
         <p class="vb-intro"><strong>e) Sieben als Entspannungspunkt:</strong>
         Der Entspannungspunkt der Eins ist die Sieben –
@@ -26695,21 +26695,21 @@ function paulOgorzowPortraitPage() {
         und das Doppelleben auf der anderen.
         Weder Sicherheit noch Entspannung
         waren Teil seiner inneren Welt.</p>
-        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SE1:</strong>
+        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SP1:</strong>
         <strong>Ogorzows</strong> Fall zeigt die dunkelste Konsequenz
-        der SE1-Dynamik: Ein Typ, dessen ganzes System
+        der SP1-Dynamik: Ein Typ, dessen ganzes System
         auf Selbstschutz, Fehllosigkeit und Schuld-Externalisierung aufgebaut ist,
         kann in extremer Pathologie ein Doppelleben führen,
         das für Außenstehende buchstäblich unsichtbar ist.
-        Die gesunde SE1 ist ein Mensch von aufrichtiger
+        Die gesunde SP1 ist ein Mensch von aufrichtiger
         Integrität, innerer Disziplin und ehrlicher Selbstkritik.
         Was bei Ogorzow fehlte, war genau das Letzte:
         die Fähigkeit, sich selbst anzuschauen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, innere Strenge und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26926,7 +26926,7 @@ function joelRifkinPortraitPage() {
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SX5w6 im systemischen Vergleich – Intimität unter Kontrolle und die dunkelste Ausprägung der sexuellen Fünf.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug als Schutz und der Heilungsweg über echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -27018,8 +27018,8 @@ function charlesMansonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 12. November 1934 &ndash; 19. November 2017</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Neunfacher Mord (Beihilfe/Anstiftung), lebensl\xe4nglich</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SE6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SX6 als Kontratyp so intensiv provoziert.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SX6 als Kontratyp so intensiv provoziert.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem der Sechs entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -27048,7 +27048,7 @@ function johnListPortraitPage() {
           <img src="./assets/portraits/john-list-portrait.jpg" alt="John List – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John List</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</p>
         <p class="krim-portrait-sub">Der Familienmord von Westfield &ndash; Animal correspondence: Kaninchen</p>
       </div>
 
@@ -27060,20 +27060,20 @@ function johnListPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Sechs: Angst als Kompass</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 6 (SE6)</strong> ist unter den Sechs-Subtypees derjenige, der am deutlichsten von Angst gesteuert wird &ndash; und der diese Angst am sorgf\xe4ltigsten nach au\xdfen verbirgt. Claudio Naranjo beschreibt ihn als den &bdquo;W\xe4rmenden&ldquo;: jemanden, der durch Freundlichkeit, Pflichtbewusstsein und Zuverl\xe4ssigkeit Sicherheit herzustellen versucht. Der SE6er ist kein Aufreger. Er ist der Mann, der immer p\xfcnktlich zur Kirche kommt, der seine Steuern sorgsam deklariert, der seine Nachbarn h\xf6flich gr\xfc\xdft.</p>
-        <p class="vb-intro">Was die Welt nicht sieht: Innen l\xe4uft ein permanentes Alarmierungssystem. Der SE6er denkt in Katastrophenszenarien. Er \xfcberlegt, was schiefgehen k\xf6nnte &ndash; nicht einmal, sondern immer wieder. Er sucht Sicherheit in Systemen: in der Religion, in der Familie, im Beruf, im Gesetz. Wenn diese Systeme ins Wanken geraten, geriet auch er.</p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 6 (SP6)</strong> ist unter den Sechs-Subtypees derjenige, der am deutlichsten von Angst gesteuert wird &ndash; und der diese Angst am sorgf\xe4ltigsten nach au\xdfen verbirgt. Claudio Naranjo beschreibt ihn als den &bdquo;W\xe4rmenden&ldquo;: jemanden, der durch Freundlichkeit, Pflichtbewusstsein und Zuverl\xe4ssigkeit Sicherheit herzustellen versucht. Der SP6er ist kein Aufreger. Er ist der Mann, der immer p\xfcnktlich zur Kirche kommt, der seine Steuern sorgsam deklariert, der seine Nachbarn h\xf6flich gr\xfc\xdft.</p>
+        <p class="vb-intro">Was die Welt nicht sieht: Innen l\xe4uft ein permanentes Alarmierungssystem. Der SP6er denkt in Katastrophenszenarien. Er \xfcberlegt, was schiefgehen k\xf6nnte &ndash; nicht einmal, sondern immer wieder. Er sucht Sicherheit in Systemen: in der Religion, in der Familie, im Beruf, im Gesetz. Wenn diese Systeme ins Wanken geraten, geriet auch er.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der F\xfcnferfl\xfcgel: R\xfcckzug, Analyse, Schweigen</h3>
-        <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der selbsterhaltenden Sechs eine zus\xe4tzliche Dimension: Introversion, Distanz, eine Neigung zum Beobachten statt zum Sprechen. Der SE6w5 ist nicht nur \xe4ngstlich &ndash; er ist au\xdferdem verschlossen. Er teilt sein Innenleben nicht. Er analysiert, gr\xfcbelt, kreist allein um seine Probleme. Er sucht keine Hilfe, weil er anderen nicht vertraut.</p>
+        <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der selbsterhaltenden Sechs eine zus\xe4tzliche Dimension: Introversion, Distanz, eine Neigung zum Beobachten statt zum Sprechen. Der SP6w5 ist nicht nur \xe4ngstlich &ndash; er ist au\xdferdem verschlossen. Er teilt sein Innenleben nicht. Er analysiert, gr\xfcbelt, kreist allein um seine Probleme. Er sucht keine Hilfe, weil er anderen nicht vertraut.</p>
         <p class="vb-intro">Bei John List zeigt sich dieser F\xfcnferfl\xfcgel in seiner reinsten, zerst\xf6rerischsten Form: Er verlor seinen Job im Oktober 1971 &ndash; und sagte es niemandem. Nicht seiner Frau. Nicht seiner Mutter. Nicht seinen Kindern. Er fuhr jeden Morgen aus dem Haus, als g\xfcnge er arbeiten, verbrachte Stunden in einem Bahnhof oder wartete irgendwo, und kehrte abends zur\xfcck. Wochenlang. Das ist der F\xfcnferfl\xfcgel: nicht reden, nicht zeigen, allein tragen &ndash; bis die Last nicht mehr zu tragen ist.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Pflicht, Rigidität, stiller Absturz</h3>
         <p class="vb-intro">John Emil List wurde am 17. September 1925 in Bay City, Michigan, als Sohn deutschst\xe4mmiger lutherischer Einwanderer geboren. Seine Kindheit war gepr\xe4gt von Strenge, religi\xf6ser Pflicht und der Botschaft, dass ein Mann seine Familie zu versorgen und zu sch\xfctzen habe. Er diente im Zweiten Weltkrieg, studierte anschlie\xdfend Buchf\xfchrung und Betriebswirtschaft an der University of Michigan und arbeitete als Buchhalter und sp\xe4ter als leitender Finanzangestellter in verschiedenen Unternehmen.</p>
-        <p class="vb-intro">1951 heiratete er Helen Taylor. Sie litt an einer Syphilis-Erkrankung, die im Laufe der Jahre zunehmend ihr Nervensystem sch\xe4digte und zu psychischen Ver\xe4nderungen f\xfchrte. Die Ehe war schwierig. 1965 kaufte John List ein imposantes viktorianisches Herrenhaus in Westfield, New Jersey &ndash; 19 Zimmer, beeindruckend von au\xdfen, finanziell weit \xfcber seine Verh\xe4ltnisse. Er wollte der Vater sein, der seiner Familie etwas Gro\xdfes bietet. Das war der SE6: Sicherheit schaffen durch \xe4u\xdfere Symbole.</p>
+        <p class="vb-intro">1951 heiratete er Helen Taylor. Sie litt an einer Syphilis-Erkrankung, die im Laufe der Jahre zunehmend ihr Nervensystem sch\xe4digte und zu psychischen Ver\xe4nderungen f\xfchrte. Die Ehe war schwierig. 1965 kaufte John List ein imposantes viktorianisches Herrenhaus in Westfield, New Jersey &ndash; 19 Zimmer, beeindruckend von au\xdfen, finanziell weit \xfcber seine Verh\xe4ltnisse. Er wollte der Vater sein, der seiner Familie etwas Gro\xdfes bietet. Das war der SP6: Sicherheit schaffen durch \xe4u\xdfere Symbole.</p>
         <p class="vb-intro">Die Finanzen gerieten aus dem Ruder. Das Haus fraß Geld. John List nahm heimlich Geld aus dem Bankkonto seiner betagten Mutter Alma, die im Obergeschoss wohnte. Im Oktober 1971 verlor er seinen Job als Vizepräsident einer Bank. Er sagte es niemandem. Er stellte einfach weiter das Morgenritual nach: aufstehen, anziehen, das Haus verlassen, zur\xfckkehren.</p>
       </div>
 
@@ -27088,7 +27088,7 @@ function johnListPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Verschwinden: 17 Jahre als Robert Clark</h3>
         <p class="vb-intro">Die Leichen wurden erst <strong>vier Wochen sp\xe4ter</strong> entdeckt &ndash; als ein Nachbarsjunge das Haus betrat. Das Radio spielte noch. John List war l\xe4ngst weg.</p>
         <p class="vb-intro">Er nahm eine neue Identit\xe4t an: <strong>Robert Peter Clark</strong>. Er zog nach Denver, Colorado, arbeitete als Buchhalter, heiratete 1985 erneut &ndash; eine Frau namens Delores Miller &ndash; und zog mit ihr nach Richmond, Virginia. Er besuchte weiterhin regelm\xe4\xdfig die lutherische Kirche. Er war der zuverl\xe4ssige, ruhige, freundliche Buchhalter von nebenan. Niemand ahnte etwas.</p>
-        <p class="vb-intro">Das ist der SE6w5 in seiner erschreckendsten Auspr\xe4gung: die F\xe4higkeit, eine neue Identit\xe4t zu konstruieren, sie konsequent zu leben, keinerlei Anzeichen von innerer Unruhe nach au\xdfen zu zeigen. Die Angst war weg &ndash; weil die Bedrohung beseitigt worden war. Er hatte das System neu aufgesetzt.</p>
+        <p class="vb-intro">Das ist der SP6w5 in seiner erschreckendsten Auspr\xe4gung: die F\xe4higkeit, eine neue Identit\xe4t zu konstruieren, sie konsequent zu leben, keinerlei Anzeichen von innerer Unruhe nach au\xdfen zu zeigen. Die Angst war weg &ndash; weil die Bedrohung beseitigt worden war. Er hatte das System neu aufgesetzt.</p>
       </div>
 
       <div class="vb-section">
@@ -27099,10 +27099,10 @@ function johnListPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Katastrophendenken als Tatmotiv:</strong> Die Leidenschaft der Sechs ist Angst / Feigheit &ndash; Angst als strukturelle Unfähigkeit, einer bedrohlichen Realit\xe4t direkt ins Gesicht zu sehen. John List sah den finanziellen Absturz kommen &ndash; und konnte nicht sagen: Wir haben ein Problem, wir brauchen Hilfe. Stattdessen konstruierte er in seinem Kopf ein Zukunftsszenario, das so katastrophal war, dass der Mord als L\xf6sung erschien. Der SE6er denkt nicht: <em>Was kann ich tun?</em> Er denkt: <em>Was wird das Schlimmste sein &ndash; und wie verhindere ich es?</em></p>
-        <p class="vb-intro"><strong>b) Religion als Sicherheitssystem:</strong> Der SE6er braucht ein System, dem er sich anvertrauen kann &ndash; eine Autorität, einen Glauben, einen Rahmen. F\xfcr List war das der lutherische Glaube. Das Erschreckende: Er hat die Morde nicht gegen diesen Glauben begangen. Er hat sie &ndash; in seiner eigenen Logik &ndash; <em>im Namen</em> dieses Glaubens begangen. Der Brief an den Pastor ist kein Dokument des Wahnsinns. Es ist das Dokument eines Mannes, der zutiefst \xfcberzeugt ist, im Recht zu sein.</p>
-        <p class="vb-intro"><strong>c) Der F\xfcnferfl\xfcgel als t\xf6dliche Isolation:</strong> Ein SE6 ohne den F\xfcnferfl\xfcgel h\xe4tte vielleicht einen Freund angerufen, den Pastor aufgesucht, seiner Frau die Wahrheit gesagt. Der F\xfcnferfl\xfcgel macht das unm\xf6glich: Er zieht sich zur\xfcck, vertraut niemandem, tr\xe4gt alles allein. Die Gedankenspirale wurde nie von au\xdfen unterbrochen. Niemand wusste, was in ihm vorging. Das Kaninchen in seinem Bau, allein mit seiner Angst &ndash; monatelang.</p>
-        <p class="vb-intro"><strong>d) Kein Sadismus, keine Wut:</strong> John List hat seine Familie nicht get\xf6tet, weil er sie hasste. Es gibt keine Hinweise auf Sadismus, keine Verstümmelung, keine Inszenierung. Er hat sie erschossen, die Leichen zugedeckt, ihre Schul-Entschuldigungen geschrieben. Das ist keine Aggression &ndash; das ist ein Buchhalter, der eine Aufgabenliste abarbeitet. Der SE6er im tiefsten Ungleichgewicht: Ausl\xf6schung als Verwaltungsakt.</p>
+        <p class="vb-intro"><strong>a) Katastrophendenken als Tatmotiv:</strong> Die Leidenschaft der Sechs ist Angst / Feigheit &ndash; Angst als strukturelle Unfähigkeit, einer bedrohlichen Realit\xe4t direkt ins Gesicht zu sehen. John List sah den finanziellen Absturz kommen &ndash; und konnte nicht sagen: Wir haben ein Problem, wir brauchen Hilfe. Stattdessen konstruierte er in seinem Kopf ein Zukunftsszenario, das so katastrophal war, dass der Mord als L\xf6sung erschien. Der SP6er denkt nicht: <em>Was kann ich tun?</em> Er denkt: <em>Was wird das Schlimmste sein &ndash; und wie verhindere ich es?</em></p>
+        <p class="vb-intro"><strong>b) Religion als Sicherheitssystem:</strong> Der SP6er braucht ein System, dem er sich anvertrauen kann &ndash; eine Autorität, einen Glauben, einen Rahmen. F\xfcr List war das der lutherische Glaube. Das Erschreckende: Er hat die Morde nicht gegen diesen Glauben begangen. Er hat sie &ndash; in seiner eigenen Logik &ndash; <em>im Namen</em> dieses Glaubens begangen. Der Brief an den Pastor ist kein Dokument des Wahnsinns. Es ist das Dokument eines Mannes, der zutiefst \xfcberzeugt ist, im Recht zu sein.</p>
+        <p class="vb-intro"><strong>c) Der F\xfcnferfl\xfcgel als t\xf6dliche Isolation:</strong> Ein SP6 ohne den F\xfcnferfl\xfcgel h\xe4tte vielleicht einen Freund angerufen, den Pastor aufgesucht, seiner Frau die Wahrheit gesagt. Der F\xfcnferfl\xfcgel macht das unm\xf6glich: Er zieht sich zur\xfcck, vertraut niemandem, tr\xe4gt alles allein. Die Gedankenspirale wurde nie von au\xdfen unterbrochen. Niemand wusste, was in ihm vorging. Das Kaninchen in seinem Bau, allein mit seiner Angst &ndash; monatelang.</p>
+        <p class="vb-intro"><strong>d) Kein Sadismus, keine Wut:</strong> John List hat seine Familie nicht get\xf6tet, weil er sie hasste. Es gibt keine Hinweise auf Sadismus, keine Verstümmelung, keine Inszenierung. Er hat sie erschossen, die Leichen zugedeckt, ihre Schul-Entschuldigungen geschrieben. Das ist keine Aggression &ndash; das ist ein Buchhalter, der eine Aufgabenliste abarbeitet. Der SP6er im tiefsten Ungleichgewicht: Ausl\xf6schung als Verwaltungsakt.</p>
       </div>
 
       <div class="vb-section">
@@ -27115,14 +27115,14 @@ function johnListPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> John Emil List</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE6w5 &ndash; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP6w5 &ndash; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Angst / Feigheit (strukturelle Unfähigkeit zur direkten Konfrontation)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Kaninchen</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 17. September 1925 &ndash; 21. März 2008</span>
           <span style="display:block;"><strong>Tat:</strong> Fünffachmord an Frau, Mutter und drei Kindern, 9. November 1971, Westfield, New Jersey; 17 Jahre als &bdquo;Robert Clark&ldquo; auf der Flucht; verhaftet 1989, verurteilt 1990</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sechs im Vergleich: Wie sich Angst bei SE6, SO6 und SX6 unterschiedlich ausdrückt – und warum der Kontratyp der Sechs so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum der Kontratyp der Sechs so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst und Feigheit als Grundmotiv der Sechs: Wie Angst das Denken übernimmt und warum das Schweigen gefährlicher ist als das Reden.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -27134,7 +27134,7 @@ function johnListPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
           {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
-          {route:"kriminalpsychologie-belle-gunness", label:"Criminal Psychology: Belle Gunness (SE3w4)"},
+          {route:"kriminalpsychologie-belle-gunness", label:"Criminal Psychology: Belle Gunness (SP3w4)"},
         ])}
       </div>
     </div>
@@ -27193,7 +27193,7 @@ function adolfEichmannPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO6 &ndash; &bdquo;Pflicht / W\xe4rme&ldquo;:</strong> Claudio Naranjo beschreibt die SO6 als den Subtype, der Sicherheit durch Pflichtgef\xfchl und Zugeh\xf6rigkeit zur Gruppe herstellt. Der SO6er ist nicht kontraphobisch wie der SX6 und nicht selbst\xe4ndigkeitssuchend wie der SE6 &ndash; er sucht Einbettung in ein System und gibt diesem System seine Loyalit\xe4t. Eichmann war dieser Subtype in seiner extremsten, zerst\xf6rerischsten Form: vollst\xe4ndige Auslagerung des pers\xf6nlichen Gewissens an die Hierarchie.</p>
+        <p class="vb-intro"><strong>a) Naranjos SO6 &ndash; &bdquo;Pflicht / W\xe4rme&ldquo;:</strong> Claudio Naranjo beschreibt die SO6 als den Subtype, der Sicherheit durch Pflichtgef\xfchl und Zugeh\xf6rigkeit zur Gruppe herstellt. Der SO6er ist nicht kontraphobisch wie der SX6 und nicht selbst\xe4ndigkeitssuchend wie der SP6 &ndash; er sucht Einbettung in ein System und gibt diesem System seine Loyalit\xe4t. Eichmann war dieser Subtype in seiner extremsten, zerst\xf6rerischsten Form: vollst\xe4ndige Auslagerung des pers\xf6nlichen Gewissens an die Hierarchie.</p>
         <p class="vb-intro"><strong>b) Der F\xfcnferfl\xfcgel als Verst\xe4rker:</strong> Der w5 machte Eichmanns Pflichtausf\xfchrung kalt und effizient. W\xe4hrend ein SO6 ohne diesen Fl\xfcgel m\xf6glicherweise emotional st\xe4rker ber\xfchrt worden w\xe4re, erm\xf6glichte der F\xfcnferfl\xfcgel eine intellektuelle Distanzierung: Menschen wurden zu Nummern in Transportlisten, Morde zu Verwaltungsproblemen.</p>
         <p class="vb-intro"><strong>c) Die eigentliche Botschaft:</strong> Das Enneagramm lehrt hier keine Entschuldigung &ndash; es lehrt eine Warnung. Eichmanns Fall zeigt, was geschieht, wenn ein Mensch nie lernt, <em>gegen</em> das System zu denken, dem er angeh\xf6rt. Die Gesundheitsstufen der Sechs verlaufen genau entlang dieser Achse: von der blinden Autorit\xe4tsh\xf6rigkeit zur eigenst\xe4ndigen moralischen Urteilskraft. Eichmann war auf der untersten Stufe dieser Skala.</p>
       </div>
@@ -27208,8 +27208,8 @@ function adolfEichmannPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 19. M\xe4rz 1906 &ndash; 1. Juni 1962</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Verbrechen gegen die Menschlichkeit und das j\xfcdische Volk; Todesurteil, hingerichtet am 1. Juni 1962 in Israel</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Sechs im Vergleich: Wie sich Angst bei SE6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SO6 als Konformit\xe4tstyp besonders anf\xe4llig f\xfcr systemische Mittäterschaft ist.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SO6 als Konformit\xe4tstyp besonders anf\xe4llig f\xfcr systemische Mittäterschaft ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem entsteht und wie eigene moralische Urteilskraft w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -27622,8 +27622,8 @@ function arminMeiwesPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SE6, SO6 und SX6 unterschiedlich ausdrückt – und warum die SX6 so intensiv nach Verbindung sucht.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum die SX6 so intensiv nach Verbindung sucht.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 6 ausführlich porträtiert – Angst, Loyalität und der Heilungsweg über echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28033,8 +28033,8 @@ function gennadiMikhasevichPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28380,7 +28380,7 @@ function fritzHaarmannPortraitPage() {
         Die Neun strebt nach Frieden, nach Harmonie,
         nach dem Verschwinden in der Gruppe.
         Diese Qualität war bei <strong>Haarmann</strong>
-        keine berechnete Inszenierung wie bei Rader (SE1w9),
+        keine berechnete Inszenierung wie bei Rader (SP1w9),
         sondern strukturell echtere Sozialwärme –
         was die Tarnung paradoxerweise
         noch undurchdringlicher machte.</p>
@@ -28436,7 +28436,7 @@ function fritzHaarmannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX1 im Kontratyp-Vergleich: Haarmann (SX1w9) und Fritzl (SX1w9) – wie der Nine-wing die Ausdrucksform prägt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SE1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Kontrollwille und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28448,7 +28448,7 @@ function fritzHaarmannPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-josef-fritzl", label:"Criminal Psychology: Josef Fritzl (SX1w9)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9)"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
       ])}
     </div>
   `);
@@ -28848,7 +28848,7 @@ function josefFritzlPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich: SX1w2 (Murdaugh) und SX1w9 (Fritzl) – wie der Flügel die Ausdrucksform grundlegend verändert.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SE1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Kontrollwille und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28859,8 +28859,8 @@ function josefFritzlPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9)"},
-        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SE1w9)"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SP1w9)"},
       ])}
     </div>
   `);
@@ -29188,14 +29188,14 @@ function alexMurdaughPortraitPage() {
         an dem die Desintegration in aktives Handeln umschlug:
         nicht mehr Depression, sondern Vernichtung.</p>
         <p class="vb-intro"><strong>e) Vergleich mit Popkow und Rader:</strong>
-        Wo <strong>Popkow</strong> und <strong>Rader</strong> (SE1w9) die Einser-Energie
+        Wo <strong>Popkow</strong> und <strong>Rader</strong> (SP1w9) die Einser-Energie
         in methodischer Kontrolle über Jahrzehnte hielten,
         zeigt <strong>Murdaugh</strong> das SX1-Muster:
         die Energie auf Bindung, Bild und intensive
         Einzelbeziehungen ausgerichtet.
         Das Verbrechen entstand nicht aus Routine,
         sondern aus dem Zusammenbruch dieser Bindungsstruktur.
-        SE1 verwaltet Ordnung; SX1 verteidigt das Bild
+        SP1 verwaltet Ordnung; SX1 verteidigt das Bild
         der eigenen bedeutsamen Existenz in den Augen anderer.</p>
         <p class="vb-intro"><strong>f) Prozess als Spiegel:</strong>
         Im Prozess 2023 bestritt <strong>Murdaugh</strong>
@@ -29210,8 +29210,8 @@ function alexMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich mit SE1 und SO1 – Kontratyp-Dynamik und Intensitätsmuster.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SE1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich mit SP1 und SO1 – Kontratyp-Dynamik und Intensitätsmuster.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Fassade und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -29222,7 +29222,7 @@ function alexMurdaughPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-buster-murdaugh", label:"Criminal Psychology: Buster Murdaugh"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9)"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
       ])}
     </div>
@@ -29413,8 +29413,8 @@ function garyRidgwayPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt – und warum Reinheitsfixierung in der Desintegration gefährlich wird.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt – und warum Reinheitsfixierung in der Desintegration gefährlich wird.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -29426,7 +29426,7 @@ function garyRidgwayPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9)"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
       ])}
     </div>
   `);
@@ -29537,7 +29537,7 @@ function alfonsSchuhbeckPortraitPage() {
           <img src="./assets/portraits/alfons-schuhbeck-portrait.jpg" alt="Alfons Schuhbeck – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alfons Schuhbeck</p>
-        <p class="krim-portrait-typ">SE9w1 \xb7 Self-Preservation Type 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP9w1 \xb7 Self-Preservation Type 9 mit Einserfl\xfcgel</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Fernsehkoch \xb7 Steuerhinterziehung 2,3 Mio. Euro \xb7 Animal correspondence: Elefant</p>
       </div>
 
@@ -29547,31 +29547,31 @@ function alfonsSchuhbeckPortraitPage() {
 
       <div class="vb-section" style="background:rgba(60,80,0,0.07);border-left:3px solid #556b00;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        Alfons Schuhbeck wird dem <strong>Self-Preservationen Typ 9 mit Einserfl\xfcgel (SE9w1)</strong> zugeordnet. Der selbsterhaltende Subtype der Neun nennt sich \u201eAppetit\u201c: Die innere Leere, die jede Neun mit sich tr\xe4gt, wird durch k\xf6rperlichen Genuss, Essen, Gewohnheit und Komfort ged\xe4mpft. Niemand verk\xf6rpert dieses Prinzip sichtbarer als ein Sternekoch, der sein Leben dem Schmecken, Riechen und Wohlbefinden gewidmet hat. Der Einserfl\xfcgel f\xfcgte die stille \xdcberzeugung hinzu: <em>Ich arbeite so hart, ich leiste so viel \u2013 das, was ich mir nehme, ist mein gutes Recht.</em> Das Tier \u2013 der <em>Elefant</em> \u2013 illustriert die Essenz: geduldig, gem\xfctlich, enorm in seiner Wirkung, mit einem Ged\xe4chtnis, das nichts vergisst \u2013 und einem Willen, der sich durch nichts aufhalten l\xe4sst, wenn er einmal entschieden hat.</p>
+        Alfons Schuhbeck wird dem <strong>Self-Preservationen Typ 9 mit Einserfl\xfcgel (SP9w1)</strong> zugeordnet. Der selbsterhaltende Subtype der Neun nennt sich \u201eAppetit\u201c: Die innere Leere, die jede Neun mit sich tr\xe4gt, wird durch k\xf6rperlichen Genuss, Essen, Gewohnheit und Komfort ged\xe4mpft. Niemand verk\xf6rpert dieses Prinzip sichtbarer als ein Sternekoch, der sein Leben dem Schmecken, Riechen und Wohlbefinden gewidmet hat. Der Einserfl\xfcgel f\xfcgte die stille \xdcberzeugung hinzu: <em>Ich arbeite so hart, ich leiste so viel \u2013 das, was ich mir nehme, ist mein gutes Recht.</em> Das Tier \u2013 der <em>Elefant</em> \u2013 illustriert die Essenz: geduldig, gem\xfctlich, enorm in seiner Wirkung, mit einem Ged\xe4chtnis, das nichts vergisst \u2013 und einem Willen, der sich durch nichts aufhalten l\xe4sst, wenn er einmal entschieden hat.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
         <p class="vb-intro"><strong>a) Warm und einladend:</strong>
-        Schuhbecks Markenzeichen war der Blick, der einem das Gef\xfchl gab: <em>Hier bist du willkommen, hier wird es dir gut gehen.</em> Die SE9 strahlt genuine W\xe4rme aus \u2013 keine Berechnung, keine Fassade, sondern echte Zugewandtheit. Sein Lachen war ansteckend, sein Ton immer herzlich. Das ist kein Trick der SE9 \u2013 das ist ihr Kern.</p>
+        Schuhbecks Markenzeichen war der Blick, der einem das Gef\xfchl gab: <em>Hier bist du willkommen, hier wird es dir gut gehen.</em> Die SP9 strahlt genuine W\xe4rme aus \u2013 keine Berechnung, keine Fassade, sondern echte Zugewandtheit. Sein Lachen war ansteckend, sein Ton immer herzlich. Das ist kein Trick der SP9 \u2013 das ist ihr Kern.</p>
         <p class="vb-intro"><strong>b) Satt und zufrieden:</strong>
-        Wer Schuhbeck in Interviews oder Kochsendungen beobachtete, sah einen Menschen, der im Frieden mit sich und der Welt zu sein schien. Keine Unruhe, kein Geltungsdrang, kein Hunger nach Anerkennung. Das ist die SE9er-Energie: der Mensch, der ankommt, wenn das Essen gut ist, die K\xfcche warm und die Welt in Ordnung. Dieser Grundzustand macht ihn liebenswert \u2013 und gef\xe4hrlich unbemerkt.</p>
+        Wer Schuhbeck in Interviews oder Kochsendungen beobachtete, sah einen Menschen, der im Frieden mit sich und der Welt zu sein schien. Keine Unruhe, kein Geltungsdrang, kein Hunger nach Anerkennung. Das ist die SP9er-Energie: der Mensch, der ankommt, wenn das Essen gut ist, die K\xfcche warm und die Welt in Ordnung. Dieser Grundzustand macht ihn liebenswert \u2013 und gef\xe4hrlich unbemerkt.</p>
         <p class="vb-intro"><strong>c) Richterlich und sicher \u2013 der Einserfl\xfcgel:</strong>
         Unter der Gem\xfctlichkeit lag eine tiefe innere Gewissheit. Schuhbeck war kein Zweifler. Er wusste, wie gutes Essen schmeckt, wie eine K\xfcche laufen muss, was Qualit\xe4t bedeutet. Der Einserfl\xfcgel verleiht der Neun ein r\xfcckenst\xe4rkendes moralisches Selbstbild: <em>Ich mache meine Sache richtig. Ich kenne die Standards.</em> Diese innere Festigkeit machte ihn zu einer Autorit\xe4t \u2013 und erm\xf6glichte ihm gleichzeitig, den Betrug vor sich selbst zu rechtfertigen.</p>
         <p class="vb-intro"><strong>d) Abwesend hinter den Augen:</strong>
-        Wer sehr genau hinschaute, konnte gelegentlich etwas anderes entdecken: eine gewisse Abwesenheit. Die Neun ist der Typ, der \u201eim Hier\u201c zu sein scheint und doch nicht ganz da ist. Ein Teil des SE9 schaut immer aus einer angenehmen Distanz auf das Leben \u2013 genie\xdft die Oberfl\xe4che, vermeidet die Tiefe. Dieser Zug machte es Schuhbeck m\xf6glich, die moralische Dimension seines Tuns nicht wirklich zu sp\xfcren.</p>
+        Wer sehr genau hinschaute, konnte gelegentlich etwas anderes entdecken: eine gewisse Abwesenheit. Die Neun ist der Typ, der \u201eim Hier\u201c zu sein scheint und doch nicht ganz da ist. Ein Teil des SP9 schaut immer aus einer angenehmen Distanz auf das Leben \u2013 genie\xdft die Oberfl\xe4che, vermeidet die Tiefe. Dieser Zug machte es Schuhbeck m\xf6glich, die moralische Dimension seines Tuns nicht wirklich zu sp\xfcren.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Der Genuss als Lebensphilosophie:</strong>
-        Der SE9er ist der Typ des Appetits \u2013 nicht als Gier, sondern als Lebensform. Essen, Trinken, Gew\xfcrze, Aromen, der Duft einer K\xfcche: Das war f\xfcr Schuhbeck keine Arbeit, sondern der Weg, in der Welt zu sein. Er baute ein Imperium um sinnliches Erleben herum \u2013 Restaurants, Gew\xfcrzl\xe4den, B\xfccher, Fernsehsendungen. Der Selbsterhaltungsinstinkt und die Neuner-Energie verschmelzen hier nahtlos: Das Gute, das Wohltuende, das Schmeckende ist Heimat.</p>
+        Der SP9er ist der Typ des Appetits \u2013 nicht als Gier, sondern als Lebensform. Essen, Trinken, Gew\xfcrze, Aromen, der Duft einer K\xfcche: Das war f\xfcr Schuhbeck keine Arbeit, sondern der Weg, in der Welt zu sein. Er baute ein Imperium um sinnliches Erleben herum \u2013 Restaurants, Gew\xfcrzl\xe4den, B\xfccher, Fernsehsendungen. Der Selbsterhaltungsinstinkt und die Neuner-Energie verschmelzen hier nahtlos: Das Gute, das Wohltuende, das Schmeckende ist Heimat.</p>
         <p class="vb-intro"><strong>b) Beharrlichkeit ohne Drama:</strong>
-        Der SE9er ist einer der hartn\xe4ckigsten Typen \u2013 nur zeigt er es nicht. W\xe4hrend die Acht ihre Sturheit nach au\xdfen tr\xe4gt und die Eins sie ins Perfektionistische richtet, arbeitet die Neun still und stetig auf ihr Ziel zu. Schuhbeck baute \xfcber Jahrzehnte eine Marke auf, \xfcberstand Krisenzeiten im Gastgewerbe, entwickelte immer neue Produkte. Diese Ausdauer ist kein Zufall \u2013 sie ist der Elefantencharakter: gro\xdf, geduldig, nicht aufzuhalten.</p>
+        Der SP9er ist einer der hartn\xe4ckigsten Typen \u2013 nur zeigt er es nicht. W\xe4hrend die Acht ihre Sturheit nach au\xdfen tr\xe4gt und die Eins sie ins Perfektionistische richtet, arbeitet die Neun still und stetig auf ihr Ziel zu. Schuhbeck baute \xfcber Jahrzehnte eine Marke auf, \xfcberstand Krisenzeiten im Gastgewerbe, entwickelte immer neue Produkte. Diese Ausdauer ist kein Zufall \u2013 sie ist der Elefantencharakter: gro\xdf, geduldig, nicht aufzuhalten.</p>
         <p class="vb-intro"><strong>c) Harmonie nach au\xdfen, Sturheit nach innen:</strong>
         Schuhbeck galt als angenehmer Zeitgenosse, selten in \xf6ffentliche Konflikte verwickelt. Die Neun vermeidet Konfrontation instinktiv \u2013 nicht aus Schw\xe4che, sondern weil Harmonie ihr Grundbed\xfcrfnis ist. Gleichzeitig: Hat die Neun einmal beschlossen, etwas zu tun, tut sie es. Still, konsequent, \xfcber Jahre. Kein Druck von au\xdfen \xe4ndert daran etwas. Das Steuersystem war kein impulsiver Error \u2013 es war eine jahrelange, ruhige Entscheidung.</p>
         <p class="vb-intro"><strong>d) Der Selbsterhaltungsinstinkt \u2013 das Nest sichern:</strong>
-        Der SE-Instinkt dreht sich um Sicherheit, Komfort, das eigene Nest. Schuhbeck sicherte sich materiellen Wohlstand, ein gesch\xe4ftliches Imperium, soziale Anerkennung. Der SE9er denkt nicht in gro\xdfen ideologischen Kategorien \u2013 er denkt: <em>Was brauche ich, damit es mir gut geht? Was muss ich tun, damit diese angenehme Welt stabil bleibt?</em> Der Betrug war, aus dieser Perspektive, ein Mittel der Nestsicherung.</p>
+        Der SE-Instinkt dreht sich um Sicherheit, Komfort, das eigene Nest. Schuhbeck sicherte sich materiellen Wohlstand, ein gesch\xe4ftliches Imperium, soziale Anerkennung. Der SP9er denkt nicht in gro\xdfen ideologischen Kategorien \u2013 er denkt: <em>Was brauche ich, damit es mir gut geht? Was muss ich tun, damit diese angenehme Welt stabil bleibt?</em> Der Betrug war, aus dieser Perspektive, ein Mittel der Nestsicherung.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -29579,9 +29579,9 @@ function alfonsSchuhbeckPortraitPage() {
         <p class="vb-intro"><strong>a) Der Aufbau des Systems:</strong>
         Die Manipulationen begannen nach Erkenntnissen der Staatsanwaltschaft sp\xe4testens ab 2009 und erstreckten sich \xfcber mehrere Jahre. Schuhbeck oder Mitarbeiter unter seiner Verantwortung nutzten eine sogenannte \u201eZapper\u201c-Software, die es erm\xf6glichte, Kasseneintr\xe4ge nachtr\xe4glich zu l\xf6schen oder zu ver\xe4ndern. Bareinnahmen in seinen M\xfcnchner Restaurants wurden systematisch nicht vollst\xe4ndig verbucht. Das Finanzamt erhielt gek\xfcrzte Zahlen, die Differenz verschwand unversteuert.</p>
         <p class="vb-intro"><strong>b) Die Methode:</strong>
-        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das ist die SE9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
+        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das ist die SP9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
         <p class="vb-intro"><strong>c) Der Prozess:</strong>
-        Das Verfahren vor dem Landgericht M\xfcnchen begann 2022. Schuhbeck trat zun\xe4chst mit gewohnter Fassung auf \u2013 auch das SE9-typisch: keine Panik, kein \xdcberschwang. Im Prozessverlauf r\xe4umte er Error ein, versuchte jedoch, die volle Verantwortung zu relativieren. Am <strong>4. Oktober 2022</strong> f\xe4llte das Gericht das Urteil: schuldig in 18 F\xe4llen der Steuerhinterziehung.</p>
+        Das Verfahren vor dem Landgericht M\xfcnchen begann 2022. Schuhbeck trat zun\xe4chst mit gewohnter Fassung auf \u2013 auch das SP9-typisch: keine Panik, kein \xdcberschwang. Im Prozessverlauf r\xe4umte er Error ein, versuchte jedoch, die volle Verantwortung zu relativieren. Am <strong>4. Oktober 2022</strong> f\xe4llte das Gericht das Urteil: schuldig in 18 F\xe4llen der Steuerhinterziehung.</p>
         <p class="vb-intro"><strong>d) Das Urteil und der Gang ins Gef\xe4ngnis:</strong>
         Drei Jahre und zwei Monate Freiheitsstrafe ohne Bew\xe4hrung \u2013 das Gericht sah keine mildernden Umst\xe4nde, die eine Aussetzung rechtfertigen w\xfcrden. 2023 trat Schuhbeck die Haft an. Sein Restaurant war bereits zuvor insolvent gegangen. Der Mann, der Bayern Jahrzehnte lang mit Gew\xfcrzen und W\xe4rme versorgt hatte, verschwand hinter Gef\xe4ngnistore. Der Elefant im K\xe4fig \u2013 ein Bild, das bleibt.</p>
       </div>
@@ -29589,7 +29589,7 @@ function alfonsSchuhbeckPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Neun im Schlaf</h3>
         <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> \u2013 aber nicht im Sinne k\xf6rperlicher Faulheit. Es ist eine <em>psychische Tr\xe4gheit</em>: die Tendenz, unangenehme Wahrheiten nicht zu f\xfchlen, innere Konflikte zu schlummern, moralische Fragen nicht wirklich an sich heranzulassen. Die Neun kann jahrelang etwas tun, das objektiv falsch ist, ohne es als solches zu erleben. Nicht weil sie b\xf6se ist \u2013 sondern weil ein Teil von ihr einfach <em>nicht wirklich aufgewacht ist</em>.</p>
-        <p class="vb-intro">F\xfcr Schuhbeck bedeutete das: Die manipulierten Kassen liefen weiter, das Restaurant lief weiter, das Fernsehen lief weiter, die Gew\xfcrze liefen weiter. Der innere Schmerz dar\xfcber, was er tat, blieb aus \u2013 weil der SE9 diesen Schmerz in Genuss und Routine ertr\xe4nkt. Solange das Leben angenehm ist, schlafen die ethischen Fragen. Das ist nicht Kalk\xfcl \u2013 das ist der tiefste Mechanismus dieser Pers\xf6nlichkeitsstruktur.</p>
+        <p class="vb-intro">F\xfcr Schuhbeck bedeutete das: Die manipulierten Kassen liefen weiter, das Restaurant lief weiter, das Fernsehen lief weiter, die Gew\xfcrze liefen weiter. Der innere Schmerz dar\xfcber, was er tat, blieb aus \u2013 weil der SP9 diesen Schmerz in Genuss und Routine ertr\xe4nkt. Solange das Leben angenehm ist, schlafen die ethischen Fragen. Das ist nicht Kalk\xfcl \u2013 das ist der tiefste Mechanismus dieser Pers\xf6nlichkeitsstruktur.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -29609,15 +29609,15 @@ function alfonsSchuhbeckPortraitPage() {
         <p class="vb-intro"><strong>a) Keine b\xf6se Absicht \u2013 aber fehlende Wachheit:</strong>
         Schuhbeck ist kein Verbrecher im Sinne eines Menschen, der anderen aktiv schaden will. Die Neun richtet ihren Schaden nicht nach au\xdfen wie die Acht \u2013 sie richtet ihn still und ohne Schuldgef\xfchl an, weil ein grundlegendes inneres Wachsein fehlt. Das ist das Eigentliche der Neuner-Psychologie: Nicht B\xf6sartigkeit, sondern das <em>Schlafen</em> im moralischen Sinne. Wer schl\xe4ft, sp\xfcrt keinen Schmerz \u2013 und richtet manchmal dennoch Schaden an.</p>
         <p class="vb-intro"><strong>b) Das Doppelleben als blo\xdfe Routine:</strong>
-        Das Erstaunlichste am Fall Schuhbeck ist die Normalit\xe4t. Er kochte weiter, lachte weiter, trat im Fernsehen auf, er\xf6ffnete neue Gesch\xe4fte. Der Betrug war keine Krise \u2013 er war Routine. Das ist die SE9er-F\xe4higkeit: zwei Ebenen gleichzeitig zu bewohnen, ohne dass sie sich innerlich ber\xfchren. Der Genuss im Vordergrund, das Unrecht im Hintergrund \u2013 und kein psychisches Signal, das die beiden zusammenf\xfchrt.</p>
+        Das Erstaunlichste am Fall Schuhbeck ist die Normalit\xe4t. Er kochte weiter, lachte weiter, trat im Fernsehen auf, er\xf6ffnete neue Gesch\xe4fte. Der Betrug war keine Krise \u2013 er war Routine. Das ist die SP9er-F\xe4higkeit: zwei Ebenen gleichzeitig zu bewohnen, ohne dass sie sich innerlich ber\xfchren. Der Genuss im Vordergrund, das Unrecht im Hintergrund \u2013 und kein psychisches Signal, das die beiden zusammenf\xfchrt.</p>
         <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Wirtschaftskriminellen:</strong>
-        Ein SE3w4 wie Bernie Madoff brauchte die bewusste Inszenierung, die gr\xf6\xdfte Gier, das gr\xf6\xdfte Spiel. Ein SX8 wie Jeffrey Epstein brauchte die Macht, die Kontrolle, den Reiz des Verbotenen. Schuhbeck brauchte nichts davon. Er brauchte nur <em>Komfort</em>. Das macht den SE9er-Wirtschaftskriminellen besonders schwer zu fassen \u2013 und besonders r\xe4tselhaft f\xfcr Au\xdfenstehende. Wo ist die Gier? Wo ist das Kalk\xfcl? Es gibt keines. Nur Appetit. Nur Gewohnheit. Nur Schlaf.</p>
+        Ein SP3w4 wie Bernie Madoff brauchte die bewusste Inszenierung, die gr\xf6\xdfte Gier, das gr\xf6\xdfte Spiel. Ein SX8 wie Jeffrey Epstein brauchte die Macht, die Kontrolle, den Reiz des Verbotenen. Schuhbeck brauchte nichts davon. Er brauchte nur <em>Komfort</em>. Das macht den SP9er-Wirtschaftskriminellen besonders schwer zu fassen \u2013 und besonders r\xe4tselhaft f\xfcr Au\xdfenstehende. Wo ist die Gier? Wo ist das Kalk\xfcl? Es gibt keines. Nur Appetit. Nur Gewohnheit. Nur Schlaf.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(60,80,0,0.07);border-left:3px solid #556b00;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Zusammenfassung</h3>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Alfons Schuhbeck war kein klassischer Krimineller. Er war ein Mensch, der das Gute liebte \u2013 das gute Essen, den guten Wein, den guten Ruf. Der SE9w1 ist nicht gef\xe4hrlich, weil er andere zerst\xf6ren will. Er ist gef\xe4hrlich, weil er <em>nicht aufwacht</em>. Weil die innere Tr\xe4gheit der Neun und der beharrliche Selbsterhaltungsinstinkt gemeinsam ein System erzeugen k\xf6nnen, das still, konsequent und \xfcber Jahre Schaden anrichtet \u2013 w\xe4hrend der Mensch dahinter gem\xfctlich seine Gew\xfcrze abf\xfcllt und dem n\xe4chsten Gast ein warmes L\xe4cheln schenkt.
+        Alfons Schuhbeck war kein klassischer Krimineller. Er war ein Mensch, der das Gute liebte \u2013 das gute Essen, den guten Wein, den guten Ruf. Der SP9w1 ist nicht gef\xe4hrlich, weil er andere zerst\xf6ren will. Er ist gef\xe4hrlich, weil er <em>nicht aufwacht</em>. Weil die innere Tr\xe4gheit der Neun und der beharrliche Selbsterhaltungsinstinkt gemeinsam ein System erzeugen k\xf6nnen, das still, konsequent und \xfcber Jahre Schaden anrichtet \u2013 w\xe4hrend der Mensch dahinter gem\xfctlich seine Gew\xfcrze abf\xfcllt und dem n\xe4chsten Gast ein warmes L\xe4cheln schenkt.
         </p>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
         Der Einserfl\xfcgel lieferte die Rechtfertigung: <em>Ich arbeite hart. Ich habe das verdient.</em> Und der Elefant lieferte die Methode: geduldig, still, nicht aufzuhalten. Der Schaden war am Ende nicht Ausdruck von Gier \u2013 sondern von Schlaf. Und manchmal ist Schlaf, der nie endet, gef\xe4hrlicher als Wachheit mit schlechten Absichten.
@@ -29797,15 +29797,15 @@ function paulBernardoPortraitPage() {
         <strong>Leidenschaft:</strong> Zorn – der innere Richter, der alles verurteilt, was nicht dem Bild der Reinheit entspricht.<br>
         <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Selbsthass, das Gefühl des inneren Defekts.<br>
         <strong>Animal correspondence:</strong> Schwarze Mamba – unauffällig, präzise, giftig in der intimsten Nähe.<br>
-        <strong>Partnerin:</strong> Karla Homolka (SE3w4) →
+        <strong>Partnerin:</strong> Karla Homolka (SP3w4) →
         <a href="#kriminalpsychologie-karla-homolka" data-route="kriminalpsychologie-karla-homolka"
            style="color:var(--gold-dark);text-decoration:underline;">Zum Portrait Karla Homolka</a>
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -29815,7 +29815,7 @@ function paulBernardoPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SE3w4) – Partnerin"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Partnerin"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
       ])}
@@ -29909,7 +29909,7 @@ function tedBundyPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Mindestens 30 Morde in den USA 1974–1978, hingerichtet 1989</span>
         </div>
 
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Rigidit\xe4t bei SE1, SO1 und SX1 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Rigidit\xe4t bei SP1, SO1 und SX1 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO1w9 im Profil: Kontrolle, Selbstgerechtigkeit und die verborgene Wut hinter der tadellosen Fassade.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Akzeptanz.", "Wer du wirklich bist, Band 1")}
 
@@ -29921,7 +29921,7 @@ function tedBundyPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
-          {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SE1w9)"},
+          {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Criminal Psychology: Armin Meiwes (SX6w5)"},
         ])}
       </div>
@@ -33277,13 +33277,13 @@ function gaslightingPage() {
         <p class="vb-intro">Eine sehr hohe, aber oft feinere Tendenz findet sich bei Typen, die weniger offen kontrollieren &ndash; daf\xfcr psychologisch pr\xe4ziser wirken. Die <strong>SO2</strong> arbeitet h\xe4ufig mit Schuld, Beziehungsdruck und moralischem Appell. Die <strong>sexuelle Drei</strong> kann Realit\xe4t stark in den Dienst von Bindung und gew\xfcnschter Spiegelung stellen. Die <strong>SO6</strong> neigt dazu, \xfcber Bedrohungsnarrative und Gruppennormen Einfluss zu nehmen &ndash; wer nicht zustimmt, gef\xe4hrdet den Zusammenhalt. Die <strong>SX1</strong> kann moralische Deutungen so intensiv aufladen, dass die eigene Sicht als einzig legitime erscheint. Die <strong>SO4</strong> bringt oft ein starkes Identit\xe4tsnarrativ mit, bei dem emotionale Wahrheit \xfcber n\xfcchterne Kl\xe4rung gestellt wird. Die <strong>SX5</strong> wirkt meist leiser, kann aber durch subtile kognitive Destabilisierung erheblich verunsichern.</p>
 
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.8rem 0 .5rem;">Mittlere Intensit\xe4t &ndash; Rationalisierung und Kontextverschiebung</h2>
-        <p class="vb-intro">Im mittleren Bereich stehen Muster, die eher \xfcber Rationalisierung, Projektion oder Kontextverschiebung funktionieren. Die <strong>SO8</strong> verbindet Macht mit Narrativkontrolle, bleibt aber meist weniger identit\xe4tsnah. Die <strong>SE6</strong> konstruiert h\xe4ufig eine Sicherheitsrealit\xe4t, in der Vorsicht und Bedrohung das Bild dominieren. Die <strong>SX7</strong> kann durch Verharmlosung und emotionale Verschiebung Realit\xe4t verwischen, ohne sie offen zu kontrollieren. Die <strong>SO5</strong> neigt zur kognitiven Normierung: das eigene Denken wird zum Ma\xdfstab. Die <strong>selbsterhaltende Zwei</strong> arbeitet indirekter mit Schuld, w\xe4hrend die <strong>SX9</strong> durch Verschmelzung und Vernebelung Klarheit erschweren kann &ndash; ohne dabei bewusst hart zu manipulieren.</p>
+        <p class="vb-intro">Im mittleren Bereich stehen Muster, die eher \xfcber Rationalisierung, Projektion oder Kontextverschiebung funktionieren. Die <strong>SO8</strong> verbindet Macht mit Narrativkontrolle, bleibt aber meist weniger identit\xe4tsnah. Die <strong>SP6</strong> konstruiert h\xe4ufig eine Sicherheitsrealit\xe4t, in der Vorsicht und Bedrohung das Bild dominieren. Die <strong>SX7</strong> kann durch Verharmlosung und emotionale Verschiebung Realit\xe4t verwischen, ohne sie offen zu kontrollieren. Die <strong>SO5</strong> neigt zur kognitiven Normierung: das eigene Denken wird zum Ma\xdfstab. Die <strong>selbsterhaltende Zwei</strong> arbeitet indirekter mit Schuld, w\xe4hrend die <strong>SX9</strong> durch Verschmelzung und Vernebelung Klarheit erschweren kann &ndash; ohne dabei bewusst hart zu manipulieren.</p>
 
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.8rem 0 .5rem;">Geringe Intensit\xe4t &ndash; Vermeidung statt Verdrehung</h2>
-        <p class="vb-intro">Im eher geringen Bereich finden sich Typen, bei denen Vermeidung, Abschw\xe4chung oder Rationalisierung st\xe4rker ausgepr\xe4gt sind als echte Realit\xe4tsverdrehung. Die <strong>selbsterhaltende Drei</strong> ist zwar imageorientiert, aber meist weniger auf tiefe Identit\xe4tsverschmelzung ausgerichtet. Die <strong>SE4</strong> hat eine subjektive Wirklichkeit, versucht aber seltener, andere systematisch darin festzuhalten. Die <strong>SO7</strong> bagatellisiert eher, als Realit\xe4t gezielt umzudeuten. Die <strong>SE8</strong> setzt h\xe4ufiger auf direkte Macht als auf subtile psychologische Verzerrung. Die <strong>SE1</strong> orientiert sich an Regeln statt an manipulativer Deutung, und die <strong>SO9</strong> neigt eher zur Konfliktvernebelung als zu gezielter Destabilisierung.</p>
+        <p class="vb-intro">Im eher geringen Bereich finden sich Typen, bei denen Vermeidung, Abschw\xe4chung oder Rationalisierung st\xe4rker ausgepr\xe4gt sind als echte Realit\xe4tsverdrehung. Die <strong>selbsterhaltende Drei</strong> ist zwar imageorientiert, aber meist weniger auf tiefe Identit\xe4tsverschmelzung ausgerichtet. Die <strong>SP4</strong> hat eine subjektive Wirklichkeit, versucht aber seltener, andere systematisch darin festzuhalten. Die <strong>SO7</strong> bagatellisiert eher, als Realit\xe4t gezielt umzudeuten. Die <strong>SP8</strong> setzt h\xe4ufiger auf direkte Macht als auf subtile psychologische Verzerrung. Die <strong>SP1</strong> orientiert sich an Regeln statt an manipulativer Deutung, und die <strong>SO9</strong> neigt eher zur Konfliktvernebelung als zu gezielter Destabilisierung.</p>
 
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.8rem 0 .5rem;">Niedrigste Intensit\xe4t &ndash; R\xfcckzug statt Kontrolle</h2>
-        <p class="vb-intro">Die niedrigste Tendenz zeigt sich dort, wo Menschen sich eher entziehen oder ausweichen, statt aktiv Realit\xe4t umzudeuten. Die <strong>SE5</strong> zieht sich zur\xfcck, statt andere mental zu destabilisieren. Die <strong>SE7</strong> fl\xfcchtet vor unangenehmen Realit\xe4ten, anstatt sie zu kontrollieren. Die <strong>SE9</strong> ber\xe4uhigt, d\xe4mpft und schl\xe4fert Konflikte eher ein, statt durch gezielte Umdeutung zu manipulieren. Auch diese Typen k\xf6nnen selbstverst\xe4ndlich gaslightingartige Verhaltensweisen zeigen &ndash; aber meist nicht so systematisch und nicht so identit\xe4tsnah wie andere Konstellationen.</p>
+        <p class="vb-intro">Die niedrigste Tendenz zeigt sich dort, wo Menschen sich eher entziehen oder ausweichen, statt aktiv Realit\xe4t umzudeuten. Die <strong>SP5</strong> zieht sich zur\xfcck, statt andere mental zu destabilisieren. Die <strong>SP7</strong> fl\xfcchtet vor unangenehmen Realit\xe4ten, anstatt sie zu kontrollieren. Die <strong>SP9</strong> ber\xe4uhigt, d\xe4mpft und schl\xe4fert Konflikte eher ein, statt durch gezielte Umdeutung zu manipulieren. Auch diese Typen k\xf6nnen selbstverst\xe4ndlich gaslightingartige Verhaltensweisen zeigen &ndash; aber meist nicht so systematisch und nicht so identit\xe4tsnah wie andere Konstellationen.</p>
 
         <blockquote class="pull-quote">Kein Typ ist automatisch toxisch &ndash; und kein Typ ist automatisch harmlos. Entscheidend sind Reifegrad, Selbstreflexion und die Bereitschaft, Verantwortung f\xfcr das eigene Verhalten zu \xfcbernehmen.</blockquote>
 
@@ -35685,9 +35685,9 @@ function krisenkompassPage() {
 }
 
 function situationskompasPage() {
-  const SUBTYPES = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+  const SUBTYPES = ["SP1","SO1","SX1","SP2","SO2","SX2","SP3","SO3","SX3","SP4","SO4","SX4","SP5","SO5","SX5","SP6","SO6","SX6","SP7","SO7","SX7","SP8","SO8","SX8","SP9","SO9","SX9"];
   const profCode = getProfile().toUpperCase();
-  const activeSubtypee = situKompState.subtypeCode || (SUBTYPES.includes(profCode) ? profCode : "SE1");
+  const activeSubtypee = situKompState.subtypeCode || (SUBTYPES.includes(profCode) ? profCode : "SP1");
   const activeSitu = situKompState.situId;
 
   const situationen = SITUATIONSKOMPASS.situationen;
@@ -37262,31 +37262,31 @@ function showTagesimpuls() {
 function tischdialogePage() {
   const Q = (s) => `„${s}“`;
   const DIALOGE = [
-    { code:"SE1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Ordnung.")} &ndash; ${Q("Ich will Sicherheit.")}`,           ergebnis:"Disziplin, Korrektheit." },
+    { code:"SP1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Ordnung.")} &ndash; ${Q("Ich will Sicherheit.")}`,           ergebnis:"Disziplin, Korrektheit." },
     { code:"SO1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich halte Zorn zur\xfcck.")} &ndash; ${Q("Du musst erziehen.")}`,  ergebnis:"Strenge Moral." },
     { code:"SX1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich will Zorn verbergen.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`, ergebnis:"Zorn bricht offen hervor." },
-    { code:"SE2", typ:2, leidenschaft:"Pride",         instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich wei\xdf, was andere brauchen.")} &ndash; ${Q("Ich will klein wirken.")}`, ergebnis:"Scheinbare Demut." },
+    { code:"SP2", typ:2, leidenschaft:"Pride",         instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich wei\xdf, was andere brauchen.")} &ndash; ${Q("Ich will klein wirken.")}`, ergebnis:"Scheinbare Demut." },
     { code:"SO2", typ:2, leidenschaft:"Pride",         instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will wichtig sein.")} &ndash; ${Q("Ich will gebraucht werden.")}`, ergebnis:"Offenes Helfen." },
     { code:"SX2", typ:2, leidenschaft:"Pride",         instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will N\xe4he.")} &ndash; ${Q("Ich will Bindung.")}`,              ergebnis:"Leidenschaftliche Zuwendung." },
-    { code:"SE3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich will gl\xe4nzen.")} &ndash; ${Q("Ich will unauff\xe4llig wirken.")}`, ergebnis:"Bodenst\xe4ndig, aber leistungsgetrieben." },
+    { code:"SP3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich will gl\xe4nzen.")} &ndash; ${Q("Ich will unauff\xe4llig wirken.")}`, ergebnis:"Bodenst\xe4ndig, aber leistungsgetrieben." },
     { code:"SO3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Erfolg zeigen.")} &ndash; ${Q("Ich will Status.")}`,      ergebnis:"Erfolgsorientierung pur." },
     { code:"SX3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will attraktiv sein.")} &ndash; ${Q("Ich will Beziehung.")}`,    ergebnis:"Charmant, dynamisch." },
-    { code:"SE4", typ:4, leidenschaft:"Envy",          instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich sehe, was fehlt.")} &ndash; ${Q("Ich will sichere Besonderheit.")}`, ergebnis:"Weniger dramatisch." },
+    { code:"SP4", typ:4, leidenschaft:"Envy",          instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich sehe, was fehlt.")} &ndash; ${Q("Ich will sichere Besonderheit.")}`, ergebnis:"Weniger dramatisch." },
     { code:"SO4", typ:4, leidenschaft:"Envy",          instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich vergleiche mich.")} &ndash; ${Q("Ich will Status.")}`,         ergebnis:"Dramatischer Vergleich." },
     { code:"SX4", typ:4, leidenschaft:"Envy",          instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich sehne mich.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`,         ergebnis:"Leidenschaftliche Search." },
-    { code:"SE5", typ:5, leidenschaft:"Geiz",          instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will nichts hergeben.")} &ndash; ${Q("Ich will minimalistisch sein.")}`, ergebnis:"Asketisch, zur\xfcckgezogen." },
+    { code:"SP5", typ:5, leidenschaft:"Geiz",          instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will nichts hergeben.")} &ndash; ${Q("Ich will minimalistisch sein.")}`, ergebnis:"Asketisch, zur\xfcckgezogen." },
     { code:"SO5", typ:5, leidenschaft:"Geiz",          instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich halte Wissen zur\xfcck.")} &ndash; ${Q("Ich will teilnehmen.")}`, ergebnis:"Distanziert, aber beteiligt." },
     { code:"SX5", typ:5, leidenschaft:"Geiz",          instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich spare Energie.")} &ndash; ${Q("Ich will intensive N\xe4he.")}`,  ergebnis:"Ambivalenz: N\xe4he & R\xfcckzug." },
-    { code:"SE6", typ:6, leidenschaft:"Fear",         instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich sp\xfcre Gefahren.")} &ndash; ${Q("Ich will Vorsorge.")}`,     ergebnis:"Sicherheitsfanatiker." },
+    { code:"SP6", typ:6, leidenschaft:"Fear",         instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich sp\xfcre Gefahren.")} &ndash; ${Q("Ich will Vorsorge.")}`,     ergebnis:"Sicherheitsfanatiker." },
     { code:"SO6", typ:6, leidenschaft:"Fear",         instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich will nicht allein sein.")} &ndash; ${Q("Ich will Zugeh\xf6rigkeit.")}`, ergebnis:"Loyalit\xe4t, Gruppenhalt." },
     { code:"SX6", typ:6, leidenschaft:"Fear",         instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich bin unsicher.")} &ndash; ${Q("Ich provoziere.")}`,               ergebnis:"Angriff als Abwehr." },
-    { code:"SE7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mehr.")} &ndash; ${Q("Ich will Komfort.")}`,                 ergebnis:"Genussfreude, Lebenslust." },
+    { code:"SP7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mehr.")} &ndash; ${Q("Ich will Komfort.")}`,                 ergebnis:"Genussfreude, Lebenslust." },
     { code:"SO7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sozial",           kategorie:"Kontratyp",       dialog:`${Q("Ich will genie\xdfen.")} &ndash; ${Q("Ich will Ideale.")}`,          ergebnis:"Moralische, kopfgesteuerte Sieben." },
     { code:"SX7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Ekstase.")} &ndash; ${Q("Ich will Abenteuer.")}`,        ergebnis:"Ruhelos, extrem." },
-    { code:"SE8", typ:8, leidenschaft:"Wollust",       instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Kraft zeigen.")} &ndash; ${Q("Ich will Sicherheit.")}`,     ergebnis:"Durchsetzungsstark, klassisch." },
+    { code:"SP8", typ:8, leidenschaft:"Wollust",       instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Kraft zeigen.")} &ndash; ${Q("Ich will Sicherheit.")}`,     ergebnis:"Durchsetzungsstark, klassisch." },
     { code:"SO8", typ:8, leidenschaft:"Wollust",       instinkt:"Sozial",           kategorie:"Kontratyp",       dialog:`${Q("Ich will Macht.")} &ndash; ${Q("Ich will f\xfcr andere sorgen.")}`,  ergebnis:"Besch\xfctzerrolle." },
     { code:"SX8", typ:8, leidenschaft:"Wollust",       instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Intensit\xe4t.")} &ndash; ${Q("Ich will Leidenschaft.")}`, ergebnis:"Extrem, magnetisch." },
-    { code:"SE9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mich ver\xe4ndern.")} &ndash; ${Q("Ich will Komfort.")}`,   ergebnis:"Gem\xfctlich, stabil." },
+    { code:"SP9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mich ver\xe4ndern.")} &ndash; ${Q("Ich will Komfort.")}`,   ergebnis:"Gem\xfctlich, stabil." },
     { code:"SO9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Sozial",           kategorie:"Kontratyp",          dialog:`${Q("Ich will mich zur\xfcckziehen.")} &ndash; ${Q("Ich will aktiv wirken.")}`, ergebnis:"Gesch\xe4ftig, aber fremdgesteuert." },
     { code:"SX9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will mich nicht sp\xfcren.")} &ndash; ${Q("Ich will im anderen aufgehen.")}`, ergebnis:"Selbstaufl\xf6sung." },
   ];
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v577';
+  const MY_VERSION = 'inhalt-v578';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
