@@ -36860,21 +36860,45 @@ function edelsteinePage() {
 }
 
 function aetherischeOelePage() {
+  const OELE = [
+    { typ:1, name:"The Perfectionist", wunde:"I am flawed and imperfect.", oel:"Mandarin",      wirkung:"Allows lightness and imperfect joy" },
+    { typ:2, name:"The Helper",        wunde:"I am worthless without being useful.", oel:"Palmarosa",    wirkung:"Nourishes self-love, grants healthy boundaries" },
+    { typ:3, name:"The Performer",     wunde:"I am only valuable through achievement.", oel:"Marjoram",     wirkung:"Forces the system into stillness, removes the fear of failure" },
+    { typ:4, name:"The Individualist", wunde:"I am different, I don\u2019t belong.", oel:"Stone Pine",    wirkung:"Grants simple groundedness and a sense of home" },
+    { typ:5, name:"The Observer",      wunde:"The world drains me.", oel:"Sweet Orange",  wirkung:"Melts cool isolation with warmth of heart" },
+    { typ:6, name:"The Loyalist",      wunde:"There is no secure hold.", oel:"Cedarwood",    wirkung:"Gives an energetic backbone and primal trust" },
+    { typ:7, name:"The Enthusiast",    wunde:"The pain will destroy me.", oel:"Vetiver",      wirkung:"Radical grounding, stops the flight upward" },
+    { typ:8, name:"The Protector",     wunde:"Weakness means destruction.", oel:"Fine Lavender", wirkung:"Dissolves fighting tension, allows mildness and softness" },
+    { typ:9, name:"The Peacemaker",    wunde:"I play no role.", oel:"Grapefruit",    wirkung:"The bitter wake-up call for willpower and presence" },
+  ];
   return shell(`
     ${pageHeader("aetherische-oele")}
     <section class="narrow">
-      <p class="eyebrow">Charts · Ätherische Öle &amp; Enneagramm</p>
-      <h1>Ätherische Öle &amp; Enneagramm</h1>
-      <p class="lead-small">Jedem Enneagrammtyp ist ein ätherisches Öl zugeordnet, das direkt auf der Wunden-Ebene wirkt &ndash; dort, wo die tiefste Prägung sitzt. Düfte berühren das limbische System unmittelbar und können heilsame Bewegung in festgefahrene Muster bringen.</p>
+      <p class="eyebrow">Healing · Essential Oils &amp; Enneagram</p>
+      <h1>Essential Oils &amp; Enneagram</h1>
+      <p class="lead-small">Every Enneagram type is assigned an essential oil that acts directly at the wound level &ndash; where the deepest imprint resides. Scents reach the limbic system immediately and can bring healing movement into entrenched patterns.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/oele/aetherische-oele.png"
-             alt="Ätherische Öle und Enneagramm &ndash; Übersicht"
+             alt="Essential Oils and Enneagram &ndash; Overview"
              class="psycho-img" />
       </div>
+      <div style="margin-top:2rem;">
+        ${OELE.map(o => `
+        <div style="border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-bottom:.85rem;display:flex;gap:1rem;align-items:flex-start;">
+          <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--copper);color:#fff;font-size:.85rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">${o.typ}</div>
+          <div>
+            <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .1rem;">Type ${o.typ} &middot; ${o.name}</p>
+            <p style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);margin:0 0 .25rem;font-style:italic;">${o.oel}</p>
+            <p style="font-size:.82rem;color:var(--muted);margin:0 0 .2rem;font-style:italic;">Core Wound: &ldquo;${o.wunde}&rdquo;</p>
+            <p style="font-size:.88rem;color:var(--ink);margin:0;line-height:1.5;">${o.wirkung}</p>
+          </div>
+        </div>`).join("")}
+      </div>
+      <p style="font-size:.8rem;color:var(--muted);font-style:italic;margin:1rem 0 .5rem;">Note: The assignments are based on symbolic and traditional meanings and do not replace medical or therapeutic treatment. Every person is unique &ndash; trust your own intuition.</p>
       ${relatedLinks([
         {route:"edelsteine", label:"Gemstones"},
         {route:"tee-enneagramm", label:"Enneagram Teas"},
-        {route:"heilungsweg", label:"Heilungsweg"},
+        {route:"heilungsweg", label:"The Healing Path"},
       ])}
     </section>
   `);
@@ -40641,7 +40665,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v584';
+  const MY_VERSION = 'inhalt-v585';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
