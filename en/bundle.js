@@ -7313,7 +7313,7 @@ function typePage(num) {
       <h1 style="color:${c}">${t.name}</h1>
       <p class="lead-small">${t.thema}</p>
       <div class="typ-meta">
-        <span class="typ-meta__chip" style="border-color:${c};color:${c}">Leidenschaft: <strong>${t.leidenschaft}</strong></span>
+        <span class="typ-meta__chip" style="border-color:${c};color:${c}">Passion: <strong>${t.leidenschaft}</strong></span>
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Tier: <strong>${t.tier}</strong></span>
       </div>
       ${impulseBlock(TYP_IMPULSE[t.num], c)}
@@ -36167,7 +36167,7 @@ function subtypChecklistePage() {
     return shell(`
       ${pageHeader("subtypen-checklisten")}
       <div class="psycho-wrap">
-        <button class="ghost-link psycho-back" data-route="subtypen-checklisten">← Alle Typen</button>
+        <button class="ghost-link psycho-back" data-route="subtypen-checklisten">← All Types</button>
         <p class="eyebrow">Subtypees-Checklisten · Typ ${typNr}</p>
         <h1 class="section-title">Typ ${typNr} &ndash; Welcher Subtype bin ich?</h1>
         <p class="psycho-intro">Wähle einen Instinktschwerpunkt und prüfe anhand der Checkliste, wie gut die Aussagen auf dich zutreffen.</p>
@@ -36326,15 +36326,15 @@ function homoeopathiePage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Typ 1 · Der Ordnungsorientierte", leidenschaft:"Wut", leidenschaftsMittel:"Platinum metallicum", wundeMittel:"Arsenicum album", thema:`Gewonnen aus dem Edelmetall Platin – einem der reinsten, kostbarsten und widerstandsfähigsten Metalle überhaupt, das von keiner Säure angegriffen wird. Genau diese Signatur prägt das Mittelbild: ein Streben nach Reinheit, Vollkommenheit und moralischer Unantastbarkeit, verbunden mit einem feinen Gefühl der Erhabenheit über das Gewöhnliche. Wie das Metall sich nicht verunreinigen lässt, will die Eins fehlerlos, korrekt und integer sein. Das Bedürfnis, alles richtig zu machen, ruht auf einem starken inneren Anspruch nach Perfektion, Ordnung und Integrität – und auf der Angst, sich durch einen Error herabzusetzen.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als strenge Kontrolle, innerer Druck, Anspannung und unerbittliche Selbstverurteilung zeigt. Es hilft, den hohen Anspruch von der erstarrten Härte zu lösen, sodass Würde und Aufrichtigkeit bleiben dürfen, ohne in Verbissenheit und Überlegenheit zu kippen. So darf die Eins Maß und Menschlichkeit wiederfinden – richtig sein, ohne sich selbst zu richten.` },
-    { typ:2, label:"Typ 2 · Der Beziehungsorientierte", leidenschaft:"Stolz", leidenschaftsMittel:"Hyoscyamus niger", wundeMittel:"Pulsatilla pratensis", thema:`Gewonnen aus dem Schwarzen Bilsenkraut, einer Nachtschattenpflanze mit stark berauschender, das Verhalten enthemmender Wirkung. In ihrer Signatur liegt ein verzweifeltes Ringen um Aufmerksamkeit und Liebe: Eifersucht, das Bedürfnis, gesehen zu werden, und die Angst, verlassen oder übergangen zu werden. Genau das prägt das Mittelbild der Zwei – das starke Verlangen nach Nähe, Anerkennung und Gebrauchtwerden. Das Bedürfnis, geliebt zu werden, wird so groß, dass die eigene Mitte darüber aus dem Blick gerät.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als emotionale Abhängigkeit, Besitzanspruch und Angst vor Backweisung zeigt. Es hilft, das anklammernde Werben um Zuwendung zu beruhigen und die Liebe wieder auf einen festen inneren Grund zu stellen. So darf Nähe entstehen, ohne sich zu verlieren oder ständig um Bestätigung kämpfen zu müssen.` },
-    { typ:3, label:"Typ 3 · Der Erfolgsorientierte", leidenschaft:"Lüge / Selbsttäuschung", leidenschaftsMittel:"Tarentula hispanica", wundeMittel:"Lycopodium clavatum", thema:`Gewonnen aus der spanischen Tarantel – einem ruhelosen Tier, dessen Biss der Überlieferung nach zu fiebrigem, getriebenem Tanzen zwingt. Diese Signatur durchzieht das Mittelbild: eine rastlose, hektische Betriebsamkeit, das Bedürfnis zu beeindrucken, geschickte Wendigkeit und ein ständiges Unter-Strom-Stehen. Genau das prägt die Drei – der starke Antrieb nach Wirkung, Erfolg und Anerkennung. Wie die Tarantel kann sie kaum innehalten, immer in Bewegung, immer auf der Bühne.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als Leistungsdruck, Getriebenheit und bloßes Funktionieren zeigt. Es hilft, das innere Tempo zu drosseln und den Wert nicht länger an Wirkung und Applaus zu knüpfen. So darf die Drei zur Ruhe kommen und spüren, dass sie auch ohne ständiges Glänzen genügt.` },
-    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", leidenschaftsMittel:"Ignatia amara", wundeMittel:"Ignatia amara", thema:`Gewonnen aus der Bohne des Ignatiusbaums – einem Samen mit paradoxer, widersprüchlicher Wirkung, der seit jeher mit Kummer und enttäuschter Liebe verbunden ist. Diese Signatur prägt das Mittelbild: feine Empfindsamkeit, wechselnde, gegensätzliche Stimmungen, Seufzen und ein Hang zur Idealisierung. Genau das lebt in der Vier – das Bedürfnis, sich selbst treu zu sein und verstanden zu werden, getragen von tiefer Sehnsucht nach Authentizität und Bedeutung. Das Gefühl schwingt zwischen Höhen und Tiefen, immer auf der Search nach dem Echten.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich emotionale Intensität, innerer Rückzug und tiefe Sehnsucht zeigen. Es hilft, das Auf und Ab der Gefühle zu mildern, ohne die Tiefe zu verlieren. So darf die Vier in ihrer Empfindsamkeit ruhen, statt sich in ihr zu verlieren.` },
-    { typ:5, label:"Typ 5 · Der Wissensorientierte", leidenschaft:"Geiz / Rückzug", leidenschaftsMittel:"Stramonium", wundeMittel:"Silicea", thema:`Der Stechapfel ist ein hochgiftiges Nachtschattengewächs, das Bilder von Dunkelheit, Bedrohung und Schrecken hervorruft. In seiner Signatur liegt das Bedürfnis, sich vor einer als überwältigend erlebten Welt zu schützen und Halt im Inneren zu suchen. Das prägt das Mittelbild der Fünf – der starke Drang, sich zurückzuziehen, um zu verstehen, getragen von der Search nach Wissen, Unabhängigkeit und innerer Klarheit. Der Rückzug in den Kopf wird zum sicheren Ort gegenüber einer bedrohlich wirkenden Außenwelt.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo mentaler Rückzug, innere Isolation und Überforderung auftreten. Es hilft, die Distanz zur Welt zu mildern und sich wieder sicherer im Contact zu fühlen. So darf die Fünf aus dem Beobachten heraustreten und am Leben teilnehmen, ohne sich bedroht zu fühlen.` },
-    { typ:6, label:"Typ 6 · Der Sicherheitsorientierte", leidenschaft:"Angst", leidenschaftsMittel:"Opium", wundeMittel:"Opium", thema:`Gewonnen aus dem Schlafmohn – einem Stoff, der Schmerz, Angst und Wahrnehmung betäubt und in dumpfe Ruhe hüllt. Diese Signatur zeigt ein Wesen, das nach Sicherheit und Geborgenheit verlangt und Gefahr lieber ausblendet, als sie zu durchleben. Das prägt die Leidenschaft der Sechs – der starke Wunsch nach Schutz und die Vermeidung von Bedrohung. Wo das Mittel betäubt, sucht die Seele Sicherheit, indem sie das Beunruhigende abdämpft.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo übermäßige Angst, innere Anspannung, Sorgen und dauerhafte Wachsamkeit auftreten. Es hilft, die festgehaltene Schreckspannung zu lösen und das Nervensystem zu beruhigen. So darf an die Stelle ständiger Alarmbereitschaft ein Gefühl von Geborgenheit treten.` },
-    { typ:7, label:"Typ 7 · Der Genussorientierte", leidenschaft:"Maßlosigkeit", leidenschaftsMittel:"Belladonna", wundeMittel:"Calcium carbonicum", thema:`Die Tollkirsche ist eine Nachtschattenpflanze, deren Bild von Hitze, Fieber, Fülle und glühender Erregung geprägt ist. Diese Signatur durchzieht das Mittelbild: eine fiebrige Intensität, ein Drang nach lebhaften, starken Eindrücken und ein rasches Aufflammen. Genau das lebt in der Sieben – das Bedürfnis, Schmerz zu vermeiden und das Leben in vollen Zügen zu erleben, getragen von einem fiebrigen Drang nach mehr Möglichkeiten, Reizen und Genuss. Wie das Fieber will alles hell, schnell und intensiv sein.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als Überfülle, rastlose Getriebenheit und fiebrige Reizsuche zeigt. Es hilft, die überschießende Erregung zu kühlen und zur Ruhe zu bringen. So darf die Sieben Fülle genießen, ohne von ihr getrieben zu werden.` },
-    { typ:8, label:"Typ 8 · Der Machtorientierte", leidenschaft:"Lust / Dominanz", leidenschaftsMittel:"Veratrum album", wundeMittel:"Veratrum album", thema:`Der Weiße Germer ist eine kraftvolle, giftige Gebirgspflanze, deren Bild von Größe, Anspruch und plötzlichem Zusammenbruch geprägt ist. Ihre Signatur zeigt einen mächtigen Drang nach Ausweitung, Einfluss und Überlegenheit – bis hin zu Härte und Hochmut. Genau das prägt die Leidenschaft der Acht – das Bedürfnis, stark, unabhängig und unangreifbar zu sein, getragen von einem mächtigen inneren Drang nach Kontrolle. Die Kraft will sich ausdehnen und alles in der Hand behalten.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als maßlose Expansion, Übersteigerung und das Erzwingen von Kontrolle zeigt. Es hilft, die überschießende Kraft zu mäßigen, ohne die Stärke zu verlieren. So darf die Acht führen und schützen, ohne sich und andere zu überfordern.` },
-    { typ:9, label:"Typ 9 · Der Harmonieorientierte", leidenschaft:"Trägheit / Selbstvergessenheit", leidenschaftsMittel:"Cannabis indica", wundeMittel:"Staphysagria", thema:`Der indische Hanf ruft Bilder von Vernebelung, traumartiger Ferne und einem seligen Verschwimmen von Zeit und Raum hervor. Diese Signatur prägt das Mittelbild: ein Abtauchen aus der scharfen Wirklichkeit in eine weiche, konfliktfreie Benommenheit. Genau das lebt in der Neun – das Bedürfnis nach Frieden und Harmonie, getragen vom Wunsch, Konflikt, Spannung und Aufruhr zu vermeiden. Die Welt wird weichgezeichnet, damit nichts mehr wehtut oder reibt.`, wirkung:`Homöopathisch unterstützt es die Regulation dort, wo sich die Lebenskraft als Vernebelung, Selbstvergessenheit und das Abtauchen aus der eigenen Präsenz zeigt. Es hilft, wieder klarer und wacher gegenwärtig zu werden. So darf die Neun aus dem Nebel auftauchen und sich selbst wieder spüren.` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsMittel:"Platinum metallicum", wundeMittel:"Arsenicum album", thema:`Derived from the precious metal platinum – one of the purest, rarest and most resilient metals, untouched by any acid. This very signature shapes the remedy picture: a striving for purity, perfection and moral untouchability, combined with a subtle sense of elevation above the ordinary. Just as the metal cannot be tainted, the One wants to be flawless, correct and upright. The need to do everything right rests on a strong inner demand for perfection, order and integrity – and on the fear of diminishing oneself through error.`, wirkung:`Homeopathically it supports regulation where the life force manifests as strict control, inner pressure, tension and relentless self-condemnation. It helps loosen the high standards from their frozen rigidity, so that dignity and uprightness may remain without tipping into bitterness and superiority. The One may then rediscover measure and humanity – being right without judging oneself.` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsMittel:"Hyoscyamus niger", wundeMittel:"Pulsatilla pratensis", thema:`Derived from black henbane, a nightshade plant with a strongly intoxicating, disinhibiting effect. Its signature holds a desperate struggle for attention and love: jealousy, the need to be seen, and the fear of being abandoned or overlooked. This is precisely what shapes the Two’s remedy picture – the intense longing for closeness, recognition and being needed. The desire to be loved becomes so great that the person’s own centre slips from view.`, wirkung:`Homeopathically it supports regulation where the life force manifests as emotional dependency, possessiveness and fear of rejection. It helps calm the clinging appeal for affection and return love to a stable inner ground. Closeness may then arise without losing oneself or constantly fighting for validation.` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsMittel:"Tarentula hispanica", wundeMittel:"Lycopodium clavatum", thema:`Derived from the Spanish tarantula – a restless creature whose bite, according to legend, compels feverish, driven dancing. This signature pervades the remedy picture: a relentless, hectic busyness, the need to impress, clever agility and a constant state of being under pressure. This is precisely what drives the Three – the strong impulse toward impact, success and recognition. Like the tarantula, the Three can barely pause, always in motion, always on stage.`, wirkung:`Homeopathically it supports regulation where the life force manifests as performance pressure, drivenness and mere functioning. It helps slow the inner tempo and uncouple worth from impact and applause. The Three may then find rest and sense that they are enough without constant brilliance.` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsMittel:"Ignatia amara", wundeMittel:"Ignatia amara", thema:`Derived from the bean of the Ignatian tree – a seed with paradoxical, contradictory effects, long associated with grief and disappointed love. This signature shapes the remedy picture: fine sensitivity, shifting, contrasting moods, sighing and a tendency toward idealisation. This lives in the Four – the need to be true to oneself and to be understood, carried by deep longing for authenticity and meaning. Feeling swings between highs and lows, always in search of what is real.`, wirkung:`Homeopathically it supports regulation where emotional intensity, inner withdrawal and deep longing appear. It helps moderate the ups and downs of feeling without losing the depth. The Four may then rest in their sensitivity rather than losing themselves within it.` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsMittel:"Stramonium", wundeMittel:"Silicea", thema:`The thorn apple is a highly toxic nightshade that evokes images of darkness, threat and terror. Its signature holds the need to protect oneself from an overwhelmingly experienced world and to seek inner ground. This shapes the Five’s remedy picture – the strong urge to withdraw in order to understand, carried by the search for knowledge, independence and inner clarity. Retreat into the mind becomes the safe place against an outer world that feels threatening.`, wirkung:`Homeopathically it supports regulation where mental withdrawal, inner isolation and overwhelm appear. It helps ease the distance from the world and make contact feel safer again. The Five may then step out of observation and participate in life without feeling threatened.` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsMittel:"Opium", wundeMittel:"Opium", thema:`Derived from the opium poppy – a substance that numbs pain, fear and perception and wraps everything in dull calm. This signature shows a being that longs for security and shelter and prefers to blank out danger rather than live through it. This shapes the passion of the Six – the strong wish for protection and the avoidance of threat. Where the remedy numbs, the soul seeks safety by dampening what unsettles.`, wirkung:`Homeopathically it supports regulation where excessive fear, inner tension, worry and permanent vigilance appear. It helps release the frozen shock-tension and calm the nervous system. In place of constant alertness, a sense of shelter may arise.` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsMittel:"Belladonna", wundeMittel:"Calcium carbonicum", thema:`Deadly nightshade is a plant whose picture is shaped by heat, fever, fullness and glowing excitement. This signature pervades the remedy picture: feverish intensity, an urge toward vivid, strong impressions and a rapid flaring up. This lives in the Seven – the need to avoid pain and experience life to the full, carried by a feverish drive for more possibilities, stimulation and pleasure. Like the fever, everything wants to be bright, fast and intense.`, wirkung:`Homeopathically it supports regulation where the life force manifests as excess, restless drivenness and feverish stimulus-seeking. It helps cool and calm the overflowing excitement. The Seven may then enjoy abundance without being driven by it.` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsMittel:"Veratrum album", wundeMittel:"Veratrum album", thema:`White hellebore is a powerful, toxic mountain plant whose picture is shaped by greatness, entitlement and sudden collapse. Its signature shows a mighty drive toward expansion, influence and superiority – reaching as far as harshness and arrogance. This is precisely what shapes the passion of the Eight – the need to be strong, independent and invulnerable, carried by a powerful inner drive for control. The force wants to expand and keep everything in hand.`, wirkung:`Homeopathically it supports regulation where the life force manifests as boundless expansion, excess and forcing of control. It helps moderate the overflowing force without losing the strength. The Eight may then lead and protect without overextending themselves and others.` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsMittel:"Cannabis indica", wundeMittel:"Staphysagria", thema:`Indian hemp evokes images of fogging, dream-like distance and a blissful blurring of time and space. This signature shapes the remedy picture: a diving out of sharp reality into a soft, conflict-free numbness. This lives in the Nine – the need for peace and harmony, carried by the wish to avoid conflict, tension and upheaval. The world is softened so that nothing hurts or grates anymore.`, wirkung:`Homeopathically it supports regulation where the life force manifests as fogging, self-forgetting and diving out of one’s own presence. It helps become clearer and more wakefully present again. The Nine may then emerge from the fog and feel themselves once more.` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36343,48 +36343,48 @@ function homoeopathiePage() {
     return shell(`
       ${pageHeader("homoeopathie")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="homoeopathie">&larr; Alle Typen</button>
+        <button class="ghost-link psycho-back" data-route="homoeopathie">&larr; All Types</button>
         <h1 class="psycho-detail__title">${d.label}</h1>
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Leidenschaft &middot; ${d.leidenschaft}</p>
+          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <div style="margin-bottom:1.2rem;">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Leidenschaftsmittel</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Passion Remedy</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.leidenschaftsMittel}</p>
           </div>
           ${sameMittel ? "" : `
           <div style="padding-top:1rem;border-top:1px solid var(--line);">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wundenmittel</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wound Remedy</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.wundeMittel}</p>
           </div>`}
           ${sameMittel ? `
-          <p style="font-size:.8rem;color:var(--muted);margin:.6rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Leidenschaftsmittel und Wundenmittel sind identisch.</p>` : ""}
+          <p style="font-size:.8rem;color:var(--muted);margin:.6rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Passion remedy and wound remedy are identical.</p>` : ""}
         </div>
         ${d.thema ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Mittelbild · ${d.leidenschaftsMittel}</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Remedy Portrait · ${d.leidenschaftsMittel}</p>
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.thema}</p>
         </div>` : ""}
         ${d.wirkung ? `
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Homöopathische Wirkung</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Homeopathic Effect</p>
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.wirkung}</p>
         </div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer Rücksprache. Die Zuordnungen gelten für den Kerntypus &ndash; im Einzelfall kommen je nach Flügel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype-Detail &middot; Remedies-Kompass</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
-            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} &ndash; Sozial</button>
-            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} &ndash; Sexuell</button>
+            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
+            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
         </div>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Charts</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Angst &#8594; Essenz</button>
+            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
-            <button class="ghost-link" data-route="heilungsweg" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Heilungsweg des Menschen</button>
-            <button class="ghost-link" data-route="laster-tugenden-affirmationen" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Laster &middot; Tugenden &middot; Affirmationen</button>
+            <button class="ghost-link" data-route="heilungsweg" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">The Healing Path</button>
+            <button class="ghost-link" data-route="laster-tugenden-affirmationen" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Vices · Virtues · Affirmations</button>
           </div>
         </div>
       </div>
@@ -36396,9 +36396,9 @@ function homoeopathiePage() {
     ${pageHeader("homoeopathie")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">Heilung &middot; Homöopathische Mittel</p>
-        <h1>Homöopathische Mittel</h1>
-        <p class="lead-small">Leidenschafts- und Wundenmittel für alle 9 Enneagramm-Typen &ndash; aus der homöopathischen Enneagramm-Praxis nach dem Ähnlichkeitsgesetz.</p>
+        <p class="eyebrow">Healing · Homeopathic Remedies</p>
+        <h1>Homeopathic Remedies</h1>
+        <p class="lead-small">Passion and wound remedies for all 9 Enneagram types – from homeopathic Enneagram practice according to the law of similars.</p>
       </div>
     </section>
     <section class="oils-grid" style="padding:0 1rem 3rem;">
@@ -36407,15 +36407,15 @@ function homoeopathiePage() {
         return `
         <article class="oil-card" style="cursor:pointer;" data-route="homoeopathie/${d.typ}">
           <div class="oil-card__body" style="padding:1.2rem;">
-            <span class="oil-card__type">Typ ${d.typ}</span>
+            <span class="oil-card__type">Type ${d.typ}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Leidenschaftsmittel</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Passion Remedy</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.leidenschaftsMittel}</span>
             </div>
             ${sameMittel ? "" : `
             <div style="margin-bottom:.5rem;padding-top:.5rem;border-top:1px solid var(--line);">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wundenmittel</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wound Remedy</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.wundeMittel}</span>
             </div>`}
             <p style="font-size:.7rem;color:var(--muted);margin:.6rem 0 0;">Leidenschaft: ${d.leidenschaft}</p>
@@ -36432,15 +36432,15 @@ function mineralstoffePage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Typ 1 · Der Ordnungsorientierte", leidenschaft:"Wut", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Reinigung, Stoffwechsel und innere Erneuerung`, beschreibung:`Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Ordnung nicht starr, sondern beweglich zu halten.` },
-    { typ:2, label:"Typ 2 · Der Beziehungsorientierte", leidenschaft:"Stolz", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Flüssigkeitshaushalt und Lösen von altem Kummer`, beschreibung:`` },
-    { typ:3, label:"Typ 3 · Der Erfolgsorientierte", leidenschaft:"Lüge / Selbsttäuschung", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energie, Widerstandskraft und Initiative`, beschreibung:`` },
-    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nervenkraft bei Erschöpfung, seelische Stärke`, beschreibung:`` },
-    { typ:5, label:"Typ 5 · Der Wissensorientierte", leidenschaft:"Geiz / Rückzug", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`innere Struktur, Standfestigkeit und Selbstvertrauen`, beschreibung:`` },
-    { typ:6, label:"Typ 6 · Der Sicherheitsorientierte", leidenschaft:"Angst", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Entspannung und Lösen von Anspannung`, beschreibung:`` },
-    { typ:7, label:"Typ 7 · Der Genussorientierte", leidenschaft:"Maßlosigkeit", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Säure-Basen-Ausgleich und innere Balance`, beschreibung:`` },
-    { typ:8, label:"Typ 8 · Der Machtorientierte", leidenschaft:"Lust / Dominanz", leidenschaftsSalz:"Calcium fluoratum", wundeSalz:"Calcium fluoratum", nr:"1", wirkungsfeld:`Festigkeit und Elastizität zugleich`, beschreibung:`` },
-    { typ:9, label:"Typ 9 · Der Harmonieorientierte", leidenschaft:"Trägheit / Selbstvergessenheit", leidenschaftsSalz:"Natrium sulfuricum", wundeSalz:"Natrium sulfuricum", nr:"10", wirkungsfeld:`Ausscheidung und Loslassen von Belastendem`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Reinigung, Stoffwechsel und innere Erneuerung`, beschreibung:`Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Ordnung nicht starr, sondern beweglich zu halten.` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Flüssigkeitshaushalt und Lösen von altem Kummer`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energie, Widerstandskraft und Initiative`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nervenkraft bei Erschöpfung, seelische Stärke`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`innere Struktur, Standfestigkeit und Selbstvertrauen`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Entspannung und Lösen von Anspannung`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Säure-Basen-Ausgleich und innere Balance`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsSalz:"Calcium fluoratum", wundeSalz:"Calcium fluoratum", nr:"1", wirkungsfeld:`Festigkeit und Elastizität zugleich`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsSalz:"Natrium sulfuricum", wundeSalz:"Natrium sulfuricum", nr:"10", wirkungsfeld:`Ausscheidung und Loslassen von Belastendem`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36449,10 +36449,10 @@ function mineralstoffePage() {
     return shell(`
       ${pageHeader("mineralstoffe")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="mineralstoffe">&larr; Alle Typen</button>
+        <button class="ghost-link psycho-back" data-route="mineralstoffe">&larr; All Types</button>
         <h1 class="psycho-detail__title">${d.label}</h1>
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Leidenschaft &middot; ${d.leidenschaft}</p>
+          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <div style="margin-bottom:${sameSalz ? "0" : "1.2rem"};">
             <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Leidenschafts-Salz</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 .1rem;font-style:italic;">${d.leidenschaftsSalz}</p>
@@ -36475,20 +36475,20 @@ function mineralstoffePage() {
         </div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype-Detail &middot; Remedies-Kompass</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
-            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} &ndash; Sozial</button>
-            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} &ndash; Sexuell</button>
+            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
+            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
         </div>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Charts</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Angst &#8594; Essenz</button>
+            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
             <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">K&ouml;rperregulation</button>
-            <button class="ghost-link" data-route="heilungsweg" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Heilungsweg des Menschen</button>
+            <button class="ghost-link" data-route="heilungsweg" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">The Healing Path</button>
           </div>
         </div>
       </div>
@@ -36536,15 +36536,15 @@ function bachbluetenPage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Typ 1 · Der Ordnungsorientierte", leidenschaft:"Wut", leidenschaftsBl:"Rock Water", wundeBl:"Rock Water", wirkungsfeld:`Flexibilität statt starrer Selbststrenge`, beschreibung:`` },
-    { typ:2, label:"Typ 2 · Der Beziehungsorientierte", leidenschaft:"Stolz", leidenschaftsBl:"Chicory", wundeBl:"Chicory", wirkungsfeld:`selbstlose Liebe ohne Besitzanspruch`, beschreibung:`` },
-    { typ:3, label:"Typ 3 · Der Erfolgsorientierte", leidenschaft:"Lüge / Selbsttäuschung", leidenschaftsBl:"Vervain", wundeBl:"Walnut", wirkungsfeld:`gelassene Begeisterung statt Übereifer`, beschreibung:`` },
-    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", leidenschaftsBl:"Sweet Chestnut", wundeBl:"Willow", wirkungsfeld:`Hoffnung und Halt in tiefer Not`, beschreibung:`` },
-    { typ:5, label:"Typ 5 · Der Wissensorientierte", leidenschaft:"Geiz / Rückzug", leidenschaftsBl:"Water Violet", wundeBl:"Water Violet", wirkungsfeld:`aus Rückzug zu warmer Verbundenheit`, beschreibung:`` },
-    { typ:6, label:"Typ 6 · Der Sicherheitsorientierte", leidenschaft:"Angst", leidenschaftsBl:"Aspen", wundeBl:"Cerato", wirkungsfeld:`Vertrauen bei unbestimmter Angst`, beschreibung:`` },
-    { typ:7, label:"Typ 7 · Der Genussorientierte", leidenschaft:"Maßlosigkeit", leidenschaftsBl:"Agrimony", wundeBl:"Agrimony", wirkungsfeld:`Echtheit hinter der Heiterkeit`, beschreibung:`` },
-    { typ:8, label:"Typ 8 · Der Machtorientierte", leidenschaft:"Lust / Dominanz", leidenschaftsBl:"Vine", wundeBl:"Oak", wirkungsfeld:`Stärke und Führung ohne Dominanz`, beschreibung:`` },
-    { typ:9, label:"Typ 9 · Der Harmonieorientierte", leidenschaft:"Trägheit / Selbstvergessenheit", leidenschaftsBl:"Wild Rose", wundeBl:"Wild Rose", wirkungsfeld:`aus Resignation zu lebendiger Teilnahme`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsBl:"Rock Water", wundeBl:"Rock Water", wirkungsfeld:`Flexibilität statt starrer Selbststrenge`, beschreibung:`` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsBl:"Chicory", wundeBl:"Chicory", wirkungsfeld:`selbstlose Liebe ohne Besitzanspruch`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsBl:"Vervain", wundeBl:"Walnut", wirkungsfeld:`gelassene Begeisterung statt Übereifer`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsBl:"Sweet Chestnut", wundeBl:"Willow", wirkungsfeld:`Hoffnung und Halt in tiefer Not`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsBl:"Water Violet", wundeBl:"Water Violet", wirkungsfeld:`aus Rückzug zu warmer Verbundenheit`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsBl:"Aspen", wundeBl:"Cerato", wirkungsfeld:`Vertrauen bei unbestimmter Angst`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsBl:"Agrimony", wundeBl:"Agrimony", wirkungsfeld:`Echtheit hinter der Heiterkeit`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsBl:"Vine", wundeBl:"Oak", wirkungsfeld:`Stärke und Führung ohne Dominanz`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsBl:"Wild Rose", wundeBl:"Wild Rose", wirkungsfeld:`aus Resignation zu lebendiger Teilnahme`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36553,10 +36553,10 @@ function bachbluetenPage() {
     return shell(`
       ${pageHeader("bachblueten")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="bachblueten">&larr; Alle Typen</button>
+        <button class="ghost-link psycho-back" data-route="bachblueten">&larr; All Types</button>
         <h1 class="psycho-detail__title">${d.label}</h1>
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Leidenschaft &middot; ${d.leidenschaft}</p>
+          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <div style="margin-bottom:${sameBl ? "0" : "1.2rem"};">
             <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Leidenschafts-Blüte</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.leidenschaftsBl}</p>
@@ -36578,17 +36578,17 @@ function bachbluetenPage() {
         </div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype-Detail &middot; Remedies-Kompass</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
-            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} &ndash; Sozial</button>
-            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} &ndash; Sexuell</button>
+            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
+            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
         </div>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Charts</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Angst &#8594; Essenz</button>
+            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
             <button class="ghost-link" data-route="basisemotionen" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Basisemotionen</button>
             <button class="ghost-link" data-route="mangelgefuehle" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Mangelgef&uuml;hle</button>
@@ -36614,7 +36614,7 @@ function bachbluetenPage() {
         return `
         <article class="oil-card" style="cursor:pointer;" data-route="bachblueten/${d.typ}">
           <div class="oil-card__body" style="padding:1.2rem;">
-            <span class="oil-card__type">Typ ${d.typ}</span>
+            <span class="oil-card__type">Type ${d.typ}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Leidenschafts-Blüte</span>
@@ -36640,15 +36640,15 @@ function heilteesPage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Typ 1 · Der Ordnungsorientierte", leidenschaft:"Wut", tee:"Melissentee", teename:"The Mind Detox", wirkungsfeld:`beruhigend und nervenstärkend`, beschreibung:`` },
-    { typ:2, label:"Typ 2 · Der Beziehungsorientierte", leidenschaft:"Stolz", tee:"Rosenblütentee", teename:"Self-Love Elixir", wirkungsfeld:`herzöffnend und harmonisierend`, beschreibung:`` },
-    { typ:3, label:"Typ 3 · Der Erfolgsorientierte", leidenschaft:"Lüge / Selbsttäuschung", tee:"Rosmarintee", teename:"The Performance Boost", wirkungsfeld:`belebend und kräftigend`, beschreibung:`` },
-    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", tee:"Weidenröschentee", teename:"The Grounding Brew", wirkungsfeld:`besänftigend und ausgleichend`, beschreibung:`` },
-    { typ:5, label:"Typ 5 · Der Wissensorientierte", leidenschaft:"Geiz / Rückzug", tee:"Haferkrauttee", teename:"The Battery Recharge", wirkungsfeld:`nervenstärkend und aufbauend`, beschreibung:`` },
-    { typ:6, label:"Typ 6 · Der Sicherheitsorientierte", leidenschaft:"Angst", tee:"Kamillenblütentee", teename:"The Safety Zone", wirkungsfeld:`beruhigend und wohltuend`, beschreibung:`` },
-    { typ:7, label:"Typ 7 · Der Genussorientierte", leidenschaft:"Maßlosigkeit", tee:"Pfefferminztee", teename:"The Fresh Vibe", wirkungsfeld:`erfrischend und klärend`, beschreibung:`` },
-    { typ:8, label:"Typ 8 · Der Machtorientierte", leidenschaft:"Lust / Dominanz", tee:"Ingwertee", teename:"The Power Balance", wirkungsfeld:`wärmend und anregend`, beschreibung:`` },
-    { typ:9, label:"Typ 9 · Der Harmonieorientierte", leidenschaft:"Trägheit / Selbstvergessenheit", tee:"Fencheltee", teename:"The Harmony Flow", wirkungsfeld:`entspannend und ausgleichend`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", tee:"Melissentee", teename:"The Mind Detox", wirkungsfeld:`beruhigend und nervenstärkend`, beschreibung:`` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", tee:"Rosenblütentee", teename:"Self-Love Elixir", wirkungsfeld:`herzöffnend und harmonisierend`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", tee:"Rosmarintee", teename:"The Performance Boost", wirkungsfeld:`belebend und kräftigend`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", tee:"Weidenröschentee", teename:"The Grounding Brew", wirkungsfeld:`besänftigend und ausgleichend`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", tee:"Haferkrauttee", teename:"The Battery Recharge", wirkungsfeld:`nervenstärkend und aufbauend`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", tee:"Kamillenblütentee", teename:"The Safety Zone", wirkungsfeld:`beruhigend und wohltuend`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", tee:"Pfefferminztee", teename:"The Fresh Vibe", wirkungsfeld:`erfrischend und klärend`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", tee:"Ingwertee", teename:"The Power Balance", wirkungsfeld:`wärmend und anregend`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", tee:"Fencheltee", teename:"The Harmony Flow", wirkungsfeld:`entspannend und ausgleichend`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36656,10 +36656,10 @@ function heilteesPage() {
     return shell(`
       ${pageHeader("heiltees")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="heiltees">&larr; Alle Typen</button>
+        <button class="ghost-link psycho-back" data-route="heiltees">&larr; All Types</button>
         <h1 class="psycho-detail__title">${d.label}</h1>
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Leidenschaft &middot; ${d.leidenschaft}</p>
+          <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Heiltee</span>
           <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.tee}</p>
           <p style="font-size:.8rem;color:var(--muted);letter-spacing:.05em;margin:.15rem 0 0;">${d.teename}</p>
@@ -36674,18 +36674,18 @@ function heilteesPage() {
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype-Detail &middot; Remedies-Kompass</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
-            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} &ndash; Sozial</button>
-            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} &ndash; Sexuell</button>
+            <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
+            <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
         </div>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Charts</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">&#9749; Tee &amp; Enneagramm &ndash; ausführlich</button>
-            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Angst &#8594; Essenz</button>
+            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
             <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">K&ouml;rperregulation</button>
           </div>
@@ -36708,7 +36708,7 @@ function heilteesPage() {
       ${DATA.map(d => `
         <article class="oil-card" style="cursor:pointer;" data-route="heiltees/${d.typ}">
           <div class="oil-card__body" style="padding:1.2rem;">
-            <span class="oil-card__type">Typ ${d.typ}</span>
+            <span class="oil-card__type">Type ${d.typ}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Heiltee</span>
@@ -36743,10 +36743,10 @@ function edelsteinePage() {
         </div>
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Charts</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="aetherische-oele" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Ätherische Öle &amp; Enneagramm</button>
-            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Angst &#8594; Essenz</button>
+            <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           </div>
         </div>
       </div>
@@ -37265,21 +37265,21 @@ function tischdialogePage() {
     { code:"SE1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Ordnung.")} &ndash; ${Q("Ich will Sicherheit.")}`,           ergebnis:"Disziplin, Korrektheit." },
     { code:"SO1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich halte Zorn zur\xfcck.")} &ndash; ${Q("Du musst erziehen.")}`,  ergebnis:"Strenge Moral." },
     { code:"SX1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich will Zorn verbergen.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`, ergebnis:"Zorn bricht offen hervor." },
-    { code:"SE2", typ:2, leidenschaft:"Stolz",         instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich wei\xdf, was andere brauchen.")} &ndash; ${Q("Ich will klein wirken.")}`, ergebnis:"Scheinbare Demut." },
-    { code:"SO2", typ:2, leidenschaft:"Stolz",         instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will wichtig sein.")} &ndash; ${Q("Ich will gebraucht werden.")}`, ergebnis:"Offenes Helfen." },
-    { code:"SX2", typ:2, leidenschaft:"Stolz",         instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will N\xe4he.")} &ndash; ${Q("Ich will Bindung.")}`,              ergebnis:"Leidenschaftliche Zuwendung." },
+    { code:"SE2", typ:2, leidenschaft:"Pride",         instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich wei\xdf, was andere brauchen.")} &ndash; ${Q("Ich will klein wirken.")}`, ergebnis:"Scheinbare Demut." },
+    { code:"SO2", typ:2, leidenschaft:"Pride",         instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will wichtig sein.")} &ndash; ${Q("Ich will gebraucht werden.")}`, ergebnis:"Offenes Helfen." },
+    { code:"SX2", typ:2, leidenschaft:"Pride",         instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will N\xe4he.")} &ndash; ${Q("Ich will Bindung.")}`,              ergebnis:"Leidenschaftliche Zuwendung." },
     { code:"SE3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich will gl\xe4nzen.")} &ndash; ${Q("Ich will unauff\xe4llig wirken.")}`, ergebnis:"Bodenst\xe4ndig, aber leistungsgetrieben." },
     { code:"SO3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Erfolg zeigen.")} &ndash; ${Q("Ich will Status.")}`,      ergebnis:"Erfolgsorientierung pur." },
     { code:"SX3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will attraktiv sein.")} &ndash; ${Q("Ich will Beziehung.")}`,    ergebnis:"Charmant, dynamisch." },
-    { code:"SE4", typ:4, leidenschaft:"Neid",          instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich sehe, was fehlt.")} &ndash; ${Q("Ich will sichere Besonderheit.")}`, ergebnis:"Weniger dramatisch." },
-    { code:"SO4", typ:4, leidenschaft:"Neid",          instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich vergleiche mich.")} &ndash; ${Q("Ich will Status.")}`,         ergebnis:"Dramatischer Vergleich." },
-    { code:"SX4", typ:4, leidenschaft:"Neid",          instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich sehne mich.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`,         ergebnis:"Leidenschaftliche Search." },
+    { code:"SE4", typ:4, leidenschaft:"Envy",          instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich sehe, was fehlt.")} &ndash; ${Q("Ich will sichere Besonderheit.")}`, ergebnis:"Weniger dramatisch." },
+    { code:"SO4", typ:4, leidenschaft:"Envy",          instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich vergleiche mich.")} &ndash; ${Q("Ich will Status.")}`,         ergebnis:"Dramatischer Vergleich." },
+    { code:"SX4", typ:4, leidenschaft:"Envy",          instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich sehne mich.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`,         ergebnis:"Leidenschaftliche Search." },
     { code:"SE5", typ:5, leidenschaft:"Geiz",          instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will nichts hergeben.")} &ndash; ${Q("Ich will minimalistisch sein.")}`, ergebnis:"Asketisch, zur\xfcckgezogen." },
     { code:"SO5", typ:5, leidenschaft:"Geiz",          instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich halte Wissen zur\xfcck.")} &ndash; ${Q("Ich will teilnehmen.")}`, ergebnis:"Distanziert, aber beteiligt." },
     { code:"SX5", typ:5, leidenschaft:"Geiz",          instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich spare Energie.")} &ndash; ${Q("Ich will intensive N\xe4he.")}`,  ergebnis:"Ambivalenz: N\xe4he & R\xfcckzug." },
-    { code:"SE6", typ:6, leidenschaft:"Angst",         instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich sp\xfcre Gefahren.")} &ndash; ${Q("Ich will Vorsorge.")}`,     ergebnis:"Sicherheitsfanatiker." },
-    { code:"SO6", typ:6, leidenschaft:"Angst",         instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich will nicht allein sein.")} &ndash; ${Q("Ich will Zugeh\xf6rigkeit.")}`, ergebnis:"Loyalit\xe4t, Gruppenhalt." },
-    { code:"SX6", typ:6, leidenschaft:"Angst",         instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich bin unsicher.")} &ndash; ${Q("Ich provoziere.")}`,               ergebnis:"Angriff als Abwehr." },
+    { code:"SE6", typ:6, leidenschaft:"Fear",         instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich sp\xfcre Gefahren.")} &ndash; ${Q("Ich will Vorsorge.")}`,     ergebnis:"Sicherheitsfanatiker." },
+    { code:"SO6", typ:6, leidenschaft:"Fear",         instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich will nicht allein sein.")} &ndash; ${Q("Ich will Zugeh\xf6rigkeit.")}`, ergebnis:"Loyalit\xe4t, Gruppenhalt." },
+    { code:"SX6", typ:6, leidenschaft:"Fear",         instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich bin unsicher.")} &ndash; ${Q("Ich provoziere.")}`,               ergebnis:"Angriff als Abwehr." },
     { code:"SE7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mehr.")} &ndash; ${Q("Ich will Komfort.")}`,                 ergebnis:"Genussfreude, Lebenslust." },
     { code:"SO7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sozial",           kategorie:"Kontratyp",       dialog:`${Q("Ich will genie\xdfen.")} &ndash; ${Q("Ich will Ideale.")}`,          ergebnis:"Moralische, kopfgesteuerte Sieben." },
     { code:"SX7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Ekstase.")} &ndash; ${Q("Ich will Abenteuer.")}`,        ergebnis:"Ruhelos, extrem." },
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v573';
+  const MY_VERSION = 'inhalt-v574';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
