@@ -709,7 +709,6 @@ function pageHeader(active) {
       <div style="display:flex;gap:0.5rem;align-items:center;">
       <button class="suche-bar-btn" data-route="suche" aria-label="Suche" style="flex:1;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Suchen…</span></button>
       <button class="suche-fav-nav-btn" data-route="favoriten" aria-label="Favoriten" title="Meine Favoriten">♥</button>
-      <a href="https://dettifossi.github.io/enneagram-healing-compass/" class="suche-fav-nav-btn" aria-label="English version" title="English version – in Vorbereitung" style="text-decoration:none;font-size:0.75rem;font-weight:600;letter-spacing:0.02em;opacity:0.6;display:flex;flex-direction:column;align-items:center;line-height:1.1;gap:0;" rel="noopener">🇬🇧 EN<span style="font-size:0.55rem;font-weight:400;opacity:0.85;white-space:nowrap;">Vorbereitung</span></a>
       </div>
     </div>
     ${(()=>{
@@ -37029,7 +37028,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v576';
+  const MY_VERSION = 'inhalt-v577';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
