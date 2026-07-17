@@ -3557,11 +3557,22 @@ function quizResultScreen() {
 // ── ENDE QUIZ ENGINE ─────────────────────────────────────────────────────
 
 function subtypeEntry(code) {
-  return knowledgePrototype.subtypes.find(
-    (s) => s.code.toLowerCase() === code.toLowerCase()
-  );
+  const kn = knowledgePrototype.subtypes.find(s => s.code.toLowerCase() === code.toLowerCase());
+  if (!kn) return null;
+  const profile = subtypeProfiles[code.toLowerCase()];
+  if (profile) {
+    if (profile.title_en) kn.title_en = profile.title_en;
+    if (profile.archetype_en) kn.animal_en = profile.archetype_en;
+    if (profile.coreSentence_en) kn.coreSentence_en = profile.coreSentence_en;
+  }
+  return kn;
 }
 
+const SUBTITLE_EN = {
+  "Sexualinstinkt / Beziehungsinstinkt": "Sexual Instinct / Relational Instinct",
+  "Selbsterhaltungsinstinkt": "Self-Preservation Instinct",
+  "Sozialer Instinkt": "Social Instinct",
+};
 const DYNAMIK_VIDEOS = {
   1: "b3NTI3JH2wo",
   2: "BlxNIC_VxV4",
@@ -3575,14 +3586,14 @@ const DYNAMIK_VIDEOS = {
 };
 
 const DYNAMIK_TYPE_NAMES = {
-  1: "Typ 1 – Der Reformer",
-  2: "Typ 2 – Der Helfer",
-  3: "Typ 3 – Der Erfolgsmensch",
-  4: "Typ 4 – Der Individualist",
-  5: "Typ 5 – Der Denker",
-  6: "Typ 6 – Der Loyalist",
-  7: "Typ 7 – Der Enthusiast",
-  8: "Typ 8 – Der Herausforderer",
+  1: "Type 1 – The Reformer",
+  2: "Type 2 – The Helper",
+  3: "Type 3 – The Achiever",
+  4: "Type 4 – The Individualist",
+  5: "Type 5 – The Thinker",
+  6: "Type 6 – The Loyalist",
+  7: "Type 7 – The Enthusiast",
+  8: "Type 8 – The Challenger",
   9: "Typ 9 – Der Friedensstifter",
 };
 
@@ -3635,7 +3646,7 @@ function subtypePage(code) {
       <section class="narrow centered">
         <button class="ghost-link" data-route="knowledge">${sp.back}</button>
         <h1>${code.toUpperCase()}</h1>
-        <p class="lead-small">Für diesen Subtype ist noch keine Detailseite angelegt.</p>
+        <p class="lead-small">No detail page has been created for this subtype yet.</p>
       </section>
     `);
   }
@@ -3645,7 +3656,7 @@ function subtypePage(code) {
     ${pageHeader("knowledge")}
     <section class="subtype-hero" style="border-top:4px solid ${tc}">
       <button class="ghost-link" data-route="knowledge">${sp.back}</button>
-      <p class="eyebrow" style="color:${tc}">${entry.code} · ${text.knowledgeCard.animalPrefix} ${entry.animal}</p>
+      <p class="eyebrow" style="color:${tc}">${entry.code} · ${text.knowledgeCard.animalPrefix} ${entry.animal_en || entry.animal}</p>
       <h1 style="color:${tc}">${entry.title_en || entry.title}</h1>
       <p class="lead-small">${entry.coreSentence_en || entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
@@ -3656,7 +3667,7 @@ function subtypePage(code) {
       </div>
       <button class="ghost-link" data-tier-laut="${entry.animal}"
               style="margin-top:0.75rem; font-size:0.9rem; opacity:0.85;">
-        🔊 ${entry.animal}-Laut
+        🔊 ${entry.animal_en || entry.animal} call
       </button>
     </section>
     ${(details.meinKompass_en || details.meinKompass) ? meinKompassSection(details.meinKompass_en || details.meinKompass, sp) : ""}
@@ -37196,7 +37207,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v547';
+  const MY_VERSION = 'inhalt-v548';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
