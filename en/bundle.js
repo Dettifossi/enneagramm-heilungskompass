@@ -613,6 +613,7 @@ text.routes.dashboard.reflectToday = "Reflect today";
 text.routes.dashboard.viewPath = "View development path";
 text.routes.dashboard.chooseTool = "Choose a tool";
 text.routes.dashboard.checkKnowledge = "Explore knowledge base";
+text.routes.dashboard.organismQuestion = "Core Question";
 
 const CENTER_EN = {
   "Bauchzentrum": "Body Centre",
@@ -663,6 +664,44 @@ const TITLEALT_EN = {
   "Der Ehrgeizige": "The Ambitious One",
   "Der Anführer": "The Leader",
   "Der Vermittler": "The Mediator",
+};
+const DAILY_QUESTION_EN = {
+  "Wo versuchst du heute Sicherheit durch Kontrolle herzustellen?": "Where are you trying to create security through control today?",
+  "Wo darf ich heute unvollkommen und menschlich sein?": "Where am I allowed to be imperfect and human today?",
+  "Was brauche ich heute wirklich für mich?": "What do I really need for myself today?",
+  "Wer bin ich heute jenseits meiner Leistung?": "Who am I today beyond my performance?",
+  "Welche eine Sache möchte ich heute wirklich spüren?": "What one thing do I really want to feel today?",
+  "Was weiß ich schon genug, um heute anzufangen?": "What do I already know well enough to start today?",
+  "Was trägt mich, auch wenn ich nicht alles kontrolliere?": "What carries me, even when I cannot control everything?",
+  "Was wäre heute schon genug?": "What would already be enough today?",
+};
+const DAILY_STEP_EN = {
+  "Erkennen, dass dauerhafte Kontrolle und Selbstanspannung von Lebendigkeit trennen.": "Recognise that lasting control and self-tension separate you from vitality.",
+  "Erkennen, dass Pflichtgefühl und moralische Kontrolle vom Herzen entfernen können.": "Recognise that a sense of duty and moral control can distance you from your heart.",
+  "Erkennen, dass innere Intensität und ständige Verbesserung keinen inneren Frieden erzeugen.": "Recognise that inner intensity and constant improvement do not create inner peace.",
+  "Erkennen, dass ständiges Kümmern die eigenen Bedürfnisse unsichtbar macht.": "Recognise that constant caretaking renders your own needs invisible.",
+  "Erkennen, dass Anerkennung und Gebrauchtwerden nicht den inneren Wert bestimmen.": "Recognise that recognition and being needed do not determine your inner worth.",
+  "Erkennen, dass intensive Bindung und Verführung keine echte Selbstliebe ersetzen können.": "Recognise that intense bonding and seduction cannot replace genuine self-love.",
+  "Erkennen, dass ständiges Funktionieren von echten Gefühlen entfernt.": "Recognise that constant functioning distances you from genuine feelings.",
+  "Erkennen, dass Status und Anerkennung den inneren Wert nicht sichern können.": "Recognise that status and recognition cannot secure your inner worth.",
+  "Erkennen, dass Ausstrahlung und Bewunderung keine echte innere Nähe erzeugen.": "Recognise that radiance and admiration do not create genuine inner closeness.",
+  "Erkennen, dass stilles Leiden und Rückzug innere Schwere verstärken.": "Recognise that silent suffering and withdrawal intensify inner heaviness.",
+  "Erkennen, dass Vergleiche und Außenseitergefühle vom eigenen Wert trennen.": "Recognise that comparisons and feelings of being an outsider separate you from your own worth.",
+  "Erkennen, dass emotionale Intensität und Drama Sehnsucht nicht wirklich erfüllen.": "Recognise that emotional intensity and drama do not truly fulfil longing.",
+  "Erkennen, dass dauerhafter Rückzug und Distanz innerlich isolieren.": "Recognise that lasting withdrawal and distance lead to inner isolation.",
+  "Erkennen, dass Wissen und Beobachtung allein keine echte Teilhabe ersetzen.": "Recognise that knowledge and observation alone cannot replace genuine participation.",
+  "Erkennen, dass Sehnsucht und Idealisierung echte Nähe oft verhindern.": "Recognise that longing and idealisation often prevent genuine closeness.",
+  "Erkennen, dass ständige Vorsicht und Absicherung Angst nicht wirklich beruhigen.": "Recognise that constant caution and security-seeking do not truly calm fear.",
+  "Erkennen, dass Anpassung an Regeln und Autoritäten die eigene Orientierung schwächen kann.": "Recognise that adapting to rules and authorities can weaken your own inner guidance.",
+  "Erkennen, dass ständige Anpassung und Zugehörigkeit von der eigenen Position entfernen können.": "Recognise that constant adaptation and belonging-seeking can distance you from your own standpoint.",
+  "Erkennen, dass ständige Planung und Ablenkung vom gegenwärtigen Moment entfernen.": "Recognise that constant planning and distraction take you away from the present moment.",
+  "Erkennen, dass soziale Aktivität und ständige Möglichkeiten innerlich zerstreuen können.": "Recognise that social activity and constant possibilities can scatter you inwardly.",
+  "Erkennen, dass Intensität und Begeisterung innere Leere nicht dauerhaft überdecken können.": "Recognise that intensity and enthusiasm cannot permanently cover inner emptiness.",
+  "Erkennen, dass Kontrolle und Härte von der eigenen Verletzlichkeit abschneiden.": "Recognise that control and hardness cut you off from your own vulnerability.",
+  "Erkennen, dass Verantwortung und Kontrolle innerlich verhärten können.": "Recognise that responsibility and control can harden you inwardly.",
+  "Erkennen, dass Intensität und Konfrontation echte Nähe verhindern können.": "Recognise that intensity and confrontation can prevent genuine closeness.",
+  "Erkennen, dass Rückzug, Gewohnheit und innere Trägheit die Lebendigkeit blockieren.": "Recognise that withdrawal, habit, and inner inertia block vitality.",
+  "Sich selbst wieder wahrnehmen, statt sich im Anderen zu verlieren.": "Perceive yourself again, instead of losing yourself in the other.",
 };
 const ORGANISM_Q_EN = {
   "Wie kann ich richtig sein und Fehler vermeiden?": "How can I be right and avoid making mistakes?",
@@ -1900,8 +1939,8 @@ function dashboardPage() {
     </section>
     <section class="daily-grid">
       ${infoCard(copy.dailyImpulse, dailyPick(p.daily.impulse))}
-      ${infoCard(copy.reflectionQuestion, dailyPick(p.daily.question))}
-      ${infoCard(copy.nextStep, dailyPick(p.daily.step))}
+      ${infoCard(copy.reflectionQuestion, (DAILY_QUESTION_EN[p.daily.question] || p.daily.question))}
+      ${infoCard(copy.nextStep, (DAILY_STEP_EN[p.daily.step] || p.daily.step))}
     </section>
     <section class="quick-actions">
       <button class="primary" data-route="reflection">${copy.reflectToday}</button>
@@ -1929,7 +1968,7 @@ function reflectionPage() {
       <p class="eyebrow">${p.code} · ${copy.suffix}</p>
       <h1>${copy.headline}</h1>
       <label class="journal">
-        <span>${p.daily.question}</span>
+        <span>${DAILY_QUESTION_EN[p.daily.question] || p.daily.question}</span>
         <textarea id="journalText" rows="9" placeholder="${copy.placeholder}">${saved}</textarea>
       </label>
       <div class="form-row">
@@ -1938,7 +1977,7 @@ function reflectionPage() {
       </div>
       <div class="soft-note">
         <strong>${copy.smallStep}</strong>
-        <p>${p.daily.step}</p>
+        <p>${DAILY_STEP_EN[p.daily.step] || p.daily.step}</p>
       </div>
     </section>
   `);
@@ -37135,7 +37174,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v544';
+  const MY_VERSION = 'inhalt-v545';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
