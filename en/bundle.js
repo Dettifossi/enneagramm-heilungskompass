@@ -1701,9 +1701,9 @@ function startPage() {
               ["&#128101;","Relationships","Kindheit, Führung, Partnerschaft"],
               ["&#127807;","Remedies","Höm., Öle, Bachbl., Tee, Edelsteine"],
               ["&#127775;","Famous Personalities","59 Portraits aus Kultur, Musik & Gesellschaft"],
-              ["&#128444;","Charts","100+ farbige Übersichten"],
+              ["&#128444;","Charts","100+ colour overviews"],
               ["&#128269;","Kriminalfälle (Criminal Psychology)","72 psychologische Täterporträts"],
-              ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
+              ["&#127807;","Entwicklung","Healing path, exercises, questions"],
               ["&#127759;","Kultur & Lifestyle","Tiere, Natur, Lifestyle der 9 Typen"],
               ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
               ["&#129812;","Philosophie","Schopenhauer, Rumi, Logismoi"],
@@ -1954,7 +1954,7 @@ function toolDetailPage(slug) {
       hinweis: "Ideal in Stresssituationen, vor wichtigen Gesprächen oder als Abendritual."
     },
     "2-punkte-integration": {
-      intro: "Die Zwei-Punkte-Integration verbindet Körperbewusstsein mit Gegenwärtigkeit. Sie hilft dabei, Anspannung zu halten ohne zu kämpfen — bis der Körper von selbst mehr Raum findet.",
+      intro: "Two-Point Integration connects body awareness with presence. It helps hold tension without fighting it — until the body naturally finds more space.",
       steps: [
         "Legen Sie eine Hand auf Punkt 1, die andere auf Punkt 2 (siehe oben).",
         "Halten Sie beide Punkte gleichzeitig im Bewusstsein — wechseln Sie nicht zwischen ihnen.",
@@ -1965,7 +1965,7 @@ function toolDetailPage(slug) {
       hinweis: "Kein Kämpfen — nur Beobachten. Der Körper löst sich, wenn er beides gleichzeitig spüren darf."
     },
     "merksatz": {
-      intro: "Der Merksatz ist ein persönlicher Leitsatz, der den Wesenskern Ihres Subtypes in einem Satz zusammenfasst. Regelmäßig wiederholt, wirkt er wie ein innerer Kompass.",
+      intro: "The affirmation is a personal guiding sentence that captures the essential core of your subtype in one line. Repeated regularly, it works like an inner compass.",
       steps: [
         "Lesen Sie den Merksatz laut vor.",
         "Atmen Sie tief ein und sprechen Sie ihn dann langsam nochmals — als würden Sie ihn fühlen statt nur denken.",
@@ -1987,7 +1987,7 @@ function toolDetailPage(slug) {
       hinweis: "Diese Übung kann jederzeit und überall gemacht werden — auch im Sitzen."
     },
     "heilmittel-impuls": {
-      intro: "Der Remedies-Kompass übersetzt Ihr Subtype-Muster in ein heilkundliches Symbolfeld. Jedes Mittel spricht eine bestimmte Ebene an — körperlich, seelisch und energetisch.",
+      intro: "The Remedies Compass translates your subtype pattern into a healing symbol field. Each remedy addresses a specific level — physical, psychological, and energetic.",
       steps: [
         "Betrachten Sie das Schaubild oben: Welches Mittel zieht Ihre Aufmerksamkeit an?",
         "Lesen Sie die zugehörige Bedeutung — lassen Sie sie wirken, ohne sofort zu analysieren.",
@@ -1995,10 +1995,10 @@ function toolDetailPage(slug) {
         "Verwenden Sie es bewusst — mit dem Gedanken an Ihr Heilungsthema.",
         "Notieren Sie abends, was Sie bemerkt haben."
       ],
-      hinweis: "Remedies wirken unterstützend, ersetzen aber keine therapeutische Begleitung. Für eine individuelle Beratung steht Detlef Rathmer zur Verfügung."
+      hinweis: "Remedies are supportive and do not replace therapeutic guidance. Detlef Rathmer is available for individual consultations."
     },
     "stille-sitzen": {
-      intro: "Vollkommen still sitzen ist eine der wirkungsvollsten Übungen aus dem Enneagramm-Heilungsmodell. Der Körper zeigt seine eigene Intelligenz — wenn man aufhört, ihn zu steuern.",
+      intro: "Sitting completely still is one of the most effective practices in the Enneagram healing model. The body reveals its own intelligence — when you stop trying to control it.",
       steps: [
         "Setzen Sie sich aufrecht und bequem hin — Rücken gerade, Hände auf den Oberschenkeln.",
         "Close Sie die Augen. Lassen Sie alle Kontrolle los.",
@@ -2006,29 +2006,29 @@ function toolDetailPage(slug) {
         "Beobachten Sie, was der Körper von alleine tut: Atem, Spannung, Impulse.",
         "Open Sie danach die Augen. Bemerken Sie den Unterschied."
       ],
-      hinweis: "Wirkung und Ziel: Der Körper zeigt seine eigene Intelligenz. In dieser Zeit (nicht mehr!) kann sich Wesentliches offenbaren."
+      hinweis: "Effect and aim: The body reveals its own intelligence. In this time (no longer!) something essential may emerge."
     },
     "aromatherapie": {
-      intro: "Ätherische Öle sprechen das limbische System direkt an — sie wirken schneller als Worte. Das passende Öl für Ihren Subtype unterstützt die Themen, an denen Sie gerade arbeiten.",
+      intro: "Essential oils speak directly to the limbic system — they work faster than words. The right oil for your subtype supports the themes you are currently working on.",
       steps: [
-        "Open Sie das Fläschchen Ihres Subtype-Öls (siehe Schaubild oben).",
+        "Open the bottle of your subtype oil (see diagram above).",
         "Geben Sie einen Tropfen auf Ihre Handflächen und reiben Sie sie sanft aneinander.",
         "Halten Sie die Hände vor Nase und Mund — atmen Sie dreimal tief ein.",
         "Lassen Sie den Duft wirken, ohne ihn zu bewerten.",
         "Sprechen Sie dabei innerlich das Heilungsthema Ihres Subtypes aus."
       ],
-      hinweis: "Ätherische Öle immer verdünnt verwenden. Zur vollständigen Öl-Zuordnung aller 27 Subtypees → Öle-Seite in der App."
+      hinweis: "Always dilute essential oils before use. For the complete oil chart of all 27 subtypes → Oils page in the app."
     },
     "blickqualitaet": {
-      intro: "Die Blickqualität ist das sichtbarste Merkmal Ihres Enneagramm-Subtypes. Wer seinen eigenen Blick kennt, erkennt sein Muster — und kann bewusst eine andere Qualität wählen.",
+      intro: "Gaze quality is the most visible feature of your Enneagram subtype. Those who know their own gaze recognise their pattern — and can consciously choose a different quality.",
       steps: [
         "Betrachten Sie das Profil-Schaubild oben: Wie ist Ihr typischer Blick beschrieben?",
-        "Stellen Sie sich vor einen Spiegel oder schließen Sie die Augen und stellen Sie sich vor, wie Sie gerade schauen.",
+        "Stand in front of a mirror or close your eyes and imagine how you are looking right now.",
         "Bemerken Sie: Ist der Blick eher eng, weit, prüfend, suchend, weich, distanziert?",
         "Wählen Sie bewusst eine andere Blickqualität — einen Moment lang weich, offen, ruhig.",
         "Beobachten Sie, wie sich das auf Ihre innere Haltung auswirkt."
       ],
-      hinweis: "Blickqualität ist keine Technik — sie ist ein Spiegel. Wer seinen Blick verändert, verändert seinen inneren Zustand."
+      hinweis: "Gaze quality is not a technique — it is a mirror. Changing your gaze changes your inner state."
     }
   };
 
@@ -2232,7 +2232,7 @@ function tcmCard(tcm) {
     <article class="tcm-card" style="--tcm-element-color:${tcm.elementFarbe}">
       <div class="tcm-card__header">
         <span class="tcm-card__type">${tcm.typLabel}</span>
-        <button class="tcm-card__element-badge" data-tcm-element="${tcm.element}" title="Mehr über das ${tcm.element}-Element">${tcm.element} ↗</button>
+        <button class="tcm-card__element-badge" data-tcm-element="${tcm.element}" title="More on the ${tcm.element} element">${tcm.element} ↗</button>
       </div>
       <h3 class="tcm-card__meridian">${tcm.meridian}</h3>
       <div class="tcm-card__meta">
@@ -2727,7 +2727,7 @@ function _sucheResults(q) {
 
 function _sucheResultsHtml(res, q) {
   const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length;
-  if (total === 0) return `<p class="suche-hint">Keine Ergebnisse für „${q}“ gefunden.</p>`;
+  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${q}&rdquo;.</p>`;
 
   const hl = (txt) => {
     const i = txt.toLowerCase().indexOf(q.toLowerCase());
@@ -3130,10 +3130,10 @@ const _TQ_EMOJI = {
 };
 const _TQ_BESCHR = {
   SE1:"Der Adler fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Ruhig, präzise, mit einem inneren Kompass, der nicht schweigt.",
-  SO1:"Die Gans fliegt in Formation und sorgt dafür, dass alle Regeln stimmen. Gerecht, prinzipientreu, mit einem ausgeprägten Sinn für das Richtige.",
-  SX1:"Die Schwarze Mamba handelt schnell und präzise – sie duldet keine Kompromisse bei dem, was ihr wichtig ist. Leidenschaftlich und exakt zugleich.",
+  SO1:"The goose flies in formation, ensuring all the rules are right. Fair, principled, with a strong sense of what is correct.",
+  SX1:"The black mamba acts swiftly and precisely — tolerating no compromise on what matters to it. Passionate and exact in equal measure.",
   SE2:"Das Flusspferd ist wärmer als es aussieht – ruhig, gründend, zutiefst fürsorglich für den engen Kreis um es herum. Es braucht Vertrauen, bevor es sich zeigt.",
-  SO2:"Der Golden Retriever liebt unbedingt – und möchte, dass alle glücklich sind. Er ist der geborene Verbinder, immer bereit zu helfen.",
+  SO2:"The golden retriever loves unconditionally — and wants everyone to be happy. A natural connector, always ready to help.",
   SX2:"Das Kamel trägt, was andere nicht tragen würden – es gibt alles für den, dem es sich verbunden fühlt. Ausdauernd, treu, manchmal erschöpft.",
   SE3:"Der Waschbär ist clever, anpassungsfähig und immer auf der Search nach dem, was funktioniert. Pragmatisch und charmant, leise und effektiv.",
   SO3:"Der Gepard ist schnell, brillant und auf Erfolg ausgerichtet – mit einer natürlichen Eleganz im Umgang mit anderen. Er ist gern vorne.",
@@ -3141,11 +3141,11 @@ const _TQ_BESCHR = {
   SE4:"Die Taube trägt ihre Sehnsucht still – sie sucht Tiefe im Stillen und empfindet intensiver als sie zeigt. Sanft und verletzlich zugleich.",
   SO4:"Das Gürteltier trägt seinen Schmerz als Schutz – außen hart, innen empfindsam. Es sucht Zugehörigkeit und kämpft still um seinen Platz.",
   SX4:"Der Chihuahua ist klein und macht trotzdem auf sich aufmerksam – leidenschaftlich, intensiv, von tiefer Gefühlstiefe getrieben.",
-  SE5:"Die Eule beobachtet alles, bevor sie sich bewegt – sie denkt, analysiert und braucht Raum. Klug und zurückgezogen, mit einem inneren Reichtum an Wissen.",
+  SE5:"The owl observes everything before it moves — it thinks, analyses, and needs space. Wise and withdrawn, with an inner wealth of knowledge.",
   SO5:"Der Oktopus ist das intelligenteste wirbellose Tier der Erde – er denkt in Systemen, vernetzt still und agiert mit erstaunlicher Präzision.",
   SX5:"Der Igel schützt sich mit Stacheln und öffnet sich nur, wenn er vertraut. Intensiv in der Tiefe, aber nach außen kaum greifbar.",
   SE6:"Das Kaninchen ist wachsam, liebenswert und braucht sichere Strukturen. Es ist loyal zu denen, denen es vertraut – und vorsichtig gegenüber dem Unbekannten.",
-  SO6:"Das Erdmännchen hält Wache für die Gruppe – alert, kooperativ, immer darauf bedacht, dass alle sicher sind. Verlässlichkeit ist sein Lebensprinzip.",
+  SO6:"The meerkat keeps watch for the group — alert, cooperative, always ensuring everyone is safe. Reliability is its life principle.",
   SX6:"Der Wolf ist intensiv loyal – aber er prüft zuerst, ob er wirklich vertrauen kann. Stark in der Verbindung, mutig wenn er sich sicher fühlt.",
   SE7:"Der Gorilla ist stärker als er aussieht – verspielt, neugierig und voller Energie, wenn er seine Welt erkundet. Er genießt das Leben mit allen Sinnen.",
   SO7:"Der Biber baut, plant und gestaltet – er bringt seine Ideen in die Welt und liebt es, wenn alle davon profitieren. Pragmatisch und voller Ideen.",
@@ -3153,7 +3153,7 @@ const _TQ_BESCHR = {
   SE8:"Der Orang-Utan ist mächtig und unabhängig – er braucht niemanden, der ihm sagt, was er tun soll. In seinem Tempo, auf seinem Weg.",
   SO8:"Der Löwe führt und schützt – mit Kraft, Präsenz und dem natürlichen Anspruch, Verantwortung zu übernehmen. Er ist für seine Gruppe da.",
   SX8:"Das Krokodil ist still bis es handelt – und dann mit voller Kraft. Intensiv in der Verbindung, unerbittlich in der Verfolgung seiner Ziele.",
-  SE9:"Der Elefant vergisst nicht und bewegt sich in seinem eigenen Rhythmus – ruhig, gründend, mit einer Präsenz, die den Raum verändert.",
+  SE9:"The elephant never forgets and moves at its own pace — calm, grounding, with a presence that changes the room.",
   SO9:"Der Büffel läuft mit der Herde – beharrlich, verlässlich, mit einer stillen Kraft, die andere erst im Rückblick bemerken.",
   SX9:"Das Faultier spart Energie für das, was wirklich zählt – und wenn es sich verbindet, tut es das vollständig. Stille als Stärke."
 };
@@ -3203,7 +3203,7 @@ function tierquizPage() {
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(1)}
           <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">An einem freien Wochenende zieht es mich am ehesten…</h2>
-          ${_tqBtn("… in meine gewohnte Welt", "Zuhause, Routinen, mein eigener Raum – ich brauche Zeit für mich.", "window._tqA('SE')")}
+          ${_tqBtn("… into my familiar world", "Home, routines, my own space — I need time for myself.", "window._tqA('SE')")}
           ${_tqBtn("… zu Menschen", "Eine Gruppe, ein Event, gemeinsame Aktivitäten – das gibt mir Energie.", "window._tqA('SO')")}
           ${_tqBtn("… zu einer bestimmten Person", "Tiefe, intensive Verbindung mit jemandem, dem ich nahestehe.", "window._tqA('SX')")}
         </div></div>
@@ -3226,13 +3226,13 @@ function tierquizPage() {
   }
   if (s.step === 3) {
     const qMap = {
-      gut:  [["Ich stehe für mich ein und scheue keine direkte Konfrontation.","Stärke und Selbstbestimmung sind mein Grundmodus.","8"],
+      gut:  [["I stand up for myself and do not shy away from direct confrontation.","Strength and self-determination are my default mode.","8"],
               ["Ich suche inneren Frieden und vermeide Konflikte, wo es geht.","Harmonie und Ruhe sind das, wonach ich mich sehne.","9"],
               ["Ich habe hohe innere Maßstäbe und möchte Dinge wirklich richtig machen.","Qualität und Prinzipientreue liegen mir tief im Blut.","1"]],
-      heart:[["Für Menschen, die mir wichtig sind, gebe ich alles – oft mehr als für mich selbst.","Fürsorge und Nähe sind mein natürlicher Ausdruck.","2"],
+      heart:[["For people who matter to me, I give everything — often more than I give myself.","Care and closeness are my natural expression.","2"],
               ["Ich möchte etwas leisten und einen kompetenten, guten Eindruck machen.","Erfolg und Anerkennung motivieren mich.","3"],
               ["Ich suche das Echte und Tiefe – Oberflächlichkeit langweilt mich schnell.","Sehnsucht nach dem Besonderen und nach echtem Verständnis.","4"]],
-      head: [["Ich beobachte lieber, bevor ich handle, und brauche viel eigenen Raum.","Wissen und Rückzug geben mir Kraft.","5"],
+      head: [["I prefer to observe before acting and need a lot of personal space.","Knowledge and withdrawal give me strength.","5"],
               ["Ich frage mich oft, ob ich vertrauen kann und ob ich der Situation gewachsen bin.","Sicherheit und Loyalität sind für mich existenziell.","6"],
               ["Ich mag Abwechslung, neue Ideen und will mich nicht festlegen müssen.","Freiheit und Möglichkeiten halten mich lebendig.","7"]]
     };
@@ -3290,7 +3290,7 @@ function tierquizPage() {
             </ul>
             <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
           </div>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="#" data-route="diagnosetest" style="color:var(--gold);">free diagnosis test</a>.</p>
         </div>
       </div>
     </div>
@@ -4336,8 +4336,8 @@ function profilePage() {
   const allCodes = Object.keys(subtypeProfiles);
   const sortBy = (order) => (a, b) => order.indexOf(parseInt(a[2])) - order.indexOf(parseInt(b[2]));
   const groups = [
-    { label: "Bauchzentrum · Typ 8, 9, 1", hint: "Handlung, Instinkt, Körper",   codes: allCodes.filter(c => [8,9,1].includes(parseInt(c[2]))).sort(sortBy([8,9,1])) },
-    { label: "Herzzentrum · Typ 2, 3, 4",  hint: "Gefühl, Beziehung, Identität", codes: allCodes.filter(c => [2,3,4].includes(parseInt(c[2]))).sort(sortBy([2,3,4])) },
+    { label: "Body Centre · Type 8, 9, 1", hint: "Action, instinct, body",   codes: allCodes.filter(c => [8,9,1].includes(parseInt(c[2]))).sort(sortBy([8,9,1])) },
+    { label: "Heart Centre · Type 2, 3, 4", hint: "Feeling, relationship, identity", codes: allCodes.filter(c => [2,3,4].includes(parseInt(c[2]))).sort(sortBy([2,3,4])) },
     { label: "Kopfzentrum · Typ 5, 6, 7",  hint: "Denken, Sicherheit, Vorstellung", codes: allCodes.filter(c => [5,6,7].includes(parseInt(c[2]))).sort(sortBy([5,6,7])) },
   ];
   const current = state.profile.id;
@@ -4472,7 +4472,7 @@ function bindEvents() {
   const _clearBtn = document.getElementById('fav-clear-btn');
   if (_clearBtn) {
     _clearBtn.addEventListener('click', () => {
-      if (confirm('Alle Favorites löschen?')) { _setFavs([]); render(); }
+      if (confirm('Delete all favourites?')) { _setFavs([]); render(); }
     });
   }
   // Favorites – Listeneinträge
@@ -4852,8 +4852,8 @@ function bindEvents() {
             </div>
             <div style="background:var(--surface,#f9f6f0);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1.25rem;text-align:left;">
               <p style="font-weight:700;font-size:.95rem;margin-bottom:.6rem;color:var(--ink);">📱 App auf den Homescreen legen</p>
-              <p style="font-size:.88rem;line-height:1.65;margin-bottom:.7rem;color:var(--ink);"><strong>iPhone / iPad (Safari):</strong><br>Tippen Sie unten auf das Teilen-Symbol <span style="font-size:1rem;">⬆</span> und wählen Sie <em>„Zum Home-Bildschirm"</em>. Dann können Sie die App wie eine normale App öffnen.</p>
-              <p style="font-size:.88rem;line-height:1.65;margin:0;color:var(--ink);"><strong>Android (Chrome):</strong><br>Tippen Sie oben auf das Menü <span style="font-size:1rem;">⋮</span> und wählen Sie <em>„Zum Startbildschirm hinzufügen"</em>.</p>
+              <p style="font-size:.88rem;line-height:1.65;margin-bottom:.7rem;color:var(--ink);"><strong>iPhone / iPad (Safari):</strong><br>Tap the share icon <span style="font-size:1rem;">⬆</span> at the bottom and choose <em>"Add to Home Screen"</em>. You can then open the app like any normal app.</p>
+              <p style="font-size:.88rem;line-height:1.65;margin:0;color:var(--ink);"><strong>Android (Chrome):</strong><br>Tap the menu <span style="font-size:1rem;">⋮</span> at the top and choose <em>"Add to Home Screen"</em>.</p>
             </div>
             <button class="primary" style="width:100%;font-size:1rem;" id="unlockNext">Jetzt loslegen →</button>
           `;
@@ -4862,7 +4862,7 @@ function bindEvents() {
           go("start");
         }
       } else {
-        msg.textContent = "Ungültiger Code. Bitte prüfen Sie die Bestätigungs-E-Mail von Stripe.";
+        msg.textContent = "Invalid code. Please check the confirmation email from Stripe.";
         msg.style.color = "var(--copper)";
       }
     };
@@ -5740,7 +5740,7 @@ function lebensgluckPage() {
       ${relatedLinks([
         {route:"intrinsisches-verlangen", label:"Intrinsisches Verlangen"},
         {route:"frustrationen", label:"Frustrationen"},
-        {route:"frieden-schliessen", label:"Frieden schließen"},
+        {route:"frieden-schliessen", label:"Making Peace"},
       ])}
     </section>
   `);
@@ -5964,7 +5964,7 @@ function schutzdefizitePage() {
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Der Typ ist Schutz, nicht Identität</h2>
         <img
           src="${CDN}assets/schutz.jpg"
-          alt="Der Typ ist Schutz, nicht Identität. Muster entstehen dort, wo Freiheit einst verletzt wurde."
+          alt="Type is protection, not identity. Patterns arise where freedom was once wounded."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">Dieser Satz trifft den Kern dessen, was Schutz-Defizite eigentlich sind. Der Enneagrammtyp ist keine Charaktereigenschaft, die man hat wie eine Haarfarbe. Er ist eine Reaktion &ndash; eine früh entwickelte Strategie, um mit einer Welt umzugehen, die sich an einem entscheidenden Punkt nicht sicher angefühlt hat.</p>
@@ -6055,23 +6055,23 @@ function spirituelleUebungenPage() {
 
 const PORTRAIT_TYPEN = [
   { nr: 1, name: "Der Reformer",        subtypen: "SE1 · SO1 · SX1", start: 1,  farbe: "#7a7a7a",
-    intro: "Der Typ 1 trägt das Prinzip der Perfektion in sich — einen inneren Richter, der unablässig prüft, bewertet und verbessert. Diese Seiten zeigen alle drei Subtypees: der selbsterhaltende Einser (SE1) kämpft um Selbstbeherrschung und Kontrolle, der soziale Einser (SO1) wird zum Lehrer und Vorbild, der sexuelle Einser (SX1) trägt seine Reform in Relationships und die Welt hinaus." },
+    intro: "Type 1 carries the principle of perfection — an inner judge that ceaselessly checks, evaluates, and corrects. These pages show all three subtypes: the self-preservation One (SP1) fights for self-control, the social One (SO1) becomes teacher and role model, the sexual One (SX1) carries reform into relationships and the world." },
   { nr: 2, name: "Der Helfer",           subtypen: "SE2 · SO2 · SX2", start: 9,  farbe: "#8b3a8b",
-    intro: "Der Typ 2 lebt aus dem Impuls der Liebe — einem tiefen Bedürfnis zu geben, gebraucht zu werden und zu verbinden. Der selbsterhaltende Zweier (SE2) zeigt seine Hilflosigkeit nach außen, der soziale Zweier (SO2) wird zur Verführerin in Gruppen, der sexuelle Zweier (SX2) überflutet einzelne Menschen mit Wärme und Aufmerksamkeit." },
+    intro: "Type 2 lives from the impulse of love — a deep need to give, to be needed, and to connect. The self-preservation Two (SP2) expresses helplessness outwardly, the social Two (SO2) becomes the seducer in groups, the sexual Two (SX2) floods individuals with warmth and attention." },
   { nr: 3, name: "Der Macher",           subtypen: "SE3 · SO3 · SX3", start: 17, farbe: "#009b9b",
-    intro: "Der Typ 3 ist der Archetyp des Erfolgs — schillernd, effizient, imageorientiert. Der selbsterhaltende Dreier (SE3) schafft Sicherheit durch stille Leistung, der soziale Dreier (SO3) sucht öffentliche Anerkennung, der sexuelle Dreier (SX3) bezaubert als charismatischer Verführer." },
+    intro: "Type 3 is the archetype of success — brilliant, efficient, image-conscious. The self-preservation Three (SP3) creates security through quiet achievement, the social Three (SO3) seeks public recognition, the sexual Three (SX3) enchants as a charismatic seducer." },
   { nr: 4, name: "Der Individualist",    subtypen: "SE4 · SO4 · SX4", start: 25, farbe: "#1a5c1a",
-    intro: "Der Typ 4 trägt die Sehnsucht nach dem Besonderen — und den Schmerz des Andersseins. Der selbsterhaltende Vierer (SE4) leidet still und kompensiert durch Ausdauer, der soziale Vierer (SO4) zeigt seinen Schmerz und sucht Mitgefühl, der sexuelle Vierer (SX4) kämpft um Intensität und projiziert seinen Mangel auf andere." },
+    intro: "Type 4 carries the longing for the unique — and the pain of being different. The self-preservation Four (SP4) suffers quietly and compensates through endurance, the social Four (SO4) displays pain and seeks compassion, the sexual Four (SX4) fights for intensity and projects its lack onto others." },
   { nr: 5, name: "Der Beobachter",       subtypen: "SE5 · SO5 · SX5", start: 33, farbe: "#1a3a8b",
-    intro: "Der Typ 5 zieht sich zurück, um zu verstehen — Wissen ist sein Schutzwall gegen eine Welt, die zu viel fordert. Der selbsterhaltende Fünfer (SE5) baut sich einen privaten Rückzugsraum, der soziale Fünfer (SO5) sucht den Zugang zur Welt über Ideen und Systeme, der sexuelle Fünfer (SX5) verbindet sich tief — aber nur mit einem einzigen Menschen." },
+    intro: "Type 5 withdraws in order to understand — knowledge is its shield against a world that demands too much. The self-preservation Five (SP5) builds a private retreat, the social Five (SO5) accesses the world through ideas and systems, the sexual Five (SX5) connects deeply — but only with one single person." },
   { nr: 6, name: "Der Loyale",           subtypen: "SE6 · SO6 · SX6", start: 41, farbe: "#8b6914",
-    intro: "Der Typ 6 ist der Hüter der Gemeinschaft — loyal, wachsam, zutiefst auf Sicherheit bedacht. Der selbsterhaltende Sechser (SE6) sucht Schutz in Vertrauen und Nähe (phobisch), der soziale Sechser (SO6) folgt Regeln und Autoritäten, der sexuelle Sechser (SX6) bekämpft die Angst durch Stärke und Provokation (kontraphobisch)." },
+    intro: "Type 6 is the guardian of community — loyal, vigilant, deeply concerned with safety. The self-preservation Six (SP6) seeks protection in trust and closeness (phobic), the social Six (SO6) follows rules and authorities, the sexual Six (SX6) fights fear through strength and provocation (counterphobic)." },
   { nr: 7, name: "Der Enthusiast",       subtypen: "SE7 · SO7 · SX7", start: 49, farbe: "#c17f00",
-    intro: "Der Typ 7 ist die Energie der Freude — immer auf der Search nach dem nächsten Erlebnis, dem nächsten Plan, der nächsten Möglichkeit. Der selbsterhaltende Siebener (SE7) sichert sich durch Netzwerke ab, der soziale Siebener (SO7) opfert sich im Dienst an anderen, der sexuelle Siebener (SX7) sucht Ideale und Visionen, die ihn begeistern." },
+    intro: "Type 7 is the energy of joy — always seeking the next experience, the next plan, the next possibility. The self-preservation Seven (SP7) secures itself through networks, the social Seven (SO7) sacrifices itself in service to others, the sexual Seven (SX7) seeks ideals and visions that inspire." },
   { nr: 8, name: "Der Herausforderer",   subtypen: "SE8 · SO8 · SX8", start: 57, farbe: "#8b1a1a",
-    intro: "Der Typ 8 trägt Macht, Stärke und ungebrochene Lebendigkeit in sich — er schützt die Schwachen und duldet keine Kontrolle von außen. Der selbsterhaltende Achter (SE8) kontrolliert Territorium und Ressourcen, der soziale Achter (SO8) kämpft für Gerechtigkeit und seine Gruppe, der sexuelle Achter (SX8) sucht intensive Verbindung und provoziert ohne Scheu." },
+    intro: "Type 8 carries power, strength, and unbroken vitality — protecting the vulnerable and tolerating no outside control. The self-preservation Eight (SP8) controls territory and resources, the social Eight (SO8) fights for justice and its group, the sexual Eight (SX8) seeks intense connection and provokes without hesitation." },
   { nr: 9, name: "Der Friedensstifter",  subtypen: "SE9 · SO9 · SX9", start: 65, farbe: "#2e6b2e",
-    intro: "Der Typ 9 trägt das Prinzip des Friedens — eine tiefe Sehnsucht nach Harmonie, Einheit und dem Verschmelzen aller Widersprüche. Der selbsterhaltende Neuner (SE9) findet seinen Frieden in kleinen Ritualen und Trost, der soziale Neuner (SO9) geht in der Gruppe auf, der sexuelle Neuner (SX9) verschmilzt mit anderen Menschen oder Ideen." },
+    intro: "Type 9 carries the principle of peace — a deep longing for harmony, unity, and the merging of all contradictions. The self-preservation Nine (SP9) finds peace in small rituals and comfort, the social Nine (SO9) merges into the group, the sexual Nine (SX9) fuses with other people or ideas." },
 ];
 
 function _portraitTypPage(typ) {
@@ -37068,7 +37068,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v541';
+  const MY_VERSION = 'inhalt-v542';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
