@@ -40347,6 +40347,7 @@ function subtypeSchaubilderPage() {
     window.scrollTo(0, 0);
     // Freischalt-Direktroute (von Nav-Schloss oder Link)
     if (base === "freischalt") {
+      if (hasHeilwissen()) { go("start"); return; }
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -40526,7 +40527,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v568';
+  const MY_VERSION = 'inhalt-v569';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
