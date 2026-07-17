@@ -1283,24 +1283,34 @@ window._adminFreigeben = function(index) {
       const review = wartend[index];
       if (!review) return;
       wartend.splice(index, 1);
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
-        headers: { 'X-Master-Key': JSONBIN_KEY } })
-        .then(function(r){ return r.json(); })
-        .then(function(fd) {
-          const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
-          freigegeben.push(review);
-          return Promise.all([
-            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-              body: JSON.stringify({ reviews: wartend }) }),
-            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
-              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-              body: JSON.stringify({ reviews: freigegeben }) })
-          ]);
-        });
+      const textToTranslate = review.text || '';
+      const translatePromise = textToTranslate
+        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate) + '&langpair=de|en')
+            .then(function(r){ return r.json(); })
+            .then(function(t){ return (t.responseData && t.responseData.translatedText) || null; })
+            .catch(function(){ return null; })
+        : Promise.resolve(null);
+      return translatePromise.then(function(text_en) {
+        if (text_en) review.text_en = text_en;
+        return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
+          headers: { 'X-Master-Key': JSONBIN_KEY } })
+          .then(function(r){ return r.json(); })
+          .then(function(fd) {
+            const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
+            freigegeben.push(review);
+            return Promise.all([
+              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+                body: JSON.stringify({ reviews: wartend }) }),
+              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
+                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+                body: JSON.stringify({ reviews: freigegeben }) })
+            ]);
+          });
+      });
     })
-    .then(function() { _adminLaden(); })
-    .catch(function() { alert('Fehler beim Freigeben.'); });
+    .then(function() { _adminLoading(); })
+    .catch(function() { alert('Error beim Freigeben.'); });
 };
 
 window._adminLoeschen = function(index) {
@@ -1331,9 +1341,11 @@ function _bewertungSterneInit() {
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
+        const meta = [b.name, b.land ? b.land : null].filter(Boolean).join(' · ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
+          (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
           '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + (b.text || '') + '</p>' +
           '</div>';
@@ -1362,34 +1374,39 @@ function _bewertungSterneInit() {
 function _bewertungSenden() {
   const btn = document.getElementById('bwrt-senden');
   const sterne = parseInt(btn.dataset.sterne || '0');
-  const text = document.getElementById('bwrt-text').value.trim();
-  const nameRaw = (document.getElementById('bwrt-name').value.trim()) || '';
+  const reviewText = document.getElementById('bwrt-text').value.trim();
+  const nameVal = (document.getElementById('bwrt-name') || {value:''}).value.trim();
   if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
     '<div style="font-size:2.5rem;margin-bottom:0.6rem;">' + sternText + '</div>' +
-    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
-    '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
+    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank f\xfcr Ihre Bewertung!</p>' +
+    '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird gepr\xfcft und bald hier ver\xf6ffentlicht.</p>' +
     '</div>';
-  const nameVal = (function(n) {
-    if (!n) return '';
-    var parts = n.split(/\s+/);
-    if (parts.length === 1) return parts[0];
-    return parts[0] + ' ' + parts[parts.length - 1][0].toUpperCase() + '.';
-  })(nameRaw);
-  const review = { sterne: sterne, text: text, datum: new Date().toISOString(), ...(nameVal ? { name: nameVal } : {}) };
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
+  fetch('https://ipapi.co/json/')
     .then(function(r){ return r.json(); })
-    .then(function(data) {
-      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
-      liste.push(review);
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-        body: JSON.stringify({ reviews: liste })
-      });
+    .catch(function(){ return {}; })
+    .then(function(geo) {
+      const review = {
+        sterne: sterne,
+        text: reviewText,
+        name: nameVal || null,
+        land: geo.country_name || null,
+        datum: new Date().toISOString()
+      };
+      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
+        headers: { 'X-Master-Key': JSONBIN_KEY } })
+        .then(function(r){ return r.json(); })
+        .then(function(data) {
+          const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+          liste.push(review);
+          return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+            body: JSON.stringify({ reviews: liste })
+          });
+        });
     })
     .catch(function() {});
 }
@@ -1606,6 +1623,10 @@ function startPage() {
           style="width:100%;border:1px solid var(--border);border-radius:8px;
                  padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
                  color:var(--ink);box-sizing:border-box;margin-bottom:0.6rem;" />
+        <input id="bwrt-name" type="text" placeholder="Dein Name (optional) – z.B. Thomas S."
+          style="width:100%;border:1px solid var(--border);border-radius:8px;
+                 padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
+                 color:var(--ink);box-sizing:border-box;margin-bottom:0.5rem;" />
         <textarea id="bwrt-text" placeholder="Dein Kommentar (optional)..."
           style="width:100%;min-height:80px;border:1px solid var(--border);border-radius:8px;
                  padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
@@ -36993,7 +37014,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v568';
+  const MY_VERSION = 'inhalt-v569';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

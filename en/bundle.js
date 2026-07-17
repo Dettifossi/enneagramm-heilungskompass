@@ -1409,21 +1409,32 @@ window._adminFreigeben = function(index) {
       const review = wartend[index];
       if (!review) return;
       wartend.splice(index, 1);
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
-        headers: { 'X-Master-Key': JSONBIN_KEY } })
-        .then(function(r){ return r.json(); })
-        .then(function(fd) {
-          const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
-          freigegeben.push(review);
-          return Promise.all([
-            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-              body: JSON.stringify({ reviews: wartend }) }),
-            fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
-              method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-              body: JSON.stringify({ reviews: freigegeben }) })
-          ]);
-        });
+      // Auto-translate text to English via MyMemory (free, no key needed)
+      const textToTranslate = review.text || '';
+      const translatePromise = textToTranslate
+        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate) + '&langpair=de|en')
+            .then(function(r){ return r.json(); })
+            .then(function(t){ return (t.responseData && t.responseData.translatedText) || null; })
+            .catch(function(){ return null; })
+        : Promise.resolve(null);
+      return translatePromise.then(function(text_en) {
+        if (text_en) review.text_en = text_en;
+        return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
+          headers: { 'X-Master-Key': JSONBIN_KEY } })
+          .then(function(r){ return r.json(); })
+          .then(function(fd) {
+            const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
+            freigegeben.push(review);
+            return Promise.all([
+              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+                body: JSON.stringify({ reviews: wartend }) }),
+              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
+                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+                body: JSON.stringify({ reviews: freigegeben }) })
+            ]);
+          });
+      });
     })
     .then(function() { _adminLoading(); })
     .catch(function() { alert('Error beim Freigeben.'); });
@@ -1456,12 +1467,17 @@ function _bewertungSterneInit() {
       const section = document.getElementById('community-bewertungen');
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
+      // Determine if we're on EN page
+      const isEN = location.pathname.startsWith('/en');
       container.innerHTML = liste.map(function(b) {
+        const displayText = isEN && b.text_en ? b.text_en : (b.text || '');
+        const meta = [b.name, b.land ? b.land : null].filter(Boolean).join(' · ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
+          (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
-          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + (b.text || '') + '</p>' +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + displayText + '</p>' +
           '</div>';
       }).join('');
       section.style.display = 'block';
@@ -1488,27 +1504,40 @@ function _bewertungSterneInit() {
 function _bewertungSenden() {
   const btn = document.getElementById('bwrt-senden');
   const sterne = parseInt(btn.dataset.sterne || '0');
-  const text = document.getElementById('bwrt-text').value.trim();
-  if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
+  const reviewText = document.getElementById('bwrt-text').value.trim();
+  const nameVal = (document.getElementById('bwrt-name') || {value:''}).value.trim();
+  if (!sterne) { alert('Please click stars first.'); return; }
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
     '<div style="font-size:2.5rem;margin-bottom:0.6rem;">' + sternText + '</div>' +
-    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Herzlichen Dank für Ihre Bewertung!</p>' +
-    '<p style="font-size:0.88rem;color:var(--muted);margin:0;">Sie wird geprüft und bald hier veröffentlicht.</p>' +
+    '<p style="font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 0.4rem;">Thank you for your review!</p>' +
+    '<p style="font-size:0.88rem;color:var(--muted);margin:0;">It will be reviewed and published soon.</p>' +
     '</div>';
-  const review = { sterne: sterne, text: text, datum: new Date().toISOString() };
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
+  // Auto-detect country via free IP geolocation
+  fetch('https://ipapi.co/json/')
     .then(function(r){ return r.json(); })
-    .then(function(data) {
-      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
-      liste.push(review);
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-        body: JSON.stringify({ reviews: liste })
-      });
+    .catch(function(){ return {}; })
+    .then(function(geo) {
+      const review = {
+        sterne: sterne,
+        text: reviewText,
+        name: nameVal || null,
+        land: geo.country_name || null,
+        datum: new Date().toISOString()
+      };
+      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
+        headers: { 'X-Master-Key': JSONBIN_KEY } })
+        .then(function(r){ return r.json(); })
+        .then(function(data) {
+          const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+          liste.push(review);
+          return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+            body: JSON.stringify({ reviews: liste })
+          });
+        });
     })
     .catch(function() {});
 }
@@ -1715,13 +1744,17 @@ function startPage() {
 
     ${hasHeilwissen() ? `
     <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Den Kompass bewerten</h2>
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Rate the Compass</h2>
       <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem;">How do you like the Healing Compass? Your rating helps others find their way.</p>
       <div id="bwrt-form" style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.2rem;">
         <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
           ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
         </div>
-        <textarea id="bwrt-text" placeholder="Dein Kommentar (optional)..."
+        <input id="bwrt-name" type="text" placeholder="Your name (optional) – e.g. Thomas S."
+          style="width:100%;border:1px solid var(--border);border-radius:8px;
+                 padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
+                 color:var(--ink);box-sizing:border-box;margin-bottom:0.5rem;" />
+        <textarea id="bwrt-text" placeholder="Your comment (optional)..."
           style="width:100%;min-height:80px;border:1px solid var(--border);border-radius:8px;
                  padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
                  color:var(--ink);resize:vertical;box-sizing:border-box;"></textarea>
@@ -37022,7 +37055,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v536';
+  const MY_VERSION = 'inhalt-v537';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
