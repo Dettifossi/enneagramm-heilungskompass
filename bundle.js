@@ -3567,7 +3567,7 @@ function subtypePage(code) {
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">
-      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `Die vollständige Einzelstudie zu ${entry.code} &ndash; ${entry.title}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${entry.code}: ${entry.title}`)}
+      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `Die vollständige Einzelstudie zur ${entry.code} &ndash; ${entry.title}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${entry.code}: ${entry.title}`)}
     </section>
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
@@ -6082,7 +6082,7 @@ function _portraitTypPage(typ) {
       <p style="font-size:0.88rem;color:var(--copper);margin-bottom:0.3rem;">${typ.subtypen}</p>
       <p class="lead-small">${typ.intro}</p>
       <div style="margin-top:1.5rem;">${bilder}</div>
-      ${["se","so","sx"].map(pr => bookTip(`einzelstudie-${pr}${typ.nr}`, `Die vollständige Einzelstudie zu ${pr.toUpperCase()}${typ.nr} &ndash; ${typ.name}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${pr.toUpperCase()}${typ.nr}: ${typ.name}`)).join("")}
+      ${["se","so","sx"].map(pr => bookTip(`einzelstudie-${pr}${typ.nr}`, `Die vollständige Einzelstudie zur ${pr.toUpperCase()}${typ.nr} &ndash; ${typ.name}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${pr.toUpperCase()}${typ.nr}: ${typ.name}`)).join("")}
       ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks(related)}
     </section>
@@ -37030,7 +37030,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v573';
+  const MY_VERSION = 'inhalt-v574';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
