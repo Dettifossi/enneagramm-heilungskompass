@@ -1075,7 +1075,7 @@ function inhaltsübersichtPage() {
           <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
             Not sure yet? <button data-route="tierquiz"
               style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">
-              &#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest
+              &#129471; Which Animal Am I? &ndash; Free Quick Quiz
             </button>
           </p>
         </div>
@@ -1205,7 +1205,7 @@ function leseprobePage() {
           </div>
         </div>
         <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Der SE1er ist von allen Einser-Varianten am st\xe4rksten auf Perfektion im pers\xf6nlichen Alltag ausgerichtet. Er kontrolliert, ordnet und verfeinert &ndash; nicht um anderen zu imponieren, sondern weil Unvollkommenheit innerlich unertr\xe4glich wirkt. Sein Zorn ist still, sein Anspr\xfcch an sich selbst enorm.</p>
-        <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; das vollst\xe4ndige Portrait enth\xe4lt: Ur-Wunde &middot; Leidenschaft &middot; Heilungsweg &middot; \xc4therisches \xd6l &middot; Hom\xf6opathisches Mittel &middot; Affirmation &middot; Entwicklungsimpuls</p>
+        <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; das vollst\xe4ndige Portrait includes: Core Wound &middot; Passion &middot; Healing Path &middot; Essential Oil &middot; Homeopathic Remedy &middot; Affirmation &middot; Growth Impulse</p>
       </div>
       <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SE1-Portrait ansehen &#8594;</button>
 
@@ -1266,7 +1266,7 @@ function leseprobePage() {
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Charts &middot; Alle 27 Subtype-Portraits &middot; Subtypespezifische Remedies & Natural Healing</p>
         <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Jetzt freischalten &#8594;</button>
-        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Not sure yet? <button data-route="tierquiz" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">&#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest</button></p>
+        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Not sure yet? <button data-route="tierquiz" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">&#129471; Which Animal Am I? &ndash; Free Quick Quiz</button></p>
       </div>
 
     </div>
@@ -1590,9 +1590,9 @@ function startPage() {
         <p class="start-path__body">For an accurate type determination, we recommend one of the two tests or a personal typing consultation.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
-            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
+            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Which Animal Am I?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Questions &middot; 1 Minute &middot; Free</span></button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
-              <span class="start-path__test-label">Diagnose-Test</span>
+              <span class="start-path__test-label">Diagnosis Test</span>
               <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest" : "freischalt/basis"}">
@@ -1604,7 +1604,7 @@ function startPage() {
               <span class="start-path__test-sub">100 Fragen · Schwerpunkt Motivation</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "bewusstseinstest" : "freischalt/heilwissen"}">
-              <span class="start-path__test-label">Bewusstseinsgrad-Selbsttest${hasHeilwissen() ? "" : " 🔒"}</span>
+              <span class="start-path__test-label">Consciousness Level Self-Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Wo stehe ich gerade? · Spiegel für Fortgeschrittene</span>
             </button>
           </div>
@@ -1613,11 +1613,11 @@ function startPage() {
           <div class="start-path__berater-card">
             <strong class="start-path__berater-name">Detlef Rathmer</strong>
             <ul class="start-path__berater-list">
-              <li>Therapeut</li>
-              <li>Enneagramm-Typisierung</li>
-              <li>Bewusstseins-<br>entwicklung</li>
+              <li>Therapist</li>
+              <li>Enneagram Typing</li>
+              <li>Consciousness<br>Development</li>
             </ul>
-            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer → psychologische-homoeopathie.de</a>
+            <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
@@ -1627,10 +1627,10 @@ function startPage() {
             <strong class="start-path__berater-name">David L. Rathmer</strong>
             <ul class="start-path__berater-list">
               <li>Enneagram Profiling</li>
-              <li>Enneagramm-Typisierung</li>
+              <li>Enneagram Typing</li>
               <li>Ennea Scholars</li>
             </ul>
-            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling für Führungskräfte &amp; Unternehmen → enneascholars.de</a>
+            <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
@@ -1646,7 +1646,7 @@ function startPage() {
                         background:var(--ivory);list-style:none;user-select:none;font-weight:700;
                         font-size:0.95rem;color:var(--ink);">
           <span style="font-size:1.2rem;">&#9672;</span>
-          <span style="flex:1;">Der Kompass im Überblick</span>
+          <span style="flex:1;">The Compass at a Glance</span>
           <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
         </summary>
         <div style="padding:1rem 1.2rem 1.2rem;background:#fff;border-top:1px solid var(--border);">
@@ -1687,12 +1687,12 @@ function startPage() {
     </section>
 
     <section class="start-steps">
-      <p class="start-steps__label">So funktioniert der Kompass</p>
+      <p class="start-steps__label">How the Compass Works</p>
       <div class="start-steps__grid">
         <div class="start-step">
           <span class="start-step__num">1</span>
-          <h3 class="start-step__title">Typ & Subtype bestimmen</h3>
-          <p class="start-step__body">Ermitteln Sie Ihren Enneagrammtyp und Subtype — über den Typentest, die Wissensbasis oder eine Beratung.</p>
+          <h3 class="start-step__title">Determine Type & Subtype</h3>
+          <p class="start-step__body">Determine your Enneagram type and subtype — via the type test, the knowledge base, or a personal consultation.</p>
         </div>
         <div class="start-step">
           <span class="start-step__num">2</span>
@@ -1701,15 +1701,15 @@ function startPage() {
         </div>
         <div class="start-step">
           <span class="start-step__num">3</span>
-          <h3 class="start-step__title">Heilung vertiefen</h3>
-          <p class="start-step__body">Nutzen Sie den Remedies-Kompass, ätherische Öle und bei Bedarf eine persönliche Begleitung durch Detlef Rathmer.</p>
+          <h3 class="start-step__title">Deepen Healing</h3>
+          <p class="start-step__body">Use the Remedies Compass, essential oils, and if needed, personal guidance from Detlef Rathmer.</p>
         </div>
       </div>
     </section>
 
     <section class="model-credit">
-      <p class="model-credit__label">Hinter dem Modell</p>
-      <p class="model-credit__text">Der Enneagramm-Kompass beruht auf der über Jahre gemeinsam entwickelten Arbeit von <strong>Detlef Rathmer</strong> (Therapie &amp; Heilung) und <strong>David L. Rathmer</strong> (Enneagram Profiling für Führungskräfte &amp; Unternehmen).</p>
+      <p class="model-credit__label">Behind the Model</p>
+      <p class="model-credit__text">The Enneagram Healing Compass is based on the jointly developed work of <strong>Detlef Rathmer</strong> (therapy &amp; healing) and <strong>David L. Rathmer</strong> (Enneagram Profiling for executives &amp; organizations).</p>
       <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Mehr zu Davids Arbeit → enneascholars.de</a>
     </section>
 
@@ -1729,16 +1729,16 @@ function startPage() {
           style="margin-top:0.8rem;background:var(--gold);color:var(--anthracite,#2c2c2c);
                  border:none;border-radius:8px;padding:0.6rem 1.4rem;
                  font-size:0.9rem;font-weight:700;cursor:pointer;">
-          Bewertung absenden
+          Submit Review
         </button>
         <p id="bwrt-danke" style="display:none;color:var(--copper);font-size:0.88rem;margin-top:0.8rem;font-weight:600;">
-          &#10003; Danke für Deine Bewertung! Sie wird nach Prüfung freigeschaltet.
+          &#10003; Thank you for your review! It will be published after review.
         </p>
       </div>
     </section>` : ''}
 
     <section id="community-bewertungen" style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;display:none;">
-      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Community Voices</h2>
       <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;"></div>
     </section>
 
@@ -3580,7 +3580,7 @@ function beratungsCTA() {
               <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung">✉ E-Mail</a>
               <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
             </div>
-            <a class="beratungs-cta__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer → psychologische-homoeopathie.de</a>
+            <a class="beratungs-cta__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
           </div>
           <div class="beratungs-cta__berater-item">
             <span class="beratungs-cta__berater-name">David L. Rathmer</span>
@@ -3588,7 +3588,7 @@ function beratungsCTA() {
               <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung">✉ E-Mail</a>
               <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
             </div>
-            <a class="beratungs-cta__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling für Führungskräfte &amp; Unternehmen → enneascholars.de</a>
+            <a class="beratungs-cta__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
           </div>
         </div>
       </div>
@@ -31749,7 +31749,7 @@ function verwechslungenPage() {
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Typisierung</p>
       <h1 class="section-title">Die gro\xdfen Verwechslungen</h1>
-      <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagramm-Typisierung.</p>
+      <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagram Typing.</p>
       <img
         src="${CDN}assets/verwechslungen.png"
         alt="Verwechslungen &ndash; Schaubild"
@@ -31757,7 +31757,7 @@ function verwechslungenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Wenn St\xe4rke und Wesen verwechselt werden</h2>
-        <p class="vb-intro">Die schlimmsten Verwechslungen bei der Enneagramm-Typisierung entstehen dort, wo Ego-St\xe4rke mit Essenz verwechselt wird. Menschen identifizieren sich h\xe4ufig mit den F\xe4higkeiten, die sie besonders gut entwickelt haben. Genau diese F\xe4higkeiten werden dann als Ausdruck ihres &bdquo;wahren Wesens&ldquo; betrachtet. Im Enneagramm ist dies jedoch oft ein Irrtum &ndash; denn viele dieser St\xe4rken sind urspr\xfcnglich nicht aus Freiheit entstanden, sondern als Anpassung an eine fr\xfche Wunde.</p>
+        <p class="vb-intro">Die schlimmsten Verwechslungen bei der Enneagram Typing entstehen dort, wo Ego-St\xe4rke mit Essenz verwechselt wird. Menschen identifizieren sich h\xe4ufig mit den F\xe4higkeiten, die sie besonders gut entwickelt haben. Genau diese F\xe4higkeiten werden dann als Ausdruck ihres &bdquo;wahren Wesens&ldquo; betrachtet. Im Enneagramm ist dies jedoch oft ein Irrtum &ndash; denn viele dieser St\xe4rken sind urspr\xfcnglich nicht aus Freiheit entstanden, sondern als Anpassung an eine fr\xfche Wunde.</p>
         <p class="vb-intro">Ein Mensch vom Typ 1 erlebt seine Gewissenhaftigkeit oft als seine wahre Natur. Ein Typ 2 sieht seine Hilfsbereitschaft als Ausdruck seines Herzens. Ein Typ 3 identifiziert sich mit Leistungsf\xe4higkeit und Erfolg. Ein Typ 5 erlebt seine Unabh\xe4ngigkeit als Kern seiner Pers\xf6nlichkeit. Tatsr\xe4chlich handelt es sich dabei h\xe4ufig um hoch entwickelte \xdcberlebensstrategien des Egos.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Brillante Anpassung &ndash; aber keine Essenz</h2>
@@ -37022,7 +37022,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v535';
+  const MY_VERSION = 'inhalt-v536';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
