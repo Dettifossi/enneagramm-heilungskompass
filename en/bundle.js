@@ -1564,7 +1564,7 @@ function startPage() {
     <div class="first-glimpse">
       ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${enCode(p.code)}" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || enCode(p.code)}</div>`}
       <div>
-        <span>${enCode(p.code)} · ${p.title}</span>
+        <span>${enCode(p.code)} · ${p.title_en || p.title}</span>
         <strong>${p.focus_en || p.focus}</strong>
         <em>${copy.animalPrefix} ${p.archetype_en || p.archetype}</em>
       </div>
@@ -1818,7 +1818,7 @@ function dashboardPage() {
       </div>
       <div class="dashboard__copy">
         <p class="eyebrow">${copy.greeting} · ${p.center} · ${p.typeLabel || ''}</p>
-        <h1>${enCode(p.code)} · ${p.title}</h1>
+        <h1>${enCode(p.code)} · ${p.title_en || p.title}</h1>
         <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype_en || p.archetype}</p>
         ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${p.variant}</span>` : ''}
         <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus_en || p.focus}</p>
@@ -2698,9 +2698,9 @@ function _sucheResults(q) {
   const res = { subtypen: [], portraits: [], register: [], zitate: [] };
 
   Object.values(subtypeProfiles).forEach(p => {
-    const hay = [p.code, p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
+    const hay = [p.code, p.title_en || p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
     if (hay.includes(lq)) {
-      res.subtypen.push({ label: enCode(p.code) + " – " + p.title, sub: p.archetype_en || p.archetype || "", route: "subtype/" + p.id });
+      res.subtypen.push({ label: enCode(p.code) + " – " + (p.title_en || p.title), sub: p.archetype_en || p.archetype || "", route: "subtype/" + p.id });
     }
   });
 
@@ -3927,7 +3927,7 @@ function typePage(num) {
       <button class="subtyp-karte" data-route="subtype/${code}" style="border-left-color:${c}">
         <div class="subtyp-karte__icon" style="color:${c}">${p.emoji || p.code}</div>
         <div class="subtyp-karte__body">
-          <strong style="color:${c}">${p.title}</strong>
+          <strong style="color:${c}">${p.title_en || p.title}</strong>
           <span>${enCode(p.code)} · ${instinktLabel}</span>
           <em>${p.focus_en || p.focus}</em>
         </div>
@@ -4357,7 +4357,7 @@ function profilePage() {
             : `<span class="profile-card__emoji">${p.emoji || ''}</span>`}
         </div>
         <span class="profile-card__code" style="color:${tc};">${enCode(p.code)}</span>
-        <strong class="profile-card__title">${p.title}</strong>
+        <strong class="profile-card__title">${p.title_en || p.title}</strong>
         ${p.titleAlt ? `<em class="profile-card__alt">${p.titleAlt}</em>` : ''}
         ${p.variant ? `<span class="profile-card__variant">${p.variant}</span>` : ''}
       </button>`;
@@ -37068,7 +37068,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v540';
+  const MY_VERSION = 'inhalt-v541';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
