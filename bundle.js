@@ -1332,6 +1332,15 @@ window._adminLoeschen = function(index) {
     .catch(function() { alert('Fehler beim Löschen.'); });
 };
 
+
+const COUNTRY_NAME_DE = {
+  'DE':'Deutschland','AT':'Österreich','CH':'Schweiz','US':'USA','GB':'Großbritannien',
+  'FR':'Frankreich','NL':'Niederlande','IT':'Italien','ES':'Spanien','SE':'Schweden',
+  'NO':'Norwegen','DK':'Dänemark','PL':'Polen','CZ':'Tschechien','HU':'Ungarn',
+  'BE':'Belgien','LU':'Luxemburg','LI':'Liechtenstein','AU':'Australien','CA':'Kanada',
+  'JP':'Japan','CN':'China','IN':'Indien','BR':'Brasilien','MX':'Mexiko',
+};
+
 window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
   // Freigegebene Bewertungen laden
@@ -1346,7 +1355,8 @@ function _bewertungSterneInit() {
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
         const displayText = b.text_de || b.text || '';
-        const meta = [b.name, b.land ? b.land : null].filter(Boolean).join(' · ');
+        const landDisplay = b.countryCode ? (COUNTRY_NAME_DE[b.countryCode] || b.land || '') : (b.land || '');
+        const meta = [b.name, landDisplay || null].filter(Boolean).join(' · ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
@@ -1398,6 +1408,7 @@ function _bewertungSenden() {
         text: reviewText,
         name: nameVal || null,
         land: geo.country_name || null,
+        countryCode: geo.country_code || null,
         datum: new Date().toISOString()
       };
       return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
@@ -37019,7 +37030,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v570';
+  const MY_VERSION = 'inhalt-v571';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

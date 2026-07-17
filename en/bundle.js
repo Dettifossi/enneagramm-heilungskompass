@@ -1458,6 +1458,15 @@ window._adminLoeschen = function(index) {
     .catch(function() { alert('Error beim Delete.'); });
 };
 
+
+const COUNTRY_NAME_EN = {
+  'DE':'Germany','AT':'Austria','CH':'Switzerland','US':'USA','GB':'United Kingdom',
+  'FR':'France','NL':'Netherlands','IT':'Italy','ES':'Spain','SE':'Sweden',
+  'NO':'Norway','DK':'Denmark','PL':'Poland','CZ':'Czech Republic','HU':'Hungary',
+  'BE':'Belgium','LU':'Luxembourg','LI':'Liechtenstein','AU':'Australia','CA':'Canada',
+  'JP':'Japan','CN':'China','IN':'India','BR':'Brazil','MX':'Mexico',
+};
+
 window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
   // Freigegebene Bewertungen laden
@@ -1470,11 +1479,11 @@ function _bewertungSterneInit() {
       const section = document.getElementById('community-bewertungen');
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
-      // Determine if we're on EN page
-      const isEN = location.pathname.startsWith('/en');
       container.innerHTML = liste.map(function(b) {
+        const isEN = location.pathname.startsWith('/en');
         const displayText = isEN && b.text_en ? b.text_en : (b.text || '');
-        const meta = [b.name, b.land ? b.land : null].filter(Boolean).join(' · ');
+        const landDisplay = b.countryCode ? (COUNTRY_NAME_EN[b.countryCode] || b.land || '') : (b.land || '');
+        const meta = [b.name, landDisplay || null].filter(Boolean).join(' · ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
@@ -1527,6 +1536,7 @@ function _bewertungSenden() {
         text: reviewText,
         name: nameVal || null,
         land: geo.country_name || null,
+        countryCode: geo.country_code || null,
         datum: new Date().toISOString()
       };
       return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
@@ -37058,7 +37068,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v538';
+  const MY_VERSION = 'inhalt-v539';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
