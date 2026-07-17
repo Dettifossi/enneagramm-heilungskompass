@@ -2157,7 +2157,7 @@ function toolDetailPage(slug) {
     : null;
   const seite2Block = toolPageImg ? `
     <figure class="vollseite-karte" style="margin-bottom:1.2rem;">
-      <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+      <p class="vollseite-karte__hint">Tap to enlarge</p>
       <div class="card-pg-wrap">
         <img src="${toolPageImg.src}" alt="${toolPageImg.alt}" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
@@ -2419,7 +2419,7 @@ function tcmPage() {
           const pg = kn && kn.visualPages ? kn.visualPages.find(p => p.src.includes("page-3")) : null;
           return pg ? `
             <figure class="vollseite-karte" style="margin-top:1.5rem;">
-              <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+              <p class="vollseite-karte__hint">Tap to enlarge</p>
               <div class="card-pg-wrap">
                 <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
                   onerror="this.closest('.vollseite-karte').style.display='none'" />
@@ -3573,6 +3573,2490 @@ const SUBTITLE_EN = {
   "Selbsterhaltungsinstinkt": "Self-Preservation Instinct",
   "Sozialer Instinkt": "Social Instinct",
 };
+
+const PAGE1_SUMMARY_EN = {
+  se1: {
+    coreTheme: `Integrity & Order`,
+    identities: `The Perfectionist · The Responsible One · The Principled One`,
+    coreStatement: `The right thing is sacred to me. I live by principles because they protect, support and give stability. First I take care of my stability - then I can act with clarity.`,
+    organismQuestion: `How can I act rightly and preserve my integrity to remain safe and stable?`,
+    gazeQuality: [
+      "attentive and scrutinising",
+      "scans for safety and order",
+      "more inward, less expansive",
+      "clear, quiet presence",
+    ],
+    microTension: [
+      "Forehead: slight concentration lines",
+      "Eyes: focused, critical",
+      "Mouth: controlled, terse",
+      "Jaw: slightly tense",
+      "Posture: upright, restrained",
+    ],
+    breathingRhythm: [
+      "deep, calm and controlled",
+      "tends to hold breath under inner tension",
+      "regulates through control",
+    ],
+    movementInitiation: [
+      "deliberate and careful",
+      "checks first, then acts",
+      "protects energy and resources",
+      "movement purposeful and economical",
+    ],
+    contactStyle: [
+      "respectful, correct, reliable",
+      "maintains distance until trust is established",
+      "clear boundaries, clear words",
+      "helpful when safety is given",
+    ],
+    tensionDistribution: `Head & Forehead: moral tension · Neck & Shoulders: burden of responsibility · Chest: protective armour · Belly: control & self-regulation · Jaw: restrained tension`,
+    embodiedSignature: [
+      "Principled",
+      "Self-discipline",
+      "Order & Neatness",
+      "Integrity & Reliability",
+      "Protection & Care",
+    ],
+    coreTension: `Between the demand to be right and good, and the fear of making mistakes or losing control`,
+    integrationPath: `From self-criticism to self-acceptance. From severity to wisdom. From must to choice. Integrity from inner calm, not from tension.`,
+    animal: { name: `Eagle`, description: `alert, principled, far-sighted; observes from above, acts only when aligned and necessary; protects territory and preserves integrity` },
+    resourceField: [
+      "Self-care & Stability",
+      "Clear Values & Principles",
+      "Structure & Order",
+      "Reliable Routines",
+      "Boundaries & Self-protection",
+      "Honesty & Conscience",
+    ],
+    energeticTemp: `cool-warm · grounded · composed`,
+    attention: `directed inward · self-referential`,
+    lifeFocus: `Safety · Stability · Integrity`,
+  },
+  so1: {
+    coreTheme: `Integrity & Order`,
+    identities: `The Principled One · The Reformer · The Guardian of Principles`,
+    coreStatement: `The right thing is not only my standard, but my contribution to the whole. I create order where it is lacking, and stand up for what serves the welfare of all.`,
+    organismQuestion: `How can I make a positive contribution to the whole through integrity, order and responsibility?`,
+    gazeQuality: [
+      "clear and alert",
+      "observes the field",
+      "scrutinising and evaluating",
+      "seeks fairness and justice",
+    ],
+    microTension: [
+      "Forehead: vertical concentration lines",
+      "Eyes: tense, focused",
+      "Mouth: controlled, slightly tense",
+      "Jaw: firm, restrained",
+      "Posture: upright, controlled",
+    ],
+    breathingRhythm: [
+      "rather shallow and controlled",
+      "holds breath under inner tension",
+      "regulates breath consciously",
+      "focus on control and posture",
+    ],
+    movementInitiation: [
+      "deliberate and goal-directed",
+      "plans before acting",
+      "structured and orderly",
+      "moves with purpose and discipline",
+    ],
+    contactStyle: [
+      "respectful and correct",
+      "clear in communication and attitude",
+      "trust-building through reliability",
+      "oriented to shared values",
+    ],
+    tensionDistribution: `Head & Forehead: moral tension · Neck & Shoulders: burden of responsibility · Chest: sense of duty & idealism · Belly: control & discipline · Jaw: restrained tension`,
+    embodiedSignature: [
+      "Principled",
+      "Sense of responsibility",
+      "Justice & Fairness",
+      "Integrity & role model function",
+      "Duty & Engagement",
+    ],
+    coreTension: `Between the demand to be perfect, right and just, and the fear of making mistakes or letting the whole down`,
+    integrationPath: `From strictness to wisdom. From evaluation to understanding. From must to choice. Integrity from inner calm, not from tension.`,
+    animal: { name: `Goose`, description: `stands for loyalty, alertness and orderliness; protects its group, knows its direction and takes on leadership with responsibility` },
+    resourceField: [
+      "Sense of justice",
+      "Sense of responsibility",
+      "Reliability & duty",
+      "Structure & order",
+      "Integrity & exemplary function",
+      "Clarity & endurance",
+    ],
+    energeticTemp: `cool · clear · orderly`,
+    attention: `directed outward · community-focused`,
+    lifeFocus: `Responsibility · Order · Contribution`,
+  },
+  sx1: {
+    coreTheme: `Integrity & Order`,
+    identities: `The Zealot · The Missionary · The Unshakeable One`,
+    coreStatement: `The right thing is non-negotiable. I strive for inner purity and absolute clarity - in myself and in what I do. I tolerate neither dishonesty nor mediocrity - in myself or in others.`,
+    organismQuestion: `How can I live uncompromisingly in my integrity and realise what is right without concessions?`,
+    gazeQuality: [
+      "penetrating and focused",
+      "sharply observant",
+      "unmasking",
+      "seeks inconsistencies",
+    ],
+    microTension: [
+      "Forehead: vertical lines, tense",
+      "Eyes: intense, slightly narrowed",
+      "Mouth: controlled, often firm",
+      "Jaw: tense, jaw pressure",
+      "Posture: upright, controlled, stiff",
+    ],
+    breathingRhythm: [
+      "rather shallow and controlled",
+      "breath often held when making inner judgements",
+      "unconscious tension in chest",
+      "perfection pressure in the breath",
+    ],
+    movementInitiation: [
+      "goal-directed and controlled",
+      "doesn't hesitate when clear what to do",
+      "moves straight and efficiently",
+      "avoids disorder and chaos",
+    ],
+    contactStyle: [
+      "direct, clear, demanding",
+      "high demands on self and others",
+      "seeks depth and truth",
+      "confronts when principles are violated",
+    ],
+    tensionDistribution: `Head & Forehead: high mental tension · Neck & Shoulders: rigid, burdened · Chest: pressure, tension · Belly: inner tension, control · Jaw: strong fixation & tension`,
+    embodiedSignature: [
+      "Principled",
+      "Incorruptibility",
+      "Integrity & Uprightness",
+      "Self-discipline & Self-control",
+      "Inner purity",
+    ],
+    coreTension: `Between the demand for complete integrity and rage at disorder, injustice and human imperfection`,
+    integrationPath: `From strictness to goodness. From judgement to wisdom. From must to choice. Integrity from inner truth, not from inner struggle.`,
+    animal: { name: `Black Mamba`, description: `sharp, precise and highly attentive; reacts quickly to any deviation, defends territory uncompromisingly, moves with elegant purposefulness; incorruptible, clear and deadly precise` },
+    resourceField: [
+      "Inner clarity & truth",
+      "Courage for incorruptibility",
+      "High self-discipline",
+      "Clear values & principles",
+      "Protection for the weaker",
+      "Ability to maintain measure",
+    ],
+    energeticTemp: `hot · sharp · tense · penetrating`,
+    attention: `on errors and inconsistencies · detail-focused · inwardly checking`,
+    lifeFocus: `Integrity · Righteousness · Order · Purity`,
+  },
+  se2: {
+    coreTheme: `Love & Care`,
+    identities: `The Caring One · The Needy One · The Provider`,
+    coreStatement: `I am loveable when I am there for others. Through my care I create closeness, connection and security. I take care of what is needed - so that we are all well provided for.`,
+    organismQuestion: `How can I contribute through care, support and practical help so that we are all well provided for and safe?`,
+    gazeQuality: [
+      "warm, soft and inviting",
+      "evaluating: who is safe for me?",
+      "slightly reserved, needs-oriented",
+      "seeks resonance and gratitude",
+      "observes before opening up",
+    ],
+    microTension: [
+      "Forehead: slightly tense, caring",
+      "Eyes: careful, gathering",
+      "Mouth: soft, slightly uncertain",
+      "Jaw: relaxed, little pressure",
+      "Posture: soft, protective, restrained",
+    ],
+    breathingRhythm: [
+      "rather shallow in the chest",
+      "breathes with it when closeness arises",
+      "breath stops at insecurity",
+      "regulates through giving & withdrawing",
+    ],
+    movementInitiation: [
+      "doesn't approach others first - waits or checks first",
+      "moves when someone shows support needs",
+      "preserves energy for people important to her",
+    ],
+    contactStyle: [
+      "warm, cordial, inviting",
+      "gives to create relationship and security",
+      "seeks gratitude & mutual commitment",
+      "withdraws when the balance doesn't hold",
+    ],
+    tensionDistribution: `Head & Forehead: slight worry · Neck & Shoulders: protective · Chest: warmth & giving · Belly: need for security · Jaw: relaxed, little pressure`,
+    embodiedSignature: [
+      "Caring instinct",
+      "Warmth & devotion",
+      "Practical help",
+      "Relationship orientation",
+      "Protection & care",
+    ],
+    coreTension: `Between the wish to give love and care, and the fear of being exploited, overlooked or not appreciated`,
+    integrationPath: `From giving out of lack to giving from inner fullness. From the need to be needed, to the freedom to give. Loving and receiving - because I am safe and secure within myself.`,
+    animal: { name: `Hippopotamus`, description: `protects its territory, its family and its resources; seems calm and comfortable but is strong and loyal; provides security, stability and nurturing closeness` },
+    resourceField: [
+      "Heartfelt openness & empathy",
+      "Creating belonging",
+      "Practical support",
+      "Trust & loyalty",
+      "Sense of closeness & connection",
+      "Warmth & joy of life",
+    ],
+    energeticTemp: `warm · nurturing · soft · devoted`,
+    attention: `on closeness & security · on needs · on resonance`,
+    lifeFocus: `Care · Connection · Security`,
+  },
+  so2: {
+    coreTheme: `Love & Care`,
+    identities: `The Helper · The Ambitious One · The Helpful One`,
+    coreStatement: `I am loveable when I am there for others. Through my care I create closeness, connection and security. I take care of what is needed - so that we are all well provided for.`,
+    organismQuestion: `How can I contribute through care, support and practical help so that we are all well provided for and safe?`,
+    gazeQuality: [
+      "warm, soft and inviting",
+      "evaluating: what does the other need?",
+      "loving, open-hearted and devoted",
+      "slightly relationship-oriented",
+      "seeks resonance and gratitude",
+      "observes before opening up",
+    ],
+    microTension: [
+      "Forehead: slightly tense, alert",
+      "Eyes: attentive, connecting",
+      "Mouth: soft, friendly",
+      "Jaw: relaxed or slightly tense",
+      "Posture: open, facing forward",
+    ],
+    breathingRhythm: [
+      "rather deep in the chest",
+      "breathes with it when closeness arises",
+      "breath stops at insecurity",
+      "regulates through giving & connection",
+    ],
+    movementInitiation: [
+      "actively approaches others",
+      "offers help before asked",
+      "moves with care and heart",
+      "orients to needs of others",
+      "creates closeness and trust",
+    ],
+    contactStyle: [
+      "warm, caring and connecting",
+      "seeks closeness, resonance and gratitude",
+      "shows interest and empathy",
+      "helps gladly and reliably",
+      "withdraws when love is reciprocated",
+    ],
+    tensionDistribution: `Head & Forehead: slight worry · Neck & Shoulders: soft · Chest: warmth & giving · Belly: need for connection · Jaw: soft, little pressure`,
+    embodiedSignature: [
+      "Caring instinct",
+      "Warmth & devotion",
+      "Practical support",
+      "Trust & loyalty",
+      "Sense of closeness & connection",
+    ],
+    coreTension: `Between the wish to give love and care, and the fear of being exploited, overlooked or not appreciated`,
+    integrationPath: `From giving out of lack to giving from inner fullness. From the need to be needed, to the freedom to give. Loving and receiving - because I am safe and secure within myself.`,
+    animal: { name: `Golden Retriever`, description: `loves unconditionally, is always friendly, helpful and people-oriented; provides closeness and comfort, is loyal, gentle and reliable` },
+    resourceField: [
+      "Heartfelt openness & empathy",
+      "Creating belonging",
+      "Practical support",
+      "Trust & loyalty",
+      "Sense of closeness & connection",
+      "Warmth & joy of life",
+    ],
+    energeticTemp: `warm · nurturing · soft · devoted`,
+    attention: `on closeness & security · on needs · on resonance`,
+    lifeFocus: `Care · Connection · Security`,
+  },
+  sx2: {
+    coreTheme: `Love & Care`,
+    identities: `The Passionate One · The Seducer · The Intense Giver`,
+    coreStatement: `I am loveable when I am there for others. Through my care I create closeness, connection and security. I invest everything in those who truly matter to me.`,
+    organismQuestion: `How can I contribute through care, support and practical help so that we are all well provided for and safe?`,
+    gazeQuality: [
+      "warm, intense and inviting",
+      "evaluating: who is truly important to me?",
+      "intense, focused and penetrating",
+      "seeks depth, resonance and exclusivity",
+      "observes before fully opening up",
+    ],
+    microTension: [
+      "Forehead: slightly tense, concentrated",
+      "Eyes: intense, fixating, searching",
+      "Mouth: soft, sensual, lively",
+      "Jaw: relaxed, can tense",
+      "Posture: open, drawn in, present",
+    ],
+    breathingRhythm: [
+      "rather deep in chest and belly",
+      "breathes with it when connection arises",
+      "breath stops at distance or rejection",
+      "regulates through closeness, touch & depth",
+    ],
+    movementInitiation: [
+      "actively approaches people she likes",
+      "seeks physical closeness and contact",
+      "moves with attraction and presence",
+      "orients to intense bonds",
+      "creates closeness, intimacy and loyalty",
+    ],
+    contactStyle: [
+      "warm, personal and captivating",
+      "seeks depth, resonance and devotion",
+      "shows interest and exclusivity",
+      "can cling or become jealous",
+      "withdraws when she feels rejected",
+    ],
+    tensionDistribution: `Head & Forehead: focus & attraction · Neck & Shoulders: tension at distance · Chest: intensity & depth · Belly: need for connection · Pelvis: sexual energy & attraction · Jaw: can relax`,
+    embodiedSignature: [
+      "Caring instinct with intensity",
+      "Warmth & devotion",
+      "Practical help with dedication",
+      "Relationship orientation",
+      "Protection & care",
+    ],
+    coreTension: `Between the wish to be needed and to be unique, and the fear of being the least important person or being left`,
+    integrationPath: `From giving out of need to giving from genuine fullness and choice. From clinging to free love. Loving and receiving - because I love and value myself.`,
+    animal: { name: `Camel`, description: `carries much and gives reliably and caringly; is loyal, adaptable and caring; provides for itself and others with what is needed; goes its way - calm, strong and enduring - even through desert and thirst` },
+    resourceField: [
+      "Heartfelt openness & empathy",
+      "Creating belonging",
+      "Practical support",
+      "Trust & loyalty",
+      "Sense of closeness & connection",
+      "Warmth & joy of life",
+    ],
+    energeticTemp: `warm · nurturing · intense · devoted`,
+    attention: `on closeness & security · on needs · on resonance`,
+    lifeFocus: `Care · Connection · Love · Depth`,
+  },
+  se3: {
+    coreTheme: `Performance & Success`,
+    identities: `The Pragmatist · The Performance Person · The Workaholic`,
+    coreStatement: `I am valuable when I perform, when I am useful and successful. Through my performance I achieve goals, create value and earn recognition. I take care of what works - so that we all move forward.`,
+    organismQuestion: `How can I make a genuine contribution through performance, efficiency and success, and earn value and recognition in the process?`,
+    gazeQuality: [
+      "alert, scrutinising and focused",
+      "evaluating: what does this bring? What is useful?",
+      "slightly distanced, sober",
+      "seeks impact and advantages",
+      "observes before acting",
+    ],
+    microTension: [
+      "Forehead: focused, tense",
+      "Eyes: controlled, penetrating",
+      "Mouth: firm, restrained",
+      "Jaw: slightly tense, drawing together",
+      "Posture: upright, present, performance-ready",
+    ],
+    breathingRhythm: [
+      "rather shallow in the chest",
+      "breathes faster when pursuing goals",
+      "breath stops at insecurity or criticism",
+      "regulates through success and confirmation",
+    ],
+    movementInitiation: [
+      "goal-directed and decisive",
+      "acts quickly when advantages arise",
+      "constantly assesses possibilities",
+      "orients to results and success",
+      "creates movement through strategy and planning",
+    ],
+    contactStyle: [
+      "direct, charming and adapted",
+      "speaks in solutions and user benefit",
+      "conveys competence and overview",
+      "listens to use information",
+      "communicates persuasively and goal-directedly",
+    ],
+    tensionDistribution: `Head & Forehead: focus & goal clarity · Shoulders & Neck: carries responsibility · Chest: active, tense · Belly: controlled, tense · Jaw: slightly tense, pressure under stress`,
+    embodiedSignature: [
+      "Performance-oriented",
+      "Goal clarity & structure",
+      "Efficiency & productivity",
+      "Adaptability",
+      "Security through success and recognition",
+    ],
+    coreTension: `Between the desire to be valuable and achieve something, and fear of not being good enough or failing`,
+    integrationPath: `From performance pressure to inner fulfilment. From functioning to authenticity. From outer success to inner satisfaction. Performance becomes expression of joy and meaning - not of pressure and fear.`,
+    animal: { name: `Raccoon`, description: `clever, adaptable and self-interested; recognises advantages and seizes every opportunity; finds creative ways to its goal; survives through its resourcefulness - but always with self-interest` },
+    resourceField: [
+      "Deploy competence & abilities",
+      "Set & achieve goals",
+      "Create value & contribute",
+      "Recognition & appreciation",
+      "Joy in results & progress",
+    ],
+    energeticTemp: `cool · active · mobile · performance-driven`,
+    attention: `on goals & opportunities · on possibilities · on efficiency`,
+    lifeFocus: `Performance · Success · Impact`,
+  },
+  so3: {
+    coreTheme: `Performance & Success`,
+    identities: `The Successful One · The Status-Conscious One · The Ambitious One`,
+    coreStatement: `I am valuable when I perform, when I am useful and successful. Through my performance I achieve goals, create value and earn recognition. I take care of what works - so that we all move forward.`,
+    organismQuestion: `How can I make a genuine contribution through performance, efficiency and success, and earn value and recognition in the process?`,
+    gazeQuality: [
+      "alert, scrutinising and focused",
+      "evaluating: what does this bring? What is useful?",
+      "slightly distanced, sober",
+      "seeks impact and advantages",
+      "observes before acting",
+    ],
+    microTension: [
+      "Forehead: focused, tense",
+      "Eyes: controlled, penetrating",
+      "Mouth: firm, restrained",
+      "Jaw: slightly tense, drawing together",
+      "Posture: upright, present, performance-ready",
+    ],
+    breathingRhythm: [
+      "rather shallow in the chest",
+      "breathes faster when pursuing goals",
+      "breath stops at insecurity or criticism",
+      "regulates through success and confirmation",
+    ],
+    movementInitiation: [
+      "goal-directed and decisive",
+      "acts quickly when advantages arise",
+      "constantly assesses possibilities",
+      "orients to results and success",
+      "creates movement through strategy and planning",
+    ],
+    contactStyle: [
+      "direct, charming and adapted",
+      "speaks in solutions and user benefit",
+      "conveys competence and overview",
+      "listens to use information",
+      "communicates persuasively and goal-directedly",
+    ],
+    tensionDistribution: `Head & Forehead: focus & goal clarity · Shoulders & Neck: carries responsibility · Chest: active, tense · Belly: controlled, tense · Jaw: slightly tense, pressure under stress`,
+    embodiedSignature: [
+      "Performance-oriented",
+      "Goal clarity & structure",
+      "Efficiency & productivity",
+      "Adaptability",
+      "Security through success and recognition",
+    ],
+    coreTension: `Between the desire to be valuable and achieve something, and fear of not being good enough or failing`,
+    integrationPath: `From performance pressure to inner fulfilment. From functioning to authenticity. From outer success to inner satisfaction. Performance becomes expression of joy and meaning - not of pressure and fear.`,
+    animal: { name: `Cheetah`, description: `fast, focused and efficient; observes, analyses and waits for the right moment; uses opportunities with precision and goes purposefully for its goal; leads with elegance and strategy` },
+    resourceField: [
+      "Deploy competence & abilities",
+      "Set & achieve goals",
+      "Create value & contribute",
+      "Recognition & appreciation",
+      "Joy in results & progress",
+    ],
+    energeticTemp: `cool · active · mobile · performance-driven`,
+    attention: `on goals & chances · on opportunities · on efficiency`,
+    lifeFocus: `Performance · Success · Impact`,
+  },
+  sx3: {
+    coreTheme: `Performance & Success`,
+    identities: `The Radiant · The Admired · The Attractive`,
+    coreStatement: `I am valuable when I perform, when I am useful and successful. Through my performance I achieve goals, create value and earn recognition. I take care of what works - so that we all move forward.`,
+    organismQuestion: `How can I make a genuine contribution through performance, efficiency and success, and earn value and recognition in the process?`,
+    gazeQuality: [
+      "penetrating, present and focused",
+      "evaluating: what does this bring?",
+      "slightly challenging, self-confident",
+      "seeks impact, influence and advantages",
+      "observes carefully before acting",
+    ],
+    microTension: [
+      "Forehead: focused, slightly tense",
+      "Eyes: controlled, penetrating",
+      "Mouth: firm, self-confident, slightly pointed",
+      "Jaw: slightly tense, present",
+      "Posture: upright, dynamic, present",
+    ],
+    breathingRhythm: [
+      "rather shallow in chest",
+      "breathes faster when pursuing goals",
+      "breath stops at insecurity or criticism",
+      "regulates through success and confirmation",
+    ],
+    movementInitiation: [
+      "goal-directed and decisive",
+      "acts quickly when advantages arise",
+      "constantly assesses possibilities",
+      "orients to results",
+      "creates movement through strategy and planning",
+    ],
+    contactStyle: [
+      "charming, persuasive and adapted",
+      "speaks in solutions and user benefit",
+      "conveys competence",
+      "listens to use information",
+      "communicates persuasively",
+    ],
+    tensionDistribution: `Head & Forehead: focus & goal clarity · Shoulders & Neck: carries responsibility · Chest: active, present · Belly: controlled, tense · Jaw: slightly tense, present`,
+    embodiedSignature: [
+      "Performance-oriented",
+      "Goal clarity & structure",
+      "Efficiency & productivity",
+      "Adaptability",
+      "Security through success and recognition",
+    ],
+    coreTension: `Between the desire to be valuable and achieve something, and fear of not being good enough or failing`,
+    integrationPath: `From performance pressure to inner fulfilment. From functioning to authenticity. From outer success to inner satisfaction. Performance becomes expression of joy and meaning - not of pressure and fear.`,
+    animal: { name: `Peacock`, description: `fascinates through radiance and elegance, presents itself to earn admiration, seeks the stage to make an impact` },
+    resourceField: [
+      "Deploy competence & abilities",
+      "Set & achieve goals",
+      "Create value & contribute",
+      "Recognition & appreciation",
+      "Joy in results & progress",
+    ],
+    energeticTemp: `cool · active · mobile · performance-driven`,
+    attention: `on goals & opportunities · on possibilities · on efficiency`,
+    lifeFocus: `Performance · Success · Impact`,
+  },
+  se4: {
+    coreTheme: `Depth & Feeling`,
+    identities: `The Quietly Tenacious · The Wounded Healer · The Dove Person`,
+    coreStatement: `I am valuable when I am authentic, when I find my own expression and live my uniqueness. Through my originality I create meaning, deep connections and leave traces. I take care of what moves me - so that my uniqueness has impact and endures.`,
+    organismQuestion: `How can I make a genuine contribution through my unique being and expression, while remaining true to myself?`,
+    gazeQuality: [
+      "deep, searching and introspective",
+      "evaluating: what moves it? What does it mean?",
+      "slightly dreamy, distantly operating",
+      "sensitive to nuances and moods",
+      "observes inwardly before acting",
+    ],
+    microTension: [
+      "Forehead: slightly tense, in thoughts",
+      "Eyes: soft, fine-feeling, attentive",
+      "Mouth: neutral to slightly earnest",
+      "Jaw: loose, not tense",
+      "Posture: restrained, closed",
+    ],
+    breathingRhythm: [
+      "rather shallow in the chest",
+      "breathes sighing and irregularly",
+      "breath stops at overwhelm",
+      "regulates through retreat and creativity",
+    ],
+    movementInitiation: [
+      "moves hesitantly and observing",
+      "acts when it feels harmonious",
+      "prefers retreat and reflection",
+      "uses time alone for creativity",
+      "handles energy through limits and inner retreat",
+    ],
+    contactStyle: [
+      "profound, authentic and honest",
+      "speaks through feelings and meaning",
+      "shows understanding and empathy",
+      "shares when trust is there",
+      "communicates poetically and pictorially",
+    ],
+    tensionDistribution: `Head & Forehead: over-thinking, brooding · Shoulders & Neck: retreat, bearing burdens · Chest: receptive, open · Belly: sensitive, inner knots · Jaw: relaxed, restrained`,
+    embodiedSignature: [
+      "Unique and individual",
+      "Sense for aesthetics & depth",
+      "Creativity & expressiveness",
+      "Empathy & compassion",
+      "Protection of the inner world and authenticity",
+    ],
+    coreTension: `Between the wish to be authentic and meaningful, and the fear of being misunderstood or too much. Fluctuates between visibility and retreat, expression and self-doubt.`,
+    integrationPath: `From retreat to inner connectedness. From pain to beauty. From self-doubt to self-acceptance. Performance becomes expression of truth and meaning - not of lack.`,
+    animal: { name: `Dove`, description: `stands for gentleness, sensitivity and depth; sensitive to moods, retreats when threatened, creates peace through its presence and connection, symbolises the ability to recognise beauty and touch through loyalty and compassion` },
+    resourceField: [
+      "Authenticity & self-acceptance",
+      "Creativity & expression",
+      "Depth & meaning",
+      "Empathy & compassion",
+      "Beauty & inspiration",
+    ],
+    energeticTemp: `cool · introverted · empathetic`,
+    attention: `on feelings & meaning · on depth · on authenticity`,
+    lifeFocus: `Authenticity · Expression · Belonging`,
+  },
+  so4: {
+    coreTheme: `Depth & Feeling`,
+    identities: `The Suffering One · The Shame-Filled One · The Melancholic`,
+    coreStatement: `I am valuable when I bring my uniqueness to expression in something real. Through my originality and depth I create meaning and leave genuine traces. I take care of what moves me - and bring my particular perspective into the world.`,
+    organismQuestion: `How can I make a genuine contribution through my originality and depth, while remaining true to my inner experience?`,
+    gazeQuality: [
+      "deep, melancholic and distanced",
+      "inward-directed, searching",
+      "slightly sad, as if seeing more than others",
+      "observes from afar",
+      "restrained, almost invisibly effective",
+    ],
+    microTension: [
+      "Forehead: slightly tense, in thoughts",
+      "Eyes: dreamy, with fine sadness",
+      "Mouth: neutral to slightly lowered",
+      "Jaw: relaxed, suppressed undertone",
+      "Posture: restrained, slightly withdrawn",
+    ],
+    breathingRhythm: [
+      "rather shallow in chest",
+      "breathes irregularly and deeper at retreat",
+      "breath stops at emotional overwhelm",
+      "regulates through retreat and creativity",
+    ],
+    movementInitiation: [
+      "moves consciously and measured",
+      "acts first when it feels harmonious",
+      "prefers retreat and reflection",
+      "uses creativity as expression",
+      "retreats from over-stimulation",
+    ],
+    contactStyle: [
+      "restrained, attentive and respectful",
+      "speaks first when truly has something to say",
+      "seeks depth and meaning",
+      "hears deep and feels between the lines",
+      "communicates sensitively and differentially",
+    ],
+    tensionDistribution: `Head & Forehead: thoughtful, far away · Shoulders & Neck: drawn in, careful, closed · Chest: receptive, sensitive, closed · Belly: sensitive, slightly cramped · Jaw: relaxed, slightly tense`,
+    embodiedSignature: [
+      "Unique and individual",
+      "Depth & authenticity instead of adaptation",
+      "Creativity & expressiveness",
+      "Empathy & compassion",
+      "Protection of the inner world",
+    ],
+    coreTension: `Between the wish to be real and understood, and the fear of being taken over or not seen. Fluctuates between retreat and the need for meaningful connection.`,
+    integrationPath: `From retreat to inner connectedness. From pain to beauty. From self-doubt to self-acceptance. Performance becomes expression of truth and meaning - not of lack.`,
+    animal: { name: `Armadillo`, description: `protects its soft inner self behind a hard shell; retreats when threatened, goes outward only when safe; stands for protection, sensitivity and inner strength` },
+    resourceField: [
+      "Creativity & expression",
+      "Deep connection & authenticity",
+      "Retreat & regeneration",
+      "Beauty & inspiration",
+      "Compassion & understanding",
+    ],
+    energeticTemp: `cool · sensitive`,
+    attention: `on depth & meaning · on feelings · on authenticity`,
+    lifeFocus: `Originality · Depth · Authenticity · Expression`,
+  },
+  sx4: {
+    coreTheme: `Depth & Feeling`,
+    identities: `The Passionate One · The Rival · The Intensive`,
+    coreStatement: `I am valuable when I live my uniqueness passionately and make it visible. Through my intensity and expressiveness I create meaning and remain in memory. I put everything into making myself and my ideas unforgettable.`,
+    organismQuestion: `How can I make a genuine contribution through my passion, creativity and uniqueness, while remaining true and unforgettable?`,
+    gazeQuality: [
+      "intense, penetrating and magnetic",
+      "seeks depth, meaning and resonance",
+      "compares self with others",
+      "senses envy in the background",
+      "observes precisely - seeks impact",
+    ],
+    microTension: [
+      "Forehead: slightly tense, concentrated",
+      "Eyes: intense, inward-directed",
+      "Mouth: slightly tense, sensual",
+      "Jaw: loose, but alert",
+      "Posture: charged, present, ready",
+    ],
+    breathingRhythm: [
+      "breathes shallower at competition or criticism",
+      "breath stops when not understood",
+      "breathes faster at inspiration",
+      "breath deepens at genuine connection",
+    ],
+    movementInitiation: [
+      "moves impulsively and from expression",
+      "acts when inspired",
+      "uses gesture and mimicry strongly",
+      "retreats when hurt or overlooked",
+      "prefers extreme engagement over half-hearted participation",
+    ],
+    contactStyle: [
+      "intense, direct and passionate",
+      "speaks profound, emotional and pictorially",
+      "wants to be understood - not just heard",
+      "tests limits in closeness and distance",
+      "withdraws when not genuinely seen",
+    ],
+    tensionDistribution: `Head & Forehead: inner pressure, racing thoughts · Shoulders & Neck: tense posture · Chest: intense, faster breath · Belly: nervous, inner pull · Jaw: tense, slightly cramped`,
+    embodiedSignature: [
+      "Uniqueness & individuality",
+      "Depth & expressiveness",
+      "Creativity & passion",
+      "Empathy & emotional intensity",
+      "Protection of inner truth",
+    ],
+    coreTension: `Between the wish to be unforgettable and authentic, and the fear of being overlooked, judged or not understood. Fluctuates between self-assertion, expression and retreat.`,
+    integrationPath: `From pain to creative creation. From self-comparison to self-perception. From search for meaning to inner connection. Performance becomes expression of truth and meaning - not as proof of uniqueness.`,
+    animal: { name: `Chihuahua`, description: `alert, courageous and has a large character; is clever and resourceful; loyal, but fiercely fights for its territory with pride; can be its emotions intensely and defends its place with pride` },
+    resourceField: [
+      "Authenticity & self-trust",
+      "Creativity & expressiveness",
+      "Deep connection & authenticity",
+      "Self-assertion & pride",
+      "Inspiration & vision",
+    ],
+    energeticTemp: `intense · changeable`,
+    attention: `on wishes & comparison · on depth & authenticity`,
+    lifeFocus: `Originality · Depth · Authenticity · Expression`,
+  },
+  se5: {
+    coreTheme: `Knowledge & Wisdom`,
+    identities: `The Observer · The Hermit · The Distanced One`,
+    coreStatement: `I am valuable when I recognise the truth and use my knowledge meaningfully. Through my understanding and clarity I create orientation and remain resting within myself. I take care of what must be thought - and share it with the world in my own way.`,
+    organismQuestion: `How can I make a genuine contribution through my knowledge and understanding, while remaining true to my inner clarity?`,
+    gazeQuality: [
+      "deep, calm and observing",
+      "often directed inward",
+      "attentive clarity",
+      "penetrating, but not intrusive",
+      "restrained, with inner distance",
+    ],
+    microTension: [
+      "Forehead: slightly tense during thinking",
+      "Eyes: focused, slightly narrowed",
+      "Mouth: neutral, lips mostly together",
+      "Jaw: loose, inwardly relaxed",
+      "Posture: upright, resting in itself",
+    ],
+    breathingRhythm: [
+      "breathes shallowly in chest",
+      "breath deepens during thinking",
+      "breathes more slowly when concentrating",
+      "breath stops at overwhelm",
+      "regulates through retreat and stillness",
+    ],
+    movementInitiation: [
+      "moves purposefully and economically",
+      "acts first when necessary",
+      "uses pauses for observation",
+      "retreats when too much",
+      "loves mental clarity and structure",
+    ],
+    contactStyle: [
+      "prefers few but genuine conversations",
+      "speaks thoughtfully, considered and precisely",
+      "listens carefully",
+      "needs time to open up",
+      "communicates profoundly and honestly",
+    ],
+    tensionDistribution: `Head & Forehead: inner focus, thinking activity · Shoulders & Neck: slightly drawn back · Chest: calm, little expression · Belly: tense at sensory flood · Jaw: relaxed, retreat tendency`,
+    embodiedSignature: [
+      "Depth & understanding",
+      "Clarity & independence",
+      "Self-sufficiency",
+      "Analytical strength",
+      "Protection of the inner space",
+    ],
+    coreTension: `Between the wish to understand everything, and the fear of being flooded or absorbed. Fluctuates between need for retreat and mental mastery, between distance and genuine connection.`,
+    integrationPath: `From understanding to wisdom. From retreat to connection. From analysing to recognising. Performance becomes expression of clarity and meaning - not as proof of control.`,
+    animal: { name: `Owl`, description: `sees what others overlook; is still, attentive and wise; understands the coherences and connections; stands for depth, intuition, clarity and the knowledge beyond the obvious` },
+    resourceField: [
+      "Wisdom & insight",
+      "Inner stillness & retreat",
+      "Clarity & depth",
+      "Analytical intelligence",
+      "Trust in one's own understanding",
+    ],
+    energeticTemp: `cool to neutral · inner calm`,
+    attention: `on depth, coherence & wisdom`,
+    lifeFocus: `Understanding · Wisdom · Meaning`,
+  },
+  so5: {
+    coreTheme: `Knowledge & Wisdom`,
+    identities: `The Professor · The Researcher · The Intellectual`,
+    coreStatement: `I am valuable when I recognise the truth and use my knowledge meaningfully. Through my understanding and clarity I create orientation and remain resting within myself. I take care of what must be thought - and share it with the world in my own way.`,
+    organismQuestion: `How can I make a genuine contribution through my knowledge and understanding, while remaining true to my inner clarity?`,
+    gazeQuality: [
+      "deep, calm and observing",
+      "often directed inward",
+      "attentive clarity",
+      "penetrating, but not intrusive",
+      "restrained, with inner distance",
+    ],
+    microTension: [
+      "Forehead: slightly tense during thinking",
+      "Eyes: focused, slightly narrowed",
+      "Mouth: neutral, lips mostly together",
+      "Jaw: loose, inwardly relaxed",
+      "Posture: upright, resting in itself",
+    ],
+    breathingRhythm: [
+      "breathes shallowly in chest",
+      "breath deepens during thinking",
+      "breathes more slowly when concentrating",
+      "breath stops at overwhelm",
+      "regulates through retreat and stillness",
+    ],
+    movementInitiation: [
+      "moves purposefully and economically",
+      "acts first when necessary",
+      "uses pauses for observation",
+      "retreats when too much",
+      "loves mental clarity and structure",
+    ],
+    contactStyle: [
+      "prefers few but genuine conversations",
+      "speaks thoughtfully, considered and precisely",
+      "listens carefully",
+      "needs time to open up",
+      "communicates profoundly and honestly",
+    ],
+    tensionDistribution: `Head & Forehead: inner focus, thinking activity · Shoulders & Neck: slightly drawn back · Chest: calm, little expression · Belly: tense at sensory flood · Jaw: relaxed, retreat tendency`,
+    embodiedSignature: [
+      "Depth & understanding",
+      "Clarity & independence",
+      "Self-sufficiency",
+      "Analytical strength",
+      "Protection of the inner space",
+    ],
+    coreTension: `Between the wish to understand everything, and the fear of being flooded or absorbed. Fluctuates between need for retreat and mental mastery, between distance and genuine connection.`,
+    integrationPath: `From understanding to wisdom. From retreat to connection. From analysing to recognising. Performance becomes expression of clarity and meaning - not as proof of control.`,
+    animal: { name: `Octopus`, description: `stands for intelligence, adaptability and depth; moves in its own way, understands and masters complex contexts; its strength lies in inner calm and flexibility` },
+    resourceField: [
+      "Wisdom & insight",
+      "Inner stillness & retreat",
+      "Clarity & depth",
+      "Analytical intelligence",
+      "Trust in one's own understanding",
+    ],
+    energeticTemp: `cool to neutral · inwardly warm through insight`,
+    attention: `on depth, coherences & wisdom`,
+    lifeFocus: `Understanding · Wisdom · Meaning`,
+  },
+  sx5: {
+    coreTheme: `Knowledge & Wisdom`,
+    identities: `The Confidential One · The Spy · The Shy One`,
+    coreStatement: `I am valuable when I recognise the truth and use my knowledge meaningfully. Through my understanding and clarity I create orientation and remain resting within myself. I share only with the one I truly trust.`,
+    organismQuestion: `How can I make a genuine contribution through my knowledge and understanding, while remaining true to my inner clarity?`,
+    gazeQuality: [
+      "soft, searching and slightly shy",
+      "searching, but selective",
+      "devoted when trust is there",
+      "observing with emotional depth",
+      "not as distanced as SO5 or SE5",
+    ],
+    microTension: [
+      "Forehead: slightly tense during thinking",
+      "Eyes: open, soft, sometimes questioning",
+      "Mouth: slightly closed, sensitive",
+      "Jaw: delicately tense, protective posture",
+      "Posture: restrained, inwardly alert",
+    ],
+    breathingRhythm: [
+      "breath shallow in chest",
+      "breath deepens at closeness and trust",
+      "breathes more slowly when in contact",
+      "breath stops at insecurity",
+      "regulates through retreat and intimacy",
+    ],
+    movementInitiation: [
+      "moves hesitantly and thoughtfully",
+      "needs safety to become active",
+      "uses pauses for inner sorting",
+      "retreats when too much closeness",
+      "loves mental depth and retreat",
+    ],
+    contactStyle: [
+      "seeks deep, genuine connection",
+      "speaks little, but meaningfully",
+      "listens attentively and empathetically",
+      "needs time to open up",
+      "communicates sensitively and intuitively",
+    ],
+    tensionDistribution: `Head & Forehead: inner focus, thinking activity · Shoulders & Neck: slightly drawn back · Chest: receptive, open at closeness · Belly: sensitive, protection of the centre · Jaw: delicately tense, retreat tendency`,
+    embodiedSignature: [
+      "Depth & understanding",
+      "Clarity & independence",
+      "Selective intimacy",
+      "Fine perception",
+      "Protection of the inner space",
+    ],
+    coreTension: `Between the wish for deep connection and the fear of showing oneself too vulnerably. Fluctuates between closeness and retreat.`,
+    integrationPath: `From understanding to connection. From retreat to genuine closeness. From analysing to empathising. Performance becomes expression of depth and meaning - not as protection from closeness.`,
+    animal: { name: `Hedgehog`, description: `protects with spines to preserve vulnerable inner self; is still, attentive and wise; seeks closeness in its own way; is calm, resting and opens itself when sure it is safe` },
+    resourceField: [
+      "Wisdom & insight",
+      "Inner stillness & retreat",
+      "Clarity & depth",
+      "Analytical intelligence",
+      "Trust in one's own understanding",
+    ],
+    energeticTemp: `warm · nurturing · intense`,
+    attention: `on depth & meaning · on insight · on resonance`,
+    lifeFocus: `Knowledge · Clarity · Connection · Truth · Depth`,
+  },
+  se6: {
+    coreTheme: `Anxiety & Trust`,
+    identities: `The Anxious One · The Adapted One · The Loyal Sceptic`,
+    coreStatement: `I am loyal when I feel safe and am part of something reliable. Through my alertness and caution I protect myself and those who are important to me. I seek safety, orientation and support - and give trust and devotion for it.`,
+    organismQuestion: `How can I provide for safety and trust, without losing my alertness?`,
+    gazeQuality: [
+      "alert, scrutinising and searching",
+      "sees details and potential risks",
+      "mistrustful but devoted",
+      "scans environment and people",
+      "pays attention to moods and signals",
+    ],
+    microTension: [
+      "Forehead: slightly tense, worried",
+      "Eyes: alert, tense, quick to react",
+      "Mouth: slightly tense, restrained",
+      "Jaw: slightly tense, controlling",
+      "Posture: attentive, slightly tense",
+    ],
+    breathingRhythm: [
+      "breathes rather shallowly and irregularly",
+      "breath stops at insecurity",
+      "breathes faster at tension",
+      "sighs at exhaustion",
+      "needs deep, conscious breathing pauses",
+    ],
+    movementInitiation: [
+      "moves carefully and thoughtfully",
+      "observes first, then acts",
+      "checks environment before letting go",
+      "holds back until safety is there",
+      "needs confirmation before becoming active",
+    ],
+    contactStyle: [
+      "polite, respectful and loyal",
+      "asks, listens, is quite direct",
+      "seeks clarity and reliability",
+      "needs time to build trust",
+      "is supportive when secure",
+    ],
+    tensionDistribution: `Head & Neck: high tension, cognitive alarm readiness · Shoulders: raised, defensive ready · Chest: tense, shallow breathing · Belly: held back, inner pressure · Jaw: tense, controlled · Legs: ready for retreat or flight`,
+    embodiedSignature: [
+      "Deep anxiety & insecurity",
+      "Need for safety & support",
+      "Loyalty & sense of duty",
+      "Caution & risk avoidance",
+      "Protection of the inside and the group",
+    ],
+    coreTension: `Between the wish for safety and the fear of danger or betrayal. Fluctuates between trust and mistrust, devotion and retreat - constantly searching for a foothold.`,
+    integrationPath: `From mistrust to trust. From retreat to connectedness. From doubt to inner certainty. Performance becomes expression of devotion and meaning - not from fear, but from love.`,
+    animal: { name: `Rabbit`, description: `alert, sensitive and skittish; lives in groups, is loyal, but checks precisely; needs safety to show itself - and does so despite it all; stands for strength, justice and courage` },
+    resourceField: [
+      "Trust & connection",
+      "Inner safety & support",
+      "Loyalty & reliability",
+      "Community & belonging",
+      "Courage & self-protection",
+    ],
+    energeticTemp: `warm - inwardly tense`,
+    attention: `on dangers, safety & belonging`,
+    lifeFocus: `Safety · Loyalty · Trust`,
+  },
+  so6: {
+    coreTheme: `Anxiety & Trust`,
+    identities: `The Loyal One · The Alert One · The Dutiful One`,
+    coreStatement: `I am loyal when I am part of a strong group, and commit myself to what we protect together. Through my alertness, responsibility and willingness to cooperate I strengthen the community. I seek safety, orientation and support - and give commitment, reliability and protection for it.`,
+    organismQuestion: `How can I contribute to the safety and strength of my group while remaining connected?`,
+    gazeQuality: [
+      "alert, considered and group-oriented",
+      "sees coherences and dynamics",
+      "anxiety only visible on second look",
+      "calm, responsible, loyal",
+      "pays attention to safety, intimacy & signals",
+    ],
+    microTension: [
+      "Forehead: slightly tense, focused",
+      "Eyes: attentive, scrutinising, with broad view",
+      "Mouth: neutral to slightly tense",
+      "Jaw: moderately tense, controlled",
+      "Posture: upright, ready, alert",
+    ],
+    breathingRhythm: [
+      "breathes calmly and evenly",
+      "breath rather deep in the chest",
+      "breathes more consciously when responsible",
+      "needs safety & connecting breathing",
+    ],
+    movementInitiation: [
+      "acts with care and in the team",
+      "considers first, being itself",
+      "moves with goal and direction",
+      "orients to the needs of the group",
+      "needs safety before becoming active",
+    ],
+    contactStyle: [
+      "friendly, connecting and accommodating",
+      "listens, observes, asks after itself",
+      "speaks clearly, considered and respectfully",
+      "brings ideas for the welfare of the group",
+      "communicates loyally and supportively",
+    ],
+    tensionDistribution: `Head & Neck: inner alertness · Shoulders: slightly tense, carrying, supporting · Chest: open for connection · Belly: moderately tense, inwardly stable · Jaw: slightly tense, controlled · Legs: ready, standing firm and flexible`,
+    embodiedSignature: [
+      "Sense of responsibility",
+      "Loyalty & team orientation",
+      "Alertness & sense of reality",
+      "Cooperativeness",
+      "Protection of the community",
+    ],
+    coreTension: `Between the need for safety and belonging and the fear of betrayal or overload. Fluctuates between trust and mistrust, commitment and retreat - always in service of the group.`,
+    integrationPath: `From mistrust to connectedness. From doubt to trusting cooperation. From retreat to active engagement. Performance becomes service to the community and meaning - not from fear, but from loyalty.`,
+    animal: { name: `Meerkat`, description: `stands alert upright, watches over the group and protects it; is alert and cooperative; works intelligently and understands complex group dynamics; its strength lies in inner calm and flexibility` },
+    resourceField: [
+      "Trust & loyalty",
+      "Community & cohesion",
+      "Responsibility & commitment",
+      "Strategic thinking",
+      "Cooperation & support",
+    ],
+    energeticTemp: `warm · alert · connecting`,
+    attention: `on group, safety & dynamics`,
+    lifeFocus: `Belonging · Contribution · Protection`,
+  },
+  sx6: {
+    coreTheme: `Anxiety & Trust`,
+    identities: `The Fighter · The Strong-Willed One · Strength or Beauty`,
+    coreStatement: `I am loyal when I feel strong and live my inner truth. Through my passion and decisiveness I overcome anxiety and doubt. I seek a deep, genuine connection - and am ready to stand up for what is important to me.`,
+    organismQuestion: `How can I be courageous and strong, without losing my alertness and betraying myself?`,
+    gazeQuality: [
+      "penetrating, intense and mistrustful",
+      "wolf's gaze - sees deep and scrutinising",
+      "seeks the weak point before trust arises",
+      "simultaneously attractive and aloof",
+      "always ready to fight or flee",
+    ],
+    microTension: [
+      "Forehead: tense, focused, controlled",
+      "Eyes: intense, narrowed, penetrating",
+      "Mouth: firm, often slightly compressed",
+      "Jaw: pronounced and strongly tense",
+      "Posture: ready to fight, proud, tense",
+    ],
+    breathingRhythm: [
+      "breathes deep and powerfully in the chest",
+      "breath stops at threat or rejection",
+      "breathes faster when ready to fight",
+      "breath deepens when passion is active",
+    ],
+    movementInitiation: [
+      "moves goal-directed and decisively",
+      "reacts quickly when danger is perceptible",
+      "goes to others when interest is aroused",
+      "retreats suddenly, explosively when hurt",
+      "needs challenges to feel alive and strong",
+    ],
+    contactStyle: [
+      "seeks intensive, genuine connections",
+      "speaks directly, passionately and demandingly",
+      "tests loyalty through closeness and confrontation",
+      "brings feeling strong and unfiltered",
+      "communicates with undertone and tension",
+    ],
+    tensionDistribution: `Head & Neck: inner alertness · Shoulders & Neck: raised, high · Chest: strongly active, intensive · Belly: tense, ready for action · Jaw: strongly tense, powerful · Legs: standing firm, powerfully, ready to spring`,
+    embodiedSignature: [
+      "Readiness to fight & strength",
+      "Intensive emotional reactivity",
+      "Mistrust as protective strategy",
+      "Loyalty & protective instinct",
+      "Protection of the own and the weaker ones",
+    ],
+    coreTension: `Between anxiety and courage, between retreat and deep loyalty and devotion. Fluctuates between control and devotion, seeking to prove strength and find genuine security.`,
+    integrationPath: `From mistrust to inner strength. From struggle against anxiety to conscious courage. From the need for control to devotion. Performance becomes expression of courage and truth - not from anxiety, but from choice.`,
+    animal: { name: `Wolf`, description: `alert, strong, loyal and protective of its pack; goes at dangers with courage and strength; has a penetrating gaze and acts with hidden intentions; courage and strength hand in hand` },
+    resourceField: [
+      "Courage & decisiveness",
+      "Loyalty & protective instinct",
+      "Passion & attractiveness",
+      "Strategic intelligence",
+      "Endurance & fighting spirit",
+    ],
+    energeticTemp: `warm to hot`,
+    attention: `on dangers, loyalty & intensity`,
+    lifeFocus: `Strength · Loyalty · Passion`,
+  },
+  se7: {
+    coreTheme: `Enthusiasm & Abundance`,
+    identities: `The Pleasure-Seeker · The Planner · The Pleasure Person`,
+    coreStatement: `I am enthusiastic when life offers many possibilities and I experience the beautiful, pleasant and pleasurable. Through my optimism and spontaneity I seek joy, variety and lightness. I fill my life with experiences, pleasure and connection - and share my joy with others.`,
+    organismQuestion: `How can I enjoy life to the full and use the abundance of possibilities, without losing myself?`,
+    gazeQuality: [
+      "open, lively and searching",
+      "radiates warmth, joy and curiosity",
+      "looks in many directions simultaneously",
+      "expectant, enthusiastic and inviting",
+      "avoids pain and narrowness in the gaze",
+    ],
+    microTension: [
+      "Forehead: relaxed, often slightly raised",
+      "Eyes: lively, glowing, searching",
+      "Mouth: soft, often smiling or chatting",
+      "Jaw: relaxed, round, not tense",
+      "Posture: open, expansive, mobile",
+    ],
+    breathingRhythm: [
+      "breathes deep, free and pleasurably",
+      "breath flows freely in chest and belly",
+      "breathes rhythmically, often with sighs",
+      "breathes faster at excitement",
+      "needs fresh air and movement",
+    ],
+    movementInitiation: [
+      "moves easily, freely and with momentum",
+      "acts impulsively when something attracts",
+      "starts many things, loves new things",
+      "needs variety, movement and stimulation",
+      "avoids standstill and routine",
+    ],
+    contactStyle: [
+      "open, warm and enthusiastic",
+      "speaks much, lively and pictorially",
+      "brings energy and joy to conversations",
+      "seeks connection and shared experiences",
+      "communicates motivatingly and inspiringly",
+    ],
+    tensionDistribution: `Head & Neck: many thoughts, bouncy · Shoulders & Neck: open, loose · Chest: wide, open, lively · Belly: pleasure centre · Jaw: loose, round, often moving · Legs: light, mobile, ready for new things`,
+    embodiedSignature: [
+      "Abundance & surplus",
+      "Optimism & joy of life",
+      "Pleasure & sensuality",
+      "Versatility & spontaneity",
+      "Avoidance of pain & lack",
+    ],
+    coreTension: `Between the wish for abundance and experience and the fear of pain, lack or limitation. Flees into ever new possibilities to maintain lightness and joy.`,
+    integrationPath: `From scattering to inner fullness. From avoiding to accepting. From always-more to enjoying in the now. Performance becomes expression of joy and meaning - not from flight, but from love.`,
+    animal: { name: `Gorilla`, description: `powerful, generous and peaceful; nourishes itself from large groups, takes space in its community, is adaptable and lives in connection; stands for strength without aggression, pleasure without guilt and community` },
+    resourceField: [
+      "Joie de vivre & humour",
+      "Gratitude & pleasurability",
+      "Trusting relationships",
+      "Creativity & inspiration",
+      "Nature, movement & abundance",
+    ],
+    energeticTemp: `warm, lively and inviting`,
+    attention: `on variety, joy & possibilities`,
+    lifeFocus: `Abundance · Pleasure · Lightness · Connection`,
+  },
+  so7: {
+    coreTheme: `Enthusiasm & Abundance`,
+    identities: `The Visionary · The Networker · The Idea-Rich One`,
+    coreStatement: `I am enthusiastic when I can jointly shape the future with others and discover many possibilities. Through my ideas, my optimism and my drive I bring movement, joy and progress into the group. I seek exchange, variety and exciting projects - and share my visions to create something great.`,
+    organismQuestion: `How can I contribute through my ideas and my engagement to the unfolding and to the success of the community?`,
+    gazeQuality: [
+      "alert, interested and group-oriented",
+      "radiates curiosity, openness and optimism",
+      "sees possibilities and connections",
+      "expectant and active",
+      "conveys joy, energy and confidence",
+    ],
+    microTension: [
+      "Forehead: active, slightly tense, focused",
+      "Eyes: alert, lively, searching",
+      "Mouth: friendly, often slightly smiling",
+      "Jaw: loose, functional, not tense",
+      "Posture: open, devoted, mobile",
+    ],
+    breathingRhythm: [
+      "breathes deep and evenly in the chest",
+      "breath flows easily and freely",
+      "breathes rhythmically, often with conversation pauses",
+      "needs fresh air and movement",
+    ],
+    movementInitiation: [
+      "moves purposefully and actively",
+      "approaches others and networks people",
+      "starts projects and brings ideas in",
+      "reacts quickly to chances and new things",
+      "avoids boredom and standstill",
+    ],
+    contactStyle: [
+      "open, friendly and appreciating",
+      "speaks enthusiastically, clearly and connectingly",
+      "listens actively to others",
+      "brings groups into conversation and action",
+      "communicates inspiringly and motivatingly",
+    ],
+    tensionDistribution: `Head & Neck: alert, active, idea-rich · Shoulders & Neck: mobile · Chest: open, expressive · Belly: relaxed, receptive · Jaw: loose, natural · Legs: mobile, ready for activity`,
+    embodiedSignature: [
+      "Vision & enthusiasm",
+      "Idea-richness & creativity",
+      "Community sense & cooperation",
+      "Progress & development",
+      "Optimism & joy of life",
+    ],
+    coreTension: `Between curiosity and scattering, between ideas and focus. Fluctuates between enthusiasm and overload. Flees before limitation, seeks ever new possibilities.`,
+    integrationPath: `From scattering to conscious design. From attraction to meaningful contribution. From idea to realisation in service of the community. Performance becomes joyful commitment for a shared goal - not from flight, but from vision.`,
+    animal: { name: `Beaver`, description: `diligent, idea-rich and community-oriented; plans and designs living spaces for itself and its group; works persistently and with joy on projects; builds connections, structures and protection for the community` },
+    resourceField: [
+      "Joy of life & enthusiasm",
+      "Creativity & idea variety",
+      "Community & networking",
+      "Drive & initiative",
+      "Inspiration & motivation",
+    ],
+    energeticTemp: `warm · lively · open`,
+    attention: `on variety & possibilities & projects`,
+    lifeFocus: `Abundance · Community · Development · Future`,
+  },
+  sx7: {
+    coreTheme: `Enthusiasm & Abundance`,
+    identities: `The Adventurer · The Euphoric One · The Life Artist`,
+    coreStatement: `I am enthusiastic when life is exciting, intense and full of possibilities. Through my passion and my courage I seek strong experiences, freedom and intensity. I conquer life by crossing limits, daring new things and following my desire.`,
+    organismQuestion: `How can I experience life in its full intensity and use all possibilities to the maximum?`,
+    gazeQuality: [
+      "penetrating, magnetic and hunting",
+      "seeks closeness, tests limits and reactions",
+      "sees stimuli, chances and possibilities",
+      "senses intensity and reacts quickly",
+      "expression of curiosity, desire and courage",
+    ],
+    microTension: [
+      "Forehead: slightly tense, attentive",
+      "Eyes: sparkling, searching, fixating",
+      "Mouth: playful, sensual, slightly grinning",
+      "Jaw: tense, ready, powerful",
+      "Posture: forward-directed, lively, electric",
+    ],
+    breathingRhythm: [
+      "breathes quickly, deep and changeably",
+      "breath flows in waves, according to stimuli",
+      "breathes rhythmically, often through the mouth",
+      "breath deepens at tension and closeness",
+      "needs movement and intensive stimuli",
+    ],
+    movementInitiation: [
+      "starts quickly and impulsively",
+      "moves lively, lithe and flexible",
+      "needs variety and new stimuli",
+      "seeks adventures, travels and new experiences",
+      "avoids boredom and routine",
+    ],
+    contactStyle: [
+      "charming, flirting and winning",
+      "speaks much, pictorially and engagingly",
+      "uses humour, wit and exaggeration",
+      "brings tension and dynamism to conversations",
+      "seeks deep connection and fusion",
+    ],
+    tensionDistribution: `Head & Neck: alert, tense, searching · Shoulders & Neck: mobile, reaction-ready · Chest: wide, open, pulsating · Belly: active, lively · Jaw: powerful, tense · Legs: sprung, fast, dynamic`,
+    embodiedSignature: [
+      "Passion & intensity",
+      "Courage & adventurousness",
+      "Sensuality & attractiveness",
+      "Flexibility & adaptability",
+      "Boundary-crossing & conquest",
+    ],
+    coreTension: `Between desire and control, between closeness and freedom, between fusion and flight. The tension drives it to seek ever more intensity to experience and find itself in experience.`,
+    integrationPath: `From being driven to conscious choice. From living out desire to genuine connection. From constantly chasing the kick to the ability to maintain depth and intimacy. Performance becomes expression of passion and meaning - not merely for self-confirmation.`,
+    animal: { name: `Chimpanzee`, description: `curious, playful, social and full of life; lives in contact, seeks adventure and variety; tests limits and loves challenges; seeks closeness and stimuli and demonstrates intelligence, flexibility and adaptability` },
+    resourceField: [
+      "Joy of life & passion",
+      "Courage, adventure & spontaneity",
+      "Sensuality & attractiveness",
+      "Creativity & expressiveness",
+      "Freedom, travel & discovery",
+    ],
+    energeticTemp: `hot · lively · electric`,
+    attention: `on stimuli · on possibilities · on intensity`,
+    lifeFocus: `Experience · Passion · Freedom`,
+  },
+  se8: {
+    coreTheme: `Power & Control`,
+    identities: `The Survival Fighter · The Autonomous One · The Strong One`,
+    coreStatement: `I am strong, assertive and don't let myself be controlled. I take responsibility and protect what is important to me and others. Through my presence and decisiveness I create order, security and clear limits. I act directly and uncompromisingly - and stand for loyalty, protection and justice.`,
+    organismQuestion: `How can I use my power and my influence to protect and shape what is important to me?`,
+    gazeQuality: [
+      "penetrating, intense and dominant",
+      "fixating, controlling and demanding",
+      "sees power relationships and dynamics",
+      "senses weakness, disorder and injustice",
+      "conveys strength, decisiveness and control",
+    ],
+    microTension: [
+      "Forehead: tense, drawn together",
+      "Eyes: fixating, penetrating, narrow",
+      "Mouth: firm, closed or determined",
+      "Jaw: strongly tense, powerful",
+      "Posture: upright, stable, space-taking",
+    ],
+    breathingRhythm: [
+      "breathes deep, powerfully and controlled",
+      "breath flows powerfully in belly",
+      "breathes rhythmically, with power and pressure",
+      "breathes out to reduce tension",
+      "needs movement and discharge",
+    ],
+    movementInitiation: [
+      "moves purposefully and determined",
+      "goes with strength and presence",
+      "starts quickly, without hesitation",
+      "needs action, influence and control",
+      "avoids helplessness and dependency",
+    ],
+    contactStyle: [
+      "direct, clear and confrontation-ready",
+      "speaks determined, structured and solution-oriented",
+      "goes to the point and wants results",
+      "brings strength and protection into relationships",
+      "communicates controllingly and loyally",
+    ],
+    tensionDistribution: `Head & Neck: tense, controlling · Shoulders & Neck: broad, powerful · Chest: open, dominant · Belly: tense, centred · Jaw: strong, pressed together · Legs: stable, grounded, powerful`,
+    embodiedSignature: [
+      "Power & control",
+      "Loyalty & strength",
+      "Assertiveness & courage",
+      "Independence & self-determination",
+      "Justice & integrity",
+    ],
+    coreTension: `Between the need to hold control and the fear of being dependent, dominated or weak. Fluctuates between fight and knowing to use strength consciously and not destructively.`,
+    integrationPath: `From struggle to conscious strength. From dominating to enabling. From controlling to responsibility. From resistance to just leadership. Performance becomes contribution to integrity and meaning - not for power's sake.`,
+    animal: { name: `Orang-Utan`, description: `powerful, intelligent and independent; lives in its own territory, protects its family and its group; is calm but persistent and assertive; marks limits, wards off intruders and takes on responsibility; stands for strength, protection and dignity` },
+    resourceField: [
+      "Inner strength & steadfastness",
+      "Courage & decisiveness",
+      "Loyalty & protective instinct",
+      "Justice & integrity",
+      "Leadership & clarity",
+    ],
+    energeticTemp: `hot · powerful · intensive`,
+    attention: `controlling · focused · decisive`,
+    lifeFocus: `Power · Protection · Justice · Integrity`,
+  },
+  so8: {
+    coreTheme: `Power & Control`,
+    identities: `The Protector · The Leader · The Viking`,
+    coreStatement: `I take responsibility and lead with strength and wisdom. I protect my people and set clear limits. Through my decisiveness and my organisational talent I create structure, security and stability in the group. I act strategically and solution-oriented - and make sure that our goals are achieved.`,
+    organismQuestion: `How can I use my leadership strength and my organisational talent to protect my group and achieve our shared goals?`,
+    gazeQuality: [
+      "alert, present and overview-taking",
+      "sees coherences and structures",
+      "recognises strengths, weaknesses and potentials",
+      "senses responsibility and possibilities",
+      "conveys security, clarity and authority",
+    ],
+    microTension: [
+      "Forehead: focused, slightly tense",
+      "Eyes: wide open, controlling, overview",
+      "Mouth: firm, closed or determined",
+      "Jaw: firm, stable, controlled",
+      "Posture: upright, stable, leading",
+    ],
+    breathingRhythm: [
+      "breathes deep and powerfully in belly",
+      "breath flows evenly and controlled",
+      "breathes rhythmically, with power and presence",
+      "breathes out to clarify and to lead",
+      "needs movement and balance",
+    ],
+    movementInitiation: [
+      "moves purposefully and decisively",
+      "moves powerfully and leading",
+      "starts quickly, without hesitation",
+      "needs action, influence and responsibility",
+      "avoids helplessness and loss of control",
+    ],
+    contactStyle: [
+      "direct, clear and matter-of-fact",
+      "speaks determined, structured and solution-oriented",
+      "goes to the point and wants results",
+      "brings order and leadership to conversations",
+      "communicates connectingly and loyally",
+    ],
+    tensionDistribution: `Head & Neck: tense, overview-taking · Shoulders & Neck: broad, carrying, stable · Chest: open, powerful · Belly: tense, controlling · Jaw: firm, pressed together · Legs: stable, powerful, standing firm`,
+    embodiedSignature: [
+      "Leadership & responsibility",
+      "Strength & security",
+      "Organisation & structure",
+      "Justice & loyalty",
+      "Control & strategy",
+    ],
+    coreTension: `Between control and trust, between leadership and cooperation. Fluctuates between taking over responsibility and relief. The tension drives it to use its capabilities to ensure security and justice.`,
+    integrationPath: `From controlling to the most far-sighted leadership. From making to enabling. From asserting to justice. Performance becomes contribution to the common good and meaning - not for power or recognition.`,
+    animal: { name: `Lion`, description: `the born leader, provides for its pride and protects its area; is proud, just and strategic; takes over responsibility and leads powerfully; stands for strength, power and loyalty; its strength lies in wisdom and heart` },
+    resourceField: [
+      "Leadership strength & responsibility",
+      "Organisation & structure",
+      "Protection & security",
+      "Justice & loyalty",
+      "Strategy & wisdom",
+    ],
+    energeticTemp: `warm · powerful · assertive`,
+    attention: `overview-taking · strategic · leadership-conscious`,
+    lifeFocus: `Responsibility · Justice · Protection · Structure`,
+  },
+  sx8: {
+    coreTheme: `Power & Control`,
+    identities: `The Challenger · The Possessive One · The Rebel`,
+    coreStatement: `I am intense, passionate and don't let myself be controlled. I follow my instincts and go where life feels real and exciting. Through my presence and my magnetic radiance I attract what I want - and let go of what restricts me. I live by my own rules and fight for what is important to me.`,
+    organismQuestion: `How can I live my intensity and passion, without overwhelming others - and enter real, deep connections?`,
+    gazeQuality: [
+      "penetrating, magnetic and captivating",
+      "seeks depth, fusion and intensity",
+      "tests limits and loyalty",
+      "sees strength, passion and authenticity",
+      "conveys attraction, power and danger",
+    ],
+    microTension: [
+      "Forehead: tense, concentrated and alert",
+      "Eyes: narrow, intense and penetrating",
+      "Mouth: sensual, decisive or demanding",
+      "Jaw: firm, powerful, tense",
+      "Posture: powerful, present, space-taking",
+    ],
+    breathingRhythm: [
+      "breathes deep, powerful and rhythmically",
+      "breath flows in waves - intense and perceptible",
+      "breathes through the belly and pelvic space",
+      "breathes faster at excitement or fight",
+      "needs movement and discharge",
+    ],
+    movementInitiation: [
+      "moves purposefully and with intent",
+      "goes with strength, presence and sensuality",
+      "starts quickly, without hesitation",
+      "needs influence, impact and conquest",
+      "avoids weakness and rejection",
+    ],
+    contactStyle: [
+      "direct, intense and confrontation-ready",
+      "speaks demandingly, deep and penetrating",
+      "goes to the point and wants reaction",
+      "brings passion and focus to relationships",
+      "seeks fusion and absolute loyalty",
+    ],
+    tensionDistribution: `Head & Neck: tense, alert, focused · Shoulders & Neck: broad, powerful · Chest: present, opened or tense · Belly: tense, centred, powerful · Jaw: firm, pressed together · Legs: stable, powerful, ready to spring`,
+    embodiedSignature: [
+      "Power & assertiveness",
+      "Intensity & passion",
+      "Conquest & influence",
+      "Independence & self-determination",
+      "Loyalty & protective instinct",
+    ],
+    coreTension: `Between the need for intensive fusion and the fear of control, being weak or controlled. The tension drives it to live full of passion and to fight for power, loyalty and freedom.`,
+    integrationPath: `From struggle for control to conscious devotion. From conquering to cooperative connection. From asserting to just freedom. Performance becomes service to love and truth - not to the satisfaction of desire.`,
+    animal: { name: `Crocodile`, description: `master of patience, strength and presence; lets itself be, observes and strikes when the moment is right; is primal, instinctive and without compromise; acts for raw power and its area` },
+    resourceField: [
+      "Passion & energy of life",
+      "Presence & magnetism",
+      "Courage & independence",
+      "Loyalty & strength",
+      "Intuition & instinct security",
+    ],
+    energeticTemp: `hot · intense · electric`,
+    attention: `focussed · demanding · selective`,
+    lifeFocus: `Intensity · Freedom · Loyalty · Passion`,
+  },
+  se9: {
+    coreTheme: `Harmony & Peace`,
+    identities: `The Comfortable One · The Substitute-Satisfied One · The Passive-Aggressive One`,
+    coreStatement: `I carry responsibility with composure and inner calm. I protect what serves life and act justly. Through my wisdom and depth of experience I create stability, security and lasting structures. I act thoughtfully and responsibly - and stand for what is right in the long term.`,
+    organismQuestion: `How can I use my wisdom and far-sightedness to preserve the good and create justice for all?`,
+    gazeQuality: [
+      "soft, friendly and spacious",
+      "sees coherences and developments",
+      "recognises the essential behind the visible",
+      "conveys trust, stability and peace",
+      "sees in generations and larger cycles",
+    ],
+    microTension: [
+      "Forehead: smooth, relaxed and wide",
+      "Eyes: soft, calm and receptive",
+      "Mouth: relaxed, friendly and composed",
+      "Jaw: soft, not tense",
+      "Posture: upright, free and relaxed",
+    ],
+    breathingRhythm: [
+      "breathes deep, slow and evenly",
+      "breath flows softly in belly",
+      "breathes rhythmically, in inner calm",
+      "breathes out to let go and order",
+      "needs stillness, nature and retreat",
+    ],
+    movementInitiation: [
+      "moves calmly, flowingly and thoughtfully",
+      "goes with care, presence and dignity",
+      "starts slowly but decisively",
+      "needs overview, orientation and meaning",
+      "avoids hectic and overreaction",
+    ],
+    contactStyle: [
+      "speaks thoughtfully, calmly and weightly",
+      "hears deep and captures the essential",
+      "goes to the point and stays solution-oriented",
+      "brings wisdom and experience into conversations",
+      "communicates connectingly and loyally",
+    ],
+    tensionDistribution: `Head & Neck: calm, soft · Shoulders & Neck: stable, carrying · Chest: soft, carried · Belly: deep, calm, relaxed · Jaw: relaxed, controlled · Legs: stable, earthed, standing firm`,
+    embodiedSignature: [
+      "Wisdom & far-sightedness",
+      "Justice & protection",
+      "Stability & reliability",
+      "Responsibility & leadership",
+      "Integrity & awareness of values",
+    ],
+    coreTension: `Between knowing what is right and the responsibility to consistently implement it. The tension drives it to think in the long term, make just decisions and take on what is right for the welfare of all.`,
+    integrationPath: `From knowledge to wisdom. From searching to recognising. From reacting to responsible leadership. From the individual to service to the good of the whole and to justice.`,
+    animal: { name: `Elephant`, description: `wise, gentle and far-sighted; protects its herd, thinks in long paths and lives in harmony with nature; carries responsibility with courage and loyalty; stands for strength, justice and compassion` },
+    resourceField: [
+      "Wisdom & experience",
+      "Responsibility & drive",
+      "Justice & fairness",
+      "Patience & steadfastness",
+      "Protection & care",
+      "Wisdom & sensibility",
+    ],
+    energeticTemp: `warm · steady · balancing`,
+    attention: `solution-oriented · connecting · long-term`,
+    lifeFocus: `Wisdom · Stability · Responsibility · Justice`,
+  },
+  so9: {
+    coreTheme: `Harmony & Peace`,
+    identities: `The Benefactor · The Mediator · The Balancing One`,
+    coreStatement: `I strengthen the cohesion and create an environment in which everyone can feel well. I promote understanding, balance and harmonious coexistence. Through my calm, patience and sense for the essential I create connection, trust and stability.`,
+    organismQuestion: `How can I promote harmony and balance to create an environment in which all feel connected and understood?`,
+    gazeQuality: [
+      "soft, calm and peripheral",
+      "sees the whole and recognises coherences",
+      "recognises needs and developments",
+      "conveys trust, belonging and calm",
+      "sees the connecting in people and situations",
+    ],
+    microTension: [
+      "Forehead: smooth, relaxed and open",
+      "Eyes: soft, warm and receptive",
+      "Mouth: relaxed, slightly smiling or neutral",
+      "Jaw: soft, not tense",
+      "Posture: upright, relaxed and open",
+    ],
+    breathingRhythm: [
+      "breathes deep, calm and evenly",
+      "breath flows softly in belly",
+      "breathes rhythmically, in inner calm",
+      "breathes out to let go and order",
+      "needs stillness, nature and retreat",
+    ],
+    movementInitiation: [
+      "moves calmly, flowingly and thoughtfully",
+      "goes with care, presence and dignity",
+      "starts slowly but decisively",
+      "needs overview, orientation and meaning",
+      "avoids hectic and overreaction",
+    ],
+    contactStyle: [
+      "speaks calmly, friendly and connectingly",
+      "hears attentively and takes everything in",
+      "goes to the point without pressing",
+      "brings harmony and balance to conversations",
+      "communicates connectingly and loyally",
+    ],
+    tensionDistribution: `Head & Neck: calm, soft · Shoulders: relaxed, carrying · Chest: open, warm, wide · Belly: deep, calm, relaxed · Jaw: soft, not controlling · Legs: stable, earthed, standing firm`,
+    embodiedSignature: [
+      "Harmony & balance",
+      "Cohesion & connectedness",
+      "Understanding & compassion",
+      "Wisdom & patience",
+      "Stability & steadfastness",
+    ],
+    coreTension: `Between the wish for harmony and the necessity to set limits, make decisions, take on responsibility. The tension drives it to create balance and contribute to the good of the whole.`,
+    integrationPath: `From the wish for harmony. From observing to understanding. From avoiding to clear, loving leadership. From stepping back to responsibility. Performance becomes service to the community and meaning.`,
+    animal: { name: `Black African Buffalo`, description: `stands for steadfastness, patience and the silent strength of the herd; preserves community, maintains balance and protects itself with courage and decisiveness; stands for softness and wisdom for the welfare of the whole` },
+    resourceField: [
+      "Harmony & balance",
+      "Patience & gentleness",
+      "Stability & steadfastness",
+      "Understanding & compassion",
+      "Protection & care",
+      "Responsibility & service",
+    ],
+    energeticTemp: `warm · balancing · calming`,
+    attention: `wide-sighted · connecting · solution-oriented`,
+    lifeFocus: `Harmony · Balance · Belonging · Stability`,
+  },
+  sx9: {
+    coreTheme: `Harmony & Peace`,
+    identities: `The Merging One · The Devoted One · The Dreamer`,
+    coreStatement: `I long for fusion and unity. I want to be one with everything and everyone. Through my devotion, gentleness and receptivity I create closeness, peace and deep connectedness. I act thoughtfully and with an open heart - and trust that life carries me.`,
+    organismQuestion: `How can I become one with everything and everyone, to experience peace and love?`,
+    gazeQuality: [
+      "dreamy, soft and matt",
+      "sees the whole and feels connected",
+      "absorbs moods and energies",
+      "avoids confrontation and tension",
+      "seeks unity and fusion",
+    ],
+    microTension: [
+      "Forehead: smooth, relaxed and soft",
+      "Eyes: half-opened, peaceful and matt",
+      "Mouth: soft, relaxed, slightly open",
+      "Jaw: loose, little tension",
+      "Posture: yielding, flowing and soft",
+    ],
+    breathingRhythm: [
+      "calm, slow and deep",
+      "breath flows softly in belly",
+      "breathes rhythmically, in inner calm",
+      "breathes in to absorb and connect",
+      "needs stillness, nature and belonging",
+    ],
+    movementInitiation: [
+      "moves slowly, flowingly and softly",
+      "goes with ease and adaptation",
+      "starts gently and without haste",
+      "needs abundance, environment, closeness and belonging",
+      "avoids energy expenditure and confrontation",
+    ],
+    contactStyle: [
+      "speaks gently, calmly and connectingly",
+      "hears attentively and takes everything in",
+      "goes to the point without pressing",
+      "creates harmony and deep connection",
+      "communicates lovingly and loyally",
+    ],
+    tensionDistribution: `Head & Neck: soft, loose, receptive · Shoulders & Neck: soft, loose, yielding · Chest: open, warm, connected · Belly: soft, relaxed, receptive · Jaw: loose, little tension · Legs: light, soft, flowing`,
+    embodiedSignature: [
+      "Harmony & fusion",
+      "Peace & gentleness",
+      "Receptivity & adaptation",
+      "Depth of connection & unity",
+      "Surrender & letting go",
+    ],
+    coreTension: `Between the wish for fusion and the need for self-assertion. The tension drives it to fully give itself, without losing itself in the process.`,
+    integrationPath: `From the wish for unity. From self-surrender to conscious self-assertion. From soft-being to inner peace. Peace becomes a gift to life and to love.`,
+    animal: { name: `Sloth`, description: `stands for slowness, composure and deep fusion with life; moves in its own peace, spares energy and remains in harmony with its environment; reminds us that strength lies in letting go and in being` },
+    resourceField: [
+      "Unity & love",
+      "Peace & gentleness",
+      "Belonging & closeness",
+      "Receptivity & devotion",
+      "Trust & letting go",
+      "Harmony & connection",
+    ],
+    energeticTemp: `warm · soft · flowing · calm`,
+    attention: `receptive · peripheral · perceptible`,
+    lifeFocus: `Unity · Peace · Love · Belonging · Connection`,
+  },
+};
+
+const SUBTYP_IMPULSE_EN = {
+  se1: {
+    text: `The SP1 subtype carries the inner critic most loudly – but directs that strictness first against itself. It anticipates, plans, checks – and still always finds a point where things are not quite good enough.
+
+That strictness comes from a deep care: for oneself, for the world. The first step towards healing is not to silence the inner critic. It is to thank it – and then gently say: It is enough.`,
+    impuls: `What have you already done right today? Name three things. Out loud or quietly.`,
+  },
+  so1: {
+    text: `The SO1 has a mission. It knows how the world should be – and does not give up until it has made that clear to others too. That can be inspiring. But it can also divide.
+
+The question that may accompany it: Is it more important that I am right – or that we understand each other? Standing up for values takes courage. But values that build no bridge become walls.`,
+    impuls: `Is there someone whose path you can accept today – even if you walk it differently?`,
+  },
+  sx1: {
+    text: `The SX1 burns. Its convictions are not opinions – they are fire. It loves passionately, fights passionately, demands passionately.
+
+But fire can warm – or burn. The SX1 may learn to regulate the flame: not to extinguish it, but to direct it. The energy it puts into the fight carries within it the greatest potential for transformation.`,
+    impuls: `Where is something burning in you right now? Ask yourself: Does this fire burn me – or does it light the way for something?`,
+  },
+  se2: {
+    text: `The SP2 is the least known helper. From the outside it sometimes appears self-centred – yet it is only looking for its own place in the world. It gives, but it also cares for itself. That is not a flaw. That is health.
+
+The growth of the SP2 lies in learning what it needs – without detours. Not through indirect giving that hopes for something in return. But through clear, loving asking.`,
+    impuls: `What do you really need right now? Can you say it directly today – without earning it first?`,
+  },
+  so2: {
+    text: `The SO2 loves people – and knows how to inspire them. It creates connections, moves groups, becomes indispensable. That is a genuine gift.
+
+But sometimes it asks itself: Do they love me – or only what I do for them? That question is not coquetry. It is the heart of its wound. Genuine belonging needs no achievement. It needs presence.`,
+    impuls: `Today: don't organise anything, don't offer anything. Simply be present. See whether you are still welcome.`,
+  },
+  sx2: {
+    text: `The SX2 loves intensely. It seeks the one connection that means everything – and puts everything into getting it. That is not a weakness. It is the force of the heart.
+
+But love that fights sometimes loses itself. Real connection does not arise in conquest – it arises in letting go.`,
+    impuls: `Is there someone in your life you are giving too much to – and yourself too little? What would it mean to step back one step today?`,
+  },
+  se3: {
+    text: `The SP3 does not want to be the loudest. It wants to be the reliable one. The one who is always there, gets everything done, makes no mistakes – and barely draws attention in the process.
+
+But this modesty is often itself an image. A protective armour. Whoever never shines cannot lose. The growth of the SP3: to allow being seen – not for what it achieves, but for what it is.`,
+    impuls: `What would you do if you were allowed to be seen today – not for your performance, but for yourself?`,
+  },
+  so3: {
+    text: `The stage is its home. The SO3 knows what image it must project – and projects it with perfection. It is the type that knows in every room who it should be right now.
+
+But behind the stage, silence waits. And in the silence, the question: Who am I when nobody is watching? That is not a threatening question. It is the most liberating question a person can ask themselves.`,
+    impuls: `Allow yourself a moment today without an audience. And look: what remains?`,
+  },
+  sx3: {
+    text: `The SX3 embodies attraction. It knows how it comes across – and uses that consciously. Not out of vanity, but because it has learnt: this is who I am. This is my path.
+
+But attractiveness that bends itself to please loses its centre eventually. The deepest attraction does not come from the image – it comes from authenticity.`,
+    impuls: `What would be the most authentic thing you could show today – without regard for how it lands?`,
+  },
+  se4: {
+    text: `The SP4 suffers – but does not show it. It is the quiet one among the Fours. It carries, endures, keeps going. That is genuine strength.
+
+But that strength has a price: one's own vulnerability stays hidden. Even from oneself. Eventually the body asks what the soul was not allowed to express.`,
+    impuls: `What are you carrying right now that you could actually set down? Who could you entrust it to today?`,
+  },
+  so4: {
+    text: `The SO4 compares. It sees what others have, what they are, how they come across – and measures itself against that. The result is almost always the same: it comes up short.
+
+But that comparison is a lie. Not because it is calculating wrongly – but because it is setting up the wrong equation. You are not a comparison. You are an original. And originals have no comparison value.`,
+    impuls: `Try today not to compare yourself. Just today. And see how that feels.`,
+  },
+  sx4: {
+    text: `The SX4 lives in tension. It wants connection – and fears not being good enough. So it overcompensates: becomes better, bigger, more intense. Or withdraws. Both are the same coin. Both are protection against the deepest fear: of being truly seen.`,
+    impuls: `What would happen if today you neither fight nor withdraw – but simply are present?`,
+  },
+  se5: {
+    text: `The SP5 builds its inner castle carefully. It knows exactly how much it needs – and how much it can give. That is not coldness. That is self-protection.
+
+But sometimes the castle becomes so secure that nobody can get in any more. Not even it finds the door itself. Connection needs no weakness. It needs an open door.`,
+    impuls: `Who could you invite today – even just briefly? What is the smallest thing you could share?`,
+  },
+  so5: {
+    text: `The SO5 belongs – but through ideas, not through the heart. It finds community in systems, theories, values. That is its path into connection.
+
+That is valuable. But sometimes the concept is not enough. Sometimes a person needs another person – not a shared conviction.`,
+    impuls: `Is there someone you could show yourself to today without a topic, without a theory, simply as you are?`,
+  },
+  sx5: {
+    text: `The SX5 opens itself – but only to the one. The one it truly trusts. Then it shares everything: thoughts, secrets, worlds. That is a rare and precious gift.
+
+But if that one person is missing or goes, the SX5 retreats deeply. The inner connection may not depend on a single person.`,
+    impuls: `What gives you grounding today – beyond any one person? Where do you find yourself?`,
+  },
+  se6: {
+    text: `The SP6 is the friendliest of the Sixes. It builds relationships – warm, reliable, often lifelong. That is its safety net.
+
+But sometimes behind the warmth there is a question: Will you stay even when I am no longer so nice? When I set limits? When I show myself as I really am?`,
+    impuls: `Show yourself today to someone you trust in a moment where you are not perfect. And see if they stay.`,
+  },
+  so6: {
+    text: `The SO6 follows the rules. It knows what it should do – and it does it. Reliably, loyally, dutifully. Everyone who knows it appreciates that.
+
+But sometimes it wonders: What do I actually want? What do I think when I am not thinking about the rule? Duty is important. But a life that consists only of duty is not a free life.`,
+    impuls: `What would you do today if there were no rules – and nobody would be disappointed?`,
+  },
+  sx6: {
+    text: `The SX6 shows no fear. It goes towards it, faces it, overcomes it – again and again. From the outside it looks courageous. Sometimes even fearless.
+
+But the strength it shows is often the opposite of what it feels. The next step: not only to overcome the fear – but to accept it. To get to know it as part of oneself.`,
+    impuls: `What is frightening you right now – that you have not yet looked at? Can you simply look at it for a moment today?`,
+  },
+  se7: {
+    text: `The SP7 is practical. It knows who it needs to know, what it needs, how to get it. It builds networks the way others tend gardens – with persistence and joy.
+
+But sometimes it loses something in the process: depth. The friendship that is not useful. The pause that brings nothing.`,
+    impuls: `Call someone you like today – without an agenda. Just because. And enjoy having nothing planned.`,
+  },
+  so7: {
+    text: `The SO7 is the surprising one among the Sevens. It sacrifices. It renounces its own pleasure for the good of others, for ideals, for the community. That is genuine greatness.
+
+But sometimes it forgets itself in the process. Whoever sacrifices themselves continuously burns out. Even the highest ideal needs a living person to carry it.`,
+    impuls: `What have you last done for yourself – from pure joy, without justification?`,
+  },
+  sx7: {
+    text: `The SX7 lives in a world full of possibilities – and people it idealises. It falls in love easily: with ideas, with projects, with people. That is its gift.
+
+But ideals are images. People are people. At some point the image meets reality. The growth of the SX7: to love what is – not what could be.`,
+    impuls: `Is there someone or something in your life you are currently idealising? What do you see when you look more closely?`,
+  },
+  se8: {
+    text: `The SP8 wants enough. A good meal, a reliable roof, people it can trust. It is the most grounded of the Eights.
+
+But 'enough' is sometimes more than just the material. Sometimes 'enough' also means: I am allowed to be vulnerable. I am allowed to be soft. I am allowed not to control everything.`,
+    impuls: `What would be 'enough' today – without needing more? Can you rest in that for a moment?`,
+  },
+  so8: {
+    text: `The SO8 fights – but not for itself. It fights for those it loves, for the weak, for its group. That is its path of strength.
+
+But sometimes it is still fighting when the fight is over. When there is no enemy left. When it would be time to lay down arms.`,
+    impuls: `Is there a fight in your life you could let go of? One in which you no longer need anyone to win?`,
+  },
+  sx8: {
+    text: `The SX8 loves with full force. What it loves it holds fast. What it wants it fights for. This intensity is unmistakable – and deeply moving.
+
+But love that possesses loses the beloved. What truly belongs does not flee. What is truly connected needs no chain.`,
+    impuls: `Is there someone or something in your life you could give more freedom to – from strength, not indifference?`,
+  },
+  se9: {
+    text: `The SP9 finds peace in the small things: in the cup of coffee, in the favourite series, in the familiar routine. That is not a flaw – that is a form of wisdom.
+
+But sometimes the routine is also numbness. A way of not meeting the life that is calling.`,
+    impuls: `What is calling you right now – and you are not quite hearing it yet? Take five minutes of silence today. And listen.`,
+  },
+  so9: {
+    text: `The SO9 is everywhere. It fits in, keeps the peace, makes sure everyone is satisfied. But when is it simply itself?
+
+The deepest work of the SO9: to learn that it belongs even when it disagrees.`,
+    impuls: `Disagree gently with someone today – and see whether the connection still holds. Usually it does.`,
+  },
+  sx9: {
+    text: `The SX9 merges. With the partner, with the idea, with the moment. That is a rare gift: to truly be with someone, to truly arrive.
+
+But if it loses itself too much, it can no longer find itself. The question is not: Where are you? But: Who are you – when you are not with someone?`,
+    impuls: `Take an hour today just for yourself. No partner, no topic, no duty. Just you. And see who is there.`,
+  },
+};
+
+const WOUNDS_EN = {
+  se1: {
+    passion: "Resentment – a contained, inwardly directed tension that arises when reality does not match the inner ideal.",
+    belief: "\"The world should be better – and I am responsible for that.\" Beneath this: \"If I don't control everything, it will go wrong.\"",
+    wound: "The wound of imperfection: the deep feeling that reality can never fully match the inner ideal.",
+    compensation: "Creating order, correcting, improving and controlling. Energy is directed at eliminating shortcomings. This creates a constant inner tension.",
+    sufferingCycle: "The One tries to find peace through improvement. But no sooner is one shortcoming corrected than the next appears. Imperfection keeps confirming itself, the tension grows, the pressure to improve increases. And the cycle begins again.",
+    healingDirection: "Letting the inner critic fall silent and discovering that one's own humanity – with all its mistakes – is not the problem. Peace does not arise at the end of all improvements, but in the midst of imperfect life.",
+    remedy: "Wound remedy: Arsenicum album · Passion remedy: Platinum metallicum · Schuessler Salt: Kalium chloratum · Bach Flower: Rock Water. Use only after consulting a practitioner.",
+  },
+  so1: {
+    passion: "Resentment – a tension that arises when reality does not match the inner ideal. In the SO1 this resentment is directed especially outward: at social shortcomings, moral contradictions, lack of responsibility.",
+    belief: "\"The world should be better – and I am responsible for that.\" Beneath this: \"If I don't stand up for order and justice, things will go wrong.\"",
+    wound: "The wound of imperfection: the deep feeling that society, community and the world can never fully meet the inner standard of rightness.",
+    compensation: "Standing up for values, naming grievances, improving structures and pointing others toward principles. Energy is strongly directed outward – at improving conditions and demanding accountability.",
+    sufferingCycle: "The SO1 works for a better world and always finds new grievances. No sooner is one injustice named than the next appears. Reality never meets the ideals, the tension grows, the pressure to improve increases – and the engagement exhausts rather than liberates.",
+    healingDirection: "Recognising that moral commitment does not have to arise from inner pressure. When one's own clarity is united with inner spaciousness and compassion, leadership arises from strength – not from compulsion to improve.",
+    remedy: "Wound remedy: Arsenicum album · Passion remedy: Platinum metallicum · Schuessler Salt: Kalium chloratum · Bach Flower: Rock Water. Use only after consulting a practitioner.",
+  },
+  sx1: {
+    passion: "Resentment – in the SX1 it transforms into inner intensity and personal zeal. The resentment is directed primarily at close relationships: at lack of depth, inconsistencies or missing integrity in direct contact.",
+    belief: "\"What is right is non-negotiable – neither for me nor for those close to me.\" Beneath this: \"If someone is not willing to change, this connection is worthless.\"",
+    wound: "The wound of imperfection: the deep feeling that neither one's own inner world nor close relationships can ever fully match the longed-for purity and perfection.",
+    compensation: "Intensifying, confronting, correcting and transforming – especially in personal contact. Energy is directed at improving people and relationships, often with strong inner pressure.",
+    sufferingCycle: "The SX1 fights for depth, authenticity and perfection in relationships. But no sooner does a connection seem close enough than the next inconsistency appears. Intensity increases, relationships come under pressure, and the peace the SX1 seeks recedes the harder she fights.",
+    healingDirection: "Recognising that genuine connection does not arise from perfectionist pressure. When the inner flame is guided consciously – rather than fighting – passion becomes a force of devotion and transformation.",
+    remedy: "Wound remedy: Arsenicum album · Passion remedy: Platinum metallicum · Schuessler Salt: Kalium chloratum · Bach Flower: Rock Water. Use only after consulting a practitioner.",
+  },
+  se2: {
+    passion: "Pride – not as arrogance, but as the feeling of making oneself indispensable through giving and helping. The Two defines their worth through their importance to others and represses their own neediness in the process.",
+    belief: "\"I am only loveable when I am there for others.\" Beneath this: \"My own needs are a burden to others – and must be hidden.\"",
+    wound: "The wound of forbidden neediness: the deep feeling that one's own needs do not count or are not allowed.",
+    compensation: "Care, support and emotional availability – always being there for others before one's own needs become visible.",
+    sufferingCycle: "The Two gives, supports and listens, and expects closeness and recognition in return. When this is absent, they give even more – their own needs are further suppressed, inner exhaustion grows.",
+    healingDirection: "Recognising that one's own needs also deserve space. Closeness arises not only through giving, but also through honestly showing what one needs oneself.",
+    remedy: "Wound remedy: Pulsatilla pratensis · Passion remedy: Hyoscyamus niger · Schuessler Salt: Natrium chloratum · Bach Flower: Chicory. Use only after consulting a practitioner.",
+  },
+  so2: {
+    passion: "Pride – in the SO2 it shows as the need to be significant, influential and indispensable in the social field. They give, engage and connect – and expect recognition in return that confirms their social worth.",
+    belief: "\"I am only important when I am there for others and am needed.\" Beneath this: \"If I stop giving, I lose my place in the community.\"",
+    wound: "The wound of forbidden neediness: the deep feeling that one's own needs have no place in the social sphere – that only giving secures belonging.",
+    compensation: "Becoming indispensable in the social field: building networks, creating connections, holding groups together. Energy is directed at social relevance – not at one's own needs.",
+    sufferingCycle: "The SO2 engages, connects and supports – and expects recognition in return. When this is absent, engagement grows rather than diminishes. One's own needs are further set aside, inner exhaustion grows in the shadows.",
+    healingDirection: "Recognising that belonging is not the result of achievement. When the SO2 can also receive – without giving – a connection arises that sustains without exhausting.",
+    remedy: "Wound remedy: Pulsatilla pratensis · Passion remedy: Hyoscyamus niger · Schuessler Salt: Natrium chloratum · Bach Flower: Chicory. Use only after consulting a practitioner.",
+  },
+  sx2: {
+    passion: "Pride – in the SX2 it shows as the intense desire to be unique and irreplaceable for a specific person. They give themselves fully – and expect to be experienced as the most important in return.",
+    belief: "\"I am only loveable when I am indispensable to this one person.\" Beneath this: \"If I am not the most significant, I will be replaced.\"",
+    wound: "The wound of forbidden neediness: the deep feeling that one's own needs have no place in an intense bond – that only giving and devotion secures the connection.",
+    compensation: "Giving oneself completely to selected relationships, reaching others emotionally, attracting and holding them. Energy is invested in intense bonding – not in one's own inner security.",
+    sufferingCycle: "The SX2 devotes herself deeply and expects unique significance in return. When this is not clearly reflected, intensity grows – more giving, more caring, more attraction. One's own exhaustion remains invisible, dependence on resonance grows.",
+    healingDirection: "Recognising that genuine connection does not need indispensability. When the SX2 allows closeness without total devotion, love arises from inner freedom rather than from neediness.",
+    remedy: "Wound remedy: Pulsatilla pratensis · Passion remedy: Hyoscyamus niger · Schuessler Salt: Natrium chloratum · Bach Flower: Chicory. Use only after consulting a practitioner.",
+  },
+  se3: {
+    passion: "Deceit – not necessarily conscious lying, but the alignment of one's self-image with what brings success and recognition.",
+    belief: "\"My worth depends on my performance.\" Beneath this: \"Who I really am is not enough – I have to show what I can do.\"",
+    wound: "The wound of worthlessness: the deep feeling that one's own being without performance, success or recognition is not enough.",
+    compensation: "Performing, optimising, adapting and becoming visible – the Three orients towards what brings recognition. The outer image moves to the fore, inner experience recedes.",
+    sufferingCycle: "The Three performs and achieves recognition – but the question \"Is it enough yet?\" does not fall silent. Brief satisfaction quickly gives way to the next goal.",
+    healingDirection: "Discovering that one's own being – beyond performance and success – is valuable. Arrival happens not after the next goal, but in the now.",
+    remedy: "Wound remedy: Lycopodium clavatum · Passion remedy: Tarentula hispanica · Schuessler Salt: Ferrum phosphoricum · Bach Flower: Walnut. Use only after consulting a practitioner.",
+  },
+  so3: {
+    passion: "Deceit – in the SO3 it shows as the alignment of one's own image with what counts as successful, significant and admirable in the social field. Status and visibility replace the inner feeling of genuine worth.",
+    belief: "\"My worth shows in how successful and recognised I am in the group.\" Beneath this: \"If nobody sees my success, I don't count.\"",
+    wound: "The wound of worthlessness: the deep feeling that one's own being – without visible success, status or admiration in the social sphere – is not enough.",
+    compensation: "Making performance visible, taking on roles, building status and collecting recognition in the social field. The SO3 intensely orients towards what is valued in the relevant environment – and shapes her own image accordingly.",
+    sufferingCycle: "The SO3 achieves recognition and position – but no sooner is one achievement seen than the need for the next arises. Self-worth is bound to external confirmation; when resonance is absent, tension and pressure to perform more increase.",
+    healingDirection: "Recognising that status and visibility do not create genuine inner worth. When the SO3 learns to experience herself as valuable independently of external confirmation, a deeper and more stable form of self-confidence emerges.",
+    remedy: "Wound remedy: Lycopodium clavatum · Passion remedy: Tarentula hispanica · Schuessler Salt: Ferrum phosphoricum · Bach Flower: Walnut. Use only after consulting a practitioner.",
+  },
+  sx3: {
+    passion: "Deceit – in the SX3 it shows as the close linking of personal radiance and self-worth: the self forms itself around what generates admiration, desire and resonance in direct contact.",
+    belief: "\"My worth shows in how much I impact others and am desired.\" Beneath this: \"If I don't radiate and fascinate, I am nothing special.\"",
+    wound: "The wound of worthlessness: the deep feeling that one's own being – without personal radiance, admiration and resonance in direct contact – is not enough.",
+    compensation: "Carefully shaping one's own presence, having charismatic impact, generating admiration and desire – in direct, personal contact. The self-image is aligned with what triggers fascination in the other person.",
+    sufferingCycle: "The SX3 generates admiration and resonance – but no sooner is this present than the question arises: \"Do they really see something special, or am I only playing a role?\" The need for confirmation grows, the performance increases.",
+    healingDirection: "Recognising that personal radiance and being desired do not create lasting inner worth. When the SX3 allows genuine presence without performance, connection arises from inner worth rather than from impact.",
+    remedy: "Wound remedy: Lycopodium clavatum · Passion remedy: Tarentula hispanica · Schuessler Salt: Ferrum phosphoricum · Bach Flower: Walnut. Use only after consulting a practitioner.",
+  },
+  se4: {
+    passion: "Envy – not as ill will, but as the painful feeling that others receive something one lacks oneself. In the SE4 this envy is carried inward: as quiet, stoic tenacity that endures pain and longing without showing them outwardly.",
+    belief: "\"I must endure what I lack without complaining.\" Beneath this: \"If I show my lack, I will be loved even less.\"",
+    wound: "The wound of separation: the deep feeling of being cut off from something essential – from oneself, from others or from life. In the SE4 this pain is carried quietly and tenaciously rather than expressed dramatically.",
+    compensation: "Enduring, holding oneself together, bearing the lack inwardly. Instead of living out the longing, it is disciplined and borne – hardness towards oneself becomes a quiet identity.",
+    sufferingCycle: "The SE4 bears the lack quietly without showing it. As a result she remains misunderstood, which intensifies the feeling of separation. Endurance protects against rejection, but prevents genuine closeness.",
+    healingDirection: "Recognising that what is essential has not been lost. Healing begins when the SE4 shares the quiet pain instead of bearing it alone – and discovers that she is also seen and loved with her longing.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+  },
+  so4: {
+    passion: "Envy – in the SO4 it shows as the painful comparison with others in the social sphere: others seem to belong more easily, receive more recognition or have an inner lightness that the SO4 lacks.",
+    belief: "\"Others have something I lack – and this is especially visible in comparison.\" Beneath this: \"I don't really belong – my being different separates me.\"",
+    wound: "The wound of separation: the deep feeling of being cut off from belonging and social recognition – not because of external circumstances, but because of an inner deficiency.",
+    compensation: "Showing oneself in the social context through uniqueness, depth or emotional qualities. The SO4 makes their difference visible and hopes to find resonance and belonging in it – yet the comparison continues to drain.",
+    sufferingCycle: "The SO4 observes what others have – and feels all the more clearly what is missing. Even when resonance arises, the next comparison soon comes. The inner conviction of lacking is confirmed again and again.",
+    healingDirection: "Recognising that belonging does not have to be earned through uniqueness or achievement. When the SO4 experiences their worth independently of social comparison, a deeper and more stable form of self-acceptance emerges.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+  },
+  sx4: {
+    passion: "Envy – in the SX4 it shows as passionate longing for emotional depth and authentic connection: when others embody something experienced as particularly meaningful, strong feelings arise – longing, envy, sometimes competition.",
+    belief: "\"I long for genuine depth – and feel it is missing in me.\" Beneath this: \"My intensity is my worth – but also my prison.\"",
+    wound: "The wound of separation: the deep feeling of being cut off from genuine emotional connection and authenticity – and of having to compensate for this lack through ever more intense experiences.",
+    compensation: "Showing feelings directly, strongly and visibly – in the hope of creating genuine encounter and resonance. The SX4 intensifies emotional experience to bridge the feeling of lack. Drama and passion sometimes become identity.",
+    sufferingCycle: "The SX4 seeks genuine, deep encounter – and reacts intensely when resonance is absent or connection feels unauthentic. Intensity grows, pressure on relationships increases, the feeling of lack intensifies.",
+    healingDirection: "Recognising that emotional intensity cannot force connection – and that what the SX4 is truly seeking cannot be found outside. When intensity transforms into inner stability, genuine depth arises without drama.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+  },
+  se5: {
+    passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SE5 this condenses into complete self-sufficiency: withdrawal becomes a way of life, not merely a strategy.",
+    belief: "\"If I show myself or give, I will become empty.\" Beneath this: one's own resources are limited and must be protected at all costs – life takes away more than can be regenerated.",
+    wound: "The wound of lack: the deep feeling that \"I don't have enough\" – not enough strength, energy, knowledge or competence to meet the demands of life. In the SE5 this lack is most quietly and deeply buried.",
+    compensation: "Maximum withdrawal: little contact, little visible neediness, few demands – this preserves the inner reserves. Accumulating knowledge and self-sufficiency as a way of life stabilises the wound without touching it.",
+    sufferingCycle: "The lack generates withdrawal. The withdrawal generates distance. The distance prevents new experiences. The missing experiences confirm the lack. And the cycle begins again.",
+    healingDirection: "Experiencing that energy grows when it flows: showing oneself before everything is certain, and noticing that aliveness does not exhaust but nourishes. From complete withdrawal comes step-by-step participation.",
+    remedy: "Wound remedy: Silicea · Passion remedy: Stramonium · Schuessler Salt: Silicea · Bach Flower: Water Violet. Use only after consulting a practitioner.",
+  },
+  so5: {
+    passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SO5 this shows as intellectual avarice: security is built through knowledge and systems – only once one understands enough may one belong.",
+    belief: "\"I must first know and understand enough before I am allowed to belong.\" Beneath this: without sufficient knowledge or competence one's own participation is not legitimate – closeness arises only through intellectual bridges.",
+    wound: "The wound of lack: the deep feeling that \"I don't have enough\" – not enough knowledge, competence or overview to be truly permitted to participate. The social field appears as a place where one can only hold one's own by knowing more than others.",
+    compensation: "Accumulating knowledge and penetrating systems as a bridge to the social world – but observing from a safe distance without becoming emotionally truly present. Intellectual clarity replaces direct participation.",
+    sufferingCycle: "The lack generates more hunger for knowledge. The hunger for knowledge generates more distance. The distance prevents genuine contact. The absent contact confirms that one does not yet know enough. And the cycle begins again.",
+    healingDirection: "Sharing knowledge – even when not everything is yet fully understood. Experiencing that genuine connection does not arise from overview, but from living participation.",
+    remedy: "Wound remedy: Silicea · Passion remedy: Stramonium · Schuessler Salt: Silicea · Bach Flower: Water Violet. Use only after consulting a practitioner.",
+  },
+  sx5: {
+    passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SX5 this shows as controlled shyness: deep connection is passionately longed for – and simultaneously kept at a distance.",
+    belief: "\"If I truly show myself, I will lose myself – or be hurt.\" Beneath this: genuine closeness costs more than one has; intense connection is a risk that must be carefully assessed.",
+    wound: "The wound of lack: the deep feeling that \"I don't have enough\" – not enough inner substance to maintain oneself in closeness without losing oneself. The longing for depth is real; the fear of disappearing into it, equally so.",
+    compensation: "Selective, controlled closeness: allowing few, chosen connections – but protecting the inner world for a long time before genuine trust arises. Deep relationships are idealised and simultaneously kept at a safe distance.",
+    sufferingCycle: "The longing generates approach. The approach generates fear of dissolution. The fear generates withdrawal. The withdrawal confirms the longing. And the cycle begins again.",
+    healingDirection: "Letting go of the controlled shyness: showing oneself, even when not everything is yet certain, and experiencing that closeness does not dissolve but sustains. From shy longing comes lived, shared connection.",
+    remedy: "Wound remedy: Silicea · Passion remedy: Stramonium · Schuessler Salt: Silicea · Bach Flower: Water Violet. Use only after consulting a practitioner.",
+  },
+  se6: {
+    passion: "Fear – a basic mistrust of life that shows as constant inner vigilance, doubt and need for reassurance. In the SE6 the fear turns inward: they do not seek the fight, but warmth, bonds and allies who promise protection.",
+    belief: "\"The world is dangerous, and I must not stand alone.\" Beneath this: \"Only if I have reliable allies and remain careful am I safe.\"",
+    wound: "The wound of lost trust: the feeling that the inner certainty of being carried by life is fragile. In the SE6 this shows as a deep need for protection and a fear of being unprotected.",
+    compensation: "Bonding, caution and seeking reliable allies. Warmth, loyalty and belonging become a protective space – security is sought outside rather than found within oneself.",
+    sufferingCycle: "Whoever constantly searches for uncertainties finds them. More caution creates more vigilance, which perceives more threats, which generates more fear – and the circle closes.",
+    healingDirection: "Recognising that security and trust are not the same. Trust does not arise by eliminating all risks or achieving perfect protection, but through the experience of being able to face life alone as well.",
+    remedy: "Wound remedy: Opium · Passion remedy: Opium · Schuessler Salt: Magnesium phosphoricum · Bach Flower: Cerato. Use only after consulting a practitioner.",
+  },
+  so6: {
+    passion: "Fear – a basic mistrust of life that shows as constant inner vigilance, doubt and need for reassurance. In the SO6 fear is directed at the relationship with the group: they seek security in duty, rules and belonging.",
+    belief: "\"The world is dangerous, and I need to know what applies and who I can trust.\" Beneath this: \"Only if I do the right thing and belong am I safe.\"",
+    wound: "The wound of lost trust: the feeling that the inner certainty of being carried by life is fragile. In the SO6 this shows as mistrust of one's own inner authority – which is delegated to rules and groups.",
+    compensation: "Orienting towards duty, rules, systems and authorities. Loyalty to the group and carefully checking who can be trusted replace trust in one's own inner voice.",
+    sufferingCycle: "Whoever constantly searches for uncertainties finds them. More reassurance through rules creates more dependence on external things, which weakens one's own inner authority, which generates more doubt – and the circle closes.",
+    healingDirection: "Recognising that security and trust are not the same. Trust does not arise from perfectly following rules, but from listening to one's own conscience and inner voice.",
+    remedy: "Wound remedy: Opium · Passion remedy: Opium · Schuessler Salt: Magnesium phosphoricum · Bach Flower: Cerato. Use only after consulting a practitioner.",
+  },
+  sx6: {
+    passion: "Fear – a basic mistrust of life that shows as constant inner vigilance, doubt and need for reassurance. In the SX6 fear is turned counter-phobically outward: instead of evading, they go on the attack – strength and fighting conceal the inner uncertainty.",
+    belief: "\"The world is dangerous, and showing fear would be fatal.\" Beneath this: \"Only if I am strong, courageous and invulnerable am I safe.\"",
+    wound: "The wound of lost trust: the feeling that the inner certainty of being carried by life is fragile. In the SX6 this wound is most deeply buried behind readiness to fight and toughness.",
+    compensation: "Courage, strength and confrontation. Fear is fought by going towards it; closeness and loyalty are tested through intensity and challenges rather than by showing vulnerability.",
+    sufferingCycle: "Whoever constantly fights against fear keeps it alive. More strength creates more tension, which senses more threat, which generates more readiness to fight – and the circle closes.",
+    healingDirection: "Recognising that security and trust are not the same. Genuine strength does not arise from fighting fear, but from the courage to allow one's own vulnerability and to trust.",
+    remedy: "Wound remedy: Opium · Passion remedy: Opium · Schuessler Salt: Magnesium phosphoricum · Bach Flower: Cerato. Use only after consulting a practitioner.",
+  },
+  se7: {
+    passion: "Gluttony – the constant search for more as a strategy to escape pain and inner emptiness. In the SE7 the gluttony is directed at practical abundance: creature comforts, allies and reserves so that nothing is ever lacking.",
+    belief: "\"If I have accumulated enough and lack nothing, I am safe.\" Beneath this: \"Lack and emptiness are threatening – I must provide.\"",
+    wound: "The wound of pain avoidance: the feeling that deeper feelings – especially pain, loss and limitation – are too threatening to confront. In the SE7 this is translated into accumulating pleasure and security.",
+    compensation: "Planning, enjoying, networking and securing – awareness remains directed at pleasant possibilities and provision. Genuine limitation and stillness are circumvented.",
+    sufferingCycle: "The SE7 seeks fulfilment in the next pleasure, the next comfort. Brief satisfaction gives way to the need for more. The abundance she seeks is always one step further away.",
+    healingDirection: "Experiencing that enough is enough. Healing begins in the capacity to be fully present with what is – including stillness and limitation – rather than always accumulating more.",
+    remedy: "Wound remedy: Calcium carbonicum · Passion remedy: Belladonna · Schuessler Salt: Natrium phosphoricum · Bach Flower: Agrimony. Use only after consulting a practitioner.",
+  },
+  so7: {
+    passion: "Gluttony – the constant search for more as a strategy to escape pain and inner emptiness. In the SO7 (countertype) the gluttony is restrained for an ideal: the escape does not happen in pleasure, but in service to vision, group and future.",
+    belief: "\"If I live for something good and greater, I am valuable and belong.\" Beneath this: \"Pausing and limitation would be an admission of lack.\"",
+    wound: "The wound of pain avoidance: the feeling that deeper feelings – especially pain, loss and limitation – are too threatening to confront. In the SO7 this avoidance hides behind idealism and social engagement.",
+    compensation: "Idealism, projects, networks and visions – enthusiasm is put in the service of the common good. Renouncing personal pleasure appears noble, but keeps the old escape movement running.",
+    sufferingCycle: "The SO7 seeks fulfilment in the next ideal, the next vision. No sooner is one project there than the next beckons. The depth that is being avoided continues to be missing – and the commitment exhausts rather than fulfils.",
+    healingDirection: "Recognising that one does not have to be \"good\" in order to belong. Healing begins in the capacity to also allow limitation, stillness and one's own pain – rather than bypassing them in service to something greater.",
+    remedy: "Wound remedy: Calcium carbonicum · Passion remedy: Belladonna · Schuessler Salt: Natrium phosphoricum · Bach Flower: Agrimony. Use only after consulting a practitioner.",
+  },
+  sx7: {
+    passion: "Gluttony – the constant search for more as a strategy to escape pain and inner emptiness. In the SX7 (amplifier type) the gluttony is lived most intensely: as hunger for intensity, idealisation and extraordinary experiences.",
+    belief: "\"Real life is exciting, luminous, boundless – the ordinary is not enough.\" Beneath this: \"If I pause, the sober emptiness catches up with me.\"",
+    wound: "The wound of pain avoidance: the feeling that deeper feelings – especially pain, loss and limitation – are too threatening to confront. In the SX7 euphoria overshadows sober reality.",
+    compensation: "Idealising, enthusing, chasing the extraordinary – imagination paints life more beautiful than it is in the moment. Disillusionment and limitation are avoided by jumping to the next spark.",
+    sufferingCycle: "The SX7 seeks fulfilment in the next intense experience. The enthusiasm burns out, the longing for the special remains. The depth that would truly fulfil is always one intoxication further away.",
+    healingDirection: "Experiencing that depth is more fulfilling than chasing the extraordinary. Healing begins in embodying in the present moment what is – including the quiet, unspectacular and painful.",
+    remedy: "Wound remedy: Calcium carbonicum · Passion remedy: Belladonna · Schuessler Salt: Natrium phosphoricum · Bach Flower: Agrimony. Use only after consulting a practitioner.",
+  },
+  se8: {
+    passion: "Lust – an intense force that shows as a drive towards strength, control and intensity. In the SE8 this force is directed at autonomy and survival: the concrete securing of one's own needs without being dependent on anyone.",
+    belief: "\"Weakness is dangerous – I must be self-sufficient in order to be safe.\" Beneath this: \"Whoever relies on others or shows neediness makes themselves vulnerable.\"",
+    wound: "The wound of vulnerability: the deep feeling that one's own capacity to be hurt is threatening. In the SE8 vulnerability is most thoroughly concealed behind independence and self-sufficiency.",
+    compensation: "Autonomy, directness and the independent fulfilment of all needs. The SE8 avoids dependency and situations that could generate helplessness. The armour protects – and isolates.",
+    sufferingCycle: "Fear of vulnerability generates control. Control generates distance. Distance prevents deep connection. The absence of genuine closeness confirms the necessity of strength.",
+    healingDirection: "Discovering vulnerability not as weakness, but as access to genuine strength. Experiencing that accepting and being able to rely on others does not weaken but connects.",
+    remedy: "Wound remedy: Veratrum album · Passion remedy: Veratrum album · Schuessler Salt: Calcium fluoratum · Bach Flower: Oak. Use only after consulting a practitioner.",
+  },
+  so8: {
+    passion: "Lust – an intense force that shows as a drive towards strength, control and intensity. In the SO8 (countertype) this force is directed outward, into the protection of others: responsibility, loyalty and standing up for the group.",
+    belief: "\"Weakness is dangerous – I must be strong in order to protect others.\" Beneath this: \"If I show my own neediness, I let down those who are counting on me.\"",
+    wound: "The wound of vulnerability: the deep feeling that one's own capacity to be hurt is threatening. In the SO8 vulnerability hides behind the role of the strong one who is there for everyone else.",
+    compensation: "Taking responsibility, leading, protecting and fighting for justice. One's own neediness is redirected into care for others – protection can thereby become control and possession.",
+    sufferingCycle: "Fear of vulnerability generates control. Control generates distance. Distance prevents deep connection. The absence of genuine closeness confirms the necessity of strength.",
+    healingDirection: "Discovering vulnerability not as weakness, but as access to genuine strength. Experiencing that one can lead and protect without possessing – and that even the strong one is allowed to receive.",
+    remedy: "Wound remedy: Veratrum album · Passion remedy: Veratrum album · Schuessler Salt: Calcium fluoratum · Bach Flower: Oak. Use only after consulting a practitioner.",
+  },
+  sx8: {
+    passion: "Lust – an intense force that shows as a drive towards strength, control and intensity. In the SX8 (amplifier type) lust is lived most visibly: as passionate desire, possessiveness and rebellious pleasure in fully authentic, intense life.",
+    belief: "\"Weakness is dangerous – only in full intensity am I truly alive.\" Beneath this: \"Whoever surrenders without controlling loses.\"",
+    wound: "The wound of vulnerability: the deep feeling that one's own capacity to be hurt is threatening. In the SX8 vulnerability hides behind passionate intensity and the drive to possess and challenge.",
+    compensation: "Intensity, rebellion, possessiveness and confrontation. Closeness becomes a trial of strength, surrender is linked with control. The passionate force protects against the risk of truly giving oneself.",
+    sufferingCycle: "Fear of vulnerability generates control and fight. The fight generates distance within closeness. The distance prevents genuine trust. The absence of genuine surrender confirms the necessity of intensity.",
+    healingDirection: "Discovering vulnerability not as weakness, but as access to genuine strength. Experiencing that intensity without fighting and closeness without conquest carry deeper than any trial of strength.",
+    remedy: "Wound remedy: Veratrum album · Passion remedy: Veratrum album · Schuessler Salt: Calcium fluoratum · Bach Flower: Oak. Use only after consulting a practitioner.",
+  },
+  se9: {
+    passion: "Sloth – not as physical laziness, but as an inner immobility that lets one's own experience recede into the background. In the SE9 it shows as retreat into comfort, routine and substitute satisfactions.",
+    belief: "\"As long as it is comfortable and familiar, everything is fine.\" Beneath this: \"If I step out of my routine and want something, I jeopardise my peace.\"",
+    wound: "The wound of self-forgetting: the deep pattern of making oneself invisible in order to avoid conflict and preserve harmony. In the SE9 what is one's own is buried beneath habit and cosiness.",
+    compensation: "Routine, comfort and pleasant distractions – food, activity, the familiar numb the inner emptiness. What is one's own is set aside so that accustomed peace is maintained.",
+    sufferingCycle: "The SE9 maintains familiar habits and numbs tension with substitute satisfactions. In the process she becomes ever more invisible to herself. Cosiness protects peace, but prevents genuine aliveness.",
+    healingDirection: "Feeling again that one's own presence counts. Healing begins not with more activity, but with more awareness of what one experiences, needs and wants oneself – beyond accustomed comfort.",
+    remedy: "Wound remedy: Staphysagria · Passion remedy: Cannabis indica · Schuessler Salt: Natrium sulfuricum · Bach Flower: Wild Rose. Use only after consulting a practitioner.",
+  },
+  so9: {
+    passion: "Sloth – not as physical laziness, but as an inner immobility that lets one's own experience recede into the background. In the SO9 (countertype) it turns outward: as engaged participation that lets one's own position disappear.",
+    belief: "\"My needs and my opinion are less important than the cohesion of the group.\" Beneath this: \"If I step out of line and want something of my own, I jeopardise my belonging.\"",
+    wound: "The wound of self-forgetting: the deep pattern of making oneself invisible in order to avoid conflict and preserve harmony. In the SO9 what is one's own disappears behind commitment to the community.",
+    compensation: "Collaborating, mediating, balancing and belonging – one's own position is set aside so that cohesion is maintained. Engagement for the group numbs the question of what one actually wants.",
+    sufferingCycle: "The SO9 subordinates herself to the group and avoids friction. In the process she becomes ever more invisible to herself. Going along secures belonging, but prevents genuine, autonomous connection.",
+    healingDirection: "Feeling again that one's own presence counts. Healing begins with the courage to bring in one's own opinion, wishes and boundaries – and to experience that genuine belonging can hold that.",
+    remedy: "Wound remedy: Staphysagria · Passion remedy: Cannabis indica · Schuessler Salt: Natrium sulfuricum · Bach Flower: Wild Rose. Use only after consulting a practitioner.",
+  },
+  sx9: {
+    passion: "Sloth – not as physical laziness, but as an inner immobility that lets one's own experience recede into the background. In the SX9 (amplifier type) it shows as merger: living one's own life through and in the other.",
+    belief: "\"Only through union with the other do I become whole.\" Beneath this: \"If I set boundaries and want something of my own, I lose the love and the unity.\"",
+    wound: "The wound of self-forgetting: the deep pattern of making oneself invisible in order to avoid conflict and preserve harmony. In the SX9 the self dissolves in merger with the other.",
+    compensation: "Merging, adapting and losing oneself in the other – one's own wishes and boundaries blur with those of the loved person. Devotion numbs the fear of being alone and separate.",
+    sufferingCycle: "The SX9 seeks unity in merger and gives herself up in the process. The more she loses herself in the other, the less she feels herself. The closeness seems to secure connection, but prevents genuine encounter between two people.",
+    healingDirection: "Feeling again that one's own presence counts. Healing begins in not losing oneself in closeness – and experiencing that love as encounter between two autonomous people carries deeper than merger.",
+    remedy: "Wound remedy: Staphysagria · Passion remedy: Cannabis indica · Schuessler Salt: Natrium sulfuricum · Bach Flower: Wild Rose. Use only after consulting a practitioner.",
+  },
+};
+
+const NSR_EN = {
+  se1: ["release tension more quickly", "replace control with awareness", "alternate between activity and rest", "release perfectionism and rigidity", "not immediately perceiving mistakes as a threat", "putting oneself under less constant pressure"],
+  so1: ["release tension more quickly", "transform judgement into understanding", "alternate between activity and rest", "release perfectionism and rigidity", "judging oneself less harshly", "carrying responsibility with more ease", "reducing inner pressure"],
+  sx1: ["consciously regulate tension", "channel intense energy", "oscillate between closeness and withdrawal", "release perfectionism and rigidity", "not immediately acting on impulses", "channelling passion into service", "putting oneself under less pressure"],
+  se2: ["anchor security in the body", "notice and honour boundaries", "balance giving and receiving", "release over-responsibility", "caring for oneself", "communicating needs clearly", "consciously scheduling recovery", "strengthening inner stability"],
+  so2: ["finding security through connection", "feeling and honouring boundaries", "balancing giving and receiving", "releasing over-responsibility", "taking oneself more seriously", "communicating needs clearly", "consciously scheduling recovery", "strengthening inner stability"],
+  sx2: ["regulating tension in the body", "releasing jealousy and possessive thinking", "balancing closeness and freedom", "transforming over-identification", "not losing oneself", "communicating needs clearly", "consciously scheduling recovery", "strengthening inner boundaries"],
+  se3: ["finding security through routine", "perceiving oneself", "balancing activity and rest", "reducing overstimulation", "communicating needs clearly", "consciously scheduling recovery", "feeling and maintaining boundaries", "strengthening inner stability"],
+  so3: ["consciously steering activation", "consciously scheduling recovery", "balancing tension and relaxation", "avoiding over-identification", "not overextending oneself", "communicating needs clearly", "releasing inner pressure", "strengthening inner stability"],
+  sx3: ["consciously steering tension", "consciously channelling excitement", "oscillating between closeness and withdrawal", "releasing perfectionism and over-adaptation", "feeling oneself", "honestly perceiving needs", "filling inner emptiness", "arriving in the body"],
+  se4: ["consciously shaping withdrawal", "cultivating creative expression", "balancing closeness and solitude", "gently releasing perfectionism and self-criticism", "letting feelings flow", "accepting oneself", "relaxing persistent longing", "arriving in the body"],
+  so4: ["consciously allowing feelings rather than comparing", "sensing one's own worth independently of others", "consciously oscillating between closeness and withdrawal", "gently transforming self-criticism", "arriving in the body instead of circling in the mind", "naming shame rather than hiding it", "sensing belonging from within", "using creative expression as an outlet"],
+  sx4: ["consciously allowing feelings", "cultivating creative expression", "oscillating between closeness and withdrawal", "gently transforming self-criticism", "perceiving oneself", "accepting inner emptiness", "releasing perfectionism and idealism", "arriving in the body"],
+  se5: ["taking in stimuli in doses", "withdrawal for regeneration", "oscillating between tension and pause", "ordering and filtering thoughts", "limiting information overload", "self-regulation", "finding security within", "gently releasing perfectionism"],
+  so5: ["filtering and prioritising stimuli", "withdrawal for regeneration", "cultivating inner stillness", "synchronising mind and body", "limiting information overload", "consciously creating pauses", "strengthening inner security", "building trust through connection"],
+  sx5: ["cultivating inner security", "slow deep breathing", "feeling and honouring boundaries", "allowing closeness in doses", "practising emotional regulation", "anchoring grounding in the body", "using withdrawal as a resource", "consciously shaping connection"],
+  se6: ["feeling the body as a safe anchor", "trusting one's own judgement", "consciously releasing tension", "guiding the breath deep and calmly", "seeking security from within rather than only from outside", "naming catastrophic thoughts instead of believing them", "finding grounding through the legs", "daring to trust step by step"],
+  so6: ["trusting one's own inner voice", "consciously releasing tension", "guiding the breath deep and calmly", "seeking security from within rather than from rules", "naming doubts instead of following them", "finding grounding through the legs", "feeling one's own authority", "daring to trust step by step"],
+  sx6: ["perceiving fear without fighting it", "noticing fighting impulses instead of immediately acting", "consciously releasing tension", "guiding the breath deep and calmly", "seeking security from within rather than from strength", "allowing vulnerability", "finding grounding through the legs", "daring to trust instead of counter-attacking"],
+  se7: ["arriving in the body instead of planning in the mind", "consciously and fully savouring one pleasure", "allowing pauses without distraction", "naming unpleasant feelings instead of covering them over", "guiding the breath into the belly", "consciously limiting stimuli and options", "perceiving the feeling of satiation and enough", "using stillness as a source of rest"],
+  so7: ["arriving in the body instead of the next project", "allowing pauses without utility", "perceiving one's own pain instead of bypassing it", "guiding the breath into the belly", "practising commitment instead of constant movement", "consciously limiting stimuli and obligations", "holding out stillness and depth", "placing the present before the possibility"],
+  sx7: ["arriving in the body and in the moment", "fully savouring one experience instead of jumping to the next", "holding out disillusionment and stillness", "guiding the breath into the belly", "consciously dampening stimuli and highs", "allowing unfulfilled feelings", "perceiving satiation instead of escalation", "placing depth before intensity"],
+  se8: ["consciously allowing the softer side", "accepting support instead of carrying everything alone", "releasing tension in the body", "guiding the breath deep and slowly", "gradually releasing control", "experiencing vulnerability as strength", "allowing rest instead of permanent alert", "risking genuine closeness"],
+  so8: ["allowing one's own vulnerability", "not having to control or protect everything", "releasing tension in the body", "guiding the breath deep and slowly", "allowing compassion instead of hardness", "practising receiving instead of only giving", "allowing rest instead of constant tension", "daring to trust others"],
+  sx8: ["consciously dosing intensity", "allowing closeness without a trial of strength", "releasing tension in the body", "guiding the breath deep and slowly", "perceiving impulses instead of immediately acting", "showing vulnerability instead of hiding it", "allowing rest and tenderness", "risking genuine trust"],
+  se9: ["consciously feeling one's own impulses and needs", "consciously stepping out of routine", "actively moving the body instead of becoming rigid", "deepening the breath in an enlivening way", "noticing substitute satisfactions instead of automatically following them", "taking oneself seriously", "choosing wakefulness instead of numbness", "cultivating presence in the moment"],
+  so9: ["feeling one's own opinion and boundaries", "showing oneself instead of adapting", "actively moving the body instead of becoming rigid", "deepening the breath in an enlivening way", "holding out friction instead of balancing it away", "taking one's own needs seriously", "choosing wakefulness instead of going along", "cultivating presence in contact"],
+  sx9: ["continuing to feel oneself in closeness", "perceiving one's own impulses independently of the other", "feeling the body as one's own boundary", "deepening the breath in an enlivening way", "noticing the pull towards merger instead of following it", "naming one's own wishes and limits", "choosing wakefulness instead of dissolution", "cultivating presence within oneself"],
+};
+
+
+const SUBTYPES_EN = {
+  se1: {
+    integrationSentence: "Order arises from presence, not from control.",
+    lifeTheme: ["Seeking security, order and control in life.", "Wanting to do everything right and putting oneself under pressure in the process.", "Wanting to avoid mistakes and weakness, thereby losing inner ease."],
+    unconsciousStrategy: ["Strong self-control to avoid mistakes and criticism.", "Suppressing needs and spontaneous impulses.", "Finding stability through discipline, self-mastery and high standards."],
+    integrationPath: ["Developing more inner calm.", "Allowing mistakes, needs and human imperfection.", "Finding stability through composure, trust and living self-acceptance."],
+    integratedState: ["Acting clearly and consciously without being under constant pressure.", "Trusting life more and allowing human imperfection.", "Calm becomes a stable force from which naturalness, warmth and equanimity emerge."],
+    turningPoint: ["Recognising that lasting control and self-tension separate one from vitality.", "Meeting oneself with more gentleness and understanding.", "Relaxation enables naturalness and trust."],
+    tensionFields: ["Control → Trust", "Tension → Relaxation", "Self-control → Naturalness", "Discipline → Enjoyment", "Functioning → Wellbeing", "Perfection → Humanity", "Caution → Vitality", "Duty → Self-care", "Protection → Openness"],
+    essenceQualities: ["quiet breath", "relaxed jaw", "clear gaze", "more calm in the belly", "natural bodily presence"],
+  },
+  so1: {
+    integrationSentence: "True change arises from wisdom, not from judgement.",
+    lifeTheme: ["Wanting to take responsibility and bring about what is right.", "Orienting oneself to high ideals and expecting integrity and conviction from others too.", "Fighting for order and improvement, easily becoming strict or unyielding in the process."],
+    unconsciousStrategy: ["Standing up for ideals and pointing out shortcomings in others.", "Insisting on standards and principles — for oneself and the community.", "Finding stability through a sense of mission and moral clarity."],
+    integrationPath: ["Allowing life as it is — without constant pressure to improve it.", "Meeting imperfection with wisdom rather than judgement.", "Finding security through trust rather than control."],
+    integratedState: ["Acting from values without judging others.", "Inspiring rather than insisting.", "Living order as an inner attitude rather than an outward demand."],
+    turningPoint: ["Recognising that moral pressure distances rather than moves people.", "Allowing imperfection — in oneself and the world.", "Energy becomes freer; warmth grows where strictness once stood."],
+    tensionFields: ["Principles → Humanity", "Being right → Compassion", "Standards → Warmth", "Mission → Presence", "Duty → Joy", "Order → Flow", "Criticism → Acceptance", "Perfectionism → Humanity", "Judgement → Understanding"],
+    essenceQualities: ["clear posture", "calm strength", "purposeful gaze", "grounded voice", "quiet authority"],
+  },
+  sx1: {
+    integrationSentence: "True change begins when passion serves a higher purpose.",
+    lifeTheme: ["Seeking intense connection and shared growth.", "Wanting to inspire and improve people, easily falling into inner tension in the process.", "Longing for depth and authenticity, easily losing composure and peace."],
+    unconsciousStrategy: ["Channelling personal idealism into close relationships and connections.", "Correcting or improving the partner — out of inner conviction and longing.", "Finding stability through shared standards, intensity and mutual growth."],
+    integrationPath: ["Allowing closeness without the need to improve.", "Finding security in acceptance rather than perfection.", "Allowing warmth to replace judgement."],
+    integratedState: ["Entering into closeness openly, without an inner corrective agenda.", "Finding peace in what is rather than in what could be.", "Passion becomes energy for connection rather than for reform."],
+    turningPoint: ["Recognising that intensity and correction can push closeness away.", "Allowing oneself to be imperfect — in relationships too.", "Warmth and acceptance replace the drive for improvement."],
+    tensionFields: ["Perfection → Surrender", "Intensity → Equanimity", "Reform → Acceptance", "Idealism → Reality", "Correction → Closeness", "Standards → Warmth", "Zeal → Peace", "Demand → Trust", "Conviction → Openness"],
+    essenceQualities: ["inner fire", "ethical clarity", "focused intensity", "transformative presence", "passionate integrity"],
+  },
+  se2: {
+    integrationSentence: "Love begins where you can also receive.",
+    lifeTheme: ["Caring for others and wanting to be there for everyone.", "Providing, anticipating needs and feeling responsible for the wellbeing of others.", "Giving a great deal and inwardly longing to be seen and supported oneself."],
+    unconsciousStrategy: ["Ensuring security through tireless care and provision.", "Suppressing own needs in order to remain indispensable.", "Finding stability through responsibility and the role of nurturer."],
+    integrationPath: ["Developing one's own needs and learning to receive.", "Finding security that does not depend on being needed.", "Allowing rest without a guilty conscience."],
+    integratedState: ["Caring for others without losing oneself.", "Feeling that one's own needs also have space.", "Helping from strength rather than from fear of not being loved."],
+    turningPoint: ["Recognising that one's own worth does not depend on caring for others.", "Experiencing that receiving is also a form of closeness.", "Energy is freed when one stops trying to be indispensable."],
+    tensionFields: ["Need → Self-care", "Dependence → Autonomy", "Helping → Self-worth", "Giving → Receiving", "Responsibility → Trust", "Caretaking → Presence", "Pleasing → Authenticity", "Provision → Letting go", "Control → Flow"],
+    essenceQualities: ["warm gaze", "open heart", "soft breath", "grounded care", "genuine presence"],
+  },
+  so2: {
+    integrationSentence: "True strength shows itself when you can also let yourself be seen.",
+    lifeTheme: ["Wanting to be there for many and to radiate strength and support.", "Helping, connecting and inspiring — and being valued for it.", "Taking responsibility for groups while inwardly longing for genuine reciprocity."],
+    unconsciousStrategy: ["Gaining influence and recognition through visibility and helpfulness.", "Being indispensable — in teams, organisations and communities.", "Finding stability through social recognition and a leadership role."],
+    integrationPath: ["Learning to let oneself be seen with one's own needs.", "Finding worth independent of role and recognition.", "Allowing genuine reciprocity in relationships."],
+    integratedState: ["Helping without losing oneself.", "Being able to show vulnerability without losing stature.", "Recognition becomes a gift rather than a need."],
+    turningPoint: ["Recognising that strength and neediness are not contradictions.", "Allowing oneself to be supported.", "Genuine connection becomes more important than influence."],
+    tensionFields: ["Helping → Self-worth", "Being needed → Inherent worth", "Strength → Vulnerability", "Influence → Authenticity", "Recognition → Inner fulfilment", "Care → Reciprocity", "Responsibility → Trust", "Visibility → Presence", "Giving → Receiving"],
+    essenceQualities: ["warm leadership", "community spirit", "generous presence", "social intelligence", "inspired giving"],
+  },
+  sx2: {
+    integrationSentence: "The deepest closeness is found where you also find yourself.",
+    lifeTheme: ["Seeking intense closeness and wanting to give everything in relationships.", "Wanting to be indispensable to the other person and feeling strongly drawn to specific individuals.", "Giving a great deal and inwardly longing to be truly seen and desired."],
+    unconsciousStrategy: ["Gaining security through intense, personal closeness.", "Making oneself irreplaceable through total dedication.", "Finding stability in fusion and mutual dependence."],
+    integrationPath: ["Developing one's own identity alongside closeness.", "Experiencing that giving and receiving can be in balance.", "Finding security that is not dependent on specific people."],
+    integratedState: ["Seeking closeness without losing oneself.", "Giving freely without expecting specific reciprocity.", "Finding security within oneself rather than through another person."],
+    turningPoint: ["Recognising that intensity and self-sacrifice do not create genuine closeness.", "Allowing space in the relationship — for both people.", "Self-worth begins to develop independent of the partner's reaction."],
+    tensionFields: ["Seduction → Authenticity", "Desire → Self-worth", "Fusion → Autonomy", "Giving → Receiving", "Closeness → Space", "Dedication → Self-contact", "Fascination → Presence", "Neediness → Inner fulfilment", "Desire → Wholeness"],
+    essenceQualities: ["magnetic warmth", "deep empathy", "passionate connection", "transformative care", "heartfelt intensity"],
+  },
+  se3: {
+    integrationSentence: "True achievement arises from being rather than from performing.",
+    lifeTheme: ["Working efficiently and wanting to secure material stability.", "Functioning well and maintaining a capable exterior, even under great pressure.", "Achieving a great deal and inwardly wondering who one really is beyond performance."],
+    unconsciousStrategy: ["Ensuring security through efficiency, performance and results.", "Presenting a competent, capable image without showing weakness.", "Deriving stability from functioning — regardless of inner state."],
+    integrationPath: ["Learning to be without having to perform.", "Finding worth independent of results and success.", "Allowing one's own feelings and needs more space."],
+    integratedState: ["Acting without being driven by the need to prove oneself.", "Finding worth independent of external recognition.", "Success arises from genuine motivation rather than from inner pressure."],
+    turningPoint: ["Recognising that efficiency and performance do not create genuine self-worth.", "Allowing oneself to be seen with weakness and uncertainty.", "Inner worth begins to develop independent of achievements."],
+    tensionFields: ["Efficiency → Authenticity", "Functioning → Self-contact", "Performance → Presence", "Image → Reality", "Success → Inner worth", "Control → Letting go", "Doing → Being", "Delivering → Resting", "Recognition → Self-acceptance"],
+    essenceQualities: ["authentic presence", "grounded action", "real connection", "inner motivation", "quiet confidence"],
+  },
+  so3: {
+    integrationSentence: "Real recognition begins where the mask falls.",
+    lifeTheme: ["Wanting to be visible and inspiring — and to achieve recognition for it.", "Presenting oneself well and orienting oneself to the expectations of groups and communities.", "Achieving a great deal for others and inwardly wondering who one really is."],
+    unconsciousStrategy: ["Ensuring recognition through performance, charisma and social success.", "Adapting the image to the expectations of the relevant group.", "Finding stability through status, recognition and a leading role."],
+    integrationPath: ["Discovering one's own identity beyond role and image.", "Finding worth independent of recognition and status.", "Allowing genuine closeness in relationships."],
+    integratedState: ["Shining without having to perform.", "Feeling genuine connection beyond the image.", "Recognition becomes a gift rather than a necessity."],
+    turningPoint: ["Recognising that image and recognition do not create genuine self-worth.", "Allowing oneself to be seen without a polished facade.", "Authentic connection becomes more important than applause."],
+    tensionFields: ["Status → Self-worth", "Success → Authenticity", "Image → Reality", "Performance → Presence", "Recognition → Inner fulfilment", "Charisma → Genuine connection", "Competence → Humanity", "Visibility → Depth", "Adapting → Being"],
+    essenceQualities: ["authentic radiance", "inspiring presence", "genuine charisma", "purposeful action", "connected leadership"],
+  },
+  sx3: {
+    integrationSentence: "When you no longer need to perform, genuine radiance arises from inner worth.",
+    lifeTheme: ["Seeking connection and wanting to impress through radiance.", "Wanting to be perceived as special and easily orienting oneself to ideals and images.", "Seeking genuine resonance while easily losing one's authentic self in the process."],
+    unconsciousStrategy: ["Gaining recognition through radiance and impact in direct contact.", "Adapting strongly to the desires and ideals of others in order to be admired and desired.", "Stabilising oneself through attractiveness, attention and success — even when authenticity is lost."],
+    integrationPath: ["Not defining oneself through impact or admiration.", "Being allowed to be genuine without constantly maintaining an ideal image.", "Finding closeness through truthfulness, self-contact and emotional openness."],
+    integratedState: ["Showing oneself openly and radiantly without having to maintain a role.", "Remaining in genuine contact with one's inner being.", "Radiance arises from truthfulness rather than from performance."],
+    turningPoint: ["Recognising that radiance and admiration do not create genuine inner closeness.", "Allowing oneself to become visible behind roles and images.", "Energy becomes more honest; genuine presence replaces the pressure to impress."],
+    tensionFields: ["Radiance → Authenticity", "Attractiveness → Self-worth", "Desire → Authenticity", "Impact → Inner contact", "Brilliance → Vulnerability", "Seduction → Truthfulness", "Admiration → Self-acceptance", "Performance → Presence", "Image → Reality"],
+    essenceQualities: ["strong radiance", "emotional presence", "magnetic attraction", "creative self-expression", "surrender without control"],
+  },
+  se4: {
+    integrationSentence: "Depth is not suffering — it is the capacity to hold all of life.",
+    lifeTheme: ["Needing retreat and seeking inner stability through solitude.", "Carrying a great deal inwardly and outwardly appearing strong.", "Longing for depth and meaning while quietly struggling with emptiness."],
+    unconsciousStrategy: ["Ensuring security through endurance, resilience and inner strength.", "Suppressing one's own needs in order to appear functional and robust.", "Deriving stability from bearing and enduring."],
+    integrationPath: ["Allowing one's own needs and longings more openly.", "Finding worth independent of endurance and strength.", "Allowing one's own uniqueness to emerge — without suffering."],
+    integratedState: ["Being present without having to endure.", "Accepting one's own sensitivity as a resource.", "Depth becomes enrichment rather than burden."],
+    turningPoint: ["Recognising that bearing and enduring do not create genuine self-worth.", "Allowing oneself to be seen with longing and need.", "Inner emptiness is allowed to be present — without immediately filling it."],
+    tensionFields: ["Endurance → Self-acceptance", "Silent suffering → Inner relief", "Withdrawal → Contact", "Resilience → Vulnerability", "Depth → Lightness", "Uniqueness → Belonging", "Longing → Presence", "Melancholy → Gratitude", "Carrying → Letting go"],
+    essenceQualities: ["inner depth", "emotional resilience", "quiet strength", "authentic sensitivity", "grounded presence"],
+  },
+  so4: {
+    integrationSentence: "Belonging and uniqueness are not opposites.",
+    lifeTheme: ["Longing to belong while always feeling somewhat different.", "Seeking one's own place in the community and suffering from not fitting in.", "Wanting to contribute something meaningful and feeling unique — and misunderstood."],
+    unconsciousStrategy: ["Gaining recognition through uniqueness, depth and special qualities.", "Comparing oneself with others and feeling either inferior or superior.", "Finding stability through a sense of special identity."],
+    integrationPath: ["Finding worth independent of comparison and special status.", "Allowing belonging without giving up one's own uniqueness.", "Experiencing shame as a feeling — not as the truth about oneself."],
+    integratedState: ["Contributing one's uniqueness without having to prove it.", "Being able to belong — without losing oneself.", "Depth becomes a gift for the community rather than a mark of being different."],
+    turningPoint: ["Recognising that comparison and suffering do not lead to genuine belonging.", "Allowing oneself to be present — as one is.", "Uniqueness becomes a strength rather than a burden."],
+    tensionFields: ["Comparison → Self-worth", "Shame → Dignity", "Envy → Appreciation", "Uniqueness → Belonging", "Suffering → Presence", "Longing → Fulfilment", "Melancholy → Gratitude", "Withdrawal → Connection", "Special → Part of the whole"],
+    essenceQualities: ["aesthetic sensitivity", "emotional depth", "creative expression", "authentic presence", "compassionate understanding"],
+  },
+  sx4: {
+    integrationSentence: "The deepest longing is fulfilled where you are completely yourself.",
+    lifeTheme: ["Longing for something deeper and more intense — more than others seem to experience.", "Seeking the one relationship that fulfils everything — the great love.", "Feeling deeply and intensely and easily getting lost in unfulfillable longing."],
+    unconsciousStrategy: ["Gaining security through intense, unique relationships and deep connections.", "Competing for emotional specialness — the depth of feeling, the intensity of love.", "Finding stability through the experience of being uniquely and deeply understood."],
+    integrationPath: ["Finding worth independent of the ideal relationship.", "Experiencing that depth also exists in what is ordinary.", "Allowing longing without being consumed by it."],
+    integratedState: ["Seeking connection without making it absolute.", "Finding depth in the present rather than in the longed-for.", "Intensity becomes energy for presence rather than for yearning."],
+    turningPoint: ["Recognising that longing and competition do not create genuine closeness.", "Allowing what is — including the ordinary.", "The deepest connection is found not in the ideal but in the real."],
+    tensionFields: ["Passion → Self-acceptance", "Competition → Connection", "Longing → Reality", "Intensity → Equanimity", "Ideal → Present", "Uniqueness → Belonging", "Depth → Simplicity", "Yearning → Presence", "Specialness → Enough"],
+    essenceQualities: ["passionate depth", "emotional intensity", "creative longing", "transformative sensitivity", "authentic vulnerability"],
+  },
+  se5: {
+    integrationSentence: "The world becomes richer when you let it in.",
+    lifeTheme: ["Needing solitude and retreat to regenerate and think.", "Protecting energy carefully and finding social situations draining.", "Wanting to understand the world deeply while avoiding too much closeness."],
+    unconsciousStrategy: ["Ensuring security through retreat, knowledge and managing energy carefully.", "Keeping others at distance to maintain inner space.", "Finding stability through self-sufficiency and intellectual mastery."],
+    integrationPath: ["Allowing contact without immediately depleting oneself.", "Experiencing that the world gives as well as takes.", "Finding security not only in knowledge but also in trust."],
+    integratedState: ["Engaging with the world with curiosity without withdrawing.", "Finding regeneration also in contact and exchange.", "Knowledge becomes a bridge rather than a wall."],
+    turningPoint: ["Recognising that withdrawal and hoarding do not create genuine security.", "Allowing the world to approach — including people.", "Presence and energy grow when one stops rationing so strictly."],
+    tensionFields: ["Withdrawal → Contact", "Energy-saving → Vitality", "Knowledge → Presence", "Distance → Closeness", "Self-sufficiency → Interdependence", "Control → Trust", "Observation → Participation", "Privacy → Connection", "Holding → Flowing"],
+    essenceQualities: ["keen observation", "intellectual clarity", "focused attention", "deep understanding", "quiet wisdom"],
+  },
+  so5: {
+    integrationSentence: "Knowledge that is shared becomes wisdom.",
+    lifeTheme: ["Wanting to belong to a group or system while remaining intellectually independent.", "Sharing knowledge and expertise while keeping a certain distance.", "Observing and analysing social dynamics rather than fully immersing in them."],
+    unconsciousStrategy: ["Ensuring security through expertise and intellectual standing in the group.", "Remaining in the background as observer rather than fully engaging.", "Finding stability through knowledge and a defined role in systems."],
+    integrationPath: ["Allowing more direct participation and presence.", "Finding worth not only through expertise but through genuine encounter.", "Trusting that one belongs — even without complete mastery."],
+    integratedState: ["Contributing knowledge while also allowing closeness.", "Being present in the group rather than only observing.", "Wisdom becomes a gift rather than a protection."],
+    turningPoint: ["Recognising that observation from the background does not create genuine belonging.", "Allowing oneself to be seen — including one's uncertainties.", "Connection grows where knowledge becomes dialogue."],
+    tensionFields: ["Withdrawal → Contact", "Energy-saving → Vitality", "Longing → Reality", "Fusion → Autonomy", "Observation → Participation", "Expertise → Presence", "Background → Encounter", "Distance → Connection", "Knowing → Being"],
+    essenceQualities: ["systems thinking", "intellectual generosity", "quiet authority", "group awareness", "principled contribution"],
+  },
+  sx5: {
+    integrationSentence: "True intimacy is found where you remain yourself.",
+    lifeTheme: ["Longing for deep, intense closeness with one special person.", "Wanting to connect completely — while protecting inner space.", "Seeking the one genuine connection while easily withdrawing when it feels too close."],
+    unconsciousStrategy: ["Ensuring security through one exclusive, intense relationship.", "Withdrawing inwardly when too much closeness is felt.", "Finding stability through intellectual depth and emotional intensity with one person."],
+    integrationPath: ["Allowing closeness without immediately needing to withdraw.", "Experiencing that vulnerability also creates genuine connection.", "Finding security not only in depth but also in trust."],
+    integratedState: ["Seeking closeness without losing oneself.", "Allowing intensity without holding on too tightly.", "Finding security in genuine encounter rather than in retreat."],
+    turningPoint: ["Recognising that withdrawal and withholding do not create genuine closeness.", "Allowing the other person to truly see oneself.", "Longing and reality come closer together."],
+    tensionFields: ["Longing → Reality", "Fusion → Autonomy", "Closeness → Space", "Intensity → Presence", "Ideal → Real", "Depth → Simplicity", "Passion → Equanimity", "Withdrawal → Trust", "Yearning → Now"],
+    essenceQualities: ["intellectual intensity", "deep focus", "visionary clarity", "passionate insight", "intimate understanding"],
+  },
+  se6: {
+    integrationSentence: "True security is found within rather than in external guarantees.",
+    lifeTheme: ["Seeking security through preparation, planning and vigilance.", "Wanting to avoid danger and feeling responsible for ensuring everything is safe.", "Trusting systems and authorities while also questioning them."],
+    unconsciousStrategy: ["Ensuring security through detailed preparation and anticipating worst-case scenarios.", "Checking and re-checking to prevent anything from going wrong.", "Finding stability through loyalty, reliability and adherence to rules."],
+    integrationPath: ["Developing trust — in oneself and in life.", "Finding security independent of external guarantees.", "Allowing the present moment rather than always anticipating the future."],
+    integratedState: ["Acting from inner trust rather than from fear.", "Finding security in one's own judgement.", "Vigilance transforms into grounded awareness."],
+    turningPoint: ["Recognising that preparation and vigilance do not create genuine security.", "Trusting one's own inner compass.", "Fear becomes a signal rather than a command."],
+    tensionFields: ["Security → Trust", "Caution → Vitality", "Rules → Inner orientation", "Loyalty → Self-trust", "Vigilance → Presence", "Preparation → Openness", "Doubt → Confidence", "Fear → Courage", "Control → Flow"],
+    essenceQualities: ["loyal commitment", "careful preparation", "protective awareness", "reliable presence", "grounded vigilance"],
+  },
+  so6: {
+    integrationSentence: "Courage is not the absence of fear — it is moving forward despite it.",
+    lifeTheme: ["Wanting to belong and be safe within a community or group.", "Needing clear structures and trusted authorities — and also questioning them.", "Taking responsibility for the group while inwardly struggling with self-doubt."],
+    unconsciousStrategy: ["Ensuring security through loyalty, compliance and belonging to a reliable group.", "Testing authorities to see whether they are truly trustworthy.", "Finding stability through clear rules and social consensus."],
+    integrationPath: ["Developing trust in one's own judgement.", "Finding worth independent of group affiliation.", "Acting from inner conviction rather than from external authority."],
+    integratedState: ["Belonging without losing one's own perspective.", "Trusting one's own inner sense of direction.", "Loyalty becomes a choice rather than a compulsion."],
+    turningPoint: ["Recognising that doubt and testing do not create genuine security.", "Trusting oneself — even in uncertainty.", "Connection grows where trust replaces vigilance."],
+    tensionFields: ["Counter-attack → Trust", "Strength → Vulnerability", "Rules → Inner orientation", "Loyalty → Self-trust", "Group → Self", "Testing → Trusting", "Doubt → Confidence", "Compliance → Conviction", "Fear → Courage"],
+    essenceQualities: ["courageous loyalty", "community care", "principled questioning", "steadfast presence", "trustworthy strength"],
+  },
+  sx6: {
+    integrationSentence: "Closeness is safe when you trust yourself.",
+    lifeTheme: ["Being attracted to closeness and intensity while simultaneously fearing it.", "Seeking security through strength, courage and facing danger head-on.", "Longing for genuine connection while remaining suspicious and on guard."],
+    unconsciousStrategy: ["Ensuring security by going towards danger rather than fleeing from it.", "Projecting danger onto others and testing whether they can be trusted.", "Finding stability through strength, challenge and confrontation."],
+    integrationPath: ["Developing trust in people and in closeness.", "Experiencing that vulnerability does not mean weakness.", "Finding security in genuine connection rather than in testing."],
+    integratedState: ["Seeking closeness without immediately fearing betrayal.", "Allowing strength and vulnerability simultaneously.", "Courage becomes inner strength rather than reactive defiance."],
+    turningPoint: ["Recognising that testing and provocation do not create genuine trust.", "Allowing closeness — even though it brings uncertainty.", "Suspicion gradually transforms into discernment."],
+    tensionFields: ["Provocation → Trust", "Strength → Vulnerability", "Challenge → Openness", "Testing → Trusting", "Closeness → Security", "Defence → Surrender", "Suspicion → Discernment", "Courage → Presence", "Fear → Connection"],
+    essenceQualities: ["fierce courage", "protective strength", "honest challenge", "loyal intensity", "grounded boldness"],
+  },
+  se7: {
+    integrationSentence: "Security comes not from hoarding but from trust in what is.",
+    lifeTheme: ["Needing security and a cosy, comfortable home.", "Accumulating resources — food, money, knowledge — to feel safe.", "Enjoying comfort and cosiness while feeling that it is never quite enough."],
+    unconsciousStrategy: ["Ensuring security through accumulating resources and careful provision.", "Avoiding scarcity by always having enough in reserve.", "Finding stability through planning, control and a comfortable domestic environment."],
+    integrationPath: ["Finding security in trust rather than in accumulation.", "Experiencing that enough is genuinely enough.", "Allowing joy in what is present rather than in what is held in reserve."],
+    integratedState: ["Finding security in presence rather than in provision.", "Allowing simplicity rather than constant accumulation.", "Joy arises in the moment rather than from what is stored away."],
+    turningPoint: ["Recognising that hoarding and seeking pleasure do not create genuine security.", "Experiencing that trust provides more stability than reserves.", "The present becomes enough."],
+    tensionFields: ["Hoarding → Contentment", "Seeking pleasure → Presence", "Planning → Trust", "Control → Letting go", "Scarcity → Abundance", "Provision → Flow", "Comfort → Adventure", "Safety → Vitality", "Accumulation → Sufficiency"],
+    essenceQualities: ["warm hospitality", "careful nurturing", "joyful provision", "cosy presence", "gentle abundance"],
+  },
+  so7: {
+    integrationSentence: "The most meaningful connections arise where you also allow depth.",
+    lifeTheme: ["Seeking inspiration and connection with many people.", "Generating enthusiasm for ideas and visions and bringing people together.", "Committing to too many things at once and losing oneself in the process."],
+    unconsciousStrategy: ["Ensuring security through many relationships, ideas and stimulating experiences.", "Keeping options open and avoiding limitation or commitment.", "Finding stability through enthusiasm, positivity and social belonging."],
+    integrationPath: ["Developing depth rather than constantly seeking breadth.", "Allowing commitment and presence in what already is.", "Finding security in being rather than in always doing more."],
+    integratedState: ["Engaging with enthusiasm without losing oneself.", "Allowing depth to develop in relationships and projects.", "Joy arises in the present rather than in what is new."],
+    turningPoint: ["Recognising that breadth and enthusiasm do not create genuine fulfilment.", "Allowing stillness and limitations rather than constantly moving on.", "Depth becomes as attractive as breadth."],
+    tensionFields: ["Idealism → Lived depth", "Activity → Presence", "Enthusiasm → Equanimity", "Options → Commitment", "Breadth → Depth", "Excitement → Stillness", "Planning → Now", "Avoidance → Reality", "More → Enough"],
+    essenceQualities: ["visionary enthusiasm", "generous spirit", "creative synthesis", "joyful leadership", "connective energy"],
+  },
+  sx7: {
+    integrationSentence: "True aliveness is found where you allow what is — including depth and pain.",
+    lifeTheme: ["Seeking intensity, aliveness and the spark in relationships and experiences.", "Wanting to feel fully alive and avoiding anything ordinary or limiting.", "Generating fascination and excitement and feeling empty when intensity fades."],
+    unconsciousStrategy: ["Ensuring security through constant stimulation, intensity and new experiences.", "Avoiding pain, boredom and limitation by always keeping things exciting.", "Finding stability through the feeling of being alive and special."],
+    integrationPath: ["Allowing depth — including in moments that are not exciting.", "Experiencing that pain and limitation are also part of life.", "Finding aliveness in presence rather than in constant stimulation."],
+    integratedState: ["Feeling alive without needing constant intensity.", "Allowing stillness and depth rather than always seeking the next spark.", "Genuine joy arises in the present rather than in what is new."],
+    turningPoint: ["Recognising that intensity and euphoria do not create genuine fulfilment.", "Allowing what is — including the ordinary and the painful.", "Aliveness grows where one stops running away from depth."],
+    tensionFields: ["Idealisation → Reality", "Euphoria → Presence", "Excitement → Depth", "Options → Commitment", "Stimulation → Stillness", "Intensity → Equanimity", "Avoidance → Reality", "Pleasure → Meaning", "More → Enough"],
+    essenceQualities: ["sparkling vitality", "imaginative freedom", "joyful intensity", "creative pioneering", "adventurous spirit"],
+  },
+  se8: {
+    integrationSentence: "True strength shows itself where you can also be vulnerable.",
+    lifeTheme: ["Needing autonomy, control and security in one's own domain.", "Defending what is one's own and not tolerating anyone taking anything away.", "Being strong and in control while inwardly longing for peace and rest."],
+    unconsciousStrategy: ["Ensuring security through control over one's own domain and resources.", "Warding off threats with strength and resistance.", "Finding stability through self-sufficiency, power and dominance in one's own territory."],
+    integrationPath: ["Finding security that does not depend on control.", "Allowing vulnerability and trust — in relationships too.", "Experiencing that strength and gentleness can coexist."],
+    integratedState: ["Being strong without having to dominate.", "Allowing closeness and vulnerability.", "Power becomes protective energy rather than a means of control."],
+    turningPoint: ["Recognising that control and resistance do not create genuine security.", "Allowing trust — in people and in life.", "Strength becomes a resource for others rather than a barrier."],
+    tensionFields: ["Control → Trust", "Hardness → Living force", "Dominance → Connection", "Defence → Openness", "Power → Service", "Territory → Community", "Resistance → Flow", "Toughness → Tenderness", "Control → Letting go"],
+    essenceQualities: ["protective strength", "territorial sovereignty", "instinctive power", "loyal defence", "grounded authority"],
+  },
+  so8: {
+    integrationSentence: "The strongest leadership arises where strength serves others.",
+    lifeTheme: ["Wanting to lead, protect and provide clear direction for the community.", "Standing up for justice and the weak — and fighting when necessary.", "Carrying a great deal for others while inwardly longing to let go."],
+    unconsciousStrategy: ["Ensuring security through leadership, power and control over the group.", "Protecting the group by setting clear boundaries and rules.", "Finding stability through a leadership role and decisive action."],
+    integrationPath: ["Finding security that does not depend on control and power.", "Allowing vulnerability and trust — in the community.", "Experiencing that strength and tenderness can coexist."],
+    integratedState: ["Leading without having to dominate.", "Allowing closeness and vulnerability in the community.", "Power becomes service rather than control."],
+    turningPoint: ["Recognising that control and power do not create genuine community.", "Allowing trust — in people and processes.", "Strength becomes a source for others rather than a means of maintaining position."],
+    tensionFields: ["Control → Trust", "Ownership → Real protection", "Dominance → Service", "Hardness → Compassion", "Resistance → Flow", "Power → Empowerment", "Defence → Connection", "Command → Collaboration", "Territory → Community"],
+    essenceQualities: ["powerful leadership", "protective justice", "commanding presence", "loyal strength", "magnanimous authority"],
+  },
+  sx8: {
+    integrationSentence: "The deepest closeness arises where strength meets vulnerability.",
+    lifeTheme: ["Seeking intense, magnetic closeness — all or nothing.", "Wanting to feel fully alive in relationships and not tolerating half-measures.", "Being powerful and in control while fearing losing the connection."],
+    unconsciousStrategy: ["Ensuring security through intensity, passion and control in close relationships.", "Testing the strength and loyalty of the partner.", "Finding stability through fusion, power and magnetic attraction."],
+    integrationPath: ["Allowing closeness without having to control.", "Experiencing that vulnerability creates genuine connection.", "Finding security in trust rather than in intensity."],
+    integratedState: ["Seeking closeness without needing to dominate.", "Allowing vulnerability and trust in the relationship.", "Intensity becomes warmth rather than a means of control."],
+    turningPoint: ["Recognising that intensity and control do not create genuine closeness.", "Allowing the partner to be free.", "Strength transforms into the ability to truly connect."],
+    tensionFields: ["Fight → Encounter", "Possession → Free connection", "Control → Trust", "Intensity → Presence", "All-or-nothing → Nuance", "Power → Vulnerability", "Testing → Trusting", "Passion → Tenderness", "Dominance → Equality"],
+    essenceQualities: ["magnetic intensity", "passionate protection", "bold vulnerability", "transformative power", "all-or-nothing dedication"],
+  },
+  se9: {
+    integrationSentence: "Life happens where you show up fully.",
+    lifeTheme: ["Seeking peace, comfort and security in a cosy, familiar environment.", "Wanting to avoid conflict and tension — within oneself and with others.", "Retreating easily into familiar routines while something deeper longs for more."],
+    unconsciousStrategy: ["Ensuring security through comfort, familiar routines and avoiding conflict.", "Numbing oneself through small pleasures to avoid inner restlessness.", "Finding stability through peace, cosiness and an uncomplicated life."],
+    integrationPath: ["Allowing life more — including its challenges and its intensity.", "Developing one's own will and presence.", "Finding aliveness in engagement rather than in retreat."],
+    integratedState: ["Being present in life rather than retreating from it.", "Allowing conflict as part of genuine encounter.", "Peace arises from engagement rather than from avoidance."],
+    turningPoint: ["Recognising that comfort and avoidance do not create genuine peace.", "Allowing oneself to be moved — by life and by people.", "Inner aliveness grows where one stops retreating."],
+    tensionFields: ["Habit → Living presence", "Numbing → Self-contact", "Comfort → Vitality", "Avoidance → Engagement", "Peace → Presence", "Withdrawal → Connection", "Routines → Spontaneity", "Inertia → Action", "Safety → Aliveness"],
+    essenceQualities: ["peaceful presence", "gentle acceptance", "harmonious being", "inclusive warmth", "quiet steadiness"],
+  },
+  so9: {
+    integrationSentence: "Genuine peace includes your own voice.",
+    lifeTheme: ["Wanting everyone to get along — and working actively to ensure harmony.", "Mediating, bridging and creating connection in groups.", "Doing a great deal for others while losing sight of one's own position."],
+    unconsciousStrategy: ["Ensuring security through harmony, mediation and avoiding conflict.", "Adapting to the group and setting one's own needs aside.", "Finding stability through belonging and maintaining group harmony."],
+    integrationPath: ["Finding and expressing one's own position and needs.", "Allowing conflict as part of genuine encounter.", "Finding security independent of group harmony."],
+    integratedState: ["Mediating without losing one's own position.", "Allowing conflict as part of genuine community.", "Peace includes one's own voice rather than self-erasure."],
+    turningPoint: ["Recognising that harmony and adaptation do not create genuine peace.", "Allowing one's own voice and position.", "Genuine belonging also includes one's own needs."],
+    tensionFields: ["Habit → Living presence", "Numbing → Self-contact", "Harmony → Authenticity", "Adaptation → Self-expression", "Belonging → Individuality", "Mediation → Conviction", "Avoidance → Engagement", "Peace → Presence", "Self-erasure → Voice"],
+    essenceQualities: ["harmonising wisdom", "inclusive presence", "gentle mediation", "peaceful strength", "community weaving"],
+  },
+  sx9: {
+    integrationSentence: "You are whole — with and without the other.",
+    lifeTheme: ["Seeking merger and complete union with a partner or ideal.", "Wanting to feel whole through the other — through love, connection and shared being.", "Giving oneself completely and gradually losing one's own self in the process."],
+    unconsciousStrategy: ["Ensuring security through merger and fusion with another person.", "Adapting completely to the partner and setting one's own needs and opinions aside.", "Finding stability through the feeling of complete union."],
+    integrationPath: ["Developing one's own identity alongside the relationship.", "Finding worth independent of the partner's needs.", "Allowing closeness without self-dissolution."],
+    integratedState: ["Seeking closeness without losing oneself.", "Remaining one's own person within the relationship.", "Union becomes enrichment rather than dissolution."],
+    turningPoint: ["Recognising that merger and self-erasure do not create genuine closeness.", "Allowing one's own desires, opinions and needs.", "Genuine love includes both people."],
+    tensionFields: ["Merger → Encounter", "Adaptation → Self-expression", "Union → Individuality", "Selflessness → Self-contact", "Harmony → Authenticity", "Fusion → Presence", "Other → Self", "Belonging → Being", "Erasure → Voice"],
+    essenceQualities: ["peaceful union", "empathic resonance", "harmonious merging", "gentle presence", "unconditional belonging"],
+  },
+};
+
+const COMIC_EN = {
+  se1: {
+    title: "Comic of the Self-Preservation One (SP1) – Perfection within the Self-Preservation Instinct",
+    caption: '"100 GRAMS. NOT ONE MORE, NOT ONE LESS." – "Everything must be in order, or I lose control." – "No thank you. I keep to my limits." – "Discipline makes me safe… …but sometimes I feel empty." – "I MUST NOT WASTE ANYTHING. I MUST HOLD THE LINE. THAT’S HOW I STAY IN BALANCE." – "I have to stick to my plan so everything stays in order." – "Coming to the cinema? / No, that doesn’t fit my plan." – "Sometimes I wish I could be more relaxed… but what if everything falls apart?"'
+  },
+  so1: {
+    title: "Comic of the Social One (SO1) – Perfection within the Social Instinct",
+    caption: 'Banner: "CLEAN CITY – RULES FOR EVERYONE!" – "IF EVERYONE DOES AS THEY PLEASE, THE COMMUNITY FALLS APART." – "Don’t just leave things lying around!" – "If nobody cares, chaos will follow." – "Take responsibility!" – "You can’t just ignore the rules!" – "She’s really overdoing it… / Rules are for the good of the community." – "I wanted to help… but sometimes I lose people."'
+  },
+  sx1: {
+    title: "Comic of the Sexual One (SX1) – Perfection within the Sexual Instinct",
+    caption: '"BETWEEN US THERE CAN BE NO HALF-MEASURES – EVERYTHING MUST BE REAL AND PURE." – "COME HERE… SHOW ME THAT YOU WANT ME." – "THAT’S TOO MUCH FOR ME RIGHT NOW." – "What? / Am I not good enough?" – "YOU’RE CHEATING ON ME, I KNOW IT!" – "JUST ADMIT IT…" – "Maybe I’m wrong. But what if it’s really true?"'
+  },
+  se2: {
+    title: "Comic of the Self-Preservation Two (SP2) – Love within the Self-Preservation Instinct",
+    caption: '"THAT WASN’T NECESSARY." – "BUT IF I DON’T TAKE CARE OF THINGS, IT ALL FALLS APART." – "There’s way too much food left – do you need another casserole?" – "I have to make sure everyone’s okay." – "At the end, nothing is left for me." – "I HAVE TO KEEP AN EYE ON EVERYTHING, OR SOMETHING WILL SLIP THROUGH…" – "Want to come to the theatre? / Manchmal wünschte ich, ich könnte einfach loslassen – …aber wer sorgt dann für alle?" [Sometimes I wish I could just let go – …but who will look after everyone then?]'
+  },
+  so2: {
+    title: "Comic of the Social Two (SO2) – Love within the Social Instinct",
+    caption: '"YOU CAN COUNT ON ME – I’LL TAKE CARE OF EVERYTHING!" – "I HAVE TO BE STRONG FOR ALL OF US." – "I look after your worries," – "But who actually looks after me?" – "EVERYONE HAD WHAT THEY NEEDED…" – [man alone at table, looking in mirror at night]'
+  },
+  sx2: {
+    title: "Comic of the Sexual Two (SX2) – Love within the Sexual Instinct",
+    caption: '"You know I would do anything for you." – "Sometimes your closeness is too much for me." – "I want your closeness!" – "I need your closeness…" – "…or I fall apart." – "I give more and more…" – "…but no one sees how much I invest." – "I need your closeness." – "In the end I am left empty."'
+  },
+  se3: {
+    title: "Comic of the Self-Preservation Three (SP3) – Success within the Self-Preservation Instinct",
+    caption: '"NO MATTER HOW I FEEL – I HAVE TO DELIVER." – "I must show no weakness" – "…everything must run smoothly." – "Nobody must notice how much it costs me." – "I must not stop." – "The image has to hold, whatever I’m going through." – "In the end nothing is left for me."'
+  },
+  so3: {
+    title: "Comic of the Social Three (SO3) – Success within the Social Instinct",
+    caption: '"Everyone is watching me – and I have to shine." – "Everyone expects me to take the lead." – "I must show no weakness." – "Without recognition I lose my worth." – "When the lights go out…" – "…only the image remains." – "And who am I without your recognition?"'
+  },
+  sx3: {
+    title: "Comic of the Sexual Three (SX3) – Success within the Sexual Instinct",
+    caption: '"I have to shine – only then will I be loved." – "They should see how unique I am." – "I can be whatever you want." – "But… am I losing myself in the process?" – "The façade gleams…" – "…but inside I am so tired." – "In the end I am left alone with myself."'
+  },
+  se4: {
+    title: "Comic of the Self-Preservation Four (SP4) – Individuality within the Self-Preservation Instinct",
+    caption: '"I need my retreat. …or I lose myself." – "I have to provide for everything…" – "…and on the outside I appear strong." – "But in silence I struggle with the emptiness." – "I function…" – "…I appear robust…" – "…but no one sees my quiet longing."'
+  },
+  so4: {
+    title: "Comic of the Social Four (SO4) – Individuality within the Social Instinct",
+    caption: '"Everyone seems to have their place… but I never quite fit in." – "I can be in their midst… and still feel a stranger." – "Why do I feel different… even when I belong?"'
+  },
+  sx4: {
+    title: "Comic of the Sexual Four (SX4) – Individuality within the Sexual Instinct",
+    caption: '"I long for something deeper… more than others." – "There is always something missing in my relationships…" – "In relationship with so many people…" – "…I still feel alone and unfulfilled." – "Deep inside me remains a hunger… for a love that fulfils everything."'
+  },
+  se5: {
+    title: "Comic of the Self-Preservation Five (SP5) – Knowledge within the Self-Preservation Instinct",
+    caption: '"I have to ration my energy… or I lose myself." – "When I give so much, I lose myself." – "…I need time for myself." – "I have to withdraw…" – "Only in my silence can I recharge." – "Too close is too much for me." – "Only in distance do I feel safe." – "There I can recharge my batteries."'
+  },
+  so5: {
+    title: "Comic of the Social Five (SO5) – Knowledge within the Social Instinct",
+    caption: '"I want to belong… but please not too close." – "In the group I am present…" – "But I keep my distance. I observe more than I participate." – "I am happy to share my knowledge…" – "…but I prefer to stay in the background."'
+  },
+  sx5: {
+    title: "Comic of the Sexual Five (SX5) – Knowledge within the Sexual Instinct",
+    caption: '"I long for real closeness…" – "But when someone comes too close…" – "…something in me withdraws." – "Between longing and retreat…" – "…I find my own space."'
+  },
+  se6: {
+    title: "Comic of the Self-Preservation Six (SP6) – Security within the Self-Preservation Instinct",
+    caption: '"I always have to be prepared…" – "I check everything carefully…" – "…otherwise something might happen." – "Danger lurks everywhere…" – "…so I stay on my guard."'
+  },
+  so6: {
+    title: "Comic of the Social Six (SO6) – Security within the Social Instinct",
+    caption: '"I want to belong…" – "I want to belong." – "…but I stay watchful." – "I watch out for dangers…" – "…and I need the certainty that everything is safe."'
+  },
+  sx6: {
+    title: "Comic of the Sexual Six (SX6) – Security within the Sexual Instinct",
+    caption: '"Closeness attracts me. …and frightens me." – "When someone comes too close…" – "…I sense the danger immediately." – "Relationships frighten me…" – "…but when someone gets too close to me…" – "…my mistrust persists."'
+  },
+  se7: {
+    title: "Comic of the Self-Preservation Seven (SP7) – Joy within the Self-Preservation Instinct",
+    caption: '"I need security and a cosy home…" – "I have to provide… or everything becomes too uncertain." – "If I have enough supplies, I feel calmer." – "A warm, safe nest – that’s what I need." – "If only I don’t miss anything… something might be lacking." – "Better too much than too little – safe is safe." – "And yet… it never feels enough."'
+  },
+  so7: {
+    title: "Comic of the Social Seven (SO7) – Joy within the Social Instinct",
+    caption: '"Being together with others – that’s my elixir of life!" – "Let’s get something off the ground together!" – "There are so many good ideas – we just have to start!" – "Community makes life easier." – "I have made too many promises…" – "Sometimes I lose myself…"'
+  },
+  sx7: {
+    title: "Comic of the Sexual Seven (SX7) – Joy within the Sexual Instinct",
+    caption: '"I need this spark… or I feel empty." – "Life has to be intense!" – "Only when it crackles do I feel alive." – "Why is it never enough for me?" – "As soon as things get serious, it pulls me on…" – "In the end I am still left empty…"'
+  },
+  se8: {
+    title: "Comic of the Self-Preservation Eight (SP8) – Power within the Self-Preservation Instinct",
+    caption: '"I have to defend my home – nobody shall take anything from me!" – "Everything must be strong and secure." – "Only when I have everything under control can I relax." – "Whoever attacks me meets resistance." – "I tolerate no contradiction!" – "If I’m not strong, I lose everything." – "And sometimes I just wish for peace and quiet…"'
+  },
+  so8: {
+    title: "Comic of the Social Eight (SO8) – Power within the Social Instinct",
+    caption: '"The community needs clear leadership – and I take charge!" – "We must stand strong together!" – "Whoever leads also decides the way." – "My word counts here – no disorder!" – "If I lose control, I lose everything." – "Why is letting go so hard for me…"'
+  },
+  sx8: {
+    title: "Comic of the Sexual Eight (SX8) – Power within the Sexual Instinct",
+    caption: '"I want closeness, but no half-measures – all or nothing!" – "I love it when a relationship is magnetic – that’s where I feel alive." – "Closeness without friction? That doesn’t exist for me!" – "Show me your strength – then I’ll respect you." – "Who are you texting?" – "If I lose control, I lose you." – "Why am I so afraid of letting go…"'
+  },
+  se9: {
+    title: "Comic of the Self-Preservation Nine (SP9) – Ease within the Self-Preservation Instinct",
+    caption: '"I prefer to stay at home – it’s peaceful and safe here." – "So the day passes without stress." – "I’ll just rest for a moment…" – "No conflict please – it only makes me tired." – "Ah… maybe another time." – "Sometimes I lose myself in doing nothing." – "…But deep down I wish for more from life."'
+  },
+  so9: {
+    title: "Comic of the Social Nine (SO9) – Ease within the Social Instinct",
+    caption: '"It’s nicest when everyone gets along…" – "Here, a piece of cake – everyone should feel comfortable." – "My opinion isn’t so important…" – "Please stay calm – we’ll find a way." – "As long as there is peace, that’s enough for me…" – "And yet I lose myself."'
+  },
+  sx9: {
+    title: "Comic of the Sexual Nine (SX9) – Ease within the Sexual Instinct",
+    caption: '"When we are one, I feel whole." – "Of course, whatever you like." – "The main thing is she’s happy." – "I don’t need much…" – "Does she need me at all?" – "Sometimes I lose myself in her." – "And where do I remain?"'
+  }
+};
+
 const DYNAMIK_VIDEOS = {
   1: "b3NTI3JH2wo",
   2: "BlxNIC_VxV4",
@@ -3665,6 +6149,9 @@ function subtypePage(code) {
              alt="Comic: ${enCode(entry.code)} &ndash; ${entry.title_en || entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
+      <div style="margin-top:0.6rem; padding:0.65rem 0.85rem; background:var(--surface2,rgba(0,0,0,0.04)); border-radius:0.4rem; border-left:3px solid var(--line);">
+        <p style="font-size:0.78rem; color:var(--muted); line-height:1.55; margin:0;"><strong style="color:var(--ink-mid,var(--ink)); font-size:0.8rem;">${(COMIC_EN[code.toLowerCase()] || {}).title || ''}</strong><br>${(COMIC_EN[code.toLowerCase()] || {}).caption || ''}</p>
+      </div>
       <button class="ghost-link" data-tier-laut="${entry.animal}"
               style="margin-top:0.75rem; font-size:0.9rem; opacity:0.85;">
         🔊 ${entry.animal_en || entry.animal} call
@@ -3681,7 +6168,7 @@ function subtypePage(code) {
       </div>
     </section>` : ""; })()} 
     <section class="subtype-sections">
-      ${sectionBlock("verstehen", sp.rooms.verstehen, verstehenInner(entry, sp) + impulseBlock(SUBTYP_IMPULSE[code.toLowerCase()], tc), tc)}
+      ${sectionBlock("verstehen", sp.rooms.verstehen, verstehenInner(entry, sp) + impulseBlock(SUBTYP_IMPULSE[code.toLowerCase()], tc, code), tc)}
       ${sectionBlock("spueren", sp.rooms.spueren, spuerenInner(entry, sp), tc)}
       ${sectionBlock("regulieren", sp.rooms.regulieren, regulierenInner(entry, sp), tc)}
       ${sectionBlock("unterstuetzen", sp.rooms.unterstuetzen, entry.heilmittel ? (hasHeilwissen() ? heilmittelSection(entry.heilmittel, oelForType(entry.code), entry.code) : heilwissenLock()) : "", tc)}
@@ -3831,13 +6318,15 @@ function roomCard(key, title, inner) {
   `;
 }
 
-function impulseBlock(impulse, color) {
+function impulseBlock(impulse, color, code) {
   if (!impulse) return "";
-  const paragraphs = impulse.text.split("\n\n").map(p => `<p>${p}</p>`).join("");
+  const enImp = code ? (SUBTYP_IMPULSE_EN[(code).toLowerCase()] || null) : null;
+  const src = enImp || impulse;
+  const paragraphs = src.text.split("\n\n").map(p => `<p>${p}</p>`).join("");
   return `
     <div class="typ-impuls" style="border-left-color:${color || "var(--accent)"}">
       ${paragraphs}
-      <p class="typ-impuls__impuls"><em>Impulse for today: ${impulse.impuls}</em></p>
+      <p class="typ-impuls__impuls"><em>Impulse for today: ${src.impuls}</em></p>
       <p class="typ-impuls__autor">— Detlef Rathmer</p>
     </div>
   `;
@@ -3856,14 +6345,21 @@ function sectionBlock(key, title, inner, color) {
 
 function verstehenInner(entry, sp) {
   const blocks = [];
-  if (entry.lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${entry.lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.unconsciousStrategy && entry.unconsciousStrategy.length) blocks.push(`<div class="room-field"><strong>${sp.unconsciousStrategy || "Unbewusste Strategie"}</strong><ul>${entry.unconsciousStrategy.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${entry.organismQuestion}</p></div>`);
+  const en = SUBTYPES_EN[(entry.code || "").toLowerCase()] || {};
+  const enOrgQ = ORGANISM_Q_EN[entry.organismQuestion] || entry.organismQuestion;
+  const lifeTheme = en.lifeTheme || entry.lifeTheme;
+  const uncStrat = en.unconsciousStrategy || entry.unconsciousStrategy;
+  const intPath = en.integrationPath || entry.integrationPath;
+  const intState = en.integratedState || entry.integratedState;
+  const intSent = en.integrationSentence || entry.integrationSentence;
+  if (lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (uncStrat && uncStrat.length) blocks.push(`<div class="room-field"><strong>${sp.unconsciousStrategy || "Unconscious Strategy"}</strong><ul>${uncStrat.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${enOrgQ}</p></div>`);
   if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence_en || entry.coreSentence}</p></div>`);
-  if (entry.integrationSentence) blocks.push(`<div class="room-field room-field--quote"><strong>${sp.integrationSentence || "Leitsatz der Integration"}</strong><blockquote>${entry.integrationSentence}</blockquote></div>`);
-  if (entry.integrationPath && entry.integrationPath.length) blocks.push(`<div class="room-field"><strong>${sp.integrationPath || "Integrationsweg"}</strong><ul>${entry.integrationPath.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.integratedState && entry.integratedState.length) blocks.push(`<div class="room-field"><strong>${sp.integratedState || "Integrierter Zustand"}</strong><ul>${entry.integratedState.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.woundBehindPassion) blocks.push(woundBehindPassionSection(entry.woundBehindPassion));
+  if (intSent) blocks.push(`<div class="room-field room-field--quote"><strong>${sp.integrationSentence || "Guiding Sentence"}</strong><blockquote>${intSent}</blockquote></div>`);
+  if (intPath && intPath.length) blocks.push(`<div class="room-field"><strong>${sp.integrationPath || "Integration Path"}</strong><ul>${intPath.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (intState && intState.length) blocks.push(`<div class="room-field"><strong>${sp.integratedState || "Integrated State"}</strong><ul>${intState.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if (entry.woundBehindPassion) blocks.push(woundBehindPassionSection(entry.woundBehindPassion, entry.code));
   return blocks.join("");
 }
 
@@ -3873,15 +6369,16 @@ function spuerenInner(entry, sp) {
   const seite1 = `${CDN}assets/knowledge/type-${entry.code.slice(-1)}/${entry.code.toLowerCase()}/${entry.code.toLowerCase()}-page-1.jpeg`;
   blocks.push(`
     <figure class="vollseite-karte">
-      <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+      <p class="vollseite-karte__hint">Tap to enlarge</p>
       <div class="card-pg-wrap">
         <img src="${seite1}" alt="${entry.code} Seite 1 &ndash; Prototypen, Blickqualität und Körpersignatur" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
         <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
       </div>
-      <figcaption class="vollseite-karte__titel">Seite 1 · Profil, Prototypen & Körpersignatur</figcaption>
+      <figcaption class="vollseite-karte__titel">Page 1 · Profile, Prototypes & Body Signature</figcaption>
     </figure>
   `);
+  blocks.push(page1SummaryBlock(entry.code));
   if (entry.signature) blocks.push(`<div class="room-field"><strong>${entry.signature.title}</strong><p>${entry.signature.text}</p></div>`);
   const bs = entry.bodySignature;
   const bsl = sp.bodySignature || {};
@@ -3906,7 +6403,7 @@ function spuerenInner(entry, sp) {
   }
   if (entry.archetypalEssence) blocks.push(`<div class="room-field"><strong>${sp.archetypalEssence || "Archetypische Essenz"}</strong><p>${entry.archetypalEssence}</p></div>`);
   if (entry.integrativePotential) blocks.push(`<div class="room-field"><strong>${sp.integrativePotential || "Integratives Potenzial"}</strong><p>${entry.integrativePotential}</p></div>`);
-  if (entry.essence && entry.essence.qualities) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities}</strong><ul>${entry.essence.qualities.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  const enQ = (SUBTYPES_EN[(entry.code||"").toLowerCase()]||{}).essenceQualities; if (enQ || (entry.essence && entry.essence.qualities)) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities}</strong><ul>${(enQ || entry.essence.qualities).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   return blocks.join("");
 }
 
@@ -3914,7 +6411,7 @@ function koerperarbeitBlock(k) {
   if (!k || !k.seiten) return "";
   return k.seiten.map(s => `
     <figure class="vollseite-karte">
-      <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+      <p class="vollseite-karte__hint">Tap to enlarge</p>
       <div class="card-pg-wrap">
         <img src="${s.src}" alt="${s.alt}" class="vollseite-karte__img" loading="lazy" />
         <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
@@ -3932,7 +6429,7 @@ function regulierenInner(entry, sp) {
     const remaining = entry.visualPages.filter(pg => !pg.src.includes("page-1"));
     remaining.forEach(pg => blocks.push(`
       <figure class="vollseite-karte">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <p class="vollseite-karte__hint">Tap to enlarge</p>
         <div class="card-pg-wrap">
           <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
             onerror="this.closest('.vollseite-karte').style.display='none'" />
@@ -3942,14 +6439,15 @@ function regulierenInner(entry, sp) {
       </figure>
     `));
   }
-  if (entry.turningPoint && entry.turningPoint.length) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Wendepunkt"}</strong><ul>${entry.turningPoint.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervensystem-Regulation"}</strong><ul>${entry.nervousSystemRegulation.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.tensionFields && entry.tensionFields.length) blocks.push(`<div class="room-field"><strong>${sp.tensionFields || "Spannungsfelder"}</strong><ul>${entry.tensionFields.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  const enReg = SUBTYPES_EN[(entry.code || "").toLowerCase()] || {}; if ((enReg.turningPoint || (entry.turningPoint && entry.turningPoint.length))) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Turning Point"}</strong><ul>${(enReg.turningPoint || entry.turningPoint).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  const enNsr = NSR_EN[(entry.code || "").toLowerCase()];
+  if (enNsr || (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length)) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervous System Regulation"}</strong><ul>${(enNsr || entry.nervousSystemRegulation).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  if ((enReg.tensionFields || (entry.tensionFields && entry.tensionFields.length))) blocks.push(`<div class="room-field"><strong>${sp.tensionFields || "Tension Fields"}</strong><ul>${(enReg.tensionFields || entry.tensionFields).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
   blocks.push(`
     <div class="room-field" style="margin-top:1.4rem;padding:1.1rem 1.2rem;background:var(--paper);border-radius:12px;border-left:3px solid var(--gold);text-align:left;">
-      <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Wenn Sie die Muster dieses Subtypes erkannt haben — lassen Sie das Gelesene jetzt zur Ruhe kommen. Nicht weiter analysieren. Einfach sein.</p>
-      <button class="ghost-link" data-route="stille" style="font-size:0.95rem;">⏱ 9 Minuten Stille sitzen →</button>
+      <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Once you have recognised the patterns of this subtype — let what you have read settle now. No further analysis. Simply be.</p>
+      <button class="ghost-link" data-route="stille" style="font-size:0.95rem;">⏱ 9 minutes of stillness →</button>
     </div>
   `);
   return blocks.join("");
@@ -4140,7 +6638,7 @@ function knowledgeCard(item) {
           <ul>${item.essence.qualities.map((entry) => `<li>${entry}</li>`).join("")}</ul>
         </div>
       ` : ""}
-      ${item.woundBehindPassion ? woundBehindPassionSection(item.woundBehindPassion) : ""}
+      ${item.woundBehindPassion ? woundBehindPassionSection(item.woundBehindPassion, item.code) : ""}
       ${(item.heilmittel || item.remedies)
           ? hasHeilwissen()
             ? (item.heilmittel ? heilmittelSection(item.heilmittel, oelForType(item.code), item.code) : `
@@ -4179,7 +6677,7 @@ function heilmittelSection(h, oel, code) {
       <strong>${w.title}</strong>
       ${seite4 ? `
       <figure class="vollseite-karte">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <p class="vollseite-karte__hint">Tap to enlarge</p>
         <img src="${seite4}" alt="Remedies-Kompass Übersicht" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
         <figcaption class="vollseite-karte__titel">Seite 4 · Remedies-Kompass</figcaption>
@@ -4235,8 +6733,36 @@ function heilmittelSection(h, oel, code) {
   `;
 }
 
-function woundBehindPassionSection(wound) {
+
+function page1SummaryBlock(code) {
+  if (!code) return "";
+  const d = PAGE1_SUMMARY_EN[(code).toLowerCase()];
+  if (!d) return "";
+  const ul = (arr) => arr && arr.length ? `<ul>${arr.map(i => `<li>${i}</li>`).join("")}</ul>` : "";
+  return `
+    <div class="page1-summary">
+      <h4 class="page1-summary__theme">${d.coreTheme}</h4>
+      <p class="page1-summary__identities">${d.identities}</p>
+      <p class="page1-summary__statement"><em>"${d.coreStatement}"</em></p>
+      <div class="room-field"><strong>Organism Question</strong><p><em>${d.organismQuestion}</em></p></div>
+      <div class="room-field"><strong>Gaze Quality</strong>${ul(d.gazeQuality)}</div>
+      <div class="room-field"><strong>Micro-Tension</strong>${ul(d.microTension)}</div>
+      <div class="room-field"><strong>Breathing Rhythm</strong>${ul(d.breathingRhythm)}</div>
+      <div class="room-field"><strong>Movement Initiation</strong>${ul(d.movementInitiation)}</div>
+      <div class="room-field"><strong>Contact Style</strong>${ul(d.contactStyle)}</div>
+      <div class="room-field"><strong>Tension Distribution</strong><p>${d.tensionDistribution}</p></div>
+      <div class="room-field"><strong>Embodied Signature</strong>${ul(d.embodiedSignature)}</div>
+      <div class="room-field"><strong>Core Tension</strong><p>${d.coreTension}</p></div>
+      <div class="room-field"><strong>Integration Path</strong><p>${d.integrationPath}</p></div>
+      <div class="room-field"><strong>Animal: ${d.animal.name}</strong><p>${d.animal.description}</p></div>
+      <div class="room-field"><strong>Resource Field</strong>${ul(d.resourceField)}</div>
+      <div class="room-field page1-summary__footer"><span>${d.energeticTemp}</span> &nbsp;·&nbsp; <span>${d.attention}</span> &nbsp;·&nbsp; <span>${d.lifeFocus}</span></div>
+    </div>
+  `;
+}
+function woundBehindPassionSection(wound, code) {
   const w = text.knowledgeCard.woundBehindPassion;
+  const en = code ? (WOUNDS_EN[(code).toLowerCase()] || {}) : {};
   const steps = [
     ["passion", w.passion],
     ["belief", w.belief],
@@ -4254,20 +6780,13 @@ function woundBehindPassionSection(wound) {
         ${steps
           .map(
             ([key, label]) => `
-          <li class="wound-step${wound[key] ? "" : " wound-step--empty"}">
+          <li class="wound-step${(en[key] || wound[key]) ? "" : " wound-step--empty"}">
             <span class="wound-step__label">${label}</span>
-            <span class="wound-step__value">${wound[key] ? wound[key] : placeholder}</span>
+            <span class="wound-step__value">${(en[key] || wound[key]) ? (en[key] || wound[key]) : placeholder}</span>
           </li>`,
           )
           .join("")}
       </ol>
-      ${
-        wound.needsReview && wound.needsReview.length
-          ? `<div class="wound-review">${wound.needsReview
-              .map((entry) => `<p>${entry}</p>`)
-              .join("")}</div>`
-          : ""
-      }
     </div>
   `;
 }
@@ -32888,7 +35407,7 @@ function subtypeChartsPage() {
     const tc = typeColorFromCode(code);
     const pagesHtml = entry.visualPages.map(pg => `
       <figure class="vollseite-karte" style="margin:0 0 1.5rem;">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <p class="vollseite-karte__hint">Tap to enlarge</p>
         <div class="card-pg-wrap">
           <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
             onerror="this.closest('.vollseite-karte').style.display='none'" />
@@ -36596,7 +39115,7 @@ function subtypeSchaubilderPage() {
     const tc = typeColorFromCode(code);
     const pagesHtml = entry.visualPages.map(pg => `
       <figure class="vollseite-karte" style="margin:0 0 1.5rem;">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <p class="vollseite-karte__hint">Tap to enlarge</p>
         <div class="card-pg-wrap">
           <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
             onerror="this.closest('.vollseite-karte').style.display='none'" />
@@ -37207,7 +39726,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v549';
+  const MY_VERSION = 'inhalt-v554';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
