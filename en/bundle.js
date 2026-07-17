@@ -1938,7 +1938,7 @@ function dashboardPage() {
       </div>
     </section>
     <section class="daily-grid">
-      ${infoCard(copy.dailyImpulse, dailyPick(p.daily.impulse))}
+      ${(()=>{const _imp=dailyPick(p.daily.impulse);return infoCard(copy.dailyImpulse,`<span id="daily-impulse-en" data-de="${_imp.replace(/"/g,'&quot;')}">${_imp}</span>`);})()}
       ${infoCard(copy.reflectionQuestion, (DAILY_QUESTION_EN[p.daily.question] || p.daily.question))}
       ${infoCard(copy.nextStep, (DAILY_STEP_EN[p.daily.step] || p.daily.step))}
     </section>
@@ -36265,6 +36265,27 @@ function openCropDialog(src, onConfirm) {
   });
 }
 
+
+async function _translateImpulseIfNeeded() {
+  const el = document.getElementById('daily-impulse-en');
+  if (!el) return;
+  const de = el.dataset.de;
+  if (!de) return;
+  const cacheKey = 'impulse-en-' + de.slice(0,40).replace(/\s/g,'_');
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) { el.textContent = cached; return; }
+  try {
+    const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(de) + '&langpair=de|en';
+    const res = await fetch(url);
+    const data = await res.json();
+    const en = data?.responseData?.translatedText;
+    if (en && en.length > 5) {
+      el.textContent = en;
+      localStorage.setItem(cacheKey, en);
+    }
+  } catch(e) {}
+}
+
 function render() {
 
 function bedeutungSubtypenPage() {
@@ -37018,6 +37039,7 @@ function subtypeSchaubilderPage() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
+      if (base === 'dashboard' || !base) { _translateImpulseIfNeeded(); }
     const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
       || (base.startsWith("beruehmte-") && base !== "beruehmte-persoenlichkeiten");
     if (isBadgePage) {
@@ -37174,7 +37196,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v545';
+  const MY_VERSION = 'inhalt-v546';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
