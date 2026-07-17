@@ -2308,48 +2308,57 @@ function oelForType(code) {
   return aetherischeOele.find((o) => o.typ === num) || null;
 }
 
+const OIL_TYPE_NAMES_EN = {
+  1:"The Perfectionist", 2:"The Helper", 3:"The Performer",
+  4:"The Individualist", 5:"The Observer", 6:"The Loyalist",
+  7:"The Enthusiast", 8:"The Protector", 9:"The Peacemaker"
+};
 function oilCard(oel) {
-  const c = text.routes.oils;
+  const en = OILS_EN[oel.typ] || {};
+  const name    = en.name      || oel.name;
+  const wirkung = en.wirkung   || oel.wirkung;
+  const vertiefung = en.vertiefung || oel.vertiefung;
+  const image   = en.image     || oel.image;
+  const typLabelEN = `Type ${oel.typ} · ${OIL_TYPE_NAMES_EN[oel.typ] || ""}`;
   return `
     <article class="oil-card">
       <div class="oil-card__image">
-        <img src="${oel.image}" alt="${c.woundLabel} ${oel.typ} · ${oel.name}" loading="lazy" />
+        <img src="${image}" alt="Type ${oel.typ} · ${name}" loading="lazy" />
       </div>
       <div class="oil-card__body">
-        <span class="oil-card__type">${oel.typLabel}</span>
-        <h3>${oel.name}</h3>
-        <p class="oil-card__wound"><strong>${c.woundLabel}:</strong> „${oel.urWunde}“</p>
-        <p class="oil-card__effect">${oel.wirkung}</p>
-        ${oel.vertiefung ? `<p class="oil-card__text">${oel.vertiefung}</p>` : ""}
+        <span class="oil-card__type">${typLabelEN}</span>
+        <h3>${name}</h3>
+        <p class="oil-card__wound"><strong>Core Wound:</strong> “${oel.urWunde}”</p>
+        <p class="oil-card__effect">${wirkung}</p>
+        ${vertiefung ? `<p class="oil-card__text">${vertiefung}</p>` : ""}
       </div>
     </article>
   `;
 }
 
 function oilsPage() {
-  const copy = text.routes.oils;
   return shell(`
     ${pageHeader("oils")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">${copy.eyebrow}</p>
-        <h1>${copy.headline}</h1>
-        <p class="lead-small">${copy.lead}</p>
+        <p class="eyebrow">Essential Oils · Wound Level</p>
+        <h1>Essential Oils for the Core Wound</h1>
+        <p class="lead-small">Every Enneagram type is assigned an essential oil that acts directly at the wound level – where the deepest imprint resides. Scents reach the limbic system immediately and can bring healing movement into entrenched patterns.</p>
       </div>
       <aside>
-        <span>${copy.linked}</span>
-        <strong>${copy.linkedRef}</strong>
-        <p>${copy.linkedText}</p>
+        <span>One assignment</span>
+        <strong>9 Types · 9 Oils</strong>
+        <p>These oils are intentionally placed alongside the Remedies Compass (Page 4) – as their own, equally important section of the wound level.</p>
       </aside>
     </section>
     <section class="knowledge-grid">
       <article class="knowledge-card knowledge-card--expanded">
-        <h2>${copy.cardsTitle}</h2>
+        <h2>The Nine Oils of the Wound Level</h2>
         <div class="oil-grid">
           ${aetherischeOele.map(oilCard).join("")}
         </div>
-        <p class="remedy-note">${copy.note}</p>
-        ${bookTip("enneagramm-bachblueten-therapie", "Welche Bachblüten helfen welchem Enneagrammtyp? Ein einzigartiger Zugang zur Seelenarbeit.", "Enneagramm-Bachblüten-Therapie")}
+        <p class="remedy-note">Apply mindfully and diluted (e.g. as a room scent, in a carrier oil or via inhalation). Not a substitute for medical or therapeutic support.</p>
+        ${bookTip("enneagramm-bachblueten-therapie", "Which Bach flowers help which Enneagram type? A unique approach to soul work.", "Enneagram Bach Flower Therapy")}
       </article>
     </section>
   `);
@@ -40665,7 +40674,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v585';
+  const MY_VERSION = 'inhalt-v586';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
