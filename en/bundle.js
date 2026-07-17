@@ -7429,15 +7429,15 @@ const GERMAN_REMEDY_NAMES_EN = {
   "Rauchquarz": "Smoky Quartz",
   "Fluorit": "Fluorite",
   "Karneol": "Carnelian",
-  "Melissentee": "Lemon Balm Tea",
-  "Rosenblütentee": "Rose Blossom Tea",
-  "Rosmarintee": "Rosemary Tea",
-  "Weidenröschentee": "Willowherb Tea",
-  "Haferkrauttee": "Oat Straw Tea",
-  "Kamillenblütentee": "Chamomile Flower Tea",
-  "Pfefferminztee": "Peppermint Tea",
-  "Ingwertee": "Ginger Tea",
-  "Fencheltee": "Fennel Tea",
+  "Lemon Balm Tea": "Lemon Balm Tea",
+  "Rose Blossom Tea": "Rose Blossom Tea",
+  "Rosemary Tea": "Rosemary Tea",
+  "Willowherb Tea": "Willowherb Tea",
+  "Oat Straw Tea": "Oat Straw Tea",
+  "Chamomile Blossom Tea": "Chamomile Flower Tea",
+  "Peppermint Tea": "Peppermint Tea",
+  "Ginger Tea": "Ginger Tea",
+  "Fennel Tea": "Fennel Tea",
 };
 
 const REMEDY_GLOSSARY_EN = {
@@ -7474,15 +7474,15 @@ const REMEDY_GLOSSARY_EN = {
   "Rauchquarz": "Smoky quartz is a smoky-brown variety of rock crystal and is regarded as a balancing, grounding and anti-stress stone. It helps to collect excess, forward-pressing energy, reduce tension and let go of what burdens. It is traditionally used to return from hectic pace and overstimulation to quiet and presence. For the Seven, who happily flees from pain and heaviness upward into plans and possibilities, it is a gentle weight. So it carefully returns the bubbling restlessness to the ground and makes it easier to stay in the here and now.",
   "Fluorit": "Fluorite is a clear, multicoloured shimmering stone and is regarded as a stone of order and mental clarity. It helps to structure thoughts, focus concentration and clarify inner and outer disorder. It is also regarded as dissolving — it softens hardness and cramping and creates inner space. For the Eight, who armours herself with control and strength against any weakness, it opens a gentler path. So behind the hard shell, clarity, flexibility and a measure of softness may find a place again — without feeling threatening.",
   "Karneol": "Carnelian is a warm, orange to reddish glowing chalcedony and a classic stone of life-force, courage and drive. Its warm colour stands for vitality, warmth and a strong, tangible presence. It activates, encourages and strengthens one's own will and the joy of action. For the Nine, who easily forgets herself, drifts off and believes she plays no role, it is a gentle wake-up call. So it helps to surface from inertia and self-forgetting, take one's own place and step perceptibly into life.",
-  "Melissentee": "Lemon balm is a classic healing herb for nerves and mood, mildly calming and heart-strengthening. Its lemony-fresh scent relaxes without inducing tiredness and releases inner tension. Traditionally drunk for restlessness, irritability and nervous tension. For the One, who stands under inner pressure and self-severity, it is a gentle counterbalance. So a lemon balm tea helps to release cramped tension and come to rest.",
-  "Rosenblütentee": "Rose blossom tea is regarded as a heart-opening, harmonising drink full of gentleness. The rose has always stood for love, tenderness and soulful warmth. Traditionally used to soothe the mood and soften the heart. For the Two, whose love always flows outward, it is a delicate invitation to self-care. So a rose blossom tea serves as a reminder to also give one's own warmth to oneself.",
-  "Rosmarintee": "Rosemary is an invigorating, strengthening herb that stimulates circulation and mind. Its aromatic scent awakens, promotes concentration and gives fresh drive. Traditionally used for tiredness, exhaustion and lack of motivation. For the Three, who runs under high pressure and easily overextends, it gives clear, sustained energy. So a rosemary tea supports invigorating force that comes from freshness rather than pressure.",
-  "Weidenröschentee": "Willowherb is a mild, balancing herb with a soothing effect on the mood. It is regarded as a gentle companion in phases of inner unrest and emotional ups and downs. Traditionally drunk for calming and harmonising. For the Four, who lives through strong feelings and longing, it gives a quiet ground. So a willowherb tea helps to find still balance in the waves of feeling.",
-  "Haferkrauttee": "Oat straw is a classic nerve-strengthening and restorative herb, especially in exhaustion. It nourishes and gently strengthens the nerves and gives new inner substance. Traditionally used for nervous weakness and depletion. For the Five, who experiences her strength as scarce and quickly feels drained, it builds her up. So an oat straw tea helps to replenish one's own reserves and enter contact with renewed strength.",
-  "Kamillenblütentee": "Chamomile is one of the most tried and tested healing herbs — calming, antispasmodic and soothing. It soothes nerves, stomach and mood and gives a feeling of safety and warmth. Traditionally drunk for restlessness, tension and anxiety. For the Six, who lives with vigilance and doubt, it works like a warm, safe wrap. So a chamomile flower tea helps to calm the inner state of alarm and build trust.",
-  "Pfefferminztee": "Peppermint is a refreshing, clarifying herb that stimulates mind and digestion. Its cool scent invigorates, creates clarity and dissolves what is heavy and sluggish. Traditionally drunk for fullness, tiredness and mental refreshment. For the Seven, whose mind leaps from stimulus to stimulus, it can simultaneously clarify and collect. So a peppermint tea helps to refresh the overflowing mind and focus on what matters.",
-  "Ingwertee": "Ginger is a warming, powerfully stimulating root that promotes circulation and life-fire. Its sharp, spicy character awakens energy, drive and inner warmth. Traditionally used for strengthening, warming and invigorating. For the Eight, who is full of strength and protective impulse, its warm, clear energy suits her well. So a ginger tea helps to connect strong force with warmth rather than hardness.",
-  "Fencheltee": "Fennel is a mild, relaxing and balancing herb with a soothing effect. It calms gently and harmonises without dampening. Traditionally drunk for restlessness and to soothe the abdomen. For the Nine, who seeks harmony and quiet, it is a familiar companion — with the reminder that calm need not tip into inertia. So a fennel tea helps to find a relaxed composure that remains awake and present.",
+  "Lemon Balm Tea": "Lemon balm is a classic healing herb for nerves and mood, mildly calming and heart-strengthening. Its lemony-fresh scent relaxes without inducing tiredness and releases inner tension. Traditionally drunk for restlessness, irritability and nervous tension. For the One, who stands under inner pressure and self-severity, it is a gentle counterbalance. So a lemon balm tea helps to release cramped tension and come to rest.",
+  "Rose Blossom Tea": "Rose blossom tea is regarded as a heart-opening, harmonising drink full of gentleness. The rose has always stood for love, tenderness and soulful warmth. Traditionally used to soothe the mood and soften the heart. For the Two, whose love always flows outward, it is a delicate invitation to self-care. So a rose blossom tea serves as a reminder to also give one's own warmth to oneself.",
+  "Rosemary Tea": "Rosemary is an invigorating, strengthening herb that stimulates circulation and mind. Its aromatic scent awakens, promotes concentration and gives fresh drive. Traditionally used for tiredness, exhaustion and lack of motivation. For the Three, who runs under high pressure and easily overextends, it gives clear, sustained energy. So a rosemary tea supports invigorating force that comes from freshness rather than pressure.",
+  "Willowherb Tea": "Willowherb is a mild, balancing herb with a soothing effect on the mood. It is regarded as a gentle companion in phases of inner unrest and emotional ups and downs. Traditionally drunk for calming and harmonising. For the Four, who lives through strong feelings and longing, it gives a quiet ground. So a willowherb tea helps to find still balance in the waves of feeling.",
+  "Oat Straw Tea": "Oat straw is a classic nerve-strengthening and restorative herb, especially in exhaustion. It nourishes and gently strengthens the nerves and gives new inner substance. Traditionally used for nervous weakness and depletion. For the Five, who experiences her strength as scarce and quickly feels drained, it builds her up. So an oat straw tea helps to replenish one's own reserves and enter contact with renewed strength.",
+  "Chamomile Blossom Tea": "Chamomile is one of the most tried and tested healing herbs — calming, antispasmodic and soothing. It soothes nerves, stomach and mood and gives a feeling of safety and warmth. Traditionally drunk for restlessness, tension and anxiety. For the Six, who lives with vigilance and doubt, it works like a warm, safe wrap. So a chamomile flower tea helps to calm the inner state of alarm and build trust.",
+  "Peppermint Tea": "Peppermint is a refreshing, clarifying herb that stimulates mind and digestion. Its cool scent invigorates, creates clarity and dissolves what is heavy and sluggish. Traditionally drunk for fullness, tiredness and mental refreshment. For the Seven, whose mind leaps from stimulus to stimulus, it can simultaneously clarify and collect. So a peppermint tea helps to refresh the overflowing mind and focus on what matters.",
+  "Ginger Tea": "Ginger is a warming, powerfully stimulating root that promotes circulation and life-fire. Its sharp, spicy character awakens energy, drive and inner warmth. Traditionally used for strengthening, warming and invigorating. For the Eight, who is full of strength and protective impulse, its warm, clear energy suits her well. So a ginger tea helps to connect strong force with warmth rather than hardness.",
+  "Fennel Tea": "Fennel is a mild, relaxing and balancing herb with a soothing effect. It calms gently and harmonises without dampening. Traditionally drunk for restlessness and to soothe the abdomen. For the Nine, who seeks harmony and quiet, it is a familiar companion — with the reminder that calm need not tip into inertia. So a fennel tea helps to find a relaxed composure that remains awake and present.",
 };
 
 const OILS_EN = {
@@ -10898,7 +10898,7 @@ function tierentsprechungenPage() {
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
         {route:"affenarten", label:"Affenarten der Typen"},
         {route:"baumarten", label:"Baumarten der Typen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
         {route:"weihnachtsgeschenke", label:"Geschenke der Typen"},
       ])}
     </div>
@@ -11161,7 +11161,7 @@ function obstsortPage() {
       </div>
       ${relatedLinks([
         {route:"tierentsprechungen", label:"Animal correspondenceen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
         {route:"symmetrie-des-enneagramms", label:"Symmetrie des Enneagramms"},
       ])}
     </div>
@@ -11215,7 +11215,7 @@ function gemuesesortenPage() {
       </div>
       ${relatedLinks([
         {route:"obstsorten", label:"Obstsorten der Typen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
         {route:"tierentsprechungen", label:"Animal correspondenceen"},
       ])}
     </div>
@@ -11270,7 +11270,7 @@ function weinsortenPage() {
       ${relatedLinks([
         {route:"obstsorten", label:"Obstsorten der Typen"},
         {route:"gemuesesorten", label:"Gem\xfcsesorten der Typen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
       ])}
     </div>
   `);
@@ -32675,7 +32675,7 @@ function kaffeeartenPage() {
       ${relatedLinks([
         {route:"getreidearten", label:"Getreidearten der Typen"},
         {route:"gewuerzarten", label:"Gew\xfcrzarten der Typen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
       ])}
     </div>
   `);
@@ -32780,7 +32780,7 @@ function gewuerzartenPage() {
       ${relatedLinks([
         {route:"kaesesorten", label:"K\xe4sesorten der Typen"},
         {route:"brotsorten", label:"Brotsorten der Typen"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
       ])}
     </div>
   `);
@@ -36640,15 +36640,15 @@ function heilteesPage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", tee:"Melissentee", teename:"The Mind Detox", wirkungsfeld:`beruhigend und nervenstärkend`, beschreibung:`` },
-    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", tee:"Rosenblütentee", teename:"Self-Love Elixir", wirkungsfeld:`herzöffnend und harmonisierend`, beschreibung:`` },
-    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", tee:"Rosmarintee", teename:"The Performance Boost", wirkungsfeld:`belebend und kräftigend`, beschreibung:`` },
-    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", tee:"Weidenröschentee", teename:"The Grounding Brew", wirkungsfeld:`besänftigend und ausgleichend`, beschreibung:`` },
-    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", tee:"Haferkrauttee", teename:"The Battery Recharge", wirkungsfeld:`nervenstärkend und aufbauend`, beschreibung:`` },
-    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", tee:"Kamillenblütentee", teename:"The Safety Zone", wirkungsfeld:`beruhigend und wohltuend`, beschreibung:`` },
-    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", tee:"Pfefferminztee", teename:"The Fresh Vibe", wirkungsfeld:`erfrischend und klärend`, beschreibung:`` },
-    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", tee:"Ingwertee", teename:"The Power Balance", wirkungsfeld:`wärmend und anregend`, beschreibung:`` },
-    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", tee:"Fencheltee", teename:"The Harmony Flow", wirkungsfeld:`entspannend und ausgleichend`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", tee:"Lemon Balm Tea", teename:"The Mind Detox", wirkungsfeld:`calming and nerve-strengthening`, beschreibung:`` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", tee:"Rose Blossom Tea", teename:"Self-Love Elixir", wirkungsfeld:`heart-opening and harmonising`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", tee:"Rosemary Tea", teename:"The Performance Boost", wirkungsfeld:`invigorating and strengthening`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", tee:"Willowherb Tea", teename:"The Grounding Brew", wirkungsfeld:`soothing and balancing`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", tee:"Oat Straw Tea", teename:"The Battery Recharge", wirkungsfeld:`nerve-strengthening and restorative`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", tee:"Chamomile Blossom Tea", teename:"The Safety Zone", wirkungsfeld:`calming and soothing`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", tee:"Peppermint Tea", teename:"The Fresh Vibe", wirkungsfeld:`refreshing and clarifying`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", tee:"Ginger Tea", teename:"The Power Balance", wirkungsfeld:`warming and stimulating`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", tee:"Fennel Tea", teename:"The Harmony Flow", wirkungsfeld:`relaxing and balancing`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36660,7 +36660,7 @@ function heilteesPage() {
         <h1 class="psycho-detail__title">${d.label}</h1>
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
-          <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Heiltee</span>
+          <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Healing Tea</span>
           <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.tee}</p>
           <p style="font-size:.8rem;color:var(--muted);letter-spacing:.05em;margin:.15rem 0 0;">${d.teename}</p>
         </div>
@@ -36684,7 +36684,7 @@ function heilteesPage() {
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">&#9749; Tee &amp; Enneagramm &ndash; ausführlich</button>
+            <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">&#9749; Tea &amp; Enneagram &ndash; In Depth</button>
             <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
             <button class="ghost-link" data-route="koerperregulation" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Body Regulation</button>
@@ -36699,9 +36699,9 @@ function heilteesPage() {
     ${pageHeader("heiltees")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">Heilung &middot; Heiltees</p>
-        <h1>Heiltees</h1>
-        <p class="lead-small">Der heilende Tee f&uuml;r alle 9 Enneagrammtypen &ndash; abgestimmt auf die Leidenschaft und die innere Dynamik des jeweiligen Typs.</p>
+        <p class="eyebrow">Healing &middot; Healing Teas</p>
+        <h1>Healing Teas</h1>
+        <p class="lead-small">The healing tea for all 9 Enneagram types &ndash; matched to the passion and inner dynamic of each type.</p>
       </div>
     </section>
     <section class="oils-grid" style="padding:0 1rem 3rem;">
@@ -36711,7 +36711,7 @@ function heilteesPage() {
             <span class="oil-card__type">Type ${d.typ}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Heiltee</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Healing Tea</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.tee}</span>
               <span style="font-size:.72rem;color:var(--muted);letter-spacing:.04em;display:block;margin-top:.1rem;">${d.teename}</span>
             </div>
@@ -36720,7 +36720,7 @@ function heilteesPage() {
         </article>`).join("")}
     </section>
     <p style="text-align:center;padding:0 1rem 2.5rem;">
-      <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.9rem;border:1px solid var(--line);padding:.4rem 1rem;border-radius:6px;">&#9749; Tee &amp; Enneagramm &ndash; ausf&uuml;hrliche &Uuml;bersicht &rarr;</button>
+      <button class="ghost-link" data-route="tee-enneagramm" style="font-size:.9rem;border:1px solid var(--line);padding:.4rem 1rem;border-radius:6px;">&#9749; Tea &amp; Enneagram &ndash; Full Overview &rarr;</button>
     </p>
   `);
 }
@@ -36733,19 +36733,19 @@ function edelsteinePage() {
     return shell(`
       ${pageHeader("edelsteine")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="edelsteine">← Alle Edelsteine</button>
-        <h1 class="psycho-detail__title">Typ ${e.typ} &ndash; ${e.name}</h1>
+        <button class="ghost-link psycho-back" data-route="edelsteine">← All Gemstones</button>
+        <h1 class="psycho-detail__title">Type ${e.typ} &ndash; ${e.name}</h1>
         <p style="font-size:.82rem;color:var(--muted);letter-spacing:.05em;margin:-.3rem 0 1rem;">${e.crystal}</p>
         <div class="psycho-img-wrap">
           <img src="${CDN}assets/schaubilder/edelsteine/${e.file}"
-               alt="Typ ${e.typ} &ndash; ${e.name}"
+               alt="Type ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="aetherische-oele" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Ätherische Öle &amp; Enneagramm</button>
+            <button class="ghost-link" data-route="aetherische-oele" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Essential Oils &amp; Enneagram</button>
             <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           </div>
         </div>
@@ -36756,9 +36756,9 @@ function edelsteinePage() {
   return shell(`
     ${pageHeader("edelsteine")}
     <div class="psycho-wrap">
-      <p class="eyebrow">Charts · Edelsteine &amp; Enneagramm</p>
-      <h1 class="section-title">Edelsteine &amp; Enneagramm</h1>
-      <p class="psycho-intro">Jedem Enneagrammtyp ist ein Edelstein zugeordnet, dessen Eigenschaften mit den seelischen Themen, Mustern und Entwicklungsimpulsen des Typs resonieren. Tippe auf einen Typ, um das Schaubild groß zu sehen.</p>
+      <p class="eyebrow">Charts · Gemstones &amp; Enneagram</p>
+      <h1 class="section-title">Gemstones &amp; Enneagram</h1>
+      <p class="psycho-intro">Every Enneagram type is assigned a gemstone whose properties resonate with the soul themes, patterns and impulses for growth of that type. Tap a type to view the full chart.</p>
       <div class="psycho-grid">
         ${EDELSTEINE.map(e => `
           <button class="psycho-card" data-route="edelsteine/${e.typ}">
@@ -36770,9 +36770,9 @@ function edelsteinePage() {
         `).join("")}
       </div>
       ${relatedLinks([
-        {route:"aetherische-oele", label:"\xc4therische \xd6le"},
-        {route:"edelsteine", label:"Edelsteine"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"aetherische-oele", label:"Essential Oils"},
+        {route:"edelsteine", label:"Gemstones"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
       ])}
     </div>
   `);
@@ -36791,8 +36791,8 @@ function aetherischeOelePage() {
              class="psycho-img" />
       </div>
       ${relatedLinks([
-        {route:"edelsteine", label:"Edelsteine"},
-        {route:"tee-enneagramm", label:"Tee-Enneagramm"},
+        {route:"edelsteine", label:"Gemstones"},
+        {route:"tee-enneagramm", label:"Enneagram Teas"},
         {route:"heilungsweg", label:"Heilungsweg"},
       ])}
     </section>
@@ -36884,8 +36884,8 @@ function teeEnneagrammPage() {
              class="psycho-img" />
       </div>
       ${relatedLinks([
-        {route:"aetherische-oele", label:"\xc4therische \xd6le"},
-        {route:"edelsteine", label:"Edelsteine"},
+        {route:"aetherische-oele", label:"Essential Oils"},
+        {route:"edelsteine", label:"Gemstones"},
         {route:"heilungsweg", label:"Heilungsweg"},
       ])}
     </section>
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v581';
+  const MY_VERSION = 'inhalt-v582';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
