@@ -950,7 +950,7 @@ function pageHeader(active) {
       const _fl=_favLabel(_fr);
       const _on=_isFav(_fr);
       const _hb=_fl?('<button class="fav-heart-btn'+((_on)?' fav-heart-btn--active':'')+'" id="fav-heart-btn" data-route-fav="'+_fr+'" aria-label="Favorit" title="'+(_on?'Aus Favorites entfernen':'Zu Favorites hinzuf\xfcgen')+'">'+(_on?'\u2665':'\u2661')+'</button>'):"";
-      return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Zur\xfcck</button>'+_hb+'</div>';
+      return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Back</button>'+_hb+'</div>';
     })()}
   `;
 }
@@ -37196,7 +37196,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v546';
+  const MY_VERSION = 'inhalt-v547';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
