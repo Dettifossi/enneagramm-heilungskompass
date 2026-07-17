@@ -564,6 +564,17 @@ text.knowledgeCard.woundBehindPassion.sufferingCycle = "Cycle of Suffering";
 text.knowledgeCard.woundBehindPassion.healingDirection = "Direction of Healing";
 text.knowledgeCard.woundBehindPassion.remedy = "Remedy";
 text.knowledgeCard.woundBehindPassion.pending = "— to be added from appendices —";
+text.subtypePage.deepenIntro = "Continue your journey in Detlef Rathmer's work:";
+text.subtypePage.openBook = "To the Book";
+text.subtypePage.linkPending = "Link to be added";
+text.subtypePage.mediaPending = "Media content coming soon.";
+text.knowledgeCard.mediaGroups = "Music, Media & Interactive Elements";
+text.knowledgeCard.youtubeOpen = "Open on YouTube";
+text.knowledgeCard.linkPending = "Link to be assigned";
+text.knowledgeCard.linkPendingText = "This slot is planned. The YouTube ID will be added after title verification.";
+text.knowledgeCard.mediaResources = "Media Resources";
+text.routes.tcm.ausgleichLabel = "Healing Direction";
+text.routes.tcm.ernaehrungLabel = "Nutrition Theme";
 text.subtypePage.rooms = {
   verstehen: "Understand",
   spueren: "Feel",
@@ -2180,7 +2191,7 @@ function toolDetailPage(slug) {
     `).join("");
     const microHtml = twoPoints.microInstructions && twoPoints.microInstructions.length
       ? `<div style="margin-top:.75rem;padding-top:.75rem;border-top:1px solid rgba(45,74,62,.15);">
-           <p style="font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#2d4a3e;margin:0 0 .4rem;">Mikro-Anleitung</p>
+           <p style="font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#2d4a3e;margin:0 0 .4rem;">Micro-Instructions</p>
            <ul style="margin:0;padding-left:1.1rem;font-size:.9rem;line-height:1.8;color:#2a3e36;">
              ${twoPoints.microInstructions.map(m => `<li>${m}</li>`).join("")}
            </ul>
@@ -2359,31 +2370,229 @@ function tcmCard(tcm) {
   `;
 }
 
+
+const TCM_EN = {
+  1: {
+    meridian: "Gallbladder Meridian", element: "Wood", polaritaet: "Yang",
+    leitorgan: "Gallbladder & Liver", organzeit: "11 pm–3 am",
+    symptom: "The gallbladder represents decision-making power, judgment, and the execution of plans. In the One, gallbladder qi stagnates through constant self-censorship. This leads to bitter inner tension, 'gall bitterness,' and unyielding rigidity – the body mirrors the relentless inner judge.",
+    ausgleich: "Clearing the gallbladder meridian dissolves the moral cramping and brings gentleness and greater flexibility into the thinking of the One. Where bitterness once sat, joy in decision-making can now arise.",
+    ernaehrungsthema: "Control, perfectionism, guilt after indulgence",
+    empfehlung: ["Bitter substances for liver support: artichoke, dandelion, turmeric", "Consciously build in a rhythm of control and pleasure", "Make rest days an act of loving self-care rather than punishment"],
+    tagesplan: [
+      { uhrzeit: "06:00", label: "Morning Ritual", text: "Warm lemon water or mild tea (chamomile, lemon balm). Brief breathing meditation to loosen rigid expectations." },
+      { uhrzeit: "07:30", label: "Breakfast", text: "Millet porridge with cinnamon, apple compote and nuts – gentle, nourishing, structured." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Vegetable quinoa pan with broccoli, carrots and chickpeas. Dressing with olive oil and lemon zest." },
+      { uhrzeit: "17:30", label: "Evening", text: "Steamed vegetables with fish or tempeh. Bitter herbs such as rocket or chicory." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "5 minutes after eating, do nothing. Place hands on heart. Breathe." },
+    ],
+  },
+  2: {
+    meridian: "Heart Meridian", element: "Fire", polaritaet: "Yin",
+    leitorgan: "Heart & Stomach", organzeit: "7 am–9 am · 11 am–1 pm",
+    symptom: "The heart houses the Shen – the spirit and psychic radiance. The Two suffers from heart blood deficiency: she feels emotionally empty inside and tries to fill this void by chasing love in the outer world. Giving outward exhausts the inward.",
+    ausgleich: "Nourishing the heart meridian gives the Two a deep sense of inner fullness. She recognizes: ‘I am loved within myself’ – and no longer needs to use care as currency.",
+    ernaehrungsthema: "Nurturing through food, merging, confusing needs",
+    empfehlung: ["Warm breakfast in peace – precisely in the stomach time window of 7–9 am", "Consciously distinguish between one’s own hunger and the wish to care for others", "Spleen-strengthening foods: millet, sweet potato, carrot"],
+    tagesplan: [
+      { uhrzeit: "06:30", label: "Morning Ritual", text: "Warm glass of water with ginger or cinnamon. Gentle yoga or Qi Gong." },
+      { uhrzeit: "08:00", label: "Breakfast", text: "Sweet potato porridge with banana, cinnamon and almond butter. Optional: date tea or golden turmeric latte." },
+      { uhrzeit: "12:00", label: "Lunch", text: "Lentil dal with basmati rice and spinach – aromatic, nourishing, lovingly cooked (but for oneself!)." },
+      { uhrzeit: "18:00", label: "Evening", text: "Millet with steamed fennel, caraway and a little ghee – warming, soothing, balancing." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Hands on heart: ‘I am enough. Even without giving.’" },
+    ],
+  },
+  3: {
+    meridian: "Small Intestine Meridian", element: "Fire", polaritaet: "Yang",
+    leitorgan: "Small Intestine & Heart", organzeit: "11 am–3 pm",
+    symptom: "In TCM the small intestine’s task is to separate the clear from the turbid – physically and mentally. Type 3 loses this ability: she no longer separates true identity from the success façade. The system runs in permanent heart-fire excess through constant performance (burnout risk).",
+    ausgleich: "Regulating the small intestine meridian helps the Three cleanly distinguish the essential (her true self) from the non-essential (applause from outside) and cool the inner fire excess.",
+    ernaehrungsthema: "Image, efficiency, functionality – even when eating",
+    empfehlung: ["Take time for lunch – nourish emotionally, not just physically", "Bitter-aromatic herbs for the heart: basil, rosemary, lavender", "Relief through social, communal meals"],
+    tagesplan: [
+      { uhrzeit: "06:00", label: "Morning Ritual", text: "Warm water with a dash of apple cider vinegar. 10 minutes without phone – breathe consciously." },
+      { uhrzeit: "07:30", label: "Breakfast", text: "Protein-rich smoothie with berries, oats, hemp protein, flaxseed – quick, but nourishing." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Sweet potato lentil curry with vegetables and small salad. Take your time! No meeting lunches!" },
+      { uhrzeit: "18:00", label: "Evening", text: "Pumpkin soup with roasted seeds, steamed broccoli – no excessive spice or stimulation." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "10 minutes of conscious chewing, no multitasking." },
+    ],
+  },
+  4: {
+    meridian: "Lung Meridian", element: "Metal", polaritaet: "Yin",
+    leitorgan: "Lungs & Gallbladder", organzeit: "3 am–5 am · 11 pm–1 am",
+    symptom: "In TCM the lungs are the organ of grief, farewell, and melancholy. They govern the rhythm of taking in and letting go. Type 4 chronically holds onto old pain and bathes in melancholy – lung qi stagnates, the chest remains tight.",
+    ausgleich: "Treating the lung meridian opens the chest of the Four. It helps her finally breathe out and release old heartache, and reconnect with life’s rhythm – inhaling as receiving, exhaling as letting go.",
+    ernaehrungsthema: "Ambivalence toward the material, sensory-emotional swings",
+    empfehlung: ["Regular meals with clear structure stabilize emotional swings", "Less coffee, less sugar – instead grains, oats, oat milk", "Grounding, sweet foods: pumpkin, chestnut, root vegetables"],
+    tagesplan: [
+      { uhrzeit: "06:30", label: "Morning Ritual", text: "Warm water with rose water or fennel tea. Journaling – brief meditative exercise." },
+      { uhrzeit: "08:00", label: "Breakfast", text: "Oat porridge with almond milk, figs, cinnamon – emotionally nourishing but not overwhelming." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Baked vegetables with polenta and parsley pesto – gentle, grounding, aromatic." },
+      { uhrzeit: "18:00", label: "Evening", text: "Beetroot soup with lentils and a little sauerkraut – light but rich in minerals." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Walk after eating – be consciously in the body; music only in silence." },
+    ],
+  },
+  5: {
+    meridian: "Bladder Meridian", element: "Water", polaritaet: "Yang",
+    leitorgan: "Bladder & Small Intestine", organzeit: "1 pm–5 pm",
+    symptom: "The bladder meridian is the longest meridian in the body and runs completely along the entire back – like a huge protective shield against the outside world. Type 5 suffers from kidney yin deficiency through extreme mental work. Energy withdraws inward, the back freezes and becomes rigid.",
+    ausgleich: "Releasing the bladder meridian takes away the Five’s fear of the outside world, opens her armour and lets her experience the world as a safe place again – the back widens, the shoulders sink.",
+    ernaehrungsthema: "Withdrawal, energy conservation, scepticism toward bodily needs",
+    empfehlung: ["Regular, small, warm meals as daily structure", "Strengthening foods: root vegetables, lentils, soups", "Rituals during eating – e.g. tea ceremonies, silence at meals"],
+    tagesplan: [
+      { uhrzeit: "07:00", label: "Morning Ritual", text: "Herbal tea (anise-fennel-caraway). Gentle stretching." },
+      { uhrzeit: "08:30", label: "Breakfast", text: "Semolina porridge with pear and vanilla, little sweetness – warm, simple, steady." },
+      { uhrzeit: "13:00", label: "Lunch", text: "Vegetable stew with millet or lentils, possibly some goat’s cheese. Soup = warmth = safety." },
+      { uhrzeit: "18:00", label: "Evening", text: "Rice soup with carrots, miso and wakame – simple, mineral-rich, calming." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Before sleep: warm foot massage or foot bath." },
+    ],
+  },
+  6: {
+    meridian: "Kidney Meridian", element: "Water", polaritaet: "Yin",
+    leitorgan: "Kidneys & Spleen", organzeit: "9 am–11 am · 5 pm–7 pm",
+    symptom: "The kidneys store vital essence (Jing) and are the root of courage and fear. Type 6 suffers from chronic kidney qi deficiency through permanent hyper-vigilance – worry loops and scanning for danger drain the system energetically.",
+    ausgleich: "Strengthening the kidney meridian grants the Six a deep, unshakeable basic trust and a stable energetic backbone – security as an inner quality rather than an external guarantee.",
+    ernaehrungsthema: "Safety, trust, doubt, caution",
+    empfehlung: ["Spleen-strengthening, regular, warm meals", "No excess raw food, no extreme diets", "Building breakfast + stabilising lunch"],
+    tagesplan: [
+      { uhrzeit: "06:30", label: "Morning Ritual", text: "Warm water with turmeric and a pinch of salt. 5-minute inner security ritual, e.g. protective visualisation." },
+      { uhrzeit: "08:00", label: "Breakfast", text: "Spelt porridge with apple, roasted sesame, cinnamon – grounding, warm, reliable." },
+      { uhrzeit: "12:00", label: "Lunch", text: "Baked pumpkin with quinoa, tahini sauce, pumpkin seeds – gentle, familiar aromas." },
+      { uhrzeit: "18:00", label: "Evening", text: "Chicken soup or vegetable stew with beans – slow-cooked, warming." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Evening tea with lavender or hops – quiet transition into the night." },
+    ],
+  },
+  7: {
+    meridian: "Pericardium Meridian", element: "Fire", polaritaet: "Yin",
+    leitorgan: "Pericardium · Heart Protector", organzeit: "7 pm–11 pm",
+    symptom: "The pericardium (circulation-sex) protects the heart from injury. Type 7 uses a hyperactive protective strategy: to never have to feel the pain in the heart, she flees upward into the mind – perpetual activism, making plans. Energy flutters restlessly at the surface.",
+    ausgleich: "The pericardium meridian (especially point Pericardium 6) calms the mind instantly, stops the thought carousel and allows the Seven to land safely and fearlessly in her own depths.",
+    ernaehrungsthema: "Pleasure, distraction, flight from inner emptiness",
+    empfehlung: ["Regular meals in a calm atmosphere", "Slow preparation: fermentation, soaking, slow-cooking", "No fats in the evening, focus on light endings"],
+    tagesplan: [
+      { uhrzeit: "07:00", label: "Morning Ritual", text: "Warm lemon water. Meditation: ‘I may limit myself – that is fullness.’" },
+      { uhrzeit: "08:00", label: "Breakfast", text: "Grain coffee, spelt bread with avocado or nut butter – no sugar, no caffeine excess." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Steamed vegetables with lentils, fermented vegetables, tamari – flavour + structure + depth." },
+      { uhrzeit: "18:30", label: "Evening", text: "Light vegetable soup with gomasio, possibly oat crispbread – no more overstimulation." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "10 minutes of silence. No phone. No talking. Just BE." },
+    ],
+  },
+  8: {
+    meridian: "Liver Meridian", element: "Wood", polaritaet: "Yin",
+    leitorgan: "Liver & Kidneys", organzeit: "1 am–3 am · 3 pm–7 pm",
+    symptom: "The liver governs the free circulation of qi and is the organ of anger. In the Eight, liver yang shoots upward unrestrained: choleric outbursts, high blood pressure, absolute dominance. The organ of anger mirrors raw, untamed power.",
+    ausgleich: "Treating the liver meridian draws the aggressive, destructive heat out of the system and transforms the Eight’s raw power into wise leadership and gentleness. Strength may remain – the hardness gives way.",
+    ernaehrungsthema: "Strength, control over body and will",
+    empfehlung: ["Strengthening but earlier evening meal", "Reduce salt, allow bitterness", "Kidney-nourishing foods: miso, seaweed, sesame, black beans"],
+    tagesplan: [
+      { uhrzeit: "06:00", label: "Morning Ritual", text: "Warm water with a dash of apple cider vinegar and honey. Powerful, calm body exercise (Qi Gong, Tai Chi)." },
+      { uhrzeit: "08:00", label: "Breakfast", text: "Rye bread with avocado, linseed oil and sesame – grounding, strengthening, not overloaded." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Vegetables with lentils, wild rice, herb oil. Some spice allowed (turmeric, cumin), but not too much." },
+      { uhrzeit: "18:00", label: "Evening", text: "Soup with miso, steamed pak choi, shiitake – hold back on salt!" },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Gratitude list: ‘What may I receive?’" },
+    ],
+  },
+  9: {
+    meridian: "Spleen Meridian", element: "Earth", polaritaet: "Yin",
+    leitorgan: "Spleen & Large Intestine", organzeit: "5 am–7 am · 9 am–11 am",
+    symptom: "The spleen governs the transformation of food and thoughts, as well as inner stability. In the Nine, spleen qi sinks into deficiency. This generates the typical psychic inertia (sloth), merging with the sofa, mental fog, and chronic procrastination.",
+    ausgleich: "Tonifying the spleen meridian awakens the inner motor of the Nine, dispels lethargy, and gives her the groundedness to stand up for herself – the Nine steps into the picture of her own life.",
+    ernaehrungsthema: "Inertia, dissociation, need for harmony",
+    empfehlung: ["Set gentle stimuli: spiciness, bitterness, variety", "Warm lemon water + movement early in the morning", "Small pauses between bites to consciously perceive one’s own body"],
+    tagesplan: [
+      { uhrzeit: "06:30", label: "Morning Ritual", text: "Warm lemon water with ginger. Brief jog, Qi Gong or contrast shower." },
+      { uhrzeit: "07:30", label: "Breakfast", text: "Amaranth porridge with apple and a little cardamom – clear, structured, not too sweet." },
+      { uhrzeit: "12:30", label: "Lunch", text: "Vegetable pan with millet and fresh parsley – small portions, enjoy consciously." },
+      { uhrzeit: "18:00", label: "Evening", text: "Vegetable soup with chickpeas, beetroot, celeriac – light, stimulating, colourful." },
+      { uhrzeit: "Ritual", label: "Evening Ritual", text: "Brief writing: ‘What did I need today – and fulfil?’" },
+    ],
+  },
+};
+
+const KINDHEIT_EN = {
+  1: {
+    wunde: "The Trauma of Criticism and Judgment",
+    zombie: "ONE had become a zombie – a very polite, appropriate, rule-following zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named ONE. He came into the world as a spontaneous, carefree child – one who felt the fullness of life, took things lightly and lived freely each day. He was curious, open and naturally relaxed.\n\nBut early on he had an experience that changed everything: he was criticised. Perhaps not even with bad intent – yet it hit the child deeply. To pre-empt the pain of being judged, he began to monitor himself. He internalised others’ standards and from then on tried always to be right, always to be good. His inner conviction became: Only when I am flawless am I also worthy of love.\n\nOver time ONE developed an extraordinary ability: he could spot mistakes at a glance and saw how everything could be better, more perfect – in himself and in others. He worked hard, kept to all the rules of good behaviour and judged others just as strictly as himself. Being virtuous became his identity.\n\nYet in this striving for perfection he lost access to himself. He suppressed his impulses, his creativity and his spontaneity. He hid his anger and tried instead to stay nice. He controlled himself and everything around him – because a mistake felt like failure from within. And when he did not get everything right, he punished himself.",
+  },
+  2: {
+    wunde: "The Trauma of Unfulfilled Needs and Conditional Love",
+    zombie: "TWO had become a zombie – a very friendly, generous, helpful zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named TWO. As a small child he was full of joie de vivre and natural affection – he simply loved loving people. He had a fine emotional sensitivity and a deep need to feel loved and safe.\n\nBut sometimes his needs went unfulfilled. When he was hungry, no one came. When he was hurt, no one noticed. When he felt love and sought it, he often felt it was not returned. That hurt.\n\nTo receive the love he needed so badly, TWO tried to give it instead. He looked after others – hoping they would look after him in return. He gave more and more, because he noticed: the more generous I am, the more people like me. He set his own wishes aside, because if he demanded something, the others might say no. And rejection was, for him, the opposite of love.\n\nSo TWO learned to focus entirely on the needs of others – and forgot his own in the process. He transformed in every encounter into whatever the other person needed, and could say no to no one. His need to be loved and to matter grew insatiable – while he became ever more deaf to his own deep feelings and needs.",
+  },
+  3: {
+    wunde: "The Trauma of the Invisible True Self",
+    zombie: "THREE had become a zombie – a very successful, attractive and impressive zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named THREE. He came into the world with an open heart and genuine emotional depth – an alert, sensitive child who longed to be seen for who he truly was.\n\nBut early on he noticed something confusing: when he brought home a good grade, won a game or performed a trick, people cheered. But when he was sad, hurt or disappointed, no one seemed interested. It was as though he only counted when he delivered results.\n\nSo THREE discovered his special ability: he could sense what others valued – and transform himself like a chameleon into exactly that. In every group he became the model of whatever was considered successful there. This earned him attention, and that felt good.\n\nBut beneath all these images he lost himself. Who he truly was, beyond the performance and the effect – he no longer knew. He kept moving, always achieving more. Until one morning nothing worked any more. He lay in bed, exhausted, on the verge of burnout. And in that stillness he noticed: deep inside he was very lonely and far from his own feelings.",
+  },
+  4: {
+    wunde: "The Trauma of Loss and Perceived Inadequacy",
+    zombie: "FOUR had become a zombie – a very authentic, empathetic and emotional zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named FOUR. As a small child he felt a deep connection – with the world, with people, with his parents. He was safe and cherished. But then something changed.\n\nA new sibling arrived. Suddenly FOUR was no longer the centre of attention. When he wanted to play or receive a hug, everyone was busy with the baby. He felt unimportant, alone, ordinary.\n\nHe tried to explain to himself what had happened – and arrived at a painful conclusion: I must have done something wrong. The new baby must be better than me. He blamed himself for the loss of connection. And over time his sadness became a familiar companion – an inner presence that was always there.\n\nOver the years FOUR tried in various ways to regain that connection. He showed his uniqueness – through images, through words, through music. He longed for genuine closeness. Yet deep inside he believed he did not deserve it. When love was offered, he could barely receive it. So he remained caught in an inner contradiction: longing and unworthiness – two sides of the same wound.",
+  },
+  5: {
+    wunde: "The Trauma of Invasion and Abandonment",
+    zombie: "FIVE had become a zombie – a withdrawn, quiet, self-contained zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named FIVE. He came into the world with a deep longing for connection. But early on he found that this connection was not reliable.\n\nSometimes caregivers intruded into his space – precisely when he needed distance. And when he truly wanted closeness, they were not there. This back and forth confused him. How should he deal with others? He no longer knew.\n\nAt some point he withdrew – not dramatically, but quietly and step by step. He discovered that he managed well alone. Thinking, learning, researching – these he could do excellently on his own. He became clever, well-read and self-reliant. That gave him security.\n\nBut he did not notice how in doing so he buried his need for genuine connection ever deeper. Over time he had grown so accustomed to solitude that he barely recognised it as such any more. Each day he retreated into his private world of thought. Until one day he sensed that everything had become predictable – and he no longer felt truly alive.",
+  },
+  6: {
+    wunde: "The Trauma of Threat and Lost Basic Trust",
+    zombie: "SIX had become a zombie – an extremely cautious, industrious and safety-conscious zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named SIX. As a small child he was lively, curious and carefree. He played, met friends and explored the world – without thinking much about dangers. He simply lived.\n\nBut then he had experiences that frightened him. Perhaps his mother once forgot to pick him up. Perhaps a film in which people died frightened him. He began to sense that the world could also be dangerous – and that terrible things sometimes really did happen.\n\nHis response was to think ahead: if he imagined all the terrible possibilities, he might be able to forestall them. What-if thinking became his constant companion. He became more mistrustful and increasingly wondered whether people could really be trusted.\n\nBut the hoped-for security never lasted. The feeling of threat kept returning. He watched the people around him for hidden motives, imagined catastrophes and could no longer switch off the inner alarm. What was meant as protection had taken over his entire thinking.",
+  },
+  7: {
+    wunde: "The Trauma of Avoided Pain and Lost Depth",
+    zombie: "SEVEN had become a zombie – a very happy, life-loving zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named SEVEN. He came into the world with genuine curiosity and a natural sense of wonder. He loved engaging with things, exploring their depth and delighting in them. His energy was infectious, his spirit alive.\n\nOne day a bee stung him. He burst into tears and sought comfort. His father was irritated and sent him away. His mother had no time. So he was alone with his pain.\n\nTo escape this feeling, he retreated into his imagination. He thought of things that excited him – and that helped. Over time this became a habit: whenever pain threatened, he directed his attention to something beautiful or exciting. He became very good at distracting himself.\n\nWhen one day his best friend moved away, SEVEN was already thinking about all the new friends before the loss had really arrived. What he did not notice: by avoiding the pain, he also avoided the depth of his feelings – and in the end also love. His happiness was sometimes only a shield against feeling. He could eventually no longer truly go deep.",
+  },
+  8: {
+    wunde: "The Trauma of the Unprotected Child Who Had to Become Strong Too Soon",
+    zombie: "EIGHT had become a zombie – an energetic, unstoppable, unapproachable zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named EIGHT. He came into the world as a sensitive, alert child – curious, full of energy and naturally open to others. Like all children, he was at first completely innocent and vulnerable.\n\nBut early on he had to experience that no one was there when he needed protection. When older children hurt him, no one looked. When he needed help, he was left to cope alone. So he learned the hard way: I have to look after myself. No one comes. I have to be strong – and quickly.\n\nEIGHT developed his natural energy into strength. Anger became his tool: it made him seem bigger than he was. Over time he hardened. He lost access to his original softness. Innocence felt dangerous – it reminded him of how defenceless he had once been.\n\nAt some point he could no longer stop being strong. He had worn the mask of strength for so long that he had forgotten what lay beneath. Occasionally he sensed behind it a quiet loneliness and hidden sadness. But outwardly nothing could reach him – he had proved that again and again throughout his life.",
+  },
+  9: {
+    wunde: "The Trauma of Invisibility and Lost Personal Will",
+    zombie: "NINE had become a zombie – a very peaceful, comfortably cheerful zombie, but a zombie nonetheless.",
+    text: "Once upon a time there was a person named NINE. As a small child he felt a deep inner connectedness – with the world, with people, with everything. This state was marked by quiet joy and peace. He felt held.\n\nBut then he woke into a world that left him alone. He felt pain and wanted to protest. When he tried, no one listened. The others spoke louder, wanted more, seemed more important. He tried again – no response. So he gave up.\n\nInstead of fighting against being overlooked, he made himself at home in it. He adapted, did what others wanted, avoided conflict and merged with his surroundings. That was easier. If he showed no opinion of his own, he could not be rejected either.\n\nOver time NINE no longer knew what he himself wanted. He had mirrored the wishes of others for so long that his own inner compass had almost fallen silent. Sometimes he felt a quiet anger about not being heard – but anger only drove others further away. So he swallowed it. And stayed.",
+  },
+};
+
 function tcmInlineBlock(tcm) {
   if (!tcm) return "";
   const c = text.routes.tcm;
+  const en = TCM_EN[tcm.typ] || {};
+  const meridian = en.meridian || tcm.meridian;
+  const element = en.element || tcm.element;
+  const polaritaet = en.polaritaet || tcm.polaritaet;
+  const leitorgan = en.leitorgan || tcm.leitorgan;
+  const organzeit = en.organzeit || tcm.organzeit;
+  const symptom = en.symptom || tcm.symptom;
+  const ausgleich = en.ausgleich || tcm.ausgleich;
+  const ernaehrungsthema = en.ernaehrungsthema || tcm.ernaehrungsthema;
+  const empfehlung = en.empfehlung || tcm.empfehlung;
+  const tagesplan = en.tagesplan || tcm.tagesplan;
   return `
     <div class="inline-section inline-section--tcm" data-collapsed="true">
       <button class="inline-section__toggle" aria-expanded="false">
         <span class="inline-section__label">
           <span class="inline-section__tag">TCM</span>
-          ${tcm.element}-Element · ${tcm.meridian}
+          ${element} Element · ${meridian}
         </span>
         <span class="inline-section__arrow">▼</span>
       </button>
       <div class="inline-section__body">
         <div class="tcm-inline">
           <div class="tcm-inline__meta">
-            <button class="tcm-inline__element" style="background:${tcm.elementFarbe}" data-tcm-element="${tcm.element}" title="Mehr über das ${tcm.element}-Element">${tcm.element} ↗</button>
-            <span>${tcm.polaritaet} · ${tcm.leitorgan}</span>
-            <span>⏱ ${tcm.organzeit}</span>
+            <button class="tcm-inline__element" style="background:${tcm.elementFarbe}" data-tcm-element="${tcm.element}" title="More on the ${element} element">${element} ↗</button>
+            <span>${polaritaet} · ${leitorgan}</span>
+            <span>⏱ ${organzeit}</span>
           </div>
-          <p class="tcm-inline__symptom">${tcm.symptom}</p>
-          <p class="tcm-inline__ausgleich">${tcm.ausgleich}</p>
-          <ul class="tcm-inline__empfehlung">${tcm.empfehlung.map((e) => `<li>${e}</li>`).join("")}</ul>
-          <h4>${c.ernaehrungLabel}: ${tcm.ernaehrungsthema}</h4>
+          <p class="tcm-inline__symptom">${symptom}</p>
+          <p class="tcm-inline__ausgleich">${ausgleich}</p>
+          <ul class="tcm-inline__empfehlung">${empfehlung.map((e) => `<li>${e}</li>`).join("")}</ul>
+          <h4>${c.ernaehrungLabel}: ${ernaehrungsthema}</h4>
           <ol class="tcm-tagesplan tcm-tagesplan--compact">
-            ${tcm.tagesplan.map((s) => `<li><span class="tcm-tagesplan__time">${s.uhrzeit}</span><span class="tcm-tagesplan__label">${s.label}:</span> ${s.text}</li>`).join("")}
+            ${tagesplan.map((s) => `<li><span class="tcm-tagesplan__time">${s.uhrzeit}</span><span class="tcm-tagesplan__label">${s.label}:</span> ${s.text}</li>`).join("")}
           </ol>
         </div>
       </div>
@@ -2441,20 +2650,24 @@ function kindheitForType(code) {
 
 function kindheitInlineBlock(k) {
   if (!k) return "";
-  const paragraphs = k.text.split("\n\n").map(p => `<p>${p}</p>`).join("");
+  const en = KINDHEIT_EN[k.typ] || {};
+  const wunde = en.wunde || k.wunde;
+  const zombie = en.zombie || k.zombie;
+  const rawText = en.text || k.text;
+  const paragraphs = rawText.split("\n\n").map(p => `<p>${p}</p>`).join("");
   return `
     <div class="inline-section inline-section--kindheit" data-collapsed="true">
       <button class="inline-section__toggle" aria-expanded="false">
         <span class="inline-section__label">
-          <span class="inline-section__tag">Kindheit</span>
-          ${k.wunde}
+          <span class="inline-section__tag">Childhood</span>
+          ${wunde}
         </span>
         <span class="inline-section__arrow">▼</span>
       </button>
       <div class="inline-section__body">
         <div class="kindheit-inline">
           <div class="kindheit-inline__body">${paragraphs}</div>
-          <p class="kindheit-inline__zombie">${k.zombie}</p>
+          <p class="kindheit-inline__zombie">${zombie}</p>
         </div>
       </div>
     </div>
@@ -2483,23 +2696,24 @@ function kindheitPage() {
     ${pageHeader("kindheit")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">Psychologie · Enneagramm</p>
-        <h1>Die Kindheitstraumata der 9 Typen</h1>
-        <p class="lead-small">Jeder Enneagrammtyp entstand aus einem kindlichen Trauma &ndash; einer Verletzung, die den Weg der Seele in Richtung Überlebensstrategie einschlug. Diese Geschichten beschreiben das Muster, nicht das individuelle Schicksal.</p>
+        <p class="eyebrow">Psychology · Enneagram</p>
+        <h1>The Childhood Traumas of the 9 Types</h1>
+        <p class="lead-small">Each Enneagram type arose from a childhood trauma &ndash; an injury that set the soul on the path toward a survival strategy. These stories describe the pattern, not the individual fate.</p>
       </div>
       <aside>
-        <span>Grundlagenwerk</span>
+        <span>Foundation Work</span>
         <strong>Detlef Rathmer</strong>
-        <p>Aus dem Manuskript »Die Kindheitstraumata der 9 Enneagrammtypen«</p>
+        <p>From the manuscript »The Childhood Traumas of the 9 Enneagram Types«</p>
       </aside>
     </section>
     <section class="knowledge-grid">
       <article class="knowledge-card knowledge-card--expanded">
-        <h2>Die neun Ursprungsgeschichten</h2>
+        <h2>The Nine Origin Stories</h2>
         <div class="kindheit-grid">
           ${kindheitstraumata.map(kindheitCard).join("")}
         </div>
-        <p class="remedy-note">Diese Geschichten beschreiben archetypische Muster. Das individuelle Erleben eines Menschen ist immer vielschichtiger als das Typusmuster &ndash; die Arbeit mit den eigenen Kindheitstraumata erfordert professionelle therapeutische Begleitung.</p>
+        <p class="remedy-note">These stories describe archetypal patterns. Every individual's experience is always more complex than the type pattern &ndash; working with one's own childhood traumas requires professional therapeutic guidance.</p>
+        <p class="remedy-note" style="margin-top:1rem;"><strong>Note on Sources:</strong> The descriptions of childhood patterns for each type are reconstructed based on notes from the online seminars conducted by Dr. Beatrice Chestnut (Chestnut Paes Enneagram Academy). For deeper insights, please visit her official website at <a href="https://cpea.enneagramacademy.com" target="_blank" rel="noopener">cpea.enneagramacademy.com</a>.</p>
       </article>
     </section>
   `);
@@ -3573,6 +3787,300 @@ const SUBTITLE_EN = {
   "Selbsterhaltungsinstinkt": "Self-Preservation Instinct",
   "Sozialer Instinkt": "Social Instinct",
 };
+
+
+const PAGE4_SUMMARY_EN = {
+  _type1: {
+    passion: {
+      homoeopathie: "Platinum metallicum",
+      schuessler: "Kalium sulfuricum",
+      schuesslerField: "Cleansing, Metabolism and Inner Renewal",
+      schuesslerText: "Schüßler salt No. 6 is the salt of metabolism, detoxification and inner renewal. It supports cellular respiration and helps the body to eliminate what is spent and regenerate itself. On the soul level it stands for renewal and the releasing of what has become rigid. For the One, who can harden in strictness, pressure and self-judgement, it promotes a living flow. So it works where rigid control may transform into healthy permeability.",
+      bachbluete: "Rock Water",
+      bachblueteField: "Flexibility instead of Rigid Self-Severity",
+      bachblueteText: "Rock Water is the Bach flower for people who set high ideals for themselves and treat themselves strictly, almost ascetically. It helps those who deny themselves pleasure and lightness in order to fulfil a self-imposed model. The flower dissolves inner hardness and rigid self-discipline and brings flexibility and mildness. For the One, who stands under the pressure of the inner judge, it is a gentle antidote. So bitter strictness may become an open, friendly attitude towards oneself.",
+      edelstein: "Amethyst",
+      edelsteinField: "Calm, Clarity and Composure",
+      edelsteinText: "Amethyst is a violet variety of rock crystal and has been regarded since antiquity as the stone of clarity, moderation and spiritual calm. It is traditionally used where the mind finds no rest — for circular thoughts, inner tension and an overactive, critical spirit. It works in a calming, clarifying and harmonising way and supports meditation and restful sleep. For the One it is a counterweight to strict self-control and the tireless inner judge. It invites the release of tension and the allowing of true composure — calm instead of grimness, mildness instead of hardness towards oneself.",
+      tee: "Lemon Balm Tea",
+      teeField: "Calming and Nerve-Strengthening",
+      teeText: "Lemon balm is a classic healing herb for nerves and mood, mildly calming and heart-strengthening. Its lemony-fresh scent relaxes without inducing tiredness and releases inner tension. It is traditionally drunk for restlessness, irritability and nervous tension. For the One, who stands under inner pressure and self-severity, it is a gentle counterbalance. So a lemon balm tea helps to release cramped tension and come to rest.",
+      theme: "Derived from the noble metal platinum — one of the purest, most precious and most resistant metals, impervious to any acid. This signature pervades the remedy picture: a sense of sublime superiority, immovable inner standards and a rigidity that resists all external influence. Just as platinum cannot be corroded, the One is driven to be untouchable, flawless and superior — in thoughts, judgements and moral standards.",
+      effect: "Homeopathically it supports regulation where life force manifests as strict control, inner pressure, tension and relentless self-judgement. It helps to soften the high standards of self without losing integrity — and allows the One to discover that being good does not require being perfect.",
+    },
+    wound: {
+      homoeopathie: "Arsenicum album",
+      schuessler: "Kalium chloratum",
+      bachbluete: "Rock Water",
+      theme: "Prepared from white arsenic — a mineral substance that in material doses is a deadly poison and in humans reflects the deepest existential fear. This signature is clear: a person who must control everything to feel safe. The wound of the One shows itself here — the profound insecurity that something essential could go wrong, and the obsessive need to prevent it.",
+      effect: "Homeopathically it supports regulation where the wound manifests as anxious control, avoidance of uncertainty and relentless self-examination. It calms existential restlessness and helps the One trust in their own goodness — even without checking everything twice.",
+    },
+  },
+  _type2: {
+    passion: {
+      homoeopathie: "Hyoscyamus niger",
+      schuessler: "Natrium chloratum",
+      schuesslerField: "Fluid Balance and Releasing Old Grief",
+      schuesslerText: "Schüßler salt No. 8 regulates fluid balance and is the great salt of emotional equilibrium. It brings order where too much or too little flows — in the body as in feeling. Traditionally it helps to release old grief, held-back tears and swallowed suffering. For the Two, who gives herself up for others and overrides her own needs, it brings healing balance. So it supports returning to one's own source, rather than losing oneself in giving.",
+      bachbluete: "Chicory",
+      bachblueteField: "Selfless Love without Possessiveness",
+      bachblueteText: "Chicory is the Bach flower for a possessive, conditional form of love. It helps people who give a great deal but secretly expect thanks, closeness and reciprocation. The flower transforms clinging care into genuine, selfless devotion. For the Two, who defines herself through being needed, it is a deep healing flower. So love may flow without losing oneself or demanding anything in return.",
+      edelstein: "Rose Quartz",
+      edelsteinField: "Heart-Opening, Gentleness and Self-Love",
+      edelsteinText: "Rose quartz is the delicate pink stone of the heart and has always been associated with love, gentleness and reconciliation. It opens the heart to compassion, warmth and forgiveness — and directs this loving attitude expressly also inward, towards oneself. Traditionally it helps to gently release old grief and injuries and to regain trust in closeness. For the Two, whose love almost always streams outward, it is a quiet reminder of her own neediness. It nourishes self-love and gives permission to also receive — without first having to make oneself useful.",
+      tee: "Rose Blossom Tea",
+      teeField: "Heart-Opening and Harmonising",
+      teeText: "Rose blossom tea is regarded as a heart-opening, harmonising drink full of gentleness. The rose has always stood for love, tenderness and soulful warmth. It is traditionally used to soothe the mood and soften the heart. For the Two, whose love always flows outward, it is a delicate invitation to self-care. So a rose blossom tea serves as a reminder to also give one's own warmth to oneself.",
+      theme: "Derived from black henbane, a nightshade plant with strongly intoxicating, disinhibiting effects. Its signature carries a desperate struggle for attention and love — a person who cannot bear to be overlooked or left. This mirrors the Two: a deep hunger for closeness that easily tips into possessiveness, jealousy and dramatic displays of feeling.",
+      effect: "Homeopathically it supports regulation where life force manifests as emotional dependency, possessiveness and fear of rejection. It helps to release the clinging search for approval and allow closeness from inner abundance rather than need.",
+    },
+    wound: {
+      homoeopathie: "Pulsatilla pratensis",
+      schuessler: "Natrium chloratum",
+      bachbluete: "Chicory",
+      theme: "The pasque flower (windflower) is a delicate plant that sways gently with the wind and always turns towards the light. This signature shows a soft, yielding, mildly tearful nature that needs warmth and avoids being alone. The wound of the Two: the deep fear of abandonment — and the loss of one's own identity in the search for belonging.",
+      effect: "Homeopathically it supports regulation where the wound manifests as clinging, fear of abandonment and the denial of one's own needs. It gently nourishes the capacity to comfort and support oneself — and to receive rather than only give.",
+    },
+  },
+  _type3: {
+    passion: {
+      homoeopathie: "Tarentula hispanica",
+      schuessler: "Ferrum phosphoricum",
+      schuesslerField: "Energy, Resilience and Initiative",
+      schuesslerText: "Schüßler salt No. 3 is the salt of energy, oxygen absorption and primary immune response. It strengthens resilience, initiative and healthy drive. On the soul level it stands for courage and stamina without overexertion. For the Three, who defines herself through performance and fears failure, it is a strengthening companion. So it supports genuine, sustained energy instead of restless functioning under high pressure.",
+      bachbluete: "Vervain",
+      bachblueteField: "Calm Enthusiasm instead of Over-Eagerness",
+      bachblueteText: "Vervain is the Bach flower for over-eagerness, enthusiasm to the point of exhaustion and constant inner tension. It helps people who burn with full force for their goals and can barely switch off. The flower eases the overstrain and brings composure into the engagement. For the Three, who functions under high pressure and fears standstill, it is a welcome relief. So enthusiasm may remain, but flow more quietly and moderately.",
+      edelstein: "Tiger's Eye",
+      edelsteinField: "Self-Confidence, Courage and Clarity under Pressure",
+      edelsteinText: "Tiger's eye is a golden-brown shimmering quartz with silky light-play and is regarded as the stone of courage, grounding and clear sight. It strengthens self-confidence and willpower and helps to maintain calm, overview and steadiness even under pressure. Traditionally carried as a protective stone, it reduces nervousness, self-doubt and stress. For the Three, whose worth seems to be measured by performance and success, it directs the gaze inward. So it becomes perceptible that genuine worth grows from inner groundedness and clarity — not from the next goal alone.",
+      tee: "Rosemary Tea",
+      teeField: "Invigorating and Strengthening",
+      teeText: "Rosemary is an invigorating, strengthening herb that stimulates circulation and mind. Its aromatic scent awakens, promotes concentration and gives fresh drive. Traditionally used for tiredness, exhaustion and lack of motivation. For the Three, who runs under high pressure and easily overextends, it gives clear, sustained energy. So a rosemary tea supports invigorating force that comes from freshness rather than pressure.",
+      theme: "Derived from the Spanish tarantula — a restless creature whose bite was said by tradition to compel feverish, driven dancing. This signature pervades the remedy picture: restless hectic busyness, the need to impress, skilful agility and a constant state of tension. Exactly this characterises the Three — the powerful drive towards impact, success and recognition. Like the tarantula, it can barely pause — always in motion, always on stage.",
+      effect: "Homeopathically it supports regulation where life force manifests as performance pressure, drivenness and mere functioning. It helps to slow the inner tempo and untie self-worth from impact and applause — so the Three may come to rest and sense that it is enough, even without constant shining.",
+    },
+    wound: {
+      homoeopathie: "Lycopodium clavatum",
+      schuessler: "Ferrum phosphoricum",
+      bachbluete: "Walnut",
+      theme: "Prepared from the spores of club moss — an inconspicuous plant whose spores reveal their hidden power only under friction. This signature hits the core: an outwardly confident manner that inwardly conceals a deep lack of self-confidence and great fear of failure. This mirrors the wound of the Three — the conviction of being valuable only through performance, while self-doubt gnaws secretly behind the façade.",
+      effect: "Homeopathically it supports regulation where the wound manifests as performance pressure, hidden insecurity and fear of failure. It strengthens genuine self-confidence that no longer needs proof — so that worth can grow from within, independent of success and others' judgement.",
+    },
+  },
+  _type4: {
+    passion: {
+      homoeopathie: "Ignatia amara",
+      schuessler: "Kalium phosphoricum",
+      schuesslerField: "Nerve Strength in Exhaustion, Emotional Resilience",
+      schuesslerText: "Schüßler salt No. 5 is the great nerve and energy salt. It strengthens in emotional and physical exhaustion, nourishes nerve strength and gives inner groundedness. Traditionally it helps with low mood, brooding and lack of drive. For the Four, who can lose herself in longing, melancholy and the feeling of being different, it gives stability. So it supports a calm, sustained ground beneath alternating feelings.",
+      bachbluete: "Sweet Chestnut",
+      bachblueteField: "Hope and Support in Deepest Need",
+      bachblueteText: "Sweet Chestnut is the Bach flower for deepest emotional distress and the feeling of utter abandonment. It is for moments when everything appears dark and hopeless. The flower brings hope and the trust that even in the deepest valley a light arises. For the Four, who can lose herself in melancholy and the feeling of not belonging, it is a comfort. So from deep despair, support and confidence may grow again.",
+      edelstein: "Rhodonite",
+      edelsteinField: "Healing Emotional Wounds and Self-Worth",
+      edelsteinText: "Rhodonite is a rose-black veined stone and is regarded as a great helper with emotional wounds. The rose colour stands for love and self-worth, the black inclusions for the ability to hold and transform even dark feelings. It soothes old emotional wounds, harmonises mood swings and gives steadiness in inner storms. For the Four, who often feels different, alien and not belonging, it is a grounding anchor. So it leads from pain and longing into a calm, loving acceptance of one's own worth and story.",
+      tee: "Willowherb Tea",
+      teeField: "Soothing and Balancing",
+      teeText: "Willowherb is a mild, balancing herb with a soothing effect on the mood. It is regarded as a gentle companion in phases of inner unrest and emotional ups and downs. It is traditionally drunk for calming and harmonising. For the Four, who lives through strong feelings and longing, it gives a quiet ground. So a willowherb tea helps to find still balance in the waves of feeling.",
+      theme: "Derived from the bean of the St. Ignatius tree — a seed with paradoxical, contradictory effects, long associated with grief and disappointed love. This signature pervades the remedy picture: a sensitivity that swings between extremes, intense longing and a profound pain that can neither be fully expressed nor let go. This is the Four: deep feeling that dwells in what is absent.",
+      effect: "Homeopathically it supports regulation where emotional intensity, inner withdrawal and deep longing manifest. It helps to soften the emotional ups and downs without losing depth — and allows the Four to be with what is, rather than constantly yearning for what is missing.",
+    },
+    wound: {
+      homoeopathie: "Ignatia amara",
+      schuessler: "Calcium phosphoricum",
+      bachbluete: "Willow",
+      theme: "On the wound level too, the Ignatius bean acts — the great homeopathic remedy for unprocessed grief. Its signature is preserved pain: a loss that is held inwardly, revisited again and again, never fully released. The wound of the Four shows itself as the belief that the deepest longing can never truly be fulfilled.",
+      effect: "Homeopathically it supports regulation where the wound manifests as suppressed grief, inner longing and preserved pain. It helps to gently release held grief and allow what was lost to truly pass — so that the Four can meet the present with an open heart.",
+    },
+  },
+  _type5: {
+    passion: {
+      homoeopathie: "Stramonium",
+      schuessler: "Silicea",
+      schuesslerField: "Inner Structure, Groundedness and Self-Confidence",
+      schuesslerText: "Schüßler salt No. 11 is the salt of connective tissue, structure and inner groundedness. It strengthens skin, hair and nails and gives the body support and form. On the soul level it stands for backbone, perseverance and self-confidence. For the Five, who withdraws to protect her strength, it gives support from within. So it supports coming into contact with one's own substance and groundedness without feeling depleted.",
+      bachbluete: "Water Violet",
+      bachblueteField: "From Withdrawal to Warm Connection",
+      bachblueteText: "Water Violet is the Bach flower for withdrawn people who like to be alone and maintain distance. It helps those who quietly shut themselves off and find closeness tiring. The flower gently opens from cool reserve towards warm connection. For the Five, who protects her strength through withdrawal, it is a bridge outward. So from self-chosen isolation, vibrant participation may return — without feeling overwhelmed.",
+      edelstein: "Amazonite",
+      edelsteinField: "Inner Balance and Courage to Be Truthful",
+      edelsteinText: "Amazonite is a turquoise-green feldspar and stands for inner balance, composure and authenticity. It calms nerves and circular thoughts, balances emotional ups and downs and gives a clear, calm mind. It is also regarded as the stone of honest communication — it gives courage to express one's own experience rather than holding it back. For the Five, who withdraws to protect her strength, it builds a gentle bridge outward. So it helps to step from inner observer stance into genuine, vibrant contact — without fear of losing oneself.",
+      tee: "Oat Straw Tea",
+      teeField: "Nerve-Strengthening and Restorative",
+      teeText: "Oat straw is a classic nerve-strengthening and restorative herb, especially in exhaustion. It nourishes and gently strengthens the nerves and gives new inner substance. It is traditionally used for nervous weakness and depletion. For the Five, who experiences her strength as scarce and quickly feels drained, it builds her up. So an oat straw tea helps to replenish one's own reserves and enter contact with renewed strength.",
+      theme: "Thorn apple (jimsonweed) is a highly toxic nightshade plant that evokes images of darkness, threat and fright. Its signature holds the need to protect oneself from a world experienced as overwhelming. This mirrors the Five: an inner world locked away from the perceived danger of intrusion and loss of control — a refuge that takes priority over all contact.",
+      effect: "Homeopathically it supports regulation where mental withdrawal, inner isolation and overwhelm occur. It helps to soften the distance from the world and feel safer in contact again — returning an inner sense that presence is possible without being consumed.",
+    },
+    wound: {
+      homoeopathie: "Silicea",
+      schuessler: "Silicea",
+      bachbluete: "Water Violet",
+      theme: "Prepared from pure silica, quartz — a mineral embodying structure, firmness and stability, giving plants their upright stalk. It is precisely its absence that characterises the remedy picture: a lack of inner stability, fear of exposure and a deep insecurity about having enough resources. The wound of the Five: the fear that one's own strength and knowledge could be insufficient — and might run out.",
+      effect: "Homeopathically it supports regulation where the wound manifests as withdrawal, fear of exhaustion and protecting scarce resources. It builds inner substance and resilience, so that contact and encounter no longer feel threatening — but nourishing.",
+    },
+  },
+  _type6: {
+    passion: {
+      homoeopathie: "Opium",
+      schuessler: "Magnesium phosphoricum",
+      schuesslerField: "Relaxation and Releasing Tension",
+      schuesslerText: "Schüßler salt No. 7, the 'hot seven', is the great salt of relaxation and nerve calm. It releases cramps, tension and nervous restlessness and calms the overstimulated system. On the soul level it stands for letting go, composure and the easing of inner tension. For the Six, who lives in vigilance, doubt and fear, it is a gentle calmer. So it supports releasing the constant inner state of alarm and building trust.",
+      bachbluete: "Aspen",
+      bachblueteField: "Trust in the Face of Undefined Fear",
+      bachblueteText: "Aspen is the Bach flower for undefined fears, vague unease and the feeling of impending danger without clear reason. It helps with fine-tuned fearfulness and a sensitive inner vigilance. The flower gives trust and a feeling of inner security. For the Six, who lives with doubt and fear of the unknown, it is a deep calmer. So diffuse fear may give way to a quiet basic trust.",
+      edelstein: "Haematite",
+      edelsteinField: "Grounding, Protection and Stability",
+      edelsteinText: "Haematite is a metallic, lustrous iron stone and one of the strongest grounding and protective stones of all. Its high iron content stands symbolically for groundedness, resilience and an upright inner backbone. It gives support, stability and a physically tangible feeling of safety and security. For the Six, who lives in doubt, vigilance and the search for reliable support, it is a dependable companion. So it nourishes basic trust from within — a security that does not depend on external guarantees but is rooted in one's own standing.",
+      tee: "Chamomile Flower Tea",
+      teeField: "Calming and Soothing",
+      teeText: "Chamomile is one of the most tried and tested healing herbs — calming, antispasmodic and soothing. It soothes nerves, stomach and mood and gives a feeling of safety and warmth. It is traditionally drunk for restlessness, tension and anxiety. For the Six, who lives with vigilance and doubt, it works like a warm, safe wrap. So a chamomile flower tea helps to calm the inner state of alarm and build trust.",
+      theme: "Derived from the opium poppy — a substance that numbs pain, fear and perception and wraps them in dull calm. This signature shows a being that longs for safety and numbs everything perceived as dangerous. This mirrors the Six: the deep unease about threat and the unconscious way of dulling sharp danger-perception with diffuse anxiety — always watchful, never fully at rest.",
+      effect: "Homeopathically it supports regulation where excessive fear, inner tension, worry and constant vigilance occur. It helps to release the held startle-tension and calm the nervous system — so the Six can rest in a trust that does not require everything to be checked.",
+    },
+    wound: {
+      homoeopathie: "Opium",
+      schuessler: "Magnesium phosphoricum",
+      bachbluete: "Cerato",
+      theme: "The wound of the Six too carries the signature of the opium poppy: the numbing after a shock. Its classic picture is the state in which after a shattering experience the fear remains while the exact memory fades — a state of frozen vigilance that endures. The wound of the Six: the deep trauma of the world as an unsafe place, from which one never fully recovers.",
+      effect: "Homeopathically it supports regulation where the wound manifests as fear, constant vigilance and the dampening of painful perception. It helps what is frozen to flow again — and supports the Six in trusting their own perception without needing constant external confirmation.",
+    },
+  },
+  _type7: {
+    passion: {
+      homoeopathie: "Belladonna",
+      schuessler: "Natrium phosphoricum",
+      schuesslerField: "Acid-Base Balance and Inner Equilibrium",
+      schuesslerText: "Schüßler salt No. 9 is the salt of acid-base balance and inner equilibrium. It helps to neutralise over-acidification and brings balance where too much tension and activity accumulate. On the soul level it stands for settling and inner appeasement. For the Seven, who moves quickly from stimulus to stimulus and is easily over-excited, it supports balance. So it helps to ground the overflowing pace and find calm.",
+      bachbluete: "Agrimony",
+      bachblueteField: "Authenticity behind the Cheerfulness",
+      bachblueteText: "Agrimony is the Bach flower for people who hide their real worries behind cheerfulness and lightness. It helps those who cover inner restlessness and pain with a cheerful front and distraction. The flower leads to genuine peace that can also allow the difficult. For the Seven, who flees from suffering into activity and anticipation, it is an honest healing flower. So behind the cheerful façade the real feeling may be felt and transformed.",
+      edelstein: "Smoky Quartz",
+      edelsteinField: "Grounding and Releasing Stress",
+      edelsteinText: "Smoky quartz is a smoky-brown variety of rock crystal and is regarded as a balancing, grounding and anti-stress stone. It helps to collect excess, forward-pressing energy, reduce tension and let go of what burdens. It is traditionally used to return from hectic pace and overstimulation to quiet and presence. For the Seven, who happily flees from pain and heaviness upward into plans and possibilities, it is a gentle weight. So it carefully returns the bubbling restlessness to the ground and makes it easier to stay in the here and now.",
+      tee: "Peppermint Tea",
+      teeField: "Refreshing and Clarifying",
+      teeText: "Peppermint is a refreshing, clarifying herb that stimulates mind and digestion. Its cool scent invigorates, creates clarity and dissolves what is heavy and sluggish. Traditionally it is drunk for fullness, tiredness and mental refreshment. For the Seven, whose mind leaps from stimulus to stimulus, it can simultaneously clarify and collect. So a peppermint tea helps to refresh the overflowing mind and focus on what matters.",
+      theme: "Deadly nightshade is a plant whose picture is characterised by heat, fever, abundance and glowing excitement. This signature pervades the remedy picture: a feverish intensity, a compulsion towards more, faster, further — and a sudden collapse when the stimulation fades. This mirrors the Seven: the powerful hunger for experience and joy that makes stillness and pain feel unbearable.",
+      effect: "Homeopathically it supports regulation where life force manifests as overabundance, restless drivenness and feverish stimulus-seeking. It helps to cool the excessive excitement and come to rest — without the Seven losing their vitality and joy.",
+    },
+    wound: {
+      homoeopathie: "Calcium carbonicum",
+      schuessler: "Natrium phosphoricum",
+      bachbluete: "Agrimony",
+      theme: "Derived from the lime layer of the oyster shell — the soft, vulnerable creature that hides inside a hard shell. This signature speaks clearly: a deep need for safety, protection and a reliable foundation. The wound of the Seven: the profound fear that support could run out, that behind the abundance of experiences lurks an emptiness that one must never truly encounter.",
+      effect: "Homeopathically it supports regulation where the wound manifests as restless seeking, pain-avoidance and the hunger for support. It nourishes a feeling of inner security that makes the flight into the next experience unnecessary — and allows the Seven to find fullness in what is present.",
+    },
+  },
+  _type8: {
+    passion: {
+      homoeopathie: "Veratrum album",
+      schuessler: "Calcium fluoratum",
+      schuesslerField: "Firmness and Elasticity in One",
+      schuesslerText: "Schüßler salt No. 1 combines firmness with elasticity — it strengthens ligaments, tooth enamel and connective tissue. It gives the body support and resilience at the same time. On the soul level it stands for inner stability that can also bend without breaking. For the Eight, who seeks strength through hardness and control, it supports a power that can also yield. So it helps to be firm without becoming rigid.",
+      bachbluete: "Vine",
+      bachblueteField: "Strength and Leadership without Dominance",
+      bachblueteText: "Vine is the Bach flower for strong, dominant natures who lead, decide and dislike showing weakness. It helps those whose strength easily tips into hardness and control over others. The flower transforms the claim to power into a strong yet respectful and serving leadership. For the Eight, who needs strength as protection against vulnerability, it is a mature healing direction. So strength may lead without dominating, and leave space for others.",
+      edelstein: "Fluorite",
+      edelsteinField: "Clarity, Order and Concentration",
+      edelsteinText: "Fluorite is a clear, multicoloured shimmering stone and is regarded as a stone of order and mental clarity. It helps to structure thoughts, focus concentration and clarify inner and outer disorder. It is also regarded as dissolving — it softens hardness and cramping and creates inner space. For the Eight, who armours herself with control and strength against any weakness, it opens a gentler path. So behind the hard shell, clarity, flexibility and a measure of softness may find a place again — without feeling threatening.",
+      tee: "Ginger Tea",
+      teeField: "Warming and Stimulating",
+      teeText: "Ginger is a warming, powerfully stimulating root that promotes circulation and life-fire. Its sharp, spicy character awakens energy, drive and inner warmth. Traditionally used for strengthening, warming and invigorating. For the Eight, who is full of strength and protective impulse, its warm, clear energy suits her well. So a ginger tea helps to connect strong force with warmth rather than hardness.",
+      theme: "White hellebore is a powerful, toxic alpine plant whose picture is characterised by grandeur, claim and sudden collapse. Its signature shows a mighty impulse towards expansion, influence and dominance — combined with a deep fear of weakness and dependency. This mirrors the Eight: the unstoppable force that must control everything, because vulnerability feels like a threat to existence itself.",
+      effect: "Homeopathically it supports regulation where life force manifests as boundless expansion, excess and forcing control. It helps to moderate the overwhelming power without extinguishing it — and allows the Eight to lead from inner strength rather than fear.",
+    },
+    wound: {
+      homoeopathie: "Veratrum album",
+      schuessler: "Calcium fluoratum",
+      bachbluete: "Oak",
+      theme: "The wound of the Eight too carries the signature of white hellebore: behind great strength, the threat of collapse. Its picture knows the breakdown into coldness and exhaustion when forced greatness can no longer be maintained. The wound of the Eight: the deep fear that if one shows vulnerability, one will be overwhelmed — and that genuine need will never be met.",
+      effect: "Homeopathically it supports regulation where the wound manifests as hardness, compulsion to control and the warding off of any weakness. It helps to no longer need to fight vulnerability — but to allow it as part of genuine strength.",
+    },
+  },
+  _type9: {
+    passion: {
+      homoeopathie: "Cannabis indica",
+      schuessler: "Natrium sulfuricum",
+      schuesslerField: "Elimination and Releasing What Burdens",
+      schuesslerText: "Schüßler salt No. 10 is the great salt of elimination and letting go. It supports liver, gall and kidneys and helps the body to excrete what is superfluous and burdensome. On the soul level it stands for the ability to let what has been processed truly go, rather than dragging it along. For the Nine, who swallows much in silence and gradually becomes heavy with unaddressed tension, it brings lightness. So it supports the gentle releasing of accumulated heaviness — inwardly and outwardly.",
+      bachbluete: "Wild Rose",
+      bachblueteField: "From Resignation to Vibrant Participation",
+      bachblueteText: "Wild Rose is the Bach flower for resignation, inner indifference and making peace with what is. It helps those who accept without complaint — but also without joy. The flower awakens new vitality, interest and active participation. For the Nine, who loses herself in inertia and self-forgetting, it is a gentle spark. So from quiet surrender, vibrant, engaged presence may return.",
+      edelstein: "Carnelian",
+      edelsteinField: "Life-Force, Courage and Warm Presence",
+      edelsteinText: "Carnelian is a warm, orange to reddish glowing chalcedony and a classic stone of life-force, courage and drive. Its warm colour stands for vitality, warmth and a strong, tangible presence. It activates, encourages and strengthens one's own will and the joy of action. For the Nine, who easily forgets herself, drifts off and believes she plays no role, it is a gentle wake-up call. So it helps to surface from inertia and self-forgetting, take one's own place and step perceptibly into life.",
+      tee: "Fennel Tea",
+      teeField: "Relaxing and Balancing",
+      teeText: "Fennel is a mild, relaxing and balancing herb with a soothing effect. It calms gently and harmonises without dampening. Traditionally it is drunk for restlessness and to soothe the abdomen. For the Nine, who seeks harmony and quiet, it is a familiar companion — with the reminder that calm need not tip into inertia. So a fennel tea helps to find a relaxed composure that remains awake and present.",
+      theme: "Indian cannabis evokes images of fogging, dream-like distance and a blissful blurring of time and space. This signature pervades the remedy picture: a withdrawal from sharp reality into a pleasant, soft state of non-disturbance. This mirrors the Nine: the deep longing for peace that avoids inner tension by dissolving into vague well-being — while the own impulse and the own voice gradually fade.",
+      effect: "Homeopathically it supports regulation where life force manifests as fogging, self-forgetting and withdrawal from one's own presence. It helps to become clearer and more awake again towards oneself — and to remain present in the here and now without the world having to be silenced first.",
+    },
+    wound: {
+      homoeopathie: "Staphysagria",
+      schuessler: "Natrium sulfuricum",
+      bachbluete: "Wild Rose",
+      theme: "Prepared from stavesacre, a larkspur species — the great remedy for suppressed anger and injured dignity. Its signature is swallowed rage: suffered slights and boundary violations that were endured in silence — with a smile. The wound of the Nine: the deep injury to one's own dignity through constant adaptation and the inability to set clear boundaries.",
+      effect: "Homeopathically it supports regulation where the wound manifests as adaptation, silence and the lost contact with one's own boundary. It helps to feel justified anger and communicate boundaries clearly — so the Nine may take up their own space without guilt.",
+    },
+  },
+};
+
+const PAGE4_TYPE_MAP = {
+  se1:"_type1",so1:"_type1",sx1:"_type1",
+  se2:"_type2",so2:"_type2",sx2:"_type2",
+  se3:"_type3",so3:"_type3",sx3:"_type3",
+  se4:"_type4",so4:"_type4",sx4:"_type4",
+  se5:"_type5",so5:"_type5",sx5:"_type5",
+  se6:"_type6",so6:"_type6",sx6:"_type6",
+  se7:"_type7",so7:"_type7",sx7:"_type7",
+  se8:"_type8",so8:"_type8",sx8:"_type8",
+  se9:"_type9",so9:"_type9",sx9:"_type9",
+};
+
+function page4SummaryBlock(code) {
+  if (!code) return "";
+  const key = PAGE4_TYPE_MAP[(code).toLowerCase()];
+  if (!key) return "";
+  const d = PAGE4_SUMMARY_EN[key];
+  if (!d) return "";
+  const p = d.passion;
+  const w = d.wound;
+  const remedyRow = (label, value, field, text) => {
+    if (!value) return "";
+    let html = `<li style="margin-bottom:.6rem;"><span style="font-weight:600;">${label}:</span> ${value}`;
+    if (field) html += ` <span style="font-style:italic;color:var(--text-muted,#888);">· ${field}</span>`;
+    if (text) html += `<p style="margin:.3rem 0 0;font-size:.88rem;line-height:1.65;">${text}</p>`;
+    html += `</li>`;
+    return html;
+  };
+  return `
+    <div class="page1-summary" style="margin-top:1rem;">
+      <div class="room-field"><strong style="font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dark,#8b6914);">Passion Remedy Level</strong>
+        <ul style="margin:.6rem 0 .3rem;padding-left:0;list-style:none;">
+          ${remedyRow("Homeopathy", p.homoeopathie, null, null)}
+          ${remedyRow("Mineral Supplement", p.schuessler, p.schuesslerField, p.schuesslerText)}
+          ${remedyRow("Bach Flower", p.bachbluete, p.bachblueteField, p.bachblueteText)}
+          ${remedyRow("Crystal", p.edelstein, p.edelsteinField, p.edelsteinText)}
+          ${remedyRow("Tea", p.tee, p.teeField, p.teeText)}
+        </ul>
+        <p style="margin:.6rem 0 .2rem;font-size:.93rem;line-height:1.7;">${p.theme}</p>
+        <p style="margin:0 0 .5rem;font-size:.93rem;line-height:1.7;font-style:italic;">${p.effect}</p>
+      </div>
+      <div class="room-field" style="padding-top:.8rem;"><strong style="font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dark,#8b6914);">Wound Remedy Level</strong>
+        <ul style="margin:.6rem 0 .3rem;padding-left:0;list-style:none;">
+          ${remedyRow("Homeopathy", w.homoeopathie, null, null)}
+          ${remedyRow("Mineral Supplement", w.schuessler, null, null)}
+          ${remedyRow("Bach Flower", w.bachbluete, null, null)}
+        </ul>
+        <p style="margin:.6rem 0 .2rem;font-size:.93rem;line-height:1.7;">${w.theme}</p>
+        <p style="margin:0 0 .5rem;font-size:.93rem;line-height:1.7;font-style:italic;">${w.effect}</p>
+      </div>
+      <p style="margin:.8rem 0 0;font-size:.8rem;color:var(--text-muted,#888);font-style:italic;">Remedies are supportive suggestions only and do not replace individual therapeutic guidance.</p>
+    </div>
+  `;
+}
+
 
 const PAGE1_SUMMARY_EN = {
   se1: {
@@ -6252,14 +6760,14 @@ function querverbindungen(entry) {
   const kindheit = kindheitForType(entry.code);
   const links = [
     { label: "Remedies", route: "healing", icon: "⬡" },
-    oel      ? { label: "Ätherische Öle", route: "oils", icon: "✦" } : null,
-    tcm      ? { label: "TCM & Organuhr", route: "tcm", icon: "◎" } : null,
-    kindheit ? { label: "Kindheitstraumata", route: "kindheit", icon: "◇" } : null,
-    { label: "Bibliothek", route: "library", icon: "◈" },
+    oel      ? { label: "Essential Oils", route: "oils", icon: "✦" } : null,
+    tcm      ? { label: "TCM & Organ Clock", route: "tcm", icon: "◎" } : null,
+    kindheit ? { label: "Childhood Traumas", route: "kindheit", icon: "◇" } : null,
+    { label: "Library", route: "library", icon: "◈" },
   ].filter(Boolean);
   return `
     <section class="querverbindungen">
-      <p class="querverbindungen__label">Nextführende Themen</p>
+      <p class="querverbindungen__label">Related Topics</p>
       <div class="querverbindungen__links">
         ${links.map(l => `
           <button class="querverbindungen__chip" data-route="${l.route}">
@@ -6363,6 +6871,144 @@ function verstehenInner(entry, sp) {
   return blocks.join("");
 }
 
+
+const TWOPOINTS_EN = {
+  se1: {
+    point1: { name: "Solar Plexus / Upper Abdomen", location: "above the navel", need: ["Order","Integrity","Control","Inner Stability"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Nothing to correct.","Stay in the body.","Keep breathing calmly.","Simply perceive.","Let it soften."]
+  },
+  so1: {
+    point1: { name: "Solar Plexus / Upper Abdomen", location: "above the navel", need: ["Order","Integrity","Control","Inner Stability"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Don't control.","Allow gentleness.","Simply be here.","Release responsibility.","Stay calm."]
+  },
+  sx1: {
+    point1: { name: "Solar Plexus / Upper Abdomen", location: "above the navel", need: ["Order","Integrity","Control","Inner Stability"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Don't push.","Stay soft.","Allow warmth.","Calm the intensity.","Become gentler."]
+  },
+  se2: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Abdomen / Inner Space", location: "above the navel", need: ["Self-Contact","Stillness","Own Boundary"] },
+    microInstructions: ["Don't perform.","Stay with yourself.","Become receptive.","Expect nothing.","Feel yourself."]
+  },
+  so2: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Abdomen / Inner Space", location: "above the navel", need: ["Self-Contact","Stillness","Own Boundary"] },
+    microInstructions: ["Don't need to be needed.","Take up space.","Include yourself.","Feel your boundaries.","Simply stay."]
+  },
+  sx2: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Abdomen / Inner Space", location: "above the navel", need: ["Self-Contact","Stillness","Own Boundary"] },
+    microInstructions: ["Don't merge.","Hold the closeness.","Stay with yourself.","Breathe gently.","Remain with oneself."]
+  },
+  se3: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge","Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    microInstructions: ["Nothing to achieve.","Slow down.","Release the pressure.","Don't perform.","Feel authenticity."]
+  },
+  so3: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge","Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    microInstructions: ["Don't play a role.","Stay authentic.","Loosen the mask.","Be visible.","Breathe calmly."]
+  },
+  sx3: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge","Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    microInstructions: ["Don't shine.","Don't perform closeness.","Feel the body.","Stay true.","Allow authenticity."]
+  },
+  se4: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Don't deepen.","Hold the pain.","Breathe calmly.","Stay here.","Soften."]
+  },
+  so4: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Don't compare.","Feel the space.","Hold the contact.","Allow belonging.","Stay calm."]
+  },
+  sx4: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Calm the longing.","Don't intensify.","Allow closeness.","Hold the body.","Stay soft."]
+  },
+  se5: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Abdomen / Body Centre", location: "centre of the navel", need: ["Sensing","Presence","Inner Safety"] },
+    microInstructions: ["Inhabit the body.","Don't withdraw.","Open perception.","Allow contact.","Stay present."]
+  },
+  so5: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Abdomen / Body Centre", location: "centre of the navel", need: ["Sensing","Presence","Inner Safety"] },
+    microInstructions: ["Don't only observe.","Show yourself.","Allow breathing together.","Measure closeness.","Stay present."]
+  },
+  sx5: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Abdomen / Body Centre", location: "centre of the navel", need: ["Sensing","Presence","Inner Safety"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  se6: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Thigh", location: "centre of the upper thigh", need: ["Support","Trust","Stability","Safety"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  so6: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Thigh", location: "centre of the upper thigh", need: ["Support","Trust","Stability","Safety"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  sx6: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Upper Thigh", location: "centre of the upper thigh", need: ["Support","Trust","Stability","Safety"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  se7: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  so7: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  sx7: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Lower Abdomen / Pelvic Area", location: "below the navel", need: ["Safety","Protection","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  se8: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Pubic Bone Area", location: "on the pubic bone", need: ["Primal Trust","Grounding","Protection"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  so8: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Pubic Bone Area", location: "on the pubic bone", need: ["Primal Trust","Grounding","Protection"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  sx8: {
+    point1: { name: "Heart Space / Centre of Chest", location: "centre of the sternum", need: ["Closeness","Connection","Resonance"] },
+    point2: { name: "Pubic Bone Area", location: "on the pubic bone", need: ["Primal Trust","Grounding","Protection"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  se9: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Suprapubic Area", location: "just above the pubic bone", need: ["Stillness","Harmony","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  so9: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Suprapubic Area", location: "just above the pubic bone", need: ["Stillness","Harmony","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+  sx9: {
+    point1: { name: "Forehead / Head", location: "centre of the forehead", need: ["Knowledge / Understanding","Perception","Inner Clarity"] },
+    point2: { name: "Suprapubic Area", location: "just above the pubic bone", need: ["Stillness","Harmony","Grounding"] },
+    microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
+  },
+};
 function spuerenInner(entry, sp) {
   const blocks = [];
   // Profilbild (Seite 1) — zeigt Prototypen, Blickqualität, Körpersignatur
@@ -6379,26 +7025,18 @@ function spuerenInner(entry, sp) {
     </figure>
   `);
   blocks.push(page1SummaryBlock(entry.code));
-  if (entry.signature) blocks.push(`<div class="room-field"><strong>${entry.signature.title}</strong><p>${entry.signature.text}</p></div>`);
   const bs = entry.bodySignature;
   const bsl = sp.bodySignature || {};
   if (bs) {
-    if (bs.basicTension) blocks.push(`<div class="room-field"><strong>${bsl.basicTension || "Grundspannung"}</strong><p>${bs.basicTension}</p></div>`);
-    const lists = [
-      ["gazeQuality","microTension","breathingRhythm","movementInitiation","contactStyle"],
-      [bsl.gazeQuality, bsl.microTension, bsl.breathingRhythm, bsl.movementInitiation, bsl.contactStyle],
-    ];
-    lists[0].forEach((key, i) => {
-      if (bs[key] && bs[key].length) blocks.push(`<div class="room-field"><strong>${lists[1][i] || key}</strong><ul>${bs[key].map((x) => `<li>${x}</li>`).join("")}</ul></div>`);
-    });
-    if (bs.twoPoints) {
-      const tp = bs.twoPoints;
-      const pts = [tp.point1, tp.point2].filter(Boolean);
+    const tpEn = TWOPOINTS_EN[(entry.code || "").toLowerCase()] || null;
+    const tpSrc = tpEn || bs.twoPoints || null;
+    if (tpSrc) {
+      const pts = [tpSrc.point1, tpSrc.point2].filter(Boolean);
       if (pts.length) {
         const ptHtml = pts.map((p) => `<li><strong>${p.name}</strong> (${p.location})${p.need && p.need.length ? `<ul>${p.need.map((n) => `<li>${n}</li>`).join("")}</ul>` : ""}</li>`).join("");
-        blocks.push(`<div class="room-field"><strong>${bsl.twoPoints || "2-Punkte-Integration"}</strong><ul>${ptHtml}</ul></div>`);
+        blocks.push(`<div class="room-field"><strong>Two-Point Integration</strong><ul>${ptHtml}</ul></div>`);
       }
-      if (tp.microInstructions && tp.microInstructions.length) blocks.push(`<div class="room-field"><strong>${bsl.microInstructions || "Mikro-Anleitung"}</strong><ul>${tp.microInstructions.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+      if (tpSrc.microInstructions && tpSrc.microInstructions.length) blocks.push(`<div class="room-field"><strong>Micro-Instructions</strong><ul>${tpSrc.microInstructions.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
     }
   }
   if (entry.archetypalEssence) blocks.push(`<div class="room-field"><strong>${sp.archetypalEssence || "Archetypische Essenz"}</strong><p>${entry.archetypalEssence}</p></div>`);
@@ -6461,6 +7099,90 @@ function verkoerpernInner(entry, sp) {
   return `<p class="room-pending">${sp.mediaPending}</p>`;
 }
 
+
+const MEDIA_CATEGORY_EN = {
+  "Praxis": "Practice",
+  "Vertiefung": "Deepening",
+  "Fl\u00fcgel": "Wing",
+  "Affirmationen": "Affirmations",
+  "Musik": "Music",
+  "Wissen": "Knowledge",
+  "Playlist": "Playlist",
+  "Song 1": "Song 1",
+  "Song 2": "Song 2",
+  "Song 3": "Song 3",
+  "Song 4": "Song 4",
+  "Song 5": "Song 5",
+};
+
+function translateHinweis(werkId, hinweis) {
+  var m;
+  m = hinweis.match(/Das vollst.ndige (\S+)-Subtypprofil und die Dynamik innerhalb von Typ (\d+)\./);
+  if (m) return "The complete " + m[1] + " subtype profile and the dynamics within Type " + m[2] + ".";
+  m = hinweis.match(/Schritt.+herausfinden, ob Typ (\d+) \/ (\S+) zu dir passt\./);
+  if (m) return "Step by step, find out whether Type " + m[1] + " / " + m[2] + " fits you.";
+  m = hinweis.match(/Hintergrund zum Edelstein (.+?) und den Enneagrammprinzipien\./);
+  if (m) { var sEN = GERMAN_REMEDY_NAMES_EN[m[1]] || m[1]; return "Background on the healing stone " + sEN + " and Enneagram principles."; }
+  m = hinweis.match(/Die Wunde hinter der Leidenschaft des Typ (\d+)/);
+  if (m) return "The wound behind the passion of Type " + m[1] + " (Chapter Type " + m[1] + ").";
+  m = hinweis.match(/Die fr.he Pr.gung hinter dem Muster des Typ (\d+)\./);
+  if (m) return "The early imprint behind the pattern of Type " + m[1] + ".";
+  m = hinweis.match(/Wie Burnout bei Typ (\d+) entsteht/);
+  if (m) return "How burnout in Type " + m[1] + " develops, what it feels like, and how it can be overcome - type-specific warning signs and prevention.";
+  return hinweis;
+}
+
+function translateGroupTitle(title) {
+  return title
+    .replace(/Seite (\d+) \u00b7 Praxis, Vertiefung und Songs/, "Page $1 \u00b7 Practice, Deepening and Songs")
+    .replace(/Seite (\d+) \u00b7 Subtyp-Profil/, "Page $1 \u00b7 Subtype Profile")
+    .replace(/Seite (\d+) \u00b7 2-Punkte-Integration/, "Page $1 \u00b7 Two-Point Integration")
+    .replace(/Seite (\d+) \u00b7 K.rperarbeit & Akupressur/, "Page $1 \u00b7 Bodywork & Acupressure")
+    .replace(/Seite (\d+) \u00b7 Heilmittel-Kompass/, "Page $1 \u00b7 Remedy Compass")
+    .replace(/Seite (\d+) \u00b7 Integrationspotenzial/, "Page $1 \u00b7 Integration Potential")
+    .replace(/Seite (\d+) \u00b7 Transformation/, "Page $1 \u00b7 Transformation")
+    .replace(/Seite (\d+) \u00b7 Integration$/, "Page $1 \u00b7 Integration")
+    .replace(/\u00b7 Seite (\d+)$/, "\u00b7 Page $1");
+}
+
+function translateGroupNote(note) {
+  if (note && note.indexOf("Medienblock mit Praxis- und Vertiefungslinks") !== -1) {
+    return "Media block with practice and deepening links, wing video, and song and affirmation fields.";
+  }
+  if (note && note.indexOf("Diese Gruppe entspricht dem Medienblock auf Seite 3") !== -1) {
+    return "This group corresponds to the media block on page 3: practice links, wing video, and the six song/affirmation fields.";
+  }
+  return note || "";
+}
+
+function translateMediaTitle(title) {
+  if (!title) return title;
+  return title
+    .replace("Spezielle Bewusstseins\u00fcbungen f\u00fcr die 9 Enneagrammtypen", "Special Consciousness Exercises for the 9 Enneagram Types")
+    .replace("Dynamische Darstellung der 9 Enneagrammtypen von Detlef Rathmer", "Dynamic Presentation of the 9 Enneagram Types by Detlef Rathmer")
+    .replace("Playlist zur Bewusstseinserweiterung", "Playlist for Expanding Consciousness")
+    .replace("Fl\u00fcgel-Video", "Wing Video")
+    .replace("mit 9er- und 2er-Fl\u00fcgel", "with Nine-Wing and Two-Wing")
+    .replace("deutscher Themensong", "German Theme Song")
+    .replace("deutscher subtypspezifischer Song", "German Subtype-Specific Song")
+    .replace("englischer subtypspezifischer Song", "English Subtype-Specific Song")
+    .replace("archetypisch-biblischer Song", "Archetypal-Biblical Song")
+    .replace("100 heilsame Affirmationen", "100 Healing Affirmations")
+    .replace("Songs zum Wesen der Hom\u00f6opathie", "Songs on the Nature of Homeopathy")
+    .replace("Zur Wirkweise der Enneagramm-Hom\u00f6opathie", "On the Mechanism of Enneagram Homeopathy")
+    .replace("Zur Wirkweise der Hom\u00f6opathie", "On the Mechanism of Homeopathy")
+    .replace("Alles muss stimmen", "Everything Must Be Right")
+    .replace("englischer Song:", "English Song:")
+    .replace("deutscher Song:", "German Song:")
+    .replace(/\bTyp (\d+) \u00b7/g, "Type $1 \u00b7")
+    .replace(/\bTyp (\d+) mit\b/g, "Type $1 with");
+}
+
+function translateScope(scope) {
+  if (!scope) return scope;
+  return scope.replace(/^Typ /, "Type ").replace("Hom\u00f6opathie", "Homeopathy");
+}
+
 function vertiefungSection(refs, sp) {
   if (!refs || !refs.length) return "";
   const byId = Object.fromEntries(werkRegister.map((b) => [b.id, b]));
@@ -6477,7 +7199,7 @@ function vertiefungSection(refs, sp) {
           return `
             <li class="deepen-item">
               <strong>${book.title}</strong>
-              <p>${ref.hinweis}</p>
+              <p>${translateHinweis(ref.werkId, ref.hinweis)}</p>
               ${link}
             </li>`;
         })
@@ -6663,25 +7385,114 @@ function knowledgeCard(item) {
 	  `;
 }
 
+
+const GERMAN_REMEDY_NAMES_EN = {
+  "Amethyst": "Amethyst",
+  "Rosenquarz": "Rose Quartz",
+  "Tigerauge": "Tiger's Eye",
+  "Rhodonit": "Rhodonite",
+  "Amazonit": "Amazonite",
+  "Hämatit": "Haematite",
+  "Rauchquarz": "Smoky Quartz",
+  "Fluorit": "Fluorite",
+  "Karneol": "Carnelian",
+  "Melissentee": "Lemon Balm Tea",
+  "Rosenblütentee": "Rose Blossom Tea",
+  "Rosmarintee": "Rosemary Tea",
+  "Weidenröschentee": "Willowherb Tea",
+  "Haferkrauttee": "Oat Straw Tea",
+  "Kamillenblütentee": "Chamomile Flower Tea",
+  "Pfefferminztee": "Peppermint Tea",
+  "Ingwertee": "Ginger Tea",
+  "Fencheltee": "Fennel Tea",
+};
+
+const REMEDY_GLOSSARY_EN = {
+  "Kalium sulfuricum": "Schüßler salt No. 6 is the salt of metabolism, detoxification and inner renewal. It supports cellular respiration and helps the body to eliminate what is spent and regenerate itself. On the soul level it stands for renewal and the releasing of what has become rigid. For the One, who can harden in strictness, pressure and self-judgement, it promotes a living flow. So it works where rigid control may transform into healthy permeability.",
+  "Kalium chloratum": "Schüßler salt No. 4 acts on mucous membranes and glands and is regarded as the great salt of clarification and purification. It helps to dissolve hardening and deposits and break down what burdens. On the soul level it stands for dissolving old encrustation and rigid patterns. For the One, whose wound shows itself as anxious control and constant self-examination, it creates movement. So it supports releasing inner hardening towards more softness and leniency.",
+  "Natrium chloratum": "Schüßler salt No. 8 regulates fluid balance and is the great salt of emotional equilibrium. It brings order where too much or too little flows — in the body as in feeling. Traditionally it helps to release old grief, held-back tears and swallowed suffering. For the Two, who gives herself up for others and overrides her own needs, it brings healing balance. So it supports returning to one's own source, rather than losing oneself in giving.",
+  "Ferrum phosphoricum": "Schüßler salt No. 3 is the salt of energy, oxygen absorption and primary immune response. It strengthens resilience, initiative and healthy drive. On the soul level it stands for courage and stamina without overexertion. For the Three, who defines herself through performance and fears failure, it is a strengthening companion. So it supports genuine, sustained energy instead of restless functioning under high pressure.",
+  "Kalium phosphoricum": "Schüßler salt No. 5 is the great nerve and energy salt. It strengthens in emotional and physical exhaustion, nourishes nerve strength and gives inner groundedness. Traditionally it helps with low mood, brooding and lack of drive. For the Four, who can lose herself in longing, melancholy and the feeling of being different, it gives stability. So it supports a calm, sustained ground beneath alternating feelings.",
+  "Calcium phosphoricum": "Schüßler salt No. 2 is the great building and regeneration salt for bones, teeth and cells. It strengthens in phases of weakness, growth and exhaustion and gives new strength. On the soul level it stands for building up, confidence and a firm footing. For the Four, whose wound shows itself as a feeling of lack and of being homeless, it nourishes substance and support. So it supports feeling held and rooted in one's own place.",
+  "Silicea": "Schüßler salt No. 11 is the salt of connective tissue, structure and inner groundedness. It strengthens skin, hair and nails and gives the body support and form. On the soul level it stands for backbone, perseverance and self-confidence. For the Five, who withdraws to protect her strength, it gives support from within. So it supports coming into contact with one's own substance and groundedness without feeling depleted.",
+  "Magnesium phosphoricum": "Schüßler salt No. 7, the 'hot seven', is the great salt of relaxation and nerve calm. It releases cramps, tension and nervous restlessness and calms the overstimulated system. On the soul level it stands for letting go, composure and the easing of inner tension. For the Six, who lives in vigilance, doubt and fear, it is a gentle calmer. So it supports releasing the constant inner state of alarm and building trust.",
+  "Natrium phosphoricum": "Schüßler salt No. 9 is the salt of acid-base balance and inner equilibrium. It helps to neutralise over-acidification and brings balance where too much tension and activity accumulate. On the soul level it stands for settling and inner appeasement. For the Seven, who moves quickly from stimulus to stimulus and is easily over-excited, it supports balance. So it helps to ground the overflowing pace and find calm.",
+  "Calcium fluoratum": "Schüßler salt No. 1 combines firmness with elasticity — it strengthens ligaments, tooth enamel and connective tissue. It gives the body support and resilience at the same time. On the soul level it stands for inner stability that can also bend without breaking. For the Eight, who seeks strength through hardness and control, it supports a power that can also yield. So it helps to be firm without becoming rigid.",
+  "Natrium sulfuricum": "Schüßler salt No. 10 is the great salt of elimination and letting go. It supports liver, gall and kidneys and helps the body to excrete what is superfluous and burdensome. On the soul level it stands for the ability to let what has been processed truly go, rather than dragging it along. For the Nine, who swallows much in silence and gradually becomes heavy with unaddressed tension, it brings lightness. So it supports the gentle releasing of accumulated heaviness — inwardly and outwardly.",
+  "Rock Water": "Rock Water is the Bach flower for people who set high ideals for themselves and treat themselves strictly, almost ascetically. It helps those who deny themselves pleasure and lightness in order to fulfil a self-imposed model. The flower dissolves inner hardness and rigid self-discipline and brings flexibility and mildness. For the One, who stands under the pressure of the inner judge, it is a gentle antidote. So bitter strictness may become an open, friendly attitude towards oneself.",
+  "Chicory": "Chicory is the Bach flower for a possessive, conditional form of love. It helps people who give a great deal but secretly expect thanks, closeness and reciprocation. The flower transforms clinging care into genuine, selfless devotion. For the Two, who defines herself through being needed, it is a deep healing flower. So love may flow without losing oneself or demanding anything in return.",
+  "Vervain": "Vervain is the Bach flower for over-eagerness, enthusiasm to the point of exhaustion and constant inner tension. It helps people who burn with full force for their goals and can barely switch off. The flower eases the overstrain and brings composure into the engagement. For the Three, who functions under high pressure and fears standstill, it is a welcome relief. So enthusiasm may remain, but flow more quietly and moderately.",
+  "Walnut": "Walnut is the Bach flower for transitions, new beginnings and releasing old bonds. It protects against external influences and the pull of foreign expectations when a new path opens. The flower strengthens faithfulness to one's own inner calling. For the Three, whose wound orients to external standards of success, it creates freedom. So one's own worth may grow independently of recognition and external images.",
+  "Sweet Chestnut": "Sweet Chestnut is the Bach flower for deepest emotional distress and the feeling of utter abandonment. It is for moments when everything appears dark and hopeless. The flower brings hope and the trust that even in the deepest valley a light arises. For the Four, who can lose herself in melancholy and the feeling of not belonging, it is a comfort. So from deep despair, support and confidence may grow again.",
+  "Willow": "Willow is the Bach flower for resentment, bitterness and the feeling of being treated unfairly by life. It helps when self-pity and quiet reproach shadow the soul. The flower dissolves embitterment and opens again to gratitude and self-responsibility. For the Four, whose wound shows itself as painful longing and comparison, it brings relief. So from resentment over what is missing, a reconciled acceptance of one's own life may grow.",
+  "Water Violet": "Water Violet is the Bach flower for withdrawn people who like to be alone and maintain distance. It helps those who quietly shut themselves off and find closeness tiring. The flower gently opens from cool reserve towards warm connection. For the Five, who protects her strength through withdrawal, it is a bridge outward. So from self-chosen isolation, vibrant participation may return — without feeling overwhelmed.",
+  "Aspen": "Aspen is the Bach flower for undefined fears, vague unease and the feeling of impending danger without clear reason. It helps with fine-tuned fearfulness and a sensitive inner vigilance. The flower gives trust and a feeling of inner security. For the Six, who lives with doubt and fear of the unknown, it is a deep calmer. So diffuse fear may give way to a quiet basic trust.",
+  "Cerato": "Cerato is the Bach flower for people who mistrust their own inner voice and constantly ask others for advice. It helps those who have knowledge but doubt it and allow themselves to be unsettled. The flower strengthens trust in one's own perception and judgement. For the Six, whose wound shows itself as a search for support in external things, it is central. So one may trust one's own inner guidance again.",
+  "Agrimony": "Agrimony is the Bach flower for people who hide their real worries behind cheerfulness and lightness. It helps those who cover inner restlessness and pain with a cheerful front and distraction. The flower leads to genuine peace that can also allow the difficult. For the Seven, who flees from suffering into activity and anticipation, it is an honest healing flower. So behind the cheerful façade the real feeling may be felt and transformed.",
+  "Vine": "Vine is the Bach flower for strong, dominant natures who lead, decide and dislike showing weakness. It helps those whose strength easily tips into hardness and control over others. The flower transforms the claim to power into a strong yet respectful and serving leadership. For the Eight, who needs strength as protection against vulnerability, it is a mature healing direction. So strength may lead without dominating, and leave space for others.",
+  "Oak": "Oak is the Bach flower for duty-bound fighter natures who keep going tirelessly, even beyond their limits. It helps those who never give up and grant themselves no rest. The flower teaches that true strength also knows pause and the acceptance of limits. For the Eight, whose wound equates weakness with destruction, this is a liberation. So strength may be lived with pauses and healthy yielding.",
+  "Wild Rose": "Wild Rose is the Bach flower for resignation, inner indifference and making peace with what is. It helps those who accept without complaint — but also without joy. The flower awakens new vitality, interest and active participation. For the Nine, who loses herself in inertia and self-forgetting, it is a gentle spark. So from quiet surrender, vibrant, engaged presence may return.",
+  "Amethyst": "Amethyst is a violet variety of rock crystal and has been regarded since antiquity as the stone of clarity, moderation and spiritual calm. It is traditionally used where the mind finds no rest — for circular thoughts, inner tension and an overactive, critical spirit. It works in a calming, clarifying and harmonising way and supports meditation and restful sleep. For the One it is a counterweight to strict self-control and the tireless inner judge. It invites the release of tension and the allowing of true composure — calm instead of grimness, mildness instead of hardness towards oneself.",
+  "Rosenquarz": "Rose quartz is the delicate pink stone of the heart and has always been associated with love, gentleness and reconciliation. It opens the heart to compassion, warmth and forgiveness — and directs this loving attitude expressly also inward, towards oneself. Traditionally it helps to gently release old grief and injuries and to regain trust in closeness. For the Two, whose love almost always streams outward, it is a quiet reminder of her own neediness. It nourishes self-love and gives permission to also receive — without first having to make oneself useful.",
+  "Tigerauge": "Tiger's eye is a golden-brown shimmering quartz with silky light-play and is regarded as the stone of courage, grounding and clear sight. It strengthens self-confidence and willpower and helps to maintain calm, overview and steadiness even under pressure. Traditionally carried as a protective stone, it reduces nervousness, self-doubt and stress. For the Three, whose worth seems to be measured by performance and success, it directs the gaze inward. So it becomes perceptible that genuine worth grows from inner groundedness and clarity — not from the next goal alone.",
+  "Rhodonit": "Rhodonite is a rose-black veined stone and is regarded as a great helper with emotional wounds. The rose colour stands for love and self-worth, the black inclusions for the ability to hold and transform even dark feelings. It soothes old emotional wounds, harmonises mood swings and gives steadiness in inner storms. For the Four, who often feels different, alien and not belonging, it is a grounding anchor. So it leads from pain and longing into a calm, loving acceptance of one's own worth and story.",
+  "Amazonit": "Amazonite is a turquoise-green feldspar and stands for inner balance, composure and authenticity. It calms nerves and circular thoughts, balances emotional ups and downs and gives a clear, calm mind. It is also regarded as the stone of honest communication — it gives courage to express one's own experience rather than holding it back. For the Five, who withdraws to protect her strength, it builds a gentle bridge outward. So it helps to step from inner observer stance into genuine, vibrant contact — without fear of losing oneself.",
+  "Hämatit": "Haematite is a metallic, lustrous iron stone and one of the strongest grounding and protective stones of all. Its high iron content stands symbolically for groundedness, resilience and an upright inner backbone. It gives support, stability and a physically tangible feeling of safety and security. For the Six, who lives in doubt, vigilance and the search for reliable support, it is a dependable companion. So it nourishes basic trust from within — a security that does not depend on external guarantees but is rooted in one's own standing.",
+  "Rauchquarz": "Smoky quartz is a smoky-brown variety of rock crystal and is regarded as a balancing, grounding and anti-stress stone. It helps to collect excess, forward-pressing energy, reduce tension and let go of what burdens. It is traditionally used to return from hectic pace and overstimulation to quiet and presence. For the Seven, who happily flees from pain and heaviness upward into plans and possibilities, it is a gentle weight. So it carefully returns the bubbling restlessness to the ground and makes it easier to stay in the here and now.",
+  "Fluorit": "Fluorite is a clear, multicoloured shimmering stone and is regarded as a stone of order and mental clarity. It helps to structure thoughts, focus concentration and clarify inner and outer disorder. It is also regarded as dissolving — it softens hardness and cramping and creates inner space. For the Eight, who armours herself with control and strength against any weakness, it opens a gentler path. So behind the hard shell, clarity, flexibility and a measure of softness may find a place again — without feeling threatening.",
+  "Karneol": "Carnelian is a warm, orange to reddish glowing chalcedony and a classic stone of life-force, courage and drive. Its warm colour stands for vitality, warmth and a strong, tangible presence. It activates, encourages and strengthens one's own will and the joy of action. For the Nine, who easily forgets herself, drifts off and believes she plays no role, it is a gentle wake-up call. So it helps to surface from inertia and self-forgetting, take one's own place and step perceptibly into life.",
+  "Melissentee": "Lemon balm is a classic healing herb for nerves and mood, mildly calming and heart-strengthening. Its lemony-fresh scent relaxes without inducing tiredness and releases inner tension. Traditionally drunk for restlessness, irritability and nervous tension. For the One, who stands under inner pressure and self-severity, it is a gentle counterbalance. So a lemon balm tea helps to release cramped tension and come to rest.",
+  "Rosenblütentee": "Rose blossom tea is regarded as a heart-opening, harmonising drink full of gentleness. The rose has always stood for love, tenderness and soulful warmth. Traditionally used to soothe the mood and soften the heart. For the Two, whose love always flows outward, it is a delicate invitation to self-care. So a rose blossom tea serves as a reminder to also give one's own warmth to oneself.",
+  "Rosmarintee": "Rosemary is an invigorating, strengthening herb that stimulates circulation and mind. Its aromatic scent awakens, promotes concentration and gives fresh drive. Traditionally used for tiredness, exhaustion and lack of motivation. For the Three, who runs under high pressure and easily overextends, it gives clear, sustained energy. So a rosemary tea supports invigorating force that comes from freshness rather than pressure.",
+  "Weidenröschentee": "Willowherb is a mild, balancing herb with a soothing effect on the mood. It is regarded as a gentle companion in phases of inner unrest and emotional ups and downs. Traditionally drunk for calming and harmonising. For the Four, who lives through strong feelings and longing, it gives a quiet ground. So a willowherb tea helps to find still balance in the waves of feeling.",
+  "Haferkrauttee": "Oat straw is a classic nerve-strengthening and restorative herb, especially in exhaustion. It nourishes and gently strengthens the nerves and gives new inner substance. Traditionally used for nervous weakness and depletion. For the Five, who experiences her strength as scarce and quickly feels drained, it builds her up. So an oat straw tea helps to replenish one's own reserves and enter contact with renewed strength.",
+  "Kamillenblütentee": "Chamomile is one of the most tried and tested healing herbs — calming, antispasmodic and soothing. It soothes nerves, stomach and mood and gives a feeling of safety and warmth. Traditionally drunk for restlessness, tension and anxiety. For the Six, who lives with vigilance and doubt, it works like a warm, safe wrap. So a chamomile flower tea helps to calm the inner state of alarm and build trust.",
+  "Pfefferminztee": "Peppermint is a refreshing, clarifying herb that stimulates mind and digestion. Its cool scent invigorates, creates clarity and dissolves what is heavy and sluggish. Traditionally drunk for fullness, tiredness and mental refreshment. For the Seven, whose mind leaps from stimulus to stimulus, it can simultaneously clarify and collect. So a peppermint tea helps to refresh the overflowing mind and focus on what matters.",
+  "Ingwertee": "Ginger is a warming, powerfully stimulating root that promotes circulation and life-fire. Its sharp, spicy character awakens energy, drive and inner warmth. Traditionally used for strengthening, warming and invigorating. For the Eight, who is full of strength and protective impulse, its warm, clear energy suits her well. So a ginger tea helps to connect strong force with warmth rather than hardness.",
+  "Fencheltee": "Fennel is a mild, relaxing and balancing herb with a soothing effect. It calms gently and harmonises without dampening. Traditionally drunk for restlessness and to soothe the abdomen. For the Nine, who seeks harmony and quiet, it is a familiar companion — with the reminder that calm need not tip into inertia. So a fennel tea helps to find a relaxed composure that remains awake and present.",
+};
+
+const OILS_EN = {
+  1: { name: "Mandarin", wirkung: "Allows lightness and imperfect cheerfulness.", image: "../assets/heilmittel/aetherische-oele/typ-1.jpg", vertiefung: "Precisely where the One is driven to be untouchable and flawless, mandarin's warm, sunny scent — one of the most carefree aromas in aromatherapy — eases the inward-directed strictness. It relaxes the rigid sense of duty and opens a space where lightness is once again permitted. Where the demand to be error-free rules, mandarin reminds the organism that joy and play are not failure — but healing." },
+  2: { name: "Palmarosa", wirkung: "Nourishes self-love and gives healthy boundaries.", image: "../assets/heilmittel/aetherische-oele/typ-2.jpg", vertiefung: "The Two believes deep down that she is loveable only through usefulness, and gives herself up in order to be needed. Palmarosa, a rose-like grass, is regarded as a great oil of heart care — it nourishes on all levels and turns love back towards oneself. So devotion need no longer be earned through service — it may flow from one's own source. Palmarosa also strengthens the ability for healthy boundaries, so the Two can give without losing herself. 'I am worthless without usefulness' becomes a quiet 'I am loveable, simply because I am'." },
+  3: { name: "Marjoram", wirkung: "Gently forces the system into stillness and takes the edge off fear of failure.", image: "../assets/heilmittel/aetherische-oele/typ-3.jpg", vertiefung: "The Three runs at full speed — stillness feels like failure, and self-worth seems to hang on performance alone. Marjoram is one of the most powerfully calming oils in aromatherapy: it speaks to the parasympathetic nervous system, dials down the driven tempo and quietens the inner taskmaster. Where the Three can otherwise only exist through doing, marjoram gives the experience of being valuable even in stillness. It takes the sharpness from the fear of failure and allows the organism to finally let go. So it becomes physically perceptible: you need not achieve anything to be enough." },
+  4: { name: "Swiss Stone Pine", wirkung: "Gives simple groundedness and a feeling of belonging.", image: "../assets/heilmittel/aetherische-oele/typ-4.jpg", vertiefung: "The Four feels different, alien, never quite belonging — a quiet longing for home accompanies her. The Swiss stone pine, 'queen of the Alps', emanates an earthy-warm forest scent that measurably calms and can even lower heart rate during sleep. It gives simple groundedness and the physical feeling of being held and in the right place. Where the Four loses herself in the special and the missing, the stone pine gently returns her to the simple present. 'I don't belong' becomes a grounded 'I am at home in myself'." },
+  5: { name: "Sweet Orange", wirkung: "Melts cool isolation with warmth of heart.", image: "../assets/heilmittel/aetherische-oele/typ-5.jpg", vertiefung: "The Five withdraws to protect her scarce strength — closeness quickly feels like a draining of one's own reserves. Sweet orange is a deeply heart-opening, sociable oil: warm, sunny, care-dissolving. It melts the cool isolation and makes contact feel nourishing rather than threatening. Where the Five's mind stays at a distance, the orange invites the heart to warm and open carefully. So 'the world drains me' transforms into the experience that connection can also fill and enliven." },
+  6: { name: "Cedarwood", wirkung: "Gives an energetic backbone and basic trust.", image: "../assets/heilmittel/aetherische-oele/typ-6.jpg", vertiefung: "The Six lives with the basic feeling that there is no reliable support, and constantly seeks security outside. Cedarwood is a strengthening, stabilising oil — it works like an upright inner backbone. Its deep, spicy wood scent grounds, calms anxiety and nourishes courage and basic trust. Where the Six doubts and constantly safeguards herself, cedarwood gives the experience of an inner groundedness that does not depend on guarantees. So security may grow from within, instead of being laboriously sought from outside." },
+  7: { name: "Vetiver", wirkung: "Radical grounding that stops the upward flight.", image: "../assets/heilmittel/aetherische-oele/typ-7.jpg", vertiefung: "The Seven flees from pain upward — into plans, anticipation and possibilities — from the deep fear that suffering might destroy her. Vetiver is regarded as the 'oil of calm' and is one of the most powerfully grounding aromas: heavy, dark, root-deep. It anchors the restless mind in the body and stops the constant flight into the future. Where the Seven leaps over every pain, vetiver holds her gently in the present — even in the uncomfortable, which thereby becomes bearable and transformable. So radical grounding arises instead of restless distraction." },
+  8: { name: "Fine Lavender", wirkung: "Releases battle-tension and allows gentleness and softness.", image: "../assets/heilmittel/aetherische-oele/typ-8.jpg", vertiefung: "The Eight armours herself against any weakness, for vulnerability appears to her like an invitation to destruction — so control and hardness prevail. Fine lavender is the great oil of gentleness: it relaxes deeply, releases tension and calms the overstimulated nervous system. Precisely the battle-tension with which the Eight constantly stands ready may finally ease under its scent. Where strength has only been known as hardness, lavender allows mildness, softness and the capacity to be touched — without these feeling dangerous. So the Eight discovers: softness is not defeat, but another form of strength." },
+  9: { name: "Grapefruit", wirkung: "The bittersweet wake-up call for willpower and presence.", image: "../assets/heilmittel/aetherische-oele/typ-9.jpg", vertiefung: "The Nine forgets herself, merges with others and easily sleeps through her own significance — 'I play no role anyway'. Grapefruit is bitter-fresh, clarifying and activating; it lifts inertia and awakens the will. Its sparkling scent works like a friendly but clear wake-up call that brings the Nine out of inner twilight. Where self-forgetting prevails, grapefruit sharpens the sense of one's own presence and willpower. So the Nine steps perceptibly into the picture: I am here, and I matter." },
+};
+
 function heilmittelSection(h, oel, code) {
   const w = text.knowledgeCard.heilmittel;
+  const enName = (v) => GERMAN_REMEDY_NAMES_EN[v] || v;
+  const enDesc = (v) => REMEDY_GLOSSARY_EN[v] || null;
   const row = (label, value) => {
-    const meaning = value && remedyGlossary[value] ? `<small class="remedy-row__meaning">${remedyGlossary[value]}</small>` : "";
-    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${value ? "" : " remedy-row__value--empty"}">${value || w.pending}${meaning}</span></li>`;
+    const displayValue = enName(value || "");
+    const meaning = displayValue && enDesc(value) ? `<small class="remedy-row__meaning">${enDesc(value)}</small>` : "";
+    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${displayValue ? "" : " remedy-row__value--empty"}">${displayValue || w.pending}${meaning}</span></li>`;
   };
   const passion = h.leidenschaft || {};
   const wound = h.wunde || {};
   const seite4 = code ? `${CDN}assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
+  const typeKey = code ? PAGE4_TYPE_MAP[(code).toLowerCase()] : null;
+  const enData = typeKey ? PAGE4_SUMMARY_EN[typeKey] : null;
+  const passionTheme = enData ? `${enData.passion.theme} ${enData.passion.effect}` : (h.homoeopathieThema ? `${h.homoeopathieThema} ${h.homoeopathieWirkung || ""}` : "");
+  const woundTheme = enData ? `${enData.wound.theme} ${enData.wound.effect}` : (h.wundeThema ? `${h.wundeThema} ${h.wundeWirkung || ""}` : "");
+  const typeNum = code ? parseInt(String(code).replace(/\D/g, ""), 10) : null;
+  const oilEN = typeNum && OILS_EN[typeNum] ? OILS_EN[typeNum] : null;
   return `
     <div class="knowledge-section heilmittel-box">
       <strong>${w.title}</strong>
       ${seite4 ? `
       <figure class="vollseite-karte">
         <p class="vollseite-karte__hint">Tap to enlarge</p>
-        <img src="${seite4}" alt="Remedies-Kompass Übersicht" class="vollseite-karte__img" loading="lazy"
+        <img src="${seite4}" alt="Remedies Compass Overview" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
-        <figcaption class="vollseite-karte__titel">Seite 4 · Remedies-Kompass</figcaption>
+        <figcaption class="vollseite-karte__titel">Page 4 · Remedies Compass</figcaption>
       </figure>` : ""}
+      ${page4SummaryBlock(code)}
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--passion">${w.leidenschaftTitle}</span>
         <ul class="remedy-list">
@@ -6691,11 +7502,7 @@ function heilmittelSection(h, oel, code) {
           ${row(w.edelstein, passion.edelstein)}
           ${row(w.tee, passion.tee)}
         </ul>
-        ${
-          h.homoeopathieThema
-            ? `<p class="remedy-theme"><strong>${passion.homoeopathie || w.homoeopathie}:</strong> ${h.homoeopathieThema} ${h.homoeopathieWirkung || ""}</p>`
-            : ""
-        }
+        ${passionTheme ? `<p class="remedy-theme"><strong>${enName(passion.homoeopathie) || w.homoeopathie}:</strong> ${passionTheme}</p>` : ""}
       </div>
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--wound">${w.wundeTitle}</span>
@@ -6704,19 +7511,16 @@ function heilmittelSection(h, oel, code) {
           ${row(w.schuessler, wound.schuessler)}
           ${row(w.bachbluete, wound.bachbluete)}
         </ul>
+        ${woundTheme ? `<p class="remedy-theme"><strong>${enName(wound.homoeopathie) || w.homoeopathie}:</strong> ${woundTheme}</p>` : ""}
         ${
-          h.wundeThema
-            ? `<p class="remedy-theme"><strong>${wound.homoeopathie || w.homoeopathie}:</strong> ${h.wundeThema} ${h.wundeWirkung || ""}</p>`
-            : ""
-        }
-        ${
-          oel
+          oilEN
             ? `<div class="remedy-oil">
-                 <div class="remedy-oil__image"><img src="${oel.image}" alt="${oel.name}" loading="lazy" /></div>
+                 <div class="remedy-oil__image"><img src="${oilEN.image}" alt="${oilEN.name}" loading="lazy" /></div>
                  <div class="remedy-oil__body">
                    <span class="remedy-oil__label">${w.aetherischesOel}</span>
-                   <strong>${oel.name}</strong>
-                   <p>${oel.wirkung}</p>
+                   <strong>${oilEN.name}</strong>
+                   <p>${oilEN.wirkung}</p>
+                   ${oilEN.vertiefung ? `<p class="remedy-oil__vertiefung" style="margin-top:.5rem;font-size:.88rem;line-height:1.65;">${oilEN.vertiefung}</p>` : ""}
                  </div>
                </div>`
             : ""
@@ -6724,14 +7528,10 @@ function heilmittelSection(h, oel, code) {
       </div>
       <p class="remedy-note">${w.note}</p>
       <p class="remedy-note remedy-note--individual">${w.individualNote}</p>
-      ${
-        h.needsReview && h.needsReview.length
-          ? `<div class="wound-review">${h.needsReview.map((e) => `<p>${e}</p>`).join("")}</div>`
-          : ""
-      }
     </div>
   `;
 }
+
 
 
 function page1SummaryBlock(code) {
@@ -6745,17 +7545,17 @@ function page1SummaryBlock(code) {
       <p class="page1-summary__identities">${d.identities}</p>
       <p class="page1-summary__statement"><em>"${d.coreStatement}"</em></p>
       <div class="room-field"><strong>Organism Question</strong><p><em>${d.organismQuestion}</em></p></div>
-      <div class="room-field"><strong>Gaze Quality</strong>${ul(d.gazeQuality)}</div>
-      <div class="room-field"><strong>Micro-Tension</strong>${ul(d.microTension)}</div>
-      <div class="room-field"><strong>Breathing Rhythm</strong>${ul(d.breathingRhythm)}</div>
-      <div class="room-field"><strong>Movement Initiation</strong>${ul(d.movementInitiation)}</div>
-      <div class="room-field"><strong>Contact Style</strong>${ul(d.contactStyle)}</div>
-      <div class="room-field"><strong>Tension Distribution</strong><p>${d.tensionDistribution}</p></div>
-      <div class="room-field"><strong>Embodied Signature</strong>${ul(d.embodiedSignature)}</div>
-      <div class="room-field"><strong>Core Tension</strong><p>${d.coreTension}</p></div>
-      <div class="room-field"><strong>Integration Path</strong><p>${d.integrationPath}</p></div>
-      <div class="room-field"><strong>Animal: ${d.animal.name}</strong><p>${d.animal.description}</p></div>
-      <div class="room-field"><strong>Resource Field</strong>${ul(d.resourceField)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Gaze Quality</strong>${ul(d.gazeQuality)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Micro-Tension</strong>${ul(d.microTension)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Breathing Rhythm</strong>${ul(d.breathingRhythm)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Movement Initiation</strong>${ul(d.movementInitiation)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Contact Style</strong>${ul(d.contactStyle)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Tension Distribution</strong><p>${d.tensionDistribution}</p></div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Embodied Signature</strong>${ul(d.embodiedSignature)}</div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Core Tension</strong><p>${d.coreTension}</p></div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Integration Path</strong><p>${d.integrationPath}</p></div>
+      <div class="room-field" style="padding-top:.8rem;"><p style="margin:0 0 .3rem;font-weight:700;">Animal: ${d.animal.name}</p><p style="margin:0 0 .8rem;">${d.animal.description}</p></div>
+      <div class="room-field" style="padding-top:.8rem;"><strong>Resource Field</strong>${ul(d.resourceField)}</div>
       <div class="room-field page1-summary__footer"><span>${d.energeticTemp}</span> &nbsp;·&nbsp; <span>${d.attention}</span> &nbsp;·&nbsp; <span>${d.lifeFocus}</span></div>
     </div>
   `;
@@ -6915,8 +7715,8 @@ function mediaGroupSection(groups) {
       ${groups.map((group) => `
         <div class="media-group">
           <div class="media-group__head">
-            <h3>${group.title}</h3>
-            <p>${group.note}</p>
+            <h3>${translateGroupTitle(group.title)}</h3>
+            <p>${translateGroupNote(group.note)}</p>
           </div>
           <div class="media-grid">
             ${group.resources.map(mediaTile).join("")}
@@ -6943,14 +7743,14 @@ function mediaTile(resource) {
   return `
     <div class="media-tile ${resource.pending ? "media-tile--pending" : ""}">
       <div class="media-meta">
-        <span>${resource.category} · ${resource.scope}</span>
-        <strong>${resource.title}</strong>
+        <span>${(MEDIA_CATEGORY_EN[resource.category]||resource.category)} · ${translateScope(resource.scope)}</span>
+        <strong>${translateMediaTitle(resource.title)}</strong>
       </div>
       ${embedSrc ? `
         <div class="youtube-embed">
           <iframe
             src="${embedSrc}"
-            title="${resource.title}"
+            title="${translateMediaTitle(resource.title)}"
             loading="lazy"
             referrerpolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -39726,7 +40526,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v554';
+  const MY_VERSION = 'inhalt-v568';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

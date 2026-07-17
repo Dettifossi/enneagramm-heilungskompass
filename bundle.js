@@ -2270,6 +2270,7 @@ function kindheitPage() {
           ${kindheitstraumata.map(kindheitCard).join("")}
         </div>
         <p class="remedy-note">Diese Geschichten beschreiben archetypische Muster. Das individuelle Erleben eines Menschen ist immer vielschichtiger als das Typusmuster &ndash; die Arbeit mit den eigenen Kindheitstraumata erfordert professionelle therapeutische Begleitung.</p>
+        <p class="remedy-note" style="margin-top:1rem;"><strong>Quellenhinweis:</strong> Die Beschreibungen der Kindheitsmuster basieren auf den Inhalten und Online-Seminaren von Dr. Beatrice Chestnut (Chestnut Paes Enneagram Academy) und wurden aus den Seminaraufzeichnungen rekonstruiert. Weiterführende Informationen finden Sie unter <a href="https://cpea.enneagramacademy.com" target="_blank" rel="noopener">cpea.enneagramacademy.com</a>.</p>
       </article>
     </section>
   `);
@@ -37030,7 +37031,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v571';
+  const MY_VERSION = 'inhalt-v572';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
