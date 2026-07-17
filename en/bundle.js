@@ -2360,27 +2360,43 @@ function tcmForType(code) {
   return tcmData.find((t) => t.typ === num) || null;
 }
 
+const TCM_TYPE_NAMES_EN = {
+  1: "The Perfectionist", 2: "The Helper", 3: "The Performer",
+  4: "The Individualist", 5: "The Observer", 6: "The Loyalist",
+  7: "The Enthusiast", 8: "The Challenger", 9: "The Peacemaker"
+};
 function tcmCard(tcm) {
   const c = text.routes.tcm;
+  const en = TCM_EN[tcm.typ] || {};
+  const typLabelEN = `Type ${tcm.typ} · ${TCM_TYPE_NAMES_EN[tcm.typ] || ""}`;
+  const meridian   = en.meridian    || tcm.meridian;
+  const element    = en.element     || tcm.element;
+  const organzeit  = en.organzeit   || tcm.organzeit;
+  const polaritaet = en.polaritaet  || tcm.polaritaet;
+  const leitorgan  = en.leitorgan   || tcm.leitorgan;
+  const symptom    = en.symptom     || tcm.symptom;
+  const ausgleich  = en.ausgleich   || tcm.ausgleich;
+  const empfehlung = en.empfehlung  || tcm.empfehlung;
+  const tagesplan  = en.tagesplan   || tcm.tagesplan;
   return `
     <article class="tcm-card" style="--tcm-element-color:${tcm.elementFarbe}">
       <div class="tcm-card__header">
-        <span class="tcm-card__type">${tcm.typLabel}</span>
-        <button class="tcm-card__element-badge" data-tcm-element="${tcm.element}" title="More on the ${tcm.element} element">${tcm.element} ↗</button>
+        <span class="tcm-card__type">${typLabelEN}</span>
+        <button class="tcm-card__element-badge" data-tcm-element="${element}" title="More on the ${element} element">${element} ↗</button>
       </div>
-      <h3 class="tcm-card__meridian">${tcm.meridian}</h3>
+      <h3 class="tcm-card__meridian">${meridian}</h3>
       <div class="tcm-card__meta">
-        <span class="tcm-card__organzeit">⏱ ${tcm.organzeit}</span>
-        <span class="tcm-card__polaritaet">${tcm.polaritaet} · ${tcm.leitorgan}</span>
+        <span class="tcm-card__organzeit">⏱ ${organzeit}</span>
+        <span class="tcm-card__polaritaet">${polaritaet} · ${leitorgan}</span>
       </div>
-      <p class="tcm-card__symptom">${tcm.symptom}</p>
-      <p class="tcm-card__ausgleich"><strong>${c.ausgleichLabel}:</strong> ${tcm.ausgleich}</p>
+      <p class="tcm-card__symptom">${symptom}</p>
+      <p class="tcm-card__ausgleich"><strong>${c.ausgleichLabel}:</strong> ${ausgleich}</p>
       <div class="tcm-card__details">
         <h4>${c.empfehlungLabel}</h4>
-        <ul>${tcm.empfehlung.map((e) => `<li>${e}</li>`).join("")}</ul>
+        <ul>${empfehlung.map((e) => `<li>${e}</li>`).join("")}</ul>
         <h4>${c.tagesplanLabel}</h4>
         <ol class="tcm-tagesplan">
-          ${tcm.tagesplan.map((s) => `<li><span class="tcm-tagesplan__time">${s.uhrzeit}</span><span class="tcm-tagesplan__label">${s.label}</span><span class="tcm-tagesplan__text">${s.text}</span></li>`).join("")}
+          ${tagesplan.map((s) => `<li><span class="tcm-tagesplan__time">${s.uhrzeit}</span><span class="tcm-tagesplan__label">${s.label}</span><span class="tcm-tagesplan__text">${s.text}</span></li>`).join("")}
         </ol>
       </div>
     </article>
@@ -40544,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v572';
+  const MY_VERSION = 'inhalt-v573';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
