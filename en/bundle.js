@@ -6686,7 +6686,7 @@ function subtypePage(code) {
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">
-      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `The complete individual study on ${enCode(entry.code)} &ndash; ${entry.title}. Approx. 70 pages of in-depth psychological analysis.`, `Individual Study ${enCode(entry.code)}: ${entry.title_en || entry.title}`)}
+      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `The complete individual study on ${enCode(entry.code)} &ndash; ${entry.title}. Approx. 70 pages of in-depth psychological analysis.`, `Einzelstudie ${entry.code.toUpperCase()}: ${entry.title}`)}
     </section>
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
@@ -40527,7 +40527,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v570';
+  const MY_VERSION = 'inhalt-v571';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
