@@ -3660,7 +3660,7 @@ function subtypePage(code) {
       <h1 style="color:${tc}">${entry.title_en || entry.title}</h1>
       <p class="lead-small">${entry.coreSentence_en || entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
-           data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
+           data-comic-open="${code.toLowerCase()}" title="Tap to zoom in">
         <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
              alt="Comic: ${enCode(entry.code)} &ndash; ${entry.title_en || entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
@@ -7306,8 +7306,8 @@ function beziehungenPage() {
         </div>`).join("")}
       </div>
 
-      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Die 27 Subtypees &ndash; Nähe & Intimität</h2>
-      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Wie der Instinkt (SE · SO · SX) die Art prägt, wie ein Typ Nähe erlebt und ausdrückt.</p>
+      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">The 27 Subtypes &ndash; Closeness &amp; Intimacy</h2>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">How the instinct (SP · SO · SX) shapes the way a type experiences and expresses closeness.</p>
       <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem;">
         ${subtypes.map(s => `
         <div style="background:color-mix(in srgb, ${TYPE_COLORS[parseInt(s.code.slice(-1))]||'var(--copper)'} 10%, var(--paper)); border:1.5px solid ${TYPE_COLORS[parseInt(s.code.slice(-1))]||'var(--copper)'}40; border-radius:0.4rem; padding:0.6rem 0.75rem; font-size:0.82rem;">
@@ -7316,13 +7316,13 @@ function beziehungenPage() {
         </div>`).join("")}
       </div>
 
-      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">27 Comics: Spiegel menschlicher Eigenarten</h2>
-      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">In den Bildern schimmern die tiefen Wünsche, Ängste und Fluchten der 27 Subtypees durch &ndash; manchmal zart, manchmal drastisch. Klicke auf einen Comic, um ihn zu vergrößern.</p>
+      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">27 Comics: Mirror of Human Patterns</h2>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">The images reflect the deep desires, fears, and escapes of the 27 subtypes &ndash; sometimes tender, sometimes stark. Tap a comic to zoom in.</p>
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; margin-bottom:2rem;">
         ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
         <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
              data-comic-open="${code.toLowerCase()}"
-             title="${code} &ndash; antippen zum Vergrößern">
+             title="${code} &ndash; tap to zoom in">
           <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
                alt="Comic ${code}"
                style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
@@ -7330,8 +7330,8 @@ function beziehungenPage() {
         </div>`).join("")}
       </div>
 
-      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Paarungen-Kompass: Wie passen zwei Subtypees zusammen?</h2>
-      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Wähle deinen Subtype &ndash; und sieh auf einen Blick, wie du mit allen anderen 26 Subtypees harmonierst, wo Reibung entsteht und was du voneinander lernen kannst.</p>
+      <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Pairing Compass: How do two subtypes fit together?</h2>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">Choose your subtype &ndash; and see at a glance how you harmonise with all 26 other subtypes, where friction arises, and what you can learn from each other.</p>
 
       <div style="display:grid; grid-template-columns:repeat(9, 1fr); gap:0.3rem; margin-bottom:1.5rem;">
         ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => `
@@ -7387,7 +7387,7 @@ function beziehungenPage() {
             </div>`;
           }).join("")}
         </div>`;
-      })() : `<div style="text-align:center; padding:2rem; color:var(--muted); font-size:0.9rem; border:2px dashed var(--line); border-radius:0.5rem;">Wähle oben einen Subtype, um alle Paarungen zu sehen.</div>`}
+      })() : `<div style="text-align:center; padding:2rem; color:var(--muted); font-size:0.9rem; border:2px dashed var(--line); border-radius:0.5rem;">Choose a subtype above to see all pairings.</div>`}
 
       </div>
 
@@ -37207,7 +37207,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v548';
+  const MY_VERSION = 'inhalt-v549';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
