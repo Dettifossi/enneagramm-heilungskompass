@@ -39337,22 +39337,22 @@ function _stilleInit() {
 
 function musikPage() {
   const TYPEN = [
-    { nr: 1, name: "Der Reformer",    tier: "Lippizaner",  vid: "mumR1QESNzQ" },
-    { nr: 2, name: "Der Helfer",      tier: "Arabisches Vollblut", vid: "6nCg7G-91Lc" },
-    { nr: 3, name: "Der Macher",      tier: "Lachs",       vid: "8SmbE-4Za_k" },
-    { nr: 4, name: "Der Individualist", tier: "Blaue Elster", vid: "R09IW7vjcxQ" },
-    { nr: 5, name: "Der Beobachter",  tier: "Mustang",     vid: "rzkLF6KDCFw" },
-    { nr: 6, name: "Der Loyale",      tier: "Schäferhund", vid: "rIfT6OQgOAU" },
-    { nr: 7, name: "Der Enthusiast",  tier: "Lippenbaer",  vid: "BVYOCZ6xMlA" },
-    { nr: 8, name: "Der Herausforderer", tier: "Löwe",     vid: "afuljgIKAOU" },
-    { nr: 9, name: "Der Friedensstifter", tier: "Elefant", vid: "prWKIp0Voq8" },
+    { nr: 1, name: "The Perfectionist",  vid: "mumR1QESNzQ" },
+    { nr: 2, name: "The Helper",         vid: "6nCg7G-91Lc" },
+    { nr: 3, name: "The Performer",      vid: "8SmbE-4Za_k" },
+    { nr: 4, name: "The Individualist",  vid: "R09IW7vjcxQ" },
+    { nr: 5, name: "The Observer",       vid: "rzkLF6KDCFw" },
+    { nr: 6, name: "The Loyalist",       vid: "rIfT6OQgOAU" },
+    { nr: 7, name: "The Enthusiast",     vid: "BVYOCZ6xMlA" },
+    { nr: 8, name: "The Protector",      vid: "afuljgIKAOU" },
+    { nr: 9, name: "The Peacemaker",     vid: "prWKIp0Voq8" },
   ];
 
   const kacheln = TYPEN.map(t => `
     <div class="musik-card" data-vid="${t.vid}" style="background:var(--paper);border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:0 1px 6px rgba(0,0,0,0.08);transition:box-shadow 0.2s;">
       <div class="musik-thumb" style="position:relative;background:#111;aspect-ratio:16/9;">
         <img src="https://img.youtube.com/vi/${t.vid}/mqdefault.jpg"
-             alt="Entspannungs- und Heilungsmusik Typ ${t.nr}"
+             alt="Relaxation and Healing Music Type ${t.nr}"
              style="width:100%;height:100%;object-fit:cover;display:block;opacity:0.85;" loading="lazy"/>
         <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
           <div style="width:52px;height:52px;border-radius:50%;background:rgba(165,96,61,0.88);display:flex;align-items:center;justify-content:center;">
@@ -39361,9 +39361,9 @@ function musikPage() {
         </div>
       </div>
       <div style="padding:0.85rem 1rem 1rem;">
-        <p style="margin:0 0 0.2rem;font-size:0.75rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.1em;">Typ ${t.nr}</p>
+        <p style="margin:0 0 0.2rem;font-size:0.75rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.1em;">Type ${t.nr}</p>
         <h3 style="margin:0;font-size:1.05rem;line-height:1.3;">${t.name}</h3>
-        <p style="margin:0.35rem 0 0;font-size:0.82rem;color:var(--ink-muted);">ca. 1 Std. 20 Min. · YouTube</p>
+        <p style="margin:0.35rem 0 0;font-size:0.82rem;color:var(--ink-muted);">approx. 1 hr 20 min · YouTube</p>
       </div>
       <div class="musik-player" style="display:none;">
         <div style="position:relative;aspect-ratio:16/9;background:#000;">
@@ -39378,41 +39378,41 @@ function musikPage() {
   return shell(`
     ${pageHeader("musik")}
     <section class="narrow" style="padding-bottom:3rem;">
-      <p class="eyebrow">Praxis · Klang · Kontemplation</p>
-      <h1 style="margin-bottom:0.3rem;">Entspannungs- und Heilungsmusik</h1>
+      <p class="eyebrow">Practice · Sound · Contemplation</p>
+      <h1 style="margin-bottom:0.3rem;">Relaxation and Healing Music</h1>
 
       <div style="max-width:520px;margin-bottom:1.8rem;">
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 0.9rem;">
-          Neun vollständige Alben — eines für jeden Enneagrammtyp. Jedes Album umfasst 25 Titel und begleitet dich ca. 1 Stunde 20 Minuten. Die Musik ist nicht nur angenehm im Hintergrund: sie wurde bewusst so komponiert, dass Herzrhythmus, Atemfrequenz und das vegetative Nervensystem in einen Zustand tiefer Entspannung finden.
+          Nine complete albums — one for each Enneagram type. Each album contains 25 tracks and accompanies you for approximately 1 hour 20 minutes. The music is not merely pleasant background sound: it was consciously composed so that heart rate, breathing rhythm and the autonomic nervous system can find their way into a state of deep relaxation.
         </p>
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 0.9rem;">
-          Eingearbeitet sind Techniken wie <strong>binaurale Beats</strong> und <strong>Neuro-Entrainment</strong> — sanfte Frequenzmuster, die das Gehirn einladen, von Alltagsaktivität in tiefere Entspannungszustände (Alpha- und Theta-Wellen) zu gleiten. Das geschieht unmerklich, ohne dass man es bewusst steuern muss.
+          Integrated are techniques such as <strong>binaural beats</strong> and <strong>neuro-entrainment</strong> — gentle frequency patterns that invite the brain to slide from everyday activity into deeper states of relaxation (alpha and theta waves). This happens imperceptibly, without any conscious effort on your part.
         </p>
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 0.9rem;">
-          Jedes Album ist auf die seelische Qualität seines Enneagrammtyps abgestimmt: Tempo, Tonart, Klangtextur und Dynamik folgen dem inneren Rhythmus des jeweiligen Typs. So wird Musik zur Brücke — zwischen dem Muster, das uns formt, und dem stillen Raum dahinter.
+          Each album is attuned to the soul quality of its Enneagram type: tempo, key, sound texture and dynamics follow the inner rhythm of that type. Music becomes a bridge — between the pattern that shapes us and the silent space behind it.
         </p>
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0;">
-          Wer keine klassische Stille-Praxis mag, findet hier eine echte Alternative: Handy zur Seite legen, Kopfhörer auf, Augen schließen — und einfach ankommen.
+          If a classic silence practice is not for you, this is a genuine alternative: phone aside, headphones on, eyes closed — and simply arrive.
         </p>
       </div>
 
       <p style="font-size:0.82rem;color:var(--ink-muted);margin-bottom:2rem;">
-        Die Alben laufen auf YouTube. Ein Tipp auf das Thumbnail öffnet den Player direkt hier.
+        The albums play on YouTube. Tap a thumbnail to open the player directly here.
       </p>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
       </div>
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag — der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
-      ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen — Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt — ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"stille",label:"9 Minuten Stille"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"}])}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual steps for the art of everyday living — the ideal companion to the relaxation and healing music.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
+      ${bookTip("nichts-und-alles", "A quiet book on looking inward — consciousness, space and inner freedom.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Beyond all patterns: the silent space that remains when identification loosens — a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums by Detlef Rathmer"},{route:"stille",label:"9 Minutes of Silence"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagram Albums"}])}
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
-        <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Lieber in absoluter Stille?</p>
-        <p style="margin:0 0 0.9rem;font-size:0.95rem;line-height:1.65;color:var(--ink);">Nach dieser tiefen Klangreise gönnen Sie sich vielleicht die absolute Stille — neun Minuten für jeden Enneagrammtyp, eröffnet und beschlossen von einem Gong.</p>
+        <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Prefer absolute silence?</p>
+        <p style="margin:0 0 0.9rem;font-size:0.95rem;line-height:1.65;color:var(--ink);">After this deep sound journey, perhaps treat yourself to absolute silence — nine minutes for each Enneagram type, opened and closed by a gong.</p>
         <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
-          <button class="secondary" data-route="stille" style="font-size:0.9rem;">⏱ Zur 9-Minuten-Stille →</button>
-          <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">🎧 Die 9 Solfeggio-Frequenzen →</button>
+          <button class="secondary" data-route="stille" style="font-size:0.9rem;">⏱ 9 Minutes of Silence →</button>
+          <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">🎧 The 9 Solfeggio Frequencies →</button>
         </div>
       </div>
     </section>
@@ -40673,7 +40673,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v588';
+  const MY_VERSION = 'inhalt-v589';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
