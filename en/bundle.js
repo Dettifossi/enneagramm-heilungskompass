@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-16-oele-v2";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-17-en-titles-v1";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "../data/impulse.js?v=2";
 import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -1817,7 +1817,7 @@ function pathPage() {
     <section class="narrow centered">
       <p class="eyebrow">${p.code} · ${copy.suffix}</p>
       <h1>${copy.headline}</h1>
-      <p class="lead-small">${p.coreSentence}</p>
+      <p class="lead-small">${p.coreSentence_en || p.coreSentence}</p>
     </section>
     <section class="path-grid">
       ${listPanel(copy.pattern, p.pattern, "pattern")}
@@ -3472,12 +3472,12 @@ function subtypePage(code) {
     <section class="subtype-hero" style="border-top:4px solid ${tc}">
       <button class="ghost-link" data-route="knowledge">${sp.back}</button>
       <p class="eyebrow" style="color:${tc}">${entry.code} · ${text.knowledgeCard.animalPrefix} ${entry.animal}</p>
-      <h1 style="color:${tc}">${entry.title}</h1>
-      <p class="lead-small">${entry.coreSentence}</p>
+      <h1 style="color:${tc}">${entry.title_en || entry.title}</h1>
+      <p class="lead-small">${entry.coreSentence_en || entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
            data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
         <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
-             alt="Comic: ${enCode(entry.code)} &ndash; ${entry.title}"
+             alt="Comic: ${enCode(entry.code)} &ndash; ${entry.title_en || entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
       <button class="ghost-link" data-tier-laut="${entry.animal}"
@@ -3506,7 +3506,7 @@ function subtypePage(code) {
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">
-      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `The complete individual study on ${enCode(entry.code)} &ndash; ${entry.title}. Approx. 70 pages of in-depth psychological analysis.`, `Individual Study ${enCode(entry.code)}: ${entry.title}`)}
+      ${bookTip(`einzelstudie-${code.toLowerCase()}`, `The complete individual study on ${enCode(entry.code)} &ndash; ${entry.title}. Approx. 70 pages of in-depth psychological analysis.`, `Individual Study ${enCode(entry.code)}: ${entry.title_en || entry.title}`)}
     </section>
     ${querverbindungen(entry)}
     <section class="narrow" style="padding:0 0 0.5rem;">
@@ -3674,7 +3674,7 @@ function verstehenInner(entry, sp) {
   if (entry.lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${entry.lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.unconsciousStrategy && entry.unconsciousStrategy.length) blocks.push(`<div class="room-field"><strong>${sp.unconsciousStrategy || "Unbewusste Strategie"}</strong><ul>${entry.unconsciousStrategy.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${entry.organismQuestion}</p></div>`);
-  if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence}</p></div>`);
+  if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence_en || entry.coreSentence}</p></div>`);
   if (entry.integrationSentence) blocks.push(`<div class="room-field room-field--quote"><strong>${sp.integrationSentence || "Leitsatz der Integration"}</strong><blockquote>${entry.integrationSentence}</blockquote></div>`);
   if (entry.integrationPath && entry.integrationPath.length) blocks.push(`<div class="room-field"><strong>${sp.integrationPath || "Integrationsweg"}</strong><ul>${entry.integrationPath.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.integratedState && entry.integratedState.length) blocks.push(`<div class="room-field"><strong>${sp.integratedState || "Integrierter Zustand"}</strong><ul>${entry.integratedState.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
@@ -3932,7 +3932,7 @@ function knowledgeCard(item) {
       </div>
       <div class="knowledge-section">
         <strong>${labels.coreSentence}</strong>
-        <p>${item.coreSentence}</p>
+        <p>${item.coreSentence_en || item.coreSentence}</p>
       </div>
       <div class="knowledge-section">
         <strong>${labels.lifeTheme}</strong>
@@ -32720,8 +32720,8 @@ function subtypeChartsPage() {
       </section>
       <section class="narrow centered" style="padding:.75rem 1rem 1rem;">
         <p class="eyebrow" style="color:${tc}">${entry.code}</p>
-        <h1 style="color:${tc};font-size:1.8rem;">${entry.title}</h1>
-        <p class="lead-small">${entry.coreSentence || ""}</p>
+        <h1 style="color:${tc};font-size:1.8rem;">${entry.title_en || entry.title}</h1>
+        <p class="lead-small">${entry.coreSentence_en || entry.coreSentence || ""}</p>
       </section>
       <section class="narrow" style="padding:0 1rem 2rem;">
         ${pagesHtml}
@@ -36407,8 +36407,8 @@ function subtypeSchaubilderPage() {
       </section>
       <section class="narrow centered" style="padding:.75rem 1rem 1rem;">
         <p class="eyebrow" style="color:${tc}">${entry.code}</p>
-        <h1 style="color:${tc};font-size:1.8rem;">${entry.title}</h1>
-        <p class="lead-small">${entry.coreSentence || ""}</p>
+        <h1 style="color:${tc};font-size:1.8rem;">${entry.title_en || entry.title}</h1>
+        <p class="lead-small">${entry.coreSentence_en || entry.coreSentence || ""}</p>
       </section>
       <section class="narrow" style="padding:0 1rem 2rem;">
         ${pagesHtml}
@@ -37000,7 +37000,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v533';
+  const MY_VERSION = 'inhalt-v534';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

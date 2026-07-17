@@ -23,6 +23,9 @@ export const subtypeProfiles = {
       "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
     coreSentence:
       "Wenn du nicht kämpfen musst, um sicher zu sein, entsteht Mut und Vertrauen.",
+    title_en: "The Fighter",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you no longer have to fight to feel safe, courage and trust emerge naturally.",
     daily: {
       topic: "Vertrauen wächst im nächsten Schritt",
       impulse: [
@@ -208,6 +211,9 @@ export const subtypeProfiles = {
     focus: "Ordnung entsteht aus Präsenz, nicht aus Kontrolle.",
     organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
     coreSentence: "Wenn du Ordnung zulässt, ohne dich zu verhärten, entsteht innere Sicherheit und echte Stabilität.",
+    title_en: "The Perfectionist",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you no longer need everything to be perfect, life becomes lighter and more trustworthy.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -365,6 +371,9 @@ export const subtypeProfiles = {
     focus: "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.",
     organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
     coreSentence: "Wenn du Vorbild bist, ohne zu richten, entsteht Würde, Klarheit und natürliche Autorität.",
+    title_en: "The Principled One",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When your standards serve connection rather than judgment, your values become a gift to the world.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -522,6 +531,9 @@ export const subtypeProfiles = {
     focus: "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.",
     organismQuestion: "Wie kann ich richtig sein und Fehler vermeiden?",
     coreSentence: "Wenn du dein Feuer nicht bekämpfst, sondern bewusst führst, wird Leidenschaft klar und heilsam.",
+    title_en: "The Zealot",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When your fire fuels creation rather than correction, your passion becomes a transformative force.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -679,6 +691,9 @@ export const subtypeProfiles = {
     focus: "Ich bin eine Quelle der Fürsorge, die zuerst mich selbst nährt.",
     organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
     coreSentence: "Wenn du deine eigenen Bedürfnisse ernst nimmst, entsteht Nähe ohne Erwartung.",
+    title_en: "The Caretaker",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you allow yourself to receive care, you discover that your needs matter just as much as others'.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -836,6 +851,9 @@ export const subtypeProfiles = {
     focus: "Ich gebe aus Liebe – und empfange mit offenem Herzen.",
     organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
     coreSentence: "Wenn du nicht gebraucht werden musst, wird deine Liebe frei, großzügig und liebevoll.",
+    title_en: "The Helper",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When you give from fullness rather than need, your generosity becomes truly free.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -993,6 +1011,9 @@ export const subtypeProfiles = {
     focus: "Ich gebe mich ganz hin und empfange echte Verbindung.",
     organismQuestion: "Bin ich liebenswert, wenn ich für andere da bin?",
     coreSentence: "Wenn du Liebe nicht erobern musst, kann echte Verbundenheit dich wirklich erreichen.",
+    title_en: "The Passionate One",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you love without needing to be indispensable, your warmth becomes a gift rather than a claim.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -1150,6 +1171,9 @@ export const subtypeProfiles = {
     focus: "Ich passe mich an, ohne mich zu verlieren, und finde Halt in mir selbst.",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du aufhörst, nur zu funktionieren, erscheint dein Wert ohne Leistung und Anpassung.",
+    title_en: "The Pragmatist",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you no longer need achievement to feel worthy, your competence becomes effortless.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1307,6 +1331,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch …",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du nicht glänzen musst, wird deine Wirkung wahrhaftig, menschlich und stark.",
+    title_en: "The Achiever",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When your success serves the whole rather than your image, your effectiveness truly inspires.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1464,6 +1491,9 @@ export const subtypeProfiles = {
     focus: "Ich bin genug, auch wenn ich nicht performe – meine echte Ausstrahlung zieht an.",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du dich nicht inszenieren musst, entsteht echte Ausstrahlung aus innerem Wert.",
+    title_en: "The Radiant One",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you no longer need to perform to be seen, authentic charisma emerges from within.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1621,6 +1651,9 @@ export const subtypeProfiles = {
     focus: "Frieden entsteht, wenn du aufhörst, dich selbst zu verleugnen.",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du Schmerz nicht still beweisen musst, entsteht würdevolle Lebendigkeit und innere Kraft.",
+    title_en: "The Quiet Endurer",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you let your depth be seen without shame, your sensitivity becomes a source of strength.",
     daily: {
       topic: "Tiefe & Gefühl",
       impulse: [
@@ -1778,6 +1811,9 @@ export const subtypeProfiles = {
     focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte …",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du deinen Mangel nicht festhältst, entsteht Zugehörigkeit, Selbstannahme und stille Würde.",
+    title_en: "The Sufferer",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When you allow joy without guilt, your emotional depth opens into genuine connection.",
     daily: {
       topic: "Tiefe und Zugehörigkeit",
       impulse: [
@@ -1935,6 +1971,9 @@ export const subtypeProfiles = {
     focus: "Ich bin einzigartig – und genau darin liegt meine Verbindung zur Welt.",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du Intensität nicht erzwingen musst, wird Tiefe zu Liebe ohne Drama.",
+    title_en: "The Passionate Individualist",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When your longing becomes presence rather than pursuit, you find what you have always sought.",
     daily: {
       topic: "Intensität und emotionale Tiefe",
       impulse: [
@@ -2092,6 +2131,9 @@ export const subtypeProfiles = {
     focus: "Ich vertraue auf mein Wissen und wähle, was mir wirklich dient.",
     organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
     coreSentence: "Wenn du dem Leben wieder Zugang gewährst, entsteht Sicherheit ohne ständigen Rückzug.",
+    title_en: "The Observer",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you step into life rather than just watching it, your understanding becomes wisdom in action.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2249,6 +2291,9 @@ export const subtypeProfiles = {
     focus: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
     organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
     coreSentence: "Wenn Wissen nicht über Menschen steht, entsteht wirkliche Weisheit und lebendiger Kontakt.",
+    title_en: "The Professor",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When you share your knowledge as a bridge rather than a boundary, you become a true guide.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2406,6 +2451,9 @@ export const subtypeProfiles = {
     focus: "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.",
     organismQuestion: "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?",
     coreSentence: "Wenn du dich nicht nur im Geheimen öffnest, wird Nähe tragfähig und frei.",
+    title_en: "The Confidant",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you trust that connection nourishes rather than depletes you, intimacy becomes possible.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2563,6 +2611,9 @@ export const subtypeProfiles = {
     focus: "Ich wähle Vertrauen statt Angst und Mut statt Kontrolle.",
     organismQuestion: "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
     coreSentence: "Wenn du deinem Körper vertraust, entsteht Ruhe, auch wenn nicht alles sicher ist.",
+    title_en: "The Anxious One",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you discover that safety can grow from within, anxiety loses its grip on your life.",
     daily: {
       topic: "Angst & Treue",
       impulse: [
@@ -2720,6 +2771,9 @@ export const subtypeProfiles = {
     focus: "Ich wähle Vertrauen statt Angst und Verbundenheit statt Kontrolle.",
     organismQuestion: "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
     coreSentence: "Wenn Regeln nicht dein Gewissen ersetzen, entsteht innere Standfestigkeit und Freiheit.",
+    title_en: "The Loyalist",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When your loyalty flows from trust rather than fear, your commitment becomes a conscious choice.",
     daily: {
       topic: "Angst & Zugehörigkeit",
       impulse: [
@@ -2877,6 +2931,9 @@ export const subtypeProfiles = {
     focus: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
     organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
     coreSentence: "Wenn du genug hast, ohne mehr zu brauchen, entsteht wirklicher Genuss und innere Ruhe.",
+    title_en: "The Sensualist",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you allow yourself to stay with what is, pleasure deepens into genuine satisfaction.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3030,6 +3087,9 @@ export const subtypeProfiles = {
     focus: "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.",
     organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
     coreSentence: "Wenn du nicht gut sein musst, wird deine Freude ehrlich, frei und nahbar.",
+    title_en: "The Visionary",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When your vision serves the whole rather than your own escape, your enthusiasm becomes truly inspiring.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3183,6 +3243,9 @@ export const subtypeProfiles = {
     focus: "Ich tauche tief in das Leben ein und ermögliche mir echte Verbundenheit.",
     organismQuestion: "Wie kann ich mehr Möglichkeiten entdecken und Schwierigkeiten vermeiden?",
     coreSentence: "Wenn du Tiefe zulässt, statt das Besondere zu jagen, entsteht echte Erfüllung.",
+    title_en: "The Adventurer",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you meet depth without fleeing, your joy becomes real rather than restless.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3336,6 +3399,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Kraft, um zu schützen, zu gestalten und das Leben zu stärken.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
     coreSentence: "Wenn du Kontrolle loslässt, bleibt deine Kraft lebendig, klar und ohne Härte.",
+    title_en: "The Survivor",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you no longer need to fight to feel powerful, your strength becomes a force for protection.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3489,6 +3555,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu …",
     organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
     coreSentence: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
+    title_en: "The Protector",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When your power serves justice rather than dominance, your strength becomes a true shelter.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3642,6 +3711,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in …",
     organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
     coreSentence: "Wenn du Intensität nicht mit Kampf verwechselst, entsteht Nähe und Vertrauen ohne Machtprobe.",
+    title_en: "The Challenger",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When your intensity meets tenderness, your power becomes the ground for genuine union.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3795,6 +3867,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst …",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn du dich selbst wichtig nimmst und nicht betäubst, entsteht lebendige innere Präsenz.",
+    title_en: "The Comfort-Seeker",
+    subtitle_en: "Self-Preservation Instinct",
+    coreSentence_en: "When you discover that your presence matters, the need to disappear quietly fades away.",
     daily: {
       topic: "Weisheit & Gerechtigkeit",
       impulse: [
@@ -3948,6 +4023,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu …",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
+    title_en: "The Benefactor",
+    subtitle_en: "Social Instinct",
+    coreSentence_en: "When you include yourself in the harmony you create, your peace becomes complete.",
     daily: {
       topic: "Harmonie & Ausgleich",
       impulse: [
@@ -4101,6 +4179,9 @@ export const subtypeProfiles = {
     focus: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das …",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
+    title_en: "The Merging One",
+    subtitle_en: "Sexual Instinct / Relational Instinct",
+    coreSentence_en: "When you stay with yourself while opening to another, union becomes possible without losing yourself.",
     daily: {
       topic: "Verschmelzung & Frieden",
       impulse: [
