@@ -36210,15 +36210,33 @@ function subtypChecklistePage() {
 }
 
 const EDELSTEINE = [
-  { typ: 1, name: "Amethyst",    crystal: "The Perfection Detox",   file: "typ-1-amethyst.png" },
-  { typ: 2, name: "Rosenquarz",  crystal: "The Self-Love Shield",   file: "typ-2-rosenquarz.png" },
-  { typ: 3, name: "Tigerauge",   crystal: "The High-Achiever Fuel", file: "typ-3-tigerauge.png" },
-  { typ: 4, name: "Rhodonit",    crystal: "The Emotion Alchemist",  file: "typ-4-rhodonit.png" },
-  { typ: 5, name: "Amazonit",    crystal: "The Brain-Battery Saver",file: "typ-5-amazonit.png" },
-  { typ: 6, name: "Hämatit",     crystal: "The Bulletproof Vest",   file: "typ-6-haematit.png" },
-  { typ: 7, name: "Rauchquarz",  crystal: "The Idea Grounder",      file: "typ-7-rauchquarz.png" },
-  { typ: 8, name: "Fluorit",     crystal: "The Strategy Matrix",    file: "typ-8-fluorit.png" },
-  { typ: 9, name: "Karneol",     crystal: "The Action Catalyst",    file: "typ-9-karneol.png" },
+  { typ: 1, name: "Amethyst",    crystal: "The Perfection Detox",    file: "typ-1-amethyst.png",
+    wirkungsfeld: "Calming, purifying",
+    beschreibung: "Amethyst supports the release of inner rigidity and relentless self-demand. Its purifying quality helps the One let go of the need for absolute perfection and find inner stillness. Where constant self-criticism blocks, the stone invites composure and a gentler relationship with imperfection." },
+  { typ: 2, name: "Rosenquarz",  crystal: "The Self-Love Shield",    file: "typ-2-rosenquarz.png",
+    wirkungsfeld: "Self-love, emotional boundaries",
+    beschreibung: "Rose Quartz opens the heart to the love the Two so readily gives to others. It supports healthy self-worth and helps shift the centre of love inward. Where helping arises from a hidden longing for recognition, this stone encourages giving without losing oneself." },
+  { typ: 3, name: "Tigerauge",   crystal: "The High-Achiever Fuel",  file: "typ-3-tigerauge.png",
+    wirkungsfeld: "Authenticity, grounded will",
+    beschreibung: "Tiger's Eye grounds scattered performance energy and reveals what lies beneath the polished surface. It supports the Three in distinguishing authentic goals from the compulsion to impress. The stone helps connect success to inner meaning rather than outer applause." },
+  { typ: 4, name: "Rhodonit",    crystal: "The Emotion Alchemist",   file: "typ-4-rhodonit.png",
+    wirkungsfeld: "Emotional balance, compassion",
+    beschreibung: "Rhodonite transforms deep emotional pain into compassion. It stabilises the intense mood swings of the Four and supports the integration of longing and loss. Where the world feels painfully lacking, this stone helps the Four find beauty in what already is." },
+  { typ: 5, name: "Amazonit",    crystal: "The Brain-Battery Saver", file: "typ-5-amazonit.png",
+    wirkungsfeld: "Calm clarity, healthy boundaries",
+    beschreibung: "Amazonite calms the nervous system and balances taking in and letting out. It supports the Five in maintaining inner resources without completely withdrawing from the world. The stone encourages contact and exchange without the fear of being depleted." },
+  { typ: 6, name: "Hämatit",     crystal: "The Bulletproof Vest",    file: "typ-6-haematit.png",
+    wirkungsfeld: "Grounding, inner security",
+    beschreibung: "Haematite grounds and stabilises. It dispels diffuse fear and strengthens the Six’s connection to their own inner certainty. Where constant vigilance and doubt prevail, the stone builds a quiet, reliable sense of security from within." },
+  { typ: 7, name: "Rauchquarz",  crystal: "The Idea Grounder",       file: "typ-7-rauchquarz.png",
+    wirkungsfeld: "Grounding, presence",
+    beschreibung: "Smoky Quartz grounds the Seven’s restless stream of ideas and impulses. It helps stay present and carry things through to completion. Where the flight into new possibilities serves to avoid pain, this stone supports the gentle turn toward what is already here." },
+  { typ: 8, name: "Fluorit",     crystal: "The Strategy Matrix",     file: "typ-8-fluorit.png",
+    wirkungsfeld: "Clarity, structure, wise use of power",
+    beschreibung: "Fluorite brings order and clarity to raw power. It supports the Eight in channelling their strong will with discernment and directing their energy constructively. Where force tends to overshoot, this stone promotes strategic calm and a measured approach." },
+  { typ: 9, name: "Karneol",     crystal: "The Action Catalyst",     file: "typ-9-karneol.png",
+    wirkungsfeld: "Vitality, courage to act",
+    beschreibung: "Carnelian activates the will and the courage to stand up for oneself. It breaks through the inertia of the Nine and energises self-assertion. Where withdrawal into comfort and adaptation suppresses one’s own voice, this stone encourages presence and purposeful action." },
 ];
 
 function subtypeChartsPage() {
@@ -36741,6 +36759,16 @@ function edelsteinePage() {
                alt="Type ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
+
+        ${e.wirkungsfeld ? `
+        <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-top:1.2rem;margin-bottom:1rem;max-width:640px;">
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Field of Action</p>
+          <p style="font-size:.95rem;line-height:1.6;margin:0;color:var(--ink);">${e.wirkungsfeld}</p>
+        </div>` : ""}
+        ${e.beschreibung ? `
+        <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
+          <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${e.beschreibung}</p>
+        </div>` : ""}
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Related Charts</p>
@@ -40560,7 +40588,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v582';
+  const MY_VERSION = 'inhalt-v583';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
