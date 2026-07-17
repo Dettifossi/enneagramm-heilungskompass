@@ -36210,35 +36210,70 @@ function subtypChecklistePage() {
 }
 
 const EDELSTEINE = [
-  { typ: 1, name: "Amethyst",    crystal: "The Perfection Detox",    file: "typ-1-amethyst.png",
-    wirkungsfeld: "Calming, purifying",
-    beschreibung: "Amethyst supports the release of inner rigidity and relentless self-demand. Its purifying quality helps the One let go of the need for absolute perfection and find inner stillness. Where constant self-criticism blocks, the stone invites composure and a gentler relationship with imperfection." },
-  { typ: 2, name: "Rosenquarz",  crystal: "The Self-Love Shield",    file: "typ-2-rosenquarz.png",
-    wirkungsfeld: "Self-love, emotional boundaries",
-    beschreibung: "Rose Quartz opens the heart to the love the Two so readily gives to others. It supports healthy self-worth and helps shift the centre of love inward. Where helping arises from a hidden longing for recognition, this stone encourages giving without losing oneself." },
-  { typ: 3, name: "Tigerauge",   crystal: "The High-Achiever Fuel",  file: "typ-3-tigerauge.png",
-    wirkungsfeld: "Authenticity, grounded will",
-    beschreibung: "Tiger's Eye grounds scattered performance energy and reveals what lies beneath the polished surface. It supports the Three in distinguishing authentic goals from the compulsion to impress. The stone helps connect success to inner meaning rather than outer applause." },
-  { typ: 4, name: "Rhodonit",    crystal: "The Emotion Alchemist",   file: "typ-4-rhodonit.png",
-    wirkungsfeld: "Emotional balance, compassion",
-    beschreibung: "Rhodonite transforms deep emotional pain into compassion. It stabilises the intense mood swings of the Four and supports the integration of longing and loss. Where the world feels painfully lacking, this stone helps the Four find beauty in what already is." },
-  { typ: 5, name: "Amazonit",    crystal: "The Brain-Battery Saver", file: "typ-5-amazonit.png",
-    wirkungsfeld: "Calm clarity, healthy boundaries",
-    beschreibung: "Amazonite calms the nervous system and balances taking in and letting out. It supports the Five in maintaining inner resources without completely withdrawing from the world. The stone encourages contact and exchange without the fear of being depleted." },
-  { typ: 6, name: "Hämatit",     crystal: "The Bulletproof Vest",    file: "typ-6-haematit.png",
-    wirkungsfeld: "Grounding, inner security",
-    beschreibung: "Haematite grounds and stabilises. It dispels diffuse fear and strengthens the Six’s connection to their own inner certainty. Where constant vigilance and doubt prevail, the stone builds a quiet, reliable sense of security from within." },
-  { typ: 7, name: "Rauchquarz",  crystal: "The Idea Grounder",       file: "typ-7-rauchquarz.png",
-    wirkungsfeld: "Grounding, presence",
-    beschreibung: "Smoky Quartz grounds the Seven’s restless stream of ideas and impulses. It helps stay present and carry things through to completion. Where the flight into new possibilities serves to avoid pain, this stone supports the gentle turn toward what is already here." },
-  { typ: 8, name: "Fluorit",     crystal: "The Strategy Matrix",     file: "typ-8-fluorit.png",
-    wirkungsfeld: "Clarity, structure, wise use of power",
-    beschreibung: "Fluorite brings order and clarity to raw power. It supports the Eight in channelling their strong will with discernment and directing their energy constructively. Where force tends to overshoot, this stone promotes strategic calm and a measured approach." },
-  { typ: 9, name: "Karneol",     crystal: "The Action Catalyst",     file: "typ-9-karneol.png",
-    wirkungsfeld: "Vitality, courage to act",
-    beschreibung: "Carnelian activates the will and the courage to stand up for oneself. It breaks through the inertia of the Nine and energises self-assertion. Where withdrawal into comfort and adaptation suppresses one’s own voice, this stone encourages presence and purposeful action." },
+  { typ: 1, name: "Amethyst",   crystal: "The Perfection Detox",    file: "typ-1-amethyst.png",
+    subtitle: "The stone for clarity, inner strength and spiritual protection.",
+    muster: "Perfectionism, inner rigidity, high standards",
+    musterText: "The wish to do everything right and to be strong can lead to stress and overwhelm.",
+    bedeutung: "Amethyst is traditionally associated with clarity, calm and spiritual protection. It can support releasing inner pressure, softening rigid standards and opening toward serenity. It invites a gentler relationship with oneself and with others.",
+    punkte: ["Releases inner hardness – helps let go of old patterns and open the heart.", "Brings serenity instead of pressure – dissolves inner tension and fosters peace and relaxation.", "Opens toward spaciousness and clarity – supports a clear mind and the connection to intuition."],
+    merksatz: "\u201cLess striving, more being.\u201d" },
+  { typ: 2, name: "Rosenquarz", crystal: "The Self-Love Shield",    file: "typ-2-rosenquarz.png",
+    subtitle: "The stone for self-love, genuine warmth of heart and loving giving.",
+    muster: "Neediness, hidden expectations, self-sacrifice.",
+    musterText: "The wish to be needed and to secure love through giving.",
+    bedeutung: "Rose Quartz is traditionally associated with self-love, compassion and opening of the heart. It can support strengthening inner tenderness, releasing hidden expectations and fostering genuine, warm relationships. It invites accepting oneself exactly as one is.",
+    punkte: ["Strengthens self-love and inner self-worth.", "Brings genuine warmth of heart into relationships and encounters.", "Dissolves expectations and fosters trust in a natural flow."],
+    merksatz: "\u201cLove begins with yourself.\u201d" },
+  { typ: 3, name: "Tigerauge",  crystal: "The High-Achiever Fuel",  file: "typ-3-tigerauge.png",
+    subtitle: "The stone for drive, self-confidence and authentic success.",
+    muster: "Image, performance pressure, role identity",
+    musterText: "The wish to be successful and to gain recognition through achievement.",
+    bedeutung: "Tiger\u2019s Eye is traditionally associated with clarity, focus and inner strength. It can support concentrating on what is essential, activating inner resources and acting from one\u2019s own centre. It invites shaping success in alignment with one\u2019s own values.",
+    punkte: ["Leads from impact to reality – helps focus on goals and carry them through successfully.", "Strengthens substance over image – fosters inner stability and authenticity.", "Brings groundedness instead of facade – supports staying in the here and now and with oneself."],
+    merksatz: "\u201cLess facade, more substance.\u201d" },
+  { typ: 4, name: "Rhodonit",   crystal: "The Emotion Alchemist",   file: "typ-4-rhodonit.png",
+    subtitle: "The stone for emotional healing, self-acceptance and inner balance.",
+    muster: "Sense of lack, comparison, emotional wound",
+    musterText: "The wish to be unique and to feel deeply can lead to longing and self-doubt.",
+    bedeutung: "Rhodonite is traditionally associated with emotional healing, self-acceptance and forgiveness. It can support processing old wounds, developing self-compassion and rediscovering the dignity in one\u2019s own being. It invites meeting oneself with more love \u2013 as one is.",
+    punkte: ["Heals emotional wounds – supports healing old injuries and soul wounds.", "Strengthens self-acceptance – fosters self-love, self-worth and inner peace.", "Leads back to what is one\u2019s own – helps not to lose oneself in the outer world and to stay connected with oneself."],
+    merksatz: "\u201cI am whole, without comparison.\u201d" },
+  { typ: 5, name: "Amazonit",   crystal: "The Brain-Battery Saver", file: "typ-5-amazonit.png",
+    subtitle: "The stone for clarity in thinking, inner freedom and wise distance.",
+    muster: "Withdrawal, stubbornness, distance",
+    musterText: "The wish to remain independent and to grasp the world through knowledge and understanding.",
+    bedeutung: "Amazonite is traditionally associated with heart, mind, expression and inner balance. It can support opening up, entering into connections and at the same time remaining with oneself. It invites developing trust and walking one\u2019s own path freely and clearly.",
+    punkte: ["Connects heart and mind – supports the balance between thinking and feeling.", "Fosters expression – helps communicate thoughts and feelings clearly and authentically.", "Opens without overwhelm – gently supports showing oneself without overstepping one\u2019s own boundaries."],
+    merksatz: "\u201cI may be connected and remain free.\u201d" },
+  { typ: 6, name: "H\xe4matit",    crystal: "The Bulletproof Vest",    file: "typ-6-haematit.png",
+    subtitle: "The stone for inner stability, courage and a secure foundation.",
+    muster: "Doubt, fear, inner insecurity",
+    musterText: "The wish to find security and to be prepared for possible risks can lead to tension and brooding.",
+    bedeutung: "Haematite is traditionally associated with grounding, stability and protection. It can support stepping out of spirals of brooding, developing inner calm and concentrating on what is essential. It invites strengthening trust in oneself and in life and acting calmly at one\u2019s own pace.",
+    punkte: ["Grounds and stabilises – helps staying in the here and now and finding inner stability.", "Dissolves rumination loops – can help interrupt thought carousels and let them go.", "Strengthens steadfastness – fosters inner strength, perseverance and clear decisions."],
+    merksatz: "\u201cI stand secure on my own ground.\u201d" },
+  { typ: 7, name: "Rauchquarz", crystal: "The Idea Grounder",       file: "typ-7-rauchquarz.png",
+    subtitle: "The stone for grounding, inner strength and the power of conscious arrival.",
+    muster: "Distraction, stimulus-hunger, flight forward",
+    musterText: "The wish to experience as much as possible and to preserve freedom can lead to overwhelm and inner restlessness.",
+    bedeutung: "Smoky Quartz is traditionally associated with grounding, centring and transformation. It can support returning from distraction, gaining clarity and focusing on what is essential. It invites experiencing abundance more deeply and \u2013 instead of constantly chasing after things \u2013 arriving in life.",
+    punkte: ["Gathers instead of scatters – helps bundle energy and stay in the here and now.", "Grounds the life force – brings stability and connection to the body and to reality.", "Deepens present-moment abundance – fosters gratitude and the ability to experience what is good in the moment."],
+    merksatz: "\u201cI stay here and become whole.\u201d" },
+  { typ: 8, name: "Fluorit",    crystal: "The Strategy Matrix",     file: "typ-8-fluorit.png",
+    subtitle: "The stone for inner clarity, self-determined power and healthy boundaries.",
+    muster: "Overpowering, impulsivity, rigidity",
+    musterText: "The wish to keep control and to appear strong can lead to power struggles and inner restlessness.",
+    bedeutung: "Fluorite is traditionally associated with clarity, protection, order and transformation. It can support clarifying inner restlessness, ordering thoughts and steering impulsive reactions more consciously. It fosters a clear mind that can act powerfully \u2013 in alignment with one\u2019s own values and boundaries.",
+    punkte: ["Dissolves tensions – helps release inner tension and balance emotional intensity.", "Fosters clarity and focus – supports seeing one\u2019s own course clearly and acting decisively.", "Strengthens healthy boundaries – fosters self-assertion with heart and promotes respectful boundaries."],
+    merksatz: "\u201cI use my strength mindfully.\u201d" },
+  { typ: 9, name: "Karneol",    crystal: "The Action Catalyst",     file: "typ-9-karneol.png",
+    subtitle: "The stone for inner vitality, self-acceptance and conscious presence.",
+    muster: "Inertia, self-forgetting, adaptation.",
+    musterText: "The wish to preserve harmony and to avoid conflicts can lead to overlooking oneself and putting one\u2019s own needs aside.",
+    bedeutung: "Carnelian is traditionally associated with life energy, courage, vitality and self-confidence. It can support dissolving inner inertia, gaining clarity about one\u2019s own needs and actively shaping one\u2019s own path in life. It invites getting into motion, accepting oneself and shaping life with joy and dedication.",
+    punkte: ["Activates life energy – brings new energy and inner warmth into the system.", "Brings presence and movement – supports arriving in the here and now and becoming active.", "Strengthens one\u2019s own impulse – helps trusting one\u2019s own needs and putting them into action."],
+    merksatz: "\u201cI get into motion and become visible.\u201d" },
 ];
-
 function subtypeChartsPage() {
   const code = state.route.split("/")[1] || null;
 
@@ -36760,14 +36795,32 @@ function edelsteinePage() {
                class="psycho-img" />
         </div>
 
-        ${e.wirkungsfeld ? `
-        <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-top:1.2rem;margin-bottom:1rem;max-width:640px;">
-          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .4rem;">Field of Action</p>
-          <p style="font-size:.95rem;line-height:1.6;margin:0;color:var(--ink);">${e.wirkungsfeld}</p>
+        ${e.subtitle ? `<p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:-.2rem 0 1.2rem;max-width:560px;">${e.subtitle}</p>` : ""}
+
+        ${e.muster ? `
+        <div style="background:color-mix(in srgb, var(--copper) 5%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-top:1.2rem;margin-bottom:1rem;max-width:640px;">
+          <p style="font-size:.75rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .3rem;">Pattern</p>
+          <p style="font-size:.97rem;font-weight:600;color:var(--ink);margin:0 0 .35rem;">${e.muster}</p>
+          <p style="font-size:.88rem;color:var(--muted);line-height:1.6;margin:0;">${e.musterText}</p>
         </div>` : ""}
-        ${e.beschreibung ? `
-        <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
-          <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${e.beschreibung}</p>
+
+        ${e.bedeutung ? `
+        <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+          <p style="font-size:.75rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Meaning of the Stone</p>
+          <p style="font-size:.9rem;line-height:1.7;margin:0;color:var(--ink);">${e.bedeutung}</p>
+        </div>` : ""}
+
+        ${e.punkte && e.punkte.length ? `
+        <div style="background:color-mix(in srgb, var(--copper) 3%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 50%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+          <ul style="margin:0;padding-left:1.1rem;list-style:disc;">
+            ${e.punkte.map(p => `<li style="font-size:.9rem;line-height:1.65;color:var(--ink);margin-bottom:.25rem;">${p}</li>`).join("")}
+          </ul>
+        </div>` : ""}
+
+        ${e.merksatz ? `
+        <div style="text-align:center;padding:1rem 1.2rem 1.4rem;margin-bottom:1rem;max-width:640px;">
+          <p style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin:0 0 .4rem;">Key Phrase</p>
+          <p style="font-family:var(--serif);font-size:1.25rem;font-style:italic;color:var(--copper);margin:0;line-height:1.5;">${e.merksatz}</p>
         </div>` : ""}
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
@@ -40588,7 +40641,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v583';
+  const MY_VERSION = 'inhalt-v584';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
