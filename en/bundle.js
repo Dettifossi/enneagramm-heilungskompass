@@ -36373,7 +36373,7 @@ function homoeopathiePage() {
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
+            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SP${typNr} &ndash; Self-Preservation</button>
             <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
             <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
@@ -36477,7 +36477,7 @@ function mineralstoffePage() {
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
+            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SP${typNr} &ndash; Self-Preservation</button>
             <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
             <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
@@ -36580,7 +36580,7 @@ function bachbluetenPage() {
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
+            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SP${typNr} &ndash; Self-Preservation</button>
             <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
             <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
@@ -36676,7 +36676,7 @@ function heilteesPage() {
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SE${typNr} &ndash; Self-Preservation</button>
+            <button class="ghost-link" data-route="subtype/se${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SP${typNr} &ndash; Self-Preservation</button>
             <button class="ghost-link" data-route="subtype/so${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SO${typNr} – Social</button>
             <button class="ghost-link" data-route="subtype/sx${typNr}" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">SX${typNr} – Sexual</button>
           </div>
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v578';
+  const MY_VERSION = 'inhalt-v579';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
