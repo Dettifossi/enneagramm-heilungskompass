@@ -2358,7 +2358,7 @@ function oilsPage() {
           ${aetherischeOele.map(oilCard).join("")}
         </div>
         <p class="remedy-note">Apply mindfully and diluted (e.g. as a room scent, in a carrier oil or via inhalation). Not a substitute for medical or therapeutic support.</p>
-        ${bookTip("enneagramm-bachblueten-therapie", "Which Bach flowers help which Enneagram type? A unique approach to soul work.", "Enneagram Bach Flower Therapy")}
+        ${bookTip("enneagramm-bachblueten-therapie", "Which Bach flowers help which Enneagram type? A unique approach to soul work.", "Enneagramm-Bachblüten-Therapie")}
       </article>
     </section>
   `);
@@ -40674,7 +40674,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v586';
+  const MY_VERSION = 'inhalt-v587';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
