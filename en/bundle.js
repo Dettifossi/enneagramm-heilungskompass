@@ -36456,7 +36456,7 @@ function mineralstoffePage() {
           <div style="margin-bottom:${sameSalz ? "0" : "1.2rem"};">
             <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Passion Salt</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 .1rem;font-style:italic;">${d.leidenschaftsSalz}</p>
-            ${d.nr !== "?" ? `<span style="font-size:.78rem;color:var(--muted);">Sch&uuml;&szlig;ler-Salz Nr.&thinsp;${d.nr}</span>` : ""}
+            ${d.nr !== "?" ? `<span style="font-size:.78rem;color:var(--muted);">Schüßler Salt No. ${d.nr}</span>` : ""}
           </div>
           ${sameSalz ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Passion salt and wound salt are identical.</p>` : `
           <div style="padding-top:1rem;border-top:1px solid var(--line);">
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v576';
+  const MY_VERSION = 'inhalt-v577';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
