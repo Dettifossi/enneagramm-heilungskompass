@@ -587,6 +587,28 @@ text.subtypePage.nervousSystemRegulation = "Nervous System Regulation";
 text.subtypePage.archetypalEssence = "Archetypal Essence";
 text.subtypePage.integrativePotential = "Integrative Potential";
 text.subtypePage.essenceQualities = "Embodied Qualities";
+// meta
+text.meta.appTitle = "Enneagram Healing Compass";
+text.meta.modelLine = "Based on the model by David L. & Detlef Rathmer";
+text.meta.mainNavigation = "Main navigation";
+text.meta.resonanceImageAltPrefix = "Subtype image";
+
+// start page
+text.routes.start.brandAria = "Go to start page";
+text.routes.start.headline = "Enneagram Healing Compass";
+text.routes.start.lead = "A navigation system for Enneagram, healing, consciousness, music and the life\'s work of Detlef Rathmer.";
+text.routes.start.primaryAction = "Open Compass";
+text.routes.start.secondaryAction = "View Knowledge Base";
+text.routes.start.mainAreas = "Main Areas";
+text.routes.start.animalPrefix = "Animal archetype:";
+
+// dashboard
+text.routes.dashboard = text.routes.dashboard || {};
+text.routes.dashboard.greeting = "Good day";
+text.routes.dashboard.todayFocus = "Today\'s Focus:";
+text.routes.dashboard.dailyImpulse = "Daily Impulse";
+text.routes.dashboard.reflectionQuestion = "Reflection Question";
+text.routes.dashboard.nextStep = "Next Step";
 
 document.title = text.meta.appTitle;
 
@@ -37000,7 +37022,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v534';
+  const MY_VERSION = 'inhalt-v535';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
