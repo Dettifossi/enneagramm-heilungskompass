@@ -2069,6 +2069,147 @@ function enToolName(t)  { return EN_TOOL_NAMES[t.name]  || t.name;  }
 function enToolLabel(t) { return EN_TOOL_LABELS[t.label] || t.label; }
 function enToolText(t)  { return EN_TOOL_TEXTS[t.name]  || t.text;  }
 
+// EN: translate twoPoints data (point names, locations, needs, micro-instructions)
+const EN_TP_NAMES = {
+  "Solarplexus / Oberbauch":    "Solar Plexus / Upper Abdomen",
+  "Herzraum / Brustmitte":      "Heart Space / Centre of Chest",
+  "Stirn / Kopf":               "Forehead / Head",
+  "Bauch / K\xf6rpermitte":         "Abdomen / Body Centre",
+  "Unterbauch / Beckenbereich": "Lower Abdomen / Pelvis",
+  "Oberbauch / Innerer Raum":   "Upper Abdomen / Inner Space",
+  "Oberschenkel":               "Thigh",
+  "Schambein-Bereich":          "Pubic Area",
+  "Suprapubischer Bereich":     "Suprapubic Area",
+};
+const EN_TP_LOCS = {
+  "oberhalb des Nabels":            "above the navel",
+  "mittig auf dem Brustbein":       "centre of the sternum",
+  "mittig auf der Stirn":           "centre of the forehead",
+  "mittig auf dem Bauchnabel":      "centre of the navel",
+  "unterhalb des Nabels":           "below the navel",
+  "auf dem Schambein":              "on the pubic bone",
+  "knapp oberhalb des Schambeins":  "just above the pubic bone",
+  "mittig auf dem Oberschenkel":    "centre of the thigh",
+};
+const EN_TP_NEEDS = {
+  "Erdung":          "Grounding",
+  "Halt":            "Support",
+  "Harmonie":        "Harmony",
+  "Integrit\xe4t":     "Integrity",
+  "Kontrolle":       "Control",
+  "N\xe4he":           "Closeness",
+  "Ordnung":         "Order",
+  "Pr\xe4senz":        "Presence",
+  "Resonanz":        "Resonance",
+  "Ruhe":            "Stillness",
+  "Schutz":          "Protection",
+  "Selbstkontakt":   "Self-Contact",
+  "Sicherheit":      "Safety",
+  "Sp\xfcren":         "Sensing",
+  "Stabilit\xe4t":     "Stability",
+  "Urvertrauen":     "Basic Trust",
+  "Verbindung":      "Connection",
+  "Verstehen":       "Understanding",
+  "Vertrauen":       "Trust",
+  "Verwurzelung":    "Rootedness",
+  "Wahrnehmung":     "Perception",
+  "Wissen":          "Knowledge",
+  "Wissen / Verstehen": "Knowledge / Understanding",
+  "eigene Grenze":   "Own Boundary",
+  "innere Klarheit": "Inner Clarity",
+  "innere Sicherheit": "Inner Safety",
+  "innere Stabilit\xe4t": "Inner Stability",
+};
+const EN_TP_MICRO = {
+  "Anwesend bleiben.":      "Stay present.",
+  "Bei dir bleiben.":       "Stay with yourself.",
+  "Bleibe in deiner Aufmerksamkeit.": "Keep your attention here.",
+  "Dazugeh\xf6ren d\xfcrfen.":   "Allow yourself to belong.",
+  "Dich mitnehmen.":        "Take yourself along.",
+  "Dich selbst sp\xfcren.":   "Feel yourself.",
+  "Dich zeigen.":           "Show yourself.",
+  "Druck l\xf6sen.":           "Release pressure.",
+  "Echt bleiben.":          "Stay authentic.",
+  "Echtheit sp\xfcren.":      "Feel the authenticity.",
+  "Echtheit zulassen.":     "Allow authenticity.",
+  "Einfach bleiben.":       "Stay simple.",
+  "Einfach da sein.":       "Simply be here.",
+  "Einfach wahrnehmen.":    "Simply perceive.",
+  "Empfangend werden.":     "Become receptive.",
+  "F\xfcr sich bleiben.":     "Stay within yourself.",
+  "Grenzen sp\xfcren.":        "Feel your boundaries.",
+  "Hier bleiben.":          "Stay here.",
+  "Im K\xf6rper bleiben.":     "Stay in the body.",
+  "Intensit\xe4t beruhigen.":  "Calm the intensity.",
+  "Keine Rolle spielen.":   "Play no role.",
+  "Kontakt halten.":        "Hold contact.",
+  "Kontakt zulassen.":      "Allow contact.",
+  "K\xf6rper bewohnen.":       "Inhabit the body.",
+  "K\xf6rper halten.":         "Hold the body.",
+  "K\xf6rper sp\xfcren.":       "Feel the body.",
+  "Langsamer werden.":      "Slow down.",
+  "Lass den Atem ruhig flie\xdfen.": "Let the breath flow quietly.",
+  "Maske lockern.":         "Loosen the mask.",
+  "Milde zulassen.":        "Allow gentleness.",
+  "Mitatmen d\xfcrfen.":       "Allow yourself to breathe with it.",
+  "Nicht antreiben.":       "Don’t drive yourself.",
+  "Nicht funktionieren.":   "Don’t just function.",
+  "Nicht gebraucht werden.":"Don’t need to be needed.",
+  "Nicht gl\xe4nzen.":          "Don’t perform.",
+  "Nicht hineinsteigern.":  "Don’t escalate.",
+  "Nicht kontrollieren.":   "Don’t control.",
+  "Nicht leisten.":         "Don’t achieve.",
+  "Nicht nur beobachten.":  "Don’t only observe.",
+  "Nicht vergleichen.":     "Don’t compare.",
+  "Nicht verschmelzen.":    "Don’t merge.",
+  "Nicht vertiefen.":       "Don’t go deeper.",
+  "Nicht zur\xfcckziehen.":    "Don’t withdraw.",
+  "Nichts erreichen.":      "Achieve nothing.",
+  "Nichts erwarten.":       "Expect nothing.",
+  "Nichts korrigieren.":    "Correct nothing.",
+  "Nichts ver\xe4ndern.":       "Change nothing.",
+  "Nur halten und atmen.":  "Just hold and breathe.",
+  "N\xe4he dosieren.":          "Regulate closeness.",
+  "N\xe4he halten.":            "Hold the closeness.",
+  "N\xe4he lassen.":            "Allow closeness.",
+  "N\xe4he nicht spielen.":     "Don’t perform closeness.",
+  "Platz sp\xfcren.":           "Feel the space.",
+  "Pr\xe4sent bleiben.":        "Stay present.",
+  "Raum einnehmen.":        "Take up space.",
+  "Ruhig atmen.":           "Breathe calmly.",
+  "Ruhig bleiben.":         "Stay calm.",
+  "Ruhig weiteratmen.":     "Keep breathing calmly.",
+  "Sanft atmen.":           "Breathe softly.",
+  "Sanfter werden.":        "Become gentler.",
+  "Schmerz halten.":        "Hold the pain.",
+  "Sehnsucht beruhigen.":   "Calm the longing.",
+  "Sichtbar sein.":         "Be visible.",
+  "Verantwortung l\xf6sen.":   "Release responsibility.",
+  "Wahr bleiben.":          "Stay true.",
+  "Wahrnehmung \xf6ffnen.":    "Open perception.",
+  "Weich bleiben.":         "Stay soft.",
+  "Weich werden lassen.":   "Allow softness.",
+  "Weich werden.":          "Become soft.",
+  "W\xe4rme zulassen.":         "Allow warmth.",
+};
+function enTpStr(map, s) { return map[s] || s; }
+function enTpPoint(pt) {
+  if (!pt) return pt;
+  return {
+    name: enTpStr(EN_TP_NAMES, pt.name),
+    location: enTpStr(EN_TP_LOCS, pt.location),
+    need: (pt.need || []).map(n => enTpStr(EN_TP_NEEDS, n)),
+  };
+}
+function enTwoPoints(tp) {
+  if (!tp) return tp;
+  return {
+    point1: enTpPoint(tp.point1),
+    point2: enTpPoint(tp.point2),
+    microInstructions: (tp.microInstructions || []).map(m => enTpStr(EN_TP_MICRO, m)),
+  };
+}
+
 function toolSlug(name) {
   return name.toLowerCase().replace(/[äöü]/g, c => ({ä:"ae",ö:"oe",ü:"ue"}[c])).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -2113,7 +2254,7 @@ function toolDetailPage(slug) {
 
   // Subtype-spezifische Daten aus Wissensbasis
   const knEntry = subtypeEntry(getProfile());
-  const twoPoints = knEntry?.bodySignature?.twoPoints || null;
+  const twoPoints = enTwoPoints(knEntry?.bodySignature?.twoPoints || null);
 
   const DETAIL_INSTRUCTIONS = {
     "atemimpuls": {
@@ -40732,7 +40873,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v595';
+  const MY_VERSION = 'inhalt-v596';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
