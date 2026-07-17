@@ -36100,7 +36100,7 @@ function mangelgefuehlePage() {
     ${pageHeader("mangelgefuehle")}
     <section class="narrow">
       <p class="eyebrow">Charts · Tiefenpsychologie</p>
-      <h1>Mangelgefühle der 9 Enneagrammtypen</h1>
+      <h1>Feelings of Lacke der 9 Enneagrammtypen</h1>
       <p class="lead-small">Jeder Enneagrammtyp trägt ein unbewusstes inneres Mangelgefühl in sich &ndash; ein tiefes Gefühl, dass etwas Wesentliches fehlt. Aus diesem Mangel heraus entsteht das charakteristische Streben nach außen, das den Typ antreibt.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
@@ -36536,15 +36536,15 @@ function bachbluetenPage() {
   const typNr = param ? parseInt(param) : null;
 
   const DATA = [
-    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsBl:"Rock Water", wundeBl:"Rock Water", wirkungsfeld:`Flexibilität statt starrer Selbststrenge`, beschreibung:`` },
-    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsBl:"Chicory", wundeBl:"Chicory", wirkungsfeld:`selbstlose Liebe ohne Besitzanspruch`, beschreibung:`` },
-    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsBl:"Vervain", wundeBl:"Walnut", wirkungsfeld:`gelassene Begeisterung statt Übereifer`, beschreibung:`` },
-    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsBl:"Sweet Chestnut", wundeBl:"Willow", wirkungsfeld:`Hoffnung und Halt in tiefer Not`, beschreibung:`` },
-    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsBl:"Water Violet", wundeBl:"Water Violet", wirkungsfeld:`aus Rückzug zu warmer Verbundenheit`, beschreibung:`` },
-    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsBl:"Aspen", wundeBl:"Cerato", wirkungsfeld:`Vertrauen bei unbestimmter Angst`, beschreibung:`` },
-    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsBl:"Agrimony", wundeBl:"Agrimony", wirkungsfeld:`Echtheit hinter der Heiterkeit`, beschreibung:`` },
-    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsBl:"Vine", wundeBl:"Oak", wirkungsfeld:`Stärke und Führung ohne Dominanz`, beschreibung:`` },
-    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsBl:"Wild Rose", wundeBl:"Wild Rose", wirkungsfeld:`aus Resignation zu lebendiger Teilnahme`, beschreibung:`` },
+    { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsBl:"Rock Water", wundeBl:"Rock Water", wirkungsfeld:`Flexibility instead of rigid self-strictness`, beschreibung:`` },
+    { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsBl:"Chicory", wundeBl:"Chicory", wirkungsfeld:`Selfless love without possessiveness`, beschreibung:`` },
+    { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsBl:"Vervain", wundeBl:"Walnut", wirkungsfeld:`Calm enthusiasm instead of over-eagerness`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsBl:"Sweet Chestnut", wundeBl:"Willow", wirkungsfeld:`Hope and support in deep distress`, beschreibung:`` },
+    { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsBl:"Water Violet", wundeBl:"Water Violet", wirkungsfeld:`From withdrawal to warm connectedness`, beschreibung:`` },
+    { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsBl:"Aspen", wundeBl:"Cerato", wirkungsfeld:`Trust in the face of vague fear`, beschreibung:`` },
+    { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsBl:"Agrimony", wundeBl:"Agrimony", wirkungsfeld:`Authenticity behind the cheerfulness`, beschreibung:`` },
+    { typ:8, label:"Type 8 · The Power-Oriented", leidenschaft:"Lust / Dominance", leidenschaftsBl:"Vine", wundeBl:"Oak", wirkungsfeld:`Strength and leadership without dominance`, beschreibung:`` },
+    { typ:9, label:"Type 9 · The Harmony-Oriented", leidenschaft:"Sloth / Self-forgetting", leidenschaftsBl:"Wild Rose", wundeBl:"Wild Rose", wirkungsfeld:`From resignation to vibrant participation`, beschreibung:`` },
   ];
 
   if (typNr && typNr >= 1 && typNr <= 9) {
@@ -36558,12 +36558,12 @@ function bachbluetenPage() {
         <div class="remedy-detail-card" style="background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 .4rem;">Passion &middot; ${d.leidenschaft}</p>
           <div style="margin-bottom:${sameBl ? "0" : "1.2rem"};">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Leidenschafts-Blüte</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Passion Flower</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.leidenschaftsBl}</p>
           </div>
-          ${sameBl ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Leidenschafts-Blüte und Wunden-Blüte sind identisch.</p>` : `
+          ${sameBl ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Passion flower and wound flower are identical.</p>` : `
           <div style="padding-top:1rem;border-top:1px solid var(--line);">
-            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wunden-Blüte</span>
+            <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wound Flower</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.wundeBl}</p>
           </div>`}
         </div>
@@ -36590,8 +36590,8 @@ function bachbluetenPage() {
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
             <button class="ghost-link" data-route="angst-essenz" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Fear → Essence</button>
           
-            <button class="ghost-link" data-route="basisemotionen" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Basisemotionen</button>
-            <button class="ghost-link" data-route="mangelgefuehle" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Mangelgef&uuml;hle</button>
+            <button class="ghost-link" data-route="basisemotionen" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Basic Emotions</button>
+            <button class="ghost-link" data-route="mangelgefuehle" style="font-size:.85rem;padding:.35rem .75rem;border:1px solid var(--line);border-radius:6px;">Feelings of Lack</button>
           </div>
         </div>
       </div>
@@ -36603,9 +36603,9 @@ function bachbluetenPage() {
     ${pageHeader("bachblueten")}
     <section class="knowledge-hero">
       <div>
-        <p class="eyebrow">Heilung &middot; Bachbl&uuml;ten</p>
-        <h1>Bachbl&uuml;ten <span style="font-size:.65em;font-weight:400;color:var(--muted);">(nach Dr. Edward Bach)</span></h1>
-        <p class="lead-small">Leidenschafts- und Wunden-Bl&uuml;ten f&uuml;r alle 9 Enneagrammtypen &ndash; aus der hom&ouml;opathischen Enneagramm-Praxis nach dem &Auml;hnlichkeitsgesetz.</p>
+        <p class="eyebrow">Healing · Bach Flowers</p>
+        <h1>Bach Flowers <span style="font-size:.65em;font-weight:400;color:var(--muted);">(after Dr. Edward Bach)</span></h1>
+        <p class="lead-small">Passion and wound flowers for all 9 Enneagram types – from homeopathic Enneagram practice according to the law of similars.</p>
       </div>
     </section>
     <section class="oils-grid" style="padding:0 1rem 3rem;">
@@ -36617,12 +36617,12 @@ function bachbluetenPage() {
             <span class="oil-card__type">Type ${d.typ}</span>
             <h3 style="font-size:1rem;margin:.3rem 0 .6rem;">${d.label.split(" · ")[1]}</h3>
             <div style="margin-bottom:.5rem;">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Leidenschafts-Blüte</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Passion Flower</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.leidenschaftsBl}</span>
             </div>
             ${sameBl ? "" : `
             <div style="margin-bottom:.5rem;padding-top:.5rem;border-top:1px solid var(--line);">
-              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wunden-Blüte</span>
+              <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wound Flower</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.wundeBl}</span>
             </div>`}
             ${d.wirkungsfeld ? `<p style="font-size:.7rem;color:var(--muted);margin:.5rem 0 0;line-height:1.4;">${d.wirkungsfeld}</p>` : ""}
@@ -40560,7 +40560,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v580';
+  const MY_VERSION = 'inhalt-v581';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
