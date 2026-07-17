@@ -26,6 +26,8 @@ export const subtypeProfiles = {
     title_en: "The Fighter",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you no longer have to fight to feel safe, courage and trust emerge naturally.",
+    archetype_en: "Wolf",
+    focus_en: "Courage instead of control",
     daily: {
       topic: "Vertrauen wächst im nächsten Schritt",
       impulse: [
@@ -214,6 +216,8 @@ export const subtypeProfiles = {
     title_en: "The Perfectionist",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you no longer need everything to be perfect, life becomes lighter and more trustworthy.",
+    archetype_en: "Eagle",
+    focus_en: "Trust instead of control",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -374,6 +378,8 @@ export const subtypeProfiles = {
     title_en: "The Principled One",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When your standards serve connection rather than judgment, your values become a gift to the world.",
+    archetype_en: "Goose",
+    focus_en: "Principles as a gift, not a verdict",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -534,6 +540,8 @@ export const subtypeProfiles = {
     title_en: "The Zealot",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When your fire fuels creation rather than correction, your passion becomes a transformative force.",
+    archetype_en: "Black Mamba",
+    focus_en: "Fire that creates rather than corrects",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -694,6 +702,8 @@ export const subtypeProfiles = {
     title_en: "The Caretaker",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you allow yourself to receive care, you discover that your needs matter just as much as others'.",
+    archetype_en: "Hippopotamus",
+    focus_en: "Receiving as well as giving",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -854,6 +864,8 @@ export const subtypeProfiles = {
     title_en: "The Helper",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When you give from fullness rather than need, your generosity becomes truly free.",
+    archetype_en: "Golden Retriever",
+    focus_en: "Generosity from fullness",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -1014,6 +1026,8 @@ export const subtypeProfiles = {
     title_en: "The Passionate One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you love without needing to be indispensable, your warmth becomes a gift rather than a claim.",
+    archetype_en: "Camel",
+    focus_en: "Love without conditions",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -1174,6 +1188,8 @@ export const subtypeProfiles = {
     title_en: "The Pragmatist",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you no longer need achievement to feel worthy, your competence becomes effortless.",
+    archetype_en: "Raccoon",
+    focus_en: "Worth without performance",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1334,6 +1350,8 @@ export const subtypeProfiles = {
     title_en: "The Achiever",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When your success serves the whole rather than your image, your effectiveness truly inspires.",
+    archetype_en: "Cheetah",
+    focus_en: "Success that serves the whole",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1494,6 +1512,8 @@ export const subtypeProfiles = {
     title_en: "The Radiant One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you no longer need to perform to be seen, authentic charisma emerges from within.",
+    archetype_en: "Peacock",
+    focus_en: "Authentic radiance from within",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1654,6 +1674,8 @@ export const subtypeProfiles = {
     title_en: "The Quiet Endurer",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you let your depth be seen without shame, your sensitivity becomes a source of strength.",
+    archetype_en: "Dove",
+    focus_en: "Depth as strength",
     daily: {
       topic: "Tiefe & Gefühl",
       impulse: [
@@ -1814,6 +1836,8 @@ export const subtypeProfiles = {
     title_en: "The Sufferer",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When you allow joy without guilt, your emotional depth opens into genuine connection.",
+    archetype_en: "Armadillo",
+    focus_en: "Joy without guilt",
     daily: {
       topic: "Tiefe und Zugehörigkeit",
       impulse: [
@@ -1974,6 +1998,8 @@ export const subtypeProfiles = {
     title_en: "The Passionate Individualist",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When your longing becomes presence rather than pursuit, you find what you have always sought.",
+    archetype_en: "Chihuahua",
+    focus_en: "Longing becomes presence",
     daily: {
       topic: "Intensität und emotionale Tiefe",
       impulse: [
@@ -2134,6 +2160,8 @@ export const subtypeProfiles = {
     title_en: "The Observer",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you step into life rather than just watching it, your understanding becomes wisdom in action.",
+    archetype_en: "Owl",
+    focus_en: "Understanding through participation",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2294,6 +2322,8 @@ export const subtypeProfiles = {
     title_en: "The Professor",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When you share your knowledge as a bridge rather than a boundary, you become a true guide.",
+    archetype_en: "Octopus",
+    focus_en: "Knowledge as a bridge",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2454,6 +2484,8 @@ export const subtypeProfiles = {
     title_en: "The Confidant",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you trust that connection nourishes rather than depletes you, intimacy becomes possible.",
+    archetype_en: "Hedgehog",
+    focus_en: "Intimacy that nourishes",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2614,6 +2646,8 @@ export const subtypeProfiles = {
     title_en: "The Anxious One",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you discover that safety can grow from within, anxiety loses its grip on your life.",
+    archetype_en: "Rabbit",
+    focus_en: "Safety grows from within",
     daily: {
       topic: "Angst & Treue",
       impulse: [
@@ -2774,6 +2808,8 @@ export const subtypeProfiles = {
     title_en: "The Loyalist",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When your loyalty flows from trust rather than fear, your commitment becomes a conscious choice.",
+    archetype_en: "Meerkat",
+    focus_en: "Loyalty from trust, not fear",
     daily: {
       topic: "Angst & Zugehörigkeit",
       impulse: [
@@ -2934,6 +2970,8 @@ export const subtypeProfiles = {
     title_en: "The Sensualist",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you allow yourself to stay with what is, pleasure deepens into genuine satisfaction.",
+    archetype_en: "Gorilla",
+    focus_en: "Presence deepens pleasure",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3090,6 +3128,8 @@ export const subtypeProfiles = {
     title_en: "The Visionary",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When your vision serves the whole rather than your own escape, your enthusiasm becomes truly inspiring.",
+    archetype_en: "Beaver",
+    focus_en: "Vision that serves the whole",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3246,6 +3286,8 @@ export const subtypeProfiles = {
     title_en: "The Adventurer",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you meet depth without fleeing, your joy becomes real rather than restless.",
+    archetype_en: "Chimpanzee",
+    focus_en: "Joy through depth",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3402,6 +3444,8 @@ export const subtypeProfiles = {
     title_en: "The Survivor",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you no longer need to fight to feel powerful, your strength becomes a force for protection.",
+    archetype_en: "Orangutan",
+    focus_en: "Strength that protects",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3558,6 +3602,8 @@ export const subtypeProfiles = {
     title_en: "The Protector",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When your power serves justice rather than dominance, your strength becomes a true shelter.",
+    archetype_en: "Lion",
+    focus_en: "Power in service of justice",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3714,6 +3760,8 @@ export const subtypeProfiles = {
     title_en: "The Challenger",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When your intensity meets tenderness, your power becomes the ground for genuine union.",
+    archetype_en: "Crocodile",
+    focus_en: "Intensity meets tenderness",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3870,6 +3918,8 @@ export const subtypeProfiles = {
     title_en: "The Comfort-Seeker",
     subtitle_en: "Self-Preservation Instinct",
     coreSentence_en: "When you discover that your presence matters, the need to disappear quietly fades away.",
+    archetype_en: "Elephant",
+    focus_en: "Your presence matters",
     daily: {
       topic: "Weisheit & Gerechtigkeit",
       impulse: [
@@ -4026,6 +4076,8 @@ export const subtypeProfiles = {
     title_en: "The Benefactor",
     subtitle_en: "Social Instinct",
     coreSentence_en: "When you include yourself in the harmony you create, your peace becomes complete.",
+    archetype_en: "Buffalo",
+    focus_en: "Include yourself in the harmony",
     daily: {
       topic: "Harmonie & Ausgleich",
       impulse: [
@@ -4182,6 +4234,8 @@ export const subtypeProfiles = {
     title_en: "The Merging One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
     coreSentence_en: "When you stay with yourself while opening to another, union becomes possible without losing yourself.",
+    archetype_en: "Sloth",
+    focus_en: "Union without losing yourself",
     daily: {
       topic: "Verschmelzung & Frieden",
       impulse: [
@@ -5064,7 +5118,7 @@ export const werkRegister = [
 // ---------------------------------------------------------------------------
 //  subtypeDetails — aufgeteilt in data/subtypes/<key>.js
 // ---------------------------------------------------------------------------
-export { subtypeDetails } from './subtypes/index.js?v=2026-07-16-en-v1';
+export { subtypeDetails } from './subtypes/index.js?v=2026-07-17-archetype-v1';
 
 
 export const uiText = {

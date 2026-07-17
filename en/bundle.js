@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-17-en-titles-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-17-archetype-v1";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "../data/impulse.js?v=2";
 import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -1565,8 +1565,8 @@ function startPage() {
       ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${enCode(p.code)}" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || enCode(p.code)}</div>`}
       <div>
         <span>${enCode(p.code)} · ${p.title}</span>
-        <strong>${p.focus}</strong>
-        <em>${copy.animalPrefix} ${p.archetype}</em>
+        <strong>${p.focus_en || p.focus}</strong>
+        <em>${copy.animalPrefix} ${p.archetype_en || p.archetype}</em>
       </div>
     </div>
   ` : '';
@@ -1635,19 +1635,19 @@ function startPage() {
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Which Animal Am I?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Questions &middot; 1 Minute &middot; Free</span></button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
               <span class="start-path__test-label">Diagnosis Test</span>
-              <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
+              <span class="start-path__test-sub">Quick start · 9 Profiles</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest" : "freischalt/basis"}">
-              <span class="start-path__test-label">Struktureller Typentest${hasBasis() ? "" : " 🔒"}</span>
-              <span class="start-path__test-sub">Ausführlich · mit Subtypees · für Fortgeschrittene</span>
+              <span class="start-path__test-label">Structural Type Test${hasBasis() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">In-depth · with Subtype · for Advanced Users</span>
             </button>
             <button class="start-path__btn start-path__btn--test start-path__btn--motivational${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "typentest-motivational" : "freischalt/heilwissen"}">
-              <span class="start-path__test-label">Motivationaler Typentest${hasHeilwissen() ? "" : " 🔒"}</span>
-              <span class="start-path__test-sub">100 Fragen · Schwerpunkt Motivation</span>
+              <span class="start-path__test-label">Motivational Type Test${hasHeilwissen() ? "" : " 🔒"}</span>
+              <span class="start-path__test-sub">100 Questions · Focus: Motivation</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "bewusstseinstest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Consciousness Level Self-Test${hasHeilwissen() ? "" : " 🔒"}</span>
-              <span class="start-path__test-sub">Wo stehe ich gerade? · Spiegel für Fortgeschrittene</span>
+              <span class="start-path__test-sub">Where am I right now? · Mirror for Advanced Users</span>
             </button>
           </div>
         </div>
@@ -1752,7 +1752,7 @@ function startPage() {
     <section class="model-credit">
       <p class="model-credit__label">Behind the Model</p>
       <p class="model-credit__text">The Enneagram Healing Compass is based on the jointly developed work of <strong>Detlef Rathmer</strong> (therapy &amp; healing) and <strong>David L. Rathmer</strong> (Enneagram Profiling for executives &amp; organizations).</p>
-      <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Mehr zu Davids Arbeit → enneascholars.de</a>
+      <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">More on David’s Work → enneascholars.de</a>
     </section>
 
     ${hasHeilwissen() ? `
@@ -1819,9 +1819,9 @@ function dashboardPage() {
       <div class="dashboard__copy">
         <p class="eyebrow">${copy.greeting} · ${p.center} · ${p.typeLabel || ''}</p>
         <h1>${enCode(p.code)} · ${p.title}</h1>
-        <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype}</p>
+        <p class="subtle-archetype">${p.titleAlt ? `auch: ${p.titleAlt} · ` : ''}${copy.animalBackground} ${p.archetype_en || p.archetype}</p>
         ${p.variant ? `<span class="variant-tag variant-tag--${p.variant.toLowerCase().replace('ä','ae').replace('ü','ue')}">${p.variant}</span>` : ''}
-        <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus}</p>
+        <p class="focus">Your Focus as ${enCode(p.code)}: ${p.focus_en || p.focus}</p>
         <div class="question-box">
           <span>${copy.organismQuestion}</span>
           <p>${p.organismQuestion}</p>
@@ -2700,7 +2700,7 @@ function _sucheResults(q) {
   Object.values(subtypeProfiles).forEach(p => {
     const hay = [p.code, p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
     if (hay.includes(lq)) {
-      res.subtypen.push({ label: enCode(p.code) + " – " + p.title, sub: p.archetype || "", route: "subtype/" + p.id });
+      res.subtypen.push({ label: enCode(p.code) + " – " + p.title, sub: p.archetype_en || p.archetype || "", route: "subtype/" + p.id });
     }
   });
 
@@ -3929,7 +3929,7 @@ function typePage(num) {
         <div class="subtyp-karte__body">
           <strong style="color:${c}">${p.title}</strong>
           <span>${enCode(p.code)} · ${instinktLabel}</span>
-          <em>${p.focus}</em>
+          <em>${p.focus_en || p.focus}</em>
         </div>
         <span class="subtyp-karte__arrow" style="color:${c}">→</span>
       </button>
@@ -4353,7 +4353,7 @@ function profilePage() {
       return `<button class="profile-card${active}" style="animation-delay:${delay}s" data-select-profile="${id}">
         <div class="profile-card__visual" style="position:relative;border-radius:50%;overflow:hidden;box-shadow:0 0 0 3px ${tc};">
           ${p.image
-            ? `<img src="${p.image}" alt="${p.archetype || p.code}" class="profile-card__img" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;animation:none;" />`
+            ? `<img src="${p.image}" alt="${p.archetype_en || p.archetype || p.code}" class="profile-card__img" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;animation:none;" />`
             : `<span class="profile-card__emoji">${p.emoji || ''}</span>`}
         </div>
         <span class="profile-card__code" style="color:${tc};">${enCode(p.code)}</span>
@@ -4979,7 +4979,7 @@ function typentestMotivationalPage() {
       ${pageHeader("typentest-motivational")}
       <div class="typentest-wrap">
         <div class="typentest-card">
-          <p class="eyebrow">Motivationaler Enneagrammtypentest · für Fortgeschrittene</p>
+          <p class="eyebrow">Motivational Enneagram Type Test · for Advanced Users</p>
           <h1 class="typentest-titel">Den tieferen Antrieb erkennen</h1>
           <p class="typentest-intro">Dieser Test fragt nach Ihren Motivationen, nicht nach Ihrem Verhalten. Wählen Sie bei jeder der 100 Fragen die zwei Aussagen, die am ehesten auf Sie zutreffen.</p>
           <div class="typentest-hinweis" style="margin-bottom:1.2rem;">
@@ -33685,7 +33685,7 @@ function freischaltPage() {
 
 function legalFooter() {
   const name = getLizenzName();
-  const lizenz = name ? `<span class="legal-footer__lizenz">Lizenziert für ${name}</span>` : "";
+  const lizenz = name ? `<span class="legal-footer__lizenz">Licensed for ${name}</span>` : "";
   const abmelden = hasBasis() ? `<span class="legal-footer__sep">·</span><button class="legal-footer__link" id="fbLogoutBtn" style="opacity:.6;">Sign out</button>` : "";
   return `<footer class="legal-footer">
     ${lizenz}
@@ -33693,7 +33693,7 @@ function legalFooter() {
     <span class="legal-footer__sep">·</span>
     <button class="legal-footer__link" data-route="datenschutz">Privacy</button>
     <span class="legal-footer__sep">·</span>
-    <a class="legal-footer__link" href="mailto:detlefrathmer@t-online.de?subject=Kompass-Hinweis" style="font-size:.78rem;opacity:.6;color:inherit;text-decoration:none;">Anmerkung senden</a>
+    <a class="legal-footer__link" href="mailto:detlefrathmer@t-online.de?subject=Kompass-Note" style="font-size:.78rem;opacity:.6;color:inherit;text-decoration:none;">Send a note</a>
     ${abmelden}
   </footer>`;
 }
@@ -37068,7 +37068,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v539';
+  const MY_VERSION = 'inhalt-v540';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
