@@ -14,6 +14,8 @@ export const registerEntries = [
 
   // B
   { term: "Bewusstseins\xfcbungen",     route: "bewusstseinsuebungen",     description: "Schaubild: 9 spirituelle \xdcbungsschritte zur\xfcck zur Pr\xe4senz – ein Weg durch alle 9 Enneagrammpunkte" },
+  { term: "Bewusstseinsgrade der 9 Typen", route: "dynamik-des-bewusstseinszustandes", description: "Die 9 Bewusstseinsstufen aller 9 Enneagrammtypen — von vollkommen unbewusst (Stufe 1) bis vollkommen bewusst (Stufe 9)." },
+  { term: "Bewusstseinsstufen",         route: "dynamik-des-bewusstseinszustandes", description: "Wie sich jeder Enneagrammtyp auf den 9 Bewusstseinsstufen verhält und entfaltet." },
   { term: "Bachbl\xfcten",              route: "healing",                  description: "Teil des Heilmittel-Kompasses für jeden Subtyp" },
   { term: "Basisemotionen",          route: "basisemotionen",           description: "Schaubild: die Grundemotionen der 9 Typen" },
   { term: "Blickqualität",           route: "blickqualitaet",           description: "Schaubild: Die primäre Blickqualität der 9 Enneagrammtypen" },

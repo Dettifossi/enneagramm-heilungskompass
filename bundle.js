@@ -5,7 +5,7 @@ import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typente
 import { MOTIVTEST } from "./data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=14";
-import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=3";
+import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=8";
 import { registerEntries } from "./data/register.js?v=21";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
@@ -1451,7 +1451,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Meinen Subtyp wählen →</button>
     <button class="secondary" data-route="leseprobe">App-Leseprobe ansehen</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen · € 49 →</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen · € 79 →</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren →</button>
   `;
 
@@ -1886,7 +1886,7 @@ function toolDetailPage(slug) {
     "aromatherapie": {
       intro: "Ätherische Öle sprechen das limbische System direkt an — sie wirken schneller als Worte. Das passende Öl für Ihren Subtyp unterstützt die Themen, an denen Sie gerade arbeiten.",
       steps: [
-        "Öffnen Sie das Fläschchen Ihres Subtyp-Öls (siehe Schaubild oben).",
+        `Öffnen Sie das Fläschchen Ihres Subtyp-Öls — schauen Sie vorher kurz auf Ihre <button class="inline-link" data-route="oils" data-scroll-to="oil-type-${p.code.replace(/\D/g,'')}" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Öl-Karte →</button>.`,
         "Geben Sie einen Tropfen auf Ihre Handflächen und reiben Sie sie sanft aneinander.",
         "Halten Sie die Hände vor Nase und Mund — atmen Sie dreimal tief ein.",
         "Lassen Sie den Duft wirken, ohne ihn zu bewerten.",
@@ -1993,6 +1993,8 @@ function toolDetailPage(slug) {
         </div>
       ` : ""}
 
+      ${["atemimpuls","koerperuebung","in-stille-sitzen"].includes(slug) ? bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Atemübungen, Stille, Körperbewusstsein – sieben einfache und wirkungsvolle Wege zu sich selbst.", "7 Wege zu Dir selbst") : ""}
+
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Zurück zu allen Werkzeugen</button>
         <button class="secondary" data-route="tcm">TCM-Profil &amp; Akupunktur ansehen</button>
@@ -2055,7 +2057,7 @@ function oelForType(code) {
 function oilCard(oel) {
   const c = text.routes.oils;
   return `
-    <article class="oil-card">
+    <article class="oil-card" id="oil-type-${oel.typ}">
       <div class="oil-card__image">
         <img src="${oel.image}" alt="${c.woundLabel} ${oel.typ} · ${oel.name}" loading="lazy" />
       </div>
@@ -2351,16 +2353,15 @@ function kaufenPage() {
         </ul>
         <h3>Für wen ist das gedacht?</h3>
         <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
-        <h3>Jetzt zum Einführungspreis — zeitlich begrenzt:</h3>
-        <p>€ 49 statt € 69 — dieser Preis gilt nur für die Einführungsphase. Wer früh kauft, spart € 20 und bekommt alle zukünftigen Updates inklusive.</p>
+        <h3>Einmaliger Kauf — lebenslanger Zugang:</h3>
+        <p>€ 79 — einmalig, kein Abo. Alle zukünftigen Updates sind inklusive.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;">
         <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem;">
-          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 49</span>
-          <span style="font-size:1.1rem;text-decoration:line-through;opacity:.5;">€ 69</span>
-          <span style="font-size:.85rem;background:#4a7c59;color:#fff;border-radius:20px;padding:.2rem .7rem;">Einführungspreis · zeitlich begrenzt</span>
+          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 79</span>
+          <span style="font-size:.85rem;color:var(--muted);">einmalig · kein Abo</span>
         </div>
         <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
           <li>✓ Alle 27 Subtyp-Profile vollständig</li>
@@ -2372,14 +2373,10 @@ function kaufenPage() {
           <li>✓ Komplette Bibliothek mit 60+ Büchern</li>
           <li>✓ Alle zukünftigen Updates inklusive</li>
         </ul>
-        <div style="background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px dashed var(--gold-dark);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.2rem;text-align:center;">
-          <p style="margin:0 0 .3rem;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;">Ihr Rabattcode</p>
-          <p style="margin:0 0 .4rem;font-size:1.5rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);letter-spacing:.08em;">KOMPASS2026</p>
-          <p style="margin:0;font-size:.8rem;color:var(--muted);">Wird automatisch eingetragen &ndash; Sie zahlen direkt <strong>€ 49</strong> statt € 69.</p>
-        </div>
-        <a href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener"
+        
+        <a href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener"
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
-          Jetzt Zugang kaufen → € 49
+          Jetzt Zugang kaufen → € 79
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf über Stripe &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
@@ -7296,7 +7293,7 @@ function beziehungenPage() {
           { gegner:"Typ 6", text:"Wenn Probleme auftreten, braucht Typ 6 st&auml;ndige Kommunikation, R&uuml;ckversicherung und das gemeinsame Durchspielen von Szenarien. Typ 5 zieht sich in der Krise lieber zur&uuml;ck, um alleine nachzudenken. Dieses Schweigen der 5 triggert die existenzielle Angst der 6 vor Unsicherheit." }
         ]},
         { typ:6, name:"Der Loyale", farbe:TYPE_COLORS[6], fälle:[
-          { gegner:"Typ 5", text:"In Phasen der Unsicherheit sucht Typ 6 den Schultersch&szlig;luss und den Austausch mit Verb&uuml;ndeten. Zieht sich Typ 5 nun in sein inneres Schneckenhaus zur&uuml;ck, empfindet die 6 diese Verweigerung von Information und Pr&auml;senz als akute Bedrohung oder sogar als Verrat." },
+          { gegner:"Typ 5", text:"In Phasen der Unsicherheit sucht Typ 6 den Schulterschluss und den Austausch mit Verb&uuml;ndeten. Zieht sich Typ 5 nun in sein inneres Schneckenhaus zur&uuml;ck, empfindet die 6 diese Verweigerung von Information und Pr&auml;senz als akute Bedrohung oder sogar als Verrat." },
           { gegner:"Typ 9", text:"Typ 6 neigt dazu, Probleme und Gefahren proaktiv anzusprechen und zu analysieren. Typ 9 hingegen sitzt Konflikte lieber aus und blendet das Negative aus, um den inneren Frieden zu wahren. Diese Passivit&auml;t der 9 treibt die ohnehin skeptische 6 in den Wahnsinn." }
         ]},
         { typ:7, name:"Der Enthusiast", farbe:TYPE_COLORS[7], fälle:[
@@ -33694,9 +33691,9 @@ function freischaltPage() {
         <div class="freischalt-card__angebote" style="justify-content:center;">
           <div class="freischalt-angebot freischalt-angebot--gesamt">
             <strong>Vollzugang</strong>
-            <span class="freischalt-angebot__preis">€ 49</span>
-            <span class="freischalt-angebot__label">Einführungspreis · inkl. aller Updates</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
+            <span class="freischalt-angebot__preis">€ 79</span>
+            <span class="freischalt-angebot__label">einmalig · inkl. aller Updates</span>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener">Jetzt Zugang kaufen →</a>
           </div>
         </div>
 
@@ -37048,7 +37045,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v582';
+  const MY_VERSION = 'inhalt-v588';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

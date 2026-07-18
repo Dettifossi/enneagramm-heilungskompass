@@ -5,7 +5,7 @@ import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typent
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=14";
-import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=3";
+import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=8";
 import { registerEntries } from "../data/register.js?v=21";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
@@ -1721,7 +1721,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Choose my subtype →</button>
     <button class="secondary" data-route="leseprobe">View app sample</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · € 49 →</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · € 79 →</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>
   `;
 
@@ -1743,19 +1743,19 @@ function startPage() {
            style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
                   border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          📚 Verlagshaus Rathmer
+          📚 Verlagshaus Rathmer <span style="font-weight:400;opacity:.75;">(Publishing House)</span>
         </a>
         <a href="https://psychologische-homoeopathie.de" target="_blank" rel="noopener"
            style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
                   border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          🌿 Naturheilpraxis Rathmer
+          🌿 Naturheilpraxis Rathmer <span style="font-weight:400;opacity:.75;">(Naturopathic Practice)</span>
         </a>
         <a href="https://enneascholars.de" target="_blank" rel="noopener"
            style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1rem;border-radius:20px;
                   border:1px solid var(--gold,#c4a456);background:transparent;color:var(--gold-dark,#8a6a1a);
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
-          🎓 Ennea Scholars
+          🎓 Ennea Scholars <span style="font-weight:400;opacity:.75;">(David L. Rathmer's work)</span>
         </a>
       </div>
     </section>
@@ -2210,6 +2210,74 @@ function enTwoPoints(tp) {
   };
 }
 
+// --- Runtime translation: tool.text (German → English) ---
+  const EN_TOOL_TEXT = {
+    "Spüre beiden Füßen auf dem Boden und lege eine Hand auf dein Herz. Atme tief. Lass den Moment ankommen.":
+      "Feel both feet on the ground and place one hand on your heart. Breathe deeply. Let the moment arrive.",
+    "Homöopathie, Bachblüten, Edelsteine und Tee – abgestimmt auf deinen Subtyp.":
+      "Homeopathy, Bach flowers, gemstones and tea – tailored to your subtype.",
+    "Setze dich aufrecht hin, schließe die Augen, und tue zwei Minuten lang nichts. Lass den Körper seine eigene Intelligenz zeigen.":
+      "Sit up straight, close your eyes, and do nothing for two minutes. Let the body reveal its own intelligence.",
+    "Wähle heute bewusst ein ätherisches Öl passend zu deinem Subtyp und atme es dreimal tief ein.":
+      "Today, consciously choose an essential oil suited to your subtype and inhale it three times deeply.",
+    "Wie schaust du heute in die Welt? Beobachte deine Blickrichtung, Spannung in den Augen und die Qualität deiner Aufmerksamkeit.":
+      "How do you look at the world today? Observe your gaze direction, the tension in your eyes, and the quality of your attention.",
+    "Aktivierung gezielt steuern": "Channel activation with intention",
+    "Drei tiefe Atemzüge. Auf der Einatmung weiten, auf der Ausatmung loslassen.": "Three deep breaths. Expand on the inhale, let go on the exhale.",
+    "Gefühle bewusst zulassen": "Allow feelings consciously",
+    "Reize dosiert aufnehmen": "Take in stimuli in measured doses",
+    "Reize filtern und priorisieren": "Filter and prioritise stimuli",
+    "Rückzug bewusst gestalten": "Shape withdrawal consciously",
+    "Sicherheit durch Beziehung": "Security through connection",
+    "Sicherheit durch Routine": "Security through routine",
+    "Sicherheit im Körper verankern": "Anchor safety in the body",
+    "Spannung bewusst regulieren": "Regulate tension consciously",
+    "Spannung gezielt steuern": "Direct tension with intention",
+    "Spannung im Körper regulieren": "Regulate tension in the body",
+    "Spannung schneller loslassen": "Release tension more quickly",
+    "innere Sicherheit kultivieren": "Cultivate inner security",
+    "Bewertung in Verständnis wandeln": "Transform judgement into understanding",
+    "Eifersucht und Besitzdenken lösen": "Release jealousy and possessiveness",
+    "Erholung bewusst einplanen": "Schedule rest consciously",
+    "Erregung bewusst kanalisieren": "Channel arousal consciously",
+    "Grenzen spüren und achten": "Feel and honour boundaries",
+    "Grenzen wahrnehmen und achten": "Perceive and honour boundaries",
+    "Kontrolle durch Wahrnehmung ersetzen": "Replace control with awareness",
+    "Rückzug zur Regeneration": "Withdrawal for regeneration",
+    "Steh auf, strecke dich, spüre deinen Körper von innen.": "Stand up, stretch, feel your body from within.",
+    "intensive Energie kanalisieren": "Channel intense energy",
+    "kreativen Ausdruck kultivieren": "Cultivate creative expression",
+    "kreativen Ausdruck pflegen": "Nurture creative expression",
+    "langsame, tiefe Atmung": "Slow, deep breathing",
+    "sich selbst wahrnehmen": "Perceive yourself",
+    "Frieden entsteht, wenn du aufhörst, dich selbst zu verleugnen.": "Peace arises when you stop denying yourself.",
+    "Ich bin eine Quelle der Fürsorge, die zuerst mich selbst nährt.": "I am a source of care that nourishes itself first.",
+    "Ich bin einzigartig – und genau darin liegt meine Verbindung zur Welt.": "I am unique – and that is precisely where my connection to the world lies.",
+    "Ich bin genug, auch wenn ich nicht performe – meine echte Ausstrahlung zieht an.": "I am enough, even when I am not performing – my authentic presence attracts.",
+    "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.": "I am worthy exactly as I am. In authenticity I inspire genuine connection.",
+    "Ich darf mich zeigen und verbinden, ohne mich zu verlieren.": "I may show myself and connect, without losing myself.",
+    "Ich gebe aus Liebe – und empfange mit offenem Herzen.": "I give from love – and receive with an open heart.",
+    "Ich gebe mich ganz hin und empfange echte Verbindung.": "I give myself fully and receive genuine connection.",
+    "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.": "I use my abilities for the good of the whole and inspire others through my authentic being.",
+    "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu gestalten.": "I use my strength wisely to protect, to lead, and to shape life.",
+    "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.": "I use my strength to live love, compassion and wisdom, and to honour life in its unity.",
+    "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.": "I use my strength to live in connection and to shape life consciously.",
+    "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.": "I use my strength to live in inner peace and to shape life consciously.",
+    "Ich nutze meine Kraft, um zu schützen, zu gestalten und das Leben zu stärken.": "I use my strength to protect, to shape, and to strengthen life.",
+    "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in seiner Tiefe zu erfahren.": "I use my magnetic strength to love, to protect, and to experience life in its depth.",
+    "Ich passe mich an, ohne mich zu verlieren, und finde Halt in mir selbst.": "I adapt without losing myself, and find my footing within.",
+    "Ich tauche tief in das Leben ein und ermögliche mir echte Verbundenheit.": "I immerse myself deeply in life and allow myself genuine connectedness.",
+    "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.": "I share my knowledge in connection and thereby strengthen the whole.",
+    "Ich vertraue auf mein Wissen und wähle, was mir wirklich dient.": "I trust my knowledge and choose what truly serves me.",
+    "Ich wähle Vertrauen statt Angst und Mut statt Kontrolle.": "I choose trust over fear and courage over control.",
+    "Ich wähle Vertrauen statt Angst und Verbundenheit statt Kontrolle.": "I choose trust over fear and connectedness over control.",
+    "Ich wähle das Leben in seiner ganzen Tiefe und schenke meine Freude der Welt.": "I choose life in all its depth and give my joy to the world.",
+    "Ordnung entsteht aus Präsenz, nicht aus Kontrolle.": "Order arises from presence, not from control.",
+    "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.": "True change begins when passion serves a higher purpose.",
+    "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.": "True change arises from wisdom, not from judgement.",
+  };
+  function enTranslateToolText(text) { return EN_TOOL_TEXT[text] || text; }
+
 function toolSlug(name) {
   return name.toLowerCase().replace(/[äöü]/g, c => ({ä:"ae",ö:"oe",ü:"ue"}[c])).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -2326,7 +2394,7 @@ function toolDetailPage(slug) {
     "aromatherapie": {
       intro: "Essential oils speak directly to the limbic system — they work faster than words. The right oil for your subtype supports the themes you are currently working on.",
       steps: [
-        "Open the bottle of your subtype oil (see diagram above).",
+        `Open the bottle of your subtype oil — take a quick look at your <button class="inline-link" data-route="oils" data-scroll-to="oil-type-${p.code.replace(/\D/g,'')}" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">oil card →</button> first.`,
         "Place a drop on your palms and rub them gently together.",
         "Hold your hands in front of your nose and mouth — inhale deeply three times.",
         "Let the scent unfold without judging it.",
@@ -2419,7 +2487,7 @@ function toolDetailPage(slug) {
       ${twoPointsBlock}
 
       <div style="background:var(--cream,#f9f6f0);border-radius:14px;padding:1.5rem;margin-bottom:1.2rem;">
-        <p style="font-size:1.05rem;line-height:1.7;margin:0;">${tool.text}</p>
+        <p style="font-size:1.05rem;line-height:1.7;margin:0;">${enTranslateToolText(tool.text)}</p>
       </div>
 
       ${detail ? `
@@ -2432,6 +2500,8 @@ function toolDetailPage(slug) {
           <p style="font-size:.88rem;color:#888;font-style:italic;margin:0;border-top:1px solid #eee;padding-top:.8rem;">💡 ${detail.hinweis}</p>
         </div>
       ` : ""}
+
+      ${["atemimpuls","koerperuebung","in-stille-sitzen"].includes(slug) ? bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Breathing, stillness, body awareness — seven simple and effective ways to find yourself.", "7 Wege zu Dir selbst") : ""}
 
       <div style="display:flex;flex-direction:column;gap:.75rem;">
         <button class="secondary" data-route="tools">Back to all tools</button>
@@ -2505,7 +2575,7 @@ function oilCard(oel) {
   const image   = en.image     || oel.image;
   const typLabelEN = `Type ${oel.typ} · ${OIL_TYPE_NAMES_EN[oel.typ] || ""}`;
   return `
-    <article class="oil-card">
+    <article class="oil-card" id="oil-type-${oel.typ}">
       <div class="oil-card__image">
         <img src="${image}" alt="Type ${oel.typ} · ${name}" loading="lazy" />
       </div>
@@ -3019,16 +3089,15 @@ function kaufenPage() {
         </ul>
         <h3>Für wen ist das gedacht?</h3>
         <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
-        <h3>Jetzt zum Einführungspreis — zeitlich begrenzt:</h3>
-        <p>€ 49 statt € 69 — dieser Preis gilt nur für die Einführungsphase. Wer früh kauft, spart € 20 und bekommt alle zukünftigen Updates inklusive.</p>
+        <h3>One-time purchase — lifetime access:</h3>
+        <p>€ 79 — one-time, no subscription. All future updates included.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;">
         <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem;">
-          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 49</span>
-          <span style="font-size:1.1rem;text-decoration:line-through;opacity:.5;">€ 69</span>
-          <span style="font-size:.85rem;background:#4a7c59;color:#fff;border-radius:20px;padding:.2rem .7rem;">Einführungspreis · zeitlich begrenzt</span>
+          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 79</span>
+          <span style="font-size:.85rem;color:var(--muted);">one-time · no subscription</span>
         </div>
         <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
           <li>✓ Alle 27 Subtype-Profile vollständig</li>
@@ -3040,14 +3109,10 @@ function kaufenPage() {
           <li>✓ Komplette Bibliothek mit 60+ Büchern</li>
           <li>✓ Alle zukünftigen Updates inklusive</li>
         </ul>
-        <div style="background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px dashed var(--gold-dark);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.2rem;text-align:center;">
-          <p style="margin:0 0 .3rem;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);font-weight:600;">Ihr Rabattcode</p>
-          <p style="margin:0 0 .4rem;font-size:1.5rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);letter-spacing:.08em;">KOMPASS2026</p>
-          <p style="margin:0;font-size:.8rem;color:var(--muted);">Wird automatisch eingetragen &ndash; Sie zahlen direkt <strong>€ 49</strong> statt € 69.</p>
-        </div>
-        <a href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener"
+        
+        <a href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener"
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
-          Buy access now → € 49
+          Buy access now → € 79
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \xfcber Stripe &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
@@ -9609,7 +9674,7 @@ function illusionenPage() {
              class="psycho-img" />
       </div>
       ${relatedLinks([
-        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wer-wir-sind", label:"Who We Are"},
         {route:"ego-fixierungen", label:"Ego-Fixierungen"},
         {route:"schutzdefizite", label:"Schutzdefizite"},
       ])}
@@ -10325,7 +10390,7 @@ function portraitsCompanionsPage() {
       ${bookTip("leidenschaft-und-heilung", "27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
-        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wer-wir-sind", label:"Who We Are"},
         {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
         {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
       ])}
@@ -10368,7 +10433,7 @@ function weihnachtsgeschenkePage() {
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
         {route:"affenarten", label:"Affenarten der Typen"},
         {route:"baumarten", label:"Baumarten der Typen"},
-        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wer-wir-sind", label:"Who We Are"},
       ])}
     </section>
   `);
@@ -10479,8 +10544,8 @@ function bewaeltigungsstrategiePage() {
       </div>
       ${relatedLinks([
         {route:"dialektische-struktur", label:"Dialektische Struktur"},
-        {route:"lookalike-typen", label:"Lookalike-Typen"},
-        {route:"verwechslungen", label:"Verwechslungen"},
+        {route:"lookalike-typen", label:"Lookalike Types"},
+        {route:"verwechslungen", label:"Common Mix-ups"},
       ])}
     </section>
   `);
@@ -10720,19 +10785,19 @@ function lookalikeTypenPage() {
   return shell(`
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
-      <p class="eyebrow">Charts · Lookalike-Typen</p>
-      <h1>Lookalike-Typen im Enneagramm</h1>
-      <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln ähnlich — obwohl sie nicht über Flügel oder Verbindungslinien miteinander verbunden sind. Diese Übersicht zeigt die wichtigsten sog. Lookalike-Typen und hilft bei der Differenzierung.</p>
+      <p class="eyebrow">Charts · Lookalike Types</p>
+      <h1>Lookalike Types in the Enneagram</h1>
+      <p class="lead-small">Some Enneagram types look strikingly similar — even though they are not connected by wings or integration lines. This overview shows the most important so-called lookalike types and aids differentiation.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
-      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt &ndash; inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
-        {route:"differenzierung", label:"Differenzierung"},
-        {route:"verwechslungen", label:"Verwechslungen"},
-        {route:"subtypen-checklisten", label:"Subtypees-Checklisten"},
+        {route:"differenzierung", label:"Differentiation"},
+        {route:"verwechslungen", label:"Common Mix-ups"},
+        {route:"subtypen-checklisten", label:"Subtype Checklists"},
       ])}
     </section>
   `);
@@ -10816,50 +10881,50 @@ function fuehrungsstilePage() {
 
 function beziehungenPage() {
   const typen = [
-    { nr: 1, leidenschaft: "Zorn / Groll", farbe: TYPE_COLORS[1], anziehung: "Zuverlässig, integer, verantwortungsbewusst", konflikt: "Tendenz zur Kritik und zum Perfektionismus &ndash; Partner fühlen sich oft, als ob sie nie genügen", lernfeld: "Milde üben &ndash; andere nicht korrigieren müssen" },
-    { nr: 2, leidenschaft: "Stolz / Hochmut", farbe: TYPE_COLORS[2], anziehung: "Liebevoll, fürsorglich, aufmerksam", konflikt: "Erwartet unbewusst Dankbarkeit und Gegenleistung; kann vereinnahmend wirken", lernfeld: "Eigene Bedürfnisse anerkennen &ndash; Liebe geschehen lassen" },
-    { nr: 3, leidenschaft: "Eitelkeit / Täuschung", farbe: TYPE_COLORS[3], anziehung: "Dynamisch, zielstrebig, charismatisch", konflikt: "Hinter der Fassade bleibt Unsicherheit; Partner spüren, dass er nicht ganz echt ist", lernfeld: "Sich zeigen wie man ist &ndash; Echtheit schafft mehr Nähe als Erfolg" },
-    { nr: 4, leidenschaft: "Neid / Missgunst", farbe: TYPE_COLORS[4], anziehung: "Tiefgründig, kreativ, leidenschaftlich", konflikt: "Schwankt zwischen Sehnsucht und Enttäuschung; fühlt sich schnell nicht gesehen", lernfeld: "Dankbarkeit kultivieren &ndash; würdigen, was da ist" },
-    { nr: 5, leidenschaft: "Geiz / Habsucht", farbe: TYPE_COLORS[5], anziehung: "Ruhig, reflektiert, wissend", konflikt: "Distanz wirkt auf Partner schwer erträglich; Nähe fühlt sich für ihn wie Übergriff an", lernfeld: "Sich öffnen und teilen &ndash; im Herzen präsent sein" },
-    { nr: 6, leidenschaft: "Angst / Zweifel", farbe: TYPE_COLORS[6], anziehung: "Treu, aufmerksam, zuverlässig", konflikt: "Zweifel und Misstrauen belasten die Partnerschaft; schwankt zwischen Bindung und Skepsis", lernfeld: "Vertrauen als Risiko akzeptieren &ndash; nicht ständig absichern" },
-    { nr: 7, leidenschaft: "Völlerei / Exzess", farbe: TYPE_COLORS[7], anziehung: "Inspirierend, unterhaltsam, voller Ideen", konflikt: "Meidet Schmerz und Tiefe; Partner können sich zurückgesetzt fühlen", lernfeld: "Beständigkeit üben &ndash; Schmerz aushalten und Tiefe zulassen" },
-    { nr: 8, leidenschaft: "Wollust / Maßlosigkeit", farbe: TYPE_COLORS[8], anziehung: "Kraftvoll, beschützend, entschlossen", konflikt: "Drang zur Kontrolle kann erdrückend sein; Partner fühlen sich überrollt", lernfeld: "Verletzlichkeit zulassen &ndash; Stärke auch als Zuwendung leben" },
-    { nr: 9, leidenschaft: "Trägheit / Selbstvergessenheit", farbe: TYPE_COLORS[9], anziehung: "Ausgleichend, geduldig, freundlich", konflikt: "Vergisst sich selbst, passt sich an; Beziehung gerät in Stagnation", lernfeld: "Eigenen Willen einbringen &ndash; klar Position beziehen" },
+    { nr: 1, leidenschaft: "Wrath / Resentment", farbe: TYPE_COLORS[1], anziehung: "Reliable, principled, responsible", konflikt: "Tendency toward criticism and perfectionism &ndash; partners often feel they can never measure up", lernfeld: "Practise leniency &ndash; not needing to correct others" },
+    { nr: 2, leidenschaft: "Pride / Arrogance", farbe: TYPE_COLORS[2], anziehung: "Loving, caring, attentive", konflikt: "Unconsciously expects gratitude and reciprocity; can seem possessive", lernfeld: "Acknowledge own needs &ndash; let love happen" },
+    { nr: 3, leidenschaft: "Vanity / Deceit", farbe: TYPE_COLORS[3], anziehung: "Dynamic, goal-oriented, charismatic", konflikt: "Insecurity hides behind the facade; partners sense they&apos;re not getting the real person", lernfeld: "Show who you are &ndash; authenticity creates more closeness than success" },
+    { nr: 4, leidenschaft: "Envy / Resentment", farbe: TYPE_COLORS[4], anziehung: "Deep, creative, passionate", konflikt: "Oscillates between longing and disappointment; quickly feels unseen", lernfeld: "Cultivate gratitude &ndash; appreciate what is here" },
+    { nr: 5, leidenschaft: "Avarice / Greed", farbe: TYPE_COLORS[5], anziehung: "Calm, reflective, knowledgeable", konflikt: "Distance becomes hard to bear for partners; closeness feels like an intrusion", lernfeld: "Open up and share &ndash; be present in the heart" },
+    { nr: 6, leidenschaft: "Fear / Doubt", farbe: TYPE_COLORS[6], anziehung: "Loyal, attentive, reliable", konflikt: "Doubt and mistrust strain the partnership; oscillates between bonding and scepticism", lernfeld: "Accept trust as a risk &ndash; don&apos;t constantly seek reassurance" },
+    { nr: 7, leidenschaft: "Gluttony / Excess", farbe: TYPE_COLORS[7], anziehung: "Inspiring, entertaining, full of ideas", konflikt: "Avoids pain and depth; partners can feel sidelined", lernfeld: "Practise constancy &ndash; endure pain and allow depth" },
+    { nr: 8, leidenschaft: "Lust / Intensity", farbe: TYPE_COLORS[8], anziehung: "Powerful, protective, decisive", konflikt: "Drive for control can be suffocating; partners feel steamrolled", lernfeld: "Allow vulnerability &ndash; live strength as tenderness too" },
+    { nr: 9, leidenschaft: "Sloth / Self-forgetting", farbe: TYPE_COLORS[9], anziehung: "Balancing, patient, friendly", konflikt: "Forgets self, adapts; the relationship stagnates", lernfeld: "Assert your own will &ndash; take a clear position" },
   ];
 
   const subtypes = [
-    { code: "SP1", text: "Sucht Ordnung und Verlässlichkeit in Intimität" }, { code: "SO1", text: "Möchte ein richtiges Paar darstellen" }, { code: "SX1", text: "Leidenschaftlich und gleichzeitig streng mit hohen Ansprüchen" },
-    { code: "SP2", text: "Gibt Fürsorge körperlich, erwartet Dankbarkeit" }, { code: "SO2", text: "Sucht Bewunderung für die gemeinsame Nähe" }, { code: "SX2", text: "Will exklusive Verschmelzung, kann besitzergreifend sein" },
-    { code: "SP3", text: "Verbindet Erotik mit Leistungsfähigkeit" }, { code: "SO3", text: "Achtet auf äußere Wirkung, auch in der Partnerschaft" }, { code: "SX3", text: "Sucht Spiegelung durch intensive erotische Bestätigung" },
-    { code: "SP4", text: "Nähe über Fürsorge, mit unterschwelligem Gefühl des Mangels" }, { code: "SO4", text: "Vergleicht sich ständig, sucht besondere Bindung" }, { code: "SX4", text: "Drängt dramatisch in Intensität und Verschmelzung" },
-    { code: "SP5", text: "Hält Distanz, Sexualität kontrolliert" }, { code: "SO5", text: "Sucht Austausch im Denken, körperlich zurückhaltend" }, { code: "SX5", text: "Überraschend leidenschaftlich, wenn Vertrauen da ist" },
-    { code: "SP6", text: "Sucht Sicherheit und verlässliche Routinen" }, { code: "SO6", text: "Fragt nach Zugehörigkeit im sozialen Kontext" }, { code: "SX6", text: "Schwankt zwischen Hingabe und Misstrauen" },
-    { code: "SP7", text: "Verspielt, leicht, lustvoll ohne Risiko" }, { code: "SO7", text: "Erotisches Abenteuer im sozialen Raum" }, { code: "SX7", text: "Intensive Hingabe, manchmal maßlos" },
-    { code: "SP8", text: "Kraftvoll, sinnlich, mit Stärke verbunden" }, { code: "SO8", text: "Beschützerrolle auch sexuell betont" }, { code: "SX8", text: "Dominant, leidenschaftlich, zugleich zärtlich in der Tiefe" },
-    { code: "SP9", text: "Sucht friedvolle Nähe, Sexualität als Geborgenheit" }, { code: "SO9", text: "Will Harmonie im größeren Rahmen" }, { code: "SX9", text: "Verschmelzend, verliert sich leicht im Partner" },
+    { code: "SP1", text: "Seeks order and reliability in intimacy" }, { code: "SO1", text: "Wants to present as a proper couple" }, { code: "SX1", text: "Passionate yet strict with high standards" },
+    { code: "SP2", text: "Gives care physically, expects gratitude" }, { code: "SO2", text: "Seeks admiration for shared closeness" }, { code: "SX2", text: "Wants exclusive fusion, can be possessive" },
+    { code: "SP3", text: "Links eroticism with performance" }, { code: "SO3", text: "Mindful of outward impression, even in partnership" }, { code: "SX3", text: "Seeks mirroring through intense erotic affirmation" },
+    { code: "SP4", text: "Closeness through care, with an undercurrent of lack" }, { code: "SO4", text: "Constantly compares, seeks a special bond" }, { code: "SX4", text: "Pushes dramatically toward intensity and fusion" },
+    { code: "SP5", text: "Keeps distance, sexuality controlled" }, { code: "SO5", text: "Seeks exchange through ideas, reserved physically" }, { code: "SX5", text: "Surprisingly passionate when trust is there" },
+    { code: "SP6", text: "Seeks security and reliable routines" }, { code: "SO6", text: "Looks for belonging in a social context" }, { code: "SX6", text: "Oscillates between devotion and mistrust" },
+    { code: "SP7", text: "Playful, light, pleasurable without risk" }, { code: "SO7", text: "Erotic adventure in social space" }, { code: "SX7", text: "Intense devotion, sometimes excessive" },
+    { code: "SP8", text: "Powerful, sensual, connected to strength" }, { code: "SO8", text: "Protector role also emphasised sexually" }, { code: "SX8", text: "Dominant, passionate, yet tender in the depths" },
+    { code: "SP9", text: "Seeks peaceful closeness, sexuality as a sense of safety" }, { code: "SO9", text: "Wants harmony in a broader frame" }, { code: "SX9", text: "Merging, easily loses oneself in the partner" },
   ];
 
   return shell(`
     ${pageHeader("beziehungen")}
     <section class="narrow">
-      <p class="eyebrow">Relationships & Nähe</p>
-      <h1>Die 9 Enneagrammtypen in Relationships</h1>
-      <p class="lead-small">Was zieht uns zu anderen hin &ndash; und was bringt uns in Konflikt? Jeder Enneagrammtyp trägt seine Leidenschaft in jede Beziehung. Diese Übersicht zeigt Anziehungskraft, typische Konflikte und das Lernfeld jedes Typs.</p>
+      <p class="eyebrow">Relationships &amp; Closeness</p>
+      <h1>The 9 Enneagram Types in Relationships</h1>
+      <p class="lead-small">What draws us toward others &ndash; and what brings us into conflict? Every Enneagram type carries their passion into every relationship. This overview shows the attraction, typical conflicts, and the learning field of each type.</p>
 
       <div style="display:flex; flex-direction:column; gap:1rem; margin-top:1.5rem;">
         ${typen.map(t => `
         <div style="border-left:4px solid ${t.farbe}; padding:0.85rem 1.1rem; background:color-mix(in srgb, ${t.farbe} 6%, var(--paper)); border-radius:0 0.5rem 0.5rem 0;">
-          <strong style="color:${t.farbe}; font-size:1rem;">Typ ${t.nr} · ${t.leidenschaft}</strong>
+          <strong style="color:${t.farbe}; font-size:1rem;">Type ${t.nr} \xb7 ${t.leidenschaft}</strong>
           <div style="margin-top:0.5rem; display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem; font-size:0.85rem; color:var(--ink);">
-            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Anziehung</span><br>${t.anziehung}</div>
-            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Konflikt</span><br>${t.konflikt}</div>
-            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Lernfeld</span><br>${t.lernfeld}</div>
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Attraction</span><br>${t.anziehung}</div>
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Conflict</span><br>${t.konflikt}</div>
+            <div><span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Learning Field</span><br>${t.lernfeld}</div>
           </div>
         </div>`).join("")}
       </div>
 
       <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">The 27 Subtypes &ndash; Closeness &amp; Intimacy</h2>
-      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">How the instinct (SP · SO · SX) shapes the way a type experiences and expresses closeness.</p>
+      <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">How the instinct (SP \xb7 SO \xb7 SX) shapes the way a type experiences and expresses closeness.</p>
       <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem;">
         ${subtypes.map(s => `
         <div style="background:color-mix(in srgb, ${TYPE_COLORS[parseInt(s.code.slice(-1))]||'var(--copper)'} 10%, var(--paper)); border:1.5px solid ${TYPE_COLORS[parseInt(s.code.slice(-1))]||'var(--copper)'}40; border-radius:0.4rem; padding:0.6rem 0.75rem; font-size:0.82rem;">
@@ -10871,15 +10936,18 @@ function beziehungenPage() {
       <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">27 Comics: Mirror of Human Patterns</h2>
       <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1rem;">The images reflect the deep desires, fears, and escapes of the 27 subtypes &ndash; sometimes tender, sometimes stark. Tap a comic to zoom in.</p>
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.6rem; margin-bottom:2rem;">
-        ${["SP1","SO1","SX1","SP2","SO2","SX2","SP3","SO3","SX3","SP4","SO4","SX4","SP5","SO5","SX5","SP6","SO6","SX6","SP7","SO7","SX7","SP8","SO8","SX8","SP9","SO9","SX9"].map(code => `
+        ${["SP1","SO1","SX1","SP2","SO2","SX2","SP3","SO3","SX3","SP4","SO4","SX4","SP5","SO5","SX5","SP6","SO6","SX6","SP7","SO7","SX7","SP8","SO8","SX8","SP9","SO9","SX9"].map(code => {
+          const seCode = code.replace(/^SP/, 'SE');
+          return `
         <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
-             data-comic-open="${code.toLowerCase()}"
+             data-comic-open="${seCode.toLowerCase()}"
              title="${code} &ndash; tap to zoom in">
-          <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
+          <img src="${CDN}assets/comics/${seCode.toLowerCase()}.jpg"
                alt="Comic ${code}"
                style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
           <div style="text-align:center; font-size:0.72rem; font-weight:700; color:${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'}; background:color-mix(in srgb,${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'} 10%,var(--paper)); padding:0.3rem 0; border-top:1px solid var(--line);">${code}</div>
-        </div>`).join("")}
+        </div>`;
+        }).join("")}
       </div>
 
       <h2 style="margin-top:2.5rem; font-size:1.15rem; letter-spacing:0.04em; color:var(--ink);">Pairing Compass: How do two subtypes fit together?</h2>
@@ -10899,41 +10967,43 @@ function beziehungenPage() {
 
       <div id="bez-paarungen">
       ${beziehungSelected ? (() => {
-        const matches = BEZIEHUNGS_PAARUNGEN.filter(p => p.a === beziehungSelected || p.b === beziehungSelected);
-        const partner = matches.map(p => p.a === beziehungSelected ? p.b : p.a);
+        const dataCode = beziehungSelected.replace(/^SP/, 'SE');
+        const matches = BEZIEHUNGS_PAARUNGEN.filter(p => p.a === dataCode || p.b === dataCode);
+        const partner = matches.map(p => p.a === dataCode ? p.b : p.a);
         const typeColors = TYPE_COLORS;
         return `
         <div style="margin-bottom:0.5rem; font-size:0.88rem; color:var(--muted);">
-          <strong style="color:${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||'var(--copper)'};">${beziehungSelected}</strong> in Kombination mit allen anderen 26 Subtypees:
+          <strong style="color:${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||'var(--copper)'};">${beziehungSelected}</strong> paired with all 26 other subtypes:
         </div>
         <div style="display:flex; flex-direction:column; gap:0.75rem;">
           ${matches.map((p, i) => {
-            const partnerCode = partner[i];
+            const partnerCodeRaw = partner[i];
+            const partnerCode = partnerCodeRaw.replace(/^SE/, 'SP');
             const typeNr = partnerCode.slice(-1);
             const col = TYPE_COLORS[parseInt(typeNr)] || "var(--copper)";
             return `
             <div style="border-left:3px solid ${col}; padding:0.7rem 1rem; background:color-mix(in srgb, ${col} 5%, var(--paper)); border-radius:0 0.4rem 0.4rem 0;">
               <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.45rem;">
                 <strong style="font-size:0.92rem;"><span style="color:${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||'var(--copper)'}">${beziehungSelected}</span><span style="color:var(--muted);font-weight:400;"> + </span><span style="color:${col}">${partnerCode}</span></strong>
-                <span style="font-size:0.8rem; color:var(--muted);">${p.dynamik}</span>
+                <span style="font-size:0.8rem; color:var(--muted);">${p.dynamikEN||p.dynamik}</span>
               </div>
               <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem; font-size:0.82rem; color:var(--ink);">
-                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Gefahr</span><br>${p.gefahr}</div>
-                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Chance</span><br>${p.chance}</div>
-                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Kurztipp</span><br>${p.kurztipp}</div>
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Risk</span><br>${p.gefahrEN||p.gefahr}</div>
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Opportunity</span><br>${p.chanceEN||p.chance}</div>
+                <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Quick Tip</span><br>${p.kurztippEN||p.kurztipp}</div>
               </div>
               ${p.vertiefung ? `
               <div style="margin-top:0.75rem; padding-top:0.65rem; border-top:1px solid color-mix(in srgb, ${col} 20%, var(--line)); font-size:0.84rem; color:var(--ink); line-height:1.55;">
-                ${p.vertiefung}
+                ${p.vertiefungEN||p.vertiefung}
               </div>
               <div style="margin-top:0.6rem; display:grid; grid-template-columns:1fr 1fr; gap:0.4rem;">
                 <div style="background:color-mix(in srgb, ${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||col} 18%, var(--paper)); border-radius:0.3rem; padding:0.45rem 0.6rem; font-size:0.8rem;">
-                  <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; color:${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||col}; font-weight:700;">Für ${p.a === beziehungSelected ? p.a : p.b}</span><br>
-                  <span style="color:var(--ink);">${p.a === beziehungSelected ? p.tippA : p.tippB}</span>
+                  <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; color:${TYPE_COLORS[parseInt(beziehungSelected.slice(-1))]||col}; font-weight:700;">For ${beziehungSelected}</span><br>
+                  <span style="color:var(--ink);">${p.a === dataCode ? (p.tippAen||p.tippA) : (p.tippBen||p.tippB)}</span>
                 </div>
                 <div style="background:color-mix(in srgb, ${col} 18%, var(--paper)); border-radius:0.3rem; padding:0.45rem 0.6rem; font-size:0.8rem;">
-                  <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; color:${col}; font-weight:700;">Für ${p.a === beziehungSelected ? p.b : p.a}</span><br>
-                  <span style="color:var(--ink);">${p.a === beziehungSelected ? p.tippB : p.tippA}</span>
+                  <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; color:${col}; font-weight:700;">For ${partnerCode}</span><br>
+                  <span style="color:var(--ink);">${p.a === dataCode ? (p.tippBen||p.tippB) : (p.tippAen||p.tippA)}</span>
                 </div>
               </div>` : ""}
             </div>`;
@@ -10943,75 +11013,74 @@ function beziehungenPage() {
 
       </div>
 
-      ${bookTip("die-sprache-unserer-beziehungen", "365 Typ- und Subtypees-Kombinationen im Überblick &ndash; das komplette Beziehungslexikon des Enneagramms.", "Die Sprache unserer Relationships")}
-      ${bookTip("die-sprache-unserer-sexualitaet", "Wie Nähe, Leidenschaft und Intimität bei allen 27 Subtypees erlebt werden &ndash; mit Übungen für Paare.", "Die Sprache unserer Sexualität")}
+      ${bookTip("die-sprache-unserer-beziehungen", "365 type and subtype combinations at a glance &ndash; the complete relationship encyclopedia of the Enneagram.", "Die Sprache unserer Beziehungen")}
+      ${bookTip("die-sprache-unserer-sexualitaet", "How closeness, passion, and intimacy are experienced across all 27 subtypes &ndash; with exercises for couples.", "Die Sprache unserer Sexualit\xe4t")}
 
       <hr style="margin:2.5rem 0;border:none;border-top:1px solid var(--line);" />
-      <h2 style="font-size:1.2rem;letter-spacing:.03em;color:var(--ink);margin-bottom:.5rem;">Die Beziehungs-Dynamik: Deine zwei gr&ouml;&szlig;ten Herausforderungen</h2>
-      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:.5rem;">Im Enneagramm geht es nicht darum, Menschen in Schubladen zu stecken, sondern zu verstehen, <em>warum</em> wir so ticken, wie wir ticken. Jede der neun Pers&ouml;nlichkeiten nutzt eine ganz eigene Strategie, um das Leben zu meistern, Schmerz zu vermeiden und Liebe zu finden.</p>
-      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:.5rem;">Aus der jahrzehntelangen Erfahrung der Enneagramm-Arbeit wissen wir: Es gibt unter den acht &uuml;brigen Typen fast immer <strong>zwei spezifische Charaktere, mit denen die Reibung von Natur aus besonders intensiv ist</strong>. Das liegt nicht daran, dass diese Menschen &bdquo;schlecht&ldquo; sind, sondern daran, dass ihre tiefsten Kernwunden und Abwehrmechanismen genau das triggern, was wir bei uns selbst am meisten f&uuml;rchten oder unterdr&uuml;cken.</p>
-      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:1.5rem;">Hier erfahren Sie, welche zwei Typen f&uuml;r Ihr Enneagramm-Profil die gr&ouml;&szlig;te Herausforderung darstellen &ndash; und warum es zwischen Ihnen so oft funkt.</p>
+      <h2 style="font-size:1.2rem;letter-spacing:.03em;color:var(--ink);margin-bottom:.5rem;">Relationship Dynamics: Your Two Greatest Challenges</h2>
+      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:.5rem;">The Enneagram is not about putting people in boxes, but understanding <em>why</em> we tick the way we tick. Each of the nine personalities uses its own unique strategy to master life, avoid pain, and find love.</p>
+      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:.5rem;">From decades of Enneagram work we know: among the eight other types, there are almost always <strong>two specific characters with whom friction is naturally most intense</strong>. This is not because these people are &bdquo;bad&ldquo;, but because their deepest core wounds and defence mechanisms trigger precisely what we ourselves fear or suppress most.</p>
+      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:1.5rem;">Here you will discover which two types represent the greatest challenge for your Enneagram profile &ndash; and why it so often sparks between you.</p>
 
       ${[
-        { typ:1, name:"Der Reformer", farbe:TYPE_COLORS[1], fälle:[
-          { gegner:"Typ 4", text:"Typ 1 strebt nach logischer Perfektion, Struktur und emotionaler Selbstbeherrschung. Typ 4 hingegen taucht tief in unberechenbare, intensive Gef&uuml;hlswelten ab. Die 1 empfindet die 4 oft als &bdquo;zu dramatisch&ldquo;, w&auml;hrend die 4 die 1 als kalt, starr und verurteilend wahrnimmt." },
-          { gegner:"Typ 7", text:"Typ 1 lebt nach einem strengen Pflicht- und Regelbewusstsein. Typ 7 flieht vor Verpflichtungen und sucht das Abenteuer und den Spa&szlig;. F&uuml;r die 7 wirkt die 1 schnell wie ein strenger Gef&auml;ngniswärter; f&uuml;r die 1 wirkt die 7 unverantwortlich und oberfl&auml;chlich." }
+        { typ:1, name:"The Reformer", farbe:TYPE_COLORS[1], faelle:[
+          { gegner:"Type 4", text:"Type 1 strives for logical perfection, structure, and emotional self-control. Type 4, by contrast, dives deep into unpredictable, intense emotional worlds. The 1 often perceives the 4 as &bdquo;too dramatic&ldquo;, while the 4 perceives the 1 as cold, rigid, and judgemental." },
+          { gegner:"Type 7", text:"Type 1 lives by a strict sense of duty and rule-consciousness. Type 7 escapes obligation and seeks adventure and fun. To the 7, the 1 quickly feels like a strict warden; to the 1, the 7 seems irresponsible and superficial." }
         ]},
-        { typ:2, name:"Der Helfer", farbe:TYPE_COLORS[2], fälle:[
-          { gegner:"Typ 5", text:"Typ 2 sucht emotionale N&auml;he, Verbundenheit und Best&auml;tigung durch das Gegen&uuml;ber. Typ 5 hingegen sch&uuml;tzt seine Energie, braucht extrem viel Distanz und zieht sich zur&uuml;ck. Die 2 f&uuml;hlt sich dadurch eiskalt abgewiesen, w&auml;hrend die 5 sich von den emotionalen Anspr&uuml;chen der 2 v&ouml;llig bedrängt und ausgesaugt f&uuml;hlt." },
-          { gegner:"Typ 8", text:"Typ 2 m&ouml;chte gebraucht werden und nutzt oft subtile, schmeichelhafte Zuwendung. Typ 8 verabscheut jede Form von (scheinbarer) emotionaler Manipulation oder Schw&auml;che aufs Tiefste. Die 8 reagiert oft mit schonungsloser H&auml;rte, was die sensible 2 tief verletzt." }
+        { typ:2, name:"The Helper", farbe:TYPE_COLORS[2], faelle:[
+          { gegner:"Type 5", text:"Type 2 seeks emotional closeness, connection, and affirmation from the other person. Type 5, by contrast, protects their energy, needs enormous distance, and withdraws. The 2 experiences this as an ice-cold rejection, while the 5 feels completely pressured and drained by the 2&apos;s emotional demands." },
+          { gegner:"Type 8", text:"Type 2 wants to be needed and often uses subtle, flattering attention. Type 8 deeply despises any form of (apparent) emotional manipulation or weakness. The 8 often reacts with merciless harshness, which deeply wounds the sensitive 2." }
         ]},
-        { typ:3, name:"Der Dynamiker", farbe:TYPE_COLORS[3], fälle:[
-          { gegner:"Typ 1", text:"Typ 3 ist pragmatisch und biegt im Zweifel auch mal eine Regel oder verstellt sich, um das Ziel und den Erfolg zu erreichen. Typ 1 hingegen duldet keine moralischen Kompromisse. Die 1 verurteilt das Verhalten der 3 als unaufrichtig, was den Stolz der 3 tief trifft." },
-          { gegner:"Typ 7", text:"Typ 3 arbeitet hochfokussiert, diszipliniert und ergebnisorientiert. Typ 7 l&auml;sst sich gerne von neuen M&ouml;glichkeiten ablenken und will den Moment genie&szlig;en. Die 3 verliert die Geduld, weil die 7 aus ihrer Sicht nicht ernsthaft bei der Sache bleibt." }
+        { typ:3, name:"The Achiever", farbe:TYPE_COLORS[3], faelle:[
+          { gegner:"Type 1", text:"Type 3 is pragmatic and will bend a rule or put on a persona if it means reaching their goal and succeeding. Type 1, however, tolerates no moral compromises. The 1 condemns the 3&apos;s behaviour as dishonest, which deeply wounds the 3&apos;s pride." },
+          { gegner:"Type 7", text:"Type 3 works with high focus, discipline, and results-orientation. Type 7 enjoys being distracted by new possibilities and wants to enjoy the moment. The 3 loses patience because, from their perspective, the 7 isn&apos;t seriously committed." }
         ]},
-        { typ:4, name:"Der Individualist", farbe:TYPE_COLORS[4], fälle:[
-          { gegner:"Typ 1", text:"Typ 1 versucht, Gef&uuml;hle durch Vernunft und Disziplin zu kontrollieren und kritisiert die emotionale &bdquo;Z&uuml;gellosigkeit&ldquo; der 4. Typ 4 f&uuml;hlt sich dadurch in ihrer Einzigartigkeit missverstanden und als &bdquo;falsch&ldquo; zur&uuml;ckgewiesen." },
-          { gegner:"Typ 8", text:"Typ 4 dr&uuml;ckt sich durch feine, verletzliche und oft melancholische Nuancen aus. Typ 8 walzt mit ihrer direkten, machtvollen und lauten Art diese feinen Schwingungen oft unabsichtlich nieder. Die 4 zieht sich verletzt ins Drama zur&uuml;ck, die 8 verliert den Respekt vor der vermeintlichen Schw&auml;che." }
+        { typ:4, name:"The Individualist", farbe:TYPE_COLORS[4], faelle:[
+          { gegner:"Type 1", text:"Type 1 tries to control feelings through reason and discipline, and criticises the emotional &bdquo;indulgence&ldquo; of the 4. Type 4 feels misunderstood in their uniqueness and rejected as &bdquo;wrong&ldquo;." },
+          { gegner:"Type 8", text:"Type 4 expresses themselves through fine, vulnerable, and often melancholic nuances. Type 8 steamrolls those subtle vibrations with their direct, powerful, and loud manner &ndash; often unintentionally. The 4 withdraws into drama feeling hurt, the 8 loses respect for what seems like weakness." }
         ]},
-        { typ:5, name:"Der Beobachter", farbe:TYPE_COLORS[5], fälle:[
-          { gegner:"Typ 2", text:"Typ 2 fordert emotionale W&auml;rme und Interaktion, um sich sicher zu f&uuml;hlen. Typ 5 hat jedoch nur einen begrenzten Energie-Akku f&uuml;r soziale Contacte. Fordert die 2 mehr, schaltet die 5 auf stur und zieht sich komplett zur&uuml;ck, was die Verlustangst der 2 maximiert." },
-          { gegner:"Typ 6", text:"Wenn Probleme auftreten, braucht Typ 6 st&auml;ndige Kommunikation, R&uuml;ckversicherung und das gemeinsame Durchspielen von Szenarien. Typ 5 zieht sich in der Krise lieber zur&uuml;ck, um alleine nachzudenken. Dieses Schweigen der 5 triggert die existenzielle Angst der 6 vor Unsicherheit." }
+        { typ:5, name:"The Observer", farbe:TYPE_COLORS[5], faelle:[
+          { gegner:"Type 2", text:"Type 2 demands emotional warmth and interaction to feel secure. Type 5, however, has only a limited energy reserve for social contact. When the 2 demands more, the 5 shuts down and withdraws completely, which maximises the 2&apos;s fear of loss." },
+          { gegner:"Type 6", text:"When problems arise, Type 6 needs constant communication, reassurance, and working through scenarios together. Type 5 prefers to withdraw in a crisis to think alone. This silence of the 5 triggers the 6&apos;s existential fear of uncertainty." }
         ]},
-        { typ:6, name:"Der Loyale", farbe:TYPE_COLORS[6], fälle:[
-          { gegner:"Typ 5", text:"In Phasen der Unsicherheit sucht Typ 6 den Schultersch&szlig;luss und den Austausch mit Verb&uuml;ndeten. Zieht sich Typ 5 nun in sein inneres Schneckenhaus zur&uuml;ck, empfindet die 6 diese Verweigerung von Information und Pr&auml;senz als akute Bedrohung oder sogar als Verrat." },
-          { gegner:"Typ 9", text:"Typ 6 neigt dazu, Probleme und Gefahren proaktiv anzusprechen und zu analysieren. Typ 9 hingegen sitzt Konflikte lieber aus und blendet das Negative aus, um den inneren Frieden zu wahren. Diese Passivit&auml;t der 9 treibt die ohnehin skeptische 6 in den Wahnsinn." }
+        { typ:6, name:"The Loyalist", farbe:TYPE_COLORS[6], faelle:[
+          { gegner:"Type 5", text:"In phases of uncertainty, Type 6 seeks solidarity and exchange with allies. When Type 5 then retreats into their inner shell, the 6 experiences this refusal of information and presence as an acute threat or even betrayal." },
+          { gegner:"Type 9", text:"Type 6 tends to proactively address and analyse problems and dangers. Type 9, however, prefers to wait out conflicts and filter out the negative to preserve inner peace. This passivity of the 9 drives the already sceptical 6 to despair." }
         ]},
-        { typ:7, name:"Der Enthusiast", farbe:TYPE_COLORS[7], fälle:[
-          { gegner:"Typ 1", text:"Typ 7 spr&uuml;ht vor Ideen und will Optionen offenhalten. Typ 1 bremst diese Euphorie sofort mit einem n&uuml;chternen &bdquo;Das ist unvern&uuml;nftig&ldquo; oder &bdquo;Das geh&ouml;rt sich nicht&ldquo;. Die 7 f&uuml;hlt sich dadurch eingeengt und ihrer Freiheit beraubt." },
-          { gegner:"Typ 3", text:"Obwohl beide Typen sehr aktiv sind, will Typ 3 messbare Erfolge sehen und ist bereit, daf&uuml;r hart zu schuften. Typ 7 verliert das Interesse, sobald eine Aufgabe zur starren Pflicht wird, und sucht den n&auml;chsten Kick. Die 3 sieht in der 7 einen unzuverl&auml;ssigen Tr&auml;umer." }
+        { typ:7, name:"The Enthusiast", farbe:TYPE_COLORS[7], faelle:[
+          { gegner:"Type 1", text:"Type 7 bubbles with ideas and wants to keep options open. Type 1 immediately dampens this enthusiasm with a sober &bdquo;That&apos;s unreasonable&ldquo; or &bdquo;That&apos;s not how it&apos;s done&ldquo;. The 7 feels constricted and robbed of their freedom." },
+          { gegner:"Type 3", text:"Though both types are very active, Type 3 wants to see measurable results and is willing to work hard for them. Type 7 loses interest as soon as a task becomes a rigid obligation, and seeks the next kick. The 3 sees the 7 as an unreliable dreamer." }
         ]},
-        { typ:8, name:"Der Herausforderer", farbe:TYPE_COLORS[8], fälle:[
-          { gegner:"Typ 2", text:"Typ 8 sch&auml;tzt absolute Offenheit und St&auml;rke. Wenn Typ 2 versucht, durch Hilfsbereitschaft eine unbewusste Abh&auml;ngigkeit zu erzeugen, wittert die 8 sofort Kontrolle und reagiert mit aggressiver Abwehr." },
-          { gegner:"Typ 4", text:"Typ 4 zieht sich bei Missverst&auml;ndnissen gerne in eine leidende, melancholische Haltung zur&uuml;ck. F&uuml;r die tatkr&auml;ftige und l&ouml;sungsorientierte 8 ist dieses &bdquo;Jammern&ldquo; unverst&auml;ndlich. Sie fordert Taten statt Gef&uuml;hle, was die 4 als brutale Gef&uuml;hlsk&auml;lte empfindet." }
+        { typ:8, name:"The Challenger", farbe:TYPE_COLORS[8], faelle:[
+          { gegner:"Type 2", text:"Type 8 values absolute openness and strength. When Type 2 tries to create an unconscious dependency through helpfulness, the 8 immediately senses control and reacts with aggressive rejection." },
+          { gegner:"Type 4", text:"When there are misunderstandings, Type 4 retreats into a suffering, melancholic stance. For the action-oriented, solution-focused 8, this &bdquo;complaining&ldquo; is incomprehensible. They demand action rather than feelings, which the 4 experiences as brutal emotional coldness." }
         ]},
-        { typ:9, name:"Der Friedensstifter", farbe:TYPE_COLORS[9], fälle:[
-          { gegner:"Typ 6", text:"Typ 6 bringt durch ihre st&auml;ndigen Zweifel, Sorgen und das Scannen nach Gefahren viel Unruhe in den Raum. F&uuml;r Typ 9, deren oberstes Ziel emotionale Bequemlichkeit und Harmonie ist, ist diese permanente Skepsis unertr&auml;glich. Die 9 schaltet innerlich komplett ab." },
-          { gegner:"Typ 8", text:"Typ 8 sucht die direkte Konfrontation und Reibung, um Lebendigkeit und Wahrheit zu sp&uuml;ren. F&uuml;r Typ 9 ist diese offene Aggression und Lautst&auml;rke der absolute Albtraum, da sie die Harmonie zerst&ouml;rt. Die 9 reagiert mit passivem Widerstand und blockiert v&ouml;llig." }
+        { typ:9, name:"The Peacemaker", farbe:TYPE_COLORS[9], faelle:[
+          { gegner:"Type 6", text:"Type 6 brings a lot of unrest into the room through their constant doubts, worries, and scanning for danger. For Type 9, whose highest goal is emotional comfort and harmony, this permanent scepticism is unbearable. The 9 shuts down completely internally." },
+          { gegner:"Type 8", text:"Type 8 seeks direct confrontation and friction to feel alive and true. For Type 9, this open aggression and loudness is an absolute nightmare, as it destroys harmony. The 9 responds with passive resistance and completely blocks." }
         ]},
       ].map(t => `
         <div style="margin-bottom:1.2rem;border-left:4px solid ${t.farbe};padding:.85rem 1.1rem;background:color-mix(in srgb, ${t.farbe} 6%, var(--paper));border-radius:0 .5rem .5rem 0;">
-          <strong style="color:${t.farbe};font-size:1rem;">Typ ${t.typ} &ndash; ${t.name}</strong>
-          ${t.fälle.map(f => `
+          <strong style="color:${t.farbe};font-size:1rem;">Type ${t.typ} &ndash; ${t.name}</strong>
+          ${t.faelle.map(f => `
           <div style="margin-top:.65rem;padding-left:.75rem;border-left:2px solid color-mix(in srgb,${t.farbe} 35%,var(--paper));">
-            <span style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:${TYPE_COLORS[parseInt(f.gegner.replace("Typ ",""))]||t.farbe};">Problemfall ${f.gegner}</span>
+            <span style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:${TYPE_COLORS[parseInt(f.gegner.replace("Type ",""))]||t.farbe};">Friction with ${f.gegner}</span>
             <p style="font-size:.87rem;color:var(--ink);line-height:1.65;margin:.25rem 0 0;">${f.text}</p>
           </div>`).join("")}
         </div>`).join("")}
 
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-top:1rem;font-size:.88rem;line-height:1.7;color:var(--ink);">
-        <strong style="color:var(--copper);">&#128161; App-Tipp:</strong> Diese Konstellationen sind kein Urteil, dass eine Beziehung scheitern muss. Im Gegenteil: Wenn wir verstehen, dass die &bdquo;Macke&ldquo; des anderen nur sein eigener Schutzmechanismus ist, verliert der Konflikt seine Sch&auml;rfe. Die zwei schwierigsten Typen sind oft unsere gr&ouml;&szlig;ten Lehrmeister f&uuml;r pers&ouml;nliches Wachstum.
+        <strong style="color:var(--copper);">&#128161; App Tip:</strong> These constellations are not a judgement that a relationship must fail. On the contrary: when we understand that the other person&apos;s &bdquo;quirk&ldquo; is merely their own protection mechanism, the conflict loses its sharpness. The two most difficult types are often our greatest teachers for personal growth.
       </div>
 
       ${relatedLinks([
-        {route:"naehe", label:"Nähe & Distanz"},
-        {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
-        {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
+        {route:"naehe", label:"Closeness & Distance"},
+        {route:"energetische-bewegungen", label:"Energetic Movements"},
+        {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagram"},
       ])}
     </section>
   `);
 }
-
 function tierentsprechungenPage() {
   const grid = TIERENTSPRECHUNGEN.map(t => {
     const col = typeColor(t.typ);
@@ -33069,7 +33138,7 @@ function werWirSindPage() {
       </div>
       ${relatedLinks([
         {route:"schaubilder-als-spiegel", label:"Charts als Spiegel"},
-        {route:"verwechslungen", label:"Verwechslungen"},
+        {route:"verwechslungen", label:"Common Mix-ups"},
         {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
       ])}
     </div>
@@ -33552,8 +33621,8 @@ function interessanteErkenntnissePage() {
       ${bookTip("hinter-der-leidenschaft", "Was hinter den neun Leidenschaften wirklich steckt &ndash; die Wunden, die sie antreiben, und die Remedies, die sie l\xf6sen k\xf6nnen.", "Hinter der Leidenschaft")}
       ${relatedLinks([
         {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
-        {route:"lookalike-typen", label:"Lookalike-Typen"},
-        {route:"differenzierung", label:"Differenzierung"},
+        {route:"lookalike-typen", label:"Lookalike Types"},
+        {route:"differenzierung", label:"Differentiation"},
       ])}
     </div>
   `);
@@ -33739,7 +33808,7 @@ function blickqualitaetPage() {
         ${relatedLinks([
           {route:"enneagramm-profiling", label:"Enneagram Profiling"},
           {route:"mikroimpressionen", label:"Mikroimpressionen"},
-          {route:"differenzierung", label:"Differenzierung"},
+          {route:"differenzierung", label:"Differentiation"},
         ])}
       </div>
     </div>
@@ -35109,7 +35178,7 @@ function hunderassenPage() {
         ${relatedLinks([
           {route:"tierentsprechungen", label:"Animal correspondenceen"},
           {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
-          {route:"differenzierung", label:"Differenzierung"},
+          {route:"differenzierung", label:"Differentiation"},
         ])}
       </div>
     </div>
@@ -35263,8 +35332,8 @@ function enneagrammProfilingPage() {
         ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt f\xfcr Schritt &ndash; der ideale Einstieg vor der Profiling-Ausbildung.", "Die Praxis der Typbestimmung")}
         ${relatedLinks([
           {route:"horney-triaden", label:"Horney-Triaden"},
-          {route:"lookalike-typen", label:"Lookalike-Typen"},
-          {route:"differenzierung", label:"Differenzierung"},
+          {route:"lookalike-typen", label:"Lookalike Types"},
+          {route:"differenzierung", label:"Differentiation"},
         ])}
       </div>
     </div>
@@ -35463,38 +35532,38 @@ function verwechslungenPage() {
     ${pageHeader("verwechslungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Typisierung</p>
-      <h1 class="section-title">Die gro\xdfen Verwechslungen</h1>
-      <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagram Typing.</p>
+      <h1 class="section-title">Type Confusions</h1>
+      <p class="psycho-intro">Ego strength or essence? The most consequential trap in Enneagram typing.</p>
       <img
         src="${CDN}assets/verwechslungen.png"
-        alt="Verwechslungen &ndash; Schaubild"
+        alt="Type Confusions &ndash; Chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Wenn St\xe4rke und Wesen verwechselt werden</h2>
-        <p class="vb-intro">Die schlimmsten Verwechslungen bei der Enneagram Typing entstehen dort, wo Ego-St\xe4rke mit Essenz verwechselt wird. Menschen identifizieren sich h\xe4ufig mit den F\xe4higkeiten, die sie besonders gut entwickelt haben. Genau diese F\xe4higkeiten werden dann als Ausdruck ihres &bdquo;wahren Wesens&ldquo; betrachtet. Im Enneagramm ist dies jedoch oft ein Irrtum &ndash; denn viele dieser St\xe4rken sind urspr\xfcnglich nicht aus Freiheit entstanden, sondern als Anpassung an eine fr\xfche Wunde.</p>
-        <p class="vb-intro">Ein Mensch vom Typ 1 erlebt seine Gewissenhaftigkeit oft als seine wahre Natur. Ein Typ 2 sieht seine Hilfsbereitschaft als Ausdruck seines Herzens. Ein Typ 3 identifiziert sich mit Leistungsf\xe4higkeit und Erfolg. Ein Typ 5 erlebt seine Unabh\xe4ngigkeit als Kern seiner Pers\xf6nlichkeit. Tatsr\xe4chlich handelt es sich dabei h\xe4ufig um hoch entwickelte \xdcberlebensstrategien des Egos.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">When Strength and Essence Are Confused</h2>
+        <p class="vb-intro">The most serious confusions in Enneagram typing occur where ego strength is mistaken for essence. People often identify with the abilities they have developed most strongly. These very abilities are then seen as expressions of their &ldquo;true nature.&rdquo; In the Enneagram, however, this is often a mistake &ndash; because many of these strengths did not originally arise from freedom, but as an adaptation to an early wound.</p>
+        <p class="vb-intro">A Type 1 often experiences their conscientiousness as their true nature. A Type 2 sees their helpfulness as an expression of their heart. A Type 3 identifies with performance and success. A Type 5 experiences their independence as the core of their personality. In reality, these are frequently highly developed ego survival strategies.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Brillante Anpassung &ndash; aber keine Essenz</h2>
-        <p class="vb-intro">Das Ego entwickelt genau jene F\xe4higkeiten, die helfen, Schmerz, Angst und innere Verletzlichkeit zu kompensieren. Dadurch entstehen beeindruckende St\xe4rken. Diese St\xe4rken sind real und wertvoll. Dennoch sind sie nicht identisch mit der Essenz.</p>
-        <p class="vb-intro">Essenz bezeichnet im Enneagramm jene tiefere Ebene des Seins, die bereits vor jeder Anpassung vorhanden war. Sie muss nichts beweisen, nichts kontrollieren, nichts darstellen und nichts verteidigen. Sie ist nicht das Ergebnis einer Strategie, sondern Ausdruck innerer Wahrheit. In spirituellen Kreisen spricht man diesbez\xfcglich oft von innerem Frieden &ndash; unabh\xe4ngig von \xe4u\xdferen Umst\xe4nden und Bedingungen.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Brilliant Adaptation &ndash; But Not Essence</h2>
+        <p class="vb-intro">The ego develops precisely those abilities that help to compensate for pain, fear, and inner vulnerability. This gives rise to impressive strengths. These strengths are real and valuable. Yet they are not identical with essence.</p>
+        <p class="vb-intro">Essence in the Enneagram refers to that deeper level of being that was present before any adaptation. It needs to prove nothing, control nothing, perform nothing, and defend nothing. It is not the result of a strategy, but an expression of inner truth. In spiritual circles this is often described as inner peace &ndash; independent of external circumstances and conditions.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Verfestigung des Musters</h2>
-        <p class="vb-intro">Die Verwechslung entsteht, wenn ein Mensch seine Abwehrstruktur f\xfcr seine Identit\xe4t h\xe4lt. Dann wird nicht mehr gefragt: <em>&bdquo;Wer bin ich wirklich?&ldquo;</em>, sondern nur noch: <em>&bdquo;Wie kann ich noch besser werden in dem, was ich ohnehin schon tue?&ldquo;</em> Das f\xfchrt oft zu einer Verfestigung des Musters statt zu seiner Transformation.</p>
-        <p class="vb-intro">Wahre Enneagramm-Arbeit beginnt dort, wo wir den Mut entwickeln, auch hinter unsere gr\xf6\xdften St\xe4rken zu schauen. Denn manchmal verbirgt sich hinter dem, worauf wir besonders stolz sind, genau die Wunde, vor der wir uns seit Jahren sch\xfctzen.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Solidification of the Pattern</h2>
+        <p class="vb-intro">The confusion arises when a person takes their defence structure for their identity. Instead of asking: <em>&ldquo;Who am I really?&rdquo;</em> they only ask: <em>&ldquo;How can I become even better at what I already do?&rdquo;</em> This often leads to a solidification of the pattern rather than its transformation.</p>
+        <p class="vb-intro">True Enneagram work begins where we find the courage to look behind even our greatest strengths. For sometimes, hidden behind what we are most proud of is precisely the wound we have been protecting ourselves from for years.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Der Weg zur Essenz</h2>
-        <p class="vb-intro">Erst wenn Ego-St\xe4rke als das erkannt wird, was sie ist &ndash; eine oft brillante Anpassungsleistung &ndash;, kann sich die Essenz zeigen. Dann wird aus Leistung Pr\xe4senz, aus Kontrolle Vertrauen, aus Anpassung Authentizit\xe4t und aus \xdcberleben lebendiges Sein.</p>
-        <p class="vb-intro">Die Aufgabe des Enneagramms besteht deshalb letztlich und zu Ende gedacht nicht darin, die eigene Pers\xf6nlichkeit zu perfektionieren. Seine eigentliche Aufgabe besteht darin, uns \xfcber die Pers\xf6nlichkeit hinauszuf\xfchren.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Path to Essence</h2>
+        <p class="vb-intro">Only when ego strength is recognised for what it is &ndash; often a brilliant adaptive achievement &ndash; can essence emerge. Then performance becomes presence, control becomes trust, adaptation becomes authenticity, and survival becomes living.</p>
+        <p class="vb-intro">The true purpose of the Enneagram, thought through to its conclusion, is therefore not to perfect one's personality. Its real task is to lead us beyond personality altogether.</p>
 
-        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Manchmal verbirgt sich hinter dem, worauf wir besonders stolz sind, genau die Wunde, vor der wir uns seit Jahren sch\xfctzen. &ndash; Detlef Rathmer</blockquote>
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Sometimes hidden behind what we are most proud of is precisely the wound we have been protecting ourselves from for years. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("du-bist-nicht-dein-zweifel", "Ego-St\xe4rke erkennen, loslassen und zur Essenz finden &ndash; ein Wegweiser zu innerer Freiheit f\xfcr alle 9 Typen.", "Du bist nicht dein Zweifel")}
-        ${bookTip("heilung-als-erinnerung", "Heilung als R\xfcckkehr zur Essenz: Wie wir \xfcber die Pers\xf6nlichkeitsstruktur hinauswachsen k\xf6nnen.", "Heilung als Erinnerung")}
+        ${bookTip("du-bist-nicht-dein-zweifel", "Recognise ego strength, release it, and find your way to essence &ndash; a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
+        ${bookTip("heilung-als-erinnerung", "Healing as a return to essence: how we can grow beyond the personality structure.", "Heilung als Erinnerung")}
         ${relatedLinks([
-          {route:"wer-wir-sind", label:"Wer wir sind"},
-          {route:"differenzierung", label:"Differenzierung"},
-          {route:"lookalike-typen", label:"Lookalike-Typen"},
+          {route:"wer-wir-sind", label:"Who We Are"},
+          {route:"differenzierung", label:"Differentiation"},
+          {route:"lookalike-typen", label:"Lookalike Types"},
         ])}
       </div>
     </div>
@@ -35569,39 +35638,39 @@ function differenzierungPage() {
         <span style="background:${TYPE_COLORS[a]||'var(--copper)'};color:#fff;border-radius:50%;width:2.4rem;height:2.4rem;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;flex-shrink:0;">${a}</span>
         <span style="color:var(--muted);font-size:1.2rem;">↔</span>
         <span style="background:${TYPE_COLORS[b]||'var(--copper)'};color:#fff;border-radius:50%;width:2.4rem;height:2.4rem;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;flex-shrink:0;">${b}</span>
-        <span style="color:var(--muted);font-size:.85rem;margin-left:.25rem;">Motivationale Differenzierung</span>
+        <span style="color:var(--muted);font-size:.85rem;margin-left:.25rem;">Motivational Differentiation</span>
       </div>
-      <p style="line-height:1.75;color:var(--ink);margin:0 0 1.25rem;">${entry.text}</p>
+      <p style="line-height:1.75;color:var(--ink);margin:0 0 1.25rem;">${entry.textEN||entry.text}</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;border-top:1px solid color-mix(in srgb,var(--copper) 25%,var(--line));padding-top:1rem;">
         <div style="background:color-mix(in srgb,var(--copper) 8%,var(--paper));border-radius:.5rem;padding:.65rem .85rem;">
-          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${a} im Kern</div>
-          <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernA}&ldquo;</div>
+          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Type ${a} at its Core</div>
+          <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernAen||entry.kernA}&ldquo;</div>
         </div>
         <div style="background:color-mix(in srgb,var(--copper) 8%,var(--paper));border-radius:.5rem;padding:.65rem .85rem;">
-          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${b} im Kern</div>
-          <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernB}&ldquo;</div>
+          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Type ${b} at its Core</div>
+          <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernBen||entry.kernB}&ldquo;</div>
         </div>
       </div>
     </div>` : a && b && a === b ? `
-    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Bitte zwei <em>verschiedene</em> Typen wählen.</p>` : `
-    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Wähle oben zwei Typen aus, um die motivationale Differenzierung zu sehen.</p>`;
+    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Please select two <em>different</em> types.</p>` : `
+    <p style="text-align:center;color:var(--muted);margin-top:2rem;">Select two types above to see the motivational differentiation.</p>`;
 
   return shell(`
     ${pageHeader("differenzierung")}
     <section class="narrow" style="padding-bottom:3rem;">
-      <p class="eyebrow">Typisierungs-Hilfe</p>
-      <h1 style="font-size:1.75rem;margin-bottom:.5rem;">Motivationale Differenzierung</h1>
+      <p class="eyebrow">Typing Aid</p>
+      <h1 style="font-size:1.75rem;margin-bottom:.5rem;">Motivational Differentiation</h1>
       <p style="color:var(--muted);font-size:.95rem;margin-bottom:2rem;line-height:1.6;">
-        Ähnliche Typen lassen sich am sichersten durch ihre <strong>innere Motivation</strong> unterscheiden &ndash;
-        nicht durch äußeres Verhalten. Wähle zwei Typen, um den entscheidenden motivationalen Unterschied zu sehen.
+        Similar types are most reliably distinguished by their <strong>inner motivation</strong> &ndash;
+        not by outward behaviour. Select two types to see the decisive motivational difference.
       </p>
 
       <div style="background:var(--paper);border:1px solid var(--line);border-radius:1rem;padding:1.5rem;">
-        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Typ A wählen:</p>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Select Type A:</p>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.25rem;">
           ${typen.map(btn).join("")}
         </div>
-        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Typ B wählen:</p>
+        <p style="font-size:.85rem;color:var(--muted);margin:0 0 .75rem;">Select Type B:</p>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
           ${typen.map(btn).join("")}
         </div>
@@ -35611,13 +35680,15 @@ function differenzierungPage() {
 
       <div style="margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);">
         <p style="font-size:.8rem;color:var(--muted);line-height:1.6;">
-          Quelle: Rathmer, D. &ndash; <em>Die Sprache unserer Relationships</em>, Verlagshaus Rathmer.
-          Die Beschreibungen sind motivational bedingt und helfen, äußerlich ähnliche Typen klar voneinander abzugrenzen.
+          Source: Rathmer, D. &ndash; <em>Die Sprache unserer Beziehungen</em>, Verlagshaus Rathmer.
+          The descriptions are motivationally grounded and help to clearly distinguish outwardly similar types.
         </p>
+        ${bookTip("die-sprache-unserer-beziehungen", "How the 9 Enneagram types shape relationships &ndash; closeness, distance, and connection in all 36 type combinations.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "What desire, passion, and intimacy look like across all 27 subtypes &ndash; with practical exercises for couples.", "Die Sprache unserer Sexualität")}
       </div>
       ${relatedLinks([
-        {route:"lookalike-typen", label:"Lookalike-Typen"},
-        {route:"verwechslungen", label:"Verwechslungen"},
+        {route:"lookalike-typen", label:"Lookalike Types"},
+        {route:"verwechslungen", label:"Common Mix-ups"},
         {route:"enneagramm-profiling", label:"Enneagram Profiling"},
       ])}
     </section>
@@ -36196,7 +36267,7 @@ function sechzigSekundenScanPage() {
   return shell(`
     ${pageHeader("60-sekunden-scan")}
     <section class="narrow">
-      <p class="eyebrow">Charts · Typisierung</p>
+      <p class="eyebrow">Charts · Typing</p>
       <h1>60-Sekunden-Fixierungs-Scan</h1>
       <p class="lead-small">In drei Schritten zum Enneagrammtyp: Welche Persona zeigt die Person? Wie reagiert sie unter Druck? Wovor schützt sie sich? Diese Kurzübersicht hilft, einen Typ schnell einzuordnen.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
@@ -36207,7 +36278,7 @@ function sechzigSekundenScanPage() {
       ${relatedLinks([
         {route:"enneagramm-profiling", label:"Enneagram Profiling"},
         {route:"aufmerksamkeitsfokus", label:"Aufmerksamkeitsfokus"},
-        {route:"differenzierung", label:"Differenzierung"},
+        {route:"differenzierung", label:"Differentiation"},
       ])}
     </section>
   `);
@@ -36566,7 +36637,7 @@ function subtypeChartsPage() {
     <section class="narrow" style="padding:.5rem 1rem 2rem;">
       ${groupsHtml}
       ${relatedLinks([
-        {route:"subtypen-checklisten", label:"Subtypees-Checklisten"},
+        {route:"subtypen-checklisten", label:"Subtype Checklists"},
         {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
         {route:"horney-triaden", label:"Horney-Triaden"},
       ])}
@@ -37235,7 +37306,7 @@ function psychogrammePage() {
       </div>
       ${relatedLinks([
         {route:"ego-persoenlichkeit", label:"Ego-Pers\xf6nlichkeit"},
-        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wer-wir-sind", label:"Who We Are"},
         {route:"aufmerksamkeitsfokus", label:"Aufmerksamkeitsfokus"},
       ])}
     </div>
@@ -37420,7 +37491,7 @@ function freischaltPage() {
             <strong>Full access</strong>
             <span class="freischalt-angebot__preis">€ 49</span>
             <span class="freischalt-angebot__label">Introductory price · incl. all updates</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/8x28wPeNa7Sq3Xc8fh4gg3A" target="_blank" rel="noopener">Buy access now →</a>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener">Buy access now →</a>
           </div>
         </div>
 
@@ -39699,8 +39770,8 @@ function typenvergleichePage() {
     <div class="tv-filterbar">${filterBar}</div>
     <div class="tv-grid">${cards}</div>
     ${relatedLinks([
-      {route:"differenzierung", label:"Differenzierung"},
-      {route:"lookalike-typen", label:"Lookalike-Typen"},
+      {route:"differenzierung", label:"Differentiation"},
+      {route:"lookalike-typen", label:"Lookalike Types"},
       {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
     ])}
   `);
@@ -40225,7 +40296,7 @@ function portraitsWegbegleiterPage() {
       ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
-        {route:"wer-wir-sind", label:"Wer wir sind"},
+        {route:"wer-wir-sind", label:"Who We Are"},
         {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
         {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
       ])}
@@ -40873,7 +40944,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v596';
+  const MY_VERSION = 'inhalt-v607';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
