@@ -478,9 +478,9 @@ let _sucheQuery = "";
 
 const LETTER_TO_TYPE = { E: 1, Z: 2, D: 3, V: 4, F: 5, X: 6, S: 7, A: 8, N: 9 };
 const TYPNAMEN_MOTIV = {
-  1: "Der Perfektionist", 2: "Der Helfer", 3: "Der Macher",
-  4: "Der Individualist", 5: "Der Forscher", 6: "Der Loyale",
-  7: "Der Enthusiast", 8: "Der Herausforderer", 9: "Der Vermittler"
+  1: "The Perfectionist", 2: "The Helper", 3: "The Achiever",
+  4: "The Individualist", 5: "The Researcher", 6: "The Loyalist",
+  7: "The Enthusiast", 8: "The Challenger", 9: "The Mediator"
 };
 const text = uiText;
 // SE → SP for English display
@@ -7614,15 +7614,15 @@ function typeColor(num) { return TYPE_COLORS[parseInt(num)] || "var(--copper)"; 
 function typeColorFromCode(code) { return typeColor(code ? code.slice(-1) : 0); }
 
 const GRUNDTYPEN = [
-  { num: 1, name: "Der Perfektionist",   label: "Der Ordnungsorientierte",      leidenschaft: "Zorn",    tier: "Adler",    thema: "Richtig & Falsch · Integrität & Ordnung",     codes: ["se1","so1","sx1"] },
-  { num: 2, name: "Der Helfer",          label: "Der Beziehungsorientierte",    leidenschaft: "Stolz",   tier: "Katze",    thema: "Liebe & Anerkennung · Geben & Genommen-Werden", codes: ["se2","so2","sx2"] },
-  { num: 3, name: "Der Leistungsträger", label: "Der Erfolgsorientierte",       leidenschaft: "Eitelkeit / Täuschung",    tier: "Pfau",     thema: "Erfolg & Wert · Leistung & Anerkennung",       codes: ["se3","so3","sx3"] },
-  { num: 4, name: "Der Individualist",   label: "Der Identitätsorientierte",    leidenschaft: "Neid",    tier: "Pferd",    thema: "Echtheit & Tiefe · Verlust & Sehnsucht",        codes: ["se4","so4","sx4"] },
-  { num: 5, name: "Der Beobachter",      label: "Der Wissensorientierte",       leidenschaft: "Geiz",    tier: "Eule",     thema: "Wissen & Verstehen · Rückzug & Ressourcen",     codes: ["se5","so5","sx5"] },
-  { num: 6, name: "Der Loyale",          label: "Der Sicherheitsorientierte",   leidenschaft: "Angst",   tier: "Hase",     thema: "Sicherheit & Vertrauen · Gefahr & Loyalität",   codes: ["se6","so6","sx6"] },
-  { num: 7, name: "Der Enthusiast",      label: "Der Möglichkeitsorientierte",  leidenschaft: "Maßlosigkeit", tier: "Affe", thema: "Freude & Fülle · Optionen & Vermeidung",      codes: ["se7","so7","sx7"] },
-  { num: 8, name: "Der Herausforderer",  label: "Der Machtorientierte",         leidenschaft: "Wollust", tier: "Löwe",     thema: "Stärke & Kontrolle · Gerechtigkeit & Macht",    codes: ["se8","so8","sx8"] },
-  { num: 9, name: "Der Friedensstifter", label: "Der Harmoniebedürftige",       leidenschaft: "Trägheit",tier: "Elefant",  thema: "Harmonie & Frieden · Verschmelzung & Schlaf",   codes: ["se9","so9","sx9"] },
+  { num: 1, name: "The Perfectionist",   label: "The Order-Oriented",      leidenschaft: "Anger",    tier: "Eagle",    thema: "Right & Wrong · Integrity & Order",     codes: ["se1","so1","sx1"] },
+  { num: 2, name: "The Helper",          label: "The Relationship-Oriented",    leidenschaft: "Pride",   tier: "Cat",    thema: "Love & Recognition · Giving & Receiving", codes: ["se2","so2","sx2"] },
+  { num: 3, name: "The Achiever",         label: "The Success-Oriented",       leidenschaft: "Vanity / Deceit",    tier: "Peacock",     thema: "Success & Worth · Achievement & Recognition",       codes: ["se3","so3","sx3"] },
+  { num: 4, name: "The Individualist",   label: "The Identity-Oriented",    leidenschaft: "Envy",    tier: "Horse",    thema: "Authenticity & Depth · Loss & Longing",        codes: ["se4","so4","sx4"] },
+  { num: 5, name: "The Observer",         label: "The Knowledge-Oriented",       leidenschaft: "Avarice",    tier: "Owl",     thema: "Knowledge & Understanding · Withdrawal & Resources",     codes: ["se5","so5","sx5"] },
+  { num: 6, name: "The Loyalist",         label: "The Security-Oriented",   leidenschaft: "Fear",   tier: "Hare",     thema: "Security & Trust · Danger & Loyalty",   codes: ["se6","so6","sx6"] },
+  { num: 7, name: "The Enthusiast",      label: "The Possibility-Oriented",  leidenschaft: "Gluttony", tier: "Monkey", thema: "Joy & Abundance · Options & Avoidance",      codes: ["se7","so7","sx7"] },
+  { num: 8, name: "The Challenger",       label: "The Power-Oriented",         leidenschaft: "Lust", tier: "Lion",     thema: "Strength & Control · Justice & Power",    codes: ["se8","so8","sx8"] },
+  { num: 9, name: "The Peacemaker",       label: "The Harmony-Seeker",       leidenschaft: "Sloth",tier: "Elephant",  thema: "Harmony & Peace · Merging & Sleep",   codes: ["se9","so9","sx9"] },
 ];
 
 function typesPage() {
@@ -7643,7 +7643,7 @@ function typesPage() {
     ${pageHeader("knowledge")}
     <section class="narrow">
       <p class="eyebrow">Enneagram Healing Compass</p>
-      <h1>Die 9 Grundtypen</h1>
+      <h1>The 9 Core Types</h1>
       <p class="lead-small">Select your Type to explore the three Subtypes and all content.</p>
     </section>
     <section class="typen-liste">${kartenHtml}</section>
@@ -7657,7 +7657,7 @@ function typePage(num) {
   const subtypenHtml = t.codes.map(code => {
     const p = subtypeProfiles[code];
     if (!p) return "";
-    const instinktLabel = { se: "Selbsterhaltung", so: "Sozial", sx: "Sexuell / Partnerschaft" }[code.slice(0,2)] || "";
+    const instinktLabel = { se: "Self-Preservation", so: "Social", sx: "Sexual / Partnership" }[code.slice(0,2)] || "";
     return `
       <button class="subtyp-karte" data-route="subtype/${code}" style="border-left-color:${c}">
         <div class="subtyp-karte__icon" style="color:${c}">${p.emoji || p.code}</div>
@@ -7674,12 +7674,12 @@ function typePage(num) {
     ${pageHeader("knowledge")}
     <section class="narrow">
       <button class="ghost-link" data-route="knowledge">← All Types</button>
-      <p class="eyebrow" style="color:${c}">Typ ${t.num} · ${t.label}</p>
+      <p class="eyebrow" style="color:${c}">Type ${t.num} · ${t.label}</p>
       <h1 style="color:${c}">${t.name}</h1>
       <p class="lead-small">${t.thema}</p>
       <div class="typ-meta">
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Passion: <strong>${t.leidenschaft}</strong></span>
-        <span class="typ-meta__chip" style="border-color:${c};color:${c}">Tier: <strong>${t.tier}</strong></span>
+        <span class="typ-meta__chip" style="border-color:${c};color:${c}">Animal: <strong>${t.tier}</strong></span>
       </div>
       ${impulseBlock(TYP_IMPULSE[t.num], c)}
     </section>
@@ -11287,7 +11287,7 @@ function tierentsprechungenPage() {
 
 function tierlexikonPage() {
   const subtypes = [
-    { code: "SP1", tier: "Adler",             emoji: "🦅" },
+    { code: "SP1", tier: "Eagle",             emoji: "🦅" },
     { code: "SO1", tier: "Gans",              emoji: "🪿" },
     { code: "SX1", tier: "Schwarze Mamba",    emoji: "🐍" },
     { code: "SP2", tier: "Flusspferd",        emoji: "🦛" },
@@ -11295,11 +11295,11 @@ function tierlexikonPage() {
     { code: "SX2", tier: "Kamel",             emoji: "🐪" },
     { code: "SP3", tier: "Waschbär",          emoji: "🦝" },
     { code: "SO3", tier: "Gepard",            emoji: "🐆" },
-    { code: "SX3", tier: "Pfau",              emoji: "🦚" },
+    { code: "SX3", tier: "Peacock",              emoji: "🦚" },
     { code: "SP4", tier: "Taube",             emoji: "🕊️" },
     { code: "SO4", tier: "Gürteltier",        emoji: "🦔" },
     { code: "SX4", tier: "Chihuahua",         emoji: "🐕" },
-    { code: "SP5", tier: "Eule",              emoji: "🦉" },
+    { code: "SP5", tier: "Owl",              emoji: "🦉" },
     { code: "SO5", tier: "Oktopus",           emoji: "🐙" },
     { code: "SX5", tier: "Igel",              emoji: "🦔" },
     { code: "SP6", tier: "Kaninchen",         emoji: "🐇" },
@@ -11309,9 +11309,9 @@ function tierlexikonPage() {
     { code: "SO7", tier: "Biber",             emoji: "🦫" },
     { code: "SX7", tier: "Schimpanse",        emoji: "🐒" },
     { code: "SP8", tier: "Orang-Utan",        emoji: "🦧" },
-    { code: "SO8", tier: "Löwe",              emoji: "🦁" },
+    { code: "SO8", tier: "Lion",              emoji: "🦁" },
     { code: "SX8", tier: "Krokodil",          emoji: "🐊" },
-    { code: "SP9", tier: "Elefant",           emoji: "🐘" },
+    { code: "SP9", tier: "Elephant",           emoji: "🐘" },
     { code: "SO9", tier: "Büffel",            emoji: "🐃" },
     { code: "SX9", tier: "Faultier",          emoji: "🦥" },
   ];
