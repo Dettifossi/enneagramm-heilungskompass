@@ -3313,6 +3313,85 @@ function libraryPage() {
         <img src="${CDN}assets/grundformel-rathmer-enneagramm.jpg" alt="${copy.formulaAlt}" />
       </figure>
     </section>
+    <section class="narrow" style="margin-top:0;padding-top:0;">
+      <div class="formula-text-block" style="max-width:760px;margin:0 auto;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+        <p style="font-style:italic;font-size:1.05rem;margin-bottom:2rem;text-align:center;color:var(--copper);">
+          <strong>The human being is more than their type.</strong><br>
+          The Enneagram type describes an unconscious coping strategy for an existential core deficit — not the essence of the person.
+        </p>
+
+        <h3 style="margin-bottom:1rem;">The Three Deficits</h3>
+        <div style="display:grid;gap:1rem;margin-bottom:2rem;">
+          <div style="border-left:3px solid #c06b6b;padding-left:1rem;">
+            <strong style="color:#c06b6b;">Heart Triad 2–3–4 · Love Deficit</strong><br>
+            Core question: <em>Am I loveable?</em><br>
+            Core feeling: I do not feel loved.
+          </div>
+          <div style="border-left:3px solid #6b8fc0;padding-left:1rem;">
+            <strong style="color:#6b8fc0;">Head Triad 5–6–7 · Trust Deficit</strong><br>
+            Core question: <em>Can I trust life?</em><br>
+            Core feeling: The world is uncertain and unreliable.
+          </div>
+          <div style="border-left:3px solid #7ab87a;padding-left:1rem;">
+            <strong style="color:#7ab87a;">Body Triad 8–9–1 · Protection Deficit</strong><br>
+            Core question: <em>Am I allowed to take my place in this world?</em><br>
+            Core feeling: I do not feel safe in my right to exist.
+          </div>
+        </div>
+
+        <h3 style="margin-bottom:0.75rem;">The Central Formula</h3>
+        <p style="background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:1rem 1.25rem;margin-bottom:2rem;text-align:center;">
+          <strong>Core Deficit</strong> (Love / Trust / Protection)<br>
+          + <strong>Energy Form</strong> (Outward / Blocked / Transformed)<br>
+          + <strong>Instinct</strong> (Self-Preservation / Social / Sexual)<br>
+          = <strong>Subtype</strong> (1 of 27)
+        </p>
+
+        <h3 style="margin-bottom:1rem;">The Three Energy Forms</h3>
+        <div style="display:grid;gap:1rem;margin-bottom:2rem;">
+          <div style="border-left:3px solid var(--copper);padding-left:1rem;">
+            <strong>Outward Energy — Types 2, 5, 8</strong> (Heart, Head, Body)<br>
+            Over-compensation, too much expression. The energy flows outward.
+          </div>
+          <div style="border-left:3px solid var(--copper);padding-left:1rem;">
+            <strong>Blocked Energy — Types 3, 6, 9</strong> (Heart, Head, Body)<br>
+            Withdrawal, avoidance, freezing. The energy is held back.
+          </div>
+          <div style="border-left:3px solid var(--copper);padding-left:1rem;">
+            <strong>Transformed Energy — Types 4, 7, 1</strong> (Heart, Head, Body)<br>
+            Transformation, channelling, redirection. The energy is converted through meaning and values.
+          </div>
+        </div>
+
+        <h3 style="margin-bottom:1rem;">The Three Instincts</h3>
+        <div style="display:grid;gap:0.75rem;margin-bottom:2rem;">
+          <div><strong>SP — Self-Preservation Instinct:</strong> Focus on resources, safety and personal survival.</div>
+          <div><strong>SO — Social Instinct:</strong> Focus on belonging, groups and social relationships.</div>
+          <div><strong>SX — Sexual Instinct:</strong> Focus on intensity, bonding and special relationships.</div>
+        </div>
+
+        <h3 style="margin-bottom:1rem;">The Remedies in Context</h3>
+        <div style="display:grid;gap:0.75rem;margin-bottom:2rem;">
+          <div><strong>Homeopathy:</strong> Acts on the passion, not on the type. It dissolves fixations in the organism.</div>
+          <div><strong>Bach Flowers:</strong> Work on the emotional level of the passion.</div>
+          <div><strong>Schuessler Salts:</strong> Support the biochemical balance of the body.</div>
+          <div><strong>Gemstones:</strong> Act on the subtle energetic level of body and soul.</div>
+        </div>
+
+        <h3 style="margin-bottom:1rem;">The Four Levels of Development</h3>
+        <ol style="margin:0;padding-left:1.5rem;display:grid;gap:0.5rem;margin-bottom:2rem;">
+          <li><strong>Unconscious</strong> — The passion dominates.</li>
+          <li><strong>Average</strong> — Typical everyday form.</li>
+          <li><strong>Aware</strong> — The passion is recognised.</li>
+          <li><strong>Integrated</strong> — The essence becomes accessible.</li>
+        </ol>
+
+        <p style="font-style:italic;text-align:center;color:var(--copper);font-size:1rem;border-top:1px solid var(--line);padding-top:1.5rem;">
+          Three Deficits · Three Energy Forms · Three Instincts → 27 Subtypes → One Human Being<br><br>
+          <strong>The person has a type. The person is not their type.</strong>
+        </p>
+      </div>
+    </section>
     <section class="library-grid">
       ${libraryItems
         .map(([title, text]) => `<article><h2>${title}</h2><p>${text}</p></article>`)
