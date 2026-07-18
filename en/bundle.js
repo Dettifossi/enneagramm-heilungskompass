@@ -35812,156 +35812,156 @@ function krisenkompassPage() {
 
   const KRISEN = {
     1: [
-      { id:"wut", label:"Wut & innere Anspannung", emoji:"🔥", schritte:[
-        "Stopp-Moment setzen: Verlassen Sie den Raum oder die Situation für 5 Minuten. Ihr Körper braucht zuerst Abstand vom Auslöser.",
-        "Körper-Anker: Legen Sie beide Hände flach auf den Bauch. Atmen Sie 4 Sekunden ein, 6 Sekunden aus. Wiederholen Sie das dreimal. Der Zorn gehört zum Typ 1 — er darf sein, er muss Sie nur nicht steuern.",
-        "Milde-Frage: Fragen Sie sich: &bdquo;Was würde ich einem guten Freund in dieser Situation raten?&ldquo; Geben Sie sich dieselbe Antwort."
+      { id:"wut", label:"Anger & Inner Tension", emoji:"🔥", schritte:[
+        "Create a pattern interrupt: Leave the room or the situation for 5 minutes. Your body needs physical distance from the trigger first.",
+        "Somatic anchor: Place both hands flat on your stomach. Inhale for 4 seconds, exhale for 6 seconds. Repeat this three times. Anger belongs to Type 1—it is allowed to be here, but it doesn't have to drive you.",
+        "Compassion check: Ask yourself: \"What would I advise a dear friend to do in this situation?\" Give yourself that exact same advice."
       ]},
-      { id:"perfektionismus", label:"Lähmender Perfektionismus", emoji:"⚙️", schritte:[
-        "Sofort-Entscheidung: Wählen Sie bewusst die zweitbeste Lösung. Nicht die perfekte — die gute genug. Führen Sie sie jetzt durch.",
-        "Inner Critic Timeout: Schreiben Sie die kritische innere Stimme auf einen Zettel. Legen Sie den Zettel zur Seite. Buchstäblich.",
-        "Fertig-Ankündigung: Sagen Sie laut (oder innerlich): &bdquo;Das ist gut genug. Ich bin fertig.&ldquo; Dreimal. Ohne Ergänzung."
+      { id:"perfektionismus", label:"Paralyzing Perfectionism", emoji:"⚙️", schritte:[
+        "Immediate choice: Intentionally choose the second-best solution. Not the perfect one—the one that is good enough. Execute it right now.",
+        "Inner critic timeout: Write down what that critical inner voice is saying on a piece of paper. Put the paper away. Literally set it aside.",
+        "Declaration of completion: Say out loud (or internally): \"This is good enough. I am done.\" Repeat it three times. No additions, no qualifiers."
       ]},
-      { id:"fehler", label:"Error & Scham", emoji:"😔", schritte:[
-        "Error benennen — einmal, sachlich: Was ist passiert? Keine Bewertung, nur Beschreibung in einem Satz.",
-        "Verhältnismäßigkeit prüfen: Wie wichtig ist dieser Error in einem Jahr? In zehn Jahren? Ordnen Sie ihn ein.",
-        "Wiedergutmachungs-Schritt: Was ist der eine konkrete nächste Schritt? Nur einer. Führen Sie ihn durch und betrachten Sie die Sache als abgeschlossen."
+      { id:"fehler", label:"Mistakes & Shame", emoji:"😔", schritte:[
+        "State the fact—once, objectively: What actually happened? Zero judgment, just a one-sentence description of the event.",
+        "Check perspective: How much will this mistake matter in one year? In ten years? Place it where it truly belongs on the timeline.",
+        "Remedial action: What is the single, concrete next step? Just one. Execute it, and consider the matter closed."
       ]},
     ],
     2: [
-      { id:"erschoepfung", label:"Erschöpfung durch Geben", emoji:"🫀", schritte:[
-        "Sofort-Stopp: Sagen Sie zu der nächsten Bitte Nein — ohne Erklärung. Nur &bdquo;Heute geht das nicht.&ldquo; Das ist kein Versagen, das ist Selbstschutz.",
-        "Eigene Bedürfnisse fragen: Setzen Sie sich hin und fragen: Was brauche ich gerade? Nicht was andere brauchen — was ich brauche. Schreiben Sie es auf.",
-        "Eine Sache tun: Erfüllen Sie sich eine dieser eigenen Bedürfnisse jetzt. Nur eine. Ohne schlechtes Gewissen."
+      { id:"erschoepfung", label:"Exhaustion from Giving", emoji:"🫀", schritte:[
+        "Immediate boundary: Say no to the very next request—without explaining yourself. Simply say, \"I can't manage that today.\" This is not a failure; it is self-preservation.",
+        "Audit your own needs: Sit down and ask yourself: What do I need right now? Not what others need—what you need. Write it down.",
+        "Do one thing: Meet one of those personal needs right now. Just one. Allow yourself to do it without a shred of guilt."
       ]},
-      { id:"abweisung", label:"Abweisung & Kränkung", emoji:"💔", schritte:[
-        "Gefühl anerkennen: Der Schmerz ist real. Sagen Sie sich: &bdquo;Ich bin verletzt. Das darf ich sein.&ldquo; Kein sofortiges Helfen, kein Ablenken.",
-        "Herkunft prüfen: Ist die Abweisung persönlich gemeint — oder ist der andere gerade in seiner eigenen Not? Häufig ist es Letzteres.",
-        "Selbst-Zuwendung: Tun Sie etwas, das sich gut anfühlt — nur für Sie. Ein Tee, ein Spaziergang, Musik. Kein Helfen in den nächsten zwei Stunden."
+      { id:"abweisung", label:"Rejection & Hurt Feelings", emoji:"💔", schritte:[
+        "Validate the feeling: The pain is real. Tell yourself: \"I am hurt. And it is completely okay that I feel this way.\" No rushing to help, no trying to distract yourself.",
+        "Check the source: Is this rejection actually personal—or is the other person just trapped in their own stress? More often than not, it is the latter.",
+        "Self-care turn: Do something that feels genuinely good—just for you. Pour a cup of tea, go for a walk, listen to music. No helping anyone else for the next two hours."
       ]},
-      { id:"manipulation", label:"Gefühl, ausgenutzt zu werden", emoji:"😤", schritte:[
-        "Innere Bilanz: Geben Sie in dieser Beziehung mehr als Sie empfangen? Antworten Sie ehrlich — ohne den anderen zu schützen.",
-        "Grenze formulieren: Was ist das Mindeste, das Sie sich wünschen würden? Formulieren Sie es als klaren Satz — noch ohne ihn auszusprechen.",
-        "Gespräch planen: Wählen Sie einen ruhigen Moment und sprechen Sie die Bitte aus. Nicht als Vorwurf, sondern als ehrliches Bedürfnis."
+      { id:"manipulation", label:"Feeling Exploited", emoji:"😤", schritte:[
+        "Internal audit: Are you giving way more in this relationship than you are receiving? Answer honestly—without making excuses for the other person.",
+        "Draft a boundary: What is the bare minimum you would need to feel supported? Formulate it into a clear, concise sentence—just for yourself, before you speak it out loud.",
+        "Plan the conversation: Choose a quiet moment and voice your request. Don't frame it as an accusation, but as an honest, authentic need."
       ]},
     ],
     3: [
-      { id:"versagen", label:"Versagensangst & Druck", emoji:"🎯", schritte:[
-        "Druck externalisieren: Schreiben Sie alle offenen Aufgaben auf. Sortieren Sie nach Wichtigkeit. Streichen Sie alles, was heute nicht entschieden werden muss.",
-        "Einen Schritt gehen: Wählen Sie die wichtigste Aufgabe. Beginnen Sie sie — nicht zu Ende bringen, nur beginnen. Der Anfang bricht den Lähmungszustand.",
-        "Wert-Erinnerung: Sie sind nicht Ihr Ergebnis. Fragen Sie sich: Wer schätzt mich unabhängig von meinem Erfolg? Denken Sie an eine konkrete Person."
+      { id:"versagen", label:"Fear of Failure & Pressure", emoji:"🎯", schritte:[
+        "Externalize the pressure: Write down every single open task. Sort them strictly by importance. Cross off everything that doesn't absolutely require a decision today.",
+        "Take one step: Pick the most critical task on the list. Just start it—don't try to finish it, just begin. Taking action is what breaks the paralysis.",
+        "Value check: You are not your output. Ask yourself: Who values me completely independent of my success? Think of a specific person."
       ]},
-      { id:"maske", label:"Erschöpfung der Fassade", emoji:"🎭", schritte:[
-        "Maske ablegen — privat: Gehen Sie in einen Raum, in dem Sie allein sind. Erlauben Sie sich, nichts zu leisten. Fünf Minuten lang. Kein Handy.",
-        "Echtheitsfrage: Was fühlen Sie gerade wirklich — hinter der funktionierenden Oberfläche? Benennen Sie es, auch wenn es unbequem ist.",
-        "Echten Contact suchen: Schreiben Sie einer Person, der Sie sich wirklich zeigen können, eine ehrliche Nachricht. Nicht professionell — menschlich."
+      { id:"maske", label:"Exhaustion of the Facade", emoji:"🎭", schritte:[
+        "Drop the mask—in private: Go into a room where you are completely alone. Give yourself permission to accomplish absolutely nothing. For five full minutes. No phone allowed.",
+        "The authenticity question: What are you actually feeling right now—directly behind that high-functioning surface? Name it, even if it feels uncomfortable.",
+        "Seek real connection: Send an honest text to someone you can truly drop your guard around. Don't make it professional—make it human."
       ]},
-      { id:"entscheidung", label:"Entscheidungslähmung", emoji:"⚡", schritte:[
-        "Zwei-Minuten-Entscheidung: Stellen Sie sich einen Timer auf zwei Minuten. In dieser Zeit entscheiden Sie — keine weitere Recherche, kein weiteres Abwägen.",
-        "Bauch-Test: Welche Option fühlt sich im Körper leichter an? Nicht richtig — leichter. Das ist oft der verlässlichste Kompass.",
-        "Revidierbarkeit prüfen: Ist diese Entscheidung rückgängig zu machen? Wenn ja, entscheiden Sie sofort — Perfektionismus kostet mehr als ein korrigierbarer Error."
+      { id:"entscheidung", label:"Decision Paralysis", emoji:"⚡", schritte:[
+        "The two-minute drill: Set a timer for two minutes. You must make a choice before the time runs out—no more research, no more weighing pros and cons.",
+        "The gut check: Which option feels physically lighter in your body? Not necessarily \"right\"—just lighter. This is often your most reliable compass.",
+        "Test reversibility: Can this decision be undone or adjusted later? If yes, decide immediately—perfectionism costs you way more than a course-correctable mistake."
       ]},
     ],
     4: [
-      { id:"melancholie", label:"Tiefe Melancholie & Leere", emoji:"🌊", schritte:[
-        "In die Welle — nicht gegen sie: Setzen Sie sich mit dem Gefühl. Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie die Traurigkeit vollständig — dann ist die Zeit um.",
-        "Körper-Anker: Gehen Sie nach draußen. Zehn Minuten Bewegung. Der Körper holt die Seele oft aus der Spirale, wenn der Kopf es nicht schafft.",
-        "Erschaffung: Tun Sie etwas Kreatives — schreiben, zeichnen, Musik hören. Nicht um sich abzulenken, sondern um der Emotion einen Ausdruck zu geben."
+      { id:"melancholie", label:"Deep Melancholy & Emptiness", emoji:"🌊", schritte:[
+        "Ride the wave—don't fight it: Sit with the emotion. Set a timer for ten minutes. Allow yourself to fully experience the sadness—and when the timer goes off, the window closes.",
+        "Somatic anchor: Step outside. Move your body for ten minutes. The physical body can often pull the soul out of a spiral when the mind cannot.",
+        "Creative output: Do something creative—write a paragraph, sketch, listen to music. Do it not to distract yourself, but to give the emotion a tangible form of expression."
       ]},
-      { id:"neid", label:"Neid & das Gefühl, zu wenig zu sein", emoji:"💜", schritte:[
-        "Neid benennen: &bdquo;Ich bin neidisch auf X, weil Y.&ldquo; Ehrlich, ohne Scham. Neid zeigt, was Sie sich wünschen — das ist wertvolle Information.",
-        "Einzigartigkeit erinnern: Was kann oder fühlt nur ich? Was hat noch niemand sonst getan, gedacht, ausgedrückt in Ihrer Art? Schreiben Sie drei Dinge.",
-        "Einen Schönheits-Moment: Searchn Sie heute bewusst etwas Schönes in Ihrer eigenen Gegenwart — nicht im Leben anderer. Ein Moment, der nur Ihrer ist."
+      { id:"neid", label:"Envy & the Feeling of Insufficiency", emoji:"💜", schritte:[
+        "Name the envy: Admit to yourself, \"I am envious of X because of Y.\" Be completely honest, without shame. Envy simply highlights what you secretly desire—and that is incredibly valuable data.",
+        "Remember your own blueprint: What is something only you can do or feel? What has no one else ever done, thought, or expressed in your exact way? Write down three things.",
+        "A moment of beauty: Actively look for one beautiful thing in your immediate reality today—not in the lives of others. Find a moment that belongs solely to you."
       ]},
-      { id:"abgelehnt", label:"Ablehnung & unverstanden sein", emoji:"🫙", schritte:[
-        "Gefühl validieren: Es tut weh, nicht gesehen zu werden. Das ist real und verständlich. Sie müssen das nicht sofort wegdenken.",
-        "Übertragung prüfen: Wie stark erinnert diese Situation an frühere Verletzungen? Reagieren Sie auf jetzt — oder auf damals?",
-        "Selbst-Zeugnis: Schreiben Sie auf, was in Ihnen steckt, das der andere vielleicht nicht sieht. Werden Sie Ihr eigener wohlwollender Zeuge."
+      { id:"abgelehnt", label:"Rejection & Being Misunderstood", emoji:"🫙", schritte:[
+        "Validate the hurt: It is painful to feel unseen. That pain is real and completely understandable. You don't have to intellectualize it away right now.",
+        "Trace the shadow: How much does this specific situation echo older wounds from your past? Are you reacting to what is happening right now—or what happened back then?",
+        "Self-witnessing: Write down what exists inside of you that the other person might be missing or failing to see. Become your own compassionate witness."
       ]},
     ],
     5: [
-      { id:"ueberforderung", label:"Soziale Überforderung", emoji:"🧠", schritte:[
-        "Sofort-Rückzug: Entschuldigen Sie sich höflich und verlassen Sie die Situation. Das ist kein Versagen — es ist Selbstregulation. Gehen Sie in Ihren Rückzugsraum.",
-        "Energie-Reset: Sitzen Sie allein, ohne Input. Kein Handy, keine Musik, kein Podcast. Fünfzehn Minuten Stille. Der Akku lädt nur im Schweigen.",
-        "Dosierter Wiedereinstieg: Wenn Sie wieder bereit sind, wählen Sie bewusst ein einziges Gespräch oder eine Aufgabe. Keine Vollbelastung nach der Pause."
+      { id:"ueberforderung", label:"Social Overwhelm", emoji:"🧠", schritte:[
+        "Immediate withdrawal: Excuse yourself politely and leave the situation. This is not a failure—it is self-regulation. Go to your designated retreat space.",
+        "Energy reset: Sit alone, without any input. No phone, no music, no podcast. Fifteen minutes of complete silence. Your battery only recharges in quiet.",
+        "Gradual re-entry: When you feel ready, deliberately choose a single conversation or one task. Do not go back to full load immediately after the break."
       ]},
-      { id:"leere", label:"Innere Leere & Isolation", emoji:"🏔️", schritte:[
-        "Körper besuchen: Stehen Sie auf und bewegen Sie sich — ein kurzer Spaziergang, Dehnen, kaltes Wasser ins Gesicht. Der Kopf kann Sie festhalten; der Körper holt Sie zurück.",
-        "Minimalkontakt: Schreiben Sie einer Person, die Sie schätzen, eine kurze Nachricht. Kein langer Austausch — nur ein kleines Signal der Verbindung.",
-        "Wissens-Ankerpunkt: Beschäftigen Sie sich mit einem Thema, das Sie wirklich interessiert. Nicht als Ablenkung — als Erinnerung, dass Sie lebendig und neugierig sind."
+      { id:"leere", label:"Inner Emptiness & Isolation", emoji:"🏔️", schritte:[
+        "Visit your body: Stand up and move—a short walk, some stretching, cold water on your face. Your mind can trap you; your body brings you back.",
+        "Minimal contact: Send a brief message to someone you appreciate. No long exchange—just a small signal of connection.",
+        "Knowledge anchor: Engage with a topic that genuinely interests you. Not as a distraction—as a reminder that you are alive and curious."
       ]},
-      { id:"kontrollverlust", label:"Kontrollverlust & Angst", emoji:"🌀", schritte:[
-        "Fakten sammeln: Was ist tatsächlich passiert — ohne Interpretation? Schreiben Sie nur die belegbaren Fakten auf. Das sortiert den Kopf.",
-        "Einflussbereich klären: Was davon können Sie beeinflussen — und was nicht? Streichen Sie, was außerhalb Ihres Einflussbereichs liegt. Konzentrieren Sie sich nur auf den Rest.",
-        "Einen Schritt planen: Was ist der kleinste mögliche Schritt, den Sie jetzt gehen können? Führen Sie ihn durch. Handlung löst Kontrollverlust besser als Nachdenken."
+      { id:"kontrollverlust", label:"Loss of Control & Fear", emoji:"🌀", schritte:[
+        "Gather the facts: What actually happened—without interpretation? Write down only the verifiable facts. This clears the mind.",
+        "Clarify your sphere of influence: What can you actually affect—and what is beyond your reach? Cross off what lies outside your control. Focus only on what remains.",
+        "Plan one step: What is the smallest possible action you can take right now? Take it. Action resolves a sense of lost control far better than continued thinking."
       ]},
     ],
     6: [
-      { id:"angst", label:"Akute Angst & Katastrophendenken", emoji:"🌪️", schritte:[
-        "Atemnotbremse: Atmen Sie vier Sekunden ein, halten Sie vier Sekunden an, atmen Sie acht Sekunden aus. Das aktiviert den Parasympathikus — physiologisch, nicht metaphorisch.",
-        "Wahrscheinlichkeitscheck: Schreiben Sie das Worst-Case-Szenario auf. Dann fragen Sie: Wie wahrscheinlich ist das wirklich, auf einer Skala von 1 bis 10? Und: Was würde ich tun, wenn es einträte?",
-        "Verbündeten-Contact: Rufen Sie jetzt eine Person an, der Sie vertrauen. Nicht um das Problem zu lösen — um sich gehört zu fühlen. Das reicht."
+      { id:"angst", label:"Acute Anxiety & Catastrophic Thinking", emoji:"🌪️", schritte:[
+        "Emergency brake breath: Inhale for four seconds, hold for four seconds, exhale for eight seconds. This activates the parasympathetic nervous system—physiologically, not metaphorically.",
+        "Probability check: Write down the worst-case scenario. Then ask: How likely is this really, on a scale of 1 to 10? And: What would I actually do if it happened?",
+        "Ally contact: Call someone you trust right now. Not to solve the problem—just to feel heard. That is enough."
       ]},
-      { id:"misstrauen", label:"Misstrauen & Verrat", emoji:"🛡️", schritte:[
-        "Trennung: Was ist Tatsache — und was ist Interpretation? Schreiben Sie die Tatsachen auf eine Seite, die Interpretationen auf die andere.",
-        "Geschichte prüfen: Hat diese Person bisher Grund zum Misstrauen gegeben? Oder projizieren Sie eine alte Erfahrung auf jetzt?",
-        "Einen Schritt wagen: Vertrauen entsteht durch kleine Tests. Was ist die kleinste Offenheit, die Sie riskieren könnten? Versuchen Sie es bewusst."
+      { id:"misstrauen", label:"Distrust & Betrayal", emoji:"🛡️", schritte:[
+        "Separate facts from story: What is a verifiable fact—and what is your interpretation? Write the facts on one side, your interpretations on the other.",
+        "Check the history: Has this person actually given you concrete reasons to distrust them? Or are you projecting a past experience onto the present moment?",
+        "Take a small risk: Trust is built through small experiments. What is the smallest act of openness you could risk right now? Try it deliberately."
       ]},
-      { id:"zweifel", label:"Lähmender Selbstzweifel", emoji:"🔍", schritte:[
-        "Zweifel benennen: Schreiben Sie den konkreten Zweifel auf. Häufig verliert er an Macht, sobald er sichtbar ist.",
-        "Kompetenz-Anker: Erinnern Sie sich an drei Situationen, in denen Sie trotz Zweifel richtig entschieden oder gehandelt haben. Sie haben Ressourcen — auch wenn der Zweifel das verdeckt.",
-        "Entscheidung auf Zeit: Treffen Sie jetzt eine Entscheidung — nur für heute. Mit dem Recht, sie morgen zu überprüfen. Das bricht die Lähmung, ohne Endgültigkeit zu erzwingen."
+      { id:"zweifel", label:"Paralyzing Self-Doubt", emoji:"🔍", schritte:[
+        "Name the doubt: Write down exactly what you are doubting. It often loses its grip on you the moment it becomes visible on the page.",
+        "Competence anchor: Recall three specific situations where you made a sound decision or took effective action despite significant doubt. You have real resources—even when doubt hides them.",
+        "Time-limited decision: Make a decision right now—but only for today. With the full right to revisit it tomorrow. This breaks the paralysis without forcing a permanent commitment."
       ]},
     ],
     7: [
-      { id:"langeweile", label:"Innere Leere & Langeweile", emoji:"✨", schritte:[
-        "Pause aushalten: Bleiben Sie drei Minuten mit der Leere. Kein Griff zum Handy, kein neuer Plan. Was passiert wirklich, wenn Sie nicht sofort füllen?",
-        "Tiefe statt Breite: Wählen Sie eine einzige Sache aus Ihrem Leben — eine Beziehung, ein Projekt, eine Idee. Gehen Sie damit tiefer, statt zu wechseln.",
-        "Körper-Frage: Was fühlt der Körper gerade — unter der Unruhe? Angst? Traurigkeit? Benennen Sie es. Die Leere ist oft ein Gefühl, das noch keinen Namen hat."
+      { id:"langeweile", label:"Inner Emptiness & Boredom", emoji:"✨", schritte:[
+        "Sit with the pause: Stay with the emptiness for three full minutes. No reaching for your phone, no generating a new plan. What actually happens when you don't immediately fill the space?",
+        "Depth over breadth: Choose one single thing from your life—a relationship, a project, an idea. Go deeper with it instead of switching to something new.",
+        "Body question: What is your body actually feeling beneath the restlessness? Fear? Sadness? Name it. The emptiness is often just an emotion that hasn't been given a name yet."
       ]},
-      { id:"schmerz", label:"Schmerz & Trauer vermeiden", emoji:"🌧️", schritte:[
-        "Dem Schmerz erlauben: Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie sich, das Schwere wirklich zu fühlen — ohne Ausweg, ohne Plan. Zehn Minuten.",
-        "Trauer als Signal: Wofür trauern Sie? Was hat das für eine Bedeutung? Trauer zeigt, was Ihnen wichtig war. Das ist nicht schwach — das ist tief.",
-        "Bleiben statt fliehen: Wählen Sie heute eine Situation, in der Sie normalerweise ausweichen würden. Bleiben Sie darin. Sie sind stärker als die Unruhe."
+      { id:"schmerz", label:"Avoiding Pain & Grief", emoji:"🌧️", schritte:[
+        "Allow the pain: Set a timer for ten minutes. Give yourself permission to fully feel the weight of it—no escape route, no plan. Just ten minutes.",
+        "Grief as signal: What are you grieving for? What does it mean? Grief points directly to what mattered to you. That is not weakness—that is depth.",
+        "Stay instead of flee: Choose one situation today where you would normally dodge or deflect. Stay in it. You are stronger than the restlessness."
       ]},
-      { id:"verpflichtung", label:"Verpflichtungsangst & Flucht", emoji:"🎪", schritte:[
-        "Was ich wirklich will: Hinter der Flucht steckt oft eine echte Sehnsucht. Was wollen Sie wirklich — wenn kein Ausweg möglich wäre?",
-        "Kosten der Freiheit: Was verlieren Sie durch ständige Optionalität? Tiefe? Verlässlichkeit? Vertrauen? Machen Sie sich das bewusst, ohne sich zu verurteilen.",
-        "Kleines Commitment: Wählen Sie eine Verpflichtung — klein, konkret, überschaubar. Halten Sie sie. Das ist Übung, keine Selbstbestrafung."
+      { id:"verpflichtung", label:"Fear of Commitment & Escape", emoji:"🎪", schritte:[
+        "What I actually want: Behind the urge to flee, there is often a genuine longing. What do you truly want—if escaping were simply not an option?",
+        "The cost of endless freedom: What are you losing through constant optionality? Depth? Reliability? Trust? Become aware of this honestly, without judging yourself.",
+        "A small commitment: Choose one obligation—small, concrete, manageable. Honor it. This is practice, not self-punishment."
       ]},
     ],
     8: [
-      { id:"kontrollverlust", label:"Kontrollverlust & Ohnmacht", emoji:"⚡", schritte:[
-        "Körper entladen: Gehen Sie raus und bewegen Sie sich kräftig — laufen, Treppen steigen, Liegestütze. Der Körper des Typs 8 braucht ein Ventil für aufgestaute Energie.",
-        "Einfluss klären: Was liegt in Ihrer Hand — und was nicht? Wenden Sie sich ausschließlich dem zu, was Sie tatsächlich verändern können. Lassen Sie den Rest los.",
-        "Stärke durch Stille: Stärke heißt nicht immer handeln. Sitzen Sie fünf Minuten still und entscheiden Sie bewusst, was Sie als Nächstes tun. Das ist Kontrolle."
+      { id:"kontrollverlust", label:"Loss of Control & Powerlessness", emoji:"⚡", schritte:[
+        "Discharge the body: Get outside and move vigorously—run, climb stairs, do push-ups. Type 8's body needs a physical outlet for pent-up energy.",
+        "Clarify your influence: What is genuinely in your hands—and what is not? Direct your attention exclusively toward what you can actually change. Let the rest go.",
+        "Strength through stillness: Strength does not always mean taking action. Sit quietly for five minutes and consciously decide what you will do next. That is real control."
       ]},
-      { id:"verrat", label:"Verrat & Vertrauensbruch", emoji:"🗡️", schritte:[
-        "Wut herauslassen — sicher: Schreiben Sie alles auf, was Sie fühlen — unzensiert, für niemanden außer sich. Dann verbrennen oder zerreißen Sie den Zettel.",
-        "Verletzlichkeit anerkennen: Hinter dem Verrat steckt ein Schmerz. Der Schmerz kommt, weil Sie vertraut haben. Das ist keine Schwäche — das ist Menschlichkeit.",
-        "Nächsten Schritt wählen: Was ist das Klügste, das Sie jetzt tun können — nicht das Härteste? Handeln aus Klarheit ist wirksamer als Handeln aus Zorn."
+      { id:"verrat", label:"Betrayal & Breach of Trust", emoji:"🗡️", schritte:[
+        "Release the anger—safely: Write down everything you are feeling—uncensored, for no one but yourself. Then burn or shred the paper.",
+        "Acknowledge the vulnerability: Behind the betrayal is pain. The pain exists because you trusted. That is not weakness—that is your humanity.",
+        "Choose your next move wisely: What is the smartest thing you can do right now—not the hardest? Acting from clarity is always more powerful than acting from rage."
       ]},
-      { id:"schwaeche", label:"Eigene Schwäche & Verletzlichkeit", emoji:"🫀", schritte:[
-        "Allein sein erlauben: Searchn Sie Einsamkeit — nicht um zu grübeln, sondern um ohne Publikum zu sein. Typ 8 ist in Einsamkeit oft zugänglicher für sich selbst.",
-        "Verletzlichkeit benennen: Was schmerzt Sie wirklich — hinter der Stärke? Sagen Sie es laut, auch wenn niemand zuhört. Die Worte machen es real.",
-        "Einen Menschen wählen: Gibt es eine Person, der Sie sich zeigen können — ohne Maske? Searchn Sie diese eine Person auf. Das reicht."
+      { id:"schwaeche", label:"Facing Your Own Weakness & Vulnerability", emoji:"🫀", schritte:[
+        "Allow solitude: Seek out time alone—not to ruminate, but to exist without an audience. Type 8 is often far more accessible to themselves when no one is watching.",
+        "Name the vulnerability: What is actually hurting you—behind the strength? Say it out loud, even if no one is listening. The words make it real.",
+        "Choose one person: Is there someone you can show up to without a mask? Seek that one person out. That is enough."
       ]},
     ],
     9: [
-      { id:"vermeidung", label:"Selbstvergessenheit & innere Taubheit", emoji:"🌿", schritte:[
-        "Eigene Anwesenheit: Fragen Sie sich jetzt: Was fühle ich? Was will ich? Was denke ich — nicht was andere wollen? Schreiben Sie es auf, ohne zu zensieren.",
-        "Körper aktivieren: Stehen Sie auf. Bewegen Sie sich für zehn Minuten. Der Typ 9 verliert sich oft im Kopf anderer — der Körper holt Sie zu sich zurück.",
-        "Eine Meinung äußern: Sagen Sie heute in einer Situation, was Sie wirklich denken — auch wenn es unbequem ist. Nur einmal. Das ist Übung, kein Ultimatum."
+      { id:"vermeidung", label:"Self-Forgetting & Inner Numbness", emoji:"🌿", schritte:[
+        "Reclaim your presence: Ask yourself right now: What am I feeling? What do I want? What do I actually think—not what others want? Write it down without censoring a single word.",
+        "Activate the body: Stand up. Move for ten minutes. Type 9 often drifts into the mental world of others—your body brings you back to yourself.",
+        "Voice one opinion: In one situation today, say what you actually think—even if it feels uncomfortable. Just once. This is practice, not an ultimatum."
       ]},
-      { id:"konflikt", label:"Unvermeidlicher Konflikt", emoji:"🌊", schritte:[
-        "Abstand-Kurzpause: Gehen Sie in eine ruhige Ecke für fünf Minuten. Nicht um auszuweichen — um sich zu sammeln, bevor Sie reagieren.",
-        "Position finden: Was ist Ihr eigener Standpunkt in dieser Sache — unabhängig davon, was Harmonie erfordern würde? Benennen Sie ihn für sich.",
-        "Sanft aber klar: Sprechen Sie Ihre Position aus — in ruhigem Ton, aber ohne sie wegzuräumen. &bdquo;Ich sehe das anders: ...&ldquo; Zweimal üben, dann sagen."
+      { id:"konflikt", label:"Unavoidable Conflict", emoji:"🌊", schritte:[
+        "Brief grounding pause: Step into a quiet corner for five minutes. Not to avoid—but to collect yourself before you respond.",
+        "Find your position: What is your own actual perspective on this matter—completely independent of what harmony would require? Define it for yourself first.",
+        "Soft but clear: Speak your position—in a calm, steady tone, but without erasing it. Try saying: \"I see this differently: ...\" Practice it twice, then say it."
       ]},
-      { id:"blockade", label:"Innere Blockade & Trägheit", emoji:"🐢", schritte:[
-        "Zwei-Minuten-Regel: Wählen Sie eine einzige Aufgabe, die Sie vermeiden. Beginnen Sie sie für genau zwei Minuten. Nur das. Nicht fertig werden — anfangen.",
-        "Motivation von innen: Was würden Sie gern für sich selbst erreichen — nicht für andere, nicht für den Frieden? Was wäre Ihnen wichtig, wenn es niemanden sonst gäbe?",
-        "Kleiner sichtbarer Schritt: Tun Sie eine konkrete, sichtbare Sache — etwas, das einen Unterschied macht. Keine große Vision, ein echter kleiner Schritt heute."
+      { id:"blockade", label:"Inner Blockage & Inertia", emoji:"🐢", schritte:[
+        "The two-minute rule: Pick one specific task you have been avoiding. Begin working on it for exactly two minutes. That is all. Not finishing—starting.",
+        "Inner motivation: What would you genuinely love to accomplish for yourself—not for others, not to keep the peace? What would truly matter to you if no one else existed?",
+        "One small visible step: Do one concrete, tangible thing—something that makes a real difference. No grand vision required. Just one genuine small step, today."
       ]},
     ],
   };
