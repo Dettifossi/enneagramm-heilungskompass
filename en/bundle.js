@@ -35808,7 +35808,7 @@ function differenzierungPage() {
 
 function krisenkompassPage() {
   const typeColors = {"1":"#8b6f47","2":"#7a2d90","3":"#c8860a","4":"#5b4fa0","5":"#2e7d6e","6":"#4a6fa5","7":"#b5870a","8":"#8b2014","9":"#5a7a3a"};
-  const typeNames = {"1":"Der Reformer","2":"Der Helfer","3":"Der Dynamiker","4":"Der Individualist","5":"Der Beobachter","6":"Der Loyale","7":"Der Enthusiast","8":"Der Herausforderer","9":"Der Friedensstifter"};
+  const typeNames = {"1":"The Reformer","2":"The Helper","3":"The Achiever","4":"The Individualist","5":"The Observer","6":"The Loyalist","7":"The Enthusiast","8":"The Challenger","9":"The Peacemaker"};
 
   const KRISEN = {
     1: [
@@ -35975,9 +35975,9 @@ function krisenkompassPage() {
       ${pageHeader("krisenkompass")}
       <section class="narrow">
         <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← Neue Situation</button>
-        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr} &middot; ${krise.emoji}</p>
+        <p class="eyebrow">Crisis Compass &middot; Type ${krisenState.typNr} &middot; ${krise.emoji}</p>
         <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${krise.label}</h1>
-        <p style="font-size:.88rem;color:var(--muted);margin-bottom:1.8rem;">Drei konkrete Schritte f&uuml;r <strong style="color:${col};">${typeNames[krisenState.typNr]}</strong> in dieser Situation.</p>
+        <p style="font-size:.88rem;color:var(--muted);margin-bottom:1.8rem;">Three concrete steps for <strong style="color:${col};">${typeNames[krisenState.typNr]}</strong> in dieser Situation.</p>
 
         ${krise.schritte.map((s, i) => `
         <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.2rem;padding:1rem 1.2rem;background:color-mix(in srgb, ${col} 5%, var(--paper));border-radius:10px;border-left:4px solid ${col};">
@@ -35986,7 +35986,7 @@ function krisenkompassPage() {
         </div>`).join("")}
 
         <div style="background:color-mix(in srgb, ${col} 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-top:1.5rem;font-size:.85rem;line-height:1.7;color:var(--ink);">
-          <strong style="color:${col};">Wichtig:</strong> Diese Schritte ersetzen keine professionelle Begleitung. Sie sind ein erster Impuls, um aus der akuten Starre herauszukommen.
+          <strong style="color:${col};">Important:</strong> These steps do not replace professional support. They are a firster Impuls, um aus der akuten Starre herauszukommen.
         </div>
 
         <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
@@ -36013,7 +36013,7 @@ function krisenkompassPage() {
       ${pageHeader("krisenkompass")}
       <section class="narrow">
         <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← Typ wechseln</button>
-        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr}</p>
+        <p class="eyebrow">Crisis Compass &middot; Type ${krisenState.typNr}</p>
         <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${typeNames[krisenState.typNr]}</h1>
         <p style="font-size:.95rem;color:var(--muted);margin-bottom:1.8rem;">Was beschreibt Ihre aktuelle Situation am besten?</p>
         <div style="display:flex;flex-direction:column;gap:.75rem;">
@@ -36035,9 +36035,9 @@ function krisenkompassPage() {
   return shell(`
     ${pageHeader("krisenkompass")}
     <section class="narrow">
-      <p class="eyebrow">Praxis &middot; Krisenkompass</p>
-      <h1>Krisenkompass</h1>
-      <p class="lead-small">Sie stecken gerade in einer schwierigen Situation? W&auml;hlen Sie Ihren Enneagrammtyp &mdash; und erhalten Sie sofort drei konkrete Schritte, die genau zu Ihrem Muster passen.</p>
+      <p class="eyebrow">Practice &middot; Crisis Compass</p>
+      <h1>Crisis Compass</h1>
+      <p class="lead-small">Are you in a difficult situation right now? Choose your Enneagram type &mdash; and receive three concrete steps tailored precisely to your pattern.</p>
 
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1.8rem;">
         ${Object.entries(typeNames).map(([nr, name]) => {
@@ -36055,7 +36055,7 @@ function krisenkompassPage() {
       </div>
 
       <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
-        Der Krisenkompass zeigt keine Diagnosen und ersetzt keine Therapie. Er gibt typspezifische Impulse f&uuml;r den ersten Schritt aus einer akuten Starre heraus.
+        The Crisis Compass offers no diagnoses and does not replace therapy. It provides type-specific impulses for the first step out of acute paralysis.
       </div>
       ${relatedLinks([
         {route:"situationskompass", label:"Situationskompass"},
