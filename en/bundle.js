@@ -35974,7 +35974,7 @@ function krisenkompassPage() {
     return shell(`
       ${pageHeader("krisenkompass")}
       <section class="narrow">
-        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← Neue Situation</button>
+        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← New Situation</button>
         <p class="eyebrow">Crisis Compass &middot; Type ${krisenState.typNr} &middot; ${krise.emoji}</p>
         <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${krise.label}</h1>
         <p style="font-size:.88rem;color:var(--muted);margin-bottom:1.8rem;">Three concrete steps for <strong style="color:${col};">${typeNames[krisenState.typNr]}</strong> in dieser Situation.</p>
@@ -35999,9 +35999,9 @@ function krisenkompassPage() {
           </div>
         </div>
         ${relatedLinks([
-          {route:"situationskompass", label:"Situationskompass"},
-          {route:"practice", label:"Werkzeuge"},
-          {route:"beziehungen", label:"Beziehungskompass"},
+          {route:"situationskompass", label:"Situation Compass"},
+          {route:"practice", label:"Tools"},
+          {route:"beziehungen", label:"Relationship Compass"},
         ])}
       </section>
     `);
@@ -36012,10 +36012,10 @@ function krisenkompassPage() {
     return shell(`
       ${pageHeader("krisenkompass")}
       <section class="narrow">
-        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← Typ wechseln</button>
+        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">← Change Type</button>
         <p class="eyebrow">Crisis Compass &middot; Type ${krisenState.typNr}</p>
         <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${typeNames[krisenState.typNr]}</h1>
-        <p style="font-size:.95rem;color:var(--muted);margin-bottom:1.8rem;">Was beschreibt Ihre aktuelle Situation am besten?</p>
+        <p style="font-size:.95rem;color:var(--muted);margin-bottom:1.8rem;">What best describes your current situation?</p>
         <div style="display:flex;flex-direction:column;gap:.75rem;">
           ${KRISEN[krisenState.typNr].map(k => `
           <button data-krisen-id="${k.id}" style="
@@ -36058,9 +36058,9 @@ function krisenkompassPage() {
         The Crisis Compass offers no diagnoses and does not replace therapy. It provides type-specific impulses for the first step out of acute paralysis.
       </div>
       ${relatedLinks([
-        {route:"situationskompass", label:"Situationskompass"},
-        {route:"practice", label:"Werkzeuge"},
-        {route:"beziehungen", label:"Beziehungskompass"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
+        {route:"beziehungen", label:"Relationship Compass"},
       ])}
     </section>
   `);
