@@ -3398,18 +3398,7 @@ function libraryPage() {
         .join("")}
     </section>
     ${werkSection()}
-    <section style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
-      <div style="max-width:700px;margin:0 auto;">
-        <div style="color:#c4a456;font-size:0.78rem;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:0.8rem;">Interview · 22 minutes</div>
-        <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">»Why Your Enneagram Type<br>Determines Your Health«</h2>
-        <p style="color:rgba(245,233,208,0.75);line-height:1.7;margin:0 0 1.8rem;font-size:0.97rem;max-width:560px;margin-left:auto;margin-right:auto;">A conversation about the publishing programme of Verlagshaus Rathmer — from homeopathy and Enneagram to world peace. What these books can move in people and why knowing your own type changes so much.</p>
-        <audio controls style="width:100%;max-width:560px;border-radius:6px;accent-color:#c4a456;margin-bottom:0.5rem;">
-          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/interview-gesundheit.mp4" type="audio/mp4">
-          Your browser does not support the audio element.
-        </audio>
-        <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Runtime approx. 22 minutes · Verlagshaus Rathmer</p>
-      </div>
-    </section>
+
   `);
 }
 
