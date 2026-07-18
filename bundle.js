@@ -1342,8 +1342,6 @@ const COUNTRY_NAME_DE = {
 };
 
 window._bewertungSenden = _bewertungSenden;
-function _bewertungSterneInit() {
-  
 window.translateReview = function(btn) {
   var card = btn.closest('[data-review-card]');
   var textEl = card.querySelector('[data-review-text]');
@@ -1366,6 +1364,8 @@ window.translateReview = function(btn) {
     })
     .catch(function() { btn.textContent = '🌐 Übersetzen'; });
 }
+
+function _bewertungSterneInit() {
 
 // Freigegebene Bewertungen laden
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',

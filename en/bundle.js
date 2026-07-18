@@ -1774,8 +1774,6 @@ const COUNTRY_NAME_EN = {
 };
 
 window._bewertungSenden = _bewertungSenden;
-function _bewertungSterneInit() {
-  
 window.translateReview = function(btn) {
   var card = btn.closest('[data-review-card]');
   var textEl = card.querySelector('[data-review-text]');
@@ -1797,6 +1795,8 @@ window.translateReview = function(btn) {
       btn.dataset.translated = '1';
     })
     .catch(function() { btn.textContent = '🌐 Translate'; });
+function _bewertungSterneInit() {
+
 }
 
 // Freigegebene Bewertungen laden
