@@ -1634,11 +1634,7 @@ function startPage() {
         <div id="bwrt-sterne" style="display:flex;gap:0.5rem;font-size:2rem;cursor:pointer;margin-bottom:0.8rem;">
           ${[1,2,3,4,5].map(function(n){ return '<span data-s="' + n + '" style="opacity:0.3;transition:opacity .15s;">&#11088;</span>'; }).join('')}
         </div>
-        <input id="bwrt-name" type="text" placeholder="Ihr Name (z. B. Thomas K.)"
-          style="width:100%;border:1px solid var(--border);border-radius:8px;
-                 padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
-                 color:var(--ink);box-sizing:border-box;margin-bottom:0.6rem;" />
-        <input id="bwrt-name" type="text" placeholder="Dein Name (optional) – z.B. Thomas S."
+        <input id="bwrt-name" type="text" placeholder="Ihr Name (optional, z. B. Thomas S.)"
           style="width:100%;border:1px solid var(--border);border-radius:8px;
                  padding:0.6rem;font-size:0.9rem;font-family:inherit;background:#fff;
                  color:var(--ink);box-sizing:border-box;margin-bottom:0.5rem;" />
@@ -37045,7 +37041,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v589';
+  const MY_VERSION = 'inhalt-v590';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
