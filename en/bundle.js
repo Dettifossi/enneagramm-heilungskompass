@@ -10947,7 +10947,7 @@ function beziehungenPage() {
                style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
           <div style="padding:0.4rem 0.6rem; border-top:1px solid var(--line); background:color-mix(in srgb,${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'} 10%,var(--paper));">
             <div style="text-align:center; font-size:0.72rem; font-weight:700; color:${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'}; margin-bottom:0.25rem;">${code}</div>
-            <div style="font-size:0.68rem; color:var(--muted); line-height:1.35;">${(COMIC_EN[seCode]||{}).caption||""}</div>
+            <div style="font-size:0.68rem; color:var(--muted); line-height:1.35;">${(COMIC_EN[seCode.toLowerCase()]||{}).caption||""}</div>
           </div>
         </div>`;
         }).join("")}
@@ -40947,7 +40947,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v609';
+  const MY_VERSION = 'inhalt-v610';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
