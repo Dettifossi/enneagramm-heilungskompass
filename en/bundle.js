@@ -4,7 +4,7 @@ import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
-import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=14";
+import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=8";
 import { registerEntries } from "../data/register.js?v=21";
@@ -40947,7 +40947,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v610';
+  const MY_VERSION = 'inhalt-v611';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
