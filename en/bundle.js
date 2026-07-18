@@ -35881,87 +35881,87 @@ function krisenkompassPage() {
     ],
     5: [
       { id:"ueberforderung", label:"Social Overwhelm", emoji:"🧠", schritte:[
-        "Immediate withdrawal: Excuse yourself politely and leave the situation. This is not a failure—it is self-regulation. Go to your designated retreat space.",
-        "Energy reset: Sit alone, without any input. No phone, no music, no podcast. Fifteen minutes of complete silence. Your battery only recharges in quiet.",
-        "Gradual re-entry: When you feel ready, deliberately choose a single conversation or one task. Do not go back to full load immediately after the break."
+        "Immediate withdrawal: Politely excuse yourself and leave the situation. This is not a failure—it is active self-regulation. Move into your sanctuary.",
+        "Energy reset: Sit entirely alone with zero input. No phone, no music, no podcasts. Give yourself fifteen minutes of absolute silence. Your battery only recharges in the quiet.",
+        "Metered re-entry: Once you feel ready, intentionally choose just one conversation or a single task. Do not jump back into full capacity right after your break."
       ]},
       { id:"leere", label:"Inner Emptiness & Isolation", emoji:"🏔️", schritte:[
-        "Visit your body: Stand up and move—a short walk, some stretching, cold water on your face. Your mind can trap you; your body brings you back.",
-        "Minimal contact: Send a brief message to someone you appreciate. No long exchange—just a small signal of connection.",
-        "Knowledge anchor: Engage with a topic that genuinely interests you. Not as a distraction—as a reminder that you are alive and curious."
+        "Inhabit your body: Get up and move—take a short walk, stretch, or splash cold water on your face. Your mind can trap you; your body brings you back.",
+        "Micro-connection: Send a brief message to someone you value. This isn't about a long conversation—it is simply a small signal of connection to the outside world.",
+        "Intellectual anchor: Spend time with a topic that genuinely fascinates you. Do this not to distract yourself, but to remind yourself that you are alive and curious."
       ]},
-      { id:"kontrollverlust", label:"Loss of Control & Fear", emoji:"🌀", schritte:[
-        "Gather the facts: What actually happened—without interpretation? Write down only the verifiable facts. This clears the mind.",
-        "Clarify your sphere of influence: What can you actually affect—and what is beyond your reach? Cross off what lies outside your control. Focus only on what remains.",
-        "Plan one step: What is the smallest possible action you can take right now? Take it. Action resolves a sense of lost control far better than continued thinking."
+      { id:"kontrollverlust", label:"Loss of Control & Anxiety", emoji:"🌀", schritte:[
+        "Gather the facts: What actually happened—strictly without interpretation? Write down only the provable facts. This brings immediate structure to your mind.",
+        "Clarify your sphere of influence: What parts of this can you actually affect, and what parts are completely out of your hands? Cross off what you cannot control. Focus exclusively on the rest.",
+        "Plan one micro-step: What is the smallest possible action you can take right now? Execute it. Action resolves a loss of control much better than overthinking."
       ]},
     ],
     6: [
-      { id:"angst", label:"Acute Anxiety & Catastrophic Thinking", emoji:"🌪️", schritte:[
-        "Emergency brake breath: Inhale for four seconds, hold for four seconds, exhale for eight seconds. This activates the parasympathetic nervous system—physiologically, not metaphorically.",
-        "Probability check: Write down the worst-case scenario. Then ask: How likely is this really, on a scale of 1 to 10? And: What would I actually do if it happened?",
-        "Ally contact: Call someone you trust right now. Not to solve the problem—just to feel heard. That is enough."
+      { id:"angst", label:"Acute Anxiety & Catastrophizing", emoji:"🌪️", schritte:[
+        "Emergency breath brake: Inhale for four seconds, hold for four seconds, exhale for eight seconds. This activates your parasympathetic nervous system—physiologically, not metaphorically.",
+        "Probability check: Write down the absolute worst-case scenario. Then ask yourself: How likely is this to actually happen on a scale from 1 to 10? Follow up with: What concrete action would I take if it did?",
+        "Connect with an ally: Reach out to a person you trust right now. Do this not to fix the problem, but simply to feel heard. That alone is enough."
       ]},
-      { id:"misstrauen", label:"Distrust & Betrayal", emoji:"🛡️", schritte:[
-        "Separate facts from story: What is a verifiable fact—and what is your interpretation? Write the facts on one side, your interpretations on the other.",
-        "Check the history: Has this person actually given you concrete reasons to distrust them? Or are you projecting a past experience onto the present moment?",
-        "Take a small risk: Trust is built through small experiments. What is the smallest act of openness you could risk right now? Try it deliberately."
+      { id:"misstrauen", label:"Mistrust & Betrayal", emoji:"🛡️", schritte:[
+        "Separate fact from fiction: What is a proven fact—and what is your own interpretation? Write the facts on one side of a page and your interpretations on the other.",
+        "Examine the history: Has this person actually given you a legitimate reason to distrust them in the past? Or are you projecting an old wound onto the present moment?",
+        "Risk a micro-step: Trust is built through small, managed tests. What is the smallest piece of vulnerability you can risk sharing right now? Try it intentionally."
       ]},
       { id:"zweifel", label:"Paralyzing Self-Doubt", emoji:"🔍", schritte:[
-        "Name the doubt: Write down exactly what you are doubting. It often loses its grip on you the moment it becomes visible on the page.",
-        "Competence anchor: Recall three specific situations where you made a sound decision or took effective action despite significant doubt. You have real resources—even when doubt hides them.",
-        "Time-limited decision: Make a decision right now—but only for today. With the full right to revisit it tomorrow. This breaks the paralysis without forcing a permanent commitment."
+        "Name the doubt: Write down the exact doubt you are experiencing. Often, the thoughts lose their power the moment they are made visible on paper.",
+        "Competence anchor: Recall three distinct situations in your life where you made the right call or acted effectively despite feeling doubtful. You have resources—even if the doubt is currently hiding them.",
+        "Temporary decision: Make a choice right now—but just for today. Give yourself full permission to re-evaluate it tomorrow. This breaks the paralysis without forcing permanent finality."
       ]},
     ],
     7: [
       { id:"langeweile", label:"Inner Emptiness & Boredom", emoji:"✨", schritte:[
-        "Sit with the pause: Stay with the emptiness for three full minutes. No reaching for your phone, no generating a new plan. What actually happens when you don't immediately fill the space?",
-        "Depth over breadth: Choose one single thing from your life—a relationship, a project, an idea. Go deeper with it instead of switching to something new.",
-        "Body question: What is your body actually feeling beneath the restlessness? Fear? Sadness? Name it. The emptiness is often just an emotion that hasn't been given a name yet."
+        "Tolerate the pause: Sit with the emptiness for three full minutes. Do not reach for your phone, and do not make a new plan. See what actually happens when you don't instantly fill the void.",
+        "Depth over breadth: Choose one single area of your life—a relationship, a project, or an idea. Dive deeper into it instead of pivoting to something new.",
+        "Somatic check-in: What is your body actually feeling beneath the restlessness? Fear? Sadness? Name it. The emptiness is often just an emotion that hasn't been given a label yet."
       ]},
       { id:"schmerz", label:"Avoiding Pain & Grief", emoji:"🌧️", schritte:[
-        "Allow the pain: Set a timer for ten minutes. Give yourself permission to fully feel the weight of it—no escape route, no plan. Just ten minutes.",
-        "Grief as signal: What are you grieving for? What does it mean? Grief points directly to what mattered to you. That is not weakness—that is depth.",
-        "Stay instead of flee: Choose one situation today where you would normally dodge or deflect. Stay in it. You are stronger than the restlessness."
+        "Allow the pain space: Set a timer for ten minutes. Give yourself permission to fully feel the heavy emotion—without looking for an escape hatch or making a plan. Ten minutes, pure and simple.",
+        "Grief as a signal: What exactly are you grieving, and what does it mean to you? Grief simply highlights what truly mattered to your heart. That isn't weakness—it is depth.",
+        "Stay instead of fleeing: Choose one situation today where your default instinct would be to avoid or run away. Stay anchored in it. You are far stronger than the restlessness."
       ]},
-      { id:"verpflichtung", label:"Fear of Commitment & Escape", emoji:"🎪", schritte:[
-        "What I actually want: Behind the urge to flee, there is often a genuine longing. What do you truly want—if escaping were simply not an option?",
-        "The cost of endless freedom: What are you losing through constant optionality? Depth? Reliability? Trust? Become aware of this honestly, without judging yourself.",
-        "A small commitment: Choose one obligation—small, concrete, manageable. Honor it. This is practice, not self-punishment."
+      { id:"verpflichtung", label:"Fear of Commitment & Flight", emoji:"🎪", schritte:[
+        "Uncover the true desire: Behind the urge to flee usually lies a profound longing. What do you truly want—if finding an escape route were completely off the table?",
+        "Calculate the cost of freedom: What are you losing by keeping every single option constantly open? Depth? Reliability? Trust? Acknowledge these losses without judging yourself.",
+        "Make a micro-commitment: Choose one commitment—something small, concrete, and highly manageable. Keep it. Treat this as a strengthening exercise, not a self-punishment."
       ]},
     ],
     8: [
       { id:"kontrollverlust", label:"Loss of Control & Powerlessness", emoji:"⚡", schritte:[
-        "Discharge the body: Get outside and move vigorously—run, climb stairs, do push-ups. Type 8's body needs a physical outlet for pent-up energy.",
-        "Clarify your influence: What is genuinely in your hands—and what is not? Direct your attention exclusively toward what you can actually change. Let the rest go.",
-        "Strength through stillness: Strength does not always mean taking action. Sit quietly for five minutes and consciously decide what you will do next. That is real control."
+        "Physical discharge: Go outside and move aggressively—run, climb stairs, or do push-ups. An Eight's body needs an immediate physical outlet for pent-up adrenaline and energy.",
+        "Clarify your leverage: What is entirely in your hands, and what is completely out of your control? Dedicate your focus exclusively to what you can actually change, and let go of the rest.",
+        "Strength through stillness: True power does not always mean immediate action. Sit perfectly still for five minutes, then consciously decide your very next move. That is real control."
       ]},
-      { id:"verrat", label:"Betrayal & Breach of Trust", emoji:"🗡️", schritte:[
-        "Release the anger—safely: Write down everything you are feeling—uncensored, for no one but yourself. Then burn or shred the paper.",
-        "Acknowledge the vulnerability: Behind the betrayal is pain. The pain exists because you trusted. That is not weakness—that is your humanity.",
-        "Choose your next move wisely: What is the smartest thing you can do right now—not the hardest? Acting from clarity is always more powerful than acting from rage."
+      { id:"verrat", label:"Betrayal & Broken Trust", emoji:"🗡️", schritte:[
+        "Release the rage safely: Write down absolutely everything you are feeling—completely uncensored, meant for no eyes but your own. When you are done, tear up or burn the paper.",
+        "Acknowledge the vulnerability: Behind the protective anger lies genuine pain. The pain exists because you chose to trust. That isn't a weakness—it is your humanity.",
+        "Choose the smartest next step: What is the wisest thing you can do right now—not the hardest or most aggressive? Acting from absolute clarity is always more powerful than reacting from rage."
       ]},
-      { id:"schwaeche", label:"Facing Your Own Weakness & Vulnerability", emoji:"🫀", schritte:[
-        "Allow solitude: Seek out time alone—not to ruminate, but to exist without an audience. Type 8 is often far more accessible to themselves when no one is watching.",
-        "Name the vulnerability: What is actually hurting you—behind the strength? Say it out loud, even if no one is listening. The words make it real.",
-        "Choose one person: Is there someone you can show up to without a mask? Seek that one person out. That is enough."
+      { id:"schwaeche", label:"Personal Weakness & Vulnerability", emoji:"🫀", schritte:[
+        "Allow yourself to be alone: Seek out true solitude—not to brood, but to simply exist without an audience. An Eight is often much more accessible to themselves when the pressure to be strong for others is gone.",
+        "Name the vulnerability: What is actually hurting you beneath the tough exterior? Say it out loud, even if you are alone in the room. Speaking the words makes the truth real.",
+        "Choose one person: Is there a single human being in your life with whom you can drop the armor? Go to that person and show up exactly as you are. That is enough."
       ]},
     ],
     9: [
       { id:"vermeidung", label:"Self-Forgetting & Inner Numbness", emoji:"🌿", schritte:[
-        "Reclaim your presence: Ask yourself right now: What am I feeling? What do I want? What do I actually think—not what others want? Write it down without censoring a single word.",
-        "Activate the body: Stand up. Move for ten minutes. Type 9 often drifts into the mental world of others—your body brings you back to yourself.",
-        "Voice one opinion: In one situation today, say what you actually think—even if it feels uncomfortable. Just once. This is practice, not an ultimatum."
+        "Reclaim your presence: Ask yourself right now: What am I feeling? What do I want? What do I think?—independent of what everyone else wants. Write it down without censoring a single word.",
+        "Activate your body: Stand up and move for ten minutes. A Nine easily vanishes into the mental space of others; your physical body is what anchors you back to yourself.",
+        "Voice an opinion: In a situation today, say exactly what you truly think—even if it creates a ripple or feels uncomfortable. Just do it once. This is a practice run, not an ultimatum."
       ]},
       { id:"konflikt", label:"Unavoidable Conflict", emoji:"🌊", schritte:[
-        "Brief grounding pause: Step into a quiet corner for five minutes. Not to avoid—but to collect yourself before you respond.",
-        "Find your position: What is your own actual perspective on this matter—completely independent of what harmony would require? Define it for yourself first.",
-        "Soft but clear: Speak your position—in a calm, steady tone, but without erasing it. Try saying: \"I see this differently: ...\" Practice it twice, then say it."
+        "Take a brief breather: Step away to a quiet corner for five minutes. Do this not to avoid the issue, but to gather your own energy before you respond.",
+        "Find your ground: What is your actual, honest stance on this matter—completely separate from what keeping the peace would require? Define it clearly for yourself first.",
+        "Soft tone, firm boundary: State your position out loud—keep your voice calm and gentle, but do not dilute your truth. Practice saying: \"I see this differently: ...\""
       ]},
-      { id:"blockade", label:"Inner Blockage & Inertia", emoji:"🐢", schritte:[
-        "The two-minute rule: Pick one specific task you have been avoiding. Begin working on it for exactly two minutes. That is all. Not finishing—starting.",
-        "Inner motivation: What would you genuinely love to accomplish for yourself—not for others, not to keep the peace? What would truly matter to you if no one else existed?",
-        "One small visible step: Do one concrete, tangible thing—something that makes a real difference. No grand vision required. Just one genuine small step, today."
+      { id:"blockade", label:"Inner Blockade & Inertia", emoji:"🐢", schritte:[
+        "The two-minute rule: Choose one specific task you have been actively avoiding. Force yourself to work on it for exactly two minutes. Just that. Don't worry about finishing—just focus on starting.",
+        "Internal motivation: What would you love to achieve purely for yourself—not for others, and not just to maintain harmony? What would matter to you if there were no one else to please?",
+        "A small, visible action: Do one concrete, highly visible thing today that makes a real difference. Skip the overwhelming grand visions—just take one real, tangible step right now."
       ]},
     ],
   };
