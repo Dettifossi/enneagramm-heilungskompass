@@ -21,9 +21,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Wenn Erschöpfung sich zeigt, antwortet der innere Antreiber mit noch mehr Disziplin. Ausruhen fühlt sich falsch an – fast wie eine moralische Verfehlung. Der innere Kritiker flüstert: "Du hast noch nicht genug getan" – und der Körper gehorcht, lange über seine Grenzen hinaus.`,
         bewusstheit: `Was wäre, wenn der Körper gerade nicht dein Feind ist, sondern dein ehrlichster Zeuge? Erschöpfung kann auch bedeuten: du hast wirklich gegeben – und das darf jetzt einfach so sein.`,
         uebung: `Setz dich für fünf Minuten hin, ohne Absicht. Wenn Gedanken kommen, die dich antreiben – benenne sie leise: "Das ist der Antreiber." Mehr nicht. Beobachte, was passiert, wenn du ihnen nicht folgst.`,
-        autopilotEN: `When exhaustion sets in, your inner driver responds with even more discipline. Resting feels wrong—almost like a moral failing. The inner critic whispers, "You haven't done enough yet"—and your body obeys, pushing far past its limits.`,
-        bewusstheitEN: `What if your body isn't your enemy right now, but your most honest witness? Exhaustion can also mean you truly gave it your all—and it's okay to just let that be enough for now.`,
-        uebungEN: `Sit quietly for five minutes with no agenda. If driving thoughts come up, gently label them: "That's the driver." Leave it at that. Just observe what happens when you choose not to follow them.`
+        autopilotEN: `Stagnation feels like an absolute failure: you aren't productive enough, you aren't making progress, you're standing still. The inner judge barks: You should be further along. You aggressively drive yourself forward instead of pausing.`,
+        bewusstheitEN: `What if this quiet phase isn't a standstill—but a period of preparation? What might emerge if you stopped fighting the current and just waited?`,
+        uebungEN: `Give yourself one single, modest task for the day. Just one. Once it is finished, let the day be complete—no post-game analysis, no extra add-ons.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird die innere Überzeugung, im Recht zu sein, zur unüberwindlichen Mauer. Argumente des anderen werden geprüft und für unzureichend befunden. Der Ton wird sachlicher, kühler, schneidender – als ob Präzision überzeugender wäre als Empathie.`,
@@ -96,9 +96,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die eigene Erschöpfung wird dem Einsatz für das Richtige geopfert. Solange die Sache wichtig ist, rechtfertigt sie den Preis. Der Körper sendet Signale – das Gewissen aber sagt: "Jetzt ist nicht die Zeit dafür."`,
         bewusstheit: `Für welche Werte kämpfst du gerade – und bist du noch wirklich präsent für sie? Wer leidet darunter, dass du erschöpft bist, aber weitermachst?`,
         uebung: `Schreibe heute eine bewusste Nicht-Liste: Was wirst du heute nicht tun? Beobachte, welcher Widerstand dabei entsteht – und ob dieser Widerstand wirklich von dir kommt oder von einem älteren Bild davon, wer du sein sollst.`,
-        autopilotEN: `Your own exhaustion is sacrificed for the sake of doing the right thing. As long as the cause is important, it justifies the cost. Your body sends clear distress signals—but your conscience insists, "Now is not the time."`,
-        bewusstheitEN: `What values are you fighting for right now—and are you still truly present for them? Who ultimately suffers when you keep pushing forward on empty?`,
-        uebungEN: `Today, write a deliberate "To-Don't List." What are you going to actively choose not to do today? Notice the resistance that comes up—and ask yourself if that resistance is genuinely yours, or if it comes from an old blueprint of who you're supposed to be.`
+        autopilotEN: `Stagnation triggers intense guilt: I'm not doing enough for the cause, for others, or for the greater good. You try to work your way out of the internal emptiness by aggressively fulfilling duties—which never actually fills the void.`,
+        bewusstheitEN: `What if the act of pausing is exactly what is right for you in this moment—not an act of escapism, but a necessary rest?`,
+        uebungEN: `Give yourself permission to live through today without a grand objective. Observe what bubbles up in the quiet—without instantly trying to turn it into a chore.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird auf Werte und Prinzipien verwiesen – auf das, was gerecht, fair und richtig für alle wäre. Die eigene Position wird weniger als persönliche Meinung formuliert, sondern als objektive Norm. Wer anderer Meinung ist, scheint gegen das Prinzip selbst zu verstossen.`,
@@ -171,9 +171,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Wenn die Energie nachlässt, steigt die innere Anforderung. Mehr Perfektion, mehr Einsatz, mehr Intensität – als ob man sich durch Willen aus der Erschöpfung herausarbeiten könnte. Unfertiges wird kaum toleriert.`,
         bewusstheit: `Was wäre es, jetzt gerade unfertig zu sein – und das nicht zu korrigieren? Welches Bild von dir selbst würde dabei ins Wanken geraten?`,
         uebung: `Lass heute bewusst etwas unvollendet. Bleibe einen Moment bei dem Unbehagen, das dabei entsteht. Atme. Beobachte, wie dein inneres System reagiert – ohne einzugreifen.`,
-        autopilotEN: `As your energy drops, your internal demands skyrocket. More perfection, more drive, more intensity—as if you could simply force your way out of exhaustion through sheer willpower. Leaving things unfinished is out of the question.`,
-        bewusstheitEN: `What would it look like to just be unfinished right now—and to not fix it? What version of yourself would that challenge?`,
-        uebungEN: `Today, deliberately leave something incomplete. Sit with the discomfort that comes up for a moment. Breathe. Just observe how your internal system reacts, without stepping in to correct it.`
+        autopilotEN: `Stagnation hits you as a painful loss of intensity. If the fire is missing, or if nothing feels profoundly meaningful, you register it as a personal failure. You instantly start hunting for the flaw within yourself.`,
+        bewusstheitEN: `What if the fire is simply resting right now, rather than being extinguished? Does every single season of your life have to be lived at maximum intensity?`,
+        uebungEN: `Sit completely still today—with no task, no goal, and no self-evaluation. Do this for ten minutes. Just let the silence be there, and quietly observe whatever stirs beneath it.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird die Intensität größer, nicht kleiner. Der Massstab, den man an sich selbst anlegt, wird jetzt an den anderen angelegt. Kritik kann scharf, direkt und verletzend wirken – ohne dass man es so meint.`,
@@ -246,9 +246,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die eigene Erschöpfung wird verborgen, weil Bedürftigkeit die Verbindung zu anderen gefährden könnte. Nach außen hin bleibt man freundlich, hilfsbereit, zugewandt – bis der Körper nicht mehr mitspielen will.`,
         bewusstheit: `Was brauchst du gerade wirklich – nicht was du geben könntest, sondern was du selbst brauchst? Und wann hast du dir das zuletzt wirklich gefragt?`,
         uebung: `Formuliere einen einzigen Satz, der mit "Ich brauche gerade..." beginnt. Sprich ihn laut aus – auch wenn niemand zuhört. Beobachte, wie er sich in deinem Körper anfühlt.`,
-        autopilotEN: `You hide your exhaustion because showing any sign of neediness might threaten your connection with others. On the outside, you stay warm, helpful, and attentive—right up until the moment your body refuses to cooperate.`,
-        bewusstheitEN: `What do you actually need right now? Not what you could give to someone else, but what do you need? When was the last time you honestly asked yourself that?`,
-        uebungEN: `Frame a single sentence that begins with, "Right now, I need..." Say it out loud—even if there is no one else in the room. Notice how it feels in your body to give voice to it.`
+        autopilotEN: `Stagnation hits you as a painful loss of emotional intensity. When the spark is gone and nothing feels profoundly meaningful, you treat it as a personal failure. You immediately start scanning yourself to figure out what is broken.`,
+        bewusstheitEN: `What if the spark is simply resting right now, rather than being extinguished for good? Does every single chapter of your life need to be lived at maximum intensity?`,
+        uebungEN: `Sit completely still today—with no task, no goal, and no self-evaluation. Do this for ten minutes. Just let the silence be there, and quietly observe whatever stirs beneath it.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird die eigene Verletzung eher gezeigt als der eigentliche Bedarf benannt. Man zieht sich zurück, wird still oder sendet indirekte Signale – in der Hoffnung, der andere möge von selbst verstehen, was falsch gelaufen ist.`,
@@ -921,9 +921,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Der Rückzug wird noch tiefer. Man minimiert Kontakt, Anforderungen, äußere Reize – in der Hoffnung, dass die Stille Energie zurückbringt. Aber die Erschöpfung sitzt tiefer, und der Rückzug gibt nur kurzfristig Erleichterung.`,
         bewusstheit: `Wofür sparst du deine Energie gerade auf? Und ist das, wofür du sie sparst, wirklich das, was du jetzt brauchst?`,
         uebung: `Setz dich in absolute Stille – ohne Buch, ohne Plan, ohne Analyse. Beobachte, was kommt. Nicht verstehen wollen – nur wahrnehmen.`,
-        autopilotEN: `The retreat is becoming even deeper. You minimize contact, demands, external stimuli - in the hope that silence will bring energy back. But the exhaustion runs deeper, and withdrawal only provides short-term relief.`,
-        bewusstheitEN: `What are you saving your energy for right now? And is what you're saving it for really what you need now?`,
-        uebungEN: `Sit in absolute silence – without a book, without a plan, without analysis. Watch what comes. Don't want to understand - just perceive.`
+        autopilotEN: `Stagnation triggers even more withdrawal: you read, ponder, and hoard information—but you don't take action. Analyzing the stagnation ends up replacing the act of breaking through it. The retreat morphs into a comfortable habit.`,
+        bewusstheitEN: `What is the smallest possible step you could take toward the outside world right now—not the perfect step, just the smallest one? What if you took it today?`,
+        uebungEN: `Choose one specific thing that you have known how to do for a long time but haven't actually executed. Do it within the next twenty minutes. Do not prepare—just start.`
       },
       konflikt: {
         autopilot: `Im Konflikt kommt der Rückzug. Man braucht Abstand, Zeit, Stille – um zu verarbeiten, was passiert ist. Nach aussen wirkt das kalt oder desinteressiert, obwohl innen viel in Bewegung ist.`,
@@ -996,9 +996,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man zieht sich von sozialen Verpflichtungen zurück und taucht tiefer in Wissen oder Analyse ein. Das fühlt sich produktiv an – ist aber oft ein Weg, der Erschöpfung nicht direkt zu begegnen.`,
         bewusstheit: `Was würde passieren, wenn du gerade nichts analysierst, nichts verstehst, nichts weißt – sondern einfach bist? Wie lange kannst du das aushalten?`,
         uebung: `Verbring zwanzig Minuten in der Natur, ohne Ziel, ohne inneren Vortrag, ohne Buch. Beobachte, was mit deinem Geist passiert, wenn er keine Aufgabe hat.`,
-        autopilotEN: `One withdraws from social obligations and delves deeper into knowledge or analysis. This feels productive - but is often a way to avoid facing exhaustion head on.`,
-        bewusstheitEN: `What would happen if you weren't analyzing anything, understanding anything, knowing anything - but just being? How long can you endure this?`,
-        uebungEN: `Spend twenty minutes in nature, with no goal, no inner discourse, no book. Observe what happens to your mind when it has no task.`
+        autopilotEN: `You retreat into your intellect and observe your own stagnation from a clinical distance: analyzing it, categorizing it, and explaining it away. But intellectually understanding the void doesn't dissolve it—it only prolongs it.`,
+        bewusstheitEN: `What if you stopped analyzing the standstill today and simply did something—anything small, tangible, and immediate?`,
+        uebungEN: `Go outside today and do something physical with your hands: garden, cook, or build something. No abstract thinking allowed. Just act, and feel whatever naturally unfolds in the process.`
       },
       konflikt: {
         autopilot: `Im Konflikt tritt die Analyse in den Vordergrund. Man versucht, die Situation zu verstehen, Muster zu erkennen, rational zu klären – während der emotionale Gehalt des Konflikts unberührt bleibt.`,
