@@ -870,6 +870,7 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "situationskompass") situKompState = { situId: null, subtypeCode: null };
   if (newRoute !== "krisenkompass") krisenState = { typNr: null, krisenId: null };
   state.route = newRoute;
+  if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
   render();
   if (scrollAnchor) setTimeout(() => {
     const el = document.getElementById(scrollAnchor);
