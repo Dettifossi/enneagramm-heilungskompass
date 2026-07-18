@@ -1596,9 +1596,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Mehr Kontrolle, mehr Einsatz, mehr Willen – das ist die automatische Antwort auf Erschöpfung. Schwäche zeigen ist keine Option. Der Körper wird durch Willenskraft überspielt, bis er sich Gehör verschafft.`,
         bewusstheit: `Was würde es bedeuten, gerade schwach zu sein – nur für diesen einen Moment, in dir selbst, ohne dass es jemand sieht?`,
         uebung: `Leg dich bewusst hin – nicht aus Erschöpfung, sondern als freie Entscheidung. Bleibe fünf Minuten ohne Bewegungsdrang. Beobachte, wie dein inneres System auf diese gewählte Passivität reagiert.`,
-        autopilotEN: `More control, more effort, more will – that is the automatic response to exhaustion. Showing weakness is not an option. The body is overplayed by willpower until it makes itself heard.`,
-        bewusstheitEN: `What would it mean to be weak right now - just for this one moment, within yourself, without anyone seeing?`,
-        uebungEN: `Lie down consciously – not out of exhaustion, but as a free decision. Remain without any urge to move for five minutes. Observe how your inner system reacts to this chosen passivity.`
+        autopilotEN: `Stagnation is utterly intolerable to your system: you fight violently against it, manufacture artificial pressure, and immediately hunt for the next target. A standstill feels like a defeat. You direct all your energy against the emptiness—and completely exhaust yourself in the process.`,
+        bewusstheitEN: `What if you chose not to fight the stagnation today—and instead just allowed the standstill to be there? What would that mean for you?`,
+        uebungEN: `Give yourself permission to move absolutely nothing forward today. Spend half a day with zero agenda, zero pressure, and zero fighting. Observe what organically emerges in the quiet when you lay your weapons down.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird Macht eingesetzt – klar, direkt, manchmal überwältigend. Man will Klarheit erzwingen, das Feld ordnen, die Sache beenden. Andere können sich dabei überrollt fühlen.`,
@@ -1671,9 +1671,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man trägt weiter für die Gruppe – schützt, führt, organisiert. Die eigene Erschöpfung wird hinter Stärke verborgen, weil die anderen einen brauchen. Innehalten bedeutet, die Schutzfunktion zu gefährden.`,
         bewusstheit: `Wer schützt dich gerade? Und wäre es so schlimm, das heute einmal zuzulassen?`,
         uebung: `Teile mit jemandem aus deinem inneren Kreis ehrlich mit, wie es dir geht – ohne Führungsgestus, ohne Schutzimpuls. Einfach: "Ich bin gerade erschöpft." Beobachte, was das in dir und im anderen bewegt.`,
-        autopilotEN: `You continue to support the group – protect, lead, organize. Your own exhaustion is hidden behind strength because others need you. To pause means to endanger the protective function.`,
-        bewusstheitEN: `Who is protecting you right now? And would it be so bad to allow that today?`,
-        uebungEN: `Share honestly with someone in your inner circle how you're feeling - without leadership gestures, without protective impulses. Simple: "I'm exhausted right now." Observe what this moves in you and in others.`
+        autopilotEN: `Without an active battle to fight or a group assignment to protect, your inner engine completely stalls. You frantically search for a new adversary, a fresh challenge, or a massive project—anything to bridge the uncomfortable silence of the void.`,
+        bewusstheitEN: `What if real power today doesn't look like fighting—but rather looks like pausing, getting quiet, and deeply listening? What would that stillness tell you?`,
+        uebungEN: `Sit down with someone from your group today—not to direct them, lead them, or fix their problems, but simply to listen: How are things going with you guys? What do you really need right now?`
       },
       konflikt: {
         autopilot: `Im Konflikt, der jemanden betrifft, der zur eigenen Gruppe gehört, kann die Reaktion sehr schnell und sehr gross werden. Schutz geht über Verhältnismäßigkeit. Die Energie ist sofort voll da.`,
@@ -1746,9 +1746,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die Intensität bleibt, auch wenn die Energie fehlt. Man kämpft, hält, fordert – und spürt nicht, wie tief die Erschöpfung wirklich geht. Der Körper wird herausgefordert statt gehört.`,
         bewusstheit: `Unter welcher Intensität liegt gerade Erschöpfung – und was müsstest du loslassen, um sie wirklich zu spüren?`,
         uebung: `Lege für einen Moment alle Intensität ab. Atme langsam. Fühle, wie erschöpft du wirklich bist – ohne das sofort zu bekämpfen. Benenne es einfach: "Das bin ich gerade."`,
-        autopilotEN: `The intensity remains, even if the energy is missing. You fight, hold on, demand - and you don't feel how deep the exhaustion really goes. The body is challenged instead of heard.`,
-        bewusstheitEN: `How intense is exhaustion right now - and what would you have to let go of to really feel it?`,
-        uebungEN: `Put aside all intensity for a moment. Breathe slowly. Feel how exhausted you really are - without immediately fighting it. Just name it: “This is who I am right now.”`
+        autopilotEN: `Without an intense focus or an adversary to push against, ordinary life feels completely flat and meaningless. You restlessly hunt for the next spark, the next conflict, or the next massive challenge—just to feel alive.`,
+        bewusstheitEN: `What if vitality is just as possible in total stillness—without a battle to fight or a fire to light? What actually remains of you when everything goes completely quiet?`,
+        uebungEN: `Go out into nature alone today—with no destination and no task to complete. Sit down somewhere and let the quiet wash over you. Ask yourself: *Who am I when I am not fighting?*`
       },
       konflikt: {
         autopilot: `Im Konflikt gibt es kein Halten mehr – die volle Energie ist sofort da, direkt, intensiv, fordernd. Kein Schritt zurück. Das kann klären – und es kann zerstören.`,
