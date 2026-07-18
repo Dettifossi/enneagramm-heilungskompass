@@ -1176,16 +1176,16 @@ function inhaltsübersichtPage() {
 
   return shell(`
     <div class="page-container">
-      ${pageHeader("Alle Inhalte im \xdcberblick")}
+      ${pageHeader("Complete Content Overview")}
       <div style="max-width:680px;margin:0 auto;padding:0 0 3rem;">
 
         <p style="font-size:0.95rem;color:var(--muted);margin:0 0 1.8rem;line-height:1.65;">
-          Ein vollst\xe4ndiges Enneagramm-Universum &ndash; hier finden Sie alles,
+          A complete Enneagram universe &ndash; here you will find everything
           was der Healing Compass contains. Click on a category,
           to expand the contents.
         </p>
 
-        ${cat("Typensystem & Grundlagen", "&#9672;", [
+        ${cat("Type System & Foundations", "&#9672;", [
           "9 Typen mit eigenen Portraits",
           "27 Subtypees-Profile",
           "3 integrierte Typentests",
@@ -1200,11 +1200,11 @@ function inhaltsübersichtPage() {
           "Drei Zentren",
           "Symmetrie des Enneagramms",
           "Wurzeln des Enneagramms",
-        ], "Das vollst\xe4ndige System – von den 9 Typen bis zu allen 27 Subtype-Profilen.")}
+        ], "The complete system – from the 9 Types to all 27 Subtype profiles.")}
 
-        ${cat("Psychologie & Charakterstruktur", "&#128065;", [
+        ${cat("Psychology & Character Structure", "&#128065;", [
           "Leidenschaft & Wunde",
-          "Ego-Pers\xf6nlichkeit",
+          "Ego Personality",
           "Wunden & Schutzstrategien",
           "Schutzdefizite",
           "Laster, Tugenden & Affirmationen",
@@ -1212,10 +1212,10 @@ function inhaltsübersichtPage() {
           "Illusionen",
           "Grundformel",
           "Ego-Fixierungen",
-          "Antriebskr\xe4fte",
+          "Driving Forces",
           "Kernberzeugungen",
           "Basisemotionen",
-          "Mangelgef\xfchle",
+          "Deficiency Feelings",
           "Frustrationen",
           "Intrinsisches Verlangen",
           "Schmerzschutz",
@@ -1223,8 +1223,8 @@ function inhaltsübersichtPage() {
           "Triadendefizite",
         ], "Die Tiefenpsychologie des Enneagramms – von den Leidenschaften bis zu den verborgenen Schutzstrategien.")}
 
-        ${cat("Wahrnehmung & Kommunikation", "&#128172;", [
-          "Blickqualit\xe4t der 9 Typen",
+        ${cat("Perception & Communication", "&#128172;", [
+          "Gaze Quality of the 9 Types",
           "Mikroimpressionen",
           "Verbale Signale",
           "Nonverbale Signale",
@@ -1235,42 +1235,42 @@ function inhaltsübersichtPage() {
           "Empfindliche Punkte",
           "Zentren-Weltwahrnehmung",
           "Energetische Bewegungen",
-          "N\xe4he & Distanz",
+          "Closeness & Distance",
           "Gaslighting im Enneagramm",
           "Befreiende Fragen",
-        ], "Wie jeder Typ wahrnimmt, kommuniziert und auf andere wirkt.")}
+        ], "How each type perceives, communicates and affects others.")}
 
         ${cat("Remedies & Natural Healing", "&#127807;", [
-          "Hom\xf6opathie (subtypgenau)",
-          "\xc4therische \xd6le (subtypgenau)",
-          "Bachbl\xfcten (subtypgenau)",
+          "Homeopathy (subtype-specific)",
+          "Essential Oils (subtype-specific)",
+          "Bach Flowers (subtype-specific)",
           "Teeempfehlungen (subtypgenau)",
           "Edelsteine (subtypgenau)",
           "TCM (subtypgenau)",
           "Angst-Essenz",
           "Musik & Klang (subtypgenau)",
-          "K\xf6rperregulation",
-          "Sch\xfc\xdfler-Salze",
-        ], "Alle Remedies f\xfcr alle 27 Subtypees – subtypgenau, nicht allgemein.")}
+          "Body Regulation",
+          "Schuessler Salts",
+        ], "All Remedies for all 27 Subtypes – subtype-specific, not generic.")}
 
-        ${cat("Entwicklung & Heilung", "&#127807;", [
+        ${cat("Development & Healing", "&#127807;", [
           "Heilungsweg der 9 Typen",
-          "Bewusstseins\xfcbungen",
-          "Spirituelle \xdcbungen",
+          "Awareness Exercises",
+          "Spiritual Practices",
           "Befreiende Fragen",
-          "Frieden schlie\xdfen",
+          "Making Peace",
           "Laster → Tugenden",
           "Search nach Liebe",
-          "Drei Lebenskr\xe4fte",
+          "Three Life Forces",
           "Selbstreflexion & Identifikation",
           "Perspektiven",
           "Zentrale Fragen",
           "Tischdialoge",
-        ], "Konkrete Wege zur Heilung – f\xfcr jeden Typ und jeden Subtype.")}
+        ], "Concrete paths to healing – for every Type and every Subtype.")}
 
         ${cat("Chart Gallery (100+)", "&#128444;", [
           "Symmetrie des Enneagramms",
-          "K\xf6rperregulation",
+          "Body Regulation",
           "Enneagram Profiling",
           "Wunden & Schutzstrategien",
           "9 Logismoi",
@@ -1278,50 +1278,50 @@ function inhaltsübersichtPage() {
           "Kindheitsperspektiven",
           "Kindliche Temperamente",
           "Kernberzeugungen",
-          "Lebensgl\xfcck",
+          "Life's Happiness",
           "Basisemotionen",
           "Intrinsisches Verlangen",
           "Frustrationen",
           "Illusionen",
           "Schutzdefizite",
           "Laster-Tugenden-Affirmationen",
-          "Spirituelle \xdcbungen",
+          "Spiritual Practices",
           "Schopenhauer & Enneagramm",
           "Rumi-Zitate",
           "Relationships",
-          "Blickqualit\xe4t",
+          "Gaze Quality",
           "Prinzipien der Typen",
-          "Führungsstile",
-          "Drei Lebenskr\xe4fte",
+          "Leadership Styles",
+          "Three Life Forces",
           "Verhaltensweisen (9 Felder)",
           "& viele weitere...",
-        ], "Farbige, illustrierte \xdcbersichten – so in keinem gedruckten Buch m\xf6glich.")}
+        ], "Colourful, illustrated overviews – not possible in any printed book.")}
 
-        ${cat("Pers\xf6nlichkeit & Relationships", "&#128101;", [
+        ${cat("Personality & Relationships", "&#128101;", [
           "Relationships (Charts)",
-          "Kindheitspr\xe4gung",
+          "Childhood Imprints",
           "Kindliche Temperamente",
-          "F\xfchrungsstile",
+          "Leadership Styles",
           "Enneagram Profiling",
           "Verhaltensweisen (Zorn, Liebe, Erfolg…)",
           "Gaslighting & Manipulation",
           "Beziehungsverhalten",
           "Search nach Liebe",
-          "N\xe4he & Distanz",
+          "Closeness & Distance",
           "Bedrohungsszenarien",
           "Differenzierung",
-        ], "Wie die Typen Relationships gestalten, F\xfchrung aus\xfcben und in der Kindheit gepr\xe4gt werden.")}
+        ], "How the types shape Relationships, exercise Leadership and are formed in childhood.")}
 
         ${cat("Kultur, Natur & Lifestyle", "&#127759;", [
           "Animal correspondenceen (9 Typen)",
           "Affenarten der 9 Typen",
           "Baumarten der 9 Typen",
-          "B\xe4renarten der 9 Typen",
+          "Bear Species of the 9 Types",
           "Vogelarten der 9 Typen",
           "Froscharten der 9 Typen",
           "Spinnenarten der 9 Typen",
           "Reptilienarten",
-          "Schildkr\xf6tenarten",
+          "Tortoise Species",
           "Fischarten",
           "Walarten",
           "Insektenarten",
@@ -1330,11 +1330,11 @@ function inhaltsübersichtPage() {
           "Berge der 9 Typen",
           "Epochen der Weltgeschichte",
           "Obstsorten",
-          "Gem\xfcsesorten",
+          "Vegetable Varieties",
           "Weinsorten",
           "Brotsorten",
-          "K\xe4sesorten",
-          "Gewürzarten",
+          "Cheese Varieties",
+          "Spice Varieties",
           "Getreidearten",
           "Kaffeearten",
           "Luxusautos",
@@ -1349,34 +1349,34 @@ function inhaltsübersichtPage() {
 
         ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "72 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
-        ${cat("Philosophie & Spiritualit\xe4t", "&#129812;", [
+        ${cat("Philosophy & Spirituality", "&#129812;", [
           "Schopenhauer & Enneagramm",
           "Rumi-Zitate der 9 Typen",
           "9 Logismoi (Evagrius Ponticus)",
           "Wurzeln des Enneagramms",
-          "Ber\xfchmte Philosophen",
-          "Drei Lebenskr\xe4fte",
-          "Spirituelle \xdcbungen",
+          "Famous Philosophers",
+          "Three Life Forces",
+          "Spiritual Practices",
           "Wer wir sind",
           "Symmetrie des Enneagramms",
-        ], "Die geistigen und historischen Wurzeln des Enneagramms.")}
+        ], "The spiritual and historical roots of the Enneagram.")}
 
         <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);
                     border:2px solid var(--gold);border-radius:14px;padding:1.6rem 1.4rem;text-align:center;">
           <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .4rem;">
-            Ein vollst\xe4ndiges Enneagramm-Universum
+            A Complete Enneagram Universe
           </p>
           <p style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">
-            Alles in einer einzigen App
+            Everything in a Single App
           </p>
           <p style="font-size:0.86rem;color:var(--muted);margin:0 0 1.1rem;line-height:1.55;">
-            One-time purchase &middot; Lebenslanger Zugang &middot; W\xe4chst st\xe4ndig weiter
+            One-time purchase &middot; Lifetime access &middot; Constantly growing
           </p>
           <button data-route="freischalt"
             style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;
                    border-radius:10px;padding:.8rem 2rem;font-size:1rem;font-weight:700;
                    cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">
-            Jetzt freischalten &#8594;
+            Unlock now &#8594;
           </button>
           <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
             Not sure yet? <button data-route="tierquiz"
@@ -1406,7 +1406,7 @@ function leseprobePage() {
         <p style="font-size:0.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin:0 0 1.2rem;">App Sample</p>
         <div style="display:flex;justify-content:center;margin-bottom:1.2rem;">${compassMark("small")}</div>
         <h1 style="font-family:'EB Garamond',serif;font-size:1.9rem;line-height:1.2;color:var(--ink);margin:0 0 1rem;">The Enneagram Healing Compass</h1>
-        <p style="font-size:1rem;color:var(--muted);max-width:520px;margin:0 auto 1.5rem;line-height:1.65;">Eine Kostprobe aus Hunderten von Chartsn, 27\xa0Subtype-Portraits und subtypspezifischen Remediesn &ndash; damit Sie sehen k\xf6nnen, was Sie erwartet.</p>
+        <p style="font-size:1rem;color:var(--muted);max-width:520px;margin:0 auto 1.5rem;line-height:1.65;">A preview from hundreds of charts, 27 Subtype portraits and subtype-specific remedies &ndash; so you can see what awaits you.</p>
         <div style="display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;font-size:0.85rem;color:var(--copper);font-weight:600;">
           <span>&#10022;&nbsp;Hunderte Charts</span>
           <span>&#10022;&nbsp;27 Subtype-Portraits</span>
@@ -1416,7 +1416,7 @@ function leseprobePage() {
           <button data-route="table-of-contents"
             style="background:none;border:1px solid var(--gold);color:var(--copper);
                    border-radius:8px;padding:.45rem 1.1rem;font-size:0.83rem;cursor:pointer;">
-            Alle Inhalte im Überblick ansehen &#8594;
+            View complete content overview &#8594;
           </button>
         </div>
       </div>
@@ -1427,10 +1427,10 @@ function leseprobePage() {
           54 Famous Personalities &ndash; Portraits
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
-          Für alle 27 Subtypees gibt es je zwei Portraits berühmter Persönlichkeiten &ndash; mit beiden Flügelausprägungen. So wird der Subtype lebendig und konkret erkennbar.
+          For all 27 Subtypes there are two portraits of famous personalities each &ndash; with both wing expressions. This brings the subtype to life and makes it concretely recognisable.
         </p>
         <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
-          Von Bärbel Bas bis Keanu Reeves, von Willy Brandt bis Heike Makatsch &ndash; aus Politik, Kultur, Sport und Wissenschaft.
+          From Bärbel Bas to Keanu Reeves, from Willy Brandt to Heike Makatsch &ndash; from politics, culture, sport and science.
         </p>
         <div style="margin-top:0.5rem;">
           <button data-route="beruehmte-persoenlichkeiten"
@@ -1466,15 +1466,15 @@ function leseprobePage() {
 
       <!-- 1: Chart Gallery -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Charts &ndash; Wissen auf einen Blick</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Hunderte illustrierter \xdcbersichten machen das Unsichtbare sichtbar &ndash; von den Grundstrukturen der Pers\xf6nlichkeit bis zu K\xf6rper, Energie und Lebensthemen.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Hundreds of illustrated overviews make the invisible visible &ndash; from the fundamental structures of personality to body, energy and life themes.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.5rem;">
         <div data-route="symmetrie-des-enneagramms" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
           <img src="${CDN}assets/symmetrie-des-enneagramms.jpg" alt="Symmetrie des Enneagramms" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Symmetrie des Enneagramms &#8594;</div>
         </div>
         <div data-route="koerperregulation" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/koerperregulation.jpg" alt="K\xf6rperregulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
-          <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagramm & K\xf6rperregulation &#8594;</div>
+          <img src="${CDN}assets/koerperregulation.jpg" alt="Body Regulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagram &amp; Body Regulation &#8594;</div>
         </div>
         <div data-route="enneagramm-profiling" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
           <img src="${CDN}assets/enneagramm-profiling.jpg" alt="Enneagram Profiling" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
@@ -1493,13 +1493,13 @@ function leseprobePage() {
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">9 Logismoi nach Evagrius &#8594;</div>
         </div>
       </div>
-      <p style="font-size:0.8rem;color:var(--muted);text-align:center;margin:0 0 1.8rem;">Klick auf ein Bild \xf6ffnet das vollst\xe4ndige Schaubild</p>
+      <p style="font-size:0.8rem;color:var(--muted);text-align:center;margin:0 0 1.8rem;">Click on an image to open the full chart</p>
 
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
 
       <!-- 2: Subtype-Portrait Vorschau -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">27 Subtype-Portraits &ndash; tiefste Typenstruktur</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Jeder der 27 Subtypees erh\xe4lt ein eigenes Portrait mit Kerndynamik, Tierarchetyp, Remediesn und Entwicklungswegen. Hier ein Auszug aus dem Portrait des <strong>SP1 &ndash; Der Adler</strong>:</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Each of the 27 Subtypes receives its own portrait with core dynamics, animal archetype, remedies and development paths. Here is an excerpt from the portrait of <strong>SP1 &ndash; The Eagle</strong>:</p>
 
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.4rem;margin-bottom:.5rem;">
         <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
@@ -1510,36 +1510,36 @@ function leseprobePage() {
             <p style="margin:.15rem 0 0;font-size:0.8rem;color:var(--muted);">Typ 1 &middot; Selbsterhaltungs-Instinkt &middot; Bauchzentrum</p>
           </div>
         </div>
-        <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Der SP1er ist von allen Einser-Varianten am st\xe4rksten auf Perfektion im pers\xf6nlichen Alltag ausgerichtet. Er kontrolliert, ordnet und verfeinert &ndash; nicht um anderen zu imponieren, sondern weil Unvollkommenheit innerlich unertr\xe4glich wirkt. Sein Zorn ist still, sein Anspr\xfcch an sich selbst enorm.</p>
-        <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; das vollst\xe4ndige Portrait includes: Core Wound &middot; Passion &middot; Healing Path &middot; Essential Oil &middot; Homeopathic Remedy &middot; Affirmation &middot; Growth Impulse</p>
+        <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">The SP1 is, of all the One variants, the most strongly focused on perfection in personal everyday life. They control, order and refine &ndash; not to impress others, but because imperfection feels intolerable inwardly. Their anger is quiet; their standards for themselves enormous.</p>
+        <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; the complete portrait includes: Core Wound &middot; Passion &middot; Healing Path &middot; Essential Oil &middot; Homeopathic Remedy &middot; Affirmation &middot; Growth Impulse</p>
       </div>
-      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SP1-Portrait ansehen &#8594;</button>
+      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">View complete SP1 portrait &#8594;</button>
 
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
 
       <!-- 3: Remedies-Werkzeuge -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Subtypespezifische Remedies &ndash; Naturheilkunde trifft Enneagramm</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Das Herzst\xfcck des Kompasses: F\xfcr jeden der 27 Subtypees sind naturheilkundliche Empfehlungen hinterlegt &ndash; genau abgestimmt auf die pers\xf6nliche Typstruktur. Nicht allgemein, sondern subtypgenau.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">The heart of the Compass: For each of the 27 Subtypes, natural healing recommendations are stored &ndash; precisely tailored to the personal type structure. Not generic, but subtype-specific.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:.75rem;">
         <div style="background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127807;</div>
-          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">\xc4therische \xd6le</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Essential Oils</div>
           <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Subtypespezifische Duftempfehlungen zur Regulation</div>
         </div>
         <div style="background:linear-gradient(135deg,#e8f0f5,#c8dcea);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127810;</div>
-          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Bachbl\xfcten</div>
-          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Bach-Essenz f\xfcr das Kernthema des Subtypes</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Bach Flowers</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Bach essence for the core theme of the subtype</div>
         </div>
         <div style="background:linear-gradient(135deg,#f0ece4,#e0d5c0);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#9679;</div>
-          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Hom\xf6opathie</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Homeopathy</div>
           <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Konstitutionsmittel nach Detlef Rathmer</div>
         </div>
         <div style="background:linear-gradient(135deg,#eef5ee,#c8e0c8);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127808;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Teeempfehlungen</div>
-          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Pflanzliche Unterst\xfctzung je Subtype</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Herbal support for each subtype</div>
         </div>
         <div style="background:linear-gradient(135deg,#f5eef5,#e0c8e0);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128142;</div>
@@ -1549,10 +1549,10 @@ function leseprobePage() {
         <div style="background:linear-gradient(135deg,#fdf0e0,#f0d0a0);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127807;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">TCM & weitere</div>
-          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Traditionelle Chinesische Medizin & Sch\xfcssler-Salze</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Traditional Chinese Medicine & Schuessler Salze</div>
         </div>
       </div>
-      <p style="font-size:0.8rem;color:var(--copper);text-align:center;margin:0 0 1.8rem;font-style:italic;">Alles subtypgenau &ndash; nicht f\xfcr den Typ, sondern f\xfcr Ihren pers\xf6nlichen Subtype.</p>
+      <p style="font-size:0.8rem;color:var(--copper);text-align:center;margin:0 0 1.8rem;font-style:italic;">All subtype-specific &ndash; nicht f\xfcr den Typ, sondern f\xfcr Ihren pers\xf6nlichen Subtype.</p>
 
       <!-- Philosophische Tiefe -->
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
@@ -1561,8 +1561,8 @@ function leseprobePage() {
         <img src="${CDN}assets/schopenhauer-zitat.png" alt="Schopenhauer" style="width:68px;height:68px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
         <div>
           <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:600;color:var(--copper);">Schaubild &ndash; Philosophie & Enneagramm</p>
-          <p style="margin:0 0 .3rem;font-size:0.95rem;font-family:'EB Garamond',serif;color:var(--ink);">Wir k\xf6nnen nicht wollen, was wir wollen</p>
-          <p style="margin:0;font-size:0.8rem;color:var(--muted);">Schopenhauer trifft Enneagramm &ndash; \xfcber typologisch gef\xe4rbtes Wollen und die M\xf6glichkeit echter Freiheit &#8594;</p>
+          <p style="margin:0 0 .3rem;font-size:0.95rem;font-family:'EB Garamond',serif;color:var(--ink);">We cannot want what we want</p>
+          <p style="margin:0;font-size:0.8rem;color:var(--muted);">Schopenhauer meets Enneagram – on typologically conditioned will and the possibility of true freedom &#8594;</p>
         </div>
       </div>
 
@@ -1571,7 +1571,7 @@ function leseprobePage() {
         <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .4rem;">Unlock full access</p>
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Charts &middot; Alle 27 Subtype-Portraits &middot; Subtypespezifische Remedies & Natural Healing</p>
-        <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Jetzt freischalten &#8594;</button>
+        <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Unlock now &#8594;</button>
         <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Not sure yet? <button data-route="tierquiz" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">&#129471; Which Animal Am I? &ndash; Free Quick Quiz</button></p>
       </div>
 
@@ -1967,8 +1967,8 @@ function startPage() {
             </ul>
             <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
             <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+              <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
             </div>
           </div>
           <div class="start-path__berater-card">
@@ -1980,8 +1980,8 @@ function startPage() {
             </ul>
             <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
             <div class="start-path__berater-actions">
-              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">✉ E-Mail</a>
-              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+              <a class="start-path__btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
+              <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
             </div>
           </div>
         </div>
@@ -1999,21 +1999,21 @@ function startPage() {
         </summary>
         <div style="padding:1rem 1.2rem 1.2rem;background:#fff;border-top:1px solid var(--border);">
           <p style="font-size:0.82rem;color:var(--muted);margin:0 0 1rem;font-style:italic;">
-            Ein vollst\xe4ndiges Enneagramm-Universum &ndash; hier ein \xdcberblick:
+            A complete Enneagram universe — here is an overview:
           </p>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.5rem 1rem;">
             ${[
-              ["&#9672;","Typensystem","9 Typen · 27 Subtypees · 3 Tests"],
-              ["&#128101;","Relationships","Kindheit, Führung, Partnerschaft"],
-              ["&#127807;","Remedies","Höm., Öle, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Famous Personalities","59 Portraits aus Kultur, Musik & Gesellschaft"],
+              ["&#9672;","Type System","9 Types · 27 Subtypes · 3 Tests"],
+              ["&#128101;","Relationships","Childhood, Leadership, Partnership"],
+              ["&#127807;","Remedies","Hom., Oils, Bach Fl., Tea, Gemstones"],
+              ["&#127775;","Famous Personalities","59 portraits from culture, music & society"],
               ["&#128444;","Charts","100+ colour overviews"],
-              ["&#128269;","Kriminalfälle (Criminal Psychology)","72 psychologische Täterporträts"],
-              ["&#127807;","Entwicklung","Healing path, exercises, questions"],
-              ["&#127759;","Kultur & Lifestyle","Tiere, Natur, Lifestyle der 9 Typen"],
-              ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
-              ["&#129812;","Philosophie","Schopenhauer, Rumi, Logismoi"],
-              ["&#128172;","Wahrnehmung","Blick, Mikro, Verbal, Nonverbal"],
+              ["&#128269;","Criminal Psychology","72 psychological perpetrator portraits"],
+              ["&#127807;","Development","Healing path, exercises, questions"],
+              ["&#127759;","Culture & Lifestyle","Animals, nature, lifestyle of the 9 types"],
+              ["&#128065;","Psychology","Passion, wound, ego structure"],
+              ["&#129812;","Philosophy","Schopenhauer, Rumi, Logismoi"],
+              ["&#128172;","Perception","Gaze, micro-expressions, verbal, non-verbal"],
             ].map(([icon, title, sub]) => `
               <div style="display:flex;gap:0.5rem;align-items:flex-start;padding:0.35rem 0;">
                 <span style="font-size:1rem;flex-shrink:0;margin-top:0.05rem;">${icon}</span>
@@ -2027,7 +2027,7 @@ function startPage() {
             <button data-route="table-of-contents"
               style="background:none;border:1px solid var(--gold);color:var(--copper);
                      border-radius:8px;padding:.4rem 1rem;font-size:0.82rem;cursor:pointer;">
-              Vollst\xe4ndige Inhalts\xfcbersicht &#8594;
+              Complete Table of Contents →
             </button>
           </div>
         </div>
@@ -2116,10 +2116,10 @@ function dashboardPage() {
         </button>
         <input type="file" accept="image/*" id="user-photo-input" style="display:none;" />
         <div id="user-photo-menu" style="display:none;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;width:180px;">
-          <label id="user-photo-btn" style="display:block;padding:0.55rem 1rem;font-size:0.82rem;cursor:pointer;color:var(--text);text-align:center;">📷 Foto ändern
+          <label id="user-photo-btn" style="display:block;padding:0.55rem 1rem;font-size:0.82rem;cursor:pointer;color:var(--text);text-align:center;">📷 Change photo
             <input type="file" accept="image/*" id="user-photo-input2" style="display:none;" />
           </label>
-          ${getUserPhoto() ? `<button id="user-photo-del" style="display:block;width:100%;text-align:center;padding:0.55rem 1rem;font-size:0.82rem;cursor:pointer;background:none;border:none;border-top:1px solid var(--border);color:#c0392b;">✕ Foto entfernen</button>` : ''}
+          ${getUserPhoto() ? `<button id="user-photo-del" style="display:block;width:100%;text-align:center;padding:0.55rem 1rem;font-size:0.82rem;cursor:pointer;background:none;border:none;border-top:1px solid var(--border);color:#c0392b;">✕ Remove photo</button>` : ''}
         </div>
       </div>
       <div class="dashboard__copy">
@@ -2134,7 +2134,7 @@ function dashboardPage() {
         </div>
         <button class="ghost-link" data-route="profile">Switch profile →</button>
         <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 My Type Album →</button>
-        <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">🔔 Push-Benachrichtigungen aktivieren</button>
+        <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">🔔 Enable push notifications</button>
       </div>
     </section>
     <section class="daily-grid">
@@ -3215,13 +3215,13 @@ function practicePage() {
         <span class="tool-card__arrow">Open →</span>
       </button>
       <button class="tool-card tool-card--link" data-route="stille">
-        <span>Präsenz · Innehalten · Stille</span>
+        <span>Presence · Stillness · Silence</span>
         <span>Presence · Stillness · Silence</span>
         <h2>9 Minutes of Silence</h2>
         <p>The ego constantly grasps — for insight, for improvement, for the next thought. This practice invites you to remain fully in the here and now for 9 minutes. One minute for each Enneagram type — a symbol of wholeness. A gong opens the silence, a gong brings you back.</p>
         <span class="tool-card__arrow">Begin →</span>
       <button class="tool-card tool-card--link" data-route="musik">
-        <span>Klang · Kontemplation · Typ</span>
+        <span>Sound · Contemplation · Type</span>
         <span>Sound · Contemplation · Type</span>
         <h2>Relaxation &amp; Healing Music</h2>
         <p>Nine complete albums — one for each Enneagram type. Each album accompanies you for approx. 1 hr 20 min into the stillness and depth of your type.</p>
@@ -3239,21 +3239,21 @@ function kaufenPage() {
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
-        <h3 style="margin-top:0;">Was ist der Enneagram Healing Compass?</h3>
-        <p>Eine Synthese aus jahrzehntelanger therapeutischer Arbeit von Detlef Rathmer — interaktiv, persönlich, sofort nutzbar.</p>
-        <p>Kein Buch kann das leisten, was diese App kann: Du gibst deinen Enneagrammtyp ein — und bekommst sofort alles, was du brauchst. Kein Blättern, kein Searchn, kein Zusammensetzen aus dutzenden Quellen.</p>
-        <h3>Was nur diese App kann:</h3>
+        <h3 style="margin-top:0;">What is the Enneagram Healing Compass?</h3>
+        <p>A synthesis of decades of therapeutic work by Detlef Rathmer — interactive, personal, immediately usable.</p>
+        <p>No book can do what this app does: enter your Enneagram type and immediately receive everything you need. No searching, no piecing together from dozens of sources.</p>
+        <h3>What only this app can do:</h3>
         <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
-          <li>🔍 <strong>Alles auf einen Blick</strong> — Homöopathie, Bachblüten, Schüßler-Salze, Edelsteine, Tees, ätherische Öle, TCM, Musik, Kindheitsprägung — für deinen Subtype, sofort verfügbar</li>
-          <li>📚 <strong>Synthese des gesamten Werkes</strong> — was in 60+ Büchern verteilt ist, findest du hier gebündelt an einem Ort</li>
-          <li>🎯 <strong>Subtypegenau</strong> — nicht „Typ 4 allgemein", sondern genau dein Subtype mit seiner eigenen Dynamik</li>
-          <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
-          <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Famous Personalities</strong> — 59 Portraits aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
-          <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 72 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
+          <li>🔍 <strong>Everything at a glance</strong> — homeopathy, Bach flowers, Schuessler salts, gemstones, teas, essential oils, TCM, music, childhood imprints — for your Subtype, instantly available</li>
+          <li>📚 <strong>Synthesis of the complete works</strong> — what is spread across 60+ books, you find here bundled in one place</li>
+          <li>🎯 <strong>Subtype-specific</strong> — not "Type 4 in general", but exactly your Subtype with its own dynamics</li>
+          <li>🔄 <strong>Lives and grows</strong> — the app is continuously updated and expanded; you receive all updates automatically</li>
+          <li>⚡ <strong>Interactive</strong> — you experience your profile instead of just reading it</li>
+          <li>&#127775; <strong>Famous Personalities</strong> — 59 portraits from culture, music &amp; society through the lens of the Enneagram</li>
+          <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 72 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
         </ul>
-        <h3>Für wen ist das gedacht?</h3>
-        <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>
+        <h3>Who is this for?</h3>
+        <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>
         <h3>One-time purchase — lifetime access:</h3>
         <p>€ 79 — one-time, no subscription. All future updates included.</p>
       </div>
@@ -3265,14 +3265,14 @@ function kaufenPage() {
           <span style="font-size:.85rem;color:var(--muted);">one-time · no subscription</span>
         </div>
         <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
-          <li>✓ Alle 27 Subtype-Profile vollständig</li>
-          <li>✓ Remedies-Kompass (Homöopathie, Bach, Schüßler, Edelsteine, Tees)</li>
-          <li>✓ Ätherische Öle, TCM, Kindheitsprägung</li>
-          <li>✓ Musik & Tagesimpulse</li>
-          <li>✓ 70 Kriminalporträts – Enneagramm-Tiefenanalyse berühmter Fälle</li>
-          <li>✓ 100+ Charts & Galerie</li>
-          <li>✓ Komplette Bibliothek mit 60+ Büchern</li>
-          <li>✓ Alle zukünftigen Updates inklusive</li>
+          <li>✓ All 27 Subtype profiles complete</li>
+          <li>✓ Remedies Compass (homeopathy, Bach, Schuessler, gemstones, teas)</li>
+          <li>✓ Essential oils, TCM, childhood imprints</li>
+          <li>✓ Music &amp; daily impulses</li>
+          <li>✓ 70 criminal portraits – Enneagram depth analysis of famous cases</li>
+          <li>✓ 100+ charts &amp; gallery</li>
+          <li>✓ Complete library with 60+ books</li>
+          <li>✓ All future updates included</li>
         </ul>
         
         <a href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener"
@@ -4028,10 +4028,10 @@ function tierquizPage() {
             <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
             <p class="typentest-intro">3 kurze Fragen – und Sie erfahren, welches der 27 Enneagramm-Tiere am ehesten zu Ihnen passt.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
-              <strong>Kurzer Hinweis, bevor Sie starten:</strong> Kein Test kann beweisen, wer Sie wirklich sind – denn Sie bewerten sich selbst, und wir alle haben blinde Flecken für unsere eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nehmen Sie das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
+              <strong>A brief note before you start:</strong> No test can prove who you truly are – because you assess yourself, and we all have blind spots for our own psychological patterns. This 3-question quiz is only a first, rough approximation. Take the result as an invitation to reflect – not as a definitive answer.
             </div>
-            <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kostenlos &middot; kein Konto nötig</p>
-            ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtype-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+            <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Approx. 1 minute &middot; free &middot; no account needed</p>
+            ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
             ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
             <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
           </div>
@@ -4042,13 +4042,13 @@ function tierquizPage() {
   if (s.step === 1) {
     return shell(`
       <div class="page-container">
-        ${pageHeader("Welches Tier bin ich?")}
+        ${pageHeader("Which Animal Am I?")}
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(1)}
-          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">An einem freien Wochenende zieht es mich am ehesten…</h2>
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">On a free weekend I am most drawn to…</h2>
           ${_tqBtn("… into my familiar world", "Home, routines, my own space — I need time for myself.", "window._tqA('SE')")}
-          ${_tqBtn("… zu Menschen", "Eine Gruppe, ein Event, gemeinsame Aktivitäten – das gibt mir Energie.", "window._tqA('SO')")}
-          ${_tqBtn("… zu einer bestimmten Person", "Tiefe, intensive Verbindung mit jemandem, dem ich nahestehe.", "window._tqA('SX')")}
+          ${_tqBtn("… other people", "A group, an event, shared activities – that gives me energy.", "window._tqA('SO')")}
+          ${_tqBtn("… a specific person", "Deep, intense connection with someone I am close to.", "window._tqA('SX')")}
         </div></div>
       </div>
     `);
@@ -4056,13 +4056,13 @@ function tierquizPage() {
   if (s.step === 2) {
     return shell(`
       <div class="page-container">
-        ${pageHeader("Welches Tier bin ich?")}
+        ${pageHeader("Which Animal Am I?")}
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(2)}
-          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Welcher Satz trifft auf Sie am ehesten zu?</h2>
-          ${_tqBtn("„Ich will die Dinge in die Hand nehmen, stark sein und Kontrolle behalten.“", "Stärke, Qualität, Frieden oder klare Ordnung sind mir wichtig.", "window._tqA('gut')")}
-          ${_tqBtn("„Ich will echte Verbindung, gesehen werden und wirklich dazugehören.“", "Relationships, Anerkennung und Tiefe sind für mich zentral.", "window._tqA('heart')")}
-          ${_tqBtn("„Ich will verstehen, sicher sein und meine Optionen offenhalten.“", "Wissen, Orientierung und Freiheit des Denkens sind mir wichtig.", "window._tqA('head')")}
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Which statement fits you best?</h2>
+          ${_tqBtn("\"I want to take things in hand, be strong and stay in control.\"", "Strength, quality, peace or clear order are important to me.", "window._tqA('gut')")}
+          ${_tqBtn("\"I want genuine connection, to be seen and truly belong.\"", "Relationships, recognition and depth are central to me.", "window._tqA('heart')")}
+          ${_tqBtn("\"I want to understand, feel safe and keep my options open.\"", "Knowledge, orientation and freedom of thought are important to me.", "window._tqA('head')")}
         </div></div>
       </div>
     `);
@@ -4071,13 +4071,13 @@ function tierquizPage() {
     const qMap = {
       gut:  [["I stand up for myself and do not shy away from direct confrontation.","Strength and self-determination are my default mode.","8"],
               ["Ich suche inneren Frieden und vermeide Konflikte, wo es geht.","Harmonie und Ruhe sind das, wonach ich mich sehne.","9"],
-              ["Ich habe hohe innere Maßstäbe und möchte Dinge wirklich richtig machen.","Qualität und Prinzipientreue liegen mir tief im Blut.","1"]],
+              ["I have high inner standards and want to do things really right.","Quality and principled integrity run deep in me.","1"]],
       heart:[["For people who matter to me, I give everything — often more than I give myself.","Care and closeness are my natural expression.","2"],
-              ["Ich möchte etwas leisten und einen kompetenten, guten Eindruck machen.","Erfolg und Anerkennung motivieren mich.","3"],
-              ["Ich suche das Echte und Tiefe – Oberflächlichkeit langweilt mich schnell.","Sehnsucht nach dem Besonderen und nach echtem Verständnis.","4"]],
+              ["I want to achieve something and make a competent, good impression.","Success and recognition motivate me.","3"],
+              ["I seek the real and the deep – superficiality bores me quickly.","A longing for the special and for genuine understanding.","4"]],
       head: [["I prefer to observe before acting and need a lot of personal space.","Knowledge and withdrawal give me strength.","5"],
-              ["Ich frage mich oft, ob ich vertrauen kann und ob ich der Situation gewachsen bin.","Sicherheit und Loyalität sind für mich existenziell.","6"],
-              ["Ich mag Abwechslung, neue Ideen und will mich nicht festlegen müssen.","Freiheit und Möglichkeiten halten mich lebendig.","7"]]
+              ["I often wonder whether I can trust and whether I am up to the situation.","Security and loyalty are existential for me.","6"],
+              ["I like variety, new ideas and don't want to be pinned down.","Freedom and possibilities keep me alive.","7"]]
     };
     const opts = qMap[s.center] || qMap.gut;
     return shell(`
@@ -4103,7 +4103,7 @@ function tierquizPage() {
       <div class="typentest-wrap"><div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
         <div style="font-size:3rem;margin-bottom:1rem;">🦁</div>
         <h2 class="typentest-titel">Das Tier versteckt sich noch</h2>
-        <p style="color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:1.5rem;">Manchmal müssen wir zweimal hinschauen. Versuchen Sie es noch einmal – vielleicht fühlt sich eine andere Antwort ehrlicher an.</p>
+        <p style="color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:1.5rem;">Sometimes we need to look twice. Try again – perhaps a different answer feels more honest.</p>
         <button class="typentest-start-btn" onclick="window._tqReset()">↺ Nochmal starten</button>
       </div></div>
     </div>
@@ -4124,14 +4124,14 @@ function tierquizPage() {
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
           <button onclick="window._tqShare('${emoji} Ich bin ${tier} (${code}) – mein Enneagramm-Tier im Healing Compass von Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Share result</button>
           <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
-            <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
-            <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Der Kompass zeigt Ihnen das vollständige Heilungswissen für Ihr Tier.</p>
+            <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Would you like to go deeper?</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">The Compass shows you the complete healing knowledge for your animal.</p>
             <ul style="font-size:0.85rem;color:var(--muted);margin:0 0 1rem;padding-left:1.2rem;line-height:1.7;">
-              <li>Hunderte Charts & Remedies für Ihren Subtype</li>
-              <li>Alle 27 Subtype-Portraits mit Tiefenpsychologie</li>
-              <li>Motivationale Typenbestimmung & Begleitung</li>
+              <li>Hundreds of charts &amp; remedies for your Subtype</li>
+              <li>All 27 Subtype portraits with depth psychology</li>
+              <li>Motivational type determination &amp; guidance</li>
             </ul>
-            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
+            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Unlock now &#8594;</button>
           </div>
           <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="#" data-route="diagnosetest" style="color:var(--gold);">free diagnosis test</a>.</p>
         </div>
@@ -4159,7 +4159,7 @@ window._tqShare = function(text) {
     navigator.share({ text: text, url: "https://kompass.verlagshausrathmer.com/#tierquiz" }).catch(() => {});
   } else {
     navigator.clipboard.writeText(text).then(() => {
-      alert("Text wurde kopiert – jetzt einfach einfügen!");
+      alert("Text copied – just paste it now!");
     }).catch(() => {
       prompt("Text zum Kopieren:", text);
     });
@@ -7259,7 +7259,7 @@ function beratungsCTA() {
             <span class="beratungs-cta__berater-name">Detlef Rathmer</span>
             <div class="beratungs-cta__contact">
               <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung">✉ E-Mail</a>
-              <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+              <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
             </div>
             <a class="beratungs-cta__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
           </div>
@@ -7267,7 +7267,7 @@ function beratungsCTA() {
             <span class="beratungs-cta__berater-name">David L. Rathmer</span>
             <div class="beratungs-cta__contact">
               <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung">✉ E-Mail</a>
-              <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+              <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
             </div>
             <a class="beratungs-cta__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagram Profiling for Executives &amp; Organizations → enneascholars.de</a>
           </div>
@@ -8710,7 +8710,7 @@ function bindEvents() {
         pushBtn.textContent = "🔕 Push blocked – Settings → App → Notifications";
         pushBtn.style.color = "#c0392b";
       } else {
-        pushBtn.textContent = "🔔 Push-Benachrichtigungen aktivieren";
+        pushBtn.textContent = "🔔 Enable push notifications";
         pushBtn.style.color = "var(--muted)";
       }
     }
@@ -9065,10 +9065,10 @@ function typentestMotivationalPage() {
           <div class="typentest-cta-group">
             <button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${topType}">Zum Typ&nbsp;${topType} im Kompass &#8594;</button>
             <p class="typentest-berater-label">Beratungstermin anfragen:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">&#9993; Beratungstermin bei Detlef Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">&#9993; Beratungstermin bei David L. Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">&#9993; Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">&#9993; Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
           </div>
 
           <button class="ghost-link" data-motiv-reset>Test wiederholen</button>
@@ -9227,10 +9227,10 @@ function typentestPage() {
           <div class="typentest-cta-group">
             ${hasSubtypee ? `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="subtype/${subtypeCode}">Zum Subtype-Profil: ${instCode.toUpperCase()}${typNum} →</button>` : `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${typNum}">Zum Typ ${typNum} im Kompass →</button>`}
             <p class="typentest-berater-label">Beratungstermin anfragen:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">✉ Beratungstermin bei David L. Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
           </div>
 
           <button class="ghost-link" id="tt-restart">Test wiederholen</button>
@@ -9489,14 +9489,14 @@ function diagnosetestPage() {
           <div style="margin:1.5rem 0;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
             <p style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Mit dem Full access sehen Sie das komplette Profil Ihres Typs — Remedies, Charts und alle 27 Subtypees.</p>
-            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
+            <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Unlock now &#8594;</button>
           </div>
           <div class="typentest-cta-group" style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
             <p class="typentest-berater-label">Beratungstermin anfragen:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Typisierungsberatung%20anfragen">✉ Beratungstermin bei David L. Rathmer anfragen</a>
-            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
             <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-reset>Test wiederholen</button>
             <button class="typentest-start-btn" data-route="start">Zur Startseite</button>
           </div>
@@ -9570,12 +9570,12 @@ function heilungswegPage() {
   return shell(`
     ${pageHeader("heilungsweg")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Enneagramm-Hom\xf6opathie</p>
+      <p class="eyebrow">Charts \xb7 Enneagramm-Homeopathy</p>
       <h1 class="section-title">Der Heilungsweg des Menschen</h1>
-      <p class="psycho-intro">Diese \xdcbersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Hom\xf6opathie von Detlef Rathmer: vom unbewussten Muster \xfcber die Erkenntnis der Leidenschaft bis zur Integration und Heilung.</p>
+      <p class="psycho-intro">Diese \xdcbersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Homeopathy von Detlef Rathmer: vom unbewussten Muster \xfcber die Erkenntnis der Leidenschaft bis zur Integration und Heilung.</p>
       <div class="psycho-img-wrap" style="margin:1.2rem 0 2.5rem;">
         <img src="${CDN}assets/schaubilder/heilungsweg/heilungsweg.jpg"
-             alt="Der Heilungsweg des Menschen nach der Enneagramm-Hom\xf6opathie"
+             alt="Der Heilungsweg des Menschen nach der Enneagramm-Homeopathy"
              class="psycho-img" style="border-radius:12px;" />
       </div>
 
@@ -9599,7 +9599,7 @@ function heilungswegPage() {
 
         <div class="vb-typ">
           <h3 class="vb-typ__head"><span class="vb-typ__nr">Der hom\xf6opathische Ansatz</span> Resonanz statt Symptombehandlung</h3>
-          <p class="vb-typ__text">Hom\xf6opathie arbeitet seit jeher nicht prim\xe4r gegen Symptome, sondern mit Resonanz. Sie adressiert das Lebendige im Menschen, nicht die Pathologie als isoliertes Objekt. Die Enneagramm-Hom\xf6opathie verbindet diese Sichtweise mit einer differenzierten Typologie des Bewusstseins. Das Remedies wirkt nicht gegen Zorn oder Angst, sondern auf das energetische Gleichgewicht zwischen Instinkt, Leidenschaft und Essenz.</p>
+          <p class="vb-typ__text">Homeopathy arbeitet seit jeher nicht prim\xe4r gegen Symptome, sondern mit Resonanz. Sie adressiert das Lebendige im Menschen, nicht die Pathologie als isoliertes Objekt. Die Enneagramm-Homeopathy verbindet diese Sichtweise mit einer differenzierten Typologie des Bewusstseins. Das Remedies wirkt nicht gegen Zorn oder Angst, sondern auf das energetische Gleichgewicht zwischen Instinkt, Leidenschaft und Essenz.</p>
           <p class="vb-typ__text">Besonders relevant sind dabei die Instinktvarianten. Selbsterhaltung, Sozialit\xe4t und Beziehung sind keine Zusatzmerkmale, sondern die energetischen Tr\xe4ger der Leidenschaften. Sie bestimmen, wo ein Mensch seinen Schwerpunkt setzt, wo er \xfcberkompensiert und wo er am verletzlichsten ist. Zwei Menschen mit demselben Enneagrammtyp k\xf6nnen klinisch v\xf6llig unterschiedlich erscheinen, weil ihre Instinktstruktur eine andere ist.</p>
         </div>
 
@@ -9610,7 +9610,7 @@ function heilungswegPage() {
         </div>
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;">
-          <p class="vb-intro">Die Enneagramm-Hom\xf6opathie versteht Krankheit als Ausdruck einer inneren Entfremdung &ndash; nicht im romantischen Sinn, sondern als reale, erfahrbare Spaltung zwischen Wesen und Leben. Das Remedies unterst\xfctzt nicht die Anpassung an ein dysfunktionales Gleichgewicht, sondern f\xf6rdert eine Reorganisation von innen. Wenn das gelingt, ver\xe4ndern sich Symptome oft bei\xe4ufig. Nicht, weil sie bek\xe4mpft wurden, sondern weil sie ihren Sinn verloren haben.</p>
+          <p class="vb-intro">Die Enneagramm-Homeopathy versteht Krankheit als Ausdruck einer inneren Entfremdung &ndash; nicht im romantischen Sinn, sondern als reale, erfahrbare Spaltung zwischen Wesen und Leben. Das Remedies unterst\xfctzt nicht die Anpassung an ein dysfunktionales Gleichgewicht, sondern f\xf6rdert eine Reorganisation von innen. Wenn das gelingt, ver\xe4ndern sich Symptome oft bei\xe4ufig. Nicht, weil sie bek\xe4mpft wurden, sondern weil sie ihren Sinn verloren haben.</p>
         </div>
 
         <div style="border-left:3px solid var(--gold);padding:.9rem 1.1rem;margin:1.8rem 0;background:var(--paper);border-radius:0 8px 8px 0;">
@@ -11482,7 +11482,7 @@ function tierlexikonPage() {
       ">
         ${buttons}
       </div>
-      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtype-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
       ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
     </div>
   `);
@@ -15689,7 +15689,7 @@ function kriminalpsychologiePage() {
     +'<div id="kf-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
     +buildList()
     +'</div>'
-    +relatedLinks(['{"route":"blickqualitaet","label":"Blickqualit\xe4t der 9 Typen"}','{"route":"psychogramme","label":"Psychogramme"}','{"route":"mikroimpressionen","label":"Mikroimpressionen der 27 Subtypees"}'].map(JSON.parse))
+    +relatedLinks(['{"route":"blickqualitaet","label":"Gaze Quality of the 9 Types"}','{"route":"psychogramme","label":"Psychogramme"}','{"route":"mikroimpressionen","label":"Mikroimpressionen der 27 Subtypees"}'].map(JSON.parse))
     +'</div>'
   );
 }
@@ -16051,7 +16051,7 @@ function adolfHitlerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -16267,7 +16267,7 @@ function lukaMagnottaPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
         {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -16690,7 +16690,7 @@ function harveyWeinsteinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -16909,7 +16909,7 @@ function pabloEscobarPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
     </div>
@@ -18162,7 +18162,7 @@ function andreiTschikatiloPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -18505,7 +18505,7 @@ function arnoFunkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -19403,7 +19403,7 @@ function salvatoreRiinaPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -19657,7 +19657,7 @@ function jeffreyEpsteinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -20201,7 +20201,7 @@ function rujaIgnatovaPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -22122,7 +22122,7 @@ function jonathanMeijerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -24360,7 +24360,7 @@ function wolfgangBeltracchiPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -24575,7 +24575,7 @@ function nielsHoegelPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -27936,7 +27936,7 @@ function andersBreivikPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -28355,7 +28355,7 @@ function jeffreyDahmerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
@@ -30989,7 +30989,7 @@ function dynamikBewusstseinszustandesPage() {
         {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
         {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
         {route:"heilungsweg", label:"Heilungsweg des Menschen"},
-        {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
+        {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
       ])}
     </div>
   `);
@@ -33300,7 +33300,7 @@ function friedenSchliessenPage() {
       <p class="psycho-intro">Vom Splitter im Auge und der Kunst, mit Mitgef\xfchl statt Urteil zu begegnen.</p>
       <img
         src="${CDN}assets/frieden-schliessen.jpg"
-        alt="Frieden schlie\xdfen"
+        alt="Making Peace"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -33501,8 +33501,8 @@ function koerperregulationPage() {
         ${bookTip("hinter-der-leidenschaft", "Die verborgenen K\xf6rpermuster der 27 Subtypees &ndash; wo Leidenschaft sich im K\xf6rper einschreibt.", "Hinter der Leidenschaft")}
         ${bookTip("heilung-als-erinnerung", "K\xf6rper, Seele und Heilung als untrennbare Einheit &ndash; der hom\xf6opathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
         ${relatedLinks([
-          {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
-          {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+          {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
+          {route:"spirituelle-uebungen", label:"Spiritual Practices"},
           {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
         ])}
       </div>
@@ -33515,7 +33515,7 @@ function schopenhauerZitatPage() {
     ${pageHeader("schopenhauer-zitat")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Philosophie & Enneagramm</p>
-      <h1 class="section-title">Wir k\xf6nnen nicht wollen, was wir wollen</h1>
+      <h1 class="section-title">We cannot wanten, was wir wollen</h1>
       <p class="psycho-intro">Arthur Schopenhauers ber\xfchmter Satz trifft auf erstaunliche Weise den Kern dessen, was das Enneagramm \xfcber die verborgenen Antriebskr\xe4fte der Pers\xf6nlichkeit beschreibt.</p>
       <img
         src="${CDN}assets/schopenhauer-zitat.png"
@@ -33567,7 +33567,7 @@ function schopenhauerZitatPage() {
         ${bookTip("nichts-und-alles", "Jenseits der Fixierung: Bewusstsein als der stille Zeuge des eigenen Wollens.", "Nichts und Alles")}
         ${bookTip("hinter-der-leidenschaft", "Die verborgene Triebkraft hinter dem sichtbaren Verhalten &ndash; 27 Portraits.", "Hinter der Leidenschaft")}
         ${relatedLinks([
-          {route:"antriebskraefte", label:"Antriebskr\xe4fte"},
+          {route:"antriebskraefte", label:"Driving Forces"},
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
           {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
         ])}
@@ -33631,9 +33631,9 @@ function bewusstseinsuebungenPage() {
         ${bookTip("heilung-als-erinnerung", "Heilung als R\xfcckkehr zur Pr\xe4senz &ndash; die spirituelle Dimension der inneren Arbeit.", "Heilung als Erinnerung")}
         ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite &ndash; die Tiefe jenseits der Pers\xf6nlichkeit.", "Nichts und Alles")}
         ${relatedLinks([
-          {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+          {route:"spirituelle-uebungen", label:"Spiritual Practices"},
           {route:"schaubilder-als-spiegel", label:"Charts als Spiegel"},
-          {route:"koerperregulation", label:"K\xf6rperregulation"},
+          {route:"koerperregulation", label:"Body Regulation"},
         ])}
       </div>
     </div>
@@ -33691,7 +33691,7 @@ function schaubilderAlsSpiegelPage() {
       ${relatedLinks([
         {route:"neun-logismoi", label:"9 Logismoi nach Evagrius"},
         {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
-        {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
+        {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
       ])}
     </div>
   `);
@@ -33751,7 +33751,7 @@ function neunLogismoiPage() {
       ${relatedLinks([
         {route:"gifte-des-geistes", label:"Gifte des Geistes"},
         {route:"schaubilder-als-spiegel", label:"Charts als Spiegel"},
-        {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+        {route:"spirituelle-uebungen", label:"Spiritual Practices"},
       ])}
     </div>
   `);
@@ -33955,7 +33955,7 @@ function identifikationPage() {
         ${relatedLinks([
           {route:"schaubilder-als-spiegel", label:"Charts als Spiegel"},
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
-          {route:"bewusstseinsuebungen", label:"Bewusstseins\xfcbungen"},
+          {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
         ])}
       </div>
     </div>
@@ -35035,7 +35035,7 @@ function solfeggioFrequenzenPage() {
       ${relatedLinks([
         {route:"stille", label:"9 Minuten Stille"},
         {route:"musik", label:"Entspannungs- und Heilungsmusik"},
-        {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+        {route:"spirituelle-uebungen", label:"Spiritual Practices"},
       ])}
     </div>
   `);
@@ -35671,7 +35671,7 @@ function grundformelPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Das vollst\xe4ndige Subtypees-Modell: alle 27 Auspr\xe4gungen von Defizit, Energieform und Instinkt.", "Die verborgene Dynamik der 27 Subtypees")}
         ${relatedLinks([
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
-          {route:"antriebskraefte", label:"Antriebskr\xe4fte"},
+          {route:"antriebskraefte", label:"Driving Forces"},
           {route:"schutzdefizite", label:"Schutzdefizite"},
         ])}
       </div>
@@ -35829,7 +35829,7 @@ function wurzelnDesEnneagrammsPage() {
         <p class="vb-intro">In diesem Sinne wird Selbsterkenntnis zu mehr als Selbstoptimierung. Sie wird zu einem Prozess, in dem der Mensch beginnt, sich selbst wirklich zu sehen &ndash; nicht als idealisiertes Bild, sondern in seiner tats\xe4chlichen Funktionsweise. Das Enneagramm verbindet psychologische Einsicht mit einer fast schon philosophischen Perspektive auf das Leben. Es deutet an, dass die Muster, die wir in uns tragen, nicht isoliert sind, sondern Teil gr\xf6\xdferer Zusammenh\xe4nge.</p>
         <p class="vb-intro">Wer sich selbst besser versteht, beginnt auch, andere anders zu sehen. Urteile werden differenzierter, Reaktionen bewusster. Aus reiner Reaktion kann Verantwortung werden &ndash; und aus diesem Verst\xe4ndnis ein tieferer innerer Frieden. Nicht, weil alle Probleme gel\xf6st sind, sondern weil man beginnt zu erkennen, wie sie entstehen.</p>
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Pers\xf6nliche Erfahrung nach zwei Jahrzehnten</h2>
-        <p class="vb-intro">Nach nunmehr fast zwei Jahrzehnten intensiver Arbeit mit dem Enneagramm hat sich eine Einsicht immer weiter verdichtet: Es handelt sich nicht nur um ein hilfreiches Werkzeug unter vielen, sondern um eine Art \xfcbergeordnete Struktur, die ordnend, kl\xe4rend und bewusstseinserweiternd wirkt &ndash; unabh\xe4ngig davon, in welchem Bereich man sie anwendet. Selbst Disziplinen wie die Hom\xf6opathie oder die Naturheilverfahren gewinnen durch die Perspektive des Enneagramms an Tiefe und Klarheit. Es wirkt wie eine pr\xe4zise Linse, durch die sich Zusammenh\xe4nge deutlicher erkennen lassen.</p>
+        <p class="vb-intro">Nach nunmehr fast zwei Jahrzehnten intensiver Arbeit mit dem Enneagramm hat sich eine Einsicht immer weiter verdichtet: Es handelt sich nicht nur um ein hilfreiches Werkzeug unter vielen, sondern um eine Art \xfcbergeordnete Struktur, die ordnend, kl\xe4rend und bewusstseinserweiternd wirkt &ndash; unabh\xe4ngig davon, in welchem Bereich man sie anwendet. Selbst Disziplinen wie die Homeopathy oder die Naturheilverfahren gewinnen durch die Perspektive des Enneagramms an Tiefe und Klarheit. Es wirkt wie eine pr\xe4zise Linse, durch die sich Zusammenh\xe4nge deutlicher erkennen lassen.</p>
         <p class="vb-intro">Mit der Zeit entsteht der Eindruck, dass die im Enneagramm beschriebenen Prinzipien weit \xfcber die Pers\xf6nlichkeit hinausreichen und sich in unterschiedlichsten Bereichen des Lebens wiederfinden lassen. Diese Erfahrung kann das eigene Weltbild durchaus ersch\xfcttern, weil sie vertraute Erkl\xe4rungen relativiert. Gleichzeitig f\xfchrt sie zu einer zunehmenden Gelassenheit im Umgang mit anderen Menschen &ndash; das Enneagramm lehrt, dies ohne Bewertung anzunehmen.</p>
         <p class="vb-intro">So wird es weniger zu einem Instrument, mit dem man andere \xfcberzeugen will, sondern vielmehr zu einem stillen Begleiter auf dem eigenen Weg der Erkenntnis. Und vielleicht liegt genau darin seine gr\xf6\xdfte Kraft: dass es hilft, die eigene innere Struktur zu durchschauen, die Wahrnehmung zu kl\xe4ren und daraus einen tieferen, stabileren inneren Frieden entstehen zu lassen.</p>
         <div style="border-left:3px solid var(--gold);padding:.8rem 1rem;margin:1.8rem 0;background:var(--paper);border-radius:0 8px 8px 0;">
@@ -36322,7 +36322,7 @@ function gifteDesGeistesPage() {
       ${relatedLinks([
         {route:"neun-logismoi", label:"9 Logismoi nach Evagrius"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
-        {route:"spirituelle-uebungen", label:"Spirituelle \xdcbungen"},
+        {route:"spirituelle-uebungen", label:"Spiritual Practices"},
       ])}
     </section>
   `);
@@ -36470,7 +36470,7 @@ function angstEssenzPage() {
         ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
           {route:"kerneberzeugungen", label:"Kern\xfcberzeugungen"},
-          {route:"frieden-schliessen", label:"Frieden schlie\xdfen"},
+          {route:"frieden-schliessen", label:"Making Peace"},
         ])}
       </div>
     </div>
@@ -37541,7 +37541,7 @@ function psychogrammePage() {
         `).join("")}
       </div>
       ${relatedLinks([
-        {route:"ego-persoenlichkeit", label:"Ego-Pers\xf6nlichkeit"},
+        {route:"ego-persoenlichkeit", label:"Ego Personality"},
         {route:"wer-wir-sind", label:"Who We Are"},
         {route:"aufmerksamkeitsfokus", label:"Aufmerksamkeitsfokus"},
       ])}
@@ -40093,7 +40093,7 @@ function verhaltensPage(key) {
       <p class="vb-anmerkung"><em>Anmerkung: ${d.anmerkung}</em></p>
       ${buecherHtml}      ${relatedLinks([
         {route:"beziehungen", label:"Relationships"},
-        {route:"naehe", label:"N\xe4he & Distanz"},
+        {route:"naehe", label:"Closeness & Distance"},
         {route:"verbale-signale", label:"Verbale Signale"},
       ])}
     </div>
