@@ -3114,7 +3114,7 @@ function kaufenPage() {
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
           Buy access now → € 79
         </a>
-        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \xfcber Stripe &middot; Sofortiger Zugang nach Zahlung</p>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Secure payment via Stripe &middot; PayPal accepted &middot; Instant access after payment</p>
       </div>
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Fragen?</h3>
@@ -40944,7 +40944,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v607';
+  const MY_VERSION = 'inhalt-v608';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
