@@ -1821,9 +1821,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man greift zu den vertrauten Tröstungen: Gewohnheiten, Rückzug, das Dämpfen des Unruhegefühls. Die Erschöpfung wird betäubt, aber nicht gehört. Alles läuft weiter – im Autopiloten.`,
         bewusstheit: `Was betäubst du gerade – und was würdest du hören, wenn du einen Moment wirklich innehieltest?`,
         uebung: `Lass eine der vertrauten Gewohnheiten heute bewusst aus. Sitz mit dem Unbehagen, das dann entsteht. Frage dich in aller Stille: Was will gerade wirklich gehört werden?`,
-        autopilotEN: `You turn to the familiar consolations: habits, withdrawal, dampening the feeling of restlessness. The exhaustion is numbed but not heard. Everything continues to run – on autopilot.`,
-        bewusstheitEN: `What are you deafening right now – and what would you hear if you really stopped for a moment?`,
-        uebungEN: `Consciously skip one of your familiar habits today. Sit with the discomfort that then arises. Ask yourself quietly: What really wants to be heard right now?`
+        autopilotEN: `Stagnation feels familiar and almost comfortable to your system: you keep moving in the same old groove, avoid making hard decisions, and endlessly procrastinate. The inner emptiness is sedated by routine rather than broken through.`,
+        bewusstheitEN: `What if you made just one tiny, crystal-clear decision today—not a massive life change, just a small choice? What would that shift for you?`,
+        uebungEN: `Select one specific item that you have been putting off for a long time. Take the very first step toward tackling it—just the first step. Commit to doing it for five minutes. Then stop and see what happens.`
       },
       konflikt: {
         autopilot: `Im Konflikt liegt der Impuls, ihn zu vermeiden, abzumildern, zu beschwören. Man gibt nach, stimmt zu, macht sich kleiner – um den Frieden zu wahren. Innen sammelt sich dabei etwas an, das irgendwann herausbricht.`,
@@ -1896,9 +1896,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man macht weiter mit allem, weil aufhören bedeuten würde, Wellen zu schlagen. Man passt sich an, fügt sich ein, sagt Ja – und spürt kaum, wie die eigene Kraft dabei schwindet.`,
         bewusstheit: `Wessen Erwartungen erfüllst du gerade, obwohl du erschöpft bist? Und wessen Erwartung ist es eigentlich wirklich?`,
         uebung: `Sage heute einmal bewusst Nein zu einer Anfrage oder Erwartung – auch einer kleinen. Beobachte, welcher innere Widerstand entsteht, und wo er sitzt.`,
-        autopilotEN: `You keep doing everything because stopping would mean making waves. You adapt, fit in, say yes - and hardly notice how your own strength is dwindling.`,
-        bewusstheitEN: `Whose expectations are you currently fulfilling even though you are exhausted? And whose expectation is it really?`,
-        uebungEN: `Today, consciously say no to a request or expectation – even a small one. Observe what internal resistance arises and where it is located.`
+        autopilotEN: `You live entirely for the harmony of the group, and you lose your personal drive in the process: *Where am I going? What do I want?* These questions are permanently sidelined because the group provides your sense of direction.`,
+        bewusstheitEN: `What do you want—you yourself, entirely for you, without worrying about the group? Is there a personal desire that has been waiting on the shelf for a long time?`,
+        uebungEN: `Write it down plainly today: *If I were allowed to decide completely on my own, without disappointing a single soul—what would I do next?* Then consider if you can brave the very first step.`
       },
       konflikt: {
         autopilot: `Im Konflikt übernimmt man die Perspektiven aller Beteiligten und versucht zu vermitteln, zu verbinden, zu glätten. Die eigene Position verschwindet dabei oft. Am Ende weiss man nicht mehr genau, wo man selbst steht.`,
@@ -1971,9 +1971,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man verschmilzt mit dem Partner, mit der Umgebung, mit dem Strom des Alltags – und merkt kaum, wie erschöpft man ist. Die Grenze zwischen eigener Erschöpfung und der Energie des anderen verschwimmt.`,
         bewusstheit: `Was von dieser Erschöpfung gehört wirklich dir – und was trägst du von anderen? Kannst du das in diesem Moment unterscheiden?`,
         uebung: `Setze dich alleine, ohne Verbindung nach außen. Frage dich: Wie geht es mir – mir allein, in diesem Moment? Lass die Antwort kommen, ohne sie sofort zu teilen.`,
-        autopilotEN: `You merge with your partner, with your surroundings, with the flow of everyday life - and you hardly notice how exhausted you are. The line between your own exhaustion and the energy of others becomes blurred.`,
-        bewusstheitEN: `What of this exhaustion is truly yours – and what do you get from others? Can you distinguish that at this moment?`,
-        uebungEN: `Sit alone, without connection to the outside world. Ask yourself: How am I - me alone - feeling at this moment? Let the answer come without sharing it right away.`
+        autopilotEN: `Stagnation sets in when you lose your boundaries with the other person: you passively drift along in your partner's rhythm, completely lacking your own direction. Your internal emptiness remains vague and unnamed.`,
+        bewusstheitEN: `What do you actually want—completely independent of the other person? Is there a personal direction inside you that you haven't tuned into for a long time?`,
+        uebungEN: `Write down three sentences today that begin with: "I want..." Do this entirely for yourself, without factoring the other person into the equation at all. Let them stand. That is your direction.`
       },
       konflikt: {
         autopilot: `Im Konflikt verschmilzt man entweder mit der Energie des anderen – nimmt seine Aufgebrachtheit an, trägt sie mit – oder zieht sich in eine schwer erreichbare Stille zurück. Beides ist eine Form des Verlorenseins.`,
