@@ -238,3 +238,78 @@ Doch wenn er sich zu sehr verliert, findet er sich selbst nicht mehr. Die Frage 
     impuls: `Nimm dir heute eine Stunde nur für dich. Kein Partner, kein Thema, keine Pflicht. Nur du. Und schau, wer da ist.`,
   },
 };
+
+export const TYP_IMPULSE_EN = {
+  1: {
+    text: `There is an inner judge who never takes a break. It examines, evaluates, corrects — and it is rarely satisfied. The Type 1 part within all of us knows this judge well.
+
+But what if imperfection were not a flaw, but the very sign of something alive? A tree that grows perfectly straight is not a better tree. A person who never errs is not fully human.
+
+The path to inner freedom does not lead to perfection. It leads to grace — the capacity to accept yourself and others exactly as you are: good enough, right now.`,
+    impuls: `Where does your inner judge step in today? Pause for a moment. What would happen if you simply let this situation be as it is?`,
+  },
+  2: {
+    text: `The Helper gives. Often more than they have. And deep inside, they wait — for gratitude, for recognition, for the feeling: I matter to someone.
+
+That is not a flaw. That is deeply human. But it is also a quiet exhaustion.
+
+Real giving has no invoice attached. It does not arise from the fear of not being loved — it arises from an inner fullness, from which one naturally shares. The difference sounds small, but it is enormous.`,
+    impuls: `Do one thing today only for yourself. Without guilt. And notice how that feels.`,
+  },
+  3: {
+    text: `The Achiever knows how to make an impression. They know which image to project. And they are good at it — often better than anyone else in the room.
+
+Yet sooner or later, a question surfaces: Who am I behind all of this? What do I actually want — not the role I'm playing, but me?
+
+The Enneagram calls this passion deceit. Not as a moral judgment — but as a pointer: we deceive ourselves most of all when we believe our worth depends on what we accomplish.`,
+    impuls: `Imagine no one is watching today. What would you do? How would you simply be? Let that answer linger for a moment.`,
+  },
+  4: {
+    text: `The Individualist carries a deep longing: the feeling that something is missing. That they are different from others. That real life is somehow happening somewhere else.
+
+This longing is also a gift. It makes Type 4 the poet, the kindred spirit. Yet it can also become a trap: always seeing what is absent, never what is present.
+
+What if what you are searching for is already inside you? Not as a finished answer — but as a living process of becoming.`,
+    impuls: `Write down three things that are present in your life right now — not missing. Not perfect, but here. And breathe.`,
+  },
+  5: {
+    text: `The Observer gathers knowledge. They read, analyze, understand — and then retreat to preserve what they have learned. As if the world is too much, and the chamber of the mind is the only safe place.
+
+Yet knowledge that is never shared fades. A person who only observes eventually becomes invisible — even to themselves.
+
+Life invites us not only to understand, but to be. Not only to know how connection works — but to dare connection.`,
+    impuls: `Share something you know today — with someone you trust. Not perfectly worded. Just as it is.`,
+  },
+  6: {
+    text: `The Loyalist lives with a constant companion: fear. Not always loud — often quiet. A background hum that asks: What could go wrong? Am I safe? Can I really trust this person?
+
+This vigilance has protected them many times. Yet it also carries a cost: trust in life itself.
+
+The paradox: the more we expect the worst, the more we generate the very tension we are trying to avoid. Trust is not a naive thought — it is a conscious choice.`,
+    impuls: `What is okay right now — this very moment? Not tomorrow, not next week — right now. Stay there for a moment.`,
+  },
+  7: {
+    text: `The Enthusiast loves life. They love possibilities, new ideas, the next plan. That energy is contagious and genuinely beautiful.
+
+Yet sometimes this aliveness is also an escape. An escape from what hurts. From the silence where unprocessed things surface.
+
+Growth for Type 7 does not mean celebrating less — it means welcoming the difficult too. Like an uninvited guest who, in the end, carries the most valuable message.`,
+    impuls: `Let a pause arise today — without immediately filling it. Five minutes of silence. And notice what appears when you stop running.`,
+  },
+  8: {
+    text: `The Challenger is strong. And they have learned: the strong are not hurt. The one who holds control is safe.
+
+Yet real strength does not show itself in dominating — it shows itself in the capacity to be vulnerable. To say: I need you. That touched me. I don't know.
+
+That costs Type 8 more than almost anything else. Yet it is precisely there — in that opening — that what they most deeply desire waits: real connection, real trust.`,
+    impuls: `Let someone come a little closer today. Not far, not forever — just one small step further than usual.`,
+  },
+  9: {
+    text: `The Peacemaker is a master at seeing others. They sense needs, understand perspectives, hold the space together. That is a rare gift.
+
+Yet in doing so, one voice is often lost: their own. What do I want? What do I need? What do I actually think — really, deep down, without concern for what might disturb the peace?
+
+The sleep state of Type 9 is not laziness. It is the forgetting of the self. The awakening begins with one simple, courageous question.`,
+    impuls: `Ask yourself consciously at three moments today: What do I want right now? And then say it. Out loud. Even if it briefly disturbs the peace.`,
+  },
+};

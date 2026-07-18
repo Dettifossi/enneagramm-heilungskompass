@@ -1,5 +1,5 @@
 import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-17-archetype-v1";
-import { TYP_IMPULSE, SUBTYP_IMPULSE } from "../data/impulse.js?v=2";
+import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
@@ -7681,7 +7681,7 @@ function typePage(num) {
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Passion: <strong>${t.leidenschaft}</strong></span>
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Animal: <strong>${t.tier}</strong></span>
       </div>
-      ${impulseBlock(TYP_IMPULSE[t.num], c)}
+      ${impulseBlock(TYP_IMPULSE_EN[t.num] || TYP_IMPULSE[t.num], c)}
     </section>
     <section class="subtypen-liste">${subtypenHtml}</section>
   `);
