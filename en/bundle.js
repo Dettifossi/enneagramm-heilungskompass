@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=21";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=22";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -40013,7 +40013,6 @@ function typenvergleichePage() {
   `);
 }
 
-function registerPage() {
 function registerPage() {
   // Sort alphabetically and group by first letter (EN version)
   const sorted = [...registerEntriesEN].sort((a, b) =>
