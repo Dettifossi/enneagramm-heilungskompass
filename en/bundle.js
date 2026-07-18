@@ -711,6 +711,49 @@ knowledgePrototype.source = "PDF card set and architecture notes, prepared as a 
 knowledgePrototype.typeBlock.title  = "Type 1 to Type 9 · Knowledge Base in Progress";
 knowledgePrototype.typeBlock.status = "27 Subtypes visible";
 knowledgePrototype.typeBlock.note   = "Cards show curated drafts from uploaded screenshots. Animal archetypes are intentionally kept as background fields.";
+
+// EN: library route text
+text.routes.library = {
+  eyebrow:          "Library & Life's Work",
+  headline:         "Books, Publishing House & Further Study",
+  lead:             "The complete works of Detlef Rathmer — books on Enneagram, homeopathy and personal development. Every book available to order directly via BoD.",
+  systemOverview:   "System Overview",
+  formulaHeadline:  "The Core Formula of the Rathmer Enneagram",
+  formulaText:      "This chart brings together the three deficits, the three energy forms, the three instincts and the formula from which the 27 subtypes emerge.",
+  formulaAlt:       "The core formula of the Rathmer Enneagram as a structured overview",
+};
+
+// EN: werk section
+text.werk.title      = "The Works";
+text.werk.lead       = "Books, research and knowledge from over twenty years — a lifetime's work as a growing library.";
+text.werk.themes     = "Themes";
+text.werk.openBook   = "To the Book";
+text.werk.linkPending = "Link to be added";
+
+// EN: architectureAreas overrides
+architectureAreas[0].title = "Enneagram Compass";
+architectureAreas[0].text  = "Types, subtypes, organism questions, body organisation, paths of development and daily orientation.";
+architectureAreas[1].title = "Remedy Compass";
+architectureAreas[1].text  = "Homeopathy, Enneagram homeopathy, Bach flowers, minerals, gemstones, herbal teas and healing impulses.";
+architectureAreas[2].title = "Essential Oils";
+architectureAreas[2].text  = "One essential oil per type, working at the wound level — as its own section alongside the Remedy Compass.";
+architectureAreas[3].title = "TCM & Organ Clock";
+architectureAreas[3].text  = "Each Enneagram type is assigned a TCM meridian — with organ time, nutritional plan and energetic healing direction.";
+architectureAreas[4].title = "Music & Consciousness";
+architectureAreas[4].text  = "Songs, playlists, affirmations, meditative music and subtype-specific fields of consciousness.";
+architectureAreas[5].title = "Practice & Healing";
+architectureAreas[5].text  = "Body work, acupressure, two-point integration, breath impulses and naturopathic deepening.";
+architectureAreas[6].title = "Knowledge Base";
+architectureAreas[6].text  = "The app's inner archive: original charts, extracted knowledge cards, source structure and cross-references.";
+architectureAreas[7].title = "Library & Life's Work";
+architectureAreas[7].text  = "Books, publishing house, practice website, music, lectures and future references to the complete works.";
+
+// EN: libraryItems overrides
+libraryItems[0] = ["Core Formula", "Deficit → Organism question → Misidentification → Passion → Fixation → Subtype strategy → Development"];
+libraryItems[1] = ["Three Instincts", "SP for stability, SO for belonging, SX for bonding, intensity and resonance."];
+libraryItems[2] = ["27 Subtypes", "Each subtype connects core type, instinct, animal archetype, core sentence, path of development and tools."];
+libraryItems[3] = ["Animal Archetypes", "The imagery serves as a complementary resonance space and remains subordinate to personal interpretation."];
+libraryItems[4] = ["Organism Questions", "Each question describes what the organism is searching for within its pattern and where development can lead."];
 text.routes.tcm.organzeitLabel = "Organ Time";
 text.routes.tcm.polaritaetLabel = "Polarity";
 text.routes.tcm.leitorganLabel = "Key Organ";
@@ -3278,14 +3321,14 @@ function libraryPage() {
     ${werkSection()}
     <section style="background:#2c2c2c;padding:3.5rem 1.5rem;text-align:center;">
       <div style="max-width:700px;margin:0 auto;">
-        <div style="color:#c4a456;font-size:0.78rem;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:0.8rem;">Interview · 22 Minuten</div>
-        <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">»Warum dein Enneagrammtyp<br>deine Gesundheit bestimmt«</h2>
-        <p style="color:rgba(245,233,208,0.75);line-height:1.7;margin:0 0 1.8rem;font-size:0.97rem;max-width:560px;margin-left:auto;margin-right:auto;">Ein Gespräch über das Verlagsprogramm des Verlagshaus Rathmer — von Homöopathie über Enneagramm bis zum Weltfrieden. Was diese Bücher bewegen können und warum das Wissen über den eigenen Typ so vieles verändert.</p>
+        <div style="color:#c4a456;font-size:0.78rem;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:0.8rem;">Interview · 22 minutes</div>
+        <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#f5e9d0;margin:0 0 0.8rem;line-height:1.35;">»Why Your Enneagram Type<br>Determines Your Health«</h2>
+        <p style="color:rgba(245,233,208,0.75);line-height:1.7;margin:0 0 1.8rem;font-size:0.97rem;max-width:560px;margin-left:auto;margin-right:auto;">A conversation about the publishing programme of Verlagshaus Rathmer — from homeopathy and Enneagram to world peace. What these books can move in people and why knowing your own type changes so much.</p>
         <audio controls style="width:100%;max-width:560px;border-radius:6px;accent-color:#c4a456;margin-bottom:0.5rem;">
           <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/interview-gesundheit.mp4" type="audio/mp4">
-          Ihr Browser unterstützt keinen Audio-Player.
+          Your browser does not support the audio element.
         </audio>
-        <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Laufzeit ca. 22 Minuten · Verlagshaus Rathmer</p>
+        <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Runtime approx. 22 minutes · Verlagshaus Rathmer</p>
       </div>
     </section>
   `);
@@ -3294,11 +3337,11 @@ function libraryPage() {
 function werkSection() {
   const w = text.werk;
   const filterLabels = {
-    all:                     "Alle",
-    enneagramm:              "Enneagramm",
-    homoeopathie:            "Homöopathie",
-    "persoenliche-entwicklung": "Persönl. Entwicklung",
-    kalender:                "Kalender",
+    all:                     "All",
+    enneagramm:              "Enneagram",
+    homoeopathie:            "Homeopathy",
+    "persoenliche-entwicklung": "Personal Development",
+    kalender:                "Calendar",
   };
   const filterBar = Object.entries(filterLabels).map(([key, label]) =>
     `<button class="werk-filter${key === "all" ? " is-active" : ""}" data-werk-filter="${key}">${label}</button>`
@@ -3306,12 +3349,12 @@ function werkSection() {
 
   const cards = werkRegister.map((book) => {
     const isPending = book.status === "link_pruefen";
-    const linkLabel = book.category === "kalender" ? "Zum Kalender" : book.id.includes("hoerbuch") ? "Zum H\xf6rbuch" : w.openBook;
+    const linkLabel = book.category === "kalender" ? "To the Calendar" : book.id.includes("hoerbuch") ? "To the Audiobook" : w.openBook;
     const verlagsLink = isPending
       ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
       : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${linkLabel} →</a>`;
     const bodLink = !isPending && book.bodUrl
-      ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Bei BoD kaufen →</a>`
+      ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Buy at BoD →</a>`
       : "";
     const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
       onerror="this.parentElement.style.display='none'"
@@ -11238,7 +11281,7 @@ function tierentsprechungenPage() {
       <p style="font-size:.78rem;color:var(--muted);margin:0 0 .7rem;">${b.themes.join(" · ")}</p>
       <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
         <a href="${b.link}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--copper);font-weight:600;">Im Verlag ansehen →</a>
-        ${b.bodUrl ? `<a href="${b.bodUrl}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--muted);">Bei BoD kaufen →</a>` : ""}
+        ${b.bodUrl ? `<a href="${b.bodUrl}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--muted);">Buy at BoD →</a>` : ""}
       </div>
     </article>`;
   }).join("");
@@ -11806,13 +11849,13 @@ function beruehmtePersoenlichkeitenPage() {
   };
 
   function filterBar() {
-    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"Alle":inst)+'</button>';
+    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":inst)+'</button>';
     const typBtn = n => {
       const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
       const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
       return '<button class="kf-btn kf-btn--typ'+(col?' kf-btn--typ-colored':'')+'"'
         +' data-bp-typ="'+n+'" data-kf-col="'+(col||'')+'"'
-        +style+' onclick="bpSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
+        +style+' onclick="bpSet(\'typ\','+n+')">'+(n===0?"All":n)+'</button>';
     };
     const katBtn = k => {
       const col = katColors[k]||"var(--copper)";
@@ -15479,13 +15522,13 @@ function kriminalpsychologiePage() {
   const tagLabel = {"Serienmord":"Serienmord","Betrug":"Betrug / Hochstapelei","Mafia":"Mafia / Organisiert","Terror":"Terror / Massengewalt","Nahbereich":"Beziehungs­tat","Missbrauch":"Missbrauch"};
 
   function filterBar() {
-    const instBtn = inst => '<button class="kf-btn" data-kf-inst="'+inst+'" onclick="kfSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"Alle":inst)+'</button>';
+    const instBtn = inst => '<button class="kf-btn" data-kf-inst="'+inst+'" onclick="kfSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":inst)+'</button>';
     const typBtn  = n => {
       const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
       const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
       return '<button class="kf-btn kf-btn--typ'+(col?' kf-btn--typ-colored':'')+'"'
         +' data-kf-typ="'+n+'" data-kf-col="'+(col||'')+'"'
-        +style+' onclick="kfSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
+        +style+' onclick="kfSet(\'typ\','+n+')">'+(n===0?"All":n)+'</button>';
     };
     const tagColors = {Serienmord:"#c0392b",Betrug:"#2563c7",Mafia:"#7c3aed",Terror:"#b45309",Nahbereich:"#15803d",Missbrauch:"#be185d",Sonstiges:"#6b7280"};
     const tagBtn = t => {
