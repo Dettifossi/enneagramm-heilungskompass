@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries } from "../data/register.js?v=21";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=21";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -40014,18 +40014,19 @@ function typenvergleichePage() {
 }
 
 function registerPage() {
-  // Alphabetisch sortieren und nach Anfangsbuchstabe gruppieren
-  const sorted = [...registerEntries].sort((a, b) =>
-    a.term.localeCompare(b.term, "de", { sensitivity: "base" })
+function registerPage() {
+  // Sort alphabetically and group by first letter (EN version)
+  const sorted = [...registerEntriesEN].sort((a, b) =>
+    a.term.localeCompare(b.term, "en", { sensitivity: "base" })
   );
   const groups = {};
   sorted.forEach(entry => {
     const letter = entry.term[0].toUpperCase();
-    const key = /[A-ZÄÖÜa-zäöü]/.test(letter) ? letter : "#";
+    const key = /[A-Za-z]/.test(letter) ? letter : "#";
     if (!groups[key]) groups[key] = [];
     groups[key].push(entry);
   });
-  const letters = Object.keys(groups).sort((a, b) => a.localeCompare(b, "de"));
+  const letters = Object.keys(groups).sort((a, b) => a.localeCompare(b, "en"));
   const jumpBar = letters.map(l =>
     `<a class="register-jump" href="#register" onclick="document.getElementById('reg-${l}')?.scrollIntoView({behavior:'smooth'});return false;">${l}</a>`
   ).join("");
@@ -40047,15 +40048,14 @@ function registerPage() {
   return shell(`
     ${pageHeader("register")}
     <div class="page-hero">
-      <p class="page-hero__label">Nachschlagewerk</p>
-      <h1 class="page-hero__title">Register</h1>
-      <p class="page-hero__sub">Alle Begriffe, Subtypees und Themen auf einen Blick &ndash; anklicken und direkt zum Inhalt springen.</p>
+      <p class="page-hero__label">Reference Index</p>
+      <h1 class="page-hero__title">Index</h1>
+      <p class="page-hero__sub">All terms, subtypes and topics at a glance &ndash; click to go directly to the content.</p>
     </div>
     <div class="register-jumpbar">${jumpBar}</div>
     <div class="register-wrap">${sections}</div>
   `);
 }
-
 function verhaltensPage(key) {
   const d = VERHALTEN[key];
   if (!d) return shell(`<p>Seite nicht gefunden.</p>`);
