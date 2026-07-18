@@ -37761,45 +37761,45 @@ function showTagesimpuls() {
 }
 
 function tischdialogePage() {
-  const Q = (s) => `„${s}“`;
+  const Q = (s) => `"${s}"`;
   const DIALOGE = [
-    { code:"SP1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Ordnung.")} &ndash; ${Q("Ich will Sicherheit.")}`,           ergebnis:"Disziplin, Korrektheit." },
-    { code:"SO1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich halte Zorn zur\xfcck.")} &ndash; ${Q("Du musst erziehen.")}`,  ergebnis:"Strenge Moral." },
-    { code:"SX1", typ:1, leidenschaft:"Groll / Zorn", instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich will Zorn verbergen.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`, ergebnis:"Zorn bricht offen hervor." },
-    { code:"SP2", typ:2, leidenschaft:"Pride",         instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich wei\xdf, was andere brauchen.")} &ndash; ${Q("Ich will klein wirken.")}`, ergebnis:"Scheinbare Demut." },
-    { code:"SO2", typ:2, leidenschaft:"Pride",         instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will wichtig sein.")} &ndash; ${Q("Ich will gebraucht werden.")}`, ergebnis:"Offenes Helfen." },
-    { code:"SX2", typ:2, leidenschaft:"Pride",         instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will N\xe4he.")} &ndash; ${Q("Ich will Bindung.")}`,              ergebnis:"Leidenschaftliche Zuwendung." },
-    { code:"SP3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich will gl\xe4nzen.")} &ndash; ${Q("Ich will unauff\xe4llig wirken.")}`, ergebnis:"Bodenst\xe4ndig, aber leistungsgetrieben." },
-    { code:"SO3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Erfolg zeigen.")} &ndash; ${Q("Ich will Status.")}`,      ergebnis:"Erfolgsorientierung pur." },
-    { code:"SX3", typ:3, leidenschaft:"Eitelkeit",     instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich will attraktiv sein.")} &ndash; ${Q("Ich will Beziehung.")}`,    ergebnis:"Charmant, dynamisch." },
-    { code:"SP4", typ:4, leidenschaft:"Envy",          instinkt:"Selbsterhaltung", kategorie:"Kontratyp",       dialog:`${Q("Ich sehe, was fehlt.")} &ndash; ${Q("Ich will sichere Besonderheit.")}`, ergebnis:"Weniger dramatisch." },
-    { code:"SO4", typ:4, leidenschaft:"Envy",          instinkt:"Sozial",           kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich vergleiche mich.")} &ndash; ${Q("Ich will Status.")}`,         ergebnis:"Dramatischer Vergleich." },
-    { code:"SX4", typ:4, leidenschaft:"Envy",          instinkt:"Sexuell",          kategorie:"Normaltyp",       dialog:`${Q("Ich sehne mich.")} &ndash; ${Q("Ich will Intensit\xe4t.")}`,         ergebnis:"Leidenschaftliche Search." },
-    { code:"SP5", typ:5, leidenschaft:"Geiz",          instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will nichts hergeben.")} &ndash; ${Q("Ich will minimalistisch sein.")}`, ergebnis:"Asketisch, zur\xfcckgezogen." },
-    { code:"SO5", typ:5, leidenschaft:"Geiz",          instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich halte Wissen zur\xfcck.")} &ndash; ${Q("Ich will teilnehmen.")}`, ergebnis:"Distanziert, aber beteiligt." },
-    { code:"SX5", typ:5, leidenschaft:"Geiz",          instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich spare Energie.")} &ndash; ${Q("Ich will intensive N\xe4he.")}`,  ergebnis:"Ambivalenz: N\xe4he & R\xfcckzug." },
-    { code:"SP6", typ:6, leidenschaft:"Fear",         instinkt:"Selbsterhaltung", kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich sp\xfcre Gefahren.")} &ndash; ${Q("Ich will Vorsorge.")}`,     ergebnis:"Sicherheitsfanatiker." },
-    { code:"SO6", typ:6, leidenschaft:"Fear",         instinkt:"Sozial",           kategorie:"Normaltyp",       dialog:`${Q("Ich will nicht allein sein.")} &ndash; ${Q("Ich will Zugeh\xf6rigkeit.")}`, ergebnis:"Loyalit\xe4t, Gruppenhalt." },
-    { code:"SX6", typ:6, leidenschaft:"Fear",         instinkt:"Sexuell",          kategorie:"Kontratyp",       dialog:`${Q("Ich bin unsicher.")} &ndash; ${Q("Ich provoziere.")}`,               ergebnis:"Angriff als Abwehr." },
-    { code:"SP7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mehr.")} &ndash; ${Q("Ich will Komfort.")}`,                 ergebnis:"Genussfreude, Lebenslust." },
-    { code:"SO7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sozial",           kategorie:"Kontratyp",       dialog:`${Q("Ich will genie\xdfen.")} &ndash; ${Q("Ich will Ideale.")}`,          ergebnis:"Moralische, kopfgesteuerte Sieben." },
-    { code:"SX7", typ:7, leidenschaft:"V\xf6llerei",   instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Ekstase.")} &ndash; ${Q("Ich will Abenteuer.")}`,        ergebnis:"Ruhelos, extrem." },
-    { code:"SP8", typ:8, leidenschaft:"Wollust",       instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will Kraft zeigen.")} &ndash; ${Q("Ich will Sicherheit.")}`,     ergebnis:"Durchsetzungsstark, klassisch." },
-    { code:"SO8", typ:8, leidenschaft:"Wollust",       instinkt:"Sozial",           kategorie:"Kontratyp",       dialog:`${Q("Ich will Macht.")} &ndash; ${Q("Ich will f\xfcr andere sorgen.")}`,  ergebnis:"Besch\xfctzerrolle." },
-    { code:"SX8", typ:8, leidenschaft:"Wollust",       instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will Intensit\xe4t.")} &ndash; ${Q("Ich will Leidenschaft.")}`, ergebnis:"Extrem, magnetisch." },
-    { code:"SP9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Selbsterhaltung", kategorie:"Normaltyp",       dialog:`${Q("Ich will mich ver\xe4ndern.")} &ndash; ${Q("Ich will Komfort.")}`,   ergebnis:"Gem\xfctlich, stabil." },
-    { code:"SO9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Sozial",           kategorie:"Kontratyp",          dialog:`${Q("Ich will mich zur\xfcckziehen.")} &ndash; ${Q("Ich will aktiv wirken.")}`, ergebnis:"Gesch\xe4ftig, aber fremdgesteuert." },
-    { code:"SX9", typ:9, leidenschaft:"Tr\xe4gheit",   instinkt:"Sexuell",          kategorie:"Verst\xe4rkungstyp", dialog:`${Q("Ich will mich nicht sp\xfcren.")} &ndash; ${Q("Ich will im anderen aufgehen.")}`, ergebnis:"Selbstaufl\xf6sung." },
+    { code:"SP1", typ:1, leidenschaft:"Resentment / Anger", instinkt:"Self-Preservation", kategorie:"Core type",      dialog:`${Q("I want order.")} &ndash; ${Q("I want security.")}`,                ergebnis:"Discipline, correctness." },
+    { code:"SO1", typ:1, leidenschaft:"Resentment / Anger", instinkt:"Social",             kategorie:"Amplifier type", dialog:`${Q("I hold anger back.")} &ndash; ${Q("You must be educated.")}`,      ergebnis:"Strict morality." },
+    { code:"SX1", typ:1, leidenschaft:"Resentment / Anger", instinkt:"Sexual",             kategorie:"Countertype",    dialog:`${Q("I want to hide anger.")} &ndash; ${Q("I want intensity.")}`,       ergebnis:"Anger erupts openly." },
+    { code:"SP2", typ:2, leidenschaft:"Pride",              instinkt:"Self-Preservation",  kategorie:"Countertype",    dialog:`${Q("I know what others need.")} &ndash; ${Q("I want to seem small.")}`, ergebnis:"Apparent humility." },
+    { code:"SO2", typ:2, leidenschaft:"Pride",              instinkt:"Social",             kategorie:"Amplifier type", dialog:`${Q("I want to matter.")} &ndash; ${Q("I want to be needed.")}`,         ergebnis:"Overt helping." },
+    { code:"SX2", typ:2, leidenschaft:"Pride",              instinkt:"Sexual",             kategorie:"Core type",      dialog:`${Q("I want closeness.")} &ndash; ${Q("I want attachment.")}`,           ergebnis:"Passionate devotion." },
+    { code:"SP3", typ:3, leidenschaft:"Vanity",             instinkt:"Self-Preservation",  kategorie:"Countertype",    dialog:`${Q("I want to shine.")} &ndash; ${Q("I want to seem unassuming.")}`,   ergebnis:"Grounded but achievement-driven." },
+    { code:"SO3", typ:3, leidenschaft:"Vanity",             instinkt:"Social",             kategorie:"Amplifier type", dialog:`${Q("I want to show success.")} &ndash; ${Q("I want status.")}`,         ergebnis:"Success-orientation, pure." },
+    { code:"SX3", typ:3, leidenschaft:"Vanity",             instinkt:"Sexual",             kategorie:"Core type",      dialog:`${Q("I want to be attractive.")} &ndash; ${Q("I want connection.")}`,    ergebnis:"Charming, dynamic." },
+    { code:"SP4", typ:4, leidenschaft:"Envy",               instinkt:"Self-Preservation",  kategorie:"Countertype",    dialog:`${Q("I see what is missing.")} &ndash; ${Q("I want safe uniqueness.")}`, ergebnis:"Less dramatic." },
+    { code:"SO4", typ:4, leidenschaft:"Envy",               instinkt:"Social",             kategorie:"Amplifier type", dialog:`${Q("I compare myself.")} &ndash; ${Q("I want status.")}`,               ergebnis:"Dramatic comparison." },
+    { code:"SX4", typ:4, leidenschaft:"Envy",               instinkt:"Sexual",             kategorie:"Core type",      dialog:`${Q("I long for something.")} &ndash; ${Q("I want intensity.")}`,        ergebnis:"Passionate longing." },
+    { code:"SP5", typ:5, leidenschaft:"Avarice",            instinkt:"Self-Preservation",  kategorie:"Amplifier type", dialog:`${Q("I want to give nothing away.")} &ndash; ${Q("I want to live minimally.")}`, ergebnis:"Ascetic, withdrawn." },
+    { code:"SO5", typ:5, leidenschaft:"Avarice",            instinkt:"Social",             kategorie:"Core type",      dialog:`${Q("I withhold knowledge.")} &ndash; ${Q("I want to participate.")}`,  ergebnis:"Detached but engaged." },
+    { code:"SX5", typ:5, leidenschaft:"Avarice",            instinkt:"Sexual",             kategorie:"Countertype",    dialog:`${Q("I conserve energy.")} &ndash; ${Q("I want intense closeness.")}`,  ergebnis:"Ambivalence: closeness & withdrawal." },
+    { code:"SP6", typ:6, leidenschaft:"Fear",               instinkt:"Self-Preservation",  kategorie:"Amplifier type", dialog:`${Q("I sense dangers.")} &ndash; ${Q("I want to be prepared.")}`,       ergebnis:"Safety fanatic." },
+    { code:"SO6", typ:6, leidenschaft:"Fear",               instinkt:"Social",             kategorie:"Core type",      dialog:`${Q("I don't want to be alone.")} &ndash; ${Q("I want belonging.")}`,   ergebnis:"Loyalty, group cohesion." },
+    { code:"SX6", typ:6, leidenschaft:"Fear",               instinkt:"Sexual",             kategorie:"Countertype",    dialog:`${Q("I feel insecure.")} &ndash; ${Q("I provoke.")}`,                   ergebnis:"Attack as defence." },
+    { code:"SP7", typ:7, leidenschaft:"Gluttony",           instinkt:"Self-Preservation",  kategorie:"Core type",      dialog:`${Q("I want more.")} &ndash; ${Q("I want comfort.")}`,                  ergebnis:"Joie de vivre, zest for life." },
+    { code:"SO7", typ:7, leidenschaft:"Gluttony",           instinkt:"Social",             kategorie:"Countertype",    dialog:`${Q("I want to enjoy.")} &ndash; ${Q("I want ideals.")}`,               ergebnis:"Moral, head-driven Seven." },
+    { code:"SX7", typ:7, leidenschaft:"Gluttony",           instinkt:"Sexual",             kategorie:"Amplifier type", dialog:`${Q("I want ecstasy.")} &ndash; ${Q("I want adventure.")}`,             ergebnis:"Restless, extreme." },
+    { code:"SP8", typ:8, leidenschaft:"Lust",               instinkt:"Self-Preservation",  kategorie:"Core type",      dialog:`${Q("I want to show strength.")} &ndash; ${Q("I want security.")}`,     ergebnis:"Assertive, classic." },
+    { code:"SO8", typ:8, leidenschaft:"Lust",               instinkt:"Social",             kategorie:"Countertype",    dialog:`${Q("I want power.")} &ndash; ${Q("I want to protect others.")}`,       ergebnis:"Protector role." },
+    { code:"SX8", typ:8, leidenschaft:"Lust",               instinkt:"Sexual",             kategorie:"Amplifier type", dialog:`${Q("I want intensity.")} &ndash; ${Q("I want passion.")}`,             ergebnis:"Extreme, magnetic." },
+    { code:"SP9", typ:9, leidenschaft:"Sloth",              instinkt:"Self-Preservation",  kategorie:"Core type",      dialog:`${Q("I want to change.")} &ndash; ${Q("I want comfort.")}`,             ergebnis:"Comfortable, stable." },
+    { code:"SO9", typ:9, leidenschaft:"Sloth",              instinkt:"Social",             kategorie:"Countertype",    dialog:`${Q("I want to withdraw.")} &ndash; ${Q("I want to seem active.")}`,    ergebnis:"Busy, but other-directed." },
+    { code:"SX9", typ:9, leidenschaft:"Sloth",              instinkt:"Sexual",             kategorie:"Amplifier type", dialog:`${Q("I don't want to feel myself.")} &ndash; ${Q("I want to merge with the other.")}`, ergebnis:"Self-dissolution." },
   ];
 
   const filterBar = `
     <div class="tv-filterbar" style="margin-bottom:1.5rem;">
-      <button class="tv-filter is-active" data-typ="0">Alle</button>
-      ${[1,2,3,4,5,6,7,8,9].map(n => `<button class="tv-filter" data-typ="${n}" data-color="${TYPE_COLORS[n]}" style="border-color:${TYPE_COLORS[n]};color:${TYPE_COLORS[n]}">Typ ${n}</button>`).join("")}
+      <button class="tv-filter is-active" data-typ="0">All</button>
+      ${[1,2,3,4,5,6,7,8,9].map(n => `<button class="tv-filter" data-typ="${n}" data-color="${TYPE_COLORS[n]}" style="border-color:${TYPE_COLORS[n]};color:${TYPE_COLORS[n]}">Type ${n}</button>`).join("")}
     </div>
   `;
 
-  const kategorieKlasse = k => k === "Kontratyp" ? "td-kt--contra" : k === "Verstärkungstyp" ? "td-kt--verst" : "td-kt--normal";
+  const kategorieKlasse = k => k === "Countertype" ? "td-kt--contra" : k === "Amplifier type" ? "td-kt--verst" : "td-kt--normal";
 
   const rows = DIALOGE.map(d => `
     <tr class="td-row" data-typ="${d.typ}">
@@ -37814,27 +37814,27 @@ function tischdialogePage() {
   return shell(`
     ${pageHeader("tischdialoge")}
     <div class="schaubild-page">
-      <h1 class="schaubild-page__title">Tischdialoge der 27 Subtypees</h1>
-      <p class="schaubild-page__intro">Jeder Subtype führt einen inneren &bdquo;Tischdialog" zwischen seiner Leidenschaft und seinem Instinkt. Das Ergebnis zeigt, wie dieser Konflikt im Verhalten sichtbar wird.</p>
+      <h1 class="schaubild-page__title">Table Dialogues of the 27 Subtypes</h1>
+      <p class="schaubild-page__intro">Each subtype carries on an inner "table dialogue" between its passion and its instinct. The result reveals how this conflict becomes visible in behaviour.</p>
       ${filterBar}
       <div class="td-table-wrap">
         <table class="td-table">
           <thead>
             <tr>
               <th>Subtype</th>
-              <th>Leidenschaft</th>
-              <th>Instinkt</th>
-              <th>Kategorie</th>
-              <th>Dialog → Ergebnis</th>
+              <th>Passion</th>
+              <th>Instinct</th>
+              <th>Category</th>
+              <th>Dialogue → Result</th>
             </tr>
           </thead>
           <tbody id="td-tbody">${rows}</tbody>
         </table>
       </div>
       ${relatedLinks([
-        {route:"subtypen-schaubilder", label:"Subtypee Charts"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
-        {route:"antriebskraefte", label:"Antriebskr\xe4fte"},
+        {route:"subtypen-schaubilder", label:"Subtype Charts"},
+        {route:"bedeutung-27-subtypen", label:"Meaning of the 27 Subtypes"},
+        {route:"antriebskraefte", label:"Driving Forces"},
       ])}
     </div>
   `);
