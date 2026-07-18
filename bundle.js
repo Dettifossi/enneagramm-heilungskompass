@@ -4522,13 +4522,6 @@ function bindEvents() {
     });
   });
 
-  document.querySelectorAll("[data-situ-lang]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      situKompState.langEN = btn.dataset.situLang === "en";
-      app.innerHTML = situationskompasPage();
-      bindEvents();
-    });
-  });
 
   document.querySelectorAll("[data-krisen-typ]").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -32271,7 +32264,7 @@ function situationskompasPage() {
   const profCode = getProfile().toUpperCase();
   const activeSubtype = situKompState.subtypeCode || (SUBTYPES.includes(profCode) ? profCode : "SE1");
   const activeSitu = situKompState.situId;
-  const langEN = situKompState.langEN || false;
+  const langEN = location.pathname.startsWith('/en');
 
   const situationen = SITUATIONSKOMPASS.situationen;
   const eintraege = SITUATIONSKOMPASS.eintraege;
@@ -32318,10 +32311,6 @@ function situationskompasPage() {
               <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;">Situationskompass &middot; ${activeSubtype}</div>
               <div style="font-size:1.05rem;font-weight:700;color:var(--ink);">${situ.label}</div>
             </div>
-          </div>
-          <div style="display:flex;justify-content:flex-end;margin-bottom:.75rem;">
-            <button data-situ-lang="de" style="padding:.25rem .6rem;border-radius:.35rem 0 0 .35rem;border:1.5px solid var(--line);border-right:none;background:${!langEN ? 'var(--copper)' : 'var(--paper)'};color:${!langEN ? '#fff' : 'var(--ink)'};font-size:.72rem;font-weight:600;cursor:pointer;font-family:inherit;">DE</button>
-            <button data-situ-lang="en" style="padding:.25rem .6rem;border-radius:0 .35rem .35rem 0;border:1.5px solid var(--line);background:${langEN ? 'var(--copper)' : 'var(--paper)'};color:${langEN ? '#fff' : 'var(--ink)'};font-size:.72rem;font-weight:600;cursor:pointer;font-family:inherit;">EN</button>
           </div>
           <div style="display:grid;gap:.85rem;">
             <div style="border-left:3px solid color-mix(in srgb,var(--copper) 45%,var(--line));padding:.75rem 1rem;background:color-mix(in srgb,var(--copper) 5%,var(--paper));border-radius:0 .5rem .5rem 0;">

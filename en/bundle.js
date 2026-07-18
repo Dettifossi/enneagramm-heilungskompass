@@ -6,7 +6,7 @@ import { MOTIVTEST } from "../data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
-import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=8";
+import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries } from "../data/register.js?v=21";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
@@ -36013,15 +36013,15 @@ function situationskompasPage() {
           <div style="display:grid;gap:.85rem;">
             <div style="border-left:3px solid color-mix(in srgb,var(--copper) 45%,var(--line));padding:.75rem 1rem;background:color-mix(in srgb,var(--copper) 5%,var(--paper));border-radius:0 .5rem .5rem 0;">
               <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">Autopilot</div>
-              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${entry.autopilot}</p>
+              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${entry.autopilotEN || entry.autopilot}</p>
             </div>
             <div style="border-left:3px solid var(--copper);padding:.75rem 1rem;background:color-mix(in srgb,var(--copper) 8%,var(--paper));border-radius:0 .5rem .5rem 0;">
-              <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.07em;color:var(--copper);font-weight:700;margin-bottom:.4rem;">Bewusstheit</div>
-              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);font-style:italic;">${entry.bewusstheit}</p>
+              <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.07em;color:var(--copper);font-weight:700;margin-bottom:.4rem;">Awareness</div>
+              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);font-style:italic;">${entry.bewusstheitEN || entry.bewusstheit}</p>
             </div>
             <div style="border-left:3px solid color-mix(in srgb,var(--copper) 65%,#2d6a4f);padding:.75rem 1rem;background:color-mix(in srgb,var(--copper) 6%,var(--paper));border-radius:0 .5rem .5rem 0;">
-              <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.07em;color:color-mix(in srgb,var(--copper) 70%,#2d6a4f);font-weight:700;margin-bottom:.4rem;">&Uuml;bung</div>
-              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${entry.uebung}</p>
+              <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.07em;color:color-mix(in srgb,var(--copper) 70%,#2d6a4f);font-weight:700;margin-bottom:.4rem;">Exercise</div>
+              <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${entry.uebungEN || entry.uebung}</p>
             </div>
           </div>
         </div>`;
