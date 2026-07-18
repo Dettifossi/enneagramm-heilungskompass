@@ -35982,7 +35982,7 @@ function situationskompasPage() {
         ${!hasData ? "disabled" : ""}
         style="display:flex;flex-direction:column;align-items:center;gap:.3rem;padding:.75rem .5rem;border-radius:.75rem;border:1.5px solid ${borderColor};background:${bg};cursor:${cursor};opacity:${opacity};font-family:inherit;transition:border-color .15s,background .15s;">
         <span style="font-size:1.4rem;">${s.icon}</span>
-        <span style="font-size:.72rem;font-weight:600;color:${textColor};text-align:center;line-height:1.25;">${s.label}${!hasData ? '<br><span style="font-size:.65rem;color:var(--muted);font-weight:400;">bald</span>' : ''}</span>
+        <span style="font-size:.72rem;font-weight:600;color:${textColor};text-align:center;line-height:1.25;">${s.labelEN || s.label}${!hasData ? '<br><span style="font-size:.65rem;color:var(--muted);font-weight:400;">soon</span>' : ''}</span>
       </button>`;
   }).join("");
 
@@ -36006,8 +36006,8 @@ function situationskompasPage() {
           <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:1.1rem;">
             <span style="font-size:1.5rem;">${situ.icon}</span>
             <div>
-              <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;">Situationskompass &middot; ${activeSubtypee}</div>
-              <div style="font-size:1.05rem;font-weight:700;color:var(--ink);">${situ.label}</div>
+              <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;">Situation Compass &middot; ${activeSubtypee}</div>
+              <div style="font-size:1.05rem;font-weight:700;color:var(--ink);">${situ.labelEN || situ.label}</div>
             </div>
           </div>
           <div style="display:grid;gap:.85rem;">
@@ -36027,22 +36027,22 @@ function situationskompasPage() {
         </div>`;
     }
   } else {
-    resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">W&auml;hle eine Situation, um deinen pers&ouml;nlichen Impuls zu erhalten.</p>`;
+    resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">Choose a situation to receive your personal impulse.</p>`;
   }
 
   return shell(`
     ${pageHeader("situationskompass")}
     <section class="narrow">
-      <p class="eyebrow">Praxis &middot; Bewusste Impulse</p>
-      <h1>Situationskompass</h1>
-      <p class="lead-small">In welcher Lebenssituation steckst du gerade? W&auml;hle eine Situation und entdecke deinen typspezifischen Autopiloten &ndash; und den Bewusstseinsimpuls, der ihn aufweicht.</p>
+      <p class="eyebrow">Practice &middot; Conscious Impulses</p>
+      <h1>Situation Compass</h1>
+      <p class="lead-small">What situation are you navigating right now? Choose one and discover your type-specific autopilot&mdash;and the awareness impulse that softens it.</p>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin:1.5rem 0 1rem;">
         ${situGrid}
       </div>
       <details style="margin-bottom:1rem;">
         <summary style="font-size:.82rem;color:var(--muted);cursor:pointer;user-select:none;list-style:none;display:flex;align-items:center;gap:.4rem;">
-          <span style="color:var(--copper);font-weight:600;">Subtype wechseln</span>
-          <span style="font-size:.72rem;">&middot; aktuell: <strong>${activeSubtypee}</strong>${activeSubtypee === profCode ? " (mein Profil)" : ""}</span>
+          <span style="color:var(--copper);font-weight:600;">Switch subtype</span>
+          <span style="font-size:.72rem;">&middot; current: <strong>${activeSubtypee}</strong>${activeSubtypee === profCode ? " (my profile)" : ""}</span>
         </summary>
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;padding:.75rem 0 .25rem;">
           ${subtypeRow}
