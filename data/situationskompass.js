@@ -1371,9 +1371,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die Ablenkung nimmt zu. Noch eine Aktivität, noch ein Erlebnis, noch ein Gespräch – alles, um nicht bei der Erschöpfung anzukommen. Das funktioniert kurzfristig und erschöpft langfristig noch mehr.`,
         bewusstheit: `Wohin flüchtest du gerade – und was würdest du spüren, wenn du nicht flüchten würdest?`,
         uebung: `Sitz für zehn Minuten ohne Ablenkung. Wenn der Impuls kommt, etwas zu tun oder zu wechseln – beobachte ihn. Benenne ihn: "Das ist der Fluchtimpuls." Bleib.`,
-        autopilotEN: `Distraction is increasing. One more activity, one more experience, one more conversation – anything to avoid exhaustion. This works in the short term and is even more draining in the long term.`,
-        bewusstheitEN: `Where are you fleeing to right now - and what would you feel if you didn't flee?`,
-        uebungEN: `Sit for ten minutes without distractions. When the impulse comes to do something or change – observe it. Name it: "This is the impulse to flee." Stay.`
+        autopilotEN: `Stagnation feels utterly intolerable to your system: you instantly jump to the next concept, the next thrill, or the next elaborate plan. You aggressively fill the internal void before it has a single chance to say anything meaningful to you.`,
+        bewusstheitEN: `What if you deliberately chose not to fill the emptiness today—and instead waited to see what it wants to show you? What have you been tuning out up until now?`,
+        uebungEN: `Sit for half an hour today with no plan, no goal, and no distractions. When the internal restlessness inevitably hits, don't move. Just stay. Observe what is resting right beneath the noise.`
       },
       konflikt: {
         autopilot: `Im Konflikt tritt der Reframing-Impuls in Kraft: Das halb volle Glas wird betont, das Problem heruntergespielt, das Thema umgeleitet. Man möchte den Konflikt auflösen – ohne wirklich in ihn hineinzugehen.`,
@@ -1446,9 +1446,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Man opfert sich weiter für die Gruppe, die Aufgabe, die Gemeinschaft – weil das dem eigenen Schmerz eine höhere Bedeutung gibt. Die Erschöpfung bekommt einen edlen Rahmen, der das Innehalten überflüssig erscheinen lässt.`,
         bewusstheit: `Für wen opferst du dich gerade – und wäre es für diese Menschen wirklich gut, wenn du dich weiter erschöpfst?`,
         uebung: `Formuliere heute einen einzigen Satz, der mit "Ich tue das für mich, weil..." beginnt – nicht für die Gruppe, nicht für andere. Beobachte, ob und wie schwer das fällt.`,
-        autopilotEN: `You continue to sacrifice yourself for the group, the task, the community - because that gives your own pain greater meaning. The exhaustion is given a noble frame that makes pausing seem unnecessary.`,
-        bewusstheitEN: `Who are you sacrificing yourself for right now - and would it really be good for these people if you continued to exhaust yourself?`,
-        uebungEN: `Today, formulate a single sentence that begins with "I'm doing this for me because..." - not for the group, not for others. Observe whether and how difficult this is.`
+        autopilotEN: `You bridge the internal emptiness with grand visions and future plans: the next big project, the next adventure, the next source of meaning. The actual stagnation remains invisible behind your wall of ideas.`,
+        bewusstheitEN: `What if you chose not to map out a brand-new vision today—and instead just sat with the present moment? What is actually here right now?`,
+        uebungEN: `Spend an entire evening tonight without making any plans. No notebooks, no brainstorming. Just ask: *What is right now?* Let the answer emerge in total stillness.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird die Versöhnung, das gute Ende schnell in den Blick genommen – manchmal bevor der eigentliche Schmerz wirklich da war. Man möchte wieder in den hellen Raum.`,
@@ -1521,9 +1521,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die nächste Begeisterung, das nächste Projekt, die nächste intensive Verbindung – immer weiter. Erschöpfung wird mit Stimulation überschrieben. Der Motor läuft, auch wenn der Tank leer ist.`,
         bewusstheit: `Was käme zum Vorschein, wenn du aufhören würdest, das nächste Feuer zu suchen? Was liegt unter der Begeisterung, die du gerade verfolgst?`,
         uebung: `Setze heute eine einzige Begeisterung bewusst auf Pause. Sitz mit der Stille, die dann entsteht. Beobachte, was auftaucht – ohne es sofort in das nächste Vorhaben zu verwandeln.`,
-        autopilotEN: `The next enthusiasm, the next project, the next intense connection - on and on. Exhaustion is overwritten with stimulation. The engine runs even if the tank is empty.`,
-        bewusstheitEN: `What would emerge if you stopped looking for the next fire? What lies beneath the excitement you're currently pursuing?`,
-        uebungEN: `Today, consciously put a single enthusiasm on pause. Sit with the silence that then arises. Observe what comes up – without immediately turning it into the next project.`
+        autopilotEN: `Without high-intensity stimulation, ordinary life feels incredibly flat and stale. You frantically search for the next emotional high, the next magnetic encounter, or the next inner fire. The void of quiet emptiness feels almost impossible for you to tolerate.`,
+        bewusstheitEN: `What if the quiet right now is actually a much-needed breathing room, rather than the opposite of being alive? What would you hear if you just held still?`,
+        uebungEN: `Dedicate yourself to a single, simple activity today—like cooking, walking, or sketching—and practice being 100% present in it. No multi-tasking, no switching. Observe if something quiet opens up inside you.`
       },
       konflikt: {
         autopilot: `Im Konflikt kann die Energie plötzlich sehr gross werden – leidenschaftlich, überzeugt, fast begeistert für die eigene Position. Und dann, genauso plötzlich, lässt das Interesse nach, und man ist gedanklich schon woanders.`,
