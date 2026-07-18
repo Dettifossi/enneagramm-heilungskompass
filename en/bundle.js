@@ -35990,7 +35990,7 @@ function krisenkompassPage() {
         </div>
 
         <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .75rem;">Andere Situationen f&uuml;r Typ ${krisenState.typNr}</p>
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .75rem;">Other Situations for Type ${krisenState.typNr}</p>
           <div style="display:flex;flex-direction:column;gap:.5rem;">
             ${KRISEN[krisenState.typNr].filter(k => k.id !== krisenState.krisenId).map(k => `
             <button data-krisen-id="${k.id}" style="text-align:left;padding:.7rem 1rem;border:1px solid var(--line);border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--ink);cursor:pointer;">
