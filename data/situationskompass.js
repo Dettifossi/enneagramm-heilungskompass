@@ -1071,9 +1071,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Der Rückzug aus der Verbindung beginnt – auch aus der, die einem wichtig ist. Man braucht Stille und Raum, aber dieser Rückzug verschärft die innere Isolation, anstatt sie aufzulösen.`,
         bewusstheit: `Ziehst du dich gerade von Menschen zurück, um Energie zu sparen – oder entgehst du damit auch dem, was Verbindung dir jetzt geben könnte?`,
         uebung: `Schreibe einen kurzen Brief an jemanden, dem du nahestehst – auch wenn du ihn nicht absendest. Lass darin dein echtes Inneres sprechen. Beobachte, was das in dir bewegt.`,
-        autopilotEN: `The withdrawal from the connection begins - even from the one that is important to you. You need silence and space, but this withdrawal exacerbates the inner isolation instead of dissolving it.`,
-        bewusstheitEN: `Are you currently withdrawing from people to save energy - or are you also missing out on what connection could give you now?`,
-        uebungEN: `Write a short letter to someone you are close to - even if you don't send it. Let your true inner self speak. Observe what this moves within you.`
+        autopilotEN: `Without an all-consuming relationship or a deeply intense project to occupy your mind, your life feels incredibly flat. You sit around waiting for that one special topic or that one electric encounter to make everything feel alive again—missing what is right in front of you.`,
+        bewusstheitEN: `What is actually present in your life right now, even if it doesn't feel like the most thrilling thing in the world? Is there a tiny, ordinary step worth taking?`,
+        uebungEN: `Connect briefly with someone who matters to you today—keep it short, with no pressure to force a deep conversation. Sometimes, feeling alive begins with a single, simple spark of contact.`
       },
       konflikt: {
         autopilot: `Im Konflikt zeigt sich entweder überraschende Intensität – eine plötzliche, tiefe Reaktion – oder vollständiges Abschalten. Beide Extreme können den anderen verwirren.`,
@@ -1146,9 +1146,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Der Körper sendet Erschöpfungssignale – und der Geist beginnt sofort, sie zu analysieren. Sind das normale Zeichen der Müdigkeit oder etwas Besorgniserregendes? Die Suche nach Sicherheit in der Unsicherheit kostet weitere Energie.`,
         bewusstheit: `Was wäre, wenn du den Erschöpfungssignalen deines Körpers ohne Analyse vertrauen würdest – einfach als Tatsache: Ich bin jetzt müde, und das reicht als Antwort?`,
         uebung: `Wenn ein Gedanke kommt, der deine Erschöpfung analysieren oder absichern will, benenne ihn leise: "Das ist der Sicherheitsimpuls." Atme. Lass ihn ziehen, ohne ihm zu folgen.`,
-        autopilotEN: `The body sends signals of exhaustion - and the mind immediately begins to analyze them. Are these normal signs of fatigue or something worrying? The search for security in uncertainty costs additional energy.`,
-        bewusstheitEN: `What if you trusted your body's fatigue signals without analysis - just as a fact: I'm tired now, and that's enough of an answer?`,
-        uebungEN: `When a thought comes that wants to analyze or protect your exhaustion, name it quietly: "This is the safety impulse." Breathe. Let him go without following him.`
+        autopilotEN: `Stagnation triggers intense anxiety: What if things stay like this forever? What if I'm falling behind everyone else? Worrying about the future makes the present standstill feel unbearable. You try to find safety by building elaborate plans instead of grounding yourself in the now.`,
+        bewusstheitEN: `What if you are neither moving forward nor falling behind right now—but simply conserving your energy and gathering strength? Could this standstill actually be a necessary rest?`,
+        uebungEN: `Today, write down a list of what is currently stable and reliable in your life. Don't focus on what is missing—focus on what is holding you up. Read that list to yourself three times.`
       },
       konflikt: {
         autopilot: `Im Konflikt kann Angst entstehen – Angst vor dem Verlust der Beziehung, vor dem Chaos, vor dem Falschen. Das zeigt sich entweder als Absicherungssuche oder als Verhärtung: Ich bin im Recht und werde das verteidigen.`,
@@ -1221,9 +1221,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die Pflichten bleiben – auch wenn die Energie fehlt. Das System trägt einen: man folgt den Routinen, den Strukturen, den Erwartungen. Aufhören würde bedeuten, das System oder die Gemeinschaft zu enttäuschen.`,
         bewusstheit: `Welche Pflichten trägst du gerade, weil du sie wirklich für richtig hältst – und welche trägst du, weil du Angst vor den Konsequenzen des Nicht-Tragens hast?`,
         uebung: `Wähle heute eine einzige Pflicht bewusst aus und frage dich: Tue ich das aus innerer Überzeugung – oder aus Angst? Lass die Antwort auftauchen, ohne sofort zu handeln.`,
-        autopilotEN: `The duties remain – even if there is no energy. The system supports you: you follow the routines, the structures, the expectations. Quitting would mean failing the system or the community.`,
-        bewusstheitEN: `Which responsibilities are you currently carrying because you really believe they are right - and which are you carrying because you are afraid of the consequences of not carrying them?`,
-        uebungEN: `Today, consciously choose a single duty and ask yourself: Am I doing this out of inner conviction - or out of fear? Let the answer emerge without acting immediately.`
+        autopilotEN: `Without a clear group task or a sense of belonging to a system, you face a sudden loss of direction: *What is my role? Where do I fit in?* You frantically search for external structure and alignment instead of looking for internal direction.`,
+        bewusstheitEN: `What if you are important right now not because of a group or a structure—but simply for your own sake? What value do you carry within yourself?`,
+        uebungEN: `Do something today that belongs entirely to you—not a project for the group, and not a contribution for others. Just for you. Observe how that feels.`
       },
       konflikt: {
         autopilot: `Im Konflikt wird auf das verwiesen, was üblich ist, was die Gruppe erwartet, was die Regeln sagen. Die eigene Position wird weniger als persönliche Meinung formuliert, sondern als das, was man eben tut.`,
@@ -1296,9 +1296,9 @@ export const SITUATIONSKOMPASS = {
         autopilot: `Die Erschöpfung schlägt um in Aggression oder plötzliche Überaktivität – man kämpft gegen sie an, statt sie anzuerkennen. Oder der Einbruch kommt unvermittelt und überrascht einen selbst.`,
         bewusstheit: `Was sagst du dir gerade, um nicht innehalten zu müssen? Und wovor schützt dieses Weiterkämpfen dich eigentlich?`,
         uebung: `Halte an einem Punkt des Tages bewusst inne – nicht weil du musst, sondern weil du es wählst. Bleibe einen Moment in dieser gewählten Stille. Beobachte, was auftaucht.`,
-        autopilotEN: `The exhaustion turns into aggression or sudden overactivity - you fight against it instead of acknowledging it. Or the break-in comes suddenly and takes you by surprise.`,
-        bewusstheitEN: `What are you telling yourself right now to avoid having to pause? And what does continuing to fight actually protect you from?`,
-        uebungEN: `At some point in the day, consciously pause - not because you have to, but because you choose to. Stay in this chosen silence for a moment. Watch what emerges.`
+        autopilotEN: `Stagnation triggers a tense cycle of paralysis and rebellion: you either aggressively fight against the standstill and run blindly forward, or you freeze up completely. You rarely allow yourself to just tolerate the internal emptiness.`,
+        bewusstheitEN: `What if you chose neither to fight nor to freeze today—but simply sat still and watched whatever comes up?`,
+        uebungEN: `Pause right in the middle of the emptiness today. Spend ten minutes completely free of distractions. Then ask yourself: *What is quietly calling out from the depths?* Write it down.`
       },
       konflikt: {
         autopilot: `Im Konflikt kann die Energie nach aussen schlagen – konfrontativ, direkt, herausfordernd. Manchmal testet man dabei, ob der andere wirklich standhalt. Das kann eskalieren.`,
