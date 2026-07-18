@@ -1344,7 +1344,7 @@ const COUNTRY_NAME_DE = {
 window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
   
-function translateReview(btn) {
+window.translateReview = function(btn) {
   var card = btn.closest('[data-review-card]');
   var textEl = card.querySelector('[data-review-text]');
   if (btn.dataset.translated === '1') {
