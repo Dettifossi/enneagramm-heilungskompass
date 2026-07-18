@@ -698,6 +698,19 @@ text.routes.tools.suffix       = "Tools";
 text.routes.tools.headline     = "What helps me today?";
 text.routes.tools.healingCompassText = "Homeopathy, Bach flowers, Schüßler salts, gemstones and herbal teas — attuned to your subtype.";
 text.routes.tcm.elementLabel  = "Element";
+// EN: knowledge route text
+text.routes.knowledge = { eyebrow: "Knowledge Database", headline: "Knowledge Base" };
+// EN: status labels
+text.statusLabels.curated_draft = "curated draft";
+text.statusLabels.needs_review  = "needs review";
+text.coverageStatusLabels.vollstaendig_angelegt = "fully set up";
+text.coverageStatusLabels.basis_angelegt        = "basis set up";
+text.coverageStatusLabels.offen                 = "open";
+// EN: knowledgePrototype text overrides
+knowledgePrototype.source = "PDF card set and architecture notes, prepared as a structured knowledge base";
+knowledgePrototype.typeBlock.title  = "Type 1 to Type 9 · Knowledge Base in Progress";
+knowledgePrototype.typeBlock.status = "27 Subtypes visible";
+knowledgePrototype.typeBlock.note   = "Cards show curated drafts from uploaded screenshots. Animal archetypes are intentionally kept as background fields.";
 text.routes.tcm.organzeitLabel = "Organ Time";
 text.routes.tcm.polaritaetLabel = "Polarity";
 text.routes.tcm.leitorganLabel = "Key Organ";
