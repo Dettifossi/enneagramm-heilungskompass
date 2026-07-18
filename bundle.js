@@ -1343,7 +1343,31 @@ const COUNTRY_NAME_DE = {
 
 window._bewertungSenden = _bewertungSenden;
 function _bewertungSterneInit() {
-  // Freigegebene Bewertungen laden
+  
+function translateReview(btn) {
+  var card = btn.closest('[data-review-card]');
+  var textEl = card.querySelector('[data-review-text]');
+  if (btn.dataset.translated === '1') {
+    textEl.textContent = textEl.dataset.orig;
+    btn.textContent = '🌐 Übersetzen';
+    btn.dataset.translated = '0';
+    return;
+  }
+  var orig = textEl.textContent;
+  textEl.dataset.orig = orig;
+  btn.textContent = '…';
+  fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(orig))
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      var result = d[0].map(function(s) { return s[0]; }).join('');
+      textEl.textContent = result;
+      btn.textContent = '↩ Original';
+      btn.dataset.translated = '1';
+    })
+    .catch(function() { btn.textContent = '🌐 Übersetzen'; });
+}
+
+// Freigegebene Bewertungen laden
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
     headers: { 'X-Master-Key': JSONBIN_KEY } })
     .then(function(r){ return r.json(); })
@@ -1357,12 +1381,13 @@ function _bewertungSterneInit() {
         const displayText = b.text_de || b.text || '';
         const landDisplay = b.countryCode ? (COUNTRY_NAME_DE[b.countryCode] || b.land || '') : (b.land || '');
         const meta = [b.name, landDisplay || null].filter(Boolean).join(' · ');
-        return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;">' +
+        return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;" data-review-card>' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
           (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
-          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;">' + displayText + '</p>' +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text>' + displayText + '</p>' +
+          '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Übersetzen</button>' +
           '</div>';
       }).join('');
       section.style.display = 'block';
