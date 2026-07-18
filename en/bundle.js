@@ -1135,7 +1135,7 @@ function pageHeader(active) {
         <span>${text.meta.appTitle}</span>
       </button>
       ${nav(active)}
-      <a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">DE</a>
+      <a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">🇩🇪 DE</a>
     </header>
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
@@ -1892,7 +1892,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">DE</a></div>
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">🇩🇪 DE</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>

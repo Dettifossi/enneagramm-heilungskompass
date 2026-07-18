@@ -13149,7 +13149,7 @@ function dennisNilsenPortraitPage() {
         Die selbsterhaltende Eins braucht einen perfekten, geordneten privaten Raum.
         Der Zweierflügel braucht Verbindung, Wärme, das Gefühl, gebraucht zu werden.
         Beide zusammen erzeugten bei Nilsen eine unerträgliche Spannung:
-        Er konnte Menschen nicht wirklich binden – und konnte das Endenvon Verbindungen nicht ertragen.
+        Er konnte Menschen nicht wirklich binden – und konnte das Enden von Verbindungen nicht ertragen.
         Der Adler, der keinen Horst hat, kreist endlos.
         Nilsen baute sich einen – aus dem, was er nicht gehen lassen konnte.
         </p>
