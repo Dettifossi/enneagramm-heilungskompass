@@ -5159,6 +5159,7 @@ export const uiText = {
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
       { route: "tierlexikon", label: "Tierlexikon" },
+      { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (f\xfcr Fortgeschrittene)" },
     ]},
     { route: "schaubilder", label: "Schaubilder", dropdown: [
       { route: "60-sekunden-scan", label: "60-Sekunden-Scan" },
