@@ -1894,6 +1894,29 @@ function _bewertungSenden() {
     .catch(function() {});
 }
 
+function neuigkeitenSection() {
+  if (typeof CHANGELOG === 'undefined' || !CHANGELOG.length) return '';
+  const SEEN_KEY = 'kompass:changelog-seen';
+  const lastSeen = localStorage.getItem(SEEN_KEY) || '';
+  const neu = CHANGELOG.filter(e => e.date > lastSeen);
+  if (!neu.length) return '';
+  const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b).date;
+  localStorage.setItem(SEEN_KEY, latest);
+  const items = neu.map(e =>
+    `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
+      <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
+      <span>${e.text_en || e.text}</span>
+    </li>`
+  ).join('');
+  return `
+    <section style="max-width:520px;margin:0 auto 1.4rem;padding:0 1rem;">
+      <div style="border-left:3px solid var(--copper,#b87830);border-radius:0 8px 8px 0;background:var(--paper-deep,#ede8dc);padding:0.9rem 1.1rem;">
+        <p style="font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--copper,#b87830);margin:0 0 0.5rem;">New since your last visit</p>
+        <ul style="list-style:none;margin:0;padding:0;font-size:0.88rem;color:var(--ink,#2c2824);line-height:1.5;">${items}</ul>
+      </div>
+    </section>`;
+}
+
 function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
@@ -1934,6 +1957,8 @@ function startPage() {
       <div class="hero__actions">${returnActions}</div>
       ${profileGlimpse}
     </section>
+
+    ${neuigkeitenSection()}
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
