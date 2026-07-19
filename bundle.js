@@ -11969,7 +11969,7 @@ function _homoeopathieFallPage(f) {
         <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">&larr; Alle Fallberichte</button>
         <p class="eyebrow" style="color:${col};">Wissen &middot; Hom\xf6opathie &middot; Typ ${f.typ}</p>
         <h1 style="font-family:'EB Garamond',serif;font-size:1.9rem;color:var(--ink);margin:0.3rem 0 0.2rem;line-height:1.2;">${f.krankheit}</h1>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.6rem;">${f.titel} (${f.subtyp}) &middot; Grundleidenschaft: ${leidenschaft} &middot; Heilmittel: <strong style="color:${col};">${f.heilmittel}</strong></p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.6rem;">${f.titel} &middot; Grundleidenschaft: ${leidenschaft} &middot; Heilmittel: <strong style="color:${col};">${f.heilmittel}</strong></p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.6rem;">
           <p class="vb-intro">${f.fallbeschreibung}</p>
