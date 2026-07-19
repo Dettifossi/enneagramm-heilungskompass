@@ -9504,7 +9504,7 @@ function michelleObamaPortraitPage() {
           <img src="./assets/portraits/beruehmte-michelle-obama-portrait.jpg" alt="Michelle Obama" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michelle Obama</p>
-        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenflügel</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
         <p class="krim-portrait-subtitle">Anwältin, Autorin &amp; ehemalige First Lady der USA, geb. 1964 &ndash; Tierentsprechung: Löwe</p>
       </div>
       <div class="page-content">
@@ -9521,10 +9521,10 @@ function michelleObamaPortraitPage() {
           <p class="vb-intro">Michelle Obama wuchs auf der South Side von Chicago auf, in einer Arbeiterfamilie. Ihr Vater Fraser Robinson arbeitete trotz multipler Sklerose jahrzehntelang im Schichtdienst und verpasste keinen einzigen Arbeitstag. Diese Loyalität prägte sie: Man kämpft für die, die man liebt. Man lässt niemanden zurück. Sie studierte in Princeton und Harvard, aber sie verleugnete nie, woher sie kam &ndash; und diese Verwurzelung ist typisch für die SO8. Die Stärke kommt aus dem Wir, nicht trotz ihm.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenflügel: Licht in der Stärke</h2>
+        <h2 class="vb-section">3. Der Siebenerflügel: Licht in der Stärke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenflügel</strong> verleiht der sozialen Acht etwas Besonderes: Wärme, Optimismus, Beweglichkeit. Die SO8w9 ist erdiger, ruhiger, geduldiger. Die <strong>SO8w7</strong> ist lebendiger, mitreißender, enthusiastischer. Sie kann Menschen bewegen &ndash; im wörtlichen und im übertragenen Sinne.</p>
-          <p class="vb-intro">Michelle Obamas berühmte DNC-Rede 2016 &ndash; <em>„When they go low, we go high“</em> &ndash; ist ein Satz des Siebenflügels. Die Acht sagt: Ich bin stärker. Die Sieben sagt: Wir steigen auf. Zusammen entsteht eine Energie, die weder naiv noch zynisch ist: Sie weiß, wie hart die Welt ist &ndash; und wählt trotzdem das Licht. Ihre Kampagnen als First Lady &ndash; <em>Let’s Move!</em>, <em>Reach Higher</em>, <em>Let Girls Learn</em> &ndash; haben alle diesen Ton: fordernd und einladend zugleich.</p>
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht etwas Besonderes: Wärme, Optimismus, Beweglichkeit. Die SO8w9 ist erdiger, ruhiger, geduldiger. Die <strong>SO8w7</strong> ist lebendiger, mitreißender, enthusiastischer. Sie kann Menschen bewegen &ndash; im wörtlichen und im übertragenen Sinne.</p>
+          <p class="vb-intro">Michelle Obamas berühmte DNC-Rede 2016 &ndash; <em>„When they go low, we go high“</em> &ndash; ist ein Satz des Siebenerflügels. Die Acht sagt: Ich bin stärker. Die Sieben sagt: Wir steigen auf. Zusammen entsteht eine Energie, die weder naiv noch zynisch ist: Sie weiß, wie hart die Welt ist &ndash; und wählt trotzdem das Licht. Ihre Kampagnen als First Lady &ndash; <em>Let’s Move!</em>, <em>Reach Higher</em>, <em>Let Girls Learn</em> &ndash; haben alle diesen Ton: fordernd und einladend zugleich.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Wollust als Einsatz</h2>
@@ -11945,22 +11945,22 @@ function astrologieBorisBeckerPage() {
 function astrologieGerhardSchroederPage() {
   return _astrologiePage(
     { slug:"gerhard-schroeder", name:"Gerhard Schröder", subtyp:"SX8w7",
-      subtypLabel:"Sexueller Typ 8 mit Siebenflügel",
+      subtypLabel:"Sexueller Typ 8 mit Siebenerflügel",
       subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005" },
     `<h2 class="vb-section">SX8w7 – Der Instinktpolitiker der Macht</h2>
     <blockquote class="vb-blockquote">
-      <p class="vb-intro">Gerhard Schröder verkörpert das archetypische Profil der <strong>sexuellen Acht mit Siebenflügel (SX8w7)</strong> – den Herausforderer und Pionier. Die sexuelle Acht sucht den leidenschaftlichen Schlagabtausch, will dominieren und mitreißen. Der Siebenflügel bringt Charisma, strategischen Weitblick und die Lust am Lebensspiel.</p>
+      <p class="vb-intro">Gerhard Schröder verkörpert das archetypische Profil der <strong>sexuellen Acht mit Siebenerflügel (SX8w7)</strong> – den Herausforderer und Pionier. Die sexuelle Acht sucht den leidenschaftlichen Schlagabtausch, will dominieren und mitreißen. Der Siebenerflügel bringt Charisma, strategischen Weitblick und die Lust am Lebensspiel.</p>
     </blockquote>
     <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
     <div class="vb-section" style="max-width:100%;">
       <p class="vb-intro"><strong>Sonne im Zeichen Widder im 10. Haus:</strong> Das pure, feurige Impulsprinzip des Tierkreises. Das Horoskop beschreibt ihn als jemanden, der in „selbstverständlicher Annahme seines triumphalen Sieges in die Welt" geht. Wenn ihn etwas begeistert, ist er sofort „Feuer und Flamme".</p>
-      <p class="vb-intro"><strong>Merkur im Stier im 10. Haus (Siebenflügel):</strong> Solides, bodenständiges, absolut pragmatisches Denken. In politischen Auseinandersetzungen erlaubt dieser Stier-Merkur der Acht, Positionen „stur und beharrlich auszusitzen". Zudem verleiht er eine „schöne, wohltönende Stimme".</p>
+      <p class="vb-intro"><strong>Merkur im Stier im 10. Haus (Siebenerflügel):</strong> Solides, bodenständiges, absolut pragmatisches Denken. In politischen Auseinandersetzungen erlaubt dieser Stier-Merkur der Acht, Positionen „stur und beharrlich auszusitzen". Zudem verleiht er eine „schöne, wohltönende Stimme".</p>
       <p class="vb-intro"><strong>Venus im Zeichen Fische im 10. Haus:</strong> Auf dem gesellschaftlichen Parkett nutzt die Acht ihren „ganzen Charme", Verhandlungsgeschick und Diplomatie. Die Venus im 10. Haus lässt ihn das Rampenlicht genießen.</p>
       <p class="vb-intro"><strong>Aszendent Krebs, Mars im Krebs im 12. Haus:</strong> Ein weicher, beschützender Kern hinter der wuchtigen Fassade. Doch der verborgene Mars neigt bei Kränkungen zu emotionalen Überreaktionen.</p>
       <p class="vb-intro"><strong>MC Fische:</strong> Das Lebensziel konfrontiert die kontrollierende Acht mit der Aufgabe, enge Grenzen aufzulösen – das kämpferische Ego in den Dienst sozialer Belange zu stellen.</p>
     </div>
     <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Widder-Sonne im 10. Haus und sexuelle Acht bildeten die perfekte Symbiose für den unbedingten Willen zum Sieg. Der Stier-Merkur und der Siebenflügel lieferten die Ausdauer, um Krisen stur auszusitzen – kombiniert mit dem Talent, einflussreiche Netzwerke zu knüpfen.</p>
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Widder-Sonne im 10. Haus und sexuelle Acht bildeten die perfekte Symbiose für den unbedingten Willen zum Sieg. Der Stier-Merkur und der Siebenerflügel lieferten die Ausdauer, um Krisen stur auszusitzen – kombiniert mit dem Talent, einflussreiche Netzwerke zu knüpfen.</p>
     </div>`
   );
 }
@@ -22912,7 +22912,7 @@ function heinrichPommerenkePortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Heinrich Pommerenke</strong> wird der <strong>Sozialen Eins mit Neunflügel</strong>
+        <strong>Heinrich Pommerenke</strong> wird der <strong>Sozialen Eins mit Neunerflügel</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein tief verdrängter, moralischer Ärger über die Unvollkommenheit
         der Welt, der sich nach innen als rigider Perfektionismus
@@ -22921,7 +22921,7 @@ function heinrichPommerenkePortraitPage() {
         auf die eigene Person, sondern auf die gesamte Gesellschaft:
         Sie sieht sich als Hüterin der Ordnung, als Vollstreckerin
         des richtigen Weges – und als berechtigt, Verstöße zu ahnden.
-        Der Neunflügel fügt eine gefährliche Eigenschaft hinzu:
+        Der Neunerflügel fügt eine gefährliche Eigenschaft hinzu:
         emotionale Abspaltung, innere Starre und eine fast roboterhafte Nüchternheit,
         die es erlaubt, auch schwerste Taten zu begehen,
         ohne dass das eigene (beim Einser eigentlich riesige) Gewissen
@@ -22947,7 +22947,7 @@ function heinrichPommerenkePortraitPage() {
         klinische, fast mechanische Kälte auf.
         Er sprach über seine Taten wie ein Buchhalter über Zahlen –
         ohne Erregung, ohne Reue, ohne erkennbare Erschütterung.
-        Der Neunflügel dämpft die Affekte der Eins vollständig:
+        Der Neunerflügel dämpft die Affekte der Eins vollständig:
         Was beim 1w2 als hitziger Furor erscheinen kann,
         ist beim 1w9 zu emotionaler Taubheit geworden.
         Kein Feuer – nur Eis.</p>
@@ -22985,10 +22985,10 @@ function heinrichPommerenkePortraitPage() {
         <strong>Pommerenkes</strong> Planzahl zeigt, dass sein Wahn
         keine chaotische Triebentladung war,
         sondern eine durchstrukturierte innere Logik besaß.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Einfrieren statt Explodieren:</strong>
+        <p class="vb-intro"><strong>c) Neunerflügel: Einfrieren statt Explodieren:</strong>
         Dort, wo ein 1w2 emotional aufwallen würde,
         erstarrt der 1w9.
-        <strong>Pommerenkes</strong> Neunflügel ermöglichte eine
+        <strong>Pommerenkes</strong> Neunerflügel ermöglichte eine
         vollständige Dissoziation vom eigenen Handeln:
         Die Tat wurde nicht als Teil des Selbst erlebt,
         sondern als quasi-äußerlicher Vollzug eines Auftrags.
@@ -23056,7 +23056,7 @@ function heinrichPommerenkePortraitPage() {
         Für <strong>Pommerenke</strong> waren Frauen, die tanzten, lachten,
         lebten – Symbole der Unordnung.
         Der SO1er hält diese Logik für universal –
-        und der Neunflügel verhindert, dass das eigene Empfinden
+        und der Neunerflügel verhindert, dass das eigene Empfinden
         als Korrektiv eingreift.</p>
       </div>
 
@@ -23070,7 +23070,7 @@ function heinrichPommerenkePortraitPage() {
         <strong>Pommerenke</strong> wirkte auf Gesprächspartner
         weder einschüchternd noch warm –
         er wirkte weg. Als sei er nicht ganz anwesend.
-        Das ist die Neunflügel-Energie der Eins:
+        Das ist die Neunerflügel-Energie der Eins:
         nicht Feuer, sondern Permafrost.</p>
         <p class="vb-intro"><strong>b) Moralischer Druck ohne Wort:</strong>
         Die Eins sendet ständig ein stilles Signal aus:
@@ -23082,8 +23082,8 @@ function heinrichPommerenkePortraitPage() {
         Er bewertete alles, immer, automatisch.
         Kein Mensch in seinem Umfeld war einfach vorhanden –
         jeder war ein moralischer Fall.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Dissoziation als Energieschutz:</strong>
-        Der Neunflügel der Eins erzeugt eine spezifische
+        <p class="vb-intro"><strong>c) Neunerflügel: Dissoziation als Energieschutz:</strong>
+        Der Neunerflügel der Eins erzeugt eine spezifische
         Schutzmechanismus-Energie: das Betäuben des eigenen
         Innenlebens, um die innere Rigidität nicht spüren zu müssen.
         Für <strong>Pommerenke</strong> bedeutete das:
@@ -23108,7 +23108,7 @@ function heinrichPommerenkePortraitPage() {
         bis jemand die Grenze überschreitet.
         Dann reagieren sie ohne Zögern, ohne Verhältnismäßigkeit,
         mit voller Energie.
-        <strong>Pommerenkes</strong> Neunflügel entspricht der stillen Phase:
+        <strong>Pommerenkes</strong> Neunerflügel entspricht der stillen Phase:
         kaum sichtbar, kaum spürbar, fast nicht präsent.
         Doch sobald seine innere Ordnung ausgelöst wurde,
         gab es keine Bremse mehr – nur Ausführung.</p>
@@ -23134,7 +23134,7 @@ function heinrichPommerenkePortraitPage() {
         so unverblümt wie er: der Film, der Auftrag, die Zahl.
         Das ist nicht die Sprache des Impulses –
         das ist die Sprache einer Eins, die glaubt, recht zu haben.
-        Der Neunflügel ist der Schlüssel zur klinischen Kälte:
+        Der Neunerflügel ist der Schlüssel zur klinischen Kälte:
         er fror das Gewissen ein, bevor es Einspruch erheben konnte.
         Die jahrzehntelange Reue in der Haft ist kein Widerspruch –
         sie ist die Rückkehr des Einsers zu sich selbst,
@@ -23209,7 +23209,7 @@ function heinrichPommerenkePortraitPage() {
         das ist das helle Bild.
         Was Pommerenke zeigt, ist der Abgrund, der entsteht,
         wenn Moralüberzeugung zum Wahn wird
-        und der Neunflügel jedes innere Korrektiv einfriert.
+        und der Neunerflügel jedes innere Korrektiv einfriert.
         Er ist kein Beispiel für den Typ –
         er ist sein dunkelster Spiegel.</p>
       </div>
@@ -23275,7 +23275,7 @@ function paulOgorzowPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Paul Ogorzow</strong> wird der <strong>Selbsterhaltenden Eins mit Neunflügel</strong>
+        <strong>Paul Ogorzow</strong> wird der <strong>Selbsterhaltenden Eins mit Neunerflügel</strong>
         im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
         ein nach innen gekehrter, strukturierter Groll
         gegen die eigene Unvollkommenheit und die Unvollkommenheit der Welt.
@@ -23288,7 +23288,7 @@ function paulOgorzowPortraitPage() {
         harmlos. Das ist kein Zufall: Die SE1 maskiert
         ihre innere Anspannung durch übertriebene Korrektheit,
         weil Fehler – und damit Strafe – um jeden Preis vermieden werden müssen.
-        Der Neunflügel fügt die Fähigkeit zur vollständigen
+        Der Neunerflügel fügt die Fähigkeit zur vollständigen
         emotionalen Abspaltung hinzu: zwei Welten,
         hermetisch getrennt, niemals in Berührung.
         Ogorzows Fall zeigt, welch abgründige Doppelexistenz
@@ -23309,7 +23309,7 @@ function paulOgorzowPortraitPage() {
         Bei <strong>Ogorzow</strong> lief diese innere Buchführung
         vollständig verborgen.
         Nach außen keine Strenge, keine Kritik, kein Richterton.
-        Der Neunflügel dämpfte auch die nach außen gerichteten
+        Der Neunerflügel dämpfte auch die nach außen gerichteten
         Impulse der Eins vollständig:
         was andere als moralischen Furor erleben mögen,
         war bei ihm zu einem stillen, unsichtbaren inneren System geworden.</p>
@@ -23383,8 +23383,8 @@ function paulOgorzowPortraitPage() {
         Das vollkommene Ich kann keine Schuld tragen.
         Also muss die Schuld woanders liegen.
         Immer.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Das hermetische Doppelleben:</strong>
-        Der Neunflügel erlaubt dem SE1 eine Form
+        <p class="vb-intro"><strong>c) Neunerflügel: Das hermetische Doppelleben:</strong>
+        Der Neunerflügel erlaubt dem SE1 eine Form
         der Dissoziation, die für Außenstehende unbegreiflich ist:
         vollständige Trennung zweier Lebenswirklichkeiten,
         ohne dass eine die andere berührt oder stört.
@@ -23485,8 +23485,8 @@ function paulOgorzowPortraitPage() {
         von der eigenen inneren Norm.
         Wer diesen inneren Raum betrat, traf auf Eis,
         nicht auf Wärme.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Energie des stillen Abschaltens:</strong>
-        Der Neunflügel bringt eine spezifische energetische Qualität:
+        <p class="vb-intro"><strong>c) Neunerflügel: Energie des stillen Abschaltens:</strong>
+        Der Neunerflügel bringt eine spezifische energetische Qualität:
         das vollständige Abschalten des inneren Erlebens,
         wenn es unbequem wird.
         <strong>Ogorzow</strong> konnte offenbar nach den Taten
@@ -23548,7 +23548,7 @@ function paulOgorzowPortraitPage() {
         ist das präziseste Selbstporträt des SE1:
         Ich bin makellos. Der Fehler liegt woanders.
         Immer.
-        Der Neunflügel hat dafür gesorgt,
+        Der Neunerflügel hat dafür gesorgt,
         dass diese Überzeugung nie hinterfragt wurde –
         von innen nicht, und nach außen war nichts zu sehen.
         </p>
@@ -29079,14 +29079,14 @@ function flugzeugmodelleDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Airbus A-380: Präzision im großen Maßstab</h3>
         <p class="vb-intro">Der Airbus A-380 ist das größte Passagierflugzeug der Welt – und das präziseste. Entwickelt von über 1.500 Ingenieuren in sieben Ländern, trägt er bis zu 853 Passagiere über Distanzen von mehr als 15.000 Kilometern, mit einem Lärmpegel, der trotz seiner Größe leiser ist als viele kleinere Flugzeuge. Jede Niete, jede Schweißnaht, jede Systemredundanz folgt einem ausgefeilten Plan. Was den A-380 auszeichnet, ist nicht bloße Größe, sondern die Konsequenz, mit der er seinen Auftrag erfüllt: zuverlässig, leise, effizient – alles an seinem richtigen Platz. Das Prinzip des Enneagrammtyps 1: Größe verpflichtet. Der A-380 ist nicht deshalb der beste, weil er der größte ist – sondern weil er in seiner Größe keine Abstriche bei der Präzision macht.</p>
-        <p class="vb-intro">Der vielleicht eindrucksvollste Beweis für diese Verbindung ist Prinz Al-Waleed bin Talal – saudi-arabischer Milliardär, einer der reichsten Menschen der Welt und vom Enneagramm her nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neuner-Flügel (SE1w9). Er ließ einen Airbus A-380 zu einem fliegenden Palast ausbauen: mit Thronsaal, Konzertflügel, Schlafgemächern, einer Garage für sein Auto und einem Aufenthaltsbereich, der einem Fünf-Sterne-Hotel entspricht. Das ist nicht Protzerei – das ist die Selbsterhaltungs-Eins in ihrer reinsten Form: vollständig vorbereitet sein, alles Notwendige immer dabei haben, auf keine äußere Ressource angewiesen sein. Ein Konzertflügel an Bord – das ist kein Zufall, sondern ein Statement des Typ-1-Prinzips: Der Flügel ist das vielleicht präziseste Instrument der klassischen Musik, gebaut auf hundertstel Millimeter genau, gestimmt auf physikalische Gesetze, die keine Kompromisse dulden. Ob Al-Waleed selbst spielt oder schlicht die Gegenwart dieses Instruments als Ausdruck von Vollkommenheit schätzt – es gehört für ihn zur Grundausstattung. Er kommt nicht als König an. Er reist als König.</p>
+        <p class="vb-intro">Der vielleicht eindrucksvollste Beweis für diese Verbindung ist Prinz Al-Waleed bin Talal – saudi-arabischer Milliardär, einer der reichsten Menschen der Welt und vom Enneagramm her nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neunerflügel (SE1w9). Er ließ einen Airbus A-380 zu einem fliegenden Palast ausbauen: mit Thronsaal, Konzertflügel, Schlafgemächern, einer Garage für sein Auto und einem Aufenthaltsbereich, der einem Fünf-Sterne-Hotel entspricht. Das ist nicht Protzerei – das ist die Selbsterhaltungs-Eins in ihrer reinsten Form: vollständig vorbereitet sein, alles Notwendige immer dabei haben, auf keine äußere Ressource angewiesen sein. Ein Konzertflügel an Bord – das ist kein Zufall, sondern ein Statement des Typ-1-Prinzips: Der Flügel ist das vielleicht präziseste Instrument der klassischen Musik, gebaut auf hundertstel Millimeter genau, gestimmt auf physikalische Gesetze, die keine Kompromisse dulden. Ob Al-Waleed selbst spielt oder schlicht die Gegenwart dieses Instruments als Ausdruck von Vollkommenheit schätzt – es gehört für ihn zur Grundausstattung. Er kommt nicht als König an. Er reist als König.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Eurocopter EC-145: Hilfe, die kommt</h3>
         <p class="vb-intro">Der Eurocopter EC-145 ist der Rettungshubschrauber der deutschen Luftrettung – das rote Fahrzeug mit dem DRF-Logo, das Menschen in ihrer schlimmsten Stunde erreicht, wenn kein anderes Fahrzeug mehr rechtzeitig kommen kann. Er landet auf Berggipfeln, Autobahnen, engen Hofeinfahrten, Meeresstränden. Sein einziger Zweck: zum anderen kommen, so schnell wie möglich, und helfen. Der EC-145 hat keine Waffensysteme, keine Luxusausstattung, keinen Statuscharakter. Er ist vollständig auf den Anderen ausgerichtet. Das Prinzip des Enneagrammtyps 2: Das wichtigste Flugzeug ist nicht das schnellste oder das größte – sondern das, das kommt, wenn niemand sonst kommt.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Bombardier Global 6000: Erfolg auf Reisen</h3>
         <p class="vb-intro">Der Bombardier Global 6000 ist der Business-Jet der Weltklasse: 11.000 Kilometer Reichweite, bis zu 17 Passagiere, eine Kabine mit stehendem Innenraum, Schlafkojen und Konferenzbereich – und das alles in einer Reisezeit, die jeden kommerziellen Flug um Stunden schlägt. Er fliegt CEOs zu Übernahmeverhandlungen, Staatschefs zu Gipfeltreffen, Investoren zu ihren nächsten Deals. Der Global 6000 ist nicht nur Transportmittel – er ist ein Signal: Die Zeit dieser Person ist zu wertvoll, um sie mit anderen zu teilen. Das Prinzip des Enneagrammtyps 3: Effizienz ist keine Bequemlichkeit – sie ist Respekt vor dem eigenen Potenzial. Wer direkt ans Ziel fliegt, verliert keine Zeit an Zwischenlandungen.</p>
-        <p class="vb-intro">Larry Ellison – Gründer und langjähriger CEO von Oracle, einer der reichsten Menschen der Welt – ist ein sozialer Typ Drei mit Vierer-Flügel (SO3w4). Er besitzt mehrere Bombardier-Businessjets und nutzt sie als das, was sie für den sozialen Dreier sind: Bühne und Werkzeug zugleich. Der soziale Dreier will nicht nur erfolgreich sein – er will als erfolgreich wahrgenommen werden, will Maßstäbe setzen und andere inspirieren. Ellison ist bekannt dafür, dass er nicht nur Oracle aufbaute, sondern auch den America's Cup gewann, eine hawaiianische Insel kaufte und Tesla-Aktionär wurde – immer mit dem Anspruch, der Beste in dem zu sein, was er tut. Der Vierer-Flügel gibt ihm dabei eine ungewöhnliche Tiefe: Er ist nicht nur ehrgeizig, er ist auch ästhetisch – seine Yacht, sein Anwesen, sein Jet sind immer auch Ausdruck eines persönlichen Stils.</p>
+        <p class="vb-intro">Larry Ellison – Gründer und langjähriger CEO von Oracle, einer der reichsten Menschen der Welt – ist ein sozialer Typ Drei mit Viererflügel (SO3w4). Er besitzt mehrere Bombardier-Businessjets und nutzt sie als das, was sie für den sozialen Dreier sind: Bühne und Werkzeug zugleich. Der soziale Dreier will nicht nur erfolgreich sein – er will als erfolgreich wahrgenommen werden, will Maßstäbe setzen und andere inspirieren. Ellison ist bekannt dafür, dass er nicht nur Oracle aufbaute, sondern auch den America's Cup gewann, eine hawaiianische Insel kaufte und Tesla-Aktionär wurde – immer mit dem Anspruch, der Beste in dem zu sein, was er tut. Der Viererflügel gibt ihm dabei eine ungewöhnliche Tiefe: Er ist nicht nur ehrgeizig, er ist auch ästhetisch – seine Yacht, sein Anwesen, sein Jet sind immer auch Ausdruck eines persönlichen Stils.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Piper Cub: Freiheit in der Einfachheit</h3>
         <p class="vb-intro">Die Piper Cub ist das romantischste aller Flugzeuge: gelb, offen, langsam, dicht über den Baumwipfeln. Seit 1937 produziert und kaum verändert, ist sie das Flugzeug der Freigeister – der Farmer, die über ihre Felder fliegen, der Künstler, die Landschaften aus der Vogelperspektive erkunden, der Träumer, für die Fliegen kein Transport ist, sondern Ausdruck. Die Piper Cub fliegt bei offenem Fenster, der Wind kommt direkt ins Cockpit. Sie ist nicht schnell. Sie ist nicht komfortabel. Sie ist einzigartig in ihrer Einfachheit und genau deshalb unvergesslich. Das Prinzip des Enneagrammtyps 4: Das schönste Flugzeug ist nicht das leistungsstärkste – sondern das, das dem Piloten das Gefühl gibt, wirklich zu fliegen. Mit der Piper Cub berührt man den Himmel persönlich.</p>
@@ -29099,7 +29099,7 @@ function flugzeugmodelleDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Extra EA-300: Abenteuer in drei Dimensionen</h3>
         <p class="vb-intro">Die Extra EA-300 ist das spektakulärste Kunstflugzeug der Welt: gebaut für Figuren, die kein anderes Flugzeug überlebt, mit einer Belastbarkeit von +10/-10 G und einer Wendegeschwindigkeit, die Piloten zu Weltmeistern macht. Sie wurde von Walter Extra in Dinslaken entworfen – einem deutschen Ingenieur, der das Kunstfliegen als Hochleistungssport neu definierte. Extra EA-300-Piloten fliegen senkrechte Messerflüge, Rückenflug, Torques und Flatspin-Manöver, die dem Publikum den Atem verschlagen. Das Flugzeug lebt für den Moment, für die Freude am Können. Das Prinzip des Enneagrammtyps 7: Der Himmel ist kein Weg – er ist ein Spielfeld. Die Extra EA-300 verwandelt jeden Horizont in eine neue Möglichkeit.</p>
-        <p class="vb-intro">John Travolta – Schauspieler, Tänzer und leidenschaftlicher Pilot – ist eine sexuelle Sieben mit Achter-Flügel (SX7w8). Er besitzt mehrere Flugzeuge, flog jahrzehntelang selbst Boeing 707 und Gulfstream-Jets und hat das Fliegen als zweite Lebensidentität neben der Schauspielerei etabliert. Der sexuelle Siebener mit Achter-Flügel lebt Abenteuer intensiv und körperlich – nicht als Zuschauer, sondern als Akteur. Travolta wollte nicht nur in Filmen Helden spielen, er wollte selbst einer sein: am Steuer, in der Luft, mit vollem Körpereinsatz. Das Achter-Feuer gibt ihm dabei die Entschlossenheit, Grenzen zu überschreiten – auch im Cockpit. Die Extra EA-300 mit ihren ±10 G ist genau das richtige Flugzeug für jemanden, dem der Horizont nie weit genug ist.</p>
+        <p class="vb-intro">John Travolta – Schauspieler, Tänzer und leidenschaftlicher Pilot – ist eine sexuelle Sieben mit Achterflügel (SX7w8). Er besitzt mehrere Flugzeuge, flog jahrzehntelang selbst Boeing 707 und Gulfstream-Jets und hat das Fliegen als zweite Lebensidentität neben der Schauspielerei etabliert. Der sexuelle Siebener mit Achterflügel lebt Abenteuer intensiv und körperlich – nicht als Zuschauer, sondern als Akteur. Travolta wollte nicht nur in Filmen Helden spielen, er wollte selbst einer sein: am Steuer, in der Luft, mit vollem Körpereinsatz. Das Achter-Feuer gibt ihm dabei die Entschlossenheit, Grenzen zu überschreiten – auch im Cockpit. Die Extra EA-300 mit ihren ±10 G ist genau das richtige Flugzeug für jemanden, dem der Horizont nie weit genug ist.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – F-16 Fighting Falcon: Ungebändigte Luftüberlegenheit</h3>
         <p class="vb-intro">Die F-16 Fighting Falcon ist einer der erfolgreichsten Kampfjets der Geschichte: über 4.600 gebaut, in mehr als 25 Nationen im Einsatz, mit einer Kampfbilanz von über 70 Luftsiegen ohne einen einzigen Verlust im Luftkampf. Sie wurde in den 1970er Jahren entwickelt mit einer klaren Maxime: Überlegenheit durch Agilität. Die F-16 ist kleiner als viele ihrer Feinde, aber schneller, wendiger, direkter. Im Cockpit sitzt der Pilot in einem 30-Grad-Schleudersitz, der G-Kräfte bis 9 G ermöglicht – mehr als jeder andere Jet seiner Zeit. Sie kämpft, um zu gewinnen. Das Prinzip des Enneagrammtyps 8: Dominanz entsteht nicht durch Größe – sondern durch die Entschlossenheit, jeden Konfrontationsvorteil zu nutzen. Die F-16 fragt nicht. Sie handelt.</p>
@@ -29133,7 +29133,7 @@ function brillenmodelleDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Ray-Ban Clubmaster: Klassisch und zeitlos</h3>
         <p class="vb-intro">Die Ray-Ban Clubmaster ist eine der ikonischsten Brillen der Welt – und das seit 1965. Ihr Markenzeichen ist die Kombination aus Browline-Fassung oben und rahmenlosem Unterteil: eine klare Linie, nichts Überflüssiges, sofort erkennbar. Die Clubmaster trägt eine Geschichte in sich: Sie war die Brille der Intellektuellen, der Architekten, der Lehrer – Menschen, die Wert auf Form und Haltung legen. Sie wirkt ordentlich, ohne steif zu sein. Präzise, ohne kalt zu wirken. Das Prinzip des Enneagrammtyps 1: Die schönste Brille ist die, die genau das tut, was eine Brille tun soll – und dabei keine Aufmerksamkeit auf sich zieht. Die Clubmaster ist kein Accessoire. Sie ist eine Haltung.</p>
-        <p class="vb-intro">Malcolm X – Bürgerrechtler, Redner und einer der eindringlichsten moralischen Stimmen des 20. Jahrhunderts – trug die Clubmaster zu einer Zeit, als Brillen noch kein Modeaccessoire waren, sondern ein Zeichen von Ernsthaftigkeit und Haltung. Aus Sicht von Detlef Rathmer war Malcolm X ein sozialer Typ Eins mit Neuner-Flügel (SO1w9): ein Mensch mit unbedingtem moralischen Kompass, der sein Leben dem Kampf für das Richtige widmete – unerbittlich in seiner Überzeugung, aber mit einer Tiefe und Würde, die über bloße Empörung hinausging. Der Neuner-Flügel gab ihm jene ruhige, fast priesterliche Präsenz, die seine Reden so wirkungsvoll machte: Er schrie nicht – er stellte fest. Er wurde 1965 ermordet, mit 39 Jahren, mitten in einer Zeit des Wandels, den er mitangestoßen hatte. Die Clubmaster passte zu ihm wie keine andere Brille: klar, prinzipientreu, ohne Kompromiss.</p>
+        <p class="vb-intro">Malcolm X – Bürgerrechtler, Redner und einer der eindringlichsten moralischen Stimmen des 20. Jahrhunderts – trug die Clubmaster zu einer Zeit, als Brillen noch kein Modeaccessoire waren, sondern ein Zeichen von Ernsthaftigkeit und Haltung. Aus Sicht von Detlef Rathmer war Malcolm X ein sozialer Typ Eins mit Neunerflügel (SO1w9): ein Mensch mit unbedingtem moralischen Kompass, der sein Leben dem Kampf für das Richtige widmete – unerbittlich in seiner Überzeugung, aber mit einer Tiefe und Würde, die über bloße Empörung hinausging. Der Neunerflügel gab ihm jene ruhige, fast priesterliche Präsenz, die seine Reden so wirkungsvoll machte: Er schrie nicht – er stellte fest. Er wurde 1965 ermordet, mit 39 Jahren, mitten in einer Zeit des Wandels, den er mitangestoßen hatte. Die Clubmaster passte zu ihm wie keine andere Brille: klar, prinzipientreu, ohne Kompromiss.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Cat-Eye: Warm und einladend</h3>
         <p class="vb-intro">Die Cat-Eye-Brille entstand in den 1950er-Jahren und wurde schnell zum Symbol für Wärme, Charme und Zugewandtheit. Ihre nach oben geschwungenen Ecken geben dem Gesicht einen freundlichen, einladenden Ausdruck – als würde die Brille selbst lächeln. Sie ist weiblich konnotiert, ohne ausschließend zu sein, und steht für das Bedürfnis, gemocht zu werden und andere zu erfreuen. Interessant: Die Cat-Eye erlebt seit Jahren eine Renaissance – gerade weil sie in einer Welt der kühlen Minimalismus-Ästhetik Wärme ausstrahlt. Das Prinzip des Enneagrammtyps 2: Eine Brille, die das Gesicht öffnet, statt es zu rahmen. Die Cat-Eye macht den Träger zugänglicher – und das ist ihr eigentlicher Zweck.</p>
@@ -29143,7 +29143,7 @@ function brillenmodelleDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – John Lennon Round Glasses: Unverwechselbarer Ausdruck</h3>
         <p class="vb-intro">Die runden Brillen, die John Lennon ab Mitte der 1960er-Jahre trug, wurden zu einem der stärksten visuellen Symbole der Popkultur. Lennon wählte sie nicht wegen der Mode – er wählte sie, weil sie zu ihm passten: unkonventionell, sanft, ein bisschen verspielt, tief. Die John-Lennon-Brille ist nicht laut. Sie ist eigen. Sie wird von Menschen getragen, die nicht der Masse folgen wollen, die eine innere Welt haben, die größer ist als die äußere. In den 1990ern wurde sie wieder populär durch Alternativ-Künstler, Dichter, Musiker. Das Prinzip des Enneagrammtyps 4: Die Brille als Selbstausdruck. Nicht: Was ist modern? Sondern: Was bin ich? Die runde Brille sagt: Ich sehe die Welt anders.</p>
-        <p class="vb-intro">John Lennon selbst ist aus Sicht von Detlef Rathmer ein Prachtexemplar eines sozialen Typ Vier mit Fünfer-Flügel (SO4w5) – vielleicht die reinste Verkörperung dieses Subtyps in der Popgeschichte. Der soziale Vier kämpft nicht nur um seine eigene Identität, sondern trägt seinen Schmerz und seine Einzigartigkeit in die Welt hinaus – als künstlerischen und gesellschaftlichen Auftrag. Lennon schrieb keine persönlichen Lieder nur für sich: er schrieb „Imagine" für die Menschheit, „Working Class Hero" für die Unterdrückten, „Woman" als Liebeserklärung mit universalem Anspruch. Der Fünfer-Flügel gab ihm die Tiefe und Distanz des Beobachters – er analysierte die Welt, bevor er sie besang. Und seine runde Brille war das sichtbare Zeichen dieser inneren Haltung: Ich gehöre nicht dazu. Ich sehe euch – aber von einem anderen Platz aus.</p>
+        <p class="vb-intro">John Lennon selbst ist aus Sicht von Detlef Rathmer ein Prachtexemplar eines sozialen Typ Vier mit Fünferflügel (SO4w5) – vielleicht die reinste Verkörperung dieses Subtyps in der Popgeschichte. Der soziale Vier kämpft nicht nur um seine eigene Identität, sondern trägt seinen Schmerz und seine Einzigartigkeit in die Welt hinaus – als künstlerischen und gesellschaftlichen Auftrag. Lennon schrieb keine persönlichen Lieder nur für sich: er schrieb „Imagine" für die Menschheit, „Working Class Hero" für die Unterdrückten, „Woman" als Liebeserklärung mit universalem Anspruch. Der Fünferflügel gab ihm die Tiefe und Distanz des Beobachters – er analysierte die Welt, bevor er sie besang. Und seine runde Brille war das sichtbare Zeichen dieser inneren Haltung: Ich gehöre nicht dazu. Ich sehe euch – aber von einem anderen Platz aus.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Aviator: Analytischer Weitblick</h3>
         <p class="vb-intro">Die Aviator-Brille wurde 1936 von Bausch & Lomb für US-Militärpiloten entwickelt – mit einem einzigen Ziel: maximales Sichtfeld, minimale Ablenkung. Die tropfenförmigen Gläser decken das gesamte Gesichtsfeld ab und geben dem Träger das Gefühl, alles im Blick zu haben. Tom Cruise machte sie 1986 in „Top Gun" populär – aber ihre eigentliche Herkunft ist analytisch, nicht glamourös. Sie ist die Brille des Beobachters: präzise, funktional, auf Überblick ausgerichtet. Das Prinzip des Enneagrammtyps 5: Eine Brille, die ursprünglich dafür gebaut wurde, in großen Höhen alles zu sehen. Der Aviator ist kein Statement – er ist ein Werkzeug des Weitblicks.</p>
@@ -29153,7 +29153,7 @@ function brillenmodelleDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Bunte Retro-Brille: Freude und Lebendigkeit</h3>
         <p class="vb-intro">Die bunte Retro-Brille ist das genaue Gegenteil von Understatement: Sie kommt in Orange, Türkis, Lila, Schildpatt-Gemisch – und sie will gesehen werden. Sie greift Designs der 1960er und 70er Jahre auf und trägt sie mit Begeisterung in die Gegenwart. Wer eine bunte Retro-Brille trägt, hat eine Entscheidung getroffen: Ich mache das Leben zum Erlebnis. Auch das Sehen soll Freude machen. Elton John baute seine gesamte Bühnenidentität um seine Brillensammlung – Hunderte von Modellen, jedes ein Fest. Das Prinzip des Enneagrammtyps 7: Eine Brille darf feiern. Das Leben hat genug graue Momente – die Brille muss es nicht auch sein.</p>
-        <p class="vb-intro">Das bekannteste Gesicht hinter der bunten Brille ist ohne Zweifel Elton John – Musiker, Weltstar und Besitzer einer der außergewöhnlichsten Brillensammlungen der Geschichte: über 250.000 Brillen, darunter herzförmige, mit Glitzersteinen besetzte, leuchtende und geflügelte Modelle. Für Elton John ist die Brille nie ein Accessoire gewesen – sie ist Bühne, Kostüm und Identität in einem. Er hat sich selbst einmal so beschrieben: „Ich bin der Mann mit den verrückten Brillen." Vom Enneagramm her ist Elton John nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Sechser-Flügel (SE7w6): der Familienmensch unter den Siebenern, der seine Lebensfreude nicht nur auf der Bühne auslebt, sondern tief verankert in Zugehörigkeit, Loyalität und dem Bedürfnis nach einem sicheren Nest. Der Sechser-Flügel gibt ihm Wärme und Treue – er ist seit Jahrzehnten mit seinem Partner David Furnish verheiratet, engagiert sich für AIDS-Forschung und adoptierte zwei Söhne. Elton Johns Brillen sagen: Das Leben ist ein Fest – und ich lade alle ein.</p>
+        <p class="vb-intro">Das bekannteste Gesicht hinter der bunten Brille ist ohne Zweifel Elton John – Musiker, Weltstar und Besitzer einer der außergewöhnlichsten Brillensammlungen der Geschichte: über 250.000 Brillen, darunter herzförmige, mit Glitzersteinen besetzte, leuchtende und geflügelte Modelle. Für Elton John ist die Brille nie ein Accessoire gewesen – sie ist Bühne, Kostüm und Identität in einem. Er hat sich selbst einmal so beschrieben: „Ich bin der Mann mit den verrückten Brillen." Vom Enneagramm her ist Elton John nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Sechserflügel (SE7w6): der Familienmensch unter den Siebenern, der seine Lebensfreude nicht nur auf der Bühne auslebt, sondern tief verankert in Zugehörigkeit, Loyalität und dem Bedürfnis nach einem sicheren Nest. Der Sechserflügel gibt ihm Wärme und Treue – er ist seit Jahrzehnten mit seinem Partner David Furnish verheiratet, engagiert sich für AIDS-Forschung und adoptierte zwei Söhne. Elton Johns Brillen sagen: Das Leben ist ein Fest – und ich lade alle ein.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Shield: Dominanz und Schutz</h3>
         <p class="vb-intro">Die Shield-Brille – mit einem einzigen, durchgehenden Glas statt zweier getrennter Gläser – ist die Brille der Dominanz. Sie verdeckt mehr, gibt weniger preis, wirkt wie eine Rüstung vor dem Gesicht. Ursprünglich für Extremsport und militärische Anwendungen entwickelt, wurde sie zum bevorzugten Accessoire von Rappern, Motorradrennfahrern und Bodyguards. Eine Shield-Brille sagt: Ich beobachte – und Du weißt nicht genau, wie. Das Ungleichgewicht zwischen dem, was der Träger sieht, und dem, was andere sehen, ist gewollt. Das Prinzip des Enneagrammtyps 8: Die Brille als Territorium. Wer eine Shield trägt, kontrolliert, was von sich nach außen dringt – und behält dabei den vollen Überblick.</p>
@@ -29187,7 +29187,7 @@ function luxusuhrend9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Patek Philippe Calatrava: Zeitlose Vollkommenheit</h3>
         <p class="vb-intro">Die Patek Philippe Calatrava ist die reinste Ausdrucksform dessen, was eine Uhr sein kann: kein überflüssiges Detail, kein Dekor um des Dekors willen – nur das vollkommene Zusammenspiel von Form und Funktion. Seit 1932 nahezu unverändert in ihrer Grundform, verkörpert sie das Ideal der schlichter Perfektion. Patek Philippe – 1839 in Genf gegründet – ist das Haus, das den berühmten Satz geprägt hat: „Man besitzt eine Patek Philippe nie wirklich. Man bewahrt sie nur für die nächste Generation." Das Prinzip des Enneagrammtyps 1: Qualität braucht keine Aufmerksamkeit – sie spricht für sich, über Generationen hinweg. Die Calatrava ist nicht die lauteste Uhr im Raum. Sie ist die richtigste.</p>
-        <p class="vb-intro">Eine der bekanntesten Trägerinnen der Patek Philippe war Queen Elizabeth II. – die vielleicht disziplinierteste und pflichtbewussteste Monarchin des 20. Jahrhunderts. Vom Enneagramm her nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neuner-Flügel (SE1w9): eine Frau, die ihr ganzes Leben der Pflicht widmete, ohne je aus der Rolle zu fallen – ruhig, beständig, unerschütterlich. Dass sie eine Patek trug, ist kein Zufall. Diese Uhr ist wie sie: zeitlos, korrekt und ohne Bedürfnis nach Anerkennung.</p>
+        <p class="vb-intro">Eine der bekanntesten Trägerinnen der Patek Philippe war Queen Elizabeth II. – die vielleicht disziplinierteste und pflichtbewussteste Monarchin des 20. Jahrhunderts. Vom Enneagramm her nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neunerflügel (SE1w9): eine Frau, die ihr ganzes Leben der Pflicht widmete, ohne je aus der Rolle zu fallen – ruhig, beständig, unerschütterlich. Dass sie eine Patek trug, ist kein Zufall. Diese Uhr ist wie sie: zeitlos, korrekt und ohne Bedürfnis nach Anerkennung.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Cartier Tank: Eleganz als Geschenk</h3>
         <p class="vb-intro">Die Cartier Tank wurde 1917 von Louis Cartier entworfen – inspiriert von der Vogelperspektive auf einen Panzer des Ersten Weltkriegs. Seither ist sie das eleganteste Geschenk der Uhrmacherkunst: keine Uhr, die man sich selbst kauft, sondern eine, die man gibt. Princess Diana trug sie. Andy Warhol trug sie. Jackie Kennedy trug sie. Coco Chanel trug sie. Die Tank steht für einen Luxus, der nicht prahlt – sondern zugewandt ist, verbindet, verschenkt wird. Das Prinzip des Enneagrammtyps 2: Das Schönste am Besitz ist das Geben. Die eleganteste Uhr der Welt wurde entworfen, um am Handgelenk eines anderen zu strahlen.</p>
@@ -29207,7 +29207,7 @@ function luxusuhrend9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Audemars Piguet Royal Oak Offshore: Freiheit und Abenteuer</h3>
         <p class="vb-intro">Die Audemars Piguet Royal Oak Offshore ist die lauteste, extrovertierteste Uhr der Luxusklasse – groß, auffällig, in Farben und Materialien, die andere Häuser nie gewagt hätten. Sie wurde 1993 als „The Beast" eingeführt – das Tier, das die ohnehin schon revolutionäre Royal Oak übertrifft. Jay-Z, LeBron James, Serena Williams, Arnold Schwarzenegger – die Offshore ist die Uhr der Menschen, die ihre Freude am Leben zeigen wollen. Audemars Piguet – 1875 im Vallée de Joux gegründet – ist das älteste noch familiengeführte Uhrenhaus der Welt. Das Prinzip des Enneagrammtyps 7: Die Welt ist zu vielfältig, um eine langweilige Uhr zu tragen. Die Offshore feiert das Leben – laut, bunt, unübersehbar.</p>
-        <p class="vb-intro">Dass ausgerechnet mehrere bekannte Siebener-Typen die Royal Oak Offshore tragen, ist kein Zufall. LeBron James – einer der größten Basketballspieler aller Zeiten – ist nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Achter-Flügel (SE7w8): der Unternehmer unter den Siebenern, der seine Energie in Expansion und Aufbau investiert. Serena Williams – 23-fache Grand-Slam-Siegerin – ist eine sexuelle Sieben mit Achter-Flügel (SX7w8): intensiv, leidenschaftlich, mit dem Achter-Feuer darunter. Und Kevin Hart, einer der erfolgreichsten Comedians der Welt, ebenfalls eine sexuelle Sieben mit Achter-Flügel (SX7w8): unbändige Energie, Charisma, der Drang, jeden Raum zu füllen. Drei Siebener – drei verschiedene Subtypen, aber dieselbe Uhr. Das Enneagramm zeigt sich auch am Handgelenk.</p>
+        <p class="vb-intro">Dass ausgerechnet mehrere bekannte Siebener-Typen die Royal Oak Offshore tragen, ist kein Zufall. LeBron James – einer der größten Basketballspieler aller Zeiten – ist nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Achterflügel (SE7w8): der Unternehmer unter den Siebenern, der seine Energie in Expansion und Aufbau investiert. Serena Williams – 23-fache Grand-Slam-Siegerin – ist eine sexuelle Sieben mit Achterflügel (SX7w8): intensiv, leidenschaftlich, mit dem Achter-Feuer darunter. Und Kevin Hart, einer der erfolgreichsten Comedians der Welt, ebenfalls eine sexuelle Sieben mit Achterflügel (SX7w8): unbändige Energie, Charisma, der Drang, jeden Raum zu füllen. Drei Siebener – drei verschiedene Subtypen, aber dieselbe Uhr. Das Enneagramm zeigt sich auch am Handgelenk.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Panerai Luminor: Militärische Kraft</h3>
         <p class="vb-intro">Die Panerai Luminor hat eine ungewöhnliche Geschichte: Ursprünglich geheime Ausrüstung der italienischen Marine-Kampfschwimmer im Zweiten Weltkrieg, wurde sie Jahrzehnte lang nicht an die Öffentlichkeit verkauft. Erst 1993, nach dem Ende des Militärvertrags, kamen die ersten Panerai in den freien Handel. Das Gehäuse misst 44–47mm – ungewöhnlich groß, unübersehbar dominant. Sylvester Stallone entdeckte sie am Set von „Daylight" 1996 und ließ eigene Serien für sich fertigen – ein Mann, der für Stärke und Durchsetzungsvermögen steht. Das Prinzip des Enneagrammtyps 8: Eine Uhr, die ursprünglich für Kampftaucher entwickelt wurde, braucht keine Zierlichkeit. Kraft ist kein Stil – sie ist eine Haltung.</p>
@@ -29265,7 +29265,7 @@ function luxusautosDer9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Ferrari SF90 Stradale: Ungebändigte Kraft</h3>
         <p class="vb-intro">Der Ferrari SF90 Stradale ist Ferraris erstes Plug-in-Hybridfahrzeug – und zugleich das leistungsstärkste Serienfahrzeug in der Geschichte der Marke: 1.000 PS, kombiniert aus einem V8-Verbrennungsmotor und drei Elektromotoren. Der Name SF90 verweist auf das 90-jährige Jubiläum der Scuderia Ferrari. Was den SF90 auszeichnet, ist nicht nur Leistung, sondern Dominanz: Er will nicht nur schnell sein – er will das Feld beherrschen. Enzo Ferrari sagte einmal: „Ich habe keine Zeit für Kompromisse." Das Prinzip des Enneagrammtyps 8: Kraft ist kein Selbstzweck – sie ist der Ausdruck des Willens, die eigenen Bedingungen zu setzen und sie durchzusetzen, ohne um Erlaubnis zu fragen.</p>
-        <p class="vb-intro">Kein Zufall, dass diese Marke von einem typischen Typ Acht gegründet wurde: Enzo Ferrari – in Enneagramm-Kreisen als Typ Acht anerkannt, nach Einschätzung von Detlef Rathmer als sexueller Typ Acht mit Siebener-Flügel (SX8w7) – war ein Mann, der keine Kompromisse kannte und keine Autorität über sich akzeptierte. Er verkaufte Straßenautos nur, um Rennen zu finanzieren – und warf Fahrer hinaus, die er als zu schwach betrachtete. Sein berühmtes Zitat: „Ich habe keine Zeit für Kompromisse." Die sexuelle Acht investiert ihre ganze Intensität in die Beziehung zu dem, was sie leidenschaftlich liebt – für Enzo Ferrari war das der Rennsport. Der SF90 Stradale ist das lebendigste Erbe dieses Charakters.</p>
+        <p class="vb-intro">Kein Zufall, dass diese Marke von einem typischen Typ Acht gegründet wurde: Enzo Ferrari – in Enneagramm-Kreisen als Typ Acht anerkannt, nach Einschätzung von Detlef Rathmer als sexueller Typ Acht mit Siebenerflügel (SX8w7) – war ein Mann, der keine Kompromisse kannte und keine Autorität über sich akzeptierte. Er verkaufte Straßenautos nur, um Rennen zu finanzieren – und warf Fahrer hinaus, die er als zu schwach betrachtete. Sein berühmtes Zitat: „Ich habe keine Zeit für Kompromisse." Die sexuelle Acht investiert ihre ganze Intensität in die Beziehung zu dem, was sie leidenschaftlich liebt – für Enzo Ferrari war das der Rennsport. Der SF90 Stradale ist das lebendigste Erbe dieses Charakters.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Bentley Continental GT: Harmonie und Weite</h3>
         <p class="vb-intro">Der Bentley Continental GT ist das luxuriöseste Reiseauto der Welt – kein Sportwagen, kein Protzer, sondern ein Grand Tourer: ein Auto, das dafür gebaut wurde, lange Strecken in vollkommener Ruhe und Eleganz zurückzulegen. Bentley, gegründet 1919 von W.O. Bentley in London, stand von Anfang für „the best car in the world" – nicht durch Extremleistung, sondern durch das nahtlose Zusammenspiel aller Elemente. Der Continental GT verfügt über 630 PS, macht damit aber kaum Aufhebens. Er ist leise, weit, behaglich – das Ziel ist nicht Tempo, sondern Ankommen. Das Prinzip des Enneagrammtyps 9: Harmonie entsteht, wenn alles an seinem Platz ist und nichts gegeneinander arbeitet. Und die schönste Reise ist die, auf der man vergisst, dass man fährt.</p>
@@ -29445,7 +29445,7 @@ function affenartenPage() {
         <p style="font-size:0.88rem;font-weight:700;margin:0.75rem 0 0.25rem;color:var(--anthracite);">Drei Beispiele, die das verdeutlichen:</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0.4rem 0 0;color:var(--anthracite);"><strong>1. Orang-Utan:</strong> Im Vergleich der Affenarten entspricht er <strong>Typ 5</strong> – er ist unter allen Affen der zurückgezogenste, beobachtendste und solitärste. Im allgemeinen Tiervergleich über alle 27 Subtypen hingegen entspricht der Orang-Utan der <strong>Selbsterhaltungs-Acht</strong>. Kein Widerspruch: Die Selbsterhaltungs-Acht neigt stark in Richtung Typ 5, ist der zurückgezogene, introvertierte Acht – unter allen Tieren passt der Orang-Utan deshalb zur Selbsterhaltungs-Acht, unter allen Affen zum Fünfer-Prinzip.</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>2. Schimpanse:</strong> Im Affenvergleich entspricht er <strong>Typ 1</strong> – strukturiert, regelgeleitet, auf soziale Ordnung bedacht. Im allgemeinen Tiervergleich hingegen entspricht der Schimpanse dem <strong>sexuellen Siebener</strong>: voller Energie, Rivalität und Lebensintensität. Beides trifft zu – je nachdem, womit man vergleicht.</p>
-        <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>3. Gorilla:</strong> Im Affenvergleich steht er für <strong>Typ 8</strong> – Kraft, Schutz, Führung durch Präsenz. Im allgemeinen Tiervergleich entspricht der Gorilla der <strong>Selbsterhaltungs-Sieben</strong>. Auch das ergibt Sinn: mein Lehrer, Dr. Claudio Naranjo, nannte die Selbsterhaltungs-Sieben die „versteckte Acht“ – sie hat häufig einen starken Acht-Flügel, wirkt robust und durchsetzungsfähig. Unter den Affen verkörpert der Gorilla das Achter-Prinzip; unter den 27 Subtypen gehört er zur Selbsterhaltungs-Sieben, während der Weißkopfkapuziner das reine Siebener-Prinzip trägt.</p>
+        <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>3. Gorilla:</strong> Im Affenvergleich steht er für <strong>Typ 8</strong> – Kraft, Schutz, Führung durch Präsenz. Im allgemeinen Tiervergleich entspricht der Gorilla der <strong>Selbsterhaltungs-Sieben</strong>. Auch das ergibt Sinn: mein Lehrer, Dr. Claudio Naranjo, nannte die Selbsterhaltungs-Sieben die „versteckte Acht“ – sie hat häufig einen starken Achterflügel, wirkt robust und durchsetzungsfähig. Unter den Affen verkörpert der Gorilla das Achter-Prinzip; unter den 27 Subtypen gehört er zur Selbsterhaltungs-Sieben, während der Weißkopfkapuziner das reine Siebener-Prinzip trägt.</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0.75rem 0 0;color:var(--anthracite);">Die Regel lautet: <strong>Was man vergleicht, bestimmt das Ergebnis.</strong> Innerhalb der Affenwelt gilt das relative Prinzip – nicht die absolute Entsprechung im Gesamtsystem. Beides hat seinen eigenen, eigenständigen Wahrheitsgehalt.</p>
       </div>
 
