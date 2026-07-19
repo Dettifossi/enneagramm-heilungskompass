@@ -11757,6 +11757,7 @@ function enneagrammAstrologiePage() {
   return shell(`
     <div class="page-container">
       ${pageHeader('Enneagramm meets Astrologie')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm meets Astrologie</h1>
       <p class="psycho-intro">Zwei Systeme – ein Mensch. Astrologie und Enneagramm beschreiben denselben Kern einer Persönlichkeit aus verschiedenen Blickwinkeln: der kosmische Bauplan des Radix-Horoskops und die psychologische Landkarte der 9 Kernmotivationen. In diesen Analysen treffen beide aufeinander und zeigen, wie energetische Anlagen und unbewusste Überlebensstrategien ineinandergreifen.</p>
       <div style="display:flex;flex-direction:column;gap:1rem;max-width:100%;margin-bottom:2rem;">
         ${ASTROLOGIE_PORTRAITS.map(card).join('')}

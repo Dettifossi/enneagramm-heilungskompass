@@ -516,6 +516,7 @@ text.nav = [
     { route: "quiz", label: "Quiz" },
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
+    { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
   ]},
