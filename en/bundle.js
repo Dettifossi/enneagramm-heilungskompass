@@ -1795,11 +1795,10 @@ window.translateReview = function(btn) {
       btn.dataset.translated = '1';
     })
     .catch(function() { btn.textContent = '🌐 Translate'; });
+};
+
 function _bewertungSterneInit() {
-
-}
-
-// Freigegebene Bewertungen laden
+  // Freigegebene Bewertungen laden
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
     headers: { 'X-Master-Key': JSONBIN_KEY } })
     .then(function(r){ return r.json(); })
