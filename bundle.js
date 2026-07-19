@@ -49,6 +49,7 @@ let fbSignOut = null;
 
 
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
+const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "");
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
@@ -2017,7 +2018,7 @@ function toolDetailPage(slug) {
     <figure class="vollseite-karte" style="margin-bottom:1.2rem;">
       <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
       <div class="card-pg-wrap">
-        <img src="${toolPageImg.src}" alt="${toolPageImg.alt}" class="vollseite-karte__img" loading="lazy"
+        <img src="${cdnImg(toolPageImg.src)}" alt="${toolPageImg.alt}" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
         <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
       </div>
@@ -2284,7 +2285,7 @@ function tcmPage() {
             <figure class="vollseite-karte" style="margin-top:1.5rem;">
               <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
               <div class="card-pg-wrap">
-                <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
+                <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
                   onerror="this.closest('.vollseite-karte').style.display='none'" />
                 <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
               </div>
@@ -3898,7 +3899,7 @@ function regulierenInner(entry, sp) {
       <figure class="vollseite-karte">
         <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
         <div class="card-pg-wrap">
-          <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
+          <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
             onerror="this.closest('.vollseite-karte').style.display='none'" />
           <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
         </div>
@@ -33666,7 +33667,7 @@ function subtypeSchaubilderPage() {
       <figure class="vollseite-karte" style="margin:0 0 1.5rem;">
         <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
         <div class="card-pg-wrap">
-          <img src="${pg.src}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
+          <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
             onerror="this.closest('.vollseite-karte').style.display='none'" />
           <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
         </div>
@@ -33705,7 +33706,7 @@ function subtypeSchaubilderPage() {
     const tilesHtml = codes.map(c => {
       const e = subtypeEntry(c);
       const inst = c.slice(0,2);
-      const thumb = e?.visualPages?.[0]?.src || "";
+      const thumb = cdnImg(e?.visualPages?.[0]?.src || "");
       return `
         <button class="subtyp-schaubilder-tile" data-route="subtypen-schaubilder/${c}" style="border-color:${tc};">
           ${thumb ? `<img src="${thumb}" alt="${c} Vorschau" loading="lazy" style="width:100%;border-radius:6px 6px 0 0;display:block;" onerror="this.style.display='none'" />` : ""}
