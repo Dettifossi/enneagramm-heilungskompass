@@ -974,6 +974,7 @@ window.addEventListener("popstate", (e) => {
 function go(route) {
   location.hash = route;
 }
+window.go = go;
 
 function shell(content) {
   return `
