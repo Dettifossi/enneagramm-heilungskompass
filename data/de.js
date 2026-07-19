@@ -5157,6 +5157,7 @@ export const uiText = {
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Hom\xf6opathie" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
+      { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
       { route: "tierlexikon", label: "Tierlexikon" },
