@@ -1787,6 +1787,13 @@ window.translateReview = function(btn) {
     }
     var orig = textEl.textContent;
     textEl.dataset.orig = orig;
+    var preTranslated = textEl.dataset.textEn;
+    if (preTranslated) {
+      textEl.textContent = preTranslated;
+      btn.textContent = '↩ Original';
+      btn.dataset.translated = '1';
+      return;
+    }
     btn.textContent = '…';
     fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=' + encodeURIComponent(orig))
       .then(function(r) { return r.json(); })
@@ -1812,17 +1819,16 @@ function _bewertungSterneInit() {
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
-        const isEN = location.pathname.startsWith('/en');
-        const displayText = isEN && b.text_en ? b.text_en : (b.text || '');
         const landDisplay = b.countryCode ? (COUNTRY_NAME_EN[b.countryCode] || b.land || '') : (b.land || '');
         const meta = [b.name, landDisplay || null].filter(Boolean).join(' · ');
+        const textEN = b.text_en || '';
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;" data-review-card>' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
           (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
-          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text>' + displayText + '</p>' +
-          ((!b.text_en) ? '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Translate</button>' : '') +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text data-text-en="' + textEN.replace(/"/g, '&quot;') + '">' + (b.text || '') + '</p>' +
+          '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Translate</button>' +
           '</div>';
       }).join('');
       section.style.display = 'block';
