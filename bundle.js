@@ -11946,9 +11946,8 @@ function enneagrammHomoeopathiePage() {
           ${HOMOEOPATHIE_FAELLE.map(card).join('')}
         </div>
 
-        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
-        ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "Das Lehrbuch zur Enneagramm-Hom\xf6opathie – Grundlagen, Typen und Heilmittel.", "Lehrbuch der Enneagramm-Hom\xf6opathie – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("enneagramm-homoeopathie-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\xf6opathie in Band 2.", "Enneagramm-Hom\xf6opathie – Band 2")}
         ${relatedLinks([
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
@@ -11987,8 +11986,8 @@ function _homoeopathieFallPage(f) {
           <p class="vb-intro">${f.verlauf}</p>
         </div>
 
-        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk – Enneagramm-Typen und ihre hom\xf6opathischen Heilmittel auf der Essenz-Ebene.", "Enneagramm-Hom\xf6opathie – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Leidenschaften der 27 Subtypen und ihre Heilungswege – vertiefendes Begleitbuch.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("enneagramm-homoeopathie-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\xf6opathie in Band 2.", "Enneagramm-Hom\xf6opathie – Band 2")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Alle 9 Patientenf\xe4lle"},
           {route:"heilungsweg", label:"Heilungsweg des Menschen (Schaubild)"},
