@@ -11790,7 +11790,9 @@ function _astrologiePage(p, analysisHtml) {
         </div>
         ${analysisHtml}
       </div>
-      ${bookTip("enneagramm-und-astrologie", "Wie kosmischer Bauplan und Enneagramm-Typen zusammenwirken – mit Beispielanalysen.", "Enneagramm und Astrologie")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"enneagramm-astrologie", label:"Alle Astrologie-Analysen"},
         ...(p.beruehmteRoute
