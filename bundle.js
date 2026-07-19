@@ -11856,7 +11856,8 @@ function astrologieRomySchneiderPage() {
   return _astrologiePage(
     { slug:"romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
       subtypLabel:"Soziale Typ 4 mit Dreierflügel",
-      subtitle:"Schauspielerin, 1938–1982 – Die Kaiserin der europäischen Leinwand" },
+      subtitle:"Schauspielerin, 1938–1982 – Die Kaiserin der europäischen Leinwand",
+      beruehmteRoute:"beruehmte-romy-schneider" },
     `<h2 class="vb-section">SO4w3 – Die aristokratische Vier</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Romy Schneider verkörpert das klassische Profil der <strong>sozialen Vier mit Dreierflügel (SO4w3)</strong>. Die soziale Vier leidet unter tiefer existenzieller Scham und dem Gefühl, missverstanden zu sein – und trägt diesen Schmerz mit aristokratischer Würde. Der Dreierflügel bringt die Lust an der Bühne, den Ehrgeiz und das Verlangen nach öffentlicher Anerkennung.</p>
@@ -11878,7 +11879,8 @@ function astrologieJohnLennonPage() {
   return _astrologiePage(
     { slug:"john-lennon", name:"John Lennon", subtyp:"SO4w5",
       subtypLabel:"Sozialer Typ 4 mit Fünferflügel",
-      subtitle:"Musiker, Friedensaktivist, 1940–1980 – Mitgründer der Beatles" },
+      subtitle:"Musiker, Friedensaktivist, 1940–1980 – Mitgründer der Beatles",
+      beruehmteRoute:"beruehmte-john-lennon" },
     `<h2 class="vb-section">SO4w5 – Der intellektuelle Individualist</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">John Lennon verkörpert das klassische Profil der <strong>sozialen Vier mit Fünferflügel (SO4w5)</strong> – den tragischen Romantiker und intellektuellen Individualisten. Die soziale Vier klagt das System an, bricht Tabus und kämpft für eine idealisierte, bessere Welt. Der Fünferflügel bringt analytische Distanz, kriminalistische Neugier und Faszination für das Verborgene.</p>
