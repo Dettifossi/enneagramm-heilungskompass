@@ -7659,7 +7659,7 @@ function tritypenPage() {
   const cards = profile.map(p => `
     <div class="vb-blockquote" style="margin-bottom:1.2rem;">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
-        <span style="background:var(--gold);color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Trityp ${p.id}</span>
+        <span style="background:var(--gold);color:#1a1208;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Trityp ${p.id}</span>
         <strong style="font-size:1.05rem;color:var(--ink);">${p.name}</strong>
       </div>
       <p style="font-style:italic;color:var(--muted);font-size:0.9rem;margin:0 0 0.9rem;line-height:1.55;">${p.kurz}</p>
@@ -7698,6 +7698,9 @@ function tritypenPage() {
         <h2 class="section-title" style="font-size:1.25rem;margin:0 0 1.2rem;">Die 27 Profile im Detail</h2>
         ${cards}
 
+        ${bookTip("der-code-deiner-persoenlichkeit", "27 Subtypen, Tritypen und ihre verborgenen Muster &ndash; das Standardwerk f\xfcr alle, die tiefer in die Struktur der Pers\xf6nlichkeit eintauchen wollen.", "Der Code deiner Pers\xf6nlichkeit")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen in ihrer vollen Tiefe &ndash; Leidenschaft, Wunde und Heilungsweg f\xfcr jeden Instinkttyp.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"tierentsprechungen", label:"Tierentsprechungen der 27 Subtypen"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
