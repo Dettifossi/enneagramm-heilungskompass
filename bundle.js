@@ -405,8 +405,8 @@ const BERUEHMT_PORTRAITS = [
 const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner – Selbsterhaltender Typ 1",  teaser:"SE1w9 · geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder – Perfektionismus als Überlebensstrategie." },
   { route:"astrologie-marilyn-monroe",    name:"Marilyn Monroe",    subtyp:"SX3w4",  heading:"Marilyn Monroe – Sexueller Typ 3",             teaser:"SX3w4 · 1926–1962. Schauspielerin, Ikone. Sonne Zwillinge, Mond Wassermann im 7. Haus, AC Löwe, MC Stier – Glamour und Tragik als zwei Seiten einer Seele." },
-  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand." },
-  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt." },
+  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand.", beruehmteRoute:"beruehmte-romy-schneider" },
+  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt.", beruehmteRoute:"beruehmte-john-lennon" },
   { route:"astrologie-albert-einstein",   name:"Albert Einstein",   subtyp:"SO5w6",  heading:"Albert Einstein – Sozialer Typ 5",             teaser:"SO5w6 · 1879–1955. Physiker, Nobelpreisträger. Sonne Fische im 10. Haus, Mond Schütze im 6. Haus, AC Krebs, MC Fische – die kosmische Formel des Genies." },
   { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz." },
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexueller Typ 8",           teaser:"SX8w7 · geb. 1944. Bundeskanzler 1998–2005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische – der Instinktpolitiker der Macht." },
@@ -8341,8 +8341,9 @@ function johnLennonPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+        {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -8531,8 +8532,9 @@ function romySchneiderPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+        {route:"astrologie-romy-schneider", label:"Horoskop-Analyse: Romy Schneider"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
       ])}
     </div>
   `);
@@ -11791,7 +11793,9 @@ function _astrologiePage(p, analysisHtml) {
       ${bookTip("enneagramm-und-astrologie", "Wie kosmischer Bauplan und Enneagramm-Typen zusammenwirken – mit Beispielanalysen.", "Enneagramm und Astrologie")}
       ${relatedLinks([
         {route:"enneagramm-astrologie", label:"Alle Astrologie-Analysen"},
-        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        ...(p.beruehmteRoute
+          ? [{route:p.beruehmteRoute, label:`Porträt: ${p.name} (${p.subtyp}) – Berühmte Persönlichkeiten`}]
+          : [{route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"}]),
         {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
       ])}
     </div>
