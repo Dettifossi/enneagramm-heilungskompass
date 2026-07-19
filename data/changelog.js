@@ -3,7 +3,7 @@
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
   {
-    date: "2026-07-19",
+    date: "2026-07-20",
     text: "Übersetzen-Funktion für Rezensionen eingeführt",
     text_en: "Translation feature added for reviews"
   }
