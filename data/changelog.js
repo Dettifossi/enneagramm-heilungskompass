@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-19",
+    text: "Neue Rubrik: Enneagramm meets Hom\xf6opathie – 9 Patientenf\xe4lle aus der Praxis der Enneagramm-Hom\xf6opathie",
+    text_en: "New section: Enneagram meets Homeopathy – 9 patient cases from the practice of Enneagram Homeopathy",
+    route: "enneagramm-homoeopathie"
+  },
+  {
+    date: "2026-07-19",
     text: "Neues Porträt: Boris Becker (SX7w8) – Tennislegende und Schimpanse mit Achterflügel",
     text_en: "New portrait: Boris Becker (SX7w8) – tennis legend and chimpanzee with Eight wing",
     route: "beruehmte-boris-becker"

@@ -456,7 +456,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon", "tritypen"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon", "tritypen", "enneagramm-homoeopathie", ...HOMOEOPATHIE_FAELLE.map(f => f.route)]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -11895,6 +11895,178 @@ function bracoPortraitPage() {
   `);
 }
 
+
+// ─── Enneagramm meets Homöopathie ──────────────────────────────────────────
+
+const HOMOEOPATHIE_FAELLE = [
+  { route:"homoeopathie-fall-1", typ:1, subtyp:"SE1", titel:"Patient vom Typ 1", krankheit:"Chronisch-entz\xfcndliche Darmerkrankung", heilmittel:"Platinum metallicum", teaser:"Mann, 51 Jahre. Aristokratische Blickqualit\xe4t, hohe Prinzipien, Perfektionismus. Colitis ulcerosa mit blutigen Durchf\xe4llen. Die unbewusst gelebte Grundleidenschaft des Zorns \xe4u\xdfert sich als Entz\xfcndung im Darm. Eine drohende Operation kann durch das Enneagramm-Heilmittel Platin vollst\xe4ndig abgewendet werden." },
+  { route:"homoeopathie-fall-2", typ:2, subtyp:"SO2", titel:"Patientin vom Typ 2", krankheit:"Unerf\xfcllter Kinderwunsch", heilmittel:"Hyoscyamus niger", teaser:"Frau, 37 Jahre. Liebesorientiert, emotional offen, hilfreich und gro\xdfz\xfcgig. Drei Jahre ungew\xfcnschte Kinderlosigkeit, dazu Bulimie-Phasen und Harnwegsinfekte. Thema: entt\xe4uschte Liebe und der Wunsch nach Verbindung. Das Bilsenkraut gibt der Lebenskraft die n\xf6tige Resonanz." },
+  { route:"homoeopathie-fall-3", typ:3, subtyp:"SX3", titel:"Patient vom Typ 3", krankheit:"Burnout-Syndrom & Restless-Legs-Syndrom", heilmittel:"Tarantula hispanica", teaser:"Mann, 46 Jahre. Koch, Workaholic, gef\xfchlskalter Blick, versteinerter Ausdruck. Burnout und ruhelose Beine mit Gef\xfchlsst\xf6rungen. Die blockierte Herz-Energie des Dreiers sucht einen K\xf6rper-Ausweg. Tarantula hispanica l\xf6st nach vier Monaten den entscheidenden Durchbruch." },
+  { route:"homoeopathie-fall-4", typ:4, subtyp:"SX4", titel:"Patientin vom Typ 4", krankheit:"Alkoholsucht & Depression", heilmittel:"Sepia (Tintenfisch)", teaser:"Frau, 44 Jahre. Blond, gepflegt, dunkelbraune Augen. Chronisches Gef\xfchl, f\xfcr etwas Besseres zu sein. Regelm\xe4\xdfiger Alkoholkonsum seit 15 Jahren, Magenschleimhautentz\xfcndungen, Depression. Die Neid-Leidenschaft des Vierers \xe4u\xdfert sich als Abgrenzung vom eigenen Leben. Schrittweise Heilung \xfcber aufsteigende Potenzen." },
+  { route:"homoeopathie-fall-5", typ:5, subtyp:"SO5", titel:"Patient vom Typ 5", krankheit:"H\xfcftschmerzen mit Aussicht auf H\xfcft-Operation", heilmittel:"Stramonium", teaser:"Mann, 51 Jahre. Gymnasiallehrer, horizontal verlaufende Stirnfalten, distanziert und nachdenklich. Coxalgie mit fortgeschrittener Arthrose, drohende H\xfcftoperation. Das Geiz-Muster des F\xfcnfers schwacht die Lebenskraft. Stramonium, der Stechapfel, gibt dem K\xf6rper seine Bewegungsfreiheit zur\xfcck." },
+  { route:"homoeopathie-fall-6", typ:6, subtyp:"SE6", titel:"Patient vom Typ 6", krankheit:"Versagens\xe4ngste", heilmittel:"Opium", teaser:"Mann, 53 Jahre, Schulleiter. Starkes Schwei\xdfen unter Druck, Konzentrations- und Wortfindungsst\xf6rungen, sexuelle Probleme. Die Angst als Grundleidenschaft l\xe4hmt ihn zunehmend. Opium, der Schlafmohn, entsperrt die blockierte Kopfenergie und schenkt ihm nach zwei Jahren therapeutischer Arbeit innere Souver\xe4nit\xe4t." },
+  { route:"homoeopathie-fall-7", typ:7, subtyp:"SX7", titel:"Patientin vom Typ 7", krankheit:"Starke migr\xe4neartige Kopfschmerzen", heilmittel:"Belladonna", teaser:"Frau, 27 Jahre. Verkäuferin, lebhaft und optimistisch, warmer fr\xf6hlicher Blick, rote Wangen. Migr\xe4neartige Kopfschmerzen und Gallensteinkoliken seit Jahren. Die Ma\xdflosigkeit des Siebers sucht \xfcber starke k\xf6rperliche Symptome ein Gleichgewicht. Belladonna, die Tollkirsche, bringt Entspannung und vollst\xe4ndige Heilung." },
+  { route:"homoeopathie-fall-8", typ:8, subtyp:"SE8", titel:"Patient vom Typ 8", krankheit:"Manische Depression", heilmittel:"Veratrum album", teaser:"Mann, 44 Jahre. Garten- und Landschaftsbauer. Bipolare St\xf6rung mit Maniephasen (f\xfchlte sich als Nachfolger Jesu Christi) und suizidalen Depressionen. Mehrere Psychiatrie-Aufenthalte. Die \xfcberentwickelte Bauchenergie der Acht findet keinen nat\xfcrlichen Kanal. Veratrum album, der wei\xdfe Germer, bringt schrittweise Stabilit\xe4t." },
+  { route:"homoeopathie-fall-9", typ:9, subtyp:"SE9", titel:"Patient vom Typ 9", krankheit:"Rezidivierende H\xe4morrhoidalblutungen", heilmittel:"Cannabis", teaser:"Mann, 53 Jahre. 96 kg, BMI 31, Adipositas Grad I. Rezidivierende H\xe4morrhoidalblutungen, Fettleber, sitzende T\xe4tigkeit, Fast-Food-Ern\xe4hrung, 9–10 Stunden Schlaf t\xe4glich. Die Tr\xe4gheit als Grundleidenschaft des Neuners sperrt die Lebenskraft. Cannabis, der Hanf, l\xf6st die tief verwurzelte k\xf6rperliche Stagnation." },
+];
+
+function enneagrammHomoeopathiePage() {
+  function card(f) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[f.typ] : null) || 'var(--copper)';
+    return `<div class="kf-card" data-route="${f.route}" onclick="go('${f.route}')" style="cursor:pointer;border-radius:10px;border:1px solid var(--border);padding:1rem 1.1rem;background:var(--ivory);">
+      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${col};">${f.subtyp} &middot; Typ ${f.typ}</span>
+        <span style="font-size:0.7rem;color:var(--muted);background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:0.1rem 0.55rem;">${f.heilmittel}</span>
+      </div>
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin-bottom:0.15rem;">${f.krankheit}</div>
+      <div style="font-size:0.85rem;color:var(--muted);line-height:1.5;">${f.teaser}</div>
+    </div>`;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-homoeopathie')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Heilkunde</p>
+        <h1 class="section-title">Enneagramm meets Hom\xf6opathie</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Jeder Mensch besitzt im Kern seiner Pers\xf6nlichkeit eine vorherrschende, ihm aber in aller Regel verborgene <strong>Grundleidenschaft</strong>. Diese ist die wahre Ursache f\xfcr sein Kranksein und sein Leid &ndash; denn sie ist die unbewusste Leidenschaft, die Leiden schafft. Menschen leben ihre Hauptleidenschaft (Zorn, Stolz, Eitelkeit, Neid, Geiz, Angst, Ma\xdflosigkeit, Gier oder Tr\xe4gheit) stets ein- und \xfcberseitig und erkranken auf Dauer genau daran.</p>
+          <p class="vb-intro">Die <strong>Enneagramm-Hom\xf6opathie</strong> (kurz: EH) verbindet die ca. 5000 Jahre alte Menschentypenlehre des Enneagramms mit der \xfcber 200 Jahre alten Hom\xf6opathie nach Dr. Samuel Hahnemann. Sie erm\xf6glicht Heilung auf dieser tiefsten Ebene des Menschseins, indem sie durch die Gabe eines hom\xf6opathischen Einzelmittels die verborgene Grundleidenschaft des Patienten und damit auch seine individuelle Lebenskraft wieder ins Gleichgewicht bringt. Entsprechend dieser 9 Grundleidenschaften gibt es auf der Essenz-Ebene nur <strong>neun spezifische hom\xf6opathische Heilmittel</strong>, je eines f\xfcr jeden Enneagrammtyp.</p>
+          <p class="vb-intro">Schon der Begr\xfcnder der Hom\xf6opathie, Dr. Samuel Hahnemann, erkannte: <em>&bdquo;Das Gem\xfct ist der Schl\xfcssel zur Heilung des Patienten.&ldquo;</em> Die Enneagramm-Hom\xf6opathie geht noch einen Schritt tiefer &ndash; zum unbewussten Kern des Gem\xfcts, der Enneagrammfixierung.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="${CDN}assets/schaubilder/heilungsweg/heilungsweg.jpg" alt="Der Heilungsweg des Menschen &ndash; Schaubild" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Der Heilungsweg des Menschen &ndash; Enneagramm-Hom\xf6opathie</p>
+        </div>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/heilungsweg-des-menschen.jpg" alt="Der Heilungsweg des Menschen &ndash; \xdcbersicht der 4 Heilungs-Ebenen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Die vier Ebenen hom\xf6opathischer Heilung &ndash; von der k\xf6rperlichen bis zur Essenz-Ebene</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:0 0 1.2rem;">9 Patientenf\xe4lle aus der Praxis</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">Die folgenden Fallberichte stammen aus der lebendigen Praxis der Enneagramm-Hom\xf6opathie. Alle Patienten sind anonymisiert. Die F\xe4lle zeigen exemplarisch, wie die Bestimmung des Enneagrammtyps und die Verordnung des typspezifischen Heilmittels wirkt &ndash; auf der tiefsten Ebene des Menschseins.</p>
+        <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:2rem;">
+          ${HOMOEOPATHIE_FAELLE.map(card).join('')}
+        </div>
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
+        ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "Das Lehrbuch zur Enneagramm-Hom\xf6opathie – Grundlagen, Typen und Heilmittel.", "Lehrbuch der Enneagramm-Hom\xf6opathie – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
+          {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function _homoeopathieFallPage(f) {
+  const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[f.typ] : null) || 'var(--copper)';
+  const leidenschaften = ["","Zorn","Stolz","Eitelkeit","Neid","Geiz","Angst","Ma\xdflosigkeit","Gier","Tr\xe4gheit"];
+  const leidenschaft = leidenschaften[f.typ] || "";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-homoeopathie')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">&larr; Alle Fallberichte</button>
+        <p class="eyebrow" style="color:${col};">Wissen &middot; Hom\xf6opathie &middot; Typ ${f.typ}</p>
+        <h1 style="font-family:'EB Garamond',serif;font-size:1.9rem;color:var(--ink);margin:0.3rem 0 0.2rem;line-height:1.2;">${f.krankheit}</h1>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.6rem;">${f.titel} (${f.subtyp}) &middot; Grundleidenschaft: ${leidenschaft} &middot; Heilmittel: <strong style="color:${col};">${f.heilmittel}</strong></p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.6rem;">
+          <p class="vb-intro">${f.fallbeschreibung}</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 0.7rem;">Enneagramm-Diagnose</h2>
+          <p class="vb-intro">${f.diagnose}</p>
+
+          <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:1.4rem 0 0.7rem;">Das hom\xf6opathische Heilmittel: ${f.heilmittel}</h2>
+          <p class="vb-intro">${f.heilmitteltext}</p>
+
+          <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:1.4rem 0 0.7rem;">Verlauf &amp; Ergebnis</h2>
+          <p class="vb-intro">${f.verlauf}</p>
+        </div>
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk – Enneagramm-Typen und ihre hom\xf6opathischen Heilmittel auf der Essenz-Ebene.", "Enneagramm-Hom\xf6opathie – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Leidenschaften der 27 Subtypen und ihre Heilungswege – vertiefendes Begleitbuch.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Alle 9 Patientenf\xe4lle"},
+          {route:"heilungsweg", label:"Heilungsweg des Menschen (Schaubild)"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+const HOMOEOPATHIE_FALL_DETAILS = {
+  "homoeopathie-fall-1": {
+    fallbeschreibung: "Ein 51-j\xe4hriger Patient kommt mit einer schwerwiegenden chronisch-entz\xfcndlichen Darmerkrankung (Colitis ulcerosa) in die Praxis &ndash; blutige Durchf\xe4lle, der K\xf6rper nahe an einer Operation. Er ist auf Empfehlung einer Freundin gekommen und m\xf6chte trotz zunehmender Symptomatik eine letzte M\xf6glichkeit der Naturheilkunde nutzen. Sein Auftreten ist aristokratisch: schmale Lippen, hagere Erscheinung, ernst-kritischer Blick. Er neigt zum Perfektionismus, stellt hohe Anspr\xfcche an sich und andere, und ist beruflich sehr leistungsorientiert. Er klagt auch \xfcber sexuelle Unlust und zahlreiche Allergien.",
+    diagnose: "S\xe4mtliche Merkmale &ndash; die aristokratische Blickqualit\xe4t, die Rechthaberei, der Perfektionismus, die kritische Distanz und das Streben nach Makellosigkeit &ndash; weisen eindeutig auf den <strong>Enneagrammtyp 1</strong> hin. Seine Grundleidenschaft ist der <strong>Zorn</strong>: eine im Alltag unbewusst gelebte, einseitig ausagierte Aggressionsenergie, die sich nicht nach au\xdfen entl\xe4dt, sondern sich k\xf6rperlich in Form von Entz\xfcndungen im Darm manifestiert. Der Darm als Organ der Typ-1-Physiologie wird zum Spiegel der inneren emotionalen Verkrampfung.",
+    heilmitteltext: "<strong>Platinum metallicum (Platin)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 1. Das edle Metall entspricht der inneren Haltung des Perfektionisten: aristokratisch, selbstanspruchsvoll, innerlich angespannt. In der Hom\xf6opathie wirkt Platin auf die Entspannung dieser \xfcberspannten Lebenskraft, l\xf6st den inneren Zorn auf essenzieller Ebene und erm\xf6glicht dem K\xf6rper, die Entz\xfcndungsspirale zu verlassen. Es wird in der typspezifischen, homöopathisch angezeigten Dosierung und Potenz verordnet.",
+    verlauf: "Innerhalb weniger Wochen nach Beginn der Mittelgabe verringern sich die schleimig-blutigen Durchf\xe4lle zusehends. Der Darm heilt vollst\xe4ndig ab. Eine Operation wird abgewendet. Auch der fr\xfchere Fu\xdfpilz verschwindet nach zwei Monaten. Der Patient berichtet, sich lebendiger, souver\xe4ner, gelassener und geduldiger zu f\xfchlen &ndash; auch im zwischenmenschlichen Bereich. Nach einem Jahr ist er nahezu beschwerdefrei. Einzig eine Allergie auf Haseln\xfcsse und Milchprodukte besteht fort, aber damit kann er nach eigenen Angaben „gut leben“."
+  },
+  "homoeopathie-fall-2": {
+    fallbeschreibung: "Eine 37-j\xe4hrige Patientin kommt mit dem Wunsch schwanger zu werden in die Praxis. Seit drei Jahren versucht sie vergeblich, eine Schwangerschaft zu erzielen. Sie leidet zus\xe4tzlich seit ihrer Jugend unter Phasen von Bulimie und st\xe4ndig wiederkehrenden Harnwegsinfekten. W\xe4hrend der Anamnsese sitzt ihr eine sehr freundlich-gef\xe4llige, emotional offene und selbstbewusste Frau gegen\xfcber &ndash; bis das Thema Sterilität angesprochen wird: Dann senkt sich ihr Blick schlagartig, sie wird traurig, ihre Augen f\xfcllen sich mit Tr\xe4nen. Sie stellt sich stets als freigiebig und gro\xdfz\xfcgig dar und w\xfcrde f\xfcr eine Schwangerschaft einfach alles unternehmen.",
+    diagnose: "Die liebesorientierte Blickqualit\xe4t, der starke Hilfs- und F\xfcrsorgedrang, das emotionale Ausdrucksverhalten, der Stolz gepaart mit tiefer Gutm\xfctigkeit &ndash; all das entspricht dem <strong>Enneagrammtyp 2</strong>. Seine Grundleidenschaft ist der <strong>Stolz</strong>: Die Unfruchtbarkeit und die damit verbundenen Entt\xe4uschungen in der Liebes-Dimension (kein Kind als Ausdruck der tiefsten Form von Liebe) treffen genau das unbewusste Kernthema des Typs 2. Bulimie und Harnwegsinfekte sind k\xf6rperliche Ausdrucksformen dieser emotionalen Dysbalance.",
+    heilmitteltext: "<strong>Hyoscyamus niger (Schwarzes Bilsenkraut)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 2. Auf essenzieller Ebene adressiert es die Dynamik des entt\xe4uschten Verlangens nach Liebe und Zugeh\xf6rigkeit. Das Heilmittel wirkt auf die emotionale Lebenskraft des Typs 2 und schafft die Voraussetzungen, dass der K\xf6rper empf\xe4nglich f\xfcr das werden kann, was er tief begehrt.",
+    verlauf: "Zwei Monate nach der Mittelgabe ruft die Patientin an: &bdquo;Überraschung &ndash; ich bin endlich schwanger und mir geht es wunderbar!&ldquo; Das hom\xf6opathische Enneagramm-Heilmittel hat die Lebenskraft der Patientin auf einer tieferen Ebene wieder ins energetische Gleichgewicht gebracht &ndash; und damit die K\xf6rperbedingungen f\xfcr die bislang erfolglos angestrebte Schwangerschaft geschaffen."
+  },
+  "homoeopathie-fall-3": {
+    fallbeschreibung: "Ein 46-j\xe4hriger Koch kommt wegen eines Burnouts und ruheloser Beine mit Gef\xfchlsst\xf6rungen (Restless-Legs-Syndrom) in die Praxis. Sein Hausarzt hat ihn bereits drei Wochen krankgeschrieben. Auf psychischer Ebene dominieren bei ihm starke Verzweiflung, fortschreitendes Gef\xfchl der Wertlosigkeit, Existenz\xe4ngste und Phasen von Gleichg\xfcltigkeit. Sein Blick ist leer und gef\xfchlskalt, sein Gesicht versteinernd. Er arbeitet unerm\xfcdlich, nimmt zahlreiche Überstunden, hat hohe Erwartungen an das Leben und sieht sich als dynamischen, \xe4u\xdferlich erfolgreichen Menschen.",
+    diagnose: "Der leer-gef\xfchlskalte Blick, das Workaholism-Muster, die soziale Fassade des Erfolgs hinter der ein emotional abgeschnittenes Innenleben steckt &ndash; das sind die unverwechselbaren Merkmale des <strong>Enneagrammtyps 3</strong>. Seine Grundleidenschaft ist die <strong>Eitelkeit</strong>: Die blockierte Herzenergie des Dreiers, die seine eigenen Gef\xfchle total abschneidet, sucht sich einen K\xf6rperausweg \xfcber das Nervensystem (Restless Legs) und f\xfchrt zum emotionalen Zusammenbruch (Burnout).",
+    heilmitteltext: "<strong>Tarantula hispanica (Spanische Vogelspinne)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 3. Es entspricht der ruhelosen, hypermotorischen Energie, die keine Ruhe findet. In der Hom\xf6opathie wirkt Tarantula auf genau jene unruhige, getriebene Nervensystem-Energie und gibt dem K\xf6rper die M\xf6glichkeit, aus dem Burnout-Modus zur\xfcckzufinden.",
+    verlauf: "Nach etwa vier Monaten mit wiederholt verordnetem Heilmittel in unterschiedlicher Dosierung gelingt ein sp\xfcrbarer Durchbruch: Die Beine werden ruhig, der Patient arbeitet wieder als Koch &ndash; ohne die fr\xfcheren \xdcberstunden. Er entwickelt durch die Besch\xe4ftigung mit dem Enneagrammtyp 3 eine neue Eigenwahrnehmung und lernt, zwischen Arbeitswelt und Privatleben eine klare Grenze zu ziehen. Die Familie profitiert nun von seiner Gesundheit."
+  },
+  "homoeopathie-fall-4": {
+    fallbeschreibung: "Eine 44-j\xe4hrige Patientin kommt mit Depression und Alkoholsucht. Sie ist blond, gut gekleidet, gepflegt. Seit 15 Jahren trinkt sie regelm\xe4\xdfig gr\xf6\xdfere Mengen Alkohol, was sich in immer wiederkehrenden Magenschleimhautentz\xfcndungen zeigt. Sie erf\xe4hrt sich innerlich stets als besonders und glaubt, f\xfcr etwas Besseres bestimmt zu sein &ndash; findet aber dennoch keine wahre Erf\xfcllung. Ihren Mann hat sie vor drei Jahren verlassen, befindet sich seitdem in wechselnden Partnerschaften. Sie steht unter psychologischer Behandlung und nimmt t\xe4glich ein Antidepressivum. Durch Blickanalyse eines Fotos, das ihr der Therapeut zug\xe4nglich gemacht hatte, konnten bereits erste deutliche Hinweise auf den Enneagrammtyp 4 abgelesen werden.",
+    diagnose: "Die tiefe Identifikation mit dem Einzigartigen, das chronische Gef\xfchl der Unvollst\xe4ndigkeit, das Suchen in Beziehungen nach dem &bdquo;wahren Ich&ldquo;, die Depressionsphasen als Ausdruck der Enttäuschungs-Dynamik &ndash; all das verweist auf den <strong>Enneagrammtyp 4</strong>. Seine Grundleidenschaft ist der <strong>Neid</strong>: das Gef\xfchl, das Wesentlichste im Leben stets zu verfehlen, was sich hier in der Sucht und der Depression ausdr\xfckt.",
+    heilmitteltext: "Das Enneagramm-Heilmittel f\xfcr Typ 4 wirkt auf der Ebene des Neid-Musters und der damit einhergehenden emotionalen Dysbalance. Es wird in aufsteigenden hom\xf6opathischen Potenzen verordnet, da dieser Fall eine besonders langwierige Behandlung ben\xf6tigt. In der Enneagramm-Hom\xf6opathie steht die hohe Treffsicherheit des typspezifischen Heilmittels bei der F\xfchrung komplexer F\xe4lle klar im Vordergrund.",
+    verlauf: "Langsam aber stetig reduzieren sich \xfcber Monate Menge und H\xe4ufigkeit des Alkoholkonsums. Die Depressionen werden seltener und weniger intensiv. Nach vier Monaten kann das Antidepressivum vollst\xe4ndig abgesetzt werden. Die Patientin trinkt gelegentlich noch ein bis zwei Gl\xe4ser Rotwein, wei\xdf aber, dass dies nicht der Regelfall sein sollte. Ihre Eigenwahrnehmung, sie sei „Prinzessin auf der Erbse“, nimmt deutlich ab. Etwa ein Jahr sp\xe4ter berichtet sie, mit ihrem Ex-Mann einen netten Abend verbracht und eine Ann\xe4herung stattgefunden zu haben."
+  },
+  "homoeopathie-fall-5": {
+    fallbeschreibung: "Ein 51-j\xe4hriger Gymnasiallehrer f\xfcr Mathematik kommt wegen starker H\xfcftschmerzen (Coxalgie). Er humpelt, war bei mehreren Orthop\xe4den und Physiotherapeuten ohne Erfolg. Der Befund lautet: Coxarthrose mit starkem Gelenkverschlei\xdf. Empfehlung der \xc4rzte: k\xfcnstliches H\xfcftgelenk. Er ist sehr frustiert, denn er hatte bis vor kurzem regelm\xe4\xdfig Sport (Volleyball und Joggen) gemacht. Im Gespr\xe4ch wirkt er distanziert, nachdenklich, objektiv und manchmal gar scheu. Er hat sich wissenschaftlich mit seinem Krankheitsbild auseinandergesetzt, sein Wissen \xfcber die Erkrankung wirkt sehr fundiert. Horizontal verlaufende Stirnfalten, ein zustimmendes Nicken und eine insgesamt emotional zur\xfckhaltende Art geben erste Hinweise auf den Typ.",
+    diagnose: "Das distanzierte Auftreten, die Tendenz zur Wissensakkumulation, die horizontalen Stirnfalten als Blickqualit\xe4t, die emotionale Zur\xfcckhaltung und die Scheu vor anderen &ndash; all das sind Merkmale des <strong>Enneagrammtyps 5</strong>. Seine Grundleidenschaft ist der <strong>Geiz</strong>: Die zur\xfckhaltende, knappe Lebensenergie des F\xfcnfers schw\xe4cht auf Dauer die k\xf6rperliche Vitalit\xe4t und f\xf6rdert degenerative Prozesse in Gelenken und Geweben.",
+    heilmitteltext: "<strong>Stramonium (Stechapfel)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 5. In der Hom\xf6opathie wirkt der Stechapfel auf die zur\xfcckgehaltene Lebensenergie und gibt dem Organismus den Impuls, Blockaden zu l\xf6sen und degenerative Entwicklungen umzukehren. Ein klassisches &bdquo;Gelenk-Heilmittel&ldquo; des Enneagramms.",
+    verlauf: "Nach der Mittelgabe nehmen die H\xfcftschmerzen deutlich ab. Die Bewegungsf\xe4higkeit wird schrittweise wiederhergestellt. Binnen eines Jahres kann der Patient seine geliebten Sportarten in gem\xe4\xdfigter, altersentsprechender Form wieder aus\xfcben. Eine Operation wird auf unbestimmte Zeit verschoben. Auch der Zahnfleischbefund (Parodontose) hat sich nach ca. 3 Monaten merklich gebessert."
+  },
+  "homoeopathie-fall-6": {
+    fallbeschreibung: "Der 53-j\xe4hrige Schulleiter an einem Gymnasium kommt auf Empfehlung des im vorigen Fall beschriebenen Patienten in die hom\xf6opathische Praxis. Er leidet unter Versagens\xe4ngsten mit zahlreichen Auswirkungen auf Denken, F\xfchlen und Handeln: starkes Schwei\xdfen unter den Armen bei wichtigen Schulkonferenzen, Konzentrations- und Wortfindungsst\xf6rungen, vorzeitiger Samenerguss, st\xe4ndige innere Anspannung. Er \xe4rgert sich, dass er sich nicht selbstbewusst genug auftreten kann. In den letzten Jahren nehme seine \xc4ngstlichkeit zu, die innere Grenze, an der nichts mehr geht, werde immer n\xe4her. Er versucht, die Schule \xfcber immer mehr Regularien und Kontrollmechanismen zu f\xfchren.",
+    diagnose: "Die Unsicherheit, die \xc4ngstlichkeit, das Misstrauen gegen\xfcber anderen Lehrern, die Tendenz zu \xfcbertriebenen Kontrollmechanismen, das konstante Gef\xfchl des Versagens trotz Funktion &ndash; das sind klar erkennbare Merkmale des <strong>Enneagrammtyps 6</strong>. Seine Grundleidenschaft ist die <strong>Angst</strong>: Diese macht ihn l\xe4hmend, \xe4ndert seinen K\xf6rper (Schwei\xdfen, Sexualf\xf6rderung, Konzentration) und untergr\xe4bt seine Kompetenz als F\xfchrungsperson.",
+    heilmitteltext: "<strong>Opium (Schlafmohn)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 6. In der Hom\xf6opathie wirkt Opium auf die blockierte Kopfenergie &ndash; auf das Angst-Muster, das das klare Denken und die nat\xfcrliche Souver\xe4nit\xe4t eines Menschen l\xe4hmt. Es entsperrt die festgefrorene innere Kapazit\xe4t und gibt dem Sicherheitsorientierten seine angeborene Kompetenz zur\xfcck.",
+    verlauf: "In einem Zeitraum von ca. zwei Jahren wird der Patient therapeutisch begleitet und durch das Enneagramm sensibilisiert. Er entwickelt eine bessere Eigenwahrnehmung und kann Mitsch\xfclern und Sch\xfclern offener und weniger misstrauisch begegnen. Er wird deutlich gelassener. Die Spannungen im zwischenmenschlichen Bereich haben sich merklich verbessert, er wird seiner Aufgabe als Schulleiter wieder vollumf\xe4nglich gerecht. Auch das Schwei\xdfen w\xe4hrend der Konferenzen geh\xf6rt der Vergangenheit an."
+  },
+  "homoeopathie-fall-7": {
+    fallbeschreibung: "Eine 27-j\xe4hrige Verk\xe4uferin in einem Lebensmittel-Discounter berichtet im Erstgespr\xe4ch: Seit der Jugend leidet sie unter migr\xe4neartigen Kopfschmerzen; seit einigen Monaten zus\xe4tzlich unter schmerzhaften Gallensteinkoliken. Sie nimmt immer h\xf6here Dosen an Analgetika, die aber zunehmend weniger Wirkung zeigen. Ein MRT war unauff\xe4llig. Vor mir sitzt eine gut gelaunte, lebendige und optimistisch wirkende Frau voller Lebensfreude, die lacht, w\xe4hrend sie \xfcber ihre Symptome berichtet. Auff\xe4llig: rote Wangen, ein warmer fr\xf6hlicher Blick, entspannte Miene.",
+    diagnose: "Die Lebensfreude, das warme Auftreten, der optimistische Blick trotz starker Symptome &ndash; diese Indizien f\xfcgen sich ins Bild des <strong>Enneagrammtyps 7</strong>. Seine Grundleidenschaft ist die <strong>Ma\xdflosigkeit</strong>: Das umfunktionierte Kopfzentrum der Sieben, das st\xe4ndig Positivit\xe4t generiert und Schmerz umleitet, sucht sich den Ausweg \xfcber intensive k\xf6rperliche Symptome. Migr\xe4ne und Gallensteinkoliken als zwei Seiten eines intensiven K\xf6rperausdrucks.",
+    heilmitteltext: "<strong>Belladonna (Tollkirsche)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 7. Belladonna, klinisch bekannt f\xfcr Hitzesymptome, Pulsieren und intensive Krampfzust\xe4nde, entspricht exakt der umfunktionierten Kopfenergie des Siebers, die sich in heftigen, pl\xf6tzlichen K\xf6rpersymptomen entl\xe4dt. Das Heilmittel wirkt auf der Essenzebene der Ma\xdflosigkeit.",
+    verlauf: "Zun\xe4chst \xe4ndert sich am Gesundheitszustand wenig &ndash; eine Reaktion, die typisch f\xfcr den Heilungsverlauf der Enneagramm-Hom\xf6opathie ist. Dann aber, nach ca. vier Wochen und einer Mittelwiederholung, kommt es zu einer gro\xdfen Entspannung. Die Kopfschmerzproblematik verschwindet zusehends. Nach einer weiteren Mittelgabe treten keine Gallensteinkoliken mehr auf. Sechs Monate nach der Erstanamnese ist die Patientin in jeder Hinsicht beschwerdefrei und hat keinerlei Schmerzmittel mehr eingenommen."
+  },
+  "homoeopathie-fall-8": {
+    fallbeschreibung: "Ein 44-j\xe4hriger Mann sucht mich auf, weil er seit ca. 10 Jahren unter manischer Depression (bipolare affektive St\xf6rung) leidet. In Maniephasen rief er seine Freunde an und teilte mit, er sei der Nachfolger Jesu Christi; in Depressionsphasen verfiel er in selbstzerst\xf6rerische Gedanken bis zum Suizidwunsch. Er hatte bereits einige l\xe4ngere Aufenthalte in psychiatrischen Kliniken. Im Gespr\xe4ch wird deutlich: Er neigt stark zur Kontrolle von Mitmenschen, agiert in Beziehungen rücksichtslos, will immer im Ton angeben. Er ist stark selbstbezogen, besitzt wenig Empathie, denkt h\xe4ufig nur an sich und seinen Vorteil. Starke k\xf6rperliche Pr\xe4senz, immense Energie, besondere energetische Intensit\xe4t.",
+    diagnose: "Die \xfcberentwickelte Bauchenergie, die Dominanz, der Kontrollwunsch, die Selbstbezogenheit, die Intensit\xe4t &ndash; das sind klare Merkmale des <strong>Enneagrammtyps 8</strong>. Seine Grundleidenschaft ist die <strong>Gier (Wollust)</strong>: Die \xfcberentwickelte Bauchenergie des Achters findet keinen nat\xfcrlichen Kanal mehr, schwankt zwischen extremen Erh\xf6hungs- und Erniedrigung-Zust\xe4nden (Manie und Depression) und bringt das gesamte System aus dem Gleichgewicht.",
+    heilmitteltext: "<strong>Veratrum album (Wei\xdfer Germer)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 8. Der wei\xdfe Germer entspricht homöopathisch der \xfcbersteigerten Selbst\xfcbersch\xe4tzung (bis zur Gottgleichheit), dem Macht- und Kontrolldrang und dem explosiven K\xf6rperausdruck. Es wirkt auf der Essenzebene der Gier und bringt die extreme Pendelbewegung der bipolaren Energie zur Ruhe.",
+    verlauf: "Durch die Mittelgabe sowie die intensive Besch\xe4ftigung mit dem Enneagrammtyp 8 lernt der Patient, seine sanfteren Z\xfcge zu entwickeln und eigene Verletzlichkeit zuzulassen. Er erkennt den Abwehrmechanismus der Leugnung von Schw\xe4che und beginnt, sich anzupassen. Ca. ein Jahr nach der ersten Mittelverordnung kann er seine schulmedizinischen Medikamente auf ein Minimum reduzieren. Er f\xfchlt sich lebendiger und ausgeglichener, nimmt aktiver am Leben teil. Keine weiteren Psychiatrie-Einweisungen seit Behandlungsbeginn."
+  },
+  "homoeopathie-fall-9": {
+    fallbeschreibung: "Ein 53-j\xe4hriger Mann kommt wegen immer wiederkehrender (rezidivierender) H\xe4morrhoidalblutungen und Adipositas. Bei jedem Stuhlgang findet sich Blut in der Toilette. Eine Darmspiegelung ergab H\xe4morrhoidalleiden Stadium II sowie Fettleber. BMI 31, Adipositas Grad I. Er arbeitet sitzend bei der Arbeitsagentur, ist nach eigenen Angaben zu tr\xe4ge, um sich in der Freizeit ausreichend zu bewegen. Er ern\xe4hrt sich haupts\xe4chlich von Fertigprodukten und Fast Food, isst nach der Arbeit Unmengen an S\xfc\xdfigkeiten. Er hat einen erh\xf6hten Schlafbedarf von t\xe4glich 9–10 Stunden und ist seit 10 Jahren geschieden.",
+    diagnose: "Die Bindung an das Physische (Essen, Schlafen, Besitz), die Passivit\xe4t, die Selbstvergessenheit, das freundlich-tr\xe4ge Wesen, das Gef\xfchl, selbst nicht geliebt zu werden, das durch Nahrungsaufnahme kompensiert wird &ndash; das sind klar erkennbare Zeichen des <strong>Enneagrammtyps 9</strong>. Seine Grundleidenschaft ist die <strong>Tr\xe4gheit</strong>: Die selbsterhaltende Tr\xe4gheit sperrt die Lebenskraft, f\xfchrt zu k\xf6rperlicher Stagnation, Gef\xe4\xdfproblemen und metabolischen Dysbalancen. Der Wunsch nach Liebe geht buchst\xe4blich in den K\xf6rper.",
+    heilmitteltext: "<strong>Cannabis (Hanf)</strong> ist das hom\xf6opathische Enneagramm-Heilmittel f\xfcr den Typ 9. In der Hom\xf6opathie wirkt Cannabis auf genau jene tr\xe4ge, stagnative Energie, die den K\xf6rper blockiert und ihn in einem Zustand der Selbstvergessenheit h\xe4lt. Es entsperrt die Lebenskraft des Neuners und gibt dem Organismus den Impuls zur Bewegung auf allen Ebenen.",
+    verlauf: "Zun\xe4chst wenig Ver\xe4nderung. Erst durch wiederholte Mittelgaben in aufsteigenden Dosierungen zeigen sich nach Monaten die ersten Zeichen der Verbesserung. Die Blutungen bleiben nach mehreren Mittelverordnungen ganz aus, die Erkrankung heilt vollst\xe4ndig. Die krankhaften H\xe4morrhoiden verschwinden dauerhaft. Nach und nach nimmt der Patient im Laufe der Monate an Gewicht ab: Von 96 kg auf 90 kg nach vier Monaten, BMI von 31 auf 29 gesunken. Er macht moderate, regelm\xe4\xdfige Spazierg\xe4nge, erkennt, dass Nahrung kein Ersatz f\xfcr Liebesgef\xfchle sein kann, und berichtet von mehr Lebensfreude und sozialen Kontakten."
+  }
+};
+
+function homoeopathieFallPage(route) {
+  const base = HOMOEOPATHIE_FAELLE.find(f => f.route === route);
+  const detail = HOMOEOPATHIE_FALL_DETAILS[route];
+  if (!base || !detail) return shell(`<div class="page-container">${pageHeader('enneagramm-homoeopathie')}<p style="padding:2rem;">Fall nicht gefunden.</p></div>`);
+  return _homoeopathieFallPage(Object.assign({}, base, detail));
+}
 
 // ─── Enneagramm meets Astrologie ───────────────────────────────────────────
 
@@ -37276,6 +37448,8 @@ function render() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
+      ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,

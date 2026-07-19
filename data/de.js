@@ -5156,6 +5156,7 @@ export const uiText = {
       { route: "quiz", label: "Quiz" },
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
+      { route: "enneagramm-homoeopathie", label: "Enneagramm meets Hom\xf6opathie" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
       { route: "tierlexikon", label: "Tierlexikon" },
