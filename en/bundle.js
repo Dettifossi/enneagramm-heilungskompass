@@ -1904,7 +1904,9 @@ function neuigkeitenSection() {
   const items = neu.map(e =>
     `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
-      <span>${e.text_en || e.text}</span>
+      ${e.route
+        ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text_en || e.text}</a>`
+        : `<span>${e.text_en || e.text}</span>`}
     </li>`
   ).join('');
   return `

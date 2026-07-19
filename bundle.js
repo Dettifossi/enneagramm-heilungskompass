@@ -402,12 +402,23 @@ const BERUEHMT_PORTRAITS = [
     tags:["Schauspiel"] },
 ];
 
+const ASTROLOGIE_PORTRAITS = [
+  { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner – Selbsterhaltender Typ 1",  teaser:"SE1w9 · geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder – Perfektionismus als Überlebensstrategie." },
+  { route:"astrologie-marilyn-monroe",    name:"Marilyn Monroe",    subtyp:"SX3w4",  heading:"Marilyn Monroe – Sexueller Typ 3",             teaser:"SX3w4 · 1926–1962. Schauspielerin, Ikone. Sonne Zwillinge, Mond Wassermann im 7. Haus, AC Löwe, MC Stier – Glamour und Tragik als zwei Seiten einer Seele." },
+  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand." },
+  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt." },
+  { route:"astrologie-albert-einstein",   name:"Albert Einstein",   subtyp:"SO5w6",  heading:"Albert Einstein – Sozialer Typ 5",             teaser:"SO5w6 · 1879–1955. Physiker, Nobelpreisträger. Sonne Fische im 10. Haus, Mond Schütze im 6. Haus, AC Krebs, MC Fische – die kosmische Formel des Genies." },
+  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz." },
+  { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexueller Typ 8",           teaser:"SX8w7 · geb. 1944. Bundeskanzler 1998–2005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische – der Instinktpolitiker der Macht." },
+  { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Selbsterhaltende Typ 9",       teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Schütze im 3. Haus – die unbewegliche Vermittlerin der Macht." },
+];
+
 // NEU-Markierungen für Schaubilder: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -1009,6 +1020,26 @@ function leseprobePage() {
         </div>
       </div>
 
+      <!-- Enneagramm meets Astrologie -->
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
+          Enneagramm meets Astrologie
+        </h2>
+        <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
+          ${ASTROLOGIE_PORTRAITS.length} Horoskop-Analysen berühmter Persönlichkeiten &ndash; Enneagramm und Radix-Horoskop im Dialog. Beide Systeme blicken auf dieselbe tiefere Wahrheit.
+        </p>
+        <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
+          Von Reinhold Messner bis Angela Merkel, von Marilyn Monroe bis Albert Einstein &ndash; Kosmischer Bauplan trifft psychologische Landkarte.
+        </p>
+        <div style="margin-top:0.5rem;">
+          <button data-route="enneagramm-astrologie"
+            style="background:none;border:1px solid var(--gold);color:var(--copper);
+                   border-radius:8px;padding:.4rem 1rem;font-size:0.83rem;cursor:pointer;">
+            Alle Analysen ansehen &rarr;
+          </button>
+        </div>
+      </div>
+
       <!-- Kriminalpsychologie -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
@@ -1465,7 +1496,9 @@ function neuigkeitenSection() {
   const items = neu.map(e =>
     `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
-      <span>${e.text}</span>
+      ${e.route
+        ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
+        : `<span>${e.text}</span>`}
     </li>`
   ).join('');
   return `
@@ -11705,6 +11738,245 @@ function bracoPortraitPage() {
   `);
 }
 
+
+// ─── Enneagramm meets Astrologie ───────────────────────────────────────────
+
+function enneagrammAstrologiePage() {
+  function card(p) {
+    const n = parseInt((p.subtyp||'').replace(/[^0-9]/,'').charAt(0));
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[n] : null) || 'var(--copper)';
+    return `<div class="kf-card" data-route="${p.route}" onclick="go('${p.route}')" style="cursor:pointer;border-radius:10px;border:1px solid var(--border);padding:1rem 1.1rem;background:var(--ivory);">
+      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${col};margin-bottom:0.25rem;">${p.subtyp}</div>
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin-bottom:0.3rem;">${p.name}</div>
+      <div style="font-size:0.85rem;color:var(--muted);line-height:1.5;">${p.teaser}</div>
+    </div>`;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm meets Astrologie')}
+      <p class="psycho-intro">Zwei Systeme – ein Mensch. Astrologie und Enneagramm beschreiben denselben Kern einer Persönlichkeit aus verschiedenen Blickwinkeln: der kosmische Bauplan des Radix-Horoskops und die psychologische Landkarte der 9 Kernmotivationen. In diesen Analysen treffen beide aufeinander und zeigen, wie energetische Anlagen und unbewusste Überlebensstrategien ineinandergreifen.</p>
+      <div style="display:flex;flex-direction:column;gap:1rem;max-width:100%;margin-bottom:2rem;">
+        ${ASTROLOGIE_PORTRAITS.map(card).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten – Porträts"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+        {route:"psychogramme", label:"Psychogramme"},
+      ])}
+    </div>
+  `);
+}
+
+function _astrologiePage(p, analysisHtml) {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm meets Astrologie')}
+      <div id="js-back-target" data-route="enneagramm-astrologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/astrologie-${p.slug}-foto.jpg" alt="${p.name}" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">${p.name}</p>
+        <p class="krim-portrait-typ">${p.subtyp} &middot; ${p.subtypLabel}</p>
+        <p class="krim-portrait-subtitle">${p.subtitle}</p>
+      </div>
+      <div class="page-content">
+        <div style="margin:1.2rem 0 1.8rem;border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/astrologie-${p.slug}-horoskop.jpg" alt="Radix-Horoskop ${p.name}" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0.4rem 0 0;padding:0 0.5rem 0.6rem;">Radix-Horoskop &middot; ${p.name}</p>
+        </div>
+        ${analysisHtml}
+      </div>
+      ${bookTip("enneagramm-und-astrologie", "Wie kosmischer Bauplan und Enneagramm-Typen zusammenwirken – mit Beispielanalysen.", "Enneagramm und Astrologie")}
+      ${relatedLinks([
+        {route:"enneagramm-astrologie", label:"Alle Astrologie-Analysen"},
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+      ])}
+    </div>
+  `);
+}
+
+function astrologieReinholdMessnerPage() {
+  return _astrologiePage(
+    { slug:"reinhold-messner", name:"Reinhold Messner", subtyp:"SE1w9",
+      subtypLabel:"Selbsterhaltender Typ 1 mit Neunerflügel",
+      subtitle:"Extrembergsteiger, geb. 1944 – Erster Mensch auf allen 14 Achttausendern ohne Sauerstoffmaske" },
+    `<h2 class="vb-section">SE1w9 – Der asketische Perfektionist</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Reinhold Messner verkörpert das klassische Profil der <strong>selbsterhaltenden Eins mit Neunerflügel (SE1w9)</strong> – den asketischen Perfektionisten. Sein Dasein kreist um absolute Selbstbeherrschung, fehlerfreie Vorbereitung und das unermüdliche Streben nach dem Richtigen. Der Neunerflügel lenkt diese Energie in die weite, ungestörte Stille der Natur.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Jungfrau (9. Haus):</strong> Das Zeichen der absoluten Sorgfalt und des unbestechlichen Geistes. Das Horoskop beschreibt ein tiefes Bedürfnis, alles „gut und genau zu tun" – ein Merkmal, das bei einem Extrembergsteiger buchstäblich lebensrettend ist. Die Jungfrau-Energie entspricht exakt der fehlervermeidenden Dynamik der Eins.</p>
+      <p class="vb-intro"><strong>Mond ebenfalls in der Jungfrau:</strong> Seine tiefsten emotionalen Bedürfnisse sind auf detaillierte Ordnung und Exaktheit ausgerichtet. Achtsamkeit ist sein „heilsames Zauberwort". Dieser Mond verankert seine emotionale Sicherheit im Konkreten und Greifbaren.</p>
+      <p class="vb-intro"><strong>Venus und Mars in der Waage im 4. Haus (Neunerflügel):</strong> Die seelische Heimat sucht nach Frieden, Harmonie und Schönheit. Der Neunerflügel findet in der unberührten Natur seinen Rückzugsort – die einsame Stille der Berge ist sein innerer Friedensort.</p>
+      <p class="vb-intro"><strong>Aszendent Krebs:</strong> Eine feinfühlige, schützende Aura, hinter der er – ganz der selbsterhaltenden Eins entsprechend – eigene Verletzlichkeit verbirgt.</p>
+      <p class="vb-intro"><strong>MC im Widder:</strong> Das Lebensziel fordert ihn heraus, Initiativkraft zu entwickeln und als einsamer Pionier Neuland zu betreten. Das MC im Widder macht aus der disziplinierten Eins den ultimativen Grenzgänger.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Die Jungfrau-Sonne, der Jungfrau-Mond und die selbsterhaltende Eins bildeten eine unschlagbare Allianz für fehlerfreie Vorbereitung auf Expeditionen, bei denen jeder kleinste Fehler den Tod bedeutet hätte. Das Widder-MC peitschte diese disziplinierte Energie voran – als einsamer Pionier historische Neuland-Erfahrungen zu erobern.</p>
+    </div>`
+  );
+}
+
+function astrologieMarilynMonroePage() {
+  return _astrologiePage(
+    { slug:"marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4",
+      subtypLabel:"Sexueller Typ 3 mit Viererflügel",
+      subtitle:"Schauspielerin, 1926–1962 – Ikone des 20. Jahrhunderts" },
+    `<h2 class="vb-section">SX3w4 – Glamour und die Suche nach dem echten Selbst</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Marilyn Monroe verkörpert das klassische Profil der <strong>sexuellen Drei mit Viererflügel (SX3w4)</strong>. Die sexuelle Drei sucht die totale Faszination, will begehrt und bewundert werden – und lebt gleichzeitig mit der tiefen Angst, hinter der Maske leer zu sein. Der Viererflügel bringt eine melancholische Tiefe, eine Sehnsucht nach dem authentischen Selbst.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Zwillinge:</strong> Wandlungsfähigkeit, Rollenspiel, Anpassung – die Zwillinge-Sonne gibt ihr die Fähigkeit, sich jeder Erwartung anzupassen und immer neu zu erscheinen. Doch diese Vielseitigkeit birgt die Gefahr, das eigene Ich zu verlieren.</p>
+      <p class="vb-intro"><strong>Mond im Wassermann im 7. Haus:</strong> Das Haus der Partnerschaften und Beziehungen. Ihr emotionales Grundgefühl ist eines der Einzigartigkeit und Distanz – gleichzeitig sucht sie verzweifelt die tiefe Verbindung. Der Wassermann-Mond hält sie auf Abstand vom Erleben echter Zugehörigkeit.</p>
+      <p class="vb-intro"><strong>Aszendent Löwe:</strong> Die natürliche Bühne. Der Löwe-Aszendent schenkt ihr die magnetische, strahlende Präsenz – das Auftreten der Göttin. Doch dieser Aszendent ist auch die Maske: die strahlende Außenwirkung, hinter der Norma Jeane verborgen blieb.</p>
+      <p class="vb-intro"><strong>MC Stier:</strong> Das Lebensziel weist auf innere Beständigkeit und Selbstwert unabhängig vom Applaus. Die tiefste Heilungsaufgabe: den eigenen Wert unabhängig von Bewunderung zu finden.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Löwe-Aszendent und Zwillinge-Sonne schufen die perfekte Glamour-Maschine, während der Wassermann-Mond im 7. Haus und der Viererflügel nach echter Verbindung und authentischer Identität hungerten. Diese innere Zerrissenheit zwischen dem strahlenden Bild und dem suchenden Inneren machte Marilyn Monroe zur tragischsten Ikone des Jahrhunderts.</p>
+    </div>`
+  );
+}
+
+function astrologieRomySchneiderPage() {
+  return _astrologiePage(
+    { slug:"romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
+      subtypLabel:"Soziale Typ 4 mit Dreierflügel",
+      subtitle:"Schauspielerin, 1938–1982 – Die Kaiserin der europäischen Leinwand" },
+    `<h2 class="vb-section">SO4w3 – Die aristokratische Vier</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Romy Schneider verkörpert das klassische Profil der <strong>sozialen Vier mit Dreierflügel (SO4w3)</strong>. Die soziale Vier leidet unter tiefer existenzieller Scham und dem Gefühl, missverstanden zu sein – und trägt diesen Schmerz mit aristokratischer Würde. Der Dreierflügel bringt die Lust an der Bühne, den Ehrgeiz und das Verlangen nach öffentlicher Anerkennung.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne und Mond Waage im 4. Haus:</strong> Eine tiefe Bindung an die familiäre Herkunft, ein schmerzhafter Kampf um Emanzipation. Das 4. Haus verweist auf die familiären Fesseln – und den lebenslangen Prozess, sich daraus zu befreien. Der Waage-Mond neigte dazu, Streit zu vermeiden und es allen recht zu machen.</p>
+      <p class="vb-intro"><strong>Aszendent Zwillinge:</strong> Ein waches, leichtfüßiges Auftreten – die Maske der intellektuellen Leichtigkeit über der schweren Vier.</p>
+      <p class="vb-intro"><strong>Venus im Skorpion im 5. Haus:</strong> Das 5. Haus ist das Haus des Theaters und der Kunst. Die Skorpion-Venus forderte radikale Tiefe, lebte nach dem Alles-oder-Nichts-Prinzip und machte sie zu einer der größten Schauspielerinnen des Jahrhunderts.</p>
+      <p class="vb-intro"><strong>MC Wassermann:</strong> Das Lebensziel rief sie auf, ihre persönliche Kraft als visionäre Führungsfigur auf einer weiten Bühne zu inszenieren.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Waage-Sonne und -Mond im 4. Haus machten sie in Kombination mit der sozialen Vier zu einem verletzlichen Seismographen, der sich zeitlebens von familiären Fesseln emanzipieren musste. Die Skorpion-Venus im 5. Haus und der Dreierflügel lieferten den Treibstoff, um inneren Schmerz in legendäre Filmrollen zu verwandeln.</p>
+    </div>`
+  );
+}
+
+function astrologieJohnLennonPage() {
+  return _astrologiePage(
+    { slug:"john-lennon", name:"John Lennon", subtyp:"SO4w5",
+      subtypLabel:"Sozialer Typ 4 mit Fünferflügel",
+      subtitle:"Musiker, Friedensaktivist, 1940–1980 – Mitgründer der Beatles" },
+    `<h2 class="vb-section">SO4w5 – Der intellektuelle Individualist</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">John Lennon verkörpert das klassische Profil der <strong>sozialen Vier mit Fünferflügel (SO4w5)</strong> – den tragischen Romantiker und intellektuellen Individualisten. Die soziale Vier klagt das System an, bricht Tabus und kämpft für eine idealisierte, bessere Welt. Der Fünferflügel bringt analytische Distanz, kriminalistische Neugier und Faszination für das Verborgene.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Waage im 7. Haus:</strong> Kreativität und Identität entdeckt er im Spiegel des Partners – seine legendäre Symbiose mit Yoko Ono. Gleichzeitig machte ihn sein sensibles Gespür für harmonische Zustände zur weltweiten Ikone der Friedensbewegung.</p>
+      <p class="vb-intro"><strong>Aszendent Fische:</strong> Eine „geheimnisvolle Transparenz" und seismographische Sensoren für die Tiefen der Seele anderer – und die emotionale Verwundbarkeit der Vier.</p>
+      <p class="vb-intro"><strong>Mond im Wassermann im 11. Haus:</strong> Eine Kindheit voller Unruhe und Umbrüche, die eine rebellische Unabhängigkeit und bewusste Exzentrik entstehen ließ. Er fühlte sich der gesamten Menschenfamilie zugehörig.</p>
+      <p class="vb-intro"><strong>Merkur im Skorpion im 8. Haus (Fünferflügel):</strong> Ein durchdringender Geist, der keine gesellschaftlichen Tabus scheute. Bei Verletzungen nutzte er den sarkastischen, scharfzüngigen „Stachel" des Skorpions.</p>
+      <p class="vb-intro"><strong>MC Schütze:</strong> Das ultimative Lebensziel – die eigene Philosophie entwickeln und als Botschaft der Wahrheit in die Welt tragen. „Imagine" ist das Manifest dieses Schütze-MCs.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Waage-Sonne im 7. Haus, Fische-Aszendent und soziale Vier machten ihn zu einem hochempfindsamen Seismographen. Der Wassermann-Mond und der Skorpion-Merkur im 8. Haus lieferten das intellektuelle und provokante Rüstzeug – das Schütze-MC richtete seinen Blick stets auf den Horizont einer friedlichen Utopie.</p>
+    </div>`
+  );
+}
+
+function astrologieAlbertEinsteinPage() {
+  return _astrologiePage(
+    { slug:"albert-einstein", name:"Albert Einstein", subtyp:"SO5w6",
+      subtypLabel:"Sozialer Typ 5 mit Sechserflügel",
+      subtitle:"Physiker, Nobelpreisträger, 1879–1955 – Begründer der Relativitätstheorie" },
+    `<h2 class="vb-section">SO5w6 – Der Meister des Systems</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Albert Einstein verkörpert das klassische Profil der <strong>sozialen Fünf mit Sechserflügel (SO5w6)</strong>. Die soziale Fünf will die übergeordneten, universellen Gesetze verstehen und einen bleibenden Beitrag für die Gemeinschaft leisten. Der Sechserflügel bringt strukturierte, analytische Gründlichkeit und ein starkes Systembewusstsein.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Fische im 10. Haus:</strong> Ein „Träumer und Visionär", der in inneren Welten lebt, die hinter der alltäglichen Realität liegen. Das 10. Haus – das Haus der Berufung – zwingt diese Fünfer-Energie ins Licht: Er empfindet das unerschütterliche Bedürfnis, seine Visionen als „speziellen Beitrag" für das große Ganze zu leisten.</p>
+      <p class="vb-intro"><strong>MC ebenfalls im Zeichen Fische:</strong> Sein Lebensweg fordert ihn explizit auf, „zu enge Grenzen aufzulösen und Raum für alternative Sichtweisen zu eröffnen". Die Relativitätstheorie und die Suche nach der Weltformel sind das perfekte Abbild dieses kosmischen Auftrags.</p>
+      <p class="vb-intro"><strong>Merkur im Widder im 10. Haus (Sechserflügel):</strong> Ein unerschrockener, bahnbrechender Denkstil. Er stürzt sich mit Kampfgeist auf neue Projekte und setzt revolutionäre gedankliche Impulse.</p>
+      <p class="vb-intro"><strong>Mond im Schütze im 6. Haus:</strong> Die Detailverliebtheit, die eine Fünf mit Sechserflügel für wissenschaftliche Präzision benötigt – ein tiefes Bedürfnis nach Qualität und Perfektionismus.</p>
+      <p class="vb-intro"><strong>Aszendent Krebs:</strong> Eine persönliche, fast kindhaft offene Note und einfühlsame Zuwendung – hinter der er seine eigene, hochsensible Natur verbarg.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Fische-Sonne im 10. Haus und soziale Fünf wollten dasselbe: die unsichtbare, universelle Ordnung finden und sie der Menschheit schenken. Der Widder-Merkur zündete die revolutionären Ideen, während der Mond im 6. Haus die akribische Fünfer-Struktur für die mathematische Ausarbeitung lieferte.</p>
+    </div>`
+  );
+}
+
+function astrologieBorisBeckerPage() {
+  return _astrologiePage(
+    { slug:"boris-becker", name:"Boris Becker", subtyp:"SX7w8",
+      subtypLabel:"Sexueller Typ 7 mit Achterflügel",
+      subtitle:"Tennisprofi, geb. 1967 – Dreifacher Wimbledon-Sieger, Olympiasieger" },
+    `<h2 class="vb-section">SX7w8 – Leichtigkeit und Tiefe im ewigen Tanz</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Boris Becker verkörpert das klassische Profil der <strong>sexuellen Sieben mit Achterflügel (SX7w8)</strong>. Der sexuelle Subtyp sucht den absoluten Rausch, Faszination, Extreme und eine tiefe, fast magische Intensität im Duell. Der Achterflügel bringt die Härte, Ausdauer und Macher-Mentalität.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Aszendent Schütze:</strong> Die Energie der Sieben in Reinform – unbändige Suche nach neuen Horizonten, tiefer Optimismus und unerschütterlicher Glaube an ein gutes Ende. Der expansive Bewegungsdrang spiegelt exakt die Kernenergie des Enthusiasten.</p>
+      <p class="vb-intro"><strong>Sonne im Zeichen Skorpion, Mond im 8. Haus:</strong> Das Fundament des sexuellen Subtyps. Leidenschaftliche Liebe, aber auch gnadenlose Wahrheit. Die Gefühlswelt durchlebt alle Schattierungen von Leidenschaft, Macht und tiefer Intensität.</p>
+      <p class="vb-intro"><strong>Mars im Zeichen Steinbock im 2. Haus (Achterflügel):</strong> Die unerbittliche Macher-Mentalität. Zähe, verlässliche und konsequente Ausdauer – auch Härte gegen sich selbst. Der Instinkt, sich eine stabile, unabhängige Festung zu bauen.</p>
+      <p class="vb-intro"><strong>Venus und MC im Zeichen Waage im 10. Haus:</strong> Unwiderstehlicher Charme, diplomatisches Geschick, Galanterie – das Ausgleichselement, das die Energie des Kämpfers abmildert.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Der Schütze-Aszendent schenkt den Optimismus der Sieben, die Skorpion-Tiefe entfacht das Feuer des sexuellen Subtyps, der Steinbock-Mars liefert den unerbittlichen Kampfgeist des Achterflügels, und die Waage-Platzierungen runden das Bild mit glanzvoller Eleganz ab.</p>
+    </div>`
+  );
+}
+
+function astrologieGerhardSchroederPage() {
+  return _astrologiePage(
+    { slug:"gerhard-schroeder", name:"Gerhard Schröder", subtyp:"SX8w7",
+      subtypLabel:"Sexueller Typ 8 mit Siebenflügel",
+      subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005" },
+    `<h2 class="vb-section">SX8w7 – Der Instinktpolitiker der Macht</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Gerhard Schröder verkörpert das archetypische Profil der <strong>sexuellen Acht mit Siebenflügel (SX8w7)</strong> – den Herausforderer und Pionier. Die sexuelle Acht sucht den leidenschaftlichen Schlagabtausch, will dominieren und mitreißen. Der Siebenflügel bringt Charisma, strategischen Weitblick und die Lust am Lebensspiel.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Widder im 10. Haus:</strong> Das pure, feurige Impulsprinzip des Tierkreises. Das Horoskop beschreibt ihn als jemanden, der in „selbstverständlicher Annahme seines triumphalen Sieges in die Welt" geht. Wenn ihn etwas begeistert, ist er sofort „Feuer und Flamme".</p>
+      <p class="vb-intro"><strong>Merkur im Stier im 10. Haus (Siebenflügel):</strong> Solides, bodenständiges, absolut pragmatisches Denken. In politischen Auseinandersetzungen erlaubt dieser Stier-Merkur der Acht, Positionen „stur und beharrlich auszusitzen". Zudem verleiht er eine „schöne, wohltönende Stimme".</p>
+      <p class="vb-intro"><strong>Venus im Zeichen Fische im 10. Haus:</strong> Auf dem gesellschaftlichen Parkett nutzt die Acht ihren „ganzen Charme", Verhandlungsgeschick und Diplomatie. Die Venus im 10. Haus lässt ihn das Rampenlicht genießen.</p>
+      <p class="vb-intro"><strong>Aszendent Krebs, Mars im Krebs im 12. Haus:</strong> Ein weicher, beschützender Kern hinter der wuchtigen Fassade. Doch der verborgene Mars neigt bei Kränkungen zu emotionalen Überreaktionen.</p>
+      <p class="vb-intro"><strong>MC Fische:</strong> Das Lebensziel konfrontiert die kontrollierende Acht mit der Aufgabe, enge Grenzen aufzulösen – das kämpferische Ego in den Dienst sozialer Belange zu stellen.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Widder-Sonne im 10. Haus und sexuelle Acht bildeten die perfekte Symbiose für den unbedingten Willen zum Sieg. Der Stier-Merkur und der Siebenflügel lieferten die Ausdauer, um Krisen stur auszusitzen – kombiniert mit dem Talent, einflussreiche Netzwerke zu knüpfen.</p>
+    </div>`
+  );
+}
+
+function astrologieAngelaMerkelPage() {
+  return _astrologiePage(
+    { slug:"angela-merkel", name:"Angela Merkel", subtyp:"SE9w8",
+      subtypLabel:"Selbsterhaltende Typ 9 mit Achterflügel",
+      subtitle:"Bundeskanzlerin, geb. 1954 – Kanzlerin der Bundesrepublik Deutschland 2005–2021" },
+    `<h2 class="vb-section">SE9w8 – Die unbewegliche Vermittlerin</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Angela Merkel verkörpert das klassische Profil der <strong>selbsterhaltenden Neun mit Achterflügel (SE9w8)</strong>. Die selbsterhaltende Neun strebt nach innerem Frieden, entschärft Konflikte durch Aussitzen und besitzt im Hintergrund eine erstaunliche, fast unbewegliche Stabilität. Der Achterflügel verleiht ein untergründiges Fundament aus Stein – wenn die 9w8 bedrängt wird, schaltet sie auf sturen Widerstand.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Zeichen Krebs im 10. Haus:</strong> Das Zeichen des Schutzes, der Fürsorge und des emotionalen Fundaments. Das 10. Haus zwingt diese schützende Neuner-Energie in die Öffentlichkeit – sie empfindet ihre Aufgabe als echte Berufung und beweist „Zähigkeit und Ausdauer".</p>
+      <p class="vb-intro"><strong>MC ebenfalls im Krebs:</strong> Das Lebensziel verbindet „Einfühlungsvermögen mit Struktur und Verantwortlichkeit" – und zeigt, dass sie gelernt hat, mit Einschränkungen zu leben, viel auszuhalten und einen Schutzpanzer zu entwickeln.</p>
+      <p class="vb-intro"><strong>Aszendent Waage:</strong> Diplomatisches Geschick, liebenswürdige Verbindlichkeit, harmonische Atmosphäre – das Werkzeug der harmoniesuchenden Neun zur Vermeidung von Reibungen.</p>
+      <p class="vb-intro"><strong>Venus im Zeichen Jungfrau im 11. Haus:</strong> Analytische Schärfe, intellektuelle Unbestechlichkeit, realistische Nüchternheit. Ein „differenzierter, klarer und unbestechlicher Verstand".</p>
+      <p class="vb-intro"><strong>Mars im Schütze im 3. Haus (Achterflügel):</strong> Die verborgene Kraft. Schlagfertigkeit als „Waffenarsenal", die Fähigkeit, sich mit profundem Wissen durchzusetzen und politische Gegner zu überdauern.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Krebs-Sonne im 10. Haus, Waage-Aszendent und selbsterhaltende Neun bildeten das perfekte Fundament für eine Politik des Moderierens und Schützens. Die analytische Jungfrau-Venus und der kraftvolle Schütze-Mars verliehen ihr in Kombination mit dem Achterflügel die Fähigkeit, im entscheidenden Moment eine unerschütterliche Position einzunehmen.</p>
+    </div>`
+  );
+}
 
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
@@ -36647,6 +36919,15 @@ function render() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "enneagramm-astrologie": enneagrammAstrologiePage,
+      "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
+      "astrologie-marilyn-monroe": astrologieMarilynMonroePage,
+      "astrologie-romy-schneider": astrologieRomySchneiderPage,
+      "astrologie-john-lennon": astrologieJohnLennonPage,
+      "astrologie-albert-einstein": astrologieAlbertEinsteinPage,
+      "astrologie-boris-becker": astrologieBorisBeckerPage,
+      "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
+      "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
