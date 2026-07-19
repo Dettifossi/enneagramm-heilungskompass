@@ -9282,7 +9282,7 @@ function borisBeckerPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, stürmischsten Form. Der Schimpanse braucht Intensität: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Ungesetzter &ndash; und verließ ihn als jüngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, stürmischsten Form. Der Schimpanse braucht Intensität: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Unbekannter &ndash; und verließ ihn als jüngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
           <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalkül, kein Zögern &ndash; nur der Moment, der alles ist.</p>
         </blockquote>
 
