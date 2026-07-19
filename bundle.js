@@ -15608,7 +15608,7 @@ function borisBeckerKriminalPage() {
         Unmittelbarkeit, die keine langen Planungshorizonte kennt.
         Boris Becker war auf dem Platz genau das: ein Tier des Augenblicks.
         Sein Wimbledon-Finale 1985 war kein berechneter Sieg &ndash;
-        es war ein 17-jähriger, der mit dem Körper seines Schimpansen spielte
+        es war ein 17-jähriger, der mit dem Körper eines Schimpansen spielte
         und die ganze Welt mitgerissen hat.
         Doch der Schimpanse lebt im Jetzt. Was gestern war, ist ihm gleichgültig.
         Und was kommen wird, interessiert ihn nicht.
@@ -15694,7 +15694,7 @@ function borisBeckerKriminalPage() {
         Er ist ein Fall von totaler Identifikation mit einem Selbstbild
         &ndash; und einer tiefen Unfähigkeit, das Ende dieses Bildes zu akzeptieren.
         Die sexuelle Sieben mit Achterflügel baut ihr Leben auf Intensität.
-        Wenn diese Intensität dauerhaft fehlt, gerät das ganze Konstrukt ins Schwanken.
+        Wenn diese Intensität dauerhaft fehlt, gerät das ganze Konstrukt ins Wanken.
         Das Verbergen der Wimbledon-Trophäen ist &ndash; psychologisch gelesen &ndash;
         nicht das Handeln eines kühlen Betrügers.
         Es ist das Festhalten an den letzten greifbaren Überresten von etwas,
