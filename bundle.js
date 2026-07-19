@@ -152,6 +152,7 @@ const KRIMINAL_PORTRAITS = [
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Sozialer Typ 7",                                  teaser:"SO7w6 – US-amerikanischer Familienmörder, geb. 1985. Ermordete seine schwangere Frau und zwei Töchter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, fünfmal lebenslänglich. Tierentsprechung: Biber." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexueller Typ 7",                                       teaser:"SX7w8 – US-amerikanische Serienmörderin, 1956–2002. Sieben Morde an Männern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterflügel: idealisierte Liebe als Überlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-boris-becker",         name:"Boris Becker",                         added:"2026-07-19",  subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",                              teaser:"SX7w8 – Tennisprofi, geb. 1967 in Leimen. Dreifacher Wimbledon-Sieger, jüngster Champion der Geschichte – und 2022 in Großbritannien verurteilt wegen Insolvenzvergehen. Die sexuelle Sieben mit Achterflügel: Ruhm als Überlebensfundament, Verleugnung der Grenzen, Vergangenheit als unaufgebbares Selbstbild. Tierentsprechung: Schimpanse." , tags:["Betrug"]},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Selbsterhaltender Typ 8",                        teaser:"SE8w9 – Die Patin von Medellín, 1943–2012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars – die selbsterhaltende Acht mit Neunerflügel: Macht als Überlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"]},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Sozialer Typ 8",                                     teaser:"SO8w7 – Der Teflon-Don, 1940–2002. Boss der Gambino-Familie, dreimal freigesprochen, schlie\xdflich durch seinen engsten Vertrauten verraten – die soziale Acht mit Siebenerfl\xfcgel: Herrschaft durch Schutz, Macht durch Sichtbarkeit. Tierentsprechung: L\xf6we." , tags:["Mafia"]},
@@ -400,6 +401,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
+    heading:"Boris Becker – Sexueller Typ 7",
+    teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, jüngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterflügel: grenzenlose Intensität, Ruhm als Heimat, und das lebenslange Ringen um das Bild des großen Boris. Tierentsprechung: Schimpanse.",
+    tags:["Sport"] },
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -408,7 +413,7 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand.", beruehmteRoute:"beruehmte-romy-schneider" },
   { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt.", beruehmteRoute:"beruehmte-john-lennon" },
   { route:"astrologie-albert-einstein",   name:"Albert Einstein",   subtyp:"SO5w6",  heading:"Albert Einstein – Sozialer Typ 5",             teaser:"SO5w6 · 1879–1955. Physiker, Nobelpreisträger. Sonne Fische im 10. Haus, Mond Schütze im 6. Haus, AC Krebs, MC Fische – die kosmische Formel des Genies." },
-  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz." },
+  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz.", beruehmteRoute:"beruehmte-boris-becker", kriminalRoute:"kriminalpsychologie-boris-becker" },
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexueller Typ 8",           teaser:"SX8w7 · geb. 1944. Bundeskanzler 1998–2005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische – der Instinktpolitiker der Macht." },
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Selbsterhaltende Typ 9",       teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Schütze im 3. Haus – die unbewegliche Vermittlerin der Macht." },
 ];
@@ -9260,6 +9265,65 @@ function inaMuellerPortraitPage() {
   `);
 }
 
+function borisBeckerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Becker</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 1967 &ndash; Dreifacher Wimbledon-Sieger, Olympiasieger &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, stürmischsten Form. Der Schimpanse braucht Intensität: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Ungesetzter &ndash; und verließ ihn als jüngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
+          <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalkül, kein Zögern &ndash; nur der Moment, der alles ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensität als Identität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht den vollständigen Rausch &ndash; die ultimative Erfahrung, die totale Verschmelzung mit dem, was das Leben zu bieten hat. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere in den Strudel eines Erlebnisses hineinzureißen. Die SX7 ist ansteckend, magnetisch, unwiderstehlich.</p>
+          <p class="vb-intro">Boris Becker hat ein Jahrzehnt lang Menschen in diese Qualität hineingezogen. Nicht nur als Spieler, sondern als Persönlichkeit: lauter als andere, offener als andere, strahlender als andere. Das ist kein Stilmittel. Das ist die SX7 in ihrer natürlichen Verfassung. Sie braucht keine Bühne, um zu leuchten &ndash; sie bringt die Bühne mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Kämpfer im Schimpansen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Sieben etwas Entscheidendes: Härte. Die reine Sieben kann ausweichen, verhandeln, charmieren. Der Achterflügel kämpft. Er gibt nicht nach. Er beißt sich durch. Boris Becker hat Matches gewonnen, die er verloren hatte &ndash; weil er sich geweigert hat, das als Realität anzuerkennen. Das ist Acht im Sieben: die Weigerung, das Spiel zu verlieren, bevor der letzte Punkt gespielt ist.</p>
+          <p class="vb-intro">Dieser Flügel war auf dem Platz sein größtes Geschenk. Außerhalb des Platzes wurde er zur Falle: Der Achterflügel der Sieben glaubt, dass Regeln für andere gelten. Dass Konsequenzen aufgehoben werden, wenn man nur entschlossen genug ist. Diese Überzeugung hat Becker durch seine Karriere getragen &ndash; und sie hat ihn in der Krise im Stich gelassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder auch <strong>Maßlosigkeit</strong>: der unstillbare Hunger nach mehr. Bei der sexuellen Sieben richtet sich dieser Hunger auf Erlebnisse, Intensität, den nächsten Höhepunkt. Becker hat nicht gespart. Er hat gelebt &ndash; groß, laut, verschwenderisch. Häuser, Partys, Affären, Investments, Auftritte. Die Sieben vertraut darauf, dass es immer weitergeht, weil es immer weitergegangen ist.</p>
+          <p class="vb-intro">Wenn diese Maßlosigkeit auf unbegrenzte Mittel trifft, ist sie ein Fest. Wenn die Mittel enden und die Maßlosigkeit bleibt, entsteht eine Katastrophe. Becker hat jahrelang so gelebt, als hätten die goldenen Jahre nie geendet. Das Enneagramm sieht darin keine Charakterschwäche &ndash; sondern das Muster einer Sieben, die gelernt hat, dass Intensität das Schmerzmittel schlechthin ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Der Mann, der den Moment mitreißt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Boris Becker dem deutschen Sport &ndash; und einer ganzen Generation &ndash; gegeben hat, ist nicht messbar in Titeln allein. Er hat Menschen mitgenommen. Er hat aus einem Samstagabend in Wimbledon einen nationalen Augenblick gemacht. Das ist das Geschenk der SX7w8: Enthusiasmus, der sich überträgt; Freude, die ansteckt; ein Ja zum Leben, das andere aufweckt.</p>
+          <p class="vb-intro">Der Schimpanse mit Achterflügel ist, in seiner gesunden Ausprägung, der Mensch, der sagt: das ist möglich, und ich beweise es dir jetzt, hier, in diesem Moment. Das ist Boris Becker am 7. Juli 1985. Der Rest seines Lebens ist die Frage, ob er lernen kann, wer er ist, wenn dieser Moment vorbei ist &ndash; und wie er sein kann, ohne ihn zurückzuholen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+      ])}
+    </div>
+  `);
+}
+
 function thomasGottschalkPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11801,7 +11865,9 @@ function _astrologiePage(p, analysisHtml) {
         ...(p.beruehmteRoute
           ? [{route:p.beruehmteRoute, label:`Porträt: ${p.name} (${p.subtyp}) – Berühmte Persönlichkeiten`}]
           : [{route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"}]),
-        {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+        ...(p.kriminalRoute
+          ? [{route:p.kriminalRoute, label:`Kriminalfall: ${p.name} (${p.subtyp})`}]
+          : [{route:"kriminalpsychologie", label:"Kriminalpsychologie"}]),
       ])}
     </div>
   `);
@@ -11926,7 +11992,9 @@ function astrologieBorisBeckerPage() {
   return _astrologiePage(
     { slug:"boris-becker", name:"Boris Becker", subtyp:"SX7w8",
       subtypLabel:"Sexueller Typ 7 mit Achterflügel",
-      subtitle:"Tennisprofi, geb. 1967 – Dreifacher Wimbledon-Sieger, Olympiasieger" },
+      subtitle:"Tennisprofi, geb. 1967 – Dreifacher Wimbledon-Sieger, Olympiasieger",
+      beruehmteRoute:"beruehmte-boris-becker",
+      kriminalRoute:"kriminalpsychologie-boris-becker" },
     `<h2 class="vb-section">SX7w8 – Leichtigkeit und Tiefe im ewigen Tanz</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Boris Becker verkörpert das klassische Profil der <strong>sexuellen Sieben mit Achterflügel (SX7w8)</strong>. Der sexuelle Subtyp sucht den absoluten Rausch, Faszination, Extreme und eine tiefe, fast magische Intensität im Duell. Der Achterflügel bringt die Härte, Ausdauer und Macher-Mentalität.</p>
@@ -15479,6 +15547,193 @@ function pDiddyPortraitPage() {
   `);
 }
 
+
+function borisBeckerKriminalPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Boris Becker – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Becker</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Großbritannien 2022 &middot; Insolvenzvergehen</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Boris Franz Becker</strong>, geboren am 22. November 1967 in Leimen,
+        wurde 1985 mit 17 Jahren zum jüngsten Wimbledon-Sieger aller Zeiten &ndash;
+        ein Moment, der ihn für immer definierte.
+        Er gewann sechs Grand-Slam-Titel, führte die Weltrangliste an,
+        wurde Olympiasieger und war ein Jahrzehnt lang das Gesicht des deutschen Tennis.
+        Doch nach dem Ende seiner aktiven Karriere 1997 begann eine lange Abwärtsspirale:
+        Scheidung, Insolvenzen, öffentliche Affären, Fehlinvestitionen.
+        Im April 2022 wurde Becker in London in <strong>vier Anklagepunkten</strong>
+        nach dem britischen Insolvency Act 1986 schuldig gesprochen:
+        er hatte Vermögenswerte im Wert von rund 2,5 Millionen Pfund
+        vor dem Insolvenzverwalter verborgen, darunter Wimbledon-Trophäen,
+        eine Immobilie in Deutschland und Bankguthaben.
+        Er wurde zu zweieinhalb Jahren Haft verurteilt,
+        verbüßte rund acht Monate im Gefängnis Huntercombe in Oxfordshire
+        und wurde im Dezember 2022 als Staatsangehöriger der Europäischen Union
+        nach Deutschland abgeschoben.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der sich selbst
+        mit dem größten Moment seines Lebens gleichsetzte,
+        die Realität des Endes dieser Ära schlicht nicht akzeptieren konnte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Boris Becker</strong> wird dem <strong>Sexuellen Typ 7 mit Achterflügel</strong> zugeordnet.
+        Die sexuelle Sieben sucht Intensität, Fusion, den absoluten Rausch &ndash;
+        und in Beckers Fall die vollständige Identifikation mit dem Bild des großen Champions.
+        Das strahlende Selbstbild der Sieben ist ihr Schutzschild gegen Schmerz und Verlust.
+        Solange dieses Bild hält, ist alles gut. Wenn es zu bröckeln beginnt,
+        setzt die Sieben alle verfügbaren Mittel ein, es aufrechtzuerhalten &ndash;
+        auch wenn das bedeutet, die Realität vollständig zu verleugnen.
+        Der Achterflügel verstärkt die Überzeugung, dass Regeln für andere gelten,
+        nicht für einen selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Schimpanse</h3>
+        <p class="vb-intro">
+        Der <strong>Schimpanse</strong> ist die Tierentsprechung der sexuellen Sieben.
+        Er ist hochintelligent, charismatisch und auf Bindung ausgerichtet &ndash;
+        er lebt für intensive Kontakte, Spiel, Status und Erlebnis.
+        Der Schimpanse ist der lebendigste der Menschenaffen:
+        er lacht, täuscht, verhandelt, kämpft &ndash; und zeigt dabei immer eine explosive
+        Unmittelbarkeit, die keine langen Planungshorizonte kennt.
+        Boris Becker war auf dem Platz genau das: ein Tier des Augenblicks.
+        Sein Wimbledon-Finale 1985 war kein berechneter Sieg &ndash;
+        es war ein 17-jähriger, der mit dem Körper seines Schimpansen spielte
+        und die ganze Welt mitgerissen hat.
+        Doch der Schimpanse lebt im Jetzt. Was gestern war, ist ihm gleichgültig.
+        Und was kommen wird, interessiert ihn nicht.
+        Genau diese Qualität &ndash; das grenzenlose Vertrauen in die eigene Kraft des Moments &ndash;
+        wurde Boris Becker zum Verhängnis, als keine Momente mehr kamen.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Ruhm als Fundament</h3>
+        <p class="vb-intro"><strong>a) Das Grundmuster:</strong>
+        Die sexuelle Sieben konstruiert um eine zentrale Intensität herum ein Selbst.
+        Für Boris Becker war diese Intensität &ndash; Tennis, Wimbledon, Leimen, der Junge,
+        der die Welt erschütterte &ndash; sein gesamtes Fundament.
+        Er war nicht jemand, der Tennis spielte. Er war Boris Becker, der Wimbledon gewann.
+        Diese Identifikation ist typisch für die sexuelle Sieben:
+        Was mich ausmacht, ist das Intensivste, das Stärkste, das Echteste.
+        Als diese Intensität versiegte &ndash; Karriereende, Scheidungen, Schulden &ndash;
+        stand Becker vor einer existenziellen Frage,
+        die er offenbar nie wirklich beantworten konnte: Wer bin ich ohne den Ruhm?</p>
+        <p class="vb-intro"><strong>b) Die Verleugnung der Realität:</strong>
+        Die Sieben hat eine besondere Fähigkeit: Sie sieht das Positive.
+        In gesunden Ausprägungen ist das ein Geschenk &ndash; Optimismus, Lebensfreude, Resilienz.
+        In der Stressreaktion wird daraus eine gefährliche Blindheit.
+        Die Sieben verweigert das Sehen von Grenzen, Verlusten, Katastrophen &ndash;
+        weil das Sehen dieser Realität zu viel Schmerz bedeuten würde.
+        Becker war nachweislich bankrott, bevor er seinen Gläubigern gegenüber
+        auch nur ansatzweise die volle Wahrheit sagte.
+        Das britische Gericht stellte fest, dass er Vermögenswerte aktiv versteckt hatte.
+        Das ist kein kühler Krimineller, der einen Plan hat.
+        Das ist jemand, der nicht wahrhaben konnte, was war.</p>
+        <p class="vb-intro"><strong>c) Der Achterflügel: Regeln für andere:</strong>
+        Der Achterflügel verleiht der sexuellen Sieben Stärke, Direktheit &ndash;
+        und eine Überzeugung von der eigenen Sonderstellung.
+        Die Acht glaubt, dass die Welt in Starke und Schwache eingeteilt ist,
+        und die Starken machen die Regeln.
+        Becker trat in seinem Prozess auf, als könnte er mit Charme und Würde
+        eine Situation überwältigen, in der er faktisch keine Argumente hatte.
+        Er zeigte keine sichtbare Reue. Er erklärte, verhandelte, strahlte.
+        Der Schimpanse mit Achterflügel verstand bis zuletzt nicht ganz,
+        warum diese Strategie diesmal nicht funktionierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Fall: Wimbledon-Trophäen im Tresor</h3>
+        <p class="vb-intro"><strong>a) Der Aufstieg und das Ende:</strong>
+        Boris Becker gewann 1985 als Ungesetzter und jüngster Spieler aller Zeiten Wimbledon &ndash;
+        17 Jahre alt, aufgewachsen in Leimen, ohne großen Hintergrund.
+        1986 und 1989 folgten weitere Wimbledon-Titel, dazu
+        das US Open 1989, zweimal das Australian Open sowie Gold bei den Olympischen Spielen 1992.
+        1997 beendete er seine aktive Karriere. Danach folgten:
+        eine kostspielige Scheidung von Barbara Feltus, Affären, Vaterschaftsstreitigkeiten,
+        eine zweite Ehe mit Lilly Becker und deren Ende,
+        sowie eine Reihe gescheiterter Investitionen und Geschäftsprojekte.
+        Im Jahr 2002 erklärte er in Deutschland Privatinsolvenz.
+        2017 wurde er erneut &ndash; diesmal in Großbritannien &ndash; für zahlungsunfähig erklärt.</p>
+        <p class="vb-intro"><strong>b) Die Verurteilung 2022:</strong>
+        Am 29. April 2022 befand das Southwark Crown Court in London Boris Becker
+        in vier Anklagepunkten nach dem britischen Insolvency Act 1986 für schuldig.
+        Er hatte &ndash; nach seiner offiziellen Zahlungsunfähigkeit 2017 &ndash;
+        Vermögenswerte im Wert von rund 2,5 Millionen Pfund verheimlicht:
+        Wimbledon-Trophäen, die er behalten hatte statt sie dem Verwalter zu übergeben;
+        Guthaben auf Bankkonten, die nicht deklariert worden waren;
+        einen Anteil an einer Immobilie in Leimen, die er seiner Ex-Frau Barbara überschrieben hatte.
+        Am 29. April wurde er zu zweieinhalb Jahren Haft verurteilt.
+        Er wurde im Mai 2022 in HMP Huntercombe in Oxfordshire inhaftiert
+        und im Dezember 2022 &ndash; nach rund acht Monaten &ndash; frühzeitig entlassen
+        und als EU-Staatsangehöriger nach Deutschland abgeschoben.</p>
+        <p class="vb-intro"><strong>c) Was er danach sagte:</strong>
+        Becker beschrieb seine Zeit im Gefängnis in Interviews als prägende Erfahrung.
+        Er habe gelernt, mit weniger zu leben. Er habe Menschen kennengelernt,
+        die ihm die Augen geöffnet hätten. Er habe sich verändert.
+        Das mag sein. Doch es bleibt die Frage, die das Enneagramm stellt:
+        Ist die Sieben bereit, die Kluft zwischen dem Bild, das sie von sich trägt,
+        und der Realität dauerhaft anzuschauen &ndash; oder überlebt das Selbstbild
+        auch diesmal den Aufprall?</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Boris Becker ist kein klassischer Fall von krimineller Energie.
+        Er ist ein Fall von totaler Identifikation mit einem Selbstbild
+        &ndash; und einer tiefen Unfähigkeit, das Ende dieses Bildes zu akzeptieren.
+        Die sexuelle Sieben mit Achterflügel baut ihr Leben auf Intensität.
+        Wenn diese Intensität dauerhaft fehlt, gerät das ganze Konstrukt ins Schwanken.
+        Das Verbergen der Wimbledon-Trophäen ist &ndash; psychologisch gelesen &ndash;
+        nicht das Handeln eines kühlen Betrügers.
+        Es ist das Festhalten an den letzten greifbaren Überresten von etwas,
+        das einmal alles war.
+        Der Schimpanse wollte nicht kriminell sein.
+        Er wollte nicht loslassen.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SX7w8 – Sexuelle Sieben mit Achterflügel.<br>
+        <strong>Leidenschaft:</strong> Maßlosigkeit (Völlerei) – das unstillbare Verlangen nach dem nächsten Höhepunkt, dem nächsten Triumph, dem nächsten Beweis der eigenen Größe.<br>
+        <strong>Stresspunkt:</strong> Eins – rigides Festhalten an einem einzigen Bild von sich selbst, innerer Richter über alle anderen.<br>
+        <strong>Tierentsprechung:</strong> Schimpanse – lebendig, statusbewusst, im Moment lebend, zur Eskalation fähig wenn der Rang bedroht ist.<br>
+        <strong>Vergehen:</strong> Vier Verstöße gegen den britischen Insolvency Act 1986, April 2022.<br>
+        <strong>Strafe:</strong> 2,5 Jahre Haft, davon ca. 8 Monate verbüßt; Abschiebung nach Deutschland Dezember 2022.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Gier bei SE7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Gier, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Boris Becker wurde in vier Punkten nach dem britischen Insolvency Act 1986 rechtskräftig verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker – Berühmte Persönlichkeiten"},
+        {route:"astrologie-boris-becker", label:"Astrologie: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
 
 function grisdaBlancoPortraitPage() {
   return shell(`
@@ -36954,6 +37209,7 @@ function render() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
+      "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
@@ -37064,6 +37320,7 @@ function render() {
       "kriminalpsychologie-peter-sutcliffe": peterSutcliffePortraitPage,
       "kriminalpsychologie-dorothea-puente": dorotheaPuentePortraitPage,
       "kriminalpsychologie-aileen-wuornos": aileenWuornosPortraitPage,
+      "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,
       "kriminalpsychologie-richard-ramirez": richardRamirezPortraitPage,
       "kriminalpsychologie-dennis-nilsen": dennisNilsenPortraitPage,
       "kriminalpsychologie-gennadi-mikhasevich": gennadiMikhasevichPortraitPage,
