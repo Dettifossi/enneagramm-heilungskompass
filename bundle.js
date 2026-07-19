@@ -37485,7 +37485,8 @@ function render() {
     } else {
       app.innerHTML = (routes[base] || routes.start)();
     const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
-      || (base.startsWith("beruehmte-") && base !== "beruehmte-persoenlichkeiten");
+      || (base.startsWith("beruehmte-") && base !== "beruehmte-persoenlichkeiten")
+      || (base.startsWith("astrologie-") && base !== "enneagramm-astrologie");
     if (isBadgePage) {
       const typEl = app.querySelector(".krim-portrait-typ");
       if (typEl) {
