@@ -3842,7 +3842,6 @@ function verstehenInner(entry, sp) {
   if (entry.coreSentence) blocks.push(`<div class="room-field"><strong>${sp.coreSentence}</strong><p>${entry.coreSentence}</p></div>`);
   if (entry.integrationSentence) blocks.push(`<div class="room-field room-field--quote"><strong>${sp.integrationSentence || "Leitsatz der Integration"}</strong><blockquote>${entry.integrationSentence}</blockquote></div>`);
   if (entry.integrationPath && entry.integrationPath.length) blocks.push(`<div class="room-field"><strong>${sp.integrationPath || "Integrationsweg"}</strong><ul>${entry.integrationPath.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.integratedState && entry.integratedState.length) blocks.push(`<div class="room-field"><strong>${sp.integratedState || "Integrierter Zustand"}</strong><ul>${entry.integratedState.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.woundBehindPassion) blocks.push(woundBehindPassionSection(entry.woundBehindPassion));
   return blocks.join("");
 }
@@ -3884,9 +3883,6 @@ function spuerenInner(entry, sp) {
       if (tp.microInstructions && tp.microInstructions.length) blocks.push(`<div class="room-field"><strong>${bsl.microInstructions || "Mikro-Anleitung"}</strong><ul>${tp.microInstructions.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
     }
   }
-  if (entry.archetypalEssence) blocks.push(`<div class="room-field"><strong>${sp.archetypalEssence || "Archetypische Essenz"}</strong><p>${entry.archetypalEssence}</p></div>`);
-  if (entry.integrativePotential) blocks.push(`<div class="room-field"><strong>${sp.integrativePotential || "Integratives Potenzial"}</strong><p>${entry.integrativePotential}</p></div>`);
-  if (entry.essence && entry.essence.qualities) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities}</strong><ul>${entry.essence.qualities.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   return blocks.join("");
 }
 
@@ -3904,28 +3900,39 @@ function koerperarbeitBlock(k) {
   `).join("");
 }
 
+function pgFigure(pg) {
+  return `
+    <figure class="vollseite-karte">
+      <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+      <div class="card-pg-wrap">
+        <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
+          onerror="this.closest('.vollseite-karte').style.display='none'" />
+        <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
+      </div>
+      <figcaption class="vollseite-karte__titel">${pg.title || pg.titel || ""}</figcaption>
+    </figure>
+  `;
+}
+
 function regulierenInner(entry, sp) {
   const blocks = [];
-  // Alle Schaubilder außer Seite 1 (die bereits in spuerenInner gezeigt wird)
-  // visualPages ersetzt koerperarbeit.seiten für alle 27 Subtypen vollständig
-  if (entry.visualPages && entry.visualPages.length > 1) {
-    const remaining = entry.visualPages.filter(pg => pg.src.includes("page-2") || pg.src.includes("page-3"));
-    remaining.forEach(pg => blocks.push(`
-      <figure class="vollseite-karte">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
-        <div class="card-pg-wrap">
-          <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
-            onerror="this.closest('.vollseite-karte').style.display='none'" />
-          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
-        </div>
-        <figcaption class="vollseite-karte__titel">${pg.title || pg.titel || ""}</figcaption>
-      </figure>
-    `));
+  const vp = entry.visualPages || [];
+
+  // Seite 2 – 2-Punkte-Integration: Schaubild, dann Praxistext
+  const pg2 = vp.find(pg => pg.src.includes("page-2"));
+  if (pg2) {
+    blocks.push(pgFigure(pg2));
+    if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice || "2-Punkte-Integration"}</strong><p>${entry.practice}</p></div>`);
   }
-  if (entry.turningPoint && entry.turningPoint.length) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Wendepunkt"}</strong><ul>${entry.turningPoint.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervensystem-Regulation"}</strong><ul>${entry.nervousSystemRegulation.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.tensionFields && entry.tensionFields.length) blocks.push(`<div class="room-field"><strong>${sp.tensionFields || "Spannungsfelder"}</strong><ul>${entry.tensionFields.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
+
+  // Seite 3 – Körperarbeit & Akupressur: Schaubild, dann Wendepunkt / Nervensystem / Spannungsfelder
+  const pg3 = vp.find(pg => pg.src.includes("page-3"));
+  if (pg3) {
+    blocks.push(pgFigure(pg3));
+    if (entry.turningPoint && entry.turningPoint.length) blocks.push(`<div class="room-field"><strong>${sp.turningPoint || "Wendepunkt"}</strong><ul>${entry.turningPoint.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+    if (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervensystem-Regulation"}</strong><ul>${entry.nervousSystemRegulation.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+    if (entry.tensionFields && entry.tensionFields.length) blocks.push(`<div class="room-field"><strong>${sp.tensionFields || "Spannungsfelder"}</strong><ul>${entry.tensionFields.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+  }
   blocks.push(`
     <div class="room-field" style="margin-top:1.4rem;padding:1.1rem 1.2rem;background:var(--paper);border-radius:12px;border-left:3px solid var(--gold);text-align:left;">
       <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Wenn Sie die Muster dieses Subtyps erkannt haben — lassen Sie das Gelesene jetzt zur Ruhe kommen. Nicht weiter analysieren. Einfach sein.</p>
@@ -3937,21 +3944,18 @@ function regulierenInner(entry, sp) {
 
 function verkoerpernInner(entry, sp) {
   const blocks = [];
-  // Seite 5 – Integrationspotenzial – gehört in Verkörpern
-  if (entry.visualPages) {
-    const pg5 = entry.visualPages.find(pg => pg.src.includes("page-5"));
-    if (pg5) blocks.push(`
-      <figure class="vollseite-karte">
-        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
-        <div class="card-pg-wrap">
-          <img src="${cdnImg(pg5.src)}" alt="${pg5.alt}" class="vollseite-karte__img" loading="lazy"
-            onerror="this.closest('.vollseite-karte').style.display='none'" />
-          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
-        </div>
-        <figcaption class="vollseite-karte__titel">${pg5.title || ""}</figcaption>
-      </figure>
-    `);
+
+  // Seite 5 – Integrationspotenzial: Schaubild, dann Beschreibungsfelder
+  const pg5 = (entry.visualPages || []).find(pg => pg.src.includes("page-5"));
+  if (pg5) {
+    blocks.push(pgFigure(pg5));
+    if (entry.integrativePotential) blocks.push(`<div class="room-field"><strong>${sp.integrativePotential || "Integrationspotenzial"}</strong><p>${entry.integrativePotential}</p></div>`);
+    if (entry.archetypalEssence) blocks.push(`<div class="room-field"><strong>${sp.archetypalEssence || "Archetypische Essenz"}</strong><p>${entry.archetypalEssence}</p></div>`);
+    if (entry.essence && entry.essence.qualities) blocks.push(`<div class="room-field"><strong>${sp.essenceQualities || "Verkörperte Qualitäten"}</strong><ul>${entry.essence.qualities.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
+    if (entry.integratedState && entry.integratedState.length) blocks.push(`<div class="room-field"><strong>${sp.integratedState || "Integrierter Zustand"}</strong><ul>${entry.integratedState.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   }
+
+  // Musik & Klang
   const hasMedia = entry.mediaGroups || entry.mediaResources;
   if (hasMedia && !hasHeilwissen()) { blocks.push(heilwissenLock("Musik & Klang")); return blocks.join(""); }
   if (entry.mediaGroups) { blocks.push(mediaGroupSection(entry.mediaGroups)); return blocks.join(""); }
