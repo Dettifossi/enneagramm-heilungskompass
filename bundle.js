@@ -424,7 +424,7 @@ const ASTROLOGIE_PORTRAITS = [
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -1043,6 +1043,26 @@ function leseprobePage() {
             style="background:none;border:1px solid var(--gold);color:var(--copper);
                    border-radius:8px;padding:.4rem 1rem;font-size:0.83rem;cursor:pointer;">
             Alle Analysen ansehen &rarr;
+          </button>
+        </div>
+      </div>
+
+      <!-- Persönlichkeitsmodelle Vergleich -->
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
+          Enneagramm vs. andere Persönlichkeitsmodelle
+        </h2>
+        <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
+          Big Five, MBTI, DISG, Human Design &ndash; was unterscheidet das Enneagramm grundlegend von anderen Systemen, und warum geht seine Wirkung weit über klassische Persönlichkeitstests hinaus?
+        </p>
+        <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
+          Während andere Modelle beschreiben, <em>wie</em> ein Mensch sich verhält, fragt das Enneagramm nach dem <em>Warum</em>.
+        </p>
+        <div style="margin-top:0.5rem;">
+          <button data-route="persoenlichkeitsmodelle-vergleich"
+            style="background:none;border:1px solid var(--gold);color:var(--copper);
+                   border-radius:8px;padding:.4rem 1rem;font-size:0.83rem;cursor:pointer;">
+            Zum Vergleich &rarr;
           </button>
         </div>
       </div>
@@ -12135,6 +12155,155 @@ function enneagrammAstrologiePage() {
         {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
+    </div>
+  `);
+}
+
+function persoenlichkeitsmodelleVergleichPage() {
+  const MODELLE = [
+    {
+      name: "Big Five (OCEAN-Modell)",
+      was: "Messbare, stabile Verhaltenstendenzen auf fünf Dimensionen: Offenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit, Neurotizismus.",
+      blick: "Das <em>„Was“</em> – Symptom und Beschreibung",
+      ziel: "Wissenschaftlich exakte Beschreibung des Status quo",
+      farbe: "#5a8a6e",
+      icon: "📊",
+    },
+    {
+      name: "MBTI (Myers-Briggs-Typenindikator)",
+      was: "Kognitive Präferenzen der Informationsverarbeitung; ordnet Menschen in 16 Profile ein (z. B. INFJ, ESTP) – basierend auf C. G. Jungs Typenlehre.",
+      blick: "Das <em>„Wie“</em> – Informationsverarbeitung und Denkstile",
+      ziel: "Verständnis von Wahrnehmungs- und Entscheidungsstilen",
+      farbe: "#4a6e9e",
+      icon: "🧩",
+    },
+    {
+      name: "DISG-Modell",
+      was: "Vier Verhaltenstendenzen im sozialen und beruflichen Kontext (Dominanz, Initiative, Stetigkeit, Gewissenhaftigkeit), oft als Farbenmodell visualisiert.",
+      blick: "Das <em>„Was“</em> – Außenwirkung und Kommunikationsverhalten",
+      ziel: "Pragmatische Optimierung von Zusammenarbeit und Teamdynamik",
+      farbe: "#9e7a4a",
+      icon: "🎨",
+    },
+    {
+      name: "Human Design",
+      was: "Moderne Synthese aus Astrologie, I Ging, Kabbala und Quantenphysik; beschreibt den energetischen „Bauplan“ einer Person anhand ihres Geburtszeitpunkts.",
+      blick: "Der <em>„Energiefluss“</em> – kosmische Voraussetzungen",
+      ziel: "Erkenntnis der eigenen Lebens- und Entscheidungsstrategie",
+      farbe: "#7a5a9e",
+      icon: "✦",
+    },
+    {
+      name: "Spiral Dynamics",
+      was: "Modell der Evolution von Werte- und Bewusstseinssystemen; beschreibt gesellschaftliche und individuelle Entwicklungsstufen als farbige Spirale.",
+      blick: "Die <em>„Bewusstseinsebene“</em> – Werte und Weltbild",
+      ziel: "Einordnung in evolutionäre Entwicklungsstufen",
+      farbe: "#5a6e3e",
+      icon: "🌀",
+    },
+    {
+      name: "Enneagramm",
+      was: "Tiefsitzende Kernmotivationen, unbewusste Ängste und existenzielle Sehnsüchte – die psychische Grundstruktur, aus der alles Verhalten entspringt.",
+      blick: "Das <em>„Warum“</em> – die psychische Ursache",
+      ziel: "Echte psychologische Transformation und innere Befreiung",
+      farbe: "var(--gold-dark)",
+      icon: "◉",
+    },
+  ];
+
+  const modelCards = MODELLE.map(m => `
+    <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.2rem 1.4rem;border-left:4px solid ${m.farbe};">
+      <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem;">
+        <span style="font-size:1.3rem;">${m.icon}</span>
+        <strong style="font-size:1rem;color:var(--ink);">${m.name}</strong>
+      </div>
+      <p style="font-size:.87rem;line-height:1.6;color:var(--muted);margin:0 0 .6rem;">${m.was}</p>
+      <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+        <span style="font-size:.75rem;background:${m.farbe}22;color:${m.farbe === "var(--gold-dark)" ? "var(--copper)" : m.farbe};border-radius:20px;padding:.2rem .7rem;">${m.blick}</span>
+        <span style="font-size:.75rem;background:var(--paper);color:var(--muted);border-radius:20px;padding:.2rem .7rem;border:1px solid var(--border);">${m.ziel}</span>
+      </div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Persönlichkeitspsychologie</p>
+        <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:.4rem 0 .3rem;line-height:1.2;">Enneagramm vs. andere Persönlichkeitsmodelle</h1>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1.8rem;font-style:italic;">Warum Motivation mehr zählt als Verhalten</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.6rem;">
+          <p class="vb-intro">Auf dem modernen Markt der Persönlichkeitsentwicklung existiert eine schier unüberschaubare Vielzahl von Modellen, Tests und Systemen. Jedes dieser Systeme beansprucht für sich, Struktur in das komplexe Gefüge der menschlichen Psyche zu bringen. Doch worin unterscheidet sich das Enneagramm grundlegend von anderen gängigen Modellen – und warum geht seine Wirkung weit über das hinaus, was klassische Persönlichkeitstests zu leisten vermögen?</p>
+          <p class="vb-intro">Die Antwort liegt in einer einzigen, entscheidenden Frage: <strong>Beschreibt ein Modell, wie ein Mensch sich verhält – oder warum?</strong></p>
+        </blockquote>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--ink);margin:0 0 1rem;">Die bekanntesten Persönlichkeitsmodelle im Überblick</h2>
+        <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:2rem;">
+          ${modelCards}
+        </div>
+
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--ink);margin:0 0 1rem;">Warum das Enneagramm tiefgreifender wirkt</h2>
+
+        <!-- Punkt 1 -->
+        <div style="background:var(--ivory);border:1px solid var(--border);border-radius:14px;padding:1.4rem;margin-bottom:1rem;">
+          <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:.5rem;">1 · Das „Warum“ statt des „Was“</div>
+          <p style="font-size:.95rem;line-height:1.7;margin:0 0 .9rem;">Klassische Typologien beobachten ein bestimmtes Verhalten und ordnen es einer Kategorie zu. Das Enneagramm hingegen weiß: <strong>Ein und dasselbe Verhalten kann aus völlig unterschiedlichen inneren Welten entspringen.</strong></p>
+          <p style="font-size:.88rem;line-height:1.65;color:var(--muted);margin:0 0 .75rem;">Drei Personen leisten extreme Überstunden. Ein klassisches Verhaltensmodell notiert: „hohe Gewissenhaftigkeit und Leistungsorientierung.“ Das Enneagramm blickt hinter die Fassade:</p>
+          <div style="display:flex;flex-direction:column;gap:.6rem;">
+            <div style="border-left:3px solid #8a6e3e;padding:.6rem .9rem;background:rgba(138,110,62,.07);border-radius:0 8px 8px 0;">
+              <span style="font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a6e3e;">Typ 1 – Der Perfektionist</span>
+              <p style="margin:.25rem 0 0;font-size:.87rem;line-height:1.55;color:var(--ink);">Arbeitet bis spät in die Nacht, um jeden potenziellen Fehler zu vermeiden – getrieben vom eigenen, unerbittlichen Anspruch an Perfektion.</p>
+            </div>
+            <div style="border-left:3px solid #6e8a6e;padding:.6rem .9rem;background:rgba(110,138,110,.07);border-radius:0 8px 8px 0;">
+              <span style="font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#6e8a6e;">Typ 2 – Der Helfer</span>
+              <p style="margin:.25rem 0 0;font-size:.87rem;line-height:1.55;color:var(--ink);">Bleibt länger, um unentbehrlich zu sein – aus dem tiefen Bedürfnis, durch Hilfe geliebt und anerkannt zu werden.</p>
+            </div>
+            <div style="border-left:3px solid #9e5a3e;padding:.6rem .9rem;background:rgba(158,90,62,.07);border-radius:0 8px 8px 0;">
+              <span style="font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#9e5a3e;">Typ 3 – Der Leistungsträger</span>
+              <p style="margin:.25rem 0 0;font-size:.87rem;line-height:1.55;color:var(--ink);">Sucht messbaren Erfolg, um als Gewinner dazustehen und Versagen um jeden Preis zu vermeiden.</p>
+            </div>
+          </div>
+          <p style="font-size:.85rem;line-height:1.6;color:var(--muted);margin:.9rem 0 0;font-style:italic;">Erst wenn Sie Ihr wahres <em>Warum</em> kennen, erlangen Sie echte Kontrolle über Ihre Handlungen. Solange Sie nur das <em>Was</em> analysieren, bekämpfen Sie Symptome – ohne die Ursache zu berühren.</p>
+        </div>
+
+        <!-- Punkt 2 -->
+        <div style="background:var(--ivory);border:1px solid var(--border);border-radius:14px;padding:1.4rem;margin-bottom:1rem;">
+          <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:.5rem;">2 · Dynamik statt Schublade</div>
+          <p style="font-size:.95rem;line-height:1.7;margin:0 0 .75rem;">Viele Menschen empfinden Persönlichkeitstests als einengend, da sie das Individuum in ein starres Raster pressen. Das Enneagramm versteht die menschliche Psyche hingegen als ein <strong>hochdynamisches, lebendiges System</strong>.</p>
+          <p style="font-size:.88rem;line-height:1.65;color:var(--muted);margin:0;">Es beschreibt Ihre Persönlichkeit nicht als lebenslanges Gefängnis, sondern als die Summe Ihrer bisherigen Überlebensstrategien – und zeigt Ihnen präzise den Weg aus dieser Fixierung heraus. Durch die Integration von <strong>Flügeln</strong> sowie den <strong>Stress- und Entwicklungspunkten</strong> bildet das Enneagramm ab, wie Sie sich unter Druck verhalten und welche Qualitäten Sie integrieren müssen, um in Ihre volle emotionale Reife zu gelangen. <em>Es wächst mit Ihnen mit.</em></p>
+        </div>
+
+        <!-- Punkt 3 -->
+        <div style="background:var(--ivory);border:1px solid var(--border);border-radius:14px;padding:1.4rem;margin-bottom:1.8rem;">
+          <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:.5rem;">3 · Radikale Relevanz für Alltag und Beziehungen</div>
+          <p style="font-size:.95rem;line-height:1.7;margin:0 0 .75rem;">Das Enneagramm schmeichelt dem Ego nicht. Während andere Tests oft wie ein psychologisches Wellness-Zertifikat wirken, deckt das Enneagramm <strong>liebevoll, aber schonungslos</strong> die eigenen blinden Flecken, Abwehrmechanismen und Kernängste auf.</p>
+          <div style="display:grid;gap:.6rem;">
+            <div style="padding:.65rem .9rem;background:rgba(45,74,62,.07);border-radius:8px;">
+              <span style="font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2d4a3e;">Für Sie selbst</span>
+              <p style="margin:.2rem 0 0;font-size:.87rem;line-height:1.55;">Sie erkennen die unbewussten Automatismen, die Sie immer wieder in dieselben Konflikte oder emotionalen Sackgassen führen. Sie agieren nicht mehr impulsiv – sondern können bewusst innehalten und neu wählen.</p>
+            </div>
+            <div style="padding:.65rem .9rem;background:rgba(45,74,62,.07);border-radius:8px;">
+              <span style="font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2d4a3e;">Für Ihre Beziehungen</span>
+              <p style="margin:.2rem 0 0;font-size:.87rem;line-height:1.55;">Wenn Sie verstehen, dass Ihr Partner oder Ihre Kollegen nicht aus böser Absicht handeln, sondern aus einer fundamental anderen Kernangst heraus die Welt wahrnehmen, weicht Frustration tiefer Empathie. Konflikte lösen sich auf, weil Sie die Perspektive des anderen plötzlich im Kern nachvollziehen können.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fazit -->
+        <blockquote class="vb-blockquote" style="margin-bottom:2rem;">
+          <p class="vb-intro"><strong>Fazit:</strong> Modelle wie die Big Five oder der MBTI haben ihre absolute Berechtigung. Sie sind hervorragende Werkzeuge, um Verhaltensstrukturen zu systematisieren oder Arbeitsstile abzugleichen. Sie beschreiben die Maske, die wir im Alltag tragen, um zu funktionieren.</p>
+          <p class="vb-intro">Wenn Sie sich jedoch nicht länger mit der Beschreibung Ihrer Maske zufriedengeben wollen, sondern die treibende Kraft dahinter verstehen möchten, bietet das Enneagramm die wohl präziseste psychologische Landkarte unserer Zeit. Es führt Sie weg vom reinen Reaktionsmodus – hin zu echter Selbsterkenntnis und freier Wahl.</p>
+        </blockquote>
+
+        ${bookTip("der-code-deiner-persoenlichkeit", "27 Subtypen, ihre verborgenen Muster und der Schlüssel zur inneren Befreiung – das Standardwerk der Enneagramm-Tiefenpsychologie.", "Der Code deiner Persönlichkeit")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typbeschreibungen, Schaubilder und Kernmotivationen – der ideale Einstieg ins Enneagramm.", "Wer du wirklich bist – Band 1")}
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"psychogramme", label:"Psychogramme der 9 Typen"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -37493,6 +37662,7 @@ function render() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "persoenlichkeitsmodelle-vergleich": persoenlichkeitsmodelleVergleichPage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,
       "astrologie-romy-schneider": astrologieRomySchneiderPage,
@@ -37954,7 +38124,8 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v590';
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  const MY_VERSION = 'inhalt-v608';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

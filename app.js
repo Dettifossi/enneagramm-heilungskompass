@@ -35152,7 +35152,8 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check: holt index.html frisch vom Server und lädt neu wenn Version veraltet
 (function() {
-  const MY_VERSION = 'inhalt-v436';
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  const MY_VERSION = 'inhalt-v608';
   setTimeout(function() {
     fetch('./index.html', { cache: 'no-store' })
       .then(function(r) { return r.text(); })
