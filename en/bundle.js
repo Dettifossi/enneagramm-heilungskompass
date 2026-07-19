@@ -37807,7 +37807,7 @@ function legalFooter() {
     <span class="legal-footer__sep">·</span>
     <button class="legal-footer__link" data-route="datenschutz">Privacy</button>
     <span class="legal-footer__sep">·</span>
-    <a class="legal-footer__link" href="mailto:detlefrathmer@t-online.de?subject=Kompass-Note" style="font-size:.78rem;opacity:.6;color:inherit;text-decoration:none;">Send a note</a>
+    <a class="legal-footer__link" href="mailto:detlefrathmer@t-online.de?subject=Compass%20Note" style="font-size:.78rem;opacity:.6;color:inherit;text-decoration:none;">Send a note</a>
     ${abmelden}
   </footer>`;
 }
@@ -37823,40 +37823,40 @@ function legalPage(title, bodyHtml) {
 
 function impressumPage() {
   return legalPage("Imprint", `
-    <h2>Angaben gemäß § 5 TMG</h2>
-    <p>Detlef Rathmer<br>Verlagshaus Rathmer<br>Molkereiweg 9<br>48727 Billerbeck<br>Deutschland</p>
+    <h2>Publisher Information (§ 5 TMG)</h2>
+    <p>Detlef Rathmer<br>Verlagshaus Rathmer<br>Molkereiweg 9<br>48727 Billerbeck<br>Germany</p>
     <h2>Contact</h2>
-    <p>Telefon: +49 (0) 2543 / 931 85 07<br>WhatsApp: 01575-8786201<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
-    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <p>Phone: +49 (0) 2543 / 931 85 07<br>WhatsApp: 01575-8786201<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+    <h2>Responsible for Content (§ 18 Para. 2 MStV)</h2>
     <p>Detlef Rathmer<br>Molkereiweg 9<br>48727 Billerbeck</p>
-    <h2>Verbraucherstreitbeilegung</h2>
-    <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-    <h2>Haftung für Inhalte</h2>
-    <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
-    <h2>Haftung für Links</h2>
-    <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.</p>
-    <h2>Urheberrecht</h2>
-    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+    <h2>Consumer Dispute Resolution</h2>
+    <p>We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+    <h2>Liability for Content</h2>
+    <p>As a service provider, we are responsible for our own content on these pages in accordance with general law (§ 7 Para. 1 TMG). However, pursuant to §§ 8–10 TMG, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.</p>
+    <h2>Liability for Links</h2>
+    <p>Our website contains links to external third-party websites over whose content we have no control. The respective provider or operator of those pages is always responsible for their content.</p>
+    <h2>Copyright</h2>
+    <p>The content and works on these pages created by the site operators are subject to German copyright law. Reproduction, editing, distribution and any kind of use beyond the limits of copyright law require the written consent of the respective author or creator.</p>
   `);
 }
 
 function datenschutzPage() {
   return legalPage("Privacy", `
-    <p class="legal-page__intro">Informationen gemäß Art. 13 DSGVO über die Verarbeitung personenbezogener Daten bei der Nutzung dieser App.</p>
-    <h2>1. Verantwortlicher</h2>
-    <p>Detlef Rathmer · Verlagshaus Rathmer · Molkereiweg 9 · 48727 Billerbeck<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+    <p class="legal-page__intro">Information pursuant to Art. 13 GDPR on the processing of personal data when using this app.</p>
+    <h2>1. Controller</h2>
+    <p>Detlef Rathmer · Verlagshaus Rathmer · Molkereiweg 9 · 48727 Billerbeck · Germany<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
     <h2>2. Hosting</h2>
-    <p>Diese App wird über GitHub Pages gehostet (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, ein Tochterunternehmen der Microsoft Corporation). Beim Aufruf werden technisch notwendige Daten (IP-Adresse, Browsertyp, aufgerufene Datei, Datum/Uhrzeit) automatisch in Server-Logfiles gespeichert. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Nexte Informationen: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">docs.github.com</a>.</p>
-    <h2>3. Lokaler Speicher (localStorage)</h2>
-    <p>Diese App speichert Ihren freigeschalteten Zugang (Zugangsstufe) sowie optionale Profileingaben ausschließlich lokal in Ihrem Browser (localStorage). Diese Daten verlassen Ihr Gerät nicht und werden nicht an Server übertragen. Sie können diese Daten jederzeit über die Browser-Einstellungen löschen.</p>
+    <p>This app is hosted via GitHub Pages (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, a subsidiary of Microsoft Corporation). When the app is accessed, technically necessary data (IP address, browser type, file requested, date/time) is automatically stored in server log files. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">docs.github.com</a>.</p>
+    <h2>3. Local Storage</h2>
+    <p>This app stores your unlocked access level and optional profile entries exclusively in your browser's local storage. This data does not leave your device and is not transmitted to any server. You can delete this data at any time via your browser settings.</p>
     <h2>4. Google Fonts</h2>
-    <p>Diese App verwendet Schriftarten des Dienstes Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland). Beim Loading der Seite wird eine Verbindung zu Google-Servern hergestellt, wobei Ihre IP-Adresse übertragen wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Nexte Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
-    <h2>5. Kauf und Zahlungsabwicklung</h2>
-    <p>Der Kauf von Zugangscodes erfolgt über Stripe (stripe.com). Diese App selbst verarbeitet keine Zahlungsdaten. Rechtsgrundlage für die Verarbeitung durch den Zahlungsanbieter: Art. 6 Abs. 1 lit. b DSGVO.</p>
-    <h2>6. Keine Cookies, kein Tracking</h2>
-    <p>Diese App setzt selbst keine Cookies und verwendet keine Analyse- oder Tracking-Dienste.</p>
-    <h2>7. Ihre Rechte</h2>
-    <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit (Art. 15&ndash;20 DSGVO) und das Recht, der Verarbeitung zu widersprechen (Art. 21 DSGVO). Beschwerden richten Sie an eine Privacyaufsichtsbehörde, z. B. die LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
+    <p>This app uses fonts from Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland). When the page loads, a connection to Google's servers is established and your IP address is transmitted. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+    <h2>5. Purchase and Payment Processing</h2>
+    <p>Access codes are purchased via Stripe (stripe.com). This app itself does not process any payment data. Legal basis for processing by the payment provider: Art. 6 Para. 1 lit. b GDPR.</p>
+    <h2>6. No Cookies, No Tracking</h2>
+    <p>This app does not set any cookies of its own and does not use any analytics or tracking services.</p>
+    <h2>7. Your Rights</h2>
+    <p>You have the right to access, rectification, erasure, restriction of processing, and data portability (Art. 15–20 GDPR), as well as the right to object to processing (Art. 21 GDPR). Complaints may be directed to a supervisory authority, e.g. the LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
   `);
 }
 
