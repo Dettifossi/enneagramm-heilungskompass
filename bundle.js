@@ -3821,6 +3821,21 @@ function sectionBlock(key, title, inner, color) {
 
 function verstehenInner(entry, sp) {
   const blocks = [];
+  // Type-Overview-Schaubild (z. B. type-1-overview.jpeg) ganz oben im Verstehen-Raum
+  if (entry.visualPages) {
+    const overviewPg = entry.visualPages.find(pg => pg.src.includes("overview"));
+    if (overviewPg) blocks.push(`
+      <figure class="vollseite-karte">
+        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <div class="card-pg-wrap">
+          <img src="${cdnImg(overviewPg.src)}" alt="${overviewPg.alt}" class="vollseite-karte__img" loading="lazy"
+            onerror="this.closest('.vollseite-karte').style.display='none'" />
+          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
+        </div>
+        <figcaption class="vollseite-karte__titel">${overviewPg.title || ""}</figcaption>
+      </figure>
+    `);
+  }
   if (entry.lifeTheme) blocks.push(`<div class="room-field"><strong>${sp.lifeTheme}</strong><ul>${entry.lifeTheme.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.unconsciousStrategy && entry.unconsciousStrategy.length) blocks.push(`<div class="room-field"><strong>${sp.unconsciousStrategy || "Unbewusste Strategie"}</strong><ul>${entry.unconsciousStrategy.map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if (entry.organismQuestion) blocks.push(`<div class="room-field"><strong>${sp.organismQuestion}</strong><p>${entry.organismQuestion}</p></div>`);
@@ -3894,7 +3909,7 @@ function regulierenInner(entry, sp) {
   // Alle Schaubilder außer Seite 1 (die bereits in spuerenInner gezeigt wird)
   // visualPages ersetzt koerperarbeit.seiten für alle 27 Subtypen vollständig
   if (entry.visualPages && entry.visualPages.length > 1) {
-    const remaining = entry.visualPages.filter(pg => !pg.src.includes("page-1"));
+    const remaining = entry.visualPages.filter(pg => pg.src.includes("page-2") || pg.src.includes("page-3"));
     remaining.forEach(pg => blocks.push(`
       <figure class="vollseite-karte">
         <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
@@ -3921,11 +3936,28 @@ function regulierenInner(entry, sp) {
 }
 
 function verkoerpernInner(entry, sp) {
+  const blocks = [];
+  // Seite 5 – Integrationspotenzial – gehört in Verkörpern
+  if (entry.visualPages) {
+    const pg5 = entry.visualPages.find(pg => pg.src.includes("page-5"));
+    if (pg5) blocks.push(`
+      <figure class="vollseite-karte">
+        <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
+        <div class="card-pg-wrap">
+          <img src="${cdnImg(pg5.src)}" alt="${pg5.alt}" class="vollseite-karte__img" loading="lazy"
+            onerror="this.closest('.vollseite-karte').style.display='none'" />
+          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
+        </div>
+        <figcaption class="vollseite-karte__titel">${pg5.title || ""}</figcaption>
+      </figure>
+    `);
+  }
   const hasMedia = entry.mediaGroups || entry.mediaResources;
-  if (hasMedia && !hasHeilwissen()) return heilwissenLock("Musik & Klang");
-  if (entry.mediaGroups) return mediaGroupSection(entry.mediaGroups);
-  if (entry.mediaResources) return mediaResourceSection(entry.mediaResources);
-  return `<p class="room-pending">${sp.mediaPending}</p>`;
+  if (hasMedia && !hasHeilwissen()) { blocks.push(heilwissenLock("Musik & Klang")); return blocks.join(""); }
+  if (entry.mediaGroups) { blocks.push(mediaGroupSection(entry.mediaGroups)); return blocks.join(""); }
+  if (entry.mediaResources) { blocks.push(mediaResourceSection(entry.mediaResources)); return blocks.join(""); }
+  if (!blocks.length) return `<p class="room-pending">${sp.mediaPending}</p>`;
+  return blocks.join("");
 }
 
 function vertiefungSection(refs, sp) {
