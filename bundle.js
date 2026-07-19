@@ -2007,7 +2007,6 @@ function toolDetailPage(slug) {
     "in-stille-sitzen":     "page-3",
     "merksatz":             "page-5",
     "heilmittel-impuls":    "page-4",
-    "aromatherapie":        "page-4",
     "blickqualitaet":       "page-1",
   };
   const toolPageKey = TOOL_PAGE_MAP[slug] || null;
@@ -2054,6 +2053,17 @@ function toolDetailPage(slug) {
     `;
   })() : "";
 
+  const aromatherapieBlock = (slug === "aromatherapie") ? (() => {
+    const oel = oelForType(p.code);
+    if (!oel) return "";
+    return `
+      ${oilCard(oel)}
+      <p style="text-align:center;margin:.5rem 0 1.2rem;">
+        <button class="ghost-link" data-route="oils" style="font-size:.88rem;">Alle 9 Öl-Karten ansehen →</button>
+      </p>
+    `;
+  })() : "";
+
   return shell(`
     <section class="narrow" style="padding:1.5rem 1rem 0;">
       <button class="ghost-link" data-route="tools">← Zurück zu Werkzeuge</button>
@@ -2065,6 +2075,7 @@ function toolDetailPage(slug) {
     </section>
 
     <section class="narrow" style="padding:1rem 1rem 2rem;">
+      ${aromatherapieBlock}
       ${seite2Block}
       ${twoPointsBlock}
 
