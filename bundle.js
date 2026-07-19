@@ -354,6 +354,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ina Müller – Sexueller Typ 7",
     teaser:"SX7w8 · geb. 1965. Sängerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterflügel: lebenslustig, direkt, unerschrocken – und immer nah am Menschen. Tierentsprechung: Schimpanse.",
     tags:["Musik","Medien"] },
+  { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
+    heading:"Boris Becker – Sexueller Typ 7",
+    teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, jüngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterflügel: grenzenlose Intensität, Ruhm als Heimat, und das lebenslange Ringen um das Bild des großen Boris. Tierentsprechung: Schimpanse.",
+    tags:["Sport"] },
   { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
@@ -402,10 +406,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
-    heading:"Boris Becker – Sexueller Typ 7",
-    teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, jüngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterflügel: grenzenlose Intensität, Ruhm als Heimat, und das lebenslange Ringen um das Bild des großen Boris. Tierentsprechung: Schimpanse.",
-    tags:["Sport"] },
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -11994,8 +11994,8 @@ function enneagrammHomoeopathiePage() {
           ${HOMOEOPATHIE_FAELLE.map(card).join('')}
         </div>
 
-        ${bookTip("enneagramm-homoeopathie-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
-        ${bookTip("enneagramm-homoeopathie-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\xf6opathie in Band 2.", "Enneagramm-Hom\xf6opathie – Band 2")}
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
         ${relatedLinks([
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
@@ -12034,8 +12034,8 @@ function _homoeopathieFallPage(f) {
           <p class="vb-intro">${f.verlauf}</p>
         </div>
 
-        ${bookTip("enneagramm-homoeopathie-1", "Das Grundlagenwerk der Enneagramm-Hom\xf6opathie – wie Pers\xf6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\xe4ngen.", "Enneagramm-Hom\xf6opathie – Band 1")}
-        ${bookTip("enneagramm-homoeopathie-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\xf6opathie in Band 2.", "Enneagramm-Hom\xf6opathie – Band 2")}
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Alle 9 Patientenf\xe4lle"},
           {route:"heilungsweg", label:"Heilungsweg des Menschen (Schaubild)"},
