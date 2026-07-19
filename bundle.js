@@ -9294,7 +9294,7 @@ function borisBeckerPortraitPage() {
 
         <h2 class="vb-section">3. Der Achterflügel: Der Kämpfer im Schimpansen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Sieben etwas Entscheidendes: Härte. Die reine Sieben kann ausweichen, verhandeln, charmieren. Der Achterflügel kämpft. Er gibt nicht nach. Er beißt sich durch. Boris Becker hat Matches gewonnen, die er verloren hatte &ndash; weil er sich geweigert hat, das als Realität anzuerkennen. Das ist Acht im Sieben: die Weigerung, das Spiel zu verlieren, bevor der letzte Punkt gespielt ist.</p>
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Sieben etwas Entscheidendes: Härte. Die reine Sieben kann ausweichen, verhandeln, charmieren. Der Achterflügel kämpft. Er gibt nicht nach. Er beißt sich durch. Boris Becker hat Matches gewonnen, die er normalerweise verloren hätte &ndash; weil er sich geweigert hat, diese Realität anzuerkennen. Das ist Acht im Sieben: die Weigerung, das Spiel zu verlieren, bevor der letzte Punkt gespielt ist.</p>
           <p class="vb-intro">Dieser Flügel war auf dem Platz sein größtes Geschenk. Außerhalb des Platzes wurde er zur Falle: Der Achterflügel der Sieben glaubt, dass Regeln für andere gelten. Dass Konsequenzen aufgehoben werden, wenn man nur entschlossen genug ist. Diese Überzeugung hat Becker durch seine Karriere getragen &ndash; und sie hat ihn in der Krise im Stich gelassen.</p>
         </blockquote>
 
