@@ -1775,26 +1775,29 @@ const COUNTRY_NAME_EN = {
 
 window._bewertungSenden = _bewertungSenden;
 window.translateReview = function(btn) {
-  var card = btn.closest('[data-review-card]');
-  var textEl = card.querySelector('[data-review-text]');
-  if (btn.dataset.translated === '1') {
-    textEl.textContent = textEl.dataset.orig;
-    btn.textContent = '🌐 Translate';
-    btn.dataset.translated = '0';
-    return;
-  }
-  var orig = textEl.textContent;
-  textEl.dataset.orig = orig;
-  btn.textContent = '…';
-  fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=' + encodeURIComponent(orig))
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      var result = d[0].map(function(s) { return s[0]; }).join('');
-      textEl.textContent = result;
-      btn.textContent = '↩ Original';
-      btn.dataset.translated = '1';
-    })
-    .catch(function() { btn.textContent = '🌐 Translate'; });
+  try {
+    var card = btn.parentElement;
+    var textEl = card.querySelector('p');
+    if (!textEl) return;
+    if (btn.dataset.translated === '1') {
+      textEl.textContent = textEl.dataset.orig;
+      btn.textContent = '🌐 Translate';
+      btn.dataset.translated = '0';
+      return;
+    }
+    var orig = textEl.textContent;
+    textEl.dataset.orig = orig;
+    btn.textContent = '…';
+    fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=' + encodeURIComponent(orig))
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        var result = d[0].map(function(s) { return s[0]; }).join('');
+        textEl.textContent = result;
+        btn.textContent = '↩ Original';
+        btn.dataset.translated = '1';
+      })
+      .catch(function() { btn.textContent = '🌐 Translate'; });
+  } catch(e) { btn.textContent = '🌐 Translate'; }
 };
 
 function _bewertungSterneInit() {
@@ -1819,7 +1822,7 @@ function _bewertungSterneInit() {
           (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
           '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text>' + displayText + '</p>' +
-          '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Translate</button>' +
+          ((!b.text_en) ? '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Translate</button>' : '') +
           '</div>';
       }).join('');
       section.style.display = 'block';
