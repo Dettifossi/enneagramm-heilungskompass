@@ -3171,6 +3171,7 @@ function zitatePage() {
   return shell(`
     ${pageHeader("zitate")}
     <section class="narrow" style="padding:2rem 1rem 5rem;">
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:0 0 0.5rem;line-height:1.2;">Zitate der Weisen</h1>
       <p style="font-size:0.85rem;color:#888;text-align:center;margin:0 0 1.8rem;">${data.length} Zitate · ${themes.length} Themen</p>
       ${cards}
     </section>
@@ -8109,6 +8110,7 @@ function beruehmtePersoenlichkeitenPage() {
   return shell(
     '<div class="page-container">'
     +pageHeader("ber\xfchmte-pers\xf6nlichkeiten")
+    +'<h1 style="font-family:\'EB Garamond\',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Berühmte Persönlichkeiten</h1>'
     +'<p class="psycho-intro">Ber\xfchmte Pers\xf6nlichkeiten aus Wissenschaft, Kunst, Musik, Sport und Geschichte durch die Linse des Enneagramms. '
     +'Jedes Portr\xe4t zeigt, wie die innere Struktur eines Menschen seine Leistungen, seine Kreativit\xe4t und seinen Lebensweg pr\xe4gt \u2013 '
     +'vom Komponisten bis zum Astronauten, vom Friedensnobelpreistr\xe4ger bis zum vision\xe4ren Unternehmer.</p>'
@@ -12084,6 +12086,7 @@ function kriminalpsychologiePage() {
   return shell(
     '<div class="page-container">'
     +pageHeader("kriminalpsychologie")
+    +'<h1 style="font-family:\'EB Garamond\',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Spannende Kriminalfälle</h1>'
     +'<p class="psycho-intro">Bekannte Kriminalf\xe4lle durch die Linse des Enneagramms: '
     +'Wie pr\xe4gt die innere Struktur eines Menschen seine dunkelsten Taten? '
     +'Diese Portr\xe4ts sind keine Verherrlichung, sondern Tiefenanalysen &ndash; '
