@@ -278,6 +278,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
     tags:["Medien"] },
+  { route:"beruehmte-sahra-wagenknecht", name:"Sahra Wagenknecht", added:"2026-07-20", subtyp:"SO3w2",
+    heading:"Sahra Wagenknecht – Sozialer Typ 3",
+    teaser:"SO3w2 · geb. 1969. Politikerin, Buchautorin, Gründerin des BSW. Die Analytikerin des Populären – der Gepard, der nicht nur sprintet, sondern auch weiß, wohin. Tierentsprechung: Gepard.",
+    tags:["Politik","Medien"] },
   { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
     heading:"Cristiano Ronaldo – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1985. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore. Der Gepard, der nie aufhört zu rennen – und der trotzdem weiß, wo er herkommt.",
@@ -12441,6 +12445,75 @@ function bellaThornePage() {
   `);
 }
 
+
+function sahraWagenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sahra-wagenknecht-portrait.jpg" alt="Sahra Wagenknecht" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sahra Wagenknecht</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel &middot; Verstärkungstyp der Drei</p>
+        <p class="krim-portrait-subtitle">Politikerin, Buchautorin, Parteigründerin, geb. 1969 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <blockquote class="vb-blockquote">
+        <strong>Erstens: Die Blickqualität &ndash; zielgerichtet, durchdringend, immer auf Wirkung bedacht</strong>
+        <p class="vb-intro">Der Blick der sozialen Drei ist selbstbewusst, nach außen gerichtet und durchdringend &ndash; er sucht das Publikum, misst die Wirkung, berechnet die Resonanz. Sahra Wagenknechts Blick in Talkshows und Parlamentsdebatten ist legendär: ruhig, präzise, leicht überblickend. Keine Nervosität, keine Ablenkung. Sie schaut dorthin, wo die Aufmerksamkeit liegt &ndash; und hält sie fest.</p>
+        <p class="vb-intro">Das ist der Gepard im Ansatz. Noch bewegungslos, aber bereits auf das Ziel fokussiert. Der soziale Dreier kennt die Bühne, bevor er sie betritt. Wagenknecht weiß instinktiv, wie ein Satz klingen muss, um im Gedächtnis zu bleiben &ndash; und wie ein Schweigen manchmal lauter ist als jede Antwort.</p>
+        <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht diesem Blick eine zusätzliche Qualität: Er wirkt nicht nur selbstsicher, sondern auch einladend. Wagenknecht kann zuhören &ndash; oder den Eindruck erwecken, dass sie es tut. Diese Mischung aus Schärfe und Wärme ist ihr politisches Markenzeichen.</p>
+      </blockquote>
+
+      <blockquote class="vb-blockquote">
+        <strong>Zweitens: Die soziale Drei &ndash; Erfolg als Identität, Anerkennung als Treibstoff</strong>
+        <p class="vb-intro">Der soziale Subtyp der Drei, den Claudio Naranjo den <strong>Verstärkungstyp</strong> nannte, lebt für Prestige, Status und öffentliche Wirkung. Er will nicht nur erfolgreich sein &ndash; er will, dass alle es sehen. Die Bühne ist nicht Mittel, sondern Heimat. Sahra Wagenknecht hat diese Energie auf hohem Niveau ausgebildet: Bücher, die zu Bestsellern werden. Reden, die viral gehen. Eine Partei, die ihren Namen trägt.</p>
+        <p class="vb-intro">Das BSW &ndash; Bündnis Sahra Wagenknecht, 2024 gegründet &ndash; ist politisch und typologisch ein außergewöhnliches Phänomen: eine Partei, benannt nach einer Person, die auf Anhieb in drei Landtage einzieht. Der soziale Dreier baut Systeme, die ihn sichtbar machen. Wagenknecht hat das mit einer Konsequenz getan, die selbst politische Gegner in Staunen versetzt.</p>
+        <p class="vb-intro">Dabei ist sie keine Populistin im klassischen Sinne &ndash; sie ist eine <em>Analytikerin des Populären</em>. Sie versteht, was Menschen bewegt, und formuliert es so, dass es trifft. Das ist die Gabe der sozialen Drei: nicht nur zu performen, sondern zu verstehen, <em>warum</em> bestimmte Inhalte funktionieren.</p>
+      </blockquote>
+
+      <blockquote class="vb-blockquote">
+        <strong>Drittens: Der Zweierflügel &ndash; Volksverbundenheit als politisches Kapital</strong>
+        <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt in die SO3-Grundstruktur eine entscheidende Ergänzung: den Wunsch, gemocht zu werden, gebraucht zu werden, für andere da zu sein. Beim Zweierflügel geht es nicht nur um abstrakte Anerkennung &ndash; es geht um persönliche Zuneigung, um das Gefühl, dass Menschen einem vertrauen und folgen wollen.</p>
+        <p class="vb-intro">Wagenknecht bedient diese Energie meisterhaft. Ihre politischen Botschaften klingen oft wie die eines Menschen, der persönlich betroffen ist &ndash; der für die Schwächeren kämpft, weil er es selbst erlebt hat. Die Botschaft lautet: <em>Ich bin eine von euch.</em> Und der SO3w2er ist gut darin, genau das zu vermitteln &ndash; weil er es auch fühlt, zumindest in dem Moment, in dem er es ausspricht.</p>
+        <p class="vb-intro">Die Kehrseite: Der Zweierflügel kann dazu neigen, Zustimmung zu suchen und Widerspruch als persönlichen Angriff zu erleben. Wer Wagenknecht kritisiert, kritisiert nicht nur eine politische Position &ndash; er greift eine Identität an. Das erklärt, warum Auseinandersetzungen mit ihr oft eine Schärfe erreichen, die über sachliche Differenzen hinausgeht.</p>
+      </blockquote>
+
+      <blockquote class="vb-blockquote">
+        <strong>Viertens: Die Gesamtwirkung &ndash; Bücher, Partei, Medien, Marke</strong>
+        <p class="vb-intro">Sahra Wagenknecht ist eine der meistdiskutierten Politikerinnen Deutschlands &ndash; nicht trotz ihrer Widersprüche, sondern wegen ihnen. Sie war Kommunistin und ist jetzt Parteiführerin einer pragmatisch-konservativen Linken. Sie vertritt soziale Gerechtigkeit und gleichzeitig eine restriktive Migrationspolitik. Sie kritisiert den Kapitalismus und schreibt Bücher, die im Mainstream-Feuilleton besprochen werden.</p>
+        <p class="vb-intro">Der SO3w2er navigiert Widersprüche intuitiv &ndash; nicht weil er unehrlich wäre, sondern weil er spürt, was jeweils gefragt ist. Die Fähigkeit zur Anpassung ist kein Makel, sondern eine Kompetenz: Wer viele verschiedene Milieus ansprechen will, muss viele verschiedene Sprachen sprechen. Wagenknecht beherrscht diese Fähigkeit auf einem Niveau, das in der deutschen Politiklandschaft kaum seinesgleichen hat.</p>
+        <p class="vb-intro">Ihre Bücher &ndash; darunter <em>Die Selbstgerechten</em> (2021) und <em>Frieden</em> (2023) &ndash; sind keine Parteiprogramme, sondern kulturelle Interventionen. Sie schaffen Raum für Debatten, die anderswo nicht stattfinden. Das ist der soziale Dreier auf seiner bewussten Ausdrucksstufe: Er nutzt Erfolg nicht nur für sich, sondern als Plattform für etwas, das größer ist.</p>
+      </blockquote>
+
+      <blockquote class="vb-blockquote">
+        <strong>Fünftens: Die energetische Wirkung &ndash; der Gepard auf der politischen Bühne</strong>
+        <p class="vb-intro">Der Gepard ist das schnellste Landtier der Welt &ndash; und er ist präzise. Er rennt nicht einfach, er rennt <em>zielgenau</em>. Kein anderes Tier verkörpert die Energie der sozialen Drei so treffend: Geschwindigkeit, Fokus, Effizienz, Eleganz. Sahra Wagenknecht hat diese Energie in der politischen Arena vollständig entwickelt. Ihre Reden sind schnell, aber nie unkontrolliert. Ihre Argumente sind scharf, aber selten fahrig.</p>
+        <p class="vb-intro">Wer Wagenknecht in einer Talkshow erlebt, bemerkt diese Gepard-Energie: Sie wartet den richtigen Moment ab, greift dann präzise an und lässt den Eindruck zurück, dass sie noch viel mehr in Reserve hat. Das ist keine Pose &ndash; das ist typologische Substanz. Der SO3w2er kämpft nicht mit Lautstärke. Er kämpft mit Timing und Wirkung.</p>
+        <p class="vb-intro">Gleichzeitig hat der Gepard eine Schwachstelle: Er kann nicht lange laufen. Die Konzentration auf den Sprint bedeutet, dass Ausdauer auf anderen Ebenen leiden kann. Wagenknecht hat mehrfach gesundheitliche Auszeiten gebraucht. Die Energie der SO3 ist hocheffizient &ndash; aber sie hat ihren Preis.</p>
+      </blockquote>
+
+      <blockquote class="vb-blockquote">
+        <strong>Sechstens: Der Heilungsweg &ndash; wenn Erfolg nicht mehr beweisen muss, wer man ist</strong>
+        <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SO3w2 bedeutet das: nicht mehr Bücher schreiben, um gehört zu werden, sondern weil man etwas zu sagen hat. Nicht mehr in Talkshows gehen, um Zustimmung zu sammeln, sondern um ehrlich zu sein &ndash; auch wenn es kostet.</p>
+        <p class="vb-intro">Es gibt Momente in Wagenknechts öffentlichem Auftreten, in denen diese Transformation sichtbar wird: wenn sie unbequeme Positionen einnimmt, die ihr Ansehen kurzfristig schaden, weil sie sie für richtig hält. Der Gepard, der nicht mehr nur auf Applaus jagt, sondern auf Wahrheit &ndash; das ist die soziale Drei auf ihrer höchsten Ausdrucksstufe.</p>
+        <p class="vb-intro">Ein bewusster SO3w2er kann zur Brücke werden &ndash; zwischen Lagern, die sich nicht mehr zuhören. Wagenknecht hat dieses Potenzial. Ob sie es vollständig nutzt, bleibt offen. Aber der Gepard, der innehält und überlegt, bevor er sprintet &ndash; das ist die Energie, die politisch am nötigsten gebraucht wird.</p>
+      </blockquote>
+
+      ${bookTip("enneagramm-heilungskompass", "Der Enneagramm-Heilungskompass", "Detlef Rathmer", "Alle 27 Subtypen im Überblick – Heilungsweg, Leidenschaft und Wunde der sozialen Drei.")}
+      ${bookTip("selbstgerechten", "Die Selbstgerechten", "Sahra Wagenknecht", "Wagenknechts kulturpolitische Intervention – wie eine SO3w2 ihre Reichweite nutzt, um gesellschaftliche Debatten zu prägen.")}
+      ${bookTip("enneagramm-typen", "Die 9 Enneagramm-Typen", "Detlef Rathmer", "Die Grundlagen der neun Typen – für alle, die den Gepard und den Verstärkungstyp der Drei tiefer verstehen wollen.")}
+
+      ${relatedLinks([
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-obama", label:"Porträt: Barack Obama (SO2w3)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"}
+      ])}
+    </div>
+  `);
+}
 
 function cristianoRonaldoPortraitPage() {
   return shell(`
@@ -38735,6 +38808,7 @@ function render() {
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
@@ -39131,7 +39205,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v639';
+  const MY_VERSION = 'inhalt-v640';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

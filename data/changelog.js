@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Sahra Wagenknecht (SO3w2) – Politikerin, BSW-Gründerin, Buchautorin. Der Gepard, der nicht nur sprintet, sondern auch weiß, wohin.",
+    text_en: "New portrait: Sahra Wagenknecht (SO3w2) – politician, BSW founder, author. The cheetah that doesn't just sprint, but knows where it's going.",
+    route: "beruehmte-sahra-wagenknecht"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: David L. Rathmer (SE3w4) – Enneagramm-Profiler, Gründer der Ennea Scholars Academy, Mitentwickler des Kompass. Der Waschbär, der im Licht arbeitet.",
     text_en: "New portrait: David L. Rathmer (SE3w4) – Enneagram profiler, founder of Ennea Scholars Academy, co-developer of the Compass. The raccoon that works in the light.",
     route: "beruehmte-david-l-rathmer"
