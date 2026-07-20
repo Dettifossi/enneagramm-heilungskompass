@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Monika Gruber (SX2w1) – Bayerns schärfste Verführerin zur Wahrheit, Humor als Heimat, das Kamel mit Haltung",
+    text_en: "New portrait: Monika Gruber (SX2w1) – Bavaria's sharpest seductress to truth, humour as home, the camel with conviction",
+    route: "beruehmte-monika-gruber"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Will Smith (SO2w3) – Fresh Prince, Ali, Oscar 2022. Der Golden Retriever, der die Welt umarmen will",
     text_en: "New portrait: Will Smith (SO2w3) – Fresh Prince, Ali, Oscar 2022. The Golden Retriever who wants to embrace the world",
     route: "beruehmte-will-smith"

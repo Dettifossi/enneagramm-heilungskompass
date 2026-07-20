@@ -246,6 +246,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nina Chuba – Soziale Typ 2",
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
     tags:["Musik"] },
+  { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
+    heading:"Monika Gruber – Sexueller Typ 2",
+    teaser:"SX2w1 · geb. 1970. Kabarettistin, Schauspielerin. Bayerns schärfste Verführerin zur Wahrheit – Humor als Heimat, Haltung als zweite Natur. Das Kamel, das tausend Menschen gleichzeitig anschaut. Tierentsprechung: Kamel.",
+    tags:["Kabarett","Schauspiel"] },
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
     heading:"Matthias Schweighöfer – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
@@ -12611,6 +12615,72 @@ function sadhguruPortraitPage() {
   `);
 }
 
+
+function monikaGruberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-monika-gruber-portrait.jpg" alt="Monika Gruber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Monika Gruber</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Kabarettistin, Schauspielerin, geb. 1970 &ndash; Bayerns schärfste Verführerin zur Wahrheit &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das tausend Menschen gleichzeitig anschaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und kein Tier beschreibt Monika Gruber treffender. Das Kamel ist zäh, ausdauernd, eigensinnig. Es duldet keine schlechte Behandlung &ndash; aber wer ihm mit Respekt begegnet, findet einen der treuesten Gefährten der Tierwelt. Das Kamel speichert: Energie, Wasser, Geduld &ndash; und wenn es schließlich trinkt, trinkt es auf einmal bis zu 150 Liter. Diese überschießende Energie ist das Prinzip der sexuellen Zwei: Was sie fühlt, fühlt sie vollständig. Was sie gibt, gibt sie ganz.</p>
+          <p class="vb-intro">Monika Gruber, geboren 1970 in Wasserburg am Inn, ist Bayerns bekannteste Kabarettistin &ndash; und eine der erfolgreichsten Bühnenkünstlerinnen des deutschsprachigen Raums. Ihre Programme füllen Hallen mit tausenden Menschen. Und trotzdem &ndash; oder genau deshalb &ndash; hat man beim Zuschauen das Gefühl: Sie spricht mit mir. Nur mit mir. Das ist das Geheimnis der sexuellen Zwei auf der Bühne: Sie schafft Intimität im Großen. Sie macht aus einem Publikum eine einzige persönliche Begegnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verführung als Form von Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; und das klingt nach Manipulation, ist aber das Gegenteil: Es ist die Fähigkeit, den anderen so anzusprechen, dass er sich wirklich gesehen und wirklich gemeint fühlt. Die sexuelle Zwei verführt nicht, um zu nehmen. Sie verführt, um Verbindung herzustellen. Die tiefste Sehnsucht der SX2 ist nicht Macht &ndash; sie ist Kontakt. Echter, unmittelbarer, ungefilterter Kontakt.</p>
+          <p class="vb-intro">Monika Grubers Bühnensprache ist ein Meisterkurs in genau dieser Qualität. Sie spricht Bayerisch &ndash; nicht als folkloristisches Accessoire, sondern als Sprache der Intimität, der Direktheit, der Zugehörigkeit. Sie erzählt vom Alltag, von der Familie, vom Supermarkt, von der Politik &ndash; und das Publikum erkennt sich wieder. Die SX2 weiß instinktiv: Wenn ich dich zum Lachen bringe, bist du bei mir. Wenn du bei mir bist, kannst du hören, was ich dir eigentlich sagen will.</p>
+          <p class="vb-intro">Was sie sagen will, ist oft unbequem. Monika Gruber ist keine harmlose Unterhalterin. Sie hat sich in den letzten Jahren als eine der schärfsten Kritikerinnen politischer Korrektheit, Identitätspolitik und des gesellschaftlichen Mainstreams positioniert. Woke-Kultur, Gender-Sprache, Corona-Maßnahmen &ndash; sie benennt, was sie für falsch hält, ohne zu zögern. Die Verführung ist der Kanal. Die Wahrheit ist das Ziel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Haltung als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> verleiht der leidenschaftlichen Verführungskraft der SX2 eine feste moralische Achse. Die Eins lebt nach Prinzipien, die nicht verhandelbar sind: Ehrlichkeit, Gerechtigkeit, Rückgrat. Bei Monika Gruber verbindet sich das mit dem bayerischen Ethos einer Frau, die weiß, wo sie herkommt &ndash; und die es für eine Pflicht hält, das auch zu sagen.</p>
+          <p class="vb-intro">Der Einserflügel ist der Grund, warum Monika Gruber nicht einfach Witze macht. Sie hat eine Haltung. Sie hat Meinungen, die sie vertritt, auch wenn sie dafür Gegenwind bekommt. Sie ist nicht bequem. Das Kamel, das schlechte Behandlung nicht duldet, tritt zurück &ndash; und Monika Gruber tritt verbal zurück, wenn sie das Gefühl hat, dass etwas falsch läuft. Das Lachen ist dabei kein Weichspüler &ndash; es ist ein Türöffner. Humor als trojanisches Pferd der Wahrheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Bayerische Wärme mit scharfen Zähnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Monika Gruber live erlebt, begegnet einem Widerspruch, der sich sofort auflöst: Sie ist gleichzeitig ungemein warm und ungemein scharf. Sie hat die Nähe des Kamels &ndash; loyal, zuverlässig, zugewandt &ndash; und die Zähne des Kamels, das sture, das eigenwillige, das sich-nicht-unterordnende. Kein Widerspruch. Beides gehört zur SX2w1: Die Wärme ist echt. Die Schärfe ist echt. Beide kommen aus derselben Quelle: dem Wunsch, dass die Dinge in Ordnung sind.</p>
+          <p class="vb-intro">Ihr Publikum liebt sie nicht trotz ihrer Direktheit, sondern wegen ihr. Menschen, die das Gefühl haben, dass in der öffentlichen Debatte vieles nicht ausgesprochen werden darf, finden bei Monika Gruber eine Stimme &ndash; und das Sicherheitsgefühl, das entsteht, wenn jemand ausspricht, was man selbst denkt. Die SX2 erschafft diesen Schutzraum des gemeinsamen Lachens. Und der Einserflügel sorgt dafür, dass in diesem Raum nicht nur gelacht, sondern auch nachgedacht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Vollpräsenz, keine Halbheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Energie der SX2w1 ist nicht subtil. Sie ist da &ndash; vollständig, unmittelbar, nicht wegzudiskutieren. Monika Gruber auf der Bühne ist ein Vollkontakterlebnis: Sie ist vollständig präsent, vollständig engagiert, vollständig sie selbst. Das Kamel gibt, wenn es gibt, alles &ndash; und Monika Grubers Auftritte sind keine kalibrierten Darbietungen, sondern echte, lebendige Begegnungen mit einer Frau, die gerade jetzt, mit diesem Publikum, wirklich da sein will.</p>
+          <p class="vb-intro">Der Einserflügel bringt dabei Disziplin und Vorbereitung: Ihre Programme sind handwerklich präzise, ihre Pointen sitzen. Aber die Energie darunter ist ungezähmt &ndash; die leidenschaftliche Verbindungssehnsucht der sexuellen Zwei, die in jedem Abend aufs Neue befriedigt wird. Das Kamel hat gespeichert. Jetzt darf es trinken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Humor als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Monika Gruber ihrem Publikum gibt, ist schwer zu benennen, aber sofort zu spüren: ein Gefühl von Heimat. Nicht im sentimentalen Sinn &ndash; sondern im Sinne von: Hier darf ich ich selbst sein. Hier werde ich verstanden. Hier darf gelacht werden, auch über das, worüber man sonst nicht lachen darf. Das ist das Geschenk der SX2w1 auf ihrer höchsten Stufe: ein Raum, in dem Verbindung und Wahrheit nicht im Widerspruch stehen, sondern dasselbe sind.</p>
+          <p class="vb-intro">Monika Gruber macht keine Witze über das Leben &ndash; sie macht das Leben zum Witz, und damit erträglich, klarer, ehrlicher. Das Kamel, das tausend Meilen Wüste kennt, weiß: Es kommt auf die Ausdauer an. Und auf die Fähigkeit, das Wasser zu finden, wenn man es am meisten braucht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function bracoPortraitPage() {
   return shell(`
@@ -38445,6 +38515,7 @@ function render() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
+      "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
@@ -38845,7 +38916,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v631';
+  const MY_VERSION = 'inhalt-v632';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
