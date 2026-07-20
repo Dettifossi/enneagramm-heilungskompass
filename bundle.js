@@ -298,6 +298,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
     tags:["Medien"] },
+  { route:"beruehmte-lena-meyer-landrut", name:"Lena Meyer-Landrut", added:"2026-07-20", subtyp:"SX3w2",
+    heading:"Lena Meyer-Landrut – Sexueller Typ 3",
+    teaser:"SX3w2 · geb. 1991. Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist – und gerade deshalb alle in den Bann zieht. Tierentsprechung: Pfau.",
+    tags:["Musik"] },
   { route:"beruehmte-dieter-bohlen", name:"Dieter Bohlen", subtyp:"SX3w4",
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
@@ -11229,6 +11233,77 @@ function kaiPflaumePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx3", label:"SX3 – Der Strahlende: Subtyp-Profil"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
+
+function lenaMeyerLandrutPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lena-meyer-landrut-portrait.jpg" alt="Lena Meyer-Landrut" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lena Meyer-Landrut</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, ESC-Gewinnerin 2010, geb. 1991 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: das schönste Tier der Welt &ndash; auch wenn es keine Ahnung davon hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; und er entfaltet sein Rad nicht auf Befehl. Er tut es, weil es sein Wesen ist. Was ihn bisweilen auszeichnet: Er weiß es selbst nicht immer. Lena Meyer-Landrut ist dieser Pfau in einer sehr spezifischen Ausprägung. Sie hat 2010 den Eurovision Song Contest mit <em>Satellite</em> gewonnen &ndash; quasi aus dem Stand, als 18-Jährige ohne geplante Popkarriere, von Stefan Raab beim Bundesvision Song Contest entdeckt. Sie stand auf der Bühne wie jemand, der gerade sehr überrascht ist &ndash; und der gleichzeitig exakt dort hingehört.</p>
+          <p class="vb-intro">Das ist das Paradox der SX3: Sie zieht an, ohne zu verführen. Sie strahlt, ohne zu inszenieren. Lenas Bühnenmagnetismus hat nichts von der durchkomponierten Glamour-Maschine. Sie trägt Sneakers, macht Witze über sich selbst &ndash; und das Publikum kann nicht aufhören, ihr zuzuschauen.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verstärkt das: Der SX3w2er strahlt nicht nur &ndash; er wärmt auch. Dieser Unterschied ist sofort spürbar. Man schaut Lena nicht an, weil man muss. Man schaut, weil man sich gesehen fühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: persönlicher Magnetismus als natürliche Gabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> ist der Subtyp, der Anziehungskraft nicht als Strategie einsetzt, sondern als genuinen Ausdruck seines Wesens. Naranjo nannte diesen Subtyp <em>Masculinity / Femininity</em> &ndash; die Verkörperung von Anziehungskraft in ihrer direkten, persönlichen Form. Nicht die Masse, nicht der Status &ndash; sondern der Mensch gegenüber, der Moment, die Verbindung.</p>
+          <p class="vb-intro">Lena hat diese Energie in einer sehr ungewöhnlichen Ausprägung: Sie verführt nicht durch Perfektion, sondern durch Echtheit. Ihre Auftritte, Interviews und Social-Media-Momente sind geprägt von Selbstironie, Humor und einer Direktheit, die andere Stars sich nicht trauen. Die SX3 muss nicht perfekt aussehen, um zu wirken. Sie muss <em>präsent</em> sein. Und Lena ist immer präsent.</p>
+          <p class="vb-intro">Das macht sie zu einer SX3, die das Grundmuster dieser Energie neu buchstabiert: Statt <em>Schau, wie ich leuchte</em> lautet die Botschaft <em>Ich bin wirklich hier &ndash; und du auch.</em> Diese Qualität ist selten und menschlich kostbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Verbindung als Herzensangelegenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt zur Dreierenergie etwas Entscheidendes: die echte Freude an Verbindung. Die Zwei will nicht nur bewundert werden &ndash; sie will verbunden sein. Bei Lena Meyer-Landrut zeigt sich das in der Art, wie sie mit Fans umgeht: nicht als Marke zu Konsumenten, sondern als Mensch zu Menschen.</p>
+          <p class="vb-intro">Sie hat offen über ihre psychischen Krisen gesprochen &ndash; über Depressionen, Erschöpfung, die Momente, in denen der Ruhm nicht genug war. Das ist keine Marketingstrategie. Das ist der Zweierflügel: Der SX3w2er teilt sich mit, weil er spürt, dass echte Verbindung nur durch Wahrhaftigkeit entsteht &ndash; und weil er hofft, damit anderen zu helfen, die sich allein fühlen.</p>
+          <p class="vb-intro">Der SX3w2er zieht nicht nur an &ndash; er kümmert sich. Dieser Unterschied erklärt, warum Lena nach über fünfzehn Jahren im Rampenlicht noch immer eine Fanbase hat, die sie persönlich nimmt, nicht als Produkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Gesamtwirkung: Eurovision, Musik und der Mut zur Unvollkommenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lena Meyer-Landruts Karriere ist ungewöhnlich für eine ESC-Gewinnerin: Sie ist nicht verblasst. Dreizehn Jahre nach <em>Satellite</em> hat sie eine aktive Fanbase, veröffentlicht Musik, die gehört wird, und gilt als authentische Stimme ihrer Generation. Das liegt nicht an einem brillanten Management &ndash; es liegt daran, dass sie echt wirkt.</p>
+          <p class="vb-intro">Die SX3 überlebt im Showbusiness nicht durch Anpassung, sondern durch Persönlichkeit. Lenas Musikstil hat sich verändert &ndash; von ESC-Pop zu experimentelleren, dunkleren Klängen. Sie folgt dabei nicht dem Markt, sondern sich selbst. Das ist die reife SX3: Anziehung durch Integrität, nicht durch Unterwerfung unter Trends.</p>
+          <p class="vb-intro">Ihr Licht und ihr Schatten liegen nah beieinander. Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; nicht als böse Absicht, sondern als strukturelle Gefahr: das Ich, das beginnt, sich mit seiner Wirkung zu verwechseln. Lenas öffentliche Auseinandersetzung mit dieser Frage &ndash; wer bin ich, wenn niemand hinschaut? &ndash; zeigt eine SX3, die ihren Schatten kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Pfau: Strahlen ohne Scheinwerfer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was den Pfau der sexuellen Drei von anderen Dreier-Subtypen unterscheidet, ist die Intimität seiner Wirkung. Der soziale Dreier leuchtet für das Publikum. Der sexuelle Dreier leuchtet für <em>dich</em> &ndash; genau für dich, in diesem Moment. Lena Meyer-Landrut hat diese Gabe in seltener Ausprägung: Sie kann in einem Millionen-Konzert das Gefühl erzeugen, dass sie mit dir spricht. Nicht mit der Menge. Mit dir.</p>
+          <p class="vb-intro">Diese Qualität entsteht nicht durch Technik, sondern durch eine Form von Aufmerksamkeit, die die SX3 von Natur aus hat: <em>Wer ist der Mensch vor mir? Was braucht er? Wie komme ich wirklich zu ihm hin?</em> Lenas Bühnensprache ist direkt, manchmal unbeholfen, immer lebendig. Der Pfau muss nicht perfekt sein, um zu bezaubern. Er muss er selbst sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: wenn Anziehung sich in Echtheit verwandelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie wirke ich?</em> zur Erkenntnis <em>Ich bin &ndash; unabhängig davon, wie ich wirke.</em> Für die SX3 bedeutet das: nicht mehr verführen müssen, sondern verbunden sein dürfen. Aus Anziehung wird Echtheit. Aus Charisma wird Charakter.</p>
+          <p class="vb-intro">Lena Meyer-Landrut hat Schritte dieses Weges öffentlich gemacht: Pausen eingelegt, Grenzen gesetzt, über innere Erschöpfung gesprochen &ndash; zu einer Zeit, als das im Showbusiness noch ein Risiko war, kein Trend. Das ist die SX3w2 auf ihrem Heilungsweg: Sie tauscht die Fassade gegen Tiefe, das Strahlen gegen Wärme, den Applaus gegen echte Begegnung.</p>
+          <p class="vb-intro">Der Pfau, der aufhört, sein Rad zu entfalten, weil er denkt, er müsse es &ndash; und entdeckt, dass er auch so geliebt wird. Das ist der schönste Moment dieser Verwandlung.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+
+      ${relatedLinks([
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"}
       ])}
     </div>
   `);
@@ -38820,6 +38895,7 @@ function render() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
+      "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
@@ -39287,7 +39363,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v645';
+  const MY_VERSION = 'inhalt-v646';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
