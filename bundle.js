@@ -198,6 +198,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
+    heading:"Klaus Kinski – Sexueller Typ 1",
+    teaser:"SX1w9 · 1926–1991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen – Gleichgültigkeit war keine Option.",
+    tags:["Schauspiel","Kino"] },
   { route:"beruehmte-marie-agnes-strack-zimmermann", name:"Marie-Agnes Strack-Zimmermann", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Marie-Agnes Strack-Zimmermann – Sexueller Typ 1",
     teaser:"SX1w9 · geb. 1958. FDP-Politikerin, Vorsitzende des Verteidigungsausschusses, EU-Parlamentarierin. Die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu. Feuer und Ausdauer in einem. Tierentsprechung: Schwarze Mamba.",
@@ -11903,6 +11907,72 @@ function marieAgnesStrackZimmermannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function klausKinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klaus-kinski-portrait.jpg" alt="Klaus Kinski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus Kinski</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel &middot; Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1926&ndash;1991 &ndash; Aguirre, Nosferatu, Fitzcarraldo &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; und kein Tier spiegelt Klaus Kinski auf erschreckendere Weise wider. Die Schwarze Mamba ist bekannt für ihre Geschwindigkeit, ihre Präzision und ihre tödliche Bisskraft. Sie schlägt nicht aus Laune zu, sondern aus einem inneren Gesetz: Wenn sie sich bedroht fühlt, reagiert sie gnadenlos. Gleichgültigkeit ist ihr fremd. In ihrer Nähe zu sein, bedeutet, vollständig wach zu sein.</p>
+          <p class="vb-intro">Klaus Kinski, geboren 1926 in Danzig, gestorben 1991 in Kalifornien, war eine der intensivsten Persönlichkeiten der Filmgeschichte. Mit Werner Herzog drehte er fünf Filme, die zu den bedeutendsten des deutschen Kinos zählen: <em>Aguirre, der Zorn Gottes</em>, <em>Nosferatu &ndash; Phantom der Nacht</em>, <em>Woyzeck</em>, <em>Fitzcarraldo</em> und <em>Cobra Verde</em>. Auf dem Set war er legendär gefürchtet. Und legendär unverzichtbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst und der Kontratyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der <strong>Kontratyp der Eins</strong> &ndash; der Subtyp, der am wenigsten wie eine Eins wirkt, es aber am intensivsten ist. Während die selbsterhaltende und die soziale Eins ihren Perfektionsanspruch nach innen oder auf das Kollektiv richten, verbindet die sexuelle Eins ihre moralische Energie mit leidenschaftlicher Direktheit. Naranjo nannte diesen Subtyp <em>Zeal</em> &ndash; Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen, ungefilterter, ungeduldiger, kompromissloser als bei jedem anderen Einser-Subtyp.</p>
+          <p class="vb-intro">Kinski hatte nicht nur den Drang, Perfektion zu erreichen &ndash; er erlebte diese als ein tiefes inneres Feuer. Als Schauspieler war er berüchtigt für seine kompromisslose Hingabe an seine Rollen und seine unnachgiebigen Ansprüche an Regisseure und Kollegen. Seine Vorstellung von Perfektion war absolut und alles andere als verhandelbar. Das ist typisch für die sexuelle Eins: Sie sieht ihre eigenen Ideale als unumstößliche Wahrheiten, denen alles andere untergeordnet werden muss.</p>
+          <p class="vb-intro">Sein Blick war intensiv, oft bedrohlich und tiefgehend. Er hatte etwas Unvermeidliches &ndash; als ob er alles um sich herum mit durchdringender Schärfe wahrnahm und dabei nicht nur andere, sondern auch sich selbst einer kritischen Prüfung unterzog. Menschen in seiner Umgebung beschrieben oft, dass sein Blick eine gewisse Unruhe und Furcht auslöste. Gleichgültigkeit war keine Option.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit hinter dem Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der Intensität der sexuellen Eins eine eigentümliche Qualität hinzu: Ausdauer. Die Neun ist geduldig, beharrlich, sie hält durch &ndash; nicht weil sie gleichgültig wäre, sondern weil sie eine tiefe Fähigkeit besitzt, in einer Sache zu verharren, lange nachdem andere aufgegeben haben. Bei Kinski zeigt sich dieser Flügel in seiner Fähigkeit, immer wieder zu den gleichen Partnern zurückzukehren, immer wieder in die gleichen Tiefen zu gehen.</p>
+          <p class="vb-intro">Seine fünf Filme mit Werner Herzog waren keine zufällige Konstellation. Herzog und Kinski hassten und brauchten einander gleichzeitig &ndash; eine Beziehung, die ohne den Neunerflügel nicht überlebt hätte. Die sexuelle Eins liefert das Feuer. Der Neunerflügel liefert die Schwerkraft, die das Feuer an seinem Ort hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als moralisches Urteil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w9 erreicht er eine Intensität, die alle sozialen Filter durchbricht. Kinski war berüchtigt für seine Wutausbrüche und seine Unfähigkeit, Kompromisse einzugehen, insbesondere wenn er das Gefühl hatte, dass seine künstlerischen oder ethischen Standards verraten wurden. Diese Ausbrüche entsprangen nicht nur persönlicher Frustration, sondern einem tiefen Gefühl moralischer Verletzung.</p>
+          <p class="vb-intro">Obwohl Kinski in seiner äußeren Erscheinung oft unbeherrscht wirkte, war dies Teil eines tieferliegenden Kampfes, der für die sexuelle Eins typisch ist: der innere Drang nach Kontrolle und moralischer Reinheit bei gleichzeitiger Schwierigkeit, diese Kontrolle zu bewahren. Die Mamba, die sich bedroht fühlt, beißt. Kinski beißt &ndash; verbal, emotional, existenziell.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Faszination und Zerstörung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Gesamtwirkung Klaus Kinskis war zutiefst polarisierend. Wie bei der sexuellen Eins zu erwarten, war seine Präsenz sowohl faszinierend als auch beängstigend. Man konnte Kinski entweder lieben oder hassen &ndash; aber Gleichgültigkeit war keine Option. Seine Energie dominierte jeden Raum, den er betrat, sei es durch seine schauspielerische Leistung oder seine temperamentvollen Ausbrüche.</p>
+          <p class="vb-intro">Er hatte eine extrem polarisierende Persönlichkeit, die starke emotionale Reaktionen bei anderen hervorrief. Die sexuelle Eins sucht entweder eine tiefe, leidenschaftliche Verbindung mit ihren Mitmenschen &ndash; oder sie weist sie, wenn enttäuscht, ebenso leidenschaftlich zurück. Beides war bei Kinski immer vollständig, nie halb. Sein Lebenswerk &ndash; und sein Schatten &ndash; sind Zeugnis für die kraftvolle, aber oft zerstörerische Natur der sexuellen Eins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Intensität als Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Klaus Kinski dem Kino hinterlassen hat, ist unwiederholbar. Sein <em>Aguirre</em> ist kein gespielter Wahnsinn &ndash; er ist Wahnsinn, der durch das Medium Film sichtbar gemacht wurde. Sein <em>Nosferatu</em> braucht keinen Trick, keine Maske &ndash; er braucht nur diese Augen, diesen Blick, diese Unvermeidlichkeit. Das ist das Geschenk der Schwarzen Mamba: eine Intensität, die sich nicht simulieren lässt.</p>
+          <p class="vb-intro">Die sexuelle Eins kann inspirieren und zerstören &ndash; manchmal gleichzeitig. Kinski hat beides getan. Sein Lebenswerk ist ein Zeugnis dafür, was möglich ist, wenn ein Mensch sich vollständig seiner inneren Wahrheit übergibt &ndash; ohne Rücksicht, ohne Filter, ohne Kompromiss. Das ist zugleich das Größte und das Gefährlichste an der SX1w9.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
@@ -38224,6 +38294,7 @@ function render() {
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
@@ -38631,7 +38702,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v623';
+  const MY_VERSION = 'inhalt-v624';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

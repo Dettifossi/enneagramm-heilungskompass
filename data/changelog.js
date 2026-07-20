@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Klaus Kinski (SX1w9) – Kontratyp der Eins, Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos",
+    text_en: "New portrait: Klaus Kinski (SX1w9) – Countertype of One, Aguirre, Nosferatu, Fitzcarraldo. The Black Mamba of German cinema",
+    route: "beruehmte-klaus-kinski"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Marie-Agnes Strack-Zimmermann (SX1w9) – die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu",
     text_en: "New portrait: Marie-Agnes Strack-Zimmermann (SX1w9) – the Black Mamba of German politics: sharp, persistent, principled",
     route: "beruehmte-marie-agnes-strack-zimmermann"
