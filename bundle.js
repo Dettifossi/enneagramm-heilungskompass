@@ -11993,7 +11993,7 @@ function sucharitBhakdiPortraitPage() {
           <img src="./assets/portraits/beruehmte-sucharit-bhakdi-portrait.jpg" alt="Sucharit Bhakdi" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Sucharit Bhakdi</p>
-        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einsflügel &middot; Herztyp</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel &middot; Herztyp</p>
         <p class="krim-portrait-subtitle">Mikrobiologe, geb. 1946 &ndash; Pionier der kritischen Impfstoff-Wissenschaft &ndash; Tierentsprechung: Golden Retriever</p>
       </div>
       <div class="page-content">
@@ -12010,29 +12010,29 @@ function sucharitBhakdiPortraitPage() {
           <p class="vb-intro">Bhakdi hat über vier Jahrzehnte lang geforscht, gelehrt, publiziert &ndash; nicht für Ruhm, nicht für Geld, sondern weil Mikrobiologie für ihn ein Dienst an der menschlichen Gesundheit war. Als er in der Pandemiezeit die Gefahr erkannte, die er in den neuartigen mRNA-Impfstoffen sah &ndash; Blutgerinnungsstörungen, Immunüberaktivierung, das Eindringen von Spike-Proteinen in lebenswichtige Organe &ndash;, war für ihn klar: Zu schweigen wäre ein Verrat an diesem Auftrag. Ein Golden Retriever, der die Gefahr riecht und sich still verhält, ist kein Golden Retriever mehr. Er ist ein Tier, das seine Natur verleugnet.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Einsflügel: Moral als unverhandelbare Grenze</h2>
+        <h2 class="vb-section">3. Der Einserflügel: Moral als unverhandelbare Grenze</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einsflügel (w1)</strong> verleiht der sozialen Zwei eine Dimension, die über Fürsorge weit hinausgeht: moralische Kompromisslosigkeit. Die Eins lebt nach inneren Prinzipien, die nicht verhandelbar sind. Sie kann Halbwahrheiten nicht tolerieren. Sie kann nicht zusehen, wenn Unrecht geschieht und alle schweigen. Sie fühlt sich verpflichtet &ndash; nicht aus Ehrgeiz, sondern aus einem tiefen Gerechtigkeitssinn.</p>
-          <p class="vb-intro">Bei Bhakdi verbindet sich dieser Einsflügel mit dem wissenschaftlichen Ethos eines Forschers der alten Schule: empirische Evidenz, methodische Sorgfalt, Bereitschaft, unbequeme Schlüsse auszusprechen. Als nahezu alle Institutionen eine Richtung einschlugen, wählte er die entgegengesetzte &ndash; nicht aus Querulanz, sondern weil seine innere Waage anzeigte: Diese Richtung stimmt nicht. Die Eins kann nicht handeln, als ob sie das nicht sehen würde.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> verleiht der sozialen Zwei eine Dimension, die über Fürsorge weit hinausgeht: moralische Kompromisslosigkeit. Die Eins lebt nach inneren Prinzipien, die nicht verhandelbar sind. Sie kann Halbwahrheiten nicht tolerieren. Sie kann nicht zusehen, wenn Unrecht geschieht und alle schweigen. Sie fühlt sich verpflichtet &ndash; nicht aus Ehrgeiz, sondern aus einem tiefen Gerechtigkeitssinn.</p>
+          <p class="vb-intro">Bei Bhakdi verbindet sich dieser Einserflügel mit dem wissenschaftlichen Ethos eines Forschers der alten Schule: empirische Evidenz, methodische Sorgfalt, Bereitschaft, unbequeme Schlüsse auszusprechen. Als nahezu alle Institutionen eine Richtung einschlugen, wählte er die entgegengesetzte &ndash; nicht aus Querulanz, sondern weil seine innere Waage anzeigte: Diese Richtung stimmt nicht. Die Eins kann nicht handeln, als ob sie das nicht sehen würde.</p>
           <p class="vb-intro">Er hat dafür einen hohen persönlichen Preis gezahlt: Verleumdungskampagnen, strafrechtliche Verfolgung, wissenschaftliche Ächtung. Der SO2w1 kennt diesen Preis &ndash; und zahlt ihn, ohne die Rechnung zu vergessen. Denn das Gegenteil wäre: schweigen. Und das ist keine Option.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Gesamtwirkung: Wärme und Unerschütterlichkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wer Prof. Bhakdi in Interviews oder Vorträgen erlebt, begegnet nicht dem Bild des kalten, abgehobenen Wissenschaftlers. Er strahlt Wärme aus &ndash; echte, zugewandte, fast väterliche Wärme. Er spricht langsam, deutlich, mit dem Pathos eines Menschen, dem es ernst ist. Er will verstanden werden &ndash; nicht bewundert. Er will, dass die Menschen begreifen, was er begreift &ndash; nicht damit er Recht behält, sondern damit sie geschützt sind.</p>
-          <p class="vb-intro">Das ist die Gesamtwirkung des SO2w1: ein Mensch, der sich unermüdlich in den Dienst stellt &ndash; und dabei gleichzeitig unerschütterlich bleibt. Er lässt sich nicht kaufen, nicht schweigen, nicht einschüchtern. Nicht weil er Held sein will. Sondern weil er Golden Retriever ist: Er kann nicht anders, als auf die Gefahr hinzuweisen, die er sieht &ndash; immer wieder, bis jemand zuhört.</p>
+          <p class="vb-intro">Das ist die Gesamtwirkung des SO2w1: ein Mensch, der sich unermüdlich in den Dienst stellt &ndash; und dabei gleichzeitig unerschütterlich bleibt. Er lässt sich nicht kaufen, nicht den Mund verbieten, nicht einschüchtern. Nicht weil er Held sein will. Sondern weil er das Herz eines Golden Retrievers in sich trägt: Er kann nicht anders, als auf die Gefahr hinzuweisen, die er sieht &ndash; immer wieder, bis jemand zuhört.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Energetische Wirkung: Ernst und Herzwärme zugleich</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bhakdis Energie ist die eines Menschen, der sowohl traurig als auch fest entschlossen ist. Er trägt das Gewicht dessen, was er weiß &ndash; und er trägt es nicht leicht. Die soziale Zwei leidet, wenn die Gesellschaft leidet. Wenn der Golden Retriever sieht, dass seine Warnungen ignoriert werden, ist das kein abstrakter Misserfolg: Es ist ein persönlicher Schmerz.</p>
-          <p class="vb-intro">Und dennoch: Er gibt nicht auf. Der Einsflügel hält ihn aufrecht. Die Eins bricht nicht, solange das innere Prinzip klar ist &ndash; und bei Bhakdi ist es das. Er kämpft nicht für sich. Er kämpft für die Menschen, die er nicht persönlich kennt und dennoch liebt &ndash; als soziale Zwei, die die Menschheit als ihre Gemeinschaft betrachtet, der sie zugehört.</p>
+          <p class="vb-intro">Und dennoch: Er gibt nicht auf. Der Einserflügel hält ihn aufrecht. Die Eins bricht nicht, solange das innere Prinzip klar ist &ndash; und bei Bhakdi ist es das. Er kämpft nicht für sich. Er kämpft für die Menschen, die er nicht persönlich kennt und dennoch liebt &ndash; als soziale Zwei, die die Menschheit als ihre Gemeinschaft betrachtet, der sie zugehört.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Golden Retriever: Treue als höchste Form der Liebe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Golden Retriever</strong> steht für bedingungslose Zuneigung, für Loyalität, für Verlässlichkeit &ndash; und für eine Eigenschaft, die in unserer Zeit besonders selten geworden ist: für Treue zur Wahrheit, auch wenn die Wahrheit teuer ist. Er sucht keine Anerkennung. Er sucht Vertrauen. Er braucht das Gefühl, wirklich gebraucht zu werden, wirklich nützlich zu sein &ndash; nicht als Berühmtheit, sondern als Beschützer.</p>
-          <p class="vb-intro">Sucharit Bhakdi ist dieser Golden Retriever. Sein gesamtes Lebenswerk &ndash; vierzig Jahre Forschung, unzählige Publikationen, der Mut, öffentlich zu widersprechen, als fast alle schwiegen &ndash; lässt sich in einem einzigen Satz zusammenfassen: <em>Ich warne euch, weil ich euch liebe.</em> Das ist SO2w1. Das ist der Golden Retriever, der nicht aufhört zu bellen, weil er den Einbrecher noch vor der Haustür weiß.</p>
+          <p class="vb-intro">Sucharit Bhakdi ist dieser Golden Retriever. Sein gesamtes Lebenswerk &ndash; vierzig Jahre Forschung, unzählige Publikationen, der Mut, öffentlich zu widersprechen, als fast alle schwiegen &ndash; lässt sich in einem einzigen Satz zusammenfassen: <em>Ich warne euch, weil ich euch liebe.</em> Das ist die SO2w1. Das ist der Golden Retriever, der nicht aufhört zu bellen, weil er den Einbrecher noch vor der Haustür weiß.</p>
         </blockquote>
 
       </div>
@@ -38773,7 +38773,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v626';
+  const MY_VERSION = 'inhalt-v627';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
