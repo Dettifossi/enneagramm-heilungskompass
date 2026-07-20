@@ -198,10 +198,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
-    heading:"Prof. Dr. Sucharit Bhakdi – Sozialer Typ 2",
-    teaser:"SO2w1 · geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unermüdlicher Mahner. Der Golden Retriever, der Alarm schlägt – weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
-    tags:["Wissenschaft","Medizin"] },
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski – Sexueller Typ 1",
     teaser:"SX1w9 · 1926–1991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen – Gleichgültigkeit war keine Option.",
@@ -234,6 +230,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jan Ullrich – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong – nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
     tags:["Sport"] },
+  { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
+    heading:"Prof. Dr. Sucharit Bhakdi – Sozialer Typ 2",
+    teaser:"SO2w1 · geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unermüdlicher Mahner. Der Golden Retriever, der Alarm schlägt – weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
+    tags:["Wissenschaft","Medizin"] },
   { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1961. 44. US-Präsident, Community Organizer, Friedensnobelpreisträger. Yes We Can – keine Botschaft über Obama, sondern über das, was wir gemeinsam möglich machen. Tierentsprechung: Golden Retriever.",
@@ -38773,7 +38773,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v627';
+  const MY_VERSION = 'inhalt-v628';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
