@@ -12709,8 +12709,8 @@ function pamelaReifPortraitPage() {
 
         <h2 class="vb-section">2. SX2: Verführung durch den Bildschirm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, andere durch emotionale Nähe und intensive Präsenz zu sich zu ziehen. Was bei der sexuellen Zwei entsteht, ist kein distanziertes Sender-Empfänger-Verhältnis, sondern das Gefühl einer echten, persönlichen Begegnung. Das Besondere bei Pamela Reif: Sie schafft diese Qualität durch einen Bildschirm. Menschen, die ihr Videos folgen, haben nicht das Gefühl, einem Workout-Programm zu folgen &ndash; sie haben das Gefühl, mit jemandem zu trainieren, der sie kennt, der für sie da ist, der sie nicht aufgibt.</p>
-          <p class="vb-intro">Ihr Blick in die Kamera ist direkt und einladend zugleich. Keine performative Aufgeregtheit, keine aufgesetzte Motivation &ndash; sondern eine ruhige, intensive Zugewandtheit, die typisch für die SX2 ist. Die sexuelle Zwei sucht nicht die Masse. Sie sucht die eine Person &ndash; und Pamela Reif hat die Fähigkeit, bei Millionen Menschen gleichzeitig das Gefühl zu erzeugen, genau diese eine Person zu sein. Das ist selten. Das ist Verführung im tiefsten Enneagramm-Sinn: nicht Manipulation, sondern echte Verbindungskunst.</p>
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, andere durch emotionale Nähe und intensive Präsenz zu sich zu ziehen. Was bei der sexuellen Zwei entsteht, ist kein distanziertes Sender-Empfänger-Verhältnis, sondern das Gefühl einer echten, persönlichen Begegnung. Das Besondere bei Pamela Reif: Sie schafft diese Qualität durch einen Bildschirm. Menschen, die ihre Videos verfolgen, haben nicht das Gefühl, einem Workout-Programm zu folgen &ndash; sie haben das Gefühl, mit jemandem zu trainieren, der sie kennt, der für sie da ist, der sie nicht aufgibt.</p>
+          <p class="vb-intro">Ihr Blick in die Kamera ist direkt und einladend zugleich. Keine performative Aufgeregtheit, keine aufgesetzte Motivation &ndash; sondern eine ruhige, intensive Zugewandtheit, die typisch für die SX2 ist. Die sexuelle Zwei sucht nicht die Masse. Sie sucht die eine Person &ndash; und Pamela Reif hat die Fähigkeit, bei Millionen Menschen gleichzeitig das Gefühl zu erzeugen, genau diese eine Person zu sein. Das ist selten. Das ist Verführung im tiefsten Enneagramm-Sinn: nicht unbedingt Manipulation, sondern echte Verbindungskunst.</p>
           <p class="vb-intro">Dazu gehört auch die Bereitschaft zur Selbstaufopferung, die das PDF ihrer Persönlichkeitsanalyse betont: Pamela investiert enorm viel Zeit und Energie &ndash; nicht um sich selbst zu zeigen, sondern um anderen das Beste zu geben. Die SX2 erfüllt sich durch das Geben. Und wenn das Geben zurückkommt &ndash; als Kommentar, als Dankbarkeit, als geteiltes Video &ndash;, ist das keine Belohnung. Es ist die Antwort auf die tiefste Frage der Zwei: Bin ich wirklich wichtig für dich?</p>
         </blockquote>
 
@@ -12722,7 +12722,7 @@ function pamelaReifPortraitPage() {
 
         <h2 class="vb-section">4. Gesamtwirkung: Stille Kraft, die bewegt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wer Pamela Reifs Videos sieht, begegnet keiner lauten Persönlichkeit. Sie schreibt nicht, sie schreit nicht, sie übertreibt nicht. Ihre Energie ist ruhig &ndash; aber sie ist da. Vollständig da. Der Blick, die Haltung, die Präzision der Bewegung: alles kommuniziert dasselbe &ndash; <em>Ich mache das mit dir. Du schaffst das.</em> Das ist die stille Kraft des Kamels: keine Dramatik, keine Geste, aber eine Verlässlichkeit, die tiefer wirkt als jede Inszenierung.</p>
+          <p class="vb-intro">Wer Pamela Reifs Videos sieht, begegnet keiner lauten Persönlichkeit. Sie drängt sich nicht auf, sie schreit nicht, sie übertreibt nicht. Ihre Energie ist ruhig &ndash; aber sie ist da. Vollständig da. Der Blick, die Haltung, die Präzision der Bewegung: alles kommuniziert dasselbe &ndash; <em>Ich mache das mit dir. Du schaffst das.</em> Das ist die stille Kraft des Kamels: keine Dramatik, keine Geste, aber eine Verlässlichkeit, die tiefer wirkt als jede Inszenierung.</p>
           <p class="vb-intro">Das Publikum spürt das. Millionen Menschen haben ihre Workout-Routine an Pamela Reif ausgerichtet &ndash; nicht weil ihre Videos die spektakulärsten sind, sondern weil sie das Gefühl erzeugen, nicht allein zu sein. Das ist der Kern der SX2w3-Wirkung: sanfte Präsenz, die stärkt.</p>
         </blockquote>
 
@@ -12735,7 +12735,7 @@ function pamelaReifPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Fitnessinhalte als Beziehungsangebot</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Pamela Reif der Welt gibt, ist mehr als Fitness. Sie hat einer Generation gezeigt, dass der eigene Körper kein Feind ist, den man bezwingen muss, sondern ein Zuhause, das man einladen kann &ndash; mit Würde, mit Ausdauer, mit Freude. <em>You Deserve This</em> ist nicht nur ein Buchtitel: Es ist die Botschaft der SX2w3 an alle, die das Gefühl kennen, für Fürsorge erst etwas leisten zu müssen.</p>
-          <p class="vb-intro">Das Kamel kennt die Wüste. Es weiß, wie man trägt. Und es weiß, dass auch die längste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Das ist die SX2w3 auf ihrer höchsten Stufe.</p>
+          <p class="vb-intro">Das Kamel kennt die Wüste. Es weiß, wie man trägt. Und es weiß, dass auch die längste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Das ist die SX2w3 auf ihrer höchsten Ausdrucksstufe.</p>
         </blockquote>
 
       </div>
@@ -38987,7 +38987,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v634';
+  const MY_VERSION = 'inhalt-v635';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
