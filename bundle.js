@@ -12275,7 +12275,7 @@ function willSmithPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Ohrfeige auf der Oscar-Bühne 2022 ist ein typologisches Dokument. Chris Rock machte einen Witz über die Alopecia-Erkrankung von Jada Pinkett Smith &ndash; und Will Smith stand auf, trat ans Podium und schlug zu. Es war ein Moment, der das sorgfältig konstruierte Bild des strahlenden Publikumslieblings in Sekundenbruchteilen zerbrach.</p>
           <p class="vb-intro">Aus der SO2w3-Perspektive ist dieser Moment nicht rätselhaft, sondern verständlich &ndash; und tragisch. Die soziale Zwei schützt die Menschen, die ihr gehören. Jada ist der Kern seiner Gemeinschaft &ndash; und der Dreierflügel hatte ihm jahrelang beigebracht, Schmerz zu überspielen, zu lächeln, weiterzumachen. In dieser Nacht trat das Innere durch die Außenfassade hindurch &ndash; der Golden Retriever, der sonst nur wedelt, biss. Nicht aus Kalkül. Sondern weil der Schutzimpuls stärker war als das Image.</p>
-          <p class="vb-intro">Im Enneagramm geht der Typ 2 unter Stress in den <strong>Typ 8</strong> &ndash; und dieser Achter-Stresspunkt ist genau das, was man in jenem Moment sah: Kontrolle über das eigene Territorium, Schutz des Rudels, der direkte Zugriff ohne Filter. Kein Zweier-Lächeln mehr. Nur noch der Acht-Impuls: <em>Das lasse ich nicht zu.</em> Dann die Rückkehr &ndash; Tränen, Reue, Dankbarkeit. Der Zweier kam wieder nach oben.</p>
+          <p class="vb-intro">Im Enneagramm geht der Typ 2 unter Stress in den <strong>Typ 8</strong> &ndash; und dieser Achter-Stresspunkt ist genau das, was man in jenem Moment sah: Kontrolle über das eigene Territorium, Schutz des Rudels, der direkte Zugriff ohne Filter. Kein Zweier-Lächeln mehr. Nur noch der Achter-Impuls: <em>Das lasse ich nicht zu.</em> Dann die Rückkehr &ndash; Tränen, Reue, Dankbarkeit. Der Zweier kam wieder nach oben.</p>
           <p class="vb-intro">Minuten später stand er weinend auf der Bühne, hielt seinen Oscar in der Hand und sprach über Liebe und Berufung. Das ist Will Smith: beides gleichzeitig &ndash; die Verletzung und die Wärme, der Ausbruch und die Reue, der Mensch hinter dem Bild.</p>
         </blockquote>
 
@@ -38845,7 +38845,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v630';
+  const MY_VERSION = 'inhalt-v631';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
