@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Jürgen Klopp (SO1w2) – Trainer, Motivator, die Gans, die ihrer Formation glaubt",
+    text_en: "New portrait: Jürgen Klopp (SO1w2) – coach, motivator, the goose that believes in its formation",
+    route: "beruehmte-juergen-klopp"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Marie Kondo (SE1w2) – KonMari, \"Löst es Freude aus?\" und der Adler als Ordnungsprinzip",
     text_en: "New portrait: Marie Kondo (SE1w2) – KonMari, \"Does it spark joy?\" and the eagle as principle of order",
     route: "beruehmte-marie-kondo"

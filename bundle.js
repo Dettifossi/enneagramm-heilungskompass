@@ -190,6 +190,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jordan Peterson – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt – weil sie das Chaos aus eigener Erfahrung kennt und weiß, was es kostet, wenn Struktur fehlt.",
     added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] },
+  { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
+    heading:"Jürgen Klopp – Sozialer Typ 1",
+    teaser:"SO1w2 · geb. 1967. Trainer, Meister, Motivator. BVB, Liverpool, Red Bull – und möglicherweise bald Bundestrainer. Die Gans, die ihrer Formation glaubt, bevor die Formation sich selbst glaubt. Tierentsprechung: Gans.",
+    tags:["Sport"] },
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
@@ -11692,6 +11696,73 @@ function marieKondoPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function juergenKloppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-juergen-klopp-portrait.jpg" alt="Jürgen Klopp" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Klopp</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Fußballtrainer, geb. 1967 &ndash; Dortmund, Liverpool, Red Bull &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; und kein Tier trifft Jürgen Klopp so genau. Die Gans fliegt nicht allein. Sie fliegt im V-Formationsverband, sie ruft, sie hält die Gruppe zusammen, sie übernimmt Verantwortung für das Kollektiv. Wenn eine Gans erschöpft ist, übernimmt eine andere die Spitze. Das Prinzip ist Solidarität &ndash; und die Überzeugung, dass man gemeinsam weiter kommt als allein.</p>
+          <p class="vb-intro">Jürgen Klopp, geboren 1967 in Stuttgart, war als Spieler ordentlich &ndash; und als Trainer außergewöhnlich. Nicht weil er taktisch so brillant gewesen wäre wie andere, sondern weil er verstand, was Mannschaften wirklich brauchen: das Gefühl, füreinander zu spielen. Mit dem BVB gewann er zweimal die Deutsche Meisterschaft und den DFB-Pokal. Mit dem FC Liverpool holte er 2019 die Champions League und 2020 die englische Meisterschaft &ndash; Titel, auf die Liverpool über dreißig Jahre gewartet hatte. Kein Zufall. Eine Gans, die ihre Formation findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ideale für das Kollektiv</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist der Subtyp der Eins, der seinen Perfektionsanspruch nicht auf sich selbst oder sein privates Umfeld richtet, sondern auf das Kollektiv &ndash; auf die Gruppe, die Gemeinschaft, die Gesellschaft. Naranjo nannte diesen Subtyp <em>Non-Adaptability</em>: Die SO1 passt sich nicht an, wenn sie erkennt, dass das Kollektiv einen falschen Weg einschlägt. Sie steht auf. Sie benennt, was nicht stimmt. Sie kämpft für ein Ideal, das über die eigene Person hinausgeht.</p>
+          <p class="vb-intro">Klopps Ideal war immer erkennbar: Fußball als Teamleistung, nicht als Bühne für Einzelspieler. Sein System des <em>Gegenpressings</em> &ndash; sofortiger kollektiver Ballrückgewinn nach Ballverlust &ndash; ist nicht nur eine Taktik. Es ist eine Philosophie: Alle laufen, alle kämpfen, alle sind verantwortlich. Kein Einzelner rettet das Spiel. Das Kollektiv gewinnt es.</p>
+          <p class="vb-intro">Als er 2015 zu Liverpool wechselte, erklärte er sich selbst zum &bdquo;Normal One&ldquo; &ndash; eine direkte Anspielung auf José Mourinhos berühmtes &bdquo;Special One&ldquo;. Das war kein Understatement. Das war ein Bekenntnis: Nicht Ich, sondern Wir.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme als Führungsmittel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins etwas Entscheidendes: echte menschliche Wärme. Die SO1w2 will nicht nur, dass das System stimmt &ndash; sie will, dass die Menschen darin sich gesehen und geliebt fühlen. Der Zweierflügel macht aus dem Idealist einen Begleiter.</p>
+          <p class="vb-intro">Klopp umarmt seine Spieler. Er springt von der Bank, ballt die Faust, dreht durch &ndash; und das ist keine Inszenierung. Es ist genuiner Ausdruck. Wenn Mohamed Salah ein Tor schießt, freut sich Klopp so, als wäre es sein eigenes. Wenn ein Spieler in einer Krise steckt, führt er das Gespräch. Nicht die Sportdirektion. Er.</p>
+          <p class="vb-intro">Diese Verbindung aus Zweierflügel und sozialer Eins macht ihn zu einem der beliebtesten Trainer der Welt &ndash; nicht trotz seiner Leidenschaft, sondern wegen ihr. Die Spieler wissen: Er meint es wirklich. Und für einen Menschen, der wirklich gemeint wird, läuft man weiter als für einen, dem es egal ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als kollektives Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und Klopp zeigt ihn, im Unterschied zu vielen anderen Einsen, sehr direkt. Wenn ein Schiedsrichter falsch entscheidet, wenn das Kollektiv unter einer Ungerechtigkeit leidet, wenn die Mannschaft nicht das gibt, was sie geben könnte &ndash; dann kommt die Gans aus der Formation.</p>
+          <p class="vb-intro">Klopps Ausraster auf der Seitenlinie sind legendär: die Brille, die fliegt, die rote Karte, die er manchmal provoziert. Das ist nicht Kontrollverlust &ndash; das ist die SO1 in ihrer reinsten Form. Sie kämpft für das, was richtig ist. Sie hält sich nicht zurück, wenn das Kollektiv auf dem Spiel steht. Der Zorn ist kollektiv, nicht narzisstisch &ndash; und das ist der entscheidende Unterschied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Abschied und der nächste Posten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Mai 2024 verließ Klopp Liverpool nach neun Jahren &ndash; ein Abschied, der die ganze Stadt bewegte. Er sagte, er sei leer, er brauche Abstand, er müsse sich erholen. Das ist typisch SO1w2: Der Mensch, der so viel für andere gibt, braucht irgendwann Raum für sich selbst.</p>
+          <p class="vb-intro">Seit Anfang 2024 ist er &bdquo;Head of Global Soccer&ldquo; bei Red Bull. Eine ungewöhnliche Wahl für eine Gans &ndash; Klopp in einer Konzernrolle, ohne eigene Mannschaft. Und tatsächlich: Im Juli 2026, nach dem Abgang von Julian Nagelsmann als Bundestrainer, bestätigte Klopp laufende Verhandlungen mit dem DFB. &bdquo;Ich bin bereit&ldquo;, sagte er öffentlich. Hans-Joachim Watzke bezifferte die Wahrscheinlichkeit auf &bdquo;mehr als fünfzig Prozent&ldquo;. Der Vertrag mit Red Bull läuft bis 2029 &ndash; die Hürde ist real, aber die Gans kennt ihr nächstes Ziel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Glauben als Übertragung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jürgen Klopp als Trainer geleistet hat, lässt sich am besten in einem Satz zusammenfassen: Er hat seinen Spielern geglaubt, bevor sie sich selbst geglaubt haben. Das ist das Geschenk der SO1w2 &ndash; nicht die eigene Perfektion, sondern der Glaube an die Perfektion des Kollektivs.</p>
+          <p class="vb-intro">Liverpool hatte dreißig Jahre auf die Meisterschaft gewartet. Dortmund war in Finanznot, als Klopp kam. In beiden Fällen hat er nicht ein neues System installiert &ndash; er hat eine neue Überzeugung installiert: <em>Wir können das.</em> Die Gans fliegt im Verband. Und manchmal reicht es, wenn einer in der Formation aufruft &ndash; und alle anderen folgen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
       ])}
     </div>
   `);
@@ -38006,6 +38077,7 @@ function render() {
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
+      "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
@@ -38416,7 +38488,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v617';
+  const MY_VERSION = 'inhalt-v618';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
