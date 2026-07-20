@@ -198,6 +198,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gloria von Thurn und Taxis – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1960. Fürstin, Unternehmerin, Mäzenin. Vom Punkprinzess-Exzess der 1980er zur eisernen Matriarchin eines der größten Privatvermögen Europas. Das Flusspferd kennt sein Territorium – und gibt es nicht auf. Tierentsprechung: Flusspferd.",
     tags:["Adel","Wirtschaft"] },
+  { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
+    heading:"Uli Hoeneß – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1952. Fußballweltmeister 1974, Manager und Präsident des FC Bayern München. Vier Jahrzehnte Aufbauarbeit, Steueraffäre und Rückkehr. Das Flusspferd verteidigt sein Revier – und kommt nach dem Sturz stärker zurück als zuvor. Tierentsprechung: Flusspferd.",
+    tags:["Sport","Wirtschaft"] },
   { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong – nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
@@ -11479,6 +11483,73 @@ function gloriaVonThurnUndTaxisPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function uliHoenessPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-uli-hoeness-portrait.jpg" alt="Uli Hoeneß" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uli Hoeneß</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Fußballprofi, Manager &amp; Präsident des FC Bayern München, geb. 1952 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und Uli Hoeneß ist dieses Tier in seiner kompromisslosesten Ausprägung. Das Flusspferd braucht kein Publikum. Es braucht sein Revier: das Wasser, das es kennt, die Ufer, die ihm gehören, die Grenzen, die es mit jedem Gramm seines Körpers markiert und verteidigt. Es wirkt gutmütig &ndash; bis jemand zu nah kommt. Dann zeigt es, was wirklich in ihm steckt.</p>
+          <p class="vb-intro">Uli Hoeneß ist seit mehr als fünfzig Jahren der FC Bayern München. Nicht als Angestellter, nicht als Funktionär &ndash; sondern als Mensch, der diesen Verein als sein Revier begriffen und mit einer Energie aufgebaut hat, die in der deutschen Fußballgeschichte ihresgleichen sucht. Er hat als Spieler gewonnen, als Manager aufgebaut, als Präsident geführt &ndash; und nach dem tiefsten Sturz seines Lebens ist er zurückgekehrt. Das Flusspferd steht auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist der Subtyp der Zwei, der seine Energie am direktesten auf das eigene Überleben und das Überleben dessen richtet, was ihm am nächsten ist. Naranjo nennt diesen Subtyp <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse benennt, ihr Territorium kennt und schützt &ndash; nicht durch Rückzug, sondern durch Präsenz. Die SE2 ist die konkreteste, erdnächste, am wenigsten romantisierende der drei Zweier-Varianten. Sie handelt. Sie sorgt. Sie sichert ab.</p>
+          <p class="vb-intro">Bei Uli Hoeneß zeigt sich das in einer Fürsorge, die nicht abstrakt ist, sondern persönlich und handfest. Er hat Spieler in Krisen angerufen, Familien geholfen, Transfers persönlich begleitet, Konflikte gelöst &ndash; nicht weil es zur Stellenbeschreibung gehörte, sondern weil er es so verstand: Der FC Bayern ist eine Familie, und er ist derjenige, der diese Familie zusammenhält. Diese Art von Fürsorge ist keine Schwäche. Sie ist Macht &ndash; die Macht dessen, der weiß, dass Zusammenhalt das Fundament von allem ist.</p>
+          <p class="vb-intro">Dabei war Hoeneß nie ein Mann der großen Gesten für die Galerie. Was er tat, tat er direkt, oft diskret, manchmal ruppig. Das ist die SE2: keine elegante Diplomatie, sondern das unmittelbare Eingreifen dessen, der sich verantwortlich fühlt &ndash; und dieses Verantwortungsgefühl nicht delegiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Erfolg als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei etwas, das die reine SE2 nicht von selbst hat: den Hunger nach messbarem Erfolg, nach Ergebnissen, nach dem Beweis, dass die eigene Arbeit wirkt. Die Drei misst sich an Zahlen, Titeln, Siegen. Sie braucht den Beweis &ndash; nicht für andere, sondern für sich selbst. In Kombination mit der SE2 entsteht jemand, der gleichzeitig tief fürsorglich und gnadenlos zielorientiert ist.</p>
+          <p class="vb-intro">Uli Hoeneß hat den FC Bayern von einem soliden Bundesligaclub zu einem der wirtschaftlich und sportlich erfolgreichsten Fußballclubs der Welt gemacht. Er hat das nicht als Vision formuliert &ndash; er hat es getan. Jahrestitel, Champions-League-Siege, Rekordumsätze, Weltklasse-Transfers. Der Dreierflügel lässt keine Mittelmäßigkeit zu. Er fragt immer: Wie gut war das wirklich? Und kann es noch besser werden?</p>
+          <p class="vb-intro">Dieser Flügel hat aber auch seinen Schatten. Der Dreierflügel der SE2 neigt dazu, Erfolg mit Selbstwert gleichzusetzen: Ich bin, was ich leiste. Wenn die Leistung ausbleibt, wenn die Kontrolle entgleitet, kann das Fundament schwanken. Die Steueraffäre 2013 war für Hoeneß nicht nur ein juristisches Problem &ndash; sie war ein Einbruch in das Bild, das er von sich selbst hatte: der Mann, der alles im Griff hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz als Antriebskraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> &ndash; und bei der SE2w3 nimmt dieser Stolz eine besondere Form an: Er richtet sich nicht auf persönliche Bewunderung, sondern auf das Werk. Auf das, was entstanden ist durch die eigene Hände Arbeit, durch jahrzehntelanges Engagement, durch die Summe aller Entscheidungen. Dieser Stolz ist berechtigt &ndash; und er ist zugleich eine Falle, wenn er zur Bedingung für den eigenen Wert wird.</p>
+          <p class="vb-intro">Uli Hoeneß hat den FC Bayern nicht als Job betrachtet. Er hat ihn als Lebenswerk begriffen. Das ist der Stolz der SE2w3 in seiner reinsten Form: kein Narzissmus, sondern die tiefe Überzeugung, dass das, was man aufgebaut hat, einmalig ist &ndash; und dass man selbst unentbehrlich für seinen Erhalt ist. Diese Überzeugung hat ihn angetrieben. Und sie hat es ihm schwer gemacht, loszulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Sturz und die Rückkehr: Das Flusspferd steht auf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Steueraffäre von 2013 und das anschließende Gefängnisurteil &ndash; dreieinhalb Jahre, von denen er etwa die Hälfte absaß &ndash; war ein Einschnitt, der jeden anderen vielleicht gebrochen hätte. Hoeneß hat sich dem Verfahren gestellt, hat seine Schuld öffentlich eingestanden, hat die Strafe angenommen. Das ist keine Selbstverständlichkeit. Es ist die SE2 in ihrer reifen Form: Verantwortung übernehmen &ndash; auch dann, wenn es schmerzt.</p>
+          <p class="vb-intro">Was nach der Entlassung folgte, war das Kapitel, das ihn vielleicht am meisten definiert. Er kehrte zurück &ndash; nicht triumphierend, sondern geerdet. Er übernahm wieder das Amt des Präsidenten. Der FC Bayern empfing ihn. Das Flusspferd war ins Wasser zurückgekehrt. Und wer gedacht hatte, er würde kleiner zurückkommen, hatte das Tier unterschätzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Verein als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Uli Hoeneß dem deutschen Fußball &ndash; und dem FC Bayern München im Besonderen &ndash; gegeben hat, lässt sich nicht auf Titel reduzieren. Er hat gezeigt, dass ein Fußballclub mehr sein kann als ein Geschäftsmodell: eine Gemeinschaft mit Haltung, mit Treue, mit einem Selbstverständnis, das über die Saison hinausgeht. Spieler, die in Krisen gerieten, haben von ihm gesprochen wie von einem Vater. Mitarbeiter, die Jahrzehnte blieben, weil sie wussten, dass jemand für sie einsteht. Das ist das Geschenk der SE2w3: Loyalität, die trägt.</p>
+          <p class="vb-intro">Das Flusspferd schützt sein Revier &ndash; aber es schützt auch die, die darin leben. Uli Hoeneß hat den FC Bayern nicht für sich gebaut. Er hat ihn für das gebaut, was er in ihm sah: eine Gemeinschaft, die Bestand hat. Das ist sein Lebenswerk. Und daran wird sich wenig ändern &ndash; auch wenn das Flusspferd irgendwann den Flusslauf wechselt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Porträt: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
     </div>
   `);
@@ -37797,6 +37868,7 @@ function render() {
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
+      "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
@@ -38200,7 +38272,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v610';
+  const MY_VERSION = 'inhalt-v611';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

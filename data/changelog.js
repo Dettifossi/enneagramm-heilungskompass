@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Uli Hoeneß (SE2w3) – Fußballweltmeister, Bayern-Präsident und Flusspferd",
+    text_en: "New portrait: Uli Hoeneß (SE2w3) – football world champion, Bayern president and hippopotamus",
+    route: "beruehmte-uli-hoeness"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Gloria von Thurn und Taxis (SE2w1) – Fürstin, Matriarchin und Flusspferd",
     text_en: "New portrait: Gloria von Thurn und Taxis (SE2w1) – princess, matriarch and hippopotamus",
     route: "beruehmte-gloria-von-thurn-und-taxis"
