@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Marie-Agnes Strack-Zimmermann (SX1w9) – die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu",
+    text_en: "New portrait: Marie-Agnes Strack-Zimmermann (SX1w9) – the Black Mamba of German politics: sharp, persistent, principled",
+    route: "beruehmte-marie-agnes-strack-zimmermann"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Jamie Lee Curtis (SX1w2) – Oscar 2023, Nüchternheit und die Schwarze Mamba, die keine Heuchelei erträgt",
     text_en: "New portrait: Jamie Lee Curtis (SX1w2) – Oscar 2023, sobriety and the Black Mamba that tolerates no hypocrisy",
     route: "beruehmte-jamie-lee-curtis"

@@ -198,6 +198,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-marie-agnes-strack-zimmermann", name:"Marie-Agnes Strack-Zimmermann", added:"2026-07-20", subtyp:"SX1w9",
+    heading:"Marie-Agnes Strack-Zimmermann – Sexueller Typ 1",
+    teaser:"SX1w9 · geb. 1958. FDP-Politikerin, Vorsitzende des Verteidigungsausschusses, EU-Parlamentarierin. Die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu. Feuer und Ausdauer in einem. Tierentsprechung: Schwarze Mamba.",
+    tags:["Politik"] },
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre Nüchternheit – die Schwarze Mamba, die keine Heuchelei erträgt und für andere ebenso brennt wie für sich selbst. Tierentsprechung: Schwarze Mamba.",
@@ -11833,6 +11837,73 @@ function jamieleecurtisPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function marieAgnesStrackZimmermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-agnes-strack-zimmermann-portrait.jpg" alt="Marie-Agnes Strack-Zimmermann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie-Agnes Strack-Zimmermann</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Politikerin (FDP), geb. 1958 &ndash; Bundeswehr, Ukraine, Europa &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, präzise und vollkommen kompromisslos. Sie greift nicht aus Aggression an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird verteidigt &ndash; mit allem, was zur Verfügung steht.</p>
+          <p class="vb-intro">Marie-Agnes Strack-Zimmermann, geboren 1958 in Düsseldorf, ist eine der direktesten Politikerinnen, die der Deutsche Bundestag in den letzten Jahrzehnten erlebt hat. Als Vorsitzende des Verteidigungsausschusses wurde sie zum schärfsten öffentlichen Mahner für eine ausreichende Ausstattung der Bundeswehr und für klare Unterstützung der Ukraine &ndash; zu einem Zeitpunkt, als viele Politikerkollegen noch auf Ausgewogenheit setzten. Die Mamba wartet nicht, bis alle einverstanden sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihren Perfektionsanspruch nicht auf das eigene Umfeld oder die Gesellschaft als Ganzes, sondern auf Intensität: auf vollständige Präsenz, vollständige Ehrlichkeit, vollständige Konsequenz in dem, was sie als richtig erkennt. Naranjo nannte diesen Subtyp <em>Zeal</em> &ndash; Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen.</p>
+          <p class="vb-intro">Strack-Zimmermann hat dieses Muster in der politischen Arena ausgelebt wie kaum jemand sonst. Ihre Auftritte im Bundestag und in Talkshows sind für ihren direkten, kompromisslosen Ton bekannt &ndash; sie schlägt nicht um den heißen Brei, sie benennt. Sie hat keine Angst vor Unpopularität. Wenn sie überzeugt ist, dass etwas falsch läuft, sagt sie es &ndash; laut, klar, wiederholbar. Die SX1 erträgt keine halben Antworten auf echte Fragen.</p>
+          <p class="vb-intro">Ihr Engagement für die Ukraine-Unterstützung war von Anfang an nicht taktisch, sondern moralisch: ein Land wird angegriffen, eine Demokratie ist in Gefahr, und wer das sieht, muss handeln. Das ist keine Außenpolitik. Das ist das innere Gesetz der sexuellen Eins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit als zweite Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der sexuellen Eins eine Qualität, die auf den ersten Blick überrascht: Ausdauer. Die Neun ist geduldig. Sie hält durch. Nicht weil sie gleichgültig ist, sondern weil sie weiß, dass manche Dinge Zeit brauchen &ndash; und dass Kontinuität oft mehr bewirkt als Dramatik.</p>
+          <p class="vb-intro">Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft keine Sprengersfigur geblieben ist, die ihre Partei und Koalitionen destabilisiert. Sie kämpft &ndash; aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.</p>
+          <p class="vb-intro">Diese Kombination &ndash; SX1-Feuer mit w9-Beharrlichkeit &ndash; macht sie zu einer politischen Kämpferin, die sich nicht verausgabt. Sie brennt, aber sie brennt gleichmäßig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als politisches Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w9 ist er zugleich scharf und kontrolliert. Strack-Zimmermann hat keine Scheu, in öffentlichen Debatten die Stimme zu heben, den Finger zu heben, den Tisch zu hauen. Wenn sie im Bundestag den Eindruck hat, dass Unwahrheiten gesagt oder Verantwortung verweigert werden, dann kommt die Mamba.</p>
+          <p class="vb-intro">Dieser Zorn ist nicht persönlich. Er ist prinzipienbasiert. Er richtet sich gegen das Falsche, nicht gegen die Person &ndash; auch wenn beides von außen nicht immer leicht zu unterscheiden ist. Der Neunerflügel sorgt dafür, dass der Zorn nicht unkontrolliert eskaliert, sondern an den richtigen Stellen platziert wird. Präzision statt Explosion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Europa als größerer Rahmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 wechselte Strack-Zimmermann ins Europaparlament und übernahm den Vorsitz des Verteidigungsausschusses &ndash; diesmal auf europäischer Ebene. Das ist kein Karriereschritt, das ist eine Konsequenz: Die sexuelle Eins, die erkannt hat, dass die Herausforderung größer ist als eine nationale Arena.</p>
+          <p class="vb-intro">Der Neunerflügel zeigt sich hier in seiner konstruktiven Seite: die Fähigkeit, über Grenzen hinaus zu denken, Bündnisse zu halten, Kontinuität zu bewahren. Die Mamba auf europäischer Bühne &ndash; die Geschwindigkeit ist dieselbe, der Aktionsradius größer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Klarheit als Schutz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Marie-Agnes Strack-Zimmermann der politischen Debatte gibt, ist selten geworden: Klarheit. Nicht Vereinfachung &ndash; Klarheit. Die Bereitschaft zu sagen, was ist, auch wenn es unbequem ist. Die SX1w9 erträgt keine Unschärfe, wenn es ums Wesentliche geht.</p>
+          <p class="vb-intro">Das ist das Geschenk der Schwarzen Mamba mit Neunerflügel: Sie bringt Feuer <em>und</em> Beständigkeit. Sie kämpft &ndash; und sie hält durch. In einer Zeit, in der politische Positionen sich schnell drehen, ist das kein kleines Angebot.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
   `);
@@ -38152,6 +38223,7 @@ function render() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
+      "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
@@ -38559,7 +38631,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v620';
+  const MY_VERSION = 'inhalt-v621';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
