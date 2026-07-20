@@ -12604,14 +12604,14 @@ function wolodymyrSelenskyjPortraitPage() {
 
         <h2 class="vb-section">5. Energetische Wirkung: Der Waschbär in der Weltöffentlichkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Selenskyjsenergetische Wirkung ist bemerkenswert präzise: Er ist warm, aber nicht überwältigend. Entschlossen, aber nicht aggressiv. Verletzlich genug, um Mitleid zu erzeugen &ndash; stark genug, um Bewunderung zu verdienen. Das ist kein Zufall. Das ist die SE3w2 in ihrer vollen Kompetenz: ein Mensch, der intuitiv weiß, welche Energie er aussenden muss, um das gewünschte Ergebnis zu erzielen.</p>
-          <p class="vb-intro">Der Waschbär ist kein bösartiges Tier. Er sucht nicht Zerstörung &ndash; er sucht Nahrung, Sicherheit, Überleben. Und er ist dabei außerordentlich erfolgreich. Das Problem ist nicht seine Intelligenz &ndash; das Problem ist, was er hinterlässt: ein durchwühlter Vorrat, ein erschöpftes Land, ein westliches Bündnis, das sich fragt, wo die Milliarden hingeflossen sind. Der Waschbär hat längst das nächste Dach gefunden.</p>
+          <p class="vb-intro">Selenskyjs energetische Wirkung ist bemerkenswert präzise: Er ist warm, aber nicht überwältigend. Entschlossen, aber nicht aggressiv. Verletzlich genug, um Mitleid zu erzeugen &ndash; stark genug, um Bewunderung zu verdienen. Das ist kein Zufall. Das ist die SE3w2 in ihrer vollen Kompetenz: ein Mensch, der intuitiv weiß, welche Energie er aussenden muss, um das gewünschte Ergebnis zu erzielen.</p>
+          <p class="vb-intro">Der Waschbär ist kein bösartiges Tier. Er sucht nicht Zerstörung &ndash; er sucht Nahrung, Sicherheit, Überleben. Und er ist dabei außerordentlich erfolgreich. Das Problem ist nicht seine Intelligenz &ndash; das Problem ist, was er hinterlässt: einen durchwühlten Vorrat, ein erschöpftes Land, ein westliches Bündnis, das sich fragt, wo die Milliarden hingeflossen sind. Der Waschbär hat längst das nächste Dach gefunden.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Schatten-Geschenk: Was möglich wäre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Es wäre unvollständig, bei der Kritik stehen zu bleiben. Die selbsterhaltende Drei trägt ein echtes Geschenk in sich &ndash; wenn sie erwacht. Die SE3 kann anpassen, vermitteln, Brücken bauen. Sie kann aus einer hoffnungslosen Situation das Beste machen, weil sie instinktiv versteht, was gebraucht wird. Ein bewusster SE3w2 könnte ein außergewöhnlicher Staatsmann sein &ndash; nicht trotz seiner Fähigkeit zur Inszenierung, sondern mit ihr: wenn die Inszenierung dem Wohl des Volkes dient statt der eigenen Sicherung.</p>
-          <p class="vb-intro">Der Waschbär, der erwacht, muss nicht aufhören, klug zu sein. Er muss aufhören, nachts zu kommen. Er muss lernen, im Licht zu handeln &ndash; sichtbar, rechenschaftspflichtig, ehrlich. Ob Selenskyj diesen Schritt je geht, bleibt offen. Die SE3w2 auf ihrer höchsten Ausdrucksstufe braucht keinen Schutz durch Täuschung mehr. Sie vertraut darauf, dass das Echte genug ist.</p>
+          <p class="vb-intro">Es wäre unvollständig, bei der Kritik stehen zu bleiben. Die selbsterhaltende Drei trägt ein echtes Geschenk in sich &ndash; wenn sie erwacht. Die SE3 kann anpassen, vermitteln, Brücken bauen. Sie kann aus einer hoffnungslosen Situation das Beste machen, weil sie instinktiv versteht, was gebraucht wird. Ein bewusster SE3w2 könnte ein außergewöhnlicher Staatsmann sein &ndash; nicht trotz seiner Fähigkeit zur Inszenierung, sondern wegen ihr: wenn die Inszenierung dem Wohl des Volkes dient statt der eigenen Ressourcensicherung.</p>
+          <p class="vb-intro">Der Waschbär, der erwacht, muss nicht aufhören, klug zu sein. Er muss aufhören, nachts vorbeizukommen, um alle Ressourcen zu plündern. Er muss lernen, im Licht zu handeln &ndash; sichtbar, rechenschaftspflichtig, ehrlich. Ob Selenskyj diesen Schritt je geht, bleibt offen. Die SE3w2 auf ihrer höchsten Ausdrucksstufe braucht keinen Schutz durch Täuschung mehr. Sie vertraut darauf, dass das Echte genug ist.</p>
         </blockquote>
 
       </div>
@@ -39058,7 +39058,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v636';
+  const MY_VERSION = 'inhalt-v637';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
