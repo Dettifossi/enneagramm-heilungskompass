@@ -198,6 +198,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
+    heading:"Jamie Lee Curtis – Sexueller Typ 1",
+    teaser:"SX1w2 · geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre Nüchternheit – die Schwarze Mamba, die keine Heuchelei erträgt und für andere ebenso brennt wie für sich selbst. Tierentsprechung: Schwarze Mamba.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1974. Schauspieler, Klimaaktivist. Fünfmal Oscar-nominiert, sechsmal angetreten – und im Moment des Triumphes sprach er über den Klimawandel, nicht über sich. Die Schwarze Mamba brennt nicht für Applaus. Tierentsprechung: Schwarze Mamba.",
@@ -11763,6 +11767,72 @@ function juergenKloppPortraitPage() {
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function jamieleecurtisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamie-lee-curtis-portrait.jpg" alt="Jamie Lee Curtis" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamie Lee Curtis</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Aktivistin, geb. 1958 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; und kein Tier trifft Jamie Lee Curtis so genau. Die Schwarze Mamba ist eine der giftigsten Schlangen der Welt, blitzschnell, präzise und vollkommen kompromisslos. Sie greift nicht aus Aggression an &ndash; sie handelt aus einem inneren Gesetz heraus. Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird mit vollem Einsatz verteidigt.</p>
+          <p class="vb-intro">Jamie Lee Curtis, geboren 1958 als Tochter der Hollywood-Legenden Tony Curtis und Janet Leigh, wuchs in einer Welt auf, in der Schönheit, Ruhm und Schein das Maß aller Dinge waren &ndash; und entwickelte früh einen inneren Widerstand gegen genau das. Ihre Karriere begann 1978 mit John Carpenters <em>Halloween</em>: ein Horrorfilm, eine Scream Queen &ndash; und eine junge Frau, die von Anfang an mehr wollte als das, was das Genre ihr anbot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Leidenschaft als inneres Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der Subtyp der Eins, der seinen Perfektionsanspruch nicht auf sich selbst oder auf das Kollektiv richtet, sondern auf Intensität &ndash; auf vollständige Präsenz, vollständige Authentizität, vollständige Ehrlichkeit in allem, was zählt. Naranjo nannte diesen Subtyp <em>Zeal</em>: Inbrunst, Eifer, ein brennendes Verlangen nach dem Echten.</p>
+          <p class="vb-intro">Jamie Lee Curtis lebt diesen Subtyp mit einer Offenheit, die in Hollywood selten ist. Sie sprach als eine der ersten Schauspielerinnen öffentlich über ihre Sucht: 22 Jahre lang war sie abhängig von Opiaten, seit 1999 ist sie nüchtern. Sie sprach über das Scheitern von Ehen, über die Herausforderungen der Mutterschaft, über die Absurdität von Schönheitsidealen. Nicht als Beichte &ndash; sondern als Bekenntnis: <em>Das Echte ist mehr wert als der Schein.</em></p>
+          <p class="vb-intro">2021 ließ sie sich für das Magazin <em>AARP</em> ohne Retusche, ohne Schminke, ohne Inszenierung fotografieren. Für eine Schauspielerin in einer Branche, in der Altern als Makel gilt, war das ein Akt. Für eine SX1 war es selbstverständlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als zweite Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sexuellen Eins etwas Entscheidendes: echte Zugewandtheit. Die SX1w2 ist nicht nur kompromisslos in eigener Sache &ndash; sie sorgt, sie fürsorgt, sie steht anderen bei. Die Intensität der sexuellen Eins wird durch den Zweierflügel nach außen gerichtet: nicht als Kontrolle, sondern als Verbindung.</p>
+          <p class="vb-intro">Als ihre Tochter Ruby sich als transgender outete, trat Jamie Lee Curtis sofort öffentlich an ihre Seite &ndash; bedingungslos, laut, klar. Als langjährige Schirmherrin von Kinderkrankenhäusern engagiert sie sich seit Jahrzehnten für kranke Kinder. Ihre Freundschaften &ndash; besonders die legendäre mit John Cleese und der Rest des <em>A Fish Called Wanda</em>-Casts &ndash; sind bekannt für ihre Tiefe und Dauerhaftigkeit. Die Schwarze Mamba beißt für andere ebenso wie für sich selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Reinigungsfeuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w2 brennt er besonders hell, weil er mit der Intensität des sexuellen Subtyps verbunden ist. Jamie Lee Curtis hat keine Scheu, diesen Zorn zu zeigen: gegen die Filmindustrie, die Frauen jenseits der vierzig unsichtbar macht; gegen Schönheitsindustrien, die Unsicherheit verkaufen; gegen eine Gesellschaft, die Süchtige verurteilt statt unterstützt.</p>
+          <p class="vb-intro">Dieser Zorn ist nicht destruktiv. Er ist reinigend. Er räumt auf. Die SX1 erträgt keine Heuchelei &ndash; und sie schweigt auch nicht darüber. Was Jamie Lee Curtis von vielen anderen unterscheidet: Sie zeigt den Zorn und die Wärme gleichzeitig. Nicht abwechselnd, sondern zusammen. Die Mamba und der Zweierflügel sind kein Widerspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Oscar und das Geschenk der späten Blüte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2023 gewann Jamie Lee Curtis den Oscar als Beste Nebendarstellerin für <em>Everything Everywhere All at Once</em> &ndash; im Alter von 64 Jahren, nach fast fünfzig Jahren Karriere. Es war ihr erster Oscar. Ihre Dankesrede war so, wie man es von einer SX1w2 erwartet: direkt, emotional, vollständig präsent. Sie weinte. Sie lachte. Sie sprach über ihre Eltern, ihre Nüchternheit, ihre Familie.</p>
+          <p class="vb-intro">Dieser Moment ist das Symbol ihres Lebensweges: nicht früh und glänzend, sondern gereift, echt und vollständig. Die Schwarze Mamba braucht keine Bühne, um sich zu beweisen &ndash; aber wenn die Bühne kommt, ist sie bereit. Und wenn sie spricht, meint sie es.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Echtheit als Einladung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jamie Lee Curtis der Welt gegeben hat, lässt sich in einem Satz zusammenfassen: Sie hat bewiesen, dass man sich nicht verbiegen muss, um zu bestehen. Nicht in Hollywood, nicht in der Öffentlichkeit, nicht im Alter. Das ist das Geschenk der SX1w2: das Feuer, das nicht erlischt, wenn es sich zeigt &ndash; sondern gerade dann am hellsten brennt.</p>
+          <p class="vb-intro">Die Schwarze Mamba weicht nicht aus. Sie ist vollständig da, vollständig sie selbst &ndash; und der Zweierflügel sorgt dafür, dass diese Vollständigkeit anderen Mut macht. Nicht als Vorbild im klassischen Sinne, sondern als lebendiger Beweis: <em>Das Echte hält länger als der Schein.</em></p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
       ])}
     </div>
   `);
@@ -38081,6 +38151,7 @@ function render() {
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
+      "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
@@ -38488,7 +38559,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v619';
+  const MY_VERSION = 'inhalt-v620';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

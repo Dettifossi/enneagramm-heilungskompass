@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Jamie Lee Curtis (SX1w2) – Oscar 2023, Nüchternheit und die Schwarze Mamba, die keine Heuchelei erträgt",
+    text_en: "New portrait: Jamie Lee Curtis (SX1w2) – Oscar 2023, sobriety and the Black Mamba that tolerates no hypocrisy",
+    route: "beruehmte-jamie-lee-curtis"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Jürgen Klopp (SO1w2) – Trainer, Motivator, die Gans, die ihrer Formation glaubt",
     text_en: "New portrait: Jürgen Klopp (SO1w2) – coach, motivator, the goose that believes in its formation",
     route: "beruehmte-juergen-klopp"
