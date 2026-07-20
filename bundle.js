@@ -11866,20 +11866,20 @@ function marieAgnesStrackZimmermannPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst als Antrieb</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihren Perfektionsanspruch nicht auf das eigene Umfeld oder die Gesellschaft als Ganzes, sondern auf Intensität: auf vollständige Präsenz, vollständige Ehrlichkeit, vollständige Konsequenz in dem, was sie als richtig erkennt. Naranjo nannte diesen Subtyp <em>Zeal</em> &ndash; Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen.</p>
-          <p class="vb-intro">Strack-Zimmermann hat dieses Muster in der politischen Arena ausgelebt wie kaum jemand sonst. Ihre Auftritte im Bundestag und in Talkshows sind für ihren direkten, kompromisslosen Ton bekannt &ndash; sie schlägt nicht um den heißen Brei, sie benennt. Sie hat keine Angst vor Unpopularität. Wenn sie überzeugt ist, dass etwas falsch läuft, sagt sie es &ndash; laut, klar, wiederholbar. Die SX1 erträgt keine halben Antworten auf echte Fragen.</p>
+          <p class="vb-intro">Strack-Zimmermann hat dieses Muster in der politischen Arena ausgelebt wie kaum jemand sonst. Ihre Auftritte im Bundestag und in Talkshows sind für ihren direkten, kompromisslosen Ton bekannt &ndash; sie spricht nicht um den heißen Brei, sie benennt. Sie hat keine Angst vor Unpopularität. Wenn sie überzeugt ist, dass etwas falsch läuft, sagt sie es &ndash; laut, klar, wiederholbar. Die SX1 erträgt keine halben Antworten auf echte Fragen.</p>
           <p class="vb-intro">Ihr Engagement für die Ukraine-Unterstützung war von Anfang an nicht taktisch, sondern moralisch: ein Land wird angegriffen, eine Demokratie ist in Gefahr, und wer das sieht, muss handeln. Das ist keine Außenpolitik. Das ist das innere Gesetz der sexuellen Eins.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit als zweite Kraft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der sexuellen Eins eine Qualität, die auf den ersten Blick überrascht: Ausdauer. Die Neun ist geduldig. Sie hält durch. Nicht weil sie gleichgültig ist, sondern weil sie weiß, dass manche Dinge Zeit brauchen &ndash; und dass Kontinuität oft mehr bewirkt als Dramatik.</p>
-          <p class="vb-intro">Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft keine Sprengersfigur geblieben ist, die ihre Partei und Koalitionen destabilisiert. Sie kämpft &ndash; aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.</p>
+          <p class="vb-intro">Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft keine Sprengerfigur geblieben ist, die ihre Partei und Koalitionen destabilisiert. Sie kämpft &ndash; aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.</p>
           <p class="vb-intro">Diese Kombination &ndash; SX1-Feuer mit w9-Beharrlichkeit &ndash; macht sie zu einer politischen Kämpferin, die sich nicht verausgabt. Sie brennt, aber sie brennt gleichmäßig.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Zorn als politisches Instrument</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w9 ist er zugleich scharf und kontrolliert. Strack-Zimmermann hat keine Scheu, in öffentlichen Debatten die Stimme zu heben, den Finger zu heben, den Tisch zu hauen. Wenn sie im Bundestag den Eindruck hat, dass Unwahrheiten gesagt oder Verantwortung verweigert werden, dann kommt die Mamba.</p>
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w9 ist er zugleich scharf und kontrolliert. Strack-Zimmermann hat keine Scheu, in öffentlichen Debatten die Stimme zu erheben, den Finger zu heben. Wenn sie im Bundestag den Eindruck hat, dass Unwahrheiten gesagt oder Verantwortung verweigert werden, dann kommt die Mamba.</p>
           <p class="vb-intro">Dieser Zorn ist nicht persönlich. Er ist prinzipienbasiert. Er richtet sich gegen das Falsche, nicht gegen die Person &ndash; auch wenn beides von außen nicht immer leicht zu unterscheiden ist. Der Neunerflügel sorgt dafür, dass der Zorn nicht unkontrolliert eskaliert, sondern an den richtigen Stellen platziert wird. Präzision statt Explosion.</p>
         </blockquote>
 
@@ -38631,7 +38631,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v621';
+  const MY_VERSION = 'inhalt-v622';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
