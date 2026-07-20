@@ -11873,7 +11873,7 @@ function marieAgnesStrackZimmermannPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit als zweite Kraft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der sexuellen Eins eine Qualität, die auf den ersten Blick überrascht: Ausdauer. Die Neun ist geduldig. Sie hält durch. Nicht weil sie gleichgültig ist, sondern weil sie weiß, dass manche Dinge Zeit brauchen &ndash; und dass Kontinuität oft mehr bewirkt als Dramatik.</p>
-          <p class="vb-intro">Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft keine Sprengerfigur geblieben ist, die ihre Partei und Koalitionen destabilisiert. Sie kämpft &ndash; aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.</p>
+          <p class="vb-intro">Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft ihre Partei und Koalitionen nicht destabilisiert hat. Sie kämpft &ndash; aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.</p>
           <p class="vb-intro">Diese Kombination &ndash; SX1-Feuer mit w9-Beharrlichkeit &ndash; macht sie zu einer politischen Kämpferin, die sich nicht verausgabt. Sie brennt, aber sie brennt gleichmäßig.</p>
         </blockquote>
 
@@ -38631,7 +38631,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v622';
+  const MY_VERSION = 'inhalt-v623';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
