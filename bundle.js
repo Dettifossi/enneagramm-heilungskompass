@@ -262,6 +262,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-wolodymyr-selenskyj", name:"Wolodymyr Selenskyj", added:"2026-07-20", subtyp:"SE3w2",
+    heading:"Wolodymyr Selenskyj – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1978. Komiker, Schauspieler, Staatspräsident. Kontratyp der Drei: meisterhaft im Verbergen der eigenen Inszenierung. Der Waschbär, der den Helden spielt – und den Unterschied vergessen hat. Tierentsprechung: Waschbär.",
+    tags:["Politik"] },
   { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
     heading:"Sadhguru – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
@@ -12557,6 +12561,72 @@ function kathrinBauerfeindPortraitPage() {
   `);
 }
 
+
+function wolodymyrSelenskyjPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolodymyr-selenskyj-portrait.jpg" alt="Wolodymyr Selenskyj" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-subtitle">Komiker, Schauspieler, Staatspräsident, geb. 1978 &ndash; Der Waschbär, der den Helden spielt &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: Nachtaktiv, geschickt, unsichtbar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist kein Tier, das man sofort erkennt. Er kommt in der Nacht. Er öffnet Schlösser, durchwühlt Vorräte, hinterlässt Spuren &ndash; aber er ist längst weg, wenn man ihn sucht. Er wirkt harmlos, fast niedlich. Sein Gesicht trägt von Natur aus eine Maske. Und er ist klug genug, genau das zu wissen.</p>
+          <p class="vb-intro">Wolodymyr Selenskyj, geboren 1978 in Krywyj Rih, begann seine Karriere als Comedian und Schauspieler. Er spielte in der Fernsehserie <em>Diener des Volkes</em> einen Lehrer, der zufällig Präsident wird &ndash; und wurde dann tatsächlich Präsident der Ukraine. Was wie ein Märchen klingt, ist im Enneagramm eine Warnung: Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt. Das ist die Falle der selbsterhaltenden Drei &ndash; und bei Selenskyj ist sie auf der Weltbühne aufgegangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: Der Kontratyp der Drei – der Held, der keiner ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der <strong>Kontratyp der Drei</strong> &ndash; der Subtyp, der am wenigsten wie eine Drei wirkt. Während die soziale und die sexuelle Drei offen nach Bewunderung suchen, verbirgt die selbsterhaltende Drei ihre Inszenierung hinter einem Image der Bescheidenheit, der Bodenständigkeit, des einfachen Menschen. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Die SE3 will nicht strahlen &ndash; sie will sich sicher fühlen. Und die sicherste Position ist die, in der niemand merkt, dass man inszeniert.</p>
+          <p class="vb-intro">Selenskyj versteht dieses Prinzip instinktiv. Er trägt Khaki statt Anzug. Er postet Videos aus dem Bunker, nicht aus dem Palast. Er spricht Ukrainisch, obwohl Russisch seine Muttersprache ist. Jede dieser Gesten ist ein meisterhaft gesetzter Pinselstrich &ndash; das Bild des unbeugsamen Volks-Präsidenten, der bei seinem Volk bleibt. Der Waschbär mit der Maske lächelt. Die Inszenierung sitzt.</p>
+          <p class="vb-intro">Was das Bild nicht zeigt: Während der Krieg tobt und westliche Hilfsgelder in Milliardenhöhe in die Ukraine fließen, dokumentieren investigative Journalisten, internationale Beobachter und die ukrainische Antikorruptionsbehörde NABU systematische Korruption im unmittelbaren Umfeld des Präsidenten &ndash; in Militärbeschaffung, Rüstungsdeals, humanitärer Hilfe. Der Waschbär ist nachtaktiv. Er durchwühlt die Vorräte, wenn niemand hinschaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hilfe als Währung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der SE3 eine wichtige strategische Qualität: die Fähigkeit, Bedürftigkeit zu kommunizieren. Die Zwei gibt &ndash; und braucht im Gegenzug. Sie macht sich unentbehrlich. Bei Selenskyj zeigt sich dieser Flügel in seinen unermüdlichen Appellen an die westliche Welt: der einsame Held, das mutige Volk, die existenzielle Bedrohung. Diese Appelle sind emotional präzise kalkuliert &ndash; sie aktivieren den Zwei-Impuls der Empfänger: <em>Wir müssen helfen. Er braucht uns.</em></p>
+          <p class="vb-intro">Der Zweierflügel macht Selenskyj zur tragischen Figur, zum Empfänger weltweiter Sympathie &ndash; und gleichzeitig zum effektivsten Fundraiser der modernen Geopolitik. Hunderte Milliarden Dollar westlicher Militär- und Finanzhilfe hat die Ukraine seit 2022 erhalten. Die SE3w2 ist gut darin, Ressourcen zu sichern. Das ist ihr Grundprinzip: Sicherheit durch Ressourcen &ndash; und Ressourcen durch Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das unbewusste Muster: Die Rolle wird zur Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Gefährlichste an der selbsterhaltenden Drei ist nicht die Lüge &ndash; es ist die Selbsttäuschung. Die SE3 beginnt irgendwann wirklich zu glauben, was sie darstellt. Der Schauspieler, der lange genug den Helden spielt, fühlt sich irgendwann als Held. Das Bewusstsein dafür, dass man inszeniert, schwindet. Was bleibt, ist das Bild &ndash; und ein Mensch, der das Bild für sein Inneres hält.</p>
+          <p class="vb-intro">Bei Selenskyj zeigt sich das in einer Reihe von Entscheidungen, die schwer mit dem Bild des demokratischen Volkshelden vereinbar sind: die Aussetzung von Wahlen, das Verbot von Oppositionsparteien, die Inhaftierung politischer Kritiker, die Einschränkung von Medienfreiheit. Ein Mensch, der wirklich für Freiheit kämpft, schränkt Freiheit nicht ein &ndash; es sei denn, er hat aufgehört, den Unterschied zu sehen. Das ist keine böswillige Strategie. Das ist das tiefe Schlafmuster der SE3: <em>Was ich tue, ist richtig &ndash; weil ich es bin, der es tut.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Der Waschbär in der Weltöffentlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Selenskyjsenergetische Wirkung ist bemerkenswert präzise: Er ist warm, aber nicht überwältigend. Entschlossen, aber nicht aggressiv. Verletzlich genug, um Mitleid zu erzeugen &ndash; stark genug, um Bewunderung zu verdienen. Das ist kein Zufall. Das ist die SE3w2 in ihrer vollen Kompetenz: ein Mensch, der intuitiv weiß, welche Energie er aussenden muss, um das gewünschte Ergebnis zu erzielen.</p>
+          <p class="vb-intro">Der Waschbär ist kein bösartiges Tier. Er sucht nicht Zerstörung &ndash; er sucht Nahrung, Sicherheit, Überleben. Und er ist dabei außerordentlich erfolgreich. Das Problem ist nicht seine Intelligenz &ndash; das Problem ist, was er hinterlässt: ein durchwühlter Vorrat, ein erschöpftes Land, ein westliches Bündnis, das sich fragt, wo die Milliarden hingeflossen sind. Der Waschbär hat längst das nächste Dach gefunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Schatten-Geschenk: Was möglich wäre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es wäre unvollständig, bei der Kritik stehen zu bleiben. Die selbsterhaltende Drei trägt ein echtes Geschenk in sich &ndash; wenn sie erwacht. Die SE3 kann anpassen, vermitteln, Brücken bauen. Sie kann aus einer hoffnungslosen Situation das Beste machen, weil sie instinktiv versteht, was gebraucht wird. Ein bewusster SE3w2 könnte ein außergewöhnlicher Staatsmann sein &ndash; nicht trotz seiner Fähigkeit zur Inszenierung, sondern mit ihr: wenn die Inszenierung dem Wohl des Volkes dient statt der eigenen Sicherung.</p>
+          <p class="vb-intro">Der Waschbär, der erwacht, muss nicht aufhören, klug zu sein. Er muss aufhören, nachts zu kommen. Er muss lernen, im Licht zu handeln &ndash; sichtbar, rechenschaftspflichtig, ehrlich. Ob Selenskyj diesen Schritt je geht, bleibt offen. Die SE3w2 auf ihrer höchsten Ausdrucksstufe braucht keinen Schutz durch Täuschung mehr. Sie vertraut darauf, dass das Echte genug ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 &ndash; Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalfall: Pablo Escobar (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function sadhguruPortraitPage() {
   return shell(`
@@ -38589,6 +38659,7 @@ function render() {
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
+      "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
@@ -38987,7 +39058,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v635';
+  const MY_VERSION = 'inhalt-v636';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

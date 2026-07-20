@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Wolodymyr Selenskyj (SE3w2) – Kontratyp der Drei, der Waschbär, der den Helden spielt",
+    text_en: "New portrait: Volodymyr Zelensky (SE3w2) – Countertype of the Three, the raccoon playing the hero",
+    route: "beruehmte-wolodymyr-selenskyj"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Pamela Reif (SX2w3) – Millionen Verbindungen durch einen Bildschirm, Verführung als Verbindungskunst",
     text_en: "New portrait: Pamela Reif (SX2w3) – millions of connections through a screen, seduction as the art of connection",
     route: "beruehmte-pamela-reif"
