@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Meg Ryan (SX3w4) – Schauspielerin, Regisseurin. Hollywoods Liebling der 1990er – der Pfau, der mehr wollte als seine Rolle.",
+    text_en: "New portrait: Meg Ryan (SX3w4) – actress, director. Hollywood's sweetheart of the 1990s – the peacock who wanted more than its role.",
+    route: "beruehmte-meg-ryan"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Lena Meyer-Landrut (SX3w2) – Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist.",
     text_en: "New portrait: Lena Meyer-Landrut (SX3w2) – singer, ESC winner 2010. The peacock who doesn't know how beautiful it is.",
     route: "beruehmte-lena-meyer-landrut"

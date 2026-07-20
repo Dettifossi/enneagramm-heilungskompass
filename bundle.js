@@ -302,6 +302,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lena Meyer-Landrut – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1991. Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist – und gerade deshalb alle in den Bann zieht. Tierentsprechung: Pfau.",
     tags:["Musik"] },
+  { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
+    heading:"Meg Ryan – Sexueller Typ 3",
+    teaser:"SX3w4 · geb. 1961. Schauspielerin, Regisseurin. Hollywoods Lieblingsperson der 1990er – der Pfau, der mehr wollte als seine Rolle. Tierentsprechung: Pfau.",
+    tags:["Schauspiel","Film"] },
   { route:"beruehmte-dieter-bohlen", name:"Dieter Bohlen", subtyp:"SX3w4",
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
@@ -11114,6 +11118,78 @@ function ladyDianaPortraitPage() {
   `);
 }
 
+
+function megRyanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-meg-ryan-portrait.jpg" alt="Meg Ryan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Meg Ryan</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Regisseurin, geb. 1961 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: Strahlen, das von innen kommt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; und er bezaubert nicht durch Macht oder Distanz, sondern durch eine Ausstrahlung, die man nicht lernen kann. Meg Ryan hat dieses Tier in den 1990er Jahren so überzeugend verkörpert, dass sie zum Inbegriff des amerikanischen Filmcharms wurde: warm, lebendig, lachend &ndash; eine Präsenz, bei der Millionen Kinozuschauer das Gefühl hatten, sie schon immer gekannt zu haben.</p>
+          <p class="vb-intro">Das ist die Kern-Gabe der SX3: nicht Glamour im Sinne von Distanz, sondern Magnetismus durch Nähe. Meg Ryan war nie unnahbar. Sie war das Mädchen von nebenan &ndash; und trotzdem unwiderstehlich. Der Pfau, der sein Rad entfaltet, ohne es zu wissen.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt diesem Strahlen eine zweite Dimension: Hinter der unkomplizierten Fröhlichkeit der Filmpersona lebte eine Frau, die mehr wollte &ndash; mehr Tiefe, mehr Ernsthaftigkeit, mehr als die Schublade, in die Hollywood sie gesteckt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Intimität als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> lenkt die Energie der Drei nicht auf öffentlichen Erfolg, sondern auf persönliche Verbindung. Die SX3 fragt: <em>Berühre ich dich? Bin ich für dich real?</em> Ihr Charisma ist kein Blendwerk &ndash; es ist ein echter Wunsch nach Kontakt, nach dem Moment, in dem zwei Menschen wirklich aufeinandertreffen.</p>
+          <p class="vb-intro">Meg Ryans Karriere ist ein einziger Beweis für diese Energie. <em>When Harry Met Sally</em> (1989), <em>Sleepless in Seattle</em> (1993), <em>You've Got Mail</em> (1998) &ndash; diese Filme funktionieren nicht, weil die Drehbücher so raffiniert sind. Sie funktionieren, weil Meg Ryan echten Hunger nach Verbindung spielbar macht. Die berühmte Szene im Café &ndash; die gespielte Ekstase als Kommentar über Selbsttäuschung &ndash; ist eigentlich ein Kommentar über ihr Lebensthema: <em>Was ist echt? Was ist Vorstellung?</em></p>
+          <p class="vb-intro">Naranjo nannte die SX3 <em>Masculinity &frasl; Femininity</em> &ndash; die Verkörperung von Anziehung in ihrer persönlichsten Form. Meg Ryan hat das in eine Filmsprache übersetzt, die eine ganze Generation geprägt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Tiefe hinter dem Lachen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt in die SX3-Energie etwas, das die reine Drei oft verdrängt: das Bedürfnis nach Tiefe, nach Echtheit, nach einem Ausdruck, der über die Oberfläche hinausgeht. Die SX3w4 will nicht nur bezaubern &ndash; sie will <em>bedeutsam</em> sein.</p>
+          <p class="vb-intro">Bei Meg Ryan zeigt sich das im Bruch ihrer Karriere in den 2000er Jahren. Der Rückzug aus den Romanzen, die Wahl von <em>Proof of Life</em> (2000) &ndash; ein dunklerer, komplexerer Film, für den sie sich bewusst gegen ihren Typ entschied. Der Viererflügel besteht auf Authentizität, auch wenn der Preis hoch ist.</p>
+          <p class="vb-intro">Und dann die öffentlich diskutierten Veränderungen in ihrem Erscheinungsbild: Sie zeigen das Paradox der SX3w4 &ndash; das Drei-Bedürfnis nach Bildkontrolle, das gegen die Vier-Erkenntnis kämpft, dass das Bild nicht die Person ist. Zwei Kräfte, die in dieselbe Hülle eingespannt sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Gesamtwirkung: Hollywoods Liebling &ndash; und der Preis der Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Meg Ryan war in den 1990er Jahren das Gesicht einer Filmgattung, die heute nostalgisch verklärt wird: die romantische Komödie in ihrer warmherzigsten Form. Drei Filme mit der Regisseurin Nora Ephron schufen ein Universum, das bis heute als Maßstab gilt.</p>
+          <p class="vb-intro">Was dabei übersehen wird: Meg Ryan war nicht das, was Hollywood aus ihr gemacht hatte. Sie war die Darstellerin, die dieser Rolle Echtes gab. Der Unterschied ist entscheidend. Die SX3w4 kann eine Rolle spielen &ndash; aber sie kann sich nicht vollständig mit ihr identifizieren. Unter der Erwartung liegt immer die Frage: <em>Wer bin ich wirklich?</em></p>
+          <p class="vb-intro">Der Wandel ihrer Karriere nach der Jahrtausendwende ist in diesem Licht weniger Absturz als Suchbewegung &ndash; der Versuch, hinter der Schublade eine eigene Sprache zu finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn das Bild zum Gefängnis wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; nicht als böse Absicht, sondern als strukturelle Gefahr: das Ich, das beginnt, sein Bild für sein Wesen zu halten. Bei der SX3w4 ist diese Gefahr besonders subtil, weil der Viererflügel gleichzeitig dagegen arbeitet. Die Vier fragt ständig: <em>Ist das echt? Bist du wirklich du?</em></p>
+          <p class="vb-intro">Meg Ryans öffentlicher Wandel &ndash; das schwindende Strahlen der 1990er, der Rückzug, die veränderte Erscheinung &ndash; kann man als Scheitern lesen. Man kann ihn aber auch lesen als das, was er vielleicht war: eine Weigerung, die Vorstellung weiterzuspielen. Der Pfau, der aufhört, sein Rad zu entfalten, weil es nicht mehr das seine ist.</p>
+          <p class="vb-intro">Dass sie in den 2010er Jahren zum Regieführen wechselte und 2023 mit <em>What Happens Later</em> einen eigenen Film ins Kino brachte, gibt dieser Lesart Gewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Lieblingsrolle zu sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; unabhängig vom Bild, das andere von mir haben.</em> Für die SX3w4 ist dieser Weg besonders reich: Der Viererflügel weiß schon lange, wohin er führt &ndash; in die Tiefe, in die Echtheit, in den Raum hinter der Rolle.</p>
+          <p class="vb-intro">Meg Ryans Heilungsweg scheint genau dort verlaufen zu sein: weg vom Bild „America's Sweetheart", das ihre Karriere gebaut und zugleich begrenzt hatte, hin zu etwas Eigenem. Das Regieführen ist ein typisches Zeichen dieser Transformation: Statt vor der Kamera zu strahlen, die Geschichte anderer zu erzählen &ndash; auf eigene Rechnung, in eigener Sprache.</p>
+          <p class="vb-intro">Der Pfau, der seinen schönsten Moment nicht mehr für das Publikum entfaltet, sondern für sich selbst &ndash; und der dabei entdeckt, dass er noch immer ein Pfau ist.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+
+      ${relatedLinks([
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-lena-meyer-landrut", label:"Porträt: Lena Meyer-Landrut (SX3w2)"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"}
+      ])}
+    </div>
+  `);
+}
 
 function dieterBohlenPortraitPage() {
   return shell(`
@@ -38897,6 +38973,7 @@ function render() {
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
+      "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
@@ -39363,7 +39440,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v646';
+  const MY_VERSION = 'inhalt-v647';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
