@@ -166,10 +166,14 @@ const KRIMINAL_PORTRAITS = [
 ];
 
 const BERUEHMT_PORTRAITS = [
-  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
-    heading:"Sting – Selbsterhaltender Typ 1",
-    teaser:"SE1w9 · „Der Adler“, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
-    tags:["Musik"] },
+  { route:”beruehmte-queen-elizabeth-ii”, name:”Queen Elizabeth II.”, added:”2026-07-20”, subtyp:”SE1w9”,
+    heading:”Queen Elizabeth II. – Selbsterhaltender Typ 1”,
+    teaser:”SE1w9 · 1926–2022. Königin des Vereinigten Königreichs, 70 Jahre auf dem Thron. Pflicht als Lebensinhalt, Stille als Stärke, niemals klagen, niemals erklären. Der Adler, der seinen Posten nie verließ. Tierentsprechung: Adler.”,
+    tags:[“Politik”,”Adel”] },
+  { route:”beruehmte-sting”, name:”Sting”, subtyp:”SE1w9”,
+    heading:”Sting – Selbsterhaltender Typ 1”,
+    teaser:”SE1w9 · „Der Adler”, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.”,
+    tags:[“Musik”] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -8338,6 +8342,73 @@ window.bpApply = function() {
     b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
   });
 };
+
+function queenElizabethIIPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-queen-elizabeth-ii-portrait.jpg" alt="Queen Elizabeth II." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Queen Elizabeth II.</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Königin des Vereinigten Königreichs, 1926&ndash;2022 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; und kein Bild trifft Queen Elizabeth II. genauer. Der Adler fliegt allein, hoch über dem Lärm der Welt. Er braucht keine Zustimmung, keine Bühne, keine Bewunderung. Er hat einen Posten &ndash; und er verlässt ihn nicht. Wenn er kreist, dann mit vollständiger Konzentration. Wenn er landet, dann mit Würde.</p>
+          <p class="vb-intro">Elizabeth Alexandra Mary Windsor bestieg 1952, mit fünfundzwanzig Jahren, nach dem Tod ihres Vaters König George VI. den Thron &ndash; einen Thron, den sie nicht gesucht hatte, der ihr durch den Verzicht ihres Onkels Edward VIII. zugefallen war. Sie sagte Ja. Nicht mit Begeisterung, nicht mit Ehrgeiz &ndash; sondern mit dem stillen, absoluten Entschluss eines Menschen, der versteht, dass bestimmte Aufgaben nicht verhandelbar sind. Siebzig Jahre lang hat sie dieses Ja jeden Tag erneuert. Der Adler blieb auf seinem Posten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Pflicht als Lebensinhalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> ist der Subtyp der Eins, der seinen Perfektionsanspruch nicht nach außen trägt, sondern nach innen. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis: die ständige, innere Frage, ob man das Richtige tut, ob man der Aufgabe wirklich gerecht wird, ob man genug geleistet hat. Diese Besorgnis ist kein Zögern. Sie ist der Motor einer lebenslangen Disziplin.</p>
+          <p class="vb-intro">Queen Elizabeth II. hat dieses Muster in einer Form gelebt, die historisch einmalig ist. Sie hat in siebzig Jahren niemals ein Interview gegeben, in dem sie ihre persönliche Meinung zu einer politischen Frage geäußert hat. Niemals. Nicht weil sie keine hatte &ndash; sondern weil sie wusste, dass der Posten wichtiger ist als die Person. Die SE1 verleugnet ihre eigenen Wünsche nicht aus Schwäche. Sie stellt sie zurück aus innerer Überzeugung: <em>Das hier geht vor.</em></p>
+          <p class="vb-intro">Ihr Leitspruch war nie formuliert, aber er war spürbar: <em>Never complain, never explain</em> &ndash; niemals klagen, niemals erklären. Das ist die SE1 in ihrer reinsten, diszipliniertesten Form. Sie erträgt, was andere nicht ertragen würden &ndash; nicht als Opfer, sondern als Ausdruck dessen, was sie für richtig hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Frieden als zweite Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das die reine Eins kaum von selbst findet: Stille. Der Neunerflügel sucht Harmonie, Kontinuität, das Gleichgewicht im Bestehenden. Er hält zusammen, was auseinanderdriften will &ndash; nicht durch Eingriff, sondern durch Präsenz.</p>
+          <p class="vb-intro">Dieser Flügel erklärt, warum Queen Elizabeth II. siebzig Jahre lang die Mitte eines Landes bleiben konnte, das sich um sie herum tiefgreifend veränderte. Imperium, Dekolonisierung, Kalter Krieg, Thatcher, Blair, Brexit, Pandemie &ndash; sie hat alles überdauert, ohne je Position zu beziehen. Das ist nicht Gleichgültigkeit. Das ist die Fähigkeit der Neuner-Energie, den Raum für andere offen zu halten. Indem die Königin schwieg, durfte das Land sprechen.</p>
+          <p class="vb-intro">Dasselbe zeigt sich in ihrer privaten Welt: die Corgi-Hunde, die sie ein Leben lang begleiteten; der jährliche Aufenthalt in Balmoral, dem schottischen Schloss, das ihr mehr bedeutete als der Buckingham-Palast; die langjährige Ehe mit Prinz Philip, die auf tiefer gegenseitiger Loyalität beruhte. Der Neunerflügel braucht seine Anker. Er ist nicht schwach &ndash; er weiß, wo er verwurzelt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als innere Strenge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SE1w9 äußert er sich auf eine Art, die nach außen völlig unsichtbar bleibt. Die SE1w9 ist nicht die Eins, die laut korrigiert. Sie ist die Eins, die schweigt &ndash; und sich innerlich einen Standard hält, der für andere unvorstellbar wäre. Der Zorn wendet sich nicht nach außen, sondern nach innen: als eiserne Selbstdisziplin, als Unerbittlichkeit gegenüber dem eigenen Versagen, als das ständige Gewissen, das fragt: <em>Habe ich heute getan, was getan werden musste?</em></p>
+          <p class="vb-intro">Queen Elizabeth II. hat diesen inneren Zorn in Form von Pflicht kanalisiert. Sie arbeitete bis in ihr letztes Lebensjahr &ndash; zwei Tage vor ihrem Tod, am 6. September 2022, empfing sie noch Premierministerin Liz Truss in Balmoral. Sie war sechsundneunzig Jahre alt. Das ist kein Pflichtbewusstsein mehr. Das ist die SE1w9 in ihrer letzten, vollständigen Konsequenz: der Adler, der seinen Posten erst verlässt, wenn es keine andere Möglichkeit mehr gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: 1997 und die Grenzen der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w9 hat eine Schwachstelle: Sie kann in Momenten, die menschliche Wärme fordern, wie Kälte wirken. Der Tod von Prinzessin Diana im August 1997 wurde für Queen Elizabeth II. zur härtesten öffentlichen Prüfung ihrer Regentschaft. Die Königin blieb in Balmoral, folgte dem Protokoll, zeigte keine Emotion &ndash; während das Land in Trauer und Empörung versank. Die Presse fragte: <em>Wo ist die Königin?</em></p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist dieser Moment kein Versagen der Person, sondern die Grenze des Musters: Die SE1w9 hält sich an das Richtige &ndash; und das Richtige war, wie sie es verstand, Protokoll und Haltung. Dass das Volk etwas anderes brauchte, wurde ihr erst durch äußeren Druck bewusst. Sie kehrte nach London zurück, sprach live zur Nation, verbeugte sich vor Dianas Sarg. Für eine SE1w9 war das ein außergewöhnlicher Schritt: das Muster zu verlassen, weil die Situation es verlangte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Beständigkeit als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Queen Elizabeth II. dem Vereinigten Königreich &ndash; und einer Welt, die sich in siebzig Jahren mehrfach neu erfunden hat &ndash; gegeben hat, lässt sich in einem Wort zusammenfassen: Beständigkeit. In einer Epoche des unablässigen Wandels war sie das, was nicht wechselte. Kein Skandal hat sie zum Sprechen gebracht. Keine Krise hat sie von ihrem Posten vertrieben. Keine Mode hat sie mitgerissen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE1w9: Verlässlichkeit als Heimat. Ein Adler, der auf seinem Felsen sitzt &ndash; nicht weil er sich nicht bewegen könnte, sondern weil er weiß, dass seine Aufgabe Bestand ist. Queen Elizabeth II. hat am 8. September 2022 in Balmoral ihren letzten Atemzug getan. Ihr Sohn Charles III. folgte ihr auf den Thron. Der Felsen ist leer. Aber er ist noch da.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function stingPortraitPage() {
   return shell(`
@@ -37867,6 +37938,7 @@ function render() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
@@ -38272,7 +38344,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v613';
+  const MY_VERSION = 'inhalt-v614';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

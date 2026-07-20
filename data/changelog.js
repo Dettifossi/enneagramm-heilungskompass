@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Queen Elizabeth II. (SE1w9) – 70 Jahre Pflicht, Stille als Stärke, der Adler auf seinem Posten",
+    text_en: "New portrait: Queen Elizabeth II. (SE1w9) – 70 years of duty, silence as strength, the eagle at her post",
+    route: "beruehmte-queen-elizabeth-ii"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Uli Hoeneß (SE2w3) – Fußballweltmeister, Bayern-Präsident und Flusspferd",
     text_en: "New portrait: Uli Hoeneß (SE2w3) – football world champion, Bayern president and hippopotamus",
     route: "beruehmte-uli-hoeness"
