@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Karl Lagerfeld (SO3w4) – Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat.",
+    text_en: "New portrait: Karl Lagerfeld (SO3w4) – fashion icon, Creative Director of Chanel and Fendi. The cheetah who transformed himself into a symbol.",
+    route: "beruehmte-karl-lagerfeld"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Sahra Wagenknecht (SO3w2) – Politikerin, BSW-Gründerin, Buchautorin. Der Gepard, der nicht nur sprintet, sondern auch weiß, wohin.",
     text_en: "New portrait: Sahra Wagenknecht (SO3w2) – politician, BSW founder, author. The cheetah that doesn't just sprint, but knows where it's going.",
     route: "beruehmte-sahra-wagenknecht"
