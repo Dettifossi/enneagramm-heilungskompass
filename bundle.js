@@ -12502,9 +12502,9 @@ function sahraWagenknechtPortraitPage() {
         <p class="vb-intro">Ein bewusster SO3w2er kann zur Brücke werden &ndash; zwischen Lagern, die sich nicht mehr zuhören. Wagenknecht hat dieses Potenzial. Ob sie es vollständig nutzt, bleibt offen. Aber der Gepard, der innehält und überlegt, bevor er sprintet &ndash; das ist die Energie, die politisch am nötigsten gebraucht wird.</p>
       </blockquote>
 
-      ${bookTip("enneagramm-heilungskompass", "Der Enneagramm-Heilungskompass", "Detlef Rathmer", "Alle 27 Subtypen im Überblick – Heilungsweg, Leidenschaft und Wunde der sozialen Drei.")}
-      ${bookTip("selbstgerechten", "Die Selbstgerechten", "Sahra Wagenknecht", "Wagenknechts kulturpolitische Intervention – wie eine SO3w2 ihre Reichweite nutzt, um gesellschaftliche Debatten zu prägen.")}
-      ${bookTip("enneagramm-typen", "Die 9 Enneagramm-Typen", "Detlef Rathmer", "Die Grundlagen der neun Typen – für alle, die den Gepard und den Verstärkungstyp der Drei tiefer verstehen wollen.")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
 
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
@@ -39205,7 +39205,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v641';
+  const MY_VERSION = 'inhalt-v642';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
