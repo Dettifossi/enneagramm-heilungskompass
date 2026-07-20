@@ -12593,31 +12593,31 @@ function davidLRathmerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: der Subtyp, der seinen Ehrgeiz hinter Bescheidenheit verbirgt &ndash; nicht als Täuschung, sondern weil Sicherheit für ihn wichtiger ist als Glanz. Die SE3 sucht keine große Bühne. Sie sucht Effizienz. Sie sucht das Richtige, das Funktionale, das Substanzielle &ndash; und findet ihren Wert nicht im Applaus, sondern im Ergebnis.</p>
           <p class="vb-intro">Bei David zeigt sich das in einer auffallenden Ruhe für sein Alter. Er tritt nicht auf, um zu beeindrucken. Er zeigt, was er kann &ndash; und das genügt ihm. In Beratungsgesprächen, in Schulungen, in der Arbeit mit Führungskräften und Unternehmen, die seine Expertise im Personalbereich und in der Mitarbeiterführung nutzen: überall wirkt er geerdet, fokussiert, klar. Kein Geltungsdrang. Keine Inszenierung. Nur das Handwerk.</p>
-          <p class="vb-intro">Mit zwanzig Jahren wurde er zum jüngsten Wirtschaftssenator in der Geschichte des Europäischen Wirtschaftssenats ernannt &ndash; nicht weil er sich beworben hatte, sondern weil seine Arbeit überzeugte. Das ist SE3 in ihrer bewussten Form: Erfolg als Konsequenz, nicht als Ziel.</p>
+          <p class="vb-intro">Mit zwanzig Jahren wurde er zum jüngsten Wirtschaftssenator in der Geschichte des Europäischen Wirtschaftssenats ernannt &ndash; nicht weil er sich beworben hatte, sondern weil seine Arbeit überzeugte. Das ist die SE3 in ihrer bewussten Form: Erfolg als Konsequenz, nicht als Ziel.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Effizienz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> ist das, was David L. Rathmer von einem reinen Effizienz-Techniker unterscheidet. Die Vier sucht Tiefe, Authentizität, den Kern der Dinge. Sie kann nicht bei der Oberfläche bleiben &ndash; sie muss wissen, was wirklich dahintersteckt. Bei einem SE3w4 verbindet sich das mit der praktischen Intelligenz der Drei: Die Tiefe wird nicht zum Selbstzweck, sondern zum Werkzeug. Was tief verstanden ist, kann präzise eingesetzt werden.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> ist das, was David L. Rathmer von einem reinen Effizienz-Techniker unterscheidet. Die Vier sucht Tiefe, Authentizität, den Kern der Dinge. Sie kann nicht an der Oberfläche bleiben &ndash; sie muss wissen, was wirklich dahintersteckt. Bei einem SE3w4er verbindet sich das mit der praktischen Intelligenz der Drei: Die Tiefe wird nicht zum Selbstzweck, sondern zum Werkzeug. Was tief verstanden ist, kann präzise eingesetzt werden.</p>
           <p class="vb-intro">Genau das ist der Schlüssel zur Rathmer-Profiling-Methode (RP-Methode): David kann Menschen allein anhand von Portraitfotos und körperlichen Merkmalen präzise nach dem Enneagramm typisieren. Diese Fähigkeit ist nicht intuitives Raten &ndash; sie ist das Ergebnis von über fünfzehn Jahren beobachtender Forschung, systematisch aufgebaut, empirisch validiert. Der Viererflügel hat ihn gelehrt, genau hinzusehen. Die selbsterhaltende Drei hat die Methode daraus gemacht.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Ennea Scholars Academy: Wissen in Anwendung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Ennea Scholars Academy</strong>, die David L. Rathmer gegründet hat, ist der institutionelle Ausdruck seiner SE3w4-Energie: ein Unternehmen, das Wissen nicht speichert, sondern transferiert. Teilnehmer aus aller Welt lernen dort das „Menschenlesen" &ndash; die Fähigkeit, Menschen anhand des Enneagramms präzise zu verstehen, ein Werkzeug, das in Führung, Personalauswahl, Kommunikation und Therapie eingesetzt wird.</p>
-          <p class="vb-intro">Der SE3w4 baut keine Kathedralen für sich. Er baut Systeme, die ohne ihn funktionieren. Das ist der bewusste Ausdruck der selbsterhaltenden Drei: nicht Abhängigkeit erzeugen, sondern Kompetenz weitergeben. Was David weitergeben kann, ist das Ergebnis einer Kindheit und Jugend, die vollständig dem Enneagramm gewidmet war &ndash; nicht als Verzicht, sondern als Berufung.</p>
+          <p class="vb-intro">Der SE3w4er baut keine Kathedralen für sich. Er baut Systeme, die ohne ihn funktionieren. Das ist der bewusste Ausdruck der selbsterhaltenden Drei: nicht Abhängigkeit erzeugen, sondern Kompetenz weitergeben. Was David weitergeben kann, ist das Ergebnis einer Kindheit und Jugend, die vollständig dem Enneagramm gewidmet war &ndash; nicht als Verzicht, sondern als Berufung.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Energetische Wirkung: Stille Klarheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wer David L. Rathmer in der Arbeit erlebt, begegnet einer Energie, die ruhig und dennoch vollständig präsent ist. Keine Überwältigungsenergie, kein Charisma-Feuerwerk &ndash; sondern die konzentrierte Klarheit eines Menschen, der weiß, was er sieht und warum. Der Blick des SE3w4 ist zielgerichtet und gleichzeitig offen: Er beobachtet, ohne zu urteilen &ndash; analysiert, ohne zu distanzieren.</p>
+          <p class="vb-intro">Wer David L. Rathmer in der Arbeit erlebt, begegnet einer Energie, die ruhig und dennoch vollständig präsent ist. Keine Überwältigungsenergie, kein Charisma-Feuerwerk &ndash; sondern die konzentrierte Klarheit eines Menschen, der weiß, was er sieht und warum. Der Blick des SE3w4ers ist zielgerichtet und gleichzeitig offen: Er beobachtet, ohne zu urteilen &ndash; analysiert, ohne zu distanzieren.</p>
           <p class="vb-intro">Der Viererflügel bringt dabei eine Wärme mit, die bei reinen Dreien oft fehlt: David interessiert sich für den Menschen hinter dem Typ. Die Typisierung ist für ihn kein Ende, sondern ein Anfang &ndash; der Beginn eines Gesprächs über das, was jemand braucht, um wirklich er selbst zu sein. Das ist der Waschbär im Licht: geschickt, präzise, und mit der Würde des echten Kontakts.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Geschenk: Ein Erbe, das weitergebaut wird</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">David L. Rathmer ist mit 23 Jahren in einem Alter, in dem die meisten Menschen erst beginnen zu verstehen, womit sie ihr Leben verbringen wollen. Er weiß es bereits seit fünfzehn Jahren. Das ist weder Zufall noch bloßes Talent &ndash; es ist das Ergebnis einer seltenen Kombination: ein frühes Umfeld, das Tiefe ermöglicht, eine Persönlichkeitsstruktur, die Effizienz mit Sinn verbindet, und ein innerer Antrieb, der keine Bestätigung von außen braucht, um weiterzugehen.</p>
-          <p class="vb-intro">Was er dem Enneagramm gegeben hat, ist die Brücke ins digitale Zeitalter &ndash; und ins Unternehmertum. Was das Werk von Detlef Rathmer in der Tiefe aufgebaut hat, trägt David in die Breite. Vater und Sohn, Selbsterhaltender Neun und Selbsterhaltender Drei &ndash; zwei Typen, die zusammen das Ganze abdecken: die Wurzel und das Wachstum.</p>
+          <p class="vb-intro">Was er dem Enneagramm gegeben hat, ist die Brücke ins digitale Zeitalter &ndash; und ins Unternehmertum. Was das Werk von Detlef Rathmer in der Tiefe aufgebaut hat, trägt David in die Breite. Vater und Sohn &ndash; zwei Menschen, die zusammen das Ganze abdecken: die Wurzel und das Wachstum.</p>
         </blockquote>
 
       </div>
@@ -39131,7 +39131,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v638';
+  const MY_VERSION = 'inhalt-v639';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
