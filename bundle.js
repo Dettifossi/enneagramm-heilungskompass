@@ -12262,7 +12262,7 @@ function willSmithPortraitPage() {
         <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte die soziale Zwei <strong>Ehrgeiz</strong> &ndash; und das ist kein Widerspruch zur Fürsorge, sondern ihr Motor. Die soziale Zwei will nicht nur helfen: Sie will die <em>Größte</em> im Helfen sein. Sie will nicht nur geliebt werden: Sie will <em>unentbehrlich</em> geliebt werden. Ihr Ehrgeiz ist kein Selbstzweck &ndash; er ist die Art, wie sie sicherstellt, dass ihre Liebe ankommt. Je mehr sie leistet, je größer ihre Bühne, desto mehr Menschen kann sie erreichen. Desto mehr Menschen gehören zu ihr.</p>
-          <p class="vb-intro">Will Smiths Karriere folgt exakt dieser inneren Logik. Von <em>Der Prinz von Bel-Air</em> über <em>Men in Black</em>, <em>Ali</em>, <em>Die Verfolgung des Glücks</em> bis zum Oscar 2022 für <em>King Richard</em> &ndash; jeder Film ist zugleich eine schauspielerische Leistung und ein Angebot: <em>Ich bin für euch da. Ich unterhalte euch. Ich bewege euch. Ich bin es wert, geliebt zu werden.</em> Der SO2 gibt nicht einfach &ndash; er gibt mit dem Bewusstsein, dass das Geben gesehen werden soll. Nicht aus Eitelkeit. Aus dem tiefen Bedürfnis, dazuzugehören.</p>
+          <p class="vb-intro">Will Smiths Karriere folgt exakt dieser inneren Logik. Von <em>Der Prinz von Bel-Air</em> über <em>Men in Black</em>, <em>Ali</em>, <em>Das Streben nach Glück</em> bis zum Oscar 2022 für <em>King Richard</em> &ndash; jeder Film ist zugleich eine schauspielerische Leistung und ein Angebot: <em>Ich bin für euch da. Ich unterhalte euch. Ich bewege euch. Ich bin es wert, geliebt zu werden.</em> Der SO-Zweier gibt nicht einfach &ndash; er gibt mit dem Bewusstsein, dass das Geben gesehen werden soll. Nicht aus Eitelkeit. Aus dem tiefen Bedürfnis, dazuzugehören.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Glanz im Dienst der Verbindung</h2>
@@ -12275,18 +12275,19 @@ function willSmithPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Ohrfeige auf der Oscar-Bühne 2022 ist ein typologisches Dokument. Chris Rock machte einen Witz über die Alopecia-Erkrankung von Jada Pinkett Smith &ndash; und Will Smith stand auf, trat ans Podium und schlug zu. Es war ein Moment, der das sorgfältig konstruierte Bild des strahlenden Publikumslieblings in Sekundenbruchteilen zerbrach.</p>
           <p class="vb-intro">Aus der SO2w3-Perspektive ist dieser Moment nicht rätselhaft, sondern verständlich &ndash; und tragisch. Die soziale Zwei schützt die Menschen, die ihr gehören. Jada ist der Kern seiner Gemeinschaft &ndash; und der Dreierflügel hatte ihm jahrelang beigebracht, Schmerz zu überspielen, zu lächeln, weiterzumachen. In dieser Nacht trat das Innere durch die Außenfassade hindurch &ndash; der Golden Retriever, der sonst nur wedelt, biss. Nicht aus Kalkül. Sondern weil der Schutzimpuls stärker war als das Image.</p>
+          <p class="vb-intro">Im Enneagramm geht der Typ 2 unter Stress in den <strong>Typ 8</strong> &ndash; und dieser Achter-Stresspunkt ist genau das, was man in jenem Moment sah: Kontrolle über das eigene Territorium, Schutz des Rudels, der direkte Zugriff ohne Filter. Kein Zweier-Lächeln mehr. Nur noch der Acht-Impuls: <em>Das lasse ich nicht zu.</em> Dann die Rückkehr &ndash; Tränen, Reue, Dankbarkeit. Der Zweier kam wieder nach oben.</p>
           <p class="vb-intro">Minuten später stand er weinend auf der Bühne, hielt seinen Oscar in der Hand und sprach über Liebe und Berufung. Das ist Will Smith: beides gleichzeitig &ndash; die Verletzung und die Wärme, der Ausbruch und die Reue, der Mensch hinter dem Bild.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Energetische Wirkung: Sonne mit Wolken</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Will Smiths Energie ist solar: hell, anziehend, aufwärmend. Er betritt einen Raum &ndash; und der Raum wird heller. Er lacht &ndash; und andere lachen mit. Er spricht über seine Kinder &ndash; und man spürt, dass er es wirklich meint. Das ist keine Performance im kalten Sinn: Es ist die echte Energie eines Menschen, der sich in Verbindung lebt und durch Verbindung lebt.</p>
-          <p class="vb-intro">Und doch: Hinter dieser Sonne liegt ein langer Schatten. Die soziale Zwei trägt die Leidenschaft <strong>Stolz</strong> &ndash; den Glauben, gebraucht werden zu müssen, um wertvoll zu sein. Den Glauben, dass Liebe verdient werden muss, nicht einfach empfangen. Will Smith hat viel verdient &ndash; und dennoch ist die Frage, ob er sich wirklich geliebt fühlt, ohne das Verdienen, eine, die sein gesamtes Werk durchzieht: von der Autobiografie bis zum Kino, von der Bühne bis zu diesem einen Moment, in dem alles herausfiel.</p>
+          <p class="vb-intro">Und doch: Hinter dieser Sonne liegt ein langer Schatten. Die soziale Zwei trägt die Leidenschaft <strong>Stolz</strong> &ndash; den Glauben, gebraucht werden zu müssen, um wertvoll zu sein. Den Glauben, dass Liebe verdient werden muss, nicht einfach empfangen. Will Smith hat viel verdient &ndash; und dennoch ist die Frage, ob er sich wirklich geliebt fühlt, ohne das Verdienen, eine, die sein gesamtes Werk durchzieht: von der Autobiografie bis zum Kino, von der Bühne bis zu diesem einen Moment, in dem, wenn auch nur für einen kurzen Augenblick, sein gesamtes Image zerbrach.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Geschenk: Wärme, die die Welt verändert</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Will Smith der Welt gegeben hat, lässt sich nicht auf Filmographien reduzieren. Er hat einer ganzen Generation gezeigt, dass man erfolgreich und warmherzig sein kann &ndash; dass Ehrgeiz und Menschlichkeit kein Widerspruch sind. <em>Die Verfolgung des Glücks</em> ist nicht nur ein Film &ndash; er ist ein Versprechen: Wenn du dich genug einsetzt, wenn du dich genug liebst und dein Kind genug liebst, dann kommt der Morgen.</p>
+          <p class="vb-intro">Was Will Smith der Welt gegeben hat, lässt sich nicht auf Filmographien reduzieren. Er hat einer ganzen Generation gezeigt, dass man erfolgreich und warmherzig sein kann &ndash; dass Ehrgeiz und Menschlichkeit kein Widerspruch sind. <em>Das Streben nach Glück</em> ist nicht nur ein Film &ndash; er ist ein Versprechen: Wenn du dich genug einsetzt, wenn du dich genug liebst und dein Kind genug liebst, dann kommt der Morgen. Bemerkenswert: Sein Sohn Jaden Smith spielte in diesem Film nicht nur mit &ndash; er ist im Enneagramm ebenfalls eine SO2w3, genau wie sein Vater. Der Golden Retriever hat seinen Welpen mitgebracht.</p>
           <p class="vb-intro">Das ist die SO2w3 auf ihrer höchsten Stufe: ein Mensch, der seine Bühne nicht für sich nutzt, sondern für die Botschaft, dass Liebe möglich ist &ndash; auch wenn man ganz unten angefangen hat. Der Golden Retriever mit dem Dreierflügel kann die Welt wärmer machen &ndash; wenn er lernt, diese Wärme auch sich selbst zu schenken.</p>
         </blockquote>
 
@@ -38844,7 +38845,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v629';
+  const MY_VERSION = 'inhalt-v630';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
