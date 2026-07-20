@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Will Smith (SO2w3) – Fresh Prince, Ali, Oscar 2022. Der Golden Retriever, der die Welt umarmen will",
+    text_en: "New portrait: Will Smith (SO2w3) – Fresh Prince, Ali, Oscar 2022. The Golden Retriever who wants to embrace the world",
+    route: "beruehmte-will-smith"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Prof. Dr. Sucharit Bhakdi (SO2w1) – der Golden Retriever, der Alarm schlägt, weil er die Gesellschaft liebt",
     text_en: "New portrait: Prof. Dr. Sucharit Bhakdi (SO2w1) – the Golden Retriever sounding the alarm out of love for society",
     route: "beruehmte-sucharit-bhakdi"

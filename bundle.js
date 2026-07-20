@@ -238,6 +238,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Barack Obama – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1961. 44. US-Präsident, Community Organizer, Friedensnobelpreisträger. Yes We Can – keine Botschaft über Obama, sondern über das, was wir gemeinsam möglich machen. Tierentsprechung: Golden Retriever.",
     tags:["Politik"] },
+  { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
+    heading:"Will Smith – Sozialer Typ 2",
+    teaser:"SO2w3 · geb. 1968. Schauspieler, Rapper, Oscar-Preisträger. Fresh Prince, Ali, Men in Black. Der Golden Retriever, der die Welt umarmen will – und manchmal beißt, weil er schützt. Ehrgeiz als Form der Liebe. Tierentsprechung: Golden Retriever.",
+    tags:["Schauspiel","Musik"] },
   { route:"beruehmte-nina-chuba", name:"Nina Chuba", subtyp:"SO2w3",
     heading:"Nina Chuba – Soziale Typ 2",
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
@@ -12233,6 +12237,72 @@ function ninaChubaPortraitPage() {
   `);
 }
 
+
+function willSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-will-smith-portrait.jpg" alt="Will Smith" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Will Smith</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Rapper, geb. 1968 &ndash; Fresh Prince, Ali, Oscar 2022 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der die Welt umarmen will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; und Will Smith ist vielleicht die bekannteste Golden-Retriever-Persönlichkeit der Unterhaltungswelt. Er ist von Natur aus zugewandt, warm, einnehmend. Er will, dass es allen gut geht. Er will, dass alle lachen. Er will geliebt werden &ndash; und er gibt dafür alles, was er hat. Kein anderes Tier in der Enneagramm-Welt strahlt diese Art bedingungsloser, aktiver, fast ansteckender Wärme aus wie der Golden Retriever. Kein anderer Mensch im Hollywood der 1990er und 2000er Jahre verkörperte diese Wärme so vollständig wie Will Smith.</p>
+          <p class="vb-intro">Geboren 1968 in Philadelphia, aufgewachsen in einfachen Verhältnissen, begann Will Smith seine Karriere als Rapper &ndash; und wurde als <em>Fresh Prince</em> innerhalb weniger Jahre zum Liebling einer ganzen Generation. Seine Energie war unwiderstehlich: überschäumend, spielerisch, warm &ndash; und dabei immer auf das Publikum ausgerichtet. Die soziale Zwei lebt nicht für sich. Sie lebt für die anderen. Will Smith brauchte das Publikum nicht nur als Zuschauer &ndash; er brauchte es als Empfänger seiner Energie, als Bestätigung, dass er willkommen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die soziale Zwei <strong>Ehrgeiz</strong> &ndash; und das ist kein Widerspruch zur Fürsorge, sondern ihr Motor. Die soziale Zwei will nicht nur helfen: Sie will die <em>Größte</em> im Helfen sein. Sie will nicht nur geliebt werden: Sie will <em>unentbehrlich</em> geliebt werden. Ihr Ehrgeiz ist kein Selbstzweck &ndash; er ist die Art, wie sie sicherstellt, dass ihre Liebe ankommt. Je mehr sie leistet, je größer ihre Bühne, desto mehr Menschen kann sie erreichen. Desto mehr Menschen gehören zu ihr.</p>
+          <p class="vb-intro">Will Smiths Karriere folgt exakt dieser inneren Logik. Von <em>Der Prinz von Bel-Air</em> über <em>Men in Black</em>, <em>Ali</em>, <em>Die Verfolgung des Glücks</em> bis zum Oscar 2022 für <em>King Richard</em> &ndash; jeder Film ist zugleich eine schauspielerische Leistung und ein Angebot: <em>Ich bin für euch da. Ich unterhalte euch. Ich bewege euch. Ich bin es wert, geliebt zu werden.</em> Der SO2 gibt nicht einfach &ndash; er gibt mit dem Bewusstsein, dass das Geben gesehen werden soll. Nicht aus Eitelkeit. Aus dem tiefen Bedürfnis, dazuzugehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Glanz im Dienst der Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> macht aus dem warmherzigen Helfer einen Performer. Die Drei lebt für den Auftritt, für das Bild, für den Erfolg &ndash; und bei Will Smith verbindet sich dieser Flügel nahtlos mit dem SO2-Grundmuster: Sein Erfolg ist der Beweis seiner Liebe. Sein Glanz ist der Kanal, durch den seine Wärme die Welt erreicht. Der Dreierflügel gibt ihm die Disziplin, den Antrieb, die Fähigkeit, sich ständig neu zu erfinden &ndash; vom Rapper zum Sitcom-Star, vom Blockbuster-King zum Oscar-Preisträger.</p>
+          <p class="vb-intro">Gleichzeitig trägt der Dreierflügel eine Gefahr in sich: die Verwechslung von Image und Identität. Will Smith hat jahrelang sehr bewusst an seinem Bild gearbeitet &ndash; der perfekte Ehemann, der perfekte Vater, der perfekte Freund der Menschheit. In seiner Autobiografie <em>Will</em> (2021) offenbarte er, wie viel davon Schutz war: eine Fassade über tiefen Unsicherheiten, einem traumatischen Vater-Sohn-Verhältnis und der Angst, im Kern nicht gut genug zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Nacht der Oscars: Als der Golden Retriever biss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Ohrfeige auf der Oscar-Bühne 2022 ist ein typologisches Dokument. Chris Rock machte einen Witz über die Alopecia-Erkrankung von Jada Pinkett Smith &ndash; und Will Smith stand auf, trat ans Podium und schlug zu. Es war ein Moment, der das sorgfältig konstruierte Bild des strahlenden Publikumslieblings in Sekundenbruchteilen zerbrach.</p>
+          <p class="vb-intro">Aus der SO2w3-Perspektive ist dieser Moment nicht rätselhaft, sondern verständlich &ndash; und tragisch. Die soziale Zwei schützt die Menschen, die ihr gehören. Jada ist der Kern seiner Gemeinschaft &ndash; und der Dreierflügel hatte ihm jahrelang beigebracht, Schmerz zu überspielen, zu lächeln, weiterzumachen. In dieser Nacht trat das Innere durch die Außenfassade hindurch &ndash; der Golden Retriever, der sonst nur wedelt, biss. Nicht aus Kalkül. Sondern weil der Schutzimpuls stärker war als das Image.</p>
+          <p class="vb-intro">Minuten später stand er weinend auf der Bühne, hielt seinen Oscar in der Hand und sprach über Liebe und Berufung. Das ist Will Smith: beides gleichzeitig &ndash; die Verletzung und die Wärme, der Ausbruch und die Reue, der Mensch hinter dem Bild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Sonne mit Wolken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Will Smiths Energie ist solar: hell, anziehend, aufwärmend. Er betritt einen Raum &ndash; und der Raum wird heller. Er lacht &ndash; und andere lachen mit. Er spricht über seine Kinder &ndash; und man spürt, dass er es wirklich meint. Das ist keine Performance im kalten Sinn: Es ist die echte Energie eines Menschen, der sich in Verbindung lebt und durch Verbindung lebt.</p>
+          <p class="vb-intro">Und doch: Hinter dieser Sonne liegt ein langer Schatten. Die soziale Zwei trägt die Leidenschaft <strong>Stolz</strong> &ndash; den Glauben, gebraucht werden zu müssen, um wertvoll zu sein. Den Glauben, dass Liebe verdient werden muss, nicht einfach empfangen. Will Smith hat viel verdient &ndash; und dennoch ist die Frage, ob er sich wirklich geliebt fühlt, ohne das Verdienen, eine, die sein gesamtes Werk durchzieht: von der Autobiografie bis zum Kino, von der Bühne bis zu diesem einen Moment, in dem alles herausfiel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Wärme, die die Welt verändert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Will Smith der Welt gegeben hat, lässt sich nicht auf Filmographien reduzieren. Er hat einer ganzen Generation gezeigt, dass man erfolgreich und warmherzig sein kann &ndash; dass Ehrgeiz und Menschlichkeit kein Widerspruch sind. <em>Die Verfolgung des Glücks</em> ist nicht nur ein Film &ndash; er ist ein Versprechen: Wenn du dich genug einsetzt, wenn du dich genug liebst und dein Kind genug liebst, dann kommt der Morgen.</p>
+          <p class="vb-intro">Das ist die SO2w3 auf ihrer höchsten Stufe: ein Mensch, der seine Bühne nicht für sich nutzt, sondern für die Botschaft, dass Liebe möglich ist &ndash; auch wenn man ganz unten angefangen hat. Der Golden Retriever mit dem Dreierflügel kann die Welt wärmer machen &ndash; wenn er lernt, diese Wärme auch sich selbst zu schenken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 &ndash; Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Porträt: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function matthiasSchweighoeferPortraitPage() {
   return shell(`
@@ -38372,6 +38442,7 @@ function render() {
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
+      "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
@@ -38773,7 +38844,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v628';
+  const MY_VERSION = 'inhalt-v629';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
