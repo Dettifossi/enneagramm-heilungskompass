@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Pamela Reif (SX2w3) – Millionen Verbindungen durch einen Bildschirm, Verführung als Verbindungskunst",
+    text_en: "New portrait: Pamela Reif (SX2w3) – millions of connections through a screen, seduction as the art of connection",
+    route: "beruehmte-pamela-reif"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Monika Gruber (SX2w1) – Bayerns schärfste Verführerin zur Wahrheit, Humor als Heimat, das Kamel mit Haltung",
     text_en: "New portrait: Monika Gruber (SX2w1) – Bavaria's sharpest seductress to truth, humour as home, the camel with conviction",
     route: "beruehmte-monika-gruber"

@@ -254,6 +254,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweighöfer – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-pamela-reif", name:"Pamela Reif", added:"2026-07-20", subtyp:"SX2w3",
+    heading:"Pamela Reif – Sexueller Typ 2",
+    teaser:"SX2w3 · geb. 1996. Fitness-Influencerin, Unternehmerin. Millionen Verbindungen durch einen Bildschirm – Verführung als Verbindungskunst, Perfektion als Liebesbeweis. Tierentsprechung: Kamel.",
+    tags:["Sport","Lifestyle"] },
   { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
     heading:"Braco – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
@@ -12677,6 +12681,72 @@ function monikaGruberPortraitPage() {
         {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function pamelaReifPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-pamela-reif-portrait.jpg" alt="Pamela Reif" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pamela Reif</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Fitness-Influencerin, Unternehmerin, geb. 1996 &ndash; Millionen Verbindungen durch einen Bildschirm &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das durch den Bildschirm reicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; geduldig, ausdauernd, in der Lage, unter extremen Bedingungen für andere bereitzustehen. Das Kamel speichert. Es trägt Ressourcen in sich, die es dann genau dann freigibt, wenn andere sie am nötigsten brauchen &ndash; in der Wüste, auf der langen Reise, wenn keine andere Hilfe in Sicht ist. Das ist das Bild, das Pamela Reif millionenfach auf Bildschirmen verkörpert: die Frau, die da ist &ndash; immer, pünktlich, mit einer neuen Übung, einem neuen Plan, einem ruhigen Blick, der sagt: Ich begleite dich.</p>
+          <p class="vb-intro">Pamela Reif, geboren 1996 in Karlsruhe, startete 2012 mit sechzehn Jahren auf Instagram. Was als Hobby begann, wurde zu einem der erfolgreichsten Fitness-Imperien Europas: Millionen Abonnenten auf Instagram und YouTube, die <em>Pam App</em>, der Bestseller <em>You Deserve This</em>, Kollektionen, Markenkooperationen &ndash; und dahinter ein Mensch, der all das nicht primär als Business betrachtet, sondern als Verbindungsangebot. Das Kamel kennt die Wüste. Es weiß, wie lange die Reise dauert. Und es gibt trotzdem alles, was es hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verführung durch den Bildschirm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, andere durch emotionale Nähe und intensive Präsenz zu sich zu ziehen. Was bei der sexuellen Zwei entsteht, ist kein distanziertes Sender-Empfänger-Verhältnis, sondern das Gefühl einer echten, persönlichen Begegnung. Das Besondere bei Pamela Reif: Sie schafft diese Qualität durch einen Bildschirm. Menschen, die ihr Videos folgen, haben nicht das Gefühl, einem Workout-Programm zu folgen &ndash; sie haben das Gefühl, mit jemandem zu trainieren, der sie kennt, der für sie da ist, der sie nicht aufgibt.</p>
+          <p class="vb-intro">Ihr Blick in die Kamera ist direkt und einladend zugleich. Keine performative Aufgeregtheit, keine aufgesetzte Motivation &ndash; sondern eine ruhige, intensive Zugewandtheit, die typisch für die SX2 ist. Die sexuelle Zwei sucht nicht die Masse. Sie sucht die eine Person &ndash; und Pamela Reif hat die Fähigkeit, bei Millionen Menschen gleichzeitig das Gefühl zu erzeugen, genau diese eine Person zu sein. Das ist selten. Das ist Verführung im tiefsten Enneagramm-Sinn: nicht Manipulation, sondern echte Verbindungskunst.</p>
+          <p class="vb-intro">Dazu gehört auch die Bereitschaft zur Selbstaufopferung, die das PDF ihrer Persönlichkeitsanalyse betont: Pamela investiert enorm viel Zeit und Energie &ndash; nicht um sich selbst zu zeigen, sondern um anderen das Beste zu geben. Die SX2 erfüllt sich durch das Geben. Und wenn das Geben zurückkommt &ndash; als Kommentar, als Dankbarkeit, als geteiltes Video &ndash;, ist das keine Belohnung. Es ist die Antwort auf die tiefste Frage der Zwei: Bin ich wirklich wichtig für dich?</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Perfektion als Liebesbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der leidenschaftlichen Verbindungsenergie der SX2 eine zweite Dimension: Leistung, Bild, Qualität. Die Drei will nicht nur verbinden &ndash; sie will <em>glänzen</em>. Sie will, dass das, was sie gibt, auch so gut ist, dass es gesehen wird. Bei Pamela Reif zeigt sich das in der außergewöhnlichen Qualität ihrer Inhalte: präzise produziert, ästhetisch stimmig, handwerklich durchdacht. Jedes Video, jede Kollaboration, jede Seite der App trägt die Handschrift eines Menschen, der Exzellenz nicht als Selbstdarstellung, sondern als Respekt dem Publikum gegenüber versteht.</p>
+          <p class="vb-intro">Der Dreierflügel ist auch der Grund, warum Pamela Reif nicht nur bei einer Sache bleibt. Die Drei diversifiziert, expandiert, entwickelt &ndash; immer mit dem Ziel, den Kreis derer zu erweitern, die sie erreichen kann. App, Buch, Marke, Kooperation: Das ist kein Eitelkeitsprojekt, das ist die SX2w3 bei der Arbeit &ndash; je größer die Reichweite, desto mehr Menschen kann die Verbindungssehnsucht erfüllen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Stille Kraft, die bewegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Pamela Reifs Videos sieht, begegnet keiner lauten Persönlichkeit. Sie schreibt nicht, sie schreit nicht, sie übertreibt nicht. Ihre Energie ist ruhig &ndash; aber sie ist da. Vollständig da. Der Blick, die Haltung, die Präzision der Bewegung: alles kommuniziert dasselbe &ndash; <em>Ich mache das mit dir. Du schaffst das.</em> Das ist die stille Kraft des Kamels: keine Dramatik, keine Geste, aber eine Verlässlichkeit, die tiefer wirkt als jede Inszenierung.</p>
+          <p class="vb-intro">Das Publikum spürt das. Millionen Menschen haben ihre Workout-Routine an Pamela Reif ausgerichtet &ndash; nicht weil ihre Videos die spektakulärsten sind, sondern weil sie das Gefühl erzeugen, nicht allein zu sein. Das ist der Kern der SX2w3-Wirkung: sanfte Präsenz, die stärkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Emotionale Intensität hinter der Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Obwohl Pamela nach außen oft ausgeglichen und gelassen wirkt, schwingt in ihren Inhalten eine hohe emotionale Intensität mit &ndash; die Intensität der sexuellen Zwei, die in jeder Interaktion eine echte Begegnung sucht. Diese Energie ist verbindend: Sie zieht das Publikum nicht als Konsumenten an, sondern als Mitreisende auf einer gemeinsamen Reise zu einem gesünderen, bewussteren Leben.</p>
+          <p class="vb-intro">Der Dreierflügel gibt dieser Energie Form und Richtung &ndash; er kanalisiert die leidenschaftliche Verbindungssehnsucht der SX2 in konkrete, qualitätsvolle Angebote. Das Ergebnis ist eine Energie, die gleichzeitig motiviert und tröstet: Du musst nicht perfekt sein. Aber ich gehe mit dir.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Fitnessinhalte als Beziehungsangebot</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Pamela Reif der Welt gibt, ist mehr als Fitness. Sie hat einer Generation gezeigt, dass der eigene Körper kein Feind ist, den man bezwingen muss, sondern ein Zuhause, das man einladen kann &ndash; mit Würde, mit Ausdauer, mit Freude. <em>You Deserve This</em> ist nicht nur ein Buchtitel: Es ist die Botschaft der SX2w3 an alle, die das Gefühl kennen, für Fürsorge erst etwas leisten zu müssen.</p>
+          <p class="vb-intro">Das Kamel kennt die Wüste. Es weiß, wie man trägt. Und es weiß, dass auch die längste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Das ist die SX2w3 auf ihrer höchsten Stufe.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
       ])}
     </div>
   `);
@@ -38517,6 +38587,7 @@ function render() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
@@ -38916,7 +38987,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v633';
+  const MY_VERSION = 'inhalt-v634';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
