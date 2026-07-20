@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Marie Kondo (SE1w2) – KonMari, \"Löst es Freude aus?\" und der Adler als Ordnungsprinzip",
+    text_en: "New portrait: Marie Kondo (SE1w2) – KonMari, \"Does it spark joy?\" and the eagle as principle of order",
+    route: "beruehmte-marie-kondo"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Queen Elizabeth II. (SE1w9) – 70 Jahre Pflicht, Stille als Stärke, der Adler auf seinem Posten",
     text_en: "New portrait: Queen Elizabeth II. (SE1w9) – 70 years of duty, silence as strength, the eagle at her post",
     route: "beruehmte-queen-elizabeth-ii"

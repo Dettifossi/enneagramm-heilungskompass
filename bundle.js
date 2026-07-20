@@ -178,6 +178,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
+    heading:"Marie Kondo – Selbsterhaltender Typ 1",
+    teaser:"SE1w2 · geb. 1984. Ordnungsberaterin, Autorin der KonMari-Methode. \"Löst es Freude aus?\" – ein inneres System, so klar wie ein Adlerblick, und ein Zweierflügel, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Tierentsprechung: Adler.",
+    tags:["Kultur","Gesellschaft"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
@@ -11621,6 +11625,73 @@ function uliHoenessPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Porträt: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function marieKondoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-kondo-portrait.jpg" alt="Marie Kondo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Kondo</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Ordnungsberaterin, Autorin &amp; Unternehmerin &ndash; geb. 1984 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; und Marie Kondo verkörpert ihn mit einer Reinheit, die selten ist. Der Adler hat einen scharfen Blick für das Wesentliche. Er sieht, was stimmt und was nicht stimmt, mit einer Präzision, die kein Argument braucht. Er kreist, er beobachtet, er unterscheidet. Und wenn er landet, landet er genau.</p>
+          <p class="vb-intro">Marie Kondo wurde 1984 in Tokio geboren und begann mit fünf Jahren, Einrichtungszeitschriften zu lesen. Mit neun ordnete sie die Bücherregale ihrer Klasse. Mit fünfzehn entwickelte sie die ersten Grundzüge ihrer späteren Methode. Das ist keine Karriere, die geplant wurde &ndash; das ist ein Adler, der seinem inneren Kompass folgt, bevor er irgendeinem äußeren Erwartungsdruck begegnet ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als inneres Bedürfnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> ist der Subtyp, der seinen Perfektionsanspruch nicht nach außen trägt, sondern nach innen &ndash; und vor allem: nach Hause. Naranjo nennt diesen Subtyp <em>Worry</em>: eine ständige, leise Unruhe, ob das eigene Umfeld wirklich stimmt, ob das eigene Leben dem inneren Standard entspricht. Diese Unruhe ist kein Mangel. Sie ist der Motor einer lebenslangen Verfeinerung.</p>
+          <p class="vb-intro">Marie Kondos KonMari-Methode ist keine Ordnungshilfe, wie man sie aus Lifehacking-Büchern kennt. Sie ist ein inneres System. Die entscheidende Frage lautet nicht: &bdquo;Brauche ich das?&ldquo; oder &bdquo;Ist das praktisch?&ldquo; &ndash; sondern: <em>&bdquo;Löst es Freude aus?&ldquo;</em> Das ist der Maßstab einer SE1: nicht Nützlichkeit, nicht Vernunft, sondern innere Resonanz. Was dem eigenen Standard entspricht, darf bleiben. Was nicht stimmt, geht.</p>
+          <p class="vb-intro">Die Kategorien, die Reihenfolge, die Falttechnik: alles ist präzise, alles hat seinen Grund, alles ist erprobt. Keine Improvisation. Kein &bdquo;so ungefähr&ldquo;. Die SE1 lebt in einem Universum, in dem Dinge entweder an ihrem richtigen Platz sind &ndash; oder nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Helfen als Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Eins etwas, das sie von innen her allein nicht so leicht findet: Wärme, Kontakt, das Bedürfnis, andere zu berühren. Der Zweierflügel will geben. Er will, dass andere aufblühen &ndash; nicht weil er etwas dafür erwartet, sondern weil ihm das Wohlergehen anderer wirklich am Herzen liegt.</p>
+          <p class="vb-intro">Marie Kondo wäre ohne diesen Flügel vielleicht eine außergewöhnlich ordentliche Privatperson geblieben. Der Zweierflügel ist der Grund, warum aus dem inneren Standard eine Methode wurde, aus der Methode ein Buch, aus dem Buch ein globales Phänomen. Sie hat nicht nur ihr eigenes Zuhause aufgeräumt &ndash; sie hat beschlossen, anderen zu helfen, dasselbe zu tun. Nicht weil es ihr Beruf war, sondern weil sie verstand, dass das Aufräumen von außen das Aufräumen von innen ermöglicht.</p>
+          <p class="vb-intro">In ihrer Netflix-Serie <em>Tidying Up with Marie Kondo</em> sieht man diesen Flügel in Reinform: Sie betritt fremde Häuser mit vollständiger Aufmerksamkeit, mit echter Neugier für die Menschen hinter den Dingen. Sie urteilt nicht. Sie begleitet. Das ist die Zwei in der Eins: Präzision im Dienst der Verbindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als innere Strenge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SE1w2 ist er so vollständig nach innen gekehrt, dass er nach außen kaum sichtbar ist. Marie Kondo erscheint in der Öffentlichkeit immer ruhig, immer freundlich, immer maßvoll. Aber hinter dieser Stille liegt ein innerer Richter, der unerbittlich ist: ein leises, beständiges Wissen darüber, was stimmt und was nicht stimmt.</p>
+          <p class="vb-intro">Dieser Zorn zeigt sich nicht als Kritik an anderen. Er zeigt sich als absolute Konsequenz im eigenen System. Die KonMari-Methode hat keine Ausnahmen. Es gibt keine &bdquo;aber das ist eine Erbschaft&ldquo;-Regel. Es gibt keine &bdquo;vielleicht später&ldquo;-Kategorie. Entweder ein Gegenstand löst Freude aus &ndash; oder er verlässt das Haus. Diese Kompromisslosigkeit ist der Zorn der Eins: nicht laut, aber vollständig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Dankbarkeit als Brücke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eines der bekanntesten Elemente der KonMari-Methode ist die <strong>Dankbarkeit gegenüber Gegenständen</strong>: Man bedankt sich bei einem Kleidungsstück, bevor man es weggibt. Das Haus wird bei der Ankunft begrüßt. Diese Praxis wirkt auf westliche Betrachter oft seltsam &ndash; aber sie ist der Schlüssel zu Marie Kondos innerer Logik.</p>
+          <p class="vb-intro">Hier trifft der Perfektionsanspruch der SE1 auf die Beziehungsqualität des Zweierflügels. Die SE1 weiß: Alles hat seinen Wert, seinen Platz, seinen Zweck. Der Zweierflügel fügt hinzu: Und dieser Wert verdient Anerkennung. Dinge, die gegangen sind, haben gedient. Das Loslassen wird zu einem Akt des Respekts &ndash; und damit zu etwas Heilsamem, nicht Verlustreichem. Diese Verbindung von Ordnung und Würde ist das Herzstück von Marie Kondos Werk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Freude als Kompass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Marie Kondo der Welt gegeben hat, geht weit über Aufräumtipps hinaus. Sie hat einer ganzen Generation Menschen beigebracht, dass Ordnung kein Selbstzweck ist &ndash; sondern eine Form von Selbstachtung. Und dass die entscheidende Frage im Leben nicht lautet: <em>Was soll ich behalten?</em> &ndash; sondern: <em>Was löst Freude aus?</em></p>
+          <p class="vb-intro">Das ist das Geschenk der SE1w2: ein inneres System, das so klar ist, dass andere es lernen können &ndash; und eine Wärme, die groß genug ist, dass sie es weitergeben will. Der Adler hat einen Maßstab. Der Zweierflügel macht daraus eine Einladung. Marie Kondo hat beides.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
       ])}
     </div>
   `);
@@ -37889,6 +37960,7 @@ function render() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
+      "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
@@ -38344,7 +38416,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v616';
+  const MY_VERSION = 'inhalt-v617';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
