@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: David L. Rathmer (SE3w4) – Enneagramm-Profiler, Gründer der Ennea Scholars Academy, Mitentwickler des Kompass. Der Waschbär, der im Licht arbeitet.",
+    text_en: "New portrait: David L. Rathmer (SE3w4) – Enneagram profiler, founder of Ennea Scholars Academy, co-developer of the Compass. The raccoon that works in the light.",
+    route: "beruehmte-david-l-rathmer"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Wolodymyr Selenskyj (SE3w2) – Kontratyp der Drei, der Waschbär, der den Helden spielt",
     text_en: "New portrait: Volodymyr Zelensky (SE3w2) – Countertype of the Three, the raccoon playing the hero",
     route: "beruehmte-wolodymyr-selenskyj"
