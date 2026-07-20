@@ -11731,7 +11731,7 @@ function juergenKloppPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Wärme als Führungsmittel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins etwas Entscheidendes: echte menschliche Wärme. Die SO1w2 will nicht nur, dass das System stimmt &ndash; sie will, dass die Menschen darin sich gesehen und geliebt fühlen. Der Zweierflügel macht aus dem Idealist einen Begleiter.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins etwas Entscheidendes: echte menschliche Wärme. Die SO1w2 will nicht nur, dass das System stimmt &ndash; sie will, dass die Menschen darin sich gesehen und geliebt fühlen. Der Zweierflügel macht aus dem Idealisten einen Begleiter.</p>
           <p class="vb-intro">Klopp umarmt seine Spieler. Er springt von der Bank, ballt die Faust, dreht durch &ndash; und das ist keine Inszenierung. Es ist genuiner Ausdruck. Wenn Mohamed Salah ein Tor schießt, freut sich Klopp so, als wäre es sein eigenes. Wenn ein Spieler in einer Krise steckt, führt er das Gespräch. Nicht die Sportdirektion. Er.</p>
           <p class="vb-intro">Diese Verbindung aus Zweierflügel und sozialer Eins macht ihn zu einem der beliebtesten Trainer der Welt &ndash; nicht trotz seiner Leidenschaft, sondern wegen ihr. Die Spieler wissen: Er meint es wirklich. Und für einen Menschen, der wirklich gemeint wird, läuft man weiter als für einen, dem es egal ist.</p>
         </blockquote>
@@ -38488,7 +38488,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v618';
+  const MY_VERSION = 'inhalt-v619';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
