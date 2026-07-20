@@ -12498,7 +12498,7 @@ function sahraWagenknechtPortraitPage() {
       <blockquote class="vb-blockquote">
         <strong>Sechstens: Der Heilungsweg &ndash; wenn Erfolg nicht mehr beweisen muss, wer man ist</strong>
         <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SO3w2 bedeutet das: nicht mehr Bücher schreiben, um gehört zu werden, sondern weil man etwas zu sagen hat. Nicht mehr in Talkshows gehen, um Zustimmung zu sammeln, sondern um ehrlich zu sein &ndash; auch wenn es kostet.</p>
-        <p class="vb-intro">Es gibt Momente in Wagenknechts öffentlichem Auftreten, in denen diese Transformation sichtbar wird: wenn sie unbequeme Positionen einnimmt, die ihr Ansehen kurzfristig schaden, weil sie sie für richtig hält. Der Gepard, der nicht mehr nur auf Applaus jagt, sondern auf Wahrheit &ndash; das ist die soziale Drei auf ihrer höchsten Ausdrucksstufe.</p>
+        <p class="vb-intro">Es gibt Momente in Wagenknechts öffentlichem Auftreten, in denen diese Transformation sichtbar wird: wenn sie unbequeme Positionen einnimmt, die ihrem Ansehen kurzfristig schaden, weil sie sie für richtig hält. Der Gepard, der nicht mehr nur auf Applaus jagt, sondern auf Wahrheit &ndash; das ist die soziale Drei auf ihrer höchsten Ausdrucksstufe.</p>
         <p class="vb-intro">Ein bewusster SO3w2er kann zur Brücke werden &ndash; zwischen Lagern, die sich nicht mehr zuhören. Wagenknecht hat dieses Potenzial. Ob sie es vollständig nutzt, bleibt offen. Aber der Gepard, der innehält und überlegt, bevor er sprintet &ndash; das ist die Energie, die politisch am nötigsten gebraucht wird.</p>
       </blockquote>
 
@@ -39205,7 +39205,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v640';
+  const MY_VERSION = 'inhalt-v641';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
