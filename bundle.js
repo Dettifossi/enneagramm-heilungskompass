@@ -11950,7 +11950,7 @@ function klausKinskiPortraitPage() {
         <h2 class="vb-section">4. Die Leidenschaft: Zorn als moralisches Urteil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei der SX1w9 erreicht er eine Intensität, die alle sozialen Filter durchbricht. Kinski war berüchtigt für seine Wutausbrüche und seine Unfähigkeit, Kompromisse einzugehen, insbesondere wenn er das Gefühl hatte, dass seine künstlerischen oder ethischen Standards verraten wurden. Diese Ausbrüche entsprangen nicht nur persönlicher Frustration, sondern einem tiefen Gefühl moralischer Verletzung.</p>
-          <p class="vb-intro">Obwohl Kinski in seiner äußeren Erscheinung oft unbeherrscht wirkte, war dies Teil eines tieferliegenden Kampfes, der für die sexuelle Eins typisch ist: der innere Drang nach Kontrolle und moralischer Reinheit bei gleichzeitiger Schwierigkeit, diese Kontrolle zu bewahren. Die Mamba, die sich bedroht fühlt, beißt. Kinski beißt &ndash; verbal, emotional, existenziell.</p>
+          <p class="vb-intro">Obwohl Kinski in seiner äußeren Erscheinung oft unbeherrscht wirkte, war dies Teil eines tieferliegenden Kampfes, der für die sexuelle Eins typisch ist: der innere Drang nach Kontrolle und moralischer Reinheit bei gleichzeitiger Schwierigkeit, diese Kontrolle zu bewahren. Die Mamba, die sich bedroht fühlt, beißt. Kinski biss &ndash; verbal, emotional, existenziell.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Faszination und Zerstörung</h2>
@@ -38702,7 +38702,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v624';
+  const MY_VERSION = 'inhalt-v625';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
