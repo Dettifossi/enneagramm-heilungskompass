@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-20",
+    text: "Neues Porträt: Prof. Dr. Sucharit Bhakdi (SO2w1) – der Golden Retriever, der Alarm schlägt, weil er die Gesellschaft liebt",
+    text_en: "New portrait: Prof. Dr. Sucharit Bhakdi (SO2w1) – the Golden Retriever sounding the alarm out of love for society",
+    route: "beruehmte-sucharit-bhakdi"
+  },
+  {
+    date: "2026-07-20",
     text: "Neues Porträt: Klaus Kinski (SX1w9) – Kontratyp der Eins, Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos",
     text_en: "New portrait: Klaus Kinski (SX1w9) – Countertype of One, Aguirre, Nosferatu, Fitzcarraldo. The Black Mamba of German cinema",
     route: "beruehmte-klaus-kinski"
