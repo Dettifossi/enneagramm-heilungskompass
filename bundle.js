@@ -170,10 +170,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Queen Elizabeth II. – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1926–2022. Königin des Vereinigten Königreichs, 70 Jahre auf dem Thron. Pflicht als Lebensinhalt, Stille als Stärke, niemals klagen, niemals erklären. Der Adler, der seinen Posten nie verließ. Tierentsprechung: Adler.",
     tags:["Politik","Adel"] },
-  { route:”beruehmte-sting”, name:”Sting”, subtyp:”SE1w9”,
-    heading:”Sting – Selbsterhaltender Typ 1”,
-    teaser:”SE1w9 · „Der Adler”, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.”,
-    tags:[“Musik”] },
+  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
+    heading:"Sting – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · „Der Adler”, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
+    tags:["Musik"] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -38344,7 +38344,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v615';
+  const MY_VERSION = 'inhalt-v616';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
