@@ -12659,7 +12659,7 @@ function monikaGruberPortraitPage() {
         <h2 class="vb-section">5. Energetische Wirkung: Vollpräsenz, keine Halbheiten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Energie der SX2w1 ist nicht subtil. Sie ist da &ndash; vollständig, unmittelbar, nicht wegzudiskutieren. Monika Gruber auf der Bühne ist ein Vollkontakterlebnis: Sie ist vollständig präsent, vollständig engagiert, vollständig sie selbst. Das Kamel gibt, wenn es gibt, alles &ndash; und Monika Grubers Auftritte sind keine kalibrierten Darbietungen, sondern echte, lebendige Begegnungen mit einer Frau, die gerade jetzt, mit diesem Publikum, wirklich da sein will.</p>
-          <p class="vb-intro">Der Einserflügel bringt dabei Disziplin und Vorbereitung: Ihre Programme sind handwerklich präzise, ihre Pointen sitzen. Aber die Energie darunter ist ungezähmt &ndash; die leidenschaftliche Verbindungssehnsucht der sexuellen Zwei, die in jedem Abend aufs Neue befriedigt wird. Das Kamel hat gespeichert. Jetzt darf es trinken.</p>
+          <p class="vb-intro">Der Einserflügel bringt dabei Disziplin und Vorbereitung: Ihre Programme sind handwerklich präzise, ihre Pointen sitzen. Aber die Energie darunter ist ungezähmt &ndash; die leidenschaftliche Verbindungssehnsucht der sexuellen Zwei, die an jedem Abend aufs Neue befriedigt wird. Das Kamel hat gespeichert. Jetzt darf es trinken.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Geschenk: Humor als Heimat</h2>
@@ -38916,7 +38916,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v632';
+  const MY_VERSION = 'inhalt-v633';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
