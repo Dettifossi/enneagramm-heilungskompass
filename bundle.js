@@ -194,6 +194,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Greta Thunberg – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 2003. Klimaaktivistin, Gründerin von Fridays for Future. Mit 15 Jahren allein vor dem schwedischen Reichstag – und einem selbstgebastelten Schild. Das Flusspferd weicht nicht. Tierentsprechung: Flusspferd.",
     tags:["Politik"] },
+  { route:"beruehmte-gloria-von-thurn-und-taxis", name:"Gloria von Thurn und Taxis", added:"2026-07-20", subtyp:"SE2w1",
+    heading:"Gloria von Thurn und Taxis – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · geb. 1960. Fürstin, Unternehmerin, Mäzenin. Vom Punkprinzess-Exzess der 1980er zur eisernen Matriarchin eines der größten Privatvermögen Europas. Das Flusspferd kennt sein Territorium – und gibt es nicht auf. Tierentsprechung: Flusspferd.",
+    tags:["Adel","Wirtschaft"] },
   { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong – nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
@@ -11409,6 +11413,76 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+
+function gloriaVonThurnUndTaxisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gloria-von-thurn-und-taxis-portrait.jpg" alt="Gloria von Thurn und Taxis" class="krim-portrait-img" loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div style="display:none;width:100%;aspect-ratio:1;background:var(--surface,#f4f0e8);border-radius:50%;align-items:center;justify-content:center;font-size:4rem;">🦛</div>
+        </div>
+        <p class="krim-portrait-name">Gloria von Thurn und Taxis</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Fürstin, Unternehmerin &amp; Mäzenin, geb. 1960 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und kaum eine Persönlichkeit der deutschen Nachkriegsgeschichte verkörpert dieses Tier so vollständig wie Gloria von Thurn und Taxis. Das Flusspferd lebt in zwei Welten: Im Wasser ist es schwerelos, spielerisch, erstaunlich wendig. An Land zeigt es sein wahres Gewicht. Was die meisten nicht wissen: Das Flusspferd ist das gefährlichste Großsäugetier Afrikas. Es wirkt harmlos &ndash; bis es sein Territorium bedroht sieht. Dann handelt es ohne Zögern, ohne Entschuldigung, mit einer Kraft, die seine träge Erscheinung vollständig Lügen straft.</p>
+          <p class="vb-intro">In den 1980er Jahren war Gloria von Thurn und Taxis als &bdquo;Punk-Prinzessin&ldquo; bekannt: Irokesenschnitt, Partys, Exzesse, ein Leben, das die Boulevardpresse mit Begeisterung begleitete. Als ihr Mann Johannes 1990 starb und die Familie mit Schulden in Milliardenhöhe und einer unübersichtlichen Unternehmensstruktur zurückließ, trat das Flusspferd aus dem Wasser. Was folgte, war keine Metamorphose &ndash; es war eine Enthüllung. Wer Gloria von Thurn und Taxis wirklich war, zeigte sich erst in dem Moment, als alles auf dem Spiel stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Überleben als erste Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei am unmittelbarsten auf die eigene Existenz und die des engsten Kreises richtet. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht Egozentrik, sondern Überlebensintelligenz. Die SE2 fragt zuerst: <em>Was brauche ich, um zu bestehen? Was braucht das, was mir gehört, um zu überleben?</em> Sie ist die konkreteste, erdnächste, am wenigsten romantisierende der drei Zwei-Varianten.</p>
+          <p class="vb-intro">Als Gloria von Thurn und Taxis 1990 mit dreißig Jahren Witwe wurde, übernahm sie eine Aufgabe, die die meisten erfahrenen Manager überfordert hätte: die Sanierung eines der ältesten Adelsvermögens Europas. Sie verkaufte Immobilien, Kunstwerke, Ländereien &ndash; und behielt das Schloss St. Emmeram in Regensburg, das Kernstück der familiären Identität. Keine Sentimentalität, keine Scheu vor harten Entscheidungen, kein Lavieren. Das ist die SE2 in ihrer klarsten Ausprägung: Sie weiß, was wesentlich ist &ndash; und sie schützt es mit einer Entschlossenheit, die Außenstehende oft verstört.</p>
+          <p class="vb-intro">Bemerkenswert ist dabei, dass Gloria von Thurn und Taxis nie die Sprache der Unternehmensberatung sprach. Sie sprach die Sprache der Verantwortung. Für die Kinder, für das Erbe, für die Menschen, die von diesem Erbe abhängen. Das ist der SE2-Blick: Überleben ist kein egoistisches Projekt &ndash; es ist das Fundament, auf dem alles andere steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Moral als Rückgrat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> bringt der selbsterhaltenden Zwei etwas, das die reine Zwei nicht von selbst hat: ein inneres Regelwerk, das unabhängig von äußerer Anerkennung trägt. Die Eins kennt ein Richtig und ein Falsch. Sie duldet keine Halbheiten. Sie urteilt &ndash; und zuerst über sich selbst. In Kombination mit der SE2 entsteht jemand, der nicht nur weiß, was er will, sondern auch weiß, wie es zu sein hat.</p>
+          <p class="vb-intro">Bei Gloria von Thurn und Taxis zeigt sich dieser Flügel vor allem in ihrer tief verwurzelten religiösen Überzeugung. Nach dem Tod ihres Mannes wandte sie sich mit einer Intensität dem katholischen Glauben zu, die in ihrer Biografie keine bloße Zuflucht darstellt &ndash; sondern eine innere Konsequenz. Der Einserflügel braucht einen Bezugspunkt jenseits des pragmatischen Überlebens. Er sucht Ordnung, Prinzip, etwas, das wahr ist, unabhängig davon, ob es gerade convenient ist.</p>
+          <p class="vb-intro">Dass sie in der Öffentlichkeit klare &ndash; oft unbequeme &ndash; Positionen zu Ehe, Familie und Lebensfragen vertritt, ist nicht Populismus. Es ist die SE2w1 in ihrer natürlichen Haltung: <em>Ich sage, was ich für richtig halte.</em> Ob das ankommt oder nicht, ist eine zweitrangige Frage. Das Flusspferd weicht nicht zurück, wenn es seinen Standpunkt für richtig hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz als schützende Hülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> &ndash; und sie ist in ihrer tiefsten Form kein Hochmut, sondern eine Schutzstrategie: der Glaube, durch das eigene Geben, Leisten und Tragen unentbehrlich zu sein. Die Zwei, die stolz ist auf das, was sie für andere tut, muss nie fragen, ob sie auch ohne diese Leistung geliebt würde. Der Stolz der SE2w1 trägt dabei eine besondere Qualität: Er verbindet sich mit dem Bewusstsein von Stand, Würde und Pflicht.</p>
+          <p class="vb-intro">Gloria von Thurn und Taxis trägt ihr Erbe nicht als Last, sondern als Auftrag. Die Schlossfestspiele Regensburg, die sie zur kulturellen Institution von Rang gemacht hat; die Kunstsammlung, die sie behutsam pflegte; die öffentliche Präsenz, die sie nie scheute &ndash; all das ist Ausdruck eines Stolzes, der nicht eitler Selbstdarstellung dient, sondern der Überzeugung: <em>Dieses Erbe ist der Bewahrung wert, und ich bin diejenige, die es bewahrt.</em></p>
+          <p class="vb-intro">Der Schatten dieses Stolzes liegt &ndash; wie bei jeder Zwei &ndash; in der Frage, die darunter schweigt: <em>Was bin ich, wenn ich nichts mehr habe, was ich geben kann?</em> Die SE2w1 antwortet darauf mit noch mehr Tun, noch mehr Haltung, noch mehr Klarheit. Das Flusspferd baut sein Territorium größer &ndash; damit es nie leer dasteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Wandlung: Vom Exzess zur Matriarchin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die 1980er Jahre von Gloria von Thurn und Taxis sind gut dokumentiert: der Irokesenschnitt, die Kostümpartys, die Schlagzeilen. Es wäre einfach, darin einen Widerspruch zu der Frau zu sehen, die sie heute ist. Aus Enneagramm-Perspektive ist es keiner. Die SE2 lebt in Extremen: Sie ist vollständig im Moment präsent, vollständig im Genuss, wenn das möglich ist &ndash; und vollständig im Schutz, vollständig in der Verantwortung, wenn das gefordert wird. Der Wandel von der &bdquo;Princess TNT&ldquo; zur Matriarchin des Hauses Thurn und Taxis ist kein Bruch. Es ist derselbe Charakter in einer anderen Lebenslage.</p>
+          <p class="vb-intro">Was sich verändert hat, ist das Wasser, in dem das Flusspferd schwimmt. In den 1980ern war das Wasser die Gesellschaft, die Partys, die Jugend des Augenblicks. Nach 1990 wurde das Wasser das Schloss, das Erbe, die Familie, der Glaube. Das Flusspferd hat sich nicht verändert. Es hat sein Territorium neu vermessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Standhaftigkeit als kulturelle Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Gloria von Thurn und Taxis dem Haus Thurn und Taxis &ndash; und der Stadt Regensburg &ndash; gegeben hat, lässt sich beziffern und nicht beziffern zugleich. Bezifferbar ist die Sanierung eines maroden Erbes, der Aufbau einer funktionierenden Unternehmensstruktur, die Etablierung eines Kulturfestivals von internationaler Strahlkraft. Nicht bezifferbar ist das, was dahintersteht: die Fähigkeit, unter extremem Druck nicht zu zerbrechen, sondern zu wachsen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE2w1: Standhaftigkeit, die nicht auf Kosten anderer geht. Ein Flusspferd, das sein Territorium hält &ndash; und darin Raum schafft für Kultur, für Familie, für das, was über eine einzelne Person hinausreicht. Gloria von Thurn und Taxis hat bewiesen, dass Adel kein Schicksal ist, das man erbt &ndash; sondern eine Aufgabe, die man täglich neu annimmt oder aufgibt. Sie hat angenommen. Das Flusspferd steht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function janUllrichPortraitPage() {
   return shell(`
@@ -37722,6 +37796,7 @@ function render() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
@@ -38125,7 +38200,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v609';
+  const MY_VERSION = 'inhalt-v610';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

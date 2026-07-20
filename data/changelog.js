@@ -3,6 +3,18 @@
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
   {
+    date: "2026-07-20",
+    text: "Neues Porträt: Gloria von Thurn und Taxis (SE2w1) – Fürstin, Matriarchin und Flusspferd",
+    text_en: "New portrait: Gloria von Thurn und Taxis (SE2w1) – princess, matriarch and hippopotamus",
+    route: "beruehmte-gloria-von-thurn-und-taxis"
+  },
+  {
+    date: "2026-07-20",
+    text: "Neuer Wissens-Artikel: Enneagramm vs. andere Persönlichkeitsmodelle – Big Five, MBTI, DISG und mehr im Vergleich",
+    text_en: "New knowledge article: Enneagram vs. other personality models – Big Five, MBTI, DISC and more compared",
+    route: "persoenlichkeitsmodelle-vergleich"
+  },
+  {
     date: "2026-07-19",
     text: "Neue Rubrik: Enneagramm meets Hom\xf6opathie – 9 Patientenf\xe4lle aus der Praxis der Enneagramm-Hom\xf6opathie",
     text_en: "New section: Enneagram meets Homeopathy – 9 patient cases from the practice of Enneagram Homeopathy",
