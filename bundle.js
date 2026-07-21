@@ -374,10 +374,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vera Birkenbihl – Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt – und daraus Schule machte.",
     tags:["Bildung","B\xfccher"], gender:"f"},
-  { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
-    heading:"G\xfcnther Jauch – Sozialer Typ 5",
-    teaser:"SO5w6 \xb7 geb. 1956, M\xfcnster. Moderator, Journalist, Produzent. Wer wird Million\xe4r?, stern TV, ARD-Sonntagstalk. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
-    tags:["Medien","Fernsehen"], gender:"m"},
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -390,6 +386,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Milliardär. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
     tags:["Wirtschaft"] , gender:"m"},
+  { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
+    heading:"G\xfcnther Jauch – Sozialer Typ 5",
+    teaser:"SO5w6 \xb7 geb. 1956, M\xfcnster. Moderator, Journalist, Produzent. Wer wird Million\xe4r?, stern TV, ARD-Sonntagstalk. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
+    tags:["Medien","Fernsehen"], gender:"m"},
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
@@ -39962,7 +39962,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v668';
+  const MY_VERSION = 'inhalt-v669';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
