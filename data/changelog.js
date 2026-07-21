@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Melanie Kreis (SO6w5) – CFO der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
+    text_en: "New portrait: Melanie Kreis (SO6w5) – CFO of DHL Group. Physicist, McKinsey consultant, DAX executive. The meerkat standing guard for one of the world's largest logistics groups.",
+    route: "beruehmte-melanie-kreis"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Neil Armstrong (SE6w7) – erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den gr\xf6\xdften Schritt tat – und danach nur noch nach Hause wollte.",
     text_en: "New portrait: Neil Armstrong (SE6w7) – first human on the moon, July 20, 1969. The rabbit that took the greatest step – and afterwards only wanted to go home.",
     route: "beruehmte-neil-armstrong"

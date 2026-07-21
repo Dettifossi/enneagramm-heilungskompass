@@ -422,6 +422,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
     tags:["Sport"] , gender:"f"},
+  { route:"beruehmte-melanie-kreis", name:"Melanie Kreis", added:"2026-07-21", subtyp:"SO6w5",
+    heading:"Melanie Kreis – Sozialer Typ 6",
+    teaser:"SO6w5 \xb7 Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt – f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
+    tags:["Wirtschaft","F\xfchrung"], gender:"f"},
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
@@ -10751,6 +10755,73 @@ function sigmundFreudPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function melanieKreisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-melanie-kreis-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Melanie Kreis</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Finanzvorst\xe4ndin (CFO) der DHL Group &ndash; Tierentsprechung: Erdm\xe4nnchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdm\xe4nnchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> lebt in Gruppen, die ohne Zusammenhalt nicht \xfcberleben k\xf6nnen. Es ist wachsam, kooperativ und kennt seine Aufgabe im Kollektiv. Immer h\xe4lt eines Wache, w\xe4hrend die anderen fressen, graben, spielen. Das Erdm\xe4nnchen selbst braucht kein Rampenlicht &ndash; es braucht die Gruppe. Und die Gruppe braucht es. Das ist die soziale Sechs: Sicherheit entsteht durch Zugeh\xf6rigkeit, durch verl\xe4ssliches Dienen, durch das Wissen, dass man seinen Platz erf\xfcllt.</p>
+          <p class="vb-intro">Melanie Kreis ist CFO der DHL Group &ndash; einem der gr\xf6\xdften Logistikkonzerne der Welt. Sie verantwortet die Finanzen eines DAX-Unternehmens mit Ums\xe4tzen in Milliardenhöhe und Mitarbeitern in \xfcber 220 L\xe4ndern. Und doch: Wenn Journalisten sie beschreiben, f\xe4llt selten das Wort Ego. Sie wird beschrieben als zuverl\xe4ssig, pr\xe4zise, analytisch &ndash; und als jemand, der f\xfcr den Konzern arbeitet, nicht f\xfcr den eigenen Auftritt. Das ist das Erdm\xe4nnchen: Es h\xe4lt Wache. Nicht f\xfcr sich. F\xfcr die Gruppe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; weil Sicherheit f\xfcr diesen Subtyp daraus entsteht, einen Beitrag zu leisten, dem Kollektiv zu dienen, gebraucht zu werden. Die <strong>soziale Sechs (SO6)</strong> folgt Strukturen nicht blind &ndash; sie versteht sie als Rahmen, der Verl\xe4sslichkeit schafft. Regeln, Systeme, Verantwortlichkeiten: Dinge, auf die man sich beziehen kann. Die SO6 sucht nicht die B\xfchne. Sie sucht die Aufgabe.</p>
+          <p class="vb-intro">Kreis hat ihre Karriere nicht als Sprung nach oben geplant, sondern als Reihe von Verantwortlichkeiten, die sie \xfcbernommen hat. 1997 begann sie bei McKinsey &amp; Company &ndash; einem Ort, der analytische Sorgfalt und strukturiertes Denken verlangt. 2004 wechselte sie zur Deutschen Post AG, wo sie in der Konzernentwicklung arbeitete und ma\xdfgeblich an der Integration der \xfcbernommenen Exel-Gruppe beteiligt war. 2014 \xfcbernahm sie Personalverantwortung im Vorstand, 2016 wurde sie Finanzvorst\xe4ndin. Kein Schritt davon war ein PR-Move. Jeder Schritt war eine Erweiterung der Verantwortung.</p>
+          <p class="vb-intro">Dass sie als eine der wenigen Frauen an der Spitze eines DAX-40-Konzerns gilt, sagt sie selbst selten laut. Es ist einfach so &ndash; ein Nebenprodukt der Arbeit, nicht ihr Ziel. Das ist die SO6: Wer seinen Platz wirklich ausf\xfcllt, muss nicht dar\xfcber reden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Analyse als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt der sozialen Sechs etwas Entscheidendes: analytische Tiefe, Pr\xe4zision und das Vertrauen in Wissen als Grundlage jeder Entscheidung. Wo die reine SO6 Sicherheit durch Zugeh\xf6rigkeit sucht, f\xfcgt der F\xfcnferfl\xfcgel eine weitere Schicht hinzu &ndash; die \xdcberzeugung, dass man nur dann verl\xe4sslich f\xfcr andere sein kann, wenn man die Dinge wirklich versteht. Die SO6w5 pr\xfcft, bevor sie vertraut. Und sie vertraut, wenn die Analyse stimmt.</p>
+          <p class="vb-intro">Kreis hat Physik studiert &ndash; zuerst an der Westf\xe4lischen Wilhelms-Universit\xe4t M\xfcnster, dann mit einem Master of Science an der State University of New York at Stony Brook. Physik ist das Fach der Pr\xe4zision: keine Annahme ohne Beweis, kein Modell ohne Verifikation. Anschlie\xdfend erg\xe4nzte sie ihren Horizont durch einen MBA am INSEAD in Frankreich. Zwei Welten: das exakte Denken der Naturwissenschaften und das strategische Denken der Wirtschaft. Diese Kombination ist kein Zufall &ndash; sie ist die SO6w5 in Ausbildung: Erst verstehen. Dann handeln. Dann verl\xe4sslich sein.</p>
+          <p class="vb-intro">In Gesch\xe4ftsberichten, Analystenkonferenzen und Investorengespr\xe4chen ist Kreis bekannt f\xfcr eine Sprache, die klar und n\xfcchtern bleibt. Keine \xdcbertreibungen, keine leeren Versprechen. Das ist der F\xfcnferfl\xfcgel als Kommunikationsprinzip: Sag, was du weißt. Und sag es pr\xe4zise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Physik zum DAX-Konzern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als CFO der DHL Group verantwortet Kreis das globale Finanzmanagement eines Unternehmens mit \xfcber 590.000 Mitarbeitern und Ums\xe4tzen von rund 84 Milliarden Euro. Sie steuert Controlling, Accounting, Investor Relations und Risikomanagement &ndash; Funktionen, die in einem globalen Konzern nicht nur Zahlen bedeuten, sondern strategische Orientierung. Sie ist die Person, die Vorstand und Investoren jederzeit mit einer klaren Analyse versorgen muss: Wo stehen wir? Was kostet es? Wo liegen die Risiken?</p>
+          <p class="vb-intro">Sie wurde mehrfach als <em>CFO des Jahres</em> ausgezeichnet und z\xe4hlt regelm\xe4\xdfig zu den einflussreichsten Managerinnen Deutschlands &ndash; von Wirtschaftsmagazinen wie dem <em>Manager Magazin</em> und dem <em>Handelsblatt</em> bis zu internationalen Listen. Aber was in Interviews auff\xe4llt, ist nicht der Ehrgeiz, sondern die Haltung: Kreis spricht \xfcber das Unternehmen, \xfcber Strukturen, \xfcber Prozesse &ndash; und selten \xfcber sich selbst. Das ist das Erdm\xe4nnchen: Es ist immer Teil der Gruppe. Auch wenn es gerade das Gesicht der Gruppe ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die W\xe4chterin im Vorstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Integrit\xe4t</strong>. Kreis hat in einem Umfeld re\xfcsiert, das Frauen in F\xfchrungspositionen nach wie vor strukturell erschwert &ndash; nicht durch laute Selbstdarstellung, sondern durch beharrliche Kompetenz. Sie ist Vorbild, ohne es anzustreben. Pr\xe4sent, ohne aufzufallen. Wirksam, ohne zu poltern. Das ist die SO6: Stabilit\xe4t als Botschaft, Verl\xe4sslichkeit als F\xfchrungsprinzip.</p>
+          <p class="vb-intro">Der Schatten der SO6w5 liegt in der Gefahr, sich zu sehr an bestehende Strukturen zu binden &ndash; und Ver\xe4nderung als Bedrohung zu erleben, statt als Gestaltungsraum. Ein globaler Logistikkonzern bewegt sich in einer Welt rasanter Transformation: Digitalisierung, Automatisierung, geopolitische Unsicherheiten, der Wandel ganzer Lieferketten. Die SO6 kann in solchen Momenten zu sehr auf das Bew\xe4hrte setzen. Und der F\xfcnferfl\xfcgel kann dazu neigen, sich in Analyse zu verlieren, statt zu entscheiden. Die Spannung zwischen Gr\xfcndlichkeit und Geschwindigkeit ist das innere Terrain der SO6w5 in der F\xfchrungsrolle.</p>
+          <p class="vb-intro">Wer Melanie Kreis \xf6ffentlich beobachtet, sieht keine solchen Z\xf6germomente. Was man sieht, ist eine Frau, die wei\xdf, was sie tut. Und die wei\xdf, warum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdm\xe4nnchen, das Wache h\xe4lt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Melanie Kreis ist kein Name, der in Talkshows auftaucht. Sie gibt selten Interviews, die \xfcber das Fachliche hinausgehen. Sie schreibt keine Bestseller \xfcber F\xfchrung und Resilienz. Sie h\xe4lt Wache &ndash; f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt, der t\xe4glich Millionen von Paketen und Briefen bewegt und dabei auf pr\xe4zise Finanzkontrolle angewiesen ist wie auf Luft.</p>
+          <p class="vb-intro">Das ist die SO6w5: kein Mensch der gro\xdfen Geste, aber einer der gro\xdfen Verl\xe4sslichkeit. Eine, die das System versteht &ndash; und deshalb darin gestalten kann. Eine, die analysiert, bevor sie entscheidet. Eine, die Verantwortung tr\xe4gt, ohne davon zu sprechen. Das Erdm\xe4nnchen h\xe4lt Wache. Leise. Pr\xe4zise. Unbedingt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdm\xe4nnchen: Subtyp-Profil"},
+        {route:"beruehmte-sigmund-freud", label:"Portr\xe4t: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -39740,6 +39811,7 @@ function render() {
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
+      "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
@@ -40187,7 +40259,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v678';
+  const MY_VERSION = 'inhalt-v679';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
