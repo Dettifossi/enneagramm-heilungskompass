@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Warren Buffett (SE5w6) – Investor, Orakel von Omaha. F\xfcnfhundert Seiten am Tag, dasselbe Haus seit 1958. Die Eule, die wartet, bis sie wirklich verstanden hat.",
+    text_en: "New portrait: Warren Buffett (SE5w6) – investor, Oracle of Omaha. Five hundred pages a day, the same house since 1958. The owl that waits until it truly understands.",
+    route: "beruehmte-warren-buffett"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Vera F. Birkenbihl (SE5w6) – Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt.",
     text_en: "New portrait: Vera F. Birkenbihl (SE5w6) – trainer, author, visionary. Over fifty books, millions of readers, one system: brain-compatible learning. The owl that knew how thinking thinks.",
     route: "beruehmte-vera-birkenbihl"

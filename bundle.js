@@ -366,6 +366,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
     tags:["Medien","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-warren-buffett", name:"Warren Buffett", added:"2026-07-21", subtyp:"SE5w6",
+    heading:"Warren Buffett – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \xb7 geb. 1930, Omaha. Investor, Unternehmer, Orakel von Omaha. F\xfcnfhundert Seiten am Tag, dasselbe Haus seit 1958, 99 Prozent des Verm\xf6gens verschenkt. Die Eule, die wartet, bis sie wirklich verstanden hat.",
+    tags:["Business","Finanzen"], gender:"m"},
   { route:"beruehmte-vera-birkenbihl", name:"Vera Birkenbihl", added:"2026-07-21", subtyp:"SE5w6",
     heading:"Vera Birkenbihl – Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt – und daraus Schule machte.",
@@ -11291,6 +11295,75 @@ function veraBirkenbihlPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function warrenBuffettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Warren Buffett</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Investor, Unternehmer, geb. 1930 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule aus Omaha</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Wesen der Stille, der Beobachtung und der konzentrierten Wahrnehmung. Sie wartet. Sie schaut. Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Pr\xe4zision, die andere f\xfcr Gl\xfcck halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt.</p>
+          <p class="vb-intro">Warren Edward Buffett, geboren am 30. August 1930 in Omaha, Nebraska, ist die vielleicht ber\xfchmteste Eule der Wirtschaftsgeschichte. Der Mann, den die Welt den <em>Orakel von Omaha</em> nennt, lebt seit 1958 in demselben bescheidenen Haus in Omaha. Er f\xe4hrt selbst. Er fr\xfchst\xfcckt bei McDonald\x27s. Er liest, nach eigenen Angaben, rund f\xfcnfhundert Seiten pro Tag. Und er hat aus dieser Einfachheit eines der gr\xf6\xdften Verm\xf6gen der Menschheitsgeschichte aufgebaut &ndash; nicht trotz ihr, sondern wegen ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Die Burg in Omaha</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem er den Namen <strong>Burg</strong> gegeben hat: Das eigene Territorium wird zur Festung. Bei Buffett ist diese Burg buchst\xe4blich: sein Haus in der 5835 Farnam Street in Omaha, das er f\xfcr 31.500 Dollar kaufte und nie verlassen hat. Kein Penthouse in Manhattan. Kein Anwesen in der Karibik. Die Burg liegt in Nebraska, und dort bleibt sie.</p>
+          <p class="vb-intro">Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; nicht als Kleinlichkeit, sondern als tief verwurzelte Struktur: die Angst, dass die eigenen Ressourcen nicht reichen, kombiniert mit einer radikalen Zur\xfcckhaltung beim Ausgeben von Energie, Zeit und Geld. Buffetts Sparsamkeit ist legend\xe4r. Er fr\xfch\xfcbst\xfcckt f\xfcr drei Dollar und neun Cent oder f\xfcr drei Dollar und drei\xdfig Cent, je nach Laune des Tages &ndash; und er hat erz\xe4hlt, dass er in schlechten B\xf6rsenzeiten zum g\xfcnstigeren Fr\xfch\xfcbst\xfcck wechselt. Das ist Geiz auf h\xf6chstem Niveau: sogar die eigene Freizeit wird kalkuliert.</p>
+          <p class="vb-intro">Sein Investitionsansatz folgt derselben SE5-Logik: Nichts ausgeben, was man nicht vollst\xe4ndig versteht. Nur kaufen, was man bereit ist, ewig zu halten. Das Kapital nicht verschwenden &ndash; es zusammenhalten, wachsen lassen, horten. Der Zinseszins ist das mathematische Modell des Geizes: Gib nichts aus, und das, was du h\xe4ltst, verdoppelt sich immer wieder. Buffett hat dieses Prinzip zu seiner Lebensphilosophie gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Skepsis als Investitionsprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der selbsterhaltenden F\xfcnf eine charakteristische F\xe4rbung: tiefes Misstrauen gegen\xfcber Hype, Spekulation und Masseneuphorie &ndash; verbunden mit einer starken Loyalit\xe4t gegen\xfcber dem, was sich als wahr und solide erwiesen hat. Der Sechserfl\xfcgel fragt immer: <em>Wo ist das Risiko? Was kann schiefgehen? Was ist das Schlimmste, das eintreten kann?</em></p>
+          <p class="vb-intro">Dieser Blick erkl\xe4rt, warum Buffett den Dot-com-Boom der 1990er-Jahre konsequent gemieden hat. Als die Welt in Technologieaktien r\xe4ste, blieb er bei dem, was er verstand: Versicherungen, Eisenbahnen, Konsumg\xfcter, Banken. Er wurde daf\xfcr bel\xe4chelt &ndash; bis die Blase platzte. Sein ber\xfchmter Satz: <em>Sei \xe4ngstlich, wenn andere gierig sind. Sei gierig, wenn andere \xe4ngstlich sind.</em> Das ist der Sechserfl\xfcgel in seiner produktivsten Form: Skepsis als Schutz vor der Herde.</p>
+          <p class="vb-intro">Die Loyalit\xe4t des Sechserfl\xfcgels zeigt sich in seiner jahrzehntelangen Partnerschaft mit Charlie Munger, die \xfcber sechzig Jahre w\xe4hrte. Munger, der 2023 im Alter von 99 Jahren starb, war nicht nur Gesch\xe4ftspartner &ndash; er war der einzige Mensch, dem Buffett vollst\xe4ndig vertraute. Das ist SE5w6: Wenige echte Bindungen, aber diejenigen, die bestehen, halten ein Leben lang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: F\xfcnfhundert Seiten und ein Unternehmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Berkshire Hathaway</strong>, heute eines der wertvollsten Unternehmen der Welt, begann als angeschlagene Textilfirma, die Buffett 1965 \xfcbernahm. Was er daraus gebaut hat, ist kein klassischer Konzern, sondern ein Abbild seiner Pers\xf6nlichkeit: ein Konglomerat aus soliden, verst\xe4ndlichen Unternehmen &ndash; Geico, BNSF Railway, See\x27s Candies, Coca-Cola-Anteile &ndash; das auf langfristige Wertsch\xf6pfung statt auf schnelle Renditen ausgerichtet ist. Das ist die SE5-Burg als Wirtschaftsstruktur: viele Kammern, alle solide gebaut, keine \xfcberfl\xfcssigen Fenster.</p>
+          <p class="vb-intro">Der Schl\xfcssel zu seinem Erfolg, sagt Buffett selbst, ist das Lesen. F\xfcnfhundert Seiten pro Tag, jahrzehntelang. B\xfccher, Gesch\xe4ftsberichte, Zeitungen, Bilanzen. Die SE5 hortet nicht nur Geld &ndash; sie hortet Wissen. Und aus diesem gehorteten Wissen entsteht, langsam und unspektakul\xe4r, ein Vorsprung, den andere f\xfcr Genie halten. Buffett selbst hat das einmal so formuliert: <em>Das Wissen baut sich auf wie Zinseszins.</em> Die Eule liest, bis sie wirklich versteht.</p>
+          <p class="vb-intro">Sein j\xe4hrlicher Brief an die Berkshire-Aktion\xe4re ist seit Jahrzehnten Pflichtlekt\xfcre f\xfcr Investoren weltweit &ndash; nicht wegen der Zahlen, sondern wegen der Klarheit. Buffett schreibt, wie die Eule sieht: direkt, ohne Ornament, mit einer Pr\xe4zision, die keine Verschleierung braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Burg, in der man allein ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 liegt in ihrer F\xe4higkeit, Komplexit\xe4t zu durchdringen und das Wesentliche freizulegen. Buffett hat nicht nur Geld gemacht &ndash; er hat eine Denkschule begr\xfcndet: Value Investing als intellektuelle Disziplin, als Haltung gegen\xfcber Unsicherheit, als Philosophie des Abwartens. Das ist das Geschenk der Eule: ein Blick, der \xfcber den L\xe4rm der Gegenwart hinwegschaut.</p>
+          <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; und bei Buffett zeigt er sich nicht nur im Umgang mit Geld, sondern auch im Umgang mit Emotionen und Beziehungen. Seine erste Frau Susan lebte jahrelang getrennt von ihm in San Francisco, w\xe4hrend er in Omaha blieb. Sein Biograf Robert Hagstrom und andere haben beschrieben, wie schwer es Buffett fiel, wirklich pr\xe4sent zu sein &ndash; emotional verf\xfcgbar, nicht nur intellektuell engagiert. Die Burg sch\xfctzt. Aber sie trennt auch.</p>
+          <p class="vb-intro">Der Sechserfl\xfcgel kann das Misstrauen in ein allgemeines Misstrauen gegen\xfcber allem Neuen kippen. Buffett war sp\xe4t bei Apple &ndash; erst nach langem Z\xf6gern, nachdem Tim Cook ihn \xfcberzeugt hatte. Und er hat offen zugegeben, dass er Amazon und Google als Investitionsm\xf6glichkeiten verpasst hat. Nicht weil er sie nicht verstand &ndash; sondern weil der Sechserfl\xfcgel sagte: <em>Ich traue dem nicht.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die gibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen, das Verm\xf6gen, die Energie wird nicht weniger, wenn ich sie teile &ndash; sie werden mehr.</em> F\xfcr die SE5w6 bedeutet das, die Zugbr\xfccke der Burg gelegentlich herunterzulassen &ndash; nicht weil man muss, sondern weil echter Kontakt n\xe4hrt statt kostet.</p>
+          <p class="vb-intro">Buffett hat diesen Schritt auf seine eigene, kalkul\xe4rte Art getan: 2006 k\xfcndigte er an, den gr\xf6\xdften Teil seines Verm\xf6gens zu spenden &ndash; rund 99 Prozent &ndash; haupts\xe4chlich an die Bill &amp; Melinda Gates Foundation. Gemeinsam mit Bill Gates begr\xfcndete er den <em>Giving Pledge</em>: die \xf6ffentliche Selbstverpflichtung der Reichsten der Welt, den Gro\xdfteil ihres Verm\xf6gens zu verschenken. Das ist die SE5-Logik am Ende des Lebenswegs: Wenn ich genug verstanden habe, kann ich loslassen.</p>
+          <p class="vb-intro">Warren Buffett ist noch immer in Omaha. Noch immer im selben Haus. Noch immer bei McDonald\x27s zum Fr\xfch\xfcbst\xfcck. Und noch immer liest er f\xfcnfhundert Seiten am Tag. Die Eule hat nie aufgeh\xf6rt zu schauen. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist Warren Buffett.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
       ])}
     </div>
   `);
@@ -39382,6 +39455,7 @@ function render() {
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
+      "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
@@ -39814,7 +39888,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v663';
+  const MY_VERSION = 'inhalt-v664';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
