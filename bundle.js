@@ -388,7 +388,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Wissenschaft"] , gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
-    teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
+    teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Milliardär. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
     tags:["Wirtschaft"] , gender:"m"},
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
@@ -9283,7 +9283,7 @@ function billGatesPortraitPage() {
         <h2 class="vb-section">1. Der Oktopus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; intelligent, anpassungsfähig, mit acht Armen gleichzeitig in alle Richtungen greifend. Er ist kein Tier der offenen Konfrontation. Er tarnt sich. Er wartet. Er umfasst sein Ziel, bevor dieses bemerkt hat, dass es umfasst wird. Und wenn er zupackt, dann mit einer Kraft, die man von außen nicht erahnt hätte.</p>
-          <p class="vb-intro">Bill Gates ist dieser Oktopus &ndash; und das ist kein Lob. Es ist eine Beschreibung. Einer der reichsten Menschen der Welt, Gründer von Microsoft, heute als Philanthrop bekannt. Aber hinter dem freundlichen Pullover und dem bescheidenen Auftreten liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen. Und der unerschütterliche Glaube, dass er derjenige sein sollte, der entscheidet, wie es genutzt wird.</p>
+          <p class="vb-intro">Bill Gates ist dieser Oktopus &ndash; und das ist kein Lob. Es ist eine Beschreibung. Einer der reichsten Menschen der Welt, Gründer von Microsoft, heute als Investor und Stiftungsgeber bekannt. Aber hinter dem freundlichen Pullover und dem bescheidenen Auftreten liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen. Und der unerschütterliche Glaube, dass er derjenige sein sollte, der entscheidet, wie es genutzt wird.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Fünf: Das Totem als Machtinstrument</h2>
@@ -9302,7 +9302,7 @@ function billGatesPortraitPage() {
 
         <h2 class="vb-section">4. Schatten: Geiz, Kontrolle und die Epstein-Verbindung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; aber nicht nur Geiz im materiellen Sinn. Es ist das Horten von Einfluss, von Zugang, von Kontrolle. <em>Ich gebe &ndash; aber ich behalte die Entscheidungsgewalt darüber, wem ich wie viel gebe, wofür und unter welchen Bedingungen.</em> Gates' Philanthropie folgt diesem Muster: Sie ist groß, sie ist sichtbar &ndash; und sie ist nie wirklich aus der Hand gegeben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; aber nicht nur Geiz im materiellen Sinn. Es ist das Horten von Einfluss, von Zugang, von Kontrolle. <em>Ich gebe &ndash; aber ich behalte die Entscheidungsgewalt darüber, wem ich wie viel gebe, wofür und unter welchen Bedingungen.</em> Gates' Stiftungsarbeit folgt diesem Muster: Sie ist groß, sie ist sichtbar &ndash; und sie ist nie wirklich aus der Hand gegeben.</p>
           <p class="vb-intro">Schwerer wiegt, was über seine Verbindung zu Jeffrey Epstein bekannt ist. Epstein war ein verurteilter Sexualstraftäter &ndash; und Gates traf sich nach dieser Verurteilung wiederholt mit ihm, flog auf seinem Privatjet, pflegte eine Beziehung, die nach Epsteins Tod ans Licht kam. Gates erklärte zunächst, Epstein kaum zu kennen. Als die E-Mails und Zeugenaussagen das Gegenteil belegten, sprach er von einem „Fehler". Die Verbindung spielte auch eine Rolle bei der Scheidung von Melinda Gates, die laut Berichten über das Ausmaß der Beziehung entsetzt war.</p>
           <p class="vb-intro">Das ist kein Lapsus. Das ist ein Muster: ein Mann, der öffentlich Kontrolle über sein Image aufrechterhält &ndash; und privat Verbindungen pflegt, die diesem Image fundamental widersprechen. Der Oktopus, der tarnt und umfasst.</p>
         </blockquote>
@@ -39962,7 +39962,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v666';
+  const MY_VERSION = 'inhalt-v667';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
