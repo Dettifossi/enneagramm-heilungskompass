@@ -4,7 +4,7 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
-    text: "Neues Portr\xe4t: Mariah Carey (SE7w8) – S\xe4ngerin, 18 Nummer-1-Singles, \xe2\x80\x9eAll I Want for Christmas Is You\xe2\x80\x9c. Der Gorilla mit Achterfl\xfcgel: Freude als Recht, \xdcberfluss als Heimat, Macht als Schutzschild.",
+    text: "Neues Portr\xe4t: Mariah Carey (SE7w8) – S\xe4ngerin, 18 Nummer-1-Singles, ›All I Want for Christmas Is You‹. Der Gorilla mit Achterfl\xfcgel: Freude als Recht, \xdcberfluss als Heimat, Macht als Schutzschild.",
     text_en: "New portrait: Mariah Carey (SE7w8) – singer, 18 number-one singles, All I Want for Christmas Is You. The gorilla with Eight wing: joy as a right, abundance as home, power as shield.",
     route: "beruehmte-mariah-carey"
   },
