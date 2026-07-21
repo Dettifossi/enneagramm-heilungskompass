@@ -10720,7 +10720,7 @@ function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">1. Das Erdm\xe4nnchen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> h\xe4lt Wache f\xfcr die Gruppe. Es ist alert, kooperativ und zutiefst auf Sicherheit durch Zugeh\xf6rigkeit ausgerichtet. Doch nicht jedes Erdm\xe4nnchen h\xe4lt Wache auf dieselbe Weise. Manche klettern still auf den h\xf6chsten Stein und scannen methodisch den Horizont &ndash; das ist der F\xfcnferfl\xfcgel, das Erdm\xe4nnchen der Analyse. Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung \xfcberhaupt sichtbar ist &ndash; das ist der Siebenfl\xfcgel. Donata Hopfen geh\xf6rt zur zweiten Sorte.</p>
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> h\xe4lt Wache f\xfcr die Gruppe. Es ist wachsam, kooperativ und zutiefst auf Sicherheit durch Zugeh\xf6rigkeit ausgerichtet. Doch nicht jedes Erdm\xe4nnchen h\xe4lt Wache auf dieselbe Weise. Manche klettern still auf den h\xf6chsten Stein und scannen methodisch den Horizont &ndash; das ist der F\xfcnferfl\xfcgel, das Erdm\xe4nnchen der Analyse. Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung \xfcberhaupt sichtbar ist &ndash; das ist der Siebenfl\xfcgel. Donata Hopfen geh\xf6rt zur zweiten Sorte.</p>
           <p class="vb-intro">Sie ist Unternehmensberaterin, Digitalstrategin, ehemalige CEO der Bild und der Deutschen Fu\xdfball Liga. Eine Frau, die in gro\xdfe, tr\xe4ge Systeme eingetreten ist &ndash; und sie in Bewegung bringen wollte. Nicht aus Eigennutz, sondern aus dem tief verwurzelten SO6-Antrieb: Ich bin f\xfcr die Gruppe da. Ich erledige, was getan werden muss. Ich mache den Weg frei. Das Erdm\xe4nnchen der SO6w7 rennt nicht weg &ndash; es rennt voraus.</p>
         </blockquote>
 
@@ -40332,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v683';
+  const MY_VERSION = 'inhalt-v684';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
