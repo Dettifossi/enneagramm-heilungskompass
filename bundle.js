@@ -11159,8 +11159,8 @@ function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Z\xe4higkeit ohne Drama</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier &ndash; sie zeigt nach au\xdfen kaum das, was die meisten Menschen an einer Vier erwarten: keine Dramatik, kein zur Schau gestelltes Leiden, keine romantische Selbstinszenierung. Stattdessen: eine stille Z\xe4higkeit (engl. <em>Tenacity</em>), eine Ber\xe4itsschaft, innerlich viel zu tragen, ohne dar\xfcber zu klagen.</p>
-          <p class="vb-intro">Karoline Herfurth hat bereits mit 12 Jahren begonnen zu spielen, mit 16 stand sie im Kinofilm, mit 18 spielte sie Grenouilles Opfer in Tom Tykwers &bdquo;Das Parfum&ldquo;. Dieser fr\xfche Einstieg verlangte eine Reife, die sich nicht aufdr\xe4ngt &ndash; sie musste innerlich stabil sein, w\xe4hrend andere noch die Orientierung suchten. Das ist SE4: nicht die, die von ihrem Schmerz erz\xe4hlt, sondern die, die durch ihn hindurchgeht und danach etwas daraus macht.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier &ndash; sie zeigt nach au\xdfen kaum das, was die meisten Menschen von einer Vier erwarten: keine Dramatik, kein zur Schau gestelltes Leiden, keine romantische Selbstinszenierung. Stattdessen: eine stille Z\xe4higkeit (engl. <em>Tenacity</em>), eine Bereitschaft, innerlich viel zu tragen, ohne dar\xfcber zu klagen.</p>
+          <p class="vb-intro">Karoline Herfurth hat bereits mit 12 Jahren begonnen zu spielen, mit 16 stand sie im Kinofilm, mit 18 spielte sie Grenouilles Opfer in Tom Tykwers &bdquo;Das Parfum&ldquo;. Dieser fr\xfche Einstieg verlangte eine Reife, die sich nicht aufdr\xe4ngt &ndash; sie musste innerlich stabil sein, w\xe4hrend andere noch die Orientierung suchten. Das ist die SE4: nicht die, die von ihrem Schmerz erz\xe4hlt, sondern die, die durch ihn hindurchgeht und danach etwas daraus macht.</p>
           <p class="vb-intro">Ihre Filmografie spricht diese Sprache: Sie vermeidet das Glatte, das Bequeme. Sie w\xe4hlt Rollen, die etwas kosten &ndash; Figuren mit Br\xfcchen, mit inneren Widerspr\xfcchen, mit Menschlichkeit jenseits der Oberfl\xe4che. Das Schutzmuster der SE4 &ndash; die Tendenz, das eigene Erleben herunterzuspielen &ndash; wird hier paradoxerweise zur k\xfcnstlerischen St\xe4rke: Sie spielt echte Menschen, weil sie wei\xdf, wie man Echtes tr\xe4gt.</p>
         </blockquote>
 
@@ -11174,7 +11174,7 @@ function karolineHerfurthPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten: Das Sch\xf6ne am Verletzlichen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das chronische Gef\xfchl, dass andere etwas mitbekommen haben, das einem selbst fehlt. Bei der SE4 bleibt dieser Neid verborgen; er zeigt sich als innere Unruhe, als das Gef\xfchl, nie ganz fertig zu sein, nie ganz anzukommen. Man sieht etwas davon in der Themenwahl ihrer Filme: Es geht fast immer um Menschen, die mit sich ringen, die etwas Gebrochenes in sich tragen und trotzdem weitergemacht haben.</p>
-          <p class="vb-intro">Der F\xfcnferfl\xfcgel verst\xe4rkt die Tendenz zum R\xfcckzug: Die SE4w5 kann sich in die Innenwelt zur\xfcckziehen und den Kontakt nach au\xdfen auf ein Minimum reduzieren. Das sch\xfctzt &ndash; aber es birgt auch die Gefahr, dass der eigene Reichtum ungesehen bleibt. Herfurth hat diesen Weg offensichtlich bewusst gew\xe4hlt: Sie gibt wenig von sich preis, was sie gibt, ist aber um so bedeutsamer.</p>
+          <p class="vb-intro">Der F\xfcnferfl\xfcgel verst\xe4rkt die Tendenz zum R\xfcckzug: Die SE4w5 kann sich in die Innenwelt zur\xfcckziehen und den Kontakt nach au\xdfen auf ein Minimum reduzieren. Das sch\xfctzt &ndash; aber es birgt auch die Gefahr, dass der eigene Reichtum ungesehen bleibt. Herfurth hat diesen Weg offensichtlich bewusst gew\xe4hlt: Sie gibt wenig Pers\xf6nliches von sich preis – was sie aber auf der Leinwand gibt, ist umso bedeutsamer.</p>
           <p class="vb-intro">Das Licht dieser Kombination: Sie kann das Verletzliche sch\xf6n machen, ohne es zu verk\xfcnsteln. Ihre Figuren in &bdquo;Wundersch\xf6n&ldquo; sind keine Heldinnen &ndash; sie sind echte Menschen, die mit ihrer K\xf6rperlichkeit, ihrer Geschichte, ihrem Alter ringen. Das ist SE4w5 im besten Sinne: das Innere in eine Form bringen, die andere nicht allein l\xe4sst.</p>
         </blockquote>
 
@@ -11185,10 +11185,10 @@ function karolineHerfurthPortraitPage() {
         </blockquote>
 
       </div>
-      \${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      \${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      \${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      \${relatedLinks([
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-tim-bendzko", label:"Portr\xe4t: Tim Bendzko (SE4w3)"},
@@ -39589,7 +39589,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v652';
+  const MY_VERSION = 'inhalt-v653';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
