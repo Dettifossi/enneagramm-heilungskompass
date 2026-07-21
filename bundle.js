@@ -10720,13 +10720,13 @@ function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">1. Das Erdm\xe4nnchen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> h\xe4lt Wache f\xfcr die Gruppe. Es ist wachsam, kooperativ und zutiefst auf Sicherheit durch Zugeh\xf6rigkeit ausgerichtet. Doch nicht jedes Erdm\xe4nnchen h\xe4lt Wache auf dieselbe Weise. Manche klettern still auf den h\xf6chsten Stein und scannen methodisch den Horizont &ndash; das ist der F\xfcnferfl\xfcgel, das Erdm\xe4nnchen der Analyse. Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung \xfcberhaupt sichtbar ist &ndash; das ist der Siebenfl\xfcgel. Donata Hopfen geh\xf6rt zur zweiten Sorte.</p>
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> h\xe4lt Wache f\xfcr die Gruppe. Es ist wachsam, kooperativ und zutiefst auf Sicherheit durch Zugeh\xf6rigkeit ausgerichtet. Doch nicht jedes Erdm\xe4nnchen h\xe4lt Wache auf dieselbe Weise. Manche klettern still auf den h\xf6chsten Stein und scannen methodisch den Horizont &ndash; das ist der F\xfcnferfl\xfcgel, das Erdm\xe4nnchen der Analyse. Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung \xfcberhaupt sichtbar ist &ndash; das ist der Siebenerfl\xfcgel. Donata Hopfen geh\xf6rt zur zweiten Sorte.</p>
           <p class="vb-intro">Sie ist Unternehmensberaterin, Digitalstrategin, ehemalige CEO der Bild und der Deutschen Fu\xdfball Liga. Eine Frau, die in gro\xdfe, tr\xe4ge Systeme eingetreten ist &ndash; und sie in Bewegung bringen wollte. Nicht aus Eigennutz, sondern aus dem tief verwurzelten SO6-Antrieb: Ich bin f\xfcr die Gruppe da. Ich erledige, was getan werden muss. Ich mache den Weg frei. Das Erdm\xe4nnchen der SO6w7 rennt nicht weg &ndash; es rennt voraus.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Aufbruch</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; Sicherheit entsteht durch Dienen, durch Zugeh\xf6rigkeit, durch das Erf\xfcllen einer Aufgabe f\xfcr das Kollektiv. Doch der Siebenfl\xfcgel ver\xe4ndert, wie diese Pflicht gelebt wird. Wo Melanie Kreis (SO6w5) Sicherheit durch Struktur, Analyse und stilles Ausf\xfcllen ihrer Rolle findet, sucht die <strong>SO6w7</strong> Sicherheit durch Bewegung. Vorw\xe4rtsgehen f\xfchlt sich sicherer an als Stillstand. Eine Aufgabe zu \xfcbernehmen f\xfchlt sich sicherer an als zu warten. Die SO6w7 dient &ndash; aber sie dient mit Tempo.</p>
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; Sicherheit entsteht durch Dienen, durch Zugeh\xf6rigkeit, durch das Erf\xfcllen einer Aufgabe f\xfcr das Kollektiv. Doch der Siebenerfl\xfcgel ver\xe4ndert, wie diese Pflicht gelebt wird. Wo Melanie Kreis (SO6w5) Sicherheit durch Struktur, Analyse und stilles Ausf\xfcllen ihrer Rolle findet, sucht die <strong>SO6w7</strong> Sicherheit durch Bewegung. Vorw\xe4rtsgehen f\xfchlt sich sicherer an als Stillstand. Eine Aufgabe zu \xfcbernehmen f\xfchlt sich sicherer an als zu warten. Die SO6w7 dient &ndash; aber sie dient mit Tempo.</p>
           <p class="vb-intro">Hopfen hat ihre Karriere in diesem Muster aufgebaut: McKinsey &ndash; der klassische Startpunkt f\xfcr Analytiker und Strategen. Dann digitale F\xfchrungsrollen in der Medien- und Technologiebranche. 2021 wurde sie CEO der Bild, dem gr\xf6\xdften deutschen Boulevardmedium &ndash; einem Haus im Transformationsdruck. 2022 \xfcbernahm sie die Gesch\xe4ftsf\xfchrung der Deutschen Fu\xdfball Liga (DFL), dem Dachverband der Bundesliga. Jedes dieser Projekte war ein System im Wandel. Und Hopfen war die, die sagt: Ich \xfcbernehme. Wir bringen das in Bewegung.</p>
           <p class="vb-intro">Das ist der Unterschied zur SO6w5: Melanie Kreis baut Sicherheit, indem sie tief in eine Struktur einw\xe4chst. Donata Hopfen baut Sicherheit, indem sie Strukturen erneuert. Beide dienen der Gruppe. Aber die eine h\xe4lt, die andere gestaltet.</p>
         </blockquote>
@@ -40332,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v684';
+  const MY_VERSION = 'inhalt-v685';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
