@@ -366,6 +366,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
     tags:["Medien","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-vera-birkenbihl", name:"Vera Birkenbihl", added:"2026-07-21", subtyp:"SE5w6",
+    heading:"Vera Birkenbihl – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \xb7 1946–2011. Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt – und daraus Schule machte.",
+    tags:["Bildung","B\xfccher"], gender:"f"},
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -9133,7 +9137,7 @@ function lindaLeinweberPortraitPage() {
         </div>
         <p class="krim-portrait-name">Linda Leinweber</p>
         <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Psychologin, Autorin, Coach &ndash; Tierentsprechung: Chihuahua</p>
+        <p class="krim-portrait-subtitle">Psychologin, Autorin, Coach, geb. 1988 &ndash; Tierentsprechung: Chihuahua</p>
       </div>
       <div class="page-content">
 
@@ -11218,6 +11222,75 @@ function peterLustigPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function veraBirkenbihlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-vera-birkenbihl-portrait.jpg" alt="Vera Birkenbihl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vera F. Birkenbihl</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Trainerin, Buchautorin, Vordenkerin, 1946&ndash;2011 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die das Denken kannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der n\xe4chtlichen Stille, der pr\xe4zisen Beobachtung und des tiefen Wissens. Sie sieht, was andere nicht sehen. Sie fragt nicht laut &ndash; sie schaut, analysiert, ordnet. Und wenn sie spricht, dann mit einer Klarheit, die aus langem Beobachten kommt, nicht aus Gel\xe4ufigkeit.</p>
+          <p class="vb-intro">Vera F. Birkenbihl war diese Eule: Eine Frau, die sich ein Leben lang gefragt hat, wie das Denken wirklich funktioniert &ndash; und daraus ein Werk gemacht hat, das Millionen von Menschen geholfen hat, klarer zu lernen, klarer zu kommunizieren und klarer \xfcber sich selbst nachzudenken. Nicht mit einem Universit\xe4tsdiplom. Nicht mit institutioneller R\xfcckendeckung. Sondern mit dem wachen Blick der Eule, die in der Dunkelheit sieht, weil sie ge\xfcbt hat, genau hinzuschauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Das Wissen als Burg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem Naranjo den Namen <strong>Burg</strong> gab: Das eigene Territorium &ndash; das Wissen, der Denkraum, die Methodik &ndash; wird zur Festung. Nicht um andere auszusperren, sondern um sich selbst zu sch\xfctzen: vor dem \xdcberw\xe4ltigtwerden, vor dem Energieverlust, vor dem Leer-Gef\xfchl nach zu viel Kontakt. Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Aufmerksamkeit und Ressourcen. Bei der SE5 zeigt sich das als radikale Selbstgen\xfcgsamkeit: Ich brauche wenig. Aber das, was ich habe, ist meins, und ich verstehe es vollst\xe4ndig.</p>
+          <p class="vb-intro">Birkenbihl lebte diese Struktur konsequent: Sie blieb unverheiratet, lebte allein, arbeitete auf eigene Rechnung. Kein Verlag, dem sie sich unterordnete &ndash; sie gr\xfcndete ihren eigenen. Keine Institution, der sie verpflichtet war &ndash; sie entwickelte ihre eigenen Methoden. Ihr Wohnort, ihre Arbeitszeit, ihr Themenportfolio: selbstgew\xe4hlt, selbstverantwortet, selbstverwaltet. Das ist die SE5-Burg nicht als R\xfcckzug aus der Welt, sondern als Voraussetzung daf\xfcr, der Welt etwas Eigenes geben zu k\xf6nnen.</p>
+          <p class="vb-intro">Ihr erstes gro\xdfes Buch, <em>Stroh im Kopf?</em> (1974), erschien, als sie Ende zwanzig war. Es wurde zu einem der meistverkauften Sachb\xfccher des deutschen Sprachraums. Kein Zufall: Die selbsterhaltende F\xfcnf, die etwas verstanden hat, gibt dieses Verst\xe4ndnis nicht m\xfcndlich weiter &ndash; sie schreibt es auf, strukturiert es, macht es haltbar. Das Buch ist die Burg, die man teilen kann, ohne sie zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Skepsis als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der selbsterhaltenden F\xfcnf eine charakteristische Richtung: tiefe Skepsis gegen\xfcber Autorit\xe4ten, Systemen und Konventionen &ndash; verbunden mit einem starken Gerechtigkeitsgef\xfchl und einer Loyalit\xe4t gegen\xfcber dem, was sich als wahr erwiesen hat. Die SE5w6 sammelt nicht nur Wissen &ndash; sie pr\xfcft es, hinterfragt es, und wenn es der Pr\xfcfung standh\xe4lt, verteidigt sie es.</p>
+          <p class="vb-intro">Birkenbihls bekanntester Angriffspunkt war das deutsche Schulsystem. Ihre Kritik war nicht polemisch, sondern methodisch: Sie fragte, warum Schulen Kinder so unterrichten, wie das Gehirn es am wenigsten verarbeiten kann &ndash; durch Auswendiglernen, Zeitdruck und Angst vor schlechten Noten. Der Sechserfl\xfcgel erkl\xe4rt, warum diese Frage sie nicht loslie\xdf: Das System als System ist immer verd\xe4chtig, bis es sich als sinnvoll erwiesen hat. Und das deutsche Bildungssystem hatte f\xfcr sie nie den Beweis erbracht.</p>
+          <p class="vb-intro">Gleichzeitig war der Sechserfl\xfcgel der Grund f\xfcr ihre Verl\xe4sslichkeit als Seminarleiterin. Wer bei ihr sa\xdf, sp\xfcrte: Diese Frau ist nicht hier, um zu beeindrucken. Sie ist hier, weil sie etwas Wichtiges zu sagen hat &ndash; und weil sie will, dass es wirklich ankommt. Das ist die SE5w6 in ihrer produktivsten Form: Wissen, das sich selbst verpflichtet f\xfchlt, wirklich n\xfctzlich zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Lernen, das funktioniert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Birkenbihls Kernbeitrag ist das Konzept des <strong>gehirngerechten Lernens</strong>: die Idee, dass jeder Lernprozess so gestaltet sein sollte, wie das Gehirn tats\xe4chlich arbeitet &ndash; nicht wie es Lehrpl\xe4ne erwarten. Dazu geh\xf6rte das Vermeiden von Angst als Lernhemmnis, die Verbindung von Information und Emotion, der Einsatz von Bildern und Geschichten statt trockener Definitionen. Die SE5 als Eule sieht im Dunkeln &ndash; und Birkenbihl sah, was Lehrb\xfccher nicht sahen: dass Lernen vor allem dann scheitert, wenn das Gehirn nicht mitgedacht wird.</p>
+          <p class="vb-intro">Besonders bekannt wurde die <strong>Birkenbihl-Methode</strong> f\xfcr den Spracherwerb: Statt Grammatikregeln zu pauken, schrieb sie, solle man einen fremdsprachigen Text zun\xe4chst Wort f\xfcr Wort unter die Muttersprache \xfcbersetzen &ndash; <em>dekodieren</em> &ndash; und dann h\xf6ren, erst passiv, dann aktiv. Diese Methode lehnte sich daran an, wie Kinder eine Sprache nat\xfcrlicherweise erwerben: durch Verstehen, nicht durch Regeln. Die SE5w6 dahinter: Das System Fremdsprachenunterricht ist falsch. Hier ist, warum. Und hier ist die Alternative.</p>
+          <p class="vb-intro">\xdcber f\xfcnfzig B\xfccher, Tausende von Seminaren, Tonb\xe4nder, CDs, sp\xe4ter Videos und Online-Kurse: Birkenbihl hat ihr Wissen in jede verf\xfcgbare Form gegossen. Das ist keine Eitelkeit &ndash; das ist die SE5 in ihrer tiefsten Antriebsstruktur: Wenn ich etwas Wichtiges verstanden habe, dann muss es haltbar gemacht werden. Das Wissen darf nicht mit mir sterben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Eule in der Burg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 liegt in ihrer F\xe4higkeit, komplexe Zusammenh\xe4nge so zu durchdringen, dass sie lehrbar werden. Vera Birkenbihl hat Generationen von Trainern, P\xe4dagogen und Eltern ein Vokabular gegeben, um \xfcber Lernen nachzudenken. Sie hat den Begriff <em>gehirngerecht</em> in die Alltagssprache gebracht. Das ist das Geschenk der Eule: Klarheit, die bleibt, lange nachdem die Eule selbst fort ist.</p>
+          <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; nicht als Knauserigkeit mit Geld, sondern als das tief verwurzelte Gef\xfchl, nicht genug Energie zu haben, um sich vollst\xe4ndig zu geben. Bei der SE5 zeigt sich das als Neigung zum R\xfcckzug, als Tendenz, Systeme wichtiger zu nehmen als Menschen, als Schwierigkeit, wirklich in Kontakt zu treten ohne das Gef\xfchl, dabei etwas zu verlieren. Birkenbihls Werk war enorm &ndash; und dennoch blieb sie als Person schwer greifbar. Die Burg war gut gebaut.</p>
+          <p class="vb-intro">Der Sechserfl\xfcgel kann die Skepsis in Misstrauen kippen lassen &ndash; eine Welt voller falscher Systeme, gegen die man sich behaupten muss. Bei Birkenbihl blieb die Skepsis produktiv: Sie verwandelte sich in Fragen, die Fragen in Methoden und die Methoden in Werke, die bis heute gelesen und genutzt werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die Schule machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em> F\xfcr die SE5w6 bedeutet das, die Burg nicht aufzugeben, aber die Zugbr\xfccke gelegentlich herunterzulassen &ndash; nicht weil man muss, sondern weil echter Kontakt n\xe4hrt statt kostet.</p>
+          <p class="vb-intro">Vera Birkenbihl hat diesen Schritt \xfcber ihre Arbeit getan. Die Burg blieb &ndash; das Alleinleben, das Selbstverlegen, das Selbstbestimmen. Aber durch das Werk \xf6ffnete sie Fenster. Jedes Buch war ein Fenster. Jedes Seminar war ein Fenster. Und was durch diese Fenster floss, war keine Performance, kein Charisma, keine Selbstdarstellung &ndash; sondern Pr\xe4zision, die half.</p>
+          <p class="vb-intro">Vera F. Birkenbihl starb am 2. Januar 2011 in M\xfcnchen. Sie wurde 64 Jahre alt. Ihr Werk lebt weiter &ndash; in den B\xfcchern, in den Methoden, in den Menschen, die durch sie gelernt haben, anders zu lernen. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist die Eule, die Schule machte.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
       ])}
     </div>
   `);
@@ -39309,6 +39382,7 @@ function render() {
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
+      "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
@@ -39740,7 +39814,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v660';
+  const MY_VERSION = 'inhalt-v661';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

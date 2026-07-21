@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Vera F. Birkenbihl (SE5w6) – Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt.",
+    text_en: "New portrait: Vera F. Birkenbihl (SE5w6) – trainer, author, visionary. Over fifty books, millions of readers, one system: brain-compatible learning. The owl that knew how thinking thinks.",
+    route: "beruehmte-vera-birkenbihl"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Linda Leinweber (SX4w5) – Psychologin, Autorin, Gr\xfcnderin von Poise. Der Chihuahua, der den eigenen Schmerz zur Pr\xe4zision gemacht hat.",
     text_en: "New portrait: Linda Leinweber (SX4w5) – psychologist, author, founder of Poise. The chihuahua who turned her own pain into precision.",
     route: "beruehmte-linda-leinweber"
