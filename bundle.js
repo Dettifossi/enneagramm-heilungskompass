@@ -10785,7 +10785,7 @@ function melanieKreisPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; weil Sicherheit f\xfcr diesen Subtyp daraus entsteht, einen Beitrag zu leisten, dem Kollektiv zu dienen, gebraucht zu werden. Die <strong>soziale Sechs (SO6)</strong> folgt Strukturen nicht blind &ndash; sie versteht sie als Rahmen, der Verl\xe4sslichkeit schafft. Regeln, Systeme, Verantwortlichkeiten: Dinge, auf die man sich beziehen kann. Die SO6 sucht nicht die B\xfchne. Sie sucht die Aufgabe.</p>
           <p class="vb-intro">Kreis hat ihre Karriere nicht als Sprung nach oben geplant, sondern als Reihe von Verantwortlichkeiten, die sie \xfcbernommen hat. 1997 begann sie bei McKinsey &amp; Company &ndash; einem Ort, der analytische Sorgfalt und strukturiertes Denken verlangt. 2004 wechselte sie zur Deutschen Post AG, wo sie in der Konzernentwicklung arbeitete und ma\xdfgeblich an der Integration der \xfcbernommenen Exel-Gruppe beteiligt war. 2014 \xfcbernahm sie Personalverantwortung im Vorstand, 2016 wurde sie Finanzvorst\xe4ndin. Kein Schritt davon war ein PR-Move. Jeder Schritt war eine Erweiterung der Verantwortung.</p>
-          <p class="vb-intro">Dass sie als eine der wenigen Frauen an der Spitze eines DAX-40-Konzerns gilt, sagt sie selbst selten laut. Es ist einfach so &ndash; ein Nebenprodukt der Arbeit, nicht ihr Ziel. Das ist die SO6: Wer seinen Platz wirklich ausf\xfcllt, muss nicht dar\xfcber reden.</p>
+          <p class="vb-intro">Dass sie als eine der wenigen Frauen an der Spitze eines DAX-40-Konzerns steht, sagt sie selbst selten laut. Es ist einfach so &ndash; ein Nebenprodukt der Arbeit, nicht ihr Ziel. Das ist die SO6: Wer seinen Platz wirklich ausf\xfcllt, muss nicht dar\xfcber reden.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Analyse als Fundament</h2>
@@ -10803,7 +10803,7 @@ function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Die W\xe4chterin im Vorstand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Integrit\xe4t</strong>. Kreis hat in einem Umfeld re\xfcsiert, das Frauen in F\xfchrungspositionen nach wie vor strukturell erschwert &ndash; nicht durch laute Selbstdarstellung, sondern durch beharrliche Kompetenz. Sie ist Vorbild, ohne es anzustreben. Pr\xe4sent, ohne aufzufallen. Wirksam, ohne zu poltern. Das ist die SO6: Stabilit\xe4t als Botschaft, Verl\xe4sslichkeit als F\xfchrungsprinzip.</p>
+          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Integrit\xe4t</strong>. Kreis hat in einem Umfeld re\xfcssiert, das Frauen in F\xfchrungspositionen nach wie vor strukturell erschwert &ndash; nicht durch laute Selbstdarstellung, sondern durch beharrliche Kompetenz. Sie ist Vorbild, ohne es anzustreben. Pr\xe4sent, ohne aufzufallen. Wirksam, ohne zu poltern. Das ist die SO6: Stabilit\xe4t als Botschaft, Verl\xe4sslichkeit als F\xfchrungsprinzip.</p>
           <p class="vb-intro">Der Schatten der SO6w5 liegt in der Gefahr, sich zu sehr an bestehende Strukturen zu binden &ndash; und Ver\xe4nderung als Bedrohung zu erleben, statt als Gestaltungsraum. Ein globaler Logistikkonzern bewegt sich in einer Welt rasanter Transformation: Digitalisierung, Automatisierung, geopolitische Unsicherheiten, der Wandel ganzer Lieferketten. Die SO6 kann in solchen Momenten zu sehr auf das Bew\xe4hrte setzen. Und der F\xfcnferfl\xfcgel kann dazu neigen, sich in Analyse zu verlieren, statt zu entscheiden. Die Spannung zwischen Gr\xfcndlichkeit und Geschwindigkeit ist das innere Terrain der SO6w5 in der F\xfchrungsrolle.</p>
           <p class="vb-intro">Wer Melanie Kreis \xf6ffentlich beobachtet, sieht keine solchen Z\xf6germomente. Was man sieht, ist eine Frau, die wei\xdf, was sie tut. Und die wei\xdf, warum.</p>
         </blockquote>
@@ -40259,7 +40259,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v681';
+  const MY_VERSION = 'inhalt-v682';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
