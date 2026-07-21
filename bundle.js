@@ -11318,7 +11318,7 @@ function warrenBuffettPortraitPage() {
         <h2 class="vb-section">1. Die Eule aus Omaha</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Wesen der Stille, der Beobachtung und der konzentrierten Wahrnehmung. Sie wartet. Sie schaut. Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Pr\xe4zision, die andere f\xfcr Gl\xfcck halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt.</p>
-          <p class="vb-intro">Warren Edward Buffett, geboren am 30. August 1930 in Omaha, Nebraska, ist die vielleicht ber\xfchmteste Eule der Wirtschaftsgeschichte. Der Mann, den die Welt den <em>Orakel von Omaha</em> nennt, lebt seit 1958 in demselben bescheidenen Haus in Omaha. Er f\xe4hrt selbst. Er fr\xfchst\xfcckt bei McDonald\x27s. Er liest, nach eigenen Angaben, rund f\xfcnfhundert Seiten pro Tag. Und er hat aus dieser Einfachheit eines der gr\xf6\xdften Verm\xf6gen der Menschheitsgeschichte aufgebaut &ndash; nicht trotz ihr, sondern wegen ihr.</p>
+          <p class="vb-intro">Warren Edward Buffett, geboren am 30. August 1930 in Omaha, Nebraska, ist die vielleicht ber\xfchmteste Eule der Wirtschaftsgeschichte. Der Mann, den die Welt das <em>Orakel von Omaha</em> nennt, lebt seit 1958 in demselben bescheidenen Haus in Omaha. Er f\xe4hrt selbst. Er fr\xfchst\xfcckt bei McDonald\x27s. Er liest, nach eigenen Angaben, rund f\xfcnfhundert Seiten pro Tag. Und er hat aus dieser Einfachheit eines der gr\xf6\xdften Verm\xf6gen der Menschheitsgeschichte aufgebaut &ndash; nicht trotz ihr, sondern wegen ihr.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Die Burg in Omaha</h2>
@@ -11331,7 +11331,7 @@ function warrenBuffettPortraitPage() {
         <h2 class="vb-section">3. Der Sechserfl\xfcgel: Skepsis als Investitionsprinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der selbsterhaltenden F\xfcnf eine charakteristische F\xe4rbung: tiefes Misstrauen gegen\xfcber Hype, Spekulation und Masseneuphorie &ndash; verbunden mit einer starken Loyalit\xe4t gegen\xfcber dem, was sich als wahr und solide erwiesen hat. Der Sechserfl\xfcgel fragt immer: <em>Wo ist das Risiko? Was kann schiefgehen? Was ist das Schlimmste, das eintreten kann?</em></p>
-          <p class="vb-intro">Dieser Blick erkl\xe4rt, warum Buffett den Dot-com-Boom der 1990er-Jahre konsequent gemieden hat. Als die Welt in Technologieaktien r\xe4ste, blieb er bei dem, was er verstand: Versicherungen, Eisenbahnen, Konsumg\xfcter, Banken. Er wurde daf\xfcr bel\xe4chelt &ndash; bis die Blase platzte. Sein ber\xfchmter Satz: <em>Sei \xe4ngstlich, wenn andere gierig sind. Sei gierig, wenn andere \xe4ngstlich sind.</em> Das ist der Sechserfl\xfcgel in seiner produktivsten Form: Skepsis als Schutz vor der Herde.</p>
+          <p class="vb-intro">Dieser Blick erkl\xe4rt, warum Buffett den Dot-com-Boom der 1990er-Jahre konsequent gemieden hat. Als die Welt massenhaft in Technologieaktien investierte, blieb er bei dem, was er verstand: Versicherungen, Eisenbahnen, Konsumg\xfcter, Banken. Er wurde daf\xfcr bel\xe4chelt &ndash; bis die Blase platzte. Sein ber\xfchmter Satz: <em>Sei \xe4ngstlich, wenn andere gierig sind. Sei gierig, wenn andere \xe4ngstlich sind.</em> Das ist der Sechserfl\xfcgel in seiner produktivsten Form: Skepsis als Schutz vor der Herde.</p>
           <p class="vb-intro">Die Loyalit\xe4t des Sechserfl\xfcgels zeigt sich in seiner jahrzehntelangen Partnerschaft mit Charlie Munger, die \xfcber sechzig Jahre w\xe4hrte. Munger, der 2023 im Alter von 99 Jahren starb, war nicht nur Gesch\xe4ftspartner &ndash; er war der einzige Mensch, dem Buffett vollst\xe4ndig vertraute. Das ist SE5w6: Wenige echte Bindungen, aber diejenigen, die bestehen, halten ein Leben lang.</p>
         </blockquote>
 
@@ -11351,9 +11351,9 @@ function warrenBuffettPortraitPage() {
 
         <h2 class="vb-section">6. Die Eule, die gibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen, das Verm\xf6gen, die Energie wird nicht weniger, wenn ich sie teile &ndash; sie werden mehr.</em> F\xfcr die SE5w6 bedeutet das, die Zugbr\xfccke der Burg gelegentlich herunterzulassen &ndash; nicht weil man muss, sondern weil echter Kontakt n\xe4hrt statt kostet.</p>
-          <p class="vb-intro">Buffett hat diesen Schritt auf seine eigene, kalkul\xe4rte Art getan: 2006 k\xfcndigte er an, den gr\xf6\xdften Teil seines Verm\xf6gens zu spenden &ndash; rund 99 Prozent &ndash; haupts\xe4chlich an die Bill &amp; Melinda Gates Foundation. Gemeinsam mit Bill Gates begr\xfcndete er den <em>Giving Pledge</em>: die \xf6ffentliche Selbstverpflichtung der Reichsten der Welt, den Gro\xdfteil ihres Verm\xf6gens zu verschenken. Das ist die SE5-Logik am Ende des Lebenswegs: Wenn ich genug verstanden habe, kann ich loslassen.</p>
-          <p class="vb-intro">Warren Buffett ist noch immer in Omaha. Noch immer im selben Haus. Noch immer bei McDonald\x27s zum Fr\xfch\xfcbst\xfcck. Und noch immer liest er f\xfcnfhundert Seiten am Tag. Die Eule hat nie aufgeh\xf6rt zu schauen. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist Warren Buffett.</p>
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em> Bei Buffett sieht dieser Schritt aus wie Gro\xdfz\xfcgigkeit &ndash; und doch bleibt er SE5 bis in die letzte Konsequenz.</p>
+          <p class="vb-intro">2006 k\xfcndigte Buffett an, rund 99 Prozent seines Verm\xf6gens zu spenden &ndash; haupts\xe4chlich an die Gates Foundation und die eigenen Familienstiftungen. Mit Bill Gates gr\xfcndete er den <em>Giving Pledge</em>, die \xf6ffentliche Selbstverpflichtung der Superreichen zum Spenden. Was davon \xfcbrigbleibt, wenn man genauer hinschaut: Buffett \xfcbertr\xe4gt keine Barmittel, sondern Berkshire-Anteile &ndash; Aktien, die er ohnehin nicht verkauft h\xe4tte, weil ein Verkauf Kapitalertragsteuer ausl\xf6sen w\xfcrde. Die Stiftungen, die diese Anteile erhalten, werden von Menschen gef\xfchrt, die Buffett nahe stehen. Das Verm\xf6gen wechselt den Namen, nicht die Kontrolle. Der Geiz der selbsterhaltenden F\xfcnf h\xf6rt auch dann nicht auf zu rechnen, wenn er das Gesicht der Gro\xdfz\xfcgigkeit tr\xe4gt.</p>
+          <p class="vb-intro">Warren Buffett ist noch immer in Omaha. Noch immer im selben Haus. Noch immer bei McDonald\x27s zum Fr\xfchst\xfcck. Und noch immer liest er f\xfcnfhundert Seiten am Tag. Die Eule hat nie aufgeh\xf6rt zu schauen. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist Warren Buffett.</p>
         </blockquote>
 
       </div>
@@ -39888,7 +39888,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v664';
+  const MY_VERSION = 'inhalt-v665';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
