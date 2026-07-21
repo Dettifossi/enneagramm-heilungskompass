@@ -10740,7 +10740,7 @@ function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Von McKinsey bis zum Bundesliga-Sturm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hopfens bekannteste &ndash; und turbulenteste &ndash; Station war ihre Zeit als Gesch\xe4ftsf\xfchrerin der <strong>DFL</strong>. Sie trat im November 2022 an mit einem klaren Auftrag: die Bundesliga in die digitale Zukunft f\xfchren und neue Finanzierungsquellen erschlie\xdfen. Im Zentrum stand ein Investorendeal mit dem Finanzinvestor CVC Capital Partners, der der DFL rund zwei Milliarden Euro einbringen sollte.</p>
+          <p class="vb-intro">Hopfens bekannteste &ndash; und turbulenteste &ndash; Station war ihre Zeit als Gesch\xe4ftsf\xfchrerin der <strong>DFL</strong> (Deutsche Fu\xdfball Liga, Dachverband der Bundesliga). Sie trat im November 2022 an mit einem klaren Auftrag: die Bundesliga in die digitale Zukunft f\xfchren und neue Finanzierungsquellen erschlie\xdfen. Im Zentrum stand ein Investorendeal mit dem Finanzinvestor CVC Capital Partners, der der DFL rund zwei Milliarden Euro einbringen sollte.</p>
           <p class="vb-intro">Was folgte, war einer der spektakul\xe4rsten Konflikte im deutschen Fu\xdfball: Fans protestierten massiv gegen den Einstieg von Investoren, Spiele wurden durch Tennisb\xe4lle und andere Gegenst\xe4nde auf dem Feld unterbrochen, Klubs zogen ihre Unterst\xfctzung zur\xfcck. Im Februar 2023 &ndash; nach kaum drei Monaten im Amt &ndash; trat Hopfen zur\xfcck. Der Deal kam nicht zustande.</p>
           <p class="vb-intro">Es war eine klassische SO6-Erfahrung in ihrer h\xe4rtesten Form: Hopfen hatte im Auftrag der Gruppe gehandelt &ndash; und die Gruppe wandte sich gegen sie. Nicht weil die Strategie falsch war, sondern weil sie an einer Stelle angesetzt hatte, an der Angst und Identit\xe4t des Fu\xdfballs kollidierten. Der Siebenerfl\xfcgel hatte sie schnell und entschlossen gemacht. Die SO6-Verletzlichkeit traf sie, als die Zugeh\xf6rigkeit wegbrach.</p>
         </blockquote>
@@ -40332,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v686';
+  const MY_VERSION = 'inhalt-v687';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
