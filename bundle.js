@@ -414,6 +414,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
+    heading:"Neil Armstrong – Selbsterhaltender Typ 6",
+    teaser:"SE6w7 \xb7 1930–2012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat – und danach nur noch nach Hause wollte.",
+    tags:["Geschichte","Wissenschaft"], gender:"m"},
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
@@ -10807,6 +10811,76 @@ function beatriceChebetPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function neilArmstrongPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Neil Armstrong</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Pilot, Astronaut, erster Mensch auf dem Mond, 1930&ndash;2012 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist wachsam, loyal und sucht Sicherheit in dem, was es kennt. Es ist kein Tier der gro\xdfen Geste. Es lebt im Vertrauten, baut sein Revier sorgf\xe4ltig aus &ndash; und wenn die Situation es verlangt, zeigt es eine Entschlossenheit, die man von au\xdfen nicht erwartet h\xe4tte. Das Kaninchen \xfcberlebt nicht durch Kraft, sondern durch Kl\xfcgheit, Verl\xe4sslichkeit und das Vertrauen seiner Gruppe.</p>
+          <p class="vb-intro">Neil Armstrong war der erste Mensch, der den Mond betreten hat. Am 20. Juli 1969, um 02:56 Uhr UTC, setzte er seinen linken Fu\xdf auf die Mondoberfl\xe4che und sprach einen Satz, den die Welt bis heute kennt. Danach tat er alles, um wieder in der Stille zu verschwinden. Er gab kaum Interviews. Er floh vor der \xd6ffentlichkeit. Er kehrte nach Ohio zur\xfcck, auf seinen Bauernhof, und lebte dort so unauff\xe4llig, als h\xe4tte er nur einen kurzen Ausflug gemacht &ndash; zum Mond und zur\xfcck. Das ist das Kaninchen: Der au\xdferordentlichste Mensch, der je seinen Mu\xdfu\xdfabdruck im Staub hinterlie\xdf &ndash; und der danach nichts sehnlicher wollte als Normalit\xe4t.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die W\xe4rme: Sicherheit durch Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>W\xe4rme</strong> &ndash; weil dieser Subtyp Sicherheit durch menschliche N\xe4he und Zugeh\xf6rigkeit sucht. Die SE6 ist loyal, verl\xe4sslich, teamorientiert. Sie strahlt eine Ruhe aus, die andere beruhigt &ndash; und sie braucht das Vertrauen der Gruppe ebenso wie sie es gibt.</p>
+          <p class="vb-intro">Armstrong war kein Held der gro\xdfen W\xf6rter. Als er auf dem Mond stand, sagte er nicht <em>Ich habe es geschafft</em>, sondern: <em>The Eagle has landed.</em> Wir. Das Team. Die Bodenstation in Houston. Buzz Aldrin neben ihm. Michael Collins in der Mondumlaufbahn. Armstrong hat den Mond betreten &ndash; aber er hat ihn nie als seinen pers\xf6nlichen Triumph verstanden. Er war der Repr\xe4sentant einer Gemeinschaft. Und genau das war ihm wichtig.</p>
+          <p class="vb-intro">Seine Kollegen beschrieben ihn als ruhig, zuverl\xe4ssig und sachlich. Er sprach wenig in kritischen Situationen &ndash; und wenn, dann pr\xe4zise. Beim Anflug auf den Mond reagierte der Bordcomputer mit Fehlermeldungen, der Landeplatz erwies sich als Felsfeld. Armstrong \xfcbernahm manuell die Steuerung, suchte ruhig eine sichere Stelle &ndash; und landete mit weniger als dreißig Sekunden Treibstoff \xfcbrig. Keine Panik, kein Drama. Das ist die SE6 in H\xf6chstform: Sicherheit durch Kompetenz, Ruhe als Schutzprinzip.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenfl\xfcgel: Der Mut des Abenteurers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenfl\xfcgel (w7)</strong> bringt dem selbsterhaltenden Sechser etwas, das die reine SE6 allein nicht entwickeln w\xfcrde: Abenteuerlust, Begeisterung und die Bereitschaft, ins Unbekannte aufzubrechen. Wo die SE6 Sicherheit sucht, \xf6ffnet der Siebenfl\xfcgel die T\xfcr zur Weite. Das Ergebnis ist ein Mensch, der das Vertraute liebt &ndash; und trotzdem dorthin geht, wo noch niemand war.</p>
+          <p class="vb-intro">Armstrong flog mit sechs Jahren zum ersten Mal &ndash; mit seinem Vater in einem Ford Trimotor. Seitdem wollte er Pilot werden. Mit sechzehn hatte er seinen Flugschein, bevor er den F\xfchrerausweis besaß. Er flog im Koreakrieg sechsundsiebzig Kampfeins\xe4tze. Er wurde Testpilot und flog den X-15 auf eine H\xf6he von \xfcber 60 Kilometern &ndash; an der Grenze zum Weltraum. Jeder dieser Schritte war k\xfchn. Keiner davon war leichtfertig. Das ist die SE6w7: Mut, der auf Vorbereitung aufbaut, nicht auf Unvorsichtigkeit.</p>
+          <p class="vb-intro">1966 flog er mit Gemini 8 das erste erfolgreiche Andockman\xf6ver zweier Raumschiffe im Weltraum durch &ndash; und rettete die Mission, als das Raumschiff in eine unkontrollierte Rollbewegung geriet, indem er k\xfchlen Kopf behielt und die richtige Entscheidung in Sekunden traf. Der Siebenfl\xfcgel gibt dem Kaninchen Fl\xfcgel. Aber das Kaninchen bleibt geerdet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Einundzwanzig Stunden auf dem Mond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 20. Juli 1969 landete die <strong>Apollo-11</strong>-Mondlandef\xe4hre <em>Eagle</em> im Meer der Ruhe. Armstrong und Aldrin verbrachten einundzwanzig Stunden und sechsunddreißig Minuten auf dem Mond &ndash; davon rund zwei Stunden und zwanzig Minuten außerhalb der F\xe4hre. Armstrong sammelte Gesteinsproben, fotografierte, pflanzte die amerikanische Flagge. Und er sprach den Satz:</p>
+          <p class="vb-intro"><em>That's one small step for [a] man, one giant leap for mankind.</em></p>
+          <p class="vb-intro">Das kleine Wort <em>a</em> vor <em>man</em> war im Funkrauschen untergegangen &ndash; und Armstrong betonte sp\xe4ter, er habe es so gesagt. Ohne das <em>a</em> ergibt der Satz keinen logischen Gegensatz: <em>Man</em> ist dann gleichbedeutend mit <em>mankind</em>. Mit dem <em>a</em> dagegen meint er den einzelnen Menschen &ndash; und genau das war Armstrong: ein einzelner Mensch, der f\xfcr alle ging. Er hat diesen Unterschied sein Leben lang klargestellt. Das ist die SE6: Pr\xe4zision in der Sprache, Richtigkeit als Wert.</p>
+          <p class="vb-intro">Nach der R\xfcckkehr wurde er mit Paraden und Empf\xe4ngen \xfcberh\xe4uft. Er lehrte danach Luft- und Raumfahrttechnik an der Universit\xe4t Cincinnati &ndash; acht Jahre lang, ruhig, zuverl\xe4ssig, ohne Aufhebens. Dann kehrte er auf seinen Bauernhof in Ohio zur\xfcck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der ber\xfchmteste Unbekannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w7 ist ihre <strong>Integrit\xe4t</strong>. Armstrong h\xe4tte reich werden k\xf6nnen &ndash; durch Werbevertr\xe4ge, durch Auftritte, durch seinen Namen. Er lehnte fast alles ab. Als er herausfand, dass seine Unterschrift f\xfcr Tausende von Dollar verkauft wurde, h\xf6rte er auf, Autogramme zu geben. Als ein Friseur ein Kl\xfcmpchen seiner Haare nach dem Haarschnitt verkaufte, drohte Armstrong mit einer Klage, wenn das Geld nicht einer Wohlt\xe4tigkeitsorganisation gespendet w\xfcrde. Er meinte es ernst.</p>
+          <p class="vb-intro">Der Schatten: Die SE6 kann in der R\xfcckzugstendenz erstarren. Armstrong wurde nach dem Mondflug so still, dass manche fragten, ob er depressiv sei. Er sprach kaum \xfcber das Erlebnis &ndash; nicht weil es ihn nicht ber\xfchrt h\xe4tte, sondern weil er keine Worte daf\xfcr fand, die der Wirklichkeit gerecht wurden. Ein einziges Mal, in einem Interview kurz vor seinem Tod, gestand er: <em>Es war die größte Erfahrung meines Lebens. Und ich kann sie bis heute nicht wirklich erkl\xe4ren.</em> Das ist die SE6: Was zu gro\xdf ist f\xfcr Worte, bleibt im Inneren.</p>
+          <p class="vb-intro">Seine Tochter Karen starb 1962 im Alter von zwei Jahren an einem Gehirntumor. Armstrong hat dar\xfcber kaum je \xf6ffentlich gesprochen. Nur einmal sagte er, dass er nach ihrem Tod begann, besonders fr\xfch morgens aufzustehen &ndash; bevor alle anderen wach waren &ndash; um allein zu sein. Das Kaninchen zieht sich zur\xfcck, wenn der Schmerz zu gro\xdf ist. Und tr\xe4gt ihn still.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kaninchen kehrt nach Hause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neil Armstrong starb am 25. August 2012 in Cincinnati, Ohio &ndash; nach Komplikationen einer Herzbypassoperation. Er wurde zweiundachtzig Jahre alt. Sein letztes Jahrzehnt verbrachte er weitgehend auf seiner Farm in Lebanon, Ohio. Gartenarbeit, Landwirtschaft, der Alltag eines Mannes, der nicht gro\xdf war, weil er es wollte, sondern weil die Geschichte ihn dazu gemacht hat.</p>
+          <p class="vb-intro">Seine Familie ver\xf6ffentlichte nach seinem Tod eine Erkl\xe4rung, die mit einem Satz endete, der Armstrong so gut beschreibt wie kaum ein anderer: <em>Wenn ihr ihn ehren wollt, dann schaut beim n\xe4chsten klaren Abend zum Mond hinauf, winkt und denkt an Neil Armstrong.</em></p>
+          <p class="vb-intro">Das ist die SE6w7: Ein Mensch, der das Gr\xf6\xdfte tat, was ein Mensch bis dahin je getan hatte &ndash; und danach nur noch eines wollte: nach Hause. Das Kaninchen hat den Mond betreten. Und ist zur\xfcckgekehrt, dorthin, wo es hingeh\xf6rte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
       ])}
     </div>
   `);
@@ -39667,6 +39741,7 @@ function render() {
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
+      "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
@@ -40112,7 +40187,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v676';
+  const MY_VERSION = 'inhalt-v677';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

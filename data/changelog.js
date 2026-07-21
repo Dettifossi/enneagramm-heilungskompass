@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Neil Armstrong (SE6w7) – erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den gr\xf6\xdften Schritt tat – und danach nur noch nach Hause wollte.",
+    text_en: "New portrait: Neil Armstrong (SE6w7) – first human on the moon, July 20, 1969. The rabbit that took the greatest step – and afterwards only wanted to go home.",
+    route: "beruehmte-neil-armstrong"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Sundar Pichai (SE6w5) – CEO von Google und Alphabet. Chrome, Android, Gemini. Das Kaninchen, das in einer Branche voller Egomanen durch Stille gewann.",
     text_en: "New portrait: Sundar Pichai (SE6w5) – CEO of Google and Alphabet. Chrome, Android, Gemini. The rabbit that won through silence in an industry full of egomaniacs.",
     route: "beruehmte-sundar-pichai"
