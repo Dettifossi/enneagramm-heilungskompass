@@ -2,6 +2,59 @@
 // route: Hash-Route (ohne #), description: kurze Erläuterung
 export const registerEntries = [
 
+  // Astrologie-Portraits
+  { term: "Albert Einstein (Astrologie)",   route: "astrologie-albert-einstein",    description: "Astrologie-Portrait: Steinbock, Fische-Aszendent, Enneagramm-Typ 5 · Genie, Relativität & innere Freiheit" },
+  { term: "Angela Merkel (Astrologie)",     route: "astrologie-angela-merkel",      description: "Astrologie-Portrait: Krebs, Sagittarius-Aszendent · Physikerin, Kanzlerin, emotionale Stabilität" },
+  { term: "Boris Becker (Astrologie)",      route: "astrologie-boris-becker",       description: "Astrologie-Portrait: Aszendent, Planeten · Tennislegende im astrologischen Spiegel" },
+  { term: "Gerhard Schröder (Astrologie)", route: "astrologie-gerhard-schroeder", description: "Astrologie-Portrait: Kanzler, Machtmensch · Planetenkonstellationen" },
+  { term: "John Lennon (Astrologie)",       route: "astrologie-john-lennon",        description: "Astrologie-Portrait: Waage, Aszendent · Beatle, Frieden & Rebellion" },
+  { term: "Marilyn Monroe (Astrologie)",    route: "astrologie-marilyn-monroe",     description: "Astrologie-Portrait: Zwillinge, Aszendent · Ikone, Verletzlichkeit & Genie" },
+  { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
+  { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
+  { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagramm-Typen und astrologischen Zeichen" },
+
+  // David & Detlef Rathmer – Videos & Seiten
+  { term: "David Rathmer – Erfolgsinterviews", route: "david-rathmer-erfolgsinterviews", description: "David L. Rathmer: Interviews mit Unternehmer-Persönlichkeiten aus Enneagramm-Perspektive" },
+  { term: "David Rathmer – Führung",      route: "david-rathmer-fuehrung",        description: "David L. Rathmer: Enneagramm & Führung – Profiling für Führungskräfte" },
+  { term: "David Rathmer – Grundlagen",      route: "david-rathmer-grundlagen",      description: "David L. Rathmer: Enneagramm-Grundlagen, Einführung & Erklärvideos" },
+  { term: "David Rathmer – Impulse",         route: "david-rathmer-impulse",         description: "David L. Rathmer: Kurzimpulse & Coaching-Gedanken zum Enneagramm" },
+  { term: "David Rathmer – Kriminalpsychologie", route: "david-rathmer-kriminalfaelle", description: "David L. Rathmer: Enneagramm-Analyse bekannter Kriminalpsychologie-Fälle" },
+  { term: "David Rathmer – Persönlichkeiten", route: "david-rathmer-persoenlichkeiten", description: "David L. Rathmer: Enneagramm-Portraits bekannter Persönlichkeiten" },
+  { term: "Detlef Rathmer – Jazz",           route: "detlef-rathmer-jazz",           description: "Detlef Rathmer: Jazz-Empfehlungen passend zu den Enneagramm-Typen" },
+
+  // Homöopathie
+  { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
+  { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
+
+  // Weitere Inhaltsseiten
+  { term: "Berühmte Komponisten",         route: "beruhmte-komponisten",          description: "Portrait-Übersicht: bekannte Komponisten und ihre Enneagramm-Typen" },
+  { term: "Dynamik der Typen",               route: "dynamik-der-typen",             description: "Schaubild: Wie sich die 9 Typen in Stress und Wachstum verändern" },
+  { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagramm-Typ · Playlist-Zuordnungen" },
+  { term: "Persönlichkeitsmodelle im Vergleich", route: "persoenlichkeitsmodelle-vergleich", description: "Schaubild: Enneagramm vs. MBTI, Big Five, DISG und andere Modelle" },
+  { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits persönlicher Wegbegleiter und Lehrfiguren" },
+  { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
+  { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
+
+  // Typ-Portraits (alle 9 Typen)
+  { term: "Porträt Typ 1",               route: "portrait-typ-1",                description: "Persönlichkeitsporträt des Enneagramm-Typs 1 · Wut, Ordnung, Perfektion" },
+  { term: "Porträt Typ 2",               route: "portrait-typ-2",                description: "Persönlichkeitsporträt des Enneagramm-Typs 2 · Stolz, Helfen, Beziehung" },
+  { term: "Porträt Typ 3",               route: "portrait-typ-3",                description: "Persönlichkeitsporträt des Enneagramm-Typs 3 · Eitelkeit, Erfolg, Image" },
+  { term: "Porträt Typ 4",               route: "portrait-typ-4",                description: "Persönlichkeitsporträt des Enneagramm-Typs 4 · Neid, Identität, Tiefe" },
+  { term: "Porträt Typ 5",               route: "portrait-typ-5",                description: "Persönlichkeitsporträt des Enneagramm-Typs 5 · Geiz, Wissen, Rückzug" },
+  { term: "Porträt Typ 6",               route: "portrait-typ-6",                description: "Persönlichkeitsporträt des Enneagramm-Typs 6 · Angst, Sicherheit, Loyalität" },
+  { term: "Porträt Typ 7",               route: "portrait-typ-7",                description: "Persönlichkeitsporträt des Enneagramm-Typs 7 · Maßlosigkeit, Freude, Optionen" },
+  { term: "Porträt Typ 8",               route: "portrait-typ-8",                description: "Persönlichkeitsporträt des Enneagramm-Typs 8 · Wollust, Macht, Direktheit" },
+  { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagramm-Typs 9 · Trägheit, Harmonie, Fusion" },
+
+  // Kriminalpsychologie – fehlende Portraits
+  { term: "Alfons Schuhbeck",               route: "kriminalpsychologie-alfons-schuhbeck", description: "Kriminalpsychologisches Portrait: Starkoch, Steuerhinterziehung, öffentliche Fassade & Kontrollverlust" },
+  { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
+  { term: "Frank Abagnale Jr.",             route: "kriminalpsychologie-frank-abagnale-jr", description: "Kriminalpsychologisches Portrait: Meisterfälscher & Betrüger, Catch Me If You Can" },
+  { term: "Osama bin Laden",                route: "kriminalpsychologie-osama-bin-laden",  description: "Kriminalpsychologisches Portrait: Al-Qaida-Gründer, 11. September, ideologische Zerstörung" },
+  { term: "P. Diddy",                       route: "kriminalpsychologie-p-diddy",           description: "Kriminalpsychologisches Portrait: Hip-Hop-Mogul, Machtmissbrauch, #MeToo-Kontext" },
+  { term: "Vincenzo Peruggia",              route: "kriminalpsychologie-vincenzo-peruggia", description: "Kriminalpsychologisches Portrait: Diebstahl der Mona Lisa 1911, Nationalstolz & Obsession" },
+
+
   // A
   { term: "Adler",                   route: "tierlexikon/se1",              description: "Tierarchetyp des SE1 · Typ 1 · Bauchzentrum" },
   { term: "Angst",                   route: "subtype/sx6",              description: "Leidenschaft Typ 6 → SE6, SO6, SX6" },
