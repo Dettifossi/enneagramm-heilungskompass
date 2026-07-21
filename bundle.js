@@ -11250,7 +11250,7 @@ function veraBirkenbihlPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Das Wissen als Burg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem Naranjo den Namen <strong>Burg</strong> gab: Das eigene Territorium &ndash; das Wissen, der Denkraum, die Methodik &ndash; wird zur Festung. Nicht um andere auszusperren, sondern um sich selbst zu sch\xfctzen: vor dem \xdcberw\xe4ltigtwerden, vor dem Energieverlust, vor dem Leer-Gef\xfchl nach zu viel Kontakt. Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Aufmerksamkeit und Ressourcen. Bei der SE5 zeigt sich das als radikale Selbstgen\xfcgsamkeit: Ich brauche wenig. Aber das, was ich habe, ist meins, und ich verstehe es vollst\xe4ndig.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem Naranjo den Namen <strong>Burg</strong> gab: Das eigene Territorium &ndash; das Wissen, der Denkraum, die Methodik &ndash; wird zur Festung. Nicht um andere auszusperren, sondern um sich selbst zu sch\xfctzen: vor dem \xdcberw\xe4ltigtwerden, vor dem Energieverlust, vor dem Leeregef\xfchl nach zu viel Kontakt. Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Aufmerksamkeit und Ressourcen. Bei der SE5 zeigt sich das als radikale Selbstgen\xfcgsamkeit: Ich brauche wenig. Aber das, was ich habe, ist meins, und ich verstehe es vollst\xe4ndig.</p>
           <p class="vb-intro">Birkenbihl lebte diese Struktur konsequent: Sie blieb unverheiratet, lebte allein, arbeitete auf eigene Rechnung. Kein Verlag, dem sie sich unterordnete &ndash; sie gr\xfcndete ihren eigenen. Keine Institution, der sie verpflichtet war &ndash; sie entwickelte ihre eigenen Methoden. Ihr Wohnort, ihre Arbeitszeit, ihr Themenportfolio: selbstgew\xe4hlt, selbstverantwortet, selbstverwaltet. Das ist die SE5-Burg nicht als R\xfcckzug aus der Welt, sondern als Voraussetzung daf\xfcr, der Welt etwas Eigenes geben zu k\xf6nnen.</p>
           <p class="vb-intro">Ihr erstes gro\xdfes Buch, <em>Stroh im Kopf?</em> (1974), erschien, als sie Ende zwanzig war. Es wurde zu einem der meistverkauften Sachb\xfccher des deutschen Sprachraums. Kein Zufall: Die selbsterhaltende F\xfcnf, die etwas verstanden hat, gibt dieses Verst\xe4ndnis nicht m\xfcndlich weiter &ndash; sie schreibt es auf, strukturiert es, macht es haltbar. Das Buch ist die Burg, die man teilen kann, ohne sie zu verlieren.</p>
         </blockquote>
@@ -39814,7 +39814,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v662';
+  const MY_VERSION = 'inhalt-v663';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
