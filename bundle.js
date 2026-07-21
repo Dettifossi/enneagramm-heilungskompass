@@ -9580,7 +9580,7 @@ function michaelSchumacherPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Am 29. Dezember 2013 verungl\xfcckte Michael Schumacher beim Skifahren im franz\xf6sischen M\xe9ribel. Er fuhr au\xdferhalb der markierten Piste und st\xfcrzte \xfcber Felsen. Das dabei erlittene schwere Sch\xe4del-Hirn-Trauma ver\xe4nderte sein Leben unwiderruflich. Wochenlang lag er im k\xfcnstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen &ndash; in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
           <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts \xfcber seinen Zustand erf\xe4hrt. Nicht als Geste der Abschottung &ndash; sondern als Schutz. <em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>Er ist hier, er ist anders, aber er ist da.</em> Dieser Satz ist alles, was die \xd6ffentlichkeit wei\xdf. Das Rudel h\xe4lt zusammen. Es zeigt die Z\xe4hne gegen\xfcber jedem, der n\xe4her kommen will, als erlaubt ist. Und der Wolf, der jahrzehntelang das Tempo vorgegeben hat, ist jetzt still &ndash; umgeben von denen, die ihm geh\xf6ren.</p>
-          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst gezahlt. Der Rest geh\xf6rt ihm.</p>
+          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst bezahlt. Der Rest geh\xf6rt ihm.</p>
         </blockquote>
 
       </div>
@@ -40404,7 +40404,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v693';
+  const MY_VERSION = 'inhalt-v694';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
