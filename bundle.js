@@ -9012,7 +9012,8 @@ function rihannaPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition der Subtyp, der den Schmerz der Vier nicht nach innen tr\xe4gt, sondern nach au\xdfen wendet &ndash; als Intensit\xe4t, als Verlangen, als Feuer. Naranjo nennt diesen Subtyp <em>Rivalit\xe4t</em>: die brennende \xdcberzeugung, dass andere haben, was einem selbst vorenthalten wurde &ndash; und der Antrieb, sie zu \xfcbertreffen, zu \xfcberbieten, zu \xfcberstrahlen. Das ist kein niedriger Neid. Es ist der Motor eines Menschen, der seine eigene Tiefe sp\xfcrt und wei\xdf: Ich verdiene mehr als das, was man mir zugedacht hat.</p>
           <p class="vb-intro">Diese Energie ist \xfcberall in Rihannas Werk sp\xfcrbar. <em>Umbrella</em> ist keine einfache Hymne &ndash; es ist ein Versprechen von radikaler Loyalit\xe4t unter Bedingungen, die andere davonlaufen lassen. <em>We Found Love</em> feiert das Gef\xfchl, das so gro\xdf ist, dass es fast wehtut. <em>Diamonds</em> spricht von einer Sehnsucht, die sich nicht kleinmachen l\xe4sst. Und <em>Stay</em> &ndash; einer der pers\xf6nlichsten Songs ihres Katalogs &ndash; zeigt eine Frau, die sich in etwas Zerst\xf6rerisches verlieben kann und das wei\xdf und trotzdem bleibt: das Paradox der SX4, das zwischen Verlangen und Vernunft zerrieben wird und dennoch nicht aufgibt.</p>
-          <p class="vb-intro">Das Kapitel um Chris Brown (2009) ist nicht zu umgehen, wenn man Rihanna verstehen will. Die SX4 tr\xe4gt ihre Wunden nicht versteckt wie die SE4 &ndash; sie wird sichtbar damit konfrontiert, ob sie will oder nicht. Das Bild, das nach dem Angriff ver\xf6ffentlicht wurde, ging um die Welt. Rihanna hat sich danach nicht weggeduckt. Sie hat sich neu aufgebaut &ndash; mit Wut, mit Schmerz, mit dem Album <em>Rated R</em>, das klingt wie eine Klinge. Das ist SX4: der Schmerz wird nicht begraben. Er wird zu Kunst.</p>
+          <p class="vb-intro">Das Kapitel um Chris Brown (2009) ist nicht zu umgehen, wenn man Rihanna verstehen will. Chris Brown war damals &ndash; wie Rihanna &ndash; ein junger R&amp;B-Star, die beiden f\xfchrten seit 2008 eine \xf6ffentliche Beziehung. In der Nacht vor der Grammy-Verleihung 2009 griff er sie in einem Auto k\xf6rperlich an und verletzte sie schwer. Der Vorfall wurde angezeigt, Brown bekannte sich schuldig &ndash; und das Bild von Rihannas Verletzungen, das an die Presse gelangte, ging um die Welt. Sie war 21 Jahre alt.</p>
+          <p class="vb-intro">Die SX4 tr\xe4gt ihre Wunden nicht versteckt wie die SE4 &ndash; sie wird sichtbar damit konfrontiert, ob sie will oder nicht. Rihanna hat sich danach nicht weggeduckt. Sie hat sich neu aufgebaut &ndash; mit Wut, mit Schmerz, mit dem Album <em>Rated R</em>, das klingt wie eine Klinge: dunkel, kantig, unverz\xe4rtelt. Das ist SX4: der Schmerz wird nicht begraben. Er wird zu Kunst.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierfl\xfcgel: Aus Gef\xfchl wird Marke</h2>
@@ -39664,7 +39665,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v655';
+  const MY_VERSION = 'inhalt-v656';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
