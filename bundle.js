@@ -9552,7 +9552,7 @@ function michaelSchumacherPortraitPage() {
 
         <h2 class="vb-section">2. Die St\xe4rke: Angst als Antrieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
           <p class="vb-intro">Schumacher war bekannt f\xfcr eine k\xf6rperliche und mentale Vorbereitung, die damals in der Formel 1 ohnegleichen war. Er trainierte wie ein Leistungssportler &ndash; Ausdauer, Reflexe, Nackenmuskulatur. Er kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verbl\xfcffte. Er hinterfragte, analysierte, verfeinerte &ndash; und wenn er ins Auto stieg, war die Angst vor dem Versagen l\xe4ngst in Vorbereitung verwandelt worden. Das ist die SX6: <em>Ich \xfcberhole die Bedrohung, bevor sie mich \xfcberholt.</em></p>
           <p class="vb-intro">Sein Rudel war das Ferrari-Team. Die Jahre 2000 bis 2004, in denen er f\xfcnf Titel in Serie gewann, waren kein Soloprojekt &ndash; sie waren das Ergebnis eines Kollektivs, das sich um ihn herum aufgebaut hatte: Jean Todt, Ross Brawn, Rory Byrne. Schumacher war loyal bis in die Knochen, und das Team war loyal zur\xfcck. Der Wolf und sein Rudel.</p>
         </blockquote>
@@ -40404,7 +40404,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v690';
+  const MY_VERSION = 'inhalt-v691';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
