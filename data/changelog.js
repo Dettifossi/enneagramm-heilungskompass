@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4) – Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken. Der Igel, der fast nie auftrat – und dessen Musik zweihundert Jahre sp\xe4ter noch klingt.",
+    text_en: "New portrait: Fr\xe9d\xe9ric Chopin (SX5w4) – composer, pianist. Nocturnes, \xe9tudes, mazurkas. The hedgehog who almost never performed – and whose music still resonates two hundred years later.",
+    route: "beruehmte-frederic-chopin"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: G\xfcnther Jauch (SO5w6) – Moderator, Journalist, Wer wird Million\xe4r?. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
     text_en: "New portrait: G\xfcnther Jauch (SO5w6) – TV presenter, journalist, Who Wants to Be a Millionaire?. The octopus that moderated the nation’s knowledge for decades – while never truly becoming visible himself.",
     route: "beruehmte-guenther-jauch"

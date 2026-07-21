@@ -390,6 +390,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"G\xfcnther Jauch – Sozialer Typ 5",
     teaser:"SO5w6 \xb7 geb. 1956, M\xfcnster. Moderator, Journalist, Produzent. Wer wird Million\xe4r?, stern TV, ARD-Sonntagstalk. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
     tags:["Medien","Fernsehen"], gender:"m"},
+  { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
+    heading:"Fr\xe9d\xe9ric Chopin – Sexueller Typ 5",
+    teaser:"SX5w4 \xb7 1810–1849. Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken, Balladen. Der Igel, der fast nie auftrat – und dessen Musik zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal klingt.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
@@ -11043,6 +11047,75 @@ function taylorSwiftPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function fredericChopinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fr&eacute;d&eacute;ric Chopin</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Komponist, Pianist, 1810&ndash;1849 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; nachtaktiv, still, mit Stacheln aus Instinkt, nicht aus Bosheit. Wer ihn antrifft, bemerkt sofort: Das hier ist kein Tier, das sich zeigt. Es rollt sich zusammen. Es wartet. Und nur wer wirklich vertraut ist, bekommt zu sehen, was darunter liegt.</p>
+          <p class="vb-intro">Fr&eacute;d&eacute;ric Chopin lebte neununddreißig Jahre &ndash; und in dieser Zeit komponierte er ein Werk, das bis heute so klingt wie kein anderes: als \xf6ffne sich jemand vollst\xe4ndig, aber nur am Klavier. In Salons, nicht in Konzerths\xe4len. F\xfcr wenige, nicht f\xfcr viele. Er gab in seinem gesamten Leben kaum dreißig \xf6ffentliche Konzerte. Den Rest der Zeit arbeitete er, liebte er &ndash; und schrieb Musik, die mehr von ihm preisgab, als er jemals in Worten gesagt h\xe4tte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Vertrauen: die eine Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 5 den <strong>Kontratyp</strong> der F\xfcnf &ndash; weil die sexuelle Energie den Geiz der Fünf durchbricht und nach tiefer, intensiver Verbindung sucht. Sein Schl\xfcsselbegriff f\xfcr diesen Subtyp: <em>Vertrauen</em>. Die SX5 sucht nicht Distanz, sondern die <em>eine</em> Verbindung, die alles tr\xe4gt. Die Stacheln gelten der Welt &ndash; nicht der Person, der man wirklich vertraut.</p>
+          <p class="vb-intro">Chopins große Verbindung war <strong>George Sand</strong>, die Schriftstellerin Aurore Dudevant. Sie begegneten sich 1836 in Paris. Zwei Jahre sp\xe4ter, im Winter 1838/39, reisten sie gemeinsam nach Mallorca &ndash; Chopin krank, das Klima rau, die Unterkunft karg. Er komponierte dort die <em>Pr\xe4ludien op. 28</em>, eines seiner dichtesten Werke. Die Isolation des Winters, die N\xe4he zu George Sand, die Todesn\xe4he der Tuberkulose &ndash; all das ist in diesen Miniaturen.</p>
+          <p class="vb-intro">Neun Jahre dauerte die Beziehung, von 1838 bis 1847. Sie endete bitter &ndash; \xfcber einen Streit, in dem es um Erziehungsfragen und ihren Sohn Maurice ging, nicht um die Liebe selbst. Nach der Trennung komponierte Chopin kaum noch. Als wäre die Verbindung, die ihn getragen hatte, mit ihr verschwunden. Die SX5 hat nur wenige solcher Verbindungen. Bricht eine, bricht etwas Wesentliches.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Heimweh als Komposition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt der sexuellen F\xfcnf etwas Entscheidendes hinzu: den Schmerz des Verlusts als k\xfcnstlerischen Antrieb. Die reine SX5 w\xfcrde sich vielleicht verschließen. Der Viererfl\xfcgel macht aus dieser Verschlossenheit Kunst &ndash; er verwandelt das Ungesprochene in Form, den Schmerz in Klang.</p>
+          <p class="vb-intro">Chopin verließ Polen 1830, kurz bevor der Novemberaufstand gegen die russische Besatzung scheiterte. Er kehrte nie zur\xfcck. Warschau, die Weichsel, die Birkenw\xe4lder seiner Kindheit &ndash; das alles blieb hinter ihm, und er wusste nach dem Scheitern des Aufstands, dass es kein Zur\xfcck gab. Diese Sehnsucht zieht sich durch sein gesamtes Werk: Die <strong>Mazurken</strong> &ndash; achtundneunzig an der Zahl &ndash; sind keine folkloristischen Kostüme. Sie sind der Versuch eines Exilanten, die Heimat im Klang festzuhalten.</p>
+          <p class="vb-intro">Der Viererfl\xfcgel erkl\xe4rt auch seine k\xfcnstlerische Eigenart: Chopin schrieb keine Symphonien, keine Opern, kaum Kammermusik. Er komponierte fast ausschließlich f\xfcr Soloklavier. Das Klavier war seine Intimsph\xe4re &ndash; sein Igelbau. In diesem Raum \xf6ffnete er sich vollst\xe4ndig. Draußen: Stacheln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Pianissimo als Sprache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chopins Werk ist klein im Umfang und unermesslich in der Wirkung. Rund zweihundert Kompositionen &ndash; fast alle f\xfcr Klavier solo. Die <strong>Nocturnes</strong>: einundzwanzig N\xe4chtkl\xe4nge, von denen jeder eine andere Art von Stille beschreibt. Die <strong>&Eacute;tuden op. 10 und op. 25</strong>: technische \xdcbungsst\xfccke, die zugleich Meisterwerke der emotionalen Verdichtung sind. Die <strong>Balladen</strong>: vier Werke, die Erz\xe4hlung und Leidenschaft auf eine Weise verbinden, die die Gattung neu definierte.</p>
+          <p class="vb-intro">Franz Liszt, der gl\xe4nzende Performer und Gegenpol, spielte große S\xe4le &ndash; Chopin mochte keine große B\xfchne. Er spielte in den Salons des Pariser B\xfcrgertums, beim Abenddunkel, f\xfcr vielleicht dreißig Menschen. Robert Schumann schrieb \xfcber Chopins op. 2 den Satz: <em>H\xfcte ab, ihr Herren, ein Genie.</em> Das Genie saß selbst lieber im Hintergrund.</p>
+          <p class="vb-intro">Was bleibt, ist die Pr\xe4zision. Kein Ton zu viel, kein Ausdruck ohne Grund. Die SX5w4 verschwendet nichts &ndash; sie destilliert. Was aus diesem Destillat entsteht, h\xf6rt man zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal der Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Stacheln und Erschöpfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist die F\xe4higkeit zur <strong>k\xfcnstlerischen Selbst\xf6ffnung</strong> &ndash; vollst\xe4ndig, rückhaltlos, aber nur im eigenen Medium. Chopin hat in seiner Musik mehr preisgegeben als die meisten Menschen in einem Leben. Diese Ehrlichkeit ist das Geschenk seiner Kombination: der Kontratyp, der sich zeigt &ndash; aber nur dort, wo er wirklich zu Hause ist.</p>
+          <p class="vb-intro">Der Schatten: die Erschöpfung. Der Geiz der F\xfcnf gilt bei der SX5 nicht dem Geld, sondern der <strong>Energie</strong>. Chopin war k\xf6rperlich fr\xfch gebrechlich &ndash; die Tuberkulose begleitete ihn seit den zwanziger Jahren seines Lebens. Aber er erschöpfte sich auch in anderer Weise: durch die Intensit\xe4t der einen Verbindung, durch die Kompromisslosigkeit des k\xfcnstlerischen Anspruchs, durch das Exil, das er nie verarbeitete. Nach der Trennung von George Sand 1847 brach er ein. Die letzten zwei Jahre seines Lebens waren von Schw\xe4che, Einsamkeit und dem Gest\xe4ndnis gepr\xe4gt, kaum noch komponieren zu k\xf6nnen.</p>
+          <p class="vb-intro">Er starb am 17. Oktober 1849 in Paris, neununddreißig Jahre alt. Sein letzter Wunsch: dass man bei seiner Beerdigung Mozarts Requiem spielen solle. Ein Mensch, der selbst nie aufgehört hatte zu fragen, was nach der Stille kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Herz in Warschau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chopin wurde auf dem Friedhof P\xe8re Lachaise in Paris begraben &ndash; wo er noch heute liegt. Aber sein <strong>Herz</strong> liegt in Warschau. Seine Schwester Ludwika schmuggelte es in einer Urne aus Paris heraus, durch Grenzen, die dem Toten feindlich gewesen w\xe4ren wie dem Lebenden. Heute ruht es in der Heiligkreuzkirche in Warschau, eingemauert in einem S\xe4ulenpfeiler.</p>
+          <p class="vb-intro">Es gibt kaum ein treffenderes Bild f\xfcr den SX5w4: Der K\xf6rper bleibt im Exil. Das Herz kehrt heim. Was er niemals als Mensch zur\xfcckgeben konnte &ndash; die R\xfcckkehr nach Polen, die Ber\xfchrung des Bodens, auf dem er Kind war &ndash; das schenkte er sich im Tod.</p>
+          <p class="vb-intro">Und die Musik? Die bleibt \xfcberall. Das ist vielleicht das Geheimnis des Igels: Was er in sich tr\xe4gt, teilt er nicht leichtfertig. Aber wenn er es teilt, tr\xe4gt es Jahrhunderte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
       ])}
     </div>
   `);
@@ -39523,6 +39596,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
+      "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
@@ -39962,7 +40036,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v669';
+  const MY_VERSION = 'inhalt-v670';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
