@@ -11271,7 +11271,7 @@ function veraBirkenbihlPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Die Eule in der Burg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w6 liegt in ihrer F\xe4higkeit, komplexe Zusammenh\xe4nge so zu durchdringen, dass sie lehrbar werden. Vera Birkenbihl hat Generationen von Trainern, P\xe4dagogen und Eltern ein Vokabular gegeben, um \xfcber Lernen nachzudenken. Sie hat den Begriff <em>gehirngerecht</em> in die Alltagssprache gebracht. Das ist das Geschenk der Eule: Klarheit, die bleibt, lange nachdem die Eule selbst fort ist.</p>
+          <p class="vb-intro">Das Licht der SE5w6 liegt in ihrer F\xe4higkeit, komplexe Zusammenh\xe4nge so zu durchdringen, dass sie lehrebar werden. Vera Birkenbihl hat Generationen von Trainern, P\xe4dagogen und Eltern ein Vokabular gegeben, um \xfcber Lernen nachzudenken. Sie hat den Begriff <em>gehirngerecht</em> in die Alltagssprache gebracht. Das ist das Geschenk der Eule: Klarheit, die bleibt, lange nachdem die Eule selbst fort ist.</p>
           <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; nicht als Knauserigkeit mit Geld, sondern als das tief verwurzelte Gef\xfchl, nicht genug Energie zu haben, um sich vollst\xe4ndig zu geben. Bei der SE5 zeigt sich das als Neigung zum R\xfcckzug, als Tendenz, Systeme wichtiger zu nehmen als Menschen, als Schwierigkeit, wirklich in Kontakt zu treten ohne das Gef\xfchl, dabei etwas zu verlieren. Birkenbihls Werk war enorm &ndash; und dennoch blieb sie als Person schwer greifbar. Die Burg war gut gebaut.</p>
           <p class="vb-intro">Der Sechserfl\xfcgel kann die Skepsis in Misstrauen kippen lassen &ndash; eine Welt voller falscher Systeme, gegen die man sich behaupten muss. Bei Birkenbihl blieb die Skepsis produktiv: Sie verwandelte sich in Fragen, die Fragen in Methoden und die Methoden in Werke, die bis heute gelesen und genutzt werden.</p>
         </blockquote>
@@ -39814,7 +39814,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v661';
+  const MY_VERSION = 'inhalt-v662';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
