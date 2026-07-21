@@ -314,14 +314,14 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
     tags:["Politik"] , gender:"f"},
-  { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
-    heading:"Karoline Herfurth – Selbsterhaltende Typ 4",
-    teaser:"SE4w5 \xb7 geb. 1984, Berlin. Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe, k\xfcnstlerische Pr\xe4zision, und eine Menschlichkeit hinter der Kamera, die das Sch\xf6ne am Verletzlichen sucht.",
-    tags:["Film"], gender:"f"},
   { route:"beruehmte-tim-bendzko", name:"Tim Bendzko", added:"2026-07-21", subtyp:"SE4w3",
     heading:"Tim Bendzko – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · geb. 1985, Berlin. Sänger, Songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
+    heading:"Karoline Herfurth – Selbsterhaltende Typ 4",
+    teaser:"SE4w5 \xb7 geb. 1984, Berlin. Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe, k\xfcnstlerische Pr\xe4zision, und eine Menschlichkeit hinter der Kamera, die das Sch\xf6ne am Verletzlichen sucht.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
@@ -39589,7 +39589,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v653';
+  const MY_VERSION = 'inhalt-v654';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
