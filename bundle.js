@@ -346,6 +346,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-rihanna", name:"Rihanna", added:"2026-07-21", subtyp:"SX4w3",
+    heading:"Rihanna – Sexueller Typ 4",
+    teaser:"SX4w3 \xb7 geb. 1988, Barbados. S\xe4ngerin, Unternehmerin, Stil-Ikone. Umbrella, Diamonds, Fenty Beauty. Der Chihuahua aus Bridgetown, der die Schönheitsindustrie auf den Kopf stellte – roh, unerschrocken, unvergleichlich.",
+    tags:["Musik","Business"], gender:"f"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
@@ -8977,6 +8981,76 @@ function freddieMercuryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function rihannaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rihanna-portrait.jpg" alt="Rihanna" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rihanna</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">S\xe4ngerin, Unternehmerin, geb. 1988, Barbados &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua aus Barbados</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und das Tier, das am wenigsten beeindruckt davon ist. Er bellt, wenn er will. Er stellt sich hin, wenn er will. Er l\xe4sst sich nicht einsch\xfcchtern durch Gr\xf6\xdfe, durch Lautst\xe4rke, durch Erwartung. Hinter dieser Keckheit steckt aber kein blo\xdfes Auftrumpfen &ndash; sondern ein Wesen von tiefer Empfindlichkeit, das gelernt hat, sich zu sch\xfctzen, indem es sich nichts anmerken l\xe4sst. Der Chihuahua liebt intensiv, leiden leidenschaftlich und h\xe4lt sich an dem fest, dem er vertraut.</p>
+          <p class="vb-intro">Robyn Rihanna Fenty kommt aus Bridgetown, Barbados &ndash; einer kleinen karibischen Insel, die die Welt kaum auf dem Schirm hatte, als ein 15-j\xe4hriges M\xe4dchen vor einem amerikanischen Musikproduzenten vorsang. Was folgte, ist einer der bemerkenswertesten Aufstiege in der Geschichte der Popmusik: vom Kind aus dem Karibik zur globalsten Entertainerin ihrer Generation, zur Unternehmerin, die eine Milliarden-Industrie aufgebaut hat &ndash; und dabei nie aufgeh\xf6rt hat, sie selbst zu sein. Das ist der Chihuahua: klein, woher er kommt. Unaufhaltsam, wohin er geht.</p>
+          <p class="vb-intro">Rihannas Kindheit war kein Idyll. Ihr Vater k\xe4mpfte mit Alkohol- und Drogenabh\xe4ngigkeit, die Eltern trennten sich, als sie elf Jahre alt war. Die Gro\xdfst\xe4dte der Welt &ndash; New York, Los Angeles, London &ndash; waren ihr damals so fern wie ein anderer Planet. Was sie hatte, war eine Stimme, ein Wille und die Bereitschaft, alles daf\xfcr zu tun. Das ist nicht Gl\xfcck. Das ist der Stoff, aus dem die sexuelle Vier gemacht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalit\xe4t als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition der Subtyp, der den Schmerz der Vier nicht nach innen tr\xe4gt, sondern nach au\xdfen wendet &ndash; als Intensit\xe4t, als Verlangen, als Feuer. Naranjo nennt diesen Subtyp <em>Rivalit\xe4t</em>: die brennende \xdcberzeugung, dass andere haben, was einem selbst vorenthalten wurde &ndash; und der Antrieb, sie zu \xfcbertreffen, zu \xfcberbieten, zu \xfcberstrahlen. Das ist kein niedriger Neid. Es ist der Motor eines Menschen, der seine eigene Tiefe sp\xfcrt und wei\xdf: Ich verdiene mehr als das, was man mir zugedacht hat.</p>
+          <p class="vb-intro">Diese Energie ist \xfcberall in Rihannas Werk sp\xfcrbar. <em>Umbrella</em> ist keine einfache Hymne &ndash; es ist ein Versprechen von radikaler Loyalit\xe4t unter Bedingungen, die andere davonlaufen lassen. <em>We Found Love</em> feiert das Gef\xfchl, das so gro\xdf ist, dass es fast wehtut. <em>Diamonds</em> spricht von einer Sehnsucht, die sich nicht kleinmachen l\xe4sst. Und <em>Stay</em> &ndash; einer der pers\xf6nlichsten Songs ihres Katalogs &ndash; zeigt eine Frau, die sich in etwas Zerst\xf6rerisches verlieben kann und das wei\xdf und trotzdem bleibt: das Paradox der SX4, das zwischen Verlangen und Vernunft zerrieben wird und dennoch nicht aufgibt.</p>
+          <p class="vb-intro">Das Kapitel um Chris Brown (2009) ist nicht zu umgehen, wenn man Rihanna verstehen will. Die SX4 tr\xe4gt ihre Wunden nicht versteckt wie die SE4 &ndash; sie wird sichtbar damit konfrontiert, ob sie will oder nicht. Das Bild, das nach dem Angriff ver\xf6ffentlicht wurde, ging um die Welt. Rihanna hat sich danach nicht weggeduckt. Sie hat sich neu aufgebaut &ndash; mit Wut, mit Schmerz, mit dem Album <em>Rated R</em>, das klingt wie eine Klinge. Das ist SX4: der Schmerz wird nicht begraben. Er wird zu Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\xfcgel: Aus Gef\xfchl wird Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\xfcgel (w3)</strong> gibt der sexuellen Vier etwas Entscheidendes: die F\xe4higkeit, das eigene Erleben nicht nur zu empfinden, sondern zu gestalten &ndash; und in Wirkung zu verwandeln. Wo die reine SX4 im Feuer der eigenen Emotionen versinken k\xf6nnte, bringt der Dreierfl\xfcgel Ambition, Handwerk und ein feines Gesp\xfcr daf\xfcr, was wirkt. Diese Kombination macht aus intensivem Erleben eine Karriere &ndash; und aus einer Karriere ein Imperium.</p>
+          <p class="vb-intro">Der w3 ist in Rihannas gesamter \xe4sthetischer Entwicklung sp\xfcrbar: die pr\xe4zise Kalkulation des Images, das sich mit jedem Album ver\xe4ndert hat. Von der s\xfc\xdfen karibischen Pop-Newcomerin \xfcber die aufgew\xfchlte, dunkle Energie von <em>Rated R</em> bis hin zur unbek\xfcmmerten Sinnlichkeit von <em>Loud</em> und schlie\xdflich zur reifen, eigenst\xe4ndigen Meisterschaft von <em>Anti</em> &ndash; jede Phase war eine bewusste Neuerfindung. Die SX4 f\xfchlt sich echt. Der w3 sorgt daf\xfcr, dass das Echte auch ankommt.</p>
+          <p class="vb-intro">Besonders deutlich wird das in <em>Anti</em> (2016), Rihannas siebtem und bis heute letztem Studioalbum. Es ist das erste, das vollst\xe4ndig ihre eigene Vision tr\xe4gt: kein Formatradio-Kompromiss, keine vorhersehbare Single-Struktur. <em>Anti</em> klingt wie jemand, der aufgeh\xf6rt hat, um Erlaubnis zu fragen. Das ist das Beste, was w3 der SX4 geben kann: die Werkzeuge, um das Innerste in eine Form zu bringen, die niemand ignorieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fenty Beauty und die Revolution der Sch\xf6nheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2017 ver\xe4nderte Rihanna die Kosmetikindustrie mit einem einzigen Produktlaunch: <strong>Fenty Beauty</strong> &ndash; 40 Foundation-T\xf6ne, von Elfenbein bis zum tiefsten Dunkelbraun. Was selbstverst\xe4ndlich klingt, war es nicht: Die Branche hatte Jahrzehnte lang dunklere Hauttinten als Nischenprodukt behandelt oder ignoriert. Rihanna hat das nicht als Marketingstrategie formuliert. Sie hat es als Selbstverst\xe4ndlichkeit behandelt &ndash; und damit die Unverst\xe4ndlichkeit der Industrie bl\xf6\xdfgestellt.</p>
+          <p class="vb-intro">Diese Geste ist zutiefst SX4w3: Die SX4 wei\xdf aus eigener Erfahrung, was es bedeutet, nicht gesehen zu werden. Die SX4 aus Barbados, die auf Schritt und Tritt mit einem Sch\xf6nheitsideal konfrontiert war, das nicht ihr Gesicht abbildete, hat diese Erfahrung nicht vergessen &ndash; sie hat sie in ein Gesch\xe4ftsmodell verwandelt. Und der w3 hat daf\xfcr gesorgt, dass dieses Modell so pr\xe4zise und konsequent ausgef\xfchrt wurde, dass die Konkurrenz innerhalb weniger Monate nachziehen musste.</p>
+          <p class="vb-intro">Savage X Fenty, ihre Dessous-Linie, f\xfchrte denselben Gedanken weiter: alle K\xf6rperformen, alle Hautfarben, alle Gr\xf6\xdfen als Norm &ndash; nicht als Ausnahme. Das ist nicht Wohlmeinung. Das ist Vision. Und ihre kurzlebige, aber historisch bedeutsame Modemarke Fenty bei LVMH (erstes neues Modehaus des Konzerns seit Christian Lacroix 1987) zeigte, dass Rihanna nicht in Kategorien denkt &ndash; sie denkt in Ebenen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Feuer, das tr\xe4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das tiefe Gef\xfchl, dass andere eine Vollst\xe4ndigkeit besitzen, die einem selbst fehlt. Bei der SX4 tr\xe4gt dieser Neid ein pers\xf6nlicheres, sch\xe4rferes Gesicht: <em>Du hast, was mir vorenthalten wurde &ndash; und ich werde dich \xfcbertreffen.</em> Dieser Antrieb hat Rihanna weit gebracht. Aber er hat auch seinen Preis.</p>
+          <p class="vb-intro">Die Jahre zwischen <em>Anti</em> (2016) und dem Super-Bowl-Auftritt (2023) waren sieben Jahre Stille als Musikerin &ndash; sieben Jahre, in denen Rihanna Kinder gebar, Unternehmen f\xfchrte und offenbar nicht das Bed\xfcrfnis hatte, f\xfcr die Musik zur\xfcckzukehren, bis die Bedingungen ihre eigenen waren. Als sie beim Super Bowl LVII auftrat &ndash; sichtbar schwanger, nach sieben Jahren Pause, allein auf einer schwebenden Plattform, ein halbes Dutzend riesiger Screens, kein Gaststar &ndash; war das eine Erkl\xe4rung ohne Worte: <em>Ich brauche keine Erlaubnis. Ich erscheine, wenn ich bereit bin.</em></p>
+          <p class="vb-intro">Das Licht der SX4w3 liegt in dieser F\xe4higkeit zur vollst\xe4ndigen Selbstbestimmung &ndash; auch um den Preis des Unverst\xe4ndnisses. Der Schatten liegt in der Gefahr, das Feuer nach innen zu wenden: wenn die Rivalit\xe4t sich gegen einen selbst richtet, wenn der Anspruch \xfcberw\xe4ltigt, wenn die Intensit\xe4t keine Richtung mehr hat. Rihanna hat beides gekannt. Und sie ist, bisher, jedes Mal zur\xfcckgekommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der sich selbst geh\xf6rt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier f\xfchrt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich bin, ist einmalig &ndash; und es ist meines.</em> F\xfcr die SX4w3 bedeutet das, die Rivalit\xe4t nicht aufzugeben, sondern sie zu l\xe4utern: nicht mehr k\xe4mpfen, weil man sich beweisen muss, sondern gestalten, weil man etwas zu sagen hat. Diese Verschiebung ist leise &ndash; aber sie ver\xe4ndert alles.</p>
+          <p class="vb-intro">In Rihannas Biografie l\xe4sst sich dieser Weg ahnen. Die fr\xfche S\xe4ngerin hat K\xe4mpfe ausgefochten &ndash; mit der Industrie, mit der \xd6ffentlichkeit, mit den Erwartungen, die an sie herangetragen wurden. Die sp\xe4tere Rihanna hat aufgeh\xf6rt zu k\xe4mpfen und angefangen zu gestalten. Fenty Beauty ist kein Kampf gegen die Sch\xf6nheitsindustrie &ndash; es ist ein Entwurf, wie Sch\xf6nheit sein k\xf6nnte. <em>Anti</em> ist kein Protest gegen das Formatradio &ndash; es ist ein Vorschlag, was Musik sein k\xf6nnte, wenn man aufh\xf6rt, um Erlaubnis zu fragen.</p>
+          <p class="vb-intro">Der Chihuahua aus Bridgetown hat die Welt nicht durch Gr\xf6\xdfe erobert. Er hat sie durch Intensit\xe4t ver\xe4ndert &ndash; durch die Weigerung, kleiner zu sein, als er ist, und durch die Bereitschaft, genau das zu zeigen, was die meisten verbergen w\xfcrden. Was bleibt, ist eine Stimme, ein Gesicht und eine Haltung, die man nicht vergisst. Das ist SX4w3. Das ist Rihanna.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Portr\xe4t: Freddie Mercury (SX4w3)"},
       ])}
     </div>
   `);
@@ -39123,6 +39197,7 @@ function render() {
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
+      "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
@@ -39589,7 +39664,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v654';
+  const MY_VERSION = 'inhalt-v655';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

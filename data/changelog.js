@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Rihanna (SX4w3) – S\xe4ngerin, Unternehmerin. Umbrella, Diamonds, Fenty Beauty. Der Chihuahua aus Barbados, der die Sch\xf6nheitsindustrie auf den Kopf stellte.",
+    text_en: "New portrait: Rihanna (SX4w3) – singer, entrepreneur. Umbrella, Diamonds, Fenty Beauty. The chihuahua from Barbados who turned the beauty industry upside down.",
+    route: "beruehmte-rihanna"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Porträt: Karoline Herfurth (SE4w5) – Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe und künstlerische Präzision.",
     text_en: "New portrait: Karoline Herfurth (SE4w5) – actress, director. The dove that observes before it lands – inner depth and artistic precision.",
     route: "beruehmte-karoline-herfurth"
