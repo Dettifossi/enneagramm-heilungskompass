@@ -458,6 +458,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jasmine Paolini – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
     tags:["Sport"] , gender:"f"},
+  { route:"beruehmte-wallace-shawn", name:"Wallace Shawn", added:"2026-07-21", subtyp:"SE7w6",
+    heading:"Wallace Shawn – Selbsterhaltender Typ 7",
+    teaser:"SE7w6 · geb. 1943 in New York. Schauspieler, Bühnenautor, Essayist. Vizzini in „Die Prinzessin Braut“, Rex in „Toy Story“, André in „Mein Abendessen mit André“. Der Gorilla, der beim Mittagessen über Kapitalismus und Tod nachdenkt – und dabei jeden zum Lachen bringt.",
+    tags:["Schauspiel","Literatur"], gender:"m"},
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
@@ -11736,6 +11740,74 @@ function veraBirkenbihlPortraitPage() {
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
       ])}
+    </div>
+  `);
+}
+
+function wallaceShawnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wallace-shawn-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wallace Shawn</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Bühnenautor, Essayist, geb. 1943 in New York</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das mächtigste Tier des Regenwaldes – und das friedlichste. Er ist kein Jäger. Er sucht keine Konfrontation. Er sitzt, isst, denkt, beobachtet. Er ist groß und eindrucksvoll, und trotzdem fällt er im Unterholz kaum auf – weil er gar nicht auffallen will. Der Gorilla lebt in der Gruppe, pflegt seine Beziehungen, schützt die Seinen, und er liebt das Essen – als sinnliches Vergnügen, als sozialen Akt, als Beweis dafür, dass das Leben gut sein kann.</p>
+          <p class="vb-intro">Wallace Shawn ist klein, kahlköpfig, hat eine nasale Stimme, die man nicht vergisst, und spielt seit Jahrzehnten Schurken, Tröpfe und Selbstüberschatzer in Filmen, in denen irgendwer am Ende <em>Inconceivable!</em> ruft. Dabei ist er einer der klugsten Köpfe der amerikanischen Intellektuellenszene – Sohn des Chefredakteurs des <em>New Yorker</em>, ausgebildet in Harvard und Oxford, Verfasser von Bühnenstücken, die das Off-Theater der 1970er und 1980er Jahre prägten. Wallace Shawn ist der Gorilla: er sieht gemütlich aus – und trägt das Schüwergewicht der Ideen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: Vergnügen als Weltanschauung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> – weil dieser Subtyp Sicherheit und Freude nicht in der großen Welt sucht, sondern im engsten Kreis. Er baut Nester aus Vertrautheit, Wärme und sinnlichem Vergnügen. Essen, Gespräch, Musik, Lachen, gute Menschen am Tisch: das sind keine Luxusgüter des SE7, sondern existenzielle Bedürfnisse. Die Freude ist kein Zusatz zum Leben – sie ist das Leben selbst.</p>
+          <p class="vb-intro">Shawn lebt seit Jahrzehnten mit der Schriftstellerin Deborah Eisenberg zusammen, ohne je öffentlich zu heiraten. Er spricht mit einer Warmherzigkeit über Freundschaften und intellektuelle Gespräche, die er kaum von Liebe unterscheidet. Sein berühmtestes Werk – <em>Mein Abendessen mit André</em> (<em>My Dinner with Andre</em>, 1981) – ist buchstäblich ein Film über ein Abendessen: zwei Freunde reden, zwei Stunden lang, über Bewusstsein, Theater, Leben und Tod. Kein Held, keine Action, keine Romanzen. Nur Gespräch als Lebenselixier. Der SE7 in Reinform: das Tischgespräch als höchste Kunstform.</p>
+          <p class="vb-intro">Shawn wurde 1943 als Sohn von William Shawn geboren, der den <em>New Yorker</em> von 1952 bis 1987 leitete. Er wuchs in einem Haus auf, in dem Ideen, Worte und intellektuelle Neugier das Klima bildeten wie anderswo Wetter. Dieses Nest hat er nie wirklich verlassen – er hat es vergrößert, bevölkert, mit Gleichgesinnten gefüllt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität und Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt dem selbsterhaltenden Siebener etwas, das die reine SE7 allein nicht immer entwickelt: ein stabiles ethisches Rückgrat. Wo die SE7 zur Zerstreuung neigt, zur Vermeidung des Unbehagens durch Vergnügen, gibt der w6-Flügel den Mut, beim Unbehaglichen zu bleiben – und es in Worte zu fassen, auch wenn es wehtut.</p>
+          <p class="vb-intro">Shawn ist seit den 1970er Jahren politisch aktiv – nicht als Politiker, sondern als Essayist und Bühnenautor. Seine Stücke – <em>The Fever</em>, <em>Grasses of a Thousand Colors</em>, <em>The Designated Mourner</em> – kreisen um Schuld, Privilegien und die Frage, warum Menschen, die es besser wissen sollten, trotzdem schweigen. In <em>The Fever</em> sitzt eine wohlhabende Person in einem Hotelzimmer in der Dritten Welt und kann nicht mehr einschlafen, weil sie plötzlich versteht, was ihr Wohlstand bedeutet. Das ist kein Unterhaltungsstück. Das ist ein Gewissensmonolog – der sich selbst nicht verschont.</p>
+          <p class="vb-intro">Der Sechserflügel macht den Gorilla loyal und ernsthaft. Er sorgt dafür, dass das Vergnügen nie ganz naiv bleibt. Shawn lacht viel – und er weiß immer, worein er lacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwischen Vizzini und dem Bücherschrank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wallace Shawn ist als Schauspieler vor allem durch zwei Rollen bekannt: <strong>Vizzini</strong> in <em>Die Prinzessin Braut</em> (1987) – der kühl kalkulierende Schurke, der immer wieder <em>&bdquo;Inconceivable!&ldquo;</em> ruft, während die Dinge geschehen, die er für ausgeschlossen hielt – und <strong>Rex</strong>, den ängstlichen Spielzeugdinosaurier in der <em>Toy-Story</em>-Reihe (seit 1995), der trotz gewaltiger Zähne vor allem eines ist: besorgt. Beide Rollen tragen die SE7w6 im Kern: Freude und Angst, Selbstüberschätzung und Zweifel, Charme und intellektuelle Überheblichkeit.</p>
+          <p class="vb-intro">Als Bühnenautor ist sein Werk dunkler und anspruchsvoller: <em>Our Late Night</em> (1975) war sein Durchbruch; <em>My Dinner with Andre</em> (1981, gemeinsam mit Regisseur Louis Malle und dem Regisseur und Theaterautor Andre Gregory geschrieben und gespielt) wurde zum Kultfilm einer Generation intellektueller New Yorker. Später folgten <em>The Fever</em> (1990), <em>The Designated Mourner</em> (1996) und <em>Grasses of a Thousand Colors</em> (2009) – Stücke, die kaum auf deutschsprachigen Bühnen zu sehen sind, aber im englischsprachigen Raum als Schlüsseltexte des politischen Theaters gelten.</p>
+          <p class="vb-intro">Nebenbei erschienen in den Zeitschriften und auf den Webseiten Aufsätze über Krieg, Kapitalismus, Schuld und Moral – Essays, die nicht nach Aufmerksamkeit greifen, sondern nach Wahrhaftigkeit. Der Gorilla denkt, isst, schreibt, spielt, lädt Freunde ein – und macht daraus ein Leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der kleinste Mann im Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht des SE7w6 ist seine <strong>Fähigkeit zur Freude ohne Selbstäuschung</strong>. Shawn kann lachen und gleichzeitig wissen, dass Lachen nicht alles ist. Er sucht das Vergnügen und flüchtet nicht in es. Er ist warm, anwesend, neugierig – und er trägt eine ernsthafte Meinung, ohne sie zum Druck zu machen.</p>
+          <p class="vb-intro">Der Schatten: Die SE7 neigt zur Selbstüberschätzung – nicht im Sinne von Arroganz, sondern im Sinne des Vizzini-Problems: Die eigene Analyse stimmt so lange, bis sie nicht mehr stimmt. Und dann ist es zu spät. Shawn hat in Interviews zugegeben, dass er jahrelang kaum glaubte, ein wirklicher Künstler zu sein – dass er sich selbst für einen Dilettanten hielt, der nur Glück hatte. Das ist der Sechserflügel: der innere Zweifler, der auch in der besten Stunde flüstert.</p>
+          <p class="vb-intro">Und doch hat Shawn ein Werk hinterlassen, das länger haltbar ist als die meisten Karrieren in Hollywood. Vizzini scheitert, weil er dachte, das Undenkbare sei unmöglich. Shawn überlebt, weil er das Undenkbare stets für möglich hielt – und darüber nachdachte. Das unterscheidet den Denker vom Schurken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der beim Essen denkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wallace Shawn ist ein Gorilla: gesellig, warm, sinnlich, familiär – und von einer Intelligenz, die nicht sofort sichtbar ist, weil sie nicht darauf besteht, gesehen zu werden. Er sitzt am Tisch, isst gut, spricht klar, und irgendwann, mitten im Gespräch, sagt er etwas, das einen nicht mehr verlassen will.</p>
+          <p class="vb-intro">Seine Bühnenstücke sind keine Antworten. Sie sind Fragen in Dialogform. Und <em>My Dinner with Andre</em> – der Film, in dem zwei Freunde eine Mahlzeit teilen und dabei über alles reden, was zählt – ist vielleicht das ehrlichste Porträt des SE7w6 im Kino: Freude am Gespräch als Lebensform. Neugier als Heimat. Die andere Person am Tisch als das Wichtigste, was es gibt.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
+          ${bookTip("burnout", "SE7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des selbsterhaltenden Siebentyps.")}
+          ${bookTip("homöopathie", "Homöopathie für den SE7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den selbsterhaltenden Typ 7.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
+          {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+          {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -39970,6 +40042,7 @@ function render() {
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
+      "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
@@ -40404,7 +40477,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v694';
+  const MY_VERSION = 'inhalt-v695';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

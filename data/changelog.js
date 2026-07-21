@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Wallace Shawn (SE7w6) – Schauspieler, B\xfchnenautor, Essayist. Vizzini in „Die Prinzessin Braut“, Rex in „Toy Story“. Der Gorilla, der beim Mittagessen \xfcber Kapitalismus und Tod nachdenkt.",
+    text_en: "New portrait: Wallace Shawn (SE7w6) – actor, playwright, essayist. Vizzini in The Princess Bride, Rex in Toy Story. The gorilla who thinks about capitalism and death over lunch.",
+    route: "beruehmte-wallace-shawn"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Michael Schumacher (SX6w7) – Formel-1-Legende, siebenmaliger Weltmeister. Der Wolf, der Angst in Geschwindigkeit verwandelt hat.",
     text_en: "New portrait: Michael Schumacher (SX6w7) – Formula 1 legend, seven-time world champion. The wolf who turned fear into speed.",
     route: "beruehmte-michael-schumacher"
