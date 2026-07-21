@@ -11411,7 +11411,7 @@ function guentherJauchPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Zwischen Million\xe4rsfrage und Montag</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><em>stern TV</em>, das er 1990 \xfcbernahm und zwei Jahrzehnte lang moderierte, war anderes Terrain: Reportagen, Enth\xfcllungen, gesellschaftskritische Beitr\xe4ge. Jauch f\xfchrte die Sendung mit derselben K\xfchle, mit der er sp\xe4ter Million\xe4re befragte &ndash; ohne Emotion, mit pr\xe4zisen Fragen, ohne dem Gegen\xfcber zu nahe zu treten. Das ist die SO5: N\xe4he durch Distanz, Verbindung durch Professionalit\xe4t.</p>
-          <p class="vb-intro">Den ARD-Sonntagabendtalk &ndash; <em>G\xfcnther Jauch</em>, 2011 bis 2015 &ndash; gab er nach vier Jahren auf. Er erkl\xe4rte, das Format habe sich er\xf6pft. Viele fragten, ob er sich gemeint hatte. Die soziale F\xfcnf verliert den Sinn f\xfcr ein System, wenn sie sp\xfcrt, dass es nicht mehr tr\xe4gt. Dann l\xe4sst sie los &ndash; ruhig, ohne Drama, ohne \xd6ffentlichkeit.</p>
+          <p class="vb-intro">Den ARD-Sonntagabendtalk &ndash; <em>G\xfcnther Jauch</em>, 2011 bis 2015 &ndash; gab er nach vier Jahren auf. Er erkl\xe4rte, das Format habe sich ersch\xf6pft. Viele fragten, ob er sich gemeint hatte. Die soziale F\xfcnf verliert den Sinn f\xfcr ein System, wenn sie sp\xfcrt, dass es nicht mehr tr\xe4gt. Dann l\xe4sst sie los &ndash; ruhig, ohne Drama, ohne \xd6ffentlichkeit.</p>
           <p class="vb-intro">Daneben f\xfchrte er \xfcber seine Produktionsfirma i&amp;u TV, sp\xe4ter an RTL verkauft, eine Vielzahl von Formaten in die Sendelandschaft ein. Der Oktopus greift mit mehreren Armen zugleich &ndash; und l\xe4sst sich nicht auf einen reduzieren.</p>
         </blockquote>
 
@@ -39962,7 +39962,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v667';
+  const MY_VERSION = 'inhalt-v668';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
