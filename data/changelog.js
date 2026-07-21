@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Sundar Pichai (SE6w5) – CEO von Google und Alphabet. Chrome, Android, Gemini. Das Kaninchen, das in einer Branche voller Egomanen durch Stille gewann.",
+    text_en: "New portrait: Sundar Pichai (SE6w5) – CEO of Google and Alphabet. Chrome, Android, Gemini. The rabbit that won through silence in an industry full of egomaniacs.",
+    route: "beruehmte-sundar-pichai"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4) – Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken. Der Igel, der fast nie auftrat – und dessen Musik zweihundert Jahre sp\xe4ter noch klingt.",
     text_en: "New portrait: Fr\xe9d\xe9ric Chopin (SX5w4) – composer, pianist. Nocturnes, \xe9tudes, mazurkas. The hedgehog who almost never performed – and whose music still resonates two hundred years later.",
     route: "beruehmte-frederic-chopin"

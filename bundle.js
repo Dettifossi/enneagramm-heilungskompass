@@ -406,6 +406,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-sundar-pichai", name:"Sundar Pichai", added:"2026-07-21", subtyp:"SE6w5",
+    heading:"Sundar Pichai – Selbsterhaltender Typ 6",
+    teaser:"SE6w5 \xb7 geb. 1972, Madurai. CEO von Google und Alphabet. Chrome, Android, Gemini. Das Kaninchen, das in einer Branche voller Egomanen durch Stille gewann – und l\xe4nger \xfcberlebt als der L\xf6we neben ihm.",
+    tags:["Wirtschaft","Technik"], gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -10864,6 +10868,75 @@ function herbertKicklPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function sundarPichaiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sundar-pichai-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sundar Pichai</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">CEO von Google und Alphabet, geb. 1972 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, liebenswert, anpassungsf\xe4hig. Es l\xe4uft nicht auf Konfrontation zu. Es h\xf6rt, bevor es sich bewegt. Es baut Netzwerke aus Vertrauen, kennt jeden Fluchtweg in seinem Revier &ndash; und bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage l\xe4ngst analysiert hat, bevor sie eskalierte.</p>
+          <p class="vb-intro">Sundar Pichai ist seit 2015 CEO von Google und seit 2019 CEO von Alphabet &ndash; dem Konzern, dem Google geh\xf6rt. Er leitet eines der mächtigsten Technologieunternehmen der Welt, ohne je laut zu werden. Kein Tweet, der provoziert. Keine Aussage, die spaltet. Kein Schritt, der nicht abgesichert ist. In einer Branche voller Egomanen ist Pichai das Kaninchen: immer pr\xe4sent, selten greifbar, \xfcberlebensf\xe4hig auf eine Art, die man erst versteht, wenn man genauer hinschaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die W\xe4rme: Sicherheit durch Zugeh\xf6rigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>W\xe4rme</strong> &ndash; weil dieser Subtyp Sicherheit nicht durch Regeln oder Konfrontation sucht, sondern durch menschliche N\xe4he. Die SE6 bindet sich an Menschen, Gruppen und Institutionen, denen sie vertrauen kann. Sie ist liebenswert, kollegial, verlässlich &ndash; und dadurch unentbehrlich. Wer sich sicher f\xfchlt, weil er gebraucht wird, muss keine Angst haben, verlassen zu werden.</p>
+          <p class="vb-intro">Pichai kam 2004 als Produktmanager zu Google &ndash; und blieb. Microsoft bot ihm die CEO-Position an. Twitter umwarb ihn. Er lehnte ab. Nicht weil Google das beste Angebot machte, sondern weil er dort Wurzeln geschlagen hatte. Der selbsterhaltende Sechser kennt dieses Gef\xfchl: Man verlässt nicht, was man kennt und dem man vertraut. Das w\xe4re gef\xe4hrlicher als zu bleiben.</p>
+          <p class="vb-intro">Seine F\xfchrungsqualit\xe4t gründet auf genau dieser Eigenschaft. Er ist bekannt daf\xfcr, zuzuh\xf6ren, bevor er entscheidet. Teams arbeiten gerne mit ihm &ndash; er dominiert keine Sitzung, er moderiert sie. Er ist der Mann, dem Ingenieure, Produktmanager und Investoren gleichzeitig vertrauen, weil er keiner Seite weh tut. Das ist W\xe4rme als Strategie: Sicherheit durch Unentbehrlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Stille Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt dem selbsterhaltenden Sechser etwas, das man von außen nicht sofort erkennt: analytische Tiefe, Introversion und die F\xe4higkeit, sich in Sachfragen zu verlieren, bevor man spricht. Die SE6w5 redet nicht, um zu \xfcberzeugen. Sie h\xf6rt zu, um zu verstehen. Und wenn sie spricht, hat sie die Argumente bereits von mehreren Seiten durchdacht.</p>
+          <p class="vb-intro">Pichai ist bekannt f\xfcr sein ph\xe4nomenales Ged\xe4chtnis. Mitarbeiter berichten, dass er sich Namen, Zahlen und Details aus Meetings Monate sp\xe4ter noch genau erinnert. Das ist kein Talent &ndash; das ist die SE6w5 in Aktion: permanente Informationsverarbeitung, weil Information Sicherheit bedeutet. Wer alles weiß, kann nichts \xfcberrascht werden.</p>
+          <p class="vb-intro">Aufgewachsen in Madurai, Tamil Nadu, in einer Familie ohne gro\xdfes Verm\xf6gen &ndash; sein Vater schlief mit ihm als Kind auf dem Fu\xdfboden, bis die Familie sich Betten leisten konnte &ndash; hat Pichai diesen Antrieb fr\xfch entwickelt: Wissen ist der Weg nach oben. IIT Kharagpur, Stanford, Wharton &ndash; das MBA-Studium brach er ab, als Google ihn 2004 einstellte. Der F\xfcnferfl\xfcgel sagt: Wenn ich genug weiß, bin ich sicher. Das Kaninchen nickt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Chrome bis Gemini</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pichais Karriere bei Google ist die Geschichte eines Mannes, der nie laut war &ndash; und trotzdem alles ver\xe4nderte. 2008 leitete er die Entwicklung von <strong>Google Chrome</strong>. Heute hat Chrome einen Marktanteil von \xfcber 60 Prozent unter den Browsern weltweit &ndash; ein Projekt, das intern als zu riskant galt und gegen das sich Teile des Managements stellten. Pichai setzte es durch. Still, beharrlich, mit Zahlen.</p>
+          <p class="vb-intro">Danach: Chrome OS, Google Drive, Google Maps, die Neuausrichtung des Android-\xd6kosystems. 2015 ernannte ihn Larry Page zum CEO von Google &ndash; und 2019, als Alphabet als Holdingstruktur weiter ausgebaut wurde, r\xfcckte Pichai an die Spitze des gesamten Konzerns. Er ist heute der h\xf6chstbezahlte CEO eines der f\xfcnf wertvollsten Unternehmen der Welt.</p>
+          <p class="vb-intro">Unter seiner F\xfchrung hat Google den KI-Wettbewerb mit <strong>Gemini</strong> (ehemals Bard) aufgenommen &ndash; sp\xe4t, hektisch, unter Druck durch ChatGPT. Pichai kommentierte den Moment ruhig. Intern, berichten Mitarbeiter, war der Druck enorm. Das ist die SE6w5 in der Krise: nach außen ruhig, innen in h\xf6chster Alarmbereitschaft. Das Kaninchen l\xe4uft nicht davon. Es berechnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist ihre <strong>Zuverl\xe4ssigkeit</strong> &ndash; die F\xe4higkeit, in turbulenten Situationen der ruhende Pol zu sein. Pichai hat Google durch mehrere Krisen gef\xfchrt &ndash; politischen Gegenwind, Kartellverfahren, den KI-Umbruch &ndash; ohne je die Fassung zu verlieren. Mitarbeiter loben seine Zug\xe4nglichkeit, sein Zuh\xf6ren, seine Konstanz. Das ist die SE6w5 in ihrer besten Form: Stabilit\xe4t als F\xfchrungsqualit\xe4t.</p>
+          <p class="vb-intro">Der Schatten: Im Januar 2023 entlie\xdf Alphabet rund <strong>12.000 Mitarbeiter</strong> &ndash; zw\xf6lf Prozent der Belegschaft, die gr\xf6\xdfte Massenentlassung in der Geschichte des Unternehmens. Pichai erk\xe4rte in einer E-Mail, er trage die Verantwortung persönlich. In demselben Gesch\xe4ftsjahr erhielt er eine Gesamtverg\xfctung von rund 226 Millionen Dollar. Das ist der Schatten der SE6w5: die W\xe4rme, die nach innen strahlt, kann nach außen k\xfchl werden &ndash; wenn das System, dem man dient, es verlangt.</p>
+          <p class="vb-intro">Die Leidenschaft der Sechs ist die <strong>Angst</strong> &ndash; und beim selbsterhaltenden Subtyp zeigt sie sich als chronische Absicherung. Pichai sichert sich ab: in Formulierungen, in Konsens, in der Vermeidung von Polarisierung. Das sch\xfctzt ihn. Es sch\xfctzt Google. Und manchmal verschleiert es, was wirklich entschieden wurde &ndash; und von wem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kaninchen, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sundar Pichai ist verheiratet mit Anjali Pichai, die er w\xe4hrend seines Ingenieurstudiums am IIT Kharagpur kennenlernte &ndash; seiner Jugendliebe. Sie haben zwei Kinder. \xdcber sein Privatleben ist wenig bekannt; er spricht selten dar\xfcber. Das Kaninchen beh\xe4lt sein Revier f\xfcr sich.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild eines Mannes, der in einer der lautesten Branchen der Welt durch Stille gewann. Der nicht provozierte, sondern \xfcberzeugte. Der nicht dominierte, sondern ausdauerte. In einer Technologiewelt, die Gr\xfc\xdfenwahn belohnt, ist Sundar Pichai der Beweis, dass auch das Kaninchen \xfcberlebt &ndash; manchmal l\xe4nger als der L\xf6we, der neben ihm sitzt.</p>
+          <p class="vb-intro">Das ist die SE6w5: Beharrlichkeit durch Vertrauen, Tiefe durch Zur\xfcckhaltung, Sicherheit durch Kompetenz. Und die stille Gewissheit, dass man nicht laut sein muss, um geh\xf6rt zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
       ])}
     </div>
   `);
@@ -39595,6 +39668,7 @@ function render() {
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
+      "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
@@ -40038,7 +40112,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v674';
+  const MY_VERSION = 'inhalt-v675';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
