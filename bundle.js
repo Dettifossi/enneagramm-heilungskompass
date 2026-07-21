@@ -424,7 +424,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Sport"] , gender:"f"},
   { route:"beruehmte-melanie-kreis", name:"Melanie Kreis", added:"2026-07-21", subtyp:"SO6w5",
     heading:"Melanie Kreis – Sozialer Typ 6",
-    teaser:"SO6w5 \xb7 Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt – f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
+    teaser:"SO6w5 \xb7 geb. 1976 in Hamburg. Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt – f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
     tags:["Wirtschaft","F\xfchrung"], gender:"f"},
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Sozialer Typ 6",
@@ -10771,7 +10771,7 @@ function melanieKreisPortraitPage() {
         </div>
         <p class="krim-portrait-name">Melanie Kreis</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Finanzvorst\xe4ndin (CFO) der DHL Group &ndash; Tierentsprechung: Erdm\xe4nnchen</p>
+        <p class="krim-portrait-subtitle">Finanzvorst\xe4ndin (CFO) der DHL Group, geb. 1976 in Hamburg &ndash; Tierentsprechung: Erdm\xe4nnchen</p>
       </div>
       <div class="page-content">
 
@@ -40259,7 +40259,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v679';
+  const MY_VERSION = 'inhalt-v680';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
