@@ -11090,7 +11090,7 @@ function fredericChopinPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Pianissimo als Sprache</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Chopins Werk ist klein im Umfang und unermesslich in der Wirkung. Rund zweihundert Kompositionen &ndash; fast alle f\xfcr das Soloklavier. Die <strong>Nocturnes</strong>: einundzwanzig N\xe4chtkl\xe4nge, von denen jeder eine andere Art von Stille beschreibt. Die <strong>&Eacute;tuden op. 10 und op. 25</strong>: technische \xdcbungsst\xfccke, die zugleich Meisterwerke der emotionalen Verdichtung sind. Die <strong>Balladen</strong>: vier Werke, die Erz\xe4hlung und Leidenschaft auf eine Weise verbinden, die die Gattung neu definierte.</p>
-          <p class="vb-intro">Franz Liszt, der gl\xe4nzende Performer und Gegenpol, spielte große S\xe4le &ndash; Chopin mochte keine große B\xfchne. Er spielte in den Salons des Pariser B\xfcrgertums, beim Abenddunkel, f\xfcr vielleicht dreißig Menschen. Robert Schumann (SX7w8) schrieb \xfcber Chopins op. 2 den Satz: <em>H\xfcte ab, ihr Herren, ein Genie.</em> Das Genie saß selbst lieber im Hintergrund.</p>
+          <p class="vb-intro">Franz Liszt, der gl\xe4nzende Performer und Gegenpol, spielte große S\xe4le &ndash; Chopin mochte keine große B\xfchne. Er spielte in den Salons des Pariser B\xfcrgertums, beim Abenddunkel, f\xfcr vielleicht dreißig Menschen. Robert Schumann (SX7w6) schrieb \xfcber Chopins op. 2 den Satz: <em>H\xfcte ab, ihr Herren, ein Genie.</em> Das Genie saß selbst lieber im Hintergrund.</p>
           <p class="vb-intro">Claudio Naranjo erz\xe4hlte in seinen Seminaren ein Bild, das er f\xfcr die sexuelle F\xfcnf mit Viererfl\xfcgel verwendete: Ein Fl\xf6tenspieler versucht, sein Instrument zu spielen &ndash; doch alle L\xf6cher der Fl\xf6te sind verstopft bis auf eines. Durch dieses eine offene Loch str\xf6mt die ganze Liebe auf einmal heraus. Nichts kann sie aufhalten, weil sie keinen anderen Weg hat. So ist es bei Chopin: Die Liebe, die einem Menschen dieser Pr\xe4gung innewohnt, findet ihren Weg &ndash; und weil fast alle anderen Kan\xe4le geschlossen sind, kommt sie durch das Klavier mit einer Intensit\xe4t, die manche bis heute \xfcberrumpelt. Wer Chopin h\xf6rt und denkt, das k\xf6nne nur ein Typ 4 sein, so romantisch, so sehnsuchtsgeladen &ndash; der erkennt hier die sexuelle F\xfcnf mit Viererfl\xfcgel: die Liebe, die sich nicht verteilt, sondern b\xfcndelt.</p>
           <p class="vb-intro">Was bleibt, ist die Pr\xe4zision. Kein Ton zu viel, kein Ausdruck ohne Grund. Die SX5w4 verschwendet nichts &ndash; sie destilliert. Was aus diesem Destillat entsteht, h\xf6rt man zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal der Welt.</p>
         </blockquote>
@@ -40037,7 +40037,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v671';
+  const MY_VERSION = 'inhalt-v672';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
