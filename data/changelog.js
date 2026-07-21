@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Porträt: Karoline Herfurth (SE4w5) – Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe und künstlerische Präzision.",
+    text_en: "New portrait: Karoline Herfurth (SE4w5) – actress, director. The dove that observes before it lands – inner depth and artistic precision.",
+    route: "beruehmte-karoline-herfurth"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Porträt: Tim Bendzko (SE4w3) – Sänger, Songwriter. Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht.",
     text_en: "New portrait: Tim Bendzko (SE4w3) – singer, songwriter. The dove that carries the weight of life – and turns it into music.",
     route: "beruehmte-tim-bendzko"

@@ -314,6 +314,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
+    heading:"Karoline Herfurth – Selbsterhaltende Typ 4",
+    teaser:"SE4w5 \xb7 geb. 1984, Berlin. Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe, k\xfcnstlerische Pr\xe4zision, und eine Menschlichkeit hinter der Kamera, die das Sch\xf6ne am Verletzlichen sucht.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-tim-bendzko", name:"Tim Bendzko", added:"2026-07-21", subtyp:"SE4w3",
     heading:"Tim Bendzko – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · geb. 1985, Berlin. Sänger, Songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
@@ -11131,6 +11135,67 @@ function ladyDianaPortraitPage() {
   `);
 }
 
+
+function karolineHerfurthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karoline-herfurth-portrait.jpg" alt="Karoline Herfurth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karoline Herfurth</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Regisseurin, geb. 1984 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die beobachtet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; und bei Karoline Herfurth zeigt sie eine besondere Qualit\xe4t: Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, tr\xe4gt innerlich, was sie gesehen hat &ndash; und landet dann genau dort, wo sie gebraucht wird. Das ist die selbsterhaltende Vier mit F\xfcnferfl\xfcgel: ein Mensch, der das Innere vollst\xe4ndig durchlebt, bevor er nach au\xdfen tritt.</p>
+          <p class="vb-intro">Karoline Herfurth ist in Deutschland eine der wenigen Pers\xf6nlichkeiten, die diese Verbindung verk\xf6rpern: gro\xdfe emotionale Pr\xe4senz auf der Leinwand, stilles Zur\xfcckhalten daneben. Keine Social-Media-Bespielung, kein dauerndes Erkl\xe4ren. Stattdessen: Filme, die f\xfcr sich sprechen. Eine Haltung, die mehr sagt als jedes Interview.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Z\xe4higkeit ohne Drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier &ndash; sie zeigt nach au\xdfen kaum das, was die meisten Menschen an einer Vier erwarten: keine Dramatik, kein zur Schau gestelltes Leiden, keine romantische Selbstinszenierung. Stattdessen: eine stille Z\xe4higkeit (engl. <em>Tenacity</em>), eine Ber\xe4itsschaft, innerlich viel zu tragen, ohne dar\xfcber zu klagen.</p>
+          <p class="vb-intro">Karoline Herfurth hat bereits mit 12 Jahren begonnen zu spielen, mit 16 stand sie im Kinofilm, mit 18 spielte sie Grenouilles Opfer in Tom Tykwers &bdquo;Das Parfum&ldquo;. Dieser fr\xfche Einstieg verlangte eine Reife, die sich nicht aufdr\xe4ngt &ndash; sie musste innerlich stabil sein, w\xe4hrend andere noch die Orientierung suchten. Das ist SE4: nicht die, die von ihrem Schmerz erz\xe4hlt, sondern die, die durch ihn hindurchgeht und danach etwas daraus macht.</p>
+          <p class="vb-intro">Ihre Filmografie spricht diese Sprache: Sie vermeidet das Glatte, das Bequeme. Sie w\xe4hlt Rollen, die etwas kosten &ndash; Figuren mit Br\xfcchen, mit inneren Widerspr\xfcchen, mit Menschlichkeit jenseits der Oberfl\xe4che. Das Schutzmuster der SE4 &ndash; die Tendenz, das eigene Erleben herunterzuspielen &ndash; wird hier paradoxerweise zur k\xfcnstlerischen St\xe4rke: Sie spielt echte Menschen, weil sie wei\xdf, wie man Echtes tr\xe4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Die Beobachterin hinter der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> f\xfcgt der selbsterhaltenden Vier etwas Entscheidendes hinzu: den Beobachter, den Analysten, den Menschen, der zun\xe4chst versteht, bevor er handelt. W\xe4hrend der Dreierfl\xfcgel die Vier nach vorne treibt und sichtbar macht, zieht der F\xfcnferfl\xfcgel zur\xfcck &ndash; in die Stille, in die Tiefe, in das durchdachte Urteil.</p>
+          <p class="vb-intro">Herfurths Wechsel zur Regie ist der vielleicht deutlichste Ausdruck dieses Fl\xfcgels. Als Regisseurin von &bdquo;Wundersch\xf6n&ldquo; (2022) &ndash; einem Film \xfcber Frauen und ihr Verh\xe4ltnis zum eigenen K\xf6rper &ndash; zeigt sie eine Pr\xe4zision in der Beobachtung menschlicher Verletzlichkeit, die nicht aus einem Drehbuchkurs kommt, sondern aus jahrzehntelangem stillem Hinsehen. Der F\xfcnferfl\xfcgel denkt, bevor er spricht. Er wei\xdf, was er zeigen will &ndash; und was er wegl\xe4sst.</p>
+          <p class="vb-intro">Die Kombination SE4w5 schafft einen besonderen Typ: emotional tief, intellektuell pr\xe4zise, zur\xfcckgezogen genug um nicht alles preiszugeben, aber offen genug um etwas Echtes zu ber\xfchren. Man merkt das in ihren Interviews: wenig Selbstdarstellung, viel Nachdenken. Sie spricht \xfcber die Sache, nicht \xfcber sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Das Sch\xf6ne am Verletzlichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das chronische Gef\xfchl, dass andere etwas mitbekommen haben, das einem selbst fehlt. Bei der SE4 bleibt dieser Neid verborgen; er zeigt sich als innere Unruhe, als das Gef\xfchl, nie ganz fertig zu sein, nie ganz anzukommen. Man sieht etwas davon in der Themenwahl ihrer Filme: Es geht fast immer um Menschen, die mit sich ringen, die etwas Gebrochenes in sich tragen und trotzdem weitergemacht haben.</p>
+          <p class="vb-intro">Der F\xfcnferfl\xfcgel verst\xe4rkt die Tendenz zum R\xfcckzug: Die SE4w5 kann sich in die Innenwelt zur\xfcckziehen und den Kontakt nach au\xdfen auf ein Minimum reduzieren. Das sch\xfctzt &ndash; aber es birgt auch die Gefahr, dass der eigene Reichtum ungesehen bleibt. Herfurth hat diesen Weg offensichtlich bewusst gew\xe4hlt: Sie gibt wenig von sich preis, was sie gibt, ist aber um so bedeutsamer.</p>
+          <p class="vb-intro">Das Licht dieser Kombination: Sie kann das Verletzliche sch\xf6n machen, ohne es zu verk\xfcnsteln. Ihre Figuren in &bdquo;Wundersch\xf6n&ldquo; sind keine Heldinnen &ndash; sie sind echte Menschen, die mit ihrer K\xf6rperlichkeit, ihrer Geschichte, ihrem Alter ringen. Das ist SE4w5 im besten Sinne: das Innere in eine Form bringen, die andere nicht allein l\xe4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Taube, die heimfindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier f\xfchrt von der Frage <em>Was fehlt mir, das anderen gegeben wurde?</em> zur Erkenntnis <em>Das, was ich bin, ist vollst\xe4ndig &ndash; und es ist meines.</em> F\xfcr die SE4w5 bedeutet das, den R\xfcckzug nicht als Flucht zu erleben, sondern als Stille, in der das Eigene deutlicher wird.</p>
+          <p class="vb-intro">Karoline Herfurths k\xfcnstlerische Entwicklung deutet genau dorthin. Vom Kind, das spielte, zum Teenager, der Grenzen testete, zur jungen Frau, die in Ensembles leuchtete, zur Regisseurin, die ihren Blick auf die Welt \xf6ffentlich macht &ndash; das ist ein Weg von der Rolle zur eigenen Stimme. Eine Stimme, die leise ist, aber pr\xe4zise. Die Taube, die nicht mehr sucht, weil sie wei\xdf, wohin sie geh\xf6rt.</p>
+        </blockquote>
+
+      </div>
+      \${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      \${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      \${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      \${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-tim-bendzko", label:"Portr\xe4t: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function timBendzkoPortraitPage() {
   return shell(`
@@ -39094,6 +39159,7 @@ function render() {
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
+      "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
@@ -39523,7 +39589,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v651';
+  const MY_VERSION = 'inhalt-v652';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
