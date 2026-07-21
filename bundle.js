@@ -10891,20 +10891,20 @@ function sundarPichaiPortraitPage() {
         <h2 class="vb-section">1. Das Kaninchen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, liebenswert, anpassungsf\xe4hig. Es l\xe4uft nicht auf Konfrontation zu. Es h\xf6rt, bevor es sich bewegt. Es baut Netzwerke aus Vertrauen, kennt jeden Fluchtweg in seinem Revier &ndash; und bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage l\xe4ngst analysiert hat, bevor sie eskalierte.</p>
-          <p class="vb-intro">Sundar Pichai ist seit 2015 CEO von Google und seit 2019 CEO von Alphabet &ndash; dem Konzern, dem Google geh\xf6rt. Er leitet eines der mächtigsten Technologieunternehmen der Welt, ohne je laut zu werden. Kein Tweet, der provoziert. Keine Aussage, die spaltet. Kein Schritt, der nicht abgesichert ist. In einer Branche voller Egomanen ist Pichai das Kaninchen: immer pr\xe4sent, selten greifbar, \xfcberlebensf\xe4hig auf eine Art, die man erst versteht, wenn man genauer hinschaut.</p>
+          <p class="vb-intro">Sundar Pichai ist seit 2015 CEO von Google und seit 2019 CEO von Alphabet &ndash; dem Konzern, zu dem Google geh\xf6rt. Er leitet eines der mächtigsten Technologieunternehmen der Welt, ohne je laut zu werden. Kein Tweet, der provoziert. Keine Aussage, die spaltet. Kein Schritt, der nicht abgesichert ist. In einer Branche voller Egomanen ist Pichai das Kaninchen: immer pr\xe4sent, selten greifbar, \xfcberlebensf\xe4hig auf eine Art, die man erst versteht, wenn man genauer hinschaut.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die W\xe4rme: Sicherheit durch Zugeh\xf6rigkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>W\xe4rme</strong> &ndash; weil dieser Subtyp Sicherheit nicht durch Regeln oder Konfrontation sucht, sondern durch menschliche N\xe4he. Die SE6 bindet sich an Menschen, Gruppen und Institutionen, denen sie vertrauen kann. Sie ist liebenswert, kollegial, verlässlich &ndash; und dadurch unentbehrlich. Wer sich sicher f\xfchlt, weil er gebraucht wird, muss keine Angst haben, verlassen zu werden.</p>
-          <p class="vb-intro">Pichai kam 2004 als Produktmanager zu Google &ndash; und blieb. Microsoft bot ihm die CEO-Position an. Twitter umwarb ihn. Er lehnte ab. Nicht weil Google das beste Angebot machte, sondern weil er dort Wurzeln geschlagen hatte. Der selbsterhaltende Sechser kennt dieses Gef\xfchl: Man verlässt nicht, was man kennt und dem man vertraut. Das w\xe4re gef\xe4hrlicher als zu bleiben.</p>
+          <p class="vb-intro">Pichai kam 2004 als Produktmanager zu Google &ndash; und blieb. Microsoft bot ihm die CEO-Position an. Twitter umwarb ihn. Er lehnte ab. Nicht weil Google das beste Angebot machte, sondern weil er dort Wurzeln geschlagen hatte. Der selbsterhaltende Sechser kennt dieses Gef\xfchl: Man verlässt nicht, was man kennt und dem man vertraut. Das w\xe4re gef\xe4hrlicher als neue Wege zu gehen.</p>
           <p class="vb-intro">Seine F\xfchrungsqualit\xe4t gründet auf genau dieser Eigenschaft. Er ist bekannt daf\xfcr, zuzuh\xf6ren, bevor er entscheidet. Teams arbeiten gerne mit ihm &ndash; er dominiert keine Sitzung, er moderiert sie. Er ist der Mann, dem Ingenieure, Produktmanager und Investoren gleichzeitig vertrauen, weil er keiner Seite weh tut. Das ist W\xe4rme als Strategie: Sicherheit durch Unentbehrlichkeit.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Stille Tiefe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt dem selbsterhaltenden Sechser etwas, das man von außen nicht sofort erkennt: analytische Tiefe, Introversion und die F\xe4higkeit, sich in Sachfragen zu verlieren, bevor man spricht. Die SE6w5 redet nicht, um zu \xfcberzeugen. Sie h\xf6rt zu, um zu verstehen. Und wenn sie spricht, hat sie die Argumente bereits von mehreren Seiten durchdacht.</p>
-          <p class="vb-intro">Pichai ist bekannt f\xfcr sein ph\xe4nomenales Ged\xe4chtnis. Mitarbeiter berichten, dass er sich Namen, Zahlen und Details aus Meetings Monate sp\xe4ter noch genau erinnert. Das ist kein Talent &ndash; das ist die SE6w5 in Aktion: permanente Informationsverarbeitung, weil Information Sicherheit bedeutet. Wer alles weiß, kann nichts \xfcberrascht werden.</p>
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt dem selbsterhaltenden Sechser etwas, das man von außen nicht sofort erkennt: analytische Tiefe, Introversion und die F\xe4higkeit, sich in Sachfragen zu vertiefen, bevor man spricht. Die SE6w5 redet nicht, um zu \xfcberzeugen. Sie h\xf6rt zu, um zu verstehen. Und wenn sie spricht, hat sie die Argumente bereits von mehreren Seiten durchdacht.</p>
+          <p class="vb-intro">Pichai ist bekannt f\xfcr sein ph\xe4nomenales Ged\xe4chtnis. Mitarbeiter berichten, dass er sich Namen, Zahlen und Details aus Meetings Monate sp\xe4ter noch genau erinnert. Das ist kein Talent &ndash; das ist die SE6w5 in Aktion: permanente Informationsverarbeitung, weil Information Sicherheit bedeutet. Wer alles weiß, kann von nichts \xfcberrascht werden.</p>
           <p class="vb-intro">Aufgewachsen in Madurai, Tamil Nadu, in einer Familie ohne gro\xdfes Verm\xf6gen &ndash; sein Vater schlief mit ihm als Kind auf dem Fu\xdfboden, bis die Familie sich Betten leisten konnte &ndash; hat Pichai diesen Antrieb fr\xfch entwickelt: Wissen ist der Weg nach oben. IIT Kharagpur, Stanford, Wharton &ndash; das MBA-Studium brach er ab, als Google ihn 2004 einstellte. Der F\xfcnferfl\xfcgel sagt: Wenn ich genug weiß, bin ich sicher. Das Kaninchen nickt.</p>
         </blockquote>
 
@@ -10912,7 +10912,7 @@ function sundarPichaiPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Pichais Karriere bei Google ist die Geschichte eines Mannes, der nie laut war &ndash; und trotzdem alles ver\xe4nderte. 2008 leitete er die Entwicklung von <strong>Google Chrome</strong>. Heute hat Chrome einen Marktanteil von \xfcber 60 Prozent unter den Browsern weltweit &ndash; ein Projekt, das intern als zu riskant galt und gegen das sich Teile des Managements stellten. Pichai setzte es durch. Still, beharrlich, mit Zahlen.</p>
           <p class="vb-intro">Danach: Chrome OS, Google Drive, Google Maps, die Neuausrichtung des Android-\xd6kosystems. 2015 ernannte ihn Larry Page zum CEO von Google &ndash; und 2019, als Alphabet als Holdingstruktur weiter ausgebaut wurde, r\xfcckte Pichai an die Spitze des gesamten Konzerns. Er ist heute der h\xf6chstbezahlte CEO eines der f\xfcnf wertvollsten Unternehmen der Welt.</p>
-          <p class="vb-intro">Unter seiner F\xfchrung hat Google den KI-Wettbewerb mit <strong>Gemini</strong> (ehemals Bard) aufgenommen &ndash; sp\xe4t, hektisch, unter Druck durch ChatGPT. Pichai kommentierte den Moment ruhig. Intern, berichten Mitarbeiter, war der Druck enorm. Das ist die SE6w5 in der Krise: nach außen ruhig, innen in h\xf6chster Alarmbereitschaft. Das Kaninchen l\xe4uft nicht davon. Es berechnet.</p>
+          <p class="vb-intro">Unter seiner F\xfchrung hat Google den KI-Wettbewerb mit <strong>Gemini</strong> (ehemals Bard) aufgenommen &ndash; sp\xe4t, hektisch, unter Druck durch ChatGPT. Pichai kommentierte den Moment ruhig. Intern, berichten Mitarbeiter, war der Druck enorm. Das ist die SE6w5 in der Krise: nach außen ruhig, innen in h\xf6chster Alarmbereitschaft. Das Kaninchen l\xe4uft nicht sofort davon. Erst kalkuliert es s\xe4mtliche Risiken.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
@@ -10925,7 +10925,7 @@ function sundarPichaiPortraitPage() {
         <h2 class="vb-section">6. Das Kaninchen, das bleibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Sundar Pichai ist verheiratet mit Anjali Pichai, die er w\xe4hrend seines Ingenieurstudiums am IIT Kharagpur kennenlernte &ndash; seiner Jugendliebe. Sie haben zwei Kinder. \xdcber sein Privatleben ist wenig bekannt; er spricht selten dar\xfcber. Das Kaninchen beh\xe4lt sein Revier f\xfcr sich.</p>
-          <p class="vb-intro">Was bleibt, ist das Bild eines Mannes, der in einer der lautesten Branchen der Welt durch Stille gewann. Der nicht provozierte, sondern \xfcberzeugte. Der nicht dominierte, sondern ausdauerte. In einer Technologiewelt, die Gr\xfc\xdfenwahn belohnt, ist Sundar Pichai der Beweis, dass auch das Kaninchen \xfcberlebt &ndash; manchmal l\xe4nger als der L\xf6we, der neben ihm sitzt.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild eines Mannes, der in einer der lautesten Branchen der Welt durch Stille gewann. Der nicht provozierte, sondern \xfcberzeugte. Der nicht dominierte, sondern Ausdauer zeigte. In einer Technologiewelt, die Gr\xfc\xdfenwahn belohnt, ist Sundar Pichai der Beweis, dass auch das Kaninchen \xfcberlebt &ndash; manchmal l\xe4nger als der L\xf6we, der neben ihm sitzt.</p>
           <p class="vb-intro">Das ist die SE6w5: Beharrlichkeit durch Vertrauen, Tiefe durch Zur\xfcckhaltung, Sicherheit durch Kompetenz. Und die stille Gewissheit, dass man nicht laut sein muss, um geh\xf6rt zu werden.</p>
         </blockquote>
 
@@ -40112,7 +40112,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v675';
+  const MY_VERSION = 'inhalt-v676';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
