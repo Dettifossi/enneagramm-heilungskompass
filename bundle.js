@@ -10748,7 +10748,7 @@ function donataHopfenPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten: Wenn die Gruppe die W\xe4chterin abw\xe4hlt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen ist als Beraterin und Rednerin gefragt, weil sie Klarheit, Mut und strategischen Weitblick verbindet. Sie kann Systeme lesen, Chancen benennen und Menschen mitrei\xdfen. Das ist die SO6w7 auf der Sonnenseite: Sie dient nicht nur &ndash; sie inspiriert.</p>
-          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenerfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfcke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster in Reinform: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
+          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenerfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfccke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster in Reinform: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
           <p class="vb-intro">F\xfcr die SO6 ist das die tiefste Wunde: Als Mitglied der Gemeinschaft ausgestoßen zu werden von genau jener Gemeinschaft, f\xfcr die man angetreten ist. Hopfen hat diese Erfahrung \xf6ffentlich gemacht. Und ist danach nicht verschwunden. Das ist der Unterschied zwischen SO6-Schatten und SO6-Reife: Die reife Sechs wei\xdf, dass Zugeh\xf6rigkeit nicht an einer einzigen Gruppe h\xe4ngt.</p>
         </blockquote>
 
@@ -40332,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v687';
+  const MY_VERSION = 'inhalt-v688';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
