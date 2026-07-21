@@ -90,403 +90,403 @@ function hasHeilwissen() { return getTier() === "heilwissen"; }
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
 const KRIMINAL_PORTRAITS = [
-  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Selbsterhaltender Typ 1",                               teaser:"SE1w2 – 'Der Mörder von Melrose Avenue', geb. 1945. 15 Morde an jungen Männern in London 1978–1983. Beamter, Gewerkschaftsaktivist, korrekter Nachbar – und ein Täter, der seine Opfer nach dem Tod wochenlang in seiner Wohnung behielt. Adler-Energie: Kontrolle durch Fürsorge, Einsamkeit als Mordmotiv. Tierentsprechung: Adler." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Selbsterhaltender Typ 1",                              teaser:"SE1w2 – 'Die Vermieterin des Todes', 1929–2011. Mindestens 9 Morde an Senioren und Behinderten in Sacramento, 1982–1988. Betreiberin einer Pension, Wohltäterin der Gemeinde – und eine Täterin, die ihre Opfer im Garten begrub und deren Sozialschecks kassierte. Adler-Energie: moralische Ordnung als Fassade, Fürsorge als Kontrolle. Tierentsprechung: Adler." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SE1w9",  heading:"Michail Popkow – Selbsterhaltender Typ 1",                          teaser:"SE1w9 – Serienm\xf6rder, geb. 1964. Mindestens 86 Opfer in der sibirischen Stadt Angarsk zwischen 1992 und 2010. Polizist, Familienvater, Nachbarschaftsmensch – und der Mann, der seine Morde als moralische S\xe4uberung verstand." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SE1w9",  heading:"Dennis Rader – Selbsterhaltender Typ 1",                               teaser:"SE1w9 – BTK-Killer, geb. 1945. Zehn Morde zwischen 1974 und 1991. Kirchenratsvorsitzender, Ordnungsbeauftragter, Familienvater – und der Mann, der seine Taten unter einem Selbstk\xfcnzel verbarg und sich jahrzehntelang nach Anerkennung sehnte." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SE1w9",  heading:"Andrei Tschikatilo \u2013 Selbsterhaltender Typ 1",                          teaser:"SE1w9 \u2013 Serienm\xf6rder, 1936\u20131994. 52 best\xe4tigte Opfer in der Sowjetunion. Der Schlachter von Rostow: Einser-Perfektionismus als Vernichtungslogik, Neunerfl\xfcgel als perfekte Tarnung." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SE1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Selbsterhaltender Typ 1",        teaser:"Erpresser, geb. 1951. Sechs Jahre, nie jemanden verletzt \u2013 die selbsterhaltende Eins mit Neunerfl\xfcgel: stiller Groll, akribische Methode, absolute Gewaltlosigkeit." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Selbsterhaltender Typ 1",                              teaser:"SE1w9 \u2013 Der \u201eS-Bahn-M\xf6rder\u201c, 1912\u20131946. Acht Morde in Berlin 1939\u201341. Fl\xe4chentarnung durch spie\xdfb\xfcrgerliche Korrektheit, eiskaltes Doppelleben, moralische Schuld stets nach au\xdfen verlagert." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Sozialer Typ 1",                                           teaser:"SO1w9 \u2013 Serienmörder, 1946\u20131989. Bürgerliche Fassade, unterdrückte Wut, Resentiment. Die soziale Eins mit Neunerflügel: Selbstgerechtigkeit als Verblendung, Zorn als kalte Triebkraft. Tierentsprechung: Gans." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Sozialer Typ 1",                                teaser:"SO1w9 \u2013 Serienm\xf6rder, 1937\u20132008. Mindestens 10 Opfer in S\xfcddeutschland 1959\u201360. Das \u201eUngeheuer vom Schwarzwald\u201c: wahnhafter g\xf6ttlicher Strafauftrag, emotionale Dissoziation und ein Leben im Zeichen krampfhafter S\xfchne." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexueller Typ 1",                                      teaser:"SX1w2 – Anwalt und Doppelmörder, geb. 1968. 87 Jahre Rechtsdynastie, Millionenbetrug, Doppelmord an Frau und Sohn 2021. Der Zweierflügel als Charme-Fassade, die Eins als gnadenloser Richter über das eigene Bild. Tierentsprechung: Schwarze Mamba." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexueller Typ 1",                                       teaser:"SX1w2 \u2013 Der \u201eGreen-River-Killer\u201c, geb. 1949. Mindestens 49 best\xe4tigte Morde in Washington State (1982\u20132001), wahrscheinlich \xfcber 70. Kirchg\xe4nger, Familienvater, unscheinbarer Lkw-Lackierer \u2013 und der Mann, der Frauen in seiner intimsten Sph\xe4re vernichtete, weil Kontrolle f\xfcr ihn Liebe bedeutete." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-paul-bernardo",         name:"Paul Bernardo",                       subtyp:"SX1w2",  heading:"Paul Bernardo \u2013 Sexueller Typ 1",                                      teaser:"SX1w2 \u2013 \u201eKen\u201c der Ken-und-Barbie-Killer, geb. 1964. Scarborough Rapist, Serienmörder, 1994 zu lebenslanger Haft verurteilt. Schwarze Mamba: totale Kontrolle \xfcber die intimste Sph\xe4re, Zweierfl\xfcgel als Charme-Fassade, Reinheitsfixierung als Vernichtungslogik." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-gennadi-mikhasevich",  name:"Gennadi Mikhasevich",                 subtyp:"SX1w2",  heading:"Gennadi Mikhasevich – Sexueller Typ 1",                                 teaser:"SX1w2 – 'Der Würger von Witebsk', geb. 1947. 36 Frauen ermordet in der Weißrussischen SSR (heute Belarus) (1971–1985). Familienvater, Drushinnik (freiwilliger Volksordnungshüter), Parteiaktivist – und Serienmörder, der 14 Jahre unentdeckt blieb, während ein Unschuldiger für seine Taten hingerichtet wurde. Tierentsprechung: Schwarze Mamba." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-fritz-haarmann",        name:"Fritz Haarmann",                   subtyp:"SX1w9",  heading:"Fritz Haarmann – Sexueller Typ 1",                                     teaser:"SX1w9 – Hannover 1918–1924. Mindestens 24 Morde, Polizeispitzel, Volksgestalt im Kiez. Der Werwolf von Hannover: SX1-Kontrollwille als letzte Besitznahme, Neunerflügel als warme Alltagsfassade. Tierentsprechung: Schwarze Mamba." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-josef-fritzl",         name:"Josef Fritzl",                     subtyp:"SX1w9",  heading:"Josef Fritzl – Sexueller Typ 1",                                       teaser:"SX1w9 – Amstetten, Österreich, 1984–2008. 24 Jahre Kerkerhaft, 7 Kinder, Doppelleben als geachteter Bürger. Die sexuelle Eins mit Neunerflügel: absolute Kontrolle über die intimste Beziehung, nach außen vollständige Unauffälligkeit. Tierentsprechung: Schwarze Mamba." , tags:["Missbrauch","Nahbereich"]},
-  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SE2w1",  heading:"Harvey Weinstein \u2013 Selbsterhaltender Typ 2",                           teaser:"Filmproduzent, geb. 1952. M\xe4zen und Predator in einer Person \u2013 die selbsterhaltende Zwei mit Einserfl\xfcgel als Blaupause systemischer Macht\xfcberschreitung. Ausl\xf6ser der globalen #MeToo-Bewegung." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w1 \u2013 Samenspender, der \xfcber 550 Kinder zeugte. Helfen als Identit\xe4t, Stolz als blinder Fleck: der Typ 2 im Fall Jonathan Meijer." , tags:["Betrug","Missbrauch"]},
-  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SE2w1",  heading:"Ángel Reséndez – Selbsterhaltender Typ 2",                          teaser:"SE2w1 – ‘Der Eisenbahn-Killer’, 1960–2006. 9 bestätigte Morde in den USA (1997–1999), 6 weitere zugeschrieben. Als illegaler Einwanderer entlang von Güterzügen durch die USA reisend – Einbruch und Gewalt als Überlebensstrategie. Tierentsprechung: Flusspferd." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells – Selbsterhaltender Typ 2",                           teaser:"SE2w1 – ‘Der Coast-to-Coast-Killer’, 1964–2014. Zwischen 13 und 70 Morde in zahlreichen US-Bundesstaaten über zwei Jahrzehnte. Wanderarbeiter, Drifter, scheinbar harmloser Fremder – Fürsorge als Köder, moralische Selbstgerechtigkeit als Rechtfertigung. Tierentsprechung: Kojote." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe – Selbsterhaltender Typ 2",                             teaser:"SE2w1 – 'Der Yorkshire Ripper', 1946–2020. 13 Morde an Frauen in Nordengland 1975–1980, 7 weitere Überlebende. LKW-Fahrer, Familienvater, hilfsbereiter Nachbar – Fürsorge als Tarnung, moralisches Urteil als Mördermotiv. Tierentsprechung: Flusspferd." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Selbsterhaltender Typ 2",                                  teaser:"SE2w3 \u2013 Fake-Erbin der New Yorker Hochgesellschaft. Stolz als Inszenierung: wie der Dreierfl\xfcgel der Zwei eine vollst\xe4ndige Lebensfiktion erm\xf6glicht." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 Sohn der Murdaugh-Dynastie. Erbliches Zweier-Privileg: wie ein \xfcbernommenes Machtsystem das Enneagramm Typ 2 pr\xe4gt." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SE2w3",  heading:"John Wayne Gacy \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 der \u201eKiller Clown\u201c. 33 Morde hinter der Fassade des B\xfcrgerengagements: das Zweier-Privileg in seiner extremsten Auspr\xe4gung." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SE2w3",  heading:"Sebastian Greenwood \u2013 Selbsterhaltender Typ 2",                          teaser:"SE2w3 \u2013 Mitgr\xfcnder des OneCoin-Betrugs. Der Netzwerker hinter der \"Cryptoqueen\": Beziehungsarchitektur als Waffe, Geben als Herrschaftsinstrument." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SE2w3",  heading:"Rudolf Pleil \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 Serienm\xf6rder, 1924\u20131958. Mindestens 9 Opfer in der Nachkriegs-Grenzzone. \u201eDer beste Totmacher\u201c: die selbsterhaltende Zwei mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung \u2013 Stolz als Anspruch auf Leben und Tod." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-jack-unterweger",     name:"Jack Unterweger",                     subtyp:"SO2w1",  heading:"Jack Unterweger – Sozialer Typ 2",                                      teaser:"SO2w1 – 'Der Dichter und der Tod', 1950–1994. Serienmörder, Gefängnisautor, TV-Journalist – ein von Intellektuellen gefeierter 'Resozialisierter', der nach seiner Entlassung sofort weitermordete. Mindestens 10 Morde, möglicherweise 13. Tierentsprechung: Golden Retriever." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-jim-jones",             name:"Jim Jones",                           subtyp:"SO2w3",  heading:"Jim Jones – Sozialer Typ 2",                                          teaser:"SO2w3 – Sektenf\xfchrer und Massenmord-Regisseur, 1931–1978. \xdcber 900 Tote in Jonestown, Guyana. Der Helfer als Heilsbringer: wie die soziale Zwei mit Dreierfl\xfcgel aus Krankenhausbauer zum Herrscher \xfcber Leben und Tod wurde – und im Achter-Stresspunkt alles vernichtete, was sie liebte." , tags:["Terror","Missbrauch"]},
-  { route:"kriminalpsychologie-cedric-maake",        name:"Cedric Maake",                        subtyp:"SO2w3",  heading:"Cedric Maake – Sozialer Typ 2",                                         teaser:"SO2w3 – 'Der Wemmer-Pan-Killer', geb. 1965. 27 Morde in Johannesburg 1996–1997 – einer der schwersten Serienmord-Fälle der südafrikanischen Geschichte. 1.395 Jahre Haft. Die soziale Zwei mit Dreierflügel: gesellige Unsichtbarkeit als Deckmantel. Tierentsprechung: Golden Retriever." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-osama-bin-laden",      name:"Osama bin Laden",                    subtyp:"SO2w1",  heading:"Osama bin Laden \u2013 Sozialer Typ 2",                                    teaser:"SO2w1 \u2013 Gr\xfcnder von al-Qaida, 1957\u20132011. Hauptverantwortlicher f\xfcr die Anschl\xe4ge vom 11. September 2001. Die soziale Zwei mit Einserfl\xfcgel: Selbstopferung f\xfcr die Gemeinschaft als h\xf6chster Stolz, moralische Empfindsam\u00adkeit als Vernichtungslogik. Tierentsprechung: Golden Retriever." , tags:["Terror"]},
-  { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexueller Typ 2",                                        teaser:"SX2w3 – Die Verführerin von Derry, geb. 1967. Manipulierte einen 15-jährigen Schüler zur Ermordung ihres Mannes (1990). Als einzige der Beteiligten sitzt sie noch immer in Haft. Die sexuelle Zwei mit Dreierflügel: Liebe als Hebel, Stolz als blinder Fleck. Tierentsprechung: Kamel." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Selbsterhaltender Typ 3",                          teaser:"SE3w2 \u2013 j\xfcngster Mafia-Capo seit Al Capone. Benzinsteuerbetrug, Milliarden-Einnahmen – und der einzige Mob-Boss, der die Mafia lebend und ohne Kronzeugenregelung verlie\xdf." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Selbsterhaltender Typ 3",                              teaser:"SE3w4 \u2013 Drogenbaron, 1949\u20131993. 80\xa0% des Weltmarkts, 30\xa0Mrd. Dollar Verm\xf6gen, Volksheld und Terrorist zugleich \u2013 die selbsterhaltende Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Mafia","Terror"]},
-  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Selbsterhaltender Typ 3",                       teaser:"SE3w4 – Gründer von FTX und Alameda Research, geb. 1992. Einer der größten Betrugsfälle der Kryptowelt: Kundengelder in Milliardenhöhe umgeleitet, 25 Jahre Haft 2023. Die selbsterhaltende Drei mit Viererflügel: Bescheidenheitsfassade, Effektivitätswahn und innere Unsicherheit als Motor des Zusammenbruchs. Tierentsprechung: Waschbär." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Selbsterhaltender Typ 3",                              teaser:"\u201eCryptoqueen\u201c, geb. 1980. \xdcber 4\xa0Mrd. Euro Schaden, seit 2017 spurlos verschwunden \u2013 die selbsterhaltende Drei mit Viererfl\xfcgel: perfekte Inszenierung, globaler Betrug, radikales Verschwinden." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Selbsterhaltender Typ 3",                               teaser:"SE3w4 – Die Schwarze Witwe von La Porte, 1859–1908(?). Mindestens 25–40 Opfer, darunter zwei Ehem\xe4nner und zahlreiche M\xe4nner, die sie per Heiratsanzeige anlockte. Der Waschb\xe4r: stille T\xe4uschung, Ressourcenkontrolle, kein Geltungsdrang – nur die n\xe4chste Mahlzeit. Tierentsprechung: Waschb\xe4r." , tags:["Serienmord","Betrug"]},
-  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Selbsterhaltender Typ 3",                           teaser:"SE3w4 \u2013 \u201eBarbie\u201c der Ken-und-Barbie-Killer, geb. 1970. Drei Morde gemeinsam mit Paul Bernardo 1990\u201393, darunter ihre eigene Schwester. Waschb\xe4r-Energie: perfekte Anpassung, doppeltes Gesicht, der Deal mit der Justiz als letzter Inszenierungsakt." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SE3w4", heading:"Frank Abagnale Jr. – Selbsterhaltender Typ 3", teaser:"SE3w4 – Berühmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt – ohne je einer gewesen zu sein. Der selbsterhaltende Dreier-Kontratyp mit Viererflügel: Kompetenz als Überlebensstrategie, Identität als Ressource. Tierentsprechung: Waschbär.", tags:["Betrug"]},
-  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Selbsterhaltender Typ 3",                              teaser:"SE3w4 – Größter Anlagebetrug der Geschichte, 1938–2021. 65 Milliarden Dollar gefälschte Kontoauszüge, mindestens 20 Jahre Ponzi-System – der selbsterhaltende Dreier mit Viererflügel: stille Inszenierung, Vertrauen als Waffe, Waschbär-Energie bis zum letzten Tag. Tierentsprechung: Waschbär." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Sozialer Typ 3",                                   teaser:"SO3w2 – 'Monster der Anden', geb. 1948. Mindestens 350 Morde an jungen Mädchen in Kolumbien, Peru und Ecuador, 1969–1980. Der Gepard: zielgenaue Verführung, charismatische Maske, Erfolg als Opferzahl – die soziale Drei mit Zweierflügel in ihrer dunkelsten Ausprägung." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Sozialer Typ 3",                                       teaser:"SO3w4 – F\xfcnffachmörder und Mörder von Gianni Versace, 1969–1997. Vier Morde in zwölf Tagen quer durch die USA, dann Versace vor seiner Villa in Miami Beach. Der Gepard: Prestige als Lebensinhalt, Fassade als einzige Realität, Viererflügel als dunkle Unterströmung." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Sozialer Typ 3",                                         teaser:"SO3w4 – NFL-Legende und Protagonist des „Processes des Jahrhunderts“, 1947–2024. Freigesprochen im Strafprozess 1995, zivilrechtlich schuldig 1997. Der Gepard: das \xf6ffentliche Selbstbild als einzige Realit\xe4t, Inszenierung bis zur letzten Sekunde. Tierentsprechung: Gepard." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-vincenzo-peruggia",     name:"Vincenzo Peruggia",                    subtyp:"SO3w4",  heading:"Vincenzo Peruggia \u2013 Sozialer Typ 3",                      teaser:"SO3w4 \u2013 Der Dieb der Mona Lisa, 1881\u20131925. Stahl am 21. August 1911 die Mona Lisa aus dem Louvre und verbarg sie zwei Jahre in seiner Pariser Mansardenwohnung. Verhaftet 1913. Der Gepard: einmaliger pr\xe4ziser Schlag, patriotische Inszenierung, \xe4sthetische Bindung ans Objekt. Tierentsprechung: Gepard.", tags:["Betrug"]},
-  { route:"kriminalpsychologie-wade-wilson",         name:"Wade Wilson",                         subtyp:"SO3w4",  heading:"Wade Wilson \u2013 Sozialer Typ 3",                                         teaser:"SO3w4 \u2013 Doppelm\u00f6rder, geb. 1996. Zwei Morde in einer Nacht (Oktober 2019, Florida). Todesurteil 2024. Der Gerichtssaal als B\u00fchne: wie die soziale Drei mit Vierfl\u00fcgel Aufmerksamkeit zur einzigen W\u00e4hrung macht. Tierentsprechung: Gepard." , tags:["Nahbereich","Serienmord"]},
-  { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexueller Typ 3",                                       teaser:"SX3w4 \u2013 Kindsmörderin, geb. 1955. 1983 erschoss sie ihre drei Kinder in Oregon, um einem Mann das perfekte, ungebundene Ideal zu sein. Die sexuelle Drei mit Viererflügel: Kinder als störende Requisiten, blockierte Herzenergie als Tatmotiv, Kalkül statt Gefühl. Tierentsprechung: Pfau." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexueller Typ 3",                                     teaser:"SX3w4 \u2013 M\xf6rder und digitaler Selbstinszenierer, 2012. 70+ Aliasnamen, Mord als Content, Verhaftung beim Lesen eigener Schlagzeilen \u2013 die sexuelle Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexueller Typ 3",                                     teaser:"SX3w4 – 'Der Night Stalker', geb. 1960, gest. 2013. 13 Morde, Vergewaltigungen, Einbrüche in Südkalifornien 1984–1985. Satanische Ikonografie, Inszenierung des Bösen, Groupies im Gerichtssaal – die sexuelle Drei mit Viererflügel: Selbstmythologisierung als Todeswaffe. Tierentsprechung: Pfau." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Selbsterhaltender Typ 4",                          teaser:"SE4w3 – „Son of Sam“, New York 1976–77. Sechs Morde, Bekennerbriefe, tiefer Einsamkeitsschmerz – die selbsterhaltende Vier mit Dreierflügel: Neid als Vernichtung des Begehrten." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Sozialer Typ 4",                                        teaser:"SO4w5 – Isla-Vista-Massaker 2014. 6 Tote, 14 Verletzte – die soziale Vier mit F\xfcnferfl\xfcgel: Neid als Weltgericht, Ausgeschlossenheit als Vernichtungsauftrag. Tierentsprechung: G\xfcrteltier." , tags:["Terror"]},
-  { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexueller Typ 4",                                      teaser:"SX4w3 \u2013 Diktator, 1889\u20131945. Hauptverantwortlicher f\xfcr Holocaust und Weltkrieg. Die sexuelle Vier mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Neid als Vernichtungswille." , tags:["Terror"]},
-  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Selbsterhaltender Typ 5",                             teaser:"SE5w6 \u2013 Kanalarbeiter und Serienm\xf6rder, 1933\u20131991. Mindestens 8 Opfer im Ruhrgebiet zwischen 1955 und 1976. Der \u201eRuhrkannibale\u201c: radikaler R\xfcckzug, extreme Ressourcenknappheit und die dunkelste Auspr\xe4gung der selbsterhaltenden F\xfcnf." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-ted-kaczynski",      name:"Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Sozialer Typ 5",                                       teaser:"SO5w4 \u2013 'Unabomber', 1942\u20132023. Bombenanschl\xe4ge 1978\u20131995, 3 Tote, 23 Verletzte \u2013 die soziale F\xfcnf mit Viererfl\xfcgel: Wissen als Weltgericht, intellektuelle \xdcberlegenheit als Sendungsauftrag. Tierentsprechung: Oktopus." , tags:["Terror"]},
-  { route:"kriminalpsychologie-harold-shipman",    name:"Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Sozialer Typ 5",                                      teaser:"SO5w6 – Hausarzt und Serienmörder, 1946–2004. Mindestens 218 Opfer – der tödlichste Einzeltäter der britischen Kriminalgeschichte. Der Oktopus: Wissen als Kontrolle, stille Herrschaft über Leben und Tod hinter der Fassade des vertrauenswürdigen Doktors." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexueller Typ 5",                                    teaser:"SX5w4 \u2013 Serienm\xf6rder, 1960\u20131994. 17 Opfer, radikale Verschmelzungsfantasien \u2013 die sexuelle F\xfcnf mit Viererfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Vereinnahmung." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-joel-rifkin",          name:"Joel Rifkin",                         subtyp:"SX5w6",  heading:"Joel Rifkin – Sexueller Typ 5",                                         teaser:"SX5w6 – US-amerikanischer Serienmörder, geb. 1959. 17 Morde an Prostituierten in New York City 1989–1993. Vorort-Bewohner, sozial unsichtbar, nachtaktiv auf der Suche nach kontrollierter Nähe. Tierentsprechung: Igel." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SE6w5",  heading:"John List – Selbsterhaltender Typ 6",                                   teaser:"SE6w5 – F\xfcnffachmörder, 1925–2008. Erschoss am 9. November 1971 seine gesamte Familie in Westfield, New Jersey – und lebte danach 17 Jahre unentdeckt als Buchhalter \"Robert Clark\". Das Kaninchen: Angst als Tatmotiv, Schweigen als F\xfcnferfl\xfcgel, Religion als zerst\xf6rerische Rechtfertigung. Tierentsprechung: Kaninchen." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-adolf-eichmann",      name:"Adolf Eichmann",                       subtyp:"SO6w5",  heading:"Adolf Eichmann \u2013 Sozialer Typ 6",                                     teaser:"SO6w5 \u2013 SS-Obersturmbannf\xfchrer und Hauptorganisator der Holocaust-Logistik, 1906\u20131962. Das Paradebeispiel der Banalit\xe4t des B\xf6sen: die soziale Sechs mit F\xfcnferfl\xfcgel als gehorsamer B\xfcrokratievollstrecker. Tierentsprechung: Erdm\xe4nnchen." , tags:["Terror"]},
-  { route:"kriminalpsychologie-anders-breivik",      name:"Anders Breivik",                      subtyp:"SX6w5",  heading:"Anders Breivik \u2013 Sexueller Typ 6",                                    teaser:"SX6w5 \u2013 Attent\xe4ter, geb. 1979. 77 Tote, jahrelange geheime Planung \u2013 die sexuelle Sechs mit F\xfcnferfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: kontraphobische Angst als Vernichtungslogik." , tags:["Terror"]},
-  { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexueller Typ 6",                                      teaser:"SX6w5 \u2013 'Der Kannibale von Rotenburg', geb. 1961. Freiwilliger Kannibalismusfall 2001 \u2013 die sexuelle Sechs mit F\xfcnferfl\xfcgel: Angst vor dem Alleinsein als absolute, t\xf6dliche Verschmelzungssehnsucht. Tierentsprechung: Wolf." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"]},
-  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"]},
-      { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Sozialer Typ 7",                                  teaser:"SO7w6 – US-amerikanischer Familienmörder, geb. 1985. Ermordete seine schwangere Frau und zwei Töchter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, fünfmal lebenslänglich. Tierentsprechung: Biber." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"]},
-  { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexueller Typ 7",                                       teaser:"SX7w8 – US-amerikanische Serienmörderin, 1956–2002. Sieben Morde an Männern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterflügel: idealisierte Liebe als Überlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-boris-becker",         name:"Boris Becker",                         added:"2026-07-19",  subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",                              teaser:"SX7w8 – Tennisprofi, geb. 1967 in Leimen. Dreifacher Wimbledon-Sieger, jüngster Champion der Geschichte – und 2022 in Großbritannien verurteilt wegen Insolvenzvergehen. Die sexuelle Sieben mit Achterflügel: Ruhm als Überlebensfundament, Verleugnung der Grenzen, Vergangenheit als unaufgebbares Selbstbild. Tierentsprechung: Schimpanse." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Selbsterhaltender Typ 8",                        teaser:"SE8w9 – Die Patin von Medellín, 1943–2012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars – die selbsterhaltende Acht mit Neunerflügel: Macht als Überlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Sozialer Typ 8",                                     teaser:"SO8w7 – Der Teflon-Don, 1940–2002. Boss der Gambino-Familie, dreimal freigesprochen, schlie\xdflich durch seinen engsten Vertrauten verraten – die soziale Acht mit Siebenerfl\xfcgel: Herrschaft durch Schutz, Macht durch Sichtbarkeit. Tierentsprechung: L\xf6we." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-john-mcafee",          name:"John McAfee",                         subtyp:"SX8w9",  heading:"John McAfee – Sexueller Typ 8",                                    teaser:"SX8w9 – Gründer des ersten Antivirenprogramms, Flüchtiger, Anarchist. Von Belize bis zur spanischen Gefängniszelle: die sexuelle Acht ohne Grenzen – nach innen wie nach außen." , tags:["Betrug","Nahbereich"]},
-  { route:"kriminalpsychologie-jeffrey-epstein",     name:"Jeffrey Epstein",                     subtyp:"SX8w9",  heading:"Jeffrey Epstein \u2013 Sexueller Typ 8",                                   teaser:"Finanzier und Sexualst\xe4ter, 1953\u20132019. Jahrzehntelanges Netzwerk aus Macht und Kompromittierung \u2013 die sexuelle Acht mit Neunerfl\xfcgel: Besitz durch N\xe4he, Herrschaft durch Einbindung." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SE9w1",  heading:"Alfons Schuhbeck \u2013 Selbsterhaltender Typ 9",                              teaser:"SE9w1 \u2013 Der Fernsehkoch, geb. 1949. Steuerhinterziehung von 2,3 Millionen Euro \u2013 jahrelang, still und beharrlich. Die selbsterhaltende Neun mit Einserfl\xfcgel: Appetit als Lebensform, Tr\xe4gheit als Schlaf des Gewissens. Tierentsprechung: Elefant." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Sozialer Typ 9",                                  teaser:"SO9w8 – Rogue Trader, geb. 1967. Brachte 1995 die Barings Bank zum Zusammenbruch – die soziale Neun mit Achterflügel: Zugehörigkeit als Identität, Trägheit als Selbstvergessenheit. Tierentsprechung: Büffel." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Sozialer Typ 9",                                   teaser:"SO9w1 – Mitglied der Manson Family, geb. 1949. Beteiligt an den LaBianca-Morden 1969 – die soziale Neun mit Einserflügel: Auflösung in die Gruppe als Heimat, Dienst an der Gemeinschaft als Lebensweg. Tierentsprechung: Büffel." , tags:["Terror"]},
-  { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 Kunstf\xe4lscher, geb. 1951. \xdcber 50 gef\xe4lschte Meisterwerke, Jahrzehnte unentdeckt \u2013 die sexuelle Neun mit Einserfl\xfcgel: Verschmelzung mit dem Geist toter Meister." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Selbsterhaltender Typ 1",                               teaser:"SE1w2 – 'Der Mörder von Melrose Avenue', geb. 1945. 15 Morde an jungen Männern in London 1978–1983. Beamter, Gewerkschaftsaktivist, korrekter Nachbar – und ein Täter, der seine Opfer nach dem Tod wochenlang in seiner Wohnung behielt. Adler-Energie: Kontrolle durch Fürsorge, Einsamkeit als Mordmotiv. Tierentsprechung: Adler." , tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Selbsterhaltender Typ 1",                              teaser:"SE1w2 – 'Die Vermieterin des Todes', 1929–2011. Mindestens 9 Morde an Senioren und Behinderten in Sacramento, 1982–1988. Betreiberin einer Pension, Wohltäterin der Gemeinde – und eine Täterin, die ihre Opfer im Garten begrub und deren Sozialschecks kassierte. Adler-Energie: moralische Ordnung als Fassade, Fürsorge als Kontrolle. Tierentsprechung: Adler." , tags:["Serienmord"], gender:"f"},
+  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SE1w9",  heading:"Michail Popkow – Selbsterhaltender Typ 1",                          teaser:"SE1w9 – Serienm\xf6rder, geb. 1964. Mindestens 86 Opfer in der sibirischen Stadt Angarsk zwischen 1992 und 2010. Polizist, Familienvater, Nachbarschaftsmensch – und der Mann, der seine Morde als moralische S\xe4uberung verstand." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SE1w9",  heading:"Dennis Rader – Selbsterhaltender Typ 1",                               teaser:"SE1w9 – BTK-Killer, geb. 1945. Zehn Morde zwischen 1974 und 1991. Kirchenratsvorsitzender, Ordnungsbeauftragter, Familienvater – und der Mann, der seine Taten unter einem Selbstk\xfcnzel verbarg und sich jahrzehntelang nach Anerkennung sehnte." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SE1w9",  heading:"Andrei Tschikatilo \u2013 Selbsterhaltender Typ 1",                          teaser:"SE1w9 \u2013 Serienm\xf6rder, 1936\u20131994. 52 best\xe4tigte Opfer in der Sowjetunion. Der Schlachter von Rostow: Einser-Perfektionismus als Vernichtungslogik, Neunerfl\xfcgel als perfekte Tarnung." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SE1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Selbsterhaltender Typ 1",        teaser:"Erpresser, geb. 1951. Sechs Jahre, nie jemanden verletzt \u2013 die selbsterhaltende Eins mit Neunerfl\xfcgel: stiller Groll, akribische Methode, absolute Gewaltlosigkeit." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Selbsterhaltender Typ 1",                              teaser:"SE1w9 \u2013 Der \u201eS-Bahn-M\xf6rder\u201c, 1912\u20131946. Acht Morde in Berlin 1939\u201341. Fl\xe4chentarnung durch spie\xdfb\xfcrgerliche Korrektheit, eiskaltes Doppelleben, moralische Schuld stets nach au\xdfen verlagert." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Sozialer Typ 1",                                           teaser:"SO1w9 \u2013 Serienmörder, 1946\u20131989. Bürgerliche Fassade, unterdrückte Wut, Resentiment. Die soziale Eins mit Neunerflügel: Selbstgerechtigkeit als Verblendung, Zorn als kalte Triebkraft. Tierentsprechung: Gans." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Sozialer Typ 1",                                teaser:"SO1w9 \u2013 Serienm\xf6rder, 1937\u20132008. Mindestens 10 Opfer in S\xfcddeutschland 1959\u201360. Das \u201eUngeheuer vom Schwarzwald\u201c: wahnhafter g\xf6ttlicher Strafauftrag, emotionale Dissoziation und ein Leben im Zeichen krampfhafter S\xfchne." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexueller Typ 1",                                      teaser:"SX1w2 – Anwalt und Doppelmörder, geb. 1968. 87 Jahre Rechtsdynastie, Millionenbetrug, Doppelmord an Frau und Sohn 2021. Der Zweierflügel als Charme-Fassade, die Eins als gnadenloser Richter über das eigene Bild. Tierentsprechung: Schwarze Mamba." , tags:["Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexueller Typ 1",                                       teaser:"SX1w2 \u2013 Der \u201eGreen-River-Killer\u201c, geb. 1949. Mindestens 49 best\xe4tigte Morde in Washington State (1982\u20132001), wahrscheinlich \xfcber 70. Kirchg\xe4nger, Familienvater, unscheinbarer Lkw-Lackierer \u2013 und der Mann, der Frauen in seiner intimsten Sph\xe4re vernichtete, weil Kontrolle f\xfcr ihn Liebe bedeutete." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-paul-bernardo",         name:"Paul Bernardo",                       subtyp:"SX1w2",  heading:"Paul Bernardo \u2013 Sexueller Typ 1",                                      teaser:"SX1w2 \u2013 \u201eKen\u201c der Ken-und-Barbie-Killer, geb. 1964. Scarborough Rapist, Serienmörder, 1994 zu lebenslanger Haft verurteilt. Schwarze Mamba: totale Kontrolle \xfcber die intimste Sph\xe4re, Zweierfl\xfcgel als Charme-Fassade, Reinheitsfixierung als Vernichtungslogik." , tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-gennadi-mikhasevich",  name:"Gennadi Mikhasevich",                 subtyp:"SX1w2",  heading:"Gennadi Mikhasevich – Sexueller Typ 1",                                 teaser:"SX1w2 – 'Der Würger von Witebsk', geb. 1947. 36 Frauen ermordet in der Weißrussischen SSR (heute Belarus) (1971–1985). Familienvater, Drushinnik (freiwilliger Volksordnungshüter), Parteiaktivist – und Serienmörder, der 14 Jahre unentdeckt blieb, während ein Unschuldiger für seine Taten hingerichtet wurde. Tierentsprechung: Schwarze Mamba." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-fritz-haarmann",        name:"Fritz Haarmann",                   subtyp:"SX1w9",  heading:"Fritz Haarmann – Sexueller Typ 1",                                     teaser:"SX1w9 – Hannover 1918–1924. Mindestens 24 Morde, Polizeispitzel, Volksgestalt im Kiez. Der Werwolf von Hannover: SX1-Kontrollwille als letzte Besitznahme, Neunerflügel als warme Alltagsfassade. Tierentsprechung: Schwarze Mamba." , tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-josef-fritzl",         name:"Josef Fritzl",                     subtyp:"SX1w9",  heading:"Josef Fritzl – Sexueller Typ 1",                                       teaser:"SX1w9 – Amstetten, Österreich, 1984–2008. 24 Jahre Kerkerhaft, 7 Kinder, Doppelleben als geachteter Bürger. Die sexuelle Eins mit Neunerflügel: absolute Kontrolle über die intimste Beziehung, nach außen vollständige Unauffälligkeit. Tierentsprechung: Schwarze Mamba." , tags:["Missbrauch","Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SE2w1",  heading:"Harvey Weinstein \u2013 Selbsterhaltender Typ 2",                           teaser:"Filmproduzent, geb. 1952. M\xe4zen und Predator in einer Person \u2013 die selbsterhaltende Zwei mit Einserfl\xfcgel als Blaupause systemischer Macht\xfcberschreitung. Ausl\xf6ser der globalen #MeToo-Bewegung." , tags:["Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w1 \u2013 Samenspender, der \xfcber 550 Kinder zeugte. Helfen als Identit\xe4t, Stolz als blinder Fleck: der Typ 2 im Fall Jonathan Meijer." , tags:["Betrug","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SE2w1",  heading:"Ángel Reséndez – Selbsterhaltender Typ 2",                          teaser:"SE2w1 – ‘Der Eisenbahn-Killer’, 1960–2006. 9 bestätigte Morde in den USA (1997–1999), 6 weitere zugeschrieben. Als illegaler Einwanderer entlang von Güterzügen durch die USA reisend – Einbruch und Gewalt als Überlebensstrategie. Tierentsprechung: Flusspferd." , tags:["Sonstiges"], gender:"m"},
+  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells – Selbsterhaltender Typ 2",                           teaser:"SE2w1 – ‘Der Coast-to-Coast-Killer’, 1964–2014. Zwischen 13 und 70 Morde in zahlreichen US-Bundesstaaten über zwei Jahrzehnte. Wanderarbeiter, Drifter, scheinbar harmloser Fremder – Fürsorge als Köder, moralische Selbstgerechtigkeit als Rechtfertigung. Tierentsprechung: Kojote." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe – Selbsterhaltender Typ 2",                             teaser:"SE2w1 – 'Der Yorkshire Ripper', 1946–2020. 13 Morde an Frauen in Nordengland 1975–1980, 7 weitere Überlebende. LKW-Fahrer, Familienvater, hilfsbereiter Nachbar – Fürsorge als Tarnung, moralisches Urteil als Mördermotiv. Tierentsprechung: Flusspferd." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Selbsterhaltender Typ 2",                                  teaser:"SE2w3 \u2013 Fake-Erbin der New Yorker Hochgesellschaft. Stolz als Inszenierung: wie der Dreierfl\xfcgel der Zwei eine vollst\xe4ndige Lebensfiktion erm\xf6glicht." , tags:["Betrug"], gender:"f"},
+  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 Sohn der Murdaugh-Dynastie. Erbliches Zweier-Privileg: wie ein \xfcbernommenes Machtsystem das Enneagramm Typ 2 pr\xe4gt." , tags:["Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SE2w3",  heading:"John Wayne Gacy \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 der \u201eKiller Clown\u201c. 33 Morde hinter der Fassade des B\xfcrgerengagements: das Zweier-Privileg in seiner extremsten Auspr\xe4gung." , tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SE2w3",  heading:"Sebastian Greenwood \u2013 Selbsterhaltender Typ 2",                          teaser:"SE2w3 \u2013 Mitgr\xfcnder des OneCoin-Betrugs. Der Netzwerker hinter der \"Cryptoqueen\": Beziehungsarchitektur als Waffe, Geben als Herrschaftsinstrument." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SE2w3",  heading:"Rudolf Pleil \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 Serienm\xf6rder, 1924\u20131958. Mindestens 9 Opfer in der Nachkriegs-Grenzzone. \u201eDer beste Totmacher\u201c: die selbsterhaltende Zwei mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung \u2013 Stolz als Anspruch auf Leben und Tod." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-jack-unterweger",     name:"Jack Unterweger",                     subtyp:"SO2w1",  heading:"Jack Unterweger – Sozialer Typ 2",                                      teaser:"SO2w1 – 'Der Dichter und der Tod', 1950–1994. Serienmörder, Gefängnisautor, TV-Journalist – ein von Intellektuellen gefeierter 'Resozialisierter', der nach seiner Entlassung sofort weitermordete. Mindestens 10 Morde, möglicherweise 13. Tierentsprechung: Golden Retriever." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-jim-jones",             name:"Jim Jones",                           subtyp:"SO2w3",  heading:"Jim Jones – Sozialer Typ 2",                                          teaser:"SO2w3 – Sektenf\xfchrer und Massenmord-Regisseur, 1931–1978. \xdcber 900 Tote in Jonestown, Guyana. Der Helfer als Heilsbringer: wie die soziale Zwei mit Dreierfl\xfcgel aus Krankenhausbauer zum Herrscher \xfcber Leben und Tod wurde – und im Achter-Stresspunkt alles vernichtete, was sie liebte." , tags:["Terror","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-cedric-maake",        name:"Cedric Maake",                        subtyp:"SO2w3",  heading:"Cedric Maake – Sozialer Typ 2",                                         teaser:"SO2w3 – 'Der Wemmer-Pan-Killer', geb. 1965. 27 Morde in Johannesburg 1996–1997 – einer der schwersten Serienmord-Fälle der südafrikanischen Geschichte. 1.395 Jahre Haft. Die soziale Zwei mit Dreierflügel: gesellige Unsichtbarkeit als Deckmantel. Tierentsprechung: Golden Retriever." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-osama-bin-laden",      name:"Osama bin Laden",                    subtyp:"SO2w1",  heading:"Osama bin Laden \u2013 Sozialer Typ 2",                                    teaser:"SO2w1 \u2013 Gr\xfcnder von al-Qaida, 1957\u20132011. Hauptverantwortlicher f\xfcr die Anschl\xe4ge vom 11. September 2001. Die soziale Zwei mit Einserfl\xfcgel: Selbstopferung f\xfcr die Gemeinschaft als h\xf6chster Stolz, moralische Empfindsam\u00adkeit als Vernichtungslogik. Tierentsprechung: Golden Retriever." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexueller Typ 2",                                        teaser:"SX2w3 – Die Verführerin von Derry, geb. 1967. Manipulierte einen 15-jährigen Schüler zur Ermordung ihres Mannes (1990). Als einzige der Beteiligten sitzt sie noch immer in Haft. Die sexuelle Zwei mit Dreierflügel: Liebe als Hebel, Stolz als blinder Fleck. Tierentsprechung: Kamel." , tags:["Nahbereich"], gender:"f"},
+  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Selbsterhaltender Typ 3",                          teaser:"SE3w2 \u2013 j\xfcngster Mafia-Capo seit Al Capone. Benzinsteuerbetrug, Milliarden-Einnahmen – und der einzige Mob-Boss, der die Mafia lebend und ohne Kronzeugenregelung verlie\xdf." , tags:["Mafia"], gender:"m"},
+  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Selbsterhaltender Typ 3",                              teaser:"SE3w4 \u2013 Drogenbaron, 1949\u20131993. 80\xa0% des Weltmarkts, 30\xa0Mrd. Dollar Verm\xf6gen, Volksheld und Terrorist zugleich \u2013 die selbsterhaltende Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Mafia","Terror"], gender:"m"},
+  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Selbsterhaltender Typ 3",                       teaser:"SE3w4 – Gründer von FTX und Alameda Research, geb. 1992. Einer der größten Betrugsfälle der Kryptowelt: Kundengelder in Milliardenhöhe umgeleitet, 25 Jahre Haft 2023. Die selbsterhaltende Drei mit Viererflügel: Bescheidenheitsfassade, Effektivitätswahn und innere Unsicherheit als Motor des Zusammenbruchs. Tierentsprechung: Waschbär." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Selbsterhaltender Typ 3",                              teaser:"\u201eCryptoqueen\u201c, geb. 1980. \xdcber 4\xa0Mrd. Euro Schaden, seit 2017 spurlos verschwunden \u2013 die selbsterhaltende Drei mit Viererfl\xfcgel: perfekte Inszenierung, globaler Betrug, radikales Verschwinden." , tags:["Betrug"], gender:"f"},
+  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Selbsterhaltender Typ 3",                               teaser:"SE3w4 – Die Schwarze Witwe von La Porte, 1859–1908(?). Mindestens 25–40 Opfer, darunter zwei Ehem\xe4nner und zahlreiche M\xe4nner, die sie per Heiratsanzeige anlockte. Der Waschb\xe4r: stille T\xe4uschung, Ressourcenkontrolle, kein Geltungsdrang – nur die n\xe4chste Mahlzeit. Tierentsprechung: Waschb\xe4r." , tags:["Serienmord","Betrug"], gender:"f"},
+  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Selbsterhaltender Typ 3",                           teaser:"SE3w4 \u2013 \u201eBarbie\u201c der Ken-und-Barbie-Killer, geb. 1970. Drei Morde gemeinsam mit Paul Bernardo 1990\u201393, darunter ihre eigene Schwester. Waschb\xe4r-Energie: perfekte Anpassung, doppeltes Gesicht, der Deal mit der Justiz als letzter Inszenierungsakt." , tags:["Serienmord","Missbrauch"], gender:"f"},
+  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SE3w4", heading:"Frank Abagnale Jr. – Selbsterhaltender Typ 3", teaser:"SE3w4 – Berühmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt – ohne je einer gewesen zu sein. Der selbsterhaltende Dreier-Kontratyp mit Viererflügel: Kompetenz als Überlebensstrategie, Identität als Ressource. Tierentsprechung: Waschbär.", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Selbsterhaltender Typ 3",                              teaser:"SE3w4 – Größter Anlagebetrug der Geschichte, 1938–2021. 65 Milliarden Dollar gefälschte Kontoauszüge, mindestens 20 Jahre Ponzi-System – der selbsterhaltende Dreier mit Viererflügel: stille Inszenierung, Vertrauen als Waffe, Waschbär-Energie bis zum letzten Tag. Tierentsprechung: Waschbär." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Sozialer Typ 3",                                   teaser:"SO3w2 – 'Monster der Anden', geb. 1948. Mindestens 350 Morde an jungen Mädchen in Kolumbien, Peru und Ecuador, 1969–1980. Der Gepard: zielgenaue Verführung, charismatische Maske, Erfolg als Opferzahl – die soziale Drei mit Zweierflügel in ihrer dunkelsten Ausprägung." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Sozialer Typ 3",                                       teaser:"SO3w4 – F\xfcnffachmörder und Mörder von Gianni Versace, 1969–1997. Vier Morde in zwölf Tagen quer durch die USA, dann Versace vor seiner Villa in Miami Beach. Der Gepard: Prestige als Lebensinhalt, Fassade als einzige Realität, Viererflügel als dunkle Unterströmung." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Sozialer Typ 3",                                         teaser:"SO3w4 – NFL-Legende und Protagonist des „Processes des Jahrhunderts“, 1947–2024. Freigesprochen im Strafprozess 1995, zivilrechtlich schuldig 1997. Der Gepard: das \xf6ffentliche Selbstbild als einzige Realit\xe4t, Inszenierung bis zur letzten Sekunde. Tierentsprechung: Gepard." , tags:["Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-vincenzo-peruggia",     name:"Vincenzo Peruggia",                    subtyp:"SO3w4",  heading:"Vincenzo Peruggia \u2013 Sozialer Typ 3",                      teaser:"SO3w4 \u2013 Der Dieb der Mona Lisa, 1881\u20131925. Stahl am 21. August 1911 die Mona Lisa aus dem Louvre und verbarg sie zwei Jahre in seiner Pariser Mansardenwohnung. Verhaftet 1913. Der Gepard: einmaliger pr\xe4ziser Schlag, patriotische Inszenierung, \xe4sthetische Bindung ans Objekt. Tierentsprechung: Gepard.", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-wade-wilson",         name:"Wade Wilson",                         subtyp:"SO3w4",  heading:"Wade Wilson \u2013 Sozialer Typ 3",                                         teaser:"SO3w4 \u2013 Doppelm\u00f6rder, geb. 1996. Zwei Morde in einer Nacht (Oktober 2019, Florida). Todesurteil 2024. Der Gerichtssaal als B\u00fchne: wie die soziale Drei mit Vierfl\u00fcgel Aufmerksamkeit zur einzigen W\u00e4hrung macht. Tierentsprechung: Gepard." , tags:["Nahbereich","Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexueller Typ 3",                                       teaser:"SX3w4 \u2013 Kindsmörderin, geb. 1955. 1983 erschoss sie ihre drei Kinder in Oregon, um einem Mann das perfekte, ungebundene Ideal zu sein. Die sexuelle Drei mit Viererflügel: Kinder als störende Requisiten, blockierte Herzenergie als Tatmotiv, Kalkül statt Gefühl. Tierentsprechung: Pfau." , tags:["Nahbereich"], gender:"f"},
+  { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexueller Typ 3",                                     teaser:"SX3w4 \u2013 M\xf6rder und digitaler Selbstinszenierer, 2012. 70+ Aliasnamen, Mord als Content, Verhaftung beim Lesen eigener Schlagzeilen \u2013 die sexuelle Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexueller Typ 3",                                     teaser:"SX3w4 – 'Der Night Stalker', geb. 1960, gest. 2013. 13 Morde, Vergewaltigungen, Einbrüche in Südkalifornien 1984–1985. Satanische Ikonografie, Inszenierung des Bösen, Groupies im Gerichtssaal – die sexuelle Drei mit Viererflügel: Selbstmythologisierung als Todeswaffe. Tierentsprechung: Pfau." , tags:["Sonstiges"], gender:"m"},
+  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Selbsterhaltender Typ 4",                          teaser:"SE4w3 – „Son of Sam“, New York 1976–77. Sechs Morde, Bekennerbriefe, tiefer Einsamkeitsschmerz – die selbsterhaltende Vier mit Dreierflügel: Neid als Vernichtung des Begehrten." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Sozialer Typ 4",                                        teaser:"SO4w5 – Isla-Vista-Massaker 2014. 6 Tote, 14 Verletzte – die soziale Vier mit F\xfcnferfl\xfcgel: Neid als Weltgericht, Ausgeschlossenheit als Vernichtungsauftrag. Tierentsprechung: G\xfcrteltier." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexueller Typ 4",                                      teaser:"SX4w3 \u2013 Diktator, 1889\u20131945. Hauptverantwortlicher f\xfcr Holocaust und Weltkrieg. Die sexuelle Vier mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Neid als Vernichtungswille." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Selbsterhaltender Typ 5",                             teaser:"SE5w6 \u2013 Kanalarbeiter und Serienm\xf6rder, 1933\u20131991. Mindestens 8 Opfer im Ruhrgebiet zwischen 1955 und 1976. Der \u201eRuhrkannibale\u201c: radikaler R\xfcckzug, extreme Ressourcenknappheit und die dunkelste Auspr\xe4gung der selbsterhaltenden F\xfcnf." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-ted-kaczynski",      name:"Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Sozialer Typ 5",                                       teaser:"SO5w4 \u2013 'Unabomber', 1942\u20132023. Bombenanschl\xe4ge 1978\u20131995, 3 Tote, 23 Verletzte \u2013 die soziale F\xfcnf mit Viererfl\xfcgel: Wissen als Weltgericht, intellektuelle \xdcberlegenheit als Sendungsauftrag. Tierentsprechung: Oktopus." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-harold-shipman",    name:"Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Sozialer Typ 5",                                      teaser:"SO5w6 – Hausarzt und Serienmörder, 1946–2004. Mindestens 218 Opfer – der tödlichste Einzeltäter der britischen Kriminalgeschichte. Der Oktopus: Wissen als Kontrolle, stille Herrschaft über Leben und Tod hinter der Fassade des vertrauenswürdigen Doktors." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexueller Typ 5",                                    teaser:"SX5w4 \u2013 Serienm\xf6rder, 1960\u20131994. 17 Opfer, radikale Verschmelzungsfantasien \u2013 die sexuelle F\xfcnf mit Viererfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Vereinnahmung." , tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-joel-rifkin",          name:"Joel Rifkin",                         subtyp:"SX5w6",  heading:"Joel Rifkin – Sexueller Typ 5",                                         teaser:"SX5w6 – US-amerikanischer Serienmörder, geb. 1959. 17 Morde an Prostituierten in New York City 1989–1993. Vorort-Bewohner, sozial unsichtbar, nachtaktiv auf der Suche nach kontrollierter Nähe. Tierentsprechung: Igel." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SE6w5",  heading:"John List – Selbsterhaltender Typ 6",                                   teaser:"SE6w5 – F\xfcnffachmörder, 1925–2008. Erschoss am 9. November 1971 seine gesamte Familie in Westfield, New Jersey – und lebte danach 17 Jahre unentdeckt als Buchhalter \"Robert Clark\". Das Kaninchen: Angst als Tatmotiv, Schweigen als F\xfcnferfl\xfcgel, Religion als zerst\xf6rerische Rechtfertigung. Tierentsprechung: Kaninchen." , tags:["Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-adolf-eichmann",      name:"Adolf Eichmann",                       subtyp:"SO6w5",  heading:"Adolf Eichmann \u2013 Sozialer Typ 6",                                     teaser:"SO6w5 \u2013 SS-Obersturmbannf\xfchrer und Hauptorganisator der Holocaust-Logistik, 1906\u20131962. Das Paradebeispiel der Banalit\xe4t des B\xf6sen: die soziale Sechs mit F\xfcnferfl\xfcgel als gehorsamer B\xfcrokratievollstrecker. Tierentsprechung: Erdm\xe4nnchen." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-anders-breivik",      name:"Anders Breivik",                      subtyp:"SX6w5",  heading:"Anders Breivik \u2013 Sexueller Typ 6",                                    teaser:"SX6w5 \u2013 Attent\xe4ter, geb. 1979. 77 Tote, jahrelange geheime Planung \u2013 die sexuelle Sechs mit F\xfcnferfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: kontraphobische Angst als Vernichtungslogik." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexueller Typ 6",                                      teaser:"SX6w5 \u2013 'Der Kannibale von Rotenburg', geb. 1961. Freiwilliger Kannibalismusfall 2001 \u2013 die sexuelle Sechs mit F\xfcnferfl\xfcgel: Angst vor dem Alleinsein als absolute, t\xf6dliche Verschmelzungssehnsucht. Tierentsprechung: Wolf." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"], gender:"m"},
+      { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Sozialer Typ 7",                                  teaser:"SO7w6 – US-amerikanischer Familienmörder, geb. 1985. Ermordete seine schwangere Frau und zwei Töchter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, fünfmal lebenslänglich. Tierentsprechung: Biber." , tags:["Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexueller Typ 7",                              teaser:"SX7w8 – Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der mächtigsten Männer der Musikindustrie – und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und Nötigung. Die sexuelle Sieben mit Achterflügel: Vergnügen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
+  { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexueller Typ 7",                                       teaser:"SX7w8 – US-amerikanische Serienmörderin, 1956–2002. Sieben Morde an Männern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterflügel: idealisierte Liebe als Überlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"], gender:"f"},
+  { route:"kriminalpsychologie-boris-becker",         name:"Boris Becker",                         added:"2026-07-19",  subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",                              teaser:"SX7w8 – Tennisprofi, geb. 1967 in Leimen. Dreifacher Wimbledon-Sieger, jüngster Champion der Geschichte – und 2022 in Großbritannien verurteilt wegen Insolvenzvergehen. Die sexuelle Sieben mit Achterflügel: Ruhm als Überlebensfundament, Verleugnung der Grenzen, Vergangenheit als unaufgebbares Selbstbild. Tierentsprechung: Schimpanse." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Selbsterhaltender Typ 8",                        teaser:"SE8w9 – Die Patin von Medellín, 1943–2012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars – die selbsterhaltende Acht mit Neunerflügel: Macht als Überlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"], gender:"f"},
+  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"], gender:"m"},
+  { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Sozialer Typ 8",                                     teaser:"SO8w7 – Der Teflon-Don, 1940–2002. Boss der Gambino-Familie, dreimal freigesprochen, schlie\xdflich durch seinen engsten Vertrauten verraten – die soziale Acht mit Siebenerfl\xfcgel: Herrschaft durch Schutz, Macht durch Sichtbarkeit. Tierentsprechung: L\xf6we." , tags:["Mafia"], gender:"m"},
+  { route:"kriminalpsychologie-john-mcafee",          name:"John McAfee",                         subtyp:"SX8w9",  heading:"John McAfee – Sexueller Typ 8",                                    teaser:"SX8w9 – Gründer des ersten Antivirenprogramms, Flüchtiger, Anarchist. Von Belize bis zur spanischen Gefängniszelle: die sexuelle Acht ohne Grenzen – nach innen wie nach außen." , tags:["Betrug","Nahbereich"], gender:"m"},
+  { route:"kriminalpsychologie-jeffrey-epstein",     name:"Jeffrey Epstein",                     subtyp:"SX8w9",  heading:"Jeffrey Epstein \u2013 Sexueller Typ 8",                                   teaser:"Finanzier und Sexualst\xe4ter, 1953\u20132019. Jahrzehntelanges Netzwerk aus Macht und Kompromittierung \u2013 die sexuelle Acht mit Neunerfl\xfcgel: Besitz durch N\xe4he, Herrschaft durch Einbindung." , tags:["Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SE9w1",  heading:"Alfons Schuhbeck \u2013 Selbsterhaltender Typ 9",                              teaser:"SE9w1 \u2013 Der Fernsehkoch, geb. 1949. Steuerhinterziehung von 2,3 Millionen Euro \u2013 jahrelang, still und beharrlich. Die selbsterhaltende Neun mit Einserfl\xfcgel: Appetit als Lebensform, Tr\xe4gheit als Schlaf des Gewissens. Tierentsprechung: Elefant." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Sozialer Typ 9",                                  teaser:"SO9w8 – Rogue Trader, geb. 1967. Brachte 1995 die Barings Bank zum Zusammenbruch – die soziale Neun mit Achterflügel: Zugehörigkeit als Identität, Trägheit als Selbstvergessenheit. Tierentsprechung: Büffel." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Sozialer Typ 9",                                   teaser:"SO9w1 – Mitglied der Manson Family, geb. 1949. Beteiligt an den LaBianca-Morden 1969 – die soziale Neun mit Einserflügel: Auflösung in die Gruppe als Heimat, Dienst an der Gemeinschaft als Lebensweg. Tierentsprechung: Büffel." , tags:["Terror"], gender:"f"},
+  { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 Kunstf\xe4lscher, geb. 1951. \xdcber 50 gef\xe4lschte Meisterwerke, Jahrzehnte unentdeckt \u2013 die sexuelle Neun mit Einserfl\xfcgel: Verschmelzung mit dem Geist toter Meister." , tags:["Betrug"], gender:"m"},
 ];
 
 const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SE1w9",
     heading:"Queen Elizabeth II. – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1926–2022. Königin des Vereinigten Königreichs, 70 Jahre auf dem Thron. Pflicht als Lebensinhalt, Stille als Stärke, niemals klagen, niemals erklären. Der Adler, der seinen Posten nie verließ. Tierentsprechung: Adler.",
-    tags:["Politik","Adel"] },
+    tags:["Politik","Adel"] , gender:"f"},
   { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
     heading:"Sting – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · „Der Adler”, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
     heading:"Marie Kondo – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1984. Ordnungsberaterin, Autorin der KonMari-Methode. \"Löst es Freude aus?\" – ein inneres System, so klar wie ein Adlerblick, und ein Zweierflügel, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Tierentsprechung: Adler.",
-    tags:["Kultur","Gesellschaft"] },
+    tags:["Kultur","Gesellschaft"] , gender:"f"},
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt – weil sie das Chaos aus eigener Erfahrung kennt und weiß, was es kostet, wenn Struktur fehlt.",
-    added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] },
+    added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] , gender:"m"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Sozialer Typ 1",
     teaser:"SO1w2 · geb. 1967. Trainer, Meister, Motivator. BVB, Liverpool, Red Bull – und möglicherweise bald Bundestrainer. Die Gans, die ihrer Formation glaubt, bevor die Formation sich selbst glaubt. Tierentsprechung: Gans.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"m"},
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski – Sexueller Typ 1",
     teaser:"SX1w9 · 1926–1991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen – Gleichgültigkeit war keine Option.",
-    tags:["Schauspiel","Kino"] },
+    tags:["Schauspiel","Kino"] , gender:"m"},
   { route:"beruehmte-marie-agnes-strack-zimmermann", name:"Marie-Agnes Strack-Zimmermann", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Marie-Agnes Strack-Zimmermann – Sexueller Typ 1",
     teaser:"SX1w9 · geb. 1958. FDP-Politikerin, Vorsitzende des Verteidigungsausschusses, EU-Parlamentarierin. Die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu. Feuer und Ausdauer in einem. Tierentsprechung: Schwarze Mamba.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre Nüchternheit – die Schwarze Mamba, die keine Heuchelei erträgt und für andere ebenso brennt wie für sich selbst. Tierentsprechung: Schwarze Mamba.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1974. Schauspieler, Klimaaktivist. Fünfmal Oscar-nominiert, sechsmal angetreten – und im Moment des Triumphes sprach er über den Klimawandel, nicht über sich. Die Schwarze Mamba brennt nicht für Applaus. Tierentsprechung: Schwarze Mamba.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
     heading:"Greta Thunberg – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 2003. Klimaaktivistin, Gründerin von Fridays for Future. Mit 15 Jahren allein vor dem schwedischen Reichstag – und einem selbstgebastelten Schild. Das Flusspferd weicht nicht. Tierentsprechung: Flusspferd.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-gloria-von-thurn-und-taxis", name:"Gloria von Thurn und Taxis", added:"2026-07-20", subtyp:"SE2w1",
     heading:"Gloria von Thurn und Taxis – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1960. Fürstin, Unternehmerin, Mäzenin. Vom Punkprinzess-Exzess der 1980er zur eisernen Matriarchin eines der größten Privatvermögen Europas. Das Flusspferd kennt sein Territorium – und gibt es nicht auf. Tierentsprechung: Flusspferd.",
-    tags:["Adel","Wirtschaft"] },
+    tags:["Adel","Wirtschaft"] , gender:"f"},
   { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
     heading:"Uli Hoeneß – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1952. Fußballweltmeister 1974, Manager und Präsident des FC Bayern München. Vier Jahrzehnte Aufbauarbeit, Steueraffäre und Rückkehr. Das Flusspferd verteidigt sein Revier – und kommt nach dem Sturz stärker zurück als zuvor. Tierentsprechung: Flusspferd.",
-    tags:["Sport","Wirtschaft"] },
+    tags:["Sport","Wirtschaft"] , gender:"m"},
   { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong – nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"m"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unermüdlicher Mahner. Der Golden Retriever, der Alarm schlägt – weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
-    tags:["Wissenschaft","Medizin"] },
+    tags:["Wissenschaft","Medizin"] , gender:"m"},
   { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1961. 44. US-Präsident, Community Organizer, Friedensnobelpreisträger. Yes We Can – keine Botschaft über Obama, sondern über das, was wir gemeinsam möglich machen. Tierentsprechung: Golden Retriever.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith – Sozialer Typ 2",
     teaser:"SO2w3 · geb. 1968. Schauspieler, Rapper, Oscar-Preisträger. Fresh Prince, Ali, Men in Black. Der Golden Retriever, der die Welt umarmen will – und manchmal beißt, weil er schützt. Ehrgeiz als Form der Liebe. Tierentsprechung: Golden Retriever.",
-    tags:["Schauspiel","Musik"] },
+    tags:["Schauspiel","Musik"] , gender:"m"},
   { route:"beruehmte-nina-chuba", name:"Nina Chuba", subtyp:"SO2w3",
     heading:"Nina Chuba – Soziale Typ 2",
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
     heading:"Monika Gruber – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1970. Kabarettistin, Schauspielerin. Bayerns schärfste Verführerin zur Wahrheit – Humor als Heimat, Haltung als zweite Natur. Das Kamel, das tausend Menschen gleichzeitig anschaut. Tierentsprechung: Kamel.",
-    tags:["Kabarett","Schauspiel"] },
+    tags:["Kabarett","Schauspiel"] , gender:"f"},
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
     heading:"Matthias Schweighöfer – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-pamela-reif", name:"Pamela Reif", added:"2026-07-20", subtyp:"SX2w3",
     heading:"Pamela Reif – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1996. Fitness-Influencerin, Unternehmerin. Millionen Verbindungen durch einen Bildschirm – Verführung als Verbindungskunst, Perfektion als Liebesbeweis. Tierentsprechung: Kamel.",
-    tags:["Sport","Lifestyle"] },
+    tags:["Sport","Lifestyle"] , gender:"f"},
   { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
     heading:"Braco – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
-    tags:["Sonstiges"] },
+    tags:["Sonstiges"] , gender:"m"},
   { route:"beruehmte-wolodymyr-selenskyj", name:"Wolodymyr Selenskyj", added:"2026-07-20", subtyp:"SE3w2",
     heading:"Wolodymyr Selenskyj – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1978. Komiker, Schauspieler, Staatspräsident. Kontratyp der Drei: meisterhaft im Verbergen der eigenen Inszenierung. Der Waschbär, der den Helden spielt – und den Unterschied vergessen hat. Tierentsprechung: Waschbär.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
     heading:"Sadhguru – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
-    tags:["Sonstiges"] },
+    tags:["Sonstiges"] , gender:"m"},
   { route:"beruehmte-david-l-rathmer", name:"David L. Rathmer", added:"2026-07-20", subtyp:"SE3w4",
     heading:"David L. Rathmer – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 2003 in Münster. Enneagramm-Profiler, Gründer der Ennea Scholars Academy, jüngster Wirtschaftssenator des Europäischen Wirtschaftssenats. Mitentwickler des Heilungskompass. Der Waschbär, der das Enneagramm ins digitale Zeitalter überführt. Tierentsprechung: Waschbär.",
-    tags:["Enneagramm","Wissenschaft"] },
+    tags:["Enneagramm","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
-    tags:["Medien"] },
+    tags:["Medien"] , gender:"f"},
   { route:"beruehmte-sahra-wagenknecht", name:"Sahra Wagenknecht", added:"2026-07-20", subtyp:"SO3w2",
     heading:"Sahra Wagenknecht – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1969. Politikerin, Buchautorin, Gründerin des BSW. Die Analytikerin des Populären – der Gepard, der nicht nur sprintet, sondern auch weiß, wohin. Tierentsprechung: Gepard.",
-    tags:["Politik","Medien"] },
+    tags:["Politik","Medien"] , gender:"f"},
   { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
     heading:"Cristiano Ronaldo – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1985. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore. Der Gepard, der nie aufhört zu rennen – und der trotzdem weiß, wo er herkommt.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"m"},
   { route:"beruehmte-karl-lagerfeld", name:"Karl Lagerfeld", added:"2026-07-20", subtyp:"SO3w4",
     heading:"Karl Lagerfeld – Sozialer Typ 3",
     teaser:"SO3w4 · 1933–2019. Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat – und dahinter ein Leben aus Büchern, Ästhetik und verborgener Tiefe führte.",
-    tags:["Mode","Kunst"] },
+    tags:["Mode","Kunst"] , gender:"m"},
   { route:"beruehmte-bella-thorne", name:"Bella Thorne", subtyp:"SO3w4",
     heading:"Bella Thorne – Sozialer Typ 3",
     teaser:"SO3w4 · geb. 1997. Schauspielerin, Regisseurin, Social-Media-Star. Vom Disney-Kind zur Regisseurin – der Gepard, der nicht nur sprintet, sondern auch die Dunkelheit kennt.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexueller Typ 3",
     teaser:"SX3w2 · „Der Strahlende“, geb. 1967. Deutschlands bekanntester Moderator. Seit über 30 Jahren fasziniert er Millionen – nicht durch große Gesten, sondern durch echte Wärme und magnetische persönliche Präsenz. Tierentsprechung: Pfau.",
-    tags:["Medien"] },
+    tags:["Medien"] , gender:"m"},
   { route:"beruehmte-lena-meyer-landrut", name:"Lena Meyer-Landrut", added:"2026-07-20", subtyp:"SX3w2",
     heading:"Lena Meyer-Landrut – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1991. Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist – und gerade deshalb alle in den Bann zieht. Tierentsprechung: Pfau.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1961. Schauspielerin, Regisseurin. Hollywoods Lieblingsperson der 1990er – der Pfau, der mehr wollte als seine Rolle. Tierentsprechung: Pfau.",
-    tags:["Schauspiel","Film"] },
+    tags:["Schauspiel","Film"] , gender:"f"},
   { route:"beruehmte-dieter-bohlen", name:"Dieter Bohlen", subtyp:"SX3w4",
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
-    tags:["Wissenschaft"] },
+    tags:["Wissenschaft"] , gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl – Sozialer Typ 4",
     teaser:"SO4w3 · geb. 1996. YouTuber, Künstler & Musiker. Das Gürteltier, das sich jahrelang hinter einer Maske aus Humor verbarg – und irgendwann begann, das Echte zu zeigen.",
-    added:"2026-07-15", tags:["Medien","Kunst"] },
+    added:"2026-07-15", tags:["Medien","Kunst"] , gender:"m"},
   { route:"beruehmte-til-schweiger", name:"Til Schweiger", subtyp:"SO4w3",
     heading:"Til Schweiger – Sozialer Typ 4",
     teaser:"SO4w3 · geb. 1963. Schauspieler, Regisseur & Produzent. Das Gürteltier, das sich hinter einer Maske aus Coolness verbirgt – und darunter eine tiefe Sehnsucht nach echter Anerkennung trägt.",
-    added:"2026-07-15", tags:["Film","Kunst"] },
+    added:"2026-07-15", tags:["Film","Kunst"] , gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon – Sozialer Typ 4",
     teaser:"SO4w5 · 1940–1980. Musiker, Komponist, Friedensaktivist, Mitbegründer der Beatles. Das Gürteltier, das die Welt fragte: Stell Dir vor, es wäre Frieden.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
-    tags:["Wissenschaft"] },
+    tags:["Wissenschaft"] , gender:"m"},
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
-    tags:["Medien","Wissenschaft"] },
+    tags:["Medien","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
-    tags:["Wissenschaft"] },
+    tags:["Wissenschaft"] , gender:"f"},
   { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
     heading:"Claudio Naranjo – Sozialer Typ 5",
     teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
-    tags:["Wissenschaft"] },
+    tags:["Wissenschaft"] , gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Philanthrop. Milliardär. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
-    tags:["Wirtschaft"] },
+    tags:["Wirtschaft"] , gender:"m"},
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
-    tags:["Wirtschaft", "Technik"] },
+    tags:["Wirtschaft", "Technik"] , gender:"m"},
   { route:"beruehmte-edward-snowden", name:"Edward Snowden", subtyp:"SX5w6",
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"f"},
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
-    tags:["Wissenschaft"] },
+    tags:["Wissenschaft"] , gender:"m"},
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
-    tags:["Medien","Politik"] },
+    tags:["Medien","Politik"] , gender:"f"},
   { route:"beruehmte-kollegah", name:"Kollegah", subtyp:"SX6w5",
     heading:"Kollegah – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1984. Rapper, Künstler & Unternehmer, 2016 zum Islam übergetreten. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
-    added:"2026-07-15", tags:["Musik","Gesellschaft"] },
+    added:"2026-07-15", tags:["Musik","Gesellschaft"], gender:"m" },
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
-    tags:["Medien","Kunst"] },
+    tags:["Medien","Kunst"] , gender:"f"},
   { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
     heading:"Jasmine Paolini – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"f"},
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
-    tags:["Musik"] },
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
-    tags:["Wirtschaft","Wissenschaft"] },
+    tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
-    tags:["Schauspiel","Musik"] },
+    tags:["Schauspiel","Musik"] , gender:"f"},
   { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexueller Typ 7",
     teaser:"SX7w6 · geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? – 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar – und immer auf der Suche nach dem nächsten Funken. Tierentsprechung: Schimpanse.",
-    tags:["Schauspiel","Medien"] },
+    tags:["Schauspiel","Medien"], gender:"m" },
   { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexueller Typ 7",
     teaser:"SX7w8 · geb. 1965. Sängerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterflügel: lebenslustig, direkt, unerschrocken – und immer nah am Menschen. Tierentsprechung: Schimpanse.",
-    tags:["Musik","Medien"] },
+    tags:["Musik","Medien"] , gender:"f"},
   { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
     heading:"Boris Becker – Sexueller Typ 7",
     teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, jüngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterflügel: grenzenlose Intensität, Ruhm als Heimat, und das lebenslange Ringen um das Bild des großen Boris. Tierentsprechung: Schimpanse.",
-    tags:["Sport"] },
+    tags:["Sport"] , gender:"m"},
   { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
-    tags:["Literatur","Wissenschaft"] },
+    tags:["Literatur","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
     heading:"Toni Morrison – Selbsterhaltende Typ 8",
     teaser:"SE8w9 · 1931–2019. Schriftstellerin, Literaturnobelpreisträgerin 1993. Beloved, Sula, The Bluest Eye. Die Orang-Utan-Frau, die das Schweigen der Geschichte gebrochen hat – geerdet, unerschütterlich, von bleibender Wucht. Tierentsprechung: Orang-Utan.",
-    tags:["Literatur"] },
+    tags:["Literatur"] , gender:"f"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964. Anwältin, Autorin, ehemalige First Lady der USA (2009–2017). Bestseller-Autorin (Becoming). Der Löwe, der für sein Rudel kämpft – und der weiß, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: Löwe.",
-    tags:["Politik"] },
+    tags:["Politik"], gender:"f" },
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"], gender:"m" },
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
-    tags:["Musik","Kunst"] },
+    tags:["Musik","Kunst"] , gender:"m"},
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
-    tags:["Politik"] },
+    tags:["Politik"] , gender:"m"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
-    tags:["Sport"] },
+    tags:["Sport"], gender:"f" },
   { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt – Sozialer Typ 9",
     teaser:"SO9w8 · 1913–1992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau – ein Schweigen, das Geschichte schrieb. Tierentsprechung: Büffel.",
-    tags:["Politik"] },
+    tags:["Politik"], gender:"m" },
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"], gender:"m" },
   { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", added:"2026-07-15", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
-    tags:["Schauspiel"] },
+    tags:["Schauspiel"] , gender:"f"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner – Selbsterhaltender Typ 1",  teaser:"SE1w9 · geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder – Perfektionismus als Überlebensstrategie." },
   { route:"astrologie-marilyn-monroe",    name:"Marilyn Monroe",    subtyp:"SX3w4",  heading:"Marilyn Monroe – Sexueller Typ 3",             teaser:"SX3w4 · 1926–1962. Schauspielerin, Ikone. Sonne Zwillinge, Mond Wassermann im 7. Haus, AC Löwe, MC Stier – Glamour und Tragik als zwei Seiten einer Seele." },
-  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand.", beruehmteRoute:"beruehmte-romy-schneider" },
-  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt.", beruehmteRoute:"beruehmte-john-lennon" },
+  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Soziale Typ 4",               teaser:"SO4w3 · 1938–1982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus – die zerrissene Kaiserin der Leinwand.", beruehmteRoute:"beruehmte-romy-schneider" , gender:"f"},
+  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Sozialer Typ 4",                 teaser:"SO4w5 · 1940–1980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Schütze – der suchende Poet einer besseren Welt.", beruehmteRoute:"beruehmte-john-lennon" , gender:"m"},
   { route:"astrologie-albert-einstein",   name:"Albert Einstein",   subtyp:"SO5w6",  heading:"Albert Einstein – Sozialer Typ 5",             teaser:"SO5w6 · 1879–1955. Physiker, Nobelpreisträger. Sonne Fische im 10. Haus, Mond Schütze im 6. Haus, AC Krebs, MC Fische – die kosmische Formel des Genies." },
-  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz.", beruehmteRoute:"beruehmte-boris-becker", kriminalRoute:"kriminalpsychologie-boris-becker" },
+  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexueller Typ 7",               teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Schütze, Venus und MC Waage im 10. Haus, Mars Steinbock – Leichtigkeit und Tiefe im ewigen Tanz.", beruehmteRoute:"beruehmte-boris-becker", kriminalRoute:"kriminalpsychologie-boris-becker" , gender:"m"},
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexueller Typ 8",           teaser:"SX8w7 · geb. 1944. Bundeskanzler 1998–2005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische – der Instinktpolitiker der Macht." },
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Selbsterhaltende Typ 9",       teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Schütze im 3. Haus – die unbewegliche Vermittlerin der Macht." },
 ];
@@ -8262,6 +8262,7 @@ function beruehmtePersoenlichkeitenPage() {
       return '<button class="kf-btn kf-btn--tag" data-bp-kat="'+k+'"'
         +' style="--kf-tag-col:'+col+';" onclick="bpSet(\'kat\',\''+k+'\')">'+(katLabel[k]||k)+'</button>';
     };
+    const genderBtn = (val, label) => '<button class="kf-btn" data-bp-gender="'+val+'" onclick="bpSet(\'gender\',\''+val+'\')">'+label+'</button>';
     return '<div class="kf-bar">'
       +'<div class="kf-row"><span class="kf-label">Instinkt</span>'
       +instBtn("ALL")+["SE","SO","SX"].map(instBtn).join("")+'</div>'
@@ -8269,6 +8270,8 @@ function beruehmtePersoenlichkeitenPage() {
       +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Bereich</span>'
       +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Geschlecht</span>'
+      +genderBtn("ALL","Alle")+genderBtn("m","Männlich")+genderBtn("f","Weiblich")+'</div>'
       +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> von '+BERUEHMT_PORTRAITS.length+' Portr\xe4ts</div>'
       +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Porträt</button></div>'
       +'</div>';
@@ -8280,7 +8283,7 @@ function beruehmtePersoenlichkeitenPage() {
     const kats = (p.tags||[]).join(",");
     const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
     const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
-    return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-route="'+p.route+'"'
+    return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-bp-gender="'+(p.gender||'')+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
@@ -8360,7 +8363,7 @@ function beruehmtePersoenlichkeitenPage() {
   );
 }
 
-window.bpState = { inst:"ALL", typ:0, kat:"ALL" };
+window.bpState = { inst:"ALL", typ:0, kat:"ALL", gender:"ALL" };
 window.bpSet = function(dim, val) {
   if(window.bpState[dim]===val){ window.bpState[dim]= dim==="typ"?0:"ALL"; }
   else { window.bpState[dim]=val; }
@@ -8380,13 +8383,14 @@ window.bpApply = function() {
   cards.forEach(function(c){
     const ok = (s.inst==="ALL" || c.dataset.bpInst===s.inst)
       && (s.typ===0 || parseInt(c.dataset.bpTyp)===s.typ)
-      && (s.kat==="ALL" || (c.dataset.bpKats||"").split(",").indexOf(s.kat)>=0);
+      && (s.kat==="ALL" || (c.dataset.bpKats||"").split(",").indexOf(s.kat)>=0)
+      && (s.gender==="ALL" || c.dataset.bpGender===s.gender);
     c.style.display = ok ? "" : "none";
     if(ok) vis++;
   });
   const cnt = document.getElementById("bp-count-num");
   if(cnt) cnt.textContent = vis;
-  const filtered = s.inst!=="ALL" || s.typ!==0 || s.kat!=="ALL";
+  const filtered = s.inst!=="ALL" || s.typ!==0 || s.kat!=="ALL" || s.gender!=="ALL";
   const reg = document.getElementById("bp-register");
   if(reg) reg.style.display = filtered ? "none" : "";
   document.querySelectorAll(".kf-section-head[id^=bp-],.kf-section-back").forEach(function(el){
@@ -8400,6 +8404,9 @@ window.bpApply = function() {
   });
   document.querySelectorAll(".kf-btn[data-bp-kat]").forEach(function(b){
     b.classList.toggle("kf-btn--active", b.dataset.bpKat===s.kat||(s.kat==="ALL"&&b.dataset.bpKat==="ALL"));
+  });
+  document.querySelectorAll(".kf-btn[data-bp-gender]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.bpGender===s.gender||(s.gender==="ALL"&&b.dataset.bpGender==="ALL"));
   });
 };
 
@@ -13691,7 +13698,7 @@ function astrologieRomySchneiderPage() {
     { slug:"romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
       subtypLabel:"Soziale Typ 4 mit Dreierflügel",
       subtitle:"Schauspielerin, 1938–1982 – Die Kaiserin der europäischen Leinwand",
-      beruehmteRoute:"beruehmte-romy-schneider" },
+      beruehmteRoute:"beruehmte-romy-schneider" , gender:"f"},
     `<h2 class="vb-section">SO4w3 – Die aristokratische Vier</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Romy Schneider verkörpert das klassische Profil der <strong>sozialen Vier mit Dreierflügel (SO4w3)</strong>. Die soziale Vier leidet unter tiefer existenzieller Scham und dem Gefühl, missverstanden zu sein – und trägt diesen Schmerz mit aristokratischer Würde. Der Dreierflügel bringt die Lust an der Bühne, den Ehrgeiz und das Verlangen nach öffentlicher Anerkennung.</p>
@@ -13714,7 +13721,7 @@ function astrologieJohnLennonPage() {
     { slug:"john-lennon", name:"John Lennon", subtyp:"SO4w5",
       subtypLabel:"Sozialer Typ 4 mit Fünferflügel",
       subtitle:"Musiker, Friedensaktivist, 1940–1980 – Mitgründer der Beatles",
-      beruehmteRoute:"beruehmte-john-lennon" },
+      beruehmteRoute:"beruehmte-john-lennon" , gender:"m"},
     `<h2 class="vb-section">SO4w5 – Der intellektuelle Individualist</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">John Lennon verkörpert das klassische Profil der <strong>sozialen Vier mit Fünferflügel (SO4w5)</strong> – den tragischen Romantiker und intellektuellen Individualisten. Die soziale Vier klagt das System an, bricht Tabus und kämpft für eine idealisierte, bessere Welt. Der Fünferflügel bringt analytische Distanz, kriminalistische Neugier und Faszination für das Verborgene.</p>
@@ -13762,7 +13769,7 @@ function astrologieBorisBeckerPage() {
       subtypLabel:"Sexueller Typ 7 mit Achterflügel",
       subtitle:"Tennisprofi, geb. 1967 – Dreifacher Wimbledon-Sieger, Olympiasieger",
       beruehmteRoute:"beruehmte-boris-becker",
-      kriminalRoute:"kriminalpsychologie-boris-becker" },
+      kriminalRoute:"kriminalpsychologie-boris-becker" , gender:"m"},
     `<h2 class="vb-section">SX7w8 – Leichtigkeit und Tiefe im ewigen Tanz</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Boris Becker verkörpert das klassische Profil der <strong>sexuellen Sieben mit Achterflügel (SX7w8)</strong>. Der sexuelle Subtyp sucht den absoluten Rausch, Faszination, Extreme und eine tiefe, fast magische Intensität im Duell. Der Achterflügel bringt die Härte, Ausdauer und Macher-Mentalität.</p>
@@ -13855,6 +13862,10 @@ function kriminalpsychologiePage() {
       +typBtn(0)+allTyp.map(typBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Tatmuster</span>'
       +tagBtn("ALL")+allTags.map(tagBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Geschlecht</span>'
+      +'<button class="kf-btn" data-kf-gender="ALL" onclick="kfSet(\'gender\',\'ALL\')">Alle</button>'
+      +'<button class="kf-btn" data-kf-gender="m" onclick="kfSet(\'gender\',\'m\')">Männlich</button>'
+      +'<button class="kf-btn" data-kf-gender="f" onclick="kfSet(\'gender\',\'f\')">Weiblich</button></div>'
       +'<div class="kf-count"><span id="kf-count-num">'+KRIMINAL_PORTRAITS.length+'</span> von '+KRIMINAL_PORTRAITS.length+' Portr\xe4ts</div>'
       +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="kfRandom()">&#127922; Zuf\xe4lliges Portr\xe4t</button></div>'
       +'</div>';
@@ -13866,7 +13877,7 @@ function kriminalpsychologiePage() {
     const tags = (p.tags||[]).join(",");
     const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
     const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
-    return '<div class="kf-card" data-kf-inst="'+inst+'" data-kf-typ="'+typ+'" data-kf-tags="'+tags+'" data-route="'+p.route+'"'
+    return '<div class="kf-card" data-kf-inst="'+inst+'" data-kf-typ="'+typ+'" data-kf-tags="'+tags+'" data-kf-gender="'+(p.gender||'')+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
@@ -13939,7 +13950,7 @@ function kriminalpsychologiePage() {
   );
 }
 
-window.kfState = { inst:"ALL", typ:0, tag:"ALL" };
+window.kfState = { inst:"ALL", typ:0, tag:"ALL", gender:"ALL" };
 window.kfSet = function(dim, val) {
   if(window.kfState[dim]===val){ window.kfState[dim]= dim==="typ"?0:"ALL"; }
   else { window.kfState[dim]=val; }
@@ -13959,14 +13970,15 @@ window.kfApply = function() {
   cards.forEach(function(c){
     const ok = (s.inst==="ALL" || c.dataset.kfInst===s.inst)
       && (s.typ===0 || parseInt(c.dataset.kfTyp)===s.typ)
-      && (s.tag==="ALL" || (c.dataset.kfTags||"").split(",").indexOf(s.tag)>=0);
+      && (s.tag==="ALL" || (c.dataset.kfTags||"").split(",").indexOf(s.tag)>=0)
+      && (s.gender==="ALL" || c.dataset.kfGender===s.gender);
     c.style.display = ok ? "" : "none";
     if(ok) vis++;
   });
   const cnt = document.getElementById("kf-count-num");
   if(cnt) cnt.textContent = vis;
   // Register und Abschnittsköpfe nur bei ungefilteter Ansicht zeigen
-  const filtered = s.inst!=="ALL" || s.typ!==0 || s.tag!=="ALL";
+  const filtered = s.inst!=="ALL" || s.typ!==0 || s.tag!=="ALL" || s.gender!=="ALL";
   const reg = document.getElementById("kf-register");
   if(reg) reg.style.display = filtered ? "none" : "";
   document.querySelectorAll(".kf-section-head,.kf-section-back").forEach(function(el){
@@ -13981,6 +13993,9 @@ window.kfApply = function() {
   });
   document.querySelectorAll(".kf-btn[data-kf-tag]").forEach(function(b){
     b.classList.toggle("kf-btn--active", b.dataset.kfTag===s.tag||(s.tag==="ALL"&&b.dataset.kfTag==="ALL"));
+  });
+  document.querySelectorAll(".kf-btn[data-kf-gender]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.kfGender===s.gender||(s.gender==="ALL"&&b.dataset.kfGender==="ALL"));
   });
 };
 
@@ -39440,7 +39455,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v647';
+  const MY_VERSION = 'inhalt-v648';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
