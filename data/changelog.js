@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Donata Hopfen (SO6w7) – Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft – und der Gruppe den Weg freimacht.",
+    text_en: "New portrait: Donata Hopfen (SO6w7) – management consultant, digital strategist, former CEO of Bild and DFL. The meerkat that runs ahead – and clears the path for the group.",
+    route: "beruehmte-donata-hopfen"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Melanie Kreis (SO6w5) – CFO der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
     text_en: "New portrait: Melanie Kreis (SO6w5) – CFO of DHL Group. Physicist, McKinsey consultant, DAX executive. The meerkat standing guard for one of the world's largest logistics groups.",
     route: "beruehmte-melanie-kreis"

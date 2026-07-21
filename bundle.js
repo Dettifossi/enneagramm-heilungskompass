@@ -430,6 +430,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
+    heading:"Donata Hopfen – Sozialer Typ 6",
+    teaser:"SO6w7 \xb7 geb. 1976 in Hamburg. Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft &ndash; und der Gruppe den Weg freimacht.",
+    tags:["Wirtschaft","Medien","F\xfchrung"], gender:"f"},
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
@@ -10694,6 +10698,74 @@ function herbertGroenomeyerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
         {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function donataHopfenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-donata-hopfen-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Donata Hopfen</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Unternehmensberaterin, Digitalberaterin, geb. 1976 in Hamburg &ndash; Tierentsprechung: Erdm\xe4nnchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdm\xe4nnchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> h\xe4lt Wache f\xfcr die Gruppe. Es ist alert, kooperativ und zutiefst auf Sicherheit durch Zugeh\xf6rigkeit ausgerichtet. Doch nicht jedes Erdm\xe4nnchen h\xe4lt Wache auf dieselbe Weise. Manche klettern still auf den h\xf6chsten Stein und scannen methodisch den Horizont &ndash; das ist der F\xfcnferfl\xfcgel, das Erdm\xe4nnchen der Analyse. Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung \xfcberhaupt sichtbar ist &ndash; das ist der Siebenfl\xfcgel. Donata Hopfen geh\xf6rt zur zweiten Sorte.</p>
+          <p class="vb-intro">Sie ist Unternehmensberaterin, Digitalstrategin, ehemalige CEO der Bild und der Deutschen Fu\xdfball Liga. Eine Frau, die in gro\xdfe, tr\xe4ge Systeme eingetreten ist &ndash; und sie in Bewegung bringen wollte. Nicht aus Eigennutz, sondern aus dem tief verwurzelten SO6-Antrieb: Ich bin f\xfcr die Gruppe da. Ich erledige, was getan werden muss. Ich mache den Weg frei. Das Erdm\xe4nnchen der SO6w7 rennt nicht weg &ndash; es rennt voraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Aufbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; Sicherheit entsteht durch Dienen, durch Zugeh\xf6rigkeit, durch das Erf\xfcllen einer Aufgabe f\xfcr das Kollektiv. Doch der Siebenfl\xfcgel ver\xe4ndert, wie diese Pflicht gelebt wird. Wo Melanie Kreis (SO6w5) Sicherheit durch Struktur, Analyse und stilles Ausf\xfcllen ihrer Rolle findet, sucht die <strong>SO6w7</strong> Sicherheit durch Bewegung. Vorw\xe4rtsgehen f\xfchlt sich sicherer an als Stillstand. Eine Aufgabe zu \xfcbernehmen f\xfchlt sich sicherer an als zu warten. Die SO6w7 dient &ndash; aber sie dient mit Tempo.</p>
+          <p class="vb-intro">Hopfen hat ihre Karriere in diesem Muster aufgebaut: McKinsey &ndash; der klassische Startpunkt f\xfcr Analytiker und Strategen. Dann digitale F\xfchrungsrollen in der Medien- und Technologiebranche. 2021 wurde sie CEO der Bild, dem gr\xf6\xdften deutschen Boulevardmedium &ndash; einem Haus im Transformationsdruck. 2022 \xfcbernahm sie die Gesch\xe4ftsf\xfchrung der Deutschen Fu\xdfball Liga (DFL), dem Dachverband der Bundesliga. Jedes dieser Projekte war ein System im Wandel. Und Hopfen war die, die sagt: Ich \xfcbernehme. Wir bringen das in Bewegung.</p>
+          <p class="vb-intro">Das ist der Unterschied zur SO6w5: Melanie Kreis baut Sicherheit, indem sie tief in eine Struktur einw\xe4chst. Donata Hopfen baut Sicherheit, indem sie Strukturen erneuert. Beide dienen der Gruppe. Aber die eine h\xe4lt, die andere gestaltet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenfl\xfcgel: Tempo als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenfl\xfcgel (w7)</strong> bringt der sozialen Sechs etwas, das die reine SO6 allein nicht entwickeln w\xfcrde: Begeisterungsf\xe4higkeit, Risikofreude und die \xdcberzeugung, dass Aufbruch besser ist als Verharren. Wo die SO6 nat\xfcrlicherweise zu Vorsicht und Absicherung neigt, \xf6ffnet der Siebenfl\xfcgel die T\xfcr zur Weite. Das Ergebnis ist ein Mensch, der Zugeh\xf6rigkeit sucht &ndash; und sie durch Charisma und Aufbruchsenergie schafft statt durch Stille.</p>
+          <p class="vb-intro">Hopfen gilt als Vordenkerin der digitalen Transformation. Sie spricht \xf6ffentlich, sie engagiert sich, sie nimmt Positionen ein. Ihr Stil ist nicht der von Melanie Kreis, die im Hintergrund durch Qualit\xe4t \xfcberzeugt &ndash; Hopfen ist sichtbar, artikuliert, pr\xe4sent. Das ist die SO6w7 als F\xfchrungstyp: Sicherheit wird nicht durch R\xfcckzug in die Tiefe gewonnen, sondern durch Verbindung nach au\xdfen, durch das Bewegen von Menschen, durch das Gef\xfchl, dass die Gruppe in Bewegung bleibt.</p>
+          <p class="vb-intro">Wo der F\xfcnferfl\xfcgel die Energie nach innen richtet &ndash; Analyse, Verst\xe4ndnis, Wissen als Fundament &ndash; richtet der Siebenfl\xfcgel sie nach au\xdfen: Vernetzung, Ideen, der n\xe4chste Schritt. Das Erdm\xe4nnchen der SO6w7 h\xe4lt keine Einzel-Wache. Es organisiert die ganze Gruppe zum gemeinsamen Ausschau halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von McKinsey bis zum Bundesliga-Sturm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hopfens bekannteste &ndash; und turbulenteste &ndash; Station war ihre Zeit als Gesch\xe4ftsf\xfchrerin der <strong>DFL</strong>. Sie trat im November 2022 an mit einem klaren Auftrag: die Bundesliga in die digitale Zukunft f\xfchren und neue Finanzierungsquellen erschlie\xdfen. Im Zentrum stand ein Investorendeal mit dem Finanzinvestor CVC Capital Partners, der der DFL rund zwei Milliarden Euro einbringen sollte.</p>
+          <p class="vb-intro">Was folgte, war einer der spektakul\xe4rsten Konflikte im deutschen Fu\xdfball: Fans protestierten massiv gegen den Einstieg von Investoren, Spiele wurden durch Tennisb\xe4lle und andere Gegenst\xe4nde auf dem Feld unterbrochen, Klubs zogen ihre Unterst\xfctzung zur\xfcck. Im Februar 2023 &ndash; nach kaum drei Monaten im Amt &ndash; trat Hopfen zur\xfcck. Der Deal kam nicht zustande.</p>
+          <p class="vb-intro">Es war eine klassische SO6-Erfahrung in ihrer h\xe4rtesten Form: Hopfen hatte im Auftrag der Gruppe gehandelt &ndash; und die Gruppe wandte sich gegen sie. Nicht weil die Strategie falsch war, sondern weil sie an einer Stelle angesetzt hatte, an der Angst und Identit\xe4t des Fu\xdfballs kollidierten. Der Siebenfl\xfcgel hatte sie schnell und entschlossen gemacht. Die SO6-Verletzlichkeit traf sie, als die Zugeh\xf6rigkeit wegbrach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn die Gruppe die W\xe4chterin abw\xe4hlt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen ist als Beraterin und Rednerin gefragt, weil sie Klarheit, Mut und strategischen Weitblick verbindet. Sie kann Systeme lesen, Chancen benennen und Menschen mitrei\xdfen. Das ist die SO6w7 auf der Sonnenseite: Sie dient nicht nur &ndash; sie inspiriert.</p>
+          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfcke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster in Reinform: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
+          <p class="vb-intro">F\xfcr die SO6 ist das die tiefste Wunde: Als Mitglied der Gemeinschaft ausgestoßen zu werden von genau jener Gemeinschaft, f\xfcr die man angetreten ist. Hopfen hat diese Erfahrung \xf6ffentlich gemacht. Und ist danach nicht verschwunden. Das ist der Unterschied zwischen SO6-Schatten und SO6-Reife: Die reife Sechs wei\xdf, dass Zugeh\xf6rigkeit nicht an einer einzigen Gruppe h\xe4ngt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdm\xe4nnchen, das sich neu aufstellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach ihrem R\xfccktritt bei der DFL ist Donata Hopfen nicht in Deckung gegangen. Sie ber\xe4t Unternehmen in Digitalstrategie und F\xfchrungsfragen, h\xe4lt Vortr\xe4ge, engagiert sich in Netzwerken. Das Erdm\xe4nnchen der SO6w7 zieht sich nicht auf den sichersten Stein zur\xfcck und schaut von dort still auf die Welt. Es sucht die n\xe4chste Gruppe, die Wache braucht.</p>
+          <p class="vb-intro">Zwei Erdm\xe4nnchen, eine Aufgabe, zwei v\xf6llig verschiedene Wege: Melanie Kreis h\xe4lt seit Jahren dieselbe Wache f\xfcr denselben Konzern, unerschütterlich und pr\xe4zise. Donata Hopfen hat mehrere Reviere durchquert, war in mehreren St\xfcrmen, ist mehrfach weitergelaufen. Beide leben die Pflicht der sozialen Sechs. Aber die eine verkörpert sie als Beharrlichkeit, die andere als Aufbruchsmut. Das Erdm\xe4nnchen der SO6w5 h\xe4lt Wache, weil es bleibt. Das Erdm\xe4nnchen der SO6w7 h\xe4lt Wache, weil es immer wieder neu anf\xe4ngt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdm\xe4nnchen: Subtyp-Profil"},
+        {route:"beruehmte-melanie-kreis", label:"Portr\xe4t: Melanie Kreis (SO6w5)"},
       ])}
     </div>
   `);
@@ -39810,6 +39882,7 @@ function render() {
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
+      "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
@@ -40259,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v682';
+  const MY_VERSION = 'inhalt-v683';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
