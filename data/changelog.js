@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Michael Schumacher (SX6w7) – Formel-1-Legende, siebenmaliger Weltmeister. Der Wolf, der Angst in Geschwindigkeit verwandelt hat.",
+    text_en: "New portrait: Michael Schumacher (SX6w7) – Formula 1 legend, seven-time world champion. The wolf who turned fear into speed.",
+    route: "beruehmte-michael-schumacher"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Donata Hopfen (SO6w7) – Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft – und der Gruppe den Weg freimacht.",
     text_en: "New portrait: Donata Hopfen (SO6w7) – management consultant, digital strategist, former CEO of Bild and DFL. The meerkat that runs ahead – and clears the path for the group.",
     route: "beruehmte-donata-hopfen"

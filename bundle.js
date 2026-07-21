@@ -446,6 +446,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kollegah – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1984. Rapper, Künstler & Unternehmer, 2016 zum Islam übergetreten. Der Wolf, der sein Rudel aus Worten baut – und der Angst in Dominanz verwandelt, bis er nicht mehr weiß, wohin damit.",
     added:"2026-07-15", tags:["Musik","Gesellschaft"], gender:"m" },
+  { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
+    heading:"Michael Schumacher – Sexueller Typ 6",
+    teaser:"SX6w7 \xb7 geb. 1969 in H\xfcrth. Formel-1-Rennfahrer, siebenmaliger Weltmeister, 91 Siege. Der Wolf, der Angst in Geschwindigkeit verwandelt hat &ndash; und dessen Stille seit 2013 lauter ist als alles, was er je gesagt hat.",
+    tags:["Sport","Motorsport"], gender:"m"},
   { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
@@ -9520,6 +9524,73 @@ function ankeEngelkePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelSchumacherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Schumacher</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in H\xfcrth &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist kein Tier der Bequemlichkeit. Er ist wachsam, territorial, auf seine Gruppe ausgerichtet &ndash; und wenn er jagt, jagt er mit allem, was er hat. Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und l\xe4uft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Auspr\xe4gung: Angst nicht als L\xe4hmung, sondern als Treibstoff.</p>
+          <p class="vb-intro">Michael Schumacher ist dieser Wolf. Siebenmal Formel-1-Weltmeister, 91 Siege, f\xfcnf aufeinanderfolgende Titel mit Ferrari &ndash; Zahlen, die in der Geschichte des Motorsports ohne Vergleich waren, als er 2006 zum ersten Mal zur\xfccktrat. Und doch w\xe4re es falsch, Schumacher \xfcber seine Statistiken zu verstehen. Was ihn auszeichnete, war kein K\xf6nner-Gef\xfchl aus der Distanz. Es war eine Intensit\xe4t, die jeden Zentimeter der Strecke als pers\xf6nliches Territorium behandelte. Der Wolf markiert sein Revier. Und er verteidigt es.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die St\xe4rke: Angst als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
+          <p class="vb-intro">Schumacher war bekannt f\xfcr eine k\xf6rperliche und mentale Vorbereitung, die damals in der Formel 1 ohnegleichen war. Er trainierte wie ein Leistungssportler &ndash; Ausdauer, Reflexe, Nackenmuskulatur. Er kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verbl\xfcffte. Er hinterfragte, analysierte, verfeinerte &ndash; und wenn er ins Auto stieg, war die Angst vor dem Versagen l\xe4ngst in Vorbereitung verwandelt worden. Das ist die SX6: <em>Ich \xfcberhole die Bedrohung, bevor sie mich \xfcberholt.</em></p>
+          <p class="vb-intro">Sein Rudel war das Ferrari-Team. Die Jahre 2000 bis 2004, in denen er f\xfcnf Titel in Serie gewann, waren kein Soloprojekt &ndash; sie waren das Ergebnis eines Kollektivs, das sich um ihn herum aufgebaut hatte: Jean Todt, Ross Brawn, Rory Byrne. Schumacher war loyal bis in die Knochen, und das Team war loyal zur\xfcck. Der Wolf und sein Rudel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Freude an der Geschwindigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> bringt der sexuellen Sechs etwas, das die reine SX6 allein nicht entwickeln w\xfcrde: Begeisterungsf\xe4higkeit, Spielfreude und die F\xe4higkeit, aus dem, was andere als Bedrohung erleben, einen Genuss zu machen. Wo die SX6 k\xe4mpft, feiert die SX6w7 das K\xe4mpfen. Das Ergebnis ist ein Mensch, der nicht nur gewinnen <em>will</em>, sondern dem Gewinnen <em>gef\xe4llt</em>.</p>
+          <p class="vb-intro">Schumacher liebte das Fahren. Das klingt selbstverst\xe4ndlich &ndash; ist es aber nicht. Viele Rennfahrer lieben das Siegen. Schumacher liebte die Kurve, den Grip, die Grenze des Machbaren. Sein ber\xfchmtes <em>Qualifikationsgef\xfchl</em> &ndash; die F\xe4higkeit, in einem einzigen Rundenversuch alles aus sich und dem Auto herauszuholen &ndash; war nicht nur Technik. Es war Leidenschaft. Der Siebenerfl\xfcgel gibt der SX6 die Freude, die die Angst nicht gibt: Wenn ich so schnell fahre, dass niemand mich einholen kann, sp\xfcre ich kein Risiko mehr. Ich sp\xfcre Freiheit.</p>
+          <p class="vb-intro">Der Siebenerfl\xfcgel erkl\xe4rt auch seinen R\xfcckkehr-Drang. 2010, mit einundvierzig Jahren, stieg er bei Mercedes wieder in ein Formel-1-Auto. Nicht aus Geldgier, nicht aus Eitelkeit &ndash; sondern weil das Fahren selbst ihn rief. Der Siebenerfl\xfcgel h\xe4lt die T\xfcr zur Freude offen, auch wenn der Verstand l\xe4ngst Nein sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Sieben Titel, f\xfcnf mit Ferrari</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Schumacher debütierte 1991 beim Gro\xdfen Preis von Belgien in Spa f\xfcr das Jordan-Team &ndash; und wurde noch vor dem n\xe4chsten Rennen von Benetton \xfcbernommen. 1994 gewann er seinen ersten Weltmeistertitel, 1995 seinen zweiten. 1996 wechselte er zu Ferrari &ndash; damals einem Team in der Krise, das seit 1979 keinen Fahrertitel mehr gewonnen hatte. Er baute das Team mit auf, wartete vier Jahre auf den Durchbruch &ndash; und gewann dann f\xfcnfmal in Serie: 2000, 2001, 2002, 2003, 2004. Niemand hatte zuvor f\xfcnf aufeinanderfolgende Weltmeistertitel gewonnen.</p>
+          <p class="vb-intro">Einundneunzig Siege, 155 Podestpl\xe4tze, 68 Pole-Positions &ndash; Zahlen, die erst Jahre sp\xe4ter von Lewis Hamilton \xfcbertroffen wurden. Schumacher setzte in seiner aktiven Zeit den Ma\xdfstab, an dem alle anderen gemessen wurden. Das ist das Werk der SX6w7: nicht das Mittelma\xdf des Komforts, sondern das Absolute des Extremen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Grenzen und Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>Unbedingtheit</strong>. Schumacher hat Ferrari aus einer langj\xe4hrigen Erfolglosigkeit in eine \xc4ra der Dominanz gef\xfchrt. Er hat die Messlatte f\xfcr Vorbereitung, Analyse und Teamgeist in der Formel 1 dauerhaft angehoben. Und er hat eine Leidenschaft f\xfcr den Motorsport vorgelebt, die Generationen von Fans und Fahrern gepr\xe4gt hat.</p>
+          <p class="vb-intro">Der Schatten der SX6 ist die Grenzüberschreitung. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem Manöver, das bis heute umstritten ist: absichtliche Kollision oder Racing-Unfall? 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve &ndash; und wurde daf\xfcr aus der Weltmeisterschaftswertung gestrichen. Das ist der Wolf, wenn der Kontratyp kippt: Wenn Gewinnen wichtiger wird als das Spielfeld, das das Gewinnen erst erm\xf6glicht. Die SX6 kennt keine halben Ma\xdfnahmen. Auch im Schatten nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Wolf, der schweigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 29. Dezember 2013 verungl\xfcckte Michael Schumacher beim Skifahren im franz\xf6sischen M\xe9ribel. Er fuhr au\xdferhalb der markierten Piste und st\xfcrzte \xfcber Felsen. Das dabei erlittene schwere Sch\xe4del-Hirn-Trauma ver\xe4nderte sein Leben unwiderruflich. Wochenlang lag er im k\xfcnstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen &ndash; in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
+          <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts \xfcber seinen Zustand erf\xe4hrt. Nicht als Geste der Abschottung &ndash; sondern als Schutz. <em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>Er ist hier, er ist anders, aber er ist da.</em> Dieser Satz ist alles, was die \xd6ffentlichkeit wei\xdf. Das Rudel h\xe4lt zusammen. Es zeigt die Z\xe4hne gegen\xfcber jedem, der n\xe4her kommen will, als erlaubt ist. Und der Wolf, der jahrzehntelang das Tempo vorgegeben hat, ist jetzt still &ndash; umgeben von denen, die ihm geh\xf6ren.</p>
+          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst gezahlt. Der Rest geh\xf6rt ihm.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);
@@ -39862,6 +39933,7 @@ function render() {
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
+      "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
@@ -40332,7 +40404,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v689';
+  const MY_VERSION = 'inhalt-v690';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
