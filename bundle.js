@@ -462,6 +462,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1943 in New York. Schauspieler, Bühnenautor, Essayist. Vizzini in „Die Prinzessin Braut“, Rex in „Toy Story“, André in „Mein Abendessen mit André“. Der Gorilla, der beim Mittagessen über Kapitalismus und Tod nachdenkt – und dabei jeden zum Lachen bringt.",
     tags:["Schauspiel","Literatur"], gender:"m"},
+  { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
+    heading:"Mariah Carey – Selbsterhaltender Typ 7",
+    teaser:"SE7w8 · geb. 1969 in Huntington, New York. Sängerin, Songwriterin, Produzentin. 18 Nummer-1-Singles, fünf Oktaven, ein Weihnachtslied für die Ewigkeit. Der Gorilla mit Achterflügel: Freude als Recht, Überfluss als Heimat, Macht als Schutzschild.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
@@ -11740,6 +11744,74 @@ function veraBirkenbihlPortraitPage() {
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
       ])}
+    </div>
+  `);
+}
+
+function mariahCareyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariah Carey</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin, Produzentin, geb. 1969 in Huntington, New York</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das stärkste Tier des Regenwaldes &ndash; und das wärmste. Er lebt in engem Familienverband, pflegt seine Beziehungen, schützt die Seinen mit einer Kraft, die er selten zeigen muss. Er braucht keinen Kampf zu suchen; allein seine Präsenz genügt. Und er liebt das Essen &ndash; nicht als Schwäche, sondern als Ausdruck von Leben, Freude, Überfluss. Der Gorilla ist großzügig mit dem, was er hat. Und er vergisst nicht, wer ihm je geschadet hat.</p>
+          <p class="vb-intro">Mariah Carey ist die meistverkaufte Sängerin aller Zeiten &ndash; oder zumindest eine der Anwärterinnen auf diesen Titel, je nach Zählweise. Sie hat achtzehn Nummer-eins-Singles in den amerikanischen Billboard Hot 100 &ndash; mehr als jeder andere Solokünstler in der Geschichte dieser Hitliste. Ihre Stimme umfasst fünf Oktaven, inklusive des Pfeifregisters, das sie als Erste populär machte. Und sie hat ein einziges Weihnachtslied geschrieben &ndash; <em>All I Want for Christmas Is You</em> (1994) &ndash;, das ihr bis heute jährlich mehrere Millionen Dollar einbringt. Mariah Carey ist der Gorilla: warm, mächtig, üppig &ndash; und vollkommen bereit, denjenigen in die Augen zu sehen, der ihr im Weg steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: Überfluss als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> &ndash; weil dieser Subtyp Sicherheit nicht in der großen Welt sucht, sondern im engsten Kreis. Er baut Nester: aus Vertrautheit, Wärme, Genuss. Und er sammelt &ndash; Erfahrungen, Menschen, Vergnügen, Geborgenheit. Der Überfluss ist für die SE7 kein Übermaß; er ist Beweis dafür, dass das Leben gut ist und gut bleiben wird.</p>
+          <p class="vb-intro">Carey wuchs in prekären Verhältnissen auf &ndash; ihre Eltern trennten sich, als sie drei Jahre alt war, sie zog mit ihrer Mutter von Ort zu Ort. Die Mutter, Patricia Hickey, war irisch-amerikanische Opernsängerin und Vokalcoach; ihr Vater, Alfred Roy Carey, war venezolanisch-afroamerikanischer Herkunft und Luftfahrtingenieur. Mariah wuchs zwischen zwei Welten auf &ndash; zu schwarz für das weiße Umfeld ihrer Mutter, zu hell für das schwarze Umfeld ihres Vaters &ndash; und lernte früh, sich selbst zur Heimat zu machen. Mit achtzehn Jahren zog sie nach New York City, kellnerte, frisierte und arbeitete unermüdlich auf ihren Durchbruch hin.</p>
+          <p class="vb-intro">Als sie ihr Nest endlich baute, baute sie es groß: Penthouses, Privatjets, Schmetterlinge als Deko, Champagner auf dem Rückflug. Ihre Fans &ndash; die <em>Lambs</em> &ndash; sind nicht nur ein Publikum, sondern eine Familie. Sie kommuniziert direkt mit ihnen und hält sie in ihrem inneren Kreis. Das ist die SE7: Das Nest ist nie groß genug, und wer dazugehört, gehört wirklich dazu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Macht als Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt dem selbsterhaltenden Siebentyp eine Qualität, die die reine SE7 nicht immer zeigt: den Willen zur Macht, die Bereitschaft zur Konfrontation und ein ausgeprägtes Sensorium für Kontrolle &ndash; und für deren Verlust. Wo die SE7 Freude sucht und Unangenehmes meidet, fügt der Achterflügel hinzu: <em>Und wenn jemand meine Freude bedroht, werde ich es wissen lassen.</em></p>
+          <p class="vb-intro">Die prägende Erfahrung von Careys Leben war ihre Ehe mit dem Musikmanager Tommy Mottola (1993&ndash;1998), dem damaligen Chef von Sony Music. Mottola hatte sie entdeckt, aufgebaut &ndash; und dann kontrolliert: ihr Haus war bewacht, ihre Telefonate überwacht, ihr Umfeld genehmigungspflichtig. Carey beschrieb es später als eine Art goldenen Käfig. Als sie sich befreite, schrieb sie <em>Fantasy</em>, <em>Emotions</em> und schließlich das Album <em>Butterfly</em> (1997) &ndash; einen R&amp;B-Schwenk, den Mottola nie gebilligt hätte. Der Achterflügel lehrte sie: Kontrollverlust ist gefährlicher als der große Auftritt. Und: Wer einmal die Kontrolle verloren hat, gibt sie kein zweites Mal freiwillig ab.</p>
+          <p class="vb-intro">Die Diva-Legenden, die seitdem entstanden sind &ndash; die Schmetterlinge im Zimmer, das spezielle Trinkwasser, der berühmte Satz <em>&bdquo;Ich kenne sie nicht&ldquo;</em> auf die Frage nach Jennifer Lopez &ndash; sind kein Zufall. Sie sind ein Schutzwall. Wer mich nicht respektiert, existiert für mich nicht. Das ist der Achterflügel des Gorillas: klare Verhältnisse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Fünf Oktaven für die Ewigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariah Careys Debutälbum <em>Mariah Carey</em> (1990) produzierte fünf aufeinanderfolgende Nummer-eins-Singles in den USA &ndash; ein Rekord, den bis dahin nur Whitney Houston gehalten hatte. Es folgten <em>Emotions</em> (1991), <em>Music Box</em> (1993), <em>Merry Christmas</em> (1994) &ndash; das bis heute meistverkaufte Weihnachtsalbum aller Zeiten &ndash;, <em>Daydream</em> (1995), <em>Butterfly</em> (1997). In diesem Jahrzehnt war sie schlicht die größte Popstimme der Welt.</p>
+          <p class="vb-intro">2001 kollabierte sie öffentlich. Das Album <em>Glitter</em> und der gleichnamige Film floppten katastrophal; Carey erlitt einen öffentlichen Nervenzusammenbruch, der in Liveauftritten und einem tränenreichen, inkoherent wirkenden Besuch bei <em>Total Request Live</em> dokumentiert wurde. Sie verschwand aus der Öffentlichkeit, wurde stationär behandelt. Es war der tiefste Punkt ihrer Karriere &ndash; und zugleich der Beginn des Wichtigsten, was sie je tat.</p>
+          <p class="vb-intro"><em>The Emancipation of Mimi</em> (2005) war eines der größten Comebacks der Popgeschichte. Das Album verkaufte sich in den USA fünfzehnmal Platin; die Single <em>We Belong Together</em> war der meistgespielte Song des Jahrzehnts in Amerika. Carey kehrte nicht zurück &ndash; sie stieg höher auf als je zuvor. Das ist die SE7w8: Man schlägt den Gorilla nicht. Man macht ihn nur stärker.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Diva und das Kind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 ist ihre <strong>Kraft zur Freude</strong>. Mariah Carey lacht laut, liebt opulent, gibt großzügig. Ihre Memoiren <em>The Meaning of Mariah Carey</em> (2020) sind kein Selbstmitleidsprojekt, sondern ein ehrlicher, oft humorvoller Blick auf ein Leben voller Brüche und Aufstiege. Sie schönredet nichts und entschuldigt sich für nichts. Das Gorilla-Prinzip: Ich war hier. Ich habe überlebt. Hier ist meine Geschichte.</p>
+          <p class="vb-intro">Der Schatten: Die SE7 meidet, was wehtut. Carey hat jahrelang öffentlich so getan, als habe sie keine schlechten Tage &ndash; als sei die Diva-Persona keine Maske, sondern die Wirklichkeit selbst. Der Achterflügel verstärkt das: Schwäche zeigen ist gefährlich. Das Ergebnis sind Bilder, die manchmal mehr Selbstschutz sind als Selbstausdruck. Die berühmten Rider-Klauseln, die Extravaganzen, die Distanz zu allem, was nicht kontrollierbar ist &ndash; das ist nicht nur Diva. Das ist ein Mensch, der einmal zu tief in eine Welt ohne Kontrolle gefallen ist &ndash; und der das nie wieder zulassen will.</p>
+          <p class="vb-intro">Ihre Kinder &ndash; die Zwillinge Moroccan und Monroe, 2011 mit Nick Cannon geboren &ndash; sind das Einzige, für das die Diva-Pose fällt. In Interviews über sie wirkt Carey ungefiltert, warm, vollständig anwesend. Das ist der Gorilla ohne Schutzwall: die Mutter im Nest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der Weihnachten besitzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariah Carey besitzt Weihnachten. Das ist keine Metapher. <em>All I Want for Christmas Is You</em> (1994) hat inzwischen über eine Milliarde Streams allein auf Spotify, und der Song kehrt jedes Jahr in die Charts zurück, als hätte er ein Recht dazu. Den hat er. Carey schrieb ihn nach eigenen Angaben in fünfzehn Minuten, an einem Nachmittag, am Klavier.</p>
+          <p class="vb-intro">Fünf Oktaven, fünfunddreißig Jahre im Rampenlicht, achtzehn Nummer-eins-Singles, ein öffentlicher Zusammenbruch, ein Comeback, das die Geschichte veränderte, und ein Weihnachtslied, das unsterblich ist: Das ist der Gorilla. Er baut sein Nest. Er schützt die Seinen. Er singt &ndash; und wenn er singt, hört die Welt zu.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
+          ${bookTip("burnout", "SE7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des selbsterhaltenden Siebentyps.")}
+          ${bookTip("homoeopathie", "Homöopathie für den SE7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den selbsterhaltenden Typ 7.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
+          {route:"beruehmte-wallace-shawn", label:"Porträt: Wallace Shawn (SE7w6)"},
+          {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -40042,6 +40114,7 @@ function render() {
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
+      "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
@@ -40477,7 +40550,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v698';
+  const MY_VERSION = 'inhalt-v699';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

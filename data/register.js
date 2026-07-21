@@ -434,6 +434,7 @@ export const registerEntries = [
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 · Sexueller Typ 3 · Schauspielerin, Romantik-Ikone" },
   { term: "Melanie Kreis",                 route: "beruehmte-melanie-kreis",               description: "Portrait: SO6w5 · Sozialer Typ 6 · CFO DHL Group, geb. 1971 Bonn" },
   { term: "Michael Schumacher",            route: "beruehmte-michael-schumacher",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Formel-1-Legende, 7 Weltmeistertitel, geb. 1969 Hürth" },
+  { term: "Mariah Carey",                  route: "beruehmte-mariah-carey",               description: "Portrait: SE7w8 \xb7 Selbsterhaltender Typ 7 \xb7 S\xe4ngerin, 18 Nummer-1-Singles, All I Want for Christmas Is You" },
   { term: "Wallace Shawn",                 route: "beruehmte-wallace-shawn",               description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Schauspieler, Autor, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
   { term: "Michelle Obama",                route: "beruehmte-michelle-obama",              description: "Portrait: SO2w3 · Sozialer Typ 2 · Ex-First-Lady, Autorin, Bildungsaktivistin" },
   { term: "Monika Gruber",                 route: "beruehmte-monika-gruber",               description: "Portrait: SX2w1 · Sexueller Typ 2 · Kabarettistin, Herzwärme & Leidenschaft" },

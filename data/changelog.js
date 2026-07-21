@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Mariah Carey (SE7w8) – S\xe4ngerin, 18 Nummer-1-Singles, \xe2\x80\x9eAll I Want for Christmas Is You\xe2\x80\x9c. Der Gorilla mit Achterfl\xfcgel: Freude als Recht, \xdcberfluss als Heimat, Macht als Schutzschild.",
+    text_en: "New portrait: Mariah Carey (SE7w8) – singer, 18 number-one singles, All I Want for Christmas Is You. The gorilla with Eight wing: joy as a right, abundance as home, power as shield.",
+    route: "beruehmte-mariah-carey"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Wallace Shawn (SE7w6) – Schauspieler, B\xfchnenautor, Essayist. Vizzini in „Die Prinzessin Braut“, Rex in „Toy Story“. Der Gorilla, der beim Mittagessen \xfcber Kapitalismus und Tod nachdenkt.",
     text_en: "New portrait: Wallace Shawn (SE7w6) – actor, playwright, essayist. Vizzini in The Princess Bride, Rex in Toy Story. The gorilla who thinks about capitalism and death over lunch.",
     route: "beruehmte-wallace-shawn"
