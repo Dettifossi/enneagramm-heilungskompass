@@ -11762,7 +11762,7 @@ function wallaceShawnPortraitPage() {
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Gorilla</strong> ist das mächtigste Tier des Regenwaldes – und das friedlichste. Er ist kein Jäger. Er sucht keine Konfrontation. Er sitzt, isst, denkt, beobachtet. Er ist groß und eindrucksvoll, und trotzdem fällt er im Unterholz kaum auf – weil er gar nicht auffallen will. Der Gorilla lebt in der Gruppe, pflegt seine Beziehungen, schützt die Seinen, und er liebt das Essen – als sinnliches Vergnügen, als sozialen Akt, als Beweis dafür, dass das Leben gut sein kann.</p>
-          <p class="vb-intro">Wallace Shawn ist klein, kahlköpfig, hat eine nasale Stimme, die man nicht vergisst, und spielt seit Jahrzehnten Schurken, arme Tröpfe und Selbstüberschätzer in Filmen, in denen irgendwer am Ende <em>Inconceivable!</em> ruft. Dabei ist er einer der klugsten Köpfe der amerikanischen Intellektuellenszene – Sohn des Chefredakteurs des <em>New Yorker</em>, ausgebildet in Harvard und Oxford, Verfasser von Bühnenstücken, die das Off-Theater der 1970er und 1980er Jahre prägten. Wallace Shawn ist der Gorilla: er sieht gemütlich aus – und trägt das Schüwergewicht der Ideen.</p>
+          <p class="vb-intro">Wallace Shawn ist klein, kahlköpfig, hat eine nasale Stimme, die man nicht vergisst, und spielt seit Jahrzehnten Schurken, arme Tröpfe und Selbstüberschätzer in Filmen, in denen irgendwer am Ende <em>Inconceivable!</em> („Unvorstellbar!“) ruft. Dabei ist er einer der klugsten Köpfe der amerikanischen Intellektuellenszene – Sohn des Chefredakteurs des <em>New Yorker</em>, ausgebildet in Harvard und Oxford, Verfasser von Bühnenstücken, die das Off-Theater der 1970er und 1980er Jahre prägten. Wallace Shawn ist der Gorilla: er sieht gemütlich aus – und trägt das Schüwergewicht der Ideen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die Familie: Vergnügen als Weltanschauung</h2>
@@ -40477,7 +40477,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v696';
+  const MY_VERSION = 'inhalt-v697';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
