@@ -11155,7 +11155,7 @@ function timBendzkoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Der Schmerz, der nicht sichtbar ist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Sprache der Kontratyp der Vier &ndash; das heißt: Sie zeigt nach außen fast das Gegenteil dessen, was man von einer Vier erwartet. Keine Dramatik, kein demonstratives Leiden, keine Selbstinszenierung im großen Stil. Die SE4 erscheint oft heiter, geerdet, verlässlich. Was sie innen trägt, bleibt verborgen. Naranjo nannte diesen Subtyp <em>Rücksichtslosigkeit</em> &ndash; nicht gegenüber anderen, sondern gegenüber sich selbst: ein unbedingter Antrieb, weiterzumachen, auch wenn es weh tut.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Sprache der Kontratyp der Vier &ndash; das heißt: Sie zeigt nach außen fast das Gegenteil dessen, was man von einer Vier erwartet. Keine Dramatik, kein demonstratives Leiden, keine Selbstinszenierung im großen Stil. Die SE4 erscheint oft heiter, geerdet, verlässlich. Was sie innen trägt, bleibt verborgen. Naranjo nannte diesen Subtyp <em>Zähigkeit</em> (engl. <em>Tenacity</em>) &ndash; ein stilles, hartnäckiges Durchhalten, eine Härte gegen sich selbst: der Antrieb, weiterzumachen, auch wenn es weh tut, ohne darüber zu klagen.</p>
           <p class="vb-intro">Tim Bendzko ist in Interviews selten lamentierend. Er wirkt bodenständig, fast unauffällig &ndash; kein Rockstar-Gehabe, kein Exzess, kein Drama. Und doch sind seine Texte von einer Empfindlichkeit, die nur jemand findet, der das Innere gut kennt. &bdquo;Am seidenen Faden&ldquo; handelt von dem Moment, in dem alles zu kippen droht &ndash; und von dem schmalen Weg zurück. Das schreibt keine Sieben, die das Leben feiert. Das schreibt eine Vier, die weiß, wie nah der Boden ist.</p>
           <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Energie nach innen &ndash; auf das eigene Bestehen, auf Stabilität, auf das, was trägt. Das erklärt Bendzkos musikalische Handschrift: keine schnellen Trends, keine Anpassung ans Kommerziellste, kein Formatradio-Opportunismus. Eine Stimme, die bleibt.</p>
         </blockquote>
@@ -39523,7 +39523,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v650';
+  const MY_VERSION = 'inhalt-v651';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
