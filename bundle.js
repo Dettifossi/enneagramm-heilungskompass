@@ -9160,7 +9160,7 @@ function lindaLeinweberPortraitPage() {
 
         <h2 class="vb-section">4. Poise und die Vision der Pr\xe4vention</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mit <strong>Poise</strong> hat Linda Leinweber eine Plattform geschaffen, die ihren Ansatz institutionell verankert: ein interdisziplin\xe4res Team aus Psychologinnen, Psychotherapeutinnen und Coaches, das psychologische Beratung und Begleitung online zug\xe4nglich macht. Der Name ist Programm &ndash; <em>Poise</em> bedeutet Gleichgewicht, Haltung, innere Stabilit\xe4t. Nicht Drama. Nicht spektakul\xe4re Heilung. Sondern: das Ma\xdf, das tr\xe4gt.</p>
+          <p class="vb-intro">Mit <strong>Poise</strong> hat Linda Leinweber eine Plattform geschaffen, die ihren Ansatz institutionell verankert: ein interdisziplin\xe4res Team aus Psychologinnen, Psychotherapeutinnen und Coaches, das psychologische Beratung und Begleitung online zug\xe4nglich macht. Der Name ist dabei kein Zufall &ndash; <em>Poise</em> bedeutet auf Englisch Gleichgewicht, Haltung, innere Stabilit\xe4t. Nicht Drama. Nicht spektakul\xe4re Heilung. Sondern: das Ma\xdf, das tr\xe4gt. Wer etwas tiefer gr\xe4bt, entdeckt: Das englische <em>poise</em> und das englische <em>poison</em> teilen dieselbe Wurzel &ndash; das altfranz\xf6sische <em>poison</em> bedeutete urspr\xfcnglich Trank, Gebr\xe4u, Gift. Der Name tr\xe4gt also beides in sich: Gleichgewicht und Gegengift. Und wenn man wei\xdf, dass die unbewusste SX4 in ihrer Blickqualit\xe4t durchaus etwas Toxisches in sich tragen kann &ndash; eine Intensit\xe4t, die verbrennt, eine Rivalit\xe4t, die n\xe4gt, eine Leidenschaft, die kippt &ndash; dann erh\xe4lt der Plattformname eine zweite Lesart: <em>Poise</em> als bewusst gew\xe4hltes Gegen-Bild zum eigenen Schatten. Das Gleichgewicht als Antwort auf das, was aus dem Gleichgewicht geraten kann.</p>
           <p class="vb-intro">Der pr\xe4ventive Ansatz ist dabei zentral: Leinweber m\xf6chte Menschen erreichen, bevor die Krise da ist. Bevor der Burnout kommt, bevor die Panikst\xf6rung sich etabliert, bevor die Beziehung zerbricht. Das ist ein zutiefst systemischer Gedanke &ndash; und er erkl\xe4rt, warum sie auch in der Unternehmensberatung aktiv ist: B2B-Workshops, Mental-Health-Konzepte f\xfcr F\xfchrungskr\xe4fte, strukturelle Pr\xe4vention statt individuelle Feuerwehr. Der Chihuahua, der nicht wartet, bis das Haus brennt.</p>
           <p class="vb-intro">\xdcber ihren Instagram-Kanal (<em>@psychologin_lindaleinweber</em>) und ihren Podcast <em>Das Wunder Frau</em> erreicht sie ein breites Publikum jenseits der Klinik. Dieses Engagement f\xfcr Entstigmatisierung &ndash; die Botschaft, dass psychische Gesundheit kein Luxusthema ist, sondern eine Grundfrage des Lebens &ndash; ist ihre konsequenteste politische Haltung. Nicht im Parlament, sondern dort, wo Haltungen sich bilden: in den Alltag der Menschen.</p>
         </blockquote>
@@ -39740,7 +39740,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v658';
+  const MY_VERSION = 'inhalt-v659';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
