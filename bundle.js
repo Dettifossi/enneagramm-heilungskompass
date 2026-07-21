@@ -1600,6 +1600,8 @@ function neuigkeitenSection() {
         : `<span>${e.text}</span>`}
     </li>`
   ).join('');
+  // Auto-update lastSeen after 10 s so banner disappears on next visit without requiring × click
+  setTimeout(function(){ localStorage.setItem('kompass:changelog-seen', '${latest}'); }, 10000);
   return `
     <section id="neuigkeiten-banner" style="max-width:520px;margin:0 auto 1.4rem;padding:0 1rem;">
       <div style="position:relative;border-left:3px solid var(--copper,#b87830);border-radius:0 8px 8px 0;background:var(--paper-deep,#ede8dc);padding:0.9rem 1.1rem 0.9rem 1.1rem;">
@@ -39455,7 +39457,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v648';
+  const MY_VERSION = 'inhalt-v649';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -3,19 +3,25 @@
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
   {
-    date: "2026-07-20",
+    date: "2026-07-21",
+    text: "Neu: Geschlecht-Filter bei Berühmte Persönlichkeiten & Kriminalpsychologie – jetzt nach Männlich / Weiblich filtern.",
+    text_en: "New: Gender filter on Famous Personalities & Criminal Psychology – filter by Male / Female.",
+    route: "beruehmte-persoenlichkeiten"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Porträt: Meg Ryan (SX3w4) – Schauspielerin, Regisseurin. Hollywoods Liebling der 1990er – der Pfau, der mehr wollte als seine Rolle.",
     text_en: "New portrait: Meg Ryan (SX3w4) – actress, director. Hollywood's sweetheart of the 1990s – the peacock who wanted more than its role.",
     route: "beruehmte-meg-ryan"
   },
   {
-    date: "2026-07-20",
+    date: "2026-07-21",
     text: "Neues Porträt: Lena Meyer-Landrut (SX3w2) – Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist.",
     text_en: "New portrait: Lena Meyer-Landrut (SX3w2) – singer, ESC winner 2010. The peacock who doesn't know how beautiful it is.",
     route: "beruehmte-lena-meyer-landrut"
   },
   {
-    date: "2026-07-20",
+    date: "2026-07-21",
     text: "Neues Porträt: Karl Lagerfeld (SO3w4) – Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat.",
     text_en: "New portrait: Karl Lagerfeld (SO3w4) – fashion icon, Creative Director of Chanel and Fendi. The cheetah who transformed himself into a symbol.",
     route: "beruehmte-karl-lagerfeld"
