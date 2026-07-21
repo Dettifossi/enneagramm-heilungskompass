@@ -32,6 +32,37 @@
 - CSS-Variablen: `--copper`, `--paper`, `--ink`, `--muted`, `--line`.
 - Neue Inhalte in `data/subtypes/` oder `data/knowledge/`, NIE zurück in `de.js`.
 
+## Register & Suchfunktion — Pflichtschritt bei jedem neuen Inhalt
+
+**Suche = Register.** Beide greifen auf `data/register.js` zurück (`registerEntries`-Array).
+
+**Jede neue Seite / jedes neue Portrait MUSS sofort in `data/register.js` eingetragen werden**, bevor committed wird. Sonst ist der Inhalt weder in der Suchfunktion noch im alphabetischen Register auffindbar.
+
+Eintrag-Format:
+```js
+{ term: "Anzeigename",  route: "hash-route-ohne-#",  description: "Kurzbeschreibung ~80 Zeichen" },
+```
+
+- **Portraits (beruehmte-*):** `description` beginnt mit `"Portrait: SUBTYPCODE · Subtyp · Kurzinfo"`
+- **Kriminalportraits:** Eintrag unter `// Kriminalpsychologie – fehlende Portraits`; zusätzlich prüfen ob `KRIMINAL_PORTRAITS`-Array in bundle.js den Eintrag hat (diese haben ein eigenes Such-Rendering)
+- **Schaubilder:** `description` beginnt mit `"Schaubild: …"`
+- **Astrologie-Portraits:** `description` beginnt mit `"Astrologie-Portrait: …"`
+
+**Kontrollbefehl** (vor dem Commit ausführen, um Lücken zu finden):
+```bash
+python3 -c "
+import re
+t=open('bundle.js',encoding='utf-8').read()
+rr=set(re.findall(r'\"([a-z][a-z0-9\-/]+)\"\s*:\s*\w+Page\b',t))
+rf=open('data/register.js',encoding='utf-8').read()
+rg=set(re.findall(r'route\s*:\s*\"([^\"]+)\"',rf))
+ex={'beruehmte-persoenlichkeiten','favoriten','beruehmte-obama'}
+miss=[r for r in sorted(rr-rg) if r not in ex]
+print(f'Fehlend im Register: {len(miss)}')
+[print(\" \",r) for r in miss]
+"
+```
+
 ## Inhaltsregeln
 
 - **Keine erfundenen Zuordnungen.** Fachliche Inhalte nur aus belegten Quellen übernehmen.
