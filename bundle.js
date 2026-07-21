@@ -314,6 +314,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lady Diana – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1961–1997. Princess of Wales. Die Taube, die Botschaften trägt – Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen berührte.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-tim-bendzko", name:"Tim Bendzko", added:"2026-07-21", subtyp:"SE4w3",
+    heading:"Tim Bendzko – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · geb. 1985, Berlin. Sänger, Songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
@@ -11127,6 +11131,67 @@ function ladyDianaPortraitPage() {
   `);
 }
 
+
+function timBendzkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tim-bendzko-portrait.jpg" alt="Tim Bendzko" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Bendzko</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Songwriter, geb. 1985 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; und es trifft Tim Bendzko auf eine Weise, die erst beim zweiten Hinsehen deutlich wird. Die Taube ist kein Tier der großen Gesten. Sie kreist nicht majestätisch wie der Adler, sie brüllt nicht wie der Löwe. Sie findet ihren Weg leise &ndash; und sie findet ihn zuverlässig. Die Taube trägt Botschaften über weite Strecken, durch Sturm und Dunkel, und sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört.</p>
+          <p class="vb-intro">Tim Bendzko macht Musik, die Menschen finden lässt, was sie selbst nicht aussprechen konnten. Seine Songs landen nicht laut &ndash; sie landen genau. &bdquo;Nur noch kurz die Welt retten&ldquo; ist ironisch, fast leichtfüßig formuliert, und beschreibt trotzdem etwas Erschöpfendes: das Gefühl, dass das eigene Leben unter der Last aller Anforderungen fast verschwindet. Das ist die Taube: Sie trägt das Gewicht &ndash; und sie singt trotzdem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Der Schmerz, der nicht sichtbar ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Sprache der Kontratyp der Vier &ndash; das heißt: Sie zeigt nach außen fast das Gegenteil dessen, was man von einer Vier erwartet. Keine Dramatik, kein demonstratives Leiden, keine Selbstinszenierung im großen Stil. Die SE4 erscheint oft heiter, geerdet, verlässlich. Was sie innen trägt, bleibt verborgen. Naranjo nannte diesen Subtyp <em>Rücksichtslosigkeit</em> &ndash; nicht gegenüber anderen, sondern gegenüber sich selbst: ein unbedingter Antrieb, weiterzumachen, auch wenn es weh tut.</p>
+          <p class="vb-intro">Tim Bendzko ist in Interviews selten lamentierend. Er wirkt bodenständig, fast unauffällig &ndash; kein Rockstar-Gehabe, kein Exzess, kein Drama. Und doch sind seine Texte von einer Empfindlichkeit, die nur jemand findet, der das Innere gut kennt. &bdquo;Am seidenen Faden&ldquo; handelt von dem Moment, in dem alles zu kippen droht &ndash; und von dem schmalen Weg zurück. Das schreibt keine Sieben, die das Leben feiert. Das schreibt eine Vier, die weiß, wie nah der Boden ist.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Energie nach innen &ndash; auf das eigene Bestehen, auf Stabilität, auf das, was trägt. Das erklärt Bendzkos musikalische Handschrift: keine schnellen Trends, keine Anpassung ans Kommerziellste, kein Formatradio-Opportunismus. Eine Stimme, die bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Das Innere in Form bringen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier etwas Entscheidendes: die Fähigkeit, das Innere nicht nur zu erleben, sondern zu <em>gestalten</em> &ndash; und wirkungsvoll nach außen zu bringen. Die reine SE4 könnte in ihrer inneren Welt verschwinden. Der Dreierflügel holt sie zurück in die Wirklichkeit: Er macht aus dem Empfinden ein Lied, aus dem Schmerz eine Melodie, aus dem Suchen eine Karriere.</p>
+          <p class="vb-intro">Tim Bendzko hat die Popakademie in Mannheim besucht &ndash; eine bewusste Entscheidung für Handwerk, für professionelle Struktur. Das ist der Dreierflügel: Er weiß, dass Talent allein nicht reicht, dass gute Arbeit Form braucht. Und er ist bereit, diese Form zu erlernen und zu disziplinieren. Sein Songwriting ist in diesem Sinn kein spontanes Gefühlsausschütten, sondern präzises Komponieren: die genau richtige Formulierung, der genau richtige Moment, in dem ein Refrain aufbricht.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt auch seinen Erfolg bei einem breiten Publikum. Die SE4 allein wäre vielleicht zu introvertiert für Massenwirkung &ndash; zu komplex, zu eigen. Der w3 übersetzt das Eigene ins Allgemeine. Deshalb kann ein Lied wie &bdquo;Nur noch kurz die Welt retten&ldquo; gleichzeitig persönlich klingen und von Millionen als das eigene Gefühl erkannt werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist ihre Fähigkeit, das Schwere zugänglich zu machen &ndash; nicht durch Vereinfachung, sondern durch Präzision. Tim Bendzko singt über das, was viele fühlen und kaum sagen: Überforderung, Sehnsucht, das Gefühl, nicht anzukommen. Und er singt es so, dass der Hörer nicht beschämt wird, sondern erkannt. Das ist seltene Qualität.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das chronische Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SE4 bleibt dieser Neid verborgen, weil sie nicht klagt. Er äußert sich als innere Unruhe, als das Gefühl, nie ganz anzukommen, nie ganz fertig zu sein. Viele Bendzko-Songs kreisen um genau diese Grundspannung: der Wunsch, endlich da zu sein &ndash; und das Wissen, dass das &bdquo;Da&ldquo; immer ein Stück weiter liegt.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Versuchung, den eigenen Wert über Resonanz zu messen: Wenn das Album gut aufgenommen wird, ist es genug. Wenn es stiller wird um einen, entsteht Zweifel. Der Heilungsweg führt hier dahin, den inneren Wert vom äußeren Erfolg zu entkoppeln &ndash; und zu erkennen, dass die Stimme auch dann wahr ist, wenn niemand hinhört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Taube, die heimfindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Was fehlt mir, das anderen gegeben wurde?</em> zur Erkenntnis <em>Das, was ich bin, ist vollständig &ndash; und es ist meines.</em> Für die SE4 bedeutet das, den inneren Kampf nicht mehr allein auszufechten, sondern ihn als Teil des Lebens anzunehmen &ndash; nicht als Mangel, sondern als Tiefe.</p>
+          <p class="vb-intro">Tim Bendzko hat über die Jahre eine musikalische Sprache entwickelt, die genau das spiegelt: Sie wird reifer, ruhiger, selbstgewisser &ndash; ohne die Empfindlichkeit zu verlieren. Die Taube, die ihren Weg kennt. Die nicht mehr jede Windböe als Bedrohung erlebt, sondern als Teil der Reise. Sie trägt die Botschaft &ndash; und sie kommt an.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function megRyanPortraitPage() {
   return shell(`
@@ -39029,6 +39094,7 @@ function render() {
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
+      "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
@@ -39457,7 +39523,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v649';
+  const MY_VERSION = 'inhalt-v650';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

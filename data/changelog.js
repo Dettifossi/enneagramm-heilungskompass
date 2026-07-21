@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Porträt: Tim Bendzko (SE4w3) – Sänger, Songwriter. Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht.",
+    text_en: "New portrait: Tim Bendzko (SE4w3) – singer, songwriter. The dove that carries the weight of life – and turns it into music.",
+    route: "beruehmte-tim-bendzko"
+  },
+  {
+    date: "2026-07-21",
     text: "Neu: Geschlecht-Filter bei Berühmte Persönlichkeiten & Kriminalpsychologie – jetzt nach Männlich / Weiblich filtern.",
     text_en: "New: Gender filter on Famous Personalities & Criminal Psychology – filter by Male / Female.",
     route: "beruehmte-persoenlichkeiten"
