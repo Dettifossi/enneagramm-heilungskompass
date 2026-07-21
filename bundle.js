@@ -10713,7 +10713,7 @@ function donataHopfenPortraitPage() {
           <img src="./assets/portraits/beruehmte-donata-hopfen-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Donata Hopfen</p>
-        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenfl\xfcgel</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Unternehmensberaterin, Digitalberaterin, geb. 1976 in Hamburg &ndash; Tierentsprechung: Erdm\xe4nnchen</p>
       </div>
       <div class="page-content">
@@ -10731,24 +10731,24 @@ function donataHopfenPortraitPage() {
           <p class="vb-intro">Das ist der Unterschied zur SO6w5: Melanie Kreis baut Sicherheit, indem sie tief in eine Struktur einw\xe4chst. Donata Hopfen baut Sicherheit, indem sie Strukturen erneuert. Beide dienen der Gruppe. Aber die eine h\xe4lt, die andere gestaltet.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenfl\xfcgel: Tempo als Heimat</h2>
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Tempo als Heimat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenfl\xfcgel (w7)</strong> bringt der sozialen Sechs etwas, das die reine SO6 allein nicht entwickeln w\xfcrde: Begeisterungsf\xe4higkeit, Risikofreude und die \xdcberzeugung, dass Aufbruch besser ist als Verharren. Wo die SO6 nat\xfcrlicherweise zu Vorsicht und Absicherung neigt, \xf6ffnet der Siebenfl\xfcgel die T\xfcr zur Weite. Das Ergebnis ist ein Mensch, der Zugeh\xf6rigkeit sucht &ndash; und sie durch Charisma und Aufbruchsenergie schafft statt durch Stille.</p>
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> bringt der sozialen Sechs etwas, das die reine SO6 allein nicht entwickeln w\xfcrde: Begeisterungsf\xe4higkeit, Risikofreude und die \xdcberzeugung, dass Aufbruch besser ist als Verharren. Wo die SO6 nat\xfcrlicherweise zu Vorsicht und Absicherung neigt, \xf6ffnet der Siebenerfl\xfcgel die T\xfcr zur Weite. Das Ergebnis ist ein Mensch, der Zugeh\xf6rigkeit sucht &ndash; und sie durch Charisma und Aufbruchsenergie schafft statt durch Stille.</p>
           <p class="vb-intro">Hopfen gilt als Vordenkerin der digitalen Transformation. Sie spricht \xf6ffentlich, sie engagiert sich, sie nimmt Positionen ein. Ihr Stil ist nicht der von Melanie Kreis, die im Hintergrund durch Qualit\xe4t \xfcberzeugt &ndash; Hopfen ist sichtbar, artikuliert, pr\xe4sent. Das ist die SO6w7 als F\xfchrungstyp: Sicherheit wird nicht durch R\xfcckzug in die Tiefe gewonnen, sondern durch Verbindung nach au\xdfen, durch das Bewegen von Menschen, durch das Gef\xfchl, dass die Gruppe in Bewegung bleibt.</p>
-          <p class="vb-intro">Wo der F\xfcnferfl\xfcgel die Energie nach innen richtet &ndash; Analyse, Verst\xe4ndnis, Wissen als Fundament &ndash; richtet der Siebenfl\xfcgel sie nach au\xdfen: Vernetzung, Ideen, der n\xe4chste Schritt. Das Erdm\xe4nnchen der SO6w7 h\xe4lt keine Einzel-Wache. Es organisiert die ganze Gruppe zum gemeinsamen Ausschau halten.</p>
+          <p class="vb-intro">Wo der F\xfcnferfl\xfcgel die Energie nach innen richtet &ndash; Analyse, Verst\xe4ndnis, Wissen als Fundament &ndash; richtet der Siebenerfl\xfcgel sie nach au\xdfen: Vernetzung, Ideen, der n\xe4chste Schritt. Das Erdm\xe4nnchen der SO6w7 h\xe4lt keine Einzel-Wache. Es organisiert die ganze Gruppe zum gemeinsamen Ausschau halten.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von McKinsey bis zum Bundesliga-Sturm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Hopfens bekannteste &ndash; und turbulenteste &ndash; Station war ihre Zeit als Gesch\xe4ftsf\xfchrerin der <strong>DFL</strong>. Sie trat im November 2022 an mit einem klaren Auftrag: die Bundesliga in die digitale Zukunft f\xfchren und neue Finanzierungsquellen erschlie\xdfen. Im Zentrum stand ein Investorendeal mit dem Finanzinvestor CVC Capital Partners, der der DFL rund zwei Milliarden Euro einbringen sollte.</p>
           <p class="vb-intro">Was folgte, war einer der spektakul\xe4rsten Konflikte im deutschen Fu\xdfball: Fans protestierten massiv gegen den Einstieg von Investoren, Spiele wurden durch Tennisb\xe4lle und andere Gegenst\xe4nde auf dem Feld unterbrochen, Klubs zogen ihre Unterst\xfctzung zur\xfcck. Im Februar 2023 &ndash; nach kaum drei Monaten im Amt &ndash; trat Hopfen zur\xfcck. Der Deal kam nicht zustande.</p>
-          <p class="vb-intro">Es war eine klassische SO6-Erfahrung in ihrer h\xe4rtesten Form: Hopfen hatte im Auftrag der Gruppe gehandelt &ndash; und die Gruppe wandte sich gegen sie. Nicht weil die Strategie falsch war, sondern weil sie an einer Stelle angesetzt hatte, an der Angst und Identit\xe4t des Fu\xdfballs kollidierten. Der Siebenfl\xfcgel hatte sie schnell und entschlossen gemacht. Die SO6-Verletzlichkeit traf sie, als die Zugeh\xf6rigkeit wegbrach.</p>
+          <p class="vb-intro">Es war eine klassische SO6-Erfahrung in ihrer h\xe4rtesten Form: Hopfen hatte im Auftrag der Gruppe gehandelt &ndash; und die Gruppe wandte sich gegen sie. Nicht weil die Strategie falsch war, sondern weil sie an einer Stelle angesetzt hatte, an der Angst und Identit\xe4t des Fu\xdfballs kollidierten. Der Siebenerfl\xfcgel hatte sie schnell und entschlossen gemacht. Die SO6-Verletzlichkeit traf sie, als die Zugeh\xf6rigkeit wegbrach.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten: Wenn die Gruppe die W\xe4chterin abw\xe4hlt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen ist als Beraterin und Rednerin gefragt, weil sie Klarheit, Mut und strategischen Weitblick verbindet. Sie kann Systeme lesen, Chancen benennen und Menschen mitrei\xdfen. Das ist die SO6w7 auf der Sonnenseite: Sie dient nicht nur &ndash; sie inspiriert.</p>
-          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfcke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster in Reinform: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
+          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenerfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfcke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster in Reinform: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
           <p class="vb-intro">F\xfcr die SO6 ist das die tiefste Wunde: Als Mitglied der Gemeinschaft ausgestoßen zu werden von genau jener Gemeinschaft, f\xfcr die man angetreten ist. Hopfen hat diese Erfahrung \xf6ffentlich gemacht. Und ist danach nicht verschwunden. Das ist der Unterschied zwischen SO6-Schatten und SO6-Reife: Die reife Sechs wei\xdf, dass Zugeh\xf6rigkeit nicht an einer einzigen Gruppe h\xe4ngt.</p>
         </blockquote>
 
@@ -40332,7 +40332,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v685';
+  const MY_VERSION = 'inhalt-v686';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
