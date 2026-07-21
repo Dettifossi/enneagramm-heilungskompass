@@ -354,6 +354,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-linda-leinweber", name:"Linda Leinweber", added:"2026-07-21", subtyp:"SX4w5",
+    heading:"Linda Leinweber – Sexueller Typ 4",
+    teaser:"SX4w5 \xb7 Psychologin, Autorin, Coach, Gr\xfcnderin von Poise. „Frei und trotzdem verbunden“. Der Chihuahua, der den eigenen Schmerz zur Pr\xe4zision gemacht hat – und Menschen lehrt, hinzuschauen, bevor es zu sp\xe4t ist.",
+    tags:["Psychologie","Coaching"], gender:"f"},
   { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
@@ -9113,6 +9117,76 @@ function anaDeArmasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function lindaLeinweberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-linda-leinweber-portrait.jpg" alt="Linda Leinweber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Leinweber</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Psychologin, Autorin, Coach &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der hinschauen gelernt hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, gro\xdf im Innenleben, und mit einer Intensit\xe4t ausgestattet, die nichts Halbes kennt. Der Chihuahua liebt tief, f\xfchlt sch\xe4rfer als die meisten um ihn herum und l\xe4sst sich nicht einsch\xfcchtern &ndash; aber er ist auch empfindlich, verletzlich und auf Verbindung angewiesen wie kaum ein anderes Tier. Was er aufgebaut hat, sch\xfctzt er. Was er gef\xfchlt hat, vergisst er nicht. Und was er einmal verstanden hat, gibt er weiter.</p>
+          <p class="vb-intro">Linda-Marlen Leinweber ist Psychologin, Autorin, Coach und Gr\xfcnderin der Online-Plattform Poise &ndash; und eine der prononciertesten deutschen Stimmen im Bereich mentale Gesundheit und Pr\xe4vention. Ihr Weg dorthin f\xfchrte nicht durch die Theorie, sondern durch das eigene Erleben: durch Jahre, in denen sie selbst sprachlos gegen\xfcber dem stand, was ihr K\xf6rper und ihre Psyche ihr mitteilten. Diese Biografie ist kein Zufall. Sie ist das Fundament.</p>
+          <p class="vb-intro">Was Linda Leinweber von vielen anderen Psychologinnen und Coaches unterscheidet, ist diese Verbindung: Sie spricht nicht von au\xdfen \xfcber Schmerz. Sie spricht aus einem Inneren, das diesen Schmerz kennt &ndash; und das gelernt hat, ihn zu lesen. Das ist SX4w5: Tiefe, die sich nicht sch\xe4mt. Erkenntnis, die sich nicht versteckt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalit\xe4t gegen die Verharmlosung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition der Subtyp, der den Schmerz der Vier nicht nach innen tr\xe4gt, sondern nach au\xdfen wendet &ndash; als Intensit\xe4t, als Verlangen, als Feuer. Naranjo nennt diesen Subtyp <em>Rivalit\xe4t</em>: die brennende \xdcberzeugung, dass anderen etwas gegeben wurde, was einem selbst vorenthalten wurde &ndash; und der Antrieb, dagegen anzutreten, \xfcbertreffen zu wollen, sich zu beweisen. Bei der SX4 bleibt dieser Antrieb nicht abstrakt. Er richtet sich auf etwas Konkretes &ndash; auf einen Menschen, auf ein System, auf eine Ungerechtigkeit.</p>
+          <p class="vb-intro">Bei Linda Leinweber hat sich diese Energie einen klaren Gegner gesucht: die Verharmlosung psychischer Not. Die Vorstellung, dass Angst und Panik \xfcberwindbar seien, wenn man sich nur mehr zusammenrei\xdft. Die Idee, dass Burnout eine Frage der Disziplin sei und nicht des Systems. Dass Pr\xe4vention Luxus sei und nicht Vernunft. Gegen diese Haltung &ndash; die sie nicht zuletzt an sich selbst erlebt hat, in den Jahren mit Panikattacken und Erschöpfung &ndash; richtet sie ihre Arbeit wie ein Gegengewicht.</p>
+          <p class="vb-intro">Die eigene Krise war der Wendepunkt. Linda Leinweber war bereits als Model t\xe4tig, hatte Psychologie in K\xf6ln und Berlin studiert, als sie am eigenen Leib erlebte, was es bedeutet, wenn das Nervensystem kollabiert: Panikattacken, Druck, das Gef\xfchl, in einem Hamsterrad zu sitzen, das sie selbst aufgebaut hatte. Diese Erfahrung hat sie nicht begraben. Sie hat sie zur Grundlage ihrer gesamten beruflichen Ausrichtung gemacht. Das ist SX4: Der Schmerz wird nicht verwaltet. Er wird zum Kompass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Die Analytikerin hinter der Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt der sexuellen Vier etwas Entscheidendes: den analytischen Blick, den Hunger nach Verst\xe4ndnis, die F\xe4higkeit, das eigene Erleben nicht nur zu f\xfchlen, sondern zu durchdringen. Die SX4 allein k\xf6nnte in der Intensit\xe4t des eigenen Empfindens stecken bleiben &ndash; der F\xfcnferfl\xfcgel zieht sie in die Beobachtung, in die Theorie, in das Handwerk. Er sagt: <em>F\xfchlen reicht nicht. Verstehen auch.</em></p>
+          <p class="vb-intro">Linda Leinwebers Ausbildungsweg tr\xe4gt diese Handschrift: Psychologiestudium, systemische Organisationsberatung, zertifiziertes Coaching, Hypnosetherapie. Das ist keine Sammlung von Zertifikaten &ndash; das ist ein F\xfcnferfl\xfcgel, der von einem Werkzeug zum n\xe4chsten wandert, weil keines allein ausreicht. Die Hypnosetherapie f\xe4llt dabei besonders auf: Sie setzt dort an, wo klassische Gespr\xe4chstherapie an ihre Grenzen st\xf6\xdft &ndash; im Unterhalb des Bewussten, im K\xf6rperged\xe4chtnis, in den Mustern, die sich nicht durch Einsicht allein aufl\xf6sen lassen. Wer diesen Weg geht, denkt in Tiefen.</p>
+          <p class="vb-intro">Der F\xfcnferfl\xfcgel zeigt sich auch in Leinwebers Publikationsarbeit. Ihr Buch <em>Frei und trotzdem verbunden</em> &ndash; ein Titel, der selbst schon ein Paradox denkt &ndash; widmet sich Beziehungsdynamiken, Bindungsmustern und Konfliktl\xf6sungen. Das ist kein Ratgeberbuch im klassischen Sinne: kein &bdquo;10 Schritte zur besseren Beziehung&ldquo;, sondern ein Versuch zu verstehen, warum Menschen in immer denselben Mustern stecken &ndash; und was es braucht, um herauszufinden. Das ist die SX4w5 in ihrem besten Element: Tiefe, die anderen n\xfctzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Poise und die Vision der Pr\xe4vention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <strong>Poise</strong> hat Linda Leinweber eine Plattform geschaffen, die ihren Ansatz institutionell verankert: ein interdisziplin\xe4res Team aus Psychologinnen, Psychotherapeutinnen und Coaches, das psychologische Beratung und Begleitung online zug\xe4nglich macht. Der Name ist Programm &ndash; <em>Poise</em> bedeutet Gleichgewicht, Haltung, innere Stabilit\xe4t. Nicht Drama. Nicht spektakul\xe4re Heilung. Sondern: das Ma\xdf, das tr\xe4gt.</p>
+          <p class="vb-intro">Der pr\xe4ventive Ansatz ist dabei zentral: Leinweber m\xf6chte Menschen erreichen, bevor die Krise da ist. Bevor der Burnout kommt, bevor die Panikst\xf6rung sich etabliert, bevor die Beziehung zerbricht. Das ist ein zutiefst systemischer Gedanke &ndash; und er erkl\xe4rt, warum sie auch in der Unternehmensberatung aktiv ist: B2B-Workshops, Mental-Health-Konzepte f\xfcr F\xfchrungskr\xe4fte, strukturelle Pr\xe4vention statt individuelle Feuerwehr. Der Chihuahua, der nicht wartet, bis das Haus brennt.</p>
+          <p class="vb-intro">\xdcber ihren Instagram-Kanal (<em>@psychologin_lindaleinweber</em>) und ihren Podcast <em>Das Wunder Frau</em> erreicht sie ein breites Publikum jenseits der Klinik. Dieses Engagement f\xfcr Entstigmatisierung &ndash; die Botschaft, dass psychische Gesundheit kein Luxusthema ist, sondern eine Grundfrage des Lebens &ndash; ist ihre konsequenteste politische Haltung. Nicht im Parlament, sondern dort, wo Haltungen sich bilden: in den Alltag der Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Feuer, das versteht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das tiefe, oft unbewusste Gef\xfchl, dass anderen eine Vollst\xe4ndigkeit geschenkt wurde, die einem selbst fehlt. Bei der SX4 tr\xe4gt dieser Neid ein pers\xf6nlicheres Gesicht: nicht das Schielen auf den Besitz anderer, sondern der Stich, wenn jemand anderes ungezwungen das sein darf, was man selbst so schwer zu sein findet. Leicht, frei, unbelastet. Die SX4 kennt das Gef\xfchl, schwerer zu sein als die anderen &ndash; und sie hat Wege gefunden, damit zu arbeiten.</p>
+          <p class="vb-intro">Das Licht der SX4w5 liegt in ihrer F\xe4higkeit, die eigene Dunkelheit produktiv zu machen &ndash; nicht als Performance, sondern als echten Dienst. Linda Leinweber hilft nicht, weil sie es soll. Sie hilft, weil sie wei\xdf, wie es ist, nicht geholfen worden zu sein. Dieser Unterschied ist sp\xfcrbar. Menschen, die aus eigener Erfahrung helfen, geben etwas anderes weiter als solche, die nur gelernt haben wie.</p>
+          <p class="vb-intro">Der Schatten: Der F\xfcnferfl\xfcgel neigt zum R\xfcckzug, zur \xdcberarbeitung von Gedanken, zum Zur\xfcckhalten, bis alles wirklich durchdacht ist. Die SX4 hingegen drängt nach Verbindung, nach Resonanz, nach dem unmittelbaren Kontakt. Diese innere Spannung &ndash; zwischen Analyse und Ausdruck, zwischen Tiefe und Ber\xfchrung &ndash; ist das Produktivste, was die Kombination SX4w5 erzeugt. Und das Anstrengendste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der anderen den Weg zeigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier f\xfchrt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich bin, ist einmalig &ndash; und es ist meins.</em> F\xfcr die SX4w5 bedeutet das, die eigene Intensit\xe4t nicht zu temperieren, sondern zu richten &ndash; nicht gegen sich selbst, nicht gegen die Welt, sondern auf das, was m\xf6glich ist.</p>
+          <p class="vb-intro">Linda Leinweber hat diesen Weg in ihrer Biografie beschritten. Vom eigenen Erleben der Panikattacken zur fundierten Ausbildung, von der Ausbildung zur Plattform, von der Plattform zur \xf6ffentlichen Stimme f\xfcr mentale Gesundheit. Das ist kein Selbstoptimierungsprojekt. Das ist eine Vier, die gelernt hat, ihr Inneres nicht zu verstecken, sondern zu tragen &ndash; und die dieses Tragen in ein Handwerk verwandelt hat, das anderen n\xfctzt.</p>
+          <p class="vb-intro">Der Chihuahua aus Altm\xfcnster am Traunsee hat keine Angst vor gro\xdfen Gef\xfchlen. Er hat gelernt, sie zu lesen. Das ist die sexuelle Vier mit F\xfcnferfl\xfcgel. Das ist Linda Leinweber.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
       ])}
     </div>
   `);
@@ -39200,6 +39274,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
+      "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
@@ -39665,7 +39740,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v657';
+  const MY_VERSION = 'inhalt-v658';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

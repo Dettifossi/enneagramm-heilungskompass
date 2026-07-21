@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: Linda Leinweber (SX4w5) – Psychologin, Autorin, Gr\xfcnderin von Poise. Der Chihuahua, der den eigenen Schmerz zur Pr\xe4zision gemacht hat.",
+    text_en: "New portrait: Linda Leinweber (SX4w5) – psychologist, author, founder of Poise. The chihuahua who turned her own pain into precision.",
+    route: "beruehmte-linda-leinweber"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Rihanna (SX4w3) – S\xe4ngerin, Unternehmerin. Umbrella, Diamonds, Fenty Beauty. Der Chihuahua aus Barbados, der die Sch\xf6nheitsindustrie auf den Kopf stellte.",
     text_en: "New portrait: Rihanna (SX4w3) – singer, entrepreneur. Umbrella, Diamonds, Fenty Beauty. The chihuahua from Barbados who turned the beauty industry upside down.",
     route: "beruehmte-rihanna"
