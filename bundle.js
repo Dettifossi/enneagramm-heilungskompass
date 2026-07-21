@@ -374,6 +374,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vera Birkenbihl – Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt – und daraus Schule machte.",
     tags:["Bildung","B\xfccher"], gender:"f"},
+  { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
+    heading:"G\xfcnther Jauch – Sozialer Typ 5",
+    teaser:"SO5w6 \xb7 geb. 1956, M\xfcnster. Moderator, Journalist, Produzent. Wer wird Million\xe4r?, stern TV, ARD-Sonntagstalk. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
+    tags:["Medien","Fernsehen"], gender:"m"},
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -11364,6 +11368,75 @@ function warrenBuffettPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function guentherJauchPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-guenther-jauch-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">G\xfcnther Jauch</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Moderator, Journalist, Produzent, geb. 1956 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus aus M\xfcnster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; hochintelligent, mit acht Armen gleichzeitig greifend, dabei kaum zu fassen. Er tarnt sich perfekt. Er lebt in der Tiefe, auch wenn er an der Oberfl\xe4che erscheint. Und er h\xe4lt sein Revier mit einer Pr\xe4zision, die man von au\xdfen nicht erkennt, weil er nie aufgeregt wirkt.</p>
+          <p class="vb-intro">G\xfcnther Jauch ist seit \xfcber dreißig Jahren das bekannteste Gesicht des deutschen Fernsehens &ndash; und vermutlich der meistgesehene Moderator, den die Bundesrepublik je hervorgebracht hat. Wer wird Million\xe4r? l\xe4uft seit 1999. <em>stern TV</em> moderierte er von 1990 bis 2011. Den ARD-Sonntagstalk f\xfchrte er von 2011 bis 2015. Und trotzdem wissen die meisten Menschen, die seine Sendungen gesehen haben, kaum etwas \xfcber ihn. Das ist kein Zufall. Das ist System.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen als Schl\xfcssel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\xfcpfung von Wissen mit Zugeh\xf6rigkeit und Ansehen. Die SO5 teilt Wissen mit der Gemeinschaft und wird dadurch zur Instanz. Im Licht ist das Beruf und Berufung. Im Schatten wird das Wissen zum Tor, das nur derjenige \xf6ffnen kann, der es kontrolliert.</p>
+          <p class="vb-intro"><em>Wer wird Million\xe4r?</em> ist das perfekte Format f\xfcr die soziale F\xfcnf: Eine Sendung, in der Wissen buchst\xe4blich Geld wert ist. Jauch sitzt als Totemfigur an der Schaltstelle &ndash; er wei\xdf die Antworten, er liest sie vom Teleprompter ab, er bewertet Kandidaten, er entscheidet das Tempo. Das Publikum im Studio, der Telefonjoker, die Freunde, die gefragt werden d\xfcrfen &ndash; all das ist ein soziales System, das Jauch moderiert. Und im Zentrum dieses Systems sitzt er: ruhig, informiert, unaufgeregt. Der Oktopus in seinem Element.</p>
+          <p class="vb-intro">Jauch studierte Rechtswissenschaften und Politikwissenschaft &ndash; in M\xfcnster und sp\xe4ter an der LMU M\xfcnchen &ndash; und brach das Studium ab, als der Bayerische Rundfunk ihn als Volont\xe4r \xfcbernahm. Er wechselte nicht zum Fernsehen, weil er die Uni abgehakt hatte. Er wechselte, weil er einen direkteren Weg ins Wissens-\xd6kosystem gefunden hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Das Format als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der sozialen F\xfcnf ein tiefes Bed\xfcrfnis nach Stabilit\xe4t und Verl\xe4sslichkeit. Nicht Abenteuer, sondern Kontinuit\xe4t. Nicht Disruption, sondern das bew\xe4hrte System. Im Licht ist das Treue und Qualit\xe4t. Im Schatten ist es die Weigerung, sich zu erneuern &ndash; das Festhalten an Strukturen, weil man sich darin sicher f\xfchlt.</p>
+          <p class="vb-intro">Jauch ist das Bild dieser Kontinuit\xe4t. <em>Wer wird Million\xe4r?</em> l\xe4uft seit 1999 &ndash; mit demselben Moderator, demselben Stuhl, derselben Musik, denselben Regeln. In einer Fernsehlandschaft, die sich alle f\xfcnf Jahre neu erfindet, ist das ein Statement. Er selbst sagte einmal sinngem\xe4\xdf, er m\xf6ge Formate, die er versteht und in denen er sich auskennt. Das klingt schlicht. Es ist es nicht. Es ist die SO5w6: Sicherheit durch Wiederholung, Verl\xe4sslichkeit als Professionalit\xe4t.</p>
+          <p class="vb-intro">Auch seine Ehe belegt das Muster: Verheiratet mit Thea Jauch, geborene D\xf6rholt, seit 1990 &ndash; vier T\xf6chter, dasselbe Haus in Potsdam. Der Sechserfl\xfcgel schafft Strukturen, in denen das Private sicher bleibt, weil es unsichtbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwischen Million\xe4rsfrage und Montag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>stern TV</em>, das er 1990 \xfcbernahm und zwei Jahrzehnte lang moderierte, war anderes Terrain: Reportagen, Enth\xfcllungen, gesellschaftskritische Beitr\xe4ge. Jauch f\xfchrte die Sendung mit derselben K\xfchle, mit der er sp\xe4ter Million\xe4re befragte &ndash; ohne Emotion, mit pr\xe4zisen Fragen, ohne dem Gegen\xfcber zu nahe zu treten. Das ist die SO5: N\xe4he durch Distanz, Verbindung durch Professionalit\xe4t.</p>
+          <p class="vb-intro">Den ARD-Sonntagabendtalk &ndash; <em>G\xfcnther Jauch</em>, 2011 bis 2015 &ndash; gab er nach vier Jahren auf. Er erkl\xe4rte, das Format habe sich er\xf6pft. Viele fragten, ob er sich gemeint hatte. Die soziale F\xfcnf verliert den Sinn f\xfcr ein System, wenn sie sp\xfcrt, dass es nicht mehr tr\xe4gt. Dann l\xe4sst sie los &ndash; ruhig, ohne Drama, ohne \xd6ffentlichkeit.</p>
+          <p class="vb-intro">Daneben f\xfchrte er \xfcber seine Produktionsfirma i&amp;u TV, sp\xe4ter an RTL verkauft, eine Vielzahl von Formaten in die Sendelandschaft ein. Der Oktopus greift mit mehreren Armen zugleich &ndash; und l\xe4sst sich nicht auf einen reduzieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Private bleibt privat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jauch ist nicht auf Social Media. Er gibt selten Interviews \xfcber sich selbst &ndash; nur \xfcber seine Sendungen. Er lebt in einer Villa am Heiligen See in Potsdam, deren Grundst\xfcck hinter Mauern liegt. Er hat vier T\xf6chter, deren Namen er jahrelang nicht in der \xd6ffentlichkeit nannte. Das ist keine Privatheit aus Angst. Das ist die <strong>Burg der SO5</strong> in ihrer sozialen Form: Ich bin unter euch, ich gebe euch Wissen, ich moderiere eure Gesellschaft &ndash; aber mich selbst gebe ich nicht.</p>
+          <p class="vb-intro">Der Schatten der F\xfcnf ist der <strong>Geiz</strong> &ndash; nicht nur mit Geld, sondern mit sich selbst. Mit dem, was man \xfcber sich preisgeben w\xfcrde. Jauch ist ein Mann, der Jahrzehnte lang Kandidaten in existenzielle Druck-Situationen gebracht hat, ihre Reaktionen studiert, ihre Schweißausbrüche kommentiert &ndash; und dabei selbst vollkommen undurchdringlich blieb. Der Oktopus, der beobachtet und ver\xe4ndert, w\xe4hrend er selbst unsichtbar bleibt.</p>
+          <p class="vb-intro">Im Licht hingegen: Ein Moderator, der nie einen Kandidaten vorgeführt hat. Der nie \xfcber jemanden gelacht hat. Der mit einer Freundlichkeit moderiert, die nicht gespielt wirkt. Das ist die SO5 im besten Sinne: Wissen teilen, ohne zu dominieren. Begleiten, ohne zu \xfcberwältigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, der nicht kleiner wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">G\xfcnther Jauch ist 2024 achtundsechzig Jahre alt &ndash; und moderiert noch immer <em>Wer wird Million\xe4r?</em>. Das Fernsehen hat sich um ihn herum mehrfach neu erfunden. Formate kamen und gingen. Moderatoren wurden entdeckt, verheizt und ersetzt. Jauch blieb.</p>
+          <p class="vb-intro">Das ist das Bild, das bleibt: Ein Mann, der nicht laut ist, der nicht treibt, der nicht dr\xe4ngt. Der einfach da ist. Der seinen Platz h\xe4lt, sein Wissen gibt, seine Fragen stellt &ndash; und nach der Sendung nach Potsdam f\xe4hrt. Hinter die Mauern. In die Stille. Zum Oktopus in seiner Tiefe.</p>
+          <p class="vb-intro">Das ist die soziale F\xfcnf: Pr\xe4senz ohne \xdcbergabe. Sichtbarkeit ohne Offenbarung. Und die stille Gewissheit, dass man mehr weiß, als man zeigt &ndash; und dass das vollkommen ausreicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-bill-gates", label:"Portr\xe4t: Bill Gates (SO5w6)"},
       ])}
     </div>
   `);
@@ -39457,6 +39530,7 @@ function render() {
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
+      "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
@@ -39888,7 +39962,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v665';
+  const MY_VERSION = 'inhalt-v666';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

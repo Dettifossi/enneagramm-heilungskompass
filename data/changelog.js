@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-21",
+    text: "Neues Portr\xe4t: G\xfcnther Jauch (SO5w6) – Moderator, Journalist, Wer wird Million\xe4r?. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat – und dabei selbst nie wirklich sichtbar wurde.",
+    text_en: "New portrait: G\xfcnther Jauch (SO5w6) – TV presenter, journalist, Who Wants to Be a Millionaire?. The octopus that moderated the nation’s knowledge for decades – while never truly becoming visible himself.",
+    route: "beruehmte-guenther-jauch"
+  },
+  {
+    date: "2026-07-21",
     text: "Neues Portr\xe4t: Warren Buffett (SE5w6) – Investor, Orakel von Omaha. F\xfcnfhundert Seiten am Tag, dasselbe Haus seit 1958. Die Eule, die wartet, bis sie wirklich verstanden hat.",
     text_en: "New portrait: Warren Buffett (SE5w6) – investor, Oracle of Omaha. Five hundred pages a day, the same house since 1958. The owl that waits until it truly understands.",
     route: "beruehmte-warren-buffett"
