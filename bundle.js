@@ -417,7 +417,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
     heading:"Neil Armstrong – Selbsterhaltender Typ 6",
     teaser:"SE6w7 \xb7 1930–2012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat – und danach nur noch nach Hause wollte.",
-    tags:["Geschichte","Wissenschaft"], gender:"m"},
+    tags:["Geschichte","Wissenschaft","Astronaut"], gender:"m"},
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
