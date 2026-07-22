@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-22",
+    text: "Neues Portr\xe4t: Dieter Nuhr (SO7w8) – Kabarettist, Comedian, Maler. Nuhr im Ersten (ARD). Der Biber mit Achterfl\xfcgel: Komik als Dienst an der \xd6ffentlichkeit, Haltung als Schutzschild.",
+    text_en: "New portrait: Dieter Nuhr (SO7w8) – cabaret artist, comedian, painter. Nuhr im Ersten (ARD). The beaver with Eight wing: comedy as service to the public, conviction as shield.",
+    route: "beruehmte-dieter-nuhr"
+  },
+  {
+    date: "2026-07-22",
     text: "Neues Portr\xe4t: Rowan Atkinson (SO7w6) – Schauspieler, Komiker. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
     text_en: "New portrait: Rowan Atkinson (SO7w6) – actor, comedian. Mr. Bean, Blackadder, Johnny English. The beaver with Six wing: belonging over escape, perfection as inner insurance.",
     route: "beruehmte-rowan-atkinson"

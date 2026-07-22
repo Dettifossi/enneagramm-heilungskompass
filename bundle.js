@@ -478,6 +478,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
+    heading:"Dieter Nuhr â Sozialer Typ 7",
+    teaser:"SO7w8 Â· geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit AchterflÃ¼gel: Komik als Dienst an der Ãffentlichkeit, Haltung als Schutzschild.",
+    tags:["Medien","Kunst"], gender:"m"},
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
@@ -11814,6 +11818,69 @@ function mariahCareyPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
           {route:"beruehmte-wallace-shawn", label:"Porträt: Wallace Shawn (SE7w6)"},
           {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function dieterNuhrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dieter-nuhr-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Nuhr</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Kabarettist, Comedian, Moderator, Maler, geb. 1960 in Wesel am Rhein</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut für die Gemeinschaft. Er ist kein Einzelgänger &ndash; er verändert sein Umfeld planvoll und dauerhaft, im Dienst aller, die danach kommen. Sein Damm ist kein Monument der Selbstdarstellung, sondern ein Werk: zweckgebunden, solide, auf Dauer angelegt. Und der Biber ist kein Tier, das man einschüchtert. Wer seinen Damm bedroht, bekommt das zu spüren.</p>
+          <p class="vb-intro">Dieter Nuhr wurde 1960 in Wesel am Rhein geboren und wuchs im Ruhrgebiet auf. Er studierte Pädagogik, Kunstgeschichte und Geographie an der Universität Duisburg &ndash; ein Studium, das seinen späteren Blick auf Gesellschaft, Bildung und Kultur prägen sollte. Er ist kein Kabarettist aus dem Bauch; er ist ein Kabarettist aus der Beobachtung. Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Gesellschaft: Im Dienst der Öffentlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Märtyrer</strong> &ndash; weil dieser Subtyp seine eigenen Vergnügungen dem Wohl der Gruppe opfert. Der SO7er will nicht für sich glänzen; er will einen Beitrag leisten, Teil von etwas Größerem sein. Sein Hedonismus tritt nach innen &ndash; nach außen ist er der Diener seiner Gemeinschaft.</p>
+          <p class="vb-intro">Nuhr versteht sich als Teil der deutschen Kabarett- und Comedytradition &ndash; einer langen Linie von Gesellschaftskritikern, die im Lachen eine Form der Aufklärung sehen. Er tritt nicht auf, um sich zu feiern, sondern um etwas zu sagen. Seit mehr als dreißig Jahren bespielt er die großen Bühnen Deutschlands und Österreichs; seit 2005 ist <em>Nuhr im Ersten</em> eine feste Institution im deutschen Fernsehen. Der SO7er baut nicht für sich &ndash; er baut für sein Publikum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Biber, der zurückbeißt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt dem sozialen Siebener etwas, das die reine SO7er-Energie nicht immer zeigt: Konfrontationsbereitschaft, Durchsetzungswillen und die Fähigkeit, Grenzen klar zu benennen &ndash; und zu verteidigen. Wo der reine SO7er nachgibt und vermittelt, sagt der Achterflügel: <em>Bis hier und nicht weiter.</em></p>
+          <p class="vb-intro">Nuhr hat sich in den letzten Jahren wiederholt öffentliche Auseinandersetzungen geliefert, die für einen Komiker ungewöhnlich direkt sind: mit Klimaaktivisten, mit Medienkritikern, mit dem Deutschlandfunk, der einen Tweet von ihm nach öffentlichem Druck löschte &ndash; und sich später dafür entschuldigte. Er zieht sich nicht zurück, wenn es unangenehm wird; er hält stand und greift zurück. Das ist der Achterflügel: Stärke nicht als Drohung, sondern als Haltung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Bühnenkabarett zum Ersten Deutschen Fernsehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Nuhr begann seine Karriere in den 1980er Jahren als Bühnenkabarettist und entwickelte sich über die 1990er Jahre zu einem der bekanntesten Comedians Deutschlands. Seit 2005 moderiert er <em>Nuhr im Ersten</em>, eine der meistgesehenen Comedysendungen im deutschen öffentlich-rechtlichen Fernsehen. Die Sendung verbindet politisches Kabarett mit persönlichem Kommentar &ndash; Nuhr schreibt alle Texte selbst.</p>
+          <p class="vb-intro">Parallel zur Bühnenarbeit ist er als bildender Künstler aktiv: Seine Gemälde und Zeichnungen wurden in Galerien ausgestellt, darunter in Berlin und Düsseldorf. Der Biber, der nicht nur einen Damm baut, sondern auch malt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der Witz als Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht des SO7w8 ist seine <strong>gesellschaftliche Verlässlichkeit</strong>. Nuhr ist kein Komiker, der auf Trends surft; er bleibt sich treu, auch wenn das unbequem wird. Sein Humor ist beobachtend, präzise, oft unbequem &ndash; und er vertritt seine Positionen auch dann, wenn der Gegenwind stark ist. Das ist die SO7-Energie in ihrer besten Form: Komik als Dienst an der Öffentlichkeit.</p>
+          <p class="vb-intro">Der Schatten: Der SO7er opfert &ndash; und irgendwann riskiert er, dass sein Opfer zur Sturheit wird. Nuhr ist in den letzten Jahren zunehmend polarisierend geworden: Seine Aussagen über Klimapolitik und über Debatten um freie Meinungsäußerung haben ihn bei einem Teil seines Publikums gestärkt &ndash; und bei einem anderen Teil unwiderruflich beschädigt. Der Achterflügel macht es ihm schwerer, zurückzurudern; die Kraft wird zur Unnachgiebigkeit. Der Biber baut weiter &ndash; auch wenn der Fluss schon abgeleitet wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, der nicht schweigen kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Nuhr ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Neigung, leiser zu werden. Im Gegenteil: Mit dem Alter scheint er kantiger, präziser, weniger auf Konsens bedacht. Das ist der SO7w8: Der Biber, der nicht für sich baut, sondern für das, was er für richtig hält. Ob man ihm zustimmt oder nicht &ndash; er schweigt nicht. Der Damm steht. Und er wird bewacht.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
+          ${bookTip("burnout", "SO7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sozialen Siebentyps.")}
+          ${bookTip("homoeopathie", "Homöopathie für den SO7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sozialen Typ 7.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-hazel-brugger", label:"Porträt: Hazel Brugger (SO7w8)"},
+          {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+          {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
         ])}
       </div>
     </div>
@@ -40195,6 +40262,7 @@ function render() {
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
+      "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
@@ -40620,7 +40688,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v703';
+  const MY_VERSION = 'inhalt-v704';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
