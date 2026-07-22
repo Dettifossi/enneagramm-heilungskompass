@@ -12164,21 +12164,32 @@ function beruehmtePersoenlichkeitenPage() {
   const allKats = ["Music","Schauspiel","Science","Sports","Politics","Art","Literature","Wirtschaft","Astronaut","Medien","Other"];
   const katLabel = {
     "Music":        "Music",
+    "Musik":        "Music",
     "Schauspiel":   "Film/Theater",
-    "Science": "Science",
-    "Sports":        "Sports",
-    "Politics":      "Politics",
-    "Art":        "Art",
-    "Literature":    "Literature",
+    "Science":      "Science",
+    "Sports":       "Sports",
+    "Sport":        "Sports",
+    "Politics":     "Politics",
+    "Politik":      "Politics",
+    "Art":          "Art",
+    "Kunst":        "Art",
+    "Literature":   "Literature",
+    "Literatur":    "Literature",
     "Wirtschaft":   "Business",
     "Astronaut":    "Space/Exploration",
     "Medien":       "Media/TV",
-    "Other":    "Other",
+    "Gesellschaft": "Society",
+    "Geschichte":   "History",
+    "Other":        "Other",
   };
   const katColors = {
-    "Music":"#7c3aed","Schauspiel":"#b45309","Science":"#0369a1",
-    "Sports":"#15803d","Politics":"#c0392b","Art":"#be185d",
-    "Literature":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Medien":"#0f766e","Other":"#6b7280"
+    "Music":"#7c3aed","Musik":"#7c3aed",
+    "Schauspiel":"#b45309","Science":"#0369a1",
+    "Sports":"#15803d","Sport":"#15803d","Politics":"#c0392b","Politik":"#c0392b",
+    "Art":"#be185d","Kunst":"#be185d",
+    "Literature":"#92400e","Literatur":"#92400e",
+    "Wirtschaft":"#2563c7","Astronaut":"#0e7490",
+    "Medien":"#0f766e","Gesellschaft":"#065f46","Geschichte":"#78350f","Other":"#6b7280"
   };
 
   function filterBar() {
@@ -12223,7 +12234,7 @@ function beruehmtePersoenlichkeitenPage() {
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){
         const col = katColors[t]||"var(--copper)";
-        return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+t+'</span>';
+        return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+(katLabel[t]||t)+'</span>';
       }).join("")
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">View Portrait &rarr;</span></div>'
@@ -44754,7 +44765,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v637';
+  const MY_VERSION = 'inhalt-v638';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
