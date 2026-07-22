@@ -506,6 +506,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
     tags:["Literatur","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-jacqueline-mars", name:"Jacqueline Mars", subtyp:"SE8w7",
+    heading:"Jacqueline Mars – Selbsterhaltender Typ 8",
+    teaser:"SE8w7 · geb. 1939 in Newark. Enkelin des Mars-Gründers, Mitinhaberin von Mars, Incorporated (M&M's, Snickers, Pedigree). Über 30 Milliarden Dollar Vermögen, kein einziges Interview. Der Orang-Utan, der nie gesehen werden muss – und genau das seit Jahrzehnten perfektioniert.",
+    tags:["Wirtschaft"], gender:"f"},
   { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
     heading:"Toni Morrison – Selbsterhaltende Typ 8",
     teaser:"SE8w9 · 1931–2019. Schriftstellerin, Literaturnobelpreisträgerin 1993. Beloved, Sula, The Bluest Eye. Die Orang-Utan-Frau, die das Schweigen der Geschichte gebrochen hat – geerdet, unerschütterlich, von bleibender Wucht. Tierentsprechung: Orang-Utan.",
@@ -10032,6 +10036,70 @@ function elonMuskPortraitPage() {
     </div>
   `);
 }
+
+function jacquelineMarsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jacqueline-mars-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jacqueline Mars</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Unternehmerin &amp; Milliard\xe4rin, geb. 1939 in Newark, New Jersey</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild trifft Jacqueline Mars genauer. Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Bühne, keine Bestätigung. Er lebt in seinem eigenen Rhythmus, auf seinem eigenen Territorium, umgeben von dem, was er über Jahrzehnte angesammelt hat. Wer ihn nicht stört, bekommt ihn nie zu Gesicht. Und das ist genau so beabsichtigt.</p>
+          <p class="vb-intro">Jacqueline Mars, 1939 in Newark geboren, ist Enkelin von Frank C. Mars, dem Gründer des gleichnamigen Süßwarenkonzerns, und Tochter von Forrest Mars Sr., der das Unternehmen zur Weltgröße ausbaute. Sie besitzt gemeinsam mit ihren Brüdern John und Forrest jr. zu etwa je einem Drittel Mars, Incorporated &ndash; eines der größten Privatunternehmen der Welt. Ihr Vermögen wird auf über 30 Milliarden Dollar geschätzt. Öffentliche Interviews gibt sie seit Jahrzehnten so gut wie keine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Satisfaktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> dr\xfcckt die Leidenschaft der Acht &ndash; die <em>Wollust</em> &ndash; durch Besitz, Ressourcensicherung und sinnliche Fülle aus. Naranjo nannte diesen Subtyp <em>Satisfacci\xf3n</em>: Befriedigung als Lebensprinzip. Die SE8 will haben, was sie braucht &ndash; und sie baut sich die Strukturen, die daf\xfcr sorgen, dass sie es auch hat. Nicht morgen. Dauerhaft.</p>
+          <p class="vb-intro">Jacqueline Mars lebte dieses Prinzip mit einer Konsequenz, die man von au\xdfen fast nicht wahrnimmt &ndash; weil sie es so erf\xfcllt hat, dass kein Drama mehr n\xf6tig ist. Das Unternehmen l\xe4uft. Das Territorium ist gesichert. Die SE8 braucht keine Kameras, um zu kontrollieren; sie braucht Strukturen, die funktionieren. Mars, Incorporated ist seit Generationen in Familienbesitz und b\xf6rsennotiert war das Unternehmen nie &ndash; das ist keine Laune, das ist eine SE8-Entscheidung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Die Lust am Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong> verleiht der selbsterhaltenden Acht eine Qualit\xe4t, die die reine SE8 nicht immer zeigt: Leichtigkeit, Neugier und die Bereitschaft, das Leben vollständig zu genießen. Die SE8w7 sammelt nicht nur &ndash; sie kostet aus. Reisen, Genuss, Abwechslung, der Appetit auf das Sinnliche in seiner ganzen Breite: Das ist der Siebenerflügel, der das Territorium der Acht mit Farben füllt.</p>
+          <p class="vb-intro">Jacqueline Mars ist passionierte Reiterin und lebt auf einem Anwesen in The Plains, Virginia &ndash; dem Herzstück der amerikanischen Pferdezuchtregion. Die Pferdewelt ist eine Welt für sich: traditionsbewusst, exklusiv, weit ab vom Scheinwerferlicht. Sie engagierte sich jahrelang im Smithsonian Institution Board of Regents &ndash; auch dort: Kennerschaft statt Selbstdarstellung. Der Siebenerflügel sucht nicht die Bühne; er sucht die Qualität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Das Mars-Imperium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mars, Incorporated ist das weltgrößte Süßwarenunternehmen und einer der bedeutendsten Tierfutterproduzenten der Welt: M&amp;M's, Snickers, Twix, Milky Way, Skittles, Pedigree, Whiskas. Umsatz: über 45 Milliarden Dollar j\xe4hrlich. Das Unternehmen blieb seit seiner Gründung 1911 vollständig in Familienbesitz &ndash; keine Aktien, keine Analysten, keine Quartalsberichte f\xfcr die \xd6ffentlichkeit. Privatheit als Gesch\xe4ftsprinzip.</p>
+          <p class="vb-intro">Jacqueline Mars sa\xdf im Aufsichtsrat des Unternehmens und war an zentralen strategischen Entscheidungen beteiligt, auch wenn ihr Bruder Forrest jr. lange die operative F\xfchrung \xfcbernahm. Ihr Einfluss war real &ndash; und diskret. Das ist keine Bescheidenheit; das ist die SE8w7 in ihrer reifen Form: Macht aus\xfcben, ohne sich daf\xfcr legitimieren zu m\xfcssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Macht ohne Gesicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w7 ist ihre <strong>souver\xe4ne Unabh\xe4ngigkeit</strong>. Jacqueline Mars braucht weder Applaus noch Rechtfertigung. Sie besitzt eines der größten Privatvermögen der Welt &ndash; und lebt ein Leben, das sie selbst gestaltet: Pferde, Natur, Kennerschaft, stille Einflussnahme. Die SE8w7 in ihrer besten Form ist nicht laut; sie ist vollständig.</p>
+          <p class="vb-intro">Der Schatten: Die Unsichtbarkeit, die die SE8 schützt, macht sie auch unkontrollierbar &ndash; im Guten wie im Schlechten. Was ein Unternehmen dieser Gr\xf6\xdfe bewegt, bleibt weitgehend im Verborgenen: Lieferketten, Arbeitsbedingungen, politischer Einfluss. Wer nie öffentlich Rechenschaft ablegt, muss das auch nie. Das ist die Kehrseite der SE8-Strategie: Das Territorium ist gesichert &ndash; aber niemand wei\xdf genau, wie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der nie gesehen werden muss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jacqueline Mars ist eine der reichsten Frauen der Welt &ndash; und eine der unbekanntesten. Das ist kein Zufall und keine Schüchternheit. Das ist die SE8w7 in vollendeter Form: das Territorium gesichert, die Ressourcen gesichert, das Leben in vollen Z\xfcgen genossen &ndash; und das alles ohne eine einzige Pressekonferenz. Der Orang-Utan braucht keine Zuschauer. Er thront in seinem Baum, weit über dem L\xe4rm der Welt, und wei\xdf genau, was er hat.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SE8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
+          {route:"beruehmte-golda-meir", label:"Portr\xe4t: Golda Meir (SE8w9)"},
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function umbertEcoPortraitPage() {
   return shell(`
@@ -40362,7 +40430,8 @@ function render() {
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
-      "beruehmte-umberto-eco": umbertEcoPortraitPage,
+          "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
+    "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
@@ -40830,7 +40899,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v710';
+  const MY_VERSION = 'inhalt-v711';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

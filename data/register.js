@@ -463,6 +463,7 @@ export const registerEntries = [
     { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Premierministerin Israels, Staatsfrau, Orang-Utan" },
   { term: "Toni Morrison",                 route: "beruehmte-toni-morrison",               description: "Portrait: SO9w8 · Sozialer Typ 9 · Nobelpreis-Literatur, Gedächtnis & Gemeinschaft" },
   { term: "Uli Hoeneß",                 route: "beruehmte-uli-hoeness",                 description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Bayern-München-Macher" },
+    { term: "Jacqueline Mars", route: "beruehmte-jacqueline-mars", description: "Portrait: SE8w7 · Selbsterhaltender Typ 8 · Milliardärin, Mars Incorporated, M&M’s, Orang-Utan" },
   { term: "Umberto Eco",                   route: "beruehmte-umberto-eco",                 description: "Portrait: SO5w4 · Sozialer Typ 5 · Schriftsteller, Semiotiker, Der Name der Rose" },
   { term: "Vera Birkenbihl",               route: "beruehmte-vera-birkenbihl",             description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Trainerin, Gehirnforscherin" },
   { term: "Warren Buffett",                route: "beruehmte-warren-buffett",              description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Investmentlegende, Geduld & Weitsicht" },

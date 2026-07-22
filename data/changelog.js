@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v711", date: "2026-07-22", text: "Porträt: Jacqueline Mars (SE8w7, Orang-Utan) – Mitinhaberin Mars, Incorporated, Über 30 Mrd. Dollar Vermögen, absolute Privatheit. Der Orang-Utan, der nie gesehen werden muss.", text_en: "New portrait: Jacqueline Mars (SE8w7, Orang-Utan) – co-owner of Mars, Incorporated, $30bn+ fortune, absolute privacy.", route: "beruehmte-jacqueline-mars" },
   {
     date: "2026-07-22",
     text: "Neues Portr\xe4t: Golda Meir (SE8w9) – Premierministerin Israels, Unterzeichnerin der Unabh\xe4ngigkeitserkl\xe4rung, K\xfcchen-Kabinett, Jom-Kippur-Krieg. Der Orang-Utan, der langsam klettert und am Ende h\xf6her sitzt als alle anderen.",
