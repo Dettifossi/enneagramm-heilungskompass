@@ -11868,17 +11868,17 @@ function carolinePetersPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Von Sophie Haas zum Burgtheater</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><em>Mord mit Aussicht</em> (ARD, 2008&ndash;2012, Neuauflage 2021&ndash;2023) machte Caroline Peters bundesweit bekannt: als Sophie Haas, die Kölner Großstadtermittlerin, die in ein verschlafenes Dorf in der Eifel strafversetzt wird und dort auf eine Welt trifft, für die ihr Stadtmensch-Gehirn nicht ausgerüstet ist. Die Figur war eine Meisterleistung physischer Komödie &ndash; Timing, Körpereinsatz, Reaktion &ndash; und zugleich wärmer, als sie sich gab.</p>
+          <p class="vb-intro"><em>Mord mit Aussicht</em> (ARD, 2008&ndash;2012, Neuauflage 2021&ndash;2023) machte Caroline Peters bundesweit bekannt: als Sophie Haas, die Kölner Großstadtermittlerin, die in ein verschlafenes Dorf in der Eifel strafversetzt wird und dort auf eine Welt trifft, für die ihr Stadtmensch-Gehirn nicht ausgerüstet ist. Die Figur war eine Meisterleistung physischer Komödie &ndash; Timing, Körpereinsatz, Reaktion &ndash; und zugleich herzlicher, als die Figur nach außen wirkte.</p>
           <p class="vb-intro">Parallel dazu spielt Peters am Burgtheater Wien klassische und zeitgenössische Rollen &ndash; von Ibsen bis Jelinek, von Shakespeare bis Handke. Für ihre Mitwirkung in dem Film <em>Oh Boy</em> (2012) erhielt sie den Grimme-Preis. Ihre Arbeit zeigt, was die SX7-Energie in ihrer besten Form kann: Die Grenzen zwischen Ernst und Komik, zwischen Hochkultur und Populärformat, sind für sie keine Grenzen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten: Wenn der Witz zu tief geht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX7w6 ist ihre <strong>Unerschöpflichkeit</strong>. Peters wirkt nie abgearbeitet, nie routiniert. Jede Szene scheint so zu entstehen, als würde sie sie zum ersten Mal erleben &ndash; das ist das Geschenk der Faszination. Ihr Humor ist körperlich, präzise und nie zynisch; er entsteht aus dem Inneren der Figur, nicht aus der Distanz zu ihr.</p>
-          <p class="vb-intro">Der Schatten: Der SX7er lebt für den Moment &ndash; und der Moment geht vorbei. Die Gefahr ist nicht das Scheitern, sondern das Verwischen: Wer sich in jede Figur vollständig hineinziehen lässt, fragt sich irgendwann, wo die Figur aufhört und man selbst beginnt. Der Sechserflügel hält dagegen &ndash; mit Loyalität, mit Haus, mit Zugehörigkeit. Aber die Frage bleibt.</p>
+          <p class="vb-intro">Der Schatten: Der SX7er lebt für den Moment &ndash; und der Moment geht vorbei. Die Gefahr ist nicht das Scheitern, sondern das Verwischen: Wer sich in jede Figur vollständig hineinziehen lässt, fragt sich irgendwann, wo die Figur aufhört und man selbst beginnt. Der Sechserflügel hält dagegen &ndash; mit Loyalität, mit Burgtheater, mit Zugehörigkeit. Aber die Frage bleibt.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Schimpanse, der nie dieselbe bleibt</h2>
+        <h2 class="vb-section">6. Der Schimpanse, der nie derselbe bleibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Caroline Peters ist eine der vielseitigsten Schauspielerinnen des deutschsprachigen Theaters und Fernsehens &ndash; und das liegt nicht daran, dass sie besonders viele Rollen gespielt hat. Es liegt daran, dass sie wirklich anders ist in jeder von ihnen. Das ist der Schimpanse: immer in Bewegung, immer neugierig, immer bereit, sich neu zu erfinden. Und doch in jedem Moment vollständig anwesend.</p>
           ${bookTip("enneagramm-typen", "Sexueller Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
@@ -40761,7 +40761,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v708';
+  const MY_VERSION = 'inhalt-v709';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
