@@ -11111,7 +11111,7 @@ function jamesLevinePortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft James Levine genauer. Der Elefant vergisst nicht. Er bewegt sich in seinem eigenen Rhythmus, ruhig, gründend, mit einer Pr\xe4senz, die den Raum ver\xe4ndert, bevor er ein einziges Wort sagt. Er braucht keine Aktion, um zu wirken. Es gen\xfcgt, dass er da ist.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft James Levine genauer. Der Elefant vergisst nicht. Er bewegt sich in seinem eigenen Rhythmus, ruhig, erdend, mit einer Pr\xe4senz, die den Raum ver\xe4ndert, bevor er ein einziges Wort sagt. Er braucht keine Aktion, um zu wirken. Es gen\xfcgt, dass er da ist.</p>
           <p class="vb-intro">James Levine, 1943 in Cincinnati geboren, 2021 verstorben, war einer der bedeutendsten Dirigenten des 20. Jahrhunderts. Vierzig Jahre lang leitete er die Metropolitan Opera in New York &ndash; zuerst als Musikdirektor, sp\xe4ter als Chefdirigent. Er formte ein Orchester, das seinen Klang trug wie ein Instrument, das f\xfcr ihn gebaut worden war. Kein anderer Dirigent der Neuzeit hat ein einzelnes Haus so lange, so pr\xe4gend, so vollst\xe4ndig bewohnt.</p>
         </blockquote>
 
@@ -11129,7 +11129,7 @@ function jamesLevinePortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Vierzig Jahre Met</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Levine \xfcbernahm 1976 die musikalische Leitung der Metropolitan Opera &ndash; mit dreiunddrei\xdfig Jahren. Was folgte, war eine der l\xe4ngsten und pr\xe4gendsten Dirigentschaft in der Geschichte einer gro\xdfen Oper. Er baute das Met-Orchester systematisch aus, f\xfchrte das Haus in neue Repertoire-Bereiche und arbeitete mit den bedeutendsten S\xe4ngern und Regisseuren seiner Zeit. Das Sommerfestival in Salzburg, jahrelange Zusammenarbeit mit den Berliner Philharmonikern, eine kurze Phase als Chefdirigent des Boston Symphony Orchestra (2004&ndash;2011) &ndash; sein Einfluss reichte weit \xfcber New York hinaus.</p>
+          <p class="vb-intro">Levine \xfcbernahm 1976 die musikalische Leitung der Metropolitan Opera &ndash; mit dreiunddrei\xdfig Jahren. Was folgte, war eine der l\xe4ngsten und pr\xe4gendsten Dirigentschaft in der Geschichte einer gro\xdfen Oper. Er baute das Met-Orchester systematisch aus, f\xfchrte das Opernhaus in neue Repertoire-Bereiche und arbeitete mit den bedeutendsten S\xe4ngern und Regisseuren seiner Zeit. Das Sommerfestival in Salzburg, jahrelange Zusammenarbeit mit den Berliner Philharmonikern, eine kurze Phase als Chefdirigent des Boston Symphony Orchestra (2004&ndash;2011) &ndash; sein Einfluss reichte weit \xfcber New York hinaus.</p>
           <p class="vb-intro">Sein Repertoire war au\xdferordentlich breit: Er dirigierte Wagner-Zyklen ebenso wie Mozart-Opern, Brahms-Sinfonien ebenso wie zeitgen\xf6ssische Urauff\xfchrungen. Dabei bewahrte er stets eine Qualit\xe4t, die seine Arbeit erkennbar machte: eine Verbindung von struktureller Klarheit und sinnlicher W\xe4rme, die den Elefanten beschreibt &ndash; gro\xdf, geduldig, von innen heraus leuchtend.</p>
         </blockquote>
 
