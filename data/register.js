@@ -383,6 +383,7 @@ export const registerEntries = [
   { term: "Bill Gates",                    route: "beruehmte-bill-gates",                  description: "Portrait: SO5w6 · Sozialer Typ 5 · Microsoft-Gründer, Philanthrop" },
   { term: "Boris Becker",                  route: "beruehmte-boris-becker",                description: "Portrait: SX7w8 · Sexueller Typ 7 · Tennislegende, 6 Grand-Slam-Titel" },
   { term: "Braco",                         route: "beruehmte-braco",                       description: "Portrait: SO9w8 · Sozialer Typ 9 · stiller Heiler aus Kroatien" },
+    { term: "Jamaica Kincaid", route: "beruehmte-jamaica-kincaid", description: "Portrait: SO8w9 · Sozialer Typ 8 · Schriftstellerin, Annie John, A Small Place, Antigua, Löwe" },
   { term: "Bud Spencer",                   route: "beruehmte-bud-spencer",                 description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Schauspieler, Kult-Duett" },
   { term: "Christian Rätsch",           route: "beruehmte-christian-raetsch",           description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Ethnobotaniker" },
   { term: "Christoph Waltz",               route: "beruehmte-christoph-waltz",             description: "Portrait: SO7w6 · Sozialer Typ 7 · Oscar-Schauspieler" },

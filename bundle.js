@@ -530,6 +530,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
     tags:["Schauspiel"], gender:"m" },
+  { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", subtyp:"SO8w9",
+    heading:"Jamaica Kincaid – Soziale Typ 8",
+    teaser:"SO8w9 · geb. 1949 in Antigua. Schriftstellerin, Essayistin, Harvard-Professorin. Annie John, A Small Place, Lucy. Der Löwe, der schreibt – schärfer als jede Klage, präziser als jede Anklage.",
+    tags:["Literatur"], gender:"f"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
@@ -10408,6 +10412,70 @@ function michelleObamaPortraitPage() {
     </div>
   `);
 }
+
+function jamaicaKincaidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamaica-kincaid-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamaica Kincaid</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schriftstellerin &amp; Essayistin, geb. 1949 in Antigua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der L\xf6we</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier des sozialen Typs 8 &ndash; und kein Bild trifft Jamaica Kincaid genauer. Der L\xf6we k\xe4mpft nicht wahllos. Er wartet, beobachtet, w\xe4hlt den Moment. Und wenn er angreift, dann mit einer Pr\xe4zision, die keine Energie verschwendet. Seine St\xe4rke steht nicht im Dienst der eigenen Gr\xf6\xdfe &ndash; sie steht im Dienst des Rudels, der Gemeinschaft, derer, die er sch\xfctzt.</p>
+          <p class="vb-intro">Jamaica Kincaid, 1949 in St. John's, Antigua geboren, emigrierte mit 17 Jahren als Kinderm\xe4dchen nach New York, wurde Autorin beim <em>New Yorker</em> und schrieb sich in den n\xe4chsten Jahrzehnten in das Ged\xe4chtnis der Weltliteratur. Ihr Instrument ist die Sprache &ndash; sch\xe4rfer als jede Klage, pr\xe4ziser als jede Anklage. Sie schreibt \xfcber Kolonialismus, \xfcber Mutterschaft, \xfcber Herkunft, \xfcber Verlust &ndash; und immer so, dass nach dem Lesen etwas bricht, das vorher heil schien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarit\xe4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst derer, die keine Macht haben. Naranjo nannte diesen Subtyp <em>Solidarit\xe4t</em>: Die SO8 identifiziert sich mit den Unterdr\xfcckten &ndash; nicht aus Mitleid, sondern aus einer tiefen Empörung \xfcber das Unrecht selbst. Sie stellt sich davor. Ohne Umweg, ohne Ausrede.</p>
+          <p class="vb-intro">Kincaids Essay <em>A Small Place</em> (1988) ist das Dokument dieser Energie. Sie wendet sich direkt an den wei\xdfen Touristen, der Antigua besucht, und erkl\xe4rt Satz f\xfcr Satz, was er nicht sieht, nicht sehen will und nicht sehen darf, um seinen Urlaub genie\xdfen zu k\xf6nnen. Es ist kein anklagender Text &ndash; es ist ein entlarvender. Die SO8 f\xfchrt nicht die lauteste Stimme, sie f\xfchrt die klarste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Die Geduld des L\xf6wen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> verleiht der sozialen Acht eine Qualit\xe4t, die ihre Wirkung vertieft: Geduld, Weitr\xe4umigkeit und die F\xe4higkeit, einen Gedanken \xfcber Seiten und Jahrzehnte hinweg zu tragen, ohne ihn zu verlieren. Die SO8w7 greift sofort an. Die <strong>SO8w9</strong> wartet, bis der Moment vollst\xe4ndig ist.</p>
+          <p class="vb-intro">Kincaids Prosa hat diese Qualit\xe4t: Sie kreist. Sie kehrt zur\xfcck. Sie umstellt ihr Thema von allen Seiten, bevor sie zuschl\xe4gt &ndash; und wenn der Schlag kommt, hat die Leserin nicht das Gef\xfchl, \xfcberrumpelt zu werden, sondern erl\xf6st. Der Neunerfl\xfcgel gibt ihr auch die F\xe4higkeit, verschiedene Wahrheiten gleichzeitig zu halten: die Sch\xf6nheit Antiguas und seine Verstümmelung, die Liebe zur Mutter und die Wut auf sie, die Sehnsucht nach Heimat und die Unm\xf6glichkeit der R\xfcckkehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Eine Stimme, die nicht zur\xfcckweicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jamaica Kincaid begann in den 1970er Jahren als Autorin beim <em>New Yorker</em> unter dem Chefredakteur William Shawn. Ihr Roman <em>Annie John</em> (1985) schildert das Aufwachsen auf Antigua &ndash; die enge, intensive Bindung an die Mutter und deren langsames Zerbrechen &ndash; mit einer Pr\xe4zision, die autobiografisch wirkt, weil sie es ist. <em>Lucy</em> (1990) setzt diese Geschichte fort: ein karibisches M\xe4dchen als Kinderm\xe4dchen in New York, das zwischen den Welten steht und keine davon als die ihre akzeptiert.</p>
+          <p class="vb-intro"><em>The Autobiography of My Mother</em> (1996) und <em>My Brother</em> (1997) &ndash; ein Memoir \xfcber ihren Bruder Devon, der an AIDS starb &ndash; vertiefen die Themen: Kolonialisierung des K\xf6rpers, der Sprache, des Gedächtnisses. Kincaid lehrt heute an der Harvard University. Sie hat ihren Namen ge\xe4ndert, ihre Heimat verlassen und ihre Sprache zu einer Waffe gemacht. Das ist die SO8w9: nicht fl\xfcchten, sondern verwandeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Unnachgiebigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w9 ist ihre <strong>moralische Klarheit</strong>. Kincaid wei\xdf genau, wof\xfcr sie steht &ndash; und wogegen. In einer Literaturwelt, die diplomatische Ambiguit\xe4t bevorzugt, ist sie eine Stimme, die nicht verhandelt. Ihre Texte halten aus, was anderen zu viel ist: die Schmerzhaftigkeit der Wahrheit, das Unbequeme der Erinnerung, die Unm\xf6glichkeit des Vergessens.</p>
+          <p class="vb-intro">Der Schatten: Die SO8 kann nicht zur\xfccktreten. Was als Klarheit beginnt, kann zur Kompromisslosigkeit werden &ndash; gegen\xfcber Figuren, gegen\xfcber Lesern, gegen\xfcber der eigenen Geschichte. Kincaids Beziehung zu Antigua ist zerrissen: Sie liebt das Land und verurteilt seine Regierung; sie schreibt auf Englisch, der Sprache der Kolonisatoren, und macht sie zu ihrem. Der Neunerfl\xfcgel h\xe4lt das aus. Aber leicht ist es nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der L\xf6we, der schreibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jamaica Kincaid hat keine Waffe au\xdfer der Sprache &ndash; und diese Sprache ist sch\xe4rfer als alles andere. Sie hat eine der brutalsten Kolonialgeschichten der Karibik in Literatur verwandelt, ohne die Opfer zu romantisieren und ohne die T\xe4ter zu schonen. Das ist die SO8w9: nicht der L\xf6we, der br\xfcllt &ndash; sondern der, der l\xe4ngst zugebissen hat, bevor man es kommen sah. Stärke, die nicht laut ist. Wahrheit, die bleibt.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SO8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+          {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function budSpencerPortraitPage() {
   return shell(`
@@ -40504,7 +40572,8 @@ function render() {
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
-      "beruehmte-bud-spencer": budSpencerPortraitPage,
+          "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
+    "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
@@ -40968,7 +41037,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v712';
+  const MY_VERSION = 'inhalt-v713';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
