@@ -14265,53 +14265,53 @@ function melanieKreisPortraitPage() {
         </div>
         <p class="krim-portrait-name">Melanie Kreis</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Chief Financial Officer (CFO) of the DHL Group, born 1971 in Bonn &mdash; Animal correspondence: Meerkat</p>
+        <p class="krim-portrait-subtitle">Chief Financial Officer (CFO) of DHL Group, b. 1971 in Bonn – Animal equivalent: Meerkat</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The meerkat</h2>
+        <h2 class="vb-section">1. The Meerkat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Meerkat</strong> lives in groups that cannot survive without cohesion. It is alert, cooperative and knows its role in the collective. One person is always on guard while the others eat, dig and play. The meerkat itself doesn't need the spotlight - it takes the group. And the group needs it. This is the Social Six: Security comes from belonging, from reliable service, from knowing that you are fulfilling your place.</p>
-          <p class="vb-intro">Melanie Kreis is CFO of DHL Group &mdash; one of the largest logistics groups in the world. She is responsible for the finances of a DAX company with sales in the billions and employees in over 220 countries. And yet: When journalists describe them, the word ego is rarely mentioned. She is described as reliable, precise, analytical &mdash; and as someone who works for the company, not for his own appearance. This is the meerkat: It is on guard. Not for yourself. For the group.</p>
+          <p class="vb-intro">The meerkat lives in groups that cannot survive without cohesion. It is vigilant, cooperative, and knows its task in the collective. One always keeps watch while the others eat, dig, play. The meerkat itself needs no spotlight—it needs the group. And the group needs it. That is the social Six: security arises through belonging, through reliable service, through the knowledge that one is fulfilling one's place.</p>
+          <p class="vb-intro">Melanie Kreis is CFO of DHL Group—one of the largest logistics corporations in the world. She is responsible for the finances of a DAX company with billions in revenue and employees in over 220 countries. And yet: when journalists describe her, the word ego is rarely dropped. She is described as reliable, precise, analytical, and as someone who works for the corporation, not for her own appearance. That is the meerkat: it keeps watch. Not for itself. For the group.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The duty: safety through responsibility</h2>
+        <h2 class="vb-section">2. Duty: Security Through Responsibility</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the social type 6 the <strong>Mandatory</strong> - because security for this subtype comes from making a contribution, serving the collective, being needed. The <strong>Social Six (SO6)</strong> doesn't follow structures blindly &mdash; she sees it as a framework that creates reliability. Rules, systems, responsibilities: things you can relate to. The SO6 is not looking for the B\xfchne. She is looking for the task.</p>
-          <p class="vb-intro">Kreis didn't plan her career as a leap to the top, but rather as a series of responsibilities that she took on. In 1997 she started at McKinsey &amp; Company &mdash; a place that requires analytical care and structured thinking. In 2004 she moved to Deutsche Post AG, where she worked in corporate development and was significantly involved in the integration of the acquired Exel Group. In 2014 she took on human resources responsibility on the board, and in 2016 she became chief financial officer. None of this was a PR move. Every step was an expansion of responsibility.</p>
-          <p class="vb-intro">She rarely says out loud that she is one of the few women at the top of a DAX 40 company. It's just like that &mdash; a byproduct of work, not its goal. That's the SO6: If you really fill your space, you don't have to talk about it.</p>
+          <p class="vb-intro">Claudio Naranjo called the social Type 6 Duty because security for this subtype arises from making a contribution, serving the collective, being needed. The social Six (SO6) does not follow structures blindly—it understands them as a framework that creates reliability. Rules, systems, responsibilities: things one can refer to. The SO6 does not seek the stage. It seeks the task.</p>
+          <p class="vb-intro">Kreis did not plan her career as a leap to the top, but as a series of responsibilities that she assumed. In 1997, she began at McKinsey & Company—a place that demands analytical thoroughness and structured thinking. In 2004, she moved to Deutsche Post AG, where she worked in corporate development and was significantly involved in the integration of the acquired Exel Group. In 2014, she assumed HR responsibility on the Management Board; in 2016, she became Chief Financial Officer. Not one step of that was a PR move. Every step was an expansion of responsibility.</p>
+          <p class="vb-intro">The fact that she stands at the top of a DAX 40 corporation as one of the few women is something she herself rarely says out loud. It is simply so—a byproduct of the work, not her goal. That is the SO6: those who truly fill their place do not need to talk about it.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: Analysis as a foundation</h2>
+        <h2 class="vb-section">3. The Five Wing: Analysis as a Foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>F\xfcnferfl\xfcgel (w5)</strong> brings something crucial to the Social Six: analytical depth, precision and trust in knowledge as the basis of every decision. Where the pure SO6 seeks security through belonging, the F\xfcnferfl\xfcgel adds another layer - the belief that you can only be reliable for others if you really understand things. The SO6w5 checks before trusting. And she trusts when the analysis is correct.</p>
-          <p class="vb-intro">Kreis studied physics &mdash; first at the Westf\xe4lische Wilhelms-University\xe4t M\xfcnster, then with a Master of Science at the State University of New York at Stony Brook. Physics is the subject of precision: no assumption without proof, no model without verification. She then broadened her horizons with an MBA at INSEAD in France. Two worlds: the exact thinking of the natural sciences and the strategic thinking of the economy. This combination is no coincidence - She is the SO6w5 in training: First understand. Then act. Then be reliable.</p>
-          <p class="vb-intro">In annual reports, analyst conferences and investor discussions, Kreis is known for using language that remains clear and sober. No exaggerations, no empty promises. This is the F\xfcnferfl\xfcgel as a communication principle: Say what you know. And say it precisely.</p>
+          <p class="vb-intro">The Five wing (w5) brings something decisive to the social Six: analytical depth, precision, and trust in knowledge as the foundation of every decision. Where the pure SO6 seeks security through belonging, the Five wing adds another layer—the conviction that one can only be reliable for others if one truly understands things. The SO6w5 checks before trusting. And it trusts when the analysis is right.</p>
+          <p class="vb-intro">Kreis studied physics—first at the Westfälische Wilhelms-Universität Münster, then with a Master of Science at the State University of New York at Stony Brook. Physics is the subject of precision: no assumption without proof, no model without verification. Afterward, she expanded her horizon with an MBA at INSEAD in France. Two worlds: the exact thinking of natural sciences and the strategic thinking of business. This combination is no accident—it is the SO6w5 in training: First understand. Then act. Then be reliable.</p>
+          <p class="vb-intro">In annual reports, analyst conferences, and investor meetings, Kreis is known for a language that remains clear and matter-of-fact. No exaggerations, no empty promises. That is the Five wing as a communication principle: Say what you know. And say it precisely.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From physics to the DAX group</h2>
+        <h2 class="vb-section">4. The Work: From Physics to a DAX Corporation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">As CFO of the DHL Group, Kreis is responsible for the global financial management of a company with over 590,000 employees and sales of around 84 billion euros. She controls controlling, accounting, investor relations and risk management &mdash; Functions that in a global company mean not just numbers, but strategic orientation. She is the person who has to provide the board and investors with a clear analysis at all times: Where are we? How much does it cost? Where are the risks?</p>
-          <p class="vb-intro">It has been referred to several times as <em>CFO of the Year</em> awarded and is regularly one of the most influential managers in Germany &mdash; from business magazines such as <em>Manager Magazin</em> and the <em>Handelsblatt</em> up to international lists. But what stands out in interviews is not the ambition, but the attitude: Kreis talks about the company, about structures, about processes &ndash; and rarely about itself. That's the meerkat: it's always part of the group. Even if it is the face of the group.</p>
+          <p class="vb-intro">As CFO of DHL Group, Kreis is responsible for the global financial management of a company with over 590,000 employees and revenues of around 84 billion euros. She steers controlling, accounting, investor relations, and risk management—functions that in a global corporation mean not only numbers, but strategic direction. She is the person who must supply the board and investors at any time with a clear analysis: Where do we stand? What does it cost? Where lie the risks?</p>
+          <p class="vb-intro">She has been recognized multiple times as CFO of the Year and regularly counts among the most influential female managers in Germany by business magazines from Manager Magazin and Handelsblatt to international lists. But what stands out in interviews is not ambition, but attitude: Kreis talks about the company, about structures, about processes—and rarely about herself. That is the meerkat: it is always part of the group. Even when it currently happens to be the face of the group.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The Guardian on the Board</h2>
+        <h2 class="vb-section">5. Light and Shadow: The Sentinel on the Executive Board</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SO6w5 is their <strong>Integrity\xe4t</strong>. Kreis has responded in an environment that continues to make it structurally difficult for women in management positions - not through loud self-promotion, but through persistent competence. She is a role model without striving to be one. Present without attracting attention. Effective without rumbling. This is the SO6: stability as a message, reliability as a management principle.</p>
-          <p class="vb-intro">The shadow of SO6w5 lies in the danger of becoming too tied to existing structures - and to experience change as a threat instead of as a creative space. A global logistics group is moving in a world of rapid transformation: digitalization, automation, geopolitical uncertainties, the change of entire supply chains. In such moments, SO6 can rely too much on the tried and tested. And the F\xfcnferfl\xfcgel can tend to get lost in analysis instead of deciding. The tension between thoroughness and speed is the inner terrain of the SO6w5 in the leadership role.</p>
-          <p class="vb-intro">Anyone who observes Melanie Kreis in public will not see such moments of hesitation. What you see is a woman who knows what she's doing. And she knows why.</p>
+          <p class="vb-intro">The light of the SO6w5 is its integrity. Kreis has succeeded in an environment that structurally hinders women in leadership positions as much as ever—not through loud self-promotion, but through persistent competence. She is a role model without striving to be one. Present without standing out. Effective without blustering. That is the SO6: stability as a message, reliability as a leadership principle.</p>
+          <p class="vb-intro">The shadow of the SO6w5 lies in the danger of binding oneself too much to existing structures and experiencing change as a threat rather than a design space. A global logistics corporation moves in a world of rapid transformation: digitalization, automation, geopolitical uncertainties, the change of entire supply chains. The SO6 can rely too much on the tried-and-true in such moments. And the Five wing can tend to lose itself in analysis instead of deciding. The tension between thoroughness and speed is the inner terrain of the SO6w5 in a leadership role.</p>
+          <p class="vb-intro">Anyone observing Melanie Kreis publicly sees no such hesitation moments. What one sees is a woman who knows what she is doing. And who knows why.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The meerkat that keeps watch</h2>
+        <h2 class="vb-section">6. The Meerkat That Keeps Watch</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Melanie Kreis is not a name that appears on talk shows. She rarely gives interviews that go beyond the technical. She doesn't write bestsellers about leadership and resilience. She keeps watch - for one of the largest logistics groups in the world, which moves millions of packages and letters every day and relies on precise financial control like it does on air.</p>
-          <p class="vb-intro">This is the SO6w5: not a person of grand gestures, but one of great reliability. One who understands the system &mdash; and therefore can create within it. One that analyzes before making decisions. One who bears responsibility without speaking about it. The meerkat stands guard. Quiet. Precise. Absolutely.</p>
+          <p class="vb-intro">Melanie Kreis is not a name that pops up on talk shows. She rarely gives interviews that go beyond professional topics. She writes no bestsellers on leadership and resilience. She keeps watch for one of the largest logistics corporations in the world, which moves millions of packages and letters daily and in doing so depends on precise financial control like air to breathe.</p>
+          <p class="vb-intro">That is the SO6w5: not a person of grand gestures, but one of great reliability. One who understands the system and therefore can shape within it. One who analyzes before deciding. One who bears responsibility without speaking of it. The meerkat keeps watch. Quietly. Precisely. Absolutely.</p>
         </blockquote>
 
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
@@ -14332,53 +14332,53 @@ function michaelSchumacherPortraitPage() {
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven Wings</p>
-        <p class="krim-portrait-subtitle">Formula 1 racing driver, seven-time world champion, born in H\xfcrth in 1969 &mdash; Animal correspondence: Wolf</p>
+        <p class="krim-portrait-subtitle">Formula 1 racing driver, seven-time world champion, b. 1969 in Hürth – Animal equivalent: Wolf</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wolf</strong> is not a creature of comfort. He is alert, territorial, focused on his group &mdash; and when he hunts, he hunts with everything he has. The wolf does not cower from the threat. He turns around and runs towards her. This is the Sexual Six in its deepest expression: fear not as paralysis, but as fuel.</p>
-          <p class="vb-intro">Michael Schumacher is this wolf. Seven times Formula 1 world champion, 91 victories, five consecutive titles with Ferrari &ndash; Numbers that were unparalleled in the history of motorsport when he first stepped down in 2006. And yet it would be wrong to understand Schumacher through his statistics. What set him apart wasn't his ability to shoot from a distance. It was an intensity that treated every inch of the track as personal territory. The wolf marks his territory. And he defends it.</p>
+          <p class="vb-intro">The wolf is no animal of comfort. It is vigilant, territorial, oriented toward its group—and when it hunts, it hunts with everything it has. The wolf does not duck from threat. It turns around and runs toward it. That is the sexual Six in its deepest expression: fear not as paralysis, but as fuel.</p>
+          <p class="vb-intro">Michael Schumacher is this wolf. Seven-time Formula 1 world champion, 91 victories, five consecutive titles with Ferrari—numbers that were without comparison in the history of motorsport when he retired for the first time in 2006. And yet it would be wrong to understand Schumacher through his statistics. What distinguished him was no expert feeling from a distance. It was an intensity that treated every centimeter of the track as personal territory. The wolf marks its territory. And it defends it.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The strength: fear as a drive</h2>
+        <h2 class="vb-section">2. Strength: Fear as a Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is according to Naranjo the <strong>Contratype</strong> of the six &mdash; the subtype in which the passion of fear is most hidden because it is turned into its opposite. The SX6 meets its fear not by retreating, but by attacking. Naranjo called this subtype <em>St\xe4rke</em>: Security does not come from avoiding the dangerous, but from dominating the dangerous. <em>If I'm faster than the threat, I'm safe.</em> This principle becomes literal in the cockpit of a Formula 1 car.</p>
-          <p class="vb-intro">Schumacher was known for physical and mental preparation that was unparalleled in Formula 1 at the time. He trained like a competitive athlete &mdash; Endurance, reflexes, neck muscles. He knew every corner of every track in a level of detail that amazed his engineers. He questioned, analyzed, refined &mdash; and when he got into the car, the fear of failure had long since turned into preparation. This is the SX6: <em>I'll overtake the threat before it overtakes me.</em></p>
-          <p class="vb-intro">His pack was the Ferrari team. The years 2000 to 2004, in which he won five titles in a row, were not a solo project - they were the result of a collective that had built itself around him: Jean Todt, Ross Brawn, Rory Byrne. Schumacher was loyal to the core, and the team immediately gave him that same loyalty back. The wolf and his pack.</p>
+          <p class="vb-intro">The sexual Six (SX6) is according to Naranjo the countertype of the Six—the subtype in which the passion of fear is most strongly hidden because it is turned into its opposite. The SX6 does not meet its fear with retreat, but with attack. Naranjo called this subtype Strength: security does not arise from avoiding the dangerous, but from dominating the dangerous. If I am faster than the threat, I am safe. In the cockpit of a Formula 1 car, this principle becomes literal.</p>
+          <p class="vb-intro">Schumacher was known for physical and mental preparation that was without equal in Formula 1 at the time. He trained like an elite athlete—endurance, reflexes, neck muscles. He knew every corner of every track to a degree of detail that baffled his engineers. He questioned, analyzed, refined—and when he got into the car, the fear of failure had long since been transformed into preparation. That is the SX6: I overtake the threat before it overtakes me.</p>
+          <p class="vb-intro">His pack was the Ferrari team. The years 2000 to 2004, in which he won five titles in a row, were no solo project—they were the result of a collective that had built up around him: Jean Todt, Ross Brawn, Rory Byrne. Schumacher was loyal to the bone, and the team gave him that same loyalty right back. The wolf and its pack.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wings: The joy of speed</h2>
+        <h2 class="vb-section">3. The Seven Wing: Joy in Speed</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven wing\xfcgel (w7)</strong> brings something to the Sexual Six that the pure SX6 alone would not develop: enthusiasm, playfulness and the ability to turn what others experience as a threat into pleasure. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a person who not only wins <em>will</em>, but to win <em>gef\xe4llt</em>.</p>
-          <p class="vb-intro">Schumacher loved driving. That sounds obvious - but it is not. Many racing drivers love winning. Schumacher loved the curves, the grip, the limits of what was possible. His famous <em>Qualifikationsgef\xfchl</em> - the ability to get the most out of yourself and the car in a single lap attempt - wasn't just technology. It was passion. The seven wing gives the SX6 the joy that fear doesn't give: If I drive so fast that no one can catch up with me, I no longer feel any risk. I feel freedom.</p>
-          <p class="vb-intro">The seven wing also explains its urge to return. In 2010, at the age of forty-one, he got back into a Formula 1 car at Mercedes. Not out of greed, not out of vanity &mdash; but because driving itself called to him. The wing of seven keeps the door open to joy, even if the mind has long since said no.</p>
+          <p class="vb-intro">The Seven wing (w7) brings something to the sexual Six that the pure SX6 alone would not develop: capacity for enthusiasm, joy in play, and the ability to make an enjoyment out of what others experience as a threat. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a human being who not only wants to win, but who enjoys winning.</p>
+          <p class="vb-intro">Schumacher loved driving. That sounds self-evident, but it is not. Many racing drivers love winning. Schumacher loved the corner, the grip, the limit of the doable. His famous qualifying feel—the ability to pull everything out of himself and the car in a single lap attempt—was not just technology. It was passion. The Seven wing gives the SX6 the joy that fear does not give: when I drive so fast that no one can catch me, I feel no risk anymore. I feel freedom.</p>
+          <p class="vb-intro">The Seven wing also explains his urge to return. In 2010, at forty-one years old, he got back into a Formula 1 car at Mercedes. Not out of greed for money, not out of vanity—but because driving itself called him. The Seven wing holds open the door to joy, even when reason has long said no.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: Seven titles, five with Ferrari</h2>
+        <h2 class="vb-section">4. The Work: Seven Titles, Five with Ferrari</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Michael Schumacher made his debut at the 1991 Belgian Grand Prix in Spa for the Jordan team &mdash; and was taken over by Benetton before the next race. He won his first world title in 1994 and his second in 1995. In 1996 he moved to Ferrari &mdash; At that time, a team in crisis that had not won a drivers' title since 1979. He helped build the team and waited four years for the breakthrough - and then won five times in a row: 2000, 2001, 2002, 2003, 2004. Nobody had won five consecutive world titles before.</p>
-          <p class="vb-intro">Ninety-one wins, 155 podiums, 68 pole positions &mdash; Numbers that were only surpassed years later by Lewis Hamilton (SO2w3). During his playing days, Schumacher set the standard by which all others were measured. This is the work of the SX6w7: not the average of comfort, but the absolute of extremes.</p>
+          <p class="vb-intro">Michael Schumacher debuted in 1991 at the Belgian Grand Prix in Spa for the Jordan team and was acquired by Benetton before the very next race. In 1994, he won his first world championship title; in 1995, his second. In 1996, he moved to Ferrari—at that time a team in crisis that had not won a drivers' title since 1979. He helped build the team up, waited four years for the breakthrough, and then won five times in a row: 2000, 2001, 2002, 2003, 2004. No one had ever won five consecutive world championship titles before.</p>
+          <p class="vb-intro">Ninety-one victories, 155 podium finishes, 68 pole positions—numbers that were only surpassed years later by Lewis Hamilton (SO2w3). During his active time, Schumacher set the benchmark by which all others were measured. That is the work of the SX6w7: not the mediocrity of comfort, but the absolute of the extreme.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Limits and Controversies</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w7 is its <strong>Unconditionality</strong>. Schumacher led Ferrari from years of failure into an era of dominance. He has permanently raised the bar for preparation, analysis and team spirit in Formula 1. And he exemplified a passion for motorsport that has shaped generations of fans and drivers.</p>
-          <p class="vb-intro">The shadow of the SX6 is the transgression. In 1994 in Adelaide, Schumacher collided with Damon Hill in a maneuver that is still controversial today: intentional collision or racing accident? In 1997 in Jerez he deliberately drove his car into Jacques Villeneuve &mdash; and was therefore removed from the world championship rankings. This is the wolf when the contrarian type tips over: when winning becomes more important than the playing field that makes winning possible. The SX6 doesn't take half measures. Not even in the shade.</p>
+          <p class="vb-intro">The light of the SX6w7 is its absoluteness. Schumacher led Ferrari out of a long period of failure into an era of dominance. He permanently raised the bar for preparation, analysis, and team spirit in Formula 1. And he exemplified a passion for motorsport that shaped generations of fans and drivers.</p>
+          <p class="vb-intro">The shadow of the SX6 is crossing boundaries. In 1994 in Adelaide, Schumacher collided with Damon Hill in a maneuver that remains controversial to this day: intentional collision or racing accident? In 1997 in Jerez, he deliberately steered his car into Jacques Villeneuve and was disqualified from the world championship standings for it. That is the wolf when the countertype flips: when winning becomes more important than the playing field that makes winning possible in the first place. The SX6 knows no half measures. Not in the shadow either.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The wolf who is silent</h2>
+        <h2 class="vb-section">6. The Wolf That Is Silent</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">On December 29, 2013, Michael Schumacher had an accident while skiing in M\xe9ribel, France. He drove outside the marked trail and fell over rocks. The severe craniocerebral trauma he suffered changed his life irrevocably. He was in an artificial coma for weeks and underwent multiple operations. He was released from the hospital in June 2014 &mdash; into the care of his family and into a privacy that has been hermetically guarded ever since.</p>
-          <p class="vb-intro">His wife Corinna has decided that the world will not know about his condition. Not as a gesture of isolation - but as protection. <em>We will protect Michael</em>, she said. <em>He is here, he is different, but he is there.</em> This sentence is all the \xd6public knows\xdf. The pack sticks together. It shows its teeth at anyone who wants to come closer than is allowed. And the wolf that set the pace for decades is now quiet &mdash; surrounded by those who belong to him.</p>
-          <p class="vb-intro">Michael Schumacher showed the world what a person can achieve when they transform fear into strength and speed into art. He has long since paid what he owes her. The rest is his.</p>
+          <p class="vb-intro">On December 29, 2013, Michael Schumacher had an accident while skiing in Méribel, France. He was skiing off-piste and fell over rocks. The severe traumatic brain injury suffered in the process changed his life irrevocably. For weeks he lay in an induced coma and underwent multiple surgeries. In June 2014, he was discharged from the hospital into the care of his family and into a privacy that has been hermetically guarded ever since.</p>
+          <p class="vb-intro">His wife Corinna decided that the world would learn nothing about his condition. Not as a gesture of isolation, but as protection. "We are protecting Michael," she said. "He is here, he is different, but he is there." This sentence is all the public knows. The pack holds together. It shows its teeth to anyone who wants to come closer than permitted. And the wolf that set the pace for decades is now quiet—surrounded by those who belong to him.</p>
+          <p class="vb-intro">Michael Schumacher showed the world what a human being can accomplish when transforming fear into strength and speed into art. What he owes it, he has long since paid. The rest belongs to him.</p>
         </blockquote>
 
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
@@ -14399,54 +14399,54 @@ function monikaGruberPortraitPage() {
         </div>
         <p class="krim-portrait-name">Monika Gruber</p>
         <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-Wing &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Cabaret artist, actress, born 1970 &mdash; Bavaria's hottest seductress to the truth &mdash; Animal correspondence: Camel</p>
+        <p class="krim-portrait-subtitle">Cabaret artist, actress, b. 1970 – Bavaria's sharpest seductress to truth – Animal equivalent: Camel</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The camel that looks at a thousand people at the same time</h2>
+        <h2 class="vb-section">1. The Camel That Looks at a Thousand People at Once</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the Sexual Two &mdash; and no animal describes Monika Gruber more accurately. The camel is tough, persistent, stubborn. It does not tolerate bad treatment &mdash; but if you treat him with respect, you will find one of the most loyal companions in the animal world. The camel stores: energy, water, patience &mdash; and when it finally drinks, it drinks up to 150 liters at a time. This excess energy is the principle of the Sexual Two: what she feels, she feels completely. What she gives, she gives completely.</p>
-          <p class="vb-intro">Monika Gruber, born in 1970 in Wasserburg am Inn, is Bavaria's best-known cabaret artist &mdash; and one of the most successful stage artists in the German-speaking world. Their programs fill halls with thousands of people. And yet - or exactly because of that &mdash; When you watch, you get the feeling: She's talking to me. Only with me. That is the secret of the Sexual Two on stage: it creates intimacy on a large scale. It turns an audience into a single personal encounter.</p>
+          <p class="vb-intro">The camel is the animal of the sexual Two, and no animal describes Monika Gruber more accurately. The camel is tough, enduring, opinionated. It tolerates no bad treatment—but whoever meets it with respect finds one of the most loyal companions in the animal kingdom. The camel stores: energy, water, patience—and when it finally drinks, it drinks up to 150 liters at once. This overflowing energy is the principle of the sexual Two: what it feels, it feels completely. What it gives, it gives entirely.</p>
+          <p class="vb-intro">Monika Gruber, born in 1970 in Wasserburg am Inn, is Bavaria's most famous cabaret artist and one of the most successful stage performers in the German-speaking area. Her programs fill halls with thousands of people. And yet—or precisely for that reason—watching her gives one the feeling: She is speaking to me. Only to me. That is the secret of the sexual Two on stage: it creates intimacy on a grand scale. It turns an audience into a single personal encounter.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SX2: Seduction as a form of truth</h2>
+        <h2 class="vb-section">2. SX2: Seduction as a Form of Truth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the Sexual Two <strong>Seduction</strong> - and that sounds like manipulation, but it is the opposite: it is the ability to address the other person in such a way that they feel really seen and really meant. The Sexual Two does not seduce in order to take. She seduces to establish connection. The SX2's deepest longing is not power - she is contact. Real, immediate, unfiltered contact.</p>
-          <p class="vb-intro">Monika Gruber's stage language is a master class of exactly this quality. She speaks Bavarian &mdash; not as a folkloristic accessory, but as a language of intimacy, of directness, of belonging. She talks about everyday life, about the family, about the supermarket, about politics &mdash; and the audience recognizes itself. The SX2 knows instinctively: If I make you laugh, you're with me. When you are with me, you can hear what I actually want to say to you.</p>
-          <p class="vb-intro">What she wants to say is often uncomfortable. Monika Gruber is not a harmless entertainer. In recent years she has positioned herself as one of the harshest critics of political correctness, identity politics and the social mainstream. Woke culture, gender language, Corona measures &mdash; she names what she thinks is wrong without hesitation. Seduction is the channel. The truth is the goal.</p>
+          <p class="vb-intro">Claudio Naranjo called the sexual Two Seduction, and that sounds like manipulation, but it is the opposite: it is the ability to address the other person in such a way that they feel truly seen and truly meant. The sexual Two does not seduce to take. It seduces to establish connection. The deepest longing of the SX2 is not power—it is contact. Genuine, immediate, unfiltered contact.</p>
+          <p class="vb-intro">Monika Gruber's stage language is a masterclass in precisely this quality. She speaks Bavarian not as a folkloric accessory, but as the language of intimacy, directness, and belonging. She talks about everyday life, family, the supermarket, politics—and the audience recognizes itself. The SX2 knows instinctively: If I make you laugh, you are with me. If you are with me, you can hear what I actually want to tell you.</p>
+          <p class="vb-intro">What she wants to say is often uncomfortable. Monika Gruber is no harmless entertainer. In recent years, she has positioned herself as one of the sharpest critics of political correctness, identity politics, and the societal mainstream. Woke culture, gender-neutral language, COVID measures—she names what she considers wrong without hesitating. Seduction is the channel. Truth is the goal.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The one wing: posture as second nature</h2>
+        <h2 class="vb-section">3. The One Wing: Stance as Second Nature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the SX2's passionate seductive power a solid moral axis. The One lives by principles that are non-negotiable: honesty, justice, backbone. With Monika Gruber, this is combined with the Bavarian ethos of a woman who knows where she comes from &mdash; and who considers it a duty to say so.</p>
-          <p class="vb-intro">The one wing is the reason why Monika Gruber doesn't just joke. She has an attitude. She has opinions that she represents, even if she faces backlash for them. It's not comfortable. The camel that does not tolerate bad treatment steps back &mdash; and Monika Gruber verbally resigns when she feels that something is going wrong. Laughter is not a softener - it is a door opener. Humor as a Trojan horse of truth.</p>
+          <p class="vb-intro">The One wing (w1) lends the passionate seductiveness of the SX2 a firm moral axis. The One lives according to principles that are non-negotiable: honesty, justice, backbone. In Monika Gruber, this combines with the Bavarian ethos of a woman who knows where she comes from and who considers it a duty to say so.</p>
+          <p class="vb-intro">The One wing is the reason why Monika Gruber does not simply make jokes. She has a stance. She has opinions that she defends even when she gets headwinds for them. She is not convenient. The camel that does not tolerate bad treatment kicks back—and Monika Gruber kicks back verbally when she feels that something is going wrong. Laughter is no fabric softener in this—it is a door opener. Humor as the Trojan horse of truth.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Overall effect: Bavarian warmth with sharp teeth</h2>
+        <h2 class="vb-section">4. Overall Impact: Bavarian Warmth with Sharp Teeth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anyone who sees Monika Gruber live encounters a contradiction that immediately disappears: she is both incredibly warm and incredibly hot at the same time. She has the closeness of the camel &mdash; loyal, reliable, affectionate &mdash; and the teeth of the camel, the stubborn, the willful, the non-subordinate. No contradiction. Both belong to the SX2w1: The warmth is real. The spiciness is real. Both come from the same source: the desire for things to be okay.</p>
-          <p class="vb-intro">Her audience loves her not in spite of her directness, but because of her. People who have the feeling that many things cannot be said in public debate find a voice in Monika Gruber - and the feeling of security that arises when someone says what you are thinking. The SX2 creates this protective space for laughter together. And the one wing ensures that people not only laugh in this room, but also think.</p>
+          <p class="vb-intro">Whoever experiences Monika Gruber live encounters a contradiction that resolves itself immediately: she is immensely warm and immensely sharp at the same time. She has the closeness of the camel—loyal, reliable, attentive—and the teeth of the camel: the stubborn, opinionated quality that does not subordinate itself. No contradiction. Both belong to the SX2w1: The warmth is real. The sharpness is real. Both come from the same source: the desire for things to be right.</p>
+          <p class="vb-intro">Her audience loves her not despite her directness, but because of it. People who feel that much cannot be spoken out loud in public debate find a voice in Monika Gruber—and the feeling of security that arises when someone speaks out what one thinks oneself. The SX2 creates this protective space of shared laughter. And the One wing ensures that in this space, people not only laugh, but also reflect.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetic effect: full presence, no half measures</h2>
+        <h2 class="vb-section">5. Energetic Impact: Full Presence, No Half Measures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The energy of the SX2w1 is not subtle. She's there &mdash; complete, immediate, not to be discussed away. Monika Gruber on stage is a full contact experience: she is completely present, completely committed, completely herself. The camel, when it gives, gives everything &mdash; and Monika Gruber's performances are not calibrated performances, but real, lively encounters with a woman who really wants to be there right now, with this audience.</p>
-          <p class="vb-intro">The one wing brings discipline and preparation: their programs are technically precise, their punch lines are spot on. But the energy underneath is untamed &mdash; the passionate longing for connection between the Sexual Two, which is satisfied anew every evening. The camel saved. Now it can drink.</p>
+          <p class="vb-intro">The energy of the SX2w1 is not subtle. It is there—completely, immediately, indisputably. Monika Gruber on stage is a full-contact experience: she is fully present, fully engaged, fully herself. The camel gives everything when it gives—and Monika Gruber's performances are no calibrated routines, but real, living encounters with a woman who really wants to be there, right now, with this audience.</p>
+          <p class="vb-intro">The One wing brings discipline and preparation to this: her programs are crafted with precision, her punchlines land. But the energy beneath is untamed—the passionate longing for connection of the sexual Two, which is satisfied anew every evening. The camel has stored up. Now it may drink.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The gift: humor as a home</h2>
+        <h2 class="vb-section">6. The Gift: Humor as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Monika Gruber gives her audience is difficult to name, but can be felt immediately: a feeling of home. Not in a sentimental sense &mdash; but in the sense of: I can be myself here. Here I am understood. You can laugh here, even at things you wouldn't normally laugh at. This is the gift of SX2w1 at its highest level: a space where connection and truth are not in conflict, but are the same.</p>
-          <p class="vb-intro">Monika Gruber doesn't joke about life &mdash; it makes life a joke, and therefore bearable, clearer, more honest. The camel that knows a thousand miles of desert knows that endurance is what counts. And the ability to find water when you need it most.</p>
+          <p class="vb-intro">What Monika Gruber gives her audience is hard to name, but immediately palpable: a feeling of home. Not in the sentimental sense—but in the sense of: Here I can be myself. Here I am understood. Here one may laugh, even about things one is otherwise not supposed to laugh about. That is the gift of the SX2w1 at its highest level: a space in which connection and truth are not in contradiction, but are one and the same.</p>
+          <p class="vb-intro">Monika Gruber does not make jokes about life—she makes life into a joke, making it bearable, clearer, more honest. The camel that knows a thousand miles of desert knows: it comes down to endurance. And to the ability to find water when you need it most.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/sx2", label:"SX2 &mdash; The Camel: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
       ])}
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v629';
+  const MY_VERSION = 'inhalt-v630';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
