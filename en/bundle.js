@@ -12165,7 +12165,7 @@ function beruehmtePersoenlichkeitenPage() {
   const katLabel = {
     "Music":        "Music",
     "Musik":        "Music",
-    "Schauspiel":   "Film/Theater",
+    "Schauspiel":   "Film/Theatre",
     "Science":      "Science",
     "Sports":       "Sports",
     "Sport":        "Sports",
@@ -44765,7 +44765,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v638';
+  const MY_VERSION = 'inhalt-v639';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
