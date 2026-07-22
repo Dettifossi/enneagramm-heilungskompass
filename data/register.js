@@ -418,6 +418,7 @@ export const registerEntries = [
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SO2w3 · Sozialer Typ 2 · Außenminister, Wiedervereinigung" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SX5w4 · Sexueller Typ 5 · Filmkomponist, Inception" },
   { term: "Hazel Brugger",                 route: "beruehmte-hazel-brugger",               description: "Portrait: SX3w4 · Sexueller Typ 3 · Kabarettistin, Komikerin" },
+    { term: "Dakota Johnson", route: "beruehmte-dakota-johnson", description: "Portrait: SX9w8 · Sexueller Typ 9 · Schauspielerin, Fifty Shades, Suspiria, Faultier" },
   { term: "Heike Makatsch",                route: "beruehmte-heike-makatsch",              description: "Portrait: SX9w8 · Sexueller Typ 9 · Schauspielerin, stille Intensität" },
   { term: "Herbert Grönemeyer",         route: "beruehmte-herbert-groenemeyer",         description: "Portrait: SX4w5 · Sexueller Typ 4 · Musiker, Dichter, emotionale Tiefe" },
   { term: "Herbert Kickl",                 route: "beruehmte-herbert-kickl",               description: "Portrait: SX6w5 · Sexueller Typ 6 · FPÖ-Vorsitzender, Misstrauen & System" },

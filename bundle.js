@@ -590,6 +590,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexueller Typ 9",
     teaser:"SX9w1 · geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle auflöst – und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
     tags:["Schauspiel"], gender:"m" },
+  { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
+    heading:"Dakota Johnson – Sexueller Typ 9",
+    teaser:"SX9w8 · geb. 1989. Schauspielerin. Fifty Shades, Suspiria, The Lost Daughter. Enkelin von Tippi Hedren, Tochter von Melanie Griffith. Das Faultier, das beißt – wenn man es herausfordert.",
+    tags:["Film","Schauspiel"], gender:"f"},
   { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", added:"2026-07-15", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
@@ -11123,6 +11127,71 @@ function steffiGrafPortraitPage() {
     </div>
   `);
 }
+
+function dakotaJohnsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dakota-johnson-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dakota Johnson</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1989 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Dakota Johnson in einem Interview beobachtet, versteht den Witz sofort. Das Faultier h\xe4ngt. Es blinzelt. Es wirkt, als interessiere es sich f\xfcr nichts und niemanden. Und doch ist es vollkommen pr\xe4sent &ndash; mit Krallen, die man erst sieht, wenn man zu nahe kommt.</p>
+          <p class="vb-intro">Dakota Johnson, 1989 in Austin, Texas geboren, ist Enkelin von Tippi Hedren, Tochter von Melanie Griffith und Don Johnson &ndash; Hollywoodblut in der dritten Generation. Sie h\xe4tte die Dynastie bequem fortschreiben k\xf6nnen. Stattdessen w\xe4hlte sie etwas, das schwerer zu beschreiben ist: eine Art Anwesenheit, die sich nicht aufdringt. Eine Intensit\xe4t, die sich versteckt. Ein L\xe4cheln, das halb Einladung und halb Grenze ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschwinden im Anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die tiefste Sehnsucht nach Verschmelzung mit dem Geliebten, dem Werk, dem Moment. Die SX9 ist nicht auf der Suche nach Zugeh\xf6rigkeit (das w\xe4re die soziale Neun), sondern nach Aufl\xf6sung &ndash; dem Zustand, in dem die Grenze zwischen Ich und dem Anderen verschwindet. Sie findet sich nicht im Kollektiv, sondern im intensiven Eins-zu-Eins.</p>
+          <p class="vb-intro">Es ist kein Zufall, dass Dakota Johnsons bekannteste Rolle &ndash; Anastasia Steele in der <em>Fifty Shades</em>-Trilogie (2015&ndash;2018) &ndash; genau dieses Thema tr\xe4gt: eine junge Frau, die sich in ein intensives Gegen\xfcber vertieft und dabei entdeckt, wer sie wirklich ist. Die Rolle machte Johnson weltber\xfchmt. Sie sprach ungern dar\xfcber. F\xfcr die SX9 ist das, was sich wirklich tief ber\xfchrt, schwer in Worte zu fassen &ndash; und damit f\xfcr die \xd6ffentlichkeit kaum zug\xe4nglich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Die Krallen des Faultiers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sexuellen Neun etwas, das beim reinen SX9-Typ unter der Oberfl\xe4che bleibt: eine Bereitschaft zur Konfrontation, eine Direktheit, die im richtigen Moment unerwartet scharf wird. Die <strong>SX9w8</strong> wirkt weich &ndash; bis sie nicht mehr weich wirkt.</p>
+          <p class="vb-intro">2016 wurde Johnsons Auftritt in der <em>Ellen DeGeneres Show</em> zum viralen Moment. Als Ellen erw\xe4hnte, sie sei nat\xfcrlich bei Dakotas letztem Geburtstag dabei gewesen, antwortete Johnson v\xf6llig unbewegt: &bdquo;Du warst nicht eingeladen.&rdquo; Keine Entschuldigung. Kein Zur\xfcckrudern. Nur die Tatsache. Das Publikum lachte verwirrt, Ellen f\xfclte die Stille, und Dakota saß da, als sei nichts passiert. Das ist der Achterfl\xfcgel: nicht aggressiv, nicht dramatisch &ndash; einfach unerschrocken in dem, was wahr ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Intensit\xe4t ohne Gl\xe4nzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnsons Filmografie zeigt ein Muster: Sie bevorzugt Rollen, die nach innen f\xfchren. In <em>Suspiria</em> (2018) spielt sie eine T\xe4nzerin, die sich vollst\xe4ndig in eine Hexengemeinschaft einl\xe4sst &ndash; Verschmelzung als Thema, als Genre, als Leistung. In <em>The Lost Daughter</em> (2021) verk\xf6rpert sie eine junge Mutter, die leicht und undurchsichtig zugleich ist, mit einer emotionalen Tiefe, die man eher sp\xfcrt als sieht. In <em>Cha Cha Real Smooth</em> (2022) gibt sie einer \xfcberforderten Frau eine Stille, die schwerer wiegt als jeder Monolog.</p>
+          <p class="vb-intro">Als <em>Madame Web</em> (2024) zum kritischen und kommerziellen Misserfolg wurde, blieb Johnsons Haltung bezeichnend: keine Verteidigung, keine \xd6ffentlichkeitskampagne, kein sichtbarer Schmerz. Wer sie in sp\xe4teren Interviews darauf ansprach, erhielt Antworten, die h\xf6flich, pr\xe4zise und vollkommen unaufgeregt waren. Die SX9w8 verschwenkt keine Energie in das, was nicht zu \xe4ndern ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Erbe und die eigene Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\xe4higkeit zur vollst\xe4ndigen Pr\xe4senz</strong>. Johnson bringt in jede Szene eine innere Dichte, die sich dem \xfcblichen Hollywoodgl\xe4nzen verweigert. Sie spielt keine Figuren &ndash; sie wird sie. Der Achterfl\xfcgel verleiht ihr dabei eine Erdung, die die reine Neun manchmal vermisst: eine Weigerung, sich aufzul\xf6sen, eine Grenze, die auch in der tiefsten Verschmelzung sichtbar bleibt.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich im Anderen &ndash; und wenn das Andere das Erbe dreier Schauspieler-Generationen ist, ist die Frage nach der eigenen Stimme besonders komplex. Johnson hat \xf6ffentlich \xfcber den Druck gesprochen, in einer Branche aufzuwachsen, die ihre Familie seit Jahrzehnten kennt. Depression und Angst waren Themen ihrer fr\xfchen Karriere. Die SX9 findet sich im Anderen &ndash; und muss lernen, auch dann bei sich zu bleiben, wenn das Andere sehr laut ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das beißt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnson ist keine Frau, die um Aufmerksamkeit k\xe4mpft. Sie ist auch keine Frau, die Aufmerksamkeit meidet. Sie existiert in einem Mittelzustand, der f\xfcr die SX9w8 charakteristisch ist: vollst\xe4ndig pr\xe4sent, selektiv zug\xe4nglich, mit einem Humor, der trocken genug ist, um Ungebetene fernzuhalten. Wer wirklich mit ihr in Kontakt kommt, sagt, er habe das Gef\xfchl, einer vollst\xe4ndigen Aufmerksamkeit zu begegnen. Wer nur die Oberfl\xe4che streift, sieht das Faultier h\xe4ngen.</p>
+          <p class="vb-intro">Das Faultier besitzt die st\xe4rksten Krallen aller S\xe4ugetiere im Verh\xe4ltnis zur K\xf6rpergr\xf6\xdfe. Es klettern durch Baumkronen, die kein anderes Tier erreicht. Und es f\xe4llt nicht. Nicht weil es sich festh\xe4lt &ndash; sondern weil seine Sehnen so gebaut sind, dass es h\xe4ngt, ohne Kraft aufwenden zu m\xfcssen. Das ist die SX9w8 in ihrer besten Form: m\xfchelos im richtigen Element, mit einer verborgenen St\xe4rke, die man erst bemerkt, wenn man versucht, sie von dort zu entfernen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga Świątek (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function heikeMakatschPortraitPage() {
   return shell(`
@@ -41073,7 +41142,8 @@ function render() {
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
-      "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
+          "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
+    "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
@@ -41531,7 +41601,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v722';
+  const MY_VERSION = 'inhalt-v723';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
