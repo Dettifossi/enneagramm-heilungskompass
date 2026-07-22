@@ -2286,12 +2286,17 @@ function bookTip(buchId, teaser, title) {
 function relatedLinks(links) {
   if (!links || !links.length) return "";
   const ALBUM_KEYS = ["jazz", "musik", "stille", "songs", "lieder", "alben", "homoeopathie-songs"];
-  const isAlbum = r => ALBUM_KEYS.some(k => r.includes(k));
-  const hasAlbum = links.some(l => isAlbum(l.route));
-  const hasOverview = links.some(l => !isAlbum(l.route));
-  const heading = hasAlbum && hasOverview ? "\xc4hnliche \xdcbersichten und Alben"
-                : hasAlbum                ? "\xc4hnliche Alben"
-                :                          "\xc4hnliche \xdcbersichten";
+  const PORTRAIT_PREFIXES = ["beruehmte-", "kriminalpsychologie-", "astrologie-"];
+  const isAlbum    = r => ALBUM_KEYS.some(k => r.includes(k));
+  const isPortrait = r => PORTRAIT_PREFIXES.some(p => r.startsWith(p) && r.length > p.length);
+  const hasAlbum    = links.some(l => isAlbum(l.route));
+  const hasPortrait = links.some(l => isPortrait(l.route));
+  const hasOverview = links.some(l => !isAlbum(l.route) && !isPortrait(l.route));
+  const heading = hasAlbum && hasOverview       ? "\xc4hnliche \xdcbersichten und Alben"
+                : hasAlbum                      ? "\xc4hnliche Alben"
+                : hasPortrait && hasOverview    ? "\xc4hnliche Portr\xe4ts und \xdcbersichten"
+                : hasPortrait                   ? "\xc4hnliche Portr\xe4ts"
+                :                                "\xc4hnliche \xdcbersichten";
   const buttons = links.map(({route, label}) =>
     `<button data-route="${route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${label} &#8594;</button>`
   ).join("");
@@ -40688,7 +40693,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v706';
+  const MY_VERSION = 'inhalt-v707';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
