@@ -11145,7 +11145,7 @@ function dakotaJohnsonPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Dakota Johnson in einem Interview beobachtet, versteht den Witz sofort. Das Faultier h\xe4ngt. Es blinzelt. Es wirkt, als interessiere es sich f\xfcr nichts und niemanden. Und doch ist es vollkommen pr\xe4sent &ndash; mit Krallen, die man erst sieht, wenn man zu nahe kommt.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Dakota Johnson in einem Interview beobachtet, dem erschließt sich das Bild sofort. Das Faultier h\xe4ngt. Es blinzelt. Es wirkt, als interessiere es sich f\xfcr nichts und niemanden. Und doch ist es vollkommen pr\xe4sent &ndash; mit Krallen, die man erst sieht, wenn man zu nahe kommt.</p>
           <p class="vb-intro">Dakota Johnson, 1989 in Austin, Texas geboren, ist Enkelin von Tippi Hedren, Tochter von Melanie Griffith und Don Johnson &ndash; Hollywoodblut in der dritten Generation. Sie h\xe4tte die Dynastie bequem fortschreiben k\xf6nnen. Stattdessen w\xe4hlte sie etwas, das schwerer zu beschreiben ist: eine Art Anwesenheit, die sich nicht aufdringt. Eine Intensit\xe4t, die sich versteckt. Ein L\xe4cheln, das halb Einladung und halb Grenze ist.</p>
         </blockquote>
 
