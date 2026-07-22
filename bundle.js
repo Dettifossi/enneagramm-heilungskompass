@@ -486,6 +486,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hazel Brugger – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, amüsiert und attackiert – mit Tempo, Tiefe und einem Lachen, das nichts auslässt. Tierentsprechung: Biber.",
     tags:["Schauspiel","Musik"] , gender:"f"},
+  { route:"beruehmte-caroline-peters", name:"Caroline Peters", added:"2026-07-22", subtyp:"SX7w6",
+    heading:"Caroline Peters – Sexueller Typ 7",
+    teaser:"SX7w6 · geb. 1971 in Köln. Schauspielerin. Mord mit Aussicht (ARD), Burgtheater Wien, Grimme-Preis. Der Schimpanse mit Sechserflügel: Rausch der Verwandlung, Loyalität als Anker.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexueller Typ 7",
     teaser:"SX7w6 · geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? – 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar – und immer auf der Suche nach dem nächsten Funken. Tierentsprechung: Schimpanse.",
@@ -11823,6 +11827,69 @@ function mariahCareyPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
           {route:"beruehmte-wallace-shawn", label:"Porträt: Wallace Shawn (SE7w6)"},
           {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function carolinePetersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-caroline-peters-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Caroline Peters</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1971 in Köln</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das intelligenteste und ausdrucksstärkste Tier des Waldes &ndash; und das unberechenbarste. Er lernt durch Beobachtung und Nachahmung, wechselt blitzschnell zwischen Verspieltem und Ernstem, zwischen Zärtlichkeit und Intensität. Sein Gesicht ist ein Instrument; sein Körper erzählt, auch wenn er schweigt. Und er braucht die Gemeinschaft &ndash; nicht als Hintergrund, sondern als Bühne.</p>
+          <p class="vb-intro">Caroline Peters wurde 1971 in Köln geboren und studierte Schauspiel an der Hochschule für Musik und Theater Hamburg. Wer sie in einer Szene erlebt &ndash; ob als tapsige Ermittlerin in der Eifel oder in einer Tragödie auf der Burgtheater-Bühne &ndash;, versteht sofort: Diese Frau denkt nicht nach, ob sie eine Figur spielt. Sie ist die Figur. Der Schimpanse, der sich in jeden verwandeln kann &ndash; und dabei nie vergisst, wer er selbst ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Siebener: Rausch der Verwandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 7 die <strong>Suggestibilität</strong> &ndash; die Fähigkeit, sich von einer Idee, einer Person, einer Welt so vollständig faszinieren zu lassen, dass man selbst darin versinkt. Der SX7er sucht nicht Überfluss wie der SE7er und nicht Zugehörigkeit wie der SO7er &ndash; er sucht Intensität: den Moment, in dem alles andere aufhört zu existieren, weil die Begegnung, die Rolle, das Spiel alles in sich saugt.</p>
+          <p class="vb-intro">Peters lebt diesen Impuls auf der Bühne und auf der Leinwand vollständig aus. Sie wechselt mühelos zwischen den Welten: Fernsehkomödie und Burgtheater, Slapstick und Ibsen, Köln und Wien. Die SX7-Energie macht sie zur Meisterin der Verwandlung &ndash; nicht weil sie eine Technik anwendet, sondern weil sie sich wirklich hineinziehen lässt. Das ist der Unterschied zwischen Können und Faszination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Das Gewissen des Abenteuers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt dem sexuellen Siebener eine Qualität, die den reinen SX7er erdet: Loyalität, Wärme und ein leises Sensorium für das, was trägt. Wo der reine SX7er von Faszinosum zu Faszinosum springt, fragt der Sechserflügel: <em>Gehöre ich dazu? Bin ich wirklich gut genug für das, was ich tue?</em></p>
+          <p class="vb-intro">Peters ist seit Jahren festes Ensemblemitglied des Burgtheaters Wien &ndash; eines der angesehensten deutschsprachigen Theater der Welt. Das ist keine reine SX7-Entscheidung; das ist der Sechserflügel, der Wurzeln schlägt. Gleichzeitig kehrte sie mehrfach zu <em>Mord mit Aussicht</em> zurück &ndash; einer Rolle, die sie hätte längst hinter sich lassen können. Loyalität zu Figuren, Häusern und Kollegen: das ist der w6 bei der Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Sophie Haas zum Burgtheater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Mord mit Aussicht</em> (ARD, 2008&ndash;2012, Neuauflage 2021&ndash;2023) machte Caroline Peters bundesweit bekannt: als Sophie Haas, die Kölner Großstadtermittlerin, die in ein verschlafenes Dorf in der Eifel strafversetzt wird und dort auf eine Welt trifft, für die ihr Stadtmensch-Gehirn nicht ausgerüstet ist. Die Figur war eine Meisterleistung physischer Komödie &ndash; Timing, Körpereinsatz, Reaktion &ndash; und zugleich wärmer, als sie sich gab.</p>
+          <p class="vb-intro">Parallel dazu spielt Peters am Burgtheater Wien klassische und zeitgenössische Rollen &ndash; von Ibsen bis Jelinek, von Shakespeare bis Handke. Für ihre Mitwirkung in dem Film <em>Oh Boy</em> (2012) erhielt sie den Grimme-Preis. Ihre Arbeit zeigt, was die SX7-Energie in ihrer besten Form kann: Die Grenzen zwischen Ernst und Komik, zwischen Hochkultur und Populärformat, sind für sie keine Grenzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn der Witz zu tief geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist ihre <strong>Unerschöpflichkeit</strong>. Peters wirkt nie abgearbeitet, nie routiniert. Jede Szene scheint so zu entstehen, als würde sie sie zum ersten Mal erleben &ndash; das ist das Geschenk der Faszination. Ihr Humor ist körperlich, präzise und nie zynisch; er entsteht aus dem Inneren der Figur, nicht aus der Distanz zu ihr.</p>
+          <p class="vb-intro">Der Schatten: Der SX7er lebt für den Moment &ndash; und der Moment geht vorbei. Die Gefahr ist nicht das Scheitern, sondern das Verwischen: Wer sich in jede Figur vollständig hineinziehen lässt, fragt sich irgendwann, wo die Figur aufhört und man selbst beginnt. Der Sechserflügel hält dagegen &ndash; mit Loyalität, mit Haus, mit Zugehörigkeit. Aber die Frage bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Schimpanse, der nie dieselbe bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Caroline Peters ist eine der vielseitigsten Schauspielerinnen des deutschsprachigen Theaters und Fernsehens &ndash; und das liegt nicht daran, dass sie besonders viele Rollen gespielt hat. Es liegt daran, dass sie wirklich anders ist in jeder von ihnen. Das ist der Schimpanse: immer in Bewegung, immer neugierig, immer bereit, sich neu zu erfinden. Und doch in jedem Moment vollständig anwesend.</p>
+          ${bookTip("enneagramm-typen", "Sexueller Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
+          ${bookTip("burnout", "SX7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sexuellen Siebentyps.")}
+          ${bookTip("homoeopathie", "Homöopathie für den SX7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sexuellen Typ 7.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+          {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+          {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
         ])}
       </div>
     </div>
@@ -40267,6 +40334,7 @@ function render() {
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
+      "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
@@ -40693,7 +40761,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v707';
+  const MY_VERSION = 'inhalt-v708';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

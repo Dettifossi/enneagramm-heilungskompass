@@ -394,6 +394,7 @@ export const registerEntries = [
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX3w2 · Sexueller Typ 3 · US-Präsident, Medienprovokateur" },
   { term: "Donata Hopfen",                 route: "beruehmte-donata-hopfen",               description: "Portrait: SO6w7 · Sozialer Typ 6 · Ex-CEO Bild & DFL, geb. 1976 Hamburg" },
   { term: "Edward Snowden",                route: "beruehmte-edward-snowden",              description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · NSA-Whistleblower" },
+  { term: "Caroline Peters",                 route: "beruehmte-caroline-peters",             description: "Portrait: SX7w6 · Sexueller Typ 7 · Schauspielerin, Mord mit Aussicht, Burgtheater Wien, Schimpanse" },
   { term: "Dieter Nuhr",                    route: "beruehmte-dieter-nuhr",                 description: "Portrait: SO7w8 · Sozialer Typ 7 · Kabarettist, Nuhr im Ersten, Comedian, Maler, Biber" },
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 · Sozialer Typ 7 · Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SX5w4 · Sexueller Typ 5 · Tesla, SpaceX, Visionär" },

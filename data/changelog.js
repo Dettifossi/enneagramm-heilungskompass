@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-22",
+    text: "Neues Portr\xe4t: Caroline Peters (SX7w6) – Schauspielerin, Mord mit Aussicht, Burgtheater Wien. Der Schimpanse mit Sechserfl\xfcgel: Rausch der Verwandlung, Loyalit\xe4t als Anker.",
+    text_en: "New portrait: Caroline Peters (SX7w6) – actress, Mord mit Aussicht, Burgtheater Vienna. The chimpanzee with Six wing: intoxication of transformation, loyalty as anchor.",
+    route: "beruehmte-caroline-peters"
+  },
+  {
+    date: "2026-07-22",
     text: "Neues Portr\xe4t: Dieter Nuhr (SO7w8) – Kabarettist, Comedian, Maler. Nuhr im Ersten (ARD). Der Biber mit Achterfl\xfcgel: Komik als Dienst an der \xd6ffentlichkeit, Haltung als Schutzschild.",
     text_en: "New portrait: Dieter Nuhr (SO7w8) – cabaret artist, comedian, painter. Nuhr im Ersten (ARD). The beaver with Eight wing: comedy as service to the public, conviction as shield.",
     route: "beruehmte-dieter-nuhr"
