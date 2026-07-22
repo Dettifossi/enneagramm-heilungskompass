@@ -400,7 +400,203 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch – Sexual Type 9",
     teaser:"SX9w8 · born 1971. Actress, known from 'Aimée & Jaguar', 'Love Actually' and more. The sexual Nine as amplification type: complete devotion to the role, with the strength of the Eight-wing at her back. Animal correspondence: Sloth.",
     tags:["Schauspiel"] },
-];
+
+  { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
+    heading:"Adele Neuhauser – Sexual Type 8",
+    teaser:"SX8w7 · born 1959 in Athens. Austrian actress, Bibi Fellner in Tatort, multiple Austrian Film Award winner. Started out as a dancer. The crocodile that dances – present right down to the bottom.",
+    tags:["Film/Theater"], gender:"f"},
+  { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
+    heading:"Angela Merkel – Self-Preservation Type 9",
+    teaser:"SE9w8 · born 1954. Federal Chancellor 2005–2021. Sixteen years of sitting out, deciding, insisting – and a legacy full of contradictions. The elephant that moves to its own rhythm. Sometimes wisdom. Sometimes standstill.",
+    tags:["Politics"], gender:"f"},
+  { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
+    heading:"Boris Becker – Sexual Type 7",
+    teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
+    tags:["Sports"] , gender:"m"},
+  { route:"beruehmte-caroline-peters", name:"Caroline Peters", added:"2026-07-22", subtyp:"SX7w6",
+    heading:"Caroline Peters – Sexual Type 7",
+    teaser:"SX7w6 · born 1971 in Cologne. Actress. Murder with a View (ARD), Burgtheater Vienna, Grimme Prize. The chimpanzee with six wings: the rush of transformation, loyalty as an anchor.",
+    tags:["Film/Theater"], gender:"f"},
+  { route:"beruehmte-carsten-stahl", name:"Carsten Stahl", added:"2026-07-22", subtyp:"SO8w7",
+    heading:"Carsten Stahl – Social Type 8",
+    teaser:"SO8w7 · born 1974 in Heidelberg. Martial artist, anti-bullying activist, author. Hundreds of school visits, “Shut up!” The lion who goes to schools &mdash; Strength that is given away.",
+    tags:["Aktivismus"], gender:"m"},
+  { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
+    heading:"Dakota Johnson – Sexual Type 9",
+    teaser:"SX9w8 · born 1989. Actress. Fifty Shades, Suspiria, The Prodigal Daughter. Granddaughter of Tippi Hedren, daughter of Melanie Griffith. The sloth that bites – when challenged.",
+    tags:["Film","Film/Theater"], gender:"f"},
+  { route:"beruehmte-david-l-rathmer", name:"David L. Rathmer", added:"2026-07-20", subtyp:"SE3w4",
+    heading:"David L. Rathmer – Self-Preservation Type 3",
+    teaser:"SE3w4 · born 2003 in Münster. Enneagram profiler, founder of the Ennea Scholars Academy, youngest economics senator of the European Economic Senate. Co-developer of the Healing Compass. The raccoon that brings the Enneagram into the digital age. Animal correspondence: Raccoon.",
+    tags:["Enneagramm","Science"] , gender:"m"},
+  { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
+    heading:"Dieter Nuhr – Social Type 7",
+    teaser:"SO7w8 · born 1960 in Wesel am Rhein. Cabaret artist, comedian, presenter, painter. Nuhr on First (ARD since 2005). The beaver with eight wings: comedy as a public service, attitude as a protective shield.",
+    tags:["Medien","Art"], gender:"m"},
+  { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
+    heading:"Donata Hopfen – Social Type 6",
+    teaser:"SO6w7 \xb7 born in Hamburg in 1976. Management consultant, digital strategist, ex-CEO of Bild and the DFL. The meerkat that runs ahead - and clears the way for the group.",
+    tags:["Business","Medien","F\xfchrung"], gender:"f"},
+  { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
+    heading:"Fr\xe9d\xe9ric Chopin – Sexual Type 5",
+    teaser:"SX5w4 \xb7 1810–1849. Composer, pianist. Nocturnes, \xc9tudens, mazurkas, ballads. The hedgehog who almost never performed - and whose music can still be heard in every concert hall two hundred years later.",
+    tags:["Music","Geschichte"], gender:"m"},
+  { route:"beruehmte-gloria-von-thurn-und-taxis", name:"Gloria von Thurn und Taxis", added:"2026-07-20", subtyp:"SE2w1",
+    heading:"Gloria von Thurn und Taxis – Self-Preservation Type 2",
+    teaser:"SE2w1 · born 1960. Princess, entrepreneur, patron. From the punk princess excess of the 1980s to the iron matriarch of one of Europe's largest private fortunes. The hippopotamus knows its territory - and doesn't give it up. Animal correspondence: Hippo.",
+    tags:["Adel","Business"] , gender:"f"},
+  { route:"beruehmte-golda-meir", name:"Golda Meir", added:"2026-07-22", subtyp:"SE8w9",
+    heading:"Golda Meir – Self-Preservation Type 8",
+    teaser:"SE8w9 · 1898–1978. Politician, stateswoman, fourth prime minister of Israel (1969–1974). One of the signatories of Israel's Declaration of Independence. The orangutan that climbs slowly and ends up sitting higher than everyone who was louder.",
+    tags:["Politics"], gender:"f"},
+  { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
+    heading:"G\xfcnther Jauch – Social Type 5",
+    teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
+    tags:["Medien","Fernsehen"], gender:"m"},
+  { route:"beruehmte-iga-swiatek", name:"Iga Świątek", added:"2026-07-22", subtyp:"SX9w1",
+    heading:"Iga Świątek – Sexual Type 9",
+    teaser:"SX9w1 · born 2001. Tennis professional. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. The most dominant player of her era - and the sloth who flies in the flow.",
+    tags:["Sports","Tennis"], gender:"f"},
+  { route:"beruehmte-jacqueline-mars", name:"Jacqueline Mars", added:"2026-07-22", subtyp:"SE8w7",
+    heading:"Jacqueline Mars – Self-Preservation Type 8",
+    teaser:"SE8w7 · born 1939 in Newark. Granddaughter of Mars founder, co-owner of Mars, Incorporated (M&M's, Snickers, Pedigree). Over $30 billion in assets, not a single interview. The orangutan that never needs to be seen - and has been perfecting exactly that for decades.",
+    tags:["Business"], gender:"f"},
+  { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", added:"2026-07-22", subtyp:"SO8w9",
+    heading:"Jamaica Kincaid – Social Type 8",
+    teaser:"SO8w9 · born 1949 in Antigua. Writer, essayist, Harvard professor. Annie John, A Small Place, Lucy. The lion who writes - sharper than any complaint, more precise than any accusation.",
+    tags:["Literature"], gender:"f"},
+  { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
+    heading:"James Levine – Self-Preservation Type 9",
+    teaser:"SE9w1 · 1943–2021. Conductor, music director of the Metropolitan Opera New York for 40 years. The elephant that inhabited the house – complete absorption, long breath, and a shadow that forever divides the image.",
+    tags:["Music"], gender:"m"},
+  { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
+    heading:"Jamie Lee Curtis – Sexual Type 1",
+    teaser:"SX1w2 · born 1958. Actress, Oscar winner 2023, activist. 22 years of addiction, 25 years of sobriety - the Black Mamba who cannot tolerate hypocrisy and burns for others as well as for herself. Animal correspondence: Black Mamba.",
+    tags:["Film/Theater"] , gender:"f"},
+  { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
+    heading:"Jürgen Klopp – Social Type 1",
+    teaser:"SO1w2 · born 1967. Trainer, master, motivator. BVB, Liverpool, Red Bull – and possibly soon national coach. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
+    tags:["Sports"] , gender:"m"},
+  { route:"beruehmte-karl-lagerfeld", name:"Karl Lagerfeld", added:"2026-07-20", subtyp:"SO3w4",
+    heading:"Karl Lagerfeld – Social Type 3",
+    teaser:"SO3w4 · 1933–2019. Fashion icon, creative director of Chanel and Fendi. The cheetah who transformed himself into a symbol - and behind it lived a life of books, aesthetics and hidden depth.",
+    tags:["Mode","Art"] , gender:"m"},
+  { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
+    heading:"Karoline Herfurth – Self-Preservation Type 4",
+    teaser:"SE4w5 \xb7 born 1984, Berlin. Actress, director. The dove that observes before it lands - inner depth, artistic precision, and a humanity behind the camera that looks for the beauty in the vulnerable.",
+    tags:["Film"], gender:"f"},
+  { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
+    heading:"Kevin Costner – Social Type 9",
+    teaser:"SO9w1 · born 1955. Actor and director. Dances with Wolves, Field of Dreams, Yellowstone. The buffalo who doesn't fight for himself - but for something bigger than himself.",
+    tags:["Film","Film/Theater"], gender:"m"},
+  { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
+    heading:"Klaus Kinski – Sexual Type 1",
+    teaser:"SX1w9 · 1926–1991. Actor, counterpart of the one. Aguirre, Nosferatu, Fitzcarraldo. The Black Mamba of German cinema: unpredictable, intense, inevitable. You could love him or hate him - indifference was not an option.",
+    tags:["Film/Theater","Kino"] , gender:"m"},
+  { route:"beruehmte-lena-meyer-landrut", name:"Lena Meyer-Landrut", added:"2026-07-20", subtyp:"SX3w2",
+    heading:"Lena Meyer-Landrut – Sexual Type 3",
+    teaser:"SX3w2 · born 1991. Singer, ESC winner 2010. The peacock who doesn't know how beautiful he is - and that's precisely why he captivates everyone. Animal correspondence: Peacock.",
+    tags:["Music"] , gender:"f"},
+  { route:"beruehmte-linda-leinweber", name:"Linda Leinweber", added:"2026-07-21", subtyp:"SX4w5",
+    heading:"Linda Leinweber – Sexual Type 4",
+    teaser:"SX4w5 \xb7 Psychologist, author, coach, founder of Poise. “Free but still connected”. The Chihuahua who has made his own pain precise - and teaches people to look before it's too late.",
+    tags:["Psychologie","Coaching"], gender:"f"},
+  { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
+    heading:"Mariah Carey – Self-Preservation Type 7",
+    teaser:"SE7w8 · born 1969 in Huntington, New York. Singer, songwriter, producer. 18 number 1 singles, five octaves, a Christmas song for eternity. The gorilla with eight wings: joy as a right, abundance as a home, power as a protective shield.",
+    tags:["Music"], gender:"f"},
+  { route:"beruehmte-marie-agnes-strack-zimmermann", name:"Marie-Agnes Strack-Zimmermann", added:"2026-07-20", subtyp:"SX1w9",
+    heading:"Marie-Agnes Strack-Zimmermann – Sexual Type 1",
+    teaser:"SX1w9 · born 1958. FDP politician, chairwoman of the Defense Committee, EU parliamentarian. The Black Mamba of German politics: sharp, persistent, principled. Fire and endurance in one. Animal correspondence: Black mamba.",
+    tags:["Politics"] , gender:"f"},
+  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
+    heading:"Marie Kondo – Self-Preservation Type 1",
+    teaser:"SE1w2 · born 1984. Organization consultant, author of the KonMari method. \"Löst es Freude aus?\" – ein inneres System, so klar wie ein Adlerblick, und ein Two-wing, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Animal correspondence: Adler.",
+    tags:["Kultur","Gesellschaft"] , gender:"f"},
+  { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
+    heading:"Meg Ryan – Sexual Type 3",
+    teaser:"SX3w4 · born 1961. Actress, director. Hollywood's favorite person of the 1990s - the peacock who wanted more than his role. Animal correspondence: Peacock.",
+    tags:["Film/Theater","Film"] , gender:"f"},
+  { route:"beruehmte-melanie-kreis", name:"Melanie Kreis", added:"2026-07-21", subtyp:"SO6w5",
+    heading:"Melanie Kreis – Social Type 6",
+    teaser:"SO6w5 \xb7 born 1971 in Bonn. Chief Financial Officer (CFO) of the DHL Group. Physicist, McKinsey consultant, DAX manager. The meerkat that keeps watch - for one of the largest logistics companies in the world.",
+    tags:["Business","F\xfchrung"], gender:"f"},
+  { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
+    heading:"Michael Schumacher – Sexual Type 6",
+    teaser:"SX6w7 \xb7 born 1969 in H\xfcrth. Formula 1 racing driver, seven-time world champion, 91 victories. The wolf who turned fear into speed &mdash; and whose silence since 2013 is louder than anything he has ever said.",
+    tags:["Sports","Motorsport"], gender:"m"},
+  { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
+    heading:"Monika Gruber – Sexual Type 2",
+    teaser:"SX2w1 · born 1970. Cabaret artist, actress. Bavaria's sharpest seductress to the truth - humor as home, attitude as second nature. The camel that looks at a thousand people at the same time. Animal correspondence: Camel.",
+    tags:["Kabarett","Film/Theater"] , gender:"f"},
+  { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
+    heading:"Neil Armstrong – Self-Preservation Type 6",
+    teaser:"SE6w7 \xb7 1930-2012. Pilot, astronaut. First man on the moon, July 20, 1969. The rabbit who took the most extraordinary step in human history - and then just wanted to go home.",
+    tags:["Geschichte","Science","Astronaut"], gender:"m"},
+  { route:"beruehmte-pamela-reif", name:"Pamela Reif", added:"2026-07-20", subtyp:"SX2w3",
+    heading:"Pamela Reif – Sexual Type 2",
+    teaser:"SX2w3 · born 1996. Fitness influencer, entrepreneur. Millions of connections through one screen - seduction as the art of connection, perfection as proof of love. Animal correspondence: Camel.",
+    tags:["Sports","Lifestyle"] , gender:"f"},
+  { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SE1w9",
+    heading:"Queen Elizabeth II – Self-Preservation Type 1",
+    teaser:"SE1w9 · 1926–2022. Queen of the United Kingdom, 70 years on the throne. Duty as the meaning of life, silence as strength, never complain, never explain. The eagle that never left its post. Animal correspondence: eagles.",
+    tags:["Politics","Adel"] , gender:"f"},
+  { route:"beruehmte-rihanna", name:"Rihanna", added:"2026-07-21", subtyp:"SX4w3",
+    heading:"Rihanna – Sexual Type 4",
+    teaser:"SX4w3 \xb7 born 1988, Barbados. Singer, entrepreneur, style icon. Umbrella, Diamonds, Fenty Beauty. The Bridgetown Chihuahua that turned the beauty industry on its head - raw, fearless, incomparable.",
+    tags:["Music","Business"], gender:"f"},
+  { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
+    heading:"Ronald Reagan – Social Type 9",
+    teaser:"SO9w8 · 1911–2004. 40th President of the USA 1981–1989. The Great Communicator: Morning in America, Evil Empire, Gorbachev. The buffalo that smiles - and that the herd follows.",
+    tags:["Politics"], gender:"m"},
+  { route:"beruehmte-rowan-atkinson", name:"Rowan Atkinson", added:"2026-07-22", subtyp:"SO7w6",
+    heading:"Rowan Atkinson – Social Type 7",
+    teaser:"SO7w6 \xb7 born 1955 in Consett, County Durham. Actor, comedian, author. Mr Bean, Blackadder, Johnny English. The beaver with six wings: belonging instead of breaking out, perfection as inner insurance.",
+    tags:["Film","Kom\xf6die"], gender:"m"},
+  { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", added:"2026-07-22", subtyp:"SX8w9",
+    heading:"Ruth Bader Ginsburg – Sexual Type 8",
+    teaser:"SX8w9 · 1933–2020. US Federal Judge on the Supreme Court, RBG. Pioneer of gender equality, legendary dissenter. The crocodile that remains - the print remains.",
+    tags:["Politics","Recht"], gender:"f"},
+  { route:"beruehmte-sahra-wagenknecht", name:"Sahra Wagenknecht", added:"2026-07-20", subtyp:"SO3w2",
+    heading:"Sahra Wagenknecht – Social Type 3",
+    teaser:"SO3w2 · born 1969. Politician, author, founder of the BSW. The analyst of the popular – the cheetah who not only sprints, but also knows where to go. Animal correspondence: Cheetah.",
+    tags:["Politics","Medien"] , gender:"f"},
+  { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
+    heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
+    teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
+    tags:["Science","Medizin"] , gender:"m"},
+  { route:"beruehmte-sundar-pichai", name:"Sundar Pichai", added:"2026-07-21", subtyp:"SE6w5",
+    heading:"Sundar Pichai – Self-Preservation Type 6",
+    teaser:"SE6w5 \xb7 born 1972, Madurai. CEO of Google and Alphabet. Chrome, Android, Gemini. The rabbit who won through silence in an industry full of egomaniacs - and survived longer than the lion next to him.",
+    tags:["Business","Technik"], gender:"m"},
+  { route:"beruehmte-tim-bendzko", name:"Tim Bendzko", added:"2026-07-21", subtyp:"SE4w3",
+    heading:"Tim Bendzko – Self-Preservation Type 4",
+    teaser:"SE4w3 · born 1985, Berlin. Singer, songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
+    tags:["Music"], gender:"m"},
+  { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
+    heading:"Uli Hoeneß – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1952. World Cup winner in 1974, manager and president of FC Bayern Munich. Four decades of development work, tax affair and return. The hippo defends its territory - and comes back stronger than before after the fall. Animal correspondence: Hippo.",
+    tags:["Sports","Business"] , gender:"m"},
+  { route:"beruehmte-vera-birkenbihl", name:"Vera Birkenbihl", added:"2026-07-21", subtyp:"SE5w6",
+    heading:"Vera Birkenbihl – Self-Preservation Type 5",
+    teaser:"SE5w6 \xb7 1946–2011. Trainer, author, thought leader. Over fifty books, millions of readers, one system: brain-friendly learning. The owl who knew how thinking thinks - and taught it.",
+    tags:["Bildung","B\xfccher"], gender:"f"},
+  { route:"beruehmte-wallace-shawn", name:"Wallace Shawn", added:"2026-07-21", subtyp:"SE7w6",
+    heading:"Wallace Shawn – Self-Preservation Type 7",
+    teaser:"SE7w6 · born 1943 in New York. Actor, playwright, essayist. Vizzini in “The Princess Bride”, Rex in “Toy Story”, André in “My Dinner with André”. The gorilla who thinks about capitalism and death over lunch - and makes everyone laugh.",
+    tags:["Film/Theater","Literature"], gender:"m"},
+  { route:"beruehmte-warren-buffett", name:"Warren Buffett", added:"2026-07-21", subtyp:"SE5w6",
+    heading:"Warren Buffett – Self-Preservation Type 5",
+    teaser:"SE5w6 \xb7 born 1930, Omaha. Investor, entrepreneur, oracle of Omaha. Five hundred pages a day, the same house since 1958, 99 percent of the fortune given away. The owl that waits until it really understands.",
+    tags:["Business","Finanzen"], gender:"m"},
+  { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
+    heading:"Will Smith – Social Type 2",
+    teaser:"SO2w3 · born 1968. Actor, rapper, Oscar winner. Fresh Prince, Ali, Men in Black. The golden retriever who wants to hug the world - and sometimes bites because he protects. Ambition as a form of love. Animal correspondence: Golden Retriever.",
+    tags:["Film/Theater","Music"] , gender:"m"},
+  { route:"beruehmte-wolodymyr-selenskyj", name:"Wolodymyr Selenskyj", added:"2026-07-20", subtyp:"SE3w2",
+    heading:"Volodymyr Zelenskyj – Self-Preservation Type 3",
+    teaser:"SE3w2 · born 1978. Comedian, actor, state president. Countertype of the three: masterful at concealing his own production. The raccoon who plays the hero - and has forgotten the difference. Animal correspondence: Raccoon.",
+    tags:["Politics"] , gender:"m"}];
 
 // NEU-Markierungen für Charts: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
@@ -11965,24 +12161,24 @@ function kaesesortenPage() {
 }
 
 function beruehmtePersoenlichkeitenPage() {
-  const allKats = ["Musik","Schauspiel","Wissenschaft","Sport","Politik","Kunst","Literatur","Wirtschaft","Astronaut","Medien","Sonstiges"];
+  const allKats = ["Music","Schauspiel","Science","Sports","Politics","Art","Literature","Wirtschaft","Astronaut","Medien","Other"];
   const katLabel = {
-    "Musik":        "Musik",
-    "Schauspiel":   "Schauspiel / Film",
-    "Wissenschaft": "Wissenschaft",
-    "Sport":        "Sport",
-    "Politik":      "Politik",
-    "Kunst":        "Kunst",
-    "Literatur":    "Literatur",
-    "Wirtschaft":   "Wirtschaft / Unternehmertum",
-    "Astronaut":    "Raumfahrt / Exploration",
-    "Medien":       "Medien / TV",
-    "Sonstiges":    "Sonstiges",
+    "Music":        "Music",
+    "Schauspiel":   "Film/Theater",
+    "Science": "Science",
+    "Sports":        "Sports",
+    "Politics":      "Politics",
+    "Art":        "Art",
+    "Literature":    "Literature",
+    "Wirtschaft":   "Business",
+    "Astronaut":    "Space/Exploration",
+    "Medien":       "Media/TV",
+    "Other":    "Other",
   };
   const katColors = {
-    "Musik":"#7c3aed","Schauspiel":"#b45309","Wissenschaft":"#0369a1",
-    "Sport":"#15803d","Politik":"#c0392b","Kunst":"#be185d",
-    "Literatur":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Medien":"#0f766e","Sonstiges":"#6b7280"
+    "Music":"#7c3aed","Schauspiel":"#b45309","Science":"#0369a1",
+    "Sports":"#15803d","Politics":"#c0392b","Art":"#be185d",
+    "Literature":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Medien":"#0f766e","Other":"#6b7280"
   };
 
   function filterBar() {
@@ -12006,7 +12202,7 @@ function beruehmtePersoenlichkeitenPage() {
       +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Bereich</span>'
       +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
-      +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> von '+BERUEHMT_PORTRAITS.length+' Portr\xe4ts</div>'
+      +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> of '+BERUEHMT_PORTRAITS.length+' Portraits</div>'
       +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Portrait</button></div>'
       +'</div>';
   }
@@ -12022,7 +12218,7 @@ function beruehmtePersoenlichkeitenPage() {
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
       +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
       +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
+      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEW</span>':'')+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){
@@ -12049,7 +12245,7 @@ function beruehmtePersoenlichkeitenPage() {
       return '<a href="#" onclick="event.preventDefault();var el=document.getElementById(\'bp-'+code.toLowerCase()+'\');if(el)el.scrollIntoView({behavior:\'smooth\',block:\'start\'});"'
         +' style="display:inline-block;padding:0.25rem 0.6rem;border-radius:6px;border:1.5px solid '+col+';'
         +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
-        +' onmouseover="this.style.opacity=\'1\';this.style.background=\''+col+'20\'"'
+        +' onmouseover="this.style.opacity=\'1\';this.style.backgckground=\''+col+'20\'"'
         +' onmouseout="this.style.opacity=\'0.85\';this.style.background=\'var(--bg)\'">'
         +code+'</a>';
     }).join("")
@@ -44558,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v615';
+  const MY_VERSION = 'inhalt-v619';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
