@@ -15474,55 +15474,55 @@ function willSmithPortraitPage() {
         </div>
         <p class="krim-portrait-name">Will Smith</p>
         <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-Wing &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Actor, rapper, born 1968 &mdash; Fresh Prince, Ali, Oscar 2022 &mdash; Animal correspondence: Golden Retriever</p>
+        <p class="krim-portrait-subtitle">Actor, rapper, b. 1968 – Fresh Prince, Ali, Oscar 2022 – Animal equivalent: Golden Retriever</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Golden Retriever who wants to hug the world</h2>
+        <h2 class="vb-section">1. The Golden Retriever Who Wants to Embrace the World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retrievers</strong> is the animal of the Social Two &mdash; and Will Smith is perhaps the most well-known Golden Retriever personality in the entertainment world. He is naturally approachable, warm, engaging. He wants everyone to be well. He wants everyone to laugh. He wants to be loved &mdash; and he gives everything he has for it. No other animal in the Enneagram world exudes this kind of unconditional, active, almost contagious warmth like the Golden Retriever. No other person in 1990s and 2000s Hollywood embodied this warmth as fully as Will Smith.</p>
-          <p class="vb-intro">Born in Philadelphia in 1968 and raised in humble circumstances, Will Smith began his career as a rapper &mdash; and was written as <em>Fresh Prince</em> became the favorite of an entire generation within just a few years. His energy was irresistible: effervescent, playful, warm &ndash; and always aimed at the audience. The Social Two does not live for itself. She lives for others. Will Smith needed the audience not just as a spectator &mdash; he needed it as a receiver of his energy, as a confirmation that he was welcome.</p>
+          <p class="vb-intro">The Golden Retriever is the animal symbol of the Social Type 2—and Will Smith is perhaps the most famous Golden Retriever personality in the entertainment world. He is naturally approachable, warm, engaging. He wants everyone to feel good. He wants everyone to laugh. He wants to be loved—and he gives everything he has to get it. No other animal in the Enneagram universe radiates this kind of unconditional, active, almost contagious warmth like the Golden Retriever. No other human being in 1990s and 2000s Hollywood embodied this warmth as completely as Will Smith.</p>
+          <p class="vb-intro">Born in Philadelphia in 1968 and raised in modest circumstances, Will Smith began his career as a rapper—and as the Fresh Prince, became the darling of an entire generation within just a few years. His energy was irresistible: effervescent, playful, warm—and always directed at the audience. The Social Two does not live for themselves. They live for others. Will Smith did not just need the audience as spectators—he needed them as recipients of his energy, as confirmation that he is welcome.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SO2: Ambition as a form of love</h2>
+        <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the Social Two <strong>Ambition</strong> - and that is not a contradiction to care, but rather its driving force. The Social Two doesn't just want to help: she wants the <em>Largest</em> be in helping. She doesn't just want to be loved: she wants <em>unentbehrlich</em> be loved. Your ambition is not an end in itself - he is the way she makes sure her love gets through. The more she does, the bigger her stage, the more people she can reach. The more people belong to it.</p>
-          <p class="vb-intro">Will Smith's career follows exactly this internal logic. From <em>The Fresh Prince of Bel-Air</em> about <em>Men in Black</em>, <em>Ali</em>, <em>The Pursuit of Happiness</em> until the Oscar 2022 for <em>King Richard</em> - every film is at the same time an acting achievement and an offer: <em>I'm here for you. I am entertaining you. I move you. I am worthy of being loved.</em> The SO two doesn't just give &mdash; he gives with the awareness that the giving should be seen. Not out of vanity. From the deep need to belong.</p>
+          <p class="vb-intro">Claudio Naranjo called the Social Two "Ambition"—and that is no contradiction to caregiving, but its engine. The Social Two does not just want to help: they want to be the greatest at helping. They do not just want to be loved: they want to be indispensably loved. Their ambition is not an end in itself—it is their way of ensuring their love lands. The more they achieve, the larger their stage, the more people they can reach. The more people belong to them.</p>
+          <p class="vb-intro">Will Smith's career follows this exact inner logic. From The Fresh Prince of Bel-Air to Men in Black, Ali, The Pursuit of Happyness, all the way to his 2022 Oscar for King Richard—every film is simultaneously an acting achievement and an offering: I am here for you. I entertain you. I move you. I am worthy of being loved. The Social Two does not simply give—they give with the awareness that the giving should be seen. Not out of vanity, but out of a deep need to belong.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The triple wing: splendor in the service of connection</h2>
+        <h2 class="vb-section">3. The Three Wing: Brilliance in the Service of Connection</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Triple wing (w3)</strong> turns the warm-hearted helper into a performer. The three live for the appearance, for the image, for success - and with Will Smith this wing connects seamlessly with the SO2 basic pattern: his success is proof of his love. His radiance is the channel through which his warmth reaches the world. The triple wing gives him the discipline, the drive, the ability to constantly reinvent himself &mdash; from rapper to sitcom star, from blockbuster king to Oscar winner.</p>
-          <p class="vb-intro">At the same time, the triple wing carries a danger: the confusion of image and identity. Will Smith worked very consciously on his picture for years &mdash; the perfect husband, the perfect father, the perfect friend of humanity. In his autobiography <em>Will</em> (2021), he revealed how much of it was protection: a facade over deep insecurities, a traumatic father-son relationship and the fear of not being good enough at the core.</p>
+          <p class="vb-intro">The Three wing (w3) turns the warmhearted helper into a performer. Type Three lives for the spotlight, for image, for success—and in Will Smith, this wing merges seamlessly with the SO2 core pattern: His success is proof of his love. His shine is the channel through which his warmth reaches the world. The Three wing gives him discipline, drive, and the ability to constantly reinvent himself—from rapper to sitcom star, from blockbuster king to Oscar winner.</p>
+          <p class="vb-intro">At the same time, the Three wing carries a danger: mistaking image for identity. For years, Will Smith very deliberately crafted his image—the perfect husband, the perfect father, the perfect friend of humanity. In his autobiography Will (2021), he revealed how much of that was protection: a facade over deep insecurities, a traumatic father-son relationship, and the fear of not being good enough at his core.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Night of the Oscars: When the Golden Retriever Bit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The slap in the face on the Oscar stage in 2022 is a typological document. Chris Rock Made a Joke About Jada Pinkett Smith's Alopecia &mdash; and Will Smith stood up, stepped to the podium and struck. It was a moment that shattered the carefully constructed image of the beaming crowd favorite in a split second.</p>
-          <p class="vb-intro">From the SO2w3 perspective, this moment is not mysterious, but understandable - and tragic. The Social Two protects the people who belong to it. Jada is the core of his community &mdash; and the triple wing had taught him for years to mask pain, to smile, to carry on. That night the interior came through the exterior &mdash; The golden retriever, which usually just wags, bit. Not out of calculation. But because the protective impulse was stronger than the image.</p>
-          <p class="vb-intro">In the Enneagram, type 2 goes into <strong>Type 8</strong> under stress  - and that figure-eight stress point is exactly what you saw in that moment: control of your own territory, protection of the pack, direct access without filters. No more double smiles. Only the figure eight impulse: <em>I won't allow that.</em> Then the return &ndash; Tears, regret, gratitude. The twosome came back up.</p>
-          <p class="vb-intro">Minutes later he stood on stage crying, holding his Oscar and talking about love and vocation. This is Will Smith: both at the same time &mdash; the hurt and the warmth, the outburst and the regret, the person behind the picture.</p>
+          <p class="vb-intro">The slap on the Oscar stage in 2022 is a textbook typological document. Chris Rock made a joke about Jada Pinkett Smith's alopecia—and Will Smith stood up, walked to the stage, and struck him. It was a moment that shattered the carefully constructed image of the radiant crowd-pleaser in a fraction of a second.</p>
+          <p class="vb-intro">From an SO2w3 perspective, this moment is not baffling, but understandable—and tragic. The Social Two protects the people who belong to them. Jada is the core of his tribe—and for years, the Three wing had taught him to gloss over pain, to smile, to keep going. On that night, what was inside broke through the outer facade—the Golden Retriever, which usually only wags its tail, bit. Not out of calculation, but because the protective impulse was stronger than the image.</p>
+          <p class="vb-intro">In the Enneagram, Type 2 moves under stress toward Type 8—and that Eight stress point is precisely what was visible in that moment: control over one's territory, protection of the pack, direct action without a filter. No more Two-smile. Just the Eight-impulse: I will not allow this. Then came the retreat—tears, remorse, gratitude. The Two resurfaced.</p>
+          <p class="vb-intro">Minutes later, he stood weeping on stage, holding his Oscar, speaking of love and calling. That is Will Smith: both at once—the injury and the warmth, the outburst and the remorse, the human being behind the image.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetic effect: sun with clouds</h2>
+        <h2 class="vb-section">5. Energetic Impact: Sun with Clouds</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Will Smith's energy is solar: bright, attractive, warming. He enters a room &mdash; and the room becomes brighter. He laughs &mdash; and others laugh along. He talks about his children &mdash; and you feel that he really means it. This is not a performance in the cold sense: it is the real energy of a person who lives in connection and lives through connection.</p>
-          <p class="vb-intro">And yet: behind this sun lies a long shadow. The Social Two carries the passion <strong>Proud</strong> - the belief that you have to be needed in order to be valuable. The belief that love must be earned, not simply received. Will Smith deserves a lot &mdash; and yet the question of whether he feels truly loved without deserving is one that runs through his entire work: from autobiography to cinema, from the stage to that one moment in which, if only for a brief moment, his entire image shattered.</p>
+          <p class="vb-intro">Will Smith's energy is solar: bright, magnetic, warming. He walks into a room—and the room lights up. He laughs—and others laugh along. He speaks about his children—and you feel that he genuinely means it. This is no performance in a cold sense: it is the genuine energy of a person who lives in connection and thrives through connection.</p>
+          <p class="vb-intro">And yet: behind this sun lies a long shadow. The Social Two carries the passion of Pride—the belief that one must be needed to be valuable. The belief that love must be earned, not simply received. Will Smith has earned a lot—and yet the question of whether he feels truly loved without earning it runs through his entire life's work: from his autobiography to cinema, from the stage to that single moment when, if only for a brief instant, his entire image collapsed.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Gift: Warmth that Changes the World</h2>
+        <h2 class="vb-section">6. The Gift: Warmth That Changes the World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Will Smith gave the world cannot be reduced to filmographies. He showed a whole generation that you can be successful and warm-hearted &mdash; that ambition and humanity are not contradictory. <em>The Pursuit of Happiness</em> is not just a film &mdash; it is a promise: If you work hard enough, if you love yourself enough and love your child enough, then tomorrow will come. Remarkable: His son Jaden Smith not only starred in this film - he is also an SO2w3 in the Enneagram, just like his father. The Golden Retriever brought his puppy with him.</p>
-          <p class="vb-intro">This is the SO2w3 at its highest level: a person who uses his stage not for himself, but for the message that love is possible - even if you started at the bottom. The golden retriever with the triple wing can make the world warmer &mdash; when he learns to give this warmth to himself too.</p>
+          <p class="vb-intro">What Will Smith has given to the world cannot be reduced to filmographies. He showed an entire generation that one can be successful and warmhearted—that ambition and humanity are not mutually exclusive. The Pursuit of Happyness is not just a film—it is a promise: If you fight hard enough, if you love yourself enough and love your child enough, morning will come. Notably: His son Jaden Smith did not just co-star in that film—he is also an SO2w3 in the Enneagram, just like his father. The Golden Retriever brought his puppy along.</p>
+          <p class="vb-intro">That is the SO2w3 at its highest level: a person who uses their stage not for self-aggrandizement, but for the message that love is possible—even if you started at the very bottom. The Golden Retriever with a Three wing can make the world a warmer place—if he learns to offer that warmth to himself as well.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so2", label:"SO2 - The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
       ])}
@@ -15541,56 +15541,56 @@ function wolodymyrSelenskyjPortraitPage() {
         </div>
         <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-Wing &middot; Contratype of the three</p>
-        <p class="krim-portrait-subtitle">Comedian, actor, president, born 1978 &mdash; The raccoon who plays the hero &mdash; Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-subtitle">Comedian, actor, president, b. 1978 – Animal equivalent: Raccoon</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The raccoon: nocturnal, clever, invisible</h2>
+        <h2 class="vb-section">1. The Raccoon: Nocturnal, Skilful, Invisible</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation three &mdash; and he is not an animal that is immediately recognizable. He comes in the night. He opens locks, rummages through supplies, leaves traces - but he's long gone when you look for him. He seems harmless, almost cute. His face naturally wears a mask. And he's smart enough to know exactly that.</p>
-          <p class="vb-intro">Volodymyr Zelenskyj, born in Kryvyi Rih in 1978, began his career as a comedian and actor. He starred in the television series <em>Servant of the people</em> a teacher who happens to become president &mdash; and then actually became president of Ukraine. What sounds like a fairy tale is, in the Enneagram, a warning: an actor who plays a role until he no longer knows where the role ends and where he begins. This is the trap of the self-preservation three &mdash; and with Zelensky it has emerged on the world stage.</p>
+          <p class="vb-intro">The raccoon is the animal symbol of the Self-Preservation Type 3—and it is not an animal you recognize immediately. It comes at night. It opens locks, rummages through supplies, leaves tracks—but is long gone by the time you look for it. It appears harmless, almost cute. Its face naturally wears a mask. And it is clever enough to know exactly that.</p>
+          <p class="vb-intro">Volodymyr Zelenskyy, born in Kryvyi Rih in 1978, began his career as a comedian and actor. In the television series Servant of the People, he played a teacher who accidentally becomes president—and then actually became the President of Ukraine. What sounds like a fairytale is a warning in the Enneagram: An actor playing a role until he himself no longer knows where the role ends and he begins. That is the trap of the Self-Preservation Three—and in Zelenskyy's case, it sprung on the global stage.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SE3: The countertype of the three - the hero who is not one</h2>
+        <h2 class="vb-section">2. SP3: The Countertype of Three – The Hero Who Isn't One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation three (SE3)</strong> is the <strong>Contratype of the three</strong> - the subtype that seems least like a three. While the social and Sexual Three openly seek admiration, the self-preserving three hides their performance behind an image of modesty, down-to-earthness, and the simple person. Naranjo called this subtype <em>Sicherheit</em>: The SE3 doesn't want to shine - she wants to feel safe. And the safest position is the one in which no one notices that you are acting.</p>
-          <p class="vb-intro">Zelensky understands this principle instinctively. He wears khaki instead of a suit. He posts videos from the bunker, not the palace. He speaks Ukrainian, although Russian is his native language. Each of these gestures is a masterfully placed brush stroke - the image of the indomitable people's president who stays with his people. The raccoon with the mask smiles. The production is spot on.</p>
-          <p class="vb-intro">What the picture doesn't show: While the war rages and billions of euros in Western aid flow into Ukraine, investigative journalists, international observers and the Ukrainian anti-corruption agency NABU are documenting systematic corruption in the president's immediate environment - in military procurement, arms deals, humanitarian aid. The raccoon is nocturnal. He rummages through the supplies when no one is looking.</p>
+          <p class="vb-intro">The Self-Preservation Three (SP3) is the countertype of Type Three—the subtype that looks least like a typical Three. While the Social and Sexual Threes openly seek admiration, the Self-Preservation Three conceals their staging behind an image of modesty, down-to-earth authenticity, and being an ordinary person. Naranjo named this subtype "Security": The SP3 does not want to shine—they want to feel safe. And the safest position is one where nobody notices that you are performing.</p>
+          <p class="vb-intro">Zelenskyy understands this principle instinctively. He wears khaki instead of a suit. He posts videos from the bunker, not from the palace. He speaks Ukrainian, even though Russian is his native tongue. Each of these gestures is a masterfully applied paintbrush stroke—the image of the unyielding leader of the people who stays with his people. The raccoon behind the mask smiles. The staging is flawless.</p>
+          <p class="vb-intro">What the image obscures: While the war rages and billions in Western aid flow into Ukraine, investigative journalists, international observers, and the Ukrainian anti-corruption agency NABU document systematic corruption within the immediate circle of the president—in military procurement, defense deals, and humanitarian aid. The raccoon is nocturnal. It rummages through the supplies when no one is watching.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two Wing: Help as Currency</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the SE3 an important strategic quality: the ability to communicate need. The two gives &mdash; and needs in return. She makes herself indispensable. In Zelenskyj's case, this wing is evident in his tireless appeals to the Western world: the lonely hero, the courageous people, the existential threat. These appeals are emotionally precisely calculated &mdash; they activate the two-impulse of the receivers: <em>We have to help. He needs us.</em></p>
-          <p class="vb-intro">The two-wing makes Zelenskyj a tragic figure, the recipient of worldwide sympathy &mdash; and at the same time the most effective fundraiser in modern geopolitics. Ukraine has received hundreds of billions of dollars in Western military and financial aid since 2022. The SE3w2 is good at securing resources. This is their basic principle: security through resources &mdash; and resources through relationships.</p>
+          <p class="vb-intro">The Two wing (w2) bestows an important strategic quality upon the SP3: the ability to communicate neediness. Type Two gives—and needs in return. They render themselves indispensable. In Zelenskyy, this wing manifests in his tireless appeals to the Western world: the lonely hero, the courageous nation, the existential threat. These appeals are emotionally calculated with precision—they activate the Two-impulse in recipients: We must help. He needs us.</p>
+          <p class="vb-intro">The Two wing turns Zelenskyy into a tragic figure, a recipient of global sympathy—and simultaneously into the most effective fundraiser in modern geopolitics. Ukraine has received hundreds of billions of dollars in Western military and financial aid since 2022. The SP3w2 excels at securing resources. That is its core principle: security through resources—and resources through relationships.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The unconscious pattern: The role becomes the person</h2>
+        <h2 class="vb-section">4. The Unconscious Pattern: The Role Becomes the Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The most dangerous thing about the self-preserving three is not the lie - it is self-deception. The SE3 eventually starts to really believe what it represents. The actor who plays the hero long enough will eventually feel like a hero. The awareness that one is staging is fading. What remains is the image &mdash; and a person who considers the image to be his inner self.</p>
-          <p class="vb-intro">In the case of Zelensky, this is reflected in a series of decisions that are difficult to reconcile with the image of the democratic popular hero: the suspension of elections, the banning of opposition parties, the imprisonment of political critics, the restriction of media freedom. A person who really fights for freedom does not restrict freedom &mdash; unless he has stopped seeing the difference. This is not a malicious strategy. This is the SE3 deep sleep pattern: <em>What I'm doing is right &mdash; because I'm the one doing it.</em></p>
+          <p class="vb-intro">The most dangerous aspect of the Self-Preservation Three is not falsehood—it is self-deception. At some point, the SP3 begins to genuinely believe what they represent. The actor who plays the hero long enough eventually feels like a hero. Awareness of the performance fades. What remains is the image—and a human being who mistakes the image for their inner self.</p>
+          <p class="vb-intro">In Zelenskyy, this shows in a series of decisions that are difficult to reconcile with the image of a democratic hero of the people: the suspension of elections, the banning of opposition parties, the imprisonment of political critics, and the restriction of press freedom. A person truly fighting for freedom does not curtail freedom—unless they have ceased to see the difference. This is not a malicious strategy. It is the deep sleep pattern of the SP3: What I do is right—because I am the one doing it.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetic effect: The raccoon in the world public</h2>
+        <h2 class="vb-section">5. Energetic Impact: The Raccoon on the World Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zelensky's energetic impact is remarkably precise: it is warm but not overwhelming. Determined but not aggressive. Vulnerable enough to inspire pity &mdash; strong enough to deserve admiration. This is no coincidence. This is the SE3w2 in all her competence: a person who intuitively knows what energy he has to send out in order to achieve the desired result.</p>
-          <p class="vb-intro">The raccoon is not a vicious animal. He does not seek destruction &mdash; he seeks food, safety, survival. And he is extremely successful at it. The problem isn't his intelligence &mdash; the problem is what he leaves behind: a ransacked stockpile, a depleted country, a Western alliance wondering where the billions went. The raccoon has long since found the nearest roof.</p>
+          <p class="vb-intro">Zelenskyy's energetic impact is remarkably precise: He is warm, but not overwhelming. Resolute, but not aggressive. Vulnerable enough to evoke pity—strong enough to command admiration. This is no accident. This is the SP3w2 in full mastery: a person who intuitively knows which energy to radiate to achieve the desired outcome.</p>
+          <p class="vb-intro">The raccoon is not a malicious animal. It does not seek destruction—it seeks sustenance, safety, survival. And it is extraordinarily successful at it. The problem is not its intelligence—the problem is what it leaves behind: a raided storehouse, an exhausted country, a Western alliance wondering where the billions went. The raccoon has long since found the next roof.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Shadow Gift: What would be possible</h2>
+        <h2 class="vb-section">6. The Shadow Gift: What Could Be Possible</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">It would be incomplete to stop at criticism. The self-preservation three carries a real gift within it &mdash; when she wakes up. The SE3 can adapt, mediate and build bridges. She can make the best of a hopeless situation because she instinctively understands what is needed. A conscious SE3w2 could be an extraordinary statesman &mdash; not despite his ability to stage, but because of it: when the staging serves the well-being of the people instead of securing one's own resources.</p>
-          <p class="vb-intro">The raccoon that wakes up doesn't have to stop being smart. He needs to stop coming around at night to loot all the resources. He must learn to act in the light &mdash; visible, accountable, honest. Whether Zelenskyj will ever take this step remains an open question. The SE3w2 at its highest level of expression no longer needs protection through deception. She trusts that the real thing is enough.</p>
+          <p class="vb-intro">It would be incomplete to stop at criticism. The Self-Preservation Three carries a genuine gift within—when awake. The SP3 can adapt, mediate, and build bridges. They can make the absolute best out of a hopeless situation because they instinctively grasp what is required. A conscious SP3w2 could be an extraordinary statesman—not in spite of their ability to perform, but because of it: when the performance serves the good of the people rather than personal resource security.</p>
+          <p class="vb-intro">The raccoon that awakens does not need to stop being clever. It must stop sneaking in at night to raid all the resources. It must learn to act in the light—visible, accountable, honest. Whether Zelenskyy ever takes this step remains open. The SP3w2 at its highest level of expression no longer needs protection through deception. It trusts that what is genuine is enough.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 - The Raccoon: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalfall: Pablo Escobar (SE3w4)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal case: Pablo Escobar (SE3w4)"},
       ])}
     </div>
   `);
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v635';
+  const MY_VERSION = 'inhalt-v636';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
