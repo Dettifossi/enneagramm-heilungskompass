@@ -10574,7 +10574,7 @@ function adeleNeuhauserPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Bühne, Kamera, Bibi Fellner</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Adele Neuhauser hat eine lange Theaterkarriere, bevor das Fernsehen sie einem breiten Publikum zug\xe4nglich macht. Sie arbeitete an bedeutenden \xf6sterreichischen Theatern, spielte klassisches Repertoire und zeitgen\xf6ssische St\xfccke &ndash; und brachte dabei eine Verk\xf6rperkraft mit, die das Theater verlangt und die das Kino sp\xe4ter dankbar annimmt.</p>
+          <p class="vb-intro">Adele Neuhauser hatte eine lange Theaterkarriere, bevor das Fernsehen sie einem breiten Publikum zug\xe4nglich machte. Sie arbeitete an bedeutenden \xf6sterreichischen Theatern, spielte klassisches Repertoire und zeitgen\xf6ssische St\xfccke &ndash; und brachte dabei eine Verk\xf6rperungskraft mit, die das Theater verlangte und die das Kino sp\xe4ter dankbar annahm.</p>
           <p class="vb-intro">2011 tritt sie als Bibi Fellner im \xf6sterreichischen <em>Tatort</em> auf, an der Seite von Harald Krassnitzer als Moritz Eisner. Das Duo entwickelt sich zu einem der popul\xe4rsten im deutschsprachigen <em>Tatort</em>-Universum. Neuhauser erh\xe4lt mehrere \xd6sterreichische Filmpreise, darunter den Darstellerpreis als beste Hauptdarstellerin. Ihre Figur ist nicht der Typ, den man mochte, weil er glatt ist &ndash; man mag sie, weil sie echt ist.</p>
         </blockquote>
 
@@ -10586,7 +10586,7 @@ function adeleNeuhauserPortraitPage() {
 
         <h2 class="vb-section">6. Das Krokodil, das tanzt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Adele Neuhauser begann als T\xe4nzerin &ndash; und das ist kein Nebensatz. Das Krokodil ist k\xf6rperlich, pr\xe4zise und geduldig. Es wartet, bis der Moment vollst\xe4ndig ist, und handelt dann ohne Z\xf6gern. Neuhauser hat diese Pr\xe4zision in eine Schauspielkunst verwandelt, die k\xf6rperlich fundiert und emotional ungeschützt ist. Das ist die SX8w7: nicht die lauteste Figur im Raum &ndash; sondern die, von der man den Blick nicht loswerden kann.</p>
+          <p class="vb-intro">Adele Neuhauser begann als T\xe4nzerin &ndash; und das ist kein Nebensatz. Das Krokodil ist k\xf6rperlich, pr\xe4zise und geduldig. Es wartet, bis der Moment vollst\xe4ndig ist, und handelt dann ohne Z\xf6gern. Neuhauser hat diese Pr\xe4zision in eine Schauspielkunst verwandelt, die k\xf6rperlich fundiert und emotional ungeschützt ist. Das ist die SX8w7: nicht die lauteste Figur im Raum &ndash; sondern die, von der man den Blick nicht abwenden kann.</p>
           ${bookTip("enneagramm-typen", "Sexueller Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
           ${bookTip("burnout", "SX8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sexuellen Achtertyps.")}
           ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SX8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sexuellen Typ 8.")}
