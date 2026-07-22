@@ -13068,46 +13068,46 @@ function goldaMeirPortraitPage() {
         </div>
         <p class="krim-portrait-name">Golda Meir</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with nine-wing piano</p>
-        <p class="krim-portrait-subtitle">Politikerin &amp; Staatsfrau, 1898&ndash;1978 &ndash; Animal correspondence: Orang-Utan</p>
+        <p class="krim-portrait-subtitle">Politician & statesman, 1898–1978 – Animal equivalent: Orangutan</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>orangutan</strong> is the animal of self-preservation type 8 &mdash; and no picture captures Golda Meir more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no approval, no stage. He lives by his own rules, with a quiet power that doesn't have to prove itself. His look is patient and awake at the same time - the gaze of a being that wastes no energy and never forgets what it has seen.</p>
-          <p class="vb-intro">Golda Meir, born in Kiev in 1898, emigrated to the USA with her family as a child, moved to British Palestine as a young woman and four decades later became the fourth Prime Minister of the State of Israel. This is not the story of a career. It's a story of survival &mdash; and a will that could not be broken. The orangutan that slowly walks through the forest and ends up sitting higher than everyone else.</p>
+          <p class="vb-intro">The orangutan is the animal of the self-preservation Type 8, and no image fits Golda Meir more precisely. The orangutan is the most solitary of the great apes: it needs no pack, no approval, no stage. It lives by its own laws, with a quiet power that does not need to prove itself. Its gaze is patient and vigilant at the same time—the gaze of a creature that wastes no energy and never forgets what it has seen.</p>
+          <p class="vb-intro">Golda Meir, born in 1898 in Kyiv, emigrated with her family to the USA as a child, moved to British Palestine as a young woman, and four decades later became the fourth Prime Minister of the State of Israel. This is not the story of a career. It is the story of survival and of a will that could not be broken. The orangutan that slowly walks through the forest and in the end sits higher than all the others.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Sustaining Eight: The Right to Survival</h2>
+        <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Survival</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation eight (SE8)</strong> expresses the passion of the eight - the <em>Wollust</em> - through self-assertion, securing resources and the unconditional right to one's own life. Naranjo called this subtype <em>Satisfacci\xf3n</em>: Satisfaction as a principle of life. The SE8 wants to have what it needs &mdash; Security, space, independence. Not out of greed, but out of the deep knowledge that only those who stand up for themselves can stand up for others.</p>
-          <p class="vb-intro">Meir's childhood was marked by poverty and fear of pogroms in Tsarist Russia. The family fled to America; She grew up in Milwaukee, worked early, secured her existence step by step. Their decision to emigrate to British Palestine in 1921 and live in a kibbutz was not a romantic one: it was the decision of an SE8 who had understood that lasting survival was only possible on their own soil. Not at some point. Now.</p>
+          <p class="vb-intro">The self-preservation Eight (SE8) expresses the passion of the Eight—lust—through self-assertion, securing resources, and the unconditional right to one's own life. Naranjo called this subtype Satisfaction: satisfaction as a life principle. The SE8 wants to have what it needs—security, space, independence. Not out of greed, but out of the deep knowledge that only those who stand firm themselves can stand for others.</p>
+          <p class="vb-intro">Meir's childhood was marked by poverty and fear of pogroms in Tsarist Russia. The family fled to America; she grew up in Milwaukee, worked early, and secured her existence step by step. Her decision to emigrate to British Palestine in 1921 and live on a kibbutz was not a romantic one: it was the decision of an SE8 who had understood that lasting survival is only possible on one's own land. Not eventually. Now.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Wing of Nine: Patience as Statesmanship</h2>
+        <h2 class="vb-section">3. The Nine Wing: Patience as Statesmanship</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine wing\xfcgel</strong> gives the self-preserving Eight something that the pure Eight often finds difficult: patience and the ability to hold many perspectives at the same time. The SE8w7 is impulsive, risk-taking, direct &mdash; she wants it immediately. The SE8w9 can wait. She builds. She sees the big picture, even if the situation is unclear.</p>
-          <p class="vb-intro">Meir was Israel's foreign minister for ten years (1956-1966) - a term of office that speaks for the tenacity of an SE8, but also for the diplomatic patience of the nine-wing wing. She built relationships with African states as Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; She allowed things to mature where pure eight would have forced them. David Ben-Gurion, who knew her like no one else, simply called her: the best man in the cabinet.</p>
+          <p class="vb-intro">The Nine wing grants the self-preservation Eight something that the pure Eight often struggles with: patience and the ability to hold many perspectives simultaneously. The SE8w7 is impulsive, risk-taking, direct—it wants things immediately. The SE8w9 can wait. It builds. It sees the big picture, even when the situation is unclear.</p>
+          <p class="vb-intro">Meir was Israel's Foreign Minister for ten years (1956–1966)—a term that speaks to the tenacity of an SE8, but also to the diplomatic patience of the Nine wing. She built relationships with African states when Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; she let things mature where the pure Eight would have forced them. David Ben-Gurion, who knew her like few others, called her simply: the best man in the cabinet.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From Milwaukee to Jerusalem</h2>
+        <h2 class="vb-section">4. The Work: From Milwaukee to Jerusalem</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Golda Meir was one of the 37 signatories of the Israeli Declaration of Independence on May 14, 1948. As Minister of Labor (1949-1956), she helped build the young state's social security system. As Secretary of State, she changed her name from Mabovitch-Myerson to the Hebrew <em>Meir</em> - "the enlightening one". She became prime minister in 1969 at the age of 70 &mdash; one of the first women in the world to hold such an office.</p>
-          <p class="vb-intro">Her management style was distinctive: she kept her cabinet together informally in her kitchen &ndash; the so-called <em>Kitchen cabinet</em> - bei Tee und selbstgekochtem Essen. Keine Inszenierung, keine Protokolldistanz. Die SE8 braucht keine B\xfchne. She needs results.</p>
+          <p class="vb-intro">Golda Meir was one of the 37 signatories of the Israeli Declaration of Independence on May 14, 1948. As Minister of Labor (1949–1956), she helped build the young state's social security system. As Foreign Minister, she changed her name from Mabovitch-Myerson to the Hebrew Meir—"the illuminating one". In 1969, at the age of 70, she became Prime Minister—one of the first women worldwide in such an office.</p>
+          <p class="vb-intro">Her leadership style was unmistakable: she held her cabinet together informally in her kitchen—the so-called kitchen cabinet—over tea and home-cooked food. No staging, no protocol distance. The SE8 needs no stage. It needs results.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: The Yom Kippur War</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE8w9 ist ihre <strong>unwavering presence</strong>. Meir was not a charismatic speaker in the classic sense &mdash; But anyone who confronted her immediately noticed: This woman won't let herself be intimidated. Her directness was not a mask; her humor was dry and self-deprecating; their loyalty to their people was unconditional. The SE8w9 is not one that produces itself. She's just there &mdash; and that's enough.</p>
-          <p class="vb-intro">The Shadow: On October 6, 1973, the highest Jewish holiday of Yom Kippur, Egyptian and Syrian troops invaded Israel in a coordinated attack. Meir had seen warning signs and acted too late; The surprise effect cost Israel heavy losses. She assumed political responsibility and resigned in April 1974. The SE8 makes no apologies. She bears the consequences.</p>
+          <p class="vb-intro">The light of the SE8w9 is its unshakeable presence. Meir was not a charismatic speaker in the traditional sense, but anyone sitting opposite her felt immediately: this woman cannot be intimidated. Her directness was not a mask; her humor was dry and self-deprecating; her loyalty to her people was unconditional. The SE8w9 is not one to show off. It is simply there—and that is enough.</p>
+          <p class="vb-intro">The shadow: On October 6, 1973, Yom Kippur, the highest Jewish holiday, Egyptian and Syrian troops attacked Israel in a coordinated assault. Meir had seen warning signs and acted too late; the element of surprise cost Israel heavy casualties. She accepted political responsibility and resigned in April 1974. The SE8 does not apologize. It bears the consequences.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The orangutan that couldn't be moved</h2>
+        <h2 class="vb-section">6. The Orangutan Who Could Not Be Moved</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Golda Meir was one of the most powerful women of the 20th century &mdash; and she would have been the last person to say that sentence about herself. This is the SE8w9: power without pathos, strength without self-expression. She came from the deepest of nowhere &mdash; Poverty, emigration, exile &mdash; and ended up at the head of a state that she had helped to found. The orangutan who climbs slowly, never falls and ends up sitting higher than all those who were louder.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Golda Meir was one of the most powerful women of the 20th century, and she would have been the last to say that sentence about herself. That is the SE8w9: power without pathos, strength without self-dramatization. She came from the deepest nothingness—poverty, emigration, exile—and ended up at the head of a state she had co-founded. The orangutan that climbs slowly, never falls, and in the end sits higher than all those who were louder.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -13131,55 +13131,55 @@ function guentherJauchPortraitPage() {
         </div>
         <p class="krim-portrait-name">G\xfcnther Jauch</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wings</p>
-        <p class="krim-portrait-subtitle">Presenter, journalist, producer, born 1956 &mdash; Animal correspondence: Octopus</p>
+        <p class="krim-portrait-subtitle">Presenter, journalist, producer, b. 1956 – Animal equivalent: Octopus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The octopus from M\xfcnster</h2>
+        <h2 class="vb-section">1. The Octopus from Münster</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Octopus</strong> is the animal of social type 5 &mdash; highly intelligent, reaching with eight arms at the same time, hardly graspable. He camouflages himself perfectly. He lives in the depths, even when he appears on the surface. And he holds his territory with a precision that you can't tell from the outside because he never seems excited.</p>
-          <p class="vb-intro">G\xfcnther Jauch has been the best-known face on German television for over thirty years - and probably the most watched presenter that the Federal Republic has ever produced. Who will be a millionaire? running since 1999. <em>stern TV</em> He moderated from 1990 to 2011. He hosted the ARD Sunday Talk from 2011 to 2015. And yet most people who have seen his programs hardly know anything about him. This is no coincidence. That's system.</p>
+          <p class="vb-intro">The octopus is the animal of the social Type 5—highly intelligent, reaching with eight arms at once, yet nearly impossible to grasp. It camouflages itself perfectly. It lives in the depths, even when appearing at the surface. And it holds its territory with a precision unperceived from the outside because it never appears flustered.</p>
+          <p class="vb-intro">For over thirty years, Günther Jauch has been the most famous face on German television and presumably the most-watched presenter the Federal Republic has ever produced. Wer wird Millionär? has been running since 1999. He hosted stern TV from 1990 to 2011. He led the ARD Sunday talk show from 2011 to 2015. And yet, most people who have watched his shows know almost nothing about him. That is no coincidence. That is a system.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Totem: Knowledge as a Key</h2>
+        <h2 class="vb-section">2. The Totem: Knowledge as the Key</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called social type 5 the <strong>Totem</strong> - the link between knowledge and affiliation and reputation. The SO5 shares knowledge with the community and thereby becomes an authority. In the light, this is a job and calling. In the shadows, knowledge becomes a gate that can only be opened by those who control it.</p>
-          <p class="vb-intro"><em>Who will be a millionaire?</em> is the perfect format for social F\xfcnf: a show in which knowledge is literally worth money. Jauch sits as a totem figure at the control point - he knows the answers, he reads them from the teleprompter, he evaluates candidates, he decides the pace. The audience in the studio, the telephone joker, the friends who are allowed to be asked - All of this is a social system that Jauch moderates. And he sits at the center of this system: calm, informed, calm. The octopus in its element.</p>
-          <p class="vb-intro">Jauch studied law and political science &mdash; in M\xfcnster and later at the LMU M\xfcnchen &ndash; and dropped out of his studies when the Bavarian Radio took him on as a trainee. He didn't go into television because he graduated from college. He switched because he had found a more direct route into the knowledge ecosystem.</p>
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the Totem—the linking of knowledge with belonging and prestige. The SO5 shares knowledge with the community and thereby becomes an authority. In the light, this is profession and calling. In the shadow, knowledge becomes a gate that only the person controlling it can open.</p>
+          <p class="vb-intro">Wer wird Millionär? is the perfect format for the social Five: a show where knowledge is literally worth money. Jauch sits at the control center as a totem figure—he knows the answers, he reads them off the teleprompter, he evaluates contestants, he decides the tempo. The studio audience, the phone-a-friend, the friends allowed to be asked—all of this is a social system moderated by Jauch. And at the center of this system sits he: calm, informed, unruffled. The octopus in its element.</p>
+          <p class="vb-intro">Jauch studied law and political science in Münster and later at LMU Munich, dropping out when Bayerischer Rundfunk took him on as a trainee. He did not switch to television because he was finished with university. He switched because he had found a more direct path into the knowledge ecosystem.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The six wing: The format as a home</h2>
+        <h2 class="vb-section">3. The Six Wing: The Format as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six wing\xfcgel (w6)</strong> brings the Social Five a deep need for stability and reliability. Not adventure, but continuity\xe4t. Not disruption, but the tried and tested system. In the light this is loyalty and quality. In the shadows it is the refusal to renew &mdash; clinging to structures because you feel safe in them.</p>
-          <p class="vb-intro">Jauch is the image of this continuity. <em>Who will be a millionaire?</em> has been running since 1999 - with the same presenter, same chair, same music, same rules. In a television landscape that reinvents itself every five years, that's a statement. He himself once said that he likes formats that he understands and is familiar with. That sounds simple. It's not it. It is the SO5w6: Security through repetition, reliability as professionalism.</p>
-          <p class="vb-intro">His marriage also proves the pattern: Married to Thea Jauch, née D\xf6rholt, since 1990 &mdash; four daughters, the same house in Potsdam. The six wing creates structures in which the private remains safe because it remains invisible.</p>
+          <p class="vb-intro">The Six wing (w6) brings to the social Five a deep need for stability and reliability. Not adventure, but continuity. Not disruption, but the proven system. In the light, this is loyalty and quality. In the shadow, it is the refusal to renew oneself—holding on to structures because one feels safe in them.</p>
+          <p class="vb-intro">Jauch is the picture of this continuity. Wer wird Millionär? has been running since 1999 with the same presenter, the same chair, the same music, the same rules. In a television landscape that reinvents itself every five years, that is a statement. He himself once said to the effect that he likes formats he understands and is familiar with. That sounds simple. It is not. It is the SO5w6: security through repetition, reliability as professionalism.</p>
+          <p class="vb-intro">His marriage also confirms this pattern: married to Thea Jauch, née Dörholt, since 1990, four daughters, the same house in Potsdam. The Six wing creates structures in which the private remains safe because it remains invisible.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: Between the millionaire question and Monday</h2>
+        <h2 class="vb-section">4. The Work: Between the Million-Dollar Question and Monday</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><em>stern TV</em>, which he took over in 1990 and moderated for two decades, was different territory: reports, revelations, socially critical contributions. Jauch conducted the show with the same cassette with which he later interviewed millions - without emotion, with precise questions, without getting too close to the other person. This is SO5: closeness through distance, connection through professionalism.</p>
-          <p class="vb-intro">The ARD Sunday evening talk &mdash; <em>G\xfcnther Jauch</em>, 2011 to 2015 &mdash; he gave up after four years. He explained that the format had exhausted itself. Many asked if he meant himself. The Social Five loses the sense of a system when it senses that it no longer supports it. Then she lets go - calm, without drama, without \xd6publicity.</p>
-          <p class="vb-intro">He also introduced a variety of formats into the broadcasting landscape through his production company i&amp;u TV, which was later sold to RTL. The octopus grabs with several arms at the same time - and cannot be reduced to one.</p>
+          <p class="vb-intro">stern TV, which he took over in 1990 and hosted for two decades, was different terrain: investigative reports, exposures, socially critical features. Jauch led the show with the same coolness with which he later questioned potential millionaires—without emotion, with precise questions, without stepping too close to the counterpart. That is the SO5: closeness through distance, connection through professionalism.</p>
+          <p class="vb-intro">He gave up the ARD Sunday evening talk show Günther Jauch (2011 to 2015) after four years. He explained that the format had exhausted itself. Many wondered if he meant himself. The social Five loses its sense of purpose for a system when it feels that it no longer carries weight. Then it lets go—calmly, without drama, without publicity.</p>
+          <p class="vb-intro">Alongside this, through his production company iu TV, later sold to RTL, he introduced a variety of formats into the broadcasting landscape. The octopus reaches out with several arms at once and cannot be reduced to just one.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow: The private remains private</h2>
+        <h2 class="vb-section">5. Light and Shadow: The Private Remains Private</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jauch is not on social media. He rarely gives interviews about himself &mdash; only about his broadcasts. He lives in a villa on Holy Lake in Potsdam, the property of which is behind walls. He has four daughters whose names he didn't mention publicly for years. This is not privacy out of fear. This is the <strong>SO5 Castle</strong> in its social form: I am among you, I give you knowledge, I moderate your society &mdash; but I don't give myself.</p>
-          <p class="vb-intro">The shadow of the F\xfcnf is <strong>Stinginess</strong> - not just with money, but with yourself. With what you would reveal about yourself. Jauch is a man who has spent decades putting candidates in existential pressure situations, studying their reactions, commenting on their sweats &mdash; and at the same time remained completely impenetrable. The octopus that observes and changes while remaining invisible.</p>
-          <p class="vb-intro">In the light, however: A moderator who has never presented a candidate. Who never laughed at anyone. Who moderates with a friendliness that doesn't seem fake. This is SO5 in the best sense: sharing knowledge without dominating. Accompany without overpowering.</p>
+          <p class="vb-intro">Jauch is not on social media. He rarely gives interviews about himself—only about his shows. He lives in a villa on Lake Heiliger See in Potsdam, whose property lies behind walls. He has four daughters whose names he did not mention publicly for years. That is not privacy born of fear. That is the fortress of the SO5 in its social form: I am among you, I give you knowledge, I host your society—but I do not give away myself.</p>
+          <p class="vb-intro">The shadow of the Five is avarice—not just with money, but with oneself. With what one would reveal about oneself. Jauch is a man who for decades put contestants in existential pressure situations, studied their reactions, commented on their cold sweats, while remaining completely impenetrable himself. The octopus observing and altering while remaining invisible.</p>
+          <p class="vb-intro">In the light, however: a presenter who never exposed a contestant. Who never laughed at anyone. Who hosts with a friendliness that does not feel staged. That is the SO5 in the best sense: sharing knowledge without dominating. Accompanying without overwhelming.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The octopus that doesn't get smaller</h2>
+        <h2 class="vb-section">6. The Octopus That Does Not Shrink</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">G\xfcnther Jauch will be sixty-eight years old in 2024 &mdash; and still moderates <em>Who will be a millionaire?</em>. Television has reinvented itself around him several times. Formats came and went. Moderators were discovered, burned and replaced. Jauch stayed.</p>
-          <p class="vb-intro">That is the image that remains: a man who is not loud, who does not push, who does not push. Who is simply there. Who holds his place, gives his knowledge, asks his questions - and after the broadcast goes to Potsdam. Behind the walls. Into the silence. To the octopus in its depths.</p>
-          <p class="vb-intro">This is the social F\xfcnf: presence without handover. Visibility without revelation. And the quiet certainty that you know more than you show - and that that is completely enough.</p>
+          <p class="vb-intro">Günther Jauch is sixty-eight years old in 2024 and still hosts Wer wird Millionär?. Television has reinvented itself around him multiple times. Formats came and went. Presenters were discovered, burned out, and replaced. Jauch remained.</p>
+          <p class="vb-intro">That is the image that lingers: a man who is not loud, who does not push, who does not urge. Who is simply there. Who holds his place, shares his knowledge, asks his questions, and after the show drives home to Potsdam. Behind the walls. Into the silence. To the octopus in its depth.</p>
+          <p class="vb-intro">That is the social Five: presence without surrender. Visibility without revelation. And the quiet certainty that one knows more than one shows—and that this is completely sufficient.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
@@ -13200,47 +13200,47 @@ function igaSwiatekPortraitPage() {
         </div>
         <p class="krim-portrait-name">Iga Świątek</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with Einserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Tennis professional, born 2001 &mdash; Animal correspondence: Sloth</p>
+        <p class="krim-portrait-subtitle">Tennis professional, b. 2001 – Animal equivalent: Sloth</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sloth</strong> is the animal of sexual type 9 &mdash; and anyone who watches Iga Świątek play understands why. The sloth looks like it's half asleep. It doesn't move when it doesn't have to move. But this impression is deceptive: the sloth is perfectly adapted to its environment. Every movement fits. No energy expenditure without necessity. And when it snaps shut - then with a precision that is astonishing.</p>
-          <p class="vb-intro">Iga Świątek, born in Warsaw, Poland in 2001, is the most dominant tennis player of her generation. She won Roland Garros in 2020, 2022, 2023 and 2024 &mdash; four times the hardest clay court tournament in the world. Plus the US Open 2022. She was number one in the world rankings for over 150 weeks. And anyone who watches her asks themselves: How does she do it so effortlessly?</p>
+          <p class="vb-intro">The sloth is the animal of the sexual Type 9, and anyone watching Iga Świątek play understands why. The sloth appears as if half-asleep. It does not move unless it has to. Yet this impression is deceptive: the sloth is perfectly adapted to its environment. Every movement lands. No expenditure of energy without necessity. And when it snaps—it does so with a precision that is astonishing.</p>
+          <p class="vb-intro">Iga Świątek, born in 2001 in Warsaw, Poland, is the most dominant tennis player of her generation. She won Roland Garros four times—2020, 2022, 2023, and 2024—the toughest clay-court tournament in the world. In addition, she won the US Open in 2022. She spent over 150 weeks as number one in the world rankings. And watching her, one asks: how does she do it so effortlessly?</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Nine: Disappearing into the River</h2>
+        <h2 class="vb-section">2. The Sexual Nine: Disappearing into the Flow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is, according to Naranjo, the subtype that he <em>Vereinigung</em> called: the search for complete fusion with the other - the partner, the game, the moment. The SX9 doesn't get lost. She finds herself &mdash; in a state of complete presence in which subject and object become one. What sports psychologists call &ldquo;flow&rdquo; call it, this is not an exceptional situation for the SX9. It's her home.</p>
-          <p class="vb-intro">Świątek describes her ideal game like this: no thinking, no planning, no inner commentary. Just be there and play. The ball is coming &mdash; she replies. She doesn't decide what she does. The situation decides and your body follows. In these moments, she says, tennis doesn't feel like work. It feels like breathing.</p>
+          <p class="vb-intro">According to Naranjo, the sexual Nine (SX9) is the subtype he called Union: the search for complete fusion with the other—the partner, the game, the moment. The SX9 does not lose itself. It finds itself in a state of complete presence where subject and object become one. What sports psychologists call flow is not an exceptional state for the SX9. It is its home.</p>
+          <p class="vb-intro">Świątek describes her ideal game in exactly this way: no thinking, no planning, no inner commentary. Simply being there and playing. The ball comes—she responds. She does not decide what she does. The situation decides, and her body follows. In those moments, she says, tennis does not feel like work. It feels like taking a breath.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One Wing: The Inner Judge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Einserfl\xfcgel</strong> gives the Sexual Nine something that the pure SX9 type lacks: a precise inner standard, a willingness to be self-critical, the ability to judge one's own performance carefully. The <strong>SX9w1</strong> doesn't just seek contemplation &mdash; she seeks an immersion that is excellent. The flow alone is not enough for her. It also has to be right.</p>
-          <p class="vb-intro">Świątek works with sports psychologist Daria Abramowicz &mdash; an unusually open decision in a sport in which psychological support is often taboo. The way she deals with mistakes is striking: she doesn't react with anger or despair, but rather with quiet concentration. An error is information. He tells her where the alignment has slipped. The number one does not make the number nine a perfectionist in the neurotic sense - but a player who knows exactly when she's not with herself.</p>
+          <p class="vb-intro">The One wing gives the sexual Nine something that the pure SX9 type lacks: a precise inner standard, a readiness for self-criticism, the ability to evaluate one's own performance coolly. The SX9w1 does not merely seek absorption—it seeks an absorption that is excellent. The flow alone is not enough. It must also be right.</p>
+          <p class="vb-intro">Świątek works with sports psychologist Daria Abramowicz—an unusually open decision in a sport where psychological support is often taboo. Her handling of errors is striking: she does not react with anger or despair, but with quiet concentration. An error is information. It tells her where her alignment slipped. The One wing does not turn the Nine into a perfectionist in a neurotic sense, but into a player who knows exactly when she is not centered.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: The dominance of silence</h2>
+        <h2 class="vb-section">4. The Work: The Dominance of Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Świątek's playing has a quality that commentators repeatedly describe without being able to fully explain it: she never seems rushed. Her shots are no harder than those of other players in her age - but they come exactly when the pressure is at its maximum, and they come with a consequence that exhausts M\xe4tchwinner. Świątek doesn't win by taking him by surprise. She wins by remaining fully present until her opponent gives up trying to do the same.</p>
-          <p class="vb-intro">Her father Tomasz Świątek was a rower at the 1988 Seoul Olympics &mdash; an athlete who valued endurance and rhythm over explosive power. The family imprint is noticeable. Świątek is not a player of spectacular individual action. She is a player of sustained flow. Not the big moment &mdash; but the great continuum.</p>
+          <p class="vb-intro">Świątek's game possesses a quality that commentators describe time and again without being able to fully explain: she never seems rushed. Her shots are no harder than those of other players in her era, but they come precisely when the pressure is at its peak, and they come with a consistency that exhausts match-winners. Świątek does not win by catching opponents off guard. She wins by remaining completely present until the opponent gives up trying to do the same.</p>
+          <p class="vb-intro">Her father Tomasz Świątek was a rower at the 1988 Olympic Games in Seoul—an athlete who prioritized endurance and rhythm over explosive power. The family influence is palpable. Świątek is not a player of spectacular isolated actions. She is a player of sustained flow. Not the big moment, but the great continuum.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow: When the flow breaks</h2>
+        <h2 class="vb-section">5. Light and Shadow: When the Flow Breaks</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w1 is its <strong>extraordinary concentration power</strong>. Świątek can play entire tournaments in a state of complete presence, which other players lose after a few sets. She is virtually invincible on sand if this condition persists. The A wing ensures that she learns from mistakes without getting lost in them.</p>
-          <p class="vb-intro">The Shadow: The Nine gets lost in the flow &mdash; and when the flow breaks, sometimes everything collapses at once. Świątek lost the 2022 French Open quarterfinals to Iga Besidze in a set that looked like a different player. In 2024 she failed in the Wimbledon round of 16 against Yulia Putintseva under conspicuous circumstances. These moments show what happens when the SX9w1 moves from its center: no anger, no fight &mdash; a kind of silent disappearance. As if the connection were simply gone.</p>
+          <p class="vb-intro">The light of the SX9w1 is its extraordinary power of concentration. Świątek can play entire tournaments in a state of complete presence that fades after a few sets in other players. On clay, she is virtually unbeatable when this state persists. The One wing ensures that she learns from errors without losing herself in them.</p>
+          <p class="vb-intro">The shadow: the Nine loses itself in the flow, and when the flow breaks, everything sometimes collapses all at once. In 2022, Świątek lost the French Open quarterfinal against Iga Besidze in a set where she looked like a different player. In 2024, she failed in the Wimbledon round of 16 against Yulia Putintseva under striking circumstances. In those moments, what happens when the SX9w1 falls out of her center becomes visible: no anger, no fight—a kind of quiet disappearance. As if the connection were simply gone.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The sloth that flies</h2>
+        <h2 class="vb-section">6. The Sloth That Flies</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Iga Świątek is 23 years old. She has won four Grand Slam titles and is the undisputed number one in a \xc4ra in which women's tennis is more balanced than ever before. What separates them is not brawn or tactics. It is the ability to be completely in the moment - Sentence by sentence, point by point, as long as necessary.</p>
-          <p class="vb-intro">The sloth looks like it's sleeping. But it is in a form of presence that humans rarely achieve. Świątek plays tennis like a sloth hangs: without feelings, calm, completely in balance with what is. And sometimes, when the wind is right and the ball comes exactly the way it's supposed to come, what appears to be weightlessness occurs.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Iga Świątek is 23 years old. She has won four Grand Slam titles and is the undisputed number one of an era in which women's tennis is as balanced as rarely before. What sets her apart from others is not muscle power or tactics. It is the ability to be completely in the moment—set by set, point by point, as long as necessary.</p>
+          <p class="vb-intro">The sloth looks like it is sleeping. But it exists in a form of presence that humans rarely attain. Świątek plays tennis the way the sloth hangs: effortlessly, calmly, completely in balance with what is. And sometimes, when the wind is right and the ball comes exactly as it should, something emerges that looks like weightlessness.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v623';
+  const MY_VERSION = 'inhalt-v624';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
