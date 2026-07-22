@@ -13659,50 +13659,50 @@ function karolineHerfurthPortraitPage() {
         </div>
         <p class="krim-portrait-name">Karoline Herfurth</p>
         <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Actress, director, born 1984 &mdash; Animal correspondence: Pigeon</p>
+        <p class="krim-portrait-subtitle">Actress, director, b. 1984 – Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The pigeon that observes</h2>
+        <h2 class="vb-section">1. The Dove That Observes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Taube</strong> is the animal of the self-preservation four &mdash; and with Karoline Herfurth she shows a special quality: this pigeon doesn't land straight away. She circles first. She observes, perceives, internally carries what she has seen - and then ends up exactly where it is needed. This is the self-preserving four with foe's wings: a person who fully experiences the inside before stepping outside.</p>
-          <p class="vb-intro">Karoline Herfurth is one of the few personalities in Germany who embody this connection: great emotional presence on the screen, quiet reserve next to it. No social media exposure, no constant explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
+          <p class="vb-intro">The dove is the animal of the self-preservation Type 4, and in Karoline Herfurth it demonstrates a special quality: this dove does not land right away. It circles first. It observes, perceives, carries internally what it has seen, and then lands right where it is needed. That is the self-preservation Four with a Five wing: a person who fully lives through their inner world before stepping outward.</p>
+          <p class="vb-intro">Karoline Herfurth is one of the few personalities in Germany who embody this synthesis: a powerful emotional presence on screen, quiet restraint beside it. No constant social media stream, no continuous explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Sustaining Four: Toughness Without Drama</h2>
+        <h2 class="vb-section">2. The Self-Preservation Four: Tenacity Without Drama</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation four (SE4)</strong> is the opposite type of the four &mdash; Outwardly, she hardly shows what most people expect from a four: no drama, no display of suffering, no romantic self-dramatization. Instead: a quiet tenacity (English <em>Tenacity</em>), a willingness to bear a lot internally without complaining about it.</p>
-          <p class="vb-intro">Karoline Herfurth started acting at the age of 12, appeared in a film at 16, and played Grenouille's victim in Tom Tykwer's "Perfume" at 18. This early start required a maturity that didn't impose itself - She had to be internally stable while others were still looking for orientation. This is the SE4: not the one who talks about her pain, but the one who goes through it and then does something with it.</p>
-          <p class="vb-intro">Your filmography speaks this language: it avoids the smooth, the comfortable. She chooses roles that cost something - Figures with flaws, with inner contradictions, with humanity beyond the surface. The protection pattern of the SE4 &mdash; the tendency to downplay one's own experience &mdash; Paradoxically, this becomes an artistic strength: she plays real people because she knows how to wear real people.</p>
+          <p class="vb-intro">The self-preservation Four (SE4) is the countertype of the Four; outward-facing, it hardly shows what most people expect from a Four: no drama, no displayed suffering, no romantic self-staging. Instead: a quiet tenacity, a readiness to carry a great deal internally without complaining about it.</p>
+          <p class="vb-intro">Karoline Herfurth began acting at just 12 years old, was in feature films by 16, and played Grenouille's victim in Tom Tykwer's Perfume: The Story of a Murderer at 18. This early start demanded a maturity that did not push itself forward—she had to be internally stable while others were still finding their footing. That is the SE4: not the one who talks about her pain, but the one who walks through it and makes something out of it afterward.</p>
+          <p class="vb-intro">Her filmography speaks this language: she avoids the slick, the comfortable. She chooses roles that exact a cost—characters with fractures, with inner contradictions, with humanity beyond the surface. The defense pattern of the SE4—the tendency to downplay one's own internal experience—paradoxically turns into artistic strength here: she plays real people because she knows how to carry what is real.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: The observer behind the camera</h2>
+        <h2 class="vb-section">3. The Five Wing: The Observer Behind the Camera</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>F\xfcnferfl\xfcgel (w5)</strong> adds something crucial to the self-preservation four: the observer, the analyst, the person who understands before acting. While the triple wing drives the four forward and makes it visible, the leading wing pulls back - in the silence, in the depth, in the thoughtful judgment.</p>
-          <p class="vb-intro">Herfurth's switch to directing is perhaps the clearest expression of this wing. As director of &ldquo;Wundersch\xf6n&rdquo; (2022) &mdash; a film about women and their relationship to their own bodies &ndash; she shows a precision in the observation of human vulnerability that does not come from a screenwriting course, but from decades of silent observation. The F\xfcnferfl\xfcgel thinks before he speaks. He knows\xdf what he wants to show &mdash; and what he leaves out.</p>
-          <p class="vb-intro">The SE4w5 combination creates a special type: emotionally deep, intellectually precise, withdrawn enough not to reveal everything, but open enough to touch on something real. You notice this in her interviews: little self-expression, a lot of thinking. She talks about the matter, not about herself.</p>
+          <p class="vb-intro">The Five wing (w5) adds something decisive to the self-preservation Four: the observer, the analyst, the person who understands first before acting. While the Three wing drives the Four forward and makes them visible, the Five wing pulls back into silence, into depth, into considered judgment.</p>
+          <p class="vb-intro">Herfurth's transition to directing is perhaps the clearest expression of this wing. As director of Wunderschön (2022)—a film about women and their relationship with their own bodies—she displays a precision in observing human vulnerability that stems not from a screenwriting course, but from decades of quiet watching. The Five wing thinks before it speaks. It knows what it wants to show and what it leaves out.</p>
+          <p class="vb-intro">The SE4w5 combination creates a distinctive type: emotionally deep, intellectually precise, withdrawn enough not to reveal everything, yet open enough to touch something genuine. You notice this in her interviews: little self-dramatization, much reflection. She talks about the subject, not about herself.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and shadow: The beauty of vulnerability</h2>
+        <h2 class="vb-section">4. Light and Shadow: The Beauty in the Vulnerable</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The fate pattern of the four is the <strong>Envy</strong> - not as resentment, but as the chronic feeling that others have noticed something that you yourself are missing. With the SE4 this envy remains hidden; It shows itself as inner restlessness, as the feeling of never being completely finished, of never fully arriving. You can see something of this in the choice of subject matter in her films: they are almost always about people who struggle with themselves, who have something broken inside them and yet have carried on.</p>
-          <p class="vb-intro">The F\xfcnferfl\xfcgel increases the tendency to retreat: The SE4w5 can retreat into the inner world and reduce external contact to a minimum. This protects &mdash; But there is also the risk that your own wealth will remain unseen. Herfurth obviously chose this path consciously: she reveals little about herself personally - but what she reveals on the screen is all the more significant.</p>
-          <p class="vb-intro">The light of this combination: It can make the vulnerable beautiful without artificializing it. Your characters in &ldquo;Wundersch\xf6n&rdquo; are not heroines &mdash; they are real people who struggle with their physicality, their history, their age. This is SE4w5 in the best sense: bringing the inside into a form that doesn't leave others alone.</p>
+          <p class="vb-intro">The core pattern of the Four is envy—not as malice, but as the chronic feeling that others received something one lacks oneself. In the SE4, this envy remains hidden; it manifests as an inner restlessness, as the feeling of never being quite finished, never quite arriving. You see something of this in her choice of film themes: it is almost always about people wrestling with themselves, carrying something broken within them, and moving forward nonetheless.</p>
+          <p class="vb-intro">The Five wing reinforces the tendency toward withdrawal: the SE4w5 can retreat into the inner world and reduce external contact to a minimum. That protects, but it also carries the risk that one's own richness remains unseen. Herfurth has evidently chosen this path consciously: she reveals little personal information—yet what she delivers on screen is all the more meaningful.</p>
+          <p class="vb-intro">The light of this combination: she can make the vulnerable beautiful without artificiality. Her characters in Wunderschön are not heroines; they are real people wrestling with their physical selves, their story, their age. That is SE4w5 in the best sense: shaping the internal into a form that does not leave others alone.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The dove that finds its home</h2>
+        <h2 class="vb-section">5. The Dove That Finds Its Way Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the four leads from the question <em>What am I missing that was given to others?</em> to knowledge <em>What I am is complete &ndash; and it is mine.</em> For the SE4w5, this means not experiencing the withdrawal as an escape, but as a silence in which what is one's own becomes clearer.</p>
-          <p class="vb-intro">Karoline Herfurth's artistic development points exactly to this point. From the child who played, to the teenager who tested boundaries, to the young woman who shone in ensembles, to the director who made her view of the world public - this is a path from the role to your own voice. A voice that is quiet but precise. The dove that no longer looks because it knows where it belongs.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question "What am I missing that was given to others?" to the realization "What I am is complete, and it is mine." For the SE4w5, this means experiencing withdrawal not as an escape, but as a silence in which one's own nature becomes clearer.</p>
+          <p class="vb-intro">Karoline Herfurth's artistic trajectory points precisely there. From the child who acted, to the teenager testing boundaries, to the young woman who shone in ensemble casts, to the director making her view of the world public—that is a journey from the role to her own voice. A voice that is quiet, but precise. The dove that no longer searches because it knows where it belongs.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se4", label:"SE4 – The Pigeon: Subtype Profile"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
       ])}
     </div>
@@ -13720,47 +13720,47 @@ function kevinCostnerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Kevin Costner</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Actors &amp; Director, born 1955 &mdash; Animal correspondence: B\xfcffel</p>
+        <p class="krim-portrait-subtitle">Actor & director, b. 1955 – Animal equivalent: Buffalo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The B\xfcffel</h2>
+        <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>B\xfcffel</strong> is the animal of social type 9 &mdash; and no picture captures Kevin Costner more accurately. The buffalo lives in a collective. He moves slowly, with weight, close to the ground. He's not the loudest animal on the prairie &ndash; but when he moves, the herd follows him. His power lies not in dominance, but in belonging: he is part of something bigger, and he knows it.</p>
-          <p class="vb-intro">Kevin Costner, born in Lynwood, California in 1955, is one of the rarest types in Hollywood: an actor who doesn't glitter but carries. He speaks slowly. He plays slowly. His best roles are men who don't fight for themselves - but for something greater than themselves: a country, a community, a lost promise.</p>
+          <p class="vb-intro">The buffalo is the animal of the social Type 9, and no image fits Kevin Costner more accurately. The buffalo lives in the collective. It moves slowly, with weight, close to the ground. It is not the loudest animal on the prairie—but when it moves, the herd follows. Its strength lies not in dominance, but in belonging: it is part of something larger, and it knows it.</p>
+          <p class="vb-intro">Kevin Costner, born in 1955 in Lynwood, California, is one of the rarest types in Hollywood: an actor who does not glitter, but carries. He speaks slowly. He acts slowly. His best roles are men who do not fight for themselves, but for something larger than themselves: a country, a community, a lost promise.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Nine: merging into the community</h2>
+        <h2 class="vb-section">2. The Social Nine: Merging into the Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is, according to Naranjo, the subtype that he <em>Teilnahme</em> called: the deep inclination to surrender to a group, a community, a collective - and find peace in it. The SO9 does not lose itself in others out of weakness. She finds herself in it. Belonging is no consolation - she is the goal.</p>
-          <p class="vb-intro">Costner's filmography reads like an SO9 manifesto. In <em>Dances with Wolves</em> (<em>Dances with Wolves</em>, 1990) he plays a soldier who doesn't win, but dissolves - into the Lakota community, its language, its rhythm, its values. In <em>Field of Dreams</em> (<em>Field of Dreams</em>, 1989) he builds a baseball field to reconcile the community of the dead with that of the living. In <em>Bull Durham</em> (1988) he is the catcher who doesn't shine - but holds. Always the man who prepares the space so that others can exist in it.</p>
+          <p class="vb-intro">The social Nine (SO9) is, according to Naranjo, the subtype he called Participation: the deep inclination to surrender to a group, a community, a collective, and to find peace within it. The SO9 does not lose itself in the other out of weakness. It finds itself there. Belonging is not a consolation—it is the destination.</p>
+          <p class="vb-intro">Costner's filmography reads like an SO9 manifesto. In Dances with Wolves (1990), he plays a soldier who does not conquer, but dissolves into the Lakota community, their language, their rhythm, their values. In Field of Dreams (1989), he builds a baseball field to reconcile the community of the dead with that of the living. In Bull Durham (1988), he is the catcher who does not shine, but grounds. Time and again, the man who prepares the space so that others can exist within it.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Einserflu\xfcgel: The moral water</h2>
+        <h2 class="vb-section">3. The One Wing: The Moral Compass</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Einserfl\xfcgel</strong> gives the Social Nine a quality that is missing from the pure SO9er: an inner compass, a sense of rightness, a willingness to be uncomfortable when something goes wrong. The <strong>SO9w1</strong> doesn't just look for belonging &mdash; She is looking for a belonging that is right.</p>
-          <p class="vb-intro">Costner never chose his roles based on market logic. <em>Dances with Wolves</em> was considered unsellable in Hollywood &mdash; three hours, no star ensemble, a Native American epic without a hero's rescue. He produced it himself, risked his private fortune, and won the Oscar for best film and best director. The SO9w1 prevails - not by elbows, but by persistence in what she believes is right. The Einser wing gives her the courage to be quiet.</p>
+          <p class="vb-intro">The One wing gives the social Nine a quality lacking in the pure SO9: an inner compass, a sense of rightness, a readiness for discomfort when something goes wrong. The SO9w1 does not merely seek belonging—it seeks a belonging that is right.</p>
+          <p class="vb-intro">Costner never chose his roles according to market logic. Dances with Wolves was considered unsellable in Hollywood: three hours long, no star ensemble, a Native American epic without a heroic rescue. He produced it himself, risked his personal fortune, and won the Oscar for Best Picture and Best Director. The SO9w1 asserts itself not through sharp elbows, but through persistence in what it considers right. The One wing gives it the courage for quietness.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: America as longing</h2>
+        <h2 class="vb-section">4. The Work: America as Longing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kevin Costner's work is a single, multi-voiced portrait of America &mdash; not the America that is, but the America that could be. <em>The Bodyguard</em> (1992), <em>Wyatt Earp</em> (1994), <em>Open Range &ndash; Weites Land</em> (2003): again and again men with a code of honor that is greater than their interests. Also <em>Waterworld</em> (1995), the legendary fiasco, tells of a loner who saves a community - and then disappears again. Even in failure, the handwriting remains the same.</p>
-          <p class="vb-intro">With the television series <em>Yellowstone</em> (since 2018) Costner experienced one of the most unusual renaissance phases in American cinema. As John Dutton, patriarch of a ranching dynasty in conflict with modernity and capital, he embodies the SO9w1 in its fullest form: a man who doesn't own the land - but belongs to him. A man whose moral straightforwardness is both his greatest strength and his greatest source of isolation.</p>
+          <p class="vb-intro">Kevin Costner's body of work is a single, multi-voiced portrait of America—not the America that is, but the America that could be. The Bodyguard (1992), Wyatt Earp (1994), Open Range (2003): time and again, men with a code of honor larger than their personal interests. Even Waterworld (1995), the legendary fiasco, tells of a loner who saves a community and then vanishes once more. Even in failure, the signature remains the same.</p>
+          <p class="vb-intro">With the television series Yellowstone (since 2018), Costner experienced one of the most unusual renaissance phases in American cinema. As John Dutton, patriarch of a ranching dynasty in conflict with modernity and capital, he embodies the SO9w1 in its fullest form: a man who does not own the land, but belongs to it. A man whose moral straightness is both his greatest strength and his greatest source of isolation.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Silence as a Limit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SO9w1 is its <strong>Ability to surrender</strong>. Costner always pursued projects he believed in &mdash; Beyond resistance, budgets and criticism. His work carries a seriousness that seems strangely anachronistic in an entertainment industry that relies on irony and self-reference - and that is precisely why it is so rare and valuable.</p>
-          <p class="vb-intro">The Shadow: The Nine gets lost in the community &mdash; and sometimes forgets to be there for yourself too. Costner's Marriages &mdash; with Cindy Silva (1978-1994) and Christine Baumgartner (2004-2023) &ndash; Both failed after many years. In interviews he appears thoughtful, occasionally melancholic, like someone who creates a home for others and doesn't have a solid anchor himself. The buffalo moves with the herd. But sometimes he ends up left alone on the prairie.</p>
+          <p class="vb-intro">The light of the SO9w1 is its capacity for devotion. Costner has repeatedly pursued projects he believed in—beyond resistance, budgets, and reviews. His work carries a gravity that seems strangely anachronistic in an entertainment industry reliant on irony and self-reference—and is for that very reason so rare and valuable.</p>
+          <p class="vb-intro">The shadow: the Nine loses itself in the community and sometimes forgets to be there for itself. Costner's marriages to Cindy Silva (1978–1994) and Christine Baumgartner (2004–2023) both ended after many years. In interviews, he appears thoughtful, occasionally melancholic, like someone who creates a home for others while having no firm anchor himself. The buffalo moves with the herd. But sometimes, in the end, it is left behind alone on the prairie.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The buffalo that remains</h2>
+        <h2 class="vb-section">6. The Buffalo That Endures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kevin Costner is one of the few actor-directors whose work reflects a consistent worldview: America is not a place, but a promise. Belonging is not a given, but is earned. And the man who holds a community must be prepared to take himself back. Not loud, not brilliant &mdash; but persistently. And deeper than you might think at first glance.</p>
-          <p class="vb-intro">This is the SO9w1 at its best: it doesn't do anything for itself. She does everything for what she believes in. And sometimes &mdash; as in <em>Dances with Wolves</em>, as in <em>Field of Dreams</em>, as in <em>Yellowstone</em> - That's enough to create something that lasts.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Kevin Costner is among the few actor-directors whose work carries a consistent worldview: America is not a location, but a promise. Belonging is not taken for granted, but earned. And the man who holds a community must be willing to step back himself. Not loud, not brilliant—but persistent. And deeper than one might suspect at first glance.</p>
+          <p class="vb-intro">That is the SO9w1 at its best: it does nothing for itself. It does everything for what it believes in. And sometimes—as in Dances with Wolves, as in Field of Dreams, as in Yellowstone—that is enough to create something that endures.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -13784,53 +13784,53 @@ function klausKinskiPortraitPage() {
         </div>
         <p class="krim-portrait-name">Klaus Kinski</p>
         <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing &middot; Contratype of one</p>
-        <p class="krim-portrait-subtitle">Schauspieler, 1926&ndash;1991 &ndash; Aguirre, Nosferatu, Fitzcarraldo &ndash; Animal correspondence: Schwarze Mamba</p>
+        <p class="krim-portrait-subtitle">Actor, 1926–1991 – Aguirre, Nosferatu, Fitzcarraldo – Animal equivalent: Black Mamba</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the Sexual One &mdash; and no animal reflects Klaus Kinski in a more frightening way. The Black Mamba is known for its speed, precision and deadly bite force. She doesn't strike out of whim, but out of an inner law: If she feels threatened, she reacts mercilessly. Indifference is alien to her. To be near them is to be fully awake.</p>
-          <p class="vb-intro">Klaus Kinski, born in 1926 in Danzig, died in 1991 in California, was one of the most intense personalities in film history. With Werner Herzog he made five films that are among the most important in German cinema: <em>Aguirre, the wrath of God</em>, <em>Nosferatu &mdash; Phantom of the Night</em>, <em>Woyzeck</em>, <em>Fitzcarraldo</em> and <em>Cobra Verde</em>. He was legendary on set. And legendary indispensable.</p>
+          <p class="vb-intro">The Black Mamba is the animal of the sexual Type 1, and no animal reflects Klaus Kinski in a more terrifying way. The Black Mamba is known for its speed, precision, and deadly strike. It does not strike out of whim, but out of an inner law: when it feels threatened, it reacts mercilessly. Indifference is foreign to it. Being near it means being fully awake.</p>
+          <p class="vb-intro">Klaus Kinski, born in 1926 in Danzig, died in 1991 in California, was one of the most intense personalities in film history. With Werner Herzog, he made five films that count among the most significant in German cinema: Aguirre, the Wrath of God, Nosferatu the Vampyre, Woyzeck, Fitzcarraldo, and Cobra Verde. On set, he was legendarily feared. And legendarily indispensable.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual One: fervor and the contratype</h2>
+        <h2 class="vb-section">2. The Sexual One: Fervor and the Countertype</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual One (SX1)</strong> is the <strong>Contratype of one</strong> - the subtype that seems least like a one, but is the most intense. While the self-preserving and Social One direct their demands for perfection inwardly or toward the collective, the Sexual One combines their moral energy with passionate directness. Naranjo called this subtype <em>Zeal</em> - Fervor: a burning desire to separate the real from the fake, more unfiltered, more impatient, more uncompromising than any other A subtype.</p>
-          <p class="vb-intro">Kinski not only had the drive to achieve perfection &mdash; he experienced this as a deep inner fire. As an actor, he was notorious for his uncompromising devotion to his roles and his unyielding demands on directors and colleagues. His idea of ​​perfection was absolute and anything but negotiable. This is typical of the Sexual One: she sees her own ideals as irrefutable truths to which everything else must be subordinated.</p>
-          <p class="vb-intro">His gaze was intense, often threatening and profound. There was something inevitable about him &mdash; as if he perceived everything around him with penetrating sharpness, subjecting not only others but also himself to a critical examination. People around him often described that his gaze caused a certain level of unrest and fear. Indifference was not an option.</p>
+          <p class="vb-intro">The sexual One (SX1) is the countertype of the One—the subtype that looks least like a One, yet is the most intense. While the self-preservation and social Ones direct their drive for perfection inward or onto the collective, the sexual One connects its moral energy with passionate directness. Naranjo called this subtype Zeal: a burning desire to separate the genuine from the false, more unfiltered, impatient, and uncompromising than in any other One subtype.</p>
+          <p class="vb-intro">Kinski had not merely the urge to achieve perfection—he experienced it as a deep inner fire. As an actor, he was notorious for his uncompromising dedication to his roles and his unrelenting demands on directors and colleagues. His concept of perfection was absolute and anything but negotiable. That is typical of the sexual One: it sees its own ideals as unshakeable truths to which everything else must be subordinated.</p>
+          <p class="vb-intro">His gaze was intense, often threatening and profound. It possessed something inevitable—as if he perceived everything around him with penetrating sharpness, subjecting not only others but also himself to critical scrutiny. People around him often described his gaze as evoking a certain apprehension and fear. Indifference was not an option.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Wing of Nine: Persistence Behind the Fire</h2>
+        <h2 class="vb-section">3. The Nine Wing: Persistence Behind the Fire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wing of nine (w9)</strong> adds a peculiar quality to the intensity of the Sexual One: endurance. The Nine is patient, persistent, she perseveres &mdash; not because she is indifferent, but because she has a deep ability to persist in something long after others have given up. In Kinski's case, this wing shows itself in his ability to return to the same partners again and again, to go to the same depths again and again.</p>
-          <p class="vb-intro">His five films with Werner Herzog were no coincidence. Herzog and Kinski hated and needed each other at the same time &mdash; a relationship that would not have survived without the nine wing. The Sexual One provides the fire. The wing of nine provides the gravity that holds the fire in place.</p>
+          <p class="vb-intro">The Nine wing (w9) adds a peculiar quality to the intensity of the sexual One: endurance. The Nine is patient, persistent, enduring not out of indifference, but because it possesses a deep capacity to remain within a situation long after others have given up. In Kinski, this wing manifests in his ability to return time and again to the same artistic partners, descending repeatedly into the same depths.</p>
+          <p class="vb-intro">His five films with Werner Herzog were no random constellation. Herzog and Kinski hated and needed each other simultaneously—a relationship that could not have survived without the Nine wing. The sexual One supplies the fire. The Nine wing supplies the gravity that holds the fire in place.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: Anger as a Moral Judgment</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as Moral Judgment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and at SX1w9 he reaches an intensity that breaks through all social filters. Kinski was notorious for his temper tantrums and his inability to compromise, particularly when he felt his artistic or ethical standards were being betrayed. These outbursts arose not just from personal frustration but from a deep sense of moral injury.</p>
-          <p class="vb-intro">Although Kinski's outward appearance often seemed uncontrolled, this was part of a deeper struggle typical of the Sexual One: the inner need for control and moral purity and the simultaneous difficulty in maintaining that control. The mamba, feeling threatened, bites. Kinski bit &mdash; verbal, emotional, existential.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and in the SX1w9 it reaches an intensity that breaches all social filters. Kinski was notorious for his outbursts of rage and his inability to compromise, especially when he felt that his artistic or ethical standards were betrayed. These outbursts stemmed not merely from personal frustration, but from a profound sense of moral violation.</p>
+          <p class="vb-intro">Although Kinski often appeared uninhibited in his external behavior, this was part of a deeper struggle typical of the sexual One: the inner drive for control and moral purity alongside the difficulty of maintaining that control. The mamba that feels threatened bites. Kinski bit verbally, emotionally, existentially.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Fascination and Destruction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Klaus Kinski's overall impact was deeply polarizing. As expected with the Sexual One, his presence was both fascinating and frightening. You could either love or hate Kinski &mdash; but indifference was not an option. His energy dominated every room he entered, be it through his acting or his spirited outbursts.</p>
-          <p class="vb-intro">He had an extremely polarizing personality that provoked strong emotional reactions in others. The Sexual One is either looking for a deep, passionate connection with those around them &mdash; or, if disappointed, she rejects them just as passionately. With Kinski, both were always complete, never half. His life's work &mdash; and his shadow &mdash; are testament to the powerful but often destructive nature of Sexual Oneness.</p>
+          <p class="vb-intro">Klaus Kinski's overall impact was deeply polarizing. As expected with the sexual One, his presence was both fascinating and frightening. One could either love or hate Kinski—but indifference was not an option. His energy dominated every room he entered, whether through his acting performance or his tempestuous outbursts.</p>
+          <p class="vb-intro">He possessed an extremely polarizing personality that evoked strong emotional reactions in others. The sexual One seeks either a deep, passionate connection with fellow humans or, when disappointed, rejects them with equal passion. Both were always complete in Kinski, never half-hearted. His life's work and his shadow stand as witness to the powerful, yet often destructive nature of the sexual One.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Intensity as Art</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Klaus Kinski left to the cinema is unrepeatable. His <em>Aguirre</em> is not feigned madness &mdash; it is madness made visible through the medium of film. His <em>Nosferatu</em> needs no trick, no mask &mdash; he just needs those eyes, that look, that inevitability. This is the gift of the Black Mamba: an intensity that cannot be simulated.</p>
-          <p class="vb-intro">The Sexual One can inspire and destroy &mdash; sometimes at the same time. Kinski did both. His life's work is a testimony to what is possible when a person completely surrenders to their inner truth - without consideration, without filter, without compromise. This is at the same time the biggest and most dangerous thing about the SX1w9.</p>
+          <p class="vb-intro">What Klaus Kinski left to cinema is unrepeatable. His Aguirre is not acted madness—it is madness made visible through the medium of film. His Nosferatu needs no gimmick, no mask—it needs only those eyes, that gaze, that inevitability. That is the gift of the Black Mamba: an intensity that cannot be simulated.</p>
+          <p class="vb-intro">The sexual One can inspire and destroy—sometimes simultaneously. Kinski did both. His life's work is a testament to what is possible when a human surrenders completely to their inner truth without restraint, without filter, without compromise. That is at once the grandest and the most dangerous aspect of the SX1w9.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v626';
+  const MY_VERSION = 'inhalt-v627';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
