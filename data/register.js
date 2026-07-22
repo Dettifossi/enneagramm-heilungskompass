@@ -377,6 +377,8 @@ export const registerEntries = [
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 · Sexueller Typ 2 · Schauspielerin, UN-Botschafterin" },
   { term: "Anke Engelke",                  route: "beruehmte-anke-engelke",                description: "Portrait: SO2w3 · Sozialer Typ 2 · Komikerin, Moderatorin" },
   { term: "Barack Obama",                  route: "beruehmte-barack-obama",                description: "Portrait: SO2w3 · Sozialer Typ 2 · 44. US-Präsident, Friedensnobelpreis" },
+    { term: "James Levine", route: "beruehmte-james-levine", description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Dirigent, Metropolitan Opera, Elefant" },
+    { term: "James Levine", route: "beruehmte-james-levine", description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Dirigent, Metropolitan Opera, Elefant" },
   { term: "Bärbel Bas",                 route: "beruehmte-baerbel-bas",                 description: "Portrait: SO2w1 · Sozialer Typ 2 · Bundestagspräsidentin" },
   { term: "Beatrice Chebet",               route: "beruehmte-beatrice-chebet",             description: "Portrait: SX3w2 · Sexueller Typ 3 · kenianische Langstreckenläuferin, Weltrekord" },
   { term: "Bella Thorne",                  route: "beruehmte-bella-thorne",                description: "Portrait: SX4w3 · Sexueller Typ 4 · Schauspielerin, Selbstausdruck & Grenzen" },

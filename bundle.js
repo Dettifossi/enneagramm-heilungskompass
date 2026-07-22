@@ -550,6 +550,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
     tags:["Musik","Kunst"] , gender:"m"},
+  { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
+    heading:"James Levine – Selbsterhaltender Typ 9",
+    teaser:"SE9w1 · 1943–2021. Dirigent, 40 Jahre Musikdirektor der Metropolitan Opera New York. Der Elefant, der das Haus bewohnte – vollständige Versenkung, langer Atem, und ein Schatten, der das Bild für immer teilt.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
@@ -11089,6 +11093,70 @@ function willyBrandtPortraitPage() {
     </div>
   `);
 }
+
+function jamesLevinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-james-levine-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Levine</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Dirigent &amp; Pianist, 1943&ndash;2021 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft James Levine genauer. Der Elefant vergisst nicht. Er bewegt sich in seinem eigenen Rhythmus, ruhig, gründend, mit einer Pr\xe4senz, die den Raum ver\xe4ndert, bevor er ein einziges Wort sagt. Er braucht keine Aktion, um zu wirken. Es gen\xfcgt, dass er da ist.</p>
+          <p class="vb-intro">James Levine, 1943 in Cincinnati geboren, 2021 verstorben, war einer der bedeutendsten Dirigenten des 20. Jahrhunderts. Vierzig Jahre lang leitete er die Metropolitan Opera in New York &ndash; zuerst als Musikdirektor, sp\xe4ter als Chefdirigent. Er formte ein Orchester, das seinen Klang trug wie ein Instrument, das f\xfcr ihn gebaut worden war. Kein anderer Dirigent der Neuzeit hat ein einzelnes Haus so lange, so pr\xe4gend, so vollst\xe4ndig bewohnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> dr\xfcckt die Tr\xe4gheit der Neun durch sinnliche F\xfclle aus. Naranjo nannte diesen Subtyp <em>Appetit</em>: die Lust am Genuss, am Komfort, an der tiefen Versenkung in das, was einen n\xe4hrt. Die SE9 will nicht die Welt ver\xe4ndern. Sie will in ihr wohnen &ndash; vollst\xe4ndig, warm, umgeben von dem, was ihr guttut.</p>
+          <p class="vb-intro">Levines Appetit war die Musik. Nicht als Karriere, nicht als Leistung &ndash; sondern als Lebensform. Er verschmolz mit dem Repertoire wie der Elefant mit seiner Herde: vollst\xe4ndig, still, aus tiefer Zugeh\xf6rigkeit. Wagner, Verdi, Mozart, Mahler, Brahms &ndash; er lernte sie nicht, er bewohnte sie. Die Met war nicht sein Arbeitsplatz. Sie war sein Territorium, sein Zuhause, sein Appetit in architektonischer Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Die innere Strenge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der selbsterhaltenden Neun eine Qualit\xe4t, die den reinen SE9er erg\xe4nzt: Pr\xe4zision, Strenge und einen inneren Maßstab, der keine Abk\xfcrzungen akzeptiert. Die SE9w8 sucht die Macht. Die <strong>SE9w1</strong> sucht die Richtigkeit &ndash; im Detail, im Klang, in der Reinheit des Ausdrucks.</p>
+          <p class="vb-intro">Levine war ber\xfchmt f\xfcr seine enorme musikalische Genauigkeit. Er probte mit einer Geduld und Tiefe, die selbst erfahrene S\xe4nger und Orchestermusiker in Staunen versetzte. Der Einserfl\xfcgel gab ihm den Antrieb zur Perfektion; die Neun gab ihm die Ruhe, die dieser Perfektion nie etwas Getriebenes gab. Das Ergebnis war ein Dirigat, das gro\xdf wirkte, ohne je gro\xdf tun zu m\xfcssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vierzig Jahre Met</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Levine \xfcbernahm 1976 die musikalische Leitung der Metropolitan Opera &ndash; mit dreiunddrei\xdfig Jahren. Was folgte, war eine der l\xe4ngsten und pr\xe4gendsten Dirigentschaft in der Geschichte einer gro\xdfen Oper. Er baute das Met-Orchester systematisch aus, f\xfchrte das Haus in neue Repertoire-Bereiche und arbeitete mit den bedeutendsten S\xe4ngern und Regisseuren seiner Zeit. Das Sommerfestival in Salzburg, jahrelange Zusammenarbeit mit den Berliner Philharmonikern, eine kurze Phase als Chefdirigent des Boston Symphony Orchestra (2004&ndash;2011) &ndash; sein Einfluss reichte weit \xfcber New York hinaus.</p>
+          <p class="vb-intro">Sein Repertoire war au\xdferordentlich breit: Er dirigierte Wagner-Zyklen ebenso wie Mozart-Opern, Brahms-Sinfonien ebenso wie zeitgen\xf6ssische Urauff\xfchrungen. Dabei bewahrte er stets eine Qualit\xe4t, die seine Arbeit erkennbar machte: eine Verbindung von struktureller Klarheit und sinnlicher W\xe4rme, die den Elefanten beschreibt &ndash; gro\xdf, geduldig, von innen heraus leuchtend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der Appetit ohne Grenze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w1 ist ihre <strong>beharrliche Tiefe</strong>. Levine schuf \xfcber Jahrzehnte ein musikalisches Haus, das ohne ihn undenkbar gewesen w\xe4re. Sein Standard war hoch, sein Einsatz total, seine Liebe zur Musik unzweideutig. Der Einserfl\xfcgel hielt ihn in der Spur; die Neun gab ihm die Ausdauer.</p>
+          <p class="vb-intro">Der Schatten: Der Appetit der SE9 kennt keine nat\xfcrliche Grenze. 2017 wurden \xf6ffentlich Vorw\xfcrfe sexuellen Missbrauchs gegen Levine erhoben &ndash; von mehreren M\xe4nnern, die beschrieben, als Jugendliche und junge Erwachsene von ihm missbraucht worden zu sein. Die Met k\xfcndigte seinen Vertrag. Sp\xe4tere Untersuchungen best\xe4tigten die Vorw\xfcrfe in wesentlichen Teilen. Was jahrzehntelang im Schatten seiner \xdcbermacht geblieben war, trat ans Licht &ndash; und das Bild, das zur\xfcckblieb, war ein geteiltes: das des gro\xdfen Musikers und das des Mannes, der seine Stellung als Territorium und Appetit zugleich behandelt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der das Haus bewohnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">James Levine hat die Metropolitan Opera gepr\xe4gt wie kein Zweiter. Er hat ihr einen Klang gegeben, der erkennbar war. Er hat Generationen von S\xe4ngern und Musikern geformt. Und er hat gezeigt, wie die selbsterhaltende Neun in ihrer besten Form aussieht: vollst\xe4ndige Versenkung, langer Atem, eine Pr\xe4senz, die nicht erkl\xe4rt werden muss. In ihrer dunkelsten Form zeigt sie auch, wie der Appetit, der keine Grenze kennt, alles zerst\xf6ren kann, was er aufgebaut hat. Der Elefant vergisst nicht. Und die Geschichte auch nicht.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SE9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Neuntyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 9.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-baerbel-bas", label:"Portr\xe4t: B\xe4rbel Bas (SE9w1)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function baerbelBasPortraitPage() {
   return shell(`
@@ -40720,7 +40788,8 @@ function render() {
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
-      "beruehmte-baerbel-bas": baerbelBasPortraitPage,
+          "beruehmte-james-levine": jamesLevinePortraitPage,
+    "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
@@ -41176,7 +41245,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v715';
+  const MY_VERSION = 'inhalt-v716';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
