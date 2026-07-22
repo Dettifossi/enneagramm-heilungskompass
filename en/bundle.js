@@ -14868,47 +14868,47 @@ function ruthBaderGinsburgPortraitPage() {
         </div>
         <p class="krim-portrait-name">Ruth Bader Ginsburg</p>
         <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with nine wing\xfcgel</p>
-        <p class="krim-portrait-subtitle">US Federal Supreme Court Justice, 1933-2020 - Animal correspondence: Crocodile</p>
+        <p class="krim-portrait-subtitle">US Supreme Court Justice, 1933–2020 – Animal equivalent: Crocodile</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>crocodile</strong> is the animal of sexual type 8 &mdash; and no picture captures Ruth Bader Ginsburg more precisely. The crocodile is the oldest predator on earth: patient in waiting, precise in its attack, unfazed by resistance and almost unchanged for millions of years. It doesn't take size to inspire respect. It's enough that it's there.</p>
-          <p class="vb-intro">Ginsburg, born in Brooklyn in 1933, died in 2020, was a justice on the Supreme Court of the United States for 27 years &mdash; the second woman in this story. She was 1.57 meters tall\xdf. She spoke quietly. Their dissenting opinions were famous for cutting straight to the heart of the majority opinions, without paraphrasing. The crocodile doesn't need to show off. His access is enough.</p>
+          <p class="vb-intro">The crocodile is the animal symbol of the Sexual Type 8—and no image captures Ruth Bader Ginsburg more precisely. The crocodile is the oldest predator on Earth: patient in waiting, precise in its strike, unimpressed by opposition, and virtually unchanged for millions of years. It needs no grand size to command respect. Its mere presence is enough.</p>
+          <p class="vb-intro">Ginsburg, born in Brooklyn in 1933 and passing away in 2020, served as an Associate Justice on the Supreme Court of the United States for 27 years—only the second woman in its history. She stood 5 feet 1 inch tall. She spoke quietly. Her dissenting opinions were famous for cutting straight to the heart of majority rulings without euphemism. The crocodile needs no bravado. Its grip is sufficient.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Eight (SX8)</strong> is, according to Naranjo, the subtype that he <em>Besitz</em> called &ndash; in English <em>Possession</em>. The Sexual Eight doesn't just want to win. She wants the complete encounter: the total conviction, the absolute connection, the influence that is non-negotiable. What the SX8 loves, it loves with all of itself. She doesn't let go of what she thinks is wrong.</p>
-          <p class="vb-intro">Ginsburg's life reads like an SX8 report: She didn't want to be one of many judges &mdash; she wanted to change the law itself. As a lawyer in the 1970s, she led cases before the Supreme Court that systematically and methodically fought for legal equality between the sexes. She chose her cases like a crocodile chooses its prey: carefully, without haste - and with the knowledge that access will be there.</p>
+          <p class="vb-intro">According to Naranjo, the Sexual Eight (SX8) is the subtype he termed "Possession." The Sexual Eight does not merely wish to win. It seeks full engagement: total conviction, absolute connection, and an influence that is non-negotiable. What the SX8 loves, she loves with her entire being. What she deems wrong, she will not leave unchallenged.</p>
+          <p class="vb-intro">Ginsburg's life reads like an SX8 blueprint: she did not want to be just one of many judges—she sought to transform the law itself. As an attorney in the 1970s, she argued cases before the Supreme Court that systematically and methodically fought for legal gender equality. She selected her cases like a crocodile chooses its prey: thoughtfully, without haste—and with the knowledge that the strike would hold.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The wing of nine: The silence before access</h2>
+        <h2 class="vb-section">3. The Nine Wing: The Calm Before the Strike</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine wing\xfcgel</strong> gives the Sexual Eight a quality that the pure eight often does not show: patience, spaciousness and a silence that is not passivity but concentrated strength. The SX8w7 strikes immediately. The <strong>SX8w9</strong> wait until the moment is so complete that no doubt remains.</p>
-          <p class="vb-intro">Ginsburg waited decades for the right cases, the right courts, the right political windows. Their path to equality wasn't a sprint &mdash; it was a strategic campaign spanning thirty years. The wing of nine also gave her the ability to persevere: eight cancer surgeries, the death of her husband in 2010, years of pressure to resign - and she stayed. The crocodile will not retreat as long as there is still water.</p>
+          <p class="vb-intro">The Nine wing imparts a quality to the Sexual Eight that the pure Eight often lacks: patience, perspective, and a quietude that is not passivity, but gathered strength. The SX8w7 strikes immediately. The SX8w9 waits until the moment is so complete that no doubt remains.</p>
+          <p class="vb-intro">Ginsburg waited decades for the right cases, the right courts, and the right political windows. Her path toward equal rights was no sprint—it was a strategic campaign spanning thirty years. The Nine wing also granted her the capacity for endurance: eight cancer surgeries, the death of her husband in 2010, and years of pressure to step down—yet she remained. The crocodile does not retreat as long as water remains.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From lawyer to judge</h2>
+        <h2 class="vb-section">4. The Work: From Attorney to Justice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the 1970s, Ginsburg co-founded the ACLU's Women's Rights Project and led a number of landmark cases before the Supreme Court. Her approach was unorthodox: She often chose male plaintiffs &ndash; to show that gender discrimination affected both sides and was easier to convince the court. That wasn't modesty. That was precision.</p>
-          <p class="vb-intro">In 1993, President Clinton appointed her to the Supreme Court. As a judge, she was known for her precise, clear language and her relentless dissenting opinions - particularly in recent years, when the court's conservative majority made rulings that it believed were fundamental errors. Your dissenting opinion in the case <em>Ledbetter v. Goodyear</em> (2007) is an example of this: The court decided the case against their vote &mdash; but their vote was so precise and so publicly effective that the 2009 Congress passed the <em>Lilly Ledbetter Fair Pay Act</em> said goodbye. The crocodile loses the vote. And still changes the law.</p>
+          <p class="vb-intro">In the 1970s, Ginsburg co-founded the ACLU's Women's Rights Project and led a series of landmark cases before the Supreme Court. Her approach was unorthodox: she frequently represented male plaintiffs—to demonstrate that gender discrimination impacted both sides and to make the court easier to persuade. That was not modesty. That was precision.</p>
+          <p class="vb-intro">In 1993, President Clinton appointed her to the Supreme Court. As a Justice, she was renowned for her precise, clear language and her relentless dissenting opinions—particularly in her later years as the conservative majority handed down rulings she viewed as fundamental errors. Her dissent in Ledbetter v. Goodyear (2007) stands as an example: the Court ruled against her vote—yet her dissent was so incisive and publicly resonant that Congress passed the Lilly Ledbetter Fair Pay Act in 2009. The crocodile loses the vote, yet still changes the law.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The Intransigence</h2>
+        <h2 class="vb-section">5. Light and Shadow: Relentlessness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX8w9 is its <strong>absolute integrity\xe4t</strong>. Ginsburg never allowed himself to be influenced by political opportunities. Her stance on equality was not a career strategy &mdash; It was a purpose in life for which she paid: as a law student who was denied professorships, as a lawyer at a time when women were hardly accepted into law firms, and as a judge who was advised to resign for decades.</p>
-          <p class="vb-intro">The Shadow: The SX8w9's intransigence can turn into stubbornness. Ginsburg holds on to her office until the end - and dies without making possible a successor under a president close to her. Her seat goes to Amy Coney Barrett. The question of whether she stayed too long is not easy to answer. But the SX8w9 usually doesn't face it - the office is their territory, and they don't give that up.</p>
+          <p class="vb-intro">The light of the SX8w9 lies in her absolute integrity. Ginsburg never let herself be bent by political expediency. Her stance on equality was no career strategy—it was a life's purpose for which she paid: as a law student denied professorships, as an attorney in an era when women were scarcely accepted into law firms, and as a Justice advised for decades to retire.</p>
+          <p class="vb-intro">The shadow: the relentlessness of the SX8w9 can harden into stubbornness. Ginsburg held onto her office until the end—and died without enabling a successor under a president aligned with her views. Her seat fell to Amy Coney Barrett. The question of whether she stayed too long is not easily answered. But the SX8w9 rarely asks it—the position is her territory, and one does not surrender territory.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Crocodile That Remains</h2>
+        <h2 class="vb-section">6. The Crocodile That Endures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ruth Bader Ginsburg died at 87, in the line of duty, on the eve of an election year &mdash; and in the days that followed, she became an icon in a way that female judges rarely become. Her jabots, the lace collars on her judge's robes, became world famous. Their sayings were on mugs, T-shirts and wall posters. The crocodile needs no staging &mdash; but sometimes the world stages it anyway.</p>
-          <p class="vb-intro">What remains is the work. Laws that exist because of her. Judgments that look different because of her. A generation of female lawyers who think differently because of her. The SX8w9 leaves no heroic narrative - it leaves behind change. The crocodile was there. The print remains.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Ruth Bader Ginsburg died at the age of 87, in active service on the eve of an election year—and in the days that followed became an icon in a way few judges ever do. Her jabots, the lace collars on her judicial robes, became world-famous. Her quotes adorned mugs, t-shirts, and posters. The crocodile needs no staging—yet sometimes the world stages it anyway.</p>
+          <p class="vb-intro">What remains is the body of work. Laws that exist because of her. Rulings that look different because of her. A generation of legal minds that thinks differently because of her. The SX8w9 leaves no heroic tale behind—she leaves change. The crocodile was here. The imprint remains.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -14932,58 +14932,58 @@ function sahraWagenknechtPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sahra Wagenknecht</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-Wing &middot; Reinforcement type of the three</p>
-        <p class="krim-portrait-subtitle">Politician, author, party founder, born 1969 &mdash; Animal correspondence: Cheetah</p>
+        <p class="krim-portrait-subtitle">Politician, author, party founder, b. 1969 – Animal equivalent: Cheetah</p>
       </div>
 
       <div class="page-content">
 
-        <h2 class="vb-section">1. The quality of gaze</h2>
+        <h2 class="vb-section">1. The Quality of the Gaze</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The gaze of the Social Three is self-confident, outward-directed and penetrating &mdash; he looks for the audience, measures the impact, calculates the response. Sahra Wagenknecht's view of talk shows and parliamentary debates is legendary: calm, precise, easy to see. No nervousness, no distractions. She looks where the attention is &mdash; and holds her tight.</p>
-          <p class="vb-intro">This is the cheetah in the approach. Still motionless, but already focused on the goal. The Social Threesome knows the stage before they step on it. Wagenknecht instinctively knows how a sentence has to sound in order to be remembered &mdash; and how a silence is sometimes louder than any answer.</p>
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives this look an additional quality: it not only looks self-confident, but also inviting. Wagenknecht can listen &mdash; or give the impression that she does. This mix of sharpness and warmth is her political trademark.</p>
+          <p class="vb-intro">The gaze of the Social Three is confident, externally focused, and penetrating—it seeks the audience, measures impact, and calculates resonance. Sahra Wagenknecht's gaze on talk shows and in parliamentary debates is legendary: calm, precise, slightly sweeping. No nervousness, no distraction. She looks directly where attention lies—and holds it fast.</p>
+          <p class="vb-intro">That is the cheetah in position. Still motionless, yet already locked onto the target. The Social Three knows the stage before ever stepping onto it. Wagenknecht instinctively knows how a sentence must sound to linger in memory—and how silence can sometimes ring louder than any response.</p>
+          <p class="vb-intro">The Two wing (w2) imparts an additional quality to this gaze: it appears not only self-assured, but inviting. Wagenknecht can listen—or create the impression that she is doing so. This blend of sharpness and warmth is her political trademark.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Three: success as identity, recognition as fuel</h2>
+        <h2 class="vb-section">2. The Social Three: Success as Identity, Recognition as Fuel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social subtype of the three, which Claudio Naranjo denotes <strong>Reinforcement type</strong> called, lives for prestige, status and public impact. He doesn't just want to be successful &mdash; he wants everyone to see it. The stage is not a means, but a home. Sahra Wagenknecht has developed this energy to a high level: books that become bestsellers. Speeches that go viral. A party that bears her name.</p>
-          <p class="vb-intro">The BSW &mdash; Alliance Sahra Wagenknecht, founded in 2024 &mdash; is an extraordinary phenomenon politically and typologically: a party named after a person that immediately enters three state parliaments. The Social Threesome builds systems that make it visible. Wagenknecht did this with a consistency that astonished even political opponents.</p>
-          <p class="vb-intro">She is not a populist in the classic sense &mdash; she is a <em>Analyst of the popular</em>. She understands what motivates people and formulates it in a way that hits home. This is the gift of the Social Three: not just to perform, but to understand, <em>warum</em> bestimmte Inhalte funktionieren.</p>
+          <p class="vb-intro">The Social subtype of Type Three, which Claudio Naranjo termed the "prestige type," lives for prestige, status, and public impact. It does not merely want to be successful—it wants everyone to witness it. The stage is not a means to an end, but home. Sahra Wagenknecht has cultivated this energy to a high degree: books that turn into bestsellers, speeches that go viral, and a political party bearing her name.</p>
+          <p class="vb-intro">The BSW—Bündnis Sahra Wagenknecht, founded in 2024—is an extraordinary phenomenon both politically and typologically: a party named after an individual that immediately entered three state parliaments. The Social Three builds systems that make her visible. Wagenknecht carried this out with a consistency that astounded even political opponents.</p>
+          <p class="vb-intro">Yet she is no populist in the classic sense—she is an analyst of the popular. She understands what moves people and articulates it in a way that lands. That is the gift of the Social Three: not just to perform, but to understand why certain messages resonate.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The two-wing: solidarity with the people as political capital</h2>
+        <h2 class="vb-section">3. The Two Wing: Connection to the People as Political Capital</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> brings a crucial addition to the SO3 basic structure: the desire to be liked, to be needed, to be there for others. The two-wing is not just about abstract recognition &mdash; it's about personal affection, the feeling that people trust you and want to follow you.</p>
-          <p class="vb-intro">Wagenknecht uses this energy masterfully. Their political messages often sound like those of someone who is personally affected - who fights for the weaker because he has experienced it himself. The message is: <em>I am one of you.</em> And the SO3w2er is good at conveying exactly that - because he feels it too, at least in the moment he says it.</p>
-          <p class="vb-intro">The downside: The two wing can tend to seek approval and experience contradiction as a personal attack. Anyone who criticizes Wagenknecht is not just criticizing a political position - he attacks an identity. This explains why arguments with her often reach a level of acrimony that goes beyond factual differences.</p>
+          <p class="vb-intro">The Two wing (w2) introduces a crucial addition to the core SO3 structure: the desire to be liked, needed, and present for others. With the Two wing, it is not merely about abstract recognition—it is about personal affection, creating the sense that people want to trust and follow her.</p>
+          <p class="vb-intro">Wagenknecht channels this energy masterfully. Her political messaging often sounds like that of someone personally affected—fighting for the disadvantaged because she has experienced it herself. The message is: "I am one of you." And the SO3w2 excels at conveying precisely that—because she feels it too, at least in the moment she utters it.</p>
+          <p class="vb-intro">The flip side: the Two wing can tend toward seeking approval and experiencing opposition as a personal attack. Those who criticize Wagenknecht do not merely critique a political position—they challenge an identity. This explains why debates involving her often reach an intensity that extends far beyond objective disagreements.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The overall effect: books, party, media, brand</h2>
+        <h2 class="vb-section">4. Overall Impact: Books, Party, Media, Brand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sahra Wagenknecht is one of the most discussed politicians in Germany &mdash; not in spite of their contradictions, but because of them. She was a communist and is now the leader of a pragmatic conservative left. She represents social justice and at the same time a restrictive migration policy. She criticizes capitalism and writes books that are reviewed in the mainstream feuilleton.</p>
-          <p class="vb-intro">The SO3w2er navigates contradictions intuitively &mdash; not because he is dishonest, but because he senses what is required. The ability to adapt is not a flaw, but a competence: if you want to appeal to many different milieus, you have to speak many different languages. Wagenknecht has mastered this skill at a level that is hardly unparalleled in the German political landscape.</p>
-          <p class="vb-intro">Your books &mdash; including <em>The Self-Righteous</em> (2021) and <em>Frieden</em> (2023) &mdash; are not party programs, but cultural interventions. They create space for debates that do not take place elsewhere. This is the Social Threesome at its conscious level of expression: it uses success not just for itself, but as a platform for something bigger.</p>
+          <p class="vb-intro">Sahra Wagenknecht is one of Germany's most debated politicians—not despite her contradictions, but because of them. She was a communist and now leads a party representing a pragmatic-conservative left. She advocates social justice while simultaneously backing restrictive migration policies. She critiques capitalism while writing books reviewed in mainstream literary columns.</p>
+          <p class="vb-intro">The SO3w2 navigates contradictions intuitively—not out of dishonesty, but because she senses what is demanded in any given moment. Adaptability is no flaw, but a competence: to address many distinct milieus, one must speak many distinct languages. Wagenknecht commands this ability at a level rarely matched in the German political landscape.</p>
+          <p class="vb-intro">Her books—including Die Selbstgerechten (2021) and Frieden (2023)—are not party platforms, but cultural interventions. They create space for debates that fail to occur elsewhere. That is the Social Three at a conscious level of expression: utilizing success not merely for oneself, but as a platform for something larger.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The cheetah: the energetic effect on the political stage</h2>
+        <h2 class="vb-section">5. The Cheetah: Energetic Impact on the Political Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The cheetah is the fastest land animal in the world &mdash; and it is precise. He doesn't just run, he runs <em>zielgenau</em>. No other animal embodies the energy of the Social Three so aptly: speed, focus, efficiency, elegance. Sahra Wagenknecht has fully developed this energy in the political arena. Her speeches are quick, but never uncontrolled. Her arguments are sharp but rarely erratic.</p>
-          <p class="vb-intro">Anyone who sees Wagenknecht on a talk show notices this cheetah energy: she waits for the right moment, then attacks precisely and leaves the impression that she has much more in reserve. That's not a pose &mdash; that is typological substance. The SO3w2 doesn't struggle with volume. He struggles with timing and impact.</p>
-          <p class="vb-intro">At the same time, the cheetah has a weak point: it cannot run for long. Focusing on sprinting means endurance at other levels can suffer. Wagenknecht needed time off for health reasons several times. The energy of SO3 is highly efficient &mdash; but it has its price.</p>
+          <p class="vb-intro">The cheetah is the fastest land animal on Earth—and it is precise. It does not merely run; it runs with pinpoint accuracy. No other animal embodies the energy of the Social Three as fittingly: speed, focus, efficiency, elegance. Sahra Wagenknecht has fully developed this energy in the political arena. Her speeches are swift, yet never uncontrolled. Her arguments are sharp, yet rarely erratic.</p>
+          <p class="vb-intro">Observing Wagenknecht on a panel show reveals this cheetah energy: she awaits the right moment, strikes with precision, and leaves the impression of having far more in reserve. That is no pose—that is typological substance. The SO3w2 does not fight through volume; she fights through timing and impact.</p>
+          <p class="vb-intro">At the same time, the cheetah possesses a vulnerability: it cannot sustain long distances. The focus on sprinting means endurance on other levels can suffer. Wagenknecht has required health-related breaks on several occasions. The energy of the SO3 is highly efficient—yet it carries its price.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The healing path: when success no longer has to prove who you are</h2>
+        <h2 class="vb-section">6. The Path of Healing: When Success No Longer Has to Prove Who You Are</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the three leads from the question <em>What have I achieved?</em> to knowledge <em>I am &mdash; beyond all performance.</em> For the SO3w2 this means: no longer writing books to be heard, but because you have something to say. No more going on talk shows to garner approval, but to be honest &mdash; even if it costs.</p>
-          <p class="vb-intro">There are moments in Wagenknecht's public appearance in which this transformation becomes visible: when she takes uncomfortable positions that damage her reputation in the short term because she believes they are right. The cheetah that no longer just hunts for applause, but for truth &mdash; this is the Social Three at its highest level of expression.</p>
-          <p class="vb-intro">A conscious SO3w2er can become a bridge - between camps that no longer listen to each other. Wagenknecht has this potential. Whether she uses it fully remains to be seen. But the cheetah that pauses and thinks before sprinting &mdash; that is the energy that is most needed politically.</p>
+          <p class="vb-intro">The healing path of the Three leads from the question "What have I achieved?" to the realization "I am—beyond all performance." For the SO3w2, this means: writing books no longer to be heard, but because one has something to say. Entering public debates no longer to gather approval, but to be authentic—even when it comes at a cost.</p>
+          <p class="vb-intro">Moments appear in Wagenknecht's public career where this transformation becomes visible: taking uncomfortable positions that temporarily harm her standing because she believes them to be right. The cheetah that no longer hunts merely for applause, but for truth—that is the Social Three at its highest expression.</p>
+          <p class="vb-intro">A conscious SO3w2 can become a bridge between camps that have stopped listening to one another. Wagenknecht holds this potential. Whether she realizes it fully remains open. But the cheetah that pauses and reflects before sprinting—that is the energy most urgently needed in politics.</p>
         </blockquote>
 
       </div>
 
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
 
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
@@ -15005,54 +15005,54 @@ function sucharitBhakdiPortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Dr. Sucharit Bhakdi</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-Wing &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Microbiologist, born 1946 &mdash; Pioneer of critical vaccine science &mdash; Animal correspondence: Golden Retriever</p>
+        <p class="krim-portrait-subtitle">Microbiologist, b. 1946 – Pioneer of critical vaccine science – Animal equivalent: Golden Retriever</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Golden Retriever that sounds the alarm</h2>
+        <h2 class="vb-section">1. The Golden Retriever Sounding the Alarm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retrievers</strong> is the animal of the Social Two &mdash; and no animal describes Prof. Dr. Sucharit Bhakdi more apt. The Golden Retriever is naturally human-oriented, loyal, warming, loyal. He doesn't hit out of aggression &mdash; he strikes out of love. Because he senses that something is wrong. Because he sees the danger before others see it. Because he cannot remain silent when those he loves are in danger.</p>
-          <p class="vb-intro">Sucharit Bhakdi, born in 1946 in Washington D.C., grew up in Thailand, studied and taught in Germany &mdash; For 22 years as full professor of medical microbiology at the University of Mainz, one of the most cited microbiologists in Germany &mdash; became one of the most distinctive and courageous voices of scientific criticism during the pandemic. He went public not because he sought attention, but because he believed he had to. Because the Golden Retriever can't sleep when he smells alarm.</p>
+          <p class="vb-intro">The Golden Retriever is the animal symbol of the Social Type 2—and no animal describes Prof. Dr. Sucharit Bhakdi more accurately. The Golden Retriever is naturally oriented toward people, loyal, warming, and faithful. It barks not out of aggression—it barks out of love. Because it senses that something is wrong. Because it sees danger before others do. Because it cannot stay silent when those it loves are in harm's way.</p>
+          <p class="vb-intro">Sucharit Bhakdi, born in 1946 in Washington D.C., raised in Thailand, educated and teaching in Germany—serving for 22 years as Chair of Medical Microbiology at the University of Mainz, one of Germany's most cited microbiologists—became one of the most prominent and courageous voices of scientific critique during the pandemic era. He stepped into the public eye not because he sought attention, but because he believed he had to. Because the Golden Retriever cannot sleep when it smells danger.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Two: Serving as a Calling</h2>
+        <h2 class="vb-section">2. The Social Two: Service as a Calling</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Two (SO2)</strong> is the reinforcement type of the two - the subtype that directs its service not to individual people, but to the community, to society, to humanity as a whole. The Social Two doesn't ask, "What can I do for you?" She asks, "What can I do to make everyone feel better?" Their drive is not self-centered helping, but a genuine, deep devotion to the well-being of the collective.</p>
-          <p class="vb-intro">Bhakdi has researched, taught, published for over four decades &mdash; not for fame, not for money, but because for him microbiology was a service to human health. When he recognized the danger he saw in the new mRNA vaccines during the pandemic &mdash; Blood clotting disorders, immune overactivation, the penetration of spike proteins into vital organs - it was clear to him: remaining silent would be a betrayal of this mission. A Golden Retriever that smells danger and stays still is no longer a Golden Retriever. He is an animal that denies his nature.</p>
+          <p class="vb-intro">The Social Two (SO2) is the prestige subtype of Type Two—the subtype that directs its service not toward individual people, but toward the community, society, and humanity as a whole. The Social Two does not ask, "What can I do for you?" It asks, "What can I do so that everyone is better off?" Its drive is no ego-centered helping, but a genuine, deep devotion to the well-being of the collective.</p>
+          <p class="vb-intro">For over four decades, Bhakdi researched, taught, and published—not for fame or money, but because microbiology was for him a service to human health. When he identified danger during the pandemic in novel mRNA vaccines—clotting disorders, immune hyperactivation, and the penetration of spike proteins into vital organs—his stance was clear: remaining silent would be a betrayal of that duty. A Golden Retriever that senses danger and remains quiet is no longer a Golden Retriever. It becomes an animal denying its own nature.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One Wing: Morality as a non-negotiable limit</h2>
+        <h2 class="vb-section">3. The One Wing: Morality as a Non-Negotiable Boundary</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Social Two a dimension that goes far beyond caring: moral uncompromising. The One lives according to inner principles that are non-negotiable. She cannot tolerate half-truths. She cannot stand by when injustice happens and everyone stays silent. She feels obliged &mdash; not out of ambition, but out of a deep sense of justice.</p>
-          <p class="vb-intro">At Bhakdi, this wing of the A combines with the scientific ethos of an old-school researcher: empirical evidence, methodological rigor, willingness to express uncomfortable conclusions. When almost all institutions went in one direction, he chose the opposite &mdash; not out of trouble, but because his inner balance showed: This direction is not right. The One cannot act as if it does not see this.</p>
-          <p class="vb-intro">He paid a high personal price for this: smear campaigns, criminal prosecution, scientific ostracism. The SO2w1 knows this price &mdash; and pays it without forgetting the bill. Because the opposite would be: remain silent. And that is not an option.</p>
+          <p class="vb-intro">The One wing (w1) grants the Social Two a dimension extending far beyond caretaking: moral uncompromisingness. The One lives by internal principles that are non-negotiable. It cannot tolerate half-truths. It cannot stand by when injustice occurs while everyone remains silent. It feels duty-bound—not out of ambition, but out of a deep sense of justice.</p>
+          <p class="vb-intro">In Bhakdi, this One wing merges with the scientific ethos of an old-school researcher: empirical evidence, methodical rigor, and a readiness to voice uncomfortable conclusions. When nearly all institutions headed in one direction, he chose the opposite—not out of contrarianism, but because his inner scales signaled: this path is incorrect. The One cannot act as though it does not see this.</p>
+          <p class="vb-intro">He paid a high personal price for it: defamation campaigns, legal prosecution, and scientific ostracization. The SO2w1 recognizes this price—and pays it without forgetting the toll. For the alternative would be silence. And that is no option.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The overall effect: warmth and imperturbability</h2>
+        <h2 class="vb-section">4. Overall Impact: Warmth and Steadfastness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anyone who experiences Prof. Bhakdi in interviews or lectures will not encounter the image of the cold, aloof scientist. He radiates warmth &mdash; genuine, caring, almost fatherly warmth. He speaks slowly, clearly, with the pathos of someone who is serious. He wants to be understood &mdash; not admired. He wants people to understand what he understands &mdash; not so that he is right, but so that they are protected.</p>
-          <p class="vb-intro">This is the overall effect of the SO2w1: a person who puts himself tirelessly into service - and at the same time remains unshakable. He cannot be bought, he cannot be silenced, he cannot be intimidated. Not because he wants to be a hero. But because he has the heart of a golden retriever within him: he can't help but point out the danger he sees &mdash; over and over again until someone listens.</p>
+          <p class="vb-intro">Experiencing Prof. Bhakdi in interviews or lectures reveals no cold, detached scientist. He radiates warmth—genuine, attentive, almost paternal warmth. He speaks deliberately and clearly, with the gravitas of someone who is deeply earnest. He seeks to be understood—not admired. He wants people to comprehend what he comprehends—not to prove himself right, but to keep them safe.</p>
+          <p class="vb-intro">That is the overall effect of the SO2w1: a person tirelessly dedicating himself to service—while remaining steadfast throughout. He cannot be bought, silenced, or intimidated. Not because he wants to be a hero, but because he carries the heart of a Golden Retriever within him: he cannot help but point out the danger he sees—again and again, until someone listens.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetic effect: seriousness and warmth at the same time</h2>
+        <h2 class="vb-section">5. Energetic Impact: Gravity and Heartfelt Warmth Combined</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bhakdi's energy is that of a person who is both sad and determined. He carries the weight of what he knows &mdash; and he does not wear it lightly. The Social Two suffers when society suffers. When the Golden Retriever sees his warnings ignored, it's not an abstract failure: it's a personal pain.</p>
-          <p class="vb-intro">And yet: He doesn't give up. The one wing keeps him upright. The one does not break as long as the inner principle is clear &mdash; and with Bhakdi it is that. He does not fight for himself. He fights for the people he doesn't know personally but still loves - as a Social Two that sees humanity as its community to which it belongs.</p>
+          <p class="vb-intro">Bhakdi's energy is that of a person both sorrowful and firmly resolved. He carries the weight of what he knows—and he does not carry it lightly. The Social Two suffers when society suffers. When the Golden Retriever sees its warnings ignored, that is no abstract failure: it is personal grief.</p>
+          <p class="vb-intro">And yet, he does not yield. The One wing keeps him upright. The One does not break as long as the internal principle remains clear—and in Bhakdi, it is. He does not fight for himself. He fights for people he does not know personally yet loves anyway—as a Social Two viewing humanity as the community to which he belongs.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Golden Retriever: Loyalty as the highest form of love</h2>
+        <h2 class="vb-section">6. The Golden Retriever: Loyalty as the Highest Form of Love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retrievers</strong> stands for unconditional affection, for loyalty, for reliability &mdash; and for a quality that has become particularly rare in our time: loyalty to the truth, even if the truth is expensive. He doesn't seek recognition. He is looking for trust. He needs to feel really needed, really useful &mdash; not as a celebrity, but as a protector.</p>
-          <p class="vb-intro">Sucharit Bhakdi is this golden retriever. His entire life's work &mdash; forty years of research, countless publications, the courage to publicly contradict when almost everyone was silent - can be summarized in a single sentence: <em>I warn you because I love you.</em> This is the SO2w1. This is the golden retriever who won't stop barking because he knows the burglar is still at the front door.</p>
+          <p class="vb-intro">The Golden Retriever stands for unconditional affection, loyalty, dependability—and a quality that has grown exceptionally rare in our time: fidelity to truth, even when truth comes at great cost. It seeks no accolades; it seeks trust. It needs the sense of being truly needed, truly useful—not as a celebrity, but as a protector.</p>
+          <p class="vb-intro">Sucharit Bhakdi is this Golden Retriever. His entire life's work—forty years of research, countless publications, and the courage to publicly dissent when almost everyone fell silent—can be summarized in a single sentence: "I am warning you because I love you." That is the SO2w1. That is the Golden Retriever that does not stop barking because it knows the intruder is still at the door.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so2", label:"SO2 - The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v632';
+  const MY_VERSION = 'inhalt-v633';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
