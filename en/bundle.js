@@ -15071,55 +15071,55 @@ function sundarPichaiPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sundar Pichai</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">CEO of Google and Alphabet, born 1972 &mdash; Animal correspondence: Rabbits</p>
+        <p class="krim-portrait-subtitle">CEO of Google and Alphabet, b. 1972 – Animal equivalent: Rabbit</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Rabbit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Rabbit</strong> is the animal of self-preservation type 6 &mdash; alert, lovable, adaptable. It's not confrontational. It stops before it moves. It builds networks of trust, knows every escape route in its territory &mdash; and stays calm exactly when others start to panic because it has analyzed the situation long ago before it escalated.</p>
-          <p class="vb-intro">Sundar Pichai has been CEO of Google since 2015 and CEO of Alphabet since 2019 &mdash; the group that Google belongs to. He runs one of the most powerful technology companies in the world without ever raising his voice. No tweet that provokes. Not a statement that divides. There is no step that is not secured. In an industry full of egomaniacs, Pichai is the rabbit: always present, rarely tangible, able to survive in a way that you only understand when you take a closer look.</p>
+          <p class="vb-intro">The rabbit is the animal of the Self-Preservation Type 6—alert, endearing, adaptable. It does not run toward confrontation. It listens before it moves. It builds networks of trust, knows every escape route in its territory—and stays calm precisely when others panic, because it analyzed the situation long before it escalated.</p>
+          <p class="vb-intro">Sundar Pichai has been the CEO of Google since 2015 and CEO of Alphabet—the parent company of Google—since 2019. He leads one of the most powerful technology companies in the world without ever raising his voice. No provocative tweets. No divisive statements. No step taken without a safety net. In an industry full of egomaniacs, Pichai is the rabbit: always present, rarely graspable, capable of surviving in a way one only understands upon closer inspection.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Warmth: Security through belonging</h2>
+        <h2 class="vb-section">2. Warmth: Security Through Belonging</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the self-preservation Type 6 the <strong>Heat</strong> - because this subtype does not seek security through rules or confrontation, but through human closeness. The SE6 binds itself to people, groups and institutions it can trust. She is lovable, collegial, reliable &mdash; and therefore indispensable. If you feel safe because you are needed, you don't have to be afraid of being abandoned.</p>
-          <p class="vb-intro">Pichai joined Google in 2004 as a product manager &mdash; and stayed. Microsoft offered him the CEO position. Twitter wooed him. He refused. Not because Google offered the best deal, but because he had put down roots there. The self-preserving six knows this feeling: you don't leave what you know and what you trust. That would be more dangerous than breaking new ground.</p>
-          <p class="vb-intro">His leadership quality is based on precisely this characteristic. He is known for listening before deciding. Teams enjoy working with him &mdash; He doesn't dominate a meeting, he moderates it. He is the man that engineers, product managers and investors trust at the same time because he doesn't hurt either side. This is warmth as a strategy: security through indispensability.</p>
+          <p class="vb-intro">Claudio Naranjo named the Self-Preservation Type 6 "Warmth"—because this subtype does not seek security through rules or confrontation, but through human closeness. The SP6 bonds with people, groups, and institutions it can trust. It is endearing, collegiate, reliable—and thereby indispensable. Those who feel safe because they are needed do not have to fear being abandoned.</p>
+          <p class="vb-intro">Pichai joined Google in 2004 as a product manager—and stayed. Microsoft offered him the CEO position. Twitter courted him. He declined. Not because Google made the best offer, but because he had planted roots there. The Self-Preservation Six knows this feeling: You do not leave what you know and trust. That would be far more dangerous than treading new paths.</p>
+          <p class="vb-intro">His leadership quality stems from this exact trait. He is known for listening before making a decision. Teams enjoy working with him—he does not dominate a meeting, he moderates it. He is the man whom engineers, product managers, and investors trust simultaneously because he hurts no one's feelings. That is warmth as a strategy: security through indispensability.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: Silent Depth</h2>
+        <h2 class="vb-section">3. The Five Wing: Quiet Depth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>F\xfcnferfl\xfcgel (w5)</strong> brings the self-preserving Six something that is not immediately apparent from the outside: analytical depth, introversion and the ability to delve deeper into factual issues before speaking. The SE6w5 doesn't talk to convince. She listens to understand. And when she speaks, she has already thought through the arguments from several angles.</p>
-          <p class="vb-intro">Pichai is known for his phenomenal memory. Employees report that he still clearly remembers names, numbers and details from meetings months later. That's not talent &mdash; This is the SE6w5 in action: permanent information processing because information means security. If you know everything, nothing can surprise you.</p>
-          <p class="vb-intro">Grew up in Madurai, Tamil Nadu, in a family without much wealth - his father slept with him on the floor as a child until the family could afford beds &mdash; Pichai developed this drive for himself: knowledge is the way up. IIT Kharagpur, Stanford, Wharton &mdash; He dropped out of his MBA studies when Google hired him in 2004. The F\xfcnferfl\xfcgel says: If I know enough, I'm safe. The rabbit nods.</p>
+          <p class="vb-intro">The Five wing (w5) brings the Self-Preservation Six something not immediately obvious from the outside: analytical depth, introversion, and the ability to immerse oneself in technical issues before speaking. The SP6w5 does not speak to persuade. It listens to understand. And when it speaks, it has already pondered the arguments from all angles.</p>
+          <p class="vb-intro">Pichai is known for his phenomenal memory. Colleagues report that he remembers names, figures, and details from meetings months after the fact. That is no mere talent—that is the SP6w5 in action: continuous information processing, because information means security. Those who know everything cannot be surprised by anything.</p>
+          <p class="vb-intro">Raised in Madurai, Tamil Nadu, in a family without great wealth—his father slept on the floor with him as a child until the family could afford beds—Pichai developed this drive early on: knowledge is the way up. IIT Kharagpur, Stanford, Wharton—he dropped out of his MBA studies when Google hired him in 2004. The Five wing says: If I know enough, I am safe. The rabbit nods.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From Chrome to Gemini</h2>
+        <h2 class="vb-section">4. The Body of Work: From Chrome to Gemini</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Pichai's career at Google is the story of a man who was never loud &mdash; and yet everything changed. In 2008 he led the development of <strong>Google Chrome</strong>. Today, Chrome has over 60 percent market share among browsers worldwide &ndash; a project that was considered too risky internally and which parts of the management opposed. Pichai enforced it. Quietly, persistently, with numbers.</p>
-          <p class="vb-intro">After that: Chrome OS, Google Drive, Google Maps, the realignment of the Android ecosystem. In 2015, Larry Page named him CEO of Google &mdash; and in 2019, when Alphabet was further expanded as a holding structure, Pichai moved to the top of the entire group. He is now the highest paid CEO of one of the five most valuable companies in the world.</p>
-          <p class="vb-intro">Under his leadership, Google has taken part in the AI ​​competition <strong>Gemini</strong> (formerly Bard) &mdash; sp\xe4t, hectic, under pressure from ChatGPT. Pichai commented calmly on the moment. Internally, employees report, the pressure was enormous. This is the SE6w5 in crisis: calm on the outside, on high alert on the inside. The rabbit doesn't run away immediately. First it calculates all the risks.</p>
+          <p class="vb-intro">Pichai's career at Google is the story of a man who was never loud—and yet changed everything. In 2008, he led the development of Google Chrome. Today, Chrome commands a market share of over 60 percent among global web browsers—a project once considered too risky internally and opposed by parts of management. Pichai pushed it through. Quietly, persistently, with data.</p>
+          <p class="vb-intro">After that: Chrome OS, Google Drive, Google Maps, the realignment of the Android ecosystem. In 2015, Larry Page appointed him CEO of Google—and in 2019, as Alphabet's holding structure expanded further, Pichai stepped up to lead the entire conglomerate. Today, he is the highest-paid CEO of one of the five most valuable companies in the world.</p>
+          <p class="vb-intro">Under his leadership, Google entered the AI race with Gemini (formerly Bard)—late, hectic, under pressure from ChatGPT. Pichai commented on the moment calmly. Internally, employees reported, the pressure was immense. That is the SP6w5 in crisis: outwardly composed, inwardly on highest alert. The rabbit does not immediately run away. First, it calculates every risk.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow</h2>
+        <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE6w5 is hers <strong>Reliability</strong> - the ability to be the calming force in turbulent situations. Pichai has led Google through several crises &mdash; political headwinds, antitrust proceedings, the AI ​​upheaval &mdash; without ever losing your temper. Employees praise his accessibility, his listening, and his consistency. This is the SE6w5 at its best: stability as management quality.</p>
-          <p class="vb-intro">The Shadow: In January 2023, Alphabet was released <strong>12,000 employees</strong> - Twelve percent of the workforce, the largest mass layoff in the company's history. Pichai said in an email that he personally bears responsibility. In the same fiscal year, he received total compensation of approximately $226 million. This is the shadow of SE6w5: the heat that radiates inwards can become cold outwards - when the system you serve demands it.</p>
-          <p class="vb-intro">The passion of the six is ​​this <strong>Fear</strong> - and in the self-preserving subtype it appears as chronic protection. Pichai protects himself: in formulations, in consensus, in avoiding polarization. That protects him. It protects Google. And sometimes it obscures what was really decided &mdash; and from whom.</p>
+          <p class="vb-intro">The light of the SP6w5 is its reliability—the ability to be the calm center in turbulent situations. Pichai has navigated Google through multiple crises—political headwinds, antitrust lawsuits, the AI transformation—without ever losing his composure. Employees praise his accessibility, his listening, his consistency. That is the SP6w5 at its best: stability as a leadership quality.</p>
+          <p class="vb-intro">The shadow: In January 2023, Alphabet laid off roughly 12,000 employees—twelve percent of its workforce, the largest mass layoff in the company's history. Pichai explained in an email that he took personal responsibility. In that same fiscal year, he received a total compensation package of around $226 million. That is the shadow of the SP6w5: the warmth that radiates inward can turn cold toward the outside—when the system one serves demands it.</p>
+          <p class="vb-intro">The passion of Type Six is fear—and in the Self-Preservation subtype, it manifests as chronic self-protection and hedging. Pichai hedges his bets: in his wording, in consensus, in avoiding polarization. That protects him. It protects Google. And sometimes, it veils what was actually decided—and by whom.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The rabbit that stays</h2>
+        <h2 class="vb-section">6. The Rabbit That Remains</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sundar Pichai is married to Anjali Pichai, whom he met while studying engineering at IIT Kharagpur &mdash; his childhood sweetheart. They have two children. Little is known about his private life; he rarely talks about it. The rabbit keeps its territory to itself.</p>
-          <p class="vb-intro">What remains is the image of a man who won through silence in one of the loudest industries in the world. The one who didn't provoke, but convinced. Who didn't dominate, but showed perseverance. In a technology world that rewards gr\xfc\xdfenmania, Sundar Pichai is proof that even the rabbit survives - sometimes longer than the lion sitting next to him.</p>
-          <p class="vb-intro">This is the SE6w5: Persistence through trust, depth through restraint, security through competence. And the quiet certainty that you don't have to be loud to be heard.</p>
+          <p class="vb-intro">Sundar Pichai is married to Anjali Pichai, whom he met during his engineering studies at IIT Kharagpur—his childhood sweetheart. They have two children. Little is known about his private life; he rarely speaks about it. The rabbit keeps its burrow to itself.</p>
+          <p class="vb-intro">What remains is the image of a man who won through quietness in one of the loudest industries in the world. Who did not provoke, but convinced. Who did not dominate, but showed endurance. In a tech world that rewards megalomania, Sundar Pichai is proof that the rabbit also survives—sometimes longer than the lion sitting next to it.</p>
+          <p class="vb-intro">That is the SP6w5: persistence through trust, depth through restraint, security through competence. And the quiet conviction that one does not need to be loud to be heard.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
@@ -15140,50 +15140,50 @@ function timBendzkoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Tim Bendzko</p>
         <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-Wing</p>
-        <p class="krim-portrait-subtitle">Singer, songwriter, born 1985 &mdash; Animal correspondence: Pigeon</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter, b. 1985 – Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Pigeon</h2>
+        <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Dove</strong> is the animal of the self-preservation four &mdash; and it hits Tim Bendzko in a way that only becomes clear upon second viewing. The pigeon is not an animal of grand gestures. It doesn't circle majestically like the eagle, it doesn't roar like the lion. She finds her way quietly &mdash; and she finds him reliable. The dove carries messages over long distances, through storm and darkness, and it returns. Not because she doesn't know fear, but because she knows where she belongs.</p>
-          <p class="vb-intro">Tim Bendzko makes music that lets people find what they couldn't express themselves. His songs don't land loud &mdash; they land exactly. &ldquo;Just save the world for a moment,&rdquo; is formulated ironically, almost lightly, and yet describes something exhausting: the feeling that one's own life almost disappears under the weight of all the demands. This is the pigeon: it carries the weight &mdash; and she still sings.</p>
+          <p class="vb-intro">The dove is the animal of the Self-Preservation Four—and it fits Tim Bendzko in a way that only becomes clear upon a second glance. The dove is not a creature of grand gestures. It does not circle majestically like the eagle, nor does it roar like the lion. It finds its way quietly—and it finds it reliably. The dove carries messages across vast distances, through storm and darkness, and it returns home. Not because it knows no fear, but because it knows where it belongs.</p>
+          <p class="vb-intro">Tim Bendzko makes music that lets people discover what they could not articulate themselves. His songs do not land loudly—they land precisely. "Nur noch kurz die Welt retten" (Just quickly saving the world) is formulated ironically, almost lightfootedly, and yet describes something exhausting: the feeling that one's own life almost vanishes under the weight of all demands. That is the dove: It carries the weight—and it sings anyway.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Sustaining Four: The Pain That Is Not Visible</h2>
+        <h2 class="vb-section">2. The Self-Preservation Four: The Pain That Remains Unseen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation four (SE4)</strong> is the opposite type of the four in Enneagram language - That means: It shows to the outside almost the opposite of what you would expect from a four. No drama, no demonstrative suffering, no self-dramatization on a grand scale. The SE4 often appears cheerful, grounded and reliable. What she wears inside remains hidden. Naranjo called this subtype <em>Toughness</em> (engl. <em>Tenacity</em>) &mdash; a quiet, stubborn perseverance, a hardness towards yourself: the drive to keep going, even if it hurts, without complaining about it.</p>
-          <p class="vb-intro">Tim Bendzko rarely complains in interviews. He seems down-to-earth, almost inconspicuous - no rock star posturing, no excess, no drama. And yet his texts have a sensitivity that can only be found by someone who knows the inside well. &ldquo;By a thread&rdquo; is about the moment when everything threatens to tip over &mdash; and back from the narrow path. This doesn't write a seven celebrating life. This is written by a four who knows how close the ground is.</p>
-          <p class="vb-intro">The self-preserving instinct directs the energy inward &mdash; on one's own existence, on stability, on what supports. That explains Bendzko's musical signature: no quick trends, no adaptation to the most commercial, no format radio opportunism. A voice that remains.</p>
+          <p class="vb-intro">The Self-Preservation Four (SP4) is known in Enneagram terminology as the countertype of Type Four—meaning it displays almost the exact opposite on the outside of what one expects from a Four. No drama, no ostentatious suffering, no self-dramatization on a grand scale. The SP4 often appears cheerful, grounded, reliable. What it carries inside remains hidden. Naranjo called this subtype "Tenacity"—a quiet, persistent endurance, a stoic hardness toward oneself: the drive to keep going even when it hurts, without complaining about it.</p>
+          <p class="vb-intro">Tim Bendzko rarely laments in interviews. He seems down-to-earth, almost inconspicuous—no rockstar antics, no excesses, no drama. And yet, his lyrics possess a sensitivity that can only be found by someone who knows the inner world intimately. "Am seidenen Faden" (Hanging by a thread) is about the moment when everything threatens to tip over—and the narrow road back. That is not written by a Seven celebrating life. That is written by a Four who knows how close the ground is.</p>
+          <p class="vb-intro">The self-preservation instinct directs energy inward—toward one's own survival, toward stability, toward what sustains. That explains Bendzko's musical signature: no fast-fading trends, no bending to commercialism, no radio-format opportunism. A voice that stays.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The triple wing: shaping the interior</h2>
+        <h2 class="vb-section">3. The Three Wing: Shaping the Inner World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Triple wing (w3)</strong> gives the self-preservation four something crucial: the ability not only to experience the inner, but to <em>gestalten</em> - and communicate it effectively to the outside world. The pure SE4 could disappear into its inner world. The triple piano brings you back to reality: it turns feeling into a song, pain into a melody, searching into a career.</p>
-          <p class="vb-intro">Tim Bendzko attended the Pop Academy in Mannheim &mdash; a conscious decision for craftsmanship, for professional structure. This is the three-wing wing: He knows that talent alone is not enough, that good work needs form. And he is ready to learn and discipline this form. In this sense, his songwriting is not a spontaneous outpouring of emotions, but rather precise composing: exactly the right formulation, exactly the right moment at which a chorus breaks out.</p>
-          <p class="vb-intro">The triple wing also explains its success with a wide audience. The SE4 alone might be too introverted for mass appeal - too complex, too peculiar. The w3 translates the individual into the general. That's why a song like &ldquo;Only save the world for a moment&rdquo; at the same time sound personal and be recognized by millions as their own feeling.</p>
+          <p class="vb-intro">The Three wing (w3) gives the Self-Preservation Four something crucial: the ability to not just experience the inner world, but to shape it—and bring it effectively to the outside. The pure SP4 might disappear into its internal world. The Three wing pulls it back into reality: It turns feelings into a song, pain into a melody, searching into a career.</p>
+          <p class="vb-intro">Tim Bendzko attended the Popakademie in Mannheim—a deliberate choice for craft, for professional structure. That is the Three wing: It knows that talent alone is not enough, that good work needs form. And it is ready to learn and discipline this form. His songwriting is, in this sense, no spontaneous outpouring of emotion, but precise composition: the exact right formulation, the exact right moment when a chorus breaks through.</p>
+          <p class="vb-intro">The Three wing also explains his success with a broad audience. The SP4 alone might be too introverted for mass appeal—too complex, too idiosyncratic. The w3 translates the personal into the universal. That is why a song like "Nur noch kurz die Welt retten" can sound deeply personal while simultaneously being recognized by millions as their own emotion.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow of the Self-Sustaining Four with Three-Wing</h2>
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Four with a Three Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w3 is its ability to make the difficult accessible - not through simplification, but through precision. Tim Bendzko sings about what many feel and rarely say: overwhelmed, longing, the feeling of not arriving. And he sings it in such a way that the listener is not ashamed but recognized. This is rare quality.</p>
-          <p class="vb-intro">The fate pattern of the four is the <strong>Envy</strong> - not as resentment, but as the chronic feeling that others have been given something that you yourself are missing. With the SE4, this envy remains hidden because it doesn't complain. It expresses itself as inner restlessness, as the feeling of never quite arriving, of never being completely finished. Many Bendzko songs revolve around exactly this basic tension: the desire to finally be there &mdash; and the knowledge that the &ldquo;There&rdquo; is always a little further.</p>
-          <p class="vb-intro">The triple piano brings the temptation to measure one's own worth through resonance: if the album is well received, it is enough. When things become quieter around you, doubt arises. The healing path here leads to decoupling the inner value from the external success - and to recognize that the voice is true even when no one is listening.</p>
+          <p class="vb-intro">The light of the SP4w3 is its ability to make the heavy accessible—not through simplification, but through precision. Tim Bendzko sings about what many feel and can hardly say: being overwhelmed, longing, the feeling of never quite arriving. And he sings it in such a way that the listener is not shamed, but recognized. That is a rare quality.</p>
+          <p class="vb-intro">The fateful pattern of Type Four is envy—not as malice, but as the chronic feeling that others were given something that oneself lacks. In the SP4, this envy remains hidden because it does not complain. It expresses itself as inner restlessness, as the feeling of never fully arriving, never being completely finished. Many Bendzko songs revolve around this exact fundamental tension: the desire to finally be there—and the knowledge that "there" is always a bit further down the road.</p>
+          <p class="vb-intro">The Three wing brings the temptation to measure one's worth through resonance: If the album is received well, it is enough. If things grow quiet around you, doubt creeps in. The path of healing here leads to decoupling inner worth from external success—and recognizing that the voice is true even when no one is listening.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The dove that finds its home</h2>
+        <h2 class="vb-section">5. The Dove Finding Its Way Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the four leads from the question <em>What am I missing that was given to others?</em> to knowledge <em>What I am is complete &mdash; and it is mine.</em> For the SE4 this means no longer fighting the inner battle alone, but accepting it as part of life - not as a lack, but as a depth.</p>
-          <p class="vb-intro">Over the years, Tim Bendzko has developed a musical language that reflects exactly that: it becomes more mature, calmer, more confident &mdash; without losing sensitivity. The dove that knows its way. Who no longer sees every gust of wind as a threat, but as part of the journey. It carries the message &mdash; and she arrives.</p>
+          <p class="vb-intro">The healing path of Type Four leads from the question "What am I lacking that was given to others?" to the realization "What I am is complete—and it is mine." For the SP4, this means no longer fighting the inner battle alone, but accepting it as part of life—not as a deficit, but as depth.</p>
+          <p class="vb-intro">Over the years, Tim Bendzko has developed a musical language that mirrors exactly this: It becomes more mature, calmer, more self-assured—without losing its sensitivity. The dove that knows its way. That no longer experiences every gust of wind as a threat, but as part of the journey. It carries the message—and it arrives.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Pigeon: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
       ])}
     </div>
@@ -15201,55 +15201,55 @@ function uliHoenessPortraitPage() {
         </div>
         <p class="krim-portrait-name">Uli Hoeneß</p>
         <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
-        <p class="krim-portrait-subtitle">Professional footballer, manager &amp; President of FC Bayern Munich, born 1952 &mdash; Animal correspondence: Hippo</p>
+        <p class="krim-portrait-subtitle">Professional footballer, manager & president of FC Bayern Munich, b. 1952 – Animal equivalent: Hippopotamus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Hippo</h2>
+        <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippo</strong> is the animal of the self-preservation two &mdash; and Uli Hoeneß is this animal in its most uncompromising form. The hippo doesn't need an audience. It needs its territory: the water it knows, the banks that belong to it, the boundaries it marks and defends with every ounce of its body. It seems good-natured &mdash; until someone comes too close. Then it shows what's really inside him.</p>
-          <p class="vb-intro">Uli Hoeneß has been at FC Bayern Munich for more than fifty years. Not as an employee, not as an official &mdash; but as a person who saw this club as his territory and built it up with an energy that is unparalleled in German football history. He won as a player, built as a manager, led as a president &mdash; and after the deepest fall of his life he has returned. The hippo stands up.</p>
+          <p class="vb-intro">The hippopotamus is the animal of the Self-Preservation Two—and Uli Hoeneß is this animal in its most uncompromising expression. The hippopotamus needs no audience. It needs its territory: the water it knows, the riverbanks that belong to it, the boundaries it marks and defends with every gram of its body. It seems good-natured—until someone gets too close. Then it shows what it is truly made of.</p>
+          <p class="vb-intro">Uli Hoeneß has been FC Bayern Munich for over fifty years. Not as an employee, not as an official—but as a human being who understood this club as his territory and built it with an energy unparalleled in German football history. He won as a player, built as a manager, led as president—and after the deepest fall of his life, he returned. The hippopotamus stands up.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preserving two: care as a survival principle</h2>
+        <h2 class="vb-section">2. The Self-Preservation Two: Caretaking as a Survival Principle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation two (SE2)</strong> is the subtype of Two that directs its energy most directly toward its own survival and the survival of those closest to it. Naranjo calls this subtype <em>Me First</em>: the two that names their own needs, knows and protects their territory &mdash; not through withdrawal, but through presence. The SE2 is the most concrete, closest to the earth, least romanticized of the three two-series variants. She acts. She cares. She hedges.</p>
-          <p class="vb-intro">With Uli Hoeneß, this is reflected in a care that is not abstract, but personal and tangible. He called players in crises, helped families, personally accompanied transfers, resolved conflicts &mdash; not because it was part of the job description, but because he understood it that way: FC Bayern is a family, and he is the one who holds this family together. This kind of caring is not weakness. She is power &mdash; the power of those who know that cohesion is the foundation of everything.</p>
-          <p class="vb-intro">Hoeneß was never a man of grand gestures for the gallery. Whatever he did, he did it directly, often discreetly, sometimes rudely. This is the SE2: not elegant diplomacy, but the direct intervention of those who feel responsible - and this sense of responsibility is not delegated.</p>
+          <p class="vb-intro">The Self-Preservation Two (SP2) is the subtype of Type Two that directs its energy most directly toward its own survival and the survival of those closest to it. Naranjo calls this subtype "Me First": the Two that names its own needs, knows and protects its territory—not through withdrawal, but through presence. The SP2 is the most concrete, down-to-earth, least romanticized of the three Type Two variants. It acts. It cares. It secures.</p>
+          <p class="vb-intro">In Uli Hoeneß, this shows in a form of care that is not abstract, but personal and tangible. He called players in crisis, helped families, personally accompanied transfers, resolved conflicts—not because it was in the job description, but because that was how he understood it: FC Bayern is a family, and he is the one holding this family together. This kind of care is no weakness. It is power—the power of someone who knows that cohesion is the foundation of everything.</p>
+          <p class="vb-intro">Yet Hoeneß was never a man of grand gestures for show. What he did, he did directly, often discreetly, sometimes gruffly. That is the SP2: no elegant diplomacy, but the immediate intervention of someone who feels responsible—and does not delegate that sense of responsibility.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Triple Wing: Success as Second Nature</h2>
+        <h2 class="vb-section">3. The Three Wing: Success as Second Nature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Triple wing (w3)</strong> gives the self-preserving Two something that the pure SE2 does not have of itself: the hunger for measurable success, for results, for proof that one's own work is effective. The three are measured by numbers, titles, victories. She needs the proof &mdash; not for others, but for yourself. Combined with the SE2, you create someone who is simultaneously deeply caring and relentlessly goal-oriented.</p>
-          <p class="vb-intro">Uli Hoeneß turned FC Bayern from a solid Bundesliga club into one of the most economically and sportingly successful football clubs in the world. He didn't formulate it as a vision &mdash; he did it. Annual titles, Champions League victories, record sales, world-class transfers. The three-wing wing does not allow for mediocrity. He always asks: How good was it really? And can it get any better?</p>
-          <p class="vb-intro">But this wing also has its shadow. The SE2 wing of three tends to equate success with self-worth: I am what I achieve. When performance fails, when control slips, the foundation can falter. The 2013 tax affair was not just a legal problem for Hoeneß - it was an intrusion into the image he had of himself: the man who has everything under control.</p>
+          <p class="vb-intro">The Three wing (w3) gives the Self-Preservation Two something the pure SP2 does not possess on its own: the hunger for measurable success, for results, for proof that one's own work is effective. The Three measures itself by numbers, titles, victories. It needs proof—not for others, but for itself. Combined with the SP2, it creates someone who is simultaneously deeply caring and relentlessly goal-oriented.</p>
+          <p class="vb-intro">Uli Hoeneß transformed FC Bayern from a solid Bundesliga club into one of the most financially and athletically successful football clubs in the world. He did not articulate this as a mere vision—he did it. Annual titles, Champions League victories, record revenues, world-class transfers. The Three wing permits no mediocrity. It always asks: How good was that really? And can it be even better?</p>
+          <p class="vb-intro">But this wing also has its shadow. The Three wing of the SP2 tends to equate success with self-worth: I am what I achieve. When performance fails to materialize, when control slips away, the foundation can shake. The tax evasion affair in 2013 was not just a legal problem for Hoeneß—it was a rupture in the image he had of himself: the man who has everything under control.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: Pride as a driving force</h2>
+        <h2 class="vb-section">4. The Passion: Pride as a Driving Force</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the two is called <strong>Pride</strong> - and in SE2w3 this pride takes a special form: it is directed not at personal admiration, but at the work. On what has been created through the work of one's own hands, through decades of commitment, through the sum of all decisions. This pride is justified &mdash; and at the same time it is a trap when it becomes a condition for one's own worth.</p>
-          <p class="vb-intro">Uli Hoeneß didn't see FC Bayern as a job. He saw it as his life's work. This is the pride of SE2w3 in its purest form: no narcissism, but the deep conviction that what you have built is unique &mdash; and that you yourself are indispensable for its preservation. This belief drove him. And she made it hard for him to let go.</p>
+          <p class="vb-intro">The passion of Type Two is pride—and in the SP2w3, this pride takes a special form: It is directed not toward personal admiration, but toward the work itself. Toward what was created through one's own hands, through decades of commitment, through the sum of all decisions. This pride is justified—and at the same time, it is a trap when it becomes the condition for one's self-worth.</p>
+          <p class="vb-intro">Uli Hoeneß did not view FC Bayern as a job. He understood it as his life's work. That is the pride of the SP2w3 in its purest form: no narcissism, but the deep conviction that what one built is unique—and that one is indispensable for its preservation. This conviction drove him. And it made it hard for him to let go.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Fall and the Return: The hippopotamus stands up</h2>
+        <h2 class="vb-section">5. The Fall and the Return: The Hippopotamus Stands Up</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The 2013 tax affair and the subsequent prison sentence &mdash; three and a half years, of which he served about half &mdash; was a cut that might have broken anyone else. Hoeneß faced the trial, publicly admitted his guilt and accepted the punishment. This is not a given. It's the SE2 in its mature form: taking responsibility &mdash; even when it hurts.</p>
-          <p class="vb-intro">What followed his release was perhaps the chapter that most defines him. He returned &mdash; not triumphant, but grounded. He took over the office of president again. FC Bayern welcomed him. The hippo had returned to the water. And anyone who thought he would come back smaller had underestimated the animal.</p>
+          <p class="vb-intro">The tax affair of 2013 and the subsequent prison sentence—three and a half years, of which he served about half—was a turning point that might have broken anyone else. Hoeneß faced the proceedings, admitted his guilt publicly, accepted the punishment. That cannot be taken for granted. It is the SP2 in its mature form: taking responsibility—even when it hurts.</p>
+          <p class="vb-intro">What followed his release was the chapter that perhaps defines him most. He returned—not triumphantly, but grounded. He assumed the office of president once again. FC Bayern welcomed him back. The hippopotamus had returned to the water. And whoever thought he would come back diminished had underestimated the animal.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The gift: A club as a life's work</h2>
+        <h2 class="vb-section">6. The Gift: A Club as a Life's Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Uli Hoeneß brings to German football &mdash; and FC Bayern Munich in particular &mdash; has given cannot be reduced to titles. He showed that a football club can be more than a business model: a community with attitude, with loyalty, with a self-image that goes beyond the season. Players who got into crises spoke of him like a father. Employees who stayed for decades because they knew someone would stand up for them. This is the gift of SE2w3: loyalty that sustains.</p>
-          <p class="vb-intro">The hippopotamus protects its territory &mdash; but it also protects those who live in it. Uli Hoeneß did not build FC Bayern for himself. He built it for what he saw in it: a community that lasts. This is his life's work. And little will change about that - even if the hippopotamus changes the course of the river at some point.</p>
+          <p class="vb-intro">What Uli Hoeneß gave to German football—and to FC Bayern Munich in particular—cannot be reduced to titles. He showed that a football club can be more than a business model: a community with conviction, loyalty, and a self-image that extends beyond the season. Players who fell into crisis spoke of him like a father. Employees stayed for decades because they knew someone stood up for them. That is the gift of the SP2w3: loyalty that carries.</p>
+          <p class="vb-intro">The hippopotamus protects its territory—but it also protects those who live within it. Uli Hoeneß did not build FC Bayern for himself. He built it for what he saw in it: a community that endures. That is his life's work. And little will change that—even if the hippopotamus eventually changes its river course.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippo: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v633';
+  const MY_VERSION = 'inhalt-v634';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
