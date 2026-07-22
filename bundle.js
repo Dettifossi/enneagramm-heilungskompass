@@ -10334,7 +10334,7 @@ function carstenStahlPortraitPage() {
 
         <h2 class="vb-section">6. Der L\xf6we, der in die Schulen geht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Carsten Stahl hat sich eine Arena gew\xe4hlt, die die meisten meiden: die Mitte des Problems. Er geht nicht dorthin, wo es angenehm ist. Er geht dorthin, wo ein 13-J\xe4hriger nicht mehr zur Schule gehen will. Das ist der SO8w7: nicht der L\xf6we, der auf dem Fels sitzt und beobachtet &ndash; sondern derjenige, der ins Rudel hineinl\xe4uft, wenn es brennt. Stärke, die sich verschenkt. Feuer, das andere w\xe4rmt.</p>
+          <p class="vb-intro">Carsten Stahl hat sich eine Arena gew\xe4hlt, die die meisten meiden: die Mitte des Problems. Er geht nicht dorthin, wo es angenehm ist. Er geht dorthin, wo ein 13-J\xe4hriger nicht mehr zur Schule gehen will. Das ist die SO8w7: nicht der L\xf6we, der auf dem Fels sitzt und beobachtet &ndash; sondern derjenige, der ins Rudel hineinl\xe4uft, wenn es brennt. Stärke, die sich verschenkt. Feuer, das andere w\xe4rmt.</p>
           ${bookTip("enneagramm-typen", "Sozialer Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
           ${bookTip("burnout", "SO8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Achtertyps.")}
           ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 8.")}
