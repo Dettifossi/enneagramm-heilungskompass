@@ -479,8 +479,8 @@ const BERUEHMT_PORTRAITS = [
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
-    heading:"Dieter Nuhr â Sozialer Typ 7",
-    teaser:"SO7w8 Â· geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit AchterflÃ¼gel: Komik als Dienst an der Ãffentlichkeit, Haltung als Schutzschild.",
+    heading:"Dieter Nuhr – Sozialer Typ 7",
+    teaser:"SO7w8 · geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterflügel: Komik als Dienst an der Öffentlichkeit, Haltung als Schutzschild.",
     tags:["Medien","Kunst"], gender:"m"},
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Sozialer Typ 7",
@@ -40688,7 +40688,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v704';
+  const MY_VERSION = 'inhalt-v705';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
