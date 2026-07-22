@@ -12182,6 +12182,7 @@ function beruehmtePersoenlichkeitenPage() {
     "Gesellschaft": "Society",
     "Geschichte":   "History",
     "Other":        "Other",
+    "Sonstiges":    "Other",
   };
   const katColors = {
     "Music":"#7c3aed","Musik":"#7c3aed",
@@ -12190,7 +12191,7 @@ function beruehmtePersoenlichkeitenPage() {
     "Art":"#be185d","Kunst":"#be185d",
     "Literature":"#92400e","Literatur":"#92400e",
     "Wirtschaft":"#2563c7","Astronaut":"#0e7490",
-    "Medien":"#0f766e","Gesellschaft":"#065f46","Geschichte":"#78350f","Other":"#6b7280"
+    "Medien":"#0f766e","Gesellschaft":"#065f46","Geschichte":"#78350f","Other":"#6b7280","Sonstiges":"#6b7280"
   };
 
   function filterBar() {
@@ -44766,7 +44767,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v641';
+  const MY_VERSION = 'inhalt-v642';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
