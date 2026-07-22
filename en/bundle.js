@@ -13264,46 +13264,46 @@ function jacquelineMarsPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jacqueline Mars</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with seven wing</p>
-        <p class="krim-portrait-subtitle">Entrepreneur &amp; Billionaire, born 1939 in Newark, New Jersey</p>
+        <p class="krim-portrait-subtitle">Entrepreneur & billionaire, b. 1939 in Newark, New Jersey</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of self-preservation type 8 &mdash; and no picture captures Jacqueline Mars more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no stage, no validation. He lives in his own rhythm, on his own territory, surrounded by what he has accumulated over decades. If you don't bother him, you'll never see him. And that is exactly how it is intended.</p>
-          <p class="vb-intro">Jacqueline Mars, born in Newark in 1939, is the granddaughter of Frank C. Mars, the founder of the confectionery company of the same name, and daughter of Forrest Mars Sr., who expanded the company into global size. She co-owns with her brothers John and Forrest Jr. about a third each Mars, Incorporated &mdash; one of the largest private companies in the world. Her fortune is estimated at over $30 billion. She has hardly given any public interviews for decades.</p>
+          <p class="vb-intro">The orangutan is the animal of the self-preservation Type 8, and no image fits Jacqueline Mars more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no stage, no validation. It lives at its own rhythm, on its own territory, surrounded by what it has accumulated over decades. Anyone who does not disturb it will never lay eyes on it. And that is exactly by design.</p>
+          <p class="vb-intro">Jacqueline Mars, born in Newark in 1939, is the granddaughter of Frank C. Mars, founder of the confectionery company of the same name, and daughter of Forrest Mars Sr., who expanded the business into a global giant. Together with her brothers John and Forrest Jr., she owns roughly a one-third stake in Mars, Incorporated, one of the largest private companies in the world. Her net worth is estimated at over 30 billion dollars. She has given virtually no public interviews for decades.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Sustaining Eight: Satisfaction</h2>
+        <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation eight (SE8)</strong> expresses the passion of the eight - the <em>Wollust</em> - through possession, securing resources and sensual abundance. Naranjo called this subtype <em>Satisfacci\xf3n</em>: Satisfaction as a principle of life. The SE8 wants to have what it needs &mdash; and she builds the structures that ensure that she has it too. Not tomorrow. Permanently.</p>
-          <p class="vb-intro">Jacqueline Mars lived this principle with a consequence that one almost doesn't notice from the outside - because she has achieved it so much that there is no need for drama anymore. The company is running. The territory is secured. The SE8 doesn't need cameras to control; it needs structures that work. Mars, Incorporated has been family-owned for generations and has never been listed on the stock exchange - That's not a whim, that's an SE8 decision.</p>
+          <p class="vb-intro">The self-preservation Eight (SE8) expresses the passion of the Eight—lust—through ownership, securing resources, and sensory abundance. Naranjo called this subtype Satisfacción: satisfaction as a life principle. The SE8 wants to have what it needs—and builds the structures that ensure it stays that way. Not tomorrow. Permanently.</p>
+          <p class="vb-intro">Jacqueline Mars lived this principle with a consistency barely noticeable from the outside—because she fulfilled it so completely that drama was no longer necessary. The business runs. The territory is secured. The SE8 does not need cameras to maintain control; it needs structures that work. Mars, Incorporated has been family-owned for generations and was never publicly traded—that is not a whim, that is an SE8 decision.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wings: The Joy of Life</h2>
+        <h2 class="vb-section">3. The Seven Wing: The Joy of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven wing\xfcgel</strong> gives the self-preservation eight a quality that the pure SE8 doesn't always show: lightness, curiosity and the willingness to fully enjoy life. The SE8w7 not only collects &mdash; it costs out. Travel, enjoyment, variety, the appetite for the sensual in its entirety: this is the wing of seven, which fills the territory of the eight with colors.</p>
-          <p class="vb-intro">Jacqueline Mars is an avid equestrian and lives on an estate in The Plains, Virginia &mdash; the heart of the American horse breeding region. The horse world is a world of its own: traditional, exclusive, far away from the spotlight. She served for years on the Smithsonian Institution Board of Regents &mdash; there too: connoisseurship instead of self-expression. The seven-piece wing is not looking for the stage; he looks for quality.</p>
+          <p class="vb-intro">The Seven wing gives the self-preservation Eight a quality that the pure SE8 does not always show: lightness, curiosity, and a willingness to enjoy life to the fullest. The SE8w7 does not just hoard; it savors. Travel, enjoyment, variety, an appetite for the sensory in all its breadth: this is the Seven wing filling the Eight's territory with color.</p>
+          <p class="vb-intro">Jacqueline Mars is an avid equestrian and lives on an estate in The Plains, Virginia—the heart of American horse breeding country. The horse world is a world unto itself: tradition-conscious, exclusive, far from the spotlight. She served for years on the Smithsonian Institution Board of Regents—again, expertise over self-dramatization. The Seven wing does not seek the stage; it seeks quality.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: The Mars Empire</h2>
+        <h2 class="vb-section">4. The Work: The Mars Empire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mars, Incorporated is the world's largest confectionery company and one of the world's largest pet food producers: M&amp;M's, Snickers, Twix, Milky Way, Skittles, Pedigree, Whiskas. Sales: over 45 billion dollars annually. The company has remained entirely family-owned since its founding in 1911 &mdash; no stocks, no analysts, no quarterly reports for the public. Privacy as a business principle.</p>
-          <p class="vb-intro">Jacqueline Mars sat on the company's board of directors and was involved in key strategic decisions, although her brother Forrest Jr. took over operational management for a long time. Their influence was real &mdash; and discreet. This is not modesty; This is the SE8w7 in its mature form: power without having to legitimize it.</p>
+          <p class="vb-intro">Mars, Incorporated is the world's largest confectionery company and one of the most prominent pet food manufacturers globally: M&M's, Snickers, Twix, Milky Way, Skittles, Pedigree, Whiskas. Revenue: over 45 billion dollars annually. Since its founding in 1911, the company has remained entirely family-owned—no shares, no analysts, no quarterly reports for the public. Privacy as a business principle.</p>
+          <p class="vb-intro">Jacqueline Mars sat on the company's board of directors and was involved in key strategic decisions, even as her brother Forrest Jr. long handled operational leadership. Her influence was real and discreet. This is not modesty; this is the SE8w7 in its mature form: exercising power without having to legitimize it.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: Power without a Face</h2>
+        <h2 class="vb-section">5. Light and Shadow: Power Without a Face</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SE8w7 is her <strong>sovereign independence</strong>. Jacqueline Mars needs neither applause nor justification. She owns one of the largest private assets in the world &mdash; and lives a life that she creates herself: horses, nature, connoisseurship, quiet influence. The SE8w7 at its best isn't loud; it is complete.</p>
-          <p class="vb-intro">The Shadow: The invisibility that protects the SE8 also makes it uncontrollable - for better or worse. What drives a company of this size remains largely hidden: supply chains, working conditions, political influence. If you never give public accountability, you never have to. This is the downside of the SE8 strategy: the territory is secured &mdash; but no one knows exactly how.</p>
+          <p class="vb-intro">The light of the SE8w7 is its sovereign independence. Jacqueline Mars needs neither applause nor justification. She possesses one of the largest private fortunes in the world and lives a life she shapes herself: horses, nature, connoisseurship, quiet influence. The SE8w7 at its best is not loud; it is complete.</p>
+          <p class="vb-intro">The shadow: the invisibility that protects the SE8 also makes it uncontrollable, for better or worse. What moves a company of this scale remains largely hidden: supply chains, working conditions, political influence. Those who never account publicly never have to. That is the flip side of the SE8 strategy: the territory is secured, but no one knows exactly how.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Orangutan That Never Needs to Be Seen</h2>
+        <h2 class="vb-section">6. The Orangutan Who Never Needs to Be Seen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jacqueline Mars is one of the richest women in the world &mdash; and one of the most unknown. This is no coincidence and no shyness. This is the SE8w7 in perfect form: the territory secured, the resources secured, life enjoyed to the fullest - and all without a single press conference. The orangutan doesn't need spectators. He sits enthroned in his tree, far above the noise of the world, and knows exactly what he has.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Jacqueline Mars is one of the richest women in the world and one of the most unknown. That is no accident and no shyness. That is the SE8w7 in its ultimate form: territory secured, resources secured, life enjoyed to the fullest—and all of it without a single press conference. The orangutan needs no spectators. It sits enthroned in its tree, high above the noise of the world, knowing exactly what it has.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -13327,46 +13327,46 @@ function jamaicaKincaidPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jamaica Kincaid</p>
         <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with nine-wing piano</p>
-        <p class="krim-portrait-subtitle">Writer &amp; Essayist, born 1949 in Antigua</p>
+        <p class="krim-portrait-subtitle">Writer & essayist, b. 1949 in Antigua</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>L\xf6we</strong> is the animal of social type 8 &mdash; and no picture captures Jamaica Kincaid more accurately. The lion does not fight indiscriminately. He waits, watches, chooses the moment. And when he attacks, he does so with a precision that wastes no energy. His strength is not at the service of his own greatness - it is at the service of the pack, the community, those he protects.</p>
-          <p class="vb-intro">Jamaica Kincaid, born in St. John's, Antigua in 1949, emigrated to New York at the age of 17 as a nanny and became an author at <em>New Yorker</em> and wrote itself into the memory of world literature over the next decades. Your instrument is language &mdash; sharper than any complaint, more precise than any accusation. She writes about colonialism, about motherhood, about origins, about loss &ndash; and always so that after reading something that previously seemed intact breaks.</p>
+          <p class="vb-intro">The lion is the animal of the social Type 8, and no image fits Jamaica Kincaid more accurately. The lion does not fight indiscriminately. It waits, observes, chooses its moment. And when it strikes, it does so with a precision that wastes no energy. Its strength does not serve its own ego—it serves the pride, the community, those it protects.</p>
+          <p class="vb-intro">Jamaica Kincaid, born in 1949 in St. John's, Antigua, emigrated to New York as an au pair at age 17, became a writer for The New Yorker, and over the following decades wrote her way into the canon of world literature. Her instrument is language—sharper than any lament, more precise than any indictment. She writes about colonialism, motherhood, origin, loss, and always in a way that leaves something shattered that seemed intact before.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Eight: solidarity\xe4t</h2>
+        <h2 class="vb-section">2. The Social Eight: Solidarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts her strength at the service of those who have no power. Naranjo called this subtype <em>Solidarit\xe4t</em>: The SO8 identifies with the oppressed - not out of pity, but out of deep indignation at the injustice itself. She confronts it. Without detour, without excuse.</p>
-          <p class="vb-intro">Kincaids Essay <em>A Small Place</em> (1988) is the document of this energy. She addresses the white tourist who is visiting Antigua directly and explains, sentence by sentence, what he does not see, does not want to see and is not allowed to see in order to be able to enjoy his vacation. It is not an accusatory text - it is a revealing one. The SO8 doesn't have the loudest voice, it has the clearest voice.</p>
+          <p class="vb-intro">The social Eight (SO8) puts its strength in the service of those without power. Naranjo called this subtype Solidarity: the SO8 identifies with the oppressed—not out of pity, but out of deep indignation at injustice itself. It steps in front of them. Without detours, without excuses.</p>
+          <p class="vb-intro">Kincaid's essay A Small Place (1988) is the document of this energy. She addresses the white tourist visiting Antigua directly, explaining sentence by sentence what they fail to see, refuse to see, and are not allowed to see in order to enjoy their vacation. It is not an accusatory text—it is an unmasking one. The SO8 does not carry the loudest voice; it carries the clearest.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Wing of Nine: The Patience of the Lion</h2>
+        <h2 class="vb-section">3. The Nine Wing: The Patience of the Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine wing\xfcgel</strong> gives the Social Eight a quality that deepens its impact: patience, spaciousness and the ability to carry an idea across pages and decades without losing it. The SO8w7 attacks immediately. The <strong>SO8w9</strong> waits until the moment is complete.</p>
-          <p class="vb-intro">Kincaid's prose has this quality: it circles. She returns\xfcck. She surrounds her topic from all sides before she strikes - and when the blow comes, the reader does not have the feeling of being taken by surprise, but of being released. The wing of nine also gives her the ability to hold different truths at the same time: the beauty of Antigua and its mutilation, the love for her mother and the anger towards her, the longing for home and the impossibility of returning.</p>
+          <p class="vb-intro">The Nine wing gives the social Eight a quality that deepens its impact: patience, spaciousness, and the ability to sustain a thought across pages and decades without losing it. The SO8w7 attacks immediately. The SO8w9 waits until the moment is fully ripe.</p>
+          <p class="vb-intro">Kincaid's prose has this quality: it circles. It returns. It surrounds its subject from all sides before striking—and when the blow lands, the reader feels not caught off guard, but released. The Nine wing also enables her to hold multiple truths at once: the beauty of Antigua and its mutilation, love for her mother and rage at her, the longing for home and the impossibility of return.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: A voice that does not back down</h2>
+        <h2 class="vb-section">4. The Work: A Voice That Does Not Back Down</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jamaica Kincaid started out as a writer at <em>New Yorker</em> in the 1970s  under editor-in-chief William Shawn. Your novel <em>Annie John</em> (1985) describes growing up in Antigua &mdash; the close, intense bond with the mother and its slow break - with a precision that seems autobiographical because it is. <em>Lucy</em> (1990) continues this story: a Caribbean girl as a nanny in New York who stands between worlds and accepts none of them as her own.</p>
-          <p class="vb-intro"><em>The Autobiography of My Mother</em> (1996) and <em>My Brother</em> (1997) &mdash; a memoir about her brother Devon, who died of AIDS &mdash; deepen the themes: colonization of the body, language, memory. Kincaid now teaches at Harvard University. She changed her name, left her homeland and weaponized her language. This is the SO8w9: not to flee, but to transform.</p>
+          <p class="vb-intro">Jamaica Kincaid began her writing career in the 1970s at The New Yorker under editor-in-chief William Shawn. Her novel Annie John (1985) depicts growing up in Antigua—the close, intense bond with her mother and its gradual collapse—with a precision that feels autobiographical because it is. Lucy (1990) continues this story: a Caribbean girl working as an au pair in New York, standing between two worlds without accepting either as her own.</p>
+          <p class="vb-intro">The Autobiography of My Mother (1996) and My Brother (1997)—a memoir about her brother Devon, who died of AIDS—deepen these themes: the colonization of the body, language, and memory. Kincaid currently teaches at Harvard University. She changed her name, left her homeland, and forged her language into a weapon. That is the SO8w9: not fleeing, but transforming.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The Intransigence</h2>
+        <h2 class="vb-section">5. Light and Shadow: Relentlessness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SO8w9 is their <strong>moral clarity</strong>. Kincaid knows exactly what she stands for &mdash; and against what. In a literary world that favors diplomatic ambiguity, she is a voice that does not negotiate. Her texts endure what is too much for others: the painfulness of the truth, the discomfort of remembering, the impossibility of forgetting.</p>
-          <p class="vb-intro">The Shadow: SO8 cannot resign. What starts as clarity can become a lack of compromise - against characters, against readers, against one's own story. Kincaid's relationship with Antigua is torn: she loves the country and condemns its government; she writes in English, the language of the colonizers, and makes that language her own. The nine wing can handle that. But it's not easy.</p>
+          <p class="vb-intro">The light of the SO8w9 is its moral clarity. Kincaid knows exactly what she stands for and what she stands against. In a literary world that favors diplomatic ambiguity, she is a voice that does not negotiate. Her texts endure what others find overwhelming: the painfulness of truth, the discomfort of memory, the impossibility of forgetting.</p>
+          <p class="vb-intro">The shadow: the SO8 cannot step back. What begins as clarity can turn into uncompromising rigidity—toward characters, toward readers, toward her own story. Kincaid's relationship with Antigua is torn: she loves the land while condemning its government; she writes in English, the language of the colonizers, making that language her own. The Nine wing endures this burden. But it is not easy.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The lion who writes</h2>
+        <h2 class="vb-section">6. The Lion Who Writes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jamaica Kincaid has no weapon but language - and this language is sharper than anything else. She has transformed one of the Caribbean's most brutal colonial histories into literature without romanticizing the victims and without sparing the perpetrators. This is the SO8w9: not the lion that br\xfcllt - but the one who bit down long before you saw it coming. Strength that is not loud. Truth that remains.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Jamaica Kincaid carries no weapon other than language, and that language is sharper than anything else. She transformed one of the most brutal colonial histories of the Caribbean into literature, without romanticizing the victims and without sparing the perpetrators. That is the SO8w9: not the lion that roars, but the one that bit long before you saw it coming. Strength that is not loud. Truth that remains.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -13390,46 +13390,46 @@ function jamesLevinePortraitPage() {
         </div>
         <p class="krim-portrait-name">James Levine</p>
         <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Dirigent &amp; Pianist, 1943&ndash;2021 &ndash; Animal correspondence: Elefant</p>
+        <p class="krim-portrait-subtitle">Conductor & pianist, 1943–2021 – Animal equivalent: Elephant</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Elefant</strong> is the animal of self-preservation type 9 &mdash; and no picture captures James Levine more accurately. The elephant doesn't forget. He moves at his own rhythm, calm, grounding, with a presence that changes the room before he says a single word. It doesn't need an action to work. It's enough that he's there.</p>
-          <p class="vb-intro">James Levine, born in Cincinnati in 1943, died in 2021, was one of the most important conductors of the 20th century. For forty years he directed the Metropolitan Opera in New York &mdash; first as music director, later as chief conductor. He formed an orchestra that carried his sound like an instrument that had been built for him. No other conductor of modern times has lived in a single house for so long, so prominently, so completely.</p>
+          <p class="vb-intro">The elephant is the animal of the self-preservation Type 9, and no image fits James Levine more accurately. The elephant does not forget. It moves at its own rhythm, calm, grounding, with a presence that alters the room before it utters a single word. It needs no dramatic action to make an impact. Simply being there is enough.</p>
+          <p class="vb-intro">James Levine, born in Cincinnati in 1943 and passed away in 2021, was one of the most prominent conductors of the 20th century. For forty years, he led the Metropolitan Opera in New York—first as music director, later as music director emeritus/principal conductor. He built an orchestra that carried his sound like an instrument crafted specifically for him. No other modern conductor inhabited a single opera house so long, so profoundly, and so completely.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Sustaining Nine: Appetite</h2>
+        <h2 class="vb-section">2. The Self-Preservation Nine: Appetite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation nine (SE9)</strong> expresses the laziness of the nine through sensual events. Naranjo called this subtype <em>Appetit</em>: the desire for enjoyment, for comfort, for deep immersion in what nourishes you. The SE9 doesn't want to change the world. She wants to live in it &mdash; complete, warm, surrounded by what is good for her.</p>
-          <p class="vb-intro">Levine's appetite was music. Not as a career, not as an achievement &mdash; but as a way of life. He merged with the repertoire like an elephant with his herd: completely, silently, out of deep belonging. Wagner, Verdi, Mozart, Mahler, Brahms &mdash; he didn't learn them, he inhabited them. The Met was not his place of work. She was his territory, his home, his appetite in architectural form.</p>
+          <p class="vb-intro">The self-preservation Nine (SE9) expresses the sloth of the Nine through sensory abundance. Naranjo called this subtype Appetite: the joy of enjoyment, comfort, and deep immersion into what feeds oneself. The SE9 does not want to change the world. It wants to live in it—completely, warmly, surrounded by what brings it well-being.</p>
+          <p class="vb-intro">Levine's appetite was music. Not as a career, not as an achievement, but as a way of life. He merged with the repertoire like the elephant with its herd: completely, quietly, out of deep belonging. Wagner, Verdi, Mozart, Mahler, Brahms—he did not merely learn them, he inhabited them. The Met was not his workplace. It was his territory, his home, his appetite made manifest in architecture.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One Wing: The Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Einserfl\xfcgel</strong> gives the self-preservation nine a quality that complements the pure SE9: precision, rigor and an inner standard that does not accept abbreviations. The SE9w8 seeks power. The <strong>SE9w1</strong> seeks accuracy &mdash; in the detail, in the sound, in the purity of expression.</p>
-          <p class="vb-intro">Levine was famous for his enormous musical accuracy. He rehearsed with a patience and depth that amazed even experienced singers and orchestra musicians. The A wing gave him the drive to perfection; The nine gave him the calm that never made this perfection anything driven. The result was a conducting that seemed great without ever having to do much.</p>
+          <p class="vb-intro">The One wing gives the self-preservation Nine a quality that complements the pure SE9: precision, rigor, and an inner standard that accepts no shortcuts. The SE9w8 seeks power. The SE9w1 seeks correctness in detail, in sound, in purity of expression.</p>
+          <p class="vb-intro">Levine was famous for his enormous musical accuracy. He rehearsed with a patience and depth that astonished even veteran singers and orchestral musicians. The One wing provided the drive toward perfection; the Nine provided the tranquility that kept this perfection from ever feeling driven. The result was a conducting style that felt grand without ever needing to act grand.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: Forty Years of Met</h2>
+        <h2 class="vb-section">4. The Work: Forty Years at the Met</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Levine took over as musical director of the Metropolitan Opera in 1976 &mdash; at the age of three\xdfig. What followed was one of the longest and most influential conductorships in the history of a major opera. He systematically expanded the Met Orchestra, led the opera house into new repertoire areas and worked with the most important singers and directors of his time. The summer festival in Salzburg, years of collaboration with the Berlin Philharmonic, a short phase as chief conductor of the Boston Symphony Orchestra (2004-2011) &mdash; his influence reached far beyond New York.</p>
-          <p class="vb-intro">His repertoire was extraordinarily broad: he conducted Wagner cycles as well as Mozart operas, Brahms symphonies as well as contemporary premieres. He always maintained a quality that made his work recognizable: a combination of structural clarity and sensual warmth that describes the elephant - big\xdf, patient, glowing from within.</p>
+          <p class="vb-intro">Levine took over the musical direction of the Metropolitan Opera in 1976 at age thirty-three. What followed was one of the longest and most defining tenures in the history of grand opera. He systematically developed the Met Orchestra, introduced the opera house to new repertoire areas, and collaborated with the leading singers and directors of his era. The summer festival in Salzburg, years of collaboration with the Berlin Philharmonic, a brief stint as music director of the Boston Symphony Orchestra (2004–2011)—his influence extended far beyond New York.</p>
+          <p class="vb-intro">His repertoire was remarkably broad: he conducted Wagner cycles as masterfully as Mozart operas, Brahms symphonies as well as contemporary premieres. Through it all, he preserved a distinct signature quality: a union of structural clarity and sensory warmth that epitomizes the elephant—grand, patient, radiating from within.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow: The appetite without limit</h2>
+        <h2 class="vb-section">5. Light and Shadow: Appetite Without Bounds</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE9w1 is its <strong>persistent depth</strong>. Over decades, Levine created a musical house that would have been unthinkable without him. His standards were high, his commitment total, his love for music unambiguous. The one wing kept him on track; the nine gave him the stamina.</p>
-          <p class="vb-intro">The Shadow: The SE9's appetite knows no natural limit. In 2017, allegations of sexual abuse were made publicly against Levine &mdash; by several men who described being abused by him as teenagers and young adults. The Met terminated his contract. Later investigations largely confirmed the allegations. What had remained in the shadow of his superior power for decades came to light - and the image that remained was a divided one: that of the great musician and that of the man who had treated his position as both territory and appetite.</p>
+          <p class="vb-intro">The light of the SE9w1 is its persistent depth. Over decades, Levine created a musical institution unthinkable without him. His standards were high, his dedication total, his love for music absolute. The One wing kept him on track; the Nine provided endurance.</p>
+          <p class="vb-intro">The shadow: the appetite of the SE9 knows no natural limit. In 2017, public allegations of sexual abuse were raised against Levine by several men who described being abused by him as teenagers and young adults. The Met terminated his contract. Subsequent investigations corroborated the allegations in essential parts. What had remained hidden in the shadow of his immense power for decades came to light, leaving behind a fractured image: that of the great musician, and that of a man who treated his position as both territory and appetite without bounds.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The elephant that lived in the house</h2>
+        <h2 class="vb-section">6. The Elephant Who Inhabited the House</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">James Levine has shaped the Metropolitan Opera like no other. He gave it a sound that was recognizable. He has shaped generations of singers and musicians. And he showed what the self-preservation Nine looks like at its best: complete immersion, staying power, a presence that doesn't need to be explained. In its darkest form, it also shows how an appetite that knows no limits can destroy everything it has built. The elephant doesn't forget. And neither does the story.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">James Levine shaped the Metropolitan Opera like no other. He gave it an unmistakable sound. He mentored generations of singers and musicians. And he demonstrated what the self-preservation Nine looks like at its best: total immersion, long endurance, and a presence that requires no explanation. In its darkest form, it also shows how an appetite without bounds can destroy everything it built. The elephant does not forget. And neither does history.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v624';
+  const MY_VERSION = 'inhalt-v625';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
