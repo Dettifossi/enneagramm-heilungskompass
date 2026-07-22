@@ -14465,46 +14465,46 @@ function neilArmstrongPortraitPage() {
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
         <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with seven-winged wing</p>
-        <p class="krim-portrait-subtitle">Pilot, astronaut, first man on the moon, 1930-2012 - Animal correspondence: Rabbits</p>
+        <p class="krim-portrait-subtitle">Pilot, astronaut, first human on the moon, 1930–2012 – Animal equivalent: Rabbit</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Rabbit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Rabbit</strong> is alert, loyal and seeks security in what it knows. It is not an animal of grand gesture. It lives in the familiar, carefully expanding its territory - and when the situation demands it, it shows a determination that one would not have expected from outside. The rabbit does not survive through strength, but through cleverness, reliability and the trust of its group.</p>
-          <p class="vb-intro">Neil Armstrong was the first person to walk on the moon. On July 20, 1969, at 02:56 UTC, he placed his left foot on the lunar surface and said a sentence that the world still knows today. Afterwards he did everything he could to disappear into the silence again. He hardly gave any interviews. He fled from the public. He returned to Ohio, to his farm, and lived there as inconspicuously as if he had only taken a short trip - to the moon and back. This is the rabbit: the most extraordinary human being who ever left his footprint in the dust - and who wanted nothing more than normality.</p>
+          <p class="vb-intro">Neil Armstrong was the first human to step onto the moon. On July 20, 1969, at 02:56 UTC, he placed his left foot on the lunar surface and spoke a sentence the world knows to this day. Afterward, he did everything he could to vanish back into silence. He gave almost no interviews. He fled from the public eye. He returned to Ohio, to his farm, and lived there so inconspicuously as if he had only taken a short trip—to the moon and back. That is the rabbit: the most extraordinary person ever to leave his footprint in the dust—and who afterward wanted nothing more than normalcy.</p>
+          <p class="vb-intro">Armstrong was no hero of grand words. When he stood on the moon, he did not say, "I did it," but: "The Eagle has landed." We. The team. The ground station in Houston. Buzz Aldrin beside him. Michael Collins in lunar orbit. Armstrong stepped onto the moon—but he never understood it as his personal triumph. He was the representative of a collective. And precisely that mattered to him.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The warmth: security through trust</h2>
+        <h2 class="vb-section">2. Warmth: Security Through Trust</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the self-preservation Type 6 the <strong>Heat</strong> - because this subtype seeks security through human closeness and relatability. The SE6 is loyal, reliable, team-oriented. She exudes a calmness that calms others &mdash; and she needs the trust of the group as much as she gives it.</p>
-          <p class="vb-intro">Armstrong was not a hero of big words. When he stood on the moon he didn't say <em>I did it</em>, sondern: <em>The Eagle has landed.</em> We. The team. The ground station in Houston. Buzz Aldrin next to him. Michael Collins in lunar orbit. Armstrong walked on the moon &mdash; but he never saw it as his personal triumph. He was the representative of a community. And that was exactly what was important to him.</p>
-          <p class="vb-intro">His colleagues described him as calm, reliable and matter-of-fact. He spoke little in critical situations &mdash; and if so, then precisely. When approaching the moon, the on-board computer responded with error messages and the landing site turned out to be a rocky field. Armstrong took control manually, calmly looked for a safe place - and landed with a fuel supply that would have lasted for less than thirty seconds. No panic, no drama. This is the SE6 at its best: security through competence, calm as a protective principle.</p>
+          <p class="vb-intro">His colleagues described him as calm, reliable, and matter-of-fact. He spoke little in critical situations—and when he did, he was precise. During the approach to the moon, the onboard computer responded with error messages, and the landing site proved to be a boulder field. Armstrong manually took over control, calmly searched for a safe spot—and landed with a fuel reserve that would have lasted for less than thirty seconds. No panic, no drama. That is the SE6 in peak form: security through competence, calm as a protective principle.</p>
+          <p class="vb-intro">Armstrong flew for the first time at age six—with his father in a Ford Trimotor, a three-engine passenger airplane widely used in the US during the 1920s. Ever since, he wanted to be a pilot. By sixteen, he had his pilot's license before he possessed a driver's license. He flew seventy-six combat missions in the Korean War. He became a test pilot and flew the X-15 to an altitude of over 60 kilometers—at the edge of space. Each of these steps was bold. None of them was reckless. That is the SE6w7: courage built upon preparation, not recklessness.</p>
+          <p class="vb-intro">In 1966, on Gemini 8, he performed the first successful docking maneuver of two spacecraft in space—and saved the mission when the spacecraft entered an uncontrolled rolling motion by keeping a cool head and making the right decision in seconds. The seven wing gives the rabbit wings. But the rabbit remains grounded.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wings: The Adventurer's Courage</h2>
+        <h2 class="vb-section">3. The Seven Wing: The Courage of the Adventurer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-winged wing (w7)</strong> brings something to the self-preservation six that the pure SE6 alone would not develop: a sense of adventure, enthusiasm and the willingness to set off into the unknown. Where the SE6 seeks security, the seven-wing wing opens the door to the expanse. The result is a person who loves the familiar &mdash; and still go where no one has been before.</p>
-          <p class="vb-intro">Armstrong flew for the first time at the age of six &mdash; with his father in a Ford Trimotor &mdash; a three-engine passenger aircraft that was widely used in the United States in the 1920s. Since then he wanted to become a pilot. He had his pilot's license at sixteen, before he had his pilot's license. He flew seventy-six combat missions in the Korean War. He became a test pilot and flew the X-15 to an altitude of over 60 kilometers - on the edge of space. Each of these steps was k\xfchn. None of it was frivolous. This is SE6w7: courage built on preparation, not carelessness.</p>
-          <p class="vb-intro">In 1966 he flew Gemini 8, the first successful docking of two spaceships in space - and saved the mission when the spacecraft went into an uncontrolled roll by keeping a cool head and making the right decision in seconds. The seven-winged wing gives the rabbit wings. But the rabbit remains grounded.</p>
+          <p class="vb-intro">The small word "a" before "man" had been lost in the radio static—and Armstrong later insisted he had said it. Without the "a," the sentence lacks a logical contrast: "man" is then synonymous with "mankind." With the "a," however, he meant the individual human being—and precisely that was Armstrong: an individual human being who went for everyone. He clarified this distinction his entire life. That is the SE6: precision in language, correctness as a value.</p>
+          <p class="vb-intro">Upon his return, he was showered with parades and receptions. Afterward, he taught aerospace engineering at the University of Cincinnati—for eight years, quietly, reliably, without a fuss. Then he returned to his farm in Ohio.</p>
+          <p class="vb-intro">The shadow: The SE6 can freeze in its tendency toward retreat. After the moon landing, Armstrong became so quiet that some wondered if he was depressed. He spoke scarcely about the experience—not because it had not touched him, but because he found no words for it that did justice to reality. A single time, in an interview shortly before his death, he confessed: "It was the greatest experience of my life. And to this day I cannot truly explain it." That is the SE6: what is too big for words remains within.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: Twenty-one hours on the moon</h2>
+        <h2 class="vb-section">4. The Work: Twenty-One Hours on the Moon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">On July 20, 1969, the <strong>Apollo 11</strong>-Mondlandef\xe4hre <em>Eagle</em> landed  in the sea of ​​calm. Armstrong and Aldrin spent twenty-one hours and thirty-six minutes on the moon &mdash; of which around two hours and twenty minutes outside the ferry. Armstrong collected rock samples, took photographs, and planted the American flag. And he said the sentence:</p>
-          <p class="vb-intro"><em>That's one small step for [a] man, one giant leap for mankind.</em></p>
-          <p class="vb-intro">The little word <em>a</em> before <em>man</em> was lost in the radio noise &mdash; and Armstrong later emphasized that he had said so. Without the <em>a</em> the sentence does not produce a logical opposition: <em>Man</em> is then equivalent to <em>mankind</em>. With the <em>a</em> On the other hand, he means the individual human being - And that's exactly what Armstrong was: a single person who worked for everyone. He made this distinction clear throughout his life. This is the SE6: precision in language, correctness as a value.</p>
-          <p class="vb-intro">After returning, he was overwhelmed with parades and receptions. He then taught aerospace engineering at the University of Cincinnati &mdash; for eight years, calm, reliable, without fuss. Then he returned to his farm in Ohio\xfcck.</p>
+          <p class="vb-intro">His daughter Karen died in 1962 at the age of two from a brain tumor. Armstrong almost never spoke about it publicly. Only once did he say that after her death he began waking up particularly early in the morning—before anyone else was awake—to be alone. The rabbit withdraws when the pain is too great. And bears it silently.</p>
+          <p class="vb-intro">Neil Armstrong died on August 25, 2012, in Cincinnati, Ohio—following complications from heart bypass surgery. He was eighty-two years old. He spent his final decade largely on his farm in Lebanon, Ohio. Gardening, agriculture, the everyday life of a man who was not great because he wanted to be, but because history had made him so.</p>
+          <p class="vb-intro">Following his death, his family published a statement that ended with a sentence describing Armstrong as well as almost any other: "If you want to honor him, then on the next clear evening look up at the moon, give a wave, and think of Neil Armstrong."</p>
+          <p class="vb-intro">That is the SE6w7: a person who did the greatest thing a human had ever done up to that point—and afterward wanted only one thing: to go home. The rabbit set foot on the moon. And returned to where it belonged.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The Most Famous Unknown</h2>
+        <h2 class="vb-section">5. Light and Shadow: The Most Famous Unknown Person</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SE6w7 is her <strong>Integrity\xe4t</strong>. Armstrong could have become rich &mdash; through advertising contracts, through appearances, through his name. He refused almost everything. When he found out his signature was selling for thousands of dollars, he stopped signing autographs. When a barber sold a chunk of his hair after a haircut, Armstrong threatened to sue if the money wasn't donated to a charity. He was serious.</p>
           <p class="vb-intro">The Shadow: The SE6 can freeze in the tendency to retreat. Armstrong became so quiet after flying to the moon that some people asked if he was depressed. He barely spoke about the experience &mdash; not because it didn't affect him, but because he couldn't find words for it that did justice to reality. Once, in an interview shortly before his death, he confessed: <em>It was the greatest experience of my life. And to this day I can't really explain it.</em> This is the SE6: What is too big for words stays inside.</p>
           <p class="vb-intro">His daughter Karen died of a brain tumor in 1962 at the age of two. Armstrong hardly ever spoke about it publicly. Only once did he say that after her death he started getting up especially early in the morning &mdash; before everyone else was awake &mdash; to be alone. The rabbit will retreat if the pain is too great. And carries him quietly.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The rabbit returns home</h2>
+        <h2 class="vb-section">6. The Rabbit Returns Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Neil Armstrong died on August 25, 2012 in Cincinnati, Ohio &mdash; after complications from heart bypass surgery. He was eighty-two years old. He spent much of his last decade on his farm in Lebanon, Ohio. Gardening, farming, the everyday life of a man who was not great because he wanted to be, but because history made him so.</p>
           <p class="vb-intro">After his death, his family released a statement that ended with a sentence that describes Armstrong better than almost any other: <em>If you want to honor him, look up at the moon on the next clear evening, wave and think of Neil Armstrong.</em></p>
@@ -14512,9 +14512,9 @@ function neilArmstrongPortraitPage() {
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
@@ -14535,54 +14535,54 @@ function pamelaReifPortraitPage() {
         </div>
         <p class="krim-portrait-name">Pamela Reif</p>
         <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-Wing &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Fitness influencer, entrepreneur, born 1996 &mdash; Millions of connections through one screen &mdash; Animal correspondence: Camel</p>
+        <p class="krim-portrait-subtitle">Fitness influencer, entrepreneur, b. 1996 – Millions of connections through a screen – Animal equivalent: Camel</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The camel reaching through the screen</h2>
+        <h2 class="vb-section">1. The Camel That Reaches Through the Screen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the Sexual Two &mdash; patient, persistent, able to stand by others under extreme conditions. The camel saves. It carries resources within itself that it releases exactly when others need them most &mdash; in the desert, on the long journey, when there is no other help in sight. This is the image that Pamela Reif embodies on screens millions of times: the woman who is there &mdash; always, on time, with a new exercise, a new plan, a calm look that says: I'll accompany you.</p>
-          <p class="vb-intro">Pamela Reif, born in Karlsruhe in 1996, started on Instagram in 2012 at the age of sixteen. What started as a hobby became one of Europe's most successful fitness empires: millions of subscribers on Instagram and YouTube <em>Pam App</em>, the bestseller <em>You Deserve This</em>, collections, brand collaborations &ndash; and behind it a person who doesn't see all of this primarily as business, but as an offer of connection. The camel knows the desert. It knows how long the journey takes. And it still has everything it has.</p>
+          <p class="vb-intro">Pamela Reif, born in 1996 in Karlsruhe, started on Instagram in 2012 at the age of sixteen. What began as a hobby turned into one of Europe's most successful fitness empires: millions of subscribers on Instagram and YouTube, the Pam App, the bestseller "You Deserve This," collections, brand collaborations—and behind it all, a person who views all of this not primarily as a business, but as an offer of connection. The camel knows the desert. It knows how long the journey takes. And yet it gives everything it has.</p>
+          <p class="vb-intro">Her gaze into the camera is direct and inviting at the same time. No performative agitation, no put-on motivation—but a quiet, intense attentiveness typical of the SX2. The sexual Two does not seek the masses. It seeks the one person—and Pamela Reif has the ability to generate the feeling in millions of people simultaneously of being precisely that one person. That is rare. That is seduction in the deepest Enneagram sense: not necessarily manipulation, but the true art of connection.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SX2: Seduction through the screen</h2>
+        <h2 class="vb-section">2. SX2: Seduction Through the Screen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the Sexual Two <strong>Seduction</strong> - the ability to draw others to you through emotional closeness and intense presence. What arises in the Sexual Two is not a distant sender-receiver relationship, but the feeling of a real, personal encounter. The special thing about Pamela Reif: She creates this quality through a screen. People who follow her videos don't feel like they're following a workout program &mdash; They feel like they are training with someone who knows them, who is there for them, who won't give up on them.</p>
-          <p class="vb-intro">Her look into the camera is direct and inviting at the same time. No performative excitement, no fake motivation &mdash; but a calm, intense approach that is typical of the SX2. The Sexual Two is not looking for the crowd. She is looking for that one person &mdash; and Pamela Reif has the ability to make millions of people feel like that one person at the same time. That's rare. This is seduction in the deepest Enneagram sense: not necessarily manipulation, but real art of connection.</p>
-          <p class="vb-intro">This also includes the willingness to self-sacrifice, which the PDF of her personality analysis emphasizes: Pamela invests an enormous amount of time and energy &mdash; not to show yourself, but to give the best to others. The SX2 is fulfilled by giving. And when the giving comes back &mdash; as a comment, as gratitude, as a shared video - that is not a reward. It's the answer to the two's deepest question: Am I really important to you?</p>
+          <p class="vb-intro">This also includes the readiness for self-sacrifice: Pamela invests an enormous amount of time and energy—not to show off herself, but to give others the best. The SX2 fulfills itself through giving. And when the giving comes back—as a comment, as gratitude, as a shared video—that is no reward. It is the answer to the Two's deepest question: Am I truly important to you?</p>
+          <p class="vb-intro">The three wing is also the reason why Pamela Reif does not stick to just one thing. The Three diversifies, expands, develops—always with the goal of broadening the circle of those she can reach. App, book, brand, collaboration: This is no vanity project; this is the SX2w3 at work—the greater the reach, the more people the longing for connection can fulfill.</p>
+          <p class="vb-intro">Anyone who watches Pamela Reif's videos encounters no loud personality. She does not push herself forward, she does not scream, she does not exaggerate. Her energy is quiet—but it is there. Fully there. The gaze, the posture, the precision of movement: everything communicates the same thing—"I am doing this with you. You can do this." That is the quiet strength of the camel: no drama, no gesture, but a reliability that works deeper than any staging.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The triple wing: perfection as proof of love</h2>
+        <h2 class="vb-section">3. The Three Wing: Perfection as Proof of Love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Triple wing (w3)</strong> brings a second dimension to the SX2's passionate connection energy: performance, image, quality. The three don't just want to connect - she wants <em>shine</em>. She wants what she gives to be good enough to be seen. With Pamela Reif, this is reflected in the exceptional quality of her content: precisely produced, aesthetically consistent, well thought out. Every video, every collaboration, every page of the app bears the signature of a person who sees excellence not as self-expression, but as respect for the audience.</p>
-          <p class="vb-intro">The triple wing is also the reason why Pamela Reif doesn't just stick to one thing. The three diversified, expanded, developed &mdash; always with the aim of expanding the circle of those she can reach. App, book, brand, cooperation: This is not a vanity project, this is the SX2w3 at work &mdash; the greater the reach, the more people can fulfill their desire for connection.</p>
+          <p class="vb-intro">The audience senses this. Millions of people have aligned their workout routine with Pamela Reif—not because her videos are the most spectacular, but because they generate the feeling of not being alone. That is the core of the SX2w3 effect: gentle presence that strengthens.</p>
+          <p class="vb-intro">Although Pamela often appears balanced and poised on the outside, a high emotional intensity resonates in her content—the intensity of the sexual Two, which seeks a genuine encounter in every interaction. This energy is connecting: It draws the audience not as consumers, but as fellow travelers on a shared journey toward a healthier, more conscious life.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Overall effect: Silent force that moves</h2>
+        <h2 class="vb-section">4. Overall Impact: Quiet Strength That Moves</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anyone who watches Pamela Reif's videos will not encounter a loud personality. She doesn't impose herself, she doesn't shout, she doesn't exaggerate. Your energy is calm &mdash; but she is there. Completely there. The look, the posture, the precision of the movement: everything communicates the same thing - <em>I'll do this to you. You can do it.</em> This is the quiet power of the camel: no drama, no gesture, but a reliability that has a deeper effect than any production.</p>
-          <p class="vb-intro">The audience feels this. Millions of people have modeled their workout routine on Pamela Reif &mdash; not because their videos are the most spectacular, but because they create the feeling of not being alone. This is the core of the SX2w3 effect: a gentle presence that strengthens.</p>
+          <p class="vb-intro">The three wing gives this energy form and direction—it channels the passionate longing for connection of the SX2 into concrete, high-quality offerings. The result is an energy that simultaneously motivates and consoles: You do not have to be perfect. But I am walking with you.</p>
+          <p class="vb-intro">What Pamela Reif gives the world is more than fitness. She has shown a generation that one's own body is not an enemy that must be conquered, but a home that one can invite in—with dignity, with endurance, with joy. "You Deserve This" is not just a book title: It is the message of the SX2w3 to everyone who knows the feeling of first having to achieve something in order to receive care.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetic effect: Emotional intensity behind the calm</h2>
+        <h2 class="vb-section">5. Energetic Impact: Emotional Intensity Behind the Calm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Although Pamela often appears balanced and calm on the outside, her content resonates with a high level of emotional intensity - the intensity of the Sexual Two who seek a real encounter in every interaction. This energy is unifying: it attracts the audience not as consumers, but as fellow travelers on a shared journey to a healthier, more conscious life.</p>
+          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when one arrives—and is simply grateful not to have been alone. That is Pamela Reif. That is the SX2w3 at its highest level of expression.</p>
           <p class="vb-intro">The triple wing gives this energy form and direction &mdash; it channels the SX2's passionate longing for connection into concrete, high-quality offerings. The result is an energy that motivates and comforts at the same time: you don't have to be perfect. But I'm going with you.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Gift: Fitness Content as a Relationship Offer</h2>
+        <h2 class="vb-section">6. The Gift: Fitness Content as an Offer of Relationship</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Pamela Reif gives to the world is more than fitness. She showed a generation that your body is not an enemy to be conquered, but a home to be invited in &mdash; with dignity, with perseverance, with joy. <em>You Deserve This</em> is not just a book title: it is the message of the SX2w3 to everyone who knows the feeling of having to do something to care for them.</p>
           <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when you arrive - and is just grateful to not have been alone. This is Pamela Reif. This is the SX2w3 at its highest level of expression.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/sx2", label:"SX2 &mdash; The Camel: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
       ])}
@@ -14601,54 +14601,54 @@ function queenElizabethIIPortraitPage() {
         </div>
         <p class="krim-portrait-name">Queen Elizabeth II.</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
-        <p class="krim-portrait-subtitle">Queen of the United Kingdom, 1926-2022 Animal correspondence: Eagle</p>
+        <p class="krim-portrait-subtitle">Queen of the United Kingdom, 1926–2022 – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation one &mdash; and no picture captures Queen Elizabeth II more accurately. The eagle flies alone, high above the noise of the world. He needs no approval, no stage, no admiration. He has a post &mdash; and he doesn't leave him. When he circles, he does so with complete concentration. If he lands, it will be with dignity.</p>
-          <p class="vb-intro">Elizabeth Alexandra Mary Windsor ascended to King George VI in 1952, at the age of twenty-five, following the death of her father. the throne &mdash; a throne that she had not sought, that had fallen to her through the renunciation of her uncle Edward VIII. She said yes. Not with enthusiasm, not with ambition &mdash; but with the quiet, absolute resolve of someone who understands that certain tasks are non-negotiable. For seventy years she renewed this yes every day. The eagle remained at his post.</p>
+          <p class="vb-intro">Elizabeth Alexandra Mary Windsor ascended the throne in 1952 at the age of twenty-five, following the death of her father King George VI—a throne she had not sought, which had fallen to her through the abdication of her uncle Edward VIII. She said yes. Not with enthusiasm, not with ambition—but with the quiet, absolute resolve of a person who understands that certain tasks are non-negotiable. For seventy years, she renewed this yes every single day. The eagle remained at its post.</p>
+          <p class="vb-intro">Queen Elizabeth II lived out this pattern in a form that is historically unique. In seventy years, she never gave an interview in which she expressed her personal opinion on a political question. Never. Not because she didn't have one—but because she knew the position was more important than the person. The SE1 does not deny its own wishes out of weakness. It puts them aside out of inner conviction: "This comes first."</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preserving one: duty as the meaning of life</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: Duty as Life's Purpose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation one (SE1)</strong> is the subtype of One that does not carry its claim to perfection externally, but internally. Naranjo calls this subtype <em>Worry</em> - Concern: the constant, inner question of whether you are doing the right thing, whether you are really doing justice to the task, whether you have done enough. This concern is not hesitation. It is the engine of a lifelong discipline.</p>
-          <p class="vb-intro">Queen Elizabeth II lived this pattern in a form that is historically unique. In seventy years she has never given an interview in which she expressed her personal opinion on a political issue. Never. Not because she didn't have any &mdash; but because she knew that the position was more important than the person. The SE1 does not deny its own desires out of weakness. She puts them back out of inner conviction: <em>This is what's going on here.</em></p>
-          <p class="vb-intro">Their motto was never formulated, but it was palpable: <em>Never complain, never explain</em> - never complain, never explain. This is the SE1 in its purest, most disciplined form. She endures what others wouldn't endure &mdash; not as a victim, but as an expression of what she believes is right.</p>
+          <p class="vb-intro">Her guiding principle was never formulated, but it was palpable: "Never complain, never explain." That is the SE1 in its purest, most disciplined form. She endured what others would not endure—not as a victim, but as an expression of what she considered right.</p>
+          <p class="vb-intro">This wing explains why Queen Elizabeth II could remain the center of a country that changed profoundly around her for seventy years. Empire, decolonization, Cold War, Thatcher, Blair, Brexit, pandemic—she outlasted it all without ever taking a position. That is not indifference. That is the capacity of the nine-energy to keep the space open for others. By the Queen remaining silent, the country was allowed to speak.</p>
+          <p class="vb-intro">The same shows in her private world: the corgi dogs that accompanied her for a lifetime; the annual stay at Balmoral, the Scottish castle that meant more to her than Buckingham Palace; the long marriage to Prince Philip, based on deep mutual loyalty. The nine wing needs its anchors. It is not weak—it knows where it is rooted.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Wing of Nine: Peace as a Second Force</h2>
+        <h2 class="vb-section">3. The Nine Wing: Peace as a Second Force</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wing of nine (w9)</strong> gives the self-preservation one something that the pure one hardly finds on its own: silence. The nine wing seeks harmony, continuity, balance in the existing. He holds together what wants to drift apart - not through intervention, but through presence.</p>
-          <p class="vb-intro">This wing explains why Queen Elizabeth II was able to remain for seventy years at the center of a country that was profoundly changing around her. Empire, decolonization, Cold War, Thatcher, Blair, Brexit, pandemic &mdash; she survived everything without ever taking a position. This is not indifference. This is the ability of Nine energy to hold space open for others. By keeping silent the queen allowed the country to speak.</p>
-          <p class="vb-intro">The same can be seen in her private world: the Corgi dogs that accompanied her throughout her life; the annual stay at Balmoral, the Scottish castle that meant more to her than Buckingham Palace; the long-term marriage with Prince Philip, which was based on deep mutual loyalty. The nine wing needs its anchors. He is not weak &mdash; he knows where he is rooted.</p>
+          <p class="vb-intro">Queen Elizabeth II channeled this inner wrath in the form of duty. She worked until the last year of her life—two days before her death, on September 6, 2022, she still received Prime Minister Liz Truss at Balmoral. She was ninety-six years old. That is no longer a sense of duty. That is the SE1w9 in its final, complete consequence: the eagle that leaves its post only when there is no other possibility left.</p>
+          <p class="vb-intro">The SE1w9 has a vulnerability: in moments demanding human warmth, it can appear like coldness. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion—while the country sank into mourning and outrage. The press asked: "Where is the Queen?"</p>
+          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SE1w9 sticks to what is right—and what was right, as she understood it, was protocol and demeanor. That the people needed something else only became clear to her through external pressure. She returned to London, spoke live to the nation, bowed before Diana's coffin. For an SE1w9, that was an extraordinary step: leaving the pattern because the situation demanded it.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: Anger as inner severity</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and in SE1w9 it expresses itself in a way that remains completely invisible to the outside world. The SE1w9 is not the one that corrects out loud. She is the one who is silent &mdash; and internally holds himself to a standard that would be unimaginable to others. Anger is not turned outwards, but inwards: as iron self-discipline, as relentlessness towards one's own failures, as the constant conscience that asks: <em>Did I do what needed to be done today?</em></p>
-          <p class="vb-intro">Queen Elizabeth II channeled this inner anger into the form of duty. She worked until the last year of her life &mdash; two days before her death, on September 6, 2022, she received Prime Minister Liz Truss in Balmoral. She was ninety-six years old. This is no longer a sense of duty. This is the SE1w9 in its final, complete consequence: the eagle that only leaves its post when there is no other option.</p>
+          <p class="vb-intro">What Queen Elizabeth II gave to the United Kingdom—and to a world that reinvented itself multiple times in seventy years—can be summarized in one word: constancy. In an era of incessant change, she was the thing that did not change. No scandal made her speak. No crisis drove her from her post. No fashion swept her along.</p>
+          <p class="vb-intro">That is the gift of the SE1w9: reliability as home. An eagle sitting on its rock—not because it couldn't move, but because it knows its task is endurance. Queen Elizabeth II took her last breath in Balmoral on September 8, 2022. Her son Charles III succeeded her on the throne. The rock is empty. But it is still there.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The crisis as a mirror: 1997 and the limits of silence</h2>
+        <h2 class="vb-section">5. Crisis as a Mirror: 1997 and the Limits of Silence</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The SE1w9 has a weak point: it can seem like cold in moments that require human warmth. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion &mdash; while the country sank into grief and outrage. The press asked: <em>Where is the queen?</em></p>
           <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SE1w9 is sticking to the right thing &mdash; and the right thing, as she understood it, was protocol and attitude. It was only through external pressure that she became aware that the people needed something different. She returned to London, spoke live to the nation, bowed in front of Diana's coffin. This was an extraordinary step for an SE1w9: leaving the pattern because the situation demanded it.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The gift: stability as a home</h2>
+        <h2 class="vb-section">6. The Gift: Constancy as Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Queen Elizabeth II did to the United Kingdom &mdash; and a world that has reinvented itself several times in seventy years &mdash; can be summed up in one word: consistency. In an era of constant change, she was what didn't change. No scandal has made her speak. No crisis drove her from her post. No fashion took her away.</p>
           <p class="vb-intro">This is the gift of SE1w9: reliability as a home. An eagle sitting on its rock &mdash; not because he cannot move, but because he knows that his task is permanent. Queen Elizabeth II breathed her last at Balmoral on September 8, 2022. Her son Charles III. followed her to the throne. The rock is empty. But he's still there.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v630';
+  const MY_VERSION = 'inhalt-v631';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
