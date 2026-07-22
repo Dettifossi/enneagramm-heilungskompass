@@ -558,6 +558,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
+    heading:"Angela Merkel – Selbsterhaltende Typ 9",
+    teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren – und ein Erbe voller Widerspürche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
+    tags:["Politik"], gender:"f"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
@@ -10793,6 +10797,71 @@ function genesisPOrridgePortraitPage() {
   `);
 }
 
+function angelaMerkelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Angela Merkel</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltende Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Bundeskanzlerin 2005&ndash;2021, geb. 1954 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft Angela Merkel genauer. Der Elefant ist geduldig, erdend, von einer Pr\xe4senz, die nicht durch Lautst\xe4rke entsteht, sondern durch Gewicht. Er bewegt sich nicht eilig. Aber er bewegt sich &ndash; und wenn er in Bewegung ist, h\xe4lt ihn nichts auf.</p>
+          <p class="vb-intro">Merkel, 1954 in Hamburg geboren, aufgewachsen in der DDR, Physikerin von Beruf, wurde nach der Wende \xfcber Nacht zur Politikerin und regierte Deutschland f\xfcr sechzehn Jahre. Sie sprach selten laut. Sie machte keine gro\xdfen Gesten. Und sie \xfcberstand Krisen, Gegner und Koalitionspartner mit einer Beharrlichkeit, die mehr wie Naturgewalt wirkte als wie Strategie. Das ist der Elefant: Er braucht keine Szene. Er hat Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Aussitzen als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und Stabilit\xe4t einzurichten, Konflikten durch Passivit\xe4t auszuweichen und das Unbehagen so lange zu verwalten, bis es sich aufgel\xf6st hat. Das klingt nach Schw\xe4che. Es ist eine der wirkungsvollsten Machtformen, die es gibt.</p>
+          <p class="vb-intro">Merkels politische Methode war das Aussitzen. Sie entschied sp\xe4t, redete wenig, lie\xdf andere Positionen erst sich selbst ersch\xf6pfen &ndash; und trat dann in den Raum, wenn die Alternativen verbraucht waren. Das wird oft als Pragmatismus beschrieben. Es ist zun\xe4chst die Tr\xe4gheit der Neun, die zur Methode geworden ist: kein Angriff, kein R\xfcckzug, nur Beharren &ndash; bis der Gegner nicht mehr da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Die stille Macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der selbsterhaltenden Neun eine Qualit\xe4t, die man nach au\xdfen kaum sieht, bis es zu sp\xe4t ist: Machtinstinkt, F\xe4higkeit zur k\xfchlen Entscheidung und eine Bereitschaft, Loyalit\xe4ten zu opfern, wenn es n\xf6tig ist. Die SE9 allein w\xfcrde warten. Die <strong>SE9w8</strong> wartet &ndash; und entscheidet dann ohne Z\xf6gern.</p>
+          <p class="vb-intro">Diese Seite zeigte sich fr\xfch. Als die CDU-Spendenaffäre 1999/2000 ihren politischen Ziehvater Helmut Kohl zu erdrücken drohte, schrieb Merkel &ndash; damals CDU-Generalsekret\xe4rin &ndash; einen Artikel in der Frankfurter Allgemeinen Zeitung, in dem sie die Partei aufforderte, sich von Kohl zu l\xf6sen und eigenst\xe4ndig fortzufahren. Es war ein \xf6ffentliches Messer in den R\xfccken ihres Mentors. Kohl nannte sie sp\xe4ter sein &ldquo;M\xe4dchen&rdquo; &ndash; und meinte damit, sie geformt zu haben. Die SE9w8 hatte ihn gerade \xfcberholt, ohne die Miene zu ver\xe4ndern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fr\xfche Unabh\xe4ngigkeit: Das Ende der ersten Ehe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Merkels erste Ehe mit dem Physiker Ulrich Merkel &ndash; von dem sie ihren Namen hat &ndash; w\xe4hrte von 1977 bis 1982. Die Ehe scheiterte, wie viele Biographen beschreiben, still und ohne Drama: Merkel blieb in Berlin, ihr Mann zog aus. Er nahm die Waschmaschine mit. Sie schien nicht lange gezaudert zu haben.</p>
+          <p class="vb-intro">Was diese Episode zeigt, ist weniger Kaltbl\xfctigkeit als eine fr\xfche Bereitschaft, loszulassen, wenn etwas nicht mehr funktioniert &ndash; ohne gro\xdfe Erkl\xe4rungen, ohne Szenen, ohne R\xfcckblick. Die SE9w8 erledigt Trennungen wie Verwaltungsvorg\xe4nge: sachlich, endg\xfcltig, weiter. Das Leben der selbsterhaltenden Neun bleibt geordnet &ndash; auch wenn sich gerade alles ver\xe4ndert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Fl\xfcchtlingskrise und Corona: Wenn das Aussitzen versagt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2015 \xf6ffnete Merkel die deutschen Grenzen f\xfcr \xfcber eine Million Gefl\xfcchtete. &ldquo;Wir schaffen das&rdquo; wurde zum Symbol einer Entscheidung, die ohne parlamentarische Debatte, ohne gesetzliche Grundlage und ohne Folgenabsch\xe4tzung getroffen wurde &ndash; und die einen Staat und seine Verwaltungsstrukturen in einer Weise \xfcberforderte, die bis heute nachwirkt. Die SE9 handelte aus einer moralischen Geste heraus. Der Achterfl\xfcgel setzte sie durch. Was fehlte, war die n\xfcchterne Analyse, was danach kommt.</p>
+          <p class="vb-intro">In der Coronakrise (2020&ndash;2022) zeigte sich eine verwandte Qualit\xe4t. Merkel trat in den Pressekonferenzen ruhig auf &ndash; und betrieb dennoch eine Kommunikationspolitik, die auf Angst aufbaute. &ldquo;Die Pandemie wird erst enden, wenn alle geimpft sind&rdquo; war kein medizinischer Satz. Es war ein Steuerungssatz, formuliert in der charakteristischen Sprache der SE9w8: keine Drohung, kein Befehl &ndash; nur eine Aussage, die keine Alternative zul\xe4sst. Ma\xdfnahmen wurden verl\xe4ngert, Lockerungen zur\xfckgenommen, Grundrechte eingeschr\xe4nkt &ndash; mit einer Entschlossenheit, die nach au\xdfen wie Verantwortung aussah und nach innen wie Beharren auf der eigenen Position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Verm\xe4chtnis: Gr\xf6\xdfe und Leerstelle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Angela Merkel ist die l\xe4ngstdienende Bundeskanzlerin der deutschen Geschichte. Sie hat das Land in einer Zeit des Wandels stabilisiert, gro\xdfe Krisen \xfcberlebt und eine Geradlinigkeit bewahrt, die selbst ihre Kritiker respektieren. Aber das Erbe der sechzehn Jahre ist auch eines des Aufschubs: Zu wenig investiert in Infrastruktur, Digitalisierung und Verteidigung. Zu lange gez\xf6gert bei Russland. Zu wenig erkl\xe4rt, zu viel entschieden.</p>
+          <p class="vb-intro">Das ist die SE9w8 in ihrer vollen Widersprüchlichkeit: gro\xdf in der Stille, stark im Beharren, f\xe4hig zur k\xfchlen Entscheidung &ndash; und gleichzeitig anf\xe4llig f\xfcr jene Form der Selbstgewissheit, die keine Korrekturen mehr zul\xe4sst. Der Elefant bewegt sich in seinem eigenen Rhythmus. Manchmal ist das Weisheit. Manchmal ist das Stillstand. Und manchmal &ndash; wenn der Elefant \xfcber Dinge geht &ndash; merkt man erst hinterher, was er zertreten hat.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SE9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Neuntyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 9.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function hansDietrichGenscherPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -15594,7 +15663,11 @@ function astrologieAngelaMerkelPage() {
     </div>
     <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
       <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Krebs-Sonne im 10. Haus, Waage-Aszendent und selbsterhaltende Neun bildeten das perfekte Fundament für eine Politik des Moderierens und Schützens. Die analytische Jungfrau-Venus und der kraftvolle Schütze-Mars verliehen ihr in Kombination mit dem Achterflügel die Fähigkeit, im entscheidenden Moment eine unerschütterliche Position einzunehmen.</p>
-    </div>`
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-angela-merkel", label:"Pers\xf6nlichkeitsportr\xe4t: Angela Merkel (SE9w8)"},
+      {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+    ])}`
   );
 }
 
@@ -40783,7 +40856,8 @@ function render() {
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
           "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
-      "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
+          "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+    "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
@@ -41245,7 +41319,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v716';
+  const MY_VERSION = 'inhalt-v717';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -413,6 +413,8 @@ export const registerEntries = [
   { term: "Gloria von Thurn und Taxis",    route: "beruehmte-gloria-von-thurn-und-taxis",  description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · Fürstin, Unternehmerin" },
   { term: "Greta Thunberg",                route: "beruehmte-greta-thunberg",              description: "Portrait: SO1w2 · Sozialer Typ 1 · Klimaaktivistin, Fridays for Future" },
   { term: "Günther Jauch",              route: "beruehmte-guenther-jauch",              description: "Portrait: SO5w6 · Sozialer Typ 5 · TV-Moderator, Wer wird Millionär" },
+    { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 · Selbsterhaltende Typ 9 · Bundeskanzlerin 2005–2021, Elefant" },
+    { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 · Selbsterhaltende Typ 9 · Bundeskanzlerin 2005–2021, Elefant" },
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SO2w3 · Sozialer Typ 2 · Außenminister, Wiedervereinigung" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SX5w4 · Sexueller Typ 5 · Filmkomponist, Inception" },
   { term: "Hazel Brugger",                 route: "beruehmte-hazel-brugger",               description: "Portrait: SX3w4 · Sexueller Typ 3 · Kabarettistin, Komikerin" },
