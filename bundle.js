@@ -11016,7 +11016,7 @@ function igaSwiatekPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga Świątek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die bl\xfcffend ist.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga Świątek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die verbl\xfcffend ist.</p>
           <p class="vb-intro">Iga Świątek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
         </blockquote>
 
@@ -11035,12 +11035,12 @@ function igaSwiatekPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Die Dominanz der Stille</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Świąteks Spiel besitzt eine Qualit\xe4t, die Kommentatoren immer wieder beschreiben, ohne sie ganz erkl\xe4ren zu k\xf6nnen: Sie wirkt nie gehetzt. Ihre Schl\xe4ge sind nicht h\xe4rter als die anderer Spielerinnen in ihrer \xc4ra &ndash; aber sie kommen genau dann, wenn der Druck maximal ist, und sie kommen mit einer Konsequenz, die M\xe4tchwinner ersch\xf6pft. Świątek gewinnt nicht durch \xdcberrumpeln. Sie gewinnt, indem sie so lange vollst\xe4ndig pr\xe4sent bleibt, bis die Gegnerin aufgibt, es ihr gleichzutun.</p>
-          <p class="vb-intro">Ihr Vater Tomasz Świątek war Ruderer bei den Olympischen Spielen 1988 in Seoul &ndash; ein Athlet, der Ausdauer und Rhythmus \xfcber explosive Kraft stellte. Die Familienpr\xe4gung ist sp\xfcrbar. Świątek ist keine Spielerin der spektakul\xe4ren Einzelaktion. Sie ist eine Spielerin des anhaltenden Flusses. Nicht der gro\xdfe Moment &ndash; das gro\xdfe Kontinuum.</p>
+          <p class="vb-intro">Ihr Vater Tomasz Świątek war Ruderer bei den Olympischen Spielen 1988 in Seoul &ndash; ein Athlet, der Ausdauer und Rhythmus \xfcber explosive Kraft stellte. Die Familienpr\xe4gung ist sp\xfcrbar. Świątek ist keine Spielerin der spektakul\xe4ren Einzelaktion. Sie ist eine Spielerin des anhaltenden Flusses. Nicht der gro\xdfe Moment &ndash; sondern das gro\xdfe Kontinuum.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten: Wenn der Flow reißt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>au\xdfergew\xf6hnliche Konzentrationskraft</strong>. Świątek kann ganze Turniere in einem Zustand vollst\xe4ndiger Pr\xe4senz spielen, der bei anderen Spielerinnen nach wenigen S\xe4tzen nachl\xe4sst. Auf Sand ist sie praktisch unbesiegbar, wenn dieser Zustand h\xe4lt. Der Einserfl\xfcgel sorgt daf\xfcr, dass sie aus Fehlern lernt, ohne sich in ihnen zu verlieren.</p>
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>au\xdfergew\xf6hnliche Konzentrationskraft</strong>. Świątek kann ganze Turniere in einem Zustand vollst\xe4ndiger Pr\xe4senz spielen, der bei anderen Spielerinnen nach wenigen S\xe4tzen nachl\xe4sst. Auf Sand ist sie praktisch unbesiegbar, wenn dieser Zustand anh\xe4lt. Der Einserfl\xfcgel sorgt daf\xfcr, dass sie aus Fehlern lernt, ohne sich in ihnen zu verlieren.</p>
           <p class="vb-intro">Der Schatten: Die Neun verliert sich im Flow &ndash; und wenn der Flow abreißt, bricht manchmal alles auf einmal zusammen. Świątek verlor 2022 das French-Open-Viertelfinale gegen Iga Besidze in einem Satz, der aussah wie eine andere Spielerin. 2024 scheiterte sie im Wimbledon-Achtelfinale an Yulia Putintseva unter auff\xe4lligen Umst\xe4nden. In diesen Momenten zeigt sich, was passiert, wenn die SX9w1 aus ihrem Zentrum ger\xe4t: keine Wut, kein Kampf &ndash; eine Art stilles Verschwinden. Als w\xe4re die Verbindung einfach weg.</p>
         </blockquote>
 
