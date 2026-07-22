@@ -12139,6 +12139,3267 @@ window.bpApply = function() {
   });
 };
 
+// Auto-translated portrait functions (DE→EN)
+// Add these to en/bundle.js
+
+function adeleNeuhauserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adele-neuhauser-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adele Neuhauser</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven Wings</p>
+        <p class="krim-portrait-subtitle">\xd6sterreichische Schauspielerin, geb. 1959 in Athen &ndash; Animal correspondence: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong>is the animal of sexual type 8 &mdash; and hardly any picture captures Adele Neuhauser better. The crocodile is silent until it acts. It lies in the water, almost motionless, almost invisible &mdash; and then, in a single moment, with full force. No warning. No wasted energy. Only the access that sits.</p>
+          <p class="vb-intro">Adele Neuhauser, born in Athens in 1959, Austrian mother, Greek father, grew up in Vienna, began as a dancer before becoming an actress. This physicality has never left her. When she enters a role, she enters it completely - not as an idea, but as a presence. As Bibi Fellner in the Austrian<em>Tatort</em>she created a character that is physical, unpredictable and unconditionally present. Like the crocodile: silent until it acts &mdash; and then with full force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong>is, according to Naranjo, the subtype that he<em>Besitz</em>called &ndash; in English<em>Possession</em>. The sexual eight doesn't want a distant relationship. She wants the complete encounter, the fusion, the intensity that knows no shades of gray. What she touches touches her completely. What she loves, she loves unconditionally. What she rejects, she rejects completely.</p>
+          <p class="vb-intro">Neuhauser's acting carries this energy. Bibi Fellner is not a subdued figure: she drinks, swears, loves, is frightened, explodes &mdash; everything with an unfiltered quality that the audience immediately recognizes because it seems real. The SX8 plays no emotion. She puts them on the table &mdash; and waits to see whether the other person can endure it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: Fire and Wit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong>gives the sexual eight a quality that complements the intensity of the eight core: lightness, humor, playfulness and a certain willingness to take risks, which is not impulsiveness but appetite. The SX8w9 seeks depth. The<strong>SX8w7</strong>seeks the depth &mdash; and enjoy the spectacle.</p>
+          <p class="vb-intro">Neuhauser has this double quality. Bibi Fellner can be deeply vulnerable in one scene and deliver a one-liner in the next that makes the audience laugh - and both ring true because it is not a change of personality, but rather two sides of the same intensity. The wing of seven gives the sexual eight the ability to handle itself more easily than the pure eight core allows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: stage, camera, Bibi Fellner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adele Neuhauser had a long theater career before television made her accessible to a wider audience. She worked at important Austrian theaters, playing classical repertoire and contemporary pieces &ndash; and brought with him an embodied power that the theater demanded and that the cinema later gratefully accepted.</p>
+          <p class="vb-intro">In 2011 she appeared as Bibi Fellner in the Austrian film<em>Tatort</em>on, alongside Harald Krassnitzer as Moritz Eisner. The duo is developing into one of the most popular in German-speaking<em>Tatort</em>-Universe. Neuhauser received several Austrian film awards, including the Actor Award for Best Actress. Her figure isn't the type you liked because it's smooth &mdash; you like it because it is real.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The unfiltered</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is its<strong>unmittelbare Pr\xe4senz</strong>. Neuhauser is an actress who doesn't need a net &mdash; no predictable patterns, no nice distances. She goes into the role like a crocodile goes into water: completely. This makes their work distinctive and difficult to copy.</p>
+          <p class="vb-intro">The Shadow: The sexual eight lives in the intensity &ndash; and intensity is tiring, even for yourself. The SX8 tends to be all or nothing: full connection or no contact. This can be a quality in roles; in life it can be isolating. The mature SX8w7 learns that you can also dose depth &mdash; without losing them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The crocodile that dances</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adele Neuhauser started as a dancer &mdash; and that is not a subordinate clause. The crocodile is physical, precise and patient. It waits until the moment is complete and then acts without hesitation. Neuhauser has transformed this precision into an acting art that is physically sound and emotionally exposed. This is the SX8w7: not the loudest figure in the room &mdash; but the one from which you cannot take your eyes off.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+          {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function angelaMerkelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Angela Merkel</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Self-sustaining Type 9 with aft wing</p>
+        <p class="krim-portrait-subtitle">Bundeskanzlerin 2005&ndash;2021, geb. 1954 &ndash; Animal correspondence: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong>is the animal of self-sustaining type 9 &mdash; and no picture captures Angela Merkel more accurately. The elephant is patient, grounding, with a presence that comes not from volume, but from weight. He doesn't move quickly. But he moves &mdash; and when he is in motion, nothing stops him.</p>
+          <p class="vb-intro">Merkel, born in Hamburg in 1954, grew up in the GDR, was a physicist by profession, became a politician overnight after reunification and ruled Germany for sixteen years. She rarely spoke loudly. She didn't make any grand gestures. And she overcame crises, opponents and coalition partners with a persistence that seemed more like a force of nature than a strategy. That's the elephant: it doesn't need a scene. He has time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preserving nine: Sitting it out as a method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong>is, according to Naranjo, the subtype that he<em>Appetit</em>called &ndash; the tendency to settle into comfort and stability, to avoid conflict through passivity, and to manage the discomfort until it dissipates. That sounds like weakness. It is one of the most powerful forms of power there is.</p>
+          <p class="vb-intro">Merkel's political method was to sit it out. She decided late, said little, and let other positions exhaust themselves first - and then entered the room when the alternatives were exhausted. This is often described as pragmatism. First of all, it is the inertia of the Nine that has become the method: no attack, no retreat, just persistence - until the opponent is no longer there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Aft Wing: The Silent Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong>gives the self-sustaining Nine a quality that is rarely seen on the outside until it is too late: an instinct for power, an ability to make cold decisions, and a willingness to sacrifice loyalties when necessary. The SE9 alone would wait. The<strong>SE9w8</strong>wait &mdash; and then decides without hesitation.</p>
+          <p class="vb-intro">This page appeared for\xfch. When the CDU donations affair in 1999/2000 threatened to crush her political foster father Helmut Kohl, Merkel wrote &mdash; then CDU general secretary &mdash; an article in the Frankfurter Allgemeine Zeitung in which she called on the party to break away from Kohl and move forward independently. It was a public knife in the back of her mentor. Kohl always called her his “girl.” - and meant that he had formed them. The SE9w8 had just overtaken him without changing his expression.</p>
+          <p class="vb-intro">Helmut Kohl was a<strong>self-sustaining Type 8 with nine-wing wing (SE8w9)</strong>- the veteran, the great patriarch who treated the CDU as personal territory for decades. The SE8 needs loyalty; he sees people through the lens of belonging and possession. Merkel was not a conversation partner for him - she was his project, his discovery, his “girl”. What Helmut Kohl, as SE8, overlooked: The nine do not submit. She adapts &mdash; and waits.</p>
+          <p class="vb-intro">The dynamic between SE8w9 and SE9w8 is instructive. The figure eight dominates openly, occupies space, demands presence. The nine lets him - registers, learns, quietly builds her own position. Kohl believed he had shaped Merkel. In truth, being around him had taught her how power works - and how it works if you don't want to be a patriarch. The eight has to show that it is strong. The nine doesn't have to do that &mdash; and that is exactly their advantage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Early Independence: The End of the First Marriage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Merkel's first marriage to the physicist Ulrich Merkel &mdash; from which it gets its name &mdash; lasted from 1977 to 1982. The marriage failed, as many biographers describe, quietly and without drama: Merkel stayed in Berlin, her husband moved out. He took the washing machine with him. She didn't seem to have hesitated for long.</p>
+          <p class="vb-intro">What this episode shows is less cold-bloodedness than a willingness to let go when something no longer works - without big explanations, without scenes, without looking back. The SE9w8 handles separations like administrative processes: objectively, finally, further. The life of the self-sustaining Nine remains orderly &mdash; even if everything is changing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Refugee crisis and Corona: When sitting it out fails</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2015, Merkel opened the German borders to over a million refugees. &ldquo;We can do it&rdquo; became a symbol of a decision that was made without a parliamentary debate, without a legal basis and without an assessment of the consequences - and which overwhelmed a state and its administrative structures in a way that continues to have an impact today. The SE9 acted out of a moral gesture. The aft wing pushed them through. What was missing was the sober analysis of what comes next.</p>
+          <p class="vb-intro">A similar quality emerged in the Corona crisis (2020-2022). Merkel appeared calm in the press conferences - and yet pursued a communication policy that was based on fear. &ldquo;The pandemic will only end when everyone is vaccinated&rdquo; was not a medical sentence. It was a control sentence, formulated in the characteristic language of the SE9w8: no threat, no command &mdash; just a statement that leaves no alternative. Measures were extended, relaxations were withdrawn, basic rights were restricted - with a determination that looked externally like responsibility and internally like insistence on one's own position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The legacy: Gr\xf6\xdfe and blank space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Angela Merkel is the longest-serving Chancellor in German history. She has stabilized the country in a time of change, survived major crises and maintained a straightforwardness that even her critics respect. But the legacy of the sixteen years is also one of postponement: too little investment in infrastructure, digitalization and defense. Hesitated too long with Russia. Too little explained, too much decided.</p>
+          <p class="vb-intro">This is the SE9w8 in all its contradictions: great in silence, strong in persistence, capable of making cool decisions - and at the same time vulnerable to that form of self-assurance that no longer allows for corrections. The elephant moves at its own rhythm. Sometimes that is wisdom. Sometimes it's a standstill. And sometimes &mdash; when the elephant goes about things &mdash; You only notice afterwards what he has crushed.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function borisBeckerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Becker</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with aft wing</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 1967 &ndash; Dreifacher Wimbledon-Sieger, Olympiasieger &ndash; Animal correspondence: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong>is the animal of sexual type 7 &mdash; and Boris Becker is a chimpanzee in his purest, most tempestuous form. The chimpanzee needs intensity: competition, contact, triumph. He lives in the now, takes full risks and loves the game more than the plan. In 1985, at the age of 17, Boris Becker entered the Center Court at Wimbledon as an unknown person - and left him as the youngest Wimbledon winner ever. The chimpanzee had struck. And the world was watching.</p>
+          <p class="vb-intro">What defines the chimpanzee is not just its strength - it is its immediacy. Boris Becker was never a tactical player. He was an explosive one. His serve was thunder, his attack at the net was risk, his game was spectacle. This is the chimpanzee in full development: no calculation, no hesitation &mdash; just the moment, which is everything.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Intensity as Identity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong>seeks complete intoxication &mdash; the ultimate experience, total merging with what life has to offer. Naranjo called this subtype<em>Suggestibility</em>: the ability to pull yourself and others into the vortex of an experience. The SX7 is infectious, magnetic, irresistible.</p>
+          <p class="vb-intro">Boris Becker has drawn people into this quality for a decade. Not just as a player, but as a personality: louder than others, more open than others, brighter than others. This is not a stylistic device. This is the SX7 in its natural state. She doesn't need a stage to shine &mdash; she brings the stage with her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight Wing: The Fighter in the Chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Aft wing</strong>gives the sexual seven something crucial: hardness. The pure seven can evade, negotiate and charm. The aft wing is fighting. He doesn't give in. He bites through it. Boris Becker won matches he would normally have lost &mdash; because he refused to acknowledge this reality. This is the eight wing of the sexual seven: the refusal to lose the game before the last point is played.</p>
+          <p class="vb-intro">This wing was his greatest gift on the field. He gave Becker something that pure sevens rarely possess: steadfastness under pressure. While other players took tactics or retreated in difficult moments, Becker escalated. He increased the risk when he should have played conservatively. He served aces when his opponents played safety. This ability to not become smaller at the crucial moment, but larger - this is the aft wing in its purest form.</p>
+          <p class="vb-intro">Off the pitch, this wing became a trap. The Eight Wing of Seven believes that rules apply to others. That consequences can be negated if you are determined enough. This works in tennis: willpower can avert a match point. Not in life or in court. Becker carried this conviction throughout his entire career &mdash; and she completely abandoned him in the crisis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Gluttony as a way of life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the seven is called<strong>Gluttony</strong> oder auch <strong>excess</strong>: the insatiable hunger for more. With the sexual seven, this hunger is directed towards experiences, intensity, the next climax. Becker didn't save money. He lived &mdash; big, loud, lavish. Houses, parties, affairs, investments, performances. The Seven trusts that it will always go on, because it has always gone on.</p>
+          <p class="vb-intro">When this excess meets unlimited means, it is a celebration. When resources run out and excess persists, catastrophe ensues. Becker lived for years as if the golden years had never ended. The Enneagram does not see this as a character weakness &mdash; but the pattern of a seven who has learned that intensity is the ultimate painkiller.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: The man who captures the moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Boris Becker brings to German sport &mdash; and a whole generation &mdash; has given is not measurable in titles alone. He took people with him. He turned a Saturday night at Wimbledon into a national moment. This is the gift of the SX7w8: enthusiasm that transfers; joy that is contagious; a yes to life that awakens others.</p>
+          <p class="vb-intro">The eight-winged chimpanzee, in its healthy form, is the person who says: this is possible, and I'm proving it to you now, here, at this moment. This is Boris Becker on July 7, 1985. The rest of his life is the question of whether he can learn who he is when this moment is over &mdash; and how he can be without bringing him back.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+      ])}
+    </div>
+  `);
+}
+
+function carolinePetersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-caroline-peters-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Caroline Peters</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1971 in Cologne</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong>is the most intelligent and expressive animal in the forest &mdash; and the most unpredictable. He learns through observation and imitation, switching at lightning speed between playful and serious, between tenderness and intensity. His face is an instrument; his body tells the story, even when it is silent. And he needs the community &mdash; not as a background, but as a stage.</p>
+          <p class="vb-intro">Caroline Peters was born in Cologne in 1971 and studied acting at the Hamburg University of Music and Theater. Anyone who experiences her in a scene &mdash; whether as a clumsy investigator in the Eifel or in a tragedy on the Burgtheater stage - you immediately understand: This woman doesn't think about whether she's playing a character. She is the character. The chimp that can transform into anyone &mdash; and never forgets who he is.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Rush of Transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 7 die <strong>Suggestibility</strong>- the ability to be so completely fascinated by an idea, a person, a world that you sink into it. The SX7 does not seek abundance like the SE7 or belonging like the SO7 - he is looking for intensity: the moment in which everything else ceases to exist because the encounter, the role, the game absorbs everything.</p>
+          <p class="vb-intro">Peters fully lives out this impulse on stage and screen. She switches effortlessly between worlds: television comedy and Burgtheater, slapstick and Ibsen, Cologne and Vienna. The SX7 energy makes her the master of transformation &mdash; not because she uses a technique, but because she really allows herself to be drawn into it. That's the difference between ability and fascination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: The Conscience of Adventure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Six wing</strong>gives the sexual seven a quality that grounds the pure SX7: loyalty, warmth and a quiet sensorium for what sustains. Where the pure SX7 jumps from fascination to fascination, the six-wing asks:<em>Do I belong? Am I really good enough for what I do?</em></p>
+          <p class="vb-intro">Peters has been a permanent member of the Burgtheater Vienna ensemble for years &mdash; one of the most respected German-speaking theaters in the world. This isn't just an SX7 decision; this is the six wing that takes root. At the same time she returned to<em>several times Murder with a Chance</em>back &mdash; a role that she could have left behind long ago. Loyalty to characters, houses and colleagues: that is the w6 at work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From Sophie Haas to the Burgtheater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Murder with a Chance</em>(ARD, 2008-2012, new edition 2021-2023) made Caroline Peters known nationwide: as Sophie Haas, the Cologne city investigator who is transferred to a sleepy village in the Eifel and there encounters a world for which her city-dweller brain is not equipped. The character was a tour de force of physical comedy &mdash; Timing, physical effort, reaction &mdash; and at the same time warmer than the figure appeared to the outside world.</p>
+          <p class="vb-intro">At the same time, Peters plays classical and contemporary roles at the Burgtheater Vienna &mdash; from Ibsen to Jelinek, from Shakespeare to Handke. For her participation in the film<em>Oh Boy</em>(2012) she received the Grimme Prize. Their work shows what the SX7 energy can do at its best: the boundaries between serious and comic, between high culture and popular format, are no boundaries for them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: When the joke goes too deep</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 is its<strong>Inexhaustibility</strong>. Peters never seems worn out, never routine. Every scene seems to emerge as if she were experiencing it for the first time &mdash; that is the gift of fascination. Her humor is physical, precise and never cynical; it arises from within the figure, not from the distance from it.</p>
+          <p class="vb-intro">The shadow: The SX7 lives for the moment &mdash; and the moment passes. The danger is not failure, but rather blurring: If you allow yourself to be completely drawn into each character, you will eventually ask yourself where the character ends and you yourself begin. The six wing stands against it - with loyalty, with Burgtheater, with belonging. But the question remains.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The chimpanzee who never stays the same</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Caroline Peters is one of the most versatile actresses in German-speaking theater and television &mdash; and that's not because she played a particularly large number of roles. It's because she's really different in each of them. This is the chimpanzee: always on the move, always curious, always ready to reinvent himself. And yet completely present in every moment.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+          {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
+          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function carstenStahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carsten-stahl-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carsten Stahl</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven Wings</p>
+        <p class="krim-portrait-subtitle">Kampfsportler, Antimobbingaktivist &amp; Buchautor, geb. 1974 in Heidelberg</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\xf6we</strong>is the animal of social type 8 &mdash; and no picture captures Carsten Stahl more accurately. The lion is not a lone fighter. He lives in a pack, hunts for the pack, protects the pack. His power is not for himself - it is for those who stand next to him. When the weak are threatened, the lion stands up. This is not a reflex. That's character.</p>
+          <p class="vb-intro">Carsten Stahl, born in Heidelberg in 1974, is a martial artist, author and anti-bullying activist. He has never made his physical strength an end in itself: it is his tool to go where weaker people have no voice - in the schools, on the banks, on the screens. The lion doesn't have to show what he can do. But when the moment calls for it, he's there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social eight: solidarity\xe4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong>puts her strength into the service of the community. Naranjo called this subtype<em>Solidarit\xe4t</em>: The SO8 identifies with the weaker ones, with those who have no lobby - and stands in front of her. She doesn't fight for herself. She fights because she can't help it when injustice happens.</p>
+          <p class="vb-intro">Stahl visibly lives this principle. His anti-bullying work in schools is not marketing &mdash; it is a calling. He enters classrooms, listens, stands in front of the bullied and tells the bullies directly to their faces what they are doing. No brochure, no prevention chart, no managed exposure &mdash; but presence, body, clarity. That's the SO8: Instead of talking about injustice, you stand up to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: Fire in the Embassy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong>gives the social eight a quality that complements the pure SO8: agility, enthusiasm, a talent for getting people carried away. The SO8w9 protects from the silence. The<strong>SO8w7</strong>protects with fire.</p>
+          <p class="vb-intro">Steel is not a silent protector. He is direct, loud, present &ndash; He uses his body, his voice, his social media channels to convey a message that knows no shade of horror: bullying is wrong. Point. The seven wing gives him the energy to say it again and again - in front of first graders and vocational students, in book interviews and in video clips &ndash; and never seems tired.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: schools, books, books</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carsten Stahl has visited hundreds of schools in Germany and worked directly with students, perpetrators and victims there. His approach is physical and emotional at the same time: He shows that strength is not an argument for injustice - but the opposite. His book<em>Shut up!</em>is a typical SO8w7 work: direct in tone, without embellishment, addressed to those who need it most.</p>
+          <p class="vb-intro">At the same time, Stahl is active as a martial artist and public personality: appearances on television shows, social media presence, lectures. He understood what many activists overlooked: a message that belongs to no one doesn't change anything. The Seven Wings ensure that the message gets across.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow: When directness polarizes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO8w7 is its<strong>unmittelbare Wirkung</strong>. Stahl reaches young people who don't listen to educators - because he doesn't sound like an educator. He is authentic, direct, physically present. The SO8 makes no distinction between what she feels and what she says. This is rare &mdash; and that's exactly why it's credible.</p>
+          <p class="vb-intro">The Shadow: Directness also creates resistance. Anyone who operates as clearly and loudly as an SO8w7 makes themselves vulnerable. And the eight tends to escalate the attack instead of stepping back. The risk: The message is lost in the dispute over the messenger. Mature SO8w7 knows\xdf that strength doesn't always have to be louder &ndash; sometimes it's enough to stand still.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lion Who Goes to Schools</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carsten Stahl has chosen an arena that most people avoid: the middle of the problem. He doesn't go where it's comfortable. He goes where a 13-year-old no longer wants to go to school. This is the SO8w7: not the lion sitting on the rock and watching - but the one who runs into the pack when there is a fire. Strength that is given away. Fire that warms others.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+          {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function dakotaJohnsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dakota-johnson-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dakota Johnson</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with aft wing</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1989 &ndash; Animal correspondence: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong>is the animal of sexual type 9 &mdash; and anyone who observes Dakota Johnson in an interview will immediately understand the picture. The sloth is hanging. It blinks. It seems as if it doesn't care about anything or anyone. And yet it is completely present - with claws that you only see when you get too close.</p>
+          <p class="vb-intro">Dakota Johnson, born in Austin, Texas in 1989, is the granddaughter of Tippi Hedren, daughter of Melanie Griffith and Don Johnson &mdash; Third generation Hollywood blood. She could have easily continued the dynasty. Instead, she chose something harder to describe: a kind of presence that doesn't impose itself. An intensity that hides. A smile that is half invitation and half limit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual nine: disappearing into the other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong>is, according to Naranjo, the subtype of<em>Vereinigung</em>: the deepest longing to merge with the beloved, the work, the moment. The SX9 is not looking for belonging (that would be the social nine), but for resolution - the state in which the boundary between self and the other disappears. It is not found in the collective, but in the intensive one-to-one relationship.</p>
+          <p class="vb-intro">It's no coincidence that Dakota Johnson's most famous role &mdash; Anastasia Steele in the<em>Fifty Shades</em>-Trilogy (2015-2018) - This is exactly the theme: a young woman who delves into an intense relationship and discovers who she really is. The role made Johnson world famous. She didn't like to talk about it. For the SX9, what really touches it deeply is difficult to put into words - and therefore hardly accessible to the public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The aftwing: The claws of the sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong>gives the sexual nine something that remains under the surface in the pure SX9 type: a willingness to confront, a directness that becomes unexpectedly sharp at the right moment. The<strong>SX9w8</strong>appears soft &mdash; until it no longer seems soft.</p>
+          <p class="vb-intro">2016 wurde Johnsons Auftritt in der <em>Ellen DeGeneres Show</em>to the viral moment. When Ellen mentioned that, of course, she had been there for Dakota's last birthday, Johnson replied, completely deadpan, "You weren't invited." No excuse. No backtracking. Just the fact. The audience laughed in confusion, Ellen felt the silence, and Dakota sat there as if nothing had happened. This is the aft wing: not aggressive, not dramatic - simply fearless in what is true.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: intensity without shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnson's filmography shows a pattern: she prefers roles that look inward. In<em>Suspiria</em>(2018) she plays a dancer who completely gets involved in a community of witches - Fusion as a theme, as a genre, as a performance. In<em>Die verlorene Tochter</em> (<em>The Lost Daughter</em>, 2021), she embodies a young mother who is both light and opaque, with an emotional depth that is more felt than seen. In<em>Cha Cha Real Smooth</em>(2022) she gives an overwhelmed woman a silence that weighs more heavily than any monologue.</p>
+          <p class="vb-intro">Als <em>Madame Web</em>(2024) became a critical and commercial failure, Johnson's attitude remained telling: no defense, no publicity campaign, no visible pain. Anyone who asked her about it in later interviews received answers that were polite, precise and completely calm. The SX9w8 doesn't waste energy on what can't be changed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Heritage and your own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w8 is its<strong>F\xe4higkeit zur vollst\xe4ndigen Pr\xe4senz</strong>. Johnson brings an inner density to every scene that defies the usual Hollywood shine. She doesn't play characters &mdash; she becomes these characters. The eight wing gives it a grounding that the pure nine sometimes lacks: a refusal to dissolve, a boundary that remains visible even in the deepest fusion.</p>
+          <p class="vb-intro">The Shadow: The Nine gets lost in the other - and when the Other is the legacy of three generations of actors, the question of one's own voice is particularly complex. Johnson has spoken publicly about the pressures of growing up in an industry her family has known for decades. Depression and anxiety were themes in her early career. The SX9 can be found in the other &mdash; and must learn to stay with oneself even when the other person is very loud.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The sloth that bites</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnson is not a woman who fights for attention. She's also not a woman who avoids attention. She exists in a middle state that is characteristic of the SX9w8: fully present, selectively accessible, with a humor dry enough to keep the uninvited away. Those who actually come into contact with her say that they have the feeling of being met with complete attention. Anyone who just skims the surface will see the sloth hanging.</p>
+          <p class="vb-intro">The sloth has the strongest claws of all mammals in relation to its body size. It climbs through treetops that no other animal can reach. And it doesn't happen. Not because it holds on - but because its tendons are built in such a way that it hangs without having to use any force. This is the SX9w8 at its best: flawlessly in the right element, with a hidden strength that you only notice when you try to remove it from there.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga Świątek (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function davidLRathmerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-l-rathmer-portrait.jpg" alt="David L. Rathmer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David L. Rathmer</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing &middot; Countertype of the three</p>
+        <p class="krim-portrait-subtitle">Enneagram profiler, founder of the Ennea Scholars Academy, born in Münster in 2003 &mdash; Son of Detlef Rathmer &mdash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">David L. Rathmer is not a celebrity in the usual sense - but he is the co-developer of this compass, founder of the Rathmer profiling method and son of the author. A portrait in your own work.</p>
+
+        <h2 class="vb-section">1. The raccoon who works in the light</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>racoon</strong>is the animal of the self-sustaining three &mdash; clever, adaptable, with clever paws and a keen eye for what is worthwhile. When the raccoon lives consciously, it does not use its extraordinary intelligence for the night &mdash; but for the light. He reads situations precisely, acts efficiently, and creates something useful from what is there. He sees what others miss. He opens what others cannot open.</p>
+          <p class="vb-intro">David L. Rathmer, born in Münster in 2003, is one of the rare raccoons that woke up early. Introduced to the world of the Enneagram at the age of eight by his father, the alternative practitioner and Enneagram expert Detlef Rathmer, he didn't just develop an interest - he made it a science. What started with a child looking at photos of people and asking, "What kind of guy is that?" turned into over fifteen years of empirical research and finally into a method in its own right that is now used internationally.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: The Contratype of the Three &mdash; Modesty as an attitude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong>is the opposite type of the three: the subtype that hides its ambition behind modesty - not as a deception, but because security is more important to him than shine. The SE3 is not looking for a big stage. She seeks efficiency. She is looking for the right thing, the functional, the substantial &mdash; and finds its value not in the applause, but in the result.</p>
+          <p class="vb-intro">In David's case this is evident in his striking calmness for his age. He doesn't appear to impress. He shows what he can do &mdash; and that is enough for him. In consultations, in training courses, in work with managers and companies that use his expertise in human resources and employee management: everywhere he appears grounded, focused and clear. No desire for recognition. No staging. Just the craft.</p>
+          <p class="vb-intro">At the age of twenty, he was appointed the youngest economics senator in the history of the European Economic Senate &mdash; not because he applied, but because his work was convincing. This is the SE3 in its conscious form: success as a consequence, not as a goal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four Wing: Depth behind Efficiency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Four wing (w4)</strong>is what distinguishes David L. Rathmer from a pure efficiency engineer. The four seeks depth, authenticity, the core of things. She can't stay on the surface &mdash; she needs to know what's really behind it. With an SE3w4er, this is combined with the practical intelligence of the three: depth does not become an end in itself, but rather a tool. What is deeply understood can be used precisely.</p>
+          <p class="vb-intro">This is exactly the key to the Rathmer Profiling Method (RP method): David can precisely type people according to the Enneagram based on portrait photos and physical characteristics alone. This skill is non-intuitive guessing &mdash; it is the result of over fifteen years of observational research, systematically structured and empirically validated. The four-wing taught him to look closely. The self-preserving three made the method out of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Ennea Scholars Academy: Knowledge in Application</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Ennea Scholars Academy</strong>, which David L. Rathmer founded, is the institutional expression of his SE3w4 energy: a company that does not store knowledge, but transfers it. Participants from all over the world learn how to “read people” &mdash; the ability to accurately understand people using the Enneagram, a tool used in leadership, personnel selection, communication and therapy.</p>
+          <p class="vb-intro">The SE3w4er doesn't build cathedrals for himself. He builds systems that function without him. This is the conscious expression of the self-sustaining three: not creating dependency, but passing on competence. What David can pass on is the result of a childhood and adolescence entirely dedicated to the Enneagram &mdash; not as a renunciation, but as a calling.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Stille Klarheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who experiences David L. Rathmer at work encounters an energy that is calm and yet completely present. No overwhelming energy, no charisma fireworks &mdash; but the concentrated clarity of a person who knows what he is seeing and why. The SE3w4er's gaze is targeted and at the same time open: he observes without judging - analyzed without distancing.</p>
+          <p class="vb-intro">The foursome brings a warmth that is often missing from pure threes: David is interested in the person behind the guy. For him, typification is not an end, but a beginning - the start of a conversation about what someone needs to truly be themselves. This is the raccoon in the light: skillful, precise, and with the dignity of real contact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Legacy That Continues to Build</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At 23, David L. Rathmer is at an age when most people are just beginning to understand what they want to spend their life doing. He's known for fifteen years. This is neither coincidence nor mere talent &mdash; it is the result of a rare combination: an early environment that allows for depth, a personality structure that combines efficiency with meaning, and an inner drive that doesn't need external validation to move forward.</p>
+          <p class="vb-intro">What he gave the Enneagram is the bridge to the digital age &mdash; and into entrepreneurship. What Detlef Rathmer's work has built up in depth, David brings to the breadth. Father and son &mdash; two people who together cover the whole thing: the root and the growth.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 - The Raccoon: Subtype Profile"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function dieterNuhrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dieter-nuhr-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Nuhr</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with aft wing</p>
+        <p class="krim-portrait-subtitle">Kabarettist, Comedian, Moderator, Maler, geb. 1960 in Wesel am Rhein</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong>builds for the community. He's not a loner &mdash; He changes his environment systematically and permanently, in the service of everyone who comes after him. His dam is not a monument of self-expression, but a work: purpose-built, solid, designed to last. And the beaver is not an animal to be intimidated. Anyone who threatens their dam will feel it.</p>
+          <p class="vb-intro">Dieter Nuhr was born in Wesel am Rhein in 1960 and grew up in the Ruhr area. He studied education, art history and geography at the University of Duisburg &mdash; a course of study that would shape his later view of society, education and culture. He's not a cabaret artist from the gut; he is a cabaret artist from observation. The beaver who carefully examines every stone before he uses it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Society: Serving the Public</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Martyrs</strong>- because this subtype sacrifices its own pleasures for the good of the group. The SO7 doesn't want to shine for itself; he wants to contribute, to be part of something bigger. His hedonism comes inward &mdash; externally he is the servant of his community.</p>
+          <p class="vb-intro">Nuhr sees itself as part of the German cabaret and comedy tradition &mdash; a long line of social critics who see laughter as a form of enlightenment. He doesn't appear to celebrate himself, but to say something. He has been playing on the major stages of Germany and Austria for more than thirty years; since 2005<em>Nuhr im Ersten</em>a permanent institution on German television. The SO7 doesn't build for itself - he builds for his audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eightwing: The Beaver That Bites Back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Aft wing</strong>gives the social seven something that the pure SO7 energy doesn't always show: willingness to confront, assertiveness and the ability to clearly state boundaries - and to defend. Where the pure SO7 gives in and mediates, the aft wing says:<em>Up to here and no further.</em></p>
+          <p class="vb-intro">In recent years, Nuhr has repeatedly had public arguments that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet of his after public pressure &mdash; and later apologized for it. He doesn't back down when things get uncomfortable; he holds his ground and strikes back. This is the eight wing: strength not as a threat, but as an attitude.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From stage cabaret to first German television</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Nuhr began his career in the 1980s as a stage cabaret artist and developed into one of the most famous comedians in Germany over the 1990s. He has moderated<em>Nuhr im Ersten</em>since 2005 , one of the most watched comedy programs on German public television. The show combines political cabaret with personal commentary &mdash; Nuhr writes all the texts himself.</p>
+          <p class="vb-intro">In parallel to his stage work, he is active as a visual artist: his paintings and drawings have been exhibited in galleries, including in Berlin and Düsseldorf. The beaver who not only builds a dam but also paints.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Joke as a Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO7w8 is his<strong>social reliability</strong>. Nuhr is not a comedian who surfs trends; He stays true to himself, even when it becomes uncomfortable. His humor is observational, precise, often uncomfortable &mdash; and he defends his positions even when the headwinds are strong. This is SO7 energy at its best: comedy as a public service.</p>
+          <p class="vb-intro">The Shadow: The SO7er sacrifices &mdash; and at some point he risks that his victim will become stubborn. Nuhr has become increasingly polarizing in recent years: his statements about climate policy and debates about freedom of expression have strengthened him among part of his audience - and another part is irrevocably damaged. The aft wing makes it harder for him to row back; the strength becomes intransigence. The beaver continues to build &mdash; even if the flow has already been diverted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The beaver who cannot remain silent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Nuhr has been in business for four decades &mdash; and shows no inclination to become quieter. On the contrary: with age he seems edgier, more precise, less concerned with consensus. This is the SO7w8er: The beaver who doesn't build for himself, but for what he thinks is right. Whether you agree with him or not &mdash; he is not silent. The dam is standing. And he is guarded.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
+          {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+          {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function donataHopfenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-donata-hopfen-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Donata Hopfen</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with seven wings</p>
+        <p class="krim-portrait-subtitle">Unternehmensberaterin, Digitalberaterin, geb. 1976 in Hamburg &ndash; Animal correspondence: Erdm\xe4nnchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong>keeps watch for the group. It is vigilant, cooperative, and deeply focused on security through belonging. But not every meerkat keeps watch in the same way. Some climb silently to the highest stone and methodically scan the horizon - This is the F\xfcnferfl\xfcgel, the meerkat of analysis. Others run off, mobilize the group, bring movement into the area before the threat is even visible - This is the Seven Wings. Donata hops belong to the second variety.</p>
+          <p class="vb-intro">She is a management consultant, digital strategist, former CEO of Bild and the German Football League. A woman who has entered large, sluggish systems &mdash; and wanted to get them moving. Not out of self-interest, but out of the deep-rooted SO6 drive: I'm there for the group. I do what needs to be done. I'll clear the way. SO6w7's meerkat doesn't run away - it runs ahead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The duty: security through departure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong>- Security arises through service, through belonging, through completing a task for the collective. But the Seven Wings changes how this duty is lived. Melanie Kreis (SO6w5) is looking for security through structure, analysis and quiet fulfillment of her role<strong>SO6w7</strong>Safety through movement. Moving forward feels safer than standing still. Taking on a task feels safer than waiting. The SO6w7 serves - but it serves with speed.</p>
+          <p class="vb-intro">Hops built her career in this pattern: McKinsey &mdash; the classic starting point for analysts and strategists. Then digital leadership roles in the media and technology industry. In 2021 she became CEO of Bild, the largest German tabloid media &mdash; a house under pressure to transform. In 2022, she took over the management of the German Football League (DFL), the umbrella organization of the Bundesliga. Each of these projects was a system in transition. And Hop was the one who said: I'll take over. We're getting this moving.</p>
+          <p class="vb-intro">This is the difference to SO6w5: Melanie Kreis builds security by growing deeply into a structure. Donata Hopfen builds security by renewing structures. Both serve the group. But one holds, the other creates.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: Speed ​​as a home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong>brings something to the social six that the pure SO6 alone would not develop: enthusiasm, willingness to take risks and the conviction that departure is better than staying put. Where the SO6 naturally tends towards caution and hedging, the wing of seven opens the door to the wide. The result is a person who is looking for belonging - and creates it through charisma and innovative energy instead of through silence.</p>
+          <p class="vb-intro">Hops is considered a pioneer of digital transformation. She speaks in public, she gets involved, she takes positions. Her style is not that of Melanie Kreis, who impresses with quality in the background - Hops are visible, articulated, present. This is the SO6w7 as a leadership type: Security is not gained by retreating into the depths, but rather through outward connection, through moving people, through the feeling that the group stays in motion.</p>
+          <p class="vb-intro">Where the F\xfcnferfl\xfcgel directs the energy inwards - Analysis, understanding, knowledge as a foundation &mdash; The Wing of Seven directs them outwards: networking, ideas, the next step. The meerkat of SO6w7 does not keep a single watch. It organizes the whole group to look out together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From McKinsey to the Bundesliga storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hops' most famous &mdash; and most turbulent &ndash; Station was her time as business manager<strong>DFL</strong>(German Football League, umbrella organization of the Bundesliga). She took office in November 2022 with a clear mission: to lead the Bundesliga into the digital future and to develop new sources of financing. The focus was on an investor deal with the financial investor CVC Capital Partners, which was supposed to bring the DFL around two billion euros.</p>
+          <p class="vb-intro">What followed was one of the most spectacular conflicts in German football: fans protested massively against the entry of investors, games were interrupted by tennis balls and other objects on the field, and clubs withdrew their support. In February 2023 &mdash; after barely three months in office &mdash; Hop stepped back. The deal didn't go through.</p>
+          <p class="vb-intro">It was a classic SO6 experience at its harshest: Hopfen had acted on behalf of the group &mdash; and the group turned against them. Not because the strategy was wrong, but because it started at a point where football's fear and identity collided. The Seven Wing had made them quick and decisive. SO6 vulnerability hit them as belonging broke away.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: When the group votes out the Guardian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO6w7 is theirs<strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen is in demand as a consultant and speaker because she combines clarity, courage and strategic vision. She can read systems, identify opportunities and inspire people. This is the SO6w7 on the sunny side: It not only serves &mdash; she inspires.</p>
+          <p class="vb-intro">The downside of the SO6w7 is its speed. Where Melanie Kreis (SO6w5) brakes with the F\xfcnfer\xfcgel, checks thoroughly and only then acts, the SO6w7 can start off too early - before the group is really ready to go. The Seven Wings generate speed and enthusiasm, but enthusiasm alone does not build a bridge between a vision and the most fearful people who are supposed to follow that vision. The DFL episode shows this pattern in its purest form: the departure was real, the necessity was real &mdash; but the group was not yet where the vision already was.</p>
+          <p class="vb-intro">For the SO6, this is the deepest wound: being cast out as a member of the community by the very community for which you joined. Hops made this experience public. And didn't disappear afterwards. This is the difference between the SO6 shadow and the SO6 maturity: The mature six knows that belonging does not depend on a single group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The meerkat that rearranges itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After her resignation from the DFL, Donata Hopfen did not take cover. She advises companies on digital strategy and leadership issues, gives lectures and is involved in networks. The meerkat of SO6w7 does not retreat to the safest stone and looks quietly at the world from there. It's looking for the next group that needs guard.</p>
+          <p class="vb-intro">Two meerkats, one task, two completely different paths: Melanie Kreis has been keeping the same watch for the same company for years, steadfast and precise. Donata Hopfen crossed several areas, was in several storms, and continued running several times. Both live the duty of the social six. But one embodies it as perseverance, the other as courage to move forward. The meerkat of SO6w5 keeps watch because it stays. The meerkat of SO6w7 keeps watch because it always starts again.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-melanie-kreis", label:"Portr\xe4t: Melanie Kreis (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function fredericChopinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fr&eacute;d&eacute;ric Chopin</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with quadruple wing</p>
+        <p class="krim-portrait-subtitle">Komponist, Pianist, 1810&ndash;1849 &ndash; Animal correspondence: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong>is the animal of sexual type 5 &mdash; nocturnal, silent, with spines out of instinct, not malice. Anyone who meets him immediately notices: This is not an animal that shows itself. It curls up. It's waiting. And only those who are really familiar can see what lies beneath.</p>
+          <p class="vb-intro">Fr&eacute;d&eacute;ric Chopin lived thirty-nine years &mdash; and during this time he composed a work that to this day sounds like no other: as if someone were opening up completely, but only at the piano. In salons, not in concert halls. For the few, not for the many. He barely gave thirty public concerts in his entire life. The rest of the time he worked, he loved &mdash; and wrote music that revealed more of himself than he could ever have put into words.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Trust: the one connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 5 den <strong>Kontratyp</strong>the F\xfcnf &mdash; because the sexual energy breaks through the stinginess of the five and seeks deep, intense connection. Its key term for this subtype:<em>Vertrauen</em>. The SX5 doesn't seek distance, but the<em>eine</em>Connection that supports everything. The thorns are aimed at the world - not the person you really trust.</p>
+          <p class="vb-intro">Chopin's greatest love was<strong>George Sand</strong>, the writer whose civil name was Aurore Dudevant. They met in Paris in 1836. Two years later, in the winter of 1838/39, they traveled together to Mallorca &mdash; Chopin was sick, the climate was harsh, the accommodation was poor. There he composed the<em>Pr\xe4ludien op. 28</em>, one of his most dense works. The isolation of winter, the proximity to George Sand, the proximity to death of tuberculosis &mdash; all of that is in these miniatures.</p>
+          <p class="vb-intro">The relationship lasted nine years, from 1838 to 1847. It ended bitterly - About a dispute that was about parenting and her son Maurice, not about love itself. After the separation, Chopin hardly composed any more. As if the connection that had sustained him had disappeared with her. The SX5 has few such connections. If one breaks, something essential breaks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The four-part piano: homesickness as a composition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong>brings something crucial to the sexual five: the pain of loss as an artistic drive. The pure SX5 would perhaps close itself off. The four-part wing makes art out of this closure - he transforms the unspoken into form, the pain into sound.</p>
+          <p class="vb-intro">Chopin left Poland in 1830, shortly before the November uprising against Russian occupation failed. He never returned\xfcck. Warsaw, the Vistula, the birch forests of his childhood &mdash; All that remained behind him, and after the failure of the uprising he knew there was no turning back. This longing runs through his entire work: The<strong>Mazurken</strong>- ninety-eight in number &mdash; are not folkloric costumes. They are an exile's attempt to capture his homeland in sound.</p>
+          <p class="vb-intro">The quadruple grand piano also explains his artistic peculiarity: Chopin wrote no symphonies, no operas, and hardly any chamber music. He composed almost exclusively for solo piano. The piano was his intimate sphere - his hedgehog den. In this room, he opened up completely. Outside: spines.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Pianissimo as language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Pianissimo</em>- in music the instruction to play as quietly as possible &mdash; is much more than a volume indication. It's an attitude. It is the decision not to push, not to overwhelm, but to draw the listener into the silence. In pianissimo, tension is created not by volume, but by restraint. The unsaid, the subtle, the hesitation between two sounds - All of this becomes audible because the noise is missing. And if you really listen, you'll notice: these quiet parts are the most intense. The most radical deceleration is also the most attentive.</p>
+          <p class="vb-intro">Chopin's work is small in scope and immeasurable in impact. Around two hundred compositions &mdash; almost all for the solo piano. The<strong>Nocturnes</strong>: twenty-one night sounds, each of which describes a different type of silence. The<strong>&Eacute;tuden op. 10 and op. 25</strong>: technical practice pieces that are at the same time masterpieces of emotional condensation. The<strong>Balladen</strong>: four works that combine narrative and passion in a way that redefined the genre.</p>
+          <p class="vb-intro">Franz Liszt, the brilliant performer and antithesis, played great songs &ndash; Chopin didn't like big books. He played in the salons of the Parisian bourgeoisie, at dusk, for perhaps thirty people. Robert Schumann (SX7w6) wrote the sentence about Chopin's op. 2:<em>Take off, gentlemen, a genius.</em>The genius himself preferred to sit in the background.</p>
+          <p class="vb-intro">Claudio Naranjo told in his seminars an image that he used for the sexual F\xfcnf with quad piano: A flute player tries to play his instrument &mdash; but all the holes in the area are blocked except for one. All the love flows out through this one open hole at once. Nothing can stop her because she has no other way. That's how it is with Chopin: The love that is inherent in a person of this type finds its way - and because almost all other channels are closed, it comes through the piano with an intensity that surprises some people to this day. Anyone who hears Chopin and thinks that it could only be a Type 4, so romantic, so full of longing - He recognizes here the sexual five with four wings: the love that is not distributed but bundled.</p>
+          <p class="vb-intro">What remains is precision. No sound too many, no expression without a reason. The SX5w4 wastes nothing &mdash; she distills. What is created from this distillate can still be heard two hundred years later in every concert hall in the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Spikes and Exhaustion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is the ability to<strong>k\xfcnstlerischen Selbst\xf6ffnung</strong>- completely, unreservedly, but only in your own medium. Chopin revealed more in his music than most people reveal in a lifetime. This honesty is the gift of his combination: the contrarian that shows up &mdash; but only where he is really at home.</p>
+          <p class="vb-intro">The shadow: exhaustion. The F\xfcnf's stinginess with the SX5 is not about money, but about<strong>Energie</strong>. Chopin was physically frail &mdash; Tuberculosis had accompanied him since the 1920s of his life. But he also exhausted himself in other ways: through the intensity of one connection, through the uncompromising artistic demands, through the exile that he never came to terms with. After separating from George Sand in 1847, he collapsed. The last two years of his life were marked by weakness, loneliness and the confession that he could hardly compose anymore.</p>
+          <p class="vb-intro">He died in Paris on October 17, 1849, aged thirty-nine. His last wish: that Mozart's Requiem be played at his funeral. A person who never stopped asking what comes after silence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Heart in Warsaw</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chopin was buried in the P\xe8re Lachaise cemetery in Paris &mdash; where it still lies today. But its<strong>Herz</strong>is in Warsaw. His sister Ludwika smuggled it out of Paris in an urn, through borders that would have been as hostile to the dead as they were to the living. Today it rests in the Church of the Holy Cross in Warsaw, walled up in a column pillar.</p>
+          <p class="vb-intro">There is hardly a more apt image for the SX5w4er: the body remains in exile. The heart returns home. What he could never give back as a human being - the return to Poland, the touching of the soil on which he was a child - He gave that to himself in death.</p>
+          <p class="vb-intro">And the music? It stays everywhere. This is perhaps the hedgehog's secret: what he has inside him, he does not share lightly. But if he shares it, it will last for centuries.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function gloriaVonThurnUndTaxisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gloria-von-thurn-und-taxis-portrait.jpg" alt="Gloria von Thurn und Taxis" class="krim-portrait-img" loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div style="display:none;width:100%;aspect-ratio:1;background:var(--surface,#f4f0e8);border-radius:50%;align-items:center;justify-content:center;font-size:4rem;">🦛</div>
+        </div>
+        <p class="krim-portrait-name">Gloria von Thurn and Taxis</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Princess, entrepreneur &amp; Patron, born 1960 &mdash; Animal correspondence: Hippo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong>is the beast of the self-sustaining two &mdash; and hardly any other personality in German post-war history embodies this animal as completely as Gloria von Thurn und Taxis. The hippopotamus lives in two worlds: in the water it is weightless, playful and surprisingly agile. On land it shows its true weight. What most people don't know: The hippopotamus is the most dangerous large mammal in Africa. It seems harmless &mdash; until it sees its territory threatened. Then it acts without hesitation, without apology, with a force that completely belies its indolent appearance.</p>
+          <p class="vb-intro">In the 1980s, Gloria von Thurn und Taxis was known as the &ldquo;punk princess&rdquo; well known: mohawk, parties, excesses, a life that the tabloids covered with enthusiasm. When her husband Johannes died in 1990, leaving the family with billions of dollars in debt and a confusing corporate structure, the hippo stepped out of the water. What followed was not a metamorphosis &mdash; it was a revelation. Who Gloria von Thurn und Taxis really was only became apparent at the moment when everything was at stake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Two: Survival as First Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong>is the subtype in the Enneagram tradition that directs the energy of the two most directly towards one's own existence and that of one's closest circle. Naranjo called this subtype<em>Me First</em>: not egocentricity, but survival intelligence. The SE2 first asks:<em>What do I need to pass? What does what belongs to me need to survive?</em>It is the most concrete, closest to the earth, least romanticized of the three two-way variants.</p>
+          <p class="vb-intro">When Gloria von Thurn und Taxis became a widow in 1990 at the age of thirty, she took on a task that would have overwhelmed most experienced managers: the restructuring of one of the oldest aristocratic assets in Europe. She sold real estate, works of art, land &mdash; and kept St. Emmeram Castle in Regensburg, the core of the family identity. No sentimentality, no fear of making tough decisions, no maneuvering. This is the SE2 in its clearest form: it knows what is essential &mdash; and she protects it with a determination that often disturbs outsiders.</p>
+          <p class="vb-intro">What is remarkable is that Gloria von Thurn und Taxis never spoke the language of management consulting. She spoke the language of responsibility. For the children, for the inheritance, for the people who depend on this inheritance. This is the SE2 view: survival is not a selfish project &mdash; it is the foundation on which everything else stands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The one wing: morality as a backbone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>One wing (w1)</strong>brings something to the self-preserving two that the pure two does not have of itself: an internal set of rules that supports independent of external recognition. The one knows a right and a wrong. She doesn't tolerate half measures. She judges &mdash; and first about yourself. In combination with the SE2, you create someone who not only knows what he wants, but also knows how it should be.</p>
+          <p class="vb-intro">In the case of Gloria von Thurn und Taxis, this wing is particularly evident in her deeply rooted religious convictions. After her husband's death, she turned to the Catholic faith with great intensity, which in her biography does not represent a mere refuge - but an internal consequence. The One Wing needs a point of reference beyond pragmatic survival. He seeks order, principle, something that is true regardless of whether it is convenient at the time.</p>
+          <p class="vb-intro">That they are clear in public &mdash; often uncomfortable &mdash; Representing positions on marriage, family and life issues is not populism. It is the SE2w1 in its natural position:<em>I say what I think is right.</em>Whether that works or not is a secondary question. The hippopotamus does not back down when it believes its point of view is correct.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Pride as a protective shell</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the two is<strong>Stolz</strong>- and in its deepest form it is not arrogance, but a protective strategy: the belief that one is indispensable through one's giving, achievement and support. The Two who is proud of what she does for others never has to ask whether she would be loved without that achievement. The pride of the SE2w1 has a special quality: it is combined with the awareness of status, dignity and duty.</p>
+          <p class="vb-intro">Gloria von Thurn und Taxis carries her legacy not as a burden, but as a mission. The Regensburg Castle Festival, which has made it a cultural institution of distinction; the art collection that she carefully cared for; the public presence that she never shied away from &mdash; All of this is an expression of a pride that does not serve vain self-promotion, but rather conviction:<em>This heritage is worth preserving, and I am the one who preserves it.</em></p>
+          <p class="vb-intro">The shadow of this pride lies &mdash; like every two &mdash; in the question that is silent below:<em>Was bin ich, wenn ich nichts mehr habe, was ich geben kann?</em>The SE2w1 responds to this with even more action, even more attitude, even more clarity. The hippopotamus expands its territory &mdash; so that it is never empty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Transformation: From Excess to Matriarch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gloria von Thurn und Taxis' 1980s are well documented: the mohawk, the costume parties, the headlines. It would be easy to see this as a contradiction to the woman she is today. From an Enneagram perspective, it isn't. The SE2 lives in extremes: it is completely present in the moment, completely in enjoyment, if that is possible - and fully protected, fully responsible when called upon. The change from the &ldquo;Princess TNT&rdquo; There is no break with the matriarch of the House of Thurn and Taxis. It's the same character in a different situation.</p>
+          <p class="vb-intro">What has changed is the water in which the hippo swims. In the 1980s, water was the society, the parties, the youth of the moment. After 1990, water became the castle, the heritage, the family, the faith. The hippopotamus has not changed. It has re-measured its territory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Fortitude as a Cultural Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Gloria von Thurn and Taxis did to the House of Thurn and Taxis &mdash; and the city of Regensburg &mdash; has given can be quantified and not quantified at the same time. What can be quantified is the renovation of a dilapidated heritage, the establishment of a functioning corporate structure, and the establishment of a cultural festival with international appeal. What lies behind it cannot be quantified: the ability not to break under extreme pressure, but to grow.</p>
+          <p class="vb-intro">This is the gift of SE2w1: steadfastness that does not come at the expense of others. A hippopotamus holding its territory &mdash; and within it creates space for culture, for family, for what goes beyond a single person. Gloria von Thurn und Taxis proved that nobility is not a fate you inherit &mdash; but a task that you take on or give up every day. She accepted. The hippopotamus is standing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippo: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function goldaMeirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Golda Meir</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with nine-wing piano</p>
+        <p class="krim-portrait-subtitle">Politikerin &amp; Staatsfrau, 1898&ndash;1978 &ndash; Animal correspondence: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong>is the animal of self-sustaining type 8 &mdash; and no picture captures Golda Meir more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no approval, no stage. He lives by his own rules, with a quiet power that doesn't have to prove itself. His look is patient and awake at the same time - the gaze of a being that wastes no energy and never forgets what it has seen.</p>
+          <p class="vb-intro">Golda Meir, born in Kiev in 1898, emigrated to the USA with her family as a child, moved to British Palestine as a young woman and four decades later became the fourth Prime Minister of the State of Israel. This is not the story of a career. It's a story of survival &mdash; and a will that could not be broken. The orangutan that slowly walks through the forest and ends up sitting higher than everyone else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Eight: The Right to Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong>expresses the passion of the eight - the<em>Wollust</em>- through self-assertion, securing resources and the unconditional right to one's own life. Naranjo called this subtype<em>Satisfacci\xf3n</em>: Satisfaction as a principle of life. The SE8 wants to have what it needs &mdash; Security, space, independence. Not out of greed, but out of the deep knowledge that only those who stand up for themselves can stand up for others.</p>
+          <p class="vb-intro">Meir's childhood was marked by poverty and fear of pogroms in Tsarist Russia. The family fled to America; She grew up in Milwaukee, worked early, secured her existence step by step. Their decision to emigrate to British Palestine in 1921 and live in a kibbutz was not a romantic one: it was the decision of an SE8 who had understood that lasting survival was only possible on their own soil. Not at some point. Now.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Wing of Nine: Patience as Statesmanship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong>gives the self-preserving Eight something that the pure Eight often finds difficult: patience and the ability to hold many perspectives at the same time. The SE8w7 is impulsive, risk-taking, direct &mdash; she wants it immediately. The SE8w9 can wait. She builds. She sees the big picture, even if the situation is unclear.</p>
+          <p class="vb-intro">Meir was Israel's foreign minister for ten years (1956-1966) - a term of office that speaks for the tenacity of an SE8, but also for the diplomatic patience of the nine-wing wing. She built relationships with African states as Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; She allowed things to mature where pure eight would have forced them. David Ben-Gurion, who knew her like no one else, simply called her: the best man in the cabinet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From Milwaukee to Jerusalem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Golda Meir was one of the 37 signatories of the Israeli Declaration of Independence on May 14, 1948. As Minister of Labor (1949-1956), she helped build the young state's social security system. As Secretary of State, she changed her name from Mabovitch-Myerson to the Hebrew<em>Meir</em>- "the enlightening one". She became prime minister in 1969 at the age of 70 &mdash; one of the first women in the world to hold such an office.</p>
+          <p class="vb-intro">Her management style was distinctive: she kept her cabinet together informally in her kitchen &ndash; the so-called<em>Kitchen cabinet</em>- with tea and home-cooked food. No staging, no protocol distance. The SE8 doesn't need a socket. She needs results.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Yom Kippur War</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 is hers<strong>unwavering presence</strong>. Meir was not a charismatic speaker in the classic sense &mdash; But anyone who confronted her immediately noticed: This woman won't let herself be intimidated. Her directness was not a mask; her humor was dry and self-deprecating; their loyalty to their people was unconditional. The SE8w9 is not one that produces itself. She's just there &mdash; and that's enough.</p>
+          <p class="vb-intro">The Shadow: On October 6, 1973, the highest Jewish holiday of Yom Kippur, Egyptian and Syrian troops invaded Israel in a coordinated attack. Meir had seen warning signs and acted too late; The surprise effect cost Israel heavy losses. She assumed political responsibility and resigned in April 1974. The SE8 makes no apologies. She bears the consequences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The orangutan that couldn't be moved</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Golda Meir was one of the most powerful women of the 20th century &mdash; and she would have been the last person to say that sentence about herself. This is the SE8w9: power without pathos, strength without self-expression. She came from the deepest of nowhere &mdash; Poverty, emigration, exile &mdash; and ended up at the head of a state that she had helped to found. The orangutan who climbs slowly, never falls and ends up sitting higher than all those who were louder.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+          {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function guentherJauchPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-guenther-jauch-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">G\xfcnther Jauch</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wings</p>
+        <p class="krim-portrait-subtitle">Moderator, Journalist, Produzent, geb. 1956 &ndash; Animal correspondence: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus from M\xfcnster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong>is the animal of social type 5 &mdash; highly intelligent, reaching with eight arms at the same time, hardly graspable. He camouflages himself perfectly. He lives in the depths, even when he appears on the surface. And he holds his territory with a precision that you can't tell from the outside because he never seems excited.</p>
+          <p class="vb-intro">G\xfcnther Jauch has been the best-known face on German television for over thirty years - and probably the most watched presenter that the Federal Republic has ever produced. Who will be a millionaire? running since 1999.<em>stern TV</em>He moderated from 1990 to 2011. He hosted the ARD Sunday Talk from 2011 to 2015. And yet most people who have seen his programs hardly know anything about him. This is no coincidence. That's system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: Knowledge as a Key</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong>- the link between knowledge and affiliation and reputation. The SO5 shares knowledge with the community and thereby becomes an authority. In the light, this is a job and calling. In the shadows, knowledge becomes a gate that can only be opened by those who control it.</p>
+          <p class="vb-intro"><em>Wer wird Million\xe4r?</em>is the perfect format for social F\xfcnf: a show in which knowledge is literally worth money. Jauch sits as a totem figure at the control point - he knows the answers, he reads them from the teleprompter, he evaluates candidates, he decides the pace. The audience in the studio, the telephone joker, the friends who are allowed to be asked - All of this is a social system that Jauch moderates. And he sits at the center of this system: calm, informed, calm. The octopus in its element.</p>
+          <p class="vb-intro">Jauch studied law and political science &mdash; in M\xfcnster and later at the LMU M\xfcnchen &ndash; and dropped out of his studies when the Bavarian Radio took him on as a trainee. He didn't go into television because he graduated from college. He switched because he had found a more direct route into the knowledge ecosystem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The six wing: The format as a home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong>brings the social five a deep need for stability and reliability. Not adventure, but continuity\xe4t. Not disruption, but the tried and tested system. In the light this is loyalty and quality. In the shadows it is the refusal to renew &mdash; clinging to structures because you feel safe in them.</p>
+          <p class="vb-intro">Jauch is the image of this continuity.<em>Wer wird Million\xe4r?</em>has been running since 1999 - with the same presenter, same chair, same music, same rules. In a television landscape that reinvents itself every five years, that's a statement. He himself once said that he likes formats that he understands and is familiar with. That sounds simple. It's not it. It is the SO5w6: Security through repetition, reliability as professionalism.</p>
+          <p class="vb-intro">His marriage also proves the pattern: Married to Thea Jauch, née D\xf6rholt, since 1990 &mdash; four daughters, the same house in Potsdam. The six wing creates structures in which the private remains safe because it remains invisible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Between the millionaire question and Monday</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>stern TV</em>, which he took over in 1990 and moderated for two decades, was different territory: reports, revelations, socially critical contributions. Jauch conducted the show with the same cassette with which he later interviewed millions - without emotion, with precise questions, without getting too close to the other person. This is SO5: closeness through distance, connection through professionalism.</p>
+          <p class="vb-intro">Den ARD-Sonntagabendtalk &ndash; <em>G\xfcnther Jauch</em>, 2011 to 2015 &mdash; he gave up after four years. He explained that the format had exhausted itself. Many asked if he meant himself. The social five loses the sense of a system when it senses that it no longer supports it. Then she lets go - calm, without drama, without \xd6publicity.</p>
+          <p class="vb-intro">He also introduced a variety of formats into the broadcasting landscape through his production company i&amp;u TV, which was later sold to RTL. The octopus grabs with several arms at the same time - and cannot be reduced to one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow: The private remains private</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jauch is not on social media. He rarely gives interviews about himself &mdash; only about his broadcasts. He lives in a villa on Holy Lake in Potsdam, the property of which is behind walls. He has four daughters whose names he didn't mention publicly for years. This is not privacy out of fear. That's the one<strong>SO5 Castle</strong> in ihrer sozialen Form: Ich bin unter euch, ich gebe euch Wissen, ich moderiere eure Gesellschaft &ndash; aber mich selbst gebe ich nicht.</p>
+          <p class="vb-intro">The shadow of the F\xfcnf is<strong>Geiz</strong>- not just with money, but with yourself. With what you would reveal about yourself. Jauch is a man who has spent decades putting candidates in existential pressure situations, studying their reactions, commenting on their sweats &mdash; and at the same time remained completely impenetrable. The octopus that observes and changes while remaining invisible.</p>
+          <p class="vb-intro">In the light, however: A moderator who has never presented a candidate. Who never laughed at anyone. Who moderates with a friendliness that doesn't seem fake. This is SO5 in the best sense: sharing knowledge without dominating. Accompany without overpowering.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The octopus that doesn't get smaller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">G\xfcnther Jauch will be sixty-eight years old in 2024 &mdash; and still moderates<em>Wer wird Million\xe4r?</em>. Television has reinvented itself around him several times. Formats came and went. Moderators were discovered, burned and replaced. Jauch stayed.</p>
+          <p class="vb-intro">That is the image that remains: a man who is not loud, who does not push, who does not push. Who is simply there. Who holds his place, gives his knowledge, asks his questions - and after the broadcast goes to Potsdam. Behind the walls. Into the silence. To the octopus in its depths.</p>
+          <p class="vb-intro">This is the social F\xfcnf: presence without handover. Visibility without revelation. And the quiet certainty that you know more than you show - and that that is completely enough.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-bill-gates", label:"Portr\xe4t: Bill Gates (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function igaSwiatekPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Iga Świątek</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 2001 &ndash; Animal correspondence: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong>is the animal of sexual type 9 &mdash; and anyone who watches Iga Świątek play understands why. The sloth looks like it's half asleep. It doesn't move when it doesn't have to move. But this impression is deceptive: the sloth is perfectly adapted to its environment. Every movement fits. No energy expenditure without necessity. And when it snaps shut - then with a precision that is astonishing.</p>
+          <p class="vb-intro">Iga Świątek, born in Warsaw, Poland in 2001, is the most dominant tennis player of her generation. She won Roland Garros in 2020, 2022, 2023 and 2024 &mdash; four times the hardest clay court tournament in the world. Plus the US Open 2022. She was number one in the world rankings for over 150 weeks. And anyone who watches her asks themselves: How does she do it so effortlessly?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Disappearing into the River</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong>is, according to Naranjo, the subtype that he<em>Vereinigung</em>called: the search for complete fusion with the other - the partner, the game, the moment. The SX9 doesn't get lost. She finds herself &mdash; in a state of complete presence in which subject and object become one. What sports psychologists call &ldquo;flow&rdquo; call it, this is not an exceptional situation for the SX9. It's her home.</p>
+          <p class="vb-intro">Świątek describes her ideal game like this: no thinking, no planning, no inner commentary. Just be there and play. The ball is coming &mdash; she replies. She doesn't decide what she does. The situation decides and your body follows. In these moments, she says, tennis doesn't feel like work. It feels like breathing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One Wing: The Inner Judge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong>gives the sexual nine something that the pure SX9 type lacks: a precise inner standard, a willingness to be self-critical, the ability to judge one's own performance carefully. The<strong>SX9w1</strong>doesn't just seek contemplation &mdash; she seeks an immersion that is excellent. The flow alone is not enough for her. It also has to be right.</p>
+          <p class="vb-intro">Świątek works with sports psychologist Daria Abramowicz &mdash; an unusually open decision in a sport in which psychological support is often taboo. The way she deals with mistakes is striking: she doesn't react with anger or despair, but rather with quiet concentration. An error is information. He tells her where the alignment has slipped. The number one does not make the number nine a perfectionist in the neurotic sense - but a player who knows exactly when she's not with herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: The dominance of silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Świątek's playing has a quality that commentators repeatedly describe without being able to fully explain it: she never seems rushed. Her shots are no harder than those of other players in her age - but they come exactly when the pressure is at its maximum, and they come with a consequence that exhausts M\xe4tchwinner. Świątek doesn't win by taking him by surprise. She wins by remaining fully present until her opponent gives up trying to do the same.</p>
+          <p class="vb-intro">Her father Tomasz Świątek was a rower at the 1988 Seoul Olympics &mdash; an athlete who valued endurance and rhythm over explosive power. The family imprint is noticeable. Świątek is not a player of spectacular individual action. She is a player of sustained flow. Not the big moment &mdash; but the great continuum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow: When the flow breaks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 is its<strong>au\xdfergew\xf6hnliche Konzentrationskraft</strong>. Świątek can play entire tournaments in a state of complete presence, which other players lose after a few sets. She is virtually invincible on sand if this condition persists. The A wing ensures that she learns from mistakes without getting lost in them.</p>
+          <p class="vb-intro">The Shadow: The Nine gets lost in the flow &mdash; and when the flow breaks, sometimes everything collapses at once. Świątek lost the 2022 French Open quarterfinals to Iga Besidze in a set that looked like a different player. In 2024 she failed in the Wimbledon round of 16 against Yulia Putintseva under conspicuous circumstances. These moments show what happens when the SX9w1 moves from its center: no anger, no fight &mdash; a kind of silent disappearance. As if the connection were simply gone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The sloth that flies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Iga Świątek is 23 years old. She has won four Grand Slam titles and is the undisputed number one in a \xc4ra in which women's tennis is more balanced than ever before. What separates them is not brawn or tactics. It is the ability to be completely in the moment - Sentence by sentence, point by point, as long as necessary.</p>
+          <p class="vb-intro">The sloth looks like it's sleeping. But it is in a form of presence that humans rarely achieve. Świątek plays tennis like a sloth hangs: without feelings, calm, completely in balance with what is. And sometimes, when the wind is right and the ball comes exactly the way it's supposed to come, what appears to be weightlessness occurs.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function jacquelineMarsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jacqueline-mars-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jacqueline Mars</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with seven wing</p>
+        <p class="krim-portrait-subtitle">Unternehmerin &amp; Milliard\xe4rin, geb. 1939 in Newark, New Jersey</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong>is the animal of self-sustaining type 8 &mdash; and no picture captures Jacqueline Mars more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no stage, no validation. He lives in his own rhythm, on his own territory, surrounded by what he has accumulated over decades. If you don't bother him, you'll never see him. And that is exactly how it is intended.</p>
+          <p class="vb-intro">Jacqueline Mars, born in Newark in 1939, is the granddaughter of Frank C. Mars, the founder of the confectionery company of the same name, and daughter of Forrest Mars Sr., who expanded the company into global size. She co-owns with her brothers John and Forrest Jr. about a third each Mars, Incorporated &mdash; one of the largest private companies in the world. Her fortune is estimated at over $30 billion. She has hardly given any public interviews for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Eight: Satisfaction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong>expresses the passion of the eight - the<em>Wollust</em>- through possession, securing resources and sensual abundance. Naranjo called this subtype<em>Satisfacci\xf3n</em>: Satisfaction as a principle of life. The SE8 wants to have what it needs &mdash; and she builds the structures that ensure that she has it too. Not tomorrow. Permanently.</p>
+          <p class="vb-intro">Jacqueline Mars lived this principle with a consequence that one almost doesn't notice from the outside - because she has achieved it so much that there is no need for drama anymore. The company is running. The territory is secured. The SE8 doesn't need cameras to control; it needs structures that work. Mars, Incorporated has been family-owned for generations and has never been listed on the stock exchange - That's not a whim, that's an SE8 decision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: The Joy of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong>gives the self-sustaining eight a quality that the pure SE8 doesn't always show: lightness, curiosity and the willingness to fully enjoy life. The SE8w7 not only collects &mdash; it costs out. Travel, enjoyment, variety, the appetite for the sensual in its entirety: this is the wing of seven, which fills the territory of the eight with colors.</p>
+          <p class="vb-intro">Jacqueline Mars is an avid equestrian and lives on an estate in The Plains, Virginia &mdash; the heart of the American horse breeding region. The horse world is a world of its own: traditional, exclusive, far away from the spotlight. She served for years on the Smithsonian Institution Board of Regents &mdash; there too: connoisseurship instead of self-expression. The seven-piece wing is not looking for the stage; he looks for quality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: The Mars Empire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mars, Incorporated is the world's largest confectionery company and one of the world's largest pet food producers: M&amp;M's, Snickers, Twix, Milky Way, Skittles, Pedigree, Whiskas. Sales: over 45 billion dollars annually. The company has remained entirely family-owned since its founding in 1911 &mdash; no stocks, no analysts, no quarterly reports for the public. Privacy as a business principle.</p>
+          <p class="vb-intro">Jacqueline Mars sat on the company's board of directors and was involved in key strategic decisions, although her brother Forrest Jr. took over operational management for a long time. Their influence was real &mdash; and discreet. This is not modesty; This is the SE8w7 in its mature form: power without having to legitimize it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Power without a Face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE8w7 is her<strong>souver\xe4ne Unabh\xe4ngigkeit</strong>. Jacqueline Mars needs neither applause nor justification. She owns one of the largest private assets in the world &mdash; and lives a life that she creates herself: horses, nature, connoisseurship, quiet influence. The SE8w7 at its best isn't loud; it is complete.</p>
+          <p class="vb-intro">The Shadow: The invisibility that protects the SE8 also makes it uncontrollable - for better or worse. What drives a company of this size remains largely hidden: supply chains, working conditions, political influence. If you never give public accountability, you never have to. This is the downside of the SE8 strategy: the territory is secured &mdash; but no one knows exactly how.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The orangutan that never needs to be seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jacqueline Mars is one of the richest women in the world &mdash; and one of the most unknown. This is no coincidence and no shyness. This is the SE8w7 in perfect form: the territory secured, the resources secured, life enjoyed to the fullest - and all without a single press conference. The orangutan doesn't need spectators. He sits enthroned in his tree, far above the noise of the world, and knows exactly what he has.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
+          {route:"beruehmte-golda-meir", label:"Portr\xe4t: Golda Meir (SE8w9)"},
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function jamaicaKincaidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamaica-kincaid-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamaica Kincaid</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with nine-wing piano</p>
+        <p class="krim-portrait-subtitle">Schriftstellerin &amp; Essayistin, geb. 1949 in Antigua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\xf6we</strong>is the animal of social type 8 &mdash; and no picture captures Jamaica Kincaid more accurately. The lion does not fight indiscriminately. He waits, watches, chooses the moment. And when he attacks, he does so with a precision that wastes no energy. His strength is not at the service of his own greatness - it is at the service of the pack, the community, those he protects.</p>
+          <p class="vb-intro">Jamaica Kincaid, born in St. John's, Antigua in 1949, emigrated to New York at the age of 17 as a nanny and became an author at<em>New Yorker</em>and wrote itself into the memory of world literature over the next decades. Your instrument is language &mdash; sharper than any complaint, more precise than any accusation. She writes about colonialism, about motherhood, about origins, about loss &ndash; and always so that after reading something that previously seemed intact breaks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social eight: solidarity\xe4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong>puts her strength at the service of those who have no power. Naranjo called this subtype<em>Solidarit\xe4t</em>: The SO8 identifies with the oppressed - not out of pity, but out of deep indignation at the injustice itself. She confronts it. Without detour, without excuse.</p>
+          <p class="vb-intro">Kincaids Essay <em>A Small Place</em>(1988) is the document of this energy. She addresses the white tourist who is visiting Antigua directly and explains, sentence by sentence, what he does not see, does not want to see and is not allowed to see in order to be able to enjoy his vacation. It is not an accusatory text - it is a revealing one. The SO8 doesn't have the loudest voice, it has the clearest voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Wing of Nine: The Patience of the Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong>gives the social eight a quality that deepens its impact: patience, spaciousness and the ability to carry an idea across pages and decades without losing it. The SO8w7 attacks immediately. The<strong>SO8w9</strong>waits until the moment is complete.</p>
+          <p class="vb-intro">Kincaid's prose has this quality: it circles. She returns\xfcck. She surrounds her topic from all sides before she strikes - and when the blow comes, the reader does not have the feeling of being taken by surprise, but of being released. The wing of nine also gives her the ability to hold different truths at the same time: the beauty of Antigua and its mutilation, the love for her mother and the anger towards her, the longing for home and the impossibility of returning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: A voice that does not retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jamaica Kincaid started out as a writer at<em>New Yorker</em> unter dem Chefredakteur William Shawn. Ihr Roman <em>Annie John</em>in the 1970s (1985) describes growing up in Antigua &mdash; the close, intense bond with the mother and its slow break - with a precision that seems autobiographical because it is.<em>Lucy</em>(1990) continues this story: a Caribbean girl as a nanny in New York who stands between worlds and accepts none of them as her own.</p>
+          <p class="vb-intro"><em>The Autobiography of My Mother</em> (1996) und <em>My Brother</em>(1997) &mdash; a memoir about her brother Devon, who died of AIDS &mdash; deepen the themes: colonization of the body, language, memory. Kincaid now teaches at Harvard University. She changed her name, left her homeland and weaponized her language. This is the SO8w9: not to flee, but to transform.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Intransigence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO8w9 is theirs<strong>moralische Klarheit</strong>. Kincaid knows exactly what she stands for &mdash; and against what. In a literary world that favors diplomatic ambiguity, she is a voice that does not negotiate. Her texts endure what is too much for others: the painfulness of the truth, the discomfort of remembering, the impossibility of forgetting.</p>
+          <p class="vb-intro">The Shadow: SO8 cannot resign. What starts as clarity can become a lack of compromise - against characters, against readers, against one's own story. Kincaid's relationship with Antigua is torn: she loves the country and condemns its government; she writes in English, the language of the colonizers, and makes that language her own. The nine wing can handle that. But it's not easy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The lion who writes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jamaica Kincaid has no weapon but language - and this language is sharper than anything else. She has transformed one of the Caribbean's most brutal colonial histories into literature without romanticizing the victims and without sparing the perpetrators. This is the SO8w9: not the lion that br\xfcllt - but the one who bit down long before you saw it coming. Strength that is not loud. Truth that remains.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+          {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function jamesLevinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-james-levine-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Levine</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Dirigent &amp; Pianist, 1943&ndash;2021 &ndash; Animal correspondence: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong>is the animal of self-sustaining type 9 &mdash; and no picture captures James Levine more accurately. The elephant doesn't forget. He moves at his own rhythm, calm, grounding, with a presence that changes the room before he says a single word. It doesn't need an action to work. It's enough that he's there.</p>
+          <p class="vb-intro">James Levine, born in Cincinnati in 1943, died in 2021, was one of the most important conductors of the 20th century. For forty years he directed the Metropolitan Opera in New York &mdash; first as music director, later as chief conductor. He formed an orchestra that carried his sound like an instrument that had been built for him. No other conductor of modern times has lived in a single house for so long, so prominently, so completely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Nine: Appetite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong>expresses the laziness of the nine through sensual events. Naranjo called this subtype<em>Appetit</em>: the desire for enjoyment, for comfort, for deep immersion in what nourishes you. The SE9 doesn't want to change the world. She wants to live in it &mdash; complete, warm, surrounded by what is good for her.</p>
+          <p class="vb-intro">Levine's appetite was music. Not as a career, not as an achievement &mdash; but as a way of life. He merged with the repertoire like an elephant with his herd: completely, silently, out of deep belonging. Wagner, Verdi, Mozart, Mahler, Brahms &mdash; he didn't learn them, he inhabited them. The Met was not his place of work. She was his territory, his home, his appetite in architectural form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One Wing: The Inner Rigor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong>gives the self-sustaining nine a quality that complements the pure SE9: precision, rigor and an inner standard that does not accept abbreviations. The SE9w8 seeks power. The<strong>SE9w1</strong>seeks accuracy &mdash; in the detail, in the sound, in the purity of expression.</p>
+          <p class="vb-intro">Levine was famous for his enormous musical accuracy. He rehearsed with a patience and depth that amazed even experienced singers and orchestra musicians. The A wing gave him the drive to perfection; The nine gave him the calm that never made this perfection anything driven. The result was a conducting that seemed great without ever having to do much.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Forty Years of Met</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Levine took over as musical director of the Metropolitan Opera in 1976 &mdash; at the age of three\xdfig. What followed was one of the longest and most influential conductorships in the history of a major opera. He systematically expanded the Met Orchestra, led the opera house into new repertoire areas and worked with the most important singers and directors of his time. The summer festival in Salzburg, years of collaboration with the Berlin Philharmonic, a short phase as chief conductor of the Boston Symphony Orchestra (2004-2011) &mdash; his influence reached far beyond New York.</p>
+          <p class="vb-intro">His repertoire was extraordinarily broad: he conducted Wagner cycles as well as Mozart operas, Brahms symphonies as well as contemporary premieres. He always maintained a quality that made his work recognizable: a combination of structural clarity and sensual warmth that describes the elephant - big\xdf, patient, glowing from within.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Appetite Without Limits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE9w1 is its<strong>beharrliche Tiefe</strong>. Over decades, Levine created a musical house that would have been unthinkable without him. His standards were high, his commitment total, his love for music unambiguous. The one wing kept him on track; the nine gave him the stamina.</p>
+          <p class="vb-intro">The Shadow: The SE9's appetite knows no natural limit. In 2017, allegations of sexual abuse were made publicly against Levine &mdash; by several men who described being abused by him as teenagers and young adults. The Met terminated his contract. Later investigations largely confirmed the allegations. What had remained in the shadow of his superior power for decades came to light - and the image that remained was a divided one: that of the great musician and that of the man who had treated his position as both territory and appetite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The elephant that lived in the house</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">James Levine has shaped the Metropolitan Opera like no other. He gave it a sound that was recognizable. He has shaped generations of singers and musicians. And he showed what the self-sustaining Nine looks like at its best: complete immersion, staying power, a presence that doesn't need to be explained. In its darkest form, it also shows how an appetite that knows no limits can destroy everything it has built. The elephant doesn't forget. And neither does the story.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-baerbel-bas", label:"Portr\xe4t: B\xe4rbel Bas (SE9w1)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function jamieleecurtisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamie-lee-curtis-portrait.jpg" alt="Jamie Lee Curtis" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamie Lee Curtis</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Aktivistin, geb. 1958 &ndash; Animal correspondence: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong>is the animal of the sexual one &mdash; and no animal fits Jamie Lee Curtis so precisely. The Black Mamba is one of the most venomous snakes in the world, lightning fast, precise and completely uncompromising. She doesn't attack out of aggression &mdash; it acts out of an inner law. What is wrong is named. Anything that is inauthentic will be rejected. What is true is defended with full commitment.</p>
+          <p class="vb-intro">Jamie Lee Curtis, born in 1958 as the daughter of Hollywood legends Tony Curtis and Janet Leigh, grew up in a world where beauty, fame and appearances were the measure of all things - and developed an inner resistance to exactly that early on. Her career began in 1978 with John Carpenter's<em>Halloween</em>: a horror film, a scream queen &mdash; and a young woman who, from the start, wanted more than what the genre offered her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Passion as Inner Fire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong>is the subtype of one that does not focus its claim to perfection on itself or on the collective, but rather on intensity - to complete presence, complete authenticity, complete honesty in everything that matters. Naranjo called this subtype<em>Zeal</em>: Fervor, zeal, a burning desire for the real thing.</p>
+          <p class="vb-intro">Jamie Lee Curtis lives this subtype with an openness that is rare in Hollywood. She was one of the first actresses to speak publicly about her addiction: she was addicted to opiates for 22 years and has been sober since 1999. She spoke about the breakdown of marriages, about the challenges of motherhood, about the absurdity of ideals of beauty. Not as a confession &mdash; but as a confession:<em>The real thing is worth more than the appearance.</em></p>
+          <p class="vb-intro">In 2021 she worked for the magazine<em>AARP</em>take photos without retouching, without make-up, without staging. For an actress in an industry where aging is considered a flaw, this was an act. For an SX1, it was par for the course.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-wing: care as a second force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>gives the sexual one something crucial: real affection. The SX1w2 is not only uncompromising in its own right - she cares, she provides, she supports others. The intensity of the sexual one is directed outward through the wing of two: not as control, but as connection.</p>
+          <p class="vb-intro">When her daughter Ruby came out as transgender, Jamie Lee Curtis immediately publicly came to her side &mdash; unconditionally, loudly, clearly. As a long-time patron of children's hospitals, she has been committed to helping sick children for decades. Your friendships &mdash; especially the legendary one with John Cleese and the rest of the<em>A Fish Called Wanda</em>-Casts &mdash; are known for their depth and durability. The Black Mamba bites for others as well as for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as a cleansing fire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and in the SX1w2 it burns particularly brightly because it is linked to the intensity of the sexual subtype. Jamie Lee Curtis is not afraid to show this anger: against the film industry that makes women over forty invisible; against beauty industries that sell insecurity; against a society that condemns addicts instead of supporting them.</p>
+          <p class="vb-intro">This anger is not destructive. It is cleansing. He cleans up. The SX1 does not tolerate hypocrisy &mdash; and she doesn't keep quiet about it either. What sets Jamie Lee Curtis apart from many others: She shows anger and warmth at the same time. Not alternately, but together. The Mamba and the two-wing are not a contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Oscar and the Gift of Late Bloom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2023, Jamie Lee Curtis won the Oscar for Best Supporting Actress for<em>Everything Everywhere All at Once</em>- at the age of 64, after a career of almost fifty years. It was her first Oscar. Her acceptance speech was what you would expect from an SX1w2: direct, emotional, fully present. She cried. She laughed. She talked about her parents, her sobriety, her family.</p>
+          <p class="vb-intro">This moment is the symbol of her life's journey: not early and brilliant, but mature, real and complete. The Black Mamba doesn't need a stage to prove herself - but when the stage comes, she's ready. And when she speaks, she means it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gift: authenticity as an invitation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Jamie Lee Curtis gave the world can be summed up in one sentence: she proved that you don't have to bend to survive. Not in Hollywood, not in public, not in old age. This is the gift of SX1w2: the fire that does not go out when it shows itself - but it is precisely then that it burns brightest.</p>
+          <p class="vb-intro">The Black Mamba doesn't back down. She is fully there, fully herself &mdash; and the double wing ensures that this completeness encourages others. Not as a role model in the classic sense, but as living proof:<em>The real thing lasts longer than the appearance.</em></p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function juergenKloppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-juergen-klopp-portrait.jpg" alt="Jürgen Klopp" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Klopp</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Football coach, born 1967 &mdash; Dortmund, Liverpool, Red Bull &mdash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong>is the animal of the social one &mdash; and no animal hits Jürgen Klopp so precisely. The goose does not fly alone. She flies in a V formation, she calls, she holds the group together, she takes responsibility for the collective. When one goose is exhausted, another takes over. The principle is solidarity &mdash; and the conviction that we can get further together than alone.</p>
+          <p class="vb-intro">Jürgen Klopp, born in Stuttgart in 1967, was a decent player &mdash; and exceptional as a coach. Not because he was as tactically brilliant as others, but because he understood what teams really need: the feeling of playing for each other. With BVB he won the German championship and the DFB Cup twice. With Liverpool FC he won the Champions League in 2019 and the English championship in 2020 &mdash; Title that Liverpool had been waiting for over thirty years. Not a coincidence. A goose finding its formation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Ideals for the Collective</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong>is the subtype of one who does not focus his claim to perfection on himself or his private environment, but on the collective - on the group, the community, the society. Naranjo called this subtype<em>Non-Adaptability</em>: The SO1 does not adapt when it realizes that the collective is taking a wrong path. She stands up. She names what is wrong. She fights for an ideal that goes beyond herself.</p>
+          <p class="vb-intro">Klopp's ideal was always recognizable: football as a team effort, not as a stage for individual players. His system of<em>Gegenpressings</em>- immediate collective ball recovery after ball loss &mdash; is not just a tactic. It's a philosophy: everyone runs, everyone fights, everyone is responsible. No one saves the game. The collective wins it.</p>
+          <p class="vb-intro">When he moved to Liverpool in 2015, he declared himself a &ldquo;Normal One&rdquo; - a direct allusion to José Mourinho's famous &ldquo;Special One&rdquo;. That wasn't an understatement. That was a confession: Not me, but us.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-wing: heat as a means of guidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>gives the social one something crucial: real human warmth. The SO1w2 doesn't just want the system to be right - she wants the people in it to feel seen and loved. The two wing turns the idealist into a companion.</p>
+          <p class="vb-intro">Klopp hugs his players. He jumps off the bench, clenches his fist, goes crazy - and this is not a production. It is genuine expression. When Mohamed Salah scores a goal, Klopp is as happy as if it were his own. If a player is in crisis, he leads the conversation. Not the sports directorate. He.</p>
+          <p class="vb-intro">This combination of two wing and social one makes him one of the most popular trainers in the world &mdash; not in spite of his passion, but because of it. The players know: He really means it. And you'll run further for a person who really cares than for someone who doesn't care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as a collective conscience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and Klopp, unlike many other ones, shows him very directly. When a referee makes a wrong decision, when the collective suffers from an injustice, when the team doesn't give what it could give - then the goose comes out of the formation.</p>
+          <p class="vb-intro">Klopp's freaks on the touchline are legendary: the glasses that fly, the red card that he sometimes provokes. This is not a loss of control &mdash; this is the SO1 in its purest form. She fights for what is right. She doesn't hold back when the collective is at stake. The anger is collective, not narcissistic &mdash; and that is the crucial difference.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The farewell and the next post</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In May 2024, Klopp left Liverpool after nine years &mdash; a farewell that moved the entire city. He said he was empty, he needed space, he needed to recover. This is typical SO1w2: The person who gives so much to others eventually needs space for themselves.</p>
+          <p class="vb-intro">Since the beginning of 2024 he has been &ldquo;Head of Global Soccer&rdquo; at Red Bull. An unusual choice for a goose &mdash; Klopp in a corporate role, without his own team. And indeed: In July 2026, after Julian Nagelsmann's departure as national coach, Klopp confirmed ongoing negotiations with the DFB. &ldquo;I am ready,&rdquo; he said publicly. Hans-Joachim Watzke put the probability at &ldquo;more than fifty percent&rdquo;. The contract with Red Bull runs until 2029 &mdash; the hurdle is real, but the goose knows its next destination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Faith as Transference</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Jürgen Klopp achieved as a coach can best be summed up in one sentence: He believed his players before they believed themselves. This is the gift of SO1w2 &mdash; not your own perfection, but the belief in the perfection of the collective.</p>
+          <p class="vb-intro">Liverpool had waited thirty years for the championship. Dortmund was in financial distress when Klopp arrived. In both cases he didn't install a new system &mdash; he has installed a new belief:<em>We can do it.</em>The goose flies in a group. And sometimes it's enough for someone in the formation to make the call - and everyone else follows.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function karlLagerfeldPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lagerfeld</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing &middot; Reinforcement type of the three</p>
+        <p class="krim-portrait-subtitle">Mode-Ikone, Creative Director, Fotograf, 1933&ndash;2019 &ndash; Animal correspondence: Gepard</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The quality of the view: hidden behind dark glasses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Karl Lagerfeld was the only person in the fashion world who systematically hid his gaze &mdash; and that's precisely why it became irresistible. The black sunglasses were not an accessory. It was an instrument of control: If you can't see the eyes, you can't read what's going on behind them. The SO3w4er manages his expression with extreme precision &mdash; Every image he allows of himself is wanted.</p>
+          <p class="vb-intro">And yet Lagerfeld's impact was no mystery: you saw enough of him to recognize him immediately &mdash; the white of the hair, the black of the suit, the severity of the posture. He had transformed into a symbol that was identifiable at first glance, worldwide, timeless. This is the gaze quality of the social three at its masterful level: not returning glances, but attracting glances.</p>
+          <p class="vb-intro">Der <strong>Four wing (w4)</strong>gave this look a melancholic depth. Behind the perfect picture you suspected - sometimes &mdash; the person who preferred to be alone. The collector. The reader. The one who lay awake at three in the morning thinking about books.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social three: success not as a goal, but as a way of being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social subtype of the three, which Claudio Naranjo denotes<strong>Reinforcement type</strong>called, doesn't live for success &mdash; he<em>ist</em>Success. Karl Lagerfeld embodied this type like hardly anyone else in the cultural history of the 20th century. His work at Chanel &mdash; taken over in 1983, when the house was considered obsolete, and run until his death in 2019 &mdash; is one of the most extraordinary transformation stories in the fashion world.</p>
+          <p class="vb-intro">The SO3er is reinventing. He knows that Image is not a static construct, but a living project. Lagerfeld reinvented himself several times: as a boy from Hamburg who conquered Paris; as Emperor Karl in the eighties; as a person who lost over forty kilograms in 2001 because he wanted to wear jeans from a young designer. This last point is exemplary: He didn't shape his body because he wanted to live healthier &mdash; he formed it because the image demanded it.</p>
+          <p class="vb-intro">This is the social three in its most radical consequence: the self is subordinated to success until there is no difference.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Quad Wing: Aesthetics as a worldview, uniqueness as a duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Four wing (w4)</strong>could not be overlooked at Lagerfeld &mdash; he was the reason why he was not only successful, but<em>unverwechselbar</em>became. While the pure SO3 achieves success through adaptation &mdash; through what is asked - the four-wing demands something special, something unique, something that no one else has.</p>
+          <p class="vb-intro">Lagerfeld was not a designer who followed trends. He was one who created them &mdash; and always stayed above the trend. His erudition was legendary: tens of thousands of books in his Paris library, read but not decorated. His knowledge was not a status symbol &mdash; it was staple food. The SO3w4er needs the intellectual depth to differentiate themselves from the mere surface of success.</p>
+          <p class="vb-intro">At the same time, the foursome brought melancholy: Lagerfeld lost his closest friend Jacques de Bascher to AIDS in 1989. He hardly spoke about it &mdash; never publicly. The SO3w4er protects his pain with perfection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The overall effect: Chanel, Fendi and the tirelessness of creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over fifty years of creative director at Fendi. The face of Chanel for over thirty years. At the same time, his own brand, a photography career, publishing projects. Karl Lagerfeld has done a workload that is considered extraordinary even in the fashion industry &mdash; and he did so until shortly before his death at 85.</p>
+          <p class="vb-intro">The SO3er needs performance like other people need sleep. For him, standing still is not relaxation - he is a threat. Lagerfeld's comments about vacation and idleness always sounded slightly hostile:<em>„Ich langweile mich nie, weil ich immer arbeite."</em>That's not a pose &mdash; that is typology.</p>
+          <p class="vb-intro">His handling of Chanel was perhaps his most significant achievement: He took over a house that was considered a museum and turned it into the defining luxury brand of the 21st century. Not through revolution, but through transformation &mdash; he preserved the DNA and incorporated the present into it. This is social three at the highest level: understanding the legacy of others, reimagining it, surpassing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Cheetah: Precision, elegance and the difference to mere speed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The cheetah is not only fast &mdash; he is<em>elegant</em>in his speed. This is what sets it apart from other predators: the attack has style. Karl Lagerfeld had this quality in every public statement. His sentences were perfect &mdash; razor-sharp, sometimes cold, always formulated.<em>"Sweatpants are a sign that you've lost control of your life."</em>A phrase that went viral before the word existed.</p>
+          <p class="vb-intro">This cheetah energy was also evident in his speed: Lagerfeld sketched designs in minutes, and his hand drawings are still sought after today. The SO3er thinks quickly &mdash; he has little patience for processes that slow him down. The result has to be good, and it has to be<em>jetzt</em> fertig sein.</p>
+          <p class="vb-intro">The downside: The cheetah is running hot. Anyone who always performs will eventually lose access to what is below performance. Lagerfeld had barricaded this entrance early on - and decorated the barricade throughout his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: when the image is no longer the person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the three leads from identifying with the image to discovering the self underneath. For Karl Lagerfeld it was a lifelong balancing act &mdash; and there is evidence that he walked it, at least in an inkling way.</p>
+          <p class="vb-intro">He rarely talked about feelings &mdash; but when he did, it was with an honesty that was surprising. About the loneliness of aging. About his bond with Choupette, his cat, whom he described as his favorite creature and to whom he left part of his fortune. A cat doesn't need performance. A cat loves unconditionally. Maybe this was the place where Karl Lagerfeld &mdash; the person, not the brand &mdash; was allowed to show himself briefly.</p>
+          <p class="vb-intro">A conscious SO3w4er knows that his work is bigger than himself &mdash; and that he himself is greater than his work. The cheetah that pauses and looks at its reflection without immediately sprinting further - this is the energy that has always been waiting behind the white ponytail and dark glasses.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+
+      ${relatedLinks([
+        {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"}
+      ])}
+    </div>
+  `);
+}
+
+function karolineHerfurthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karoline-herfurth-portrait.jpg" alt="Karoline Herfurth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karoline Herfurth</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Regisseurin, geb. 1984 &ndash; Animal correspondence: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The pigeon that observes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong>is the animal of the self-sustaining four &mdash; and with Karoline Herfurth she shows a special quality: this pigeon doesn't land straight away. She circles first. She observes, perceives, internally carries what she has seen - and then ends up exactly where it is needed. This is the self-preserving four with foe's wings: a person who fully experiences the inside before stepping outside.</p>
+          <p class="vb-intro">Karoline Herfurth is one of the few personalities in Germany who embody this connection: great emotional presence on the screen, quiet reserve next to it. No social media exposure, no constant explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Four: Toughness without drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong>is the opposite type of the four &mdash; Outwardly, she hardly shows what most people expect from a four: no drama, no display of suffering, no romantic self-dramatization. Instead: a quiet tenacity.<em>Tenacity</em>), eine Bereitschaft, innerlich viel zu tragen, ohne dar\xfcber zu klagen.</p>
+          <p class="vb-intro">Karoline Herfurth started acting at the age of 12, appeared in a film at 16, and played Grenouille's victim in Tom Tykwer's "Perfume" at 18. This early start required a maturity that didn't impose itself - She had to be internally stable while others were still looking for orientation. This is the SE4: not the one who talks about her pain, but the one who goes through it and then does something with it.</p>
+          <p class="vb-intro">Your filmography speaks this language: it avoids the smooth, the comfortable. She chooses roles that cost something - Figures with flaws, with inner contradictions, with humanity beyond the surface. The protection pattern of the SE4 &mdash; the tendency to downplay one's own experience &mdash; Paradoxically, this becomes an artistic strength: she plays real people because she knows how to wear real people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: The observer behind the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong>adds something crucial to the self-sustaining four: the observer, the analyst, the person who understands before acting. While the triple wing drives the four forward and makes it visible, the leading wing pulls back - in the silence, in the depth, in the thoughtful judgment.</p>
+          <p class="vb-intro">Herfurth's switch to directing is perhaps the clearest expression of this wing. As director of &ldquo;Wundersch\xf6n&rdquo; (2022) &mdash; a film about women and their relationship to their own bodies &ndash; she shows a precision in the observation of human vulnerability that does not come from a screenwriting course, but from decades of silent observation. The F\xfcnferfl\xfcgel thinks before he speaks. He knows\xdf what he wants to show &mdash; and what he leaves out.</p>
+          <p class="vb-intro">The SE4w5 combination creates a special type: emotionally deep, intellectually precise, withdrawn enough not to reveal everything, but open enough to touch on something real. You notice this in her interviews: little self-expression, a lot of thinking. She talks about the matter, not about herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow: The beauty of vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the four is this<strong>Neid</strong>- not as resentment, but as the chronic feeling that others have noticed something that you yourself are missing. With the SE4 this envy remains hidden; It shows itself as inner restlessness, as the feeling of never being completely finished, of never fully arriving. You can see something of this in the choice of subject matter in her films: they are almost always about people who struggle with themselves, who have something broken inside them and yet have carried on.</p>
+          <p class="vb-intro">The F\xfcnferfl\xfcgel increases the tendency to retreat: The SE4w5 can retreat into the inner world and reduce external contact to a minimum. This protects &mdash; But there is also the risk that your own wealth will remain unseen. Herfurth obviously chose this path consciously: she reveals little about herself personally - but what she reveals on the screen is all the more significant.</p>
+          <p class="vb-intro">The light of this combination: It can make the vulnerable beautiful without artificializing it. Your characters in &ldquo;Wundersch\xf6n&rdquo; are not heroines &mdash; they are real people who struggle with their physicality, their history, their age. This is SE4w5 in the best sense: bringing the inside into a form that doesn't leave others alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The pigeon that finds its way home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the four leads from the question<em>What am I missing that was given to others?</em> zur Erkenntnis <em>What I am is complete &ndash; and it is mine.</em>For the SE4w5, this means not experiencing the withdrawal as an escape, but as a silence in which what is one's own becomes clearer.</p>
+          <p class="vb-intro">Karoline Herfurth's artistic development points exactly to this point. From the child who played, to the teenager who tested boundaries, to the young woman who shone in ensembles, to the director who made her view of the world public - this is a path from the role to your own voice. A voice that is quiet but precise. The dove that no longer looks because it knows where it belongs.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – The Pigeon: Subtype Profile"},
+        {route:"beruehmte-tim-bendzko", label:"Portr\xe4t: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function kevinCostnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kevin Costner</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1955 &ndash; Animal correspondence: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong>is the animal of social type 9 &mdash; and no picture captures Kevin Costner more accurately. The buffalo lives in a collective. He moves slowly, with weight, close to the ground. He's not the loudest animal on the prairie &ndash; but when he moves, the herd follows him. His power lies not in dominance, but in belonging: he is part of something bigger, and he knows it.</p>
+          <p class="vb-intro">Kevin Costner, born in Lynwood, California in 1955, is one of the rarest types in Hollywood: an actor who doesn't glitter but carries. He speaks slowly. He plays slowly. His best roles are men who don't fight for themselves - but for something greater than themselves: a country, a community, a lost promise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social nine: merging into the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong>is, according to Naranjo, the subtype that he<em>Teilnahme</em>called: the deep inclination to surrender to a group, a community, a collective - and find peace in it. The SO9 does not lose itself in others out of weakness. She finds herself in it. Belonging is no consolation - she is the goal.</p>
+          <p class="vb-intro">Costner's filmography reads like an SO9 manifesto. In<em>Dances with Wolves</em> (<em>Dances with Wolves</em>, 1990) he plays a soldier who doesn't win, but dissolves - into the Lakota community, its language, its rhythm, its values. In<em>Field of Dreams</em> (<em>Field of Dreams</em>, 1989) he builds a baseball field to reconcile the community of the dead with that of the living. In<em>Bull Durham</em>(1988) he is the catcher who doesn't shine - but holds. Always the man who prepares the space so that others can exist in it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Einserfl\xfcgel: The moral waters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong>gives the social nine a quality that is missing from the pure SO9er: an inner compass, a sense of rightness, a willingness to be uncomfortable when something goes wrong. The<strong>SO9w1</strong>doesn't just look for belonging &mdash; She is looking for a belonging that is right.</p>
+          <p class="vb-intro">Costner w\xe4hlte seine Rollen nie nach Marktlogik. <em>Dances with Wolves</em>was considered unsellable in Hollywood &mdash; three hours, no star ensemble, a Native American epic without a hero's rescue. He produced it himself, risked his private fortune, and won the Oscar for best film and best director. The SO9w1 prevails - not by elbows, but by persistence in what she believes is right. The Einser wing gives her the courage to be quiet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: America as longing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costner's work is a single, multi-voiced portrait of America &mdash; not the America that is, but the America that could be.<em>Der Bodyguard</em> (1992), <em>Wyatt Earp</em> (1994), <em>Open Range &ndash; Weites Land</em>(2003): again and again men with a code of honor that is greater than their interests. Also<em>Waterworld</em>(1995), the legendary fiasco, tells of a loner who saves a community - and then disappears again. Even in failure, the handwriting remains the same.</p>
+          <p class="vb-intro">With the television series<em>Yellowstone</em>(since 2018) Costner experienced one of the most unusual renaissance phases in American cinema. As John Dutton, patriarch of a ranching dynasty in conflict with modernity and capital, he embodies the SO9w1 in its fullest form: a man who doesn't own the land - but belongs to him. A man whose moral straightforwardness is both his greatest strength and his greatest source of isolation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Silence as a Limit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO9w1 is its<strong>F\xe4higkeit zur Hingabe</strong>. Costner always pursued projects he believed in &mdash; Beyond resistance, budgets and criticism. His work carries a seriousness that seems strangely anachronistic in an entertainment industry that relies on irony and self-reference - and that is precisely why it is so rare and valuable.</p>
+          <p class="vb-intro">The Shadow: The Nine gets lost in the community &mdash; and sometimes forgets to be there for yourself too. Costner's Marriages &mdash; with Cindy Silva (1978-1994) and Christine Baumgartner (2004-2023) &ndash; Both failed after many years. In interviews he appears thoughtful, occasionally melancholic, like someone who creates a home for others and doesn't have a solid anchor himself. The buffalo moves with the herd. But sometimes he ends up left alone on the prairie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The buffalo that remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costner is one of the few actor-directors whose work reflects a consistent worldview: America is not a place, but a promise. Belonging is not a given, but is earned. And the man who holds a community must be prepared to take himself back. Not loud, not brilliant &mdash; but persistently. And deeper than you might think at first glance.</p>
+          <p class="vb-intro">This is the SO9w1 at its best: it doesn't do anything for itself. She does everything for what she believes in. And sometimes &mdash; as in<em>Dances with Wolves</em>, wie in <em>Field of Dreams</em>, wie in <em>Yellowstone</em>- That's enough to create something that lasts.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function klausKinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klaus-kinski-portrait.jpg" alt="Klaus Kinski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus Kinski</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing &middot; Contratype of one</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1926&ndash;1991 &ndash; Aguirre, Nosferatu, Fitzcarraldo &ndash; Animal correspondence: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong>is the animal of the sexual one &mdash; and no animal reflects Klaus Kinski in a more frightening way. The Black Mamba is known for its speed, precision and deadly bite force. She doesn't strike out of whim, but out of an inner law: If she feels threatened, she reacts mercilessly. Indifference is alien to her. To be near them is to be fully awake.</p>
+          <p class="vb-intro">Klaus Kinski, born in 1926 in Danzig, died in 1991 in California, was one of the most intense personalities in film history. With Werner Herzog he made five films that are among the most important in German cinema:<em>Aguirre, the wrath of God</em>, <em>Nosferatu &mdash; Phantom of the Night</em>, <em>Woyzeck</em>, <em>Fitzcarraldo</em> und <em>Cobra Verde</em>. He was legendary on set. And legendary indispensable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual one: fervor and the contratype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der <strong>Contratype of one</strong>- the subtype that seems least like a one, but is the most intense. While the self-preserving and social one direct their demands for perfection inwardly or toward the collective, the sexual one combines their moral energy with passionate directness. Naranjo called this subtype<em>Zeal</em>- Fervor: a burning desire to separate the real from the fake, more unfiltered, more impatient, more uncompromising than any other A subtype.</p>
+          <p class="vb-intro">Kinski not only had the drive to achieve perfection &mdash; he experienced this as a deep inner fire. As an actor, he was notorious for his uncompromising devotion to his roles and his unyielding demands on directors and colleagues. His idea of ​​perfection was absolute and anything but negotiable. This is typical of the sexual one: she sees her own ideals as irrefutable truths to which everything else must be subordinated.</p>
+          <p class="vb-intro">His gaze was intense, often threatening and profound. There was something inevitable about him &mdash; as if he perceived everything around him with penetrating sharpness, subjecting not only others but also himself to a critical examination. People around him often described that his gaze caused a certain level of unrest and fear. Indifference was not an option.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Wing of Nine: Persistence Behind the Fire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wing of nine (w9)</strong>adds a peculiar quality to the intensity of the sexual one: endurance. The Nine is patient, persistent, she perseveres &mdash; not because she is indifferent, but because she has a deep ability to persist in something long after others have given up. In Kinski's case, this wing shows itself in his ability to return to the same partners again and again, to go to the same depths again and again.</p>
+          <p class="vb-intro">His five films with Werner Herzog were no coincidence. Herzog and Kinski hated and needed each other at the same time &mdash; a relationship that would not have survived without the nine wing. The sexual one provides the fire. The wing of nine provides the gravity that holds the fire in place.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as a Moral Judgment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and at SX1w9 he reaches an intensity that breaks through all social filters. Kinski was notorious for his temper tantrums and his inability to compromise, particularly when he felt his artistic or ethical standards were being betrayed. These outbursts arose not just from personal frustration but from a deep sense of moral injury.</p>
+          <p class="vb-intro">Although Kinski's outward appearance often seemed uncontrolled, this was part of a deeper struggle typical of the sexual one: the inner need for control and moral purity and the simultaneous difficulty in maintaining that control. The mamba, feeling threatened, bites. Kinski bit &mdash; verbal, emotional, existential.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Fascination and Destruction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Klaus Kinski's overall impact was deeply polarizing. As expected with the sexual one, his presence was both fascinating and frightening. You could either love or hate Kinski &mdash; but indifference was not an option. His energy dominated every room he entered, be it through his acting or his spirited outbursts.</p>
+          <p class="vb-intro">He had an extremely polarizing personality that provoked strong emotional reactions in others. The sexual one is either looking for a deep, passionate connection with those around them &mdash; or, if disappointed, she rejects them just as passionately. With Kinski, both were always complete, never half. His life's work &mdash; and his shadow &mdash; are testament to the powerful but often destructive nature of sexual oneness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Intensity as Art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Klaus Kinski left to the cinema is unrepeatable. His<em>Aguirre</em>is not feigned madness &mdash; it is madness made visible through the medium of film. His<em>Nosferatu</em>needs no trick, no mask &mdash; he just needs those eyes, that look, that inevitability. This is the gift of the Black Mamba: an intensity that cannot be simulated.</p>
+          <p class="vb-intro">The sexual one can inspire and destroy &mdash; sometimes at the same time. Kinski did both. His life's work is a testimony to what is possible when a person completely surrenders to their inner truth - without consideration, without filter, without compromise. This is at the same time the biggest and most dangerous thing about the SX1w9.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function lenaMeyerLandrutPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lena-meyer-landrut-portrait.jpg" alt="Lena Meyer-Landrut" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lena Meyer-Landrut</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Singer, ESC winner 2010, born 1991 &mdash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock: the most beautiful animal in the world &mdash; even if it has no idea about it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong>is the animal of the sexual three &mdash; and he does not unfold his bike on command. He does it because it is his nature. What sets him apart from time to time is that he doesn't always know himself. Lena Meyer-Landrut is this peacock in a very specific form. She won the Eurovision Song Contest in 2010 with<em>Satellite</em>won &mdash; Almost off the top of his head, as an 18-year-old with no planned pop career, he was discovered by Stefan Raab at the Bundesvision Song Contest. She stood on stage like someone who has just been very surprised &mdash; and at the same time it belongs exactly there.</p>
+          <p class="vb-intro">That is the paradox of the SX3: it attracts without seducing. She shines without being stagey. Lena's stage magnetism has nothing of the carefully composed glamor machine. She wears sneakers, jokes about herself &mdash; and the audience can't stop watching her.</p>
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>reinforces this: The SX3w2er not only shines &mdash; it also warms. This difference is immediately noticeable. You don't look at Lena because you have to. You look because you feel seen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual three: personal magnetism as a natural gift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong>is the subtype that uses attraction not as a strategy, but as a genuine expression of its essence. Naranjo called this subtype<em>Masculinity / Femininity</em>- the embodiment of attraction in its direct, personal form. Not the mass, not the status &mdash; but the person opposite, the moment, the connection.</p>
+          <p class="vb-intro">Lena has this energy in a very unusual form: she seduces not through perfection, but through authenticity. Her appearances, interviews and social media moments are characterized by self-irony, humor and a directness that other stars don't dare to try. The SX3 doesn't have to look perfect to be effective. She must<em>present</em>be. And Lena is always present.</p>
+          <p class="vb-intro">This makes it an SX3 that respells the basic pattern of this energy: instead of<em>Schau, wie ich leuchte</em>is the message<em>I'm really here &mdash; and you too.</em>This quality is rare and humanly precious.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-person wing: connection as a matter of the heart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>brings something crucial to the threesome energy: the real joy of connection. The two don't just want to be admired - she wants to be connected. For Lena Meyer-Landrut, this is reflected in the way she deals with fans: not as a brand to consumers, but as a person to people.</p>
+          <p class="vb-intro">She has spoken openly about her mental health crises &mdash; about depression, exhaustion, the moments when fame wasn't enough. This is not a marketing strategy. This is the two-person wing: The SX3w2er communicates because he feels that real connection only comes about through truthfulness - and because he hopes to help others who feel alone.</p>
+          <p class="vb-intro">The SX3w2er not only attracts - he cares. This difference explains why, after over fifteen years in the spotlight, Lena still has a fanbase that takes her personally, not as a product.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The overall effect: Eurovision, music and the courage to be imperfect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lena Meyer-Landrut's career is unusual for an ESC winner: it hasn't faded. Thirteen years after<em>Satellite</em>she has an active fan base, releases music that gets heard, and is considered an authentic voice of her generation. This is not due to brilliant management &mdash; it's because it seems real.</p>
+          <p class="vb-intro">The SX3 survives in show business not through adaptation, but through personality. Lena's musical style has changed &mdash; from ESC pop to more experimental, darker sounds. It doesn't follow the market, but rather itself. This is the mature SX3: attraction through integrity, not through submission to trends.</p>
+          <p class="vb-intro">Their light and their shadow are close together. The fate pattern of the three is the<strong>Deception</strong>- not as a bad intention, but as a structural danger: the self that begins to confuse itself with its effect. Lena's public confrontation with this question &mdash; Who am I when no one is looking? - shows an SX3 that knows its shadow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Peacock: Rays without Headlights</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets the sexual threesome peacock apart from other threesome subtypes is the intimacy of its impact. The social threesome lights up for the audience. The sexual threesome lights up for<em>dich</em>- exactly for you, in this moment. Lena Meyer-Landrut has this gift in a rare form: in a concert with millions, she can create the feeling that she is talking to you. Not with the crowd. With you.</p>
+          <p class="vb-intro">This quality comes not from technology, but from a form of attentiveness that the SX3 has by nature:<em>Who is the person in front of me? What does he need? How do I really get to him?</em>Lena's stage language is direct, sometimes awkward, always lively. The peacock doesn't have to be perfect to enchant. He has to be himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: When Attraction Transforms into Authenticity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the three leads from the question<em>Wie wirke ich?</em> zur Erkenntnis <em>I am &mdash; regardless of how I appear.</em>For the SX3 this means: you no longer have to seduce, but can be connected. Attraction becomes authenticity. Charisma becomes character.</p>
+          <p class="vb-intro">Lena Meyer-Landrut has made steps along this path public: taking breaks, setting boundaries, talking about inner exhaustion &mdash; at a time when that was still a risk in show business, not a trend. This is the SX3w2 on her healing path: she exchanges the facade for depth, the radiance for warmth, the applause for a real encounter.</p>
+          <p class="vb-intro">The peacock who stops unfolding his wheel because he thinks he has to - and discovers that he is loved that way too. This is the most beautiful moment of this transformation.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+
+      ${relatedLinks([
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"}
+      ])}
+    </div>
+  `);
+}
+
+function lindaLeinweberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-linda-leinweber-portrait.jpg" alt="Linda Leinweber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Leinweber</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Psychologin, Autorin, Coach, geb. 1988 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua who learned to look</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong>is the animal of the sexual four: small in stature, large in inner life, and endowed with an intensity that knows nothing by half. The Chihuahua loves deeply, feels more keenly than most of those around him and does not allow himself to be intimidated - but it is also sensitive, vulnerable and dependent on connection like no other animal. He protects what he has built. He doesn't forget what he felt. And once he understands it, he passes it on.</p>
+          <p class="vb-intro">Linda-Marlen Leinweber is a psychologist, author, coach and founder of the online platform Poise &ndash; and one of the most prominent German voices in the field of mental health and prevention. Her path there did not lead through theory, but through her own experience: through years in which she stood speechless in front of what her body and her psyche were telling her. This biography is no coincidence. She is the foundation.</p>
+          <p class="vb-intro">What sets Linda Leinweber apart from many other psychologists and coaches is this connection: She doesn't talk about pain. She speaks from within that knows this pain &mdash; and that learned to read it. This is SX4w5: Depth that is not ashamed. Knowledge that doesn't hide.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual four: rivalry against trivialization</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong>is in the Enneagram tradition the subtype that does not carry the pain of the four inwards, but turns it outwards - as intensity, as desire, as fire. Naranjo calls this subtype<em>Rivalit\xe4t</em>: the burning conviction that something has been given to others that was withheld from oneself - and the drive to compete against it, to want to excel, to prove yourself. With the SX4, this drive does not remain abstract. It focuses on something concrete &mdash; on a person, on a system, on an injustice.</p>
+          <p class="vb-intro">With Linda Leinweber, this energy has found a clear opponent: the trivialization of psychological distress. The idea that fear and panic can be overcome if you just pull yourself together. The idea that burnout is a matter of discipline and not the system. That prevention is a luxury and not reason. Against this attitude &mdash; which she has experienced not least in herself, in the years of panic attacks and exhaustion &mdash; she directs her work like a counterweight.</p>
+          <p class="vb-intro">Your own crisis was the turning point. Linda Leinweber was already working as a model and had studied psychology in Cologne and Berlin when she experienced first-hand what it means when the nervous system collapses: panic attacks, pressure, the feeling of sitting in a hamster wheel that she had built herself. She didn't bury this experience. She has made it the foundation of her entire career direction. This is SX4: the pain is not managed. It becomes a compass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: The analyst behind the voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong>brings something crucial to the sexual four: the analytical eye, the hunger for understanding, the ability not only to feel one's own experience, but to penetrate it. The SX4 alone could get stuck in the intensity of your own feelings - the F\xfcnferfl\xfcgel draws them into observation, into theory, into craft. He says:<em>F\xfchlen reicht nicht &ndash; man muss auch verstehen.</em></p>
+          <p class="vb-intro">Linda Leinweber's training path bears this signature: psychology studies, systemic organizational consulting, certified coaching, hypnotherapy. This is not a collection of certificates &mdash; This is a killer's wing that moves from one tool to the next because none alone is enough. Hypnotherapy stands out in particular: it starts where classic talk therapy reaches its limits - in the deep subconscious, in the body's memory, in the patterns that cannot be resolved through insight alone. Anyone who follows this path thinks deeply.</p>
+          <p class="vb-intro">Der F\xfcnferfl\xfcgel zeigt sich auch in Leinwebers Publikationsarbeit. Ihr Buch <em>Free and still connected</em>- a title that already thinks of a paradox - is dedicated to relationship dynamics, attachment patterns and conflict resolution. This is not an advice book in the classic sense: not a “10 steps to a better relationship”, but an attempt to understand why people are always stuck in the same patterns - and what it takes to find out. This is the SX4w5 in its best element: depth that others benefit from.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Poise and the vision of prevention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <strong>Poise</strong>Linda Leinweber has created a platform that anchors her approach institutionally: an interdisciplinary team of psychologists, psychotherapists and coaches that makes psychological advice and support accessible online. The name is no coincidence -<em>Poise</em>In English it means balance, posture, inner stability. Not drama. Not spectacular healing. But: the measure that supports. Anyone who digs a little deeper discovers: The English<em>poise</em>and the English one<em>poison</em>share the same root &mdash; the Old French<em>poison</em>originally meant potion, concoction, poison. The name contains both: balance and antidote. And if you know\xdf that the unconscious SX4 can carry something toxic in its quality of vision - an intensity that burns, a rivalry that gnaws, a passion that tips over - then the platform name gets a second reading:<em>Poise</em>as a consciously chosen counter-image to one's own shadow. The balance as the answer to what can get out of balance.</p>
+          <p class="vb-intro">The preventative approach is central: Leinweber wants to reach people before the crisis occurs. Before the burnout occurs, before the panic disorder becomes established, before the relationship breaks down. This is a deeply systemic idea &mdash; and he explains why she is also active in management consulting: B2B workshops, mental health concepts for managers, structural prevention instead of individual fire departments. The Chihuahua who doesn't wait for the house to burn.</p>
+          <p class="vb-intro">\xdcber ihren Instagram-Kanal (<em>@psychologin_lindaleinweber</em>) and their podcast<em>Das Wunder Frau</em>it reaches a wide audience beyond the clinic. This commitment to destigmatization &mdash; the message that mental health is not a luxury issue, but a fundamental question of life &mdash; is their most consistent political stance. Not in parliament, but where attitudes are formed: in people's everyday lives.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Fire that Understands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the four is the<strong>Neid</strong>- the deep, often unconscious feeling that others have been given a completeness that oneself lacks. With the SX4, this envy has a more personal face: not the squint at other people's possessions, but the sting when someone else is freely allowed to be what you find so difficult to be yourself. Light, free, unencumbered. The SX4 knows the feeling of being heavier than the others - and she found ways to work with it.</p>
+          <p class="vb-intro">The light of the SX4w5 lies in its ability to make one's own darkness productive - not as a performance, but as a real service. Linda Leinweber doesn't help because she's supposed to. She helps because she knows what it's like when you haven't been helped. This difference is noticeable. People who help from their own experience pass something on differently than those who have only learned how cognitively.</p>
+          <p class="vb-intro">The Shadow: The F\xfcnferwing\xfcgel tends to withdraw, to rework thoughts, to hold back until everything has really been thought through. The SX4, on the other hand, pushes for connection, for resonance, for direct contact. This inner tension &mdash; between analysis and expression, between depth and contact - is the most productive thing the SX4w5 combination produces. And sometimes the most strenuous.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chihuahua who shows others the way</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the four leads from the question<em>Why am I not like the others?</em> zur Erkenntnis <em>What I am is unique &mdash; and it is mine.</em>For the SX4w5 this means not tempering your own intensity, but rather adjusting it - not against yourself, not against the world, but towards what is possible.</p>
+          <p class="vb-intro">Linda Leinweber took this path in her biography. From our own experience of panic attacks to in-depth training, from training to the platform, from the platform to the public voice for mental health. This is not a self-optimization project. This is a four who has learned not to hide her inner self, but to wear it &mdash; and who has transformed this carrying into a craft that benefits others.</p>
+          <p class="vb-intro">The Chihuahua from Altm\xfcnster am Traunsee is not afraid of big feelings. He has learned to read them. This is the sexual four with F\xfcnferfl\xfcgel. This is Linda Leinweber.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function mariahCareyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariah Carey</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with aft wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter, producer, born 1969 in Huntington, New York</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong>is the strongest animal in the rainforest &mdash; and the warmest. He lives in close family circles, maintains his relationships, and protects his loved ones with a strength that he rarely has to show. He doesn't have to look for a fight; his presence alone is enough. And he loves the food &mdash; not as weakness, but as an expression of life, joy, abundance. The gorilla is generous with what he has. And he never forgets who harmed her.</p>
+          <p class="vb-intro">Mariah Carey is the best-selling singer of all time &mdash; or at least one of the contenders for that title, depending on how you count. She has eighteen number one singles on the American Billboard Hot 100 &mdash; more than any other solo artist in the history of this chart. Her voice spans five octaves, including the whistle register that first made her popular. And she wrote a single Christmas song &mdash;<em>All I Want for Christmas Is You</em>(1994) - which to this day brings her several million dollars annually. Mariah Carey is the gorilla: warm, powerful, voluptuous &mdash; and fully willing to look those in the eyes who stand in her way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The family: abundance as home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong>- because this subtype does not seek security in the big world, but in the closest circle. He builds nests: out of familiarity, warmth, enjoyment. And he collects &mdash; Experiences, people, pleasure, security. Abundance is not excess for the SE7; it is proof that life is good and will remain good.</p>
+          <p class="vb-intro">Carey grew up in precarious circumstances &mdash; Her parents separated when she was three years old and she moved from place to place with her mother. The mother, Patricia Hickey, was an Irish-American opera singer and vocal coach; her father, Alfred Roy Carey, was of Venezuelan-African American origin and an aeronautical engineer. Mariah grew up between two worlds &mdash; too black for her mother's white environment, too light for her father's black environment &mdash; and learned early on to make oneself a home. At the age of eighteen she moved to New York City, waited tables, did hairdressing and worked tirelessly towards her breakthrough.</p>
+          <p class="vb-intro">When she finally built her nest, she built it big: penthouses, private jets, butterflies for decoration, champagne on the return flight. Your fans &mdash; the<em>Lambs</em>- are not just an audience, but a family. She communicates directly with them and keeps them in her inner circle. This is the SE7: The nest is never big enough, and whoever belongs to it really belongs to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The aft wing: power as a protective shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Aft wing</strong>gives the self-sustaining seven a quality that the pure SE7 does not always show: the will to power, the willingness to confront and a strong sense of control &mdash; and for their loss. Where the SE7 seeks joy and avoids unpleasantness, the aft wing adds:<em>Und wenn jemand meine Freude bedroht, werde ich es ihn wissen lassen.</em></p>
+          <p class="vb-intro">The defining experience of Carey's life was her marriage to music executive Tommy Mottola (1993-1998), then head of Sony Music. Mottola had discovered it, built it &mdash; and then controlled: her house was guarded, her phone calls were monitored, her environment was subject to approval. Carey later described it as a kind of gilded cage. When she freed herself, she wrote<em>Fantasy</em>, <em>Emotions</em>and finally the album<em>Butterfly</em>(1997) &mdash; an R&amp;B turn that Mottola would never have approved of. The aft wing taught them: Losing control is more dangerous than making a big appearance. And: Anyone who has lost control once will not voluntarily give it up again.</p>
+          <p class="vb-intro">The diva legends that have emerged since then &mdash; the butterflies in the room, the special drinking water, the famous phrase<em>&ldquo;I don&rsquo;t know her,&rdquo;</em>when asked about Jennifer Lopez &mdash; are not a coincidence. They are a protective barrier. Anyone who doesn't respect me doesn't exist for me. This is the aft wing of the gorilla: clear conditions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Five octaves for eternity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariah Carey's debut album<em>Mariah Carey</em>(1990) produced five consecutive number one singles in the US &ndash; a record previously held only by Whitney Houston. This was followed by<em>Emotions</em> (1991), <em>Music Box</em> (1993), <em>Merry Christmas</em>(1994) &mdash; the best-selling Christmas album of all time to date -,<em>Daydream</em> (1995), <em>Butterfly</em>(1997). During this decade she was simply the biggest pop voice in the world.</p>
+          <p class="vb-intro">In 2001 she collapsed publicly. The album<em>Glitter</em>and the film of the same name flopped disastrously; Carey suffered a public nervous breakdown, which resulted in live performances and a tearful, incoherent-seeming visit to<em>Total Request Live</em>was documented. She disappeared from public view and was treated as an inpatient. It was the lowest point of her career &mdash; and at the same time the beginning of the most important thing she ever did.</p>
+          <p class="vb-intro"><em>The Emancipation of Mimi</em>(2005) was one of the biggest comebacks in pop history. The album sold fifteen times platinum in the United States; the single<em>We Belong Together</em>was the most played song of the decade in America. Carey didn't return &mdash; she rose higher than ever before. This is the SE7w8: You can't beat the gorilla. You just make him stronger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Diva and the Child</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE7w8 is its<strong>Kraft zur Freude</strong>. Mariah Carey laughs loudly, loves opulently, gives generously. Her memoirs<em>The Meaning of Mariah Carey</em>(2020) are not a self-pity project, but an honest, often humorous look at a life full of breaks and ascents. She doesn't sugarcoat anything and doesn't apologize for anything. The Gorilla Principle: I was here. I survived. Here is my story.</p>
+          <p class="vb-intro">The Shadow: The SE7 avoids what hurts. Carey has publicly pretended for years that she doesn't have bad days &mdash; as if the diva persona was not a mask, but reality itself. The eight wing reinforces this: showing weakness is dangerous. The result is images that are sometimes more self-protective than self-expression. The famous rider clauses, the extravagances, the distance from everything that cannot be controlled &mdash; it's not just diva. This is a person who once fell too deeply into a world without control - and who never wants to allow that to happen again.</p>
+          <p class="vb-intro">Your children &mdash; the twins Moroccan and Monroe, born in 2011 with Nick Cannon &mdash; are the only thing for which the diva pose falls. In interviews about her, Carey appears unfiltered, warm, fully present. This is the gorilla without a protective wall: the mother in the nest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gorilla Who Owns Christmas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariah Carey owns Christmas. This is not a metaphor.<em>All I Want for Christmas Is You</em>(1994) now has over a billion streams on Spotify alone, and the song returns to the charts every year like it has a right to. He has that. Carey says he wrote it in fifteen minutes one afternoon at the piano.</p>
+          <p class="vb-intro">Five octaves, thirty-five years in the spotlight, eighteen number one singles, a public breakdown, a comeback that changed history, and a Christmas song that is immortal: This is the Gorilla. He is building his nest. He protects his people. He sings &mdash; and when he sings, the world listens.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+          {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+          {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function marieAgnesStrackZimmermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-agnes-strack-zimmermann-portrait.jpg" alt="Marie-Agnes Strack-Zimmermann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie-Agnes Strack-Zimmermann</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Politikerin (FDP), geb. 1958 &ndash; Bundeswehr, Ukraine, Europa &ndash; Animal correspondence: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong>is the animal of the sexual one &mdash; lightning fast, precise and completely uncompromising. It does not attack out of aggression, but out of an inner law: what is wrong is named. Anything that is inauthentic will be rejected. What is true is defended &mdash; with everything that is available.</p>
+          <p class="vb-intro">Marie-Agnes Strack-Zimmermann, born in Düsseldorf in 1958, is one of the most direct politicians the German Bundestag has seen in recent decades. As chairwoman of the Defense Committee, she became the strongest public warning for adequate equipment for the Bundeswehr and for clear support for Ukraine - at a time when many of my fellow politicians still focused on balance. The Mamba doesn't wait until everyone agrees.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual one: fervor as a drive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong>her claim to perfection does not focus on her own environment or society as a whole, but rather on intensity: on complete presence, complete honesty, complete consistency in what she recognizes as right. Naranjo called this subtype<em>Zeal</em>- Fervor: a burning desire to separate the real from the false.</p>
+          <p class="vb-intro">Strack-Zimmermann has lived out this pattern in the political arena like hardly anyone else. Her appearances in the Bundestag and on talk shows are known for her direct, uncompromising tone - She doesn't beat around the bush, she names things. She is not afraid of unpopularity. If she's convinced something is wrong, she'll say it &mdash; loud, clear, repeatable. The SX1 doesn't tolerate half-answers to real questions.</p>
+          <p class="vb-intro">From the start, their commitment to supporting Ukraine was not tactical, but moral: a country is under attack, a democracy is in danger, and anyone who sees this must act. This is not foreign policy. This is the inner law of sexual oneness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Wing of Nine: Persistence as a Second Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wing of nine (w9)</strong>gives the sexual one a quality that is surprising at first glance: endurance. The nine is patient. She perseveres. Not because she is indifferent, but because she knows that some things take time &mdash; and that continuity often has more effect than drama.</p>
+          <p class="vb-intro">This wing explains why Strack-Zimmermann, despite all her willingness to confront, did not destabilize her party and coalitions. She fights &mdash; but she manages the fight strategically. The nine wing brings a certain grounding to the intensity of the sexual one: not softer, but more consistent. The Mamba, who is not only lightning fast, but also waits patiently until the moment is right.</p>
+          <p class="vb-intro">This combination &mdash; SX1 fire with w9 persistence &ndash; makes her a political fighter who doesn't exhaust herself. It burns, but it burns evenly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as a political instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and with the SX1w9 it is sharp and controlled at the same time. Strack-Zimmermann is not afraid to raise his voice and raise his finger in public debates. If she has the impression in the Bundestag that untruths are being told or responsibility is being denied, then the mamba comes.</p>
+          <p class="vb-intro">This anger is not personal. It is principles based. It is directed against the wrong, not against the person &mdash; even if the two are not always easy to distinguish from the outside. The wing of nine ensures that anger does not escalate uncontrollably, but rather is placed in the right places. Precision instead of explosion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Europe as a larger framework</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024, Strack-Zimmermann moved to the European Parliament and took over the chairmanship of the Defense Committee &mdash; this time at European level. This is not a career move, this is a consequence: the sexual one who has recognized that the challenge is bigger than a national arena.</p>
+          <p class="vb-intro">The wing of nine shows its constructive side here: the ability to think beyond borders, to maintain alliances, to maintain continuity. The Mamba on the European stage &mdash; the speed is the same, the radius of action is larger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Clarity as Protection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Marie-Agnes Strack-Zimmermann gives the political debate has become rare: clarity. Not simplification &mdash; Clarity. The willingness to say what is, even if it is uncomfortable. The SX1w9 doesn't tolerate blurring when it comes to the essentials.</p>
+          <p class="vb-intro">This is the gift of the Black Mamba with Nine-wing: She brings fire<em>und</em>Resistance. She fights &mdash; and she perseveres. At a time when political positions are changing rapidly, this is no small offer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function marieKondoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-kondo-portrait.jpg" alt="Marie Kondo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Kondo</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Ordnungsberaterin, Autorin &amp; Unternehmerin &ndash; geb. 1984 &ndash; Animal correspondence: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong>is the beast of the self-sustaining one &mdash; and Marie Kondo embodies it with a purity that is rare. The eagle has a keen eye for what is important. He sees what is right and what is wrong with a precision that requires no argument. He circles, he observes, he differentiates. And when he lands, he lands exactly.</p>
+          <p class="vb-intro">Marie Kondo was born in Tokyo in 1984 and began reading interior design magazines at the age of five. When she was nine, she organized her class's bookshelves. At the age of fifteen she developed the first basic principles of her later method. This isn't a career that was planned &mdash; this is an eagle that follows its inner compass before it has encountered any external pressure of expectation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preserving one: order as an inner need</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong>is the subtype that does not carry its claim to perfection externally, but internally - and above all: home. Naranjo calls this subtype<em>Worry</em>: a constant, quiet restlessness about whether one's own environment is really right, whether one's own life corresponds to one's inner standards. This unrest is not a defect. It is the engine of a lifelong refinement.</p>
+          <p class="vb-intro">Marie Kondo's KonMari method is not an organizational aid like you see in life hacking books. It is an internal system. The crucial question is not: &ldquo;Do I need this?&rdquo; or &ldquo;Is this practical?&rdquo; - but:<em>&ldquo;Does it spark joy?&rdquo;</em>That is the benchmark of an SE1: not usefulness, not reason, but inner resonance. Whatever meets your own standards can stay. If it's not right, it's okay.</p>
+          <p class="vb-intro">The categories, the order, the folding technique: everything is precise, everything has a reason, everything has been tried and tested. No improvisation. Not a &ldquo;something like that&rdquo;. The SE1 lives in a universe where things are either in their proper place &mdash; or not.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Helping as a Vocation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>gives the self-preserving One something that it doesn't easily find from within alone: ​​warmth, contact, the need to touch others. The two wing wants to give. He wants others to flourish &mdash; not because he expects anything in return, but because he genuinely cares about the well-being of others.</p>
+          <p class="vb-intro">Without this wing, Marie Kondo might have remained an exceptionally orderly private person. The two-fold wing is the reason why the internal standard became a method, the method became a book, and the book became a global phenomenon. Not only did she clean up her own home &mdash; she decided to help others do the same. Not because it was her job, but because she understood that tidying up on the outside makes tidying up on the inside possible.</p>
+          <p class="vb-intro">In ihrer Netflix-Serie <em>Tidying Up with Marie Kondo</em>you can see this wing in its purest form: she enters strange houses with complete attention, with genuine curiosity about the people behind things. She doesn't judge. She accompanies. This is the two in the one: precision in the service of connection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as inner severity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and in the SE1w2 it is turned so completely inwards that it is hardly visible from the outside. Marie Kondo always appears calm, always friendly, always measured in public. But behind that silence lies an inner judge that is relentless: a quiet, constant knowing of what is right and what is wrong.</p>
+          <p class="vb-intro">This anger does not manifest itself as criticism of others. It shows itself as an absolute consequence in your own system. The KonMari method has no exceptions. There is no "but this is an inheritance" rule. There is no “maybe later” category. Either an object triggers joy &mdash; or he leaves the house. This lack of compromise is the anger of the One: not loud, but complete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Gratitude as a bridge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">One of the most well-known elements of the KonMari method is the<strong>Gratitude towards objects</strong>: You say thank you for a piece of clothing before you give it away. The house is greeted upon arrival. This practice often seems strange to Western observers &mdash; but she is the key to Marie Kondo's inner logic.</p>
+          <p class="vb-intro">Here the SE1's claim to perfection meets the relationship quality of the two-part wing. The SE1 knows: Everything has its value, its place, its purpose. The two wing adds: And this value deserves recognition. Things that have gone have served. Letting go becomes an act of respect &mdash; and thus into something healing, not loss-making. This combination of order and dignity is at the heart of Marie Kondo's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Joy as a Compass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Marie Kondo gave the world goes far beyond tidying tips. She taught a whole generation of people that order is not an end in itself &mdash; but a form of self-respect. And that the crucial question in life is not:<em>Was soll ich behalten?</em> &ndash; sondern: <em>What triggers joy?</em></p>
+          <p class="vb-intro">This is the gift of SE1w2: an inner system so clear that others can learn it &mdash; and a warmth great enough that she wants to pass it on. The eagle has a scale. The two-piece wing turns it into an invitation. Marie Kondo has both.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function megRyanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-meg-ryan-portrait.jpg" alt="Meg Ryan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Meg Ryan</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Regisseurin, geb. 1961 &ndash; Animal correspondence: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: Radiance that comes from within</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong>is the animal of the sexual three &mdash; and he enchants not through power or distance, but through a charisma that cannot be learned. Meg Ryan embodied this animal so convincingly in the 1990s that she became the epitome of American film charm: warm, lively, laughing &ndash; a presence that millions of moviegoers felt like they had always known.</p>
+          <p class="vb-intro">This is the core gift of the SX3: not glamor in the sense of distance, but magnetism through proximity. Meg Ryan was never aloof. She was the girl next door &mdash; and yet irresistible. The peacock who unfolds his wheel without knowing it.</p>
+          <p class="vb-intro">Der <strong>Four wing (w4)</strong>gives this radiance a second dimension: behind the uncomplicated cheerfulness of the film persona lived a woman who wanted more - more depth, more seriousness, more than the box Hollywood had put her in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Intimacy as a Life Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong>directs the energy of the three not toward public success, but toward personal connection. The SX3 asks:<em>Am I touching you? Am I real to you?</em>Your charisma is not an illusion - it is a real desire for contact, for the moment when two people really meet.</p>
+          <p class="vb-intro">Meg Ryan's career is a testament to this energy.<em>When Harry Met Sally</em> (1989), <em>Sleepless in Seattle</em> (1993), <em>You've Got Mail</em>(1998) &mdash; these films don't work because the scripts are so clever. They work because Meg Ryan makes real hunger for connection playable. The famous scene in the cafe &mdash; the feigned ecstasy as a commentary on self-deception &mdash; is actually a commentary on the topic of her life:<em>What is real? What is imagination?</em></p>
+          <p class="vb-intro">Naranjo called the SX3<em>Masculinity &frasl; Femininity</em>- the embodiment of attraction in its most personal form. Meg Ryan translated this into a film language that shaped an entire generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Quad Wing: The Depth Behind the Laughter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Four wing (w4)</strong>brings something into the SX3 energy that the pure three often represses: the need for depth, for authenticity, for an expression that goes beyond the surface. The SX3w4 doesn't just want to enchant - she wants<em>bedeutsam</em> sein.</p>
+          <p class="vb-intro">In the case of Meg Ryan, this is evident in the breakup of her career in the 2000s. The withdrawal from the romances, the choice of<em>Proof of Life</em>(2000) &ndash; a darker, more complex film that she consciously chose to go against her type. The four-piece insists on authenticity, even if the price is high.</p>
+          <p class="vb-intro">And then the publicly discussed changes in its appearance: They show the paradox of the SX3w4 &mdash; the three-need for image control fighting against the four-realization that the image is not the person. Two forces harnessed into the same shell.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The overall effect: Hollywood's darling &mdash; and the price of the roll</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the 1990s, Meg Ryan was the face of a film genre that is now glorified nostalgically: the romantic comedy in its most warm-hearted form. Three films with director Nora Ephron created a universe that is still considered a benchmark today.</p>
+          <p class="vb-intro">What gets overlooked is that Meg Ryan wasn't what Hollywood made her out to be. She was the actress who gave realness to this role. The difference is crucial. The SX3w4 can play a role &mdash; but she cannot fully identify with it. Beneath the expectation is always the question:<em>Wer bin ich wirklich?</em></p>
+          <p class="vb-intro">In this light, the change in her career after the turn of the millennium is less a fall than a search - the attempt to find your own language behind the drawer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow: When the picture becomes a prison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the three is the<strong>Deception</strong>- not as a bad intention, but as a structural danger: the ego that begins to consider its image as its essence. With the SX3w4, this danger is particularly subtle because the four wing works against it at the same time. The four keeps asking:<em>Is that real? Are you really you?</em></p>
+          <p class="vb-intro">Meg Ryan's public transition &mdash; the fading radiance of the 1990s, the retreat, the changed appearance &mdash; can be read as failure. But you can also read it as what it perhaps was: a refusal to continue playing the idea. The peacock who stops unfolding his wheel because it is no longer his.</p>
+          <p class="vb-intro">That she switched to directing in the 2010s and in 2023 with<em>What Happens Later</em> einen eigenen Film ins Kino brachte, gibt dieser Lesart Gewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: From the favorite role to yourself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the three leads from the question<em>Wie werde ich gesehen?</em> zur Erkenntnis <em>I am &mdash; regardless of the image that others have of me.</em>This path is particularly rich for the SX3w4: The four-wing has known for a long time where it leads - into the depth, into the authenticity, into the space behind the role.</p>
+          <p class="vb-intro">Meg Ryan's path to healing seems to have been right there: away from the "America's Sweetheart" image that had both built and limited her career and toward something of her own. Directing is a typical sign of this transformation: instead of shining in front of the camera, telling someone else's story - on your own account, in your own language.</p>
+          <p class="vb-intro">The peacock who no longer unfolds his most beautiful moment for the audience, but for himself - and who discovers that he is still a peacock.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+
+      ${relatedLinks([
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"}
+      ])}
+    </div>
+  `);
+}
+
+function melanieKreisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-melanie-kreis-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Melanie Kreis</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Chief Financial Officer (CFO) of the DHL Group, born 1971 in Bonn &mdash; Animal correspondence: Meerkats</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong>lives in groups that cannot survive without cohesion. It is alert, cooperative and knows its role in the collective. One person is always on guard while the others eat, dig and play. The meerkat itself doesn't need the spotlight - it takes the group. And the group needs it. This is the social six: Security comes from belonging, from reliable service, from knowing that you are fulfilling your place.</p>
+          <p class="vb-intro">Melanie Kreis is CFO of DHL Group &mdash; one of the largest logistics groups in the world. She is responsible for the finances of a DAX company with sales in the billions and employees in over 220 countries. And yet: When journalists describe them, the word ego is rarely mentioned. She is described as reliable, precise, analytical &mdash; and as someone who works for the company, not for his own appearance. This is the meerkat: It is on guard. Not for yourself. For the group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The duty: safety through responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; weil Sicherheit f\xfcr diesen Subtyp daraus entsteht, einen Beitrag zu leisten, dem Kollektiv zu dienen, gebraucht zu werden. Die <strong>soziale Sechs (SO6)</strong>doesn't follow structures blindly &mdash; she sees it as a framework that creates reliability. Rules, systems, responsibilities: things you can relate to. The SO6 is not looking for the B\xfchne. She is looking for the task.</p>
+          <p class="vb-intro">Kreis didn't plan her career as a leap to the top, but rather as a series of responsibilities that she took on. In 1997 she started at McKinsey &amp; Company &mdash; a place that requires analytical care and structured thinking. In 2004 she moved to Deutsche Post AG, where she worked in corporate development and was significantly involved in the integration of the acquired Exel Group. In 2014 she took on human resources responsibility on the board, and in 2016 she became chief financial officer. None of this was a PR move. Every step was an expansion of responsibility.</p>
+          <p class="vb-intro">She rarely says out loud that she is one of the few women at the top of a DAX 40 company. It's just like that &mdash; a byproduct of work, not its goal. That's the SO6: If you really fill your space, you don't have to talk about it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: Analysis as a foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong>brings something crucial to the social six: analytical depth, precision and trust in knowledge as the basis of every decision. Where the pure SO6 seeks security through belonging, the F\xfcnferfl\xfcgel adds another layer - the belief that you can only be reliable for others if you really understand things. The SO6w5 checks before trusting. And she trusts when the analysis is correct.</p>
+          <p class="vb-intro">Kreis studied physics &mdash; first at the Westf\xe4lische Wilhelms-University\xe4t M\xfcnster, then with a Master of Science at the State University of New York at Stony Brook. Physics is the subject of precision: no assumption without proof, no model without verification. She then broadened her horizons with an MBA at INSEAD in France. Two worlds: the exact thinking of the natural sciences and the strategic thinking of the economy. This combination is no coincidence - She is the SO6w5 in training: First understand. Then act. Then be reliable.</p>
+          <p class="vb-intro">In annual reports, analyst conferences and investor discussions, Kreis is known for using language that remains clear and sober. No exaggerations, no empty promises. This is the F\xfcnferfl\xfcgel as a communication principle: Say what you know. And say it precisely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From physics to the DAX group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As CFO of the DHL Group, Kreis is responsible for the global financial management of a company with over 590,000 employees and sales of around 84 billion euros. She controls controlling, accounting, investor relations and risk management &mdash; Functions that in a global company mean not just numbers, but strategic orientation. She is the person who has to provide the board and investors with a clear analysis at all times: Where are we? How much does it cost? Where are the risks?</p>
+          <p class="vb-intro">Sie wurde mehrfach als <em>CFO des Jahres</em>awarded and is regularly one of the most influential managers in Germany &mdash; from business magazines like that<em>Manager Magazin</em> und dem <em>Handelsblatt</em>up to international lists. But what stands out in interviews is not the ambition, but the attitude: Kreis talks about the company, about structures, about processes &ndash; and rarely about itself. That's the meerkat: it's always part of the group. Even if it is the face of the group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The guardian on the board</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO6w5 is theirs<strong>Integrit\xe4t</strong>. Kreis has responded in an environment that continues to make it structurally difficult for women in management positions - not through loud self-promotion, but through persistent competence. She is a role model without striving to be one. Present without attracting attention. Effective without rumbling. This is the SO6: stability as a message, reliability as a management principle.</p>
+          <p class="vb-intro">The shadow of SO6w5 lies in the danger of becoming too tied to existing structures - and to experience change as a threat instead of as a creative space. A global logistics group is moving in a world of rapid transformation: digitalization, automation, geopolitical uncertainties, the change of entire supply chains. In such moments, SO6 can rely too much on the tried and tested. And the F\xfcnferfl\xfcgel can tend to get lost in analysis instead of deciding. The tension between thoroughness and speed is the inner terrain of the SO6w5 in the leadership role.</p>
+          <p class="vb-intro">Anyone who observes Melanie Kreis in public will not see such moments of hesitation. What you see is a woman who knows what she's doing. And she knows why.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The meerkat that keeps watch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Melanie Kreis is not a name that appears on talk shows. She rarely gives interviews that go beyond the technical. She doesn't write bestsellers about leadership and resilience. She keeps watch - for one of the largest logistics groups in the world, which moves millions of packages and letters every day and relies on precise financial control like it does on air.</p>
+          <p class="vb-intro">This is the SO6w5: not a person of grand gestures, but one of great reliability. One who understands the system &mdash; and therefore can create within it. One that analyzes before making decisions. One who bears responsibility without speaking about it. The meerkat stands guard. Quiet. Precise. Absolutely.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-sigmund-freud", label:"Portr\xe4t: Sigmund Freud (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelSchumacherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Schumacher</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven Wings</p>
+        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in H\xfcrth &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong>is not a creature of comfort. He is alert, territorial, focused on his group &mdash; and when he hunts, he hunts with everything he has. The wolf does not cower from the threat. He turns around and runs towards her. This is the sexual six in its deepest expression: fear not as paralysis, but as fuel.</p>
+          <p class="vb-intro">Michael Schumacher is this wolf. Seven times Formula 1 world champion, 91 victories, five consecutive titles with Ferrari &ndash; Numbers that were unparalleled in the history of motorsport when he first stepped down in 2006. And yet it would be wrong to understand Schumacher through his statistics. What set him apart wasn't his ability to shoot from a distance. It was an intensity that treated every inch of the track as personal territory. The wolf marks his territory. And he defends it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Strength: Fear as a drive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong>of the six &mdash; the subtype in which the passion of fear is most hidden because it is turned into its opposite. The SX6 meets its fear not by retreating, but by attacking. Naranjo called this subtype<em>St\xe4rke</em>: Security does not come from avoiding the dangerous, but from dominating the dangerous.<em>If I'm faster than the threat, I'm safe.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
+          <p class="vb-intro">Schumacher was known for physical and mental preparation that was unparalleled in Formula 1 at the time. He trained like a competitive athlete &mdash; Endurance, reflexes, neck muscles. He knew every corner of every track in a level of detail that amazed his engineers. He questioned, analyzed, refined &mdash; and when he got into the car, the fear of failure had long since turned into preparation. This is the SX6:<em>I'll overtake the threat before it overtakes me.</em></p>
+          <p class="vb-intro">His pack was the Ferrari team. The years 2000 to 2004, in which he won five titles in a row, were not a solo project - they were the result of a collective that had built itself around him: Jean Todt, Ross Brawn, Rory Byrne. Schumacher was loyal to the core, and the team immediately gave him that same loyalty back. The wolf and his pack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: The joy of speed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong>brings something to the sexual six that the pure SX6 alone would not develop: enthusiasm, playfulness and the ability to turn what others experience as a threat into pleasure. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a person who not only wins<em>will</em>, sondern dem Gewinnen <em>gef\xe4llt</em>.</p>
+          <p class="vb-intro">Schumacher loved driving. That sounds obvious - but it is not. Many racing drivers love winning. Schumacher loved the curves, the grip, the limits of what was possible. His famous<em>Qualifikationsgef\xfchl</em>- the ability to get the most out of yourself and the car in a single lap attempt - wasn't just technology. It was passion. The seven wing gives the SX6 the joy that fear doesn't give: If I drive so fast that no one can catch up with me, I no longer feel any risk. I feel freedom.</p>
+          <p class="vb-intro">The seven wing also explains its urge to return. In 2010, at the age of forty-one, he got back into a Formula 1 car at Mercedes. Not out of greed, not out of vanity &mdash; but because driving itself called to him. The wing of seven keeps the door open to joy, even if the mind has long since said no.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Seven titles, five with Ferrari</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Schumacher made his debut at the 1991 Belgian Grand Prix in Spa for the Jordan team &mdash; and was taken over by Benetton before the next race. He won his first world title in 1994 and his second in 1995. In 1996 he moved to Ferrari &mdash; At that time, a team in crisis that had not won a drivers' title since 1979. He helped build the team and waited four years for the breakthrough - and then won five times in a row: 2000, 2001, 2002, 2003, 2004. Nobody had won five consecutive world titles before.</p>
+          <p class="vb-intro">Ninety-one wins, 155 podiums, 68 pole positions &mdash; Numbers that were only surpassed years later by Lewis Hamilton (SO2w3). During his playing days, Schumacher set the standard by which all others were measured. This is the work of the SX6w7: not the average of comfort, but the absolute of extremes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Limits and Controversies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 is its<strong>Unbedingtheit</strong>. Schumacher led Ferrari from years of failure into an era of dominance. He has permanently raised the bar for preparation, analysis and team spirit in Formula 1. And he exemplified a passion for motorsport that has shaped generations of fans and drivers.</p>
+          <p class="vb-intro">The shadow of the SX6 is the transgression. In 1994 in Adelaide, Schumacher collided with Damon Hill in a maneuver that is still controversial today: intentional collision or racing accident? In 1997 in Jerez he deliberately drove his car into Jacques Villeneuve &mdash; and was therefore removed from the world championship rankings. This is the wolf when the contrarian type tips over: when winning becomes more important than the playing field that makes winning possible. The SX6 doesn't take half measures. Not even in the shade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The wolf who is silent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On December 29, 2013, Michael Schumacher had an accident while skiing in M\xe9ribel, France. He drove outside the marked trail and fell over rocks. The severe craniocerebral trauma he suffered changed his life irrevocably. He was in an artificial coma for weeks and underwent multiple operations. He was released from the hospital in June 2014 &mdash; into the care of his family and into a privacy that has been hermetically guarded ever since.</p>
+          <p class="vb-intro">His wife Corinna has decided that the world will not know about his condition. Not as a gesture of isolation - but as protection.<em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>He is here, he is different, but he is there.</em>This sentence is all the \xd6public knows\xdf. The pack sticks together. It shows its teeth at anyone who wants to come closer than is allowed. And the wolf that set the pace for decades is now quiet &mdash; surrounded by those who belong to him.</p>
+          <p class="vb-intro">Michael Schumacher showed the world what a person can achieve when they transform fear into strength and speed into art. He has long since paid what he owes her. The rest is his.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function monikaGruberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-monika-gruber-portrait.jpg" alt="Monika Gruber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Monika Gruber</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Cabaret artist, actress, born 1970 &mdash; Bavaria's hottest seductress to the truth &mdash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel that looks at a thousand people at the same time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong>is the animal of the sexual two &mdash; and no animal describes Monika Gruber more accurately. The camel is tough, persistent, stubborn. It does not tolerate bad treatment &mdash; but if you treat him with respect, you will find one of the most loyal companions in the animal world. The camel stores: energy, water, patience &mdash; and when it finally drinks, it drinks up to 150 liters at a time. This excess energy is the principle of the sexual two: what she feels, she feels completely. What she gives, she gives completely.</p>
+          <p class="vb-intro">Monika Gruber, born in 1970 in Wasserburg am Inn, is Bavaria's best-known cabaret artist &mdash; and one of the most successful stage artists in the German-speaking world. Their programs fill halls with thousands of people. And yet - or exactly because of that &mdash; When you watch, you get the feeling: She's talking to me. Only with me. That is the secret of the sexual two on stage: it creates intimacy on a large scale. It turns an audience into a single personal encounter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Seduction as a form of truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual two<strong>seduction</strong>- and that sounds like manipulation, but it is the opposite: it is the ability to address the other person in such a way that they feel really seen and really meant. The sexual two does not seduce in order to take. She seduces to establish connection. The SX2's deepest longing is not power - she is contact. Real, immediate, unfiltered contact.</p>
+          <p class="vb-intro">Monika Gruber's stage language is a master class of exactly this quality. She speaks Bavarian &mdash; not as a folkloristic accessory, but as a language of intimacy, of directness, of belonging. She talks about everyday life, about the family, about the supermarket, about politics &mdash; and the audience recognizes itself. The SX2 knows instinctively: If I make you laugh, you're with me. When you are with me, you can hear what I actually want to say to you.</p>
+          <p class="vb-intro">What she wants to say is often uncomfortable. Monika Gruber is not a harmless entertainer. In recent years she has positioned herself as one of the harshest critics of political correctness, identity politics and the social mainstream. Woke culture, gender language, Corona measures &mdash; she names what she thinks is wrong without hesitation. Seduction is the channel. The truth is the goal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The one wing: posture as second nature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>One wing (w1)</strong>gives the SX2's passionate seductive power a solid moral axis. The One lives by principles that are non-negotiable: honesty, justice, backbone. With Monika Gruber, this is combined with the Bavarian ethos of a woman who knows where she comes from &mdash; and who considers it a duty to say so.</p>
+          <p class="vb-intro">The one wing is the reason why Monika Gruber doesn't just joke. She has an attitude. She has opinions that she represents, even if she faces backlash for them. It's not comfortable. The camel that does not tolerate bad treatment steps back &mdash; and Monika Gruber verbally resigns when she feels that something is going wrong. Laughter is not a softener - it is a door opener. Humor as a Trojan horse of truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Overall effect: Bavarian warmth with sharp teeth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who sees Monika Gruber live encounters a contradiction that immediately disappears: she is both incredibly warm and incredibly hot at the same time. She has the closeness of the camel &mdash; loyal, reliable, affectionate &mdash; and the teeth of the camel, the stubborn, the willful, the non-subordinate. No contradiction. Both belong to the SX2w1: The warmth is real. The spiciness is real. Both come from the same source: the desire for things to be okay.</p>
+          <p class="vb-intro">Her audience loves her not in spite of her directness, but because of her. People who have the feeling that many things cannot be said in public debate find a voice in Monika Gruber - and the feeling of security that arises when someone says what you are thinking. The SX2 creates this protective space for laughter together. And the one wing ensures that people not only laugh in this room, but also think.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic effect: full presence, no half measures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The energy of the SX2w1 is not subtle. She's there &mdash; complete, immediate, not to be discussed away. Monika Gruber on stage is a full contact experience: she is completely present, completely committed, completely herself. The camel, when it gives, gives everything &mdash; and Monika Gruber's performances are not calibrated performances, but real, lively encounters with a woman who really wants to be there right now, with this audience.</p>
+          <p class="vb-intro">The one wing brings discipline and preparation: their programs are technically precise, their punch lines are spot on. But the energy underneath is untamed &mdash; the passionate longing for connection between the sexual two, which is satisfied anew every evening. The camel saved. Now it can drink.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gift: humor as a home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Monika Gruber gives her audience is difficult to name, but can be felt immediately: a feeling of home. Not in a sentimental sense &mdash; but in the sense of: I can be myself here. Here I am understood. You can laugh here, even at things you wouldn't normally laugh at. This is the gift of SX2w1 at its highest level: a space where connection and truth are not in conflict, but are the same.</p>
+          <p class="vb-intro">Monika Gruber doesn't joke about life &mdash; it makes life a joke, and therefore bearable, clearer, more honest. The camel that knows a thousand miles of desert knows that endurance is what counts. And the ability to find water when you need it most.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 &mdash; The Camel: Subtype Profile"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function neilArmstrongPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Neil Armstrong</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with seven-winged wing</p>
+        <p class="krim-portrait-subtitle">Pilot, astronaut, first man on the moon, 1930-2012 - Animal correspondence: Rabbits</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong>is alert, loyal and seeks security in what it knows. It is not an animal of grand gesture. It lives in the familiar, carefully expanding its territory - and when the situation demands it, it shows a determination that one would not have expected from outside. The rabbit does not survive through strength, but through cleverness, reliability and the trust of its group.</p>
+          <p class="vb-intro">Neil Armstrong was the first person to walk on the moon. On July 20, 1969, at 02:56 UTC, he placed his left foot on the lunar surface and said a sentence that the world still knows today. Afterwards he did everything he could to disappear into the silence again. He hardly gave any interviews. He fled from the public. He returned to Ohio, to his farm, and lived there as inconspicuously as if he had only taken a short trip - to the moon and back. This is the rabbit: the most extraordinary human being who ever left his footprint in the dust - and who wanted nothing more than normality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The warmth: security through trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>W\xe4rme</strong>- because this subtype seeks security through human closeness and relatability. The SE6 is loyal, reliable, team-oriented. She exudes a calmness that calms others &mdash; and she needs the trust of the group as much as she gives it.</p>
+          <p class="vb-intro">Armstrong was not a hero of big words. When he stood on the moon he didn't say<em>Ich habe es geschafft</em>, sondern: <em>The Eagle has landed.</em>We. The team. The ground station in Houston. Buzz Aldrin next to him. Michael Collins in lunar orbit. Armstrong walked on the moon &mdash; but he never saw it as his personal triumph. He was the representative of a community. And that was exactly what was important to him.</p>
+          <p class="vb-intro">His colleagues described him as calm, reliable and matter-of-fact. He spoke little in critical situations &mdash; and if so, then precisely. When approaching the moon, the on-board computer responded with error messages and the landing site turned out to be a rocky field. Armstrong took control manually, calmly looked for a safe place - and landed with a fuel supply that would have lasted for less than thirty seconds. No panic, no drama. This is the SE6 at its best: security through competence, calm as a protective principle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wings: The Adventurer's Courage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenfl\xfcgel (w7)</strong>brings something to the self-sustaining six that the pure SE6 alone would not develop: a sense of adventure, enthusiasm and the willingness to set off into the unknown. Where the SE6 seeks security, the seven-wing wing opens the door to the expanse. The result is a person who loves the familiar &mdash; and still go where no one has been before.</p>
+          <p class="vb-intro">Armstrong flew for the first time at the age of six &mdash; with his father in a Ford Trimotor &mdash; a three-engine passenger aircraft that was widely used in the United States in the 1920s. Since then he wanted to become a pilot. He had his pilot's license at sixteen, before he had his pilot's license. He flew seventy-six combat missions in the Korean War. He became a test pilot and flew the X-15 to an altitude of over 60 kilometers - on the edge of space. Each of these steps was k\xfchn. None of it was frivolous. This is SE6w7: courage built on preparation, not carelessness.</p>
+          <p class="vb-intro">In 1966 he flew Gemini 8, the first successful docking of two spaceships in space - and saved the mission when the spacecraft went into an uncontrolled roll by keeping a cool head and making the right decision in seconds. The seven-winged wing gives the rabbit wings. But the rabbit remains grounded.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Twenty-one hours on the moon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 20. Juli 1969 landete die <strong>Apollo-11</strong>-Mondlandef\xe4hre <em>Eagle</em>in the sea of ​​calm. Armstrong and Aldrin spent twenty-one hours and thirty-six minutes on the moon &mdash; of which around two hours and twenty minutes outside the ferry. Armstrong collected rock samples, took photographs, and planted the American flag. And he said the sentence:</p>
+          <p class="vb-intro"><em>That's one small step for [a] man, one giant leap for mankind.</em></p>
+          <p class="vb-intro">Das kleine Wort <em>a</em> vor <em>man</em>was lost in the radio noise &mdash; and Armstrong later emphasized that he had said so. Without the<em>a</em>the sentence does not produce a logical opposition:<em>Man</em> ist dann gleichbedeutend mit <em>mankind</em>. With the<em>a</em>On the other hand, he means the individual human being - And that's exactly what Armstrong was: a single person who worked for everyone. He made this distinction clear throughout his life. This is the SE6: precision in language, correctness as a value.</p>
+          <p class="vb-intro">After returning, he was overwhelmed with parades and receptions. He then taught aerospace engineering at the University of Cincinnati &mdash; for eight years, calm, reliable, without fuss. Then he returned to his farm in Ohio\xfcck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Most Famous Unknown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE6w7 is her<strong>Integrit\xe4t</strong>. Armstrong could have become rich &mdash; through advertising contracts, through appearances, through his name. He refused almost everything. When he found out his signature was selling for thousands of dollars, he stopped signing autographs. When a barber sold a chunk of his hair after a haircut, Armstrong threatened to sue if the money wasn't donated to a charity. He was serious.</p>
+          <p class="vb-intro">The Shadow: The SE6 can freeze in the tendency to retreat. Armstrong became so quiet after flying to the moon that some people asked if he was depressed. He barely spoke about the experience &mdash; not because it didn't affect him, but because he couldn't find words for it that did justice to reality. Once, in an interview shortly before his death, he confessed:<em>It was the greatest experience of my life. And to this day I can't really explain it.</em>This is the SE6: What is too big for words stays inside.</p>
+          <p class="vb-intro">His daughter Karen died of a brain tumor in 1962 at the age of two. Armstrong hardly ever spoke about it publicly. Only once did he say that after her death he started getting up especially early in the morning &mdash; before everyone else was awake &mdash; to be alone. The rabbit will retreat if the pain is too great. And carries him quietly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The rabbit returns home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neil Armstrong died on August 25, 2012 in Cincinnati, Ohio &mdash; after complications from heart bypass surgery. He was eighty-two years old. He spent much of his last decade on his farm in Lebanon, Ohio. Gardening, farming, the everyday life of a man who was not great because he wanted to be, but because history made him so.</p>
+          <p class="vb-intro">After his death, his family released a statement that ended with a sentence that describes Armstrong better than almost any other:<em>If you want to honor him, look up at the moon on the next clear evening, wave and think of Neil Armstrong.</em></p>
+          <p class="vb-intro">This is the SE6w7: A person who did the greatest thing that a person had ever done up to that point - and then only wanted one thing: to go home. The rabbit has set foot on the moon. And returned to where it belonged.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function pamelaReifPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-pamela-reif-portrait.jpg" alt="Pamela Reif" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pamela Reif</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Fitness-Influencerin, Unternehmerin, geb. 1996 &ndash; Millionen Verbindungen durch einen Bildschirm &ndash; Animal correspondence: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel reaching through the screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong>is the animal of the sexual two &mdash; patient, persistent, able to stand by others under extreme conditions. The camel saves. It carries resources within itself that it releases exactly when others need them most &mdash; in the desert, on the long journey, when there is no other help in sight. This is the image that Pamela Reif embodies on screens millions of times: the woman who is there &mdash; always, on time, with a new exercise, a new plan, a calm look that says: I'll accompany you.</p>
+          <p class="vb-intro">Pamela Reif, born in Karlsruhe in 1996, started on Instagram in 2012 at the age of sixteen. What started as a hobby became one of Europe's most successful fitness empires: millions of subscribers on Instagram and YouTube<em>Pam App</em>, the bestseller<em>You Deserve This</em>, collections, brand collaborations &ndash; and behind it a person who doesn't see all of this primarily as business, but as an offer of connection. The camel knows the desert. It knows how long the journey takes. And it still has everything it has.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Seduction through the screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual two<strong>Seduction</strong>- the ability to draw others to you through emotional closeness and intense presence. What arises in the sexual two is not a distant sender-receiver relationship, but the feeling of a real, personal encounter. The special thing about Pamela Reif: She creates this quality through a screen. People who follow her videos don't feel like they're following a workout program &mdash; They feel like they are training with someone who knows them, who is there for them, who won't give up on them.</p>
+          <p class="vb-intro">Her look into the camera is direct and inviting at the same time. No performative excitement, no fake motivation &mdash; but a calm, intense approach that is typical of the SX2. The sexual two is not looking for the crowd. She is looking for that one person &mdash; and Pamela Reif has the ability to make millions of people feel like that one person at the same time. That's rare. This is seduction in the deepest Enneagram sense: not necessarily manipulation, but real art of connection.</p>
+          <p class="vb-intro">This also includes the willingness to self-sacrifice, which the PDF of her personality analysis emphasizes: Pamela invests an enormous amount of time and energy &mdash; not to show yourself, but to give the best to others. The SX2 is fulfilled by giving. And when the giving comes back &mdash; as a comment, as gratitude, as a shared video - that is not a reward. It's the answer to the two's deepest question: Am I really important to you?</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The triple wing: perfection as proof of love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Triple wing (w3)</strong>brings a second dimension to the SX2's passionate connection energy: performance, image, quality. The three don't just want to connect - she wants<em>shine</em>. She wants what she gives to be good enough to be seen. With Pamela Reif, this is reflected in the exceptional quality of her content: precisely produced, aesthetically consistent, well thought out. Every video, every collaboration, every page of the app bears the signature of a person who sees excellence not as self-expression, but as respect for the audience.</p>
+          <p class="vb-intro">The triple wing is also the reason why Pamela Reif doesn't just stick to one thing. The three diversified, expanded, developed &mdash; always with the aim of expanding the circle of those she can reach. App, book, brand, cooperation: This is not a vanity project, this is the SX2w3 at work &mdash; the greater the reach, the more people can fulfill their desire for connection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Overall effect: Silent power that moves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who watches Pamela Reif's videos will not encounter a loud personality. She doesn't impose herself, she doesn't shout, she doesn't exaggerate. Your energy is calm &mdash; but she is there. Completely there. The look, the posture, the precision of the movement: everything communicates the same thing -<em>I'll do this to you. You can do it.</em>This is the quiet power of the camel: no drama, no gesture, but a reliability that has a deeper effect than any production.</p>
+          <p class="vb-intro">The audience feels this. Millions of people have modeled their workout routine on Pamela Reif &mdash; not because their videos are the most spectacular, but because they create the feeling of not being alone. This is the core of the SX2w3 effect: a gentle presence that strengthens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic effect: Emotional intensity behind the calm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Although Pamela often appears balanced and calm on the outside, her content resonates with a high level of emotional intensity - the intensity of the sexual two who seek a real encounter in every interaction. This energy is unifying: it attracts the audience not as consumers, but as fellow travelers on a shared journey to a healthier, more conscious life.</p>
+          <p class="vb-intro">The triple wing gives this energy form and direction &mdash; it channels the SX2's passionate longing for connection into concrete, high-quality offerings. The result is an energy that motivates and comforts at the same time: you don't have to be perfect. But I'm going with you.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gift: fitness content as a relationship offer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Pamela Reif gives to the world is more than fitness. She showed a generation that your body is not an enemy to be conquered, but a home to be invited in &mdash; with dignity, with perseverance, with joy.<em>You Deserve This</em>is not just a book title: it is the message of the SX2w3 to everyone who knows the feeling of having to do something to care for them.</p>
+          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when you arrive - and is just grateful to not have been alone. This is Pamela Reif. This is the SX2w3 at its highest level of expression.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 &mdash; The Camel: Subtype Profile"},
+        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function queenElizabethIIPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-queen-elizabeth-ii-portrait.jpg" alt="Queen Elizabeth II." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Queen Elizabeth II.</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Queen of the United Kingdom, 1926-2022 Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong>is the beast of the self-sustaining one &mdash; and no picture captures Queen Elizabeth II more accurately. The eagle flies alone, high above the noise of the world. He needs no approval, no stage, no admiration. He has a post &mdash; and he doesn't leave him. When he circles, he does so with complete concentration. If he lands, it will be with dignity.</p>
+          <p class="vb-intro">Elizabeth Alexandra Mary Windsor ascended to King George VI in 1952, at the age of twenty-five, following the death of her father. the throne &mdash; a throne that she had not sought, that had fallen to her through the renunciation of her uncle Edward VIII. She said yes. Not with enthusiasm, not with ambition &mdash; but with the quiet, absolute resolve of someone who understands that certain tasks are non-negotiable. For seventy years she renewed this yes every day. The eagle remained at his post.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preserving one: duty as the meaning of life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong>is the subtype of One that does not carry its claim to perfection externally, but internally. Naranjo calls this subtype<em>Worry</em>- Concern: the constant, inner question of whether you are doing the right thing, whether you are really doing justice to the task, whether you have done enough. This concern is not hesitation. It is the engine of a lifelong discipline.</p>
+          <p class="vb-intro">Queen Elizabeth II lived this pattern in a form that is historically unique. In seventy years she has never given an interview in which she expressed her personal opinion on a political issue. Never. Not because she didn't have any &mdash; but because she knew that the position was more important than the person. The SE1 does not deny its own desires out of weakness. She puts them back out of inner conviction:<em>Das hier geht vor.</em></p>
+          <p class="vb-intro">Their motto was never formulated, but it was palpable:<em>Never complain, never explain</em>- never complain, never explain. This is the SE1 in its purest, most disciplined form. She endures what others wouldn't endure &mdash; not as a victim, but as an expression of what she believes is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Wing of Nine: Peace as a Second Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wing of nine (w9)</strong>gives the self-sustaining one something that the pure one hardly finds on its own: silence. The nine wing seeks harmony, continuity, balance in the existing. He holds together what wants to drift apart - not through intervention, but through presence.</p>
+          <p class="vb-intro">This wing explains why Queen Elizabeth II was able to remain for seventy years at the center of a country that was profoundly changing around her. Empire, decolonization, Cold War, Thatcher, Blair, Brexit, pandemic &mdash; she survived everything without ever taking a position. This is not indifference. This is the ability of Nine energy to hold space open for others. By keeping silent the queen allowed the country to speak.</p>
+          <p class="vb-intro">The same can be seen in her private world: the Corgi dogs that accompanied her throughout her life; the annual stay at Balmoral, the Scottish castle that meant more to her than Buckingham Palace; the long-term marriage with Prince Philip, which was based on deep mutual loyalty. The nine wing needs its anchors. He is not weak &mdash; he knows where he is rooted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Anger as inner severity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of one is called<strong>Zorn</strong>- and in SE1w9 it expresses itself in a way that remains completely invisible to the outside world. The SE1w9 is not the one that corrects out loud. She is the one who is silent &mdash; and internally holds himself to a standard that would be unimaginable to others. Anger is not turned outwards, but inwards: as iron self-discipline, as relentlessness towards one's own failures, as the constant conscience that asks:<em>Habe ich heute getan, was getan werden musste?</em></p>
+          <p class="vb-intro">Queen Elizabeth II channeled this inner anger into the form of duty. She worked until the last year of her life &mdash; two days before her death, on September 6, 2022, she received Prime Minister Liz Truss in Balmoral. She was ninety-six years old. This is no longer a sense of duty. This is the SE1w9 in its final, complete consequence: the eagle that only leaves its post when there is no other option.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The crisis as a mirror: 1997 and the limits of silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w9 has a weak point: it can seem like cold in moments that require human warmth. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion &mdash; while the country sank into grief and outrage. The press asked:<em>Where is the queen?</em></p>
+          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SE1w9 is sticking to the right thing &mdash; and the right thing, as she understood it, was protocol and attitude. It was only through external pressure that she became aware that the people needed something different. She returned to London, spoke live to the nation, bowed in front of Diana's coffin. This was an extraordinary step for an SE1w9: leaving the pattern because the situation demanded it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gift: stability as a home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Queen Elizabeth II did to the United Kingdom &mdash; and a world that has reinvented itself several times in seventy years &mdash; can be summed up in one word: consistency. In an era of constant change, she was what didn't change. No scandal has made her speak. No crisis drove her from her post. No fashion took her away.</p>
+          <p class="vb-intro">This is the gift of SE1w9: reliability as a home. An eagle sitting on its rock &mdash; not because he cannot move, but because he knows that his task is permanent. Queen Elizabeth II breathed her last at Balmoral on September 8, 2022. Her son Charles III. followed her to the throne. The rock is empty. But he's still there.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function rihannaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rihanna-portrait.jpg" alt="Rihanna" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rihanna</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with triple wings</p>
+        <p class="krim-portrait-subtitle">S\xe4ngerin, Unternehmerin, geb. 1988, Barbados &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua from Barbados</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong>is the smallest dog breed in the world &mdash; and the animal that is least impressed by it. He barks when he wants to. He stands up when he wants. He does not allow himself to be intimidated by size, by volume, by expectation. But behind this boldness there is no mere showmanship - but a being of deep sensitivity who has learned to protect himself by not letting anything show. The Chihuahua loves intensely, suffers passionately and clings to those he trusts.</p>
+          <p class="vb-intro">Robyn Rihanna Fenty is from Bridgetown, Barbados &mdash; a small Caribbean island that was barely on the world's radar when a 15-year-old girl auditioned for an American music producer. What followed is one of the most remarkable rises in the history of pop music: from Caribbean kid to the most global entertainer of her generation, to an entrepreneur who has built a billion-dollar industry &mdash; and never stopped being herself. This is the Chihuahua: small, where he comes from. Unstoppable wherever he goes.</p>
+          <p class="vb-intro">Rihanna's childhood was not an idyll. Her father struggled with alcohol and drug addiction, and her parents separated when she was eleven. The largest cities in the world - New York, Los Angeles, London &ndash; were as far away from her as another planet back then. What she had was a voice, a will and the willingness to do everything for it. That's not luck. This is the stuff the sexual four is made of.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Rivalry as a Life Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong>is in the Enneagram tradition the subtype that does not carry the pain of the four inwards, but turns it outwards - as intensity, as desire, as fire. Naranjo calls this subtype<em>Rivalit\xe4t</em>: the burning conviction that others have what you have been deprived of - and the drive to surpass them, to surpass them, to outshine them. This is no mean envy. It is the engine of a person who feels his own depth and knows: I deserve more than what was intended for me.</p>
+          <p class="vb-intro">This energy can be felt everywhere in Rihanna's work.<em>Umbrella</em>is not a simple anthem &mdash; it is a promise of radical loyalty under conditions that make others run away.<em>We Found Love</em>celebrates the feeling that is so big it almost hurts.<em>Diamonds</em>speaks of a longing that cannot be played down. And<em>Stay</em>- one of the most personal songs in their catalog &ndash; shows a woman who can fall in love with something destructive and who knows it and still stays: the paradox of the SX4, which is crushed between desire and reason and yet doesn't give up.</p>
+          <p class="vb-intro">The chapter about Chris Brown (2009) cannot be avoided if you want to understand Rihanna. Chris Brown was then &mdash; like Rihanna &mdash; a young R&amp;B star, the two have been in a public relationship since 2008. The night before the 2009 Grammy Awards, he physically attacked her in a car and seriously injured her. The incident was reported, Brown pleaded guilty &mdash; and the picture of Rihanna's injuries that was leaked to the press went around the world. She was 21 years old.</p>
+          <p class="vb-intro">The SX4 doesn't hide its wounds like the SE4 - she is visibly confronted with it, whether she wants to or not. Rihanna didn't back down after that. She has rebuilt herself &mdash; with anger, with pain, with the album<em>Rated R</em>, that sounds like a blade: dark, angular, genuine. This is SX4: the pain is not buried. It becomes art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The triple wing: Gefchl becomes brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\xfcgel (w3)</strong>gives the sexual four something crucial: the ability not only to feel their own experience, but to shape it - and transform it into effect. Where the pure SX4 could sink in the fire of one's own emotions, the three-wing wing brings ambition, craftsmanship and a fine sense of what works. This combination turns intensive experience into a career - and a career into an empire.</p>
+          <p class="vb-intro">The w3 can be felt in Rihanna's entire aesthetic development: the precise calculation of the image that has changed with each album. From the sweet Caribbean pop newcomer about the turbulent, dark energy of<em>Rated R</em> bis hin zur unbek\xfcmmerten Sinnlichkeit von <em>Loud</em> und schlie\xdflich zur reifen, eigenst\xe4ndigen Meisterschaft von <em>Anti</em>- each phase was a conscious reinvention. The SX4 feels real. The w3 ensures that the real thing arrives.</p>
+          <p class="vb-intro">This becomes particularly clear in<em>Anti</em>(2016), Rihanna's seventh and final studio album to date. It is the first to completely reflect their own vision: no format radio compromise, no predictable single structure.<em>Anti</em>sounds like someone who has stopped asking for permission. That's the best thing the SX4's triple wing can give: the tools to bring what's inside into a form no one can ignore.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fenty Beauty and the beauty revolution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2017, Rihanna changed the cosmetics industry with a single product launch:<strong>Fenty Beauty</strong>- 40 shades of foundation, from ivory to the deepest dark brown. While it sounds obvious, it wasn't: For decades, the industry had treated darker skin inks as a niche product or ignored them. Rihanna didn't formulate this as a marketing strategy. She treated it as a matter of course &mdash; and thus exposed the incomprehensibility of the industry.</p>
+          <p class="vb-intro">This gesture deeply demonstrates the pattern of the SX4w3: The SX4 knows from its own experience what it means not to be seen. The SX4 from Barbados, who was confronted at every turn with an ideal of beauty that did not reflect her face, has not forgotten this experience - she has turned it into a business model. And the triple wing ensured that this model was executed so precisely and consistently that the competition had to follow suit within a few months.</p>
+          <p class="vb-intro">Savage X Fenty, her lingerie line, continued the same idea: all body shapes, all skin colors, all sizes as the norm - not as an exception. This is not just well-intentioned. This is vision. And her short-lived but historically significant fashion brand Fenty at LVMH (the group's first new fashion house since Christian Lacroix in 1987) showed that Rihanna doesn't think in categories &mdash; she thinks in levels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The fire that carries</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the four is the<strong>Neid</strong>- not as resentment, but as the deep feeling that others have a completeness that you yourself lack. With the SX4, this envy has a more personal, sharper face:<em>You have what was withheld from me &mdash; and I will surpass you.</em>This drive has taken Rihanna far. But it also has its price.</p>
+          <p class="vb-intro">Die Jahre zwischen <em>Anti</em>(2016) and the Super Bowl appearance (2023) were seven years of silence as a musician &mdash; seven years during which Rihanna gave birth, ran businesses, and apparently had no desire to return to music until the conditions were her own. When she performed at Super Bowl LVII &mdash; visibly pregnant, after a seven-year break, alone on a floating platform, half a dozen huge screens, no guest star &mdash; That was an explanation without words:<em>Ich brauche keine Erlaubnis. Ich erscheine, wenn ich bereit bin.</em></p>
+          <p class="vb-intro">The light of the SX4w3 lies in this ability for complete self-determination - also at the price of lack of understanding. The shadow lies in the danger of turning the fire inward: when the rivalry is directed against oneself, when the demands are overwhelming, when the intensity no longer has any direction. Rihanna has known both. And so far she has come back every time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chihuahua that owns itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the four leads from the question<em>Why am I not like the others?</em> zur Erkenntnis <em>What I am is unique &mdash; and it is mine.</em>For the SX4w3 this means not giving up the rivalry, but rather purifying it: no longer fighting because you have to prove yourself, but shaping it because you have something to say. This shift is quiet &mdash; but it changes everything.</p>
+          <p class="vb-intro">This path can be foreseen in Rihanna's biography. The early singer fought battles - with the industry, with the public, with the expectations that were placed on them. The later Rihanna stopped fighting and started creating. Fenty Beauty is not a fight against the beauty industry &mdash; it is a blueprint of what beauty could be.<em>Anti</em>is not a protest against format radio &mdash; it's a suggestion of what music could be if you stopped asking for permission.</p>
+          <p class="vb-intro">The Bridgetown Chihuahua didn't conquer the world through size. He changed them through intensity - by refusing to be smaller than he is and by being willing to reveal exactly what most would hide. What remains is a voice, a face and an attitude that you won't forget. This is the sexual four with triple wings. This is Rihanna.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-freddie-mercury", label:"Portr\xe4t: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function ronaldReaganPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ronald-reagan-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ronald Reagan</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with aft wing</p>
+        <p class="krim-portrait-subtitle">40. US-Pr\xe4sident 1981&ndash;1989, 1911&ndash;2004 &ndash; Animal correspondence: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong>is the animal of social type 9 &mdash; and no picture captures Ronald Reagan more accurately. The buffalo does not lead by command, but by movement: when it runs, the herd runs with it. He radiates a calmness that creates trust. He is low to the ground, massive, fearless &mdash; and he doesn't need applause to know where he's going.</p>
+          <p class="vb-intro">Reagan, born in 1911 in Tampico, Illinois, died in 2004, was an actor, union president, governor and ultimately the 40th President of the United States &mdash; for two terms, from 1981 to 1989. He was the oldest president in US history when he took office. He won with an ease that left his opponents puzzled: no tension, no sharpness, no visible ambition. Just a smile, a few simple sentences &mdash; and the land followed him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: America as a Vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong>is, according to Naranjo, the countertype of the nine &mdash; the subtype that works against its own inertia by throwing itself into community, belonging and participation. SO9 does not want to exist for itself. She wants to be part of something bigger &ndash; and give others the chance to also belong.</p>
+          <p class="vb-intro">Reagan understood America not as a political system, but as a war. His most famous campaign message &mdash; &ldquo;Morning in America&rdquo; (1984) - was not a program. It was an invitation: you belong here. This land is yours. The SO9 creates loyalty not through persuasion, but through belonging. Reagan was the great mediator &mdash; a man who held huge coalitions together by making everyone feel important. The Teflon President: nothing stuck to him because people didn't experience him as a person, but as a mirror.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The aft wing: The voice that fills the room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong>gives the social nine a quality that the pure SO9 lacks: directness, territoriality and a willingness to confront clearly when it matters most. The<strong>SO9w8</strong>has the warmth of the nine and the courage of the eight &mdash; a combination that is deadly effective in politics.</p>
+          <p class="vb-intro">Reagan's most famous sayings are no compromises. &ldquo;Mr. Gorbachev, tear down this wall!&rdquo; - Berlin, 1987. &ldquo;The Soviet Union is an evil empire.&rdquo; - 1983. The aft wing allowed him to speak without hesitation at crucial moments - direct, without diplomatic padding, with a clarity that sometimes startled his advisors. The nine waited. The eight struck at the right moment. That was Reagan's political grammar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: The Great Communicator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ronald Reagan was not the deepest thinker among US presidents. He rarely read files in their entirety, delegated generously and liked to take a nap. That wasn't laziness &mdash; it was the SO9. The social nine hands over responsibility because they trust the system and keep themselves out of the way. What Reagan brought instead was rarer and more potent: the ability to make a nation feel like it believes in something.</p>
+          <p class="vb-intro">His achievements as president are controversial, but cannot be explained away. The economy grew strongly after the 1981/82 recession. The Cold War ended &mdash; not through war, but through a combination of military pressure and, later, surprising negotiating skills with Mikhail Gorbachev. Reagan, who for years had called the Soviet Union an evil empire, received Gorbachev in Reykjavik and in Washington &mdash; and thus became the architect of a diplomatic turnaround that no one had predicted. The buffalo that starts moving gets further than you think.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: What the Nine does not see</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO9w8 is hers<strong>gro\xdfes Integrationstalent</strong>: Reagan brought together people who had nothing in common with each other. He lifted the spirits of a nation exhausted and distrustful after Vietnam, Watergate and the Iran hostage crisis. This is no small thing. This is one of the rare political gifts.</p>
+          <p class="vb-intro">The Shadow: The Nine doesn't see what it doesn't want to see. The AIDS crisis hits the USA in the early 1980s - Reagan speaks the word &ldquo;AIDS&rdquo; It wasn't made public until 1987, six years after the epidemic began, when over 40,000 Americans had already died. The Iran-Contra Affair &mdash; illegal arms deals with Iran to finance Nicaraguan Contra rebels &mdash; was running in his government apparatus, and Reagan insisted he knew nothing about it. Whether that's true or not, it describes SO9 precisely. The Nine delegates &mdash; and sometimes looks away.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The buffalo that smiles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ronald Reagan died of complications from Alzheimer's disease in 2004 &mdash; an illness that erases the memory, dissolves the self and releases people from their own history. In 1994 he wrote a shocking letter to the American public in which he revealed his condition. The buffalo that held an entire nation together ultimately lost its connection to itself.</p>
+          <p class="vb-intro">What remains is the image: a man who smiled when others screamed. The simple sentences spoke when others wrote treatises. Who didn't explain America, but let it be felt. The SO9w8 at its best is not an ideology &mdash; it is an attitude. And sometimes one attitude is enough to make history.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function rowanAtkinsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rowan-atkinson-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rowan Atkinson</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Komiker, Autor, geb. 1955 in Consett, County Durham</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong>is the hardest working animal in the forest &mdash; and the most architecturally gifted. He doesn't build because he has to, but because he can't do anything else. He changes his environment, plans in systems, works with an endurance that would push other animals to their limits. The beaver lives in a close family group; its building is not a hiding place, but a work of art - a complex construction that serves to protect everyone. And he is more patient than anyone else: a dam doesn't happen overnight.</p>
+          <p class="vb-intro">Rowan Atkinson was born in Consett, County Durham, in 1955, the youngest child of four sons of a wealthy farmer and entrepreneur. He studied electrical engineering in Newcastle and later obtained his master's degree at Queen's College, Oxford. The man behind Mr. Bean isn't a gut clown &mdash; he is an engineer of comedy: precise, methodical, focused on perfection. The beaver building his dam brick by brick.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Society: belonging instead of breaking out</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Martyrs</strong>- because this subtype sacrifices its own pleasures for the good of the group or a higher purpose. While the SE7 builds abundance for itself and the SX7 seeks happiness through fusion, the SO7 is oriented towards the collective: it wants to belong, make a contribution, be part of something bigger. His hedonism comes inward &mdash; and outwardly he shows himself to be a conscientious worker in the service of a community.</p>
+          <p class="vb-intro">Atkinson sees himself as part of the British comedy tradition &mdash; a long line of character comedians, satirists and physical clowns that stretches back to Charlie Chaplin and Buster Keaton and was shaped in his time by Peter Sellers and the Monty Python Ensemble. He is not a rebel who breaks tradition &mdash; he studies it, honors it and perpetuates it.<em>Not the Nine O&#8217;Clock News</em>(1979-1982), the BBC satire program that made him famous, was a collaborative effort;<em>Blackadder</em>emerged from years of collaboration with Richard Curtis and Tony Robinson. The SO7 doesn't build alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: The Clown's Conscience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Six wing</strong>gives the social seven a quality that shapes them from within: a sense of duty, self-doubt and a deep fear of failure. Where the pure SO7 hides behind generosity, the six wing adds:<em>Bin ich wirklich gut genug? Verdiene ich meinen Platz?</em></p>
+          <p class="vb-intro">Atkinson suffered from a speech disorder (stuttering) from childhood &mdash; a speech disorder that made him an outsider in social situations and which he only overcame through years of training and his way to the stage. The stutter disappears when he slips into a character: Mr. Bean barely speaks; Blackadder speaks in perfectly polished sentences. The mask protects &ndash; and the Six Wing is the one that insists the mask fits.</p>
+          <p class="vb-intro">His preparation is legendary: he is said to have developed and designed individual sketch ideas over the years before they became public. Perfection is not a luxury for the SO7w6 - it is an inner insurance against the onset of failure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From Blackadder to Mr. Bean</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rowan Atkinson's work includes three iconic figures who could hardly be more different: Edmund Blackadder &mdash; cynical, eloquent, with a biting intelligence &mdash; is the exact opposite of Mr. Bean. Blackadder always knows what he wants and why everyone else is incompetent. The series ran for four seasons from 1983 to 1989, each in a different historical setting; the final season,<em>Blackadder Goes Forth</em>about the First World War, is one of the most famous moments in British television history.</p>
+          <p class="vb-intro">Mr. Bean &mdash; mute, incapable, childlike-egocentric &mdash; was created in 1990 and made Atkinson world famous. The character communicates almost without words; it is universal because it requires no language. Mr. Bean has been broadcast in over 200 countries. Atkinson has repeatedly stated that he finds the character increasingly a burden &mdash; it sticks to him, even when he has long since moved on.<em>Johnny English</em>(from 2003) combines both: the spokesman and the idiot. The character is a loving parody of the British spy film - a James Bond hybrid who thinks he is infallible and fails spectacularly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The man behind the mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO7w6 is its<strong>handwerkliche Ernsthaftigkeit</strong>. Atkinson never tried to be famous &mdash; he tried to be good. His humor is precisely observed, carefully constructed, never cheap. He spent more time rejecting ideas than implementing them.</p>
+          <p class="vb-intro">The Shadow: The SO7er sacrifices &mdash; and at some point he wonders if he has sacrificed too much. Atkinson has spoken openly in interviews about feeling constrained by Mr. Bean; that he feels like he is being defined by a figure that he has long since left behind. The beaver built a dam &mdash; and is now trapped in his own work.</p>
+          <p class="vb-intro">In private, Atkinson is known as reserved, almost invisible. He avoids the limelight off stage, rarely gives interviews and rarely engages in public debates. An avid driver &mdash; He owns rare sports cars and had two spectacular accidents with a McLaren F1 - but he is not a public person. The beaver dives when he is not building.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Beaver Who Can't Stop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rowan Atkinson has been in the business for four decades &mdash; and shows no signs of stopping. He declared Mr. Bean dead several times and then brought him back. He has stated that physical comedy becomes more difficult with age &mdash; and then<em>Johnny English Strikes Again</em>rotated. That's the beaver: He builds even when the dam is finished. He builds because building is his nature. And he doesn't forget what he once started.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+          {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
+          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function ruthBaderGinsburgPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ruth-bader-ginsburg-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ruth Bader Ginsburg</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with nine-wing piano</p>
+        <p class="krim-portrait-subtitle">US-Bundesrichterin am Supreme Court, 1933&ndash;2020 &ndash; Animal correspondence: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong>is the animal of sexual type 8 &mdash; and no picture captures Ruth Bader Ginsburg more precisely. The crocodile is the oldest predator on earth: patient in waiting, precise in its attack, unfazed by resistance and almost unchanged for millions of years. It doesn't take size to inspire respect. It's enough that it's there.</p>
+          <p class="vb-intro">Ginsburg, born in Brooklyn in 1933, died in 2020, was a justice on the Supreme Court of the United States for 27 years &mdash; the second woman in this story. She was 1.57 meters tall\xdf. She spoke quietly. Their dissenting opinions were famous for cutting straight to the heart of the majority opinions, without paraphrasing. The crocodile doesn't need to show off. His access is enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong>is, according to Naranjo, the subtype that he<em>Besitz</em>called &ndash; in English<em>Possession</em>. The sexual eight doesn't just want to win. She wants the complete encounter: the total conviction, the absolute connection, the influence that is non-negotiable. What the SX8 loves, it loves with all of itself. She doesn't let go of what she thinks is wrong.</p>
+          <p class="vb-intro">Ginsburg's life reads like an SX8 report: She didn't want to be one of many judges &mdash; she wanted to change the law itself. As a lawyer in the 1970s, she led cases before the Supreme Court that systematically and methodically fought for legal equality between the sexes. She chose her cases like a crocodile chooses its prey: carefully, without haste - and with the knowledge that access will be there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The nine wing: The silence before access</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong>gives the sexual eight a quality that the pure eight often does not show: patience, spaciousness and a silence that is not passivity but concentrated strength. The SX8w7 strikes immediately. The<strong>SX8w9</strong>wait until the moment is so complete that no doubt remains.</p>
+          <p class="vb-intro">Ginsburg waited decades for the right cases, the right courts, the right political windows. Their path to equality wasn't a sprint &mdash; it was a strategic campaign spanning thirty years. The wing of nine also gave her the ability to persevere: eight cancer surgeries, the death of her husband in 2010, years of pressure to resign - and she stayed. The crocodile will not retreat as long as there is still water.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From lawyer to judge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the 1970s, Ginsburg co-founded the ACLU's Women's Rights Project and led a number of landmark cases before the Supreme Court. Her approach was unorthodox: She often chose male plaintiffs &ndash; to show that gender discrimination affected both sides and was easier to convince the court. That wasn't modesty. That was precision.</p>
+          <p class="vb-intro">In 1993, President Clinton appointed her to the Supreme Court. As a judge, she was known for her precise, clear language and her relentless dissenting opinions - particularly in recent years, when the court's conservative majority made rulings that it believed were fundamental errors. Your dissenting opinion in the case<em>Ledbetter v. Goodyear</em>(2007) is an example of this: The court decided the case against their vote &mdash; but their vote was so precise and so publicly effective that the 2009 Congress passed the<em>Lilly Ledbetter Fair Pay Act</em>said goodbye. The crocodile loses the vote. And still changes the law.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Intransigence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w9 is hers<strong>absolute Integrit\xe4t</strong>. Ginsburg never allowed himself to be influenced by political opportunities. Her stance on equality was not a career strategy &mdash; It was a purpose in life for which she paid: as a law student who was denied professorships, as a lawyer at a time when women were hardly accepted into law firms, and as a judge who was advised to resign for decades.</p>
+          <p class="vb-intro">The Shadow: The SX8w9's intransigence can turn into stubbornness. Ginsburg holds on to her office until the end - and dies without making possible a successor under a president close to her. Her seat goes to Amy Coney Barrett. The question of whether she stayed too long is not easy to answer. But the SX8w9 usually doesn't face it - the office is their territory, and they don't give that up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Crocodile That Remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruth Bader Ginsburg died at 87, in the line of duty, on the eve of an election year &mdash; and in the days that followed, she became an icon in a way that female judges rarely become. Her jabots, the lace collars on her judge's robes, became world famous. Their sayings were on mugs, T-shirts and wall posters. The crocodile needs no staging &mdash; but sometimes the world stages it anyway.</p>
+          <p class="vb-intro">What remains is the work. Laws that exist because of her. Judgments that look different because of her. A generation of female lawyers who think differently because of her. The SX8w9 leaves no heroic narrative - it leaves behind change. The crocodile was there. The print remains.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
+          {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+          {route:"beruehmte-jamaica-kincaid", label:"Portr\xe4t: Jamaica Kincaid (SO8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function sahraWagenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sahra-wagenknecht-portrait.jpg" alt="Sahra Wagenknecht" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sahra Wagenknecht</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing &middot; Reinforcement type of the three</p>
+        <p class="krim-portrait-subtitle">Politician, author, party founder, born 1969 &mdash; Animal correspondence: Cheetah</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The quality of gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The gaze of the social three is self-confident, outward-directed and penetrating &mdash; he looks for the audience, measures the impact, calculates the response. Sahra Wagenknecht's view of talk shows and parliamentary debates is legendary: calm, precise, easy to see. No nervousness, no distractions. She looks where the attention is &mdash; and holds her tight.</p>
+          <p class="vb-intro">This is the cheetah in the approach. Still motionless, but already focused on the goal. The social threesome knows the stage before they step on it. Wagenknecht instinctively knows how a sentence has to sound in order to be remembered &mdash; and how a silence is sometimes louder than any answer.</p>
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>gives this look an additional quality: it not only looks self-confident, but also inviting. Wagenknecht can listen &mdash; or give the impression that she does. This mix of sharpness and warmth is her political trademark.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social three: success as identity, recognition as fuel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social subtype of the three, which Claudio Naranjo denotes<strong>Reinforcement type</strong>called, lives for prestige, status and public impact. He doesn't just want to be successful &mdash; he wants everyone to see it. The stage is not a means, but a home. Sahra Wagenknecht has developed this energy to a high level: books that become bestsellers. Speeches that go viral. A party that bears her name.</p>
+          <p class="vb-intro">The BSW &mdash; Alliance Sahra Wagenknecht, founded in 2024 &mdash; is an extraordinary phenomenon politically and typologically: a party named after a person that immediately enters three state parliaments. The social threesome builds systems that make it visible. Wagenknecht did this with a consistency that astonished even political opponents.</p>
+          <p class="vb-intro">She is not a populist in the classic sense &mdash; she is a<em>Analyst of the popular</em>. She understands what motivates people and formulates it in a way that hits home. This is the gift of the social three: not just to perform, but to understand<em>warum</em> bestimmte Inhalte funktionieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-wing: solidarity with the people as political capital</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>brings a crucial addition to the SO3 basic structure: the desire to be liked, to be needed, to be there for others. The two-wing is not just about abstract recognition &mdash; it's about personal affection, the feeling that people trust you and want to follow you.</p>
+          <p class="vb-intro">Wagenknecht uses this energy masterfully. Their political messages often sound like those of someone who is personally affected - who fights for the weaker because he has experienced it himself. The message is:<em>I am one of you.</em>And the SO3w2er is good at conveying exactly that - because he feels it too, at least in the moment he says it.</p>
+          <p class="vb-intro">The downside: The two wing can tend to seek approval and experience contradiction as a personal attack. Anyone who criticizes Wagenknecht is not just criticizing a political position - he attacks an identity. This explains why arguments with her often reach a level of acrimony that goes beyond factual differences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The overall effect: books, party, media, brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sahra Wagenknecht is one of the most discussed politicians in Germany &mdash; not in spite of their contradictions, but because of them. She was a communist and is now the leader of a pragmatic conservative left. She represents social justice and at the same time a restrictive migration policy. She criticizes capitalism and writes books that are reviewed in the mainstream feuilleton.</p>
+          <p class="vb-intro">The SO3w2er navigates contradictions intuitively &mdash; not because he is dishonest, but because he senses what is required. The ability to adapt is not a flaw, but a competence: if you want to appeal to many different milieus, you have to speak many different languages. Wagenknecht has mastered this skill at a level that is hardly unparalleled in the German political landscape.</p>
+          <p class="vb-intro">Your books &mdash; below<em>Die Selbstgerechten</em> (2021) und <em>Frieden</em>(2023) &mdash; are not party programs, but cultural interventions. They create space for debates that do not take place elsewhere. This is the social threesome at its conscious level of expression: it uses success not just for itself, but as a platform for something bigger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The cheetah: the energetic effect on the political stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The cheetah is the fastest land animal in the world &mdash; and it is precise. He doesn't just run, he runs<em>zielgenau</em>. No other animal embodies the energy of the social three so aptly: speed, focus, efficiency, elegance. Sahra Wagenknecht has fully developed this energy in the political arena. Her speeches are quick, but never uncontrolled. Her arguments are sharp but rarely erratic.</p>
+          <p class="vb-intro">Anyone who sees Wagenknecht on a talk show notices this cheetah energy: she waits for the right moment, then attacks precisely and leaves the impression that she has much more in reserve. That's not a pose &mdash; that is typological substance. The SO3w2 doesn't struggle with volume. He struggles with timing and impact.</p>
+          <p class="vb-intro">At the same time, the cheetah has a weak point: it cannot run for long. Focusing on sprinting means endurance at other levels can suffer. Wagenknecht needed time off for health reasons several times. The energy of SO3 is highly efficient &mdash; but it has its price.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: when success no longer has to prove who you are</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the three leads from the question<em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em>For the SO3w2 this means: no longer writing books to be heard, but because you have something to say. No more going on talk shows to garner approval, but to be honest &mdash; even if it costs.</p>
+          <p class="vb-intro">There are moments in Wagenknecht's public appearance in which this transformation becomes visible: when she takes uncomfortable positions that damage her reputation in the short term because she believes they are right. The cheetah that no longer just hunts for applause, but for truth &mdash; this is the social three at its highest level of expression.</p>
+          <p class="vb-intro">A conscious SO3w2er can become a bridge - between camps that no longer listen to each other. Wagenknecht has this potential. Whether she uses it fully remains to be seen. But the cheetah that pauses and thinks before sprinting &mdash; that is the energy that is most needed politically.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+
+      ${relatedLinks([
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-obama", label:"Portrait: Barack Obama (SO2w3)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"}
+      ])}
+    </div>
+  `);
+}
+
+function sucharitBhakdiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sucharit-bhakdi-portrait.jpg" alt="Sucharit Bhakdi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Sucharit Bhakdi</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Microbiologist, born 1946 &mdash; Pioneer of critical vaccine science &mdash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever that sounds the alarm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong>is the animal of the social two &mdash; and no animal describes Prof. Dr. Sucharit Bhakdi more apt. The Golden Retriever is naturally human-oriented, loyal, warming, loyal. He doesn't hit out of aggression &mdash; he strikes out of love. Because he senses that something is wrong. Because he sees the danger before others see it. Because he cannot remain silent when those he loves are in danger.</p>
+          <p class="vb-intro">Sucharit Bhakdi, born in 1946 in Washington D.C., grew up in Thailand, studied and taught in Germany &mdash; For 22 years as full professor of medical microbiology at the University of Mainz, one of the most cited microbiologists in Germany &mdash; became one of the most distinctive and courageous voices of scientific criticism during the pandemic. He went public not because he sought attention, but because he believed he had to. Because the Golden Retriever can't sleep when he smells alarm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Serving as a calling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong>is the reinforcement type of the two - the subtype that directs its service not to individual people, but to the community, to society, to humanity as a whole. The social two doesn't ask, "What can I do for you?" She asks, "What can I do to make everyone feel better?" Their drive is not self-centered helping, but a genuine, deep devotion to the well-being of the collective.</p>
+          <p class="vb-intro">Bhakdi has researched, taught, published for over four decades &mdash; not for fame, not for money, but because for him microbiology was a service to human health. When he recognized the danger he saw in the new mRNA vaccines during the pandemic &mdash; Blood clotting disorders, immune overactivation, the penetration of spike proteins into vital organs - it was clear to him: remaining silent would be a betrayal of this mission. A Golden Retriever that smells danger and stays still is no longer a Golden Retriever. He is an animal that denies his nature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One Wing: Morality as a non-negotiable limit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>One wing (w1)</strong>gives the social two a dimension that goes far beyond caring: moral uncompromising. The One lives according to inner principles that are non-negotiable. She cannot tolerate half-truths. She cannot stand by when injustice happens and everyone stays silent. She feels obliged &mdash; not out of ambition, but out of a deep sense of justice.</p>
+          <p class="vb-intro">At Bhakdi, this wing of the A combines with the scientific ethos of an old-school researcher: empirical evidence, methodological rigor, willingness to express uncomfortable conclusions. When almost all institutions went in one direction, he chose the opposite &mdash; not out of trouble, but because his inner balance showed: This direction is not right. The One cannot act as if it does not see this.</p>
+          <p class="vb-intro">He paid a high personal price for this: smear campaigns, criminal prosecution, scientific ostracism. The SO2w1 knows this price &mdash; and pays it without forgetting the bill. Because the opposite would be: remain silent. And that is not an option.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The overall effect: warmth and imperturbability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who experiences Prof. Bhakdi in interviews or lectures will not encounter the image of the cold, aloof scientist. He radiates warmth &mdash; genuine, caring, almost fatherly warmth. He speaks slowly, clearly, with the pathos of someone who is serious. He wants to be understood &mdash; not admired. He wants people to understand what he understands &mdash; not so that he is right, but so that they are protected.</p>
+          <p class="vb-intro">This is the overall effect of the SO2w1: a person who puts himself tirelessly into service - and at the same time remains unshakable. He cannot be bought, he cannot be silenced, he cannot be intimidated. Not because he wants to be a hero. But because he has the heart of a golden retriever within him: he can't help but point out the danger he sees &mdash; over and over again until someone listens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic effect: serious and warm at the same time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bhakdi's energy is that of a person who is both sad and determined. He carries the weight of what he knows &mdash; and he does not wear it lightly. The social two suffers when society suffers. When the Golden Retriever sees his warnings ignored, it's not an abstract failure: it's a personal pain.</p>
+          <p class="vb-intro">And yet: He doesn't give up. The one wing keeps him upright. The one does not break as long as the inner principle is clear &mdash; and with Bhakdi it is that. He does not fight for himself. He fights for the people he doesn't know personally but still loves - as a social two that sees humanity as its community to which it belongs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Golden Retriever: Loyalty as the highest form of love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong>stands for unconditional affection, for loyalty, for reliability &mdash; and for a quality that has become particularly rare in our time: loyalty to the truth, even if the truth is expensive. He doesn't seek recognition. He is looking for trust. He needs to feel really needed, really useful &mdash; not as a celebrity, but as a protector.</p>
+          <p class="vb-intro">Sucharit Bhakdi is this golden retriever. His entire life's work &mdash; forty years of research, countless publications, the courage to publicly contradict when almost everyone was silent - can be summarized in a single sentence:<em>Ich warne euch, weil ich euch liebe.</em>This is the SO2w1. This is the golden retriever who won't stop barking because he knows the burglar is still at the front door.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 - The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn and Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function sundarPichaiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sundar-pichai-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sundar Pichai</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">CEO of Google and Alphabet, born 1972 &mdash; Animal correspondence: Rabbits</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong>is the animal of self-sustaining type 6 &mdash; alert, lovable, adaptable. It's not confrontational. It stops before it moves. It builds networks of trust, knows every escape route in its territory &mdash; and stays calm exactly when others start to panic because it has analyzed the situation long ago before it escalated.</p>
+          <p class="vb-intro">Sundar Pichai has been CEO of Google since 2015 and CEO of Alphabet since 2019 &mdash; the group that Google belongs to. He runs one of the most powerful technology companies in the world without ever raising his voice. No tweet that provokes. Not a statement that divides. There is no step that is not secured. In an industry full of egomaniacs, Pichai is the rabbit: always present, rarely tangible, able to survive in a way that you only understand when you take a closer look.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Warmth: Security through belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>W\xe4rme</strong>- because this subtype does not seek security through rules or confrontation, but through human closeness. The SE6 binds itself to people, groups and institutions it can trust. She is lovable, collegial, reliable &mdash; and therefore indispensable. If you feel safe because you are needed, you don't have to be afraid of being abandoned.</p>
+          <p class="vb-intro">Pichai joined Google in 2004 as a product manager &mdash; and stayed. Microsoft offered him the CEO position. Twitter wooed him. He refused. Not because Google offered the best deal, but because he had put down roots there. The self-preserving six knows this feeling: you don't leave what you know and what you trust. That would be more dangerous than breaking new ground.</p>
+          <p class="vb-intro">His leadership quality is based on precisely this characteristic. He is known for listening before deciding. Teams enjoy working with him &mdash; He doesn't dominate a meeting, he moderates it. He is the man that engineers, product managers and investors trust at the same time because he doesn't hurt either side. This is warmth as a strategy: security through indispensability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The F\xfcnferfl\xfcgel: Silent Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong>brings the self-preserving Six something that is not immediately apparent from the outside: analytical depth, introversion and the ability to delve deeper into factual issues before speaking. The SE6w5 doesn't talk to convince. She listens to understand. And when she speaks, she has already thought through the arguments from several angles.</p>
+          <p class="vb-intro">Pichai is known for his phenomenal memory. Employees report that he still clearly remembers names, numbers and details from meetings months later. That's not talent &mdash; This is the SE6w5 in action: permanent information processing because information means security. If you know everything, nothing can surprise you.</p>
+          <p class="vb-intro">Grew up in Madurai, Tamil Nadu, in a family without much wealth - his father slept with him on the floor as a child until the family could afford beds &mdash; Pichai developed this drive for himself: knowledge is the way up. IIT Kharagpur, Stanford, Wharton &mdash; He dropped out of his MBA studies when Google hired him in 2004. The F\xfcnferfl\xfcgel says: If I know enough, I'm safe. The rabbit nods.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: From Chrome to Gemini</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pichai's career at Google is the story of a man who was never loud &mdash; and yet everything changed. In 2008 he led the development of<strong>Google Chrome</strong>. Today, Chrome has over 60 percent market share among browsers worldwide &ndash; a project that was considered too risky internally and which parts of the management opposed. Pichai enforced it. Quietly, persistently, with numbers.</p>
+          <p class="vb-intro">After that: Chrome OS, Google Drive, Google Maps, the realignment of the Android ecosystem. In 2015, Larry Page named him CEO of Google &mdash; and in 2019, when Alphabet was further expanded as a holding structure, Pichai moved to the top of the entire group. He is now the highest paid CEO of one of the five most valuable companies in the world.</p>
+          <p class="vb-intro">Under his leadership, Google has won the AI ​​competition with<strong>Gemini</strong>(formerly Bard) &mdash; sp\xe4t, hectic, under pressure from ChatGPT. Pichai commented calmly on the moment. Internally, employees report, the pressure was enormous. This is the SE6w5 in crisis: calm on the outside, on high alert on the inside. The rabbit doesn't run away immediately. First it calculates all the risks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE6w5 is hers<strong>Zuverl\xe4ssigkeit</strong>- the ability to be the calming force in turbulent situations. Pichai has led Google through several crises &mdash; political headwinds, antitrust proceedings, the AI ​​upheaval &mdash; without ever losing your temper. Employees praise his accessibility, his listening, and his consistency. This is the SE6w5 at its best: stability as management quality.</p>
+          <p class="vb-intro">Der Schatten: Im Januar 2023 entlie\xdf Alphabet rund <strong>12.000 Mitarbeiter</strong>- Twelve percent of the workforce, the largest mass layoff in the company's history. Pichai said in an email that he personally bears responsibility. In the same fiscal year, he received total compensation of approximately $226 million. This is the shadow of SE6w5: the heat that radiates inwards can become cold outwards - when the system you serve demands it.</p>
+          <p class="vb-intro">The passion of the six is ​​this<strong>Angst</strong>- and in the self-preserving subtype it appears as chronic protection. Pichai protects himself: in formulations, in consensus, in avoiding polarization. That protects him. It protects Google. And sometimes it obscures what was really decided &mdash; and from whom.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The rabbit that stays</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sundar Pichai is married to Anjali Pichai, whom he met while studying engineering at IIT Kharagpur &mdash; his childhood sweetheart. They have two children. Little is known about his private life; he rarely talks about it. The rabbit keeps its territory to itself.</p>
+          <p class="vb-intro">What remains is the image of a man who won through silence in one of the loudest industries in the world. The one who didn't provoke, but convinced. Who didn't dominate, but showed perseverance. In a technology world that rewards gr\xfc\xdfenmania, Sundar Pichai is proof that even the rabbit survives - sometimes longer than the lion sitting next to him.</p>
+          <p class="vb-intro">This is the SE6w5: Persistence through trust, depth through restraint, security through competence. And the quiet certainty that you don't have to be loud to be heard.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function timBendzkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tim-bendzko-portrait.jpg" alt="Tim Bendzko" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Bendzko</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter, born 1985 &mdash; Animal correspondence: Pigeon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Pigeon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong>is the animal of the self-sustaining four &mdash; and it hits Tim Bendzko in a way that only becomes clear upon second viewing. The pigeon is not an animal of grand gestures. It doesn't circle majestically like the eagle, it doesn't roar like the lion. She finds her way quietly &mdash; and she finds him reliable. The dove carries messages over long distances, through storm and darkness, and it returns. Not because she doesn't know fear, but because she knows where she belongs.</p>
+          <p class="vb-intro">Tim Bendzko makes music that lets people find what they couldn't express themselves. His songs don't land loud &mdash; they land exactly. &ldquo;Just save the world for a moment,&rdquo; is formulated ironically, almost lightly, and yet describes something exhausting: the feeling that one's own life almost disappears under the weight of all the demands. This is the pigeon: it carries the weight &mdash; and she still sings.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining Four: The Pain That Is Not Visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong>is the opposite type of the four in Enneagram language - That means: It shows to the outside almost the opposite of what you would expect from a four. No drama, no demonstrative suffering, no self-dramatization on a grand scale. The SE4 often appears cheerful, grounded and reliable. What she wears inside remains hidden. Naranjo called this subtype<em>Toughness</em> (engl. <em>Tenacity</em>) &mdash; a quiet, stubborn perseverance, a hardness towards yourself: the drive to keep going, even if it hurts, without complaining about it.</p>
+          <p class="vb-intro">Tim Bendzko rarely complains in interviews. He seems down-to-earth, almost inconspicuous - no rock star posturing, no excess, no drama. And yet his texts have a sensitivity that can only be found by someone who knows the inside well. &ldquo;By a thread&rdquo; is about the moment when everything threatens to tip over &mdash; and back from the narrow path. This doesn't write a seven celebrating life. This is written by a four who knows how close the ground is.</p>
+          <p class="vb-intro">The self-preserving instinct directs the energy inward &mdash; on one's own existence, on stability, on what supports. That explains Bendzko's musical signature: no quick trends, no adaptation to the most commercial, no format radio opportunism. A voice that remains.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The triple wing: shaping the interior</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Triple wing (w3)</strong>gives the self-sustaining four something crucial: the ability not only to experience the inner, but to<em>gestalten</em>- and communicate it effectively to the outside world. The pure SE4 could disappear into its inner world. The triple piano brings you back to reality: it turns feeling into a song, pain into a melody, searching into a career.</p>
+          <p class="vb-intro">Tim Bendzko attended the Pop Academy in Mannheim &mdash; a conscious decision for craftsmanship, for professional structure. This is the three-wing wing: He knows that talent alone is not enough, that good work needs form. And he is ready to learn and discipline this form. In this sense, his songwriting is not a spontaneous outpouring of emotions, but rather precise composing: exactly the right formulation, exactly the right moment at which a chorus breaks out.</p>
+          <p class="vb-intro">The triple wing also explains its success with a wide audience. The SE4 alone might be too introverted for mass appeal - too complex, too peculiar. The w3 translates the individual into the general. That's why a song like &ldquo;Only save the world for a moment&rdquo; at the same time sound personal and be recognized by millions as their own feeling.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Sustaining Four with Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w3 is its ability to make the difficult accessible - not through simplification, but through precision. Tim Bendzko sings about what many feel and rarely say: overwhelmed, longing, the feeling of not arriving. And he sings it in such a way that the listener is not ashamed but recognized. This is rare quality.</p>
+          <p class="vb-intro">The fate pattern of the four is the<strong>Neid</strong>- not as resentment, but as the chronic feeling that others have been given something that you yourself are missing. With the SE4, this envy remains hidden because it doesn't complain. It expresses itself as inner restlessness, as the feeling of never quite arriving, of never being completely finished. Many Bendzko songs revolve around exactly this basic tension: the desire to finally be there &mdash; and the knowledge that the &ldquo;There&rdquo; is always a little further.</p>
+          <p class="vb-intro">The triple piano brings the temptation to measure one's own worth through resonance: if the album is well received, it is enough. When things become quieter around you, doubt arises. The healing path here leads to decoupling the inner value from the external success - and to recognize that the voice is true even when no one is listening.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The dove that finds its home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the four leads from the question<em>What am I missing that was given to others?</em> zur Erkenntnis <em>What I am is complete &mdash; and it is mine.</em>For the SE4 this means no longer fighting the inner battle alone, but accepting it as part of life - not as a lack, but as a depth.</p>
+          <p class="vb-intro">Over the years, Tim Bendzko has developed a musical language that reflects exactly that: it becomes more mature, calmer, more confident &mdash; without losing sensitivity. The dove that knows its way. Who no longer sees every gust of wind as a threat, but as part of the journey. It carries the message &mdash; and she arrives.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Pigeon: Subtype Profile"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function uliHoenessPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-uli-hoeness-portrait.jpg" alt="Uli Hoeneß" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uli Hoeneß</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Professional footballer, manager &amp; President of FC Bayern Munich, born 1952 &mdash; Animal correspondence: Hippo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong>is the beast of the self-sustaining two &mdash; and Uli Hoeneß is this animal in its most uncompromising form. The hippo doesn't need an audience. It needs its territory: the water it knows, the banks that belong to it, the boundaries it marks and defends with every ounce of its body. It seems good-natured &mdash; until someone comes too close. Then it shows what's really inside him.</p>
+          <p class="vb-intro">Uli Hoeneß has been at FC Bayern Munich for more than fifty years. Not as an employee, not as an official &mdash; but as a person who saw this club as his territory and built it up with an energy that is unparalleled in German football history. He won as a player, built as a manager, led as a president &mdash; and after the deepest fall of his life he has returned. The hippo stands up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preserving two: care as a survival principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong>is the subtype of Two that directs its energy most directly toward its own survival and the survival of those closest to it. Naranjo calls this subtype<em>Me First</em>: the two that names their own needs, knows and protects their territory &mdash; not through withdrawal, but through presence. The SE2 is the most concrete, closest to the earth, least romanticized of the three two-series variants. She acts. She cares. She hedges.</p>
+          <p class="vb-intro">With Uli Hoeneß, this is reflected in a care that is not abstract, but personal and tangible. He called players in crises, helped families, personally accompanied transfers, resolved conflicts &mdash; not because it was part of the job description, but because he understood it that way: FC Bayern is a family, and he is the one who holds this family together. This kind of caring is not weakness. She is power &mdash; the power of those who know that cohesion is the foundation of everything.</p>
+          <p class="vb-intro">Hoeneß was never a man of grand gestures for the gallery. Whatever he did, he did it directly, often discreetly, sometimes rudely. This is the SE2: not elegant diplomacy, but the direct intervention of those who feel responsible - and this sense of responsibility is not delegated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Triple Wing: Success as Second Nature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Triple wing (w3)</strong>gives the self-preserving Two something that the pure SE2 does not have of itself: the hunger for measurable success, for results, for proof that one's own work is effective. The three are measured by numbers, titles, victories. She needs the proof &mdash; not for others, but for yourself. Combined with the SE2, you create someone who is simultaneously deeply caring and relentlessly goal-oriented.</p>
+          <p class="vb-intro">Uli Hoeneß turned FC Bayern from a solid Bundesliga club into one of the most economically and sportingly successful football clubs in the world. He didn't formulate it as a vision &mdash; he did it. Annual titles, Champions League victories, record sales, world-class transfers. The three-wing wing does not allow for mediocrity. He always asks: How good was it really? And can it get any better?</p>
+          <p class="vb-intro">But this wing also has its shadow. The SE2 wing of three tends to equate success with self-worth: I am what I achieve. When performance fails, when control slips, the foundation can falter. The 2013 tax affair was not just a legal problem for Hoeneß - it was an intrusion into the image he had of himself: the man who has everything under control.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Passion: Pride as a driving force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the two is<strong>Stolz</strong>- and in SE2w3 this pride takes a special form: it is directed not at personal admiration, but at the work. On what has been created through the work of one's own hands, through decades of commitment, through the sum of all decisions. This pride is justified &mdash; and at the same time it is a trap when it becomes a condition for one's own worth.</p>
+          <p class="vb-intro">Uli Hoeneß didn't see FC Bayern as a job. He saw it as his life's work. This is the pride of SE2w3 in its purest form: no narcissism, but the deep conviction that what you have built is unique &mdash; and that you yourself are indispensable for its preservation. This belief drove him. And she made it hard for him to let go.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Fall and the Return: The hippopotamus stands up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The 2013 tax affair and the subsequent prison sentence &mdash; three and a half years, of which he served about half &mdash; was a cut that might have broken anyone else. Hoeneß faced the trial, publicly admitted his guilt and accepted the punishment. This is not a given. It's the SE2 in its mature form: taking responsibility &mdash; even when it hurts.</p>
+          <p class="vb-intro">What followed his release was perhaps the chapter that most defines him. He returned &mdash; not triumphant, but grounded. He took over the office of president again. FC Bayern welcomed him. The hippo had returned to the water. And anyone who thought he would come back smaller had underestimated the animal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gift: A club as a life's work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Uli Hoeneß brings to German football &mdash; and FC Bayern Munich in particular &mdash; has given cannot be reduced to titles. He showed that a football club can be more than a business model: a community with attitude, with loyalty, with a self-image that goes beyond the season. Players who got into crises spoke of him like a father. Employees who stayed for decades because they knew someone would stand up for them. This is the gift of SE2w3: loyalty that sustains.</p>
+          <p class="vb-intro">The hippopotamus protects its territory &mdash; but it also protects those who live in it. Uli Hoeneß did not build FC Bayern for himself. He built it for what he saw in it: a community that lasts. This is his life's work. And little will change about that - even if the hippopotamus changes the course of the river at some point.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippo: Subtype Profile"},
+        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn and Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function veraBirkenbihlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-vera-birkenbihl-portrait.jpg" alt="Vera Birkenbihl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vera F. Birkenbihl</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-subtitle">Trainerin, Buchautorin, Vordenkerin, 1946&ndash;2011 &ndash; Animal correspondence: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The owl who knew thinking</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong>is the animal of self-sustaining type 5 &mdash; an animal of nocturnal silence, precise observation and deep knowledge. She sees what others don't see. She doesn't ask out loud &mdash; she looks, analyzes, organizes. And when she speaks, it is with a clarity that comes from long observation, not from fluency.</p>
+          <p class="vb-intro">Vera F. Birkenbihl was this owl: a woman who spent her life wondering how thinking really works &mdash; and turned it into a work that has helped millions of people learn more clearly, communicate more clearly, and think about themselves more clearly. Not with a university diploma. Not with institutional backing. But with the alert gaze of the owl that sees in the darkness because it has practiced looking closely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preserving F\xfcnf: Knowledge as a castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong>is, according to Naranjo, the subtype from which Naranjo gets its name<strong>Burg</strong>gave: one's own territory &mdash; the knowledge, the thinking space, the methodology &mdash; becomes a fortress. Not to shut others out, but to protect yourself: from being overwhelmed, from losing energy, from feeling empty after too much contact. The passion of the F\xfcnf is that<strong>Geiz</strong>- hoarding energy, attention and resources. With the SE5 this manifests itself as radical self-sufficiency: I need little. But what I have is mine, and I understand it completely.</p>
+          <p class="vb-intro">Birkenbihl lived this structure consistently: she remained unmarried, lived alone, and worked on her own account. No publisher to whom she submitted - she founded her own. No institution to which she was committed &mdash; she developed her own methods. Your place of residence, your working hours, your portfolio of topics: self-selected, self-responsible, self-managed. The SE5 castle is not a retreat from the world, but rather a prerequisite for being able to give the world something of your own.</p>
+          <p class="vb-intro">Ihr erstes gro\xdfes Buch, <em>Stroh im Kopf?</em>(1974), released when she was in her late twenties. It became one of the best-selling non-fiction books in the German-speaking world. No coincidence: the self-preserving five who have understood something does not pass on this understanding verbally - she writes it down, structures it, makes it last. The book is the castle that can be shared without losing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: Skepticism as a Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong>brings the self-preserving Five a characteristic direction: deep skepticism towards authorities, systems and conventions - combined with a strong sense of justice and a loyalty to what has been proven to be true. The SE5w6 doesn't just collect knowledge - She tests it, questions it, and if it stands up to scrutiny, she defends it.</p>
+          <p class="vb-intro">Birkenbihl's most famous target was the German school system. Her criticism was not polemical, but methodical: She asked why schools teach children in a way that the brain is least able to process &mdash; through memorization, time pressure and fear of bad grades. The Six Wing explains why this question stuck with them: The system as a system is always suspect until it has proven to make sense. And the German education system had never provided proof of this.</p>
+          <p class="vb-intro">At the same time, the six-wing piano was the reason for her reliability as a seminar leader. Anyone who sat with her realized: This woman is not here to impress. She's here because she has something important to say &mdash; and because she wants it to really resonate. This is SE5w6 at its most productive: knowledge that feels committed to being truly useful.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Learning that works</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Birkenbihl's core contribution is the concept of<strong>gehirngerechten Lernens</strong>: the idea that every learning process should be designed according to how the brain actually works - not as curricula expect. This included avoiding fear as an obstacle to learning, combining information and emotion, and using images and stories instead of dry definitions. The SE5 as an owl sees in the dark &mdash; and Birkenbihl saw what textbooks did not see: that learning mainly fails when the brain is not thought through.</p>
+          <p class="vb-intro">Besonders bekannt wurde die <strong>Birkenbihl-Methode</strong>for language acquisition: Instead of learning grammar rules, she wrote, you should first translate a foreign language text word by word into your native language -<em>dekodieren</em>- and then listen, first passively, then actively. This method was based on how children naturally acquire a language: through understanding, not through rules. The SE5w6 behind it: The foreign language teaching system is wrong. Here's why. And here is the alternative.</p>
+          <p class="vb-intro">Over fifty books, thousands of seminars, audio tapes, CDs, later videos and online courses: Birkenbihl has poured her knowledge into every available form. This is not vanity &mdash; This is the SE5 in its deepest drive structure: If I have understood something important, then it has to be preserved. Knowledge must not die with me.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Owl in the Castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE5w6 lies in its ability to penetrate complex relationships in such a way that they become teachable. Vera Birkenbihl has given generations of coaches, educators and parents a vocabulary for thinking about learning. It has the term<em>gehirngerecht</em>brought into everyday language. This is the gift of the owl: clarity that remains long after the owl itself is gone.</p>
+          <p class="vb-intro">The fate pattern of the F\xfcnf is the<strong>Geiz</strong>- not as being stingy with money, but as a deep-rooted feeling of not having enough energy to give yourself completely. In the case of the SE5, this shows up as a tendency to withdraw, a tendency to value systems more than people, and a difficulty in really getting in touch without feeling like you're losing something in the process. Birkenbihl's work was enormous &mdash; and yet she remained elusive as a person. The castle was well built.</p>
+          <p class="vb-intro">The six wing can turn skepticism into distrust - a world full of false systems that you have to assert yourself against. With Birkenbihl, skepticism remained productive: it transformed into questions, the questions into methods, and the methods into works that are still read and used today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The owl that made school</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the F\xfcnf starts from the question<em>Habe ich genug, um zu geben?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em>For SE5w6 this means not giving up the castle, but occasionally lowering the drawbridge - not because you have to, but because real contact nourishes rather than costs.</p>
+          <p class="vb-intro">Vera Birkenbihl took this step through her work. The castle remained &mdash; living alone, self-publishing, self-determination. But through the work she opened windows. Every book was a window. Every seminar was a window. And what flowed through those windows was not performance, not charisma, not self-expression &mdash; but precision that helped.</p>
+          <p class="vb-intro">Vera F. Birkenbihl died on January 2, 2011 in Munich. She was 64 years old. Your work lives on &mdash; in the books, in the methods, in the people who learned to learn differently through them. This is the self-sustaining F\xfcnf with six-wings. This is the owl that set the tone.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function wallaceShawnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wallace-shawn-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wallace Shawn</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Actor, playwright, essayist, born 1943 in New York</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong>is the most powerful animal in the rainforest - and the most peaceful. He's not a hunter. He doesn't seek confrontation. He sits, eats, thinks, observes. It is big and impressive, and yet it is hardly noticeable in the undergrowth - because it doesn't want to be noticed. The gorilla lives in a group, maintains his relationships, protects his people, and he loves food - as a sensual pleasure, as a social act, as proof that life can be good.</p>
+          <p class="vb-intro">Wallace Shawn is short, bald, has a nasal voice that you won't forget, and has been playing villains, poor idiots and overconfidants for decades in films in which someone ends up<em>Inconceivable!</em>(“Unimaginable!”) shouts. He is one of the brightest minds in the American intellectual scene - son of the editor-in-chief of<em>New Yorker</em>, educated at Harvard and Oxford, author of plays that shaped the off-theater of the 1970s and 1980s. Wallace Shawn is the gorilla: he looks comfortable – and carries the heavy weight of the ideas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The family: pleasure as a worldview</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong>– because this subtype does not seek security and joy in the big world, but in the closest circle. He builds nests of familiarity, warmth and sensual pleasure. Food, conversation, music, laughter, good people at the table: these are not luxury goods of the SE7, but existential needs. Joy is not an addition to life – it is life itself.</p>
+          <p class="vb-intro">Shawn has lived with the writer Deborah Eisenberg for decades without ever marrying publicly. He speaks about friendships and intellectual conversations with a warmth that he hardly distinguishes from love. His most famous work –<em>My dinner with André</em> (<em>My Dinner with Andre</em>, 1981) – is literally a film about a dinner: two friends talking, for two hours, about consciousness, theater, life and death. No hero, no action, no romance. Only conversation as the elixir of life. The SE7 in its purest form: table conversation as the highest art form.</p>
+          <p class="vb-intro">Shawn was born in 1943 to William Shawn, who was born<em>New Yorker</em>from 1952 to 1987. He grew up in a house where ideas, words and intellectual curiosity formed the climate like weather elsewhere. He never really left this nest - he enlarged it, populated it, filled it with like-minded people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: Loyalty and Conscience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Six wing (w6)</strong>gives the self-sustaining seven something that the pure SE7 alone doesn't always develop: a stable ethical backbone. Where the SE7 tends to distract, to avoid discomfort through pleasure, the w6 wing gives the courage to stay with the uncomfortable - and to put it into words, even if it hurts.</p>
+          <p class="vb-intro">Shawn has been politically active since the 1970s - not as a politician, but as an essayist and playwright. His pieces –<em>The Fever</em>, <em>Grasses of a Thousand Colors</em>, <em>The Designated Mourner</em>– revolve around guilt, privilege and the question of why people who should know better still remain silent. In<em>The Fever</em>A wealthy person sits in a hotel room in the Third World and can no longer fall asleep because he suddenly understands what his wealth means. This is not an entertainment piece. This is a monologue of conscience - which does not spare itself.</p>
+          <p class="vb-intro">The six wing makes the gorilla loyal and serious. He ensures that the pleasure never remains completely naive. Shawn laughs a lot - and he always knows why he's laughing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Between Vizzini and the bookcase</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wallace Shawn is best known as an actor for two roles:<strong>Vizzini</strong> in <em>Die Prinzessin Braut</em>(1987) – the cool, calculating villain who keeps<em>&bdquo;Inconceivable!&ldquo;</em>shouts as the things he thought were impossible happen - and<strong>Rex</strong>, the scared toy dinosaur in the<em>Toy-Story</em>series (since 1995), which, despite its huge teeth, is one thing above all: worried. The SE7w6 has both roles at its core: joy and fear, overconfidence and doubt, charm and intellectual arrogance.</p>
+          <p class="vb-intro">As a playwright, his work is darker and more sophisticated:<em>Our Late Night</em>(1975) was his breakthrough;<em>My Dinner with Andre</em>(1981, co-written and performed with director Louis Malle and director and playwright Andre Gregory) became a cult film for a generation of intellectual New Yorkers. They were later followed by<em>The Fever</em> (1990), <em>The Designated Mourner</em> (1996) und <em>Grasses of a Thousand Colors</em>(2009) – Plays that are rarely seen on German-speaking stages, but are considered key texts of political theater in English-speaking countries.</p>
+          <p class="vb-intro">At the same time, essays about war, capitalism, guilt and morality appeared in magazines and on websites - essays that do not seek attention, but rather truthfulness. The gorilla thinks, eats, writes, plays, invites friends – and makes a life out of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Smallest Man in the Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE7w6 is its<strong>Ability to enjoy without self-deception</strong>. Shawn can laugh and at the same time know that laughter isn't everything. He seeks pleasure, but does not take refuge in it. He is warm, present, curious - and he carries a serious opinion without forcing it on others.</p>
+          <p class="vb-intro">The shadow: The SE7 tends to overestimate itself - not in the sense of arrogance, but in the sense of the Vizzini problem: your own analysis is correct until it is no longer correct. And then it's too late. Shawn has admitted in interviews that for years he hardly believed he was a real artist - that he thought of himself as a dilettante who just got lucky. This is the six wing: the inner doubter who whispers even in the best of hours.</p>
+          <p class="vb-intro">And yet, Shawn left behind a body of work that has a longer shelf life than most Hollywood careers. Vizzini fails because he thought the unthinkable was impossible. Shawn survives because he always believed the unthinkable was possible - and thought about it. This is what distinguishes the thinker from the villain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The gorilla who thinks while eating</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wallace Shawn is a gorilla: sociable, warm, sensual, familiar - and with an intelligence that is not immediately visible because it does not insist on being seen. He sits at the table, eats well, speaks clearly, and at some point, in the middle of the conversation, he says something that never leaves you.</p>
+          <p class="vb-intro">His stage plays are not answers. They are questions in dialogue form. And<em>My Dinner with Andre</em>– the film in which two friends share a meal while talking about everything that matters – is perhaps the most honest portrait of SE7w6 in cinema: the joy of conversation as a way of life. Curiosity as home. The other person at the table as the most important thing there is.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+          {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+          {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function warrenBuffettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Warren Buffett</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-subtitle">Investor, Unternehmer, geb. 1930 &ndash; Animal correspondence: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl from Omaha</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong>is the animal of self-sustaining type 5 &mdash; a being of silence, observation and concentrated perception. She is waiting. She looks. She only acts when she really understands what she sees. And when she acts, she does so with a precision that others consider to be luck, but which requires decades of patient observation.</p>
+          <p class="vb-intro">Warren Edward Buffett, born on August 30, 1930 in Omaha, Nebraska, is perhaps the most famous owl in economic history. The man the world the<em>Oracle of Omaha</em>has lived in the same modest house in Omaha since 1958. He drives himself. He stops at McDonald's early. According to his own statements, he reads around five hundred pages a day. And from this simplicity he built one of the greatest fortunes in human history - not in spite of her, but because of her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Sustaining F\xfcnf: The Castle in Omaha</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong>is, according to Naranjo, the subtype to which he gave the name<strong>Burg</strong>has given: your own territory becomes a fortress. For Buffett, this castle is literal: his house at 5835 Farnam Street in Omaha, which he bought for $31,500 and never left. Not a penthouse in Manhattan. No property in the Caribbean. The castle is in Nebraska, and that's where it stays.</p>
+          <p class="vb-intro">The passion of the F\xfcnf is the<strong>Geiz</strong>- not as pettiness, but as a deeply rooted structure: the fear that one's own resources are not enough, combined with a radical reluctance to spend energy, time and money. Buffett's frugality is legendary. It costs for three dollars and nine cents or for three dollars and three cents, depending on the mood of the day - and he said that in bad stock market times he switches to the cheaper price. This is stinginess at the highest level: even your own free time is taken into account.</p>
+          <p class="vb-intro">His investment approach follows the same SE5 logic: don't spend what you don't fully understand. Only buy what you are willing to keep forever. Don't waste the capital &mdash; holding it together, letting it grow, hoarding it. Compound interest is the mathematical model of stinginess: spend nothing and what you hold will double over and over again. Buffett made this principle his philosophy of life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: Skepticism as an Investment Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong>brings a characteristic coloring to the self-preserving five: deep distrust of hype, speculation and mass euphoria - combined with a strong loyalty to what has proven to be true and solid. The six wing always asks:<em>Where is the risk? What could go wrong? What is the worst that can happen?</em></p>
+          <p class="vb-intro">This view explains why Buffett consistently avoided the dot-com boom of the 1990s. When the world invested heavily in technology stocks, he stuck with what he understood: insurance, railroads, consumer goods, banks. He was insulted for it - until the bubble burst. His famous sentence:<em>Sei \xe4ngstlich, wenn andere gierig sind. Sei gierig, wenn andere \xe4ngstlich sind.</em>This is the six-wing wing in its most productive form: skepticism as protection from the herd.</p>
+          <p class="vb-intro">The six wing's loyalty is evident in its decades-long partnership with Charlie Munger, which lasted over sixty years. Munger, who died in 2023 at the age of 99, was not just a business partner &mdash; he was the only person Buffett completely trusted. This is SE5w6: Few real bonds, but the ones that exist last a lifetime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Five hundred pages and a company</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Berkshire Hathaway</strong>, now one of the most valuable companies in the world, began as a struggling textile company that Buffett took over in 1965. What he has built from it is not a classic corporation, but a reflection of his personality: a conglomerate of solid, understandable companies - Geico, BNSF Railway, See\x27s Candies, Coca-Cola shares &ndash; that is focused on long-term value creation rather than quick returns. This is the SE5 castle as an economic structure: many chambers, all solidly built, no superfluous windows.</p>
+          <p class="vb-intro">The key to his success, says Buffett himself, is reading. Five hundred pages a day, for decades. Books, business reports, newspapers, balance sheets. The SE5 doesn't just hoard money &mdash; she hoards knowledge. And from this hoarded knowledge, slowly and unspectacularly, an advance emerges that others consider to be genius. Buffett himself once put it this way:<em>Knowledge builds up like compound interest.</em>The owl reads until it truly understands.</p>
+          <p class="vb-intro">His annual letter to Berkshire shareholders has been required reading for investors worldwide for decades - not because of the numbers, but because of the clarity. Buffett writes how the owl sees: directly, without ornament, with a precision that requires no concealment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The castle where you are alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w6 lies in its ability to penetrate complexity and reveal what is essential. Buffett didn't just make money &mdash; He founded a school of thought: value investing as an intellectual discipline, as an attitude towards uncertainty, as a philosophy of waiting. This is the gift of the owl: a look that looks beyond the noise of the present.</p>
+          <p class="vb-intro">The fate pattern of the F\xfcnf is the<strong>Geiz</strong>- and with Buffett, it shows itself not only in the way he deals with money, but also in the way he deals with emotions and relationships. His first wife, Susan, lived separately from him in San Francisco for years while he remained in Omaha. His biographer Robert Hagstrom and others have described how difficult it was for Buffett to be truly present &mdash; emotionally available, not just intellectually engaged. The castle protects. But it also separates.</p>
+          <p class="vb-intro">The wing of six can turn distrust into a general distrust of anything new. Buffett was late at Apple &mdash; only after much hesitation, after Tim Cook had convinced him. And he has openly admitted that he missed Amazon and Google as investment opportunities. Not because he didn't understand her &mdash; but because the six-wing said:<em>Ich traue dem nicht.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The owl that gives</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the F\xfcnf starts from the question<em>Habe ich genug?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em>For Buffett, this step looks like greatness &mdash; and yet it remains SE5 to the last consequence.</p>
+          <p class="vb-intro">In 2006, Buffett announced that he would donate around 99 percent of his wealth - mainly to the Gates Foundation and our own family foundations. With Bill Gates he founded the<em>Giving Pledge</em>, the \xf6public commitment of the super-rich to donate. What's left of it if you look more closely: Buffett doesn't transfer cash, but Berkshire shares - Shares that he wouldn't have sold anyway because a sale would trigger capital gains tax. The foundations that receive these shares are run by people close to Buffett. Assets change names, not control. The avarice of the self-preserving five does not stop counting even when it wears the face of generosity.</p>
+          <p class="vb-intro">Warren Buffett is still in Omaha. Still in the same house. Still at McDonald's for breakfast. And he still reads five hundred pages a day. The owl never stopped looking. This is the self-sustaining F\xfcnf with six-wings. This is Warren Buffett.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function willSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-will-smith-portrait.jpg" alt="Will Smith" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Will Smith</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Rapper, geb. 1968 &ndash; Fresh Prince, Ali, Oscar 2022 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever who wants to hug the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong>is the animal of the social two &mdash; and Will Smith is perhaps the most well-known Golden Retriever personality in the entertainment world. He is naturally approachable, warm, engaging. He wants everyone to be well. He wants everyone to laugh. He wants to be loved &mdash; and he gives everything he has for it. No other animal in the Enneagram world exudes this kind of unconditional, active, almost contagious warmth like the Golden Retriever. No other person in 1990s and 2000s Hollywood embodied this warmth as fully as Will Smith.</p>
+          <p class="vb-intro">Born in Philadelphia in 1968 and raised in humble circumstances, Will Smith began his career as a rapper &mdash; and was written as<em>Fresh Prince</em>became the favorite of an entire generation within just a few years. His energy was irresistible: effervescent, playful, warm &ndash; and always aimed at the audience. The social two does not live for itself. She lives for others. Will Smith needed the audience not just as a spectator &mdash; he needed it as a receiver of his energy, as a confirmation that he was welcome.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ambition as a form of love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social two<strong>Ehrgeiz</strong>- and that is not a contradiction to care, but rather its driving force. The social two doesn't just want to help: she wants the<em>Largest</em>be in helping. She doesn't just want to be loved: she wants<em>unentbehrlich</em>be loved. Your ambition is not an end in itself - he is the way she makes sure her love gets through. The more she does, the bigger her stage, the more people she can reach. The more people belong to it.</p>
+          <p class="vb-intro">Will Smiths Karriere folgt exakt dieser inneren Logik. Von <em>The Fresh Prince of Bel-Air</em>about<em>Men in Black</em>, <em>Ali</em>, <em>The Pursuit of Happiness</em>until the Oscar 2022 for<em>King Richard</em>- every film is at the same time an acting achievement and an offer:<em>I'm here for you. I am entertaining you. I move you. I am worthy of being loved.</em>The SO two doesn't just give &mdash; he gives with the awareness that the giving should be seen. Not out of vanity. From the deep need to belong.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The triple wing: splendor in the service of connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Triple wing (w3)</strong>turns the warm-hearted helper into a performer. The three live for the appearance, for the image, for success - and with Will Smith this wing connects seamlessly with the SO2 basic pattern: his success is proof of his love. His radiance is the channel through which his warmth reaches the world. The triple wing gives him the discipline, the drive, the ability to constantly reinvent himself &mdash; from rapper to sitcom star, from blockbuster king to Oscar winner.</p>
+          <p class="vb-intro">At the same time, the triple wing carries a danger: the confusion of image and identity. Will Smith worked very consciously on his picture for years &mdash; the perfect husband, the perfect father, the perfect friend of humanity. In his autobiography<em>Will</em>(2021), he revealed how much of it was protection: a facade over deep insecurities, a traumatic father-son relationship and the fear of not being good enough at the core.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Night of the Oscars: When the Golden Retriever Bite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The slap in the face on the Oscar stage in 2022 is a typological document. Chris Rock Made a Joke About Jada Pinkett Smith's Alopecia &mdash; and Will Smith stood up, stepped to the podium and struck. It was a moment that shattered the carefully constructed image of the beaming crowd favorite in a split second.</p>
+          <p class="vb-intro">From the SO2w3 perspective, this moment is not mysterious, but understandable - and tragic. The social two protects the people who belong to it. Jada is the core of his community &mdash; and the triple wing had taught him for years to mask pain, to smile, to carry on. That night the interior came through the exterior &mdash; The golden retriever, which usually just wags, bit. Not out of calculation. But because the protective impulse was stronger than the image.</p>
+          <p class="vb-intro">In the Enneagram, type 2 goes into<strong>Typ 8</strong>under stress - and that figure-eight stress point is exactly what you saw in that moment: control of your own territory, protection of the pack, direct access without filters. No more double smiles. Only the figure eight impulse remains:<em>Das lasse ich nicht zu.</em>Then the return &ndash; Tears, regret, gratitude. The twosome came back up.</p>
+          <p class="vb-intro">Minutes later he stood on stage crying, holding his Oscar and talking about love and vocation. This is Will Smith: both at the same time &mdash; the hurt and the warmth, the outburst and the regret, the person behind the picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic effect: sun with clouds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Will Smith's energy is solar: bright, attractive, warming. He enters a room &mdash; and the room becomes brighter. He laughs &mdash; and others laugh along. He talks about his children &mdash; and you feel that he really means it. This is not a performance in the cold sense: it is the real energy of a person who lives in connection and lives through connection.</p>
+          <p class="vb-intro">And yet: behind this sun lies a long shadow. The social two carries the passion<strong>Stolz</strong>- the belief that you have to be needed in order to be valuable. The belief that love must be earned, not simply received. Will Smith deserves a lot &mdash; and yet the question of whether he feels truly loved without deserving is one that runs through his entire work: from autobiography to cinema, from the stage to that one moment in which, if only for a brief moment, his entire image shattered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Warmth that Changes the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Will Smith gave the world cannot be reduced to filmographies. He showed a whole generation that you can be successful and warm-hearted &mdash; that ambition and humanity are not contradictory.<em>The Pursuit of Happiness</em>is not just a film &mdash; it is a promise: If you work hard enough, if you love yourself enough and love your child enough, then tomorrow will come. Remarkable: His son Jaden Smith not only starred in this film - he is also an SO2w3 on the Enneagram, just like his father. The Golden Retriever brought his puppy with him.</p>
+          <p class="vb-intro">This is the SO2w3 at its highest level: a person who uses his stage not for himself, but for the message that love is possible - even if you started at the bottom. The golden retriever with the triple wing can make the world warmer &mdash; when he learns to give this warmth to himself too.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 - The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function wolodymyrSelenskyjPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolodymyr-selenskyj-portrait.jpg" alt="Wolodymyr Selenskyj" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing &middot; Contratype of the Three</p>
+        <p class="krim-portrait-subtitle">Comedian, actor, president, born 1978 &mdash; The raccoon who plays the hero &mdash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon: nocturnal, clever, invisible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Raccoon</strong>is the animal of the self-sustaining three &mdash; and he is not an animal that is immediately recognizable. He comes in the night. He opens locks, rummages through supplies, leaves traces - but he's long gone when you look for him. He seems harmless, almost cute. His face naturally wears a mask. And he's smart enough to know exactly that.</p>
+          <p class="vb-intro">Volodymyr Zelenskyj, born in Kryvyi Rih in 1978, began his career as a comedian and actor. He starred in the television series<em>Diener des Volkes</em>a teacher who happens to become president &mdash; and then actually became president of Ukraine. What sounds like a fairy tale is, in the Enneagram, a warning: an actor who plays a role until he no longer knows where the role ends and where he begins. This is the trap of the self-sustaining three &mdash; and with Zelensky it has emerged on the world stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: The countertype of the three – the hero who is not one</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der <strong>Contratype of the Three</strong>- the subtype that seems least like a three. While the social and sexual three openly seek admiration, the self-preserving three hides their performance behind an image of modesty, down-to-earthness, and the simple person. Naranjo called this subtype<em>Sicherheit</em>: The SE3 doesn't want to shine - she wants to feel safe. And the safest position is the one in which no one notices that you are acting.</p>
+          <p class="vb-intro">Zelensky understands this principle instinctively. He wears khaki instead of a suit. He posts videos from the bunker, not the palace. He speaks Ukrainian, although Russian is his native language. Each of these gestures is a masterfully placed brush stroke - the image of the indomitable people's president who stays with his people. The raccoon with the mask smiles. The production is spot on.</p>
+          <p class="vb-intro">What the picture doesn't show: While the war rages and billions of euros in Western aid flow into Ukraine, investigative journalists, international observers and the Ukrainian anti-corruption agency NABU are documenting systematic corruption in the president's immediate environment - in military procurement, arms deals, humanitarian aid. The raccoon is nocturnal. He rummages through the supplies when no one is looking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two Wing: Help as Currency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Two wing (w2)</strong>gives the SE3 an important strategic quality: the ability to communicate need. The two gives &mdash; and needs in return. She makes herself indispensable. In Zelenskyj's case, this wing is evident in his tireless appeals to the Western world: the lonely hero, the courageous people, the existential threat. These appeals are emotionally precisely calculated &mdash; they activate the two-impulse of the receivers:<em>We have to help. He needs us.</em></p>
+          <p class="vb-intro">The two-wing makes Zelenskyj a tragic figure, the recipient of worldwide sympathy &mdash; and at the same time the most effective fundraiser in modern geopolitics. Ukraine has received hundreds of billions of dollars in Western military and financial aid since 2022. The SE3w2 is good at securing resources. This is their basic principle: security through resources &mdash; and resources through relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The unconscious pattern: The role becomes the person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The most dangerous thing about the self-preserving three is not the lie - it is self-deception. The SE3 eventually starts to really believe what it represents. The actor who plays the hero long enough will eventually feel like a hero. The awareness that one is staging is fading. What remains is the image &mdash; and a person who considers the image to be his inner self.</p>
+          <p class="vb-intro">In the case of Zelensky, this is reflected in a series of decisions that are difficult to reconcile with the image of the democratic popular hero: the suspension of elections, the banning of opposition parties, the imprisonment of political critics, the restriction of media freedom. A person who really fights for freedom does not restrict freedom &mdash; unless he has stopped seeing the difference. This is not a malicious strategy. This is the SE3 deep sleep pattern:<em>What I'm doing is right &mdash; because I'm the one doing it.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic effect: The raccoon in the world public</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zelensky's energetic impact is remarkably precise: it is warm but not overwhelming. Determined but not aggressive. Vulnerable enough to inspire pity &mdash; strong enough to deserve admiration. This is no coincidence. This is the SE3w2 in all her competence: a person who intuitively knows what energy he has to send out in order to achieve the desired result.</p>
+          <p class="vb-intro">The raccoon is not a vicious animal. He does not seek destruction &mdash; he seeks food, safety, survival. And he is extremely successful at it. The problem isn't his intelligence &mdash; the problem is what he leaves behind: a ransacked stockpile, a depleted country, a Western alliance wondering where the billions went. The raccoon has long since found the nearest roof.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Shadow Gift: What would be possible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would be incomplete to stop at criticism. The self-sustaining three carries a real gift within it &mdash; when she wakes up. The SE3 can adapt, mediate and build bridges. She can make the best of a hopeless situation because she instinctively understands what is needed. A conscious SE3w2 could be an extraordinary statesman &mdash; not despite his ability to stage, but because of it: when the staging serves the well-being of the people instead of securing one's own resources.</p>
+          <p class="vb-intro">The raccoon that wakes up doesn't have to stop being smart. He needs to stop coming around at night to loot all the resources. He must learn to act in the light &mdash; visible, accountable, honest. Whether Zelenskyj will ever take this step remains an open question. The SE3w2 at its highest level of expression no longer needs protection through deception. She trusts that the real thing is enough.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Who you really are &mdash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "The hidden dynamics of the 27 subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "The 27 personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 - The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalfall: Pablo Escobar (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function stingPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -40856,6 +44117,55 @@ function subtypeSchaubilderPage() {
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
+      "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
+      "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+      "beruehmte-boris-becker": borisBeckerPortraitPage,
+      "beruehmte-caroline-peters": carolinePetersPortraitPage,
+      "beruehmte-carsten-stahl": carstenStahlPortraitPage,
+      "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
+      "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
+      "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
+      "beruehmte-donata-hopfen": donataHopfenPortraitPage,
+      "beruehmte-frederic-chopin": fredericChopinPortraitPage,
+      "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
+      "beruehmte-golda-meir": goldaMeirPortraitPage,
+      "beruehmte-guenther-jauch": guentherJauchPortraitPage,
+      "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
+      "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
+      "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
+      "beruehmte-james-levine": jamesLevinePortraitPage,
+      "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
+      "beruehmte-juergen-klopp": juergenKloppPortraitPage,
+      "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
+      "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
+      "beruehmte-kevin-costner": kevinCostnerPortraitPage,
+      "beruehmte-klaus-kinski": klausKinskiPortraitPage,
+      "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
+      "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
+      "beruehmte-mariah-carey": mariahCareyPortraitPage,
+      "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-marie-kondo": marieKondoPortraitPage,
+      "beruehmte-meg-ryan": megRyanPortraitPage,
+      "beruehmte-melanie-kreis": melanieKreisPortraitPage,
+      "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
+      "beruehmte-monika-gruber": monikaGruberPortraitPage,
+      "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
+      "beruehmte-pamela-reif": pamelaReifPortraitPage,
+      "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
+      "beruehmte-rihanna": rihannaPortraitPage,
+      "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
+      "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
+      "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
+      "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
+      "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
+      "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
+      "beruehmte-tim-bendzko": timBendzkoPortraitPage,
+      "beruehmte-uli-hoeness": uliHoenessPortraitPage,
+      "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
+      "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
+      "beruehmte-warren-buffett": warrenBuffettPortraitPage,
+      "beruehmte-will-smith": willSmithPortraitPage,
+      "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
@@ -41248,7 +44558,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v614';
+  const MY_VERSION = 'inhalt-v615';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
