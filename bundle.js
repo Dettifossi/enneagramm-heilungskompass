@@ -10232,7 +10232,7 @@ function goldaMeirPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
           {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
-          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE1w9)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         ])}
       </div>
     </div>
@@ -10355,7 +10355,7 @@ function carstenStahlPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
           {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
-          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE1w9)"},
+          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         ])}
       </div>
     </div>
