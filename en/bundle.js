@@ -2957,9 +2957,9 @@ function relatedLinks(links) {
   const isAlbum = r => ALBUM_KEYS.some(k => r.includes(k));
   const hasAlbum = links.some(l => isAlbum(l.route));
   const hasOverview = links.some(l => !isAlbum(l.route));
-  const heading = hasAlbum && hasOverview ? "Related Overviews and Albums"
+  const heading = hasAlbum && hasOverview ? "Related Portraits and Albums"
                 : hasAlbum                ? "Related Albums"
-                :                          "Related Overviews";
+                :                          "Related Portraits";
   const buttons = links.map(({route, label}) =>
     `<button data-route="${route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${label} &#8594;</button>`
   ).join("");
@@ -44767,7 +44767,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v642';
+  const MY_VERSION = 'inhalt-v643';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
