@@ -522,6 +522,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michelle Obama – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964. Anwältin, Autorin, ehemalige First Lady der USA (2009–2017). Bestseller-Autorin (Becoming). Der Löwe, der für sein Rudel kämpft – und der weiß, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: Löwe.",
     tags:["Politik"], gender:"f" },
+  { route:"beruehmte-carsten-stahl", name:"Carsten Stahl", subtyp:"SO8w7",
+    heading:"Carsten Stahl – Sozialer Typ 8",
+    teaser:"SO8w7 · geb. 1974 in Heidelberg. Kampfsportler, Antimobbingaktivist, Buchautor. Hunderte Schulbesuche, ›Halt die Fresse!‹. Der Löwe, der in die Schulen geht &ndash; Stärke, die sich verschenkt.",
+    tags:["Aktivismus"], gender:"m"},
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
@@ -10278,6 +10282,70 @@ function toniMorrisonPortraitPage() {
         {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
       ])}
+    </div>
+  `);
+}
+
+
+function carstenStahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carsten-stahl-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carsten Stahl</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Kampfsportler, Antimobbingaktivist &amp; Buchautor, geb. 1974 in Heidelberg</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der L\xf6we</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier des sozialen Typs 8 &ndash; und kein Bild trifft Carsten Stahl genauer. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, jagt f\xfcr das Rudel, sch\xfctzt das Rudel. Seine Kraft ist nicht f\xfcr sich selbst &ndash; sie ist f\xfcr die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der L\xf6we auf. Das ist kein Reflex. Das ist Charakter.</p>
+          <p class="vb-intro">Carsten Stahl, 1974 in Heidelberg geboren, ist Kampfsportler, Buchautor und Antimobbingaktivist. Er hat seine K\xf6rperkraft nie zum Selbstzweck gemacht: Sie ist sein Werkzeug, um dorthin zu gehen, wo Schw\xe4chere keine Stimme haben &ndash; in die Schulen, auf die B\xfchnen, auf die Bildschirme. Der L\xf6we muss nicht zeigen, was er kann. Aber wenn der Moment es verlangt, ist er da.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarit\xe4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarit\xe4t</em>: Die SO8 identifiziert sich mit den Schw\xe4cheren, mit denen, die keine Lobby haben &ndash; und stellt sich vor sie. Sie k\xe4mpft nicht f\xfcr sich selbst. Sie k\xe4mpft, weil sie nicht anders kann, wenn Unrecht geschieht.</p>
+          <p class="vb-intro">Stahl lebt dieses Prinzip sichtbar. Seine Antimobbingarbeit an Schulen ist kein Marketing &ndash; sie ist Berufung. Er betritt Klassenr\xe4ume, h\xf6rt zu, stellt sich vor die Gemobbten und sagt den T\xe4tern direkt ins Gesicht, was sie tun. Keine Brosch\xfcre, keine Pr\xe4ventionstabelle, keine verwaltete Betroffenheit &ndash; sondern Pr\xe4senz, K\xf6rper, Klarheit. Das ist SO8: Statt \xfcber Unrecht zu reden, stellt man sich davor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Feuer in der Botschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong> verleiht der sozialen Acht eine Qualit\xe4t, die den reinen SO8er erg\xe4nzt: Beweglichkeit, Begeisterungsf\xe4higkeit, ein Talent daf\xfcr, Menschen mitzureißen. Die SO8w9 sch\xfctzt aus der Stille. Die <strong>SO8w7</strong> sch\xfctzt mit Feuer.</p>
+          <p class="vb-intro">Stahl ist kein stiller Beschützer. Er ist direkt, laut, pr\xe4sent &ndash; er nutzt seinen K\xf6rper, seine Stimme, seine Social-Media-Kan\xe4le, um eine Botschaft zu transportieren, die keine Graut\xf6ne kennt: Mobbing ist falsch. Punkt. Der Siebenerfl\xfcgel gibt ihm die Energie, das immer wieder neu zu sagen &ndash; vor Erstklässlern und vor Berufssch\xfclern, in Buchinterviews und in Videoclips &ndash; und dabei nie m\xfcde wirkend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Schulen, B\xfchnen, B\xfccher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carsten Stahl hat hunderte von Schulen in Deutschland besucht und dort direkt mit Sch\xfclern, T\xe4tern und Opfern gearbeitet. Sein Zugang ist k\xf6rperlich und emotional zugleich: Er zeigt, dass Kraft kein Argument f\xfcr Ungerechtigkeit ist &ndash; sondern das Gegenteil. Sein Buch <em>Halt die Fresse!</em> ist ein typisches SO8w7-Werk: direkt im Ton, ohne Beschönigung, an die adressiert, die es am n\xf6tigsten haben.</p>
+          <p class="vb-intro">Parallel dazu ist Stahl als Kampfsportler und \xf6ffentliche Pers\xf6nlichkeit aktiv: Auftritte in Fernsehsendungen, Social-Media-Pr\xe4senz, Vortr\xe4ge. Er hat verstanden, was viele Aktivisten \xfcbersehen: Eine Botschaft, die niemand geh\xf6rt, \xe4ndert nichts. Der Siebenerfl\xfcgel sorgt daf\xfcr, dass die Botschaft ankommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn Direktheit polarisiert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist ihre <strong>unmittelbare Wirkung</strong>. Stahl erreicht Jugendliche, die auf P\xe4dagogen nicht h\xf6ren &ndash; weil er nicht wie ein P\xe4dagoge klingt. Er ist authentisch, direkt, k\xf6rperlich pr\xe4sent. Die SO8 macht keinen Unterschied zwischen dem, was sie fühlt, und dem, was sie sagt. Das ist selten &ndash; und genau deshalb glaubw\xfcrdig.</p>
+          <p class="vb-intro">Der Schatten: Direktheit erzeugt auch Widerstand. Wer so klar und laut operiert wie eine SO8w7, macht sich angreifbar. Und die Acht neigt dazu, im Angriff zu eskalieren statt zur\xfcckzutreten. Das Risiko: Die Botschaft geht im Streit um den Boten verloren. Die reife SO8w7 wei\xdf, dass Stärke nicht immer lauter werden muss &ndash; manchmal gen\xfcgt es, stehen zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der L\xf6we, der in die Schulen geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carsten Stahl hat sich eine Arena gew\xe4hlt, die die meisten meiden: die Mitte des Problems. Er geht nicht dorthin, wo es angenehm ist. Er geht dorthin, wo ein 13-J\xe4hriger nicht mehr zur Schule gehen will. Das ist der SO8w7: nicht der L\xf6we, der auf dem Fels sitzt und beobachtet &ndash; sondern derjenige, der ins Rudel hineinl\xe4uft, wenn es brennt. Stärke, die sich verschenkt. Feuer, das andere w\xe4rmt.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SO8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+          {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE1w9)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -40434,7 +40502,8 @@ function render() {
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
-      "beruehmte-michelle-obama": michelleObamaPortraitPage,
+          "beruehmte-carsten-stahl": carstenStahlPortraitPage,
+    "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
@@ -40899,7 +40968,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v711';
+  const MY_VERSION = 'inhalt-v712';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

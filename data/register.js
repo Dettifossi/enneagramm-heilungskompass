@@ -439,6 +439,7 @@ export const registerEntries = [
   { term: "Michael Schumacher",            route: "beruehmte-michael-schumacher",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Formel-1-Legende, 7 Weltmeistertitel, geb. 1969 Hürth" },
   { term: "Mariah Carey",                  route: "beruehmte-mariah-carey",               description: "Portrait: SE7w8 \xb7 Selbsterhaltender Typ 7 \xb7 S\xe4ngerin, 18 Nummer-1-Singles, All I Want for Christmas Is You" },
   { term: "Wallace Shawn",                 route: "beruehmte-wallace-shawn",               description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Schauspieler, Autor, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
+    { term: "Carsten Stahl", route: "beruehmte-carsten-stahl", description: "Portrait: SO8w7 · Sozialer Typ 8 · Antimobbingaktivist, Kampfsportler, Buchautor, Löwe" },
   { term: "Michelle Obama",                route: "beruehmte-michelle-obama",              description: "Portrait: SO2w3 · Sozialer Typ 2 · Ex-First-Lady, Autorin, Bildungsaktivistin" },
   { term: "Monika Gruber",                 route: "beruehmte-monika-gruber",               description: "Portrait: SX2w1 · Sexueller Typ 2 · Kabarettistin, Herzwärme & Leidenschaft" },
   { term: "Neil Armstrong",                route: "beruehmte-neil-armstrong",              description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · erster Mensch auf dem Mond, 1969" },

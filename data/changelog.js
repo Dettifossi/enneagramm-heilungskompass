@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+  { version: "v712", date: "2026-07-22", text: "Portr\xe4t: Carsten Stahl (SO8w7, L\xf6we) – Antimobbingaktivist, Kampfsportler, hunderte Schulbesuche. Der L\xf6we, der in die Schulen geht.", text_en: "New portrait: Carsten Stahl (SO8w7, Lion) – anti-bullying activist, martial artist, hundreds of school visits. The lion who goes into schools.", route: "beruehmte-carsten-stahl" },
     { version: "v711", date: "2026-07-22", text: "Porträt: Jacqueline Mars (SE8w7, Orang-Utan) – Mitinhaberin Mars, Incorporated, Über 30 Mrd. Dollar Vermögen, absolute Privatheit. Der Orang-Utan, der nie gesehen werden muss.", text_en: "New portrait: Jacqueline Mars (SE8w7, Orang-Utan) – co-owner of Mars, Incorporated, $30bn+ fortune, absolute privacy.", route: "beruehmte-jacqueline-mars" },
   {
     date: "2026-07-22",
