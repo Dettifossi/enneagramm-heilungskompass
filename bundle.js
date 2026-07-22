@@ -470,6 +470,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-rowan-atkinson", name:"Rowan Atkinson", added:"2026-07-22", subtyp:"SO7w6",
+    heading:"Rowan Atkinson – Sozialer Typ 7",
+    teaser:"SO7w6 \xb7 geb. 1955 in Consett, County Durham. Schauspieler, Komiker, Autor. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
+    tags:["Film","Kom\xf6die"], gender:"m"},
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
@@ -40616,7 +40620,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v701';
+  const MY_VERSION = 'inhalt-v702';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
