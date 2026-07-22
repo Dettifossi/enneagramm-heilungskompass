@@ -10311,7 +10311,7 @@ function carstenStahlPortraitPage() {
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\xe4t</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarit\xe4t</em>: Die SO8 identifiziert sich mit den Schw\xe4cheren, mit denen, die keine Lobby haben &ndash; und stellt sich vor sie. Sie k\xe4mpft nicht f\xfcr sich selbst. Sie k\xe4mpft, weil sie nicht anders kann, wenn Unrecht geschieht.</p>
-          <p class="vb-intro">Stahl lebt dieses Prinzip sichtbar. Seine Antimobbingarbeit an Schulen ist kein Marketing &ndash; sie ist Berufung. Er betritt Klassenr\xe4ume, h\xf6rt zu, stellt sich vor die Gemobbten und sagt den T\xe4tern direkt ins Gesicht, was sie tun. Keine Brosch\xfcre, keine Pr\xe4ventionstabelle, keine verwaltete Betroffenheit &ndash; sondern Pr\xe4senz, K\xf6rper, Klarheit. Das ist SO8: Statt \xfcber Unrecht zu reden, stellt man sich davor.</p>
+          <p class="vb-intro">Stahl lebt dieses Prinzip sichtbar. Seine Antimobbingarbeit an Schulen ist kein Marketing &ndash; sie ist Berufung. Er betritt Klassenr\xe4ume, h\xf6rt zu, stellt sich vor die Gemobbten und sagt den T\xe4tern direkt ins Gesicht, was sie tun. Keine Brosch\xfcre, keine Pr\xe4ventionstabelle, keine verwaltete Betroffenheit &ndash; sondern Pr\xe4senz, K\xf6rper, Klarheit. Das ist die SO8: Statt \xfcber Unrecht zu reden, stellt man sich davor.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Feuer in der Botschaft</h2>
