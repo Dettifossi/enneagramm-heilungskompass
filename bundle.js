@@ -10117,9 +10117,9 @@ function jacquelineMarsPortraitPage() {
         <h2 class="vb-section">6. Der Orang-Utan, der nie gesehen werden muss</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jacqueline Mars ist eine der reichsten Frauen der Welt &ndash; und eine der unbekanntesten. Das ist kein Zufall und keine Schüchternheit. Das ist die SE8w7 in vollendeter Form: das Territorium gesichert, die Ressourcen gesichert, das Leben in vollen Z\xfcgen genossen &ndash; und das alles ohne eine einzige Pressekonferenz. Der Orang-Utan braucht keine Zuschauer. Er thront in seinem Baum, weit über dem L\xe4rm der Welt, und wei\xdf genau, was er hat.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SE8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10240,9 +10240,9 @@ function goldaMeirPortraitPage() {
         <h2 class="vb-section">6. Der Orang-Utan, der nicht zu bewegen war</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Golda Meir war eine der m\xe4chtigsten Frauen des 20. Jahrhunderts &ndash; und sie w\xe4re die Letzte gewesen, die diesen Satz \xfcber sich selbst gesagt h\xe4tte. Das ist die SE8w9: Macht ohne Pathos, St\xe4rke ohne Selbstdarstellung. Sie kam aus dem tiefsten Nichts &ndash; Armut, Emigration, Exil &ndash; und stand am Ende an der Spitze eines Staates, den sie mitgegr\xfcndet hatte. Der Orang-Utan, der langsam klettert, nie fällt und am Ende höher sitzt als alle, die lauter waren.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SE8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10363,9 +10363,9 @@ function carstenStahlPortraitPage() {
         <h2 class="vb-section">6. Der L\xf6we, der in die Schulen geht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Carsten Stahl hat sich eine Arena gew\xe4hlt, die die meisten meiden: die Mitte des Problems. Er geht nicht dorthin, wo es angenehm ist. Er geht dorthin, wo ein 13-J\xe4hriger nicht mehr zur Schule gehen will. Das ist die SO8w7: nicht der L\xf6we, der auf dem Fels sitzt und beobachtet &ndash; sondern derjenige, der ins Rudel hineinl\xe4uft, wenn es brennt. Stärke, die sich verschenkt. Feuer, das andere w\xe4rmt.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SO8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10485,9 +10485,9 @@ function jamaicaKincaidPortraitPage() {
         <h2 class="vb-section">6. Der L\xf6we, der schreibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jamaica Kincaid hat keine Waffe au\xdfer der Sprache &ndash; und diese Sprache ist sch\xe4rfer als alles andere. Sie hat eine der brutalsten Kolonialgeschichten der Karibik in Literatur verwandelt, ohne die Opfer zu romantisieren und ohne die T\xe4ter zu schonen. Das ist die SO8w9: nicht der L\xf6we, der br\xfcllt &ndash; sondern der, der l\xe4ngst zugebissen hat, bevor man es kommen sah. Stärke, die nicht laut ist. Wahrheit, die bleibt.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SO8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10607,9 +10607,9 @@ function adeleNeuhauserPortraitPage() {
         <h2 class="vb-section">6. Das Krokodil, das tanzt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Adele Neuhauser begann als T\xe4nzerin &ndash; und das ist kein Nebensatz. Das Krokodil ist k\xf6rperlich, pr\xe4zise und geduldig. Es wartet, bis der Moment vollst\xe4ndig ist, und handelt dann ohne Z\xf6gern. Neuhauser hat diese Pr\xe4zision in eine Schauspielkunst verwandelt, die k\xf6rperlich fundiert und emotional ungeschützt ist. Das ist die SX8w7: nicht die lauteste Figur im Raum &ndash; sondern die, von der man den Blick nicht abwenden kann.</p>
-          ${bookTip("enneagramm-typen", "Sexueller Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SX8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sexuellen Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SX8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sexuellen Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10731,9 +10731,9 @@ function ruthBaderGinsburgPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ruth Bader Ginsburg ist mit 87 Jahren gestorben, im Dienst, am Vorabend eines Wahljahres &ndash; und wurde in den Tagen danach zu einer Ikone, wie es Richterinnen selten werden. Ihre Jabots, die Spitzenkragen auf ihrem Richtergewand, wurden weltber\xfchmt. Ihre Ausspr\xfcche standen auf Tassen, T-Shirts, Wandposter. Das Krokodil braucht keine Inszenierung &ndash; aber manchmal inszeniert die Welt es trotzdem.</p>
           <p class="vb-intro">Was bleibt, ist das Werk. Gesetze, die wegen ihr existieren. Urteile, die wegen ihr anders aussehen. Eine Generation von Juristinnen, die wegen ihr anders denkt. Die SX8w9 hinterl\xe4sst keine Helden-Erzählung &ndash; sie hinterl\xe4sst Ver\xe4nderung. Das Krokodil war da. Der Abdruck ist geblieben.</p>
-          ${bookTip("enneagramm-typen", "Sexueller Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SX8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sexuellen Achtertyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SX8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sexuellen Typ 8.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10856,9 +10856,9 @@ function angelaMerkelPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Angela Merkel ist die l\xe4ngstdienende Bundeskanzlerin der deutschen Geschichte. Sie hat das Land in einer Zeit des Wandels stabilisiert, gro\xdfe Krisen \xfcberlebt und eine Geradlinigkeit bewahrt, die selbst ihre Kritiker respektieren. Aber das Erbe der sechzehn Jahre ist auch eines des Aufschubs: Zu wenig investiert in Infrastruktur, Digitalisierung und Verteidigung. Zu lange gez\xf6gert bei Russland. Zu wenig erkl\xe4rt, zu viel entschieden.</p>
           <p class="vb-intro">Das ist die SE9w8 in ihrer vollen Widersprüchlichkeit: gro\xdf in der Stille, stark im Beharren, f\xe4hig zur k\xfchlen Entscheidung &ndash; und gleichzeitig anf\xe4llig f\xfcr jene Form der Selbstgewissheit, die keine Korrekturen mehr zul\xe4sst. Der Elefant bewegt sich in seinem eigenen Rhythmus. Manchmal ist das Weisheit. Manchmal ist das Stillstand. Und manchmal &ndash; wenn der Elefant \xfcber Dinge geht &ndash; merkt man erst hinterher, was er zertreten hat.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SE9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Neuntyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 9.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -10979,9 +10979,9 @@ function kevinCostnerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kevin Costner geh\xf6rt zu den wenigen Schauspieler-Regisseuren, deren Werk ein konsistentes Weltbild tr\xe4gt: Amerika ist nicht ein Ort, sondern ein Versprechen. Zugeh\xf6rigkeit ist nicht selbstverst\xe4ndlich, sondern wird verdient. Und der Mann, der eine Gemeinschaft h\xe4lt, muss bereit sein, sich selbst zur\xfcckzunehmen. Nicht laut, nicht brillant &ndash; aber beharrlich. Und tiefer, als man auf den ersten Blick vermutet.</p>
           <p class="vb-intro">Das ist die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Der mit dem Wolf tanzt</em>, wie in <em>Feld der Tr\xe4ume</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SO9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Neuntyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 9.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -11225,9 +11225,9 @@ function ronaldReaganPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ronald Reagan ist 2004 an den Folgen der Alzheimer-Krankheit gestorben &ndash; einer Krankheit, die das Ged\xe4chtnis ausl\xf6scht, das Selbst aufl\xf6st und den Menschen aus seiner eigenen Geschichte entl\xe4sst. 1994 schrieb er einen ber\xfchrenden Brief an die amerikanische \xd6ffentlichkeit, in dem er seinen Zustand offenbarte. Der B\xfcffel, der eine ganze Nation zusammenhielt, verlor am Ende die Verbindung zu sich selbst.</p>
           <p class="vb-intro">Was bleibt, ist das Bild: ein Mann, der l\xe4chelte, wenn andere schrien. Der einfache S\xe4tze sprach, wenn andere Abhandlungen schrieben. Der Amerika nicht erkl\xe4rte, sondern es sich sp\xfcren lie\xdf. Die SO9w8 in ihrer besten Form ist keine Ideologie &ndash; sie ist eine Haltung. Und manchmal reicht eine Haltung, um Geschichte zu machen.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SO9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Neuntyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 9.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -11351,9 +11351,9 @@ function jamesLevinePortraitPage() {
         <h2 class="vb-section">6. Der Elefant, der das Haus bewohnte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">James Levine hat die Metropolitan Opera gepr\xe4gt wie kein Zweiter. Er hat ihr einen Klang gegeben, der erkennbar war. Er hat Generationen von S\xe4ngern und Musikern geformt. Und er hat gezeigt, wie die selbsterhaltende Neun in ihrer besten Form aussieht: vollst\xe4ndige Versenkung, langer Atem, eine Pr\xe4senz, die nicht erkl\xe4rt werden muss. In ihrer dunkelsten Form zeigt sie auch, wie der Appetit, der keine Grenze kennt, alles zerst\xf6ren kann, was er aufgebaut hat. Der Elefant vergisst nicht. Und die Geschichte auch nicht.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
-          ${bookTip("burnout", "SE9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Neuntyps.")}
-          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 9.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12504,9 +12504,9 @@ function mariahCareyPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mariah Carey besitzt Weihnachten. Das ist keine Metapher. <em>All I Want for Christmas Is You</em> (1994) hat inzwischen über eine Milliarde Streams allein auf Spotify, und der Song kehrt jedes Jahr in die Charts zurück, als hätte er ein Recht dazu. Den hat er. Carey schrieb ihn nach eigenen Angaben in fünfzehn Minuten, an einem Nachmittag, am Klavier.</p>
           <p class="vb-intro">Fünf Oktaven, fünfunddreißig Jahre im Rampenlicht, achtzehn Nummer-eins-Singles, ein öffentlicher Zusammenbruch, ein Comeback, das die Geschichte veränderte, und ein Weihnachtslied, das unsterblich ist: Das ist der Gorilla. Er baut sein Nest. Er schützt die Seinen. Er singt &ndash; und wenn er singt, hört die Welt zu.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
-          ${bookTip("burnout", "SE7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des selbsterhaltenden Siebentyps.")}
-          ${bookTip("homoeopathie", "Homöopathie für den SE7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den selbsterhaltenden Typ 7.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12567,9 +12567,9 @@ function carolinePetersPortraitPage() {
         <h2 class="vb-section">6. Der Schimpanse, der nie derselbe bleibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Caroline Peters ist eine der vielseitigsten Schauspielerinnen des deutschsprachigen Theaters und Fernsehens &ndash; und das liegt nicht daran, dass sie besonders viele Rollen gespielt hat. Es liegt daran, dass sie wirklich anders ist in jeder von ihnen. Das ist der Schimpanse: immer in Bewegung, immer neugierig, immer bereit, sich neu zu erfinden. Und doch in jedem Moment vollständig anwesend.</p>
-          ${bookTip("enneagramm-typen", "Sexueller Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
-          ${bookTip("burnout", "SX7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sexuellen Siebentyps.")}
-          ${bookTip("homoeopathie", "Homöopathie für den SX7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sexuellen Typ 7.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12630,9 +12630,9 @@ function dieterNuhrPortraitPage() {
         <h2 class="vb-section">6. Der Biber, der nicht schweigen kann</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dieter Nuhr ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Neigung, leiser zu werden. Im Gegenteil: Mit dem Alter scheint er kantiger, präziser, weniger auf Konsens bedacht. Das ist der SO7w8er: Der Biber, der nicht für sich baut, sondern für das, was er für richtig hält. Ob man ihm zustimmt oder nicht &ndash; er schweigt nicht. Der Damm steht. Und er wird bewacht.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
-          ${bookTip("burnout", "SO7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sozialen Siebentyps.")}
-          ${bookTip("homoeopathie", "Homöopathie für den SO7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sozialen Typ 7.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12695,9 +12695,9 @@ function rowanAtkinsonPortraitPage() {
         <h2 class="vb-section">6. Der Biber, der nicht aufhören kann</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Rowan Atkinson ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Anzeichen, aufzuhören. Er hat Mr. Bean mehrfach für tot erklärt und ihn dann doch zurückgebracht. Er hat erklärt, die physische Komik werde mit dem Alter schwerer &ndash; und dann <em>Johnny English Strikes Again</em> gedreht. Das ist der Biber: Er baut, auch wenn der Damm fertig ist. Er baut, weil Bauen sein Wesen ist. Und er vergisst nicht, was er einmal begonnen hat.</p>
-          ${bookTip("enneagramm-typen", "Sozialer Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
-          ${bookTip("burnout", "SO7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sozialen Siebentyps.")}
-          ${bookTip("homoeopathie", "Homöopathie für den SO7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sozialen Typ 7.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12763,9 +12763,9 @@ function wallaceShawnPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wallace Shawn ist ein Gorilla: gesellig, warm, sinnlich, familiär – und von einer Intelligenz, die nicht sofort sichtbar ist, weil sie nicht darauf besteht, gesehen zu werden. Er sitzt am Tisch, isst gut, spricht klar, und irgendwann, mitten im Gespräch, sagt er etwas, das einen nicht mehr verlassen will.</p>
           <p class="vb-intro">Seine Bühnenstücke sind keine Antworten. Sie sind Fragen in Dialogform. Und <em>My Dinner with Andre</em> – der Film, in dem zwei Freunde eine Mahlzeit teilen und dabei über alles reden, was zählt – ist vielleicht das ehrlichste Porträt des SE7w6 im Kino: Freude am Gespräch als Lebensform. Neugier als Heimat. Die andere Person am Tisch als das Wichtigste, was es gibt.</p>
-          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
-          ${bookTip("burnout", "SE7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des selbsterhaltenden Siebentyps.")}
-          ${bookTip("homöopathie", "Homöopathie für den SE7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den selbsterhaltenden Typ 7.")}
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
