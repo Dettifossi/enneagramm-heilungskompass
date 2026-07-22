@@ -11854,7 +11854,7 @@ function dieterNuhrPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: Der Biber, der zurückbeißt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel</strong> gibt dem sozialen Siebener etwas, das die reine SO7er-Energie nicht immer zeigt: Konfrontationsbereitschaft, Durchsetzungswillen und die Fähigkeit, Grenzen klar zu benennen &ndash; und zu verteidigen. Wo der reine SO7er nachgibt und vermittelt, sagt der Achterflügel: <em>Bis hier und nicht weiter.</em></p>
-          <p class="vb-intro">Nuhr hat sich in den letzten Jahren wiederholt öffentliche Auseinandersetzungen geliefert, die für einen Komiker ungewöhnlich direkt sind: mit Klimaaktivisten, mit Medienkritikern, mit dem Deutschlandfunk, der einen Tweet von ihm nach öffentlichem Druck löschte &ndash; und sich später dafür entschuldigte. Er zieht sich nicht zurück, wenn es unangenehm wird; er hält stand und greift zurück. Das ist der Achterflügel: Stärke nicht als Drohung, sondern als Haltung.</p>
+          <p class="vb-intro">Nuhr hat sich in den letzten Jahren wiederholt öffentliche Auseinandersetzungen geliefert, die für einen Komiker ungewöhnlich direkt sind: mit Klimaaktivisten, mit Medienkritikern, mit dem Deutschlandfunk, der einen Tweet von ihm nach öffentlichem Druck löschte &ndash; und sich später dafür entschuldigte. Er zieht sich nicht zurück, wenn es unangenehm wird; er hält stand und schlägt zurück. Das ist der Achterflügel: Stärke nicht als Drohung, sondern als Haltung.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Vom Bühnenkabarett zum Ersten Deutschen Fernsehen</h2>
@@ -11865,13 +11865,13 @@ function dieterNuhrPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Der Witz als Pflicht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht des SO7w8 ist seine <strong>gesellschaftliche Verlässlichkeit</strong>. Nuhr ist kein Komiker, der auf Trends surft; er bleibt sich treu, auch wenn das unbequem wird. Sein Humor ist beobachtend, präzise, oft unbequem &ndash; und er vertritt seine Positionen auch dann, wenn der Gegenwind stark ist. Das ist die SO7-Energie in ihrer besten Form: Komik als Dienst an der Öffentlichkeit.</p>
+          <p class="vb-intro">Das Licht der SO7w8 ist seine <strong>gesellschaftliche Verlässlichkeit</strong>. Nuhr ist kein Komiker, der auf Trends surft; er bleibt sich treu, auch wenn das unbequem wird. Sein Humor ist beobachtend, präzise, oft unbequem &ndash; und er vertritt seine Positionen auch dann, wenn der Gegenwind stark ist. Das ist die SO7-Energie in ihrer besten Form: Komik als Dienst an der Öffentlichkeit.</p>
           <p class="vb-intro">Der Schatten: Der SO7er opfert &ndash; und irgendwann riskiert er, dass sein Opfer zur Sturheit wird. Nuhr ist in den letzten Jahren zunehmend polarisierend geworden: Seine Aussagen über Klimapolitik und über Debatten um freie Meinungsäußerung haben ihn bei einem Teil seines Publikums gestärkt &ndash; und bei einem anderen Teil unwiderruflich beschädigt. Der Achterflügel macht es ihm schwerer, zurückzurudern; die Kraft wird zur Unnachgiebigkeit. Der Biber baut weiter &ndash; auch wenn der Fluss schon abgeleitet wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Biber, der nicht schweigen kann</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Nuhr ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Neigung, leiser zu werden. Im Gegenteil: Mit dem Alter scheint er kantiger, präziser, weniger auf Konsens bedacht. Das ist der SO7w8: Der Biber, der nicht für sich baut, sondern für das, was er für richtig hält. Ob man ihm zustimmt oder nicht &ndash; er schweigt nicht. Der Damm steht. Und er wird bewacht.</p>
+          <p class="vb-intro">Dieter Nuhr ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Neigung, leiser zu werden. Im Gegenteil: Mit dem Alter scheint er kantiger, präziser, weniger auf Konsens bedacht. Das ist der SO7w8er: Der Biber, der nicht für sich baut, sondern für das, was er für richtig hält. Ob man ihm zustimmt oder nicht &ndash; er schweigt nicht. Der Damm steht. Und er wird bewacht.</p>
           ${bookTip("enneagramm-typen", "Sozialer Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
           ${bookTip("burnout", "SO7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sozialen Siebentyps.")}
           ${bookTip("homoeopathie", "Homöopathie für den SO7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sozialen Typ 7.")}
@@ -40688,7 +40688,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v705';
+  const MY_VERSION = 'inhalt-v706';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
