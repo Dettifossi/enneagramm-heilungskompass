@@ -13453,53 +13453,53 @@ function jamieleecurtisPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jamie Lee Curtis</p>
         <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-Wing</p>
-        <p class="krim-portrait-subtitle">Actress &amp; Activist, born 1958 &mdash; Animal correspondence: Black Mamba</p>
+        <p class="krim-portrait-subtitle">Actress & activist, b. 1958 – Animal equivalent: Black Mamba</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Schwarze Mamba</strong> is the animal of the Sexual One &mdash; and no animal fits Jamie Lee Curtis so precisely. The Black Mamba is one of the most venomous snakes in the world, lightning fast, precise and completely uncompromising. She doesn't attack out of aggression &mdash; it acts out of an inner law. What is wrong is named. Anything that is inauthentic will be rejected. What is true is defended with full commitment.</p>
-          <p class="vb-intro">Jamie Lee Curtis, born in 1958 as the daughter of Hollywood legends Tony Curtis and Janet Leigh, grew up in a world where beauty, fame and appearances were the measure of all things - and developed an inner resistance to exactly that early on. Her career began in 1978 with John Carpenter's <em>Halloween</em>: a horror film, a scream queen &mdash; and a young woman who, from the start, wanted more than what the genre offered her.</p>
+          <p class="vb-intro">The Black Mamba is the animal of the sexual One, and no animal fits Jamie Lee Curtis more accurately. The Black Mamba is one of the most venomous snakes in the world, lightning-fast, precise, and completely uncompromising. It does not attack out of aggression—it acts out of an inner law. What is wrong is named. What is fake is rejected. What is right is defended with full commitment.</p>
+          <p class="vb-intro">Jamie Lee Curtis, born in 1958 as the daughter of Hollywood legends Tony Curtis and Janet Leigh, grew up in a world where beauty, fame, and appearance were the measure of all things—and developed an inner resistance to exactly that early on. Her career began in 1978 with John Carpenter's Halloween: a horror film, a scream queen, and a young woman who from the very start wanted more than what the genre offered her.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Passion as Inner Fire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual One (SX1)</strong> is the subtype of one that does not focus its claim to perfection on itself or on the collective, but rather on intensity - to complete presence, complete authenticity, complete honesty in everything that matters. Naranjo called this subtype <em>Zeal</em>: Fervor, zeal, a burning desire for the real thing.</p>
-          <p class="vb-intro">Jamie Lee Curtis lives this subtype with an openness that is rare in Hollywood. She was one of the first actresses to speak publicly about her addiction: she was addicted to opiates for 22 years and has been sober since 1999. She spoke about the breakdown of marriages, about the challenges of motherhood, about the absurdity of ideals of beauty. Not as a confession &mdash; but as a confession: <em>The real thing is worth more than the appearance.</em></p>
-          <p class="vb-intro">In 2021 she worked for the magazine <em>AARP</em> take photos without retouching, without make-up, without staging. For an actress in an industry where aging is considered a flaw, this was an act. For an SX1, it was par for the course.</p>
+          <p class="vb-intro">The sexual One (SX1) is the subtype of the One that directs its demand for perfection not at itself or at the collective, but at intensity—at complete presence, complete authenticity, complete honesty in everything that matters. Naranjo called this subtype Zeal: fervency, eagerness, a burning desire for the genuine.</p>
+          <p class="vb-intro">Jamie Lee Curtis lives this subtype with an openness that is rare in Hollywood. She was one of the first actresses to speak publicly about her addiction: for 22 years she was addicted to opiates; she has been sober since 1999. She spoke about failed marriages, about the challenges of motherhood, about the absurdity of beauty standards. Not as a confession, but as an avowal: what is real is worth more than appearance.</p>
+          <p class="vb-intro">In 2021, she was photographed for AARP magazine without retouching, without makeup, without staging. For an actress in an industry where aging is considered a flaw, that was an act. For an SX1, it went without saying.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The two-wing: care as a second force</h2>
+        <h2 class="vb-section">3. The Two Wing: Care as a Second Force</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the Sexual One something crucial: real affection. The SX1w2 is not only uncompromising in its own right - she cares, she provides, she supports others. The intensity of the Sexual One is directed outward through the wing of two: not as control, but as connection.</p>
-          <p class="vb-intro">When her daughter Ruby came out as transgender, Jamie Lee Curtis immediately publicly came to her side &mdash; unconditionally, loudly, clearly. As a long-time patron of children's hospitals, she has been committed to helping sick children for decades. Your friendships &mdash; especially the legendary one with John Cleese and the rest of the <em>A Fish Called Wanda</em>-Casts &mdash; are known for their depth and durability. The Black Mamba bites for others as well as for itself.</p>
+          <p class="vb-intro">The Two wing (w2) gives the sexual One something decisive: genuine warmth and empathy. The SX1w2 is not only uncompromising in her own cause—she cares, she nurtures, she stands by others. The intensity of the sexual One is directed outward through the Two wing: not as control, but as connection.</p>
+          <p class="vb-intro">When her daughter Ruby came out as transgender, Jamie Lee Curtis immediately stepped to her side publicly—unconditionally, loudly, clearly. As a long-standing patron of children's hospitals, she has been committed to sick children for decades. Her friendships—especially the legendary one with John Cleese and the rest of the A Fish Called Wanda cast—are known for their depth and endurance. The Black Mamba bites for others just as she does for herself.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Passion: Anger as a Cleansing Fire</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as a Purifying Fire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and in the SX1w2 it burns particularly brightly because it is linked to the intensity of the sexual subtype. Jamie Lee Curtis is not afraid to show this anger: against the film industry that makes women over forty invisible; against beauty industries that sell insecurity; against a society that condemns addicts instead of supporting them.</p>
-          <p class="vb-intro">This anger is not destructive. It is cleansing. He cleans up. The SX1 does not tolerate hypocrisy &mdash; and she doesn't keep quiet about it either. What sets Jamie Lee Curtis apart from many others: She shows anger and warmth at the same time. Not alternately, but together. The Mamba and the two-wing are not a contradiction.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and in the SX1w2 it burns particularly bright because it is connected with the intensity of the sexual subtype. Jamie Lee Curtis has no fear of showing this wrath: against a film industry that makes women over forty invisible; against beauty industries that sell insecurity; against a society that judges addicts instead of supporting them.</p>
+          <p class="vb-intro">This wrath is not destructive. It is purifying. It clears things up. The SX1 tolerates no hypocrisy, nor does she keep silent about it. What distinguishes Jamie Lee Curtis from many others: she shows the wrath and the warmth at the same time. Not alternately, but together. The mamba and the Two wing are no contradiction.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Oscar and the Gift of Late Bloom</h2>
+        <h2 class="vb-section">5. The Oscar and the Gift of Late Blooming</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2023, Jamie Lee Curtis won the Oscar for Best Supporting Actress for <em>Everything Everywhere All at Once</em> - at the age of 64, after a career of almost fifty years. It was her first Oscar. Her acceptance speech was what you would expect from an SX1w2: direct, emotional, fully present. She cried. She laughed. She talked about her parents, her sobriety, her family.</p>
-          <p class="vb-intro">This moment is the symbol of her life's journey: not early and brilliant, but mature, real and complete. The Black Mamba doesn't need a stage to prove herself - but when the stage comes, she's ready. And when she speaks, she means it.</p>
+          <p class="vb-intro">In 2023, Jamie Lee Curtis won the Oscar for Best Supporting Actress for Everything Everywhere All at Once at the age of 64, after a career spanning nearly fifty years. It was her first Oscar. Her acceptance speech was as expected from an SX1w2: direct, emotional, completely present. She cried. She laughed. She spoke about her parents, her sobriety, her family.</p>
+          <p class="vb-intro">This moment is the symbol of her life's journey: not early and flashy, but matured, genuine, and complete. The Black Mamba needs no stage to prove herself—but when the stage comes, she is ready. And when she speaks, she means it.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The gift: Authenticity as an invitation</h2>
+        <h2 class="vb-section">6. The Gift: Authenticity as an Invitation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Jamie Lee Curtis gave the world can be summed up in one sentence: she proved that you don't have to bend to survive. Not in Hollywood, not in public, not in old age. This is the gift of SX1w2: the fire that does not go out when it shows itself - but it is precisely then that it burns brightest.</p>
-          <p class="vb-intro">The Black Mamba doesn't back down. She is fully there, fully herself &mdash; and the double wing ensures that this completeness encourages others. Not as a role model in the classic sense, but as living proof: <em>The real thing lasts longer than the appearance.</em></p>
+          <p class="vb-intro">What Jamie Lee Curtis has given to the world can be summed up in one sentence: she proved that you don't have to bend yourself to endure. Not in Hollywood, not in public, not in old age. That is the gift of the SX1w2: the fire that does not extinguish when it shows itself, but burns brightest precisely then.</p>
+          <p class="vb-intro">The Black Mamba does not dodge. She is completely there, completely herself—and the Two wing ensures that this completeness gives courage to others. Not as a role model in the classic sense, but as living proof: what is genuine lasts longer than appearance.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
@@ -13519,54 +13519,54 @@ function juergenKloppPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jürgen Klopp</p>
         <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-Wing</p>
-        <p class="krim-portrait-subtitle">Football coach, born 1967 &mdash; Dortmund, Liverpool, Red Bull &mdash; Animal correspondence: Goose</p>
+        <p class="krim-portrait-subtitle">Football manager, b. 1967 – Dortmund, Liverpool, Red Bull – Animal equivalent: Goose</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Gans</strong> is the animal of the Social One &mdash; and no animal hits Jürgen Klopp so precisely. The goose does not fly alone. She flies in a V formation, she calls, she holds the group together, she takes responsibility for the collective. When one goose is exhausted, another takes over. The principle is solidarity &mdash; and the conviction that we can get further together than alone.</p>
-          <p class="vb-intro">Jürgen Klopp, born in Stuttgart in 1967, was a decent player &mdash; and exceptional as a coach. Not because he was as tactically brilliant as others, but because he understood what teams really need: the feeling of playing for each other. With BVB he won the German championship and the DFB Cup twice. With Liverpool FC he won the Champions League in 2019 and the English championship in 2020 &mdash; Title that Liverpool had been waiting for over thirty years. Not a coincidence. A goose finding its formation.</p>
+          <p class="vb-intro">The goose is the animal of the social One, and no animal fits Jürgen Klopp more accurately. The goose does not fly alone. It flies in a V-formation, it calls out, it holds the group together, it takes responsibility for the collective. When one goose is exhausted, another takes the lead. The principle is solidarity and the conviction that together you get further than alone.</p>
+          <p class="vb-intro">Jürgen Klopp, born in 1967 in Stuttgart, was decent as a player and extraordinary as a manager. Not because he was tactically as brilliant as others, but because he understood what teams really need: the feeling of playing for each other. With BVB, he won the German Championship twice and the DFB-Pokal. With FC Liverpool, he won the Champions League in 2019 and the English Championship in 2020—titles Liverpool had waited over thirty years for. No coincidence. A goose finding its formation.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Ideals for the Collective</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social One (SO1)</strong> is the subtype of one who does not focus his claim to perfection on himself or his private environment, but on the collective - on the group, the community, the society. Naranjo called this subtype <em>Non-Adaptability</em>: The SO1 does not adapt when it realizes that the collective is taking a wrong path. She stands up. She names what is wrong. She fights for an ideal that goes beyond herself.</p>
-          <p class="vb-intro">Klopp's ideal was always recognizable: football as a team effort, not as a stage for individual players. His system of <em>Gegenpressings</em> - immediate collective ball recovery after ball loss &mdash; is not just a tactic. It's a philosophy: everyone runs, everyone fights, everyone is responsible. No one saves the game. The collective wins it.</p>
-          <p class="vb-intro">When he moved to Liverpool in 2015, he declared himself a &ldquo;Normal One&rdquo; - a direct allusion to José Mourinho's famous &ldquo;Special One&rdquo;. That wasn't an understatement. That was a confession: Not me, but us.</p>
+          <p class="vb-intro">The social One (SO1) is the subtype of the One that directs its demand for perfection not at itself or its private environment, but at the collective—at the group, the community, society. Naranjo called this subtype Non-Adaptability: the SO1 does not adapt when it realizes that the collective is taking the wrong path. It stands up. It names what is wrong. It fights for an ideal that goes beyond the individual person.</p>
+          <p class="vb-intro">Klopp's ideal was always recognizable: football as a team effort, not a stage for individual players. His system of counter-pressing—immediate collective recovery of the ball after losing it—is not just a tactic. It is a philosophy: everyone runs, everyone fights, everyone is responsible. No single individual saves the game. The collective wins it.</p>
+          <p class="vb-intro">When he moved to Liverpool in 2015, he declared himself the Normal One—a direct allusion to José Mourinho's famous Special One. That was not an understatement. That was a commitment: Not I, but We.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The two-wing: heat as a means of guidance</h2>
+        <h2 class="vb-section">3. The Two Wing: Warmth as a Leadership Tool</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the Social One something crucial: real human warmth. The SO1w2 doesn't just want the system to be right - she wants the people in it to feel seen and loved. The two wing turns the idealist into a companion.</p>
-          <p class="vb-intro">Klopp hugs his players. He jumps off the bench, clenches his fist, goes crazy - and this is not a production. It is genuine expression. When Mohamed Salah scores a goal, Klopp is as happy as if it were his own. If a player is in crisis, he leads the conversation. Not the sports directorate. He.</p>
-          <p class="vb-intro">This combination of two wing and Social One makes him one of the most popular trainers in the world &mdash; not in spite of his passion, but because of it. The players know: He really means it. And you'll run further for a person who really cares than for someone who doesn't care.</p>
+          <p class="vb-intro">The Two wing (w2) gives the social One something decisive: genuine human warmth. The SO1w2 does not just want the system to be right—he wants the people within it to feel seen and loved. The Two wing turns the idealist into a companion.</p>
+          <p class="vb-intro">Klopp hugs his players. He leaps off the bench, clenches his fist, goes wild—and that is no performance. It is a genuine expression. When Mohamed Salah scores a goal, Klopp rejoices as if it were his own. When a player is in a crisis, he conducts the conversation. Not the sports management. Him.</p>
+          <p class="vb-intro">This combination of Two wing and social One makes him one of the most beloved managers in the world—not despite his passion, but because of it. The players know: he truly means it. And for a person who truly means it, you run further than for someone who doesn't care.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: Anger as a collective conscience</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as a Collective Conscience</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and Klopp, unlike many other ones, shows him very directly. When a referee makes a wrong decision, when the collective suffers from an injustice, when the team doesn't give what it could give - then the goose comes out of the formation.</p>
-          <p class="vb-intro">Klopp's freaks on the touchline are legendary: the glasses that fly, the red card that he sometimes provokes. This is not a loss of control &mdash; this is the SO1 in its purest form. She fights for what is right. She doesn't hold back when the collective is at stake. The anger is collective, not narcissistic &mdash; and that is the crucial difference.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and Klopp shows it, unlike many other Ones, very directly. When a referee makes a wrong decision, when the collective suffers from an injustice, when the team does not give what it could give—then the goose steps out of the formation.</p>
+          <p class="vb-intro">Klopp's outbursts on the sideline are legendary: the flying glasses, the red card he sometimes provokes. That is not a loss of control—that is the SO1 in its purest form. It fights for what is right. It does not hold back when the collective is at stake. The wrath is collective, not narcissistic—and that is the decisive difference.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The farewell and the next post</h2>
+        <h2 class="vb-section">5. The Farewell and the Next Post</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In May 2024, Klopp left Liverpool after nine years &mdash; a farewell that moved the entire city. He said he was empty, he needed space, he needed to recover. This is typical SO1w2: The person who gives so much for others eventually needs space for themselves.</p>
-          <p class="vb-intro">Since the beginning of 2024 he has been &ldquo;Head of Global Soccer&rdquo; at Red Bull. An unusual choice for a goose &mdash; Klopp in a corporate role, without his own team. And indeed: In July 2026, after Julian Nagelsmann's departure as national coach, Klopp confirmed ongoing negotiations with the DFB. &ldquo;I am ready,&rdquo; he said publicly. Hans-Joachim Watzke put the probability at &ldquo;more than fifty percent&rdquo;. The contract with Red Bull runs until 2029 &mdash; the hurdle is real, but the goose knows its next destination.</p>
+          <p class="vb-intro">In May 2024, Klopp left Liverpool after nine years—a farewell that moved the entire city. He said he was running on empty, he needed distance, he had to recover. That is typical SO1w2: the person who gives so much for others eventually needs space for himself.</p>
+          <p class="vb-intro">Since early 2024, he has been Head of Global Soccer at Red Bull. An unusual choice for a goose—Klopp in a corporate role, without his own team. And indeed: in July 2026, after Julian Nagelsmann's departure as national team manager, Klopp confirmed ongoing negotiations with the DFB. "I am ready," he said publicly. Hans-Joachim Watzke estimated the probability at more than fifty percent. The contract with Red Bull runs until 2029—the hurdle is real, but the goose knows its next destination.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Gift: Faith as Transference</h2>
+        <h2 class="vb-section">6. The Gift: Belief as Transmission</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Jürgen Klopp achieved as a coach can best be summed up in one sentence: He believed his players before they believed themselves. This is the gift of SO1w2 &mdash; not your own perfection, but the belief in the perfection of the collective.</p>
-          <p class="vb-intro">Liverpool had waited thirty years for the championship. Dortmund was in financial distress when Klopp arrived. In both cases he didn't install a new system &mdash; he has installed a new belief: <em>We can do it.</em> The goose flies in a group. And sometimes it's enough for someone in the formation to make the call - and everyone else follows.</p>
+          <p class="vb-intro">What Jürgen Klopp achieved as a manager can best be summed up in one sentence: he believed in his players before they believed in themselves. That is the gift of the SO1w2—not one's own perfection, but belief in the perfection of the collective.</p>
+          <p class="vb-intro">Liverpool had waited thirty years for the championship. Dortmund was in financial distress when Klopp arrived. In both cases, he did not just install a new system—he installed a new conviction: We can do this. The goose flies in formation. And sometimes it is enough for one in the formation to call out, and all the others follow.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
@@ -13586,58 +13586,58 @@ function karlLagerfeldPortraitPage() {
         </div>
         <p class="krim-portrait-name">Karl Lagerfeld</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-Wing &middot; Reinforcement type of the three</p>
-        <p class="krim-portrait-subtitle">Mode-Ikone, Creative Director, Fotograf, 1933&ndash;2019 &ndash; Animal correspondence: Gepard</p>
+        <p class="krim-portrait-subtitle">Fashion icon, creative director, photographer, 1933–2019 – Animal equivalent: Cheetah</p>
       </div>
 
       <div class="page-content">
 
-        <h2 class="vb-section">1. The quality of the view: hidden behind dark glasses</h2>
+        <h2 class="vb-section">1. The Quality of the Gaze: Hidden Behind Dark Lenses</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Karl Lagerfeld was the only person in the fashion world who systematically hid his gaze &mdash; and that's precisely why it became irresistible. The black sunglasses were not an accessory. It was an instrument of control: If you can't see the eyes, you can't read what's going on behind them. The SO3w4er manages his expression with extreme precision &mdash; Every image he allows of himself is wanted.</p>
-          <p class="vb-intro">And yet Lagerfeld's impact was no mystery: you saw enough of him to recognize him immediately &mdash; the white of the hair, the black of the suit, the severity of the posture. He had transformed into a symbol that was identifiable at first glance, worldwide, timeless. This is the gaze quality of the Social Three at its masterful level: not returning glances, but attracting glances.</p>
-          <p class="vb-intro">The <strong>Four wing (w4)</strong> gave this look a melancholic depth. Behind the perfect picture you suspected - sometimes &mdash; the person who preferred to be alone. The collector. The reader. The one who lay awake at three in the morning thinking about books.</p>
+          <p class="vb-intro">Karl Lagerfeld was the only person in the fashion world who systematically hid his gaze—and became irresistible precisely because of it. The black sunglasses were not an accessory. They were an instrument of control: those who cannot see the eyes cannot read what is happening behind them. The SO3w4 manages his expression with utmost precision—every image of himself that he allows is intentional.</p>
+          <p class="vb-intro">And yet Lagerfeld's effect was no mystery: one saw enough of him to recognize him instantly—the white hair, the black suit, the severity of the posture. He had transformed himself into a symbol identifiable at first glance, worldwide, timeless. That is the quality of gaze of the social Three at its masterful stage: not returning glances, but commanding them.</p>
+          <p class="vb-intro">The Four wing (w4) gave this gaze a melancholic depth. Behind the perfect image, one could sometimes sense the person who preferred to be alone. The collector. The reader. The one lying awake at three in the morning, thinking of books.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Three: success not as a goal, but as a way of being</h2>
+        <h2 class="vb-section">2. The Social Three: Success Not as a Goal, but as a Mode of Existence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social subtype of the three, which Claudio Naranjo denotes <strong>Reinforcement type</strong> called, doesn't live for success &mdash; he <em>is</em> Success. Karl Lagerfeld embodied this type like hardly anyone else in the cultural history of the 20th century. His work at Chanel &mdash; taken over in 1983, when the house was considered obsolete, and run until his death in 2019 &mdash; is one of the most extraordinary transformation stories in the fashion world.</p>
-          <p class="vb-intro">The SO3er is reinventing. He knows that Image is not a static construct, but a living project. Lagerfeld reinvented himself several times: as a boy from Hamburg who conquered Paris; as Emperor Karl in the eighties; as a person who lost over forty kilograms in 2001 because he wanted to wear jeans from a young designer. This last point is exemplary: He didn't shape his body because he wanted to live healthier &mdash; he formed it because the image demanded it.</p>
-          <p class="vb-intro">This is the Social Three in its most radical consequence: the self is subordinated to success until there is no difference.</p>
+          <p class="vb-intro">The social subtype of the Three, which Claudio Naranjo called the prestige/reinforcement type, does not live for success—he is success. Karl Lagerfeld embodied this type in the cultural history of the 20th century like almost no one else. His work at Chanel—taken over in 1983, when the house was considered outdated, and led until his death in 2019—is one of the most extraordinary transformation stories in the fashion world.</p>
+          <p class="vb-intro">The SO3 reinvents. He knows that image is not a static construct, but a living project. Lagerfeld reinvented himself multiple times: as a Hamburg boy who conquered Paris; as Kaiser Karl in the eighties; as a person who lost over forty kilograms in 2001 because he wanted to wear jeans designed by a young designer. This last point is exemplary: he did not shape his body because he wanted to live healthier—he shaped it because the image demanded it.</p>
+          <p class="vb-intro">That is the social Three in its most radical consequence: the self is subordinated to success until no difference remains.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Quad Wing: Aesthetics as a worldview, uniqueness as a duty</h2>
+        <h2 class="vb-section">3. The Four Wing: Aesthetics as a Worldview, Uniqueness as a Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four wing (w4)</strong> could not be overlooked at Lagerfeld &mdash; he was the reason why he was not only successful but <em>unverwechselbar</em> became. While the pure SO3 achieves success through adaptation &mdash; through what is asked - the four-wing demands something special, something unique, something that no one else has.</p>
-          <p class="vb-intro">Lagerfeld was not a designer who followed trends. He was one who created them &mdash; and always stayed above the trend. His erudition was legendary: tens of thousands of books in his Paris library, read but not decorated. His knowledge was not a status symbol &mdash; it was staple food. The SO3w4er needs the intellectual depth to differentiate themselves from the mere surface of success.</p>
-          <p class="vb-intro">At the same time, the foursome brought melancholy: Lagerfeld lost his closest friend Jacques de Bascher to AIDS in 1989. He hardly spoke about it &mdash; never publicly. The SO3w4er protects his pain with perfection.</p>
+          <p class="vb-intro">The Four wing (w4) was impossible to overlook in Lagerfeld—it was the reason why he became not only successful, but unmistakable. While the pure SO3 achieves success through adaptation—through delivering what is in demand—the Four wing demands something special, something distinct, something no one else has.</p>
+          <p class="vb-intro">Lagerfeld was not a designer who served trends. He was one who created them while always standing above the trend. His erudition was legendary: tens of thousands of books in his Paris library, read, not used as decoration. His knowledge was not a status symbol—it was a staple diet. The SO3w4 needs intellectual depth to set himself apart from the mere surface of success.</p>
+          <p class="vb-intro">At the same time, the Four wing brought melancholy: Lagerfeld lost his closest friend, Jacques de Bascher, to AIDS in 1989. He rarely spoke about it—never publicly. The SO3w4 protects his pain with perfection.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The overall effect: Chanel, Fendi and the tirelessness of creation</h2>
+        <h2 class="vb-section">4. The Overall Impact: Chanel, Fendi, and the Relentlessness of Creation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Over fifty years of creative director at Fendi. The face of Chanel for over thirty years. At the same time, his own brand, a photography career, publishing projects. Karl Lagerfeld has done a workload that is considered extraordinary even in the fashion industry &mdash; and he did so until shortly before his death at 85.</p>
-          <p class="vb-intro">The SO3er needs performance like other people need sleep. For him, standing still is not relaxation - he is a threat. Lagerfeld's comments about vacation and idleness always sounded slightly hostile: <em>"I'm never bored because I'm always working."</em> That's not a pose &mdash; that is typology.</p>
-          <p class="vb-intro">His handling of Chanel was perhaps his most significant achievement: He took over a house that was considered a museum and turned it into the defining luxury brand of the 21st century. Not through revolution, but through transformation &mdash; he preserved the DNA and incorporated the present into it. This is Social Three at the highest level: understanding the legacy of others, reimagining it, surpassing it.</p>
+          <p class="vb-intro">Over fifty years as Creative Director at Fendi. Over thirty years as the face of Chanel. Simultaneously his own brand, a photography career, publishing projects. Karl Lagerfeld performed a volume of work considered extraordinary even in the fashion industry—and he did so until shortly before his death at 85.</p>
+          <p class="vb-intro">The SO3 needs achievement like other people need sleep. Standstill is not relaxation for him—it is a threat. Lagerfeld's remarks on vacation and leisure always sounded slightly hostile: "I am never bored because I am always working." That is not a pose—that is typology.</p>
+          <p class="vb-intro">His handling of Chanel was perhaps his most significant achievement: he took over a house considered museum-like and turned it into the defining luxury brand of the 21st century. Not through revolution, but through transformation—he preserved the DNA and infused it with the present. That is social Three at the highest level: understanding the legacy of others, rethinking it, surpassing it.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Cheetah: Precision, elegance and the difference to mere speed</h2>
+        <h2 class="vb-section">5. The Cheetah: Precision, Elegance, and the Difference from Mere Speed</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The cheetah is not only fast &mdash; he is <em>elegant</em> in his speed. This is what sets it apart from other predators: the attack has style. Karl Lagerfeld had this quality in every public statement. His sentences were perfect &mdash; razor-sharp, sometimes cold, always formulated. <em>"Sweatpants are a sign that you've lost control of your life."</em> A phrase that went viral before the word existed.</p>
-          <p class="vb-intro">This cheetah energy was also evident in his speed: Lagerfeld sketched designs in minutes, and his hand drawings are still sought after today. The SO3er thinks quickly &mdash; he has little patience for processes that slow him down. The result must be good, and it must be <em>jetzt</em> be finished.</p>
-          <p class="vb-intro">The downside: The cheetah is running hot. Anyone who always performs will eventually lose access to what is below performance. Lagerfeld had barricaded this entrance early on - and decorated the barricade throughout his life.</p>
+          <p class="vb-intro">The cheetah is not just fast—it is elegant in its speed. That distinguishes it from other predators: the attack has style. Karl Lagerfeld possessed this quality in every public statement. His sentences were razor-sharp, sometimes cold, always articulated. "Sweatpants are a sign of defeat. You lost control of your life, so you bought some sweatpants." A sentence that went viral before the word even existed.</p>
+          <p class="vb-intro">This cheetah energy was also evident in his speed: Lagerfeld sketched designs in minutes; his hand drawings are sought-after to this day. The SO3 thinks fast—he has little patience for processes that slow down his tempo. The result must be good, and it must be done now.</p>
+          <p class="vb-intro">The shadow side: the cheetah runs itself hot. Whoever performs constantly eventually loses access to what lies beneath the performance. Lagerfeld had barricaded this access early on—and spent his life decorating the barricade.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The path to healing: when the image is no longer the person</h2>
+        <h2 class="vb-section">6. The Path to Healing: When the Image Is No Longer the Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the three leads from identifying with the image to discovering the self underneath. For Karl Lagerfeld it was a lifelong balancing act &mdash; and there is evidence that he walked it, at least in an inkling way.</p>
-          <p class="vb-intro">He rarely talked about feelings &mdash; but when he did, it was with an honesty that was surprising. About the loneliness of aging. About his bond with Choupette, his cat, whom he described as his favorite creature and to whom he left part of his fortune. A cat doesn't need performance. A cat loves unconditionally. Maybe this was the place where Karl Lagerfeld &mdash; the person, not the brand &mdash; was allowed to show himself briefly.</p>
-          <p class="vb-intro">A conscious SO3w4er knows that his work is bigger than himself &mdash; and that he himself is greater than his work. The cheetah that pauses and looks at its reflection without immediately sprinting further - this is the energy that has always been waiting behind the white ponytail and dark glasses.</p>
+          <p class="vb-intro">The healing path of the Three leads from identification with the image to discovering the self beneath it. For Karl Lagerfeld, this was a lifelong balancing act—and there are indications that he walked it at least inklingly.</p>
+          <p class="vb-intro">He rarely spoke about feelings—but when he did, it was with a surprising honesty. About the loneliness of aging. About his bond with Choupette, his cat, whom he described as his favorite creature and to whom he left parts of his fortune. A cat requires no performance. A cat loves unconditionally. Perhaps that was the place where Karl Lagerfeld the human, not the brand, was briefly allowed to show himself.</p>
+          <p class="vb-intro">A conscious SO3w4 knows that his work is greater than he is—and that he himself is greater than his work. The cheetah pausing to look at its reflection without immediately sprinting on—that is the energy that was always waiting behind the white ponytail and the dark lenses.</p>
         </blockquote>
 
       </div>
 
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
 
       ${relatedLinks([
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v625';
+  const MY_VERSION = 'inhalt-v626';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
