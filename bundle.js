@@ -566,6 +566,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
+    heading:"Kevin Costner – Sozialer Typ 9",
+    teaser:"SO9w1 · geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der Büffel, der nicht für sich kämpft – sondern für etwas, das größer ist als er selbst.",
+    tags:["Film","Schauspiel"], gender:"m"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
@@ -10921,6 +10925,71 @@ function hansDietrichGenscherPortraitPage() {
     </div>
   `);
 }
+
+function kevinCostnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kevin Costner</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1955 &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Kevin Costner genauer. Der B\xfcffel lebt im Kollektiv. Er bewegt sich langsam, mit Gewicht, bodennah. Er ist nicht das lauteste Tier der Pr\xe4rie &ndash; aber wenn er in Bewegung ist, folgt ihm die Herde. Seine Kraft liegt nicht in der Dominanz, sondern in der Zugeh\xf6rigkeit: Er ist Teil von etwas Gr\xf6\xdferem, und er wei\xdf es.</p>
+          <p class="vb-intro">Kevin Costner, 1955 in Lynwood, Kalifornien geboren, ist einer der seltensten Typen in Hollywood: ein Schauspieler, der nicht glitzert, sondern tr\xe4gt. Er spricht langsam. Er spielt langsam. Seine besten Rollen sind M\xe4nner, die nicht f\xfcr sich k\xe4mpfen &ndash; sondern f\xfcr etwas, das gr\xf6\xdfer ist als sie selbst: ein Land, eine Gemeinschaft, ein versunkenes Versprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: In der Gemeinschaft aufgehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Subtyp, den er <em>Teilnahme</em> nannte: die tiefe Neigung, sich einer Gruppe, einer Gemeinschaft, einem Kollektiv zu \xfcbergeben &ndash; und darin Frieden zu finden. Die SO9 verliert sich nicht aus Schw\xe4che im Anderen. Sie findet sich darin. Die Zugeh\xf6rigkeit ist kein Trost &ndash; sie ist das Ziel.</p>
+          <p class="vb-intro">Costners Filmografie liest sich wie ein SO9-Manifest. In <em>Dances with Wolves</em> (1990) spielt er einen Soldaten, der nicht siegt, sondern sich aufl\xf6st &ndash; in die Lakota-Gemeinschaft, ihre Sprache, ihren Rhythmus, ihre Werte. In <em>Field of Dreams</em> (1989) baut er ein Baseballfeld, um die Gemeinschaft der Toten mit der der Lebenden zu vers\xf6hnen. In <em>Bull Durham</em> (1988) ist er der Catcher, der nicht gl\xe4nzt &ndash; sondern h\xe4lt. Immer wieder der Mann, der den Raum bereitet, damit andere darin existieren k\xf6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Das moralische Gew\xe4sser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der sozialen Neun eine Qualit\xe4t, die beim reinen SO9er fehlt: ein innerer Kompass, ein Gef\xfchl f\xfcr Richtigkeit, eine Bereitschaft zur Unbequemlichkeit, wenn etwas falsch l\xe4uft. Die <strong>SO9w1</strong> sucht nicht nur Zugeh\xf6rigkeit &ndash; sie sucht eine Zugeh\xf6rigkeit, die stimmt.</p>
+          <p class="vb-intro">Costner w\xe4hlte seine Rollen nie nach Marktlogik. <em>Dances with Wolves</em> galt in Hollywood als unverkaufbar &ndash; drei Stunden, kein Star-Ensemble, ein Native-American-Epos ohne Heldenrettung. Er produzierte es selbst, riskierte sein Privatverm\xf6gen, gewann den Oscar f\xfcr den besten Film und f\xfcr die beste Regie. Die SO9w1 setzt sich durch &ndash; nicht durch Ellbogen, sondern durch Beharrlichkeit in dem, was sie f\xfcr richtig h\xe4lt. Der Einserfl\xfcgel gibt ihr den Mut zur Stille.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Amerika als Sehnsucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costners Werk ist ein einziges, vielstimmiges Portr\xe4t Amerikas &ndash; nicht des Amerika, das ist, sondern des Amerika, das sein k\xf6nnte. <em>The Bodyguard</em> (1992), <em>Wyatt Earp</em> (1994), <em>Open Range</em> (2003): immer wieder M\xe4nner mit einem Ehrenkodex, der gr\xf6\xdfer ist als ihre Interessen. Auch <em>Waterworld</em> (1995), das legendenumwobene Fiasko, erz\xe4hlt von einem Einzelg\xe4nger, der eine Gemeinschaft rettet &ndash; und dann wieder verschwindet. Selbst im Scheitern bleibt die Handschrift dieselbe.</p>
+          <p class="vb-intro">Mit der Fernsehserie <em>Yellowstone</em> (seit 2018) erlebte Costner eine der ungew\xf6hnlichsten Renaissance-Phasen des amerikanischen Kinos. Als John Dutton, Patriarch einer Rancher-Dynastie im Konflikt mit Moderne und Kapital, verk\xf6rpert er die SO9w1 in ihrer vollsten Form: ein Mann, der nicht das Land besitzt &ndash; sondern zu ihm geh\xf6rt. Ein Mann, dessen moralische Geradlinigkeit sowohl seine gr\xf6\xdfte St\xe4rke als auch seine Quelle der Isolation ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Stille als Grenze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>F\xe4higkeit zur Hingabe</strong>. Costner hat immer wieder Projekte verfolgt, an die er glaubte &ndash; \xfcber Widerst\xe4nde, Budgets und Kritiken hinaus. Seine Arbeit tr\xe4gt eine Ernsthaftigkeit, die in einer Unterhaltungsindustrie, die auf Ironie und Selbstreferenz setzt, seltsam anachronistisch wirkt &ndash; und gerade deshalb so selten und wertvoll ist.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich in der Gemeinschaft &ndash; und vergisst manchmal, auch f\xfcr sich selbst da zu sein. Costners Ehen &ndash; mit Cindy Silva (1978&ndash;1994) und Christine Baumgartner (2004&ndash;2023) &ndash; scheiterten beide nach langen Jahren. In Interviews wirkt er nachdenklich, gelegentlich melancholisch, wie jemand, der anderen Heimat schafft und selbst keinen festen Anker hat. Der B\xfcffel bewegt sich mit der Herde. Aber manchmal bleibt er am Ende allein auf der Pr\xe4rie zur\xfcck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costner geh\xf6rt zu den wenigen Schauspieler-Regisseuren, deren Werk ein konsistentes Weltbild tr\xe4gt: Amerika ist nicht ein Ort, sondern ein Versprechen. Zugeh\xf6rigkeit ist nicht selbstverst\xe4ndlich, sondern wird verdient. Und der Mann, der eine Gemeinschaft h\xe4lt, muss bereit sein, sich selbst zur\xfcckzunehmen. Das ist die SO9w1 in ihrer besten Form: nicht laut, nicht brillant, aber beharrlich &ndash; und tiefer, als man auf den ersten Blick vermutet.</p>
+          <p class="vb-intro">Das ist die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Dances with Wolves</em>, wie in <em>Field of Dreams</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SO9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Neuntyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 9.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function steffiGrafPortraitPage() {
   return shell(`
@@ -40860,7 +40929,8 @@ function render() {
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
-      "beruehmte-steffi-graf": steffiGrafPortraitPage,
+          "beruehmte-kevin-costner": kevinCostnerPortraitPage,
+    "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
@@ -41321,7 +41391,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v719';
+  const MY_VERSION = 'inhalt-v720';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

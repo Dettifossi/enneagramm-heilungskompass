@@ -462,6 +462,7 @@ export const registerEntries = [
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SO7w6 · Sozialer Typ 7 · Yogi, spiritueller Lehrer, Isha Foundation" },
   { term: "Sahra Wagenknecht",             route: "beruehmte-sahra-wagenknecht",           description: "Portrait: SO3w2 · Sozialer Typ 3 · Politikerin, BSW-Gründerin" },
   { term: "Sigmund Freud",                 route: "beruehmte-sigmund-freud",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Psychoanalyse-Gründer" },
+    { term: "Kevin Costner", route: "beruehmte-kevin-costner", description: "Portrait: SO9w1 · Sozialer Typ 9 · Schauspieler & Regisseur, Dances with Wolves, Yellowstone, Büffel" },
   { term: "Steffi Graf",                   route: "beruehmte-steffi-graf",                 description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Tennislegende, Golden Slam 1988" },
   { term: "Sting",                         route: "beruehmte-sting",                       description: "Portrait: SX5w4 · Sexueller Typ 5 · Musiker, The Police, spirituelle Tiefe" },
   { term: "Sundar Pichai",                 route: "beruehmte-sundar-pichai",               description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Google-CEO, stille Führungsstärke" },
