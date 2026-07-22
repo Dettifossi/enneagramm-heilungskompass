@@ -542,6 +542,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9",
+    heading:"Ruth Bader Ginsburg – Sexueller Typ 8",
+    teaser:"SX8w9 · 1933–2020. US-Bundesrichterin am Supreme Court, RBG. Pionierin der Geschlechtergleichstellung, legendary dissenter. Das Krokodil, das bleibt – der Abdruck ist geblieben.",
+    tags:["Politik","Recht"], gender:"f"},
   { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexueller Typ 8",
     teaser:"SX8w9 · 1950–2020. Musiker, Performance-Künstler, Okkultist, Gründer von Throbbing Gristle. Das Krokodil, das die Grenzen des Körpers, der Kunst und der Identität überschritt – und nie zurückkam. Tierentsprechung: Krokodil.",
@@ -10661,6 +10665,71 @@ function donaldTrumpPortraitPage() {
     </div>
   `);
 }
+
+function ruthBaderGinsburgPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ruth-bader-ginsburg-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ruth Bader Ginsburg</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexueller Typ 8 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">US-Bundesrichterin am Supreme Court, 1933&ndash;2020 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; und kein Bild trifft Ruth Bader Ginsburg pr\xe4ziser. Das Krokodil ist das \xe4lteste Raubtier der Erde: geduldig im Warten, pr\xe4zise im Zugriff, unbeeindruckt von Gegenwehr und nahezu unver\xe4ndert seit Jahrmillionen. Es braucht keine Gr\xf6\xdfe, um Respekt einzufl\xf6\xdfen. Es gen\xfcgt, dass es da ist.</p>
+          <p class="vb-intro">Ginsburg, 1933 in Brooklyn geboren, 2020 gestorben, war 27 Jahre lang Richterin am Obersten Gerichtshof der Vereinigten Staaten &ndash; die zweite Frau in dieser Geschichte. Sie war 1,57 Meter gro\xdf. Sie sprach leise. Ihre Sondervoten waren ber\xfchmt daf\xfcr, dass sie den Mehrheitsmeinungen direkt, ohne Umschreibung, ins Herz schnitten. Das Krokodil braucht kein Imponiergehabe. Sein Zugriff reicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> ist nach Naranjo der Subtyp, den er <em>Besitz</em> nannte &ndash; auf Englisch <em>Possession</em>. Die sexuelle Acht will nicht schlichter Sieg sein. Sie will die vollst\xe4ndige Begegnung: die totale \xdcberzeugung, die absolute Verbindung, den Einfluss, der nicht verhandelbar ist. Was die SX8 liebt, liebt sie mit ihrer ganzen Person. Was sie f\xfcr falsch h\xe4lt, l\xe4sst sie nicht stehen.</p>
+          <p class="vb-intro">Ginsburgs Leben liest sich wie ein SX8-Protokoll: Sie wollte nicht eine von vielen Richterinnen werden &ndash; sie wollte das Recht selbst ver\xe4ndern. Als Anw\xe4ltin in den 1970er Jahren f\xfchrte sie vor dem Supreme Court Verfahren, die systematisch und methodisch die rechtliche Gleichstellung der Geschlechter erk\xe4mpften. Sie w\xe4hlte ihre F\xe4lle wie ein Krokodil seine Beute: mit Bedacht, ohne Eile &ndash; und mit dem Wissen, dass der Zugriff sitzen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Die Stille vor dem Zugriff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> verleiht der sexuellen Acht eine Qualit\xe4t, die die reine Acht oft nicht zeigt: Geduld, Weitr\xe4umigkeit und eine Stille, die nicht Passivit\xe4t ist, sondern gesammelte Kraft. Die SX8w7 schl\xe4gt sofort zu. Die <strong>SX8w9</strong> wartet, bis der Moment so vollst\xe4ndig ist, dass kein Zweifel bleibt.</p>
+          <p class="vb-intro">Ginsburg wartete jahrzehntelang auf die richtigen F\xe4lle, die richtigen Gerichte, die richtigen politischen Fenster. Ihr Weg zur Gleichberechtigung war kein Sprint &ndash; er war eine strategische Kampagne \xfcber dreißig Jahre. Der Neunerfl\xfcgel gab ihr auch die F\xe4higkeit zur Ausdauer: acht Krebsoperationen, den Tod ihres Mannes 2010, jahrelangen Druck zur\xfcckzutreten &ndash; und sie blieb. Das Krokodil zieht sich nicht zur\xfcck, solange es noch Wasser gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Anw\xe4ltin zur Richterin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den 1970er Jahren war Ginsburg Mitgr\xfcnderin des Women's Rights Project der ACLU und f\xfchrte eine Reihe wegweisender Verfahren vor dem Supreme Court. Ihr Ansatz war unorthodox: Sie w\xe4hlte h\xe4ufig m\xe4nnliche Kl\xe4ger &ndash; um zu zeigen, dass Geschlechterdiskriminierung beide Seiten betraf und das Gericht leichter zu \xfcberzeugen war. Das war keine Bescheidenheit. Das war Pr\xe4zision.</p>
+          <p class="vb-intro">1993 berief Pr\xe4sident Clinton sie an den Supreme Court. Als Richterin war sie bekannt f\xfcr ihre pr\xe4zise, klare Sprache und ihre unerbittlichen Sondervoten &ndash; insbesondere in den letzten Jahren, als die konservative Mehrheit des Gerichts Urteile f\xe4llte, die sie f\xfcr grundlegende Fehler hielt. Ihr Sondervotum im Fall <em>Ledbetter v. Goodyear</em> (2007) f\xfchrte direkt zu einem Bundesgesetz. Das Krokodil wirkt auch, wenn es verliert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Unnachgiebigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w9 ist ihre <strong>absolute Integrit\xe4t</strong>. Ginsburg ließ sich nie von politischen Opportunit\xe4ten verbiegen. Ihre Haltung zur Gleichheit war keine Karrierestrategie &ndash; sie war ein Lebensinhalt, f\xfcr den sie bezahlte: als Jurastudentin, der Professuren verweigert wurden, als Anw\xe4ltin in einer Zeit, in der Frauen kaum in Kanzleien aufgenommen wurden, und als Richterin, der man jahrzehntelang den R\xfccktritt nahelegte.</p>
+          <p class="vb-intro">Der Schatten: Die Unnachgiebigkeit der SX8w9 kann zur Sturheit werden. Ginsburg h\xe4lt bis zum Ende an ihrem Amt fest &ndash; und stirbt, ohne eine Nachfolgerin unter einem ihr nahestehenden Pr\xe4sidenten zu erm\xf6glichen. Ihr Sitz geht an Amy Coney Barrett. Die Frage, ob sie zu lange blieb, ist nicht leicht zu beantworten. Aber die SX8w9 stellt sie sich meist nicht &ndash; das Amt ist ihr Territorium, und das gibt man nicht auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruth Bader Ginsburg ist mit 87 Jahren gestorben, im Dienst, am Vorabend eines Wahljahres &ndash; und wurde in den Tagen danach zu einer Ikone, wie es Richterinnen selten werden. Ihre Jabots, die Spitzenkragen auf ihrem Richtergewand, wurden weltber\xfchmt. Ihre Ausspr\xfcche standen auf Tassen, T-Shirts, Wandposter. Das Krokodil braucht keine Inszenierung &ndash; aber manchmal inszeniert die Welt es trotzdem.</p>
+          <p class="vb-intro">Was bleibt, ist das Werk. Gesetze, die wegen ihr existieren. Urteile, die wegen ihr anders aussehen. Eine Generation von Juristinnen, die wegen ihr anders denkt. Die SX8w9 hinterl\xe4sst keine Helden-Erzählung &ndash; sie hinterl\xe4sst Ver\xe4nderung. Das Krokodil war da. Der Abdruck ist geblieben.</p>
+          ${bookTip("enneagramm-typen", "Sexueller Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SX8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sexuellen Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SX8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sexuellen Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
+          {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+          {route:"beruehmte-jamaica-kincaid", label:"Portr\xe4t: Jamaica Kincaid (SO8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function genesisPOrridgePortraitPage() {
   return shell(`
@@ -40644,7 +40713,8 @@ function render() {
     "beruehmte-bud-spencer": budSpencerPortraitPage,
     "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
-      "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
+          "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
+    "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
@@ -41106,7 +41176,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v714';
+  const MY_VERSION = 'inhalt-v715';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -404,6 +404,8 @@ export const registerEntries = [
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX2w3 · Sexueller Typ 2 · Queen-Frontsänger, Bühnenmagier" },
   { term: "Frédéric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 · Sexueller Typ 5 · Komponist, romantische Klaviermusik" },
   { term: "Friedrich Merz",                route: "beruehmte-friedrich-merz",              description: "Portrait: SO1w9 · Sozialer Typ 1 · CDU-Vorsitzender, Wirtschaftspolitiker" },
+    { term: "Ruth Bader Ginsburg", route: "beruehmte-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · US-Bundesrichterin, Supreme Court, RBG, Geschlechtergleichstellung, Krokodil" },
+    { term: "Ruth Bader Ginsburg", route: "beruehmte-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · US-Bundesrichterin, Supreme Court, RBG, Geschlechtergleichstellung, Krokodil" },
   { term: "Genesis P-Orridge",             route: "beruehmte-genesis-p-orridge",           description: "Portrait: SX4w5 · Sexueller Typ 4 · Künstler, Pandrogynie, Avantgarde" },
   { term: "Gertrude Elion",                route: "beruehmte-gertrude-elion",              description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Nobelpreis-Biochemikerin" },
   { term: "Gloria von Thurn und Taxis",    route: "beruehmte-gloria-von-thurn-und-taxis",  description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · Fürstin, Unternehmerin" },
