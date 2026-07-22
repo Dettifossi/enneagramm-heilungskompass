@@ -560,7 +560,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"] , gender:"f"},
   { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
     heading:"Angela Merkel – Selbsterhaltende Typ 9",
-    teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren – und ein Erbe voller Widerspürche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
+    teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren – und ein Erbe voller Widersprüche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
     tags:["Politik"], gender:"f"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
