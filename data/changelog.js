@@ -3,6 +3,12 @@
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
   {
+    date: "2026-07-22",
+    text: "Neues Portr\xe4t: Rowan Atkinson (SO7w6) – Schauspieler, Komiker. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
+    text_en: "New portrait: Rowan Atkinson (SO7w6) – actor, comedian. Mr. Bean, Blackadder, Johnny English. The beaver with Six wing: belonging over escape, perfection as inner insurance.",
+    route: "beruehmte-rowan-atkinson"
+  },
+  {
     date: "2026-07-21",
     text: "Neues Portr\xe4t: Mariah Carey (SE7w8) – S\xe4ngerin, 18 Nummer-1-Singles, ›All I Want for Christmas Is You‹. Der Gorilla mit Achterfl\xfcgel: Freude als Recht, \xdcberfluss als Heimat, Macht als Schutzschild.",
     text_en: "New portrait: Mariah Carey (SE7w8) – singer, 18 number-one singles, All I Want for Christmas Is You. The gorilla with Eight wing: joy as a right, abundance as home, power as shield.",

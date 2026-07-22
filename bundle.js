@@ -11816,6 +11816,71 @@ function mariahCareyPortraitPage() {
   `);
 }
 
+function rowanAtkinsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rowan-atkinson-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rowan Atkinson</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Komiker, Autor, geb. 1955 in Consett, County Durham</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das fleißigste Tier des Waldes &ndash; und das architektonisch begabteste. Er baut nicht, weil er muss, sondern weil er nicht anders kann. Er verändert seine Umgebung, plant in Systemen, arbeitet mit einer Ausdauer, die andere Tiere an ihre Grenzen bringen würde. Der Biber lebt in einem engen Familienverband; sein Bau ist nicht Versteck, sondern Werk &ndash; eine komplexe Konstruktion, die dem Schutz aller dient. Und er ist geduldiger als alle anderen: Ein Damm entsteht nicht über Nacht.</p>
+          <p class="vb-intro">Rowan Atkinson wurde 1955 in Consett, County Durham, als jüngstes von vier Söhnen eines wohlhabenden Bauern und Unternehmers geboren. Er studierte Elektrotechnik in Newcastle und erwarb später seinen Masterabschluss am Queen&#8217;s College, Oxford. Der Mann hinter Mr. Bean ist kein Clown aus dem Bauch heraus &ndash; er ist ein Ingenieur der Komik: präzise, methodisch, auf Perfektion ausgerichtet. Der Biber, der seinen Damm Stein für Stein baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Gesellschaft: Zugehörigkeit statt Ausbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> &ndash; weil dieser Subtyp seine eigenen Vergnügungen dem Wohl der Gruppe oder einem höheren Zweck opfert. Während der SE7 Überfluss für sich selbst baut und der SX7 in Verschmelzung sucht, orientiert sich der SO7 am Kollektiv: Er will dazugehören, einen Beitrag leisten, Teil von etwas Größerem sein. Sein Hedonismus tritt nach innen &ndash; und nach außen zeigt er sich als gewissenhafter Arbeiter im Dienst einer Gemeinschaft.</p>
+          <p class="vb-intro">Atkinson versteht sich als Teil der britischen Komödientradition &ndash; einer langen Linie von Charakterkomikern, Satirikern und physischen Clowns, die zurückreicht bis zu Charlie Chaplin und Buster Keaton und die in seiner Zeit von Peter Sellers und dem Monty-Python-Ensemble geprägt wurde. Er ist kein Rebell, der die Tradition sprengt &ndash; er studiert sie, ehrt sie und setzt sie fort. <em>Not the Nine O&#8217;Clock News</em> (1979&ndash;1982), die BBC-Satiresendung, mit der er bekannt wurde, war ein Gemeinschaftswerk; <em>Blackadder</em> entstand aus jahrelanger Zusammenarbeit mit Richard Curtis und Tony Robinson. Der SO7 baut nicht allein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Das Gewissen des Clowns</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt dem sozialen Siebener eine Qualität, die ihn von innen heraus prägt: Pflichtbewusstsein, Selbstzweifel und eine tiefe Angst vor dem Versagen. Wo der reine SO7 sich hinter Großzügigkeit versteckt, fügt der Sechserflügel hinzu: <em>Bin ich wirklich gut genug? Verdiene ich meinen Platz?</em></p>
+          <p class="vb-intro">Atkinson litt von Kindheit an unter einem Stottern &ndash; einer Sprachstörung, die ihn in sozialen Situationen zu einem Außenseiter machte und die er erst durch jahrelanges Training und seinen Weg zur Bühne überwand. Das Stottern verschwindet, wenn er in eine Figur schlüpft: Mr. Bean spricht kaum; Blackadder spricht in perfekt geschliffenen Sätzen. Die Maske schützt &ndash; und der Sechserflügel ist derjenige, der darauf besteht, dass die Maske sitzt.</p>
+          <p class="vb-intro">Seine Vorbereitung gilt als legendär: Er soll einzelne Sketchideen über Jahre hinweg entwickelt und verworfen haben, bevor sie öffentlich wurden. Perfektion ist für den SO7w6 kein Luxus &ndash; sie ist eine innere Versicherung gegen den Einbruch des Versagens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Blackadder zu Mr. Bean</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rowan Atkinsons Werk umfasst drei ikonische Figuren, die kaum unterschiedlicher sein könnten: Edmund Blackadder &ndash; zynisch, wortgewandt, von beißendem Verstand &ndash; ist das genaue Gegenteil von Mr. Bean. Blackadder weiß immer, was er will und warum alle anderen inkompetent sind. Die Serie lief von 1983 bis 1989 in vier Staffeln, jede in einem anderen historischen Setting; die letzte Staffel, <em>Blackadder Goes Forth</em> über den Ersten Weltkrieg, gehört zu den berühmtesten Momenten der britischen Fernsehgeschichte.</p>
+          <p class="vb-intro">Mr. Bean &ndash; stumm, unfähig, kindlich-egozentrisch &ndash; entstand 1990 und machte Atkinson weltberühmt. Die Figur kommuniziert fast ohne Worte; sie ist universell, weil sie keine Sprache braucht. Mr. Bean wurde in über 200 Ländern ausgestrahlt. Atkinson hat wiederholt erklärt, dass er die Figur zunehmend als Last empfindet &ndash; sie klebt an ihm, auch wenn er längst woanders ist. <em>Johnny English</em> (ab 2003) verbindet beides: den Wortführer und den Tölpel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der Mann hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht des SO7w6 ist seine <strong>handwerkliche Ernsthaftigkeit</strong>. Atkinson hat nie versucht, berühmt zu werden &ndash; er hat versucht, gut zu sein. Sein Humor ist präzise beobachtet, sorgfältig konstruiert, nie billig. Er hat mehr Zeit damit verbracht, Ideen zu verwerfen, als sie zu realisieren.</p>
+          <p class="vb-intro">Der Schatten: Der SO7 opfert &ndash; und irgendwann fragt er sich, ob er zu viel geopfert hat. Atkinson hat in Interviews offen darüber gesprochen, dass er sich von Mr. Bean eingeengt fühlt; dass er das Gefühl hat, von einer Figur definiert zu werden, die er selbst längst hinter sich gelassen hat. Der Biber hat einen Damm gebaut &ndash; und ist nun gefangen in seinem eigenen Werk.</p>
+          <p class="vb-intro">Privat ist Atkinson bekannt als zurückhaltend, fast unsichtbar. Er meidet das Rampenlicht abseits der Bühne, gibt selten Interviews und engagiert sich kaum in öffentlichen Debatten. Ein begeisterter Autofahrer &ndash; er besitzt seltene Sportwagen und hatte mit einem McLaren F1 zwei spektakuläre Unfälle &ndash;, aber kein öffentlicher Mensch. Der Biber taucht ab, wenn er nicht baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, der nicht aufhören kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rowan Atkinson ist seit vier Jahrzehnten im Geschäft &ndash; und zeigt keine Anzeichen, aufzuhören. Er hat Mr. Bean mehrfach für tot erklärt und ihn dann doch zurückgebracht. Er hat erklärt, die physische Komik werde mit dem Alter schwerer &ndash; und dann <em>Johnny English Strikes Again</em> gedreht. Das ist der Biber: Er baut, auch wenn der Damm fertig ist. Er baut, weil Bauen sein Wesen ist. Und er vergisst nicht, was er einmal begonnen hat.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 7 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im Überblick.")}
+          ${bookTip("burnout", "SO7 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Erschöpfungsprofil des sozialen Siebentyps.")}
+          ${bookTip("homoeopathie", "Homöopathie für den SO7", "Detlef Rathmer: Homöopathie und Enneagramm – Mittelzuordnungen für den sozialen Typ 7.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+          {route:"beruehmte-hazel-brugger", label:"Porträt: Hazel Brugger (SO7w8)"},
+          {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmin Paolini (SE7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function wallaceShawnPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -40126,6 +40191,7 @@ function render() {
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
+      "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
@@ -40550,7 +40616,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v700';
+  const MY_VERSION = 'inhalt-v701';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
