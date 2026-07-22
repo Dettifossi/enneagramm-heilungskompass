@@ -570,6 +570,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kevin Costner – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der Büffel, der nicht für sich kämpft – sondern für etwas, das größer ist als er selbst.",
     tags:["Film","Schauspiel"], gender:"m"},
+  { route:"beruehmte-iga-swiatek", name:"Iga Świątek", added:"2026-07-22", subtyp:"SX9w1",
+    heading:"Iga Świątek – Sexueller Typ 9",
+    teaser:"SX9w1 · geb. 2001. Tennisprofi. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. Die dominanteste Spielerin ihrer Ära – und das Faultier, das im Flow fliegt.",
+    tags:["Sport","Tennis"], gender:"f"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
@@ -10987,6 +10991,71 @@ function kevinCostnerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function igaSwiatekPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Iga Świątek</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 2001 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga Świątek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die bl\xfcffend ist.</p>
+          <p class="vb-intro">Iga Świątek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Im Fluss verschwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp, den er <em>Vereinigung</em> nannte: die Suche nach vollst\xe4ndiger Verschmelzung mit dem Anderen &ndash; dem Partner, dem Spiel, dem Moment. Die SX9 verliert sich nicht. Sie findet sich &ndash; in einem Zustand vollst\xe4ndiger Pr\xe4senz, in dem Subjekt und Objekt eins werden. Was Sportpsychologen &ldquo;Flow&rdquo; nennen, ist f\xfcr die SX9 kein Ausnahmezustand. Es ist ihr Zuhause.</p>
+          <p class="vb-intro">Świątek beschreibt ihr ideales Spiel genau so: kein Denken, kein Planen, kein innerer Kommentar. Einfach da sein und spielen. Der Ball kommt &ndash; sie antwortet. Nicht sie entscheidet, was sie tut. Die Situation entscheidet, und ihr K\xf6rper folgt. In diesen Momenten, sagt sie, f\xfchlt sich Tennis nicht wie Arbeit an. Es f\xfchlt sich an wie Atemholen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Der innere Richter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der sexuellen Neun etwas, das dem reinen SX9-Typ fehlt: einen pr\xe4zisen inneren Standard, eine Bereitschaft zur Selbstkritik, die F\xe4higkeit, die eigene Leistung k\xfchl zu beurteilen. Die <strong>SX9w1</strong> sucht nicht nur Versenkung &ndash; sie sucht eine Versenkung, die exzellent ist. Der Flow allein gen\xfcgt ihr nicht. Er muss auch stimmen.</p>
+          <p class="vb-intro">Świątek arbeitet mit der Sportpsychologin Daria Abramowicz &ndash; eine ungew\xf6hnlich offene Entscheidung in einer Sportart, in der psychologische Unterst\xfctzung h\xe4ufig tabuisiert wird. Ihr Fehlerumgang ist auff\xe4llig: Sie reagiert nicht mit Wut oder Verzweiflung, sondern mit stiller Konzentration. Ein Fehler ist eine Information. Er sagt ihr, wo die Ausrichtung verrutscht ist. Der Einserfl\xfcgel macht aus der Neun keine Perfektionistin im neurotischen Sinn &ndash; aber eine Spielerin, die genau wei\xdf, wenn sie nicht bei sich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Die Dominanz der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Świąteks Spiel besitzt eine Qualit\xe4t, die Kommentatoren immer wieder beschreiben, ohne sie ganz erkl\xe4ren zu k\xf6nnen: Sie wirkt nie gehetzt. Ihre Schl\xe4ge sind nicht h\xe4rter als die anderer Spielerinnen in ihrer \xc4ra &ndash; aber sie kommen genau dann, wenn der Druck maximal ist, und sie kommen mit einer Konsequenz, die M\xe4tchwinner ersch\xf6pft. Świątek gewinnt nicht durch \xdcberrumpeln. Sie gewinnt, indem sie so lange vollst\xe4ndig pr\xe4sent bleibt, bis die Gegnerin aufgibt, es ihr gleichzutun.</p>
+          <p class="vb-intro">Ihr Vater Tomasz Świątek war Ruderer bei den Olympischen Spielen 1988 in Seoul &ndash; ein Athlet, der Ausdauer und Rhythmus \xfcber explosive Kraft stellte. Die Familienpr\xe4gung ist sp\xfcrbar. Świątek ist keine Spielerin der spektakul\xe4ren Einzelaktion. Sie ist eine Spielerin des anhaltenden Flusses. Nicht der gro\xdfe Moment &ndash; das gro\xdfe Kontinuum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn der Flow reißt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>au\xdfergew\xf6hnliche Konzentrationskraft</strong>. Świątek kann ganze Turniere in einem Zustand vollst\xe4ndiger Pr\xe4senz spielen, der bei anderen Spielerinnen nach wenigen S\xe4tzen nachl\xe4sst. Auf Sand ist sie praktisch unbesiegbar, wenn dieser Zustand h\xe4lt. Der Einserfl\xfcgel sorgt daf\xfcr, dass sie aus Fehlern lernt, ohne sich in ihnen zu verlieren.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich im Flow &ndash; und wenn der Flow abreißt, bricht manchmal alles auf einmal zusammen. Świątek verlor 2022 das French-Open-Viertelfinale gegen Iga Besidze in einem Satz, der aussah wie eine andere Spielerin. 2024 scheiterte sie im Wimbledon-Achtelfinale an Yulia Putintseva unter auff\xe4lligen Umst\xe4nden. In diesen Momenten zeigt sich, was passiert, wenn die SX9w1 aus ihrem Zentrum ger\xe4t: keine Wut, kein Kampf &ndash; eine Art stilles Verschwinden. Als w\xe4re die Verbindung einfach weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das fliegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Iga Świątek ist 23 Jahre alt. Sie hat vier Grand-Slam-Titel gewonnen und ist die unangefochtene Nummer eins einer \xc4ra, in der das Frauentennis so ausgeglichen ist wie selten zuvor. Was sie von anderen trennt, ist nicht Muskelkraft oder Taktik. Es ist die F\xe4higkeit, vollst\xe4ndig im Moment zu sein &ndash; Satz f\xfcr Satz, Punkt f\xfcr Punkt, so lang wie n\xf6tig.</p>
+          <p class="vb-intro">Das Faultier sieht aus, als w\xfcrde es schlafen. Aber es befindet sich in einer Form der Pr\xe4senz, die Menschen selten erreichen. Świątek spielt Tennis wie das Faultier h\xe4ngt: m\xfchelos, ruhig, vollkommen im Gleichgewicht mit dem, was ist. Und manchmal, wenn der Wind stimmt und der Ball genauso kommt wie er kommen soll, entsteht etwas, das wie Schwerelosigkeit aussieht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
           {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
         ])}
       </div>
@@ -40999,6 +41068,7 @@ function render() {
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,
+        "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
@@ -41461,7 +41531,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v721';
+  const MY_VERSION = 'inhalt-v722';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
