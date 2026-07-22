@@ -10134,7 +10134,7 @@ function goldaMeirPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten: Der Jom-Kippur-Krieg</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE8w9 ist ihre <strong>unerschütterliche Präsenz</strong>. Meir war keine charismatische Rednerin im klassischen Sinne &ndash; aber wer ihr gegen\xfcbersa\xdf, sp\xfcrte sofort: Diese Frau l\xe4sst sich nicht einsch\xfcchtern. Ihre Direktheit war keine Maske; ihr Humor war trocken und selbstironisch; ihre Loyalit\xe4t gegen\xfcber ihrem Volk war bedingungslos. Die SE8w9 ist keine, die sich produziert. Sie ist einfach da &ndash; und das gen\xfcgt.</p>
-          <p class="vb-intro">Der Schatten: Am 6. Oktober 1973, dem h\xf6chsten j\xfcdischen Feiertag Jom Kippur, \xfcberfielen \xe4gyptische und syrische Truppen Israel in einem koordinierten Angriff. Meir hatte Warnzeichen gesehen und zu sp\xe4t gehandelt; der \xdcberraschungseffekt kostete Israel schwere Verluste. Sie \xfcbernahm die politische Verantwortung und trat im April 1974 zur\xfcck. Die SE8 nimmt keine Entschuldigungen. Sie nimmt Konsequenzen.</p>
+          <p class="vb-intro">Der Schatten: Am 6. Oktober 1973, dem h\xf6chsten j\xfcdischen Feiertag Jom Kippur, \xfcberfielen \xe4gyptische und syrische Truppen Israel in einem koordinierten Angriff. Meir hatte Warnzeichen gesehen und zu sp\xe4t gehandelt; der \xdcberraschungseffekt kostete Israel schwere Verluste. Sie \xfcbernahm die politische Verantwortung und trat im April 1974 zur\xfcck. Die SE8 entschuldigt sich nicht. Sie tr\xe4gt die Konsequenzen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Orang-Utan, der nicht zu bewegen war</h2>
