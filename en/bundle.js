@@ -12271,7 +12271,7 @@ function beruehmtePersoenlichkeitenPage() {
       const code = (p.subtyp||'').substring(0,3).toUpperCase();
       if (code && code !== lastCode) {
         if (lastCode !== null) {
-          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'bp-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 zum Register</a></div>';
+          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'bp-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 ↑ to index</a></div>';
         }
         const n = parseInt(code.slice(-1));
         const col = TYPE_COLORS[n]||"var(--copper)";
@@ -19202,7 +19202,7 @@ function kriminalpsychologiePage() {
       const code = (p.subtyp||'').substring(0,3).toUpperCase();
       if (code && code !== lastCode) {
         if (lastCode !== null) {
-          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'kf-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">↑ zum Register</a></div>';
+          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'kf-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">↑ ↑ to index</a></div>';
         }
         const n = parseInt(code.slice(-1));
         const col = TYPE_COLORS[n]||"var(--copper)";
@@ -44765,7 +44765,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v639';
+  const MY_VERSION = 'inhalt-v640';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
