@@ -1,0 +1,102 @@
+Please translate the following German Enneagram portrait texts into English.
+
+IMPORTANT RULES:
+- Keep all [MARKER] labels exactly as they are: [H2], [P], [SUBTITLE], [BOOKTIP_DESC|...|...], [LABEL]
+- Keep the separator lines "=== PORTRAIT: Name ===" exactly as they are
+- For [BOOKTIP_DESC|bookid|title]: translate ONLY the text AFTER the ], the German book title inside the brackets stays unchanged
+- Do NOT translate: proper names, subtype codes (SE1, SX2 etc.), years, book titles inside [...] brackets
+- Animal names in English: Adler=Eagle, Igel=Hedgehog, Flusspferd=Hippopotamus, Elefant=Elephant, Chamäleon=Chameleon, Krähe=Crow, Fuchs=Fox, Bär=Bear, Schimpanse=Chimpanzee, Ameise=Ant, Pferd=Horse, Stier=Bull, Schwan=Swan, Delfin=Dolphin, Katze=Cat, Schmetterling=Butterfly, Reh=Deer, Löwe=Lion, Eule=Owl, Wolf=Wolf, Tiger=Tiger, Krokodil=Crocodile, Faultier=Sloth, Waschbär=Raccoon, Biber=Beaver
+- Subtype names: selbsterhaltend=self-preservation, sexuell=sexual, sozial=social
+- Write only the translated version, no explanations
+
+=== PORTRAIT: Jamie Lee Curtis ===
+[SUBTITLE] Schauspielerin &amp; Aktivistin, geb. 1958 &ndash; Tierentsprechung: Schwarze Mamba
+[H2] 1. Die Schwarze Mamba
+[H2] 2. Die sexuelle Eins: Leidenschaft als inneres Feuer
+[H2] 3. Der Zweierflügel: Fürsorge als zweite Kraft
+[H2] 4. Die Leidenschaft: Zorn als Reinigungsfeuer
+[H2] 5. Der Oscar und das Geschenk der späten Blüte
+[H2] 6. Das Geschenk: Echtheit als Einladung
+[P] Die Schwarze Mamba ist das Tier der sexuellen Eins und kein Tier trifft Jamie Lee Curtis so genau. Die Schwarze Mamba ist eine der giftigsten Schlangen der Welt, blitzschnell, präzise und vollkommen kompromisslos. Sie greift nicht aus Aggression an sie handelt aus einem inneren Gesetz heraus. Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird mit vollem Einsatz verteidigt.
+[P] Jamie Lee Curtis, geboren 1958 als Tochter der Hollywood-Legenden Tony Curtis und Janet Leigh, wuchs in einer Welt auf, in der Schönheit, Ruhm und Schein das Maß aller Dinge waren und entwickelte früh einen inneren Widerstand gegen genau das. Ihre Karriere begann 1978 mit John Carpenters Halloween: ein Horrorfilm, eine Scream Queen und eine junge Frau, die von Anfang an mehr wollte als das, was das Genre ihr anbot.
+[P] Die sexuelle Eins (SX1) ist der Subtyp der Eins, der seinen Perfektionsanspruch nicht auf sich selbst oder auf das Kollektiv richtet, sondern auf Intensität auf vollständige Präsenz, vollständige Authentizität, vollständige Ehrlichkeit in allem, was zählt. Naranjo nannte diesen Subtyp Zeal: Inbrunst, Eifer, ein brennendes Verlangen nach dem Echten.
+[P] Jamie Lee Curtis lebt diesen Subtyp mit einer Offenheit, die in Hollywood selten ist. Sie sprach als eine der ersten Schauspielerinnen öffentlich über ihre Sucht: 22 Jahre lang war sie abhängig von Opiaten, seit 1999 ist sie nüchtern. Sie sprach über das Scheitern von Ehen, über die Herausforderungen der Mutterschaft, über die Absurdität von Schönheitsidealen. Nicht als Beichte sondern als Bekenntnis: Das Echte ist mehr wert als der Schein.
+[P] 2021 ließ sie sich für das Magazin AARP ohne Retusche, ohne Schminke, ohne Inszenierung fotografieren. Für eine Schauspielerin in einer Branche, in der Altern als Makel gilt, war das ein Akt. Für eine SX1 war es selbstverständlich.
+[P] Der Zweierflügel (w2) verleiht der sexuellen Eins etwas Entscheidendes: echte Zugewandtheit. Die SX1w2 ist nicht nur kompromisslos in eigener Sache sie sorgt, sie fürsorgt, sie steht anderen bei. Die Intensität der sexuellen Eins wird durch den Zweierflügel nach außen gerichtet: nicht als Kontrolle, sondern als Verbindung.
+[P] Als ihre Tochter Ruby sich als transgender outete, trat Jamie Lee Curtis sofort öffentlich an ihre Seite bedingungslos, laut, klar. Als langjährige Schirmherrin von Kinderkrankenhäusern engagiert sie sich seit Jahrzehnten für kranke Kinder. Ihre Freundschaften besonders die legendäre mit John Cleese und der Rest des A Fish Called Wanda-Casts sind bekannt für ihre Tiefe und Dauerhaftigkeit. Die Schwarze Mamba beißt für andere ebenso wie für sich selbst.
+[P] Die Leidenschaft der Eins heißt Zorn und bei der SX1w2 brennt er besonders hell, weil er mit der Intensität des sexuellen Subtyps verbunden ist. Jamie Lee Curtis hat keine Scheu, diesen Zorn zu zeigen: gegen die Filmindustrie, die Frauen jenseits der vierzig unsichtbar macht; gegen Schönheitsindustrien, die Unsicherheit verkaufen; gegen eine Gesellschaft, die Süchtige verurteilt statt unterstützt.
+[P] Dieser Zorn ist nicht destruktiv. Er ist reinigend. Er räumt auf. Die SX1 erträgt keine Heuchelei und sie schweigt auch nicht darüber. Was Jamie Lee Curtis von vielen anderen unterscheidet: Sie zeigt den Zorn und die Wärme gleichzeitig. Nicht abwechselnd, sondern zusammen. Die Mamba und der Zweierflügel sind kein Widerspruch.
+[P] 2023 gewann Jamie Lee Curtis den Oscar als Beste Nebendarstellerin für Everything Everywhere All at Once im Alter von 64 Jahren, nach fast fünfzig Jahren Karriere. Es war ihr erster Oscar. Ihre Dankesrede war so, wie man es von einer SX1w2 erwartet: direkt, emotional, vollständig präsent. Sie weinte. Sie lachte. Sie sprach über ihre Eltern, ihre Nüchternheit, ihre Familie.
+[P] Dieser Moment ist das Symbol ihres Lebensweges: nicht früh und glänzend, sondern gereift, echt und vollständig. Die Schwarze Mamba braucht keine Bühne, um sich zu beweisen aber wenn die Bühne kommt, ist sie bereit. Und wenn sie spricht, meint sie es.
+[P] Was Jamie Lee Curtis der Welt gegeben hat, lässt sich in einem Satz zusammenfassen: Sie hat bewiesen, dass man sich nicht verbiegen muss, um zu bestehen. Nicht in Hollywood, nicht in der Öffentlichkeit, nicht im Alter. Das ist das Geschenk der SX1w2: das Feuer, das nicht erlischt, wenn es sich zeigt sondern gerade dann am hellsten brennt.
+[P] Die Schwarze Mamba weicht nicht aus. Sie ist vollständig da, vollständig sie selbst und der Zweierflügel sorgt dafür, dass diese Vollständigkeit anderen Mut macht. Nicht als Vorbild im klassischen Sinne, sondern als lebendiger Beweis: Das Echte hält länger als der Schein.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Alle berühmten Persönlichkeiten
+[LABEL] SX1 – Die Schwarze Mamba: Subtyp-Profil
+[LABEL] Porträt: Leonardo DiCaprio (SX1w2)
+[LABEL] Porträt: Christoph Waltz (SE1w2)
+
+=== PORTRAIT: Jürgen Klopp ===
+[SUBTITLE] Fußballtrainer, geb. 1967 &ndash; Dortmund, Liverpool, Red Bull &ndash; Tierentsprechung: Gans
+[H2] 1. Die Gans
+[H2] 2. Die soziale Eins: Ideale für das Kollektiv
+[H2] 3. Der Zweierflügel: Wärme als Führungsmittel
+[H2] 4. Die Leidenschaft: Zorn als kollektives Gewissen
+[H2] 5. Der Abschied und der nächste Posten
+[H2] 6. Das Geschenk: Glauben als Übertragung
+[P] Die Gans ist das Tier der sozialen Eins und kein Tier trifft Jürgen Klopp so genau. Die Gans fliegt nicht allein. Sie fliegt im V-Formationsverband, sie ruft, sie hält die Gruppe zusammen, sie übernimmt Verantwortung für das Kollektiv. Wenn eine Gans erschöpft ist, übernimmt eine andere die Spitze. Das Prinzip ist Solidarität und die Überzeugung, dass man gemeinsam weiter kommt als allein.
+[P] Jürgen Klopp, geboren 1967 in Stuttgart, war als Spieler ordentlich und als Trainer außergewöhnlich. Nicht weil er taktisch so brillant gewesen wäre wie andere, sondern weil er verstand, was Mannschaften wirklich brauchen: das Gefühl, füreinander zu spielen. Mit dem BVB gewann er zweimal die Deutsche Meisterschaft und den DFB-Pokal. Mit dem FC Liverpool holte er 2019 die Champions League und 2020 die englische Meisterschaft Titel, auf die Liverpool über dreißig Jahre gewartet hatte. Kein Zufall. Eine Gans, die ihre Formation findet.
+[P] Die soziale Eins (SO1) ist der Subtyp der Eins, der seinen Perfektionsanspruch nicht auf sich selbst oder sein privates Umfeld richtet, sondern auf das Kollektiv auf die Gruppe, die Gemeinschaft, die Gesellschaft. Naranjo nannte diesen Subtyp Non-Adaptability: Die SO1 passt sich nicht an, wenn sie erkennt, dass das Kollektiv einen falschen Weg einschlägt. Sie steht auf. Sie benennt, was nicht stimmt. Sie kämpft für ein Ideal, das über die eigene Person hinausgeht.
+[P] Klopps Ideal war immer erkennbar: Fußball als Teamleistung, nicht als Bühne für Einzelspieler. Sein System des Gegenpressings sofortiger kollektiver Ballrückgewinn nach Ballverlust ist nicht nur eine Taktik. Es ist eine Philosophie: Alle laufen, alle kämpfen, alle sind verantwortlich. Kein Einzelner rettet das Spiel. Das Kollektiv gewinnt es.
+[P] Als er 2015 zu Liverpool wechselte, erklärte er sich selbst zum Normal One eine direkte Anspielung auf José Mourinhos berühmtes Special One. Das war kein Understatement. Das war ein Bekenntnis: Nicht Ich, sondern Wir.
+[P] Der Zweierflügel (w2) verleiht der sozialen Eins etwas Entscheidendes: echte menschliche Wärme. Die SO1w2 will nicht nur, dass das System stimmt sie will, dass die Menschen darin sich gesehen und geliebt fühlen. Der Zweierflügel macht aus dem Idealisten einen Begleiter.
+[P] Klopp umarmt seine Spieler. Er springt von der Bank, ballt die Faust, dreht durch und das ist keine Inszenierung. Es ist genuiner Ausdruck. Wenn Mohamed Salah ein Tor schießt, freut sich Klopp so, als wäre es sein eigenes. Wenn ein Spieler in einer Krise steckt, führt er das Gespräch. Nicht die Sportdirektion. Er.
+[P] Diese Verbindung aus Zweierflügel und sozialer Eins macht ihn zu einem der beliebtesten Trainer der Welt nicht trotz seiner Leidenschaft, sondern wegen ihr. Die Spieler wissen: Er meint es wirklich. Und für einen Menschen, der wirklich gemeint wird, läuft man weiter als für einen, dem es egal ist.
+[P] Die Leidenschaft der Eins heißt Zorn und Klopp zeigt ihn, im Unterschied zu vielen anderen Einsen, sehr direkt. Wenn ein Schiedsrichter falsch entscheidet, wenn das Kollektiv unter einer Ungerechtigkeit leidet, wenn die Mannschaft nicht das gibt, was sie geben könnte dann kommt die Gans aus der Formation.
+[P] Klopps Ausraster auf der Seitenlinie sind legendär: die Brille, die fliegt, die rote Karte, die er manchmal provoziert. Das ist nicht Kontrollverlust das ist die SO1 in ihrer reinsten Form. Sie kämpft für das, was richtig ist. Sie hält sich nicht zurück, wenn das Kollektiv auf dem Spiel steht. Der Zorn ist kollektiv, nicht narzisstisch und das ist der entscheidende Unterschied.
+[P] Im Mai 2024 verließ Klopp Liverpool nach neun Jahren ein Abschied, der die ganze Stadt bewegte. Er sagte, er sei leer, er brauche Abstand, er müsse sich erholen. Das ist typisch SO1w2: Der Mensch, der so viel für andere gibt, braucht irgendwann Raum für sich selbst.
+[P] Seit Anfang 2024 ist er Head of Global Soccer bei Red Bull. Eine ungewöhnliche Wahl für eine Gans Klopp in einer Konzernrolle, ohne eigene Mannschaft. Und tatsächlich: Im Juli 2026, nach dem Abgang von Julian Nagelsmann als Bundestrainer, bestätigte Klopp laufende Verhandlungen mit dem DFB. Ich bin bereit, sagte er öffentlich. Hans-Joachim Watzke bezifferte die Wahrscheinlichkeit auf mehr als fünfzig Prozent. Der Vertrag mit Red Bull läuft bis 2029 die Hürde ist real, aber die Gans kennt ihr nächstes Ziel.
+[P] Was Jürgen Klopp als Trainer geleistet hat, lässt sich am besten in einem Satz zusammenfassen: Er hat seinen Spielern geglaubt, bevor sie sich selbst geglaubt haben. Das ist das Geschenk der SO1w2 nicht die eigene Perfektion, sondern der Glaube an die Perfektion des Kollektivs.
+[P] Liverpool hatte dreißig Jahre auf die Meisterschaft gewartet. Dortmund war in Finanznot, als Klopp kam. In beiden Fällen hat er nicht ein neues System installiert er hat eine neue Überzeugung installiert: Wir können das. Die Gans fliegt im Verband. Und manchmal reicht es, wenn einer in der Formation aufruft und alle anderen folgen.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Alle berühmten Persönlichkeiten
+[LABEL] SO1 – Die Gans: Subtyp-Profil
+[LABEL] Porträt: Friedrich Merz (SO1w9)
+[LABEL] Porträt: Angelina Jolie (SO1w2)
+
+=== PORTRAIT: Karl Lagerfeld ===
+[SUBTITLE] Mode-Ikone, Creative Director, Fotograf, 1933&ndash;2019 &ndash; Tierentsprechung: Gepard
+[H2] 1. Die Blickqualität: verborgen hinter dunklen Gläsern
+[H2] 2. Die soziale Drei: Erfolg nicht als Ziel, sondern als Daseinsform
+[H2] 3. Der Viererflügel: Ästhetik als Weltanschauung, Einzigartigkeit als Pflicht
+[H2] 4. Die Gesamtwirkung: Chanel, Fendi und die Unermüdlichkeit des Schaffens
+[H2] 5. Der Gepard: Präzision, Eleganz und der Unterschied zum bloßen Tempo
+[H2] 6. Der Heilungsweg: wenn das Bild nicht mehr der Mensch ist
+[P] Karl Lagerfeld war der einzige Mensch der Modewelt, der seinen Blick systematisch verbarg und gerade dadurch unwiderstehlich wurde. Die schwarze Sonnenbrille war kein Accessoire. Sie war ein Instrument der Kontrolle: Wer die Augen nicht sieht, kann nicht lesen, was dahinter vorgeht. Der SO3w4er verwaltet seinen Ausdruck mit äußerster Präzision jedes Bild, das er von sich zulässt, ist gewollt.
+[P] Und doch war Lagerfelds Wirkung kein Rätsel: Man sah genug von ihm, um ihn sofort zu erkennen das Weiß des Haares, das Schwarz des Anzugs, die Strenge der Haltung. Er hatte sich in ein Symbol verwandelt, das auf den ersten Blick identifizierbar war, weltweit, zeitlos. Das ist die Blickqualität der sozialen Drei auf ihrer meisterhaften Stufe: nicht Blicke erwidern, sondern Blicke anziehen.
+[P] Der Viererflügel (w4) verlieh diesem Blick eine melancholische Tiefe. Hinter dem perfekten Bild ahnte man manchmal den Menschen, der lieber allein war. Den Sammler. Den Leser. Den, der um drei Uhr morgens wach lag und an Bücher dachte.
+[P] Der soziale Subtyp der Drei, den Claudio Naranjo den Verstärkungstyp nannte, lebt nicht für Erfolge er ist Erfolg. Karl Lagerfeld hat diesen Typus in der Kulturgeschichte des 20. Jahrhunderts wie kaum jemand anderes verkörpert. Seine Arbeit bei Chanel übernommen 1983, als das Haus als veraltet galt, und bis zu seinem Tod 2019 geführt ist eine der außergewöhnlichsten Transformationsgeschichten der Modewelt.
+[P] Der SO3er reinventiert. Er weiß, dass Image kein statisches Konstrukt ist, sondern ein lebendiges Projekt. Lagerfeld hat sich selbst mehrfach neu erfunden: als Hamburger Junge, der Paris eroberte; als Kaiser Karl in den Achtzigern; als Person, die 2001 über vierzig Kilogramm verlor, weil er Jeans eines jungen Designers tragen wollte. Dieser letzte Punkt ist exemplarisch: Er hat seinen Körper nicht geformt, weil er gesünder leben wollte er hat ihn geformt, weil das Bild es verlangte.
+[P] Das ist die soziale Drei in ihrer radikalsten Konsequenz: Das Selbst wird dem Erfolg untergeordnet, bis kein Unterschied mehr besteht.
+[P] Der Viererflügel (w4) war bei Lagerfeld nicht zu übersehen er war der Grund, warum er nicht nur erfolgreich, sondern unverwechselbar wurde. Während der reine SO3er Erfolg durch Anpassung erzielt durch das, was gefragt ist , verlangt der Viererflügel nach dem Besonderen, nach dem Eigenen, nach etwas, das sonst niemand hat.
+[P] Lagerfeld war kein Designer, der Trends bediente. Er war einer, der sie schuf und sich dabei stets über dem Trend hielt. Seine Belesenheit war legendär: Zehntausende Bücher in seiner Pariser Bibliothek, gelesen, nicht dekoriert. Sein Wissen war kein Statussymbol es war Grundnahrungsmittel. Der SO3w4er braucht die intellektuelle Tiefe, um sich von der bloßen Oberfläche des Erfolgs zu unterscheiden.
+[P] Gleichzeitig brachte der Viererflügel Melancholie: Lagerfeld verlor seinen engsten Freund Jacques de Bascher 1989 an AIDS. Er sprach kaum darüber öffentlich nie. Der SO3w4er schützt seinen Schmerz mit Perfektion.
+[P] Über fünfzig Jahre Creative Director bei Fendi. Über dreißig Jahre das Gesicht von Chanel. Gleichzeitig seine eigene Marke, eine Fotografenkarriere, Verlagsprojekte. Karl Lagerfeld hat ein Pensum an Arbeit geleistet, das selbst in der Modebranche als außergewöhnlich gilt und er tat es bis kurz vor seinem Tod mit 85 Jahren.
+[P] Der SO3er braucht Leistung wie andere Menschen Schlaf. Stillstand ist für ihn keine Erholung er ist Bedrohung. Lagerfelds Äußerungen über Urlaub und Müßiggang klangen immer leicht feindselig: „Ich langweile mich nie, weil ich immer arbeite." Das ist keine Pose das ist Typologie.
+[P] Sein Umgang mit Chanel war vielleicht seine bedeutendste Leistung: Er übernahm ein Haus, das als museal galt, und machte es zur definierenden Luxusmarke des 21. Jahrhunderts. Nicht durch Revolution, sondern durch Transformation er bewahrte die DNA und verleibte ihr die Gegenwart ein. Das ist soziale Drei auf höchster Ebene: das Erbe anderer verstehen, es neu denken, es übertreffen.
+[P] Der Gepard ist nicht nur schnell er ist elegant in seiner Geschwindigkeit. Das unterscheidet ihn von anderen Raubtieren: Der Angriff hat Stil. Karl Lagerfeld hatte diese Qualität in jeder öffentlichen Äußerung. Seine Sätze saßen messerscharf, manchmal kalt, immer formuliert. „Jogginghosen sind ein Zeichen dafür, dass man die Kontrolle über sein Leben verloren hat." Ein Satz, der viral ging, bevor es das Wort gab.
+[P] Diese Gepard-Energie zeigte sich auch in seiner Schnelligkeit: Lagerfeld skizzierte Entwürfe in Minuten, seine Handzeichnungen sind bis heute begehrt. Der SO3er denkt schnell er hat wenig Geduld mit Prozessen, die sein Tempo bremsen. Das Ergebnis muss gut sein, und es muss jetzt fertig sein.
+[P] Die Schattenseite: Der Gepard läuft sich heiß. Wer immer performt, verliert irgendwann den Zugang zu dem, was unter der Leistung liegt. Lagerfeld hatte diesen Zugang früh verbarrikadiert und die Barrikade sein Leben lang dekoriert.
+[P] Der Heilungsweg der Drei führt von der Identifikation mit dem Image zur Entdeckung des Selbst darunter. Für Karl Lagerfeld war das ein lebenslanger Balanceakt und es gibt Hinweise, dass er ihn zumindest ahnungsweise gegangen ist.
+[P] Er sprach selten über Gefühle aber wenn, dann mit einer Ehrlichkeit, die überraschte. Über die Einsamkeit des Alterns. Über seine Bindung an Choupette, seine Katze, die er als sein liebstes Wesen bezeichnete und der er Teile seines Vermögens hinterließ. Eine Katze braucht keine Leistung. Eine Katze liebt ohne Bedingung. Vielleicht war das der Ort, wo Karl Lagerfeld der Mensch, nicht die Marke sich kurz zeigen durfte.
+[P] Ein bewusster SO3w4er weiß, dass sein Werk größer ist als er und dass er selbst größer ist als sein Werk. Der Gepard, der innehält und sein Spiegelbild betrachtet, ohne sofort weiterzusprinten das ist die Energie, die hinter dem weißen Pferdeschwanz und den dunklen Gläsern immer gewartet hat.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Porträt: Sahra Wagenknecht (SO3w2)
+[LABEL] Porträt: Cristiano Ronaldo (SO3w2)
+[LABEL] Porträt: David L. Rathmer (SE3w4)

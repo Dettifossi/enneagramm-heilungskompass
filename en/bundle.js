@@ -12349,46 +12349,46 @@ function adeleNeuhauserPortraitPage() {
         </div>
         <p class="krim-portrait-name">Adele Neuhauser</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven Wings</p>
-        <p class="krim-portrait-subtitle">\xd6Austrian actress, born in Athens in 1959 &mdash; Animal correspondence: Crocodile</p>
+        <p class="krim-portrait-subtitle">Austrian actress, b. 1959 in Athens – Animal equivalent: Crocodile</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Crocodile</strong> is the animal of sexual type 8 &mdash; and hardly any picture captures Adele Neuhauser better. The crocodile is silent until it acts. It lies in the water, almost motionless, almost invisible &mdash; and then, in a single moment, with full force. No warning. No wasted energy. Only the access that sits.</p>
-          <p class="vb-intro">Adele Neuhauser, born in Athens in 1959, Austrian mother, Greek father, grew up in Vienna, began as a dancer before becoming an actress. This physicality has never left her. When she enters a role, she enters it completely - not as an idea, but as a presence. As Bibi Fellner in the Austrian <em>Tatort</em> she created a character that is physical, unpredictable and unconditionally present. Like the crocodile: silent until it acts &mdash; and then with full force.</p>
+          <p class="vb-intro">The crocodile is the animal of the sexual type 8 – and hardly any image fits Adele Neuhauser better. The crocodile is quiet until it acts. It lies in the water, almost motionless, almost invisible – and then, in a single moment, with full force. No warning. No wasted energy. Only the grip that holds fast.</p>
+          <p class="vb-intro">Adele Neuhauser, born in Athens in 1959, Austrian mother, Greek father, raised in Vienna, began as a dancer before becoming an actress. That physicality has never left her. When she enters a role, she enters it completely – not as a performance, but as a presence. As Bibi Fellner in the Austrian Tatort, she created a character that is physical, unpredictable, and unconditionally present. Like the crocodile: quiet until it acts – and then with full force.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
+        <h2 class="vb-section">2. The sexual Eight: Possession</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Eight (SX8)</strong> is, according to Naranjo, the subtype that he <em>Besitz</em> called &ndash; in English <em>Possession</em>. The Sexual Eight doesn't want a distant relationship. She wants the complete encounter, the fusion, the intensity that knows no shades of gray. What she touches touches her completely. What she loves, she loves unconditionally. What she rejects, she rejects completely.</p>
-          <p class="vb-intro">Neuhauser's acting carries this energy. Bibi Fellner is not a subdued figure: she drinks, swears, loves, is frightened, explodes &mdash; everything with an unfiltered quality that the audience immediately recognizes because it seems real. The SX8 plays no emotion. She puts them on the table &mdash; and waits to see whether the other person can endure it.</p>
+          <p class="vb-intro">According to Naranjo, the sexual Eight (SX8) is the subtype he called Possession. The sexual Eight does not want a distant relationship. It wants complete encounter, fusion, intensity that knows no shades of gray. What touches it, touches it completely. What it loves, it loves unconditionally. What it rejects, it rejects completely.</p>
+          <p class="vb-intro">Neuhauser's acting carries this energy. Bibi Fellner is no muted character: she drinks, swears, loves, gets startled, explodes – all with an unfilteredness that the audience immediately recognizes because it feels real. The SX8 does not act emotion. She lays it on the table – and waits to see if the other person can handle it.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wings: Fire and Wit</h2>
+        <h2 class="vb-section">3. The Seven wing: Fire and Wit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven wing\xfcgel</strong> gives the Sexual Eight a quality that complements the intensity of the eight core: lightness, humor, playfulness and a certain willingness to take risks, which is not impulsiveness but appetite. The SX8w9 seeks depth. The <strong>SX8w7</strong> seeks the depth &mdash; and enjoy the spectacle.</p>
-          <p class="vb-intro">Neuhauser has this double quality. Bibi Fellner can be deeply vulnerable in one scene and deliver a one-liner in the next that makes the audience laugh - and both ring true because it is not a change of personality, but rather two sides of the same intensity. The wing of seven gives the Sexual Eight the ability to handle itself more easily than the pure eight core allows.</p>
+          <p class="vb-intro">The Seven wing gives the sexual Eight a quality that complements the intensity of the Eight core: lightness, humor, joy of playing, and a certain willingness to take risks that is not impulsivity, but appetite. The SX8w9 seeks depth. The SX8w7 seeks depth – and enjoys the spectacle in the process.</p>
+          <p class="vb-intro">Neuhauser possesses this dual quality. Bibi Fellner can be deeply vulnerable in one scene and deliver a one-liner in the next that makes the audience burst out laughing – and both sound true because it is not a change of personality, but two sides of the same intensity. The Seven wing gives the sexual Eight the ability to handle itself more lightly than the pure Eight core allows.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: stage, camera, Bibi Fellner</h2>
+        <h2 class="vb-section">4. The Work: Stage, Camera, Bibi Fellner</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Adele Neuhauser had a long theater career before television made her accessible to a wider audience. She worked at important Austrian theaters, playing classical repertoire and contemporary pieces &ndash; and brought with him an embodied power that the theater demanded and that the cinema later gratefully accepted.</p>
-          <p class="vb-intro">In 2011 she appeared as Bibi Fellner in the Austrian film <em>Tatort</em> on, alongside Harald Krassnitzer as Moritz Eisner. The duo is developing into one of the most popular in German-speaking <em>Tatort</em>-Universe. Neuhauser received several Austrian film awards, including the Actor Award for Best Actress. Her figure isn't the type you liked because it's smooth &mdash; you like it because it is real.</p>
+          <p class="vb-intro">Adele Neuhauser had a long theater career before television made her accessible to a broad audience. She worked at major Austrian theaters, played classical repertoire and contemporary plays – bringing an embodiment power that theater demanded and cinema later gratefully accepted.</p>
+          <p class="vb-intro">In 2011, she appeared as Bibi Fellner in the Austrian Tatort, alongside Harald Krassnitzer as Moritz Eisner. The duo developed into one of the most popular in the German-speaking Tatort universe. Neuhauser received several Austrian Film Awards, including the acting award for best lead actress. Her character is not the type people liked because it is smooth – people like her because she is real.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: The Unfilteredness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX8w7 is its <strong>immediate presence</strong>. Neuhauser is an actress who doesn't need a net &mdash; no predictable patterns, no nice distances. She goes into the role like a crocodile goes into water: completely. This makes their work distinctive and difficult to copy.</p>
-          <p class="vb-intro">The Shadow: The Sexual Eight lives in the intensity &ndash; and intensity is tiring, even for yourself. The SX8 tends to be all or nothing: full connection or no contact. This can be a quality in roles; in life it can be isolating. The mature SX8w7 learns that you can also dose depth &mdash; without losing them.</p>
+          <p class="vb-intro">The light of the SX8w7 is its immediate presence. Neuhauser is an actress who needs no safety net – no predictable patterns, no fine distances. She enters the role like the crocodile enters the water: completely. That makes her work unmistakable and hard to copy.</p>
+          <p class="vb-intro">The shadow: The sexual Eight lives in intensity – and intensity is exhausting, even for itself. The SX8 tends to want all or nothing: full connection or no contact. That can be a quality in roles; in life, it can isolate. The mature SX8w7 learns that depth can also be dosed – without losing it.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The crocodile that dances</h2>
+        <h2 class="vb-section">6. The Crocodile that dances</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Adele Neuhauser started as a dancer &mdash; and that is not a subordinate clause. The crocodile is physical, precise and patient. It waits until the moment is complete and then acts without hesitation. Neuhauser has transformed this precision into an acting art that is physically sound and emotionally exposed. This is the SX8w7: not the loudest figure in the room &mdash; but the one from which you cannot take your eyes off.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Adele Neuhauser began as a dancer – and that is no side note. The crocodile is physical, precise, and patient. It waits until the moment is complete, then acts without hesitation. Neuhauser transformed this precision into an acting art that is physically grounded and emotionally exposed. That is the SX8w7: not the loudest character in the room – but the one from whom you cannot look away.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12412,49 +12412,49 @@ function angelaMerkelPortraitPage() {
         </div>
         <p class="krim-portrait-name">Angela Merkel</p>
         <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with aft wing</p>
-        <p class="krim-portrait-subtitle">Federal Chancellor 2005-2021, born 1954 - Animal correspondence: Elephant</p>
+        <p class="krim-portrait-subtitle">Federal Chancellor 2005–2021, b. 1954 – Animal equivalent: Elephant</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Elephant</strong> is the animal of self-preservation type 9 &mdash; and no picture captures Angela Merkel more accurately. The elephant is patient, grounding, with a presence that comes not from volume, but from weight. He doesn't move quickly. But he moves &mdash; and when he is in motion, nothing stops him.</p>
-          <p class="vb-intro">Merkel, born in Hamburg in 1954, grew up in the GDR, was a physicist by profession, became a politician overnight after reunification and ruled Germany for sixteen years. She rarely spoke loudly. She didn't make any grand gestures. And she overcame crises, opponents and coalition partners with a persistence that seemed more like a force of nature than a strategy. That's the elephant: it doesn't need a scene. He has time.</p>
+          <p class="vb-intro">The elephant is the animal of the self-preservation type 9 – and no image fits Angela Merkel more accurately. The elephant is patient, grounding, possessing a presence that does not arise through loudness, but through weight. It does not move hurriedly. But it moves – and once it is in motion, nothing stops it.</p>
+          <p class="vb-intro">Merkel, born in Hamburg in 1954, raised in the GDR, a physicist by profession, became a politician overnight after the fall of the Berlin Wall and governed Germany for sixteen years. She rarely spoke loudly. She made no grand gestures. And she survived crises, opponents, and coalition partners with a persistence that felt more like a force of nature than strategy. That is the elephant: It needs no stage. It has time.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preserving nine: Sitting it out as a method</h2>
+        <h2 class="vb-section">2. The self-preservation Nine: Sitting things out as a method</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation nine (SE9)</strong> is, according to Naranjo, the subtype that he <em>Appetit</em> called &ndash; the tendency to settle into comfort and stability, to avoid conflict through passivity, and to manage the discomfort until it dissipates. That sounds like weakness. It is one of the most powerful forms of power there is.</p>
-          <p class="vb-intro">Merkel's political method was to sit it out. She decided late, said little, and let other positions exhaust themselves first - and then entered the room when the alternatives were exhausted. This is often described as pragmatism. First of all, it is the inertia of the Nine that has become the method: no attack, no retreat, just persistence - until the opponent is no longer there.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SE9) is the subtype he called Appetite – the tendency to settle into comfort and stability, avoid conflicts through passivity, and manage discomfort until it has dissolved. That sounds like weakness. It is one of the most effective forms of power that exists.</p>
+          <p class="vb-intro">Merkel's political method was sitting things out. She decided late, spoke little, let other positions exhaust themselves first – and then entered the room when the alternatives were burned out. That is often described as pragmatism. It is primarily the sloth of the Nine that has become a method: no attack, no retreat, only persistence – until the opponent is no longer there.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Aft Wing: The Silent Power</h2>
+        <h2 class="vb-section">3. The Eight wing: The Silent Power</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Aftwing\xfcgel</strong> gives the self-preservation Nine a quality that is rarely seen on the outside until it is too late: an instinct for power, an ability to make cold decisions, and a willingness to sacrifice loyalties when necessary. The SE9 alone would wait. The <strong>SE9w8</strong> wait &mdash; and then decides without hesitation.</p>
-          <p class="vb-intro">This page appeared for\xfch. When the CDU donations affair in 1999/2000 threatened to crush her political foster father Helmut Kohl, Merkel wrote &mdash; then CDU general secretary &mdash; an article in the Frankfurter Allgemeine Zeitung in which she called on the party to break away from Kohl and move forward independently. It was a public knife in the back of her mentor. Kohl always called her his “girl.” - and meant that he had formed them. The SE9w8 had just overtaken him without changing his expression.</p>
-          <p class="vb-intro">Helmut Kohl was a <strong>Self-Preservation Type 8 with nine-wing wing (SE8w9)</strong> - the veteran, the great patriarch who treated the CDU as personal territory for decades. The SE8 needs loyalty; he sees people through the lens of belonging and possession. Merkel was not a conversation partner for him - she was his project, his discovery, his “girl”. What Helmut Kohl, as SE8, overlooked: The nine do not submit. She adapts &mdash; and waits.</p>
-          <p class="vb-intro">The dynamic between SE8w9 and SE9w8 is instructive. The figure eight dominates openly, occupies space, demands presence. The nine lets him - registers, learns, quietly builds her own position. Kohl believed he had shaped Merkel. In truth, being around him had taught her how power works - and how it works if you don't want to be a patriarch. The eight has to show that it is strong. The nine doesn't have to do that &mdash; and that is exactly their advantage.</p>
+          <p class="vb-intro">The Eight wing gives the self-preservation Nine a quality that is barely visible from the outside until it is too late: power instinct, capacity for cool decision-making, and a willingness to sacrifice loyalties when necessary. The SE9 alone would wait. The SE9w8 waits – and then decides without hesitation.</p>
+          <p class="vb-intro">This side showed itself early. When the CDU donation scandal threatened to crush her political mentor Helmut Kohl in 1999/2000, Merkel – then CDU General Secretary – wrote an article in the Frankfurter Allgemeine Zeitung calling on the party to sever ties with Kohl and move forward independently. It was a public knife in the back of her mentor. Kohl always called her his "Mädchen" – meaning he had shaped her. The SE9w8 had just overtaken him without changing her expression.</p>
+          <p class="vb-intro">Helmut Kohl was a self-preservation type 8 with a Nine wing (SE8w9) – the bedrock, the great patriarch who treated the CDU for decades as his personal territory. The SE8 needs loyalty; he sees people through the lens of belonging and possession. For him, Merkel was not a conversation partner – she was his project, his discovery, his "Mädchen". What Helmut Kohl as an SE8 overlooked: The Nine does not submit. It adapts – and waits.</p>
+          <p class="vb-intro">The dynamic between SE8w9 and SE9w8 is instructive. The Eight dominates openly, occupies space, demands presence. The Nine lets him – registers, learns, quietly builds her own position. Kohl believed he had shaped Merkel. In truth, she had learned near him how power works – and how it works when you do not want to be a patriarch. The Eight must show that it is strong. The Nine does not have to – and precisely that is her advantage.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Early Independence: The End of the First Marriage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Merkel's first marriage to the physicist Ulrich Merkel &mdash; from which it gets its name &mdash; lasted from 1977 to 1982. The marriage failed, as many biographers describe, quietly and without drama: Merkel stayed in Berlin, her husband moved out. He took the washing machine with him. She didn't seem to have hesitated for long.</p>
-          <p class="vb-intro">What this episode shows is less cold-bloodedness than a willingness to let go when something no longer works - without big explanations, without scenes, without looking back. The SE9w8 handles separations like administrative processes: objectively, finally, further. The life of the self-preservation Nine remains orderly &mdash; even if everything is changing.</p>
+          <p class="vb-intro">Merkel's first marriage to physicist Ulrich Merkel – from whom she took her name – lasted from 1977 to 1982. The marriage failed, as many biographers describe, quietly and without drama: Merkel stayed in Berlin, her husband moved out. He took the washing machine with him. She did not seem to hesitate long.</p>
+          <p class="vb-intro">What this episode shows is less cold-bloodedness than an early willingness to let go when something no longer works – without grand explanations, without scenes, without looking back. The SE9w8 handles breakups like administrative procedures: objective, final, move on. The life of the self-preservation Nine remains orderly – even when everything is currently changing.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Refugee crisis and Corona: When sitting it out fails</h2>
+        <h2 class="vb-section">5. Refugee Crisis and Corona: When Sitting Things Out Fails</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2015, Merkel opened the German borders to over a million refugees. &ldquo;We can do it&rdquo; became a symbol of a decision that was made without a parliamentary debate, without a legal basis and without an assessment of the consequences - and which overwhelmed a state and its administrative structures in a way that continues to have an impact today. The SE9 acted out of a moral gesture. The aft wing pushed them through. What was missing was the sober analysis of what comes next.</p>
-          <p class="vb-intro">A similar quality emerged in the Corona crisis (2020-2022). Merkel appeared calm in the press conferences - and yet pursued a communication policy that was based on fear. &ldquo;The pandemic will only end when everyone is vaccinated&rdquo; was not a medical sentence. It was a control sentence, formulated in the characteristic language of the SE9w8: no threat, no command &mdash; just a statement that leaves no alternative. Measures were extended, relaxations were withdrawn, basic rights were restricted - with a determination that looked externally like responsibility and internally like insistence on one's own position.</p>
+          <p class="vb-intro">In 2015, Merkel opened German borders to over a million refugees. "Wir schaffen das" became the symbol of a decision made without parliamentary debate, without a legal basis, and without an impact assessment – and which overwhelmed a state and its administrative structures in a way that continues to resonate today. The SE9 acted out of a moral gesture. The Eight wing pushed it through. What was missing was the sober analysis of what comes next.</p>
+          <p class="vb-intro">A related quality emerged during the Corona crisis (2020–2022). Merkel appeared calm in press conferences – yet pursued a communication policy built on fear. "The pandemic will only end when everyone is vaccinated" was not a medical statement. It was a control statement formulated in the characteristic language of the SE9w8: no threat, no order – just a statement that leaves no alternative. Measures were extended, relaxations rolled back, fundamental rights restricted – with a determination that looked like responsibility to the outside and like persistence on one's own position from within.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The legacy: Gr\xf6\xdfe and blank space</h2>
+        <h2 class="vb-section">6. The Legacy: Greatness and Empty Space</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Angela Merkel is the longest-serving Chancellor in German history. She has stabilized the country in a time of change, survived major crises and maintained a straightforwardness that even her critics respect. But the legacy of the sixteen years is also one of postponement: too little investment in infrastructure, digitalization and defense. Hesitated too long with Russia. Too little explained, too much decided.</p>
-          <p class="vb-intro">This is the SE9w8 in all its contradictions: great in silence, strong in persistence, capable of making cool decisions - and at the same time vulnerable to that form of self-assurance that no longer allows for corrections. The elephant moves at its own rhythm. Sometimes that is wisdom. Sometimes it's a standstill. And sometimes &mdash; when the elephant goes about things &mdash; You only notice afterwards what he has crushed.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Angela Merkel is the longest-serving Chancellor in German history. She stabilized the country in a time of transition, survived major crises, and maintained a straightforwardness that even her critics respect. But the legacy of the sixteen years is also one of postponement: too little invested in infrastructure, digitalization, and defense. Too long hesitated with Russia. Too little explained, too much decided.</p>
+          <p class="vb-intro">That is the SE9w8 in her full contradiction: great in silence, strong in persistence, capable of cool decision-making – and at the same time vulnerable to that form of self-certainty that permits no more corrections. The elephant moves at its own pace. Sometimes that is wisdom. Sometimes that is standstill. And sometimes – when the elephant walks over things – you only realize afterwards what it has crushed.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12478,48 +12478,48 @@ function borisBeckerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Boris Becker</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with aft wing</p>
-        <p class="krim-portrait-subtitle">Tennis professional, born 1967 &mdash; Three-time Wimbledon champion, Olympic champion &mdash; Animal correspondence: Chimpanzee</p>
+        <p class="krim-portrait-subtitle">Professional tennis player, b. 1967 – Three-time Wimbledon champion, Olympic champion – Animal equivalent: Chimpanzee</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The chimpanzee</h2>
+        <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of sexual type 7 &mdash; and Boris Becker is a chimpanzee in his purest, most tempestuous form. The chimpanzee needs intensity: competition, contact, triumph. He lives in the now, takes full risks and loves the game more than the plan. In 1985, at the age of 17, Boris Becker entered the Center Court at Wimbledon as an unknown person - and left him as the youngest Wimbledon winner ever. The chimpanzee had struck. And the world was watching.</p>
-          <p class="vb-intro">What defines the chimpanzee is not just its strength - it is its immediacy. Boris Becker was never a tactical player. He was an explosive one. His serve was thunder, his attack at the net was risk, his game was spectacle. This is the chimpanzee in full development: no calculation, no hesitation &mdash; just the moment, which is everything.</p>
+          <p class="vb-intro">The chimpanzee is the animal of the sexual type 7 – and Boris Becker is a chimpanzee in his purest, most tempestuous form. The chimpanzee needs intensity: competition, contact, triumph. He lives in the now, takes full risks, and loves the game more than the plan. In 1985, at 17 years old, Boris Becker stepped onto Centre Court at Wimbledon as an unknown – and left it as the youngest Wimbledon champion of all time. The chimpanzee had struck. And the world was watching.</p>
+          <p class="vb-intro">What defines the chimpanzee is not his strength alone – it is his immediacy. Boris Becker was never a tactical player. He was an explosive one. His serve was thunder, his net attack was risk, his game was spectacle. That is the chimpanzee in full flourish: no calculation, no hesitation – only the moment that is everything.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Seven: Intensity as Identity</h2>
+        <h2 class="vb-section">2. The sexual Seven: Intensity as Identity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> seeks complete intoxication &mdash; the ultimate experience, total merging with what life has to offer. Naranjo called this subtype <em>Suggestibility</em>: the ability to pull yourself and others into the vortex of an experience. The SX7 is infectious, magnetic, irresistible.</p>
-          <p class="vb-intro">Boris Becker has drawn people into this quality for a decade. Not just as a player, but as a personality: louder than others, more open than others, brighter than others. This is not a stylistic device. This is the SX7 in its natural state. She doesn't need a stage to shine &mdash; she brings the stage with her.</p>
+          <p class="vb-intro">The sexual Seven (SX7) seeks complete intoxication – the ultimate experience, the total fusion with what life has to offer. Naranjo called this subtype Suggestibility: the ability to sweep oneself and others into the whirlpool of an experience. The SX7 is contagious, magnetic, irresistible.</p>
+          <p class="vb-intro">Boris Becker drew people into this quality for a decade. Not just as a player, but as a personality: louder than others, more open than others, more radiant than others. That is no stylistic device. That is the SX7 in its natural condition. It needs no stage to shine – it brings the stage along.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Eight Wing: The Fighter in the Chimpanzee</h2>
+        <h2 class="vb-section">3. The Eight wing: The Fighter in the Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>After wing</strong> gives the Sexual Seven something crucial: hardness. The pure seven can evade, negotiate and charm. The aft wing is fighting. He doesn't give in. He bites through it. Boris Becker won matches he would normally have lost &mdash; because he refused to acknowledge this reality. This is the eight wing of the Sexual Seven: the refusal to lose the game before the last point is played.</p>
-          <p class="vb-intro">This wing was his greatest gift on the field. He gave Becker something that pure sevens rarely possess: steadfastness under pressure. While other players took tactics or retreated in difficult moments, Becker escalated. He increased the risk when he should have played conservatively. He served aces when his opponents played safety. This ability to not become smaller at the crucial moment, but larger - this is the aft wing in its purest form.</p>
-          <p class="vb-intro">Off the pitch, this wing became a trap. The Eight Wing of Seven believes that rules apply to others. That consequences can be negated if you are determined enough. This works in tennis: willpower can avert a match point. Not in life or in court. Becker carried this conviction throughout his entire career &mdash; and she completely abandoned him in the crisis.</p>
+          <p class="vb-intro">The Eight wing gives the sexual Seven something crucial: toughness. The pure Seven can dodge, negotiate, charm. The Eight wing fights. He does not yield. He bites his way through. Boris Becker won matches he normally would have lost – because he refused to acknowledge that reality. That is the Eight wing of the sexual Seven: the refusal to lose the game before the last point is played.</p>
+          <p class="vb-intro">This wing was his greatest gift on the court. It gave Becker something pure Sevens rarely possess: steadfastness under pressure. While other players tactically maneuvered or backed away in difficult moments, Becker escalated. He increased the risk when he actually should have played conservatively. He served aces when his opponents played it safe. That ability not to grow smaller in the decisive moment, but larger – that is the Eight wing in its purest form.</p>
+          <p class="vb-intro">Off the court, this wing became a trap. The Eight wing of the Seven believes that rules apply to others. That consequences are canceled if you are only determined enough. In tennis, that works: willpower can avert a match point. In life and in court, it does not. This conviction carried Becker through his entire career – and completely abandoned him in crisis.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Passion: Gluttony as a way of life</h2>
+        <h2 class="vb-section">4. The Passion: Gluttony as a Way of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the seven is called <strong>Gluttony</strong> or also <strong>Intemperance</strong>: the insatiable hunger for more. With the Sexual Seven, this hunger is directed towards experiences, intensity, the next climax. Becker didn't save money. He lived &mdash; big, loud, lavish. Houses, parties, affairs, investments, performances. The Seven trusts that it will always go on, because it has always gone on.</p>
-          <p class="vb-intro">When this excess meets unlimited means, it is a celebration. When resources run out and excess persists, catastrophe ensues. Becker lived for years as if the golden years had never ended. The Enneagram does not see this as a character weakness &mdash; but the pattern of a seven who has learned that intensity is the ultimate painkiller.</p>
+          <p class="vb-intro">The passion of the Seven is called gluttony or excess: the insatiable hunger for more. In the sexual Seven, this hunger is directed at experiences, intensity, the next peak. Becker did not save up. He lived – big, loud, lavishly. Houses, parties, affairs, investments, appearances. The Seven trusts that things will always continue because they have always continued.</p>
+          <p class="vb-intro">When this excess meets unlimited means, it is a feast. When the means end and the excess remains, a catastrophe emerges. For years, Becker lived as if the golden years had never ended. The Enneagram sees no character weakness in this – but the pattern of a Seven that has learned that intensity is the ultimate painkiller.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Gift: The man who captures the moment</h2>
+        <h2 class="vb-section">5. The Gift: The Man Who Sweeps the Moment Along</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Boris Becker brings to German sport &mdash; and a whole generation &mdash; has given is not measurable in titles alone. He took people with him. He turned a Saturday night at Wimbledon into a national moment. This is the gift of the SX7w8: enthusiasm that transfers; joy that is contagious; a yes to life that awakens others.</p>
-          <p class="vb-intro">The eight-winged chimpanzee, in its healthy form, is the person who says: this is possible, and I'm proving it to you now, here, at this moment. This is Boris Becker on July 7, 1985. The rest of his life is the question of whether he can learn who he is when this moment is over &mdash; and how he can be without bringing him back.</p>
+          <p class="vb-intro">What Boris Becker gave to German sports – and an entire generation – cannot be measured in titles alone. He carried people along. He turned a Saturday evening in Wimbledon into a national moment. That is the gift of the SX7w8: enthusiasm that spreads; joy that infects; a yes to life that wakes others up.</p>
+          <p class="vb-intro">The chimpanzee with an Eight wing is, in his healthy expression, the person who says: this is possible, and I will prove it to you now, right here, in this moment. That is Boris Becker on July 7, 1985. The rest of his life is the question of whether he can learn who he is when that moment is over – and how he can exist without bringing it back.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"astrologie-boris-becker", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
       ])}
@@ -12538,46 +12538,46 @@ function carolinePetersPortraitPage() {
         </div>
         <p class="krim-portrait-name">Caroline Peters</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-Wing</p>
-        <p class="krim-portrait-subtitle">Actress, born 1971 in Cologne</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1971 in Cologne</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The chimpanzee</h2>
+        <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chimpanzee</strong> is the most intelligent and expressive animal in the forest &mdash; and the most unpredictable. He learns through observation and imitation, switching at lightning speed between playful and serious, between tenderness and intensity. His face is an instrument; his body tells the story, even when it is silent. And he needs the community &mdash; not as a background, but as a stage.</p>
-          <p class="vb-intro">Caroline Peters was born in Cologne in 1971 and studied acting at the Hamburg University of Music and Theater. Anyone who experiences her in a scene &mdash; whether as a clumsy investigator in the Eifel or in a tragedy on the Burgtheater stage - you immediately understand: This woman doesn't think about whether she's playing a character. She is the character. The chimp that can transform into anyone &mdash; and never forgets who he is.</p>
+          <p class="vb-intro">The chimpanzee is the most intelligent and expressive animal of the forest – and the most unpredictable. It learns through observation and imitation, switching lightning-fast between playful and serious, between tenderness and intensity. Its face is an instrument; its body tells a story even when silent. And it needs community – not as a background, but as a stage.</p>
+          <p class="vb-intro">Caroline Peters was born in 1971 in Cologne and studied acting at the University of Music and Theatre Hamburg. Anyone who experiences her in a scene – whether as a clumsy investigator in the Eifel or in a tragedy on the Burgtheater stage – understands immediately: This woman does not ponder whether she plays a character. She is the character. The chimpanzee who can transform into anyone – and in doing so never forgets who he himself is.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Seven: Rush of Transformation</h2>
+        <h2 class="vb-section">2. The sexual Seven: Intoxication of Transformation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called sexual type 7 the <strong>Suggestibility</strong> - the ability to be so completely fascinated by an idea, a person, a world that you sink into it. The SX7 does not seek abundance like the SE7 or belonging like the SO7 - he is looking for intensity: the moment in which everything else ceases to exist because the encounter, the role, the game absorbs everything.</p>
-          <p class="vb-intro">Peters fully lives out this impulse on stage and screen. She switches effortlessly between worlds: television comedy and Burgtheater, slapstick and Ibsen, Cologne and Vienna. The SX7 energy makes her the master of transformation &mdash; not because she uses a technique, but because she really allows herself to be drawn into it. That's the difference between ability and fascination.</p>
+          <p class="vb-intro">Claudio Naranjo called the sexual type 7 Suggestibility – the ability to let oneself be so completely fascinated by an idea, a person, a world, that one sinks into it oneself. The SX7 does not seek abundance like the SE7 and not belonging like the SO7 – it seeks intensity: the moment when everything else ceases to exist because the encounter, the role, the game absorbs everything into itself.</p>
+          <p class="vb-intro">Peters lives this impulse out completely on stage and screen. She transitions effortlessly between worlds: television comedy and Burgtheater, slapstick and Ibsen, Cologne and Vienna. The SX7 energy makes her a master of transformation – not because she applies a technique, but because she truly lets herself be drawn in. That is the difference between skill and fascination.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Six Wing: The Conscience of Adventure</h2>
+        <h2 class="vb-section">3. The Six wing: The Conscience of Adventure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six wing</strong> gives the Sexual Seven a quality that grounds the pure SX7: loyalty, warmth and a quiet sensorium for what sustains. Where the pure SX7 jumps from fascination to fascination, the six-wing asks: <em>Do I belong? Am I really good enough for what I do?</em></p>
-          <p class="vb-intro">Peters has been a permanent member of the Burgtheater Vienna ensemble for years &mdash; one of the most respected German-speaking theaters in the world. This isn't just an SX7 decision; this is the six wing that takes root. At the same time she returned several times to <em>Murder with a view</em> back &mdash; a role that she could have left behind long ago. Loyalty to characters, houses and colleagues: that is the w6 at work.</p>
+          <p class="vb-intro">The Six wing gives the sexual Seven a quality that grounds the pure SX7: loyalty, warmth, and a quiet sense for what holds up. Where the pure SX7 jumps from fascination to fascination, the Six wing asks: Do I belong? Am I really good enough for what I am doing?</p>
+          <p class="vb-intro">Peters has been a permanent ensemble member of the Burgtheater Vienna for years – one of the most respected German-language theaters in the world. That is no pure SX7 decision; that is the Six wing taking root. At the same time, she returned multiple times to Mord mit Aussicht – a role she could have long left behind. Loyalty to characters, theater houses, and colleagues: that is the w6 at work.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From Sophie Haas to the Burgtheater</h2>
+        <h2 class="vb-section">4. The Work: From Sophie Haas to the Burgtheater</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><em>Murder with a Chance</em> (ARD, 2008-2012, new edition 2021-2023) made Caroline Peters known nationwide: as Sophie Haas, the Cologne city investigator who is transferred to a sleepy village in the Eifel and there encounters a world for which her city-dweller brain is not equipped. The character was a tour de force of physical comedy &mdash; Timing, physical effort, reaction &mdash; and at the same time warmer than the figure appeared to the outside world.</p>
-          <p class="vb-intro">At the same time, Peters plays classical and contemporary roles at the Burgtheater Vienna &mdash; from Ibsen to Jelinek, from Shakespeare to Handke. For her participation in the film <em>Oh Boy</em> (2012) she received the Grimme Prize. Their work shows what the SX7 energy can do at its best: the boundaries between serious and comic, between high culture and popular format, are no boundaries for them.</p>
+          <p class="vb-intro">In parallel, Peters plays classical and contemporary roles at the Burgtheater Vienna – from Ibsen to Jelinek, from Shakespeare to Handke. For her participation in the film Oh Boy (2012), she received the Grimme Award. Her work shows what SX7 energy can do at its best: The boundaries between seriousness and comedy, between high culture and popular formats, are no boundaries for her.</p>
+          <p class="vb-intro">The light of the SX7w6 is its inexhaustibility. Peters never seems worn out, never routine. Every scene seems to emerge as if she were experiencing it for the first time – that is the gift of fascination. Her humor is physical, precise, and never cynical; it arises from within the character, not from distance to it.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: When the joke goes too deep</h2>
+        <h2 class="vb-section">5. Light and Shadow: When the Joke Goes Too Deep</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX7w6 is its <strong>Inexhaustibility</strong>. Peters never seems worn out, never routine. Every scene seems to emerge as if she were experiencing it for the first time &mdash; that is the gift of fascination. Her humor is physical, precise and never cynical; it arises from within the figure, not from the distance from it.</p>
-          <p class="vb-intro">The shadow: The SX7 lives for the moment &mdash; and the moment passes. The danger is not failure, but rather blurring: If you allow yourself to be completely drawn into each character, you will eventually ask yourself where the character ends and you yourself begin. The six wing stands against it - with loyalty, with Burgtheater, with belonging. But the question remains.</p>
+          <p class="vb-intro">The shadow: The SX7 lives for the moment – and the moment passes. The danger is not failure, but blurring: Anyone who lets themselves be completely drawn into every character eventually asks where the character ends and oneself begins. The Six wing holds against it – with loyalty, with the Burgtheater, with belonging. But the question remains.</p>
+          <p class="vb-intro">Caroline Peters is one of the most versatile actresses in German-language theater and television – and that is not because she has played particularly many roles. It is because she is truly different in every single one of them. That is the chimpanzee: always in motion, always curious, always ready to reinvent itself. And yet fully present in every moment.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The chimpanzee who never stays the same</h2>
+        <h2 class="vb-section">6. The Chimpanzee Who Never Stays the Same</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Caroline Peters is one of the most versatile actresses in German-speaking theater and television &mdash; and that's not because she played a particularly large number of roles. It's because she's really different in each of them. This is the chimpanzee: always on the move, always curious, always ready to reinvent himself. And yet completely present in every moment.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Mord mit Aussicht (ARD, 2008–2012, reboot 2021–2023) made Caroline Peters nationally famous: as Sophie Haas, the Cologne big-city investigator reassigned to a sleepy village in the Eifel, arriving in a world her city-mind is not equipped for. The character was a masterpiece of physical comedy – timing, physical effort, reaction – and at the same time warmer than the character seemed on the outside.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12601,46 +12601,46 @@ function carstenStahlPortraitPage() {
         </div>
         <p class="krim-portrait-name">Carsten Stahl</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven Wings</p>
-        <p class="krim-portrait-subtitle">Martial artist, anti-bullying activist &amp; Author, born 1974 in Heidelberg</p>
+        <p class="krim-portrait-subtitle">Martial artist, anti-bullying activist & book author, b. 1974 in Heidelberg</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>L\xf6we</strong> is the animal of social type 8 &mdash; and no picture captures Carsten Stahl more accurately. The lion is not a lone fighter. He lives in a pack, hunts for the pack, protects the pack. His power is not for himself - it is for those who stand next to him. When the weak are threatened, the lion stands up. This is not a reflex. That's character.</p>
-          <p class="vb-intro">Carsten Stahl, born in Heidelberg in 1974, is a martial artist, author and anti-bullying activist. He has never made his physical strength an end in itself: it is his tool to go where weaker people have no voice - in the schools, on the banks, on the screens. The lion doesn't have to show what he can do. But when the moment calls for it, he's there.</p>
+          <p class="vb-intro">The lion is the animal of the social type 8 – and no image fits Carsten Stahl more accurately. The lion is no lone fighter. He lives in a pride, hunts for the pride, protects the pride. His strength is not for himself – it is for those who stand beside him. When the weak are threatened, the lion stands up. That is no reflex. That is character.</p>
+          <p class="vb-intro">Carsten Stahl, born in 1974 in Heidelberg, is a martial artist, book author, and anti-bullying activist. He has never made his physical strength an end in itself: It is his tool to go where the weaker have no voice – into schools, onto stages, onto screens. The lion does not need to show what he can do. But when the moment demands it, he is there.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Eight: solidarity\xe4t</h2>
+        <h2 class="vb-section">2. The social Eight: Solidarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts her strength into the service of the community. Naranjo called this subtype <em>Solidarit\xe4t</em>: The SO8 identifies with the weaker ones, with those who have no lobby - and stands in front of her. She doesn't fight for herself. She fights because she can't help it when injustice happens.</p>
-          <p class="vb-intro">Stahl visibly lives this principle. His anti-bullying work in schools is not marketing &mdash; it is a calling. He enters classrooms, listens, stands in front of the bullied and tells the bullies directly to their faces what they are doing. No brochure, no prevention chart, no managed exposure &mdash; but presence, body, clarity. That's the SO8: Instead of talking about injustice, you stand up to it.</p>
+          <p class="vb-intro">The social Eight (SO8) puts its strength into the service of the community. Naranjo called this subtype Solidarity: The SO8 identifies with the weaker, with those who have no lobby – and stands in front of them. It does not fight for itself. It fights because it cannot do otherwise when injustice occurs.</p>
+          <p class="vb-intro">Stahl lives this principle visibly. His anti-bullying work in schools is no marketing – it is a calling. He enters classrooms, listens, stands in front of those who are bullied, and tells the perpetrators directly to their faces what they are doing. No brochure, no prevention table, no managed sympathy – but presence, body, clarity. That is the SO8: Instead of talking about injustice, you place yourself in front of it.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wings: Fire in the Embassy</h2>
+        <h2 class="vb-section">3. The Seven wing: Fire in the Message</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven wing\xfcgel</strong> gives the Social Eight a quality that complements the pure SO8: agility, enthusiasm, a talent for getting people carried away. The SO8w9 protects from the silence. The <strong>SO8w7</strong> protects with fire.</p>
-          <p class="vb-intro">Steel is not a silent protector. He is direct, loud, present &ndash; He uses his body, his voice, his social media channels to convey a message that knows no shade of horror: bullying is wrong. Point. The seven wing gives him the energy to say it again and again - in front of first graders and vocational students, in book interviews and in video clips &ndash; and never seems tired.</p>
+          <p class="vb-intro">The Seven wing gives the social Eight a quality that complements the pure SO8: agility, capacity for enthusiasm, a talent for sweeping people along. The SO8w9 protects out of silence. The SO8w7 protects with fire.</p>
+          <p class="vb-intro">Stahl is no quiet protector. He is direct, loud, present – he uses his body, his voice, his social media channels to convey a message that knows no shades of gray: Bullying is wrong. Period. The Seven wing gives him the energy to say this again and again – in front of first-graders and vocational students, in book interviews and video clips – and never appearing tired while doing so.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: schools, books, books</h2>
+        <h2 class="vb-section">4. The Work: Schools, Stages, Books</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Carsten Stahl has visited hundreds of schools in Germany and worked directly with students, perpetrators and victims there. His approach is physical and emotional at the same time: He shows that strength is not an argument for injustice - but the opposite. His book <em>Shut up!</em> is a typical SO8w7 work: direct in tone, without embellishment, addressed to those who need it most.</p>
-          <p class="vb-intro">At the same time, Stahl is active as a martial artist and public personality: appearances on television shows, social media presence, lectures. He understood what many activists overlooked: a message that belongs to no one doesn't change anything. The Seven Wings ensure that the message gets across.</p>
+          <p class="vb-intro">Carsten Stahl has visited hundreds of schools in Germany and worked directly there with students, perpetrators, and victims. His approach is physical and emotional at the same time: He shows that strength is no argument for injustice – but the opposite. His book Halt die Fresse! is a typical SO8w7 work: direct in tone, without sugarcoating, addressed to those who need it most.</p>
+          <p class="vb-intro">Parallel to this, Stahl is active as a martial artist and public figure: appearances on television shows, social media presence, lectures. He understood what many activists overlook: A message that no one hears changes nothing. The Seven wing ensures that the message arrives.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: When directness polarizes</h2>
+        <h2 class="vb-section">5. Light and Shadow: When Directness Polarizes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SO8w7 is their <strong>immediate effect</strong>. Stahl reaches young people who don't listen to educators - because he doesn't sound like an educator. He is authentic, direct, physically present. The SO8 makes no distinction between what she feels and what she says. This is rare &mdash; and that's exactly why it's credible.</p>
-          <p class="vb-intro">The Shadow: Directness also creates resistance. Anyone who operates as clearly and loudly as an SO8w7 makes themselves vulnerable. And the eight tends to escalate the attack instead of stepping back. The risk: The message is lost in the dispute over the messenger. Mature SO8w7 knows\xdf that strength doesn't always have to be louder &ndash; sometimes it's enough to stand still.</p>
+          <p class="vb-intro">The light of the SO8w7 is its immediate impact. Stahl reaches teenagers who do not listen to educators – because he does not sound like an educator. He is authentic, direct, physically present. The SO8 makes no difference between what it feels and what it says. That is rare – and precisely why it is believable.</p>
+          <p class="vb-intro">The shadow: Directness also generates resistance. Anyone operating as clearly and loudly as an SO8w7 makes themselves vulnerable to attack. And the Eight tends to escalate in attack instead of stepping back. The risk: The message gets lost in the fight over the messenger. The mature SO8w7 knows that strength does not always have to become louder – sometimes it is enough to stay standing.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The lion who goes to schools</h2>
+        <h2 class="vb-section">6. The Lion Who Goes Into Schools</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Carsten Stahl has chosen an arena that most people avoid: the middle of the problem. He doesn't go where it's comfortable. He goes where a 13-year-old no longer wants to go to school. This is the SO8w7: not the lion sitting on the rock and watching - but the one who runs into the pack when there is a fire. Strength that is given away. Fire that warms others.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Carsten Stahl chose an arena that most avoid: the middle of the problem. He does not go where it is comfortable. He goes where a 13-year-old no longer wants to go to school. That is the SO8w7: not the lion sitting on the rock observing – but the one who runs into the pride when it is on fire. Strength that gives itself away. Fire that warms others.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12664,47 +12664,47 @@ function dakotaJohnsonPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dakota Johnson</p>
         <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with aft wing</p>
-        <p class="krim-portrait-subtitle">Actress, born 1989 &mdash; Animal correspondence: Sloth</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1989 – Animal equivalent: Sloth</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sloth</strong> is the animal of sexual type 9 &mdash; and anyone who observes Dakota Johnson in an interview will immediately understand the picture. The sloth is hanging. It blinks. It seems as if it doesn't care about anything or anyone. And yet it is completely present - with claws that you only see when you get too close.</p>
-          <p class="vb-intro">Dakota Johnson, born in Austin, Texas in 1989, is the granddaughter of Tippi Hedren, daughter of Melanie Griffith and Don Johnson &mdash; Third generation Hollywood blood. She could have easily continued the dynasty. Instead, she chose something harder to describe: a kind of presence that doesn't impose itself. An intensity that hides. A smile that is half invitation and half limit.</p>
+          <p class="vb-intro">The sloth is the animal of the sexual type 9 and anyone who observes Dakota Johnson in an interview immediately understands the image. The sloth hangs. It blinks. It seems as if it were interested in nothing and no one. And yet it is fully present with claws that you only see when you get too close.</p>
+          <p class="vb-intro">Dakota Johnson, born in 1989 in Austin, Texas, is the granddaughter of Tippi Hedren, daughter of Melanie Griffith and Don Johnson Hollywood blood in the third generation. She could have comfortably continued the dynasty. Instead, she chose something that is harder to describe: a kind of presence that does not impose itself. An intensity that hides itself. A smile that is half invitation and half boundary.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Nine: Disappearing in the Other</h2>
+        <h2 class="vb-section">2. The sexual Nine: Disappearing into the Other</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> According to Naranjo, the subtype is <em>Vereinigung</em>: the deepest longing to merge with the beloved, the work, the moment. The SX9 is not looking for belonging (that would be the Social Nine), but for resolution - the state in which the boundary between self and the other disappears. It is not found in the collective, but in the intensive one-to-one relationship.</p>
-          <p class="vb-intro">It's no coincidence that Dakota Johnson's most famous role &mdash; Anastasia Steele in the <em>Fifty Shades</em>-Trilogy (2015-2018) - This is exactly the theme: a young woman who delves into an intense relationship and discovers who she really is. The role made Johnson world famous. She didn't like to talk about it. For the SX9, what really touches it deeply is difficult to put into words - and therefore hardly accessible to the public.</p>
+          <p class="vb-intro">According to Naranjo, the sexual Nine (SX9) is the subtype of union: the deepest longing for fusion with the beloved, the work, the moment. The SX9 is not searching for belonging (that would be the social Nine), but for dissolution the state in which the boundary between I and the other disappears. It finds itself not in the collective, but in an intense one-on-one relationship.</p>
+          <p class="vb-intro">It is no coincidence that Dakota Johnson's most famous role Anastasia Steele in the Fifty Shades trilogy (2015–2018) carries precisely this theme: a young woman who immerses herself deeply into an intense counterpart and in the process discovers who she really is. The role made Johnson world-famous. She disliked talking about it. For the SX9, what truly touches it deeply is hard to put into words and thus barely accessible to the public.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The aftwing: The claws of the sloth</h2>
+        <h2 class="vb-section">3. The Eight wing: The Claws of the Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Aftwing\xfcgel</strong> gives the Sexual Nine something that remains under the surface in the pure SX9 type: a willingness to confront, a directness that becomes unexpectedly sharp at the right moment. The <strong>SX9w8</strong> appears soft &mdash; until it no longer seems soft.</p>
-          <p class="vb-intro">In 2016, Johnson's appearance in the <em>Ellen DeGeneres Show</em> to the viral moment. When Ellen mentioned that, of course, she had been there for Dakota's last birthday, Johnson replied, completely deadpan, "You weren't invited." No excuse. No backtracking. Just the fact. The audience laughed in confusion, Ellen felt the silence, and Dakota sat there as if nothing had happened. This is the aft wing: not aggressive, not dramatic - simply fearless in what is true.</p>
+          <p class="vb-intro">The Eight wing gives the sexual Nine something that remains beneath the surface in the pure SX9 type: a readiness for confrontation, a directness that becomes unexpectedly sharp at the right moment. The SX9w8 seems soft until it no longer seems soft.</p>
+          <p class="vb-intro">In 2016, Johnson's appearance on the Ellen DeGeneres Show became a viral moment. When Ellen mentioned that she had of course been at Dakota's last birthday party, Johnson answered completely unmoved: You were not invited. No apology. No rowing back. Just the fact. The audience laughed in confusion, Ellen filled the silence, and Dakota sat there as if nothing had happened. That is the Eight wing: not aggressive, not dramatic simply fearless in what is true.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: Intensity without shine</h2>
+        <h2 class="vb-section">4. The Work: Intensity Without Shining</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dakota Johnson's filmography shows a pattern: she prefers roles that look inward. In <em>Suspiria</em> (2018) she plays a dancer who completely gets involved in a community of witches - Fusion as a theme, as a genre, as a performance. In <em>The Prodigal Daughter</em> (<em>The Lost Daughter</em>, 2021), she embodies a young mother who is both light and opaque, with an emotional depth that is more felt than seen. In <em>Cha Cha Real Smooth</em> (2022) she gives an overwhelmed woman a silence that weighs more heavily than any monologue.</p>
-          <p class="vb-intro">As <em>Madame Web</em> (2024) became a critical and commercial failure, Johnson's attitude remained telling: no defense, no publicity campaign, no visible pain. Anyone who asked her about it in later interviews received answers that were polite, precise and completely calm. The SX9w8 doesn't waste energy on what can't be changed.</p>
+          <p class="vb-intro">Dakota Johnson's filmography shows a pattern: She prefers roles that lead inward. In Suspiria (2018), she plays a dancer who completely surrenders herself to a coven of witches fusion as a theme, as a genre, as an achievement. In The Lost Daughter (2021), she embodies a young mother who is light and opaque at the same time, with an emotional depth that one feels rather than sees. In Cha Cha Real Smooth (2022), she gives an overwhelmed woman a silence that weighs heavier than any monologue.</p>
+          <p class="vb-intro">When Madame Web (2024) became a critical and commercial failure, Johnson's attitude remained telling: no defense, no public campaign, no visible pain. Anyone who brought it up to her in later interviews received answers that were polite, precise, and completely unfazed. The SX9w8 wastes no energy on what cannot be changed.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The legacy and one's own voice</h2>
+        <h2 class="vb-section">5. Light and Shadow: The Heritage and One's Own Voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 is its <strong>Ability for complete presence</strong>. Johnson brings an inner density to every scene that defies the usual Hollywood shine. She doesn't play characters &mdash; she becomes these characters. The eight wing gives it a grounding that the pure nine sometimes lacks: a refusal to dissolve, a boundary that remains visible even in the deepest fusion.</p>
-          <p class="vb-intro">The Shadow: The Nine gets lost in the other - and when the Other is the legacy of three generations of actors, the question of one's own voice is particularly complex. Johnson has spoken publicly about the pressures of growing up in an industry her family has known for decades. Depression and anxiety were themes in her early career. The SX9 can be found in the other &mdash; and must learn to stay with oneself even when the other person is very loud.</p>
+          <p class="vb-intro">The light of the SX9w8 is its ability for complete presence. Johnson brings an inner density to every scene that refuses conventional Hollywood shine. She does not play characters she becomes these characters. The Eight wing gives her a grounding that the pure Nine sometimes lacks: a refusal to dissolve, a boundary that remains visible even in the deepest fusion.</p>
+          <p class="vb-intro">The shadow: The Nine loses itself in the other and when the other is the heritage of three generations of actors, the question of one's own voice is particularly complex. Johnson has spoken publicly about the pressure of growing up in an industry that has known her family for decades. Depression and anxiety were themes of her early career. The SX9 finds itself in the other and must learn to stay with itself even when the other is very loud.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The sloth that bites</h2>
+        <h2 class="vb-section">6. The Sloth That Bites</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dakota Johnson is not a woman who fights for attention. She's also not a woman who avoids attention. She exists in a middle state that is characteristic of the SX9w8: fully present, selectively accessible, with a humor dry enough to keep the uninvited away. Those who actually come into contact with her say that they have the feeling of being met with complete attention. Anyone who just skims the surface will see the sloth hanging.</p>
-          <p class="vb-intro">The sloth has the strongest claws of all mammals in relation to its body size. It climbs through treetops that no other animal can reach. And it doesn't happen. Not because it holds on - but because its tendons are built in such a way that it hangs without having to use any force. This is the SX9w8 at its best: flawlessly in the right element, with a hidden strength that you only notice when you try to remove it from there.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Dakota Johnson is not a woman who fights for attention. Nor is she a woman who avoids attention. She exists in a middle state characteristic of the SX9w8: fully present, selectively accessible, with a humor dry enough to keep uninvited guests at a distance. Anyone who truly comes into contact with her says they have the feeling of encountering complete attention. Anyone who only skims the surface sees the sloth hanging.</p>
+          <p class="vb-intro">The sloth possesses the strongest claws of all mammals in relation to body size. It climbs through treetops that no other animal reaches. And it does not fall. Not because it holds on tightly but because its tendons are built in such a way that it hangs without having to exert force. That is the SX9w8 at its best: effortless in the right element, with a hidden strength that one only notices when trying to remove it from there.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -12728,7 +12728,7 @@ function davidLRathmerPortraitPage() {
         </div>
         <p class="krim-portrait-name">David L. Rathmer</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-Wing &middot; Contratype of the three</p>
-        <p class="krim-portrait-subtitle">Enneagram profiler, founder of the Ennea Scholars Academy, born in Münster in 2003 &mdash; Son of Detlef Rathmer &mdash; Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-subtitle">Enneagram profiler, founder of the Ennea Scholars Academy, b. 2003 in Münster – son of Detlef Rathmer – Animal equivalent: Raccoon</p>
       </div>
       <div class="page-content">
 
@@ -12736,49 +12736,49 @@ function davidLRathmerPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon Who Works in the Light</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation three &mdash; clever, adaptable, with clever paws and a keen eye for what is worthwhile. When the raccoon lives consciously, it does not use its extraordinary intelligence for the night &mdash; but for the light. He reads situations precisely, acts efficiently, and creates something useful from what is there. He sees what others miss. He opens what others cannot open.</p>
-          <p class="vb-intro">David L. Rathmer, born in Münster in 2003, is one of the rare raccoons that woke up early. Introduced to the world of the Enneagram at the age of eight by his father, the alternative practitioner and Enneagram expert Detlef Rathmer, he didn't just develop an interest - he made it a science. What started with a child looking at photos of people and asking, "What kind of guy is that?" turned into over fifteen years of empirical research and finally into a method in its own right that is now used internationally.</p>
+          <p class="vb-intro">The raccoon is the animal of the self-preservation Three smart, adaptable, with nimble paws and a sharp eye for what is worthwhile. When the raccoon lives consciously, he uses his extraordinary intelligence not for the night but for the light. He reads situations precisely, acts efficiently, and creates something useful out of what is available. He sees what others overlook. He opens what others cannot open.</p>
+          <p class="vb-intro">David L. Rathmer, born in 2003 in Münster, is one of those rare raccoons who awakened early. Introduced to the world of the Enneagram at eight years old by his father, the alternative practitioner and Enneagram expert Detlef Rathmer, he did not simply develop an interest he made it a science. What began with a child looking at photos of people and asking, "What type is that?", became over fifteen years of empirical research and ultimately an independent method that is used internationally today.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SE3: The Contratype of the Three &mdash; Modesty as an attitude</h2>
+        <h2 class="vb-section">2. SE3: The Countertype of the Three – Modesty as an Attitude</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation three (SE3)</strong> is the opposite type of the three: the subtype that hides its ambition behind modesty - not as a deception, but because security is more important to him than shine. The SE3 is not looking for a big stage. She seeks efficiency. She is looking for the right thing, the functional, the substantial &mdash; and finds its value not in the applause, but in the result.</p>
-          <p class="vb-intro">In David's case this is evident in his striking calmness for his age. He doesn't appear to impress. He shows what he can do &mdash; and that is enough for him. In consultations, in training courses, in work with managers and companies that use his expertise in human resources and employee management: everywhere he appears grounded, focused and clear. No desire for recognition. No staging. Just the craft.</p>
-          <p class="vb-intro">At the age of twenty, he was appointed the youngest economics senator in the history of the European Economic Senate &mdash; not because he applied, but because his work was convincing. This is the SE3 in its conscious form: success as a consequence, not as a goal.</p>
+          <p class="vb-intro">The self-preservation Three (SE3) is the countertype of the Three: the subtype that hides its ambition behind modesty not as a deception, but because security is more important to it than shine. The SE3 does not seek a big stage. It seeks efficiency. It seeks what is right, what is functional, what is substantial and finds its value not in applause, but in results.</p>
+          <p class="vb-intro">In David, this manifests as a striking calmness for his age. He does not perform to impress. He shows what he can do and that is enough for him. In advisory talks, in training sessions, in working with executives and companies that utilize his expertise in HR and personnel management: everywhere he appears grounded, focused, clear. No need for recognition. No staging. Just the craft.</p>
+          <p class="vb-intro">At twenty years old, he was appointed the youngest economic senator in the history of the European Economic Senate not because he had applied, but because his work convinced them. That is the SE3 in its conscious form: success as a consequence, not as a goal.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four Wing: Depth Behind Efficiency</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four wing (w4)</strong> is what distinguishes David L. Rathmer from a pure efficiency engineer. The four seeks depth, authenticity, the core of things. She can't stay on the surface &mdash; she needs to know what's really behind it. With an SE3w4er, this is combined with the practical intelligence of the three: depth does not become an end in itself, but rather a tool. What is deeply understood can be used precisely.</p>
-          <p class="vb-intro">This is exactly the key to the Rathmer Profiling Method (RP method): David can precisely type people according to the Enneagram based on portrait photos and physical characteristics alone. This skill is non-intuitive guessing &mdash; it is the result of over fifteen years of observational research, systematically structured and empirically validated. The four-wing taught him to look closely. The self-preserving three made the method out of it.</p>
+          <p class="vb-intro">The Four wing (w4) is what distinguishes David L. Rathmer from a pure efficiency technician. The Four seeks depth, authenticity, the core of things. It cannot remain on the surface it must know what is truly behind it. In an SE3w4, this connects with the practical intelligence of the Three: Depth does not become an end in itself, but a tool. What is deeply understood can be deployed with precision.</p>
+          <p class="vb-intro">Precisely that is the key to the Rathmer Profiling Method (RP Method): David can precisely type people according to the Enneagram based solely on portrait photos and physical features. This ability is not intuitive guessing it is the result of over fifteen years of observational research, systematically structured and empirically validated. The Four wing taught him to look closely. The self-preservation Three made a method out of it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Ennea Scholars Academy: Knowledge in Application</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Ennea Scholars Academy</strong>, which David L. Rathmer founded, is the institutional expression of his SE3w4 energy: a company that does not store knowledge, but transfers it. Participants from all over the world learn how to “read people” &mdash; the ability to accurately understand people using the Enneagram, a tool used in leadership, personnel selection, communication and therapy.</p>
-          <p class="vb-intro">The SE3w4er doesn't build cathedrals for himself. He builds systems that function without him. This is the conscious expression of the self-preservation three: not creating dependency, but passing on competence. What David can pass on is the result of a childhood and adolescence entirely dedicated to the Enneagram &mdash; not as a renunciation, but as a calling.</p>
+          <p class="vb-intro">The Ennea Scholars Academy, which David L. Rathmer founded, is the institutional expression of his SE3w4 energy: a company that does not store knowledge, but transfers it. Participants from all over the world learn "people reading" there the ability to precisely understand people through the Enneagram, a tool used in leadership, personnel selection, communication, and therapy.</p>
+          <p class="vb-intro">The SE3w4 builds no cathedrals for himself. He builds systems that function without him. That is the conscious expression of the self-preservation Three: not creating dependency, but passing on competence. What David can pass on is the result of a childhood and youth completely dedicated to the Enneagram not as a sacrifice, but as a calling.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Energetische Wirkung: Stille Klarheit</h2>
+        <h2 class="vb-section">5. Energetic Effect: Silent Clarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anyone who experiences David L. Rathmer at work encounters an energy that is calm and yet completely present. No overwhelming energy, no charisma fireworks &mdash; but the concentrated clarity of a person who knows what he is seeing and why. The SE3w4er's gaze is targeted and at the same time open: he observes without judging - analyzed without distancing.</p>
-          <p class="vb-intro">The foursome brings a warmth that is often missing from pure threes: David is interested in the person behind the guy. For him, typification is not an end, but a beginning - the start of a conversation about what someone needs to truly be themselves. This is the raccoon in the light: skillful, precise, and with the dignity of real contact.</p>
+          <p class="vb-intro">Anyone who experiences David L. Rathmer in his work encounters an energy that is calm yet fully present. No overwhelming energy, no fireworks of charisma but the concentrated clarity of a person who knows what he sees and why. The gaze of the SE3w4 is targeted and simultaneously open: He observes without judging analyzes without distancing.</p>
+          <p class="vb-intro">The Four wing brings a warmth with it that pure Threes often lack: David is interested in the person behind the type. For him, typing is not an end, but a beginning the start of a conversation about what someone needs to truly be themselves. That is the raccoon in the light: skillful, precise, and with the dignity of genuine contact.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Gift: A Legacy That Continues to Build</h2>
+        <h2 class="vb-section">6. The Gift: A Legacy That Continues to Be Built</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">At 23, David L. Rathmer is at an age when most people are just beginning to understand what they want to spend their life doing. He's known for fifteen years. This is neither coincidence nor mere talent &mdash; it is the result of a rare combination: an early environment that allows for depth, a personality structure that combines efficiency with meaning, and an inner drive that doesn't need external validation to move forward.</p>
-          <p class="vb-intro">What he gave the Enneagram is the bridge to the digital age &mdash; and into entrepreneurship. What Detlef Rathmer's work has built up in depth, David brings to the breadth. Father and son &mdash; two people who together cover the whole thing: the root and the growth.</p>
+          <p class="vb-intro">At 23 years old, David L. Rathmer is at an age when most people are just beginning to understand what they want to spend their lives doing. He has known it for fifteen years. That is neither coincidence nor mere talent it is the result of a rare combination: an early environment that enables depth, a personality structure that connects efficiency with purpose, and an inner drive that needs no external validation to keep going.</p>
+          <p class="vb-intro">What he has given to the Enneagram is the bridge into the digital age and into entrepreneurship. What the work of Detlef Rathmer built in depth, David carries into breadth. Father and son two people who together cover the whole: the root and the growth.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 - The Raccoon: Subtype Profile"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
       ])}
     </div>
@@ -12796,46 +12796,46 @@ function dieterNuhrPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dieter Nuhr</p>
         <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with aft wing</p>
-        <p class="krim-portrait-subtitle">Cabaret artist, comedian, presenter, painter, born 1960 in Wesel am Rhein</p>
+        <p class="krim-portrait-subtitle">Cabaret artist, comedian, presenter, painter, b. 1960 in Wesel am Rhein</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> builds for the community. He's not a loner &mdash; He changes his environment systematically and permanently, in the service of everyone who comes after him. His dam is not a monument of self-expression, but a work: purpose-built, solid, designed to last. And the beaver is not an animal to be intimidated. Anyone who threatens their dam will feel it.</p>
-          <p class="vb-intro">Dieter Nuhr was born in Wesel am Rhein in 1960 and grew up in the Ruhr area. He studied education, art history and geography at the University of Duisburg &mdash; a course of study that would shape his later view of society, education and culture. He's not a cabaret artist from the gut; he is a cabaret artist from observation. The beaver who carefully examines every stone before he uses it.</p>
+          <p class="vb-intro">The beaver builds for the community. He is no loner he changes his environment in a planned and lasting way, in the service of all who come after. His dam is no monument of self-dramatization, but a work: purpose-bound, solid, built to last. And the beaver is not an animal to be intimidated. Anyone who threatens his dam gets to feel that.</p>
+          <p class="vb-intro">Dieter Nuhr was born in 1960 in Wesel am Rhein and grew up in the Ruhr area. He studied pedagogy, art history, and geography at the University of Duisburg studies that would shape his later view of society, education, and culture. He is not a cabaret artist from the gut; he is a cabaret artist from observation. The beaver who inspects every stone carefully before putting it into place.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Society: Serving the Public</h2>
+        <h2 class="vb-section">2. Society: In the Service of the Public</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called social type 7 the <strong>Sacrifice</strong> or the <strong>Martyrs</strong> - because this subtype sacrifices its own pleasures for the good of the group. The SO7 doesn't want to shine for itself; he wants to contribute, to be part of something bigger. His hedonism comes inward &mdash; externally he is the servant of his community.</p>
-          <p class="vb-intro">Nuhr sees itself as part of the German cabaret and comedy tradition &mdash; a long line of social critics who see laughter as a form of enlightenment. He doesn't appear to celebrate himself, but to say something. He has been playing on the major stages of Germany and Austria for more than thirty years; since 2005 is <em>Only in the first</em> a permanent institution on German television. The SO7 doesn't build for itself - he builds for his audience.</p>
+          <p class="vb-intro">Claudio Naranjo called the social type 7 the victim or martyr because this subtype sacrifices its own pleasures for the well-being of the group. The SO7 does not want to shine for itself; it wants to make a contribution, be part of something larger. Its hedonism turns inward outward it is the servant of its community.</p>
+          <p class="vb-intro">Nuhr sees himself as part of the German cabaret and comedy tradition a long line of social critics who see laughter as a form of enlightenment. He does not perform to celebrate himself, but to say something. For more than thirty years he has played the major stages of Germany and Austria; since 2005 Nuhr im Ersten has been a fixed institution on German television. The SO7 does not build for himself he builds for his audience.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Eightwing: The Beaver That Bites Back</h2>
+        <h2 class="vb-section">3. The Eight Wing: The Beaver Who Bites Back</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>After wing</strong> gives the Social Seven something that the pure SO7 energy doesn't always show: willingness to confront, assertiveness and the ability to clearly state boundaries - and to defend. Where the pure SO7 gives in and mediates, the aft wing says: <em>Up to here and no further.</em></p>
-          <p class="vb-intro">In recent years, Nuhr has repeatedly had public arguments that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet of his after public pressure &mdash; and later apologized for it. He doesn't back down when things get uncomfortable; he holds his ground and strikes back. This is the eight wing: strength not as a threat, but as an attitude.</p>
+          <p class="vb-intro">The Eight wing gives the social Seven something that pure SO7 energy does not always show: readiness for confrontation, assertiveness, and the ability to clearly name and defend boundaries. Where the pure SO7 yields and mediates, the Eight wing says: This far and no further.</p>
+          <p class="vb-intro">In recent years, Nuhr has repeatedly engaged in public disputes that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet by him after public pressure and later apologized for it. He does not retreat when it gets uncomfortable; he stands firm and strikes back. That is the Eight wing: strength not as a threat, but as an attitude.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The work: From stage cabaret to first German television</h2>
+        <h2 class="vb-section">4. The Work: From Stage Cabaret to Das Erste German Television</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Nuhr began his career in the 1980s as a stage cabaret artist and developed into one of the most famous comedians in Germany over the 1990s. He has moderated <em>since 2005 Only in the first</em>, one of the most watched comedy programs on German public television. The show combines political cabaret with personal commentary &mdash; Nuhr writes all the texts himself.</p>
-          <p class="vb-intro">In parallel to his stage work, he is active as a visual artist: his paintings and drawings have been exhibited in galleries, including in Berlin and Düsseldorf. The beaver who not only builds a dam but also paints.</p>
+          <p class="vb-intro">Dieter Nuhr began his career in the 1980s as a stage cabaret artist and developed through the 1990s into one of Germany's best-known comedians. Since 2005 he has hosted Nuhr im Ersten, one of the most-watched comedy shows on German public television. The show combines political cabaret with personal commentary Nuhr writes all the texts himself.</p>
+          <p class="vb-intro">Parallel to his stage work, he is active as a visual artist: His paintings and drawings have been exhibited in galleries, including in Berlin and Düsseldorf. The beaver who not only builds a dam, but also paints.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: The Joke as a Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SO7w8 is its <strong>social reliability</strong>. Nuhr is not a comedian who surfs trends; He stays true to himself, even when it becomes uncomfortable. His humor is observational, precise, often uncomfortable &mdash; and he defends his positions even when the headwinds are strong. This is SO7 energy at its best: comedy as a public service.</p>
-          <p class="vb-intro">The Shadow: The SO7er sacrifices &mdash; and at some point he risks that his victim will become stubborn. Nuhr has become increasingly polarizing in recent years: his statements about climate policy and debates about freedom of expression have strengthened him among part of his audience - and another part is irrevocably damaged. The aft wing makes it harder for him to row back; the strength becomes intransigence. The beaver continues to build &mdash; even if the flow has already been diverted.</p>
+          <p class="vb-intro">The light of the SO7w8 is its societal reliability. Nuhr is no comedian who surfs on trends; he stays true to himself, even when that becomes uncomfortable. His humor is observant, precise, often uncomfortable and he defends his positions even when the headwinds are strong. That is SO7 energy at its best: comedy as a service to the public.</p>
+          <p class="vb-intro">The shadow: The SO7 sacrifices and eventually risks that his sacrifice turns into stubbornness. In recent years, Nuhr has become increasingly polarizing: His statements on climate policy and on debates surrounding freedom of speech have strengthened him with one part of his audience and irrevocably damaged him with another. The Eight wing makes it harder for him to back down; strength turns into relentlessness. The beaver continues to build even if the river has already been diverted.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The beaver who cannot remain silent</h2>
+        <h2 class="vb-section">6. The Beaver Who Cannot Stay Silent</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Nuhr has been in business for four decades &mdash; and shows no inclination to become quieter. On the contrary: with age he seems edgier, more precise, less concerned with consensus. This is the SO7w8er: The beaver who doesn't build for himself, but for what he thinks is right. Whether you agree with him or not &mdash; he is not silent. The dam is standing. And he is guarded.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison - how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Dieter Nuhr has been in the business for four decades and shows no inclination to get quieter. On the contrary: With age, he seems sharper, more precise, less intent on consensus. That is the SO7w8: The beaver who does not build for himself, but for what he considers right. Whether one agrees with him or not he does not stay silent. The dam stands. And it is guarded.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v621';
+  const MY_VERSION = 'inhalt-v622';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

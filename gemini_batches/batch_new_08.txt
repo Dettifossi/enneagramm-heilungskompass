@@ -1,0 +1,103 @@
+Please translate the following German Enneagram portrait texts into English.
+
+IMPORTANT RULES:
+- Keep all [MARKER] labels exactly as they are: [H2], [P], [SUBTITLE], [BOOKTIP_DESC|...|...], [LABEL]
+- Keep the separator lines "=== PORTRAIT: Name ===" exactly as they are
+- For [BOOKTIP_DESC|bookid|title]: translate ONLY the text AFTER the ], the German book title inside the brackets stays unchanged
+- Do NOT translate: proper names, subtype codes (SE1, SX2 etc.), years, book titles inside [...] brackets
+- Animal names in English: Adler=Eagle, Igel=Hedgehog, Flusspferd=Hippopotamus, Elefant=Elephant, Chamäleon=Chameleon, Krähe=Crow, Fuchs=Fox, Bär=Bear, Schimpanse=Chimpanzee, Ameise=Ant, Pferd=Horse, Stier=Bull, Schwan=Swan, Delfin=Dolphin, Katze=Cat, Schmetterling=Butterfly, Reh=Deer, Löwe=Lion, Eule=Owl, Wolf=Wolf, Tiger=Tiger, Krokodil=Crocodile, Faultier=Sloth, Waschbär=Raccoon, Biber=Beaver
+- Subtype names: selbsterhaltend=self-preservation, sexuell=sexual, sozial=social
+- Write only the translated version, no explanations
+
+=== PORTRAIT: Marie-Agnes Strack-Zimmermann ===
+[SUBTITLE] Politikerin (FDP), geb. 1958 &ndash; Bundeswehr, Ukraine, Europa &ndash; Tierentsprechung: Schwarze Mamba
+[H2] 1. Die Schwarze Mamba
+[H2] 2. Die sexuelle Eins: Inbrunst als Antrieb
+[H2] 3. Der Neunerflügel: Beharrlichkeit als zweite Kraft
+[H2] 4. Die Leidenschaft: Zorn als politisches Instrument
+[H2] 5. Europa als größerer Rahmen
+[H2] 6. Das Geschenk: Klarheit als Schutz
+[P] Die Schwarze Mamba ist das Tier der sexuellen Eins blitzschnell, präzise und vollkommen kompromisslos. Sie greift nicht aus Aggression an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird verteidigt mit allem, was zur Verfügung steht.
+[P] Marie-Agnes Strack-Zimmermann, geboren 1958 in Düsseldorf, ist eine der direktesten Politikerinnen, die der Deutsche Bundestag in den letzten Jahrzehnten erlebt hat. Als Vorsitzende des Verteidigungsausschusses wurde sie zum schärfsten öffentlichen Mahner für eine ausreichende Ausstattung der Bundeswehr und für klare Unterstützung der Ukraine zu einem Zeitpunkt, als viele Politikerkollegen noch auf Ausgewogenheit setzten. Die Mamba wartet nicht, bis alle einverstanden sind.
+[P] Die sexuelle Eins (SX1) richtet ihren Perfektionsanspruch nicht auf das eigene Umfeld oder die Gesellschaft als Ganzes, sondern auf Intensität: auf vollständige Präsenz, vollständige Ehrlichkeit, vollständige Konsequenz in dem, was sie als richtig erkennt. Naranjo nannte diesen Subtyp Zeal Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen.
+[P] Strack-Zimmermann hat dieses Muster in der politischen Arena ausgelebt wie kaum jemand sonst. Ihre Auftritte im Bundestag und in Talkshows sind für ihren direkten, kompromisslosen Ton bekannt sie spricht nicht um den heißen Brei, sie benennt. Sie hat keine Angst vor Unpopularität. Wenn sie überzeugt ist, dass etwas falsch läuft, sagt sie es laut, klar, wiederholbar. Die SX1 erträgt keine halben Antworten auf echte Fragen.
+[P] Ihr Engagement für die Ukraine-Unterstützung war von Anfang an nicht taktisch, sondern moralisch: ein Land wird angegriffen, eine Demokratie ist in Gefahr, und wer das sieht, muss handeln. Das ist keine Außenpolitik. Das ist das innere Gesetz der sexuellen Eins.
+[P] Der Neunerflügel (w9) verleiht der sexuellen Eins eine Qualität, die auf den ersten Blick überrascht: Ausdauer. Die Neun ist geduldig. Sie hält durch. Nicht weil sie gleichgültig ist, sondern weil sie weiß, dass manche Dinge Zeit brauchen und dass Kontinuität oft mehr bewirkt als Dramatik.
+[P] Dieser Flügel erklärt, warum Strack-Zimmermann trotz aller Konfrontationsbereitschaft ihre Partei und Koalitionen nicht destabilisiert hat. Sie kämpft aber sie verwaltet den Kampf strategisch. Der Neunerflügel bringt eine gewisse Erdung in die Intensität der sexuellen Eins: nicht weicher, aber beständiger. Die Mamba, die nicht nur blitzschnell ist, sondern auch geduldig wartet, bis der Moment stimmt.
+[P] Diese Kombination SX1-Feuer mit w9-Beharrlichkeit macht sie zu einer politischen Kämpferin, die sich nicht verausgabt. Sie brennt, aber sie brennt gleichmäßig.
+[P] Die Leidenschaft der Eins heißt Zorn und bei der SX1w9 ist er zugleich scharf und kontrolliert. Strack-Zimmermann hat keine Scheu, in öffentlichen Debatten die Stimme zu erheben, den Finger zu heben. Wenn sie im Bundestag den Eindruck hat, dass Unwahrheiten gesagt oder Verantwortung verweigert werden, dann kommt die Mamba.
+[P] Dieser Zorn ist nicht persönlich. Er ist prinzipienbasiert. Er richtet sich gegen das Falsche, nicht gegen die Person auch wenn beides von außen nicht immer leicht zu unterscheiden ist. Der Neunerflügel sorgt dafür, dass der Zorn nicht unkontrolliert eskaliert, sondern an den richtigen Stellen platziert wird. Präzision statt Explosion.
+[P] 2024 wechselte Strack-Zimmermann ins Europaparlament und übernahm den Vorsitz des Verteidigungsausschusses diesmal auf europäischer Ebene. Das ist kein Karriereschritt, das ist eine Konsequenz: Die sexuelle Eins, die erkannt hat, dass die Herausforderung größer ist als eine nationale Arena.
+[P] Der Neunerflügel zeigt sich hier in seiner konstruktiven Seite: die Fähigkeit, über Grenzen hinaus zu denken, Bündnisse zu halten, Kontinuität zu bewahren. Die Mamba auf europäischer Bühne die Geschwindigkeit ist dieselbe, der Aktionsradius größer.
+[P] Was Marie-Agnes Strack-Zimmermann der politischen Debatte gibt, ist selten geworden: Klarheit. Nicht Vereinfachung Klarheit. Die Bereitschaft zu sagen, was ist, auch wenn es unbequem ist. Die SX1w9 erträgt keine Unschärfe, wenn es ums Wesentliche geht.
+[P] Das ist das Geschenk der Schwarzen Mamba mit Neunerflügel: Sie bringt Feuer und Beständigkeit. Sie kämpft und sie hält durch. In einer Zeit, in der politische Positionen sich schnell drehen, ist das kein kleines Angebot.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Alle berühmten Persönlichkeiten
+[LABEL] SX1 – Die Schwarze Mamba: Subtyp-Profil
+[LABEL] Porträt: Queen Elizabeth II. (SE1w9)
+[LABEL] Porträt: Jamie Lee Curtis (SX1w2)
+
+=== PORTRAIT: Marie Kondo ===
+[SUBTITLE] Ordnungsberaterin, Autorin &amp; Unternehmerin &ndash; geb. 1984 &ndash; Tierentsprechung: Adler
+[H2] 1. Der Adler
+[H2] 2. Die selbsterhaltende Eins: Ordnung als inneres Bedürfnis
+[H2] 3. Der Zweierflügel: Helfen als Berufung
+[H2] 4. Die Leidenschaft: Zorn als innere Strenge
+[H2] 5. Die Dankbarkeit als Brücke
+[H2] 6. Das Geschenk: Freude als Kompass
+[P] Der Adler ist das Tier der selbsterhaltenden Eins und Marie Kondo verkörpert ihn mit einer Reinheit, die selten ist. Der Adler hat einen scharfen Blick für das Wesentliche. Er sieht, was stimmt und was nicht stimmt, mit einer Präzision, die kein Argument braucht. Er kreist, er beobachtet, er unterscheidet. Und wenn er landet, landet er genau.
+[P] Marie Kondo wurde 1984 in Tokio geboren und begann mit fünf Jahren, Einrichtungszeitschriften zu lesen. Mit neun ordnete sie die Bücherregale ihrer Klasse. Mit fünfzehn entwickelte sie die ersten Grundzüge ihrer späteren Methode. Das ist keine Karriere, die geplant wurde das ist ein Adler, der seinem inneren Kompass folgt, bevor er irgendeinem äußeren Erwartungsdruck begegnet ist.
+[P] Die selbsterhaltende Eins (SE1) ist der Subtyp, der seinen Perfektionsanspruch nicht nach außen trägt, sondern nach innen und vor allem: nach Hause. Naranjo nennt diesen Subtyp Worry: eine ständige, leise Unruhe, ob das eigene Umfeld wirklich stimmt, ob das eigene Leben dem inneren Standard entspricht. Diese Unruhe ist kein Mangel. Sie ist der Motor einer lebenslangen Verfeinerung.
+[P] Marie Kondos KonMari-Methode ist keine Ordnungshilfe, wie man sie aus Lifehacking-Büchern kennt. Sie ist ein inneres System. Die entscheidende Frage lautet nicht: Brauche ich das? oder Ist das praktisch? sondern: Löst es Freude aus? Das ist der Maßstab einer SE1: nicht Nützlichkeit, nicht Vernunft, sondern innere Resonanz. Was dem eigenen Standard entspricht, darf bleiben. Was nicht stimmt, geht.
+[P] Die Kategorien, die Reihenfolge, die Falttechnik: alles ist präzise, alles hat seinen Grund, alles ist erprobt. Keine Improvisation. Kein so ungefähr. Die SE1 lebt in einem Universum, in dem Dinge entweder an ihrem richtigen Platz sind oder nicht.
+[P] Der Zweierflügel (w2) verleiht der selbsterhaltenden Eins etwas, das sie von innen her allein nicht so leicht findet: Wärme, Kontakt, das Bedürfnis, andere zu berühren. Der Zweierflügel will geben. Er will, dass andere aufblühen nicht weil er etwas dafür erwartet, sondern weil ihm das Wohlergehen anderer wirklich am Herzen liegt.
+[P] Marie Kondo wäre ohne diesen Flügel vielleicht eine außergewöhnlich ordentliche Privatperson geblieben. Der Zweierflügel ist der Grund, warum aus dem inneren Standard eine Methode wurde, aus der Methode ein Buch, aus dem Buch ein globales Phänomen. Sie hat nicht nur ihr eigenes Zuhause aufgeräumt sie hat beschlossen, anderen zu helfen, dasselbe zu tun. Nicht weil es ihr Beruf war, sondern weil sie verstand, dass das Aufräumen von außen das Aufräumen von innen ermöglicht.
+[P] In ihrer Netflix-Serie Tidying Up with Marie Kondo sieht man diesen Flügel in Reinform: Sie betritt fremde Häuser mit vollständiger Aufmerksamkeit, mit echter Neugier für die Menschen hinter den Dingen. Sie urteilt nicht. Sie begleitet. Das ist die Zwei in der Eins: Präzision im Dienst der Verbindung.
+[P] Die Leidenschaft der Eins heißt Zorn und bei der SE1w2 ist er so vollständig nach innen gekehrt, dass er nach außen kaum sichtbar ist. Marie Kondo erscheint in der Öffentlichkeit immer ruhig, immer freundlich, immer maßvoll. Aber hinter dieser Stille liegt ein innerer Richter, der unerbittlich ist: ein leises, beständiges Wissen darüber, was stimmt und was nicht stimmt.
+[P] Dieser Zorn zeigt sich nicht als Kritik an anderen. Er zeigt sich als absolute Konsequenz im eigenen System. Die KonMari-Methode hat keine Ausnahmen. Es gibt keine aber das ist eine Erbschaft-Regel. Es gibt keine vielleicht später-Kategorie. Entweder ein Gegenstand löst Freude aus oder er verlässt das Haus. Diese Kompromisslosigkeit ist der Zorn der Eins: nicht laut, aber vollständig.
+[P] Eines der bekanntesten Elemente der KonMari-Methode ist die Dankbarkeit gegenüber Gegenständen: Man bedankt sich bei einem Kleidungsstück, bevor man es weggibt. Das Haus wird bei der Ankunft begrüßt. Diese Praxis wirkt auf westliche Betrachter oft seltsam aber sie ist der Schlüssel zu Marie Kondos innerer Logik.
+[P] Hier trifft der Perfektionsanspruch der SE1 auf die Beziehungsqualität des Zweierflügels. Die SE1 weiß: Alles hat seinen Wert, seinen Platz, seinen Zweck. Der Zweierflügel fügt hinzu: Und dieser Wert verdient Anerkennung. Dinge, die gegangen sind, haben gedient. Das Loslassen wird zu einem Akt des Respekts und damit zu etwas Heilsamem, nicht Verlustreichem. Diese Verbindung von Ordnung und Würde ist das Herzstück von Marie Kondos Werk.
+[P] Was Marie Kondo der Welt gegeben hat, geht weit über Aufräumtipps hinaus. Sie hat einer ganzen Generation Menschen beigebracht, dass Ordnung kein Selbstzweck ist sondern eine Form von Selbstachtung. Und dass die entscheidende Frage im Leben nicht lautet: Was soll ich behalten? sondern: Was löst Freude aus?
+[P] Das ist das Geschenk der SE1w2: ein inneres System, das so klar ist, dass andere es lernen können und eine Wärme, die groß genug ist, dass sie es weitergeben will. Der Adler hat einen Maßstab. Der Zweierflügel macht daraus eine Einladung. Marie Kondo hat beides.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Alle berühmten Persönlichkeiten
+[LABEL] SE1 – Der Adler: Subtyp-Profil
+[LABEL] Porträt: Queen Elizabeth II. (SE1w9)
+[LABEL] Porträt: Christoph Waltz (SE1w2)
+
+=== PORTRAIT: Meg Ryan ===
+[SUBTITLE] Schauspielerin, Regisseurin, geb. 1961 &ndash; Tierentsprechung: Pfau
+[H2] 1. Der Pfau: Strahlen, das von innen kommt
+[H2] 2. Die sexuelle Drei: Intimität als Lebensthema
+[H2] 3. Der Viererflügel: Die Tiefe hinter dem Lachen
+[H2] 4. Die Gesamtwirkung: Hollywoods Liebling &ndash; und der Preis der Rolle
+[H2] 5. Licht und Schatten: Wenn das Bild zum Gefängnis wird
+[H2] 6. Der Heilungsweg: Von der Lieblingsrolle zu sich selbst
+[P] Der Pfau ist das Tier der sexuellen Drei und er bezaubert nicht durch Macht oder Distanz, sondern durch eine Ausstrahlung, die man nicht lernen kann. Meg Ryan hat dieses Tier in den 1990er Jahren so überzeugend verkörpert, dass sie zum Inbegriff des amerikanischen Filmcharms wurde: warm, lebendig, lachend eine Präsenz, bei der Millionen Kinozuschauer das Gefühl hatten, sie schon immer gekannt zu haben.
+[P] Das ist die Kern-Gabe der SX3: nicht Glamour im Sinne von Distanz, sondern Magnetismus durch Nähe. Meg Ryan war nie unnahbar. Sie war das Mädchen von nebenan und trotzdem unwiderstehlich. Der Pfau, der sein Rad entfaltet, ohne es zu wissen.
+[P] Der Viererflügel (w4) gibt diesem Strahlen eine zweite Dimension: Hinter der unkomplizierten Fröhlichkeit der Filmpersona lebte eine Frau, die mehr wollte mehr Tiefe, mehr Ernsthaftigkeit, mehr als die Schublade, in die Hollywood sie gesteckt hatte.
+[P] Die sexuelle Drei (SX3) lenkt die Energie der Drei nicht auf öffentlichen Erfolg, sondern auf persönliche Verbindung. Die SX3 fragt: Berühre ich dich? Bin ich für dich real? Ihr Charisma ist kein Blendwerk es ist ein echter Wunsch nach Kontakt, nach dem Moment, in dem zwei Menschen wirklich aufeinandertreffen.
+[P] Meg Ryans Karriere ist ein einziger Beweis für diese Energie. When Harry Met Sally (1989), Sleepless in Seattle (1993), You've Got Mail (1998) diese Filme funktionieren nicht, weil die Drehbücher so raffiniert sind. Sie funktionieren, weil Meg Ryan echten Hunger nach Verbindung spielbar macht. Die berühmte Szene im Café die gespielte Ekstase als Kommentar über Selbsttäuschung ist eigentlich ein Kommentar über ihr Lebensthema: Was ist echt? Was ist Vorstellung?
+[P] Naranjo nannte die SX3 Masculinity Femininity die Verkörperung von Anziehung in ihrer persönlichsten Form. Meg Ryan hat das in eine Filmsprache übersetzt, die eine ganze Generation geprägt hat.
+[P] Der Viererflügel (w4) bringt in die SX3-Energie etwas, das die reine Drei oft verdrängt: das Bedürfnis nach Tiefe, nach Echtheit, nach einem Ausdruck, der über die Oberfläche hinausgeht. Die SX3w4 will nicht nur bezaubern sie will bedeutsam sein.
+[P] Bei Meg Ryan zeigt sich das im Bruch ihrer Karriere in den 2000er Jahren. Der Rückzug aus den Romanzen, die Wahl von Proof of Life (2000) ein dunklerer, komplexerer Film, für den sie sich bewusst gegen ihren Typ entschied. Der Viererflügel besteht auf Authentizität, auch wenn der Preis hoch ist.
+[P] Und dann die öffentlich diskutierten Veränderungen in ihrem Erscheinungsbild: Sie zeigen das Paradox der SX3w4 das Drei-Bedürfnis nach Bildkontrolle, das gegen die Vier-Erkenntnis kämpft, dass das Bild nicht die Person ist. Zwei Kräfte, die in dieselbe Hülle eingespannt sind.
+[P] Meg Ryan war in den 1990er Jahren das Gesicht einer Filmgattung, die heute nostalgisch verklärt wird: die romantische Komödie in ihrer warmherzigsten Form. Drei Filme mit der Regisseurin Nora Ephron schufen ein Universum, das bis heute als Maßstab gilt.
+[P] Was dabei übersehen wird: Meg Ryan war nicht das, was Hollywood aus ihr gemacht hatte. Sie war die Darstellerin, die dieser Rolle Echtes gab. Der Unterschied ist entscheidend. Die SX3w4 kann eine Rolle spielen aber sie kann sich nicht vollständig mit ihr identifizieren. Unter der Erwartung liegt immer die Frage: Wer bin ich wirklich?
+[P] Der Wandel ihrer Karriere nach der Jahrtausendwende ist in diesem Licht weniger Absturz als Suchbewegung der Versuch, hinter der Schublade eine eigene Sprache zu finden.
+[P] Das Schicksalsmuster der Drei ist die Täuschung nicht als böse Absicht, sondern als strukturelle Gefahr: das Ich, das beginnt, sein Bild für sein Wesen zu halten. Bei der SX3w4 ist diese Gefahr besonders subtil, weil der Viererflügel gleichzeitig dagegen arbeitet. Die Vier fragt ständig: Ist das echt? Bist du wirklich du?
+[P] Meg Ryans öffentlicher Wandel das schwindende Strahlen der 1990er, der Rückzug, die veränderte Erscheinung kann man als Scheitern lesen. Man kann ihn aber auch lesen als das, was er vielleicht war: eine Weigerung, die Vorstellung weiterzuspielen. Der Pfau, der aufhört, sein Rad zu entfalten, weil es nicht mehr das seine ist.
+[P] Dass sie in den 2010er Jahren zum Regieführen wechselte und 2023 mit What Happens Later einen eigenen Film ins Kino brachte, gibt dieser Lesart Gewicht.
+[P] Der Heilungsweg der Drei führt von der Frage Wie werde ich gesehen? zur Erkenntnis Ich bin unabhängig vom Bild, das andere von mir haben. Für die SX3w4 ist dieser Weg besonders reich: Der Viererflügel weiß schon lange, wohin er führt in die Tiefe, in die Echtheit, in den Raum hinter der Rolle.
+[P] Meg Ryans Heilungsweg scheint genau dort verlaufen zu sein: weg vom Bild „America's Sweetheart", das ihre Karriere gebaut und zugleich begrenzt hatte, hin zu etwas Eigenem. Das Regieführen ist ein typisches Zeichen dieser Transformation: Statt vor der Kamera zu strahlen, die Geschichte anderer zu erzählen auf eigene Rechnung, in eigener Sprache.
+[P] Der Pfau, der seinen schönsten Moment nicht mehr für das Publikum entfaltet, sondern für sich selbst und der dabei entdeckt, dass er noch immer ein Pfau ist.
+[BOOKTIP_DESC|wer-du-wirklich-bist-band-1|Wer du wirklich bist &ndash; Band 1] Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.
+[BOOKTIP_DESC|die-verborgene-dynamik-der-27-subtypen|Die verborgene Dynamik der 27 Subtypen] 27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.
+[BOOKTIP_DESC|die-27-persoenlichkeiten-des-enneagramms|Die 27 Persönlichkeiten des Enneagramms] 27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.
+[LABEL] Porträt: Dieter Bohlen (SX3w4)
+[LABEL] Porträt: Lena Meyer-Landrut (SX3w2)
+[LABEL] SX3 – Der Pfau: Subtyp-Profil
