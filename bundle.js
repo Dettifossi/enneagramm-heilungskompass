@@ -1202,13 +1202,13 @@ function leseprobePage() {
       <!-- Berühmte Persönlichkeiten -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
-          54 Berühmte Persönlichkeiten &ndash; Porträts
+          108 Berühmte Persönlichkeiten &ndash; Porträts
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
-          Für alle 27 Subtypen gibt es je zwei Porträts berühmter Persönlichkeiten &ndash; mit beiden Flügelausprägungen. So wird der Subtyp lebendig und konkret erkennbar.
+          Für alle 27 Subtypen mehrere Porträts berühmter Persönlichkeiten &ndash; mit verschiedenen Flügelausprägungen. So wird der Subtyp lebendig und konkret erkennbar.
         </p>
         <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
-          Von Bärbel Bas bis Keanu Reeves, von Willy Brandt bis Heike Makatsch &ndash; aus Politik, Kultur, Sport und Wissenschaft.
+          Von Angela Merkel und Willy Brandt über Sting und Toni Morrison bis Iga Świątek, Steffi Graf und Dakota Johnson &ndash; aus Politik, Kultur, Sport und Wissenschaft.
         </p>
         <div style="margin-top:0.5rem;">
           <button data-route="beruehmte-persoenlichkeiten"
@@ -41601,7 +41601,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v723';
+  const MY_VERSION = 'inhalt-v724';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

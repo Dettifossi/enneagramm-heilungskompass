@@ -3622,7 +3622,7 @@ function _sucheResults(q) {
   (window._zitateData || []).forEach(z => {
     const hay = (z.q + " " + z.a + " " + (z.t || "")).toLowerCase();
     if (hay.includes(lq)) {
-      const label = "„" + z.q.slice(0, 65) + (z.q.length > 65 ? "…" : "") + "“";
+      const label = '"' + z.q.slice(0, 65) + (z.q.length > 65 ? "…" : "") + '"';
       res.zitate.push({ label, sub: z.a + (z.y ? " (" + z.y + ")" : ""), route: "zitate" });
     }
   });
@@ -3655,7 +3655,7 @@ function _sucheResultsHtml(res, q) {
     ${group("Subtypees", res.subtypen)}
     ${group("Kriminalporträts", res.portraits)}
     ${group("Register &amp; Charts", res.register)}
-    ${group("Zitate der Weisen", res.zitate)}`;
+    ${group("Quotes of the Wise", res.zitate)}`;
 }
 
 window._updateSearch = function(q) {
@@ -3678,7 +3678,7 @@ function suchePage() {
       <div class="suche-box">
         <svg class="suche-box-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input class="suche-input" id="suche-input" type="search"
-               placeholder="Subtypees, Portraits, Charts, Zitate…"
+               placeholder="Subtypes, Portraits, Charts, Quotes…"
                oninput="window._updateSearch(this.value)"
                value="${_sucheQuery.replace(/"/g, '&quot;')}"
                autocomplete="off" spellcheck="false" />
@@ -3947,37 +3947,44 @@ function zitatePage() {
   const themes = [...new Set(data.map(z => z.t))];
 
   const themeColors = {
-    "Selbsterkenntnis":      "#5a7a5a",
-    "Leidenschaft & Schatten":"#8b4a2a",
-    "Wachstum":              "#4a6a8a",
-    "Freiheit & Authentizität":"#7a5a8a",
-    "Mitgefühl & Liebe":    "#8a4a5a",
-    "Mut & Angst":           "#6a5a2a",
-    "Stille & Kontemplation":"#3a5a6a",
-    "Weisheit":              "#6a6a2a",
-    "Frieden & Gelassenheit":"#3a6a5a",
+    "Self-Knowledge":          "#5a7a5a",
+    "Passion & Shadow":        "#8b4a2a",
+    "Growth":                  "#4a6a8a",
+    "Growth & Transformation": "#4a6a8a",
+    "Freedom & Authenticity":  "#7a5a8a",
+    "Compassion & Love":       "#8a4a5a",
+    "Courage & Fear":          "#6a5a2a",
+    "Stillness & Contemplation":"#3a5a6a",
+    "Wisdom":                  "#6a6a2a",
+    "Peace & Equanimity":      "#3a6a5a",
+    "Humility & Greatness":    "#5a6a7a",
+    "Solitude & Encounter":    "#7a6a4a",
+    "Forgiveness & Healing":   "#5a7a6a",
+    "Truth & Insight":         "#6a5a7a",
+    "Time & Transience":       "#6a6a6a",
+    "Second Half":             "#4a5a6a",
   };
 
   window._zShare = data.map(z => ({ q: z.q, a: z.a, y: z.y }));
   if (!window._doCopy) {
     window._doCopy = function(btn, i) {
       const z = window._zShare[i];
-      const t = '„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagram Healing Compass';
+      const t = '"' + z.q + '" — ' + z.a + ' (' + z.y + ')\n\nEnneagram Healing Compass';
       navigator.clipboard.writeText(t).then(function() {
-        const orig = btn.innerHTML; btn.innerHTML = '✓ Kopiert!'; btn.style.background='#e8f5e9';
+        const orig = btn.innerHTML; btn.innerHTML = '✓ Copied!'; btn.style.background='#e8f5e9';
         setTimeout(function(){ btn.innerHTML = orig; btn.style.background=''; }, 2000);
-      }).catch(function(){ btn.textContent='❌'; setTimeout(function(){ btn.textContent='Kopieren'; },2000); });
+      }).catch(function(){ btn.textContent='❌'; setTimeout(function(){ btn.textContent='Copy'; },2000); });
     };
     window._doWA = function(i) {
       const z = window._zShare[i];
-      const t = encodeURIComponent('„' + z.q + '“ — ' + z.a + ' (' + z.y + ')\n\nEnneagram Healing Compass');
+      const t = encodeURIComponent('"' + z.q + '" — ' + z.a + ' (' + z.y + ')\n\nEnneagram Healing Compass');
       window.open('https://wa.me/?text=' + t, '_blank');
     };
   }
   const cards = data.map((z, i) => {
     const col = themeColors[z.t] || "#555";
     return '<div style="background:#fff;border-radius:14px;padding:1.6rem 1.5rem 1rem;margin-bottom:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,0.07);border-left:4px solid '+col+';">'
-      + '<p style="font-family:\'EB Garamond\',Georgia,serif;font-size:1.15rem;line-height:1.6;color:#2c2c2c;margin:0 0 0.9rem;">„'+z.q+'“</p>'
+      + '<p style=”font-family:\'EB Garamond\',Georgia,serif;font-size:1.15rem;line-height:1.6;color:#2c2c2c;margin:0 0 0.9rem;”>“'+z.q+'”</p>'
       + '<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.75rem;">'
         + '<div>'
           + '<span style="font-size:0.85rem;font-weight:600;color:#1a1208;">'+z.a+'</span>'
@@ -3988,7 +3995,7 @@ function zitatePage() {
       + '<div style="display:flex;gap:0.5rem;padding-top:0.6rem;border-top:1px solid #f0ece4;">'
         + '<button onclick="window._doCopy(this,'+i+')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:0.35rem;padding:0.4rem 0.7rem;border:1.5px solid #d4b896;border-radius:7px;background:#fdf8f1;color:#6b4e2a;font-size:0.82rem;font-family:inherit;cursor:pointer;">'
           + '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>'
-          + ' Kopieren'
+          + ' Copy'
         + '</button>'
         + '<button onclick="window._doWA('+i+')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:0.35rem;padding:0.4rem 0.7rem;border:1.5px solid #25d36644;border-radius:7px;background:#f0fdf4;color:#128c3e;font-size:0.82rem;font-family:inherit;cursor:pointer;">'
           + '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.528 5.845L.057 23.203a.75.75 0 0 0 .918.916l5.453-1.48A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.938 9.938 0 0 1-5.074-1.385l-.363-.216-3.764 1.021 1.01-3.669-.236-.374A9.94 9.94 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
@@ -4001,7 +4008,7 @@ function zitatePage() {
   return shell(`
     ${pageHeader("zitate")}
     <section class="narrow" style="padding:2rem 1rem 5rem;">
-      <p style="font-size:0.85rem;color:#888;text-align:center;margin:0 0 1.8rem;">${data.length} Zitate · ${themes.length} Themen</p>
+      <p style="font-size:0.85rem;color:#888;text-align:center;margin:0 0 1.8rem;">${data.length} Quotes · ${themes.length} Themes</p>
       ${cards}
     </section>
   `);
@@ -4242,17 +4249,17 @@ function quizIntroScreen() {
   return shell(`
     ${pageHeader("quiz")}
     <section class="narrow centered" style="padding:2.5rem 1rem 5rem;">
-      <p class="eyebrow">Wissen testen</p>
-      <h1 style="margin-bottom:0.4rem;">Enneagramm-Quiz</h1>
-      <p style="color:var(--text-muted,#888);margin:0 0 2rem;font-size:0.95rem;">10 Fragen pro Runde &middot; ${qd.length} Fragen im Pool</p>
+      <p class="eyebrow">Test Your Knowledge</p>
+      <h1 style="margin-bottom:0.4rem;">Enneagram Quiz</h1>
+      <p style="color:var(--text-muted,#888);margin:0 0 2rem;font-size:0.95rem;">10 questions per round &middot; ${qd.length} questions in pool</p>
       <div style="display:flex;gap:1.8rem;justify-content:center;flex-wrap:wrap;margin-bottom:2.8rem;font-size:0.88rem;">
-        <span><span style="color:#5a9e5a;font-size:1.1em;">&#9679;</span>&ensp;Leicht (${counts.leicht})</span>
-        <span><span style="color:#c4a456;font-size:1.1em;">&#9679;&#9679;</span>&ensp;Mittel (${counts.mittel})</span>
-        <span><span style="color:#c0392b;font-size:1.1em;">&#9679;&#9679;&#9679;</span>&ensp;Schwer (${counts.schwer})</span>
+        <span><span style="color:#5a9e5a;font-size:1.1em;">&#9679;</span>&ensp;Easy (${counts.leicht})</span>
+        <span><span style="color:#c4a456;font-size:1.1em;">&#9679;&#9679;</span>&ensp;Medium (${counts.mittel})</span>
+        <span><span style="color:#c0392b;font-size:1.1em;">&#9679;&#9679;&#9679;</span>&ensp;Hard (${counts.schwer})</span>
       </div>
       <button onclick="window._startQuiz()"
         style="background:#c4a456;color:#1a1208;border:none;padding:0.9rem 2.8rem;border-radius:30px;font-size:1.05rem;font-family:inherit;cursor:pointer;font-weight:600;letter-spacing:0.03em;">
-        Quiz starten &#8594;
+        Start Quiz &#8594;
       </button>
     </section>
   `);
@@ -4265,9 +4272,9 @@ function quizQuestionScreen() {
   const pct = Math.round((st.current / total) * 100);
 
   const diffDots = {
-    leicht: '<span style="color:#5a9e5a;">&#9679;</span> Leicht',
-    mittel: '<span style="color:#c4a456;">&#9679;&#9679;</span> Mittel',
-    schwer: '<span style="color:#c0392b;">&#9679;&#9679;&#9679;</span> Schwer',
+    leicht: '<span style="color:#5a9e5a;">&#9679;</span> Easy',
+    mittel: '<span style="color:#c4a456;">&#9679;&#9679;</span> Medium',
+    schwer: '<span style="color:#c0392b;">&#9679;&#9679;&#9679;</span> Hard',
   };
 
   const answersHtml = st.shuffledAnswers.map((item, i) => {
@@ -4282,10 +4289,10 @@ function quizQuestionScreen() {
   }).join("");
 
   const correctText = st.answered && !st.shuffledAnswers[st.selectedIdx].correct
-    ? `<p style="font-size:0.85rem;color:#555;margin:0.6rem 0 0;">&#10003; Richtig: <strong>${st.shuffledAnswers.find(x => x.correct).text}</strong></p>`
+    ? `<p style="font-size:0.85rem;color:#555;margin:0.6rem 0 0;">&#10003; Correct: <strong>${st.shuffledAnswers.find(x => x.correct).text}</strong></p>`
     : "";
 
-  const nextLabel = st.current + 1 >= total ? "Auswertung &#8594;" : "N&auml;chste Frage &#8594;";
+  const nextLabel = st.current + 1 >= total ? "Results &#8594;" : "Next Question &#8594;";
   const nextBtn = st.answered
     ? `<div style="text-align:center;margin-top:1.2rem;"><button onclick="window._nextQuizQuestion()" style="background:#c4a456;color:#1a1208;border:none;padding:0.7rem 2rem;border-radius:20px;font-size:0.95rem;font-family:inherit;cursor:pointer;">${nextLabel}</button></div>`
     : "";
@@ -4298,7 +4305,7 @@ function quizQuestionScreen() {
           <div style="height:100%;width:${pct}%;background:#c4a456;transition:width .3s;"></div>
         </div>
         <div style="display:flex;justify-content:space-between;font-size:0.82rem;color:#888;">
-          <span>Frage ${st.current + 1} von ${total}</span>
+          <span>Question ${st.current + 1} of ${total}</span>
           <span>${diffDots[q.d] || ""}</span>
         </div>
       </div>
@@ -4309,7 +4316,7 @@ function quizQuestionScreen() {
       ${correctText}
       ${nextBtn}
       <div style="text-align:center;margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid rgba(0,0,0,0.08);">
-        <a href="mailto:detlefrathmer@t-online.de?subject=Quiz%3A%20Frage%20${q.id}%20melden&body=Frage%20${q.id}%3A%20${encodeURIComponent(q.q)}%0A%0AMein%20Hinweis%3A%20" style="font-size:0.72rem;color:#bbb;text-decoration:none;letter-spacing:0.03em;">Frage melden</a>
+        <a href="mailto:detlefrathmer@t-online.de?subject=Quiz%3A%20Question%20${q.id}&body=Question%20${q.id}%3A%20${encodeURIComponent(q.q)}%0A%0AMy%20note%3A%20" style="font-size:0.72rem;color:#bbb;text-decoration:none;letter-spacing:0.03em;">Report question</a>
       </div>
     </section>
   `);
@@ -4321,10 +4328,10 @@ function quizResultScreen() {
   const total = st.questions.length;
   const pct = Math.round(score / total * 100);
   let msg, icon;
-  if (pct >= 90) { msg = "Ausgezeichnet &mdash; Sie kennen das Enneagramm sehr gut!"; icon = "&#127942;"; }
-  else if (pct >= 70) { msg = "Sehr gut! Einige Feinheiten warten noch auf Sie."; icon = "&#10024;"; }
-  else if (pct >= 50) { msg = "Gut gemacht! Mit mehr &Uuml;bung werden Sie noch sicherer."; icon = "&#128170;"; }
-  else { msg = "Das Enneagramm h&auml;lt noch viel bereit &mdash; bleiben Sie dran!"; icon = "&#127807;"; }
+  if (pct >= 90) { msg = "Excellent &mdash; you know the Enneagram very well!"; icon = "&#127942;"; }
+  else if (pct >= 70) { msg = "Very good! A few subtleties are still waiting for you."; icon = "&#10024;"; }
+  else if (pct >= 50) { msg = "Well done! With more practice you&rsquo;ll become even more confident."; icon = "&#128170;"; }
+  else { msg = "The Enneagram still holds much in store &mdash; keep going!"; icon = "&#127807;"; }
 
   const detailRows = st.questions.map((q, i) => {
     const chosen = st.shuffledAnswers; // not stored per-question, skip detail for now
@@ -4336,17 +4343,17 @@ function quizResultScreen() {
     ${pageHeader("quiz")}
     <section class="narrow centered" style="padding:3rem 1rem 5rem;">
       <div style="font-size:2.8rem;margin-bottom:1rem;">${icon}</div>
-      <h2 style="margin-bottom:0.3rem;">${score} von ${total} richtig</h2>
+      <h2 style="margin-bottom:0.3rem;">${score} of ${total} correct</h2>
       <p style="color:#888;font-size:1.1rem;margin:0 0 0.8rem;">${pct}&thinsp;%</p>
       <p style="max-width:400px;margin:0 auto 2.5rem;color:#555;line-height:1.6;">${msg}</p>
       <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
         <button onclick="window._startQuiz()"
           style="background:#c4a456;color:#1a1208;border:none;padding:0.85rem 2rem;border-radius:30px;font-size:0.95rem;font-family:inherit;cursor:pointer;font-weight:600;">
-          Neue Runde &#8594;
+          New Round &#8594;
         </button>
         <button onclick="window._resetQuiz()"
           style="background:transparent;border:1px solid #ccc;color:#666;padding:0.85rem 1.5rem;border-radius:30px;font-size:0.95rem;font-family:inherit;cursor:pointer;">
-          Zur &Uuml;bersicht
+          Overview
         </button>
       </div>
     </section>
@@ -41241,7 +41248,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v611';
+  const MY_VERSION = 'inhalt-v614';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
