@@ -392,6 +392,8 @@ export const registerEntries = [
   { term: "Cristiano Ronaldo",             route: "beruehmte-cristiano-ronaldo",           description: "Portrait: SX3w2 · Sexueller Typ 3 · Fußballstar, Selbstoptimierung" },
   { term: "David L. Rathmer",              route: "beruehmte-david-l-rathmer",             description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Enneagramm-Trainer" },
   { term: "Dieter Bohlen",                 route: "beruehmte-dieter-bohlen",               description: "Portrait: SX3w4 · Sexueller Typ 3 · Pop-Produzent, Modern Talking" },
+    { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 · Sexueller Typ 8 · Schauspielerin, Bibi Fellner, Tatort, Österreichischer Filmpreis, Krokodil" },
+    { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 · Sexueller Typ 8 · Schauspielerin, Bibi Fellner, Tatort, Österreichischer Filmpreis, Krokodil" },
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX3w2 · Sexueller Typ 3 · US-Präsident, Medienprovokateur" },
   { term: "Donata Hopfen",                 route: "beruehmte-donata-hopfen",               description: "Portrait: SO6w7 · Sozialer Typ 6 · Ex-CEO Bild & DFL, geb. 1976 Hamburg" },
   { term: "Edward Snowden",                route: "beruehmte-edward-snowden",              description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · NSA-Whistleblower" },

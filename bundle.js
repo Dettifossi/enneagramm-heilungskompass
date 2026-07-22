@@ -534,6 +534,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jamaica Kincaid – Soziale Typ 8",
     teaser:"SO8w9 · geb. 1949 in Antigua. Schriftstellerin, Essayistin, Harvard-Professorin. Annie John, A Small Place, Lucy. Der Löwe, der schreibt – schärfer als jede Klage, präziser als jede Anklage.",
     tags:["Literatur"], gender:"f"},
+  { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", subtyp:"SX8w7",
+    heading:"Adele Neuhauser – Sexueller Typ 8",
+    teaser:"SX8w7 · geb. 1959 in Athen. Österreichische Schauspielerin, Bibi Fellner im Tatort, mehrfache Österreichischer Filmpreis-Trägerin. Begann als Tänzerin. Das Krokodil, das tanzt – präsent bis auf den Grund.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1946. Unternehmer, Medienpersönlichkeit, 45. & 47. Präsident der USA. Das Krokodil, das die Bühne beherrscht – laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
@@ -10534,6 +10538,70 @@ function budSpencerPortraitPage() {
     </div>
   `);
 }
+
+function adeleNeuhauserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adele-neuhauser-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adele Neuhauser</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">\xd6sterreichische Schauspielerin, geb. 1959 in Athen &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; und kaum ein Bild trifft Adele Neuhauser besser. Das Krokodil ist still, bis es handelt. Es liegt im Wasser, fast reglos, fast unsichtbar &ndash; und dann, in einem einzigen Moment, mit voller Kraft. Keine Warnung. Keine verschwendete Energie. Nur der Zugriff, der sitzt.</p>
+          <p class="vb-intro">Adele Neuhauser, 1959 in Athen geboren, \xf6sterreichische Mutter, griechischer Vater, aufgewachsen in Wien, begann als T\xe4nzerin, bevor sie zur Schauspielerin wurde. Diese K\xf6rperlichkeit hat sie nie verlassen. Wenn sie eine Rolle betritt, betritt sie sie vollst\xe4ndig &ndash; nicht als Vorstellung, sondern als Anwesenheit. Als Bibi Fellner im \xf6sterreichischen <em>Tatort</em> hat sie eine Figur erschaffen, die k\xf6rperlich, unberechenbar und unbedingt pr\xe4sent ist. Wie das Krokodil: still bis es handelt &ndash; und dann mit voller Kraft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> ist nach Naranjo der Subtyp, den er <em>Besitz</em> nannte &ndash; auf Englisch <em>Possession</em>. Die sexuelle Acht will keine distanzierte Beziehung. Sie will die vollst\xe4ndige Begegnung, die Verschmelzung, die Intensit\xe4t, die keine Graut\xf6ne kennt. Was sie ber\xfchrt, ber\xfchrt sie ganz. Was sie liebt, liebt sie bedingungslos. Was sie ablehnt, lehnt sie vollst\xe4ndig ab.</p>
+          <p class="vb-intro">Neuhausers Schauspiel tr\xe4gt diese Energie. Bibi Fellner ist keine ged\xe4mpfte Figur: Sie trinkt, flucht, liebt, erschrickt, explodiert &ndash; alles mit einer Ungefiltertheit, die das Publikum sofort erkennt, weil sie echt wirkt. Die SX8 spielt keine Emotion. Sie legt sie auf den Tisch &ndash; und wartet, ob das Gegen\xfcber das aushalten kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Feuer und Witz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel</strong> verleiht der sexuellen Acht eine Qualit\xe4t, die die Intensit\xe4t des Achterkerns erg\xe4nzt: Leichtigkeit, Humor, Spielfreude und eine gewisse Risikobereitschaft, die nicht Impulsivit\xe4t ist, sondern Appetit. Die SX8w9 sucht die Tiefe. Die <strong>SX8w7</strong> sucht die Tiefe &ndash; und genießt dabei das Spektakel.</p>
+          <p class="vb-intro">Neuhauser hat diese Doppelqualit\xe4t. Bibi Fellner kann in einer Szene zutiefst verletzlich sein und in der n\xe4chsten einen Einzeiler liefern, der das Publikum auflachen l\xe4sst &ndash; und beides klingt wahr, weil es kein Wechsel der Pers\xf6nlichkeit ist, sondern zwei Seiten derselben Intensit\xe4t. Der Siebenerfl\xfcgel gibt der sexuellen Acht die F\xe4higkeit, mit sich selbst leichter umzugehen, als es der reine Achterkern erlaubt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Bühne, Kamera, Bibi Fellner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adele Neuhauser hat eine lange Theaterkarriere, bevor das Fernsehen sie einem breiten Publikum zug\xe4nglich macht. Sie arbeitete an bedeutenden \xf6sterreichischen Theatern, spielte klassisches Repertoire und zeitgen\xf6ssische St\xfccke &ndash; und brachte dabei eine Verk\xf6rperkraft mit, die das Theater verlangt und die das Kino sp\xe4ter dankbar annimmt.</p>
+          <p class="vb-intro">2011 tritt sie als Bibi Fellner im \xf6sterreichischen <em>Tatort</em> auf, an der Seite von Harald Krassnitzer als Moritz Eisner. Das Duo entwickelt sich zu einem der popul\xe4rsten im deutschsprachigen <em>Tatort</em>-Universum. Neuhauser erh\xe4lt mehrere \xd6sterreichische Filmpreise, darunter den Darstellerpreis als beste Hauptdarstellerin. Ihre Figur ist nicht der Typ, den man mochte, weil er glatt ist &ndash; man mag sie, weil sie echt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Ungefiltertheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist ihre <strong>unmittelbare Pr\xe4senz</strong>. Neuhauser ist eine Schauspielerin, die kein Netz braucht &ndash; keine berechenbaren Muster, keine sch\xf6nen Abst\xe4nde. Sie geht in die Rolle wie das Krokodil ins Wasser: vollst\xe4ndig. Das macht ihre Arbeit unverwechselbar und schwer zu kopieren.</p>
+          <p class="vb-intro">Der Schatten: Die sexuelle Acht lebt in der Intensit\xe4t &ndash; und Intensit\xe4t ist anstrengend, auch f\xfcr sie selbst. Die SX8 neigt dazu, alles oder nichts zu wollen: volle Verbindung oder keinen Kontakt. Das kann in Rollen eine Qualit\xe4t sein; im Leben kann es isolieren. Die reife SX8w7 lernt, dass man Tiefe auch dosieren kann &ndash; ohne sie zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das tanzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adele Neuhauser begann als T\xe4nzerin &ndash; und das ist kein Nebensatz. Das Krokodil ist k\xf6rperlich, pr\xe4zise und geduldig. Es wartet, bis der Moment vollst\xe4ndig ist, und handelt dann ohne Z\xf6gern. Neuhauser hat diese Pr\xe4zision in eine Schauspielkunst verwandelt, die k\xf6rperlich fundiert und emotional ungeschützt ist. Das ist die SX8w7: nicht die lauteste Figur im Raum &ndash; sondern die, von der man den Blick nicht loswerden kann.</p>
+          ${bookTip("enneagramm-typen", "Sexueller Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SX8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sexuellen Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SX8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sexuellen Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+          {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
+          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function donaldTrumpPortraitPage() {
   return shell(`
@@ -40574,7 +40642,8 @@ function render() {
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
-      "beruehmte-donald-trump": donaldTrumpPortraitPage,
+    "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
+    "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
@@ -41037,7 +41106,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v713';
+  const MY_VERSION = 'inhalt-v714';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
