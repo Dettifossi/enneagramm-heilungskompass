@@ -12196,14 +12196,14 @@ function beruehmtePersoenlichkeitenPage() {
         +' style="--kf-tag-col:'+col+';" onclick="bpSet(\'kat\',\''+k+'\')">'+(katLabel[k]||k)+'</button>';
     };
     return '<div class="kf-bar">'
-      +'<div class="kf-row"><span class="kf-label">Instinkt</span>'
+      +'<div class="kf-row"><span class="kf-label">Instinct</span>'
       +instBtn("ALL")+["SE","SO","SX"].map(instBtn).join("")+'</div>'
-      +'<div class="kf-row"><span class="kf-label">Typ</span>'
+      +'<div class="kf-row"><span class="kf-label">Type</span>'
       +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
-      +'<div class="kf-row"><span class="kf-label">Bereich</span>'
+      +'<div class="kf-row"><span class="kf-label">Category</span>'
       +katBtn("ALL")+allKats.map(katBtn).join("")+'</div>'
       +'<div class="kf-count"><span id="bp-count-num">'+BERUEHMT_PORTRAITS.length+'</span> of '+BERUEHMT_PORTRAITS.length+' Portraits</div>'
-      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRandom()">&#127922; Zufälliges Portrait</button></div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRandom()">&#127922; Random Portrait</button></div>'
       +'</div>';
   }
 
@@ -12226,7 +12226,7 @@ function beruehmtePersoenlichkeitenPage() {
         return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+t+'</span>';
       }).join("")
       +'</div>'
-      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
+      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">View Portrait &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
       +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
@@ -12237,7 +12237,7 @@ function beruehmtePersoenlichkeitenPage() {
   const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p+n));
   const registerBox = BERUEHMT_PORTRAITS.length === 0 ? "" :
     '<div id="bp-register" style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">'
-    +'<p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Schnellnavigation nach Subtype</p>'
+    +'<p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Quick Navigation by Subtype</p>'
     +'<div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">'
     +allCodes.map(function(code){
       const n = parseInt(code.slice(-1));
@@ -12275,9 +12275,9 @@ function beruehmtePersoenlichkeitenPage() {
   return shell(
     '<div class="page-container">'
     +pageHeader("ber\xfchmte-pers\xf6nlichkeiten")
-    +'<p class="psycho-intro">Ber\xfchmte Pers\xf6nlichkeiten aus Wissenschaft, Kunst, Musik, Sport und Geschichte durch die Linse des Enneagramms. '
-    +'Jedes Portr\xe4t zeigt, wie die innere Struktur eines Menschen seine Leistungen, seine Kreativit\xe4t und seinen Lebensweg pr\xe4gt \u2013 '
-    +'vom Komponisten bis zum Astronauten, vom Friedensnobelpreistr\xe4ger bis zum vision\xe4ren Unternehmer.</p>'
+    +'<p class="psycho-intro">Famous personalities from science, art, music, sport and history through the lens of the Enneagram. '
+    +'Each portrait shows how a person\'s inner structure shapes their achievements, creativity and life path \u2013 '
+    +'from the composer to the astronaut, from the Nobel Peace Prize laureate to the visionary entrepreneur.</p>'
     +filterBar()
     +registerBox
     +'<div id="bp-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
@@ -19131,14 +19131,14 @@ function kriminalpsychologiePage() {
         +' style="--kf-tag-col:'+col+';" onclick="kfSet(\'tag\',\''+t+'\')">'+(tagLabel[t]||t)+'</button>';
     };
     return '<div class="kf-bar">'
-      +'<div class="kf-row"><span class="kf-label">Instinkt</span>'
+      +'<div class="kf-row"><span class="kf-label">Instinct</span>'
       +instBtn("ALL")+allInst.map(instBtn).join("")+'</div>'
-      +'<div class="kf-row"><span class="kf-label">Typ</span>'
+      +'<div class="kf-row"><span class="kf-label">Type</span>'
       +typBtn(0)+allTyp.map(typBtn).join("")+'</div>'
-      +'<div class="kf-row"><span class="kf-label">Tatmuster</span>'
+      +'<div class="kf-row"><span class="kf-label">Pattern</span>'
       +tagBtn("ALL")+allTags.map(tagBtn).join("")+'</div>'
-      +'<div class="kf-count"><span id="kf-count-num">'+KRIMINAL_PORTRAITS.length+'</span> von '+KRIMINAL_PORTRAITS.length+' Portr\xe4ts</div>'
-      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="kfRandom()">&#127922; Zuf\xe4lliges Portr\xe4t</button></div>'
+      +'<div class="kf-count"><span id="kf-count-num">'+KRIMINAL_PORTRAITS.length+'</span> of '+KRIMINAL_PORTRAITS.length+' Portraits</div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="kfRandom()">&#127922; Random Portrait</button></div>'
       +'</div>';
   }
 
@@ -19158,7 +19158,7 @@ function kriminalpsychologiePage() {
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
       +(p.tags||[]).map(function(t){return'<span class="kf-tag kf-tag--'+t.toLowerCase()+'">'+t+'</span>';}).join("")
       +'</div>'
-      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
+      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">View Portrait &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
       +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
@@ -19169,7 +19169,7 @@ function kriminalpsychologiePage() {
   // Register box (hidden when filter is active)
   const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p+n));
   const registerBox = '<div id="kf-register" style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">'
-    +'<p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Schnellnavigation nach Subtype</p>'
+    +'<p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Quick Navigation by Subtype</p>'
     +'<div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">'
     +allCodes.map(function(code){
       const n = parseInt(code.slice(-1));
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v636';
+  const MY_VERSION = 'inhalt-v637';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
