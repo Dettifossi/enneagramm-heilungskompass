@@ -4,6 +4,12 @@
 var CHANGELOG = [
   {
     date: "2026-07-22",
+    text: "Neues Portr\xe4t: Golda Meir (SE8w9) – Premierministerin Israels, Unterzeichnerin der Unabh\xe4ngigkeitserkl\xe4rung, K\xfcchen-Kabinett, Jom-Kippur-Krieg. Der Orang-Utan, der langsam klettert und am Ende h\xf6her sitzt als alle anderen.",
+    text_en: "New portrait: Golda Meir (SE8w9) – Prime Minister of Israel, signatory of the Declaration of Independence, kitchen cabinet, Yom Kippur War. The orang-utan who climbs slowly and ends up higher than everyone else.",
+    route: "beruehmte-golda-meir"
+  },
+  {
+    date: "2026-07-22",
     text: "Neues Portr\xe4t: Caroline Peters (SX7w6) – Schauspielerin, Mord mit Aussicht, Burgtheater Wien. Der Schimpanse mit Sechserfl\xfcgel: Rausch der Verwandlung, Loyalit\xe4t als Anker.",
     text_en: "New portrait: Caroline Peters (SX7w6) – actress, Mord mit Aussicht, Burgtheater Vienna. The chimpanzee with Six wing: intoxication of transformation, loyalty as anchor.",
     route: "beruehmte-caroline-peters"

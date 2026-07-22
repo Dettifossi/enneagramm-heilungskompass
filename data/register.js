@@ -460,6 +460,7 @@ export const registerEntries = [
   { term: "Thomas Gottschalk",             route: "beruehmte-thomas-gottschalk",           description: "Portrait: SO7w6 · Sozialer Typ 7 · TV-Entertainer, Wetten dass, Leichtigkeit" },
   { term: "Til Schweiger",                 route: "beruehmte-til-schweiger",               description: "Portrait: SX8w7 · Sexueller Typ 8 · Schauspieler, Regisseur, Direktheit" },
   { term: "Tim Bendzko",                   route: "beruehmte-tim-bendzko",                 description: "Portrait: SE4w3 · Selbsterhaltender Typ 4 · Sänger, Melancholie & Aufbruch" },
+    { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Premierministerin Israels, Staatsfrau, Orang-Utan" },
   { term: "Toni Morrison",                 route: "beruehmte-toni-morrison",               description: "Portrait: SO9w8 · Sozialer Typ 9 · Nobelpreis-Literatur, Gedächtnis & Gemeinschaft" },
   { term: "Uli Hoeneß",                 route: "beruehmte-uli-hoeness",                 description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Bayern-München-Macher" },
   { term: "Umberto Eco",                   route: "beruehmte-umberto-eco",                 description: "Portrait: SO5w4 · Sozialer Typ 5 · Schriftsteller, Semiotiker, Der Name der Rose" },

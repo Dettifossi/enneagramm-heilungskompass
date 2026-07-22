@@ -510,6 +510,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Toni Morrison – Selbsterhaltende Typ 8",
     teaser:"SE8w9 · 1931–2019. Schriftstellerin, Literaturnobelpreisträgerin 1993. Beloved, Sula, The Bluest Eye. Die Orang-Utan-Frau, die das Schweigen der Geschichte gebrochen hat – geerdet, unerschütterlich, von bleibender Wucht. Tierentsprechung: Orang-Utan.",
     tags:["Literatur"] , gender:"f"},
+  { route:"beruehmte-golda-meir", name:"Golda Meir", subtyp:"SE8w9",
+    heading:"Golda Meir – Selbsterhaltender Typ 8",
+    teaser:"SE8w9 · 1898–1978. Politikerin, Staatsfrau, vierte Premierministerin Israels (1969–1974). Eine der Unterzeichnerinnen der israelischen Unabhängigkeitserklärung. Der Orang-Utan, der langsam klettert und am Ende höher sitzt als alle, die lauter waren.",
+    tags:["Politik"], gender:"f"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964. Anwältin, Autorin, ehemalige First Lady der USA (2009–2017). Bestseller-Autorin (Becoming). Der Löwe, der für sein Rudel kämpft – und der weiß, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: Löwe.",
@@ -10087,6 +10091,70 @@ function umbertEcoPortraitPage() {
     </div>
   `);
 }
+
+function goldaMeirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Golda Meir</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Politikerin &amp; Staatsfrau, 1898&ndash;1978 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild trifft Golda Meir genauer. Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Zustimmung, keine Bühne. Er lebt nach seinen eigenen Gesetzen, mit einer stillen Macht, die sich nicht beweisen muss. Sein Blick ist geduldig und wach zugleich &ndash; der Blick eines Wesens, das keine Energie verschwendet und nie vergisst, was es gesehen hat.</p>
+          <p class="vb-intro">Golda Meir, 1898 in Kiew geboren, emigrierte als Kind mit ihrer Familie in die USA, zog als junge Frau nach Britisch-Palästina und wurde vier Jahrzehnte sp\xe4ter die vierte Premierministerin des Staates Israel. Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens &ndash; und eines Willens, der nicht zu brechen war. Der Orang-Utan, der langsam durch den Wald geht und am Ende höher sitzt als alle anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht auf \xdcberleben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> dr\xfcckt die Leidenschaft der Acht &ndash; die <em>Wollust</em> &ndash; durch Selbstbehauptung, Ressourcensicherung und das unbedingte Recht auf das eigene Leben aus. Naranjo nannte diesen Subtyp <em>Satisfacci\xf3n</em>: Befriedigung als Lebensprinzip. Die SE8 will haben, was sie braucht &ndash; Sicherheit, Raum, Unabh\xe4ngigkeit. Nicht aus Gier, sondern aus dem tiefen Wissen, dass nur wer selbst steht, f\xfcr andere stehen kann.</p>
+          <p class="vb-intro">Meirs Kindheit war geprägt von Armut und Pogromangst im zaristischen Russland. Die Familie floh nach Amerika; sie wuchs in Milwaukee auf, arbeitete früh, sicherte ihre Existenz Schritt f\xfcr Schritt. Ihre Entscheidung, 1921 nach Britisch-Pal\xe4stina zu emigrieren und im Kibbuz zu leben, war keine romantische: Es war die Entscheidung einer SE8, die begriffen hatte, dass dauerhaftes \xdcberleben nur auf eigenem Boden m\xf6glich ist. Nicht irgendwann. Jetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Geduld als Staatskunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> verleiht der selbsterhaltenden Acht etwas, das der reinen Acht oft schwer f\xe4llt: Geduld und die F\xe4higkeit, viele Perspektiven gleichzeitig zu halten. Die SE8w7 ist impulsiv, risikofreudig, direkt &ndash; sie will sofort. Die SE8w9 kann warten. Sie baut. Sie sieht das gro\xdfe Bild, auch wenn die Lage unklar ist.</p>
+          <p class="vb-intro">Meir war zehn Jahre lang Au\xdfenministerin Israels (1956&ndash;1966) &ndash; eine Amtszeit, die f\xfcr die Hartn\xe4ckigkeit einer SE8 spricht, aber auch f\xfcr die diplomatische Geduld des Neunerfl\xfcgels. Sie baute Beziehungen zu afrikanischen Staaten auf, als Israel auf der internationalen B\xfchne zunehmend isoliert zu werden drohte; sie verhandelte, wo andere konfrontierten; sie lie\xdf Dinge reifen, wo die reine Acht sie erzwungen h\xe4tte. David Ben-Gurion, der sie kannte wie kaum jemand sonst, nannte sie schlicht: den besten Mann im Kabinett.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Milwaukee nach Jerusalem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Golda Meir war eine der 37 Unterzeichnerinnen und Unterzeichner der israelischen Unabh\xe4ngigkeitserkl\xe4rung vom 14. Mai 1948. Als Arbeitsministerin (1949&ndash;1956) baute sie das Sozialversicherungssystem des jungen Staates mit auf. Als Au\xdfenministerin \xe4nderte sie ihren Namen von Mabovitch-Myerson in das hebr\xe4ische <em>Meir</em> &ndash; "die Erleuchtende". 1969 wurde sie im Alter von 70 Jahren Premierministerin &ndash; eine der ersten Frauen weltweit in einem solchen Amt.</p>
+          <p class="vb-intro">Ihr F\xfchrungsstil war unverwechselbar: Sie hielt ihr Kabinett informell in ihrer K\xfcche zusammen &ndash; das sogenannte <em>Küchen-Kabinett</em> &ndash; bei Tee und selbstgekochtem Essen. Keine Inszenierung, keine Protokolldistanz. Die SE8 braucht keine B\xfchne. Sie braucht Ergebnisse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der Jom-Kippur-Krieg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 ist ihre <strong>unerschütterliche Präsenz</strong>. Meir war keine charismatische Rednerin im klassischen Sinne &ndash; aber wer ihr gegen\xfcbersa\xdf, sp\xfcrte sofort: Diese Frau l\xe4sst sich nicht einsch\xfcchtern. Ihre Direktheit war keine Maske; ihr Humor war trocken und selbstironisch; ihre Loyalit\xe4t gegen\xfcber ihrem Volk war bedingungslos. Die SE8w9 ist keine, die sich produziert. Sie ist einfach da &ndash; und das gen\xfcgt.</p>
+          <p class="vb-intro">Der Schatten: Am 6. Oktober 1973, dem h\xf6chsten j\xfcdischen Feiertag Jom Kippur, \xfcberfielen \xe4gyptische und syrische Truppen Israel in einem koordinierten Angriff. Meir hatte Warnzeichen gesehen und zu sp\xe4t gehandelt; der \xdcberraschungseffekt kostete Israel schwere Verluste. Sie \xfcbernahm die politische Verantwortung und trat im April 1974 zur\xfcck. Die SE8 nimmt keine Entschuldigungen. Sie nimmt Konsequenzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der nicht zu bewegen war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Golda Meir war eine der m\xe4chtigsten Frauen des 20. Jahrhunderts &ndash; und sie w\xe4re die Letzte gewesen, die diesen Satz \xfcber sich selbst gesagt h\xe4tte. Das ist die SE8w9: Macht ohne Pathos, St\xe4rke ohne Selbstdarstellung. Sie kam aus dem tiefsten Nichts &ndash; Armut, Emigration, Exil &ndash; und stand am Ende an der Spitze eines Staates, den sie mitgegr\xfcndet hatte. Der Orang-Utan, der langsam klettert, nie fällt und am Ende höher sitzt als alle, die lauter waren.</p>
+          ${bookTip("enneagramm-typen", "Selbsterhaltender Typ 8 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SE8 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des selbsterhaltenden Achtertyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SE8", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den selbsterhaltenden Typ 8.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+          {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE1w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function toniMorrisonPortraitPage() {
   return shell(`
@@ -40295,7 +40363,8 @@ function render() {
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
-      "beruehmte-toni-morrison": toniMorrisonPortraitPage,
+          "beruehmte-golda-meir": goldaMeirPortraitPage,
+    "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
@@ -40761,7 +40830,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v709';
+  const MY_VERSION = 'inhalt-v710';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
