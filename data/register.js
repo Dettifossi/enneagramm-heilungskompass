@@ -479,6 +479,7 @@ export const registerEntries = [
   { term: "Vera Birkenbihl",               route: "beruehmte-vera-birkenbihl",             description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Trainerin, Gehirnforscherin" },
   { term: "Warren Buffett",                route: "beruehmte-warren-buffett",              description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Investmentlegende, Geduld & Weitsicht" },
   { term: "Will Smith",                    route: "beruehmte-will-smith",                  description: "Portrait: SO2w3 · Sozialer Typ 2 · Schauspieler, Produzent" },
+    { term: "Ronald Reagan", route: "beruehmte-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · 40. US-Präsident, Großer Kommunikator, Morning in America, Büffel" },
   { term: "Willy Brandt",                  route: "beruehmte-willy-brandt",                description: "Portrait: SO4w5 · Sozialer Typ 4 · Kanzler, Kniefall in Warschau, Versöhnung" },
   { term: "Wolodymyr Selenskyj",           route: "beruehmte-wolodymyr-selenskyj",         description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Präsident der Ukraine, Kriegsleader" },
 

@@ -574,6 +574,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
     tags:["Sport"], gender:"f" },
+  { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
+    heading:"Ronald Reagan – Sozialer Typ 9",
+    teaser:"SO9w8 · 1911–2004. 40. Präsident der USA 1981–1989. Der Große Kommunikator: Morning in America, Evil Empire, Gorbatschow. Der Büffel, der lächelt – und dem die Herde folgt.",
+    tags:["Politik"], gender:"m"},
   { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt – Sozialer Typ 9",
     teaser:"SO9w8 · 1913–1992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau – ein Schweigen, das Geschichte schrieb. Tierentsprechung: Büffel.",
@@ -11171,6 +11175,71 @@ function keanuReevesPortraitPage() {
     </div>
   `);
 }
+
+function ronaldReaganPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ronald-reagan-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ronald Reagan</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">40. US-Pr\xe4sident 1981&ndash;1989, 1911&ndash;2004 &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Ronald Reagan genauer. Der B\xfcffel f\xfchrt nicht durch Befehl, sondern durch Bewegung: Wenn er l\xe4uft, l\xe4uft die Herde mit. Er strahlt eine Ruhe aus, die Vertrauen erzeugt. Er ist bodennah, massiv, unerschrocken &ndash; und er braucht keinen Applaus, um zu wissen, wohin er geht.</p>
+          <p class="vb-intro">Reagan, 1911 in Tampico, Illinois geboren, 2004 gestorben, war Schauspieler, Gewerkschaftspr\xe4sident, Gouverneur und schlie\xdflich der 40. Pr\xe4sident der Vereinigten Staaten &ndash; f\xfcr zwei Amtszeiten, von 1981 bis 1989. Er war der \xe4lteste Pr\xe4sident in der Geschichte der USA, als er sein Amt antrat. Er gewann mit einer Leichtigkeit, die seine Gegner r\xe4tseln lie\xdf: keine Anspannung, keine Sch\xe4rfe, kein sichtbarer Ehrgeiz. Nur ein L\xe4cheln, ein paar einfache S\xe4tze &ndash; und das Land folgte ihm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Amerika als Gef\xfchl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Kontratyp der Neun &ndash; der Subtyp, der gegen die eigene Tr\xe4gheit anarbeitet, indem er sich in Gemeinschaft, Zugeh\xf6rigkeit und Partizipation st\xfcrzt. Die SO9 will nicht f\xfcr sich existieren. Sie will Teil von etwas Gr\xf6\xdferem sein &ndash; und anderen das Gef\xfchl geben, ebenfalls dazuzugeh\xf6ren.</p>
+          <p class="vb-intro">Reagan verstand Amerika nicht als politisches System, sondern als Gef\xfchl. Seine ber\xfchmteste Wahlkampfbotschaft &ndash; &ldquo;Morning in America&rdquo; (1984) &ndash; war kein Programm. Es war eine Einladung: Du geh\xf6rst dazu. Dieses Land ist deins. Die SO9 erzeugt Loyalit\xe4t nicht durch \xdcberzeugungsarbeit, sondern durch Zugeh\xf6rigkeit. Reagan war der gro\xdfe Einschlie\xdfer &ndash; ein Mann, der riesige Koalitionen zusammenhielt, indem er jeden das Gef\xfchl gab, gemeint zu sein. Der Teflon-Pr\xe4sident: nichts blieb an ihm haften, weil die Menschen ihn nicht als Person, sondern als Spiegel erlebten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Die Stimme, die den Raum f\xfcllt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sozialen Neun eine Qualit\xe4t, die der reinen SO9 fehlt: Direktheit, Territorialit\xe4t und eine Bereitschaft zur klaren Konfrontation, wenn es darauf ankommt. Die <strong>SO9w8</strong> hat die Warmherzigkeit der Neun und den Mut der Acht &ndash; eine Kombination, die in der Politik t\xf6dlich wirksam ist.</p>
+          <p class="vb-intro">Reagans ber\xfchmteste S\xe4tze sind keine Kompromisse. &ldquo;Mr. Gorbatschow, rei\xdfen Sie diese Mauer nieder!&rdquo; &ndash; Berlin, 1987. &ldquo;Die Sowjetunion ist ein b\xf6ses Imperium.&rdquo; &ndash; 1983. Der Achterfl\xfcgel erm\xf6glichte ihm, in entscheidenden Momenten ohne Z\xf6gern zu sprechen &ndash; direkt, ohne diplomatische Abpolsterung, mit einer Klarheit, die seine Ber\xe4ter manchmal erschreckte. Die Neun wartete. Die Acht schlug im richtigen Moment zu. Das war Reagans politische Grammatik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Gro\xdfe Kommunikator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ronald Reagan war nicht der tiefste Denker unter den US-Pr\xe4sidenten. Er las selten Akten vollst\xe4ndig, delegierte gro\xdfz\xfcgig und hielt gerne ein Mittagsschl\xe4fchen. Das war keine F\xe4ulnis &ndash; es war SO9. Die soziale Neun \xfcbergibt Verantwortung, weil sie Vertrauen in das System setzt und sich selbst aus dem Weg h\xe4lt. Was Reagan stattdessen mitbrachte, war seltener und wirksamer: die F\xe4higkeit, einer Nation das Gef\xfchl zu geben, an etwas zu glauben.</p>
+          <p class="vb-intro">Seine Leistungen als Pr\xe4sident sind umstritten, aber nicht wegzudiskutieren. Die Wirtschaft wuchs nach der Rezession 1981/82 stark. Der Kalte Krieg endete &ndash; nicht durch Krieg, sondern durch eine Kombination aus R\xfcstungsdruck und, sp\xe4ter, \xfcberraschendem Verhandlungsgeschick mit Michail Gorbatschow. Reagan, der jahrelang die Sowjetunion als B\xf6ses Imperium bezeichnet hatte, empfing Gorbatschow in Reykjavik und in Washington &ndash; und wurde damit zum Architekten einer diplomatischen Wende, die niemand vorhergesagt hatte. Der B\xfcffel, der sich in Bewegung setzt, kommt weiter als man denkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Was die Neun nicht sieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 ist ihr <strong>gro\xdfes Integrationstalent</strong>: Reagan brachte Menschen zusammen, die nichts miteinander gemein hatten. Er hob die Stimmung einer Nation, die nach Vietnam, Watergate und der Iran-Geiselkrise erschöpft und misstrauisch war. Das ist keine Kleinigkeit. Das ist eine der seltenen politischen Gaben.</p>
+          <p class="vb-intro">Der Schatten: Die Neun sieht nicht, was sie nicht sehen will. Die AIDS-Krise bricht in den fr\xfchen 1980er-Jahren \xfcber die USA herein &ndash; Reagan spricht das Wort &ldquo;AIDS&rdquo; \xf6ffentlich erst 1987 aus, sechs Jahre nach Beginn der Epidemie, als bereits \xfcber 40.000 Amerikaner gestorben sind. Die Iran-Contra-Aff\xe4re &ndash; illegale Waffengesch\xe4fte mit dem Iran zur Finanzierung nicaraguanischer Contra-Rebellen &ndash; lief in seinem Regierungsapparat, und Reagan bestand darauf, davon nichts gewusst zu haben. Ob das stimmt oder nicht: Es beschreibt die SO9 pr\xe4zise. Die Neun delegiert &ndash; und schaut manchmal weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel, der l\xe4chelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ronald Reagan ist 2004 an den Folgen der Alzheimer-Krankheit gestorben &ndash; einer Krankheit, die das Ged\xe4chtnis ausl\xf6scht, das Selbst aufl\xf6st und den Menschen aus seiner eigenen Geschichte entl\xe4sst. 1994 schrieb er einen ber\xfchrenden Brief an die amerikanische \xd6ffentlichkeit, in dem er seinen Zustand offenbarte. Der B\xfcffel, der eine ganze Nation zusammenhielt, verlor am Ende die Verbindung zu sich selbst.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild: ein Mann, der l\xe4chelte, wenn andere schrien. Der einfache S\xe4tze sprach, wenn andere Abhandlungen schrieben. Der Amerika nicht erkl\xe4rte, sondern sp\xfcren lie\xdf. Die SO9w8 in ihrer besten Form ist keine Ideologie &ndash; sie ist eine Haltung. Und manchmal reicht eine Haltung, um Geschichte zu machen.</p>
+          ${bookTip("enneagramm-typen", "Sozialer Typ 9 im Vergleich", "Detlef Rathmer: Welcher Enneagramm-Subtyp bin ich? – Die 27 Subtypen im \xdcberblick.")}
+          ${bookTip("burnout", "SO9 und Burnout", "Detlef Rathmer: Burnout und Enneagramm – das spezifische Ersch\xf6pfungsprofil des sozialen Neuntyps.")}
+          ${bookTip("homoeopathie", "Hom\xf6opathie f\xfcr den SO9", "Detlef Rathmer: Hom\xf6opathie und Enneagramm – Mittelzuordnungen f\xfcr den sozialen Typ 9.")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function willyBrandtPortraitPage() {
   return shell(`
@@ -40931,7 +41000,8 @@ function render() {
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
-      "beruehmte-willy-brandt": willyBrandtPortraitPage,
+          "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
+    "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
@@ -41391,7 +41461,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v720';
+  const MY_VERSION = 'inhalt-v721';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
