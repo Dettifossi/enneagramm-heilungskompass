@@ -14059,56 +14059,56 @@ function marieAgnesStrackZimmermannPortraitPage() {
         </div>
         <p class="krim-portrait-name">Marie-Agnes Strack-Zimmermann</p>
         <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing</p>
-        <p class="krim-portrait-subtitle">Politician (FDP), born 1958 &mdash; Bundeswehr, Ukraine, Europe &mdash; Animal correspondence: Black Mamba</p>
+        <p class="krim-portrait-subtitle">Politician (FDP), b. 1958 – Bundeswehr, Ukraine, Europe – Animal equivalent: Black Mamba</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the Sexual One &mdash; lightning fast, precise and completely uncompromising. It does not attack out of aggression, but out of an inner law: what is wrong is named. Anything that is inauthentic will be rejected. What is true is defended &mdash; with everything that is available.</p>
-          <p class="vb-intro">Marie-Agnes Strack-Zimmermann, born in Düsseldorf in 1958, is one of the most direct politicians the German Bundestag has seen in recent decades. As chairwoman of the Defense Committee, she became the strongest public warning for adequate equipment for the Bundeswehr and for clear support for Ukraine - at a time when many of my fellow politicians still focused on balance. The Mamba doesn't wait until everyone agrees.</p>
+          <p class="vb-intro">The Black Mamba is the animal of the sexual One—lightning-fast, precise, and completely uncompromising. It does not attack out of aggression, but out of an inner law: what is wrong is called out. What is disingenuous is rejected. What is right is defended with everything available.</p>
+          <p class="vb-intro">Marie-Agnes Strack-Zimmermann, born in 1958 in Düsseldorf, is one of the most direct politicians the German Bundestag has experienced in recent decades. As chair of the Defense Committee, she became the sharpest public warner advocating for adequate equipment for the Bundeswehr and clear support for Ukraine at a time when many political colleagues were still banking on balance. The mamba does not wait until everyone agrees.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual One: fervor as a drive</h2>
+        <h2 class="vb-section">2. The Sexual One: Fervor as a Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual One (SX1)</strong> her claim to perfection does not focus on her own environment or society as a whole, but rather on intensity: on complete presence, complete honesty, complete consistency in what she recognizes as right. Naranjo called this subtype <em>Zeal</em> - Fervor: a burning desire to separate the real from the false.</p>
-          <p class="vb-intro">Strack-Zimmermann has lived out this pattern in the political arena like hardly anyone else. Her appearances in the Bundestag and on talk shows are known for her direct, uncompromising tone - She doesn't beat around the bush, she names things. She is not afraid of unpopularity. If she's convinced something is wrong, she'll say it &mdash; loud, clear, repeatable. The SX1 doesn't tolerate half-answers to real questions.</p>
-          <p class="vb-intro">From the start, their commitment to supporting Ukraine was not tactical, but moral: a country is under attack, a democracy is in danger, and anyone who sees this must act. This is not foreign policy. This is the inner law of Sexual Oneness.</p>
+          <p class="vb-intro">The sexual One (SX1) does not direct its demand for perfection toward its own environment or society as a whole, but toward intensity: toward complete presence, complete honesty, complete consequence in what it recognizes as right. Naranjo called this subtype Zeal: a burning desire to separate the genuine from the false.</p>
+          <p class="vb-intro">Strack-Zimmermann has lived out this pattern in the political arena like almost no one else. Her appearances in the Bundestag and on talk shows are known for her direct, uncompromising tone—she does not beat around the bush, she names things. She has no fear of unpopularity. When she is convinced that something is going wrong, she says it loudly, clearly, repeatedly. The SX1 cannot stomach half-answers to real questions.</p>
+          <p class="vb-intro">Her commitment to supporting Ukraine was not tactical from the start, but moral: a country is attacked, a democracy is in danger, and anyone who sees that must act. That is not foreign policy. That is the inner law of the sexual One.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Wing of Nine: Persistence as a Second Power</h2>
+        <h2 class="vb-section">3. The Nine Wing: Persistence as a Second Force</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wing of nine (w9)</strong> gives the Sexual One a quality that is surprising at first glance: endurance. The nine is patient. She perseveres. Not because she is indifferent, but because she knows that some things take time &mdash; and that continuity often has more effect than drama.</p>
-          <p class="vb-intro">This wing explains why Strack-Zimmermann, despite all her willingness to confront, did not destabilize her party and coalitions. She fights &mdash; but she manages the fight strategically. The nine wing brings a certain grounding to the intensity of the Sexual One: not softer, but more consistent. The Mamba, who is not only lightning fast, but also waits patiently until the moment is right.</p>
-          <p class="vb-intro">This combination &mdash; SX1 fire with w9 persistence &ndash; makes her a political fighter who doesn't exhaust herself. It burns, but it burns evenly.</p>
+          <p class="vb-intro">The Nine wing (w9) lends the sexual One a quality that comes as a surprise at first glance: endurance. The Nine is patient. It holds out. Not because it is indifferent, but because it knows that some things take time and that continuity often accomplishes more than drama.</p>
+          <p class="vb-intro">This wing explains why Strack-Zimmermann, despite all her willingness for confrontation, did not destabilize her party and coalitions. She fights—but she manages the fight strategically. The Nine wing brings a certain grounding to the intensity of the sexual One: not softer, but more steadfast. The mamba that is not only lightning-fast, but also waits patiently until the moment is right.</p>
+          <p class="vb-intro">This combination—SX1 fire with w9 persistence—makes her a political fighter who does not exhaust herself. She burns, but she burns steadily.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: anger as a political instrument</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as a Political Instrument</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and with the SX1w9 it is sharp and controlled at the same time. Strack-Zimmermann is not afraid to raise his voice and raise his finger in public debates. If she has the impression in the Bundestag that untruths are being told or responsibility is being denied, then the mamba comes.</p>
-          <p class="vb-intro">This anger is not personal. It is principles based. It is directed against the wrong, not against the person &mdash; even if the two are not always easy to distinguish from the outside. The wing of nine ensures that anger does not escalate uncontrollably, but rather is placed in the right places. Precision instead of explosion.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and in the SX1w9 it is at once sharp and controlled. Strack-Zimmermann has no shyness about raising her voice or pointing her finger in public debates. When she gets the impression in the Bundestag that untruths are being told or responsibility is being refused, then comes the mamba.</p>
+          <p class="vb-intro">This wrath is not personal. It is principle-based. It is directed against what is wrong, not against the person—even if the two are not always easy to distinguish from the outside. The Nine wing ensures that the wrath does not escalate uncontrollably, but is placed in the right spots. Precision instead of explosion.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Europe as a larger framework</h2>
+        <h2 class="vb-section">5. Europe as a Larger Framework</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2024, Strack-Zimmermann moved to the European Parliament and took over the chairmanship of the Defense Committee &mdash; this time at European level. This is not a career move, this is a consequence: the Sexual One who has recognized that the challenge is bigger than a national arena.</p>
-          <p class="vb-intro">The wing of nine shows its constructive side here: the ability to think beyond borders, to maintain alliances, to maintain continuity. The Mamba on the European stage &mdash; the speed is the same, the radius of action is larger.</p>
+          <p class="vb-intro">In 2024, Strack-Zimmermann moved to the European Parliament and took over the chair of the Subcommittee on Security and Defence—this time on a European level. That is no career step; that is a consequence: the sexual One that recognized that the challenge is larger than a national arena.</p>
+          <p class="vb-intro">The Nine wing shows itself here in its constructive side: the ability to think beyond borders, hold alliances, maintain continuity. The mamba on the European stage—the speed is the same, the radius of action larger.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Clarity as Protection</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Marie-Agnes Strack-Zimmermann gives the political debate has become rare: clarity. Not simplification &mdash; Clarity. The willingness to say what is, even if it is uncomfortable. The SX1w9 doesn't tolerate blurring when it comes to the essentials.</p>
-          <p class="vb-intro">This is the gift of the Black Mamba with Nine-Wing: She brings fire <em>and</em> Resistance. She fights &mdash; and she perseveres. At a time when political positions are changing rapidly, this is no small offer.</p>
+          <p class="vb-intro">What Marie-Agnes Strack-Zimmermann gives to political debate has become rare: clarity. Not simplification—clarity. The readiness to say what is, even when it is uncomfortable. The SX1w9 tolerates no vagueness when it comes to the essential.</p>
+          <p class="vb-intro">That is the gift of the Black Mamba with a Nine wing: it brings fire and steadfastness. It fights, and it holds out. In a time when political positions turn rapidly, that is no small offering.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
@@ -14126,56 +14126,56 @@ function marieKondoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Marie Kondo</p>
         <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-Wing</p>
-        <p class="krim-portrait-subtitle">Order consultant, author &amp; Entrepreneur &mdash; born 1984 &mdash; Animal correspondence: Eagle</p>
+        <p class="krim-portrait-subtitle">Organizing consultant, author & entrepreneur – b. 1984 – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation one &mdash; and Marie Kondo embodies it with a purity that is rare. The eagle has a keen eye for what is important. He sees what is right and what is wrong with a precision that requires no argument. He circles, he observes, he differentiates. And when he lands, he lands exactly.</p>
-          <p class="vb-intro">Marie Kondo was born in Tokyo in 1984 and began reading interior design magazines at the age of five. When she was nine, she organized her class's bookshelves. At the age of fifteen she developed the first basic principles of her later method. This isn't a career that was planned &mdash; this is an eagle that follows its inner compass before it has encountered any external pressure of expectation.</p>
+          <p class="vb-intro">The eagle is the animal of the self-preservation One, and Marie Kondo embodies it with a purity that is rare. The eagle has a sharp eye for the essential. It sees what is right and what is not right with a precision that needs no argument. It circles, it observes, it discerns. And when it lands, it lands exactly.</p>
+          <p class="vb-intro">Marie Kondo was born in Tokyo in 1984 and began reading home interior magazines at age five. At nine, she organized the bookshelves in her classroom. At fifteen, she developed the first basic outlines of her later method. That is no career that was planned—that is an eagle following its inner compass before encountering any external pressure of expectations.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preserving one: order as an inner need</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: Order as an Inner Need</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation one (SE1)</strong> is the subtype that does not carry its claim to perfection externally, but internally - and above all: home. Naranjo calls this subtype <em>Worry</em>: a constant, quiet restlessness about whether one's own environment is really right, whether one's own life corresponds to one's inner standards. This unrest is not a defect. It is the engine of a lifelong refinement.</p>
-          <p class="vb-intro">Marie Kondo's KonMari method is not an organizational aid like you see in life hacking books. It is an internal system. The crucial question is not: &ldquo;Do I need this?&rdquo; or &ldquo;Is this practical?&rdquo; - but: <em>&ldquo;Does it spark joy?&rdquo;</em> That is the benchmark of an SE1: not usefulness, not reason, but inner resonance. Whatever meets your own standards can stay. If it's not right, it's okay.</p>
-          <p class="vb-intro">The categories, the order, the folding technique: everything is precise, everything has a reason, everything has been tried and tested. No improvisation. Not a &ldquo;something like that&rdquo;. The SE1 lives in a universe where things are either in their proper place &mdash; or not.</p>
+          <p class="vb-intro">The self-preservation One (SE1) is the subtype that does not carry its demand for perfection outward, but inward and, above all: home. Naranjo calls this subtype Worry: a constant, quiet restlessness about whether one's own environment is truly right, whether one's own life corresponds to the inner standard. This restlessness is not a deficiency. It is the engine of a lifelong refinement.</p>
+          <p class="vb-intro">Marie Kondo's KonMari Method is no organization aid like those known from lifehacking books. It is an internal system. The decisive question is not: "Do I need this?" or "Is this practical?" but: "Does it spark joy?" That is the benchmark of an SE1: not utility, not reason, but inner resonance. What corresponds to one's own standard may stay. What is not right goes.</p>
+          <p class="vb-intro">The categories, the sequence, the folding technique: everything is precise, everything has its reason, everything is tested. No improvisation. No "roughly like this." The SE1 lives in a universe in which things are either in their right place or not.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Two Wing: Helping as a Vocation</h2>
+        <h2 class="vb-section">3. The Two Wing: Helping as a Calling</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the self-preserving One something that it doesn't easily find from within alone: ​​warmth, contact, the need to touch others. The two wing wants to give. He wants others to flourish &mdash; not because he expects anything in return, but because he genuinely cares about the well-being of others.</p>
-          <p class="vb-intro">Without this wing, Marie Kondo might have remained an exceptionally orderly private person. The two-fold wing is the reason why the internal standard became a method, the method became a book, and the book became a global phenomenon. Not only did she clean up her own home &mdash; she decided to help others do the same. Not because it was her job, but because she understood that tidying up on the outside makes tidying up on the inside possible.</p>
-          <p class="vb-intro">In her Netflix series <em>Tidying Up with Marie Kondo</em> you can see this wing in its purest form: she enters strange houses with complete attention, with genuine curiosity about the people behind things. She doesn't judge. She accompanies. This is the two in the one: precision in the service of connection.</p>
+          <p class="vb-intro">The Two wing (w2) lends the self-preservation One something that it does not find so easily on its own from within: warmth, contact, the need to touch others. The Two wing wants to give. It wants others to bloom—not because it expects something in return, but because the well-being of others is genuinely close to its heart.</p>
+          <p class="vb-intro">Without this wing, Marie Kondo might have remained an extraordinarily tidy private individual. The Two wing is the reason why an inner standard became a method, the method a book, and the book a global phenomenon. She did not just tidy her own home—she decided to help others do the same. Not because it was her job, but because she understood that clearing the outside enables clearing the inside.</p>
+          <p class="vb-intro">In her Netflix series Tidying Up with Marie Kondo, one sees this wing in pure form: she enters strangers' houses with complete attentiveness, with genuine curiosity for the people behind the things. She does not judge. She accompanies. That is the Two in the One: precision in the service of connection.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Passion: Anger as inner severity</h2>
+        <h2 class="vb-section">4. The Passion: Wrath as Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of one is called <strong>Anger</strong> - and in the SE1w2 it is turned so completely inwards that it is hardly visible from the outside. Marie Kondo always appears calm, always friendly, always measured in public. But behind that silence lies an inner judge that is relentless: a quiet, constant knowing of what is right and what is wrong.</p>
-          <p class="vb-intro">This anger does not manifest itself as criticism of others. It shows itself as an absolute consequence in your own system. The KonMari method has no exceptions. There is no "but this is an inheritance" rule. There is no “maybe later” category. Either an object triggers joy &mdash; or he leaves the house. This lack of compromise is the anger of the One: not loud, but complete.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and in the SE1w2 it is turned so completely inward that it is hardly visible on the outside. Marie Kondo always appears calm, always friendly, always measured in public. But behind this stillness lies an inner judge who is relentless: a quiet, constant knowledge of what is right and what is not right.</p>
+          <p class="vb-intro">This wrath does not show itself as criticism of others. It shows itself as absolute consistency in her own system. The KonMari Method has no exceptions. There is no "but this is an inheritance" rule. There is no "maybe later" category. Either an item sparks joy, or it leaves the house. This uncompromisingness is the wrath of the One: not loud, but complete.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Gratitude as a bridge</h2>
+        <h2 class="vb-section">5. Gratitude as a Bridge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">One of the most well-known elements of the KonMari method is the <strong>Gratitude towards objects</strong>: You say thank you for a piece of clothing before you give it away. The house is greeted upon arrival. This practice often seems strange to Western observers &mdash; but she is the key to Marie Kondo's inner logic.</p>
-          <p class="vb-intro">Here the SE1's claim to perfection meets the relationship quality of the two-part wing. The SE1 knows: Everything has its value, its place, its purpose. The two wing adds: And this value deserves recognition. Things that have gone have served. Letting go becomes an act of respect &mdash; and thus into something healing, not loss-making. This combination of order and dignity is at the heart of Marie Kondo's work.</p>
+          <p class="vb-intro">One of the most famous elements of the KonMari Method is gratitude toward items: one thanks a piece of clothing before giving it away. The house is greeted upon arrival. This practice often seems strange to Western observers—but it is the key to Marie Kondo's inner logic.</p>
+          <p class="vb-intro">Here, the SE1 demand for perfection meets the relational quality of the Two wing. The SE1 knows: everything has its value, its place, its purpose. The Two wing adds: and this value deserves acknowledgment. Things that have departed have served. Letting go becomes an act of respect and thus something healing, not loss-filled. This connection of order and dignity is the core of Marie Kondo's work.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Joy as a Compass</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Marie Kondo gave the world goes far beyond tidying tips. She taught a whole generation of people that order is not an end in itself &mdash; but a form of self-respect. And that the crucial question in life is not: <em>What should I keep?</em> &ndash; sondern: <em>What triggers joy?</em></p>
-          <p class="vb-intro">This is the gift of SE1w2: an inner system so clear that others can learn it &mdash; and a warmth great enough that she wants to pass it on. The eagle has a scale. The two-piece wing turns it into an invitation. Marie Kondo has both.</p>
+          <p class="vb-intro">What Marie Kondo has given the world goes far beyond tidying tips. She taught an entire generation of people that order is not an end in itself—it is a form of self-respect. And that the decisive question in life is not: "What should I keep?" but: "What sparks joy?"</p>
+          <p class="vb-intro">That is the gift of the SE1w2: an inner system that is so clear that others can learn it, and a warmth that is large enough that it wants to pass it on. The eagle has a benchmark. The Two wing turns it into an invitation. Marie Kondo has both.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
       ])}
     </div>
@@ -14193,57 +14193,57 @@ function megRyanPortraitPage() {
         </div>
         <p class="krim-portrait-name">Meg Ryan</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-Wing</p>
-        <p class="krim-portrait-subtitle">Actress, director, born 1961 &mdash; Animal correspondence: Peacock</p>
+        <p class="krim-portrait-subtitle">Actress, director, b. 1961 – Animal equivalent: Peacock</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Peacock: Radiance that comes from within</h2>
+        <h2 class="vb-section">1. The Peacock: Radiance That Comes from Within</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &mdash; and he enchants not through power or distance, but through a charisma that cannot be learned. Meg Ryan embodied this animal so convincingly in the 1990s that she became the epitome of American film charm: warm, lively, laughing &ndash; a presence that millions of moviegoers felt like they had always known.</p>
-          <p class="vb-intro">This is the core gift of the SX3: not glamor in the sense of distance, but magnetism through proximity. Meg Ryan was never aloof. She was the girl next door &mdash; and yet irresistible. The peacock who unfolds his wheel without knowing it.</p>
-          <p class="vb-intro">The <strong>Four wing (w4)</strong> gives this radiance a second dimension: behind the uncomplicated cheerfulness of the film persona lived a woman who wanted more - more depth, more seriousness, more than the box Hollywood had put her in.</p>
+          <p class="vb-intro">The peacock is the animal of the sexual Three, and it enchants not through power or distance, but through a aura that one cannot learn. Meg Ryan embodied this animal in the 1990s so convincingly that she became the epitome of American cinematic charm: warm, lively, laughing—a presence where millions of moviegoers felt as though they had known her forever.</p>
+          <p class="vb-intro">That is the core gift of the SX3: not glamour in the sense of distance, but magnetism through proximity. Meg Ryan was never aloof. She was the girl next door and yet irresistible. The peacock unfolding its fan without knowing it.</p>
+          <p class="vb-intro">The Four wing (w4) gives this radiance a second dimension: behind the uncomplicated cheerfulness of the film persona lived a woman who wanted more—more depth, more seriousness, more than the box Hollywood had placed her in.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Three: Intimacy as a Life Theme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Three (SX3)</strong> directs the energy of the three not toward public success, but toward personal connection. The SX3 asks: <em>Am I touching you? Am I real to you?</em> Your charisma is not an illusion - it is a real desire for contact, for the moment when two people really meet.</p>
-          <p class="vb-intro">Meg Ryan's career is a testament to this energy. <em>When Harry Met Sally</em> (1989), <em>Sleepless in Seattle</em> (1993), <em>You've Got Mail</em> (1998) &mdash; these films don't work because the scripts are so clever. They work because Meg Ryan makes real hunger for connection playable. The famous scene in the cafe &mdash; the feigned ecstasy as a commentary on self-deception &mdash; is actually a commentary on the topic of her life: <em>What is real? What is imagination?</em></p>
-          <p class="vb-intro">Naranjo called the SX3 <em>Masculinity &frasl; Femininity</em> - the embodiment of attraction in its most personal form. Meg Ryan translated this into a film language that shaped an entire generation.</p>
+          <p class="vb-intro">The sexual Three (SX3) directs the energy of the Three not toward public success, but toward personal connection. The SX3 asks: "Do I touch you? Am I real to you?" Her charisma is no deception—it is a genuine desire for contact, for the moment when two people truly meet.</p>
+          <p class="vb-intro">Meg Ryan's career is a single piece of evidence for this energy. When Harry Met Sally... (1989), Sleepless in Seattle (1993), You've Got Mail (1998)—these films do not work because the screenplays are so ingenious. They work because Meg Ryan makes genuine hunger for connection actable. The famous scene in the diner—the simulated ecstasy as a commentary on self-deception—is actually a commentary on her life theme: What is real? What is performance?</p>
+          <p class="vb-intro">Naranjo called the SX3 Masculinity Femininity—the embodiment of attraction in its most personal form. Meg Ryan translated that into a cinematic language that shaped an entire generation.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Quad Wing: The Depth Behind the Laughter</h2>
+        <h2 class="vb-section">3. The Four Wing: The Depth Behind the Laughter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four wing (w4)</strong> brings something into the SX3 energy that the pure three often represses: the need for depth, for authenticity, for an expression that goes beyond the surface. The SX3w4 doesn't just want to enchant - she wants <em>bedeutsam</em> be.</p>
-          <p class="vb-intro">In the case of Meg Ryan, this is evident in the breakup of her career in the 2000s. The withdrawal from the romances, the choice of <em>Proof of Life</em> (2000) &ndash; a darker, more complex film that she consciously chose to go against her type. The four-piece insists on authenticity, even if the price is high.</p>
-          <p class="vb-intro">And then the publicly discussed changes in its appearance: They show the paradox of the SX3w4 &mdash; the three-need for image control fighting against the four-realization that the image is not the person. Two forces harnessed into the same shell.</p>
+          <p class="vb-intro">The Four wing (w4) brings into the SX3 energy something that the pure Three often suppresses: the need for depth, for authenticity, for an expression that goes beyond the surface. The SX3w4 does not just want to enchant—she wants to be meaningful.</p>
+          <p class="vb-intro">In Meg Ryan, this shows in the break in her career in the 2000s. The retreat from romantic comedies, the choice of Proof of Life (2000)—a darker, more complex film for which she consciously chose against her type. The Four wing insists on authenticity, even if the price is high.</p>
+          <p class="vb-intro">And then the publicly discussed changes in her appearance: they show the paradox of the SX3w4—the Three need for image control fighting against the Four realization that the image is not the person. Two forces harnessed inside the same shell.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The overall effect: Hollywood's darling &mdash; and the price of the roll</h2>
+        <h2 class="vb-section">4. The Overall Impact: Hollywood's Sweetheart – and the Price of the Role</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the 1990s, Meg Ryan was the face of a film genre that is now glorified nostalgically: the romantic comedy in its most warm-hearted form. Three films with director Nora Ephron created a universe that is still considered a benchmark today.</p>
-          <p class="vb-intro">What gets overlooked is that Meg Ryan wasn't what Hollywood made her out to be. She was the actress who gave realness to this role. The difference is crucial. The SX3w4 can play a role &mdash; but she cannot fully identify with it. Beneath the expectation is always the question: <em>Who am I really?</em></p>
-          <p class="vb-intro">In this light, the change in her career after the turn of the millennium is less a fall than a search - the attempt to find your own language behind the drawer.</p>
+          <p class="vb-intro">In the 1990s, Meg Ryan was the face of a film genre that is romantically glorified today: the romantic comedy in its most warmhearted form. Three films with director Nora Ephron created a universe that remains a benchmark to this day.</p>
+          <p class="vb-intro">What gets overlooked in this: Meg Ryan was not what Hollywood had made of her. She was the actress who gave something genuine to this role. The difference is decisive. The SX3w4 can play a role—but she cannot identify completely with it. Beneath the expectation lies always the question: Who am I really?</p>
+          <p class="vb-intro">The shift in her career after the turn of the millennium is, in this light, less a downfall than a search movement—the attempt to find her own voice behind the box.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: When the image becomes a prison</h2>
+        <h2 class="vb-section">5. Light and Shadow: When the Image Becomes a Prison</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The fate pattern of the three is this <strong>Deception</strong> - not as a bad intention, but as a structural danger: the ego that begins to consider its image as its essence. With the SX3w4, this danger is particularly subtle because the four wing works against it at the same time. The four keeps asking: <em>Is that real? Are you really you?</em></p>
-          <p class="vb-intro">Meg Ryan's public transition &mdash; the fading radiance of the 1990s, the retreat, the changed appearance &mdash; can be read as failure. But you can also read it as what it perhaps was: a refusal to continue playing the idea. The peacock who stops unfolding his wheel because it is no longer his.</p>
-          <p class="vb-intro">That she switched to directing in the 2010s and in 2023 with <em>What Happens Later</em> brought his own film to the cinema, gives weight to this reading.</p>
+          <p class="vb-intro">The core pattern of the Three is deception—not as evil intent, but as a structural hazard: the self that begins to mistake its image for its essence. In the SX3w4, this hazard is particularly subtle because the Four wing simultaneously works against it. The Four constantly asks: Is this real? Are you really you?</p>
+          <p class="vb-intro">Meg Ryan's public transformation—the fading radiance of the 1990s, the retreat, the altered appearance—can be read as failure. But it can also be read as what it perhaps was: a refusal to keep playing the performance. The peacock that stops unfolding its fan because it is no longer its own.</p>
+          <p class="vb-intro">That she turned to directing in the 2010s and brought her own film, What Happens Later, to theaters in 2023 gives weight to this reading.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The healing path: From the favorite role to yourself</h2>
+        <h2 class="vb-section">6. The Path to Healing: From the Favorite Role to Oneself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the three leads from the question <em>How am I seen?</em> to knowledge <em>I am &mdash; regardless of the image that others have of me.</em> This path is particularly rich for the SX3w4: The four-wing has known for a long time where it leads - into the depth, into the authenticity, into the space behind the role.</p>
-          <p class="vb-intro">Meg Ryan's path to healing seems to have been right there: away from the "America's Sweetheart" image that had both built and limited her career and toward something of her own. Directing is a typical sign of this transformation: instead of shining in front of the camera, telling someone else's story - on your own account, in your own language.</p>
-          <p class="vb-intro">The peacock who no longer unfolds his most beautiful moment for the audience, but for himself - and who discovers that he is still a peacock.</p>
+          <p class="vb-intro">The healing path of the Three leads from the question "How am I seen?" to the realization "I am independent of the image others have of me." For the SX3w4, this path is particularly rich: the Four wing has known for a long time where it leads—into depth, into authenticity, into the space behind the role.</p>
+          <p class="vb-intro">Meg Ryan's path to healing seems to have run precisely there: away from the "America's Sweetheart" image that had built her career and simultaneously limited it, toward something of her own. Directing is a typical sign of this transformation: instead of shining in front of the camera, telling the stories of others—on her own account, in her own language.</p>
+          <p class="vb-intro">The peacock that unfolds its finest moment no longer for the audience, but for itself—and in doing so discovers that it is still a peacock.</p>
         </blockquote>
 
       </div>
 
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth &mdash; Protective patterns, passions and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison &mdash; how the subtypes of the same type differ from each other.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
 
       ${relatedLinks([
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
@@ -44754,7 +44754,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v628';
+  const MY_VERSION = 'inhalt-v629';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
