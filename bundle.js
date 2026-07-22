@@ -10443,7 +10443,7 @@ function jamaicaKincaidPortraitPage() {
         <h2 class="vb-section">3. Der Neunerfl\xfcgel: Die Geduld des L\xf6wen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> verleiht der sozialen Acht eine Qualit\xe4t, die ihre Wirkung vertieft: Geduld, Weitr\xe4umigkeit und die F\xe4higkeit, einen Gedanken \xfcber Seiten und Jahrzehnte hinweg zu tragen, ohne ihn zu verlieren. Die SO8w7 greift sofort an. Die <strong>SO8w9</strong> wartet, bis der Moment vollst\xe4ndig ist.</p>
-          <p class="vb-intro">Kincaids Prosa hat diese Qualit\xe4t: Sie kreist. Sie kehrt zur\xfcck. Sie umstellt ihr Thema von allen Seiten, bevor sie zuschl\xe4gt &ndash; und wenn der Schlag kommt, hat die Leserin nicht das Gef\xfchl, \xfcberrumpelt zu werden, sondern erl\xf6st. Der Neunerfl\xfcgel gibt ihr auch die F\xe4higkeit, verschiedene Wahrheiten gleichzeitig zu halten: die Sch\xf6nheit Antiguas und seine Verstümmelung, die Liebe zur Mutter und die Wut auf sie, die Sehnsucht nach Heimat und die Unm\xf6glichkeit der R\xfcckkehr.</p>
+          <p class="vb-intro">Kincaids Prosa hat diese Qualit\xe4t: Sie kreist. Sie kehrt zur\xfcck. Sie umstellt ihr Thema von allen Seiten, bevor sie zuschl\xe4gt &ndash; und wenn der Schlag kommt, haben die Leserin oder der Leser nicht das Gef\xfchl, \xfcberrumpelt zu werden, sondern erl\xf6st. Der Neunerfl\xfcgel gibt ihr auch die F\xe4higkeit, verschiedene Wahrheiten gleichzeitig zu halten: die Sch\xf6nheit Antiguas und seine Verstümmelung, die Liebe zur Mutter und die Wut auf sie, die Sehnsucht nach Heimat und die Unm\xf6glichkeit der R\xfcckkehr.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Eine Stimme, die nicht zur\xfcckweicht</h2>
@@ -10455,7 +10455,7 @@ function jamaicaKincaidPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten: Die Unnachgiebigkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO8w9 ist ihre <strong>moralische Klarheit</strong>. Kincaid wei\xdf genau, wof\xfcr sie steht &ndash; und wogegen. In einer Literaturwelt, die diplomatische Ambiguit\xe4t bevorzugt, ist sie eine Stimme, die nicht verhandelt. Ihre Texte halten aus, was anderen zu viel ist: die Schmerzhaftigkeit der Wahrheit, das Unbequeme der Erinnerung, die Unm\xf6glichkeit des Vergessens.</p>
-          <p class="vb-intro">Der Schatten: Die SO8 kann nicht zur\xfccktreten. Was als Klarheit beginnt, kann zur Kompromisslosigkeit werden &ndash; gegen\xfcber Figuren, gegen\xfcber Lesern, gegen\xfcber der eigenen Geschichte. Kincaids Beziehung zu Antigua ist zerrissen: Sie liebt das Land und verurteilt seine Regierung; sie schreibt auf Englisch, der Sprache der Kolonisatoren, und macht sie zu ihrem. Der Neunerfl\xfcgel h\xe4lt das aus. Aber leicht ist es nicht.</p>
+          <p class="vb-intro">Der Schatten: Die SO8 kann nicht zur\xfccktreten. Was als Klarheit beginnt, kann zur Kompromisslosigkeit werden &ndash; gegen\xfcber Figuren, gegen\xfcber Lesern, gegen\xfcber der eigenen Geschichte. Kincaids Beziehung zu Antigua ist zerrissen: Sie liebt das Land und verurteilt seine Regierung; sie schreibt auf Englisch, der Sprache der Kolonisatoren, und macht diese Sprache zu ihrer eigenen. Der Neunerfl\xfcgel h\xe4lt das aus. Aber leicht ist es nicht.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der L\xf6we, der schreibt</h2>
