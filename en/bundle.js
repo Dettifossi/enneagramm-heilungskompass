@@ -12167,6 +12167,7 @@ function beruehmtePersoenlichkeitenPage() {
     "Musik":        "Music",
     "Schauspiel":   "Film/Theatre",
     "Science":      "Science",
+    "Wissenschaft": "Science",
     "Sports":       "Sports",
     "Sport":        "Sports",
     "Politics":     "Politics",
@@ -12185,7 +12186,7 @@ function beruehmtePersoenlichkeitenPage() {
   const katColors = {
     "Music":"#7c3aed","Musik":"#7c3aed",
     "Schauspiel":"#b45309","Science":"#0369a1",
-    "Sports":"#15803d","Sport":"#15803d","Politics":"#c0392b","Politik":"#c0392b",
+    "Wissenschaft":"#0369a1","Sports":"#15803d","Sport":"#15803d","Politics":"#c0392b","Politik":"#c0392b",
     "Art":"#be185d","Kunst":"#be185d",
     "Literature":"#92400e","Literatur":"#92400e",
     "Wirtschaft":"#2563c7","Astronaut":"#0e7490",
@@ -44765,7 +44766,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v640';
+  const MY_VERSION = 'inhalt-v641';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
