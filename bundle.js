@@ -3583,7 +3583,7 @@ function tierquizPage() {
       ${pageHeader("Welches Tier bin ich?")}
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.toLowerCase()}-tier.jpg" alt="${tier}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin-bottom:0.8rem;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/c_crop,g_center,w_0.86,h_0.86/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.toLowerCase()}-tier.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
           <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" ? "Selbsterhaltender" : s.inst === "SO" ? "Sozialer" : "Sexueller"} Typ ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
@@ -41601,7 +41601,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v726';
+  const MY_VERSION = 'inhalt-v727';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
