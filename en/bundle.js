@@ -4379,7 +4379,7 @@ function tierquizPage() {
       ${pageHeader("Which animal am I?")}
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/c_crop,g_center,w_0.86,h_0.86/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.replace(/^SP/,"SE").toLowerCase()}-tier.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/c_crop,g_xy_center,x_0.47,y_0.47,w_0.76,h_0.76/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.replace(/^SP/,"SE").toLowerCase()}-tier.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           <p class="eyebrow" style="margin-bottom:0.3rem;">Your Enneagram Animal</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
           <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" || s.inst === "SP" ? "Self-Preservation" : s.inst === "SO" ? "Social" : "Sexual"} Type ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
@@ -44767,7 +44767,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v647';
+  const MY_VERSION = 'inhalt-v648';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
