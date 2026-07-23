@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=22";
+import { registerEntries } from "./data/register.js?v=23";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -41601,7 +41601,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v724';
+  const MY_VERSION = 'inhalt-v725';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

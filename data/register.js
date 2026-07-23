@@ -1047,5 +1047,11 @@ export const registerEntriesEN = [
   { term: "John List", route: "kriminalpsychologie-john-list", description: "Criminal psychological portrait: SE6w5 – five-time murderer (1971, New Jersey). Shot his family out of fear of financial ruin, lived for 17 years as 'Robert Clark'. Animal equivalent: Rabbit." },
   { term: "John Gotti", route: "kriminalpsychologie-john-gotti", description: "Criminal psychological portrait: SO8w7 – The Teflon Don. Boss of the Gambino family, acquitted three times, convicted in 1992. Died in 2002 in custody. Animal equivalent: Lion." },
   { term: "Nick Leeson", route: "kriminalpsychologie-nick-leeson", description: "Criminal psychological portrait: SO9w8 – The Rogue Trader of Barings Bank. Concealed trading losses in account 88888 from 1992–1995, brought down England's oldest merchant bank (827 million pounds). Animal equivalent: Buffalo." },
-  { term: "Griselda Blanco", route: "kriminalpsychologie-griselda-blanco", description: "Criminal psychological portrait: SE8w9 – The Godmother of Medellín. Pioneer of the cocaine trade, mentor to Escobar, ordered over 200 murders. Shot dead in 2012 by a moto-sicario. Animal equivalent: Orangutan." }
+  { term: "Griselda Blanco", route: "kriminalpsychologie-griselda-blanco", description: "Criminal psychological portrait: SE8w9 – The Godmother of Medellín. Pioneer of the cocaine trade, mentor to Escobar, ordered over 200 murders. Shot dead in 2012 by a moto-sicario. Animal equivalent: Orangutan." },
+  { term: "Alfons Schuhbeck", route: "kriminalpsychologie-alfons-schuhbeck", description: "Criminal psychological portrait: celebrity chef, tax evasion, public facade & loss of control" },
+  { term: "Boris Becker (Criminal Psychology)", route: "kriminalpsychologie-boris-becker", description: "Criminal psychological portrait: tennis legend, insolvency, SX7w8 analysis" },
+  { term: "Frank Abagnale Jr.", route: "kriminalpsychologie-frank-abagnale-jr", description: "Criminal psychological portrait: master forger & con artist, Catch Me If You Can" },
+  { term: "Osama bin Laden", route: "kriminalpsychologie-osama-bin-laden", description: "Criminal psychological portrait: Al-Qaeda founder, September 11, ideological destruction" },
+  { term: "P. Diddy", route: "kriminalpsychologie-p-diddy", description: "Criminal psychological portrait: hip-hop mogul, abuse of power, #MeToo context" },
+  { term: "Vincenzo Peruggia", route: "kriminalpsychologie-vincenzo-peruggia", description: "Criminal psychological portrait: theft of the Mona Lisa 1911, national pride & obsession" }
 ];
