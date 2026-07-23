@@ -4215,15 +4215,15 @@ function zitatePage() {
 window._tqState = null;
 
 const _TQ_TIERE = {
-  SP1:"Adler",SO1:"Gans",SX1:"Schwarze Mamba",
-  SP2:"Flusspferd",SO2:"Golden Retriever",SX2:"Kamel",
-  SP3:"Waschb\xe4r",SO3:"Gepard",SX3:"Pfau",
-  SP4:"Taube",SO4:"G\xfcrteltier",SX4:"Chihuahua",
-  SP5:"Eule",SO5:"Oktopus",SX5:"Igel",
-  SP6:"Kaninchen",SO6:"Erdm\xe4nnchen",SX6:"Wolf",
-  SP7:"Gorilla",SO7:"Biber",SX7:"Schimpanse",
-  SP8:"Orang-Utan",SO8:"L\xf6we",SX8:"Krokodil",
-  SP9:"Elefant",SO9:"B\xfcffel",SX9:"Faultier"
+  SP1:"Eagle",SO1:"Goose",SX1:"Black Mamba",
+  SP2:"Hippopotamus",SO2:"Golden Retriever",SX2:"Camel",
+  SP3:"Raccoon",SO3:"Cheetah",SX3:"Peacock",
+  SP4:"Dove",SO4:"Armadillo",SX4:"Chihuahua",
+  SP5:"Owl",SO5:"Octopus",SX5:"Hedgehog",
+  SP6:"Rabbit",SO6:"Meerkat",SX6:"Wolf",
+  SP7:"Gorilla",SO7:"Beaver",SX7:"Chimpanzee",
+  SP8:"Orangutan",SO8:"Lion",SX8:"Crocodile",
+  SP9:"Elephant",SO9:"Buffalo",SX9:"Sloth"
 };
 const _TQ_EMOJI = {
   SP1:"🦅",SO1:"🪷",SX1:"🐍",
@@ -4237,33 +4237,33 @@ const _TQ_EMOJI = {
   SP9:"🐘",SO9:"🐃",SX9:"🦥"
 };
 const _TQ_BESCHR = {
-  SP1:"Der Adler fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Ruhig, präzise, mit einem inneren Kompass, der nicht schweigt.",
+  SP1:"The eagle flies alone and holds high standards — for itself, not for others. Calm, precise, with an inner compass that never falls silent.",
   SO1:"The goose flies in formation, ensuring all the rules are right. Fair, principled, with a strong sense of what is correct.",
   SX1:"The black mamba acts swiftly and precisely — tolerating no compromise on what matters to it. Passionate and exact in equal measure.",
-  SP2:"Das Flusspferd ist wärmer als es aussieht – ruhig, gründend, zutiefst fürsorglich für den engen Kreis um es herum. Es braucht Vertrauen, bevor es sich zeigt.",
+  SP2:"The hippopotamus is warmer than it looks — calm, grounding, deeply caring for the close circle around it. It needs trust before it shows itself.",
   SO2:"The golden retriever loves unconditionally — and wants everyone to be happy. A natural connector, always ready to help.",
-  SX2:"Das Kamel trägt, was andere nicht tragen würden – es gibt alles für den, dem es sich verbunden fühlt. Ausdauernd, treu, manchmal erschöpft.",
-  SP3:"Der Waschbär ist clever, anpassungsfähig und immer auf der Search nach dem, was funktioniert. Pragmatisch und charmant, leise und effektiv.",
-  SO3:"Der Gepard ist schnell, brillant und auf Erfolg ausgerichtet – mit einer natürlichen Eleganz im Umgang mit anderen. Er ist gern vorne.",
-  SX3:"Der Pfau weiß, wie er wirkt – und er setzt das bewusst ein. Charismatisch, intensiv, mit einem Sinn für das Besondere.",
-  SP4:"Die Taube trägt ihre Sehnsucht still – sie sucht Tiefe im Stillen und empfindet intensiver als sie zeigt. Sanft und verletzlich zugleich.",
-  SO4:"Das Gürteltier trägt seinen Schmerz als Schutz – außen hart, innen empfindsam. Es sucht Zugehörigkeit und kämpft still um seinen Platz.",
-  SX4:"Der Chihuahua ist klein und macht trotzdem auf sich aufmerksam – leidenschaftlich, intensiv, von tiefer Gefühlstiefe getrieben.",
+  SX2:"The camel carries what others would not — it gives everything for the one it feels bonded to. Enduring, loyal, sometimes exhausted.",
+  SP3:"The raccoon is clever, adaptable, and always looking for what works. Pragmatic and charming, quiet and effective.",
+  SO3:"The cheetah is fast, brilliant, and success-driven — with a natural elegance in dealing with others. It likes to be out in front.",
+  SX3:"The peacock knows the effect it has — and uses it deliberately. Charismatic, intense, with a sense for the extraordinary.",
+  SP4:"The dove carries its longing quietly — it seeks depth in stillness and feels more intensely than it shows. Gentle and vulnerable at once.",
+  SO4:"The armadillo wears its pain as armour — hard on the outside, sensitive within. It seeks belonging and quietly fights for its place.",
+  SX4:"The chihuahua is small yet impossible to ignore — passionate, intense, driven by deep emotional intensity.",
   SP5:"The owl observes everything before it moves — it thinks, analyses, and needs space. Wise and withdrawn, with an inner wealth of knowledge.",
-  SO5:"Der Oktopus ist das intelligenteste wirbellose Tier der Erde – er denkt in Systemen, vernetzt still und agiert mit erstaunlicher Präzision.",
-  SX5:"Der Igel schützt sich mit Stacheln und öffnet sich nur, wenn er vertraut. Intensiv in der Tiefe, aber nach außen kaum greifbar.",
-  SP6:"Das Kaninchen ist wachsam, liebenswert und braucht sichere Strukturen. Es ist loyal zu denen, denen es vertraut – und vorsichtig gegenüber dem Unbekannten.",
+  SO5:"The octopus is the most intelligent invertebrate on Earth — it thinks in systems, connects quietly, and acts with astonishing precision.",
+  SX5:"The hedgehog protects itself with spines and only opens up when it trusts. Intense in depth, yet hard to grasp from the outside.",
+  SP6:"The rabbit is watchful, endearing, and needs secure structures. Loyal to those it trusts — and cautious towards the unknown.",
   SO6:"The meerkat keeps watch for the group — alert, cooperative, always ensuring everyone is safe. Reliability is its life principle.",
-  SX6:"Der Wolf ist intensiv loyal – aber er prüft zuerst, ob er wirklich vertrauen kann. Stark in der Verbindung, mutig wenn er sich sicher fühlt.",
-  SP7:"Der Gorilla ist stärker als er aussieht – verspielt, neugierig und voller Energie, wenn er seine Welt erkundet. Er genießt das Leben mit allen Sinnen.",
-  SO7:"Der Biber baut, plant und gestaltet – er bringt seine Ideen in die Welt und liebt es, wenn alle davon profitieren. Pragmatisch und voller Ideen.",
-  SX7:"Der Schimpanse ist sozial, improvisationsfreudig und lebt im Moment – mit einer Intensität, die ansteckend ist. Er braucht Freiheit und Verbindung zugleich.",
-  SP8:"Der Orang-Utan ist mächtig und unabhängig – er braucht niemanden, der ihm sagt, was er tun soll. In seinem Tempo, auf seinem Weg.",
-  SO8:"Der Löwe führt und schützt – mit Kraft, Präsenz und dem natürlichen Anspruch, Verantwortung zu übernehmen. Er ist für seine Gruppe da.",
-  SX8:"Das Krokodil ist still bis es handelt – und dann mit voller Kraft. Intensiv in der Verbindung, unerbittlich in der Verfolgung seiner Ziele.",
+  SX6:"The wolf is intensely loyal — but first it tests whether it can truly trust. Strong in connection, courageous when it feels safe.",
+  SP7:"The gorilla is stronger than it looks — playful, curious, and full of energy as it explores its world. It savours life with all its senses.",
+  SO7:"The beaver builds, plans, and shapes — bringing its ideas into the world and loving it when everyone benefits. Pragmatic and full of ideas.",
+  SX7:"The chimpanzee is social, quick to improvise, and lives in the moment — with an intensity that is contagious. It needs freedom and connection at once.",
+  SP8:"The orangutan is powerful and independent — it needs no one to tell it what to do. At its own pace, on its own path.",
+  SO8:"The lion leads and protects — with strength, presence, and the natural claim to take responsibility. It is there for its group.",
+  SX8:"The crocodile is still until it acts — and then with full force. Intense in connection, relentless in pursuing its goals.",
   SP9:"The elephant never forgets and moves at its own pace — calm, grounding, with a presence that changes the room.",
-  SO9:"Der Büffel läuft mit der Herde – beharrlich, verlässlich, mit einer stillen Kraft, die andere erst im Rückblick bemerken.",
-  SX9:"Das Faultier spart Energie für das, was wirklich zählt – und wenn es sich verbindet, tut es das vollständig. Stille als Stärke."
+  SO9:"The buffalo moves with the herd — persistent, dependable, with a quiet strength others only notice in hindsight.",
+  SX9:"The sloth saves its energy for what truly matters — and when it connects, it does so completely. Stillness as strength."
 };
 
 function _tqBtn(label, sub, onclick) {
@@ -4274,10 +4274,10 @@ function _tqBtn(label, sub, onclick) {
 }
 
 function _tqProgress(step) {
-  const steps = ["Instinkt","Zentrum","Typ"];
+  const steps = ["Instinct","Centre","Type"];
   return '<div style="display:flex;gap:0.5rem;margin-bottom:1.5rem;">'
     +steps.map((s,i) => '<div style="flex:1;height:4px;border-radius:2px;background:'+(i<step?'var(--gold)':'var(--border)')+'"></div>').join("")
-    +'</div><p style="font-size:0.8rem;color:var(--muted);margin-bottom:1rem;">Frage '+(step)+' von 3</p>';
+    +'</div><p style="font-size:0.8rem;color:var(--muted);margin-bottom:1rem;">Question '+(step)+' of 3</p>';
 }
 
 function tierquizPage() {
@@ -4285,12 +4285,12 @@ function tierquizPage() {
   if (!s) {
     return shell(`
       <div class="page-container">
-        ${pageHeader("Welches Tier bin ich?")}
+        ${pageHeader("Which animal am I?")}
         <div class="typentest-wrap">
           <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
             <div style="font-size:3.5rem;margin-bottom:1rem;letter-spacing:0.2rem;">&#129413;&#128025;&#129445;</div>
-            <p class="eyebrow">Kostenloses Kurzquiz</p>
-            <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
+            <p class="eyebrow">Free Mini Quiz</p>
+            <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Which animal am I?</h1>
             <p class="typentest-intro">3 kurze Fragen – und Sie erfahren, welches der 27 Enneagramm-Tiere am ehesten zu Ihnen passt.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
               <strong>A brief note before you start:</strong> No test can prove who you truly are – because you assess yourself, and we all have blind spots for our own psychological patterns. This 3-question quiz is only a first, rough approximation. Take the result as an invitation to reflect – not as a definitive answer.
@@ -4298,7 +4298,7 @@ function tierquizPage() {
             <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Approx. 1 minute &middot; free &middot; no account needed</p>
             ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
             ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
-            <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
+            <button class="typentest-start-btn" onclick="window._tqStart()">Start quiz &#8594;</button>
           </div>
         </div>
       </div>
@@ -4347,10 +4347,10 @@ function tierquizPage() {
     const opts = qMap[s.center] || qMap.gut;
     return shell(`
       <div class="page-container">
-        ${pageHeader("Welches Tier bin ich?")}
+        ${pageHeader("Which animal am I?")}
         <div class="typentest-wrap"><div class="typentest-card">
           ${_tqProgress(3)}
-          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">Und welcher Satz beschreibt Sie am treffendsten?</h2>
+          <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:1.2rem;color:var(--ink);">And which sentence describes you best?</h2>
           ${opts.map(o => _tqBtn('„'+o[0]+'“', o[1], "window._tqA('"+o[2]+"')")).join("")}
         </div></div>
       </div>
@@ -4364,10 +4364,10 @@ function tierquizPage() {
   const subtypRoute = "subtype/" + code.toLowerCase();
   if (!tier) return shell(`
     <div class="page-container">
-      ${pageHeader("Welches Tier bin ich?")}
+      ${pageHeader("Which animal am I?")}
       <div class="typentest-wrap"><div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
         <div style="font-size:3rem;margin-bottom:1rem;">🦁</div>
-        <h2 class="typentest-titel">Das Tier versteckt sich noch</h2>
+        <h2 class="typentest-titel">The animal is still hiding</h2>
         <p style="color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:1.5rem;">Sometimes we need to look twice. Try again – perhaps a different answer feels more honest.</p>
         <button class="typentest-start-btn" onclick="window._tqReset()">↺ Nochmal starten</button>
       </div></div>
@@ -4376,18 +4376,18 @@ function tierquizPage() {
 
   return shell(`
     <div class="page-container">
-      ${pageHeader("Welches Tier bin ich?")}
+      ${pageHeader("Which animal am I?")}
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
-          <div style="font-size:5rem;margin-bottom:0.5rem;">${emoji}</div>
-          <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
+          <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.replace(/^SP/,"SE").toLowerCase()}-tier.jpg" alt="${tier}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin-bottom:0.8rem;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+          <p class="eyebrow" style="margin-bottom:0.3rem;">Your Enneagram Animal</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
-          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" ? "Self-Preservationer" : s.inst === "SO" ? "Sozialer" : "Sexueller"} Typ ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
+          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" || s.inst === "SP" ? "Self-Preservation" : s.inst === "SO" ? "Social" : "Sexual"} Type ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
           <p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin-bottom:1.8rem;text-align:left;">${beschr}</p>
-          <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">Zum Subtype-Profil &#8594;</button>
+          <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">View Subtype Profile &#8594;</button>
           <br>
-          <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
-          <button onclick="window._tqShare('${emoji} Ich bin ${tier} (${code}) – mein Enneagramm-Tier im Healing Compass von Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Share result</button>
+          <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Retake quiz</button>
+          <button onclick="window._tqShare('${emoji} I am ${tier} (${code}) – my Enneagram animal in the Healing Compass by Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Share result</button>
           <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Would you like to go deeper?</p>
             <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">The Compass shows you the complete healing knowledge for your animal.</p>
@@ -44767,7 +44767,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v645';
+  const MY_VERSION = 'inhalt-v646';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
