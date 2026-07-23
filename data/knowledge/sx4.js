@@ -241,7 +241,7 @@ export const sx4 = {
         wundeWirkung: "Homöopathisch unterstützt es die Regulation dort, wo sich die Wunde als zurückgehaltene Trauer, innere Sehnsucht und konservierter Schmerz zeigt. Es hilft, festgehaltenen Kummer behutsam zu lösen und Gefühltes wirklich abfließen zu lassen. So darf aus bewahrtem Schmerz eine versöhnte, lebendige Tiefe werden.",
         wunde: {
           homoeopathie: "Ignatia amara",
-          schuessler: "Calcium phosphoricum",
+          schuessler: "Kalium phosphoricum",
           bachbluete: "Willow",
         },
       },
@@ -252,7 +252,7 @@ export const sx4 = {
         compensation: "Gefühle direkt, stark und sichtbar zeigen — in der Hoffnung, echte Begegnung und Resonanz zu erzeugen. Die SX4 steigert emotionale Intensität, um das Gefühl des Mangels zu überbrücken. Drama und Leidenschaft werden manchmal zur Identität.",
         sufferingCycle: "Die SX4 sucht echte, tiefe Begegnung — und reagiert intensiv, wenn Resonanz ausbleibt oder Verbindung sich unecht anfühlt. Die Intensität steigt, der Druck auf Beziehungen wächst, das Gefühl des Mangels verstärkt sich.",
         healingDirection: "Erkennen, dass emotionale Intensität keine Verbindung erzwingt — und dass das Wesentliche, nach dem die SX4 sucht, nicht außen gefunden werden kann. Wenn Intensität sich in innere Stabilität wandelt, entsteht echte Tiefe ohne Drama.",
-        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Kalium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
       },
       needsReview: [],
     };

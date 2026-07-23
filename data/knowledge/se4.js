@@ -243,7 +243,7 @@ export const se4 = {
         wundeWirkung: "Homöopathisch unterstützt es die Regulation dort, wo sich die Wunde als zurückgehaltene Trauer, innere Sehnsucht und konservierter Schmerz zeigt. Es hilft, festgehaltenen Kummer behutsam zu lösen und Gefühltes wirklich abfließen zu lassen. So darf aus bewahrtem Schmerz eine versöhnte, lebendige Tiefe werden.",
         wunde: {
           homoeopathie: "Ignatia amara",
-          schuessler: "Calcium phosphoricum",
+          schuessler: "Kalium phosphoricum",
           bachbluete: "Willow",
         },
       },
@@ -254,7 +254,7 @@ export const se4 = {
         compensation: "Durchhalten, sich zusammenreißen, den Mangel innerlich ertragen. Statt die Sehnsucht auszuleben, wird sie diszipliniert ausgehalten – die Härte gegen sich selbst wird zur stillen Identität.",
         sufferingCycle: "Die SE4 hält den Mangel still aus und zeigt ihn nicht. Dadurch bleibt sie unverstanden, was das Gefühl des Getrenntseins verstärkt. Das Aushalten schützt vor Zurückweisung, verhindert aber echte Nähe.",
         healingDirection: "Erkennen, dass das Wesentliche nicht verloren gegangen ist. Heilung beginnt, wenn die SE4 den stillen Schmerz teilt, statt ihn allein zu tragen – und erfährt, dass sie auch mit ihrer Sehnsucht gesehen und geliebt wird.",
-        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Kalium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
       },
       needsReview: [],
     };

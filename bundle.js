@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-20-nav-persmodelle-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-23-kaliumphos-v1";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -37504,7 +37504,7 @@ function mineralstoffePage() {
     { typ:1, label:"Typ 1 · Der Ordnungsorientierte", leidenschaft:"Wut", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Reinigung, Stoffwechsel und innere Erneuerung`, beschreibung:`Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Ordnung nicht starr, sondern beweglich zu halten.` },
     { typ:2, label:"Typ 2 · Der Beziehungsorientierte", leidenschaft:"Stolz", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Flüssigkeitshaushalt und Lösen von altem Kummer`, beschreibung:`` },
     { typ:3, label:"Typ 3 · Der Erfolgsorientierte", leidenschaft:"Lüge / Selbsttäuschung", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energie, Widerstandskraft und Initiative`, beschreibung:`` },
-    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nervenkraft bei Erschöpfung, seelische Stärke`, beschreibung:`` },
+    { typ:4, label:"Typ 4 · Der Identitätssuchende", leidenschaft:"Neid", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Kalium phosphoricum", nr:"5", wirkungsfeld:`Nervenkraft bei Erschöpfung, seelische Stärke`, beschreibung:`` },
     { typ:5, label:"Typ 5 · Der Wissensorientierte", leidenschaft:"Geiz / Rückzug", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`innere Struktur, Standfestigkeit und Selbstvertrauen`, beschreibung:`` },
     { typ:6, label:"Typ 6 · Der Sicherheitsorientierte", leidenschaft:"Angst", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Entspannung und Lösen von Anspannung`, beschreibung:`` },
     { typ:7, label:"Typ 7 · Der Genussorientierte", leidenschaft:"Maßlosigkeit", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Säure-Basen-Ausgleich und innere Balance`, beschreibung:`` },
@@ -41601,7 +41601,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v728';
+  const MY_VERSION = 'inhalt-v729';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

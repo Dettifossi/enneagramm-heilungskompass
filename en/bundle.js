@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-17-archetype-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-23-kaliumphos-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -4676,7 +4676,7 @@ const PAGE4_SUMMARY_EN = {
     },
     wound: {
       homoeopathie: "Ignatia amara",
-      schuessler: "Calcium phosphoricum",
+      schuessler: "Kalium phosphoricum",
       bachbluete: "Willow",
       theme: "On the wound level too, the Ignatius bean acts — the great homeopathic remedy for unprocessed grief. Its signature is preserved pain: a loss that is held inwardly, revisited again and again, never fully released. The wound of the Four shows itself as the belief that the deepest longing can never truly be fulfilled.",
       effect: "Homeopathically it supports regulation where the wound manifests as suppressed grief, inner longing and preserved pain. It helps to gently release held grief and allow what was lost to truly pass — so that the Four can meet the present with an open heart.",
@@ -6781,7 +6781,7 @@ const WOUNDS_EN = {
     compensation: "Enduring, holding oneself together, bearing the lack inwardly. Instead of living out the longing, it is disciplined and borne – hardness towards oneself becomes a quiet identity.",
     sufferingCycle: "The SP4 bears the lack quietly without showing it. As a result she remains misunderstood, which intensifies the feeling of separation. Endurance protects against rejection, but prevents genuine closeness.",
     healingDirection: "Recognising that what is essential has not been lost. Healing begins when the SP4 shares the quiet pain instead of bearing it alone – and discovers that she is also seen and loved with her longing.",
-    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Kalium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
   },
   so4: {
     passion: "Envy – in the SO4 it shows as the painful comparison with others in the social sphere: others seem to belong more easily, receive more recognition or have an inner lightness that the SO4 lacks.",
@@ -6790,7 +6790,7 @@ const WOUNDS_EN = {
     compensation: "Showing oneself in the social context through uniqueness, depth or emotional qualities. The SO4 makes their difference visible and hopes to find resonance and belonging in it – yet the comparison continues to drain.",
     sufferingCycle: "The SO4 observes what others have – and feels all the more clearly what is missing. Even when resonance arises, the next comparison soon comes. The inner conviction of lacking is confirmed again and again.",
     healingDirection: "Recognising that belonging does not have to be earned through uniqueness or achievement. When the SO4 experiences their worth independently of social comparison, a deeper and more stable form of self-acceptance emerges.",
-    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Kalium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
   },
   sx4: {
     passion: "Envy – in the SX4 it shows as passionate longing for emotional depth and authentic connection: when others embody something experienced as particularly meaningful, strong feelings arise – longing, envy, sometimes competition.",
@@ -6799,7 +6799,7 @@ const WOUNDS_EN = {
     compensation: "Showing feelings directly, strongly and visibly – in the hope of creating genuine encounter and resonance. The SX4 intensifies emotional experience to bridge the feeling of lack. Drama and passion sometimes become identity.",
     sufferingCycle: "The SX4 seeks genuine, deep encounter – and reacts intensely when resonance is absent or connection feels unauthentic. Intensity grows, pressure on relationships increases, the feeling of lack intensifies.",
     healingDirection: "Recognising that emotional intensity cannot force connection – and that what the SX4 is truly seeking cannot be found outside. When intensity transforms into inner stability, genuine depth arises without drama.",
-    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Calcium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
+    remedy: "Wound remedy: Ignatia amara · Passion remedy: Ignatia amara · Schuessler Salt: Kalium phosphoricum · Bach Flower: Willow. Use only after consulting a practitioner.",
   },
   se5: {
     passion: "Avarice – not primarily material, but an avarice with energy, time, attention and inner engagement. The Five holds back because they fear losing more than they can give. In the SP5 this condenses into complete self-sufficiency: withdrawal becomes a way of life, not merely a strategy.",
@@ -40534,7 +40534,7 @@ function mineralstoffePage() {
     { typ:1, label:"Type 1 · The Order-Oriented", leidenschaft:"Anger", leidenschaftsSalz:"Kalium sulfuricum", wundeSalz:"Kalium chloratum", nr:"6", wirkungsfeld:`Purification, metabolism and inner renewal`, beschreibung:`Kalium sulfuricum points to balance, purification and renewal. It symbolically supports the ability to release inner tension and to hold order not rigidly, but flexibly.` },
     { typ:2, label:"Type 2 · The Relationship-Oriented", leidenschaft:"Pride", leidenschaftsSalz:"Natrium chloratum", wundeSalz:"Natrium chloratum", nr:"8", wirkungsfeld:`Fluid balance and releasing old grief`, beschreibung:`` },
     { typ:3, label:"Type 3 · The Success-Oriented", leidenschaft:"Deceit / Self-deception", leidenschaftsSalz:"Ferrum phosphoricum", wundeSalz:"Ferrum phosphoricum", nr:"3", wirkungsfeld:`Energy, resilience and initiative`, beschreibung:`` },
-    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Calcium phosphoricum", nr:"5", wirkungsfeld:`Nerve strength during exhaustion, inner resilience`, beschreibung:`` },
+    { typ:4, label:"Type 4 · The Identity-Seeker", leidenschaft:"Envy", leidenschaftsSalz:"Kalium phosphoricum", wundeSalz:"Kalium phosphoricum", nr:"5", wirkungsfeld:`Nerve strength during exhaustion, inner resilience`, beschreibung:`` },
     { typ:5, label:"Type 5 · The Knowledge-Oriented", leidenschaft:"Avarice / Withdrawal", leidenschaftsSalz:"Silicea", wundeSalz:"Silicea", nr:"11", wirkungsfeld:`Inner structure, steadiness and self-confidence`, beschreibung:`` },
     { typ:6, label:"Type 6 · The Security-Oriented", leidenschaft:"Fear", leidenschaftsSalz:"Magnesium phosphoricum", wundeSalz:"Magnesium phosphoricum", nr:"7", wirkungsfeld:`Relaxation and releasing tension`, beschreibung:`` },
     { typ:7, label:"Type 7 · The Pleasure-Oriented", leidenschaft:"Gluttony", leidenschaftsSalz:"Natrium phosphoricum", wundeSalz:"Natrium phosphoricum", nr:"9", wirkungsfeld:`Acid-base balance and inner equilibrium`, beschreibung:`` },
@@ -44767,7 +44767,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v648';
+  const MY_VERSION = 'inhalt-v649';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

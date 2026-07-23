@@ -242,7 +242,7 @@ export const so4 = {
         wundeWirkung: "Homöopathisch unterstützt es die Regulation dort, wo sich die Wunde als zurückgehaltene Trauer, innere Sehnsucht und konservierter Schmerz zeigt. Es hilft, festgehaltenen Kummer behutsam zu lösen und Gefühltes wirklich abfließen zu lassen. So darf aus bewahrtem Schmerz eine versöhnte, lebendige Tiefe werden.",
         wunde: {
           homoeopathie: "Ignatia amara",
-          schuessler: "Calcium phosphoricum",
+          schuessler: "Kalium phosphoricum",
           bachbluete: "Willow",
         },
       },
@@ -253,7 +253,7 @@ export const so4 = {
         compensation: "Sich im sozialen Kontext über Besonderheit, Tiefe oder emotionale Qualitäten zeigen. Die SO4 macht ihr Anderssein sichtbar und hofft, darin Resonanz und Zugehörigkeit zu finden — doch der Vergleich entleert weiter.",
         sufferingCycle: "Die SO4 beobachtet, was andere haben — und fühlt umso deutlicher, was ihr fehlt. Selbst wenn Resonanz entsteht, meldet sich bald der nächste Vergleich. Die innere Überzeugung des Mangelseins bestätigt sich immer wieder.",
         healingDirection: "Erkennen, dass Zugehörigkeit nicht durch Besonderheit oder Leistung verdient werden muss. Wenn die SO4 ihren Wert unabhängig vom sozialen Vergleich erlebt, entsteht eine tiefere und stabilere Form von Selbstannahme.",
-        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Calcium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
+        remedy: "Wundenmittel: Ignatia amara · Leidenschaftsmittel: Ignatia amara · Schüßler-Salz: Kalium phosphoricum · Bach-Blüte: Willow. Anwendung nur in therapeutischer Rücksprache.",
       },
       needsReview: [],
     };
