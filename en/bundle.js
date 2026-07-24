@@ -2099,14 +2099,24 @@ function neuigkeitenSection() {
   const neu = CHANGELOG.filter(e => e.date > lastSeen);
   if (!neu.length) return '';
   const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b).date;
-  const items = neu.map(e =>
-    `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
+  const unlocked = hasHeilwissen();
+  const items = neu.map(e => {
+    if (unlocked) {
+      return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
       ${e.route
         ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text_en || e.text}</a>`
         : `<span>${e.text_en || e.text}</span>`}
-    </li>`
-  ).join('');
+    </li>`;
+    }
+    const teaser = e.route && e.route.startsWith('beruehmte-') ? 'New celebrity portrait available'
+      : e.route && e.route.startsWith('kriminalpsychologie-') ? 'New criminal case analysed'
+      : 'New content available';
+    return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
+      <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
+      <span>${teaser}</span>
+    </li>`;
+  }).join('');
   return `
     <section id="neuigkeiten-banner" style="max-width:520px;margin:0 auto 1.4rem;padding:0 1rem;">
       <div style="position:relative;border-left:3px solid var(--copper,#b87830);border-radius:0 8px 8px 0;background:var(--paper-deep,#ede8dc);padding:0.9rem 1.1rem;">
@@ -44767,7 +44777,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v650';
+  const MY_VERSION = 'inhalt-v651';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

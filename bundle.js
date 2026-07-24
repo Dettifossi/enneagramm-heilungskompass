@@ -1712,14 +1712,25 @@ function neuigkeitenSection() {
   const neu = CHANGELOG.filter(e => e.date > lastSeen);
   if (!neu.length) return '';
   const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b).date;
-  const items = neu.map(e =>
-    `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
+  const unlocked = hasHeilwissen();
+  const items = neu.map(e => {
+    if (unlocked) {
+      return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
       <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
       ${e.route
         ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink,#2c2824);text-decoration:underline;text-decoration-color:var(--copper,#b87830);text-underline-offset:2px;">${e.text}</a>`
         : `<span>${e.text}</span>`}
-    </li>`
-  ).join('');
+    </li>`;
+    }
+    // Nicht freigeschaltet: keine Namen/Typzuordnungen zeigen, nur die Kategorie
+    const teaser = e.route && e.route.startsWith('beruehmte-') ? 'Neues Promi-Porträt verfügbar'
+      : e.route && e.route.startsWith('kriminalpsychologie-') ? 'Neuer Kriminalfall analysiert'
+      : 'Neue Inhalte verfügbar';
+    return `<li style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.35rem;">
+      <span style="color:var(--copper,#b87830);flex-shrink:0;">✦</span>
+      <span>${teaser}</span>
+    </li>`;
+  }).join('');
   // Auto-update lastSeen after 10 s so banner disappears on next visit without requiring × click
   setTimeout(function(){ localStorage.setItem('kompass:changelog-seen', '${latest}'); }, 10000);
   return `
@@ -41601,7 +41612,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v730';
+  const MY_VERSION = 'inhalt-v731';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
