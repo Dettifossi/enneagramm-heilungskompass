@@ -1870,7 +1870,8 @@ function startPage() {
           </div>
         </div>
         <div style="text-align:center;margin-top:1.2rem;">
-          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Gesichts-Scan für Ihre Beratung vorbereiten</button>
+          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Optional: Gesichts-Scan oder Video für Ihre Beratung vorbereiten</button>
+          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Freiwillig – keine Voraussetzung, um einen Beratungstermin zu vereinbaren.</p>
         </div>
       </div>
     </section>
@@ -42058,7 +42059,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v733';
+  const MY_VERSION = 'inhalt-v734';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

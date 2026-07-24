@@ -2254,7 +2254,8 @@ function startPage() {
           </div>
         </div>
         <div style="text-align:center;margin-top:1.2rem;">
-          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Prepare a Face Scan for Your Consultation</button>
+          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Optional: Prepare a Face Scan or Video for Your Consultation</button>
+          <p style="font-size:0.78rem;color:var(--muted);margin:0.5rem 0 0;">Voluntary – not required to book a consultation.</p>
         </div>
       </div>
     </section>
@@ -45223,7 +45224,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v653';
+  const MY_VERSION = 'inhalt-v654';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
