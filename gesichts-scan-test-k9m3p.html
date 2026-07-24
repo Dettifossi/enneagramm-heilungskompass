@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Gesichts-Scan · Konzept</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+:root {
+  --ivory: #f7f1e6; --paper: #fffaf0; --sand: #d2c0a1; --copper: #a5603d;
+  --bronze: #7d593d; --ink: #28241f; --muted: #72665a; --gold: #c4a456;
+  --gold-dark: #8a6a1a; --line: rgba(40,36,31,0.14);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--ivory); color: var(--ink);
+  font-family: 'EB Garamond', Georgia, serif; display: flex; justify-content: center;
+  min-height: 100vh; padding: 1.5rem 1rem;
+}
+.wrap { max-width: 460px; width: 100%; }
+.badge {
+  display: inline-block; background: var(--bronze); color: var(--paper); font-family: -apple-system, sans-serif;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 0.3rem 0.8rem; border-radius: 20px; margin-bottom: 1rem;
+}
+.card {
+  background: var(--paper); border: 1.5px solid var(--line); border-radius: 16px;
+  padding: 1.6rem 1.4rem; text-align: center; box-shadow: 0 18px 42px rgba(65,46,28,0.1);
+}
+h1 { font-size: 1.5rem; margin: 0 0 0.6rem; }
+.eyebrow { font-family: -apple-system, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--copper); margin: 0 0 0.4rem; }
+p.body { font-size: 0.98rem; line-height: 1.6; color: var(--ink); margin: 0 0 1rem; }
+.privacy {
+  background: var(--ivory); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0;
+  padding: 0.8rem 1rem; text-align: left; font-size: 0.85rem; line-height: 1.6; color: var(--muted); margin: 1.2rem 0;
+}
+.privacy strong { color: var(--ink); }
+button.primary {
+  background: var(--gold); color: var(--ink); border: none; border-radius: 10px;
+  padding: 0.85rem 1.8rem; font-size: 1.02rem; font-weight: 700; font-family: 'EB Garamond', serif;
+  cursor: pointer; width: 100%; margin-top: 0.4rem;
+}
+button.secondary {
+  background: none; border: 1.5px solid var(--copper); color: var(--copper); border-radius: 10px;
+  padding: 0.75rem 1.6rem; font-size: 0.95rem; font-weight: 600; font-family: 'EB Garamond', serif;
+  cursor: pointer; width: 100%; margin-top: 0.6rem;
+}
+.scan-stage { position: relative; width: 100%; aspect-ratio: 3/4; border-radius: 16px; overflow: hidden; background: #1a1712; margin-bottom: 1rem; }
+.scan-stage video { width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
+.scan-oval {
+  position: absolute; top: 8%; left: 15%; right: 15%; bottom: 12%;
+  border: 3px solid var(--gold); border-radius: 50% / 55%;
+  box-shadow: 0 0 0 2000px rgba(0,0,0,0.45);
+}
+.scan-prompt {
+  position: absolute; bottom: 1rem; left: 0; right: 0; text-align: center;
+  color: #fff; font-family: -apple-system, sans-serif; font-size: 0.95rem; font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+.progress-dots { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 1rem; }
+.progress-dots span { width: 9px; height: 9px; border-radius: 50%; background: var(--line); transition: background 0.3s; }
+.progress-dots span.done { background: var(--gold); }
+.progress-dots span.active { background: var(--copper); }
+.thumbs { display: flex; gap: 0.6rem; justify-content: center; margin: 1rem 0; flex-wrap: wrap; }
+.thumbs img { width: 70px; height: 70px; object-fit: cover; border-radius: 10px; border: 2px solid var(--gold); transform: scaleX(-1); }
+.hidden { display: none !important; }
+.dl-row { display: flex; gap: 0.6rem; margin-top: 0.8rem; }
+.dl-row a { flex: 1; }
+footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 1.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Konzept · noch nicht live</span>
+
+  <!-- INTRO -->
+  <div id="stage-intro" class="card">
+    <p class="eyebrow">Vorbereitung für Ihre Typberatung</p>
+    <h1>Ihr Gesichts-Scan</h1>
+    <p class="body">Für eine besonders genaue persönliche Typberatung sind gute Fotos aus mehreren Blickwinkeln hilfreich. Mit dieser Funktion nehmen Sie in wenigen Sekunden vier Porträtaufnahmen auf — Sie wenden Ihr Gesicht dabei nur ganz leicht zur Seite, ähnlich wie beim Entsperren Ihres Smartphones. Es bleiben durchgehend Porträtfotos, keine Seitenprofile.</p>
+    <div class="privacy">
+      <strong>Wichtig zu wissen:</strong> Dieser Scan wertet nichts automatisch aus. Es gibt keine App-Diagnose Ihres Typs — keine Technik der Welt kann Ihren Enneagrammtyp aus einem Foto zuverlässig bestimmen. Jede automatisierte Einschätzung wäre bestenfalls eine grobe Annäherung mit Fehlern. Die Fotos verlassen Ihr Gerät nicht von selbst — Sie entscheiden danach, ob Sie sie für eine <strong>persönliche Typberatung</strong> bei Detlef oder David Rathmer mitschicken möchten. Die eigentliche Typbestimmung bleibt Menschenwerk.
+    </div>
+    <button class="primary" id="btn-start">Scan starten →</button>
+  </div>
+
+  <!-- SCAN -->
+  <div id="stage-scan" class="card hidden">
+    <p class="eyebrow">Schritt <span id="step-num">1</span> von 4</p>
+    <div class="progress-dots" id="dots"></div>
+    <div class="scan-stage">
+      <video id="video" autoplay playsinline muted></video>
+      <div class="scan-oval"></div>
+      <div class="scan-prompt" id="prompt">Schauen Sie geradeaus in die Kamera</div>
+    </div>
+    <button class="primary" id="btn-capture">Aufnehmen ✦</button>
+    <button class="secondary" id="btn-cancel">Abbrechen</button>
+  </div>
+
+  <!-- RESULT -->
+  <div id="stage-result" class="card hidden">
+    <p class="eyebrow">Fertig</p>
+    <h1>Ihr Scan ist bereit</h1>
+    <p class="body">Diese vier Aufnahmen sind nur auf Ihrem Gerät gespeichert — bislang bei niemandem sonst.</p>
+    <div class="thumbs" id="thumbs"></div>
+    <p class="body" style="font-size:0.88rem;">Möchten Sie mit einer echten Person sprechen? Speichern Sie die Fotos und hängen Sie sie Ihrer Nachricht an.</p>
+    <button class="secondary" id="btn-download">📥 Fotos speichern</button>
+    <div class="dl-row">
+      <a href="#" id="link-mail" class="secondary" style="text-decoration:none;display:flex;align-items:center;justify-content:center;">✉ E-Mail an Detlef</a>
+      <a href="#" id="link-wa" class="secondary" style="text-decoration:none;display:flex;align-items:center;justify-content:center;" target="_blank" rel="noopener">💬 WhatsApp Detlef</a>
+    </div>
+    <button class="secondary" id="btn-retry">↺ Scan wiederholen</button>
+  </div>
+
+  <!-- NO CAMERA FALLBACK -->
+  <div id="stage-nocam" class="card hidden">
+    <p class="eyebrow">Kein Kamerazugriff</p>
+    <h1>Kamera nicht verfügbar</h1>
+    <p class="body">Für den Scan wird Kamerazugriff benötigt. Bitte erlauben Sie den Zugriff im Browser oder probieren Sie es auf einem Gerät mit Kamera.</p>
+    <button class="secondary" id="btn-back-nocam">Zurück</button>
+  </div>
+
+  <footer class="note">Prototyp zur internen Ansicht — Design vorläufig, noch nicht in die Kompass-App eingebaut.</footer>
+</div>
+
+<script>
+const PROMPTS = ["Schauen Sie entspannt in die Kamera", "Wenden Sie das Gesicht ganz leicht nach links", "Wenden Sie das Gesicht ganz leicht nach rechts", "Schauen Sie noch einmal direkt in die Kamera"];
+let stream = null;
+let shots = [];
+let step = 0;
+
+const $ = id => document.getElementById(id);
+const showStage = id => {
+  ["stage-intro","stage-scan","stage-result","stage-nocam"].forEach(s => $(s).classList.toggle("hidden", s !== id));
+};
+
+function buildDots() {
+  $("dots").innerHTML = PROMPTS.map((_, i) => `<span class="${i < step ? 'done' : i === step ? 'active' : ''}"></span>`).join("");
+}
+
+async function startScan() {
+  step = 0; shots = [];
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } });
+  } catch (e) {
+    showStage("stage-nocam");
+    return;
+  }
+  $("video").srcObject = stream;
+  showStage("stage-scan");
+  updateStep();
+}
+
+function updateStep() {
+  $("step-num").textContent = step + 1;
+  $("prompt").textContent = PROMPTS[step];
+  buildDots();
+}
+
+function capture() {
+  const video = $("video");
+  const canvas = document.createElement("canvas");
+  canvas.width = video.videoWidth; canvas.height = video.videoHeight;
+  const ctx = canvas.getContext("2d");
+  ctx.translate(canvas.width, 0); ctx.scale(-1, 1); // mirror to match preview
+  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  shots.push(canvas.toDataURL("image/jpeg", 0.9));
+  step++;
+  if (step >= PROMPTS.length) {
+    finishScan();
+  } else {
+    updateStep();
+  }
+}
+
+function finishScan() {
+  if (stream) { stream.getTracks().forEach(t => t.stop()); }
+  $("thumbs").innerHTML = shots.map(s => `<img src="${s}" style="transform:none;">`).join("");
+  const msg = encodeURIComponent("Hallo, ich habe gerade den Gesichts-Scan im Enneagramm-Heilungskompass gemacht und würde gerne einen Termin für eine persönliche Typberatung vereinbaren. Die Fotos hänge ich separat an.");
+  $("link-mail").href = "mailto:detlefrathmer@t-online.de?subject=Typberatung%20anfragen%20(Gesichts-Scan)&body=" + msg;
+  $("link-wa").href = "https://wa.me/4915758786201?text=" + msg;
+  showStage("stage-result");
+}
+
+function downloadShots() {
+  shots.forEach((s, i) => {
+    const a = document.createElement("a");
+    a.href = s; a.download = "gesichts-scan-" + (i + 1) + ".jpg";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+}
+
+$("btn-start").addEventListener("click", startScan);
+$("btn-capture").addEventListener("click", capture);
+$("btn-cancel").addEventListener("click", () => {
+  if (stream) stream.getTracks().forEach(t => t.stop());
+  showStage("stage-intro");
+});
+$("btn-back-nocam").addEventListener("click", () => showStage("stage-intro"));
+$("btn-download").addEventListener("click", downloadShots);
+$("btn-retry").addEventListener("click", startScan);
+</script>
+</body>
+</html>
