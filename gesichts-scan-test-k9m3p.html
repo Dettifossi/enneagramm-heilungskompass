@@ -303,8 +303,8 @@ function finishScan() {
 
   const canShareFiles = !!(navigator.canShare && navigator.canShare({ files: [new File([""], "t.jpg", { type: "image/jpeg" })] }));
   $("save-hint").textContent = canShareFiles
-    ? "Tippen Sie „Sichern" — im Teilen-Menü dann „Bild sichern" bzw. „In Fotos sichern" wählen."
-    : "Tippen Sie „Sichern", dann das Bild antippen, gedrückt halten und „Bild sichern" wählen.";
+    ? "Tippen Sie „Sichern“ — im Teilen-Menü dann „Bild sichern“ bzw. „In Fotos sichern“ wählen."
+    : "Tippen Sie „Sichern“, dann das Bild antippen, gedrückt halten und „Bild sichern“ wählen.";
 
   const msg = encodeURIComponent("Hallo, ich habe gerade den Gesichts-Scan im Enneagramm-Heilungskompass gemacht und würde gerne einen Termin für eine persönliche Typberatung vereinbaren. Die Fotos hänge ich separat an.");
   $("link-mail-detlef").href = "mailto:" + CONTACT.detlef.mail + "?subject=Typberatung%20anfragen%20(Gesichts-Scan)&body=" + msg;
