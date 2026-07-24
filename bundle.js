@@ -1157,9 +1157,9 @@ function inhaltsübersichtPage() {
             Jetzt freischalten &#8594;
           </button>
           <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
-            Noch unsicher? <button data-route="tierquiz"
+            Noch unsicher? <button data-route="diagnosetest"
               style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">
-              &#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest
+              Diagnose-Test &ndash; Kostenloser Schnelleinstieg
             </button>
           </p>
         </div>
@@ -1390,7 +1390,7 @@ function leseprobePage() {
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Schaubilder &middot; Alle 27 Subtyp-Portraits &middot; Subtypspezifische Heilmittel & Naturheilkunde</p>
         <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Jetzt freischalten &#8594;</button>
-        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Noch unsicher? <button data-route="tierquiz" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">&#129471; Welches Tier bin ich? &ndash; Kostenloser Kurztest</button></p>
+        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Noch unsicher? <button data-route="diagnosetest" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">Diagnose-Test &ndash; Kostenloser Schnelleinstieg</button></p>
       </div>
 
     </div>
@@ -1425,7 +1425,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">2</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Kostenlos erkunden</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Der Tierquiz, der Diagnosetest und die Leseprobe stehen sofort kostenlos zur Verfügung.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Der Diagnosetest und die Leseprobe stehen sofort kostenlos zur Verfügung.</p>
             </div>
           </div>
           <div style="display:flex;gap:1rem;align-items:flex-start;">
@@ -1819,10 +1819,10 @@ function startPage() {
       <div class="start-path start-path--unknown">
         <div class="start-path__icon">◇</div>
         <h2 class="start-path__title">Ich kenne meinen Typ noch nicht</h2>
-        <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der beiden Tests oder eine persönliche Typisierungsberatung.</p>
+        <p class="start-path__body">Für eine genaue Typbestimmung empfehlen wir einen der nachfolgenden Tests oder eine persönliche Typberatung.</p>
         <div class="start-path__actions">
           <div class="start-path__test-row">
-            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">3 Fragen &middot; 1 Minute &middot; kostenlos</span></button>
+            <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Kurztest &middot; 3 Fragen &middot; 1 Minute</span></button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
               <span class="start-path__test-label">Diagnose-Test</span>
               <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
@@ -3504,13 +3504,13 @@ function tierquizPage() {
         <div class="typentest-wrap">
           <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
             <div style="font-size:3.5rem;margin-bottom:1rem;letter-spacing:0.2rem;">&#129413;&#128025;&#129445;</div>
-            <p class="eyebrow">Kostenloses Kurzquiz</p>
+            <p class="eyebrow">Kurztest</p>
             <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Welches Tier bin ich?</h1>
             <p class="typentest-intro">3 kurze Fragen – und Sie erfahren, welches der 27 Enneagramm-Tiere am ehesten zu Ihnen passt.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
               <strong>Kurzer Hinweis, bevor Sie starten:</strong> Kein Test kann beweisen, wer Sie wirklich sind – denn Sie bewerten sich selbst, und wir alle haben blinde Flecken für unsere eigenen psychologischen Muster. Dieses Quiz mit 3 Fragen ist nur eine erste, grobe Annäherung. Nehmen Sie das Ergebnis als Einladung zum Nachdenken – nicht als endgültige Antwort.
             </div>
-            <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kostenlos &middot; kein Konto nötig</p>
+            <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Ca. 1 Minute &middot; kein Konto nötig</p>
             ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
             ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
             <button class="typentest-start-btn" onclick="window._tqStart()">Quiz starten &#8594;</button>
@@ -41429,7 +41429,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "tierquiz" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -41612,7 +41612,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v731';
+  const MY_VERSION = 'inhalt-v732';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
