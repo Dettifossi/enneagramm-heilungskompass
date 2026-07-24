@@ -164,16 +164,18 @@ footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin
   <footer class="note">Prototyp zur internen Ansicht — Design vorläufig, noch nicht in die Kompass-App eingebaut.</footer>
 </div>
 
-<script>
-// Jeder Schritt: Ansage (Text+Stimme), dann Vorbereitungszeit, dann Countdown-Ring bis zur automatischen Aufnahme.
+<script>// Jeder Schritt: Ansage zu Ende sprechen lassen, dann Ruhepause zum Positionieren,
+// erst danach der sichtbare Countdown-Ring bis zur automatischen Aufnahme.
 const STEPS = [
-  { prompt: "Schauen Sie entspannt in die Kamera", sub: "Frontal", say: "Schauen Sie entspannt in die Kamera." },
-  { prompt: "Bewegen Sie nur den Kopf ganz leicht nach links – der Blick bleibt bei der Kamera", sub: "Leicht nach links", say: "Bewegen Sie den Kopf ganz leicht nach links. Der Blick bleibt bei der Kamera." },
-  { prompt: "Bewegen Sie nur den Kopf ganz leicht nach rechts – der Blick bleibt bei der Kamera", sub: "Leicht nach rechts", say: "Jetzt ganz leicht nach rechts. Der Blick bleibt bei der Kamera." },
-  { prompt: "Schauen Sie noch einmal direkt in die Kamera", sub: "Frontal", say: "Und noch einmal direkt in die Kamera." },
+  { prompt: "Schauen Sie ganz entspannt direkt in die Kamera – als würden Sie sich selbst in die Augen schauen.", sub: "Frontal", say: "Schauen Sie ganz entspannt direkt in die Kamera. Als würden Sie sich selbst in die Augen schauen." },
+  { prompt: "Drehen Sie nur den Kopf ganz sacht nach links – der Blick bleibt bei der Kamera.", sub: "Sanft nach links", say: "Jetzt drehen Sie den Kopf ganz sacht nach links. Der Blick bleibt dabei bei der Kamera." },
+  { prompt: "Und jetzt ganz sacht nach rechts – der Blick bleibt weiterhin bei der Kamera.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin bei der Kamera." },
+  { prompt: "Zum Abschluss noch einmal ganz entspannt direkt in die Kamera schauen.", sub: "Frontal", say: "Zum Abschluss schauen Sie noch einmal ganz entspannt direkt in die Kamera." },
 ];
-const PREPARE_MS = 1800;
-const COUNTDOWN_MS = 1200;
+const SETTLE_MS = 2200;    // Ruhezeit nach der Ansage, bevor der Countdown startet
+const COUNTDOWN_MS = 3200; // sichtbarer, langsamer Countdown-Ring bis zur Aufnahme
+const AFTER_SHOT_MS = 1300; // Pause nach dem Foto, bevor die nächste Ansage beginnt
+const SPEECH_MAX_MS = 6000; // Sicherheitsgrenze, falls das Sprach-Ende-Ereignis ausbleibt
 
 const CONTACT = {
   detlef: { mail: "detlefrathmer@t-online.de", wa: "4915758786201" },
@@ -185,6 +187,8 @@ let shots = []; // { url, blob }
 let step = 0;
 let voiceOn = true;
 let cancelled = false;
+let germanFemaleVoice = null;
+let voicesReady = false;
 
 const $ = id => document.getElementById(id);
 const showStage = id => {
@@ -195,18 +199,64 @@ function buildDots() {
   $("dots").innerHTML = STEPS.map((_, i) => `<span class="${i < step ? 'done' : i === step ? 'active' : ''}"></span>`).join("");
 }
 
-function speak(text) {
+// Stimmen laden (auf iOS/Safari oft erst asynchron über "voiceschanged" verfügbar)
+// und eine deutsche Frauenstimme auswählen, falls vorhanden.
+function pickVoice() {
+  if (!("speechSynthesis" in window)) return;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || !voices.length) return;
+  voicesReady = true;
+  const FEMALE_HINTS = ["anna", "petra", "helena", "female", "frau", "samantha", "martina", "google deutsch"];
+  germanFemaleVoice =
+    voices.find(v => v.lang && v.lang.startsWith("de") && FEMALE_HINTS.some(h => v.name.toLowerCase().includes(h))) ||
+    voices.find(v => v.lang && v.lang.startsWith("de")) ||
+    null;
+}
+if ("speechSynthesis" in window) {
+  pickVoice();
+  window.speechSynthesis.onvoiceschanged = pickVoice;
+}
+
+// WICHTIG (iOS-Besonderheit): Sprachausgabe funktioniert im Browser nur zuverlässig, wenn sie
+// direkt innerhalb einer echten Nutzer-Interaktion (Klick) "freigeschaltet" wird. Ein winziger,
+// fast unhörbarer Ton beim Start reserviert das Audiosystem, damit die folgenden Ansagen
+// tatsächlich zu hören sind.
+function unlockSpeech() {
   if (!voiceOn || !("speechSynthesis" in window)) return;
   try {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE"; u.rate = 0.98;
-    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(" ");
+    u.volume = 0.01;
     window.speechSynthesis.speak(u);
   } catch (e) {}
 }
 
+// Spricht einen Text und wartet, bis die Ansage tatsächlich zu Ende ist (oder die
+// Sicherheitsgrenze erreicht ist), bevor der Ablauf weitergeht.
+function speakAndWait(text) {
+  return new Promise(resolve => {
+    if (!voiceOn || !("speechSynthesis" in window)) return resolve();
+    let done = false;
+    const finish = () => { if (!done) { done = true; resolve(); } };
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "de-DE";
+      u.rate = 0.9;
+      u.pitch = 1.05;
+      if (germanFemaleVoice) u.voice = germanFemaleVoice;
+      u.onend = finish;
+      u.onerror = finish;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+      setTimeout(finish, SPEECH_MAX_MS);
+    } catch (e) {
+      finish();
+    }
+  });
+}
+
 async function startScan() {
   step = 0; shots = []; cancelled = false;
+  unlockSpeech(); // synchron im Klick-Moment auslösen, damit iOS Audio erlaubt
   try {
     stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } });
   } catch (e) {
@@ -225,6 +275,17 @@ function setRing(fraction) {
   ring.style.strokeDashoffset = len * (1 - fraction);
 }
 
+function wait(ms) {
+  return new Promise(resolve => {
+    const start = performance.now();
+    (function check() {
+      if (cancelled) return resolve();
+      if (performance.now() - start >= ms) return resolve();
+      requestAnimationFrame(check);
+    })();
+  });
+}
+
 async function runStep() {
   if (cancelled) return;
   const s = STEPS[step];
@@ -233,11 +294,18 @@ async function runStep() {
   $("sub").textContent = s.sub;
   buildDots();
   setRing(0);
-  speak(s.say);
 
-  await wait(PREPARE_MS);
+  // 1) Ansage vollständig zu Ende sprechen lassen
+  await speakAndWait(s.say);
   if (cancelled) return;
 
+  // 2) Ruhepause zum Positionieren – noch kein Countdown sichtbar
+  $("sub").textContent = s.sub + " · bereit machen";
+  await wait(SETTLE_MS);
+  if (cancelled) return;
+
+  // 3) Sichtbarer, langsamer Countdown bis zur automatischen Aufnahme
+  $("sub").textContent = s.sub;
   const start = performance.now();
   await new Promise(resolve => {
     function tick(now) {
@@ -253,8 +321,6 @@ async function runStep() {
 
   capture();
 }
-
-function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function capture() {
   const video = $("video");
@@ -273,7 +339,7 @@ function capture() {
     if (step >= STEPS.length) {
       finishScan();
     } else {
-      setTimeout(runStep, 400);
+      setTimeout(runStep, AFTER_SHOT_MS);
     }
   }, "image/jpeg", 0.92);
 }
