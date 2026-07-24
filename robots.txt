@@ -1,4 +1,3 @@
 
 User-agent: *
 Disallow: /meine-posts-x7k2m.html
-Disallow: /gesichts-scan-test-k9m3p.html

@@ -2253,6 +2253,9 @@ function startPage() {
             </div>
           </div>
         </div>
+        <div style="text-align:center;margin-top:1.2rem;">
+          <button class="start-path__btn" data-route="gesichts-scan" style="background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);">📷 Prepare a Face Scan for Your Consultation</button>
+        </div>
       </div>
     </section>
 
@@ -4289,6 +4292,447 @@ function _tqProgress(step) {
     +steps.map((s,i) => '<div style="flex:1;height:4px;border-radius:2px;background:'+(i<step?'var(--gold)':'var(--border)')+'"></div>').join("")
     +'</div><p style="font-size:0.8rem;color:var(--muted);margin-bottom:1rem;">Question '+(step)+' of 3</p>';
 }
+
+// ── FACE SCAN (Preparation for the personal type consultation) ────────────────
+// Does not evaluate anything automatically and makes no type diagnosis. This
+// feature exists solely to prepare good photos/a short video for the human
+// type consultation with Detlef or David Rathmer. The recordings never leave
+// the device on their own – the user actively decides whether to send them to
+// one of the two consultants via the native share dialog.
+
+const _GS_STEPS = [
+  { prompt: "Look calmly and directly into your smartphone’s camera – the frame just marks the capture area.", sub: "Frontal", say: "Look calmly and directly into your smartphone’s camera. The frame just marks the capture area – keep your gaze on the camera." },
+  { prompt: "Turn only your head very gently to the left – keep looking at your smartphone’s camera.", sub: "Gently left", say: "Now turn your head very gently to the left. Keep looking at your smartphone’s camera the whole time." },
+  { prompt: "And now very gently to the right – keep looking at your smartphone’s camera.", sub: "Gently right", say: "And now very gently to the right. Keep looking at your smartphone’s camera the whole time." },
+  { prompt: "To finish, look directly into your smartphone’s camera once more.", sub: "Frontal", say: "To finish, look directly into your smartphone’s camera once more." },
+];
+const _GS_SETTLE_MS = 2200;
+const _GS_COUNTDOWN_MS = 3200;
+const _GS_AFTER_SHOT_MS = 1300;
+const _GS_SPEECH_MAX_MS = 6000;
+const _GS_VIDEO_MAX_S = 120;
+
+const _GS_CONTACT = {
+  detlef: { mail: "detlefrathmer@t-online.de", wa: "4915758786201" },
+  david:  { mail: "rathmer.david.business@gmail.com", wa: "4915901902479" },
+};
+
+let _gsMode = null;
+let _gsStream = null;
+let _gsShots = [];
+let _gsStep = 0;
+let _gsVoiceOn = true;
+let _gsCancelled = false;
+let _gsFemaleVoice = null;
+let _gsRecorder = null;
+let _gsRecordedChunks = [];
+let _gsVideoBlob = null;
+let _gsVideoUrl = null;
+let _gsTimerHandle = null;
+let _gsRecordSeconds = 0;
+
+function gesichtsScanPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("gesichts-scan")}
+      <div class="typentest-wrap">
+
+        <div id="gs-stage-intro" class="typentest-card">
+          <p class="eyebrow">Preparing for your type consultation</p>
+          <h1 class="typentest-titel" style="margin-bottom:0.6rem;">Your Face Scan</h1>
+          <p class="typentest-intro">Good photos or a short video are helpful for an especially accurate personal type consultation. Choose whichever you prefer – the app will guide you through the recording automatically.</p>
+          <div class="typentest-hinweis" style="margin:1rem 0 1.2rem;">
+            <strong>Important to know:</strong> This scan does not evaluate anything automatically. There is no app diagnosis of your type – no technology in the world can reliably determine your Enneagram type from a photo or video. Any automated assessment would at best be a rough approximation with errors. The recordings do not leave your device on their own – you decide afterwards whether to send them for a <strong>personal type consultation</strong> with Detlef or David Rathmer. Determining your actual type remains human work.
+          </div>
+          <button class="typentest-start-btn" id="gs-btn-start-photo">📷 Start photo scan (4 shots) →</button>
+          <button class="typentest-start-btn" id="gs-btn-start-video" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);margin-top:0.7rem;">🎥 Record a short video (max. 2 min) →</button>
+          <label style="display:flex;align-items:center;justify-content:center;gap:0.4rem;font-size:0.82rem;color:var(--muted);margin-top:0.9rem;">
+            <input type="checkbox" id="gs-chk-voice" checked> Spoken guidance (photo scan only)
+          </label>
+        </div>
+
+        <div id="gs-stage-scan" class="typentest-card hidden">
+          <p class="eyebrow">Step <span id="gs-step-num">1</span> of 4</p>
+          <div class="gs-dots" id="gs-dots"></div>
+          <div class="gs-stage">
+            <video id="gs-video" autoplay playsinline muted></video>
+            <div class="gs-flash" id="gs-flash"></div>
+            <div class="gs-sub" id="gs-sub">Getting ready …</div>
+            <div class="gs-oval">
+              <svg viewBox="0 0 200 240">
+                <ellipse class="gs-oval-ring" cx="100" cy="120" rx="82" ry="110"></ellipse>
+                <ellipse class="gs-oval-progress" id="gs-ring" cx="100" cy="120" rx="82" ry="110"></ellipse>
+              </svg>
+            </div>
+            <div class="gs-prompt" id="gs-prompt">Look calmly into the camera</div>
+          </div>
+          <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" id="gs-btn-cancel">Cancel</button>
+        </div>
+
+        <div id="gs-stage-video" class="typentest-card hidden">
+          <p class="eyebrow">Short video</p>
+          <div class="gs-stage">
+            <video id="gs-video-live" autoplay playsinline muted></video>
+            <div class="gs-video-timer" id="gs-video-timer">0:00 / 2:00</div>
+          </div>
+          <p class="typentest-intro" style="margin:0.8rem 0;">For example, briefly say your name and what brings you to the type consultation. Maximum 2 minutes.</p>
+          <button class="typentest-start-btn" id="gs-btn-record" style="background:#b23b3b;border-color:#8a2c2c;">● Start recording</button>
+          <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" id="gs-btn-cancel-video">Cancel</button>
+        </div>
+
+        <div id="gs-stage-result" class="typentest-card hidden">
+          <p class="eyebrow">Done</p>
+          <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Your photos are ready</h1>
+          <p class="typentest-intro">These four shots are stored only on your device – with no one else so far.</p>
+          <button class="typentest-start-btn" id="gs-btn-save-all">📥 Save all four photos at once</button>
+          <div class="gs-photo-grid" id="gs-photo-grid"></div>
+          <p class="gs-save-hint" id="gs-save-hint">Or tap "Save" on a single photo to store just that one.</p>
+          ${_gsContactBlockHTML("photo")}
+          <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);margin-top:1.2rem;" id="gs-btn-retry">↺ Redo scan</button>
+        </div>
+
+        <div id="gs-stage-video-result" class="typentest-card hidden">
+          <p class="eyebrow">Done</p>
+          <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Your video is ready</h1>
+          <p class="typentest-intro">This video is stored only on your device – with no one else so far.</p>
+          <video id="gs-video-preview" controls playsinline style="width:100%;border-radius:12px;border:2px solid var(--gold);margin:0.8rem 0;"></video>
+          <button class="typentest-start-btn" id="gs-btn-save-video">📥 Save video</button>
+          ${_gsContactBlockHTML("video")}
+          <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);margin-top:1.2rem;" id="gs-btn-retry-video">↺ Redo video</button>
+        </div>
+
+        <div id="gs-stage-nocam" class="typentest-card hidden">
+          <p class="eyebrow">No camera access</p>
+          <h1 class="typentest-titel">Camera not available</h1>
+          <p class="typentest-intro">The scan needs camera access. Please allow access in your browser, or try this on a device with a camera.</p>
+          <button class="typentest-start-btn" id="gs-btn-back-nocam">Back</button>
+        </div>
+
+      </div>
+
+      <style>
+        .gs-dots { display:flex; gap:0.5rem; justify-content:center; margin-bottom:1rem; }
+        .gs-dots span { width:9px; height:9px; border-radius:50%; background:var(--border,rgba(40,36,31,0.14)); transition:background 0.3s; }
+        .gs-dots span.done { background:var(--gold,#c4a456); }
+        .gs-dots span.active { background:var(--copper,#a5603d); }
+        .gs-stage { position:relative; width:100%; aspect-ratio:3/4; border-radius:16px; overflow:hidden; background:#1a1712; margin-bottom:1rem; }
+        .gs-stage video { width:100%; height:100%; object-fit:cover; transform:scaleX(-1); }
+        .gs-oval { position:absolute; top:8%; left:15%; right:15%; bottom:12%; border-radius:50%/55%; box-shadow:0 0 0 2000px rgba(0,0,0,0.45); pointer-events:none; }
+        .gs-oval svg { position:absolute; inset:-3px; width:calc(100% + 6px); height:calc(100% + 6px); }
+        .gs-oval-ring { fill:none; stroke:rgba(255,255,255,0.35); stroke-width:3; }
+        .gs-oval-progress { fill:none; stroke:var(--gold,#c4a456); stroke-width:4; stroke-linecap:round; transition:stroke-dashoffset 0.1s linear; }
+        .gs-prompt { position:absolute; bottom:1rem; left:0.8rem; right:0.8rem; text-align:center; color:#fff; font-family:-apple-system,sans-serif; font-size:1rem; font-weight:600; text-shadow:0 1px 4px rgba(0,0,0,0.7); }
+        .gs-sub { position:absolute; top:0.9rem; left:0; right:0; text-align:center; color:rgba(255,255,255,0.85); font-family:-apple-system,sans-serif; font-size:0.78rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; text-shadow:0 1px 4px rgba(0,0,0,0.7); }
+        .gs-flash { position:absolute; inset:0; background:#fff; opacity:0; pointer-events:none; }
+        .gs-flash.active { animation: gsFlashPop 0.35s ease-out; }
+        @keyframes gsFlashPop { 0% { opacity:0.85; } 100% { opacity:0; } }
+        .gs-video-timer { position:absolute; top:0.8rem; left:0.8rem; background:rgba(0,0,0,0.55); color:#fff; font-family:-apple-system,sans-serif; font-size:0.85rem; font-weight:700; padding:0.3rem 0.7rem; border-radius:20px; }
+        .gs-photo-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:0.7rem; margin:1rem 0; }
+        .gs-photo-card { position:relative; border-radius:12px; overflow:hidden; border:2px solid var(--gold,#c4a456); }
+        .gs-photo-card img { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; }
+        .gs-photo-card button { position:absolute; bottom:0.4rem; right:0.4rem; background:rgba(20,17,12,0.72); color:#fff; border:none; border-radius:8px; padding:0.4rem 0.6rem; font-size:0.78rem; font-weight:600; font-family:-apple-system,sans-serif; cursor:pointer; }
+        .gs-save-hint { font-size:0.82rem; color:var(--muted); text-align:left; line-height:1.5; margin:0.6rem 0 0; }
+        .gs-contact-label { font-family:-apple-system,sans-serif; font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin:1rem 0 0.2rem; text-align:left; }
+        .gs-contact-group { display:flex; flex-direction:column; gap:0.6rem; margin-top:0.6rem; }
+        .gs-contact-group a { display:flex; align-items:center; justify-content:center; text-decoration:none; background:transparent; border:1.5px solid var(--copper,#a5603d); color:var(--copper,#a5603d); border-radius:10px; padding:0.75rem 1.6rem; font-size:0.95rem; font-weight:600; font-family:'EB Garamond',serif; }
+        .hidden { display:none !important; }
+      </style>
+    </div>
+  `);
+}
+
+function _gsContactBlockHTML(suffix) {
+  const sfx = suffix || "photo";
+  return `
+    <p class="typentest-intro" style="font-size:0.9rem;margin-top:1rem;">Would you rather talk to a real person? Attach your recordings to the message.</p>
+    <p class="gs-contact-label">Detlef Rathmer</p>
+    <div class="gs-contact-group">
+      <a href="#" id="gs-link-mail-detlef-${sfx}">✉ Email Detlef Rathmer</a>
+      <a href="#" id="gs-link-wa-detlef-${sfx}" target="_blank" rel="noopener">💬 WhatsApp Detlef Rathmer</a>
+    </div>
+    <p class="gs-contact-label">David L. Rathmer</p>
+    <div class="gs-contact-group">
+      <a href="#" id="gs-link-mail-david-${sfx}">✉ Email David L. Rathmer</a>
+      <a href="#" id="gs-link-wa-david-${sfx}" target="_blank" rel="noopener">💬 WhatsApp David L. Rathmer</a>
+    </div>
+  `;
+}
+
+function _gsQ(id) { return document.getElementById(id); }
+
+function _gsShowStage(id) {
+  ["gs-stage-intro","gs-stage-scan","gs-stage-video","gs-stage-result","gs-stage-video-result","gs-stage-nocam"]
+    .forEach(s => { const el = _gsQ(s); if (el) el.classList.toggle("hidden", s !== id); });
+}
+
+function _gsBuildDots() {
+  _gsQ("gs-dots").innerHTML = _GS_STEPS.map((_, i) => `<span class="${i < _gsStep ? 'done' : i === _gsStep ? 'active' : ''}"></span>`).join("");
+}
+
+function _gsPickVoice() {
+  if (!("speechSynthesis" in window)) return;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || !voices.length) return;
+  const FEMALE_HINTS = ["samantha", "female", "woman", "karen", "moira", "tessa", "google us english"];
+  _gsFemaleVoice =
+    voices.find(v => v.lang && v.lang.startsWith("en") && FEMALE_HINTS.some(h => v.name.toLowerCase().includes(h))) ||
+    voices.find(v => v.lang && v.lang.startsWith("en")) ||
+    null;
+}
+
+function _gsUnlockSpeech() {
+  if (!_gsVoiceOn || !("speechSynthesis" in window)) return;
+  try {
+    const u = new SpeechSynthesisUtterance(" ");
+    u.volume = 0.01;
+    window.speechSynthesis.speak(u);
+  } catch (e) {}
+}
+
+function _gsSpeakAndWait(text) {
+  return new Promise(resolve => {
+    if (!_gsVoiceOn || !("speechSynthesis" in window)) return resolve();
+    let done = false;
+    const finish = () => { if (!done) { done = true; resolve(); } };
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US"; u.rate = 0.9; u.pitch = 1.05;
+      if (_gsFemaleVoice) u.voice = _gsFemaleVoice;
+      u.onend = finish; u.onerror = finish;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+      setTimeout(finish, _GS_SPEECH_MAX_MS);
+    } catch (e) { finish(); }
+  });
+}
+
+function _gsWait(ms) {
+  return new Promise(resolve => {
+    const start = performance.now();
+    (function check() {
+      if (_gsCancelled) return resolve();
+      if (performance.now() - start >= ms) return resolve();
+      requestAnimationFrame(check);
+    })();
+  });
+}
+
+async function _gsStartPhotoScan() {
+  _gsMode = "photo"; _gsStep = 0; _gsShots = []; _gsCancelled = false;
+  _gsVoiceOn = _gsQ("gs-chk-voice").checked;
+  if ("speechSynthesis" in window) { _gsPickVoice(); window.speechSynthesis.onvoiceschanged = _gsPickVoice; }
+  _gsUnlockSpeech();
+  try {
+    _gsStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } });
+  } catch (e) { _gsShowStage("gs-stage-nocam"); return; }
+  _gsQ("gs-video").srcObject = _gsStream;
+  _gsShowStage("gs-stage-scan");
+  _gsRunStep();
+}
+
+function _gsSetRing(fraction) {
+  const ring = _gsQ("gs-ring");
+  const len = 620;
+  ring.style.strokeDasharray = len;
+  ring.style.strokeDashoffset = len * (1 - fraction);
+}
+
+async function _gsRunStep() {
+  if (_gsCancelled) return;
+  const s = _GS_STEPS[_gsStep];
+  _gsQ("gs-step-num").textContent = _gsStep + 1;
+  _gsQ("gs-prompt").textContent = s.prompt;
+  _gsQ("gs-sub").textContent = s.sub;
+  _gsBuildDots();
+  _gsSetRing(0);
+
+  await _gsSpeakAndWait(s.say);
+  if (_gsCancelled) return;
+
+  _gsQ("gs-sub").textContent = s.sub + " · get ready";
+  await _gsWait(_GS_SETTLE_MS);
+  if (_gsCancelled) return;
+
+  _gsQ("gs-sub").textContent = s.sub;
+  const start = performance.now();
+  await new Promise(resolve => {
+    function tick(now) {
+      if (_gsCancelled) return resolve();
+      const frac = Math.min(1, (now - start) / _GS_COUNTDOWN_MS);
+      _gsSetRing(frac);
+      if (frac < 1) requestAnimationFrame(tick); else resolve();
+    }
+    requestAnimationFrame(tick);
+  });
+  if (_gsCancelled) return;
+
+  _gsCapturePhoto();
+}
+
+function _gsCapturePhoto() {
+  const video = _gsQ("gs-video");
+  const canvas = document.createElement("canvas");
+  canvas.width = video.videoWidth; canvas.height = video.videoHeight;
+  const ctx = canvas.getContext("2d");
+  ctx.translate(canvas.width, 0); ctx.scale(-1, 1);
+  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+  const flash = _gsQ("gs-flash");
+  flash.classList.remove("active"); void flash.offsetWidth; flash.classList.add("active");
+
+  canvas.toBlob(blob => {
+    _gsShots.push({ url: URL.createObjectURL(blob), blob });
+    _gsStep++;
+    if (_gsStep >= _GS_STEPS.length) { _gsFinishPhotoScan(); }
+    else { setTimeout(_gsRunStep, _GS_AFTER_SHOT_MS); }
+  }, "image/jpeg", 0.92);
+}
+
+async function _gsSaveShot(index) {
+  const shot = _gsShots[index];
+  const file = new File([shot.blob], "face-scan-" + (index + 1) + ".jpg", { type: "image/jpeg" });
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try { await navigator.share({ files: [file], title: "Face Scan " + (index + 1) }); return; } catch (e) {}
+  }
+  window.open(shot.url, "_blank");
+}
+
+async function _gsSaveAllShots() {
+  const files = _gsShots.map((s, i) => new File([s.blob], "face-scan-" + (i + 1) + ".jpg", { type: "image/jpeg" }));
+  if (navigator.canShare && navigator.canShare({ files })) {
+    try { await navigator.share({ files, title: "Face Scan – all photos" }); return; } catch (e) {}
+  }
+  _gsShots.forEach(s => window.open(s.url, "_blank"));
+}
+
+function _gsFillContactLinks(mailSubject, waText, sfx) {
+  const suffix = sfx || "photo";
+  const msg = encodeURIComponent(waText);
+  _gsQ("gs-link-mail-detlef-" + suffix).href = "mailto:" + _GS_CONTACT.detlef.mail + "?subject=" + encodeURIComponent(mailSubject) + "&body=" + msg;
+  _gsQ("gs-link-wa-detlef-" + suffix).href = "https://wa.me/" + _GS_CONTACT.detlef.wa + "?text=" + msg;
+  _gsQ("gs-link-mail-david-" + suffix).href = "mailto:" + _GS_CONTACT.david.mail + "?subject=" + encodeURIComponent(mailSubject) + "&body=" + msg;
+  _gsQ("gs-link-wa-david-" + suffix).href = "https://wa.me/" + _GS_CONTACT.david.wa + "?text=" + msg;
+}
+
+function _gsFinishPhotoScan() {
+  if (_gsStream) { _gsStream.getTracks().forEach(t => t.stop()); }
+  _gsQ("gs-photo-grid").innerHTML = _gsShots.map((s, i) =>
+    `<div class="gs-photo-card"><img src="${s.url}"><button onclick="_gsSaveShot(${i})">📥 Save</button></div>`
+  ).join("");
+  const canShareFiles = !!(navigator.canShare && navigator.canShare({ files: [new File([""], "t.jpg", { type: "image/jpeg" })] }));
+  _gsQ("gs-save-hint").textContent = canShareFiles
+    ? "Tap “Save” — then choose “Save Image” or “Save to Photos” in the share menu."
+    : "Tap “Save”, then tap and hold the image and choose “Save Image”.";
+  _gsFillContactLinks(
+    "Requesting type consultation (Face Scan)",
+    "Hello, I just completed the face scan in the Enneagram Healing Compass and would like to arrange a personal type consultation. I’m attaching the photos separately.",
+    "photo"
+  );
+  _gsShowStage("gs-stage-result");
+}
+
+// ── Video mode ──────────────────────────────────────────────────────────────
+
+async function _gsStartVideoMode() {
+  _gsMode = "video"; _gsCancelled = false; _gsRecordedChunks = []; _gsVideoBlob = null; _gsRecordSeconds = 0;
+  try {
+    _gsStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: true });
+  } catch (e) { _gsShowStage("gs-stage-nocam"); return; }
+  _gsQ("gs-video-live").srcObject = _gsStream;
+  _gsQ("gs-video-timer").textContent = "0:00 / 2:00";
+  _gsQ("gs-btn-record").textContent = "● Start recording";
+  _gsQ("gs-btn-record").dataset.recording = "0";
+  _gsShowStage("gs-stage-video");
+}
+
+function _gsPickVideoMime() {
+  const candidates = ["video/mp4", "video/webm;codecs=vp9", "video/webm"];
+  for (const c of candidates) {
+    if (window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(c)) return c;
+  }
+  return "";
+}
+
+function _gsToggleRecord() {
+  const btn = _gsQ("gs-btn-record");
+  if (btn.dataset.recording === "1") { _gsStopRecording(); return; }
+
+  _gsRecordedChunks = [];
+  const mime = _gsPickVideoMime();
+  try {
+    _gsRecorder = mime ? new MediaRecorder(_gsStream, { mimeType: mime }) : new MediaRecorder(_gsStream);
+  } catch (e) {
+    _gsRecorder = new MediaRecorder(_gsStream);
+  }
+  _gsRecorder.ondataavailable = e => { if (e.data && e.data.size) _gsRecordedChunks.push(e.data); };
+  _gsRecorder.onstop = _gsHandleRecordingStopped;
+  _gsRecorder.start();
+  btn.textContent = "■ Stop recording";
+  btn.dataset.recording = "1";
+  _gsRecordSeconds = 0;
+  _gsTimerHandle = setInterval(() => {
+    _gsRecordSeconds++;
+    const m = Math.floor(_gsRecordSeconds / 60), s = _gsRecordSeconds % 60;
+    _gsQ("gs-video-timer").textContent = m + ":" + String(s).padStart(2, "0") + " / 2:00";
+    if (_gsRecordSeconds >= _GS_VIDEO_MAX_S) _gsStopRecording();
+  }, 1000);
+}
+
+function _gsStopRecording() {
+  if (_gsTimerHandle) { clearInterval(_gsTimerHandle); _gsTimerHandle = null; }
+  if (_gsRecorder && _gsRecorder.state !== "inactive") _gsRecorder.stop();
+}
+
+function _gsHandleRecordingStopped() {
+  const mime = _gsRecorder.mimeType || "video/webm";
+  _gsVideoBlob = new Blob(_gsRecordedChunks, { type: mime });
+  _gsVideoUrl = URL.createObjectURL(_gsVideoBlob);
+  if (_gsStream) { _gsStream.getTracks().forEach(t => t.stop()); }
+  const preview = _gsQ("gs-video-preview");
+  preview.src = _gsVideoUrl;
+  _gsFillContactLinks(
+    "Requesting type consultation (video introduction)",
+    "Hello, I just recorded a short video introduction in the Enneagram Healing Compass and would like to arrange a personal type consultation. I’m attaching the video separately.",
+    "video"
+  );
+  _gsShowStage("gs-stage-video-result");
+}
+
+async function _gsSaveVideo() {
+  const ext = (_gsVideoBlob.type || "").includes("mp4") ? "mp4" : "webm";
+  const file = new File([_gsVideoBlob], "face-scan-video." + ext, { type: _gsVideoBlob.type || "video/webm" });
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try { await navigator.share({ files: [file], title: "Face Scan Video" }); return; } catch (e) {}
+  }
+  window.open(_gsVideoUrl, "_blank");
+}
+
+function _gesichtsScanInit() {
+  _gsCancelled = true;
+  if (_gsStream) { _gsStream.getTracks().forEach(t => t.stop()); _gsStream = null; }
+  _gsShowStage("gs-stage-intro");
+
+  _gsQ("gs-btn-start-photo").addEventListener("click", _gsStartPhotoScan);
+  _gsQ("gs-btn-start-video").addEventListener("click", _gsStartVideoMode);
+  _gsQ("gs-btn-cancel").addEventListener("click", () => {
+    _gsCancelled = true;
+    if (_gsStream) _gsStream.getTracks().forEach(t => t.stop());
+    _gsShowStage("gs-stage-intro");
+  });
+  _gsQ("gs-btn-cancel-video").addEventListener("click", () => {
+    if (_gsTimerHandle) clearInterval(_gsTimerHandle);
+    if (_gsRecorder && _gsRecorder.state !== "inactive") { try { _gsRecorder.stop(); } catch (e) {} }
+    if (_gsStream) _gsStream.getTracks().forEach(t => t.stop());
+    _gsShowStage("gs-stage-intro");
+  });
+  _gsQ("gs-btn-record").addEventListener("click", _gsToggleRecord);
+  _gsQ("gs-btn-back-nocam").addEventListener("click", () => _gsShowStage("gs-stage-intro"));
+  _gsQ("gs-btn-save-all").addEventListener("click", _gsSaveAllShots);
+  _gsQ("gs-btn-retry").addEventListener("click", _gsStartPhotoScan);
+  _gsQ("gs-btn-save-video").addEventListener("click", _gsSaveVideo);
+  _gsQ("gs-btn-retry-video").addEventListener("click", _gsStartVideoMode);
+}
+
 
 function tierquizPage() {
   const s = window._tqState;
@@ -44545,6 +44989,7 @@ function subtypeSchaubilderPage() {
     "portrait-typ-9": portraitTyp9Page,
     suche: suchePage,
     tierquiz: tierquizPage,
+    "gesichts-scan": gesichtsScanPage,
     bewusstseinstest: bewusstseinsgradTestPage,
     quiz: quizPage,
     zitate: zitatePage,
@@ -44596,7 +45041,7 @@ function subtypeSchaubilderPage() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -44637,6 +45082,7 @@ function subtypeSchaubilderPage() {
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
+    if (base === "gesichts-scan") requestAnimationFrame(_gesichtsScanInit);
     if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
     bindEvents();
@@ -44777,7 +45223,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v652';
+  const MY_VERSION = 'inhalt-v653';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
