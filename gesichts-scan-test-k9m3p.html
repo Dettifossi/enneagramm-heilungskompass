@@ -46,6 +46,7 @@ button.secondary {
   padding: 0.75rem 1.6rem; font-size: 0.95rem; font-weight: 600; font-family: 'EB Garamond', serif;
   cursor: pointer; width: 100%; margin-top: 0.6rem;
 }
+a.secondary { display: flex; align-items: center; justify-content: center; text-decoration: none; }
 .scan-stage { position: relative; width: 100%; aspect-ratio: 3/4; border-radius: 16px; overflow: hidden; background: #1a1712; margin-bottom: 1rem; }
 .scan-stage video { width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
 .scan-oval {
@@ -57,7 +58,6 @@ button.secondary {
 .scan-oval svg { position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px); }
 .scan-oval-ring { fill: none; stroke: rgba(255,255,255,0.35); stroke-width: 3; }
 .scan-oval-progress { fill: none; stroke: var(--gold); stroke-width: 4; stroke-linecap: round; transition: stroke-dashoffset 0.1s linear; }
-.scan-oval-progress.flash { stroke: #fff; }
 .scan-prompt {
   position: absolute; bottom: 1rem; left: 0.8rem; right: 0.8rem; text-align: center;
   color: #fff; font-family: -apple-system, sans-serif; font-size: 1rem; font-weight: 600;
@@ -77,13 +77,20 @@ button.secondary {
 .progress-dots span { width: 9px; height: 9px; border-radius: 50%; background: var(--line); transition: background 0.3s; }
 .progress-dots span.done { background: var(--gold); }
 .progress-dots span.active { background: var(--copper); }
-.thumbs { display: flex; gap: 0.6rem; justify-content: center; margin: 1rem 0; flex-wrap: wrap; }
-.thumbs img { width: 70px; height: 70px; object-fit: cover; border-radius: 10px; border: 2px solid var(--gold); transform: scaleX(-1); }
+.photo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.7rem; margin: 1rem 0; }
+.photo-card { position: relative; border-radius: 12px; overflow: hidden; border: 2px solid var(--gold); }
+.photo-card img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+.photo-card button {
+  position: absolute; bottom: 0.4rem; right: 0.4rem; background: rgba(20,17,12,0.72); color: #fff;
+  border: none; border-radius: 8px; padding: 0.4rem 0.6rem; font-size: 0.78rem; font-weight: 600;
+  font-family: -apple-system, sans-serif; cursor: pointer;
+}
 .hidden { display: none !important; }
-.dl-row { display: flex; gap: 0.6rem; margin-top: 0.8rem; }
-.dl-row a { flex: 1; }
+.contact-group { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.6rem; }
+.contact-label { font-family: -apple-system, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin: 1rem 0 0.2rem; text-align: left; }
 footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 1.2rem; }
 .voice-toggle { display: flex; align-items: center; justify-content: center; gap: 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.8rem; color: var(--muted); margin-top: 0.6rem; }
+.save-hint { font-size: 0.82rem; color: var(--muted); text-align: left; line-height: 1.5; margin: 0.6rem 0 0; }
 </style>
 </head>
 <body>
@@ -126,14 +133,24 @@ footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin
     <p class="eyebrow">Fertig</p>
     <h1>Ihr Scan ist bereit</h1>
     <p class="body">Diese vier Aufnahmen sind nur auf Ihrem Gerät gespeichert — bislang bei niemandem sonst.</p>
-    <div class="thumbs" id="thumbs"></div>
-    <p class="body" style="font-size:0.88rem;">Möchten Sie mit einer echten Person sprechen? Speichern Sie die Fotos und hängen Sie sie Ihrer Nachricht an.</p>
-    <button class="secondary" id="btn-download">📥 Fotos speichern</button>
-    <div class="dl-row">
-      <a href="#" id="link-mail" class="secondary" style="text-decoration:none;display:flex;align-items:center;justify-content:center;">✉ E-Mail an Detlef</a>
-      <a href="#" id="link-wa" class="secondary" style="text-decoration:none;display:flex;align-items:center;justify-content:center;" target="_blank" rel="noopener">💬 WhatsApp Detlef</a>
+    <div class="photo-grid" id="photo-grid"></div>
+    <p class="save-hint" id="save-hint">Tippen Sie „Sichern", um ein Foto direkt in Ihrer Fotos-App zu speichern.</p>
+
+    <p class="body" style="font-size:0.9rem;margin-top:1rem;">Möchten Sie mit einer echten Person sprechen? Speichern Sie die Fotos und hängen Sie sie Ihrer Nachricht an.</p>
+
+    <p class="contact-label">Detlef Rathmer</p>
+    <div class="contact-group">
+      <a href="#" id="link-mail-detlef" class="secondary">✉ E-Mail an Detlef Rathmer</a>
+      <a href="#" id="link-wa-detlef" class="secondary" target="_blank" rel="noopener">💬 WhatsApp an Detlef Rathmer</a>
     </div>
-    <button class="secondary" id="btn-retry">↺ Scan wiederholen</button>
+
+    <p class="contact-label">David L. Rathmer</p>
+    <div class="contact-group">
+      <a href="#" id="link-mail-david" class="secondary">✉ E-Mail an David L. Rathmer</a>
+      <a href="#" id="link-wa-david" class="secondary" target="_blank" rel="noopener">💬 WhatsApp an David L. Rathmer</a>
+    </div>
+
+    <button class="secondary" id="btn-retry" style="margin-top:1.2rem;">↺ Scan wiederholen</button>
   </div>
 
   <!-- NO CAMERA FALLBACK -->
@@ -155,11 +172,16 @@ const STEPS = [
   { prompt: "Bewegen Sie nur den Kopf ganz leicht nach rechts – der Blick bleibt bei der Kamera", sub: "Leicht nach rechts", say: "Jetzt ganz leicht nach rechts. Der Blick bleibt bei der Kamera." },
   { prompt: "Schauen Sie noch einmal direkt in die Kamera", sub: "Frontal", say: "Und noch einmal direkt in die Kamera." },
 ];
-const PREPARE_MS = 1800; // Zeit zum Positionieren, nachdem die Ansage zu hören war
-const COUNTDOWN_MS = 1200; // Dauer des sichtbaren Countdown-Rings bis zur Aufnahme
+const PREPARE_MS = 1800;
+const COUNTDOWN_MS = 1200;
+
+const CONTACT = {
+  detlef: { mail: "detlefrathmer@t-online.de", wa: "4915758786201" },
+  david:  { mail: "rathmer.david.business@gmail.com", wa: "4915901902479" },
+};
 
 let stream = null;
-let shots = [];
+let shots = []; // { url, blob }
 let step = 0;
 let voiceOn = true;
 let cancelled = false;
@@ -198,8 +220,7 @@ async function startScan() {
 
 function setRing(fraction) {
   const ring = $("ring");
-  const circumference = 2 * Math.PI * 82 * 1.0; // Näherung für Ellipse reicht für Fortschrittsanzeige
-  const len = 620; // fester Wert, passend zur Ellipsen-Geometrie (visuelle Näherung)
+  const len = 620;
   ring.style.strokeDasharray = len;
   ring.style.strokeDashoffset = len * (1 - fraction);
 }
@@ -214,11 +235,9 @@ async function runStep() {
   setRing(0);
   speak(s.say);
 
-  // Vorbereitungszeit: Nutzer hat Zeit, sich zu positionieren
   await wait(PREPARE_MS);
   if (cancelled) return;
 
-  // Sichtbarer Countdown-Ring, der sich füllt
   const start = performance.now();
   await new Promise(resolve => {
     function tick(now) {
@@ -242,37 +261,58 @@ function capture() {
   const canvas = document.createElement("canvas");
   canvas.width = video.videoWidth; canvas.height = video.videoHeight;
   const ctx = canvas.getContext("2d");
-  ctx.translate(canvas.width, 0); ctx.scale(-1, 1); // mirror to match preview
+  ctx.translate(canvas.width, 0); ctx.scale(-1, 1);
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-  shots.push(canvas.toDataURL("image/jpeg", 0.9));
 
-  // Blitz-Effekt als Bestätigung der Aufnahme
   const flash = $("flash");
   flash.classList.remove("active"); void flash.offsetWidth; flash.classList.add("active");
 
-  step++;
-  if (step >= STEPS.length) {
-    finishScan();
-  } else {
-    setTimeout(runStep, 400);
+  canvas.toBlob(blob => {
+    shots.push({ url: URL.createObjectURL(blob), blob });
+    step++;
+    if (step >= STEPS.length) {
+      finishScan();
+    } else {
+      setTimeout(runStep, 400);
+    }
+  }, "image/jpeg", 0.92);
+}
+
+// Speichert direkt über den nativen Teilen-Dialog des Geräts ("In Fotos sichern" bei iOS,
+// Galerie bei Android) statt über einen Browser-Download, der sonst im Dateien-/Downloads-
+// Ordner landet statt in der Fotos-App.
+async function saveShot(index) {
+  const shot = shots[index];
+  const file = new File([shot.blob], "gesichts-scan-" + (index + 1) + ".jpg", { type: "image/jpeg" });
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], title: "Gesichts-Scan " + (index + 1) });
+      return;
+    } catch (e) { /* Nutzer hat abgebrochen oder Teilen fehlgeschlagen – Fallback unten */ }
   }
+  // Fallback für Browser ohne Datei-Teilen: Bild öffnen, Nutzer speichert per Langdruck manuell.
+  window.open(shot.url, "_blank");
 }
 
 function finishScan() {
   if (stream) { stream.getTracks().forEach(t => t.stop()); }
-  $("thumbs").innerHTML = shots.map(s => `<img src="${s}" style="transform:none;">`).join("");
-  const msg = encodeURIComponent("Hallo, ich habe gerade den Gesichts-Scan im Enneagramm-Heilungskompass gemacht und würde gerne einen Termin für eine persönliche Typberatung vereinbaren. Die Fotos hänge ich separat an.");
-  $("link-mail").href = "mailto:detlefrathmer@t-online.de?subject=Typberatung%20anfragen%20(Gesichts-Scan)&body=" + msg;
-  $("link-wa").href = "https://wa.me/4915758786201?text=" + msg;
-  showStage("stage-result");
-}
 
-function downloadShots() {
-  shots.forEach((s, i) => {
-    const a = document.createElement("a");
-    a.href = s; a.download = "gesichts-scan-" + (i + 1) + ".jpg";
-    document.body.appendChild(a); a.click(); a.remove();
-  });
+  $("photo-grid").innerHTML = shots.map((s, i) =>
+    `<div class="photo-card"><img src="${s.url}"><button onclick="saveShot(${i})">📥 Sichern</button></div>`
+  ).join("");
+
+  const canShareFiles = !!(navigator.canShare && navigator.canShare({ files: [new File([""], "t.jpg", { type: "image/jpeg" })] }));
+  $("save-hint").textContent = canShareFiles
+    ? "Tippen Sie „Sichern" — im Teilen-Menü dann „Bild sichern" bzw. „In Fotos sichern" wählen."
+    : "Tippen Sie „Sichern", dann das Bild antippen, gedrückt halten und „Bild sichern" wählen.";
+
+  const msg = encodeURIComponent("Hallo, ich habe gerade den Gesichts-Scan im Enneagramm-Heilungskompass gemacht und würde gerne einen Termin für eine persönliche Typberatung vereinbaren. Die Fotos hänge ich separat an.");
+  $("link-mail-detlef").href = "mailto:" + CONTACT.detlef.mail + "?subject=Typberatung%20anfragen%20(Gesichts-Scan)&body=" + msg;
+  $("link-wa-detlef").href = "https://wa.me/" + CONTACT.detlef.wa + "?text=" + msg;
+  $("link-mail-david").href = "mailto:" + CONTACT.david.mail + "?subject=Typberatung%20anfragen%20(Gesichts-Scan)&body=" + msg;
+  $("link-wa-david").href = "https://wa.me/" + CONTACT.david.wa + "?text=" + msg;
+
+  showStage("stage-result");
 }
 
 $("btn-start").addEventListener("click", () => {
@@ -285,7 +325,6 @@ $("btn-cancel").addEventListener("click", () => {
   showStage("stage-intro");
 });
 $("btn-back-nocam").addEventListener("click", () => showStage("stage-intro"));
-$("btn-download").addEventListener("click", downloadShots);
 $("btn-retry").addEventListener("click", startScan);
 </script>
 </body>
