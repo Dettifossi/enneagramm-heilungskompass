@@ -133,8 +133,9 @@ footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin
     <p class="eyebrow">Fertig</p>
     <h1>Ihr Scan ist bereit</h1>
     <p class="body">Diese vier Aufnahmen sind nur auf Ihrem Gerät gespeichert — bislang bei niemandem sonst.</p>
+    <button class="primary" id="btn-save-all">📥 Alle vier Fotos auf einmal sichern</button>
     <div class="photo-grid" id="photo-grid"></div>
-    <p class="save-hint" id="save-hint">Tippen Sie „Sichern", um ein Foto direkt in Ihrer Fotos-App zu speichern.</p>
+    <p class="save-hint" id="save-hint">Oder tippen Sie „Sichern" bei einem einzelnen Foto, um nur dieses zu speichern.</p>
 
     <p class="body" style="font-size:0.9rem;margin-top:1rem;">Möchten Sie mit einer echten Person sprechen? Speichern Sie die Fotos und hängen Sie sie Ihrer Nachricht an.</p>
 
@@ -167,10 +168,10 @@ footer.note { text-align: center; color: var(--muted); font-size: 0.8rem; margin
 <script>// Jeder Schritt: Ansage zu Ende sprechen lassen, dann Ruhepause zum Positionieren,
 // erst danach der sichtbare Countdown-Ring bis zur automatischen Aufnahme.
 const STEPS = [
-  { prompt: "Schauen Sie ganz entspannt direkt in die Kamera – als würden Sie sich selbst in die Augen schauen.", sub: "Frontal", say: "Schauen Sie ganz entspannt direkt in die Kamera. Als würden Sie sich selbst in die Augen schauen." },
-  { prompt: "Drehen Sie nur den Kopf ganz sacht nach links – der Blick bleibt bei der Kamera.", sub: "Sanft nach links", say: "Jetzt drehen Sie den Kopf ganz sacht nach links. Der Blick bleibt dabei bei der Kamera." },
-  { prompt: "Und jetzt ganz sacht nach rechts – der Blick bleibt weiterhin bei der Kamera.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin bei der Kamera." },
-  { prompt: "Zum Abschluss noch einmal ganz entspannt direkt in die Kamera schauen.", sub: "Frontal", say: "Zum Abschluss schauen Sie noch einmal ganz entspannt direkt in die Kamera." },
+  { prompt: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones – der Rahmen zeigt nur den Aufnahmebereich.", sub: "Frontal", say: "Schauen Sie ganz entspannt direkt in die Kamera Ihres Smartphones. Der Rahmen zeigt nur den Aufnahmebereich – Ihr Blick bleibt an der Kamera." },
+  { prompt: "Drehen Sie nur den Kopf ganz sacht nach links – der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach links", say: "Jetzt drehen Sie den Kopf ganz sacht nach links. Der Blick bleibt dabei weiterhin an der Kamera Ihres Smartphones." },
+  { prompt: "Und jetzt ganz sacht nach rechts – der Blick bleibt weiterhin an der Kamera Ihres Smartphones.", sub: "Sanft nach rechts", say: "Und jetzt ganz sacht nach rechts. Der Blick bleibt weiterhin an der Kamera Ihres Smartphones." },
+  { prompt: "Zum Abschluss noch einmal direkt in die Kamera Ihres Smartphones schauen.", sub: "Frontal", say: "Zum Abschluss schauen Sie noch einmal direkt in die Kamera Ihres Smartphones." },
 ];
 const SETTLE_MS = 2200;    // Ruhezeit nach der Ansage, bevor der Countdown startet
 const COUNTDOWN_MS = 3200; // sichtbarer, langsamer Countdown-Ring bis zur Aufnahme
@@ -360,6 +361,20 @@ async function saveShot(index) {
   window.open(shot.url, "_blank");
 }
 
+// Speichert alle vier Fotos auf einmal über denselben nativen Teilen-Dialog
+// (iOS bietet dort z. B. "4 Bilder sichern" in einem Schritt an).
+async function saveAllShots() {
+  const files = shots.map((s, i) => new File([s.blob], "gesichts-scan-" + (i + 1) + ".jpg", { type: "image/jpeg" }));
+  if (navigator.canShare && navigator.canShare({ files })) {
+    try {
+      await navigator.share({ files, title: "Gesichts-Scan – alle Fotos" });
+      return;
+    } catch (e) { /* Nutzer hat abgebrochen oder Teilen fehlgeschlagen – Fallback unten */ }
+  }
+  // Fallback: Bilder einzeln in neuen Tabs öffnen, Nutzer speichert jedes per Langdruck.
+  shots.forEach(s => window.open(s.url, "_blank"));
+}
+
 function finishScan() {
   if (stream) { stream.getTracks().forEach(t => t.stop()); }
 
@@ -392,6 +407,7 @@ $("btn-cancel").addEventListener("click", () => {
 });
 $("btn-back-nocam").addEventListener("click", () => showStage("stage-intro"));
 $("btn-retry").addEventListener("click", startScan);
+$("btn-save-all").addEventListener("click", saveAllShots);
 </script>
 </body>
 </html>
