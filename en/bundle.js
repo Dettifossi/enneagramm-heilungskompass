@@ -10339,7 +10339,7 @@ function heilungswegPage() {
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Enneagramm-Homeopathy</p>
       <h1 class="section-title">Der Heilungsweg des Menschen</h1>
-      <p class="psycho-intro">Diese \xdcbersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Homeopathy von Detlef Rathmer: vom unbewussten Muster \xfcber die Erkenntnis der Leidenschaft bis zur Integration und Heilung.</p>
+      <p class="psycho-intro">This overview shows the path of healing according to the Enneagram-Homeopathy model by Detlef Rathmer: from the unconscious pattern through the realization of the passion to integration and healing.</p>
       <div class="psycho-img-wrap" style="margin:1.2rem 0 2.5rem;">
         <img src="${CDN}assets/schaubilder/heilungsweg/heilungsweg.jpg"
              alt="Der Heilungsweg des Menschen nach der Enneagramm-Homeopathy"
@@ -10377,7 +10377,7 @@ function heilungswegPage() {
         </div>
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;">
-          <p class="vb-intro">Die Enneagramm-Homeopathy versteht Krankheit als Ausdruck einer inneren Entfremdung &ndash; nicht im romantischen Sinn, sondern als reale, erfahrbare Spaltung zwischen Wesen und Leben. Das Remedies unterst\xfctzt nicht die Anpassung an ein dysfunktionales Gleichgewicht, sondern f\xf6rdert eine Reorganisation von innen. Wenn das gelingt, ver\xe4ndern sich Symptome oft bei\xe4ufig. Nicht, weil sie bek\xe4mpft wurden, sondern weil sie ihren Sinn verloren haben.</p>
+          <p class="vb-intro">Enneagram-Homeopathy understands disease as an expression of an inner alienation – not in a romantic sense, but as a real, tangible split between essence and life. The remedy does not support adaptation to a dysfunctional balance, but rather promotes a reorganization from within. When this succeeds, symptoms often change as a byproduct. Not because they were fought, but because they have lost their purpose.</p>
         </div>
 
         <div style="border-left:3px solid var(--gold);padding:.9rem 1.1rem;margin:1.8rem 0;background:var(--paper);border-radius:0 8px 8px 0;">
@@ -10388,7 +10388,7 @@ function heilungswegPage() {
       ${relatedLinks([
         {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
         {route:"wunden", label:"Wunden & Schutzstrategien"},
-        {route:"bewusstseinsuebungen", label:"Bewusstseinsübungen"},
+        {route:"bewusstseinsuebungen", label:"Consciousness Exercises"},
       ])}
     </div>
   `);
@@ -10724,13 +10724,13 @@ function lasterTugendenAffirmationenPage() {
     <section class="narrow">
       <p class="eyebrow">Charts · Laster · Tugenden · Affirmationen</p>
       <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
-      <p class="lead-small">Jeder Enneagrammtyp hat ein charakteristisches Laster (die verdichtete Leidenschaft) und eine Tugend als heilsames Gegenstück. Die Affirmationen sprechen direkt das tiefste Bedürfnis jedes Typs an.</p>
+      <p class="lead-small">Every Enneagram type has a characteristic vice (the concentrated passion) and a virtue as its healing counterpart. The affirmations speak directly to the deepest need of each type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
              alt="Laster, Tugenden und Affirmationen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
-      <h2 style="margin-top:2.5rem; font-size:1.2rem; text-align:center; letter-spacing:0.05em; color:var(--ink);">Affirmationen für die 9 Enneatypen</h2>
+      <h2 style="margin-top:2.5rem; font-size:1.2rem; text-align:center; letter-spacing:0.05em; color:var(--ink);">Affirmations for the 9 Enneatypes</h2>
       <div style="margin-top:1rem; display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.75rem; grid-auto-rows:1fr;">
         <div style="background:#c49090; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#3a1010; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 1<br><span style="font-weight:400; font-size:0.85rem;">Du bist ein wirklich guter Mensch!</span></div>
         <div style="background:#7a2d90; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 2<br><span style="font-weight:400; font-size:0.85rem;">Ich bin so dankbar für deine Hilfe!</span></div>
@@ -10743,7 +10743,7 @@ function lasterTugendenAffirmationenPage() {
         <div style="background:#d0dc28; border-radius:0.5rem; padding:0.9rem 0.75rem; text-align:center; font-weight:500; font-size:0.9rem; color:#303800; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:110px;">Typ 9<br><span style="font-weight:400; font-size:0.85rem;">Die Zeit mit dir ist immer sehr wertvoll für mich, danke!</span></div>
       </div>
       <div style="margin:2.5rem 0 0;">
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Die Tugend ist schon da</h2>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">The Virtue Is Already There</h2>
         <img
           src="${CDN}assets/tugend.jpg"
           alt="Die Tugend des Typs ist schon da – sie ist nur von Angst überdeckt."
@@ -10754,11 +10754,11 @@ function lasterTugendenAffirmationenPage() {
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">Das ist eine der tiefsten Aussagen des Enneagramms: Entwicklung bedeutet nicht, einen neuen Menschen zu erschaffen. Es bedeutet, freizulegen, was schon da ist &ndash; und was das Ego mit seinen Schutzstrategien bisher verborgen hat.</p>
       </div>
 
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees &ndash; Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes – passions, virtues, and paths of healing directly from therapeutic practice.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"heilungsweg", label:"Heilungsweg"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
-        {route:"spirituelle-uebungen", label:"Spirituelle Übungen"},
+        {route:"spirituelle-uebungen", label:"Spiritual Exercises"},
       ])}
     </section>
   `);
@@ -38495,24 +38495,24 @@ function davidRathmerPersoenlichkeitenPage() {
     "Ennea Exposed: Famous Personalities",
     "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
     [
-      { titel: "Ennea Exposed: Famous Personalities", bookTipAfterEach: bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe — Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1") + bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit"), videos: [
-        { id: "LaWtvvpo-x8", label: "Episode 1: Persönlichkeitsanalyse von Wladimir Putin" },
-        { id: "wcYhn3-K3Pc", label: "Episode 2: Persönlichkeitsanalyse von Friedrich Merz" },
-        { id: "KUMqh3aiCwk", label: "Episode 3: Persönlichkeitsanalyse von P. Diddy" },
-        { id: "su80pHiYfAg", label: "Episode 4: Persönlichkeitsanalyse von Mark Zuckerberg" },
-        { id: "S9NpViOEOmU", label: "Episode 5: Persönlichkeitsanalyse von Kollegah" },
-        { id: "XnS_8QaUL8Y", label: "Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein" },
-        { id: "tk05kjDO1JA", label: "Episode 7: Persönlichkeitsanalyse von Elon Musk" },
+      { titel: "Ennea Exposed: Famous Personalities", bookTipAfterEach: bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth — protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1") + bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit"), videos: [
+        { id: "LaWtvvpo-x8", label: "Episode 1: Personality Analysis of Vladimir Putin" },
+        { id: "wcYhn3-K3Pc", label: "Episode 2: Personality Analysis of Friedrich Merz" },
+        { id: "KUMqh3aiCwk", label: "Episode 3: Personality Analysis of P. Diddy" },
+        { id: "su80pHiYfAg", label: "Episode 4: Personality Analysis of Mark Zuckerberg" },
+        { id: "S9NpViOEOmU", label: "Episode 5: Personality Analysis of Kollegah" },
+        { id: "XnS_8QaUL8Y", label: "Episode 6: Personality Analysis of Jeffrey Epstein" },
+        { id: "tk05kjDO1JA", label: "Episode 7: Personality Analysis of Elon Musk" },
         { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Warum Freunde zu Feinden wurden | Profiling-Analyse" },
         { id: "CHQsVdYZ_eo", label: "Jordan Peterson: Was ihn in Diskussionen unschlagbar macht – Profiler reagiert …" },
         { id: "N-gMMS2SMBk", label: "Profiler exposed Taddl – Was steckt hinter seinem Image?" },
         { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
         { id: "If5jZpTLUac", label: "Til Schweiger: Was ihn als Filmemacher einzigartig macht – Profiler reagiert …" },
         { id: "jJCUgSFPpsM", label: "Andrew Tate: Was steckt hinter seinem Verhalten? – Reaktion vom Profiler" },
-        { id: "QzEfQ2M_wL8", label: "AnniTheDuck in der Tiefe erklärt – Was steckt hinter ihrem Verhalten?" },
+        { id: "QzEfQ2M_wL8", label: "AnniTheDuck explained in depth – What is behind her behavior?" },
         { id: "jr4Uk0y4NoI", label: "Profiler reagiert auf Tomatolix – „Diese Selbstexperimente musste ich abbrechen“" },
-        { id: "kCeWwTbC38I", label: "Marc Gebauer psychologisch erklärt!" },
-        { id: "RenXmYRwdps", label: "Jeremy Fragrance - Verhaltensweisen in der Tiefe erklärt - Reaktion vom Profiler" },
+        { id: "kCeWwTbC38I", label: "Marc Gebauer psychologically explained!" },
+        { id: "RenXmYRwdps", label: "Jeremy Fragrance - Behaviors explained in depth - Profiler reaction" },
         { id: "dYs0myM02ec", label: "Profiler reagiert auf ApoRed - „Ich zeige euch ALLES! Auto, Wohnung..." },
       ]},
     ]
@@ -40359,7 +40359,7 @@ function gifteDesGeistesPage() {
           Heilsam wirken Selbsterkenntnis und Liebe und das entsprechende homöopathische Enneagramm-Remedies.
         </div>
       </div>
-      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre buddhistischen Wurzeln &ndash; mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "The 9 Passions and Their Buddhist Roots – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"neun-logismoi", label:"9 Logismoi nach Evagrius"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
@@ -40396,7 +40396,7 @@ function angstEssenzPage() {
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Tiefenpsychologie</p>
       <h1 class="section-title">Angst → Essenz</h1>
-      <p class="psycho-intro">Die neun Enneagrammtypen lassen sich nicht nur \xfcber ihre Leidenschaften verstehen, sondern tiefer: \xfcber ihre Grundangst. Was nach au\xdfen als Zorn, Stolz oder Trägheit erscheint, ist psychodynamisch betrachtet die emotionale F\xe4rbung einer existenziellen Schutzreaktion. Dieses Schaubild zeigt den Weg von der Angst \xfcber Stabilisierung und Fixierung bis zur Essenz eines jeden Typs.</p>
+      <p class="psycho-intro">The nine Enneagram types can be understood not only through their passions, but more deeply: through their core fear. What appears on the outside as anger, pride, or sloth is, psychodynamically speaking, the emotional coloring of an existential defense reaction. This chart shows the path from fear, through stabilization and fixation, to the essence of each type.</p>
       <img
         src="${CDN}assets/angst-essenz.png"
         alt="Angst zur Essenz &ndash; alle 9 Enneagrammtypen"
@@ -40405,8 +40405,8 @@ function angstEssenzPage() {
 
       <div class="vb-section" style="max-width:100%;">
 
-        <p class="vb-intro">In vielen Darstellungen hei\xdft es: Die Leidenschaft befeuert die intrinsische Motivation. Psychodynamisch betrachtet l\xe4sst sich das jedoch auch umgekehrt lesen: Nicht die Leidenschaft erzeugt das Verhalten. Die Leidenschaft ist der energetische Ausdruck einer tiefer liegenden Grundangst.</p>
-        <p class="vb-intro" style="font-style:italic;color:var(--muted);">Das Ego organisiert sich um eine existenzielle Bedrohung. Aus dieser Bedrohung entsteht eine Stabilisierungstendenz &ndash; aus der Stabilisierung eine Fixierung &ndash; und die Leidenschaft ist die emotionale F\xe4rbung dieser Fixierung.</p>
+        <p class="vb-intro">In many representations it is said: The passion fuels intrinsic motivation. Psychodynamically, however, this can also be read in reverse: The passion does not generate the behavior. The passion is the energetic expression of a deeper underlying core fear.</p>
+        <p class="vb-intro" style="font-style:italic;color:var(--muted);">The ego organizes itself around an existential threat. Out of this threat, a tendency toward stabilization arises – out of stabilization, a fixation – and the passion is the emotional coloring of this fixation.</p>
 
         ${[
           { nr:1, titel:"Angst vor Errorhaftigkeit",
@@ -40478,15 +40478,15 @@ function angstEssenzPage() {
         `).join("")}
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:2rem;">
-          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Angeborene Disposition und Entwicklung</h2>
-          <p class="vb-intro">Diese Strukturen sind nicht ausschlie\xdflich Ergebnis fr\xfcher Lebenserfahrungen. Temperamentsforschung und Zwillingsstudien zeigen, dass Menschen mit unterschiedlichen Reaktionsdispositionen geboren werden. Wir bringen eine bestimmte Sensibilit\xe4t f\xfcr eine spezifische Form von Bedrohung mit auf diese Welt. Diese Disposition trifft auf fr\xfche Beziehungserfahrungen &ndash; aus dieser Wechselwirkung entsteht die Ich-Struktur.</p>
-          <p class="vb-intro" style="font-style:italic;color:var(--muted);">Angst → Stabilisierung → Fixierung → Leidenschaft → Identit\xe4t.</p>
-          <p class="vb-intro">Was wir als „Intrinsische Motivation“ erleben, ist oft die rationalisierte Form dieser Stabilisierung. Die Leidenschaft ist nicht die prim\xe4re Ursache, sondern der affektive Ausdruck der Abwehrorganisation.</p>
+          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Innate Disposition and Development</h2>
+          <p class="vb-intro">These structures are not solely the result of early life experiences. Temperament research and twin studies show that people are born with different response dispositions. We enter this world with a specific sensitivity to a specific form of threat. This disposition meets early relational experiences – out of this interaction, the ego structure emerges.</p>
+          <p class="vb-intro" style="font-style:italic;color:var(--muted);">Fear → Stabilization → Fixation → Passion → Identity.</p>
+          <p class="vb-intro">What we experience as "intrinsic motivation" is often the rationalized form of this stabilization. Passion is not the primary cause, but the affective expression of the defense organization.</p>
         </div>
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1.5rem;">
-          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Reifung und Freiheit</h2>
-          <p class="vb-intro">Reifung bedeutet nicht, die Struktur abzuschaffen. Reifung bedeutet, die zugrunde liegende Angst bewusst halten zu k\xf6nnen. Wenn Angst nicht mehr unbewusst regiert, ver\xe4ndert sich die Qualit\xe4t der Energie:</p>
+          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Maturation and Freedom</h2>
+          <p class="vb-intro">Maturation does not mean abolishing the structure. Maturation means being able to consciously hold the underlying fear. When fear no longer rules unconsciously, the quality of the energy changes:</p>
           <div style="display:grid;gap:.4rem;font-size:.85rem;margin:1rem 0 1.2rem;padding:.8rem 1rem;background:var(--paper);border-radius:8px;border:1px solid var(--line);">
             ${[
               ["\xe4u\xdfere Moral","innere Weisheit"],
@@ -40500,7 +40500,7 @@ function angstEssenzPage() {
               ["\xe4u\xdfere Harmonie","innerer Frieden"],
             ].map(([von,zu]) => `<div><span style="color:var(--muted);">${von}</span> <span style="color:var(--copper);font-weight:700;">→</span> <span style="font-weight:600;">${zu}</span></div>`).join("")}
           </div>
-          <p class="vb-intro">Nicht der Typ verschwindet. Aber die Angst verliert ihre Vorherrschaft.</p>
+          <p class="vb-intro">The type does not disappear. But the fear loses its dominance.</p>
         </div>
 
         <div style="border-left:3px solid var(--gold);padding:.9rem 1.1rem;margin:2rem 0;background:var(--paper);border-radius:0 8px 8px 0;">
@@ -45272,7 +45272,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v657';
+  const MY_VERSION = 'inhalt-v658';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
