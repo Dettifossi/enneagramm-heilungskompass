@@ -33348,21 +33348,21 @@ function josefFritzlPortraitPage() {
         that is entirely blocked from within:
         the Nine prevents the collapse,
         the One maintains the self-image.</p>
-        <p class="vb-intro"><strong>f) Vergleich mit Alex Murdaugh (SX1w2):</strong>
-        Beide sind sexuelle Einsen,
-        beide mordeten oder versklavten im Schutz
-        eines bürgerlichen Lebens.
-        Der Unterschied liegt im Flügel:
-        <strong>Murdaugh</strong> (SX1w2) brauchte Publikum,
-        Bestätigung, soziale Resonanz –
-        seine Charme-Fassade war aktiv und aufwendig.
-        <strong>Fritzl</strong> (SX1w9) brauchte keine Resonanz –
-        er brauchte Kontrolle.
-        Die Neun macht ihn selbstgenügsamer,
-        introvertierter, unabhängiger
-        von der Außenwirkung.
-        Das System im Keller war
-        sein einziges Publikum.</p>
+        <p class="vb-intro"><strong>f) Comparison with Alex Murdaugh (SX1w2):</strong>
+        Both are Sexual Ones,
+        both murdered or enslaved under the protection
+        of a bourgeois life.
+        The difference lies in the wing:
+        <strong>Murdaugh</strong> (SX1w2) needed an audience,
+        validation, social resonance –
+        his charming facade was active and elaborate.
+        <strong>Fritzl</strong> (SX1w9) needed no resonance –
+        he needed control.
+        The Nine makes him more self-contained,
+        more introverted, less dependent
+        on external perception.
+        The system in the cellar was
+        his only audience.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
