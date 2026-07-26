@@ -1,16 +1,183 @@
-=== PAGE: wolfsartenDer9TypenPage (Teil 1) ===
-[H] Typ 1 – Grauwolf: Ordnung und Struktur im Rudel
-[H] Typ 2 – Polarwolf: Fürsorge und kooperatives Miteinander
-[H] Typ 3 – Rotwolf: Anpassungsfähigkeit und Überlebenswille
-[H] Typ 4 – Mähnenwolf: Einzigartigkeit und seltenes Wesen
-[H] Typ 5 – Arabischer Wolf: Rückzug und stille Beobachtung
-[H] Typ 6 – Eurasischer Wolf: Loyalität und Rudelzusammenhalt
-[H] Typ 7 – Indischer Wolf: Neugier und Lebhaftigkeit
-[H] Typ 8 – Timberwolf: Dominanz und Führungsstärke
-[H] Typ 9 – Iberischer Wolf: Harmonie und Ausgleich
-[P] Die Zuordnung von neun Wolfsarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Wölfe und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Der Wolf steht seit Urzeiten für Instinkt, Gemeinschaft und innere Stärke — jede Art auf ihre ganz eigene Weise.
-[P] Der Grauwolf zeigt ein starkes Territorialverhalten und soziale Hierarchie innerhalb des Rudels, was auf eine Ordnung und Struktur hinweist, die dem Typ 1 sehr ähnlich ist. Der Grauwolf ist der Architekt des Rudels: Er kennt die Grenzen seines Reviers auf den Meter genau, markiert sie regelmäßig und verteidigt sie konsequent. Die Hierarchie im Rudel ist klar geregelt — nicht durch rohe Gewalt, sondern durch eine soziale Ordnung, die alle anerkennen. Grauwölfe fressen zuletzt und trinken zuerst nur, wenn die Situation es erlaubt: Pflicht vor Privileg. Die Leidenschaft des Zorns zeigt sich als innere Spannung, wenn Ordnung und Gerechtigkeit verletzt werden.
-[P] Der Polarwolf lebt in extremen Umgebungen und zeigt starkes kooperatives Verhalten innerhalb des Rudels — was dem Bedürfnis von Typ 2 entspricht, für andere zu sorgen. Der Polarwolf überlebt die Arktis nur durch radikale Kooperation: Die gesamte Gruppe kümmert sich gemeinsam um den Nachwuchs, teilt Beute auch mit schwächeren Rudelmitgliedern und hält auch bei extremem Frost zusammen. Jeder im Rudel hat eine Rolle, aber niemand wird allein gelassen. Der Polarwolf ist weiß wie Schnee — kein Versteck, volle Sichtbarkeit: Ich bin hier, ich helfe, ich gehöre dazu. Die Leidenschaft des Stolzes zeigt sich als tiefer Wunsch, unverzichtbar für das Überleben anderer zu sein.
-[P] Der Rotwolf ist bekannt für seine Anpassungsfähigkeit und Überlebensfähigkeiten, was den Erfolg und die Anerkennung widerspiegelt, die den Typ 3 antreiben. Der Rotwolf ist einer der seltensten Wölfe der Welt — und ein Meister der Anpassung. Er hat Jahrhunderte der Verfolgung überlebt, indem er sein Verhalten, sein Revier und seine Jagdstrategie der jeweiligen Situation anpasste. Heute existiert er fast nur noch in Gefangenschaftszuchtprogrammen — ein Zeuge davon, wie weit Überlebenswille reichen kann. Der Rotwolf sucht keine Konfrontation, er findet Wege. Die Leidenschaft der Eitelkeit zeigt sich als Identifikation mit dem eigenen Erfolg — der Wille, trotz allem zu bestehen.
-[P] Der Mähnenwolf zeichnet sich durch sein markantes Aussehen, seine spezielle Lebensweise und sein sehr individuelles Verhalten aus — was der Besonderheit von Typ 4 entspricht. Der Mähnenwolf ist kein echter Wolf und kein Fuchs — er ist einzigartig: die einzige Art seiner Gattung. Mit langen schwarzen Beinen, rotbraunem Fell und einer schwarzen Mähne ist er unverwechselbar. Er lebt als Einzelgänger in den Cerrado-Savannen Brasiliens und streift weiträumig und allein durch sein Territorium. Er meidet andere Mähnenwölfe, außer zur Paarungszeit. Die Leidenschaft des Neids zeigt sich als Sehnsucht nach tiefer Verbindung bei gleichzeitigem Festhalten an der eigenen Andersartigkeit.
-[P] Der arabische Wolf lebt in extremen Wüstenregionen und zeigt ein zurückhaltendes Verhalten, das dem Typ 5 entspricht. Der Arabische Wolf ist der kleinste Wolf der Welt — und der einsamste. Er lebt meist als Einzelgänger oder in kleinen Paaren in den Wüsten der Arabischen Halbinsel und Israels, und hat sich an Hitze und Trockenheit angepasst wie kein anderer Canide. Er jagt nachts, hält sich tagsüber verborgen und braucht wenig, um zu überleben: minimale Ressourcen, maximale Effizienz. Die Leidenschaft des Geizes zeigt sich als äußerste Sparsamkeit mit allem — Energie, Raum, Vertrauen.
+=== PAGE: pDiddyPortraitPage ===
+[H] 3. Das Tatgeschehen: Ein System hinter der Fassade
+[H] 5. Die Fassade: Öffentlichkeit und verborgenes System
+[H] 7. Enneagramm-Analyse: Die Dynamik der Entgleisung
+[P] 
+        <strong>Sean John Combs</strong>, bekannt als <em>Puff Daddy</em>, <em>P. Diddy</em> und später nur noch <em>Diddy</em>,
+        wurde am 4. November 1969 in Harlem, New York, geboren.
+        Er wuchs in bescheidenen Verhältnissen auf – sein Vater, ein kleinkrimineller Drogenkurier,
+        wurde erschossen, als Sean drei Jahre alt war.
+        Aus diesem Fundament der Abwesenheit und des Verlustes
+        entwickelte er eine unstillbare Energie nach oben.
+        Er studierte an der Howard University in Washington, D.C.,
+        brach jedoch ab, um bei Uptown Records zu arbeiten.
+        1993 gründete er sein eigenes Label: <strong>Bad Boy Records</strong>.
+        Mit Künstlern wie The Notorious B.I.G., Mary J. Blige und Faith Evans
+        prägte er eine Ära des Hip-Hop und R&B.
+        Forbes schätzte sein Vermögen zeitweise auf über eine Milliarde Dollar.
+        Im September 2024 wurde er verhaftet. Im Oktober 2025 verurteilte ihn
+        ein Bundesgericht in New York wegen Sex-Trafficking – Menschenhandel zum Zweck der sexuellen Ausbeutung, eine schwere Menschenrechtsverletzung und Form moderner Sklaverei –, Nötigung und Körperverletzung
+        zu vier Jahren und zwei Monaten Haft.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der alles haben wollte –
+        Ruhm, Geld, Kontrolle, Liebe – ein System der Unterwerfung erschuf,
+        das Jahrzehnte im Verborgenen blieb.
+      
+[P] 
+        Der <strong>Schimpanse</strong> ist die Animal correspondence der sexuellen Sieben.
+        Er ist hochintelligent, sozial gewandt, auf Bindung und Statuserwerb ausgerichtet –
+        und er kann in Sekundenbruchteilen zur brutalen Durchsetzungskraft werden,
+        wenn sein Rang oder sein Territorium bedroht ist.
+        Schimpansen leben in komplexen Hierarchien: Sie pflegen Allianzen,
+        nutzen Koalitionen und schalten Rivalen aus – mit kalkulierter Gewalt.
+        Combs baute ähnliche Strukturen: ein Netz aus Loyalität, Abhängigkeit und Einschüchterung,
+        in dem er der unbestrittene Alfa war.
+        Schimpansen sind zudem dokumentiert dafür bekannt, Artgenossen, die aus der Gruppe fallen oder als Rivalen gelten, gemeinschaftlich zu verfolgen und zu töten – ein Verhalten, das Primatologen wie Jane Goodall erstmals in Tansania beschrieben. Diese Fähigkeit zur kalkulierten, kollektiven Gewalt ist keine Ausnahme, sondern Teil des Schimpansen-Wesens.
+        Die Liebenswürdigkeit des Schimpansen und seine Aggressivität
+        sind keine Gegensätze – sie sind zwei Seiten derselben Kontrollstrategie.
+        
+[P] <strong>a) Das Grundmuster der sexuellen Sieben:</strong>
+        Die sexuelle Sieben ist die intensivste aller Siebenausprägungen.
+        Sie sucht nicht nur das nächste Vergnügen – sie sucht das <em>ultimative</em> Vergnügen,
+        die vollständige Erfüllung, den Zustand, in dem nichts fehlt.
+        Diese Energie brachte Combs an die Spitze der Musikbranche –
+        sie machte ihn zum unermüdlichen Gestalter, Produzenten, Markenarchitekten.
+        Doch dieselbe Energie, die Größe schafft,
+        kennt keine innere Begrenzung.
+        Was Combs wollte, sollte er bekommen – sei es kommerzieller Erfolg,
+        soziale Dominanz oder die körperliche Unterwerfung anderer Menschen.
+[P] <strong>b) Der Eight-wing: Kontrolle durch Einschüchterung:</strong>
+        Der Eight-wing der sexuellen Sieben ist kein gelegentliches Aufflackern von Direktheit –
+        er ist eine permänente Haltung: Ich bestimme, was hier passiert.
+        Zeugenaussagen im Prozess beschrieben ein System physischer Einschüchterung,
+        systematischer Drohungen und psychologischer Kontrolle gegenüber Frauen in seinem Umfeld.
+        Mitarbeiter, Partner und Künstler berichteten von einem Klima der Angst,
+        in dem Widerspruch gefährlich war.
+        Der Eight-wing macht es möglich, Gewält nicht als Kontrollverlust zu erleben,
+        sondern als legitimes Mittel der Durchsetzung –
+        ein Denken, das Combs offenbar über Jahrzehnte trug.
+[P] <strong>c) Die Leidenschaft: Maßlosigkeit:</strong>
+        Die Leidenschaft der Sieben ist die <strong>Maßlosigkeit</strong> –
+        das Verlangen, das sich nicht satt essen kann.
+        Bei Combs zeigte sie sich auf mehreren Ebenen:
+        im Aufbau eines Imperiums, das nie groß genug war,
+        in Feiern, die Legenden wurden („White Parties“ in den Hamptons, Partys auf Yachten),
+        und – nach Aussage zahlreicher Kläger – in organisierten „Freak-offs“:
+        stundenlangen, unter Narkose erzwungenen sexuellen Ereignissen,
+        die er nach Zeugenaussagen selbst inszenierte und filmte.
+        Die Maßlosigkeit der Sieben in sehr unbewussten, pathologischen Bereichen – also wenn ein Mensch auf niedrigen Levels of Consciousness agiert – kennt keine natürliche Grenze –
+        und wenn der Eight-wing hinzukommt, auch keine ethische.
+[P] <strong>a) Der Aufstieg:</strong>
+        Combs gründete 1993 Bad Boy Records und produzierte einige der meistverkauften Alben der 1990er Jahre.
+        Sein Ruf als knallharter, aber brillanter Produzent wuchs mit jedem Erfolg.
+        Er gründete eine Modemarke (Sean John), ein Spirituosenimperium (Ciróc Vodka)
+        und galt als Vorbild für unternehmerischen Erfolg aus dem afroamerikanischen Milieu.
+        Dieser Glanz war kein Zufall – er war Teil einer sorgfältig kontrollierten öffentlichen Identität,
+        hinter der sich ein anderes System verbarg.
+[P] <strong>b) Die Klagen und Ermittlungen:</strong>
+        Ab 2023 häuften sich Zivilklagen gegen Combs.
+        Die erste öffentlich bekannte Klage stammt von seiner früheren Partnerin
+        <strong>Cassie Ventura</strong>, die ihm Vergewaltigung und jahrelangen Missbrauch vorwarf.
+        Combs einigte sich innerhalb eines Tages auf einen außergerichtlichen Vergleich –
+        doch das Video, das kurz darauf öffentlich wurde, änderte alles:
+        Sicherheitskameras eines Hotels zeigten ihn dabei, wie er Cassie im Flur schlug,
+        während sie versuchte zu fliehen.
+        Das FBI durchsuchte im März 2024 seine Anwesen in Miami und Los Angeles
+        und beschlagnahmte u.a. große Mengen Babyöl und Gleitmittel –
+        Materialien, die später im Zusammenhang mit den beschriebenen „Freak-offs“ erwähnt wurden.
+        Im September 2024 wurde Combs in New York verhaftet.
+[P] <strong>c) Der Prozess und das Urteil:</strong>
+        Im Oktober 2025 wurde Sean Combs vom Bundesgericht des Southern District of New York
+        wegen Sex-Trafficking, Nötigung und körperlicher Misshandlung schuldig gesprochen.
+        Richter Arun Subramanian verurteilte ihn zu <strong>vier Jahren und zwei Monaten Haft</strong>
+        sowie einer Geldstrafe von 500.000 Dollar und fünf Jahren Bewährung nach der Haftentlassung.
+        Die Verteidigung legte Berufung ein.
+        Durch ein Drogenrehabilitationsprogramm während der Untersuchungshaft
+        wurde die Haftzeit verkürzt; eine frühzeitige Entlassung wurde für April 2026 ermöglicht.
+        Ob er tatsächlich entlassen wurde, hängt vom Ausgang der Berufungsverfahren ab.
+[P] <strong>a) Der frühe Verlust:</strong>
+        Sean Combs wuchs ohne Vater auf. Melvin Earl Combs, ein Mitläufer im Umfeld des Harlem-Drogenmilieus,
+        wurde 1972 erschossen – Sean war drei Jahre alt.
+        Seine Mutter Janice zog ihn allein auf, arbeitete als Lehrerin und Modell
+        und schirmte ihn nach Kräften ab.
+        Der frühe Verlust des Vaters durch Gewalt ist bei der sexuellen Sieben typologisch bedeutsam:
+        Er legt den Grundstein für ein Muster, das Schmerz nicht verarbeitet, sondern überwältigt –
+        durch Leistung, durch Charme, durch Überfluss, durch Kontrolle.
+        Was fehlt, soll durch Fülle ersetzt werden. Was schmerzt, soll durch Erfolg zum Schweigen gebracht werden.
+[P] <strong>b) Der frühe Aufstieg als Kompensation:</strong>
+        Bereits an der Howard University fiel Combs durch Organisationstalent und Durchsetzungswillen auf.
+        Er veranstaltete Partys, baute Netzwerke, brachte sich bei André Harrell von Uptown Records ins Gespräch.
+        Die sexuelle Sieben kompensiert frühen Mangel durch maximale Selbsterschaffung:
+        Ich werde so groß, so sichtbar, so unentbehrlich, dass Verlust mich nie wieder treffen kann.
+        Combs wurde zu einem der mächtigsten Männer der Musikbranche –
+        und das Muster, das ihn dahin gebracht hatte, blieb unverändert.
+[P] <strong>a) Das öffentliche Bild:</strong>
+        Combs war ein Meister der Inszenierung. Seine „White Parties" in den Hamptons
+        galten als kulturelle Institutionen – Gästelisten lasen sich wie Who's Who der Unterhaltungswelt.
+        Er trat als Philanthrop auf, unterstützte Bildungsinitiativen, sprach über seine Mutter
+        und seine schwierige Kindheit. Das Bild: ein Selfmade-Mensch, der zurückgibt.
+        Die sexuelle Sieben with Eight-wing versteht instinktiv,
+        dass öffentliche Strahlkraft Schutz ist. Wer so sichtbar beliebt ist,
+        wirkt per Definition unverdächtig.
+[P] <strong>b) Das verborgene System:</strong>
+        Hinter dieser Fassade existierte nach Darstellung zahlreicher Kläger
+        ein jahrzehntelanges System der Kontrolle:
+        Mitarbeiter wurden eingeschüchtert, Künstler unter Druck gesetzt,
+        Frauen in Situationen manövriert, aus denen sie keinen Ausweg sahen.
+        Das Hotelflur-Video mit Cassie Ventura – das ohne sein Wissen existierte –
+        machte erstmals sichtbar, was hinter der glamourösen Oberfläche lag.
+        Die Diskrepanz zwischen Fassade und Realität ist kein Widerspruch zum Typus –
+        sie ist sein Ausdruck: Die Sieben präsentiert Licht und verbirgt die Dunkelheit,
+        weil sie selbst nicht hinschauen will.
+[P] <strong>The Notorious B.I.G. (Christopher Wallace):</strong>
+        Combs' engste Zusammenarbeit war mit Biggie Smalls – einem der größten Rapper aller Zeiten.
+        Wallace starb 1997 durch einen Schuss aus einem fahrenden Auto, ungeklärt bis heute.
+        Im Enneagramm-Kontext ist die Beziehung aufschlussreich:
+        Combs als SX7w8 suchte Intensität, Exklusivität, Bindung durch gemeinsame Größe.
+        Nach Biggies Tod zeigte Combs öffentlich großen Schmerz –
+        und produzierte gleichzeitig „I'll Be Missing You", das ihm kommerziell
+        neue Höhen bescherte. Die sexuelle Sieben verwandelt Verlust in Projekt.
+[P] <strong>Cassie Ventura:</strong>
+        Cassie war über ein Jahrzehnt Combs' Partnerin – und nach Aussage der Klageschrift
+        zugleich sein Hauptopfer. Sie beschrieb eine Beziehung, in der Zuneigung
+        und Kontrolle untrennbar verflochten waren: Reisen, Luxus, öffentliche Auftritte –
+        und hinter geschlossenen Türen physische Gewalt und psychologische Unterwerfung.
+        Das Muster ist typisch für die SX7w8 in der Entgleisung:
+        Die intensive Bindung, die die sexuelle Sieben sucht, kann zur Inbesitznahme des Gegenübers werden –
+        die andere Person als Objekt totaler Kontrolle statt als freies Gegenüber.
+[P] <strong>a) Der Stresspunkt – die Eins:</strong>
+        Unter Dauerstress bewegt sich die Sieben in Richtung Eins:
+        Rigides Denken, moralisierendes Urteilen, kompromisslose Kontrolle.
+        Anstatt die eigene Angst zu fühlen, hält die gestresste Sieben
+        an einer inneren Überzeugung fest: <em>Ich habe Recht. Meine Bedürfnisse sind legitim. Andere haben zu funktionieren.</em>
+        Dieser Mechanismus erklärt, warum Combs – trotz wachsender Klagen –
+        offenbar nicht aufhörte, sondern das System weiter ausdehnte.
+        Die Sieben im Stress sieht sich nicht als Täter, sondern als jemanden,
+        der nur bekommt, was ihm zusteht.
+[P] <strong>b) Die Flucht vor dem Schmerz:</strong>
+        Das Kernthema der Sieben ist die <strong>Angst vor Schmerz und Einschränkung</strong>.
+        Combs’ frühe Biographie – Vater erschossen, Armut, Aufstieg durch Selbstdisziplin –
+        legte ein Fundament, das Verlust und Schmerz als etwas verstand,
+        das durch Erfolg, Kontrolle und Fülle überwunden werden muss.
+        Diese innere Logik wird zur Falle, wenn sie pathologisch wird:
+        Dann ist jede Einschränkung ein Angriff, jedes Nein eine Bedrohung,
+        jede Grenze eine Zumutung, die mit Mitteln der Macht beseitigt werden muss.
+[P] <strong>c) Der Lichtpunkt – Heilungsrichtung der Sieben:</strong>
+        Die Heilungsrichtung der Sieben führt zur <strong>Fünf</strong>: zur Stille, zur Tiefe, zur Bereitschaft,
+        im Augenblick zu bleiben, auch wenn er schmerzhaft ist.
+        Für eine Sieben bedeutet Heilung: die eigene Leere aushalten,
+        ohne sie sofort füllen zu müssen.
+        Ob Combs jemals diesen Weg gehen wird – oder ob das Berufungsverfahren
+        ihn zunächst in neue Verteidigungsreflexe drängt – bleibt offen.
+[P] 
+        <strong>Name:</strong> Sean John Combs (Künstlername: P. Diddy, Puff Daddy, Diddy)<br>
+        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben with Eight-wing<br>
+        <strong>Leidenschaft:</strong> Maßlosigkeit – das unstillbare Verlangen nach Genuss, Kontrolle und Intensität ohne natürliche Grenze<br>
+        <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, Überzeugung eigener Legitimität<br>
+        <strong>Animal correspondence:</strong> Schimpanse – hochintelligent, sozial dominant, zur kalkulierten kollektiven Gewalt fähig<br>
+        <strong>Lebensdaten:</strong> Geb. 4. November 1969 in Harlem, New York<br>
+        <strong>Verbrechen:</strong> Sex-Trafficking, Nötigung, Körperverletzung – verurteilt im Oktober 2025 zu vier Jahren und zwei Monaten Haft
+        
+[BOOKTIP] Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SP7, SO7 und SX7 unterschiedlich ausdrückt.
+[BOOKTIP] Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.
+[BOOKTIP] Typ 7 ausführlich porträtiert – Maßlosigkeit, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.
+[LABEL] Typporträt: Der Typ 7 im Überblick

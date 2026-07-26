@@ -1,15 +1,76 @@
-=== PAGE: leidenschaftUndWundePage ===
-[H] Was wir sehen &ndash; und was wirklich dahintersteckt
-[H] Die Wunde: tiefe innere Überzeugung
-[P] Charts · Heilung
-[P] Zwei Ebenen eines Musters &ndash; was sichtbar wird und was wirklich dahintersteckt.
-[P] Im Enneagramm unterscheiden wir zwei Ebenen, die zusammen das Bild eines Typs ergeben: die <strong>Leidenschaft</strong> und die <strong>Wunde</strong>. Beide gehören untrennbar zusammen &ndash; und doch sind sie grundverschieden. Die Leidenschaft ist das, was wir von außen sehen können: ein Verhaltensmuster, eine emotionale Grundfärbung, eine immer wiederkehrende Reaktion. Die Wunde hingegen ist das, was dieser Leidenschaft zugrunde liegt &ndash; eine tiefe innere Überzeugung, meist aus einer frühen Erfahrung hervorgegangen, die sich ins Unbewusste gesenkt hat.
-[P] Wer nur die Leidenschaft sieht, sieht das Symptom. Wer die Wunde versteht, versteht den Menschen.
-[P] Die Leidenschaft ist im Enneagramm kein positiver Begriff. Sie bezeichnet jene zentrale seelische Energie, die das Denken, Fühlen und Handeln eines Typs immer wieder in eine bestimmte Richtung zieht &ndash; oft ohne dass der Mensch es selbst bemerkt. Der Groll des Einers, der Stolz des Zweiers, die Eitelkeit des Dreiers &ndash; das sind keine Charakterfehler, sondern tief eingravierte Orientierungsreaktionen. Sie entstanden einmal als Antwort auf eine schwierige innere Wirklichkeit. Heute laufen sie weitgehend automatisch ab.
-[P] Das Schaubild zeigt für jeden der neun Typen, wie sich diese Leidenschaft konkret äußert &ndash; in einem Satz, der das innere Erleben auf den Punkt bringt: <em>Die Welt ist nicht so, wie sie sein sollte.</em> Oder: <em>Ich will alles erleben und nichts verpassen.</em> Oder: <em>Ich will das Leben ganz, stark und ohne Beschränkung.</em> Es sind Sätze, die viele Menschen bei ihrem Typ sofort wiedererkennen &ndash; manchmal erschrocken, manchmal erleichtert.
-[P] Hinter jeder Leidenschaft verbirgt sich eine Wunde &ndash; eine Grundannahme über sich selbst und die Welt, die sich so tief eingraviert hat, dass sie nicht mehr als Überzeugung wahrgenommen wird, sondern als Wirklichkeit. Der Zwei glaubt nicht nur, er dürfe keine Bedürfnisse haben &ndash; er <em>erlebt</em> es so. Der Drei erlebt es nicht als Meinung, sondern als Tatsache, dass sein Sein nicht genügt. Der Sechs erlebt Vertrauen nicht als etwas, das möglich wäre &ndash; sondern als etwas, das er einmal verloren hat und das nicht zurückkommt.
-[P] Diese Wunden sind nicht rational zugänglich. Sie lassen sich nicht einfach wegdenken oder weg-positiv-denken. Sie verlangen eine andere Art der Arbeit: Mitgefühl, Aufmerksamkeit, Zeit &ndash; und das Enneagramm als Wegweiser, der zeigt, wo man überhaupt zu suchen hat.
-[P] Die eigentliche Kraft dieses Schaubildes liegt in der Gegenüberstellung. Wer seinen eigenen Satz in der Leidenschafts-Spalte liest und dann den zugehörigen Wunden-Satz daneben sieht, erlebt oft einen stillen inneren Moment. Nicht weil etwas Neues gesagt wird &ndash; sondern weil etwas Bekanntes plötzlich in Worte gefaßt ist, das man längst spürt, aber nie so klar gesehen hat.
-[P] Heilung im Enneagramm beginnt genau dort: nicht beim Versuch, die Leidenschaft zu unterdrücken, sondern beim liebevollen Verstehen der Wunde dahinter. Denn wer die Wurzel versteht, muss nicht mehr gegen den Ast kämpfen.
-[BOOKTIP] Die neun Wunden des Enneagramms &ndash; woher sie stammen, wie sie das Leben prägen und welche Remedies ihnen entsprechen.
-[BOOKTIP] Leidenschaften, Tugenden und Heilungswege aller 27 Subtypees &ndash; direkt aus der therapeutischen Praxis.
+=== PAGE: grundformelPage ===
+[H] Der Mensch ist mehr als sein Typ
+[H] Die drei Energieformen: Überschießend, blockiert, umgewandelt
+[P] Charts · Modell
+[P] Drei Defizite. Drei Energieformen. Drei Instinkte. &ndash; Das Fundament eines Enneagramm-Modells, das über zwanzig Jahre gewachsen ist.
+[P] Diese Aussage steht am Anfang der Grundformel &ndash; und sie ist kein beiläufiger Zusatz, sondern ein programmatisches Fundament. Der Enneagrammtyp beschreibt eine unbewusste Lösungsstrategie für ein existenzielles Grunddefizit. Er beschreibt nicht das Wesen des Menschen. Wer sich mit dem Rathmer-Enneagramm beschäftigt, lernt nicht, wer er ist &ndash; er lernt, welches Muster ihn bisher begleitet hat. Das ist ein entscheidender Unterschied.
+[P] Hinter jedem der neun Typen steht ein existenzielles Grunddefizit &ndash; eine tiefe Frage, die das Erleben des Menschen von innen her organisiert. Das Modell unterscheidet drei solcher Defizite, je nach Triade:
+[P] Die <strong>Herztriade</strong> (Typen 2, 3, 4) trägt ein <strong>Liebesdefizit</strong>. Ihre Grundfrage lautet: <em>Bin ich liebenswert?</em> Das Kerngefühl, das diesen Typen begleitet, ist das stille, oft unbewusste Empfinden: <em>Ich fühle mich nicht geliebt.</em>
+[P] Die <strong>Kopftriade</strong> (Typen 5, 6, 7) trägt ein <strong>Vertrauensdefizit</strong>. Ihre Grundfrage lautet: <em>Kann ich dem Leben vertrauen?</em> Das Kerngefühl ist: <em>Die Welt ist ungewiss und unzuverlässig.</em>
+[P] Die <strong>Bauchtriade</strong> (Typen 8, 9, 1) trägt ein <strong>Schutzdefizit</strong>. Ihre Grundfrage lautet: <em>Darf ich meinen Platz in dieser Welt einnehmen?</em> Das Kerngefühl ist: <em>Ich fühle mich nicht sicher in meinem Recht, da zu sein.</em>
+[P] Das Herzstück des Modells ist eine einfache Gleichung mit großer Tiefe: Jeder Mensch verarbeitet sein Grunddefizit auf eine bestimmte energetische Weise &ndash; und richtet diese Energie über einen seiner drei Instinkte aus. Das Ergebnis ist sein persönlicher Subtype &ndash; einer von 27 möglichen Ausprägungen. Der Typ allein reicht nicht aus, um einen Menschen zu verstehen. Erst der Subtype zeigt, <em>wie</em> jemand seinen Typ lebt.
+[P] Jeder Typ hat eine charakteristische Art, mit seiner Grundenergie umzugehen. Das Modell unterscheidet drei Energieformen &ndash; und jede findet sich in jeder Triade wieder:
+[P] <strong>Überschießende Energie</strong> (Typen 2, 5, 8): Die Energie geht nach außen. Sie drängt, kompensiert, übertreibt. Diese Typen reagieren auf ihr Defizit mit einem Zu-viel &ndash; zu viel Hilfe, zu viel Rückzug in Wissen, zu viel Intensität und Stärke.
+[P] <strong>Blockierte Energie</strong> (Typen 3, 6, 9): Die Energie wird zurückgehalten. Vermeidung, Erstarrung und Anpassung prägen diese Typen. Sie reagieren auf ihr Defizit, indem sie sich anpassen, zurückhalten oder in Sicherheitsstrategien flüchten.
+[P] <strong>Umgewandelte Energie</strong> (Typen 4, 7, 1): Die Energie wird transformiert &ndash; in Sinn, in Ideen, in Werte. Diese Typen kompensieren ihr Defizit durch innere Umlenkung: in Sehnsucht und Besonderheit (4), in Pläne und Möglichkeiten (7), in Ideale und Richtigkeit (1).
+[P] Der dritte Baustein ist der Instinkt &ndash; jene unbewusste Grundausrichtung, über die ein Mensch seine Energie in die Welt gibt. Der <strong>Selbsterhaltungsinstinkt</strong> (SE) richtet den Fokus auf Ressourcen, Sicherheit und persönliche Bedürfnisse. Der <strong>Sozialinstinkt</strong> (SO) richtet den Fokus auf Zugehörigkeit, Gruppen und das soziale Umfeld. Der <strong>Sexualinstinkt</strong> (SX) richtet den Fokus auf Intensität, Bindung und bedeutsame Eins-zu-Eins-Relationships.
+[P] Diese drei Instinkte sind keine Vorlieben, sondern tiefe Orientierungssysteme &ndash; meist unbewusst aktiv und wirksam, lange bevor der Typ überhaupt zum Vorschein kommt. Die wichtigste Einheit im Rathmer-Enneagramm ist deshalb nicht der Typ allein, sondern der <strong>Subtype</strong>: Typ plus Instinkt.
+[P] Das Schaubild zeigt auch, wie sich ein Mensch in Bezug auf seinen Typ entwickeln kann &ndash; von unbewusst bis integriert. Auf der <strong>unbewussten Stufe</strong> dominiert die Leidenschaft vollständig. Auf der <strong>durchschnittlichen Stufe</strong> prägen typische Alltagsmuster das Erleben. Auf der <strong>bewussten Stufe</strong> wird die Leidenschaft erkannt &ndash; der Mensch kann sich von ihr distanzieren. Auf der <strong>integrierten Stufe</strong> wird die Essenz zugänglich: Das Muster löst sich nicht auf, aber es verliert seine Macht.
+[P] Das erklärte Ziel des Rathmer-Enneagramms ist es nicht, den eigenen Typ zu perfektionieren. Es geht darum, die Identifikation mit dem Typ zu lockern &ndash; Schritt für Schritt. Der Mensch hat einen Typ. Der Mensch ist kein Typ. Diese kleine sprachliche Verschiebung enthält die ganze transformative Kraft des Modells.
+[P] Was dieses Schaubild in einem einzigen Bild zusammenfasst, ist das Ergebnis von über zwanzig Jahren gemeinsamer Arbeit von Detlef und David Rathmer &ndash; ein lebendiges, wachsendes Modell, das Psychologie, Spiritualität und praktische Heilkunde zu einem Ganzen verbindet.
+[BOOKTIP] Die neun Grunddefizite und ihre Wunden &ndash; das theoretische Fundament des Rathmer-Enneagramms in Buchform.
+[BOOKTIP] Das vollständige Subtypees-Modell: alle 27 Ausprägungen von Defizit, Energieform und Instinkt.
+=== PAGE: detlefRathmerJazzPage ===
+[H] Liebeslieder von Detlef
+[BOOKTIP] Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.
+[BOOKTIP] Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.
+[BOOKTIP] 27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.
+[BOOKTIP] Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.
+[BOOKTIP] Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.
+[BOOKTIP] Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.
+[BOOKTIP] Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.
+[BOOKTIP] Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.
+[BOOKTIP] Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.
+[BOOKTIP] Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.
+[BOOKTIP] Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.
+[BOOKTIP] Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.
+[BOOKTIP] Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.
+[LABEL] Enneagramm-Hymne – Loblied auf die 9 Typen (Deutsch)
+[LABEL] Flammen des Lebens – Die Leidenschaften der 9 Typen (Deutsch)
+[LABEL] Hayatın Alevleri (Türkisch)
+[LABEL] 27 Pfade – Song über die 27 Persönlichkeiten (Deutsch)
+[LABEL] 8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie
+[LABEL] Ich bin das Licht (Deutsch)
+[LABEL] Glück – Das Wesen des Glücks (Deutsch)
+[LABEL] Der Sinn – Song über den Sinn des Lebens (Deutsch)
+[LABEL] 3. Was bleibt von uns
+[LABEL] 4. So fühlt sich Ewigkeit an
+[LABEL] 7. Wie Feuer unter der Haut
+[LABEL] 8. Für immer und ein Tag
+[LABEL] 9. Flügel aus Licht
+[LABEL] Entspannungs- und Heilungsmusik
+[LABEL] Homöopathie- und Enneagramm-Homöopathie-Songs
+[LABEL] Berühmte Komponisten
+=== PAGE: hunderassenDer9TypenPage ===
+[H] Typ 1 – Border Collie: Intelligenz und hohe Standards
+[H] Typ 2 – Golden Retriever: Fürsorge aus tiefstem Herzen
+[H] Typ 5 – Shiba Inu: Unabhängigkeit und innere Welt
+[H] Typ 6 – Shetland Sheepdog: Loyalität und Wachsamkeit
+[H] Typ 8 – Rottweiler: Stärke und Schutzinstinkt
+[H] Typ 9 – Berner Sennenhund: Sanftmut und Ausgeglichenheit
+[P] Die Zuordnung von neun Hunderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die symbolischen Eigenschaften und Charakteristika dieser unterschiedlichen Hunde mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Rasse trägt ein unverwechselbares Wesen in sich — vom präzisen Border Collie bis zum sanftmütigen Berner Sennenhund.
+[P] Der Border Collie ist bekannt dafür, dass er hart arbeitet, gut trainierbar ist und hohe Standards in seiner Arbeit setzt — ähnlich dem Typ 1, der nach Perfektion und Ordnung strebt. Er gilt als intelligentester Hund der Welt: In Studien lernte ein Border Collie über tausend Wörter und unterschied Objekte nach ihrer Form. Sein Blick — der berühmte „Eye" — ist ein hypnotisches Fixieren des Schafes, das es in Bewegungslosigkeit einfrieren lässt. Kein anderer Hund hat diese Technik entwickelt. Für den Border Collie gibt es nur eine Art, eine Aufgabe zu erledigen: die richtige. Die Leidenschaft des Zorns zeigt sich als innere Unruhe, wenn Dinge nicht so laufen, wie sie laufen sollten.
+[P] Der Golden Retriever ist ein außerordentlich freundlicher, liebevoller und stets bereiter Begleiter, der seinem Besitzer zu gefallen und ihn zu unterstützen weiß — genau das, was zur fürsorgerischen Natur des Typs 2 passt. Golden Retriever wurden als Therapiehunde, Blindenhunde und Rettungshunde eingesetzt — nicht wegen ihrer Kraft, sondern wegen ihrer unbedingten Zugewandtheit. Sie spüren Schmerz und Trauer bei Menschen und reagieren mit Körperkontakt und Nähe. Ihr Stolz liegt nicht im Erfolg, sondern im Geliebtwerden fürs Dasein. Die Leidenschaft des Stolzes zeigt sich als tiefer Wunsch, unentbehrlich zu sein.
+[P] Dobermänner sind athletische, intelligente und arbeitsfreudige Hunde, die oft in anspruchsvollen Rollen wie Wach- oder Diensthunden erfolgreich sind. Leistungsfähigkeit und Ehrgeiz spiegeln den Erfolg und das Streben von Typ 3 wider. Der Dobermann wurde von einem Steuereintreiber gezüchtet, der einen Hund wollte, der Respekt einflößt und gleichzeitig intelligent genug ist, Situationen zu lesen. Das Ergebnis: ein Hund, der perfekt für die Rolle dressiert werden kann, die man von ihm erwartet. Sein Erscheinungsbild ist kalibriert — kein überflüssiges Fell, kein überflüssiger Charakter. Die Leidenschaft der Eitelkeit zeigt sich als totale Identifikation mit der Rolle.
+[P] Basset Hounds blicken oft melancholisch und machen manchmal einen nachdenklichen oder traurigen Eindruck — was insgesamt gut zu den Eigenschaften von Typ 4 passt. Sie besitzen einen unverwechselbaren Körperbau: kurze Beine, länglicher Körper, hängende Ohren, die den Geruchssinn verstärken, indem sie Duftmoleküle vom Boden aufwirbeln. Kein anderer Hund sieht so aus wie ein Basset — und kein anderer Hund trägt sein Wesen so offen im Gesicht. Sein Blick ist eine ganze Psychologie. Die Leidenschaft des Neids zeigt sich als Sehnsucht nach Verbindung bei gleichzeitigem Gefühl des Andersseins.
+[P] Der Shiba Inu ist bekannt für seine Unabhängigkeit und Beobachtungsgabe. Seine ruhige und analytische Natur passt gut zu Typ 5, der oft zurückgezogen und wissbegierig ist. Der Shiba Inu ist ein jahrtausendealter japanischer Jagdhund — einer der wenigen Hunde, die sich durch Domestizierung kaum verändert haben. Er ist katzenhaft: putzt sich selbst, entscheidet selbst, wählt seine Nähe sorgfältig. Er zeigt keine Zuneigung auf Befehl. Sein Vertrauen muss verdient werden, und wenn es einmal da ist, ist es tief und still. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie, Zeit und Zuneigung — nichts davon wird verschwendet.
+[P] Die Shetland Sheepdogs sind äußerst loyal und wachsam, immer bereit, ihre Familie zu schützen. Dies spiegelt die Zuverlässigkeit und Treue des Typs 6 wider. Shelties wurden auf den sturmgepeitschten Shetlandinseln gezüchtet — eine raue Umgebung, die Hunde hervorgebracht hat, die lieber zweimal schauen als einmal handeln. Sie bellen bei Unbekanntem, prüfen Situationen, beobachten Muster. Aber innerhalb ihrer Gruppe sind sie von einer Zuverlässigkeit, die kaum zu übertreffen ist: sie folgen ihrer Familie wie ein Schatten. Die Leidenschaft der Angst zeigt sich als Hypervigilanz — ein inneres Frühwarnsystem, das nie ganz abschaltet.
+[P] Dalmatiner sind lebhafte und neugierige Hunde, die gern spielen und neue Abenteuer erleben. Ihre fröhliche und abenteuerliche Art passt gut zu Typ 7. Der Dalmatiner ist unmöglich zu übersehen — sein gepunktetes Fell ist eine visuelle Einladung. Er wurde als Kutschenhund gezüchtet, der stundenlang neben Pferden laufen konnte ohne zu ermüden: ein Hund für Bewegung, Tempo, die nächste Station. Im Zirkus war er Stammgast; in der Feuerwehr wurde er Maskottchen. Die Leidenschaft der Völlerei zeigt sich als unstillbarer Hunger nach Erlebnis, Contact und dem nächsten Abenteuer.
+[P] Rottweiler sind starke, selbstbewusste Hunde mit einem ausgeprägten Schutzinstinkt, der gut zur durchsetzungsfähigen und schützenden Natur von Typ 8 passt. Der Rottweiler stammt von römischen Drover-Hunden ab, die Viehherden über die Alpen trieben. In Rottweil wurden sie später als Metzgerhunde eingesetzt — sie zogen Karren und trugen das Geld ihres Herrn in Beuteln um den Hals, weil niemand es wagte, einen Rottweiler zu berauben. Der Rottweiler ist kein Aggressor — er ist ein Beschützer. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kontrolle und Sicherheit für die, die ihm anvertraut sind.
+[P] Berner Sennenhunde sind bekannt für ihre sanfte und ausgeglichene Art. Sie sind freundlich und friedlich, was gut zur harmoniesuchenden und vermittelnden Natur von Typ 9 passt. Der Berner Sennenhund wurde in den Schweizer Alpen als Allrounder gezüchtet — er hütete Vieh, zog Karren und war Begleithund. Sein Wesen ist das eines Vermittlers: er streitet nicht, er drängt nicht, er nimmt sich nicht mehr Raum als nötig. In einer Gruppe von Hunden ist er derjenige, der Konflikte durch bloßes Dasein auflöst. Die Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist — groß, warm, ruhig, zusammen.
+[BOOKTIP] Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.
+[BOOKTIP] Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.
+[BOOKTIP] 27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.
+[LABEL] Blumenarten der 9 Typen
+[LABEL] Pferdearten der 9 Typen
+[LABEL] Bärenarten der 9 Typen

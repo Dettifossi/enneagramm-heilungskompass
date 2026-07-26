@@ -1,13 +1,126 @@
-=== PAGE: davidRathmerImpulsePage ===
-[P] Kurze, lehrreiche Videos von David L. Rathmer — zu Persönlichkeit, Relationships, Burnout und persönlichem Wachstum.
-[BOOKTIP] Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zurück zu sich selbst.
-[BOOKTIP] Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.
-[BOOKTIP] Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.
-[BOOKTIP] 365 Typ- und Subtypees-Kombinationen im Überblick — das komplette Beziehungslexikon des Enneagramms.
-[BOOKTIP] Wie Nähe, Leidenschaft und Intimität bei allen 27 Subtypees erlebt werden — mit Übungen für Paare.
-[BOOKTIP] Die verborgenen Körpermuster der 27 Subtypees – wo Leidenschaft sich im Körper einschreibt.
-[BOOKTIP] Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.
-[BOOKTIP] Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.
-[BOOKTIP] 27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.
-[BOOKTIP] Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.
-[LABEL] Führung & Unternehmen
+=== PAGE: papageienartenDer9TypenPage ===
+[H] Typ 1 – Graupapagei: Intelligenz und Präzision
+[H] Typ 2 – Gelbhaubenkakadu: Fürsorge und soziale Bindung
+[H] Typ 3 – Blaustirnamazone: Selbstbewusstsein und Auftritt
+[H] Typ 5 – Kakadu: Beobachtung und distanziertes Interesse
+[H] Typ 6 – Senegalpapagei: Loyalität und Vorsicht
+[H] Typ 7 – Halsbandsittich: Lebendigkeit und Abenteuerlust
+[H] Typ 8 – Molukkenkakadu: Stärke und Dominanz
+[H] Typ 9 – Nymphensittich: Sanftmut und Harmonie
+[P] Die Zuordnung von neun Papageienarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Papageien und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Art spiegelt auf faszinierende Weise das Wesen eines Typs — vom analytischen Graupapagei bis zum friedliebenden Nymphensittich.
+[P] Der Graupapagei ist bekannt für seine außerordentliche Intelligenz und die Fähigkeit, Wörter und Konzepte genau nachzuahmen. Er kann sehr ordentlich sein und mag eine strukturierte Umgebung — Eigenschaften, die dem perfektionistischen Typ 1 entsprechen. Der Graupapagei gilt als der kognitiv begabteste Vogel der Welt: Forscher wie Irene Pepperberg haben gezeigt, dass er nicht nur Wörter nachahmt, sondern ihre Bedeutung versteht und abstrakt denken kann — Mengen, Farben, Formen, Abwesenheit. Er unterscheidet zwischen richtig und falsch, korrekt und inkorrekt. Wenn etwas nicht stimmt, zeigt er es an. Die Leidenschaft des Zorns zeigt sich als innere Unruhe, wenn Dinge nicht so laufen, wie sie laufen sollten.
+[P] Der Gelbhaubenkakadu ist sehr sozial und zeigt starke Bindungen zu seinen Partnern. Er ist äußerst neugierig und kann sehr anhänglich sein, was ihn für seine Fürsorglichkeit und sein Bedürfnis nach sozialer Interaktion bekannt macht — Eigenschaften, die dem Helfer-Typ 2 entsprechen. Gelbhaubenkakadus leiden unter Einsamkeit auf eine Weise, die man nur als emotionalen Schmerz beschreiben kann: Sie zupfen sich Federn aus, schreien, werden depressiv. Ihre Bindungsfähigkeit ist außergewöhnlich — sie wählen einen Partner und bleiben ihm ein Leben lang treu. Die Leidenschaft des Stolzes zeigt sich im tiefen Bedürfnis, gebraucht und geliebt zu werden.
+[P] Amazonenpapageien sind selbstbewusst und besitzen eine starke Persönlichkeit. Sie sind sehr neugierig und lernen schnell, was sie in ihrer Gruppe erfolgreich macht — Eigenschaften, die den leistungsorientierten Typ 3 widerspiegeln. Die Blaustirnamazone ist ein Vogel mit Bühneninstinkt: Sie liebt Zuschauer, sie liebt Reaktionen, und sie lernt mit einer Geschwindigkeit, die andere Papageien beschämt. Ihr Gefieder ist knallig, ihr Auftritt ist laut, ihre Präsenz ist unmittelbar. Sie berechnet — nicht im kalten Sinne, sondern im Sinne eines Wesens, das immer weiß, was in einer sozialen Situation gerade gefragt ist. Die Leidenschaft der Eitelkeit zeigt sich als Hunger nach Bewunderung und Resonanz.
+[P] Hyazintharas sind bekannt für ihre lebhaften Farben und ihre einzigartige, intensive Persönlichkeit. Sie pflegen tiefe emotionale Bindungen zu ihren Partnern und besitzen eine starke Präsenz als seltene Wesen — Eigenschaften, die dem Individualisten-Typ 4 entsprechen. Der Hyazinthara ist der größte flugfähige Papagei der Welt — und einer der seltensten. Sein kobaltblaues Gefieder hat keine Entsprechung in der Vogelwelt. Er bildet Paarbindungen von einer Intensität und Exklusivität, die Beobachter regelmäßig verblüfft: Hyazintharas verbringen fast ihre gesamte Zeit miteinander, abseits der Gruppe. Die Leidenschaft des Neids zeigt sich als tiefe Sehnsucht nach vollständiger Verbindung.
+[P] Kakadus sind sehr intelligent und lernen liebend gern neue Dinge. Sie können äußerst neugierig sein und haben ein großes beobachtendes, distanziertes Interesse an ihrer Umgebung — was gut zum analytischen Typ 5 passt. Der Kakadu löst Probleme mit einer Geduld und Methodik, die an Wissenschaftler erinnert: Er dreht ein Objekt in alle Richtungen, bevor er handelt. In der Wildnis entdeckte man, dass Kakadus Werkzeuge benutzen — und das Wissen darüber innerhalb ihrer Gruppe weitergeben, ohne es zu zeigen. Sie teilen Wissen selektiv. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Nähe und Zuneigung — Vertrauen muss verdient werden.
+[P] Senegalpapageien — früher Mohrenkopfpapagei — sind sehr loyal und besitzen eine starke Bindung zu ihren Partnern oder Pflegern. Sie sind vorsichtig und zurückhaltend gegenüber Fremden, was den verlässlichen und loyalen Typ 6 unterstreicht. Der Senegalpapagei wählt seine Vertrauenspersonen mit großer Sorgfalt — und wenn er sich einmal entschieden hat, ist diese Bindung fast unzerbrechlich. Neuen Menschen oder Situationen begegnet er mit demonstrativer Skepsis: Er beobachtet zuerst, prüft dann, und gibt sich erst viel später zu erkennen. Die Leidenschaft der Angst zeigt sich als permanente Wachheit — ein inneres Sicherheitssystem, das nie ganz abschaltet.
+[P] Halsbandsittiche sind lebhaft und abenteuerlustig. Sie leben es, das Besondere, neue Erfahrungen zu machen und besitzen eine ansteckende Begeisterung für das Leben — typische Eigenschaften des Typ 7. Der Halsbandsittich ist einer der anpassungsfähigsten Papageien überhaupt: Er lebt ursprünglich in Südasien und Afrika, hat aber inzwischen in über 100 Städten weltweit verwilderte Populationen aufgebaut — London, Amsterdam, Köln, Tokio. Er findet überall Nahrung, überall Nistmöglichkeiten, überall Gesellschaft. Jeder neue Ort ist eine Gelegenheit. Die Leidenschaft der Völlerei zeigt sich als unerschöpflicher Appetit auf das Neue.
+[P] Molukkenkakadus sind sehr selbstbewusst und dominant. Sie zeigen oft Führungsqualitäten und besitzen eine starke Präsenz — typische Eigenschaften des Typ 8. Der Molukkenkakadu ist einer der größten Kakadus der Welt und einer der lautesten Vögel überhaupt: Sein Ruf kann über einen Kilometer weit gehört werden. Er setzt seine Haube in Momenten der Erregung oder Dominanz auf — ein visuelles Signal, das unmissverständlich ist. Er akzeptiert keine Unterordnung, die er nicht selbst gewählt hat. Wenn er liebt, liebt er absolut; wenn er kämpft, kämpft er absolut. Die Leidenschaft der Gier zeigt sich als Hunger nach Einfluss und vollständiger Kontrolle über seine Umgebung.
+[P] Nymphensittiche sind sanfte und friedliche Zeitgenossen. Sie streben nach Harmonie und vermeiden Konflikte — was gut zum friedliebenden, sanften Typ 9 passt. Der Nymphensittich ist der meistgehaltene Papagei der Welt — nicht wegen seiner Schönheit oder Intelligenz, sondern wegen seines Wesens: Er ist unkompliziert, angenehm, verträglich. Er singt leise vor sich hin, pflegt seinen Partner mit sanften Schnabelberührungen und bleibt selbst in unruhigen Umgebungen auffallend gelassen. Er braucht keine Aufmerksamkeit — er ist einfach da. Die Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist — ruhig, warm, zusammen.
+[BOOKTIP] Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.
+[BOOKTIP] Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.
+[BOOKTIP] 27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.
+[LABEL] Eulenarten der 9 Typen
+[LABEL] Vogelarten der 9 Typen
+[LABEL] Blumenarten der 9 Typen
+=== PAGE: dianeDownsPortraitPage ===
+[H] 2. Die sexuelle Drei: Der Waschbär
+[H] 4. Das Tatgeschehen: Die Nacht auf der Landstraße
+[H] 5. Der Prozess und das Leben danach
+[H] 6. Was das Enneagramm sichtbar macht
+[P] 
+        <strong>Diane Downs</strong>, geboren 1955, erschoss am 19. Mai 1983 nachts auf einer verlassenen
+        Landstraße in Springfield, Oregon, ihre drei Kinder – Cheryl (7), Christie (8) und Danny (3) –
+        aus nächster Nähe mit einer Pistole. Cheryl starb sofort. Danny überlebte, blieb aber
+        dauerhaft gelähmt. Christie überlebte schwer verletzt.
+        Downs fuhr danach selbst ins Krankenhaus, mit einer selbst beigebrachten Schusswunde am Arm,
+        und erzählte den Ärzten, ein Fremder habe die Familie überfallen.
+        Was folgte, war eines der verstörendsten Verfahren der amerikanischen Kriminalgeschichte –
+        nicht wegen der Brutalität der Tat, sondern wegen dem, was das Enneagramm darin sichtbar macht:
+        wie eine Frau ihre eigenen Kinder töten konnte, um für einen Mann das perfekte, ungebundene Ideal zu sein.
+      
+[P] 
+        Der <strong>Pfau</strong> ist die Animal correspondence der sexuellen Drei.
+        Der Pfau trägt seinen gesamten Wert offen vor sich her: Farbe, Symmetrie, Struktur.
+        Die Augen im Pfauenschwanz entstehen nicht durch Pigment, sondern durch Nanostrukturen,
+        die Licht brechen – Eindruck durch Konstruktion, nicht durch Substanz.
+        Diane Downs war ähnlich: eine Frau, deren Selbstbild technisch aufgebaut war –
+        durch Außenwirkung, Lächeln, Rollen. Als Mutter passte sie perfekt ins Bild.
+        Als dieser Entwurf ihrem neuen Liebesobjekt im Weg stand, wurde er kurzerhand abgelegt.
+        Der Pfau ändert nicht sich – er ändert, was er zeigt.
+        
+[P] <strong>a) Das perfekte Ideal:</strong>
+        Die sexuelle Drei scannt das Gegenüber und wird genau das, was es begehrt.
+        Ihr damaliger Partner hatte unmissverständlich klargemacht, dass Kinder in seinem Lebensentwurf keinen Platz haben.
+        Für eine ungesunde sexuelle Drei werden die eigenen Kinder in diesem Moment zu einem
+        „störenden Element“ – einem Hindernis im Weg zur fehlerfreien Rolle,
+        die sie für diesen Mann spielen will.
+[P] <strong>b) Blockierte Herzenergie:</strong>
+        Die Drei liegt im Zentrum des Herzzentrums, blockiert diese Energie aber,
+        um zu funktionieren und Rollen zu spielen. Sie nimmt Gefühle nicht direkt wahr,
+        sondern übersetzt sie in Aufgaben und Ziele.
+        Als die Kinder zum Ausschlusskriterium wurden, schaltete Downs auf pure Pragmatik um.
+        Sie wurden von Subjekten zu Objekten – zu einem logistischen Problem, das gelöst werden musste.
+[P] <strong>c) Eitelkeit als Leidenschaft:</strong>
+        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> – das Bild, das man nach außen entwirft,
+        hat Vorrang vor jeder inneren Wahrheit.
+        Downs sang im Krankenhaus. Sie scherzte mit den Ärzten, während ihre Kinder im Sterben lagen.
+        Ermittler und Krankenhauspersonal berichteten übereinstimmend von einer emotionalen Kälte,
+        die sie nicht einordnen konnten. Das ist nicht Psychopathie –
+        das ist die blockierte Herzenergie der Drei, die das Außenbild aufrechterhält, weil das Außenbild alles ist.
+[P] 
+        Der Four-wing der Drei bringt im gesunden Zustand Tiefe und emotionale Authentizität –
+        im extrem ungesunden Zustand jedoch melodramatische Selbstbezogenheit und innere Leere.
+        Downs schrieb Tagebücher voller kitschiger, pseudo-tiefsinniger Liebeslyrik an ihren Partner.
+        Ihre Trauer nach der Tat wirkte nicht echt, sondern wie eine schlecht inszenierte Theaterrolle –
+        die „vom Schicksal geprüfte, melancholische Heldin“.
+        Die Austauschbarkeit der Bindung an ihre Kinder zeigt die Kehrseite dieses Flügels:
+        Während des Prozesses wurde bekannt, dass sie hochschwanger war – von einem Kind,
+        das sie in der Untersuchungshaft gezeugt hatte. In ihrer Logik war das ein Image-Projekt:
+        der lebende Beweis, dass sie eine liebende, gebärfähige Frau sei – kein Monster.
+        Das ungeborene Kind war Requisite.
+        
+[P] <strong>a) Die Planung:</strong>
+        Downs hatte die Tat nicht impulsiv begangen. Sie hatte in den Wochen zuvor
+        mehrfach angedeutet, dass ihre Kinder ihr Leben einschränkten.
+        Sie hatte eine .22er-Pistole erworben. Am Abend des 19. Mai 1983
+        fuhr sie mit ihren drei Kindern auf einer abgelegenen Straße,
+        hielt an – und erschoss sie eines nach dem anderen aus nächster Nähe.
+        Die Eiseskälte der Planung – kein Affekt, kein Überwältigtsein –
+        ist das entscheidende psychologische Merkmal: nicht die Zwei, die im Sturm handelt,
+        sondern die Drei, die ein Problem löst.
+[P] <strong>b) Die Inszenierung:</strong>
+        Downs brachte sich selbst eine Schusswunde am Unterarm bei – oberflächlich, kalkuliert –
+        um die Geschichte eines bewaffneten Überfalls glaubhaft zu machen.
+        Sie fuhr ins Krankenhaus, schilderte den Überfall ruhig und detailliert.
+        Keine Tränen. Keine Panik. Nur die Geschichte. Nur die Rolle.
+[P] <strong>c) Der Widerspruch:</strong>
+        Christie, die überlebende Tochter, identifizierte schließlich ihre Mutter als Schützin.
+        Das Kind, das die Mutter erschossen hatte, bezeugte gegen sie.
+        Die Frau, die sich als liebevoll inszeniert hatte,
+        wurde durch das einzige Opfer entlarvt, das sprechen konnte.
+[P] 
+        Diane Downs wurde 1984 wegen Mordes an Cheryl und des versuchten Mordes
+        an Christie und Danny zu lebenslanger Haft verurteilt.
+        Im Gerichtssaal gab sie lächelnd Interviews, spielte mit den Kameras und
+        schien sichtlich zu genießen, im Mittelpunkt zu stehen –
+        eine Parallele zu Ted Bundy, dem bekanntesten Serienmörder der amerikanischen Kriminalgeschichte.
+        Das Gefängnis-Baby wurde ihr nach der Geburt weggenommen und kam in eine Adoptivfamilie.
+        Ihre Tochter Becky Babcock erfuhr erst als Jugendliche, wer ihre leibliche Mutter ist.
+        1987 brach Downs aus dem Gefängnis aus, wurde nach zehn Tagen gefasst.
+        In Anhörungen beschreibt sie sich bis heute als liebevolle Mutter, die zu Unrecht verurteilt wurde.
+        Das Bild bleibt. Das Bild blieb immer.
+        
+[P] 
+        Diane Downs zeigt, was passiert, wenn die Herzenergie der Drei vollständig blockiert ist:
+        keine Empfangsfähigkeit, keine echte Verbindung, kein Mitgefühl, das über das gewünschte Bild hinausgeht.
+        Die SX3 ist in ihrer gesunden Form eine der intensivsten und charismatischsten Persönlichkeiten überhaupt.
+        In der deintegrierten Form wird dieses Charisma zur Waffe.
+        Die Kinder waren keine Monster für sie – sie waren schlicht keine Personen mehr.
+        Nur Requisiten in einem Drehbuch, in dem sie allein die Hauptrolle spielte.
+        Das Enneagramm macht hier sichtbar, was oberflächliche Psychologie übersieht:
+        nicht Kälte als Charakter, sondern blockierte Wärme als Struktur –
+        und die erschreckende Logik, die daraus folgt.
+        
+[BOOKTIP] Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.
+[BOOKTIP] Typ 3 ausführlich porträtiert – Eitelkeit, Erfolg und der Heilungsweg über echte Herzverbindung.

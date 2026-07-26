@@ -1,18 +1,136 @@
-=== PAGE: suchtverhalteDer9TypenPage (Teil 1) ===
-[H] Typ 2 – Co-Abhängigkeit und emotionales Essen
-[H] Typ 3 – Workaholismus und Leistungssucht
-[H] Typ 4 – Emotionale Intensität und innere Leere
-[H] Typ 5 – Isolation und intellektuelle Flucht
-[H] Typ 6 – Angstbewältigung und Sicherheitssucht
-[H] Typ 7 – Exzessiver Konsum und Ablenkung
-[H] Typ 8 – Kontroll- und Machtsucht
-[H] Typ 9 – Komfortsucht und Konfliktflucht
-[P] Jeder Mensch kennt Muster, die sich wiederholen — Verhaltensweisen, nach denen man greift, wenn der Druck zu groß wird oder die innere Leere sich meldet. Das Enneagramm zeigt, welche typspezifischen Suchtstrukturen hinter diesen Mustern stecken.
-[P] Typ 1 kann dazu neigen, sich zwanghaft auf Ordnung, Disziplin und Kontrolle zu fixieren. Dies kann sich in einem ungesunden Perfektionismus äußern, der Stress und Burnout zur Folge haben kann. Manchmal greifen Einser auch zu Substanzen, um den Druck ihrer hohen Standards zu bewältigen. Der innere Richter, der nie ruht, wird zur eigentlichen Sucht — die Search nach dem Errorfreien, nach dem endlich Richtigen, nach dem Moment, in dem man sich endlich gut genug fühlt.
-[P] Typ 2 kann eine Tendenz zur Co-Abhängigkeit entwickeln, indem er sich übermäßig auf die Bedürfnisse anderer konzentriert und seine eigenen vernachlässigt. Typ 2 kann auch zu emotionalem Essen oder Substanzmissbrauch neigen, um seine eigenen emotionalen Bedürfnisse zu stillen, wenn er sich nicht persönlich wertgeschätzt fühlt. Die Sucht des Helfers ist oft die Sucht nach Bestätigung — nach dem Moment, in dem jemand sagt: Ich brauche dich. Ohne diese Rückmeldung greift er zu Ersatzmitteln.
-[P] Typ 3 kann süchtig nach Erfolg, Anerkennung und Status sein. Dreier neigen dazu, sich in Arbeit und Leistung zu verlieren und können zu Workaholics werden. In extremen Fällen greifen sie gar zu leistungssteigernden Substanzen, um ihre Ziele zu erreichen — das sogenannte „Lance Armstrong-Syndrom". Die eigentliche Sucht ist die nach Bestätigung durch Leistung: Wenn ich genug erreiche, bin ich es wert. Ein Kreislauf, der sich von alleine dreht.
-[P] Typ 4 kann dazu tendieren, sich in seinen Emotionen und seiner Sehnsucht nach Authentizität zu verlieren. Vierer können Substanzen oder Verhaltensweisen verwenden, um intensivere emotionale Erfahrungen zu suchen oder sich von ihrer inneren Leere abzulenken. Der Ästhet ist manchmal süchtig nach dem Gefühl selbst — nach der Tiefe, der Leidenschaft, dem Schmerz, der wenigstens zeigt, dass man lebt. Das Gewöhnliche fühlt sich für ihn wie Betäubung an.
-[P] Typ 5 kann eine Neigung zur Isolation und zum Rückzug entwickeln, oft in eine Welt von Wissen und Information. Fünfer können auch süchtig nach bestimmten intellektuellen Beschäftigungen oder digitalen Medien werden, um soziale Interaktionen zu vermeiden. Die Sucht des Denkers ist die Sucht nach dem sicheren Innen: Solange ich denke und beobachte, muss ich mich nicht einbringen. Das Wissen selbst wird zur Festung, hinter der man sich verschanzt.
-[P] Typ 6 kann durch seine Angst und sein Bedürfnis nach Sicherheit getrieben werden. Sechser können Substanzen oder Verhaltensweisen verwenden, um ihre Ängste zu betäuben oder sich allgemein sicherer zu fühlen. Dies kann zu einer Abhängigkeit von beruhigenden Mitteln oder von Sicherheitsritualen führen. Die tiefste Sucht des Skeptikers ist die Sucht nach Gewissheit — nach dem endgültigen Beweis, dass alles gut wird. Den gibt es nicht, und so dreht sich das Rad weiter.
-[P] Typ 7 kann süchtig nach neuen Erfahrungen, Vergnügungen und Abenteuern sein. Siebener neigen dazu, exzessiv zu konsumieren — sei es Essen, Alkohol, Drogen oder Unterhaltung — um Negatives, Langeweile und innere Leere zu vermeiden. Die Sucht des Enthusiasten ist die Sucht vor der Sucht: Wenn ich mich nur schnell genug bewege, hole ich mich nicht ein. Der nächste Kick kommt, bevor der letzte verarbeitet ist.
-[P] Typ 8 kann süchtig nach Kontrolle, Macht und Intensität sein. Achter neigen dazu, risikoreiche Verhaltensweisen zu suchen, und können auch zu Substanzen greifen, die ihnen ein Gefühl der Stärke, Dominanz und Unbesiegbarkeit geben. Die eigentliche Sucht des Herausforderers ist die Sucht nach Unverwundbarkeit — nach dem Gefühl, nichts und niemanden fürchten zu müssen. Die Verletzlichkeit, die darunter liegt, bleibt dabei unberührt.
+=== PAGE: jackUnterweegerPortraitPage ===
+[H] 4. Was das Enneagramm sichtbar macht
+[P] 
+        <strong>Johann „Jack" Unterweger</strong>, geboren am 16. August 1950 in Judenburg,
+        Steiermark, gestorben am 29. Juni 1994 in Graz,
+        war ein österreichischer Serienmörder, Schriftsteller und Journalist –
+        und einer der bemerkenswertesten Fälle in der Geschichte der europäischen Kriminologie.
+        Er ermordete 1974 eine junge Frau, wurde zu lebenslanger Haft verurteilt
+        und entwickelte sich im Gefängnis zu einem gefeierten Literaten.
+        Seine Autobiografie <em>Fegefeuer – oder die Reise ins Zuchthaus</em>
+        wurde ein Bestseller; österreichische Intellektuelle,
+        darunter Elfriede Jelinek, setzten sich für seine Freilassung ein.
+        1990 vorzeitig entlassen, mordete er unmittelbar weiter –
+        insgesamt neun Frauen in Österreich, möglicherweise drei weitere in Los Angeles.
+        1994 wurde er in Graz erneut zu lebenslanger Haft verurteilt.
+        In der Nacht nach dem Urteil erhängte er sich in seiner Gefängniszelle.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der die Gesellschaft
+        von seiner Güte überzeugte, sie dabei systematisch belog.
+      
+[P] 
+        Der <strong>Golden Retriever</strong> ist die Animal correspondence der sozialen Zwei.
+        Er ist das Tier, das jeder liebt: freundlich, zugewandt, stets bereit zu helfen,
+        immer mit einem offenen Herzen. Er will gefallen – und er gelingt darin meisterhaft.
+        Er ist sozial ausgerichtet, braucht Bestätigung, lebt von der Wärme der Gemeinschaft.
+        Jack Unterweger war der perfekte Golden Retriever:
+        charmant, redegewandt, scheinbar geläutert, von Intellektuellen geliebt.
+        Er weckte in Menschen den Wunsch, ihm zu helfen, ihn zu fördern, an ihn zu glauben.
+        Und dieser Wunsch kostete neun Frauen das Leben.
+        
+[P] <strong>a) Das Grundmuster der sozialen Zwei:</strong>
+        Die soziale Zwei wird in der Enneagramm-Tradition als <em>„Ambition"</em> beschrieben.
+        Sie will nicht nur hilfreich sein – sie will bedeutsam sein.
+        Sie sucht keine stille Anerkennung, sondern öffentliche Sichtbarkeit:
+        als Wohltäter, als Mentor, als Stimme der Guten.
+        Die Hilfe, die sie gibt, ist oft echt – aber sie hat immer einen sozialen Preis:
+        Aufmerksamkeit, Bewunderung, Einfluss.
+        Unterweger spielte diese Rolle mit virtuoser Präzision.
+        Im Gefängnis schrieb er, las er, lernte er – und schuf ein Bild von sich,
+        das er der Gesellschaft spiegelte: der geläuterte Künstler,
+        der lebende Beweis, dass Rehabilitation möglich ist.
+[P] <strong>b) Der One-wing: Die moralische Fassade:</strong>
+        Der One-wing verleiht der sozialen Zwei eine moralische Überzeugungskraft,
+        die gefährlich ist – weil sie echt wirkt.
+        Der SO2w1er glaubt selbst daran, gut zu sein.
+        Er hat ein inneres Regelwerk, das seine Handlungen rechtfertigt.
+        Unterweger präsentierte sich als Opfer seiner Herkunft,
+        das durch Literatur und Selbstreflexion zur Reife gefunden hatte.
+        Dieser One-wing gab ihm Glaubwürdigkeit –
+        die Überzeugung klang nicht gespielt, weil er sie internalisiert hatte.
+        Dahinter lag das Muster der Zwei: Stolz – die Unfähigkeit,
+        die eigene Bedürftigkeit und Dunkelheit zu sehen.
+[P] <strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
+        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
+        das unbewusste Festhalten an der eigenen Güte,
+        das Nicht-wahrhaben-Wollen des eigenen Schattens.
+        Der Stolz der sozialen Zwei zeigt sich als kollektiver Anspruch:
+        Ich bin gut für die Gesellschaft. Ich bin es, der zählt.
+        Unterweger konnte nicht zulassen, dass sein Bild beschädigt wurde.
+        Als die Ermittlungen begannen, legte er die Rolle des Verleumdetenauf:
+        Er sei Opfer einer Medienkampagne, eines vorurteilsbelasteten Systems.
+        Bis zuletzt.
+[P] <strong>a) Herkunft und erster Mord (1974):</strong>
+        Jack Unterweger wurde als uneheliches Kind einer österreichischen Prostituierten
+        und eines amerikanischen Soldaten geboren.
+        Seinen Vater hat er nie kennengelernt.
+        Er wuchs in ärmsten Verhältnissen auf, größtenteils beim Großvater mütterlicherseits,
+        in einer Welt ohne Stabilität, ohne Bildung, ohne Perspektive.
+        Er wurde früh straffällig – Diebstahl, Einbrüche, kleinere Delikte.
+        Am 11. Dezember 1974 ermordete er die 18-jährige
+        <strong>Margaret Schäfer</strong> in Salzburg:
+        Er würgte sie mit ihrem eigenen BH – eine Methode, die er auch bei späteren Taten
+        verwendete. Er wurde 1976 zu lebenslanger Haft verurteilt.
+[P] <strong>b) Die Gefängnisjahre und die literarische Verwandlung:</strong>
+        Im Gefängnis begann Unterweger zu schreiben.
+        Er verfasste Gedichte, Theaterstücke, Kurzgeschichten –
+        und schließlich seine Autobiografie <em>Fegefeuer oder die Reise ins Zuchthaus</em>,
+        die 1983 im Jugend &amp; Volk Verlag erschien und ein außergewöhnliches Echo fand.
+        Österreichische Intellektuelle – darunter Elfriede Jelinek, Heinrich Böll
+        und zahlreiche Journalisten – erkannten in ihm das Paradebeispiel
+        einer gelungenen Resozialisierung.
+        Sie setzten sich für seine Begnadigung ein.
+        Nach 15 Jahren Haft wurde Unterweger am 23. Mai 1990 vorzeitig entlassen.
+        Was folgte, war das Ende der Illusion.
+[P] <strong>c) Die Morde nach der Entlassung (1990–1991):</strong>
+        Innerhalb weniger Monate nach seiner Freilassung begann Unterweger erneut zu töten.
+        Seine Opfer waren ausnahmslos Prostituierte –
+        Frauen, die er in Wien, Graz und anderen österreichischen Städten ansprach.
+        Er würgte sie mit ihrem eigenen BH, dem unverwechselbaren Merkmal seiner Methode.
+        Zwischen 1990 und 1991 wurden ihm neun Morde in Österreich zugeordnet:
+        <strong>Brunhilde Masser</strong> (26), <strong>Heidemarie Hammerer</strong> (31),
+        <strong>Elfriede Schrempf</strong> (35), <strong>Regina Prem</strong> (39),
+        <strong>Silvia Zagler</strong> (23), <strong>Sabine Moitzi</strong> (25),
+        <strong>Karin Eroglu</strong> (25), <strong>Dragica Rajic</strong> (34),
+        <strong>Marica Horvat</strong> (35).
+        Parallel dazu arbeitete Unterweger als Journalist und TV-Moderator,
+        berichtete für den ORF über Prostituierte und das Rotlichtmilieu –
+        und führte dabei die Polizei an die Fundorte seiner Opfer.
+[P] <strong>d) Los Angeles (1991):</strong>
+        Im Frühjahr 1991 reiste Unterweger auf Einladung des Los Angeles Police Department
+        nach Kalifornien – als akkreditierter Journalist, der über amerikanische Strafverfolgung
+        berichten sollte. Während seines Aufenthalts wurden drei Prostituierte in LA ermordet,
+        alle auf dieselbe Weise: gewürgt mit ihrem eigenen BH.
+        Unterweger wurde auch für diese Morde verdächtig,
+        konnte jedoch nur in Österreich angeklagt werden.
+[P] <strong>e) Verhaftung, Flucht und Ende:</strong>
+        Als die österreichische Polizei 1992 öffentlich nach Unterweger fahndete,
+        floh er zunächst nach Kanada und dann in die USA.
+        Im Februar 1992 wurde er in Miami Beach verhaftet –
+        in Begleitung seiner 18-jährigen Freundin Bianca Mrak.
+        Er wurde ausgeliefert und stand im April 1994 vor Gericht in Graz.
+        Am 28. Juni 1994 wurde er in erster Instanz wegen neun Mordes schuldig gesprochen
+        und zu lebenslanger Haft verurteilt.
+        In der Nacht nach dem Urteil erhängte er sich in seiner Gefängniszelle
+        mit dem Kordel seines Trainingsanzugs.
+        Er war 43 Jahre alt.
+        Der Golden Retriever, der aufgehört hatte zu spielen,
+        wählte den einzigen Ausweg, der die Fassade nicht vollständig einreißen ließ.
+[P] 
+        Der Fall Jack Unterweger ist das psychologische Lehrstück
+        des Sozialen Typ 2 in seiner dunkelsten Ausprägung.
+        Die Gesellschaft wollte glauben, dass er sich geändert hatte –
+        und die soziale Zwei lieferte ihr genau diesen Glauben.
+        Sie projizierte auf ihn, was sie sehen wollte:
+        Güte, Wandel, Hoffnung.
+        Er reflektierte es zurück – und tötete weiter.
+        Der Stolz der Zwei verhinderte jede echte Auseinandersetzung mit dem Schatten.
+        Der One-wing schützte die Überzeugung, gut zu sein.
+        Und die soziale Ausrichtung machte aus einem Serienmörder
+        eine öffentliche Symbolfigur der Rehabilitation.
+        Was diesen Fall von fast allen anderen in dieser Sammlung unterscheidet:
+        Unterweger hätte beinahe gewonnen.
+        Nicht durch Flucht, sondern durch Überzeugungskraft.
+        
+[BOOKTIP] Der SO2w1 im systemischen Vergleich – Ambition, gesellschaftliche Bedeutung und ihr Schatten.
+[BOOKTIP] Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.
+[LABEL] Criminal Psychology: Jim Jones (SO2w3) – Sektenführer
