@@ -26994,21 +26994,21 @@ function wadeWilsonPortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>Wade Wilson</strong>, geboren am 26. August 1996 in Florida,
-        wurde im Oktober 2024 nach einem der meistbeachteten Strafprozesse
-        des Jahres in den USA zum Tode verurteilt. Am 5. Oktober 2019
-        tötete er in Cape Coral zwei Frauen in derselben Nacht:
-        Kristine Melton (35) und Diane Ruiz (43). Er hatte beide
-        an jenem Abend kennengelernt. Die Morde wurden als kaltblütig
-        und zielgerichtet beschrieben; Wilson zeigte keinerlei Anzeichen
-        von Panik oder Reue. Was den Fall darüber hinaus in die Schlagzeilen
-        brachte, war Wilsons Verhalten während des gesamten Gerichtsverfahrens:
-        Er lachte, grimassierte, schien die Aufmerksamkeit sichtlich
-        zu genießen – und wirkte zu keinem Zeitpunkt wie jemand,
-        der sich in einer existenziell bedrohlichen Situation befindet.
-        Das Gericht sprach ihn in beiden Fällen schuldig.
-        Das Todesurteil wurde im Oktober 2024 verkündet.
-        Wilson wurde 28 Jahre alt, als das Urteil fiel.
+        <strong>Wade Wilson</strong>, born on August 26, 1996, in Florida,
+        was sentenced to death in October 2024 following one of the most widely covered criminal trials
+        of the year in the United States. On October 5, 2019,
+        he killed two women in Cape Coral on the same night:
+        Kristine Melton (35) and Diane Ruiz (43). He had met both
+        that very evening. The murders were described as cold-blooded
+        and targeted; Wilson showed no signs
+        of panic or remorse whatsoever. What furthermore brought the case into the headlines
+        was Wilson's behavior throughout the entire court proceedings:
+        he laughed, pulled faces, visibly seemed to enjoy the attention –
+        and at no point appeared like someone
+        who finds himself in an existentially threatening situation.
+        The court found him guilty on both counts.
+        The death sentence was pronounced in October 2024.
+        Wilson was 28 years old when the verdict was delivered.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -27029,282 +27029,281 @@ function wadeWilsonPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Kalkuliert und bühnengewandt:</strong>
-        <strong>Wilsons</strong> Blick im Gerichtssaal war kein Blick
-        der Angst oder Scham – er war der Blick
-        eines Performers, der sein Publikum kennt.
-        Er schaute in Kameras, beobachtete Zuschauerreaktionen,
-        spielte mit Mimik und Timing.
-        Das SO3w4-Muster in Reinform: Die soziale Drei liest
-        Räume blitzschnell und weiß intuitiv,
-        wie sie wirkt. Wilson nutzte diese Fähigkeit,
-        um aus einem Mordprozess eine One-Man-Show zu machen.</p>
-        <p class="vb-intro"><strong>b) Ohne Angst vor dem Urteil der Anderen:</strong>
-        Wo die meisten Angeklagten im Bewusstsein der
-        gesellschaftlichen Verurteilung zusammenbrechen,
-        schien <strong>Wilson</strong> durch sie gestärkt.
-        Das ist das paradoxe Muster des SO3w4 in der Desintegration:
-        Wenn positives Ansehen unerreichbar wird,
-        wird negatives Ansehen zur Alternative.
-        Berüchtigt zu sein ist besser als unsichtbar zu sein.
-        Aufmerksamkeit um jeden Preis ist besser als keine.</p>
-        <p class="vb-intro"><strong>c) Intensiv und unberechenbar:</strong>
-        Der Four-wing verleiht dem Blick der Drei
-        eine emotionale Tiefe, die schwer einzuordnen ist.
-        <strong>Wilson</strong> wirkte nicht kalt im klinischen Sinne –
-        er wirkte präsent, engagiert, seltsam lebendig.
-        Diese Qualität irritierte Beobachter mehr
-        als Gleichgültigkeit es getan hätte:
-        Jemand, der offensichtlich etwas fühlt,
-        aber nicht das, was man erwartet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Calculated and Stage-Savvy:</strong>
+        <strong>Wilson's</strong> gaze in the courtroom was not a gaze
+        of fear or shame – it was the gaze
+        of a performer who knows his audience.
+        He looked into cameras, observed audience reactions,
+        played with facial expressions and timing.
+        The SO3w4 pattern in its purest form: the Social Three reads
+        rooms lightning-fast and knows intuitively
+        how they come across. Wilson used this ability
+        to turn a murder trial into a one-man show.</p>
+        <p class="vb-intro"><strong>b) Unafraid of the Judgment of Others:</strong>
+        Where most defendants break down under the weight
+        of societal condemnation,
+        <strong>Wilson</strong> seemed empowered by it.
+        This is the paradoxical pattern of the SO3w4 in disintegration:
+        when positive acclaim becomes unattainable,
+        infamy becomes the alternative.
+        Being notorious is better than being invisible.
+        Attention at any cost is better than none.</p>
+        <p class="vb-intro"><strong>c) Intense and Unpredictable:</strong>
+        The Four-wing lends the gaze of the Three
+        an emotional depth that is hard to categorize.
+        <strong>Wilson</strong> did not seem cold in a clinical sense –
+        he appeared present, engaged, strangely vivid.
+        This quality unnerved observers more
+        than indifference would have:
+        someone who clearly feels something,
+        but not what one expects.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Gerichtssaal als Bühne:</strong>
-        <strong>Wilsons</strong> Verhalten während des Prozesses
-        war in seiner Konsequenz ungewöhnlich:
-        Er lachte, machte Grimassen, schien die Aufmerksamkeit
-        der Medien und des Publikums zu suchen.
-        Das ist das SO3-Muster: Die soziale Drei braucht
-        ein Publikum, eine Bühne, Resonanz.
-        Dass der Kontext ein Mordprozess war,
-        änderte an dieser Grundstruktur offenbar nichts –
-        der Bühneninstinkt überlagerte die Situation.</p>
-        <p class="vb-intro"><strong>b) Einzigartigkeit als Identitätskern:</strong>
-        Der Four-wing der Drei trägt eine tiefe Sehnsucht
-        nach Unverwechselbarkeit: nicht nur gut sein,
-        sondern anders sein, tiefer, intensiver,
-        jenseits der Kategorie der Gewöhnlichen.
-        <strong>Wilson</strong> schien sich im Prozess tatsächlich
-        als etwas Besonderes zu erleben –
-        nicht als Verbrecher im moralischen Sinne,
-        sondern als jemanden, der durch sein Handeln
-        aus der Masse herausgetreten ist.</p>
-        <p class="vb-intro"><strong>c) Kälte als Performanz:</strong>
-        Die emotionale Distanz, die <strong>Wilson</strong>
-        gegenüber seinen Opfern zeigte,
-        war keine psychopathische Leere –
-        sie war Ausdruck einer Drei, die gelernt hat,
-        Gefühle im Dienst des Auftritts zu steuern.
-        Die Drei trennt konsequent zwischen Innen und Außen.
-        Für den SO3w4 wird diese Trennung zur Waffe:
-        Wer kontrolliert, was er zeigt,
-        bestimmt, wie er wahrgenommen wird.</p>
+        <p class="vb-intro"><strong>a) The Courtroom as a Stage:</strong>
+        <strong>Wilson's</strong> behavior during the trial
+        was unusual in its consistency:
+        he laughed, pulled faces, seemed to seek the attention
+        of the media and the public.
+        This is the SO3 pattern: the Social Three needs
+        an audience, a stage, resonance.
+        The fact that the context was a murder trial
+        changed nothing about this basic structure –
+        the stage instinct overridden the situation.</p>
+        <p class="vb-intro"><strong>b) Uniqueness as the Core of Identity:</strong>
+        The Four-wing of the Three carries a deep longing
+        for distinctiveness: not just to be good,
+        but to be different, deeper, more intense,
+        beyond the category of the ordinary.
+        <strong>Wilson</strong> actually seemed to experience himself in the trial
+        as something special –
+        not as a criminal in a moral sense,
+        but as someone who, through his actions,
+        has stepped out from the crowd.</p>
+        <p class="vb-intro"><strong>c) Coldness as Performance:</strong>
+        The emotional distance that <strong>Wilson</strong>
+        displayed toward his victims
+        was not a psychopathic void –
+        it was the expression of a Three that has learned
+        to manage emotions in the service of the performance.
+        The Three strictly separates inner life from external appearance.
+        For the SO3w4, this separation becomes a weapon:
+        he who controls what he shows
+        determines how he is perceived.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Blitzschnelle Situationsanalyse:</strong>
-        Die Drei – besonders in der sozialen Variante –
-        liest soziale Räume außergewöhnlich schnell.
-        <strong>Wilson</strong> zeigte diese Fähigkeit nicht nur im
-        Gerichtssaal: Die Taten selbst, zwei Morde
-        in einer einzigen Nacht mit zwei verschiedenen
-        Personen, zeugen von einer Handlungsgeschwindigkeit
-        und situativen Anpassungsfähigkeit,
-        die für einen 23-Jährigen ungewöhnlich ist.</p>
-        <p class="vb-intro"><strong>b) Anpassung ohne innere Bindung:</strong>
-        Die Drei passt sich an – nicht aus Schwäche,
-        sondern weil Anpassung ihr strategisches Instrument ist.
-        <strong>Wilson</strong> konnte in einer einzigen Nacht
-        mit zwei verschiedenen Frauen Contact aufnehmen,
-        Vertrauen erzeugen und dann töten.
-        Das setzt eine Fähigkeit voraus,
-        Rollen zu übernehmen und zu verlassen,
-        ohne daran emotional zu hängen –
-        das klassische Dreier-Muster in seiner dunkelsten Form.</p>
-        <p class="vb-intro"><strong>c) Der Four-wing als dramatisches Gewissen:</strong>
-        Wo die reine Drei pragmatisch und nüchtern bleibt,
-        bringt der Four-wing eine dramatische Innenwelt mit.
-        Der SO3w4er ist kein bloßer Opportunist –
-        er hat ein inneres Narrativ über sich selbst,
-        das mit Bedeutung, Tiefe und Intensität aufgeladen ist.
-        <strong>Wilsons</strong> Gerichtsverhalten lässt vermuten,
-        dass er sich selbst als Protagonisten einer
-        bedeutsamen Geschichte erlebte –
-        nicht als Täter, der zur Verantwortung gezogen wird.</p>
+        <p class="vb-intro"><strong>a) Lightning-Fast Situational Analysis:</strong>
+        The Three – especially in the social variant –
+        reads social spaces exceptionally fast.
+        <strong>Wilson</strong> demonstrated this ability not only in the
+        courtroom: the crimes themselves, two murders
+        in a single night involving two different
+        people, attest to a speed of action
+        and situational adaptability
+        that is unusual for a 23-year-old.</p>
+        <p class="vb-intro"><strong>b) Adaptation Without Inner Attachment:</strong>
+        The Three adapts – not out of weakness,
+        but because adaptation is its strategic instrument.
+        <strong>Wilson</strong> was able to make contact with two different women
+        in a single night,
+        build trust, and then kill.
+        This presupposes an ability
+        to adopt and shed roles
+        without being emotionally attached to them –
+        the classic Three pattern in its darkest form.</p>
+        <p class="vb-intro"><strong>c) The Four-Wing as a Dramatic Conscience:</strong>
+        Where the core Three remains pragmatic and sober,
+        the Four-wing brings a dramatic inner world.
+        The SO3w4 is no mere opportunist –
+        he possesses an inner narrative about himself
+        charged with significance, depth, and intensity.
+        <strong>Wilson's</strong> courtroom demeanor suggests
+        that he experienced himself as the protagonist of a
+        meaningful story –
+        not as a perpetrator being held accountable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Faszination statt Abscheu:</strong>
-        Viele Beobachter des Prozesses berichteten,
-        dass <strong>Wilsons</strong> Verhalten sie trotz allem
-        in den Bann zog – nicht aus Sympathie,
-        sondern aus Unverständnis.
-        Das ist die Wirkung des SO3w4 auf ein Publikum:
-        Er ist nicht leicht einzuordnen,
-        nicht leicht wegzuschauen, nicht leicht zu vergessen.
-        Die Drei ist ein Performer; der Four-wing sorgt dafür,
-        dass der Auftritt nicht glatt ist, sondern störend schön.</p>
-        <p class="vb-intro"><strong>b) Mediale Präsenz als Triumph:</strong>
-        <strong>Wilson</strong> wurde durch den Prozess international bekannt.
-        Für den SO3 ist Bekanntheit Währung –
-        unabhängig von ihrer moralischen Qualität.
-        Das Urteil brachte ihm mehr Aufmerksamkeit
-        als jede andere Handlung seines bisherigen Lebens.
-        In der verdrehten Logik des desintegrierten SO3
-        könnte das als Erfolg erscheinen.</p>
-        <p class="vb-intro"><strong>c) Todesurteil als letzter Auftritt:</strong>
-        Die Verkündung des Todesurteils
-        schien <strong>Wilson</strong> nicht zu erschüttern.
-        Das ist das SO3w4-Muster in seiner extremsten Ausprägung:
-        Selbst das eigene Ende wird zum Inhalt
-        des Narrativs über sich selbst –
-        als letzte Bestätigung, dass man
-        etwas Ungewöhnliches war.</p>
+        <p class="vb-intro"><strong>a) Fascination Instead of Repulsion:</strong>
+        Many observers of the trial reported
+        that <strong>Wilson's</strong> behavior held them spellbound
+        despite everything – not out of sympathy,
+        but out of sheer incomprehension.
+        That is the effect of the SO3w4 on an audience:
+        he is not easily categorized,
+        not easy to look away from, not easy to forget.
+        The Three is a performer; the Four-wing ensures
+        that the performance is not slick, but disturbingly striking.</p>
+        <p class="vb-intro"><strong>b) Media Presence as Triumph:</strong>
+        <strong>Wilson</strong> gained international notoriety through the trial.
+        For the SO3, fame is currency –
+        regardless of its moral quality.
+        The verdict brought him more attention
+        than any other action of his life up to that point.
+        In the twisted logic of the disintegrated SO3,
+        this could feel like a success.</p>
+        <p class="vb-intro"><strong>c) Death Sentence as the Final Performance:</strong>
+        The pronouncement of the death penalty
+        did not seem to shake <strong>Wilson</strong>.
+        That is the SO3w4 pattern in its most extreme manifestation:
+        even one's own end becomes part
+        of the narrative about oneself –
+        as the ultimate confirmation that one was
+        something extraordinary.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Elektrisierende Gegenwart:</strong>
-        <strong>Wilsons</strong> Energie im Gerichtssaal
-        wurde von Journalisten und Zuschauern
-        übereinstimmend als beunruhigend lebendig beschrieben.
-        Nicht aggressiv, nicht eingeschüchtert –
-        sondern wach, reaktionsschnell, scheinbar amüsiert.
-        Der SO3w4er bringt eine elektrisierende Qualität mit,
-        die Aufmerksamkeit auf sich zieht,
-        ohne aktiv darum zu werben.</p>
-        <p class="vb-intro"><strong>b) Keine sichtbare Erschöpfung:</strong>
-        Ein Mordprozess dauert Wochen.
-        Die meisten Angeklagten wirken im Laufe der Zeit
-        zunehmend erschöpft und abgenutzt.
-        <strong>Wilson</strong> schien im Gegenteil zu wachsen –
-        als würde die Aufmerksamkeit ihm Energie geben.
-        Das ist die Drei, die ihren Energiehaushalt
-        über Außenwirkung reguliert:
-        Resonanz ist Nahrung; Bühne ist Erholung.</p>
-        <p class="vb-intro"><strong>c) Leerstelle hinter dem Auftritt:</strong>
-        Wer genau hinsah, bemerkte hinter der Bühnenpräsenz
-        eine eigenartige Hohlheit – nicht Leere im Sinne von Gefühllosigkeit,
-        sondern das Fehlen eines inneren Kerns,
-        der unabhängig vom Publikum existiert.
-        Das ist das tiefste Muster der Drei:
-        Sie weiß oft selbst nicht,
-        wer sie ist, wenn niemand zuschaut.</p>
+        <p class="vb-intro"><strong>a) Electrifying Presence:</strong>
+        <strong>Wilson's</strong> energy in the courtroom
+        was consistently described by journalists and spectators
+        as disturbingly alive.
+        Not aggressive, not intimidated –
+        but alert, quick to react, seemingly amused.
+        The SO3w4 carries an electrifying quality
+        that draws attention
+        without actively begging for it.</p>
+        <p class="vb-intro"><strong>b) No Visible Exhaustion:</strong>
+        A murder trial lasts for weeks.
+        Most defendants appear increasingly
+        exhausted and worn down over time.
+        <strong>Wilson</strong>, on the contrary, seemed to thrive –
+        as if the attention were feeding him energy.
+        That is the Three regulating its energy household
+        through external impression:
+        resonance is fuel; the stage is rest.</p>
+        <p class="vb-intro"><strong>c) The Void Behind the Performance:</strong>
+        Anyone who looked closely noticed a strange hollowness
+        behind the stage presence – not emptiness in the sense of lack of feeling,
+        but the absence of an inner core
+        that exists independently of the audience.
+        This is the deepest pattern of the Three:
+        it often does not know itself
+        who it is when no one is watching.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Der Gepard</h3>
-        <p class="vb-intro"><strong>a) Gebaut für maximale Wirkung:</strong>
-        Der Gepard ist das schnellste Landtier der Welt –
-        und gleichzeitig eines der elegantesten.
-        Sein Körper ist vollständig auf Leistung ausgerichtet:
-        Schlankheit, Wendigkeit, explosiver Antritt.
-        <strong>Wilson</strong> besaß dieselbe Qualität
-        der optimierten Wirkung: jung, gewandt, scheinbar mühelos
-        präsent. Die SO3-Energie ist Energie der
-        sichtbaren Exzellenz – der Gepard verkörpert sie
-        in ihrer reinsten tierischen Form.</p>
-        <p class="vb-intro"><strong>b) Der Angriff aus dem Nichts:</strong>
-        Der Gepard pirscht sich nicht langsam an –
-        er wartet auf den richtigen Moment
-        und explodiert dann in Bewegung.
-        Zwischen Stille und Vollgeschwindigkeit
-        liegen Sekunden.
-        <strong>Wilsons</strong> Taten hatten dieselbe Struktur:
-        normaler Abend, sozialer Contact, Vertrauen –
-        und dann, unvermittelt, die Tat.
-        Die Drei handelt, wenn der Moment stimmt.
-        Zögern ist nicht ihr Muster.</p>
-        <p class="vb-intro"><strong>c) Schönheit, die nicht schützt:</strong>
-        Der Gepard ist trotz seiner überlegenen Geschwindigkeit
-        kein Apex-Raubtier: Er verliert Beute an Löwen,
-        Hyänen, sogar Geier. Seine Stärke ist situativ,
-        nicht absolut. Auch <strong>Wilson</strong> war in der
-        Außenwirkung überlegen – im Gerichtssaal, vor Kameras,
-        in kurzen sozialen Begegnungen.
-        Aber das System, das größer ist als der Einzelne –
-        Justiz, Gesellschaft, Zeit –
-        holte ihn dennoch ein.
-        Der Gepard gewinnt den Sprint;
-        das Leben ist ein Ausdauerrennen.</p>
+        <p class="vb-intro"><strong>a) Built for Maximum Effect:</strong>
+        The cheetah is the fastest land animal in the world –
+        and at the same time one of the most elegant.
+        Its body is entirely engineered for performance:
+        slender, agile, with explosive acceleration.
+        <strong>Wilson</strong> possessed the same quality
+        of optimized impact: young, smooth, seemingly effortlessly
+        present. The SO3 energy is the energy of
+        visible excellence – the cheetah embodies it
+        in its purest animal form.</p>
+        <p class="vb-intro"><strong>b) The Strike From Nowhere:</strong>
+        The cheetah does not stalk slowly –
+        it waits for the right moment
+        and then explodes into motion.
+        Seconds lie between stillness and full speed.
+        <strong>Wilson's</strong> deeds shared the same structure:
+        a normal evening, social contact, trust –
+        and then, abruptly, the act.
+        The Three acts when the moment is right.
+        Hesitation is not its pattern.</p>
+        <p class="vb-intro"><strong>c) Beauty That Does Not Protect:</strong>
+        The cheetah is, despite its superior speed,
+        not an apex predator: it loses prey to lions,
+        hyenas, even vultures. Its strength is situational,
+        not absolute. <strong>Wilson</strong>, too, was superior in
+        external effect – in the courtroom, before cameras,
+        in brief social encounters.
+        But the system that is larger than the individual –
+        justice, society, time –
+        caught up with him nonetheless.
+        The cheetah wins the sprint;
+        life is a marathon.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Wade Wilson</strong> verkörpert den Sozialen Typ 3 with Four-wing
-        in einer Ausprägung, die das Muster der Drei
-        bis an seine äußerste Grenze führt.
-        Die soziale Drei braucht ein Publikum,
-        um sich selbst zu erleben – und Wilson fand es,
-        wo niemand erwartet hätte, dass jemand danach sucht:
-        im Gerichtssaal, im Angesicht des Todesurteils.
-        Der Four-wing sorgte dafür, dass die Geschichte
-        mit dramatischer Bedeutung aufgeladen war –
-        nicht als Tragödie im empathischen Sinn,
-        sondern als intensiver Beweis der eigenen Einzigartigkeit.
-        Wilson ist kein Beweis für die Böswilligkeit der Drei.
-        Er ist ein Extremfall dessen, was entsteht,
-        wenn das Bedürfnis nach Gesehen-werden
-        jeden anderen inneren Kompass überwältigt –
-        wenn das Publikum wichtiger wird als das Leben anderer
-        und schließlich als das eigene.
+        <strong>Wade Wilson</strong> embodies the Social Type 3 with Four-wing
+        in a manifestation that takes the Three pattern
+        to its absolute limit.
+        The Social Three needs an audience
+        to experience itself – and Wilson found it
+        where no one would have expected anyone to look for it:
+        in the courtroom, in the face of a death sentence.
+        The Four-wing ensured that the story
+        was charged with dramatic significance –
+        not as a tragedy in an empathetic sense,
+        but as an intense proof of his own uniqueness.
+        Wilson is not proof of the malice of the Three.
+        He is an extreme case of what emerges
+        when the need to be seen
+        overwhelms every other inner compass –
+        when the audience becomes more important than the lives of others
+        and ultimately more important than one's own.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO3 – der Verstärkungstyp:</strong>
-        Claudio Naranjo beschrieb die soziale Drei
-        als den Verstärkungstyp – den Subtype,
-        der die Leidenschaft der Eitelkeit am reinsten
-        und deutlichsten verkörpert.
-        Der SO3er präsentiert sich selbst als bedeutsame Figur
-        innerhalb eines sozialen Rahmens – Gruppenstatus
-        und soziale Anerkennung sind seine Kernwährung.
-        <strong>Wilson</strong> passt in dieses Bild:
-        Der Gerichtssaal war sein sozialer Rahmen,
-        das Urteil sein Status-Marker.</p>
-        <p class="vb-intro"><strong>b) Der Four-wing und die Sehnsucht nach Tiefe:</strong>
-        Der Four-wing verleiht der Drei eine innere Dramatik,
-        die sie von der reinen Leistungsorientierung
-        der SP3 unterscheidet. Der SO3w4er will nicht nur
-        bewundert werden – er will für einzigartig gehalten werden.
-        Diese Sehnsucht nach Unverwechselbarkeit
-        kann, wenn keine konstruktive Form gefunden wird,
-        in destruktive Selbstinszenierung umschlagen.</p>
-        <p class="vb-intro"><strong>c) Desintegration in die Neun:</strong>
-        Der Stresspunkt der Drei ist die Neun:
-        Rückzug, Betäubung, Handlungslosigkeit.
-        <strong>Wilson</strong> zeigte in der Tatnacht das Gegenteil –
-        explosives Handeln, keine Hemmung, kein Innehalten.
-        Das deutet auf eine Drei, die nicht in die Neun
-        desintegriert, sondern in die entgegengesetzte Richtung
-        überläuft: in übersteuerte Handlungsbereitschaft,
-        die jeden Impuls sofort umsetzt.</p>
-        <p class="vb-intro"><strong>d) Vergleich mit Luka Magnotta (SX3):</strong>
-        Magnotta inszenierte sich digital – über Jahrzehnte,
-        mit aufwendig konstruierten Online-Identitäten.
-        <strong>Wilson</strong> brauchte keine Vorbereitungszeit:
-        Er fand seine Bühne im Echtzeit-Gerichtssaal.
-        Das ist der Unterschied zwischen SX3 und SO3:
-        Die sexuelle Drei baut eine intensive, private
-        Spiegelwelt; die soziale Drei braucht ein Publikum
-        im Raum – live, unmittelbar, reaktionsfähig.</p>
-        <p class="vb-intro"><strong>e) Moralische Entkopplung als Dreier-Muster:</strong>
-        Die Drei trennt konsequent zwischen dem,
-        was sie nach außen zeigt, und dem, was sie innen fühlt.
-        Diese Entkopplung ist in gesunden Ausprägungen
-        Grundlage professioneller Exzellenz.
-        In der Desintegration wird sie zur moralischen Blindstelle:
-        Die Frage, ob eine Handlung richtig ist,
-        wird ersetzt durch die Frage, ob sie wirkt.
-        <strong>Wilson</strong> schien diese Verschiebung vollzogen zu haben –
-        mit Konsequenzen, die für zwei Frauen tödlich waren.</p>
-        <p class="vb-intro"><strong>f) Das Todesurteil und die Drei:</strong>
-        Für einen Typ 3 ist das Ende der öffentlichen Bühne
-        vielleicht bedrohlicher als das biologische Ende.
-        Das Todesurteil nahm <strong>Wilson</strong> nicht die Aufmerksamkeit –
-        es steigerte sie. Erst nach Vollstreckung
-        verliert die Drei den Resonanzraum, der ihr Selbstgefühl trägt.
-        Ob Wilson das weiß oder ahnt, wissen wir nicht.
-        Was wir wissen: Bis zum letzten sichtbaren Moment
-        blieb er auf der Bühne.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SO3 – The Prestige Subtype:</strong>
+        Claudio Naranjo described the Social Three
+        as the prestige subtype – the subtype
+        that embodies the passion of vanity most purely
+        and distinctly.
+        The SO3 presents themselves as a significant figure
+        within a social framework – group status
+        and social recognition are their core currency.
+        <strong>Wilson</strong> fits this picture:
+        the courtroom was his social framework,
+        the verdict his status marker.</p>
+        <p class="vb-intro"><strong>b) The Four-Wing and the Longing for Depth:</strong>
+        The Four-wing gives the Three an inner drama
+        that distinguishes it from the pure performance orientation
+        of the SP3. The SO3w4 does not just want
+        to be admired – he wants to be considered unique.
+        This longing for distinctiveness
+        can, if no constructive outlet is found,
+        turn into destructive self-dramatization.</p>
+        <p class="vb-intro"><strong>c) Disintegration into Nine:</strong>
+        The stress point of the Three is Nine:
+        withdrawal, numbing, inaction.
+        <strong>Wilson</strong> showed the exact opposite on the night of the crime –
+        explosive action, no inhibition, no pausing.
+        This points to a Three that does not disintegrate
+        into Nine, but overshoots in the opposite direction:
+        into overdrive action-readiness
+        that immediately carries out every impulse.</p>
+        <p class="vb-intro"><strong>d) Comparison with Luka Magnotta (SX3):</strong>
+        Magnotta staged himself digitally – over decades,
+        with intricately constructed online identities.
+        <strong>Wilson</strong> needed no preparation time:
+        he found his stage in the real-time courtroom.
+        This is the difference between SX3 and SO3:
+        the Sexual Three builds an intense, private
+        mirror world; the Social Three needs an audience
+        in the room – live, immediate, capable of reaction.</p>
+        <p class="vb-intro"><strong>e) Moral Decoupling as a Three Pattern:</strong>
+        The Three strictly separates what
+        it displays externally from what it feels internally.
+        In healthy manifestations, this decoupling is
+        the foundation of professional excellence.
+        In disintegration, it becomes a moral blind spot:
+        the question of whether an action is right
+        is replaced by the question of whether it works.
+        <strong>Wilson</strong> seemed to have fully made this shift –
+        with consequences that proved fatal for two women.</p>
+        <p class="vb-intro"><strong>f) The Death Sentence and the Three:</strong>
+        For a Type 3, the end of the public stage
+        is perhaps more threatening than biological death.
+        The death sentence did not take attention away from <strong>Wilson</strong> –
+        it amplified it. Only after execution
+        does the Three lose the resonant space that sustains its sense of self.
+        Whether Wilson knows or senses this, we do not know.
+        What we do know: until the last visible moment,
+        he remained on stage.</p>
       </div>
 
       <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
