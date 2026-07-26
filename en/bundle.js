@@ -32413,20 +32413,19 @@ function gennadiMikhasevichPortraitPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Würger von Witebsk" – Weißrussische SSR 1971–1985</p>
       </div>
       <p class="psycho-intro">
-        <strong>Gennadi Modestovich Mikhasevich</strong>, geboren 1947 in der Weißrussischen SSR (heute Belarus),
-        ermordete zwischen 1971 und 1985 mindestens <strong>36 Frauen</strong>
-        im Gebiet um Witebsk – alle erwürgt, alle auf Landstraßen abgelegt.
-        Er war verheiratet, Vater zweier Kinder, Mitglied der Kommunistischen Partei
-        und aktiver Drushinnik – freiwilliges Mitglied der Druschiny, ehrenamtlich tätig in einer Bürgermiliz,
-        die dabei half, die öffentliche Ordnung zu überwachen.
-        Während er mordete, half er, Verdächtige zu überführen.
-        Während die Ermittlungen liefen, nahm er an Fahndungs-Versammlungen teil.
-        Mindestens <strong>14 unschuldige Männer</strong> wurden für seine Taten verurteilt –
-        einer davon hingerichtet.
-        Er wurde erst 1985 gefasst, als eine überlebende Zeugin sein Autokennzeichen notierte.
-        Das Enneagramm macht sichtbar, was hinter dieser Fassade aus Ordnung, Pflicht und
-        bürgerlicher Normalität arbeitete.
-      </p>
+        <strong>Gennadi Modestovich Mikhasevich</strong>, born in 1947 in the Byelorussian SSR (now Belarus),
+        murdered at least <strong>36 women</strong> between 1971 and 1985
+        in the Vitebsk Region – all strangled, all left along country roads.
+        He was married, father of two children, a member of the Communist Party,
+        and an active Druzhinnik – a voluntary member of the Druzhiny, serving as a volunteer in a public militia
+        that helped monitor public order.
+        While he was murdering, he helped convict suspects.
+        While investigations were ongoing, he participated in search meetings.
+        At least <strong>14 innocent men</strong> were convicted for his crimes –
+        one of whom was executed.
+        He was only caught in 1985 when a surviving witness noted down his license plate number.
+        The Enneagram makes visible what operated behind this facade of order, duty, and
+        bourgeois normality.</p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -32443,142 +32442,137 @@ function gennadiMikhasevichPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Die Schwarze Mamba</h3>
         <p class="vb-intro">
-        Die <strong>Schwarze Mamba</strong> ist die Animal correspondence der sexuellen Eins.
-        Sie ist nicht das gefährlichste Tier, weil sie groß oder laut wäre –
-        sondern weil sie präzise, schnell und vollständig unauffällig ist,
-        bis der Moment kommt, in dem sie zuschlägt.
-        Sie lebt unauffällig. Sie greift nicht wahllos an.
-        Sie schlägt zu, wenn ihre Sphäre verletzt wurde – wenn etwas in ihr
-        das Signal sendet, dass jetzt gehandelt werden muss.
-        Mikhasevich war in jedem sozialen Kontext unauffällig, engagiert, verlässlich.
-        Die Schwarze Mamba trug er nach innen.
-        Was ihn von anderen SX1-Tätern unterscheidet: die institutionelle Einbettung
-        in den Apparat, der ihn suchen sollte. Er war nicht trotz der Kontrolle unsichtbar –
-        er war wegen seiner Mitarbeit daran unsichtbar.
-        </p>
+        The <strong>Black Mamba</strong> is the animal correspondence of the Sexual One.
+        It is not the most dangerous animal because it is large or loud –
+        but because it is precise, fast, and completely inconspicuous
+        until the moment comes when it strikes.
+        It lives unnoticed. It does not attack indiscriminately.
+        It strikes when its sphere has been violated – when something within it
+        sends the signal that action must be taken now.
+        Mikhasevich was inconspicuous, engaged, and reliable in every social context.
+        He carried the Black Mamba within.
+        What distinguishes him from other SX1 perpetrators: his institutional embedding
+        within the apparatus that was supposed to seek him out. He was not invisible despite control –
+        he was invisible because of his cooperation with it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Reinheit als Vernichtungslogik</h3>
-        <p class="vb-intro"><strong>a) Das innere Bild:</strong>
-        Die sexuelle Eins hat eine präzise, unveränderliche Vorstellung davon,
-        wie Frauen in ihrer intimsten Sphäre zu sein haben – und wie die Welt
-        beschaffen sein sollte, damit dieses Bild erfüllt wird.
-        Frauen, die sich allein auf Landstraßen bewegten, die per Anhalter fuhren,
-        die in seiner Wahrnehmung „leichtsinnig" oder „unmoralisch" waren,
-        entsprachen nicht diesem Bild.
-        Mikhasevich beschrieb in Verhören eine innere Empörung gegenüber Frauen,
-        die er als „zügellos" wahrnahm. Diese Empörung war der Auslöser.
-        Die Schwarze Mamba schlägt nicht aus Lust – sie schlägt aus Ordnungszwang.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: die soziale Maske:</strong>
-        Der Two-wing der sexuellen Eins ist der Garant ihrer Unsichtbarkeit.
-        Er macht sie freundlich, zugänglich, hilfsbereit.
-        Mikhasevich näherte sich seinen Opfern mit dem Angebot einer Mitfahrgelegenheit –
-        er wirkte zuverlässig, ruhig, hilfreich.
-        Frauen stiegen ein, weil er nicht bedrohlich wirkte.
-        Der Two-wing der SX1 ist keine Maske, die er bewusst aufsetzte –
-        er war echter Teil seines sozialen Funktionierens.
-        Genau deshalb war er so effektiv: Was andere sahen, war nicht Verstellung –
-        es war der wirkliche Two-wing, der die Schwarze Mamba verdeckte.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Zorn als stiller Richter:</strong>
-        Die Leidenschaft der Eins ist der <strong>Zorn</strong> –
-        der akkumulierte, nach innen gerichtete Zorn auf eine Welt,
-        die nicht dem inneren Bild der Reinheit und Ordnung entspricht.
-        Mikhasevichs Zorn war nicht laut. Er entlud sich präzise, kontrolliert, wiederholt –
-        immer nach demselben Muster, immer an Frauen, die in seinem inneren Regelwerk
-        versagt hatten. Der Zorn der Eins richtet. Mikhasevich vollstreckte.</p>
+        <p class="vb-intro"><strong>a) The Inner Image:</strong>
+        The Sexual One has a precise, unalterable idea of
+        how women ought to be in their most intimate sphere – and how the world
+        should be constructed so that this image is fulfilled.
+        Women who traveled alone on country roads, who hitchhiked,
+        who in his perception were "reckless" or "immoral,"
+        did not conform to this image.
+        In interrogations, Mikhasevich described an inner indignation toward women
+        whom he perceived as "unbridled." This indignation was the trigger.
+        The Black Mamba does not strike out of lust – it strikes out of a compulsion for order.</p>
+        <p class="vb-intro"><strong>b) The Two-wing: The Social Mask:</strong>
+        The Two-wing of the Sexual One is the guarantor of its invisibility.
+        It makes them friendly, approachable, helpful.
+        Mikhasevich approached his victims with the offer of a ride –
+        he appeared reliable, calm, helpful.
+        Women got in because he did not seem threatening.
+        The SX1's Two-wing is not a mask he consciously put on –
+        it was a genuine part of his social functioning.
+        That is precisely why he was so effective: What others saw was not disguise –
+        it was the real Two-wing that concealed the Black Mamba.</p>
+        <p class="vb-intro"><strong>c) The Passion: Anger as a Silent Judge:</strong>
+        The passion of the One is <strong>anger</strong> –
+        the accumulated, inward-directed anger at a world
+        that does not correspond to the inner image of purity and order.
+        Mikhasevich's anger was not loud. It discharged precisely, in a controlled manner, repeatedly –
+        always following the same pattern, always directed at women who had failed in his internal set of rules.
+        The anger of the One judges. Mikhasevich executed.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 14 Jahre, 36 Morde, ein Unschuldiger hingerichtet</h3>
-        <p class="vb-intro"><strong>a) Der Beginn und das Muster (1971–1985):</strong>
-        Mikhasevichs erste bekannte Tat datiert auf 1971.
-        Er hielt Frauen auf Landstraßen und Waldwegen im Gebiet Witebsk an –
-        oft unter dem Vorwand, eine Mitfahrgelegenheit anzubieten.
-        Sobald die Frau im Auto war oder sich allein im Wald befand, erwürgte er sie.
-        Er ließ die Leichen auf Waldwegen oder in Straßengräben zurück.
-        Sein Muster war gleichbleibend über 14 Jahre: keine Spuren, keine Zeugen,
-        keine Verbindung zwischen Täter und Opfer außer dem zufälligen Begegnen
-        auf einer Straße in der weißrussischen Provinz.</p>
-        <p class="vb-intro"><strong>b) Die Druschiny-Tarnung:</strong>
-        Parallel zu seinen Taten war Mikhasevich aktiv in den Druschiny –
-        den sowjetischen Bürgermilizen, die zusammen mit der Polizei
-        die öffentliche Ordnung überwachten und bei der Verbrechensbekämpfung halfen.
-        Er nahm an Fahndungsversammlungen teil, die seine eigenen Taten betrafen.
-        Er kannte die Ermittlungsrichtungen. Er wusste, wonach die Polizei suchte.
-        Diese institutionelle Einbettung machte ihn nicht nur unsichtbar –
-        sie gab ihm aktiven Zugang zu Informationen, die seine eigene Entdeckung verhinderten.
-        Der Zorn der Eins und der Pflichtfleiß des Two-wings arbeiteten in diesem System
-        perfekt zusammen: nach außen der verlässliche Bürger,
-        nach innen die Schwarze Mamba im Fahndungsapparat.</p>
-        <p class="vb-intro"><strong>c) Die Justizirrtümer – 14 Unschuldige verurteilt:</strong>
-        Die sowjetische Polizei stand unter enormem Druck, die Serie aufzuklären.
-        Sie verhaftete, verurteilte und in mindestens einem Fall <strong>hinrichtete</strong>
-        einen Unschuldigen für Taten, die Mikhasevich begangen hatte.
-        Insgesamt wurden während der Ermittlungen 14 Männer fälschlicherweise verurteilt.
-        Die Serie wurde intern als „Витебское дело" – die Witebsker Affäre – bekannt.
-        Sie ist eines der bekanntesten Justizversagen der sowjetischen Strafverfolgungsgeschichte.
-        Mikhasevich mordete weiter, während die Falschen in Lagern saßen.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (1985):</strong>
-        Im November 1985 überlebte eine Frau seinen Angriff.
-        Sie notierte das Autokennzeichen seines Wagens.
-        Die Polizei ermittelte und kam auf Mikhasevich – den Drushinnik,
-        den Familienvater, den Parteiaktivisten.
-        Bei seiner Verhaftung und den anschließenden Verhören gestand er alle 36 Taten.
-        Er beschrieb sie ruhig, in chronologischer Reihenfolge, mit präzisen Ortsangaben.
-        Er wurde 1987 zum Tode verurteilt und erschossen.</p>
+        <p class="vb-intro"><strong>a) The Beginning and the Pattern (1971–1985):</strong>
+        Mikhasevich's first known crime dates to 1971.
+        He stopped women on country roads and forest paths in the Vitebsk area –
+        often under the pretext of offering a ride.
+        As soon as the woman was in the car or alone in the forest, he strangled her.
+        He left the bodies on forest paths or in roadside ditches.
+        His pattern remained consistent over 14 years: no tracks, no witnesses,
+        no connection between perpetrator and victim other than a random encounter
+        on a road in the Byelorussian province.</p>
+        <p class="vb-intro"><strong>b) The Druzhiny Disguise:</strong>
+        Parallel to his crimes, Mikhasevich was active in the Druzhiny –
+        the Soviet public militias that worked alongside the police
+        to monitor public order and assist in crime control.
+        He attended search meetings that pertained to his own crimes.
+        He knew the directions of the investigation. He knew what the police were looking for.
+        This institutional embedding did not merely make him invisible –
+        it gave him active access to information that prevented his own discovery.
+        The anger of the One and the dutiful diligence of the Two-wing worked together
+        perfectly in this system: outwardly the reliable citizen,
+        inwardly the Black Mamba within the search apparatus.</p>
+        <p class="vb-intro"><strong>c) Miscarriages of Justice – 14 Innocent Men Convicted:</strong>
+        Soviet police were under enormous pressure to solve the series of crimes.
+        They arrested, convicted, and in at least one case <strong>executed</strong>
+        an innocent person for crimes Mikhasevich had committed.
+        In total, 14 men were falsely convicted during the investigation.
+        The series became known internally as "Витебское дело" – the Vitebsk Affair.
+        It is one of the most notorious judicial failures in Soviet law enforcement history.
+        Mikhasevich continued to murder while the wrong men sat in camps.</p>
+        <p class="vb-intro"><strong>d) The Arrest (1985):</strong>
+        In November 1985, a woman survived his attack.
+        She noted down the license plate number of his car.
+        The police investigated and arrived at Mikhasevich – the Druzhinnik,
+        the family man, the party activist.
+        Upon his arrest and during subsequent interrogations, he confessed to all 36 crimes.
+        He described them calmly, in chronological order, with precise locations.
+        He was sentenced to death in 1987 and executed by firing squad.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Das innere Feuer hinter der Ordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress at Four: The Inner Fire Behind Order</h3>
         <p class="vb-intro">
-        Die Eins bewegt sich im Stress in Richtung <strong>Vier</strong> –
-        innerer Aufruhr, das quälende Gefühl des inneren Defekts,
-        die Überzeugung, im Kern anders zu sein als alle anderen.
-        Mikhasevich beschrieb in Verhören eine Spannung, die er nicht benennen konnte:
-        ein inneres Chaos, das sich nur in den Momenten der Tat auflöste.
-        Das ist die Vier-Energie der desintegrierten Eins:
-        kein lauter Ausbruch, kein Drama nach außen –
-        sondern ein brennendes, akkumulierendes Innenleben,
-        das sich in der kontrollierten Präzision der Tat für kurze Zeit beruhigte.
-        Die Schwarze Mamba schlägt nicht aus Chaos. Sie schlägt, um Chaos zu beenden.
-        </p>
+        Under stress, the One moves toward <strong>Four</strong> –
+        inner turmoil, the agonizing feeling of internal defect,
+        the conviction of being fundamentally different from everyone else.
+        In interrogations, Mikhasevich described a tension he could not name:
+        an inner chaos that dissolved only in the moments of the crime.
+        That is the Four energy of the disintegrated One:
+        no loud outburst, no outward drama –
+        but a burning, accumulating inner life
+        that calmed down for a short time in the controlled precision of the crime.
+        The Black Mamba does not strike out of chaos. It strikes to end chaos.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Gennadi Mikhasevich zeigt, wie das SX1w2-Muster durch institutionelle Einbettung
-        zur perfekten Tarnung wird. Die sexuelle Eins braucht Kontrolle über die intimste Sphäre.
-        Der Two-wing sorgt dafür, dass sie als Ordnungshüter wahrgenommen wird.
-        Die sowjetische Gesellschaft mit ihren Bürgermilizen bot dafür
-        eine Struktur, die wie für dieses Muster gemacht schien:
-        Wer nach außen Ordnung schafft, darf nach innen Chaos leben –
-        solange das Chaos nicht sichtbar wird.
-        Was Mikhasevich von anderen SX1-Tätern unterscheidet,
-        ist die Dauer und die institutionelle Tiefe.
-        14 Jahre. 36 Opfer. 14 falsche Verurteilungen.
-        Ein Hingerichteter für seine Taten.
-        Die Schwarze Mamba im Dienst des Staates.
-        </p>
+        Gennadi Mikhasevich demonstrates how the SX1w2 pattern becomes the perfect cover through institutional embedding. The Sexual One needs control over the most intimate sphere.
+        The Two-wing ensures that they are perceived as guardians of order.
+        Soviet society, with its public militias, offered
+        a structure that seemed tailor-made for this pattern:
+        Whoever creates order outwardly is allowed to live chaos inwardly –
+        as long as the chaos does not become visible.
+        What sets Mikhasevich apart from other SX1 perpetrators
+        is the duration and the institutional depth.
+        14 years. 36 victims. 14 false convictions.
+        One person executed for his crimes.
+        The Black Mamba in the service of the state.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Zorn – der stille innere Richter, der Frauen verurteilte, die seinem Bild von Reinheit und Ordnung nicht entsprachen.<br>
-        <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Gefühl des inneren Defekts, Beruhigung nur in der Tat.<br>
-        <strong>Animal correspondence:</strong> Schwarze Mamba – präzise, unauffällig, tödlich in der kontrollierten Nähe.<br>
-        <strong>Besonderheit:</strong> Mitglied der Druschiny (sowjetische Freiwilligenmiliz) während der gesamten Tatzeit; mindestens 1 Unschuldiger für seine Taten hingerichtet.<br>
-        <strong>Verurteilung:</strong> 1987 zum Tode verurteilt und erschossen.
-        </p>
+        <strong>Subtype:</strong> SX1w2 – Sexual One with Two-wing.<br>
+        <strong>Passion:</strong> Anger – the silent inner judge who condemned women who did not correspond to his image of purity and order.<br>
+        <strong>Stress Point:</strong> Four – inner turmoil, feeling of internal defect, relief found only in the act.<br>
+        <strong>Animal correspondence:</strong> Black Mamba – precise, inconspicuous, deadly in controlled proximity.<br>
+        <strong>Distinctive Feature:</strong> Member of the Druzhiny (Soviet voluntary militia) during the entire period of the crimes; at least 1 innocent person executed for his crimes.<br>
+        <strong>Sentence:</strong> Sentenced to death in 1987 and executed by firing squad.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: How anger expresses itself differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in detail – anger, perfectionism, and the path to healing.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
