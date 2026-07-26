@@ -32992,28 +32992,28 @@ function josefFritzlPortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>Josef Fritzl</strong>, geboren am 9. April 1935 in Amstetten,
-        Niederösterreich, heiratete 1956 Rosemarie und wurde Vater von sieben Kindern.
-        Nach außen war er ein geachteter Bürger: Elektrotechniker, Grundstückseigentümer,
-        Hausvater – ein unauffälliger Mann in einer unauffälligen Kleinstadt.
-        Im August 1984 sperrte er seine damals 18-jährige Tochter Elisabeth
-        in einen eigens ausgebauten Keller unter dem Familienhaus ein.
-        Dort hielt er sie 24 Jahre lang gefangen, vergewaltigte sie über diesen
-        gesamten Zeitraum hinweg und zeugte mit ihr sieben Kinder,
-        von denen eines kurz nach der Geburt starb.
-        Drei der Kinder wuchsen im Keller auf, drei weitere brachte Fritzl
-        nach und nach als angebliche Findelkinder ins Obergeschoss –
-        seiner Frau gegenüber behauptete er, Elisabeth habe sie abgegeben.
-        Das Verbrechen blieb 24 Jahre unentdeckt.
-        Im April 2008 musste Fritzl Elisabeth und ihre im Keller geborenen
-        Kinder ins Krankenhaus bringen, weil eines der Kinder lebensbedrohlich
-        erkrankt war. Dort fiel das System in sich zusammen.
-        Im März 2009 wurde Fritzl zu lebenslanger Haft in einer
-        forensisch-psychiatrischen Anstalt verurteilt –
-        wegen Mordes (durch Unterlassen, am verstorbenen Säugling),
-        Versklavung, Vergewaltigung, schwerer Nötigung und
-        24-facher Freiheitsberaubung.
-        Er war 73 Jahre alt.
+        <strong>Josef Fritzl</strong>, born on April 9, 1935, in Amstetten,
+        Lower Austria, married Rosemarie in 1956 and became father to seven children.
+        To the outside world, he was a respected citizen: electrical engineer, property owner,
+        paterfamilias – an inconspicuous man in an inconspicuous small town.
+        In August 1984, he locked his then 18-year-old daughter Elisabeth
+        in a specially converted cellar underneath the family home.
+        There he held her captive for 24 years, raping her over this
+        entire period of time and fathering seven children with her,
+        one of whom died shortly after birth.
+        Three of the children grew up in the cellar, three others Fritzl brought
+        up to the main house one by one as alleged foundlings –
+        claiming to his wife that Elisabeth had abandoned them.
+        The crime remained undiscovered for 24 years.
+        In April 2008, Fritzl was forced to take Elisabeth and her cellar-born
+        children to the hospital because one of the children had fallen life-threateningly
+        ill. There, the system collapsed in on itself.
+        In March 2009, Fritzl was sentenced to life imprisonment in a
+        forensic psychiatric institution –
+        for murder (by omission, regarding the deceased infant),
+        enslavement, rape, aggravated coercion, and
+        24 counts of false imprisonment.
+        He was 73 years old.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -33038,320 +33038,316 @@ function josefFritzlPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Unscheinbar und bürgerlich:</strong>
-        <strong>Fritzls</strong> Blick war der Blick eines
-        Mannes der Mitte: kein Charisma, keine
-        Auffälligkeit, nichts, das den Blick
-        auf sich zog. Nachbarn und Bekannte
-        erinnerten sich an einen normalen,
-        leicht mürrischen älteren Mann.
-        Das ist der Nine-wing der Eins:
-        Er zieht sich in den Hintergrund,
-        er sucht keine Aufmerksamkeit,
-        er ist sozial unsichtbar.
-        Diese Unsichtbarkeit war sein wirksamster Schutz.</p>
-        <p class="vb-intro"><strong>b) Autoritär im Innenverhältnis:</strong>
-        Gegenüber seiner Familie – besonders
-        gegenüber seinen Kindern – war
-        <strong>Fritzl</strong> ein anderer Mensch:
-        herrisch, unnahbar, seine Autorität
-        als selbstverständlich und unbestreitbar
-        voraussetzend. Das ist die Eins in der
-        Hausmacht: Der Hausherr, dessen Wort gilt.
-        Wer innerhalb seines Einflussbereichs stand,
-        kannte einen Mann, der Gehorsam
-        nicht verhandelte, sondern forderte.</p>
-        <p class="vb-intro"><strong>c) Kein Zeichen nach außen:</strong>
-        24 Jahre lang gab <strong>Fritzl</strong>
-        keinen Anlass zum Verdacht.
-        Kein auffälliges Verhalten,
-        keine erkennbare innere Zerrissenheit,
-        keine Abweichung vom gewöhnlichen Alltag.
-        Der Nine-wing erzeugt diese Qualität:
-        Er trennt das Innere vom Äußeren
-        ohne sichtbare Naht –
-        Dissoziation nicht als Symptom,
-        sondern als Lebensstil.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Inconspicuous and Bourgeois:</strong>
+        <strong>Fritzl's</strong> gaze was the gaze of an
+        average man: no charisma, no
+        conspicuousness, nothing that drew
+        the eye. Neighbors and acquaintances
+        remembered a normal,
+        slightly grumpy older man.
+        This is the Nine-wing of the One:
+        it recedes into the background,
+        it seeks no attention,
+        it is socially invisible.
+        This invisibility was his most effective protection.</p>
+        <p class="vb-intro"><strong>b) Authoritarian Within the Family:</strong>
+        Toward his family – especially
+        toward his children – was
+        <strong>Fritzl</strong> a different person:
+        domineering, aloof, taking his authority
+        as natural and indisputable
+        for granted. This is the One as the household power:
+        the master of the house whose word is law.
+        Anyone within his sphere of influence
+        knew a man who did not negotiate obedience,
+        but demanded it.</p>
+        <p class="vb-intro"><strong>c) No Sign to the Outside:</strong>
+        For 24 years, <strong>Fritzl</strong>
+        gave no cause for suspicion.
+        No conspicuous behavior,
+        no noticeable inner turmoil,
+        no deviation from ordinary daily life.
+        The Nine-wing creates this quality:
+        it separates the inner from the outer
+        without a visible seam –
+        dissociation not as a symptom,
+        but as a lifestyle.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Keller als Kontrollwelt:</strong>
-        <strong>Fritzl</strong> baute den Keller selbst aus –
-        über Jahre, mit wachsender Akribie.
-        Schalldämmung, versteckte Türen,
-        ein ausgeklügeltes Schlosssystem.
-        Der Keller war kein Ort der Emotion;
-        er war ein Werk der Planung.
-        Das ist die Einser-Energie in ihrer
-        handwerklichsten Form: Die Eins baut
-        Systeme, die funktionieren.
-        Dass dieses System der Versklavung diente,
-        änderte an der Sorgfalt der Konstruktion nichts.</p>
-        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
-        <strong>Fritzl</strong> äußerte in Verhören,
-        er habe Elisabeth vor der Außenwelt
-        und ihrem angeblich schlechten Einfluss
-        schützen wollen.
-        Diese Rahmung ist das Einser-Muster
-        in seiner dunkelsten Ausprägung:
-        Der Zorn über das Unkontrollierbare
-        findet ein moralisches Prinzip,
-        das ihn legitimiert.
-        Der Kerkermeister, der sich als
-        Beschützer erlebt, ist die Eins
-        in totaler Desintegration.</p>
-        <p class="vb-intro"><strong>c) Doppelleben als strukturelles Fundament:</strong>
-        Oben die bürgerliche Familie,
-        unten das Kellersystem –
-        <strong>Fritzl</strong> pflegte beide Welten
-        über Jahrzehnte parallel.
-        Er fuhr in Urlaub, verwaltete
-        seine Liegenschaften, führte
-        normale Gespräche mit Nachbarn.
-        Das Doppelleben war kein Zustand
-        permanenter innerer Spannung –
-        es war ein eingespieltes System,
-        das für ihn offenbar keinen
-        unerträglichen Widerspruch darstellte.
-        Der Nine-wing macht das möglich:
-        Er betäubt die innere Reibung.</p>
+        <p class="vb-intro"><strong>a) The Cellar as a Controlled World:</strong>
+        <strong>Fritzl</strong> built the cellar himself –
+        over years, with growing meticulousness.
+        Soundproofing, hidden doors,
+        an ingenious locking system.
+        The cellar was not a place of emotion;
+        it was a work of planning.
+        This is One-energy in its most
+        craftsmanship-like form: the One builds
+        systems that work.
+        The fact that this system served enslavement
+        changed nothing about the care of its construction.</p>
+        <p class="vb-intro"><strong>b) Moral Self-Justification:</strong>
+        <strong>Fritzl</strong> stated in interrogations
+        that he had wanted to protect Elisabeth from the outside world
+        and her allegedly bad influence.
+        This framing is the One-pattern
+        in its darkest manifestation:
+        anger at the uncontrollable
+        finds a moral principle
+        that legitimizes it.
+        The jailer who experiences himself as
+        a protector is the One
+        in total disintegration.</p>
+        <p class="vb-intro"><strong>c) A Double Life as a Structural Foundation:</strong>
+        Upstairs the bourgeois family,
+        downstairs the cellar system –
+        <strong>Fritzl</strong> maintained both worlds
+        in parallel for decades.
+        He went on vacation, managed
+        his properties, had
+        normal conversations with neighbors.
+        The double life was not a state
+        of permanent inner tension –
+        it was a well-oiled system
+        that apparently represented no
+        unbearable contradiction for him.
+        The Nine-wing makes this possible:
+        it numbs inner friction.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Totale Kontrolle als Triebfeder:</strong>
-        Der SX1-Instinkt ist auf intensive
-        Eins-zu-eins-Relationships ausgerichtet –
-        auf Nähe, Bindung, Besitz.
-        Bei <strong>Fritzl</strong> schlug dieser Instinkt
-        in absolute Kontrolle um:
-        kein Entkommen, keine andere Stimme,
-        keine Außenwelt für das Opfer.
-        Die Logik des SX1 in ihrer pathologischen
-        Extremform: Was ich besitze,
-        entgleitet mir nicht.</p>
-        <p class="vb-intro"><strong>b) Planung statt Impuls:</strong>
-        <strong>Fritzl</strong> handelte nicht aus
-        unkontrollierbarem Impuls heraus.
-        Der Kellerbau begann Jahre vor
-        der Einkerkerung; er war kein
-        spontanes Verbrechen, sondern
-        ein jahrelang vorbereitetes System.
-        Das ist die Eins: Sie plant,
-        sie sichert ab, sie baut Strukturen.
-        Selbst das Schwerste wird durchdacht,
-        bevor es vollzogen wird.</p>
-        <p class="vb-intro"><strong>c) Kein Mitleid als innere Größe:</strong>
-        Über 24 Jahre zeigte <strong>Fritzl</strong>
-        keine erkennbare Empathie gegenüber
-        dem Leid seiner Tochter und ihrer
-        im Keller geborenen Kinder.
-        Das ist nicht Kälte im Sinne
-        eines Fehlens von Gefühlen –
-        es ist die Eins, die das eigene
-        Prinzip konsequent über die
-        Realität des Anderen stellt.
-        Der Nine-wing dämpft zusätzlich
-        die Fähigkeit zur Resonanz:
-        Was nicht in sein inneres Bild passt,
-        wird ausgeblendet.</p>
+        <p class="vb-intro"><strong>a) Total Control as a Driving Force:</strong>
+        The SX1 instinct is oriented toward intense
+        one-on-one relationships –
+        toward closeness, attachment, possession.
+        In <strong>Fritzl's</strong> case, this instinct flipped
+        into absolute control:
+        no escape, no other voice,
+        no outside world for the victim.
+        The logic of the SX1 in its pathological
+        extreme form: what I possess
+        does not slip away from me.</p>
+        <p class="vb-intro"><strong>b) Planning Instead of Impulse:</strong>
+        <strong>Fritzl</strong> did not act out of
+        an uncontrollable impulse.
+        The cellar construction began years before
+        the imprisonment; it was not a
+        spontaneous crime, but
+        a system prepared over years.
+        This is the One: it plans,
+        it secures, it builds structures.
+        Even the most severe acts are thought through
+        before they are executed.</p>
+        <p class="vb-intro"><strong>c) No Pity as an Inner Strength:</strong>
+        Over 24 years, <strong>Fritzl</strong> showed
+        no discernible empathy toward
+        the suffering of his daughter and her
+        cellar-born children.
+        This is not coldness in the sense
+        of an absence of feelings –
+        it is the One consistently placing
+        its own principle above
+        the reality of the other.
+        The Nine-wing additionally dampens
+        the capacity for resonance:
+        what does not fit into its inner picture
+        is tuned out.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der unauffällige Täter:</strong>
-        <strong>Fritzl</strong> ist das Paradebeispiel
-        des Täters, den niemand auf dem
-        Schirm hatte. Kein kriminelles Vorleben
-        im öffentlichen Bewusstsein seines Umfelds
-        (obwohl er 1967 wegen Vergewaltigung
-        verurteilt worden war), keine Auffälligkeiten,
-        kein Alarm. Das ist die gesellschaftliche
-        Schutzwirkung des Nine-wings:
-        Wer nicht auffällt, gerät nicht
-        in den Verdacht.</p>
-        <p class="vb-intro"><strong>b) Die Hausordnung als absolute Autorität:</strong>
-        Im Familienverband galt <strong>Fritzls</strong>
-        Wort als unverrückbar.
-        Seine Frau Rosemarie zweifelte
-        offenbar nicht grundsätzlich
-        an seinen Erklärungen.
-        Die Eins in der Hausautorität
-        erzeugt eine Atmosphäre,
-        in der Nachfragen als Respektlosigkeit
-        erscheint – und in der das Umfeld
-        lernt, nicht zu fragen.</p>
-        <p class="vb-intro"><strong>c) Das System bricht von außen:</strong>
-        Nicht Gewissen, nicht Umfeld,
-        nicht Instanz brach <strong>Fritzls</strong>
-        System auf – ein medizinischer Notfall
-        erzwang den Contact mit der Außenwelt.
-        Das ist bezeichnend: Ein System,
-        das so vollständig auf Kontrolle gebaut ist,
-        bricht nur durch externe Kraft,
-        nicht durch innere Erosion.
-        Die Eins hält durch,
-        solange das System funktioniert.</p>
+        <p class="vb-intro"><strong>a) The Inconspicuous Perpetrator:</strong>
+        <strong>Fritzl</strong> is the textbook example
+        of the perpetrator no one had
+        on their radar. No criminal history
+        in the public consciousness of his community
+        (although he had been convicted of rape
+        in 1967), no conspicuous traits,
+        no alarm. That is the social
+        protective effect of the Nine-wing:
+        he who does not stand out falls
+        under no suspicion.</p>
+        <p class="vb-intro"><strong>b) The House Rules as Absolute Authority:</strong>
+        Within the family unit, <strong>Fritzl's</strong>
+        word was immutable.
+        His wife Rosemarie apparently did not
+        fundamentally doubt his explanations.
+        The One in household authority
+        creates an atmosphere
+        in which questioning appears as disrespect –
+        and in which those around him learn
+        not to ask.</p>
+        <p class="vb-intro"><strong>c) The System Breaks From the Outside:</strong>
+        Not conscience, not surroundings,
+        not authority broke <strong>Fritzl's</strong>
+        system – a medical emergency
+        forced contact with the outside world.
+        This is telling: a system
+        built so completely on control
+        breaks only through external force,
+        not through internal erosion.
+        The One holds out
+        as long as the system works.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Bleierne Ruhe:</strong>
-        Die energetische Wirkung <strong>Fritzls</strong>
-        auf sein Umfeld war Schwere,
-        nicht Bedrohung.
-        Eine bleischwere Normalität,
-        die keinen Raum für Fragen ließ.
-        Das ist der Nine-wing
-        in seiner unterdrückendsten Qualität:
-        nicht laut, nicht aggressiv –
-        aber erdrückend schwer,
-        wie eine Decke, die Luft nimmt.</p>
-        <p class="vb-intro"><strong>b) Keine Erschütterung nach außen:</strong>
-        Selbst in den Jahren, in denen
-        die Lage im Keller eskalierte –
-        erkrankte Kinder, enge Verhältnisse,
-        wachsende Komplexität des Doppellebens –
-        zeigte <strong>Fritzl</strong> nach außen
-        keine sichtbare Veränderung.
-        Der Nine-wing reguliert nach innen
-        durch Dissoziation: Was nicht
-        gezeigt werden darf, wird abgetrennt
-        und existiert in einem eigenen,
-        geschlossenen Bewusstseinsraum.</p>
-        <p class="vb-intro"><strong>c) Energie der Beharrlichkeit:</strong>
-        24 Jahre erfordern Beharrlichkeit –
-        nicht Leidenschaft, nicht Exzess,
-        sondern die geduldige Aufrechterhaltung
-        eines Systems Tag für Tag.
-        Diese Art von Energie ist das Merkmal
-        der selbsterhaltenden und der sexuellen Eins:
-        Sie gibt nicht auf.
-        Die Neun verlangsamt und beruhigt;
-        die Eins hält durch.
-        In Kombination entsteht eine Ausdauer,
-        die keine emotionale Erschütterung kennt.</p>
+        <p class="vb-intro"><strong>a) Leaden Calm:</strong>
+        The energetic effect of <strong>Fritzl</strong>
+        on his surroundings was heaviness,
+        not threat.
+        A leaden normalness
+        that left no room for questions.
+        This is the Nine-wing
+        in its most oppressive quality:
+        not loud, not aggressive –
+        but crushingly heavy,
+        like a blanket taking away the air.</p>
+        <p class="vb-intro"><strong>b) No Outer Shaking:</strong>
+        Even during the years when
+        the situation in the cellar escalated –
+        sick children, cramped conditions,
+        growing complexity of the double life –
+        <strong>Fritzl</strong> showed no visible
+        change on the outside.
+        The Nine-wing regulates internally
+        through dissociation: what must not
+        be shown is severed
+        and exists in its own,
+        enclosed realm of consciousness.</p>
+        <p class="vb-intro"><strong>c) Energy of Persistence:</strong>
+        24 years require persistence –
+        not passion, not excess,
+        but the patient maintenance
+        of a system day after day.
+        This kind of energy is the hallmark
+        of the self-preservation and sexual One:
+        it does not give up.
+        The Nine slows down and calms;
+        the One holds out.
+        In combination, an endurance emerges
+        that knows no emotional shaking.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Schwarze Mamba</h3>
-        <p class="vb-intro"><strong>a) Lautlos und unsichtbar bis zum Zuschlagen:</strong>
-        Die Schwarze Mamba bewegt sich
-        mit außergewöhnlicher Geschwindigkeit
-        und Lautlosigkeit. Sie ist selten zu sehen,
-        bevor sie handelt.
-        <strong>Fritzl</strong> funktionierte auf dieselbe Weise:
-        24 Jahre lang kein Zeichen, kein Alarm,
-        keine wahrnehmbare Bedrohung nach außen.
-        Die Mamba zeigt sich nicht –
-        sie ist bereits da.</p>
-        <p class="vb-intro"><strong>b) Das Gift wirkt tief und dauerhaft:</strong>
-        Das Neurotoxin der Schwarzen Mamba
-        greift das Nervensystem an –
-        langsam lähmend, systematisch.
-        <strong>Fritzls</strong> Verbrechen hatte dieselbe
-        Qualität: kein einmaliger Gewaltakt,
-        sondern ein über Jahrzehnte wirkendes
-        Gift aus Isolation, Abhängigkeit
-        und vollständiger Kontrolle.
-        Die Wirkung auf Elisabeth und ihre Kinder
-        war nicht punktuell, sondern
-        in jede Zelle ihres Lebens eingedrungen.</p>
-        <p class="vb-intro"><strong>c) Kalt, nicht leidenschaftlich:</strong>
-        Die Schwarze Mamba greift nicht aus Wut an –
-        sie handelt aus dem Reflex des Besitzes,
-        der Bedrohung, des Reviers.
-        <strong>Fritzl</strong> war kein Mann der sichtbaren
-        Leidenschaft oder des entfesselten Zorns –
-        er war kalt im Sinne von absoluter
-        Zielklarheit ohne emotionale Turbulenz.
-        Die Mamba zittert nicht.
-        Sie trifft.</p>
+        <p class="vb-intro"><strong>a) Silent and Invisible Until Striking:</strong>
+        The Black Mamba moves
+        with extraordinary speed
+        and silence. It is rarely seen
+        before it acts.
+        <strong>Fritzl</strong> functioned in the same way:
+        24 years long no sign, no alarm,
+        no perceptible threat to the outside.
+        The Mamba does not reveal itself –
+        it is already there.</p>
+        <p class="vb-intro"><strong>b) The Venom Acts Deeply and Enduringly:</strong>
+        The neurotoxin of the Black Mamba
+        attacks the nervous system –
+        slowly paralyzing, systematic.
+        <strong>Fritzl's</strong> crime had the same
+        quality: not a single act of violence,
+        but a poison acting over decades,
+        made of isolation, dependence,
+        and total control.
+        The effect on Elisabeth and her children
+        was not punctual, but had
+        penetrated every cell of their lives.</p>
+        <p class="vb-intro"><strong>c) Cold, Not Passionate:</strong>
+        The Black Mamba does not attack out of anger –
+        it acts out of the reflex of possession,
+        threat, territory.
+        <strong>Fritzl</strong> was not a man of visible
+        passion or unleashed wrath –
+        he was cold in the sense of absolute
+        clarity of purpose without emotional turbulence.
+        The Mamba does not tremble.
+        It strikes.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Josef Fritzl</strong> verkörpert den Sexuellen Typ 1 with Nine-wing
-        in einer Ausprägung, die in ihrer Konsequenz beispiellos ist.
-        Der SX-Instinkt erzeugte das Bedürfnis nach vollständiger Kontrolle
-        über die intimste Beziehung – ohne Kompromiss, ohne Grenze.
-        Die Eins lieferte die moralische Rahmung: Schutz, Ordnung, Autorität.
-        Der Nine-wing sorgte für die vollständige Dissoziation
-        zwischen Innen- und Außenwelt – die Fähigkeit,
-        24 Jahre lang ein normales Leben zu führen,
-        während darunter ein Abgrund existierte.
-        Fritzl ist kein Fall von unkontrollierbarer Triebhaftigkeit.
-        Er ist ein Fall von vollständiger Systemkontrolle:
-        ein Mann, der eine Wirklichkeit nach seinen eigenen Regeln
-        konstruiert hat – und der, solange das System funktionierte,
-        keinen Anlass sah, es zu hinterfragen.
-        Die dunkelste Eigenschaft der Eins ist nicht ihr Zorn.
-        Es ist ihre Überzeugung, im Recht zu sein.
+        <strong>Josef Fritzl</strong> embodies the Sexual Type 1 with Nine-wing
+        in a manifestation that is unprecedented in its consistency.
+        The SX instinct produced the need for total control
+        over the most intimate relationship – without compromise, without boundary.
+        The One provided the moral framing: protection, order, authority.
+        The Nine-wing ensured the complete dissociation
+        between the inner and outer worlds – the ability
+        to lead a normal life for 24 years
+        while an abyss existed beneath it.
+        Fritzl is not a case of uncontrollable compulsiveness.
+        He is a case of total system control:
+        a man who constructed a reality according to his own rules –
+        and who, as long as the system worked,
+        saw no reason to question it.
+        The darkest property of the One is not its wrath.
+        It is its conviction of being in the right.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX1 – der Kontratyp:</strong>
-        Claudio Naranjo beschrieb die sexuelle Eins
-        als den Subtype, der am wenigsten
-        nach einer Eins aussieht.
-        Sie ist leidenschaftlicher, weniger rigide,
-        auf intensive Zweierbeziehungen ausgerichtet.
-        Bei <strong>Fritzl</strong> nimmt diese Intensität
-        die Form des absoluten Besitzanspruchs an:
-        nicht Beziehung im Sinne von Gegenseitigkeit,
-        sondern Beziehung im Sinne von
-        unumschränkter Verfügungsgewalt.</p>
-        <p class="vb-intro"><strong>b) Der Nine-wing als Betäubungsmaschine:</strong>
-        Die Neun betäubt innere Konflikte,
-        indem sie sie auslagert oder unsichtbar macht.
-        Im Zusammenspiel mit der Einser-Überzeugung
-        entsteht eine besondere Gefährlichkeit:
-        Der innere Richter der Eins urteilt;
-        die Neun sorgt dafür, dass das Urteil
-        gefühllos vollzogen wird.
-        <strong>Fritzl</strong> zeigte während des gesamten
-        Zeitraums keine erkennbare innere Erschütterung –
-        was nur durch massive Dissoziation
-        möglich ist.</p>
-        <p class="vb-intro"><strong>c) Verurteilung 1967:</strong>
-        <strong>Fritzl</strong> war 1967 wegen Vergewaltigung
-        zu einer Bewährungsstrafe verurteilt worden.
-        Diese Vortat blieb in seinem sozialen
-        Umfeld in Amstetten weitgehend unbekannt –
-        teils weil das Urteil lange zurücklag,
-        teils weil die kleinstädtische Struktur
-        keine Transparenz erzeugte.
-        Das SX1w9-Muster macht es möglich,
-        nach solchen Ereignissen nahtlos
-        in ein bürgerliches Leben zurückzukehren:
-        Die Neun schließt Kapitel,
-        die Eins setzt die Ordnung fort.</p>
-        <p class="vb-intro"><strong>d) Elisabeth als Objekt der Kontrolle:</strong>
-        Für den SX1 ist die eine zentrale Beziehung
-        der Kernbereich seiner Existenz.
-        <strong>Fritzls</strong> Fixierung auf Elisabeth begann
-        bereits vor der Einkerkerung.
-        In der Logik des pathologischen SX1
-        war der Keller die konsequente Vollstreckung
-        dieses Kontrollbedürfnisses:
-        Wer nicht weggehen kann,
-        bleibt.</p>
-        <p class="vb-intro"><strong>e) Desintegration in die Vier:</strong>
-        Der Stresspunkt der Eins ist die Vier:
-        das Einbrechen in Scham, Schmerz
-        und das Gefühl der fundamentalen Andersartigkeit.
-        <strong>Fritzl</strong> scheint diesen Weg nie beschritten zu haben –
-        keine Selbstanklagen, keine erkennbare Reue,
-        keine Erschütterung beim Auffliegen des Systems.
-        Das deutet auf eine Desintegrationsstruktur,
-        die nach innen vollständig blockiert ist:
-        Die Neun verhindert das Einbrechen,
-        die Eins hält das Selbstbild aufrecht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SX1 – The Countertype:</strong>
+        Claudio Naranjo described the Sexual One
+        as the subtype that least
+        looks like a One.
+        It is more passionate, less rigid,
+        oriented toward intense one-on-one relationships.
+        In <strong>Fritzl's</strong> case, this intensity takes
+        the form of an absolute claim to ownership:
+        not relationship in the sense of mutuality,
+        but relationship in the sense of
+        unrestricted power of disposal.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing as a Numbing Machine:</strong>
+        The Nine numbs inner conflicts
+        by outsourcing them or making them invisible.
+        In tandem with the conviction of the One,
+        a particular dangerousness arises:
+        the inner judge of the One passes sentence;
+        the Nine ensures that the sentence
+        is executed without feeling.
+        <strong>Fritzl</strong> showed no discernible inner turmoil
+        throughout the entire period –
+        which is only possible through massive dissociation.</p>
+        <p class="vb-intro"><strong>c) 1967 Conviction:</strong>
+        <strong>Fritzl</strong> had been
+        sentenced to a suspended prison term for rape in 1967.
+        This prior offense remained largely unknown in his social
+        environment in Amstetten –
+        partly because the verdict lay far back in the past,
+        partly because the small-town structure
+        generated no transparency.
+        The SX1w9 pattern makes it possible
+        to return seamlessly to a bourgeois life after such events:
+        the Nine closes chapters,
+        the One continues the order.</p>
+        <p class="vb-intro"><strong>d) Elisabeth as an Object of Control:</strong>
+        For the SX1, the one central relationship
+        is the core area of its existence.
+        <strong>Fritzl's</strong> fixation on Elisabeth began
+        even before her imprisonment.
+        In the logic of the pathological SX1,
+        the cellar was the logical execution
+        of this need for control:
+        she who cannot leave
+        stays.</p>
+        <p class="vb-intro"><strong>e) Disintegration into Four:</strong>
+        The stress point of the One is Four:
+        collapsing into shame, pain,
+        and the feeling of fundamental defectiveness.
+        <strong>Fritzl</strong> seems never to have walked this path –
+        no self-accusation, no discernible remorse,
+        no inner shaking when the system was exposed.
+        This points to a disintegration structure
+        that is entirely blocked from within:
+        the Nine prevents the collapse,
+        the One maintains the self-image.</p>
         <p class="vb-intro"><strong>f) Vergleich mit Alex Murdaugh (SX1w2):</strong>
         Beide sind sexuelle Einsen,
         beide mordeten oder versklavten im Schutz

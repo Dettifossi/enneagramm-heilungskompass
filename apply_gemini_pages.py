@@ -14,7 +14,7 @@ def parse(text):
     pages = {}
     blocks = re.split(r'=== PAGE: (.+?) ===\n', text)
     for i in range(1, len(blocks), 2):
-        fn_name = blocks[i].strip()
+        fn_name = re.sub(r'\s*\(.*?\)\s*$', '', blocks[i].strip())
         content = blocks[i+1] if i+1 < len(blocks) else ""
         h_list, p_list, booktips, labels = [], [], [], []
         cur_p = None
