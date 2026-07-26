@@ -40,6 +40,25 @@ def parse(text):
         pages[fn_name] = {'h': h_list, 'p': p_list, 'booktips': booktips, 'labels': labels}
     return pages
 
+_ESCAPE_MAP = {'ä':'\\xe4','ö':'\\xf6','ü':'\\xfc','ß':'\\xdf','Ü':'\\xdc',
+               'Ö':'\\xd6','Ä':'\\xc4','é':'\\xe9','è':'\\xe8','à':'\\xe0'}
+
+def escaped(s):
+    for k, v in _ESCAPE_MAP.items():
+        s = s.replace(k, v)
+    return s
+
+def find_in(fn_code, de):
+    """Return the exact substring present in fn_code matching de, trying the
+    literal text first and the \\xNN-escaped-umlaut variant as a fallback
+    (bundle.js sometimes stores non-ASCII chars as JS \\xNN escapes)."""
+    if de in fn_code:
+        return de
+    de_esc = escaped(de)
+    if de_esc in fn_code:
+        return de_esc
+    return None
+
 def fn_bounds(code, fn_name):
     start = code.find(f"function {fn_name}()")
     if start == -1: return None, None
@@ -81,30 +100,33 @@ def main():
 
         replaced_h = replaced_p = replaced_bt = replaced_l = 0
         for de, en in zip(src['h'], trans['h']):
-            if de in fn_code:
-                fn_code = fn_code.replace(de, en, 1)
+            match = find_in(fn_code, de)
+            if match:
+                fn_code = fn_code.replace(match, en, 1)
                 replaced_h += 1
             else:
                 print(f"  WARNING [{fn_name}] heading not found: {de[:60]!r}")
 
         for de, en in zip(src['p'], trans['p']):
-            if de in fn_code:
-                fn_code = fn_code.replace(de, en, 1)
+            match = find_in(fn_code, de)
+            if match:
+                fn_code = fn_code.replace(match, en, 1)
                 replaced_p += 1
             else:
                 print(f"  WARNING [{fn_name}] paragraph not found (len {len(de)}): {de.strip()[:60]!r}")
 
         for de, en in zip(src['booktips'], trans['booktips']):
-            if de in fn_code:
-                fn_code = fn_code.replace(de, en, 1)
+            match = find_in(fn_code, de)
+            if match:
+                fn_code = fn_code.replace(match, en, 1)
                 replaced_bt += 1
             else:
                 print(f"  WARNING [{fn_name}] booktip not found: {de[:60]!r}")
 
         for de, en in zip(src['labels'], trans['labels']):
-            needle = f'label:"{de}"'
-            if needle in fn_code:
-                fn_code = fn_code.replace(needle, f'label:"{en}"', 1)
+            match = find_in(fn_code, f'label:"{de}"')
+            if match:
+                fn_code = fn_code.replace(match, f'label:"{en}"', 1)
                 replaced_l += 1
             else:
                 print(f"  WARNING [{fn_name}] label not found: {de[:60]!r}")
