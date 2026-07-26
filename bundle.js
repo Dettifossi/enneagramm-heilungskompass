@@ -39217,6 +39217,17 @@ function stillePage() {
         Lege das Handy zur Seite. Ein Gong ertönt am Anfang und am Ende.
       </p>
 
+      <div style="margin:2.2rem auto 0;max-width:480px;background:var(--paper);border-radius:14px;border:1px solid var(--border);padding:1.3rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;">
+        <img src="https://www.verlagshausrathmer.com/images/2026/03/WhatsApp-Image-2026-03-22-at-9.26.55-PM.jpeg" alt="Meta-Intelligenz – Das Hörbuch – Cover" style="width:64px;height:64px;border-radius:8px;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.15);">
+        <div style="flex:1;min-width:0;">
+          <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.06em;">Hörprobe &middot; von Detlef Rathmer selbst gesprochen</p>
+          <p style="margin:0 0 .6rem;font-size:0.92rem;line-height:1.55;color:var(--ink);">Der Geist besitzt eine besondere Fähigkeit: die eigenen Gedanken bewusst zu beobachten &ndash; ganz still und entspannt. Hören Sie eine kurze Einführung zu <em>Meta-Intelligenz</em>:</p>
+          <audio controls preload="none" style="width:100%;max-width:320px;height:36px;" src="assets/meta-intelligenz-einfuehrung-ausschnitt.mp3"></audio>
+        </div>
+      </div>
+
+      ${bookTip("meta-intelligenz", "Wie der Geist lernt, die eigenen Gedanken zu beobachten &ndash; elf Kapitel über Bewusstsein, Abstand und innere Klarheit.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Vom Autor selbst gesprochen: ein direkter Zugang zu mehr Klarheit durch das Verstehen der eigenen inneren Struktur.", "Meta-Intelligenz – Das Hörbuch")}
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag &ndash; der ideale Begleiter zur täglichen Stille-Praxis.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachlässt &ndash; ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
@@ -42107,7 +42118,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v736';
+  const MY_VERSION = 'inhalt-v737';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
