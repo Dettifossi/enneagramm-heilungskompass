@@ -2,3 +2,5 @@
 User-agent: *
 Disallow: /meine-posts-x7k2m.html
 Disallow: /typberatung-scan-p7k4m.html
+
+Sitemap: https://kompass.verlagshausrathmer.com/sitemap.xml
