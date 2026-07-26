@@ -30867,378 +30867,108 @@ function paulOgorzowPortraitPage() {
         </div>
         <p class="krim-portrait-name">Paul Ogorzow</p>
         <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, „S-Bahn-Mörder" · Animal correspondence: Adler</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">German serial killer, "S-Bahn Murderer" · Animal correspondence: Eagle</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Paul Ogorzow</strong>, geboren am 28. Juli 1912
-        in Barthen (Ostpreußen), wurde am 26. Juli 1946
-        in Berlin hingerichtet.
-        Zwischen September 1939 und Juli 1941 ermordete er
-        acht Frauen und verletzte mindestens sechs weitere –
-        teils auf Bahnanlagen, teils in Abteilen der S-Bahn
-        während der kriegsbedingten Verdunkelung Berlins.
-        Die Presse nannte ihn den „S-Bahn-Mörder".
-        Als Hilfsweichenwärter bei der Reichsbahn
-        kannte er die Strecken, die Schichten, die blinden Flecke.
-        Er nutzte dieses Wissen mit präziser Routine.
-        Tagsüber war er der mustergültige Nachbar:
-        Er pflanzte Gemüse im Vorgarten, kümmerte sich
-        fürsorglich um seine Kinder und galt als
-        freundlicher, völlig unauffälliger Mann.
-        Kein Wutausbruch, keine bekannte Auffälligkeit,
-        kein Verdacht.
-        Vor Gericht versuchte er, jede persönliche Schuld
-        von sich zu weisen: Eine Geschlechtskrankheit,
-        von einem jüdischen Arzt behandelt,
-        habe sein Gehirn geschädigt und ihn seiner
-        Verantwortung enthoben.
-        Er wurde zum Tode verurteilt und hingerichtet.
+        Paul Ogorzow, born on July 28, 1912 in Barthen (East Prussia), was executed on July 26, 1946 in Berlin. Between September 1939 and July 1941, he murdered eight women and injured at least six others – partly on railway premises, partly in S-Bahn compartments during Berlin's wartime blackouts. The press dubbed him the "S-Bahn Murderer." As an assistant signalman for the Reichsbahn, he knew the tracks, the shifts, and the blind spots. He utilized this knowledge with precise routine. By day, he was the model neighbor: he grew vegetables in his front garden, cared tenderly for his children, and was considered a friendly, completely inconspicuous man. No outbursts of rage, no known anomalies, no suspicion. In court, he attempted to disclaim all personal guilt: a venereal disease treated by a Jewish doctor had supposedly damaged his brain and relieved him of his responsibility. He was sentenced to death and executed.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Paul Ogorzow</strong> wird der <strong>Self-Preservationen Eins mit Neunflügel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein nach innen gekehrter, strukturierter Groll
-        gegen die eigene Unvollkommenheit und die Unvollkommenheit der Welt.
-        Die selbsterhaltende Eins (SP1) unterscheidet sich
-        grundlegend von der sozialen Eins (SO1):
-        Wo die SO1 nach außen belehrt und moralisiert,
-        richtet die SP1 ihre Energie nach innen –
-        auf perfekte Selbstkontrolle, makellose Fassade,
-        tadellosen Alltag. Sie wirkt gutmütig, fast kindlich,
-        harmlos. Das ist kein Zufall: Die SP1 maskiert
-        ihre innere Anspannung durch übertriebene Korrektheit,
-        weil Error – und damit Strafe – um jeden Preis vermieden werden müssen.
-        Der Neunflügel fügt die Fähigkeit zur vollständigen
-        emotionalen Abspaltung hinzu: zwei Welten,
-        hermetisch getrennt, niemals in Berührung.
-        Ogorzows Fall zeigt, welch abgründige Doppelexistenz
-        diese Kombination erzeugen kann.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>a) Type Assignment:</strong>
+Paul Ogorzow is assigned to the Self-Preservation One with a Nine-wing in the Enneagram. The passion of the One is Anger – an internalized, structured resentment against one's own imperfection and the imperfection of the world. The Self-Preservation One (SP1) differs fundamentally from the Social One (SO1): where the SO1 lectures and moralizes outwardly, the SP1 directs its energy inward – toward perfect self-control, an immaculate facade, and an irreproachable daily life. They appear good-natured, almost childlike, and harmless. This is no coincidence: the SP1 masks their inner tension through exaggerated correctness because errors – and thus punishment – must be avoided at all costs. The Nine-wing adds the capacity for complete emotional splitting: two worlds, hermetically separated, never touching. Ogorzow's case shows the abysmal double life this combination can produce.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Unauffällig und angepasst:</strong>
-        <strong>Ogorzow</strong> fiel niemandem auf – und das war kein Zufall.
-        Die SP1 trainiert sich darauf, keinen Anlass zur Kritik zu bieten:
-        kein Fehlverhalten, kein Aufsehen, keine Angriffsfläche.
-        Sein Blick war der eines pflichtbewussten Mannes –
-        offen, direkt, ohne Besonderheit.
-        Wer ihn ansah, sah nichts. Und genau das war seine Tarnung.</p>
-        <p class="vb-intro"><strong>b) Bewertend nach innen, blank nach außen:</strong>
-        Die Eins registriert alles – Error, Verstöße, Abweichungen.
-        Bei <strong>Ogorzow</strong> lief diese innere Buchführung
-        vollständig verborgen.
-        Nach außen keine Strenge, keine Kritik, kein Richterton.
-        Der Neunflügel dämpfte auch die nach außen gerichteten
-        Impulse der Eins vollständig:
-        was andere als moralischen Furor erleben mögen,
-        war bei ihm zu einem stillen, unsichtbaren inneren System geworden.</p>
-        <p class="vb-intro"><strong>c) Doppelter Blick – die zwei Welten:</strong>
-        <strong>Ogorzows</strong> Blick hatte eine gespaltene Qualität,
-        die nur im Rückblick sichtbar wird:
-        Derselbe Mann, der seine Kinder liebevoll ansah,
-        sah dieselben Bahngleise als Jagdrevier.
-        Der 1w9 lebt in zwei hermetisch getrennten Wahrnehmungsräumen –
-        und hat gelernt, zwischen ihnen umzuschalten,
-        ohne dass einer den anderen berührt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Inconspicuous and Adapted:</strong>
+Ogorzow caught no one's attention – and that was no accident. The SP1 trains itself to offer no cause for criticism: no misconduct, no sensation, no point of vulnerability. His gaze was that of a dutiful man – open, direct, unremarkable. Whoever looked at him saw nothing. And that was precisely his camouflage.</p>
+        <p class="vb-intro"><strong>b) Evaluating Inwardly, Blank Outwardly:</strong>
+The One registers everything – errors, violations, deviations. In Ogorzow's case, this inner bookkeeping ran completely hidden. Outwardly, there was no strictness, no criticism, no tone of judgment. The Nine-wing also completely muted the outward impulses of the One: what others might experience as moral furor had in him become a quiet, invisible inner system.</p>
+        <p class="vb-intro"><strong>c) Split Gaze – The Two Worlds:</strong>
+Ogorzow's gaze had a split quality that becomes visible only in retrospect: the same man who looked affectionately at his children viewed the exact same railway tracks as a hunting ground. The 1w9 lives in two hermetically separated perceptual spaces – and has learned to switch between them without one ever touching the other.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Die kindliche Fassade der SP1:</strong>
-        Naranjo beschreibt die selbsterhaltende Eins
-        als den Subtype, der am stärksten nach
-        Harmlosigkeit und Sanftmut strebt –
-        als unbewusste Strategie, Strafe zu vermeiden.
-        Bei <strong>Ogorzow</strong> war diese Strategie perfektioniert:
-        Gemüsegarten, Fleiß, Freundlichkeit, Väterlichkeit.
-        Das Bild des spießbürgerlichen Musterbürgers
-        war keine bewusste Maske – es war der
-        tiefste Ausdruck seiner SP1-Logik:
-        Wenn ich fehlerfrei bin, bin ich sicher.
-        Wenn ich sicher bin, bin ich unangreifbar.</p>
-        <p class="vb-intro"><strong>b) Fachwissen als Kontrollwerkzeug:</strong>
-        <strong>Ogorzow</strong> nutzte seine Arbeit als Weichenwärter
-        nicht nur für die Taten – er nutzte sie als
-        Ordnungssystem für sein gesamtes Doppelleben.
-        Die SP1 braucht Struktur, Routine und einen Rahmen,
-        in dem sie sich sicher fühlt.
-        Der Bahnbetrieb war dieser Rahmen:
-        Schichten, Abläufe, Streckenkenntnis –
-        alles unter Kontrolle, alles planbar,
-        alles im System der Eins verortet.</p>
-        <p class="vb-intro"><strong>c) Die Verdunkelung als strukturelle Ermöglichung:</strong>
-        Dass <strong>Ogorzow</strong> ausgerechnet in den Jahren
-        der kriegsbedingten Berliner Verdunkelung agierte,
-        ist psychologisch bedeutsam.
-        Die SP1 handelt nur, wenn sie sich unangreifbar glaubt –
-        wenn die äußere Struktur ihr Schutz gibt.
-        Die Dunkelheit der Verdunkelung war für ihn
-        das Äquivalent zur inneren Abspaltung:
-        Niemand sieht mich. Ich bin unsichtbar. Ich bin sicher.</p>
+        <p class="vb-intro"><strong>a) The Childlike Facade of the SP1:</strong>
+Naranjo describes the Self-Preservation One as the subtype that strives most strongly for harmlessness and gentleness – as an unconscious strategy to avoid punishment. In Ogorzow's case, this strategy was perfected: vegetable garden, diligence, friendliness, fatherliness. The image of the bourgeois model citizen was not a conscious mask – it was the deepest expression of his SP1 logic: if I am faultless, I am safe. If I am safe, I am unassailable.</p>
+        <p class="vb-intro"><strong>b) Technical Knowledge as a Control Tool:</strong>
+Ogorzow used his job as a signalman not only for his crimes – he used it as an organizing system for his entire double life. The SP1 needs structure, routine, and a framework in which they feel secure. Railway operations provided this framework: shifts, procedures, route knowledge – everything under control, everything predictable, everything located within the One's system.</p>
+        <p class="vb-intro"><strong>c) The Blackout as Structural Facilitation:</strong>
+The fact that Ogorzow operated during the years of Berlin's wartime blackout is psychologically significant. The SP1 acts only when believing itself unassailable – when the external structure offers protection. The darkness of the blackout was for him the equivalent of inner splitting: no one sees me. I am invisible. I am safe.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Zorn ohne sichtbaren Furor:</strong>
-        Die Leidenschaft der Eins ist Zorn –
-        aber bei der SP1 ist dieser Zorn tief eingegraben,
-        kaum sichtbar, nach innen verdichtet.
-        <strong>Ogorzow</strong> zeigte nach außen keinen Groll, keine Erregung,
-        keine Aggressivität. Dennoch war dieser Zorn vorhanden:
-        als strukturierter Hass auf Frauen,
-        den er auf äußere Ursachen projizierte –
-        die Krankheit, den Arzt, die Schuld der anderen.
-        Der Zorn der Eins findet immer einen Adressaten.
-        Bei ihm war es nicht die Welt insgesamt,
-        sondern ein konkretes, eingegrenztes Feindbild.</p>
-        <p class="vb-intro"><strong>b) Schuld als etwas, das nie bei einem selbst liegt:</strong>
-        Der tiefste Abwehrmechanismus der Eins ist <em>Reaktionsbildung</em>:
-        das Eigene wird zum Fremden gemacht.
-        <strong>Ogorzow</strong> hat diesen Mechanismus vor Gericht
-        in reinster Form gezeigt: Nicht ich bin schuld –
-        der Arzt hat mein Gehirn beschädigt.
-        Das ist kein strategisches Lügen, das ist ein
-        tief eingeübter Einser-Reflex:
-        Das vollkommene Ich kann keine Schuld tragen.
-        Also muss die Schuld woanders liegen.
-        Immer.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Das hermetische Doppelleben:</strong>
-        Der Neunflügel erlaubt dem SP1 eine Form
-        der Dissoziation, die für Außenstehende unbegreiflich ist:
-        vollständige Trennung zweier Lebenswirklichkeiten,
-        ohne dass eine die andere berührt oder stört.
-        <strong>Ogorzow</strong> war Vater, Nachbar, Bahnarbeiter –
-        und gleichzeitig, in der Nacht, etwas völlig anderes.
-        Diese Trennung brach nicht zusammen, sie dichtete ab.
-        Der Neuner dämpft nicht nur die Emotion –
-        er dämpft das Bewusstsein der eigenen Widersprüchlichkeit.</p>
+        <p class="vb-intro"><strong>a) Anger Without Visible Furor:</strong>
+The passion of the One is anger – but in the SP1, this anger is buried deep, barely visible, condensed inward. Outwardly, Ogorzow showed no resentment, no excitement, no aggressiveness. Yet this anger was present: as a structured hatred of women, which he projected onto external causes – the disease, the doctor, the guilt of others. The anger of the One always finds an addressee. For him, it was not the world as a whole, but a concrete, circumscribed enemy image.</p>
+        <p class="vb-intro"><strong>b) Guilt as Something That Never Lies with Oneself:</strong>
+The deepest defense mechanism of the One is reaction formation: what belongs to oneself is made foreign. Ogorzow demonstrated this mechanism in its purest form in court: I am not to blame – the doctor damaged my brain. This is not strategic lying; it is a deeply ingrained One reflex: the perfect self cannot bear guilt. Therefore, the guilt must lie elsewhere. Always.</p>
+        <p class="vb-intro"><strong>c) Nine-Wing:</strong> The Hermetic Double Life:
+The Nine-wing allows the SP1 a form of dissociation that is incomprehensible to outsiders: total separation of two life realities without one touching or disturbing the other. Ogorzow was a father, neighbor, railway worker – and at the same time, during the night, something entirely different. This separation did not collapse; it sealed itself off. The Nine-wing does not just dampen emotion – it dampens awareness of one's own contradictoriness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Tathandlung im Licht der SP1</h3>
-        <p class="vb-intro"><strong>a) Routine und Präzision als Tatprinzip:</strong>
-        <strong>Ogorzow</strong> griff überwiegend auf Bahnanlagen
-        und in Abteilen der S-Bahn an –
-        exakt in dem Umfeld, das er als Weichenwärter
-        in- und auswendig kannte.
-        Das ist kein Zufall: Die SP1 handelt nur
-        im Rahmen dessen, was sie vollständig kontrolliert.
-        Die Strecken, die Schichten, die Verdunkelungszeiten –
-        alles war vorab bekannt, kalkuliert, vertraut.
-        Er schuf sich ein Jagdfeld aus seiner Arbeitsumgebung:
-        der geordnete Rahmen, der die Tat erst möglich machte.</p>
-        <p class="vb-intro"><strong>b) Gewalt ohne Exzess – das Einser-Prinzip:</strong>
-        <strong>Ogorzows</strong> Vorgehensweise hatte – anders als etwa
-        bei Tätern mit Achter-Energie – keinen exzessiven,
-        selbstzweckhaften Charakter.
-        Er schlug zu, würgte, warf Opfer aus fahrenden Zügen.
-        Die Brutalität war vorhanden – aber sie war
-        funktional, nicht auslebend.
-        Das entspricht der SP1-Logik:
-        kein Ausbruch um des Ausbruchs willen,
-        sondern ein Vorgang, der vollzogen und abgeschlossen wird.
-        Danach Rückkehr in die Routine.
-        Kein Nachhall, keine Spur, keine Erregung.</p>
-        <p class="vb-intro"><strong>c) Die Verdunkelung als SP1-Schutzstruktur:</strong>
-        Die kriegsbedingte Berliner Verdunkelung war für
-        <strong>Ogorzow</strong> die äußere Entsprechung seiner inneren Abspaltung:
-        ein strukturell gesicherter Raum der Unsichtbarkeit.
-        Die SP1 handelt nur, wenn sie glaubt, unangreifbar zu sein –
-        wenn keine Kontrolle von außen möglich ist.
-        Die Dunkelheit war sein System.
-        Als die Ermittler begannen, gezielt auf Bahnpersonal
-        zu schauen, und sein Name fiel,
-        brach das System sofort zusammen:
-        Er gestand noch in derselben Nacht.
-        Das ist die SP1 ohne ihre Schutzstruktur –
-        sie hält nicht stand.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Crime in Light of SP1</h3>
+        <p class="vb-intro"><strong>a) Routine and Precision as a Principle of Action:</strong>
+Ogorzow attacked predominantly on railway property and inside S-Bahn compartments – in the exact environment he knew inside and out as a signalman. This was no coincidence: the SP1 acts only within the scope of what it controls completely. The routes, the shifts, the blackout times – everything was known in advance, calculated, familiar. He created a hunting ground out of his work environment: the orderly framework that made the crime possible in the first place.</p>
+        <p class="vb-intro"><strong>b) Violence Without Excess – The One-Principle:</strong>
+Unlike perpetrators driven by Eight-energy, Ogorzow's approach lacked an excessive, self-serving character. He struck, choked, and threw victims from moving trains. Brutality was present – but it was functional, not expressive. This corresponds to SP1 logic: no outburst for the sake of an outburst, but an operation executed and completed. Afterward, a return to routine. No echo, no trace, no arousal.</p>
+        <p class="vb-intro"><strong>c) The Blackout as SP1 Protective Structure:</strong>
+The wartime blackout in Berlin was for Ogorzow the external equivalent of his inner splitting: a structurally secured space of invisibility. The SP1 acts only when believing itself unassailable – when no external oversight is possible. The darkness was his system. When investigators began focusing specifically on railway personnel and his name came up, the system collapsed immediately: he confessed that very night. That is the SP1 without its protective structure – it does not hold up.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der perfekte Unsichtbare:</strong>
-        <strong>Ogorzow</strong> war über zwei Jahre aktiv,
-        ohne ernsthaft in Verdacht zu geraten –
-        nicht weil er clever täuschte,
-        sondern weil er tatsächlich das Bild des
-        vollkommen unverdächtigen Mannes verkörperte.
-        Die SP1 arbeitet ihr ganzes Leben daran,
-        keinen Error zu machen – und genau das machte ihn
-        für die Ermittler so schwer greifbar:
-        Es gab nichts, woran man ihn erkennen konnte.</p>
-        <p class="vb-intro"><strong>b) Kein Profil – nur Abwesenheit:</strong>
-        Kriminalisten, die nach einem Tätertyp suchten,
-        scheiterten zunächst, weil <strong>Ogorzow</strong>
-        kein erkennbares Profil hatte.
-        Kein Vorstrafen, kein Alkohol, keine bekannten Konflikte.
-        Die SP1 hinterlässt bewusst keine Spuren –
-        nicht durch Raffinesse, sondern durch das
-        jahrelang eingeübte Verschwinden hinter der Norm.
-        Er war der Täter, der aussah wie keiner.</p>
-        <p class="vb-intro"><strong>c) Kriegskontext als Verstärker:</strong>
-        Der Zweite Weltkrieg bot <strong>Ogorzow</strong>
-        strukturelle Bedingungen, die seiner SP1-Logik entgegenkamen:
-        Verdunkelung, eingeschränkte Ermittlungskapazitäten,
-        allgemeine Verunsicherung.
-        Die SP1 handelt nur unter dem Schutz von Ordnung und Unsichtbarkeit –
-        beides war im kriegsbedingt verdunkelten Berlin
-        zuverlässig gegeben.</p>
+        <p class="vb-intro"><strong>a) The Perfect Invisible Man:</strong>
+Ogorzow was active for over two years without coming under serious suspicion – not because he deceptively tricked anyone, but because he genuinely embodied the image of the completely unsuspect man. The SP1 spends its entire life trying to make no errors – and that exact quality made him so difficult for investigators to grasp: there was nothing by which to recognize him.</p>
+        <p class="vb-intro"><strong>b) No Profile – Only Absence:</strong>
+Criminologists searching for a perpetrator profile initially failed because Ogorzow had no recognizable profile. No criminal record, no alcohol abuse, no known conflicts. The SP1 consciously leaves no traces – not through sophistication, but through years of practiced disappearance behind the norm. He was the perpetrator who looked like none.</p>
+        <p class="vb-intro"><strong>c) War Context as an Amplifier:</strong>
+World War II provided Ogorzow with structural conditions that accommodated his SP1 logic: blackouts, restricted investigative capacities, general uncertainty. The SP1 acts only under the protection of order and invisibility – both were reliably present in war-darkened Berlin.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Komprimiert und kontrolliert:</strong>
-        Die energetische Wirkung des SP1w9
-        ist kaum spürbar – und das ist ihr Wesen.
-        Keine Dominanz, keine Spannung, kein Sog.
-        <strong>Ogorzow</strong> strahlte nicht aus,
-        er zog nicht an, er drängte nicht vor.
-        Er war einfach da – pflichtbewusst, ordentlich, unsichtbar.
-        Diese Energie der Nicht-Auffälligkeit ist die
-        vollendete Ausdrucksform des SP1w9 im Alltag.</p>
-        <p class="vb-intro"><strong>b) Innere Starre hinter äußerer Weichheit:</strong>
-        Hinter der freundlichen Oberfläche lag bei <strong>Ogorzow</strong>
-        ein rigides, unbewegliches inneres System:
-        starre Überzeugungen, starre Selbstbilder, starre Grenzziehungen.
-        Die SP1 ist innen unerbittlich – sie duldet keine Abweichung
-        von der eigenen inneren Norm.
-        Wer diesen inneren Raum betrat, traf auf Eis,
-        nicht auf Wärme.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Energie des stillen Abschaltens:</strong>
-        Der Neunflügel bringt eine spezifische energetische Qualität:
-        das vollständige Abschalten des inneren Erlebens,
-        wenn es unbequem wird.
-        <strong>Ogorzow</strong> konnte offenbar nach den Taten
-        in sein normales Leben zurückkehren,
-        als sei nichts gewesen –
-        weil der Neuner-Mechanismus dafür sorgte,
-        dass das innere Erleben keinen Halt in ihm fand.
-        Kein Nachhallen, kein Zittern, keine Spur.</p>
+        <p class="vb-intro"><strong>a) Compressed and Controlled:</strong>
+The energetic footprint of the SP1w9 is barely perceptible – and that is its essence. No dominance, no tension, no pull. Ogorzow did not radiate, did not draw attention, did not push forward. He was simply there – dutiful, orderly, invisible. This energy of non-conspicuousness is the ultimate expression of the SP1w9 in everyday life.</p>
+        <p class="vb-intro"><strong>b) Inner Rigidity Behind External Softness:</strong>
+Behind the friendly surface lay a rigid, unyielding inner system in Ogorzow: rigid convictions, rigid self-images, rigid boundaries. The SP1 is unrelenting inside – it tolerates no deviation from its own internal norm. Whoever entered this inner space met ice, not warmth.</p>
+        <p class="vb-intro"><strong>c) Nine-Wing:</strong> The Energy of Quiet Shutdown:
+The Nine-wing introduces a specific energetic quality: the complete shutdown of internal experience when it becomes uncomfortable. Ogorzow could apparently return to his normal life after his crimes as if nothing had happened – because the Nine-mechanism ensured that the internal experience found no footing in him. No lingering echo, no trembling, no trace.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Animal correspondence: Der Adler</h3>
-        <p class="vb-intro"><strong>a) Präzision aus der Höhe:</strong>
-        Der Adler ist das Tier der SP1 im Tierlexikon:
-        ein Tier von makelloser Haltung, überlegener Sicht
-        und absoluter Präzision im Angriff.
-        Der Adler kreist ruhig, unsichtbar in der Höhe,
-        und trifft ohne Zögern – nicht aus Wut,
-        sondern aus vollständiger Kontrolle.
-        <strong>Ogorzow</strong> entspricht diesem Bild:
-        kein impulsiver Täter, kein zufälliger Angriff,
-        sondern routinierte, strukturierte Ausführung.</p>
-        <p class="vb-intro"><strong>b) Überblick ohne Zugehörigkeit:</strong>
-        Der Adler gehört keiner Herde an –
-        er beobachtet von oben, bleibt für sich,
-        schlägt zu und zieht sich zurück.
-        <strong>Ogorzow</strong> lebte in der Gemeinschaft,
-        ohne wirklich zu ihr zu gehören:
-        freundlich, korrekt, unauffällig –
-        aber innerlich vollständig getrennt.
-        Die SP1 ist kein Typ der echten Nähe –
-        sie hält Distanz durch tadelloses Funktionieren.</p>
-        <p class="vb-intro"><strong>c) Makellose Oberfläche als Tarnung:</strong>
-        Das Gefieder des Adlers ist perfekt,
-        der Flug lautlos, der Körper beherrschend –
-        und er kommt, bevor man ihn gehört hat.
-        <strong>Ogorzows</strong> tadelloses Alltagsleben
-        war die menschliche Entsprechung dieser Qualität:
-        keine Narben, keine Risse, keine Spur.
-        Er war die ruhige, makelle Oberfläche –
-        und darunter etwas, das niemand sah,
-        bis es zu spät war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Animal Correspondence: The Eagle</h3>
+        <p class="vb-intro"><strong>a) Precision from Above:</strong>
+The eagle is the animal of the SP1 in the animal dictionary: a creature of immaculate posture, superior vision, and absolute precision in attack. The eagle circles calmly, invisible in the heights, and strikes without hesitation – not out of anger, but out of total control. Ogorzow fits this image: no impulsive offender, no random attack, but a routine, structured execution.</p>
+        <p class="vb-intro"><strong>b) Overview Without Belonging:</strong>
+The eagle belongs to no flock – it observes from above, stays to itself, strikes, and withdraws. Ogorzow lived in the community without truly belonging to it: friendly, correct, inconspicuous – but inwardly completely detached. The SP1 is not a type for genuine closeness – it maintains distance through flawless functioning.</p>
+        <p class="vb-intro"><strong>c) Immaculate Surface as Camouflage:</strong>
+The eagle's plumage is perfect, its flight silent, its body commanding – and it arrives before it is heard. Ogorzow's blameless everyday life was the human equivalent of this quality: no scars, no cracks, no trace. He was the calm, spotless surface – and beneath it, something no one saw until it was too late.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">8. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Paul Ogorzow</strong> ist das psychologische Gegenstück
-        zu Heinrich Pommerenke: Wo der SO1w9
-        seinen Strafauftrag laut formulierte und
-        vor Gericht darüber referierte,
-        hat der SP1w9 nie eine Erklärung gegeben –
-        weil er keine brauchte.
-        Die selbsterhaltende Eins braucht keine Ideologie,
-        keinen göttlichen Auftrag, keine gesellschaftliche Mission.
-        Sie braucht nur das Gefühl, fehlerfrei zu sein –
-        und die Abwesenheit von allem, was sie darin stört.
-        Ogorzows Schuldzuweisung an den Arzt
-        ist das präziseste Selbstporträt des SP1:
-        Ich bin makellos. Der Error liegt woanders.
-        Immer.
-        Der Neunflügel hat dafür gesorgt,
-        dass diese Überzeugung nie hinterfragt wurde –
-        von innen nicht, und nach außen war nichts zu sehen.
+        Paul Ogorzow is the psychological counterpart to Heinrich Pommerenke: where the SO1w9 loudly formulated his punitive mission and lectured about it in court, the SP1w9 never offered an explanation – because he did not need one. The Self-Preservation One needs no ideology, no divine mandate, no societal mission. It needs only the feeling of being faultless – and the absence of anything that disturbs it in that belief. Ogorzow's shifting of blame onto the doctor is the most precise self-portrait of the SP1: I am faultless. The error lies elsewhere. Always. The Nine-wing ensured that this conviction was never questioned – not from within, and outwardly there was nothing to see.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) SP1 vs. SO1 – der entscheidende Unterschied:</strong>
-        Der direkte Vergleich mit Pommerenke (SO1w9)
-        macht das Profil des <strong>Ogorzow</strong> schärfer:
-        Der SO1er moralisiert nach außen, predigt, erklärt, begründet.
-        Der SP1er schweigt – er hält sich für korrekt,
-        ohne darüber reden zu müssen.
-        Pommerenke hatte einen Strafauftrag.
-        Ogorzow hatte einen inneren Standard –
-        und wer diesem Standard im Weg stand,
-        wurde beseitigt, ohne dass dafür ein Wort nötig war.</p>
-        <p class="vb-intro"><strong>b) Reaktionsbildung als Kernabwehr der Eins:</strong>
-        Die klassische Abwehrstrategie der Eins ist Reaktionsbildung:
-        Das Unakzeptable im eigenen Inneren
-        wird in sein Gegenteil verwandelt.
-        <strong>Ogorzows</strong> übertriebene Fürsorge für die Kinder,
-        der gepflegte Garten, die tadellose Nachbarschaft –
-        das sind die Reaktionsbildungen auf eine innere Welt,
-        die mit diesen Bildern nichts gemein hatte.
-        Je vollkommener die Fassade, desto tiefer der Abgrund darunter.</p>
-        <p class="vb-intro"><strong>c) Der Frauenhass als Einser-Projektion:</strong>
-        <strong>Ogorzows</strong> Hass auf Frauen ist aus SP1-Perspektive
-        eine klassische Einser-Projektion:
-        Die eigene Unreinheit, der eigene Error (die Krankheit),
-        wird auf den anderen projiziert.
-        Ich bin nicht schuld – die Frau hat mich angesteckt,
-        der Arzt hat mich beschädigt, die anderen tragen die Schuld.
-        Das Ich der Eins muss makellos bleiben –
-        koste es, was es wolle.</p>
-        <p class="vb-intro"><strong>d) Vier als Stresspunkt – Absturz in die Dunkelheit:</strong>
-        Der Stresspunkt der Eins ist die Vier –
-        unter extremem Druck gleitet die Eins in die dunkle Seite
-        der Vier ab: Grübeln, Selbstvorwürfe, depressive Starre,
-        das Gefühl, grundlegend fehlerhaft und unwürdig zu sein.
-        Bei <strong>Ogorzow</strong> zeigte sich dieser Mechanismus
-        in der Schuld-Spirale um die Geschlechtskrankheit:
-        statt diesen Schmerz anzunehmen,
-        projizierte er ihn sofort nach außen.
-        Der Vierer-Stresspunkt hätte Selbstbegegnung bedeutet –
-        das war für die SP1 unerträglich.
-        Die Projektion auf den Arzt war der Fluchtweg.</p>
-        <p class="vb-intro"><strong>e) Sieben als Entspannungspunkt:</strong>
-        Der Entspannungspunkt der Eins ist die Sieben –
-        in Sicherheit und gesunder Entwicklung
-        öffnet sich die Eins zur Spontaneität, Freude und Leichtigkeit der Sieben.
-        Für <strong>Ogorzow</strong> blieb dieser Weg vollständig versperrt.
-        Er kannte keine Leichtigkeit, kein echtes Loslassen,
-        kein Aufgeben der inneren Kontrolle –
-        nur die Tagesroutine auf der einen Seite
-        und das Doppelleben auf der anderen.
-        Weder Sicherheit noch Entspannung
-        waren Teil seiner inneren Welt.</p>
-        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SP1:</strong>
-        <strong>Ogorzows</strong> Fall zeigt die dunkelste Konsequenz
-        der SP1-Dynamik: Ein Typ, dessen ganzes System
-        auf Selbstschutz, Fehllosigkeit und Schuld-Externalisierung aufgebaut ist,
-        kann in extremer Pathologie ein Doppelleben führen,
-        das für Außenstehende buchstäblich unsichtbar ist.
-        Die gesunde SP1 ist ein Mensch von aufrichtiger
-        Integrität, innerer Disziplin und ehrlicher Selbstkritik.
-        Was bei Ogorzow fehlte, war genau das Letzte:
-        die Fähigkeit, sich selbst anzuschauen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) SP1 vs. SO1 – The Decisive Difference:</strong>
+Direct comparison with Pommerenke (SO1w9) sharpens Ogorzow's profile: the SO1 moralizes outwardly, preaches, explains, rationalizes. The SP1 remains silent – considering himself correct without needing to talk about it. Pommerenke had a punitive mandate. Ogorzow had an internal standard – and whoever stood in the way of that standard was eliminated without needing a single word.</p>
+        <p class="vb-intro"><strong>b) Reaction Formation as Core One Defense:</strong>
+The classic defense strategy of the One is reaction formation: what is unacceptable within oneself is transformed into its opposite. Ogorzow's exaggerated care for his children, the well-tended garden, the blameless neighborliness – these are reaction formations responding to an inner world that shared nothing with those images. The more flawless the facade, the deeper the abyss beneath it.</p>
+        <p class="vb-intro"><strong>c) Misogyny as One-Projection:</strong>
+Ogorzow's hatred of women is, from an SP1 perspective, a classic One-projection: one's own impurity, one's own error (the disease), is projected onto the other. I am not at fault – the woman infected me, the doctor damaged me, others bear the blame. The self of the One must remain immaculate – whatever the cost.</p>
+        <p class="vb-intro"><strong>d) Four as Stress Point – Collapse into Darkness:</strong>
+The stress point of the One is the Four – under extreme pressure, the One slides into the dark side of the Four: brooding, self-reproach, depressive rigidity, the feeling of being fundamentally flawed and unworthy. In Ogorzow's case, this mechanism showed up in the spiral of guilt surrounding the venereal disease: instead of accepting this pain, he immediately projected it outward. The Four stress point would have meant facing himself – which was intolerable for the SP1. Projection onto the doctor was the exit strategy.</p>
+        <p class="vb-intro"><strong>e) Seven as Integration Point:</strong>
+The point of relaxation and integration for the One is the Seven – in security and healthy development, the One opens up to the spontaneity, joy, and lightness of the Seven. For Ogorzow, this path remained completely blocked. He knew no lightness, no genuine letting go, no relinquishing of inner control – only daily routine on one side and the double life on the other. Neither security nor relaxation were part of his inner world.</p>
+        <p class="vb-intro"><strong>f) Significance for Understanding the SP1:</strong>
+Ogorzow's case demonstrates the darkest consequence of the SP1 dynamic: a type whose entire system is built on self-protection, faultlessness, and externalization of guilt can, in extreme pathology, lead a double life that is literally invisible to outsiders. The healthy SP1 is a person of sincere integrity, inner discipline, and honest self-criticism. What was missing in Ogorzow was precisely that last quality: the capacity to look at oneself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -31248,14 +30978,14 @@ function paulOgorzowPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Paul Ogorzow wurde 1941 wegen acht Morden zum Tode verurteilt und noch im selben Jahr hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves the purpose of depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Paul Ogorzow was sentenced to death in 1941 for eight murders and executed that same year. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Quality of Gaze in the 9 Types"},
       ])}
     </div>
   `);
