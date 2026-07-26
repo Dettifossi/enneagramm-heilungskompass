@@ -1699,6 +1699,58 @@ function _bewertungSenden() {
     .catch(function() {});
 }
 
+function _formatGermanDate(iso) {
+  const MONATE = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+  const [y, m, d] = iso.split("-").map(Number);
+  return parseInt(d, 10) + ". " + MONATE[m - 1] + " " + y;
+}
+
+function _gsLatestUpdateBadgeHTML() {
+  if (typeof CHANGELOG === "undefined" || !CHANGELOG.length) return "";
+  const latest = CHANGELOG.reduce((a, b) => a.date > b.date ? a : b);
+  return `<button data-route="updates" style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--ivory);border:1.5px solid var(--gold,#c4a456);border-radius:20px;padding:0.4rem 1rem;font-family:-apple-system,sans-serif;font-size:0.78rem;font-weight:700;color:var(--copper,#a5603d);letter-spacing:0.02em;cursor:pointer;">
+    <span style="width:7px;height:7px;border-radius:50%;background:var(--gold,#c4a456);display:inline-block;"></span>
+    Letztes Update: ${_formatGermanDate(latest.date)}
+  </button>`;
+}
+
+function updatesPage() {
+  const unlocked = hasHeilwissen();
+  const entries = (typeof CHANGELOG !== "undefined" ? CHANGELOG : []);
+  const rows = entries.map(e => {
+    const dateStr = _formatGermanDate(e.date);
+    if (unlocked) {
+      return `<li style="display:flex;gap:1rem;align-items:baseline;padding:0.9rem 0;border-bottom:1px solid var(--border);">
+        <span style="flex-shrink:0;width:6.5rem;font-size:0.78rem;color:var(--muted);font-family:-apple-system,sans-serif;">${dateStr}</span>
+        ${e.route
+          ? `<a href="#" onclick="event.preventDefault();go('${e.route}')" style="color:var(--ink);text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:2px;font-size:0.92rem;">${e.text}</a>`
+          : `<span style="font-size:0.92rem;color:var(--ink);">${e.text}</span>`}
+      </li>`;
+    }
+    const teaser = e.route && e.route.startsWith("beruehmte-") ? "Neues Promi-Porträt verfügbar"
+      : e.route && e.route.startsWith("kriminalpsychologie-") ? "Neuer Kriminalfall analysiert"
+      : "Neue Inhalte verfügbar";
+    return `<li style="display:flex;gap:1rem;align-items:baseline;padding:0.9rem 0;border-bottom:1px solid var(--border);">
+      <span style="flex-shrink:0;width:6.5rem;font-size:0.78rem;color:var(--muted);font-family:-apple-system,sans-serif;">${dateStr}</span>
+      <span style="font-size:0.92rem;color:var(--ink);">${teaser}</span>
+    </li>`;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("updates")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Der Kompass wächst ständig weiter</p>
+          <h1 class="typentest-titel" style="margin-bottom:0.6rem;">Alle Updates</h1>
+          <p class="typentest-intro">Hier sehen Sie, wie regelmäßig neue Inhalte, Porträts und Funktionen ergänzt werden.</p>
+          <ul style="list-style:none;margin:1.2rem 0 0;padding:0;">${rows}</ul>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
 function neuigkeitenSection() {
   if (typeof CHANGELOG === 'undefined' || !CHANGELOG.length) return '';
   const SEEN_KEY = 'kompass:changelog-seen';
@@ -1778,6 +1830,7 @@ function startPage() {
       ${profileGlimpse}
     </section>
 
+    <div style="text-align:center;margin:0 0 0.8rem;">${_gsLatestUpdateBadgeHTML()}</div>
     ${neuigkeitenSection()}
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
@@ -41819,6 +41872,7 @@ function render() {
     suche: suchePage,
     tierquiz: tierquizPage,
     "gesichts-scan": gesichtsScanPage,
+    updates: updatesPage,
     bewusstseinstest: bewusstseinsgradTestPage,
     quiz: quizPage,
     zitate: zitatePage,
@@ -41869,7 +41923,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -42053,7 +42107,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v735';
+  const MY_VERSION = 'inhalt-v736';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
