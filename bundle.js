@@ -39220,9 +39220,9 @@ function stillePage() {
       <div style="margin:2.2rem auto 0;max-width:480px;background:var(--paper);border-radius:14px;border:1px solid var(--border);padding:1.3rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;">
         <img src="https://www.verlagshausrathmer.com/images/2026/03/WhatsApp-Image-2026-03-22-at-9.26.55-PM.jpeg" alt="Meta-Intelligenz – Das Hörbuch – Cover" style="width:64px;height:64px;border-radius:8px;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.15);">
         <div style="flex:1;min-width:0;">
-          <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.06em;">Hörprobe &middot; von Detlef Rathmer selbst gesprochen</p>
-          <p style="margin:0 0 .6rem;font-size:0.92rem;line-height:1.55;color:var(--ink);">Der Geist besitzt eine besondere Fähigkeit: die eigenen Gedanken bewusst zu beobachten &ndash; ganz still und entspannt. Hören Sie eine kurze Einführung zu <em>Meta-Intelligenz</em>:</p>
-          <audio controls preload="none" style="width:100%;max-width:320px;height:36px;" src="assets/meta-intelligenz-einfuehrung-ausschnitt.mp3"></audio>
+          <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.06em;">Geschenk für Sie &middot; von Detlef Rathmer selbst gesprochen</p>
+          <p style="margin:0 0 .6rem;font-size:0.92rem;line-height:1.55;color:var(--ink);">Der Geist besitzt eine besondere Fähigkeit: die eigenen Gedanken bewusst zu beobachten &ndash; ganz still und entspannt. Weil Sie den Kompass erworben haben, schenken wir Ihnen das komplette erste Kapitel aus <em>Meta-Intelligenz</em> &ndash; 13 weitere Kapitel erwartet Sie im Hörbuch:</p>
+          <audio controls preload="none" style="width:100%;max-width:320px;height:36px;" src="assets/meta-intelligenz-einfuehrung-komplett.mp3"></audio>
         </div>
       </div>
 
@@ -42118,7 +42118,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v737';
+  const MY_VERSION = 'inhalt-v738';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
