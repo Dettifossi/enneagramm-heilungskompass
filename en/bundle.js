@@ -29655,22 +29655,21 @@ function jackUnterweegerPortraitPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Dichter und der Tod" – Österreich 1974 & 1990–1991</p>
       </div>
       <p class="psycho-intro">
-        <strong>Johann „Jack" Unterweger</strong>, geboren am 16. August 1950 in Judenburg,
-        Steiermark, gestorben am 29. Juni 1994 in Graz,
-        war ein österreichischer Serienmörder, Schriftsteller und Journalist –
-        und einer der bemerkenswertesten Fälle in der Geschichte der europäischen Kriminologie.
-        Er ermordete 1974 eine junge Frau, wurde zu lebenslanger Haft verurteilt
-        und entwickelte sich im Gefängnis zu einem gefeierten Literaten.
-        Seine Autobiografie <em>Fegefeuer – oder die Reise ins Zuchthaus</em>
-        wurde ein Bestseller; österreichische Intellektuelle,
-        darunter Elfriede Jelinek, setzten sich für seine Freilassung ein.
-        1990 vorzeitig entlassen, mordete er unmittelbar weiter –
-        insgesamt neun Frauen in Österreich, möglicherweise drei weitere in Los Angeles.
-        1994 wurde er in Graz erneut zu lebenslanger Haft verurteilt.
-        In der Nacht nach dem Urteil erhängte er sich in seiner Gefängniszelle.
-        Das Enneagramm macht sichtbar, wie ein Mensch, der die Gesellschaft
-        von seiner Güte überzeugte, sie dabei systematisch belog.
-      </p>
+        <strong>Johann "Jack" Unterweger</strong>, born August 16, 1950 in Judenburg,
+        Styria, died June 29, 1994 in Graz,
+        was an Austrian serial killer, writer, and journalist –
+        and one of the most remarkable cases in the history of European criminology.
+        In 1974 he murdered a young woman, was sentenced to life imprisonment,
+        and developed in prison into a celebrated literary figure.
+        His autobiography <em>Purgatory – or the Trip to Jail</em>
+        became a bestseller; Austrian intellectuals,
+        including Elfriede Jelinek, campaigned for his release.
+        Released early in 1990, he immediately continued killing –
+        a total of nine women in Austria, possibly three more in Los Angeles.
+        In 1994 he was again sentenced to life imprisonment in Graz.
+        On the night after the verdict, he hanged himself in his prison cell.
+        The Enneagram makes visible how a person who convinced society
+        of his goodness was systematically lying to it all along.</p>
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -29690,131 +29689,129 @@ function jackUnterweegerPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Golden Retriever</h3>
         <p class="vb-intro">
-        Der <strong>Golden Retriever</strong> ist die Animal correspondence der sozialen Zwei.
-        Er ist das Tier, das jeder liebt: freundlich, zugewandt, stets bereit zu helfen,
-        immer mit einem offenen Herzen. Er will gefallen – und er gelingt darin meisterhaft.
-        Er ist sozial ausgerichtet, braucht Bestätigung, lebt von der Wärme der Gemeinschaft.
-        Jack Unterweger war der perfekte Golden Retriever:
-        charmant, redegewandt, scheinbar geläutert, von Intellektuellen geliebt.
-        Er weckte in Menschen den Wunsch, ihm zu helfen, ihn zu fördern, an ihn zu glauben.
-        Und dieser Wunsch kostete neun Frauen das Leben.
-        </p>
+        The <strong>Golden Retriever</strong> is the animal correspondence of the Social Two.
+        It is the animal everyone loves: friendly, affectionate, always ready to help,
+        always with an open heart. It wants to please – and it succeeds masterfully.
+        It is socially oriented, needs validation, lives on the warmth of community.
+        Jack Unterweger was the perfect Golden Retriever:
+        charming, eloquent, seemingly reformed, loved by intellectuals.
+        He awakened in people the desire to help him, to support him, to believe in him.
+        And this desire cost nine women their lives.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei: Wichtigkeit als Lebensinhalt</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sozialen Zwei:</strong>
-        Die soziale Zwei wird in der Enneagramm-Tradition als <em>„Ambition"</em> beschrieben.
-        Sie will nicht nur hilfreich sein – sie will bedeutsam sein.
-        Sie sucht keine stille Anerkennung, sondern öffentliche Sichtbarkeit:
-        als Wohltäter, als Mentor, als Stimme der Guten.
-        Die Hilfe, die sie gibt, ist oft echt – aber sie hat immer einen sozialen Preis:
-        Aufmerksamkeit, Bewunderung, Einfluss.
-        Unterweger spielte diese Rolle mit virtuoser Präzision.
-        Im Gefängnis schrieb er, las er, lernte er – und schuf ein Bild von sich,
-        das er der Gesellschaft spiegelte: der geläuterte Künstler,
-        der lebende Beweis, dass Rehabilitation möglich ist.</p>
-        <p class="vb-intro"><strong>b) Der One-wing: Die moralische Fassade:</strong>
-        Der One-wing verleiht der sozialen Zwei eine moralische Überzeugungskraft,
-        die gefährlich ist – weil sie echt wirkt.
-        Der SO2w1er glaubt selbst daran, gut zu sein.
-        Er hat ein inneres Regelwerk, das seine Handlungen rechtfertigt.
-        Unterweger präsentierte sich als Opfer seiner Herkunft,
-        das durch Literatur und Selbstreflexion zur Reife gefunden hatte.
-        Dieser One-wing gab ihm Glaubwürdigkeit –
-        die Überzeugung klang nicht gespielt, weil er sie internalisiert hatte.
-        Dahinter lag das Muster der Zwei: Stolz – die Unfähigkeit,
-        die eigene Bedürftigkeit und Dunkelheit zu sehen.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
-        das unbewusste Festhalten an der eigenen Güte,
-        das Nicht-wahrhaben-Wollen des eigenen Schattens.
-        Der Stolz der sozialen Zwei zeigt sich als kollektiver Anspruch:
-        Ich bin gut für die Gesellschaft. Ich bin es, der zählt.
-        Unterweger konnte nicht zulassen, dass sein Bild beschädigt wurde.
-        Als die Ermittlungen begannen, legte er die Rolle des Verleumdetenauf:
-        Er sei Opfer einer Medienkampagne, eines vorurteilsbelasteten Systems.
-        Bis zuletzt.</p>
+        <p class="vb-intro"><strong>a) The Basic Pattern of the Social Two:</strong>
+        The Social Two is described in Enneagram tradition as <em>"Ambition."</em>
+        It doesn't just want to be helpful – it wants to be significant.
+        It seeks not quiet recognition, but public visibility:
+        as benefactor, as mentor, as the voice of the good.
+        The help it gives is often genuine – but it always has a social price:
+        attention, admiration, influence.
+        Unterweger played this role with virtuoso precision.
+        In prison he wrote, he read, he learned – and created an image of himself
+        that he reflected back to society: the reformed artist,
+        the living proof that rehabilitation is possible.</p>
+        <p class="vb-intro"><strong>b) The One-Wing: The Moral Facade:</strong>
+        The One-wing lends the Social Two a moral conviction
+        that is dangerous – because it feels genuine.
+        The SO2w1 truly believes they are good.
+        They have an inner rulebook that justifies their actions.
+        Unterweger presented himself as a victim of his origins
+        who had found maturity through literature and self-reflection.
+        This One-wing gave him credibility –
+        the conviction did not sound performed, because he had internalized it.
+        Behind it lay the pattern of the Two: pride – the inability
+        to see one's own neediness and darkness.</p>
+        <p class="vb-intro"><strong>c) The Passion: Pride as a Blind Spot:</strong>
+        The passion of the Two is <strong>pride</strong> –
+        the unconscious clinging to one's own goodness,
+        the refusal to acknowledge one's own shadow.
+        The pride of the Social Two shows itself as collective entitlement:
+        I am good for society. I am the one who matters.
+        Unterweger could not allow his image to be damaged.
+        When the investigations began, he took on the role of the slandered:
+        he claimed to be the victim of a media campaign, of a system full of prejudice.
+        Right to the end.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Herkunft und erster Mord (1974):</strong>
-        Jack Unterweger wurde als uneheliches Kind einer österreichischen Prostituierten
-        und eines amerikanischen Soldaten geboren.
-        Seinen Vater hat er nie kennengelernt.
-        Er wuchs in ärmsten Verhältnissen auf, größtenteils beim Großvater mütterlicherseits,
-        in einer Welt ohne Stabilität, ohne Bildung, ohne Perspektive.
-        Er wurde früh straffällig – Diebstahl, Einbrüche, kleinere Delikte.
-        Am 11. Dezember 1974 ermordete er die 18-jährige
+        <p class="vb-intro"><strong>a) Origins and First Murder (1974):</strong>
+        Jack Unterweger was born the illegitimate child of an Austrian prostitute
+        and an American soldier.
+        He never met his father.
+        He grew up in the poorest of circumstances, mostly with his maternal grandfather,
+        in a world without stability, without education, without prospects.
+        He became a criminal early on – theft, burglary, minor offenses.
+        On December 11, 1974, he murdered 18-year-old
         <strong>Margaret Schäfer</strong> in Salzburg:
-        Er würgte sie mit ihrem eigenen BH – eine Methode, die er auch bei späteren Taten
-        verwendete. Er wurde 1976 zu lebenslanger Haft verurteilt.</p>
-        <p class="vb-intro"><strong>b) Die Gefängnisjahre und die literarische Verwandlung:</strong>
-        Im Gefängnis begann Unterweger zu schreiben.
-        Er verfasste Gedichte, Theaterstücke, Kurzgeschichten –
-        und schließlich seine Autobiografie <em>Fegefeuer oder die Reise ins Zuchthaus</em>,
-        die 1983 im Jugend &amp; Volk Verlag erschien und ein außergewöhnliches Echo fand.
-        Österreichische Intellektuelle – darunter Elfriede Jelinek, Heinrich Böll
-        und zahlreiche Journalisten – erkannten in ihm das Paradebeispiel
-        einer gelungenen Resozialisierung.
-        Sie setzten sich für seine Begnadigung ein.
-        Nach 15 Jahren Haft wurde Unterweger am 23. Mai 1990 vorzeitig entlassen.
-        Was folgte, war das Ende der Illusion.</p>
-        <p class="vb-intro"><strong>c) Die Morde nach der Entlassung (1990–1991):</strong>
-        Innerhalb weniger Monate nach seiner Freilassung begann Unterweger erneut zu töten.
-        Seine Opfer waren ausnahmslos Prostituierte –
-        Frauen, die er in Wien, Graz und anderen österreichischen Städten ansprach.
-        Er würgte sie mit ihrem eigenen BH, dem unverwechselbaren Merkmal seiner Methode.
-        Zwischen 1990 und 1991 wurden ihm neun Morde in Österreich zugeordnet:
+        he strangled her with her own bra – a method he also used in later
+        crimes. In 1976 he was sentenced to life imprisonment.</p>
+        <p class="vb-intro"><strong>b) The Prison Years and the Literary Transformation:</strong>
+        In prison, Unterweger began to write.
+        He composed poems, plays, short stories –
+        and finally his autobiography <em>Purgatory or the Trip to Jail</em>,
+        which was published in 1983 by Jugend & Volk Verlag and found an extraordinary response.
+        Austrian intellectuals – including Elfriede Jelinek, Heinrich Böll,
+        and numerous journalists – recognized in him the model example
+        of successful reintegration.
+        They campaigned for his pardon.
+        After 15 years in prison, Unterweger was released early on May 23, 1990.
+        What followed was the end of the illusion.</p>
+        <p class="vb-intro"><strong>c) The Murders After Release (1990–1991):</strong>
+        Within a few months of his release, Unterweger began killing again.
+        His victims were, without exception, prostitutes –
+        women he approached in Vienna, Graz, and other Austrian cities.
+        He strangled them with their own bra, the unmistakable signature of his method.
+        Between 1990 and 1991, nine murders in Austria were attributed to him:
         <strong>Brunhilde Masser</strong> (26), <strong>Heidemarie Hammerer</strong> (31),
         <strong>Elfriede Schrempf</strong> (35), <strong>Regina Prem</strong> (39),
         <strong>Silvia Zagler</strong> (23), <strong>Sabine Moitzi</strong> (25),
         <strong>Karin Eroglu</strong> (25), <strong>Dragica Rajic</strong> (34),
         <strong>Marica Horvat</strong> (35).
-        Parallel dazu arbeitete Unterweger als Journalist und TV-Moderator,
-        berichtete für den ORF über Prostituierte und das Rotlichtmilieu –
-        und führte dabei die Polizei an die Fundorte seiner Opfer.</p>
+        In parallel, Unterweger worked as a journalist and TV host,
+        reporting for ORF on prostitutes and the red-light milieu –
+        while leading police to the locations where he had left his victims.</p>
         <p class="vb-intro"><strong>d) Los Angeles (1991):</strong>
-        Im Frühjahr 1991 reiste Unterweger auf Einladung des Los Angeles Police Department
-        nach Kalifornien – als akkreditierter Journalist, der über amerikanische Strafverfolgung
-        berichten sollte. Während seines Aufenthalts wurden drei Prostituierte in LA ermordet,
-        alle auf dieselbe Weise: gewürgt mit ihrem eigenen BH.
-        Unterweger wurde auch für diese Morde verdächtig,
-        konnte jedoch nur in Österreich angeklagt werden.</p>
-        <p class="vb-intro"><strong>e) Verhaftung, Flucht und Ende:</strong>
-        Als die österreichische Polizei 1992 öffentlich nach Unterweger fahndete,
-        floh er zunächst nach Kanada und dann in die USA.
-        Im Februar 1992 wurde er in Miami Beach verhaftet –
-        in Begleitung seiner 18-jährigen Freundin Bianca Mrak.
-        Er wurde ausgeliefert und stand im April 1994 vor Gericht in Graz.
-        Am 28. Juni 1994 wurde er in erster Instanz wegen neun Mordes schuldig gesprochen
-        und zu lebenslanger Haft verurteilt.
-        In der Nacht nach dem Urteil erhängte er sich in seiner Gefängniszelle
-        mit dem Kordel seines Trainingsanzugs.
-        Er war 43 Jahre alt.
-        Der Golden Retriever, der aufgehört hatte zu spielen,
-        wählte den einzigen Ausweg, der die Fassade nicht vollständig einreißen ließ.</p>
+        In spring 1991, Unterweger traveled at the invitation of the Los Angeles Police Department
+        to California – as an accredited journalist who was supposed to report
+        on American law enforcement. During his stay, three prostitutes were murdered in LA,
+        all in the same manner: strangled with their own bra.
+        Unterweger also became a suspect in these murders,
+        but could only be prosecuted in Austria.</p>
+        <p class="vb-intro"><strong>e) Arrest, Flight, and End:</strong>
+        When Austrian police publicly searched for Unterweger in 1992,
+        he first fled to Canada and then to the USA.
+        In February 1992 he was arrested in Miami Beach –
+        accompanied by his 18-year-old girlfriend Bianca Mrak.
+        He was extradited and stood trial in Graz in April 1994.
+        On June 28, 1994, he was found guilty of nine counts of murder in the first instance
+        and sentenced to life imprisonment.
+        On the night after the verdict, he hanged himself in his prison cell
+        with the cord of his tracksuit.
+        He was 43 years old.
+        The Golden Retriever, who had stopped playing,
+        chose the only way out that would not completely tear down the facade.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Der Fall Jack Unterweger ist das psychologische Lehrstück
-        des Sozialen Typ 2 in seiner dunkelsten Ausprägung.
-        Die Gesellschaft wollte glauben, dass er sich geändert hatte –
-        und die soziale Zwei lieferte ihr genau diesen Glauben.
-        Sie projizierte auf ihn, was sie sehen wollte:
-        Güte, Wandel, Hoffnung.
-        Er reflektierte es zurück – und tötete weiter.
-        Der Stolz der Zwei verhinderte jede echte Auseinandersetzung mit dem Schatten.
-        Der One-wing schützte die Überzeugung, gut zu sein.
-        Und die soziale Ausrichtung machte aus einem Serienmörder
-        eine öffentliche Symbolfigur der Rehabilitation.
-        Was diesen Fall von fast allen anderen in dieser Sammlung unterscheidet:
-        Unterweger hätte beinahe gewonnen.
-        Nicht durch Flucht, sondern durch Überzeugungskraft.
-        </p>
+        The case of Jack Unterweger is the psychological textbook example
+        of the Social Type 2 in its darkest expression.
+        Society wanted to believe that he had changed –
+        and the Social Two delivered exactly that belief.
+        It projected onto him what it wanted to see:
+        goodness, transformation, hope.
+        He reflected it back – and kept killing.
+        The pride of the Two prevented any genuine confrontation with the shadow.
+        The One-wing protected the conviction of being good.
+        And the social orientation turned a serial killer
+        into a public symbol of rehabilitation.
+        What distinguishes this case from almost all others in this collection:
+        Unterweger nearly won.
+        Not through flight, but through the power of persuasion.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
@@ -29831,9 +29828,9 @@ function jackUnterweegerPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w1 im systemischen Vergleich – Ambition, gesellschaftliche Bedeutung und ihr Schatten.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The SO2w1 in systemic comparison – ambition, social significance, and its shadow.", "Die verborgene Dynamik der 27 Subtypees")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Type 2 portrayed in depth – pride, care as control, and the healing path through genuine humility.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
         <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jack Unterweger wurde 1994 in neun Fällen des Mordes schuldig gesprochen und nahm sich noch in derselben Nacht das Leben. Das Enneagramm erklärt, es rechtfertigt nicht.
@@ -29841,7 +29838,7 @@ function jackUnterweegerPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Sektenführer"},
+        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Cult Leader"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Criminal Psychology: Osama bin Loading (SO2w1) – al-Qaida"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"}
       ])}
