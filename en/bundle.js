@@ -27675,18 +27675,18 @@ function johnMcAfeePortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>John McAfee</strong> (1945–2021) gründete 1987 das gleichnamige Antiviren-Unternehmen,
-        verdiente damit ein Vermögen und verließ es wieder mit derselben Unbedingtheit,
-        mit der er alles tat. Auf dem Höhepunkt seines Lebens in Belize lebte er
-        umgeben von bewaffneten Leibwächtern, Frauen, Drogen und Hunden auf einem
-        Anwesen, das er „sein Königreich“ nannte. 2012 floh er nach dem Tod seines
-        Nachbarn, wurde von belizeänischen Behörden als verdächtig eingestuft
-        und entkam über Grenzen und Kontinente. 2020 in Spanien wegen
-        Steuerhinterziehung verhaftet, starb er 2021 in einer spanischen
-        Gefängniszelle – offiziell durch Suizid, nach Ansicht vieler durch das
-        System, dem er ein Leben lang getrotzt hatte. Diese Analyse fragt:
-        Wie formt die sexuelle Acht with Nine-wing einen Menschen, der
-        Grenzen nicht respektiert – weder die der Gesellschaft noch die seiner selbst?
+        <strong>John McAfee</strong> (1945–2021) founded the antivirus company of the same name in 1987,
+        made a fortune from it, and left it with the same absolute intensity
+        with which he did everything. At the peak of his life in Belize, he lived
+        surrounded by armed bodyguards, women, drugs, and dogs on an
+        estate he called "his kingdom." In 2012, he fled following the death of his
+        neighbor, was classified as a suspect by Belizean authorities,
+        and escaped across borders and continents. Arrested in Spain in 2020 for
+        tax evasion, he died in 2021 in a Spanish
+        prison cell – officially by suicide, according to many at the hands of the
+        system he had defied his entire life. This analysis asks:
+        How does the Sexual Eight with Nine-wing shape a person who
+        respects no boundaries – neither those of society nor those of himself?
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
@@ -27699,168 +27699,168 @@ function johnMcAfeePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Durchdringend und herausfordernd:</strong>
-        <strong>McAfee</strong> schaute Menschen so an, als ob er sie in Sekunden
-        durchleuchtet hätte. Der Blick der sexuellen Acht ist kein ruhiger
-        Beobachterblick – er ist ein Test: Wer bist du wirklich? Bist du
-        echt? Hältst du stand? Wer vor diesem Blick zurückwich, hatte
-        <strong>McAfees</strong> Interesse verloren.</p>
-        <p class="vb-intro"><strong>b) Lebensfreudig und anarchisch:</strong>
-        Der Nine-wing verleiht der Acht eine unbeschwerte, fast
-        spielerische Note. <strong>McAfee</strong> war nicht nur gefährlich – er war
-        auch unterhaltsam. Er witzelte über seine Anklagen, posierte
-        für Kameras und trollte Behörden öffentlich. Bedrohung und
-        Vergnügen lagen bei ihm dicht beieinander.</p>
-        <p class="vb-intro"><strong>c) Provokativ und unberechenbar:</strong>
-        <strong>McAfees</strong> öffentliche Auftritte folgten keiner berechenbaren Logik.
-        Er sagte, was er dachte – brutal ehrlich, oft schamlos. Das ist die
-        sexuelle Acht: Sie testet Grenzen nicht aus Bosheit, sondern weil
-        Grenzen für sie primär Einladungen zur Überprüfung sind.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Penetrating and Challenging:</strong>
+        <strong>McAfee</strong> looked at people as if he had seen right through them
+        in seconds. The gaze of the Sexual Eight is not a calm
+        observer's gaze – it is a test: Who are you really? Are you
+        real? Can you stand your ground? Anyone who backed down from this gaze had lost
+        <strong>McAfee's</strong> interest.</p>
+        <p class="vb-intro"><strong>b) Joyful and Anarchic:</strong>
+        The Nine-wing imparts a carefree, almost
+        playful touch to the Eight. <strong>McAfee</strong> was not only dangerous – he was
+        also entertaining. He joked about his charges, posed
+        for cameras, and publicly trolled authorities. Threat and
+        pleasure lay very close together for him.</p>
+        <p class="vb-intro"><strong>c) Provocative and Unpredictable:</strong>
+        <strong>McAfee's</strong> public appearances followed no predictable logic.
+        He said what he thought – brutally honest, often shameless. That is the
+        Sexual Eight: It does not test boundaries out of malice, but because
+        boundaries are primarily invitations to be tested.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Wo ist die Macht – und wie umgehe ich sie?</strong>
-        Die sexuelle Acht richtet ihren Blick auf Machtstrukturen: Wer
-        kontrolliert hier wen? <strong>McAfee</strong> sah in Regierungen, Behörden
-        und Institutionen zunächst Gegner, dann Spielmaterial. Seine
-        Steuerverweigerung war kein Versehen – sie war Prinzip.</p>
-        <p class="vb-intro"><strong>b) Was reizt mich gerade?</strong>
-        Wollust ist die Leidenschaft der Acht: ein unbedingter Hunger
-        nach Intensität, Erfahrung und Lebendigkeit. <strong>McAfees</strong>
-        Aufmerksamkeit folgte dem Reiz – neue Frauen, neue Drogen,
-        neue Länder, neue Geschäfte. Langeweile war der einzige
-        Feind, den er fürchtete.</p>
-        <p class="vb-intro"><strong>c) Wer ist loyal – und wer ist Verräter?</strong>
-        Der Nine-wing schärft den Blick für Zugehörigkeit.
-        <strong>McAfee</strong> umgab sich mit einem engen Kreis Loyaler –
-        und war gegenüber jedem, den er als Verräter einordnete,
-        gnadenlos. Loyalität war für ihn das einzige moralische Kriterium.</p>
+        <p class="vb-intro"><strong>a) Where Is the Power – and How Do I Bypass It?</strong>
+        The Sexual Eight directs its gaze toward power structures: Who
+        controls whom here? <strong>McAfee</strong> saw governments, authorities,
+        and institutions first as opponents, then as playthings. His
+        refusal to pay taxes was no accident – it was a matter of principle.</p>
+        <p class="vb-intro"><strong>b) What Excites Me Right Now?</strong>
+        Lust is the passion of the Eight: an absolute hunger
+        for intensity, experience, and aliveness. <strong>McAfee's</strong>
+        attention followed excitement – new women, new drugs,
+        new countries, new businesses. Boredom was the only
+        enemy he feared.</p>
+        <p class="vb-intro"><strong>c) Who Is Loyal – and Who Is a Traitor?</strong>
+        The Nine-wing sharpens the gaze for belonging.
+        <strong>McAfee</strong> surrounded himself with a tight circle of loyalists –
+        and was ruthless toward anyone he categorized as a traitor.
+        Loyalty was his sole moral criterion.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Wollust</h3>
-        <p class="vb-intro"><strong>a) Wollust als Lebenshunger:</strong>
-        Die Wollust der Acht ist kein sexueller Begriff allein – sie ist
-        ein Hunger nach maximaler Lebensintensität. <strong>McAfee</strong> lebte
-        nie halb: Er feierte exzessiv, arbeitete exzessiv, liebte
-        exzessiv, floh exzessiv. Maßigung war ihm fremd.</p>
-        <p class="vb-intro"><strong>b) Wollust als Grenzauflösung:</strong>
-        Die sexuelle Acht löst Grenzen auf – zwischen sich und anderen,
-        zwischen Erlaubtem und Verbotenem, zwischen Risiko und Vernunft.
-        <strong>McAfees</strong> Drogenexperimente, seine zahllosen Relationships,
-        sein Umgang mit Waffen: alles war Ausdruck dieser grenzauflösenden
-        Energie.</p>
-        <p class="vb-intro"><strong>c) Wollust als Widerstandsstrategie:</strong>
-        <strong>McAfee</strong> nutzte Exzess auch als Waffe gegen das System.
-        Indem er öffentlich tat, was verboten war – und dabei noch
-        lachte – demonstrierte er, dass das System ihn nicht erreichen
-        konnte. Wollust als politischer Akt.</p>
+        <p class="vb-intro"><strong>a) Lust as a Hunger for Life:</strong>
+        The lust of the Eight is not merely a sexual concept – it is
+        a hunger for maximum intensity of life. <strong>McAfee</strong> never lived
+        by halves: he partyed excessively, worked excessively, loved
+        excessively, fled excessively. Moderation was foreign to him.</p>
+        <p class="vb-intro"><strong>b) Lust as the Dissolution of Boundaries:</strong>
+        The Sexual Eight dissolves boundaries – between self and others,
+        between the permitted and the forbidden, between risk and reason.
+        <strong>McAfee's</strong> drug experiments, his countless relationships,
+        his handling of weapons: everything was an expression of this boundary-dissolving
+        energy.</p>
+        <p class="vb-intro"><strong>c) Lust as a Resistance Strategy:</strong>
+        <strong>McAfee</strong> also used excess as a weapon against the system.
+        By doing publicly what was forbidden – and laughing while
+        doing so – he demonstrated that the system could not reach him.
+        Lust as a political act.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Konfrontation als Kommunikationsmittel:</strong>
-        <strong>McAfee</strong> kommunizierte durch Provokation. Seine Tweets,
-        Interviews und öffentlichen Auftritte waren selten sachlich –
-        sie waren Angriffe. Die sexuelle Acht spricht die Sprache der
-        Konfrontation, weil sie das für die ehrlichste Sprache hält.
+        <p class="vb-intro"><strong>a) Confrontation as a Means of Communication:</strong>
+        <strong>McAfee</strong> communicated through provocation. His tweets,
+        interviews, and public appearances were rarely objective –
+        they were attacks. The Sexual Eight speaks the language of
+        confrontation because it considers it the most honest language.
         </p>
-        <p class="vb-intro"><strong>b) Ungehorsam als Identität:</strong>
-        <strong>McAfee</strong> zahlte über ein Jahrzehnt keine Steuern – nicht
-        weil er kein Geld hatte, sondern weil er Steuern für Diebstahl
-        hielt. Regeln, die er für ungerecht befand, ignorierte er.
-        Das ist die Acht in ihrer reinsten Form: moralischer Eigensinn
-        jenseits gesellschaftlicher Konventionen.</p>
-        <p class="vb-intro"><strong>c) Flüchtigkeit und Bewegung:</strong>
-        <strong>McAfee</strong> war selten lange an einem Ort. Guatemala, Belize,
-        Russland, Spanien: Er lebte in permanenter Bewegung, teils aus
-        Notwendigkeit, teils aus Naturell. Die sexuelle Acht sucht Intensität
-        – und Intensität entsteht für sie im Wechsel, nicht in der Stille.</p>
+        <p class="vb-intro"><strong>b) Disobedience as Identity:</strong>
+        <strong>McAfee</strong> paid no taxes for over a decade – not
+        because he had no money, but because he considered taxes to be theft.
+        Rules he deemed unjust, he ignored.
+        That is the Eight in its purest form: moral self-will
+        beyond social conventions.</p>
+        <p class="vb-intro"><strong>c) Elusiveness and Movement:</strong>
+        <strong>McAfee</strong> was rarely in one place for long. Guatemala, Belize,
+        Russia, Spain: he lived in permanent motion, partly out of
+        necessity, partly out of nature. The Sexual Eight seeks intensity
+        – and for it, intensity arises in change, not in stillness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde der Schwäche:</strong>
-        Hinter der Acht liegt die tief eingravierte Überzeugung: Schwäche
-        wird ausgenutzt. <strong>McAfee</strong> wuchs mit einem gewalttätigen Vater auf
-        – eine Kindheit, in der Verletzbarkeit gefährlich war. Die Acht
-        entschied früh: Ich werde nie wieder schwach sein.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Ungreifbarkeit:</strong>
-        Die Schutzstrategie der SX8 ist radikale Ungreifbarkeit: Niemand
-        soll mich kontrollieren, festhalten, definieren können. <strong>McAfees</strong>
-        ständige Flucht, sein Wechsel von Land zu Land, seine Unberechenbarkeit
-        – all das war Schutzstrategie. Wer nicht greifbar ist, kann nicht
-        verletzt werden.</p>
-        <p class="vb-intro"><strong>c) Nine-wing als Puffer:</strong>
-        Der w9-Anteil milderte die härtesten Kanten der Acht. <strong>McAfee</strong>
-        konnte charmant sein, entspannt, fast friedlich – bis er es nicht
-        mehr war. Der Nine-wing ist kein Widerspruch zur Acht: Er ist
-        die Ruhe vor dem Sturm.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wound and Protective Strategy</h3>
+        <p class="vb-intro"><strong>a) The Wound of Weakness:</strong>
+        Behind the Eight lies the deeply engraved conviction: weakness
+        will be exploited. <strong>McAfee</strong> grew up with a violent father
+        – a childhood where vulnerability was dangerous. The Eight
+        decided early on: I will never be weak again.</p>
+        <p class="vb-intro"><strong>b) Protection Through Elusiveness:</strong>
+        The protective strategy of the SX8 is radical elusiveness: no one
+        should be able to control, hold, or define me. <strong>McAfee's</strong>
+        constant flight, his movement from country to country, his unpredictability
+        – all of this was a protective strategy. Who cannot be grasped cannot be
+        hurt.</p>
+        <p class="vb-intro"><strong>c) Nine-wing as a Buffer:</strong>
+        The w9 component softened the hardest edges of the Eight. <strong>McAfee</strong>
+        could be charming, relaxed, almost peaceful – until he was no longer.
+        The Nine-wing is not a contradiction to the Eight: it is
+        the calm before the storm.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SX8: Besessenheit und Besitzergreifung:</strong>
-        Die sexuelle Acht ist der Subtype mit der größten Intensität.
-        Naranjo beschreibt sie als „besessenheit“ – ein Hunger, der sich
-        auf Menschen, Ideen und Erfahrungen richtet. <strong>McAfee</strong> war
-        kein gekühlter Stratege wie die SP8 – er war Feuer.
-        Jede Begegnung wurde zur totalen Erfahrung.</p>
-        <p class="vb-intro"><strong>b) Nine-wing als Entspannungspunkt:</strong>
-        Die w9-Energie gibt der Acht die Fähigkeit zur Selbstvergessenheit,
-        zum Loslassen, zur Großzügigkeit. <strong>McAfee</strong> war in guten Momenten
-        ein gastfreundlicher, herzlicher Mensch – der alles teilte, was er
-        hatte. Dieser Zug machte ihn für viele unwiderstehlich.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Epstein (SX8w9):</strong>
-        Beide sind SX8w9 – und doch grundverschieden. <strong>Epstein</strong> operierte
-        im Verborgenen, baute Netzwerke und Schweigen. <strong>McAfee</strong> tat
-        alles öffentlich, fast aufdringlich sichtbar. Die gleiche Leidenschaft,
-        zwei entgegengesetzte Stile: Epstein verbarg sich, McAfee inszenierte sich.</p>
+        <p class="vb-intro"><strong>a) SX8: Obsession and Possession:</strong>
+        The Sexual Eight is the subtype with the greatest intensity.
+        Naranjo describes it as "possessiveness" – a hunger directed
+        at people, ideas, and experiences. <strong>McAfee</strong> was
+        no cool strategist like the SP8 – he was fire.
+        Every encounter became a total experience.</p>
+        <p class="vb-intro"><strong>b) Nine-wing as a Point of Relaxation:</strong>
+        The w9 energy gives the Eight the capacity for self-forgetfulness,
+        letting go, and generosity. <strong>McAfee</strong> was in good moments
+        a hospitable, warm person – who shared everything he
+        had. This trait made him irresistible to many.</p>
+        <p class="vb-intro"><strong>c) Comparison with Epstein (SX8w9):</strong>
+        Both are SX8w9 – and yet fundamentally different. <strong>Epstein</strong> operated
+        in secret, building networks and silence. <strong>McAfee</strong> did
+        everything publicly, almost obtrusively visible. The same passion,
+        two opposite styles: Epstein hid himself, McAfee staged himself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Krokodil</h3>
-        <p class="vb-intro"><strong>a) Uralt und unveränderlich:</strong>
-        Krokodile existieren seit über 200 Millionen Jahren – praktisch
-        unverändert. <strong>McAfees</strong> Werte und Prinzipien waren genauso
-        primitiv und beständig: Freiheit, Stärke, Unabhängigkeit. Er
-        war nicht bereit, sich zu zivilisieren. Evolution interessierte
-        ihn nicht.</p>
-        <p class="vb-intro"><strong>b) Tarnende Ruhe, blitzschneller Angriff:</strong>
-        Krokodile liegen stundenlang reglos im Wasser – und schlagen dann
-        mit tödlicher Präzision zu. <strong>McAfee</strong> konnte entspannt und
-        harmlos wirken, bis ein Auslöser ihn aktivierte. Dann war die
-        Reaktion sofort und total. Der Nine-wing lieferte die Ruhe,
-        die Acht den Schlag.</p>
-        <p class="vb-intro"><strong>c) Unberührbar in seinem Territorium:</strong>
-        In seinem Element – ob Belize, im Netz oder vor Kameras –
-        war <strong>McAfee</strong> unangreifbar. Das Krokodil dominiert seinen
-        Lebensraum nicht durch Geschwindigkeit, sondern durch Präsenz.
-        <strong>McAfees</strong> Präsenz war sein schärfster Schutz.</p>
+        <p class="vb-intro"><strong>a) Ancient and Unchanging:</strong>
+        Crocodiles have existed for over 200 million years – practically
+        unchanged. <strong>McAfee's</strong> values and principles were just as
+        primitive and enduring: freedom, strength, independence. He
+        was not willing to become civilized. Evolution did not interest
+        him.</p>
+        <p class="vb-intro"><strong>b) Camouflaged Calm, Lightning-Fast Attack:</strong>
+        Crocodiles lie motionless in the water for hours – and then strike
+        with deadly precision. <strong>McAfee</strong> could seem relaxed and
+        harmless until a trigger activated him. Then the
+        reaction was immediate and total. The Nine-wing provided the calm,
+        the Eight the strike.</p>
+        <p class="vb-intro"><strong>c) Untouchable in His Territory:</strong>
+        In his element – whether Belize, on the internet, or in front of cameras –
+        <strong>McAfee</strong> was untouchable. The crocodile dominates its
+        habitat not through speed, but through presence.
+        <strong>McAfee's</strong> presence was his sharpest protection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
-        <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
-        Der Heilungsweg der Acht führt über Hingabe – die Fähigkeit,
-        loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
-        diesem Weg näher, als er es zugegeben hätte: In seinen letzten
-        Jahren zeigte er in Interviews eine seltene Offenheit über
-        Einsamkeit und Erschöpfung.</p>
-        <p class="vb-intro"><strong>b) Stärke, die schützt statt zerstört:</strong>
-        Die gesunde Acht nutzt ihre Kraft zum Schutz anderer – nicht
-        zur eigenen Vergrößerung. <strong>McAfee</strong> hatte diesen Impuls:
-        Er finanzierte Arme, unterstützte Schwächere, sprach für
-        Freiheitsrechte. Das war die lichte Seite seiner Kraft –
-        sie kam nur selten unvermischt zum Ausdruck.</p>
-        <p class="vb-intro"><strong>c) Der unvollendete Weg:</strong>
-        <strong>McAfee</strong> starb, bevor irgendein Heilungsweg sich entfalten
-        konnte – oder wollte. Er hatte keine Geduld für innere Arbeit
-        und keinen Glauben an Transformation. Für die Acht bleibt das
-        die größte Gefahr: die Überzeugung, dass Schwäche nie sicher ist –
-        und dass deshalb Heilung keine Option ist.</p>
+        <p class="vb-intro"><strong>a) From Control to Devotion:</strong>
+        The path to healing for the Eight leads through surrender –
+        the ability to let go, trust, and be vulnerable. <strong>McAfee</strong> came
+        closer to this path than he would have admitted: in his final
+        years, he showed a rare openness in interviews about
+        loneliness and exhaustion.</p>
+        <p class="vb-intro"><strong>b) Strength That Protects Instead of Destroys:</strong>
+        The healthy Eight uses its power to protect others – not
+        for self-aggrandizement. <strong>McAfee</strong> had this impulse:
+        he funded the poor, supported the weaker, spoke up for
+        freedom rights. That was the bright side of his power –
+        it just rarely expressed itself unmixed.</p>
+        <p class="vb-intro"><strong>c) The Unfinished Path:</strong>
+        <strong>McAfee</strong> died before any path to healing could unfold
+        – or wanted to. He had no patience for inner work
+        and no faith in transformation. For the Eight, this remains
+        the greatest danger: the conviction that weakness is never safe –
+        and that healing is therefore not an option.</p>
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 – die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerstörung zur schützenden Kraft.", "Die verborgene Dynamik der 27 Subtypees")}
