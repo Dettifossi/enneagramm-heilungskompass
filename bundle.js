@@ -1156,12 +1156,7 @@ function inhaltsübersichtPage() {
                    cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">
             Jetzt freischalten &#8594;
           </button>
-          <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
-            Noch unsicher? <button data-route="diagnosetest"
-              style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">
-              Diagnose-Test &ndash; Kostenloser Schnelleinstieg
-            </button>
-          </p>
+
         </div>
       </div>
 
@@ -1390,7 +1385,6 @@ function leseprobePage() {
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Schaubilder &middot; Alle 27 Subtyp-Portraits &middot; Subtypspezifische Heilmittel & Naturheilkunde</p>
         <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Jetzt freischalten &#8594;</button>
-        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Noch unsicher? <button data-route="diagnosetest" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">Diagnose-Test &ndash; Kostenloser Schnelleinstieg</button></p>
       </div>
 
     </div>
@@ -1425,7 +1419,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">2</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Kostenlos erkunden</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Der Diagnosetest und die Leseprobe stehen sofort kostenlos zur Verfügung.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">Die Leseprobe steht sofort kostenlos zur Verfügung.</p>
             </div>
           </div>
           <div style="display:flex;gap:1rem;align-items:flex-start;">
@@ -1823,8 +1817,8 @@ function startPage() {
         <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Kurztest &middot; 3 Fragen &middot; 1 Minute</span></button>
-            <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
-              <span class="start-path__test-label">Diagnose-Test</span>
+            <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
+              <span class="start-path__test-label">Diagnose-Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Schnelleinstieg · 9 Profile</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest" : "freischalt/basis"}">
@@ -4058,7 +4052,7 @@ function tierquizPage() {
             </ul>
             <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
           </div>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">kostenlosen Diagnose-Test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt – kein Test ersetzt eine genaue Typbestimmung. Für mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">ausführlichen Diagnose-Test</a>.</p>
         </div>
       </div>
     </div>
@@ -41875,7 +41869,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -42059,7 +42053,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v734';
+  const MY_VERSION = 'inhalt-v735';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

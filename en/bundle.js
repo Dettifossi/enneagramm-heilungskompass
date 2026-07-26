@@ -1576,12 +1576,7 @@ function inhaltsübersichtPage() {
                    cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">
             Unlock now &#8594;
           </button>
-          <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">
-            Not sure yet? <button data-route="diagnosetest"
-              style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">
-              Diagnostic Test &ndash; Free Quick Start
-            </button>
-          </p>
+
         </div>
       </div>
 
@@ -1770,7 +1765,6 @@ function leseprobePage() {
         <h3 style="font-family:'EB Garamond',serif;font-size:1.5rem;color:var(--ink);margin:0 0 .6rem;line-height:1.2;">Der gesamte Kompass wartet auf Sie</h3>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Hunderte Charts &middot; Alle 27 Subtype-Portraits &middot; Subtypespezifische Remedies & Natural Healing</p>
         <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.85rem 2.5rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 18px rgba(0,0,0,.22);">Unlock now &#8594;</button>
-        <p style="margin:1.2rem 0 0;font-size:0.84rem;color:var(--muted);">Not sure yet? <button data-route="diagnosetest" style="background:none;border:none;color:var(--copper);font-size:0.84rem;font-weight:600;cursor:pointer;padding:0;font-family:inherit;">Diagnostic Test &ndash; Free Quick Start</button></p>
       </div>
 
     </div>
@@ -1805,7 +1799,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">2</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Explore for free</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">The diagnostic test and the sample are available for free right away.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">The sample is available for free right away.</p>
             </div>
           </div>
           <div style="display:flex;gap:1rem;align-items:flex-start;">
@@ -2207,8 +2201,8 @@ function startPage() {
         <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Which Animal Am I?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Quick Test &middot; 3 Questions &middot; 1 Minute</span></button>
-            <button class="start-path__btn start-path__btn--test start-path__btn--diag" data-route="diagnosetest">
-              <span class="start-path__test-label">Diagnosis Test</span>
+            <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
+              <span class="start-path__test-label">Diagnosis Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Quick start · 9 Profiles</span>
             </button>
             <button class="start-path__btn start-path__btn--test${hasBasis() ? "" : " is-locked"}" data-route="${hasBasis() ? "typentest" : "freischalt/basis"}">
@@ -4853,7 +4847,7 @@ function tierquizPage() {
             </ul>
             <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Unlock now &#8594;</button>
           </div>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="#" data-route="diagnosetest" style="color:var(--gold);">free diagnosis test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="#" data-route="diagnosetest" style="color:var(--gold);">detailed diagnosis test</a>.</p>
         </div>
       </div>
     </div>
@@ -45042,7 +45036,7 @@ function subtypeSchaubilderPage() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "diagnosetest" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "register") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -45224,7 +45218,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v654';
+  const MY_VERSION = 'inhalt-v655';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
