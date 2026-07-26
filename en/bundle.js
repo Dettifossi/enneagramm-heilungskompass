@@ -21382,267 +21382,94 @@ function michailPopkowPortraitPage() {
         <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Michail Wiktorowitsch Popkow</strong>, geboren am 7. März 1964
-        in Angarsk, einer Industriestadt in der sibirischen Region Irkutsk,
-        gilt als einer der prolifiksten Serienmörder der Nachkriegsgeschichte.
-        Zwischen 1992 und 2010 tötete er mindestens 86 Frauen – vorwiegend
-        nachts, an abgelegenen Orten, nach zuvor angebotenen Mitfahrgelegenheiten.
-        Während dieser gesamten Zeit war er aktiver Polizeibeamter der Miliz
-        in Angarsk, lebte mit seiner Frau und seiner Tochter zusammen und galt
-        als unauffälliger, pflichtbewusster Bürger. 2012 wurde er verhaftet,
-        2015 zunächst für 22 Morde verurteilt, 2017 nach weiteren Geständnissen
-        für 59 zusätzliche Taten zu lebenslanger Haft verurteilt.
-        Die russische Öffentlichkeit kannte ihn als den „Werwolf von Angarsk".
-        Sein Fall erschütterte nicht zuletzt deshalb, weil er jahrelang
-        an Ermittlungen gegen sich selbst beteiligt war.
+        Mikhail Viktorovich Popkov, born on March 7, 1964 in Angarsk, an industrial city in the Siberian region of Irkutsk, is considered one of the most prolific serial killers in post-war history. Between 1992 and 2010, he killed at least 86 women—predominantly at night, in secluded locations, after offering them rides. Throughout this entire time, he was an active police officer in the militia in Angarsk, lived with his wife and daughter, and was considered an inconspicuous, dutiful citizen. In 2012, he was arrested; in 2015, he was initially convicted of 22 murders; and in 2017, following further confessions, he was sentenced to life imprisonment for an additional 59 crimes. The Russian public knew him as the "Werewolf of Angarsk." His case shook the public not least because he spent years participating in investigations against himself.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Michail Popkow</strong> wird der <strong>Self-Preservationen Eins with Nine-wing</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer, aufgestauter Groll gegen moralische Unvollkommenheit,
-        gegen das Unreine, gegen das, was als Abweichung von der Ordnung erlebt wird.
-        Die selbsterhaltende Eins (SP1) richtet diese Energie auf materielle Kontrolle,
-        praktische Pflichterfüllung und ein tadelloses äußeres Bild.
-        Der Nine-wing mildert die sichtbare Schärfe der Eins erheblich:
-        Er verleiht Geduld, ruhige Unauffälligkeit und eine soziale Wärme,
-        die das innere Brodeln vollständig verbirgt. Bei Popkow führte
-        diese Kombination zu einem der umfangreichsten und am längsten
-        unentdeckten Serienverbrechen der russischen Geschichte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Mikhail Popkov is assigned to the Self-Preservation One with a Nine-wing (SP1w9) in the Enneagram. The passion of the One is Anger—a deep, pent-up resentment against moral imperfection, against the impure, against that which is experienced as a deviation from order. The Self-Preservation One (SP1) directs this energy toward material control, practical fulfillment of duty, and an irreproachable outer image. The Nine-wing significantly softens the visible sharpness of the One: it lends patience, calm inconspicuousness, and a social warmth that completely hides the internal simmering. In Popkov's case, this combination led to one of the most extensive and longest-undetected serial crime sprees in Russian history.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Autoritativ und beruhigend:</strong>
-        Popkow trug Uniform. Der Blick eines Polizeibeamten in der
-        postsowjetischen Gesellschaft vermittelte Autorität und Schutz –
-        nicht Bedrohung. Opfer stiegen freiwillig in sein Fahrzeug,
-        weil ein Milizionär in dieser Gesellschaft Sicherheit signalisierte.
-        Die Eins in Uniform ist die Eins als institutionelle Ordnungsmacht:
-        Der Blick des Hüters, nicht des Jägers.</p>
-        <p class="vb-intro"><strong>b) Ruhig und kontrolliert:</strong>
-        Zeugen aus seinem Umfeld beschrieben Popkow als besonnen und
-        ruhig – jemand, der nicht auffiel, nicht laut wurde, keine
-        Extreme zeigte. Der Nine-wing der Eins erzeugt genau diese
-        Qualität: eine gleichmäßige, fast sedierte Ruhe nach außen,
-        hinter der sich die Einser-Spannung aufstaut.</p>
-        <p class="vb-intro"><strong>c) Ohne erkennbares Warnsignal:</strong>
-        Keines der Opfer, die mit ihm mitfuhren, ahnte etwas.
-        Diese Fähigkeit, keine Bedrohung auszustrahlen, ist bei Popkow
-        durch die Uniform noch verstärkt: Die institutionelle Rolle
-        übernahm die Arbeit der Tarnung. Der Nine-wing lieferte
-        die innere Ruhe; die Polizeimarke lieferte die äußere Legitimation.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Authoritative and Reassuring:</strong>
+Popkov wore a uniform. The gaze of a police officer in post-Soviet society conveyed authority and protection—not threat. Victims voluntarily got into his vehicle because a militia officer signaled safety in that society. The One in uniform is the One as an institutional power of order: the gaze of the guardian, not the hunter.</p>
+        <p class="vb-intro"><strong>b) Calm and Controlled:</strong>
+Witnesses from his environment described Popkov as level-headed and calm—someone who did not stand out, did not get loud, and showed no extremes. The Nine-wing of the One generates precisely this quality: an even, almost sedated calm on the outside, behind which the One's tension accumulates.</p>
+        <p class="vb-intro"><strong>c) Without a Recognizable Warning Signal:</strong>
+None of the victims who rode with him suspected a thing. This ability to radiate no threat was further enhanced in Popkov's case by the uniform: the institutional role took over the work of disguise. The Nine-wing provided the inner calm; the police badge provided the outer legitimacy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Hüter als Täter:</strong>
-        <strong>Popkow</strong> war während der gesamten Tatzeit aktiver Polizeibeamter.
-        Er ermittelte zeitweise selbst in Fällen, die er begangen hatte.
-        Diese paradoxe Konstellation ist bei der selbsterhaltenden Eins
-        in sich logisch: Die Eins identifiziert sich mit Ordnung, Gesetz
-        und Institution – und nutzt diese Identifikation als psychologischen
-        Schutzraum, der das eigene Handeln der moralischen Bewertung entzieht.</p>
-        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
-        <strong>Popkow</strong> rechtfertigte seine Taten mit einem klaren moralischen
-        Prinzip: Er töte Frauen, die sich nachts auf der Straße aufhielten,
-        tränken und sich „unmoralisch" verhielten – ein Reinigungsauftrag,
-        den er sich selbst erteilt hatte. Diese Rahmung ist das
-        Einser-Muster in seiner reinsten und gefährlichsten Form:
-        Der Zorn findet ein Prinzip, das ihn legitimiert.</p>
-        <p class="vb-intro"><strong>c) Bürgerliches Doppelleben:</strong>
-        <strong>Popkow</strong> lebte mit seiner Frau – ebenfalls Polizeibeamtin –
-        und seiner Tochter zusammen, pflegte nachbarschaftliche Contacte
-        und galt als unauffällig und verlässlich. Die vollständige
-        Trennung zwischen dem Familien- und Berufsalltag und den
-        nächtlichen Taten ist das klassische SP1-Muster: Die äußere
-        Ordnung wird mit absolutem Aufwand aufrechterhalten, weil
-        sie das Fundament des Selbstbildes ist.</p>
+        <p class="vb-intro"><strong>a) The Guardian as Perpetrator:</strong>
+Popkov was an active police officer during the entire period of his crimes. At times, he even investigated cases he himself had committed. This paradoxical constellation is inherently logical for the Self-Preservation One: the One identifies with order, law, and institution—and uses this identification as a psychological sanctuary that exempts its own actions from moral evaluation.</p>
+        <p class="vb-intro"><strong>b) Moral Self-Justification:</strong>
+Popkov justified his actions with a clear moral principle: he killed women who were out on the streets at night, drinking, and behaving "immorally"—a cleaning mission he had assigned to himself. This framing is the One pattern in its purest and most dangerous form: anger finds a principle that legitimizes it.</p>
+        <p class="vb-intro"><strong>c) Bourgeois Double Life:</strong>
+Popkov lived with his wife—also a police officer—and his daughter, maintained friendly relations with neighbors, and was considered inconspicuous and dependable. The complete separation between family and professional daily life and the nocturnal crimes is the classic SP1 pattern: outer order is maintained with absolute effort because it is the foundation of the self-image.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Systembewusstes Vorgehen:</strong>
-        Als Polizeibeamter kannte <strong>Popkow</strong> die Ermittlungsmethoden,
-        die Spurensicherung und die internen Abläufe. Er nutzte dieses
-        Wissen, um Tatspuren zu verwischen und Verdacht von sich
-        fernzuhalten – bis hin zur aktiven Teilnahme an Ermittlungen.
-        Das ist Einser-Methodenkenntnis als Schutzinstrument:
-        Die Eins will es richtig machen, auch wenn „richtig"
-        hier bedeutet, Error zu vermeiden, die zur Entdeckung führen.</p>
-        <p class="vb-intro"><strong>b) Moralische Selektion der Opfer:</strong>
-        <strong>Popkow</strong> wählte Opfer nach einem inneren Kriterium aus:
-        Frauen, die er als moralisch minderwertig einstufte.
-        Diese Selektion unterscheidet ihn von willkürlich handelnden
-        Tätern – er folgte einem Prinzip. Das Einser-Muster
-        der moralischen Bewertung, das im Alltag als Perfektionismus
-        erscheint, verwandelte sich hier in ein tödliches Selektionssystem.</p>
-        <p class="vb-intro"><strong>c) Ausdauer über zwei Jahrzehnte:</strong>
-        Mindestens 18 Jahre aktive Tatzeit sind ein Zeichen für eine
-        Disziplin, die weit über Impulsivität hinausgeht.
-        <strong>Popkow</strong> tötete nicht in Schüben unkontrollierbarer Rage,
-        sondern über einen langen Zeitraum hinweg – zwischen den Taten
-        lebte er sein geregeltes Doppelleben. Diese Ausdauer ist
-        die selbsterhaltende Eins in ihrer beharrlichsten Ausprägung:
-        Die Eins gibt nicht auf, solange sie ihr Ziel für legitim hält.</p>
+        <p class="vb-intro"><strong>a) System-Conscious Approach:</strong>
+As a police officer, Popkov was familiar with investigative methods, forensic evidence preservation, and internal procedures. He used this knowledge to erase crime scene traces and keep suspicion away from himself—going so far as to actively participate in investigations. This is One methodology as a protective instrument: the One wants to do it right, even if "right" here means avoiding errors that lead to detection.</p>
+        <p class="vb-intro"><strong>b) Moral Selection of Victims:</strong>
+Popkov selected victims according to an inner criterion: women he classified as morally inferior. This selection distinguishes him from perpetrators acting arbitrarily—he followed a principle. The One pattern of moral evaluation, which appears in everyday life as perfectionism, transformed here into a deadly selection system.</p>
+        <p class="vb-intro"><strong>c) Endurance Over Two Decades:</strong>
+At least 18 years of active crimes are a sign of a discipline that goes far beyond impulsivity. Popkov did not kill in bursts of uncontrollable rage, but over a long period of time—between crimes, he lived his orderly double life. This endurance is the Self-Preservation One in its most persistent manifestation: the One does not give up as long as it considers its goal legitimate.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Die Uniform als vollständige Tarnung:</strong>
-        <strong>Popkows</strong> Polizeiuniform war seine wirksamste Tarnung –
-        wirkungsvoller als jede soziale Maske. Sie signalisierte
-        Zugehörigkeit zur Ordnung, zur Staatsmacht, zur Seite
-        des Gesetzes. In der postsowjetischen Gesellschaft Sibiriens
-        war der Milizionär eine Respektsperson. Die Eins in Uniform
-        ist die Eins in ihrer sozial akzeptiertesten Form.</p>
-        <p class="vb-intro"><strong>b) Pflichtbewusster Kollege:</strong>
-        In seiner Dienststelle galt <strong>Popkow</strong> als ordentlich und
-        pflichtbewusst. Keine auffälligen Ausbrüche, keine
-        dienstlichen Verfehlungen, keine Auffälligkeiten.
-        Diese gleichmäßige Zuverlässigkeit ist der Nine-wing
-        der Eins im Berufsleben: Er erscheint ruhig, solide,
-        berechenbar – und ist damit das Letzte, was jemand
-        mit einem Serientäter verbindet.</p>
-        <p class="vb-intro"><strong>c) Familiär und sozial integriert:</strong>
-        Nachbarn und Bekannte erinnern sich an einen normalen,
-        umgänglichen Menschen. <strong>Popkow</strong> war kein Einzelgänger,
-        kein Sonderling, kein sozial Isolierter – er war Teil
-        der Gemeinschaft. Die SP1w9 funktioniert in Gemeinschaften
-        oft gut: Sie hält Regeln ein, stört den Frieden nicht
-        und macht ihre innere Welt für andere unsichtbar.</p>
+        <p class="vb-intro"><strong>a) The Uniform as Complete Disguise:</strong>
+Popkov's police uniform was his most effective disguise—more effective than any social mask. It signaled belonging to order, to state power, to the side of the law. In the post-Soviet society of Siberia, the militia officer was a figure of respect. The One in uniform is the One in its most socially accepted form.</p>
+        <p class="vb-intro"><strong>b) Dutiful Colleague:</strong>
+In his precinct, Popkov was regarded as orderly and dutiful. No conspicuous outbursts, no service infractions, no peculiarities. This consistent reliability is the Nine-wing of the One in professional life: appearing calm, solid, predictable—and thus being the last thing anyone would associate with a serial killer.</p>
+        <p class="vb-intro"><strong>c) Familiarly and Socially Integrated:</strong>
+Neighbors and acquaintances remember a normal, affable person. Popkov was no loner, no oddball, no socially isolated individual—he was part of the community. The SP1w9 often functions well in communities: it obeys rules, does not disturb the peace, and makes its inner world invisible to others.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Stille Kontrolle als Grundton:</strong>
-        <strong>Popkow</strong> verstrahlte keine sichtbare Anspannung.
-        Seine Energie wirkte kontrolliert und beherrscht –
-        der ruhige Beamte, der seinen Dienst tut.
-        Hinter dieser stillen Kontrolle lag die aufgestaute
-        Einser-Energie: ein moralischer Groll, der über
-        Jahrzehnte in geordneten Bahnen gehalten wurde.</p>
-        <p class="vb-intro"><strong>b) Nacht als Ventil:</strong>
-        Tagsüber Polizist, nachts Täter – diese zeitliche Trennung
-        ist energetisch bedeutsam. Die Eins braucht Kanäle
-        für ihren aufgestauten Druck. Bei <strong>Popkow</strong>
-        schuf die Nacht den Raum außerhalb der geregelten Ordnung,
-        in dem sich der Druck entlud. Das Tagesleben blieb davon
-        scheinbar unberührt – weil die Trennung absolut war.</p>
-        <p class="vb-intro"><strong>c) Kein Reue-Impuls, keine Integration:</strong>
-        <strong>Popkow</strong> zeigte in Verhören keine echte Reue.
-        Er erklärte seine Taten als konsequente Umsetzung
-        eines inneren Prinzips. Das ist die Eins in der
-        tiefsten Stufe der Desintegration: Der Zorn hat
-        sich vollständig mit einer Überzeugung verbündet
-        und ist damit aus dem Bereich der moralischen
-        Selbstreflexion herausgetreten.</p>
+        <p class="vb-intro"><strong>a) Quiet Control as the Underlying Tone:</strong>
+Popkov radiated no visible tension. His energy appeared controlled and restrained—the calm official doing his duty. Behind this quiet control lay the pent-up One energy: a moral resentment kept in orderly channels over decades.</p>
+        <p class="vb-intro"><strong>b) Night as an Outlet:</strong>
+Police officer by day, perpetrator by night—this temporal separation is energetically significant. The One needs channels for its pent-up pressure. For Popkov, the night created the space outside the regulated order in which the pressure discharged. Daytime life remained seemingly untouched by it—because the separation was absolute.</p>
+        <p class="vb-intro"><strong>c) No Impulsive Remorse, No Integration:</strong>
+Popkov showed no real remorse during interrogations. He explained his actions as the consistent execution of an inner principle. This is the One at the deepest level of disintegration: anger has completely allied with a conviction and has thus stepped outside the realm of moral self-reflection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Der Adler</h3>
-        <p class="vb-intro"><strong>a) Der Hüter des Reviers:</strong>
-        Der Adler beansprucht ein klar definiertes Revier
-        und verteidigt es konsequent gegen alles, was er
-        als Eindringling oder Störung empfindet. <strong>Popkow</strong>
-        verstand Angarsk als sein Revier – und die Frauen,
-        die er als moralisch unrein einstufte, als Störung
-        der Ordnung, die er zu hüten glaubte. Die Täterlogik
-        des Adlers: Nicht Aggression, sondern Revierbewahrung.</p>
-        <p class="vb-intro"><strong>b) Unangreifbare Tarnung in der Höhe:</strong>
-        Der Adler ist aus der Nähe selten zu erkennen –
-        er beobachtet aus einer Distanz, die anderen unsichtbar bleibt.
-        <strong>Popkows</strong> Uniform und sein Beamtenstatus schufen
-        dieselbe Distanz: Er war zu nah an der Ordnungsmacht,
-        als dass man ihn als Täter in Betracht gezogen hätte.
-        Die institutionelle Höhe schützte ihn zwei Jahrzehnte lang.</p>
-        <p class="vb-intro"><strong>c) Präzision und Selektivität:</strong>
-        Der Adler greift nicht wahllos an – er selektiert,
-        beobachtet und wählt den Moment. <strong>Popkow</strong> handelte
-        nach demselben Prinzip: Er wählte Opfer nach eigenem
-        Kriterium, nutzte seine Ortskenntnis und die Dunkelheit
-        der sibirischen Nächte. Die Selektivität war sein
-        Schutzschild und zugleich Ausdruck seiner Überzeugung:
-        Der Adler greift an, wen er für würdig hält – getroffen zu werden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Eagle</h3>
+        <p class="vb-intro"><strong>a) The Guardian of the Territory:</strong>
+The eagle claims a clearly defined territory and defends it consistently against anything it perceives as an intruder or disturbance. Popkov understood Angarsk as his territory—and the women he categorized as morally impure as a disturbance to the order he believed he was guarding. The eagle's perpetrator logic: not aggression, but territorial preservation.</p>
+        <p class="vb-intro"><strong>b) Unassailable Camouflage from the Heights:</strong>
+The eagle is rarely recognized from close up—it observes from a distance that remains invisible to others. Popkov's uniform and status as an official created that same distance: he was too close to the power of order for anyone to consider him a perpetrator. Institutional height protected him for two decades.</p>
+        <p class="vb-intro"><strong>c) Precision and Selectivity:</strong>
+The eagle does not attack indiscriminately—it selects, observes, and chooses the moment. Popkov acted according to the same principle: he selected victims according to his own criteria, utilizing his local knowledge and the darkness of Siberian nights. Selectivity was his shield and, at the same time, an expression of his conviction: the eagle attacks whom it deems worthy—of being struck.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Michail Wiktorowitsch Popkow</strong> verkörpert die selbsterhaltende Eins
-        in einer Ausprägung, die durch die institutionelle Einbettung
-        eine eigene Kategorie bildet: Der Hüter der Ordnung als ihr
-        systematischer Untergraber. Die Polizeiuniform war nicht nur Tarnung –
-        sie war Teil seines Selbstbildes als moralisch handelnder Mensch.
-        Der Nine-wing sorgte für die soziale Unauffälligkeit,
-        die ihn zwei Jahrzehnte lang schützte. Die Eins lieferte
-        die Überzeugung, die Methode und die Ausdauer.
-        Popkow ist kein Beweis für Polizeigewalt als System –
-        er ist ein Extremfall dessen, was entsteht, wenn der
-        Einser-Zorn eine ideologische Rahmung findet, die ihn
-        als Pflicht erscheinen lässt: moralisch, notwendig,
-        im Dienst einer höheren Ordnung.
+        Mikhail Viktorovich Popkov embodies the Self-Preservation One in a manifestation that forms a category of its own due to its institutional embedding: the guardian of order as its systematic underminer. The police uniform was not merely camouflage—it was part of his self-image as a morally acting human being. The Nine-wing provided the social inconspicuousness that protected him for two decades. The One provided conviction, method, and endurance. Popkov is not proof of police violence as a system—he is an extreme case of what emerges when One anger finds an ideological framing that makes it appear as duty: moral, necessary, in the service of a higher order.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP1 – „Worry / Angst":</strong>
-        Claudio Naranjo beschrieb die selbsterhaltende Eins als den
-        Subtype, der am stärksten auf materielle Sicherheit und
-        praktische Funktionstüchtigkeit ausgerichtet ist.
-        <strong>Popkows</strong> gesamte Lebensstruktur – Beamtenstatus,
-        geregelter Haushalt, stabiles Einkommen – spiegelt
-        diese Orientierung. Die nächtlichen Taten bedrohten
-        diese Sicherheit, was die extreme Sorgfalt erklärt,
-        mit der er Spuren verwischte: Die SP1 kalkuliert
-        Risiken, sie handelt nicht leichtsinnig.</p>
-        <p class="vb-intro"><strong>b) Der Nine-wing als institutionelle Anpassung:</strong>
-        Der Nine-wing macht die Eins sozialer, geduldiger
-        und angepasster. Bei <strong>Popkow</strong> zeigte sich dies
-        in seiner Fähigkeit, sich über Jahrzehnte in eine
-        Berufsstruktur einzufügen, ohne aufzufallen.
-        Die Neun löst sich im Kollektiv auf – sie verschmilzt
-        mit dem Hintergrund. In Kombination mit der Polizeiuniform
-        war diese Fähigkeit zur Selbstauslöschung
-        eine nahezu vollständige Tarnung.</p>
-        <p class="vb-intro"><strong>c) Moralische Rahmung als Einser-Kern:</strong>
-        Die Eins muss ihren Handlungen innerlich zustimmen können.
-        <strong>Popkow</strong> löste dieses Problem durch eine
-        explizite moralische Ideologie: Er tue, was getan
-        werden müsse. Diese Ideologie ist keine Nachrationalisierung –
-        sie war der Antrieb. Der aufgestaute Einser-Zorn
-        auf das Unreine, das Ungeordnete, das Unkorrekte
-        fand in ihr einen legitimierenden Rahmen.</p>
-        <p class="vb-intro"><strong>d) Der Ermittler als Täter:</strong>
-        Die Tatsache, dass <strong>Popkow</strong> an Ermittlungen
-        gegen sich selbst beteiligt war, ist psychologisch aufschlussreich.
-        Die Eins identifiziert sich mit dem System – sie glaubt
-        an Institutionen und agiert in ihnen ohne inneren Widerspruch.
-        Popkow konnte ermitteln, weil er sich nicht als Täter
-        im institutionellen Sinne wahrnahm: „Factor X" bei Rader
-        hat bei Popkow eine ideologische Entsprechung –
-        der Reiniger ist kein Verbrecher.</p>
-        <p class="vb-intro"><strong>e) Skala als Ausdruck der Überzeugung:</strong>
-        86 bestätigte Opfer über 18 Jahre – diese Zahl ist
-        nicht das Ergebnis unkontrollierbarer Impulse, sondern
-        einer stabilen Überzeugung. Je gefestigter die moralische
-        Rahmung, desto länger hält das Verhalten an.
-        Bei <strong>Popkow</strong> blieb die ideologische Grundlage
-        konstant – und damit auch die Taten. Das ist die Eins
-        in ihrer beharrlichsten Ausprägung: Solange das
-        Prinzip gilt, gilt auch die Konsequenz.</p>
-        <p class="vb-intro"><strong>f) Kein Wachstumsweg – totale Desintegration:</strong>
-        Der Wachstumspunkt der Eins ist die Sieben – Leichtigkeit,
-        Freude, der Mut zum Unvollkommenen. Für <strong>Popkow</strong>
-        gab es diesen Weg nicht. Kein Humor, kein Spiel,
-        keine Kreativität als Ventil – nur die stille
-        Beamtenpflicht und die nächtliche Entladung.
-        Der Gegenpunkt der Eins ist die Vier: tiefes Leid,
-        Gefühl der grundlegenden Andersartigkeit.
-        Popkow lebte dauerhaft in der Vier-Desintegration –
-        ein Mensch, der sich zutiefst anders fühlte als andere,
-        ohne dieses Anderssein je in Sprache oder Beziehung zu bringen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP1 – "Worry / Anxiety":</strong>
+Claudio Naranjo described the Self-Preservation One as the subtype most strongly oriented toward material security and practical functionality. Popkov's entire life structure—official status, regulated household, stable income—mirrors this orientation. The nocturnal crimes threatened this security, which explains the extreme care with which he erased traces: the SP1 calculates risks; it does not act recklessly.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing as Institutional Adaptation:</strong>
+The Nine-wing renders the One more social, patient, and adapted. In Popkov, this manifested in his ability to fit into a professional structure over decades without standing out. The Nine dissolves into the collective—it merges into the background. Combined with the police uniform, this capacity for self-effacement was a near-complete disguise.</p>
+        <p class="vb-intro"><strong>c) Moral Framing as the Core of the One:</strong>
+The One must be able to internally agree with its actions. Popkov resolved this problem through an explicit moral ideology: he was doing what had to be done. This ideology is no post-hoc rationalization—it was the driving force. The pent-up One anger at the impure, the disordered, the incorrect found a legitimizing framework within it.</p>
+        <p class="vb-intro"><strong>d) The Investigator as Perpetrator:</strong>
+The fact that Popkov was involved in investigations against himself is psychologically revealing. The One identifies with the system—it believes in institutions and operates within them without internal contradiction. Popkov could investigate because he did not perceive himself as a perpetrator in the institutional sense: "Factor X" in Rader has an ideological equivalent in Popkov—the purifier is no criminal.</p>
+        <p class="vb-intro"><strong>e) Scale as Expression of Conviction:</strong>
+86 confirmed victims over 18 years—this number is not the result of uncontrollable impulses, but of a stable conviction. The more solidified the moral framing, the longer the behavior persists. In Popkov, the ideological foundation remained constant—and with it, the crimes. This is the One in its most persistent manifestation: as long as the principle holds, the consequence holds as well.</p>
+        <p class="vb-intro"><strong>f) No Path of Growth – Total Disintegration:</strong>
+The growth point of the One is the Seven—lightness, joy, the courage for imperfection. For Popkov, this path did not exist. No humor, no play, no creativity as an outlet—only silent official duty and nocturnal discharge. The counterpoint of the One is the Four: deep suffering, a feeling of fundamental difference. Popkov lived permanently in Four-disintegration—a person who felt profoundly different from others without ever bringing this difference into language or relationships.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -21652,14 +21479,14 @@ function michailPopkowPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Michail Popkow wurde 2015 und erneut 2019 wegen insgesamt 86 Morden verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves the purpose of depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Mikhail Popkov was convicted in 2015 and again in 2019 for a total of 86 murders. The Enneagram explains, it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Quality of Gaze of the 9 Types"},
       ])}
     </div>
   `);
