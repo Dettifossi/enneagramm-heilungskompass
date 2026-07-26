@@ -31988,16 +31988,15 @@ function arminMeiwesPortraitPage() {
         <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Täter · Animal correspondence: Wolf</p>
       </div>
       <p class="psycho-intro">
-        <strong>Armin Meiwes</strong>, geboren 1961 in Essen, ist als „Kannibale von Rotenburg" in die Kriminalgeschichte eingegangen.
-        Am 9. März 2001 empfing er in seinem abgelegenen Bauernhaus im hessischen Wüstefeld einen Mann,
-        den er über das Internet kennengelernt hatte: Bernd Jürgen Armando Brandes, 43 Jahre, Berliner Softwareingenieur.
-        Brandes war freiwillig gekommen – auf eine Annonce, die Meiwes seit Jahren im Netz veröffentlichte
-        und in der er explizit nach jemandem suchte, der bereit sei, geschlachtet und gegessen zu werden.
-        Was in jener Nacht geschah, wurde von Meiwes vollständig gefilmt.
-        Der Fall erschütterte die Rechtsordnung: Wie urteilt man über eine Tat, zu der das Opfer ausdrücklich zugestimmt hatte?
-        Und was treibt einen Menschen dazu, eine solche Fantasie über Jahrzehnte zu pflegen – und schließlich umzusetzen?
-        Das Enneagramm macht eine erschreckend präzise Antwort sichtbar.
-      </p>
+        <strong>Armin Meiwes</strong>, born in 1961 in Essen, has entered criminal history as the "Cannibal of Rotenburg."
+        On March 9, 2001, he received a man in his remote farmhouse in Wüstefeld, Hesse,
+        whom he had met via the internet: Bernd Jürgen Armando Brandes, 43 years old, a software engineer from Berlin.
+        Brandes had come voluntarily – in response to an advertisement Meiwes had been publishing online for years,
+        in which he explicitly sought someone willing to be slaughtered and eaten.
+        What happened that night was entirely filmed by Meiwes.
+        The case shocked the legal system: How do you judge a crime to which the victim explicitly consented?
+        And what drives a person to cultivate such a fantasy for decades – and ultimately execute it?
+        The Enneagram makes a shockingly precise answer visible.</p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -32013,136 +32012,131 @@ function arminMeiwesPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Wolf</h3>
         <p class="vb-intro">
-        Der <strong>Wolf</strong> ist die Animal correspondence der sexuellen Sechs – und kein Tier beschreibt Meiwes' innere Dynamik treffender.
-        Der Wolf ist kein Einzelgänger aus Stärke, sondern aus Not: Er ist auf das Rudel angewiesen,
-        leidet tief, wenn die Bindung fehlt, und kann in Isolation zu einem völlig anderen Tier werden.
-        Ein Wolf ohne Rudel verliert seine Orientierung – er kreist, er wiederholt, er wird obsessiv.
-        Meiwes wuchs ohne Vater auf, mit einer vereinnahmenden Mutter, in einem riesigen Haus,
-        das nach deren Tod leer blieb. Er lebte über zwanzig Jahre nahezu vollständig allein.
-        Der Wolf sehnte sich nach dem Rudel. Und fand seinen eigenen Weg, die Einsamkeit zu beenden.
-        </p>
+        The <strong>wolf</strong> is the animal correspondence of the Sexual Six – and no animal describes Meiwes' inner dynamics more accurately.
+        The wolf is not a loner out of strength, but out of necessity: it relies on the pack,
+        suffers deeply when the bond is missing, and can become a completely different animal in isolation.
+        A wolf without a pack loses its orientation – it circles, it repeats, it becomes obsessive.
+        Meiwes grew up without a father, with a possessive mother, in a huge house
+        that remained empty after her death. He lived almost entirely alone for over twenty years.
+        The wolf longed for the pack. And found his own way to end the solitude.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sechs: Verschmelzung als Antwort auf Angst</h3>
-        <p class="vb-intro"><strong>a) Die Kindheit und das leere Haus:</strong>
-        Meiwes' Vater verließ die Familie, als Armin acht Jahre alt war.
-        Seine Mutter Waltraud war überfürsorglich, besitzergreifend und hielt ihn von Gleichaltrigen fern.
-        Als Schüler träumte er davon, einen Bruder zu haben, der immer bei ihm bliebe –
-        jemanden, den er nie wieder verlieren könnte. Die SX6-Fantasie war schon als Kind klar:
-        nicht Besitz von jemandem, sondern untrennbare, ewige Verbindung.</p>
-        <p class="vb-intro"><strong>b) Die Kannibalismusfantasie als Bindungsersatz:</strong>
-        Mit etwa acht Jahren entwickelte Meiwes eine Vorstellung, die er selbst als Kernfantasie beschrieb:
-        Wenn er jemanden essen würde, wäre dieser Mensch für immer in ihm –
-        er könnte nie mehr gehen, nie mehr verloren gehen.
-        Aus der Sicht der Enneagramm-Psychologie ist das eine radikale, pathologische Lösung
-        für die tiefste Wunde der Sechs: <em>Niemand bleibt. Jeder geht.</em>
-        Kannibalismus nicht als Sadismus – sondern als Phantasie vollständiger, unauflöslicher Verbindung.</p>
-        <p class="vb-intro"><strong>c) Das Internet als Parallelwelt:</strong>
-        Der Five-wing organisiert Contact nicht über echte Begegnung, sondern über Systeme und Konzepte.
-        Meiwes fand ab den 1990er Jahren in Kannibalismusforen im Internet eine Gemeinschaft Gleichgesinnter.
-        Er kommunizierte jahrelang online, baute Contacte auf, verfasste detaillierte Texte.
-        Das Netz ersetzte die fehlende reale Bindung – und wurde zur Bühne, auf der er schließlich
-        Bernd Jürgen Armando Brandes fand.</p>
+        <p class="vb-intro"><strong>a) Childhood and the Empty House:</strong>
+        Meiwes' father left the family when Armin was eight years old.
+        His mother Waltraud was overprotective, possessive, and kept him away from peers.
+        As a schoolboy, he dreamed of having a brother who would always stay with him –
+        someone he could never lose again. The SX6 fantasy was already clear as a child:
+        not possession of someone, but inseparable, eternal connection.</p>
+        <p class="vb-intro"><strong>b) The Cannibalism Fantasy as a Substitute Bond:</strong>
+        Around the age of eight, Meiwes developed a concept that he himself described as his core fantasy:
+        if he ate someone, that person would be inside him forever –
+        they could never leave, never be lost again.
+        From the perspective of Enneagram psychology, this is a radical, pathological solution
+        for the deepest wound of the Six: <em>Nobody stays. Everyone leaves.</em>
+        Cannibalism not as sadism – but as a fantasy of complete, indestructible connection.</p>
+        <p class="vb-intro"><strong>c) The Internet as a Parallel World:</strong>
+        The Five-wing organizes contact not through real encounter, but through systems and concepts.
+        From the 1990s onward, Meiwes found a community of like-minded people in cannibalism forums on the internet.
+        He communicated online for years, established contacts, and wrote detailed texts.
+        The web replaced the missing real-life bond – and became the stage on which he ultimately found
+        Bernd Jürgen Armando Brandes.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Five-wing: Isolation, Obsession, Planung</h3>
         <p class="vb-intro">
-        Der Five-wing der Sechs bringt die Fähigkeit zu langer, methodischer Vorbereitung
-        und die Tendenz, die Realität durch gedankliche Konstrukte zu ersetzen.
-        Meiwes baute in seinem Haus über Jahre ein „Schlachthaus" auf – einen Raum, der auf seine Fantasie ausgerichtet war.
-        Er lebte jahrzehntelang allein in dem weitläufigen Bauernhaus seiner Mutter,
-        reduzierte Sozialkontakte auf ein Minimum und kanalisierte seine gesamte emotionale Energie
-        in die Pflege und Ausgestaltung seiner inneren Vorstellungswelt.
-        Das ist nicht die Energie der impulsiven Acht oder der dramatischen Vier –
-        das ist die stille, systematische Obsession des Five-wings.
-        </p>
+        The Five-wing of the Six brings the capacity for long, methodical preparation
+        and the tendency to replace reality with mental constructs.
+        Over the years, Meiwes set up a "slaughterhouse" in his house – a room tailored to his fantasy.
+        He lived alone for decades in his mother's spacious farmhouse,
+        reduced social contact to a minimum, and channeled his entire emotional energy
+        into nurturing and designing his inner world of imagination.
+        This is not the energy of the impulsive Eight or the dramatic Four –
+        this is the quiet, systematic obsession of the Five-wing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Der 9. März 2001</h3>
-        <p class="vb-intro"><strong>a) Der freiwillige Pakt:</strong>
-        Bernd Jürgen Armando Brandes reiste aus Berlin an. Er hatte auf Meiwes' Annonce geantwortet,
-        wollte gegessen werden. Was folgte, war eine mehrstündige, vom späteren Gericht als „einvernehmlich"
-        bewertete Abfolge: beide konsumierten Schlaftabletten und Alkohol;
-        Meiwes amputierte Brandes' Penis mit dessen Zustimmung; sie versuchten gemeinsam, ihn zu braten und zu essen.
-        Als Brandes durch den Blutverlust bereits bewusstlos und sterbend war, tötete Meiwes ihn schließlich mit einem Messerstich in die Kehle.</p>
-        <p class="vb-intro"><strong>b) Die Monate danach:</strong>
-        Meiwes filmte alles. Er zerlegte den Körper, fror die Teile ein und aß über die folgenden Monate
-        schätzungsweise 20 Kilogramm des Fleisches. Er beschrieb diese Zeit in Interviews als
-        „die erfüllteste seines Lebens" – die Einsamkeit war weg. Brandes war „bei ihm".
-        Das ist das erschreckende Enneagramm-Bild: Die SX6-Sehnsucht nach unauflöslicher Verbindung
-        war in seiner Wahrnehmung erfüllt.</p>
-        <p class="vb-intro"><strong>c) Die Entdeckung:</strong>
-        Meiwes suchte weiter – er postete erneut im Internet, suchte nach dem nächsten Opfer.
-        Ein Student in Innsbruck entdeckte die Anzeige, alarmierte die Polizei.
-        Im Dezember 2002 wurde Meiwes verhaftet. In seiner Wohnung fand man das Video.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Crime: March 9, 2001</h3>
+        <p class="vb-intro"><strong>a) The Voluntary Pact:</strong>
+        Bernd Jürgen Armando Brandes arrived from Berlin. He had responded to Meiwes' advertisement,
+        wanting to be eaten. What followed was a sequence lasting several hours, later evaluated by the court as "consensual":
+        both consumed sleeping pills and alcohol;
+        Meiwes amputated Brandes' penis with his consent; together they tried to fry and eat it.
+        When Brandes was already unconscious and dying from blood loss, Meiwes finally killed him with a knife stab to the throat.</p>
+        <p class="vb-intro"><strong>b) The Months After:</strong>
+        Meiwes filmed everything. He dismembered the body, froze the parts, and over the following months ate an estimated
+        20 kilograms of the flesh. He described this period in interviews as
+        "the most fulfilling of his life" – the loneliness was gone. Brandes was "with him."
+        This is the terrifying Enneagram picture: in his perception, the SX6 longing for indestructible connection
+        was fulfilled.</p>
+        <p class="vb-intro"><strong>c) The Discovery:</strong>
+        Meiwes kept searching – he posted online again, looking for the next victim.
+        A student in Innsbruck discovered the ad and alerted the police.
+        In December 2002, Meiwes was arrested. The video was found in his home.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Prozess und das Leben danach</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Trial and the Life After</h3>
         <p class="vb-intro">
-        Der Fall stellte die deutsche Justiz vor ein grundlegendes Problem: Brandes hatte zugestimmt.
-        Im ersten Prozess 2004 wurde Meiwes wegen Totschlags zu 8 Jahren und 6 Monaten verurteilt.
-        Nach einer Revision durch die Bundesanwaltschaft folgte 2006 ein zweites Urteil: <strong>Mord</strong>,
-        lebenslange Freiheitsstrafe. Meiwes ist bis heute inhaftiert.
-        Im Gefängnis wurde er Vegetarier, engagiert sich in Tierschutzprojekten
-        und hat Interviews gegeben, in denen er die Tat mit einer eigentümlichen Sachlichkeit beschreibt.
-        Er bereue die Tat – aber er erkläre sie nicht als Gewalt, sondern als den Versuch,
-        eine Verbindung herzustellen, die er im Leben nie gefunden hatte.
-        Das Bild der SX6 bleibt bis zuletzt präzise: nicht Freude am Töten, sondern Angst vor dem Alleinsein.
-        </p>
+        The case presented German justice with a fundamental problem: Brandes had consented.
+        In the first trial in 2004, Meiwes was sentenced to 8 years and 6 months for manslaughter.
+        Following an appeal by the Federal Prosecutor's Office, a second verdict followed in 2006: <strong>murder</strong>,
+        with a sentence of life imprisonment. Meiwes remains incarcerated to this day.
+        In prison, he became a vegetarian, engages in animal welfare projects,
+        and has given interviews in which he describes the act with a peculiar detachment.
+        He regrets the crime – but he explains it not as violence, but as an attempt to establish
+        a connection he had never found in life.
+        The image of the SX6 remains precise to the end: not pleasure in killing, but fear of being alone.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Armin Meiwes ist kein Sadist im klassischen Sinn – er ist ein Mensch, dessen Bindungsangst
-        so tief und so lange unbearbeitet blieb, dass sie sich in eine Obsession verwandelte,
-        die keine echte Beziehung mehr zulassen konnte.
-        Die SX6 sucht leidenschaftlich nach Sicherheit durch absolute Verschmelzung.
-        In ihrer gesunden Form ist diese Energie tiefste Treue, vollständige Hingabe, echte Intimität.
-        In ihrer pathologischen Form wird Nähe zur Kontrollfantasie: Den anderen besitzen,
-        damit er nicht mehr gehen kann.
-        Der Five-wing verstärkte die Isolation und verhinderte, was die Wunde hätte heilen können:
-        echte Beziehung in der realen Welt.
-        Was dieser Fall zeigt: Hinter den extremsten Taten stehen oft die extremsten Schmerzen.
-        Das macht die Tat nicht weniger kriminell – aber es macht das Menschliche dahinter sichtbar.
-        </p>
+        Armin Meiwes is not a sadist in the classical sense – he is a person whose fear of abandonment
+        remained so deep and unprocessed for so long that it transformed into an obsession
+        that could no longer allow for a real relationship.
+        The SX6 passionately searches for security through absolute fusion.
+        In its healthy form, this energy is the deepest loyalty, total devotion, genuine intimacy.
+        In its pathological form, closeness becomes a control fantasy: to possess the other
+        so that they can no longer leave.
+        The Five-wing reinforced the isolation and prevented what could have healed the wound:
+        real relationship in the real world.
+        What this case shows: behind the most extreme acts often stand the most extreme pains.
+        This does not make the act any less criminal – but it makes the human aspect behind it visible.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Das Opfer: Bernd Jürgen Armando Brandes (SX9w1)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. The Victim: Bernd Jürgen Armando Brandes (SX9w1)</h3>
         <p class="vb-intro">
-        Der Fall wird erst vollständig verständlich, wenn man auch das Opfer durch die Brille des Enneagramms betrachtet.
-        Bernd Jürgen Armando Brandes, 43 Jahre, Berliner Softwareingenieur, reiste freiwillig nach Wüstefeld.
-        Aus Sicht des Enneagramms war er eine <strong>Sexuelle Neun with One-wing (SX9w1)</strong> –
-        und in ihrer dunkelsten Ausprägung.
-        </p>
-        <p class="vb-intro"><strong>a) Das Kernmotiv der ungesunden Neun: totale Selbstauflösung:</strong>
-        Die gesunde Neun schenkt der Welt Harmonie und inneren Frieden. Die extrem ungesunde Neun
-        leidet unter einer tiefen Existenzangst – sie glaubt insgeheim, als eigenständige Person
-        kein Recht zu haben zu existieren. Ihr höchstes Ziel ist nicht der Tod, sondern die Auflösung:
-        das eigene Ich im anderen verschwinden lassen, damit die unerträgliche Einsamkeit endet.
-        Brandes wollte nicht sterben, um gesehen zu werden. Er wollte verschwinden, um endlich anzukommen.</p>
-        <p class="vb-intro"><strong>b) Der One-wing und der Kollaps in die ungesunde Sechs:</strong>
-        Typ 9 und Typ 6 sind im Enneagramm über die Integrationsachse direkt verbunden.
-        Wenn eine ungesunde Neun kollabiert, bewegt sie sich in Richtung der ungesunden Sechs:
-        lähmende Angst, innere Haltlosigkeit, die verzweifelte Search nach einer äußeren Instanz,
-        die Verantwortung abnimmt. In Armin Meiwes fand Brandes genau diese „feste Instanz":
-        jemanden, der dominant, planvoll und organisatorisch auftrat –
-        und dessen Drehbuch ihm die quälende Verantwortung für die eigene Existenz abnahm.</p>
-        <p class="vb-intro"><strong>c) Das Schloss-und-Schlüssel-Prinzip:</strong>
-        Hier trafen sich zwei Menschen, deren tiefste Wunden einander perfekt ergänzten –
-        im schrecklichsten Sinn dieses Wortes.
-        Die SX6 suchte absolute Verbindung, die niemand mehr auflösen konnte.
-        Die SX9 suchte vollständige Auflösung im anderen.
-        Die Sechs wollte jemanden, der bleibt. Die Neun wollte jemanden, in dem sie verschwindet.
-        Kein Zufall – sondern zwei Lebenswunden, die sich in einer Abgrund-Fantasie fanden,
-        die keiner von beiden in einem gesunden Zustand je hätte realisieren wollen oder können.
-        Das Enneagramm macht sichtbar, was sonst unerklärlich bleibt: warum zwei Menschen
-        über tausend Kilometer hinweg zueinanderfanden – und warum es so enden musste.</p>
+        The case only becomes fully understandable when one also views the victim through the lens of the Enneagram.
+        Bernd Jürgen Armando Brandes, 43 years old, a software engineer from Berlin, traveled voluntarily to Wüstefeld.
+        From the perspective of the Enneagram, he was a <strong>Sexual Nine with One-wing (SX9w1)</strong> –
+        and in its darkest expression.</p>
+        <p class="vb-intro"><strong>a) The Core Motif of the Unhealthy Nine: Total Self-Dissolution:</strong>
+        The healthy Nine gives harmony and inner peace to the world. The extremely unhealthy Nine
+        suffers from a deep existential anxiety – secretly believing that, as an independent person,
+        they have no right to exist. Their ultimate goal is not death, but dissolution:
+        letting their own self disappear into the other so that the unbearable loneliness ends.
+        Brandes did not want to die to be seen. He wanted to disappear to finally arrive.</p>
+        <p class="vb-intro"><strong>b) The One-wing and the Collapse into Unhealthy Six:</strong>
+        Type 9 and Type 6 are directly connected in the Enneagram via the integration axis.
+        When an unhealthy Nine collapses, it moves toward the unhealthy Six:
+        paralyzing fear, inner instability, the desperate search for an external authority
+        that takes away responsibility. In Armin Meiwes, Brandes found precisely this "firm authority":
+        someone who appeared dominant, purposeful, and organized –
+        and whose script relieved him of the agonizing responsibility for his own existence.</p>
+        <p class="vb-intro"><strong>c) The Lock-and-Key Principle:</strong>
+        Here two people met whose deepest wounds perfectly complemented each other –
+        in the most horrific sense of the word.
+        The SX6 sought absolute connection that no one could ever sever.
+        The SX9 sought complete dissolution in the other.
+        The Six wanted someone who stays. The Nine wanted someone in whom to disappear.
+        Not a coincidence – but two life wounds that found each other in an abyssal fantasy
+        that neither of them in a healthy state would ever have wanted or been able to realize.
+        The Enneagram makes visible what otherwise remains inexplicable: why two people
+        found each other across a thousand kilometers – and why it had to end this way.</p>
       </div>
 
             <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
