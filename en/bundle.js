@@ -1515,7 +1515,7 @@ function inhaltsübersichtPage() {
           "Affenarten der 9 Typen",
           "Baumarten der 9 Typen",
           "Bear Species of the 9 Types",
-          "Vogelarten der 9 Typen",
+          "Bird Species of the 9 Types",
           "Froscharten der 9 Typen",
           "Spinnenarten der 9 Typen",
           "Reptilienarten",
@@ -35080,9 +35080,9 @@ function heilfastenDer9TypenPage() {
         <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Eine Fastenerfahrung im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normal Type, Reinforcing Type, Countertype) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Ein neuntägiges Fasten kann für jeden Enneagrammtyp eine individuell unterschiedliche, aber dennoch universell transformative Erfahrung sein. Dennoch gibt es im Rahmen des Prozessmodells des Enneagramms 9 universelle Erfahrungen während des Fastens — unabhängig vom jeweiligen Typ oder Subtype. Der Autor hat dieses 9-tägige „Enneagramm-Fasten" selbst unmittelbar vor dem Erstellen dieser Übersicht im Rahmen eines Heilfastens vom 01.08.2024 bis 09.08.2024 erlebt.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
@@ -35131,9 +35131,9 @@ function psychologischeVerhaltensmuster9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"heilfasten-der-9-typen", label:"Heilfasten der 9 Typen"},
@@ -35837,7 +35837,7 @@ function wolkenformationenDer9TypenPage() {
 function wolfsartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
-      ${pageHeader("Wolfsarten der 9 Typen", "Charts · Archetypen")}
+      ${pageHeader("Wolf Species of the 9 Types", "Charts · Archetypen")}
       <p class="psycho-intro">Die Zuordnung von neun Wolfsarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Wölfe und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Der Wolf steht seit Urzeiten für Instinkt, Gemeinschaft und innere Stärke — jede Art auf ihre ganz eigene Weise.</p>
       <img src="${CDN}assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
@@ -35889,37 +35889,37 @@ function eulenartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Eulenarten der 9 Typen", "Charts · Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Eulenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielfältigen Aspekte und Charakteristika dieser Eulen und deren Merkmale mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Eulen sind seit der Antike Symbole der Weisheit, Stille und inneren Schau — jede Art auf ihre ganz eigene Weise.</p>
+      <p class="psycho-intro">The assignment of nine owl species to the nine Enneagram principles is a creative method to connect the diverse aspects and characteristics of these owls and their traits with the various personality types of the Enneagram. Owls have been symbols of wisdom, silence, and inner vision since antiquity — each species in its very own way.</p>
       <img src="${CDN}assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Schleiereule: Präzision und Perfektion</h3>
-        <p class="vb-intro">Schleiereulen haben ein klares, strukturiertes Jagdmuster und sind für ihre Effizienz und Präzision bekannt. Ihre methodische Natur und ihr Streben nach Perfektion spiegeln die Eigenschaften des Reformers Typ 1 wider. Das Gesicht der Schleiereule ist ein akustisches Präzisionsinstrument: Die herzförmige Scheibe bündelt Schallwellen wie eine Parabolantenne und leitet sie zu den asymmetrisch platzierten Ohren — dadurch kann sie im absoluten Dunkel eine Maus unter Schnee orten, allein durch das Geräusch ihrer Schritte. Kein Lebewesen hat ein genaueres Gehör. Error macht die Schleiereule nicht — sie kann es sich nicht leisten. Die Leidenschaft des Zorns zeigt sich als innere Anspannung, wenn die Jagd nicht dem inneren Standard entspricht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – Barn Owl: Precision and Perfection</h3>
+        <p class="vb-intro">Barn Owls have a clear, structured hunting pattern and are known for their efficiency and precision. Their methodical nature and their striving for perfection reflect the characteristics of the Type 1 Reformer. The Barn Owl's face is an acoustic precision instrument: The heart-shaped disc focuses sound waves like a parabolic antenna and directs them to asymmetrical ears — allowing it to locate a mouse under snow in absolute darkness purely by the sound of its steps. No living creature has more precise hearing. The Barn Owl does not make mistakes — it cannot afford to. The passion of anger manifests as inner tension when the hunt does not meet the inner standard.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Bartkauz: Fürsorge und stille Hilfsbereitschaft</h3>
-        <p class="vb-intro">Der Bartkauz ist bekannt für seine fürsorgliche Natur gegenüber seinen Jungen und seine Fähigkeit, in einer Vielzahl von Umgebungen zu überleben und anderen Eulen bei der Aufzucht zu helfen, wenn nötig. Der Bartkauz ist eine der größten Eulen der Welt — und eine der stillsten. Er jagt lautlos, warnt andere vor Gefahren und zeigt eine ausgeprägte Brutfürsorge: Bartkauz-Männchen bringen ihrer brütenden Partnerin regelmäßig Nahrung, auch wenn die Bedingungen hart sind. Er dient, ohne zu drängen. Die Leidenschaft des Stolzes zeigt sich als tiefes Bedürfnis, gebraucht zu werden — der Beschützer im Stillen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Great Grey Owl: Care and Quiet Helpfulness</h3>
+        <p class="vb-intro">The Great Grey Owl is known for its caring nature toward its young and its ability to survive in a variety of environments and help other owls raise young when needed. The Great Grey Owl is one of the largest owls in the world — and one of the quietest. It hunts silently, warns others of danger, and demonstrates pronounced brood care: Great Grey Owl males regularly bring food to their nesting partner even under harsh conditions. It serves without pushing. The passion of pride shows as a deep need to be needed — the protector in silence.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Schnee-Eule: Leistung und Anpassungsfähigkeit</h3>
-        <p class="vb-intro">Schnee-Eulen sind beeindruckende Jäger, die unter den harten Bedingungen der Arktis überleben. Ihre Fähigkeit, sich an extreme Bedingungen anzupassen und erfolgreich zu jagen, reflektiert den leistungsorientierten Typ 3. Die Schnee-Eule ist das einzige Tier, das ganzjährig in der Arktis jagt — bei Temperaturen bis minus 50 Grad, im Winter ohne Licht. Sie zieht keine Grenzen zwischen Nacht und Tag, zwischen Sturm und Stille: Sie jagt, wenn Beute da ist. Ihr weißes Gefieder ist kein Schmuck, sondern Effizienz — perfekte Tarnung im Schnee. Die Leidenschaft der Eitelkeit zeigt sich als der Wille, sichtbar zu triumphieren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – Snowy Owl: Performance and Adaptability</h3>
+        <p class="vb-intro">Snowy Owls are impressive hunters that survive in the harsh conditions of the Arctic. Their ability to adapt to extreme conditions and hunt successfully reflects the performance-oriented Type 3. The Snowy Owl is the only animal that hunts year-round in the Arctic — at temperatures down to minus 50 degrees, in winter without light. It draws no boundaries between night and day, between storm and calm: It hunts when prey is there. Its white plumage is not ornament, but efficiency — perfect camouflage in the snow. The passion of vanity shows as the will to triumph visibly.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Waldohreule: Einzigartigkeit und innere Tiefe</h3>
-        <p class="vb-intro">Die Waldohreule besitzt ein auffälliges Aussehen mit ihren markanten Federbüscheln, was sie deutlich von anderen Eulen unterscheidet. Ihre Besonderheit und das Anderssein entsprechen dem Individualisten Typ 4. Die Waldohreule ist der Waschbär unter den Eulen: Wenn sie sich bedroht fühlt, streckt sie sich zu einem schlanken Ast, presst das Gefieder eng an den Körper und wird fast unsichtbar zwischen Rinde und Borke. Diese Fähigkeit zur Transformation — sichtbar sein, wenn sie will, unsichtbar, wenn nötig — spiegelt die innere Welt des Typs 4 wider. Die Leidenschaft des Neids zeigt sich als Sehnsucht, gesehen zu werden ohne die Schutzmaske aufzugeben.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Long-Eared Owl: Uniqueness and Inner Depth</h3>
+        <p class="vb-intro">The Long-Eared Owl possesses a striking appearance with its prominent ear tufts, which clearly distinguish it from other owls. Its distinctiveness and being different correspond to the Individualist Type 4. The Long-Eared Owl is the raccoon among owls: When it feels threatened, it stretches into a slender branch, presses its plumage tightly to its body, and becomes almost invisible between bark and trunk. This ability for transformation — being visible when it wants, invisible when necessary — mirrors the inner world of Type 4. The passion of envy shows as a longing to be seen without giving up the protective mask.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Habichtskauz: Beobachtung und analytische Stille</h3>
-        <p class="vb-intro">Der Habichtskauz verhält sich ruhig und zurückhaltend und setzt seine genaue Beobachtungsgabe gezielt ein, um Beute zu suchen — was dem beobachtenden Analytiker Typ 5 entspricht. Der Habichtskauz ist die größte Eule der borealen Wälder — und eine der am schwersten zu beobachtenden. Er sitzt stundenlang regungslos auf einem hohen Ast, dreht den Kopf in kleinen, präzisen Bewegungen und wartet. Er rennt nicht der Beute hinterher — er wartet, bis er genug weiß, und handelt dann mit absoluter Sicherheit. Sein Blick ist nicht aggressiv, sondern registrierend. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie und Präsenz.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Ural Owl: Observation and Analytical Silence</h3>
+        <p class="vb-intro">The Ural Owl behaves quietly and guardedly, using its precise powers of observation selectively to search for prey — which corresponds to the observing analyst Type 5. The Ural Owl is the largest owl of the boreal forests — and one of the most difficult to observe. It sits motionless for hours on a high branch, turning its head in small, precise movements and waiting. It does not chase after prey — it waits until it knows enough, and then acts with absolute certainty. Its gaze is not aggressive, but registering. The passion of avarice shows as thriftiness with energy and presence.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Steinkauz: Treue und soziale Wachsamkeit</h3>
-        <p class="vb-intro">Steinkäuze sind sozial und leben oft in der Nähe menschlicher Siedlungen. Ihre Loyalität gegenüber ihren Partnern und ihre Bereitschaft, die Familie zu beschützen, spiegeln die Eigenschaften des verlässlichen Typs 6 wider. Der Steinkauz ist die Eule, die den Menschen am nächsten lebt: Er nistet in alten Obstgärten, Scheunen und Mauerlöchern, direkt neben dem Bauernhof. Er kennt jede Ecke seines Reviers auswendig und reagiert auf jede Veränderung mit sichtbarer Alarmierung. Sein Pfeifton in der Dämmerung ist ein Signal: Ich bin hier, ich beobachte, alles ist unter Kontrolle. Die Leidenschaft der Angst zeigt sich als permanente Wachheit, die nie ganz zur Ruhe kommt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Little Owl: Fidelity and Social Vigilance</h3>
+        <p class="vb-intro">Little Owls are social and often live near human settlements. Their loyalty to their partners and their readiness to protect their family reflect the characteristics of the reliable Type 6. The Little Owl is the owl that lives closest to humans: It nests in old orchards, barns, and wall holes right next to the farmyard. It knows every corner of its territory by heart and reacts to any change with visible alarm. Its piping call at twilight is a signal: I am here, I am watching, everything is under control. The passion of fear shows as permanent alertness that never completely rests.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Sperbereule: Lebhaftigkeit und Jagdfreude</h3>
-        <p class="vb-intro">Die Sperbereule ist eine mittelgroße Eule, die in den offenen Wäldern und auf Wiesen lebt. Sie ist für ihre akrobatischen Flugmanöver und ihre schnellen Jagdtechniken bekannt, was ihre lebhafte, abenteuerlustige Natur zeigt. Die Sperbereule ist die einzige Eule, die überwiegend tagaktiv ist — sie jagt im Sonnenlicht, sichtbar für alle. Sie fliegt in langen, wellenförmigen Bögen, stürzt blitzschnell auf Beute und ist in ständiger Bewegung. Anders als ihre nachtaktiven Verwandten sucht sie nicht die Stille, sondern das Licht. Die Leidenschaft der Völlerei zeigt sich als unstillbarer Hunger nach Aktion und dem nächsten Ziel am Horizont.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Northern Hawk-Owl: Liveness and Joy of Hunting</h3>
+        <p class="vb-intro">The Northern Hawk-Owl is a medium-sized owl that lives in open forests and meadows. It is known for its acrobatic flight maneuvers and fast hunting techniques, demonstrating its lively, adventurous nature. The Northern Hawk-Owl is the only owl that is predominantly diurnal — it hunts in sunlight, visible to all. It flies in long, undulating arcs, swoops lightning-fast onto prey, and is in constant motion. Unlike its nocturnal relatives, it seeks not silence, but light. The passion of gluttony shows as an insatiable hunger for action and the next target on the horizon.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Turkmenischer Uhu: Dominanz und Territorialität</h3>
-        <p class="vb-intro">Der Turkmenische Uhu ist eine sehr durchsetzungsstarke Eule. Die territoriale Aggression und seine starke Vitalpräsenz sowie Präsenz und Durchsetzungsfähigkeit spiegeln den Herausforderer Typ 8 wider. Der Turkmenische Uhu ist eine der größten Eulen der Welt — sein Revier kann Hunderte von Quadratkilometern umfassen, und er verteidigt es mit einer Konsequenz, die selbst große Greifvögel meidet. Sein Ruf in der Nacht ist unverwechselbar tief und weit tragend: ein Signal, das nicht einlädt, sondern warnt. Er teilt seinen Raum nicht — und braucht es nicht. Die Leidenschaft der Gier zeigt sich als unbedingter Wille zur Kontrolle über den eigenen Bereich.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Turkmenian Eagle Owl: Dominance and Territoriality</h3>
+        <p class="vb-intro">The Turkmenian Eagle Owl is a very assertive owl. Territorial aggression and its strong vital presence, along with presence and assertiveness, reflect the Challenger Type 8. The Turkmenian Eagle Owl is one of the largest owls in the world — its territory can encompass hundreds of square kilometers, and it defends it with a consistency that even large birds of prey avoid. Its call in the night is unmistakably deep and far-reaching: a signal that does not invite, but warns. It does not share its space — and has no need to. The passion of lust shows as an unconditional will to control its own domain.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Zwergohreule: Stille Harmonie und Anpassung</h3>
-        <p class="vb-intro">Zwergohreulchen sind klein und unauffällig und bevorzugen friedliche und ruhige Umgebungen. Ihre friedliche und ausgeglichene Natur entspricht der harmoniesuchenden Natur des friedliebenden Typs 9. Die Zwergohreule ist die kleinste Eule Europas — und die unauffälligste. Sie nistet in Baumhöhlen, die andere liegen ließen, jagt leise Insekten und Kleingetier und fällt in keiner Umgebung auf. Ihr Ruf ist ein sanftes, rhythmisches Pfeifen, das sich harmonisch in die Geräuschkulisse der Nacht einfügt. Sie braucht keine Aufmerksamkeit und sucht keinen Konflikt. Die Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, dass die Nacht ruhig bleibt und alles seinen gewohnten Gang geht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Eurasian Scops Owl: Quiet Harmony and Adaptation</h3>
+        <p class="vb-intro">Eurasian Scops Owls are small and inconspicuous, preferring peaceful and quiet environments. Their peaceful and even-tempered nature corresponds to the harmony-seeking nature of the peace-loving Type 9. The Eurasian Scops Owl is the smallest owl in Europe — and the most inconspicuous. It nests in tree cavities left behind by others, quietly hunts insects and small creatures, and stands out in no environment. Its call is a soft, rhythmic whistle that blends harmoniously into the soundscape of the night. It needs no attention and seeks no conflict. The passion of sloth shows as a deep desire for the night to remain quiet and for everything to take its accustomed course.</p>
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -35929,7 +35929,7 @@ function eulenartenDer9TypenPage() {
       </div>
       ${relatedLinks([
         {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
-        {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
+        {route:"papageienarten-der-9-typen", label:"Parrot Species of the 9 Types"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
       ])}
     </div>
@@ -36031,7 +36031,7 @@ function blumenartenDer9TypenPage() {
       </div>
       ${relatedLinks([
         {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
-        {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
+        {route:"hunderassen-der-9-typen", label:"Dog Breeds of the 9 Types"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
       ])}
     </div>
@@ -36083,7 +36083,7 @@ function hunderassenDer9TypenPage() {
       ${relatedLinks([
         {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
         {route:"pferdearten-der-9-typen", label:"Horse Breeds of the 9 Types"},
-        {route:"baerenarten-der-9-typen", label:"Bärenarten der 9 Typen"},
+        {route:"baerenarten-der-9-typen", label:"Bear Species of the 9 Types"},
       ])}
     </div>
   `);
@@ -36093,37 +36093,37 @@ function pferdearteDer9TypenPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Pferdearten der 9 Typen", "Charts · Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Pferderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die verschiedenen Aspekte und Charakteristika dieser Pferde mit den Persönlichkeitstypen des Enneagramms zu verbinden. Jede Rasse verkörpert auf eindrucksvolle Weise die Wesensart ihres Typs — von der edlen Präzision des Lippizaners bis zur friedvollen Ausgeglichenheit des Connemara Ponys.</p>
+      <p class="psycho-intro">The assignment of nine horse breeds to the nine Enneagram principles is a creative method to connect the various aspects and characteristics of these horses with the personality types of the Enneagram. Each breed impressively embodies the essential nature of its type — from the noble precision of the Lipizzan to the peaceful even-temperedness of the Connemara Pony.</p>
       <img src="${CDN}assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Lippizaner: Präzision als Lebensform</h3>
-        <p class="vb-intro">Der Lippizaner verkörpert mit seiner legendären Präzision und Disziplin den Reformer-Typ auf ideale Weise. Diese Rasse ist bekannt für ihre Fähigkeiten in der klassischen Dressur, die höchste Präzision und jahrelange, geduldige Übung erfordern. Der Lippizaner symbolisiert das Streben nach Perfektion und das Einhalten hoher Standards. Seine ruhige, kontrollierte Kraft und die Fähigkeit, komplexe Bewegungen mit Anmut auszuführen, spiegeln die Leidenschaft des Typs 1 wider: den inneren Antrieb zur Vollkommenheit, der manchmal als Zorn auf das Unvollkommene erlebt wird. Kein anderes Pferd hat sich so tief in die Künste der Reiterei eingeschrieben — die Hohe Schule ist sein Reich, und in diesem Reich gibt es kein „Gut genug“.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – Lipizzan: Precision as a Way of Life</h3>
+        <p class="vb-intro">With its legendary precision and discipline, the Lipizzan embodies the Reformer type in an ideal manner. This breed is known for its skills in classical dressage, which require supreme precision and years of patient practice. The Lipizzan symbolizes the striving for perfection and the adherence to high standards. Its calm, controlled power and the ability to execute complex movements with grace reflect the passion of Type 1: the inner drive toward perfection, which is sometimes experienced as anger at the imperfect. No other horse has inscribed itself so deeply into the arts of horsemanship — the High School is its realm, and in this realm there is no "good enough."</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – American Quarter Horse: Im Dienst der anderen</h3>
-        <p class="vb-intro">Das American Quarter Horse steht für Hilfsbereitschaft und die Freude daran, anderen zu dienen — genau wie der Helfer-Typ des Enneagramms. Diese Pferde sind freundlich, vielseitig und bereit, bei vielen Aufgaben zu helfen. Sie sind für ihre kooperative Natur und ihre Bereitschaft, anderen zu dienen, bekannt. Ihr Stolz liegt im Geben und im Gefühl, gebraucht zu werden. Als eines der vielseitigsten Arbeitspferde Nordamerikas — auf Ranch, Rodeo und Rennbahn gleichermaßen zu Hause — symbolisieren sie die herzliche Zugewandtheit und die Fürsorge, die den Typ 2 auszeichnen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – American Quarter Horse: In the Service of Others</h3>
+        <p class="vb-intro">The American Quarter Horse stands for helpfulness and the joy of serving others — just like the Helper type of the Enneagram. These horses are friendly, versatile, and ready to assist with many tasks. They are known for their cooperative nature and their willingness to serve others. Their pride lies in giving and in the feeling of being needed. As one of the most versatile working horses of North America — equally at home on ranch, rodeo, and racetrack — they symbolize the warm affection and care that characterize Type 2.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Englisches Vollblut: Geboren zum Gewinnen</h3>
-        <p class="vb-intro">Das Englische Vollblut ist die Rasse, die mit Erfolg, Leistung und Wettbewerb identifiziert wird — ein perfektes Spiegelbild des Machers. Englische Vollblüter sind für ihre Geschwindigkeit und ihren Erfolg im Rennsport bekannt. Sie verkörpern Ehrgeiz, Zielbewusstsein und den Wunsch, erfolgreich zu sein. Ihr ganzes Wesen ist auf Leistung ausgerichtet: jede Muskelfaser, jeder Atemzug strebt nach dem Ziel. Die Leidenschaft der Eitelkeit — das Selbstbild als Gewinner — ist in dieser Rasse archetypisch verankert. Sie wurden nicht gezüchtet, um möglichst glücklich zu sein, sondern um möglichst schnell zu sein — und das merkt man ihnen an.</p>
+        <p class="vb-intro">The Thoroughbred is the breed identified with success, performance, and competition — a perfect mirror of the Achiever. Thoroughbreds are known for their speed and success in racing. They embody ambition, goal-orientation, and the desire to be successful. Their entire nature is geared toward performance: every muscle fiber, every breath strives toward the finish line. The passion of vanity — the self-image as a winner — is archetypally anchored in this breed. They were not bred to be as happy as possible, but to be as fast as possible — and it shows.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Araber: Schönheit und Einzigartigkeit</h3>
-        <p class="vb-intro">Der Araber ist bekannt für seine Schönheit, Eleganz und ausgeprägte Persönlichkeit — Eigenschaften, die den Individualisten-Typ widerspiegeln. Araber besitzen eine ausgeprägte Persönlichkeit, Eleganz und Individualität. Sie strahlen Kreativität, Einzigartigkeit und Anmut aus. Ihr tiefer, ausdrucksstarker Blick und ihr sensibler Charakter machen sie unverwechselbar. Die Leidenschaft des Neids — das Gefühl, anders und zugleich nach Verbindung sehnend zu sein — drückt sich in ihrer innigen, aber auch eigenwilligen Art aus. Der Araber ist kein Pferd für jeden; wer ihn führt, muss ihn verstehen, nicht beherrschen wollen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Arabian: Beauty and Uniqueness</h3>
+        <p class="vb-intro">The Arabian is known for its beauty, elegance, and distinct personality — traits that reflect the Individualist type. Arabians possess a distinct personality, elegance, and individuality. They radiate creativity, uniqueness, and grace. Their deep, expressive gaze and sensitive character make them unmistakable. The passion of envy — the feeling of being different while simultaneously longing for connection — expresses itself in their intimate yet headstrong nature. The Arabian is not a horse for everyone; whoever leads it must understand it, not try to dominate it.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Mustang: Freiheit und inneres Wissen</h3>
-        <p class="vb-intro">Der Mustang verkörpert Unabhängigkeit, Autonomie und Weisheit — die Kernqualitäten des Beobachters. Mustangs sind wilde Pferde, die oft zurückgezogen und unabhängig leben. Sie symbolisieren den Wunsch nach Autonomie und Wissen sowie die Fähigkeit, alleine zu überleben. Der Mustang beobachtet die Welt aus der Distanz, zieht sich in seine innere Welt zurück und akkumuliert Wissen, das er hütet wie einen Schatz. Jahrtausende in der Wildnis haben ihm eine Intelligenz eingraviert, die kein Züchter reproduzieren kann: Er weiß, wo Wasser ist, wo Gefahr lauert, wo die Herde sicher ist. Seine Leidenschaft — der Geiz mit Zeit, Energie und Vertrauen — zeigt sich im vorsichtigen Dosieren seiner Nähe.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Mustang: Freedom and Inner Knowledge</h3>
+        <p class="vb-intro">The Mustang embodies independence, autonomy, and wisdom — the core qualities of the Observer. Mustangs are wild horses that often live withdrawn and independent lives. They symbolize the desire for autonomy and knowledge, as well as the ability to survive alone. The Mustang observes the world from a distance, retreats into its inner world, and accumulates knowledge that it guards like a treasure. Millennia in the wilderness have engraved an intelligence into it that no breeder can replicate: It knows where water is, where danger lurks, where the herd is safe. Its passion — avarice with time, energy, and trust — manifests in the careful dosing of its proximity.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Clydesdale: Loyalität als Kraft</h3>
-        <p class="vb-intro">Das Clydesdale steht für Loyalität, Zuverlässigkeit und Gemeinschaftssinn — genau die Qualitäten, die den Loyalisten auszeichnen. Clydesdales sind starke, zuverlässige Arbeitspferde. Sie stehen für Loyalität, Verlässlichkeit und die Bereitschaft, hart zu arbeiten und ihrer Gemeinschaft zu unterstützen. Ihre kolossale Kraft setzen sie nicht für sich selbst ein, sondern im Dienst der Gruppe — Feldarbeit, Transport, Last tragen, ohne zu klagen. Die Leidenschaft der Angst — das ständige Prüfen, ob alles sicher ist — wandelt sich im Clydesdale in unersetzliche Treue: Wer ein Clydesdale einmal geführt hat, weiß, dass er nicht wegrennt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Clydesdale: Loyalty as Strength</h3>
+        <p class="vb-intro">The Clydesdale stands for loyalty, reliability, and a sense of community — exactly the qualities that distinguish the Loyalist. Clydesdales are strong, reliable draft horses. They stand for loyalty, dependability, and the willingness to work hard and support their community. They do not use their colossal strength for themselves, but in service of the group — field work, transport, carrying loads without complaining. The passion of fear — the constant checking whether everything is safe — transforms in the Clydesdale into irreplaceable fidelity: Anyone who has ever led a Clydesdale knows that it does not run away.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Andalusier: Das Fest der Bewegung</h3>
-        <p class="vb-intro">Der Andalusier steht für Lebhaftigkeit, Enthusiasmus und die Freude am Abenteuer — ein strahlendes Bild des Enthusiasten-Typs. Andalusier sind lebhaft, energisch und vielseitig. Sie lieben das Abenteuer und sind für ihre fröhliche und enthusiastische Natur bekannt. Mit fließender Mähne und federndem Schritt tanzen sie durchs Leben — jeder Moment ein neues Erlebnis, jede Begegnung eine neue Chance. Ihre Geschichte als Pferd der iberischen Ritter und Fiesta-Teilnehmer hat ihnen einen natürlichen Sinn für Spektakel gegeben: Der Andalusier tritt auf. Die Leidenschaft der Völlerei drückt sich in ihrem unerschöpflichen Appetit auf Bewegung, Reize und Contact aus.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Andalusian: The Celebration of Movement</h3>
+        <p class="vb-intro">The Andalusian stands for liveliness, enthusiasm, and the joy of adventure — a radiant image of the Enthusiast type. Andalusians are lively, energetic, and versatile. They love adventure and are known for their cheerful and enthusiastic nature. With flowing mane and springy step, they dance through life — every moment a new experience, every encounter a new opportunity. Their history as a horse of Iberian knights and fiesta participants has given them a natural sense of spectacle: The Andalusian performs. The passion of gluttony expresses itself in their inexhaustible appetite for movement, stimulation, and contact.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Shire Horse: Macht ohne Entschuldigung</h3>
-        <p class="vb-intro">Das Shire Horse symbolisiert mit seiner imposanten Größe, Kraft und Durchsetzungsfähigkeit den Herausforderer-Typ auf eindrucksvolle Weise. Shire Horses sind kraftvolle und dominante Pferde, die Stärke und Durchsetzungsvermögen verkörpern. Sie sind mutig und bereit, Herausforderungen anzunehmen. Ihr bloßes Auftreten bewegt ganze Landschaften — diese Pferde kennen kein Backschrecken. Als die schwersten Pferde der Welt wurden sie eingesetzt, um Kriegsausrüstung zu ziehen, Fabriken anzutreiben, Hafen-Lasten zu bewegen. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kraft, Einfluss und dem Gefühl, die Welt zu gestalten — oder zumindest den Pflug zu ziehen.</p>
+        <p class="vb-intro">With its imposing size, power, and assertiveness, the Shire Horse impressively symbolizes the Challenger type. Shire Horses are powerful and dominant horses that embody strength and assertiveness. They are brave and ready to take on challenges. Their mere presence moves entire landscapes — these horses know no flinching. As the heaviest horses in the world, they were used to haul war equipment, drive factories, and move harbor loads. The passion of lust manifests as an unslaked hunger for power, influence, and the feeling of shaping the world — or at least pulling the plow.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Connemara Pony: Harmonie als Heimat</h3>
-        <p class="vb-intro">Das Connemara Pony ist bekannt für seine ruhige und ausgeglichene Natur — ein treffendes Bild des Vermittlers. Connemara Ponys sind ruhig und ausgeglichen. Sie sind freundlich und geduldig, streben nach Harmonie und sind leicht zu handhaben. Aus den rauhen Moorlandschaften Irlands stammen diese robusten, genügsamen Ponys, die mit allem zurechtkommen und niemandem zur Last fallen wollen. Sie passen sich jedem Reiter an, jedem Gelände, jedem Wetter — ohne Theater. Ihre Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, den inneren Frieden nicht durch Konflikte stören zu lassen: Ein Connemara macht keinen Ärger, und erwartet keinen.</p>
+        <p class="vb-intro">The Connemara Pony is known for its calm and even-tempered nature — an apt image of the Peacemaker. Connemara Ponies are calm and balanced. They are friendly and patient, strive for harmony, and are easy to manage. Hailing from the rugged boglands of Ireland, these robust, frugal ponies manage with everything and wish to be a burden to no one. They adapt to any rider, any terrain, any weather — without theater. Their passion of sloth shows as a deep desire not to let inner peace be disturbed by conflict: A Connemara causes no trouble and expects none.</p>
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -36133,7 +36133,7 @@ function pferdearteDer9TypenPage() {
       </div>
       ${relatedLinks([
         {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
-        {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
+        {route:"nagetierarten-der-9-typen", label:"Rodent Species of the 9 Types"},
         {route:"baerenarten-der-9-typen", label:"Bärenarten der 9 Typen"},
       ])}
     </div>
@@ -45272,7 +45272,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v661';
+  const MY_VERSION = 'inhalt-v662';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
