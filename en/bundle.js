@@ -25438,20 +25438,20 @@ function peterSutcliffePortraitPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Yorkshire Ripper" – Nordengland 1975–1980</p>
       </div>
       <p class="psycho-intro">
-        <strong>Peter William Sutcliffe</strong>, auch bekannt unter dem Namen
-        <strong>Peter William Coonan</strong> (den er nach der Heirat seiner Frau annahm),
-        geboren am 2. Juni 1946 in Bingley, Yorkshire,
-        ermordete zwischen Oktober 1975 und November 1980 mindestens
-        <strong>dreizehn Frauen</strong> in Nordengland und griff sieben weitere an,
-        die überlebten. Er wurde als „Yorkshire Ripper" bekannt –
-        in Anlehnung an Jack the Ripper.
-        Sutcliffe war LKW-Fahrer, verheiratet mit Sonia Sutcliffe,
-        galt als freundlicher, ruhiger Nachbar.
-        Er wurde am 2. Januar 1981 bei einer Routinekontrolle verhaftet.
-        1981 zu 20 Mal lebenslanger Haft verurteilt, starb er am
-        13. November 2020 in Frankland Prison an den Folgen einer COVID-19-Erkrankung.
-        Das Enneagramm macht sichtbar, wie ein Mann, der sich als moralischen Rächer verstand,
-        zur tödlichsten Bedrohung für Frauen im Norden Englands wurde.
+        <strong>Peter William Sutcliffe</strong>, also known by the name
+        <strong>Peter William Coonan</strong> (which he adopted after his wife's marriage),
+        born on June 2, 1946, in Bingley, Yorkshire,
+        murdered at least <strong>thirteen women</strong> in northern England
+        between October 1975 and November 1980 and attacked seven others
+        who survived. He became known as the „Yorkshire Ripper" –
+        in reference to Jack the Ripper.
+        Sutcliffe was a truck driver, married to Sonia Sutcliffe,
+        and was regarded as a friendly, quiet neighbor.
+        He was arrested on January 2, 1981, during a routine traffic check.
+        Sentenced to 20 life sentences in 1981, he died on
+        November 13, 2020, in Frankland Prison from complications of a COVID-19 infection.
+        The Enneagram makes visible how a man who saw himself as a moral avenger
+        became the deadliest threat to women in northern England.
       </p>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -25469,164 +25469,164 @@ function peterSutcliffePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Das Flusspferd</h3>
         <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Animal correspondence der selbsterhaltenden Zwei.
-        Es wirkt harmlos – groß, träge, fast gemütlich.
-        Es ist das Tier, das mehr Menschen in Afrika tötet als jedes andere.
-        Es greift nicht aus Hunger, nicht aus Dominanzstreben –
-        es greift, wenn es seine Sphäre verletzt fühlt, wenn sein Bereich bedroht wird,
-        wenn etwas in seinem inneren Regelwerk ausgelöst wird.
-        Sutcliffe war ein Flusspferd mit freundlichem Gesicht.
-        Kollegen mochten ihn. Seine Frau liebte ihn. Nachbarn grüßten ihn.
-        Das Flusspferd tauchte unter – und schlug zu, wenn die innere Grenze überschritten war.
-        Für Sutcliffe war diese Grenze moralisch definiert:
-        Frauen, die er als „Prostituierte" oder „sittenlos" beurteilte,
-        überschritten sie. Dann war das Flusspferd nicht mehr gemütlich.
+        The <strong>hippopotamus</strong> is the animal correspondence of the Self-Preservation Two.
+        It appears harmless – large, sluggish, almost cozy.
+        It is the animal that kills more humans in Africa than any other.
+        It does not attack out of hunger, nor out of a desire for dominance –
+        it attacks when it feels its sphere is violated, when its space is threatened,
+        when something in its internal set of rules is triggered.
+        Sutcliffe was a hippopotamus with a friendly face.
+        Colleagues liked him. His wife loved him. Neighbors greeted him.
+        The hippopotamus submerged – and struck when the internal boundary was crossed.
+        For Sutcliffe, this boundary was morally defined:
+        women he judged as „prostitutes" or „immoral"
+        crossed it. Then the hippopotamus was no longer cozy.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Fürsorge als Selbstschutz</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der selbsterhaltenden Zwei:</strong>
-        Die selbsterhaltende Zwei sichert ihren Platz in der Welt
-        durch Unentbehrlichkeit und durch das Bild des guten, hilfsbereiten Menschen.
-        Sie ist der Typ, der immer da ist, immer hilft, immer einen Witz bereit hat.
-        Sutcliffe war in seinem Umfeld beliebt – er half Nachbarn,
-        war verlässlich bei der Arbeit, sorgte für seine Frau.
-        Dieses Bild war nicht vollständig gespielt –
-        es war echter Ausdruck des Zweier-Musters.
-        Das Problem: Die selbsterhaltende Zwei tut das alles
-        auch, um nicht gesehen zu werden – um unter dem Radar zu bleiben,
-        um den eigenen Raum zu schützen.</p>
-        <p class="vb-intro"><strong>b) Der One-wing: Das innere Regelwerk des Richters:</strong>
-        Der One-wing der selbsterhaltenden Zwei verleiht ihr
-        ein scharfes inneres Regelwerk. Die Eins urteilt: Gut und Böse,
-        Rein und Unrein, Würdig und Unwürdig.
-        Sutcliffe entwickelte früh eine tiefe Verachtung für Frauen,
-        die er als Prostituierte wahrnahm.
-        Er erzählte nach seiner Verhaftung, er habe eine „Mission von Gott" erhalten –
-        eine Stimme auf einem Friedhof habe ihm befohlen, die Straßen
-        von Prostituierten zu säubern.
-        Ob er das glaubte oder es als Erklärung nutzte, ist psychologisch zweitrangig.
-        Das Muster ist klar: Der One-wing der Zwei schuf
-        ein moralisches Mandat zur Gewalt.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
-        das unbewusste Festhalten an der eigenen Überlegenheit,
-        das Nicht-Brauchen-Wollen, das Sich-selbst-Genügen.
-        Sutcliffes Stolz zeigte sich in seiner Überzeugung, besser zu sein –
-        besser als seine Opfer, besser als die Polizei, die ihn jahrelang nicht fasste,
-        besser als die Gesellschaft, die diese Frauen duldete.
-        Dieser Stolz machte ihn unverwundbar für Selbstzweifel
-        und blind für das, was er wirklich war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Two: Caretaking as Self-Protection</h3>
+        <p class="vb-intro"><strong>a) The Core Principle of the Self-Preservation Two:</strong>
+        The Self-Preservation Two secures its place in the world
+        through indispensability and through the image of the good, helpful person.
+        They are the type who is always there, always helps, always has a joke ready.
+        Sutcliffe was well-liked in his community – he helped neighbors,
+        was reliable at work, cared for his wife.
+        This image was not entirely acted –
+        it was a genuine expression of the Two pattern.
+        The problem: the Self-Preservation Two does all of this
+        also to remain unseen – to stay under the radar,
+        to protect their own space.</p>
+        <p class="vb-intro"><strong>b) The One-wing: The Internal Rulebook of the Judge:</strong>
+        The One-wing of the Self-Preservation Two imparts
+        a sharp internal rulebook. The One judges: Good and Evil,
+        Pure and Impure, Worthy and Unworthy.
+        Sutcliffe developed a deep contempt early on for women
+        he perceived as prostitutes.
+        After his arrest, he recounted having received a „mission from God" –
+        a voice in a graveyard had commanded him to clean the streets
+        of prostitutes.
+        Whether he believed this or used it as an explanation is psychologically secondary.
+        The pattern is clear: the One-wing of the Two created
+        a moral mandate for violence.</p>
+        <p class="vb-intro"><strong>c) The Passion: Pride as a Blind Spot:</strong>
+        The passion of the Two is <strong>pride</strong> –
+        the unconscious clinging to one's own superiority,
+        the refusal to need help, self-sufficiency.
+        Sutcliffe's pride was evident in his conviction of being better –
+        better than his victims, better than the police who failed to catch him for years,
+        better than the society that tolerated these women.
+        This pride made him invulnerable to self-doubt
+        and blind to what he truly was.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 13 Morde in fünf Jahren</h3>
-        <p class="vb-intro"><strong>a) Sutcliffes frühe Jahre und Prägung:</strong>
-        Sutcliffe wuchs in einem Arbeitermilieu in Bingley auf.
-        Als Jugendlicher arbeitete er kurzzeitig auf einem Friedhof –
-        er beschrieb später, wie ihn die Nähe zum Tod damals fasziniert hatte.
-        Er heiratete 1974 Sonia Szurma, eine Lehrerin.
-        Die Ehe war nach außen stabil, nach innen angespannt –
-        Sonia hatte psychische Erkrankungen, es gab Fehlgeburten, finanzielle Enge.
-        Sutcliffe begann, Rotlichtviertel in Bradford und Leeds aufzusuchen.
-        1969 wurde er wegen eines Angriffs auf eine Frau kurzzeitig festgenommen –
-        ohne weitere Konsequenzen.</p>
-        <p class="vb-intro"><strong>b) Die Opfer – 13 Morde, 7 Überlebende:</strong>
-        Sutcliffe verwendete Hammer, Schraubenzieher und Messer.
-        Er schlug seinen Opfern zuerst den Schädel ein, stach danach auf sie ein.
-        Entgegen seiner späteren Darstellung waren nicht alle Opfer Prostituierte –
-        mehrere waren vollkommen unbescholtene Frauen, die zufällig abends
-        unterwegs waren. Das erschütterte seine Rechtfertigungsnarrative.
-        <strong>Wilma McCann</strong> (28) – 30. Oktober 1975, Leeds.
-        <strong>Emily Jackson</strong> (42) – 20. Januar 1976, Leeds.
-        <strong>Irene Richardson</strong> (28) – 5. Februar 1977, Leeds.
-        <strong>Patricia Atkinson</strong> (32) – 23. April 1977, Bradford.
-        <strong>Jayne MacDonald</strong> (16) – 26. Juni 1977, Leeds – keine Prostituierte; ihr Tod erschütterte die Öffentlichkeit.
-        <strong>Jean Jordan</strong> (21) – 1. Oktober 1977, Manchester.
-        <strong>Yvonne Pearson</strong> (22) – 21. Januar 1978, Bradford.
-        <strong>Helen Rytka</strong> (18) – 31. Januar 1978, Huddersfield.
-        <strong>Vera Millward</strong> (41) – 16. Mai 1978, Manchester.
-        <strong>Josephine Whitaker</strong> (19) – 4. April 1979, Halifax.
-        <strong>Barbara Leach</strong> (20) – 2. September 1979, Bradford – Studentin.
-        <strong>Marguerite Walls</strong> (47) – 20. August 1980, Farsley.
-        <strong>Jacqueline Hill</strong> (20) – 17. November 1980, Leeds – Studentin.</p>
-        <p class="vb-intro"><strong>c) Die Ermittlungen – fünf Jahre Versagen:</strong>
-        Die Ermittlungen unter dem Kommando von Chief Constable George Oldfield
-        gelten als eines der größten Versagen der britischen Polizeigeschichte.
-        Sutcliffe wurde im Laufe der Ermittlungen insgesamt <strong>neunmal</strong> befragt –
-        und jedes Mal ohne Konsequenzen entlassen.
-        Ein entscheidender Error: Die Polizei erhielt Briefe und ein Tonband
-        von jemandem, der sich als „Yorkshire Ripper" ausgab –
-        und konzentrierte die Fahndung auf einen Mann aus Sunderland
-        (erkennbar am Dialekt), obwohl Sutcliffe aus Yorkshire stammte.
-        Der Absender dieser Nachrichten stellte sich später als
-        ein Trittbrettfahrer heraus: John Humble, der die Ermittler jahrelang in die Irre führte.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (2. Januar 1981):</strong>
-        Sutcliffe wurde nicht durch Ermittlungsarbeit gefasst, sondern durch Zufall.
-        Zwei Polizisten kontrollierten ihn in Sheffield in einem Auto
-        mit einer Frau – mit falschen Nummernschildern.
-        Er bat, kurz urinieren zu gehen. Die Beamten ließen ihn.
-        Er legte dabei einen Hammer und ein Messer im Gebüsch ab.
-        Back auf der Wache erkannten die Beamten die Bedeutung des Namens –
-        und schickten Kollegen zur Fundstelle zurück. Die Waffen wurden gefunden.
-        Im Verhör gestand Sutcliffe alle 13 Morde.</p>
-        <p class="vb-intro"><strong>e) Der Prozess und die psychiatrische Frage:</strong>
-        Sutcliffe plädierte auf verminderte Schuldfähigkeit wegen Paranoid-Schizophrenie –
-        die Stimme Gottes, die Mission.
-        Das Gericht folgte diesem Plädoyer nicht vollständig.
-        Er wurde in allen 13 Fällen für schuldig befunden und zu 20 Mal
-        lebenslanger Haft verurteilt, mit einer Mindesthaftdauer von 30 Jahren.
-        1984 wurde er in das psychiatrische Hochsicherheitsgefängnis Broadmoor verlegt.
-        2016 kehrte er in ein normales Hochsicherheitsgefängnis zurück.
-        Am 13. November 2020 starb er in Frankland Prison
-        an den Folgen einer COVID-19-Erkrankung – er hatte die Behandlung abgelehnt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 13 Murders in Five Years</h3>
+        <p class="vb-intro"><strong>a) Sutcliffe's Early Years and Shaping:</strong>
+        Sutcliffe grew up in a working-class environment in Bingley.
+        As a teenager, he worked briefly in a graveyard –
+        he later described how the proximity to death had fascinated him at the time.
+        In 1974, he married Sonia Szurma, a teacher.
+        The marriage was stable on the outside, tense on the inside –
+        Sonia suffered from mental illness, there were miscarriages, financial strain.
+        Sutcliffe began visiting red-light districts in Bradford and Leeds.
+        In 1969, he was briefly arrested for an attack on a woman –
+        with no further consequences.</p>
+        <p class="vb-intro"><strong>b) The Victims – 13 Murders, 7 Survivors:</strong>
+        Sutcliffe used hammers, screwdrivers, and knives.
+        He first crushed his victims' skulls, then stabbed them.
+        Contrary to his later claims, not all victims were prostitutes –
+        several were completely innocent women who happened to be out
+        in the evening. This shattered his self-justifying narrative.
+        <strong>Wilma McCann</strong> (28) – October 30, 1975, Leeds.
+        <strong>Emily Jackson</strong> (42) – January 20, 1976, Leeds.
+        <strong>Irene Richardson</strong> (28) – February 5, 1977, Leeds.
+        <strong>Patricia Atkinson</strong> (32) – April 23, 1977, Bradford.
+        <strong>Jayne MacDonald</strong> (16) – June 26, 1977, Leeds – not a prostitute; her death shocked the public.
+        <strong>Jean Jordan</strong> (21) – October 1, 1977, Manchester.
+        <strong>Yvonne Pearson</strong> (22) – January 21, 1978, Bradford.
+        <strong>Helen Rytka</strong> (18) – January 31, 1978, Huddersfield.
+        <strong>Vera Millward</strong> (41) – May 16, 1978, Manchester.
+        <strong>Josephine Whitaker</strong> (19) – April 4, 1979, Halifax.
+        <strong>Barbara Leach</strong> (20) – September 2, 1979, Bradford – student.
+        <strong>Marguerite Walls</strong> (47) – August 20, 1980, Farsley.
+        <strong>Jacqueline Hill</strong> (20) – November 17, 1980, Leeds – student.</p>
+        <p class="vb-intro"><strong>c) The Investigation – Five Years of Failure:</strong>
+        The investigation under the command of Chief Constable George Oldfield
+        is regarded as one of the largest failures in British police history.
+        Sutcliffe was interviewed a total of <strong>nine times</strong> during the investigation –
+        and released each time without consequences.
+        A critical error: the police received letters and an audio tape
+        from someone claiming to be the „Yorkshire Ripper" –
+        and focused the manhunt on a man from Sunderland
+        (distinguishable by his dialect), even though Sutcliffe was from Yorkshire.
+        The sender of these messages later turned out to be
+        a hoaxer: John Humble, who led investigators astray for years.</p>
+        <p class="vb-intro"><strong>d) The Arrest (January 2, 1981):</strong>
+        Sutcliffe was caught not through investigative work, but by chance.
+        Two police officers checked him in a car in Sheffield
+        with a woman – bearing fake license plates.
+        He asked to briefly urinate. The officers allowed him.
+        During this time, he placed a hammer and a knife in the bushes.
+        Back at the station, the officers recognized the significance of his name –
+        and sent colleagues back to the location. The weapons were found.
+        Under interrogation, Sutcliffe confessed to all 13 murders.</p>
+        <p class="vb-intro"><strong>e) The Trial and the Psychiatric Question:</strong>
+        Sutcliffe pleaded diminished responsibility due to paranoid schizophrenia –
+        the voice of God, the mission.
+        The court did not fully accept this plea.
+        He was found guilty in all 13 cases and sentenced to 20
+        life sentences, with a minimum term of 30 years.
+        In 1984, he was transferred to the high-security psychiatric facility Broadmoor Hospital.
+        In 2016, he was returned to a standard high-security prison.
+        On November 13, 2020, he died in Frankland Prison
+        from complications of COVID-19 – having refused treatment.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Achterstress: Wenn das Flusspferd angreift</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Eight-Stress: When the Hippopotamus Attacks</h3>
         <p class="vb-intro">
-        Die Zwei bewegt sich im Stress in Richtung <strong>Acht</strong> –
-        rohe Aggression, Kontrollverlust, die Explosion eines Systems,
-        das zu lange zu viel gehalten hat.
-        Sutcliffes Taten hatten die Präzision und Brutalität der Acht-Energie:
-        Der Hammer, der erste Schlag, die Geschwindigkeit.
-        Es war kein langer Kampf – es war ein System, das sich entlud.
-        Die Zwei hält viel zurück: den Stolz, den Anspruch, die Verurteilung anderer.
-        Wenn das Ventil öffnet, öffnet es vollständig.
-        Das Flusspferd ist im Wasser kaum zu sehen – bis es zubeißt.
+        Under stress, the Two moves toward <strong>Eight</strong> –
+        raw aggression, loss of control, the explosion of a system
+        that has held back too much for too long.
+        Sutcliffe's acts carried the precision and brutality of Eight-energy:
+        the hammer, the first blow, the speed.
+        It was not a long struggle – it was a system discharging itself.
+        The Two holds back a lot: pride, entitlement, the condemnation of others.
+        When the valve opens, it opens completely.
+        The hippopotamus is barely visible in the water – until it bites.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Peter Sutcliffe zeigt, wie der selbsterhaltende Typ 2 with One-wing
-        zur tödlichsten Kombination werden kann:
-        Fürsorge nach außen schafft Unsichtbarkeit.
-        Moralisches Regelwerk nach innen schafft Rechtfertigung.
-        Stolz macht blind für die eigene Zerstörungskraft.
-        Und der Achter-Stress sorgt für die explosive Umsetzung.
-        Was Sutcliffe von Harvey Weinstein unterscheidet – ebenfalls SP2w1 –
-        ist der Schritt in physische Vernichtung:
-        Weinstein nutzte Macht als Werkzeug.
-        Sutcliffe nutzte Gewalt.
-        Beide glaubten, ein Recht zu haben.
-        Beide wurden vom One-wing darin bestätigt.
+        Peter Sutcliffe shows how the Self-Preservation Type 2 with One-wing
+        can become the deadliest combination:
+        outward caretaking creates invisibility.
+        An internal moral rulebook creates justification.
+        Pride blinds to one's own destructive power.
+        And Eight-stress ensures explosive execution.
+        What distinguishes Sutcliffe from Harvey Weinstein – also SP2w1 –
+        is the step into physical destruction:
+        Weinstein used power as a tool.
+        Sutcliffe used violence.
+        Both believed they had a right.
+        Both were validated in it by the One-wing.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SP2w1 – Self-Preservatione Zwei with One-wing.<br>
-        <strong>Leidenschaft:</strong> Stolz – Überlegenheitsgefühl, moralische Selbstgerechtigkeit, Unantastbarkeit des eigenen Urteils.<br>
-        <strong>Stresspunkt:</strong> Acht – explosive Aggression, rohe Gewalt als Entladung eines übervollen Systems.<br>
-        <strong>Animal correspondence:</strong> Flusspferd – scheinbar harmlos, gefährlichstes Großtier Afrikas, schlägt zu wenn die innere Sphäre verletzt ist.<br>
-        <strong>Opfer:</strong> 13 Morde (1975–1980), 7 Überlebende; hauptsächlich Frauen in West Yorkshire und Greater Manchester.<br>
-        <strong>Tatwaffen:</strong> Hammer, Schraubenzieher, Messer.<br>
-        <strong>Verurteilt:</strong> 1981, 20-fach lebenslang; Mindesthaftdauer 30 Jahre.<br>
-        <strong>Gestorben:</strong> 13. November 2020, Frankland Prison – COVID-19, Behandlung abgelehnt.
+        <strong>Subtype:</strong> SP2w1 – Self-Preservation Two with One-wing.<br>
+        <strong>Passion:</strong> Pride – feeling of superiority, moral self-righteousness, inviolability of one's own judgment.<br>
+        <strong>Stress Point:</strong> Eight – explosive aggression, raw violence as the discharge of an overfilled system.<br>
+        <strong>Animal correspondence:</strong> Hippopotamus – seemingly harmless, deadliest large animal in Africa, strikes when its internal sphere is violated.<br>
+        <strong>Victims:</strong> 13 murders (1975–1980), 7 survivors; mainly women in West Yorkshire and Greater Manchester.<br>
+        <strong>Weapons:</strong> Hammer, screwdriver, knife.<br>
+        <strong>Conviction:</strong> 1981, 20 life sentences; minimum sentence of 30 years.<br>
+        <strong>Died:</strong> November 13, 2020, Frankland Prison – COVID-19, treatment refused.
         </p>
       </div>
 
@@ -25643,7 +25643,7 @@ function peterSutcliffePortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1) – ebenfalls Flusspferd"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo (SP1w9) – ähnliche Täterstruktur"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo (SP1w9) – similar offender structure"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9) – moralische Selbstrechtfertigung"},
       ])}
     </div>
