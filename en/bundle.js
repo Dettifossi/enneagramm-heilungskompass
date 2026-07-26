@@ -10835,7 +10835,7 @@ function _portraitTypPage(typ) {
       <p class="lead-small">${typ.intro}</p>
       <div style="margin-top:1.5rem;">${bilder}</div>
       ${["se","so","sx"].map(pr => bookTip(`einzelstudie-${pr}${typ.nr}`, `Die vollständige Einzelstudie zu ${pr.toUpperCase()}${typ.nr} &ndash; ${typ.name}. Ca. 70 Seiten tiefgreifende psychologische Analyse.`, `Einzelstudie ${pr.toUpperCase()}${typ.nr}: ${typ.name}`)).join("")}
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes – passions, virtues, and paths of healing directly from therapeutic practice.", "Leidenschaft und Heilung")}
       ${relatedLinks(related)}
     </section>
   `);
@@ -11115,8 +11115,8 @@ const SPIRITUELL_TRACKS = {
       </p>
       ${grid(enneagrammSongs)}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
@@ -34518,7 +34518,7 @@ function hauptfokusBewusstseinsDer9TypenPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.5rem 0 0;">(Unbekannt)</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
         ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
@@ -35242,7 +35242,7 @@ function auffaelligeMerkmale9TypenPage() {
       </div>
       ${relatedLinks([
         {route:"frisuren-der-9-typen", label:"Frisuren der 9 Typen"},
-        {route:"haendedrucke-der-9-typen", label:"Händedrücke der 9 Typen"},
+        {route:"haendedrucke-der-9-typen", label:"Handshakes of the 9 Types"},
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
       ])}
     </div>
@@ -35297,7 +35297,7 @@ function haendedruckeDer9TypenPage() {
       ${relatedLinks([
         {route:"auffaellige-merkmale-der-9-typen", label:"Auffällige Merkmale der 9 Typen"},
         {route:"suchtverhalten-der-9-typen", label:"Suchtverhalten der 9 Typen"},
-        {route:"niesverhalten-der-9-typen", label:"Niesverhalten der 9 Typen"},
+        {route:"niesverhalten-der-9-typen", label:"Sneezing Behavior of the 9 Types"},
       ])}
     </div>
   `);
@@ -35307,37 +35307,37 @@ function suchtverhalteDer9TypenPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Suchtverhalten der 9 Typen", "Charts · Archetypen")}
-      <p class="psycho-intro">Jeder Mensch kennt Muster, die sich wiederholen — Verhaltensweisen, nach denen man greift, wenn der Druck zu groß wird oder die innere Leere sich meldet. Das Enneagramm zeigt, welche typspezifischen Suchtstrukturen hinter diesen Mustern stecken.</p>
+      <p class="psycho-intro">Everyone knows patterns that repeat — behaviors you reach for when the pressure becomes too great or the inner emptiness makes itself felt. The Enneagram shows which type-specific addictive structures lie behind these patterns.</p>
       <img src="${CDN}assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Zwanghafter Perfektionismus</h3>
-        <p class="vb-intro">Typ 1 kann dazu neigen, sich zwanghaft auf Ordnung, Disziplin und Kontrolle zu fixieren. Dies kann sich in einem ungesunden Perfektionismus äußern, der Stress und Burnout zur Folge haben kann. Manchmal greifen Einser auch zu Substanzen, um den Druck ihrer hohen Standards zu bewältigen. Der innere Richter, der nie ruht, wird zur eigentlichen Sucht — die Search nach dem Errorfreien, nach dem endlich Richtigen, nach dem Moment, in dem man sich endlich gut genug fühlt.</p>
+        <p class="vb-intro">Type 1 can tend to obsessively fixate on order, discipline, and control. This can manifest in an unhealthy perfectionism that can result in stress and burnout. Sometimes Ones also reach for substances to cope with the pressure of their high standards. The inner judge that never rests becomes the actual addiction — the search for what is error-free, for what is finally right, for the moment when one finally feels good enough.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Co-Abhängigkeit und emotionales Essen</h3>
-        <p class="vb-intro">Typ 2 kann eine Tendenz zur Co-Abhängigkeit entwickeln, indem er sich übermäßig auf die Bedürfnisse anderer konzentriert und seine eigenen vernachlässigt. Typ 2 kann auch zu emotionalem Essen oder Substanzmissbrauch neigen, um seine eigenen emotionalen Bedürfnisse zu stillen, wenn er sich nicht persönlich wertgeschätzt fühlt. Die Sucht des Helfers ist oft die Sucht nach Bestätigung — nach dem Moment, in dem jemand sagt: Ich brauche dich. Ohne diese Rückmeldung greift er zu Ersatzmitteln.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Co-dependency and Emotional Eating</h3>
+        <p class="vb-intro">Type 2 can develop a tendency toward co-dependency by focusing excessively on the needs of others while neglecting their own. Type 2 can also tend toward emotional eating or substance abuse to satisfy their own emotional needs when they do not feel personally valued. The helper's addiction is often the addiction to validation — to the moment when someone says: I need you. Without this feedback, they reach for substitutes.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Workaholismus und Leistungssucht</h3>
-        <p class="vb-intro">Typ 3 kann süchtig nach Erfolg, Anerkennung und Status sein. Dreier neigen dazu, sich in Arbeit und Leistung zu verlieren und können zu Workaholics werden. In extremen Fällen greifen sie gar zu leistungssteigernden Substanzen, um ihre Ziele zu erreichen — das sogenannte „Lance Armstrong-Syndrom". Die eigentliche Sucht ist die nach Bestätigung durch Leistung: Wenn ich genug erreiche, bin ich es wert. Ein Kreislauf, der sich von alleine dreht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – Workaholism and Performance Addiction</h3>
+        <p class="vb-intro">Type 3 can be addicted to success, recognition, and status. Threes tend to lose themselves in work and achievement and can become workaholics. In extreme cases, they even reach for performance-enhancing substances to achieve their goals — the so-called "Lance Armstrong Syndrome." The actual addiction is the addiction to validation through performance: If I achieve enough, I am worthy. A cycle that spins on its own.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Emotionale Intensität und innere Leere</h3>
-        <p class="vb-intro">Typ 4 kann dazu tendieren, sich in seinen Emotionen und seiner Sehnsucht nach Authentizität zu verlieren. Vierer können Substanzen oder Verhaltensweisen verwenden, um intensivere emotionale Erfahrungen zu suchen oder sich von ihrer inneren Leere abzulenken. Der Ästhet ist manchmal süchtig nach dem Gefühl selbst — nach der Tiefe, der Leidenschaft, dem Schmerz, der wenigstens zeigt, dass man lebt. Das Gewöhnliche fühlt sich für ihn wie Betäubung an.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Emotional Intensity and Inner Emptiness</h3>
+        <p class="vb-intro">Type 4 can tend to lose themselves in their emotions and their longing for authenticity. Fours may use substances or behaviors to seek more intense emotional experiences or to distract themselves from their inner emptiness. The aesthete is sometimes addicted to the feeling itself — to the depth, the passion, the pain that at least shows that one is alive. The ordinary feels like numbness to them.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Isolation und intellektuelle Flucht</h3>
-        <p class="vb-intro">Typ 5 kann eine Neigung zur Isolation und zum Rückzug entwickeln, oft in eine Welt von Wissen und Information. Fünfer können auch süchtig nach bestimmten intellektuellen Beschäftigungen oder digitalen Medien werden, um soziale Interaktionen zu vermeiden. Die Sucht des Denkers ist die Sucht nach dem sicheren Innen: Solange ich denke und beobachte, muss ich mich nicht einbringen. Das Wissen selbst wird zur Festung, hinter der man sich verschanzt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Isolation and Intellectual Escape</h3>
+        <p class="vb-intro">Type 5 can develop an inclination toward isolation and withdrawal, often into a world of knowledge and information. Fours can also become addicted to certain intellectual pursuits or digital media to avoid social interactions. The thinker's addiction is the addiction to the safe interior: As long as I think and observe, I do not have to engage. Knowledge itself becomes a fortress behind which one entrenches oneself.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Angstbewältigung und Sicherheitssucht</h3>
-        <p class="vb-intro">Typ 6 kann durch seine Angst und sein Bedürfnis nach Sicherheit getrieben werden. Sechser können Substanzen oder Verhaltensweisen verwenden, um ihre Ängste zu betäuben oder sich allgemein sicherer zu fühlen. Dies kann zu einer Abhängigkeit von beruhigenden Mitteln oder von Sicherheitsritualen führen. Die tiefste Sucht des Skeptikers ist die Sucht nach Gewissheit — nach dem endgültigen Beweis, dass alles gut wird. Den gibt es nicht, und so dreht sich das Rad weiter.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Anxiety Management and Security Addiction</h3>
+        <p class="vb-intro">Type 6 can be driven by their anxiety and their need for security. Sixes may use substances or behaviors to numb their fears or to feel generally safer. This can lead to a dependence on tranquilizers or security rituals. The skeptic's deepest addiction is the addiction to certainty — to the final proof that everything will be alright. It does not exist, and so the wheel keeps turning.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Exzessiver Konsum und Ablenkung</h3>
-        <p class="vb-intro">Typ 7 kann süchtig nach neuen Erfahrungen, Vergnügungen und Abenteuern sein. Siebener neigen dazu, exzessiv zu konsumieren — sei es Essen, Alkohol, Drogen oder Unterhaltung — um Negatives, Langeweile und innere Leere zu vermeiden. Die Sucht des Enthusiasten ist die Sucht vor der Sucht: Wenn ich mich nur schnell genug bewege, hole ich mich nicht ein. Der nächste Kick kommt, bevor der letzte verarbeitet ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Excessive Consumption and Distraction</h3>
+        <p class="vb-intro">Type 7 can be addicted to new experiences, pleasures, and adventures. Sevens tend to consume excessively — whether food, alcohol, drugs, or entertainment — to avoid negativity, boredom, and inner emptiness. The enthusiast's addiction is the addiction to run from addiction: If I only move fast enough, I won't catch up with myself. The next kick comes before the last one has been processed.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Kontroll- und Machtsucht</h3>
-        <p class="vb-intro">Typ 8 kann süchtig nach Kontrolle, Macht und Intensität sein. Achter neigen dazu, risikoreiche Verhaltensweisen zu suchen, und können auch zu Substanzen greifen, die ihnen ein Gefühl der Stärke, Dominanz und Unbesiegbarkeit geben. Die eigentliche Sucht des Herausforderers ist die Sucht nach Unverwundbarkeit — nach dem Gefühl, nichts und niemanden fürchten zu müssen. Die Verletzlichkeit, die darunter liegt, bleibt dabei unberührt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Control and Power Addiction</h3>
+        <p class="vb-intro">Type 8 can be addicted to control, power, and intensity. Eights tend to seek high-risk behaviors and may also reach for substances that give them a sense of strength, dominance, and invincibility. The challenger's actual addiction is the addiction to invulnerability — to the feeling of having nothing and no one to fear. The vulnerability lying underneath remains untouched.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Komfortsucht und Konfliktflucht</h3>
-        <p class="vb-intro">Typ 9 kann süchtig nach Komfort und Vermeidung von Konflikten sein. Neuner tendieren dazu, sich mit Fernsehen, digitalen Medien, Essen oder anderen beruhigenden Aktivitäten abzulenken, um sich von unangenehmen Gefühlen und Spannungen zu distanzieren. Die Sucht des Vermittlers ist die Sucht nach dem Frieden — auch wenn dieser Frieden erkauft ist durch das Einschlafen des eigenen Willens und der eigenen Lebendigkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Comfort Addiction and Conflict Avoidance</h3>
+        <p class="vb-intro">Type 9 can be addicted to comfort and conflict avoidance. Nines tend to distract themselves with television, digital media, food, or other soothing activities to distance themselves from uncomfortable feelings and tension. The mediator's addiction is the addiction to peace — even if this peace is bought at the cost of lulling one's own will and liveliness to sleep.</p>
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
@@ -37959,9 +37959,9 @@ function identifikationPage() {
   return shell(`
     ${pageHeader("identifikation")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Bewusstsein & Selbsterkenntnis</p>
+      <p class="eyebrow">Charts · Consciousness & Self-Knowledge</p>
       <h1 class="section-title">Je enger die Identifikation, desto lauter das Muster</h1>
-      <p class="psycho-intro">Ein Satz \xfcber den Zusammenhang zwischen Bewusstsein und Leidenschaft &ndash; und warum das Enneagramm kein Etikettensystem ist, sondern ein Weg zur inneren Freiheit.</p>
+      <p class="psycho-intro">A sentence about the connection between consciousness and passion – and why the Enneagram is not a labeling system, but a path to inner freedom.</p>
       <img
         src="${CDN}assets/identifikation.jpg"
         alt="Identifikation &ndash; Je enger die Identifikation, desto lauter das Muster"
@@ -37969,30 +37969,30 @@ function identifikationPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <p class="vb-intro">Dieser Satz enth\xe4lt ein Paradox, das man zun\xe4chst nicht sofort erkennt. Wenn jemand fragt: <em>\xbbWie kommt man aus seinem Muster heraus?\xab</em>, ist die naheliegende Antwort oft: <em>\xbbIndem man an sich arbeitet.\xab</em> Aber das Enneagramm zeigt etwas anderes &ndash; und Tieferes: Das Muster wird nicht durch Anstrengung leiser, sondern durch \xe4ndernde Distanz.</p>
+        <p class="vb-intro">This sentence contains a paradox that is not immediately obvious at first. When someone asks: »How do you break free from your pattern?«, the obvious answer is often: »By working on yourself.« But the Enneagram shows something different – and deeper: The pattern does not become quieter through effort, but through changing distance.</p>
 
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Was Identifikation bedeutet</h2>
-        <p class="vb-intro">Identifikation bedeutet: Ich halte das Muster f\xfcr mich selbst. Ich erlebe meine Leidenschaft nicht als etwas, das in mir vorgeht &ndash; sondern als das, was ich bin. Der Typ-Zwei-Mensch sagt nicht: <em>\xbbIch bemerke, dass ich dazu neige, ungebeten zu helfen.\xab</em> Er erlebt Helfen als seinen Kern, als seinen Wert, als seine Identit\xe4t. Der Typ-Acht-Mensch erlebt seine Kraft nicht als ein Muster, das sich zeigt &ndash; sondern als das, was er ist.</p>
-        <p class="vb-intro">Solange ich mich mit dem Muster identifiziere, gibt es keinen Beobachter daf\xfcr. Und ohne Beobachter gibt es keine Freiheit.</p>
+        <p class="vb-intro">Identification means: I mistake the pattern for myself. I do not experience my passion as something happening within me – but as who I am. The Type Two person does not say: »I notice that I tend to help unasked.« They experience helping as their core, as their worth, as their identity. The Type Eight person does not experience their power as a pattern manifesting – but as who they are.</p>
+        <p class="vb-intro">As long as I identify with the pattern, there is no observer for it. And without an observer, there is no freedom.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Warum das Muster lauter wird</h2>
-        <p class="vb-intro">Enge Identifikation f\xfchrt zu einer Verst\xe4rkung des Musters. Das liegt daran, dass das Muster ungefiltert und ungebremst l\xe4uft, wenn niemand da ist, der es beobachtet. Es gibt keinen inneren Zeugen, der sagt: <em>\xbbAh, da ist wieder meine Leidenschaft.\xab</em> Stattdessen l\xe4uft das Muster direkt in Verhalten, Reaktion und Denken um.</p>
-        <p class="vb-intro">Je weniger ein Mensch Abstand zu seinem Muster hat, desto unvermittelter zeigt es sich: Der Zorn des Einers bricht hervor, ohne gew\xe4hlt zu werden. Der Stolz des Zweiers steuert Relationships, ohne dass er es bemerkt. Der Hunger des Siebeners treibt von Erfahrung zu Erfahrung, ohne je zu landen. Das ist kein moralisches Versagen &ndash; es ist das mechanische Ergebnis enger Identifikation.</p>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Why the Pattern Becomes Louder</h2>
+        <p class="vb-intro">Tight identification leads to an amplification of the pattern. This is because the pattern runs unfiltered and unchecked when no one is there to observe it. There is no inner witness saying: »Ah, there is my passion again.« Instead, the pattern translates directly into behavior, reaction, and thought.</p>
+        <p class="vb-intro">The less distance a person has to their pattern, the more directly it shows itself: The anger of the One erupts without being chosen. The pride of the Two controls relationships without them noticing. The hunger of the Seven drives from experience to experience without ever landing. This is not a moral failure – it is the mechanical result of tight identification.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Was Lockerung der Identifikation bedeutet</h2>
-        <p class="vb-intro">Lockerung der Identifikation bedeutet nicht, das Muster zu l\xf6schen oder zu bekämpfen. Es bedeutet, einen inneren Raum zu schaffen &ndash; zwischen dem Impuls und der Reaktion, zwischen dem Gef\xfchl und dem Verhalten, zwischen dem Automatismus und der Entscheidung.</p>
-        <p class="vb-intro">Dieser Raum ist keine Leistung. Er entsteht durch Bewusstheit. Durch das einfache Bemerken: <em>\xbbDa ist wieder meine Leidenschaft. Das bin ich &ndash; aber ich bin nicht nur das.\xab</em> In diesem Moment verwandelt sich das Muster nicht, aber seine Macht \xfcber den Menschen ver\xe4ndert sich. Es wird vom Gesetz zur Beobachtung, vom Zwang zur M\xf6glichkeit.</p>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">What Loosening Identification Means</h2>
+        <p class="vb-intro">Loosening identification does not mean erasing or fighting the pattern. It means creating an inner space – between impulse and reaction, between feeling and behavior, between automatism and choice.</p>
+        <p class="vb-intro">This space is not an achievement. It arises through awareness. Through simple noticing: »There is my passion again. That is me – but I am not only that.« In that moment, the pattern itself does not transform, but its power over the person changes. It turns from law into observation, from compulsion into possibility.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Das Enneagramm als Spiegel, nicht als K\xe4fig</h2>
-        <p class="vb-intro">Genau hier liegt die tiefste Gefahr im Umgang mit dem Enneagramm: es zum neuen Identifikationsrahmen zu machen. Wer sagt <em>\xbbIch bin eine Vier\xab</em> statt <em>\xbbIch zeige gerade das Muster einer Vier\xab</em>, hat das Enneagramm falsch verwendet. Er hat eine neue Schublade gebaut, gro\xdfer als alle fr\xfcheren &ndash; aber immer noch eine Schublade.</p>
-        <p class="vb-intro">Das Enneagramm ist am wirksamsten, wenn es als Spiegel benutzt wird, nicht als Etikett. Der Spiegel zeigt: Hier l\xe4uft ein Muster. Hier ist Leidenschaft am Werk. Hier ist Identifikation. Und wo etwas gezeigt werden kann, entsteht die M\xf6glichkeit, sich zu unterscheiden &ndash; ich und das Muster. Das <em>ist</em> der Beginn von Freiheit.</p>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">The Enneagram as a Mirror, Not a Cage</h2>
+        <p class="vb-intro">Precisely here lies the deepest danger when working with the Enneagram: turning it into a new frame of identification. Whoever says »I am a Four« instead of »I am currently showing the pattern of a Four« has used the Enneagram incorrectly. They have built a new box, larger than all previous ones – but still a box.</p>
+        <p class="vb-intro">The Enneagram is most effective when used as a mirror, not a label. The mirror shows: Here a pattern is running. Here passion is at work. Here is identification. And where something can be shown, the possibility arises to differentiate – myself and the pattern. That is the beginning of freedom.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Je enger die Identifikation, desto lauter das Muster. Je bewusster der Abstand, desto stiller wird es &ndash; und desto mehr wird der Mensch sichtbar, der dahinter war, bevor das Muster begann. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\xe4sst &ndash; ein medidatives Werk \xfcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
-        ${bookTip("nichts-und-alles", "Sein ohne Festhalten &ndash; ein stilles Buch \xfcber den Raum jenseits der Pers\xf6nlichkeit und die innere Weite, die entsteht, wenn wir aufh\xf6ren, uns zu de finieren.", "Nichts und Alles")}
-        ${bookTip("hinter-der-leidenschaft", "Was hinter dem Muster steckt: die neun Wunden des Enneagramms und die Remedies, die an die Wurzel gehen.", "Hinter der Leidenschaft")}
-        ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypees &ndash; aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("der-raum-hinter-allem", "Beyond all patterns: the quiet space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+        ${bookTip("nichts-und-alles", "Being without holding on – a quiet book about the space beyond personality and the inner vastness that arises when we stop defining ourselves.", "Nichts und Alles")}
+        ${bookTip("hinter-der-leidenschaft", "What lies behind the pattern: the nine wounds of the Enneagram and the remedies that go to the root.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing of all 27 Subtypes – from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"schaubilder-als-spiegel", label:"Charts als Spiegel"},
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
@@ -38397,7 +38397,7 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
       </div>
       ${katHTML}
       ${relatedLinks([
-        {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
+        {route:"david-rathmer-fuehrung",          label:"Leadership & Companies"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
         {route:"david-rathmer-persoenlichkeiten", label:"Famous Personalities"},
       ].filter(l => l.route !== routeSlug))}
@@ -38552,7 +38552,7 @@ function davidRathmerImpulsePage() {
     <section class="narrow">
       <p class="eyebrow">David L. Rathmer · Impulse & Einsichten</p>
       <h1>Impulse &amp; Einsichten</h1>
-      <p class="lead-small">Kurze, lehrreiche Videos von David L. Rathmer — zu Persönlichkeit, Relationships, Burnout und persönlichem Wachstum.</p>
+      <p class="lead-small">Short, educational videos by David L. Rathmer — on personality, relationships, burnout, and personal growth.</p>
       <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
         <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1rem;border-radius:8px;background:var(--paper);border:1px solid var(--copper);color:var(--copper);font-size:0.88rem;text-decoration:none;font-weight:600;">
@@ -38571,7 +38571,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft &ndash; Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt &ndash; Burnout")}
+      ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt &ndash; Burnout")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Tipps, um nie wieder getäuscht zu werden!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38580,7 +38580,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypees")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Menschen lesen in Sekunden: Profiler David Rathmer erklärt seine Methode</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38616,7 +38616,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}
+      ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt – Burnout")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Die Hintergründe deiner Persönlichkeit</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38634,8 +38634,8 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-sprache-unserer-beziehungen", "365 Typ- und Subtypees-Kombinationen im Überblick — das komplette Beziehungslexikon des Enneagramms.", "Die Sprache unserer Relationships")}
-      ${bookTip("die-sprache-unserer-sexualitaet", "Wie Nähe, Leidenschaft und Intimität bei allen 27 Subtypees erlebt werden — mit Übungen für Paare.", "Die Sprache unserer Sexualität")}
+      ${bookTip("die-sprache-unserer-beziehungen", "365 Type and Subtype combinations at a glance — the complete relationship lexicon of the Enneagram.", "Die Sprache unserer Relationships")}
+      ${bookTip("die-sprache-unserer-sexualitaet", "How closeness, passion, and intimacy are experienced across all 27 Subtypes — with exercises for couples.", "Die Sprache unserer Sexualität")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Error im Umgang mit Menschen – diese 3 Denkfehler manipulieren, wie Du andere siehst!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38653,9 +38653,9 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("hinter-der-leidenschaft", "Die verborgenen Körpermuster der 27 Subtypees – wo Leidenschaft sich im Körper einschreibt.", "Hinter der Leidenschaft")}
-      ${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}
-      ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
+      ${bookTip("hinter-der-leidenschaft", "The hidden body patterns of the 27 Subtypes – where passion inscribes itself into the body.", "Hinter der Leidenschaft")}
+      ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
+      ${bookTip("heilung-als-erinnerung", "Body, soul, and healing as an inseparable unit – the homeopathic view of the Enneagram.", "Heilung als Erinnerung")}
       ${bookTip("leidenschaft-und-heilung", "27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Die Wahrheit über Schubladendenken im Profiling: Ein tieferer Blick hinter die Fassade</p>
@@ -38675,7 +38675,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
+      ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der größte Error beim Profiling!</div>
@@ -45272,7 +45272,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v659';
+  const MY_VERSION = 'inhalt-v660';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
