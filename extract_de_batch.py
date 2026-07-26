@@ -36,10 +36,17 @@ def is_german(s):
     return bool(GERMAN_MARKERS.search(s))
 
 def extract(fn_code):
-    headings = [h for h in re.findall(r'<h[234][^>]*>([^<]+)</h[234]>', fn_code) if is_german(h)]
-    paras = [p for p in re.findall(r'<p\b[^>]*>(.*?)</p>', fn_code, re.S) if is_german(p)]
-    booktips = [b for b in re.findall(r'bookTip\("[^"]+",\s*"((?:[^"\\]|\\.)*)"', fn_code) if is_german(b)]
-    labels = [l for l in re.findall(r'label:"([^"]+)"', fn_code) if is_german(l)]
+    # NOTE: headings/paras/booktips/labels are NOT filtered by is_german here.
+    # A missed heading (e.g. no umlaut, no matched stopword) used to silently
+    # shift every subsequent zip()-paired replacement in apply_gemini_pages.py
+    # by one position, corrupting unrelated headings/paragraphs. Always
+    # extracting the full, unfiltered list keeps counts in sync with the
+    # live DOM; apply_gemini_pages.py's exact-match already skips anything
+    # that doesn't need translating.
+    headings = re.findall(r'<h[234][^>]*>([^<]+)</h[234]>', fn_code)
+    paras = re.findall(r'<p\b[^>]*>(.*?)</p>', fn_code, re.S)
+    booktips = re.findall(r'bookTip\("[^"]+",\s*"((?:[^"\\]|\\.)*)"', fn_code)
+    labels = re.findall(r'label:"([^"]+)"', fn_code)
     return headings, paras, booktips, labels
 
 def main():
