@@ -40,24 +40,35 @@ def parse(text):
         pages[fn_name] = {'h': h_list, 'p': p_list, 'booktips': booktips, 'labels': labels}
     return pages
 
-_ESCAPE_MAP = {'ä':'\\xe4','ö':'\\xf6','ü':'\\xfc','ß':'\\xdf','Ü':'\\xdc',
-               'Ö':'\\xd6','Ä':'\\xc4','é':'\\xe9','è':'\\xe8','à':'\\xe0'}
-
-def escaped(s):
-    for k, v in _ESCAPE_MAP.items():
-        s = s.replace(k, v)
-    return s
+# Maps a literal char to every way bundle.js might encode it as a JS escape.
+_ESCAPE_VARIANTS = {
+    'ä':['\\xe4','\\u00e4'], 'ö':['\\xf6','\\u00f6'], 'ü':['\\xfc','\\u00fc'],
+    'ß':['\\xdf','\\u00df'], 'Ü':['\\xdc','\\u00dc'], 'Ö':['\\xd6','\\u00d6'],
+    'Ä':['\\xc4','\\u00c4'], 'é':['\\xe9','\\u00e9'], 'è':['\\xe8','\\u00e8'],
+    'à':['\\xe0','\\u00e0'],
+    '–':['\\u2013'], '—':['\\u2014'], '„':['\\u201e'], '"':['\\u201c'],
+    ''':['\\u2018'], ''':['\\u2019'], '←':['\\u2190'], '→':['\\u2192'],
+}
 
 def find_in(fn_code, de):
-    """Return the exact substring present in fn_code matching de, trying the
-    literal text first and the \\xNN-escaped-umlaut variant as a fallback
-    (bundle.js sometimes stores non-ASCII chars as JS \\xNN escapes)."""
+    """Return the exact substring present in fn_code matching de. bundle.js
+    encodes non-ASCII characters inconsistently -- sometimes literal UTF-8,
+    sometimes \\xNN, sometimes \\uNNNN, and different characters within the
+    same string may use different conventions. Build a regex that accepts
+    any encoding for each special character and search for it."""
     if de in fn_code:
         return de
-    de_esc = escaped(de)
-    if de_esc in fn_code:
-        return de_esc
-    return None
+    pattern_parts = []
+    for ch in de:
+        variants = _ESCAPE_VARIANTS.get(ch)
+        if variants:
+            alts = [re.escape(ch)] + [re.escape(v) for v in variants]
+            pattern_parts.append('(?:' + '|'.join(alts) + ')')
+        else:
+            pattern_parts.append(re.escape(ch))
+    pattern = ''.join(pattern_parts)
+    m = re.search(pattern, fn_code)
+    return m.group(0) if m else None
 
 def fn_bounds(code, fn_name):
     start = code.find(f"function {fn_name}()")

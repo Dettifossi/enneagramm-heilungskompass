@@ -33268,99 +33268,99 @@ function alfonsSchuhbeckPortraitPage() {
           <img src="../assets/portraits/alfons-schuhbeck-portrait.jpg" alt="Alfons Schuhbeck – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alfons Schuhbeck</p>
-        <p class="krim-portrait-typ">SP9w1 \xb7 Self-Preservation Type 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP9w1 · Self-Preservation Type 9 with a One-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Fernsehkoch \xb7 Steuerhinterziehung 2,3 Mio. Euro \xb7 Animal correspondence: Elefant</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Alfons Schuhbeck</strong> (geb. 1949 in Traunstein, Bayern) geh\xf6rte \xfcber Jahrzehnte zu den bekanntesten K\xf6chen Deutschlands. Fernsehkoch, Buchautor, Restaurantbesitzer, Gew\xfcrzunternehmer \u2013 er war eine Institution. Doch hinter der gem\xfctlichen, warmen Fassade des bayrischen Lebensfreude-Kochs verbarg sich ein System: Jahrelang manipulierte Schuhbeck die Kassenaufzeichnungen seiner M\xfcnchner Restaurants, unterschlug Einnahmen und hinterzog gegenüber dem Finanzamt rund <strong>2,3 Millionen Euro</strong>. Im Oktober 2022 verurteilte ihn das Landgericht M\xfcnchen zu einer Freiheitsstrafe von <strong>3 Jahren und 2 Monaten</strong>. 2023 trat er die Haft an. Das Enneagramm erkl\xe4rt, wie ein Mensch, der f\xfcr Genuss und Wohlbehagen steht, still und beharrlich das Gesetz umgeht \u2013 ohne inneren Aufruhr, ohne Schuldgef\xfchl, fast ohne es selbst wirklich zu bemerken.
+        Alfons Schuhbeck (born 1949 in Traunstein, Bavaria) was for decades one of Germany's best-known chefs. TV chef, cookbook author, restaurant owner, spice entrepreneur—he was an institution. Yet behind the cozy, warm facade of the jovial Bavarian chef lay a system: for years, Schuhbeck manipulated the till records of his Munich restaurants, embezzled income, and evaded roughly €2.3 million in taxes. In October 2022, the Munich Regional Court sentenced him to a prison term of 3 years and 2 months. In 2023, he began serving his sentence. The Enneagram explains how a man who stands for enjoyment and comfort can quietly and persistently bypass the law—without inner turmoil, without guilt, almost without truly noticing it himself.
       </p>
 
       <div class="vb-section" style="background:rgba(60,80,0,0.07);border-left:3px solid #556b00;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        Alfons Schuhbeck wird dem <strong>Self-Preservationen Typ 9 mit Einserfl\xfcgel (SP9w1)</strong> zugeordnet. Der selbsterhaltende Subtype der Neun nennt sich \u201eAppetit\u201c: Die innere Leere, die jede Neun mit sich tr\xe4gt, wird durch k\xf6rperlichen Genuss, Essen, Gewohnheit und Komfort ged\xe4mpft. Niemand verk\xf6rpert dieses Prinzip sichtbarer als ein Sternekoch, der sein Leben dem Schmecken, Riechen und Wohlbefinden gewidmet hat. Der Einserfl\xfcgel f\xfcgte die stille \xdcberzeugung hinzu: <em>Ich arbeite so hart, ich leiste so viel \u2013 das, was ich mir nehme, ist mein gutes Recht.</em> Das Tier \u2013 der <em>Elefant</em> \u2013 illustriert die Essenz: geduldig, gem\xfctlich, enorm in seiner Wirkung, mit einem Ged\xe4chtnis, das nichts vergisst \u2013 und einem Willen, der sich durch nichts aufhalten l\xe4sst, wenn er einmal entschieden hat.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Alfons Schuhbeck is assigned to the Self-Preservation Type 9 with a One-wing (SP9w1). The self-preservation subtype of the Nine is called "Appetite": the inner emptiness that every Nine carries within is dulled through physical enjoyment, food, habit, and comfort. No one embodies this principle more visibly than a Michelin-starred chef who dedicated his life to tasting, smelling, and well-being. The One-wing adds the quiet conviction: I work so hard, I accomplish so much—what I take for myself is my good right. The animal—the Elephant—illustrates the essence: patient, easygoing, massive in its impact, with a memory that forgets nothing—and a will that cannot be stopped by anything once it has made up its mind.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Warm und einladend:</strong>
-        Schuhbecks Markenzeichen war der Blick, der einem das Gef\xfchl gab: <em>Hier bist du willkommen, hier wird es dir gut gehen.</em> Die SP9 strahlt genuine W\xe4rme aus \u2013 keine Berechnung, keine Fassade, sondern echte Zugewandtheit. Sein Lachen war ansteckend, sein Ton immer herzlich. Das ist kein Trick der SP9 \u2013 das ist ihr Kern.</p>
-        <p class="vb-intro"><strong>b) Satt und zufrieden:</strong>
-        Wer Schuhbeck in Interviews oder Kochsendungen beobachtete, sah einen Menschen, der im Frieden mit sich und der Welt zu sein schien. Keine Unruhe, kein Geltungsdrang, kein Hunger nach Anerkennung. Das ist die SP9er-Energie: der Mensch, der ankommt, wenn das Essen gut ist, die K\xfcche warm und die Welt in Ordnung. Dieser Grundzustand macht ihn liebenswert \u2013 und gef\xe4hrlich unbemerkt.</p>
-        <p class="vb-intro"><strong>c) Richterlich und sicher \u2013 der Einserfl\xfcgel:</strong>
-        Unter der Gem\xfctlichkeit lag eine tiefe innere Gewissheit. Schuhbeck war kein Zweifler. Er wusste, wie gutes Essen schmeckt, wie eine K\xfcche laufen muss, was Qualit\xe4t bedeutet. Der Einserfl\xfcgel verleiht der Neun ein r\xfcckenst\xe4rkendes moralisches Selbstbild: <em>Ich mache meine Sache richtig. Ich kenne die Standards.</em> Diese innere Festigkeit machte ihn zu einer Autorit\xe4t \u2013 und erm\xf6glichte ihm gleichzeitig, den Betrug vor sich selbst zu rechtfertigen.</p>
-        <p class="vb-intro"><strong>d) Abwesend hinter den Augen:</strong>
-        Wer sehr genau hinschaute, konnte gelegentlich etwas anderes entdecken: eine gewisse Abwesenheit. Die Neun ist der Typ, der \u201eim Hier\u201c zu sein scheint und doch nicht ganz da ist. Ein Teil des SP9 schaut immer aus einer angenehmen Distanz auf das Leben \u2013 genie\xdft die Oberfl\xe4che, vermeidet die Tiefe. Dieser Zug machte es Schuhbeck m\xf6glich, die moralische Dimension seines Tuns nicht wirklich zu sp\xfcren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Warm and Inviting:</strong>
+Schuhbeck's trademark was a gaze that gave you the feeling: You are welcome here, you will be well taken care of here. The SP9 radiates genuine warmth—no calculation, no facade, but real approachability. His laugh was contagious, his tone always hearty. This is not a trick of the SP9—it is its core.</p>
+        <p class="vb-intro"><strong>b) Satiated and Contented:</strong>
+Anyone observing Schuhbeck in interviews or cooking shows saw a person who seemed at peace with himself and the world. No restlessness, no drive for recognition, no hunger for approval. This is SP9 energy: the person who arrives when the food is good, the kitchen is warm, and the world is in order. This baseline state makes them endearing—and dangerously unnoticed.</p>
+        <p class="vb-intro"><strong>c) Judicial and Certain – The One-Wing:</strong>
+Beneath the coziness lay a deep inner certainty. Schuhbeck was no doubter. He knew how good food tastes, how a kitchen must be run, what quality means. The One-wing lends the Nine a spine-strengthening moral self-image: I do my job right. I know the standards. This inner firmness made him an authority—and simultaneously allowed him to justify the fraud to himself.</p>
+        <p class="vb-intro"><strong>d) Absent Behind the Eyes:</strong>
+If you looked very closely, you could occasionally spot something else: a certain absence. The Nine is the type who seems "right here" and yet isn't fully present. A part of the SP9 always views life from a pleasant distance—enjoying the surface, avoiding the depths. This trait allowed Schuhbeck not to truly feel the moral dimension of his actions.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Genuss als Lebensphilosophie:</strong>
-        Der SP9er ist der Typ des Appetits \u2013 nicht als Gier, sondern als Lebensform. Essen, Trinken, Gew\xfcrze, Aromen, der Duft einer K\xfcche: Das war f\xfcr Schuhbeck keine Arbeit, sondern der Weg, in der Welt zu sein. Er baute ein Imperium um sinnliches Erleben herum \u2013 Restaurants, Gew\xfcrzl\xe4den, B\xfccher, Fernsehsendungen. Der Selbsterhaltungsinstinkt und die Neuner-Energie verschmelzen hier nahtlos: Das Gute, das Wohltuende, das Schmeckende ist Heimat.</p>
-        <p class="vb-intro"><strong>b) Beharrlichkeit ohne Drama:</strong>
-        Der SP9er ist einer der hartn\xe4ckigsten Typen \u2013 nur zeigt er es nicht. W\xe4hrend die Acht ihre Sturheit nach au\xdfen tr\xe4gt und die Eins sie ins Perfektionistische richtet, arbeitet die Neun still und stetig auf ihr Ziel zu. Schuhbeck baute \xfcber Jahrzehnte eine Marke auf, \xfcberstand Krisenzeiten im Gastgewerbe, entwickelte immer neue Produkte. Diese Ausdauer ist kein Zufall \u2013 sie ist der Elefantencharakter: gro\xdf, geduldig, nicht aufzuhalten.</p>
-        <p class="vb-intro"><strong>c) Harmonie nach au\xdfen, Sturheit nach innen:</strong>
-        Schuhbeck galt als angenehmer Zeitgenosse, selten in \xf6ffentliche Konflikte verwickelt. Die Neun vermeidet Konfrontation instinktiv \u2013 nicht aus Schw\xe4che, sondern weil Harmonie ihr Grundbed\xfcrfnis ist. Gleichzeitig: Hat die Neun einmal beschlossen, etwas zu tun, tut sie es. Still, konsequent, \xfcber Jahre. Kein Druck von au\xdfen \xe4ndert daran etwas. Das Steuersystem war kein impulsiver Error \u2013 es war eine jahrelange, ruhige Entscheidung.</p>
-        <p class="vb-intro"><strong>d) Der Selbsterhaltungsinstinkt \u2013 das Nest sichern:</strong>
-        Der SE-Instinkt dreht sich um Sicherheit, Komfort, das eigene Nest. Schuhbeck sicherte sich materiellen Wohlstand, ein gesch\xe4ftliches Imperium, soziale Anerkennung. Der SP9er denkt nicht in gro\xdfen ideologischen Kategorien \u2013 er denkt: <em>Was brauche ich, damit es mir gut geht? Was muss ich tun, damit diese angenehme Welt stabil bleibt?</em> Der Betrug war, aus dieser Perspektive, ein Mittel der Nestsicherung.</p>
+        <p class="vb-intro"><strong>a) Enjoyment as a Life Philosophy:</strong>
+The SP9 is the type of appetite—not as greed, but as a way of life. Food, drink, spices, aromas, the scent of a kitchen: for Schuhbeck, this was not mere labor, but his way of being in the world. He built an empire around sensory experience—restaurants, spice shops, books, TV shows. Self-preservation instinct and Nine energy merge seamlessly here: the good, the comforting, the flavorful is home.</p>
+        <p class="vb-intro"><strong>b) Persistence Without Drama:</strong>
+The SP9 is one of the most tenacious types—it just doesn't show it outward. While the Eight displays its stubbornness externally and the One turns it toward perfectionism, the Nine works quietly and steadily toward its goal. Schuhbeck built a brand over decades, weathered crisis periods in gastronomy, and continuously developed new products. This endurance is no coincidence—it is the elephant character: large, patient, unstoppable.</p>
+        <p class="vb-intro"><strong>c) Harmony Externally, Stubbornness Internally:</strong>
+Schuhbeck was considered an agreeable contemporary, rarely involved in public conflicts. The Nine instinctively avoids confrontation—not out of weakness, but because harmony is its core need. At the same time: once the Nine has decided to do something, it does it. Quietly, consistently, over years. No external pressure changes that. The tax fraud was not an impulsive error—it was a quiet, years-long decision.</p>
+        <p class="vb-intro"><strong>d) The Self-Preservation Instinct – Securing the Nest:</strong>
+The SP instinct revolves around safety, comfort, and one's own nest. Schuhbeck secured material wealth, a business empire, and social recognition for himself. The SP9 does not think in grand ideological categories—it thinks: What do I need so that I am okay? What must I do to keep this pleasant world stable? From this perspective, the fraud was a means of nest-securing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Der Aufbau des Systems:</strong>
-        Die Manipulationen begannen nach Erkenntnissen der Staatsanwaltschaft sp\xe4testens ab 2009 und erstreckten sich \xfcber mehrere Jahre. Schuhbeck oder Mitarbeiter unter seiner Verantwortung nutzten eine sogenannte \u201eZapper\u201c-Software, die es erm\xf6glichte, Kasseneintr\xe4ge nachtr\xe4glich zu l\xf6schen oder zu ver\xe4ndern. Bareinnahmen in seinen M\xfcnchner Restaurants wurden systematisch nicht vollst\xe4ndig verbucht. Das Finanzamt erhielt gek\xfcrzte Zahlen, die Differenz verschwand unversteuert.</p>
-        <p class="vb-intro"><strong>b) Die Methode:</strong>
-        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das ist die SP9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
-        <p class="vb-intro"><strong>c) Der Prozess:</strong>
-        Das Verfahren vor dem Landgericht M\xfcnchen begann 2022. Schuhbeck trat zun\xe4chst mit gewohnter Fassung auf \u2013 auch das SP9-typisch: keine Panik, kein \xdcberschwang. Im Prozessverlauf r\xe4umte er Error ein, versuchte jedoch, die volle Verantwortung zu relativieren. Am <strong>4. Oktober 2022</strong> f\xe4llte das Gericht das Urteil: schuldig in 18 F\xe4llen der Steuerhinterziehung.</p>
-        <p class="vb-intro"><strong>d) Das Urteil und der Gang ins Gef\xe4ngnis:</strong>
-        Drei Jahre und zwei Monate Freiheitsstrafe ohne Bew\xe4hrung \u2013 das Gericht sah keine mildernden Umst\xe4nde, die eine Aussetzung rechtfertigen w\xfcrden. 2023 trat Schuhbeck die Haft an. Sein Restaurant war bereits zuvor insolvent gegangen. Der Mann, der Bayern Jahrzehnte lang mit Gew\xfcrzen und W\xe4rme versorgt hatte, verschwand hinter Gef\xe4ngnistore. Der Elefant im K\xe4fig \u2013 ein Bild, das bleibt.</p>
+        <p class="vb-intro"><strong>a) Setting Up the System:</strong>
+According to the prosecution's findings, the manipulations began no later than 2009 and extended over several years. Schuhbeck, or employees under his responsibility, used so-called "zapper" software that made it possible to retroactively delete or alter till entries. Cash proceeds in his Munich restaurants were systematically not fully recorded. The tax office received reduced figures, while the difference vanished untaxed.</p>
+        <p class="vb-intro"><strong>b) The Method:</strong>
+No armed heist, no overwhelming heist—rather the quiet, consistent shifting of small amounts over a long period. That is precisely the SP9 method: no drama, no confrontation, no outcry. The Nine reaches its goals through persistence, not force. The total damage: around €2.3 million in unremitted taxes. Exposed by a tax audit—not through a dramatic collapse, but through the sober work of the authorities.</p>
+        <p class="vb-intro"><strong>c) The Trial:</strong>
+The proceedings before the Munich Regional Court began in 2022. Schuhbeck initially appeared with his usual composure—also typical for SP9: no panic, no exaggeration. Over the course of the trial, he admitted to errors, but tried to downplay his full responsibility. On October 4, 2022, the court delivered its verdict: guilty on 18 counts of tax evasion.</p>
+        <p class="vb-intro"><strong>d) The Verdict and the Path to Prison:</strong>
+Three years and two months in prison without parole—the court saw no mitigating circumstances that would justify a suspended sentence. In 2023, Schuhbeck entered prison. His restaurant had already gone bankrupt prior to this. The man who had supplied Bavaria with spices and warmth for decades disappeared behind prison gates. The elephant in the cage—an image that remains.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Neun im Schlaf</h3>
-        <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> \u2013 aber nicht im Sinne k\xf6rperlicher Faulheit. Es ist eine <em>psychische Tr\xe4gheit</em>: die Tendenz, unangenehme Wahrheiten nicht zu f\xfchlen, innere Konflikte zu schlummern, moralische Fragen nicht wirklich an sich heranzulassen. Die Neun kann jahrelang etwas tun, das objektiv falsch ist, ohne es als solches zu erleben. Nicht weil sie b\xf6se ist \u2013 sondern weil ein Teil von ihr einfach <em>nicht wirklich aufgewacht ist</em>.</p>
-        <p class="vb-intro">F\xfcr Schuhbeck bedeutete das: Die manipulierten Kassen liefen weiter, das Restaurant lief weiter, das Fernsehen lief weiter, die Gew\xfcrze liefen weiter. Der innere Schmerz dar\xfcber, was er tat, blieb aus \u2013 weil der SP9 diesen Schmerz in Genuss und Routine ertr\xe4nkt. Solange das Leben angenehm ist, schlafen die ethischen Fragen. Das ist nicht Kalk\xfcl \u2013 das ist der tiefste Mechanismus dieser Pers\xf6nlichkeitsstruktur.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Nine Asleep</h3>
+        <p class="vb-intro">The passion of the Nine is called <strong>Sloth</strong>—not in the sense of physical laziness, but a psychic sloth: the tendency to numb uncomfortable truths, to let inner conflicts slumber, and not to truly let moral questions get to oneself. The Nine can do something objectively wrong for years without experiencing it as such. Not because it is evil—but because a part of it simply has not truly woken up.</p>
+        <p class="vb-intro">For Schuhbeck, that meant: the manipulated tills kept running, the restaurant kept running, the TV shows kept running, the spices kept running. The inner pain over what he was doing remained absent—because the SP9 drowns this pain in enjoyment and routine. As long as life is pleasant, ethical questions sleep. This is not calculation—it is the deepest mechanism of this personality structure.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Einserfl\xfcgel als innerer Rechthaber</h3>
-        <p class="vb-intro">Der Einserfl\xfcgel verleiht der Neun eine innere moralische Architektur: Es gibt Regeln, Standards, eine richtige Art zu leben und zu kochen. Schuhbeck war in seiner K\xfcche kein Chaot \u2013 er war pr\xe4zise, qualit\xe4tsbewusst, anspruchsvoll. Dieser Einserfl\xfcgel l\xf6st aber auch eine subtile \xdcberzeugung aus: <em>Ich leiste mehr als die meisten. Ich arbeite seit Jahrzehnten. Ich stehe f\xfcr Qualit\xe4t.</em></p>
-        <p class="vb-intro">Diese innere Buchhaltung des Einserfl\xfcgels \u2013 <em>was mir zusteht</em> gegen\xfcber <em>was ich gegeben habe</em> \u2013 kann zur stillen Rechtfertigung werden. Nicht als bewusste Logik, sondern als Hintergrundgef\xfchl: <em>Was ich mir nehme, habe ich mir verdient.</em> Der Einserfl\xfcgel, der eigentlich f\xfcr ethische Strenge steht, dreht sich hier pervers um: Er liefert nicht das Gewissen, sondern die Entschuldigung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The One-Wing as Inner Self-Righteousness</h3>
+        <p class="vb-intro">The One-wing gives the Nine an inner moral architecture: there are rules, standards, a correct way to live and to cook. Schuhbeck was no chaotic presence in his kitchen—he was precise, quality-conscious, and demanding. However, this One-wing also triggers a subtle conviction: I accomplish more than most. I've been working for decades. I stand for quality.</p>
+        <p class="vb-intro">This inner bookkeeping of the One-wing—<em>what is due to me</em> versus what I have given—can become a quiet justification. Not as conscious logic, but as a background feeling: What I take for myself, I have earned. The One-wing, which normally stands for ethical rigor, turns perverse here: it provides not conscience, but an excuse.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Tier: Der Elefant</h3>
-        <p class="vb-intro">Der Elefant ist das Tier des Self-Preservationen Typs 9 \u2013 und kaum eine Entsprechung passt so pr\xe4zise. Der Elefant ist gro\xdf, gem\xfctlich, warmherzig im Rudel. Er wirkt harmlos, fast r\xfchrend in seiner Masse. Und doch: Er ist kaum aufzuhalten, wenn er einen Weg gehen will. Er erinnert sich an alles. Er hat eine Geduld, die Jahrzehnte \xfcberdauert.</p>
-        <p class="vb-intro">F\xfcr Schuhbeck: Nach au\xdfen der gem\xfctliche Bayer, der Bayern Freude bereitet. Im Verborgenen: unaufhaltsam, still, beharrlich. Der Elefant tritt nicht auf \u2013 er sch\xfctzt sich. Er nimmt sich, was er braucht, ohne Aufruhr. Und wenn er im K\xe4fig ist \u2013 also wenn das Urteil kommt \u2013 tr\xe4gt er es mit einer W\xfcrde, die beinahe erschreckt. Denn der Elefant ist kein Schreihals. Er tr\xe4gt auch die Last still.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Elephant</h3>
+        <p class="vb-intro">The elephant is the animal of Self-Preservation Type 9—and hardly any correspondence fits so precisely. The elephant is large, comfortable, and warmhearted within the herd. It appears harmless, almost touching in its sheer mass. And yet: it can hardly be stopped when it wants to tread a path. It remembers everything. It has a patience that outlasts decades.</p>
+        <p class="vb-intro">For Schuhbeck: externally the cozy Bavarian who brings joy to Bavaria. In secret: unstoppable, quiet, persistent. The elephant doesn't trample—it protects itself. It takes what it needs without outcry. And when it is in the cage—that is, when the verdict comes—it bears it with a dignity that is almost startling. For the elephant is no screamer. It carries even the heaviest burden in silence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Psychologisches Profil</h3>
-        <p class="vb-intro"><strong>a) Keine b\xf6se Absicht \u2013 aber fehlende Wachheit:</strong>
-        Schuhbeck ist kein Verbrecher im Sinne eines Menschen, der anderen aktiv schaden will. Die Neun richtet ihren Schaden nicht nach au\xdfen wie die Acht \u2013 sie richtet ihn still und ohne Schuldgef\xfchl an, weil ein grundlegendes inneres Wachsein fehlt. Das ist das Eigentliche der Neuner-Psychologie: Nicht B\xf6sartigkeit, sondern das <em>Schlafen</em> im moralischen Sinne. Wer schl\xe4ft, sp\xfcrt keinen Schmerz \u2013 und richtet manchmal dennoch Schaden an.</p>
-        <p class="vb-intro"><strong>b) Das Doppelleben als blo\xdfe Routine:</strong>
-        Das Erstaunlichste am Fall Schuhbeck ist die Normalit\xe4t. Er kochte weiter, lachte weiter, trat im Fernsehen auf, er\xf6ffnete neue Gesch\xe4fte. Der Betrug war keine Krise \u2013 er war Routine. Das ist die SP9er-F\xe4higkeit: zwei Ebenen gleichzeitig zu bewohnen, ohne dass sie sich innerlich ber\xfchren. Der Genuss im Vordergrund, das Unrecht im Hintergrund \u2013 und kein psychisches Signal, das die beiden zusammenf\xfchrt.</p>
-        <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Wirtschaftskriminellen:</strong>
-        Ein SP3w4 wie Bernie Madoff brauchte die bewusste Inszenierung, die gr\xf6\xdfte Gier, das gr\xf6\xdfte Spiel. Ein SX8 wie Jeffrey Epstein brauchte die Macht, die Kontrolle, den Reiz des Verbotenen. Schuhbeck brauchte nichts davon. Er brauchte nur <em>Komfort</em>. Das macht den SP9er-Wirtschaftskriminellen besonders schwer zu fassen \u2013 und besonders r\xe4tselhaft f\xfcr Au\xdfenstehende. Wo ist die Gier? Wo ist das Kalk\xfcl? Es gibt keines. Nur Appetit. Nur Gewohnheit. Nur Schlaf.</p>
+        <p class="vb-intro"><strong>a) No Malice – But a Lack of Wakefulness:</strong>
+Schuhbeck is not a criminal in the sense of a person who actively wants to harm others. The Nine does not direct its damage outward like an Eight—it inflicts damage quietly and without guilt because a fundamental inner wakefulness is missing. This is the core of Nine psychology: not malice, but sleeping in a moral sense. One who sleeps feels no pain—and yet sometimes causes harm anyway.</p>
+        <p class="vb-intro"><strong>b) The Double Life as Mere Routine:</strong>
+The most astounding aspect of the Schuhbeck case is its normality. He kept cooking, kept laughing, kept appearing on TV, kept opening new shops. The fraud was no crisis—it was routine. This is the SP9 capability: inhabiting two levels simultaneously without them touching internally. Enjoyment in the foreground, wrongdoing in the background—and no psychological signal bringing the two together.</p>
+        <p class="vb-intro"><strong>c) No Comparison to Other White-Collar Criminals:</strong>
+An SP3w4 like Bernie Madoff needed conscious staging, ultimate greed, and the biggest game. An SX8 like Jeffrey Epstein needed power, control, and the thrill of the forbidden. Schuhbeck needed none of that. He only needed comfort. That makes the SP9 white-collar criminal particularly difficult to grasp—and particularly puzzling to outsiders. Where is the greed? Where is the calculation? There is none. Just appetite. Just habit. Just sleep.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(60,80,0,0.07);border-left:3px solid #556b00;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Zusammenfassung</h3>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Alfons Schuhbeck war kein klassischer Krimineller. Er war ein Mensch, der das Gute liebte \u2013 das gute Essen, den guten Wein, den guten Ruf. Der SP9w1 ist nicht gef\xe4hrlich, weil er andere zerst\xf6ren will. Er ist gef\xe4hrlich, weil er <em>nicht aufwacht</em>. Weil die innere Tr\xe4gheit der Neun und der beharrliche Selbsterhaltungsinstinkt gemeinsam ein System erzeugen k\xf6nnen, das still, konsequent und \xfcber Jahre Schaden anrichtet \u2013 w\xe4hrend der Mensch dahinter gem\xfctlich seine Gew\xfcrze abf\xfcllt und dem n\xe4chsten Gast ein warmes L\xe4cheln schenkt.
+        Alfons Schuhbeck was no classic criminal. He was a person who loved good things—good food, good wine, a good reputation. The SP9w1 is not dangerous because he wants to destroy others. He is dangerous because he does not wake up. Because the inner sloth of the Nine and the persistent self-preservation instinct together can create a system that quietly, consistently, and over years causes harm—while the person behind it comfortably packs his spices and gives the next guest a warm smile.
         </p>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Der Einserfl\xfcgel lieferte die Rechtfertigung: <em>Ich arbeite hart. Ich habe das verdient.</em> Und der Elefant lieferte die Methode: geduldig, still, nicht aufzuhalten. Der Schaden war am Ende nicht Ausdruck von Gier \u2013 sondern von Schlaf. Und manchmal ist Schlaf, der nie endet, gef\xe4hrlicher als Wachheit mit schlechten Absichten.
+        The One-wing supplied the justification: I work hard. I have earned this. And the elephant supplied the method: patient, quiet, unstoppable. The damage in the end was not an expression of greed—it was an expression of sleep. And sometimes a sleep that never ends is more dangerous than wakefulness with bad intentions.
         </p>
         <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Der Elefant im K\xe4fig trug sein Schicksal still. Das war das Sch\xf6nste und das Traurigste an ihm zugleich.
+        The elephant in the cage bore his fate silently. That was the most beautiful and the saddest thing about him at the same time.
         </p>
       </div>
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die rechtskr\xe4ftig festgestellten Taten Schuhbecks sind zu verurteilen \u2013 das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        Note: This portrait serves the purpose of depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Schuhbeck's legally established acts are to be condemned—the Enneagram explains, it does not justify.
         </p>
       </div>
 
@@ -33369,7 +33369,7 @@ function alfonsSchuhbeckPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"kriminalpsychologie-nick-leeson", label:"Criminal Psychology: Nick Leeson (SO9w8) \u2013 Rogue Trader, Barings Bank"},
-        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) \u2013 Kunstf\xe4lscher"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
         {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1) \u2013 Manson Family"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
