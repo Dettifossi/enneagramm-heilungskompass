@@ -1392,7 +1392,7 @@ function inhaltsübersichtPage() {
           "Lookalike-Typen",
           "Verwechslungspaare",
           "Differenzierungen",
-          "Bedeutung der 27 Subtypees",
+          "Meaning of the 27 Subtypes",
           "Dialektische Struktur",
           "Horney-Triaden",
           "Drei Zentren",
@@ -11096,7 +11096,7 @@ const SPIRITUELL_TRACKS = {
            style="color:var(--copper);">@SOULFULJAZZHIGHERVIBES</a>
       </p>
       ${grid(jazzAlben)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Relaxation and Healing Music"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
       <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
@@ -11158,30 +11158,30 @@ const SPIRITUELL_TRACKS = {
 
 function homoeopathieSongsPage() {
   const songs = [
-    { id: "i_BW505pltc",  label: "1. Die sanfte Heilung – DER Homöopathie-Song" },
+    { id: "i_BW505pltc",  label: "1. The Gentle Healing – THE Homeopathy Song" },
     { id: "SYIFgh3DTMA",  label: "2. Gentle Healing – The Homeopathy Song No. 1" },
     { id: "2L7S1fLhucA",  label: "3. Guérison douce – la chanson de l’homéopathie" },
-    { id: "bAbmGCml6Ro",  label: "4. Sanft und stark – der Homöopathie-Song Nr. 2" },
+    { id: "bAbmGCml6Ro",  label: "4. Gentle and Strong – Homeopathy Song No. 2" },
     { id: "9IQVG9o4HAk",  label: "5. Gentle and Strong – The Homeopathy Song No. 2" },
     { id: "K3juL1t_fVs",  label: "6. Gemeinsam heilen – zwei Wege, ein Ziel!" },
-    { id: "hUacc8X0O6U",  label: "7. Stille, sanfte Kraft (Song über das Wesen der Homöopathie)" },
-    { id: "oEs0VlT7WfI",  label: "8. Heilung in der Stille (2. Song über das Wesen der Homöopathie)" },
-    { id: "A6xBEHS5F1c",  label: "9. Tiefer als die Masken (Hommage an die Enneagramm-Homöopathie)" },
-    { id: "cDQjVJyJgSk",  label: "10. Homöopathie – die wahre Heilkunst!" },
-    { id: "f76ujLEpVWM",  label: "11. Homöopathie. Was sonst?" },
-    { id: "87SMopSaPQw",  label: "12. Homöopathie – die sanfte Kraft!" },
-    { id: "eaSw6b0Kbwo",  label: "13. Loblied auf die Homöopathie" },
+    { id: "hUacc8X0O6U",  label: "7. Quiet, Gentle Power (Song about the essence of homeopathy)" },
+    { id: "oEs0VlT7WfI",  label: "8. Healing in Silence (2nd Song about the essence of homeopathy)" },
+    { id: "A6xBEHS5F1c",  label: "9. Deeper Than the Masks (Homage to Enneagram-Homeopathy)" },
+    { id: "cDQjVJyJgSk",  label: "10. Homeopathy – The True Art of Healing!" },
+    { id: "f76ujLEpVWM",  label: "11. Homeopathy. What Else?" },
+    { id: "87SMopSaPQw",  label: "12. Homeopathy – The Gentle Power!" },
+    { id: "eaSw6b0Kbwo",  label: "13. Song of Praise for Homeopathy" },
 
-    { id: "trV1Zfjps6M",  label: "14. DIE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Hochdeutsch)" },
-    { id: "Mc8eWUPgmGA",  label: "15. D’ WEISHEIT VO DE GROßEN – Homöopathie-Song Nr. 3 (Schwäbisch)" },
-    { id: "lJk4fvkyxxM",  label: "16. WEISHEIT DER GROß’N – Homöopathie-Song Nr. 3 (Hessisch)" },
-    { id: "ejmHTVhWctI",  label: "17. DIE WEISHEIT VON DIE JRßEN – Homöopathie-Song Nr. 3 (Berlinerisch)" },
-    { id: "CdJkHBg1uZU",  label: "18. DE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Thüringisch)" },
-    { id: "cNmWcQgOZUs",  label: "19. DE KLAUKHEIT VAN DE GROTEN – Homöopathie-Song Nr. 3 (Münsterländisch)" },
-    { id: "V5pf7eGdVBg",  label: "20. DE WIESENHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Mecklenburgisch)" },
-    { id: "OlARiATUSvA",  label: "21. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Hamburgisch)" },
-    { id: "49gzcMAYl4o",  label: "22. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niedersächsisch)" },
-    { id: "Ad2V2BGIXNU",  label: "23. DIE WIEßHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niederdeutsch/Plattdeutsch)" },
+    { id: "trV1Zfjps6M",  label: "14. THE WISDOM OF THE GREAT ONES – Homeopathy Song No. 3 (Standard German)" },
+    { id: "Mc8eWUPgmGA",  label: "15. D' WEISHEIT VO DE GROßEN – Homeopathy Song No. 3 (Swabian)" },
+    { id: "lJk4fvkyxxM",  label: "16. WEISHEIT DER GROß'N – Homeopathy Song No. 3 (Hessian)" },
+    { id: "ejmHTVhWctI",  label: "17. DIE WEISHEIT VON DIE JRßEN – Homeopathy Song No. 3 (Berlin Dialect)" },
+    { id: "CdJkHBg1uZU",  label: "18. DE WEISHEIT DER GROßEN – Homeopathy Song No. 3 (Thuringian)" },
+    { id: "cNmWcQgOZUs",  label: "19. DE KLAUKHEIT VAN DE GROTEN – Homeopathy Song No. 3 (Münsterland Dialect)" },
+    { id: "V5pf7eGdVBg",  label: "20. DE WIESENHEIT VUN DE GROTEN – Homeopathy Song No. 3 (Mecklenburg Dialect)" },
+    { id: "OlARiATUSvA",  label: "21. DE WAISHEIT VUN DE GROTEN – Homeopathy Song No. 3 (Hamburg Dialect)" },
+    { id: "49gzcMAYl4o",  label: "22. DE WAISHEIT VUN DE GROTEN – Homeopathy Song No. 3 (Lower Saxon)" },
+    { id: "Ad2V2BGIXNU",  label: "23. DIE WIEßHEIT VUN DE GROTEN – Homeopathy Song No. 3 (Low German / Plattdeutsch)" },
     { id: "8Wwtb__JQPU",  label: "24. THE WISDOM OF THE GREATS – The Homeopathy Song No. 3 (Englisch)" },
   ];
 
@@ -11212,11 +11212,11 @@ function homoeopathieSongsPage() {
   return shell(`
     ${pageHeader("homoeopathie-songs")}
     <section class="narrow">
-      <p class="eyebrow">Charts · Homöopathie · Musik</p>
+      <p class="eyebrow">Charts · Homeopathy · Music</p>
       <h1>Homöopathie- und Enneagramm-Homöopathie-Songs</h1>
       <p style="font-style:italic;color:var(--copper);margin:0.2rem 0 1rem;font-size:1.05rem;">Die Essenz der Homöopathie in Liedern</p>
-      <p class="lead-small">Diese Playlist vereint Songs, die das Wesen der Homöopathie aus unterschiedlichsten Perspektiven beleuchten. Von feinsten Schwingungen über Resonanz und Ähnlichkeitsprinzip bis hin zur Kraft der Information – hier finden sich Lieder, die auf metaphorische, poetische oder philosophische Weise das tiefere Wirken der Homöopathie erfahrbar machen. Eine inspirierende musikalische Reise voller Erkenntnisse und klanglicher Überraschungen. Viel Freude beim Hören und Entdecken!</p>
-      <p class="lead-small"><strong>Enneagramm-Homöopathie</strong> verbindet zwei Ebenen: das Persönlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Homöopathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grundängste – diese inneren Dynamiken prägen nicht nur die Psyche, sondern oft auch körperliche Beschwerden. Die Songs spiegeln diese seelischen Qualitäten und machen sie hörbar.</p>
+      <p class="lead-small">This playlist combines songs that illuminate the essence of homeopathy from a wide variety of perspectives. From the finest vibrations through resonance and the principle of similars to the power of information – here you will find songs that make the deeper workings of homeopathy tangible in a metaphorical, poetic, or philosophical way. An inspiring musical journey full of insights and tonal surprises. Enjoy listening and discovering!</p>
+      <p class="lead-small">Enneagram-Homeopathy combines two levels: the personality model of the Enneagram with individual remedy selection in homeopathy. Each Enneagram type has specific emotional patterns, stress reactions, and deeper core fears – these inner dynamics shape not only the psyche, but often physical complaints as well. The songs reflect these soul qualities and make them audible.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
@@ -11229,23 +11229,23 @@ function homoeopathieSongsPage() {
         ${song25}
       </div>
 
-      ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Remedieswahl zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
-      ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypees und ihre individuellen homöopathischen Remedies.", "Enneagramm-Homöopathie – Band 2")}
-      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
-      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten homöopathischen Arzneimittel – über 8.500 Single-Rubriken.", "Der Kern der Remedies")}
-      ${bookTip("homoeopathische-arzneimittellehre-der-single-rubriken-aus-de", "8.594 Single-Rubriken der 500 wichtigsten homöopathischen Arzneimittel – das Standardwerk zur Sehgal-Methode.", "Homöopathische Arzneimittellehre der Single-Rubriken")}
-      ${bookTip("repertorium-der-hervorstechenden-gemuetsrubriken-gebundene-a", "Die hervorstechendsten Gemütsrubriken kompakt und kommentiert – das Praxisrepertorium für den homöopathischen Alltag.", "Repertorium der hervorstechenden Gemütsrubriken")}
-      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "Das Lehrbuch zur Enneagramm-Homöopathie – Band 1: Grundlagen, Typen und Remedies.", "Lehrbuch der Enneagramm-Homöopathie – Band 1")}
-      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-2-taschenbuch", "Band 2 des Lehrbuchs: Vertiefte Remedieszuordnungen für alle 27 Subtypees.", "Lehrbuch der Enneagramm-Homöopathie – Band 2")}
-      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-3-taschenbuch", "Band 3 des Lehrbuchs: Das vollständige System der Enneagramm-Homöopathie in der Praxis.", "Lehrbuch der Enneagramm-Homöopathie – Band 3")}
-      ${bookTip("die-enneagramm-homoeopathie-unterrichtsmaterial", "Das Unterrichtsskript zur Enneagramm-Homöopathie – 376 Seiten kompaktes Lernmaterial für das Selbststudium.", "Enneagramm-Homöopathie – Unterrichtsmaterial (376 Seiten)")}
-      ${bookTip("das-unterrichtsskript-zur-sehgal-ausbildung-ebook", "Das vollständige Unterrichtsskript der Sehgal-Schule – 500 Seiten für alle, die die Sehgal-Methode tiefgreifend erlernen möchten.", "Unterrichtsskript zur Sehgal-Ausbildung (500 Seiten)")}
-      ${bookTip("heilung-als-erinnerung", "Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
-      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre enneagrammatischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected.", "Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Deepening and expansion: The 27 Subtypes and their individual homeopathic remedies.", "Enneagramm-Homöopathie – Band 2")}
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "The world's most comprehensive homeopathic mind repertory – 1568 pages, 20,000 rubrics.", "Rathmer’s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "The spiritual essence of the 500 most important homeopathic remedies – over 8,500 single-rubrics.", "Der Kern der Remedies")}
+      ${bookTip("homoeopathische-arzneimittellehre-der-single-rubriken-aus-de", "8,594 single-rubrics of the 500 most important homeopathic remedies – the standard reference work for the Sehgal method.", "Homöopathische Arzneimittellehre der Single-Rubriken")}
+      ${bookTip("repertorium-der-hervorstechenden-gemuetsrubriken-gebundene-a", "The most prominent mind rubrics compact and annotated – the practical repertory for daily homeopathic practice.", "Repertorium der hervorstechenden Gemütsrubriken")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "The textbook on Enneagram-Homeopathy – Volume 1: Foundations, types, and remedies.", "Lehrbuch der Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-2-taschenbuch", "Volume 2 of the textbook: In-depth remedy assignments for all 27 Subtypes.", "Lehrbuch der Enneagramm-Homöopathie – Band 2")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-3-taschenbuch", "Volume 3 of the textbook: The complete system of Enneagram-Homeopathy in practice.", "Lehrbuch der Enneagramm-Homöopathie – Band 3")}
+      ${bookTip("die-enneagramm-homoeopathie-unterrichtsmaterial", "The teaching script on Enneagram-Homeopathy – 376 pages of compact learning material for self-study.", "Enneagramm-Homöopathie – Unterrichtsmaterial (376 Seiten)")}
+      ${bookTip("das-unterrichtsskript-zur-sehgal-ausbildung-ebook", "The complete teaching script of the Sehgal School – 500 pages for anyone wishing to learn the Sehgal method in depth.", "Unterrichtsskript zur Sehgal-Ausbildung (500 Seiten)")}
+      ${bookTip("heilung-als-erinnerung", "Body, soul, and healing as an inseparable unit – the homeopathic perspective on the Enneagram.", "Heilung als Erinnerung")}
+      ${bookTip("leidenschaft-und-heilung", "The 9 passions and their enneagrammatic roots – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"musik",               label:"Entspannungs- und Heilungsmusik"},
         {route:"solfeggio-frequenzen", label:"Die 9 Solfeggio-Frequenzen"},
-        {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
+        {route:"beruhmte-komponisten", label:"Famous Composers in the Enneagram"},
       ])}
     </section>
   `);
@@ -35077,7 +35077,7 @@ function heilfastenDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Eine Fastenerfahrung im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Ein neuntägiges Fasten kann für jeden Enneagrammtyp eine individuell unterschiedliche, aber dennoch universell transformative Erfahrung sein. Dennoch gibt es im Rahmen des Prozessmodells des Enneagramms 9 universelle Erfahrungen während des Fastens — unabhängig vom jeweiligen Typ oder Subtype. Der Autor hat dieses 9-tägige „Enneagramm-Fasten" selbst unmittelbar vor dem Erstellen dieser Übersicht im Rahmen eines Heilfastens vom 01.08.2024 bis 09.08.2024 erlebt.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Eine Fastenerfahrung im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normal Type, Reinforcing Type, Countertype) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Ein neuntägiges Fasten kann für jeden Enneagrammtyp eine individuell unterschiedliche, aber dennoch universell transformative Erfahrung sein. Dennoch gibt es im Rahmen des Prozessmodells des Enneagramms 9 universelle Erfahrungen während des Fastens — unabhängig vom jeweiligen Typ oder Subtype. Der Autor hat dieses 9-tägige „Enneagramm-Fasten" selbst unmittelbar vor dem Erstellen dieser Übersicht im Rahmen eines Heilfastens vom 01.08.2024 bis 09.08.2024 erlebt.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
@@ -37338,7 +37338,7 @@ function friedenSchliessenPage() {
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Beziehung</p>
       <h1 class="section-title">Frieden schlie\xdfen</h1>
-      <p class="psycho-intro">Vom Splitter im Auge und der Kunst, mit Mitgef\xfchl statt Urteil zu begegnen.</p>
+      <p class="psycho-intro">Vom Splitter im Auge und der Kunst, mit Compassion Instead of Judgment zu begegnen.</p>
       <img
         src="${CDN}assets/frieden-schliessen.jpg"
         alt="Making Peace"
@@ -37944,7 +37944,7 @@ function bedeutungSubtypeesPage() {
         <p class="vb-intro">Erst in den 27 Subtypees zeigt sich der Mensch in seiner wirklichen seelischen Gestalt. Wer bei den neun Grundtypen stehenbleibt, sieht nur die grobe Kontur.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Untertypen im Detail &ndash; Normal-, Verst\xe4rkungs- und Kontratyp jedes Enneagrammtyps ausf\xfchrlich erl\xe4utert.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail – normal, reinforcing, and countertype of each Enneagram type explained extensively.", "Die verborgene Dynamik der 27 Subtypees")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Das Schaubild-Buch schlechthin: die neun Typen in farbigen, anschaulichen \xdcbersichten &ndash; der direkte Einstieg ins visuelle Enneagramm.", "Wer du wirklich bist &ndash; Band 1")}
       ${relatedLinks([
         {route:"antriebskraefte", label:"Antriebskr\xe4fte der Menschheit"},
@@ -39508,9 +39508,9 @@ function antriebskraeftePage() {
   return shell(`
     ${pageHeader("antriebskraefte")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Leidenschaft & Subtypees</p>
+      <p class="eyebrow">Charts · Passion & Subtypes</p>
       <h1 class="section-title">Die 9 Antriebskr\xe4fte der Menschheit</h1>
-      <p class="psycho-intro">Wie die neun Leidenschaften als innere Motoren wirken &ndash; und warum derselbe Typ so unterschiedlich aussehen kann.</p>
+      <p class="psycho-intro">How the nine passions act as inner engines – and why the same type can look so different.</p>
       <img
         src="${CDN}assets/antriebskraefte.jpg"
         alt="Die 9 Antriebskr\xe4fte der Menschheit innerhalb der 27 Untertypen"
@@ -39519,23 +39519,23 @@ function antriebskraeftePage() {
       <div class="vb-section" style="max-width:100%;">
 
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Die Leidenschaft als Motor</h2>
-        <p class="vb-intro">Jeder der neun Enneagrammtypen wird von einer spezifischen Grundleidenschaft angetrieben &ndash; einem inneren Motor, der das Denken, F\xfchlen und Handeln in eine bestimmte Richtung zieht. Trägheit, Zorn, Stolz, Eitelkeit, Neid, Geiz, Angst, V\xf6llerei, Wollust: Diese neun Kr\xe4fte sind nicht als moralische Urteile gemeint, sondern als psychologische Beschreibungen &ndash; archetypische Energien, die tief im Unbewussten verankert sind und das Leben eines Menschen mitgestalten, oft ohne dass er es selbst bemerkt.</p>
-        <p class="vb-intro">Jede Leidenschaft hat dabei eine Richtung, eine innere Search: der Einser sucht Perfektion, der Zweier Liebe, der Dreier Erfolg, der Vierer Individualit\xe4t, der F\xfcnfer Wissen, der Sechser Sicherheit, der Siebener Spa\xdf, der Achter Macht, der Neuner Harmonie. Diese Search ist zutiefst menschlich &ndash; und sie tr\xe4gt in sich sowohl die Energie des Wachstums als auch die Falle der Fixierung.</p>
+        <p class="vb-intro">Each of the nine Enneagram types is driven by a specific core passion – an inner engine that pulls thinking, feeling, and acting in a certain direction. Sloth, anger, pride, vanity, envy, avarice, fear, gluttony, lust: These nine forces are not intended as moral judgments, but as psychological descriptions – archetypal energies that are deeply rooted in the unconscious and help shape a person's life, often without them noticing it themselves.</p>
+        <p class="vb-intro">Each passion has a direction, an inner search: Type One seeks perfection, Type Two seeks love, Type Three seeks success, Type Four seeks individuality, Type Five seeks knowledge, Type Six seeks security, Type Seven seeks fun, Type Eight seeks power, Type Nine seeks harmony. This search is profoundly human – and it carries within itself both the energy of growth and the trap of fixation.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Normaltyp, Verst\xe4rkungstyp, Kontratyp</h2>
-        <p class="vb-intro">Das Schaubild macht eine wichtige Unterscheidung sichtbar, die h\xe4ufig \xfcbersehen wird: Innerhalb jedes der neun Typen gibt es drei grundlegend verschiedene Auspr\xe4gungen &ndash; je nachdem, wie ein Mensch mit seiner Leidenschaft umgeht.</p>
-        <p class="vb-intro">Der <strong>Normaltyp</strong> lebt seine typspezifische Leidenschaft auf eine &bdquo;normale&ldquo;, durchschnittliche Weise. Er entspricht dem klassischen Bild seines Typs, wie es in den meisten Enneagramm-B\xfcchern beschrieben wird. Der <strong>Verst\xe4rkungstyp</strong> lebt dieselbe Leidenschaft in einer verst\xe4rkten, intensiveren Form &ndash; sein Muster ist deutlicher ausgepr\xe4gt und f\xfcr andere meist gut erkennbar. Der <strong>Kontratyp</strong> hingegen verneint oder verbirgt seine Leidenschaft aktiv &ndash; er lebt das Gegenteil davon nach au\xdfen und wird deshalb am h\xe4ufigsten falsch typisiert. Seine Leidenschaft ist nicht weg; sie wirkt nur verdeckt und auf Umwegen.</p>
-        <p class="vb-intro">Diese Dreiteilung erkl\xe4rt, warum Menschen desselben Haupttyps im Alltag so vollkommen verschieden wirken k\xf6nnen. Ein Typ-Zwei-Kontratyp etwa kann distanziert und unabh\xe4ngig erscheinen &ndash; und trotzdem vom Grundmuster des Zweiers bewegt werden.</p>
+        <p class="vb-intro">The diagram makes an important distinction visible that is frequently overlooked: Within each of the nine types, there are three fundamentally different manifestations – depending on how a person deals with their passion.</p>
+        <p class="vb-intro">The normal type lives out their type-specific passion in a „normal", average way. They correspond to the classic image of their type as described in most Enneagram books. The reinforcing type lives the same passion in a reinforced, more intense form – their pattern is more distinctly pronounced and usually easily recognizable by others. The countertype, on the other hand, actively denies or conceals their passion – they live the opposite outward, which is why they are most frequently mistyped. Their passion has not vanished; it merely operates covertly and through indirect routes.</p>
+        <p class="vb-intro">This tripartite division explains why people of the same main type can appear so completely different in everyday life. A Type Two countertype, for example, can appear detached and independent – and yet still be moved by the underlying pattern of the Two.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Zentren und drei Instinkte</h2>
-        <p class="vb-intro">Das Schaubild verbindet diese Dreiteilung mit den drei Intelligenzzentren &ndash; Bauch (Typen 8, 9, 1), Kopf (Typen 5, 6, 7) und Herz (Typen 2, 3, 4) &ndash; sowie mit den drei Instinkten: selbsterhaltend, sozial und sexuell. Erst diese Kombination ergibt die 27 Untertypen: Jede Leidenschaft dr\xfckt sich je nach Instinktausrichtung vollkommen anders aus. Der selbsterhaltende F\xfcnfer und der sexuelle F\xfcnfer k\xf6nnen bei einer ersten Begegnung kaum ein gemeinsames Typbild zu teilen scheinen &ndash; und geh\xf6ren doch zum selben Grundmuster.</p>
-        <p class="vb-intro">Das Bild des Motors in der Mitte des Schaubilds ist dabei bewusst gew\xe4hlt: Die Leidenschaft ist nicht das Problem des Menschen. Sie ist seine Antriebskraft &ndash; roh, ungez\xe4hmt, voller Energie. Die Aufgabe des Enneagramms ist es nicht, diese Kraft abzuw\xfcrgen, sondern sie zu verstehen, zu lenken und schlie\xdflich in ihre entsprechende Essenzqualit\xe4t zu transformieren.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Three Centers and Three Instincts</h2>
+        <p class="vb-intro">The diagram connects this tripartite division with the three intelligence centers – gut (Types 8, 9, 1), head (Types 5, 6, 7), and heart (Types 2, 3, 4) – as well as with the three instincts: self-preservation, social, and sexual. Only this combination yields the 27 subtypes: Each passion expresses itself completely differently depending on the instinctual orientation. The self-preservation Five and the sexual Five could hardly seem to share a common type image upon a first meeting – and yet they belong to the same underlying pattern.</p>
+        <p class="vb-intro">The image of the engine in the center of the diagram is chosen intentionally: Passion is not a person's problem. It is their driving force – raw, untamed, full of energy. The task of the Enneagram is not to stifle this force, but to understand it, direct it, and ultimately transform it into its corresponding essence quality.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Die Leidenschaft ist kein Feind &ndash; sie ist ein Motor ohne Steuer. Das Enneagramm gibt das Steuer zur\xfcck. &ndash; Detlef Rathmer</blockquote>
 
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Untertypen im Detail &ndash; Normal-, Verst\xe4rkungs- und Kontratyp jedes Enneagrammtyps ausf\xfchrlich erl\xe4utert.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("hinter-der-leidenschaft", "Die neun Antriebskr\xe4fte und ihre Wurzeln &ndash; wo die Leidenschaften herkommen und wie sie sich aufl\xf6sen lassen.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
-        ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege f\xfcr alle 27 Subtypees &ndash; aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("hinter-der-leidenschaft", "The nine driving forces and their roots – where the passions come from and how they can be dissolved.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
+        ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing for all 27 Subtypes – from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
           {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
@@ -39724,35 +39724,35 @@ function leidenschaftUndWundePage() {
   return shell(`
     ${pageHeader("leidenschaft-und-wunde")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Heilung</p>
+      <p class="eyebrow">Charts · Healing</p>
       <h1 class="section-title">Leidenschaft und Wunde</h1>
-      <p class="psycho-intro">Zwei Ebenen eines Musters &ndash; was sichtbar wird und was wirklich dahintersteckt.</p>
+      <p class="psycho-intro">Two levels of a pattern – what becomes visible and what really lies behind it.</p>
       <img
         src="${CDN}assets/leidenschaft-und-wunde.jpg"
         alt="Leidenschaft und Wunde der 9 Typen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Was wir sehen &ndash; und was wirklich dahintersteckt</h2>
-        <p class="vb-intro">Im Enneagramm unterscheiden wir zwei Ebenen, die zusammen das Bild eines Typs ergeben: die <strong>Leidenschaft</strong> und die <strong>Wunde</strong>. Beide geh\xf6ren untrennbar zusammen &ndash; und doch sind sie grundverschieden. Die Leidenschaft ist das, was wir von au\xdfen sehen k\xf6nnen: ein Verhaltensmuster, eine emotionale Grundf\xe4rbung, eine immer wiederkehrende Reaktion. Die Wunde hingegen ist das, was dieser Leidenschaft zugrunde liegt &ndash; eine tiefe innere \xdcberzeugung, meist aus einer fr\xfchen Erfahrung hervorgegangen, die sich ins Unbewusste gesenkt hat.</p>
-        <p class="vb-intro">Wer nur die Leidenschaft sieht, sieht das Symptom. Wer die Wunde versteht, versteht den Menschen.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">What We See – and What Lies Behind It</h2>
+        <p class="vb-intro">In the Enneagram, we distinguish between two levels that together form the picture of a type: the passion and the wound. Both belong together inextricably – and yet they are fundamentally different. The passion is what we can see from the outside: a behavioral pattern, a primary emotional tint, a recurring reaction. The wound, on the other hand, is what underlies this passion – a deep inner conviction, usually arising from an early experience, that has sunk into the unconscious.</p>
+        <p class="vb-intro">Whoever sees only the passion sees the symptom. Whoever understands the wound understands the person.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Leidenschaft: sichtbare Ebene</h2>
-        <p class="vb-intro">Die Leidenschaft ist im Enneagramm kein positiver Begriff. Sie bezeichnet jene zentrale seelische Energie, die das Denken, F\xfchlen und Handeln eines Typs immer wieder in eine bestimmte Richtung zieht &ndash; oft ohne dass der Mensch es selbst bemerkt. Der Groll des Einers, der Stolz des Zweiers, die Eitelkeit des Dreiers &ndash; das sind keine Charakterfehler, sondern tief eingravierte Orientierungsreaktionen. Sie entstanden einmal als Antwort auf eine schwierige innere Wirklichkeit. Heute laufen sie weitgehend automatisch ab.</p>
-        <p class="vb-intro">Das Schaubild zeigt f\xfcr jeden der neun Typen, wie sich diese Leidenschaft konkret \xe4u\xdfert &ndash; in einem Satz, der das innere Erleben auf den Punkt bringt: <em>Die Welt ist nicht so, wie sie sein sollte.</em> Oder: <em>Ich will alles erleben und nichts verpassen.</em> Oder: <em>Ich will das Leben ganz, stark und ohne Beschr\xe4nkung.</em> Es sind S\xe4tze, die viele Menschen bei ihrem Typ sofort wiedererkennen &ndash; manchmal erschrocken, manchmal erleichtert.</p>
+        <p class="vb-intro">Passion is not a positive concept in the Enneagram. It denotes that central soul energy that repeatedly pulls a type's thinking, feeling, and acting in a certain direction – often without the person noticing it themselves. The resentment of the One, the pride of the Two, the vanity of the Three – these are not character flaws, but deeply engraved orientation reactions. They once arose as an answer to a difficult inner reality. Today, they operate largely automatically.</p>
+        <p class="vb-intro">The diagram shows for each of the nine types how this passion manifests concretely – in a sentence that captures the inner experience succinctly: The world is not as it should be. Or: I want to experience everything and miss out on nothing. Or: I want life fully, strongly, and without restriction. These are sentences that many people immediately recognize in their type – sometimes startled, sometimes relieved.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Wunde: tiefe innere \xdcberzeugung</h2>
-        <p class="vb-intro">Hinter jeder Leidenschaft verbirgt sich eine Wunde &ndash; eine Grundannahme \xfcber sich selbst und die Welt, die sich so tief eingraviert hat, dass sie nicht mehr als \xdcberzeugung wahrgenommen wird, sondern als Wirklichkeit. Der Zwei glaubt nicht nur, er d\xfcrfe keine Bed\xfcrfnisse haben &ndash; er <em>erlebt</em> es so. Der Drei erlebt es nicht als Meinung, sondern als Tatsache, dass sein Sein nicht gen\xfcgt. Der Sechs erlebt Vertrauen nicht als etwas, das m\xf6glich w\xe4re &ndash; sondern als etwas, das er einmal verloren hat und das nicht zur\xfcckkommt.</p>
-        <p class="vb-intro">Diese Wunden sind nicht rational zug\xe4nglich. Sie lassen sich nicht einfach wegdenken oder weg-positiv-denken. Sie verlangen eine andere Art der Arbeit: Mitgef\xfchl, Aufmerksamkeit, Zeit &ndash; und das Enneagramm als Wegweiser, der zeigt, wo man \xfcberhaupt zu suchen hat.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Wound: Deep Inner Conviction</h2>
+        <p class="vb-intro">Behind every passion lies a wound – a core assumption about oneself and the world that has engraved itself so deeply that it is no longer perceived as a conviction, but as reality. The Two does not merely believe they must not have needs – they experience it that way. The Three does not experience it as an opinion, but as a fact, that their being is not enough. The Six does not experience trust as something that might be possible – but as something they once lost and that will not return.</p>
+        <p class="vb-intro">These wounds are not rationally accessible. They cannot simply be thought away or positive-thought away. They require a different kind of work: compassion, attention, time – and the Enneagram as a guidebook that shows where to look in the first place.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Vom Symptom zur Wurzel</h2>
-        <p class="vb-intro">Die eigentliche Kraft dieses Schaubildes liegt in der Gegen\xfcberstellung. Wer seinen eigenen Satz in der Leidenschafts-Spalte liest und dann den zugeh\xf6rigen Wunden-Satz daneben sieht, erlebt oft einen stillen inneren Moment. Nicht weil etwas Neues gesagt wird &ndash; sondern weil etwas Bekanntes pl\xf6tzlich in Worte gefa\xdft ist, das man l\xe4ngst sp\xfcrt, aber nie so klar gesehen hat.</p>
-        <p class="vb-intro">Heilung im Enneagramm beginnt genau dort: nicht beim Versuch, die Leidenschaft zu unterdr\xfccken, sondern beim liebevollen Verstehen der Wunde dahinter. Denn wer die Wurzel versteht, muss nicht mehr gegen den Ast k\xe4mpfen.</p>
+        <p class="vb-intro">The real power of this diagram lies in the juxtaposition. Whoever reads their own sentence in the passion column and then sees the corresponding wound sentence beside it often experiences a quiet inner moment. Not because something new is said – but because something familiar, which one has felt for a long time but never seen so clearly, is suddenly put into words.</p>
+        <p class="vb-intro">Healing in the Enneagram begins right there: not with the attempt to suppress the passion, but with the loving understanding of the wound behind it. For whoever understands the root no longer has to fight against the branch.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Die Leidenschaft ist die Sprache der Wunde. Wer sie versteht, h\xf6rt auf zu urteilen &ndash; und beginnt zu heilen. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms &ndash; woher sie stammen, wie sie das Leben pr\xe4gen und welche Remedies ihnen entsprechen.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
-        ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypees &ndash; direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – where they originate, how they shape life, and which remedies correspond to them.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
+        ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing of all 27 Subtypes – directly from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
           {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
@@ -39767,33 +39767,33 @@ function wundenPage() {
   return shell(`
     ${pageHeader("wunden")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Heilung</p>
+      <p class="eyebrow">Charts · Healing</p>
       <h1 class="section-title">Jede Wunde hat eine Schutzstrategie hervorgebracht</h1>
-      <p class="psycho-intro">Warum die Muster der 9 Typen keine Schw\xe4chen sind &ndash; sondern einst kluge Antworten auf echte Not.</p>
+      <p class="psycho-intro">Why the patterns of the 9 types are not weaknesses – but were once clever answers to real distress.</p>
       <img
         src="${CDN}assets/wunden.jpg"
         alt="Wunden und Schutzstrategien der 9 Typen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Eine Antwort auf eine fr\xfche Wirklichkeit</h2>
-        <p class="vb-intro">Hinter jedem der neun Enneagrammtypen verbirgt sich eine urspr\xfcngliche Wunde &ndash; ein Moment oder eine Phase im fr\xfchen Leben, in der etwas Wesentliches fehlte: Sicherheit, Liebe, Anerkennung, Identit\xe4t oder einfach die Freiheit, man selbst sein zu d\xfcrfen. Was auf diese Wunde folgte, war keine Schw\xe4che und kein Versagen &ndash; es war Intelligenz. Das Kind, das diese Wunde trug, entwickelte eine Strategie, um zu \xfcberleben, um dazuzugeh\xf6ren, um Schmerz zu vermeiden oder das zu bekommen, was es brauchte.</p>
-        <p class="vb-intro">Diese Strategien haben funktioniert &ndash; manchmal sehr gut. Sie wurden ge\xfcbt, verfeinert und schlie\xdflich so selbstverst\xe4ndlich, dass der Mensch vergass, dass er sie einmal bewusst entwickelt hatte. Aus einer Reaktion wurde ein Charakter. Aus einer Notl\xf6sung wurde eine Identit\xe4t.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">An Answer to an Early Reality</h2>
+        <p class="vb-intro">Behind each of the nine Enneagram types lies an original wound – a moment or a phase in early life when something essential was missing: security, love, recognition, identity, or simply the freedom to be oneself. What followed this wound was not a weakness and not a failure – it was intelligence. The child carrying this wound developed a strategy to survive, to belong, to avoid pain, or to get what they needed.</p>
+        <p class="vb-intro">These strategies worked – sometimes very well. They were practiced, refined, and eventually became so self-evident that the person forgot they had once consciously developed them. A reaction became a character. A makeshift solution became an identity.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die neun Strategien im \xdcberblick</h2>
-        <p class="vb-intro">Typ 1 versuchte, durch Richtigkeit Sicherheit zu finden &ndash; denn in einer Welt, die zu oft unberechenbar war, schien Perfektion der einzige Weg, Kritik zu entgehen. Typ 2 suchte Liebe durch Hilfsbereitschaft &ndash; weil bedingungslose Zuneigung nicht selbstverst\xe4ndlich war und Gegebenwerden nur durch Geben erreichbar schien. Typ 3 suchte Wert durch Leistung &ndash; weil das Gef\xfchl, an sich wertvoll zu sein, fehlte und Anerkennung immer erst verdient werden musste.</p>
-        <p class="vb-intro">Typ 4 suchte Identit\xe4t durch die Besch\xe4ftigung mit seinem Mangel &ndash; weil das Gef\xfchl, irgendwie anders und unvollst\xe4ndig zu sein, so tief sa\xdf, dass es zur einzigen verl\xe4sslichen Quelle von Eigenheit wurde. Typ 5 zog sich zur\xfcck, um seine Ressourcen zu sch\xfctzen &ndash; weil die Welt zu fordernd wirkte und innere R\xfcckzug die einzige Form war, die eigene Energie zu bewahren. Typ 6 suchte Sicherheit durch Wachsamkeit &ndash; weil Vertrauen zu oft entt\xe4uscht worden war und Aufmerksamkeit f\xfcr das Schlimmste wie der einzig verantwortliche Weg erschien.</p>
-        <p class="vb-intro">Typ 7 floh in M\xf6glichkeiten und Zukunftspl\xe4ne &ndash; weil Schmerz und Enge unertr\xe4glich wirkten und die Fantasie neuer Erlebnisse immer Erleichterung bot. Typ 8 entwickelte St\xe4rke, um Verletzlichkeit zu vermeiden &ndash; weil fr\xfche Erfahrungen gezeigt hatten, dass Schw\xe4che gef\xe4hrlich ist und nur Macht wirklichen Schutz bietet. Typ 9 verga\xdf sich selbst, um Harmonie zu bewahren &ndash; weil der eigene Beitrag nie wichtig genug zu sein schien und Frieden nur dann m\xf6glich war, wenn man selbst keine Anspr\xfcche stellte.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Nine Strategies at a Glance</h2>
+        <p class="vb-intro">Type 1 tried to find security through correctness – because in a world that was too often unpredictable, perfection seemed the only way to escape criticism. Type 2 sought love through helpfulness – because unconditional affection was not taken for granted and receiving seemed achievable only through giving. Type 3 sought worth through achievement – because the feeling of being valuable in oneself was missing and recognition always had to be earned first.</p>
+        <p class="vb-intro">Type 4 sought identity by occupying themselves with their lack – because the feeling of being somehow different and incomplete ran so deep that it became the only reliable source of uniqueness. Type 5 withdrew to protect their resources – because the world seemed too demanding and inner retreat was the only way to preserve their own energy. Type 6 sought security through vigilance – because trust had too often been disappointed and paying attention to the worst seemed like the only responsible path.</p>
+        <p class="vb-intro">Type 7 fled into possibilities and future plans – because pain and confinement felt unbearable and the fantasy of new experiences always offered relief. Type 8 developed strength to avoid vulnerability – because early experiences had shown that weakness is dangerous and only power offers true protection. Type 9 forgot themselves to preserve harmony – because their own contribution never seemed important enough and peace was only possible when they made no demands themselves.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Mitgef\xfchl statt Urteil</h2>
-        <p class="vb-intro">Das Schaubild schlie\xdft mit einem Satz, der den Kern echter Enneagramm-Arbeit ber\xfchrt: <em>Keine dieser Strategien war falsch. Keine entstand aus Schw\xe4che. Jede einzelne war einmal ein intelligenter Versuch, mit einer schwierigen Wirklichkeit umzugehen.</em></p>
-        <p class="vb-intro">Dieses Verst\xe4ndnis ver\xe4ndert den Blick &ndash; auf sich selbst und auf andere. Wer erkennt, dass hinter dem Kontrollbed\xfcrfnis des Einers eine alte Angst steht, hinter der Selbstverleugnung des Zweiers ein Hunger nach Liebe und hinter der H\xe4rte des Achters eine vergrabene Verletzlichkeit, der kann aufh\xf6ren zu urteilen und beginnen zu verstehen.</p>
-        <p class="vb-intro">Heilung im Enneagramm beginnt nicht damit, das Muster zu bek\xe4mpfen. Sie beginnt damit, es mit Mitgef\xfchl anzuschauen &ndash; und dem Kind in uns zu danken, das einmal so kreativ und mutig war, einen Weg durch den Schmerz zu finden.</p>
+        <p class="vb-intro">The diagram concludes with a sentence that touches the core of true Enneagram work: None of these strategies was wrong. None arose from weakness. Every single one was once an intelligent attempt to deal with a difficult reality.</p>
+        <p class="vb-intro">This understanding changes one's perspective – on oneself and on others. Whoever recognizes that behind the One's need for control lies an old fear, behind the Two's self-denial a hunger for love, and behind the Eight's hardness a buried vulnerability, can stop judging and begin to understand.</p>
+        <p class="vb-intro">Healing in the Enneagram does not begin by fighting the pattern. It begins by looking at it with compassion – and thanking the child within us who was once so creative and courageous in finding a way through the pain.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Jede Schutzstrategie ist ein Beweis daf\xfcr, wie klug und lebenswillig wir einmal waren. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms &ndash; woher sie stammen, wie sie wirken und welche Remedies sie aufl\xf6sen k\xf6nnen.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
-        ${bookTip("leidenschaft-und-heilung", "27 Subtypees und ihre Leidenschaften &ndash; mit konkreten Heilungswegen direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – where they originate, how they operate, and which remedies can dissolve them.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypes and their passions – with concrete paths of healing directly from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
           {route:"kindheitsperspektiven", label:"Kindheitsperspektiven"},
@@ -45272,7 +45272,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v658';
+  const MY_VERSION = 'inhalt-v659';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
