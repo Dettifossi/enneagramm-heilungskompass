@@ -32317,373 +32317,93 @@ function fritzHaarmannPortraitPage() {
         <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Friedrich „Fritz" Heinrich Karl Haarmann</strong>,
-        geboren am 25. Oktober 1879 in Hannover,
-        ist als der „Werwolf von Hannover" in die Kriminalgeschichte eingegangen.
-        Zwischen 1918 und 1924 ermordete er mindestens 24 junge Männer und Jugendliche,
-        die er überwiegend am Hannoveraner Hauptbahnhof ansprach –
-        obdachlose Jugendliche, Ausreißer, Gestrandete der Nachkriegszeit.
-        Seine Tötungsmethode war der Kehlbiss: Er tötete seine Opfer,
-        indem er ihnen mit den Zähnen die Kehle durchbiss.
-        Was den Fall besonders erschütterte:
-        Haarmann war zum Tatzeitpunkt aktiver Polizeispitzel.
-        Er bewegte sich mit ausdrücklicher Duldung der Behörden
-        auf dem Bahnhof, kontrollierte Ausweise, verhörte Verdächtige –
-        und nutzte diese Tarnung als institutionelle Deckung für seine Verbrechen.
-        Im Kiez war er als gutmütiger Nachbar bekannt,
-        der Fleisch und Kleidung zu günstigen Preisen verkaufte.
-        Woher beides stammte, wollte niemand zu genau wissen.
-        Im Sommer 1924 wurden im Flussbett der Leine
-        menschliche Schädel und Knochen entdeckt.
-        Haarmann gestand schließlich 27 Morde, wurde in 24 Fällen verurteilt
-        und am 15. April 1925 durch das Fallbeil hingerichtet.
-        Er war 45 Jahre alt.
+        German serial killer ("Vampire of Hanover") · Animal correspondence: Black Mamba
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Fritz Haarmann</strong> wird dem <strong>Sexuellen Typ 1 with Nine-wing</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer, aufgestauter Groll, der sich im Sexuellen Subtype (SX1)
-        nicht auf Institutionen oder die Welt im Allgemeinen richtet,
-        sondern auf die eine, intensivste Eins-zu-eins-Beziehung.
-        Der SX1er ist der Kontratyp der Eins: Er ähnelt
-        in seinem Außenbild am wenigsten einem klassischen Einser –
-        er ist warm, zugewandt, leidenschaftlich, sozial eingebettet.
-        Dahinter aber steht ein absoluter Kontrollwille,
-        der in der Intimbeziehung keine Grenze kennt.
-        Der Nine-wing verleiht dieser Struktur Wärme und Gutmütigkeit nach außen,
-        dämpft die sichtbare Schärfe der Eins vollständig
-        und ermöglicht eine tiefe Dissoziation zwischen Alltag und Verbrechen.
-        Bei Haarmann entfaltete sich diese Konstellation
-        in der dunkelsten Form des SX1:
-        Der Impuls zur vollständigen Besitznahme des Anderen
-        konnte nur in der Vernichtung enden.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);">Friedrich "Fritz" Heinrich Karl Haarmann, born October 25, 1879, in Hanover, entered criminal history as the "Vampire of Hanover" (or "Werewolf of Hanover"). Between 1918 and 1924, he murdered at least 24 young men and boys, whom he primarily approached at Hanover Central Station—homeless youth, runaways, and individuals stranded in the post-war era. His method of killing was a bite to the throat: he murdered his victims by biting through their throats with his teeth. What shocked the public most: at the time of the crimes, Haarmann was an active police informant. He moved through the station with explicit authorization from local authorities, inspecting IDs, questioning suspects, and using this cover as institutional protection for his crimes. In his neighborhood, he was known as a good-natured neighbor who sold meat and clothing at cheap prices. Where either came from, no one wanted to ask too closely. In the summer of 1924, human skulls and bones were discovered in the Leine riverbed. Haarmann eventually confessed to 27 murders, was convicted in 24 cases, and executed by guillotine on April 15, 1925. He was 45 years old.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Warm und einladend:</strong>
-        <strong>Haarmanns</strong> Blick war kein bedrohlicher Blick.
-        Jugendliche am Bahnhof beschrieben ihn –
-        in den wenigen überlieferten Zeugenberichten –
-        als zugewandt und väterlich.
-        Er bot Essen an, eine Unterkunft,
-        eine vertraute Hand in der Orientierungslosigkeit
-        der Nachkriegszeit.
-        Das ist der Nine-wing der SX1:
-        Nach außen wärmt er, zieht er an,
-        gibt er Halt. Die Bedrohung bleibt
-        vollständig verborgen.</p>
-        <p class="vb-intro"><strong>b) Der Blick der institutionellen Legitimität:</strong>
-        Als Polizeispitzel trug <strong>Haarmann</strong>
-        eine informelle Autorität, die Fragen verstummen ließ.
-        Wer Ausweise kontrolliert, gehört zur Ordnung.
-        Wer zur Ordnung gehört, steht außerhalb des Verdachts.
-        Der SX1w9er findet instinktiv die institutionelle Einbettung,
-        die ihn schützt – nicht immer bewusst,
-        aber mit einer Treffsicherheit,
-        die strukturbedingt ist.</p>
-        <p class="vb-intro"><strong>c) Kein erkennbarer innerer Riss:</strong>
-        Nachbarn, Polizisten und Bekannte
-        erinnerten sich an einen normalen,
-        freundlichen Mann.
-        Kein Zittern, keine Auffälligkeit,
-        keine Doppelbödigkeit,
-        die nach außen gedrungen wäre.
-        Der Nine-wing abdichtet die innere Welt
-        nach außen vollständig:
-        Was im Inneren geschieht,
-        erscheint in der Mimik nicht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>Type Assignment:</strong>
+Fritz Haarmann is assigned to the Sexual Type One with a Nine-wing in the Enneagram. The passion of the One is Anger—a deep, pent-up resentment that, in the Sexual Subtype (SX1), is not directed toward institutions or the world in general, but toward the single, most intense one-on-one relationship. The SX1 is the countertype of the One: in its external appearance, it looks the least like a classic One—it is warm, engaging, passionate, and socially embedded. Behind this facade, however, lies an absolute drive for control that recognizes no boundaries in intimate relationships. The Nine-wing lends this structure external warmth and good-naturedness, completely softening the visible sharpness of the One and enabling a deep dissociation between everyday life and crime. In Haarmann, this constellation unfolded in the darkest form of the SX1: the impulse for total possession of the other could only end in destruction.</p>
+        <p class="vb-intro"><strong>a) Warm and Inviting:</strong>
+Haarmann's gaze was not a threatening one. Young people at the station described him—in the few surviving witness reports—as attentive and paternal. He offered food, shelter, and a familiar hand amidst the disorientation of the post-war period. This is the Nine-wing of the SX1: outwardly warming, drawing people in, providing stability. The threat remains entirely hidden.</p>
+        <p class="vb-intro"><strong>b) The Gaze of Institutional Legitimacy:</strong>
+As a police informant, Haarmann carried an informal authority that silenced questions. Anyone checking IDs belongs to the order. Whoever belongs to the order stands beyond suspicion. The SX1w9 instinctively finds the institutional embedding that protects him—not always consciously, but with a structural accuracy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Bahnhof als Jagdrevier:</strong>
-        Der Hannoveraner Hauptbahnhof der frühen 1920er Jahre
-        war ein Ort der Orientierungslosigkeit –
-        Tausende junger Männer, entwurzelt durch Krieg
-        und wirtschaftliche Not, durchströmten ihn täglich.
-        <strong>Haarmann</strong> kannte diesen Ort wie kein anderer
-        und nutzte ihn mit der Präzision
-        eines erfahrenen Jägers.
-        Der SX1er fokussiert sich auf das Einzelne, Intensivste –
-        er sucht nicht die Masse, sondern den einen,
-        der in seine Nähe gerät.</p>
-        <p class="vb-intro"><strong>b) Hans Grans – der Komplize als Liebesbeziehung:</strong>
-        <strong>Haarmanns</strong> Lebensgefährte Hans Grans
-        war an mehreren Morden beteiligt –
-        er soll Opfer ausgewählt und Haarmann angestachelt haben.
-        Diese Konstellation ist für den SX1 aufschlussreich:
-        Die sexuelle Eins richtet ihre Energie
-        auf die eine zentrale Beziehung.
-        In Haarmanns Fall war diese Beziehung
-        zu Grans der eigentliche Brennpunkt –
-        das Verbrechen war in diese Beziehung eingebettet,
-        aus ihr heraus produziert.</p>
-        <p class="vb-intro"><strong>c) Die Kiezgestalt:</strong>
-        <strong>Haarmann</strong> lebte nicht versteckt.
-        Er war Teil des Stadtviertels,
-        bekannt, greifbar, hilfreich.
-        Er verkaufte Kleidung und Fleisch –
-        und die Nachbarschaft kaufte,
-        ohne zu fragen.
-        Diese Einbettung in die Gemeinschaft
-        ist das Nine-wing-Muster:
-        Die Neun assimiliert sich,
-        sie eckt nicht an,
-        sie wird Teil des Raums,
-        in dem sie lebt.</p>
+        <p class="vb-intro"><strong>c) No Discernible Inner Rupture:</strong>
+Neighbors, police officers, and acquaintances remembered a normal, friendly man. No trembling, no conspicuous behavior, no double bottom that would have breached the surface. The Nine-wing completely seals the inner world from the outside: what happens within does not register in facial expressions.</p>
+        <p class="vb-intro"><strong>a) The Train Station as a Hunting Ground:</strong>
+Hanover Central Station in the early 1920s was a place of profound disorientation—thousands of young men, uprooted by war and economic hardship, passed through daily. Haarmann knew this place like no other and utilized it with the precision of an experienced hunter. The SX1 focuses on the specific, the most intense single object—he does not seek the crowd, but the one who comes into his proximity.</p>
+        <p class="vb-intro"><strong>b) Hans Grans – The Accomplice as Romantic Relationship:</strong>
+Haarmann's partner Hans Grans was involved in several murders—he reportedly selected victims and goaded Haarmann on. This constellation is revealing for the SX1: the sexual One directs its energy toward one central relationship. In Haarmann's case, this bond with Grans was the actual focal point—the crime was embedded in and generated out of this relationship.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Die Tötung als Akt absoluter Vereinnahmung:</strong>
-        <strong>Haarmanns</strong> Tötungsmethode –
-        der Kehlbiss – ist psychologisch bedeutsam.
-        Es ist kein Abstandsverbrechen:
-        Es setzt physische Nähe, körperlichen Contact,
-        Intimität im Wortsinne voraus.
-        Das ist das SX1-Muster an seiner dunkelsten Grenze:
-        Der Impuls zur vollständigen Vereinnahmung
-        des Anderen, zur lückenlosen Kontrolle
-        über Leben und Tod, vollzieht sich
-        im direktesten körperlichen Akt.</p>
-        <p class="vb-intro"><strong>b) Nachkriegskontext als Schutzraum:</strong>
-        Das Hannover der frühen 1920er Jahre
-        war zerrissen: wirtschaftliche Not,
-        Obdachlosigkeit, zerrüttete Familien.
-        Vermisstenanzeigen für heimatlose Jugendliche
-        lösten kaum Ermittlungen aus.
-        <strong>Haarmann</strong> handelte in einem strukturellen
-        Schutzraum, den er nicht selbst geschaffen hatte,
-        den er aber präzise nutzte.
-        Die Eins erkennt und nutzt bestehende Strukturen –
-        sie erfindet sie nicht neu,
-        sie setzt sie ein.</p>
-        <p class="vb-intro"><strong>c) Die Polizeispitzel-Rolle als Doppelschutz:</strong>
-        Als V-Mann der Polizei genoss <strong>Haarmann</strong>
-        einen doppelten Schutz:
-        institutionelle Legitimität nach außen
-        und informellen Informationsvorsprung nach innen.
-        Er wusste, wann ermittelt wurde,
-        wer verdächtig war, wer beobachtet wurde.
-        Die Eins in der Systemrolle:
-        Das Wissen um die Ordnung
-        schützt denjenigen,
-        der die Ordnung untergräbt.</p>
+        <p class="vb-intro"><strong>c) The Neighborhood Figure:</strong>
+Haarmann did not live in hiding. He was part of the neighborhood—known, accessible, helpful. He sold clothing and meat, and the community bought from him without asking questions. This integration into the community represents the Nine-wing pattern: the Nine assimilates, avoids friction, and becomes part of the space in which it lives.</p>
+        <p class="vb-intro"><strong>a) Killing as an Act of Absolute Possession:</strong>
+Haarmann's method of killing—biting the throat—is psychologically significant. It is not a crime committed from a distance; it requires physical proximity, bodily contact, and literal intimacy. This is the SX1 pattern at its darkest frontier: the impulse for complete possession of the other, for seamless control over life and death, executes itself through the most direct physical act.</p>
+        <p class="vb-intro"><strong>b) Post-War Context as a Protective Sphere:</strong>
+Early 1920s Hanover was torn apart by economic hardship, homelessness, and broken family structures. Missing person reports for homeless youth rarely triggered investigations. Haarmann acted within a structural vacuum that he had not created himself, but which he utilized with precision. The One recognizes and uses existing structures—it does not reinvent them, it deploys them.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der fürsorgliche Räuber:</strong>
-        Die Wirkung <strong>Haarmanns</strong> auf sein unmittelbares
-        Umfeld war Fürsorge, nicht Bedrohung.
-        Er half, er versorgte, er war präsent.
-        Diese Fürsorge war kein reines Kalkül –
-        der Nine-wing erzeugt echte
-        soziale Wärme, echte Hilfsbereitschaft.
-        Dass dahinter eine zerstörerische Struktur stand,
-        war für das Umfeld nicht wahrnehmbar,
-        weil die Wärme keine gespielte war.</p>
-        <p class="vb-intro"><strong>b) Der Volksname „Werwolf":</strong>
-        Die Presse gab <strong>Haarmann</strong>
-        den Beinamen „Werwolf von Hannover".
-        Der Begriff trifft psychologisch
-        mehr als er ahnt:
-        Der Werwolf ist ein Wesen,
-        das tagsüber ein normaler Mensch ist
-        und nachts etwas völlig anderes.
-        Das ist das Nine-wing-Muster
-        in seiner bildlichsten Verdichtung:
-        zwei vollständig getrennte Existenzen
-        in einem Körper, ohne sichtbare Naht.</p>
-        <p class="vb-intro"><strong>c) Keine gesellschaftliche Erschütterung vor der Entdeckung:</strong>
-        Der Fall flog erst auf, als Knochen gefunden wurden –
-        nicht durch Misstrauen im Umfeld,
-        nicht durch einen Informanten,
-        nicht durch eine Ermittlung.
-        Die Gemeinschaft hatte <strong>Haarmann</strong>
-        als selbstverständlichen Teil wahrgenommen.
-        Der Nine-wing löst sich im sozialen Raum auf –
-        er wird zur Tapete,
-        zur Hintergrundgestalt,
-        die man nicht mehr sieht,
-        weil sie immer schon da war.</p>
+        <p class="vb-intro"><strong>c) The Police Informant Role as Double Protection:</strong>
+As a police informant (V-Mann), Haarmann enjoyed double protection: institutional legitimacy externally, and an informal informational advantage internally. He knew when investigations took place, who was suspected, and who was under surveillance. The One in a system role: knowledge of the order protects the one who undermines it.</p>
+        <p class="vb-intro"><strong>a) The Caring Predator:</strong>
+Haarmann's effect on his immediate environment was one of care, not threat. He helped, he provided, he was present. This care was not mere cold calculation—the Nine-wing generates genuine social warmth and helpfulness. That a destructive structure stood behind it remained imperceptible to those around him because the warmth was not entirely performed.</p>
+        <p class="vb-intro"><strong>b) The Moniker "Werewolf":</strong>
+The press dubbed Haarmann the "Werewolf of Hanover." Psychologically, the term strikes closer than it realizes: the werewolf is a creature that is a normal human by day and something entirely different by night. This is the Nine-wing pattern in its vividest condensation: two completely separate existences within a single body, without a visible seam.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Gemütlichkeit als Grundton:</strong>
-        Die energetische Wirkung <strong>Haarmanns</strong>
-        war die des gemütlichen Mannes von nebenan.
-        Keine Kälte, keine Distanz,
-        keine spürbare innere Anspannung.
-        Der Nine-wing der Eins
-        erzeugt genau diese Qualität:
-        Er verbreitet Ruhe,
-        er entspannt die Umgebung,
-        er macht die innere Struktur
-        vollständig unsichtbar.</p>
-        <p class="vb-intro"><strong>b) Die Intensität im Verborgenen:</strong>
-        Was nach außen Gemütlichkeit war,
-        besaß im Inneren die volle Intensität
-        des SX1-Instinkts.
-        Die sexuelle Eins brennt –
-        sie ist leidenschaftlich,
-        sie ist fixiert, sie ist absolut.
-        Bei <strong>Haarmann</strong> war diese Energie
-        vollständig nach innen gewendet,
-        nach außen von der Neun abgedichtet.
-        Die Umgebung spürte die Wärme,
-        nicht das Feuer darunter.</p>
-        <p class="vb-intro"><strong>c) Erschöpfungslosigkeit:</strong>
-        Über sechs Jahre, mindestens 24 Opfer –
-        kein Nachlassen, kein erkennbares
-        Innehalten, keine Periode der Abstinenz,
-        die nach außen wahrnehmbar gewesen wäre.
-        Die Eins hält durch;
-        die Neun dämpft die innere Kosten,
-        die andere Täter aufreiben.
-        Die Kombination erzeugt eine
-        kühle Beharrlichkeit, die weder
-        Exzess noch Erschöpfung zeigt.</p>
+        <p class="vb-intro"><strong>c) No Social Unrest Prior to Discovery:</strong>
+The case only broke open when bones were found in the river—not through suspicion in his social circle, nor through an informant or investigation. The community had accepted Haarmann as an unquestioned part of daily life. The Nine-wing dissolves into social space—becoming wallpaper, a background figure no longer noticed because it was always there.</p>
+        <p class="vb-intro"><strong>a) Cozy Friendliness as a Baseline:</strong>
+The energetic footprint of Haarmann was that of the cozy, easygoing man next door. No coldness, no distance, no palpable inner tension. The Nine-wing of the One produces precisely this quality: it radiates calm, relaxes the environment, and renders the inner structure completely invisible.</p>
+        <p class="vb-intro"><strong>b) Intensity Hidden Beneath:</strong>
+What appeared outwardly as easygoing friendliness possessed internally the full intensity of the SX1 instinct. The sexual One burns—it is passionate, fixated, and absolute. In Haarmann, this energy was turned entirely inward and sealed off externally by the Nine. His environment felt the warmth, not the fire underneath.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Schwarze Mamba</h3>
-        <p class="vb-intro"><strong>a) Unauffällig in der Umgebung:</strong>
-        Die Schwarze Mamba ist trotz ihrer Gefährlichkeit
-        selten dort zu entdecken, wo sie lebt.
-        Sie gehört zur Landschaft,
-        sie verschmilzt mit ihr.
-        <strong>Haarmann</strong> gehörte zu Hannover –
-        zum Bahnhof, zum Kiez, zur Nachbarschaft.
-        Er war kein Fremdkörper,
-        kein Eindringling.
-        Er war Teil des Raums,
-        in dem er tötete.</p>
-        <p class="vb-intro"><strong>b) Der Biss als einzige Waffe:</strong>
-        Die Schwarze Mamba verfügt über
-        eines der wirksamsten Neurotoxine der Welt –
-        und sie setzt es mit dem Biss ein.
-        <strong>Haarmanns</strong> Signatur war ebenfalls der Biss –
-        der Kehlbiss als Tötungsmethode.
-        Die unmittelbarste, körperlichste,
-        nächste Form der Gewalt:
-        kein Abstand, kein Werkzeug,
-        nur Körper und Körper.
-        Das ist die SX1-Energie in ihrer
-        radikalsten Verkörperung.</p>
-        <p class="vb-intro"><strong>c) Schnell, präzise, ohne Reue:</strong>
-        Die Schwarze Mamba schlägt nicht zögernd zu.
-        Sie trifft mit maximaler Präzision
-        und zieht sich danach zurück
-        ohne Spur von Aufgewühltheit.
-        <strong>Haarmann</strong> kehrte nach seinen Taten
-        in den Alltag zurück –
-        in die Nachbarschaft, zu den Kunden,
-        zum Polizeidienst – als wäre nichts geschehen.
-        Die Mamba hat keinen Affekt nach der Tat.
-        Die Neun sorgt dafür,
-        dass auch Haarmann keinen hatte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Black Mamba</h3>
+        <p class="vb-intro"><strong>c) Exhaustionlessness:</strong>
+Over six years, at least 24 victims—no slowing down, no discernible pause, no period of abstinence visible from the outside. The One perseveres; the Nine dulls the internal costs that tear other perpetrators apart. The combination produces a cool persistence displaying neither excess nor exhaustion.</p>
+        <p class="vb-intro"><strong>a) Inconspicuous in the Environment:</strong>
+Despite its lethal danger, the Black Mamba is rarely discovered in its habitat. It belongs to the landscape and merges with it. Haarmann belonged to Hanover—to the station, the neighborhood, the community. He was no foreign body or intruder; he was part of the very space in which he killed.</p>
+        <p class="vb-intro"><strong>b) The Bite as the Sole Weapon:</strong>
+The Black Mamba possesses one of the world's most potent neurotoxins—and delivers it through its bite. Haarmann's signature was likewise the bite—biting the throat as a killing method. The most immediate, physical, and intimate form of violence: no distance, no tool, only body against body. This is SX1 energy in its most radical manifestation.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Fritz Haarmann</strong> verkörpert den Sexuellen Typ 1 with Nine-wing
-        in einer Ausprägung, die das Einser-Muster der totalen Kontrolle
-        mit der Neuner-Wärme der sozialen Unauffälligkeit verbindet.
-        Der SX-Instinkt trieb ihn zur intimsten Form der Besitznahme;
-        die Eins gab dem Impuls eine Logik,
-        die für ihn selbst kohärent war;
-        der Nine-wing sorgte dafür,
-        dass diese Logik nach außen vollständig verborgen blieb –
-        hinter der Gemütlichkeit des Kiezbewohners,
-        hinter der Verlässlichkeit des Polizeispitzels,
-        hinter der Wärme des Mannes,
-        der Obdachlose nicht abwies.
-        Haarmann ist kein Fall von sichtbarer Gefährlichkeit.
-        Er ist ein Fall von vollständiger Verborgenheit –
-        von einem Innenleben,
-        das so konsequent von der Außenwelt getrennt war,
-        dass sechs Jahre vergingen,
-        bevor die Knochen im Flussbett
-        die erste Frage stellten.
+        <strong>c) Swift, Precise, Without Remorse:</strong>
+The Black Mamba does not strike hesitantly. It hits with maximum precision and retracts without a trace of agitation. After his crimes, Haarmann returned to daily routine—to his neighborhood, his customers, his police service—as if nothing had happened. The Mamba experiences no post-strike affect; the Nine ensures that Haarmann experienced none either.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX1 – der Kontratyp:</strong>
-        Claudio Naranjo beschrieb die sexuelle Eins
-        als den Kontratyp – den Einser-Subtype,
-        der am wenigsten nach einer Eins aussieht.
-        <strong>Haarmann</strong> ist der deutlichste Beleg:
-        Kein Perfektionismus, kein Ordnungszwang,
-        keine Rigidität nach außen –
-        stattdessen Wärme, Gemütlichkeit, Volksnähe.
-        Die Einser-Energie ist vollständig
-        nach innen verlagert und äußert sich
-        nur im intimsten Akt.</p>
-        <p class="vb-intro"><strong>b) Der Nine-wing als Tarnung ohne Absicht:</strong>
-        Der Nine-wing tarnt nicht strategisch –
-        er ist einfach so.
-        Die Neun strebt nach Frieden, nach Harmonie,
-        nach dem Verschwinden in der Gruppe.
-        Diese Qualität war bei <strong>Haarmann</strong>
-        keine berechnete Inszenierung wie bei Rader (SP1w9),
-        sondern strukturell echtere Sozialwärme –
-        was die Tarnung paradoxerweise
-        noch undurchdringlicher machte.</p>
-        <p class="vb-intro"><strong>c) Hans Grans und das SX1-Bindungsmuster:</strong>
-        Die Beziehung zu Hans Grans ist
-        für das Verständnis des SX1-Musters zentral.
-        Der SX-Instinkt braucht eine intensive
-        Kernbeziehung – eine Person,
-        auf die sich die ganze Energie bündelt.
-        Bei <strong>Haarmann</strong> war das Grans.
-        Dass diese Beziehung in Verbrechen eingebettet war,
-        zeigt, wie vollständig das SX1-Muster
-        eine Partnerschaft strukturieren kann –
-        bis hin zur gemeinsamen Täterschaft.</p>
-        <p class="vb-intro"><strong>d) Vergleich mit Josef Fritzl (SX1w9):</strong>
-        Beide sind Sexuelle Einsen with Nine-wing,
-        beide nutzten eine institutionelle Einbettung
-        als Schutzraum, beide zeigten eine
-        bürgerliche Fassade ohne erkennbare Risse.
-        Der entscheidende Unterschied liegt in der Form:
-        <strong>Fritzl</strong> erschuf eine vollständig geschlossene
-        Kontrollwelt – langfristig, systematisch, im eigenen Haus.
-        <strong>Haarmann</strong> handelte im offenen Raum –
-        flüchtig, episodisch, im Stadtbild verteilt.
-        Beide Male ist der SX1-Impuls derselbe:
-        absolute Besitznahme.
-        Der Nine-wing bestimmt die äußere Form:
-        Fritzl baute einen Keller;
-        Haarmann wurde zum Kiez.</p>
-        <p class="vb-intro"><strong>e) Historischer Kontext: Weimarer Republik:</strong>
-        Die frühen 1920er Jahre in Deutschland
-        waren eine Zeit extremer sozialer Zerrüttung:
-        Inflation, Kriegstraumata, staatliche Schwäche.
-        In diesem Vakuum entstanden Schutzräume,
-        die unter stabilen gesellschaftlichen Bedingungen
-        nicht existiert hätten.
-        <strong>Haarmanns</strong> Verbrechen sind ohne
-        diesen Kontext nicht vollständig zu verstehen –
-        nicht weil der Kontext sie erklärt,
-        sondern weil er sie ermöglichte.</p>
-        <p class="vb-intro"><strong>f) Das Geständnis und die Eins:</strong>
-        Im Verhör und vor Gericht zeigte <strong>Haarmann</strong>
-        eine eigentümliche Kooperationsbereitschaft –
-        er gestand mehr Taten, als ihm nachgewiesen werden konnten.
-        Das ist kein Widerspruch zum Einser-Muster:
-        Die Eins hat einen inneren Richter,
-        der Ordnung auch dort herstellt,
-        wo Unordnung ihr nicht nützt.
-        Die Geste des vollständigen Geständnisses
-        hat bei der Eins eine moralische Qualität –
-        ein letztes Ordnen der Dinge.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro">Fritz Haarmann embodies the Sexual Type 1 with a Nine-wing in an expression that unites the One's drive for total control with the Nine's social unobtrusiveness and warmth. The SX instinct drove him toward the most intimate form of possession; the One gave this impulse a logic that was internally coherent to him; the Nine-wing ensured that this logic remained completely hidden from the outside world—behind the coziness of a local resident, the reliability of a police informant, and the warmth of a man who never turned away homeless youth. Haarmann is not a case of visible danger. He is a case of complete concealment—of an inner life so consistently severed from the outer world that six years passed before bones in a riverbed raised the very first question.</p>
+        <p class="vb-intro"><strong>a) Naranjo's SX1 – The Countertype:</strong>
+Claudio Naranjo described the sexual One as the countertype—the One subtype that looks least like a One. Haarmann is prime evidence: no perfectionism, no obsession with order, no external rigidity—instead warmth, coziness, and proximity to common people. The One energy is completely internalized and manifests solely in the most intimate act.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing as Unintentional Camouflage:</strong>
+The Nine-wing does not camouflage strategically—it simply is. The Nine strives for peace, harmony, and merging into the group. In Haarmann, this quality was not a calculated performance like in Rader (SP1w9), but structurally genuine social warmth—which paradoxically rendered the camouflage even more impenetrable.</p>
+        <p class="vb-intro"><strong>c) Hans Grans and the SX1 Bonding Pattern:</strong>
+The relationship with Hans Grans is central to understanding the SX1 pattern. The SX instinct requires an intense core relationship—a single person upon whom all energy is focused. For Haarmann, that was Grans. That this relationship was embedded in crime demonstrates how completely the SX1 pattern can structure a partnership—even to the point of joint perpetration.</p>
+        <p class="vb-intro"><strong>d) Comparison with Josef Fritzl (SX1w9):</strong>
+Both are Sexual Ones with a Nine-wing, both used institutional embedding as a protective space, and both maintained a bourgeois facade without visible cracks. The decisive difference lies in the execution: Fritzl created a completely closed world of control—long-term, systematic, within his own home. Haarmann acted in open space—fleetingly, episodically, distributed across the cityscape. In both, the SX1 impulse remains the same: absolute possession. The Nine-wing dictates the external form: Fritzl built a basement; Haarmann became part of the neighborhood.</p>
+        <p class="vb-intro"><strong>e) Historical Context: Weimar Republic:</strong>
+The early 1920s in Germany were a time of extreme social disruption: inflation, war trauma, and state weakness. Protective voids opened in this vacuum that would not have existed under stable societal conditions. Haarmann's crimes cannot be fully understood without this context—not because it excuses them, but because it enabled them.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -32693,7 +32413,8 @@ function fritzHaarmannPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Fritz Haarmann wurde 1925 wegen 24-fachen Mordes zum Tode verurteilt und noch im selben Jahr hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>f) The Confession and the One:</strong>
+During interrogation and at trial, Haarmann displayed a peculiar willingness to cooperate—confessing to more deeds than could be proven. This is no contradiction to the One pattern: the One possesses an inner judge who creates order even where disorder would serve self-preservation. The gesture of full confession holds a moral quality for the One—a final organizing of facts.
         </p>
       </div>
 
