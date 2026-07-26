@@ -1385,9 +1385,9 @@ function inhaltsübersichtPage() {
 
         ${cat("Type System & Foundations", "&#9672;", [
           "9 Typen mit eigenen Portraits",
-          "27 Subtypees-Profile",
+          "27 Subtypes-Profile",
           "3 integrierte Typentests",
-          "Subtypees-Checklisten",
+          "Subtypes-Checklisten",
           "Subtypee Charts",
           "Lookalike-Typen",
           "Verwechslungspaare",
@@ -1458,7 +1458,7 @@ function inhaltsübersichtPage() {
           "Befreiende Fragen",
           "Making Peace",
           "Laster → Tugenden",
-          "Search nach Liebe",
+          "Search for True Love",
           "Three Life Forces",
           "Selbstreflexion & Identifikation",
           "Perspektiven",
@@ -1504,7 +1504,7 @@ function inhaltsübersichtPage() {
           "Verhaltensweisen (Zorn, Liebe, Erfolg…)",
           "Gaslighting & Manipulation",
           "Beziehungsverhalten",
-          "Search nach Liebe",
+          "Search for True Love",
           "Closeness & Distance",
           "Bedrohungsszenarien",
           "Differenzierung",
@@ -1678,8 +1678,8 @@ function leseprobePage() {
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Wunden & Schutzstrategien &#8594;</div>
         </div>
         <div data-route="bedeutung-27-subtypen" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypees" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
-          <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Bedeutung der 27 Subtypees &#8594;</div>
+          <img src="${CDN}assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypes" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Bedeutung der 27 Subtypes &#8594;</div>
         </div>
         <div data-route="neun-logismoi" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
           <img src="${CDN}assets/neun-logismoi.jpg" alt="9 Logismoi nach Evagrius Ponticus" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
@@ -1737,7 +1737,7 @@ function leseprobePage() {
         <div style="background:linear-gradient(135deg,#f5eef5,#e0c8e0);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128142;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Edelsteine</div>
-          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Energetische Begleitung der Subtypees</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Energetische Begleitung der Subtypes</div>
         </div>
         <div style="background:linear-gradient(135deg,#fdf0e0,#f0d0a0);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127807;</div>
@@ -3909,7 +3909,7 @@ function _sucheResultsHtml(res, q) {
   };
 
   return `<p class="suche-total">${total} Ergebnis${total === 1 ? "" : "se"}</p>
-    ${group("Subtypees", res.subtypen)}
+    ${group("Subtypes", res.subtypen)}
     ${group("Kriminalporträts", res.portraits)}
     ${group("Register &amp; Charts", res.register)}
     ${group("Quotes of the Wise", res.zitate)}`;
@@ -4871,7 +4871,7 @@ function tierquizPage() {
         <div style="font-size:3rem;margin-bottom:1rem;">🦁</div>
         <h2 class="typentest-titel">The animal is still hiding</h2>
         <p style="color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:1.5rem;">Sometimes we need to look twice. Try again – perhaps a different answer feels more honest.</p>
-        <button class="typentest-start-btn" onclick="window._tqReset()">↺ Nochmal starten</button>
+        <button class="typentest-start-btn" onclick="window._tqReset()">↺ Start Over</button>
       </div></div>
     </div>
   `);
@@ -4884,7 +4884,7 @@ function tierquizPage() {
           <img src="https://res.cloudinary.com/ymooybdl/image/upload/c_crop,g_xy_center,x_0.47,y_0.47,w_0.76,h_0.76/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.replace(/^SP/,"SE").toLowerCase()}-tier.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           <p class="eyebrow" style="margin-bottom:0.3rem;">Your Enneagram Animal</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
-          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" || s.inst === "SP" ? "Self-Preservation" : s.inst === "SO" ? "Social" : "Sexual"} Type ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
+          <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" || s.inst === "SP" ? "Self-Preservation" : s.inst === "SO" ? "Social" : "Sexual"} Type ${s.type} <span style="font-weight:400;opacity:0.7;">(${code.replace(/^SE/,'SP')})</span></p>
           <p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin-bottom:1.8rem;text-align:left;">${beschr}</p>
           <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">View Subtype Profile &#8594;</button>
           <br>
@@ -7912,7 +7912,7 @@ function dynamikDerTypenPage() {
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "In dieser Zeit entstanden auch die Videos – das Buch liefert die schriftliche Vertiefung zur Typbestimmung, Schritt für Schritt.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
         { route: "dynamik-des-bewusstseinszustandes", label: "Dynamik des Bewusstseinszustands" },
-        { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypees" },
+        { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypes" },
         { route: "enneagramm-profiling", label: "Enneagram Profiling" },
       ])}
     </div>
@@ -8352,7 +8352,7 @@ function koerperarbeitBlock(k) {
 function regulierenInner(entry, sp) {
   const blocks = [];
   // Alle Charts außer Seite 1 (die bereits in spuerenInner gezeigt wird)
-  // visualPages ersetzt koerperarbeit.seiten für alle 27 Subtypees vollständig
+  // visualPages ersetzt koerperarbeit.seiten für alle 27 Subtypes vollständig
   if (entry.visualPages && entry.visualPages.length > 1) {
     const remaining = entry.visualPages.filter(pg => !pg.src.includes("page-1"));
     remaining.forEach(pg => blocks.push(`
@@ -9871,7 +9871,7 @@ function typentestPage() {
             <div class="typentest-step"><span class="typentest-step__num">3</span><span>Instinktschwerpunkt</span></div>
           </div>
           ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
           <button class="primary" id="tt-start">Test starten →</button>
           <button class="ghost-link" data-route="dashboard">← Back</button>
         </div>
@@ -10255,7 +10255,7 @@ function diagnosetestPage() {
           <ul class="diag-scores">${bars}</ul>
           <div style="margin:1.5rem 0;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
-            <p style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Mit dem Full access sehen Sie das komplette Profil Ihres Typs — Remedies, Charts und alle 27 Subtypees.</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Mit dem Full access sehen Sie das komplette Profil Ihres Typs — Remedies, Charts und alle 27 Subtypes.</p>
             <button data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Unlock now &#8594;</button>
           </div>
           <div class="typentest-cta-group" style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
@@ -10548,10 +10548,10 @@ function horneyTriadenPage() {
     ${pageHeader("horney-triaden")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Diagnostik</p>
-      <h1 class="section-title">Horney-Triaden und Subtypees</h1>
-      <p class="psycho-intro">Diese \xdcbersicht verbindet zwei hochkompatible Ebenen der Pers\xf6nlichkeitsdiagnostik: die Horney-Triaden als grundlegende Bewegungsrichtungen des Menschen zur Welt und die instinktiven Subtypees als Lebensfelder, in denen sich diese Bewegung konkret zeigt. Zusammengenommen entsteht eine differenzierte, beobachtbare und im Profiling \xe4u\xdferst hilfreiche Landkarte.</p>
+      <h1 class="section-title">Horney-Triaden und Subtypes</h1>
+      <p class="psycho-intro">Diese \xdcbersicht verbindet zwei hochkompatible Ebenen der Pers\xf6nlichkeitsdiagnostik: die Horney-Triaden als grundlegende Bewegungsrichtungen des Menschen zur Welt und die instinktiven Subtypes als Lebensfelder, in denen sich diese Bewegung konkret zeigt. Zusammengenommen entsteht eine differenzierte, beobachtbare und im Profiling \xe4u\xdferst hilfreiche Landkarte.</p>
 
-      <img src="${CDN}assets/horney-triaden-subtypen.jpg" alt="Horney-Triaden und Subtypees"
+      <img src="${CDN}assets/horney-triaden-subtypen.jpg" alt="Horney-Triaden und Subtypes"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -10574,8 +10574,8 @@ function horneyTriadenPage() {
         <p class="vb-anmerkung"><em>Diese drei Bewegungsrichtungen sind keine Enneagramm-Zentren (Bauch, Herz, Kopf), sondern eine relationale Perspektive: Wie bewege ich mich zur Welt, wenn Spannung entsteht?</em></p>
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1.5rem;">
-          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">2. Die Subtypees: Das Lebensfeld der Bewegung</h2>
-          <p class="vb-intro">Die Subtypees beschreiben nicht <em>wie</em> jemand sich bewegt, sondern <em>wo</em> diese Bewegung prim\xe4r stattfindet.</p>
+          <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">2. Die Subtypes: Das Lebensfeld der Bewegung</h2>
+          <p class="vb-intro">Die Subtypes beschreiben nicht <em>wie</em> jemand sich bewegt, sondern <em>wo</em> diese Bewegung prim\xe4r stattfindet.</p>
           <div style="display:grid;gap:.5rem;font-size:.85rem;margin:.8rem 0 .4rem;line-height:1.65;">
             <div><span style="font-weight:700;color:var(--copper);">Selbsterhaltung (SE)</span> &ndash; Fokus auf Sicherheit, K\xf6rper, Ressourcen und Stabilit\xe4t. Die Bewegung zeigt sich in Fragen von Versorgung, Schutz und Belastbarkeit.</div>
             <div><span style="font-weight:700;color:var(--copper);">Sozial (SO)</span> &ndash; Im Vordergrund stehen Rollen, Zugeh\xf6rigkeit, Verantwortung und Position im System. Die Bewegung entfaltet sich im Kontext von Gruppen und Strukturen.</div>
@@ -10655,7 +10655,7 @@ function horneyTriadenPage() {
       ${relatedLinks([
         {route:"enneagramm-profiling", label:"Enneagram Profiling"},
         {route:"subtypen-schaubilder", label:"Subtypee Charts"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypes"},
       ])}
     </div>
   `);
@@ -10708,7 +10708,7 @@ function schutzdefizitePage() {
 
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist")}
       ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht &ndash; und was er über unsere tiefsten Prägungen verrät.", "Der Code der Persönlichkeit")}
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"triadendefizite", label:"Triadendefizite"},
         {route:"grundformel", label:"Grundformel"},
@@ -10812,7 +10812,7 @@ function _portraitTypPage(typ) {
   const bilder = Array.from({length: 8}, (_, i) => {
     const nr = String(typ.start + i).padStart(3, "0");
     return `<div class="psycho-img-wrap" style="margin-bottom:1.5rem;">
-      <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/portraits-typen/Portraits_der_9_Typen_und_27_Subtypees.${nr}.png"
+      <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/portraits-typen/Portraits_der_9_Typen_und_27_Subtypes.${nr}.png"
            alt="Portrait Typ ${typ.nr} – Seite ${i+1}" class="psycho-img" loading="lazy"/>
     </div>`;
   }).join("");
@@ -10829,7 +10829,7 @@ function _portraitTypPage(typ) {
   return shell(`
     ${pageHeader(`portrait-typ-${typ.nr}`)}
     <section class="narrow">
-      <p class="eyebrow" style="color:${typ.farbe};">Portraits · 9 Typen / 27 Subtypees</p>
+      <p class="eyebrow" style="color:${typ.farbe};">Portraits · 9 Typen / 27 Subtypes</p>
       <h1>Portrait Typ ${typ.nr}: ${typ.name}</h1>
       <p style="font-size:0.88rem;color:var(--copper);margin-bottom:0.3rem;">${typ.subtypen}</p>
       <p class="lead-small">${typ.intro}</p>
@@ -11257,7 +11257,7 @@ function berühmteKomponistenPage() {
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Musik &middot; Geschichte</p>
       <h1>Berühmte Komponisten im Enneagramm</h1>
-      <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypees zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SP9).</p>
+      <p class="lead-small">Neun Enneagrammtypen — neun Klangwelten. Dieses Schaubild ordnet die berühmtesten Komponisten der Musikgeschichte ihren Enneagrammtypen und Subtypes zu und zeigt: Wie ein Mensch fühlt, so klingt seine Musik. Von der göttlich-väterlichen Strenge Johann Sebastian Bachs (SX1) über die romantisch-verzehrende Sehnsucht Frédéric Chopins (SX5) bis zur egofreien, geschwisterlich-akzeptierenden Liebe von Johannes Brahms (SP9).</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
@@ -11267,8 +11267,8 @@ function berühmteKomponistenPage() {
 
       ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen — der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen — Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild — Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees — Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild — Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes — Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"portraits-wegbegleiter", label:"Portraits zweier Companions"},
         {route:"beruhmte-philosophen", label:"Berühmte Philosophen im Enneagramm"},
@@ -11381,18 +11381,18 @@ function portraitsCompanionsPage() {
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Biographie &amp; Begegnung</p>
       <h1>Portraits zweier Companions</h1>
-      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagram Profilings, und sein Lehrer <strong>Dr. Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt und Begründer der Subtypeeslehre des Enneagramms mit 27 Subtypees — dessen Tradition Detlef Rathmer und sein Sohn David gemeinsam weiterführen.</p>
+      <p class="lead-small">Zwei Menschen, deren Wege sich mit dem Enneagramm verbinden — und die Detlef Rathmer auf seinem Lebensweg begleitet haben: sein Sohn <strong>David L. Rathmer</strong>, Begründer des Enneagram Profilings, und sein Lehrer <strong>Dr. Claudio Naranjo</strong>, einer der bedeutendsten Enneagramm-Pioniere der Welt und Begründer der Subtypeslehre des Enneagramms mit 27 Subtypes — dessen Tradition Detlef Rathmer und sein Sohn David gemeinsam weiterführen.</p>
 
       <div style="margin-top:2rem;">
         ${bilder}
       </div>
 
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"beruhmte-komponisten", label:"Berühmte Komponisten im Enneagramm"},
         {route:"wer-wir-sind", label:"Who We Are"},
         {route:"wurzeln-des-enneagramms", label:"Wurzeln des Enneagramms"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypes"},
       ])}
     </section>
   `);
@@ -11612,7 +11612,7 @@ function naehePage() {
         </div>
 
         <p class="vb-intro">Wenn wir nur die Strategie sehen, reagieren wir auf der gleichen Ebene &mdash; wir kontern, argumentieren oder distanzieren uns. Wenn wir jedoch die Geschichte h\xf6ren, ver\xe4ndert sich etwas: Dann begegnen wir nicht mehr einer Strategie, sondern einem Menschen.</p>
-        <p class="vb-intro">Gerade in den Subtypees wird das besonders deutlich. Ob jemand seine Grunddynamik prim\xe4r \xfcber Selbstbehauptung, \xfcber soziale Einbindung oder \xfcber intensive Bindung lebt, pr\xe4gt den Ausdruck enorm. Zwei Menschen desselben Typs k\xf6nnen v\xf6llig unterschiedlich erscheinen &mdash; und doch tragen beide dieselbe Grundbewegung in sich.</p>
+        <p class="vb-intro">Gerade in den Subtypes wird das besonders deutlich. Ob jemand seine Grunddynamik prim\xe4r \xfcber Selbstbehauptung, \xfcber soziale Einbindung oder \xfcber intensive Bindung lebt, pr\xe4gt den Ausdruck enorm. Zwei Menschen desselben Typs k\xf6nnen v\xf6llig unterschiedlich erscheinen &mdash; und doch tragen beide dieselbe Grundbewegung in sich.</p>
 
         <div style="border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1.8rem;">
           <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Der unverletzbare Kern</h2>
@@ -12125,14 +12125,14 @@ function tierentsprechungenPage() {
     ${pageHeader("tierentsprechungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts · Animal correspondenceen</p>
-      <h1 class="section-title">Animal correspondenceen der 27 Subtypees</h1>
-      <p class="psycho-intro">Jedem der 27 Subtypees sind charakteristische Tiere zugeordnet, deren Wesensart, Verhalten und Überlebensstrategien den jeweiligen Subtypeus spiegeln. Das Bild zeigt die visuelle Übersicht; die Tabelle darunter listet alle Entsprechungen systematisch nach Typ und Instinkt (SE · SO · SX) auf.</p>
+      <h1 class="section-title">Animal correspondenceen der 27 Subtypes</h1>
+      <p class="psycho-intro">Jedem der 27 Subtypes sind charakteristische Tiere zugeordnet, deren Wesensart, Verhalten und Überlebensstrategien den jeweiligen Subtypeus spiegeln. Das Bild zeigt die visuelle Übersicht; die Tabelle darunter listet alle Entsprechungen systematisch nach Typ und Instinkt (SE · SO · SX) auf.</p>
       <img
         src="${CDN}assets/tierentsprechungen-kreis.jpg"
         alt="Animal correspondenceen Enneagramm-Kreis"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
-      <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">Alle 27 Subtypees im Überblick</h2>
+      <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">Alle 27 Subtypes im Überblick</h2>
       <div style="border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.3rem;margin-bottom:1.8rem;background:var(--paper);">
         <p style="font-size:.88rem;color:var(--ink);line-height:1.7;margin:0 0 .9rem;">
           Die folgende \xdcbersicht zeigt alle 27 archetypischen Tierportr\xe4ts des Enneagramms als visuelle Verdichtung psychologischer Grundmuster. Die Tiere sind nicht als Illustration gedacht, sondern sollen auf einen Blick eine Atmosph\xe4re, eine energetische Grundhaltung und ein inneres Bewegungsmuster erfahrbar machen &ndash; weniger f\xfcr den analytischen Verstand als f\xfcr die intuitive Wahrnehmung.
@@ -12146,7 +12146,7 @@ function tierentsprechungenPage() {
       </div>
       <img
         src="${CDN}assets/tierentsprechungen-portraits.png"
-        alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypees"
+        alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypes"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.75rem;margin-bottom:2rem;">
@@ -12239,7 +12239,7 @@ function tierlexikonPage() {
     ${pageHeader("tierlexikon")}
     <div style="max-width:700px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Wissen &middot; Tierlexikon</p>
-      <h1 class="section-title">Tierlexikon der 27 Subtypees</h1>
+      <h1 class="section-title">Tierlexikon der 27 Subtypes</h1>
       <p class="psycho-intro">50 außergewöhnliche Fakten zu jedem Subtype-Tier &ndash; immer mit Bezug zu den Eigenschaften, Motivationen und Verhaltensweisen des jeweiligen Enneagramm-Subtypes. Echte Biologie, echter Charakter.</p>
       <div style="
         display:grid;
@@ -12429,7 +12429,7 @@ function obstsortPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"tierentsprechungen", label:"Animal correspondenceen"},
@@ -12483,7 +12483,7 @@ function gemuesesortenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"obstsorten", label:"Obstsorten der Typen"},
@@ -12537,7 +12537,7 @@ function weinsortenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"obstsorten", label:"Obstsorten der Typen"},
@@ -12591,7 +12591,7 @@ function brotsortenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"obstsorten", label:"Obstsorten der Typen"},
@@ -12645,7 +12645,7 @@ function kaesesortenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -16159,8 +16159,8 @@ function stingPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
@@ -16218,8 +16218,8 @@ function christophWaltzPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
@@ -16279,8 +16279,8 @@ function johnLennonPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
@@ -16346,8 +16346,8 @@ function tilSchweigerPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
@@ -16408,8 +16408,8 @@ function taddlPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
@@ -16469,8 +16469,8 @@ function romySchneiderPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
@@ -16531,8 +16531,8 @@ function clemensArvayPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
@@ -16593,8 +16593,8 @@ function freddieMercuryPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
@@ -16654,8 +16654,8 @@ function anaDeArmasPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
@@ -16715,8 +16715,8 @@ function christianRaetschPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
@@ -16776,8 +16776,8 @@ function billGatesPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
@@ -16837,8 +16837,8 @@ function kollegahPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
@@ -16897,8 +16897,8 @@ function aliceSchwarzerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
@@ -16955,8 +16955,8 @@ function ankeEngelkePortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
@@ -17013,8 +17013,8 @@ function jasminPaoliniPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
@@ -17071,8 +17071,8 @@ function hansZimmerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
@@ -17129,8 +17129,8 @@ function hazelBruggerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
@@ -17187,8 +17187,8 @@ function inaMuellerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
@@ -17245,8 +17245,8 @@ function thomasGottschalkPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
@@ -17303,8 +17303,8 @@ function elonMuskPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
@@ -17361,8 +17361,8 @@ function umbertEcoPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
@@ -17420,8 +17420,8 @@ function toniMorrisonPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
@@ -17479,8 +17479,8 @@ function michelleObamaPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
@@ -17537,8 +17537,8 @@ function budSpencerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
@@ -17595,8 +17595,8 @@ function donaldTrumpPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
@@ -17654,8 +17654,8 @@ function genesisPOrridgePortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
@@ -17712,8 +17712,8 @@ function hansDietrichGenscherPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
@@ -17771,8 +17771,8 @@ function steffiGrafPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
@@ -17831,8 +17831,8 @@ function heikeMakatschPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
@@ -17892,8 +17892,8 @@ function keanuReevesPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
@@ -17954,8 +17954,8 @@ function willyBrandtPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
@@ -18013,8 +18013,8 @@ function baerbelBasPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
@@ -18073,8 +18073,8 @@ function herbertGroenomeyerPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
@@ -18134,8 +18134,8 @@ function sigmundFreudPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
@@ -18194,8 +18194,8 @@ function beatriceChebetPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
@@ -18255,8 +18255,8 @@ function herbertKicklPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
@@ -18316,7 +18316,7 @@ function markZuckerbergPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18377,7 +18377,7 @@ function edwardSnowdenPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18438,7 +18438,7 @@ function taylorSwiftPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18503,7 +18503,7 @@ function claudioNaranjoPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18564,7 +18564,7 @@ function gertrudeElionPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18625,7 +18625,7 @@ function peterLustigPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18686,7 +18686,7 @@ function ladyDianaPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18748,7 +18748,7 @@ function dieterBohlenPortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18810,7 +18810,7 @@ function kaiPflaumePortraitPage() {
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18871,7 +18871,7 @@ function angelinaJoliePortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18932,7 +18932,7 @@ function jordanPetersonPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -18993,7 +18993,7 @@ function friedrichMerzPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19054,7 +19054,7 @@ function leonardoDiCaprioPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19116,7 +19116,7 @@ function gretaThunbergPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19177,7 +19177,7 @@ function janUllrichPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19239,7 +19239,7 @@ function barackObamaPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19301,7 +19301,7 @@ function ninaChubaPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19363,7 +19363,7 @@ function matthiasSchweighoeferPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19425,7 +19425,7 @@ function cristianoRonaldoPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19487,7 +19487,7 @@ function kathrinBauerfeindPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19549,7 +19549,7 @@ function sadhguruPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19611,7 +19611,7 @@ function bracoPortraitPage() {
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -19731,7 +19731,7 @@ function kriminalpsychologiePage() {
     +'<div id="kf-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
     +buildList()
     +'</div>'
-    +relatedLinks(['{"route":"blickqualitaet","label":"Gaze Quality of the 9 Types"}','{"route":"psychogramme","label":"Psychogramme"}','{"route":"mikroimpressionen","label":"Mikroimpressionen der 27 Subtypees"}'].map(JSON.parse))
+    +relatedLinks(['{"route":"blickqualitaet","label":"Gaze Quality of the 9 Types"}','{"route":"psychogramme","label":"Psychogramme"}','{"route":"mikroimpressionen","label":"Mikroimpressionen der 27 Subtypes"}'].map(JSON.parse))
     +'</div>'
   );
 }
@@ -19802,7 +19802,7 @@ function elliotRodgerPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Vier: Ausgeschlossenheit als Identit\xe4t</h3>
-        <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist unter den Vierer-Subtypees die am st\xe4rksten auf Zugeh\xf6rigkeit ausgerichtete &ndash; und gleichzeitig die, bei der Zugeh\xf6rigkeit am tiefsten scheitert. Naranjo nennt diesen Subtype <em>Scham</em>: Die soziale Vier empfindet sich als mangelhaft, als strukturell anders als die anderen, als jemanden, der nie ganz dazugeh\xf6ren wird. Im Unterschied zur selbsterhaltenden oder sexuellen Vier klagt sie nicht laut &ndash; sie leidet still und beobachtet mit brennenden Augen, wie die anderen das bekommen, was ihr fehlt.</p>
+        <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist unter den Vierer-Subtypes die am st\xe4rksten auf Zugeh\xf6rigkeit ausgerichtete &ndash; und gleichzeitig die, bei der Zugeh\xf6rigkeit am tiefsten scheitert. Naranjo nennt diesen Subtype <em>Scham</em>: Die soziale Vier empfindet sich als mangelhaft, als strukturell anders als die anderen, als jemanden, der nie ganz dazugeh\xf6ren wird. Im Unterschied zur selbsterhaltenden oder sexuellen Vier klagt sie nicht laut &ndash; sie leidet still und beobachtet mit brennenden Augen, wie die anderen das bekommen, was ihr fehlt.</p>
         <p class="vb-intro"><strong>Elliot Rodger</strong>, geboren am 24. Juli 1991 in London, aufgewachsen in Los Angeles, Sohn eines britischen Filmregisseurs und einer malaiischen Mutter, war von fr\xfch an ein Kind, das nicht ankam. Scheidung der Eltern mit sieben Jahren, h\xe4ufige Schulwechsel, Asperger-\xe4hnliche soziale Schwierigkeiten, die nie diagnostiziert wurden. Er beobachtete andere Jugendliche beim Dazugeh\xf6ren &ndash; beim Flirten, beim Ausgehen, beim m\xfchelosen Contactaufnehmen &ndash; und verstand nicht, warum er keinen Zugang fand.</p>
       </div>
 
@@ -19857,7 +19857,7 @@ function elliotRodgerPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 24. Juli 1991 &ndash; 23. Mai 2014</span>
           <span style="display:block;"><strong>Tatfolgen:</strong> 6 Tote, 14 Verletzte; Isla Vista, Kalifornien</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SP4, SO4 und SX4 unterschiedlich ausdr\xfcckt – und warum die SO4 Scham nach innen tr\xe4gt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SP4, SO4 und SX4 unterschiedlich ausdr\xfcckt – und warum die SO4 Scham nach innen tr\xe4gt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Neid als Grundmotiv der Vier: Wie der Schmerz des Andersseins entsteht und wie Verbindung w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -20080,7 +20080,7 @@ function adolfHitlerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 4 in seiner tiefsten Auspr\xe4gung – Rivalit\xe4t, Neid und der Weg von der Selbstz\xf6rst\xf6rung zur Heilung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 4 in seiner tiefsten Auspr\xe4gung – Rivalit\xe4t, Neid und der Weg von der Selbstz\xf6rst\xf6rung zur Heilung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die sexuelle Vier von der Sozialen und Self-Preservationen Vier unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Der Typ 4 ausf\xfchrlich portr\xe4tiert – Sehnsucht, Neid und der Heilungsweg \xfcber die R\xfcckkehr zum gegenw\xe4rtigen Sein.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -20296,7 +20296,7 @@ function lukaMagnottaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 3 in seiner tiefsten Auspr\xe4gung – Charisma, Verf\xfchrung und der Weg von der Maske zum echten Selbst.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 3 in seiner tiefsten Auspr\xe4gung – Charisma, Verf\xfchrung und der Weg von der Maske zum echten Selbst.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die sexuelle Drei von selbsterhaltender Drei und Sozialer Drei unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, blockierte Herzenergie und der Heilungsweg \xfcber Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -20488,7 +20488,7 @@ function richardRamirezPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 3 von selbsterhaltender und sozialer Drei unterscheidet – 27 Charakterprofile.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, blockierte Herzenergie und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -20714,7 +20714,7 @@ function harveyWeinsteinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 2 in seiner tiefsten Auspr\xe4gung – Anspruch, Geben als Kontrolle und der Weg zur echten Liebe ohne Rechnung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 2 in seiner tiefsten Auspr\xe4gung – Anspruch, Geben als Kontrolle und der Weg zur echten Liebe ohne Rechnung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die selbsterhaltende Zwei von Sozialer und Sexueller Zwei unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, blockierte Herzenergie und der Heilungsweg \xfcber echte Bed\xfcrftigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -20759,7 +20759,7 @@ function pabloEscobarPortraitPage() {
         Die Leidenschaft der Drei ist <em>T\xe4uschung</em> (Deceit) – aber beim selbsterhaltenden
         Subtype richtet sie sich nicht auf Image und \xf6ffentliche Bewunderung wie bei der Sozialen Drei,
         sondern auf <strong>Akkumulation und Sicherheit</strong>: Reichtum, Kontrolle, Ressourcen.
-        Die selbsterhaltende Drei arbeitet effizienter, pragmatischer und k\xe4lter als seine Geschwister-Subtypees –
+        Die selbsterhaltende Drei arbeitet effizienter, pragmatischer und k\xe4lter als seine Geschwister-Subtypes –
         und ist deshalb oft der gef\xe4hrlichste.</p>
       </div>
 
@@ -20934,7 +20934,7 @@ function pabloEscobarPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 3 in seiner ganzen Tiefe \u2013 Akkumulation, T\xe4uschung und der Weg vom Funktionieren zum echten Sein.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 3 in seiner ganzen Tiefe \u2013 Akkumulation, T\xe4uschung und der Weg vom Funktionieren zum echten Sein.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile \u2013 wie sich die selbsterhaltende Drei von der Sozialen und Sexuellen Drei unterscheidet, pointiert und pr\xe4zise.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Der Self-Preservation Type 3 ausf\xfchrlich portr\xe4tiert \u2013 Leidenschaft, blockierte Herzenergie und Heilungsweg.", "Wer du wirklich bist \u2013 Band 1")}
       </div>
@@ -21134,7 +21134,7 @@ function dennisNilsenPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -21350,7 +21350,7 @@ function dorotheaPuentePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -21646,7 +21646,7 @@ function michailPopkowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -21919,7 +21919,7 @@ function dennisRaderPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -22186,7 +22186,7 @@ function andreiTschikatiloPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -22310,8 +22310,8 @@ function bernieMadoffPortraitPage() {
       </div>
 
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SP3w4) \u2013 FTX-Betrug"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4) \u2013 Die Cryptoqueen"},
@@ -22529,7 +22529,7 @@ function arnoFunkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -22624,7 +22624,7 @@ function chrisWattsPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Typ 7 als Kontratyp – wie die Sieben hinter Pflicht und Aufopferung ihre eigene Maßlosigkeit verbirgt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Typ 7 als Kontratyp – wie die Sieben hinter Pflicht und Aufopferung ihre eigene Maßlosigkeit verbirgt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert – Ma\xdflosigkeit, Zukunftsflucht und der Heilungsweg \xfcber N\xfcchternheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -22822,7 +22822,7 @@ function aileenWuornosPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Gier bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Gier bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Gier, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -23087,7 +23087,7 @@ function pDiddyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie sich Maßlosigkeit bei SP7, SO7 und SX7 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich der sexuelle Typ 7 von selbsterhaltender und sozialer Sieben unterscheidet – 27 Profile.", "Die 27 Persönlichkeiten in dir")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Maßlosigkeit, Angst vor dem Schmerz und der Heilungsweg über echte Tiefe.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -23190,7 +23190,7 @@ function grisdaBlancoPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 15. Februar 1943 &ndash; 3. September 2012</span>
           <span style="display:block;"><strong>Verbrechen:</strong> Aufbau des ersten Kokain-Netzwerks Miami&ndash;Kolumbien; sch\xe4tzungsweise \xfcber 200 Morde in Auftrag gegeben; verurteilt 1994; erschossen 2012 in Medell\xedn durch einen Moto Sicario</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SP8 so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SP8 so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -23427,7 +23427,7 @@ function salvatoreRiinaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\xfchrlich portr\xe4tiert – Wollust, Macht und der Heilungsweg \xfcber echte St\xe4rke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -23681,7 +23681,7 @@ function jeffreyEpsteinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\xfchrlich portr\xe4tiert – Wollust, Macht und der Heilungsweg \xfcber echte St\xe4rke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -23994,7 +23994,7 @@ function samuelBankmanFriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 im Vergleich mit SO3 und SX3 – Kontratyp-Dynamik und das Dreier-Muster der Selbsterhaltung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 im Vergleich mit SO3 und SX3 – Kontratyp-Dynamik und das Dreier-Muster der Selbsterhaltung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Maske und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -24225,7 +24225,7 @@ function rujaIgnatovaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich T\xe4uschung bei den drei Dreier-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich T\xe4uschung bei den drei Dreier-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -24475,7 +24475,7 @@ function johnWayneGacyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierfl\xfcgel.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierfl\xfcgel.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -24516,7 +24516,7 @@ function belleGunnessPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Der Kontratyp</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 3 (SP3)</strong> ist unter den Dreier-Subtypees derjenige, der am wenigsten wie eine Drei aussieht. Claudio Naranjo nennt ihn den &bdquo;Kontratyp&ldquo;: Statt Gl\xe4nzen und Pr\xe4sentieren zeigt die SP3 Bescheidenheit, Zur\xfcckhaltung, Bodenst\xe4ndigkeit. Kein Auftreten. Kein Rampenlicht. Aber die Energie darunter ist dieselbe &ndash; nur dass sie nicht auf Ruhm, sondern auf materielle Sicherheit gerichtet ist. Die selbsterhaltende Drei fragt nicht: <em>Wie werde ich bewundert?</em> Sie fragt: <em>Wie sichere ich meinen Besitz, meine Ressourcen, meinen \xdcberlebensspielraum?</em></p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 3 (SP3)</strong> ist unter den Dreier-Subtypes derjenige, der am wenigsten wie eine Drei aussieht. Claudio Naranjo nennt ihn den &bdquo;Kontratyp&ldquo;: Statt Gl\xe4nzen und Pr\xe4sentieren zeigt die SP3 Bescheidenheit, Zur\xfcckhaltung, Bodenst\xe4ndigkeit. Kein Auftreten. Kein Rampenlicht. Aber die Energie darunter ist dieselbe &ndash; nur dass sie nicht auf Ruhm, sondern auf materielle Sicherheit gerichtet ist. Die selbsterhaltende Drei fragt nicht: <em>Wie werde ich bewundert?</em> Sie fragt: <em>Wie sichere ich meinen Besitz, meine Ressourcen, meinen \xdcberlebensspielraum?</em></p>
         <p class="vb-intro">Im Gleichgewicht ist das eine enorme Kraft: Pragmatismus, Flei\xdf, Verl\xe4sslichkeit, die F\xe4higkeit, eine Familie oder ein Unternehmen durch schwierige Zeiten zu f\xfchren. Im tiefen Ungleichgewicht wird diese Kraft zur reinen Kalkulation: Was brauche ich, was steht mir im Weg, wie r\xe4ume ich das Hindernis beiseite. Die T\xe4uschung ist nicht laut &ndash; sie ist still. Und sie ist gr\xfcndlich.</p>
       </div>
 
@@ -24577,7 +24577,7 @@ function belleGunnessPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 11. November 1859, Selbu, Norwegen &ndash; vermutlich 1908 (ungekl\xe4rt)</span>
           <span style="display:block;"><strong>Opfer:</strong> Mindestens 25&ndash;40 Tote (beide Ehem\xe4nner, mehrere Kinder, mindestens 11&ndash;14 M\xe4nner auf der Farm), La Porte, Indiana, ca. 1900&ndash;1908</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum der Kontratyp so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum der Kontratyp so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Täuschung als Grundmotiv der Drei: Das Selbst als Konstruktion – und was passiert, wenn die Konstruktion zum Werkzeug für Schlimmeres wird.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -24745,7 +24745,7 @@ function karlaHomolkaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich Täuschung bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Täuschung, Erfolg und der Heilungsweg über echte Wahrhaftigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -25013,7 +25013,7 @@ function busterMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg im Vergleich der drei Subtypees.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg im Vergleich der drei Subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -25211,7 +25211,7 @@ function angelResendezPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -25407,7 +25407,7 @@ function tommyLynnSellsPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SP2w1 im systemischen Vergleich – Fürsorge als Überlebensstrategie und ihre dunkelste Ausprägung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -25632,7 +25632,7 @@ function peterSutcliffePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, verdrängte Bedürfnisse und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -25876,8 +25876,8 @@ function annaDelveyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypees")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypes im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich: Stolz, F\xfcrsorge, Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26146,7 +26146,7 @@ function jonathanMeijerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei den drei Zweier-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei den drei Zweier-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -26352,8 +26352,8 @@ function michaelFranzesePortraitPage() {
         sondern geschenkt. Das ist der Weg von der T\xe4uschung zur Wahrheit.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 – der gute Mensch als Subtype: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – alle Dreier-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 – der gute Mensch als Subtype: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – alle Dreier-Subtypes im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26548,8 +26548,8 @@ function sebastianGreenwoodPortraitPage() {
         gef\xfchlt, \xf6ffnet den Heilungsweg.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 – das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtypes.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypees im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 – das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypes im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26761,7 +26761,7 @@ function pedroAlonsoLopezPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Selbstbild und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -26801,7 +26801,7 @@ function andrewCunananPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Prestige als Lebensinhalt</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> ist unter den Dreier-Subtypees derjenige, dessen Lebensmittelpunkt die Gruppe ist &ndash; nicht irgendeine Gruppe, sondern die <em>richtige</em>. Die Elite. Die Kreise, in denen man gesehen werden muss, um jemand zu sein. Claudio Naranjo nennt diesen Subtype den &bdquo;Pr\xe4sentierenden&ldquo;: jemanden, der seine Energie darauf verwendet, sich als erfolgreich, wertvoll und zugeh\xf6rig zu inszenieren &ndash; nicht aus Freude an der Welt, sondern weil die Alternative unertr\xe4glich w\xe4re.</p>
+        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> ist unter den Dreier-Subtypes derjenige, dessen Lebensmittelpunkt die Gruppe ist &ndash; nicht irgendeine Gruppe, sondern die <em>richtige</em>. Die Elite. Die Kreise, in denen man gesehen werden muss, um jemand zu sein. Claudio Naranjo nennt diesen Subtype den &bdquo;Pr\xe4sentierenden&ldquo;: jemanden, der seine Energie darauf verwendet, sich als erfolgreich, wertvoll und zugeh\xf6rig zu inszenieren &ndash; nicht aus Freude an der Welt, sondern weil die Alternative unertr\xe4glich w\xe4re.</p>
         <p class="vb-intro">Andrew Cunanan wurde am 31. August 1969 in National City bei San Diego geboren, Sohn eines philippinisch-amerikanischen Vaters und einer italoamerikanischen Mutter. Sein Vater Modesto Cunanan gab sich als wohlhabenden Gesch\xe4ftsmann aus, war in Wirklichkeit aber ein gescheiterter Anlageberater, der 1988 vor einer Betr\xfcgerei-Klage in die Philippinen floh &ndash; und die Familie in Armut zur\xfccklie\xdf. Andrew hatte bis dahin auf einer Eliteschule in La Jolla gelernt, war in gl\xe4nzenden sozialen Kreisen verkehrt, hatte sich an das Gefallen der Wohlhabenden gew\xf6hnt. Dieser Bruch hat ihn gepr\xe4gt &ndash; aber nicht in Richtung von Demut oder Neubeginn. Er hat ihn in Richtung von Verdopplung getrieben: noch \xfcberzeugender l\xfcgen, noch sch\xf6ner erscheinen, noch tiefer in die Kreise eindringen, die ihn best\xe4tigten.</p>
       </div>
 
@@ -26856,7 +26856,7 @@ function andrewCunananPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 31. August 1969 &ndash; 23. Juli 1997</span>
           <span style="display:block;"><strong>Tatfolgen:</strong> 5 Tote; Mordserie April&ndash;Juli 1997, USA</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -26960,7 +26960,7 @@ function ojSimpsonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 9. Juli 1947 &ndash; 10. April 2024</span>
           <span style="display:block;"><strong>Tatvorwurf:</strong> Doppelmord an Nicole Brown Simpson und Ron Goldman (12. Juni 1994); strafrechtlich freigesprochen 1995; zivilrechtlich schuldig 1997; 2008 wegen bewaffneten Raubes in Las Vegas verurteilt</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -27317,7 +27317,7 @@ function wadeWilsonPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SP3 und SX3 – Verstärkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SP3 und SX3 – Verstärkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SP3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Maske und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -27432,7 +27432,7 @@ function vincenzoPeruggiaPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lifespan:</strong> October 8, 1881 &ndash; October 8, 1925</span>
           <span style="display:block;"><strong>Crime:</strong> Theft of the Mona Lisa from the Louvre, August 21, 1911 &ndash; Arrest December 1913</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("hinter-der-leidenschaft", "Hinter der Eitelkeit die tiefere Wunde: Was den Drei antreibt, wenn das Bild wichtiger wird als das Sein.", "Hinter der Leidenschaft &ndash; die neun Wunden")}
         <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -27640,8 +27640,8 @@ function davidBerkowitzPortraitPage() {
         a question every reader must answer for themselves.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – alle Vierer-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – alle Vierer-Subtypes im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausführlich porträtiert – Neid, Sehnsucht und der Heilungsweg über echten Gleichmut.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -27862,8 +27862,8 @@ function johnMcAfeePortraitPage() {
         and that healing is therefore not an option.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 – die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerstörung zur schützenden Kraft.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – alle Achter-Subtypees im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 – die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerstörung zur schützenden Kraft.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – alle Achter-Subtypes im Überblick.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausführlich porträtiert – Wollust, Macht und der Heilungsweg über echte Stärke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -27905,7 +27905,7 @@ function johnGottiPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Acht: St\xe4rke als Schutz</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 8 (SO8)</strong> ist unter den Acht-Subtypees derjenige, dem es am wenigsten um pers\xf6nliche Selbstbehauptung geht &ndash; und am meisten um den Schutz der eigenen Gruppe. Claudio Naranjo beschreibt ihn als den Typus der <em>Freundschaft und Bruderschaft</em>: Der SO8er baut ein Reich auf, nicht f\xfcr sich allein, sondern f\xfcr die, die ihm geh\xf6ren. Er ist der Anf\xfchrer, der seine Loyalen belohnt, Feinde bestraft und die Ordnung innerhalb des Clans aufrechterh\xe4lt.</p>
+        <p class="vb-intro">Der <strong>soziale Typ 8 (SO8)</strong> ist unter den Acht-Subtypes derjenige, dem es am wenigsten um pers\xf6nliche Selbstbehauptung geht &ndash; und am meisten um den Schutz der eigenen Gruppe. Claudio Naranjo beschreibt ihn als den Typus der <em>Freundschaft und Bruderschaft</em>: Der SO8er baut ein Reich auf, nicht f\xfcr sich allein, sondern f\xfcr die, die ihm geh\xf6ren. Er ist der Anf\xfchrer, der seine Loyalen belohnt, Feinde bestraft und die Ordnung innerhalb des Clans aufrechterh\xe4lt.</p>
         <p class="vb-intro">Die Leidenschaft der Acht ist <em>Wollust</em> &ndash; nicht im engen sexuellen Sinne, sondern als \xfcberwältigende Lebensintensit\xe4t: alles in \xdcbergr\xf6\xdfe, alles mit maximaler Kraft. Die soziale Acht lebt diese Wollust kollektiv: ihr Revier muss gro\xdf sein, ihre Gefolgschaft zahlreich, ihre Macht untadelig. Gotti gab viel &ndash; und erwartete absolute Loyalit\xe4t zur\xfcck. Wer ihn verriet, ber\xfchrte das Einzige, was er nicht verzeihen konnte.</p>
       </div>
 
@@ -27973,7 +27973,7 @@ function johnGottiPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 27. Oktober 1940 &ndash; 10. Juni 2002</span>
           <span style="display:block;"><strong>Verurteilung:</strong> F\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung &ndash; lebenslang ohne Bew\xe4hrung, 1992; gestorben im Bundesgef\xe4ngnis Springfield, Missouri</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SP8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28054,7 +28054,7 @@ function leslieVanHoutenPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> geb. 23. August 1949</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Mord, lebensl\xe4nglich; 2023 nach 53 Jahren entlassen</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich ausdr\xfcckt – und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich ausdr\xfcckt – und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP9, SO9, SX9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Tr\xe4gheit als Grundmotiv der Neun: Wie der psychische Schlaf entsteht und wie Erwachen aussieht.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -28159,7 +28159,7 @@ function nickLeesonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Zusammenbruch von Barings Bank 1995, Verlust von 827 Mio. Pfund</span>
         </div>
 
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO9w8 im Profil: Zugeh\xf6rigkeit als Identit\xe4t, Sturheit als Schutzschicht &ndash; und was passiert, wenn das System versagt.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Die Neun als Friedensstifter und Harmoniesucher &ndash; und wie Tr\xe4gheit als Selbstvergessenheit zum blinden Fleck wird.", "Wer du wirklich bist, Band 1")}
 
@@ -28173,7 +28173,7 @@ function nickLeesonPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1)"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1)"},
-          {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypees im \xdcberblick"},
+          {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypes im \xdcberblick"},
         ])}
       </div>
     </div>
@@ -28381,7 +28381,7 @@ function wolfgangBeltracchiPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Neun im Vergleich: Verschmelzung, Selbstvergessenheit und die Search nach Union.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Neun im Vergleich: Verschmelzung, Selbstvergessenheit und die Search nach Union.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX9, SO9, SP9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 9 ausf\xfchrlich portr\xe4tiert – Tr\xe4gheit, Selbstvergessenheit und der Heilungsweg \xfcber echte Pr\xe4senz.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -28596,7 +28596,7 @@ function nielsHoegelPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypees unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert – Ma\xdflosigkeit, Reframing und der Heilungsweg \xfcber echte N\xfcchternheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -28940,7 +28940,7 @@ function joachimKrollPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -28981,7 +28981,7 @@ function tedKaczynskiPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\xfcnf: Wissen als Weltgericht</h3>
-        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypees &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. Naranjo nennt diesen Subtype <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
+        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypes &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. Naranjo nennt diesen Subtype <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
         <p class="vb-intro"><strong>Theodore John Kaczynski</strong>, geboren am 22. Mai 1942 in Chicago, war ein Wunderkind. Mit 16 Jahren Abitur, mit 20 Harvard-Abschluss, mit 25 Doktorat in Mathematik an der University of Michigan, mit 26 Assistenzprofessor an der UC Berkeley &ndash; einer der j\xfcngsten in der Geschichte der Universit\xe4t. Dann k\xfcndigte er. Ohne Erkl\xe4rung, ohne Plan. Er verschwand in eine selbst gebaute Holzh\xfctte in der Wildnis von Montana, ohne Strom und Wasser, und begann &ndash; zu denken.</p>
       </div>
 
@@ -29041,7 +29041,7 @@ function tedKaczynskiPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 22. Mai 1942 &ndash; 10. Juni 2023</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Dreifacher Mord, 23-facher K\xf6rperverletzung; lebensl\xe4nglich ohne Bew\xe4hrung</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SP5, SO5 und SX5 unterschiedlich ausdr\xfcckt – und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SP5, SO5 und SX5 unterschiedlich ausdr\xfcckt – und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Gier als Grundmotiv der F\xfcnf: Wie der R\xfcckzug entsteht und wie Contact zur Welt w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -29227,7 +29227,7 @@ function haroldShipmanPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -29615,7 +29615,7 @@ function rudolfPleilPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -29821,7 +29821,7 @@ function jackUnterweegerPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The SO2w1 in systemic comparison – ambition, social significance, and its shadow.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The SO2w1 in systemic comparison – ambition, social significance, and its shadow.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Type 2 portrayed in depth – pride, care as control, and the healing path through genuine humility.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -30019,7 +30019,7 @@ function jimJonesPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -30197,7 +30197,7 @@ function cedricMaakePortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w3 im systemischen Vergleich – Ambition, Image und die dunkle Seite gesellschaftlicher Sichtbarkeit.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w3 im systemischen Vergleich – Ambition, Image und die dunkle Seite gesellschaftlicher Sichtbarkeit.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -30237,7 +30237,7 @@ function pamelaSmartPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der sexuelle Typ 2: Verführung als Struktur</h3>
-        <p class="vb-intro">Der <strong>sexuelle Typ 2 (SX2)</strong> ist unter den Zweier-Subtypees derjenige mit der direktesten, aggressivsten Energie. Claudio Naranjo nennt ihn den &bdquo;Verf\xfchrerischen&ldquo; oder &bdquo;Aggressiven&ldquo;: Die sexuelle Zwei richtet ihre gesamte Energie auf eine Person, macht diese zu ihrem Lebensmittelpunkt, umh\xfcllt sie mit Aufmerksamkeit, l\xe4sst sie sich besonders, ausgew\xe4hlt, unersetzlich f\xfchlen. Das ist kein Kalk\xfcl im k\xfchlen Sinne &ndash; es ist die nat\xfcrliche Frequenz dieser Struktur. Aber es ist auch Macht.</p>
+        <p class="vb-intro">Der <strong>sexuelle Typ 2 (SX2)</strong> ist unter den Zweier-Subtypes derjenige mit der direktesten, aggressivsten Energie. Claudio Naranjo nennt ihn den &bdquo;Verf\xfchrerischen&ldquo; oder &bdquo;Aggressiven&ldquo;: Die sexuelle Zwei richtet ihre gesamte Energie auf eine Person, macht diese zu ihrem Lebensmittelpunkt, umh\xfcllt sie mit Aufmerksamkeit, l\xe4sst sie sich besonders, ausgew\xe4hlt, unersetzlich f\xfchlen. Das ist kein Kalk\xfcl im k\xfchlen Sinne &ndash; es ist die nat\xfcrliche Frequenz dieser Struktur. Aber es ist auch Macht.</p>
         <p class="vb-intro">Der Dreierfl\xfcgel (w3) verleiht dieser Energie eine performative Dimension: Die SX2w3 wei\xdf nicht nur, wie man jemandem das Gef\xfchl gibt, geliebt zu werden &ndash; sie wei\xdf auch, wie man sich selbst inszeniert. Bild, Wirkung, Selbstdarstellung sind ihr vertraut. Sie ist charmant, attraktiv, zielgerichtet. Im gesunden Bereich: eine Kraft, die andere wirklich tr\xe4gt. Im ungesunden Bereich: eine Kraft, die andere instrumentalisiert, ohne es selbst als solches wahrzunehmen.</p>
       </div>
 
@@ -30299,7 +30299,7 @@ function pamelaSmartPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Verurteilung:</strong> 22. März 1991; lebenslänglich ohne Bewährung (New Hampshire)</span>
           <span style="display:block;"><strong>Status:</strong> Seit 1991 in Haft; seit ca. 2000 im Bedford Hills Correctional Facility, New York. Alle Mittäter sind in Freiheit.</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum die SX2 Liebe als einzige Währung kennt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Zwei im Vergleich: Wie sich Stolz bei SP2, SO2 und SX2 unterschiedlich ausdrückt – und warum die SX2 Liebe als einzige Währung kennt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie die Überzeugung, unersetzlich zu sein, zur gefährlichsten Blindheit wird.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -30475,7 +30475,7 @@ function dianeDownsPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Erfolg und der Heilungsweg über echte Herzverbindung.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -30839,7 +30839,7 @@ function heinrichPommerenkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektion und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -31244,7 +31244,7 @@ function paulOgorzowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, innere Strenge und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -31461,7 +31461,7 @@ function joelRifkinPortraitPage() {
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SX5w6 im systemischen Vergleich – Intimität unter Kontrolle und die dunkelste Ausprägung der sexuellen Fünf.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SX5w6 im systemischen Vergleich – Intimität unter Kontrolle und die dunkelste Ausprägung der sexuellen Fünf.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug als Schutz und der Heilungsweg über echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -31554,7 +31554,7 @@ function charlesMansonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 12. November 1934 &ndash; 19. November 2017</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Neunfacher Mord (Beihilfe/Anstiftung), lebensl\xe4nglich</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SX6 als Kontratyp so intensiv provoziert.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SX6 als Kontratyp so intensiv provoziert.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem der Sechs entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
 
@@ -31596,7 +31596,7 @@ function johnListPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Sechs: Angst als Kompass</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 6 (SP6)</strong> ist unter den Sechs-Subtypees derjenige, der am deutlichsten von Angst gesteuert wird &ndash; und der diese Angst am sorgf\xe4ltigsten nach au\xdfen verbirgt. Claudio Naranjo beschreibt ihn als den &bdquo;W\xe4rmenden&ldquo;: jemanden, der durch Freundlichkeit, Pflichtbewusstsein und Zuverl\xe4ssigkeit Sicherheit herzustellen versucht. Der SP6er ist kein Aufreger. Er ist der Mann, der immer p\xfcnktlich zur Kirche kommt, der seine Steuern sorgsam deklariert, der seine Nachbarn h\xf6flich gr\xfc\xdft.</p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 6 (SP6)</strong> ist unter den Sechs-Subtypes derjenige, der am deutlichsten von Angst gesteuert wird &ndash; und der diese Angst am sorgf\xe4ltigsten nach au\xdfen verbirgt. Claudio Naranjo beschreibt ihn als den &bdquo;W\xe4rmenden&ldquo;: jemanden, der durch Freundlichkeit, Pflichtbewusstsein und Zuverl\xe4ssigkeit Sicherheit herzustellen versucht. Der SP6er ist kein Aufreger. Er ist der Mann, der immer p\xfcnktlich zur Kirche kommt, der seine Steuern sorgsam deklariert, der seine Nachbarn h\xf6flich gr\xfc\xdft.</p>
         <p class="vb-intro">Was die Welt nicht sieht: Innen l\xe4uft ein permanentes Alarmierungssystem. Der SP6er denkt in Katastrophenszenarien. Er \xfcberlegt, was schiefgehen k\xf6nnte &ndash; nicht einmal, sondern immer wieder. Er sucht Sicherheit in Systemen: in der Religion, in der Familie, im Beruf, im Gesetz. Wenn diese Systeme ins Wanken geraten, geriet auch er.</p>
       </div>
 
@@ -31657,7 +31657,7 @@ function johnListPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 17. September 1925 &ndash; 21. März 2008</span>
           <span style="display:block;"><strong>Tat:</strong> Fünffachmord an Frau, Mutter und drei Kindern, 9. November 1971, Westfield, New Jersey; 17 Jahre als &bdquo;Robert Clark&ldquo; auf der Flucht; verhaftet 1989, verurteilt 1990</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum der Kontratyp der Sechs so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum der Kontratyp der Sechs so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst und Feigheit als Grundmotiv der Sechs: Wie Angst das Denken übernimmt und warum das Schweigen gefährlicher ist als das Reden.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -31744,7 +31744,7 @@ function adolfEichmannPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 19. M\xe4rz 1906 &ndash; 1. Juni 1962</span>
           <span style="display:block;"><strong>Verurteilung:</strong> Verbrechen gegen die Menschlichkeit und das j\xfcdische Volk; Todesurteil, hingerichtet am 1. Juni 1962 in Israel</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SO6 als Konformit\xe4tstyp besonders anf\xe4llig f\xfcr systemische Mittäterschaft ist.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SO6 als Konformit\xe4tstyp besonders anf\xe4llig f\xfcr systemische Mittäterschaft ist.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem entsteht und wie eigene moralische Urteilskraft w\xe4chst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -31918,7 +31918,7 @@ function andersBreivikPortraitPage() {
         unerschrockenes Auftreten vor Gericht sind Ausdr\xfccke dieser Dynamik:
         Angst, die sich in demonstrative Unerschrockenheit verwandelt.</p>
         <p class="vb-intro"><strong>b) Kontraphobische Sechs – die Angst wird angegriffen:</strong>
-        Unter den drei Subtypees ist die sexuelle Sechs am st\xe4rksten kontraphobisch.
+        Unter den drei Subtypes ist die sexuelle Sechs am st\xe4rksten kontraphobisch.
         Sie l\xe4uft nicht vor der Bedrohung davon – sie st\xfcrzt sich hinein.
         Breiviks K\xe4lte w\xe4hrend des Massakers auf Ut\xf8ya ist keine Gef\xfchllosigkeit,
         sondern kontraphobisches Verhalten: das Durchf\xfchren des Gef\xfcrchteten als einziger
@@ -31954,7 +31954,7 @@ function andersBreivikPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei den drei Subtypees der Sechs unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei den drei Subtypes der Sechs unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Sexuelle Sechs, soziale Sechs, selbsterhaltende Sechs – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 6 ausf\xfchrlich portr\xe4tiert – Angst, Loyalit\xe4t und der Heilungsweg \xfcber echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -32152,7 +32152,7 @@ function arminMeiwesPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum die SX6 so intensiv nach Verbindung sucht.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum die SX6 so intensiv nach Verbindung sucht.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 6 ausführlich porträtiert – Angst, Loyalität und der Heilungsweg über echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -32367,7 +32367,7 @@ function jeffreyDahmerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle F\xfcnf in ihrer tiefsten Auspr\xe4gung – der Konflikt zwischen R\xfcckzug und Sehnsucht nach totaler Verbindung.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle F\xfcnf in ihrer tiefsten Auspr\xe4gung – der Konflikt zwischen R\xfcckzug und Sehnsucht nach totaler Verbindung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die sexuelle F\xfcnf von selbsterhaltender und sozialer F\xfcnf unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausf\xfchrlich portr\xe4tiert – Geiz, emotionale Distanz und der Heilungsweg \xfcber echte Beteiligung.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -32557,7 +32557,7 @@ function gennadiMikhasevichPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: How anger expresses itself differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: How anger expresses itself differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in detail – anger, perfectionism, and the path to healing.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -32959,7 +32959,7 @@ function fritzHaarmannPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX1 im Kontratyp-Vergleich: Haarmann (SX1w9) und Fritzl (SX1w9) – wie der Nine-wing die Ausdrucksform prägt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX1 im Kontratyp-Vergleich: Haarmann (SX1w9) und Fritzl (SX1w9) – wie der Nine-wing die Ausdrucksform prägt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Kontrollwille und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -33367,7 +33367,7 @@ function josefFritzlPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich: SX1w2 (Murdaugh) und SX1w9 (Fritzl) – wie der Flügel die Ausdrucksform grundlegend verändert.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich: SX1w2 (Murdaugh) und SX1w9 (Fritzl) – wie der Flügel die Ausdrucksform grundlegend verändert.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Kontrollwille und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -33730,7 +33730,7 @@ function alexMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich mit SP1 und SO1 – Kontratyp-Dynamik und Intensitätsmuster.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 1 im Vergleich mit SP1 und SO1 – Kontratyp-Dynamik und Intensitätsmuster.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX1, SP1, SO1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Fassade und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -33933,7 +33933,7 @@ function garyRidgwayPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt – und warum Reinheitsfixierung in der Desintegration gefährlich wird.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt – und warum Reinheitsfixierung in der Desintegration gefährlich wird.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -34034,8 +34034,8 @@ function osamaBinLoadingPortraitPage() {
       </div>
 
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"},
         {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) \u2013 Massenmord in Jonestown"},
@@ -34154,8 +34154,8 @@ function alfonsSchuhbeckPortraitPage() {
       </div>
 
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypees: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypees desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"kriminalpsychologie-nick-leeson", label:"Criminal Psychology: Nick Leeson (SO9w8) \u2013 Rogue Trader, Barings Bank"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) \u2013 Kunstf\xe4lscher"},
@@ -34324,7 +34324,7 @@ function paulBernardoPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -34429,7 +34429,7 @@ function tedBundyPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Mindestens 30 Morde in den USA 1974–1978, hingerichtet 1989</span>
         </div>
 
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Rigidit\xe4t bei SP1, SO1 und SX1 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Rigidit\xe4t bei SP1, SO1 und SX1 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO1w9 im Profil: Kontrolle, Selbstgerechtigkeit und die verborgene Wut hinter der tadellosen Fassade.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Akzeptanz.", "Wer du wirklich bist, Band 1")}
 
@@ -34998,7 +34998,7 @@ function dynamikBewusstseinszustandesPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Dynamik der 27 Subtypees — Vertiefung der Levels of Consciousness je Subtype.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Dynamik der 27 Subtypes — Vertiefung der Levels of Consciousness je Subtype.", "Die verborgene Dynamik der 27 Subtypes")}
       </div>
       ${relatedLinks([
         {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
@@ -35051,7 +35051,7 @@ function heilfastenDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Eine Fastenerfahrung im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normal Type, Reinforcing Type, Countertype) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Ein neuntägiges Fasten kann für jeden Enneagrammtyp eine individuell unterschiedliche, aber dennoch universell transformative Erfahrung sein. Dennoch gibt es im Rahmen des Prozessmodells des Enneagramms 9 universelle Erfahrungen während des Fastens — unabhängig vom jeweiligen Typ oder Subtype. Der Autor hat dieses 9-tägige „Enneagramm-Fasten" selbst unmittelbar vor dem Erstellen dieser Übersicht im Rahmen eines Heilfastens vom 01.08.2024 bis 09.08.2024 erlebt.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Eine Fastenerfahrung im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normal Type, Reinforcing Type, Countertype) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Ein neuntägiges Fasten kann für jeden Enneagrammtyp eine individuell unterschiedliche, aber dennoch universell transformative Erfahrung sein. Dennoch gibt es im Rahmen des Prozessmodells des Enneagramms 9 universelle Erfahrungen während des Fastens — unabhängig vom jeweiligen Typ oder Subtype. Der Autor hat dieses 9-tägige „Enneagramm-Fasten" selbst unmittelbar vor dem Erstellen dieser Übersicht im Rahmen eines Heilfastens vom 01.08.2024 bis 09.08.2024 erlebt.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
@@ -35158,7 +35158,7 @@ function frisurenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"psychologische-verhaltensmuster-der-9-typen", label:"Psychologische Verhaltensmuster"},
@@ -35207,12 +35207,12 @@ function auffaelligeMerkmale9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Spiegelgesetz in Bezug auf die 9 Enneagrammprinzipien bzw. -typen kann sich im Rahmen der 27 Subtypees des Enneagramms je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad des Individuums hierbei eine prägende Rolle.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Spiegelgesetz in Bezug auf die 9 Enneagrammprinzipien bzw. -typen kann sich im Rahmen der 27 Subtypes des Enneagramms je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad des Individuums hierbei eine prägende Rolle.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"frisuren-der-9-typen", label:"Frisuren der 9 Typen"},
@@ -35261,12 +35261,12 @@ function haendedruckeDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Handdruckverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Handdruckverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Handdruckverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Handdruckverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"auffaellige-merkmale-der-9-typen", label:"Auffällige Merkmale der 9 Typen"},
@@ -35315,12 +35315,12 @@ function suchtverhalteDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Suchtverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto weniger tendiert er zu Suchtverhalten im Rahmen seines jeweiligen Typspektrums. Die größte Sucht ist — allgemein betrachtet — und bleibt die Sucht des Egos nach Denken, Fühlen und Handeln, entsprechend der 3 Triaden des Enneagramms: Kopf (Typen 5, 6, 7), Herz (Typen 2, 3, 4) und Bauch (Typen 8, 9, 1).</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Suchtverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto weniger tendiert er zu Suchtverhalten im Rahmen seines jeweiligen Typspektrums. Die größte Sucht ist — allgemein betrachtet — und bleibt die Sucht des Egos nach Denken, Fühlen und Handeln, entsprechend der 3 Triaden des Enneagramms: Kopf (Typen 5, 6, 7), Herz (Typen 2, 3, 4) und Bauch (Typen 8, 9, 1).</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"haendedrucke-der-9-typen", label:"Händedrücke der 9 Typen"},
@@ -35369,12 +35369,12 @@ function niesverhalteDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Niesverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Niesverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Niesverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Niesverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"suchtverhalten-der-9-typen", label:"Suchtverhalten der 9 Typen"},
@@ -35423,12 +35423,12 @@ function essverhalteDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Essverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto authentischer ist auch der Ausdruck seines Essverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Essverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto authentischer ist auch der Ausdruck seines Essverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"niesverhalten-der-9-typen", label:"Niesverhalten der 9 Typen"},
@@ -35477,12 +35477,12 @@ function arbeitsverhalteDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Arbeitsverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Arbeitsverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Arbeitsverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Arbeitsverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"essverhalten-der-9-typen", label:"Essverhalten der 9 Typen"},
@@ -35531,12 +35531,12 @@ function verhaeltnisZuGeldDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Verhältnis zu Geld im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Verhältnisses zu Geld im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Verhältnis zu Geld im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Verhältnisses zu Geld im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
@@ -35585,12 +35585,12 @@ function sexualverhaltenDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Sexualverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Sexualverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Sexualverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Sexualverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verhältnis zu Geld"},
@@ -35639,12 +35639,12 @@ function kussverhaltenDer9TypenPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Kussverhalten im Rahmen der 27 Subtypees des Enneagramms kann sich je nach Subtypeesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Kussverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Kussverhalten im Rahmen der 27 Subtypes des Enneagramms kann sich je nach Subtypesvariante (Normaltyp, Verstärkungstyp, Kontratyp) entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken. Außerdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erfüllender und harmonischer ist auch der Ausdruck seines Kussverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
@@ -35695,7 +35695,7 @@ function hochsensibilitaetDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
@@ -35746,7 +35746,7 @@ function superpowerDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"hochsensibilitaet-der-9-typen", label:"Hochsensibilität der 9 Typen"},
@@ -35899,7 +35899,7 @@ function eulenartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
@@ -35950,7 +35950,7 @@ function papageienartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
@@ -36052,7 +36052,7 @@ function hunderassenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
@@ -36103,7 +36103,7 @@ function pferdearteDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
@@ -36155,7 +36155,7 @@ function nagetierartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
@@ -36206,7 +36206,7 @@ function baerenarteDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
@@ -36257,7 +36257,7 @@ function milchkuhartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
@@ -36308,7 +36308,7 @@ function vogelartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
@@ -36359,7 +36359,7 @@ function froschartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
@@ -36410,7 +36410,7 @@ function spinnenartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"froscharten-der-9-typen", label:"Froscharten der 9 Typen"},
@@ -36461,7 +36461,7 @@ function reptilienartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
@@ -36512,7 +36512,7 @@ function schildkroetenartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
@@ -36563,7 +36563,7 @@ function fischartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"schildkroetenarten-der-9-typen", label:"Schildkr\u00f6tenarten der 9 Typen"},
@@ -36614,7 +36614,7 @@ function walartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Charts und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
       </div>
       ${relatedLinks([
         {route:"fischarten-der-9-typen", label:"Fischarten der 9 Typen"},
@@ -36665,7 +36665,7 @@ function insektenartenDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
@@ -36719,7 +36719,7 @@ function flugzeugmodelleDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"brillenmodelle-der-9-typen", label:"Brillenmodelle der 9 Typen"},
@@ -36773,7 +36773,7 @@ function brillenmodelleDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"luxusuhren-der-9-typen", label:"Luxusuhren der 9 Typen"},
@@ -36815,7 +36815,7 @@ function luxusuhrend9TypenPage() {
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Audemars Piguet Royal Oak Offshore: Freiheit und Abenteuer</h3>
         <p class="vb-intro">Die Audemars Piguet Royal Oak Offshore ist die lauteste, extrovertierteste Uhr der Luxusklasse – groß, auffällig, in Farben und Materialien, die andere Häuser nie gewagt hätten. Sie wurde 1993 als „The Beast" eingeführt – das Tier, das die ohnehin schon revolutionäre Royal Oak übertrifft. Jay-Z, LeBron James, Serena Williams, Arnold Schwarzenegger – die Offshore ist die Uhr der Menschen, die ihre Freude am Leben zeigen wollen. Audemars Piguet – 1875 im Vallée de Joux gegründet – ist das älteste noch familiengeführte Uhrenhaus der Welt. Das Prinzip des Enneagrammtyps 7: Die Welt ist zu vielfältig, um eine langweilige Uhr zu tragen. Die Offshore feiert das Leben – laut, bunt, unübersehbar.</p>
-        <p class="vb-intro">Dass ausgerechnet mehrere bekannte Siebener-Typen die Royal Oak Offshore tragen, ist kein Zufall. LeBron James – einer der größten Basketballspieler aller Zeiten – ist nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Achter-Flügel (SE7w8): der Unternehmer unter den Siebenern, der seine Energie in Expansion und Aufbau investiert. Serena Williams – 23-fache Grand-Slam-Siegerin – ist eine sexuelle Sieben mit Achter-Flügel (SX7w8): intensiv, leidenschaftlich, mit dem Achter-Feuer darunter. Und Kevin Hart, einer der erfolgreichsten Comedians der Welt, ebenfalls eine sexuelle Sieben mit Achter-Flügel (SX7w8): unbändige Energie, Charisma, der Drang, jeden Raum zu füllen. Drei Siebener – drei verschiedene Subtypees, aber dieselbe Uhr. Das Enneagramm zeigt sich auch am Handgelenk.</p>
+        <p class="vb-intro">Dass ausgerechnet mehrere bekannte Siebener-Typen die Royal Oak Offshore tragen, ist kein Zufall. LeBron James – einer der größten Basketballspieler aller Zeiten – ist nach Einschätzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Achter-Flügel (SE7w8): der Unternehmer unter den Siebenern, der seine Energie in Expansion und Aufbau investiert. Serena Williams – 23-fache Grand-Slam-Siegerin – ist eine sexuelle Sieben mit Achter-Flügel (SX7w8): intensiv, leidenschaftlich, mit dem Achter-Feuer darunter. Und Kevin Hart, einer der erfolgreichsten Comedians der Welt, ebenfalls eine sexuelle Sieben mit Achter-Flügel (SX7w8): unbändige Energie, Charisma, der Drang, jeden Raum zu füllen. Drei Siebener – drei verschiedene Subtypes, aber dieselbe Uhr. Das Enneagramm zeigt sich auch am Handgelenk.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Panerai Luminor: Militärische Kraft</h3>
         <p class="vb-intro">Die Panerai Luminor hat eine ungewöhnliche Geschichte: Ursprünglich geheime Ausrüstung der italienischen Marine-Kampfschwimmer im Zweiten Weltkrieg, wurde sie Jahrzehnte lang nicht an die Öffentlichkeit verkauft. Erst 1993, nach dem Ende des Militärvertrags, kamen die ersten Panerai in den freien Handel. Das Gehäuse misst 44–47mm – ungewöhnlich groß, unübersehbar dominant. Sylvester Stallone entdeckte sie am Set von „Daylight" 1996 und ließ eigene Serien für sich fertigen – ein Mann, der für Stärke und Durchsetzungsvermögen steht. Das Prinzip des Enneagrammtyps 8: Eine Uhr, die ursprünglich für Kampftaucher entwickelt wurde, braucht keine Zierlichkeit. Kraft ist kein Stil – sie ist eine Haltung.</p>
@@ -36827,7 +36827,7 @@ function luxusuhrend9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"luxusautos-der-9-typen", label:"Luxusautos der 9 Typen"},
@@ -36882,7 +36882,7 @@ function luxusautosDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"berge-der-9-typen", label:"Berge der 9 Typen"},
@@ -36933,7 +36933,7 @@ function bergeDer9TypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"baumarten", label:"Baumarten der 9 Typen"},
@@ -37051,9 +37051,9 @@ function affenartenPage() {
         <p style="font-size:0.88rem;font-weight:700;margin:0 0 0.5rem;color:var(--copper);">Hinweis zur Lesart dieser Zuordnung</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0;color:var(--anthracite);">Diese Zuordnungen entstehen durch den <strong>Vergleich der Affenarten untereinander</strong>: Welche Affenart verkörpert welches Enneagrammprinzip am treffendsten, wenn man nur Affen miteinander vergleicht? Das Ergebnis kann von den allgemeinen Animal correspondenceen im Enneagramm-Zoo abweichen – und das ist kein Widerspruch, sondern eine Frage der Referenzmenge.</p>
         <p style="font-size:0.88rem;font-weight:700;margin:0.75rem 0 0.25rem;color:var(--anthracite);">Drei Beispiele, die das verdeutlichen:</p>
-        <p style="font-size:0.88rem;line-height:1.7;margin:0.4rem 0 0;color:var(--anthracite);"><strong>1. Orang-Utan:</strong> Im Vergleich der Affenarten entspricht er <strong>Typ 5</strong> – er ist unter allen Affen der zurückgezogenste, beobachtendste und solitärste. Im allgemeinen Tiervergleich über alle 27 Subtypees hingegen entspricht der Orang-Utan der <strong>Selbsterhaltungs-Acht</strong>. Kein Widerspruch: Die Selbsterhaltungs-Acht neigt stark in Richtung Typ 5, ist der zurückgezogene, introvertierte Acht – unter allen Tieren passt der Orang-Utan deshalb zur Selbsterhaltungs-Acht, unter allen Affen zum Fünfer-Prinzip.</p>
+        <p style="font-size:0.88rem;line-height:1.7;margin:0.4rem 0 0;color:var(--anthracite);"><strong>1. Orang-Utan:</strong> Im Vergleich der Affenarten entspricht er <strong>Typ 5</strong> – er ist unter allen Affen der zurückgezogenste, beobachtendste und solitärste. Im allgemeinen Tiervergleich über alle 27 Subtypes hingegen entspricht der Orang-Utan der <strong>Selbsterhaltungs-Acht</strong>. Kein Widerspruch: Die Selbsterhaltungs-Acht neigt stark in Richtung Typ 5, ist der zurückgezogene, introvertierte Acht – unter allen Tieren passt der Orang-Utan deshalb zur Selbsterhaltungs-Acht, unter allen Affen zum Fünfer-Prinzip.</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>2. Schimpanse:</strong> Im Affenvergleich entspricht er <strong>Typ 1</strong> – strukturiert, regelgeleitet, auf soziale Ordnung bedacht. Im allgemeinen Tiervergleich hingegen entspricht der Schimpanse dem <strong>sexuellen Siebener</strong>: voller Energie, Rivalität und Lebensintensität. Beides trifft zu – je nachdem, womit man vergleicht.</p>
-        <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>3. Gorilla:</strong> Im Affenvergleich steht er für <strong>Typ 8</strong> – Kraft, Schutz, Führung durch Präsenz. Im allgemeinen Tiervergleich entspricht der Gorilla der <strong>Selbsterhaltungs-Sieben</strong>. Auch das ergibt Sinn: mein Lehrer, Dr. Claudio Naranjo, nannte die Selbsterhaltungs-Sieben die „versteckte Acht“ – sie hat häufig einen starken Acht-Flügel, wirkt robust und durchsetzungsfähig. Unter den Affen verkörpert der Gorilla das Achter-Prinzip; unter den 27 Subtypees gehört er zur Selbsterhaltungs-Sieben, während der Weißkopfkapuziner das reine Siebener-Prinzip trägt.</p>
+        <p style="font-size:0.88rem;line-height:1.7;margin:0.5rem 0 0;color:var(--anthracite);"><strong>3. Gorilla:</strong> Im Affenvergleich steht er für <strong>Typ 8</strong> – Kraft, Schutz, Führung durch Präsenz. Im allgemeinen Tiervergleich entspricht der Gorilla der <strong>Selbsterhaltungs-Sieben</strong>. Auch das ergibt Sinn: mein Lehrer, Dr. Claudio Naranjo, nannte die Selbsterhaltungs-Sieben die „versteckte Acht“ – sie hat häufig einen starken Acht-Flügel, wirkt robust und durchsetzungsfähig. Unter den Affen verkörpert der Gorilla das Achter-Prinzip; unter den 27 Subtypes gehört er zur Selbsterhaltungs-Sieben, während der Weißkopfkapuziner das reine Siebener-Prinzip trägt.</p>
         <p style="font-size:0.88rem;line-height:1.7;margin:0.75rem 0 0;color:var(--anthracite);">Die Regel lautet: <strong>Was man vergleicht, bestimmt das Ergebnis.</strong> Innerhalb der Affenwelt gilt das relative Prinzip – nicht die absolute Entsprechung im Gesamtsystem. Beides hat seinen eigenen, eigenständigen Wahrheitsgehalt.</p>
       </div>
 
@@ -37088,7 +37088,7 @@ function affenartenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"tierentsprechungen", label:"Animal correspondenceen (allgemein)"},
@@ -37139,7 +37139,7 @@ function epochenWeltgeschichtePage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"kaffeearten", label:"Kaffeearten der Typen"},
@@ -37190,7 +37190,7 @@ function kaffeeartenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"getreidearten", label:"Getreidearten der Typen"},
@@ -37295,7 +37295,7 @@ function gewuerzartenPage() {
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Charts und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
       </div>
       ${relatedLinks([
         {route:"kaesesorten", label:"K\xe4sesorten der Typen"},
@@ -37342,7 +37342,7 @@ function friedenSchliessenPage() {
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Aus dem theoretischen Profiling wird angewandte N\xe4chstenliebe. &ndash; Detlef Rathmer</blockquote>
 
         ${bookTip("die-sprache-unserer-beziehungen", "Wie die 9 Typen in Relationships reagieren &ndash; und wie Mitgef\xfchl statt Urteil echte Verbindung erm\xf6glicht.", "Die Sprache unserer Relationships")}
-        ${bookTip("leidenschaft-und-heilung", "27 Subtypees &ndash; ihre Leidenschaften, blinden Flecken und der Weg zur inneren Heilung.", "Leidenschaft und Heilung")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypes &ndash; ihre Leidenschaften, blinden Flecken und der Weg zur inneren Heilung.", "Leidenschaft und Heilung")}
       </div>
       ${relatedLinks([
         {route:"naehe", label:"Nähe & Distanz"},
@@ -37513,7 +37513,7 @@ function koerperregulationPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Diese Zuordnung ist symbolischer Natur &ndash; nicht als Diagnose, sondern als Einladung, K\xf6rper und Charakter besser zu verstehen. Sie er\xf6ffnet klare Verbindungslinien zwischen dem eigenen Typ und einer bewussten, gef\xfchlten Lebensf\xfchrung. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("hinter-der-leidenschaft", "Die verborgenen K\xf6rpermuster der 27 Subtypees &ndash; wo Leidenschaft sich im K\xf6rper einschreibt.", "Hinter der Leidenschaft")}
+        ${bookTip("hinter-der-leidenschaft", "Die verborgenen K\xf6rpermuster der 27 Subtypes &ndash; wo Leidenschaft sich im K\xf6rper einschreibt.", "Hinter der Leidenschaft")}
         ${bookTip("heilung-als-erinnerung", "K\xf6rper, Seele und Heilung als untrennbare Einheit &ndash; der hom\xf6opathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
@@ -37879,29 +37879,29 @@ function interessanteErkenntnissePage() {
   `);
 }
 
-function bedeutungSubtypeesPage() {
+function bedeutungSubtypesPage() {
   return shell(`
     ${pageHeader("bedeutung-27-subtypen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts &middot; Subtypees &amp; Typisierung</p>
-      <h1 class="section-title">Warum die 27 Subtypees unerl\xe4sslich sind</h1>
-      <p class="psycho-intro">Wer sich ernsthaft mit dem Enneagramm besch\xe4ftigt, kommt an den 27 Subtypees nicht vorbei. Es ist ein grundlegender Irrtum zu glauben, man k\xf6nne zun\xe4chst &bdquo;nur mit den neun Typen anfangen&ldquo; und sp\xe4ter die Subtypees erg\xe4nzen &ndash; denn ohne sie bleibt das Bild zu grob f\xfcr eine ernsthafte Typisierung.</p>
+      <p class="eyebrow">Charts &middot; Subtypes &amp; Typisierung</p>
+      <h1 class="section-title">Warum die 27 Subtypes unerl\xe4sslich sind</h1>
+      <p class="psycho-intro">Wer sich ernsthaft mit dem Enneagramm besch\xe4ftigt, kommt an den 27 Subtypes nicht vorbei. Es ist ein grundlegender Irrtum zu glauben, man k\xf6nne zun\xe4chst &bdquo;nur mit den neun Typen anfangen&ldquo; und sp\xe4ter die Subtypes erg\xe4nzen &ndash; denn ohne sie bleibt das Bild zu grob f\xfcr eine ernsthafte Typisierung.</p>
       <img
         src="${CDN}assets/bedeutung-27-subtypen.jpg"
-        alt="Die Bedeutung der 27 Subtypees im Enneagramm"
+        alt="Die Bedeutung der 27 Subtypes im Enneagramm"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
       <div class="vb-section">
         <p class="vb-intro">Die neun Typen allein erzeugen zu schnell Karikaturen. Typ 8 wird &bdquo;der Starke&ldquo;, Typ 2 &bdquo;der Helfer&ldquo;, Typ 5 &bdquo;der Denker&ldquo;, Typ 4 &bdquo;der Gef\xfchlstiefe&ldquo;. Das mag f\xfcr einen ersten \xdcberblick gen\xfcgen &ndash; f\xfcr eine ernsthafte Typbestimmung reicht es nicht. Denn Menschen leben nicht als Schablonen. Sie leben als konkrete, differenzierte, oft \xfcberraschende Auspr\xe4gungen eines Musters.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die neun Typen ohne Subtypees f\xfchren in die Irre</h2>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die neun Typen ohne Subtypes f\xfchren in die Irre</h2>
         <p class="vb-intro">Wer ausschlie\xdflich mit den neun Grundtypen arbeitet, l\xe4uft Gefahr, Menschen zu schnell einzuordnen. Man erkennt gewisse Verhaltenszuge, gewisse Grundthemen &ndash; und meint, schon am Ziel zu sein. In Wirklichkeit hat man oft erst die grobe Landkarte in der Hand. Die eigentliche Landschaft zeigt sich erst, wenn die drei Instinktbereiche hinzukommen: selbsterhaltend, sozial oder sexuell.</p>
         <p class="vb-intro">Erst dann wird deutlich, warum zwei Menschen vom selben Grundtyp so verschieden wirken k\xf6nnen, dass man sie auf den ersten Blick f\xfcr zwei v\xf6llig verschiedene Typen halten w\xfcrde. Ein selbsterhaltender Vierer kann sachlicher und stoischer wirken, als das g\xe4ngige Bild von Typ 4 vermuten lie\xdfe. Ein sozialer Achter kann f\xfcrsorglicher und gemeinschaftsbezogener erscheinen, als viele von einer Acht erwarten. Ein sexueller Sechser kann wie eine Acht erscheinen. Ein selbsterhaltender Zweier kann leicht f\xfcr eine Sechs oder Vier gehalten werden.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die 27 Subtypees sind keine Verfeinerung f\xfcr Spezialisten</h2>
-        <p class="vb-intro">Man kann es direkt sagen: In der Praxis begegnen uns nicht neun Typen, sondern 27 Erscheinungsweisen dieser neun Typen. Der Grundtyp bleibt zentral. Aber er tritt nie abstrakt auf. Er erscheint immer schon in einer bestimmten Instinktdynamik, in einer bestimmten Art, sich in der Welt zu organisieren. Wer nur den Grundtyp betrachtet und die Subtypees ausblendet, arbeitet mit einem Skelett &ndash; aber noch nicht mit dem lebendigen Menschen.</p>
-        <p class="vb-intro">Die Subtypees sind deshalb keine sp\xe4tere Kur f\xfcr Fortgeschrittene, sondern von Anfang an ein notwendiger Teil des Verst\xe4ndnisses. Sie zeigen, wie sich ein Typ tats\xe4chlich verk\xf6rpert, wohin seine Energie flie\xdft, wodurch seine Leidenschaft gef\xe4rbt wird.</p>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Die 27 Subtypes sind keine Verfeinerung f\xfcr Spezialisten</h2>
+        <p class="vb-intro">Man kann es direkt sagen: In der Praxis begegnen uns nicht neun Typen, sondern 27 Erscheinungsweisen dieser neun Typen. Der Grundtyp bleibt zentral. Aber er tritt nie abstrakt auf. Er erscheint immer schon in einer bestimmten Instinktdynamik, in einer bestimmten Art, sich in der Welt zu organisieren. Wer nur den Grundtyp betrachtet und die Subtypes ausblendet, arbeitet mit einem Skelett &ndash; aber noch nicht mit dem lebendigen Menschen.</p>
+        <p class="vb-intro">Die Subtypes sind deshalb keine sp\xe4tere Kur f\xfcr Fortgeschrittene, sondern von Anfang an ein notwendiger Teil des Verst\xe4ndnisses. Sie zeigen, wie sich ein Typ tats\xe4chlich verk\xf6rpert, wohin seine Energie flie\xdft, wodurch seine Leidenschaft gef\xe4rbt wird.</p>
 
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Typisierung braucht Beweglichkeit</h2>
         <p class="vb-intro">Ein gutes Enneagramm-Verst\xe4ndnis lebt nicht davon, stur an einer Ebene festzuhalten. Es braucht die F\xe4higkeit, zwischen verschiedenen Ebenen hin und her zu zoomen. Manchmal muss man weit herauszoomen: Ist dieser Mensch eher im Herz-, Kopf- oder Bauchzentrum verankert? Dann wieder n\xe4her heran: Welcher der drei Typen innerhalb dieser Triade k\xf6nnte es sein? Und dann noch einmal genauer hinsehen: In welcher instinktiven F\xe4rbung zeigt sich dieser Typ?</p>
@@ -37909,21 +37909,21 @@ function bedeutungSubtypeesPage() {
 
         <blockquote class="pull-quote">Die eigentliche Frage ist nicht: Welcher Typ ist das? Sondern: In welcher konkreten Form lebt dieser Mensch seinen Typ?</blockquote>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Subtypees sch\xfctzen vor Vereinfachung</h2>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Subtypes sch\xfctzen vor Vereinfachung</h2>
         <p class="vb-intro">Viele Menschen machen die Erfahrung, dass sie sich lange mit dem Enneagramm besch\xe4ftigen, viel lesen, viele Typenbeschreibungen kennen &ndash; und bei der eigenen Typbestimmung trotzdem nicht vorankommen. Man bleibt unsicher, schwankt zwischen Typen oder hat das Gef\xfchl, dass keine Beschreibung wirklich passt. Oft liegt das schlicht daran, dass zu grob gearbeitet wurde.</p>
-        <p class="vb-intro">Die Subtypees machen das Enneagramm nicht unn\xf6tig kompliziert. Sie machen es erst wirklich realit\xe4tsnah. Sie sch\xfctzen vor der Versuchung, Menschen vorschnell festzulegen. Sie sch\xfctzen vor Typenkarikaturen und oberfl\xe4chlichen Zuschreibungen. Und sie holen das Enneagramm aus der Abstraktion zur\xfcck ins Leben &ndash; denn ein Mensch ist eben nicht einfach &bdquo;eine Vier&ldquo; oder &bdquo;eine Sechs&ldquo;. Er lebt seinen Typ immer in einer bestimmten Weise. Und diese Weise ist psychologisch, energetisch und diagnostisch hoch bedeutsam.</p>
+        <p class="vb-intro">Die Subtypes machen das Enneagramm nicht unn\xf6tig kompliziert. Sie machen es erst wirklich realit\xe4tsnah. Sie sch\xfctzen vor der Versuchung, Menschen vorschnell festzulegen. Sie sch\xfctzen vor Typenkarikaturen und oberfl\xe4chlichen Zuschreibungen. Und sie holen das Enneagramm aus der Abstraktion zur\xfcck ins Leben &ndash; denn ein Mensch ist eben nicht einfach &bdquo;eine Vier&ldquo; oder &bdquo;eine Sechs&ldquo;. Er lebt seinen Typ immer in einer bestimmten Weise. Und diese Weise ist psychologisch, energetisch und diagnostisch hoch bedeutsam.</p>
 
-        <p class="vb-intro">Subtypees von Anfang an mitzudenken hei\xdft nicht, sich zu verzetteln. Es geht darum, von Anfang an das richtige innere Bild zu geben: Es gibt neun Grundtypen, und jeder dieser Typen erscheint in drei grundlegenden instinktiven Varianten. Allein dieses Wissen ver\xe4ndert die ganze Haltung. Man lernt dann nicht neun starre Schablonen, sondern von Anfang an ein lebendiges, differenziertes System.</p>
+        <p class="vb-intro">Subtypes von Anfang an mitzudenken hei\xdft nicht, sich zu verzetteln. Es geht darum, von Anfang an das richtige innere Bild zu geben: Es gibt neun Grundtypen, und jeder dieser Typen erscheint in drei grundlegenden instinktiven Varianten. Allein dieses Wissen ver\xe4ndert die ganze Haltung. Man lernt dann nicht neun starre Schablonen, sondern von Anfang an ein lebendiges, differenziertes System.</p>
 
-        <p class="vb-intro">Erst in den 27 Subtypees zeigt sich der Mensch in seiner wirklichen seelischen Gestalt. Wer bei den neun Grundtypen stehenbleibt, sieht nur die grobe Kontur.</p>
+        <p class="vb-intro">Erst in den 27 Subtypes zeigt sich der Mensch in seiner wirklichen seelischen Gestalt. Wer bei den neun Grundtypen stehenbleibt, sieht nur die grobe Kontur.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail – normal, reinforcing, and countertype of each Enneagram type explained extensively.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail – normal, reinforcing, and countertype of each Enneagram type explained extensively.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Das Schaubild-Buch schlechthin: die neun Typen in farbigen, anschaulichen \xdcbersichten &ndash; der direkte Einstieg ins visuelle Enneagramm.", "Wer du wirklich bist &ndash; Band 1")}
       ${relatedLinks([
         {route:"antriebskraefte", label:"Antriebskr\xe4fte der Menschheit"},
         {route:"subtypen-schaubilder", label:"Subtypee Charts (alle 27)"},
-        {route:"horney-triaden", label:"Horney-Triaden & Subtypees"},
+        {route:"horney-triaden", label:"Horney-Triaden & Subtypes"},
       ])}
     </div>
   `);
@@ -38054,7 +38054,7 @@ function blickqualitaetPage() {
         <p class="vb-intro">Die Blickqualität ist eines der zuverlässigsten Typisierungsmerkmale, weil sie schwerer zu kontrollieren ist als Worte oder Gesten. Sie lässt sich in den ersten Sekunden einer Begegnung beobachten &ndash; noch bevor jemand etwas gesagt hat. Wer geschult ist, diese Qualitäten zu unterscheiden, gewinnt einen unmittelbaren Zugang zur inneren Welt eines Menschen. Dabei ist Vorsicht geboten: Eine einzelne Beobachtung reicht nie für eine sichere Typisierung. Die Blickqualität ist ein Hinweis, kein Beweis.</p>
 
         ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Wie erkennt man den Enneagrammtyp anhand äußerer Merkmale? Praxisnaher Leitfaden zur Typisierung &ndash; mit Blick auf Körpersprache, Mimik und Blickqualität.", "Die Praxis der Typbestimmung")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Wie unterscheiden sich die drei Subtypees eines Grundtyps in ihrer Körpersprache und Blickqualität? Das Standardwerk zu den 27 Subtypees.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Wie unterscheiden sich die drei Subtypes eines Grundtyps in ihrer Körpersprache und Blickqualität? Das Standardwerk zu den 27 Subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("meta-intelligenz", "Nonverbale Wahrnehmung schärfen &ndash; wie wir die innere Welt anderer Menschen lesen lernen, ohne Worte zu brauchen.", "Meta-Intelligenz")}
         ${relatedLinks([
           {route:"enneagramm-profiling", label:"Enneagram Profiling"},
@@ -38119,7 +38119,7 @@ function beruhmtePhilosophenPage() {
 
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">Philosophen sind in gewisser Weise ideale Enneagramm-Subjekte: Sie haben ihr Leben dem Denken gewidmet und dabei ihre Grundüberzeugungen, Ängste und Sehnsüchte in Worte gegossen &ndash; oft mit einer Direktheit, die Biografen jahrhundertelang beschäftigt. Was ein Philosoph für wahr hält, verrät oft mehr über seine innere Struktur als über die Welt. Aristoteles klassifiziert, Schopenhauer leidet, Epikur genießt, Sokrates provoziert: Die Typen denken nicht nur &ndash; sie philosophieren typspezifisch.</p>
 
-      <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Wichtiger Hinweis: Die Subtypees (Untertypen) &ndash; selbsterhaltend, sozial, sexuell &ndash; sind drei Varianten innerhalb jedes Typs, die das Grundmuster feiner differenzieren. „Subtype" und „Untertyp" bezeichnen dasselbe: die instinktive Grundausrichtung, die die Persönlichkeit noch einmal präziser formt. Bei Typ 6 erscheinen sogar zwei Philosophen &ndash; einer phobisch, einer kontraphobisch &ndash; weil dieser Typ als einziger so deutlich in zwei Richtungen ausschlagen kann.</p>
+      <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Wichtiger Hinweis: Die Subtypes (Untertypen) &ndash; selbsterhaltend, sozial, sexuell &ndash; sind drei Varianten innerhalb jedes Typs, die das Grundmuster feiner differenzieren. „Subtype" und „Untertyp" bezeichnen dasselbe: die instinktive Grundausrichtung, die die Persönlichkeit noch einmal präziser formt. Bei Typ 6 erscheinen sogar zwei Philosophen &ndash; einer phobisch, einer kontraphobisch &ndash; weil dieser Typ als einziger so deutlich in zwei Richtungen ausschlagen kann.</p>
 
       <img
         src="${CDN}assets/beruhmte-philosophen.jpg"
@@ -38136,7 +38136,7 @@ function beruhmtePhilosophenPage() {
         </div>
       `).join("")}
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die verborgene Dynamik der siebenundzwanzig Subtypees &ndash; das Standardwerk zum Verstehen der instinktiven Grundausrichtungen.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die verborgene Dynamik der siebenundzwanzig Subtypes &ndash; das Standardwerk zum Verstehen der instinktiven Grundausrichtungen.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; von der Grundstruktur bis zur Essenz.", "Wer du wirklich bist")}
       ${relatedLinks([
         {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
@@ -38554,7 +38554,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Menschen lesen in Sekunden: Profiler David Rathmer erklärt seine Methode</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38563,7 +38563,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Die Wahrheit über dich, die Du selbst nicht sehen kannst</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38572,7 +38572,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Nie mehr enttäuscht werden? Eigentlich ganz einfach...</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38581,7 +38581,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Warum Du dich ständig leer fühlst – ohne zu wissen, warum</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38599,7 +38599,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Hör auf, deine Partnerschaft zu ruinieren – Beziehungsprobleme?</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38618,7 +38618,7 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Thema Narzissmus: So erkennst Du narzisstische Menschen</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38630,7 +38630,7 @@ function davidRathmerImpulsePage() {
       ${bookTip("hinter-der-leidenschaft", "The hidden body patterns of the 27 Subtypes – where passion inscribes itself into the body.", "Hinter der Leidenschaft")}
       ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
       ${bookTip("heilung-als-erinnerung", "Body, soul, and healing as an inseparable unit – the homeopathic view of the Enneagram.", "Heilung als Erinnerung")}
-      ${bookTip("leidenschaft-und-heilung", "27 Subtypees – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypes – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Die Wahrheit über Schubladendenken im Profiling: Ein tieferer Blick hinter die Fassade</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38639,8 +38639,8 @@ function davidRathmerImpulsePage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-      ${bookTip("hinter-der-leidenschaft", "Die verborgenen Körpermuster der 27 Subtypees – wo Leidenschaft sich im Körper einschreibt.", "Hinter der Leidenschaft")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("hinter-der-leidenschaft", "Die verborgenen Körpermuster der 27 Subtypes – wo Leidenschaft sich im Körper einschreibt.", "Hinter der Leidenschaft")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Persönliche Entwicklung im Leben: Wie funktioniert es am besten?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38650,7 +38650,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der größte Error beim Profiling!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38660,7 +38660,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der Mechanismus des Egos entlarvt – das muss dir Bewusstsein!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38670,7 +38670,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die unterschiedlichen Profilingmethoden erklärt</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38680,7 +38680,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Profiling: Mythen und Fallen aufgedeckt!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38690,7 +38690,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum wir in Stresssituationen unterschiedlich reagieren</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38700,7 +38700,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Vorsätze einhalten: Warum es oft scheitert und wie Du dranbleibst!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38710,7 +38710,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Kann man sich verändern? – Ist eine Veränderung der Persönlichkeit überhaupt möglich?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38720,7 +38720,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Wie Du jeden Menschen vollständig verstehen kannst!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38730,7 +38730,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Diese Error machen die meisten Coaches!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38740,7 +38740,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Funktioniert Persönlichkeitsentwicklung wirklich?!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38750,7 +38750,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Das beste Persönlichkeitsmodell!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38760,7 +38760,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Wie Du deinen Menschenhass für immer verlierst!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38770,7 +38770,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum Du es vermeiden solltest, das Enneagramm zu googeln!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38780,7 +38780,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Was sagt das Verhalten über einen Menschen aus?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38790,7 +38790,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Schluss mit Aufschieben – so wirst Du sofort produktiv!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
@@ -38800,7 +38800,7 @@ function davidRathmerImpulsePage() {
         </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes")}
       ${relatedLinks([
         {route:"david-rathmer-fuehrung",          label:"Führung & Unternehmen"},
         {route:"david-rathmer-erfolgsinterviews", label:"Erfolgsinterviews"},
@@ -38815,7 +38815,7 @@ function davidRathmerKriminalfaellePage() {
     "david-rathmer-kriminalfaelle",
     "David L. Rathmer · Kriminalfälle",
     "Kriminalfälle",
-    "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypees.",
+    "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypes.",
     [
       { titel: "Täterprofile & Hintergründe", videos: [
         { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Persönlichkeitsanalyse (Enneagramm-Typ SX8)" },
@@ -38827,9 +38827,9 @@ function davidRathmerKriminalfaellePage() {
 function davidRathmerGrundlagenPage() {
   const bt = [
     bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe — Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1"),
-    bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich — wie sich die Subtypees eines Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms"),
+    bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich — wie sich die Subtypes eines Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms"),
     bookTip("der-code-deiner-persoenlichkeit", "Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.", "Der Code deiner Persönlichkeit"),
-    bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypees"),
+    bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Vergleich — wie Profiling funktioniert und was hinter den Mustern steckt.", "Die verborgene Dynamik der 27 Subtypes"),
     bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt — inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung"),
     bookTip("rathmer-s-grosses-enneagramm-lexikon-von-a-z-taschenbuch", "Das umfassendste Nachschlagewerk — alle Begriffe, Typen und Konzepte des Enneagramms von A bis Z.", "Rathmer's großes Enneagramm-Lexikon von A–Z"),
   ].join("");
@@ -39360,7 +39360,7 @@ function verantwortungPage() {
       <p>Es gibt noch eine weitere Dimension: Wer den eigenen Blick schärft, schärft auch den Blick auf andere. Selbstwahrnehmung ist nicht nur eine persönliche Kompetenz &ndash; sie ist die Grundlage dafür, auch im Contact mit anderen präziser zu werden. Im Profiling, in der Führung, in Relationships.</p>
       <p>Das Enneagramm ist dafür ein außerordentlich genaues Instrument &ndash; nicht wegen der Typnummern, sondern wegen der Präzision, mit der es strukturelle Muster beschreibt. Und diese Präzision entsteht nicht nur durch mehr Wissen, sondern zunehmend durch mehr Klarheit im Blick auf dich selbst.</p>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die feinen Unterschiede, die einen Typ wirklich ausmachen &ndash; tiefer als die Grundtypen, präziser als jede Kurzformel.", "Die verborgene Dynamik der 27 Subtypees")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die feinen Unterschiede, die einen Typ wirklich ausmachen &ndash; tiefer als die Grundtypen, präziser als jede Kurzformel.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Persönlichkeiten, 27 innere Logiken &ndash; das Handbuch für präzise Selbst- und Fremdwahrnehmung im Enneagramm.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Der Einstieg in die Selbstbeobachtung &ndash; von der Typenkenntnis zur echten Selbstwahrnehmung.", "Wer du wirklich bist")}
       ${relatedLinks([
@@ -39424,7 +39424,7 @@ function hunderassenPage() {
         <p class="vb-intro">Der Beagle ist ein Hund für alle &ndash; zugänglich, freundlich, konfliktscheu. Er sucht die Harmonie im Rudel und hat die außergewöhnliche Fähigkeit, zwischen verschiedenen Gruppen zu verbinden. Sein offenes, weiches Wesen macht ihn universell beliebt &ndash; und universell unterschätzt. Denn auch der Beagle hat einen starken Willen; er zeigt ihn nur nie als Konfrontation, sondern als stille Beharrlichkeit.</p>
 
         ${bookTip("enneagramm-zoo", "Die Tieranalogieen des Enneagramms im Detail &ndash; welche Tiere welchen Typen entsprechen und was das über die Prinzipien verrät.", "Enneagramm-Zoo")}
-        ${bookTip("archetypen-der-tiere-im-enneagramm", "Tiere als Spiegel der Seele: Wie die Archetypen der Tierwelt die 9 Enneagrammtypen und ihre 27 Subtypees erhellen.", "Archetypen der Tiere im Enneagramm")}
+        ${bookTip("archetypen-der-tiere-im-enneagramm", "Tiere als Spiegel der Seele: Wie die Archetypen der Tierwelt die 9 Enneagrammtypen und ihre 27 Subtypes erhellen.", "Archetypen der Tiere im Enneagramm")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in Chartsn &ndash; von der Typbestimmung bis zur Vertiefung.", "Wer du wirklich bist – Band 1")}
         ${relatedLinks([
           {route:"tierentsprechungen", label:"Animal correspondenceen"},
@@ -39467,7 +39467,7 @@ function prinzipienPage() {
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Etwas, das so konkret beginnt &ndash; in der genauen Beobachtung eines einzelnen Menschen &ndash; öffnet den Blick für etwas Allgemeines, das weit über ihn hinausgeht. &ndash; Detlef Rathmer</blockquote>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "Das Enneagramm als Spiegel: Wie die neun Prinzipien in farbigen Chartsn sichtbar werden &ndash; von der Typbestimmung bis zur Vertiefung.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Prinzipien in ihrer tiefsten Entfaltung: Wie aus neun Grundtypen 27 einzigartige Ausdrucksformen entstehen.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die Prinzipien in ihrer tiefsten Entfaltung: Wie aus neun Grundtypen 27 einzigartige Ausdrucksformen entstehen.", "Die verborgene Dynamik der 27 Subtypes")}
         ${relatedLinks([
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
           {route:"grundformel", label:"Grundformel"},
@@ -39507,11 +39507,11 @@ function antriebskraeftePage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Die Leidenschaft ist kein Feind &ndash; sie ist ein Motor ohne Steuer. Das Enneagramm gibt das Steuer zur\xfcck. &ndash; Detlef Rathmer</blockquote>
 
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Untertypen im Detail &ndash; Normal-, Verst\xe4rkungs- und Kontratyp jedes Enneagrammtyps ausf\xfchrlich erl\xe4utert.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Untertypen im Detail &ndash; Normal-, Verst\xe4rkungs- und Kontratyp jedes Enneagrammtyps ausf\xfchrlich erl\xe4utert.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("hinter-der-leidenschaft", "The nine driving forces and their roots – where the passions come from and how they can be dissolved.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing for all 27 Subtypes – from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
-          {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
+          {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypes"},
           {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
           {route:"subtypen-schaubilder", label:"Subtypee Charts"},
         ])}
@@ -39579,7 +39579,7 @@ function enneagrammProfilingPage() {
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypees im Detail &ndash; das theoretische Fundament f\xfcr eine fundierte Profiling-Praxis.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypes im Detail &ndash; das theoretische Fundament f\xfcr eine fundierte Profiling-Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt f\xfcr Schritt &ndash; der ideale Einstieg vor der Profiling-Ausbildung.", "Die Praxis der Typbestimmung")}
         ${relatedLinks([
           {route:"horney-triaden", label:"Horney-Triaden"},
@@ -39616,12 +39616,12 @@ function egoFixierungenPage() {
         <p class="vb-intro">Claudio Naranjo lernte bei Ichazo in der Wüste von Arica und entwickelte die Lehre sp\xe4ter psychologisch weiter. Er verband das Enneagramm mit Gestalttherapie, Psychoanalyse, Charakterstrukturen und psychiatrischen Mustern &ndash; und schuf so das moderne Pers\xf6nlichkeits-Enneagramm, das wir heute kennen. Die meisten heutigen Typenbeschreibungen stammen deshalb eher von Naranjo als direkt von Ichazo.</p>
         <p class="vb-intro">Wer das Schaubild tiefer liest, versteht, warum Naranjo so stark auf Neurosen, Charakterfixierungen, emotionale Grundkonflikte und Abwehrmechanismen fokussierte: Die Ego-Fixierung ist im Kern eine psychospirituelle Abwehrstrategie gegen einen empfundenen inneren Mangel. Die Pers\xf6nlichkeit wird damit nicht zum Ausdruck des Wesens, sondern zum Ausdruck der Entfremdung vom Wesen. Das ist ein fundamentaler Unterschied f\xfcr das Verst\xe4ndnis des Enneagramms &ndash; und wahrscheinlich einer der tiefsten Gedanken der fr\xfchen Enneagramm-Lehre \xfcberhaupt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Verbindung zur Lehre der 27 Subtypees</h2>
-        <p class="vb-intro">Die sp\xe4tere Entwicklung der 27 Subtypees vertieft diesen Gedanken noch weiter. Die neun Fixierungen manifestieren sich je nach Instinktstruktur &ndash; Selbsterhaltung, Sozial, Sexuell &ndash; auf unterschiedliche Weise und f\xe4rben die jeweilige Ego-Strategie spezifisch ein. Daraus entstehen 27 charakteristische Ausdrucksformen. Das erkl\xe4rt, warum Menschen desselben Haupttyps einander auf den ersten Blick v\xf6llig ungleich sein k\xf6nnen.</p>
-        <p class="vb-intro">Gerade hier wird auch die Arbeit von David und mir interessant: Unser Ansatz verbindet das Enneagram Profiling, die psychologische Ebene, die spirituelle Dimension, die Dynamik der Subtypees und die innere Entwicklungsbewegung enger miteinander, als es viele vereinfachte, verhaltensorientierte Typensysteme tun. Das entspricht letztlich n\xe4her dem urspr\xfcnglichen Geist Ichazos &ndash; denn im Kern sind es nicht Typdefizite und Verhaltensmuster, die die prim\xe4re Rolle spielen, sondern die neun universellen Prinzipien des Enneagramms und deren Bewusstseins-Dynamik. Genau deshalb macht auch das gesamte Enneagramm-Heilsystem, das ich in den letzten dreißig Jahren systematisch aufgebaut habe &ndash; mit seinen homöopathischen, biochemischen und energetischen Elementen nach dem \xc4hnlichkeitsgesetz &ndash; einen tiefen inneren Sinn.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Verbindung zur Lehre der 27 Subtypes</h2>
+        <p class="vb-intro">Die sp\xe4tere Entwicklung der 27 Subtypes vertieft diesen Gedanken noch weiter. Die neun Fixierungen manifestieren sich je nach Instinktstruktur &ndash; Selbsterhaltung, Sozial, Sexuell &ndash; auf unterschiedliche Weise und f\xe4rben die jeweilige Ego-Strategie spezifisch ein. Daraus entstehen 27 charakteristische Ausdrucksformen. Das erkl\xe4rt, warum Menschen desselben Haupttyps einander auf den ersten Blick v\xf6llig ungleich sein k\xf6nnen.</p>
+        <p class="vb-intro">Gerade hier wird auch die Arbeit von David und mir interessant: Unser Ansatz verbindet das Enneagram Profiling, die psychologische Ebene, die spirituelle Dimension, die Dynamik der Subtypes und die innere Entwicklungsbewegung enger miteinander, als es viele vereinfachte, verhaltensorientierte Typensysteme tun. Das entspricht letztlich n\xe4her dem urspr\xfcnglichen Geist Ichazos &ndash; denn im Kern sind es nicht Typdefizite und Verhaltensmuster, die die prim\xe4re Rolle spielen, sondern die neun universellen Prinzipien des Enneagramms und deren Bewusstseins-Dynamik. Genau deshalb macht auch das gesamte Enneagramm-Heilsystem, das ich in den letzten dreißig Jahren systematisch aufgebaut habe &ndash; mit seinen homöopathischen, biochemischen und energetischen Elementen nach dem \xc4hnlichkeitsgesetz &ndash; einen tiefen inneren Sinn.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Der eigentliche Sinn des Enneagramms</h2>
-        <p class="vb-intro">Die urspr\xfcngliche Frage war nie: <em>Welcher Typ bin ich?</em> Sie lautete: <em>Welche Illusion h\xe4lt mein Ich aufrecht &ndash; und was verdeckt sie?</em> Das ist der Punkt, an dem Ichazo, Naranjo, die Subtypeeslehre und die Arbeit von David und mir wieder zusammenlaufen. Das Enneagramm ist in diesem Verst\xe4ndnis kein Typologiesystem, sondern ein Werkzeug der Bewusstwerdung &ndash; ein Wegweiser zur\xfcck zur Essenz.</p>
+        <p class="vb-intro">Die urspr\xfcngliche Frage war nie: <em>Welcher Typ bin ich?</em> Sie lautete: <em>Welche Illusion h\xe4lt mein Ich aufrecht &ndash; und was verdeckt sie?</em> Das ist der Punkt, an dem Ichazo, Naranjo, die Subtypeslehre und die Arbeit von David und mir wieder zusammenlaufen. Das Enneagramm ist in diesem Verst\xe4ndnis kein Typologiesystem, sondern ein Werkzeug der Bewusstwerdung &ndash; ein Wegweiser zur\xfcck zur Essenz.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Die Fixierung ist nicht unser Feind. Sie ist ein Lehrer. Wenn wir sie verstehen, zeigt sie uns den Weg zur\xfcck nach Hause. &ndash; Oscar Ichazo</blockquote>
 
@@ -39683,7 +39683,7 @@ function grundformelPage() {
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Der Mensch hat einen Typ. Der Mensch ist kein Typ. &ndash; Detlef &amp; David Rathmer</blockquote>
 
         ${bookTip("hinter-der-leidenschaft", "The nine core deficits and their wounds – the theoretical foundation of the Rathmer Enneagram in book form.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The complete subtypes model: all 27 manifestations of deficit, energy form, and instinct.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The complete subtypes model: all 27 manifestations of deficit, energy form, and instinct.", "Die verborgene Dynamik der 27 Subtypes")}
         ${relatedLinks([
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
           {route:"antriebskraefte", label:"Driving Forces"},
@@ -40589,7 +40589,7 @@ function mikroimpresionenPage() {
           alt="Mikroimpressionen Typ ${t.nr}"
           style="width:100%;border-radius:10px;margin-bottom:1.1rem;display:block;" />
         <div style="display:grid;gap:.7rem;">
-          ${[["SE","Selbsterhaltung",t.se],["SO","Sozial",t.so],["SX","Sexuell/Partnerschaft",t.sx]].map(([code,label,text]) => `
+          ${[["SP","Self-Preservation",t.se],["SO","Social",t.so],["SX","Sexual/Partnership",t.sx]].map(([code,label,text]) => `
             <div style="border-left:3px solid ${col};padding:.6rem .9rem;background:var(--paper);border-radius:0 6px 6px 0;">
               <div style="font-size:.75rem;font-weight:800;color:${col};letter-spacing:.06em;margin-bottom:.3rem;">${code} \xb7 ${label}</div>
               <p style="margin:0;font-size:.85rem;line-height:1.7;color:var(--ink);">${text}</p>
@@ -40604,8 +40604,8 @@ function mikroimpresionenPage() {
     ${pageHeader("mikroimpressionen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts \xb7 Profiling</p>
-      <h1 class="section-title">Mikroimpressionen der 27 Enneagramm-Subtypees</h1>
-      <p class="psycho-intro">Lange bevor jemand spricht, ist er schon lesbar. Mimik, Blick und K\xf6rperspannung verr\xe4t die Struktur darunter &ndash; wenn man wei\xdf, worauf man achten muss. Diese \xdcbersicht zeigt f\xfcr alle 27 Enneagramm-Subtypees, wie sich ihr inneres Muster nach au\xdfen ausdr\xfcckt: nicht \xfcber Selbstaussagen, sondern \xfcber unmittelbar wahrnehmbare Signale. Jedes Schaubild zeigt einen Typ, jede Beschreibung benennt das Eigent\xfcmliche der drei Instinktvarianten.</p>
+      <h1 class="section-title">Mikroimpressionen der 27 Enneagramm-Subtypes</h1>
+      <p class="psycho-intro">Lange bevor jemand spricht, ist er schon lesbar. Mimik, Blick und K\xf6rperspannung verr\xe4t die Struktur darunter &ndash; wenn man wei\xdf, worauf man achten muss. Diese \xdcbersicht zeigt f\xfcr alle 27 Enneagramm-Subtypes, wie sich ihr inneres Muster nach au\xdfen ausdr\xfcckt: nicht \xfcber Selbstaussagen, sondern \xfcber unmittelbar wahrnehmbare Signale. Jedes Schaubild zeigt einen Typ, jede Beschreibung benennt das Eigent\xfcmliche der drei Instinktvarianten.</p>
       <div style="border-left:3px solid var(--gold);padding:.7rem 1rem;margin-bottom:2rem;background:var(--paper);border-radius:0 6px 6px 0;font-size:.85rem;color:var(--muted);font-style:italic;">Diese Beschreibungen sind ph\xe4nomenologische Skizzen, keine Diagnosen. Sie sch\xe4rfen die Beobachtung &ndash; sie ersetzen nicht das pers\xf6nliche Typisierungsgespr\xe4ch.</div>
       ${cards}
       ${relatedLinks([
@@ -40659,8 +40659,8 @@ function perspektivenPage() {
   `);
 }
 
-const INSTINKT_LABEL = { se: "Selbsterhaltung", so: "Sozial", sx: "Sexual" };
-const INSTINKT_KURZ  = { se: "SE", so: "SO", sx: "SX" };
+const INSTINKT_LABEL = { se: "Self-Preservation", so: "Social", sx: "Sexual" };
+const INSTINKT_KURZ  = { se: "SP", so: "SO", sx: "SX" };
 
 function subtypChecklistePage() {
   const parts = state.route.split("/");
@@ -40673,26 +40673,26 @@ function subtypChecklistePage() {
     return shell(`
       ${pageHeader("subtypen-checklisten")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">← Typ ${typNr} Subtypees</button>
-        <h1 class="psycho-detail__title">Typ ${typNr} · ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
+        <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">← Type ${typNr} Subtypes</button>
+        <h1 class="psycho-detail__title">Type ${typNr} · ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
         <div class="psycho-img-wrap">
           <img src="${CDN}assets/schaubilder/subtypen-checklisten/${code}.jpg"
-               alt="Checkliste ${INSTINKT_KURZ[inst]}${typNr}"
+               alt="Checklist ${INSTINKT_KURZ[inst]}${typNr}"
                class="psycho-img" />
         </div>
       </div>
     `);
   }
 
-  // Ebene 2: 3 Subtypees eines Typs
+  // Ebene 2: 3 Subtypes eines Typs
   if (typNr && typNr >= 1 && typNr <= 9) {
     return shell(`
       ${pageHeader("subtypen-checklisten")}
       <div class="psycho-wrap">
         <button class="ghost-link psycho-back" data-route="subtypen-checklisten">← All Types</button>
-        <p class="eyebrow">Subtypees-Checklisten · Typ ${typNr}</p>
-        <h1 class="section-title">Typ ${typNr} &ndash; Welcher Subtype bin ich?</h1>
-        <p class="psycho-intro">Wähle einen Instinktschwerpunkt und prüfe anhand der Checkliste, wie gut die Aussagen auf dich zutreffen.</p>
+        <p class="eyebrow">Subtype Checklists · Type ${typNr}</p>
+        <h1 class="section-title">Type ${typNr} &ndash; Which Subtype Am I?</h1>
+        <p class="psycho-intro">Choose an instinctual focus and check against the checklist how well the statements apply to you.</p>
         <div class="psycho-grid psycho-grid--3">
           ${["se","so","sx"].map(ins => `
             <button class="psycho-card psycho-card--inst" data-route="subtypen-checklisten/${typNr}/${ins}">
@@ -40710,9 +40710,9 @@ function subtypChecklistePage() {
   return shell(`
     ${pageHeader("subtypen-checklisten")}
     <div class="psycho-wrap">
-      <p class="eyebrow">Charts · Subtypees-Checklisten</p>
-      <h1 class="section-title">Subtypees-Checklisten</h1>
-      <p class="psycho-intro">Welcher der 27 Subtypees beschreibt dich am treffendsten? Wähle deinen Haupttyp &ndash; dann kannst du die drei Subtypees vergleichen und anhand der Checklisten prüfen, was auf dich zutrifft.</p>
+      <p class="eyebrow">Charts · Subtype Checklists</p>
+      <h1 class="section-title">Subtype Checklists</h1>
+      <p class="psycho-intro">Which of the 27 subtypes describes you most accurately? Choose your main type &ndash; then you can compare the three subtypes and check the checklists to see what applies to you.</p>
       <div class="psycho-grid">
         ${[1,2,3,4,5,6,7,8,9].map(n => `
           <button class="psycho-card" data-route="subtypen-checklisten/${n}">
@@ -40724,7 +40724,7 @@ function subtypChecklistePage() {
       </div>
       ${relatedLinks([
         {route:"subtypen-schaubilder", label:"Subtypee Charts"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypes"},
         {route:"triadendefizite", label:"Triadendefizite"},
       ])}
     </div>
@@ -40828,7 +40828,7 @@ function subtypeChartsPage() {
     return shell(`
       ${pageHeader("subtypen-schaubilder")}
       <section class="narrow" style="padding:1rem 1rem 0;">
-        <button class="ghost-link" data-route="subtypen-schaubilder">← Alle Subtypees</button>
+        <button class="ghost-link" data-route="subtypen-schaubilder">← Alle Subtypes</button>
       </section>
       <section class="narrow centered" style="padding:.75rem 1rem 1rem;">
         <p class="eyebrow" style="color:${tc}">${entry.code}</p>
@@ -40842,7 +40842,7 @@ function subtypeChartsPage() {
     `);
   }
 
-  // Übersicht: alle 27 Subtypees als klickbare Kacheln, gruppiert nach Typ
+  // Übersicht: alle 27 Subtypes als klickbare Kacheln, gruppiert nach Typ
   const typeNames = {
     1:"Typ 1 · Der Verbesserer", 2:"Typ 2 · Der Helfer", 3:"Typ 3 · Der Macher",
     4:"Typ 4 · Der Individualist", 5:"Typ 5 · Der Forscher", 6:"Typ 6 · Der Loyale",
@@ -40881,15 +40881,15 @@ function subtypeChartsPage() {
   return shell(`
     ${pageHeader("subtypen-schaubilder")}
     <section class="narrow centered" style="padding:1rem 1rem .5rem;">
-      <p class="eyebrow">Charts · Alle 27 Subtypees</p>
+      <p class="eyebrow">Charts · Alle 27 Subtypes</p>
       <h1>Subtypee Charts</h1>
-      <p class="lead-small">Alle Originaltafeln der 27 Enneagramm-Subtypees — tippen Sie auf einen Subtype, um alle Charts zu sehen.</p>
+      <p class="lead-small">Alle Originaltafeln der 27 Enneagramm-Subtypes — tippen Sie auf einen Subtype, um alle Charts zu sehen.</p>
     </section>
     <section class="narrow" style="padding:.5rem 1rem 2rem;">
       ${groupsHtml}
       ${relatedLinks([
         {route:"subtypen-checklisten", label:"Subtype Checklists"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypees"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypes"},
         {route:"horney-triaden", label:"Horney-Triaden"},
       ])}
     </section>
@@ -41624,7 +41624,7 @@ function typalbumPage() {
     <div class="page-container">
       ${pageHeader("My Type Album")}
       <div style="padding:0 0.5rem 1rem;">
-        <p style="color:var(--muted);font-size:0.88rem;margin-bottom:1.5rem;">Lade Fotos von Menschen hoch und ordne sie den 27 Subtypees zu — als persönliches Enneagramm-Notizbuch.</p>
+        <p style="color:var(--muted);font-size:0.88rem;margin-bottom:1.5rem;">Lade Fotos von Menschen hoch und ordne sie den 27 Subtypes zu — als persönliches Enneagramm-Notizbuch.</p>
         <div id="album-lightbox" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:1rem;">
           <img id="album-lb-img" style="max-width:90vw;max-height:70vh;border-radius:12px;object-fit:contain;" />
           <p id="album-lb-name" style="color:#fff;font-size:1rem;text-align:center;"></p>
@@ -45017,7 +45017,7 @@ function subtypeSchaubilderPage() {
     quiz: quizPage,
     zitate: zitatePage,
     "gaslighting-enneagramm": gaslightingPage,
-    "bedeutung-27-subtypen": bedeutungSubtypeesPage,
+    "bedeutung-27-subtypen": bedeutungSubtypesPage,
     "dynamik-der-typen": dynamikDerTypenPage,
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
