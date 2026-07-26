@@ -27467,18 +27467,17 @@ function davidBerkowitzPortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>David Berkowitz</strong> (geb. 1953, Bronx) ging als „Son of Sam“ in die
-        amerikanische Kriminalgeschichte ein. Zwischen 1976 und 1977 erschoss er
-        sechs Menschen in New York und verletzte sieben weitere – meist junge
-        Frauen mit langen, dunklen Haaren, die er während der Nacht in geparkten
-        Autos oder auf Parkbänken angriff. <strong>Berkowitz</strong> behauptete, ein
-        Dämon habe durch den Hund seines Nachbarn zu ihm gesprochen und ihm
-        den Auftrag zu töten gegeben. 1977 verhaftet, wurde er zu 365 Jahren
-        Gefängnis verurteilt. Im Gefängnis konvertierte er zum christlichen
-        Glauben und nennt sich seitdem „Son of Hope“. Diese Analyse fragt:
-        Wie formt die selbsterhaltende Vier with Three-wing einen Menschen,
-        der seine tiefste Einsamkeit in Gewalt verwandelt?
-      </p>
+        <strong>David Berkowitz</strong> (born 1953, Bronx) entered American criminal
+        history as "Son of Sam." Between 1976 and 1977, he shot
+        six people in New York and injured seven others – mostly young
+        women with long, dark hair whom he attacked at night in parked
+        cars or on park benches. <strong>Berkowitz</strong> claimed that a
+        demon spoke to him through his neighbor's dog and commanded him
+        to kill. Arrested in 1977, he was sentenced to 365 years in
+        prison. In prison, he converted to the Christian
+        faith and has since called himself "Son of Hope." This analysis asks:
+        How does the Self-Preservation Four with Three-wing shape a person
+        who transforms his deepest solitude into violence?</p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
@@ -27490,156 +27489,156 @@ function davidBerkowitzPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Unscheinbar und zurückgezogen:</strong>
-        <strong>Berkowitz</strong> fiel in seiner Umgebung nicht auf. Nachbarn beschrieben
-        ihn als ruhig, unauffällig, fast unsichtbar. Das ist die selbsterhaltende
-        Vier: Sie trägt ihr inneres Leben nach innen, nicht nach außen. Was
-        brennt, bleibt verborgen.</p>
-        <p class="vb-intro"><strong>b) Searchnd und sehnend:</strong>
-        Wer <strong>Berkowitz</strong> in Briefen und Aufzeichnungen begegnet, trifft auf
-        einen Menschen, der intensiv nach Zugehörigkeit suchte. Der Blick der
-        Vier ist immer auf das gerichtet, was fehlt – auf den Mangel, nicht
-        auf das Vorhandene.</p>
-        <p class="vb-intro"><strong>c) Dramatisch in der Innenwelt, still außen:</strong>
-        Der Three-wing verleiht der Vier einen Zug zur Selbstdarstellung, den
-        <strong>Berkowitz</strong> in seinen Bekennerschreiben auslebte: Er schrieb
-        theatralisch, suchte Aufmerksamkeit, wollte verstanden werden. Die Bombe
-        im Inneren suchte eine Bühne.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Inconspicuous and Withdrawn:</strong>
+        <strong>Berkowitz</strong> did not stand out in his surroundings. Neighbors described
+        him as quiet, inconspicuous, almost invisible. This is the Self-Preservation
+        Four: It bears its inner life internally, not externally. What
+        burns remains hidden.</p>
+        <p class="vb-intro"><strong>b) Searching and Longing:</strong>
+        Anyone who encounters <strong>Berkowitz</strong> in letters and writings meets
+        a person who intensely sought belonging. The gaze of the
+        Four is always directed at what is missing – at the deficiency, not
+        at what is present.</p>
+        <p class="vb-intro"><strong>c) Dramatic in the Inner World, Quiet Outside:</strong>
+        The Three-wing gives the Four a impulse toward self-dramatization, which
+        <strong>Berkowitz</strong> acted out in his confession letters: He wrote
+        theatrically, sought attention, wanted to be understood. The bomb
+        on the inside sought a stage.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Was mir fehlt:</strong>
-        Die selbsterhaltende Vier richtet ihren Blick auf den Mangel. <strong>Berkowitz</strong>
-        war adoptiert, wuchs ohne sichere Zugehörigkeit auf, fühlte sich
-        fundamental anders als alle anderen. Dieser Mangel wurde zum
-        organisierenden Zentrum seines Erlebens.</p>
-        <p class="vb-intro"><strong>b) Warum haben andere, was mir fehlt?</strong>
-        Neid ist die Leidenschaft der Vier – kein oberflächlicher Neid auf
-        Besitz, sondern ein tiefer, existenzieller Schmerz darüber, dass
-        andere scheinbar mühelos bekommen, worüber <strong>Berkowitz</strong>
-        nicht verfügte: Zugehörigkeit, Liebe, Bedeutung.</p>
-        <p class="vb-intro"><strong>c) Wie erreiche ich Bedeutung?</strong>
-        Der Three-wing lenkt die Aufmerksamkeit auf Wirkung und Resonanz.
-        <strong>Berkowitz</strong> wollte nicht nur töten – er wollte gefürchtet werden,
-        gesehen werden, eine Spur hinterlassen. Die Bekennerbriefe waren
-        Inszenierungen eines Menschen, der Bedeutung durch Schrecken suchte.</p>
+        <p class="vb-intro"><strong>a) What I Lack:</strong>
+        The Self-Preservation Four directs its gaze toward deficiency. <strong>Berkowitz</strong>
+        was adopted, grew up without secure belonging, felt
+        fundamentally different from everyone else. This deficiency became the
+        organizing center of his experience.</p>
+        <p class="vb-intro"><strong>b) Why Do Others Have What I Lack?</strong>
+        Envy is the passion of the Four – not a superficial envy of
+        possessions, but a deep, existential pain that
+        others effortlessly seem to obtain what <strong>Berkowitz</strong>
+        lacked: belonging, love, significance.</p>
+        <p class="vb-intro"><strong>c) How Do I Achieve Significance?</strong>
+        The Three-wing directs attention toward impact and resonance.
+        <strong>Berkowitz</strong> did not just want to kill – he wanted to be feared,
+        to be seen, to leave a trace. The confession letters were
+        stagings of a person seeking significance through terror.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Neid</h3>
-        <p class="vb-intro"><strong>a) Neid als existenzieller Schmerz:</strong>
-        Der Neid der Vier ist kein Wunsch, dem anderen wegzunehmen, was er hat.
-        Es ist der Schmerz über die eigene Unvollständigkeit. <strong>Berkowitz</strong>
-        sah in seinen Opfern Menschen, die hatten, was ihm fehlte: Verbindung,
-        Nähe, Lebenslust. Sein Angriff war ein Ausdruck dieses Schmerzes.</p>
-        <p class="vb-intro"><strong>b) Neid als Antrieb der Gewalt:</strong>
-        Die Zielauswahl von <strong>Berkowitz</strong> war symptomatisch: junge Frauen in
-        Begleitung, Liebespaare, Menschen in inniger Nähe. Er griff an, was er
-        nicht erreichen konnte. Das ist der Neid der Vier in seiner dunkelsten
-        Ausprägung: Zerstörung des Begehrten.</p>
-        <p class="vb-intro"><strong>c) Selbstneid – die verborgene Dimension:</strong>
-        <strong>Berkowitz</strong> beneidete auch sich selbst – das Selbst, das er hätte
-        sein können. Seine Briefe zeigen einen Menschen, der weiß, dass
-        etwas in ihm zerbrochen ist – und der dafür andere bestraft. Das ist
-        die tiefste Tragik der nicht geheilten Vier.</p>
+        <p class="vb-intro"><strong>a) Envy as Existential Pain:</strong>
+        The envy of the Four is not a desire to take away what the other has.
+        It is the pain over one's own incompleteness. <strong>Berkowitz</strong>
+        saw in his victims people who possessed what he lacked: connection,
+        intimacy, zest for life. His attack was an expression of this pain.</p>
+        <p class="vb-intro"><strong>b) Envy as the Engine of Violence:</strong>
+        <strong>Berkowitz's</strong> target selection was symptomatic: young women accompanied
+        by others, lovers, people in close intimacy. He attacked what he
+        could not attain. This is the envy of the Four in its darkest
+        form: destruction of the desired.</p>
+        <p class="vb-intro"><strong>c) Self-Envy – The Hidden Dimension:</strong>
+        <strong>Berkowitz</strong> also envied himself – the self he could have
+        been. His letters show a person who knows that
+        something within him is broken – and who punishes others for it. This is
+        the deepest tragedy of the unhealed Four.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Rückzug und Isolation:</strong>
-        <strong>Berkowitz</strong> lebte allein, arbeitete als Briefträger, hatte kaum
-        soziale Contacte. Die selbsterhaltende Vier zieht sich zurück, weil
-        die Außenwelt den inneren Schmerz nicht lindern kann. Einsamkeit
-        wurde zur Normalität, die die Sehnsucht weiter nährte.</p>
-        <p class="vb-intro"><strong>b) Ritualisierung der Gewalt:</strong>
-        Die Angriffe von <strong>Berkowitz</strong> waren rituell strukturiert: gleiche
-        Waffe, ähnliche Opferprofile, nächtliche Umgebung. Die Vier tendiert
-        zur Inszenierung des eigenen Erlebens. Der Mörder schuf sich eine
-        eigene dunkle Liturgie.</p>
-        <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
-        <strong>Berkowitz</strong> hinterließ Briefe an die Polizei und die Presse –
-        literarisch, theatralisch, selbstmitleidig. Das ist der SP4w3:
-        die innere Welt muss nach außen, sie muss eine Form finden.
-        Der Three-wing drang auf Sichtbarkeit.</p>
+        <p class="vb-intro"><strong>a) Withdrawal and Isolation:</strong>
+        <strong>Berkowitz</strong> lived alone, worked as a mail carrier, had almost no
+        social contacts. The Self-Preservation Four withdraws because
+        the outer world cannot ease the inner pain. Solitude
+        became the norm, which further fed the longing.</p>
+        <p class="vb-intro"><strong>b) Ritualization of Violence:</strong>
+        <strong>Berkowitz's</strong> attacks were ritually structured: same
+        weapon, similar victim profiles, nocturnal environment. The Four tends
+        to stage its own experience. The killer created his own
+        dark liturgy.</p>
+        <p class="vb-intro"><strong>c) Writing as Self-Expression:</strong>
+        <strong>Berkowitz</strong> left letters for the police and press –
+        literary, theatrical, self-pitying. This is the SP4w3:
+        the inner world must get out; it must find a form.
+        The Three-wing pressed for visibility.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde der Verlassenheit:</strong>
-        <strong>Berkowitz</strong> wurde kurz nach der Geburt zur Adoption freigegeben.
-        Für die Vier ist das die Urwunde in Reinform: Ich bin nicht erwünscht,
-        ich bin nicht genug, ich wurde weggegeben. Diese Wunde formte alles
-        Spätere.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Bedeutsamkeit:</strong>
-        Die Schutzstrategie der SP4 ist das Beharren auf der eigenen
-        Einzigartigkeit. <strong>Berkowitz</strong> konnte nicht geliebt sein – aber er
-        konnte gefürchtet sein. Furcht ist eine Form von Bedeutung, und
-        Bedeutung ist ein Schutz vor dem Nichtsein.</p>
-        <p class="vb-intro"><strong>c) Der Dämon als Projektion:</strong>
-        Die Erklärung, ein Dämon habe ihm durch einen Hund befohlen zu töten,
-        ist psychologisch aufschlussreich: <strong>Berkowitz</strong> projizierte seinen
-        inneren Antrieb nach außen. Die Vier externalisiert den Schmerz –
-        er kommt von draußen, nicht von innen. Das ist Schutzstrategie,
-        keine Psychose allein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wound and Protective Strategy</h3>
+        <p class="vb-intro"><strong>a) The Wound of Abandonment:</strong>
+        <strong>Berkowitz</strong> was given up for adoption shortly after birth.
+        For the Four, this is the primal wound in pure form: I am unwanted,
+        I am not enough, I was given away. This wound shaped everything
+        that followed.</p>
+        <p class="vb-intro"><strong>b) Protection Through Significance:</strong>
+        The protective strategy of SP4 is insisting on one's own
+        uniqueness. <strong>Berkowitz</strong> could not be loved – but he
+        could be feared. Fear is a form of significance, and
+        significance is protection against nonexistence.</p>
+        <p class="vb-intro"><strong>c) The Demon as Projection:</strong>
+        The explanation that a demon commanded him to kill through a dog,
+        is psychologically telling: <strong>Berkowitz</strong> projected his
+        inner drive outward. The Four externalizes pain –
+        it comes from outside, not from within. This is a protective strategy,
+        not psychosis alone.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SP4: die unerschrockene Vier:</strong>
-        Die selbsterhaltende Vier zeigt ihren Schmerz nicht – sie erträgt ihn.
-        Naranjo nennt diesen Subtype „dauntless“: furchtlos, ausdauernd, fähig
-        zu großem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
-        jahrelang allein – nach außen ruhig, innen zerstörerisch.</p>
-        <p class="vb-intro"><strong>b) Three-wing als Inszenierungsdrang:</strong>
-        Die w3-Energie trieb <strong>Berkowitz</strong> zur Kommunikation: Briefe, Zeichnungen,
-        später Interviews. Er wollte nicht nur töten – er wollte verstanden
-        werden. Der Three-wing macht aus dem stillen Schmerz der Vier
-        ein öffentliches Narrativ.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Hitler (SX4):</strong>
-        Beide sind Typ 4 – aber die Subtypees unterscheiden sich grundlegend.
-        <strong>Hitler</strong> (SX4) externalisierte den Neid in politische Vernichtung,
-        <strong>Berkowitz</strong> (SP4) richtete ihn auf individuelle, körperliche
-        Nähe. Die sexuelle Vier sucht Verschmelzung und Rivalität, die
-        selbsterhaltende Vier sucht Sicherheit – und bestraft ihre Abwesenheit.</p>
+        <p class="vb-intro"><strong>a) SP4: The Dauntless Four:</strong>
+        The Self-Preservation Four does not show its pain – it endures it.
+        Naranjo calls this subtype "dauntless": fearless, persistent, capable
+        of great suffering without complaint. <strong>Berkowitz</strong> bore his inner inferno
+        alone for years – quiet outside, destructive inside.</p>
+        <p class="vb-intro"><strong>b) Three-wing as Staging Impulse:</strong>
+        The w3 energy drove <strong>Berkowitz</strong> to communicate: letters, drawings,
+        later interviews. He didn't just want to kill – he wanted to be understood.
+        The Three-wing turns the silent pain of the Four into
+        a public narrative.</p>
+        <p class="vb-intro"><strong>c) Comparison with Hitler (SX4):</strong>
+        Both are Type 4 – but the subtypes differ fundamentally.
+        <strong>Hitler</strong> (SX4) externalized envy into political destruction,
+        <strong>Berkowitz</strong> (SP4) directed it toward individual, physical
+        intimacy. The Sexual Four seeks fusion and rivalry, the
+        Self-Preservation Four seeks security – and punishes its absence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Taube</h3>
-        <p class="vb-intro"><strong>a) Die Taube als Symbol des Friedens – und des Verlustes:</strong>
-        Die Taube gilt als Symbol des Friedens, der Unschuld, der Hoffnung.
-        <strong>Berkowitz</strong> wuchs mit diesen Sehnsuchtsbildern auf – nach Frieden,
-        Zugehörigkeit, Geborgenheit. Das Tier und der Mensch teilen die
-        Sehnsucht nach dem, was sie nie ganz erreichen.</p>
-        <p class="vb-intro"><strong>b) Unscheinbar und allgegenwärtig:</strong>
-        Tauben fallen in der Stadt nicht auf. Sie sind überall, werden aber
-        kaum gesehen. <strong>Berkowitz</strong> lebte genauso: mitten unter Menschen,
-        vollständig unsichtbar. Die Gefährlichkeit lag in der Unauffälligkeit.</p>
-        <p class="vb-intro"><strong>c) Heimkehrendes Tier – und verlorene Heimat:</strong>
-        Brieftauben finden immer den Weg zurück. <strong>Berkowitz</strong> hingegen fand
-        keine Heimat, zu der er zurükkehren konnte. Die Taube als Gegenbild:
-        das, wonach er suchte, war nie da. Die Sehnsucht nach Heimat
-        ohne eine Heimat ist das Kernthema der nicht geheilten Vier.</p>
+        <p class="vb-intro"><strong>a) The Dove as Symbol of Peace – and Loss:</strong>
+        The dove is considered a symbol of peace, innocence, and hope.
+        <strong>Berkowitz</strong> grew up with these images of longing – for peace,
+        belonging, security. Animal and human share the
+        longing for what they can never fully reach.</p>
+        <p class="vb-intro"><strong>b) Inconspicuous and Ubiquitous:</strong>
+        Doves do not stand out in the city. They are everywhere, yet
+        barely noticed. <strong>Berkowitz</strong> lived the same way: in the midst of people,
+        completely invisible. The danger lay in the inconspicuousness.</p>
+        <p class="vb-intro"><strong>c) Homing Animal – and Lost Home:</strong>
+        Homing pigeons always find their way back. <strong>Berkowitz</strong>, on the other hand, found
+        no home to return to. The dove as an inverted image:
+        What he searched for was never there. Longing for home
+        without a home is the core theme of the unhealed Four.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 4</h3>
-        <p class="vb-intro"><strong>a) Vom Mangel zur Präsenz:</strong>
-        Der Heilungsweg der Vier führt über die Entdeckung, dass das Leben
-        im Jetzt vollständig ist – auch ohne das, was fehlt. <strong>Berkowitz</strong>
-        beschreibt seine Konversion als genau diesen Moment: zum ersten Mal
-        das Gefühl, angenommen zu sein, ohne etwas leisten zu müssen.</p>
-        <p class="vb-intro"><strong>b) Neid verwandeln in Mitgefühl:</strong>
-        Die Tugend der Vier ist Gleichmut – die Fähigkeit, das eigene Erleben
-        zu halten, ohne es zu dramatisieren oder zu externalisieren. <strong>Berkowitz</strong>
-        entwickelte im Gefängnis nach eigener Aussage erstmals echtes Mitgefühl
-        für seine Opfer. Ob das vollständige Heilung ist, bleibt offen.</p>
-        <p class="vb-intro"><strong>c) Heimat im Inneren:</strong>
-        Die tiefste Heilung der Vier ist die Entdeckung, dass Zugehörigkeit
-        nicht von außen kommen kann. <strong>Berkowitz</strong> fand sie – nach allem –
-        in einem inneren Glauben. Ob das ausreicht, zu vergeben: das ist
-        eine Frage, die jeder Leser für sich beantworten muss.</p>
+        <p class="vb-intro"><strong>a) From Deficiency to Presence:</strong>
+        The path to healing for the Four lies in discovering that life
+        in the present moment is complete – even without what is missing. <strong>Berkowitz</strong>
+        describes his conversion as precisely this moment: feeling
+        accepted for the first time without having to perform or achieve.</p>
+        <p class="vb-intro"><strong>b) Transforming Envy into Compassion:</strong>
+        The virtue of the Four is Equanimity – the capacity to hold
+        one's own experience without dramatizing or externalizing it. <strong>Berkowitz</strong>
+        stated that in prison he developed true compassion for the
+        first time for his victims. Whether this is complete healing remains open.</p>
+        <p class="vb-intro"><strong>c) A Home Within:</strong>
+        The deepest healing for the Four is the discovery that belonging
+        cannot come from the outside. <strong>Berkowitz</strong> found it – after all –
+        in an inner faith. Whether that is enough to forgive: that is
+        a question every reader must answer for themselves.</p>
       </div>
 
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.", "Die verborgene Dynamik der 27 Subtypees")}
