@@ -12697,7 +12697,7 @@ function beruehmtePersoenlichkeitenPage() {
   };
 
   function filterBar() {
-    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":inst)+'</button>';
+    const instBtn = inst => '<button class="kf-btn" data-bp-inst="'+inst+'" onclick="bpSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":(inst==="SE"?"SP":inst))+'</button>';
     const typBtn = n => {
       const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
       const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
@@ -12762,7 +12762,7 @@ function beruehmtePersoenlichkeitenPage() {
         +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
         +' onmouseover="this.style.opacity=\'1\';this.style.backgckground=\''+col+'20\'"'
         +' onmouseout="this.style.opacity=\'0.85\';this.style.background=\'var(--bg)\'">'
-        +code+'</a>';
+        +code.replace(/^SE/,'SP')+'</a>';
     }).join("")
     +'</div></div>';
 
@@ -12779,7 +12779,7 @@ function beruehmtePersoenlichkeitenPage() {
         }
         const n = parseInt(code.slice(-1));
         const col = TYPE_COLORS[n]||"var(--copper)";
-        out += '<div id="bp-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code+'</div>';
+        out += '<div id="bp-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code.replace(/^SE/,'SP')+'</div>';
         lastCode = code;
       }
       out += card(p);
@@ -19628,10 +19628,11 @@ function kriminalpsychologiePage() {
   const allTyp  = [1,2,3,4,5,6,7,8,9];
   const allTags = ["Serienmord","Betrug","Mafia","Terror","Nahbereich","Missbrauch","Sonstiges"];
 
-  const tagLabel = {"Serienmord":"Serienmord","Betrug":"Betrug / Hochstapelei","Mafia":"Mafia / Organisiert","Terror":"Terror / Massengewalt","Nahbereich":"Beziehungs­tat","Missbrauch":"Missbrauch"};
+  const tagLabel = {"Serienmord":"Serial Murder","Betrug":"Fraud / Con Artistry","Mafia":"Mafia / Organized Crime","Terror":"Terror / Mass Violence","Nahbereich":"Domestic Crime","Missbrauch":"Abuse","Sonstiges":"Other"};
+  const instLabel = {"SE":"SP"};
 
   function filterBar() {
-    const instBtn = inst => '<button class="kf-btn" data-kf-inst="'+inst+'" onclick="kfSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":inst)+'</button>';
+    const instBtn = inst => '<button class="kf-btn" data-kf-inst="'+inst+'" onclick="kfSet(\'inst\',\''+inst+'\')">'+(inst==="ALL"?"All":(instLabel[inst]||inst))+'</button>';
     const typBtn  = n => {
       const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
       const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
@@ -19671,7 +19672,7 @@ function kriminalpsychologiePage() {
       +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
       +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
       +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
-      +(p.tags||[]).map(function(t){return'<span class="kf-tag kf-tag--'+t.toLowerCase()+'">'+t+'</span>';}).join("")
+      +(p.tags||[]).map(function(t){return'<span class="kf-tag kf-tag--'+t.toLowerCase()+'">'+(tagLabel[t]||t)+'</span>';}).join("")
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">View Portrait &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
@@ -19694,7 +19695,7 @@ function kriminalpsychologiePage() {
         +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
         +' onmouseover="this.style.opacity=\'1\';this.style.background=\''+col+'20\'"'
         +' onmouseout="this.style.opacity=\'0.85\';this.style.background=\'var(--bg)\'">'
-        +code+'</a>';
+        +code.replace(/^SE/,'SP')+'</a>';
     }).join("")
     +'</div></div>';
 
@@ -19710,7 +19711,7 @@ function kriminalpsychologiePage() {
         }
         const n = parseInt(code.slice(-1));
         const col = TYPE_COLORS[n]||"var(--copper)";
-        out += '<div id="krim-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code+'</div>';
+        out += '<div id="krim-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code.replace(/^SE/,'SP')+'</div>';
         lastCode = code;
       }
       out += card(p);
@@ -19721,10 +19722,10 @@ function kriminalpsychologiePage() {
   return shell(
     '<div class="page-container">'
     +pageHeader("kriminalpsychologie")
-    +'<p class="psycho-intro">Bekannte Kriminalf\xe4lle durch die Linse des Enneagramms: '
-    +'Wie pr\xe4gt die innere Struktur eines Menschen seine dunkelsten Taten? '
-    +'Diese Portr\xe4ts sind keine Verherrlichung, sondern Tiefenanalysen &ndash; '
-    +'ein Versuch zu verstehen, was geschieht, wenn die Leidenschaft eines Typs in die Zerst\xf6rung kippt.</p>'
+    +'<p class="psycho-intro">Notorious criminal cases through the lens of the Enneagram: '
+    +'How does the inner structure of a person shape their darkest deeds? '
+    +'These portraits are not a glorification, but in-depth analyses &ndash; '
+    +'an attempt to understand what happens when a type\'s passion tips over into destruction.</p>'
     +filterBar()
     +registerBox
     +'<div id="kf-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
