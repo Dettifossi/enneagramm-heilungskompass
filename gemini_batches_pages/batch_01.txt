@@ -1,35 +1,38 @@
-=== PAGE: heilungswegPage ===
-[P] Diese Übersicht zeigt den Heilungsweg nach dem Modell der Enneagramm-Homeopathy von Detlef Rathmer: vom unbewussten Muster über die Erkenntnis der Leidenschaft bis zur Integration und Heilung.
-[P] Die Enneagramm-Homeopathy versteht Krankheit als Ausdruck einer inneren Entfremdung &ndash; nicht im romantischen Sinn, sondern als reale, erfahrbare Spaltung zwischen Wesen und Leben. Das Remedies unterstützt nicht die Anpassung an ein dysfunktionales Gleichgewicht, sondern fördert eine Reorganisation von innen. Wenn das gelingt, verändern sich Symptome oft beiäufig. Nicht, weil sie bekämpft wurden, sondern weil sie ihren Sinn verloren haben.
-[LABEL] Bewusstseinsübungen
-=== PAGE: lasterTugendenAffirmationenPage ===
-[H] Affirmationen für die 9 Enneatypen
-[H] Die Tugend ist schon da
-[BOOKTIP] 27 Subtypees &ndash; Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.
-[LABEL] Spirituelle Übungen
-=== PAGE: gifteDesGeistesPage ===
-[BOOKTIP] Die 9 Leidenschaften und ihre buddhistischen Wurzeln &ndash; mit Heilungsweg aus der homöopathischen Praxis.
-=== PAGE: davidRathmerPersoenlichkeitenPage ===
-[BOOKTIP] Die neun Typen in ihrer Tiefe — Schutzmuster, Leidenschaften und der Weg zur Essenz.
-[BOOKTIP] Das Enneagramm als Schlüssel zur Selbsterkenntnis — für mehr Klarheit und persönliches Wachstum.
-[LABEL] Episode 1: Persönlichkeitsanalyse von Wladimir Putin
-[LABEL] Episode 2: Persönlichkeitsanalyse von Friedrich Merz
-[LABEL] Episode 3: Persönlichkeitsanalyse von P. Diddy
-[LABEL] Episode 4: Persönlichkeitsanalyse von Mark Zuckerberg
-[LABEL] Episode 5: Persönlichkeitsanalyse von Kollegah
-[LABEL] Episode 6: Persönlichkeitsanalyse von Jeffrey Epstein
-[LABEL] Episode 7: Persönlichkeitsanalyse von Elon Musk
-[LABEL] AnniTheDuck in der Tiefe erklärt – Was steckt hinter ihrem Verhalten?
-[LABEL] Marc Gebauer psychologisch erklärt!
-[LABEL] Jeremy Fragrance - Verhaltensweisen in der Tiefe erklärt - Reaktion vom Profiler
-=== PAGE: angstEssenzPage ===
-[H] Angeborene Disposition und Entwicklung
-[H] Reifung und Freiheit
-[P] Die neun Enneagrammtypen lassen sich nicht nur über ihre Leidenschaften verstehen, sondern tiefer: über ihre Grundangst. Was nach außen als Zorn, Stolz oder Trägheit erscheint, ist psychodynamisch betrachtet die emotionale Färbung einer existenziellen Schutzreaktion. Dieses Schaubild zeigt den Weg von der Angst über Stabilisierung und Fixierung bis zur Essenz eines jeden Typs.
-[P] In vielen Darstellungen heißt es: Die Leidenschaft befeuert die intrinsische Motivation. Psychodynamisch betrachtet lässt sich das jedoch auch umgekehrt lesen: Nicht die Leidenschaft erzeugt das Verhalten. Die Leidenschaft ist der energetische Ausdruck einer tiefer liegenden Grundangst.
-[P] Das Ego organisiert sich um eine existenzielle Bedrohung. Aus dieser Bedrohung entsteht eine Stabilisierungstendenz &ndash; aus der Stabilisierung eine Fixierung &ndash; und die Leidenschaft ist die emotionale Färbung dieser Fixierung.
-[P] Diese Strukturen sind nicht ausschließlich Ergebnis früher Lebenserfahrungen. Temperamentsforschung und Zwillingsstudien zeigen, dass Menschen mit unterschiedlichen Reaktionsdispositionen geboren werden. Wir bringen eine bestimmte Sensibilität für eine spezifische Form von Bedrohung mit auf diese Welt. Diese Disposition trifft auf frühe Beziehungserfahrungen &ndash; aus dieser Wechselwirkung entsteht die Ich-Struktur.
-[P] Angst → Stabilisierung → Fixierung → Leidenschaft → Identität.
-[P] Was wir als „Intrinsische Motivation“ erleben, ist oft die rationalisierte Form dieser Stabilisierung. Die Leidenschaft ist nicht die primäre Ursache, sondern der affektive Ausdruck der Abwehrorganisation.
-[P] Reifung bedeutet nicht, die Struktur abzuschaffen. Reifung bedeutet, die zugrunde liegende Angst bewusst halten zu können. Wenn Angst nicht mehr unbewusst regiert, verändert sich die Qualität der Energie:
-[P] Nicht der Typ verschwindet. Aber die Angst verliert ihre Vorherrschaft.
+=== PAGE: homoeopathieSongsPage ===
+[P] Charts · Homöopathie · Musik
+[P] Diese Playlist vereint Songs, die das Wesen der Homöopathie aus unterschiedlichsten Perspektiven beleuchten. Von feinsten Schwingungen über Resonanz und Ähnlichkeitsprinzip bis hin zur Kraft der Information – hier finden sich Lieder, die auf metaphorische, poetische oder philosophische Weise das tiefere Wirken der Homöopathie erfahrbar machen. Eine inspirierende musikalische Reise voller Erkenntnisse und klanglicher Überraschungen. Viel Freude beim Hören und Entdecken!
+[P] <strong>Enneagramm-Homöopathie</strong> verbindet zwei Ebenen: das Persönlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Homöopathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grundängste – diese inneren Dynamiken prägen nicht nur die Psyche, sondern oft auch körperliche Beschwerden. Die Songs spiegeln diese seelischen Qualitäten und machen sie hörbar.
+[BOOKTIP] Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Remedieswahl zusammenhängen.
+[BOOKTIP] Vertiefung und Erweiterung: Die 27 Subtypees und ihre individuellen homöopathischen Remedies.
+[BOOKTIP] Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.
+[BOOKTIP] Das geistige Wesen der 500 wichtigsten homöopathischen Arzneimittel – über 8.500 Single-Rubriken.
+[BOOKTIP] 8.594 Single-Rubriken der 500 wichtigsten homöopathischen Arzneimittel – das Standardwerk zur Sehgal-Methode.
+[BOOKTIP] Die hervorstechendsten Gemütsrubriken kompakt und kommentiert – das Praxisrepertorium für den homöopathischen Alltag.
+[BOOKTIP] Das Lehrbuch zur Enneagramm-Homöopathie – Band 1: Grundlagen, Typen und Remedies.
+[BOOKTIP] Band 2 des Lehrbuchs: Vertiefte Remedieszuordnungen für alle 27 Subtypees.
+[BOOKTIP] Band 3 des Lehrbuchs: Das vollständige System der Enneagramm-Homöopathie in der Praxis.
+[BOOKTIP] Das Unterrichtsskript zur Enneagramm-Homöopathie – 376 Seiten kompaktes Lernmaterial für das Selbststudium.
+[BOOKTIP] Das vollständige Unterrichtsskript der Sehgal-Schule – 500 Seiten für alle, die die Sehgal-Methode tiefgreifend erlernen möchten.
+[BOOKTIP] Körper, Seele und Heilung als untrennbare Einheit – der homöopathische Blick auf das Enneagramm.
+[BOOKTIP] Die 9 Leidenschaften und ihre enneagrammatischen Wurzeln – mit Heilungsweg aus der homöopathischen Praxis.
+[LABEL] 1. Die sanfte Heilung – DER Homöopathie-Song
+[LABEL] 4. Sanft und stark – der Homöopathie-Song Nr. 2
+[LABEL] 7. Stille, sanfte Kraft (Song über das Wesen der Homöopathie)
+[LABEL] 8. Heilung in der Stille (2. Song über das Wesen der Homöopathie)
+[LABEL] 9. Tiefer als die Masken (Hommage an die Enneagramm-Homöopathie)
+[LABEL] 10. Homöopathie – die wahre Heilkunst!
+[LABEL] 11. Homöopathie. Was sonst?
+[LABEL] 12. Homöopathie – die sanfte Kraft!
+[LABEL] 13. Loblied auf die Homöopathie
+[LABEL] 14. DIE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Hochdeutsch)
+[LABEL] 15. D’ WEISHEIT VO DE GROßEN – Homöopathie-Song Nr. 3 (Schwäbisch)
+[LABEL] 16. WEISHEIT DER GROß’N – Homöopathie-Song Nr. 3 (Hessisch)
+[LABEL] 17. DIE WEISHEIT VON DIE JRßEN – Homöopathie-Song Nr. 3 (Berlinerisch)
+[LABEL] 18. DE WEISHEIT DER GROßEN – Homöopathie-Song Nr. 3 (Thüringisch)
+[LABEL] 19. DE KLAUKHEIT VAN DE GROTEN – Homöopathie-Song Nr. 3 (Münsterländisch)
+[LABEL] 20. DE WIESENHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Mecklenburgisch)
+[LABEL] 21. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Hamburgisch)
+[LABEL] 22. DE WAISHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niedersächsisch)
+[LABEL] 23. DIE WIEßHEIT VUN DE GROTEN – Homöopathie-Song Nr. 3 (Niederdeutsch/Plattdeutsch)
+[LABEL] Entspannungs- und Heilungsmusik
+[LABEL] Berühmte Komponisten im Enneagramm

@@ -1,6 +1,31 @@
-=== PAGE: grundformelPage (Teil 2) ===
-[P] Das Schaubild zeigt auch, wie sich ein Mensch in Bezug auf seinen Typ entwickeln kann &ndash; von unbewusst bis integriert. Auf der <strong>unbewussten Stufe</strong> dominiert die Leidenschaft vollständig. Auf der <strong>durchschnittlichen Stufe</strong> prägen typische Alltagsmuster das Erleben. Auf der <strong>bewussten Stufe</strong> wird die Leidenschaft erkannt &ndash; der Mensch kann sich von ihr distanzieren. Auf der <strong>integrierten Stufe</strong> wird die Essenz zugänglich: Das Muster löst sich nicht auf, aber es verliert seine Macht.
-[P] Das erklärte Ziel des Rathmer-Enneagramms ist es nicht, den eigenen Typ zu perfektionieren. Es geht darum, die Identifikation mit dem Typ zu lockern &ndash; Schritt für Schritt. Der Mensch hat einen Typ. Der Mensch ist kein Typ. Diese kleine sprachliche Verschiebung enthält die ganze transformative Kraft des Modells.
-[P] Was dieses Schaubild in einem einzigen Bild zusammenfasst, ist das Ergebnis von über zwanzig Jahren gemeinsamer Arbeit von Detlef und David Rathmer &ndash; ein lebendiges, wachsendes Modell, das Psychologie, Spiritualität und praktische Heilkunde zu einem Ganzen verbindet.
-[BOOKTIP] Die neun Grunddefizite und ihre Wunden &ndash; das theoretische Fundament des Rathmer-Enneagramms in Buchform.
-[BOOKTIP] Das vollständige Subtypees-Modell: alle 27 Ausprägungen von Defizit, Energieform und Instinkt.
+=== PAGE: detlefRathmerJazzPage ===
+[H] Liebeslieder von Detlef
+[BOOKTIP] Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.
+[BOOKTIP] Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.
+[BOOKTIP] 27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.
+[BOOKTIP] Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.
+[BOOKTIP] Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.
+[BOOKTIP] Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.
+[BOOKTIP] Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.
+[BOOKTIP] Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.
+[BOOKTIP] Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.
+[BOOKTIP] Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.
+[BOOKTIP] Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.
+[BOOKTIP] Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.
+[BOOKTIP] Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.
+[LABEL] Enneagramm-Hymne – Loblied auf die 9 Typen (Deutsch)
+[LABEL] Flammen des Lebens – Die Leidenschaften der 9 Typen (Deutsch)
+[LABEL] Hayatın Alevleri (Türkisch)
+[LABEL] 27 Pfade – Song über die 27 Persönlichkeiten (Deutsch)
+[LABEL] 8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie
+[LABEL] Ich bin das Licht (Deutsch)
+[LABEL] Glück – Das Wesen des Glücks (Deutsch)
+[LABEL] Der Sinn – Song über den Sinn des Lebens (Deutsch)
+[LABEL] 3. Was bleibt von uns
+[LABEL] 4. So fühlt sich Ewigkeit an
+[LABEL] 7. Wie Feuer unter der Haut
+[LABEL] 8. Für immer und ein Tag
+[LABEL] 9. Flügel aus Licht
+[LABEL] Entspannungs- und Heilungsmusik
+[LABEL] Homöopathie- und Enneagramm-Homöopathie-Songs
+[LABEL] Berühmte Komponisten

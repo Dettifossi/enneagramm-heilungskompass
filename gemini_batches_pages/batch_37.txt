@@ -1,62 +1,14 @@
-=== PAGE: davidBerkowitzPortraitPage (Teil 2) ===
-[P] <strong>a) Rückzug und Isolation:</strong>
-        <strong>Berkowitz</strong> lebte allein, arbeitete als Briefträger, hatte kaum
-        soziale Contacte. Die selbsterhaltende Vier zieht sich zurück, weil
-        die Außenwelt den inneren Schmerz nicht lindern kann. Einsamkeit
-        wurde zur Normalität, die die Sehnsucht weiter nährte.
-[P] <strong>b) Ritualisierung der Gewalt:</strong>
-        Die Angriffe von <strong>Berkowitz</strong> waren rituell strukturiert: gleiche
-        Waffe, ähnliche Opferprofile, nächtliche Umgebung. Die Vier tendiert
-        zur Inszenierung des eigenen Erlebens. Der Mörder schuf sich eine
-        eigene dunkle Liturgie.
-[P] <strong>c) Schreiben als Selbstausdruck:</strong>
-        <strong>Berkowitz</strong> hinterließ Briefe an die Polizei und die Presse –
-        literarisch, theatralisch, selbstmitleidig. Das ist der SP4w3:
-        die innere Welt muss nach außen, sie muss eine Form finden.
-        Der Three-wing drang auf Sichtbarkeit.
-[P] <strong>a) Die Wunde der Verlassenheit:</strong>
-        <strong>Berkowitz</strong> wurde kurz nach der Geburt zur Adoption freigegeben.
-        Für die Vier ist das die Urwunde in Reinform: Ich bin nicht erwünscht,
-        ich bin nicht genug, ich wurde weggegeben. Diese Wunde formte alles
-        Spätere.
-[P] <strong>b) Schutz durch Bedeutsamkeit:</strong>
-        Die Schutzstrategie der SP4 ist das Beharren auf der eigenen
-        Einzigartigkeit. <strong>Berkowitz</strong> konnte nicht geliebt sein – aber er
-        konnte gefürchtet sein. Furcht ist eine Form von Bedeutung, und
-        Bedeutung ist ein Schutz vor dem Nichtsein.
-[P] <strong>c) Der Dämon als Projektion:</strong>
-        Die Erklärung, ein Dämon habe ihm durch einen Hund befohlen zu töten,
-        ist psychologisch aufschlussreich: <strong>Berkowitz</strong> projizierte seinen
-        inneren Antrieb nach außen. Die Vier externalisiert den Schmerz –
-        er kommt von draußen, nicht von innen. Das ist Schutzstrategie,
-        keine Psychose allein.
-[P] <strong>a) SP4: die unerschrockene Vier:</strong>
-        Die selbsterhaltende Vier zeigt ihren Schmerz nicht – sie erträgt ihn.
-        Naranjo nennt diesen Subtype „dauntless“: furchtlos, ausdauernd, fähig
-        zu großem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
-        jahrelang allein – nach außen ruhig, innen zerstörerisch.
-[P] <strong>b) Three-wing als Inszenierungsdrang:</strong>
-        Die w3-Energie trieb <strong>Berkowitz</strong> zur Kommunikation: Briefe, Zeichnungen,
-        später Interviews. Er wollte nicht nur töten – er wollte verstanden
-        werden. Der Three-wing macht aus dem stillen Schmerz der Vier
-        ein öffentliches Narrativ.
-[P] <strong>c) Vergleich mit Hitler (SX4):</strong>
-        Beide sind Typ 4 – aber die Subtypees unterscheiden sich grundlegend.
-        <strong>Hitler</strong> (SX4) externalisierte den Neid in politische Vernichtung,
-        <strong>Berkowitz</strong> (SP4) richtete ihn auf individuelle, körperliche
-        Nähe. Die sexuelle Vier sucht Verschmelzung und Rivalität, die
-        selbsterhaltende Vier sucht Sicherheit – und bestraft ihre Abwesenheit.
-[P] <strong>a) Die Taube als Symbol des Friedens – und des Verlustes:</strong>
-        Die Taube gilt als Symbol des Friedens, der Unschuld, der Hoffnung.
-        <strong>Berkowitz</strong> wuchs mit diesen Sehnsuchtsbildern auf – nach Frieden,
-        Zugehörigkeit, Geborgenheit. Das Tier und der Mensch teilen die
-        Sehnsucht nach dem, was sie nie ganz erreichen.
-[P] <strong>b) Unscheinbar und allgegenwärtig:</strong>
-        Tauben fallen in der Stadt nicht auf. Sie sind überall, werden aber
-        kaum gesehen. <strong>Berkowitz</strong> lebte genauso: mitten unter Menschen,
-        vollständig unsichtbar. Die Gefährlichkeit lag in der Unauffälligkeit.
-[P] <strong>c) Heimkehrendes Tier – und verlorene Heimat:</strong>
-        Brieftauben finden immer den Weg zurück. <strong>Berkowitz</strong> hingegen fand
-        keine Heimat, zu der er zurükkehren konnte. Die Taube als Gegenbild:
-        das, wonach er suchte, war nie da. Die Sehnsucht nach Heimat
-        ohne eine Heimat ist das Kernthema der nicht geheilten Vier.
+=== PAGE: davidBerkowitzPortraitPage (Teil 3) ===
+[P] <strong>b) Neid verwandeln in Mitgefühl:</strong>
+        Die Tugend der Vier ist Gleichmut – die Fähigkeit, das eigene Erleben
+        zu halten, ohne es zu dramatisieren oder zu externalisieren. <strong>Berkowitz</strong>
+        entwickelte im Gefängnis nach eigener Aussage erstmals echtes Mitgefühl
+        für seine Opfer. Ob das vollständige Heilung ist, bleibt offen.
+[P] <strong>c) Heimat im Inneren:</strong>
+        Die tiefste Heilung der Vier ist die Entdeckung, dass Zugehörigkeit
+        nicht von außen kommen kann. <strong>Berkowitz</strong> fand sie – nach allem –
+        in einem inneren Glauben. Ob das ausreicht, zu vergeben: das ist
+        eine Frage, die jeder Leser für sich beantworten muss.
+[BOOKTIP] SP4 – die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Präsenz.
+[BOOKTIP] SP4, SO4, SX4 – alle Vierer-Subtypees im Überblick.
+[BOOKTIP] Typ 4 ausführlich porträtiert – Neid, Sehnsucht und der Heilungsweg über echten Gleichmut.

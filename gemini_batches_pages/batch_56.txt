@@ -1,85 +1,20 @@
-=== PAGE: samuelBankmanFriedPortraitPage (Teil 3) ===
-[P] 
-        <strong>Samuel Bankman-Fried</strong> verkörpert viele der negativen Aspekte
-        der selbsterhaltenden Drei im Enneagramm.
-        Sein übermächtiger Drang nach Erfolg und Anerkennung
-        trieb ihn dazu, moralische Grenzen zu überschreiten
-        und immense Risiken einzugehen.
-        Er baute ein öffentliches Image als bescheidener, altruistischer Unternehmer auf,
-        während er im Hintergrund finanzielle Manipulationen durchführte,
-        die letztlich zum Untergang seiner Unternehmen führten.
-        Wie der Waschbär war er geschickt, anpassungsfähig
-        und in der Lage, sich im Verborgenen zu bewegen.
-        Doch seine inneren Unsicherheiten und der unstillbare Hunger
-        nach Anerkennung und Bestätigung
-        führten zu einem Betrugsfall von gigantischem Ausmaß.
-        
-[P] <strong>a) SP3 – der Kontratyp:</strong>
-        Die selbsterhaltende Drei ist der Kontratyp –
-        der Einser-Subtype der Drei, der am wenigsten
-        nach einer Drei aussieht.
-        Der SP3er will nicht bewundert werden;
-        er will liefern, funktionieren, gewinnen.
-        <strong>Bankman-Frieds</strong> gesamter Auftritt –
-        die zerknitterten Shorts, das ungekämmte Haar,
-        das absichtlich Unfertige – war die Inszenierung
-        von Effizienz als Wert: Ich tue nicht so,
-        als würde ich gut aussehen, ich tue Dinge, die zählen.
-        Das ist die SP3 als Selbstbild.
-[P] <strong>b) Der Four-wing und das altruistische Narrativ:</strong>
-        Der Four-wing der Drei bringt das Bedürfnis nach Tiefe,
-        nach Bedeutung, nach einer Geschichte,
-        die über bloßen Erfolg hinausgeht.
-        <strong>Bankman-Fried</strong> fand dieses Narrativ
-        im Effektiven Altruismus:
-        Er verdiene so viel wie möglich,
-        um so viel wie möglich zu spenden.
-        Dieses Narrativ war nicht vollständig verlogen –
-        aber es war auch das perfekte Schutzschild
-        gegen jede kritische Nachfrage nach seinen Methoden.
-[P] <strong>c) Desintegration in die Neun:</strong>
-        Der Stresspunkt der Drei ist die Neun:
-        Rückzug, Betäubung, Handlungslosigkeit.
-        <strong>Bankman-Fried</strong> zeigte im Prozess und in Interviews
-        eine eigenartige Gelassenheit,
-        die Beobachter irritierte –
-        keine dramatische Reue, kein Zusammenbruch,
-        eine fast passive Akzeptanz.
-        Das ist die Drei in der Desintegration:
-        Wenn Erfolg nicht mehr möglich ist,
-        schaltet sie ab.
-[P] <strong>d) Vergleich mit Ruja Ignatova (SP3w4):</strong>
-        Beide sind selbsterhaltende Dreien with Four-wing,
-        beide im Kryptobereich tätig,
-        beide mit einer narrativen Hülle um ihr Vergehen:
-        Ignatova als „Cryptoqueen", <strong>Bankman-Fried</strong> als Altruist.
-        Der entscheidende Unterschied liegt in der Reaktion
-        auf den Zusammenbruch:
-        Ignatova verschwand – konsequente Flucht, radikaler Rückzug.
-        Bankman-Fried blieb, gab Interviews, erklärte sich –
-        bis zuletzt im Dreier-Muster des Selbstmanagements
-        durch Selbstdarstellung.
-[P] <strong>e) Effektiver Altruismus als Dreier-Strategie:</strong>
-        Die EA-Bewegung (Effective Altruism) bietet
-        eine rationale, messbare Ethik –
-        genau das, was der Drei entspricht:
-        keine unstrukturierte Moral, sondern Effektivität als Maßstab.
-        <strong>Bankman-Fried</strong> nutzte diese Rahmung
-        nicht nur als Legitimation nach außen,
-        sondern möglicherweise auch als
-        inneres Beruhigungssystem:
-        Der Zweck heiligt die Mittel –
-        wenn der Zweck nur groß genug
-        und präzise genug berechnet ist.
-[P] <strong>f) Das Urteil und die Drei:</strong>
-        25 Jahre Haft bedeuten das Ende der Bühne –
-        des Marktes, des Startups, der Konferenzen,
-        der Interviews. Für eine Drei ist
-        das Verstummen der Außenresonanz
-        eine tiefere Strafe als der Freiheitsentzug selbst.
-        Was <strong>Bankman-Fried</strong> danach ist,
-        wer er ohne Publikum und ohne Leistungsnachweis ist,
-        ist die eigentliche Frage –
-        die Frage, vor der die Drei ihr Leben lang flieht.
-[BOOKTIP] SP3 im Vergleich mit SO3 und SX3 – Kontratyp-Dynamik und das Dreier-Muster der Selbsterhaltung.
-[BOOKTIP] Typ 3 ausführlich porträtiert – Eitelkeit, Maske und der Heilungsweg über echte Authentizität.
+=== PAGE: baumartenPage (Teil 1) ===
+[H] Typ 1 – Die Eiche: Unerschütterliche Integrität
+[H] Typ 2 – Die Birke: Heilung und Fürsorge
+[H] Typ 3 – Die Zeder: Majestätischer Aufstieg
+[H] Typ 6 – Der Ahorn: Treue Beständigkeit
+[H] Typ 7 – Der Apfelbaum: Überströmende Fülle
+[H] Typ 8 – Die Ulme: Kraft mit Tiefgang
+[H] Die höchsten Bäume der Welt
+[H] Typ 2 – Grizzly Giant: Schutz für viele
+[H] Typ 3 – Hyperion: Der Höchste
+[H] Typ 5 – Methuselah: Das lebende Gedächtnis
+[H] Typ 6 – Sentinel Tree: Wachtürm der Stabilität
+[H] Typ 7 – General Grant Tree: Freude im Großen
+[H] Typ 9 – Baobab: Stille Völkerverständigung
+[P] Eine enneagrammatisch-archetypische Betrachtung: Was jede Baumart über den Wesenskern eines Enneagrammtyps verrät – mit erstaunlichen Fakten, die das Prinzip lebendig machen.
+[P] Die Eiche gilt seit Jahrtausenden als Symbol für Stärke, Beständigkeit und Rechtschaffenheit. Was kaum jemand weiß: Eine Eiche kann über 1.000 Jahre alt werden – aber ihr Holz wird erst im Alter wirklich hart. Je länger sie wächst, desto fester wird ihr inneres Gefüge. Bei Sturm gibt sie lieber Ast und Zweig auf, als den Stamm zu verbiegen – ein Baum, der unter Druck nachgibt, bevor er seine Achse bricht. Jede Eiche erzeugt im Laufe ihres Lebens bis zu 70.000 Eicheln – von denen nur eine einzige zum Baum heranwächst. Größte Sorgfalt, größte Auslese. Das Prinzip des Typs 1: Was wirklich trägt, wird nicht durch schnelles Wachstum hart, sondern durch unerschütterliche Haltung über die Zeit.
+[P] Die Birke ist eine sogenannte Pionierpflanze: Sie wächst als erste auf kahl geschlagenen oder verbrannten Flächen und gibt dem Boden Struktur, Schutz und Nährstoffe – damit später andere, anspruchsvollere Bäume gedeihen können. Die Birke arbeitet für andere, nicht für sich selbst. Ihr Saft, der im Frühling aufsteigt, wurde jahrhundertelang als Remedies genutzt: entzündungshemmend, entgiftend, vit alisierend. Erstaunlich: Eine Birke gibt täglich bis zu 70 Liter Wasser an die Atmosphäre ab. Und ihr weißes Licht reflektiert Licht in den Wald – ein Baum, der buchstäblich Helligkeit schenkt. Das Prinzip des Typs 2: Den Boden zu bereiten, damit andere aufblühen können – das ist die höchste Form des Gebens.
+[P] Die Zeder gehört zu den imposantesten Bäumen der Welt: bis zu 50 Meter hoch, mit einer Krone von 30 Metern Breite. Ihr Holz war seit 5.000 Jahren begehrt – im alten Ägypten für Mumifizierungen, im Libanon für den Bau des Salomonischen Tempels. Was sie besonders macht: Sie schützt sich durch natürliche Öle im Holz vor Insekten, Feuchtigkeit und Fäulnis – Substanz aus sich selbst heraus. Erstaunlich ist ihr Wuchsprinzip: Die Zeder teilt den Raum um sich herum mit stiller Entschiedenheit ein und beansprucht Licht und Höhe, ohne dabei Aufmerksamkeit zu suchen. Das Prinzip des Typs 3: Überzeugen durch echte Substanz – und den Raum füllen, der einem zusteht.
+[P] Die Weide ist der melancholischste und zugleich widerstandsfähigste Baum. Ihre Zweige hängen tief, fast trauernd – aber ihre Wurzeln sind von rastloser Searchnergie: Sie wachsen dem Wasser entgegen, durchwandern im Boden große Strecken und finden selbst in hartem Boden Wege. Erstaunlich: Eine abgeschnittene Weide kann aus einem einfachen Zweig im Boden zu einem vollständigen Baum heranwachsen – kein Baum regeneriert sich so vollständig aus so wenig. Weiden trauern, aber sie sterben nicht. Aus der Weidenrinde stammt übrigens das Wirkprinzip des Aspirins – der Schmerz selbst trägt die Heilung in sich. Das Prinzip des Typs 4: Schmerz ist nicht Schwund, sondern Substanz. Was tief fühlt, lebt tief – und erfindet sich aus sich selbst neu.
+[P] Die Kiefer ist einer der langlebigsten und anpassungsfähigsten Bäume der Welt. Die älteste bekannte Kiefer – eine Bristlecone Pine in Nordamerika – ist über 5.000 Jahre alt und lebt noch heute. Kiefern gedeihen auf Fels, in Sand, im Hochgebirge – an Orten, an denen andere Bäume aufgeben. Erstaunlich: Die Kiefer kommuniziert über ein unterirdisches Pilznetzwerk mit anderen Kiefern und gibt Nährstoffe an schwächere Nachbarn weiter – ein Baum des stillen, unsichtbaren Wissensaustauschs. Ihr Harz, jahrhundertelang als Remedies verwendet, wird erst unter Verletzung freigesetzt: Die Kiefer gibt von sich, wenn sie angestochen wird – nicht von allein. Das Prinzip des Typs 5: Wissen wird still und ausdauernd angesammelt. Geteilt wird es – aber zu den eigenen Bedingungen.
