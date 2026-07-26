@@ -30509,29 +30509,29 @@ function heinrichPommerenkePortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>Heinrich Pommerenke</strong>, geboren am 6. Februar 1937
-        in Bentwisch bei Rostock, starb am 28. August 2008
-        in der Justizvollzugsanstalt Freiburg –
-        nach fast 48 Jahren Haft, der längsten Einzelhaft
-        in der Geschichte der Bundesrepublik Deutschland.
-        Zwischen Januar 1959 und März 1960 ermordete er
-        mindestens vier Frauen, verging sich an zahlreichen weiteren
-        und beging eine Serie schwerer Raubüberfälle und Vergewaltigungen
-        in Baden-Württemberg und der Schweiz.
-        Die Presse nannte ihn das „Ungeheuer vom Schwarzwald".
-        Was ihn von anderen Tätern seiner Zeit unterschied,
-        war nicht nur die Brutalität, sondern die völlig nüchterne,
-        emotionslose Art, mit der er über seine Taten sprach:
-        Er erklärte vor Gericht, er habe geplant,
-        exakt 71.317 Frauen zu töten, zu missbrauchen oder zu schwängern.
-        Den Auslöser seiner Taten nannte er selbst:
-        eine Szene im Film <em>Die Zehn Gebote</em>, in der Frauen
-        um das Goldene Kalb tanzten.
-        Er habe darin einen göttlichen Auftrag gesehen,
-        „unmoralische" Frauen zu bestrafen.
-        Nach seiner Verurteilung wandte er sich tief der Religion zu,
-        suchte unablässig Vergebung und träumte davon,
-        ein Waisen- und Altenheim zu gründen.
+        <strong>Heinrich Pommerenke</strong>, born on February 6, 1937,
+        in Bentwisch near Rostock, died on August 28, 2008,
+        in the Freiburg correctional facility –
+        after almost 48 years in prison, the longest solitary confinement
+        in the history of the Federal Republic of Germany.
+        Between January 1959 and March 1960, he murdered
+        at least four women, assaulted numerous others,
+        and committed a series of severe robberies and rapes
+        in Baden-Württemberg and Switzerland.
+        The press dubbed him the „Beast of the Black Forest".
+        What set him apart from other perpetrators of his time
+        was not only the brutality, but the completely sober,
+        emotionless way in which he spoke about his deeds:
+        He stated in court that he had planned
+        to kill, abuse, or impregnate exactly 71,317 women.
+        He named the trigger for his crimes himself:
+        a scene in the movie <em>The Ten Commandments</em> in which women
+        danced around the Golden Calf.
+        He saw in this a divine mandate
+        to punish „immoral" women.
+        After his conviction, he turned deeply toward religion,
+        relentlessly sought forgiveness, and dreamed of
+        founding an orphanage and a home for the elderly.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -30554,263 +30554,263 @@ function heinrichPommerenkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Klinisch und richtend:</strong>
-        Zeitgenossen und Ermittler beschrieben <strong>Pommerenkes</strong> Blick
-        als seltsam leer und gleichzeitig bewertend –
-        als sähe er in seiner Umgebung ständig Verstöße,
-        die registriert werden müssen.
-        Die Eins schaut mit dem Blick des Richters:
-        Alles wird gemessen, alles bewertet, alles kategorisiert.
-        Bei Pommerenke hatte dieser Blick eine gespenstische Qualität:
-        Er sah Frauen nicht als Menschen,
-        sondern als moralische Fälle, die er zu beurteilen hatte.</p>
-        <p class="vb-intro"><strong>b) Roboterhaft und ohne emotionale Resonanz:</strong>
-        Vor Gericht fiel <strong>Pommerenke</strong> durch eine
-        klinische, fast mechanische Kälte auf.
-        Er sprach über seine Taten wie ein Buchhalter über Zahlen –
-        ohne Erregung, ohne Reue, ohne erkennbare Erschütterung.
-        Der Neunflügel dämpft die Affekte der Eins vollständig:
-        Was beim 1w2 als hitziger Furor erscheinen kann,
-        ist beim 1w9 zu emotionaler Taubheit geworden.
-        Kein Feuer – nur Eis.</p>
-        <p class="vb-intro"><strong>c) Selbstgerecht bis in die letzte Geste:</strong>
-        Selbst in der Verhandlung, selbst beim Sprechen
-        über grausamste Taten, ließ <strong>Pommerenke</strong>
-        nie den Eindruck entstehen, er zweifle an seiner inneren Logik.
-        Die Eins glaubt tief, auf der richtigen Seite zu stehen –
-        und diese Überzeugung verließ ihn nie ganz,
-        auch wenn die Reue später aufrichtig wirkte.
-        Der SO1er hält seine Maßstäbe für objektiv,
-        für gottgegeben, für unbestreitbar.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Clinical and Judging:</strong>
+        Contemporaries and investigators described <strong>Pommerenke's</strong> gaze
+        as strangely empty and simultaneously evaluative –
+        as if he constantly saw infractions in his surroundings
+        that needed to be registered.
+        The One looks with the gaze of the judge:
+        Everything is measured, everything evaluated, everything categorized.
+        In Pommerenke's case, this gaze had a ghostly quality:
+        He did not see women as human beings,
+        but as moral cases that he had to judge.</p>
+        <p class="vb-intro"><strong>b) Robotic and Without Emotional Resonance:</strong>
+        In court, <strong>Pommerenke</strong> stood out for his
+        clinical, almost mechanical coldness.
+        He spoke about his deeds like an accountant about numbers –
+        without excitement, without remorse, without perceptible shaking.
+        The Nine-wing dampens the affects of the One completely:
+        What might appear as heated fury in a 1w2
+        has turned into emotional numbness in a 1w9.
+        No fire – only ice.</p>
+        <p class="vb-intro"><strong>c) Righteous to the Very Last Gesture:</strong>
+        Even during the trial, even when speaking
+        about the most gruesome deeds, <strong>Pommerenke</strong>
+        never gave the impression that he doubted his inner logic.
+        The One deeply believes it is on the right side –
+        and this conviction never truly left him,
+        even if his remorse later appeared sincere.
+        The SO1 considers their standards to be objective,
+        god-given, unquestionable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der göttliche Strafauftrag:</strong>
-        <strong>Pommerenkes</strong> zentrales psychologisches Dokument
-        ist seine eigene Erklärung: Der Film <em>Die Zehn Gebote</em>,
-        die Szene tanzender Frauen um das Goldene Kalb,
-        habe ihn mit der Überzeugung erfüllt,
-        sündhafte Frauen bestrafen zu müssen.
-        Das ist der SO1 in seiner extremsten religiösen Verzerrung:
-        Die soziale Eins erlebt sich als Hüterin der gesellschaftlichen Ordnung –
-        bei Pommerenke wurde diese Ordnungsvorstellung ins Religiöse gehoben
-        und zur Wahnidee, die jeden Widerspruch eliminierte.</p>
-        <p class="vb-intro"><strong>b) Präzision und Planung:</strong>
-        Die Zahl 71.317 – die Anzahl der Frauen,
-        die er nach eigenem Bekunden töten, vergewaltigen
-        oder schwängern wollte – ist kein Zufallsprodukt.
-        Sie ist das Ergebnis einer inneren Buchhaltung,
-        einer zwanghaften Ordnung im Chaos.
-        Die Eins ist der Typ, der Regeln, Listen und Systeme braucht –
-        selbst für das Unfassbarste.
-        <strong>Pommerenkes</strong> Planzahl zeigt, dass sein Wahn
-        keine chaotische Triebentladung war,
-        sondern eine durchstrukturierte innere Logik besaß.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Einfrieren statt Explodieren:</strong>
-        Dort, wo ein 1w2 emotional aufwallen würde,
-        erstarrt der 1w9.
-        <strong>Pommerenkes</strong> Neunflügel ermöglichte eine
-        vollständige Dissoziation vom eigenen Handeln:
-        Die Tat wurde nicht als Teil des Selbst erlebt,
-        sondern als quasi-äußerlicher Vollzug eines Auftrags.
-        Das Gewissen – das beim Einser normalerweise laut schreit –
-        wurde durch die Abspaltung zum Schweigen gebracht.
-        Kein innerer Alarm. Nur Ausführung.</p>
+        <p class="vb-intro"><strong>a) The Divine Mandate to Punish:</strong>
+        <strong>Pommerenke's</strong> central psychological document
+        is his own explanation: The movie <em>The Ten Commandments</em>,
+        the scene of women dancing around the Golden Calf,
+        filled him with the conviction
+        that he had to punish sinful women.
+        This is the SO1 in its most extreme religious distortion:
+        The social One experiences itself as a guardian of social order –
+        in Pommerenke's case, this concept of order was elevated into the religious
+        and turned into a delusion that eliminated all contradiction.</p>
+        <p class="vb-intro"><strong>b) Precision and Planning:</strong>
+        The number 71,317 – the number of women
+        that he, by his own admission, intended to kill, rape,
+        or impregnate – is not a product of chance.
+        It is the result of inner accounting,
+        a compulsive order within chaos.
+        The One is the type that needs rules, lists, and systems –
+        even for the most unfathomable things.
+        <strong>Pommerenke's</strong> planned figure shows that his delusion
+        was not a chaotic release of impulse,
+        but possessed a thoroughly structured inner logic.</p>
+        <p class="vb-intro"><strong>c) Nine-Wing: Freezing Instead of Exploding:</strong>
+        Where a 1w2 would surge emotionally,
+        the 1w9 freezes.
+        <strong>Pommerenke's</strong> Nine-wing enabled a
+        complete dissociation from his own actions:
+        The act was experienced not as part of the self,
+        but as a quasi-external execution of a mandate.
+        The conscience – which normally shouts loudly in the One –
+        was silenced through this detachment.
+        No inner alarm. Only execution.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Zorn als verdrängter Motor:</strong>
-        Die Leidenschaft der Eins ist Zorn –
-        aber es ist kein sichtbarer, explosiver Zorn.
-        Es ist ein tiefer, strukturierter, moralischer Groll
-        gegen die Unvollkommenheit der Welt.
-        Bei <strong>Pommerenke</strong> richtete sich dieser Groll
-        gegen Frauen als Symbol des Sündigen, des Unkontrollierten,
-        des Ordnungswidrigen.
-        Was er tat, empfand er nicht als Ausbruch –
-        er empfand es als Korrektur.</p>
-        <p class="vb-intro"><strong>b) Sozialer Subtype: Die Gesellschaft als Gericht:</strong>
-        Der SO1er denkt in gesellschaftlichen Kategorien:
-        Was ist richtig? Was ist falsch? Wer hält sich an die Normen,
-        wer weicht ab? Für den gesunden SO1 führt das zu
-        engagiertem gesellschaftlichem Reformwillen und ethischem Rückgrat.
-        Bei <strong>Pommerenke</strong> wurde dieser Mechanismus zur Waffe:
-        Die Gesellschaft war in seiner Wahrnehmung korrumpiert,
-        Frauen waren die sichtbarsten Symptome dieser Korruption –
-        und er war der einzige, der die Konsequenzen ziehen würde.</p>
-        <p class="vb-intro"><strong>c) Selbstbestrafung und Sühne als Spiegelbild:</strong>
-        Das Gegenstück zu <strong>Pommerenkes</strong> Strafauftrag
-        ist sein späteres Leben in Haft:
-        jahrzehntelange religiöse Search, Beichte, Gebet,
-        der Wunsch, ein Altenheim zu gründen.
-        Das ist dieselbe Einser-Logik, nur ins Innere gewendet:
-        Ich muss gut sein, ich muss fehlerlos sein, ich muss alles wiedergutmachen.
-        Die Eins straft andere – und bestraft sich selbst.
-        Pommerenke tat beides: mit derselben inneren Konsequenz.</p>
+        <p class="vb-intro"><strong>a) Wrath as a Suppressed Engine:</strong>
+        The passion of the One is wrath –
+        but it is not a visible, explosive anger.
+        It is a deep, structured, moral resentment
+        against the imperfection of the world.
+        In <strong>Pommerenke's</strong> case, this resentment was directed
+        against women as a symbol of the sinful, the uncontrolled,
+        the disorderly.
+        What he did, he did not feel as an outburst –
+        he felt it as a correction.</p>
+        <p class="vb-intro"><strong>b) Social Subtype: Society as a Courtroom:</strong>
+        The SO1 thinks in societal categories:
+        What is right? What is wrong? Who follows the norms,
+        who deviates? For the healthy SO1, this leads to
+        committed societal reform efforts and an ethical backbone.
+        In <strong>Pommerenke's</strong> case, this mechanism turned into a weapon:
+        In his perception, society was corrupted,
+        women were the most visible symptoms of this corruption –
+        and he was the only one who would draw the consequences.</p>
+        <p class="vb-intro"><strong>c) Self-Punishment and Atonement as a Mirror Image:</strong>
+        The counterpart to <strong>Pommerenke's</strong> mandate to punish
+        is his later life in prison:
+        decades of religious searching, confession, prayer,
+        the desire to found a home for the elderly.
+        This is the very same One-logic, turned inward:
+        I must be good, I must be blameless, I must make everything right.
+        The One punishes others – and punishes itself.
+        Pommerenke did both: with the exact same inner consistency.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unheimliche Ruhe statt Monstrosität:</strong>
-        Was Ermittler und Psychiater an <strong>Pommerenke</strong>
-        am meisten erschütterte, war nicht seine Brutalität –
-        es war seine Ruhe dabei.
-        Kein Triumphieren, kein Sadismus im Affekt,
-        keine erkennbare Lust an der Macht.
-        Nur ein Mann, der ruhig erklärte, was er getan hat
-        und warum er es für notwendig hielt.
-        Das ist die Wirkung des 1w9 auf Höchststufe der Pathologie:
-        eine Abwesenheit, die gruseliger ist als jede Aufgeregtheit.</p>
-        <p class="vb-intro"><strong>b) Keine Maske – eine Überzeugung:</strong>
-        <strong>Pommerenke</strong> war kein Täter, der eine Fassade aufrechthielt.
-        Er war jemand, der wirklich glaubte, was er tat.
-        Das macht ihn zu einem der psychologisch verstörendsten
-        Fälle der deutschen Kriminalgeschichte:
-        nicht ein Mensch, der böse war und es versteckte –
-        sondern ein Mensch, der glaubte, gut zu tun,
-        und dabei das Ungeheuerlichste beging.</p>
-        <p class="vb-intro"><strong>c) Ordnungswahn als Zerstörungslogik:</strong>
-        Die Eins in ihrer tiefsten Pathologie dreht die Logik um:
-        Um Ordnung herzustellen, muss Unordnung vernichtet werden.
-        Um das Gute zu schützen, muss das Schlechte ausgelöscht werden.
-        Für <strong>Pommerenke</strong> waren Frauen, die tanzten, lachten,
-        lebten – Symbole der Unordnung.
-        Der SO1er hält diese Logik für universal –
-        und der Neunflügel verhindert, dass das eigene Empfinden
-        als Korrektiv eingreift.</p>
+        <p class="vb-intro"><strong>a) Uncanny Calm Instead of Monstrosity:</strong>
+        What shook investigators and psychiatrists most about <strong>Pommerenke</strong>
+        was not his brutality –
+        it was his calmness throughout.
+        No triumphing, no passionate sadism,
+        no perceptible delight in power.
+        Just a man who calmly explained what he did
+        and why he held it to be necessary.
+        This is the effect of the 1w9 at the highest level of pathology:
+        an absence that is creepier than any agitation.</p>
+        <p class="vb-intro"><strong>b) No Mask – A Conviction:</strong>
+        <strong>Pommerenke</strong> was not a perpetrator who maintained a facade.
+        He was someone who truly believed what he was doing.
+        That makes him one of the most psychologically disturbing
+        cases in German criminal history:
+        not a human being who was evil and hid it –
+        but a human being who believed he was doing good,
+        and committed the most monstrous acts while doing so.</p>
+        <p class="vb-intro"><strong>c) Delusion of Order as a Logic of Destruction:</strong>
+        The One in its deepest pathology reverses the logic:
+        To establish order, disorder must be destroyed.
+        To protect the good, the bad must be eradicated.
+        To <strong>Pommerenke</strong>, women who danced, laughed,
+        and lived were symbols of disorder.
+        The SO1 considers this logic to be universal –
+        and the Nine-wing prevents one's own feeling
+        from stepping in as a corrective.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Eingefroren und komprimiert:</strong>
-        Die energetische Qualität des 1w9 ist wie ein
-        unter Druck stehendes, tief gekühltes System:
-        keine sichtbaren Regungen an der Oberfläche,
-        aber enorme, rigide Spannung darunter.
-        <strong>Pommerenke</strong> wirkte auf Gesprächspartner
-        weder einschüchternd noch warm –
-        er wirkte weg. Als sei er nicht ganz anwesend.
-        Das ist die Neunflügel-Energie der Eins:
-        nicht Feuer, sondern Permafrost.</p>
-        <p class="vb-intro"><strong>b) Moralischer Druck ohne Wort:</strong>
-        Die Eins sendet ständig ein stilles Signal aus:
-        <em>Hier wird nach Maßstäben gelebt.</em>
-        Wer mit einer Eins zusammen ist, spürt diesen Druck –
-        auch wenn kein Wort gesagt wird.
-        Bei <strong>Pommerenke</strong> war dieser Druck
-        in sein Verhältnis zur gesamten Welt kodiert:
-        Er bewertete alles, immer, automatisch.
-        Kein Mensch in seinem Umfeld war einfach vorhanden –
-        jeder war ein moralischer Fall.</p>
-        <p class="vb-intro"><strong>c) Neunflügel: Dissoziation als Energieschutz:</strong>
-        Der Neunflügel der Eins erzeugt eine spezifische
-        Schutzmechanismus-Energie: das Betäuben des eigenen
-        Innenlebens, um die innere Rigidität nicht spüren zu müssen.
-        Für <strong>Pommerenke</strong> bedeutete das:
-        Er konnte tun, was er tat,
-        ohne dass sein eigenes Erleben als Grenze wirkte.
-        Die Dissoziation war keine Schwäche – sie war sein System.</p>
+        <p class="vb-intro"><strong>a) Frozen and Compressed:</strong>
+        The energetic quality of the 1w9 is like a
+        deeply chilled system under pressure:
+        no visible movements on the surface,
+        but enormous, rigid tension underneath.
+        <strong>Pommerenke</strong> appeared to those he spoke with
+        neither intimidating nor warm –
+        he appeared gone. As if he were not quite present.
+        That is the Nine-wing energy of the One:
+        not fire, but permafrost.</p>
+        <p class="vb-intro"><strong>b) Moral Pressure Without Words:</strong>
+        The One constantly broadcasts a silent signal:
+        <em>Standards are lived by here.</em>
+        Anyone who is with a One feels this pressure –
+        even if not a word is spoken.
+        With <strong>Pommerenke</strong>, this pressure was
+        encoded into his relationship with the entire world:
+        He evaluated everything, always, automatically.
+        No person in his environment was simply present –
+        everyone was a moral case.</p>
+        <p class="vb-intro"><strong>c) Nine-Wing: Dissociation as Energy Protection:</strong>
+        The Nine-wing of the One creates a specific
+        defense mechanism energy: the numbing of one's own
+        inner life so as not to have to feel the inner rigidity.
+        For <strong>Pommerenke</strong>, this meant:
+        He could do what he did
+        without his own experience acting as a boundary.
+        The dissociation was not a weakness – it was his system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Gans</h3>
-        <p class="vb-intro"><strong>a) Ordnungshüterin mit sozialem Anspruch:</strong>
-        Die Gans ist das Tier der SO1 im Tierlexikon:
-        Sie ist ein soziales Tier mit ausgeprägtem Sinn
-        für Hierarchie, Formation und Ordnung.
-        Gänse fliegen in strenger Formation,
-        zeigen gegenüber Eindringlingen lautstarke, unmissverständliche Aggression
-        und dulden keine Regelabweichung innerhalb ihrer Gruppe.
-        <strong>Pommerenkes</strong> innere Welt folgte derselben Logik:
-        Die Welt hat eine Ordnung – wer sie verletzt, wird bestraft.</p>
-        <p class="vb-intro"><strong>b) Lautlos loyal, dann explosiv:</strong>
-        Gänse sind die meiste Zeit still und unauffällig –
-        bis jemand die Grenze überschreitet.
-        Dann reagieren sie ohne Zögern, ohne Verhältnismäßigkeit,
-        mit voller Energie.
-        <strong>Pommerenkes</strong> Neunflügel entspricht der stillen Phase:
-        kaum sichtbar, kaum spürbar, fast nicht präsent.
-        Doch sobald seine innere Ordnung ausgelöst wurde,
-        gab es keine Bremse mehr – nur Ausführung.</p>
-        <p class="vb-intro"><strong>c) Formation als Lebensgesetz:</strong>
-        Das Fliegen in Formation ist für Gänse kein Komfort –
-        es ist das Überlebensprinzip der Art.
-        Für <strong>Pommerenke</strong> war die innere Formation –
-        Regeln, Gebote, Maßstäbe – das einzige,
-        was seiner Innenwelt Halt gab.
-        Als diese Formation ins Wahnhafte kippte,
-        hatte er keine innere Gegenkraft mehr,
-        die ihn zurückgehalten hätte:
-        Die Ordnung selbst war zur Rechtfertigung geworden.</p>
+        <p class="vb-intro"><strong>a) Guardian of Order with a Social Claim:</strong>
+        The goose is the animal of the SO1 in the animal dictionary:
+        It is a social animal with a pronounced sense
+        for hierarchy, formation, and order.
+        Geese fly in strict formation,
+        display loud, unmistakable aggression toward intruders,
+        and tolerate no deviation from rules within their group.
+        <strong>Pommerenke's</strong> inner world followed the exact same logic:
+        The world has an order – whoever violates it gets punished.</p>
+        <p class="vb-intro"><strong>b) Silently Loyal, Then Explosive:</strong>
+        Geese are quiet and inconspicuous most of the time –
+        until someone crosses the boundary.
+        Then they react without hesitation, without proportionality,
+        with full energy.
+        <strong>Pommerenke's</strong> Nine-wing corresponds to the quiet phase:
+        barely visible, barely perceptible, almost non-present.
+        Yet as soon as his inner order was triggered,
+        there was no brake left – only execution.</p>
+        <p class="vb-intro"><strong>c) Formation as a Law of Life:</strong>
+        Flying in formation is not a comfort for geese –
+        it is the survival principle of the species.
+        For <strong>Pommerenke</strong>, inner formation –
+        rules, commandments, standards – was the only thing
+        that gave structure to his inner world.
+        When this formation tipped into delusion,
+        he had no inner counterforce left
+        that could have held him back:
+        Order itself had become the justification.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Heinrich Pommerenke</strong> ist einer der psychologisch
-        präzisesten – und erschütterndsten – Belege dafür,
-        wohin die Dynamik des SO1w9 in ihrer tiefsten Pathologie führen kann.
-        Kein anderer Typ beschreibt seinen inneren Zustand
-        so unverblümt wie er: der Film, der Auftrag, die Zahl.
-        Das ist nicht die Sprache des Impulses –
-        das ist die Sprache einer Eins, die glaubt, recht zu haben.
-        Der Neunflügel ist der Schlüssel zur klinischen Kälte:
-        er fror das Gewissen ein, bevor es Einspruch erheben konnte.
-        Die jahrzehntelange Reue in der Haft ist kein Widerspruch –
-        sie ist die Rückkehr des Einsers zu sich selbst,
-        nachdem der Wahn zerbrochen war:
-        derselbe Perfektionismus, dieselbe Strenge,
-        nur jetzt gegen die eigene Schuld gewendet.
-        Pommerenke ist kein Monster im populären Sinne –
-        er ist ein Mensch, dessen Typ ohne jedes Korrektiv
-        bis an seine äußerste Grenze getrieben wurde.
+        <strong>Heinrich Pommerenke</strong> is one of the psychologically
+        most precise – and most disturbing – proofs of
+        where the dynamics of the SO1w9 can lead in its deepest pathology.
+        No other type describes his inner state
+        as bluntly as he did: the movie, the mandate, the number.
+        This is not the language of impulse –
+        this is the language of a One who believes he is right.
+        The Nine-wing is the key to his clinical coldness:
+        it froze his conscience before it could object.
+        The decades-long remorse during imprisonment is no contradiction –
+        it is the return of the One to himself
+        after the delusion had shattered:
+        the same perfectionism, the same strictness,
+        only now turned against his own guilt.
+        Pommerenke is not a monster in the popular sense –
+        he is a human being whose type was driven to its absolute outer limit
+        without any corrective.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO1 – „Die Unflexible":</strong>
-        Claudio Naranjo beschrieb die soziale Eins
-        als den Subtype, der am stärksten auf gesellschaftliche Korrektheit
-        und kollektive Moral fixiert ist – starr, richtend, selbstsicher.
-        Bei <strong>Pommerenke</strong> nahm diese Fixierung religiöse Dimensionen an.
-        Was Naranjo als Unflexibilität beschreibt,
-        wurde hier zum absoluten Dogma:
-        Es gibt eine Ordnung, ich kenne sie, ich vollstrecke sie.</p>
-        <p class="vb-intro"><strong>b) Der Film als Auslöser – eine Einser-Logik:</strong>
-        Dass ein Film <strong>Pommerenkes</strong> Taten auslöste,
-        wirkt zunächst absurd – ist aber aus Einser-Perspektive
-        vollkommen konsequent.
-        Die Eins sucht ständig nach Belegen für ihre Überzeugungen.
-        Pommerenke fand in der Goldenen-Kalb-Szene
-        genau das, was er suchte: die Bestätigung,
-        dass Frauen sündig sind und Strafe verdienen.
-        Die Botschaft war schon da – der Film hat sie nur gespiegelt.</p>
-        <p class="vb-intro"><strong>c) 48 Jahre Haft – und religiöse Sühne:</strong>
-        <strong>Pommerenkes</strong> Haftzeit ist in sich schon
-        eine tiefenpsychologische Studie über den Einser-Mechanismus.
-        Jahrzehntelange Gebete, Beichten, Wunsch nach Sühne –
-        das ist dieselbe Energie, die ihn auch zu den Taten getrieben hatte:
-        Ich muss vollkommen sein, ich muss alles in Ordnung bringen.
-        Die Taten waren Ordnungsvollzug nach außen.
-        Die Reue war Ordnungsvollzug nach innen.
-        Dieselbe innere Logik, zwei entgegengesetzte Richtungen.</p>
-        <p class="vb-intro"><strong>d) Vier als Stresspunkt – wahnhafte Selbstbegegnung:</strong>
-        Der Stresspunkt der Eins ist die Vier –
-        unter extremem inneren Druck gleitet die Eins
-        in die dunkle Seite der Vier ab:
-        Grübeln, das Gefühl tiefer Unwürdigkeit,
-        Selbstverurteilung, Weltschmerz.
-        Bei <strong>Pommerenke</strong> zeigte sich dieser Vierer-Stresspunkt
-        in seiner religiösen Wahn-Struktur:
-        Er erlebte sich als grundlegend schuldig und unrein –
-        und richtete diesen Schmerz nicht nach innen,
-        sondern nach außen: als Strafauftrag an andere.
-        Die Vier hätte Selbstbegegnung bedeutet.
-        Er machte daraus eine Mission.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SO1 – „The Inflexible":</strong>
+        Claudio Naranjo described the social One
+        as the subtype most fixated on societal correctness
+        and collective morality – rigid, judging, self-assured.
+        In <strong>Pommerenke's</strong> case, this fixation took on religious dimensions.
+        What Naranjo describes as inflexibility
+        turned into an absolute dogma here:
+        There is an order, I know it, I execute it.</p>
+        <p class="vb-intro"><strong>b) The Movie as a Trigger – A One-Logic:</strong>
+        That a movie triggered <strong>Pommerenke's</strong> deeds
+        appears absurd at first glance – but from a One-perspective,
+        it is completely consistent.
+        The One constantly searches for evidence to support its convictions.
+        Pommerenke found in the Golden Calf scene
+        exactly what he was looking for: the confirmation
+        that women are sinful and deserve punishment.
+        The message was already there – the movie merely mirrored it.</p>
+        <p class="vb-intro"><strong>c) 48 Years in Prison – And Religious Atonement:</strong>
+        <strong>Pommerenke's</strong> time in prison is in itself
+        a deep-psychological study of the One-mechanism.
+        Decades of prayers, confessions, the desire for atonement –
+        this is the exact same energy that had driven him to his crimes:
+        I must be perfect, I must make everything right.
+        The deeds were the execution of order outward.
+        The remorse was the execution of order inward.
+        The same inner logic, two opposite directions.</p>
+        <p class="vb-intro"><strong>d) Four as a Stress Point – Delusional Self-Encounter:</strong>
+        The stress point of the One is the Four –
+        under extreme inner pressure, the One slips
+        into the dark side of the Four:
+        brooding, a feeling of deep unworthiness,
+        self-condemnation, world-weariness.
+        In <strong>Pommerenke's</strong> case, this Four stress point showed itself
+        in his religious delusional structure:
+        He experienced himself as fundamentally guilty and impure –
+        and directed this pain not inward,
+        but outward: as a mandate to punish others.
+        The Four would have meant confronting himself.
+        He turned it into a mission.</p>
         <p class="vb-intro"><strong>e) Sieben als Entspannungspunkt:</strong>
         Der Entspannungspunkt der Eins ist die Sieben –
         in Sicherheit öffnet sich die Eins zur Leichtigkeit,
