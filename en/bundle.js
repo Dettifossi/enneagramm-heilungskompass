@@ -20327,20 +20327,19 @@ function richardRamirezPortraitPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Night Stalker" – Südkalifornien 1984–1985</p>
       </div>
       <p class="psycho-intro">
-        <strong>Ricardo Leyva Muñoz Ramírez</strong>, bekannt als <strong>Richard Ramírez</strong>,
-        geboren 1960 in El Paso, Texas, ermordete zwischen April 1984 und August 1985
-        mindestens <strong>13 Menschen</strong> in der Gegend um Los Angeles und San Francisco.
-        Er vergewaltigte zahlreiche weitere Opfer, beging Einbrüche, Überfälle und Folterungen.
-        Seine Taten waren charakterisiert durch scheinbare Willkür – er schlug nachts
-        in Vororthäusern ein, ohne festes Opferprofil –, durch satanische Symbole,
-        die er an Tatorten hinterließ, und durch sein Verhalten im Gerichtssaal:
-        das Victory-Zeichen, das Pentagramm auf der Handfläche, der Blick für die Kameras.
-        Er wurde 2013 in der Untersuchungshaft in Greenbrae, Marin County, Kalifornien,
-        an einem B-Zell-Lymphom verstorben – bevor sein Todesurteil vollstreckt wurde.
-        Was Ramírez von anderen Serienmördern unterscheidet: Er war der erste,
-        der sich selbst zum Mythos machte – bewusst, konsequent, öffentlich.
-        Das Enneagramm macht sichtbar, was dahinter arbeitete.
-      </p>
+        <strong>Ricardo Leyva Muñoz Ramírez</strong>, known as <strong>Richard Ramírez</strong>,
+        born in 1960 in El Paso, Texas, murdered between April 1984 and August 1985
+        at least <strong>13 people</strong> in the area around Los Angeles and San Francisco.
+        He raped numerous other victims, committed burglaries, assaults, and torture.
+        His crimes were characterized by apparent randomness – he broke into suburban homes at night,
+        without a fixed victim profile –, by satanic symbols
+        left at crime scenes, and by his behavior in the courtroom:
+        the victory sign, the pentagram on his palm, the look for the cameras.
+        He died in 2013 in custody in Greenbrae, Marin County, California,
+        of B-cell lymphoma – before his death sentence was executed.
+        What distinguishes Ramírez from other serial killers: He was the first
+        who made himself into a myth – consciously, consistently, publicly.
+        The Enneagram makes visible what operated behind this.</p>
 
       <div class="vb-section" style="background:rgba(100,0,120,0.06);border-left:3px solid #640078;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -20356,139 +20355,135 @@ function richardRamirezPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Pfau</h3>
         <p class="vb-intro">
-        Der <strong>Pfau</strong> ist die Animal correspondence der sexuellen Drei.
-        Er existiert, um gesehen zu werden. Sein Rad ist nicht Fürsorge, nicht Stärke –
-        es ist reines Signal: Ich bin hier. Ich bin mehr.
-        Kein anderes Tier kommuniziert so vollständig durch sein Erscheinungsbild.
-        Ramírez war ein Pfau mit satanischem Rad.
-        Er wählte einen Look, eine Ideologie, eine Ästhetik, die garantiert,
-        dass man ihn nicht vergisst: schwarze Kleidung, AC/DC-Cap,
-        das Pentagramm auf der Handfläche, das Victory-Zeichen vor den Kameras.
-        Manche Pfauen wollen Bewunderung. Ramírez wollte Schrecken.
-        Aber der Antrieb ist derselbe: das Rad ausgebreitet,
-        die Augen der anderen darauf gerichtet.
-        </p>
+        The <strong>Peacock</strong> is the animal correspondence of the Sexual Three.
+        It exists to be seen. Its fan is not care, not strength –
+        it is pure signal: I am here. I am more.
+        No other animal communicates so completely through its appearance.
+        Ramírez was a peacock with a satanic fan.
+        He chose a look, an ideology, an aesthetic that guaranteed
+        he would not be forgotten: black clothing, AC/DC cap,
+        the pentagram on his palm, the victory sign in front of the cameras.
+        Some peacocks want admiration. Ramírez wanted terror.
+        But the drive is the same: the fan spread wide,
+        the eyes of others fixed upon it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Drei: Ich will unvergesslich sein</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der sexuellen Drei:</strong>
-        Die sexuelle Drei ist auf das Begehren ausgerichtet – sie will das Objekt des Begehrens sein,
-        will im anderen ein Feuer entzünden, will nicht nur bewundert, sondern verschluckt werden.
-        Im Gesunden ist das magnetische Anziehungskraft, Leidenschaft, Charisma.
-        In der Pathologie wird daraus der Wunsch, nicht nur begehrt zu werden –
-        sondern gefürchtet. Nicht nur gesehen – sondern nicht mehr aus dem Kopf zu kriegen.
-        Ramírez sprach in Verhören und Interviews davon, dass er unsterblich werden wolle.
-        Nicht im spirituellen Sinne – im medialen Sinne: als Figur, als Legende.</p>
-        <p class="vb-intro"><strong>b) Der Four-wing: Dunkelheit als Identität:</strong>
-        Der Four-wing der sexuellen Drei erzeugt ein Bedürfnis nach Tiefe, Einzigartigkeit,
-        einem Selbstbild jenseits des Gewöhnlichen.
-        Die Vier fragt: Wer bin ich wirklich? Was macht mich unverwechselbar?
-        Bei Ramírez verband sich diese Search früh mit Dunkelheit und Gewalt:
-        Er wuchs in einer von Armut und familiärer Gewalt geprägten Umgebung auf,
-        sein älterer Bruder Miguel, ein Vietnam-Veteran, erzählte ihm in der Kindheit
-        von Vergewaltigungen und Tötungen und zeigte ihm Trophäenfotos.
-        Der Four-wing machte das Böse zu seinem Identitätsmerkmal –
-        zur einzigartigen Signatur, die ihn von allen anderen unterschied.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Eitelkeit als Selbstmythologisierung:</strong>
-        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> –
-        das Festhalten an einem Selbstbild, das glänzt, das zählt, das gesehen wird.
-        Für Ramírez bedeutete das keine klassische Selbstoptimierung –
-        sondern die Erschaffung einer Figur, die in die kulturelle Memoria eingeht:
-        der Night Stalker, der Diener Satans, der Unsterbliche.
-        Im Gerichtssaal posierte er. Er heiratete während des Prozesses.
-        Er empfing Briefe von Verehrerinnen. Er genoss es.
-        Das ist die Eitelkeit der SX3 in ihrer extremsten Ausprägung:
-        nicht Schönheit als Währung – sondern Schrecken als Marke.</p>
+        <p class="vb-intro"><strong>a) The Core Principle of the Sexual Three:</strong>
+        The Sexual Three is oriented toward desire – it wants to be the object of desire,
+        wants to ignite a fire in the other, wants not merely to be admired, but swallowed whole.
+        In health, this is magnetic attraction, passion, charisma.
+        In pathology, it becomes the desire not just to be desired –
+        but feared. Not just seen – but impossible to get out of one's head.
+        In interrogations and interviews, Ramírez spoke of wanting to become immortal.
+        Not in a spiritual sense – in a media sense: as a figure, as a legend.</p>
+        <p class="vb-intro"><strong>b) The Four-wing: Darkness as Identity:</strong>
+        The Four-wing of the Sexual Three creates a need for depth, uniqueness,
+        a self-image beyond the ordinary.
+        The Four asks: Who am I really? What makes me unmistakable?
+        For Ramírez, this search connected early with darkness and violence:
+        He grew up in an environment shaped by poverty and domestic violence;
+        his older brother Miguel, a Vietnam veteran, told him in childhood
+        about rapes and killings and showed him trophy photos.
+        The Four-wing made evil his defining identity trait –
+        the unique signature that set him apart from everyone else.</p>
+        <p class="vb-intro"><strong>c) The Passion: Vanity as Self-Mythologizing:</strong>
+        The passion of the Three is <strong>Vanity</strong> –
+        holding onto a self-image that shines, that counts, that is seen.
+        For Ramírez, this did not mean classic self-optimization –
+        but the creation of a figure that enters cultural memory:
+        the Night Stalker, the servant of Satan, the immortal one.
+        In the courtroom, he posed. He married during the trial.
+        He received letters from female admirers. He enjoyed it.
+        This is the vanity of the SX3 in its most extreme expression:
+        not beauty as currency – but terror as a brand.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Der Night Stalker 1984–1985</h3>
-        <p class="vb-intro"><strong>a) Frühe Prägung und Drogenjahre:</strong>
-        Ramírez wuchs in El Paso auf, jüngstes von fünf Kindern eines Eisenbahners.
-        Als Teenager verbrachte er viel Zeit mit seinem Cousin Miguel,
-        einem zurückgekehrten Vietnam-Veteranen mit schwerer PTBS.
-        Miguel zeigte ihm Fotos von Kriegsgräueln und erzählte ihm von Vergewaltigungen –
-        Ramírez war fasziniert. Miguel erschoss später seine eigene Frau vor Ramírez' Augen.
-        Als Teenager zog Ramírez nach Los Angeles, lebte obdachlos,
-        schlief in Abbruchhäusern und Motels, konsumierte exzessiv Kokain und Marihuana.
-        Er hörte Heavy Metal – besonders AC/DC. Das Lied „Night Prowler"
-        auf dem Album „Highway to Hell" wurde sein innerer Soundtrack.
-        Er begann mit Einbrüchen, dann mit ersten Angriffen.</p>
-        <p class="vb-intro"><strong>b) Die Taten 1984–1985 – Methode und Willkür:</strong>
-        Ramírez operierte ausschließlich nachts, in Vororthäusern der San Gabriel Valley,
-        später auch im Großraum San Francisco.
-        Er drang durch offene Fenster oder aufgebrochene Türen ein.
-        Seine Opfer waren Männer, Frauen und Kinder – ohne einheitliches Profil.
-        Er erschoss, erwürgte, schlug mit Hämmern, vergewaltigte Opfer jeden Alters.
-        An einigen Tatorten zeichnete er Pentagramme mit Lippenstift an Wände.
-        Er nahm Schmuck und Bargeld mit – teils wie ein Gelegenheitsdieb,
-        teils scheinbar ohne Interesse am Diebesgut.
-        Einige Opfer überlebten: Er ließ sie am Leben, wenn sie ihm gefielen,
-        wenn sie „Satan" gelobten, wenn er einfach das Interesse verlor.
-        Die Willkür war kein Zufall – sie war Teil des Signals:
-        Niemand ist sicher. Ich kann überall sein.</p>
-        <p class="vb-intro"><strong>c) Die Fahndung und die Panik:</strong>
-        Los Angeles verfiel in kollektive Panik. Schlossereien meldeten Rekordverkäufe.
-        Menschen schliefen mit Waffen neben dem Bett.
-        Die Polizei konnte zunächst kein einheitliches Täterprofil erstellen –
-        die Opfer waren zu verschieden, die Methoden zu uneinheitlich.
-        Erst die forensische Auswertung eines Fußabdrucks und eines Zahnabdrucks
-        brachte die Ermittlungen voran. Im August 1985 wurde ein Fingerabdruck
-        aus einem gestohlenen Auto mit einem Polizeiregister abgeglichen –
-        und kam auf Ramírez zurück, der bereits wegen kleinerer Delikte aktenkundig war.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung – der Mob (August 1985):</strong>
-        Am 31. August 1985 erkannte ein Bewohner des East Los Angeles Ramírez,
-        nachdem sein Foto in allen Zeitungen erschienen war.
-        Ramírez versuchte, ein Auto zu stehlen – und wurde von einer aufgebrachten Menge
-        auf der Straße gestellt und zusammengeschlagen, bis die Polizei eintraf.
-        Er rief den Beamten zu: „Thank God you came. I am the Night Stalker."
-        Im Gerichtssaal: das Victory-Zeichen, das Pentagramm auf der Handfläche,
-        gezielte Blicke für die Kameras. Er heiratete während des Prozesses Doreen Lioy.
-        Er wurde 1989 in 13 Fällen für schuldig befunden und zum Tode verurteilt.</p>
+        <p class="vb-intro"><strong>a) Early Conditioning and Drug Years:</strong>
+        Ramírez grew up in El Paso, the youngest of five children of a railway worker.
+        As a teenager, he spent a lot of time with his cousin Miguel,
+        a returned Vietnam veteran with severe PTSD.
+        Miguel showed him photos of war atrocities and told him about rapes –
+        Ramírez was fascinated. Miguel later shot his own wife in front of Ramírez's eyes.
+        As a teenager, Ramírez moved to Los Angeles, lived homeless,
+        slept in abandoned houses and motels, used cocaine and marijuana excessively.
+        He listened to heavy metal – especially AC/DC. The song "Night Prowler"
+        on the album "Highway to Hell" became his inner soundtrack.
+        He started with burglaries, then first attacks.</p>
+        <p class="vb-intro"><strong>b) The Crimes 1984–1985 – Method and Randomness:</strong>
+        Ramírez operated exclusively at night, in suburban homes in the San Gabriel Valley,
+        later also in the greater San Francisco area.
+        He broke in through open windows or forced doors.
+        His victims were men, women, and children – without a consistent profile.
+        He shot, strangled, beat with hammers, raped victims of all ages.
+        At some crime scenes, he drew pentagrams on walls with lipstick.
+        He stole jewelry and cash – partly like an opportunistic thief,
+        partly seemingly with no interest in the loot.
+        Some victims survived: He spared their lives if he liked them,
+        if they swore oaths to "Satan," or if he simply lost interest.
+        The randomness was no coincidence – it was part of the signal:
+        No one is safe. I can be anywhere.</p>
+        <p class="vb-intro"><strong>c) The Manhunt and the Panic:</strong>
+        Los Angeles fell into collective panic. Locksmiths reported record sales.
+        People slept with weapons next to their beds.
+        The police were initially unable to establish a uniform perpetrator profile –
+        the victims were too varied, the methods too inconsistent.
+        Only the forensic evaluation of a footprint and a dental impression
+        moved the investigation forward. In August 1985, a fingerprint
+        from a stolen car was matched against police records –
+        and came back to Ramírez, who already had a record for minor offenses.</p>
+        <p class="vb-intro"><strong>d) The Arrest – The Mob (August 1985):</strong>
+        On August 31, 1985, a resident of East Los Angeles recognized Ramírez
+        after his photo appeared in all the newspapers.
+        Ramírez attempted to steal a car – and was confronted on the street by an angry crowd
+        and beaten until police arrived.
+        He shouted to the officers: „Thank God you came. I am the Night Stalker."
+        In the courtroom: the victory sign, the pentagram on his palm,
+        calculated looks for the cameras. He married Doreen Lioy during the trial.
+        He was found guilty in 13 cases in 1989 and sentenced to death.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Neuner-Stress: Entrückung und innere Leere</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress at Nine: Rapture and Inner Emptiness</h3>
         <p class="vb-intro">
-        Die Drei bewegt sich im Stress in Richtung <strong>Neun</strong> –
-        Dissoziation, Betäubung, das Verschwinden in einer inneren Welt ohne Contact.
-        Ramírez beschrieb seinen Zustand während der Taten als fast traumhaft –
-        wie in einem anderen Bewusstseinszustand, außerhalb der normalen Wahrnehmung.
-        Seine exzessive Drogenbenutzung, die nächtlichen Stunden, die Dunkelheit,
-        die satanische Ikonografie: Das alles sind Werkzeuge der Neuner-Dissoziation –
-        ein Rahmen, der den normalen Bewusstseinszustand aufhebt
-        und einen anderen ermöglicht, in dem die Regeln nicht gelten.
-        Der Pfau schlägt sein Rad – und verschwindet in die Nacht.
-        </p>
+        Under stress, the Three moves toward <strong>Nine</strong> –
+        dissociation, numbing, disappearing into an inner world without contact.
+        Ramírez described his state during the crimes as almost dreamlike –
+        as if in an altered state of consciousness, outside normal perception.
+        His excessive drug use, the nocturnal hours, the darkness,
+        the satanic iconography: All of these are tools of Nine-style dissociation –
+        a framework that suspends normal consciousness
+        and enables another in which the rules do not apply.
+        The peacock spreads its fan – and disappears into the night.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Richard Ramírez zeigt, was aus der sexuellen Drei wird,
-        wenn frühe Traumatisierung, totale soziale Isolation und ein kulturelles Umfeld,
-        das Gewalt verherrlicht, zusammenkommen:
-        Das Grundmuster – einzigartig sein, begehrt werden, unvergesslich sein –
-        dreht sich ins Dunkelste.
-        Keine Bewunderung? Dann Schrecken. Keine Liebe? Dann Angst.
-        Der Pfau ohne Bewunderer wird gefährlich.
-        Was Ramírez von Ted Bundy oder Luka Magnotta unterscheidet,
-        ist das Element der bewussten Mythologisierung:
-        Er wollte nicht nur töten – er wollte eine Legende sein.
-        Er ist eine.
-        </p>
+        Richard Ramírez demonstrates what becomes of the Sexual Three
+        when early traumatization, total social isolation, and a cultural environment
+        that glorifies violence come together:
+        The core pattern – being unique, being desired, being unforgettable –
+        turns into the darkest realm.
+        No admiration? Then terror. No love? Then fear.
+        The peacock without admirers becomes dangerous.
+        What sets Ramírez apart from Ted Bundy or Luka Magnotta
+        is the element of conscious mythologizing:
+        He did not merely want to kill – he wanted to be a legend.
+        He is one.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX3w4 – Sexuelle Drei with Four-wing.<br>
-        <strong>Leidenschaft:</strong> Eitelkeit – Selbstmythologisierung, Schrecken als Marke, Unsterblichkeit als Ziel.<br>
-        <strong>Stresspunkt:</strong> Neun – Dissoziation, Entrückung, der traumhafte Zustand während der Taten.<br>
-        <strong>Animal correspondence:</strong> Pfau – existiert um gesehen zu werden; bei Ramírez: das Rad als satanische Ikonografie.<br>
-        <strong>Gestorben:</strong> 7. Juni 2013 in Greenbrae, Marin County, Kalifornien – B-Zell-Lymphom, vor Vollstreckung des Todesurteils.
-        </p>
+        <strong>Subtype:</strong> SX3w4 – Sexual Three with Four-wing.<br>
+        <strong>Passion:</strong> Vanity – self-mythologizing, terror as a brand, immortality as a goal.<br>
+        <strong>Stress Point:</strong> Nine – dissociation, rapture, the dreamlike state during the crimes.<br>
+        <strong>Animal correspondence:</strong> Peacock – exists to be seen; in Ramírez: the fan as satanic iconography.<br>
+        <strong>Died:</strong> June 7, 2013 in Greenbrae, Marin County, California – B-cell lymphoma, before execution of the death sentence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
