@@ -33125,336 +33125,98 @@ function alexMurdaughPortraitPage() {
         </div>
         <p class="krim-portrait-name">Alex Murdaugh</p>
         <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Anwalt und Doppelmörder · Animal correspondence: Schwarze Mamba</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">American lawyer and double murderer · Animal correspondence: Black Mamba</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Richard Alexander „Alex" Murdaugh</strong>, geboren am 27. Juni 1968
-        in Hampton County, South Carolina, entstammte einer der mächtigsten
-        Juristenfamilien des amerikanischen Südens. Sein Urgroßvater,
-        Großvater und Vater hatten insgesamt 87 Jahre lang das Amt des
-        Solicitor (leitender Staatsanwalt) des 14. Gerichtsbezirks bekleidet –
-        eine regionale Machttradition, die auf Alex Murdaugh als
-        selbstverständliches Erbe wartete. Er wurde Anwalt, Partner
-        einer der renommiertesten Kanzleien der Region und galt als
-        Säule der Gemeinschaft: gastfreundlich, großzügig, ein Mann
-        mit Contacten auf jeder Ebene des öffentlichen Lebens.
-        Gleichzeitig betrog er über Jahre hinweg Mandanten und Klienten
-        um mindestens 9 Millionen Dollar, um eine Opioidabhängigkeit
-        und einen aufwendigen Lebensstil zu finanzieren.
-        Am 7. Juni 2021 erschoss er auf dem familiären Anwesen
-        Moselle seine Frau Maggie (53) und seinen jüngeren Sohn
-        Paul (22). Im Februar 2023 wurde er schuldig gesprochen
-        und zu zweimal lebenslanger Haft verurteilt. 2024 folgten
-        Verurteilungen in 99 Fällen von Finanzbetrug.
-        Der Fall erschütterte nicht nur Hampton County –
-        er zerstörte das Bild einer Familie, die sich selbst
-        mit dem Gesetz gleichgesetzt hatte.
+        Richard Alexander "Alex" Murdaugh, born June 27, 1968 in Hampton County, South Carolina, came from one of the most powerful legal dynasties of the American South. His great-grandfather, grandfather, and father served a total of 87 consecutive years as Solicitor (chief prosecutor) for the 14th Judicial Circuit—a regional tradition of power that awaited Alex Murdaugh as a matter-of-course legacy. He became an attorney, partner in one of the region's most prestigious law firms, and was considered a pillar of the community: hospitable, generous, a man with contacts at every level of public life. At the same time, for years he defrauded clients and colleagues out of at least $9 million to fund an opioid addiction and a lavish lifestyle. On June 7, 2021, he shot and killed his wife Maggie (53) and his younger son Paul (22) at the family's Moselle estate. In February 2023, he was found guilty and sentenced to two consecutive life terms. In 2024, convictions in 99 financial fraud cases followed. The case not only shook Hampton County—it shattered the image of a family that had come to equate itself with the law.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Alex Murdaugh</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer, aufgestauter Groll gegen Unvollkommenheit, Kontrollverlust
-        und alles, was das eigene Bild gefährdet. Der Sexuelle Subtype (SX1)
-        ist der Kontratyp der Eins: Er richtet die Einser-Energie nicht
-        nach innen oder auf Institutionen, sondern auf intensive
-        Eins-zu-eins-Relationships. Er wirkt leidenschaftlicher,
-        charmanter und weniger rigide als andere Einser –
-        verbirgt aber denselben kompromisslosen Kontrollwillen
-        hinter der Wärme. Der Two-wing verstärkt diese Wirkung:
-        Er verleiht Großzügigkeit, Hilfsbereitschaft und eine
-        persönliche Strahlkraft, die Zuneigung auf sich zieht.
-        Bei Murdaugh verschmolzen Einser-Kontrolle, SX-Intensität
-        und Zweier-Charme zu einer Fassade, hinter der sich
-        Jahrzehnte des Betrugs – und schließlich Mord – verbergen ließen.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>a) Type Assignment:</strong>
+Alex Murdaugh is assigned to the Sexual Type One with a Two-wing in the Enneagram. The passion of the One is Anger—a deep, pent-up resentment against imperfection, loss of control, and anything that threatens one's image. The Sexual Subtype (SX1) is the countertype of the One: rather than directing One-energy inward or toward institutions, it channels it into intense one-on-one relationships. It appears more passionate, charming, and less rigid than other Ones—yet conceals the same uncompromising drive for control behind warmth. The Two-wing amplifies this effect: it adds generosity, helpfulness, and a personal charisma that draws affection. In Murdaugh, One-control, SX-intensity, and Two-charm fused into a facade behind which decades of fraud—and ultimately murder—could be hidden.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Warm und zugewandt:</strong>
-        Wer <strong>Alex Murdaugh</strong> begegnete, beschrieb ihn als offen,
-        herzlich und aufmerksam – einen Mann, der zuhörte,
-        den Namen kannte, sich erinnerte. Das ist der Two-wing
-        der Eins: Beziehungsaufbau als natürliches Talent,
-        als Mittel der Bindung. Der Blick der SX1w2 signalisiert
-        echtes Interesse – und das ist keine vollständige Lüge:
-        Der SX-Instinkt ist tatsächlich auf intensive
-        Verbindung ausgerichtet. Die Intensität ist real,
-        der Kontrollwille dahinter ebenfalls.</p>
-        <p class="vb-intro"><strong>b) Souverän und selbstverständlich mächtig:</strong>
-        In Hampton County war der Name Murdaugh eine Institution.
-        <strong>Alex</strong> trug diese Autorität nicht als aufgesetzte Würde,
-        sondern als selbstverständliche Gegebenheit.
-        Der Blick eines Mannes, der weiß, dass er im Raum
-        derjenige ist, dem die Dinge zufallen – Mandate,
-        Loyalitäten, Gefälligkeiten. Die Eins mit Dynastieerbe:
-        Ordnung und Hierarchie als Geburtsrecht.</p>
-        <p class="vb-intro"><strong>c) Ohne Warnsignal in der Beziehungsnähe:</strong>
-        Selbst Menschen, die <strong>Murdaugh</strong> eng kannten,
-        bemerkten kein Alarmsignal. Der SX1w2er ist in der Nähe
-        besonders unauffällig – weil seine Energie auf Verbindung
-        ausgerichtet ist, nicht auf Distanz. Er zieht Menschen
-        an sich heran, hält sie in emotionaler Abhängigkeit
-        und verhindert so, dass sie kritisch Abstand nehmen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Warm and Engaging:</strong>
+Anyone who met Alex Murdaugh described him as open, warmhearted, and attentive—a man who listened, knew your name, and remembered details. This is the Two-wing of the One: relationship-building as a natural talent and a means of bonding. The gaze of the SX1w2 signals genuine interest—and that is not entirely a lie: the SX instinct is indeed oriented toward intense connection. The intensity is real, as is the desire for control behind it.</p>
+        <p class="vb-intro"><strong>b) Sovereign and Effortlessly Powerful:</strong>
+In Hampton County, the Murdaugh name was an institution. Alex carried this authority not as an assumed posture of dignity, but as a matter-of-course reality. The gaze of a man who knows that in any room, he is the one to whom things fall—cases, loyalties, favors. The One with a dynastic heritage: order and hierarchy as a birthright.</p>
+        <p class="vb-intro"><strong>c) No Warning Signals in Relational Proximity:</strong>
+Even people who knew Murdaugh closely noticed no warning signs. The SX1w2 is particularly inconspicuous up close—because his energy is oriented toward connection rather than distance. He draws people near, holds them in emotional dependency, and thereby prevents them from taking a critical step back.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Wohltäter als Schuldner:</strong>
-        <strong>Murdaugh</strong> war bekannt für Großzügigkeit:
-        Er half Mitarbeitern mit Darlehen, übernahm Kosten,
-        war präsent in Krisenzeiten. Diese Freigebigkeit ist
-        das Zweier-Muster in seiner ambivalentesten Ausprägung:
-        Geben als Beziehungsstrategie, als Mittel zur
-        Erzeugung von Loyalität und Abhängigkeit –
-        und als Selbstbild, das trotz des gleichzeitigen
-        Betrugs aufrechterhalten wurde.</p>
-        <p class="vb-intro"><strong>b) Dynastisches Selbstbild:</strong>
-        <strong>Alex Murdaugh</strong> erlebte sich nicht nur als Anwalt,
-        sondern als Träger einer Tradition. Das SX1-Muster
-        in Verbindung mit einem Familiennarrativ dieser Größe
-        erzeugt eine Überzeugung, die über persönlichen Ehrgeiz
-        hinausgeht: Die Familie ist die Ordnung, und ihre
-        Bewahrung rechtfertigt außerordentliche Mittel.
-        Der Betrug war kein Bruch mit dem Selbstbild –
-        er war der Versuch, das Bild zu erhalten.</p>
-        <p class="vb-intro"><strong>c) Kontrolle durch Beziehungsnetz:</strong>
-        <strong>Murdaugh</strong> pflegte ein dichtes Netz aus Abhängigkeiten:
-        Mandanten, Mitarbeiter, Beamte, Richter –
-        fast alle standen in irgendeiner Verbindung zur
-        Murdaugh-Kanzlei oder -Familie. Diese Netzstruktur
-        ist das SX1w2-Muster in seiner sozialen Ausdehnung:
-        Die Intensität des SX-Instinkts wird nicht auf
-        eine Person beschränkt, sondern als strategisches
-        Netz ausgebaut, das Kontrolle sichert.</p>
+        <p class="vb-intro"><strong>a) The Benefactor as Debtor:</strong>
+Murdaugh was known for generosity: he helped employees with loans, covered costs, and was present during times of crisis. This open-handedness is the Two-pattern in its most ambivalent form: giving as a relational strategy, a means to cultivate loyalty and dependence—and a self-image maintained despite simultaneous fraud.</p>
+        <p class="vb-intro"><strong>b) Dynastic Self-Image:</strong>
+Alex Murdaugh experienced himself not merely as a lawyer, but as the bearer of a tradition. The SX1 pattern, combined with a family narrative of this magnitude, generates a conviction that goes beyond personal ambition: the family *is* the order, and preserving it justifies extraordinary means. Fraud was not a breach of his self-image—it was an attempt to maintain it.</p>
+        <p class="vb-intro"><strong>c) Control Through a Relational Network:</strong>
+Murdaugh cultivated a dense web of dependencies: clients, employees, officials, judges—almost everyone had some connection to the Murdaugh law firm or family. This network structure is the SX1w2 pattern expanded socially: the intensity of the SX instinct is not limited to a single person, but built out as a strategic network securing control.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Moralische Autorität als Selbstschutz:</strong>
-        Als Anwalt war <strong>Murdaugh</strong> derjenige, der über Recht
-        und Unrecht urteilte – beruflich wie familiär.
-        Die Eins besetzt moralische Autorität nicht nur
-        als Aufgabe, sondern als Identität. Wer die Moral
-        definiert, steht außerhalb des Verdachts:
-        Diese Position schützte <strong>Murdaugh</strong> jahrelang
-        vor jeder ernsthaften Untersuchung seiner Finanzen.</p>
-        <p class="vb-intro"><strong>b) Sucht als verdeckter Ventilkanal:</strong>
-        <strong>Murdaugh</strong> war über viele Jahre opioidabhängig –
-        eine Tatsache, die er sorgfältig verbarg.
-        Sucht erfüllt bei der Eins oft die Funktion
-        eines Ventils für den aufgestauten inneren Druck:
-        Die Eins lebt unter permanenter Selbstkontrolle,
-        und ein geheimer Kanal, der dieser Kontrolle
-        entzogen ist, gibt den Überdruck ab.
-        Der Betrug war zunächst Mittel zur Finanzierung
-        der Sucht – und wurde dann selbst zum System.</p>
-        <p class="vb-intro"><strong>c) Mord als Bildschutz:</strong>
-        Die Staatsanwaltschaft legte dar, dass <strong>Murdaugh</strong>
-        Frau und Sohn erschoss, weil die unmittelbar
-        bevorstehende Aufdeckung seiner Finanzdelikte
-        den Zusammenbruch seines öffentlichen Bildes
-        bedeutet hätte. Das ist die Einser-Logik
-        in ihrer zerstörerischsten Form: Das Bild –
-        die Fassade der Ordnung, des Ansehens,
-        der Integrität – wird als schützenswerter
-        eingestuft als das Leben nahestehender Menschen.</p>
+        <p class="vb-intro"><strong>a) Moral Authority as Self-Protection:</strong>
+As an attorney, Murdaugh was the one who judged right and wrong—professionally as well as familiarly. The One occupies moral authority not just as a duty, but as an identity. Whoever defines morality stands above suspicion: this position shielded Murdaugh for years from any serious investigation into his finances.</p>
+        <p class="vb-intro"><strong>b) Addiction as a Hidden Relief Valve:</strong>
+Murdaugh was addicted to opioids for many years—a fact he carefully concealed. Addiction often serves as a relief valve for a One's pent-up internal pressure: the One lives under continuous self-control, and a secret channel outside that control releases the excess pressure. The fraud initially financed the addiction—and then became a system unto itself.</p>
+        <p class="vb-intro"><strong>c) Murder to Protect the Image:</strong>
+Prosecutors argued that Murdaugh shot his wife and son because the imminent exposure of his financial crimes would have meant the total collapse of his public image. This is One-logic in its most destructive form: the image—the facade of order, standing, and integrity—is deemed more worth protecting than the lives of those closest to him.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der Kümmerer in der Krise:</strong>
-        Nach dem Tod seiner Frau und seines Sohnes trat
-        <strong>Murdaugh</strong> öffentlich als tief getroffener Vater
-        und Ehemann auf – und wurde von vielen als solcher
-        wahrgenommen. Diese Fähigkeit zur glaubwürdigen
-        Emotionsdarstellung ist das SX1w2-Muster:
-        Der Two-wing ist geübt darin, in Krisenzeiten
-        Wärme und Bedürftigkeit zu zeigen;
-        der SX-Instinkt macht diese Darstellung
-        intensiv und damit überzeugend.</p>
-        <p class="vb-intro"><strong>b) Der Großzügige als Manipulator:</strong>
-        Mehrere Zeugen beschrieben, wie <strong>Murdaugh</strong>
-        ihnen in schwierigen Situationen geholfen hatte –
-        und wie sie deshalb jahrelang nicht auf den Gedanken
-        kamen, dass er sie gleichzeitig bestahl.
-        Das ist das dunkelste Muster des Two-wings:
-        Großzügigkeit als Vernebelungsstrategie,
-        Hilfe als Vorauszahlung für Loyalität,
-        die das eigene Fehlverhalten überdeckt.</p>
-        <p class="vb-intro"><strong>c) Die Fassade als gesamte Identität:</strong>
-        <strong>Murdaugh</strong> lebte so vollständig in seiner Rolle,
-        dass selbst enge Vertraute die Fassade
-        für die Person hielten. Wer man ist und
-        wie man wirkt – zwischen diesen beiden
-        Ebenen gab es für ihn offenbar keine
-        innere Spannung mehr. Das ist die SX1-Desintegration
-        in ihrer vollständigsten Ausprägung:
-        Das Bild hat das Selbst vollständig ersetzt.</p>
+        <p class="vb-intro"><strong>a) The Caregiver in Crisis:</strong>
+After the deaths of his wife and son, Murdaugh publicly presented himself as a deeply grief-stricken father and husband—and was perceived as such by many. This ability to convey credible emotion is the SX1w2 pattern: the Two-wing is adept at displaying warmth and vulnerability in crises, while the SX instinct makes this presentation intense and therefore persuasive.</p>
+        <p class="vb-intro"><strong>b) The Generous Manipulator:</strong>
+Several witnesses described how Murdaugh had helped them in difficult situations—and how, as a result, it never occurred to them for years that he was simultaneously stealing from them. This is the darkest pattern of the Two-wing: generosity as a obfuscation strategy, help as an advance payment for loyalty that covers up one's own misconduct.</p>
+        <p class="vb-intro"><strong>c) The Facade as Total Identity:</strong>
+Murdaugh inhabited his role so completely that even close confidants mistook the facade for the actual person. Who one is versus how one appears—between these two levels, there seemed to be no internal tension left for him. This is SX1 disintegration in its fullest expression: the image has completely replaced the self.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Intensive Präsenz:</strong>
-        Der SX-Instinkt erzeugt eine besondere Form
-        von Anwesenheit: Man hat das Gefühl, wirklich
-        gesehen zu werden. <strong>Murdaugh</strong> hatte diese Qualität –
-        er machte sein Gegenüber zum Mittelpunkt
-        des Moments. Diese Intensität bindet Menschen
-        an einen, bevor sie in die Lage kommen,
-        kritisch nachzufragen.</p>
-        <p class="vb-intro"><strong>b) Kontrollierter Charme unter Druck:</strong>
-        Selbst als sich der Druck durch die drohende
-        Aufdeckung des Betrugs verdichtete,
-        bewahrte <strong>Murdaugh</strong> nach außen Fassung.
-        Die Eins trainiert emotionale Kontrolle
-        als Kerndisziplin – das Innere brodelt,
-        aber die Oberfläche bleibt glatt.
-        Der Two-wing liefert dazu die soziale
-        Gewandtheit: Ein aufgewühlter Mann
-        hätte Fragen ausgelöst.</p>
-        <p class="vb-intro"><strong>c) Erschöpfte Energie hinter der Fassade:</strong>
-        Mehrere Zeugen berichteten, dass <strong>Murdaugh</strong>
-        in den Monaten vor den Morden rastlos wirkte,
-        schwerer einzuschätzen war als sonst.
-        Das ist das Zeichen einer Eins,
-        deren Kontrollmechanismen an ihre Grenzen geraten:
-        Je größer der innere Druck, desto mehr Energie
-        kostet die Aufrechterhaltung der Fassade –
-        bis sie zusammenbricht oder zum Äußersten greift.</p>
+        <p class="vb-intro"><strong>a) Intense Presence:</strong>
+The SX instinct produces a distinct form of presence: one feels truly seen. Murdaugh possessed this quality—he made his counterpart the center of the moment. This intensity binds people to a person before they ever reach a position to ask critical questions.</p>
+        <p class="vb-intro"><strong>b) Controlled Charm Under Pressure:</strong>
+Even as pressure mounted from the impending exposure of his fraud, Murdaugh maintained external composure. The One trains emotional control as a core discipline—the inside may boil, but the surface remains smooth. The Two-wing supplies the social adroitness: an agitated man would have invited questions.</p>
+        <p class="vb-intro"><strong>c) Exhausted Energy Behind the Facade:</strong>
+Multiple witnesses reported that Murdaugh appeared restless in the months leading up to the murders, harder to read than usual. This is the sign of a One whose control mechanisms are reaching their limits: the greater the internal pressure, the more energy it costs to maintain the facade—until it collapses or resorts to extremes.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Schwarze Mamba</h3>
-        <p class="vb-intro"><strong>a) Eleganz als erste Wirkung:</strong>
-        Die Schwarze Mamba ist eine der schönsten
-        Schlangen der Welt – schlanke Eleganz,
-        fließende Bewegung, eine Präsenz,
-        die fasziniert, bevor sie einschüchtert.
-        <strong>Alex Murdaugh</strong> wirkte auf Anhieb genauso:
-        gewinnend, charmant, souverän.
-        Wer ihm begegnete, erlebte zuerst
-        die Anziehung – nicht die Gefahr.
-        Das ist das SX1w2-Muster in Reinform:
-        Die Intensität ist verführerisch,
-        bevor sie kontrollierend wird.</p>
-        <p class="vb-intro"><strong>b) Blitzschnell im entscheidenden Moment:</strong>
-        Die Schwarze Mamba gilt als eine
-        der schnellsten Schlangen der Welt.
-        Wenn sie angreift, geschieht es ohne
-        erkennbare Vorwarnung – der Moment
-        zwischen Ruhe und Zuschlagen
-        ist kaum wahrnehmbar.
-        <strong>Murdaugh</strong> handelte in der Tatnacht
-        auf dem Anwesen Moselle mit derselben
-        Unvermitteltheit: Frau und Sohn,
-        die ihm vertrauten, nahe bei ihm waren –
-        und die den Schwenk nie kommen sahen.
-        Die Mamba tötet nicht aus Wut,
-        sondern aus dem Reflex der Bedrohung.</p>
-        <p class="vb-intro"><strong>c) Das Gift wirkt verborgen und systemisch:</strong>
-        Das Neurotoxin der Schwarzen Mamba
-        arbeitet tief im System – es lähmt,
-        bevor es tötet, und ist längst wirksam,
-        bevor der Gebissene begreift, was geschehen ist.
-        <strong>Murdaughs</strong> jahrelanger Betrug
-        hatte dieselbe Wirkungsweise:
-        Er vergiftete das Vertrauen von Mandanten,
-        Mitarbeitern und Familie systematisch,
-        über lange Zeit, ohne dass jemand
-        die Wirkung dem richtigen Urheber zuordnete.
-        Erst im Nachhinein wurde sichtbar,
-        wie tief das Gift bereits gedrungen war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Black Mamba</h3>
+        <p class="vb-intro"><strong>a) Elegance as the First Impression:</strong>
+The Black Mamba is one of the most beautiful snakes in the world—slender elegance, fluid movement, a presence that fascinates before it intimidates. Alex Murdaugh immediately made a similar impression: winning, charming, sovereign. Anyone meeting him experienced attraction first—not danger. That is the SX1w2 pattern in its pure form: the intensity is seductive before it becomes controlling.</p>
+        <p class="vb-intro"><strong>b) Lightning-Fast at the Decisive Moment:</strong>
+The Black Mamba is considered one of the fastest snakes in the world. When it strikes, it happens without discernible warning—the moment between stillness and striking is barely perceptible. Murdaugh acted on the night of the crime at the Moselle estate with the same abruptness: his wife and son, who trusted him and were close to him, never saw the shift coming. The Mamba does not kill out of anger, but out of a threat response.</p>
+        <p class="vb-intro"><strong>c) The Venom Works Invisibly and Systemically:</strong>
+The neurotoxin of the Black Mamba works deep within the system—it paralyzes before it kills, functioning long before the victim realizes what has happened. Murdaugh's years of fraud operated the same way: he systematically poisoned the trust of clients, colleagues, and family over a long period without anyone tracing the effect to its true source. Only in retrospect did it become visible how deeply the venom had already penetrated.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Alex Murdaugh</strong> verkörpert den Sexuellen Typ 1 with Two-wing
-        in einer Ausprägung, die durch dynastisches Erbe
-        und institutionelle Macht eine eigene Kategorie bildet.
-        Die SX1-Energie erzeugte die intensive persönliche
-        Bindungswirkung, die ihn für Jahrzehnte unangreifbar machte.
-        Der Two-wing lieferte die Großzügigkeit und den Charme,
-        die dieses Bild lebendig hielten. Die Eins stellte
-        die Überzeugung bereit, dass das Bild – das Ansehen,
-        die Familie, die Tradition – um jeden Preis zu bewahren sei.
-        Murdaugh ist kein Fall von triebgesteuerter Gewalt.
-        Er ist ein Fall von moralischer Bildvergessenheit:
-        Ein Mann, der so lange darauf trainiert hatte,
-        als integer zu gelten, dass er das Bild
-        der Integrität für Integrität selbst hielt –
-        und alles opferte, was dieses Bild bedrohte.
+        Alex Murdaugh embodies the Sexual Type One with a Two-wing in a form that constitutes its own category through dynastic heritage and institutional power. SX1 energy generated the intense personal bonding power that rendered him unassailable for decades. The Two-wing supplied the generosity and charm that kept this image alive. The One provided the conviction that the image—the reputation, the family, the tradition—had to be preserved at all costs. Murdaugh is not a case of impulse-driven violence. He is a case of moral image-obliviousness: a man trained so long to pass as righteous that he mistook the image of integrity for integrity itself—and sacrificed everything that threatened that image.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX1 – „Eifersucht / Zeal":</strong>
-        Claudio Naranjo nannte den Sexuellen Typ 1
-        den Kontratyp der Eins – den Subtype,
-        der am wenigsten nach einer Eins aussieht.
-        Die SX1 ist leidenschaftlich und intensiv,
-        tritt selten als der stille Perfektionist auf.
-        <strong>Murdaugh</strong> passt in dieses Bild:
-        kein pedantischer Ordnungshüter,
-        sondern ein strahlender, zugewandter,
-        gesellschaftlich versierter Mann –
-        dessen innerer Richter dennoch jederzeit präsent war.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing und die Schuld der Anderen:</strong>
-        Der Two-wing der Eins bringt eine besondere Form
-        von Beziehungsdynamik mit: Das Gefühl,
-        für andere da zu sein, für sie Opfer zu bringen –
-        und dafür eine stille Gegenrechnung zu führen.
-        <strong>Murdaugh</strong> hatte jahrelang geholfen, geliehen,
-        sich eingesetzt. In seiner inneren Logik
-        könnten diese Leistungen die Delikte
-        in einer Art emotionalen Doppelbuchhaltung
-        aufgewogen haben.</p>
-        <p class="vb-intro"><strong>c) Der Sohn Paul als Risikofaktor:</strong>
-        Pauls Beteiligung am Bootsunfall von 2019,
-        bei dem Mallory Beach ums Leben kam,
-        hatte Ermittlungen ausgelöst, die immer
-        näher an die Familie heranrückten.
-        Die Eins erträgt Kontrollverlust nur schwer –
-        und Paul war ein lebendiger Beweis,
-        dass das Bild der Familie bereits Risse zeigte.
-        Diese Interpretation legt nahe, dass die Motive
-        des SX1 weniger aus Kälte als aus Panik entstanden:
-        der Panik eines Mannes, dessen gesamte Identität
-        am Zusammenbruch war.</p>
-        <p class="vb-intro"><strong>d) Desintegration in die Vier:</strong>
-        Der Stresspunkt der Eins ist die Vier:
-        ein Einbrechen ins Leid, in das Gefühl
-        der grundlegenden Andersartigkeit,
-        der inneren Leere und Scham.
-        <strong>Murdaugh</strong> bewegte sich lange zwischen
-        funktionierender Eins und desintegrierter Vier –
-        die Sucht war der sichtbarste Ausdruck davon.
-        Der Mord markiert den Punkt,
-        an dem die Desintegration in aktives Handeln umschlug:
-        nicht mehr Depression, sondern Vernichtung.</p>
-        <p class="vb-intro"><strong>e) Vergleich mit Popkow und Rader:</strong>
-        Wo <strong>Popkow</strong> und <strong>Rader</strong> (SP1w9) die Einser-Energie
-        in methodischer Kontrolle über Jahrzehnte hielten,
-        zeigt <strong>Murdaugh</strong> das SX1-Muster:
-        die Energie auf Bindung, Bild und intensive
-        Einzelbeziehungen ausgerichtet.
-        Das Verbrechen entstand nicht aus Routine,
-        sondern aus dem Zusammenbruch dieser Bindungsstruktur.
-        SP1 verwaltet Ordnung; SX1 verteidigt das Bild
-        der eigenen bedeutsamen Existenz in den Augen anderer.</p>
-        <p class="vb-intro"><strong>f) Prozess als Spiegel:</strong>
-        Im Prozess 2023 bestritt <strong>Murdaugh</strong>
-        die Morde bis zuletzt.
-        Die Staatsanwältin und das Gericht
-        beschrieben seine Lügen als strukturierte,
-        komplex aufgebaute Narrative –
-        nicht als nervöses Improvisieren.
-        Das ist die Einser-Präzision im Dienst der Verleugnung:
-        selbst unter maximalem Druck
-        konstruiert die Eins ein geordnetes Bild.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SX1 – "Jealousy / Zeal":</strong>
+Claudio Naranjo called the Sexual Type One the countertype of One—the subtype that looks least like a One. The SX1 is passionate and intense, rarely appearing as the quiet perfectionist. Murdaugh fits this profile: no pedantic stickler for order, but a radiant, engaging, socially adept man—whose inner judge remained present at all times nonetheless.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing and Others' Guilt:</strong>
+The Two-wing of the One brings a distinct relational dynamic: the feeling of being there for others, making sacrifices for them—and keeping a quiet ledger in return. For years, Murdaugh had helped, lent money, and advocated for others. In his internal logic, these deeds may have offset his crimes in a kind of emotional double-entry bookkeeping.</p>
+        <p class="vb-intro"><strong>c) Son Paul as a Risk Factor:</strong>
+Paul's involvement in the 2019 boat crash that claimed the life of Mallory Beach triggered investigations that drew ever closer to the family. The One tolerates loss of control with great difficulty—and Paul was living proof that the family's image was already cracking. This interpretation suggests that the motives of the SX1 stemmed less from coldness than from panic: the panic of a man whose entire identity was on the brink of collapse.</p>
+        <p class="vb-intro"><strong>d) Disintegration into Four:</strong>
+The stress point of the One is Four: a collapse into suffering, into feelings of fundamental defective alienness, inner emptiness, and shame. Murdaugh oscillated for a long time between the functioning One and the disintegrated Four—his addiction was the most visible expression of this. The murder marks the point at which disintegration turned into active action: no longer depression, but destruction.</p>
+        <p class="vb-intro"><strong>e) Comparison with Popkov and Rader:</strong>
+Where Popkov and Rader (SP1w9) held One-energy in methodical control over decades, Murdaugh demonstrates the SX1 pattern: energy directed toward bonding, image, and intense individual relationships. The crime did not arise out of routine, but out of the collapse of this bonding structure. SP1 manages order; SX1 defends the image of one's own significant existence in the eyes of others.</p>
+        <p class="vb-intro"><strong>f) The Trial as a Mirror:</strong>
+In his 2023 trial, Murdaugh denied the murders to the end. Prosecutors and the court described his lies as structured, complexly constructed narratives—not nervous improvisations. This is One-precision in the service of denial: even under maximum pressure, the One constructs an ordered picture.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -33464,7 +33226,7 @@ function alexMurdaughPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Alex Murdaugh wurde 2023 wegen zweifachen Mordes an seiner Frau und seinem Sohn zu zweimal lebenslanger Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves the purpose of depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Alex Murdaugh was sentenced to two consecutive life terms in 2023 for the double murder of his wife and son. The Enneagram explains; it does not justify.
         </p>
       </div>
 
