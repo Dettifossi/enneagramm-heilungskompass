@@ -28917,25 +28917,25 @@ function joachimKrollPortraitPage() {
         without any connection to the experienced situation.
         For <strong>Kroll</strong>, telling his story seemed not to be an admission of guilt –
         merely an answer to questions asked.</p>
-        <p class="vb-intro"><strong>e) Der Wachstumsweg der Fünf – die Acht:</strong>
-        Der Wachstumspunkt der Fünf ist die Acht –
-        Handlungskraft, Präsenz, das Wagnis echter Begegnung.
-        Für <strong>Kroll</strong> blieb dieser Weg vollständig versperrt.
-        Er kannte keine Handlungskraft im sozialen Sinne,
-        keine Fähigkeit, mit anderen in echten Contact zu treten.
-        Der Gegenpunkt der Fünf, die Sieben, bringt Begeisterung
-        und Verbindung zur Außenwelt – auch dieser Impuls fehlte vollständig.
-        Kroll lebte dauerhaft in der tiefsten Schicht der Fünf:
-        Rückzug, Reduktion, Auflösung.</p>
-        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SP5:</strong>
-        <strong>Krolls</strong> Fall ist lehrreich nicht weil er typisch ist –
-        sondern weil er zeigt, wohin der SP5-Mechanismus führen kann,
-        wenn alle menschlichen Korrektive fehlen:
-        Beziehung, Empathie, Entwicklung.
-        Die gesunde SP5 ist ein Mensch von großer innerer Stärke,
-        Genügsamkeit und Tiefe. Was Kroll fehlte,
-        war nicht der Typ – sondern alles,
-        was einen Typ zu einem Menschen macht.</p>
+        <p class="vb-intro"><strong>e) The Growth Path of the Five – the Eight:</strong>
+        The growth point of the Five is the Eight –
+        agency, presence, the risk of genuine encounter.
+        For <strong>Kroll</strong>, this path remained completely blocked.
+        He knew no agency in a social sense,
+        no ability to make genuine contact with others.
+        The counterpoint of the Five, the Seven, brings enthusiasm
+        and connection to the outer world – this impulse was also completely lacking.
+        Kroll lived permanently in the deepest layer of the Five:
+        withdrawal, reduction, dissolution.</p>
+        <p class="vb-intro"><strong>f) Significance for Understanding the SP5:</strong>
+        <strong>Kroll's</strong> case is instructive not because it is typical –
+        but because it shows where the SP5 mechanism can lead
+        when all human correctives are missing:
+        relationship, empathy, development.
+        The healthy SP5 is a person of great inner strength,
+        frugality, and depth. What Kroll lacked
+        was not the type – but everything
+        that turns a type into a human being.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -28952,7 +28952,7 @@ function joachimKrollPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Quality of Gaze in the 9 Types"},
       ])}
     </div>
   `);
