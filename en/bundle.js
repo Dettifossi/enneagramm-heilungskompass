@@ -22855,24 +22855,24 @@ function pDiddyPortraitPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">New York 1990–2024 · Verurteilt 2025</p>
       </div>
       <p class="psycho-intro">
-        <strong>Sean John Combs</strong>, bekannt als <em>Puff Daddy</em>, <em>P. Diddy</em> und später nur noch <em>Diddy</em>,
-        wurde am 4. November 1969 in Harlem, New York, geboren.
-        Er wuchs in bescheidenen Verhältnissen auf – sein Vater, ein kleinkrimineller Drogenkurier,
-        wurde erschossen, als Sean drei Jahre alt war.
-        Aus diesem Fundament der Abwesenheit und des Verlustes
-        entwickelte er eine unstillbare Energie nach oben.
-        Er studierte an der Howard University in Washington, D.C.,
-        brach jedoch ab, um bei Uptown Records zu arbeiten.
-        1993 gründete er sein eigenes Label: <strong>Bad Boy Records</strong>.
-        Mit Künstlern wie The Notorious B.I.G., Mary J. Blige und Faith Evans
-        prägte er eine Ära des Hip-Hop und R&B.
-        Forbes schätzte sein Vermögen zeitweise auf über eine Milliarde Dollar.
-        Im September 2024 wurde er verhaftet. Im Oktober 2025 verurteilte ihn
-        ein Bundesgericht in New York wegen Sex-Trafficking – Menschenhandel zum Zweck der sexuellen Ausbeutung, eine schwere Menschenrechtsverletzung und Form moderner Sklaverei –, Nötigung und Körperverletzung
-        zu vier Jahren und zwei Monaten Haft.
-        Das Enneagramm macht sichtbar, wie ein Mensch, der alles haben wollte –
-        Ruhm, Geld, Kontrolle, Liebe – ein System der Unterwerfung erschuf,
-        das Jahrzehnte im Verborgenen blieb.
+        <strong>Sean John Combs</strong>, known as <em>Puff Daddy</em>, <em>P. Diddy</em>, and later simply <em>Diddy</em>,
+        was born on November 4, 1969, in Harlem, New York.
+        He grew up in modest circumstances – his father, a petty drug courier,
+        was shot dead when Sean was three years old.
+        From this foundation of absence and loss,
+        he developed an insatiable energy for upward mobility.
+        He studied at Howard University in Washington, D.C.,
+        but dropped out to work at Uptown Records.
+        In 1993, he founded his own label: <strong>Bad Boy Records</strong>.
+        With artists like The Notorious B.I.G., Mary J. Blige, and Faith Evans,
+        he shaped an era of hip-hop and R&B.
+        Forbes once estimated his net worth at over one billion dollars.
+        In September 2024, he was arrested. In October 2025, a federal court in New York sentenced him
+        for sex trafficking – human trafficking for the purpose of sexual exploitation, a severe human rights violation and form of modern slavery –, coercion, and assault
+        to four years and two months in prison.
+        The Enneagram makes visible how a person who wanted to have everything –
+        fame, money, control, love – created a system of subjugation
+        that remained hidden for decades.
       </p>
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -22892,196 +22892,196 @@ function pDiddyPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Schimpanse</h3>
         <p class="vb-intro">
-        Der <strong>Schimpanse</strong> ist die Animal correspondence der sexuellen Sieben.
-        Er ist hochintelligent, sozial gewandt, auf Bindung und Statuserwerb ausgerichtet –
-        und er kann in Sekundenbruchteilen zur brutalen Durchsetzungskraft werden,
-        wenn sein Rang oder sein Territorium bedroht ist.
-        Schimpansen leben in komplexen Hierarchien: Sie pflegen Allianzen,
-        nutzen Koalitionen und schalten Rivalen aus – mit kalkulierter Gewalt.
-        Combs baute ähnliche Strukturen: ein Netz aus Loyalität, Abhängigkeit und Einschüchterung,
-        in dem er der unbestrittene Alfa war.
-        Schimpansen sind zudem dokumentiert dafür bekannt, Artgenossen, die aus der Gruppe fallen oder als Rivalen gelten, gemeinschaftlich zu verfolgen und zu töten – ein Verhalten, das Primatologen wie Jane Goodall erstmals in Tansania beschrieben. Diese Fähigkeit zur kalkulierten, kollektiven Gewalt ist keine Ausnahme, sondern Teil des Schimpansen-Wesens.
-        Die Liebenswürdigkeit des Schimpansen und seine Aggressivität
-        sind keine Gegensätze – sie sind zwei Seiten derselben Kontrollstrategie.
+        The <strong>chimpanzee</strong> is the animal correspondence of the Sexual Seven.
+        It is highly intelligent, socially adept, oriented toward bonding and status acquisition –
+        and it can turn into a brutal force of assertion in fractions of a second
+        when its rank or territory is threatened.
+        Chimpanzees live in complex hierarchies: they cultivate alliances,
+        use coalitions, and eliminate rivals – with calculated violence.
+        Combs built similar structures: a network of loyalty, dependence, and intimidation,
+        in which he was the undisputed alpha.
+        Chimpanzees are also documented and known to cooperatively hunt and kill conspecifics who fall out of the group or are considered rivals – a behavior first described by primatologists like Jane Goodall in Tanzania. This capacity for calculated, collective violence is not an exception, but part of the chimpanzee nature.
+        The charm of the chimpanzee and its aggressiveness
+        are not opposites – they are two sides of the same control strategy.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Genuss als absolutes Recht</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sexuellen Sieben:</strong>
-        Die sexuelle Sieben ist die intensivste aller Siebenausprägungen.
-        Sie sucht nicht nur das nächste Vergnügen – sie sucht das <em>ultimative</em> Vergnügen,
-        die vollständige Erfüllung, den Zustand, in dem nichts fehlt.
-        Diese Energie brachte Combs an die Spitze der Musikbranche –
-        sie machte ihn zum unermüdlichen Gestalter, Produzenten, Markenarchitekten.
-        Doch dieselbe Energie, die Größe schafft,
-        kennt keine innere Begrenzung.
-        Was Combs wollte, sollte er bekommen – sei es kommerzieller Erfolg,
-        soziale Dominanz oder die körperliche Unterwerfung anderer Menschen.</p>
+        <p class="vb-intro"><strong>a) The Core Pattern of the Sexual Seven:</strong>
+        The Sexual Seven is the most intense of all Seven expressions.
+        It does not merely seek the next pleasure – it seeks the <em>ultimate</em> pleasure,
+        complete fulfillment, the state where nothing is missing.
+        This energy brought Combs to the top of the music industry –
+        it made him an untiring creator, producer, and brand architect.
+        Yet the same energy that creates greatness
+        knows no inner limit.
+        What Combs wanted, he was determined to get – be it commercial success,
+        social dominance, or the physical subjugation of other human beings.</p>
 
-        <p class="vb-intro"><strong>b) Der Eight-wing: Kontrolle durch Einschüchterung:</strong>
-        Der Eight-wing der sexuellen Sieben ist kein gelegentliches Aufflackern von Direktheit –
-        er ist eine permänente Haltung: Ich bestimme, was hier passiert.
-        Zeugenaussagen im Prozess beschrieben ein System physischer Einschüchterung,
-        systematischer Drohungen und psychologischer Kontrolle gegenüber Frauen in seinem Umfeld.
-        Mitarbeiter, Partner und Künstler berichteten von einem Klima der Angst,
-        in dem Widerspruch gefährlich war.
-        Der Eight-wing macht es möglich, Gewält nicht als Kontrollverlust zu erleben,
-        sondern als legitimes Mittel der Durchsetzung –
-        ein Denken, das Combs offenbar über Jahrzehnte trug.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing: Control Through Intimidation:</strong>
+        The Eight-wing of the Sexual Seven is not an occasional flare-up of directness –
+        it is a permanent stance: I determine what happens here.
+        Witness testimonies in the trial described a system of physical intimidation,
+        systematic threats, and psychological control toward women in his environment.
+        Employees, partners, and artists reported a climate of fear
+        in which contradiction was dangerous.
+        The Eight-wing makes it possible to experience violence not as a loss of control,
+        but as a legitimate means of enforcement –
+        a mindset that apparently sustained Combs for decades.</p>
 
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Maßlosigkeit:</strong>
-        Die Leidenschaft der Sieben ist die <strong>Maßlosigkeit</strong> –
-        das Verlangen, das sich nicht satt essen kann.
-        Bei Combs zeigte sie sich auf mehreren Ebenen:
-        im Aufbau eines Imperiums, das nie groß genug war,
-        in Feiern, die Legenden wurden („White Parties“ in den Hamptons, Partys auf Yachten),
-        und – nach Aussage zahlreicher Kläger – in organisierten „Freak-offs“:
-        stundenlangen, unter Narkose erzwungenen sexuellen Ereignissen,
-        die er nach Zeugenaussagen selbst inszenierte und filmte.
-        Die Maßlosigkeit der Sieben in sehr unbewussten, pathologischen Bereichen – also wenn ein Mensch auf niedrigen Levels of Consciousness agiert – kennt keine natürliche Grenze –
-        und wenn der Eight-wing hinzukommt, auch keine ethische.</p>
+        <p class="vb-intro"><strong>c) The Passion: Gluttony:</strong>
+        The passion of the Seven is <strong>gluttony</strong> –
+        the craving that cannot be satisfied.
+        With Combs, it manifested on multiple levels:
+        in the building of an empire that was never big enough,
+        in parties that became legendary („White Parties" in the Hamptons, parties on yachts),
+        and – according to numerous plaintiffs – in organized „freak-offs":
+        hours-long, narcotics-coerced sexual events,
+        which witness statements indicate he orchestrated and filmed himself.
+        The gluttony of the Seven in highly unconscious, pathological realms – that is, when a person operates at lower Levels of Consciousness – knows no natural limit –
+        and when the Eight-wing is added, no ethical one either.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Ein System hinter der Fassade</h3>
-        <p class="vb-intro"><strong>a) Der Aufstieg:</strong>
-        Combs gründete 1993 Bad Boy Records und produzierte einige der meistverkauften Alben der 1990er Jahre.
-        Sein Ruf als knallharter, aber brillanter Produzent wuchs mit jedem Erfolg.
-        Er gründete eine Modemarke (Sean John), ein Spirituosenimperium (Ciróc Vodka)
-        und galt als Vorbild für unternehmerischen Erfolg aus dem afroamerikanischen Milieu.
-        Dieser Glanz war kein Zufall – er war Teil einer sorgfältig kontrollierten öffentlichen Identität,
-        hinter der sich ein anderes System verbarg.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crime: A System Behind the Facade</h3>
+        <p class="vb-intro"><strong>a) The Rise:</strong>
+        Combs founded Bad Boy Records in 1993 and produced some of the best-selling albums of the 1990s.
+        His reputation as a tough-as-nails yet brilliant producer grew with every success.
+        He founded a fashion label (Sean John), a spirits empire (Cîroc Vodka),
+        and was considered a role model for entrepreneurial success from an African American background.
+        This glamour was no accident – it was part of a carefully controlled public identity,
+        behind which another system was hidden.</p>
 
-        <p class="vb-intro"><strong>b) Die Klagen und Ermittlungen:</strong>
-        Ab 2023 häuften sich Zivilklagen gegen Combs.
-        Die erste öffentlich bekannte Klage stammt von seiner früheren Partnerin
-        <strong>Cassie Ventura</strong>, die ihm Vergewaltigung und jahrelangen Missbrauch vorwarf.
-        Combs einigte sich innerhalb eines Tages auf einen außergerichtlichen Vergleich –
-        doch das Video, das kurz darauf öffentlich wurde, änderte alles:
-        Sicherheitskameras eines Hotels zeigten ihn dabei, wie er Cassie im Flur schlug,
-        während sie versuchte zu fliehen.
-        Das FBI durchsuchte im März 2024 seine Anwesen in Miami und Los Angeles
-        und beschlagnahmte u.a. große Mengen Babyöl und Gleitmittel –
-        Materialien, die später im Zusammenhang mit den beschriebenen „Freak-offs“ erwähnt wurden.
-        Im September 2024 wurde Combs in New York verhaftet.</p>
+        <p class="vb-intro"><strong>b) The Lawsuits and Investigations:</strong>
+        Starting in 2023, civil lawsuits against Combs began to mount.
+        The first publicly known lawsuit came from his former partner
+        <strong>Cassie Ventura</strong>, who accused him of rape and years of abuse.
+        Combs agreed to an out-of-court settlement within a day –
+        yet the video that became public shortly thereafter changed everything:
+        hotel security cameras showed him beating Cassie in the hallway
+        while she attempted to flee.
+        The FBI searched his estates in Miami and Los Angeles in March 2024
+        and seized, among other things, large quantities of baby oil and lubricants –
+        materials that were later mentioned in connection with the described „freak-offs".
+        In September 2024, Combs was arrested in New York.</p>
 
-        <p class="vb-intro"><strong>c) Der Prozess und das Urteil:</strong>
-        Im Oktober 2025 wurde Sean Combs vom Bundesgericht des Southern District of New York
-        wegen Sex-Trafficking, Nötigung und körperlicher Misshandlung schuldig gesprochen.
-        Richter Arun Subramanian verurteilte ihn zu <strong>vier Jahren und zwei Monaten Haft</strong>
-        sowie einer Geldstrafe von 500.000 Dollar und fünf Jahren Bewährung nach der Haftentlassung.
-        Die Verteidigung legte Berufung ein.
-        Durch ein Drogenrehabilitationsprogramm während der Untersuchungshaft
-        wurde die Haftzeit verkürzt; eine frühzeitige Entlassung wurde für April 2026 ermöglicht.
-        Ob er tatsächlich entlassen wurde, hängt vom Ausgang der Berufungsverfahren ab.</p>
+        <p class="vb-intro"><strong>c) The Trial and the Verdict:</strong>
+        In October 2025, Sean Combs was found guilty by the Federal Court for the Southern District of New York
+        of sex trafficking, coercion, and physical abuse.
+        Judge Arun Subramanian sentenced him to <strong>four years and two months in prison</strong>
+        as well as a fine of $500,000 and five years of supervised release after prison discharge.
+        The defense filed an appeal.
+        Through a drug rehabilitation program during pretrial detention,
+        the prison term was reduced; an early release was rendered possible for April 2026.
+        Whether he was actually released depends on the outcome of the appeal proceedings.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Kindheit: Wurzel des Typmusters</h3>
-        <p class="vb-intro"><strong>a) Der frühe Verlust:</strong>
-        Sean Combs wuchs ohne Vater auf. Melvin Earl Combs, ein Mitläufer im Umfeld des Harlem-Drogenmilieus,
-        wurde 1972 erschossen – Sean war drei Jahre alt.
-        Seine Mutter Janice zog ihn allein auf, arbeitete als Lehrerin und Modell
-        und schirmte ihn nach Kräften ab.
-        Der frühe Verlust des Vaters durch Gewalt ist bei der sexuellen Sieben typologisch bedeutsam:
-        Er legt den Grundstein für ein Muster, das Schmerz nicht verarbeitet, sondern überwältigt –
-        durch Leistung, durch Charme, durch Überfluss, durch Kontrolle.
-        Was fehlt, soll durch Fülle ersetzt werden. Was schmerzt, soll durch Erfolg zum Schweigen gebracht werden.</p>
+        <p class="vb-intro"><strong>a) The Early Loss:</strong>
+        Sean Combs grew up without a father. Melvin Earl Combs, an associate in the Harlem drug scene,
+        was shot dead in 1972 – Sean was three years old.
+        His mother Janice raised him alone, working as a teacher and model
+        and shielding him to the best of her abilities.
+        The early loss of the father through violence is typologically significant for the Sexual Seven:
+        It lays the foundation for a pattern that does not process pain, but overcomes it –
+        through achievement, charm, abundance, and control.
+        What is missing shall be replaced by abundance. What hurts shall be silenced by success.</p>
 
-        <p class="vb-intro"><strong>b) Der frühe Aufstieg als Kompensation:</strong>
-        Bereits an der Howard University fiel Combs durch Organisationstalent und Durchsetzungswillen auf.
-        Er veranstaltete Partys, baute Netzwerke, brachte sich bei André Harrell von Uptown Records ins Gespräch.
-        Die sexuelle Sieben kompensiert frühen Mangel durch maximale Selbsterschaffung:
-        Ich werde so groß, so sichtbar, so unentbehrlich, dass Verlust mich nie wieder treffen kann.
-        Combs wurde zu einem der mächtigsten Männer der Musikbranche –
-        und das Muster, das ihn dahin gebracht hatte, blieb unverändert.</p>
+        <p class="vb-intro"><strong>b) The Early Rise as Compensation:</strong>
+        Even at Howard University, Combs stood out for his organizational talent and drive to assert himself.
+        He hosted parties, built networks, and got himself noticed by André Harrell of Uptown Records.
+        The Sexual Seven compensates for early deprivation through maximum self-creation:
+        I will become so big, so visible, so indispensable that loss can never touch me again.
+        Combs became one of the most powerful men in the music industry –
+        and the pattern that brought him there remained unchanged.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Die Fassade: Öffentlichkeit und verborgenes System</h3>
-        <p class="vb-intro"><strong>a) Das öffentliche Bild:</strong>
-        Combs war ein Meister der Inszenierung. Seine „White Parties" in den Hamptons
-        galten als kulturelle Institutionen – Gästelisten lasen sich wie Who's Who der Unterhaltungswelt.
-        Er trat als Philanthrop auf, unterstützte Bildungsinitiativen, sprach über seine Mutter
-        und seine schwierige Kindheit. Das Bild: ein Selfmade-Mensch, der zurückgibt.
-        Die sexuelle Sieben with Eight-wing versteht instinktiv,
-        dass öffentliche Strahlkraft Schutz ist. Wer so sichtbar beliebt ist,
-        wirkt per Definition unverdächtig.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Facade: Public Eye and Hidden System</h3>
+        <p class="vb-intro"><strong>a) The Public Image:</strong>
+        Combs was a master of staging. His „White Parties" in the Hamptons
+        were considered cultural institutions – guest lists read like a Who's Who of the entertainment world.
+        He appeared as a philanthropist, supported educational initiatives, spoke about his mother
+        and his difficult childhood. The image: a self-made individual who gives back.
+        The Sexual Seven with Eight-wing instinctively understands
+        that public radiance is protection. Anyone so visibly beloved
+        appears unsuspect by definition.</p>
 
-        <p class="vb-intro"><strong>b) Das verborgene System:</strong>
-        Hinter dieser Fassade existierte nach Darstellung zahlreicher Kläger
-        ein jahrzehntelanges System der Kontrolle:
-        Mitarbeiter wurden eingeschüchtert, Künstler unter Druck gesetzt,
-        Frauen in Situationen manövriert, aus denen sie keinen Ausweg sahen.
-        Das Hotelflur-Video mit Cassie Ventura – das ohne sein Wissen existierte –
-        machte erstmals sichtbar, was hinter der glamourösen Oberfläche lag.
-        Die Diskrepanz zwischen Fassade und Realität ist kein Widerspruch zum Typus –
-        sie ist sein Ausdruck: Die Sieben präsentiert Licht und verbirgt die Dunkelheit,
-        weil sie selbst nicht hinschauen will.</p>
+        <p class="vb-intro"><strong>b) The Hidden System:</strong>
+        Behind this facade, according to numerous plaintiffs, existed
+        a decades-long system of control:
+        employees were intimidated, artists pressured,
+        women maneuvered into situations from which they saw no way out.
+        The hotel hallway video with Cassie Ventura – which existed without his knowledge –
+        for the first time made visible what lay beneath the glamorous surface.
+        The discrepancy between facade and reality is not a contradiction to the type –
+        it is its expression: the Seven presents light and hides the darkness
+        because it does not want to look at it itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Companions im Enneagramm-Spiegel</h3>
         <p class="vb-intro"><strong>The Notorious B.I.G. (Christopher Wallace):</strong>
-        Combs' engste Zusammenarbeit war mit Biggie Smalls – einem der größten Rapper aller Zeiten.
-        Wallace starb 1997 durch einen Schuss aus einem fahrenden Auto, ungeklärt bis heute.
-        Im Enneagramm-Kontext ist die Beziehung aufschlussreich:
-        Combs als SX7w8 suchte Intensität, Exklusivität, Bindung durch gemeinsame Größe.
-        Nach Biggies Tod zeigte Combs öffentlich großen Schmerz –
-        und produzierte gleichzeitig „I'll Be Missing You", das ihm kommerziell
-        neue Höhen bescherte. Die sexuelle Sieben verwandelt Verlust in Projekt.</p>
+        Combs' closest collaboration was with Biggie Smalls – one of the greatest rappers of all time.
+        Wallace died in 1997 from a drive-by shooting, unsolved to this day.
+        In the Enneagram context, the relationship is revealing:
+        Combs as an SX7w8 sought intensity, exclusivity, and bonding through shared greatness.
+        After Biggie's death, Combs publicly displayed great grief –
+        and simultaneously produced „I'll Be Missing You," which brought him to commercial
+        new heights. The Sexual Seven transforms loss into a project.</p>
 
         <p class="vb-intro"><strong>Cassie Ventura:</strong>
-        Cassie war über ein Jahrzehnt Combs' Partnerin – und nach Aussage der Klageschrift
-        zugleich sein Hauptopfer. Sie beschrieb eine Beziehung, in der Zuneigung
-        und Kontrolle untrennbar verflochten waren: Reisen, Luxus, öffentliche Auftritte –
-        und hinter geschlossenen Türen physische Gewalt und psychologische Unterwerfung.
-        Das Muster ist typisch für die SX7w8 in der Entgleisung:
-        Die intensive Bindung, die die sexuelle Sieben sucht, kann zur Inbesitznahme des Gegenübers werden –
-        die andere Person als Objekt totaler Kontrolle statt als freies Gegenüber.</p>
+        Cassie was Combs' partner for over a decade – and according to the complaint,
+        simultaneously his primary victim. She described a relationship in which affection
+        and control were inextricably intertwined: travel, luxury, public appearances –
+        and behind closed doors, physical violence and psychological subjugation.
+        The pattern is typical for the SX7w8 in derailment:
+        The intense bond that the Sexual Seven seeks can turn into total possession of the other –
+        the other person as an object of total control rather than a free counterpart.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Enneagramm-Analyse: Die Dynamik der Entgleisung</h3>
-        <p class="vb-intro"><strong>a) Der Stresspunkt – die Eins:</strong>
-        Unter Dauerstress bewegt sich die Sieben in Richtung Eins:
-        Rigides Denken, moralisierendes Urteilen, kompromisslose Kontrolle.
-        Anstatt die eigene Angst zu fühlen, hält die gestresste Sieben
-        an einer inneren Überzeugung fest: <em>Ich habe Recht. Meine Bedürfnisse sind legitim. Andere haben zu funktionieren.</em>
-        Dieser Mechanismus erklärt, warum Combs – trotz wachsender Klagen –
-        offenbar nicht aufhörte, sondern das System weiter ausdehnte.
-        Die Sieben im Stress sieht sich nicht als Täter, sondern als jemanden,
-        der nur bekommt, was ihm zusteht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Enneagram Analysis: The Dynamics of Derailment</h3>
+        <p class="vb-intro"><strong>a) The Stress Point – The One:</strong>
+        Under continuous stress, the Seven moves toward One:
+        rigid thinking, moralizing judgment, uncompromising control.
+        Instead of feeling its own fear, the stressed Seven clings
+        to an inner conviction: <em>I am right. My needs are legitimate. Others must function.</em>
+        This mechanism explains why Combs – despite growing lawsuits –
+        apparently did not stop, but expanded the system further.
+        The Seven under stress does not view itself as a perpetrator, but as someone
+        who is only getting what is rightfully theirs.</p>
 
-        <p class="vb-intro"><strong>b) Die Flucht vor dem Schmerz:</strong>
-        Das Kernthema der Sieben ist die <strong>Angst vor Schmerz und Einschränkung</strong>.
-        Combs’ frühe Biographie – Vater erschossen, Armut, Aufstieg durch Selbstdisziplin –
-        legte ein Fundament, das Verlust und Schmerz als etwas verstand,
-        das durch Erfolg, Kontrolle und Fülle überwunden werden muss.
-        Diese innere Logik wird zur Falle, wenn sie pathologisch wird:
-        Dann ist jede Einschränkung ein Angriff, jedes Nein eine Bedrohung,
-        jede Grenze eine Zumutung, die mit Mitteln der Macht beseitigt werden muss.</p>
+        <p class="vb-intro"><strong>b) The Flight from Pain:</strong>
+        The core issue of the Seven is the <strong>fear of pain and limitation</strong>.
+        Combs' early biography – father shot dead, poverty, rise through self-discipline –
+        laid a foundation that understood loss and pain as something
+        that must be overcome through success, control, and abundance.
+        This inner logic becomes a trap when it turns pathological:
+        Then every limitation is an attack, every "no" a threat,
+        every boundary an unreasonable demand to be eliminated by means of power.</p>
 
-        <p class="vb-intro"><strong>c) Der Lichtpunkt – Heilungsrichtung der Sieben:</strong>
-        Die Heilungsrichtung der Sieben führt zur <strong>Fünf</strong>: zur Stille, zur Tiefe, zur Bereitschaft,
-        im Augenblick zu bleiben, auch wenn er schmerzhaft ist.
-        Für eine Sieben bedeutet Heilung: die eigene Leere aushalten,
-        ohne sie sofort füllen zu müssen.
-        Ob Combs jemals diesen Weg gehen wird – oder ob das Berufungsverfahren
-        ihn zunächst in neue Verteidigungsreflexe drängt – bleibt offen.</p>
+        <p class="vb-intro"><strong>c) The Integration Point – Healing Direction of the Seven:</strong>
+        The healing direction of the Seven leads to <strong>Five</strong>: to stillness, depth, and the willingness
+        to remain in the present moment, even when it is painful.
+        For a Seven, healing means: enduring one's own inner emptiness
+        without having to fill it immediately.
+        Whether Combs will ever walk this path – or whether the appeal process
+        will initially push him into new defensive reflexes – remains open.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Name:</strong> Sean John Combs (Künstlername: P. Diddy, Puff Daddy, Diddy)<br>
-        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben with Eight-wing<br>
-        <strong>Leidenschaft:</strong> Maßlosigkeit – das unstillbare Verlangen nach Genuss, Kontrolle und Intensität ohne natürliche Grenze<br>
-        <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, Überzeugung eigener Legitimität<br>
-        <strong>Animal correspondence:</strong> Schimpanse – hochintelligent, sozial dominant, zur kalkulierten kollektiven Gewalt fähig<br>
-        <strong>Lebensdaten:</strong> Geb. 4. November 1969 in Harlem, New York<br>
-        <strong>Verbrechen:</strong> Sex-Trafficking, Nötigung, Körperverletzung – verurteilt im Oktober 2025 zu vier Jahren und zwei Monaten Haft
+        <strong>Name:</strong> Sean John Combs (Stage name: P. Diddy, Puff Daddy, Diddy)<br>
+        <strong>Subtype:</strong> SX7w8 – Sexual Seven with Eight-wing<br>
+        <strong>Passion:</strong> Gluttony – the insatiable desire for pleasure, control, and intensity without a natural limit<br>
+        <strong>Stress Point:</strong> One – rigid thinking, inner judge, conviction of one's own legitimacy<br>
+        <strong>Animal Correspondence:</strong> Chimpanzee – highly intelligent, socially dominant, capable of calculated collective violence<br>
+        <strong>Life Dates:</strong> Born Nov. 4, 1969, in Harlem, New York<br>
+        <strong>Crimes:</strong> Sex trafficking, coercion, assault – sentenced in October 2025 to four years and two months in prison
         </p>
       </div>
 
@@ -23100,7 +23100,7 @@ function pDiddyPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-griselda-blanco", label:"Criminal Psychology: Griselda Blanco (SP8w9)"},
-        {route:"portrait-typ-7", label:"Typporträt: Der Typ 7 im Überblick"},
+        {route:"portrait-typ-7", label:"Type Portrait: The Type 7 at a Glance"},
       ])}
     </div>
   `);
