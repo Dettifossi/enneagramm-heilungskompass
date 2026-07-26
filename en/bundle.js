@@ -23712,22 +23712,22 @@ function samuelBankmanFriedPortraitPage() {
         <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Samuel „Sam" Bankman-Fried</strong>, geboren am 5. März 1992,
-        war der Gründer und CEO der Kryptowährungsbörse FTX sowie Gründer
-        von Alameda Research, einer Handelsfirma für Kryptowährungen.
-        FTX galt als eine der größten und erfolgreichsten Plattformen
-        im Kryptobereich, bis sie im November 2022 aufgrund massiver
-        finanzieller Unregelmäßigkeiten zusammenbrach und Insolvenz anmeldete.
-        Bankman-Fried wurde beschuldigt, Kundengelder in Milliardenhöhe
-        von FTX zu Alameda Research umgeleitet zu haben,
-        um riskante Handelsgeschäfte zu finanzieren und damit
-        persönliche Gewinne zu erzielen.
-        Dies führte zu einem massiven Verlust der Anlegergelder
-        und stellt einen der größten Betrugsfälle in der Kryptowelt dar.
-        Anfang 2022 hatte FTX auf dem Höhepunkt eine Bewertung
-        von 32 Milliarden Dollar erreicht.
-        Im Jahr 2023 wurde Bankman-Fried wegen Betrugs
-        und weiterer finanzieller Vergehen zu 25 Jahren Haft verurteilt.
+        <strong>Samuel „Sam" Bankman-Fried</strong>, born March 5, 1992,
+        was the founder and CEO of the cryptocurrency exchange FTX, as well as the founder
+        of Alameda Research, a cryptocurrency trading firm.
+        FTX was considered one of the largest and most successful platforms
+        in the crypto sector until it collapsed in November 2022 due to massive
+        financial irregularities and filed for bankruptcy.
+        Bankman-Fried was accused of diverting billions of dollars in customer funds
+        from FTX to Alameda Research
+        to fund risky trading operations and thereby
+        generate personal profits.
+        This led to a massive loss of investor funds
+        and represents one of the largest fraud cases in the crypto world.
+        At its peak in early 2022, FTX had reached a valuation
+        of $32 billion.
+        In 2023, Bankman-Fried was sentenced to 25 years in prison
+        for fraud and other financial offenses.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -23751,245 +23751,245 @@ function samuelBankmanFriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Schlau und wachsam:</strong>
-        <strong>Sam Bankman-Fried</strong> zeichnete sich durch einen
-        analytischen und scharfen Blick aus.
-        Er war stets darauf bedacht, die Märkte zu durchleuchten
-        und Chancen zu erkennen.
-        Dieser durchdringende Blick spiegelte seine hohe Intelligenz
-        und seine Fähigkeit wider, komplexe Sachverhalte
-        schnell zu erfassen.</p>
-        <p class="vb-intro"><strong>b) Tarnung hinter Gelassenheit:</strong>
-        Trotz der enormen Verantwortung und des Drucks
-        wirkte sein Blick oft ruhig und entspannt –
-        Teil seiner Strategie, Vertrauen zu schaffen
-        und Risiken zu verschleiern.
-        Diese Gelassenheit half ihm, seine wahre Agenda
-        und seine problematischen Handlungen zu verbergen,
-        während er nach außen als moralisch vorbildlicher
-        Unternehmer erschien.</p>
-        <p class="vb-intro"><strong>c) Unberechenbare Momente:</strong>
-        In kritischen Situationen zeigte sein Blick eine Unsicherheit,
-        die darauf hindeutete, dass er sich in einem ständigen
-        inneren Konflikt befand – zwischen dem Streben nach Erfolg
-        und dem Bewusstsein für die moralische Dimension
-        seines Handelns.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Clever and Vigilant:</strong>
+        <strong>Sam Bankman-Fried</strong> was characterized by an
+        analytical and sharp gaze.
+        He was always intent on dissecting the markets
+        and identifying opportunities.
+        This penetrating look reflected his high intelligence
+        and his ability to grasp complex matters
+        quickly.</p>
+        <p class="vb-intro"><strong>b) Disguised Behind Composure:</strong>
+        Despite the enormous responsibility and pressure,
+        his gaze often appeared calm and relaxed –
+        part of his strategy to build trust
+        and obscure risks.
+        This composure helped him conceal his true agenda
+        and his problematic actions,
+        while outwardly appearing as a morally exemplary
+        entrepreneur.</p>
+        <p class="vb-intro"><strong>c) Unpredictable Moments:</strong>
+        In critical situations, his gaze showed an uncertainty
+        that indicated he was in a constant
+        inner conflict – between the pursuit of success
+        and awareness of the moral dimension
+        of his actions.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Erfolgsorientierung:</strong>
-        <strong>Bankman-Fried</strong> war getrieben von einem enormen Ehrgeiz
-        und einem unablässigen Streben nach Erfolg.
-        Als Vertreter der selbsterhaltenden Drei
-        strebte er nach äußerem Erfolg, Anerkennung und Status,
-        wobei ihm die Mittel, diese Ziele zu erreichen,
-        zunehmend sekundär erschienen.</p>
-        <p class="vb-intro"><strong>b) Fassade der Bescheidenheit:</strong>
-        Er pflegte ein Image von Bescheidenheit und Uneigennützigkeit –
-        er spendete für wohltätige Zwecke,
-        trat in abgetragenen Kleidern und mit ungekämmtem Wuschelkopf auf
-        und wurde von der Öffentlichkeit weithin nur als „SBF" bezeichnet.
-        Dieses Image half ihm, sich als moralisch überlegenen Unternehmer
-        darzustellen, was jedoch letztlich eine Fassade war,
-        hinter der sich skrupellose finanzielle Manipulationen verbargen.</p>
-        <p class="vb-intro"><strong>c) Revolutionärer Anspruch:</strong>
-        <strong>Bankman-Fried</strong> hatte den Anspruch,
-        die Kryptomärkte und das Finanzsystem zu revolutionieren –
-        typisch für den Ehrgeiz der selbsterhaltenden Drei.
-        Seine hochgesteckten Ziele waren jedoch oft
-        von der Realität entkoppelt und führten
-        zu riskanten Handlungen, die das gesamte System destabilisierten.</p>
+        <p class="vb-intro"><strong>a) Success Orientation:</strong>
+        <strong>Bankman-Fried</strong> was driven by an immense ambition
+        and a relentless pursuit of success.
+        As a representative of the Self-Preservation Three,
+        he strove for outward success, recognition, and status,
+        whereby the means to achieve these goals
+        seemed increasingly secondary to him.</p>
+        <p class="vb-intro"><strong>b) Facade of Modesty:</strong>
+        He cultivated an image of modesty and selflessness –
+        he donated to charitable causes,
+        appeared in worn-out clothes with an uncombed mop of hair,
+        and was widely referred to by the public simply as „SBF".
+        This image helped him present himself as a morally superior entrepreneur,
+        which was ultimately a facade, however,
+        behind which ruthless financial manipulations were hidden.</p>
+        <p class="vb-intro"><strong>c) Revolutionary Claim:</strong>
+        <strong>Bankman-Fried</strong> aimed to
+        revolutionize crypto markets and the financial system –
+        typical of the ambition of the Self-Preservation Three.
+        However, his lofty goals were often
+        decoupled from reality and led
+        to risky actions that destabilized the entire system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Manipulation zur Zielerreichung:</strong>
-        Ein Hauptmerkmal von <strong>Bankman-Fried</strong>
-        war seine Fähigkeit, Menschen zu manipulieren,
-        um seine Ziele zu erreichen.
-        Er schuf Vertrauen bei Investoren und Partnern,
-        während er hinter den Kulissen Gelder umverteilte
-        und Risiken einging, die er nach außen verschwieg.</p>
-        <p class="vb-intro"><strong>b) Pragmatische Kreativität:</strong>
-        Er bewies eine außergewöhnliche Fähigkeit,
-        kreative Lösungen für komplexe Probleme im Kryptohandel zu finden.
-        Diese pragmatische Kreativität war jedoch oft
-        auf kurzfristigen Erfolg ausgerichtet
-        und ignorierte systematisch die langfristigen Konsequenzen
-        für die Anleger und das System als Ganzes.</p>
-        <p class="vb-intro"><strong>c) Anpassungsfähigkeit:</strong>
-        <strong>Sam Bankman-Fried</strong> war äußerst anpassungsfähig –
-        sowohl in seinem Auftreten als auch in seinen Geschäftsstrategien.
-        Diese Fähigkeit, sich flexibel an wechselnde Marktbedingungen anzupassen,
-        war ein wesentlicher Grund für seinen rasanten Aufstieg
-        und verschleierte lange die strukturellen Risse im System.</p>
+        <p class="vb-intro"><strong>a) Manipulation to Achieve Goals:</strong>
+        A key characteristic of <strong>Bankman-Fried</strong>
+        was his ability to manipulate people
+        in order to achieve his goals.
+        He built trust among investors and partners
+        while reallocating funds behind the scenes
+        and taking risks that he kept hidden from the outside world.</p>
+        <p class="vb-intro"><strong>b) Pragmatic Creativity:</strong>
+        He demonstrated an extraordinary ability
+        to find creative solutions to complex problems in crypto trading.
+        However, this pragmatic creativity was often
+        geared toward short-term success
+        and systematically ignored the long-term consequences
+        for investors and the system as a whole.</p>
+        <p class="vb-intro"><strong>c) Adaptability:</strong>
+        <strong>Sam Bankman-Fried</strong> was extremely adaptable –
+        both in his demeanor and in his business strategies.
+        This ability to flexibly adjust to changing market conditions
+        was a major reason for his meteoric rise
+        and long concealed the structural cracks in the system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Vertrauenserweckend:</strong>
-        Seine gelassene und scheinbar bescheidene Außenwirkung
-        schuf ein Bild von Zuverlässigkeit und Kompetenz.
-        Mit seinem ungekämmten Wuschelkopf und betont nachlässiger Kleidung
-        wurde <strong>SBF</strong> als schrulliges Unternehmergenie wahrgenommen.
-        Viele Investoren und Partner vertrauten auf seine Expertise
-        und seine scheinbar altruistischen Absichten.</p>
-        <p class="vb-intro"><strong>b) Unauffällige Autorität:</strong>
-        Er führte FTX und Alameda Research
-        mit einer Mischung aus sanfter Autorität
-        und intellektuellem Führungsstil,
-        wodurch er eine starke, aber zurückhaltende Präsenz erzeugte –
-        eine Führungswirkung, die niemanden zu bedrohen schien
-        und eben deshalb kaum hinterfragt wurde.</p>
-        <p class="vb-intro"><strong>c) Doppelgesichtigkeit:</strong>
-        Während er öffentlich als Vorreiter für eine bessere finanzielle Zukunft
-        seiner Anleger und Kunden auftrat,
-        spiegelte sich hinter den Kulissen ein höchst berechnender
-        und eigennütziger Umgang mit Risiken wider –
-        ein Muster, das erst beim Zusammenbruch
-        in seiner vollen Dimension sichtbar wurde.</p>
+        <p class="vb-intro"><strong>a) Inspiring Trust:</strong>
+        His relaxed and seemingly modest outward appearance
+        created an image of reliability and competence.
+        With his uncombed mop of hair and deliberately careless attire,
+        <strong>SBF</strong> was perceived as a quirky entrepreneurial genius.
+        Many investors and partners trusted his expertise
+        and his seemingly altruistic intentions.</p>
+        <p class="vb-intro"><strong>b) Inconspicuous Authority:</strong>
+        He led FTX and Alameda Research
+        with a mix of gentle authority
+        and an intellectual leadership style,
+        creating a strong yet restrained presence –
+        a managerial impact that seemed to threaten no one
+        and was for that very reason hardly questioned.</p>
+        <p class="vb-intro"><strong>c) Two-Faced Nature:</strong>
+        While he publicly appeared as a pioneer for a better financial future
+        for his investors and customers,
+        behind the scenes lay a highly calculating
+        and self-serving approach to risk –
+        a pattern that became fully visible
+        only at the moment of collapse.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Hohes Energieniveau:</strong>
-        Trotz seiner ruhigen Ausstrahlung zeigte <strong>Bankman-Fried</strong>
-        eine immense Energie und Begeisterung für die Kryptowelt.
-        Seine Energie speiste sich aus dem ständigen Streben nach Erfolg
-        und dem Wettlauf, den nächsten großen Durchbruch zu erzielen.</p>
-        <p class="vb-intro"><strong>b) Zersetzende Kraft:</strong>
-        Diese Energie besaß jedoch eine destruktive Seite,
-        die sich in den gefährlichen Finanzgeschäften
-        und der Umleitung von Kundengeldern widerspiegelte.
-        Die gleiche Energie, die ihm half, seine Unternehmen aufzubauen,
-        führte letztlich zu deren Untergang.</p>
-        <p class="vb-intro"><strong>c) Getrieben von inneren Unsicherheiten:</strong>
-        Seine äußere Ruhe und Energie kaschierten
-        eine tiefe innere Unsicherheit und das Bedürfnis
-        nach Anerkennung und Bestätigung für seine Leistungen.
-        Der Four-wing der Drei erzeugt genau diese Spannung:
-        Er will nicht nur erfolgreich sein,
-        er will, dass der Erfolg ihn als bedeutsam ausweist –
-        und fürchtet zutiefst, dass er es nicht ist.
-        Diese verborgene Angst führte zu riskanten Entscheidungen,
-        die am Ende alles zerstörten.</p>
+        <p class="vb-intro"><strong>a) High Energy Level:</strong>
+        Despite his calm aura, <strong>Bankman-Fried</strong>
+        displayed immense energy and enthusiasm for the crypto world.
+        His energy was fueled by a constant drive for success
+        and the race to achieve the next big breakthrough.</p>
+        <p class="vb-intro"><strong>b) Corrosive Power:</strong>
+        However, this energy had a destructive side,
+        which was reflected in dangerous financial transactions
+        and the diversion of customer funds.
+        The same energy that helped him build his companies
+        ultimately led to their downfall.</p>
+        <p class="vb-intro"><strong>c) Driven by Inner Insecurities:</strong>
+        His outer calm and energy masked
+        a deep inner insecurity and the need
+        for recognition and validation for his achievements.
+        The Four-wing of the Three creates precisely this tension:
+        he does not just want to be successful,
+        he wants success to mark him as significant –
+        and deeply fears that he is not.
+        This hidden fear led to risky decisions
+        that ultimately destroyed everything.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Der Waschbär</h3>
-        <p class="vb-intro"><strong>a) Geschicklichkeit und Anpassungsfähigkeit:</strong>
-        Wie ein Waschbär war <strong>SBF</strong> äußerst geschickt darin,
-        sich den Gegebenheiten anzupassen und kreative Wege zu finden,
-        um seine Ziele zu erreichen.
-        Er war ein Meister darin, vorhandene Ressourcen zu nutzen,
-        um kurzfristige Gewinne zu erzielen –
-        flexibel, findig und stets auf der Search
-        nach der nächsten Gelegenheit.</p>
-        <p class="vb-intro"><strong>b) Verborgenes Handeln:</strong>
-        Der Waschbär ist bekannt dafür,
-        unauffällig und im Verborgenen zu agieren.
-        In ähnlicher Weise handelte <strong>Bankman-Fried</strong>
-        hinter den Kulissen und verschleierte seine wahre Agenda,
-        während er sich nach außen als moralisch vorbildlich darstellte.</p>
-        <p class="vb-intro"><strong>c) Fassade des Vertrauens:</strong>
-        Ähnlich wie der Waschbär, der harmlos und neugierig wirkt,
-        baute <strong>Samuel Bankman-Fried</strong> ein Image auf,
-        das Vertrauen erweckte.
-        Doch hinter dieser Fassade verbarg sich
-        ein zutiefst manipulativer und eigennütziger Antrieb,
-        der erst im Moment des Zusammenbruchs vollständig sichtbar wurde.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro"><strong>a) Resourcefulness and Adaptability:</strong>
+        Like a raccoon, <strong>SBF</strong> was extremely adept at
+        adapting to circumstances and finding creative ways
+        to achieve his goals.
+        He was a master at utilizing existing resources
+        to achieve short-term gains –
+        flexible, resourceful, and always on the search
+        for the next opportunity.</p>
+        <p class="vb-intro"><strong>b) Concealed Action:</strong>
+        The raccoon is known for
+        operating quietly and in secret.
+        In a similar manner, <strong>Bankman-Fried</strong> acted
+        behind the scenes and obscured his true agenda,
+        while presenting himself outwardly as morally exemplary.</p>
+        <p class="vb-intro"><strong>c) Facade of Trust:</strong>
+        Similar to the raccoon, which appears harmless and curious,
+        <strong>Samuel Bankman-Fried</strong> built an image
+        that inspired trust.
+        Yet behind this facade lay
+        a deeply manipulative and self-serving drive,
+        which became fully visible only at the moment of collapse.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Samuel Bankman-Fried</strong> verkörpert viele der negativen Aspekte
-        der selbsterhaltenden Drei im Enneagramm.
-        Sein übermächtiger Drang nach Erfolg und Anerkennung
-        trieb ihn dazu, moralische Grenzen zu überschreiten
-        und immense Risiken einzugehen.
-        Er baute ein öffentliches Image als bescheidener, altruistischer Unternehmer auf,
-        während er im Hintergrund finanzielle Manipulationen durchführte,
-        die letztlich zum Untergang seiner Unternehmen führten.
-        Wie der Waschbär war er geschickt, anpassungsfähig
-        und in der Lage, sich im Verborgenen zu bewegen.
-        Doch seine inneren Unsicherheiten und der unstillbare Hunger
-        nach Anerkennung und Bestätigung
-        führten zu einem Betrugsfall von gigantischem Ausmaß.
+        <strong>Samuel Bankman-Fried</strong> embodies many of the negative aspects
+        of the Self-Preservation Three in the Enneagram.
+        His overwhelming urge for success and recognition
+        drove him to cross moral boundaries
+        and take immense risks.
+        He built a public image as a modest, altruistic entrepreneur,
+        while conducting financial manipulations in the background
+        that ultimately led to the downfall of his companies.
+        Like the raccoon, he was resourceful, adaptable,
+        and capable of moving in secret.
+        Yet his inner insecurities and unquenchable hunger
+        for recognition and validation
+        led to a fraud scheme of gigantic proportions.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) SP3 – der Kontratyp:</strong>
-        Die selbsterhaltende Drei ist der Kontratyp –
-        der Einser-Subtype der Drei, der am wenigsten
-        nach einer Drei aussieht.
-        Der SP3er will nicht bewundert werden;
-        er will liefern, funktionieren, gewinnen.
-        <strong>Bankman-Frieds</strong> gesamter Auftritt –
-        die zerknitterten Shorts, das ungekämmte Haar,
-        das absichtlich Unfertige – war die Inszenierung
-        von Effizienz als Wert: Ich tue nicht so,
-        als würde ich gut aussehen, ich tue Dinge, die zählen.
-        Das ist die SP3 als Selbstbild.</p>
-        <p class="vb-intro"><strong>b) Der Four-wing und das altruistische Narrativ:</strong>
-        Der Four-wing der Drei bringt das Bedürfnis nach Tiefe,
-        nach Bedeutung, nach einer Geschichte,
-        die über bloßen Erfolg hinausgeht.
-        <strong>Bankman-Fried</strong> fand dieses Narrativ
-        im Effektiven Altruismus:
-        Er verdiene so viel wie möglich,
-        um so viel wie möglich zu spenden.
-        Dieses Narrativ war nicht vollständig verlogen –
-        aber es war auch das perfekte Schutzschild
-        gegen jede kritische Nachfrage nach seinen Methoden.</p>
-        <p class="vb-intro"><strong>c) Desintegration in die Neun:</strong>
-        Der Stresspunkt der Drei ist die Neun:
-        Rückzug, Betäubung, Handlungslosigkeit.
-        <strong>Bankman-Fried</strong> zeigte im Prozess und in Interviews
-        eine eigenartige Gelassenheit,
-        die Beobachter irritierte –
-        keine dramatische Reue, kein Zusammenbruch,
-        eine fast passive Akzeptanz.
-        Das ist die Drei in der Desintegration:
-        Wenn Erfolg nicht mehr möglich ist,
-        schaltet sie ab.</p>
-        <p class="vb-intro"><strong>d) Vergleich mit Ruja Ignatova (SP3w4):</strong>
-        Beide sind selbsterhaltende Dreien with Four-wing,
-        beide im Kryptobereich tätig,
-        beide mit einer narrativen Hülle um ihr Vergehen:
-        Ignatova als „Cryptoqueen", <strong>Bankman-Fried</strong> als Altruist.
-        Der entscheidende Unterschied liegt in der Reaktion
-        auf den Zusammenbruch:
-        Ignatova verschwand – konsequente Flucht, radikaler Rückzug.
-        Bankman-Fried blieb, gab Interviews, erklärte sich –
-        bis zuletzt im Dreier-Muster des Selbstmanagements
-        durch Selbstdarstellung.</p>
-        <p class="vb-intro"><strong>e) Effektiver Altruismus als Dreier-Strategie:</strong>
-        Die EA-Bewegung (Effective Altruism) bietet
-        eine rationale, messbare Ethik –
-        genau das, was der Drei entspricht:
-        keine unstrukturierte Moral, sondern Effektivität als Maßstab.
-        <strong>Bankman-Fried</strong> nutzte diese Rahmung
-        nicht nur als Legitimation nach außen,
-        sondern möglicherweise auch als
-        inneres Beruhigungssystem:
-        Der Zweck heiligt die Mittel –
-        wenn der Zweck nur groß genug
-        und präzise genug berechnet ist.</p>
-        <p class="vb-intro"><strong>f) Das Urteil und die Drei:</strong>
-        25 Jahre Haft bedeuten das Ende der Bühne –
-        des Marktes, des Startups, der Konferenzen,
-        der Interviews. Für eine Drei ist
-        das Verstummen der Außenresonanz
-        eine tiefere Strafe als der Freiheitsentzug selbst.
-        Was <strong>Bankman-Fried</strong> danach ist,
-        wer er ohne Publikum und ohne Leistungsnachweis ist,
-        ist die eigentliche Frage –
-        die Frage, vor der die Drei ihr Leben lang flieht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) SP3 – The Countertype:</strong>
+        The Self-Preservation Three is the countertype –
+        the Type One-ish subtype of the Three that looks
+        least like a Three.
+        The SP3 does not want to be admired;
+        they want to deliver, function, win.
+        <strong>Bankman-Fried's</strong> entire presentation –
+        the crumpled shorts, the uncombed hair,
+        the deliberately unfinished look – was the staging
+        of efficiency as a value: I don't pretend
+        to look good, I do things that matter.
+        That is SP3 as a self-image.</p>
+        <p class="vb-intro"><strong>b) The Four-Wing and the Altruistic Narrative:</strong>
+        The Four-wing of the Three brings the need for depth,
+        for meaning, for a story
+        that goes beyond mere success.
+        <strong>Bankman-Fried</strong> found this narrative
+        in Effective Altruism:
+        earning as much as possible
+        in order to donate as much as possible.
+        This narrative was not entirely dishonest –
+        but it was also the perfect shield
+        against any critical questioning of his methods.</p>
+        <p class="vb-intro"><strong>c) Disintegration into Nine:</strong>
+        The stress point of the Three is Nine:
+        withdrawal, numbing, inaction.
+        <strong>Bankman-Fried</strong> showed during the trial and in interviews
+        a peculiar composure
+        that unsettled observers –
+        no dramatic remorse, no breakdown,
+        an almost passive acceptance.
+        This is the Three in disintegration:
+        when success is no longer possible,
+        it shuts down.</p>
+        <p class="vb-intro"><strong>d) Comparison with Ruja Ignatova (SP3w4):</strong>
+        Both are Self-Preservation Threes with a Four-wing,
+        both active in the crypto space,
+        both with a narrative wrapper around their misdeeds:
+        Ignatova as the „Cryptoqueen," <strong>Bankman-Fried</strong> as the altruist.
+        The crucial difference lies in the response
+        to the collapse:
+        Ignatova disappeared – consistent flight, radical withdrawal.
+        Bankman-Fried stayed, gave interviews, explained himself –
+        to the last, remaining within the Three pattern of self-management
+        through self-presentation.</p>
+        <p class="vb-intro"><strong>e) Effective Altruism as a Three Strategy:</strong>
+        The EA (Effective Altruism) movement offers
+        a rational, measurable ethics –
+        exactly what appeals to the Three:
+        not an unstructured morality, but efficiency as the standard.
+        <strong>Bankman-Fried</strong> used this framing
+        not only as outward legitimation,
+        but possibly also as
+        an internal calming system:
+        the end justifies the means –
+        provided the end is large enough
+        and calculated precisely enough.</p>
+        <p class="vb-intro"><strong>f) The Verdict and the Three:</strong>
+        25 years in prison means the end of the stage –
+        of the market, the startup, the conferences,
+        the interviews. For a Three,
+        the fading of external resonance
+        is a punishment deeper than the deprivation of liberty itself.
+        What <strong>Bankman-Fried</strong> is after this,
+        who he is without an audience and without a record of achievement,
+        is the real question –
+        the question from which the Three flees all their life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
