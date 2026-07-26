@@ -29257,361 +29257,359 @@ function rudolfPleilPortraitPage() {
         </div>
         <p class="krim-portrait-name">Rudolf Pleil</p>
         <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder, selbsternannter „Henker" · Animal correspondence: Flusspferd</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">German serial killer, self-proclaimed "executioner" · Animal correspondence: Hippopotamus</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Rudolf Pleil</strong>, geboren am 28. April 1924 in Zwickau,
-        starb am 8. Februar 1958 in der Strafanstalt Wolfenbüttel –
-        er erhängte sich in seiner Zelle mit seinem eigenen Schlüpfer.
-        Zuvor hatte er sich selbst den Beinamen gegeben,
-        der ihn in der deutschen Kriminalgeschichte unsterblich machte:
-        „der beste Totmacher".
-        Zwischen 1945 und 1947 ermordete Pleil, oft gemeinsam mit Komplizen,
-        mindestens neun Frauen und Mädchen in der Grenzzone
-        zwischen der sowjetischen und der britischen Besatzungszone –
-        einer Niemandsland-Region, in der staatliche Ordnung
-        weitgehend zusammengebrochen war.
-        Die Opfer waren Flüchtlinge, Heimkehrer, Grenzgängerinnen –
-        schutzlose Menschen in einem schutzlosen Raum.
-        Pleil nutzte diesen Raum systematisch.
-        Nach seiner Verhaftung 1950 gestand er bereitwillig,
-        brüstete sich mit seinen Taten und versuchte, die Höchstzahl
-        seiner Opfer immer weiter nach oben zu treiben –
-        er wollte der Rekordhalter sein.
-        Die Taten selbst waren von extremer körperlicher Brutalität geprägt:
-        Pleil schlug, erdrosselte und misshandelte seine Opfer –
-        oft über das für den Tod Notwendige hinaus.
-        Die Gewalt war kein Mittel, sie war ein Ausdruck.
+        Rudolf Pleil, born on April 28, 1924, in Zwickau,
+died on February 8, 1958, in Wolfenbüttel Prison –
+he hanged himself in his cell using his own underpants.
+Prior to this, he had given himself the epithet
+that made him immortal in German criminal history:
+"the best killer."
+Between 1945 and 1947, Pleil murdered, often together with accomplices,
+at least nine women and girls in the border region
+between the Soviet and British zones of occupation –
+a no-man's-land region where state order
+had largely collapsed.
+The victims were refugees, returnees, border crossers –
+defenseless people in a defenseless space.
+Pleil systematically exploited this space.
+After his arrest in 1950, he confessed willingly,
+boasted about his crimes, and attempted to drive the maximum number
+of his victims ever higher –
+he wanted to be the record holder.
+The acts themselves were marked by extreme physical brutality:
+Pleil beat, strangled, and abused his victims –
+often beyond what was necessary to cause death.
+Violence was not a means to an end; it was an expression.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Rudolf Pleil</strong> wird der <strong>Self-Preservationen Zwei with Three-wing</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
-        nicht im Sinne gesunden Selbstwertgefühls, sondern als aufgeblähtes
-        Selbstbild, das Grenzen nicht kennt: Ich bin außergewöhnlich,
-        ich bin unentbehrlich, mein Wille hat Vorrang.
-        Die selbsterhaltende Zwei (SP2) kämpft tief im Inneren
-        um Sicherheit, Anerkennung und das Gefühl, unverzichtbar zu sein.
-        Der Three-wing verleiht dieser Dynamik eine
-        performative, auf Außenwirkung ausgerichtete Dimension:
-        Er will nicht nur herrschen – er will <em>gesehen</em> werden dabei.
-        Pleils Selbstbezeichnung als „bester Totmacher" ist das
-        präziseste psychologische Selbstporträt eines SP2w3:
-        Stolz gepaart mit dem Bedürfnis nach Anerkennung –
-        selbst für das Unfassbarste.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>a) Type Classification:</strong>
+Rudolf Pleil is assigned to the Self-Preservation Two with Three-wing
+in the Enneagram. The passion of the Two is Pride –
+not in the sense of healthy self-esteem, but as an inflated
+self-image that knows no boundaries: I am extraordinary,
+I am indispensable, my will takes precedence.
+The Self-Preservation Two (SP2) struggles deep within
+for security, recognition, and the feeling of being indispensable.
+The Three-wing imparts a
+performative dimension focused on outward appearance to this dynamic:
+he does not merely want to rule – he wants to be seen doing so.
+Pleil's self-designation as "the best killer" is the
+most precise psychological self-portrait of an SP2w3:
+pride coupled with the need for recognition –
+even for the most unimaginable atrocities.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Fordernd und kontrollierend:</strong>
-        Zeugen beschrieben <strong>Pleils</strong> Blick als durchdringend,
-        fordernd, einschüchternd.
-        Er suchte Augenkontakt nicht, um Verbindung herzustellen,
-        sondern um zu prüfen, wer hier das Sagen hat.
-        Die Zwei schaut mit der stillen Erwartung,
-        gesehen und anerkannt zu werden –
-        bei Pleil war diese Erwartung zur Dominanzgeste geworden:
-        Wer seinen Blick nicht erwiderte, verlor in seiner Wahrnehmung
-        sofort an Bedeutung. Wer ihm standhielt, wurde zur Herausforderung.</p>
-        <p class="vb-intro"><strong>b) Gespielt warm, im Kern kalt:</strong>
-        Im Verhör und vor Gericht konnte <strong>Pleil</strong> charmant, fast
-        jovial wirken – ein Merkmal des Three-wings, der die soziale
-        Oberfläche beherrscht. Doch hinter dieser Wärme lag keine
-        echte Anteilnahme: Die Zwei täuscht Empathie vor,
-        wenn sie sich davon Vorteil verspricht.
-        Pleils „Herzlichkeit" im Gerichtssaal war eine Inszenierung –
-        sie diente dem Publikum, nicht den Menschen, denen er gegenübersaß.</p>
-        <p class="vb-intro"><strong>c) Eitelkeit im Blick:</strong>
-        <strong>Pleil</strong> wusste, dass er beobachtet wurde –
-        und er spielte diese Rolle mit unverhüllter Freude.
-        Der Three-wing bringt eine tiefe Orientierung
-        an Außenwirkung und Image.
-        Pleil inszenierte sich als Hauptdarsteller seiner eigenen Geschichte:
-        der berühmteste, der beste, der produktivste Mörder Deutschlands.
-        Sein Blick sagte immer dasselbe: Schaut her, ich bin hier.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Demanding and Controlling:</strong>
+Witnesses described Pleil's gaze as penetrating,
+demanding, intimidating.
+He sought eye contact not to establish connection,
+but to test who was in charge.
+The Two looks with the quiet expectation
+of being seen and acknowledged –
+in Pleil, this expectation had turned into a gesture of dominance:
+whoever failed to return his gaze immediately lost significance in his perception.
+Whoever held his gaze became a challenge.</p>
+        <p class="vb-intro"><strong>b) Feigned Warmth, Cold at the Core:</strong>
+During interrogations and in court, Pleil could appear charming, almost
+jovial – a feature of the Three-wing, which commands the social
+surface. Yet behind this warmth lay no
+genuine empathy: the Two feigns empathy
+when anticipating an advantage from it.
+Pleil's "cordiality" in the courtroom was a staging –
+it served the audience, not the people sitting opposite him.</p>
+        <p class="vb-intro"><strong>c) Vanity in the Look:</strong>
+Pleil knew he was being observed –
+and he played this role with undisguised pleasure.
+The Three-wing brings a deep orientation
+toward external impact and image.
+Pleil staged himself as the main character of his own story:
+the most famous, the best, the most productive murderer in Germany.
+His gaze always communicated the same thing: Look here, I am present.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Brüsten als Grundbedürfnis:</strong>
-        <strong>Pleil</strong> war nicht jemand, der seine Taten versteckte –
-        er wollte, dass man ihn dafür bewunderte.
-        Nach seiner Verhaftung gestand er weit mehr,
-        als die Behörden ihm nachweisen konnten,
-        und korrigierte seine Opferzahlen immer nach oben.
-        Das ist kein Geständnisdrang aus schlechtem Gewissen –
-        es ist der Stolz der Zwei: Ich habe mehr geleistet als alle anderen.
-        Seht mich an. Tragt meinen Namen.</p>
-        <p class="vb-intro"><strong>b) Anspruchsdenken ohne Schranken:</strong>
-        Die SP2 entwickelt im Verfall das Gefühl,
-        dass ihr alles zusteht – weil sie so viel gibt,
-        so viel leistet, so unentbehrlich ist.
-        Bei <strong>Pleil</strong> war dieser Anspruch von jedem sozialen Korrektiv
-        befreit: In der Grenzzone gab es keinen Staat,
-        keine Gemeinschaft, keine Gegenkraft.
-        Er entschied, wer lebte und wer starb –
-        und erlebte das als sein natürliches Recht.</p>
-        <p class="vb-intro"><strong>c) Bindung durch Kontrolle:</strong>
-        <strong>Pleil</strong> agierte häufig mit Komplizen –
-        er war kein Einzelgänger im klassischen Sinne.
-        Die Zwei braucht Menschen, aber zu ihren Bedingungen.
-        Er zog andere in seinen Orbit, machte sie
-        abhängig, verwickelt, mitschuldig.
-        Diese Form der Bindung ist das Kernmuster der SP2:
-        Ich sorge dafür, dass du mich brauchst –
-        und dann entscheide ich, was mit dir geschieht.</p>
+        <p class="vb-intro"><strong>a) Boasting as a Fundamental Need:</strong>
+Pleil was not someone who concealed his deeds –
+he wanted people to admire him for them.
+Following his arrest, he confessed to far more
+than the authorities could prove,
+and continually revised his victim count upward.
+This was no impulse to confess stemming from a guilty conscience –
+it was the pride of the Two: I have accomplished more than anyone else.
+Look at me. Remember my name.</p>
+        <p class="vb-intro"><strong>b) Entitlement Without Limits:</strong>
+The SP2 in regression develops the feeling
+that everything is due to them – because they give so much,
+achieve so much, are so indispensable.
+In Pleil's case, this entitlement was freed from every social corrective:
+in the border region, there was no state,
+no community, no counter-force.
+He decided who lived and who died –
+and experienced this as his natural right.</p>
+        <p class="vb-intro"><strong>c) Attachment Through Control:</strong>
+Pleil frequently operated with accomplices –
+he was not a loner in the traditional sense.
+The Two needs people, but on their own terms.
+He drew others into his orbit, making them
+dependent, entangled, complicit.
+This form of attachment is the core pattern of the SP2:
+I make sure you need me –
+and then I decide what happens to you.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Stolz als Treibkraft:</strong>
-        Die Leidenschaft der Zwei ist Stolz –
-        nicht Hochmut im gewöhnlichen Sinne, sondern eine tiefe,
-        verzerrte Überzeugung: Ich bin besonders, mein Empfinden
-        zählt mehr als das der anderen, mein Wille hat Vorrang.
-        Bei <strong>Pleil</strong> war dieser Stolz vollständig von
-        moralischen und sozialen Grenzen entkoppelt.
-        Er sah sich nicht als Täter – er sah sich als Ausnahmeerscheinung.
-        „Der beste Totmacher" ist ein Ehrentitel, kein Schuldbekenntnis.</p>
-        <p class="vb-intro"><strong>b) Die Zwei als Geberin – und als Nehmerin:</strong>
-        Die Zwei ist im Kern ein Geber-Typ: Sie hilft, unterstützt,
-        umsorgt – aber nie ohne Erwartung.
-        Im Verfall dreht sich diese Dynamik um:
-        Die Zwei nimmt, was ihr zusteht.
-        Bei <strong>Pleil</strong> war diese Umkehrung total:
-        Die Schutzlosigkeit der Opfer –
-        Frauen auf der Flucht, ohne Obdach, ohne Schutz –
-        empfand er nicht als Verantwortung,
-        sondern als Gelegenheit.
-        Die Zwei sieht Bedürftigkeit immer –
-        aber bei Pleil wurde dieser Blick zur Jagdoptik.</p>
-        <p class="vb-intro"><strong>c) Three-wing: Leistung als Identität:</strong>
-        Der Three-wing bringt die Frage: Wer bin ich in den Augen anderer?
-        Für <strong>Pleil</strong> war die Antwort klar: der Produktivste,
-        der Rücksichtsloseste, der Beste.
-        Er konkurrierte mit anderen Tätern um Opferzahlen
-        wie ein Handwerker um seinen Ruf konkurriert.
-        Das ist die pathologische Schnittmenge von Zwei und Drei:
-        Ich definiere meinen Wert über das, was ich leiste –
-        und ich lasse keinen Zweifel daran, dass ich der Maßstab bin.</p>
+        <p class="vb-intro"><strong>a) Pride as the Driving Force:</strong>
+The passion of the Two is pride –
+not arrogance in the ordinary sense, but a deep,
+distorted conviction: I am special, my feelings
+matter more than those of others, my will takes precedence.
+In Pleil's case, this pride was entirely detached from
+moral and social boundaries.
+He did not view himself as a perpetrator – he viewed himself as an exceptional phenomenon.
+"The best killer" is a title of honor, not an admission of guilt.</p>
+        <p class="vb-intro"><strong>b) The Two as Giver – and as Taker:</strong>
+The Two is at its core a giver type: it helps, supports,
+cares – but never without expectation.
+In regression, this dynamic reverses:
+the Two takes what is rightfully theirs.
+In Pleil's case, this inversion was absolute:
+the defenselessness of the victims –
+women fleeing, without shelter, without protection –
+he perceived not as a responsibility,
+but as an opportunity.
+The Two always perceives neediness –
+yet in Pleil, this gaze became hunting optics.</p>
+        <p class="vb-intro"><strong>c) Three-Wing:</strong> Performance as Identity:
+The Three-wing introduces the question: Who am I in the eyes of others?
+For Pleil, the answer was clear: the most productive,
+the most ruthless, the best.
+He competed with other perpetrators for victim numbers
+much like a craftsman competes for his reputation.
+This is the pathological intersection of Two and Three:
+I define my value by what I perform –
+and I leave no doubt that I am the benchmark.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unverschämte Selbstsicherheit:</strong>
-        <strong>Pleil</strong> wirkte auf Zeitgenossen nicht wie ein Mensch,
-        der sich schämt oder fürchtet – sondern wie jemand,
-        der glaubt, dass man ihm endlich die Aufmerksamkeit gibt,
-        die ihm schon immer zugestanden hätte.
-        Im Gerichtssaal zeigte er keine Reue –
-        er genoss das Spektakel.
-        Die SP2 im Verfall verliert jede Fähigkeit,
-        die Wirkung des eigenen Handelns auf andere
-        wirklich wahrzunehmen.</p>
-        <p class="vb-intro"><strong>b) Anziehung und Abstoßung zugleich:</strong>
-        Trotz – oder wegen – seiner Unverschämtheit
-        übte <strong>Pleil</strong> auf viele eine eigenartige Faszination aus.
-        Die Zwei hat von Natur aus etwas Anziehendes:
-        Sie weiß, wie man Aufmerksamkeit erzeugt, wie man
-        Menschen für sich einnimmt.
-        Bei Pleil war das zur Groteske geworden:
-        Er zog Blicke auf sich, weil er sich aufführte,
-        als sei er eine Hauptattraktion –
-        und auf eine verstörende Weise war er das.</p>
-        <p class="vb-intro"><strong>c) Achter-Stresspunkt: die Zwei wird zur Acht:</strong>
-        Im Enneagramm bewegt sich die Zwei unter extremem Stress
-        in Richtung Typ Acht – dem Typ der rohen Macht,
-        der körperlichen Dominanz, der Überwaltigungs-Energie.
-        Was bei der gesunden Zwei als Fürsorge und Geben erscheint,
-        kippt im Stress in offene Aggression, Rücksichtslosigkeit
-        und das nackte Durchsetzen des eigenen Willens.
-        Bei <strong>Pleil</strong> war dieser Mechanismus dauerhaft aktiviert:
-        Die Brutalität seiner Taten – das exzessive Schlagen,
-        Würgen, körperliche Überwältigen –
-        ist die Signatur der Zwei in der Acht.
-        Er tötete nicht kühl oder distanziert.
-        Er tötete mit Körper und Wucht,
-        mit einer physischen Unmittelbarkeit,
-        die den Achter-Modus unverkennbar macht:
-        Ich bin die stärkste Kraft im Raum,
-        und du kannst nichts dagegen tun.</p>
-        <p class="vb-intro"><strong>d) Der Nachkriegskontext als Verstärker:</strong>
-        <strong>Pleil</strong> operierte in einem gesellschaftlichen Vakuum.
-        Die Grenzzone der Nachkriegszeit war ein Raum ohne Gesetz,
-        ohne Schutz, ohne Zeugen.
-        Die SP2 braucht eine Bühne – und die Chaos-Jahre nach 1945
-        boten ihm eine, auf der keine Regeln galten.
-        Sein Typus hätte in geordneten Verhältnissen
-        vielleicht andere Wege gefunden, Macht auszuüben –
-        Kontrolle durch Fürsorge, durch Abhängigkeit erzeugen.
-        Stattdessen fand er eine Welt, in der er buchstäblich
-        über Leben und Tod entscheiden konnte.</p>
+        <p class="vb-intro"><strong>a) Brazen Self-Assurance:</strong>
+Pleil did not strike contemporaries as a person
+who felt shame or fear – but as someone
+who believed he was finally receiving the attention
+he had always been entitled to.
+In the courtroom, he showed no remorse –
+he enjoyed the spectacle.
+The SP2 in regression loses all ability
+to genuinely perceive the impact of their own actions on others.</p>
+        <p class="vb-intro"><strong>b) Attraction and Repulsion Combined:</strong>
+Despite – or because of – his brazenness,
+Pleil exerted a peculiar fascination on many.
+The Two possesses something naturally attractive:
+it knows how to generate attention, how to
+win people over.
+In Pleil, this had become grotesque:
+he drew gazes because he conducted himself
+as if he were the main attraction –
+and in a disturbing way, he was.</p>
+        <p class="vb-intro"><strong>c) Eight Stress Point:</strong> The Two Becomes the Eight:
+In the Enneagram, under extreme stress, the Two moves
+toward Type Eight – the type of raw power,
+physical dominance, overwhelming energy.
+What appears as care and giving in the healthy Two
+flips into overt aggression, ruthlessness,
+and the bare enforcement of one's own will under stress.
+In Pleil's case, this mechanism was permanently activated:
+the brutality of his crimes – the excessive beating,
+strangling, physical overpowering –
+is the signature of the Two in the Eight.
+He did not kill in a cool or detached manner.
+He killed with body and force,
+with a physical immediacy
+that makes the Eight mode unmistakable:
+I am the strongest force in the room,
+and there is nothing you can do about it.</p>
+        <p class="vb-intro"><strong>d) The Post-War Context as an Amplifier:</strong>
+Pleil operated in a societal vacuum.
+The post-war border zone was a space without law,
+without protection, without witnesses.
+The SP2 requires a stage – and the chaos years after 1945
+provided him with one where no rules applied.
+In orderly circumstances, his type might have found other ways
+to exercise power – creating control through care, through dependence.
+Instead, he found a world where he could literally
+decide over life and death.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Saugend und vereinnahmend:</strong>
-        Die energetische Signatur der Zwei ist fordernd –
-        sie zieht Aufmerksamkeit an, beansprucht Raum,
-        erwartet Resonanz.
-        <strong>Pleil</strong> verkörperte diese Eigenschaft ohne jede Dämpfung:
-        Wer in seiner Nähe war, wurde in seine Geschichte hineingezogen.
-        Die Zwei gibt viel – aber sie zieht auch viel ab.
-        Bei Pleil war das Geben längst weggefallen;
-        was blieb, war der reine Sog.</p>
-        <p class="vb-intro"><strong>b) Selbsterhaltung als Grundangst:</strong>
-        Hinter allem Stolz und aller Inszenierung liegt
-        bei der SP2 eine tiefe Angst: nicht zu überleben,
-        nicht zu genügen, nicht gebraucht zu werden.
-        <strong>Pleils</strong> Kindheit war von Armut, Instabilität
-        und Gewalt geprägt – ein Umfeld, in dem die SP2-Grundangst
-        früh und brutal aktiviert wird.
-        Was entstand, war ein Mensch, der um jeden Preis
-        sicherstellen wollte, dass er Bedeutung hat –
-        notfalls durch Vernichtung.</p>
-        <p class="vb-intro"><strong>c) Three-wing: Energie für die Galerie:</strong>
-        Der Three-wing macht die Energie nach außen gerichtet,
-        auf Publikum angewiesen.
-        <strong>Pleil</strong> brauchte Zeugen –
-        sei es Komplizen, sei es das Gericht, sei es die Presse.
-        Ohne Publikum verlor seine Identität ihren Halt.
-        Das ist die tiefste Not der SP2w3:
-        Ich existiere nur, solange jemand zuschaut.</p>
+        <p class="vb-intro"><strong>a) Absorbing and Encroaching:</strong>
+The energetic signature of the Two is demanding –
+it pulls attention in, claims space,
+expects resonance.
+Pleil embodied this trait without any attenuation:
+anyone near him was pulled into his narrative.
+The Two gives much – but it also extracts much.
+In Pleil, the giving had long since fallen away;
+what remained was pure suction.</p>
+        <p class="vb-intro"><strong>b) Self-Preservation as Primary Fear:</strong>
+Behind all pride and staging lies
+a deep fear in the SP2: not surviving,
+not being enough, not being needed.
+Pleil's childhood was marked by poverty, instability,
+and violence – an environment in which the SP2 core fear
+is activated early and brutally.
+What emerged was a person who wanted to ensure at all costs
+that he had significance –
+if necessary, through destruction.</p>
+        <p class="vb-intro"><strong>c) Three-Wing:</strong> Energy for the Gallery:
+The Three-wing directs the energy outward,
+dependent on an audience.
+Pleil needed witnesses –
+be it accomplices, the court, or the press.
+Without an audience, his identity lost its footing.
+This is the deepest plight of the SP2w3:
+I exist only as long as someone is watching.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Massiv, territorial und unterschätzt:</strong>
-        Das Flusspferd ist das Tier der SP2 im Tierlexikon:
-        Es wirkt schwerfällig und harmlos – und ist doch
-        eines der gefährlichsten Tiere Afrikas.
-        Es beansprucht sein Territorium absolut,
-        duldet keine Konkurrenz und greift ohne Vorwarnung an.
-        <strong>Pleil</strong> entsprach diesem Bild:
-        Nach außen hin der joviale, brüstende Mann –
-        innen ein Wesen, das seinen Anspruch auf Raum
-        mit aller Konsequenz durchsetzte.</p>
-        <p class="vb-intro"><strong>b) Täuschende Oberfläche:</strong>
-        Das Flusspferd verbringt viel Zeit im Wasser –
-        ruhig, kaum sichtbar, scheinbar passiv.
-        Doch es schläft nie wirklich.
-        <strong>Pleil</strong> verstand es, sich in Situationen einzufügen,
-        harmlos zu wirken, Vertrauen zu erzeugen –
-        um dann zuzuschlagen.
-        Diese Fähigkeit, die echte Bedrohung unter einer
-        sozialen Oberfläche zu verbergen,
-        ist ein Kernmerkmal des SP2w3.</p>
-        <p class="vb-intro"><strong>c) Selbsterhaltung als oberstes Gesetz:</strong>
-        Das Flusspferd kennt keine Feinde –
-        es kennt nur Bedrohungen für seinen Bestand.
-        Alles, was ihm in die Quere kommt, wird eliminiert.
-        Für <strong>Pleil</strong> war die eigene Bedeutung,
-        der eigene Anspruch, die eigene Überlegenheit
-        das oberste Schutzgut –
-        und jede Bedrohung dieses Selbstbildes
-        wurde zur existenziellen Gefahr,
-        auf die er mit äußerster Konsequenz reagierte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) Massive, Territorial, and Underestimated:</strong>
+The hippopotamus is the animal of the SP2 in the animal dictionary:
+it appears clumsy and harmless – yet it is
+one of the most dangerous animals in Africa.
+It claims its territory absolutely,
+tolerates no competition, and attacks without warning.
+Pleil fit this image:
+outwardly the jovial, boastful man –
+inwardly a creature enforcing its claim to space
+with utmost consequence.</p>
+        <p class="vb-intro"><strong>b) Deceptive Surface:</strong>
+The hippopotamus spends much time in the water –
+calm, barely visible, seemingly passive.
+Yet it never truly sleeps.
+Pleil knew how to fit into situations,
+appear harmless, build trust –
+only to strike afterward.
+This ability to conceal true threat beneath a
+social surface
+is a core trait of the SP2w3.</p>
+        <p class="vb-intro"><strong>c) Self-Preservation as Supreme Law:</strong>
+The hippopotamus knows no enemies –
+it knows only threats to its existence.
+Anything that gets in its way is eliminated.
+For Pleil, his own significance,
+his own claim, his own superiority
+was the supreme good to be protected –
+and any threat to this self-image
+became an existential danger
+to which he responded with extreme consequence.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Rudolf Pleil</strong> ist einer der psychologisch aufschlussreichsten
-        und gleichzeitig unheimlichsten Fälle in der deutschen Kriminalgeschichte –
-        nicht wegen der Brutalität seiner Taten,
-        sondern wegen der unverhüllten Selbstdarstellung dahinter.
-        Kein anderer Täter hat sein eigenes Profil so offen formuliert wie er:
-        „der beste Totmacher" ist kein Deckname – es ist ein Selbstbild.
-        Der SP2w3-Mechanismus im Verfall erzeugt genau das:
-        Stolz ohne Mitgefühl, Leistungsdenken ohne moralisches Fundament,
-        das Bedürfnis nach Anerkennung ohne die Fähigkeit,
-        den anderen als Person wahrzunehmen.
-        Was die gesunde Zwei zu außerordentlicher Wärme, Fürsorge
-        und menschlicher Stärke befähigt,
-        wurde bei Pleil zur totalen Verfügungsgewalt über andere.
-        Er ist kein Beispiel für den Typ –
-        er ist sein abgründigster Spiegel.
+        Rudolf Pleil is one of the most psychologically revealing
+and at the same time unsettling cases in German criminal history –
+not because of the brutality of his crimes,
+but because of the undisguised self-staging behind them.
+No other perpetrator formulated his own profile as openly as he did:
+"the best killer" is not an alias – it is a self-image.
+The SP2w3 mechanism in regression produces precisely this:
+pride without compassion, performative thinking without a moral foundation,
+the need for recognition without the capacity
+to perceive the other as a person.
+What enables the healthy Two to exhibit extraordinary warmth, care,
+and human strength
+turned in Pleil into total power of disposal over others.
+He is not an example of the type –
+he is its most abysmal mirror.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP2 – „Ich zuerst":</strong>
-        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
-        als den Subtype mit dem stärksten Überlebenswillen –
-        „Ich zuerst" als Lebensmotto.
-        Alle Gesten der Fürsorge dienen letztlich dem eigenen Bestand.
-        Bei <strong>Pleil</strong> war dieser Mechanismus ohne jede
-        soziale Verkleidung: Was er wollte, nahm er sich.
-        Was im Weg stand, räumte er aus dem Weg.
-        Die Maske der Fürsorge hatte er nie wirklich getragen.</p>
-        <p class="vb-intro"><strong>b) Die Nachkriegsbiografie als Verstärker:</strong>
-        <strong>Pleil</strong> wuchs in extremer Armut auf,
-        erlebte früh Gewalt und soziale Entwurzelung.
-        Für die SP2 ist das Umfeld entscheidend:
-        Wer früh lernt, dass Fürsorge nicht kommt,
-        es sei denn man fordert sie ein,
-        entwickelt ein Überlebenssystem, das auf Einfordern,
-        Manipulieren und Kontrolle basiert.
-        Die Nachkriegswirren verstärkten das:
-        In einer Welt ohne Regeln blieb nur der
-        eigene Wille als Ordnungsprinzip.</p>
-        <p class="vb-intro"><strong>c) Komplizen als Zwei-Dynamik:</strong>
-        <strong>Pleil</strong> begann seine Mordserie nicht allein –
-        er zog Männer in seinen Bann, die mitgemacht haben.
-        Das ist eine klassische SP2-Dynamik:
-        Die Zwei schafft Abhängigkeit, macht andere mitschuldig,
-        hält sie durch gemeinsame Schuld in Reichweite.
-        Das Muster „Ich sorge dafür, dass du mich brauchst"
-        gilt auch hier: Wer mit Pleil tötete,
-        war an ihn gebunden – durch die Tat.</p>
-        <p class="vb-intro"><strong>d) Der Selbstmord als letzter Auftritt:</strong>
-        <strong>Pleils</strong> Tod in der Zelle war kein stiller Abgang.
-        Er hinterließ Briefe, Erklärungen, inszenierte seinen Abgang.
-        Selbst das Sterben wurde zur Bühne.
-        Der Three-wing lässt das Ich nicht verschwinden –
-        er sorgt dafür, dass der letzte Eindruck sitzt.
-        Pleil wollte nicht vergessen werden.
-        Und er wurde es nicht.</p>
-        <p class="vb-intro"><strong>e) Der Wachstumsweg der Zwei – die Vier:</strong>
-        Der Wachstumspunkt der Zwei ist die Vier –
-        die Fähigkeit, in die eigene innere Tiefe zu gehen,
-        Schmerz und Verlust wirklich zu fühlen, statt ihn
-        durch Wichtigsein und Leistung zu überdecken.
-        Für <strong>Pleil</strong> blieb dieser Weg vollständig versperrt.
-        Er hat offenbar nie begonnen, sich selbst als
-        empfindenden, verletzlichen Menschen wahrzunehmen –
-        nur als Protagonisten einer Geschichte,
-        in der er immer gewinnen musste.</p>
-        <p class="vb-intro"><strong>f) Stresspunkt Acht – Gewalt als Selbstausdruck:</strong>
-        Der Stresspunkt der Zwei ist die Acht –
-        und bei <strong>Pleil</strong> ist er das entscheidende Schlüssel zum
-        Verständnis der konkreten Tathandlungen.
-        Die Zwei neigt in gesunden Ausprägungen dazu,
-        Kontrolle durch Fürsorge auszuüben –
-        durch Geben, Binden, Abhängig-Machen.
-        Wenn diese Strategie versagt oder nie gelernt wurde,
-        greift der Stresspunkt: rohe Achter-Energie,
-        die Kontrolle durch körperliche Überlegenheit herstellt.
-        Pleils Morde hatten eine ausgeprägt physische Qualität:
-        Erwürgen, Schlagen, brutale körperliche Gewalt –
-        keine distanzierte, geplante Tötung,
-        sondern ein Überrollen durch Körperkraft und Wucht.
-        Das ist die Zwei in der Acht:
-        Wenn ich nicht durch Liebe binden kann,
-        erzwinge ich die Unterwerfung durch Stärke.
-        In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss –
-        sie war der einzige Contactmodus,
-        den er mit anderen Menschen kannte.</p>
-        <p class="vb-intro"><strong>g) Bedeutung für das Verständnis der SP2:</strong>
-        <strong>Pleils</strong> Fall macht sichtbar, wohin die SP2-Logik
-        führen kann, wenn alle menschlichen Korrektive fehlen:
-        Empathie, echte Bindung, das Erleben von Grenzen.
-        Die gesunde SP2 ist ein Mensch von großer Wärme,
-        Aufmerksamkeit und echter Sorge um andere.
-        Was Pleil fehlte, war nicht der Typ –
-        sondern alles, was einen Typ zu einem Menschen macht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP2 – "Me First":</strong>
+Claudio Naranjo characterized the Self-Preservation Two
+as the subtype with the strongest drive for survival –
+"Me first" as a motto for life.
+All gestures of care ultimately serve one's own preservation.
+In Pleil's case, this mechanism operated without any
+social disguise: whatever he wanted, he took.
+Whatever stood in his way, he removed.
+He had never truly worn the mask of care.</p>
+        <p class="vb-intro"><strong>b) The Post-War Biography as an Amplifier:</strong>
+Pleil grew up in extreme poverty,
+experienced violence and social uprooting early on.
+For the SP2, the environment is decisive:
+whoever learns early that care does not come
+unless demanded
+develops a survival system based on demanding,
+manipulating, and controlling.
+The post-war turmoil amplified this:
+in a world without rules, only one's
+own will remained as an organizing principle.</p>
+        <p class="vb-intro"><strong>c) Accomplices as Two Dynamic:</strong>
+Pleil did not begin his murder spree alone –
+he drew men into his spell who participated.
+This is a classic SP2 dynamic:
+the Two creates dependence, makes others complicit,
+keeps them within reach through shared guilt.
+The pattern "I make sure you need me"
+applies here as well: whoever killed with Pleil
+was bound to him – through the deed.</p>
+        <p class="vb-intro"><strong>d) Suicide as the Final Appearance:</strong>
+Pleil's death in his cell was no quiet departure.
+He left behind letters, statements, staged his exit.
+Even dying became a stage.
+The Three-wing does not allow the self to fade quietly –
+it ensures the final impression hits home.
+Pleil did not want to be forgotten.
+And he was not.</p>
+        <p class="vb-intro"><strong>e) The Growth Path of the Two – the Four:</strong>
+The growth point of the Two is the Four –
+the ability to go into one's own inner depth,
+to truly feel pain and loss instead of covering it up
+through being important and achieving.
+For Pleil, this path remained completely blocked.
+He evidently never began to perceive himself as a
+feeling, vulnerable human being –
+only as the protagonist of a story
+in which he always had to win.</p>
+        <p class="vb-intro"><strong>f) Stress Point Eight – Violence as Self-Expression:</strong>
+The stress point of the Two is the Eight –
+and in Pleil's case, it is the decisive key to
+understanding the concrete acts of his crimes.
+In healthy expressions, the Two tends to exercise
+control through care –
+through giving, binding, creating dependence.
+When this strategy fails or was never learned,
+the stress point takes over: raw Eight energy
+that establishes control through physical superiority.
+Pleil's murders had a distinctly physical quality:
+strangling, beating, brutal physical violence –
+not a detached, planned killing,
+but an overpowering through physical strength and force.
+This is the Two in the Eight:
+if I cannot bind through love,
+I force submission through strength.
+In Pleil's case, the Eight energy was not merely a release of stress –
+it was the only mode of contact
+he knew with other human beings.</p>
+        <p class="vb-intro"><strong>g) Significance for Understanding the SP2:</strong>
+Pleil's case makes visible where the SP2 logic
+can lead when all human correctives are missing:
+empathy, genuine attachment, the experience of boundaries.
+The healthy SP2 is a person of great warmth,
+attentiveness, and genuine care for others.
+What Pleil lacked was not the type –
+but everything that turns a type into a human being.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -29621,14 +29619,14 @@ function rudolfPleilPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Rudolf Pleil bekannte sich zu mindestens neun Morden und wurde 1952 zu mehrfacher lebenslanger Haft verurteilt. Er starb 1958 durch Suizid in der Zelle. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves the purpose of depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Rudolf Pleil admitted to at least nine murders and was sentenced to multiple life terms in 1952. He died by suicide in his cell in 1958. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Quality of Gaze in the 9 Types"},
       ])}
     </div>
   `);
