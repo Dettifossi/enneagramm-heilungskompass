@@ -10988,9 +10988,9 @@ function detlefRathmerJazzPage() {
   ];
 
   const enneagrammSongs = [
-    { id: "UIs80tsNcmE", label: "Enneagramm-Hymne – Loblied auf die 9 Typen (Deutsch)" },
+    { id: "UIs80tsNcmE", label: "Enneagram Anthem – Song of Praise for the 9 Types (German)" },
     { id: "2li9BrwEdGo", label: "Enneagram Anthem – Hymn of Praise (English)" },
-    { id: "zQV3lWHeOWk", label: "Flammen des Lebens – Die Leidenschaften der 9 Typen (Deutsch)", desc: '' },
+    { id: "zQV3lWHeOWk", label: "Flames of Life – The Passions of the 9 Types (German)", desc: '' },
     { id: "gfGQVCffmL0", label: "Flames of Life – The Passions of the 9 Types (English)", langs: [
       { id: "bTNPBa2CCPQ", label: "Flammes de Vie (Français)" },
       { id: "ccmZzNuGsQw", label: "Llamas de la Vida (Español)" },
@@ -10999,10 +10999,10 @@ function detlefRathmerJazzPage() {
       { id: "PCbcJQYfJPQ", label: "生命之火 (Mandarin-Chinesisch)" },
       { id: "zhfEHpi7guY", label: "Огни жизни (Russisch)" },
       { id: "TONsxxciVeM", label: "Вогонь життя (Ukrainisch)" },
-      { id: "ceWj_6bq5sY", label: "Hayatın Alevleri (Türkisch)" },
+      { id: "ceWj_6bq5sY", label: "Hayatın Alevleri (Turkish)" },
       { id: "RWnOplcD-NM", label: "जीवन की ज्वाला (Hindi)" },
     ]},
-    { id: "0wuNFvrDWgs", label: "27 Pfade – Song über die 27 Persönlichkeiten (Deutsch)" },
+    { id: "0wuNFvrDWgs", label: "27 Paths – Song about the 27 Personalities (German)" },
     { id: "gKt5ewn7MY4", label: "27 Paths – Song About the 27 Personalities (English)" },
     { id: "UiiJxzKg_8k", label: "Neun Wege – Jazz-Version" },
     { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song (Deutsch)" },
@@ -11035,15 +11035,15 @@ const SPIRITUELL_TRACKS = {
 
   const spirituelleSongs = [
     { id: "5IDHooCHCqc", num: "35", label: "Album 35 – Masters of the Art of Living (18 Spiritual Songs)" },
-    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Homöopathie" },
+    { id: "VVsH7ql4zjU", label: "8 German Spiritual Songs & 3 Bonus Songs on Homeopathy" },
     { id: "KGl8HgGkOr0", label: "True Love – A Song About True Love Beyond All Forms" },
     { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
     { id: "Jx5Do6FMZT0", label: "I Am the Light – What We Really, Truly Are" },
-    { id: "D8SJdoRG_qA", label: "Ich bin das Licht (Deutsch)" },
+    { id: "D8SJdoRG_qA", label: "I Am the Light (German)" },
     { id: "77_c82jSzKE", label: "Happiness – The Nature of Happiness Beyond All Ideas" },
-    { id: "lVFsolN5SEg", label: "Glück – Das Wesen des Glücks (Deutsch)" },
+    { id: "lVFsolN5SEg", label: "Happiness – The Essence of Happiness (German)" },
     { id: "JWpnfwWLeAw", label: "The Meaning – The Profound Question of Life’s Purpose" },
-    { id: "FqQVnBwlPQE", label: "Der Sinn – Song über den Sinn des Lebens (Deutsch)" },
+    { id: "FqQVnBwlPQE", label: "The Meaning – Song about the Meaning of Life (German)" },
     { id: "BjmK-rYIssY", label: "Peace Without a Reason" },
     { id: "IbqquR7wrOM", label: "Two Sides of a Coin – The Polarities of Life" },
     { id: "yeFTF6ORXM0", label: "Circle of Truth" },
@@ -11052,13 +11052,13 @@ const SPIRITUELL_TRACKS = {
   const liebeslieder = [
     { id: "vqtriJwS9So", label: "1. Wenn du bei mir bist" },
     { id: "rCbdd7DbWfw", label: "2. Hinter deinen Schatten" },
-    { id: "fmabw2nvHvI", label: "3. Was bleibt von uns" },
-    { id: "tAzZV6z8nL8", label: "4. So fühlt sich Ewigkeit an" },
+    { id: "fmabw2nvHvI", label: "3. What Remains of Us" },
+    { id: "tAzZV6z8nL8", label: "4. What Eternity Feels Like" },
     { id: "6CSq2mRUJiE", label: "5. Zwischen den Zeilen" },
     { id: "-elL4ahOCOI", label: "6. Dein Licht in mir" },
-    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
-    { id: "i4GxkTdlPCk", label: "8. Für immer und ein Tag" },
-    { id: "c2CcthcXRxc", label: "9. Flügel aus Licht" },
+    { id: "L2ZsAW7Dngo", label: "7. Like Fire Beneath the Skin" },
+    { id: "i4GxkTdlPCk", label: "8. Forever and a Day" },
+    { id: "c2CcthcXRxc", label: "9. Wings of Light" },
     { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "Ein Liebeslied für die neun Typen des Enneagramms – jeder Typ wird mit seiner ganz eigenen Lebensart, seiner Sehnsucht und seinem Weg zur Liebe besungen." },
   ];
 
@@ -11101,7 +11101,7 @@ const SPIRITUELL_TRACKS = {
 
       <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Entspannungs- und Heilungsmusik für alle 9 Enneagrammtypen sowie thematische Alben.
+        Relaxation and Healing Music für alle 9 Enneagrammtypen sowie thematische Alben.
       </p>
       ${grid(enneagrammAlben, ENNEA_TRACKS)}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
@@ -11114,7 +11114,7 @@ const SPIRITUELL_TRACKS = {
         <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Homöopathie & Songs</a>.
       </p>
       ${grid(enneagrammSongs)}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
@@ -11125,32 +11125,32 @@ const SPIRITUELL_TRACKS = {
         Lieder über das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
       </p>
       ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte für den Alltag – idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
-      ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite – das stille Buch jenseits aller Persönlichkeitsmuster.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
-      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott – Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse – ich bin Gott!")}
-      ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
-      ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden – der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft – die neun Wunden")}
-      ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung – ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
-      ${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual art-of-living steps for daily life – ideal companion to the music.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Consciousness, silence, and inner vastness – the quiet book beyond all personality patterns.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "The space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Be still and know that I am God – silence as a path to direct self-knowledge.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+      ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+      ${bookTip("leidenschaft-und-heilung", "The passions of the nine types and their healing – a core work of the Rathmer Enneagram.", "Leidenschaft und Heilung")}
+      ${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Nach oben</button></p>
 
-      <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
+      <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Love Songs by Detlef</h2>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
         9 Liebeslieder – auch auf Spotify erhältlich.
       </p>
       ${grid(liebeslieder)}
-      ${bookTip("die-sprache-unserer-sexualitaet", "Die Sprache unserer Sexualität – was Liebeslieder und Eros über unsere tiefsten Sehnsüchte verrät.", "Die Sprache unserer Sexualität")}
+      ${bookTip("die-sprache-unserer-sexualitaet", "The language of our sexuality – what love songs and eros reveal about our deepest longings.", "Die Sprache unserer Sexualität")}
 
       ${relatedLinks([
         { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
         { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
         { route: "stille", label: "9 Minuten Stille" },
         { route: "musik", label: "Entspannungs- und Heilungsmusik" },
-        { route: "homoeopathie-songs", label: "Homöopathie- und Enneagramm-Homöopathie-Songs" },
-        { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
+        { route: "homoeopathie-songs", label: "Homeopathy and Enneagram-Homeopathy Songs" },
+        { route: "beruhmte-komponisten", label: "Famous Composers" },
       ])}
     </div>
   `);
@@ -34519,8 +34519,8 @@ function hauptfokusBewusstseinsDer9TypenPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
@@ -34573,9 +34573,9 @@ function abwehrverhalteDer9TypenPage() {
         <p style="font-size:0.85rem;color:var(--muted);margin:0.5rem 0 0;">Viktor Frankl (1905–1997)</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Charts und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypees, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
       </div>
       ${relatedLinks([
         {route:"hauptfokus-des-bewusstseins-der-9-typen", label:"Hauptfokus des Bewusstseins"},
@@ -35879,7 +35879,7 @@ function wolfsartenDer9TypenPage() {
       ${relatedLinks([
         {route:"wolkenformationen-der-9-typen", label:"Wolkenformationen der 9 Typen"},
         {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
-        {route:"baerenarten-der-9-typen", label:"Bärenarten der 9 Typen"},
+        {route:"baerenarten-der-9-typen", label:"Bear Species of the 9 Types"},
       ])}
     </div>
   `);
@@ -35981,7 +35981,7 @@ function papageienartenDer9TypenPage() {
       ${relatedLinks([
         {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
+        {route:"blumenarten-der-9-typen", label:"Flower Types of the 9 Types"},
       ])}
     </div>
   `);
@@ -36042,37 +36042,37 @@ function hunderassenDer9TypenPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Hunderassen der 9 Typen", "Charts · Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Hunderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die symbolischen Eigenschaften und Charakteristika dieser unterschiedlichen Hunde mit den verschiedenen Persönlichkeitstypen des Enneagramms zu verbinden. Jede Rasse trägt ein unverwechselbares Wesen in sich — vom präzisen Border Collie bis zum sanftmütigen Berner Sennenhund.</p>
+      <p class="psycho-intro">The assignment of nine dog breeds to the nine Enneagram principles is a creative method to connect the symbolic qualities and characteristics of these different dogs with the various personality types of the Enneagram. Each breed carries an unmistakable nature within itself — from the precise Border Collie to the gentle Bernese Mountain Dog.</p>
       <img src="${CDN}assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Border Collie: Intelligenz und hohe Standards</h3>
-        <p class="vb-intro">Der Border Collie ist bekannt dafür, dass er hart arbeitet, gut trainierbar ist und hohe Standards in seiner Arbeit setzt — ähnlich dem Typ 1, der nach Perfektion und Ordnung strebt. Er gilt als intelligentester Hund der Welt: In Studien lernte ein Border Collie über tausend Wörter und unterschied Objekte nach ihrer Form. Sein Blick — der berühmte „Eye" — ist ein hypnotisches Fixieren des Schafes, das es in Bewegungslosigkeit einfrieren lässt. Kein anderer Hund hat diese Technik entwickelt. Für den Border Collie gibt es nur eine Art, eine Aufgabe zu erledigen: die richtige. Die Leidenschaft des Zorns zeigt sich als innere Unruhe, wenn Dinge nicht so laufen, wie sie laufen sollten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – Border Collie: Intelligence and High Standards</h3>
+        <p class="vb-intro">The Border Collie is known for working hard, being highly trainable, and setting high standards in its work — similar to Type 1, which strives for perfection and order. It is considered the most intelligent dog in the world: In studies, a Border Collie learned over a thousand words and distinguished objects by their shape. Its gaze — the famous "Eye" — is a hypnotic fixating stare at the sheep that freezes it in immobility. No other dog has developed this technique. For the Border Collie, there is only one way to complete a task: the right way. The passion of anger manifests as inner restlessness when things do not run as they should.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Golden Retriever: Fürsorge aus tiefstem Herzen</h3>
-        <p class="vb-intro">Der Golden Retriever ist ein außerordentlich freundlicher, liebevoller und stets bereiter Begleiter, der seinem Besitzer zu gefallen und ihn zu unterstützen weiß — genau das, was zur fürsorgerischen Natur des Typs 2 passt. Golden Retriever wurden als Therapiehunde, Blindenhunde und Rettungshunde eingesetzt — nicht wegen ihrer Kraft, sondern wegen ihrer unbedingten Zugewandtheit. Sie spüren Schmerz und Trauer bei Menschen und reagieren mit Körperkontakt und Nähe. Ihr Stolz liegt nicht im Erfolg, sondern im Geliebtwerden fürs Dasein. Die Leidenschaft des Stolzes zeigt sich als tiefer Wunsch, unentbehrlich zu sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Golden Retriever: Caring from the Depth of the Heart</h3>
+        <p class="vb-intro">The Golden Retriever is an exceptionally friendly, affectionate, and ever-ready companion who knows how to please and support its owner — exactly what fits the caring nature of Type 2. Golden Retrievers have been used as therapy dogs, guide dogs, and rescue dogs — not because of their physical strength, but because of their unconditional devotion. They sense pain and grief in humans and respond with bodily contact and closeness. Their pride lies not in success, but in being loved for simply being there. The passion of pride manifests as a deep desire to be indispensable.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Dobermann: Leistung, Wachsamkeit, Erfolg</h3>
-        <p class="vb-intro">Dobermänner sind athletische, intelligente und arbeitsfreudige Hunde, die oft in anspruchsvollen Rollen wie Wach- oder Diensthunden erfolgreich sind. Leistungsfähigkeit und Ehrgeiz spiegeln den Erfolg und das Streben von Typ 3 wider. Der Dobermann wurde von einem Steuereintreiber gezüchtet, der einen Hund wollte, der Respekt einflößt und gleichzeitig intelligent genug ist, Situationen zu lesen. Das Ergebnis: ein Hund, der perfekt für die Rolle dressiert werden kann, die man von ihm erwartet. Sein Erscheinungsbild ist kalibriert — kein überflüssiges Fell, kein überflüssiger Charakter. Die Leidenschaft der Eitelkeit zeigt sich als totale Identifikation mit der Rolle.</p>
+        <p class="vb-intro">Dobermans are athletic, intelligent, and eager-to-work dogs that often excel in demanding roles such as guard or working dogs. Performance and ambition reflect the success and striving of Type 3. The Doberman was bred by a tax collector who wanted a dog that inspired respect while being intelligent enough to read situations. The result: a dog that can be trained perfectly for the role expected of it. Its appearance is calibrated — no superfluous fur, no superfluous character. The passion of vanity shows as total identification with the role.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Basset Hound: Tiefe, Einzigartigkeit, Ausdruck</h3>
-        <p class="vb-intro">Basset Hounds blicken oft melancholisch und machen manchmal einen nachdenklichen oder traurigen Eindruck — was insgesamt gut zu den Eigenschaften von Typ 4 passt. Sie besitzen einen unverwechselbaren Körperbau: kurze Beine, länglicher Körper, hängende Ohren, die den Geruchssinn verstärken, indem sie Duftmoleküle vom Boden aufwirbeln. Kein anderer Hund sieht so aus wie ein Basset — und kein anderer Hund trägt sein Wesen so offen im Gesicht. Sein Blick ist eine ganze Psychologie. Die Leidenschaft des Neids zeigt sich als Sehnsucht nach Verbindung bei gleichzeitigem Gefühl des Andersseins.</p>
+        <p class="vb-intro">Basset Hounds often look melancholy and sometimes make a thoughtful or sad impression — which fits well overall with the characteristics of Type 4. They possess an unmistakable anatomy: short legs, an elongated body, and long drooping ears that enhance their sense of smell by stirring up scent molecules from the ground. No other dog looks like a Basset — and no other dog wears its nature so openly on its face. Its gaze is an entire psychology. The passion of envy manifests as a longing for connection paired with a simultaneous feeling of being different.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Shiba Inu: Unabhängigkeit und innere Welt</h3>
-        <p class="vb-intro">Der Shiba Inu ist bekannt für seine Unabhängigkeit und Beobachtungsgabe. Seine ruhige und analytische Natur passt gut zu Typ 5, der oft zurückgezogen und wissbegierig ist. Der Shiba Inu ist ein jahrtausendealter japanischer Jagdhund — einer der wenigen Hunde, die sich durch Domestizierung kaum verändert haben. Er ist katzenhaft: putzt sich selbst, entscheidet selbst, wählt seine Nähe sorgfältig. Er zeigt keine Zuneigung auf Befehl. Sein Vertrauen muss verdient werden, und wenn es einmal da ist, ist es tief und still. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie, Zeit und Zuneigung — nichts davon wird verschwendet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Shiba Inu: Independence and Inner World</h3>
+        <p class="vb-intro">The Shiba Inu is known for its independence and powers of observation. Its quiet and analytical nature fits well with Type 5, which is often withdrawn and inquisitive. The Shiba Inu is a thousands-of-years-old Japanese hunting dog — one of the few dogs that has hardly changed through domestication. It is cat-like: cleans itself, decides for itself, and chooses its proximity carefully. It does not show affection on command. Its trust must be earned, and once established, it is deep and quiet. The passion of avarice manifests as thriftiness with energy, time, and affection — none of which is wasted.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Shetland Sheepdog: Loyalität und Wachsamkeit</h3>
-        <p class="vb-intro">Die Shetland Sheepdogs sind äußerst loyal und wachsam, immer bereit, ihre Familie zu schützen. Dies spiegelt die Zuverlässigkeit und Treue des Typs 6 wider. Shelties wurden auf den sturmgepeitschten Shetlandinseln gezüchtet — eine raue Umgebung, die Hunde hervorgebracht hat, die lieber zweimal schauen als einmal handeln. Sie bellen bei Unbekanntem, prüfen Situationen, beobachten Muster. Aber innerhalb ihrer Gruppe sind sie von einer Zuverlässigkeit, die kaum zu übertreffen ist: sie folgen ihrer Familie wie ein Schatten. Die Leidenschaft der Angst zeigt sich als Hypervigilanz — ein inneres Frühwarnsystem, das nie ganz abschaltet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Shetland Sheepdog: Loyalty and Vigilance</h3>
+        <p class="vb-intro">Shetland Sheepdogs are extremely loyal and vigilant, always ready to protect their family. This reflects the reliability and faithfulness of Type 6. Shelties were bred on the windswept Shetland Islands — a harsh environment that produced dogs that prefer to look twice before acting once. They bark at the unfamiliar, inspect situations, and observe patterns. But within their group, they possess a reliability that is hard to surpass: they follow their family like a shadow. The passion of fear shows as hypervigilance — an inner early warning system that never completely shuts off.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Dalmatiner: Energie, Verspieltheit, Neugier</h3>
-        <p class="vb-intro">Dalmatiner sind lebhafte und neugierige Hunde, die gern spielen und neue Abenteuer erleben. Ihre fröhliche und abenteuerliche Art passt gut zu Typ 7. Der Dalmatiner ist unmöglich zu übersehen — sein gepunktetes Fell ist eine visuelle Einladung. Er wurde als Kutschenhund gezüchtet, der stundenlang neben Pferden laufen konnte ohne zu ermüden: ein Hund für Bewegung, Tempo, die nächste Station. Im Zirkus war er Stammgast; in der Feuerwehr wurde er Maskottchen. Die Leidenschaft der Völlerei zeigt sich als unstillbarer Hunger nach Erlebnis, Contact und dem nächsten Abenteuer.</p>
+        <p class="vb-intro">Dalmatians are lively and curious dogs that enjoy playing and experiencing new adventures. Their cheerful and adventurous nature fits Type 7 well. The Dalmatian is impossible to miss — its spotted coat is a visual invitation. It was bred as a carriage dog that could run alongside horses for hours without tiring: a dog built for movement, speed, and the next destination. It was a regular in the circus; in the fire department, it became a mascot. The passion of gluttony shows as an insatiable hunger for experience, contact, and the next adventure.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Rottweiler: Stärke und Schutzinstinkt</h3>
-        <p class="vb-intro">Rottweiler sind starke, selbstbewusste Hunde mit einem ausgeprägten Schutzinstinkt, der gut zur durchsetzungsfähigen und schützenden Natur von Typ 8 passt. Der Rottweiler stammt von römischen Drover-Hunden ab, die Viehherden über die Alpen trieben. In Rottweil wurden sie später als Metzgerhunde eingesetzt — sie zogen Karren und trugen das Geld ihres Herrn in Beuteln um den Hals, weil niemand es wagte, einen Rottweiler zu berauben. Der Rottweiler ist kein Aggressor — er ist ein Beschützer. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kontrolle und Sicherheit für die, die ihm anvertraut sind.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Rottweiler: Strength and Protective Instinct</h3>
+        <p class="vb-intro">Rottweilers are strong, self-confident dogs with a pronounced protective instinct that fits well with the assertive and protective nature of Type 8. The Rottweiler descends from Roman drover dogs that drove cattle herds over the Alps. In Rottweil, they were later used as butchers' dogs — pulling carts and carrying their master's money in pouches around their necks because no one dared to rob a Rottweiler. The Rottweiler is not an aggressor — it is a protector. The passion of lust shows as an unslaked hunger for control and safety for those entrusted to it.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Berner Sennenhund: Sanftmut und Ausgeglichenheit</h3>
-        <p class="vb-intro">Berner Sennenhunde sind bekannt für ihre sanfte und ausgeglichene Art. Sie sind freundlich und friedlich, was gut zur harmoniesuchenden und vermittelnden Natur von Typ 9 passt. Der Berner Sennenhund wurde in den Schweizer Alpen als Allrounder gezüchtet — er hütete Vieh, zog Karren und war Begleithund. Sein Wesen ist das eines Vermittlers: er streitet nicht, er drängt nicht, er nimmt sich nicht mehr Raum als nötig. In einer Gruppe von Hunden ist er derjenige, der Konflikte durch bloßes Dasein auflöst. Die Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist — groß, warm, ruhig, zusammen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Bernese Mountain Dog: Gentleness and Even-Temperedness</h3>
+        <p class="vb-intro">Bernese Mountain Dogs are known for their gentle and even-tempered nature. They are friendly and peaceful, which fits well with the harmony-seeking and mediating nature of Type 9. The Bernese Mountain Dog was bred in the Swiss Alps as an all-rounder — it herded cattle, pulled carts, and served as a companion dog. Its nature is that of a mediator: it does not argue, it does not push, and it takes up no more space than necessary. In a group of dogs, it is the one that dissolves conflict merely by being there. The passion of sloth shows as a deep desire for everything to remain as it is — big, warm, quiet, together.</p>
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -36082,7 +36082,7 @@ function hunderassenDer9TypenPage() {
       </div>
       ${relatedLinks([
         {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
-        {route:"pferdearten-der-9-typen", label:"Pferdearten der 9 Typen"},
+        {route:"pferdearten-der-9-typen", label:"Horse Breeds of the 9 Types"},
         {route:"baerenarten-der-9-typen", label:"Bärenarten der 9 Typen"},
       ])}
     </div>
@@ -39667,9 +39667,9 @@ function grundformelPage() {
   return shell(`
     ${pageHeader("grundformel")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Modell</p>
+      <p class="eyebrow">Charts · Model</p>
       <h1 class="section-title">Die Grundformel des Rathmer-Enneagramms</h1>
-      <p class="psycho-intro">Drei Defizite. Drei Energieformen. Drei Instinkte. &ndash; Das Fundament eines Enneagramm-Modells, das \xfcber zwanzig Jahre gewachsen ist.</p>
+      <p class="psycho-intro">Three deficits. Three forms of energy. Three instincts. – The foundation of an Enneagram model that has grown over twenty years.</p>
       <img
         src="${CDN}assets/grundformel.jpg"
         alt="Die Grundformel des Rathmer-Enneagramms"
@@ -39677,39 +39677,39 @@ function grundformelPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Der Mensch ist mehr als sein Typ</h2>
-        <p class="vb-intro">Diese Aussage steht am Anfang der Grundformel &ndash; und sie ist kein beil\xe4ufiger Zusatz, sondern ein programmatisches Fundament. Der Enneagrammtyp beschreibt eine unbewusste L\xf6sungsstrategie f\xfcr ein existenzielles Grunddefizit. Er beschreibt nicht das Wesen des Menschen. Wer sich mit dem Rathmer-Enneagramm besch\xe4ftigt, lernt nicht, wer er ist &ndash; er lernt, welches Muster ihn bisher begleitet hat. Das ist ein entscheidender Unterschied.</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Man Is More Than His Type</h2>
+        <p class="vb-intro">This statement stands at the beginning of the core formula – and it is not a casual addition, but a programmatic foundation. The Enneagram type describes an unconscious solution strategy for an existential core deficit. It does not describe the essence of a person. Whoever engages with the Rathmer Enneagram does not learn who they are – they learn which pattern has accompanied them so far. That is a crucial difference.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Defizite: Liebesdefizit, Vertrauensdefizit, Schutzdefizit</h2>
-        <p class="vb-intro">Hinter jedem der neun Typen steht ein existenzielles Grunddefizit &ndash; eine tiefe Frage, die das Erleben des Menschen von innen her organisiert. Das Modell unterscheidet drei solcher Defizite, je nach Triade:</p>
-        <p class="vb-intro">Die <strong>Herztriade</strong> (Typen 2, 3, 4) tr\xe4gt ein <strong>Liebesdefizit</strong>. Ihre Grundfrage lautet: <em>Bin ich liebenswert?</em> Das Kerngef\xfchl, das diesen Typen begleitet, ist das stille, oft unbewusste Empfinden: <em>Ich f\xfchle mich nicht geliebt.</em></p>
-        <p class="vb-intro">Die <strong>Kopftriade</strong> (Typen 5, 6, 7) tr\xe4gt ein <strong>Vertrauensdefizit</strong>. Ihre Grundfrage lautet: <em>Kann ich dem Leben vertrauen?</em> Das Kerngef\xfchl ist: <em>Die Welt ist ungewiss und unzuverl\xe4ssig.</em></p>
-        <p class="vb-intro">Die <strong>Bauchtriade</strong> (Typen 8, 9, 1) tr\xe4gt ein <strong>Schutzdefizit</strong>. Ihre Grundfrage lautet: <em>Darf ich meinen Platz in dieser Welt einnehmen?</em> Das Kerngef\xfchl ist: <em>Ich f\xfchle mich nicht sicher in meinem Recht, da zu sein.</em></p>
+        <p class="vb-intro">Behind each of the nine types lies an existential core deficit – a deep question that organizes a person's experience from within. The model distinguishes three such deficits, depending on the triad:</p>
+        <p class="vb-intro">The heart triad (Types 2, 3, 4) carries a love deficit. Its core question is: Am I lovable? The core feeling accompanying these types is the quiet, often unconscious feeling: I do not feel loved.</p>
+        <p class="vb-intro">The head triad (Types 5, 6, 7) carries a trust deficit. Its core question is: Can I trust life? The core feeling is: The world is uncertain and unreliable.</p>
+        <p class="vb-intro">The gut triad (Types 8, 9, 1) carries a protection deficit. Its core question is: May I take my place in this world? The core feeling is: I do not feel secure in my right to be here.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die zentrale Formel: Defizit + Energieform + Instinkt = Subtype</h2>
-        <p class="vb-intro">Das Herzst\xfcck des Modells ist eine einfache Gleichung mit gro\xdfer Tiefe: Jeder Mensch verarbeitet sein Grunddefizit auf eine bestimmte energetische Weise &ndash; und richtet diese Energie \xfcber einen seiner drei Instinkte aus. Das Ergebnis ist sein pers\xf6nlicher Subtype &ndash; einer von 27 m\xf6glichen Auspr\xe4gungen. Der Typ allein reicht nicht aus, um einen Menschen zu verstehen. Erst der Subtype zeigt, <em>wie</em> jemand seinen Typ lebt.</p>
+        <p class="vb-intro">The centerpiece of the model is a simple equation with great depth: Every person processes their core deficit in a specific energetic way – and directs this energy through one of their three instincts. The result is their personal subtype – one of 27 possible manifestations. The type alone is not enough to understand a person. Only the subtype shows how someone lives their type.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Energieformen: \xdcberschie\xdfend, blockiert, umgewandelt</h2>
-        <p class="vb-intro">Jeder Typ hat eine charakteristische Art, mit seiner Grundenergie umzugehen. Das Modell unterscheidet drei Energieformen &ndash; und jede findet sich in jeder Triade wieder:</p>
-        <p class="vb-intro"><strong>\xdcberschie\xdfende Energie</strong> (Typen 2, 5, 8): Die Energie geht nach au\xdfen. Sie dr\xe4ngt, kompensiert, \xfcbertreibt. Diese Typen reagieren auf ihr Defizit mit einem Zu-viel &ndash; zu viel Hilfe, zu viel R\xfcckzug in Wissen, zu viel Intensit\xe4t und St\xe4rke.</p>
-        <p class="vb-intro"><strong>Blockierte Energie</strong> (Typen 3, 6, 9): Die Energie wird zur\xfcckgehalten. Vermeidung, Erstarrung und Anpassung pr\xe4gen diese Typen. Sie reagieren auf ihr Defizit, indem sie sich anpassen, zur\xfcckhalten oder in Sicherheitsstrategien fl\xfcchten.</p>
-        <p class="vb-intro"><strong>Umgewandelte Energie</strong> (Typen 4, 7, 1): Die Energie wird transformiert &ndash; in Sinn, in Ideen, in Werte. Diese Typen kompensieren ihr Defizit durch innere Umlenkung: in Sehnsucht und Besonderheit (4), in Pl\xe4ne und M\xf6glichkeiten (7), in Ideale und Richtigkeit (1).</p>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Three Forms of Energy: Excessive, Blocked, Transformed</h2>
+        <p class="vb-intro">Each type has a characteristic way of dealing with its core energy. The model distinguishes three forms of energy – and each is found in every triad:</p>
+        <p class="vb-intro">Excessive energy (Types 2, 5, 8): The energy goes outward. It pushes, compensates, exaggerates. These types react to their deficit with a too-much – too much help, too much withdrawal into knowledge, too much intensity and strength.</p>
+        <p class="vb-intro">Blocked energy (Types 3, 6, 9): The energy is held back. Avoidance, paralysis, and adaptation characterize these types. They react to their deficit by adapting, holding back, or fleeing into security strategies.</p>
+        <p class="vb-intro">Transformed energy (Types 4, 7, 1): The energy is transformed – into meaning, into ideas, into values. These types compensate for their deficit through inner redirection: into longing and specialness (4), into plans and possibilities (7), into ideals and correctness (1).</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Instinkte: Selbsterhaltung, Sozial, Sexuell</h2>
-        <p class="vb-intro">Der dritte Baustein ist der Instinkt &ndash; jene unbewusste Grundausrichtung, \xfcber die ein Mensch seine Energie in die Welt gibt. Der <strong>Selbsterhaltungsinstinkt</strong> (SE) richtet den Fokus auf Ressourcen, Sicherheit und pers\xf6nliche Bed\xfcrfnisse. Der <strong>Sozialinstinkt</strong> (SO) richtet den Fokus auf Zugeh\xf6rigkeit, Gruppen und das soziale Umfeld. Der <strong>Sexualinstinkt</strong> (SX) richtet den Fokus auf Intensit\xe4t, Bindung und bedeutsame Eins-zu-Eins-Relationships.</p>
-        <p class="vb-intro">Diese drei Instinkte sind keine Vorlieben, sondern tiefe Orientierungssysteme &ndash; meist unbewusst aktiv und wirksam, lange bevor der Typ \xfcberhaupt zum Vorschein kommt. Die wichtigste Einheit im Rathmer-Enneagramm ist deshalb nicht der Typ allein, sondern der <strong>Subtype</strong>: Typ plus Instinkt.</p>
+        <p class="vb-intro">The third building block is instinct – that unconscious core orientation through which a person releases their energy into the world. The self-preservation instinct (SP) focuses on resources, security, and personal needs. The social instinct (SO) focuses on belonging, groups, and the social environment. The sexual instinct (SX) focuses on intensity, bonding, and meaningful one-on-one relationships.</p>
+        <p class="vb-intro">These three instincts are not preferences, but deep orientation systems – usually unconsciously active and effective long before the type even emerges. The most important unit in the Rathmer Enneagram is therefore not the type alone, but the subtype: type plus instinct.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die vier Entwicklungsstufen</h2>
-        <p class="vb-intro">Das Schaubild zeigt auch, wie sich ein Mensch in Bezug auf seinen Typ entwickeln kann &ndash; von unbewusst bis integriert. Auf der <strong>unbewussten Stufe</strong> dominiert die Leidenschaft vollst\xe4ndig. Auf der <strong>durchschnittlichen Stufe</strong> pr\xe4gen typische Alltagsmuster das Erleben. Auf der <strong>bewussten Stufe</strong> wird die Leidenschaft erkannt &ndash; der Mensch kann sich von ihr distanzieren. Auf der <strong>integrierten Stufe</strong> wird die Essenz zug\xe4nglich: Das Muster l\xf6st sich nicht auf, aber es verliert seine Macht.</p>
+        <p class="vb-intro">The diagram also shows how a person can develop in relation to their type – from unconscious to integrated. At the unconscious stage, passion dominates completely. At the average stage, typical everyday patterns shape the experience. At the conscious stage, the passion is recognized – the person can distance themselves from it. At the integrated stage, essence becomes accessible: The pattern does not dissolve, but it loses its power.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Ziel: Nicht den Typ verbessern &ndash; sondern loslassen</h2>
-        <p class="vb-intro">Das erkl\xe4rte Ziel des Rathmer-Enneagramms ist es nicht, den eigenen Typ zu perfektionieren. Es geht darum, die Identifikation mit dem Typ zu lockern &ndash; Schritt f\xfcr Schritt. Der Mensch hat einen Typ. Der Mensch ist kein Typ. Diese kleine sprachliche Verschiebung enth\xe4lt die ganze transformative Kraft des Modells.</p>
-        <p class="vb-intro">Was dieses Schaubild in einem einzigen Bild zusammenfasst, ist das Ergebnis von \xfcber zwanzig Jahren gemeinsamer Arbeit von Detlef und David Rathmer &ndash; ein lebendiges, wachsendes Modell, das Psychologie, Spiritualit\xe4t und praktische Heilkunde zu einem Ganzen verbindet.</p>
+        <p class="vb-intro">The stated goal of the Rathmer Enneagram is not to perfect one's own type. It is about loosening identification with the type – step by step. A person has a type. A person is not a type. This small linguistic shift contains the entire transformative power of the model.</p>
+        <p class="vb-intro">What this chart summarizes in a single image is the result of over twenty years of joint work by Detlef and David Rathmer – a living, growing model that connects psychology, spirituality, and practical healing arts into a single whole.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Der Mensch hat einen Typ. Der Mensch ist kein Typ. &ndash; Detlef &amp; David Rathmer</blockquote>
 
-        ${bookTip("hinter-der-leidenschaft", "Die neun Grunddefizite und ihre Wunden &ndash; das theoretische Fundament des Rathmer-Enneagramms in Buchform.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Das vollst\xe4ndige Subtypees-Modell: alle 27 Auspr\xe4gungen von Defizit, Energieform und Instinkt.", "Die verborgene Dynamik der 27 Subtypees")}
+        ${bookTip("hinter-der-leidenschaft", "The nine core deficits and their wounds – the theoretical foundation of the Rathmer Enneagram in book form.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The complete subtypes model: all 27 manifestations of deficit, energy form, and instinct.", "Die verborgene Dynamik der 27 Subtypees")}
         ${relatedLinks([
           {route:"ego-fixierungen", label:"Ego-Fixierungen"},
           {route:"antriebskraefte", label:"Driving Forces"},
@@ -45272,7 +45272,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v660';
+  const MY_VERSION = 'inhalt-v661';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
