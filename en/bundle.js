@@ -30811,30 +30811,30 @@ function heinrichPommerenkePortraitPage() {
         but outward: as a mandate to punish others.
         The Four would have meant confronting himself.
         He turned it into a mission.</p>
-        <p class="vb-intro"><strong>e) Sieben als Entspannungspunkt:</strong>
-        Der Entspannungspunkt der Eins ist die Sieben –
-        in Sicherheit öffnet sich die Eins zur Leichtigkeit,
-        Neugier und Freude der Sieben: das Loslassen
-        der inneren Rigidität, das Genießen des Augenblicks.
-        <strong>Pommerenkes</strong> jahrzehntelange religiöse Search
-        hatte vereinzelt Momente echter Entspannung –
-        Momente der Vergebung, des Angenommenseins,
-        die ihm kurz ermöglichten, die Strenge zu verlassen.
-        Ob er jemals wirklich ankam, bleibt offen.
-        Aber der Entspannungsweg der Sieben
-        war zumindest ansatzweise beschreitbar.</p>
-        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis des SO1:</strong>
-        <strong>Pommerenkes</strong> Fall zeigt die Schattenseite
-        eines Typs, der in gesunder Ausprägung
-        zu den moralisch stärksten und gesellschaftlich
-        wertvollsten Charakteren gehört.
-        Der SO1er als Reformer, als Ethiker, als Hüter der Gemeinschaft –
-        das ist das helle Bild.
-        Was Pommerenke zeigt, ist der Abgrund, der entsteht,
-        wenn Moralüberzeugung zum Wahn wird
-        und der Neunflügel jedes innere Korrektiv einfriert.
-        Er ist kein Beispiel für den Typ –
-        er ist sein dunkelster Spiegel.</p>
+        <p class="vb-intro"><strong>e) Seven as a Point of Integration/Relaxation:</strong>
+        The relaxation point of the One is the Seven –
+        in security, the One opens up to the lightness,
+        curiosity, and joy of the Seven: letting go
+        of inner rigidity, enjoying the present moment.
+        <strong>Pommerenke's</strong> decades-long religious search
+        had isolated moments of genuine relaxation –
+        moments of forgiveness and acceptance
+        that briefly enabled him to step away from strictness.
+        Whether he ever truly arrived remains an open question.
+        However, the path of relaxation through the Seven
+        was at least partially accessible.</p>
+        <p class="vb-intro"><strong>f) Significance for Understanding the SO1:</strong>
+        <strong>Pommerenke's</strong> case demonstrates the dark side
+        of a type that, in its healthy expression,
+        belongs to the morally strongest and socially
+        most valuable characters.
+        The SO1 as reformer, as ethicist, as guardian of the community –
+        that is the bright image.
+        What Pommerenke illustrates is the abyss that emerges
+        when moral conviction turns into delusion
+        and the Nine-wing freezes every inner corrective.
+        He is not a typical example of the type –
+        he is its darkest mirror.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -30851,7 +30851,7 @@ function heinrichPommerenkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-rudolf-pleil", label:"Criminal Psychology: Rudolf Pleil"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Quality of Gaze in the 9 Types"},
       ])}
     </div>
   `);
