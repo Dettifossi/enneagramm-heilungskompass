@@ -28629,21 +28629,21 @@ function joachimKrollPortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>Joachim Georg Kroll</strong>, geboren am 17. April 1933 in Hindenburg
-        (heute Zabrze, Polen), starb am 1. Juli 1991 in der Justizvollzugsanstalt Rheinbach.
-        Zwischen 1955 und 1976 ermordete er mindestens acht Menschen im Ruhrgebiet –
-        Frauen und Kinder, die er in Parks, Wäldern und auf Feldern aufgriff.
-        Kroll lebte allein in einer kleinen Wohnung in Duisburg-Laar,
-        arbeitete als Kanalreiniger und fiel seinen Nachbarn als
-        stiller, unauffälliger, fast kindlicher Mann auf.
-        Verhaftet wurde er 1976, als Nachbarn sich über
-        einen verstopften Abfluss beschwerten –
-        der Installateur fand dort Gedärme.
-        In Krolls Wohnung entdeckte die Polizei Leichenteile im Kühlschrank
-        und ein Kleinkind-Händchen im Kochtopf.
-        Er gestand umgehend und wirkte dabei völlig emotionslos.
-        1982 wurde er zu lebenslanger Haft verurteilt.
-        Die Presse nannte ihn den „Ruhrkannibalen" und den „Duisburger Menschenfresser".
+        <strong>Joachim Georg Kroll</strong>, born on April 17, 1933, in Hindenburg
+        (now Zabrze, Poland), died on July 1, 1991, in the Rheinbach correctional facility.
+        Between 1955 and 1976, he murdered at least eight people in the Ruhr region –
+        women and children whom he picked up in parks, forests, and fields.
+        Kroll lived alone in a small apartment in Duisburg-Laar,
+        worked as a sewer cleaner, and was noticed by his neighbors as a
+        quiet, inconspicuous, almost childlike man.
+        He was arrested in 1976 when neighbors complained about
+        a clogged drain –
+        the plumber found intestines there.
+        In Kroll's apartment, the police discovered body parts in the refrigerator
+        and a toddler's small hand in a cooking pot.
+        He confessed immediately and appeared completely emotionless while doing so.
+        In 1982, he was sentenced to life imprisonment.
+        The press dubbed him the „Ruhr Cannibal" and the „Duisburg Man-Eater".
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -28664,259 +28664,259 @@ function joachimKrollPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Leer und abwesend:</strong>
-        Zeugen und Ermittler beschrieben Krolls Blick als leer,
-        flach und ohne emotionale Resonanz. Kein Erschrecken,
-        keine Scham, keine Erregung – nur eine gleichgültige Leere,
-        die alle, die mit ihm sprachen, tief verunsicherte.
-        Die Fünf wohnt hinter ihren Augen – sie beobachtet,
-        aber nimmt kaum Contact auf. Bei Kroll war diese Distanz absolut:
-        Der Blick eines Menschen, der andere nicht wirklich als Menschen wahrnimmt.</p>
-        <p class="vb-intro"><strong>b) Kindlich und arglos:</strong>
-        Trotz seiner Taten wirkte Kroll auf viele wie ein großes Kind –
-        naiv, hilflos, ohne Hintergedanken. Dieser Eindruck entstand
-        nicht durch Berechnung, sondern war echt:
-        Kroll hatte eine stark eingeschränkte emotionale Entwicklung,
-        einen Intelligenzquotienten von etwa 76 und keinen Zugang
-        zu dem, was andere als moralisches Empfinden erleben.
-        Die SP5 in ihrer tiefsten Regression erscheint manchmal
-        nicht gefährlich, sondern schlicht nicht ganz präsent –
-        als fehle eine grundlegende menschliche Schicht.</p>
-        <p class="vb-intro"><strong>c) Kein Warnsignal, keine Maske:</strong>
-        Kroll brauchte keine Charme-Fassade und keine soziale Täuschung.
-        Er erschien schlicht und harmlos, weil er tatsächlich keine
-        soziale Kompetenz besaß – keine Selbstdarstellung, kein Kalkül,
-        keine Mimikry. Das machte ihn für Umgebung und Behörden
-        so schwer einschätzbar: Wer keine Maske trägt,
-        dessen Gesicht lässt sich nicht lesen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Empty and Absent:</strong>
+        Witnesses and investigators described Kroll's gaze as empty,
+        flat, and without emotional resonance. No fright,
+        no shame, no excitement – only an indifferent void
+        that deeply unsettled everyone who spoke with him.
+        The Five resides behind its eyes – it observes,
+        but barely makes contact. In Kroll's case, this distance was absolute:
+        the gaze of a person who does not truly perceive others as human beings.</p>
+        <p class="vb-intro"><strong>b) Childlike and Guileless:</strong>
+        Despite his deeds, Kroll appeared to many like a grown child –
+        naive, helpless, without hidden motives. This impression did not
+        arise from calculation, but was genuine:
+        Kroll had severely limited emotional development,
+        an IQ of around 76, and no access
+        to what others experience as a moral compass.
+        The SP5 in its deepest regression sometimes appears
+        not dangerous, but simply not fully present –
+        as if a fundamental human layer were missing.</p>
+        <p class="vb-intro"><strong>c) No Warning Signal, No Mask:</strong>
+        Kroll needed no charming facade and no social deception.
+        He appeared simple and harmless because he genuinely possessed
+        no social competence – no self-presentation, no calculation,
+        no mimicry. This made him so difficult for those around him and authorities
+        to assess: when someone wears no mask,
+        their face cannot be read.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Radikale Isolation als Lebensprinzip:</strong>
-        <strong>Kroll</strong> hatte keine Freunde, keine Relationships, keine sozialen Bindungen.
-        Er lebte seit Jahrzehnten allein in einer kleinen Mietwohnung,
-        sprach kaum mit Nachbarn und verbrachte seine Zeit
-        mit einer einfachen Routine: Arbeit, Wohnung, Fantasien.
-        Die SP5 reduziert soziale Bedürfnisse auf ein Minimum –
-        bei Kroll war dieses Minimum gleich null.
-        Die Außenwelt existierte für ihn nur als Ressourcenfeld,
-        nicht als Beziehungsraum.</p>
-        <p class="vb-intro"><strong>b) Extremer Minimalismus:</strong>
-        <strong>Krolls</strong> Wohnung war spärlich eingerichtet, seine Lebensführung
-        auf das Notwendigste beschränkt. Er aß einfach, besaß wenig,
-        brauchte wenig. Dieser Minimalismus ist das Kernmerkmal
-        der SP5: Sie empfindet sich als Menschen mit minimalen Ansprüchen
-        und maximaler innerer Selbstgenügsamkeit.
-        Was bei gesunden SP5-Typen zu einem asketischen, fokussierten
-        Lebensstil führt, wurde bei Kroll zur totalen Verarmung
-        aller menschlichen Dimensionen – emotional, sozial, moralisch.</p>
-        <p class="vb-intro"><strong>c) Doppelleben ohne Bewusstsein des Widerspruchs:</strong>
-        <strong>Kroll</strong> führte kein bewusstes Doppelleben wie andere Täter –
-        er trennte nicht aktiv zwischen einer Fassade und einer verborgenen Seite.
-        Er erschien seinen Nachbarn als schlicht und unverdächtig,
-        weil er genau das war: ein Mann ohne soziale Tiefe.
-        Die Morde waren für ihn offenbar kein Widerspruch
-        zu seinem Alltag – sie wurden nicht integriert
-        und nicht versteckt, sondern einfach nicht als
-        relevant für seine Alltagsidentität erlebt.</p>
+        <p class="vb-intro"><strong>a) Radical Isolation as a Life Principle:</strong>
+        <strong>Kroll</strong> had no friends, no relationships, no social bonds.
+        He had lived alone in a small rented apartment for decades,
+        hardly spoke to neighbors, and spent his time
+        with a simple routine: work, apartment, fantasies.
+        The SP5 reduces social needs to a minimum –
+        for Kroll, this minimum was zero.
+        The outside world existed for him only as a field of resources,
+        not as a realm of relationships.</p>
+        <p class="vb-intro"><strong>b) Extreme Minimalism:</strong>
+        <strong>Kroll's</strong> apartment was sparsely furnished, his lifestyle
+        confined to the essentials. He ate simply, owned little,
+        needed little. This minimalism is the core trait
+        of the SP5: it perceives itself as a person with minimal demands
+        and maximum inner self-sufficiency.
+        What leads to an ascetic, focused
+        lifestyle in healthy SP5 types turned into total impoverishment
+        of all human dimensions in Kroll – emotionally, socially, morally.</p>
+        <p class="vb-intro"><strong>c) Double Life Without Consciousness of Contradiction:</strong>
+        <strong>Kroll</strong> did not lead a conscious double life like other perpetrators –
+        he did not actively separate a facade from a hidden side.
+        He appeared simple and unsuspect to his neighbors
+        because he was precisely that: a man without social depth.
+        The murders were apparently no contradiction
+        to his daily life for him – they were neither integrated
+        nor hidden, but simply experienced as not
+        relevant to his everyday identity.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fantasiewelt als Ersatz für Beziehung:</strong>
-        <strong>Kroll</strong> entwickelte über Jahrzehnte eine ausgeprägte innere Fantasiewelt,
-        die sexuelle Vorstellungen mit Gewalt und Nahrungsaufnahme verband.
-        Die Fünf lebt intensiv im Inneren – ihre eigentliche Welt
-        ist die Vorstellung, nicht die Wirklichkeit.
-        Krolls Innenwelt ersetzte vollständig, was anderen
-        durch echte menschliche Begegnung gegeben wird:
-        Wärme, Nähe, Verbindung. Das Ergebnis war eine
-        Fantasiewelt, die sich zunehmend von jeder
-        menschlichen Empathie entkoppelt hatte.</p>
-        <p class="vb-intro"><strong>b) Kannibalismus als Selbsterhaltungslogik:</strong>
-        <strong>Kroll</strong> aß Teile seiner Opfer – das ist historisch belegt
-        und von ihm selbst unaufgeregt bestätigt worden.
-        Aus Sicht der Enneagramm-Psychologie ist dies der dunkelste
-        denkbare Ausdruck der SP5-Leidenschaft:
-        Der Selbsterhaltungsinstinkt der Fünf dreht sich im Kern
-        um Ressourcen – Energie beschaffen, sichern, einverleiben.
-        Was bei der gesunden SP5 als Sparsamkeit, Vorratshaltung
-        und innerer Rückzug erscheint, hat bei Kroll eine buchstäbliche,
-        körperliche Gestalt angenommen:
-        Der andere Mensch wird zur Nahrungsressource –
-        einverleibt im direktesten Sinne.<br><br>
-        Besonders aufschlussreich ist dabei, <em>wie</em> er darüber sprach:
-        ohne Scham, ohne Ekel, ohne das Bewusstsein eines Tabubruchs.
-        Ermittler berichteten, er habe erklärt, er habe Fleisch
-        im Kühlschrank aufbewahrt, weil das billiger sei als Einkaufen –
-        eine reine Versorgungslogik, kein Sadismus, kein rituelles Motiv.
-        Genau das macht den Fall so psychologisch aufschlussreich:
-        Kroll erlebte den Kannibalismus nicht als Exzess,
-        sondern als naheliegende Konsequenz seiner inneren Welt,
-        in der andere Menschen schlicht keine eigenständige Realität besaßen.
-        Die SP5 in ihrer tiefsten Regression kennt keine Grenze
-        zwischen Ressource und Person – bei Kroll war diese Grenze
-        nie vorhanden gewesen.</p>
-        <p class="vb-intro"><strong>c) Kooperation ohne Schuldgefühl:</strong>
-        Nach seiner Verhaftung gestand <strong>Kroll</strong> bereitwillig
-        alle Taten – ohne erkennbare Scham oder Reue,
-        aber auch ohne Kalkül. Er wirkte, als erkläre er
-        Alltagsvorgänge. Kriminalisten berichteten,
-        er habe nicht begriffen, warum man
-        so aufgeregt sei. Diese radikale Gefühllosigkeit
-        ist keine psychopathische Kälte im klinischen Sinne –
-        sie ist die vollständige Abwesenheit von dem,
-        was Contact und Empathie erst ermöglicht.</p>
+        <p class="vb-intro"><strong>a) Fantasy World as a Substitute for Relationship:</strong>
+        <strong>Kroll</strong> developed a pronounced inner fantasy world over decades
+        that combined sexual imagery with violence and the ingestion of food.
+        The Five lives intensely on the inside – its true world
+        is imagination, not reality.
+        Kroll's inner world completely replaced what is given to others
+        through genuine human connection:
+        warmth, closeness, bond. The result was a
+        fantasy world that had become increasingly detached from any
+        human empathy.</p>
+        <p class="vb-intro"><strong>b) Cannibalism as a Logic of Self-Preservation:</strong>
+        <strong>Kroll</strong> ate parts of his victims – this is historically documented
+        and was unexcitedly confirmed by himself.
+        From the perspective of Enneagram psychology, this is the darkest
+        conceivable expression of the SP5 passion:
+        the self-preservation instinct of the Five revolves at its core
+        around resources – procuring energy, securing it, incorporating it.
+        What appears in healthy SP5s as thriftiness, stockpiling,
+        and inner retreat assumed a literal,
+        physical form in Kroll:
+        the other human being becomes a food resource –
+        incorporated in the most direct sense.<br><br>
+        Particularly revealing in this context is <em>how</em> he spoke about it:
+        without shame, without disgust, without the awareness of breaking a taboo.
+        Investigators reported that he explained he had stored meat
+        in the refrigerator because it was cheaper than grocery shopping –
+        a pure logic of provision, no sadism, no ritual motive.
+        Precisely this makes the case so psychologically revealing:
+        Kroll did not experience cannibalism as an excess,
+        but as an obvious consequence of his inner world,
+        in which other human beings simply possessed no independent reality.
+        The SP5 in its deepest regression knows no boundary
+        between resource and person – in Kroll's case, this boundary
+        had never existed.</p>
+        <p class="vb-intro"><strong>c) Cooperation Without Feelings of Guilt:</strong>
+        After his arrest, <strong>Kroll</strong> willingly confessed
+        to all crimes – without discernible shame or remorse,
+        but also without calculation. He appeared as if he were explaining
+        everyday matters. Criminologists reported
+        that he did not understand why people
+        were so agitated. This radical emotionlessness
+        is not psychopathic coldness in a clinical sense –
+        it is the complete absence of that which
+        makes contact and empathy possible in the first place.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unsichtbarkeit als Schutz:</strong>
-        <strong>Kroll</strong> war über zwanzig Jahre aktiv, ohne ernsthaft in Verdacht zu geraten.
-        Nicht weil er clever tarnte, sondern weil er zu unscheinbar war,
-        um als Täter in Betracht gezogen zu werden.
-        Ein stiller Kanalarbeiter ohne Auffälligkeiten,
-        ohne bekannte Vorstrafen, ohne sichtbare Aggression.
-        Die SP5 ist von Natur aus unsichtbar –
-        sie beansprucht keinen Raum, fällt nicht auf,
-        zieht sich zurück. Diese Eigenschaft schützte Kroll
-        länger als jede aktive Tarnung es hätte können.</p>
-        <p class="vb-intro"><strong>b) Schlicht und nicht bedrohlich wirkend:</strong>
-        Nachbarn beschrieben <strong>Kroll</strong> als freundlich, fast kindlich.
-        Er redete gerne über Kleinigkeiten, wirkte harmlos.
-        Diese Wirkung entstand nicht durch Manipulation,
-        sondern war ein echtes Merkmal seiner Persönlichkeit:
-        Er hatte tatsächlich keine komplexe soziale Agenda.
-        Was fehlte, war nicht die Fassade – was fehlte,
-        war die gesamte Tiefe einer entwickelten Persönlichkeit.</p>
-        <p class="vb-intro"><strong>c) Kein erkennbares Motiv im klassischen Sinne:</strong>
-        <strong>Krolls</strong> Taten hatten kein nachvollziehbares äußeres Motiv –
-        keine Rache, kein Machtanspruch, kein ideologisches Programm.
-        Sie entsprangen einer Innenwelt, die sich vollständig
-        von moralischen und sozialen Koordinaten gelöst hatte.
-        Das macht ihn in der forensischen Psychologie
-        zu einem besonders verstörenden Fall:
-        nicht weil er böse war im aktiven Sinne,
-        sondern weil er schlicht kein Mitgefühl kannte.</p>
+        <p class="vb-intro"><strong>a) Invisibility as Protection:</strong>
+        <strong>Kroll</strong> was active for over twenty years without coming under serious suspicion.
+        Not because he disguised himself cleverly, but because he was too inconspicuous
+        to be considered a suspect.
+        A quiet sewer worker without peculiarities,
+        without known prior convictions, without visible aggression.
+        The SP5 is naturally invisible –
+        it claims no space, does not stand out,
+        draws back. This quality protected Kroll
+        longer than any active disguise ever could have.</p>
+        <p class="vb-intro"><strong>b) Simple and Non-Threatening in Appearance:</strong>
+        Neighbors described <strong>Kroll</strong> as friendly, almost childlike.
+        He liked to talk about trivialities, seemed harmless.
+        This effect did not arise from manipulation,
+        but was a genuine feature of his personality:
+        he actually had no complex social agenda.
+        What was missing was not a facade – what was missing
+        was the entire depth of a developed personality.</p>
+        <p class="vb-intro"><strong>c) No Discernible Motive in the Classical Sense:</strong>
+        <strong>Kroll's</strong> crimes had no understandable external motive –
+        no revenge, no claim to power, no ideological agenda.
+        They sprang from an inner world that had detached itself
+        entirely from moral and social coordinates.
+        This makes him a particularly disturbing case
+        in criminal psychology:
+        not because he was evil in an active sense,
+        but because he simply knew no empathy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Leere statt Bedrohung:</strong>
-        Die energetische Wirkung, die <strong>Kroll</strong> auf Gesprächspartner hatte,
-        war nicht Schrecken oder Dominanz, sondern Leere –
-        ein tiefes Gefühl der Abwesenheit.
-        Wer mit ihm sprach, traf niemanden an.
-        Die SP5 hält Energie zurück – sie gibt kaum etwas
-        nach außen. Bei Kroll war auch der Empfang abgeschaltet:
-        Keine Resonanz, keine Reaktion, keine Spur von
-        Verstehen oder Interesse an dem, was der andere erlebt.</p>
-        <p class="vb-intro"><strong>b) Gleichmut als Grundton:</strong>
-        <strong>Kroll</strong> wirkte in allen Situationen gleichmütig –
-        bei der Verhaftung, im Verhör, beim Geständnis.
-        Kein Ausbruch, keine Panik, keine Empörung.
-        Diese gleichmütige Ruhe ist das Gegenteil von Kontrolle –
-        es ist das Fehlen von Impulsen, die überhaupt kontrolliert
-        werden müssten. Die SP5 lebt in gedämpfter Intensität;
-        bei Kroll war die Dämpfung vollständig.</p>
-        <p class="vb-intro"><strong>c) Six-wing: Angst ohne Ausweg:</strong>
-        Der Six-wing der SP5 fügt der Isolation eine Grundangst hinzu –
-        das Gefühl, nicht sicher zu sein, immer auf der Hut sein zu müssen.
-        Bei <strong>Kroll</strong> äußerte sich diese Angst nicht als Paranoia,
-        sondern als totaler Rückzug: Wenn niemand an mich herankommt,
-        kann niemand mir etwas antun. Seine Wohnung war sein Bunker,
-        seine Einsamkeit sein Sicherheitssystem.</p>
+        <p class="vb-intro"><strong>a) Emptiness Instead of Threat:</strong>
+        The energetic effect <strong>Kroll</strong> had on conversation partners
+        was not terror or dominance, but emptiness –
+        a deep sense of absence.
+        Whoever spoke with him encountered no one.
+        The SP5 holds back energy – it gives almost nothing
+        to the outside. In Kroll's case, reception was turned off as well:
+        no resonance, no reaction, no trace of
+        understanding or interest in what the other person experienced.</p>
+        <p class="vb-intro"><strong>b) Equanimity as a Fundamental Tone:</strong>
+        <strong>Kroll</strong> appeared equanimous in all situations –
+        during his arrest, in interrogation, during his confession.
+        No outburst, no panic, no outrage.
+        This equanimous calm is the opposite of control –
+        it is the absence of impulses that would need to be controlled
+        in the first place. The SP5 lives in muted intensity;
+        in Kroll's case, the muting was total.</p>
+        <p class="vb-intro"><strong>c) Six-wing: Fear Without a Way Out:</strong>
+        The Six-wing of the SP5 adds a fundamental fear to isolation –
+        the feeling of not being safe, of always having to be on guard.
+        In <strong>Kroll's</strong> case, this fear manifested not as paranoia,
+        but as total withdrawal: if no one can get close to me,
+        no one can harm me. His apartment was his bunker,
+        his loneliness his security system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Die Eule</h3>
-        <p class="vb-intro"><strong>a) Die Eule beobachtet, greift aber nicht ein:</strong>
-        Die Eule ist das Tier der SP5 im Tierlexikon:
-        sie sieht alles, bleibt aber unsichtbar –
-        still auf ihrem Ast, wachsam, ohne sich zu zeigen.
-        Bei <strong>Kroll</strong> war diese Qualität absolut:
-        Er beobachtete seine Umgebung, ohne jemals
-        wirklich in sie einzutreten.
-        Kein Auftritt, keine Geste, kein Anspruch –
-        nur ein stilles Registrieren aus dem Schatten heraus.</p>
-        <p class="vb-intro"><strong>b) Nachtaktiv und im Verborgenen:</strong>
-        Die Eule lebt in der Stille der Nacht –
-        ihr eigentliches Dasein ist für andere kaum wahrnehmbar.
-        <strong>Krolls</strong> Taten fanden in abgelegenen Orten statt:
-        Parkanlagen, Felder, Wälder am Stadtrand.
-        Er suchte keine Bühne, keine Öffentlichkeit.
-        Was er tat, tat er im Verborgenen –
-        nicht aus Kalkül, sondern weil er ohnehin
-        in einer inneren Welt lebte, die kein Licht nach außen warf.</p>
-        <p class="vb-intro"><strong>c) Stille als Wesensmerkmal:</strong>
-        Die Eule ist kein lautes Tier – ihr Flug ist lautlos,
-        ihre Präsenz kaum spürbar, bis sie zuschlägt.
-        <strong>Krolls</strong> Lebensführung war von derselben Qualität:
-        keine Regungen, kein Drama, kein Aufsehen.
-        Was für die Eule ein Jagdprinzip ist,
-        wurde bei Kroll zum einzigen Lebensmodus:
-        vollständige Unsichtbarkeit als Grundzustand –
-        nach außen hin, und am Ende auch nach innen.</p>
+        <p class="vb-intro"><strong>a) The Owl Observes, but Does Not Intervene:</strong>
+        The owl is the animal of the SP5 in the animal dictionary:
+        it sees everything, yet remains invisible –
+        quiet on its branch, vigilant, without revealing itself.
+        In <strong>Kroll's</strong> case, this quality was absolute:
+        he observed his environment without ever
+        truly entering it.
+        No grand entrance, no gesture, no claim –
+        only a silent registering from the shadows.</p>
+        <p class="vb-intro"><strong>b) Nocturnal and Hidden:</strong>
+        The owl lives in the silence of the night –
+        its true existence is barely perceptible to others.
+        <strong>Kroll's</strong> crimes took place in secluded locations:
+        parks, fields, forests on the outskirts of the city.
+        He sought no stage, no public eye.
+        What he did, he did in secret –
+        not out of calculation, but because he lived
+        in an inner world that cast no light outward anyway.</p>
+        <p class="vb-intro"><strong>c) Silence as a Core Characteristic:</strong>
+        The owl is not a loud animal – its flight is silent,
+        its presence barely felt until it strikes.
+        <strong>Kroll's</strong> lifestyle possessed the exact same quality:
+        no emotional movements, no drama, no commotion.
+        What serves as a hunting principle for the owl
+        became Kroll's sole mode of existence:
+        complete invisibility as a baseline state –
+        outwardly, and ultimately inwardly as well.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Joachim Kroll</strong> ist in der Criminal Psychology ein Grenzfall,
-        der die selbsterhaltende Fünf in ihrer radikalsten Verfallsform zeigt.
-        Anders als Täter, die eine Fassade aufrechterhalten oder ein Motiv verfolgen,
-        war Kroll ein Mensch, dem grundlegende menschliche Schichten schlicht fehlten:
-        Empathie, Bindungsfähigkeit, moralische Bewertung des eigenen Handelns.
-        Der Six-wing verstärkte die Isolation durch Misstrauen und Angst –
-        sein einziger Schutz war totaler Rückzug.
-        Was die SP5 im gesunden Pol zu Genügsamkeit, Fokus und tiefer
-        innerer Stärke befähigt, wurde bei Kroll zur vollständigen
-        Auflösung der Grenze zwischen Selbst und Welt.
-        Er ist kein Beispiel für die SP5 als Typ –
-        er ist ihr dunkelster Abgrund.
+        <strong>Joachim Kroll</strong> is a boundary case in criminal psychology
+        that demonstrates the self-preservation Five in its most radical form of decay.
+        Unlike perpetrators who maintain a facade or pursue a motive,
+        Kroll was a person who simply lacked fundamental human layers:
+        empathy, the capacity to form bonds, a moral evaluation of his own actions.
+        The Six-wing reinforced his isolation through mistrust and fear –
+        his only protection was total withdrawal.
+        What enables the SP5 at its healthy pole to achieve frugality, focus, and deep
+        inner strength turned in Kroll into the complete
+        dissolution of the boundary between self and world.
+        He is not an example of the SP5 as a type –
+        he is its darkest abyss.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP5 – „Geiz / Avarice":</strong>
-        Claudio Naranjo beschrieb die selbsterhaltende Fünf als den Subtype,
-        der am stärksten auf die Sicherung des eigenen Überlebens
-        durch Reduktion ausgerichtet ist – weniger wollen heißt,
-        weniger von anderen abhängig zu sein.
-        Bei <strong>Kroll</strong> nahm diese Logik eine pathologische Wendung:
-        Er wollte so wenig, dass er am Ende nicht einmal mehr
-        die Menschlichkeit des anderen wahrnahm.</p>
-        <p class="vb-intro"><strong>b) Fehlende Mentalisierungsfähigkeit:</strong>
-        Forensische Gutachter bescheinigten <strong>Kroll</strong>
-        eine erheblich eingeschränkte Fähigkeit zur Mentalisierung –
-        also dazu, sich vorzustellen, dass andere Menschen
-        eine innere Welt, Gefühle und Perspektiven haben.
-        Dies ist kein spezifisches Enneagramm-Merkmal,
-        aber es erklärt, warum der SP5-Mechanismus des Rückzugs
-        bei ihm eine so extreme Form annahm:
-        Wer keine innere Welt im anderen erkennt,
-        der hat keine Grenze mehr,
-        die ihn davor schützt, den anderen zu instrumentalisieren.</p>
-        <p class="vb-intro"><strong>c) Der Six-wing als Angstsystem:</strong>
-        Die Sechs bringt der SP5 eine chronische Grundangst,
-        die sich als hypervigilantes Sicherheitsdenken äußert.
-        Bei <strong>Kroll</strong> zeigte sich dies als totale soziale Abschottung:
-        Keine Beziehung, kein Vertrauen, keine Öffnung.
-        Das Paradox: Ausgerechnet diese absolute Isolation
-        schuf den Raum, in dem die Taten möglich wurden.
-        Der Six-wing schützte ihn nicht – er schloss ihn ein.</p>
-        <p class="vb-intro"><strong>d) Geständnis als sachliche Berichterstattung:</strong>
-        <strong>Krolls</strong> Geständnisse waren aus Ermittlersicht
-        bemerkenswert präzise und kooperativ – er erinnerte sich
-        an Daten, Orte und Details ohne erkennbare emotionale Reaktion.
-        Diese sachliche Distanz ist das Fünfer-Prinzip in seiner
-        extremsten Form: Informationen werden geliefert,
-        ohne dass eine Verbindung zur erlebten Situation besteht.
-        Für <strong>Kroll</strong> schien das Erzählen kein Bekenntnis zu sein –
-        nur eine Antwort auf gestellte Fragen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP5 – „Avarice":</strong>
+        Claudio Naranjo described the self-preservation Five as the subtype
+        most focused on securing its own survival
+        through reduction – wanting less means
+        being less dependent on others.
+        In <strong>Kroll's</strong> case, this logic took a pathological turn:
+        he wanted so little that in the end he no longer even
+        perceived the humanity of others.</p>
+        <p class="vb-intro"><strong>b) Lack of Mentalization Ability:</strong>
+        Forensic evaluators confirmed that <strong>Kroll</strong> had
+        a significantly impaired capacity for mentalization –
+        that is, imagining that other human beings
+        have an inner world, feelings, and perspectives.
+        This is not a specific Enneagram trait,
+        but it explains why the SP5 mechanism of withdrawal
+        assumed such an extreme form in him:
+        whoever recognizes no inner world in another person
+        has no boundary left
+        that prevents them from instrumentalizing that person.</p>
+        <p class="vb-intro"><strong>c) The Six-wing as a Security System:</strong>
+        The Six brings a chronic baseline anxiety to the SP5,
+        which manifests as hypervigilant security thinking.
+        In <strong>Kroll's</strong> case, this showed up as total social isolation:
+        no relationship, no trust, no opening up.
+        The paradox: precisely this absolute isolation
+        created the space in which the crimes became possible.
+        The Six-wing did not protect him – it locked him in.</p>
+        <p class="vb-intro"><strong>d) Confession as Objective Reporting:</strong>
+        <strong>Kroll's</strong> confessions were remarkably precise and cooperative
+        from an investigator's perspective – he recalled
+        dates, locations, and details without discernible emotional reaction.
+        This factual distance is the Five-principle in its
+        most extreme form: information is delivered
+        without any connection to the experienced situation.
+        For <strong>Kroll</strong>, telling his story seemed not to be an admission of guilt –
+        merely an answer to questions asked.</p>
         <p class="vb-intro"><strong>e) Der Wachstumsweg der Fünf – die Acht:</strong>
         Der Wachstumspunkt der Fünf ist die Acht –
         Handlungskraft, Präsenz, das Wagnis echter Begegnung.
