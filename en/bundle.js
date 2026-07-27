@@ -20868,172 +20868,69 @@ function dennisNilsenPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
         <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Mörder von Melrose Avenue" – London 1978–1983</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Muswell Hill Murderer" – London 1978–1983</p>
       </div>
       <p class="psycho-intro">
-        <strong>Dennis Andrew Nilsen</strong>, geboren 1945 in Fraserburgh, Schottland,
-        ermordete zwischen 1978 und 1983 mindestens <strong>15 junge Männer</strong> in London.
-        Er lernte seine Opfer fast ausnahmslos in Kneipen und Pubs im Londoner West End kennen –
-        viele von ihnen Obdachlose, Ausreißer, Männer ohne sozialen Rückhalt,
-        einige homosexuell wie Nilsen selbst.
-        Er lud sie zu sich nach Hause ein, tötete sie im Schlaf oder durch Erwürgen,
-        und behielt ihre Leichen teils wochenlang in seiner Wohnung –
-        er wusch sie, kleidete sie an, hielt Zwiegespräche mit ihnen.
-        Er wurde 1983 durch Zufall entdeckt, als ein Klempner verstopfte Rohre untersuchte
-        und auf menschliche Überreste stieß. Nilsen gestand sofort.
-        Er starb 2018 im Gefängnis.
-        Was sein Fall so außergewöhnlich macht: Er tötete nicht aus Hass, nicht aus Lust,
-        nicht aus Kontrollwillen im klassischen Sinne –
-        er tötete, um nicht allein zu sein.
-        Das Enneagramm macht sichtbar, was dahinter arbeitete.
+        Dennis Andrew Nilsen, born in 1945 in Fraserburgh, Scotland, murdered at least 15 young men in London between 1978 and 1983. He met his victims almost exclusively in pubs and bars in London's West End—many of them homeless individuals, runaways, men without a social support system, some gay like Nilsen himself. He invited them to his home, killed them while they slept or by strangulation, and kept their bodies in his apartment—sometimes for weeks—washing them, dressing them, and holding conversations with them. He was discovered by chance in 1983 when a plumber investigated blocked drains and came across human remains. Nilsen confessed immediately. He died in prison in 2018. What makes his case so extraordinary: He did not kill out of hatred, nor out of lust, nor out of a desire for control in the conventional sense—he killed so as not to be alone. The Enneagram reveals the forces at work behind it.
       </p>
 
       <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dennis Nilsen</strong> wird dem <strong>Self-Preservationen Typ 1 with Two-wing</strong> zugeordnet.
-        Die selbsterhaltende Eins organisiert ihr Leben um innere Ordnung, Korrektheit
-        und die Aufrechterhaltung einer bestimmten Qualität des privaten Raums.
-        Der Two-wing verleiht ihr Wärme, Fürsorge, das Bedürfnis, gebraucht und geliebt zu werden.
-        Der Stresspunkt liegt bei der <strong>Vier</strong>:
-        tiefe Einsamkeit, Melancholie, das Gefühl, im Kern nicht liebenswert zu sein –
-        ein Schmerz, der bei Nilsen zum direkten Tatmotiv wurde.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong>
+Dennis Nilsen is categorized as a Self-Preservation Type 1 with a Two-wing. The Self-Preservation One organizes their life around inner order, correctness, and maintaining a certain quality in their personal space. The Two-wing imparts warmth, care, and the need to be needed and loved. The stress point lies at Type 4: profound loneliness, melancholy, the sense of being fundamentally unlovable—a pain that, in Nilsen's case, became the direct motive for his crimes.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Adler</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Eagle</h3>
         <p class="vb-intro">
-        Der <strong>Adler</strong> ist die Animal correspondence der selbsterhaltenden Eins.
-        Er kreist hoch, weit über dem Geschehen – mit einem Blick, der alles erfasst,
-        bewertet, in Ordnung bringt. Er ist majestätisch, präzise, vollständig auf sich selbst bezogen.
-        Er braucht keine Herde. Er braucht kein Rudel. Er braucht seinen Horst –
-        und er verteidigt ihn mit äußerster Entschlossenheit.
-        Nilsen war ein Adler ohne Nest. Eine Wohnung in London, kein Netzwerk, keine Beziehung,
-        die Bestand hatte. Der Adler kann nicht ohne seinen Raum existieren.
-        Nilsen schuf sich einen Raum, in dem niemand gehen konnte –
-        weil er die Kontrolle darüber hatte, wer blieb.
-        Der Adler fliegt allein. Nilsen ertrug das Alleinsein nicht.
-        Das ist der Widerspruch, der tötet.
+        The eagle is the animal correspondence of the Self-Preservation One. It circles high above, far removed from the ground—with a gaze that grasps everything, evaluates it, and brings it into order. It is majestic, precise, and entirely self-contained. It does not need a herd. It does not need a pack. It needs its eyrie—and defends it with utmost determination. Nilsen was an eagle without a nest. An apartment in London, no network, no lasting relationship. The eagle cannot exist without its space. Nilsen created a space in which no one could leave—because he held complete control over who stayed. The eagle flies alone. Nilsen could not bear being alone. That is the contradiction that kills.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Eins: Ordnung als Überlebensprinzip</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip:</strong>
-        Die selbsterhaltende Eins koppelt ihr Sicherheitsgefühl an innere und äußere Ordnung –
-        an die Qualität des privaten Raums, an Routinen, an das Gefühl, die Dinge
-        unter Kontrolle zu haben. Nilsen führte ein geordnetes Leben:
-        Er arbeitete als Beamter beim Arbeitsamt in London, war korrekt, verlässlich, pünktlich.
-        Er engagierte sich gewerkschaftlich. Er galt als integer.
-        Hinter dieser Fassade herrschte eine tiefe, chronische Einsamkeit –
-        die selbsterhaltende Eins, die ihren eigenen Raum so perfekt kontrolliert,
-        dass niemand wirklich hineinkommt.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: Fürsorge als Besitz:</strong>
-        Der Two-wing der selbsterhaltenden Eins ist besonders komplex:
-        Er erzeugt echtes Fürsorgebedürfnis – den Wunsch, für jemanden da zu sein,
-        gebraucht zu werden, Wärme zu geben und zu empfangen.
-        Nilsen war bekannt für seine Gastfreundschaft. Er kochte für seine Opfer.
-        Er stellte Alkohol bereit, hörte zu, schuf eine Atmosphäre des Vertrauens.
-        In der gesunden Ausprägung ist das liebevoll. In der Pathologie wird daraus
-        ein Fürsorge-Besitz: Wenn jemand gehen will, hört die Fürsorge auf –
-        und die Kontrolle beginnt. Der Two-wing schuf die Verbindung.
-        Die Eins sorgte dafür, dass sie nicht endete.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Zorn als Ordnungszwang:</strong>
-        Die Leidenschaft der Eins ist der <strong>Zorn</strong> – der stille, akkumulierte Zorn
-        auf eine Welt, die nicht dem inneren Bild entspricht.
-        Bei Nilsen richtete sich dieser Zorn nicht auf die Opfer als Personen.
-        Er richtete sich auf den Moment, in dem die Verbindung endete –
-        wenn jemand aufbrach, wenn die Wärme der Nacht vorbei war,
-        wenn er wieder allein war. Der Zorn entlud sich nicht in Wut.
-        Er entlud sich in der Entscheidung: Du gehst nicht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation One: Order as a Survival Principle</h3>
+        <p class="vb-intro"><strong>a) The Core Principle:</strong>
+The Self-Preservation One links their sense of security to inner and outer order—to the quality of their private space, to routines, and to the feeling of having things under control. Nilsen led an orderly life: He worked as a civil servant at a job center in London, and was proper, reliable, and punctual. He was active in his trade union. He was considered a man of integrity. Behind this facade lay a deep, chronic loneliness—the Self-Preservation One controlling their own space so perfectly that no one can truly enter it.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing: Care as Possession:</strong>
+The Two-wing of the Self-Preservation One is particularly complex: It generates a genuine need to care—the desire to be there for someone, to be needed, to offer and receive warmth. Nilsen was known for his hospitality. He cooked for his victims. He provided alcohol, listened, and created an atmosphere of trust. In a healthy manifestation, this is loving. In pathology, it becomes care-as-possession: When someone wants to leave, the care stops—and control begins. The Two-wing created the connection. The One ensured that it would not end.</p>
+        <p class="vb-intro"><strong>c) The Passion: Anger as a Compulsion for Order:</strong>
+The passion of Type One is Anger—the quiet, accumulated anger directed at a world that fails to match one's inner standard. In Nilsen, this anger was not directed at the victims as individuals. It was directed at the moment when the connection ended—when someone prepared to leave, when the warmth of the night was over, when he was alone once more. The anger did not discharge in rage. It discharged in the decision: You are not leaving.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 15 Morde in fünf Jahren</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 15 Murders in Five Years</h3>
         <p class="vb-intro"><strong>a) Melrose Avenue, 1978–1981:</strong>
-        Nilsens erste Taten geschahen in seiner Wohnung in der Melrose Avenue in Nordlondon.
-        Er traf seine Opfer in Pubs – Männer, die allein waren, die keinen Ort hatten,
-        wo sie hingehen konnten, die ein Angebot von Wärme und Unterkunft nicht abwiesen.
-        Er erwürgte sie im Schlaf oder mit einer Schnur, manchmal ertränkte er sie
-        in einer Schüssel mit Wasser.
-        Danach wusch er die Leiche, kleidete sie an, legte sie ins Bett.
-        Er sprach mit ihr. Er saß neben ihr.
-        Er bewahrte die Leichen auf, bis die Verwesung zwang, sie zu beseitigen:
-        Er kochte das Fleisch von den Knochen, verbrannte die Reste im Garten,
-        die Knochen zerkleinerte er und streute sie auf dem Grundstück.
-        Zwischen den Taten gab es Monate ohne Tat – dann wieder ein Opfer,
-        dann wieder Monate der Stille.</p>
+Nilsen's first crimes took place in his apartment on Melrose Avenue in North London. He met his victims in pubs—men who were alone, who had nowhere else to go, and who did not turn down an offer of warmth and shelter. He strangled them while they slept or with a cord, sometimes drowning them in a bucket of water. Afterward, he washed the body, dressed it, and placed it in bed. He spoke to it. He sat beside it. He kept the bodies until decomposition forced him to dispose of them: He boiled the flesh off the bones, burned the remains in the garden, crushed the bones, and scattered them on the property. Months passed between the crimes without incident—then another victim, followed again by months of silence.</p>
         <p class="vb-intro"><strong>b) Cranley Gardens, 1981–1983:</strong>
-        Nach dem Umzug in eine Dachgeschosswohnung in der Cranley Gardens
-        wurde die Beseitigung der Leichen schwieriger – kein Garten mehr.
-        Nilsen kochte die Körper in großen Töpfen, spülte das Fleisch die Toilette hinunter,
-        verbrannte Überreste in Mülltonnen.
-        In dieser Wohnung tötete er noch sechs weitere Männer.
-        Einige überlebten. Er ließ sie gehen – und keine erstattete Anzeige.
-        Teils weil sie sich nicht erinnerten, teils weil sie die Polizei fürchteten
-        (viele hatten unsicheren Aufenthaltsstatus oder waren obdachlos).</p>
-        <p class="vb-intro"><strong>c) Die Verhaftung – der Klempner (Februar 1983):</strong>
-        Am 9. Februar 1983 rief ein Nachbar in der Cranley Gardens einen Klempner,
-        weil die Abflussrohre verstopft waren.
-        Der Klempner fand in den Rohren Fleisch- und Knochenmaterial.
-        Er informierte die Polizei. Als die Beamten Nilsen am selben Abend auf dem Heimweg
-        von der Arbeit abfingen und nach den Rohren befragten, sagte er ruhig:
-        „Ich denke, das Fleisch käme von mehreren Menschen."
-        Er gestand in dieser Nacht 15 Morde, führte die Polizei zu den Fundorten
-        und beschrieb jeden Fall in ruhigem, bürokratischem Ton –
-        wie ein Beamter, der einen Bericht verfasst.</p>
-        <p class="vb-intro"><strong>d) Das Geständnis und der Prozess:</strong>
-        Nilsen kooperierte vollständig mit den Ermittlern. Er schrieb ausführliche
-        handschriftliche Berichte über jeden Mord – hunderte Seiten, präzise, geordnet,
-        in der Sprache eines Beamten.
-        Er erklärte sein Motiv selbst: Er habe nicht töten wollen –
-        er habe verhindern wollen, dass die Menschen gehen.
-        Ob er log, ob er selbst glaubte, was er sagte, ließ sich nie abschließend klären.
-        Er wurde 1983 wegen sechsfachen Mordes und zweifachen Mordversuchs verurteilt
-        (nur sechs Opfer konnten zweifelsfrei identifiziert werden).
-        Er starb im Mai 2018 im Gefängnis an einer Lungenembolie.</p>
+After moving to a top-floor flat on Cranley Gardens, disposing of the bodies became more difficult—there was no longer a garden. Nilsen boiled the bodies in large pots, flushed the flesh down the toilet, and burned remains in trash cans. In this flat, he killed six more men. A few survived. He let them go—and none reported it to the police (partly because they did not remember, partly out of fear of the police due to unstable legal status or homelessness).</p>
+        <p class="vb-intro"><strong>c) The Arrest – The Plumber (February 1983):</strong>
+On February 9, 1983, a neighbor at Cranley Gardens called a plumber because the drainpipes were blocked. The plumber found flesh and bone material in the pipes and notified the police. When officers intercepted Nilsen that evening on his way home from work and questioned him about the drains, he calmly replied: "I think the meat might be human." That night, he confessed to 15 murders, led the police to the locations of the remains, and described each case in a calm, bureaucratic tone—like a civil servant drafting a report.</p>
+        <p class="vb-intro"><strong>d) Confession and Trial:</strong>
+Nilsen cooperated fully with investigators. He wrote extensive handwritten reports about each murder—hundreds of pages, precise, organized, in the tone of an administrator. He explained his motive himself: He had not wanted to kill—he had wanted to prevent people from leaving. Whether he was lying or whether he truly believed what he said could never be conclusively determined. In 1983, he was convicted on six counts of murder and two counts of attempted murder (only six victims could be identified beyond a doubt). He died in prison in May 2018 from a pulmonary embolism.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Einsamkeit als Mordmotiv</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Type Four Stress: Loneliness as a Motive for Murder</h3>
         <p class="vb-intro">
-        Die Eins bewegt sich im Stress in Richtung <strong>Vier</strong> –
-        tiefe Einsamkeit, Melancholie, das Gefühl, nicht liebenswert zu sein,
-        nicht verbunden zu sein, im Kern allein.
-        Bei Nilsen war dieser Viererstress nicht eine Reaktion auf äußere Ereignisse –
-        er war sein Grundzustand.
-        Er beschrieb sein Leben als eine anhaltende, unerträgliche Leere.
-        Die Taten unterbrachen diese Leere: In den Stunden und Tagen nach dem Tod
-        des Opfers war er nicht allein. Er hatte jemanden.
-        Die Vier-Energie der desintegrierten selbsterhaltenden Eins
-        sucht nicht Zerstörung – sie sucht Verbindung.
-        Sie findet sie auf dem einzigen Weg, der ihr noch offen stand.
+        Under stress, Type One moves toward Type Four—profound loneliness, melancholy, the feeling of being unlovable, disconnected, fundamentally alone. In Nilsen, this Type Four stress was not a reaction to external events—it was his baseline state. He described his life as an ongoing, unbearable void. The crimes interrupted this void: In the hours and days following a victim's death, he was not alone. He had someone. The Four energy of a disintegrated Self-Preservation One does not seek destruction—it seeks connection. It finds it through the only avenue that remained open to it.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Dennis Nilsen ist der seltenste Fall unter den Serienmördern im Enneagramm:
-        einer, dessen Primärmotiv nicht Macht, nicht Lust, nicht Kontrolle war –
-        sondern das Aushalten von Einsamkeit.
-        Die selbsterhaltende Eins braucht einen perfekten, geordneten privaten Raum.
-        Der Two-wing braucht Verbindung, Wärme, das Gefühl, gebraucht zu werden.
-        Beide zusammen erzeugten bei Nilsen eine unerträgliche Spannung:
-        Er konnte Menschen nicht wirklich binden – und konnte das Endenvon Verbindungen nicht ertragen.
-        Der Adler, der keinen Horst hat, kreist endlos.
-        Nilsen baute sich einen – aus dem, was er nicht gehen lassen konnte.
+        Dennis Nilsen is the rarest case among serial killers in the Enneagram: someone whose primary motive was not power, not lust, nor control—but enduring loneliness. The Self-Preservation One requires a perfect, orderly personal space. The Two-wing requires connection, warmth, and the feeling of being needed. Together, they generated an unbearable tension in Nilsen: He could not genuinely bind people to him—and he could not bear the ending of connections. The eagle without an eyrie circles endlessly. Nilsen built himself one—out of what he could not let go.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Classification</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SP1w2 – Self-Preservatione Eins with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Zorn – der stille Ordnungszwang, der nicht erlaubte, dass Verbindungen endeten.<br>
-        <strong>Stresspunkt:</strong> Vier – chronische Einsamkeit, Melancholie, das Gefühl fundamentaler Unverbundenheit.<br>
-        <strong>Animal correspondence:</strong> Adler – majestätisch, präzise, vollständig auf den eigenen Raum fixiert.<br>
-        <strong>Besonderheit:</strong> Kooperierte vollständig – schrieb hunderte Seiten Selbstanalyse; benannte Einsamkeit als Tatmotiv.<br>
-        <strong>Gestorben:</strong> Mai 2018 im Gefängnis, Lungenembolie.
+        <strong>Subtype:</strong> SP1w2 – Self-Preservation One with Two-wing.<br>
+        <strong>Passion:</strong> Anger – the quiet compulsion for order that did not allow connections to end.<br>
+        <strong>Stress Point:</strong> Four – chronic loneliness, melancholy, the sense of fundamental disconnection.<br>
+        <strong>Animal Correspondence:</strong> Eagle – majestic, precise, entirely fixated on its own space.<br>
+        <strong>Distinctive Feature:</strong> Cooperated fully – wrote hundreds of pages of self-analysis; identified loneliness as the motive for his crimes.<br>
+        <strong>Died:</strong> May 2018 in prison, pulmonary embolism.
         </p>
       </div>
 
@@ -21044,13 +20941,13 @@ function dennisNilsenPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Dennis Nilsen wurde 1983 wegen sechs Morden und zwei Totschlagsdelikten zu lebenslanger Haft verurteilt und starb 2018 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Dennis Nilsen was sentenced to life imprisonment in 1983 for six counts of murder and two counts of manslaughter and died in custody in 2018. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SP1w9)"},
-        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – ähnliches Tatmuster"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Mikhail Popkov (SP1w9)"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – Similar Crime Pattern"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
       ])}
     </div>
