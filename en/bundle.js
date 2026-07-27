@@ -878,6 +878,14 @@ text.knowledgeCard.youtubeOpen = "Open on YouTube";
 text.knowledgeCard.linkPending = "Link to be assigned";
 text.knowledgeCard.linkPendingText = "This slot is planned. The YouTube ID will be added after title verification.";
 text.knowledgeCard.mediaResources = "Media Resources";
+text.knowledgeCard.review = "Still to Review";
+text.knowledgeCard.noRequiredReviews = "No open required reviews currently flagged for this screenshot batch.";
+text.knowledgeCard.sourceCoverage = "Complete Source Structure";
+text.knowledgeCard.sourceCoverageNote = "Each source panel is tracked as its own app layer. The list shows which areas per page still need to be transferred into knowledge cards, practice sections, remedy cards, or media modules.";
+text.knowledgeCard.visualPages = "Original Panels from PDF / Keynote";
+text.knowledgeCard.contentModules = "Knowledge Cards Extracted from the Panels";
+text.knowledgeCard.remedyCards = "Remedy Resources as Individual Cards";
+text.knowledgeCard.remedyCardsNote = "The texts and assignments are stored as data records. The images are maintained as fully visible, photorealistic app visuals and remain linked to the source panels.";
 text.routes.tcm.eyebrow       = "TCM & Enneagram";
 text.routes.tcm.headline      = "The Nine Meridians of the Enneagram";
 text.routes.tcm.lead          = "Each Enneagram type is assigned a TCM meridian – an energy channel that mirrors the essence of its inner dynamic. Meridians reveal where in the body the passion resides and how healing can begin energetically.";
@@ -8122,6 +8130,82 @@ const TWOPOINTS_EN = {
     microInstructions: ["Change nothing.","Correct nothing.","Just hold and breathe.","Let the breath flow calmly.","Stay in your awareness."]
   },
 };
+
+const PRACTICE_EN = Object.fromEntries(
+  Object.entries(TWOPOINTS_EN).map(([code, tp]) => [code, `2-Point Integration: ${tp.point1.name} and ${tp.point2.name}.`])
+);
+
+const TITLE_EN = {
+  se1: "The Self-Preservation One", so1: "The Social One", sx1: "The Sexual One",
+  se2: "The Self-Preservation Two", so2: "The Social Two", sx2: "The Sexual Two",
+  se3: "The Self-Preservation Three", so3: "The Social Three", sx3: "The Sexual Three",
+  se4: "The Self-Preservation Four", so4: "The Social Four", sx4: "The Sexual Four",
+  se5: "The Self-Preservation Five", so5: "The Social Five", sx5: "The Sexual Five",
+  se6: "The Self-Preservation Six", so6: "The Social Six", sx6: "The Sexual Six",
+  se7: "The Self-Preservation Seven", so7: "The Social Seven", sx7: "The Sexual Seven",
+  se8: "The Self-Preservation Eight", so8: "The Social Eight", sx8: "The Sexual Eight",
+  se9: "The Self-Preservation Nine", so9: "The Social Nine", sx9: "The Sexual Nine",
+};
+
+const SUBTYPE_Q_EN = {
+  se1: "How can I act rightly and preserve my integrity, without hardening inwardly?",
+  so1: "How can I give orientation and integrity, without judging others or myself?",
+  sx1: "How can I live my passion for what is right, without creating pressure, control, or harshness?",
+  se2: "How can I give shelter and care, without overriding my own needs?",
+  so2: "How can I connect and support people, without deriving my worth from being needed?",
+  sx2: "How can I allow deep closeness and love, without having to secure it through giving, alluring, or caretaking?",
+  se3: "How can I be effective and reliable, without proving my worth through achievement and functioning?",
+  so3: "How can I be visible and contribute, without defining myself through success, role, or recognition?",
+  sx3: "How can I be attractive and vibrant, without having to stage myself for love, resonance, or admiration?",
+  se4: "How can I carry my depth and vulnerability, without defining myself through pain or lack?",
+  so4: "How can I show myself in my distinctiveness, without comparing myself to others or feeling excluded?",
+  sx4: "How can I live intensity and authenticity, without needing drama, competition, or emotional escalation?",
+  se5: "How can I protect my space and energy, without withdrawing from life?",
+  so5: "How can I share my knowledge and give orientation, without securing myself through distance or superiority?",
+  sx5: "How can I allow deep connection, without losing myself in secrecy, withdrawal, or inner control?",
+  se6: "How can I find security and stability, without permanently safeguarding myself?",
+  so6: "How can I contribute loyally and create orientation, without handing my inner authority to rules or groups?",
+  sx6: "How can I be courageous and clear, without compensating for fear through fighting, harshness, or distrust?",
+  se7: "How can I experience joy, pleasure, and possibilities, without evading limitation or inner emptiness?",
+  so7: "How can I inspire and shape the future, without scattering myself across ideas, projects, or group activity?",
+  sx7: "How can I live intensity and enthusiasm, without avoiding depth, limitation, or disillusionment?",
+  se8: "How can I live strength and self-determination, without warding off softness, trust, or vulnerability?",
+  so8: "How can I protect and lead, without turning responsibility into control or possession?",
+  sx8: "How can I consciously live intensity and power, without letting closeness become a test of strength?",
+  se9: "How can I preserve calm and stability, without numbing myself or making myself invisible?",
+  so9: "How can I foster harmony and belonging, without losing my own position?",
+  sx9: "How can I allow merging and love, without abandoning myself in the other?",
+};
+
+const ESSENCE_EN = {
+  se1: { title: "Integration Potential: Calm & Integrity", sentence: "Order arises from presence, not from control." },
+  so1: { title: "Integration Potential: Compassion & Wisdom", sentence: "True change arises from wisdom, not from judgment." },
+  sx1: { title: "Integration Potential: Passion & Devotion", sentence: "True change begins when passion serves a higher purpose." },
+  se2: { title: "Integration Potential: Self-Care & Fullness", sentence: "True care begins with you, because only from a full heart can you truly give." },
+  so2: { title: "Integration Potential: Heart & Connectedness", sentence: "I give out of love and receive with an open heart." },
+  sx2: { title: "Integration Potential: Depth & Devotion", sentence: "I give myself fully and receive genuine connection." },
+  se3: { title: "Integration Potential: Flexibility & Inner Stability", sentence: "I adapt without losing myself, and find my footing within." },
+  so3: { title: "Integration Potential: Impact & Excellence", sentence: "I use my abilities for the good of the whole and inspire others through my genuine being." },
+  sx3: { title: "Integration Potential: Impact & Attraction", sentence: "I am enough even when I&rsquo;m not performing &ndash; my genuine presence attracts." },
+  se4: { title: "Integration Potential: Authenticity & Inner Peace", sentence: "Peace arises when you stop denying yourself." },
+  so4: { title: "Integration Potential: Authenticity & Meaningful Connection", sentence: "I am valuable exactly as I am. In authenticity, I inspire genuine connection." },
+  sx4: { title: "Integration Potential: Depth & Uniqueness", sentence: "I am unique &ndash; and that is exactly where my connection to the world lies." },
+  se5: { title: "Integration Potential: Knowledge & Inner Security", sentence: "I trust my knowledge and choose what truly serves me." },
+  so5: { title: "Integration Potential: Sharing Knowledge & Building Connections", sentence: "I share my knowledge in connection and thereby strengthen the whole." },
+  sx5: { title: "Integration Potential: Trust & Vitality", sentence: "I am allowed to show myself and connect, without losing myself." },
+  se6: { title: "Integration Potential: Courage & Trust", sentence: "I choose trust over fear, and courage over control." },
+  so6: { title: "Integration Potential: Belonging & Trust", sentence: "I choose trust over fear, and connectedness over control." },
+  sx6: { title: "Integration Potential: Courage & Unconditional Protection", sentence: "I choose trust over fear, and connection over control." },
+  se7: { title: "Integration Potential: Joy of Life & Abundance of Resources", sentence: "I choose life in its full depth and offer my joy to the world." },
+  so7: { title: "Integration Potential: Joy of Life & Inspiring Connection", sentence: "I choose life in its full depth and offer my joy to the world." },
+  sx7: { title: "Integration Potential: Joy of Life & Deep, Fulfilling Connections", sentence: "I dive deep into life and allow myself genuine connectedness." },
+  se8: { title: "Integration Potential: Self-Determination & Inner Strength", sentence: "I use my strength to protect, to shape, and to strengthen life." },
+  so8: { title: "Integration Potential: Mature Strength & Responsible Leadership", sentence: "I use my strength wisely, to protect, to lead, and to shape life." },
+  sx8: { title: "Integration Potential: Magnetic Force & Sovereign Intensity", sentence: "I use my magnetic force to love, to protect, and to experience life in its depth." },
+  se9: { title: "Integration Potential: Inner Calm & Stable Presence", sentence: "I use my strength to live in inner peace and to shape life consciously." },
+  so9: { title: "Integration Potential: Connecting Strength & Composed Presence", sentence: "I use my strength to live in connection and to shape life consciously." },
+  sx9: { title: "Integration Potential: Peacemaking & Universal Connectedness", sentence: "I use my strength to live love, compassion, and wisdom, and to honor life in its unity." },
+};
 function spuerenInner(entry, sp) {
   const blocks = [];
   // Profilbild (Seite 1) — zeigt Prototypen, Blickqualität, Körpersignatur
@@ -8427,13 +8511,19 @@ function knowledgePage() {
 
 function knowledgeCard(item) {
   const labels = text.knowledgeCard;
+  const codeKey = (item.code || "").toLowerCase();
+  const en = SUBTYPES_EN[codeKey] || {};
+  const titleEn = TITLE_EN[codeKey];
+  const organismQEn = ORGANISM_Q_EN[item.organismQuestion] || item.organismQuestion;
+  const lifeThemeEn = en.lifeTheme || item.lifeTheme;
+  const essenceQualitiesEn = en.essenceQualities || (item.essence ? item.essence.qualities : []);
   return `
     <article class="knowledge-card ${item.visualPages ? "knowledge-card--expanded" : ""}">
       <div class="knowledge-card__top">
         <span>${enCode(item.code)}</span>
         <em class="${item.status === "needs_review" ? "needs-review" : ""}">${statusLabel(item.status)}</em>
       </div>
-      <h2>${item.title}</h2>
+      <h2>${titleEn || item.title}</h2>
       <p class="animal">${labels.animalPrefix} ${item.animal}</p>
       <p class="source-line">${item.pages}</p>
       ${subtypeDetails[item.code.toLowerCase()] ? `<button class="card-open" data-route="subtype/${item.code.toLowerCase()}">${text.subtypePage.meinKompassTitle} open →</button>` : ""}
@@ -8442,23 +8532,23 @@ function knowledgeCard(item) {
       ${item.remedyCards ? remedyCardSection(item.remedyCards) : ""}
       <div class="knowledge-section organism">
         <strong>${labels.organismQuestion}</strong>
-        <p>${item.organismQuestion}</p>
+        <p>${organismQEn}</p>
       </div>
       <div class="knowledge-section subtype-question">
         <strong>${labels.subtypeQuestion}</strong>
-        <p>${item.subtypeQuestion}</p>
+        <p>${SUBTYPE_Q_EN[codeKey] || item.subtypeQuestion}</p>
       </div>
       <div class="knowledge-section">
         <strong>${labels.coreSentence}</strong>
-        <p>${item.coreSentence_en || item.coreSentence}</p>
+        <p>${en.integrationSentence || item.coreSentence_en || item.coreSentence}</p>
       </div>
       <div class="knowledge-section">
         <strong>${labels.lifeTheme}</strong>
-        <ul>${item.lifeTheme.map((entry) => `<li>${entry}</li>`).join("")}</ul>
+        <ul>${lifeThemeEn.map((entry) => `<li>${entry}</li>`).join("")}</ul>
       </div>
       <div class="knowledge-section">
         <strong>${labels.practice}</strong>
-        <p>${item.practice}</p>
+        <p>${PRACTICE_EN[codeKey] || item.practice}</p>
       </div>
       ${item.signature ? `
         <div class="knowledge-section">
@@ -8468,9 +8558,9 @@ function knowledgeCard(item) {
       ` : ""}
       ${item.essence ? `
         <div class="knowledge-section essence-box">
-          <strong>${item.essence.title}</strong>
-          <p>${item.essence.sentence}</p>
-          <ul>${item.essence.qualities.map((entry) => `<li>${entry}</li>`).join("")}</ul>
+          <strong>${(ESSENCE_EN[codeKey] || {}).title || item.essence.title}</strong>
+          <p>${(ESSENCE_EN[codeKey] || {}).sentence || item.essence.sentence}</p>
+          <ul>${essenceQualitiesEn.map((entry) => `<li>${entry}</li>`).join("")}</ul>
         </div>
       ` : ""}
       ${item.woundBehindPassion ? woundBehindPassionSection(item.woundBehindPassion, item.code) : ""}
@@ -8733,6 +8823,8 @@ function remedyCardSection(cards) {
   `;
 }
 
+const BLOCK_LABEL_EN = {"2-Punkte-Integration": "2-Point Integration", "Anwendungsanleitung": "Application Instructions", "Archetypische Essenz": "Archetypal Essence", "Archetypisches Tier": "Archetypal Animal", "Atemrhythmus": "Breathing Rhythm", "Aufmerksamkeit": "Attention", "Ausstrahlung": "Radiance", "Bachblüte": "Bach Flower", "Bauch": "Belly", "Bedürfnisse pro Punkt": "Needs per Point", "Bewegungsinitiierung": "Movement Initiation", "Bewusstseinsraum": "Space of Awareness", "Beziehungsebene": "Relationship Level", "Blickfokus": "Gaze Focus", "Blickqualität": "Gaze Quality", "Edelstein": "Gemstone", "Finger": "Finger", "Flügel": "Wing", "Fuß": "Foot", "Fußzeile / Subtypbeschreibung": "Footer / Subtype Description", "Gesicht": "Face", "Grundtension": "Basic Tension", "Grundthema": "Core Theme", "Hand": "Hand", "Handposition / Körperabbildung": "Hand Position / Body Diagram", "Heilmittel-Kompass": "Remedy Compass", "Integration": "Integration", "Integration bedeutet": "Integration Means", "Integrationspotenzial": "Integration Potential", "Integrationssatz": "Integration Sentence", "Integrationsweg": "Path of Integration", "Kernsatz": "Core Sentence", "Kiefer & Nacken": "Jaw & Neck", "Kontaktstil": "Contact Style", "Körperarbeit / Akupressur": "Body Work / Acupressure", "Körperorganisation": "Body Organization", "Lebensfeld / Kernsatz / Ressource": "Life Field / Core Sentence / Resource", "Lebensfokus": "Life Focus", "Lebensthema": "Life Theme", "Leidenschaft": "Passion", "Leitquote": "Guiding Quote", "Mikrospannung": "Micro-Tension", "Mineralstoff-Impuls": "Mineral Impulse", "Mundlinie": "Mouth Line", "Nervensystem-Regulation": "Nervous System Regulation", "Ohr": "Ear", "Organismusfrage": "Core Organism Question", "Problem": "Problem", "Prototypen": "Prototypes", "Punkt 1": "Point 1", "Punkt 2": "Point 2", "Relaxing & Healing Music": "Relaxing & Healing Music", "Ressourcenfeld": "Resource Field", "Songs / Medien": "Songs / Media", "Spaltung / innerer Konflikt": "Split / Inner Conflict", "Spannungsverteilung": "Tension Distribution", "Stirnspannung": "Forehead Tension", "Tee": "Tea", "Thema": "Theme", "Tierentsprechung": "Animal Correspondence", "Typische Haltung & Ausdruck": "Typical Posture & Expression", "Verkörperte Signatur": "Embodied Signature", "Vorgehensweise": "Approach", "Wendepunkt": "Turning Point", "Wirkung auf Lebenskraft und Leidenschaft": "Effect on Vital Force and Passion", "Wirkweise Enneagramm-Homöopathie": "How Enneagram Homeopathy Works", "Wirkweise Homöopathie": "How Homeopathy Works", "Ziel": "Goal", "Zuordnungshinweis": "Assignment Note", "archetypische Natur": "archetypal nature", "energetische Temperatur": "energetic temperature", "homöopathisches Einzelmittel": "single homeopathic remedy", "innere Motivation": "inner motivation", "interaktive Elemente": "interactive elements", "mentale & emotionale Haltung": "mental & emotional attitude", "männlicher Prototyp": "male prototype", "neue Fähigkeiten": "new abilities", "unbewusste Strategie": "unconscious strategy", "verkörperte Qualität": "embodied quality", "vollkommen still sitzen": "sitting completely still", "weiblicher Prototyp": "female prototype"};
+
 function sourceCoverageSection(pages) {
   const labels = text.knowledgeCard;
   return `
@@ -8743,10 +8835,10 @@ function sourceCoverageSection(pages) {
         ${pages.map((page) => `
           <article class="source-page-card">
             <div class="source-page-card__head">
-              <h3>${page.page}</h3>
+              <h3>${(page.page || "").replace("Seite", "Page").replace("Überblick", "Overview").replace(/^Typ /, "Type ")}</h3>
               ${page.status ? `<span class="${page.status}">${coverageStatusLabel(page.status)}</span>` : ""}
             </div>
-            <ul>${page.blocks.map((block) => `<li>${block}</li>`).join("")}</ul>
+            <ul>${page.blocks.map((block) => `<li>${BLOCK_LABEL_EN[block] || block}</li>`).join("")}</ul>
           </article>
         `).join("")}
       </div>
@@ -34386,7 +34478,7 @@ function subtypeChartsPage() {
           ${thumb ? `<img src="${thumb}" alt="${c} Vorschau" loading="lazy" style="width:100%;border-radius:6px 6px 0 0;display:block;" onerror="this.style.display='none'" />` : ""}
           <div style="padding:.6rem .75rem .75rem;">
             <span style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${tc};">${instLabels[inst]}</span>
-            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title || c.toUpperCase()}</p>
+            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title_en || e?.title || c.toUpperCase()}</p>
             <p style="margin:.15rem 0 0;font-size:.75rem;color:#888;">${e?.visualPages?.length || 0} Charts</p>
           </div>
         </button>
@@ -38173,7 +38265,7 @@ function subtypeSchaubilderPage() {
           ${thumb ? `<img src="${thumb}" alt="${c} Vorschau" loading="lazy" style="width:100%;border-radius:6px 6px 0 0;display:block;" onerror="this.style.display='none'" />` : ""}
           <div style="padding:.6rem .75rem .75rem;">
             <span style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${tc};">${instLabels[inst]}</span>
-            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title || c.toUpperCase()}</p>
+            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title_en || e?.title || c.toUpperCase()}</p>
             <p style="margin:.15rem 0 0;font-size:.75rem;color:#888;">${e?.visualPages?.length || 0} charts</p>
           </div>
         </button>
