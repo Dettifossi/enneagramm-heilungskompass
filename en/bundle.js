@@ -21505,244 +21505,94 @@ function dennisRaderPortraitPage() {
         <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Dennis Lynn Rader</strong>, geboren am 9. März 1945 in Pittsburg, Kansas,
-        ist bekannt als der BTK-Killer – ein Kürzel, das er selbst prägte: „Bind, Torture, Kill"
-        (Fesseln, Foltern, Töten). Zwischen 1974 und 1991 ermordete er zehn Menschen
-        in der Umgebung von Wichita, Kansas. Jahrzehntelang blieb er unentdeckt –
-        als Kirchenratsvorsitzender der Christ Lutheran Church in Park City,
-        als kommunaler Ordnungsbeauftragter, als Ehemann und Vater zweier Kinder.
-        Im Jahr 2005 wurde er verhaftet, nachdem er nach 25 Jahren Schweigen erneut
-        begann, Botschaften an Polizei und Medien zu schicken – und auf einer Diskette
-        digitale Spuren hinterließ, die zu seiner Kirche führten. Er wurde zu zehnmal
-        lebenslanger Haft ohne Bewährung verurteilt. Sein Fall gilt als Lehrbuchbeispiel
-        für die vollständige Spaltung einer Persönlichkeit.
+        Dennis Lynn Rader, born on March 9, 1945, in Pittsburg, Kansas, is known as the BTK Killer—an acronym he coined himself: "Bind, Torture, Kill." Between 1974 and 1991, he murdered ten people in the vicinity of Wichita, Kansas. For decades, he remained undetected—serving as the president of the church council at Christ Lutheran Church in Park City, a municipal compliance officer, a husband, and a father of two children. In 2005, he was arrested after he broke 25 years of silence and resumed sending messages to the police and media—leaving digital footprints on a floppy disk that led directly to his church. He was sentenced to ten consecutive life terms without the possibility of parole. His case is considered a textbook example of the complete splitting of a personality.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dennis Rader</strong> wird der <strong>Self-Preservationen Eins with Nine-wing</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer, aufgestauter Groll gegen innere Unvollkommenheit und gegen eine Welt,
-        die als ungerecht oder unkontrollierbar erlebt wird. Die selbsterhaltende Eins (SP1)
-        richtet diese Energie auf materielle Sicherheit, praktische Kontrolle und
-        die Aufrechterhaltung eines tadellosen äußeren Bildes. Der Nine-wing verleiht
-        ihr Geduld, Angepasstheit und eine scheinbare Wärme, die das innere Brodeln
-        vollständig verbirgt. Bei Rader führte diese Kombination zu einer der
-        akribischsten und gleichzeitig rätselhaftesten Täterbiografien der amerikanischen
-        Kriminalgeschichte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong>
+Dennis Rader is assigned to the Self-Preservation One with Nine-wing in the Enneagram. The passion of Type One is anger—a deep, pent-up resentment against inner imperfection and against a world perceived as unjust or uncontrollable. The Self-Preservation One (SP1) directs this energy toward material security, practical control, and the maintenance of an irreproachable external image. The Nine-wing lends patience, adaptability, and an apparent warmth that completely conceals the inner turmoil. In Rader's case, this combination resulted in one of the most meticulous and simultaneously enigmatic perpetrator biographies in American criminal history.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
-        <p class="vb-intro"><strong>a) Prüfend und regelorientiert:</strong>
-        Raders Blick war der eines Menschen, der Abweichungen registriert.
-        Als kommunaler Ordnungsbeauftragter schaute er buchstäblich beruflich
-        nach Verstößen – ungepflegte Grundstücke, fehlerhafte Bauvorschriften,
-        unangemeldete Hunde. Diese kontrollierende Qualität des Blicks ist
-        ein Kernmerkmal der Eins: die Welt als Feld der Bewertung.</p>
-        <p class="vb-intro"><strong>b) Freundlich und unauffällig:</strong>
-        In seiner sozialen Umgebung wirkte Rader warm und engagiert –
-        der Nachbar, der hilft, der Kirchenmann, der sich kümmert.
-        Der Nine-wing gibt der Eins eine soziale Zugänglichkeit,
-        die die innere Schärfe vollständig kaschiert.
-        Niemand sah einen gefährlichen Menschen.</p>
-        <p class="vb-intro"><strong>c) Ohne erkennbares Bedrohungspotenzial:</strong>
-        Bekannte und Kollegen beschrieben Rader als gewöhnlich und manchmal
-        sogar etwas langweilig. Diese absolute Unauffälligkeit ist das
-        Kennzeichen der SP1w9 in ihrer dunkelsten Ausprägung: Die Gefährlichkeit
-        liegt vollständig unterhalb jeder wahrnehmbaren Oberfläche.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Scrutinizing and Rule-Oriented:</strong>
+Rader's gaze was that of a person who registers deviations. As a municipal compliance officer, he literally looked for violations for a living—unkempt properties, building code infractions, unregistered dogs. This controlling quality of the gaze is a core characteristic of Type One: the world as a field of evaluation.</p>
+        <p class="vb-intro"><strong>b) Friendly and Inconspicuous:</strong>
+In his social environment, Rader appeared warm and committed—the helpful neighbor, the caring churchman. The Nine-wing gives Type One a social accessibility that completely disguises its inner sharpness. Nobody saw a dangerous person.</p>
+        <p class="vb-intro"><strong>c) Without Identifiable Threat Potential:</strong>
+Acquaintances and colleagues described Rader as ordinary and sometimes even somewhat boring. This absolute inconspicuousness is the hallmark of the SP1w9 in its darkest expression: the dangerousness resides entirely beneath any perceptible surface.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Das Doppelleben als System:</strong>
-        <strong>Rader</strong> führte sein Leben in zwei vollständig getrennten Sphären –
-        dem bürgerlichen Dennis und dem BTK. Diese Trennung war nicht zufällig,
-        sondern systematisch gewollt: Er legte Akten an, bezeichnete seine
-        Opfer als „Projekte" und dokumentierte seine Taten mit bürokratischer
-        Sorgfalt. Das Doppelleben war nicht Begleiterscheinung – es war
-        Methode, Selbstschutz und Kontrollmechanismus in einem.</p>
-        <p class="vb-intro"><strong>b) Regelorientierung als Lebensthema:</strong>
-        <strong>Rader</strong> machte Regeln zu seinem Beruf. Als Ordnungsbeauftragter
-        war er bekannt dafür, selbst geringfügige Verstöße unnachgiebig
-        zu verfolgen – Nachbarn beklagten seine Hartnäckigkeit.
-        Diese Rigidität ist ein klassisches Einser-Muster: Die Eins
-        glaubt an Regeln, an Korrektheit, an die Notwendigkeit der Ordnung –
-        und vertritt diese Überzeugung ohne Spielraum.</p>
-        <p class="vb-intro"><strong>c) „Factor X" – die Spaltung als Konzept:</strong>
-        <strong>Rader</strong> entwickelte eine eigene Begrifflichkeit für sein
-        inneres Erleben: Er nannte den Teil, der für die BTK-Taten verantwortlich
-        war, „Factor X" – eine Art innere Entität, die er von seinem
-        bewussten Selbst trennte. Diese konzeptuelle Selbstentlastung ist
-        ein Extremfall des Einser-Mechanismus: Die Eins duldet keine
-        innere Unvollkommenheit und löst den Widerspruch durch Spaltung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Double Life as a System:</strong>
+Rader led his life in two completely separate spheres—civilian Dennis and BTK. This separation was not accidental, but systematically intentional: he created files, referred to his victims as "projects," and documented his crimes with bureaucratic diligence. The double life was not a side effect—it was a method, self-protection, and a control mechanism all in one.</p>
+        <p class="vb-intro"><strong>b) Rule-Orientation as a Life Theme:</strong>
+Rader made rules his profession. As a compliance officer, he was known for relentlessly pursuing even minor infractions—neighbors complained about his tenacity. This rigidity is a classic Type One pattern: the One believes in rules, correctness, and the necessity of order—and upholds this conviction without compromise.</p>
+        <p class="vb-intro"><strong>c) "Factor X"—Splitting as a Concept:</strong>
+Rader developed his own terminology for his inner experience: he called the part responsible for the BTK crimes "Factor X"—a kind of inner entity that he detached from his conscious self. This conceptual self-exoneration is an extreme case of the Type One mechanism: Type One tolerates no inner imperfection and resolves the contradiction through splitting.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Akribische Planung als Einser-Perfektionismus:</strong>
-        <strong>Rader</strong> bezeichnete seine Taten intern als „Projekte" und legte
-        dazu detaillierte Unterlagen an – Skizzen, Zeichnungen, Notizen.
-        Er beobachtete Opfer über Monate, erkundete Fluchtwege und
-        plante Alternativszenarien. Diese methodische Sorgfalt ist
-        Einser-Perfektionismus in seiner dunkelsten Ausprägung:
-        Die Eins will es richtig machen – auch dort, wo „richtig"
-        keine moralische Bedeutung mehr trägt.</p>
-        <p class="vb-intro"><strong>b) Das Verlangen nach Anerkennung als Bruchstelle:</strong>
-        <strong>Rader</strong> unterscheidet sich in einem zentralen Punkt von anderen
-        SP1w9-Profilen: Er wollte als BTK bekannt sein. Er schrieb Briefe
-        an Polizei und Medien, prägte den Begriff BTK selbst und kehrte
-        nach 25-jährigem Schweigen zurück – weil er das Gefühl hatte,
-        vergessen zu werden. Dieses Geltungsbedürfnis ist für die SP1
-        untypisch, aber psychologisch erklärbar: Es ist der aufgestaute
-        Zorn, der Ausdruck sucht – nicht im Ausbruch, sondern in
-        der Forderung nach Sichtbarkeit.</p>
-        <p class="vb-intro"><strong>c) Kirchenengagement als Selbstbild:</strong>
-        <strong>Rader</strong> war nicht nur Mitglied, sondern Vorsitzender des
-        Kirchenrats seiner Gemeinde. Dieses Engagement war kein bloße
-        Tarnung – es entsprach seinem Selbstbild als anständiger,
-        gottesfürchtiger Mensch. Die Eins braucht das innere Ja
-        zu sich selbst; das religiöse Amt lieferte es. BTK war
-        „Factor X" – der Kirchenmann war das wahre Ich.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
+        <p class="vb-intro"><strong>a) Meticulous Planning as Type One Perfectionism:</strong>
+Rader internally referred to his crimes as "projects" and maintained detailed files on them—sketches, drawings, notes. He observed victims over months, scouted escape routes, and planned alternative scenarios. This methodical diligence is Type One perfectionism in its darkest manifestation: Type One wants to do it right—even where "right" no longer carries any moral meaning.</p>
+        <p class="vb-intro"><strong>b) The Desire for Recognition as a Breaking Point:</strong>
+Rader differs in one central point from other SP1w9 profiles: he wanted to be known as BTK. He wrote letters to the police and media, coined the acronym BTK himself, and returned after 25 years of silence—because he felt he was being forgotten. This need for recognition is atypical for SP1, but psychologically understandable: it is pent-up anger seeking expression—not through an outburst, but through a demand for visibility.</p>
+        <p class="vb-intro"><strong>c) Church Involvement as Self-Image:</strong>
+Rader was not merely a member, but the president of his congregation's church council. This involvement was not a mere disguise—it corresponded to his self-image as a decent, God-fearing person. Type One requires inner self-approval; the religious office provided it. BTK was "Factor X"—the churchman was the true self.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der normale Nachbar:</strong>
-        <strong>Rader</strong> war in seiner Gemeinde bekannt und geschätzt –
-        nicht auffällig beliebt, aber solide präsent. Der Kirchenmann,
-        der Ordnungshüter, der Familienmensch. Diese Gesamtwirkung
-        war so überzeugend, dass selbst enge Bekannte nach seiner
-        Verhaftung von echter Fassungslosigkeit berichteten.</p>
-        <p class="vb-intro"><strong>b) Autorität durch Amt:</strong>
-        Beide seiner öffentlichen Rollen – kommunaler Ordnungsbeauftragter
-        und Kirchenratsvorsitzender – verliehen ihm legitime Autorität.
-        Die Eins bewegt sich gern in institutionellen Strukturen:
-        Sie respektiert Hierarchien und sucht Positionen, in denen
-        Korrektheit belohnt wird. Rader nutzte diese Positionen
-        auch als psychologische Stabilisierung seiner bürgerlichen Identität.</p>
-        <p class="vb-intro"><strong>c) Kontrolliert und verlässlich:</strong>
-        In allen Kontexten wirkte Rader beherrscht und zuverlässig.
-        Diese Gesamtwirkung ist das Ergebnis jahrzehntelanger
-        Selbstkontrolle: Die Eins unterdrückt, ordnet und kontrolliert –
-        nach außen sichtbar als Verlässlichkeit, nach innen als
-        Druck, der nach Entladung sucht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) The Normal Neighbor:</strong>
+Rader was known and appreciated in his community—not conspicuously popular, but solidly present. The churchman, the officer of order, the family man. This overall impression was so convincing that even close acquaintances expressed genuine disbelief following his arrest.</p>
+        <p class="vb-intro"><strong>b) Authority Through Office:</strong>
+Both of his public roles—municipal compliance officer and church council president—conferred legitimate authority upon him. Type One moves comfortably within institutional structures: it respects hierarchies and seeks positions where correctness is rewarded. Rader also used these positions to psychologically stabilize his respectable identity.</p>
+        <p class="vb-intro"><strong>c) Controlled and Reliable:</strong>
+In all contexts, Rader appeared composed and dependable. This overall impression was the result of decades of self-control: Type One suppresses, organizes, and controls—outwardly visible as reliability, inwardly felt as pressure seeking release.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Geduldige Stille zwischen den Taten:</strong>
-        Zwischen 1977 und 1991 tötete <strong>Rader</strong> nicht – vierzehn Jahre Pause.
-        Die BTK-Aktivitäten kehrten erst in Form von Briefen zurück,
-        bevor er 2004 die Diskette schickte. Diese Fähigkeit zum
-        langen Warten ist die SP1w9 in ihrer kontrolliertesten Form:
-        Der aufgestaute Druck findet keinen sofortigen Auslass,
-        er wird gehalten – manchmal jahrzehntelang.</p>
-        <p class="vb-intro"><strong>b) Innere Spannung als Dauerzustand:</strong>
-        Rader beschrieb in Verhören einen inneren Drang, einen Zug,
-        der ihn zu den Taten trieb – etwas, das er nicht vollständig
-        kontrollieren konnte. Das ist die Energiedynamik der entgleisten Eins:
-        Aufgestauter Zorn, der kein konstruktives Ventil findet,
-        der wächst und schließlich nach Ausdruck drängt.</p>
-        <p class="vb-intro"><strong>c) Anerkennung als Druckventil:</strong>
-        Raders Briefe an Polizei und Medien waren sein Ventil –
-        nicht die Taten selbst, sondern die Dokumentation und
-        Kommunikation über die Taten. Darin unterscheidet er sich
-        grundlegend von Tschikatilo: Der Zorn suchte nicht nur
-        Entladung in der Tat, sondern Bestätigung durch
-        Aufmerksamkeit. Das ist der Einser-Hunger nach Richtigkeit:
-        auch die eigene Dunkelheit soll anerkannt werden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Patient Silence Between Crimes:</strong>
+Between 1977 and 1991, Rader did not kill—a fourteen-year hiatus. BTK activities resumed only in the form of letters before he sent the floppy disk in 2004. This capacity for extended waiting is SP1w9 in its most controlled form: pent-up pressure finds no immediate outlet; it is held back—sometimes for decades.</p>
+        <p class="vb-intro"><strong>b) Inner Tension as a Permanent State:</strong>
+In interrogations, Rader described an inner drive, a pull that impelled him toward his crimes—something he could not fully control. This is the energy dynamic of a derailed Type One: pent-up anger that finds no constructive outlet, grows, and ultimately presses for expression.</p>
+        <p class="vb-intro"><strong>c) Recognition as a Pressure Valve:</strong>
+Rader's letters to police and media were his safety valve—not the acts themselves, but the documentation and communication about the acts. In this regard, he differs fundamentally from Chikatilo: anger sought not only release through the act, but validation through attention. This is the Type One hunger for correctness: even one's own darkness must be recognized.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal correspondence: Der Adler</h3>
-        <p class="vb-intro"><strong>a) Geduldiges Kreisen über dem Revier:</strong>
-        Der Adler markiert ein Revier und kreist geduldig darüber –
-        er eilt nicht. Rader beobachtete potenzielle Opfer über
-        Monate, erkundete Wohnumgebungen und Abläufe, bevor er handelte.
-        Diese territoriale Geduld ist das Adler-Prinzip in seiner
-        reinsten Form: vollständige Kontrolle über Zeit und Ort.</p>
-        <p class="vb-intro"><strong>b) Präzision statt Überwältigung:</strong>
-        Der Adler greift nicht mit roher Kraft an – er greift präzise an.
-        Raders Modus operandi war klar strukturiert: Fesseln, Kontrolle,
-        ein definiertes Ablaufmuster. Diese Präzision unterscheidet
-        ihn von impulsiv handelnden Tätern: Die Eins will es richtig tun –
-        auch im Verbrechen ist Methode das Grundprinzip.</p>
-        <p class="vb-intro"><strong>c) Rückkehr ins Revier:</strong>
-        Adler kehren zurück – in ihr Revier, zu ihren Nestern,
-        zu vertrauten Jagdgründen. Raders Rückkehr nach 25-jährigem
-        Schweigen durch die Diskette war genau das: eine Rückkehr
-        ins eigene Revier, die Unfähigkeit, das Territorium
-        wirklich aufzugeben. Es wurde zu seinem Verhängnis.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Eagle</h3>
+        <p class="vb-intro"><strong>a) Patient Circling Over the Territory:</strong>
+The eagle marks a territory and circles patiently above it—it does not rush. Rader observed potential victims over months, exploring living environments and routines before acting. This territorial patience is the Eagle principle in its purest form: total control over time and place.</p>
+        <p class="vb-intro"><strong>b) Precision Over Overpowering:</strong>
+The eagle does not attack with brute force—it attacks with precision. Rader's modus operandi was clearly structured: binding, control, a defined sequence of steps. This precision distinguishes him from impulsively acting offenders: Type One wants to do it right—even in crime, method is the foundational principle.</p>
+        <p class="vb-intro"><strong>c) Return to the Territory:</strong>
+Eagles return—to their territory, to their nests, to familiar hunting grounds. Rader's return through the floppy disk after 25 years of silence was precisely that: a return to his own territory, an inability to truly abandon the domain. It became his undoing.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Dennis Rader</strong> verkörpert die selbsterhaltende Eins in einer
-        Ausprägung, die in ihrer inneren Logik erschreckend kohärent ist:
-        Ein Mann, der Ordnung, Korrektheit und Regelkonformität zu seinem
-        Beruf und seiner Identität machte – und zugleich ein geheimes
-        Leben führte, das er durch Spaltung von seinem Selbstbild trennte.
-        Der Nine-wing sorgte für die soziale Angepasstheit, die ihn
-        jahrzehntelang schützte. Die Eins lieferte die Methode, die Dokumentation,
-        die akribische Planung und – paradoxerweise – auch das Geltungsbedürfnis,
-        das ihn schließlich zu Fall brachte: Die Diskette, die zur Verhaftung
-        führte, schickte er, weil er nicht vergessen werden wollte.
-        Der aufgestaute Einser-Zorn, der nie einen konstruktiven Kanal fand,
-        brauchte am Ende Anerkennung – und bezahlte dafür den höchsten Preis.
+        Dennis Rader embodies the Self-Preservation One in a form that is terrifyingly coherent in its internal logic: a man who made order, correctness, and rule compliance his profession and identity—while simultaneously leading a secret life that he separated from his self-image through splitting. The Nine-wing provided the social adaptability that protected him for decades. The One supplied the method, the documentation, the meticulous planning, and—paradoxically—also the need for recognition that ultimately brought about his downfall: he sent the disk that led to his arrest because he did not want to be forgotten. The pent-up Type One anger, which never found a constructive channel, ultimately required recognition—and paid the highest price for it.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP1 – „Worry / Angst":</strong>
-        Claudio Naranjo bezeichnete die selbsterhaltende Eins als den Subtype
-        der Sorge um materielle Sicherheit und praktische Korrektheit.
-        Raders gesamte Lebensstruktur – der sichere Beamtenjob,
-        das Eigenheim, die Kirchenmitgliedschaft – war auf Sicherheit
-        und Unanfechtbarkeit ausgerichtet. Das BTK-Leben bedrohte
-        diese Sicherheit, was die Sorgfalt der Planung erklärt:
-        Die SP1 kalkuliert Risiken aus, sie stürzt sich nicht hinein.</p>
-        <p class="vb-intro"><strong>b) Nine-wing als soziale Maske:</strong>
-        Der Nine-wing der Eins verleiht ihr eine soziale Zugänglichkeit
-        und Wärme, die die Eins ohne ihn kaum hätte. Bei Rader war dies
-        keine bewusste Strategie – es war sein tatsächliches Auftreten.
-        Er kümmerte sich um die Gemeinde, engagierte sich im Kirchenrat,
-        half Nachbarn. Der Nine-wing als Teil seiner Persönlichkeit
-        machte ihn zu jemandem, dem Menschen vertrauten.</p>
-        <p class="vb-intro"><strong>c) „Factor X" als Einser-Spaltungslogik:</strong>
-        Raders Konzept des „Factor X" ist psychologisch präzise:
-        Die Eins kann keine innere Unvollkommenheit integrieren –
-        sie muss sie auslagern. „Factor X" war die begriffliche
-        Lösung dieses Problems. Das gute Ich blieb unberührt;
-        die dunklen Impulse wurden einer quasi-autonomen Entität
-        zugewiesen. Dieser Mechanismus ist eine Extremform des
-        Einser-Selbstbildes: Ich bin eigentlich gut –
-        das Böse kommt von woanders.</p>
-        <p class="vb-intro"><strong>d) Das Geltungsbedürfnis als Einser-Variante:</strong>
-        Raders Hunger nach Anerkennung ist für einen SP1w9 ungewöhnlich –
-        der Subtype neigt eher zur Unsichtbarkeit. Psychologisch lässt
-        sich das jedoch als Variante des Einser-Zorns lesen:
-        Der Zorn will Recht behalten. Bei Tschikatilo blieb der Zorn
-        nach innen gewendet; bei Rader suchte er nach außen –
-        in der Botschaft: Seht her, was ich getan habe, und erkennt es an.
-        Das ist die Eins, die auch im Verbrechen auf Vollständigkeit besteht.</p>
-        <p class="vb-intro"><strong>e) Der Ordnungsbeauftragte als Einser-Beruf:</strong>
-        Kaum ein Beruf passt besser zur entgleisten Eins als der
-        kommunale Ordnungsbeauftragte: Man hat die Befugnis,
-        Verstöße zu ahnden, man repräsentiert Regeln, man kann
-        andere zur Rechenschaft ziehen. Raders Hartnäckigkeit
-        bei kleinen Vergehen – Nachbarn beschwerten sich über
-        unnötige Strafzettel – ist das klassische Muster der Eins:
-        Die Regel gilt, Ausnahmen sind nicht vorgesehen.</p>
-        <p class="vb-intro"><strong>f) Verhaftung durch eigene Konsequenz:</strong>
-        Raders Untergang war kein Zufallsfund – er war selbst
-        herbeigeführt. Er fragte die Polizei ausdrücklich,
-        ob eine Diskette zurückverfolgt werden könne, und vertraute
-        der Antwort. Das ist die Eins, die Regeln für verbindlich hält:
-        Er glaubte der offiziellen Aussage – weil er an Institutionen glaubte.
-        Diese fatale Naivität gegenüber dem System, dem er selbst diente,
-        ist das letzte Paradoxon des Einser-Täters Dennis Rader.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP1 – "Worry / Anxiety":</strong>
+Claudio Naranjo defined the Self-Preservation One as the subtype focused on worry about material security and practical correctness. Rader's entire life structure—the secure civil service job, the home, the church membership—was designed for safety and unassailability. The BTK life threatened this security, which explains the diligence of his planning: SP1 calculates risks; it does not plunge into them recklessly.</p>
+        <p class="vb-intro"><strong>b) Nine-Wing as a Social Mask:</strong>
+The Nine-wing endows Type One with a social accessibility and warmth that the One would hardly possess without it. In Rader's case, this was not a conscious strategy—it was his genuine demeanor. He cared for the community, engaged in the church council, and helped neighbors. The Nine-wing as part of his personality made him someone people trusted.</p>
+        <p class="vb-intro"><strong>c) "Factor X" as Type One Splitting Logic:</strong>
+Rader's concept of "Factor X" is psychologically precise: Type One cannot integrate inner imperfection—it must outsource it. "Factor X" was the conceptual solution to this problem. The good self remained untainted; dark impulses were attributed to a quasi-autonomous entity. This mechanism is an extreme form of the Type One self-image: I am fundamentally good—evil comes from elsewhere.</p>
+        <p class="vb-intro"><strong>d) The Desire for Recognition as a Type One Variation:</strong>
+Rader's hunger for recognition is unusual for an SP1w9—a subtype that tends toward invisibility. Psychologically, however, this can be read as a variation of Type One anger: anger wants to be proven right. In Chikatilo's case, anger remained turned inward; in Rader's case, it sought outward expression in the message: See what I have done, and acknowledge it. This is Type One insisting on completeness, even in crime.</p>
+        <p class="vb-intro"><strong>e) The Compliance Officer as a Type One Profession:</strong>
+Hardly any profession fits a derailed Type One better than a municipal compliance officer: one possesses the authority to penalize infractions, represents rules, and can hold others accountable. Rader's tenacity regarding minor offenses—neighbors complained about unnecessary citations—is the classic Type One pattern: the rule applies, exceptions are not permitted.</p>
+        <p class="vb-intro"><strong>f) Arrest Through His Own Consistency:</strong>
+Rader's downfall was not a chance discovery—it was self-induced. He explicitly asked the police whether a floppy disk could be traced and trusted their answer. This is Type One taking rules and official statements as binding: he believed the official declaration because he believed in institutions. This fatal naivety toward the system he himself served represents the final paradox of the Type One offender Dennis Rader.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -21752,14 +21602,14 @@ function dennisRaderPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Dennis Rader bekannte sich 2005 in zehn Fällen des Mordes schuldig und wurde zu zehnmal lebenslanger Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Dennis Rader pleaded guilty in 2005 to ten counts of murder and was sentenced to ten consecutive life terms. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo"},
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
-        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
   `);
