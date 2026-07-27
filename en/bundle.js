@@ -19887,196 +19887,100 @@ function adolfHitlerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Adolf Hitler</p>
         <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Österreichisch-deutscher Diktator und Massenmörder · Animal correspondence: Chihuahua</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Austrian-German Dictator and Mass Murderer · Animal correspondence: Chihuahua</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Adolf Hitler</strong> (1889–1945) war Diktator des nationalsozialistischen Deutschlands,
-        Hauptverantwortlicher f\xfcr den Zweiten Weltkrieg und den Holocaust.
-        Unter seiner F\xfchrung wurden rund sechs Millionen Juden systematisch ermordet,
-        dazu Millionen weiterer Menschen – politische Gegner, Homosexuelle, Roma,
-        Menschen mit Behinderungen. Seine Expansionspolitik l\xf6ste den gr\xf6\xdften bewaffneten
-        Konflikt der Menschheitsgeschichte aus. Diese Analyse ist keine Erkl\xe4rung,
-        die entschuldigt – sie ist eine psychologische Tiefenbohrung, um zu verstehen,
-        wie ein Mensch zu einem solchen Monster werden konnte.
+        Adolf Hitler (1889–1945) was the dictator of Nazi Germany and the primary person responsible for the Second World War and the Holocaust. Under his leadership, approximately six million Jews were systematically murdered, along with millions of other people—political opponents, homosexuals, Roma, and people with disabilities. His expansionist policy triggered the largest armed conflict in human history. This analysis is not an explanation that excuses—it is a psychological deep dive to understand how a human being could turn into such a monster.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Adolf Hitler</strong> wird dem <strong>Sexuellen Typ 4 mit Dreierfl\xfcgel</strong> im Enneagramm zugeordnet.
-        Die Leidenschaft der Vier ist <em>Neid</em> – beim sexuellen Subtype ausgedr\xfcckt als
-        <strong>Rivalit\xe4t</strong>: das intensive, konkurrierende Begehren nach dem, was andere haben.
-        Der Fl\xfcgel 5 erg\xe4nzt dies mit intellektueller Isolation, pseudo-theoretischem Weltbild-Konstruieren
-        und der F\xe4higkeit, sich vollst\xe4ndig von der Realit\xe4t abzukoppeln. In seiner pathologischsten
-        Auspr\xe4gung ist die sexuelle Vier with Five-wing der gef\xe4hrlichste Typ des Enneagramms: Neid, Grandiosit\xe4t und
-        k\xfchle intellektuelle Planung verbinden sich zu einer Ideologie des Vernichtungswillens.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Adolf Hitler is assigned to the Sexual Type 4 with Three-wing in the Enneagram. The passion of Type Four is envy—which, in the Sexual subtype, is expressed as rivalry: the intense, competitive longing for what others possess. The Five-wing supplements this with intellectual isolation, pseudo-theoretical worldview construction, and the ability to completely decouple from reality. In its most pathological manifestation, the Sexual Four with Five-wing is the most dangerous type in the Enneagram: envy, grandiosity, and cold intellectual planning unite into an ideology of exterminatory willpower.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Intensiv und besessen:</strong>
-        Hitlers Blick war von extremer Intensit\xe4t, besonders bei \xf6ffentlichen Auftritten.
-        Er schien von seinen eigenen Visionen und Ideologien geradezu besessen zu sein –
-        was in seinen Augen klar sichtbar wurde und Beobachter regelm\xe4\xdfig ersch\xfctterte.</p>
-        <p class="vb-intro"><strong>b) Verschlossen und undurchsichtig:</strong>
-        Obwohl er auf der politischen B\xfchne seine aggressive Energie zeigte, war Hitlers Blick
-        in pers\xf6nlichen Begegnungen oft verschlossen, fast als ob er bewusst Distanz wahrte,
-        um wahre Motive und Emotionen zu verbergen. Die klassische Spannung der sexuellen Vier:
-        intensive Pr\xe4senz nach au\xdfen, innere Abgeschlossenheit nach innen.</p>
-        <p class="vb-intro"><strong>c) Fordernd und hypnotisierend:</strong>
-        In Reden und \xf6ffentlichen Auftritten war sein Blick hypnotisierend, verst\xe4rkt durch
-        extreme emotionale Ausdruckskraft. Er nutzte diesen Blick, um Anh\xe4nger zu mobilisieren
-        und politische Macht zu festigen – eine F\xe4higkeit, die Zeitzeugen oft als
-        \xfcbernat\xfcrlich beschrieben.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Intense and Obsessed:</strong>
+Hitler's gaze possessed extreme intensity, especially during public appearances. He seemed virtually obsessed by his own visions and ideologies—which was clearly visible in his eyes and regularly unnerved observers.</p>
+        <p class="vb-intro"><strong>b) Closed and Opaque:</strong>
+Although he displayed aggressive energy on the political stage, Hitler's gaze in personal encounters was often closed off, almost as if he were deliberately maintaining distance to conceal his true motives and emotions. The classic tension of the Sexual Four: intense outward presence, inner insularity within.</p>
+        <p class="vb-intro"><strong>c) Demanding and Hypnotic:</strong>
+In speeches and public appearances, his gaze was hypnotic, amplified by extreme emotional expressiveness. He used this gaze to mobilize followers and consolidate political power—a capability that contemporary witnesses often described as supernatural.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Extremer Individualismus:</strong>
-        Als Sexuelle Vier wollte Hitler einzigartig und au\xdferordentlich sein – sichtbar in seiner
-        obsessiven Vision eines „tausendj\xe4hrigen Reiches" und seiner Selbstinszenierung als
-        „Retter" der deutschen Nation. Er strebte nach einem radikal eigenen Bild der Welt.</p>
-        <p class="vb-intro"><strong>b) Gef\xfchl der \xdcberlegenheit:</strong>
-        <strong>Hitler</strong> sah sich und seine Ideen als \xfcberlegen an und war von tiefer \xdcberzeugung durchdrungen,
-        dass seine rassistische Weltanschauung die einzig richtige sei. Er f\xfchlte sich nicht nur
-        einzigartig, sondern dazu bestimmt, die Welt zu ver\xe4ndern.</p>
-        <p class="vb-intro"><strong>c) Gef\xfchl der Isolation:</strong>
-        Trotz massenhafter \xf6ffentlicher Unterst\xfctzung war Hitler tief in sich selbst isoliert.
-        Er war unf\xe4hig zu echten menschlichen Verbindungen und agierte aus einer inneren Leere
-        heraus – das tiefste Kennzeichen der ungeheilten Vier.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Extreme Individualism:</strong>
+As a Sexual Four, Hitler wanted to be unique and extraordinary—visible in his obsessive vision of a "Thousand-Year Reich" and his self-staging as the "savior" of the German nation. He strived for a radically distinct image of the world.</p>
+        <p class="vb-intro"><strong>b) Sense of Superiority:</strong>
+Hitler viewed himself and his ideas as superior and was permeated by a deep conviction that his racist worldview was the only correct one. He felt not only unique, but destined to transform the world.</p>
+        <p class="vb-intro"><strong>c) Sense of Isolation:</strong>
+Despite massive public support, Hitler was deeply isolated within himself. He was incapable of genuine human connection and operated out of an inner emptiness—the deepest hallmark of the unhealed Four.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Radikale Andersartigkeit:</strong>
-        <strong>Hitler</strong> verk\xf6rperte das Bed\xfcrfnis der Sexuellen Vier nach Abgrenzung und Andersartigkeit.
-        Seine Ideologie war nicht nur extrem, sondern einzigartig in ihrer m\xf6rderischen Konsequenz.
-        Er stellte sich bewusst als Gestalt dar, die die Konventionen der Zeit sprengen sollte.</p>
-        <p class="vb-intro"><strong>b) Dramatisches Auftreten:</strong>
-        Seine \xf6ffentlichen Auftritte waren voller Pathos, begleitet von Reden auf emotionalen Appellen.
-        Er nutzte seine emotionale Intensit\xe4t, um Anh\xe4nger zu begeistern und zu mobilisieren –
-        die Energie der sexuellen Vier in ihrer gefährlichsten, \xf6ffentlichkeitswirksamen Form.</p>
-        <p class="vb-intro"><strong>c) Verblendeter Perfektionismus:</strong>
-        Wie viele Sexuelle Vieren hatte Hitler eine verzerrte Vorstellung von Perfektion:
-        das „reine arische Volk" und das „Reich", das alle anderen Völker dominieren sollte.
-        Diese Ideale trieben seine grausamen Ma\xdfnahmen an – Perfektion als Vernichtungslogik.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Radical Distinctness:</strong>
+Hitler embodied the Sexual Four's need for differentiation and distinctness. His ideology was not only extreme, but unique in its murderous consistency. He intentionally presented himself as a figure bound to shatter the conventions of his time.</p>
+        <p class="vb-intro"><strong>b) Dramatic Presence:</strong>
+His public appearances were full of pathos, accompanied by speeches heavily reliant on emotional appeals. He channeled his emotional intensity to inspire and mobilize supporters—the energy of the Sexual Four in its most dangerous, publicly impactful form.</p>
+        <p class="vb-intro"><strong>c) Deluded Perfectionism:</strong>
+Like many Sexual Fours, Hitler held a distorted concept of perfection: the "pure Aryan people" and the "Reich" destined to dominate all other nations. These ideals drove his atrocious measures—perfection transformed into the logic of extermination.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Magnetische, aber zerst\xf6rerische Ausstrahlung:</strong>
-        <strong>Hitler</strong> \xfcbte eine beinahe magnetische Wirkung auf seine Anh\xe4nger aus, die ihm
-        bedingungslos folgten. Diese Faszination war jedoch auf Zerst\xf6rung und Hass gegr\xfcndet
-        und f\xfchrte zu beispiellosem Leid und Tod.</p>
-        <p class="vb-intro"><strong>b) Gef\xe4hrliche Mischung aus Charisma und Hass:</strong>
-        Er verk\xf6rperte eine bedrohliche Form von Charisma, das sich aus intensiver
-        Selbst\xfcberzeugung und Fanatismus speiste. Diese Mischung machte ihn extrem gef\xe4hrlich,
-        da er Macht an sich riss und andere dazu brachte, seine grausamen Ideologien zu akzeptieren.</p>
-        <p class="vb-intro"><strong>c) Tiefe Zerrissenheit:</strong>
-        Trotz \xf6ffentlicher Erfolge war Hitler innerlich zerrissen und von Zweifeln geplagt –
-        besonders gegen Ende des Krieges. Sein Leben spiegelte eine st\xe4ndige innere Disharmonie
-        wider, typisch f\xfcr die ungeheilte Vier, die kein authentisches Selbst findet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Magnetic Yet Destructive Aura:</strong>
+Hitler exerted an almost magnetic influence over his followers, who obeyed him unconditionally. However, this fascination was grounded in destruction and hatred, leading to unprecedented suffering and death.</p>
+        <p class="vb-intro"><strong>b) Dangerous Mixture of Charisma and Hatred:</strong>
+He embodied a menacing form of charisma fueled by intense self-conviction and fanaticism. This combination made him extremely dangerous as he seized power and compelled others to accept his cruel ideologies.</p>
+        <p class="vb-intro"><strong>c) Deep Inner Conflict:</strong>
+Despite public successes, Hitler was internally conflicted and plagued by doubts—particularly toward the end of the war. His life reflected a constant inner disharmony, typical of the unhealed Four that fails to find an authentic self.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Dynamische und unruhige Energie:</strong>
-        Hitlers Energie war rastlos und extrem dynamisch. Er war st\xe4ndig auf der Search nach
-        neuen M\xf6glichkeiten, Macht zu vergr\xf6\xdfern und seine Vision durchzusetzen.
-        Diese unruhige Energie lie\xdf ihn nie zur Ruhe kommen.</p>
-        <p class="vb-intro"><strong>b) Destruktive Kraft:</strong>
-        Seine Energie hatte etwas Zerst\xf6rerisches, das \xfcber politische Wirkung hinausging.
-        Er war nicht nur auf den Aufbau eines Reiches fixiert, sondern darauf, alles zu vernichten,
-        was nicht in sein Weltbild passte – was zu den verheerendsten Verbrechen des 20.\xa0Jahrhunderts f\xfchrte.</p>
-        <p class="vb-intro"><strong>c) Innerlich getrieben:</strong>
-        <strong>Hitler</strong> war von tiefer innerer Unruhe getrieben, sichtbar in Verhalten und Entscheidungen.
-        Diese Energie war seine gr\xf6\xdfte St\xe4rke und sein gr\xf6\xdfter Fluch – sie f\xfchrte ihn
-        und die Welt ins Verderben.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Dynamic and Restless Energy:</strong>
+Hitler's energy was relentless and extremely dynamic. He was perpetually searching for new ways to expand his power and enforce his vision. This restless energy never allowed him to find peace.</p>
+        <p class="vb-intro"><strong>b) Destructive Force:</strong>
+His energy possessed a destructive quality that went far beyond political impact. He was fixated not only on building an empire, but on annihilating everything that did not fit his worldview—leading to the most devastating crimes of the 20th century.</p>
+        <p class="vb-intro"><strong>c) Internally Driven:</strong>
+Hitler was driven by a profound inner turbulence, evident in his behavior and decision-making. This energy was his greatest strength and his greatest curse—driving both him and the world to ruin.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Chihuahua</h3>
-        <p class="vb-intro"><strong>a) Kleiner K\xf6rper, gro\xdfe Pr\xe4senz:</strong>
-        Der Chihuahua wirkt unscheinbar, hat aber eine starke Pers\xf6nlichkeit und ist \xfcberraschend
-        aggressiv. \xc4hnlich wirkte Hitler – \xe4u\xdferlich kein klassischer „F\xfchrer", dennoch
-        strahlte er durch fanatischen Glauben eine hasserfüllte Bedrohlichkeit aus.
-        Subtypebedingt tendiert die Sexuelle Vier im dekompensierten Zustand dazu,
-        die innerlich empfundene Verletzung auf andere Menschen und ganze Volksgruppen auszuweiten –
-        nach dem Mechanismus: <em>„Verletzte Menschen verletzen Menschen."</em></p>
-        <p class="vb-intro"><strong>b) \xdcberm\xe4\xdfige Verteidigungsbereitschaft:</strong>
-        Wie der Chihuahua bei kleinster Bedrohung aggressiv reagiert, war Hitler stets auf der Hut
-        und reagierte \xfcberm\xe4\xdfig auf wahrgenommene – oft imagin\xe4re – Bedrohungen.
-        Dies zeigte sich in seiner brutalen Repression von politischen Gegnern und Minderheiten.</p>
-        <p class="vb-intro"><strong>c) Gro\xdfe Egozentrik trotz geringer Gr\xf6\xdfe:</strong>
-        Der Chihuahua h\xe4lt sich selbst f\xfcr viel gr\xf6\xdfer, als er ist. Dies spiegelt Hitlers
-        \xfcbergro\xdfes Ego wider, das ihn glauben lie\xdf, er k\xf6nne die Weltordnung dominieren –
-        obwohl seine Ideologie letztlich nur Tod und Zerst\xf6rung brachte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Chihuahua</h3>
+        <p class="vb-intro"><strong>a) Small Body, Massive Presence:</strong>
+The Chihuahua appears unassuming, yet possesses a forceful personality and is surprisingly aggressive. Hitler made a similar impression—externally not a classic "leader," he nevertheless radiated a hateful menace through fanatical belief. Due to subtype dynamics, the Sexual Four in a decompensated state tends to project internally felt hurt onto other people and entire ethnic groups—following the mechanism: "Hurt people hurt people."</p>
+        <p class="vb-intro"><strong>b) Excessive Defensiveness:</strong>
+Just as the Chihuahua reacts aggressively to the slightest threat, Hitler was constantly on guard and overreacted to perceived—often imaginary—threats. This manifested in his brutal repression of political opponents and minorities.</p>
+        <p class="vb-intro"><strong>c) Tremendous Egocentrism Despite Small Stature:</strong>
+The Chihuahua considers itself much larger than it actually is. This reflects Hitler's inflated ego, which led him to believe he could dominate the global order—even though his ideology ultimately produced nothing but death and destruction.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Adolf Hitler</strong> verk\xf6rperte viele der negativsten Eigenschaften der Sexuellen Vier.
-        Sein extremes Bed\xfcrfnis nach Individualit\xe4t und Andersartigkeit f\xfchrte zu einer
-        m\xf6rderischen Ideologie, die auf Exklusivit\xe4t und \xdcberlegenheit basierte.
-        Sein tiefer Neid – in der Form der sexuellen Vier als Rivalit\xe4t, als Hass auf jene, die besitzen,
-        was man sich selbst verweigert glaubt – wurde zur treibenden Kraft eines Vernichtungsapparats.
-        Die Chihuahua-Analogie verdeutlicht seine paradoxe Mischung aus \xdcberkompensation und
-        tiefsitzender Unsicherheit: Ein unscheinbarer Mensch, der sich durch extreme Aggression
-        \xfcber seine Umgebung behaupten wollte – und dabei die Welt ins Verderben riss.
+        Adolf Hitler embodied many of the most negative traits of the Sexual Four. His extreme need for individuality and distinctness led to a murderous ideology founded on exclusivity and superiority. His deep envy—expressed in the Sexual Four as rivalry, as hatred toward those who possess what one feels denied—became the driving force of an apparatus of destruction. The Chihuahua analogy highlights his paradoxical mix of overcompensation and deep-seated insecurity: an unassuming individual who sought to assert himself over his environment through extreme aggression—and dragged the world into ruin in the process.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Der Fl\xfcgel 5 – das Weltbild-Labor:</strong>
-        Der F\xfcnfer-Fl\xfcgel erg\xe4nzt die Vier mit intellektueller Isolation und
-        pseudo-theoretischem Weltbild-Konstruieren. <em>Mein Kampf</em> ist ein
-        perfektes Dokument dieses 4w5-Musters: In monatelanger Gefangenschaft (Landsberg, 1924)
-        baute Hitler ein in sich geschlossenes, wahnhaftes Gedankensystem auf – systematisch,
-        nahezu „methodisch", von der Realit\xe4t vollst\xe4ndig abgekoppelt. Der 5-Fl\xfcgel
-        gibt der 4-Leidenschaft eine intellektuelle Architektur, die sie noch gef\xe4hrlicher macht.</p>
-        <p class="vb-intro"><strong>b) Die Kernwunde: Wien 1907 und 1908:</strong>
-        Die Wiener Akademie der Bildenden K\xfcnste lehnte Hitler zweimal ab – 1907 und 1908.
-        F\xfcr eine sexuelle Vier ist Ablehnung keine entt\xe4uschende Erfahrung, sondern die Best\xe4tigung
-        der tiefsten Angst: <em>Ich bin fundamental wertlos und werde nie geliebt.</em>
-        <strong>Hitler</strong> integrierte diese Wunde nicht – er projizierte sie. Was in ihm als Selbsthass
-        brannte, wurde zu Volksvernichtung nach au\xdfen gerichtet.</p>
-        <p class="vb-intro"><strong>c) sexuelle Vier = Rivalit\xe4t und Neid als Hass:</strong>
-        Claudio Naranjo bezeichnete den Sexuellen Typ 4 als „Wettbewerber" (Competitive).
-        Der Neid der sexuellen Vier richtet sich nicht auf das Seufzen nach Unerreichbarem, sondern auf
-        intensive Rivalit\xe4t mit jenen, die besitzen, was man selbst verweigert glaubt.
-        Hitlers Antisemitismus tr\xe4gt diesen Fingerabdruck: Juden repr\xe4sentierten in seiner
-        Psyche Bildung, kulturellen Einfluss, Gemeinschaft – alles, was er begehrte und
-        sich selbst nicht zugestanden glaubte. Der Mechanismus der sexuellen Vier: Wenn ich es nicht
-        haben kann, vernichte ich es.</p>
-        <p class="vb-intro"><strong>d) Geli Raubal – die einzige echte Bindung:</strong>
-        Seine Nichte Angela „Geli" Raubal lebte ab 1929 bei ihm und war wohl die einzige
-        Person, zu der Hitler eine genuine emotionale Bindung hatte. Ihr Tod im September 1931
-        (Selbstmord in seiner Wohnung, unter bis heute ungekl\xe4rten Umst\xe4nden) warf ihn
-        in eine tiefe Depression und gilt als seelischer Wendepunkt: Ab diesem Zeitpunkt
-        wurde seine emotionale Abschottung noch radikaler. Die sexuelle Vier-F\xe4higkeit zu
-        intensiver, konsumierender Bindung – und die Vernichtung, die ihr folgt.</p>
-        <p class="vb-intro"><strong>e) Germania – der K\xfcnstler, der nie aufh\xf6rte:</strong>
-        Zusammen mit Architekt Albert Speer plante Hitler den vollst\xe4ndigen Umbau Berlins
-        zur Welthauptstadt „Germania" – mit einer Triumphachse, einer Kuppel gr\xf6\xdfer als
-        der Petersdom, und einem Ma\xdfstab, der jeden anderen Machtausdruck der Geschichte
-        \xfcberragen sollte. Auch als Diktator blieb er der K\xfcnstler der sexuellen Vier, der sein Meisterwerk
-        brauchte – nur hatte er nun Millionen Menschen als Material.</p>
-        <p class="vb-intro"><strong>f) Der Wolfsschanz-R\xfcckzug – 4w5 im Endstadium:</strong>
-        In den letzten Kriegsjahren zog sich Hitler immer tiefer in seinen F\xfchrerhauptquartieren
-        zur\xfcck – vor allem im Wolfsschanz in Ostpreu\xdfen. Er lebte vollst\xe4ndig im Verborgenen:
-        nachtaktiv, von Tageslicht abgeschottet, in einer Blase aus Ja-Sagern und Illusionen.
-        Dies ist der 4w5-Withdrawal im Extremfall: Je mehr die Realit\xe4t sein Weltbild
-        widerlegte, desto tiefer zog er sich in seine eigene innere Architektur zur\xfcck.
-        Die Entscheidungen wurden realit\xe4tsferner, die Befehle irrational, die Menschen um
-        ihn herum Statisten in seinem eigenen Untergang.</p>
-        <p class="vb-intro"><strong>g) Der Integrationspunkt Eins – Perfektion als Zwang:</strong>
-        In der Spannung zwischen Desintegration (Zwei: Manipulation, emotionale Kontrolle)
-        und Integration (Eins: Ordnung, Klarheit) zeigte Hitler vor allem den dunklen
-        Integrationspunkt: zwanghafter Ordnungsdrang, Reinheitsfanatismus, buchst\xe4bliche
-        Vernichtung alles Unreinen. Nicht die heilsame Pr\xe4zision der Eins, sondern ihre
-        destruktivste Auspr\xe4gung – ein Beweis, dass auch gesunde Richtungen in die
-        Pathologie kippen k\xf6nnen, wenn kein Boden der Selbsterkenntnis vorhanden ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary In-Depth Insights</h3>
+        <p class="vb-intro"><strong>a) The Five-Wing – The Worldview Laboratory:</strong>
+The Five-wing complements the Four with intellectual isolation and pseudo-theoretical worldview construction. Mein Kampf is a quintessential document of this 4w5 pattern: during months of imprisonment (Landsberg, 1924), Hitler built a self-contained, delusional system of thought—systematic, almost "methodical," and entirely detached from reality. The 5-wing provides the 4-passion with an intellectual architecture that makes it even more dangerous.</p>
+        <p class="vb-intro"><strong>b) The Core Wound: Vienna 1907 and 1908:</strong>
+The Vienna Academy of Fine Arts rejected Hitler twice—in 1907 and 1908. For a Sexual Four, rejection is not merely a disappointing experience; it is the confirmation of their deepest fear: I am fundamentally worthless and will never be loved. Hitler failed to integrate this wound—he projected it. What burned inside him as self-hatred was directed outward as the annihilation of peoples.</p>
+        <p class="vb-intro"><strong>c) Sexual Four = Rivalry and Envy Transformed into Hatred:</strong>
+Claudio Naranjo referred to the Sexual Type 4 as "Competitive." The envy of the Sexual Four does not express itself in sighing after the unattainable, but in intense rivalry with those who possess what one feels denied oneself. Hitler's antisemitism carries this exact fingerprint: in his psyche, Jewish people represented education, cultural influence, community—everything he desired yet felt denied to himself. The Sexual Four mechanism: if I cannot have it, I destroy it.</p>
+        <p class="vb-intro"><strong>d) Geli Raubal – The Only Genuine Attachment:</strong>
+His niece Angela "Geli" Raubal lived with him starting in 1929 and was arguably the only person to whom Hitler held a genuine emotional bond. Her death in September 1931 (suicide in his apartment, under circumstances that remain unexplained to this day) plunged him into a deep depression and is considered a psychological turning point: from that moment on, his emotional isolation became even more radical. The Sexual Four capacity for intense, consuming attachment—and the destruction that follows it.</p>
+        <p class="vb-intro"><strong>e) Germania – The Artist Who Never Stopped:</strong>
+Together with architect Albert Speer, Hitler planned the complete rebuilding of Berlin into the world capital "Germania"—featuring a triumphal avenue, a dome larger than St. Peter's Basilica, and a scale designed to surpass any other expression of power in history. Even as a dictator, he remained the Sexual Four artist who required his masterpiece—only now he had millions of human beings as his material.</p>
+        <p class="vb-intro"><strong>f) The Wolfsschanze Retreat – Late-Stage 4w5:</strong>
+In the final years of the war, Hitler retreated deeper and deeper into his military headquarters—most notably the Wolfsschanze in East Prussia. He lived entirely in seclusion: nocturnal, shielded from daylight, inside a bubble of yes-men and illusions. This is 4w5 withdrawal in its extreme form: the more reality disproved his worldview, the deeper he retreated into his own inner architecture. Decisions grew more detached from reality, orders became irrational, and those around him became mere extras in his own undoing.</p>
+        <p class="vb-intro"><strong>g) The Integration Point One – Perfection as Compulsion:</strong>
+In the tension between disintegration (Two: manipulation, emotional control) and integration (One: order, clarity), Hitler predominantly exhibited the dark shadow of the integration point: compulsive need for order, purity fanaticism, literal destruction of everything deemed impure. Not the healthy precision of the One, but its most destructive manifestation—proof that even healthy directions can tilt into pathology when no foundation of self-awareness exists.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -20086,7 +19990,7 @@ function adolfHitlerPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Verbrechen des NS-Regimes, für die Hitler die Hauptverantwortung trägt, sind historisch und rechtlich umfassend dokumentiert. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. The crimes of the Nazi regime, for which Hitler bears primary responsibility, are extensively documented historically and legally. The Enneagram explains; it does not justify.
         </p>
       </div>
 
