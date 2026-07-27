@@ -10337,13 +10337,28 @@ function basisemotionenPage() {
     ${pageHeader("basisemotionen")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Psychology</p>
-      <h1>Vermeidung der Basis-Emotionen</h1>
+      <h1>Avoidance of the Basic Emotions</h1>
       <p class="lead-small">Every human being suppresses certain emotions &ndash; not out of weakness, but because they are not socially accepted. Every Enneagram type develops characteristic psychological defense mechanisms for this purpose. What must not be felt manifests itself: illnesses and symptoms are often the expression of unexpressed emotions.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/basisemotionen/basisemotionen.jpg"
-             alt="Die Vermeidung der Basis-Emotionen der 9 Enneagrammtypen"
+             alt="The avoidance of the basic emotions of the 9 Enneagram types"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:0 auto 1.5rem;font-size:.9rem;line-height:1.75;color:var(--ink);display:grid;gap:.8rem;">
+        <div>
+          <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Gut Triad &ndash; Anger &middot; Rage &middot; Resentment</p>
+          <p style="margin:0;">Type 8 acts it out aggressively and recklessly. Type 9 numbs, softens, and denies it. Type 1 turns it inward as self-hatred and restrained inner acting-out.</p>
+        </div>
+        <div>
+          <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Head Triad &ndash; Fear &middot; Dread &middot; Insecurity</p>
+          <p style="margin:0;">Type 7 avoids it with feigned cheerfulness and optimism. Type 6 avoids it with feigned strength and defensiveness. Type 5 avoids it by retreating into knowledge and over-emphasizing the rational.</p>
+        </div>
+        <div>
+          <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Heart Triad &ndash; Neediness &middot; Shame &middot; Lack of Love</p>
+          <p style="margin:0;">Type 2 avoids it through helping and giving attention. Type 3 avoids it through achievement and success. Type 4 avoids it by being special &ndash; through sensitivity and creativity.</p>
+        </div>
+      </div>
+      ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
       ${relatedLinks([
         {route:"frustrationen", label:"Frustrations"},
         {route:"mangelgefuehle", label:"Feelings of Deficiency"},
