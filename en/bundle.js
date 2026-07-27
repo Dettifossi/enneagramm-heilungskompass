@@ -21746,99 +21746,99 @@ function bernieMadoffPortraitPage() {
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame"><img class="krim-portrait-img" loading="lazy" src="../assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
         <p class="krim-portrait-name">Bernie Madoff</p>
-        <p class="krim-portrait-typ">SP3w4 \xb7 Self-Preservation Type 3 mit Viererfl\xfcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xf6\xdftes Ponzi-System der Geschichte \xb7 65 Mrd. Dollar \xb7 Animal correspondence: Waschb\xe4r</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Largest Ponzi scheme in history · $65 billion · Animal correspondence: Raccoon</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Bernie Madoff</strong> (1938\u20132021) war Jahrzehnte lang eine der angesehensten Figuren der Wall Street. Mitgr\xfcnder und ehemaliger Vorsitzender der NASDAQ, Chef seiner eigenen Investmentfirma, Wohlt\xe4ter, Familienmensch. Und gleichzeitig der Architekt des <strong>gr\xf6\xdften Anlagebetrugs der Geschichte</strong>: ein Ponzi-System, das mindestens 20 Jahre lief, mit gef\xe4lschten Kontoausz\xfcgen im Gesamtwert von rund 65 Milliarden Dollar und realen Verlusten von ca. 17 Milliarden Dollar f\xfcr seine Anleger. Im Dezember 2008 gestand er seinen S\xf6hnen die Wahrheit \u2013 die ihn am n\xe4chsten Tag bei der FBI anzeigten. Er wurde zu <strong>150 Jahren Haft</strong> verurteilt und starb 2021 in Bundesgefangenschaft. Das Enneagramm erkl\xe4rt, wie ein Mensch jahrzehntelang zwei vollst\xe4ndig getrennte Realit\xe4ten bewohnen kann \u2013 und warum die Grenze zwischen Erfolg und Betrug f\xfcr den selbsterhaltenden Dreier manchmal keine ist.
+        Bernie Madoff (1938–2021) was for decades one of the most respected figures on Wall Street. Co-founder and former chairman of NASDAQ, head of his own investment firm, philanthropist, family man. And simultaneously the architect of the largest investment fraud in history: a Ponzi scheme that ran for at least 20 years, with fabricated account statements totaling around $65 billion and real losses of approximately $17 billion for his investors. In December 2008, he confessed the truth to his sons—who reported him to the FBI the very next day. He was sentenced to 150 years in prison and died in federal custody in 2021. The Enneagram explains how a person can inhabit two completely separate realities for decades—and why the boundary between success and fraud sometimes ceases to exist for the Self-Preservation Three.
       </p>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #7c5200;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        Bernie Madoff wird dem <strong>Self-Preservationen Typ 3 mit Viererfl\xfcgel (SP3w4)</strong> zugeordnet. Der SP3er ist der Kontratyp der Drei: Er inszeniert sich nicht laut und glamour\xf6s wie der SO3, sondern still, seri\xf6s, vertrauensw\xfcrdig. Der selbsterhaltende Instinkt richtet den Dreier auf materielle Sicherheit aus \u2013 Wohlstand, Besitz, Stabilit\xe4t als tiefstes Ziel. Der Viererfl\xfcgel f\xfcgt eine eigent\xfcmliche Tiefe hinzu: ein Gesp\xfcr f\xfcr das Besondere, den exklusiven Zirkel, die Einzigartigkeit des eigenen Angebots. Das Tier \u2013 der <em>Waschb\xe4r</em> \u2013 trifft den Kern: geschickt, anpassungsf\xe4hig, nachtaktiv, mit einer Maske, die zur Natur geh\xf6rt. Der Waschb\xe4r nimmt, was er braucht \u2013 leise, geschickt und ohne Drama.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Bernie Madoff is assigned to the Self-Preservation Type 3 with Four-wing (SP3w4). The SP3 is the countertype of Type Three: they do not stage themselves loudly and glamorously like the Social Three, but quietly, earnestly, and dependably. The self-preservation instinct directs the Three toward material security—wealth, possessions, and stability as their deepest goal. The Four-wing adds a peculiar depth: a sense for the exquisite, the exclusive circle, and the uniqueness of one's own offering. The animal correspondence—the raccoon—captures the core: clever, adaptable, nocturnal, with a mask that belongs to its nature. The raccoon takes what it needs—quietly, skillfully, and without drama.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig und vertrauenerweckend:</strong>
-        Madoff strahlte keine Energie aus, die \xfcberw\xe4ltigte oder blendete. Er war kein Marktschreier, kein Blender. Er war ruhig, sachlich, kompetent. Genau das war die Falle: Wer so wenig Aufhebens um sich macht, muss wirklich sicher sein. Der SP3-Kontratyp t\xe4uscht nicht durch \xdcbertreibung \u2013 er t\xe4uscht durch <em>Understatement</em>.</p>
-        <p class="vb-intro"><strong>b) Exklusiv und ausw\xe4hlend:</strong>
-        Madoff nahm nicht jeden als Kunden. Wer bei ihm investieren durfte, f\xfchlte sich auserw\xe4hlt. Der Viererfl\xfcgel verleiht der Drei eine \xc4sthetik der Einzigartigkeit: <em>Nicht jeder kommt herein. Du bist etwas Besonderes, weil ich dich aufnehme.</em> Das war kein Zufall \u2013 das war Methode. Exklusivit\xe4t als Vertrauensmechanismus.</p>
-        <p class="vb-intro"><strong>c) Warm im privaten Kreis:</strong>
-        Wer ihn pers\xf6nlich kannte, beschreibt ihn als charmant, f\xfcrsorglich, zugewandt. Er investierte in Relationships \u2013 spielte Golf mit Kunden, kannte ihre Kinder, erschien zuverl\xe4ssig zu Veranstaltungen. Der SP3er wei\xdf instinktiv: Vertrauen entsteht in der N\xe4he. Er gab N\xe4he, um Sicherheit zu kaufen.</p>
-        <p class="vb-intro"><strong>d) Leer hinter der Oberfl\xe4che:</strong>
-        In sp\xe4teren Interviews beschrieb Madoff selbst eine tiefe innere Leere. Der Viererfl\xfcgel macht die Drei ahnungsf\xe4hig f\xfcr das, was fehlt \u2013 und gleichzeitig unf\xe4hig, damit wirklich umzugehen. Der Betrug lief weiter, auch als kein wirtschaftlicher Druck mehr bestand: weil die Inszenierung selbst zur einzigen Identit\xe4t geworden war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Calm and Trust-Inducing:</strong>
+Madoff radiated no energy that overwhelmed or dazzled. He was no barker, no charlatan. He was calm, matter-of-fact, and competent. Precisely that was the trap: anyone making so little fuss must truly be secure. The SP3 countertype does not deceive through exaggeration—they deceive through understatement.</p>
+        <p class="vb-intro"><strong>b) Exclusive and Selective:</strong>
+Madoff did not take just anyone as a client. Those permitted to invest with him felt chosen. The Four-wing lends Type Three an aesthetic of uniqueness: Not everyone gets in. You are special because I am accepting you. That was no accident—it was a method. Exclusivity as a mechanism of trust.</p>
+        <p class="vb-intro"><strong>c) Warm in Private Circles:</strong>
+Those who knew him personally described him as charming, caring, and attentive. He invested in relationships—played golf with clients, knew their children, and reliably attended events. The SP3 instinctively knows: trust grows through proximity. He offered proximity to buy security.</p>
+        <p class="vb-intro"><strong>d) Empty Behind the Surface:</strong>
+In later interviews, Madoff himself described a deep inner emptiness. The Four-wing makes Type Three sensitive to what is missing—and simultaneously incapable of truly dealing with it. The fraud continued even when no financial pressure remained: because the performance itself had become his sole identity.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sicherheit durch Akkumulation:</strong>
-        Der SP3er strebt nach materiellem Fundament. Nicht nach Ruhm \u2013 nach Sicherheit. Madoff baute keine Marke um sein Gesicht herum. Er baute ein System: eine Firma, einen Ruf, ein Netzwerk. Der SE-Instinkt ist der Instinkt des Nestes, der Vorr\xe4te, der gesch\xfctzten Position. Madoffs Ponzi-System war, auf einer verdrehten Ebene, genau das: ein Nest, das er verzweifelt sch\xfctzte.</p>
-        <p class="vb-intro"><strong>b) Die Maske als Natur:</strong>
-        Der Dreier tr\xe4gt keine Maske, die er irgendwann absetzt \u2013 er <em>ist</em> die Maske. Das macht ihn so schwer zu durchschauen. Madoff hatte keine zweite, private Pers\xf6nlichkeit, die das Gegenteil seiner \xf6ffentlichen war. Er glaubte, so weit man das rekonstruieren kann, zeitweise selbst an die Stabilit\xe4t seines Systems. Die Dissoziation war vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>c) Der Kontratyp: unsichtbare Drei:</strong>
-        Der SP3er ist der Typ, den man nicht als Dreier erkennt. Wo der SO3 gl\xe4nzen will, will der SP3 <em>zuverl\xe4ssig</em> sein. Keine Arroganz, keine B\xfchne. Madoffs B\xfcro war bekannt f\xfcr seine schlichte Professionalit\xe4t. Die Investmentstrategie wurde nie offengelegt \u2013 angeblich zu komplex. Genau das verf\xfchrte: Wer Diskretion ausstrahlt, scheint Integrit\xe4t zu haben.</p>
-        <p class="vb-intro"><strong>d) Viererfl\xfcgel: der Sinn f\xfcr das Besondere:</strong>
-        Der Viererfl\xfcgel f\xfcgt dem SP3 eine melancholische Tiefe hinzu und ein ausgepr\xe4gtes Gesp\xfcr f\xfcr \xc4sthetik und Exklusivit\xe4t. Madoffs Kunden waren keine Masse \u2013 es war ein ausgew\xe4hlter Kreis aus der j\xfcdischen Oberschicht, dem Showbusiness, Stiftungen. Der Vier-Fl\xfcgel erm\xf6glicht der Drei eine Art aristokratischen Stil: nicht jeder geh\xf6rt dazu. Das ist Selektion als Vertrauensstrategie.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Security Through Accumulation:</strong>
+The SP3 strives for a material foundation. Not for fame—for security. Madoff did not build a brand around his face. He built a system: a firm, a reputation, a network. The self-preservation instinct is the instinct of the nest, of reserves, of the protected position. Madoff's Ponzi scheme was, on a twisted level, exactly that: a nest he desperately protected.</p>
+        <p class="vb-intro"><strong>b) The Mask as Nature:</strong>
+The Three does not wear a mask that they eventually take off—they are the mask. This is what makes them so difficult to see through. Madoff had no second, private personality that was the opposite of his public one. He believed, as far as can be reconstructed, at times in the stability of his own system. The dissociation was complete.</p>
+        <p class="vb-intro"><strong>c) The Countertype: The Invisible Three:</strong>
+The SP3 is the type you do not recognize as a Three. Where the Social Three wants to shine, the SP3 wants to be reliable. No arrogance, no stage. Madoff's office was known for its understated professionalism. The investment strategy was never disclosed—supposedly too complex. That was precisely the allure: radiating discretion makes one appear to possess integrity.</p>
+        <p class="vb-intro"><strong>d) Four-Wing: The Sense for the Special:</strong>
+The Four-wing adds a melancholic depth and a pronounced sense of aesthetics and exclusivity to the SP3. Madoff's clients were no random crowd—they were a select circle from the Jewish upper class, show business, and charitable foundations. The Four-wing allows Type Three an aristocratic style: not everyone belongs. This is selection as a strategy for cultivating trust.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Die Entstehung des Systems:</strong>
-        Madoff gr\xfcndete 1960 seine Investmentfirma Bernard L. Madoff Investment Securities. Der betr\xfcgerische Arm \u2013 ein separater, streng getrennter Gesch\xe4ftsbereich \u2013 entstand nach allem, was bekannt ist, sp\xe4testens in den fr\xfchen 1990er-Jahren, m\xf6glicherweise fr\xfcher. Statt echter Investitionen wurden nur Kontoausz\xfcge produziert, die konstante, risikolose Renditen von 10\u201312 % pro Jahr auswiesen \u2013 unabh\xe4ngig von Marktbewegungen.</p>
-        <p class="vb-intro"><strong>b) Die Methode:</strong>
-        Ein klassisches Ponzi-System: Neue Investorengelder wurden genutzt, um Renditen an bestehende Kunden auszuzahlen. Kein Geld wurde tats\xe4chlich investiert. Das Volumen wuchs \xfcber Jahrzehnte. Madoffs legitimes Handelsgesch\xe4ft und der Betrug liefen physisch und buchhalterisch strikt getrennt \u2013 in verschiedenen Stockwerken des gleichen Geb\xe4udes. Diese r\xe4umliche Trennung war symptomatisch: zwei Welten, die sich nie ber\xfchren durften.</p>
-        <p class="vb-intro"><strong>c) Der Zusammenbruch:</strong>
-        Die Finanzkrise 2008 war das Ende. Als Kunden in Panik massenhaft Auszahlungen verlangten, fehlten rund sieben Milliarden Dollar. Am 10. Dezember 2008 gestand Madoff seinen beiden S\xf6hnen, die ebenfalls in der Firma arbeiteten, die Wahrheit. Am n\xe4chsten Tag zeigten sie ihn beim FBI an. Er wurde noch am selben Tag verhaftet. Sein Sohn Mark beging zwei Jahre sp\xe4ter Suizid. Sein Sohn Andrew starb 2014 an einem Lymphom \u2013 einer b\xf6sartigen Krebserkrankung des lymphatischen Systems. Die Familie war vernichtet.</p>
-        <p class="vb-intro"><strong>d) Urteil und Haft:</strong>
-        Im M\xe4rz 2009 bekannte sich Madoff in elf Anklagepunkten schuldig. Am 29. Juni 2009 verurteilte ihn Richter Denny Chin zu <strong>150 Jahren Bundesgef\xe4ngnis</strong> \u2013 der H\xf6chststrafe. Madoff sa\xdf seine Strafe in der Bundesstrafanstalt Butner, North Carolina ab. Er beantragte mehrfach vorzeitige Entlassung, zuletzt wegen einer unheilbaren Nierenerkrankung \u2013 ohne Erfolg. Am 14. April 2021 starb er in Haft im Alter von 82 Jahren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes</h3>
+        <p class="vb-intro"><strong>a) The Genesis of the System:</strong>
+Madoff founded his investment firm, Bernard L. Madoff Investment Securities, in 1960. According to all available evidence, the fraudulent branch—a separate, strictly segregated division—began by the early 1990s at the latest, possibly earlier. Instead of real investments, only account statements were generated, showing consistent, risk-free returns of 10–12% per year—completely decoupled from market movements.</p>
+        <p class="vb-intro"><strong>b) The Method:</strong>
+A classic Ponzi scheme: funds from new investors were used to pay returns to existing clients. No money was actually invested. The volume grew over decades. Madoff's legitimate trading business and the fraud were kept strictly separated, both physically and accounting-wise—on different floors of the same building. This spatial separation was symptomatic: two worlds that were never allowed to touch.</p>
+        <p class="vb-intro"><strong>c) The Collapse:</strong>
+The 2008 financial crisis brought the end. When panicking clients demanded mass redemptions, around seven billion dollars were missing. On December 10, 2008, Madoff confessed the truth to his two sons, who also worked at the firm. The following day, they reported him to the FBI. He was arrested that same day. His son Mark committed suicide two years later. His son Andrew died of lymphoma—a malignant cancer of the lymphatic system—in 2014. The family was destroyed.</p>
+        <p class="vb-intro"><strong>d) Verdict and Imprisonment:</strong>
+In March 2009, Madoff pleaded guilty to eleven felony counts. On June 29, 2009, Judge Denny Chin sentenced him to 150 years in federal prison—the maximum penalty. Madoff served his sentence at the Federal Correctional Institution in Butner, North Carolina. He repeatedly applied for compassionate release, most recently due to terminal kidney disease—without success. On April 14, 2021, he died in custody at the age of 82.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Drei im Spiegel</h3>
-        <p class="vb-intro">Der Typ 3 verliert sich in der Performanz. Das ist nicht Berechnung \u2013 es ist sein tiefster psychischer Mechanismus: <em>Ich bin, was ich leiste. Ich bin, was andere in mir sehen.</em> Irgendwann im Leben des SP3ers verschwimmt die Grenze zwischen dem echten Selbst und der Rolle. Madoff hatte so lange den unfehlbaren Investor gespielt, dass die Figur die Person ersetzt hatte.</p>
-        <p class="vb-intro">Was in fr\xfchen Jahren vielleicht noch als Notl\xf6sung begann \u2013 <em>dieses eine Mal \xfcberbr\xfccke ich den Verlust</em> \u2013 wurde zur Struktur, zur Identit\xe4t, zur einzigen Welt, die er noch kannte. Der Dreier <em>glaubt</em> an seine Inszenierung. Und genau das macht ihn so gef\xe4hrlich: Er l\xfcgt nicht im \xfcblichen Sinne. Er <em>ist</em> die L\xfcge.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Type Three in the Mirror</h3>
+        <p class="vb-intro">Type 3 loses itself in performance. This is not calculation—it is their deepest psychological mechanism: I am what I achieve. I am what others see in me. At some point in the life of the SP3, the boundary between the true self and the role blurs. Madoff had played the infallible investor for so long that the character had replaced the person.</p>
+        <p class="vb-intro">What may have begun in early years as a temporary fix—just this once I will cover the loss—became the structure, the identity, the only world he still knew. The Three believes in their performance. And that is precisely what makes them so dangerous: they do not lie in the ordinary sense. They are the lie.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Viererfl\xfcgel: Tiefe im Dienst der T\xe4uschung</h3>
-        <p class="vb-intro">Ohne Viererfl\xfcgel w\xe4re Madoff vielleicht ein gieriger Betr\xfcger unter vielen. Der Viererfl\xfcgel machte ihn zu etwas Eigenartigem: einem Betr\xfcger mit Stil, mit Geschmack, mit einer fast k\xfcnstlerischen Sorgfalt in der Konstruktion seiner Welt. Die Vier sucht nach Bedeutung und Tiefe \u2013 beim SP3w4er richtet sich diese Energie auf die Einzigartigkeit des eigenen Projekts.</p>
-        <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Das ist der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Four-Wing: Depth in the Service of Deception</h3>
+        <p class="vb-intro">Without a Four-wing, Madoff might have been just another greedy fraudster among many. The Four-wing made him something peculiar: a fraudster with style, with taste, with an almost artistic care in the construction of his world. Type Four seeks significance and depth—in the SP3w4, this energy directs itself toward the uniqueness of their project.</p>
+        <p class="vb-intro">In later conversations, Madoff displayed an almost narcissistic fascination with his own deed: how precisely the system ran, how long it held, how many intelligent people he convinced. That is the Four-wing: even in catastrophe, still maintaining a sense that what one did was special.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Tier: Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der Waschb\xe4r tr\xe4gt von Natur aus eine Maske \u2013 und er w\xe4scht alles, was er in die H\xe4nde bekommt. Er ist nachtaktiv, geschickt mit den H\xe4nden, anpassungsf\xe4hig an jede Umgebung. Er lebt in der N\xe4he des Menschen, nutzt dessen Strukturen, ohne je wirklich dazuzugeh\xf6ren. Er wirkt harmlos, fast niedlich \u2013 und r\xe4umt dennoch systematisch aus, was er in die Pfoten bekommt.</p>
-        <p class="vb-intro">F\xfcr Madoff: die Maske war sein Gesicht. Die H\xe4nde \u2013 die B\xfccher, die Zahlen, die Kontoausz\xfcge \u2013 arbeiteten im Verborgenen. Er lebte mitten unter den Menschen der Wall Street, nutzte ihr Ansehen, ihr Vertrauen, ihre Verbindungen \u2013 und entleerte sie still von innen. Jahrzehnte lang, ohne Aufhebens, ohne Spur. Der Waschb\xe4r verl\xe4sst das Revier erst, wenn nichts mehr zu holen ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro">The raccoon naturally wears a mask—and washes everything it gets its hands on. It is nocturnal, nimble with its paws, adaptable to any environment. It lives near humans, utilizing their structures without ever truly belonging. It appears harmless, almost cute—and yet systematically empties whatever it can grasp.</p>
+        <p class="vb-intro">For Madoff, the mask was his face. His hands—the books, the numbers, the account statements—worked in secret. He lived right among the people of Wall Street, used their prestige, their trust, their connections—and quietly drained them from within. For decades, without fuss, without a trace. The raccoon leaves the territory only when there is nothing left to take.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Psychologisches Profil</h3>
-        <p class="vb-intro"><strong>a) Kein Monstrum \u2013 ein Mechanismus:</strong>
-        Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Das ist die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
-        <p class="vb-intro"><strong>b) Die S\xf6hne als tragischer Spiegel:</strong>
-        Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SP3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
-        <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Betr\xfcgern:</strong>
-        Samuel Bankman-Fried (SP3w4) brauchte das Narrativ des altruistischen Genies \u2013 er inszenierte sich als Retter der Welt. Ruja Ignatova (SP3w4) brauchte die B\xfchne, den Glamour, die Menge. Madoff brauchte keines davon. Er brauchte <em>Stille</em>. Diskretion. Das leise Vertrauen des Zirkels. Das ist der reinste SP3w4: nicht der lauteste Betr\xfcger, sondern der, den man am wenigsten f\xfcr einen h\xe4lt. Auch Frank Abagnale Jr. betrog auf diese stille, unauff\xe4llige Art \u2013 nicht durch Lautst\xe4rke, sondern durch Glaubw\xfcrdigkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Psychological Profile</h3>
+        <p class="vb-intro"><strong>a) Not a Monster—a Mechanism:</strong>
+Madoff was no sadistic perpetrator who relished the suffering of his victims. He suppressed it. In interviews, he occasionally sounded genuinely surprised by the intensity of the pain he had caused. That is Three psychology: damage to others does not penetrate the performance. What matters is one's own stage—not the consequences behind it.</p>
+        <p class="vb-intro"><strong>b) The Sons as a Tragic Mirror:</strong>
+That Madoff's own sons reported him is the deepest symbol of his downfall. The SP3 builds their nest—family, firm, reputation—and destroys it through the very mechanism that constructed it. The sons believed in their father. When the truth emerged, the father was suddenly gone—what remained was no longer viable. Mark Madoff took his own life on the second anniversary of his father's arrest.</p>
+        <p class="vb-intro"><strong>c) Unlike Other Fraudsters:</strong>
+Samuel Bankman-Fried (SP3w4) needed the narrative of the altruistic genius—he staged himself as the savior of the world. Ruja Ignatova (SP3w4) needed the stage, the glamour, the crowd. Madoff needed none of that. He needed silence. Discretion. The quiet trust of the inner circle. This is the purest SP3w4: not the loudest fraudster, but the one you least suspect of being one. Frank Abagnale Jr. also defrauded in this quiet, inconspicuous manner—not through volume, but through credibility.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #7c5200;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Zusammenfassung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Summary</h3>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Bernie Madoff war kein Raubtier mit Z\xe4hnen. Er war ein Waschb\xe4r mit Maske: geduldig, geschickt, angepasst, und mit einer nat\xfcrlichen Tarnung, die so \xfcberzeugend war, dass selbst die kl\xfcgsten K\xf6pfe der Finanzwelt sie nicht durchschauten. Der selbsterhaltende Dreier mit Viererfl\xfcgel braucht keine B\xfchne \u2013 er braucht Vertrauen. Und er erzeugt es mit einer Pr\xe4zision, die an Kunst grenzt.
+        Bernie Madoff was no predator with sharp teeth. He was a raccoon with a mask: patient, skillful, adapted, and wearing a natural camouflage so convincing that even the sharpest minds in finance failed to see through it. The Self-Preservation Three with a Four-wing needs no spotlight—they need trust. And they generate it with a precision bordering on art.
         </p>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Das Tragische an Madoff ist nicht die Tat selbst \u2013 es ist die vollst\xe4ndige Ausl\xf6schung des echten Menschen hinter der Rolle. Er wusste am Ende nicht mehr, wer er ohne das System war. Die Inszenierung hatte ihn verschluckt. Der Waschb\xe4r hatte so lange das Nest ausger\xe4umt, dass am Ende auch er darin sa\xdf \u2013 ohne Ausweg.
+        The tragedy of Madoff is not the crime itself—it is the complete erasure of the real human being behind the role. In the end, he no longer knew who he was without the system. The staging had swallowed him whole. The raccoon had emptied the nest for so long that in the end he sat inside it himself—with no way out.
         </p>
         <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        150 Jahre. Keine Bew\xe4hrung. Das Gericht wollte ein Zeichen setzen \u2013 nicht f\xfcr Madoff, der das Ende seiner Tage in Haft sterben w\xfcrde, sondern f\xfcr alle, die nach ihm kommen w\xfcrden. Der Waschb\xe4r tr\xe4gt seine Maske bis zum letzten Atemzug. Madoff starb 2021 in Bundesgefangenschaft. Das System, das er gebaut hatte, \xfcberlebte ihn nicht einen Tag.
+        150 years. No parole. The court intended to set an example—not for Madoff, who would end his days dying in custody, but for all who would come after him. The raccoon wears its mask until its final breath. Madoff died in federal prison in 2021. The system he built did not survive him by a single day.
         </p>
       </div>
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Taten Madoffs sind rechtskr\xe4ftig verurteilt \u2013 das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Madoff's crimes have been legally adjudicated—the Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -21846,9 +21846,9 @@ function bernieMadoffPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SP3w4) \u2013 FTX-Betrug"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4) \u2013 Die Cryptoqueen"},
-        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SP3w4) \u2013 Der Hochstapler"}
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SP3w4) – FTX Fraud"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4) – The Cryptoqueen"},
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SP3w4) – The Con Artist"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
