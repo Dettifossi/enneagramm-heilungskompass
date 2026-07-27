@@ -29383,169 +29383,74 @@ function jimJonesPortraitPage() {
         <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Jim Jones</strong> (1931–1978) gründete die <em>Peoples Temple</em>-Bewegung und baute über Jahrzehnte
-        eine der einflussreichsten Gemeinschaften der amerikanischen Bürgerrechtsbewegung auf.
-        Er errichtete Krankenhäuser, Obdachlosenunterkünfte und Suppenküchen. Er kämpfte gegen Rassismus
-        in einer Zeit, in der das noch gefährlich war. Zehntausende folgten ihm – nicht aus Angst,
-        sondern aus echter Überzeugung. Und dann, am 18. November 1978 in Jonestown, Guyana,
-        starben über 900 seiner Anhänger – die meisten durch vergifteten Traubensaft, den sie auf
-        seinen Befehl hin tranken. Jim Jones selbst starb an einer Schusswunde am Kopf –
-        ob durch eigene Hand oder durch jemand anderen, ist bis heute nicht zweifelsfrei geklärt.
-        Das Enneagramm erklärt, wie beides zusammengehört: die Güte und die Vernichtung.
+        Jim Jones (1931–1978) founded the Peoples Temple movement and, over decades, built one of the most influential communities within the American civil rights movement. He established hospitals, homeless shelters, and soup kitchens. He fought against racism at a time when doing so was still dangerous. Tens of thousands followed him—not out of fear, but out of genuine conviction. And then, on November 18, 1978, in Jonestown, Guyana, over 900 of his followers died—most of them from poisoned grape drink, which they consumed on his order. Jim Jones himself died of a gunshot wound to the head—whether by his own hand or someone else's remains unresolved to this day. The Enneagram explains how both fit together: the benevolence and the destruction.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jim Jones</strong> wird dem <strong>Sozialen Typ 2 with Three-wing</strong> im Enneagramm zugeordnet.
-        Die soziale Zwei lebt für die Gruppe – Helfen, Führen, Gebrauchtwerden sind ihr Sauerstoff.
-        Der Three-wing verleiht ihr Ehrgeiz, Inszenierungskraft und ein untrügliches Gespür
-        für Wirkung auf andere. Der Stresspunkt der Zwei liegt bei der <strong>Acht</strong>:
-        Wenn der Hunger nach Anerkennung nicht mehr gestillt werden kann, kippt die Zwei
-        in Achter-Energie – herrisch, kontrollierend, zerstörerisch.
-        Jones durchlief diese Bewegung vor den Augen der Welt – und niemand erkannte sie rechtzeitig.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Jim Jones is assigned to the Social Type 2 with Three-wing (SO2w3) in the Enneagram. The Social Two lives for the group—helping, leading, and being needed are its oxygen. The Three-wing provides ambition, flair for staging, and an unerring instinct for impacting others. The stress point of Type Two lies at Eight: when the hunger for recognition can no longer be satisfied, the Two tips into Eight energy—domineering, controlling, and destructive. Jones underwent this shift right before the eyes of the world—and no one recognized it in time.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Golden Retriever</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Golden Retriever</h3>
         <p class="vb-intro">
-        Der <strong>Golden Retriever</strong> ist die Animal correspondence der sozialen Zwei – und kein Tier
-        trifft das frühe Jim Jones-Bild präziser. Der Golden Retriever apportiert unermüdlich,
-        stellt sich in den Dienst, liest Gesichtsausdrücke mit einer fast übernatürlichen Genauigkeit
-        und schläft am liebsten in Körperkontakt mit seinem Menschen. Er gibt, bis er leer ist –
-        und er leidet leise, wenn niemand kommt. Jones war in seinen besten Jahren genau das:
-        ein Mensch, der spürte, was andere brauchten, bevor sie es selbst wussten.
-        Er war da – für Schwarze, für Arme, für Ausgestoßene – in einer Zeit, in der kaum jemand es war.
-        Das war keine Strategie. Das war echter Hunger nach Verbindung. Aber ein Golden Retriever,
-        dem nie jemand zurückgibt, was er gibt, wird irgendwann gefährlich ruhig.
+        The <strong>Golden Retriever</strong> is the animal correspondence of the Social Two—and no animal captures the early image of Jim Jones more accurately. The Golden Retriever tirelessly fetches, places itself in service, reads facial expressions with almost supernatural accuracy, and prefers to sleep in physical contact with its human. It gives until it is empty—and suffers quietly when no one comes. In his best years, Jones was precisely that: a person who sensed what others needed before they knew it themselves. He was there—for Black people, for the poor, for the outcast—at a time when hardly anyone else was. That was no strategy. That was a genuine hunger for connection. But a Golden Retriever that is never given back what it offers eventually grows dangerously quiet.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der Aufbau: Helfen als Identität</h3>
-        <p class="vb-intro"><strong>a) Der Gemeinschaftsstifter:</strong>
-        Jones gründete die Peoples Temple zunächst als interraciale Kirchengemeinde in Indianapolis –
-        zu einer Zeit, in der Schwarze und Weiße nicht gemeinsam in Gottesdiensten saßen.
-        Er baute Krankenhäuser, Pflegeheime, Drogenentzugsprogramme, Suppenküchen.
-        Er kämpfte für Bürgerrechte, als das politische Karrieren kostete.
-        Tausende Menschen fanden bei ihm Heimat, Würde, Gemeinschaft. Das war real.</p>
-        <p class="vb-intro"><strong>b) Der Three-wing als Bühnenregisseur:</strong>
-        Der Three-wing der Zwei bringt Effizienz, Ehrgeiz und Selbstinszenierung.
-        Jones war kein stiller Helfer. Er war ein Performer: charismatische Predigten,
-        inszenierte Heilungswunder (Helfer legten heimlich Tierknochen unter die Kleidung der Gläubigen,
-        die Jones dann öffentlich als Tumore „herausholte"), politische Netzwerke bis in die höchsten
-        Kreise Kaliforniens. Bürgermeister, Gouverneure und Senatoren empfingen ihn.
-        Er wusste, wie er wirkte – und er nutzte es mit der Präzision eines Regisseurs.</p>
-        <p class="vb-intro"><strong>c) Der soziale Hunger:</strong>
-        Die soziale Zwei braucht Anerkennung von der Gruppe mehr als Luft.
-        Jones brauchte nicht Geld, nicht Sex, nicht Ruhm im gewöhnlichen Sinn.
-        Er brauchte, dass die Menschen ihn liebten. Dass sie ohne ihn nicht leben konnten.
-        Dass er unersetzlich war. Solange diese Überzeugung getragen wurde, war er ein Segen.
-        Als sie zu wanken begann, wurde er gefährlich.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Foundation: Helping as an Identity</h3>
+        <p class="vb-intro"><strong>a) The Community Builder:</strong>
+Jones initially founded the Peoples Temple as an interracial congregation in Indianapolis—at a time when Black and white people did not sit together in church services. He built hospitals, nursing homes, drug rehabilitation programs, and soup kitchens. He fought for civil rights when doing so cost political careers. Thousands of people found a home, dignity, and community with him. That was real.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing as Stage Director:</strong>
+The Three-wing of the Two brings efficiency, ambition, and self-staging. Jones was no quiet helper. He was a performer: charismatic sermons, staged faith healings (helpers secretly hid animal bones under the clothing of believers, which Jones then publicly "extracted" as tumors), and political networks extending into the highest circles of California. Mayors, governors, and senators received him. He knew the effect he had—and he used it with the precision of a director.</p>
+        <p class="vb-intro"><strong>c) The Social Hunger:</strong>
+The Social Two needs recognition from the group more than air. Jones did not need money, sex, or fame in the ordinary sense. He needed people to love him. He needed them to be unable to live without him. He needed to be indispensable. As long as this conviction was upheld, he was a blessing. When it began to falter, he became dangerous.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Riss: Wenn Geben zur Herrschaft wird</h3>
-        <p class="vb-intro"><strong>a) Abhängigkeit statt Verbindung:</strong>
-        Im Lauf der Jahre verwandelte Jones das Geben in ein Machtinstrument.
-        Er verlangte, dass Mitglieder ihm persönliche Briefe schreiben – Beichten, Geheimnisse,
-        Fantasien –, die er als Seelsorge tarnte, und las sie dann öffentlich vor, wenn jemand
-        seinen Gehorsam verweigerte. Er trennte Familien bewusst, indem er Kinder
-        in andere Haushalte schickte und Paare auseinanderriss.
-        Er kontrollierte Finanzen: Mitglieder übergaben ihren gesamten Besitz der Gemeinschaft.
-        Er überwachte Schlafzeiten, Ernährung und Sexualität.
-        Der Golden Retriever, der nicht loslassen kann, wird zur Leine.</p>
-        <p class="vb-intro"><strong>b) Der Stolz der Zwei:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> – das tiefe, oft unbewusste Gefühl,
-        dass man gebraucht wird, dass man weiß, was andere brauchen, dass man der Einzige ist,
-        der wirklich hilft. Jones steigerte diesen Stolz ins Megalomane:
-        Er bezeichnete sich als Reinkarnation Jesu und Buddhas, als einzigen Menschen,
-        der die Wahrheit kannte. Er ließ sich bei Predigten als „Vater" anreden.
-        Wer zweifelte, verriet nicht ihn – sondern die Gemeinschaft.
-        Diese Verschiebung – vom Helfer zum Unantastbaren – ist das Kernmuster der desintegrierten Zwei.</p>
-        <p class="vb-intro"><strong>c) Paranoia als Schutz:</strong>
-        In den 1970er Jahren wuchsen die Berichte über Misshandlungen in der Peoples Temple.
-        Ehemalige Mitglieder sprachen mit Journalisten. Jones reagierte mit Paranoia:
-        Die Welt da draußen wolle ihn vernichten, seine Kinder stehlen, seine Gemeinschaft zerstören.
-        Er probeübte den Massensuizid erstmals 1977 im südamerikanischen Urwald:
-        In sogenannten „Weißen Nächten" weckte er die Gemeinschaft mitten in der Nacht,
-        ließ vergifteten Saft austeilen – und erklärte hinterher, es sei eine Übung gewesen.
-        Die Menschen weinten vor Erleichterung. Jones zog die Kontrolle daraus.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Rift: When Giving Becomes Dominance</h3>
+        <p class="vb-intro"><strong>a) Dependency Instead of Connection:</strong>
+Over the years, Jones transformed giving into an instrument of power. He required members to write him personal letters—confessions, secrets, fantasies—which he disguised as pastoral care, only to read them aloud publicly if someone refused obedience. He intentionally separated families by sending children to other households and tearing couples apart. He controlled finances: members surrendered their entire property to the community. He monitored sleep schedules, diet, and sexuality. The Golden Retriever that cannot let go turns into a leash.</p>
+        <p class="vb-intro"><strong>b) The Pride of the Two:</strong>
+The passion of Type Two is pride—the deep, often subconscious feeling of being needed, of knowing what others need, of being the only one who truly helps. Jones amplified this pride into megalomania: he referred to himself as the reincarnation of Jesus and Buddha, as the only human who knew the truth. He had himself addressed as "Father" during sermons. Those who doubted were not betraying him—they were betraying the community. This shift—from helper to untouchable figure—is the core pattern of the disintegrated Two.</p>
+        <p class="vb-intro"><strong>c) Paranoia as Protection:</strong>
+In the 1970s, reports of abuse within the Peoples Temple grew. Former members spoke to journalists. Jones reacted with paranoia: the outside world wanted to destroy him, steal his children, and break his community. He first rehearsed mass suicide in 1977 in the South American jungle: during so-called "White Nights," he woke the community in the middle of the night, distributed poisoned juice—and afterwards declared it had been a drill. People wept with relief. Jones derived control from it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der 18. November 1978: Das Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Der Auslöser:</strong>
-        US-Kongressabgeordneter Leo Ryan reiste im November 1978 nach Jonestown, um
-        Berichten über Freiheitsberaubung nachzugehen. Er sprach mit Mitgliedern –
-        und mehrere wollten mit ihm fliehen. Auf dem nahegelegenen Flughafen Port Kaituma
-        ließen Jones' bewaffnete Wächter das Flugzeug anhalten und eröffneten das Feuer.
-        Leo Ryan und vier weitere Menschen wurden erschossen.
-        Das war keine Notwehr. Das war der Moment, in dem Jones erkannte:
-        Die Welt wird jetzt kommen. Das Bild ist zerstört. Es gibt keinen Weg zurück.</p>
-        <p class="vb-intro"><strong>b) Der Befehl:</strong>
-        Back in Jonestown befahl Jones, den „revolutionären Tod" einzuleiten.
-        Großbehälter wurden mit Traubensaft, Zyankali und Beruhigungsmitteln gefüllt.
-        Krankenschwestern zogen mit Spritzen durch die Menge und verabreichten das Gift
-        Säuglingen und Kleinkindern direkt in den Mund.
-        Erwachsene tranken – manche freiwillig, manche unter Zwang durch Bewaffnete.
-        Tonbandaufnahmen dokumentieren Jones' Stimme während der Szene:
-        ruhig, pastoral, fast sanft: „Weine nicht. Das ist ein freudiges Erlebnis."
-        912 Menschen starben. 276 davon waren Kinder.</p>
-        <p class="vb-intro"><strong>c) Jones' Tod:</strong>
-        Jim Jones selbst starb durch eine Schusswunde an der Schläfe.
-        Ob er sich selbst erschoss oder ob jemand ihn tötete, ist bis heute nicht abschließend geklärt.
-        Keine Waffe wurde neben ihm gefunden, die zweifelsfrei zugeordnet werden konnte.
-        Was bleibt: der Mann, der jahrelang die Entscheidungshoheit über Leben und Tod
-        ausgeübt hatte, starb am Ende seines eigenen Projekts – genau dort,
-        wo Achter-Energie in ihrer dunkelsten Form endet: in der totalen Vernichtung,
-        auch der eigenen Person.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. November 18, 1978: The Event</h3>
+        <p class="vb-intro"><strong>a) The Trigger:</strong>
+U.S. Congressman Leo Ryan traveled to Jonestown in November 1978 to investigate reports of unlawful confinement. He spoke with members—and several wanted to flee with him. At the nearby Port Kaituma airstrip, Jones's armed guards stopped the plane and opened fire. Leo Ryan and four others were shot dead. That was not self-defense. That was the moment Jones realized: the world will come now. The image is destroyed. There is no way back.</p>
+        <p class="vb-intro"><strong>b) The Order:</strong>
+Back in Jonestown, Jones ordered the initiation of the "revolutionary death." Large vats were filled with grape drink, potassium cyanide, and sedatives. Nurses moved through the crowd with syringes, administering the poison directly into the mouths of infants and toddlers. Adults drank—some voluntarily, others forced at gunpoint by armed guards. Audio recordings document Jones's voice during the scene: calm, pastoral, almost gentle: "Don't cry. This is a joyful experience." 912 people died. 276 of them were children.</p>
+        <p class="vb-intro"><strong>c) Jones's Death:</strong>
+Jim Jones himself died of a gunshot wound to the temple. Whether he shot himself or someone else killed him has never been conclusively clarified. No weapon was found next to him that could be definitively attributed. What remains: the man who had exercised decision-making power over life and death for years died at the end of his own project—right where Eight energy in its darkest form ends: in total destruction, including of oneself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Achter-Stresspunkt: Zerstörung als letzte Kontrolle</h3>
-        <p class="vb-intro"><strong>a) Was der Stresspunkt bedeutet:</strong>
-        Die Zwei bewegt sich im Stress in Richtung <strong>Acht</strong>.
-        Achter-Energie ist keine Schwäche – sie ist rohe Macht, Konfrontation, der Wille,
-        zu beherrschen statt zu dienen. Bei der gesunden Acht ist das Schutz und Stärke.
-        Bei der desintegrierten Zwei, die in die Acht kippt, wird es zu Tyrannei.
-        Jones gab die Rolle des Helfers auf und wurde zum Herrscher.</p>
-        <p class="vb-intro"><strong>b) Die Logik der Vernichtung:</strong>
-        Was Jones am Ende befohlte, war aus seiner inneren Logik heraus konsequent:
-        Wenn die Gemeinschaft zerstört wird – dann besser durch ihn als durch die Feinde.
-        Wenn die Liebe endet – dann soll es keine geben, die ohne ihn weiterleben.
-        Das ist Achter-Energie in ihrer dunkelsten Form: Ich vernichte, was ich liebe,
-        bevor es von mir getrennt werden kann.
-        Es ist kein Akt des Hasses auf die Gemeinschaft. Es ist der letzte Akt eines Mannes,
-        der sein Unersetzlichkeit bis in den Tod behalten wollte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Eight Stress Point: Destruction as Ultimate Control</h3>
+        <p class="vb-intro"><strong>a) What the Stress Point Means:</strong>
+Under stress, Type Two moves toward Eight. Eight energy is not weakness—it is raw power, confrontation, the will to dominate rather than to serve. In a healthy Eight, this is protection and strength. In a disintegrated Two tipping into Eight, it turns into tyranny. Jones abandoned the role of the helper and became a ruler.</p>
+        <p class="vb-intro"><strong>b) The Logic of Destruction:</strong>
+What Jones ultimately ordered was consistent within his inner logic: if the community is to be destroyed—then better by him than by enemies. If love ends—then no one should live on without him. That is Eight energy in its darkest form: I destroy what I love before it can be separated from me. It is not an act of hatred toward the community. It is the final act of a man who wanted to retain his indispensability unto death.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Jim Jones ist kein Rätsel, wenn man das Enneagramm kennt. Die Peoples Temple war kein Betrug.
-        Jones war nicht von Anfang an ein Manipulator, der eine Maske trug.
-        Er war ein Mensch, dessen echter Hunger nach Verbindung und Anerkennung
-        weder von innen noch von außen je wirklich gestillt wurde.
-        Die soziale Zwei, die gibt und gibt und nicht lernt zu empfangen,
-        baut Systeme, die sie brauchen – bis das Brauchen zur Knechtschaft wird.
-        Der Three-wing sorgte für die Inszenierung, die Zehntausende mitnahm.
-        Der Achter-Stresspunkt sorgte für die Vernichtung.
-        Was Jones am Ende tötete – seine Anhänger und möglicherweise sich selbst –
-        war nicht Bosheit. Es war der kollabierende Versuch, unersetzlich zu bleiben,
-        wenn niemand mehr glaubt.
+        Jim Jones is no mystery if you know the Enneagram. The Peoples Temple was not a scam. Jones was not a manipulator wearing a mask from the very beginning. He was a person whose genuine hunger for connection and recognition was never truly satisfied, neither from within nor from without. The Social Two that gives and gives without learning to receive builds systems that need them—until that need becomes servitude. The Three-wing provided the staging that carried tens of thousands along. The Eight stress point brought about the destruction. What killed Jones in the end—his followers and possibly himself—was not malice. It was the collapsing attempt to remain indispensable when no one believes anymore.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO2w3 – Soziale Zwei with Three-wing.<br>
-        <strong>Leidenschaft:</strong> Stolz – das unbewusste Wissen, unersetzlich zu sein und zu geben, was andere nicht können.<br>
-        <strong>Stresspunkt:</strong> Acht – Herrschaft, Zerstörung, wenn die Liebe kippt.<br>
-        <strong>Animal correspondence:</strong> Golden Retriever – unermüdlicher Dienst, emotionale Feinfühligkeit, existenzielle Abhängigkeit von Gegenseitigkeit.<br>
-        <strong>Lehrwert:</strong> Jones zeigt, wie echtes Helfen und zerstörerische Kontrolle aus derselben Quelle fließen können –
-        und warum das Enneagramm nicht fragt, ob jemand gut oder böse war,
-        sondern welche Struktur sein Leben antrieb.
+        <strong>Subtype:</strong> SO2w3 – Social Two with Three-wing.<br>
+        <strong>Passion:</strong> Pride – the subconscious belief in being indispensable and giving what others cannot.<br>
+        <strong>Stress Point:</strong> Eight – domination, destruction when love turns.<br>
+        <strong>Animal Correspondence:</strong> Golden Retriever – tireless service, emotional sensitivity, existential dependency on reciprocity.<br>
+        <strong>Educational Value:</strong> Jones shows how genuine helping and destructive control can flow from the same source—and why the Enneagram does not ask whether someone was good or evil, but which structure drove their life.
         </p>
       </div>
 
@@ -29556,7 +29461,7 @@ function jimJonesPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jim Jones ist verantwortlich für den Massentod in Jonestown 1978, bei dem über 900 Menschen starben. Er starb durch Suizid vor einer juristischen Aufarbeitung. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Jim Jones is responsible for the mass death in Jonestown in 1978, in which over 900 people died. He died by suicide prior to any legal proceedings. The Enneagram explains; it does not justify.
         </p>
       </div>
 
