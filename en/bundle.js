@@ -11627,13 +11627,31 @@ function zentrenWeltwahrnehmungPage() {
     ${pageHeader("zentren-weltwahrnehmung")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Three Centers</p>
-      <h1>Weltwahrnehmung in den drei Intelligenzzentren</h1>
+      <h1>Perceiving the World Through the Three Intelligence Centers</h1>
       <p class="lead-small">How do the 9 Enneagram types perceive the world &mdash; within their three intelligence centers? This overview shows reactions in both a positive and negative sense, as well as the three intelligence center pyramids.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
-             alt="Weltwahrnehmung in den drei Intelligenzzentren"
+             alt="Perceiving the world through the three intelligence centers"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:1.5rem auto 0;font-size:.9rem;line-height:1.7;color:var(--ink);">
+        <p style="margin-bottom:1rem;">Each type shows a negative (&ndash;) and a positive (+) way of expressing its center: Type 9 (&ndash; passivity / + steadfastness), Type 1 (&ndash; reaction control / + good gut feeling), Type 8 (&ndash; excessive action / + measured action), Type 2 (&ndash; emotional manipulation / + empathy), Type 3 (&ndash; inauthentic role-play / + authentic connection), Type 4 (&ndash; hypersensitivity / + compassion), Type 5 (&ndash; over-analysis / + objective analysis), Type 6 (&ndash; projection / + conscious insight), and Type 7 (&ndash; excessive planning / + productive planning).</p>
+        <div style="display:grid;gap:.8rem;">
+          <div style="padding:.8rem 1rem;background:var(--paper);border-left:3px solid var(--copper);border-radius:0 8px 8px 0;">
+            <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Gut Pyramid 8&ndash;9&ndash;1</p>
+            <p style="margin:0;font-size:.88rem;">Focus on injustice and lack of fairness &rarr; feeling of anger/rage &rarr; seeks peace to overcome the anger, through: 8 protecting, 9 mediating, 1 correcting.</p>
+          </div>
+          <div style="padding:.8rem 1rem;background:var(--paper);border-left:3px solid var(--copper);border-radius:0 8px 8px 0;">
+            <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Heart Pyramid 2&ndash;3&ndash;4</p>
+            <p style="margin:0;font-size:.88rem;">Focus on the loss of connection and not being seen &rarr; feeling of sadness &rarr; seeks joy to overcome the sadness, through: 2 helping, 3 achieving, 4 differentiating.</p>
+          </div>
+          <div style="padding:.8rem 1rem;background:var(--paper);border-left:3px solid var(--copper);border-radius:0 8px 8px 0;">
+            <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">Head Pyramid 5&ndash;6&ndash;7</p>
+            <p style="margin:0;font-size:.88rem;">Focus on potential threats and uncertainties &rarr; feeling of fear &rarr; seeks trust to overcome the fear, through: 5 observing, 6 questioning, 7 stimulating.</p>
+          </div>
+        </div>
+      </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the three centers shape perception long before conscious thought sets in &ndash; the model behind this chart.", "Der Code deiner Persönlichkeit")}
       <p style="margin-top:1.5rem; text-align:center;">
         &larr; Back to: Three Centers
       </p>
