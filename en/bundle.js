@@ -27272,193 +27272,98 @@ function wolfgangBeltracchiPortraitPage() {
         </div>
         <p class="krim-portrait-name">Wolfgang Beltracchi</p>
         <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Kunstfälscher, Jahrhundertbetrug · Animal correspondence: Faultier</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">German art forger, forgery scandal of the century · Animal correspondence: Sloth</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Wolfgang Beltracchi</strong> gilt als einer der bekanntesten Kunstf\xe4lscher der Welt.
-        Nach eigenen Angaben f\xe4lschte er rund 300 Kunstwerke ber\xfchmter Maler, die heute
-        noch in Museen weltweit als vermeintliche Originale ausgestellt sind. Im Herbst 2011
-        wurde er wegen gewerbsm\xe4\xdfigen Bandenbetrugs in 14 nachgewiesenen F\xe4llen zu sechs
-        Jahren Haft verurteilt; der Betrugsgewinn wurde auf 20 bis 50 Millionen Euro gesch\xe4tzt.
-        Was Beltracchi von anderen Betr\xfcgern unterscheidet: Er handelte nicht aus Hass,
-        Machtgier oder Destruktivit\xe4t – sondern aus einer tiefen, fast liebevollen
-        Verschmelzung mit der Kunstwelt. Das Enneagramm macht diesen Unterschied lesbar.
+        Wolfgang Beltracchi is considered one of the most famous art forgers in the world. According to his own statements, he forged around 300 artworks by famous painters, which are today still displayed in museums worldwide as alleged originals. In the autumn of 2011, he was sentenced to six years in prison for commercial gang fraud in 14 proven cases; the fraud profit was estimated at 20 to 50 million euros. What sets Beltracchi apart from other fraudsters: He did not act out of hatred, greed for power, or destructiveness – but out of a deep, almost loving merging with the art world. The Enneagram makes this difference legible.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wolfgang Beltracchi</strong> wird der <strong>Sexuellen Neun mit Einserfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Neun ist <em>Tr\xe4gheit</em> (Sloth) –
-        nicht k\xf6rperliche Tr\xe4gheit, sondern eine innere Tr\xe4gheit gegen\xfcber der eigenen
-        Pr\xe4senz und Identit\xe4t: die Neigung, sich selbst zu vergessen und in etwas
-        Gr\xf6\xdferes aufzugehen. Die sexuelle Neun (SX9) sucht diesen Zustand durch
-        vollst\xe4ndige Verschmelzung – mit Menschen, Ideen oder k\xfcnstlerischen Welten.
-        Der Einserfl\xfcgel erg\xe4nzt dies mit Perfektionismus und einem tiefen Gef\xfchl daf\xfcr,
-        was „richtig" und „echt" ist. In Beltracchis Fall f\xfchrt diese Kombination zu
-        einem der \xe4sthetisch und psychologisch faszinantesten F\xe4lle der Kriminalgeschichte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Wolfgang Beltracchi is assigned to the Sexual Nine with One-wing in the Enneagram. The passion of the Nine is sloth – not physical laziness, but an inner laziness towards one's own presence and identity: the tendency to forget oneself and merge into something larger. The sexual Nine (SX9) seeks this state through complete merging – with people, ideas, or artistic worlds. The One-wing complements this with perfectionism and a deep sense of what is "right" and "genuine". In Beltracchi's case, this combination leads to one of the most aesthetically and psychologically fascinating cases in criminal history.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Sehnsucht nach Verschmelzung:</strong>
-        Die sexuelle Neun hat ein tiefes Bed\xfcrfnis nach intensiver Verschmelzung mit
-        Menschen oder Konzepten. Beltracchi baute eine intime Beziehung zu den Kunstwerken
-        auf, als ob er selbst die Originale geschaffen h\xe4tte. Er malte nicht nur F\xe4lschungen –
-        er schuf in seinem Empfinden das, was die Meister h\xe4tten malen sollen.</p>
-        <p class="vb-intro"><strong>b) Vermeidung von Konflikten:</strong>
-        Sexuelle Neunen neigen dazu, Konflikten aus dem Weg zu gehen und sich auf sanfte
-        Weise in die Umgebung einzuf\xfcgen. Beltracchi lebte lange in einer fast traumhaften
-        Welt ohne Konfrontation mit der Realit\xe4t – erkennbar auch am ruhigen, etwas
-        schl\xe4frigen Ausdruck, den Neuner oft in ihrem Blick tragen.</p>
-        <p class="vb-intro"><strong>c) Blick in die Vergangenheit:</strong>
-        Diese Neunen tendieren zu nostalgischen Verbindungen mit fr\xfcheren Zeiten.
-        Beltracchi griff auf vergangene Kunststile zur\xfcck und f\xfchlte sich in der Rolle
-        der alten Meister offensichtlich vollkommen zu Hause.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Longing for Merging:</strong>
+The sexual Nine has a deep need for intense merging with people or concepts. Beltracchi built an intimate relationship with the artworks, as if he had created the originals himself. He didn't just paint forgeries – in his perception, he created what the masters should have painted.</p>
+        <p class="vb-intro"><strong>b) Avoidance of Conflict:</strong>
+Sexual Nines tend to avoid conflict and blend into their surroundings in a gentle way. Beltracchi lived for a long time in an almost dreamlike world without confrontation with reality – recognizable also in the calm, somewhat sleepy expression that Nines often carry in their gaze.</p>
+        <p class="vb-intro"><strong>c) Looking into the Past:</strong>
+These Nines tend toward nostalgic connections with former times. Beltracchi drew upon past artistic styles and evidently felt completely at home in the role of the old masters.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sehnsucht nach innerem Frieden:</strong>
-        SX9er streben nach tiefem innerem Frieden und Harmonie. Beltracchis Leben als
-        F\xe4lscher kann als Versuch gesehen werden, sich in eine ideale, friedliche Welt
-        der Kunst zu integrieren – auf versteckte, stille, unauff\xe4llige Weise als
-        K\xfcnstler respektiert und bewundert zu werden.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit:</strong>
-        Sexuelle Neuner sind sehr anpassungsf\xe4hig. Beltracchi zeigte diese F\xe4higkeit,
-        indem er sich sowohl in der Kunstwelt als auch in der Rolle des Betr\xfcgers
-        nahtlos bewegen konnte.</p>
-        <p class="vb-intro"><strong>c) Tendenz zur Selbstvergessenheit:</strong>
-        Neuner neigen dazu, ihre eigene Identit\xe4t zu verlieren und sich in etwas
-        Gr\xf6\xdferes aufzul\xf6sen. Dies erkl\xe4rt, warum Beltracchi sich in den Identit\xe4ten der
-        K\xfcnstler aufgehen lie\xdf und damit seine eigene Person in den Hintergrund stellte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Longing for Inner Peace:</strong>
+SX9s strive for deep inner peace and harmony. Beltracchi's life as a forger can be seen as an attempt to integrate into an ideal, peaceful world of art – to be respected and admired as an artist in a hidden, quiet, unobtrusive way.</p>
+        <p class="vb-intro"><strong>b) Adaptability:</strong>
+Sexual Nines are highly adaptable. Beltracchi demonstrated this ability by moving seamlessly both within the art world and in the role of the fraudster.</p>
+        <p class="vb-intro"><strong>c) Tendency Toward Self-Forgetfulness:</strong>
+Nines tend to lose their own identity and dissolve into something larger. This explains why Beltracchi lost himself in the identities of the artists and thus placed his own person in the background.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tiefe Search nach Einheit:</strong>
-        <strong>Beltracchi</strong> schien st\xe4ndig nach einem Zustand der Einheit mit der Kunst zu streben.
-        Er wollte nicht nur Werke nachahmen – er vertiefte sich teilweise wochenlang in
-        s\xe4mtliche Literatur und Informationen \xfcber die jeweiligen Meister, deren Pers\xf6nlichkeit,
-        Psyche, Motive und Absichten, um vollst\xe4ndig mit ihnen zu verschmelzen und ihre
-        Werke perfekt nachahmen zu k\xf6nnen.</p>
-        <p class="vb-intro"><strong>b) Verdr\xe4ngung unangenehmer Wahrheiten:</strong>
-        Sexuelle Neuner haben die Tendenz, unangenehme Realit\xe4ten zu verdr\xe4ngen.
-        Beltracchi lebte jahrelang in der Illusion, dass seine F\xe4lschungen nicht entdeckt
-        werden w\xfcrden, und mied so die Realit\xe4t der Konsequenzen.</p>
-        <p class="vb-intro"><strong>c) Instinktive Intuition:</strong>
-        Diese Neuner handeln oft sehr instinktiv und intuitiv. Beltracchis F\xe4lschungen
-        entstanden aus einem tiefen intuitiven Verst\xe4ndnis f\xfcr Kunst und \xc4sthetik,
-        ohne dass er dabei ausschlie\xdflich rational vorging.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
+        <p class="vb-intro"><strong>a) Deep Search for Unity:</strong>
+Beltracchi seemed constantly to strive for a state of unity with art. He didn't just want to imitate works – he sometimes immersed himself for weeks in all the literature and information about the respective masters, their personality, psyche, motives, and intentions, in order to fully merge with them and be able to perfectly imitate their works.</p>
+        <p class="vb-intro"><strong>b) Repression of Unpleasant Truths:</strong>
+Sexual Nines have a tendency to repress unpleasant realities. Beltracchi lived for years in the illusion that his forgeries would not be discovered, thereby avoiding the reality of the consequences.</p>
+        <p class="vb-intro"><strong>c) Instinctive Intuition:</strong>
+These Nines often act very instinctively and intuitively. Beltracchi's forgeries stemmed from a deep intuitive understanding of art and aesthetics, without him proceeding in an exclusively rational manner.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Charismatische Pers\xf6nlichkeit:</strong>
-        SX9er k\xf6nnen eine fast magnetische Anziehungskraft aus\xfcben. Beltracchi war trotz
-        seiner T\xe4uschungen eine charmante und faszinierende Pers\xf6nlichkeit, die in der
-        Kunstwelt und den Medien viel Aufmerksamkeit erregte.</p>
-        <p class="vb-intro"><strong>b) F\xe4higkeit, andere zu bezaubern:</strong>
-        Wie viele Neuner hatte Beltracchi die F\xe4higkeit, andere Menschen zu bezaubern.
-        Er \xfcberzeugte nicht nur Kunstexperten, sondern auch K\xe4ufer seiner F\xe4lschungen,
-        indem er eine authentische, \xfcberzeugende Fassade aufrechterhielt.</p>
-        <p class="vb-intro"><strong>c) Widerspr\xfcchliche Harmonie:</strong>
-        Die sexuelle Neun wirkt oft harmonisch und friedfertig, obwohl sie innerlich eine
-        intensive, manchmal widerspr\xfcchliche Energie tr\xe4gt. Beltracchi wirkte nach au\xdfen
-        hin entspannt und gelassen, obwohl er ein Doppelleben f\xfchrte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Charismatic Personality:</strong>
+SX9s can exert an almost magnetic pull. Despite his deceptions, Beltracchi was a charming and fascinating personality who attracted a lot of attention in the art world and the media.</p>
+        <p class="vb-intro"><strong>b) Ability to Charm Others:</strong>
+Like many Nines, Beltracchi had the ability to charm other people. He convinced not only art experts, but also buyers of his forgeries by maintaining an authentic, convincing facade.</p>
+        <p class="vb-intro"><strong>c) Contradictory Harmony:</strong>
+The sexual Nine often appears harmonious and peaceful, even though it carries an intense, sometimes contradictory energy within. Beltracchi appeared relaxed and serene on the outside, even though he led a double life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Sanfte, aber durchdringende Pr\xe4senz:</strong>
-        Sexuelle Neuner haben eine ruhige, aber dennoch intensive Ausstrahlung.
-        Beltracchi zeigte diese Pr\xe4senz in seiner F\xe4higkeit, Menschen zu t\xe4uschen,
-        ohne dabei aufdringlich oder aggressiv zu wirken.</p>
-        <p class="vb-intro"><strong>b) Verbindende Energie:</strong>
-        Diese Neuner suchen immer nach Verbindung und verschmelzen mit ihrer Umwelt.
-        Beltracchi verband sich auf energetischer Ebene mit der Kunstwelt, indem er
-        sich in die Werke einf\xfchlte und so die Illusion einer echten
-        K\xfcnstlerpers\xf6nlichkeit schuf.</p>
-        <p class="vb-intro"><strong>c) Unbewusste Dominanz:</strong>
-        Obwohl sie nicht aktiv dominieren wollen, \xfcben sexuelle Neuner oft eine subtile
-        Form der Kontrolle aus. Beltracchi beherrschte die Kunst, seine Umwelt durch
-        Manipulation zu kontrollieren, ohne dass dies sofort auffiel.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Gentle Yet Penetrating Presence:</strong>
+Sexual Nines have a quiet, yet intense aura. Beltracchi demonstrated this presence in his ability to deceive people without appearing intrusive or aggressive.</p>
+        <p class="vb-intro"><strong>b) Connecting Energy:</strong>
+These Nines are always looking for connection and merge with their environment. Beltracchi connected with the art world on an energetic level by empathizing with the works and thus creating the illusion of a genuine artist personality.</p>
+        <p class="vb-intro"><strong>c) Unconscious Dominance:</strong>
+Although they do not actively seek to dominate, sexual Nines often exert a subtle form of control. Beltracchi mastered the art of controlling his environment through manipulation without it being immediately noticeable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Faultier</h3>
-        <p class="vb-intro"><strong>a) Innere Tr\xe4gheit:</strong>
-        Wie das Faultier neigt die sexuelle Neun zur inneren Tr\xe4gheit und vermeidet
-        direkte Konfrontationen. Beltracchi mied es, sich den Folgen seiner Handlungen
-        zu stellen, bis er keine andere Wahl mehr hatte.</p>
-        <p class="vb-intro"><strong>b) Vermeidung von Unruhe:</strong>
-        Faultiere bewegen sich langsam und bed\xe4chtig, um Aufruhr zu vermeiden. Auch
-        Beltracchi schien durch seine ruhige und besonnene Art Konflikte zu umgehen
-        und so lange wie m\xf6glich unentdeckt zu bleiben.</p>
-        <p class="vb-intro"><strong>c) Leben in ruhigem Tempo:</strong>
-        Trotz seiner kriminellen Aktivit\xe4ten f\xfchrte Beltracchi ein relativ ruhiges und
-        unauff\xe4lliges Leben, \xe4hnlich wie ein Faultier, das im Hintergrund bleibt und
-        sich nur langsam bewegt, um seine Umgebung nicht zu st\xf6ren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Sloth</h3>
+        <p class="vb-intro"><strong>a) Inner Sloth:</strong>
+Like the sloth, the sexual Nine tends toward inner sloth and avoids direct confrontations. Beltracchi avoided facing the consequences of his actions until he had no other choice left.</p>
+        <p class="vb-intro"><strong>b) Avoidance of Unrest:</strong>
+Sloths move slowly and deliberately to avoid commotion. Beltracchi, too, seemed to bypass conflicts through his calm and deliberate nature, remaining undetected for as long as possible.</p>
+        <p class="vb-intro"><strong>c) Living at a Calm Pace:</strong>
+Despite his criminal activities, Beltracchi led a relatively quiet and unobtrusive life, much like a sloth that remains in the background and moves slowly so as not to disturb its surroundings.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Wolfgang Beltracchi</strong> passt mit seiner Pers\xf6nlichkeit in perfekter Hinsicht zur
-        sexuellen Neun. Seine charismatische, aber zur\xfckhaltende Pers\xf6nlichkeit, sein
-        Bed\xfcrfnis nach Harmonie und Verbindung sowie seine Vermeidung von Konflikten
-        spiegeln die Kernmerkmale dieses Typus wider. Seine F\xe4higkeit, sich in die Welt
-        der Kunst einzuf\xfchlen und in die Rolle der gro\xdfen K\xfcnstler zu schl\xfcpfen, zeigt
-        das Streben nach Verschmelzung, das f\xfcr die sexuelle Neun typisch ist. In diesem
-        Sinne verk\xf6rperte Beltracchi das paradoxe Wesen der sexuellen Neun: ruhig und
-        charmant nach au\xdfen, aber im Hintergrund tiefe Energien und innere Spannungen.
+        Wolfgang Beltracchi fits the sexual Nine in perfect regard with his personality. His charismatic yet reserved personality, his need for harmony and connection, as well as his avoidance of conflict mirror the core characteristics of this type. His ability to empathize with the art world and slip into the roles of the great artists shows the drive for merging that is typical for the sexual Nine. In this sense, Beltracchi embodied the paradoxical nature of the sexual Nine: quiet and charming on the outside, but with deep energies and inner tensions in the background.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX9 – „Union / Verschmelzung":</strong>
-        Claudio Naranjo nannte die sexuelle Neun „Union": Sie sucht vollst\xe4ndige Einheit
-        mit dem Geliebten – ob Mensch, Idee oder k\xfcnstlerische Welt. Beltracchis
-        wochenlange Versenkung in die Psyche der Meister vor jedem Werk ist diese Fusion
-        wörtlich genommen. Er kopierte nicht – er <em>wurde</em> der jeweilige Meister,
-        zumindest f\xfcr die Dauer des Sch\xf6pfungsprozesses. Das macht seine Werke in
-        gewissem Sinne authentischer als viele Kopien: Sie entstanden aus echter
-        Verschmelzung, nicht aus mechanischer Nachahmung.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel – Perfektion als inneres Gesetz:</strong>
-        Der Einserfl\xfcgel verleiht der Neun einen tiefen Perfektionismus. Beltracchis
-        Verwendung historisch korrekter Pigmente, gealterter Leinw\xe4nde und
-        periodengerechter Materialien ist der Einserfl\xfcgel in Aktion: Er konnte kein
-        schlechtes Fake malen – seine inneren Standards lie\xdfen das nicht zu.
-        Bemerkenswerterweise zeigte er kaum Schuld gegen\xfcber betrogenen Sammlern,
-        w\xe4re aber tief befremdet gewesen, h\xe4tte jemand einen technischen Error
-        in seinen Werken gefunden. Sein Gewissen galt dem Werk, nicht dem Betrug.</p>
-        <p class="vb-intro"><strong>c) Der schlafende Riese:</strong>
-        Die Neun besitzt h\xe4ufig enorme latente Begabung, richtet sie aber auf andere,
-        nicht auf sich selbst. Beltracchi war m\xf6glicherweise talentierter als manche
-        der Meister, die er f\xe4lschte – aber das Neuner-Muster verhinderte, dass er seiner
-        eigenen k\xfcnstlerischen Stimme traute. Sich unter eigenem Namen zu
-        positionieren – das h\xe4tte Pr\xe4senz, Ich-Behauptung, Sichtbarkeit erfordert.
-        F\xfcr die Neun ist das der schwerere Weg.</p>
-        <p class="vb-intro"><strong>d) Das Leben als Kunstwerk – SX9 erschafft eine Gesamtwelt:</strong>
-        <strong>Beltracchi</strong> und seine Frau Helene lebten wie Boh\xe8me-Adel: Château in Frankreich,
-        ein Netzwerk aus Prominenz und Kunstkennern, ein Leben voller \xc4sthetik und
-        Eleganz. Die sexuelle Neun erschafft eine ästhetische Gesamtwelt und lebt
-        vollst\xe4ndig darin. Die F\xe4lschungen finanzierten nicht nur Geld – sie
-        finanzierten die <em>Existenz</em> als gro\xdfer K\xfcnstler. Das war der eigentliche
-        Gewinn.</p>
-        <p class="vb-intro"><strong>e) Kein Gewissen f\xfcr Betrug, aber Gewissen f\xfcr Qualit\xe4t:</strong>
-        Der Einserfl\xfcgel schafft Gewissen f\xfcr das Werk selbst, nicht zwingend f\xfcr
-        die moralische Dimension. Beltracchi rationalisierte seine F\xe4lschungen als
-        „Erg\xe4nzung" der Meisterwerke – er schuf das, was die gro\xdfen K\xfcnstler
-        „h\xe4tten malen k\xf6nnen". In dieser Logik war er kein Betr\xfcger, sondern
-        ein Erg\xe4nzer der Kunstgeschichte. Das ist die Selbstt\xe4uschung der SX9w1:
-        Verschmelzung als Legitimation, Perfektion als moralischer Freispruch.</p>
-        <p class="vb-intro"><strong>f) Das paradoxe Selbst der Neun:</strong>
-        Beltracchis eigene Aussage ist die reinste SX9-Selbstbeschreibung: Er konnte
-        unzugeordnete Werke aus der richtigen Epoche „f\xfchlen" und dann weitere davon
-        malen – als ob er das Original in sich tr\xfcge. Das Ich l\xf6st sich in den anderen
-        auf. F\xfcr die sexuelle Neun ist das kein Verlust – es ist die h\xf6chste Form
-        von Verbindung, die sie kennt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SX9 – "Union / Fusion":</strong>
+Claudio Naranjo called the sexual Nine "Union": It seeks complete unity with the beloved – whether person, idea, or artistic world. Beltracchi's weeks-long immersion into the psyche of the masters before each work is this fusion taken literally. He did not copy – he became the respective master, at least for the duration of the creative process. This makes his works in a certain sense more authentic than many copies: They originated from genuine merging, not from mechanical imitation.</p>
+        <p class="vb-intro"><strong>b) The One-Wing – Perfection as an Inner Law:</strong>
+The One-wing confers a deep perfectionism upon the Nine. Beltracchi's use of historically correct pigments, aged canvases, and period-appropriate materials is the One-wing in action: He could not paint a bad fake – his inner standards would not allow it. Notably, he showed hardly any guilt toward defrauded collectors, but would have been deeply alienated had someone found a technical error in his works. His conscience applied to the work, not to the fraud.</p>
+        <p class="vb-intro"><strong>c) The Sleeping Giant:</strong>
+The Nine frequently possesses enormous latent talent, but directs it toward others rather than toward themselves. Beltracchi was possibly more talented than some of the masters he forged – but the Nine pattern prevented him from trusting his own artistic voice. Positioning himself under his own name – that would have required presence, self-assertion, and visibility. For the Nine, that is the harder path.</p>
+        <p class="vb-intro"><strong>d) Life as a Work of Art – SX9 Creates an Entire World:</strong>
+Beltracchi and his wife Helene lived like bohemian nobility: a château in France, a network of celebrities and art connoisseurs, a life full of aesthetics and elegance. The sexual Nine creates an aesthetic entire world and lives completely within it. The forgeries didn't just fund money – they funded the existence as a great artist. That was the true gain.</p>
+        <p class="vb-intro"><strong>e) No Conscience for Fraud, but a Conscience for Quality:</strong>
+The One-wing creates a conscience for the work itself, not necessarily for the moral dimension. Beltracchi rationalized his forgeries as a "completion" of the masterpieces – he created what the great artists "could have painted". In this logic, he was not a fraudster, but a completer of art history. That is the self-deception of the SX9w1: Merging as legitimation, perfection as a moral acquittal.</p>
+        <p class="vb-intro"><strong>f) The Paradoxical Self of the Nine:</strong>
+Beltracchi's own statement is the purest SX9 self-description: He was able to "feel" unassigned works from the right era and then paint more of them – as if he carried the original within himself. The self dissolves into the other. For the sexual Nine, this is not a loss – it is the highest form of connection it knows.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -27468,12 +27373,12 @@ function wolfgangBeltracchiPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Wolfgang Beltracchi wurde 2011 wegen Kunstfälschung und Betrugs zu sechs Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Wolfgang Beltracchi was sentenced to six years in prison in 2011 for art forgery and fraud. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
