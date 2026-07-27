@@ -8574,7 +8574,7 @@ function knowledgeCard(item) {
       `)
             : heilwissenLock()
           : ""}
-      ${item.visualPages ? visualPageSection(item.visualPages) : ""}
+      ${item.visualPages ? visualPageSection(item.visualPages, item.code) : ""}
       ${(item.mediaGroups || item.mediaResources)
           ? hasHeilwissen()
             ? (item.mediaGroups ? mediaGroupSection(item.mediaGroups) : mediaResourceSection(item.mediaResources))
@@ -8850,26 +8850,60 @@ function coverageStatusLabel(status) {
   return text.coverageStatusLabels[status] || status;
 }
 
-function visualPageSection(pages) {
+const OVERVIEW_ALT_THEME_EN = {
+  1: "Right and Wrong", 2: "Love and Recognition", 3: "Success and Worth",
+  4: "Uniqueness and Depth", 5: "Knowledge and Competence", 6: "Security and Trust",
+  7: "Joy and Abundance", 8: "Strength and Control", 9: "Peace and Harmony",
+};
+const OVERVIEW_CAPTION_EN = "Core theme, body organization, organism question, tension distribution, and animal archetype.";
+
+function translateVisualPage(page, code) {
+  const typeNr = code ? code.slice(2) : null;
+  // "Typ N · Überblick" template page (types 2-9; type 1 files are literal, handled via direct string overrides)
+  if (page.title === `Typ ${typeNr} · Überblick`) {
+    return {
+      title: `Type ${typeNr} · Overview`,
+      caption: OVERVIEW_CAPTION_EN,
+      alt: `Type ${typeNr} Overview with the core theme of ${OVERVIEW_ALT_THEME_EN[typeNr] || ""}`,
+    };
+  }
+  // "{CODE} · Seite N" template page (types 2-9)
+  const seiteM = page.title && page.title.match(new RegExp(`^${code} · Seite (\\d+)$`));
+  if (seiteM) {
+    const n = seiteM[1];
+    const titleEn = TITLE_EN[(code || "").toLowerCase()];
+    return {
+      title: `${code} · Page ${n}`,
+      caption: titleEn ? `${titleEn}: Original panel ${n} as source layer for further extraction.` : page.caption,
+      alt: `${code} Page ${n} from the Type ${typeNr} card set`,
+    };
+  }
+  return null;
+}
+
+function visualPageSection(pages, code) {
   const labels = text.knowledgeCard;
   return `
     <div class="knowledge-section visual-pages-section">
       <strong>${labels.visualPages}</strong>
       <div class="visual-pages-grid">
-        ${pages.map((page) => `
+        ${pages.map((page) => {
+          const tr = translateVisualPage(page, code) || page;
+          return `
           <figure class="visual-page">
             <div class="card-pg-wrap">
               <a href="${page.src}" target="_blank" rel="noreferrer">
-                <img src="${page.src}" alt="${page.alt}" loading="lazy" />
+                <img src="${page.src}" alt="${tr.alt}" loading="lazy" />
               </a>
               <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
             </div>
             <figcaption>
-              <span>${page.title}</span>
-              <p>${page.caption}</p>
+              <span>${tr.title}</span>
+              <p>${tr.caption}</p>
             </figcaption>
           </figure>
-        `).join("")}
+        `;
+        }).join("")}
       </div>
     </div>
   `;
