@@ -7704,7 +7704,7 @@ const DYNAMIK_TYPE_NAMES = {
   6: "Type 6 – The Loyalist",
   7: "Type 7 – The Enthusiast",
   8: "Type 8 – The Challenger",
-  9: "Typ 9 – Der Friedensstifter",
+  9: "Type 9 – The Peacemaker",
 };
 
 function dynamikDerTypenPage() {
@@ -7723,6 +7723,7 @@ They are the most-watched videos on the channel.</p>
             src="https://www.youtube.com/embed/${vid}?rel=0"
             allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
+        <p style="margin:0;padding:.5rem 1rem .7rem;font-size:.74rem;color:var(--muted);font-style:italic;">🇩🇪 German audio &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>
       </div>
     `;
   }).join("");
@@ -9078,6 +9079,13 @@ function mediaGroupSection(groups) {
   `;
 }
 
+function isGermanLanguageResource(resource) {
+  const t = resource.title || "";
+  if (/englisch|English/i.test(t)) return false;
+  if (/Relaxing & Healing Music|Songs about the Art of Living|Playlist for Expanding Consciousness/i.test(t)) return false;
+  return true;
+}
+
 function mediaTile(resource) {
   const labels = text.knowledgeCard;
   const embedSrc = resource.youtubeVideoId
@@ -9108,6 +9116,7 @@ function mediaTile(resource) {
             allowfullscreen
           ></iframe>
         </div>
+        ${isGermanLanguageResource(resource) ? `<p style="margin:.35rem 0 0;font-size:.72rem;color:var(--muted,#888);font-style:italic;">🇩🇪 German audio &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>` : ""}
         <a class="media-link" href="${youtubeHref}" target="_blank" rel="noreferrer">${labels.youtubeOpen}</a>
       ` : `
         <div class="media-placeholder">
@@ -11021,7 +11030,7 @@ function detlefRathmerJazzPage() {
       ${langs && langs.length ? `
       <details style="padding:0.4rem 1rem 0.6rem;">
         <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
-          ▶ In ${langs.length} weiteren Sprachen
+          ▶ In ${langs.length} More Languages
         </summary>
         <ul style="margin:0.4rem 0 0;padding-left:1.2rem;font-size:0.81rem;line-height:2;">
           ${langs.map(l => `<li><a href="https://www.youtube.com/watch?v=${l.id}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${l.label}</a></li>`).join("")}
@@ -11030,7 +11039,7 @@ function detlefRathmerJazzPage() {
       ${tracks && tracks.length ? `
       <details style="padding:0.4rem 1rem 0.6rem;">
         <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
-          ▶ Alle ${tracks.length} Songs
+          ▶ All ${tracks.length} Songs
         </summary>
         <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
           ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
@@ -11280,7 +11289,7 @@ function homoeopathieSongsPage() {
     { id: "2L7S1fLhucA",  label: "3. Guérison douce – la chanson de l’homéopathie" },
     { id: "bAbmGCml6Ro",  label: "4. Gentle and Strong – Homeopathy Song No. 2" },
     { id: "9IQVG9o4HAk",  label: "5. Gentle and Strong – The Homeopathy Song No. 2" },
-    { id: "K3juL1t_fVs",  label: "6. Gemeinsam heilen – zwei Wege, ein Ziel!" },
+    { id: "K3juL1t_fVs",  label: "6. Healing Together – Two Paths, One Goal!" },
     { id: "hUacc8X0O6U",  label: "7. Quiet, Gentle Power (Song about the essence of homeopathy)" },
     { id: "oEs0VlT7WfI",  label: "8. Healing in Silence (2nd Song about the essence of homeopathy)" },
     { id: "A6xBEHS5F1c",  label: "9. Deeper Than the Masks (Homage to Enneagram-Homeopathy)" },
@@ -12403,7 +12412,7 @@ function tierlexikonPage() {
     ${pageHeader("tierlexikon")}
     <div style="max-width:700px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Knowledge &middot; Animal Lexicon</p>
-      <h1 class="section-title">Tierlexikon der 27 Subtypes</h1>
+      <h1 class="section-title">Animal Lexicon of the 27 Subtypes</h1>
       <p class="psycho-intro">50 extraordinary facts about each subtype animal &ndash; always with reference to the characteristics, motivations, and behaviors of the respective Enneagram subtype. Real biology, real character.</p>
       <div style="
         display:grid;
@@ -12457,8 +12466,8 @@ function tierlexikonDetailPage(codeRaw) {
     return shell(`
       ${pageHeader("tierlexikon")}
       <div style="max-width:680px;margin:0 auto;padding:2rem 1rem;">
-        <button class="ghost-link" data-route="tierlexikon">&larr; Tierlexikon</button>
-        <p style="margin-top:2rem;color:var(--muted);">${code}: Fakten werden bald ergänzt.</p>
+        <button class="ghost-link" data-route="tierlexikon">&larr; Animal Lexicon</button>
+        <p style="margin-top:2rem;color:var(--muted);">${code}: Facts will be added soon.</p>
       </div>
     `);
   }
@@ -12494,7 +12503,7 @@ function tierlexikonDetailPage(codeRaw) {
   return shell(`
     ${pageHeader("tierlexikon")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <button class="ghost-link" data-route="tierlexikon">&larr; Tierlexikon</button>
+      <button class="ghost-link" data-route="tierlexikon">&larr; Animal Lexicon</button>
       <div style="
         display:flex;align-items:center;gap:1.2rem;
         margin:1.4rem 0 .6rem;
@@ -12507,13 +12516,13 @@ function tierlexikonDetailPage(codeRaw) {
           />
         </div>
         <div>
-          <p class="eyebrow" style="color:${col};margin-bottom:.2rem;">Wissen &middot; Tierlexikon</p>
+          <p class="eyebrow" style="color:${col};margin-bottom:.2rem;">Knowledge &middot; Animal Lexicon</p>
           <h1 style="margin:0 0 .1rem;font-size:1.6rem;color:var(--ink);">${data.tier}</h1>
           ${data.lateinisch ? `<p style="margin:0 0 .15rem;font-size:.82rem;color:var(--muted);font-style:italic;">${data.lateinisch}</p>` : ""}
-          <p style="margin:0 0 .4rem;font-size:.78rem;color:var(--muted);opacity:.7;">${code} &middot; ${data.fakten.length} Fakten</p>
+          <p style="margin:0 0 .4rem;font-size:.78rem;color:var(--muted);opacity:.7;">${code} &middot; ${data.fakten.length} facts</p>
           <button class="ghost-link" data-tier-laut="${data.tier}"
                   style="font-size:.82rem;padding:.25rem .6rem;border:1px solid var(--line);border-radius:20px;opacity:.8;">
-            🔊 ${data.tier}-Laut
+            🔊 ${data.tier} call
           </button>
         </div>
       </div>
@@ -12539,9 +12548,10 @@ function tierlexikonDetailPage(codeRaw) {
               ></iframe>
             </div>
             <p style="margin:.5rem 0 0;font-size:.75rem;color:var(--muted);text-align:right;">${d.titel} &middot; ${d.kanal}</p>
+            <p style="margin:.4rem 0 0;font-size:.72rem;color:var(--muted);font-style:italic;">🇩🇪 German narration &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>
             <button onclick="window.scrollTo({top:0,behavior:'smooth'})"
                     style="display:block;margin:1.2rem auto 0;background:none;border:1px solid var(--line);border-radius:20px;padding:.35rem 1rem;font-size:.78rem;color:var(--muted);cursor:pointer;">
-              ↑ Nach oben
+              ↑ Back to top
             </button>
           </div>
         `;
@@ -22667,6 +22677,7 @@ function jeffreyEpsteinPortraitPage() {
             src="https://www.youtube.com/embed/XnS_8QaUL8Y?rel=0"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
+        <p style="margin:.4rem 0 0;font-size:.72rem;color:var(--muted);font-style:italic;">🇩🇪 German audio &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -24383,6 +24394,7 @@ function wadeWilsonPortraitPage() {
             src="https://www.youtube.com/embed/XS7g6LzrUxk?rel=0"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
+        <p style="margin:.4rem 0 0;font-size:.72rem;color:var(--muted);font-style:italic;">🇩🇪 German audio &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -32052,6 +32064,7 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
           src="https://www.youtube.com/embed/${v.id}?rel=0"
           allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
+      <p style="font-size:.76rem;color:var(--muted);margin:.4rem 0 0;font-style:italic;">🇩🇪 This video is in German &ndash; open it on YouTube and enable auto-translated English subtitles via the settings (⚙) menu.</p>
     </div>`;
 
   const katHTML = kategorien.map(kat => `
@@ -32831,15 +32844,15 @@ function zehnAnwendungenPage() {
 function haikuDer9TypenPage() {
   const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783719838/kompass/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
-    { nr:1, col:"#5f5f5f", typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
-    { nr:2, col:"#7a2fa8", typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du z\xe4hlst.","Liebe dich zuerst."] },
-    { nr:3, col:"#1fa688", typ:"Der Macher",        zeilen:["Erfolg gl\xe4nzt so hell,","doch wer bist du, wenn es schweigt?","Zeig dein wahres Herz."] },
-    { nr:4, col:"#3cbf1f", typ:"Der Individualist", zeilen:["Sehnsucht nach dem Sinn,","doch Sch\xf6nheit wohnt tief in dir.","Erkenne dich selbst."] },
-    { nr:5, col:"#124fcc", typ:"Der Beobachter",    zeilen:["Stille Gedanken,","Wissen ist unendlich weit —","doch W\xe4rme heilt mehr."] },
-    { nr:6, col:"#8a5222", typ:"Der Loyalist",      zeilen:["Zweifel nagt leise,","doch dein Herz kennt die Antwort.","Vertraue dem Mut."] },
-    { nr:7, col:"#d4a800", typ:"Der Enthusiast",    zeilen:["Bunte Wege rufen,","doch im Jetzt bl\xfcht die Freude.","Halte inne, sieh."] },
-    { nr:8, col:"#a00802", typ:"Der Besch\xfctzer", zeilen:["St\xe4rke zeigt die Macht,","doch Sanftheit birgt wahre Kraft.","Lass dein Herz erbl\xfchn."] },
-    { nr:9, col:"#cc6e00", typ:"Der Vermittler",    zeilen:["Stille Harmonie —","doch sprich: die Welt will dich h\xf6rn.","Dein Wort schenkt Frieden."] },
+    { nr:1, col:"#5f5f5f", typ:"The Perfectionist",  zeilen:["Order in all things,","yet life unfolds in chaos.","Find your peace right there."] },
+    { nr:2, col:"#7a2fa8", typ:"The Helper",         zeilen:["You give and give more,","but don't forget: you count too.","Love yourself the first."] },
+    { nr:3, col:"#1fa688", typ:"The Achiever",       zeilen:["Success shines so bright,","yet who are you in the hush?","Show your truest heart."] },
+    { nr:4, col:"#3cbf1f", typ:"The Individualist",  zeilen:["Longing for deep sense,","yet beauty lives inside you.","Come to know yourself."] },
+    { nr:5, col:"#124fcc", typ:"The Observer",       zeilen:["Quiet thoughts unfold,","knowledge stretches without end —","yet warmth heals far more."] },
+    { nr:6, col:"#8a5222", typ:"The Loyalist",       zeilen:["Doubt gnaws soft and slow,","yet your heart already knows.","Trust the quiet courage."] },
+    { nr:7, col:"#d4a800", typ:"The Enthusiast",     zeilen:["Bright paths call your name,","yet joy blooms here in the now.","Pause a while, and see."] },
+    { nr:8, col:"#a00802", typ:"The Challenger",     zeilen:["Strength displays its power,","yet softness holds the true force.","Let your heart bloom out."] },
+    { nr:9, col:"#cc6e00", typ:"The Peacemaker",     zeilen:["Quiet harmony —","yet speak: the world wants to hear.","Your word brings the peace."] },
   ];
   const haikuHTML = haiku.map(h => `
     <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${h.col};text-align:center;">
@@ -32855,13 +32868,13 @@ function haikuDer9TypenPage() {
       ${pageHeader("haiku-der-9-typen")}
       <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
         <p class="eyebrow">Charts &middot; Poetry &middot; The 9 Types</p>
-        <h1 class="section-title">Haiku der 9 Enneagrammtypen</h1>
+        <h1 class="section-title">Haiku of the 9 Enneagram Types</h1>
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 0.8rem;">The haiku (Japanese: 俳句; plural: haiku) is a traditional Japanese poetic form that is now widespread worldwide &mdash; and is considered the shortest poetic form in the world.</p>
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 0.8rem;">A haiku consists of three lines with five, seven, and five sound units (so-called <em>morae</em>). In Western languages, these are often counted as syllables. The first line usually names a concrete fact or circumstance &mdash; frequently a season &mdash; and has a direct connection to the present, to the <em>here and now</em>.</p>
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 1.5rem;">Each of the following nine haikus captures the essence of an Enneagram type: its passion, its wound, and a gentle pointer toward the path beyond.</p>
       </div>
 
-      <img src="${HAIKU_IMG}" alt="Japanische Frau in Landschaft &mdash; Haiku der 9 Enneagrammtypen"
+      <img src="${HAIKU_IMG}" alt="Japanese woman in a landscape &mdash; Haiku of the 9 Enneagram Types"
         style="width:100%;max-width:620px;display:block;margin:0 auto 2rem;border-radius:14px;border:2px solid var(--gold,#c8a84b);" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -39059,7 +39072,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v673';
+  const MY_VERSION = 'inhalt-v675';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
