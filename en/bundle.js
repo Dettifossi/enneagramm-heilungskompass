@@ -33272,8 +33272,8 @@ function enneagrammProfilingPage() {
         >
           <span class="book-tip__icon">🎓</span>
           <div class="book-tip__text">
-            <strong>Profiling-Ausbildung: Ennea Scholars</strong>
-            <span>Profiling Class &amp; Masterclass bei David L. Rathmer &ndash; enneascholars.de</span>
+            <strong>Profiling Training: Ennea Scholars</strong>
+            <span>Profiling Class &amp; Masterclass with David L. Rathmer &ndash; enneascholars.de</span>
           </div>
           <span class="book-tip__arrow">→</span>
         </a>
@@ -33313,11 +33313,11 @@ function egoFixierungenPage() {
     ${pageHeader("ego-fixierungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; History & Origin</p>
-      <h1 class="section-title">Die 9 Ego-Fixierungen nach Oscar Ichazo</h1>
+      <h1 class="section-title">The 9 Ego Fixations According to Oscar Ichazo</h1>
       <p class="psycho-intro">What the original Enneagram truly teaches &ndash; and why it reaches deeper than most of today's type descriptions.</p>
       <img
         src="${CDN}assets/ego-fixierungen.jpg"
-        alt="Die 9 Ego-Fixierungen nach Oscar Ichazo"
+        alt="The 9 ego fixations according to Oscar Ichazo"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -39059,7 +39059,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v672';
+  const MY_VERSION = 'inhalt-v673';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
