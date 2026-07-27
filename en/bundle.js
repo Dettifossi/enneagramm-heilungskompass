@@ -24890,217 +24890,98 @@ function annaDelveyPortraitPage() {
         </div>
         <p class="krim-portrait-name">Anna Delvey</p>
         <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russisch-deutsche Hochstaplerin in New York · Animal correspondence: Flusspferd</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russian-German fraudster in New York · Animal correspondence: Hippopotamus</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Anna Delvey</strong> – b\xfcrgerlich Anna Sorokin – gab sich in der New Yorker
-        Hochgesellschaft als reiche deutsche Erbin aus und erg\xe4ppte damit
-        Hotels, Banken, Kunstinstitutionen und Privatpersonen um Hunderttausende
-        Dollar. Zwischen 2016 und 2017 inszenierte sie eine vollst\xe4ndige Identit\xe4t:
-        Designerkleidung, Fotoauftritte, gro\xdfz\xfcgige Auftritte in Luxusrestaurants –
-        alles auf Pump, alles auf Kredit, alles auf Bluff. 2019 wurde sie wegen
-        Betruges verurteilt, 2022 nach Verb\xfc\xdfung der Strafe auf Kaution freigelassen
-        und sp\xe4ter in Abschiebehaft genommen. Heute vermarktet sie ihre Geschichte
-        als Marke. Der Fall Delvey ist kein gew\xf6hnlicher Betrug –
-        er ist eine pr\xe4zise Inszenierung des gesellschaftlichen Aufstiegs:
-        eine Zwei, die mit dem Dreierfl\xfcgel gelernt hat, dass Image genug ist,
-        solange niemand hinter die Kulissen schaut.
+        Anna Delvey – born Anna Sorokin – posed as a wealthy German heiress in New York high society, defrauding hotels, banks, art institutions, and private individuals out of hundreds of thousands of dollars. Between 2016 and 2017, she staged a complete identity: designer clothes, photo appearances, lavish outings in luxury restaurants – all on credit, all on loans, all on bluff. In 2019, she was convicted of fraud, released on bail in 2022 after serving her sentence, and later taken into immigration detention. Today, she commercializes her story as a brand. The Delvey case is no ordinary fraud – it is a precise staging of social mobility: a Two who, with the Three-wing, learned that image is enough, as long as no one looks behind the scenes.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Anna Delvey</strong> wird der <strong>Self-Preservationen Zwei mit Dreierfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
-        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen, verbunden mit
-        dem unbewussten Anspruch auf Gegenleistung und Zugeh\xf6rigkeit zu einer
-        Sph\xe4re, die man sich nicht verdient hat, sondern die man sich nimmt.
-        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
-        stellt die eigenen Bed\xfcrfnisse ins Zentrum, verh\xfcllt durch das Spiel
-        der F\xfcrsorge und der Zugeh\xf6rigkeit. Der Dreierfl\xfcgel verleiht ihr
-        eine strahlende, selbstbewusste Au\xdfenpr\xe4senz: Sie wei\xdf, wie man
-        Eindruck macht, wie man Bilder erzeugt, wie man Wert signalisiert
-        ohne ihn zu besitzen. In Delveys Fall entstand daraus ein System,
-        das auf Fassade beruhte – und jahrelang funktionierte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Anna Delvey is assigned to the Self-Preservation Two with Three-wing in the Enneagram. The core passion of Type 2 is Pride – the conviction of possessing something uniquely valuable, combined with an unconscious claim to reciprocity and belonging to a sphere that one has not earned, but takes for oneself. The Self-Preservation Two (SP2) – described by Naranjo as "Privilege" – places its own needs at the center, veiled through the game of caretaking and belonging. The Three-wing lends her a radiant, self-assured external presence: She knows how to make an impression, how to project images, how to signal value without possessing it. In Delvey's case, this gave rise to a system built entirely on facade – one that functioned for years.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
-        <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
-        sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
-        weltgew\xe4ndt. Das ist die Zwei mit Dreierfl\xfcgel:
-        Sie wei\xdf, wie sie wirkt – und nutzt diese Wirkung.</p>
-        <p class="vb-intro"><strong>b) Einnehmend ohne Offenbarung:</strong>
-        <strong>Delvey</strong> gab viel vor – und wenig preis. Menschen, die sie kannten,
-        beschrieben sp\xe4ter das Gef\xfchl, sie nie wirklich gekannt zu haben.
-        Die Zwei teilt das, was Eindruck macht, und verbirgt, was
-        Schw\xe4che zeigen k\xf6nnte.</p>
-        <p class="vb-intro"><strong>c) K\xfchl bei Konfrontation:</strong>
-        Wenn Delvey mit Inkonsistenzen konfrontiert wurde,
-        reagierte sie nicht nervös, sondern k\xfchl und \xfcberlegen.
-        Das ist der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
-        auch unter Druck das Image aufrechtzuerhalten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Charismatic and strong in presence:</strong>
+Delvey immediately struck people who met her as someone who belonged. Confident, style-conscious, worldly. That is the Two with a Three-wing: She knows how she comes across – and uses that impact.</p>
+        <p class="vb-intro"><strong>b) Engaging without revealing:</strong>
+Delvey projected a great deal – and disclosed very little. People who knew her later described feeling as though they had never truly known her. The Two shares what impresses and hides what might show weakness.</p>
+        <p class="vb-intro"><strong>c) Cool under confrontation:</strong>
+When Delvey was confronted with inconsistencies, she did not react nervously, but coolly and with superiority. That is the Three-wing: it gives the Two the ability to maintain the image even under pressure.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Status als Mittel der Zugeh\xf6rigkeit:</strong>
-        F\xfcr Delvey war Luxus kein Selbstzweck –
-        er war eine Sprache. Die SP2 will dazugeh\xf6ren,
-        will in einer bestimmten Welt willkommen sein.
-        Delvey lernte diese Sprache perfekt und sprach sie
-        flie\xdfend – auch ohne die Mittel daf\xfcr zu haben.</p>
-        <p class="vb-intro"><strong>b) Helfen und Verf\xfchren als Strategie:</strong>
-        Die Zwei gewinnt Zugeh\xf6rigkeit durch Geben.
-        Delvey gab Einladungen, Drinks, Aufmerksamkeit,
-        das Gef\xfchl, besonders zu sein – und erschuf so
-        Netzwerke aus Verbindlichkeit.</p>
-        <p class="vb-intro"><strong>c) Privilegiertheitsgef\xfchl als innere \xdcberzeugung:</strong>
-        Die SP2 glaubt, auf Grund ihrer besonderen Qualit\xe4ten
-        Anspruch auf Dinge zu haben, die anderen verwehrt bleiben.
-        Delvey glaubte offenbar wirklich, dass ihr
-        der Aufstieg in diese Welt zustand –
-        und erschuf den Weg dorthin kurzerhand selbst.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Status as a vehicle for belonging:</strong>
+For Delvey, luxury was not an end in itself – it was a language. The SP2 wants to belong, wants to be welcome in a specific world. Delvey learned this language perfectly and spoke it fluently – even without the means to back it up.</p>
+        <p class="vb-intro"><strong>b) Helping and seducing as a strategy:</strong>
+The Two gains belonging through giving. Delvey offered invitations, drinks, attention, the feeling of being special – creating networks of obligation in the process.</p>
+        <p class="vb-intro"><strong>c) A sense of entitlement as an inner conviction:</strong>
+The SP2 believes that by virtue of her special qualities, she is entitled to things denied to others. Delvey evidently believed genuinely that she was entitled to her ascent into this world – and simply created the path there herself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Meisterin der sozialen Inszenierung:</strong>
-        <strong>Delvey</strong> verstand die ungeschriebenen Regeln der
-        New Yorker Hochgesellschaft besser als viele, die
-        dort aufgewachsen waren. Der Dreierfl\xfcgel gibt ihr
-        das Gespr\xfcr f\xfcr Codes, Bilder, Signale –
-        und die F\xe4higkeit, sie zu spielen.</p>
-        <p class="vb-intro"><strong>b) Hochgradige Anpassungsf\xe4higkeit:</strong>
-        Sorokin wurde zu Delvey, Delvey wurde zur
-        deutschen Erbin, die deutsche Erbin wurde zur
-        K\xfcnstlerin, dann zur Marke. Die Zwei mit
-        Dreierfl\xfcgel kann ihre Identit\xe4t nach Kontext
-        formen – weil Identit\xe4t f\xfcr sie nie vollst\xe4ndig
-        real, sondern immer auch Performance war.</p>
-        <p class="vb-intro"><strong>c) Grenze zwischen Selbstt\xe4uschung und bewusstem Betrug:</strong>
-        Was Delveys Fall besonders macht: Es ist nicht ganz klar,
-        wo Kalkül endet und Selbstt\xe4uschung beginnt.
-        Glaubte sie, das Geld irgendwann zu haben?
-        Oder war alles kalter Plan? Die Zwei im Stolz
-        kann beides gleichzeitig sein –
-        sie t\xe4uscht andere und sich selbst.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Core Properties</h3>
+        <p class="vb-intro"><strong>a) Master of social staging:</strong>
+Delvey understood the unwritten rules of New York high society better than many who grew up in it. The Three-wing gives her an instinct for codes, images, signals – and the ability to play them.</p>
+        <p class="vb-intro"><strong>b) High degree of adaptability:</strong>
+Sorokin became Delvey, Delvey became the German heiress, the German heiress became an artist, then a brand. The Two with a Three-wing can shape her identity depending on context – because identity was never entirely real to her, but always a performance.</p>
+        <p class="vb-intro"><strong>c) Line between self-deception and conscious fraud:</strong>
+What makes Delvey's case notable: it is not entirely clear where calculation ends and self-deception begins. Did she believe she would eventually have the money? Or was it all a cold plan? The Two in pride can be both at once – she deceives others and herself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Bewunderung und Unglauben:</strong>
-        <strong>Delvey</strong> l\xf6ste in der \xd6ffentlichkeit eine unerwartete Reaktion aus:
-        viele Menschen – besonders Frauen – empfanden
-        eine gewisse Faszination f\xfcr sie. Sie hatte das getan,
-        was viele insgeheim wollten: die Regeln des Aufstiegs
-        gebrochen und trotzdem gewonnen – zumindest f\xfcr eine Weile.</p>
-        <p class="vb-intro"><strong>b) Keine klassische Reue:</strong>
-        Im Gef\xe4ngnis, nach der Verurteilung und sp\xe4ter in Interviews
-        zeigte Delvey wenig klassische Schuldbek\xe4mmerung.
-        Dem SP2w3er fehlt der Zugang zur eigenen Verletzlichkeit –
-        sie ist immer noch in der Rolle, immer noch
-        auf der B\xfchne.</p>
-        <p class="vb-intro"><strong>c) Marke als letzter Akt:</strong>
-        <strong>Delvey</strong> hat ihre Geschichte vermarktet – Netflix-Serie,
-        Podcast, Kunstinstallationen aus der Abschiebehaft.
-        Das ist konsequente Dreier-Logik: Wenn schon Scheitern,
-        dann inszeniertes Scheitern. Der Schaden an anderen bleibt –
-        aber die Marke lebt weiter.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Admiration and disbelief:</strong>
+Delvey evoked an unexpected reaction in the public: many people – particularly women – felt a certain fascination with her. She had done what many secretly wanted: broken the rules of social climbing and won anyway – at least for a while.</p>
+        <p class="vb-intro"><strong>b) Absence of classic remorse:</strong>
+In prison, after her conviction, and later in interviews, Delvey showed little classic contriteness. The SP2w3 lacks access to her own vulnerability – she is still in character, still on stage.</p>
+        <p class="vb-intro"><strong>c) The brand as the final act:</strong>
+Delvey commercialized her story – Netflix series, podcast, art exhibitions while in immigration detention. That is consistent Three logic: If you must fail, make it a staged failure. The harm to others remains – but the brand lives on.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Anziehend und magnetisch:</strong>
-        Delveys Energie war einladend, glamour\xf6s, vielversprechend.
-        Menschen wollten in ihrer N\xe4he sein, weil sie das Gef\xfchl
-        vermittelte, dass etwas Besonderes passiert.
-        Das ist die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
-        zugleich W\xe4rme und Spektakel.</p>
-        <p class="vb-intro"><strong>b) Kontrollierte Emotionalit\xe4t:</strong>
-        Anders als der Einserfl\xfcgel, der moralisch aufgeladen wirkt,
-        bleibt der Dreierfl\xfcgel k\xfchl und kalkuliert.
-        Delvey zeigte nie zu viel –
-        Emotion als Mittel, nicht als Zustand.</p>
-        <p class="vb-intro"><strong>c) Verbindlichkeit durch Exklusivit\xe4t:</strong>
-        Wer von Delvey eingeladen wurde, f\xfchlte sich besonders.
-        Dieses Gef\xfchl ist ein klassisches Zwei-Mittel:
-        Zugeh\xf6rigkeit als Gabe – die gleichzeitig
-        Abh\xe4ngigkeit erzeugt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Attractive and magnetic:</strong>
+Delvey's energy was inviting, glamorous, full of promise. People wanted to be near her because she conveyed the sense that something special was happening. That is the Two with a Three-wing on a stage: warmth and spectacle simultaneously.</p>
+        <p class="vb-intro"><strong>b) Controlled emotionality:</strong>
+Unlike the One-wing, which feels morally charged, the Three-wing remains cool and calculated. Delvey never showed too much – emotion as a tool, not as a state.</p>
+        <p class="vb-intro"><strong>c) Obligation through exclusivity:</strong>
+Anyone invited by Delvey felt special. This feeling is a classic Two instrument: belonging extended as a gift – which simultaneously creates dependence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
-        Das Flusspferd gilt als gem\xfctliches, wasserliebendes Tier –
-        und ist dabei eines der gef\xe4hrlichsten \xdcbers\xe4ugetiere Afrikas.
-        Delvey wirkte charming, weltoffen, ungef\xe4hrlich –
-        bis die Betr\xfcgereien aufgedeckt wurden.</p>
-        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck trotz scheinbarer Grazie:</strong>
-        Das Flusspferd bewegt sich elegant im Wasser –
-        aber verursacht an Land eine Schneise der Zerst\xf6rung.
-        Delvey hinterlie\xdf einen Schaden, der zum
-        glanzvollen Auftreten in keinem Verh\xe4ltnis stand.</p>
-        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
-        Das Flusspferd verteidigt sein Revier bedingungslos –
-        und hinterfragt es nicht. Delvey verteidigte
-        ihre Identit\xe4t als reiche Erbin mit derselben
-        Unbedingtheit – bis das System zusammenbrach.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) Harmless impression, dangerous reality:</strong>
+The hippopotamus is regarded as a placid, water-loving animal – yet it is one of the most dangerous megafauna in Africa. Delvey appeared charming, worldly, harmless – until her frauds were exposed.</p>
+        <p class="vb-intro"><strong>b) Massive footprint despite apparent grace:</strong>
+The hippopotamus moves gracefully in water – but carves a path of destruction on land. Delvey left behind damage completely out of proportion to her dazzling appearance.</p>
+        <p class="vb-intro"><strong>c) Territorial and uncritical toward itself:</strong>
+The hippopotamus defends its territory unconditionally – and does not question it. Delvey defended her identity as a rich heiress with the same absolute resolve – until the system collapsed.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Anna Delvey</strong> ist das pr\xe4ziseste Portr\xe4t der SP2w3 in der Popkultur:
-        Sie zeigt, wie der Stolz der Zwei – das Gef\xfchl, besonders zu sein
-        und besondere Rechte zu haben – durch den Dreierfl\xfcgel in eine
-        vollst\xe4ndige Lebensinszenierung \xfcbersetzt werden kann.
-        Was sie unterscheidet von klassischen Betr\xfcgern ist das Gef\xfchl,
-        dass sie selbst an ihre Rolle glaubte – zumindest teilweise.
-        Der Schaden war real: gestohlenes Geld, zerst\xf6rte Verbindungen,
-        benutzte Menschen. Aber das Innenleben der Zwei bleibt
-        \xfcberzeugt: Es war nicht Unrecht – es war Aufstieg.
+        Anna Delvey is the most precise portrait of the SP2w3 in pop culture: She demonstrates how the pride of the Two – the feeling of being special and entitled to special privileges – can be translated through the Three-wing into a complete life performance. What distinguishes her from classic fraudsters is the sense that she herself believed in her role – at least in part. The damage was real: stolen money, broken connections, used individuals. But the inner world of the Two remains convinced: It was not wrongdoing – it was advancement.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg:</strong>
-        Claudio Naranjo nennt die SP2 den Subtype des Privilegs:
-        Sie glaubt, durch ihre besondere Art zu geben und zu sein,
-        Anspruch auf mehr zu haben als andere.
-        F\xfcr Delvey war das kein Wunsch – es war eine Gewissheit.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel – Bild als Realit\xe4t:</strong>
-        Der Dreierfl\xfcgel lehrt: Wenn das Bild \xfcberzeugt,
-        ist das Bild real. Diese Logik durchzieht Delveys
-        gesamtes System – von der erfundenen Biografie bis
-        zur heutigen Selbstvermarktung. Image ist nicht Mittel.
-        Image ist Ziel.</p>
-        <p class="vb-intro"><strong>c) Stolz als sozialer Klebstoff:</strong>
-        Delveys Stolz war nicht Arroganz nach au\xdfen –
-        er war eine innere \xdcberzeugung von Ausnahmestellung,
-        die ihr erlaubte, Grenzen zu \xfcberschreiten,
-        ohne sie als Grenzen wahrzunehmen.</p>
-        <p class="vb-intro"><strong>d) Entspannungspunkt Vier – der fehlende Zugang:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier.
-        In Gesundheit hei\xdft das: echte Selbstreflexion,
-        Zugang zur eigenen Trauer, zur eigenen Sehnsucht.
-        Delvey zeigte kaum Anzeichen davon –
-        sie bewegte sich immer auf der Oberfl\xe4che
-        der Inszenierung, nie darunter.</p>
-        <p class="vb-intro"><strong>e) Vergleich mit Harvey Weinstein:</strong>
-        Weinstein (SP2w1) und Delvey (SP2w3) nutzen denselben
-        Grundmechanismus: das Gef\xfchl der Ausnahmestellung,
-        das Zweier-Privileg. Der Einserfl\xfcgel moralisiert
-        das Privileg; der Dreierfl\xfcgel \xe4sthetisiert es.
-        Weinstein rechtfertigte, Delvey inszenierte.</p>
-        <p class="vb-intro"><strong>f) Die Frage der Verantwortung:</strong>
-        Delveys Fall l\xf6ste eine gesellschaftliche Debatte aus:
-        Ist sie Opfer eines Systems, das Frauen den direkten
-        Aufstieg verwehrt, oder Betr\xfcgerin ohne Entschuldigung?
-        Aus Enneagramm-Sicht ist beides wahr –
-        und das ist das Wesen der Leidenschaft:
-        Sie ist nicht b\xf6se Absicht. Sie ist blinder Fleck.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary In-Depth Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP2 – Privilege:</strong>
+Claudio Naranjo calls the SP2 the subtype of privilege: She believes that through her special way of giving and being, she is entitled to more than others. For Delvey, that was not a wish – it was a certainty.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing – Image as Reality:</strong>
+The Three-wing teaches: If the image is convincing, the image is real. This logic runs through Delvey's entire system – from her invented biography to today's self-marketing. Image is not a means. Image is the goal.</p>
+        <p class="vb-intro"><strong>c) Pride as social glue:</strong>
+Delvey's pride was not outward arrogance – it was an inner conviction of exceptionality that allowed her to cross boundaries without perceiving them as boundaries.</p>
+        <p class="vb-intro"><strong>d) Integration point Four – the missing access:</strong>
+The integration point for Type Two is Type Four. In health, this means genuine self-reflection, access to one's own grief and deep longings. Delvey showed almost no signs of this – she operated strictly on the surface of the performance, never beneath it.</p>
+        <p class="vb-intro"><strong>e) Comparison with Harvey Weinstein:</strong>
+Weinstein (SP2w1) and Delvey (SP2w3) employ the same core mechanism: the sense of exceptionalism, the Two's privilege. The One-wing moralizes the privilege; the Three-wing aestheticizes it. Weinstein justified; Delvey staged.</p>
+        <p class="vb-intro"><strong>f) The question of responsibility:</strong>
+Delvey's case sparked a broader societal debate: Is she a victim of a system that denies women direct upward mobility, or an unexcused fraudster? From an Enneagram perspective, both are true – and that is the nature of the core passion: It is not malicious intent. It is a blind spot.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -25110,7 +24991,7 @@ function annaDelveyPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Anna Delvey wurde 2019 in New York wegen Betrugs schuldig gesprochen und verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Anna Delvey was convicted of grand larceny and fraud in New York in 2019. The Enneagram explains; it does not justify.
         </p>
       </div>
 
