@@ -27618,70 +27618,70 @@ function nickLeesonPortraitPage() {
         </div>
         <p class="krim-portrait-name">Nick Leeson</p>
         <p class="krim-portrait-typ">SO9w8 · Social Type 9 with Eight-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Rogue Trader · Barings Bank, Singapur 1992–1995 · Animal correspondence: Büffel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Rogue Trader · Barings Bank, Singapore 1992–1995 · Animal correspondence: Buffalo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; und kein Bild trifft Nick Leeson genauer. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe, er lebt f\xfcr die Gruppe, er definiert sich \xfcber die Zugeh\xf6rigkeit zur Herde. Er ist geduldig, ausdauernd, anpassungsf\xe4hig. Er zieht nicht die Aufmerksamkeit auf sich. Er l\xe4sst sich einspannen &ndash; und tr\xe4gt die Last, ohne zu klagen. Aber wenn er gedr\xe4ngt wird, wenn kein Ausweg bleibt, dann st\xfcrmt er. Nicht aus Bosheit. Aus reiner, akkumulierter Energie.</p>
-          <p class="vb-intro">Nick Leeson war ein B\xfcffel. Er wollte nichts weiter, als dazugeh\xf6ren: zur Bank, zum Team, zur Institution Barings. Er trug die Last der verborgenen Verluste schweigend &ndash; Jahre lang. Er stampfte nicht warnend auf. Er brach erst dann zusammen, als die Last physisch untragbar geworden war. Und er riss die \xe4lteste Merchant Bank Englands mit sich.</p>
+          <p class="vb-intro">The buffalo is the animal correspondence of the Social Nine—and no image captures Nick Leeson more accurately. The buffalo is a herd animal. It needs the group, lives for the group, and defines itself through belonging to the herd. It is patient, persistent, and adaptable. It does not draw attention to itself. It allows itself to be harnessed—and carries the load without complaint. But when pushed, when no way out remains, it charges. Not out of malice, but out of pure, accumulated energy.</p>
+          <p class="vb-intro">Nick Leeson was a buffalo. He wanted nothing more than to belong: to the bank, to the team, to the institution of Barings. He carried the burden of hidden losses silently—for years. He didn't stomp in warning. He collapsed only when the load became physically unbearable. And he dragged down the oldest merchant bank in England with him.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Neun: Teilhabe als Lebensaufgabe</h2>
+        <h2 class="vb-section">2. The Social Nine: Participation as a Life Mission</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist in der Enneagramm-Tradition der Subtype der <em>Teilhabe</em> (Naranjo: Participation). Die SO9 findet ihre Identit\xe4t nicht in sich selbst, sondern in der Zugeh\xf6rigkeit zu einer Gemeinschaft. Was die Gruppe erwartet, was die Institution ben\xf6tigt, was die Kollegen gutgei\xdften &ndash; das wird ihr eigenes Handeln. Die SO9 l\xf6st sich in das gr\xf6\xdfere System auf. Das ist keine Schw\xe4che, das ist ihre Struktur.</p>
-          <p class="vb-intro"><strong>Ein wichtiger Hinweis:</strong> Die soziale Neun gilt in der Enneagramm-Tradition als <em>Kontratyp</em> der Neun &ndash; der Subtype, der am wenigsten nach dem typischen Bild einer Neun aussieht. W\xe4hrend man Tr\xe4gheit gern mit Passivit\xe4t oder Langsamkeit gleichsetzt, kann die soziale Neun erstaunlich umtriebig, flexi\xadgel und gesch\xe4ftig sein. Sie ist aktiv &ndash; aber diese Aktivit\xe4t dient nicht dem eigenen Wachstum, sondern der Zugeh\xf6rigkeit. Sie tut viel, damit die Gemeinschaft sie braucht. Das erinnert an den Bienenstock: immer in Bewegung, immer im Dienst, nie f\xfcr sich selbst. So war auch Leesons getriebenes Handeln in Singapur kein Widerspruch zur Neun &ndash; es war Zugeh\xf6rigkeit in Aktion.</p>
-          <p class="vb-intro">Nick Leeson kam aus einfachen Verh\xe4ltnissen aus Watford und hatte keine akademische Ausbildung. Barings Bank war f\xfcr ihn nicht nur ein Arbeitgeber &ndash; es war eine Welt, in die er sich endlich zugeh\xf6rig f\xfchlte. Er wurde respektiert. Er galt als Macher. Als die Verluste begannen, war sein erster Impuls kein pers\xf6nlicher Vorteil &ndash; es war: <em>die Bank nicht entt\xe4uschen</em>, die Erwartungen der Institution erf\xfcllen, nicht aus der Rolle fallen. Die SO9 kann kein Nein sagen, wenn das Nein ihre Zugeh\xf6rigkeit bedroht.</p>
+          <p class="vb-intro">The Social Nine (SO9) is, in the Enneagram tradition, the subtype of Participation (Naranjo). The SO9 finds its identity not within itself, but in belonging to a community. What the group expects, what the institution requires, what colleagues approve of—that becomes its own action. The SO9 dissolves into the larger system. This is not a weakness; it is its structure.</p>
+          <p class="vb-intro">An important note: The Social Nine is considered in the Enneagram tradition to be the countertype of Type Nine—the subtype that looks least like the typical image of a Nine. While sloth is often equated with passivity or slowness, the Social Nine can be strikingly industrious, flexible, and busy. They are active—but this activity serves not their own growth, but their belonging. They do a lot so that the community needs them. It recalls a beehive: always in motion, always in service, never for oneself. Thus, Leeson's driven behavior in Singapore was no contradiction to Type Nine—it was belonging in action.</p>
+          <p class="vb-intro">Nick Leeson came from a humble background in Watford and had no academic background. Barings Bank was not just an employer for him—it was a world where he finally felt he belonged. He was respected. He was seen as a go-getter. When the losses began, his first impulse was not personal gain—it was to not disappoint the bank, to fulfill the institution's expectations, and not break character. The SO9 cannot say no when saying no threatens their belonging.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Achterfl\xfcgel als Motor</h2>
+        <h2 class="vb-section">3. The Eight-Wing as a Motor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sozialen Neun eine zus\xe4tzliche Schicht: Durchsetzungswillen, Sturheit, die F\xe4higkeit, unter Druck weiterzumachen. Wo die reine SO9 vielleicht fr\xfcher aufgegeben h\xe4tte, gibt der Achterfl\xfcgel Leeson die Energie, das Spiel immer weiterzutreiben. Er ist nicht aggressiv im Sinne von konfrontativ &ndash; aber er gibt nicht auf. Er verdoppelt. Er verdreifacht. Er setzt nach, wenn eine Position gegen ihn l\xe4uft, weil Aufgeben f\xfcr ihn keine Option ist.</p>
-          <p class="vb-intro">Das Konto 88888 wuchs nicht, weil Leeson gierig war. Es wuchs, weil der Achterfl\xfcgel ihm die Ausdauer gab, weiterzumachen &ndash; und die SO9 ihm die Motivation lieferte: <em>das System nicht im Stich lassen</em>. Eine verh\xe4ngnisvoll stimmige Kombination.</p>
+          <p class="vb-intro">The Eight-wing adds an extra layer to the Social Nine: assertiveness, stubbornness, and the ability to keep going under pressure. Where a pure SO9 might have given up earlier, the Eight-wing gave Leeson the energy to keep pushing the game further. He was not aggressive in a confrontational sense—but he didn't give up. He doubled down. He tripled down. He pressed on when a position ran against him, because surrendering was not an option.</p>
+          <p class="vb-intro">Account 88888 did not grow because Leeson was greedy. It grew because the Eight-wing gave him the stamina to keep going—and the SO9 provided the motivation: don't let the system down. A fatally coherent combination.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Leidenschaft: Tr\xe4gheit als Selbstvergessenheit</h2>
+        <h2 class="vb-section">4. The Passion: Sloth as Self-Forgetfulness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> &ndash; und sie ist leicht misszuverstehen. Sie bedeutet nicht Faulheit. Sie bedeutet eine tiefe <em>Narkotisierung des eigenen Selbst</em>: Die Neun weicht der eigenen inneren Wahrheit aus, sie bet\xe4ubt sich gegen\xfcber dem, was wirklich geschieht, sie sieht weg, wenn der Blick unangenehm w\xe4re.</p>
-          <p class="vb-intro">Nick Leeson hat in Interviews sp\xe4ter erkl\xe4rt, dass er selbst nie wirklich realisiert habe, was er tat. Das klingt wie eine Schutzbehauptung &ndash; aber es ist ein exaktes Bild der Neun. Er war nicht im Modus des ber\xfcchtigten Betr\xfcgers, der im Bewusstsein seiner Schuld handelt. Er war in einem Zustand des <em>funktionalen Wegsehens</em>: weitermachen, weitermachen, weitermachen &ndash; irgendwie wird es sich kl\xe4ren. Dieser Impuls, Probleme nicht anzuschauen, bis sie nicht mehr zu \xfcbersehen sind, ist das Kernsymptom der ungesunden Neun.</p>
+          <p class="vb-intro">The passion of Type Nine is called sloth—and it is easily misunderstood. It does not mean laziness. It means a deep narcotization of the self: the Nine avoids their own inner truth, numbs themselves to what is actually happening, and looks away when the view becomes uncomfortable.</p>
+          <p class="vb-intro">Nick Leeson later explained in interviews that he never truly realized what he was doing at the time. That sounds like an excuse—but it is an exact portrait of Type Nine. He was not operating in the mode of the notorious fraudster acting in full consciousness of guilt. He was in a state of functional looking-away: keep going, keep going, keep going—somehow it will sort itself out. This impulse to avoid looking at problems until they can no longer be ignored is the core symptom of an unhealthy Nine.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Das Konto 88888: Das Versteck der Tr\xe4gheit</h2>
+        <h2 class="vb-section">5. Account 88888: The Hiding Place of Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1992 er\xf6ffnet Leeson in Singapur ein internes Errorkonto &ndash; die Nummer 88888, in der chinesischen Kultur eine Gl\xfccksahl. Urspr\xfcnglich gedacht f\xfcr kleinere administrative Error. Bald wird es zum Versteck f\xfcr seine eigenen Handelsverluste. Leeson \xfcberweist Verluste auf dieses Konto und zeigt der Londoner Zentrale nur die Gewinne. Er lebte in zwei Welten: der offiziellen Welt, in der er ein Stern war, und der verborgenen Welt des Kontos, das wuchs und wuchs.</p>
-          <p class="vb-intro">Das ist die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
+          <p class="vb-intro">In 1992, Leeson opened an internal error account in Singapore—number 88888, considered a lucky number in Chinese culture. Originally intended for minor administrative errors, it soon became the hiding place for his own trading losses. Leeson transferred losses into this account while showing the London headquarters only the profits. He lived in two worlds: the official world where he was a star, and the hidden world of the account that grew and grew.</p>
+          <p class="vb-intro">This is the SO9 mechanism on an institutional level: maintain the image the community needs. The bank needed profits. He delivered profits. What lay behind the facade could not be seen by the community—because then he would no longer be one of them. Account 88888 was not the master plan of a con artist. It was the hideout of a man who wanted to belong at all costs.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Erdbeben als Wendepunkt</h2>
+        <h2 class="vb-section">6. The Earthquake as a Turning Point</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 17. Januar 1995 ersch\xfctterte das Erdbeben von Kobe Japan und die Finanzm\xe4rkte. Leeson hatte massiv auf eine Stabilisierung des Nikkei gesetzt. Der Nikkei st\xfcrzte ab. Seine Verluste explodierten auf ein Niveau, das kein weiteres Verstecken erlaubte. In wenigen Wochen wuchsen die Verluste auf 827 Millionen Pfund &ndash; mehr als doppelt so viel wie das verf\xfcgbare Kapital der Bank.</p>
-          <p class="vb-intro">Am 23. Februar 1995 hinterlie\xdf Leeson in seinem B\xfcro einen Zettel: <em>&bdquo;I'm sorry.&ldquo;</em> Dann floh er nach Malaysia, weiter nach Brunei, schlie\xdflich nach Frankfurt. Drei Tage sp\xe4ter wurde Barings Bank &ndash; 1762 gegr\xfcndet, \xe4lteste Merchant Bank Englands, Bankier der K\xf6nigsfamilie &ndash; f\xfcr insolvent erkl\xe4rt. Der B\xfcffel hatte die Herde nicht verlassen wollen &ndash; und riss sie mit sich in den Abgrund.</p>
+          <p class="vb-intro">On January 17, 1995, the Kobe earthquake shook Japan and the financial markets. Leeson had bet massively on a stabilization of the Nikkei. The Nikkei plummeted. His losses exploded to a level that allowed no further concealment. Within weeks, losses ballooned to £827 million—more than double the bank's available trading capital.</p>
+          <p class="vb-intro">On February 23, 1995, Leeson left a note on his desk: "I'm sorry." Then he fled to Malaysia, on to Brunei, and finally to Frankfurt. Three days later, Barings Bank—founded in 1762, the oldest merchant bank in England, banker to the Royal Family—was declared insolvent. The buffalo had not wanted to leave the herd—and dragged it into the abyss with him.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Verhaftung und Changi: Das erzwungene Innehalten</h2>
+        <h2 class="vb-section">7. Arrest and Changi: The Enforced Pause</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Leeson wurde in Frankfurt verhaftet, nach Singapur ausgeliefert und zu sechseinhalb Jahren Gef\xe4ngnis verurteilt. Das Changi-Gef\xe4ngnis ist bekannt f\xfcr seine Strenge. F\xfcr Leeson, der sich immer \xfcber Zugeh\xf6rigkeit definiert hatte, war die totale Isolation eine eigene Strafe.</p>
-          <p class="vb-intro">Im Gef\xe4ngnis erkrankte er an Dickdarmkrebs. Er wurde nach vier Jahren entlassen &ndash; krank, aber am Leben. Er schrieb seine Memoiren: <em>Rogue Trader</em> (1996), sp\xe4ter verfilmt mit Ewan McGregor in der Hauptrolle. Das Buch liest sich weniger wie die Beichte eines Betr\xfcgers als wie die Schilderung eines Mannes, der nie wirklich verstand, was mit ihm geschah. Ein typisches Neuner-Dokument: aufrichtige Verwirrung \xfcber die eigene Geschichte.</p>
+          <p class="vb-intro">Leeson was arrested in Frankfurt, extradited to Singapore, and sentenced to six and a half years in prison. Changi Prison is known for its severity. For Leeson, who had always defined himself through belonging, total isolation was a punishment in itself.</p>
+          <p class="vb-intro">While in prison, he contracted colon cancer. He was released after four years—sick, but alive. He wrote his memoirs: Rogue Trader (1996), later adapted into a film starring Ewan McGregor. The book reads less like the confession of a fraudster and more like the account of a man who never truly understood what happened to him. A typical Type Nine document: genuine confusion about his own story.</p>
         </blockquote>
 
-        <h2 class="vb-section">8. Danach: Die Neun in ihrer zweiten Chance</h2>
+        <h2 class="vb-section">8. Afterwards: The Nine's Second Chance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach seiner Entlassung 1999 wurde Leeson nicht zum R\xfcckzugs-Eremiten &ndash; er suchte wieder Zugeh\xf6rigkeit. Er heiratete erneut. Er wurde \xf6ffentlicher Redner zum Thema Risikomanagement und Unternehmenskultur. Er wurde Gesch\xe4ftsf\xfchrer des irischen Fu\xdfballclubs Galway United FC. Kein Luxusleben, keine Selbstisolation &ndash; neue Gemeinschaften, neue Zugeh\xf6rigkeiten.</p>
-          <p class="vb-intro">Das ist die gesunde Seite der SO9: die F\xe4higkeit, nach dem Zusammenbruch wieder Teil von etwas zu werden. Nicht durch Selbst\xfcberh\xf6hung, nicht durch Drama &ndash; sondern durch stilles, beharrliches Eingliedern in eine neue Struktur. Der B\xfcffel, der nach dem Sturm wieder in die Herde tritt.</p>
+          <p class="vb-intro">After his release in 1999, Leeson did not become a reclusive hermit—he sought belonging once again. He remarried. He became a public speaker on risk management and corporate culture. He became the CEO of the Irish football club Galway United FC. No luxury lifestyle, no self-isolation—new communities, new forms of belonging.</p>
+          <p class="vb-intro">This is the healthy side of the SO9: the ability to become part of something again after a collapse. Not through self-aggrandizement, not through drama—but through quiet, persistent integration into a new structure. The buffalo returning to the herd after the storm.</p>
         </blockquote>
 
-        <h2 class="vb-section">9. Tiefenpsychologische Einordnung</h2>
+        <h2 class="vb-section">9. Depth Psychological Classification</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><strong>a) Naranjos SO9 &ndash; Teilhabe als Identit\xe4tsstrategie:</strong> Claudio Naranjo beschreibt die SO9 als den Subtype, der die eigene Identit\xe4t in der Gemeinschaft aufl\xf6st. Leesons gesamtes Handeln war auf Zugeh\xf6rigkeit ausgerichtet &ndash; zu Barings, zum Team in Singapur, zum Bild des erfolgreichen Traders. Als dieses Bild in Gefahr geriet, konnte er es nicht aufgeben, ohne sich selbst aufzugeben.</p>
-          <p class="vb-intro"><strong>b) Der Unterschied zu anderen Finanzskandalen:</strong> Bernard Madoff (wahrscheinlich SO3) betrieb seinen Betrug kalt, bewusst, jahrzehntelang. Jordan Belfort (SX3) lebte seinen Exzess \xf6ffentlich und schamlos. Nick Leeson passt in kein dieser Bilder. Er war kein Narzisst. Er wollte keine Aufmerksamkeit. Er wollte nicht auffallen. Er wollte nur nicht scheitern &ndash; und verlor dabei alles. Das ist das Pr\xe4ziseste der ungesunden SO9: nicht b\xf6ser Wille, sondern Selbstaufl\xf6sung im falschen System.</p>
-          <p class="vb-intro"><strong>c) Der Achterfl\xfcgel als Verst\xe4rker:</strong> Ohne den Achterfl\xfcgel h\xe4tte die Neun vielleicht fr\xfcher aufgegeben oder Hilfe gesucht. Der Achterfl\xfcgel gab Leeson die Sturheit, weiterzumachen, die Verluste immer weiter zu verdoppeln, nie klein beizugeben. Er verwandelte die passive Tr\xe4gheit der Neun in eine aktive, beharrliche Katastrophe.</p>
+          <p class="vb-intro"><strong>a) Naranjo's SO9—Participation as an Identity Strategy:</strong> Claudio Naranjo describes the SO9 as the subtype that dissolves its own identity in the community. Leeson's entire behavior was oriented toward belonging—to Barings, to the team in Singapore, to the image of the successful trader. When that image was threatened, he could not give it up without giving up himself.</p>
+          <p class="vb-intro"><strong>b) The Difference from Other Financial Scandals:</strong> Bernard Madoff (likely SP3w4) operated his fraud coldly, consciously, and for decades. Jordan Belfort (SX3) lived his excesses publicly and shamelessly. Nick Leeson fits none of these patterns. He was no narcissist. He didn't want attention. He didn't want to stand out. He just didn't want to fail—and lost everything in the process. This is the most precise aspect of the unhealthy SO9: not malice, but self-dissolution in the wrong system.</p>
+          <p class="vb-intro"><strong>c) The Eight-Wing as an Amplifier:</strong> Without the Eight-wing, the Nine might have given up earlier or sought help. The Eight-wing gave Leeson the stubbornness to press on, to keep doubling down on losses, to never back down. It turned the passive sloth of Type Nine into an active, persistent catastrophe.</p>
         </blockquote>
 
-        <h2 class="vb-section">10. Was bleibt</h2>
+        <h2 class="vb-section">10. What Remains</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nick Leeson ist heute noch am Leben. Er h\xe4lt Vortr\xe4ge \xfcber Unternehmenskultur, \xdcberwachungsversagen und pers\xf6nliche Verantwortung. Er ist kein gebrochener Mann. Er ist ein Mann, der seine Geschichte versteht &ndash; und sie anderen verf\xfcgbar macht.</p>
-          <p class="vb-intro">Was sein Fall bleibt: das klarste dokumentierte Beispiel daf\xfcr, wie die Leidenschaft der Neun &ndash; Tr\xe4gheit als Selbstvergessenheit, als Nicht-Hinschauen, als Aufrechterhaltung des Gruppenbildes um jeden Preis &ndash; nicht nur ein pers\xf6nliches Schicksal, sondern eine Institution zerst\xf6ren kann. Der B\xfcffel, der schweigend tr\xe4gt &ndash; bis er bricht.</p>
+          <p class="vb-intro">Nick Leeson is still alive today. He gives lectures on corporate culture, oversight failures, and personal responsibility. He is not a broken man. He is a man who understands his story—and makes it available to others.</p>
+          <p class="vb-intro">What his case remains: the clearest documented example of how the passion of Type Nine—sloth as self-forgetfulness, as looking away, as maintaining the group image at all costs—can destroy not only an individual destiny, but an entire institution. The buffalo that carries silently—until it breaks.</p>
         </blockquote>
 
         <div class="krim-portrait-footer">
@@ -27698,7 +27698,7 @@ function nickLeesonPortraitPage() {
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Nick Leeson wurde 1995 in Singapur wegen Betrugs und Fälschung zu 6½ Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Nick Leeson was convicted in Singapore in 1995 of fraud and forgery and sentenced to 6½ years in prison. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -27706,7 +27706,7 @@ function nickLeesonPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1)"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1)"},
-          {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypes im \xdcberblick"},
+          {route:"subtypen-schaubilder", label:"Diagram: Overview of the 27 Subtypes"},
         ])}
       </div>
     </div>
