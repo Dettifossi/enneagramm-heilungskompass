@@ -33240,6 +33240,15 @@ function enneagrammProfilingPage() {
         alt="Enneagram Profiling &ndash; Detlef Rathmer"
         style="width:100%;max-width:480px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
+      <div style="max-width:480px;margin:0 auto 2rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:12px;border-left:3px solid var(--gold);font-style:italic;line-height:1.9;color:var(--ink);text-align:center;">
+        <p style="margin:0 0 1rem;">You do not type through words,<br>but through gaze.</p>
+        <p style="margin:0 0 1rem;">Facial diagnostic signs,<br>posture,<br>facial expression,<br>gesture,<br>tension,<br>tone of voice, and rhythm.</p>
+        <p style="margin:0 0 1rem;">Observable, not narrated.</p>
+        <p style="margin:0 0 1rem;">Independent of stories,<br>repeatable in the test.</p>
+        <p style="margin:0 0 1rem;">Scientific<br>in the sense of visible,<br>verifiable,<br>reproducible.</p>
+        <p style="margin:0 0 1rem;">Objectivity is not a feeling,<br>but trained perception<br>and the correct classification<br>of the primary gaze quality<br>and further key features &mdash;<br>up to mastery.</p>
+        <p style="margin:0;font-style:normal;font-size:.9rem;color:var(--muted);">&mdash; Detlef Rathmer</p>
+      </div>
       <div class="vb-section" style="max-width:100%;">
 
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">What Enneagram Profiling Means</h2>
@@ -39050,7 +39059,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v671';
+  const MY_VERSION = 'inhalt-v672';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
