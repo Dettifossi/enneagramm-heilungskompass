@@ -21618,7 +21618,7 @@ Rader's downfall was not a chance discovery—it was self-induced. He explicitly
 function andreiTschikatiloPortraitPage() {
   return shell(`
     <div class="page-container">
-      ${pageHeader("Andrei Tschikatilo – Criminal Psychology")}
+      ${pageHeader("Andrei Chikatilo – Criminal Psychology")}
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
@@ -21628,238 +21628,94 @@ function andreiTschikatiloPortraitPage() {
         <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Andrei Romanowitsch Tschikatilo</strong>, geboren am 16. Oktober 1936
-        in der Ukraine, ist einer der meistgef\xfcrchteten Serienm\xf6rder des 20. Jahrhunderts.
-        Zwischen 1978 und 1990 ermordete er mindestens 52 Menschen – \xfcberwiegend Frauen
-        und Kinder – in der sowjetischen Region Rostow. In der Sowjetunion der Breschnew-
-        und Gorbatschow-\xc4ra galt er als Lehrer, Parteimitglied und unauff\xe4lliger
-        Staatsbürger. Zw\xf6lf Jahre lang blieb er unentdeckt. Am 14. Februar 1994 wurde er
-        in der Strafanstalt Nowotscherkassk durch Genickschuss hingerichtet. Sein Fall
-        ersch\xfctterte die Sowjetunion auch deshalb, weil er das offizielle Dogma widerlegte,
-        Serienm\xf6rder seien ein Produkt des kapitalistischen Westens.
+        Andrei Romanovich Chikatilo, born on October 16, 1936, in Ukraine, is one of the most feared serial killers of the 20th century. Between 1978 and 1990, he murdered at least 52 people—predominantly women and children—in the Soviet region of Rostov. In the Soviet Union of the Brezhnev and Gorbachev eras, he was regarded as a teacher, party member, and inconspicuous citizen. For twelve years, he remained undetected. On February 14, 1994, he was executed by a gunshot to the back of the neck in Novocherkassk prison. His case shocked the Soviet Union in part because it disproved the official dogma that serial killers were a product of the capitalist West.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Andrei Tschikatilo</strong> wird der <strong>Self-Preservationen Eins mit Neunerfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer, aufgestauter Groll gegen innere Unvollkommenheit und gegen eine Welt,
-        die als ungerecht und demütigend erlebt wird. Die selbsterhaltende Eins (SP1) richtet
-        diese Energie auf materielle Sicherheit, praktische Kontrolle und die
-        Aufrechterhaltung eines tadellosen \xe4u\xdferen Bildes. Der Neunerfl\xfcgel
-        d\xe4mpft die sichtbare Sch\xe4rfe der Eins erheblich: Er verleiht Geduld,
-        \xe4u\xdfere Ruhe und eine fast gespenstische Unauff\xe4lligkeit. Bei Tschikatilo
-        f\xfchrte diese Kombination zu einem der tödlichsten und am schwersten
-        fassbaren T\xe4ter der Kriminalgeschichte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong>
+Andrei Chikatilo is assigned to the Self-Preservation One with Nine-wing in the Enneagram. The passion of Type One is anger—a deep, pent-up resentment against inner imperfection and against a world experienced as unjust and humiliating. The Self-Preservation One (SP1) directs this energy toward material security, practical control, and the maintenance of an irreproachable external image. The Nine-wing significantly dampens the visible sharpness of Type One: it lends patience, external calmness, and an almost eerie inconspicuousness. In Chikatilo's case, this combination resulted in one of the deadliest and most elusive perpetrators in criminal history.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Unauff\xe4llig und ausdruckslos:</strong>
-        Tschikatilo fiel niemandem auf. Zeitgenossen beschrieben seinen Blick als leer,
-        fast abwesend – nicht bedrohlich, nicht eindringlich, schlicht nichtssagend.
-        Der Neunerfl\xfcgel der Eins l\xf6scht die f\xfcr die Eins sonst charakteristische
-        Intensit\xe4t des Blicks; was bleibt, ist das Gesicht eines Menschen, an den
-        man sich nicht erinnert.</p>
-        <p class="vb-intro"><strong>b) Pr\xfcfend hinter der Fassade:</strong>
-        Hinter der Ausdruckslosigkeit lag ein pr\xfcfender, taxierender Blick –
-        der Blick der Eins, die bewertet, sortiert und nach Schwachstellen sucht.
-        Bei Tschikatilo richtete sich dieser Blick auf Verletzlichkeit:
-        Er w\xe4hlte Opfer, die er als wehrlos und gesellschaftlich unsichtbar
-        einstufte – Kinder, jugendliche Ausrei\xdfer, Frauen am Rand der Gesellschaft.</p>
-        <p class="vb-intro"><strong>c) Ohne Bedrohungssignal:</strong>
-        Das Gef\xe4hrliche an Tschikatilo war gerade das Fehlen jedes Warnzeichens.
-        Opfer gingen freiwillig mit ihm – er wirkte wie ein normaler Mensch.
-        Diese Qualit\xe4t, keine Bedrohung auszustrahlen, ist ein Kennzeichen
-        der SP1w9 in ihrer dunkelsten Auspr\xe4gung: Die Gef\xe4hrlichkeit liegt
-        vollst\xe4ndig unter der Oberfl\xe4che.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Inconspicuous and Expressionless:</strong>
+Chikatilo went unnoticed by everyone. Contemporaries described his gaze as empty, almost absent—not threatening, not intrusive, simply meaningless. The Nine-wing of Type One erases the gaze intensity otherwise characteristic of Type One; what remains is the face of a person no one remembers.</p>
+        <p class="vb-intro"><strong>b) Scrutinizing Behind the Facade:</strong>
+Behind the expressionlessness lay a scrutinizing, evaluating gaze—the gaze of Type One, which assesses, sorts, and looks for weak spots. For Chikatilo, this gaze was directed at vulnerability: he chose victims whom he classified as defenseless and socially invisible—children, teenage runaways, women on the margins of society.</p>
+        <p class="vb-intro"><strong>c) Absence of Threat Signals:</strong>
+The dangerous quality in Chikatilo was precisely the absence of any warning sign. Victims accompanied him voluntarily—he seemed like a normal person. This quality of radiating no threat is a hallmark of SP1w9 in its darkest expression: the dangerousness resides entirely beneath the surface.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Tiefstes Trauma in der Kindheit:</strong>
-        <strong>Tschikatilo</strong> wuchs w\xe4hrend des ukrainischen Holodomors auf –
-        der von Stalin verursachten Hungersnot, der Millionen zum Opfer fielen.
-        Er berichtete, sein \xe4lterer Bruder sei von hungernden Nachbarn entf\xfchrt
-        und gefressen worden. Ob historisch belegt oder nicht: Dieses Trauma
-        pr\xe4gte sein innerstes Bild von einer Welt, die den Schwachen verschlingt.
-        F\xfcr die SP1 ist existenzielle Bedrohung das Urthema – und kaum jemand
-        hat sie so fr\xfch und so radikal erfahren.</p>
-        <p class="vb-intro"><strong>b) Sexuelle Dysfunktion als Schamquelle:</strong>
-        <strong>Tschikatilo</strong> war impotent. Diese Dysfunktion war eine Quelle
-        tiefer, unheilbarer Scham – f\xfcr einen Mann in der sowjetischen
-        Arbeitergesellschaft eine der vernichtendsten m\xf6glichen Unvollkommenheiten.
-        Die Eins ertr\xe4gt keine innere Unvollkommenheit: Sie erzeugt Groll, Zorn
-        und den zwanghaften Wunsch, die Scham zu l\xf6schen. Bei Tschikatilo
-        fand dieser Zorn seinen Ausweg in Gewalt.</p>
-        <p class="vb-intro"><strong>c) Perfektes Doppelleben:</strong>
-        <strong>Tschikatilo</strong> war Lehrer, sp\xe4ter Versorgungsbeauftragter eines
-        Industriebetriebs, KPdSU-Parteimitglied. Er f\xfchrte ein tadelloses
-        b\xfcrgerliches Leben – unscheinbar, pflichtbewusst, niemals auff\xe4llig.
-        Diese F\xe4higkeit zur vollst\xe4ndigen Spaltung zwischen \xe4u\xdferer
-        Korrektheit und innerem Abgrund ist eine Extremform der SP1w9:
-        Die \xe4u\xdfere Ordnung dient als Panzerung gegen die innere Aufl\xf6sung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Deepest Childhood Trauma:</strong>
+Chikatilo grew up during the Ukrainian Holodomor—the Stalin-induced famine that claimed millions of lives. He reported that his older brother was kidnapped and cannibalized by starving neighbors. Whether historically documented or not, this trauma shaped his innermost view of a world that devours the weak. For SP1, existential threat is the primary core theme—and hardly anyone experienced it as early or as radically.</p>
+        <p class="vb-intro"><strong>b) Sexual Dysfunction as a Source of Shame:</strong>
+Chikatilo was impotent. This dysfunction was a source of deep, incurable shame—for a man in Soviet working-class society, one of the most devastating possible imperfections. Type One tolerates no inner imperfection: it generates resentment, anger, and a compulsive desire to erase the shame. For Chikatilo, this anger found its outlet in violence.</p>
+        <p class="vb-intro"><strong>c) Perfect Double Life:</strong>
+Chikatilo was a teacher, later a supply officer for an industrial enterprise, and a CPSU party member. He led an irreproachable middle-class life—unsignificant, dutiful, never drawing attention to himself. This capacity for complete splitting between outer correctness and inner abyss is an extreme form of SP1w9: outer order serves as armor against inner dissolution.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Methodisches, langfristiges Vorgehen:</strong>
-        <strong>Tschikatilo</strong> handelte nie impulsiv. Er plante Contactaufnahmen,
-        lockte Opfer mit plausiblen Vorw\xe4nden und w\xe4hlte Tatorte sorgf\xe4ltig.
-        Zw\xf6lf Jahre lang wurde er nicht gefasst – eine Leistung, die akribische
-        Disziplin voraussetzt. Das ist Einser-Perfektionismus in seiner
-        dunkelsten Auspr\xe4gung: Die Methode wird zur Selbst\xfcberzeugungsstrategie
-        gegen innere Aufl\xf6sung eingesetzt.</p>
-        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
-        <strong>Tschikatilo</strong> bezeichnete seine Opfer als „sozial wertlos" –
-        Prostituierte, Landstreicher, Ausrei\xdfer, gesellschaftliche Randgestalten.
-        Er stilisierte seine Taten zur S\xe4uberung, zur Beseitigung von
-        Unvollkommenheit. Diese moralische Rahmung ist typisch f\xfcr die
-        kranke Eins: Sie ben\xf6tigt ein inneres Ja zu ihren Handlungen
-        und konstruiert dieses Ja durch ein rigides Prinzip.</p>
-        <p class="vb-intro"><strong>c) Aufgestauter Zorn als Antrieb:</strong>
-        Der Zorn der Eins ist kein hei\xdfes Auffl\xe4rtern, sondern ein kaltes,
-        jahrzehntelanges Brennen. Bei Tschikatilo hatte sich dieser Zorn
-        \xfcber Jahrzehnte akkumuliert – aus Kindheitstrauma, sexueller Scham
-        und beruflichen Demütigungen – und entlud sich in zunehmend frequenteren
-        und exzessiveren Taten. Die Dynamik der Entladung und des erneuten
-        Aufstauens ist ein klassisches Muster der entgleisten Eins.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
+        <p class="vb-intro"><strong>a) Methodical, Long-Term Approach:</strong>
+Chikatilo never acted impulsively. He planned initial contacts, lured victims with plausible pretexts, and carefully selected crime scenes. For twelve years, he was not caught—an achievement that required meticulous discipline. This is Type One perfectionism in its darkest manifestation: method is employed as a self-persuasion strategy against inner dissolution.</p>
+        <p class="vb-intro"><strong>b) Moral Self-Justification:</strong>
+Chikatilo referred to his victims as "socially worthless"—prostitutes, vagrants, runaways, marginal social figures. He stylized his crimes as a cleansing, an elimination of imperfection. This moral framing is typical for a derailed Type One: it requires an internal affirmative "yes" to its actions and constructs this approval through a rigid principle.</p>
+        <p class="vb-intro"><strong>c) Pent-Up Anger as a Driving Force:</strong>
+The anger of Type One is not a hot flare-up, but a cold, decades-long burn. For Chikatilo, this anger had accumulated over decades—from childhood trauma, sexual shame, and professional humiliations—and discharged itself in increasingly frequent and excessive crimes. The dynamic of discharge and renewed buildup is a classic pattern of a derailed Type One.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der Mann, den niemand bemerkte:</strong>
-        <strong>Tschikatilo</strong> war in jeder Hinsicht unscheinbar – mittelgro\xdf,
-        unscheinbares Gesicht, graue Kleidung, nichts Ged\xe4chtniswürdiges.
-        Zeugen, die ihm kurz begegnet waren, konnten ihn nicht beschreiben.
-        Diese radikale Unauff\xe4lligkeit ist der Neunerfl\xfcgel als vollst\xe4ndige
-        Tarnung: Die Neun l\xf6scht sich selbst aus dem Aufmerksamkeitsfeld anderer aus.</p>
-        <p class="vb-intro"><strong>b) Pflichtbewusster B\xfcrger:</strong>
-        In seinem sozialen Umfeld wirkte er zuverl\xe4ssig und pflichtbewusst –
-        der Beamte, der seinen Dienst tut, der Kollege, der keine Probleme macht.
-        Diese Gesamtwirkung sch\xfctzte ihn jahrelang: Niemand suchte den
-        Serienm\xf6rder im braven Partei- und Familienmenschen.</p>
-        <p class="vb-intro"><strong>c) Fehlende emotionale Resonanz:</strong>
-        Menschen, die n\xe4her mit ihm zu tun hatten, beschrieben eine
-        merkw\xfcrdige emotionale Leere – er war nicht warm, aber auch nicht
-        kalt, nicht unfreundlich, aber ohne echte Pr\xe4senz.
-        Das ist die Kombination aus Einser-Unterdr\xfcckung und
-        Neuner-Selbstausl\xf6schung: Ein Mensch, der nach innen eingemauert ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) The Man No One Noticed:</strong>
+Chikatilo was unremarkable in every respect—average height, plain face, gray clothing, nothing memorable. Witnesses who encountered him briefly were unable to describe him. This radical inconspicuousness is the Nine-wing as a complete camouflage: the Nine erases itself from the field of attention of others.</p>
+        <p class="vb-intro"><strong>b) Dutiful Citizen:</strong>
+In his social environment, he appeared reliable and dutiful—the official who does his duty, the colleague who causes no problems. This overall impression protected him for years: no one searched for a serial killer in an obedient party and family man.</p>
+        <p class="vb-intro"><strong>c) Lack of Emotional Resonance:</strong>
+People who had closer dealings with him described a strange emotional emptiness—he was not warm, but not cold either; not unfriendly, but lacking true presence. This is the combination of Type One suppression and Nine self-erasure: a human being walled off internally.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Druckvolle Stille:</strong>
-        <strong>Tschikatilo</strong> verstr\xf6mte keine sichtbare Energie – im Gegenteil.
-        Er wirkte energetisch neutral, fast vakuumartig.
-        Und doch lag dahinter ein enormer Druck: die aufgestaute Energie
-        eines Menschen, der jahrzehntelang alles nach innen dr\xe4ngte,
-        was er nicht zeigen durfte oder konnte.</p>
-        <p class="vb-intro"><strong>b) Kein Ventil im Alltag:</strong>
-        Die Eins braucht Kan\xe4le f\xfcr ihren Zorn – Arbeit, Kontrolle,
-        Perfektionismus als sublimierte Form. Bei Tschikatilo
-        versagten alle zivilen Ventile: berufliche Demütigungen,
-        sexuelles Versagen, gesellschaftliche Unsichtbarkeit.
-        Der aufgestaute Druck fand seinen einzigen Auslass in den Taten.</p>
-        <p class="vb-intro"><strong>c) Intensit\xe4t hinter Stille:</strong>
-        Im Verh\xf6r nach seiner Verhaftung beschrieben Ermittler
-        eine Intensit\xe4t, die pl\xf6tzlich sichtbar wurde – als habe
-        sich eine Schleuse ge\xf6ffnet. Das ist das Muster der SP1w9:
-        Lange Stille, dann unerwartete Eruption der aufgestauten Energie.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) High-Pressure Silence:</strong>
+Chikatilo radiated no visible energy—on the contrary. He seemed energetically neutral, almost vacuum-like. And yet behind it lay enormous pressure: the pent-up energy of a person who pushed everything inward for decades that he was not allowed to or could not show.</p>
+        <p class="vb-intro"><strong>b) No Outlet in Daily Life:</strong>
+Type One needs channels for its anger—work, control, perfectionism as a sublimated form. For Chikatilo, all civilian outlets failed: professional humiliations, sexual failure, social invisibility. The pent-up pressure found its sole release in his crimes.</p>
+        <p class="vb-intro"><strong>c) Intensity Behind Silence:</strong>
+During interrogation following his arrest, investigators described an intensity that suddenly became visible—as if a floodgate had opened. This is the pattern of SP1w9: long silence, followed by an unexpected eruption of accumulated energy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Adler</h3>
-        <p class="vb-intro"><strong>a) Unsichtbar bis zum Angriff:</strong>
-        Der Adler kreist in gro\xdfer H\xf6he – kaum sichtbar, kaum wahrnehmbar.
-        Erst im Augenblick des Angriffs wird er real. Tschikatilo handelte
-        nach demselben Prinzip: jahrelang unsichtbar, im entscheidenden
-        Moment mit voller, \xfcberw\xe4ltigender Pr\xe4senz. Die Opfer sahen
-        den Angriff nicht kommen.</p>
-        <p class="vb-intro"><strong>b) Gezielte Auswahl der Beute:</strong>
-        Der Adler greift nicht wahllos an – er selektiert. Er sucht
-        Schwache, Isolierte, Ungesch\xfctzte. Tschikatilo w\xe4hlte
-        seine Opfer nach demselben Prinzip: gesellschaftlich randst\xe4ndig,
-        von niemandem erwartet, ohne Schutzraum. Die Selektion
-        war so sorgf\xe4ltig, dass viele Taten \xfcber Monate
-        unentdeckt blieben.</p>
-        <p class="vb-intro"><strong>c) Geduld als Methode:</strong>
-        Adler warten. Sie greifen nicht im ersten besten Moment an,
-        sondern warten auf den idealen. Tschikatilo bewies
-        \xfcber zw\xf6lf Jahre eine eiserne Geduld: zwischen den Taten
-        lebte er sein bürgerliches Leben, wartete, kontrollierte
-        den inneren Druck – bis er ihn nicht mehr kontrollieren konnte.
-        Diese Geduld ist die SP1w9 in ihrer dunkelsten Form.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Eagle</h3>
+        <p class="vb-intro"><strong>a) Invisible Until the Strike:</strong>
+The eagle circles at great heights—barely visible, hardly perceptible. Only at the moment of the strike does it become real. Chikatilo acted on the same principle: invisible for years, in the decisive moment with full, overwhelming presence. The victims did not see the attack coming.</p>
+        <p class="vb-intro"><strong>b) Targeted Selection of Prey:</strong>
+The eagle does not attack indiscriminately—it selects. It seeks the weak, isolated, and unprotected. Chikatilo selected his victims according to the same principle: socially marginalized, expected by no one, lacking a protective space. The selection was so careful that many crimes went undetected for months.</p>
+        <p class="vb-intro"><strong>c) Patience as a Method:</strong>
+Eagles wait. They do not strike at the first opportunity, but wait for the ideal one. Chikatilo demonstrated iron patience over twelve years: between crimes, he lived his civilian life, waited, and controlled the inner pressure—until he could no longer control it. This patience is SP1w9 in its darkest form.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Andrei Romanowitsch Tschikatilo</strong> verk\xf6rpert die selbsterhaltende Eins
-        in ihrer dunkelsten und zugleich psychologisch konsequentesten Auspr\xe4gung.
-        Ein Kindheitstrauma von unvorstellbarer Schwere, eine lebenslange sexuelle
-        Scham, berufliche Demütigungen und der totale Zusammenbruch aller zivilen
-        Entlastungskan\xe4le – das ist das Substrat. Der Neunerfl\xfcgel sorgte daf\xfcr,
-        dass all das nach au\xdfen unsichtbar blieb: Er wirkte wie jeder andere.
-        Die Eins lieferte die Methode, die Selbstrechtfertigung und die
-        eiserne Disziplin. Tschikatilo ist kein Beweis f\xfcr das Böse schlechthin –
-        er ist ein Extremfall dessen, was entsteht, wenn die tiefste Verletzung
-        nie Sprache findet und der innere Zorn keine einzige konstruktive
-        Form der Entladung kennt.
+        Andrei Romanovich Chikatilo embodies the Self-Preservation One in its darkest and simultaneously most psychologically consistent manifestation. A childhood trauma of unimaginable severity, lifelong sexual shame, professional humiliations, and the total collapse of all civilian relief channels—this is the substrate. The Nine-wing ensured that all of this remained invisible to the outside world: he appeared like anyone else. Type One supplied the method, the self-justification, and the iron discipline. Chikatilo is not proof of absolute evil per se—he is an extreme case of what emerges when the deepest wound never finds expression and inner anger knows not a single constructive form of release.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP1 – „Angst / Worry“:</strong>
-        Claudio Naranjo nannte die selbsterhaltende Eins „Angst" oder „Worry":
-        Sie ist die am st\xe4rksten auf materielle Sicherheit und k\xf6rperliches
-        \xdcberleben fixierte aller Einsen. Tschikatilo hatte in der Kindheit
-        existenziellen Hunger, Kälte und Verlust erlebt. Die SP1 entwickelt
-        daraus eine chronische Wachheit gegen\xfcber Bedrohung und eine
-        zwanghafte Kontrolle \xfcber das eigene Leben – als Schutz gegen
-        die Wiederkehr des Urtraumas.</p>
-        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als perfekte Tarnung:</strong>
-        Bei Tschikatilo war der Neunerfl\xfcgel keine mildernde Kraft –
-        er war eine Waffe. Die Neun l\xf6scht sich aus dem Bewusstsein
-        anderer aus: Sie strahlt keine Bedrohung aus, keinen Anspruch,
-        keine Intensit\xe4t. Das erm\xf6glichte Tschikatilo zw\xf6lf Jahre
-        unentdeckten Mordens mitten in einer totalit\xe4ren Gesellschaft,
-        die jeden \xfcberwachte – denn er sah einfach nicht wie ein
-        Verd\xe4chtiger aus.</p>
-        <p class="vb-intro"><strong>c) Sexuelle Scham als Einser-Kern:</strong>
-        Die Eins duldet keine innere Unvollkommenheit.
-        Tschikatilos Impotenz war eine t\xe4glich erneute Konfrontation
-        mit dem, was er f\xfcr einen fundamentalen Makel hielt.
-        Der daraus resultierende Zorn richtete sich zun\xe4chst gegen
-        sich selbst – wie bei der gesunden Eins, die sich kritisiert –
-        und verschob sich schlie\xdflich nach au\xdfen, auf Opfer,
-        die er als schwach und wertlos definierte.</p>
-        <p class="vb-intro"><strong>d) Moralische Umbuchung als Einser-Mechanismus:</strong>
-        Die Eins muss ihren Handlungen innerlich zustimmen k\xf6nnen.
-        Tschikatilo l\xf6ste dieses Problem durch ideologische
-        Rahmung: Seine Opfer waren „sozial minderwertig",
-        ihre Beseitigung ein Dienst an der Gesellschaft.
-        Dieser Mechanismus – die moralische Umbuchung einer Tat
-        in eine Pflichterfüllung – ist ein klassisches Einser-Muster
-        im Extremfall.</p>
-        <p class="vb-intro"><strong>e) Das Versagen aller Institutionen:</strong>
-        Tschikatilo wurde w\xe4hrend seiner aktiven Zeit zweimal
-        vorl\xe4ufig festgenommen – und beide Male freigelassen,
-        weil das sowjetische System nicht glauben konnte,
-        dass ein Parteimitglied und Familienmensch ein Serienm\xf6rder war.
-        Seine bürgerliche Fassade schützte ihn institutionell.
-        Das ist die SP1w9 als systemische Fehlfunktion:
-        Das Image der Korrektheit als Schutzpanzer.</p>
-        <p class="vb-intro"><strong>f) Kein Wachstum, keine Integration:</strong>
-        Der Wachstumspunkt der Eins ist die Sieben – Leichtigkeit,
-        Kreativit\xe4t, die F\xe4higkeit, das Leben zu genie\xdfen.
-        Bei Tschikatilo gab es diesen Weg nicht. Keine Kunst,
-        kein Spiel, kein Humor, kein einziger kreativer Kanal
-        f\xfcr die aufgestaute Energie. Der Gegenpunkt der Eins
-        ist die Vier: tiefes Leid, Gef\xfchl der fundamentalen
-        Andersartigkeit, Scham. Tschikatilo lebte dauerhaft
-        in der Vier-Desintegration – ohne je den Weg zur Sieben
-        zu finden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP1 – "Worry / Anxiety":</strong>
+Claudio Naranjo called the Self-Preservation One "Worry" or "Anxiety": it is the subtype most fixated on material security and physical survival among all Ones. Chikatilo experienced existential hunger, cold, and loss in childhood. From this, SP1 develops a chronic vigilance toward threat and a compulsive control over its own life—as protection against the return of the original trauma.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing as Perfect Camouflage:</strong>
+In Chikatilo's case, the Nine-wing was not a mitigating force—it was a weapon. The Nine erases itself from the consciousness of others: it radiates no threat, no demand, no intensity. This enabled Chikatilo to spend twelve years committing undetected murders in the midst of a totalitarian society that monitored everyone—because he simply did not look like a suspect.</p>
+        <p class="vb-intro"><strong>c) Sexual Shame as Type One Core:</strong>
+Type One tolerates no inner imperfection. Chikatilo's impotence was a daily renewed confrontation with what he considered a fundamental flaw. The resulting anger was initially directed at himself—like in a healthy One who criticizes oneself—and eventually shifted outward onto victims he defined as weak and worthless.</p>
+        <p class="vb-intro"><strong>d) Moral Re-attribution as a Type One Mechanism:</strong>
+Type One must be able to internally agree with its actions. Chikatilo resolved this problem through ideological framing: his victims were "socially inferior," their elimination a service to society. This mechanism—the moral re-attribution of an act into a fulfillment of duty—is a classic Type One pattern in an extreme case.</p>
+        <p class="vb-intro"><strong>e) The Failure of All Institutions:</strong>
+During his active period, Chikatilo was provisionally detained twice—and released both times because the Soviet system could not believe that a party member and family man was a serial killer. His middle-class facade protected him institutionally. This is SP1w9 as a systemic malfunction: the image of correctness as protective armor.</p>
+        <p class="vb-intro"><strong>f) No Growth, No Integration:</strong>
+The growth point of Type One is Type Seven—lightness, creativity, the ability to enjoy life. For Chikatilo, this path did not exist. No art, no play, no humor, not a single creative channel for the accumulated energy. The stress point of Type One is Type Four: deep suffering, a sense of fundamental defectiveness, shame. Chikatilo lived permanently in Four-disintegration—without ever finding the path to Seven.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -21869,7 +21725,7 @@ function andreiTschikatiloPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Andrei Tschikatilo wurde 1992 in 52 Fällen des Mordes schuldig gesprochen und 1994 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Andrei Chikatilo was found guilty of 52 counts of murder in 1992 and executed in 1994. The Enneagram explains; it does not justify.
         </p>
       </div>
 
