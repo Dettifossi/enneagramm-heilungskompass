@@ -10218,17 +10218,41 @@ function heilungswegPage() {
 }
 
 function kindlicheTemperamentePage() {
+  const TEMPS = [
+    { dim:"1. Rhythmicity / Regularity", desc:"A wish for regularity, evenness, order, structure, rhythm, orientation, and repetition; fear of overly rapid change &ndash; converted (repurposed) gut energy.", nr:1, passion:"Anger", motto:"Always impeccable & seeking perfection and completeness!" },
+    { dim:"2. Approval / Withdrawal in Relationship", desc:"Periods of positive reaction to new stimuli with an open, warm attitude alternate with periods of negative reaction and withdrawal &ndash; excessive (active, direct) heart energy.", nr:2, passion:"Pride", motto:"Always generous, always loving & seeking love and being loved!" },
+    { dim:"3. High Activity Level", desc:"A high level of motor activity in the child, unable to sit still, showing markedly more activity than any other child in the study &ndash; blocked (congealed, rigid) heart energy.", nr:3, passion:"Vanity", motto:"Always competent & seeking success and achievement!" },
+    { dim:"4. Labile Quality of Mood", desc:"A high degree of emotional behavior, with the small child expressing the widest range of emotions (positive/negative) &ndash; rapidly shifting mood, moodiness &ndash; converted (repurposed) heart energy.", nr:4, passion:"Envy", motto:"Always authentic, always deep & seeking individuality and distinctiveness!" },
+    { dim:"5. Low Threshold of Responsiveness", desc:"It doesn&rsquo;t take much to stimulate the child, as if it had very thin skin, overly sensitive to this world, quick emotional withdrawal &ndash; excessive (active, direct) head energy.", nr:5, passion:"Avarice", motto:"Always objective & seeking knowledge and wisdom!" },
+    { dim:"6. Attention Span / Persistence", desc:"The ability to maintain concentration and stay alert to what might happen, a stance of vigilance, discipline of the mind &ndash; blocked (congealed, rigid) head energy.", nr:6, passion:"Fear", motto:"Always courageous & seeking security and trust!" },
+    { dim:"7. Distractibility", desc:"The child&rsquo;s reaction to outside influences that constantly and suddenly shift the direction of attention and behavior &ndash; converted (repurposed) head energy.", nr:7, passion:"Gluttony", motto:"Always optimistic & seeking joy of life, lightness, and happiness!" },
+    { dim:"8. Intensity of Response / Reaction", desc:"A high energy level in reactions to stimuli, regardless of their quality or direction &ndash; excessive (active, direct) gut energy.", nr:8, passion:"Lust", motto:"Always strong & seeking power, strength, and control!" },
+    { dim:"9. Adaptability", desc:"The ease of adapting specifically to stimuli from the environment, up to a merging within an osmotic personality process &ndash; blocked (congealed, rigid) gut energy.", nr:9, passion:"Sloth", motto:"Always calm & seeking harmony and peace!" },
+  ];
+  const cardsHtml = TEMPS.map(t => `
+    <div style="margin-bottom:.9rem;padding:.8rem 1.05rem;background:var(--paper);border-left:3px solid var(--copper);border-radius:0 8px 8px 0;">
+      <p style="margin:0 0 .3rem;font-weight:700;color:var(--copper);">${t.dim} &rarr; Type ${t.nr} (${t.passion})</p>
+      <p style="margin:0 0 .3rem;font-size:.88rem;line-height:1.6;">${t.desc}</p>
+      <p style="margin:0;font-size:.85rem;font-style:italic;color:var(--muted);">${t.motto}</p>
+    </div>
+  `).join("");
+
   return shell(`
     ${pageHeader("kindliche-temperamente")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Developmental Psychology</p>
-      <h1>Die neun kindlichen Temperamente</h1>
+      <h1>The Nine Childhood Temperaments</h1>
       <p class="lead-small">The Chess & Thomas study (New York Longitudinal Study, from 1956 onwards) investigated childhood temperaments from birth independently of the Enneagram. It shows that these fundamental dispositions are innate and are reflected in the nine Enneagram types.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/kindliche-temperamente/temperamente.jpg"
-             alt="Die neun kindlichen Temperamente nach Chess"
+             alt="The nine childhood temperaments according to Chess & Thomas"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:1.5rem auto 0;">
+        ${cardsHtml}
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.6;margin-top:1rem;">A scientific study by Alexander Thomas (1914&ndash;2003), Stella Chess (1914&ndash;2007), and Herbert G. Birch, published in 1970, documented the innate temperament of infants and young children over a 14-year study of 141 children from 85 families. The authors identified 9 temperaments as innate personality styles &ndash; and these correspond, interestingly, directly to the 9 Enneagram types. At the time, the authors were scientists in (child) psychiatry and pediatrics at New York University School of Medicine (Thomas/Chess) and Albert Einstein College of Medicine New York (Birch), and had no knowledge of the Enneagram or its 9 types.</p>
+      </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "How innate temperament and Enneagram type intertwine from birth &ndash; and what that means for our deepest imprints.", "Der Code deiner Persönlichkeit")}
       ${relatedLinks([
         {route:"kindheitsperspektiven", label:"Childhood Perspectives"},
         {route:"kindheit", label:"Childhood"},
