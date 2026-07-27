@@ -30091,190 +30091,66 @@ function joelRifkinPortraitPage() {
         </div>
         <p class="krim-portrait-name">Joel Rifkin</p>
         <p class="krim-portrait-typ">SX5w6 · Sexual Type 5 with Six-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Long Island / New York City 1989–1993 · 17 Morde</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Long Island / New York City 1989–1993 · 17 Murders</p>
       </div>
       <p class="psycho-intro">
-        <strong>Joel David Rifkin</strong>, geboren am 20. Januar 1959
-        in East Meadow, Long Island, New York,
-        ist ein US-amerikanischer Serienmörder,
-        dem <strong>17 Morde</strong> an Prostituierten nachgewiesen werden –
-        neun wurden vor Gericht bewiesen, acht weitere gestand er,
-        ohne dass ausreichende Beweise für eine Verurteilung vorlagen.
-        Seine Opfer suchte er in den Straßenprostitutionsmilieus
-        von Manhattan und Brooklyn auf;
-        er selbst lebte im stillen Vorort East Meadow auf Long Island,
-        wo er mit seiner Mutter das Elternhaus teilte.
-        Verhaftet wurde er am 28. Juni 1993, als Streifenpolizisten
-        seinen Pickup-Truck wegen eines fehlenden Nummernschilds anhielten
-        und im Laderaum die Leiche seiner letzten Opfer fanden.
-        Er verbüßt heute mehrere lebenslange Freiheitsstrafen ohne Bewährungsmöglichkeit.
-        Das Enneagramm macht sichtbar, wie ein Mann,
-        der in sozialer Isolation lebte und intensiven Contact nicht ertrug,
-        sich Intimität auf die einzige Weise verschaffte, die er kannte: durch Kontrolle und Auslöschung.
+        Joel David Rifkin, born on January 20, 1959, in East Meadow, Long Island, New York, is an American serial killer linked to 17 murders of sex workers—nine were proven in court, and eight more he confessed to without sufficient evidence for a conviction. He sought his victims in the street prostitution environments of Manhattan and Brooklyn; he himself lived in the quiet suburb of East Meadow on Long Island, where he shared his childhood home with his mother. He was arrested on June 28, 1993, when state troopers pulled over his pickup truck due to a missing license plate and discovered the body of his final victim in the truck bed. He is currently serving multiple life sentences without the possibility of parole. The Enneagram makes visible how a man who lived in social isolation and could not endure intense contact sought intimacy in the only way he knew: through control and erasure.
       </p>
 
       <div class="vb-section" style="background:rgba(40,40,80,0.06);border-left:3px solid #282850;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Joel Rifkin</strong> wird dem <strong>Sexuellen Typ 5 with Six-wing</strong> zugeordnet.
-        Die sexuelle Fünf ist die intensivste und paradoxeste Ausprägung des Typ 5:
-        Sie sucht tiefe, vollständige Verbindung mit einem Menschen oder einem Thema –
-        und zieht sich gleichzeitig zurück, wenn diese Verbindung zu nah zu werden droht.
-        Der Six-wing verstärkt Wachsamkeit, Misstrauen und Kontrollbedürfnis:
-        Wer kann wirklich vertraut werden? Wer könnte mich verraten?
-        Rifkins Muster – das Aufsuchen von Prostituierten, die käufliche Kontrolle über Nähe,
-        die Vernichtung danach – ist die dunkelste Verkörperung dieser Dynamik:
-        Intimität nur unter vollständig kontrollierten Bedingungen,
-        die Elimination jeder Möglichkeit von Gegenseitigkeit oder Abhängigkeit.
-        Der Stresspunkt liegt bei der <strong>Sieben</strong>:
-        hektische Ablenkung, Flucht ins Diffuse, innere Unruhe.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong>
+Joel Rifkin is categorized as a Sexual Type 5 with a Six-wing. The Sexual Five is the most intense and paradoxical expression of Type 5: it seeks deep, complete connection with a person or a subject—and simultaneously withdraws when that connection threatens to become too close. The Six-wing heightens vigilance, mistrust, and the need for control: Who can truly be trusted? Who might betray me? Rifkin's pattern—soliciting sex workers, purchasing transactional control over closeness, and the destruction that followed—is the darkest embodiment of this dynamic: intimacy only under completely controlled conditions, eliminating any possibility of reciprocity or dependence. The stress point lies at Type 7: frantic distraction, escape into the vague, and inner restlessness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Igel</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Hedgehog</h3>
         <p class="vb-intro">
-        Der <strong>Igel</strong> ist die Animal correspondence der sexuellen Fünf.
-        Er ist ein Tier, das sich nach innen kehrt, wenn es bedroht wird –
-        die Stacheln schützen eine tiefe, verletzliche Innerlichkeit.
-        Der Igel ist nachtaktiv, lebt in Rückzug und tritt selten in Erscheinung;
-        wenn er in die Welt hinaustritt, dann meist unbeobachtet, am Rand.
-        Die sexuelle Fünf trägt dieselbe Struktur:
-        eine intensive innere Welt, ein starkes Verlangen nach tiefer Verbindung –
-        und Stacheln, die jeden abhalten, der zu nah kommt.
-        Rifkin lebte buchstäblich als Igel:
-        unauffällig im Vorort, sozial unsichtbar, nach außen harmlos –
-        und nachtaktiv auf der Search nach dem, was er am Tag nicht finden konnte.
+        The hedgehog is the animal correspondence of the Sexual Five. It is an animal that turns inward when threatened—its quills protecting a deep, vulnerable inner world. The hedgehog is nocturnal, lives in withdrawal, and rarely makes an appearance; when it steps out into the world, it is usually unnoticed, along the margins. The Sexual Five carries the same structure: an intense inner world, a strong longing for deep connection—and quills that keep anyone at bay who gets too close. Rifkin lived literally as a hedgehog: inconspicuous in the suburbs, socially invisible, outwardly harmless—and active at night in search of what he could not find during the day.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Fünf: Intensität unter Kontrolle</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sexuellen Fünf:</strong>
-        Die sexuelle Fünf – in der Enneagramm-Tradition auch als <em>„Zutrauen"</em>
-        oder <em>„Konfianz"</em> bezeichnet –
-        ist die Fünf, die sich nach vollständiger, exklusiver Verbindung sehnt.
-        Anders als die selbsterhaltende Fünf, die primär Rückzug und Ressourcensicherung betreibt,
-        oder die soziale Fünf, die sich über Wissen und Kompetenz definiert,
-        sucht die sexuelle Fünf die eine totale Verbindung – auf ihren eigenen Bedingungen.
-        Sie will nicht beobachtet werden, sondern beobachten.
-        Sie will nicht abhängig sein, sondern die Bedingungen der Nähe kontrollieren.
-        Bei Rifkin realisierte sich dieses Muster durch die käufliche Interaktion:
-        Prostituierte boten eine Form von Nähe, bei der er die Bedingungen vollständig definierte –
-        kein Risiko der Ablehnung, keine unkontrollierte Gegenseitigkeit.</p>
-        <p class="vb-intro"><strong>b) Der Six-wing: Angst als Motor:</strong>
-        Der Six-wing verstärkt die ohnehin hohe Wachsamkeit der Fünf
-        durch eine grundlegende Angst: vor Verrat, vor Kontrollverlust, vor dem Unvorhersehbaren.
-        Die Sechs ist der Typ, der Szenarien durchspielt: Was könnte schiefgehen?
-        Wer könnte mich entlarven?
-        Bei Rifkin zeigte sich dieser Flügel in der akkuraten Methodik seiner Taten
-        und der systematischen Spurenbeseitigung:
-        Er war kein impulsiver Täter, sondern ein berechnender –
-        getrieben von der Angst vor Entdeckung und dem Bedürfnis, Kontrolle zu behalten.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Geiz als Einbehaltung:</strong>
-        Die Leidenschaft der Fünf ist der <strong>Geiz</strong> –
-        nicht im materiellen Sinne, sondern als Einbehaltung:
-        des Wissens, der Energie, der eigenen Person.
-        Die Fünf gibt nicht von sich. Sie nimmt auf und behält.
-        Sie teilt nicht, weil Teilen Verlust bedeutet.
-        Bei Rifkin zeigte sich dieser Geiz als radikale Weigerung, echte Verletzlichkeit zuzulassen –
-        und als Kompensation durch die Kontrolle über andere,
-        die er sich nicht verweigern konnten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Five: Intensity Under Control</h3>
+        <p class="vb-intro"><strong>a) The Core Pattern of the Sexual Five:</strong>
+The Sexual Five—also referred to in Enneagram tradition as "Confidence" or "Trust"—is the Five that longs for complete, exclusive connection. Unlike the Self-Preservation Five, which primarily engages in withdrawal and resource preservation, or the Social Five, which defines itself through knowledge and competence, the Sexual Five seeks the one total connection—on its own terms. It does not want to be observed, but to observe. It does not want to be dependent, but to control the terms of proximity. In Rifkin, this pattern materialized through transactional interactions: sex workers offered a form of proximity in which he defined the conditions entirely—no risk of rejection, no uncontrolled reciprocity.</p>
+        <p class="vb-intro"><strong>b) The Six-Wing: Fear as the Engine:</strong>
+The Six-wing amplifies the Five's already heightened vigilance with a fundamental fear: fear of betrayal, fear of losing control, fear of the unpredictable. Six is the type that runs through scenarios: What could go wrong? Who might expose me? In Rifkin, this wing was evident in the meticulous methodology of his crimes and the systematic destruction of evidence: he was not an impulsive perpetrator, but a calculating one—driven by the fear of detection and the need to maintain control.</p>
+        <p class="vb-intro"><strong>c) The Passion: Avarice as Retaining:</strong>
+The passion of Type 5 is Avarice—not in a financial sense, but as a holding back: of knowledge, of energy, of oneself. The Five does not give of itself. It absorbs and retains. It does not share, because sharing implies loss. In Rifkin, this avarice manifested as a radical refusal to allow genuine vulnerability—and as compensation through control over others who could not refuse him.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 17 Morde zwischen Long Island und New York City</h3>
-        <p class="vb-intro"><strong>a) Kindheit und Herkunft:</strong>
-        Joel Rifkin wurde 1959 als uneheliches Kind geboren und kurz nach der Geburt adoptiert.
-        Seine Adoptiveltern, Ben und Jeanne Rifkin, gaben ihm ein stabiles bürgerliches Zuhause
-        in East Meadow, Long Island.
-        Sein Adoptivvater starb 1987 an Krebs – eine tiefe Erschütterung für Rifkin.
-        In der Schule war er ausgegrenztes Opfer jahrelangen Mobbings:
-        unbeholfen, sozial isoliert, kein Zugang zu Gleichaltrigen.
-        Er berichtete später, er sei in der Schule als „Trottel" abgestempelt worden.
-        Diese frühe, anhaltende Erfahrung sozialer Ablehnung formte das Muster,
-        das die sexuelle Fünf in ihrer destruktiven Ausprägung kennzeichnet:
-        Intimität ist gefährlich; nur kontrollierter Contact ist sicher.</p>
-        <p class="vb-intro"><strong>b) Der erste Mord und die Eskalation:</strong>
-        Rifkins erstes Opfer war nach eigenen Angaben
-        <strong>Susie Ellison</strong>, eine Prostituierte,
-        die er im Sommer 1989 in Manhattan aufgriff.
-        Er brachte sie nach East Meadow, tötete sie dort und entsorgte die Leiche.
-        Die Jahre 1989 bis 1993 wurden zu einer langen, beschleunigten Mordserie.
-        Er suchte seine Opfer ausnahmslos unter Straßenprostituierten
-        in Manhattan – vor allem in Hell's Kitchen – und in Brooklyn auf.
-        Er bezahlte für Sex, tötete danach und transportierte die Leichen
-        in seinem Pickup-Truck nach Long Island, wo er sie in Gewässern,
-        unter Schutt oder in anderen abgelegenen Orten entsorgte.
-        Einige Leichen wurden in Plastikfässer gefüllt und in Flüsse oder
-        die New Yorker Bucht geworfen; andere wurden nie gefunden.
-        Die meisten Opfer blieben jahrelang unidentifiziert –
-        Frauen, deren Verschwinden in den frühen 1990er Jahren
-        im Milieu kaum registriert wurde.</p>
-        <p class="vb-intro"><strong>c) Die Opfer:</strong>
-        Neun Morde wurden vor Gericht bewiesen.
-        Zu den identifizierten Opfern gehören:
-        <strong>Susie Ellison</strong>, <strong>Julie Blackbird</strong>,
-        <strong>Mary Ellen DeLuca</strong>, <strong>Iris Sanchez</strong>,
-        <strong>Anna Lopez</strong>, <strong>Mary Catherine Williams</strong>,
-        <strong>Leah Evens</strong>, <strong>Jenny Soto</strong>
-        und <strong>Tiffany Bresciani</strong>, deren Leiche zu seiner Verhaftung führte.
-        Insgesamt gestand Rifkin 17 Morde; die Gesamtzahl konnte wegen
-        mangelnder Beweise oder nicht aufgefundener Leichen nicht vollständig bewiesen werden.
-        Fast alle Opfer waren Prostituierte – Frauen, die am Rand der Gesellschaft lebten
-        und deren Verschwinden zunächst kaum Aufmerksamkeit erzeugte.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (28. Juni 1993):</strong>
-        Rifkin wurde nicht durch intensive Ermittlungsarbeit gefasst,
-        sondern durch einen Zufall.
-        Streifenpolizisten stoppten seinen Pickup-Truck auf dem Long Island Expressway –
-        das hintere Nummernschild fehlte.
-        Als die Beamten das Fahrzeug kontrollierten, bemerkten sie einen intensiven Geruch
-        und entdeckten im Laderaum die eingewickelte Leiche von Tiffany Bresciani.
-        Rifkin versuchte zunächst zu fliehen, wurde aber nach kurzer Verfolgungsjagd gestellt.
-        Er wurde verhaftet und gestand in den folgenden Verhören alle 17 Morde.
-        Er wirkte dabei sachlich und kontrolliert –
-        die Haltung eines SX5w6, der selbst in der Auflösung
-        die innere Distanz nicht vollständig verliert.</p>
-        <p class="vb-intro"><strong>e) Prozess und Urteil:</strong>
-        Rifkin wurde 1994 in neun Fällen des Mordes ersten Grades schuldig gesprochen.
-        Das Strafmaß: <strong>203 Jahre Haft</strong> ohne Möglichkeit der Bewährung.
-        Er sitzt heute im Clinton Correctional Facility in Dannemora, New York,
-        und wurde mehrfach für Bewährung abgelehnt.
-        In Anhörungen beschrieb er sein Handeln als Ausdruck eines inneren Zwangs,
-        für den er keine frühere Sprache hatte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 17 Murders Between Long Island and New York City</h3>
+        <p class="vb-intro"><strong>a) Childhood and Origins:</strong>
+Joel Rifkin was born out of wedlock in 1959 and adopted shortly after birth. His adoptive parents, Ben and Jeanne Rifkin, provided him with a stable middle-class home in East Meadow, Long Island. His adoptive father died of cancer in 1987—a profound disruption for Rifkin. In school, he was the target of years of severe bullying: awkward, socially isolated, unable to connect with peers. He later reported being labeled a "dunce" in school. This early, persistent experience of social rejection shaped the pattern that characterizes the Sexual Five in its destructive form: intimacy is dangerous; only controlled contact is safe.</p>
+        <p class="vb-intro"><strong>b) The First Murder and Escalation:</strong>
+Rifkin's first victim, by his own account, was Susie Ellison, a sex worker he picked up in Manhattan in the summer of 1989. He took her to East Meadow, killed her there, and disposed of her body. The years 1989 to 1993 became a long, accelerating murder spree. He sought his victims exclusively among street sex workers in Manhattan—especially in Hell's Kitchen—and in Brooklyn. He paid for sex, killed afterward, and transported the bodies in his pickup truck to Long Island, where he disposed of them in waterways, beneath rubble, or in other remote locations. Some bodies were placed in plastic drums and dumped into rivers or New York Bay; others were never found. Most of the victims remained unidentified for years—women whose disappearances were barely registered in that environment during the early 1990s.</p>
+        <p class="vb-intro"><strong>c) The Victims:</strong>
+Nine murders were proven in court. Identified victims include: Susie Ellison, Julie Blackbird, Mary Ellen DeLuca, Iris Sanchez, Anna Lopez, Mary Catherine Williams, Leah Evens, Jenny Soto, and Tiffany Bresciani, whose body led to his arrest. In total, Rifkin confessed to 17 murders; the total count could not be fully proven due to lack of evidence or unrecovered bodies. Almost all victims were sex workers—women living on the margins of society whose disappearances initially drew little attention.</p>
+        <p class="vb-intro"><strong>d) The Arrest (June 28, 1993):</strong>
+Rifkin was not caught through intensive investigative work, but by chance. State troopers stopped his pickup truck on the Long Island Expressway because it was missing a rear license plate. As officers inspected the vehicle, they noticed a foul odor and discovered the wrapped body of Tiffany Bresciani in the truck bed. Rifkin briefly attempted to flee but was apprehended after a short chase. He was arrested and confessed to all 17 murders during subsequent interrogations. He appeared matter-of-fact and controlled—the demeanor of an SX5w6 who, even in the midst of collapse, never completely loses inner distance.</p>
+        <p class="vb-intro"><strong>e) Trial and Verdict:</strong>
+In 1994, Rifkin was found guilty on nine counts of first-degree murder. His sentence: 203 years in prison without the possibility of parole. He is currently incarcerated at Clinton Correctional Facility in Dannemora, New York, and has been repeatedly denied parole. In hearings, he described his actions as the expression of an inner compulsion for which he previously had no language.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Joel Rifkin ist der Sexual Type 5 in seiner dunkelsten Ausprägung:
-        ein Mann, der das Verlangen nach tiefer Verbindung so tief hinter Stacheln begraben hatte,
-        dass er Intimität nur als kontrolliertes, letztlich vernichtendes Ereignis
-        erleben konnte.
-        Der Igel, der nachts herauskommt und in die Dunkelheit einer anderen Stadt fährt –
-        nicht weil er böse ist, sondern weil er keine Sprache für das hat,
-        was er braucht.
-        Was Rifkin von Tätern wie Dahmer unterscheidet:
-        Er hatte kein rituelles oder kannibalisches Element.
-        Es war kein Verschmelzungswunsch – es war ein Kontrollbedürfnis.
-        Die sexuelle Fünf will nicht eins werden mit dem anderen.
-        Sie will den Moment, in dem der andere vollständig in ihrer Sphäre ist –
-        und die Sicherheit, dass er sie danach nicht mehr berühren kann.
-        Der Six-wing sorgte dafür, dass er über vier Jahre lang
-        nicht gefasst wurde: zu sorgfältig, zu unsichtbar, zu kontrolliert.
-        Am Ende stoppte ihn ein fehlendes Nummernschild.
+        Joel Rifkin is the Sexual Type 5 in its darkest form: a man who had buried the desire for deep connection so far behind quills that he could experience intimacy only as a controlled, ultimately destructive event. The hedgehog that comes out at night and drives into the darkness of another city—not because he is evil, but because he has no language for what he needs. What distinguishes Rifkin from perpetrators like Dahmer: he had no ritualistic or cannibalistic element. It was not a desire for fusion—it was a need for control. The Sexual Five does not want to become one with the other. It wants the moment when the other is completely within its sphere—and the certainty that they can no longer touch it afterward. The Six-wing ensured that he went uncaught for over four years: too careful, too invisible, too controlled. In the end, he was stopped by a missing license plate.
         </p>
       </div>
 
       <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Classification</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Joel David Rifkin</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 20. Januar 1959, East Meadow, Long Island, New York</p>
-          <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Verbüßt 203 Jahre Haft ohne Bewährungsmöglichkeit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SX5w6 – Sexual Type 5 with Six-wing</p>
-          <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Igel</p>
-          <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 17 Morde gestanden (9 vor Gericht bewiesen), 1989–1993</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Geiz</p>
-          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 7</p>
+          <p style="margin:0 0 0.3rem;"><strong>Born:</strong> January 20, 1959, East Meadow, Long Island, New York</p>
+          <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Serving 203 years without the possibility of parole</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagram Type:</strong> SX5w6 – Sexual Type 5 with Six-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Animal Correspondence:</strong> Hedgehog</p>
+          <p style="margin:0 0 0.3rem;"><strong>Victims:</strong> Confessed to 17 murders (9 proven in court), 1989–1993</p>
+          <p style="margin:0 0 0.3rem;"><strong>Passion:</strong> Avarice</p>
+          <p style="margin:0;"><strong>Stress Point:</strong> Type 7</p>
         </div>
       </div>
 
@@ -30283,12 +30159,12 @@ function joelRifkinPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug als Schutz und der Heilungsweg über echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Joel Rifkin wurde 1994 in neun Fällen des Mordes schuldig gesprochen und verbüßt mehrfache lebenslange Haftstrafen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Joel Rifkin was convicted in 1994 on nine counts of murder and is serving multiple life sentences. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – Milwaukee-Kannibale"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – Milwaukee Cannibal"},
         {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6)"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"}
       ])}
