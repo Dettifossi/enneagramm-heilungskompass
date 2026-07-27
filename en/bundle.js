@@ -30773,187 +30773,100 @@ function jeffreyDahmerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jeffrey Dahmer</p>
         <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Milwaukee-Kannibale" · Animal correspondence: Igel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">American Serial Killer, "Milwaukee Cannibal" · Animal correspondence: Hedgehog</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Jeffrey Dahmer</strong> (1960–1994) – bekannt als der „Milwaukee-Kannibale" – ermordete zwischen
-        1978 und 1991 insgesamt 17 junge M\xe4nner. Seine Verbrechen umfassten nicht nur Mord,
-        sondern auch Verst\xfcmmelung, Nekrophilie und Kannibalismus. Er wurde 1992 zu 15-facher
-        lebenslanger Haftstrafe verurteilt und 1994 im Gef\xe4ngnis von einem Mitinsassen get\xf6tet.
-        Was Dahmer von anderen Serial Killern unterscheidet: Er wollte seine Opfer nicht
-        vernichten – er wollte sie besitzen. Das Enneagramm macht diesen Unterschied lesbar.
+        Jeffrey Dahmer (1960–1994)—known as the "Milwaukee Cannibal"—murdered a total of 17 young men between 1978 and 1991. His crimes encompassed not only murder, but also dismemberment, necrophilia, and cannibalism. He was sentenced to 15 consecutive life terms in 1992 and was killed in prison by a fellow inmate in 1994. What distinguishes Dahmer from other serial killers: He did not want to destroy his victims—he wanted to possess them. The Enneagram makes this distinction legible.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jeffrey Dahmer</strong> wird der <strong>Sexuellen F\xfcnf mit Viererfl\xfcgel</strong> im Enneagramm
-        zugeordnet. Die Leidenschaft der F\xfcnf ist <em>Geiz</em> (Avarice) – nicht im materiellen
-        Sinne, sondern als Zur\xfcckhalten von Energie, Contact und Pr\xe4senz. Beim sexuellen Subtype
-        kollidiert dieser R\xfcckzugsdrang mit einem tiefen Bed\xfcrfnis nach intensiver Zweisamkeit.
-        Claudio Naranjo nannte die sexuelle F\xfcnf „Confidence":
-        Sie sucht vollst\xe4ndige Kenntnis und Besitz des anderen. Der Viererfl\xfcgel erg\xe4nzt dies
-        mit Sehnsucht, Melancholie und dem Gef\xfchl, fundamental anders und gebrochen zu sein.
-        In seiner pathologischsten Auspr\xe4gung f\xfchrt diese Kombination zu dem, was Dahmer wurde:
-        ein Mensch, der N\xe4he nur durch vollst\xe4ndige und permanente Vereinnahmung f\xfcr m\xf6glich
-        hielt.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong>
+Jeffrey Dahmer is assigned to the Sexual Type 5 with a Four-wing in the Enneagram. The passion of Type 5 is Avarice—not in a financial sense, but as a withholding of energy, contact, and presence. In the sexual subtype, this urge to withdraw collides with a deep need for intense one-on-one intimacy. Claudio Naranjo called the Sexual Five "Confidence": seeking complete knowledge and possession of the other. The Four-wing complements this with longing, melancholy, and the feeling of being fundamentally different and broken. In its most pathological expression, this combination leads to what Dahmer became: a person who believed intimacy was only possible through complete and permanent takeover.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Leer und distanziert:</strong>
-        Dahmers Blick wurde oft als leer und emotionslos beschrieben – ein Spiegel innerer
-        Isolation. Dieser Augenausdruck spiegelt die mentale Distanz wider, die er zwischen
-        sich und den Grausamkeiten aufrechterhielt, die er beging.</p>
-        <p class="vb-intro"><strong>b) Kalt und analytisch:</strong>
-        Wenn er \xfcber seine Verbrechen sprach, hatte er einen k\xfchl-wissenschaftlichen Blick –
-        eine n\xfcchterne Analyse des eigenen Handelns. Die F\xfcnf betrachtet auch das Schrecklichste
-        als Gegenstand der Untersuchung, nicht der F\xfchlung.</p>
-        <p class="vb-intro"><strong>c) Fl\xfcchtig und unruhig:</strong>
-        In stressreichen Momenten zeigte sich Unruhe – als w\xe4re er st\xe4ndig in einem inneren
-        Konflikt zwischen Verlangen und Abscheu gefangen. Der Viererfl\xfcgel f\xfcgt der F\xfcnf
-        eine emotionale Intensit\xe4t hinzu, die sich in solchen Momenten nach au\xdfen bricht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Vacant and Detached:</strong>
+Dahmer's gaze was often described as vacant and emotionless—a mirror of inner isolation. This eye expression reflects the mental distance he maintained between himself and the atrocities he committed.</p>
+        <p class="vb-intro"><strong>b) Cold and Analytical:</strong>
+When he spoke about his crimes, he had a coolly scientific gaze—a matter-of-fact analysis of his own actions. Type 5 views even the most horrific acts as an object of investigation, not of feeling.</p>
+        <p class="vb-intro"><strong>c) Fleeting and Restless:</strong>
+In high-stress moments, restlessness emerged—as if he were constantly trapped in an inner conflict between desire and disgust. The Four-wing adds an emotional intensity to Type 5 that breaks outward in such moments.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Introvertiert und zur\xfcckgezogen:</strong>
-        <strong>Dahmer</strong> war stark introvertiert und mied Aufmerksamkeit. Er hatte Schwierigkeiten in
-        sozialen Situationen und zog sich oft in seine eigene Welt zur\xfcck – das klassische
-        F\xfcnfer-Muster: Energie sparen, Contact dosieren, Grenzen halten.</p>
-        <p class="vb-intro"><strong>b) Faszination mit Kontrolle:</strong>
-        Ein zentrales Merkmal war seine obsessive Kontrolle \xfcber die Opfer. Er manipulierte sie
-        und brachte ihr Leben vollst\xe4ndig unter seine Kontrolle. F\xfcr die sexuelle F\xfcnf ist
-        vollst\xe4ndige Kenntnis und vollst\xe4ndiger Besitz das eigentliche Ziel – Kontrolle als
-        Ersatz f\xfcr Verbindung.</p>
-        <p class="vb-intro"><strong>c) Tiefes Bed\xfcrfnis nach Intimität:</strong>
-        <strong>Dahmer</strong> sehnte sich nach N\xe4he, wusste aber nicht, wie er gesunde Relationships aufbauen
-        konnte. Das sexuelle Instinktzentrum dr\xe4ngt zur Verbindung – der F\xfcnfer-Grundtypus
-        zieht sich gleichzeitig zur\xfcck. Diese unlösbare Ambivalenz zwischen N\xe4he und Distanz
-        ist das Kernthema der sexuellen F\xfcnf. Bei Dahmer f\xfchrte sie in eine jahrzehntelange
-        Spirale der Bewusstlosigkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Introverted and Withdrawn:</strong>
+Dahmer was deeply introverted and avoided attention. He struggled in social situations and often withdrew into his own world—the classic Type 5 pattern: conserve energy, dole out contact in small doses, maintain boundaries.</p>
+        <p class="vb-intro"><strong>b) Fascination with Control:</strong>
+A central characteristic was his obsessive control over his victims. He manipulated them and brought their lives entirely under his control. For the Sexual Five, complete knowledge and total possession are the true goal—control as a substitute for connection.</p>
+        <p class="vb-intro"><strong>c) Deep Need for Intimacy:</strong>
+Dahmer longed for closeness, but did not know how to build healthy relationships. The sexual instinctual drive pushes toward connection—while the core Type 5 simultaneously pulls back. This unsolvable ambivalence between closeness and distance is the core theme of the Sexual Five. In Dahmer's case, it led into a decades-long spiral of unconsciousness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Isolation und R\xfcckzug:</strong>
-        Wie viele F\xfcnfer suchte Dahmer Isolation und mied intensiven Contact. Diese Tendenz
-        liess ihn tiefer und tiefer in dunkle Phantasien verfallen, aus denen kein \xe4u\xdferer
-        Anker ihn herausholte.</p>
-        <p class="vb-intro"><strong>b) Selbstkontrolle und emotionale Distanziertheit:</strong>
-        <strong>Dahmer</strong> konnte Emotionen weitgehend unterdr\xfccken. Diese F\xe4higkeit erlaubte es ihm,
-        seine Verbrechen mit erschreckender Kaltbl\xfctigkeit auszuf\xfchren – die F\xfcnf
-        kann sich vom eigenen emotionalen Erleben trennen wie kein anderer Typ.</p>
-        <p class="vb-intro"><strong>c) Faszination f\xfcr das Verborgene:</strong>
-        <strong>Dahmer</strong> zeigte eine deutliche Neigung zu dunklen, verbotenen Themen. Diese dunkle
-        Neugier ist eine verzerrte Version des intellektuellen Strebens der F\xfcnf:
-        die Wahrheit hinter der Oberfl\xe4che zu entdecken – hier: hinter dem Leben selbst.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Core Traits</h3>
+        <p class="vb-intro"><strong>a) Isolation and Withdrawal:</strong>
+Like many Fives, Dahmer sought isolation and avoided intense contact. This tendency caused him to fall deeper and deeper into dark fantasies from which no external anchor could retrieve him.</p>
+        <p class="vb-intro"><strong>b) Self-Control and Emotional Detachment:</strong>
+Dahmer was able to suppress emotions to a vast extent. This ability allowed him to carry out his crimes with chilling cold-bloodedness—Type 5 can detach from its own emotional experience like no other type.</p>
+        <p class="vb-intro"><strong>c) Fascination with the Hidden:</strong>
+Dahmer showed a distinct inclination toward dark, forbidden topics. This dark curiosity is a distorted version of Type 5's intellectual pursuit: uncovering the truth beneath the surface—here: beneath life itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unauff\xe4llig und unscheinbar:</strong>
-        <strong>Dahmer</strong> wirkte auf seine Mitmenschen unauff\xe4llig und unbedeutend. Nachbarn und
-        Bekannte hatten kaum eine Vorstellung davon, was sich hinter seiner Fassade verbarg.
-        Die F\xfcnf ist Meisterin der Unauffälligkeit: wenig Raum beanspruchen, wenig
-        Aufsehen erregen, unsichtbar bleiben.</p>
-        <p class="vb-intro"><strong>b) Bedrohlich in seiner Stille:</strong>
-        Obwohl \xe4u\xdferlich ruhig und still, strahlte er eine unterschwellige Bedrohung aus.
-        Seine stillen Momente waren oft die gef\xe4hrlichsten – ein Hinweis auf die unterdr\xfcckten,
-        dunklen Impulse darunter.</p>
-        <p class="vb-intro"><strong>c) Zerrissen zwischen Menschlichkeit und Monstrosit\xe4t:</strong>
-        In seinen Gest\xe4ndnissen zeigte er manchmal echte Reue und Einsicht. Diese Zerrissenheit
-        ist der Viererfl\xfcgel: Typ Vier besitzt eine Kapazit\xe4t zur Selbstbetrachtung und
-        authentischem Schulderleben, die Typ F\xfcnf allein nicht h\xe4tte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Unremarkable and Inconspicuous:</strong>
+Dahmer appeared unremarkable and insignificant to those around him. Neighbors and acquaintances had hardly any idea of what was hidden behind his facade. Type 5 is a master of blending in: occupying little space, causing little stir, remaining invisible.</p>
+        <p class="vb-intro"><strong>b) Threatening in His Quietness:</strong>
+Although outwardly quiet and calm, he radiated a subtle, underlying threat. His silent moments were often the most dangerous—a hint at the suppressed, dark impulses beneath.</p>
+        <p class="vb-intro"><strong>c) Torn Between Humanity and Monstrosity:</strong>
+In his confessions, he sometimes showed genuine remorse and insight. This internal conflict stems from the Four-wing: Type 4 possesses a capacity for self-reflection and authentic experiences of guilt that Type 5 alone would not have.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Dunkle, unterdr\xfcckte Energie:</strong>
-        <strong>Dahmer</strong> hatte eine tief verborgene, dunkle Energie, getrieben von einer unbewussten
-        Sehnsucht nach Kontrolle und Dominanz. Diese Energie blieb meist verborgen, bis sie
-        in Gewalt ausbrach.</p>
-        <p class="vb-intro"><strong>b) Schwere und D\xfcsternis:</strong>
-        In seiner Gegenwart schien eine Schwere zu liegen. Diese D\xfcsternis war Spiegelbild
-        seiner inneren Qualen – der Viererfl\xfcgel der F\xfcnf tr\xe4gt eine fast k\xf6rperlich
-        wahrnehmbare Melancholie.</p>
-        <p class="vb-intro"><strong>c) Paradoxe Ruhe:</strong>
-        Trotz extremer Gewalt war Dahmer oft \xfcberraschend ruhig. Diese paradoxe Kombination
-        von Ruhe und latenter Gef\xe4hrlichkeit machte ihn besonders bedrohlich.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Dark, Suppressed Energy:</strong>
+Dahmer carried a deeply hidden, dark energy, driven by an unconscious longing for control and dominance. This energy mostly remained concealed until it erupted into violence.</p>
+        <p class="vb-intro"><strong>b) Heaviness and Gloom:</strong>
+A heavy atmosphere seemed to rest in his presence. This gloom was a reflection of his inner torment—the Four-wing of Type 5 carries an almost physically tangible melancholy.</p>
+        <p class="vb-intro"><strong>c) Paradoxical Calm:</strong>
+Despite extreme violence, Dahmer was often surprisingly calm. This paradoxical combination of quietness and latent dangerousness made him particularly threatening.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Igel</h3>
-        <p class="vb-intro"><strong>a) Verteidigung durch R\xfcckzug:</strong>
-        Wie ein Igel, der sich bei Bedrohung in sich selbst zur\xfcckzieht, zog sich auch Dahmer
-        in seine eigene Welt zur\xfcck, wenn er sich unverstanden f\xfchlte. Diese Isolation
-        verst\xe4rkte seine dunklen Neigungen.</p>
-        <p class="vb-intro"><strong>b) Stacheln au\xdfen, Verletzlichkeit innen:</strong>
-        Der Igel sch\xfctzt sich mit Stacheln, ist aber innerlich verletzlich. Dahmer zeigte
-        \xe4u\xdferlich K\xe4lte und H\xe4rte, war aber innerlich tief verletzlich und emotional
-        zerbrochen.</p>
-        <p class="vb-intro"><strong>c) Nach innen gekehrte Dunkelheit:</strong>
-        Der Igel lebt verborgen und unsichtbar. Ebenso war Dahmers Dunkelheit lange Zeit
-        verborgen, bis seine Taten ans Licht kamen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Hedgehog</h3>
+        <p class="vb-intro"><strong>a) Defense Through Withdrawal:</strong>
+Like a hedgehog that retreats into itself when threatened, Dahmer withdrew into his own world whenever he felt misunderstood. This isolation amplified his dark inclinations.</p>
+        <p class="vb-intro"><strong>b) Quills on the Outside, Vulnerability Within:</strong>
+The hedgehog protects itself with quills, but is vulnerable on the inside. Dahmer displayed outward coldness and hardness, but was internally deeply vulnerable and emotionally broken.</p>
+        <p class="vb-intro"><strong>c) Inward-Turned Darkness:</strong>
+The hedgehog lives hidden and unseen. Likewise, Dahmer's darkness remained hidden for a long time until his deeds came to light.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Jeffrey Dahmer</strong> verk\xf6rperte die dunklen Aspekte der sexuellen F\xfcnf in ihrer extremsten
-        Form. Seine introvertierte, isolierte Pers\xf6nlichkeit f\xfchrte zu einer verzerrten Search
-        nach intimer Kontrolle, die sich in unvorstellbaren Verbrechen manifestierte.
-        Wie ein Igel, der sich vor der Au\xdfenwelt zur\xfcckzieht, lebte er in einer abgeschotteten
-        inneren Welt, in der seine zerst\xf6rerischen Impulse wuchsen. Die Geschichte Dahmers
-        ist eine Warnung vor der zerst\xf6rerischen Kraft der Isolation und dem Verlust
-        menschlicher Verbindung.
+        Jeffrey Dahmer embodied the dark aspects of the Sexual Five in its most extreme form. His introverted, isolated personality led to a distorted search for intimate control that manifested in unimaginable crimes. Like a hedgehog retreating from the outside world, he lived in a walled-off inner world where his destructive impulses grew. Dahmer's story serves as a warning against the destructive power of isolation and the loss of human connection.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos sexuelle F\xfcnf – „Confidence":</strong>
-        Claudio Naranjo nannte die sexuelle F\xfcnf „Confidence": Sie sucht vollst\xe4ndige Kenntnis
-        und vollst\xe4ndigen Besitz des anderen – nicht f\xfcrsorgend wie die Zwei, sondern
-        sammelnd, katalogisierend, konservierend. Dahmers Aufbewahrung von Sch\xe4deln und
-        K\xf6rperteilen in seiner Wohnung ist diese Dynamik in ihrer grausamsten Form:
-        Er wollte seine Opfer nicht vernichten. Er wollte sie f\xfcr immer <em>behalten</em>.</p>
-        <p class="vb-intro"><strong>b) Das Zombie-Experiment – N\xe4he als totale Kontrolle:</strong>
-        <strong>Dahmer</strong> bohrte lebenden Opfern L\xf6cher in den Sch\xe4del und injizierte Salzsäure – in dem
-        Versuch, einen dauerhaft gef\xfcgigen Gef\xe4hrten zu schaffen, der ihn nie verlassen w\xfcrde.
-        Mehrere Opfer \xfcberlebten diese Prozedur kurzzeitig. Das ist das Kernmotiv der sexuellen
-        F\xfcnf in seiner pathologischsten Auspr\xe4gung: Intimität durch vollst\xe4ndige Eliminierung
-        der Freiheit des anderen. Ein Wesen, das nie weggehen kann.</p>
-        <p class="vb-intro"><strong>c) Nekrophilie als F\xfcnfer-Logik:</strong>
-        Ein Toter kann sich nicht entziehen, stellt keine Anspr\xfcche, ersch\xf6pft nicht.
-        F\xfcr die F\xfcnf, die jede Verbindung als energieraub erlebt, ist das eine paradoxe
-        „L\xf6sung": N\xe4he ohne Gegenseitigkeit. Dieser Mechanismus erkl\xe4rt, warum Nekrophilie
-        geh\xe4uft bei pathologischen F\xfcnfer-Typen auftritt – und warum er f\xfcr Dahmer nicht
-        Abschluss war, sondern Ausgangspunkt f\xfcr weitere Eskakation.</p>
-        <p class="vb-intro"><strong>d) Der Tempel-Plan – Viererfl\xfcgel-Grandiosit\xe4t:</strong>
-        <strong>Dahmer</strong> plante, aus den gesammelten Sch\xe4deln seiner Opfer einen Altar bzw. Tempel zu
-        bauen, der ihm „besondere Kräfte" verleihen sollte. Der Viererfl\xfcgel der F\xfcnf schafft
-        eine intensive Selbstmythologisierung: Selbst in der tiefsten Dunkelheit erschafft
-        die sexuelle F\xfcnf mit Viererfl\xfcgel eine einzigartige, grandiose Erzählung um sich herum.
-        Das Dunkelste wird zum besonderen Merkmal der eigenen Andersartigkeit.</p>
-        <p class="vb-intro"><strong>e) Der negative Entspannungspunkt – der Achter im Schatten:</strong>
-        Acht ist der Entspannungspunkt der F\xfcnf. Im positiven Fall bringt er der F\xfcnf
-        Durchsetzungskraft, Pr\xe4senz und Bereitschaft zur Konfrontation. Im negativen Fall –
-        im unbewussten Entspannungspunkt – kippt die zur\xfcckgezogene F\xfcnfer-Energie pl\xf6tzlich
-        in Achter-Aggressivit\xe4t: raubtierhaft, zugreifend, dominant. Dahmers Morde folgen
-        diesem Muster – auf die Achter-Energie folgte jeweils die R\xfcckkehr in die
-        F\xfcnfer-Stille, eine Pendelbewegung, die \xfcber 13 Jahre andauerte.</p>
-        <p class="vb-intro"><strong>f) Die Kooperation nach der Verhaftung:</strong>
-        Nach seiner Verhaftung gestand Dahmer alles bereitwillig und in au\xdferordentlichem
-        Detail. Er half Ermittlern aktiv bei der Rekonstruktion seiner Taten. Das ist eine
-        typische F\xfcnfer-Reaktion: endlich vollständig verstanden werden wollen.
-        Die F\xfcnf leidet darunter, dass niemand ihre innere Welt wirklich kennt –
-        die Verhöre boten Dahmer zum ersten Mal die M\xf6glichkeit, alles zu erkl\xe4ren.</p>
-        <p class="vb-intro"><strong>g) Taufe und Reue – der Viererfl\xfcgel am Ende:</strong>
-        Im Gef\xe4ngnis lie\xdf sich Dahmer 1994 taufen und zeigte nach Aussagen des Gef\xe4ngnisseelsorgers
-        echte Reue \xfcber seine Taten. Er wurde wenige Monate sp\xe4ter von einem Mitinsassen get\xf6tet.
-        Diese F\xe4higkeit zur tiefen Selbstbetrachtung, zur echten Scham und zum echten
-        Schulderleben ist das Kennzeichen des Viererfl\xfcgels: Typ Vier kann in die tiefste Dunkelheit
-        schauen und sie als eigene erkennen – ohne Ausrede, ohne Projektion.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's Sexual Five – "Confidence":</strong>
+Claudio Naranjo called the Sexual Five "Confidence": seeking complete knowledge and total possession of the other—not in a caretaking way like Type 2, but collecting, cataloging, preserving. Dahmer's preservation of skulls and body parts in his apartment represents this dynamic in its most horrific form: He did not want to destroy his victims. He wanted to keep them forever.</p>
+        <p class="vb-intro"><strong>b) The Zombie Experiment – Intimacy as Total Control:</strong>
+Dahmer drilled holes into the skulls of live victims and injected hydrochloric acid—attempting to create a permanently compliant companion who would never leave him. Several victims survived this procedure briefly. This is the core motive of the Sexual Five in its most pathological manifestation: intimacy through the complete elimination of the other's freedom. A creature that can never walk away.</p>
+        <p class="vb-intro"><strong>c) Necrophilia as Type 5 Logic:</strong>
+A deceased person cannot withdraw, makes no demands, and does not exhaust energy. For the Type 5 who experiences every connection as energy-draining, this is a paradoxical "solution": closeness without reciprocity. This mechanism explains why necrophilia occurs with higher frequency among pathological Type 5 profiles—and why, for Dahmer, it was not the conclusion, but the starting point for further escalation.</p>
+        <p class="vb-intro"><strong>d) The Temple Plan – Four-Wing Grandiosity:</strong>
+Dahmer planned to construct an altar or temple out of the collected skulls of his victims, believing it would grant him "special powers." The Four-wing of Type 5 creates intense self-mythologizing: Even in the deepest darkness, the Sexual Five with a Four-wing creates a unique, grandiose narrative around itself. The darkest elements become the defining feature of one's own distinctiveness.</p>
+        <p class="vb-intro"><strong>e) The Negative Integration Point – The Eight in the Shadows:</strong>
+Type 8 is the integration/stress point of Type 5. In a positive sense, it brings Type 5 assertiveness, presence, and a willingness to confront. In a negative sense—at the unconscious level—withdrawn Type 5 energy can suddenly flip into Type 8 aggressiveness: predatory, grasping, dominant. Dahmer's murders follow this pattern—the surge of Type 8 energy was invariably followed by a return to Type 5 stillness, a pendulum movement that lasted for over 13 years.</p>
+        <p class="vb-intro"><strong>f) Cooperation After Arrest:</strong>
+Following his arrest, Dahmer confessed to everything willingly and in extraordinary detail. He actively assisted investigators in reconstructing his crimes. This is a typical Type 5 reaction: finally wanting to be fully understood. Type 5 suffers from the fact that no one truly knows their inner world—the interrogations offered Dahmer his first opportunity to explain everything.</p>
+        <p class="vb-intro"><strong>g) Baptism and Remorse – The Four-Wing at the End:</strong>
+In prison, Dahmer was baptized in 1994 and, according to the prison chaplain, showed genuine remorse for his actions. He was killed by a fellow inmate a few months later. This capacity for deep self-reflection, authentic shame, and real experiences of guilt is the hallmark of the Four-wing: Type 4 can look into the deepest darkness and recognize it as its own—without excuses, without projection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -30963,7 +30876,7 @@ function jeffreyDahmerPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jeffrey Dahmer wurde 1992 in 15 Fällen des Mordes schuldig gesprochen und starb 1994 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Jeffrey Dahmer was found guilty in 1992 on 15 counts of murder and died in custody in 1994. The Enneagram explains; it does not justify.
         </p>
       </div>
 
