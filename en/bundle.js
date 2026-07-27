@@ -23461,204 +23461,98 @@ function rujaIgnatovaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Ruja Ignatova</p>
         <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Bulgarisch-deutsche Betrügerin, „Cryptoqueen" · Animal correspondence: Waschbär</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Bulgarian-German Fraudster, "Cryptoqueen" · Animal correspondence: Raccoon</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Ruja Ignatova</strong>, die selbsternannte „Cryptoqueen", gr\xfcndete 2014 OneCoin –
-        eine Kryptow\xe4hrung, die sich als gr\xf6\xdfter Finanzskandal der Geschichte
-        entpuppte: \xfcber 4 Milliarden Euro Schaden, Millionen gesch\xe4digter Anleger weltweit.
-        Ignatova inszenierte sich als visionäre Unternehmerin und Wissenschaftlerin,
-        trat in Opernhäusern und Arenen auf, trug funkelnde Abendkleider –
-        und baute dabei ein System auf, das auf nichts als Schein und Versprechen basierte.
-        2017 verschwand sie spurlos. Sie ist bis heute eine der meistgesuchten
-        Personen der Welt – und nie gefasst worden. Ihr Fall ist eines der
-        faszinierendsten Beispiele daf\xfcr, wie die Leidenschaft der Drei,
-        verbunden mit der dramatischen Tiefe des Viererfl\xfcgels, ein
-        globales Gef\xf6lge aus Gier, Bewunderung und Illusion erzeugen kann.
+        Ruja Ignatova, the self-proclaimed "Cryptoqueen," founded OneCoin in 2014—a cryptocurrency that turned out to be the largest financial scam in history: over 4 billion euros in damages, millions of defrauded investors worldwide. Ignatova staged herself as a visionary entrepreneur and scholar, performed in opera houses and arenas, wore sparkling evening gowns—and built a system based on nothing but illusion and promises. In 2017, she vanished without a trace. To this day, she remains one of the world's most wanted fugitives—and has never been caught. Her case is one of the most fascinating examples of how the passion of the Three, combined with the dramatic depth of the Four-wing, can generate a global following of greed, admiration, and delusion.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Ruja Ignatova</strong> wird der <strong>Self-Preservationen Drei mit Viererfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>T\xe4uschung</em> –
-        das Erschaffen eines Bildes von Erfolg, das den eigentlichen Kern verbirgt.
-        Die selbsterhaltende Drei (SP3) richtet diese Energie auf materielle Sicherheit
-        und die Absicherung durch Leistung und Ansehen: Sie akkumuliert Ressourcen,
-        Status und Einfluss als Schutzwall. Der Viererfl\xfcgel verleiht ihr eine
-        dramatische Tiefe, eine Sehnsucht nach Einzigartigkeit und einen Sinn f\xfcr
-        Inszenierung, der weit \xfcber den gew\xf6hnlichen Drei-Typus hinausgeht.
-        In Ignatovas Fall entstand daraus eine Pers\xf6nlichkeit, die sich nicht nur
-        als erfolgreiche Unternehmerin inszenierte, sondern als Vision\xe4rin
-        einer neuen Weltfinanzordnung – k\xfchn, einzigartig, unwiderstehlich.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Ruja Ignatova is assigned to the Self-Preservation Type 3 with Four-wing in the Enneagram. The passion of the Three is deceit—the creation of an image of success that conceals the true core. The Self-Preservation Three (SP3) directs this energy toward material security and safeguarding through achievement and prestige: they accumulate resources, status, and influence as a protective shield. The Four-wing imparts a dramatic depth, a longing for uniqueness, and a flair for theatricality that extends far beyond the ordinary Type Three pattern. In Ignatova's case, this yielded a personality who staged herself not merely as a successful businesswoman, but as the visionary of a new global financial order—bold, unique, irresistible.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Selbstsicher und strahlend:</strong>
-        Ignatovas Blick auf der B\xfchne war der einer Frau, die keine Zweifel kennt.
-        Die Drei projiziert Erfolg – und Ignatova hatte dieses Handwerk
-        perfektioniert: direkter Blickkontakt, ausgestreckte Arme, die Geste
-        der Gro\xdfz\xfcgigkeit. Sie sah aus wie jemand, dem man folgen will.</p>
-        <p class="vb-intro"><strong>b) Intensiv und magnetisch:</strong>
-        Der Viererfl\xfcgel gibt dem Blick eine Intensit\xe4t, die \xfcber das
-        reine Leistungssignal hinausgeht. Ignatova strahlte nicht nur Kompetenz
-        aus – sie strahlte Bedeutsamkeit. Dieses „Ich bin besonders" ist das
-        Erkennungszeichen des Viererfl\xfcgels an der Drei.</p>
-        <p class="vb-intro"><strong>c) Abweisend gegen\xfcber Kritik:</strong>
-        Wer kritische Fragen stellte, erntete einen Blick, der signalisierte:
-        Du verstehst es nicht. Die Drei schirmt ihr Image durch selektive
-        Aufmerksamkeit ab – Skepsis wird ignoriert oder als Unwissenheit gerahmt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Self-Assured and Radiant:</strong>
+Ignatova's gaze on stage was that of a woman who knows no doubts. The Three projects success—and Ignatova had perfected this craft: direct eye contact, outstretched arms, the gesture of magnanimity. She looked like someone you want to follow.</p>
+        <p class="vb-intro"><strong>b) Intense and Magnetic:</strong>
+The Four-wing gives the gaze an intensity that goes beyond a pure signal of achievement. Ignatova radiated not just competence—she radiated significance. This "I am special" is the hallmark of the Four-wing on the Three.</p>
+        <p class="vb-intro"><strong>c) Dismissive Toward Criticism:</strong>
+Anyone asking critical questions received a glare signaling: you simply do not understand. The Three shields its image through selective attention—skepticism is ignored or framed as ignorance.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Meisterhafte Selbstinszenierung:</strong>
-        <strong>Ignatova</strong> verstand Auftritte als Kunstform. Arenas, Opernbühnen, funkelnde
-        Kleider, pathetische Reden – das war keine Eitelkeit, sondern Kalkül.
-        Die SP3 wei\xdf: Image ist Kapital. Wer gro\xdf genug wirkt, wird nicht
-        in Frage gestellt.</p>
-        <p class="vb-intro"><strong>b) Akademische Legitimation als Werkzeug:</strong>
-        Sie betonte ihren Doktortitel, ihre Oxford-Ausbildung, ihre intellektuelle
-        Überlegenheit – und das nicht aus Eitelkeit, sondern als Strategie.
-        Die SP3w4 ben\xf6tigt Kompetenzbelege als Schutzwall: Wer die Professorin
-        anzweifelt, zweifelt nicht nur am Produkt, sondern an sich selbst.
-        Der Viererfl\xfcgel f\xfcgt dabei die Dimension intellektueller Einzigartigkeit
-        hinzu: nicht nur erfolgreich, sondern tiefgr\xfcndig anders.</p>
-        <p class="vb-intro"><strong>c) Globaler Ma\xdfstab als Schutz:</strong>
-        Indem Ignatova ihr System auf alle Kontinente ausdehnte, schuf sie
-        eine Komplexit\xe4t, die Aufdeckung erschwerte. Die SP3 sichert sich ab –
-        je gr\xf6\xdfer das System, desto schwerer greifbar.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Masterful Self-Staging:</strong>
+Ignatova understood appearances as an art form. Arenas, opera stages, sparkling gowns, pathos-filled speeches—this was not mere vanity, but cold calculation. The SP3 knows: image is capital. If you appear large enough, no one questions you.</p>
+        <p class="vb-intro"><strong>b) Academic Legitimation as a Tool:</strong>
+She highlighted her doctorate, her Oxford education, her intellectual superiority—not out of vanity, but as a strategy. The SP3w4 requires proof of competence as a protective rampart: doubting the professor means doubting not just the product, but oneself. The Four-wing adds the dimension of intellectual uniqueness: not just successful, but profoundly different.</p>
+        <p class="vb-intro"><strong>c) Global Scale as Protection:</strong>
+By extending her system across every continent, Ignatova created a level of complexity that hindered exposure. The SP3 secures itself—the larger the system, the harder it is to grasp.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) T\xe4uschung als Identit\xe4t:</strong>
-        Die Leidenschaft der Drei ist T\xe4uschung – nicht notwendigerweise
-        als bewusste L\xfcge, sondern als strukturelle Verschmelzung
-        mit dem eigenen Bild. Ignatova war ihre Rolle: Die Cryptoqueen
-        war keine Maske – sie war, wer sie sein wollte.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit als \xdcberlebensstrategie:</strong>
-        Als der Druck gr\xf6\xdfer wurde, verschwand Ignatova – ein radikaler
-        Identit\xe4tswechsel. Diese F\xe4higkeit, das eigene Bild vollst\xe4ndig
-        zu wechseln, ist die Drei in ihrer extremsten Auspr\xe4gung:
-        kein fester Kern, sondern reine Anpassung.</p>
-        <p class="vb-intro"><strong>c) Materielle Sicherung als tiefstes Motiv:</strong>
-        Hinter der Vision\xe4rin stand eine SP3-Grundmotivation: Akkumulation
-        von Ressourcen als Schutz. Milliarden auf Konten, Immobilien,
-        Fluchtnetzwerke – die selbsterhaltende Drei baut ein Sicherheitsnetz
-        aus Kapital, das niemand ihr nehmen kann.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Deceit as Identity:</strong>
+The passion of the Three is deceit—not necessarily as a conscious lie, but as a structural fusion with one's own image. Ignatova was her role: the Cryptoqueen was no mask—it was who she wanted to be.</p>
+        <p class="vb-intro"><strong>b) Adaptability as a Survival Strategy:</strong>
+When pressure mounted, Ignatova vanished—a radical shift in identity. This capacity to completely discard and alter one's own image represents the Three in its most extreme manifestation: no fixed core, but pure adaptation.</p>
+        <p class="vb-intro"><strong>c) Material Safeguarding as the Deepest Motive:</strong>
+Behind the visionary stood a core SP3 drive: resource accumulation as protection. Billions in bank accounts, real estate, escape networks—the Self-Preservation Three builds a safety net out of capital that no one can take away.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) \xdcberw\xe4ltigend und inspirierend:</strong>
-        Auf der B\xfchne war Ignatova eine Erscheinung – charismatisch,
-        strahlend, \xfcberzeugend. Die Drei hat die F\xe4higkeit, Energien
-        auf sich zu richten und Bewegungen auszul\xf6sen. Millionen folgten ihr.</p>
-        <p class="vb-intro"><strong>b) Intellektuell einsch\xfcchernd:</strong>
-        Der Viererfl\xfcgel f\xfcgte eine intellektuelle Dimension hinzu,
-        die kritische Nachfragen entmutigte. Wer Ignatova in Frage stellte,
-        f\xfchlte sich schnell als derjenige, der es schlicht nicht verstand.</p>
-        <p class="vb-intro"><strong>c) Fassade ohne Substanz:</strong>
-        Wer hinter die Inszenierung schaute, fand: nichts. Keine Blockchain,
-        keine Technologie, kein reales Produkt. Nur das Bild – perfekt
-        poliert, vollst\xe4ndig hohl. Das ist die dunkle Seite der Drei:
-        Form ohne Inhalt, Erscheinung ohne Wirklichkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Overwhelming and Inspiring:</strong>
+On stage, Ignatova was a presence—charismatic, glowing, convincing. The Three possesses the ability to focus energies onto itself and launch movements. Millions followed her.</p>
+        <p class="vb-intro"><strong>b) Intellectually Intimidating:</strong>
+The Four-wing added an intellectual dimension that discouraged critical inquiries. Anyone challenging Ignatova quickly felt like the one who simply lacked comprehension.</p>
+        <p class="vb-intro"><strong>c) Facade Without Substance:</strong>
+Looking behind the staging revealed: nothing. No blockchain, no technology, no real product. Only the image—perfectly polished, entirely hollow. That is the dark side of the Three: form without content, appearance without reality.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Strahlend und mitrei\xdfend:</strong>
-        Ignatovas Energie auf der B\xfchne war elektrisch – sie riss Massen mit.
-        Die Drei sendet eine Energie aus, die sagt: Hier passiert etwas Gro\xdfes,
-        und du kannst Teil davon sein. Das ist ihr st\xe4rkstes Werkzeug.</p>
-        <p class="vb-intro"><strong>b) Dramatisch und emotional aufgeladen:</strong>
-        Der Viererfl\xfcgel gibt der Energie eine emotionale Tiefe.
-        Ignatova sprach von Mission, von Ver\xe4nderung der Welt, von
-        historischer Bedeutung. Diese Dramatik ist SP3w4 pur:
-        nicht nur erfolgreich sein, sondern bedeutsam sein.</p>
-        <p class="vb-intro"><strong>c) K\xfchl dahinter:</strong>
-        Wer n\xe4her heranr\xfcckte, sp\xfcrte die K\xe4lte hinter der Ausstrahlung.
-        Ignatova pflegte keine echten Relationships – sie pflegte Anh\xe4ngerschaften.
-        Das ist die Drei ohne Heilung: Contact als Funktion, nicht als Verbindung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Radiant and Electric:</strong>
+Ignatova's energy on stage was electric—she swept crowds away. The Three projects an energy that says: something monumental is happening here, and you can be part of it. That is their most powerful tool.</p>
+        <p class="vb-intro"><strong>b) Dramatic and Emotionally Charged:</strong>
+The Four-wing endows energy with emotional depth. Ignatova spoke of a mission, of transforming the world, of historic importance. This drama is pure SP3w4: not merely to be successful, but to be significant.</p>
+        <p class="vb-intro"><strong>c) Cold Behind the Exterior:</strong>
+Those who drew closer felt the chill behind the radiance. Ignatova cultivated no genuine relationships—she cultivated followings. That is the unhealed Three: contact as a function, not a connection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Waschb\xe4r</h3>
-        <p class="vb-intro"><strong>a) Das Maskengesicht:</strong>
-        Der Waschb\xe4r tr\xe4gt von Natur aus eine Maske – das dunkle
-        Fellmuster um die Augen ist sein Erkennungszeichen.
-        Ignatova trug ihre Maske mit ebensolcher Selbstverst\xe4ndlichkeit:
-        Die Cryptoqueen war nicht ihr Name, sondern ihr Kostüm –
-        und sie lebte ihn vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>b) Geschickte H\xe4nde, die alles nehmen:</strong>
-        Waschb\xe4ren sind bekannt f\xfcr ihre erstaunlich geschickten Pfoten –
-        sie greifen, pr\xfcfen, nehmen. Ignatovas System war \xe4hnlich:
-        pr\xe4zises Greifen nach Kapital, Vertrauen, Netzwerken –
-        mit einem Instinkt, der nie zu z\xf6gern schien.</p>
-        <p class="vb-intro"><strong>c) Anpassungsf\xe4hig und nachtaktiv:</strong>
-        Der Waschb\xe4r lebt in jedem Milieu, pa\xdft sich jedem Umfeld an
-        und agiert bevorzugt im Verborgenen. Ignatova operierte
-        in Bulgarien, Deutschland, Dubai und verschwand schlie\xdflich
-        in der Dunkelheit – anpassungsf\xe4hig, unauffindbar,
-        auf allen Kontinenten zuhause.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro"><strong>a) The Masked Face:</strong>
+The raccoon naturally wears a mask—the dark fur pattern around its eyes is its defining trait. Ignatova wore her mask with equal naturalness: the Cryptoqueen was not her name, but her costume—and she lived inside it completely.</p>
+        <p class="vb-intro"><strong>b) Nimble Paws That Grasp Everything:</strong>
+Raccoons are known for their remarkably adept paws—they reach, test, and take. Ignatova's system functioned similarly: precise grasping for capital, trust, and networks—guided by an instinct that never seemed to hesitate.</p>
+        <p class="vb-intro"><strong>c) Adaptable and Nocturnal:</strong>
+The raccoon thrives in any habitat, adapts to any environment, and prefers to operate in the dark. Ignatova operated across Bulgaria, Germany, and Dubai before finally disappearing into the shadows—adaptable, untraceable, at home on every continent.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Ruja Ignatova</strong> verk\xf6rpert die selbsterhaltende Drei mit Viererfl\xfcgel
-        in ihrer dunkelsten und faszinierendsten Auspr\xe4gung: ein System
-        aus perfektem Schein, dramatischer Inszenierung und k\xfchler
-        Ressourcenakkumulation. Sie war ihre Rolle – vollst\xe4ndig, \xfcberzeugend,
-        global. Und als das System zu kippen drohte, wechselte sie das Bild
-        ein letztes Mal: Sie verschwand. Bis heute.
+        Ruja Ignatova embodies the Self-Preservation Three with Four-wing in its darkest and most intriguing manifestation: a system of flawless illusion, dramatic staging, and cold resource accumulation. She was her role—completely, convincingly, globally. And when the system threatened to collapse, she altered the image one last time: she disappeared. To this day.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP3 – Sicherheit durch Leistungsbild:</strong>
-        Claudio Naranjo beschrieb die selbsterhaltende Drei als den Subtype,
-        der Sicherheit durch das Bild von Leistung und Erfolg anstrebt.
-        Anders als die soziale Drei, die Prestige in der Gruppe sucht,
-        akkumuliert die SP3 Ressourcen als Sch\xfctzwall: Geld, Immobilien,
-        Netzwerke, die unantastbar machen. Ignatovas Milliarden waren
-        nicht Selbstzweck – sie waren materielle Sicherheit in ihrer
-        reinsten Form.</p>
-        <p class="vb-intro"><strong>b) Der Viererfl\xfcgel – Einzigartigkeit als Marke:</strong>
-        Der Viererfl\xfcgel gibt der Drei eine Sehnsucht nach Einzigartigkeit
-        und Tiefe, die \xfcber den reinen Leistungsausweis hinausgeht.
-        Ignatova wollte nicht nur reich sein – sie wollte historisch bedeutsam sein.
-        Die Cryptoqueen-Inszenierung war Viererfl\xfcgel pur: dramatisch,
-        einzigartig, mit dem Anspruch, die Welt zu ver\xe4ndern.</p>
-        <p class="vb-intro"><strong>c) T\xe4uschung als Leidenschaft – nicht als Zynismus:</strong>
-        Die Leidenschaft der Drei ist T\xe4uschung – aber das bedeutet nicht,
-        dass Ignatova zynisch l\xfcgte. Wahrscheinlicher ist das klassische
-        Dreier-Muster: Sie glaubte selbst an ihre Rolle, zumindest zeitweise.
-        Die Drei verschmilzt mit ihrem Image – die Grenze zwischen
-        Rolle und Selbst verschwimmt. Das macht sie noch \xfcberzeugender
-        und noch gef\xe4hrlicher.</p>
-        <p class="vb-intro"><strong>d) Das Verschwinden als Drei-Strategie:</strong>
-        Wenn das Image kollabiert, hat die Drei keine Alternative:
-        Sie muss verschwinden oder sich vollst\xe4ndig neu erfinden.
-        Ignatova w\xe4hlte das Verschwinden – den radikalsten
-        Identit\xe4tswechsel. Wo die Acht k\xe4mpft und die Sechs fl\xfcchtet,
-        wechselt die Drei das Kostüm und tritt von der B\xfchne.</p>
-        <p class="vb-intro"><strong>e) Entspannungspunkt Sechs – Loyalit\xe4t und Zweifel:</strong>
-        Der Entspannungspunkt der Drei ist die Sechs. In gesunder Form
-        bedeutet das: Verbindlichkeit, Loyalit\xe4t, echtes Vertrauen in andere.
-        Bei Ignatova zeigte sich dieser Punkt verzerrt: Sie hielt
-        ein enges Netzwerk aus Vertrauten (ihr Bruder, Anw\xe4lte, Helfer),
-        die ihr selbst unter Druck die Stange hielten –
-        eine Sechserstruktur im Dienst der Dreier-Mission.</p>
-        <p class="vb-intro"><strong>f) Die offene Geschichte:</strong>
-        Anders als alle anderen Portr\xe4ts in dieser Reihe ist Ignatovas
-        Geschichte nicht abgeschlossen. Sie ist auf der Flucht.
-        Das FBI, Interpol und zahlreiche Beh\xf6rden suchen sie.
-        Die Cryptoqueen existiert noch – irgendwo, in irgendeiner
-        neuen Rolle. Das ist das letzte, dunkelste Kapitel der SP3w4:
-        die Drei, die nie aufh\xf6rt, sich neu zu erschaffen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary In-Depth Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP3 – Security Through the Image of Achievement:</strong>
+Claudio Naranjo described the Self-Preservation Three as the subtype seeking security through the image of achievement and success. Unlike the Social Three, who seeks prestige within the group, the SP3 accumulates resources as a protective rampart: money, real estate, and networks that render them untouchable. Ignatova's billions were not an end in themselves—they were material security in its purest form.</p>
+        <p class="vb-intro"><strong>b) The Four-Wing – Uniqueness as a Brand:</strong>
+The Four-wing grants the Three a longing for uniqueness and depth that goes beyond a mere record of achievement. Ignatova did not just want to be rich—she wanted to be historically significant. The Cryptoqueen staging was pure Four-wing: dramatic, unique, claiming to change the world.</p>
+        <p class="vb-intro"><strong>c) Deceit as a Passion – Not as Cynicism:</strong>
+The passion of the Three is deceit—but that does not mean Ignatova lied cynically. More likely is the classic Three pattern: she believed in her role herself, at least temporarily. The Three merges with its image—the boundary between the role and the self blurs. This makes them even more convincing and even more dangerous.</p>
+        <p class="vb-intro"><strong>d) Disappearance as a Three Strategy:</strong>
+When the image collapses, the Three has no alternative: it must vanish or completely reinvent itself. Ignatova chose disappearance—the most radical identity shift. Where the Eight fights and the Six flees, the Three changes costumes and steps off the stage.</p>
+        <p class="vb-intro"><strong>e) Relaxation Point Six – Loyalty and Doubt:</strong>
+The relaxation point of the Three is the Six. In a healthy state, this means: commitment, loyalty, genuine trust in others. For Ignatova, this point appeared distorted: she maintained a tight network of confidants (her brother, lawyers, aides) who stood by her even under pressure—a Six structure in the service of the Three mission.</p>
+        <p class="vb-intro"><strong>f) The Open Ending:</strong>
+Unlike all other portraits in this series, Ignatova's story is not concluded. She remains on the run. The FBI, Interpol, and numerous authorities continue to search for her. The Cryptoqueen still exists—somewhere, in some new role. That is the final, darkest chapter of the SP3w4: the Three that never ceases to reinvent itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -23668,7 +23562,7 @@ function rujaIgnatovaPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Ruja Ignatova ist seit 2017 international gesucht. Gegen sie liegt ein Haftbefehl wegen Betrugs, Geldwäsche und Konspirationsvergängen vor. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Ruja Ignatova has been internationally wanted since 2017. An arrest warrant exists for fraud, money laundering, and conspiracy offenses. The Enneagram explains; it does not justify.
         </p>
       </div>
 
