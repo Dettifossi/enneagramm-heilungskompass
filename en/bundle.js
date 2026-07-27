@@ -11432,9 +11432,21 @@ function verbaleSignalePage() {
       <p class="lead-small">How does each Enneagram type speak? Verbal signals &mdash; choice of words, sentence structure, speech rhythm &mdash; are valuable typing factors. This overview shows the characteristic verbal patterns of all 9 types.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/verbale-signale/verbale-signale.jpg"
-             alt="Verbale Signale der 9 Enneagrammtypen"
+             alt="Verbal signals of the 9 Enneagram types"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:1.5rem auto 0;font-size:.9rem;line-height:1.75;color:var(--ink);display:grid;gap:.7rem;">
+        <p><strong>Type 9:</strong> Conveys very detailed information, mostly in chronological order; uses agreeable, affirming words like &bdquo;exactly, okay, I see, yes, great, agreed.&ldquo;</p>
+        <p><strong>Type 1:</strong> Repeated use of judgmental terms: &bdquo;should, must, ought to, right, wrong, may&ldquo;, etc.; often reveals their own opinion; very precise language and phrasing.</p>
+        <p><strong>Type 2:</strong> Frequently asks others questions; a soft, graceful-sounding voice, except when angry; gives compliments.</p>
+        <p><strong>Type 3:</strong> Wants to get to the point quickly; logical, clear, concise language; often formulates ideas in sentences with three key points (a &bdquo;rule of three&ldquo;).</p>
+        <p><strong>Type 4:</strong> Frequently shares personal stories with others; frequent use of &bdquo;me, mine, and I&ldquo;, or exactly the opposite &ndash; the impersonal &bdquo;one&ldquo;; deliberate word choice.</p>
+        <p><strong>Type 5:</strong> When knowledgeable, can be quite thorough and detailed; generally more quiet/factual than talkative and communicative; minimal language.</p>
+        <p><strong>Type 6:</strong> Hesitant or, alternatively, very assertive language; frequent use of &bdquo;what if&ldquo; questions; analytical speech.</p>
+        <p><strong>Type 7:</strong> Fast, spontaneous expression; cheerful word choice; entertaining, exciting storytelling style.</p>
+        <p><strong>Type 8:</strong> Profane, at times obscene language; body-centered humor; short, simple sentences; frequent throat-clearing; an imperative (command-form) speaking style.</p>
+      </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Word choice, sentence rhythm, and speech patterns as typing tools &ndash; a step-by-step guide for all 9 types.", "Die Praxis der Typbestimmung")}
       <p style="margin-top:1.5rem; text-align:center;">
         Next: Nonverbal Signals &rarr;
       </p>
