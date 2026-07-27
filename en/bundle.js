@@ -25239,241 +25239,94 @@ function jonathanMeijerPortraitPage() {
         <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Jonathan Meijer</strong> ist ein niederl\xe4ndischer Samenspender, der \xfcber 550 Kinder
-        in aller Welt gezeugt haben soll – weit mehr als die vereinbarten H\xf6chstgrenzen
-        von Kliniken und Empf\xe4ngerinnen. Er t\xe4uschte Kliniken \xfcber die Gesamtzahl
-        seiner Spenden, ignorierte Absprachen und spendete nach mehrfachen
-        Gerichtsurteilen, die ihm weiteres Spenden untersagten, in anderen L\xe4ndern
-        weiter. Meijer wurde nie strafrechtlich verurteilt – sein Verhalten
-        bewegte sich in einer juristischen Grauzone. Dennoch hinterlie\xdf er
-        eine der gr\xf6\xdften ethischen Debatte der modernen Reproduktionsmedizin:
-        \xdcber die Grenzen von Einwilligung, \xfcber den Schaden durch massenhaft
-        unbekannte Halbgeschwister, \xfcber die Frage, ob Helfen Recht gibt
-        oder Grenzen aufhebt. Sein Fall ist aus Enneagramm-Sicht hochinteressant:
-        Er zeigt, was geschieht, wenn die Leidenschaft der Zwei – der Stolz
-        auf das eigene Geben – vollst\xe4ndig die Kontrolle \xfcbernimmt.
+        Jonathan Meijer is a Dutch sperm donor who is reported to have fathered over 550 children worldwide—far exceeding the agreed limits of clinics and recipients. He deceived clinics about the total number of his donations, ignored agreements, and continued to donate in other countries following multiple court rulings that prohibited him from further donations. Meijer was never criminally convicted—his behavior operated within a legal gray area. Nevertheless, he left behind one of the largest ethical debates in modern reproductive medicine: regarding the limits of consent, the harm caused by massive numbers of unknown half-siblings, and the question of whether helping grants rights or dissolves boundaries. From an Enneagram perspective, his case is highly compelling: it shows what happens when the passion of Type Two—pride in one's own giving—takes total control.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jonathan Meijer</strong> wird der <strong>Self-Preservationen Zwei mit Einserfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
-        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen und zu geben,
-        verbunden mit dem unbewussten Anspruch auf Gegenleistung und Anerkennung.
-        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
-        richtet diese Energie nach innen: Sie stellt die eigenen Bed\xfcrfnisse
-        unter dem Deckmantel des Helfens ins Zentrum und entwickelt ein Gef\xfchl
-        von Ausnahmestellung und Unantastbarkeit. Der Einserfl\xfcgel verleiht ihr
-        eine moralische Selbstrechtfertigung: Das Gute, das sie tut, legitimiert
-        jede Grenz\xfcberschreitung. In Meijers Fall entstand daraus ein System,
-        das sich selbst als reine Großz\xfcgigkeit verstand – und dabei
-        Hunderte von Menschen nachhaltig besch\xe4digte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Jonathan Meijer is assigned to the Self-Preservation Two with a One-wing in the Enneagram. The passion of Type Two is Pride—the conviction of possessing and giving something uniquely valuable, combined with an unconscious claim to reciprocity and recognition. The Self-Preservation Two (SP2)—described by Naranjo as "Privilege"—directs this energy inward: placing their own needs at the center under the guise of helping, developing a sense of exception and invulnerability. The One-wing grants them a moral self-justification: the good they do legitimizes any crossing of boundaries. In Meijer's case, this gave rise to a system that viewed itself as pure generosity—while causing lasting damage to hundreds of people in the process.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
-        <strong>Meijer</strong> beschrieb sich selbst als warmherzig und f\xfcrsorglich –
-        und seine Wirkung auf viele Empf\xe4ngerinnen best\xe4tigte das.
-        Die Zwei strahlt echte W\xe4rme aus; ihr Blick signalisiert
-        Aufmerksamkeit, Zugewandtheit, das Gef\xfchl: Ich sehe dich,
-        ich bin f\xfcr dich da.</p>
-        <p class="vb-intro"><strong>b) \xdcberzeugt von der eigenen Botschaft:</strong>
-        <strong>Meijer</strong> wirkte auf Interviews und in \xf6ffentlichen Auftritten
-        nicht wie jemand, der l\xfcgt – er wirkte wie jemand, der glaubt,
-        was er sagt. Das ist das Kernmerkmal der Zwei im Stolz:
-        Sie t\xe4uscht andere nicht in erster Linie absichtlich,
-        sondern weil sie sich selbst t\xe4uscht.</p>
-        <p class="vb-intro"><strong>c) Verletzt bei Kritik:</strong>
-        Wenn Meijer mit dem Schaden konfrontiert wurde, den seine
-        Handlungen angerichtet hatten, wirkte er h\xe4ufig verletzt
-        und unverstanden. Der Einserfl\xfcgel verst\xe4rkt das: Er,
-        der Gutes tut, wird missverstanden – eine typische
-        SP2w1-Reaktion auf Grenzsetzung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Warm and engaging:</strong>
+Meijer described himself as warm-hearted and caring—and his effect on many recipients confirmed this. The Two radiates genuine warmth; their gaze signals attentiveness, affection, and the feeling: <em>I see you, I am here for you.</em></p>
+        <p class="vb-intro"><strong>b) Convinced of his own message:</strong>
+In interviews and public appearances, Meijer did not come across as someone who was lying—he came across as someone who genuinely believed what he was saying. This is the core characteristic of Type Two in Pride: they do not primarily deceive others intentionally, but because they deceive themselves.</p>
+        <p class="vb-intro"><strong>c) Hurt by criticism:</strong>
+When confronted with the damage his actions had caused, Meijer often appeared hurt and misunderstood. The One-wing reinforces this: he, who does good, is misunderstood—a typical SP2w1 reaction to boundary-setting.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Helfen als Identit\xe4t:</strong>
-        <strong>Meijer</strong> verstand sich als Geschenk an die Welt –
-        im w\xf6rtlichen Sinne. Die Zwei definiert sich \xfcber
-        das, was sie gibt. Wer so viel gibt wie Meijer,
-        hat eine enorme Identit\xe4t als Geber aufgebaut.
-        Diese Identit\xe4t aufzugeben h\xe4tte bedeutet,
-        nichts mehr zu sein.</p>
-        <p class="vb-intro"><strong>b) Regeln als Hindernisse f\xfcr das Gute:</strong>
-        Klinische Obergrenzen, Gerichtsurteile, Absprachen –
-        Meijer umging sie systematisch. F\xfcr die SP2w1 gilt:
-        Wer Gutes tut, steht \xfcber den Regeln, die f\xfcr
-        gew\xf6hnliche Menschen gemacht wurden. Der Einserfl\xfcgel
-        formuliert das als moralisches Prinzip: Die Regeln sind
-        falsch, meine Mission ist richtig.</p>
-        <p class="vb-intro"><strong>c) Bed\xfcrfnis nach Ausnahmestellung:</strong>
-        Die selbsterhaltende Zwei entwickelt ein Gef\xfchl
-        von Privileg – sie ist besonders, ihre Ressourcen
-        sind besonders, ihr Beitrag ist besonders.
-        Meijer sah seine genetische Gesundheit und sein
-        Aussehen als Gabe, die er der Welt nicht vorenthalten
-        durfte. Das ist SP2-Stolz in seiner reinsten Form.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Helping as an identity:</strong>
+Meijer understood himself as a gift to the world—in the literal sense. The Two defines themselves by what they give. Someone who gives as much as Meijer has built an immense identity as a giver. Giving up this identity would have meant being nothing at all.</p>
+        <p class="vb-intro"><strong>b) Rules as obstacles to the good:</strong>
+Clinical limits, court rulings, agreements—Meijer systematically bypassed them. For the SP2w1, the following applies: those who do good stand above rules made for ordinary people. The One-wing formulates this as a moral principle: the rules are wrong; my mission is right.</p>
+        <p class="vb-intro"><strong>c) Need for a special status:</strong>
+The Self-Preservation Two develops a sense of privilege—they are special, their resources are special, their contribution is special. Meijer saw his genetic health and appearance as a gift that he must not withhold from the world. This is SP2 pride in its purest form.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Unbewusste Eigeninteressen:</strong>
-        <strong>Meijer</strong> betonte immer wieder seinen altruistischen Antrieb.
-        Aber was die SP2 nicht sieht: Hinter dem Geben stecken
-        eigene Bed\xfcrfnisse – nach Bedeutung, nach Verbindung,
-        nach dem Gef\xfchl, unersetzlich zu sein.
-        550 Kinder sind nicht Altruismus – sie sind
-        ein Monument der eigenen Unersetzlichkeit.</p>
-        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
-        Der Einserfl\xfcgel gibt der Zwei eine innere Stimme,
-        die ihr Verhalten nicht nur erlaubt, sondern fordert.
-        Meijer handelte aus \xdcberzeugung – und diese \xdcberzeugung
-        schirmte ihn gegen\xfcber jedem Einwand ab.
-        Das ist die gef\xe4hrlichste Kombination: Geben als Pflicht,
-        Grenzen als Unrecht.</p>
-        <p class="vb-intro"><strong>c) Kontrolle durch F\xfcrsorge:</strong>
-        Die Zwei h\xe4lt Verbindungen aufrecht, weil sie
-        gebraucht werden will. Meijer suchte aktiv Contact
-        zu donorkind-Gruppen, zum Teil gegen deren Willen.
-        Das ist SP2-Kontrolle: nicht durch Macht,
-        sondern durch das Angebot von sich selbst.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
+        <p class="vb-intro"><strong>a) Unconscious self-interest:</strong>
+Meijer repeatedly emphasized his altruistic drive. But what the SP2 fails to see: behind the giving lie personal needs—for significance, for connection, for the feeling of being irreplaceable. 550 children are not altruism—they are a monument to one's own irreplaceability.</p>
+        <p class="vb-intro"><strong>b) Moral self-justification:</strong>
+The One-wing gives the Two an inner voice that not only permits their behavior but demands it. Meijer acted out of conviction—and this conviction shielded him against any objection. This is the most dangerous combination: giving as a duty, boundaries as an injustice.</p>
+        <p class="vb-intro"><strong>c) Control through caretaking:</strong>
+The Two maintains connections because they want to be needed. Meijer actively sought contact with donor-child groups, sometimes against their will. This is SP2 control: not through power, but through the offering of oneself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Sympathisch und schwer greifbar:</strong>
-        <strong>Meijer</strong> wurde nie strafrechtlich verurteilt – auch weil
-        sein Verhalten sich juristisch in Graubereichen bewegte,
-        aber auch weil er schlicht sympathisch wirkte.
-        Die Zwei hat diese Qualit\xe4t: Sie macht es schwer,
-        ihr b\xf6se zu sein, weil sie so offensichtlich
-        helfen will.</p>
-        <p class="vb-intro"><strong>b) Uneinsichtig trotz Konsequenzen:</strong>
-        Selbst nach mehreren Gerichtsurteilen, nach internationaler
-        Berichterstattung und nach dem Schmerz vieler Betroffener
-        zeigte Meijer wenig echte Einsicht. Das ist die Zwei
-        im Stolz: Kritik wird als Missverst\xe4ndnis erlebt,
-        nicht als berechtigter Einwand.</p>
-        <p class="vb-intro"><strong>c) Gro\xdfes Vergehen, kleines Bewusstsein:</strong>
-        Die Diskrepanz zwischen dem Ausma\xdf des Schadens
-        und Meijers Selbstwahrnehmung ist das Erschreckendste
-        an seinem Fall. Das ist das Wesen des Zwei-Stolzes:
-        Man sieht das eigene Geben, aber nicht die eigene
-        Wirkung auf andere.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Likable and elusive:</strong>
+Meijer was never criminally convicted—partly because his behavior operated in legal gray areas, but also because he simply seemed likable. The Two possesses this quality: they make it difficult to be angry with them because they so obviously want to help.</p>
+        <p class="vb-intro"><strong>b) Unrepentant despite consequences:</strong>
+Even after multiple court rulings, international media coverage, and the distress of many affected individuals, Meijer showed little genuine insight. This is Type Two in Pride: criticism is experienced as a misunderstanding, not as a valid objection.</p>
+        <p class="vb-intro"><strong>c) Great offense, small awareness:</strong>
+The discrepancy between the extent of the damage and Meijer's self-perception is the most disturbing aspect of his case. This is the essence of Two-Pride: one sees one's own giving, but not one's own effect on others.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) W\xe4rmend und einbindend:</strong>
-        Meijers Energie ist die der F\xfcrsorge – einladend,
-        w\xe4rmend, pr\xe4sent. Menschen in seiner N\xe4he f\xfchlten sich
-        gesehen. Das ist das Gesckenk der gesunden Zwei
-        und gleichzeitig ihr wirksamster Einflusskanal.</p>
-        <p class="vb-intro"><strong>b) Unterschwelliger Anspruch:</strong>
-        Darunter lag ein Anspruch: Anerkennst du, was ich f\xfcr
-        dich tue? Die Zwei gibt nie bedingungslos – sie gibt
-        immer mit der stillen Erwartung von R\xfcickkehr.
-        Wer das nicht erf\xfcllte, erlebte Meijer
-        als verletzt oder kalt.</p>
-        <p class="vb-intro"><strong>c) Einserfl\xfcgel als moralische Ladung:</strong>
-        Der Einserfl\xfcgel gibt der Energie eine moralische
-        Schwere: Ich handle nicht nur gut, ich handle richtig.
-        Diese moralische Aufgeladenheit kann einsch\xfcchternd
-        wirken – wer Meijer kritisierte, kritisierte
-        nicht nur einen Menschen, sondern eine Mission.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Warming and engaging:</strong>
+Meijer's energy is that of caretaking—welcoming, warming, present. People in his presence felt seen. This is the gift of the healthy Two and simultaneously their most effective channel of influence.</p>
+        <p class="vb-intro"><strong>b) Underlying expectation:</strong>
+Underneath lay an expectation: <em>Do you acknowledge what I do for you?</em> The Two never gives unconditionally—they always give with a quiet expectation of return. Anyone who did not fulfill this experienced Meijer as hurt or cold.</p>
+        <p class="vb-intro"><strong>c) One-wing as moral charge:</strong>
+The One-wing gives the energy a moral gravity: <em>I do not just act well; I act rightly.</em> This moral charge can be intimidating—criticizing Meijer meant criticizing not just a person, but a mission.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
-        Das Flusspferd wird oft f\xfcr gem\xfctlich und tr\xe4ge gehalten –
-        dabei ist es eines der gef\xe4hrlichsten Tiere Afrikas.
-        Es verteidigt sein Revier mit \xfcberw\xe4ltigender Kraft,
-        ohne dass es nach au\xdfen bedrohlich wirkt.
-        Meijer wurde lange als harmlosen Wohlt\xe4ter wahrgenommen –
-        bis das Ausma\xdf seines Handelns sichtbar wurde.</p>
-        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck im \xd6kosystem:</strong>
-        Das Flusspferd ver\xe4ndert seine Umgebung grundlegend –
-        durch seine schiere K\xf6rpermasse, seinen N\xe4hrstoffaussto\xdf,
-        seine Pr\xe4senz in Gew\xe4ssern. Meijers biologischer Fu\xdfabdruck
-        in der Welt ist \xe4hnlich: massiv, dauerhaft,
-        unumkehrbar – und f\xfcr viele Betroffene schmerzhaft.</p>
-        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
-        Das Flusspferd kennt keine Selbstreflexion – es folgt
-        seinen Instinkten mit vollst\xe4ndiger \xdcberzeugung.
-        Meijer folgte seinem Impuls zu geben mit einer
-        \xe4hnlichen Unbedingtheit: keine Grenze, keine Pause,
-        kein Innehalten. Die Zwei im Stolz ist
-        sich selbst gegen\xfcber blind.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) Harmless impression, dangerous reality:</strong>
+The hippopotamus is often considered cozy and sluggish—yet it is one of the most dangerous animals in Africa. It defends its territory with overwhelming force without appearing threatening from the outside. Meijer was long perceived as a harmless benefactor—until the scale of his actions became visible.</p>
+        <p class="vb-intro"><strong>b) Massive footprint in the ecosystem:</strong>
+The hippopotamus fundamentally alters its environment—through its sheer body mass, its nutrient output, and its presence in waterways. Meijer's biological footprint in the world is similar: massive, permanent, irreversible—and painful for many affected.</p>
+        <p class="vb-intro"><strong>c) Territorial and uncritical of itself:</strong>
+The hippopotamus knows no self-reflection—it follows its instincts with absolute conviction. Meijer followed his impulse to give with a similar absolute nature: no limit, no pause, no stopping. Type Two in Pride is blind to itself.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Jonathan Meijer</strong> wurde nie verurteilt – und das macht seinen Fall
-        in gewisser Weise noch lehrreicher als viele andere in dieser Reihe.
-        Er zeigt, dass der gr\xf6\xdfte Schaden nicht immer durch b\xf6sen Willen
-        entsteht, sondern durch das, was die Enneagramm-Tradition
-        Leidenschaft nennt: eine unbewusste, \xfcberm\xe4\xdfige Energie,
-        die sich selbst f\xfcr Tugend h\xe4lt. Der Stolz der Zwei,
-        verst\xe4rkt durch die moralische Selbstgewissheit des Einserfl\xfcgels,
-        erzeugte ein System, das sich als reine Großz\xfcgigkeit verstand –
-        und dabei Hunderte von Leben nachhaltig ver\xe4nderte.
+        Jonathan Meijer was never convicted criminally—and that makes his case in some ways even more instructive than many others in this series. It shows that the greatest damage does not always arise from malevolence, but from what the Enneagram tradition calls passion: an unconscious, excessive energy that mistakes itself for virtue. The pride of Type Two, amplified by the moral self-certainty of the One-wing, created a system that viewed itself as pure generosity—while permanently altering hundreds of lives in the process.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg:</strong>
-        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
-        als den Subtype des „Privilegs": Sie glaubt, auf Grund
-        ihres Gebens und ihrer F\xfcrsorge besondere Rechte zu haben.
-        Die SP2 stellt ihre eigenen Bed\xfcrfnisse ins Zentrum –
-        aber so geschickt verh\xfcllt durch F\xfcrsorge f\xfcr andere,
-        dass sie es selbst nicht sieht. Meijer wollte spenden
-        und gleichzeitig bedeutsam, erinnert, relevant sein.
-        Das Privileg war nicht Reichtum – es war Einzigartigkeit.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel – Pflicht und Recht:</strong>
-        Der Einserfl\xfcgel gibt der Zwei eine mission\xe4re Qualit\xe4t.
-        Er macht aus dem Impuls zu geben eine moralische Pflicht –
-        und aus der Missachtung von Grenzen ein Recht.
-        Meijer handelte nicht aus Bequemlichkeit oder Kalk\xfcl,
-        sondern aus echter, tief verankerter \xdcberzeugung.
-        Das macht ihn schwerer einzuordnen als klassische
-        Kriminelle – und sein Verhalten schwerer zu stoppen.</p>
-        <p class="vb-intro"><strong>c) Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist Stolz – aber nicht
-        der offene Hochmut. Es ist ein stiller, unsichtbarer Stolz:
-        die \xdcberzeugung, mehr zu geben als andere,
-        mehr zu f\xfchlen als andere, mehr wert zu sein als andere.
-        Dieser Stolz ist f\xfcr die Zwei selbst unsichtbar.
-        Meijer sah sich als gew\xf6hnlichen Helfer –
-        und war doch von einer grandiosen Selbst\xfcberhebung getrieben.</p>
-        <p class="vb-intro"><strong>d) Kein klassischer Krimineller:</strong>
-        <strong>Meijer</strong> geh\xf6rt in diese Reihe nicht als T\xe4ter im
-        \xfcblichen Sinne, sondern als Beispiel f\xfcr das
-        Schadenspotenzial unbewusster Leidenschaften.
-        Sein Fall zeigt: Die gef\xe4hrlichste Form von
-        Grenz\xfcberschreitung ist nicht die, die sich
-        selbst als b\xf6se erkennt – sondern die,
-        die sich f\xfcr gut h\xe4lt.</p>
-        <p class="vb-intro"><strong>e) Entspannungspunkt Vier – Tiefe und Einzigartigkeit:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier.
-        In gesunder Form bedeutet das: echte Selbstreflexion,
-        Zugang zu eigenen Gef\xfchlen, Unterscheidung zwischen
-        echtem Geben und verdeckter Eigeninteressen.
-        Bei Meijer zeigte sich dieser Punkt kaum –
-        was erkl\xe4rt, warum er so lange ohne Innehalten
-        weiterhandelte.</p>
-        <p class="vb-intro"><strong>f) Die ethische Debatte als Vermächtnis:</strong>
-        Meijers Fall hat die Reproduktionsmedizin ver\xe4ndert.
-        In den Niederlanden und anderen L\xe4ndern wurden
-        Gesetze gest\xe4rkt, Kliniken strenger reguliert,
-        Obergrenzen gesetzlich verankert. Das ist das
-        bleibende Resultat: Sein Verhalten zwang die Gesellschaft,
-        Grenzen zu definieren, die sie zuvor nicht f\xfcr
-        n\xf6tig gehalten hatte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP2 – Privilege:</strong>
+Claudio Naranjo designated the Self-Preservation Two as the subtype of "Privilege": believing they have special rights due to their giving and caretaking. The SP2 places their own needs at the center—yet so cleverly veiled by care for others that they do not see it themselves. Meijer wanted to donate and simultaneously be significant, remembered, and relevant. The privilege was not wealth—it was uniqueness.</p>
+        <p class="vb-intro"><strong>b) The One-Wing – Duty and Right:</strong>
+The One-wing gives the Two a missionary quality. It turns the impulse to give into a moral duty—and the disregard for boundaries into a right. Meijer did not act out of convenience or calculation, but out of genuine, deeply anchored conviction. This makes him harder to categorize than classic criminals—and his behavior harder to stop.</p>
+        <p class="vb-intro"><strong>c) Pride as a Blind Spot:</strong>
+The passion of Type Two is Pride—not open arrogance, but a quiet, invisible pride: the conviction of giving more than others, feeling more than others, being worth more than others. This pride is invisible to the Two themselves. Meijer saw himself as an ordinary helper—yet was driven by grandiose self-aggrandizement.</p>
+        <p class="vb-intro"><strong>d) Not a Classic Criminal:</strong>
+Meijer belongs in this series not as a perpetrator in the conventional sense, but as an example of the potential for harm in unconscious passions. His case shows: the most dangerous form of boundary-crossing is not the one that recognizes itself as evil—but the one that believes itself to be good.</p>
+        <p class="vb-intro"><strong>e) Relaxation Point Four – Depth and Uniqueness:</strong>
+The relaxation point (integration point) of Type Two is Type Four. In a healthy state, this means genuine self-reflection, access to one's own feelings, and distinguishing between genuine giving and concealed self-interest. In Meijer, this point was hardly apparent—which explains why he continued for so long without pausing.</p>
+        <p class="vb-intro"><strong>f) The Ethical Debate as a Legacy:</strong>
+Meijer's case has transformed reproductive medicine. In the Netherlands and other countries, laws were strengthened, clinics more strictly regulated, and maximum limits legally anchored. That is the lasting result: his behavior forced society to define boundaries it had previously not deemed necessary.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -25483,7 +25336,7 @@ function jonathanMeijerPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jonathan Meijer wurde 2023 in den Niederlanden wegen Verstoß gegen Spendenobergrenzen verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of deep psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Jonathan Meijer was sanctioned by a civil court in the Netherlands in 2023 for violating donation caps. The Enneagram explains; it does not justify.
         </p>
       </div>
 
