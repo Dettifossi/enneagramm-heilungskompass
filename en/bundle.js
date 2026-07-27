@@ -3958,242 +3958,62 @@ function frankAbagnalePortraitPage() {
           <img src="../assets/portraits/frank-abagnale-portrait.jpg" alt="Frank Abagnale Jr. – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Frank Abagnale Jr.</p>
-        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 mit Viererfl\xfcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Hochstapler und Betrug&shy;er &middot; Animal correspondence: Cham\xe4leon</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">American Impostor and Con Artist · Animal correspondence: Chameleon</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Frank William Abagnale Jr.</strong>, geboren am 27. April 1948
-        in Bronxville, New York, gilt als einer der geschicktesten Hochstapler
-        der Kriminalgeschichte. Als seine Eltern sich scheiden lie\xdfen – er war sechzehn –
-        lief er von zu Hause fort und begann eine beispiellose Karriere als
-        Betr\xfcger: Zwischen 1964 und 1969 gab er sich als Pan-Am-Pilot,
-        p\xe4diatrischer Assistenzarzt, Staatsanwalt in Louisiana und FBI-Agent aus.
-        Er soll gef\xe4lschte Schecks im Wert von rund 2,5 Millionen Dollar
-        in sechsundzwanzig L\xe4ndern eingel\xf6st haben.
-        1969 wurde er in Frankreich verhaftet, in mehreren L\xe4ndern inhaftiert
-        und schlie\xdflich in die USA ausgeliefert. Nach seiner Entlassung arbeitete
-        er jahrzehntelang als Sicherheitsberater f\xfcr Banken und Beh\xf6rden.
-        Steven Spielbergs Film „Catch Me If You Can“ (2002) machte seine Geschichte weltber\xfchmt.
-        Sp\xe4tere journalistische Recherchen stellten Teile seiner Biografie infrage –
-        m\xf6glicherweise ist auch die Geschichte des gr\xf6\xdften Hochstaplers selbst eine Hochstapelei.
+        <strong>Frank William Abagnale Jr.</strong>, born on April 27, 1948, in Bronxville, New York, is considered one of the most skillful impostors in criminal history. When his parents divorced—he was sixteen—he ran away from home and began an unprecedented career as a con artist: between 1964 and 1969 he posed as a Pan Am pilot, a pediatric resident, a Louisiana state prosecutor, and an FBI agent. He allegedly cashed forged checks worth around $2.5 million across twenty-six countries. In 1969 he was arrested in France, incarcerated in several countries, and eventually extradited to the United States. Following his release, he worked for decades as a security consultant for banks and government agencies. Steven Spielberg's film "Catch Me If You Can" (2002) brought worldwide fame to his story. Later investigative journalism questioned parts of his biography — suggesting that the story of the world's greatest impostor might itself be an imposture.
       </p>
 
       <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Frank Abagnale Jr.</strong> wird dem <strong>Self-Preservationen Typ 3
-        mit Viererfl\xfcgel (SP3w4)</strong> im Enneagramm zugeordnet.
-        Der SP3er ist der <em>Kontratyp</em> der Drei: Er zeigt Eitelkeit nicht als offene
-        Selbstdarstellung, sondern nach innen gewendet als unerbittlichen Antrieb,
-        kompetent, funktionst\xfcchtig und unangreifbar zu wirken.
-        Der Selbsterhaltungsinstinkt richtet diese Energie auf pers\xf6nliche Sicherheit:
-        Der SP3er arbeitet nicht f\xfcr Applaus, sondern f\xfcr Ressourcen –
-        f\xfcr die abgesicherte Position, den n\xe4chsten Schritt, das n\xe4chste Fundament.
-        Bei Abagnale \xfcbersetzte sich das in eine k\xfchle, pragmatische Logik:
-        Welche Identit\xe4t verschafft mir Zugang, Versorgung und Schutz?
-        Der Viererfl\xfcgel verleiht der Drei eine unruhige Tiefe –
-        ein Gef\xfchl, nie wirklich anzukommen, verbunden mit dem
-        k\xfcnstlerischen Instinkt, jede Rolle mit innerer \xdcberzeugung zu f\xfcllen.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Frank Abagnale Jr.</strong> is assigned to the <strong>Self-Preservation Type 3 with Four-wing (SP3w4)</strong> in the Enneagram. The SP3 is the <em>countertype</em> of Type Three: he expresses vanity not through overt self-promotion, but turned inward as an inexorable drive to appear competent, functional, and unassailable. The self-preservation instinct directs this energy toward personal security: the SP3 does not work for applause, but for resources — for a secure position, the next step, and a solid foundation. In Abagnale's case, this translated into a cool, pragmatic logic: which identity grants me access, provision, and protection? The Four-wing adds a restless depth — a feeling of never truly arriving, combined with an artistic instinct to fill every role with inner conviction.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier des selbsterhaltenden Drei –
-        und er trifft Abagnales innere Logik auf eine fast erschreckend pr\xe4zise Weise.
-        Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an.
-        Er ist geduldig, geschickt, anpassungsf\xe4hig.
-        Er taucht auf, wo Ressourcen sind, findet, was er gebrauchen kann,
-        und verschwindet wieder – ohne Spuren zu hinterlassen, die jemand sucht.
-        Sein Gesicht tr\xe4gt eine Maske: die dunklen Augen hinter dem hellen Fell
-        lassen nicht erkennen, was er gerade tut.
-        Er wirkt harmlos. Er ist es nicht.
-        Abagnale war dieser Waschb\xe4r: ein Mensch, der Identit\xe4ten nicht spielte,
-        sondern sie <em>bewohnte</em> – so selbstverst\xe4ndlich, dass die Umgebung
-        nie auf den Gedanken kam, hinter der Maske k\xf6nnte nichts sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro">The <strong>Raccoon</strong> is the animal correspondence of the Self-Preservation Three — and it matches Abagnale's inner logic in an almost eerily precise way. The raccoon is not a classic predator: it does not attack head-on. It is patient, clever, and highly adaptable. It appears where resources are, finds what it can use, and disappears again — without leaving tracks anyone would look for. Its face bears a mask: the dark fur around its eyes hides what it is currently doing. It appears harmless. It is not. Abagnale was this raccoon: a person who did not merely play identities, but <em>inhabited</em> them — so naturally that those around him never entertained the thought that there might be nothing behind the mask.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Kompetent, nie brillant:</strong>
-        Abagnales Auftreten war nie das des Blenders, der Aufmerksamkeit sucht.
-        Er wirkte <em>gew\xf6hnlich kompetent</em> – gerade so viel,
-        dass keine R\xfcckfragen entstanden.
-        Das ist die Meisterleistung des SP3:
-        Er liefert genau das erwartete Bild, nicht mehr.
-        Eine Sieben h\xe4tte zu viel geredet.
-        Eine Acht h\xe4tte zu viel dominiert.
-        Der SP3er trifft instinktiv den richtigen Ton –
-        weil sein ganzes System auf Effizienz getrimmt ist.</p>
-        <p class="vb-intro"><strong>b) Zielgerichteter Blick, keine Vertr\xe4umtheit:</strong>
-        Zeitgenossen beschrieben Abagnale als fokussiert und gesch\xe4ftsm\xe4\xdfig.
-        Kein Schwelgen, kein Philosophieren.
-        Er war immer auf den n\xe4chsten Schritt konzentriert.
-        Das ist die SP3-Energie in Reinform:
-        Das Ziel steht fest, die Mittel werden pragmatisch gew\xe4hlt.
-        Der Viererfl\xfcgel sorgt f\xfcr ein gewisses inneres Grau –
-        eine Nachdenklichkeit, die er aber nie nach au\xdfen lie\xdf.</p>
-        <p class="vb-intro"><strong>c) Keine Spur von Eitelkeit – und genau das ist die Eitelkeit:</strong>
-        Der Kontratyp der Drei wirkt paradox: Er zeigt keine Drei-Eitelkeit.
-        Er tr\xe4gt keine Zeichen von Status, protzt nicht, sucht keinen Beifall.
-        Und genau darin liegt die tiefere Eitelkeit des SP3 –
-        die Identifikation mit dem Bild des selbstgen\xfcgsamen,
-        kompetenten, unauff\xe4lligen Experten.
-        Auch das ist ein Bild. Auch das ist Konstruktion.
-        Nur eine unauff\xe4lligere.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Facial & Gaze Expression Quality</h3>
+        <p class="vb-intro"><strong>a) Competent, Never Brilliant:</strong> Abagnale's demeanor was never that of a flashy showman seeking attention. He appeared <em>ordinarily competent</em> — just enough so that no questions arose. This is the masterpiece of the SP3: delivering exactly the expected image, nothing more. A Seven would have talked too much. An Eight would have dominated too much. The SP3 instinctively hits the right tone because their entire system is tuned for efficiency.</p>
+        <p class="vb-intro"><strong>b) Goal-Oriented Gaze, No Dreaminess:</strong> Contemporaries described Abagnale as focused and businesslike. No dwelling, no philosophizing. He was always focused on the next step. This is SP3 energy in its purest form: the goal is fixed, and the means are chosen pragmatically. The Four-wing provides a certain inner grey — a thoughtfulness that he never let show outwardly.</p>
+        <p class="vb-intro"><strong>c) No Trace of Vanity — and That Exactly Is the Vanity:</strong> The countertype of the Three appears paradoxical: it shows no typical Type 3 vanity. It wears no status symbols, does not brag, and seeks no applause. Yet precisely therein lies the deeper vanity of the SP3 — identifying with the image of the self-sufficient, competent, unobtrusive expert. That, too, is an image. That, too, is a construction. Just a subtle one.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sicherheit als prim\xe4res Motiv:</strong>
-        Abagnale w\xe4hlte keine Identit\xe4ten f\xfcr den gro\xdfen Auftritt.
-        Er w\xe4hlte sie nach einem einzigen Kriterium:
-        Was sichert mein n\xe4chstes Jahr ab?
-        Pilot: Freifl\xfcge, Unterkunft, Status ohne Risiko.
-        Arzt: ein stabiles Institutionsgef\xfcge, das keine tiefen Fragen stellt.
-        Anwalt: der Schutz des Systems selbst.
-        All das sind SP3-Entscheidungen –
-        Ressourcensicherung durch Identit\xe4tsadaption.</p>
-        <p class="vb-intro"><strong>b) Effizienz statt \xdcbertreibung – das Minimalprinzip der SP3:</strong>
-        Die selbsterhaltende Drei folgt einem Grundsatz,
-        den man bei keinem anderen Subtype so konsequent findet:
-        <em>minimaler Mitteleinsatz, maximaler Erfolg</em>.
-        Sie lernt nicht mehr als n\xf6tig.
-        Sie beeindruckt nicht mehr als n\xf6tig.
-        Sie gibt so wenig von sich preis wie m\xf6glich –
-        und erzielt damit mehr als jene, die alles geben.
-        Dieses Minimalprinzip ist eines der sichersten Erkennungszeichen der SP3:
-        W\xe4hrend die soziale oder sexuelle Drei auf Wirkung aus ist
-        und gerne etwas dr\xfcber l\xe4sst, rechnet die SP3 genau nach,
-        was die Situation <em>braucht</em> – und liefert exakt das.
-        Nicht mehr. Nie mehr.
-        Abagnale eignete sich das Minimum an Fachvokabular an,
-        um den beruflich n\xf6tigen Eindruck zu erzeugen –
-        und \xfcberlie\xdf den Rest dem System,
-        das sein Bild von allein erg\xe4nzte.
-        Keine Sieben h\xe4tte es dabei belassen.
-        Eine soziale oder sexuelle Drei h\xe4tte sich als Star inszeniert.
-        Der SP3er inszeniert sich als Normalit\xe4t –
-        und das ist die schwerer zu durchschauende T\xe4uschung.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel: Tiefe und Unruhe:</strong>
-        Was den SP3 von einer glatten Drei unterscheidet,
-        ist der Viererfl\xfcgel: ein nagender Unterton,
-        ein Gef\xfchl, nie wirklich zu sein, was man darstellt –
-        selbst wenn die Darstellung perfekt gelingt.
-        Dieser Fl\xfcgel erkl\xe4rt, warum Abagnale nie zur Ruhe kam,
-        warum er eine Identit\xe4t nach der anderen verlie\xdf,
-        sobald die Struktur zu eng wurde.
-        Er suchte nicht Bewunderung. Er suchte Zugeh\xf6rigkeit.
-        Und fand sie nie, weil er immer eine Rolle spielte,
-        statt eine Person zu sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Security as Primary Motivation:</strong> Abagnale did not choose identities for a grand performance. He chose them based on a single criterion: what secures my next year? Pilot: free flights, lodging, status without risk. Doctor: a stable institutional framework that asks no deep questions. Lawyer: the protection of the system itself. All of these are SP3 decisions — securing resources through identity adaptation.</p>
+        <p class="vb-intro"><strong>b) Efficiency over Exaggeration — the SP3 Minimalist Principle:</strong> The Self-Preservation Three follows a principle rarely found so consistently in any other subtype: <em>minimal input, maximum success</em>. They learn no more than necessary. They impress no more than necessary. They reveal as little of themselves as possible — and thereby achieve more than those who give everything. While the Social or Sexual Three aims for impact and tends to overdo things, the SP3 calculates exactly what the situation needs — and delivers precisely that. No more. Never more. Abagnale acquired the bare minimum of technical vocabulary required to create the necessary professional impression, leaving the rest to the system, which filled in his image on its own. A Seven would never have stopped there. A Social or Sexual Three would have staged themselves as a star. The SP3 stages themselves as ordinary normalcy — making it the far harder deception to penetrate.</p>
+        <p class="vb-intro"><strong>c) The Four-wing: Depth and Restlessness:</strong> What distinguishes the SP3 from a smooth, unhedged Three is the Four-wing: a gnawing undertone, a feeling of never truly being what one presents — even when the representation succeeds perfectly. This wing explains why Abagnale never settled down, why he abandoned one identity after another as soon as the structure became too tight. He was not looking for admiration; he was looking for belonging. And he never found it, because he was always playing a role instead of being a person.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Konkrete Taten</h3>
-        <p class="vb-intro"><strong>a) Die Pan-Am-Uniform per Telefonanruf:</strong>
-        Abagnale begann seine Karriere mit einem einzigen Anruf.
-        Er rief Pan American World Airways an und behauptete,
-        seine Uniform sei verloren gegangen.
-        Man nannte ihm den Lieferanten – der Rest war Routine.
-        Mit Uniform und gef\xe4lschter Pilotenkennung
-        stellte er sich vor Schalter und bat um Deadhead-Mitfl\xfcge –
-        Freiplätze für reisende Besatzungsmitglieder.
-        \xdcber zwei Jahre flog er in 26 L\xe4nder.
-        Unterkunft und Verpflegung stellte er dem Pan-Am-B\xfcro in Rechnung.
-        Kein Auftritt. Keine Szene. Pure Verwaltungslogik.</p>
-        <p class="vb-intro"><strong>b) Ein Jahr als Assistenzarzt in Georgia:</strong>
-        Er gab sich als Dr. Frank Adams aus – Pädiater, frisch aus New York –
-        und wurde als leitender Supervisor von Medizinstudenten angestellt.
-        Fast ein Jahr lang unterschrieb er Krankenakten
-        und organisierte seinen Alltag so,
-        dass er nie selbst am Bett behandeln musste.
-        Als ein irischer Kollege Tiefengespr\xe4che suchte,
-        verschwand er still. Ohne Szene.</p>
-        <p class="vb-intro"><strong>c) Anwalt in Louisiana – dreimal den Stempel geholt:</strong>
-        Abagnale f\xe4lschte ein Harvard-Abschlusszeugnis
-        und legte das Staatsexamen erst beim dritten Anlauf ab.
-        Keine Panik, kein Aufgeben –
-        die ruhige Ausdauer des SP3,
-        der so lange an einer Aufgabe bleibt,
-        bis sie nutzbar ist.
-        Fast ein Jahr arbeitete er als Assistant Attorney General,
-        bis ein echter Harvard-Absolvent in die Kanzlei eintrat.</p>
-        <p class="vb-intro"><strong>d) Scheckf\xe4lschung im industriellen Ma\xdfstab:</strong>
-        Den gr\xf6\xdften finanziellen Schaden richtete Abagnale
-        durch gef\xe4lschte Schecks an.
-        Er druckte Schecks mit echten Bankleitzahlen,
-        l\xf6ste sie mit seiner Piloten-ID weltweit ein –
-        in Hotels, Banken, Wechselstuben.
-        Keine Waffe. Kein Komplize. Nur Papier und Auftritt.</p>
-        <p class="vb-intro"><strong>e) Verhaftung, Flucht, Verhaftung:</strong>
-        1969 erkannte ihn eine Air-France-Stewardess in Montpellier.
-        Er wurde in Frankreich, Schweden und den USA inhaftiert.
-        Aus dem schwedischen Gef\xe4ngnis entkam er,
-        indem er sich als US-amerikanischer Gef\xe4ngnisinspektor ausgab.
-        In den USA \xfcberzeugte er einen W\xe4rter,
-        er sei undercover f\xfcr das Justizministerium t\xe4tig.
-        Selbst hinter Gittern blieb er im Modus: Welche Rolle sichert mir hier das \xdcberleben?</p>
-        <p class="vb-intro"><strong>f) Vom T\xe4ter zum FBI-Berater:</strong>
-        Nach einer Haftstrafe schloss Abagnale einen Deal mit dem FBI:
-        Er half bei der \xdcberf\xfchrung von Scheckf\xe4lschern
-        und wurde zum gesuchten Experten f\xfcr Dokumentenbetrug.
-        Das ist die SP3-Rehabilitation in Reinform:
-        Dieselbe Kompetenz, dieselbe Effizienz –
-        nur jetzt von einem System gedeckt und bezahlt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Concrete Acts & Exploits</h3>
+        <p class="vb-intro"><strong>a) The Pan Am Uniform via Telephone:</strong> Abagnale started his career with a single phone call. He called Pan American World Airways, claiming his uniform had been lost. They named the supplier — the rest was routine. Equipped with a uniform and a fake pilot ID, he presented himself at counters asking for deadhead flights (free seats for traveling crew members). For over two years he flew to 26 countries. Lodging and meals were billed to Pan Am's corporate office. No grand scene. Pure administrative logic.</p>
+        <p class="vb-intro"><strong>b) A Year as a Pediatric Resident in Georgia:</strong> Posing as Dr. Frank Adams — a pediatrician fresh out of New York — he was hired as the supervising physician for medical students. For nearly a year he signed medical charts and organized his daily routine so that he never had to treat a patient directly at the bedside. When an Irish colleague sought deeper personal conversations, Abagnale quietly vanished. Without drama.</p>
+        <p class="vb-intro"><strong>c) Lawyer in Louisiana — Passing the Bar on the Third Try:</strong> Abagnale forged a Harvard transcript and passed the state bar exam on his third attempt. No panic, no giving up — just the quiet perseverance of the SP3, who stays with a task until it becomes usable. He worked for nearly a year as an Assistant Attorney General until a real Harvard graduate joined the firm.</p>
+        <p class="vb-intro"><strong>d) Check Fraud on an Industrial Scale:</strong> Abagnale inflicted the greatest financial damage through forged checks. He printed checks using authentic routing numbers and cashed them worldwide using his pilot ID — at hotels, banks, and currency exchanges. No weapon. No accomplice. Just paper and demeanor.</p>
+        <p class="vb-intro"><strong>e) Arrest, Escape, Rearrest:</strong> In 1969 an Air France flight attendant recognized him in Montpellier. He was incarcerated in France, Sweden, and the United States. He escaped from a Swedish prison by posing as a US prison inspector. In the US, he convinced a guard that he was working undercover for the Department of Justice. Even behind bars, his mindset remained: which role secures my survival here?</p>
+        <p class="vb-intro"><strong>f) From Offender to FBI Consultant:</strong> Following a prison term, Abagnale struck a deal with the FBI: he assisted in capturing check counterfeiters and became a sought-after expert on document fraud. This is SP3 rehabilitation in its purest form: the exact same competence, the exact same efficiency — only now backed and paid for by a recognized system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. T\xe4terprofil &amp; Einordnung</h3>
-        <p class="vb-intro"><strong>a) Kein Narzisst – ein Effizienzdenker:</strong>
-        Abagnale suchte keinen Applaus.
-        Er suchte keine Verehrung, keinen Ruhm.
-        Er suchte Zugang, Versorgung, den n\xe4chsten sicheren Schritt.
-        Das machte ihn so schwer greifbar:
-        Ohne das klassische Narzissten-Profil
-        fehlt dem Beobachter der einfache Erkl\xe4rungsrahmen.</p>
-        <p class="vb-intro"><strong>b) Die Biografie als letzte Inszenierung:</strong>
-        Sp\xe4tere Recherchen haben Teile seiner
-        Selbstdarstellung als \xfcbertrieben oder erfunden entlarvt.
-        Auch das ist SP3w4:
-        Sobald die eigene Geschichte zur Ressource wird –
-        zur Grundlage eines Buchdeals, einer Beratungskarriere,
-        einer Hollywood-Verfilmung –
-        wird sie genauso optimiert wie die Piloten-Identit\xe4t zuvor.
-        Das Cham\xe4leon – \xfcbergeordnetes Sinnbild des Enneagrammtyps 3 – h\xf6rte nie auf, seine Farbe zu wechseln.</p>
-        <p class="vb-intro"><strong>c) Der SP3er unter den Hochstaplern:</strong>
-        Was Abagnale von klassischen Betr\xfcgern wie Anna Delvey (SP2w3)
-        oder Ruja Ignatova (SP3w4)
-        unterscheidet: er brauchte keine B\xfchne.
-        Ruja Ignatova ist zwar derselbe Typ –
-        aber sie brauchte die B\xfchne, um ihre T\xe4uschung zu entfalten.
-        Abagnale nicht. Er brauchte eine Funktion.
-        Er wollte nicht bewundert werden –
-        er wollte als Ressource im System fungieren,
-        bis das System ihn tr\xe4gt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Offender Profile & Psychological Classification</h3>
+        <p class="vb-intro"><strong>a) Not a Narcissist — An Efficiency Thinker:</strong> Abagnale did not seek applause. He sought no adoration, no fame. He sought access, provision, and the next safe step. This made him exceptionally hard to pin down: without the classic narcissistic profile, observers lacked a simple explanatory framework.</p>
+        <p class="vb-intro"><strong>b) Biography as the Ultimate Staging:</strong> Later investigations exposed parts of his self-narrative as exaggerated or invented. This, too, is SP3w4: as soon as his own story became a resource — the foundation of a book deal, a consulting career, or a Hollywood film adaptation — it was optimized just like the pilot persona before it. The chameleon — the overarching symbol of Enneagram Type 3 — never stopped changing its colors.</p>
+        <p class="vb-intro"><strong>c) The SP3 Among Impostors:</strong> What sets Abagnale apart from classic con artists like Anna Delvey (SP2w3) or Ruja Ignatova (SP3w4) is that he did not need a stage. Ruja Ignatova shares the same type, but she required a stage to unfold her deception. Abagnale did not. He required a function. He did not want to be admired — he wanted to function as a valuable resource within the system until the system sustained him.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(31,166,136,0.06);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Summary</h3>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Frank Abagnale Jr. ist der SP3w4 in seiner pathologischen Reinform:
-        ein Mensch, der Identit\xe4t nicht als Selbstausdruck versteht,
-        sondern als Werkzeug zur Ressourcensicherung.
-        Die Leidenschaft der Eitelkeit zeigt sich bei ihm nicht als Glanz,
-        sondern als k\xfchl kalkulierter Kompetenzanspruch –
-        immer genau so viel Profil, wie das System ben\xf6tigt,
-        um ihn durchzulassen.</p>
+        Frank Abagnale Jr. represents the SP3w4 in its pathological purity: a person who understands identity not as self-expression, but as a tool for resource acquisition. His passion of vanity manifests not as glamour, but as a coolly calculated claim to competence — always offering just enough profile as the system requires to let him pass through.</p>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Der Viererfl\xfcgel l\xe4sst ihn nie zur Ruhe kommen.
-        Hinter jeder neuen Identit\xe4t wartet das alte Gef\xfchl:
-        irgendwo nicht wirklich dazuzugeh\xf6ren.
-        Nicht weil er entlarvt worden w\xe4re –
-        sondern weil er selbst nicht wei\xdf, wer er w\xe4re,
-        wenn niemand zuschaut.</p>
+        The Four-wing never lets him rest. Behind every new identity lies the old feeling of not truly belonging anywhere — not because he might be unmasked, but because he himself does not know who he would be if no one were watching.</p>
         <p style="margin:0;font-size:0.95rem;color:var(--ink);">
-        Das Cham\xe4leon \xe4ndert seine Farbe,
-        bis es die Umgebung vergisst.
-        Aber vergisst es dabei auch sich selbst?
-        Das ist die Frage, die Abagnales Leben stellt –
-        und die er bis zuletzt nicht beantwortet hat.</p>
+        The chameleon changes its color until it forgets its surroundings. But in doing so, does it also forget itself? That is the core question Abagnale's life poses — and one he left unanswered to the very end.</p>
       </div>
 
     </div>
@@ -19791,78 +19611,78 @@ function elliotRodgerPortraitPage() {
           <img src="../assets/portraits/elliot-rodger-portrait.jpg" alt="Elliot Rodger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Elliot Rodger</p>
-        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 mit F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-sub">Das Isla-Vista-Massaker &ndash; Animal correspondence: G\xfcrteltier</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-sub">The Isla Vista Mass Murderer – Animal correspondence: Armadillo</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das G\xfcrteltier</h3>
-        <p class="vb-intro">Das <strong>G\xfcrteltier</strong> ist die Animal correspondence der sozialen Vier &ndash; und es trifft Elliot Rodgers innere Welt auf eine fast schmerzhafte Weise. Das G\xfcrteltier tr\xe4gt seine H\xfclle nach au\xdfen: einen knochenharten Panzer, der den weichen Kern dahinter sch\xfctzt. Es ist nachtaktiv, einzelg\xe4ngerisch, ausgesprochen empfindlich f\xfcr Gefahren. Wenn es bedroht wird, rollt es sich ein &ndash; oder es l\xe4uft panisch, oft in die falsche Richtung. Das G\xfcrteltier geh\xf6rt keinem Rudel. Es sucht keine Dominanz. Es will nur teilhaben &ndash; und wei\xdf nicht wie. Elliot Rodger war dieses Tier: ein Panzer aus Stolz, tief innen eine unertr\xe4gliche Sehnsucht nach Zugeh\xf6rigkeit, und kein Weg, diese beiden Pole zu vers\xf6hnen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Armadillo</h3>
+        <p class="vb-intro">The <strong>Armadillo</strong> is the animal correspondence of the Social Four — and it matches Elliot Rodger's inner world in an almost painful way. The armadillo wears its protective shell on the outside: a bone-hard armor that shields the soft core beneath. It is nocturnal, solitary, and exceptionally sensitive to danger. When threatened, it rolls into a ball — or panics and runs, often in the wrong direction. The armadillo belongs to no pack. It seeks no dominance. It only wants to belong — and does not know how. Elliot Rodger was this animal: an armor of pride, an unbearable longing for belonging deep inside, and no path to reconcile these two poles.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Vier: Ausgeschlossenheit als Identit\xe4t</h3>
-        <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist unter den Vierer-Subtypes die am st\xe4rksten auf Zugeh\xf6rigkeit ausgerichtete &ndash; und gleichzeitig die, bei der Zugeh\xf6rigkeit am tiefsten scheitert. Naranjo nennt diesen Subtype <em>Scham</em>: Die soziale Vier empfindet sich als mangelhaft, als strukturell anders als die anderen, als jemanden, der nie ganz dazugeh\xf6ren wird. Im Unterschied zur selbsterhaltenden oder sexuellen Vier klagt sie nicht laut &ndash; sie leidet still und beobachtet mit brennenden Augen, wie die anderen das bekommen, was ihr fehlt.</p>
-        <p class="vb-intro"><strong>Elliot Rodger</strong>, geboren am 24. Juli 1991 in London, aufgewachsen in Los Angeles, Sohn eines britischen Filmregisseurs und einer malaiischen Mutter, war von fr\xfch an ein Kind, das nicht ankam. Scheidung der Eltern mit sieben Jahren, h\xe4ufige Schulwechsel, Asperger-\xe4hnliche soziale Schwierigkeiten, die nie diagnostiziert wurden. Er beobachtete andere Jugendliche beim Dazugeh\xf6ren &ndash; beim Flirten, beim Ausgehen, beim m\xfchelosen Contactaufnehmen &ndash; und verstand nicht, warum er keinen Zugang fand.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Four: Exclusion as Identity</h3>
+        <p class="vb-intro">The <strong>Social Four (SO4)</strong> is the most belonging-oriented subtype among the Fours — and simultaneously the one for whom belonging fails most profoundly. Naranjo calls this subtype <em>Shame</em>: the Social Four feels defective, structurally different from others, as someone who will never fully belong. Unlike the Self-Preservation or Sexual Four, the Social Four does not complain loudly — they suffer in silence and watch with burning eyes as others receive what they lack.</p>
+        <p class="vb-intro"><strong>Elliot Rodger</strong>, born on July 24, 1991, in London, raised in Los Angeles, the son of a British film director and a Malaysian mother, was a child who never fitted in from early on. His parents divorced when he was seven, followed by frequent school changes and Asperger-like social difficulties that were never formally diagnosed. He watched other youths fit in — flirting, going out, making contact effortlessly — and could not fathom why access remained closed to him.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der F\xfcnferfl\xfcgel: R\xfcckzug, Analyse, wachsende Bitterkeit</h3>
-        <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der sozialen Vier eine k\xfchle intellektuelle Distanz &ndash; und in Rodgers Fall eine f\xfcr sein Alter ungewohnte F\xe4higkeit zur Selbstbeobachtung und Analyse. Er schrieb, las, zog sich zur\xfcck. Er f\xfchrte ausf\xfchrlich Tagebuch, verfolgte philosophische Onlinediskussionen, analysierte seinen eigenen Schmerz mit einem fast akademischen Blick. Der w5 macht die Vier stiller, isolierter, selbstgen\xfcgsamer nach au\xdfen &ndash; aber er h\xe4lt den inneren Schmerz besser verborgen als er ihn l\xf6st.</p>
-        <p class="vb-intro">Das Ergebnis: eine sich \xfcber Jahre verdichtende Weltdeutung. Nicht impulsiv, sondern systematisch. Er entwickelte ein geschlossenes Erkl\xe4rungssystem, in dem seine Einsamkeit nicht Zufall, nicht Pers\xf6nlichkeit, nicht l\xf6sbar war &ndash; sondern das Ergebnis einer ungerechten Welt, die ihm das verweigerte, was anderen zustand. Die Vier nennt das Enneagramm die Leidenschaft des Neids. Bei Rodger wurde Neid zur Weltanschauung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Five-Wing: Withdrawal, Analysis, Growing Bitterness</h3>
+        <p class="vb-intro">The <strong>Five-wing (w5)</strong> imparts a cool, intellectual distance to the Social Four — and, in Rodger's case, an unusual capacity for self-observation and analysis for someone his age. He wrote, read, and withdrew. He kept extensive journals, followed philosophical online discussions, and analyzed his own pain through an almost academic lens. The w5 makes the Four quieter, more isolated, and outwardly self-sufficient — yet it conceals inner pain far better than it resolves it.</p>
+        <p class="vb-intro">The result: a world view that condensed over years. Not impulsive, but systematic. He developed a closed explanatory system in which his loneliness was not coincidental, not a personality flaw, and not fixable — but rather the outcome of an unfair world that denied him what others inherently deserved. The Enneagram calls the passion of Type Four Envy. In Rodger's case, envy evolved into an overarching worldview.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Isolation, Manosphere, Manifest</h3>
-        <p class="vb-intro">Mit 17 Jahren zog Rodger nach Santa Barbara, um am Santa Barbara City College zu studieren. Die Erfahrung wurde f\xfcr ihn zum einschneidenden Misserfolg. Er sah Kommilitonen, die scheinbar m\xfchelos romantische Relationships hatten, die zu Partys gingen, die soziale Selbstverst\xe4ndlichkeiten lebten, die ihm verschlossen blieben. Er begann, einschl\xe4gige Internetforen zu frequentieren &ndash; die sogenannte <em>Manosphere</em>, insbesondere das Forum <em>PUAhate</em> (Anti-Pickup-Artist-Community) &ndash; und fand dort eine Gemeinschaft von M\xe4nnern, die ihre Einsamkeit ebenfalls als systemische Ungerechtigkeit deuteten.</p>
-        <p class="vb-intro">Gleichzeitig schrieb er an seinem Manifest: <em>My Twisted World: The Story of Elliot Rodger</em>. 107 Seiten. Eine detaillierte Autobiografie, die mit kindlicher Unschuld beginnt und in einem pr\xe4zise formulierten Vernichtungsplan endet. Kein Schreien, kein offensichtlicher Wahnsinn &ndash; sondern eine k\xfchle, zunehmend verfestigte \xdcberzeugung: Wenn er keine Anerkennung bekommt, dann soll niemand sie bekommen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biography: Isolation, Manosphere, Manifesto</h3>
+        <p class="vb-intro">At age 17, Rodger moved to Santa Barbara to attend Santa Barbara City College. The experience became a definitive failure for him. He saw fellow students having romantic relationships seemingly without effort, attending parties, and navigating social norms that remained barred to him. He began frequenting specific internet forums — the so-called <em>Manosphere</em>, particularly the forum <em>PUAhate</em> (an anti-pick-up-artist community) — finding a community of men who likewise interpreted their loneliness as a systemic injustice.</p>
+        <p class="vb-intro">Concurrently, he worked on his manifesto: <em>My Twisted World: The Story of Elliot Rodger</em>. 107 pages. A detailed autobiography beginning with childhood innocence and concluding with a precisely formulated plan of destruction. No screaming, no overt madness — just a cold, increasingly solidified conviction: if he could not receive recognition, then no one else should have it either.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Isla Vista, 23. Mai 2014</h3>
-        <p class="vb-intro">Am Abend des 23. Mai 2014 begann Elliot Rodger mit der Umsetzung seines Plans, den er als seinen &bdquo;Tag der Vergeltung&ldquo; bezeichnete. Er war 22 Jahre alt.</p>
-        <p class="vb-intro"><strong>In der Wohnung:</strong> Rodger begann in seiner eigenen Wohnung, wo er seine drei Mitbewohner &ndash; Cheng Yuan Hong (20), George Chen (19) und Weihan Wang (20) &ndash; mit einem Jagdmesser t\xf6tete. Die drei befanden sich in ihren Zimmern. Dies geschah zwischen 21:30 und 21:45 Uhr.</p>
-        <p class="vb-intro"><strong>Alpha Phi-Schwesternschaft:</strong> Um 21:57 Uhr erschien er mit zwei halbautomatischen Pistolen und einem Gewehr vor dem Sororit\xe4tshaus. Da ihm niemand \xf6ffnete, erschoss er auf dem Gehsteig davor drei junge Frauen: Katherine Cooper (22) und Veronika Weiss (19) wurden t\xf6dlich getroffen; ein weiteres Mitglied \xfcberlebte schwer verletzt. Kurz darauf erschoss er Christopher Michaels-Martinez (20) in einem nahe gelegenen Deli-Markt.</p>
-        <p class="vb-intro"><strong>Die Fahrt durch Isla Vista:</strong> Anschlie\xdfend fuhr Rodger mit seinem schwarzen BMW durch die Stra\xdfen des Studentenviertels, schoss aus dem fahrenden Auto auf Fu\xdfg\xe4nger und rammte Radfahrer und Passanten vors\xe4tzlich. In mehreren Polizeibegegnungen wurde er angeschossen. Um 22:17 Uhr, etwa 40 Minuten nach Beginn, wurde sein Fahrzeug aufgefunden. Elliot Rodger war tot &ndash; erschossen durch eine Kopfwunde, vermutlich selbst beigebracht.</p>
-        <p class="vb-intro"><strong>Bilanz:</strong> 6 Tote, 14 Verletzte (mehrere schwer). Unmittelbar vor dem Anschlag hatte er sein Manifest online ver\xf6ffentlicht und ein siebenmin\xfctiges Abschiedsvideo auf YouTube hochgeladen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Attack: Isla Vista, May 23, 2014</h3>
+        <p class="vb-intro">On the evening of May 23, 2014, Elliot Rodger began executing his plan, which he referred to as his "Day of Retribution." He was 22 years old.</p>
+        <p class="vb-intro"><strong>In the Apartment:</strong> Rodger began in his own apartment, where he killed his three roommates — Cheng Yuan Hong (20), George Chen (19), and Weihan Wang (20) — with a hunting knife. The three were in their respective rooms. This occurred between 9:30 PM and 9:45 PM.</p>
+        <p class="vb-intro"><strong>Alpha Phi Sorority House:</strong> At 9:57 PM, he arrived outside the sorority house armed with two semi-automatic handguns and a rifle. When no one opened the door, he shot three young women on the sidewalk outside: Katherine Cooper (22) and Veronika Weiss (19) were fatally wounded; a third member survived with severe injuries. Shortly thereafter, he shot and killed Christopher Michaels-Martinez (20) inside a nearby deli.</p>
+        <p class="vb-intro"><strong>The Drive Through Isla Vista:</strong> Rodger then drove his black BMW through the streets of the student community, firing out of the moving vehicle at pedestrians and intentionally ramming cyclists and bystanders. He was wounded in several exchanges of gunfire with the police. At 10:17 PM, approximately 40 minutes after the attack began, his vehicle came to a stop. Elliot Rodger was dead — killed by a self-inflicted gunshot wound to the head.</p>
+        <p class="vb-intro"><strong>Casualties:</strong> 6 dead, 14 injured (several severely). Immediately prior to the attack, he had published his manifesto online and uploaded a seven-minute farewell video to YouTube.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest und das Video</h3>
-        <p class="vb-intro">Rodgers <em>My Twisted World</em> ist eines der l\xe4ngsten und d\xfcstersten Dokumente dieser Art. Es zeigt keinen schizophrenen Bruch, keinen klinischen Wahn &ndash; sondern eine koh\xe4rente, \xfcber Jahre entwickelte Deutung der eigenen Erfahrung: als Unterlegenem in einer erbarmungslosen sozialen Hierarchie, der endlich zur\xfcckschl\xe4gt.</p>
-        <p class="vb-intro">Das kurz vor der Tat hochgeladene Video zeigt ihn sitzend in seinem Auto, l\xe4chelnd, mit gepflegtem Aussehen &ndash; und sprechend \xfcber seine Einsamkeit, seinen Hass auf M\xe4nner mit Erfolg bei Frauen und sein Vorhaben, sie zu bestrafen. Es wurde millionenfach abgerufen und l\xf6ste eine weltweite Diskussion \xfcber Incel-Ideologie und m\xe4nnliche Einsamkeit aus.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Manifesto and the Video</h3>
+        <p class="vb-intro">Rodger's <em>My Twisted World</em> is one of the longest and darkest documents of its kind. It reflects no schizophrenic break, no clinical psychosis — rather a coherent, years-long interpretation of his own experience: that of an inferior individual in a merciless social hierarchy finally striking back.</p>
+        <p class="vb-intro">The video uploaded shortly before the attack depicts him sitting in his car, smiling, neatly groomed, speaking about his loneliness, his hatred toward men who were successful with women, and his intent to punish them. It was viewed millions of times and triggered a worldwide discussion regarding Incel ideology and male loneliness.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO4 &ndash; &bdquo;Scham&ldquo;:</strong> Claudio Naranjo beschreibt die soziale Vier als den Subtype, der Neid nicht nach au\xdfen tr\xe4gt, sondern nach innen richtet: als Scham, als Minderwertigkeitsgef\xfchl, als \xdcberzeugung, dass etwas im eigenen Wesen fehlt. Im gesunden Bereich f\xfchrt das zu tiefer Empathie, k\xfcnstlerischer Ausdruckskraft, sozialem Engagement. Im ungesunden Bereich h\xe4rtet die Scham zu einem Groll, der die Welt anklagt. Rodger hat diesen Weg vollst\xe4ndig beschritten.</p>
-        <p class="vb-intro"><strong>b) Der F\xfcnferfl\xfcgel als Verst\xe4rker:</strong> Ohne w5 h\xe4tte die soziale Vier m\xf6glicherweise ihren Schmerz emotionaler, offener &ndash; etwa durch Kunst oder Therapie &ndash; verarbeitet. Der w5 gab Rodger die Kapazit\xe4t, seinen Schmerz zu rationalisieren, zu systematisieren, zu archivieren &ndash; ohne ihn je zu transformieren. Das Manifest ist das Produkt dieser Kombination: ein intellektuell strukturiertes, emotional totes Dokument.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft Neid und ihr Kollaps:</strong> Neid bedeutet beim Enneagramm nicht prim\xe4r Missgunst &ndash; sondern das tiefe Gef\xfchl, dass anderen etwas zukommt, das einem selbst grunds\xe4tzlich verwehrt ist. Bei Rodger hat dieser Neid eine letzte Eskalationsstufe erreicht: Wenn ich es nicht haben kann, d\xfcrfen es die anderen auch nicht haben. Das ist der Punkt, an dem Neid zur destruktiven Kraft wird &ndash; nicht mehr als Schmerz, sondern als Programm.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SO4 — "Shame":</strong> Claudio Naranjo describes the Social Four as the subtype that does not project envy outward, but directs it inward: as shame, as a feeling of inferiority, as the conviction that something fundamental is missing in one's nature. In a healthy state, this leads to deep empathy, artistic expressiveness, and social engagement. In an unhealthy state, shame hardens into resentment that indicts the world. Rodger traversed this path to its ultimate end.</p>
+        <p class="vb-intro"><strong>b) The Five-Wing as an Amplifier:</strong> Without the w5, the Social Four might have processed their pain more emotionally and openly — perhaps through art or therapy. The w5 provided Rodger with the capacity to rationalize, systematize, and archive his pain without ever transforming it. The manifesto is the product of this combination: an intellectually structured, emotionally dead document.</p>
+        <p class="vb-intro"><strong>c) The Passion of Envy and Its Collapse:</strong> In the Enneagram, envy does not primarily mean resentment toward others — it is the profound sense that others possess something fundamental that is permanently denied to oneself. In Rodger's case, this envy reached a final stage of escalation: if he could not have it, others should not have it either. This is the point where envy becomes a destructive force — no longer experienced as pain, but executed as a program.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Das G\xfcrteltier, das sich nicht mehr einrollte</h3>
-        <p class="vb-intro">Elliot Rodger ist ein Fall, der \xfcber sich selbst hinausweist &ndash; auf eine Kultur, die jungen M\xe4nnern keine Sprache f\xfcr Einsamkeit gibt, auf digitale Gemeinschaften, die aus Schmerz Ideologie machen, und auf die besondere Gef\xe4hrlichkeit eines SO4w5, dessen Heilungsweg (Contact, Ausdruck, Verbindung) durch alle verst\xe4rkenden Faktoren blockiert wurde.</p>
-        <p class="vb-intro">Das G\xfcrteltier tr\xe4gt seinen Panzer, weil es verletzlich ist. Rodger trug seinen Stolz und seine Unnahbarkeit wie eine R\xfcstung \xfcber einer Wunde, die nie verbunden wurde. Was er als Verachtung der anderen erlebte, war \xfcberwiegend die Folge seiner eigenen Unf\xe4higkeit zur Verbindung &ndash; eine Unf\xe4higkeit, die er nicht sah, weil er nie gelernt hatte, sie zu sehen.</p>
-        <p class="vb-intro">Die Frage, die dieser Fall stellt, ist keine kriminologische. Es ist eine menschliche: Wie viele G\xfcrteltiere laufen schweigend durch die Welt, mit dem gleichen Schmerz, ohne die Eskalation &ndash; und w\xfcrden auf minimale Verbindung reagieren?</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Conclusion: The Armadillo That Stopped Rolling Up</h3>
+        <p class="vb-intro">Elliot Rodger represents a case that points beyond himself — to a culture that offers young men no vocabulary for loneliness, to digital communities that transform pain into ideology, and to the specific danger of an SO4w5 whose path to healing (contact, expression, connection) was blocked by reinforcing factors.</p>
+        <p class="vb-intro">The armadillo wears its shell because it is vulnerable. Rodger wore his pride and aloofness like armor over a wound that was never bandaged. What he experienced as contempt from others was predominantly the consequence of his own inability to form connections — an inability he failed to see because he had never learned how to look.</p>
+        <p class="vb-intro">The question this case poses is not criminological. It is human: how many armadillos walk silently through the world, carrying the same pain without the escalation — and how many would respond to minimal connection?</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Profile Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Elliot Oliver Robertson Rodger</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO4w5 &ndash; Soziale Vier mit F\xfcnferfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Neid (als Weltgericht \xfcber das Verweigertsein)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> G\xfcrteltier</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 24. Juli 1991 &ndash; 23. Mai 2014</span>
-          <span style="display:block;"><strong>Tatfolgen:</strong> 6 Tote, 14 Verletzte; Isla Vista, Kalifornien</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO4w5 – Social Four with Five-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Envy (as a global judgment over being denied)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Armadillo</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lifespan:</strong> July 24, 1991 – May 23, 2014</span>
+          <span style="display:block;"><strong>Consequences:</strong> 6 killed, 14 injured; Isla Vista, California</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SP4, SO4 und SX4 unterschiedlich ausdr\xfcckt – und warum die SO4 Scham nach innen tr\xe4gt.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Vier im Vergleich: Wie sich Neid bei SP4, SO4 und SX4 unterschiedlich ausdrückt – und warum die SO4 Scham nach innen trägt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Neid als Grundmotiv der Vier: Wie der Schmerz des Andersseins entsteht und wie Verbindung w\xe4chst.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Neid als Grundmotiv der Vier: Wie der Schmerz des Andersseins entsteht und wie Verbindung wächst.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Elliot Rodger tötete 2014 beim Anschlag von Isla Vista sechs Menschen und sich selbst. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a legal or historical judgment. Elliot Rodger killed six people and himself in the 2014 Isla Vista attack. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -20014,205 +19834,90 @@ function lukaMagnottaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Luka Magnotta</p>
         <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Kanadischer Mörder und Selbstinszenierungstäter · Animal correspondence: Pfau</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Canadian Murderer & Self-Staged Perpetrator · Animal correspondence: Peacock</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Luka Magnotta</strong> (geb. 1982) erlangte 2012 weltweite traurige Ber\xfchmtheit, als er den
-        chinesischen Studenten Jun Lin in Montreal t\xf6tete, zerst\xfcckelte, das Video online
-        ver\xf6ffentlichte und K\xf6rperteile an politische Parteien und Schulen verschickte.
-        Zuvor war er durch Tierqu\xe4lerei-Videos aufgefallen. Eine internationale Fahndung endete
-        mit seiner Verhaftung in Berlin. Das Enneagramm macht erkl\xe4rbar, was hinter dieser
-        extremen Selbstinszenierung des Schreckens steht.
+        <strong>Luka Magnotta</strong> (b. 1982) gained infamous worldwide notoriety in 2012 when he killed and dismembered Chinese student Jun Lin in Montreal, posted the video online, and mailed body parts to political parties and schools. Prior to this, he had drawn attention through animal cruelty videos. An international manhunt ended with his arrest in Berlin. The Enneagram makes understandable what lay behind this extreme self-staging of terror.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Luka Magnotta</strong> wird dem <strong>Sexuellen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
-        Die Leidenschaft der Drei ist <em>T\xe4uschung</em> (Deceit) – beim sexuellen Subtype
-        ausgedr\xfcckt als <strong>Charisma und Verf\xfchrung</strong>: das Bed\xfcrfnis, durch Bild,
-        K\xf6rper und Ausstrahlung die begehrenswerteste Person im Raum zu sein.
-        Claudio Naranjo nannte die sexuelle Drei schlicht „Charisma".
-        Bei Magnotta mutierte dieses Muster ins Pathologische: Wenn gewöhnlicher Ruhm nicht
-        reicht, wird <em>Berüchtigtsein</em> zum Ziel – denn auch das ist Aufmerksamkeit.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Luka Magnotta</strong> is assigned to the <strong>Sexual Type 3 with Four-wing</strong> in the Enneagram. The passion of Type Three is <em>Deceit</em> — expressed in the sexual subtype as <strong>Charisma and Seduction</strong>: the drive to be the most desirable person in the room through image, physique, and presence. Claudio Naranjo simply called the Sexual Three "Charisma." In Magnotta's case, this pattern mutated pathologically: when ordinary fame was insufficient, notoriety became the goal — because that, too, is attention.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Verf\xfchrend und manipulativ:</strong>
-        Die Sexuelle Drei besitzt einen intensiven, oft hypnotisierenden Blick, der Menschen
-        in seinen Bann zieht. Magnotta nutzte diese Qualit\xe4t, um Aufmerksamkeit zu erlangen
-        und Opfer wie \xd6ffentlichkeit zu manipulieren.</p>
-        <p class="vb-intro"><strong>b) Selbstbewusst und dominant:</strong>
-        Trotz der verst\xf6renden Natur seiner Taten trat Magnotta \xf6ffentlich mit \xfcbertriebener
-        Selbstsicherheit auf. Sein Blick zeigte wenig Reue – auf einem tief verwurzelten Bed\xfcrfnis
-        nach Anerkennung beruhend, nicht auf innerer St\xe4rke.</p>
-        <p class="vb-intro"><strong>c) Berechnend und kalt:</strong>
-        Hinter scheinbarer Leidenschaft verbirgt sich bei der sexuellen Drei oft tiefe emotionale K\xe4lte.
-        Dies war in Magnottas Augen besonders in den Momenten erkennbar, in denen er seine
-        Verbrechen aufzeichnete – das wächserne, ausdruckslose „Porzellanpuppen-Gesicht"
-        der vollst\xe4ndig von ihrer Herzenergie abgeschnittenen Drei.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Facial & Gaze Expression Quality</h3>
+        <p class="vb-intro"><strong>a) Seductive and Manipulative:</strong> The Sexual Three possesses an intense, often mesmerizing gaze that captivates people. Magnotta used this quality to gain attention and manipulate both his victims and the public.</p>
+        <p class="vb-intro"><strong>b) Self-Confident and Dominant:</strong> Despite the disturbing nature of his crimes, Magnotta presented himself publicly with exaggerated self-assurance. His gaze showed little remorse — rooted in a deep-seated need for recognition rather than inner strength.</p>
+        <p class="vb-intro"><strong>c) Calculating and Cold:</strong> Behind apparent passion, the Sexual Three often hides deep emotional coldness. This was particularly evident in Magnotta's eyes during the moments he recorded his crimes — the waxy, expressionless "porcelain doll face" of a Three completely cut off from their heart center.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Selbstinszenierung:</strong>
-        Wie bei der sexuellen Drei typisch, strebte Magnotta danach, sich selbst in Szene zu setzen.
-        Dies manifestierte sich in manipulativen Videos und dem Drang, als Mittelpunkt
-        der Aufmerksamkeit wahrgenommen zu werden.</p>
-        <p class="vb-intro"><strong>b) Perfektionismus im Image:</strong>
-        <strong>Magnotta</strong> war besessen von seinem Aussehen. Er pflegte auf sozialen Medien ein makelloses
-        Bild von sich. Selbst w\xe4hrend seiner Verbrechen unterbrach er die Tat, schaute in den
-        Spiegel, richtete seine Fris\xfcr – als m\xfcsse er die „Maske der Makellosigkeit" in
-        jedem Augenblick aufrechterhalten.</p>
-        <p class="vb-intro"><strong>c) Bed\xfcrfnis nach Bewunderung:</strong>
-        Die sexuelle Drei hat einen starken Drang nach Anerkennung. Bei Magnotta zeigte er sich in
-        verzweifelten Versuchen, durch drastische Taten und Online-Pr\xe4senz Aufmerksamkeit
-        zu erlangen – bis zur \xe4u\xdferten Grenze des Ertr\xe4glichen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Self-Staging:</strong> As is typical for the Sexual Three, Magnotta strived to stage himself dramatically. This manifested in manipulative videos and an obsession with being the center of attention.</p>
+        <p class="vb-intro"><strong>b) Image Perfectionism:</strong> <strong>Magnotta</strong> was obsessed with his appearance. He maintained an immaculate image of himself on social media. Even while committing his crimes, he paused the act, looked in the mirror, and adjusted his hair — as if he had to maintain the "mask of flawlessness" at every single moment.</p>
+        <p class="vb-intro"><strong>c) Need for Admiration:</strong> The Sexual Three has a powerful drive for recognition. In Magnotta, this showed in desperate attempts to gain attention through drastic acts and an online presence — pushed to the utmost limit of what is tolerable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Uners\xe4ttliches Verlangen nach Anerkennung:</strong>
-        <strong>Luka Magnotta</strong> verk\xf6rpert das Bed\xfcrfnis der Sexuellen Drei, im Rampenlicht zu stehen.
-        Seine Verbrechen waren keine Taten des Hasses, sondern gezielte Aktionen, um
-        Aufmerksamkeit zu erlangen – Ruhm durch jedes verf\xfcgbare Mittel.</p>
-        <p class="vb-intro"><strong>b) Manipulativ und berechnend:</strong>
-        Wie die sexuelle Drei benutzte Magnotta Manipulation als Mittel, um seine Umgebung zu
-        kontrollieren und das Bild zu formen, das andere von ihm hatten.</p>
-        <p class="vb-intro"><strong>c) Emotionale Leere hinter der Fassade:</strong>
-        Hinter glamour\xf6ser Selbstinszenierung verbirgt sich bei der sexuellen Drei oft tiefes Gef\xfchl
-        innerer Leere. Magnottas \xe4u\xdferlich perfekte Fassade maskierte eine verzweifelte
-        Search nach Identit\xe4t – denn ohne Blicke auf ihn war er buchst\xe4blich niemand.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Insatiable Craving for Recognition:</strong> <strong>Luka Magnotta</strong> embodies the Sexual Three's need to stand in the spotlight. His crimes were not acts of hatred, but targeted maneuvers to capture attention — fame by any means necessary.</p>
+        <p class="vb-intro"><strong>b) Manipulative and Calculating:</strong> Like the Sexual Three, Magnotta used manipulation as a tool to control his environment and shape the image others held of him.</p>
+        <p class="vb-intro"><strong>c) Emotional Emptiness Behind the Facade:</strong> Behind the glamorous self-staging of the Sexual Three often lies a profound sense of inner emptiness. Magnotta's outwardly flawless facade masked a desperate search for identity — because without eyes upon him, he was literally nobody.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Faszinierend und absto\xdfend zugleich:</strong>
-        <strong>Magnotta</strong> zog Aufmerksamkeit auf sich durch charmante Erscheinung und groteske Taten.
-        Dies ist typisch f\xfcr die sexuelle Drei, der sowohl Anziehungskraft als auch eine tiefere
-        St\xf6rung ausstrahlen kann.</p>
-        <p class="vb-intro"><strong>b) Selbstbewusstes Auftreten:</strong>
-        Trotz der Schwere seiner Verbrechen zeigte Magnotta kaum Unsicherheit oder Reue.
-        Diese Fassade von Selbstbewusstsein ist typisch f\xfcr die sexuelle Drei, der auch im inneren
-        Zusammenbruch nach au\xdfen funktioniert.</p>
-        <p class="vb-intro"><strong>c) Die Notwendigkeit, im Mittelpunkt zu stehen:</strong>
-        Jede seiner Handlungen – einschlie\xdflich der Ver\xf6ffentlichung von Videos – zeigte
-        das starke Bed\xfcrfnis, im Zentrum der Aufmerksamkeit zu stehen.
-        Ein Schl\xfcsselelement des Sexuellen Drei.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Fascinating and Repulsive Simultaneously:</strong> <strong>Magnotta</strong> drew attention through a charming appearance and grotesque acts. This is characteristic of the Sexual Three, who can radiate both physical attraction and deep-seated disturbance.</p>
+        <p class="vb-intro"><strong>b) Self-Assured Demeanor:</strong> Despite the severity of his crimes, Magnotta displayed almost no insecurity or remorse. This facade of self-confidence is typical of the Sexual Three, who continues to function outwardly even during complete internal collapse.</p>
+        <p class="vb-intro"><strong>c) The Imperative to Be the Center of Attention:</strong> Every single one of his actions — including uploading videos — demonstrated a compelling need to be at the center of attention. A key hallmark of the Sexual Three.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Intensiv und elektrisierend:</strong>
-        Wie bei der sexuellen Drei \xfcblich, war Magnottas Energie unübersehbar. Er strahlte eine magnetische
-        Anziehungskraft aus, die Medien wie \xd6ffentlichkeit gleicherma\xdfen in seinen Bann zog.</p>
-        <p class="vb-intro"><strong>b) Unersättliche Search nach Aufmerksamkeit:</strong>
-        Magnottas Energie spiegelte eine st\xe4ndige Search nach mehr Aufmerksamkeit wider.
-        Es reichte nicht, ein Verbrechen zu begehen; er musste es \xf6ffentlich zur Schau stellen.</p>
-        <p class="vb-intro"><strong>c) Dramatische Inszenierung und blockierte Herzenergie:</strong>
-        Die Energie der sexuellen Drei ist dramatisch. Durch die dahinter verborgene blockierte Herzenergie
-        kann sich das Drama noch „imposanter" an der Oberfl\xe4che manifestieren – die sexuelle Drei kontrolliert
-        seine tief verborgene Herzenergie durch „herzlose Taten".
-        Der w\xe4chserne Gesichtsausdruck, das „Porzellanpuppen-Gesicht" – diese Menschen scheinen
-        dem Wachsfigurenkabinett von Madame Tussaud entsprungen zu sein.
-        Kein Zufall: Madame Tussaud (1761–1850) schuf ihre ersten Totenmasken aus
-        Wachskopien hingerichteter Pers\xf6nlichkeiten der Franz\xf6sischen Revolution –
-        Ludwig XVI., Marie-Antoinette, Robespierre. Die „Makellosigkeit" als Einbalsamierung
-        des Lebens.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Intense and Electrifying:</strong> As is common with the Sexual Three, Magnotta's energy was impossible to ignore. He radiated a magnetic pull that captivated both the media and the public alike.</p>
+        <p class="vb-intro"><strong>b) Insatiable Search for Attention:</strong> Magnotta's energy reflected a constant search for more spotlight. Committing a crime was not enough; he had to display it publicly.</p>
+        <p class="vb-intro"><strong>c) Dramatic Staging and Blocked Heart Energy:</strong> The energy of the Sexual Three is inherently dramatic. Due to the blocked heart energy hidden beneath, this drama can manifest even more "imposingly" on the surface — the Sexual Three controls their deeply buried heart energy through "heartless acts." The waxy facial expression, the "porcelain doll face" — these individuals seem to have stepped right out of Madame Tussauds' wax museum. Not by coincidence: Madame Tussaud (1761–1850) created her first death masks from wax copies of executed figures of the French Revolution — Louis XVI, Marie-Antoinette, Robespierre. Flawlessness as the embalming of life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Pfau</h3>
-        <p class="vb-intro"><strong>a) Selbstinszenierung und Eitelkeit:</strong>
-        Der Pfau steht f\xfcr das Bed\xfcrfnis, durch \xe4u\xdferliche Sch\xf6nheit Aufmerksamkeit zu erlangen.
-        Magnotta benutzte seine Erscheinung, um sich als etwas Besonderes darzustellen.</p>
-        <p class="vb-intro"><strong>b) Anziehung durch Fassade:</strong>
-        Der Pfau zeigt seine Federn, um andere anzulocken. Bei Magnotta erkennbar in der
-        betonten Selbstinszenierung und der Pr\xe4sentation eines perfekt gepflegten \xc4u\xdferen.</p>
-        <p class="vb-intro"><strong>c) Leere hinter der Sch\xf6nheit:</strong>
-        Wie des Pfaus Fassade nur eine oberfl\xe4chliche Attraktion ist, war Magnottas
-        \xe4u\xdferer Schein nur eine Maske \xfcber ernsthaften psychologischen Problemen.
-        Seine Taten offenbarten eine emotionale Leere hinter der Dreier-Maske.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Peacock</h3>
+        <p class="vb-intro"><strong>a) Self-Staging and Vanity:</strong> The peacock represents the need to command attention through outward beauty. Magnotta used his appearance to present himself as someone extraordinary.</p>
+        <p class="vb-intro"><strong>b) Attraction Through Facade:</strong> The peacock spreads its feathers to entice others. In Magnotta, this was evident in his emphasized self-staging and the presentation of a meticulously groomed exterior.</p>
+        <p class="vb-intro"><strong>c) Emptiness Behind the Beauty:</strong> Just as the peacock's plumage is merely a surface attraction, Magnotta's outward shine was only a mask over severe psychological issues. His acts revealed a void of emotional emptiness behind the Three's mask.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Luka Magnotta</strong> verk\xf6rpert in ersch\xfcckernder Weise die Schattenseiten des Sexuellen Drei.
-        Seine Verbrechen und die Art, wie er sie \xf6ffentlich inszenierte, spiegeln das Bed\xfcrfnis
-        wider, im Rampenlicht zu stehen – selbst wenn dies in dieser krankhaften Auspr\xe4gung
-        extreme Mittel erforderte. Wie der Pfau, der durch \xe4u\xdfere Pracht Aufmerksamkeit sucht,
-        nutzte Magnotta seine Fassade f\xfcr Ruhm; doch hinter dieser Maske lag eine
-        zutiefst verst\xf6rte Pers\xf6nlichkeit voller Leere und Verzweiflung.
+        <strong>Luka Magnotta</strong> terrifyingly embodies the darkest shadow aspects of the Sexual Three. His crimes and the way he publicly staged them reflect an overwhelming need to stand in the spotlight — even when, in this pathological state, it required extreme measures. Like the peacock seeking attention through outward splendour, Magnotta leveraged his facade for fame; yet behind this mask lay a deeply disturbed personality filled with emptiness and desperation.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) 70\xa0+ Aliasnamen – das Selbst als reine Konstruktion:</strong>
-        <strong>Magnotta</strong> wurde als Eric Clinton Kirk Newman geboren und verwendete im Laufe seines
-        Lebens \xfcber siebzig verschiedene Alias-Identit\xe4ten. Das ist kein blo\xdfes Versteckspiel:
-        Es ist die direkte Konsequenz des sexuellen Dreier-Musters. Die Drei hat keine stabile Identit\xe4t
-        unter ihren Masken – sie <em>ist</em> die Maske. Bei Magnotta wurde daraus ein
-        vollst\xe4ndiges System: immer neue Rollenbilder, Modelnamen, Fantasiepersonen.
-        Jede neue Identit\xe4t war ein weiterer Versuch, endlich jemand zu sein.</p>
-        <p class="vb-intro"><strong>b) „Don't F**k with Cats" – die Generalprobe:</strong>
-        Bereits vor dem Mord an Jun Lin hatten Internet-Detektive eine Facebook-Gruppe gegr\xfcndet,
-        die gezielt nach dem Urheber der Katzen-Tötungsvideos fahndete. Magnotta wusste davon –
-        und filmte weiter. Die Jagd selbst war Aufmerksamkeit. Die Katzenvideos waren keine
-        privaten Abweichungen, sondern eine Generalprobe: Kann ich die Welt mit meinem
-        Content bewegen? Die Antwort war ja – und das verst\xe4rkte das Muster bis zum
-        Unausweichlichen.</p>
-        <p class="vb-intro"><strong>c) Die Verhaftung in Berlin – im eigenen Ruhm gefangen:</strong>
-        <strong>Magnotta</strong> wurde in einem Berliner Internetcaf\xe9 verhaftet, w\xe4hrend er Zeitungsartikel
-        \xfcber sich selbst las. Er konnte nicht aufh\xf6ren, sein eigenes Bild zu konsumieren.
-        Die sexuelle Drei braucht den Spiegel der \xd6ffentlichkeit als Existenznachweis: Nur wenn andere
-        \xfcber mich schreiben, bin ich real. Dass dieser Reflex ihn ins Gef\xe4ngnis f\xfchrte,
-        ist die tragische Logik des Systems.</p>
-        <p class="vb-intro"><strong>d) Die Karla-Homolka-L\xfcge:</strong>
-        <strong>Magnotta</strong> streute gezielt Ger\xfcchte, er sei in einer Beziehung mit Karla Homolka –
-        Kanadas ber\xfchmtester verurteilter Serienmörderin. Es gab keine solche Beziehung.
-        Aber selbst die gef\xe4lschte Verbindung zu einer Ber\xfchmtheit war f\xfcr die sexuelle Drei
-        Identit\xe4tsgewinn: Ich bin jemand, weil ich mit jemandem assoziiert werde.
-        Selbst seine Relationships waren Performance-Material.</p>
-        <p class="vb-intro"><strong>e) „1 Lunatic 1 Ice Pick" – der Mord als Content:</strong>
-        <strong>Magnotta</strong> uploadete das Video des Mordes auf ein Schockportal mit einem gezielt
-        gew\xe4hlten Titel. Er t\xf6tete nicht und filmte dann: Die Filmlogik war von Anfang an
-        Teil der Tatplanung. Der Mord war der Content – er wurde <em>produziert</em>.
-        Das Opfer Jun Lin war Teil der Inszenierung. Dies ist der dunkelste Ausdruck
-        des sexuellen Dreier-Musters: andere Menschen werden zum Material f\xfcr die eigene Darbietung.</p>
-        <p class="vb-intro"><strong>f) Sharon Stone und das Ice Pick – das Verbrechen als Filmzitat:</strong>
-        Nach \xdcberzeugung von Ermittlern war die Wahl des Ice Picks als Mordwaffe eine
-        bewusste Referenz an den Film „Basic Instinct" (1992) mit Sharon Stone.
-        Magnotta identifizierte sich mit weiblichen Filmikonen und kopierte deren
-        \xc4sthetik in seiner eigenen Online-Pr\xe4senz. Selbst die Mordwaffe war ein Zitat –
-        kein Werkzeug, sondern ein Requisit. Diese totale \xdcberblendung von Fiktion und
-        Realit\xe4t ist das Endstadium des sexuellen Dreier-Musters: Das Leben wird zum Drehbuch,
-        andere Menschen zu Figuranten.</p>
-        <p class="vb-intro"><strong>g) Naranjos sexuelle Drei – „Charisma" als Identit\xe4tsersatz:</strong>
-        Claudio Naranjo benannte den Sexuellen Typ 3 mit dem Stichwort <em>Charisma</em>:
-        Er verf\xfchrt durch reines Bild-Appeal, ohne innere Substanz dahinter.
-        Magnotta arbeitete als Modell und Escort – beides professionelle Formen von
-        „jemandem gef\xe4llen und Aufmerksamkeit ernten". Als diese Kan\xe4le nicht
-        die gew\xfcnschte Gr\xf6\xdfe brachten, eskalierte die Search.
-        Ber\xfcchtigung ist bei der sexuellen Drei die Ultima Ratio: lieber das schlimmste Monster sein
-        als unsichtbar.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) 70+ Aliases – The Self as Pure Construction:</strong> <strong>Magnotta</strong> was born Eric Clinton Kirk Newman and used over seventy different alias identities over the course of his life. This was not mere hide-and-seek: it is the direct consequence of the Sexual Three pattern. Type Three has no stable identity beneath its masks — it <em>is</em> the mask. For Magnotta, this became a full system: constantly new personas, model names, and fantasy characters. Every new identity was another attempt to finally be someone.</p>
+        <p class="vb-intro"><strong>b) "Don't F**k with Cats" – The Dress Rehearsal:</strong> Long before the murder of Jun Lin, internet sleuths formed a Facebook group specifically hunting the creator of the cat-killing videos. Magnotta knew about it — and kept filming. The hunt itself was attention. The cat videos were not private deviations; they were a dress rehearsal: can I move the world with my content? The answer was yes — reinforcing the pattern to its inevitable conclusion.</p>
+        <p class="vb-intro"><strong>c) Arrest in Berlin – Trapped in His Own Fame:</strong> <strong>Magnotta</strong> was arrested in a Berlin internet café while reading news articles about himself. He could not stop consuming his own image. The Sexual Three needs the public mirror as proof of existence: only if others write about me am I real. That this exact reflex led to his arrest is the tragic logic of the system.</p>
+        <p class="vb-intro"><strong>d) The Karla Homolka Lie:</strong> <strong>Magnotta</strong> deliberately spread rumors that he was in a relationship with Karla Homolka — Canada's most infamous convicted female serial killer. No such relationship existed. But even the fabricated connection to a celebrity yielded identity value for the Sexual Three: I am someone because I am associated with someone. Even his relationships were performance material.</p>
+        <p class="vb-intro"><strong>e) "1 Lunatic 1 Ice Pick" – Murder as Content:</strong> <strong>Magnotta</strong> uploaded the video of the murder to a shock site under a deliberately chosen title. He did not commit murder and then decide to film it: the cinematic logic was part of the plan from the very beginning. The murder was the content — it was <em>produced</em>. The victim, Jun Lin, was treated as part of the staging. This is the darkest manifestation of the Sexual Three pattern: human beings turned into props for one's own performance.</p>
+        <p class="vb-intro"><strong>f) Sharon Stone and the Ice Pick – Crime as a Movie Quote:</strong> Investigators believed that choosing an ice pick as the murder weapon was a conscious reference to the 1992 film "Basic Instinct" starring Sharon Stone. Magnotta identified with female movie icons and copied their aesthetics across his online presence. Even the murder weapon was a quotation — not a tool, but a prop. This total blur between fiction and reality represents the terminal stage of the Sexual Three pattern: life becomes a script, and other people become extras.</p>
+        <p class="vb-intro"><strong>g) Naranjo's Sexual Three – "Charisma" as an Identity Substitute:</strong> Claudio Naranjo characterized the Sexual Type 3 with the key concept <em>Charisma</em>: seducing through pure image appeal without inner substance behind it. Magnotta worked as a model and escort — both professional avenues of "pleasing others and harvesting attention." When these channels failed to deliver the desired scale, the search escalated. For the Sexual Three, notoriety is the ultimate fallback: better to be the worst monster than to be invisible.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 3 in seiner tiefsten Auspr\xe4gung – Charisma, Verf\xfchrung und der Weg von der Maske zum echten Selbst.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Sexual Type 3 in seiner tiefsten Ausprägung – Charisma, Verführung und der Weg von der Maske zum echten Selbst.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die sexuelle Drei von selbsterhaltender Drei und Sozialer Drei unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, blockierte Herzenergie und der Heilungsweg \xfcber Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Täuschung, blockierte Herzenergie und der Heilungsweg über Authentizität.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Magnotta wurde 2014 wegen erstgradigem Mord zu lebenslanger Haft ohne Bewährung verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a legal or historical judgment. Magnotta was convicted of first-degree murder in 2014 and sentenced to life imprisonment without parole. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
-        {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4)"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -20423,214 +20128,90 @@ function harveyWeinsteinPortraitPage() {
         </div>
         <p class="krim-portrait-name">Harvey Weinstein</p>
         <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Filmproduzent und Serientäter · Animal correspondence: Flusspferd</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">American Film Producer & Serial Offender · Animal correspondence: Hippopotamus</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Harvey Weinstein</strong> (geb. 1952) war einer der m\xe4chtigsten Filmproduzenten Hollywoods,
-        Mitgr\xfcnder von Miramax Films und The Weinstein Company.
-        Er produzierte Klassiker wie <em>Pulp Fiction</em>, <em>Good Will Hunting</em> und
-        <em>Shakespeare in Love</em>. 2020 wurde er in New York wegen Vergewaltigung und sexueller
-        N\xf6tigung zu 23 Jahren Haft verurteilt; 2023 kamen in Kalifornien weitere 16 Jahre hinzu.
-        \xdcber 80 Frauen erhoben Vorw\xfcrfe gegen ihn. Die Ber\xfcchtigung von Journalistinnen wie
-        Jodi Kantor und Megan Twohey sowie des Reporters Ronan Farrow im Jahr 2017 z\xfcndete
-        die globale #MeToo-Bewegung. Das Enneagramm macht erkl\xe4rbar, wie ein Mensch gleichzeitig
-        echter M\xe4zen und systemischer Predator sein kann.
+        <strong>Harvey Weinstein</strong> (b. 1952) was once one of the most powerful film producers in Hollywood, co-founding Miramax Films and The Weinstein Company. He produced cinematic classics such as <em>Pulp Fiction</em>, <em>Good Will Hunting</em>, and <em>Shakespeare in Love</em>. In 2020, he was sentenced to 23 years in prison in New York for rape and sexual assault; in 2023, an additional 16-year sentence was added in California. Over 80 women have brought allegations against him. Investigative reporting by journalists Jodi Kantor and Megan Twohey, along with reporter Ronan Farrow in 2017, ignited the global #MeToo movement. The Enneagram helps explain how one individual could simultaneously be a genuine patron of the arts and a systemic predator.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Harvey Weinstein</strong> wird dem <strong>Self-Preservationen Typ 2 mit Fl\xfcgel 1</strong> im Enneagramm
-        zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> – beim selbsterhaltenden Subtype
-        ausgedr\xfcckt als <strong>Anspruch und Privileg</strong>: Claudio Naranjo nannte die selbsterhaltende Zwei
-        schlicht „Me First" oder „Privilege". Die selbsterhaltende Zwei gibt nicht aus reiner Gro\xdfz\xfcgigkeit –
-        er gibt, weil Geben Abh\xe4ngigkeit erzeugt \u2013 und Abh\xe4ngigkeit Anspruch. Wer so viel gegeben hat, nimmt sich das Recht, zu nehmen. Der Fl\xfcgel 1 erg\xe4nzt dieses Muster mit einer
-        moralischen Selbstgerechtigkeit: <em>Ich k\xe4mpfe f\xfcr das Richtige</em> – eine perfekte
-        Tarnung f\xfcr das Raub-Muster darunter.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Harvey Weinstein</strong> is assigned to the <strong>Self-Preservation Type 2 with One-wing</strong> in the Enneagram. The passion of Type Two is <em>Pride</em> — which, in the Self-Preservation subtype, manifests as <strong>Entitlement and Privilege</strong>: Claudio Naranjo simply termed the Self-Preservation Two "Me First" or "Privilege." The Self-Preservation Two does not give out of pure altruism; they give because giving creates dependency — and dependency creates entitlement. Whoever has given so much claims the right to take. The One-wing reinforces this pattern with moral self-righteousness: <em>I am fighting for the right cause</em> — a perfect camouflage for the predatory pattern beneath.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Einsch\xfcchternd und fordernd:</strong>
-        Weinsteinss Blick war ber\xfcchtigt: ein kalkuliertes Repertoire zwischen scheinbarer W\xe4rme
-        und kaum verh\xfcllter Bedrohung. Zeitzeugen beschrieben ihn als physisch \xfcberw\xe4ltigend –
-        ein Blick, der signalisierte: <em>Du bist hier, weil ich es erlaube.</em></p>
-        <p class="vb-intro"><strong>b) Pr\xfcfend und bewertend:</strong>
-        Er musterte Menschen wie Gesch\xe4ftsobjekte – was kannst du mir geben, was schulde ich dir,
-        und vor allem: was schuldest du mir? Der Blick der selbsterhaltenden Zwei rechnet st\xe4ndig die Bilanz der
-        Verpflichtungen nach.</p>
-        <p class="vb-intro"><strong>c) Pl\xf6tzliche W\xe4rme als Werkzeug:</strong>
-        Die selbsterhaltende Zwei kann in Sekunden von Eisk\xe4lte zu \xfcberstr\xf6mender Herzlichkeit wechseln –
-        wenn es ihm n\xfctzt. Weinstein beherrschte diesen Wechsel meisterhaft:
-        Das Angebot, die Umarmung, das Versprechen – und dann die Forderung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Intimidating and Demanding:</strong> Weinstein's gaze was infamous: a calculated repertoire fluctuating between apparent warmth and barely concealed threat. Contemporaries described him as physically overwhelming — a gaze that signaled: <em>You are here because I allow it.</em></p>
+        <p class="vb-intro"><strong>b) Scrutinizing and Evaluative:</strong> He surveyed people like business assets — what can you offer me, what do I owe you, and above all: what do you owe me? The gaze of the Self-Preservation Two constantly tallies the balance sheet of obligations.</p>
+        <p class="vb-intro"><strong>c) Sudden Warmth as a Tool:</strong> The Self-Preservation Two can shift from icy coldness to effusive warmth in seconds if it serves their purpose. Weinstein mastered this transition: the offer, the hug, the promise — followed by the demand.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Erm\xf6glicher:</strong>
-        <strong>Weinstein</strong> machte Karrieren. Er erkannte Talent, f\xf6rderte es, \xf6ffnete T\xfcren –
-        und schuf damit systematisch Abh\xe4ngigkeit. Die selbsterhaltende Zwei gibt, weil Geben Kontrolle erzeugt.
-        Jede F\xf6rderung war eine unsichtbare Rechnung.</p>
-        <p class="vb-intro"><strong>b) Netzwerk der Verpflichtung:</strong>
-        Er baute \xfcber Jahrzehnte ein dichtes Netz aus Abh\xe4ngigkeiten, Gef\xe4lligkeiten und
-        Loyalit\xe4ten. Agenten, Manager, Anw\xe4lte, Journalisten, Studios – alle waren in das
-        System eingebunden. Die selbsterhaltende Zwei f\xfchlt sich in solchen Netzwerken sicher wie das Flusspferd
-        in ihrem Teich.</p>
-        <p class="vb-intro"><strong>c) Progressive Fassade des Fl\xfcgels Eins:</strong>
-        Er finanzierte feministische Filme, unterst\xfctzte die Demokratische Partei massiv,
-        positionierte sich als Verb\xfcndeter der Frauen in Hollywood – w\xe4hrend er gleichzeitig
-        systematisch Frauen missbrauchte. Der Fl\xfcgel 1 liefert die moralische Rechtfertigung,
-        mit der die selbsterhaltende Zwei sein Anspruchsdenken ummantelt: <em>Ich tue so viel Gutes,
-        ich habe das Recht auf Ausnahmen.</em></p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Enabler:</strong> <strong>Weinstein</strong> built careers. He recognized talent, nurtured it, opened doors — and systematically created dependency in the process. The Self-Preservation Two gives because giving establishes control. Every act of sponsorship was an invisible invoice.</p>
+        <p class="vb-intro"><strong>b) Network of Obligation:</strong> Over decades, he constructed a dense web of dependencies, favors, and loyalties. Agents, managers, lawyers, journalists, studios — all were integrated into his system. The Self-Preservation Two feels as secure in such networks as a hippopotamus in its pool.</p>
+        <p class="vb-intro"><strong>c) Progressive Facade of the One-Wing:</strong> He financed feminist films, donated heavily to the Democratic Party, and positioned himself as an ally to women in Hollywood — all while systematically abusing women. The One-wing provides the moral justification wrapping the Self-Preservation Two's sense of entitlement: <em>I do so much good that I am entitled to exceptions.</em></p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Anspruch als Kernstruktur:</strong>
-        Self-Preservatione Zwei = „Privilege / Me First". Weinsteinss innerste \xdcberzeugung: <em>Ich habe gegeben,
-        also bin ich berechtigt zu nehmen.</em> Dieses Anspruchsdenken ist keine bewusste
-        Strategie – es ist eine tief verwurzelte psychische Struktur, die alle Relationships
-        als transaktional liest.</p>
-        <p class="vb-intro"><strong>b) Manipulation durch F\xfcrsorge:</strong>
-        Erst geben, dann fordern. Erst die Karrierechance, dann die Einladung ins Hotelzimmer.
-        Erst die herzliche Umarmung, dann der \xdcbergriff. Der Zwei-Zyklus in seiner
-        pathologischsten Form: F\xfcrsorge als Trojanisches Pferd.</p>
-        <p class="vb-intro"><strong>c) Das Schweige-System:</strong>
-        <strong>Weinstein</strong> verwendete das gleiche Loyalit\xe4tsnetzwerk, das ihm Erfolg gebracht hatte,
-        zur Unterdr\xfcckung von Opfern: Geheimhaltungsvertr\xe4ge, Drohungen, Anw\xe4lte.
-        Die selbsterhaltende Zwei sichert ihr Revier mit denselben Mitteln, mit denen sie es aufgebaut hat.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Entitlement as a Core Structure:</strong> Self-Preservation Two = "Privilege / Me First." Weinstein's innermost conviction was: <em>I have given, therefore I am entitled to take.</em> This entitlement is not merely a conscious strategy; it is a deep-seated psychological structure that views all relationships as transactional.</p>
+        <p class="vb-intro"><strong>b) Manipulation Through Care:</strong> Give first, demand later. First the career opportunity, then the invitation to the hotel room. First the warm embrace, then the assault. The Two cycle in its most pathological form: caretaking as a Trojan horse.</p>
+        <p class="vb-intro"><strong>c) The System of Silence:</strong> <strong>Weinstein</strong> utilized the same loyalty network that brought him success to suppress victims: non-disclosure agreements, threats, and lawyers. The Self-Preservation Two secures its territory using the exact same means used to build it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der gro\xdfz\xfcgige M\xe4zen:</strong>
-        In der Filmbranche galt Weinstein als jemand, der Chancen gab und Talente entdeckte.
-        Diese Wirkung war echt – die selbsterhaltende Zwei gibt wirklich. Das macht sie so schwer zu durchschauen:
-        das Gute und das Gef\xe4hrliche kommen aus derselben Quelle.</p>
-        <p class="vb-intro"><strong>b) Unterdr\xfcckende Pr\xe4senz:</strong>
-        Gleichzeitig wurde er von Mitarbeitern als tyrannisch, explosiv und unberechenbar
-        beschrieben. Der selbsterhaltende Zwei with One-wing kann bei Frustration seiner Anspruchsstruktur in extreme
-        Wutausbr\xfcche verfallen – wenn das Geben nicht die erwartete R\xfcckkehr bringt.</p>
-        <p class="vb-intro"><strong>c) Genie und Monster in einer Person:</strong>
-        Diese Doppelnatur erm\xf6glichte es dem System, so lange wegzusehen. Denn wer Weinstein
-        anklagte, riskierte, das Genie mit dem Monster zu verwerfen – und das war in Hollywood
-        undenkbar. Die selbsterhaltende Zwei nutzt ihre echten St\xe4rken als Schutzschild.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) The Generous Patron:</strong> Within the film industry, Weinstein was regarded as someone who granted opportunities and discovered raw talent. This impression was real — the Self-Preservation Two actually gives. That is precisely what makes them so difficult to see through: the good and the dangerous spring from the exact same source.</p>
+        <p class="vb-intro"><strong>b) Oppressive Presence:</strong> At the same time, employees described him as tyrannical, explosive, and unpredictable. When their sense of entitlement is frustrated, an unhealthy SP2w1 can fly into extreme rages if giving fails to yield the expected return.</p>
+        <p class="vb-intro"><strong>c) Genie and Monster in One Person:</strong> This dual nature enabled the industry to look away for so long. To accuse Weinstein meant risking discarding the cinematic genius along with the monster — an unthinkable prospect in Hollywood for decades. The Self-Preservation Two uses their genuine strengths as a shield.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Expansiv und raumf\xfcllend:</strong>
-        <strong>Weinstein</strong> betrat R\xe4ume wie ein Gravitationsfeld – alle orientierten sich an ihm.
-        Diese physische wie psychische Raumnahme ist typisch f\xfcr die selbsterhaltende Zwei:
-        Das Revier wird besetzt, nicht verhandelt.</p>
-        <p class="vb-intro"><strong>b) Unterdr\xfcckte Wut hinter der W\xe4rme:</strong>
-        Hinter der Gro\xdfz\xfcgigkeit schlummerte eine explosive Aggressivit\xe4t, die sich
-        entlud, sobald jemand die implizite Transaktion verweigerte. Mehrere Frauen
-        beschrieben den Wechsel von Charme zu Bedrohung als erschreckend abrupt –
-        das Flusspferd, das pl\xf6tzlich aus dem Wasser schie\xdft.</p>
-        <p class="vb-intro"><strong>c) Die Energie der Transaktionalit\xe4t:</strong>
-        Jede Begegnung mit Weinstein war implizit eine Transaktion. Sein Energiefeld
-        kommunizierte st\xe4ndig: <em>Was gibst du mir, was gebe ich dir?</em>
-        Diese Energie war f\xfcr viele Beteiligte sp\xfcrbar – und wurde aus Karrieregr\xfcnden
-        hingenommen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Expansive and Space-Dominating:</strong> <strong>Weinstein</strong> entered rooms like a gravitational field — everyone oriented themselves around him. This physical and psychological occupation of space is typical for the Self-Preservation Two: territory is seized, not negotiated.</p>
+        <p class="vb-intro"><strong>b) Suppressed Rage Beneath Warmth:</strong> Hidden beneath his generosity lay an explosive aggressiveness that detonated as soon as someone declined the implicit transaction. Numerous women described the shift from charm to threat as terrifyingly abrupt — a hippopotamus suddenly lunging from the water.</p>
+        <p class="vb-intro"><strong>c) The Energy of Transactionality:</strong> Every encounter with Weinstein carried an implicit transaction. His energy field constantly communicated: <em>What will you give me, what will I give you?</em> This energy was palpable to those around him — and was tolerated for the sake of career advancement.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Tr\xfcgerische Harmlosigkeit:</strong>
-        Das Flusspferd wirkt auf den ersten Blick tr\xe4ge, massig, beinahe komisch.
-        Dabei ist es eines der gef\xe4hrlichsten Tiere Afrikas. \xc4hnlich wirkte Weinstein
-        auf viele: ein \xfcbergewichtiger, ungepflegter Mann, der kaum wie ein klassischer
-        „Machtmensch" aussah – und gerade deshalb so lange untersch\xe4tzt wurde.</p>
-        <p class="vb-intro"><strong>b) Territoriales Dominanzverhalten:</strong>
-        Das Flusspferd duldet keine Eindringlinge in seinem Gew\xe4sser. Weinstein behandelte
-        Hollywood als sein pers\xf6nliches Revier. Wer seine Regeln nicht akzeptierte,
-        wurde aus dem Teich gedr\xe4ngt – Karriere beendet, Rufmord betrieben, rechtlich verfolgt.</p>
-        <p class="vb-intro"><strong>c) Explosive Aggression unter der Oberfl\xe4che:</strong>
-        Flusspferde sind nicht dauerhaft aggressiv – aber ihre Ausbrüche sind pl\xf6tzlich
-        und vernichtend. Weinsteins Wutanf\xe4lle, Drohungen und tats\xe4chliche Gewalttaten
-        folgten demselben Muster: langes Gew\xe4hren, gelegentliches Gro\xdfz\xfcgig-Sein,
-        dann explosiver Ausbruch wenn die Erwartung entt\xe4uscht wurde.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) Deceptive Harmlessness:</strong> At first glance, the hippopotamus appears sluggish, bulky, almost comical. Yet it is one of the most dangerous animals in Africa. Weinstein had a similar effect on many: an overweight, unkempt man who hardly looked like a classic "man of power" — and was underestimated for that very reason for so long.</p>
+        <p class="vb-intro"><strong>b) Territorial Dominance:</strong> The hippopotamus tolerates no intruders in its waters. Weinstein treated Hollywood as his personal domain. Whoever refused to play by his rules was driven out of the pool — careers ended, reputations ruined, legal battles waged.</p>
+        <p class="vb-intro"><strong>c) Explosive Aggression Beneath the Surface:</strong> Hippos are not continuously aggressive — but their outbursts are swift and destructive. Weinstein's rages, threats, and physical assaults followed this pattern: long periods of indulgence and occasional generosity, followed by explosive outbursts when expectations were disappointed.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Harvey Weinstein</strong> verk\xf6rpert den Self-Preservationen Typ 2 mit Fl\xfcgel 1 in seiner
-        dunkelsten Auspr\xe4gung. Echter M\xe4zen und systematischer Predator – diese Doppelnatur
-        ist kein Widerspruch, sondern zwei Seiten derselben Struktur der selbsterhaltenden Zwei: Das Geben erzeugt
-        Anspruch, der Anspruch erm\xe4chtigt zur Entnahme. Das Flusspferd-Bild verdeutlicht die
-        zentrale Paradoxie: ein Tier, das im eigenen Teich f\xfcr Ordnung sorgt und F\xfcrsorge
-        ausstrahlt – aber jeden vernichtet, der seine Grenzen nicht respektiert.
-        Weinsteins Fall wurde zum Symbol: nicht nur f\xfcr individuelle Schuld, sondern f\xfcr
-        ein Machtsystem, das genau diese Struktur jahrzehntelang sch\xfctzte.
+        <strong>Harvey Weinstein</strong> embodies the Self-Preservation Type 2 with a One-wing in its darkest manifestation. Genuine patron and systematic predator — this dual nature is not a contradiction, but two sides of the same Self-Preservation Two structure: giving creates entitlement, and entitlement empowers taking. The hippopotamus analogy illustrates this central paradox: an animal that maintains order and exudes care in its own pool — yet destroys anyone who fails to respect its boundaries. Weinstein's case became symbolic: not only of individual guilt, but of a system of power that protected this exact psychological structure for decades.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos selbsterhaltende Zwei – „Privilege / Me First":</strong>
-        Claudio Naranjo beschrieb den Self-Preservationen Typ 2 mit dem Begriff <em>Privileg</em>.
-        Die selbsterhaltende Zwei f\xfchlt sich aufgrund ihrer Gaben und Leistungen zu Sonderbehandlung berechtigt –
-        und zwar nicht als bewusste Manipulation, sondern als echte innere \xdcberzeugung:
-        <em>Ich habe so viel gegeben. Die Welt ist mir etwas schuldig.</em>
-        Weinsteins Verhalten ist eine direkte Umsetzung dieser Struktur in extremster Form.</p>
-        <p class="vb-intro"><strong>b) Black Cube – die selbsterhaltende Zwei sichert ihr Revier:</strong>
-        Als die Vorw\xfcrfe 2017 ans Licht zu kommen drohten, heuerte Weinstein die israelische
-        Geheimdienstfirma Black Cube an, um potenzielle Ankl\xe4gerinnen zu \xfcberwachen,
-        zu destabilisieren und zum Schweigen zu bringen. Agenten gaben sich als Aktivistinnen
-        und Journalistinnen aus. Das ist das Loyalit\xe4tsnetzwerk der selbsterhaltenden Zwei in ihrer dunkelsten
-        Anwendung: die Werkzeuge des Aufbaus werden zum Werkzeug der Unterdr\xfcckung.</p>
-        <p class="vb-intro"><strong>c) Das weinende Raubtier:</strong>
-        Mehrere Opfer beschrieben dasselbe Muster: Weinstein wurde w\xe4hrend oder kurz nach dem
-        \xdcbergriff weinend und flehend. Er bat um Verst\xe4ndnis, sprach von seiner Kindheit,
-        seiner Einsamkeit – und bat die Frau, die er gerade angegriffen hatte, um Mitgef\xfchl.
-        Dies ist klassische Manipulation der selbsterhaltenden Zwei: die Rolle des Hilfsbedürftigen \xfcbernehmen,
-        um den anderen in der Helfer-Position zu halten. Auf den Angriff folgt die
-        emotionale Vereinnahmung.</p>
-        <p class="vb-intro"><strong>d) Das Miramax-Genie – das Geben war echt:</strong>
-        <strong>Weinstein</strong> produzierte einige der bedeutendsten Filme der 1990er und 2000er Jahre.
-        Er hatte ein echtes Gespr\xfcr f\xfcr Qualit\xe4t und setzte sich f\xfcr Regisseure ein,
-        die kein anderes Studio finanzieren wollte. Dieses Talent war nicht gespielt.
-        Die selbsterhaltende Zwei gibt tats\xe4chlich – das macht sie so schwer zu verurteilen und so lange
-        systemisch gesch\xfctzt: Die Rechnung kommt sp\xe4ter.</p>
-        <p class="vb-intro"><strong>e) „I'm a work in progress" – die selbsterhaltende Zwei als Opfer:</strong>
-        Weinsteinss erste \xf6ffentliche Reaktion auf die Vorw\xfcrfe war kein Schuldbekenntnis,
-        sondern eine Selbstdarstellung als lernender, sich entwickelnder Mensch:
-        „I came of age in the 60s and 70s [...] I need to get help."
-        Dieser Rahmen – Ich bin nicht Täter, ich bin ein Mensch, der Hilfe braucht –
-        ist die Umkehrung der selbsterhaltenden Zwei: Die Zwei ist darin ge\xfcbt, sich selbst als Bed\xfcrftigen
-        darzustellen, um Mitgef\xfchl zu generieren statt Verantwortung zu \xfcbernehmen.</p>
-        <p class="vb-intro"><strong>f) Die One-Wing-Doppelmoral:</strong>
-        <strong>Weinstein</strong> spendete \xfcber Jahre Millionen an feministische Organisationen, an
-        Frauenrechts-Kampagnen und an die Demokratische Partei. Er finanzierte Filme,
-        die Frauen in starken Rollen zeigten. Der Fl\xfcgel 1 liefert der selbsterhaltenden Zwei eine
-        moralische Identit\xe4t: <em>Ich bin auf der richtigen Seite der Geschichte.</em>
-        Diese Selbstwahrnehmung als guter Mensch ist keine Heuchelei – die selbsterhaltende Zwei with One-wing glaubt
-        es wirklich. Das macht die Diskrepanz zwischen Selbstbild und Taten so extrem.</p>
-        <p class="vb-intro"><strong>g) Das systemische Schweigen – Komplizenschaft als Produkt der selbsterhaltenden Zwei:</strong>
-        Hunderte Menschen in Hollywood wussten es oder ahnten es – und schwiegen.
-        Das ist kein Zufall. Die selbsterhaltende Zwei baut \xfcber Jahre ein Netz aus gegenseitigen
-        Abh\xe4ngigkeiten auf, in dem Schweigen zur impliziten Vertragsbedingung wird.
-        Jeder, der in Weinsteinss System profitiert hatte, war damit Teil des Schutzmantels.
-        Sein Fall wurde deshalb zum Symbol nicht nur f\xfcr eine Einzelperson, sondern f\xfcr
-        eine Machtstruktur, die die selbsterhaltende Zwei erschafft und von der sie abh\xe4ngt.
-        #MeToo war der Moment, in dem dieses System zusammenbrach.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's Self-Preservation Two – "Privilege / Me First":</strong> Claudio Naranjo described the Self-Preservation Type 2 using the concept of Privilege. The Self-Preservation Two feels entitled to special treatment on the basis of their gifts and contributions — not as a conscious scheme, but as a genuine internal conviction: <em>I have given so much. The world owes me.</em> Weinstein's behavior is a direct, extreme implementation of this dynamic.</p>
+        <p class="vb-intro"><strong>b) Black Cube – Securing the Territory:</strong> When allegations threatened to surface in 2017, Weinstein hired the private intelligence firm Black Cube to monitor, destabilize, and silence prospective accusers. Operatives posed as women's rights activists and journalists. This represents the loyalty network of the Self-Preservation Two applied in its darkest form: the tools used to build the empire become weapons of suppression.</p>
+        <p class="vb-intro"><strong>c) The Weeping Predator:</strong> Multiple victims recounted the same pattern: Weinstein would break down weeping and begging during or immediately following an assault. He pleaded for understanding, spoke of his childhood and loneliness, and asked the woman he had just attacked for sympathy. This is classic Self-Preservation Two manipulation: adopting the role of the helpless, needy party to keep the other person trapped in a caretaking position. Attack is instantly followed by emotional co-optation.</p>
+        <p class="vb-intro"><strong>d) The Miramax Genius – The Giving Was Real:</strong> <strong>Weinstein</strong> produced some of the most critically acclaimed films of the 1990s and 2000s. He possessed an authentic eye for quality and championed directors whom no other studio would fund. This talent was genuine. The Self-Preservation Two actually gives — which is why they are so difficult to condemn and remain protected by systems for so long. The bill simply arrives later.</p>
+        <p class="vb-intro"><strong>e) "I'm a work in progress" – The SP2 as Victim:</strong> Weinstein's initial public statement following the allegations was not a confession of guilt, but a self-portrait as a learning, evolving human being: "I came of age in the 60s and 70s [...] I need to get help." Framing himself as a person who needs help rather than a perpetrator is a hallmark inversion of the Self-Preservation Two: the Two is adept at casting themselves as needy to elicit sympathy instead of taking responsibility.</p>
+        <p class="vb-intro"><strong>f) The One-Wing Double Standard:</strong> <strong>Weinstein</strong> donated millions over many years to feminist organizations, women's rights campaigns, and the Democratic Party. He financed films featuring strong female leads. The One-wing provides the Self-Preservation Two with a righteous moral identity: <em>I am on the right side of history.</em> This self-perception as a good person is rarely conscious hypocrisy — the Self-Preservation Two with a One-wing truly believes it, making the gulf between self-image and actions so extreme.</p>
+        <p class="vb-intro"><strong>g) Systemic Silence – Complicity Born of the SP2 Web:</strong> Hundreds of people in Hollywood knew or suspected the truth — and remained silent. This was no accident. Over decades, the Self-Preservation Two constructs a network of mutual dependencies in which silence becomes an implicit contractual condition. Anyone who profited within Weinstein's system became part of his protective shield. His downfall became a symbol not merely of one individual's crimes, but of a power structure created by — and dependent on — the Self-Preservation Two. #MeToo marked the moment that system collapsed.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 2 in seiner tiefsten Auspr\xe4gung – Anspruch, Geben als Kontrolle und der Weg zur echten Liebe ohne Rechnung.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 2 in seiner tiefsten Ausprägung – Anspruch, Geben als Kontrolle und der Weg zur echten Liebe ohne Rechnung.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Wie sich die selbsterhaltende Zwei von Sozialer und Sexueller Zwei unterscheidet – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, blockierte Herzenergie und der Heilungsweg \xfcber echte Bed\xfcrftigkeit.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, blockierte Herzenergie und der Heilungsweg über echte Bedürftigkeit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Harvey Weinstein wurde in mehreren Verfahren wegen Vergewaltigung und sexueller Nötigung rechtskräftig verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a legal or historical judgment. Harvey Weinstein was legally convicted of rape and sexual assault in multiple judicial proceedings. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4)"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -20650,201 +20231,88 @@ function pabloEscobarPortraitPage() {
         <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Pablo Escobar</strong> (1949–1993) war der Kopf des Medell\xedn-Kartells und kontrollierte
-        zeitweise bis zu 80\xa0% des weltweiten Kokainmarkts. Er akkumulierte ein gesch\xe4tztes
-        Verm\xf6gen von 30 Milliarden US-Dollar – und wurde dabei zum reichsten Verbrecher
-        der Geschichte. Was ihn von anderen Drogenbossen unterscheidet: sein
-        gleichzeitiges Wirken als Volksheld, Wohlt\xe4ter, Terrorist und skrupelloser M\xf6rder.
-        Das Enneagramm macht diese Widerspr\xfcche lesbar.
+        <strong>Pablo Escobar</strong> (1949–1993) was the kingpin of the Medellín Cartel and at times controlled up to 80% of the global cocaine market. He accumulated an estimated net worth of 30 billion US dollars — becoming the wealthiest criminal in history. What set him apart from other drug lords was his simultaneous operation as a folk hero, benefactor, terrorist, and ruthless killer. The Enneagram makes these contradictions readable.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Pablo Escobar</strong> wird dem <strong>Self-Preservationen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
-        Die Leidenschaft der Drei ist <em>T\xe4uschung</em> (Deceit) – aber beim selbsterhaltenden
-        Subtype richtet sie sich nicht auf Image und \xf6ffentliche Bewunderung wie bei der Sozialen Drei,
-        sondern auf <strong>Akkumulation und Sicherheit</strong>: Reichtum, Kontrolle, Ressourcen.
-        Die selbsterhaltende Drei arbeitet effizienter, pragmatischer und k\xe4lter als seine Geschwister-Subtypes –
-        und ist deshalb oft der gef\xe4hrlichste.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Pablo Escobar</strong> is assigned to the <strong>Self-Preservation Type 3 with Four-wing</strong> in the Enneagram. The passion of Type Three is <em>Deceit</em> — however, in the Self-Preservation subtype, it is not directed toward image and public admiration as with the Social Three, but toward <strong>Accumulation and Security</strong>: wealth, control, and resources. The Self-Preservation Three operates with greater efficiency, pragmatism, and coldness than its sibling subtypes — and is therefore often the most dangerous.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Intensiv und durchdringend:</strong>
-        Escobars Blick war scharf und wachsam, auf Macht und Kontrolle gerichtet.
-        Er analysierte jede Situation sofort – nicht aus Neugier, sondern aus reinem Kalk\xfcl.</p>
-        <p class="vb-intro"><strong>b) Berechnend und verschlagen:</strong>
-        Er nutzte seinen Blick, um Schw\xe4chen zu erkennen und Menschen einzusch\xe4tzen.
-        Sein verschlagener, eiskalter Ausdruck dr\xfcckte das Kernprinzip der selbsterhaltenden Drei aus:
-        <em>Wie kann ich euch alle f\xfcr mich nutzen, damit ich noch reicher, gr\xf6\xdfer und
-        mächtiger werde?</em></p>
-        <p class="vb-intro"><strong>c) Selbstbewusst und entschlossen:</strong>
-        Seine Augen verrieten absolute Entschlossenheit und das Selbstbewusstsein eines Mannes,
-        der sich mit zunehmendem Erfolg als unantastbar betrachtete – typisch f\xfcr die
-        selbsterhaltende Eitelkeit der selbsterhaltenden Drei.</p>
-        <p class="vb-intro"><strong>d) Kalt und emotional distanziert:</strong>
-        Escobars Blick vermittelte eine scharfe Kalkulation ohne emotionale W\xe4rme.
-        Die blockierte Herzenergie des Typs 3 zeigt sich nirgends deutlicher als in
-        seinen Augen: Pr\xe4zision statt Mitgef\xfchl.</p>
-        <p class="vb-intro"><strong>e) Unerschütterlich:</strong>
-        Selbst in Momenten h\xf6chster Bedrohung bewahrte er die Fassung. Dieses
-        Merkmal – die Ruhe im Sturm – ist ein Kernsignal der selbsterhaltenden Drei:
-        keine Panik, nur n\xe4chster Zug.</p>
-        <p class="vb-intro"><strong>f) Manipulativ-charmant wenn n\xf6tig:</strong>
-        Er konnte auch Charme und Empathie projizieren – gezielt, instrumentell.
-        Die Drei ist der charismatischste Waschbär des Enneagramms, wenn es ihr n\xfctzt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Intense and Penetrating:</strong> Escobar's gaze was sharp and vigilant, locked onto power and control. He analyzed every situation instantly — not out of curiosity, but out of pure calculation.</p>
+        <p class="vb-intro"><strong>b) Calculating and Cunning:</strong> He used his gaze to identify weaknesses and gauge people. His cunning, icy expression embodied the core principle of the Self-Preservation Three: <em>How can I leverage all of you for myself so that I become even richer, greater, and more powerful?</em></p>
+        <p class="vb-intro"><strong>c) Self-Assured and Determined:</strong> His eyes betrayed absolute determination and the self-confidence of a man who considered himself untouchable as his success grew — typical of the self-preservation vanity of Type Three.</p>
+        <p class="vb-intro"><strong>d) Cold and Emotionally Distanced:</strong> Escobar's gaze conveyed sharp calculation devoid of emotional warmth. The blocked heart energy of Type Three is nowhere more evident than in his eyes: precision instead of compassion.</p>
+        <p class="vb-intro"><strong>e) Unshakable:</strong> Even in moments of extreme threat, he maintained his composure. This trait — calmness amidst the storm — is a core signal of the Self-Preservation Three: no panic, only the next move.</p>
+        <p class="vb-intro"><strong>f) Manipulatively Charming When Necessary:</strong> He could also project charm and empathy — targeted and instrumentalized. The Three is the most charismatic raccoon in the Enneagram when it serves a purpose.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unaufh\xf6rlicher Ehrgeiz:</strong>
-        Als selbsterhaltende Drei war Escobars ganzes Leben auf Erfolg ausgerichtet. Er scheute vor nichts zur\xfcck –
-        Mord, Korruption, Terrorismus waren f\xfcr ihn Werkzeuge wie jede andere Gesch\xe4ftsstrategie.</p>
-        <p class="vb-intro"><strong>b) Perfektionismus und Effizienz:</strong>
-        Seine F\xe4higkeit, ein weltweites Drogennetzwerk zu steuern, war operational au\xdferordentlich.
-        Die selbsterhaltende Drei versteht Systeme und optimiert sie rücksichtslos.</p>
-        <p class="vb-intro"><strong>c) Anpassungsf\xe4higkeit:</strong>
-        Ob mit Politikern, Gesch\xe4ftspartnern oder Feinden – Escobar wechselte die Tonlage präzise.
-        Diese Flexibilität machte ihn unberechenbar und extrem gef\xe4hrlich.</p>
-        <p class="vb-intro"><strong>d) Rücksichtsloser Ehrgeiz:</strong>
-        Kein Ziel war ihm zu gro\xdf, kein Hindernis zu gef\xe4hrlich. Die selbsterhaltende Drei kennt keine
-        innere Bremse, wenn die Zielerreichung in Sicht ist.</p>
-        <p class="vb-intro"><strong>e) Taktischer Charme:</strong>
-        Trotz seiner Brutalit\xe4t baute er eine \xf6ffentliche Persona als Wohlt\xe4ter und Mann
-        des Volkes auf. Er lie\xdf Schulen und Fu\xdfballpl\xe4tze bauen – nicht aus Mitgef\xfchl,
-        sondern als Investition in Loyalit\xe4t.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Unrelenting Ambition:</strong> As a Self-Preservation Three, Escobar's entire life was oriented toward success. He stopped at nothing — murder, corruption, and terrorism were tools to him like any other business strategy.</p>
+        <p class="vb-intro"><strong>b) Perfectionism and Efficiency:</strong> His ability to manage a global drug cartel network was operationally extraordinary. The Self-Preservation Three understands systems and optimizes them ruthlessly.</p>
+        <p class="vb-intro"><strong>c) Adaptability:</strong> Whether dealing with politicians, business partners, or enemies, Escobar adjusted his tone with precision. This flexibility made him unpredictable and extremely dangerous.</p>
+        <p class="vb-intro"><strong>d) Ruthless Drive:</strong> No goal was too immense, no obstacle too dangerous. The Self-Preservation Three knows no internal brakes when goal achievement is in sight.</p>
+        <p class="vb-intro"><strong>e) Tactical Charm:</strong> Despite his brutality, he built a public persona as a benefactor and man of the people. He funded schools and soccer fields — not out of compassion, but as an investment in loyalty.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Zielgerichtetheit:</strong>
-        Reichtum, Luxus und Macht – Escobar verfolgte diese Ziele mit einer rücksichtslosen
-        Konsequenz, die alle anderen Werte verdrängte.</p>
-        <p class="vb-intro"><strong>b) Bedürfnis nach Kontrolle:</strong>
-        Er kontrollierte nicht nur den Drogenhandel, sondern ganze politische Systeme.
-        Kontrolle der selbsterhaltenden Drei ist nicht narzisstisch wie bei der Acht – sie ist <em>pragmatisch</em>:
-        Kontrolle als Überlebensstrategie.</p>
-        <p class="vb-intro"><strong>c) Image als Werkzeug:</strong>
-        Er legte gro\xdfen Wert darauf, als Volksheld zu gelten – trug die Maske der Tugend,
-        obwohl er in Wahrheit ein eiskalter M\xf6rder war. Dieses Doppelspiel ist charakteristisch
-        f\xfcr die Leidenschaft der selbsterhaltenden Drei: Die T\xe4uschung dient der Sicherung der eigenen Position.</p>
-        <p class="vb-intro"><strong>d) Vollst\xe4ndige moralische Flexibilit\xe4t:</strong>
-        Seine gr\xf6\xdfte St\xe4rke und gr\xf6\xdfte Schw\xe4che: Er kannte keine Skrupel.
-        F\xfcr die selbsterhaltende Drei sind Moral und Ethik keine inneren Werte, sondern externe
-        Variablen – n\xfctzlich oder hinderlich je nach Situation.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Single-Minded Purpose:</strong> Wealth, luxury, and power — Escobar pursued these goals with a ruthless consistency that eclipsed all other values.</p>
+        <p class="vb-intro"><strong>b) Need for Control:</strong> He controlled not only the drug trade, but entire political systems. Control for the Self-Preservation Three is not narcissistic like Type Eight — it is <em>pragmatic</em>: control as a survival strategy.</p>
+        <p class="vb-intro"><strong>c) Image as a Tool:</strong> He placed great emphasis on being viewed as a folk hero — wearing the mask of virtue while being a cold-blooded killer in reality. This double game is characteristic of the Self-Preservation Three's passion: deceit serves to secure one's own position.</p>
+        <p class="vb-intro"><strong>d) Total Moral Flexibility:</strong> His greatest strength and greatest flaw: he had no compunctions. For the Self-Preservation Three, morality and ethics are not internal values, but external variables — useful or obstructive depending on the situation.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Charismatisch und einschüchternd:</strong>
-        Menschen wurden von ihm angezogen und lebten gleichzeitig in st\xe4ndiger Angst.
-        Diese Kombination ist das Markenzeichen der dunklen selbsterhaltenden Drei: er macht sich unentbehrlich
-        und bedrohlich zugleich.</p>
-        <p class="vb-intro"><strong>b) Macht, Reichtum, Ruhmsucht:</strong>
-        Er kontrollierte nicht nur ein Drogenimperium, sondern beeinflusste das Schicksal
-        ganzer Nationen. Auf dem H\xf6hepunkt bezahlte er kolumbianische Regierungsvertreter
-        massenhaft – und terrorisierte jene, die nicht mitmachten.</p>
-        <p class="vb-intro"><strong>c) Zerstörerisch und gnadenlos:</strong>
-        Er vernichtete jeden, der ihm im Weg stand, und verbreitete Schrecken \xfcber
-        Kolumbien hinaus. Etwa 4.000 Menschen wurden auf seinen Befehl hin get\xf6tet.</p>
-        <p class="vb-intro"><strong>d) Polarisierende Wirkung:</strong>
-        In den Armenvierteln Medell\xedns wird er bis heute von manchen als Held verehrt.
-        Das ist kein Missverst\xe4ndnis – es ist das Ergebnis seiner bewussten Investitionen
-        in Loyalit\xe4t. Die selbsterhaltende Drei kauft Bewunderung, weil er wei\xdf, dass sie Schutz bedeutet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Charismatic and Intimidating:</strong> People were drawn to him while simultaneously living in constant fear. This combination is the hallmark of the dark Self-Preservation Three: making oneself indispensable and threatening at the same time.</p>
+        <p class="vb-intro"><strong>b) Power, Wealth, Craving for Fame:</strong> He controlled not just a drug empire, but influenced the fate of entire nations. At his peak, he bribed Colombian government officials en masse — and terrorized those who refused to cooperate.</p>
+        <p class="vb-intro"><strong>c) Destructive and Merciless:</strong> He eliminated anyone standing in his way and spread terror far beyond Colombia. Approximately 4,000 people were killed at his command.</p>
+        <p class="vb-intro"><strong>d) Polarizing Impact:</strong> In the slums of Medellín, he is still revered by some as a hero to this day. This is no misunderstanding — it is the calculated outcome of his deliberate investments in loyalty. The Self-Preservation Three buys admiration because they know it provides protection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Dominante Energie:</strong>
-        <strong>Escobar</strong> verstr\xf6mte eine dominante, einschüchternde Energie. Seine Pr\xe4senz war eine
-        st\xe4ndige Erinnerung an seine Macht – auch ohne ein Wort zu sagen.</p>
-        <p class="vb-intro"><strong>b) Paradoxe Ruhe:</strong>
-        Er wirkte oft ruhig und unerschütterlich mitten in extremer Gewalt.
-        Diese Ruhe zeigt die blockierte Herzenergie des Typs 3: keine Emotionen
-        flie\xdfen in Entscheidungen ein – nur Kalk\xfcl.</p>
-        <p class="vb-intro"><strong>c) Unerm\xfcdliche Energie:</strong>
-        Eine von krankhaftem Ehrgeiz angetriebene Energie erm\xf6glichte es ihm,
-        in einer extrem gef\xe4hrlichen Welt \xfcber Jahrzehnte zu \xfcberleben und zu wachsen.</p>
-        <p class="vb-intro"><strong>d) Nervöse Wachsamkeit im Verborgenen:</strong>
-        Trotz aller Macht lebte er in st\xe4ndig erh\xf6hter Alarmbereitschaft. Diese
-        angespannte Energie spiegelte den selbsterhaltenden Drei-Überlebensinstinkt: die Bedrohung
-        kommt immer, man muss ihr zuvorkommen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Dominant Energy:</strong> <strong>Escobar</strong> exuded a dominant, intimidating energy. His presence served as a constant reminder of his power — even without speaking a word.</p>
+        <p class="vb-intro"><strong>b) Paradoxical Calm:</strong> He often appeared calm and unshakable in the midst of extreme violence. This calm highlights the blocked heart energy of Type Three: no emotions enter into decision-making — only calculation.</p>
+        <p class="vb-intro"><strong>c) Tireless Energy:</strong> Driven by pathological ambition, this energy enabled him to survive and expand within an extraordinarily hazardous world over decades.</p>
+        <p class="vb-intro"><strong>d) Nervous Vigilance in Hiding:</strong> Despite all his power, he lived in a state of heightened alertness. This tense energy reflected the Self-Preservation Three's survival instinct: threat is always imminent, and one must preempt it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Waschb\xe4r</h3>
-        <p class="vb-intro"><strong>a) Schlau und opportunistisch:</strong>
-        Der Waschb\xe4r nutzt jede Gelegenheit, um seinen Vorteil zu sichern und
-        Risiken zu minimieren. Escobar tat dasselbe – klein anfangen, systemisch expandieren,
-        nie den langen Atem verlieren.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit:</strong>
-        Der Waschb\xe4r findet sich in jedem Milieu zurecht – Stadt oder Dschungel, arm oder reich.
-        Escobar konnte zwischen Armenvierteln, Polizeipr\xe4sidentien und Luxusvillen
-        m\xfchelos wechseln.</p>
-        <p class="vb-intro"><strong>c) Versteckt, aber gef\xe4hrlich:</strong>
-        Er operierte aus dem Verborgenen heraus. Sein wahrer Einfluss wurde oft
-        untersch\xe4tzt – bis er zuschlug. Das ist die Waschb\xe4r-Strategie: unsichtbar,
-        bis es zu sp\xe4t ist.</p>
-        <p class="vb-intro"><strong>d) Resilienz und Z\xe4higkeit:</strong>
-        Waschb\xe4ren \xfcberleben unter widrigsten Bedingungen. Escobar \xfcberstand
-        zahlreiche Anschl\xe4ge auf seine Organisation und erhob sich immer wieder.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro"><strong>a) Shrewd and Opportunistic:</strong> The raccoon seizes every opportunity to secure an advantage and minimize risks. Escobar acted identically — start small, expand systemically, never lose stamina.</p>
+        <p class="vb-intro"><strong>b) Adaptability:</strong> The raccoon navigates any environment effortlessly — city or jungle, rich or poor. Escobar transitioned smoothly between slums, police headquarters, and luxury villas.</p>
+        <p class="vb-intro"><strong>c) Hidden Yet Dangerous:</strong> He operated from the shadows. His true influence was frequently underestimated — until he struck. This is the raccoon strategy: invisible until it is too late.</p>
+        <p class="vb-intro"><strong>d) Resilience and Toughness:</strong> Raccoons survive under the harshest conditions. Escobar survived countless attacks on his organization and repeatedly resurfaced.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Pablo Escobar</strong> verk\xf6rperte den Self-Preservationen Typ 3 in seiner extremsten
-        dunklen Auspr\xe4gung. Strategische Intelligenz, unaufhaltsamer Ehrgeiz, Charme
-        und brutale Gewalt – alles im Dienst eines einzigen Ziels: Akkumulation und Sicherung
-        seiner Position. Wie die Waschb\xe4r-Analogie zeigt: Er war kein gro\xdfer Tiger,
-        sondern ein au\xdferordentlich kluges, anpassungsf\xe4higes, z\xe4hes Tier – das dadurch
-        gef\xe4hrlicher wurde als jedes Raubtier.
-        Zum Zeitpunkt seines Todes 1993 hinterlie\xdf er ein Verm\xf6gen von 30 Milliarden US-Dollar.
+        <strong>Pablo Escobar</strong> embodied the Self-Preservation Type 3 in its most extreme dark expression. Strategic intelligence, unstoppable ambition, charm, and brutal violence — all deployed in the service of a single objective: accumulation and securing his position. As the raccoon analogy illustrates: he was not a majestic tiger, but an extraordinarily clever, adaptable, and tough animal — which made him far more dangerous than any simple predator. At the time of his death in 1993, he left behind a fortune estimated at 30 billion US dollars.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) „Plata o Plomo" – Silber oder Blei:</strong>
-        Sein ber\xfchmtes Ultimatum an Beamte und Richter fasst die selbsterhaltende Drei in drei Worten:
-        <em>Du nimmst die Bestechung, oder du stirbst.</em>
-        Keine Emotion, keine Verhandlung, kein Mittelweg. Das ist Effizienz der selbsterhaltenden Drei
-        auf ihre rohste Form reduziert – jede Situation wird in zwei Optionen komprimiert.</p>
-        <p class="vb-intro"><strong>b) Das vergrabene Geld:</strong>
-        <strong>Escobar</strong> hatte derart viele Bargeldreserven, dass er sie buchst\xe4blich nicht
-        \xfcberblicken konnte. Ratten fra\xdfen gesch\xe4tzte 2,1 Milliarden Dollar seiner
-        Barverm\xf6gen. Er gab 2.500 Dollar pro Monat nur f\xfcr Gummiringe aus, um
-        Geldscheine zusammenzuhalten. Diese pathologische Akkumulation ist das
-        Extrembild der selbsterhaltenden Drei: Sicherheit durch Besitz – bis zur Absurdit\xe4t.</p>
-        <p class="vb-intro"><strong>c) La Catedral – sein eigenes Gef\xe4ngnis:</strong>
-        Als er sich 1991 „ergab", verhandelte er sein eigenes Luxusgef\xe4ngnis: La Catedral.
-        Er entwarf es, bestimmte die Regeln, empfing G\xe4ste und f\xfchrte von dort
-        weiter seine Gesch\xe4fte. Selbst in Haft kontrollierte die selbsterhaltende Drei seine Umgebung vollst\xe4ndig –
-        eine der k\xfchnsten Demonstrationen der selbsterhaltenden Drei der Kriminalgeschichte.</p>
-        <p class="vb-intro"><strong>d) Die Flusspferde als Verm\xe4chtnis:</strong>
-        <strong>Escobar</strong> lie\xdf in seinem Privatzoo auf der Hacienda N\xe1poles vier Nilpferde halten.
-        Nach seinem Tod entkamen sie und vermehrten sich. Heute leben 80–130 Nilpferde
-        in Kolumbien – ein ungeplantes \xf6kologisches Erbe, das Wissenschaftler vor
-        gro\xdfe Probleme stellt. Selbst sein Zoo hat Kolumbien dauerhaft ver\xe4ndert.</p>
-        <p class="vb-intro"><strong>e) Der Stresspunkt Neun:</strong>
-        In seinen letzten Monaten auf der Flucht zeigte Escobar Zeichen des Neun-Stresspunkts
-        der Drei: R\xfcckzug, Lethargie, Abkopplung. Er wurde weniger strategisch,
-        irrationaler, isolierter. Die Energie der selbsterhaltenden Drei funktioniert nur, solange
-        das System l\xe4uft – wenn das Imperium zusammenbricht, bricht auch der Typ zusammen.</p>
-        <p class="vb-intro"><strong>f) Familie als letzter Anker:</strong>
-        Die selbsterhaltende Drei priorisiert materielle Sicherheit – aber Escobars letzter echter Anker
-        war seine Familie. Seine Bem\xfchungen, seine Frau und Kinder im Exil zu
-        kontaktieren, wurden geortet und f\xfchrten zu seinem Tod. Der Mann, der 30 Milliarden
-        akkumuliert hatte, starb wegen eines Telefonats mit seinem Sohn.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) "Plata o Plomo" – Silver or Lead:</strong> His famous ultimatum to officials and judges sums up the Self-Preservation Three in three words: <em>You take the bribe, or you take a bullet.</em> No emotion, no negotiation, no middle ground. This is the efficiency of the Self-Preservation Three reduced to its rawest form — every situation compressed into two options.</p>
+        <p class="vb-intro"><strong>b) The Buried Money:</strong> <strong>Escobar</strong> had so many cash reserves that he literally could not keep track of them. Rats ate an estimated 2.1 billion dollars of his paper currency. He spent $2,500 a month just on rubber bands to hold stacks of bills together. This pathological accumulation is the extreme manifestation of the Self-Preservation Three: security through possession — driven to absurdity.</p>
+        <p class="vb-intro"><strong>c) La Catedral – His Own Prison:</strong> When he "surrendered" in 1991, he negotiated his own luxury prison: La Catedral. He designed it, set the rules, received guests, and continued running his business from within. Even while incarcerated, the Self-Preservation Three fully controlled his environment — one of the boldest demonstrations of SP3 dynamic in criminal history.</p>
+        <p class="vb-intro"><strong>d) The Hippos as a Legacy:</strong> <strong>Escobar</strong> kept four hippopotamuses in his private zoo at Hacienda Nápoles. After his death, they escaped and bred. Today, between 80 and 130 hippos live in Colombia — an unintended ecological legacy presenting scientists with massive challenges. Even his zoo permanently altered Colombia.</p>
+        <p class="vb-intro"><strong>e) The Nine Stress Point:</strong> In his final months on the run, Escobar exhibited signs of Three's stress point at Type Nine: withdrawal, lethargy, and disconnection. He became less strategic, more irrational, and increasingly isolated. The energy of the Self-Preservation Three functions only as long as the system runs — when the empire collapses, the type collapses with it.</p>
+        <p class="vb-intro"><strong>f) Family as the Last Anchor:</strong> The Self-Preservation Three prioritizes material security — yet Escobar's final true anchor was his family. His desperate attempts to contact his wife and children in exile were intercepted and led directly to his death. The man who accumulated 30 billion dollars died because of a phone call to his son.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 3 in seiner ganzen Tiefe \u2013 Akkumulation, T\xe4uschung und der Weg vom Funktionieren zum echten Sein.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile \u2013 wie sich die selbsterhaltende Drei von der Sozialen und Sexuellen Drei unterscheidet, pointiert und pr\xe4zise.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Der Self-Preservation Type 3 ausf\xfchrlich portr\xe4tiert \u2013 Leidenschaft, blockierte Herzenergie und Heilungsweg.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Self-Preservation Type 3 in seiner ganzen Tiefe – Akkumulation, Täuschung und der Weg vom Funktionieren zum echten Sein.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile – wie sich die selbsterhaltende Drei von der Sozialen und Sexuellen Drei unterscheidet, pointiert und präzise.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Der Self-Preservation Type 3 ausführlich porträtiert – Leidenschaft, blockierte Herzenergie und Heilungsweg.", "Wer du wirklich bist \u2013 Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Pablo Escobar trägt die Verantwortung für Tausende Morde und den größten Kokainschmuggel der Geschichte. Er starb 1993, bevor ein endgültiges Urteil gesprochen wurde. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a historical judgment. Pablo Escobar bears responsibility for thousands of murders and the largest cocaine trafficking operation in history. He died in 1993 before a final legal verdict was rendered. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -20965,188 +20433,64 @@ function dorotheaPuentePortraitPage() {
         </div>
         <p class="krim-portrait-name">Dorothea Puente</p>
         <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Die Vermieterin des Todes" – Sacramento, Kalifornien 1982–1988</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Death House Landlady" – Sacramento, California 1982–1988</p>
       </div>
       <p class="psycho-intro">
-        <strong>Dorothea Helen Puente</strong>, geboren am 9. Januar 1929 in Redlands, Kalifornien,
-        betrieb in den 1980er-Jahren eine Pension für Senioren, Obdachlose und Menschen
-        mit psychischen Erkrankungen in Sacramento.
-        Mindestens <strong>neun ihrer Bewohner</strong> tötete sie – hauptsächlich durch
-        Überdosierungen von Schlaftabletten – und begrub sie im Garten ihres Hauses
-        in der F Street, während sie deren staatliche Sozialschecks weiter kassierte.
-        Sie pflegte ein tadelloses öffentliches Bild: freundliche Vermieterin,
-        Wohltäterin der Gemeinde, Frau mit Herz für die Schwachen.
-        Als die Polizei 1988 begann, den Garten umzugraben, floh sie nach Los Angeles.
-        Sie wurde verhaftet, als sie in einer Bar einen Mann ansprach –
-        er erkannte sie, weil ihr Foto gerade im Fernsehen gezeigt worden war.
-        Sie wurde 1993 in zwei Fällen wegen Mordes ersten Grades verurteilt
-        und starb am 27. März 2011 in der Haft.
-        Das Enneagramm macht sichtbar, wie Ordnung, Moral und Fürsorge
-        zur tödlichsten Fassade werden können.
+        <strong>Dorothea Helen Puente</strong>, born on January 9, 1929, in Redlands, California, operated a boarding house for senior citizens, homeless individuals, and people with mental illnesses in Sacramento during the 1980s. She murdered <strong>at least nine of her residents</strong> — primarily through overdoses of sleeping pills — and buried them in the yard of her home on F Street while continuing to cash their government benefit checks. She cultivated an impeccable public image: a friendly landlady, a benefactor to the community, and a woman with a soft spot for the vulnerable. When police began digging up her garden in 1988, she fled to Los Angeles. She was arrested after striking up a conversation with a man in a bar who recognized her from a TV news broadcast. In 1993, she was convicted on two counts of first-degree murder and died in custody on March 27, 2011. The Enneagram illustrates how order, morality, and caregiving can become a lethal facade.
       </p>
 
       <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Dorothea Puente</strong> wird dem <strong>Self-Preservationen Typ 1 with Two-wing</strong> zugeordnet.
-        Die selbsterhaltende Eins organisiert ihr Leben um innere Ordnung, Kontrolle
-        und die Aufrechterhaltung eines makellosen privaten Raums.
-        Der Two-wing verleiht ihr Wärme, Hilfsbereitschaft und das Bedürfnis,
-        als fürsorglich und unentbehrlich wahrgenommen zu werden.
-        Der Stresspunkt liegt bei der <strong>Vier</strong>:
-        innere Leere, das Gefühl fundamentaler Unvollständigkeit,
-        Melancholie hinter der perfekten Oberfläche.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Dorothea Puente</strong> is assigned to the <strong>Self-Preservation Type 1 with Two-wing</strong>. The Self-Preservation One organizes life around internal order, control, and maintaining a flawless personal sphere. The Two-wing infuses warmth, helpfulness, and the desire to be perceived as caring and indispensable. Her stress point lies at Type <strong>Four</strong>: inner emptiness, a sense of fundamental incompleteness, and a quiet melancholy lingering beneath a polished surface.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Adler</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Eagle</h3>
         <p class="vb-intro">
-        Der <strong>Adler</strong> ist die Animal correspondence der selbsterhaltenden Eins.
-        Er kreist hoch – mit einem Blick, der alles erfasst, bewertet, ordnet.
-        Er ist majestätisch, präzise, und er duldet in seinem Horst keine Unordnung.
-        Er verteidigt sein Territorium nicht durch Lärm, sondern durch Überlegenheit.
-        Puente war ein Adler in einer freundlichen Küchenschürze.
-        Sie kontrollierte jeden Raum ihres Hauses, jede Interaktion mit den Bewohnern,
-        jeden Brief, jede Zahlung, jeden Arzttermin.
-        Niemand sah die Krallen. Sie sah aus wie das Gegenteil davon:
-        eine ältere Frau mit gepflegten Haaren, die Kuchen backte
-        und für die Armen sorgte.
-        Der Adler fliegt nicht mit Lärm. Er beobachtet. Er wartet. Er handelt.
+        The <strong>eagle</strong> serves as the animal correspondence for the Self-Preservation One. It circles high above — possessing a keen eye that observes, evaluates, and organizes everything. Majestic and precise, it tolerates no disorder within its eyrie. It defends its territory not through loud displays, but through absolute dominance. Puente was an eagle wearing a friendly kitchen apron. She controlled every room in her house, every interaction with her tenants, every piece of mail, every financial transaction, and every medical appointment. No one saw the talons. Visually, she appeared as the complete opposite: an elderly woman with neatly styled hair who baked cakes and cared for the less fortunate. The eagle does not fly with noise. It watches. It waits. It acts.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Eins: Ordnung über alles</h3>
-        <p class="vb-intro"><strong>a) Kontrolle als Überlebensprinzip:</strong>
-        Die selbsterhaltende Eins koppelt ihr inneres Gleichgewicht an die Qualität
-        und Kontrolle ihres privaten Raums. Alles muss stimmen: die Finanzen,
-        das Erscheinungsbild des Hauses, die Wahrnehmung durch die Außenwelt.
-        Puentes Pension war penibel geführt. Die Bewohner wurden gepflegt,
-        die Behörden erhielten korrekte Berichte, die Nachbarn lobten sie.
-        Diese Kontrolle war nicht Fürsorge – sie war das Fundament,
-        auf dem ihre gesamte Identität ruhte: Ich bin die Frau, die Ordnung schafft.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: Fürsorge als Machtmittel:</strong>
-        Der Two-wing verleiht der selbsterhaltenden Eins echte Wärme –
-        und das Talent, genau das zu geben, was jemand braucht, um zu vertrauen.
-        Puente wusste, was ihre Bewohner brauchten: eine Mahlzeit, ein sauberes Zimmer,
-        ein freundliches Gesicht. Sie gab es – und schuf damit totale Abhängigkeit.
-        Wer von ihr abhängig war, hatte keine eigene Stimme mehr.
-        Wer keine eigene Stimme hatte, stellte keine Fragen.
-        Der Two-wing der SP1 ist das Werkzeug, das Vertrauen schafft –
-        damit die Eins in ihrem Raum ungestört walten kann.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Zorn als stiller Ordnungszwang:</strong>
-        Die Leidenschaft der Eins ist der <strong>Zorn</strong> –
-        akkumuliert, kontrolliert, niemals laut.
-        Puente zeigte keinen sichtbaren Zorn. Sie lächelte.
-        Aber wer ihrem inneren Bild der Ordnung widersprach –
-        wer die Kontrolle über seinen Scheck behalten wollte,
-        wer unbequeme Fragen stellte, wer ihre Autorität infrage stellte –
-        der wurde nicht konfrontiert. Der verschwand.
-        Der Zorn der Eins richtet nicht laut. Er richtet leise, gründlich und endgültig.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation One: Order Above All</h3>
+        <p class="vb-intro"><strong>a) Control as a Survival Principle:</strong> The Self-Preservation One anchors its inner balance to the quality and control of its private domain. Everything must align: finances, the physical appearance of the home, and external public perception. Puente's boarding house was meticulously maintained. Residents were cared for, official reports were filed correctly, and neighbors praised her efforts. This control was not born of genuine altruism — it was the bedrock upon which her entire identity rested: <em>I am the woman who maintains order.</em></p>
+        <p class="vb-intro"><strong>b) The Two-Wing: Caretaking as an Instrument of Power:</strong> The Two-wing brings genuine warmth to the Self-Preservation One, along with a talent for providing precisely what someone needs to build trust. Puente knew what her tenants required: a hot meal, a clean room, and a reassuring face. She provided these necessities, thereby establishing absolute dependency. Those reliant upon her lost their independent voice — and those without a voice asked no uncomfortable questions. For SP1, the Two-wing serves as the tool that builds trust so the One can rule undisturbed within its domain.</p>
+        <p class="vb-intro"><strong>c) The Passion: Anger as a Quiet Compulsion for Order:</strong> The passion of Type One is <strong>Anger</strong> — accumulated, controlled, and never loud. Puente displayed no outward rage; she smiled. Yet anyone who disrupted her internal vision of order — anyone who insisted on retaining control of their own check, asked troubling questions, or challenged her authority — was not confronted openly. They simply vanished. The anger of the One does not condemn loudly. It judges quietly, thoroughly, and decisively.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Neun Gräber im Garten</h3>
-        <p class="vb-intro"><strong>a) Vorgeschichte und erste Straftaten:</strong>
-        Puentes Biografie ist eine Chronik von Lüge, Anpassung und Neuerfindung.
-        Sie wuchs in Armut auf, heiratete mehrfach, fälschte Dokumente,
-        wurde wegen Betrugs und Fälschung verurteilt.
-        Zwischen ihren Gefängnisaufenthalten pflegte sie stets das Bild
-        der respektablen, hilfsbereiten Frau.
-        1981 erhielt sie die Betriebserlaubnis für ihre Pension in der F Street 1426
-        in Sacramento – ein viktorianisches Haus in gutem Zustand,
-        geeignet für die Unterbringung von Personen mit staatlicher Unterstützung.</p>
-        <p class="vb-intro"><strong>b) Die Opfer – neun Namen, ein Garten:</strong>
-        Puente tötete ihre Bewohner durch Überdosierungen von Schlaf- und Beruhigungsmitteln,
-        zumeist Dalmane (Flurazepam) oder ähnliche Benzodiazepine,
-        die sie ihren Opfern heimlich in Getränke oder Speisen mischte.
-        Nach dem Tod begrub sie die Leichen im Garten oder auf benachbarten Grundstücken.
-        <strong>Ruth Munroe</strong> (61) – April 1982, starb kurz nachdem sie bei Puente eingezogen war.
-        <strong>Everson Gillmouth</strong> (77) – November 1985, Puentes damaliger Freund; seine Leiche wurde 1986 in einer Holzkiste am Sacramento River gefunden.
-        <strong>Leona Carpenter</strong> (78) – 1987.
-        <strong>James Gallop</strong> (62) – 1987.
-        <strong>Vera Faye Martin</strong> (64) – Oktober 1987.
-        <strong>Dorothy Miller</strong> (64) – November 1987.
-        <strong>Benjamin Fink</strong> (55) – Dezember 1987.
-        <strong>Betty Palmer</strong> (78) – Januar 1988.
-        <strong>Alvaro Montoya</strong> (51), geistig behindert – Februar 1988.
-        Alle kassierten staatliche Renten oder Sozialhilfe. Puente unterschrieb die Schecks,
-        als wären sie noch am Leben.</p>
-        <p class="vb-intro"><strong>c) Die Entdeckung (November 1988):</strong>
-        Im November 1988 meldete ein Sozialarbeiter Alvaro Montoya als vermisst.
-        Die Polizei suchte Puente auf. Sie zeigte sich kooperativ, bat die Beamten herein,
-        bot Kaffee an. Man begann, den Garten umzugraben.
-        Als die erste Leiche gefunden wurde, bat Puente die Beamten,
-        kurz zu ihrer Schwester gehen zu dürfen – sie sei erschüttert.
-        Die Polizei ließ sie gehen.
-        Sie bestieg einen Bus nach Los Angeles.
-        Am Ende des Tages wurden im Garten sieben Leichen gefunden.</p>
-        <p class="vb-intro"><strong>d) Die Flucht und die Verhaftung:</strong>
-        In Los Angeles sprach Puente in einer Bar einen Mann an.
-        Er erkannte sie – ihr Foto war gerade in den Nachrichten.
-        Er rief die Polizei. Sie wurde verhaftet, ohne Widerstand zu leisten.
-        Im Verhör gab sie zu, dass die Menschen gestorben seien –
-        aber sie bestritt, sie getötet zu haben. „Sie sind natürlich gestorben",
-        sagte sie. „Ich habe nur die Schecks kassiert."
-        Der Adler blieb ruhig. Er leugnete. Er lächelte.
-        Er war makellos gekleidet.</p>
-        <p class="vb-intro"><strong>e) Der Prozess und das Urteil:</strong>
-        Der Prozess dauerte von 1992 bis 1993 und war einer der längsten
-        in der Geschichte Kaliforniens.
-        Puente trat täglich im Gericht in gepflegter Kleidung auf,
-        mit Perlenkette und Handtasche.
-        Sie wurde in zwei Fällen wegen Mords ersten Grades verurteilt –
-        in den übrigen Fällen fehlten Beweise für eine Verurteilung.
-        Die Todesstrafe wurde nicht verhängt; sie erhielt lebenslange Haft ohne Bewährung.
-        Sie starb am 27. März 2011 in der California Institution for Women.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: Nine Graves in the Garden</h3>
+        <p class="vb-intro"><strong>a) Background and Early Offenses:</strong> Puente's life was a chronicle of deception, adaptation, and self-reinvention. Raised in poverty, she married multiple times, forged documents, and served prison time for fraud and check forging. Between incarcerations, she consistently projected the image of a respectable, helpful woman. In 1981, she acquired the lease for her boarding house at 1426 F Street in Sacramento — a well-maintained Victorian home suited for housing individuals receiving government assistance.</p>
+        <p class="vb-intro"><strong>b) The Victims – Nine Names, One Garden:</strong> Puente killed her residents by administering overdoses of sedatives and sleeping medication — most notably Dalmane (flurazepam) and similar benzodiazepines — which she secretly mixed into their food or drinks. Following their deaths, she buried the bodies in her yard or on adjacent properties. <strong>Ruth Munroe</strong> (61) – April 1982; died shortly after moving into Puente's home. <strong>Everson Gillmouth</strong> (77) – November 1985; Puente's boyfriend at the time. His body was discovered in 1986 inside a wooden box alongside the Sacramento River. <strong>Leona Carpenter</strong> (78) – 1987. <strong>James Gallop</strong> (62) – 1987. <strong>Vera Faye Martin</strong> (64) – October 1987. <strong>Dorothy Miller</strong> (64) – November 1987. <strong>Benjamin Fink</strong> (55) – December 1987. <strong>Betty Palmer</strong> (78) – January 1988. <strong>Alvaro Montoya</strong> (51), mentally disabled – February 1988. All victims collected social security or disability benefits. Puente forged their signatures on the checks as though they were still alive.</p>
+        <p class="vb-intro"><strong>c) Discovery (November 1988):</strong> In November 1988, a social worker reported Alvaro Montoya missing. Police visited Puente's boarding house. She cooperated fully, invited the officers inside, and offered them coffee. Investigators began digging in the yard. When the first body was unearthed, Puente politely asked officers for permission to step out to meet her sister, claiming to be deeply shaken. The police allowed her to leave. She immediately boarded a bus to Los Angeles. By the end of the day, officers had uncovered seven bodies in the yard.</p>
+        <p class="vb-intro"><strong>d) Flight and Arrest:</strong> In Los Angeles, Puente struck up a conversation with a man in a bar. He recognized her instantly from recent television news coverage and contacted the police. She was arrested without resistance. During interrogation, she acknowledged that the individuals had died, but denied killing them. "They died of natural causes," she maintained. "I only cashed the checks." The eagle remained calm. She denied responsibility. She smiled. She was immaculately dressed.</p>
+        <p class="vb-intro"><strong>e) Trial and Verdict:</strong> The trial spanned from 1992 to 1993, becoming one of the longest in California's history. Puente appeared in court daily wearing neat attire, a pearl necklace, and carrying a handbag. She was convicted on two counts of first-degree murder (the jury deadlocked on several other counts due to insufficient physical evidence). The death penalty was not imposed; she received a sentence of life imprisonment without the possibility of parole. She died on March 27, 2011, at the California Institution for Women.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Die leere Mitte hinter der Maske</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress Point Four: The Empty Center Behind the Mask</h3>
         <p class="vb-intro">
-        Die Eins bewegt sich im Stress in Richtung <strong>Vier</strong> –
-        innere Leere, das Gefühl fundamentaler Unvollständigkeit,
-        eine Melancholie, die hinter der perfekten Oberfläche wartet.
-        Puentes gesamtes Leben war ein Versuch, diese innere Leere
-        durch äußere Kontrolle zu kompensieren:
-        das Haus immer ordentlich, die Finanzen immer unter Kontrolle,
-        das Bild immer makellos.
-        Die Vier-Energie der desintegrierten Eins zeigt sich bei Puente
-        in der tiefen Unfähigkeit, echte Verbindung zuzulassen –
-        Bewohner waren Ressourcen, keine Menschen.
-        Fürsorge war Werkzeug, keine Empfindung.
-        Was nach innen fehlte, wurde nach außen inszeniert.
+        Under stress, Type One disintegrates toward Type <strong>Four</strong> — experiencing inner emptiness, a sense of fundamental deficiency, and a deep melancholy lurking beneath a controlled exterior. Puente's entire existence was an attempt to compensate for this internal void through relentless external control: keeping the house immaculate, the finances strictly managed, and the public persona flawless. The Four energy of a disintegrated One manifests in Puente as an absolute inability to form genuine human connections. To her, boarders were resources rather than people; caregiving was a practical utility rather than a felt emotion. Whatever was lacking internally was compensated for through external performance.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Dorothea Puente zeigt, wie die selbsterhaltende Eins with Two-wing
-        zur perfekten Täterin werden kann – nicht durch Aggression, sondern durch
-        die absolute Kontrolle über einen geschlossenen Raum und die Menschen darin.
-        Sie brauchte keine Waffe. Sie brauchte ein Haus, Medikamente und das Vertrauen
-        von Menschen, die keine andere Wahl hatten.
-        Der Adler braucht keinen Lärm. Er braucht nur Geduld und einen Horst,
-        in dem er ungestört herrscht.
-        Was Puente von Dennis Nilsen unterscheidet – ebenfalls SP1w2 –
-        ist das vollständige Fehlen von emotionalem Motiv:
-        Sie tötete nicht aus Einsamkeit, nicht aus Zorn auf eine Person,
-        sondern aus Ordnungslogik: Diese Menschen störten das System.
-        Das System war ihr Leben.
+        Dorothea Puente demonstrates how a Self-Preservation One with a Two-wing can evolve into an effective offender — not through overt physical aggression, but through absolute control over a closed space and the individuals within it. She needed no traditional weapons. She required only a house, medication, and the trust of vulnerable individuals who had few other options. The eagle requires no clamor. It needs only patience and an eyrie where it can reign unchallenged. What distinguishes Puente from Dennis Nilsen — also an SP1w2 — is the complete absence of emotional motive. She did not kill out of loneliness or personal grievance, but out of an internal logic of order: these individuals disrupted the operation of her system. The system was her life.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Summary</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SP1w2 – Self-Preservatione Eins with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Zorn – still, akkumuliert, endgültig; richtet ohne Aufschrei.<br>
-        <strong>Stresspunkt:</strong> Vier – innere Leere, Unfähigkeit zu echter Verbindung, Fürsorge als Inszenierung.<br>
-        <strong>Animal correspondence:</strong> Adler – makellos, präzise, herrscht im eigenen Horst ohne Lärm.<br>
-        <strong>Opfer:</strong> Mindestens 9 – Senioren, Behinderte, Obdachlose; alle im Garten oder auf benachbartem Grund begraben.<br>
-        <strong>Tatmotiv:</strong> Kassierung von Sozialschecks verstorbener Bewohner; geschätzter Gesamtbetrag mehrere Tausend Dollar pro Monat.<br>
-        <strong>Verurteilt:</strong> 1993, zweifacher Mord ersten Grades, lebenslange Haft ohne Bewährung.<br>
-        <strong>Gestorben:</strong> 27. März 2011, California Institution for Women.
+        <strong>Subtype:</strong> SP1w2 – Self-Preservation One with Two-wing.<br>
+        <strong>Passion:</strong> Anger – quiet, accumulated, absolute; adjudicating without noise.<br>
+        <strong>Stress Point:</strong> Four – inner emptiness, inability to form genuine connections, caregiving as a performance.<br>
+        <strong>Animal Correspondence:</strong> Eagle – immaculate, precise, ruling supreme within its own nest without clamor.<br>
+        <strong>Victims:</strong> At least 9 – senior citizens, individuals with disabilities, homeless people; buried in the garden or neighboring lots.<br>
+        <strong>Motive:</strong> Cashing the government benefits checks of deceased residents; collecting several thousand dollars per month.<br>
+        <strong>Conviction:</strong> 1993; two counts of first-degree murder, sentenced to life imprisonment without parole.<br>
+        <strong>Deceased:</strong> March 27, 2011, at the California Institution for Women.
         </p>
       </div>
 
@@ -21157,14 +20501,14 @@ function dorotheaPuentePortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Dorothea Puente wurde 1993 wegen dreier Morde schuldig gesprochen und verbrachte den Rest ihres Lebens bis 2011 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a legal or historical judgment. Dorothea Puente was legally convicted of murder in 1993 and spent the rest of her life in prison until her death in 2011. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-dennis-nilsen", label:"Criminal Psychology: Dennis Nilsen (SP1w2) – ebenfalls Adler"},
-        {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6) – Arzt als Täter"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8) – Pfleger als Täter"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Criminal Psychology: Dennis Nilsen (SP1w2) – also an Eagle"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6) – Doctor as Perpetrator"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8) – Caregiver as Perpetrator"},
       ])}
     </div>
   `);
@@ -21671,210 +21015,84 @@ function arnoFunkePortraitPage() {
         <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with Nine-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Arno Funke</strong>, besser bekannt als „Dagobert“, ist einer der bekanntesten deutschen
-        Erpresser des 20. Jahrhunderts. Zwischen 1988 und 1994 erpresste er den Kaufhof-Konzern
-        mit immer raffinierteren technischen Konstruktionen – Fernsteuerungsautos, pr\xe4parierte
-        Fahrr\xe4der, Inlineskates – und wurde dabei zum Volkshelden. Nie verletzte er jemanden,
-        nie setzte er eine echte Bombe ein. 1994 wurde er gefasst und zu neun Jahren Haft
-        verurteilt. Nach seiner Entlassung wurde er K\xfcnstler, Illustrator und Kinderbuchautor.
-        Sein Fall ist in der Kriminalgeschichte einzigartig: Er war weniger Verbrecher als
-        ein Mensch, der unter materiellem Druck zu akribischen, aber gewaltlosen Mitteln griff.
+        <strong>Arno Funke</strong>, better known as "Dagobert," is one of the most famous German extortionists of the 20th century. Between 1988 and 1994, he extorted the Kaufhof department store group using increasingly sophisticated technical contraptions — remote-controlled cars, modified bicycles, inline skates — and in the process became a folk hero. He never injured anyone, and he never deployed a real bomb. In 1994, he was apprehended and sentenced to nine years in prison. Following his release, he became an artist, illustrator, and children's book author. His case is unique in criminal history: he was less a traditional criminal than a man who, under severe material pressure, turned to meticulous yet nonviolent means.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Arno Funke</strong> wird der <strong>Self-Preservationen Eins mit Neunerfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
-        ein tiefer innerer Groll gegen das, was falsch l\xe4uft, gegen Ungerechtigkeit
-        und gegen ein System, das man als korrumpiert erlebt. Die selbsterhaltende
-        Eins (SP1) richtet diese Energie auf materielle Sicherheit und praktische
-        Pflicht: Sie sorgt sich chronisch darum, dass die Dinge des t\xe4glichen Lebens
-        richtig funktionieren, und reagiert auf existenzielle Not mit akribischer,
-        methodischer L\xf6sungssuche. Der Neunerfl\xfcgel mildert die Sch\xe4rfe der Eins
-        erheblich: Er bringt Geduld, Sanftheit und einen tiefen Widerwillen gegen
-        echte Konfrontation. In Funkes Fall f\xfchrt diese Kombination zu einem der
-        faszinierendsten F\xe4lle der deutschen Kriminalgeschichte.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Arno Funke</strong> is assigned to the <strong>Self-Preservation Type 1 with Nine-wing</strong> in the Enneagram. The passion of Type One is <em>Anger</em> — a deep internal resentment against what is wrong, against injustice, and against a system perceived as corrupt. The Self-Preservation One (SP1) directs this energy toward material security and practical duty: chronically worrying that daily affairs function correctly, reacting to existential distress through meticulous, methodical problem-solving. The Nine-wing tempers the sharpness of Type One considerably, introducing patience, gentleness, and a deep aversion to overt confrontation. In Funke's case, this combination yielded one of the most fascinating cases in German criminal history.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Prf\xfcend und aufmerksam:</strong>
-        Funkes Blick war der eines Menschen, der Details wahrnimmt und bewertet.
-        Die Eins schaut die Welt mit einem pr\xfcfenden Auge an – was stimmt, was
-        stimmt nicht, wo liegt das Problem? Diese Qualit\xe4t sp\xfcrt man in seiner
-        akribischen Vorbereitung jeder Aktion.</p>
-        <p class="vb-intro"><strong>b) Ruhig und abwartend:</strong>
-        Der Neunerfl\xfcgel verleiht dem Blick eine Geduld und Ruhe, die f\xfcr eine
-        Eins ungewöhnlich wirkt. Funke st\xfcrmte nicht – er wartete, beobachtete,
-        plante. Dieser abwartende, fast meditierte Blick ist das Kennzeichen des
-        Neunerfl\xfcgels.</p>
-        <p class="vb-intro"><strong>c) Ohne Aggression:</strong>
-        Anders als viele Kriminelle wirkte Funke nie bedrohlich. Sein Blick
-        signalisierte keine Dominanz, sondern Konzentration. Das ist die SP1w9
-        in ihrer zivilen Auspr\xe4gung: Intensit\xe4t ohne Gef\xe4hrlichkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Probing and Attentive:</strong> Funke's gaze was that of a person who notices and evaluates details. Type One perceives the world with an analytical eye — what is correct, what is incorrect, where does the flaw lie? This quality is palpable in his meticulous preparation for every action.</p>
+        <p class="vb-intro"><strong>b) Calm and Watchful:</strong> The Nine-wing imparts a patience and calm to the gaze that appears unusual for a Type One. Funke did not rush — he waited, observed, planned. This watchful, almost meditative gaze is the hallmark of the Nine-wing.</p>
+        <p class="vb-intro"><strong>c) Devoid of Aggression:</strong> Unlike many criminals, Funke never appeared threatening. His gaze signaled concentration rather than dominance. This is the SP1w9 in its civil expression: intensity without dangerousness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Materielle Not als Ausl\xf6ser:</strong>
-        <strong>Funke</strong> hatte handfeste finanzielle Probleme – seine Autowerkstatt drohte zu
-        scheitern. Die selbsterhaltende Eins ist von allen Einsen am st\xe4rksten auf
-        materielle Sicherheit ausgerichtet. Existenzielle Not treibt sie zu
-        systematischen Ma\xdfnahmen, nicht zu impulsiven Ausbrüchen.</p>
-        <p class="vb-intro"><strong>b) Perfektionismus in der Ausf\xfchrung:</strong>
-        <strong>Funke</strong> verbrachte Monate mit der Vorbereitung jeder Aktion. Historisch
-        korrekte Materialien, technisch einwandfreie Konstruktionen, durchdachte
-        Sicherungsma\xdfnahmen – das ist Einser-Perfektionismus in der Praxis.
-        Ein Error w\xe4re nicht nur ein Risiko gewesen, sondern h\xe4tte sein inneres
-        Bild von sich als kompetenten Menschen verletzt.</p>
-        <p class="vb-intro"><strong>c) Moralische Selbstrechtfertigung:</strong>
-        <strong>Funke</strong> sah sich nie als echten Verbrecher. In seinem Selbstbild erpresste
-        er einen \xfcberm\xe4chtigen Konzern – ein opferloses Vergehen. Diese
-        moralische Rahmung ist typisch f\xfcr die Eins: Sie ben\xf6tigt ein inneres
-        Ja zu ihren Handlungen und formt dieses Ja durch Prinzipien und Gegen\xfcberstellungen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Material Distress as a Catalyst:</strong> <strong>Funke</strong> faced severe financial hardship — his auto repair shop was on the verge of bankruptcy. The Self-Preservation One is the most focused on material security among all Type Ones. Existential distress drives them to systematic measures rather than impulsive outbursts.</p>
+        <p class="vb-intro"><strong>b) Perfectionism in Execution:</strong> <strong>Funke</strong> spent months preparing every operation. Historically accurate materials, technically flawless constructions, thoroughly conceived backup plans — this is One-perfectionism in practice. An error was not merely a physical risk; it would have violated his internal self-image as a competent individual.</p>
+        <p class="vb-intro"><strong>c) Moral Self-Justification:</strong> <strong>Funke</strong> never viewed himself as a genuine criminal. In his internal framework, he was extorting an overpowering corporate conglomerate — a victimless offense. This moral framing is typical of Type One: it requires an internal endorsement of its actions, forging this endorsement through principles and juxtapositions.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Methodisches Vorgehen:</strong>
-        Nicht Spontaneit\xe4t, sondern Methode pr\xe4gte Funkes Handeln. Jede
-        Geldabholung war ein Projekt – mit Vorlauf, Testl\xe4ufen, Alternativpl\xe4nen.
-        Das ist die Eins, die Error antizipiert und ausschlie\xdft, bevor sie entstehen.</p>
-        <p class="vb-intro"><strong>b) Innerer Groll gegen das System:</strong>
-        Der Zorn der Eins ist selten laut – er ist ein stiller, anhaltender Groll.
-        Funkes Erpressung eines Gro\xdfkonzerns l\xe4sst sich als Ausdruck dieses Grolls
-        lesen: Das System hat ihn in die Not getrieben; er holt sich sein Recht
-        auf seine eigene, kontrollierte Weise.</p>
-        <p class="vb-intro"><strong>c) Gewalt als rote Linie:</strong>
-        <strong>Funke</strong> \xfcberschritt die Grenze zur echten Gef\xe4hrdung anderer Menschen nie.
-        F\xfcr die Eins existieren innere rote Linien, die unverhandelbar sind.
-        Der Neunerfl\xfcgel verst\xe4rkt dies: Er macht die Eins sanfter und
-        konfliktscheuer, als sie ohne den Fl\xfcgel w\xe4re.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Methodical Approach:</strong> Method, rather than spontaneity, defined Funke's conduct. Every drop-off attempt was a project — complete with lead times, test runs, and contingency plans. This is Type One anticipating and eliminating errors before they can occur.</p>
+        <p class="vb-intro"><strong>b) Quiet Resentment Against the System:</strong> The anger of Type One is rarely loud — it is a quiet, enduring resentment. Funke's extortion of a major corporation can be interpreted as an expression of this resentment: the system drove him into distress; he reclaims his due in his own controlled manner.</p>
+        <p class="vb-intro"><strong>c) Violence as a Non-Negotiable Line:</strong> <strong>Funke</strong> never crossed the boundary into genuinely endangering others. For Type One, non-negotiable internal lines exist. The Nine-wing reinforces this, making the One gentler and more conflict-averse than it would be without the wing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Zuverl\xe4ssig und geordnet:</strong>
-        <strong>Funke</strong> wirkte auf seine Umgebung geordnet und zuverl\xe4ssig – der
-        Handwerker, der seine Arbeit ernst nimmt. Diese Gesamtwirkung
-        erm\xf6glichte es ihm, jahrelang unentdeckt zu bleiben: Niemand sah einen
-        Kriminellen, weil er wie jemand wirkte, der einfach seine Pflicht tut.</p>
-        <p class="vb-intro"><strong>b) Unauff\xe4llig und zur\xfcckhaltend:</strong>
-        Der Neunerfl\xfcgel macht die Eins leiser und unauff\xe4lliger, als sie
-        ohne ihn w\xe4re. Funke suchte keine Aufmerksamkeit um ihrer selbst
-        willen – die Medienpr\xe4senz war Mittel zum Zweck, nicht Selbstzweck.</p>
-        <p class="vb-intro"><strong>c) Sympathisch trotz Kriminalit\xe4t:</strong>
-        Die \xd6ffentlichkeit jubelte Funke zu – ein Zeichen daf\xfcr, dass seine
-        Grundhaltung (gewaltlos, klar begr\xfcndet, niemanden verletzend) intuitiv
-        als \"fair\" wahrgenommen wurde. Das ist die Eins in ihrer besten
-        Auspr\xe4gung: ein tief verankerter Sinn f\xfcr das, was vertretbar ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Reliable and Orderly:</strong> <strong>Funke</strong> impressed those around him as orderly and dependable — a craftsman who took his work seriously. This overall impression enabled him to remain undetected for years: no one saw a criminal, because he appeared to be someone simply doing his duty.</p>
+        <p class="vb-intro"><strong>b) Unobtrusive and Reserved:</strong> The Nine-wing renders Type One quieter and more understated. Funke did not seek attention for its own sake — the media coverage was a means to an end, not an end in itself.</p>
+        <p class="vb-intro"><strong>c) Likable Despite Criminality:</strong> The public cheered Funke on — a sign that his core posture (nonviolent, clearly reasoned, injuring no one) was intuitively perceived as "fair." This is Type One in its best expression: a deeply anchored sense of what is acceptable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Konzentriert und kontrolliert:</strong>
-        <strong>Funke</strong> verstr\xf6mte keine wilde oder unberechenbare Energie. Seine
-        Ausstrahlung war die eines Menschen, der seine Kr\xe4fte kontrolliert
-        einsetzt – ruhig nach au\xdfen, konzentriert innen.</p>
-        <p class="vb-intro"><strong>b) Unterschwelliger Groll:</strong>
-        Darunter lag die Einser-Energie: ein stiller, beharrlicher Unmut gegen
-        Ungerechtigkeiten. Dieser Groll war kein Hass – er war Antriebskraft,
-        die sich in methodisches Handeln verwandelte statt in Explosion.</p>
-        <p class="vb-intro"><strong>c) Ausdauer statt Eskalation:</strong>
-        Sechs Jahre und immer neue Varianten – das ist keine Suchtdynamik,
-        sondern Einser-Beharrlichkeit. Die Eins gibt nicht auf, solange das
-        Problem nicht gel\xf6st ist. Funke h\xf6rte erst auf, als er gefasst wurde.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Focused and Controlled:</strong> <strong>Funke</strong> projected no wild or unpredictable energy. His presence was that of a person using his energy with control — calm on the outside, focused on the inside.</p>
+        <p class="vb-intro"><strong>b) Underlying Resentment:</strong> Beneath lay Type One energy: a quiet, persistent resentment against perceived injustice. This resentment was not hatred — it was a driving force that converted into methodical action rather than explosive outbursts.</p>
+        <p class="vb-intro"><strong>c) Endurance Over Escalation:</strong> Six years and ever-new variations — this was not an addiction dynamic, but Type One perseverance. The One does not yield until the problem is solved. Funke stopped only when he was apprehended.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Adler</h3>
-        <p class="vb-intro"><strong>a) Scharfer Blick f\xfcr Details:</strong>
-        Der Adler sieht Kleinigkeiten aus gro\xdfer Distanz – er \xfcbersieht nichts.
-        Funkes Vorbereitung zeigte dieselbe Qualit\xe4t: Er erkannte Schwachstellen
-        im System, die andere \xfcbersahen, und nutzte sie pr\xe4zise aus.</p>
-        <p class="vb-intro"><strong>b) Geduldiges Abwarten:</strong>
-        Adler kreisen geduldig, bevor sie handeln – sie eilen nicht. Funkes
-        monatelange Vorbereitung jeder Aktion spiegelt diese Geduld: Er wartete,
-        bis alles stimmte. Der Neunerfl\xfcgel gab ihm die Ruhe daf\xfcr.</p>
-        <p class="vb-intro"><strong>c) Pr\xe4zision in der Ausf\xfchrung:</strong>
-        Wenn der Adler angreift, ist es pr\xe4zise und kontrolliert – nie verschwenderisch,
-        nie brutal. Funkes Aktionen hatten dieselbe Qualit\xe4t: zielgenau, technisch
-        einwandfrei, ohne unn\xf6tigen Schaden. Das Handwerk des Adlers
-        ist Pr\xe4zision, nicht Gewalt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Eagle</h3>
+        <p class="vb-intro"><strong>a) Keen Eye for Details:</strong> The eagle perceives small details from vast distances — it misses nothing. Funke's preparation exhibited the same quality: he identified vulnerabilities in the system that others overlooked and exploited them with precision.</p>
+        <p class="vb-intro"><strong>b) Patient Waiting:</strong> Eagles circle patiently before striking — they do not rush. Funke's months-long preparation for each operation mirrors this patience: he waited until every detail aligned. The Nine-wing provided the inner composure for this.</p>
+        <p class="vb-intro"><strong>c) Precision in Execution:</strong> When the eagle strikes, it is precise and controlled — never wasteful, never brutal. Funke's operations shared this quality: targeted, technically sound, devoid of unnecessary harm. The eagle's craft is precision, not raw force.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Arno Funke</strong> alias „Dagobert“ verk\xf6rpert die selbsterhaltende Eins in einer
-        ungew\xf6hnlichen, aber psychologisch koh\xe4renten Auspr\xe4gung: Ein Mensch unter
-        materiellem Druck, der mit akribischer Methode, innerer moralischer Grenze
-        und stiller Beharrlichkeit handelte. Der Neunerfl\xfcgel milderte die Schärfe
-        der Eins – er machte Funke sanft, geduldig und gewaltlos. Nach der Haft
-        fand er in der Kunst den legitimen Kanal f\xfcr dieselbe Pr\xe4zision und
-        Sorgfalt, die ihn als Erpresser ausgezeichnet hatte.
+        <strong>Arno Funke</strong>, alias "Dagobert," embodies the Self-Preservation Type 1 in an unusual yet psychologically coherent expression: an individual under material pressure who acted with meticulous methodology, internal moral boundaries, and quiet persistence. The Nine-wing softened the sharpness of Type One — making Funke gentle, patient, and nonviolent. Following his imprisonment, he found in art a legitimate channel for the exact precision and care that had characterized his work as an extortionist.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP1 – „Angst / Worry“:</strong>
-        Claudio Naranjo nannte die selbsterhaltende Eins „Angst“ oder „Worry“:
-        Sie ist von allen Einsen die am st\xe4rksten auf materielle Sicherheit
-        fixierte. Chronische Sorge um das praktische \xdcberleben, um das
-        Funktionieren der Dinge des Alltags – das ist der Kern der SP1.
-        Funkes Erpressung war kein Abenteuer, sondern eine Antwort auf
-        existenzielle Bedrohung: Seine Werkstatt stand vor dem Aus.
-        Die SP1 l\xf6st Probleme – methodisch, kontrolliert, vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel – Geduld und Gewaltlosigkeit:</strong>
-        Der Neunerfl\xfcgel d\xe4mpft die Sch\xe4rfe und Kritik der Eins erheblich.
-        Er gibt ihr Geduld, eine tiefere Harmonieneigung und einen
-        ausgepr\xe4gten Widerwillen gegen echte Konfrontation. Funkes absoluter
-        Gewalt-Verzicht ist der Neunerfl\xfcgel als ethische Grenze: Er h\xe4tte
-        keine echte Bombe gez\xfcndet – nicht aus Feigheit, sondern weil
-        das gegen sein inneres Bild von sich als einem im Grunde anst\xe4ndigen
-        Menschen versto\xdfen h\xe4tte.</p>
-        <p class="vb-intro"><strong>c) Einser-Perfektionismus in der Praxis:</strong>
-        Die Eins muss Dinge richtig machen. Funkes monatelange Vorbereitung
-        jeder Geldabholung – das Testen der Konstruktionen, das Durchdenken
-        von Auswegen, die technische Pr\xe4zision – ist kein Spieler-Enthusiasmus,
-        sondern Einser-Perfektionismus im praktischen Handwerk. Ein Error
-        w\xe4re f\xfcr ihn nicht nur gef\xe4hrlich, sondern innerlich untragbar gewesen.</p>
-        <p class="vb-intro"><strong>d) Stiller Groll als Antrieb:</strong>
-        Der Zorn der Eins ist selten laut – er brennt still und lang. Funkes
-        Erpressung eines Gro\xdfkonzerns tr\xe4gt diesen Unterton: Das System
-        hat ihn in die Not gebracht; er holt sich sein Recht zur\xfcck.
-        Keine Explosion, kein Ausbruch – sondern die k\xfchle, beharrliche
-        Gegenbewegung eines Menschen, der sich im Recht f\xfchlt.</p>
-        <p class="vb-intro"><strong>e) Integration zur Sieben – Kreativit\xe4t als Wachstum:</strong>
-        Der Wachstumspunkt der Eins ist die Sieben: Wenn die Eins sich
-        entspannt, gewinnt sie Leichtigkeit, Humor und Spielfreude.
-        Funkes Verwandlung zum K\xfcnstler und Kinderbuchautor nach der Haft
-        ist dieses Integrationsmuster: Dieselbe Pr\xe4zision, nun in einen
-        kreativen, freieren Kanal gelenkt. Der Dagobert-Humor, den die
-        \xd6ffentlichkeit liebte, war vielleicht ein erster Blitz dieser
-        Siebener-Integration.</p>
-        <p class="vb-intro"><strong>f) Sympathie als Signal f\xfcr Grundanst\xe4ndigkeit:</strong>
-        Dass die \xd6ffentlichkeit Funke so zujauchzte, ist psychologisch bedeutsam.
-        Die Menschen sp\xfcrten intuitiv seine rote Linie – seine Grenze vor echtem
-        Schaden. Das ist der Kern der Eins in ihrer gesunden Form: ein tief
-        verankertes Gef\xfchl f\xfcr das, was vertretbar ist und was nicht.
-        Funke hielt diese Grenze \xfcber sechs Jahre – das ist
-        Einser-Integrit\xe4t, auch im Verborgenen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP1 – "Anxiety / Worry":</strong> Claudio Naranjo designated the Self-Preservation One as "Anxiety" or "Worry": of all Ones, this subtype is the most heavily fixated on material security. Chronic concern over practical survival and the proper functioning of daily affairs lies at the core of SP1. Funke's extortion was not an adventure, but a response to existential threat: his shop faced ruin. SP1 resolves problems — methodically, controlled, and completely.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing – Patience and Nonviolence:</strong> The Nine-wing significantly dampens the sharpness and criticality of Type One. It imparts patience, a deeper inclination toward harmony, and a pronounced aversion to direct conflict. Funke's absolute avoidance of violence represents the Nine-wing functioning as an ethical boundary: he would not detonate a real bomb — not out of cowardice, but because doing so would have violated his internal image of himself as an inherently decent human being.</p>
+        <p class="vb-intro"><strong>c) Type One Perfectionism in Practice:</strong> Type One must execute tasks correctly. Funke's months of preparation for each money collection — testing contraptions, mapping out escape routes, technical precision — was not gambler's enthusiasm, but Type One perfectionism applied to practical craftsmanship. An error would have been not just dangerous to him, but internally intolerable.</p>
+        <p class="vb-intro"><strong>d) Quiet Resentment as a Motor:</strong> The anger of Type One is rarely loud — it burns quietly and steadily. Funke's extortion of a major corporation carries this undertone: the system placed him in distress; he reclaims his due. No explosion, no outburst — simply the cool, persistent countermovement of a man who feels justified.</p>
+        <p class="vb-intro"><strong>e) Integration to Type Seven – Creativity as Growth:</strong> The growth point for Type One is Type Seven: when the One relaxes, it gains lightness, humor, and playfulness. Funke's transformation into an artist and children's book author after prison reflects this integration pattern: the exact same precision, now directed into a creative, freer channel. The "Dagobert" humor that the public appreciated was perhaps an early glimpse of this Seven integration.</p>
+        <p class="vb-intro"><strong>f) Public Sympathy as a Signal of Core Decency:</strong> That the public cheered for Funke is psychologically significant. People intuitively sensed his line — his refusal to inflict actual harm. This is the core of Type One in its healthy form: a deeply rooted sense of what is permissible and what is not. Funke maintained this boundary across six years — a demonstration of Type One integrity, even in the shadows.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei den drei Einser-Subtypes unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Arno Funke wurde 1994 wegen Erpressung und Herbeiführung von Explosionen zu neun Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a legal or historical judgment. Arno Funke was sentenced in 1994 to nine years in prison for extortion and causing explosions. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels H\xf6gel"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
@@ -21989,169 +21207,54 @@ function aileenWuornosPortraitPage() {
         </div>
         <p class="krim-portrait-name">Aileen Wuornos</p>
         <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Florida 1989–1990 · 7 Morde</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Florida 1989–1990 · 7 Murders</p>
       </div>
       <p class="psycho-intro">
-        <strong>Aileen Carol Wuornos</strong>, als Aileen Carol Pittman am 29. Februar 1956
-        in Rochester, Michigan geboren, war eine US-amerikanische Serienmörderin,
-        die zwischen November 1989 und November 1990
-        mindestens <strong>sieben Männer</strong> in Florida erschoss.
-        Alle Opfer waren Autofahrer, die sie als Anhalterin mitnahmen.
-        Sie war zum Zeitpunkt der Taten obdachlos, arbeitete als Prostituierte
-        und lebte in einer intensiven Beziehung mit Tyria Moore,
-        die für sie das einzige Fundament ihres Lebens darstellte.
-        Sie wurde 1992 in sechs Fällen zum Tode verurteilt und am 9. Oktober 2002
-        in Florida durch Giftinjektion hingerichtet.
-        Nach ihrer Verurteilung wurde sie von der evangelikalen Christin Arlene Pralle adoptiert
-        und trug seitdem rechtlich den Namen Aileen Wuornos Pralle –
-        in der Kriminologie ist sie jedoch ausschließlich als Aileen Wuornos bekannt.
-        Das Enneagramm macht sichtbar, wie eine Frau, die die Intensität
-        einer einzigen Liebe höher stellte als ihr eigenes Leben, zu dem wurde, was sie wurde.
+        <strong>Aileen Carol Wuornos</strong>, born Aileen Carol Pittman on February 29, 1956, in Rochester, Michigan, was an American serial killer who shot at least <strong>seven men</strong> in Florida between November 1989 and November 1990. All victims were drivers who picked her up while she was hitchhiking. At the time of the crimes, she was homeless, working as a prostitute, and living in an intense relationship with Tyria Moore, who served as the sole foundation of her life. She was sentenced to death in six cases in 1992 and executed by lethal injection in Florida on October 9, 2002. After her conviction, she was adopted by evangelical Christian Arlene Pralle and legally took the name Aileen Wuornos Pralle — though in criminology, she is known exclusively as Aileen Wuornos. The Enneagram makes visible how a woman who placed the intensity of a single love higher than her own life became what she became.
       </p>
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Aileen Wuornos</strong> wird dem <strong>Sexuellen Typ 7 with Eight-wing</strong> zugeordnet.
-        Die sexuelle Sieben idealisiert die eine, vollkommene Beziehung –
-        sie sucht einen einzigen Menschen, der alles sein soll: Heimat, Schutz, Anerkennung, Liebe.
-        Diese Intensität auf eine einzige Person zu richten ist ihr Grundmuster und ihr Verhängnis.
-        Der Eight-wing verleiht ihr Direktheit, Kampfbereitschaft und explosive Energie.
-        Der Stresspunkt liegt bei der <strong>Eins</strong>:
-        rigides Denken, innerer Richter, moralische Verhärtung –
-        wenn die Sieben unter Dauerdruck gerät, verliert sie die Leichtigkeit
-        und hält nur noch an Urteilen fest.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Aileen Wuornos</strong> is assigned to the <strong>Sexual Type 7 with Eight-wing</strong>. The Sexual Seven idealizes the single, perfect relationship — seeking one person who is meant to be everything: home, protection, recognition, and love. Directing this extreme intensity toward a single person is her fundamental pattern and her fatal flaw. The Eight-wing gives her directness, combat readiness, and explosive energy. Her stress point lies at Type <strong>One</strong>: rigid thinking, an inner judge, and moral hardening — when the Seven comes under persistent pressure, she loses her lightness and clings fiercely to fixed judgments.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Schimpanse</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Chimpanzee</h3>
         <p class="vb-intro">
-        Der <strong>Schimpanse</strong> ist die Animal correspondence der sexuellen Sieben.
-        Er ist hochintelligent, lebhaft, leidenschaftlich auf Beziehung ausgerichtet –
-        er lebt in kleinen, intensiven Bindungsgruppen und kämpft erbittert
-        für seine engsten Gefährten.
-        Der Schimpanse kann spielerisch und liebevoll sein –
-        und in Sekundenbruchteilen zur zerstörerischen Kraft werden,
-        wenn er seine Bindung bedroht sieht.
-        Diese Polarität war Wuornos' ganzes Leben:
-        die sehnsüchtige, liebevolle Frau, die alles für Tyria Moore gab –
-        und die erschossene sieben Männer auf sich, um ihr Überleben zu sichern.
+        The <strong>Chimpanzee</strong> is the animal correspondence of the Sexual Seven. It is highly intelligent, lively, and passionately focused on relationships — living in small, tightly bound groups and fighting fiercely for its closest companions. The chimpanzee can be playful and affectionate — and turn into a destructive force within split seconds if it senses its bond is threatened. This polarity defined Wuornos's entire life: the longing, loving woman who gave everything for Tyria Moore, and the person who shot seven men to secure her survival.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Alles für die eine Liebe</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sexuellen Sieben:</strong>
-        Die sexuelle Sieben ist die Sieben, die sich vollständig in eine einzige Person
-        oder Beziehung investiert. Sie idealisiert: dieser Mensch, diese Liebe,
-        diese Verbindung soll alles sein, was ihr Leben trägt.
-        Diese Intensität ist das Gegenteil des Klischee-Siebers,
-        der von Erlebnis zu Erlebnis springt –
-        die sexuelle Sieben springt nicht. Sie bindet sich.
-        Und wenn die Bindung gefährdet ist, kämpft sie mit allem, was sie hat.
-        Wuornos' gesamtes kriminelles Handeln ist durch diese Linse zu verstehen:
-        Sie tötete, um Geld zu beschaffen. Das Geld war für Tyria.
-        Sie gestand, um Tyria zu schützen.
-        Sie zog alle Berufungen zurück, weil Tyria längst weg war.</p>
-        <p class="vb-intro"><strong>b) Der Eight-wing: Wut als letzte Grenze:</strong>
-        Der Eight-wing der sexuellen Sieben verleiht ihr Energie und Direktheit –
-        aber auch eine explosive Kapazität für Konfrontation.
-        Die Acht setzt Grenzen durch Kraft. Wuornos setzte Grenzen durch Gewalt.
-        Sie beschrieb in Verhören eine tiefe innere Überzeugung,
-        dass Männer ihr gegenüber immer wieder Grenzen überschreiten wollten.
-        Ob das in allen Fällen zutraf, ist rechtlich ungeklärt.
-        Was klar ist: Der Eight-wing der sexuellen Sieben macht
-        das Fass schnell zum Überlaufen – wenn die einzig wichtige Beziehung
-        oder das Gefühl eigener Würde bedroht ist.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Maßlosigkeit in der Liebe:</strong>
-        Die Leidenschaft der Sieben ist die <strong>Maßlosigkeit</strong> (Völlerei) –
-        das unstillbare Verlangen, das keine natürliche Sättigungsgrenze kennt.
-        Bei der sexuellen Sieben richtet sich diese Maßlosigkeit typischerweise auf Erlebnisse und Abenteuer –
-        in ihrer extremen Ausprägung jedoch kann sie sich ganz auf die vollkommene Zweierbindung richten
-        und alles andere verdrängen.
-        Wuornos' Maßlosigkeit richtete sich vollständig auf Tyria Moore. Alles andere war Mittel zum Zweck.
-        Diese Maßlosigkeit machte sie blind für das, was die Beziehung tatsächlich war –
-        und empfänglich für Tyrias Kooperation mit der Polizei,
-        die sie nicht kommen sah.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Seven: Everything for the One True Love</h3>
+        <p class="vb-intro"><strong>a) The Core Pattern of the Sexual Seven:</strong> The Sexual Seven invests completely in a single person or relationship. She idealizes: <em>this person, this love, this connection</em> must be everything that sustains her life. This intensity is the exact opposite of the stereotypical Seven who hops from experience to experience — the Sexual Seven does not hop; she binds. And when that bond is threatened, she fights with everything she has. Wuornos's entire criminal behavior can be understood through this lens: she killed to get money. The money was for Tyria. She confessed to protect Tyria. She withdrew all appeals because Tyria was already gone.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing: Rage as the Final Boundary:</strong> The 8-wing gives the Sexual Seven energy and directness — along with an explosive capacity for confrontation. The Eight sets boundaries through strength; Wuornos set boundaries through violence. In interrogations, she described a deep inner conviction that men consistently tried to violate her boundaries. Whether that was true in every case remains legally unresolved. What is clear: the 8-wing of the Sexual Seven makes the cup overflow quickly whenever the only relationship that matters — or her sense of personal dignity — is threatened.</p>
+        <p class="vb-intro"><strong>c) The Passion: Gluttony in Love:</strong> The passion of the Seven is <strong>Gluttony</strong> — the insatiable craving that knows no natural limit. While gluttony in Sevens typically focuses on new experiences and adventure, in its extreme SX manifestation, it can center entirely on a perfect one-on-one bond, crowding out everything else. Wuornos's gluttony was aimed completely at Tyria Moore. Everything else was merely a means to an end. This gluttony made her blind to what the relationship actually was — and left her vulnerable to Tyria's cooperation with the police, which she never saw coming.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Sieben Männer in zwölf Monaten</h3>
-        <p class="vb-intro"><strong>a) Kindheit ohne Fundament:</strong>
-        Wuornos wurde 1956 in Michigan geboren. Ihre Mutter verließ die Familie,
-        als Aileen vier Jahre alt war. Sie wuchs bei den Großeltern auf,
-        die sie misshandelten. Sie wurde als Jugendliche vergewaltigt und wurde schwanger,
-        das Kind wurde zur Adoption freigegeben.
-        Mit 15 Jahren wurde sie von zu Hause geworfen.
-        Sie lebte von da an auf der Straße, finanzierte ihren Lebensunterhalt
-        durch Prostitution – ein Leben ohne Schutz, ohne Netz, ohne Boden.
-        Die sexuelle Sieben ohne eine einzige sichere Bindung
-        ist ein Mensch auf der permanenten Search nach dem, was sie nie bekam.
-        1986 schien dieses Ufer gefunden: In einer Bar in Daytona Beach lernte Wuornos
-        <strong>Tyria Moore</strong> kennen, ein Zimmermädchen aus Pennsylvania.
-        Moore zog bei ihr ein; Wuornos finanzierte den gemeinsamen Lebensunterhalt
-        vollständig durch Prostitution. Es war die erste dauerhafte Bindung ihres Lebens.
-        Moore war für Wuornos Zuhause, Schutz und Grund weiterzumachen – alles in einer Person.</p>
-        <p class="vb-intro"><strong>b) Die Opfer – sieben Männer, eine Methode:</strong>
-        Alle sieben Opfer waren Männer, die Wuornos als Anhalterin mitnahmen.
-        Sie erschoss sie aus kurzer Distanz, meist mit einer .22-Pistole.
-        Die Taten geschahen stets in oder an Fahrzeugen auf Landstraßen in Florida.
-        <strong>Richard Mallory</strong> (51), verurteilt wegen Vergewaltigung – 30. November 1989.
-        <strong>David Spears</strong> (43), Bauarbeiter – 19. Mai 1990.
-        <strong>Charles Carskaddon</strong> (40), Gelegenheitsarbeiter – 31. Mai 1990.
-        <strong>Peter Siems</strong> (65), Missionar – Juni 1990 (Leiche nie gefunden).
-        <strong>Troy Burress</strong> (50), Lkw-Fahrer – 30. Juli 1990.
-        <strong>Dick Humphreys</strong> (56), ehemaliger Polizist – 11. September 1990.
-        <strong>Walter Gino Antonio</strong> (62), Lkw-Fahrer – 19. November 1990.
-        Wuornos behauptete in allen Fällen Notwehr – die Männer hätten sie
-        vergewaltigt oder versucht, sie zu töten. Das Gericht folgte dieser Darstellung
-        nur im Fall Mallory. In den übrigen sechs Fällen wurde sie wegen Mordes ersten Grades verurteilt.</p>
-        <p class="vb-intro"><strong>c) Die Verhaftung (Januar 1991):</strong>
-        Die Ermittler fanden das Auto von Peter Siems – von Wuornos und Tyria Moore
-        nach einem Unfall zurückgelassen, mit Fingerabdrücken beider.
-        Anhand eines Phantombildes wurden die beiden identifiziert.
-        Die Polizei kontaktierte Tyria Moore – und bat sie, Wuornos am Telefon
-        zu geständigen Aussagen zu bewegen.
-        Moore stimmte zu. In mehreren abgehörten Telefonaten sprach Wuornos offen,
-        um Tyria zu schützen. Sie gestand am 16. Januar 1991.
-        Sie sagte später: „Ich habe gestanden, damit Tyria frei bleibt."
-        Die sexuelle Sieben opferte sich für die einzige Bindung, die ihr etwas bedeutete –
-        und die Person dieser Bindung hatte sie bereits verraten.</p>
-        <p class="vb-intro"><strong>d) Prozess und Hinrichtung:</strong>
-        Wuornos wurde 1992 in sechs Fällen zum Tode verurteilt.
-        Im Jahr 2001 zog sie alle Berufungen zurück und bat aktiv um die Vollstreckung.
-        Am 9. Oktober 2002 wurde sie in der Florida State Prison durch Giftinjektion hingerichtet.
-        Ihre letzten Worte: „Yes, I would just like to say I'm sailing with the rock
-        and I'll be back like Independence Day, with Jesus June 6th.
-        Like the movie, big mothership and all, I'll be back."
-        Sie war 45 Jahre alt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: Seven Men in Twelve Months</h3>
+        <p class="vb-intro"><strong>a) A Childhood Without a Foundation:</strong> Wuornos was born in Michigan in 1956. Her mother left the family when Aileen was four years old. She grew up with her grandparents, who abused her. As a teenager, she was raped and became pregnant; the child was put up for adoption. At 15, she was thrown out of her home. From then on, she lived on the streets, supporting herself through prostitution — a life without protection, safety, or ground beneath her feet. A Sexual Seven without a single secure attachment is a person on a permanent search for what she never received. In 1986, that shore seemed to be found: in a bar in Daytona Beach, Wuornos met <strong>Tyria Moore</strong>, a maid from Pennsylvania. Moore moved in with her, and Wuornos supported their shared life entirely through prostitution. It was the first lasting bond of her life. To Wuornos, Moore was home, protection, and a reason to keep going — all in one person.</p>
+        <p class="vb-intro"><strong>b) The Victims – Seven Men, One Method:</strong> All seven victims were men who picked Wuornos up as a hitchhiker. She shot them at close range, mostly with a .22-caliber pistol. The crimes always occurred in or near vehicles on rural Florida roads. <strong>Richard Mallory</strong> (51), convicted of rape – November 30, 1989. <strong>David Spears</strong> (43), construction worker – May 19, 1990. <strong>Charles Carskaddon</strong> (40), odd-job worker – May 31, 1990. <strong>Peter Siems</strong> (65), missionary – June 1990 (body never found). <strong>Troy Burress</strong> (50), truck driver – July 30, 1990. <strong>Dick Humphreys</strong> (56), former police officer – September 11, 1990. <strong>Walter Gino Antonio</strong> (62), truck driver – November 19, 1990. Wuornos claimed self-defense in all cases, stating the men had raped or attempted to kill her. The court accepted this defense only in the case of Mallory. In the remaining six cases, she was convicted of first-degree murder.</p>
+        <p class="vb-intro"><strong>c) The Arrest (January 1991):</strong> Investigators found Peter Siems's car — abandoned by Wuornos and Tyria Moore after a crash, bearing fingerprints from both women. Based on a composite sketch, they were identified. Police contacted Tyria Moore and asked her to coax Wuornos into confessing over the phone. Moore agreed. In several wiretapped calls, Wuornos spoke openly to protect Tyria. She confessed on January 16, 1991, later stating: "I confessed so Tyria could stay free." The Sexual Seven sacrificed herself for the only bond that meant anything to her — unaware that her partner had already betrayed her.</p>
+        <p class="vb-intro"><strong>d) Trial and Execution:</strong> Wuornos was sentenced to death in six cases in 1992. In 2001, she withdrew all appeals and actively requested the execution of her sentence. On October 9, 2002, she was executed by lethal injection at Florida State Prison. Her final words: "Yes, I would just like to say I'm sailing with the rock and I'll be back like Independence Day, with Jesus June 6th. Like the movie, big mothership and all, I'll be back." She was 45 years old.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Aileen Wuornos ist kein Fall von Kontrollwillen oder Kälte.
-        Sie ist ein Fall von totaler Fehlausrichtung der Liebe.
-        Die sexuelle Sieben lebt für die eine vollkommene Verbindung.
-        Wuornos richtete diese Intensität auf eine Frau,
-        die nicht die Kapazität hatte, das zu sein, was Wuornos brauchte.
-        Der Schimpanse, der alles für seine Bindungspartner tut,
-        der kämpft und tötet und schließlich sein Leben gibt –
-        nicht weil er böse ist, sondern weil die Bindung für ihn alles ist –
-        das ist das erschütternde Bild dieser Frau.
-        Was Wuornos von fast allen anderen Tätern in dieser Sammlung unterscheidet:
-        Sie wollte kein Böses sein. Sie wollte geliebt werden.
+        Aileen Wuornos is not a case of a need for control or cold calculating malice. She is a case of total misalignment of love. The Sexual Seven lives for that one perfect connection. Wuornos directed this intensity toward a woman who lacked the capacity to be what Wuornos needed. The chimpanzee that gives everything for its bonding partner, that fights, kills, and ultimately gives its life — not because it is inherently evil, but because the bond is everything to it — that is the tragic picture of this woman. What distinguishes Wuornos from almost every other offender in this collection: she did not want to be evil. She wanted to be loved.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Classification & Summary Profile</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX7w8 – Sexuelle Sieben with Eight-wing.<br>
-        <strong>Leidenschaft:</strong> Maßlosigkeit (Völlerei) – das unstillbare Verlangen nach vollkommener Zweierbindung, nicht nach Erlebnissen.<br>
-        <strong>Stresspunkt:</strong> Eins – rigides Denken, innerer Richter, moralische Verhärtung.<br>
-        <strong>Animal correspondence:</strong> Schimpanse – intensiv gebunden, leidenschaftlich, zur Gewalt fähig wenn die Bindung bedroht ist.<br>
-        <strong>Opfer:</strong> Sieben Männer in Florida (November 1989 – November 1990), alle erschossen.<br>
-        <strong>Hingerichtet:</strong> 9. Oktober 2002, Florida State Prison, Giftinjektion.
+        <strong>Subtype:</strong> SX7w8 – Sexual Seven with Eight-wing.<br>
+        <strong>Passion:</strong> Gluttony – the insatiable craving for a perfect one-on-one bond, not for experiences.<br>
+        <strong>Stress Point:</strong> One – rigid thinking, inner judge, moral hardening.<br>
+        <strong>Animal Correspondence:</strong> Chimpanzee – intensely bound, passionate, capable of extreme violence when the bond is threatened.<br>
+        <strong>Victims:</strong> Seven men in Florida (Nov 1989 – Nov 1990), all shot.<br>
+        <strong>Executed:</strong> October 9, 2002, Florida State Prison (Lethal Injection).
         </p>
       </div>
 
@@ -22162,14 +21265,14 @@ function aileenWuornosPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Aileen Wuornos wurde in sechs Fällen des erstgradigen Mordes zum Tode verurteilt und 2002 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Aileen Wuornos was convicted of first-degree murder in six cases and executed in 2002. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
-        {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4) – Mutter als Täterin"},
-        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Frau als Täterin"},
+        {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4) – Mother as Perpetrator"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Woman as Perpetrator"},
       ])}
     </div>
   `);
@@ -22680,222 +21783,77 @@ function jeffreyEpsteinPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jeffrey Epstein</p>
         <p class="krim-portrait-typ">SX8w9 · Sexual Type 8 with Nine-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Finanzier und Sexualstraftäter · Animal correspondence: Krokodil</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US Financier and Sex Offender · Animal correspondence: Crocodile</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Jeffrey Epstein</strong>, Finanzier und Netzwerker, wurde 2019 wegen Sexhandels
-        mit Minderj\xe4hrigen verhaftet und starb noch vor seinem Prozess unter
-        ungekl\xe4rten Umst\xe4nden in Untersuchungshaft. Jahrzehntelang hatte er
-        ein Netzwerk aus Macht, Geld und Abh\xe4ngigkeit aufgebaut: Er verband
-        Politiker, Akademiker, Royals und Unternehmer miteinander – und nutzte
-        diese Verbindungen, um sich selbst unantastbar zu machen. Sein System
-        basierte nicht auf offenem Zwang, sondern auf Verf\xfchrung, Einbindung
-        und dem stillen Bewusstsein: Wer einmal Teil dieses Netzwerks ist,
-        kommt nicht mehr heraus. Epsteins Fall ist einer der dunkelsten Belege
-        daf\xfcr, wie die sexuelle Acht Macht nicht durch Konfrontation,
-        sondern durch Besitz aus\xfcbt.
+        <strong>Jeffrey Epstein</strong>, financier and networker, was arrested in 2019 on charges of sex trafficking minors and died in remand custody under unresolved circumstances before his trial. Over decades, he constructed a web of power, money, and dependency: interconnecting politicians, academics, royals, and business moguls — utilizing these bonds to make himself effectively untouchable. His system did not rely on overt physical force, but on seduction, integration, and the quiet realization that once someone became part of this web, there was no exit. Epstein's case stands as one of the darkest demonstrations of how the Sexual Eight exercises power not through open confrontation, but through possession.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jeffrey Epstein</strong> wird der <strong>Sexuellen Acht mit Neunerfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Acht ist <em>Wollust</em> –
-        als \xfcberschie\xdfende Intensit\xe4t und Hunger nach Besitz und Kontrolle.
-        Die sexuelle Acht (SX8) richtet diese Energie auf das Feld der Intimit\xe4t
-        und Verschmelzung: Sie will Menschen besitzen, in ihre Welt einbinden,
-        abh\xe4ngig machen. Anders als die soziale oder selbsterhaltende Acht
-        dominiert sie nicht durch Territorium oder Hierarchie, sondern durch
-        pers\xf6nliche Bindung und Einfluss. Der Neunerfl\xfcgel verleiht ihr eine
-        \xe4u\xdfere Sanftheit, Zug\xe4nglichkeit und Unauff\xe4lligkeit – eine Hülle,
-        die die eigentliche Gef\xe4hrlichkeit verbirgt, bis es zu sp\xe4t ist.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Jeffrey Epstein</strong> is assigned to the <strong>Sexual Type 8 with a Nine-wing</strong> in the Enneagram. The passion of Type Eight is <em>Lust</em> — expressed as an overflowing intensity and a hunger for possession and control. The Sexual Eight (SX8) directs this energy into intimacy and fusion: seeking to possess people, integrate them into its orbit, and cultivate dependency. Unlike the Social or Self-Preservation Eight, it dominates not through territory or formal hierarchy, but through personal bonding and influence. The Nine-wing provides an external demeanor of gentleness, accessibility, and unobtrusiveness — a soft shell that conceals the underlying lethality until it is too late.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Einnehmend und kalkulierend:</strong>
-        Epsteins Blick war, so beschreiben es Zeitzeugen, direkt und einnehmend –
-        er signalisierte Interesse, Aufmerksamkeit, Bedeutsamkeit.
-        Die sexuelle Acht nutzt den Blick als Werkzeug der Verf\xfchrung:
-        Sie l\xe4sst das Gegen\xfcber sp\xfcren, dass es gesehen und gew\xfcnscht wird.</p>
-        <p class="vb-intro"><strong>b) Ruhig und selbstsicher:</strong>
-        Kein Rasen, keine Nervosit\xe4t – der Neunerfl\xfcgel gibt dem Blick
-        eine Ruhe, die Vertrauen erzeugt. Epstein wirkte nie gierig oder
-        bedrohlich auf den ersten Blick. Genau das machte ihn zug\xe4nglich
-        f\xfcr Menschen, die sonst vorsichtig gewesen w\xe4ren.</p>
-        <p class="vb-intro"><strong>c) Grenzenloses Interesse:</strong>
-        Er schien wirklich neugierig – auf Ideen, Menschen, Verbindungen.
-        Die sexuelle Acht will alles und jeden kennen, weil Wissen
-        Macht bedeutet. Dieses scheinbar echte Interesse war sein
-        wirksamster Verführungskanal.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Engaging and Calculating:</strong> Witnesses described Epstein's gaze as direct and engaging — signaling intense interest, focused attention, and a feeling of importance. The Sexual Eight uses the gaze as an instrument of seduction, making the other person feel uniquely seen and desired.</p>
+        <p class="vb-intro"><strong>b) Calm and Self-Assured:</strong> Free of restlessness or overt nervousness, the Nine-wing imparts a calm to the gaze that builds unearned trust. Epstein rarely seemed greedy or menacing at first glance, making him accessible to individuals who would otherwise have been guarded.</p>
+        <p class="vb-intro"><strong>c) Boundless Curiosity:</strong> He projected a genuine curiosity about ideas, people, and connections. The Sexual Eight seeks to know everything and everyone because knowledge translates to leverage. This seemingly authentic interest served as his most effective channel of seduction.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Netzwerk als Machtsystem:</strong>
-        <strong>Epstein</strong> baute kein Unternehmen – er baute ein Netzwerk aus
-        gegenseitiger Kompromittierung. Jede Verbindung, die er kn\xfcpfte,
-        war potenziell ein Instrument der Kontrolle.
-        Das ist SX8 in ihrer systemischen Auspr\xe4gung: Besitz
-        nicht von Dingen, sondern von Menschen und Geheimnissen.</p>
-        <p class="vb-intro"><strong>b) Gro\xdfz\xfcgigkeit als Einbindung:</strong>
-        <strong>Epstein</strong> war bekannt f\xfcr seine Gro\xdfz\xfcgigkeit – Fl\xfcge, Inseln,
-        Partys, Verbindungen. Diese Gro\xdfz\xfcgigkeit war kein Altruismus,
-        sondern Einbindungsstrategie: Wer Geschenke annimmt, betritt
-        das Netzwerk. Die sexuelle Acht kauft keine Loyalit\xe4t –
-        sie schafft Abh\xe4ngigkeit.</p>
-        <p class="vb-intro"><strong>c) Unantastbarkeit als Ziel:</strong>
-        <strong>Epstein</strong> arrangierte sein Leben so, dass er \xfcber dem Gesetz stand.
-        Das ist das tiefste Motiv der SP8: nicht Reichtum um seiner selbst
-        willen, sondern Sicherheit durch absolute Macht. Niemand kann
-        mich ber\xfchren – das ist das Lebensprinzip der Acht
-        in ihrer dunkelsten Auspr\xe4gung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Networking as a System of Power:</strong> <strong>Epstein</strong> did not simply build an enterprise — he constructed a network of mutual compromise. Every connection forged was a potential instrument of control. This represents the SX8 in its systemic form: possession not merely of objects, but of people and secrets.</p>
+        <p class="vb-intro"><strong>b) Generosity as Entanglement:</strong> <strong>Epstein</strong> was renowned for lavish generosity — private flights, island stays, high-level introductions — his giving was never altruistic. It was an integration strategy: accepting gifts meant entering the web. The Sexual Eight does not buy loyalty; it engineers dependency.</p>
+        <p class="vb-intro"><strong>c) Invulnerability as the Ultimate Goal:</strong> <strong>Epstein</strong> arranged his affairs to exist above the law. This reflects the deepest drive of the Eight: safety achieved through absolute power. <em>Nobody can touch me</em> is the core life principle of the Eight in its darkest manifestation.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Besitz durch Intimität:</strong>
-        Die sexuelle Acht dominiert nicht durch Distanz, sondern durch
-        N\xe4he. Epstein wollte Menschen in seinen innersten Kreis ziehen –
-        und dieser Kreis war ein K\xe4fig. Das Instrument war Intimität,
-        das Ziel war Kontrolle.</p>
-        <p class="vb-intro"><strong>b) Doppelleben als Strategie:</strong>
-        Nach au\xdfen: Philanthrop, Intellektueller, Netzwerker. Nach innen:
-        ein System der Ausbeutung. Der Neunerfl\xfcgel erm\xf6glicht dieses
-        Doppelleben – er gibt der Acht eine soziale Hülle, die
-        die rohe Machtstruktur dahinter unsichtbar macht.</p>
-        <p class="vb-intro"><strong>c) Gef\xe4hrlichkeit ohne Sichtbarkeit:</strong>
-        <strong>Epstein</strong> war nicht laut, nicht offensichtlich bedrohlich.
-        Er war charmant, gebildet, vernetzt. Das ist die
-        SX8w9 in ihrer gef\xe4hrlichsten Form: Die Acht, die
-        man nicht als Acht erkennt – bis man bereits Teil
-        ihres Systems ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Possession Through Intimacy:</strong> The Sexual Eight dominates not through cold distance, but through proximity. Epstein sought to draw people into his innermost circle — a circle that functioned as a trap. Intimacy was the instrument; control was the target.</p>
+        <p class="vb-intro"><strong>b) Dual Identity as Strategy:</strong> Publicly, he presented as a philanthropist, intellectual, and master networker; privately, he operated an exploitative ring. The Nine-wing facilitates this split life, offering a social veneer that renders the raw power structure behind it invisible.</p>
+        <p class="vb-intro"><strong>c) Submerged Danger:</strong> <strong>Epstein</strong> was neither loud nor overtly aggressive. He was charming, articulate, and well-connected — representing the SX8w9 at its most dangerous: an Eight that goes unrecognized until one is already trapped in its system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Anziehend und gesellschaftsf\xe4hig:</strong>
-        <strong>Epstein</strong> war f\xfcr Jahrzehnte eine gesellschaftlich akzeptierte
-        Figur in den h\xf6chsten Kreisen. Diese Zugangsberechtigung
-        ist der Neunerfl\xfcgel: Er macht die Acht soft genug,
-        um \xfcberall hineingelassen zu werden.</p>
-        <p class="vb-intro"><strong>b) Undurchdringlich:</strong>
-        Trotz fr\xfcherer Verurteilung (2008) blieb Epstein in seinem
-        Netzwerk eingebettet. Die Acht sch\xfctzt sich durch
-        Gegenseitigkeit – wer in sein System verstrickt ist,
-        hat kein Interesse an seiner Entlarvung.
-        Das ist die ultimative Machtstruktur der SX8.</p>
-        <p class="vb-intro"><strong>c) Fassadenloser Kern:</strong>
-        Wer hinter die Fassade sah, erkannte eine kalte,
-        besitzorientierte Struktur ohne Empathie f\xfcr die Opfer.
-        Das ist die Acht ohne Heilung: Kraft ohne Mitgef\xfchl,
-        Intensit\xe4t ohne R\xfccksicht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Charismatic and Socially Accepted:</strong> <strong>Epstein</strong> remained a welcomed figure in elite societal circles for decades. This access was enabled by the Nine-wing, which softened his presence enough to open doors everywhere.</p>
+        <p class="vb-intro"><strong>b) Impenetrable Protection:</strong> Even following a 2008 conviction, Epstein remained embedded in his networks. The Eight protects itself through mutual liability — those entangled in his web had no interest in seeing it dismantled. This represents the ultimate power architecture of the SX8.</p>
+        <p class="vb-intro"><strong>c) A Facadeless Core:</strong> Beneath the polished exterior lay a cold, possessive structure devoid of empathy for its victims. This is the unintegrated Eight: raw force without compassion, intensity without restraint.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Saugend und einbindend:</strong>
-        Die Energie der sexuellen Acht ist nicht sto\xdfend, sondern
-        anziehend. Epstein zog Menschen in seine Welt – mit Reiz,
-        Prestige, dem Versprechen von Zugeh\xf6rigkeit. Wer
-        einmal in diesem Sog war, kam nur schwer heraus.</p>
-        <p class="vb-intro"><strong>b) Scheinbare W\xe4rme:</strong>
-        Der Neunerfl\xfcgel erzeugt eine f\xfchlbare W\xe4rme und Ruhe.
-        Epstein konnte Menschen das Gef\xfchl geben, willkommen
-        und bedeutsam zu sein. Diese scheinbare W\xe4rme war
-        der Eingangskanal – nicht Kälte oder Bedrohung.</p>
-        <p class="vb-intro"><strong>c) Latenter Druck:</strong>
-        Darunter war stets ein Druck sp\xfcrbar: die Erwartung
-        von Gegenleistung, die Unausweichlichkeit des Systems.
-        Die Acht gibt nichts ohne Gegenrechnung. Diese
-        latente Spannung war der eigentliche Kern
-        jeder seiner Relationships.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Magnetic and Drawing:</strong> The energy of the Sexual Eight pulls inward rather than pushing away. Epstein drew people into his orbit through allure, prestige, and the promise of belonging. Once caught in this current, extraction was difficult.</p>
+        <p class="vb-intro"><strong>b) Apparent Warmth:</strong> The Nine-wing generates a tangible warmth and composure. Epstein could make individuals feel welcomed and uniquely important. This apparent warmth acted as the entry point rather than coldness or overt threat.</p>
+        <p class="vb-intro"><strong>c) Underlying Pressure:</strong> Beneath the surface, a latent pressure remained: the expectation of reciprocity and the inevitability of the system. The Eight grants nothing without a ledger. This underlying tension formed the true foundation of his relationships.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Krokodil</h3>
-        <p class="vb-intro"><strong>a) Scheinbare Unbeweglichkeit:</strong>
-        Das Krokodil liegt still – geduldig, fast unsichtbar,
-        halb unter der Oberfl\xe4che. Es sendet kein Signal
-        der Bedrohung. Epsteins gesellschaftliche Erscheinung
-        hatte genau diese Qualit\xe4t: ruhig, geduldig, scheinbar
-        harmlos – und dabei immer in Position.</p>
-        <p class="vb-intro"><strong>b) Uralte Raubtierintelligenz:</strong>
-        Das Krokodil ist eines der \xe4ltesten \xdcberlebewesen der Erde –
-        seine Jagdstrategie hat sich \xfcber Millionen Jahre bew\xe4hrt.
-        Keine Hektik, keine Improvisation. Epsteins Netzwerk
-        war \xe4hnlich: jahrzehntelang aufgebaut, pr\xe4zise in
-        seiner Funktionsweise, ern\xfcchternd effektiv.</p>
-        <p class="vb-intro"><strong>c) Zupacken ohne Vorwarnung:</strong>
-        Wenn das Krokodil zuschnappt, gibt es keine Gnade
-        und kein Entkommen. Epsteins System funktionierte
-        nach derselben Logik: Der Moment des Zugreifens
-        kam, wenn das Opfer bereits nah genug war.
-        Bis dahin: Stille, Geduld, scheinbare Harmlosigkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Crocodile</h3>
+        <p class="vb-intro"><strong>a) Deceptive Motionlessness:</strong> The crocodile lies submerged in the water — patient, nearly invisible, sending no outward signal of danger. Epstein's social demeanor held this same quality: calm, patient, and seemingly harmless while remaining permanently in position.</p>
+        <p class="vb-intro"><strong>b) Ancient Predatory Intelligence:</strong> As one of Earth's oldest apex predators, the crocodile relies on a hunting strategy perfected over millions of years — devoid of haste or improvisation. Epstein's network functioned similarly: built over decades, precise in operation, and chillingly effective.</p>
+        <p class="vb-intro"><strong>c) Sudden, Decisive Capture:</strong> When the crocodile strikes, there is no advance warning and no escape. Epstein's system operated on this exact principle: the strike occurred only after the target was already within reach. Until that moment, there was only silence, patience, and the appearance of harmlessness.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Jeffrey Epstein</strong> verk\xf6rpert die sexuelle Acht in ihrer systemischsten
-        und verborgensten Auspr\xe4gung. Keine offene Gewalt, keine sichtbare
-        Bedrohung – sondern ein Netzwerk aus Einbindung, Kompromittierung
-        und gegenseitiger Abh\xe4ngigkeit, das er \xfcber Jahrzehnte pr\xe4zise
-        aufbaute. Der Neunerfl\xfcgel gab ihm die Hülle: Charme,
-        Zug\xe4nglichkeit, scheinbare W\xe4rme. Der Achter-Kern war
-        kompromissloser Besitz – von Menschen, Geheimnissen
-        und Macht.
+        <strong>Jeffrey Epstein</strong> embodies the Sexual Eight in its most systemic and concealed expression. It operated not through open violence or visible threats, but through a web of entanglement, compromise, and mutual dependency constructed meticulously over decades. The Nine-wing provided the outer shell: charm, accessibility, and an aura of warmth. The Eight core remained uncompromising possession — of human beings, secrets, and power.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX8 – Besitz durch Verschmelzung:</strong>
-        Claudio Naranjo beschrieb die sexuelle Acht als den Subtype,
-        der Macht \xfcber den Bereich des Pers\xf6nlichen und Intimen aus\xfcbt.
-        Die SX8 will nicht nur dominieren – sie will besitzen,
-        einschlie\xdfen, zur eigenen Welt machen. Epsteins System
-        war die kriminelle Auspr\xe4gung dieses Musters: Menschen wurden
-        nicht nur benutzt, sondern in sein Netz eingebunden –
-        als Ressourcen, Komplizen, Geiseln.</p>
-        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als soziale Tarnung:</strong>
-        Ohne den Neunerfl\xfcgel w\xe4re Epstein vielleicht sichtbarer
-        gef\xe4hrlich gewesen. Der Fl\xfcgel gab ihm Anpassungsf\xe4higkeit,
-        gesellschaftliche Kompatibilit\xe4t und eine \xe4u\xdfere Harmlosigkeit,
-        die ihn in die h\xf6chsten Kreise einf\xfchrte. Er war der
-        Freund, dem man vertraute – und der dieses Vertrauen
-        systematisch zur Kontrolle nutzte.</p>
-        <p class="vb-intro"><strong>c) Macht als Schutz – das Grundmotiv der Acht:</strong>
-        Jede Acht hat in ihrer Tiefe die gleiche Urwunde: die Erfahrung,
-        dass Schw\xe4che gef\xe4hrlich ist. Die Antwort der Acht ist
-        absolute Macht als Schutzschild. Epstein systematisierte
-        dies: Er wurde so m\xe4chtig und so tief in Netzwerke
-        eingebettet, dass eine Anklage jahrzehntelang unm\xf6glich
-        schien. Das Machtgeb\xe4ude war sein pers\xf6nlicher Schutzwall.</p>
-        <p class="vb-intro"><strong>d) Gegenseitige Kompromittierung als System:</strong>
-        Das Geniale und Erschreckende an Epsteins Netzwerk war
-        seine Selbststabilit\xe4t: Jeder, der eingebunden war,
-        hatte ein Interesse daran, dass das System bestehen bleibt.
-        Das ist SX8-Strategie auf h\xf6chstem Niveau: Macht durch
-        geteilte Schuld, Stabilit\xe4t durch Mitverantwortung.</p>
-        <p class="vb-intro"><strong>e) Entspannungspunkt Zwei – die verdrehte F\xfcrsorglichkeit:</strong>
-        Der Entspannungspunkt der Acht ist die Zwei. In gesunder
-        Form bedeutet das \xd6ffnung, F\xfcrsorglichkeit, echte N\xe4he.
-        Bei Epstein zeigte sich dieses Muster verzerrt: Er agierte
-        als Wohlt\xe4ter, als Förderer – eine Zwei-Maske \xfcber dem
-        Achter-Kern. Die scheinbare F\xfcrsorglichkeit war
-        Einbindungsstrategie, keine echte Zuwendung.</p>
-        <p class="vb-intro"><strong>f) Unvollendeter Prozess – die offene Wunde:</strong>
-        Epsteins Tod in Haft 2019 – ob Suizid oder Mord bleibt
-        ungekl\xe4rt – hinterlie\xdf eines der gr\xf6\xdften ungel\xf6sten
-        R\xe4tsel der j\xfcngeren Geschichte: Wer wusste was, wer
-        war wie eingebunden? Das Netzwerk \xfcberlebte seinen Architekten.
-        Die SX8 schafft Strukturen, die \xfcber den Einzelnen hinaus
-        weiterbestehen – das ist sowohl ihre gr\xf6\xdfte St\xe4rke
-        als auch ihr dunkelster Ausdruck.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SX8 – Possession Through Fusion:</strong> Claudio Naranjo described the Sexual Eight as the subtype that exercises power over the personal and intimate realm. The SX8 seeks not merely to dominate, but to possess, enclose, and absorb into its own world. Epstein's network was the criminal realization of this pattern: individuals were not merely used, but bound into his web as resources, accomplices, or collateral.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing as Social Camouflage:</strong> Without the Nine-wing, Epstein's dangerous nature might have been far more obvious. The wing provided adaptability, social compatibility, and an aura of harmlessness that allowed him access to elite circles. He presented as a trusted friend, systematically converting that trust into leverage.</p>
+        <p class="vb-intro"><strong>c) Power as Protection – The Core Motivation:</strong> At its core, every Eight carries a primary wound: the conviction that vulnerability is dangerous. The Eight responds by building absolute power as a shield. Epstein systematized this defense, embedding himself so deeply into influential networks that legal prosecution appeared impossible for decades. The architecture of power was his personal fortress.</p>
+        <p class="vb-intro"><strong>d) Mutual Compromise as a Self-Sustaining System:</strong> The most alarming structural feature of Epstein's network was its internal stability: every participant had a vested interest in preserving the system. This represents SX8 strategy operating at a high level — power maintained through shared guilt and stability secured through mutual accountability.</p>
+        <p class="vb-intro"><strong>e) Disintegration/Stress to Two – Perverted Caretaking:</strong> Under stress, the Eight can take on distorted traits of Type Two. For Epstein, this manifested as the persona of a benefactor and mentor — a Two mask worn over an Eight core. This apparent caretaking was an integration tactic rather than authentic concern.</p>
+        <p class="vb-intro"><strong>f) An Unfinished Resolution:</strong> Epstein's death in custody in 2019 left one of the most significant unresolved cases in modern history. The web survived its architect: the SX8 builds structures designed to endure beyond the individual — representing both its greatest strength and its darkest expression.</p>
       </div>
 
       <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
-        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Persönlichkeitsanalyse Jeffrey Epstein (SX8)</p>
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Personality Analysis Jeffrey Epstein (SX8)</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
             src="https://www.youtube.com/embed/XnS_8QaUL8Y?rel=0"
@@ -22904,13 +21862,13 @@ function jeffreyEpsteinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\xfchrlich portr\xe4tiert – Wollust, Macht und der Heilungsweg \xfcber echte St\xe4rke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Wollust bei den drei Achter-Subtypes unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 Charakterprofile im Überblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausführlich porträtiert – Wollust, Macht und der Heilungsweg über echte Stärke ohne Kontrollzwang.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jeffrey Epstein bekannte sich 2008 in einem ersten Verfahren schuldig. Ein zweites Verfahren wurde durch seinen Tod in Untersuchungshaft 2019 beendet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Jeffrey Epstein pleaded guilty in 2008, and a second federal trial was terminated due to his death in remand custody in 2019. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -23372,233 +22330,83 @@ function johnWayneGacyPortraitPage() {
         </div>
         <p class="krim-portrait-name">John Wayne Gacy</p>
         <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienmörder, „Killer Clown" · Animal correspondence: Flusspferd</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US Serial Killer, "Killer Clown" · Animal correspondence: Hippopotamus</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>John Wayne Gacy</strong> ist einer der bekanntesten Serienmörder der amerikanischen
-        Geschichte. Zwischen 1972 und 1978 ermordete er mindestens 33 junge Männer
-        und Jugendliche im Raum Chicago – die meisten wurden unter dem Kriechkeller
-        seines Hauses begraben. Was den Fall Gacy von anderen Serienmördern unterscheidet,
-        ist die radikale Diskrepanz zwischen seiner \xf6ffentlichen Erscheinung
-        und seiner verborgenen Wirklichkeit: Er war Unternehmer,
-        demokratischer Bezirkshauptmann, Mitglied lokaler B\xfcrgerkomitees,
-        Organisator von Nachbarschaftsfesten – und er trat als Clown auf,
-        um Kindern auf Wohlt\xe4tigkeitsveranstaltungen zu unterhalten.
-        Der „Killer Clown" steht wie kein anderer Fall f\xfcr die dunkle Seite
-        des Zweier-Privilegs: das Gef\xfchl, durch gesellschaftlichen Einsatz
-        und \xf6ffentliche W\xe4rme unangreifbar zu werden.
+        <strong>John Wayne Gacy</strong> is one of the most infamous serial killers in American history. Between 1972 and 1978, he murdered at least 33 young men and teenagers in the Chicago area — most of whom were buried beneath the crawl space of his home. What distinguishes the Gacy case from other serial killers is the radical discrepancy between his public persona and his hidden reality: he was a business owner, a Democratic precinct captain, a member of local civic committees, an organizer of neighborhood block parties — and he performed as a clown to entertain children at charity events. The "Killer Clown" stands like no other case for the dark side of Two-privilege: the conviction that through civic commitment and public warmth, one becomes untouchable.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>John Wayne Gacy</strong> wird der <strong>Self-Preservationen Zwei mit Dreierfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
-        das \xdcberzeugtsein, durch F\xfcrsorge, Einsatz und gesellschaftliche Pr\xe4senz
-        besonderen Schutz und besondere Rechte zu verdienen.
-        Die selbsterhaltende Zwei (SP2) – von Naranjo als „Privileg" beschrieben –
-        sichert ihre Stellung durch Geben: durch Arbeit, Anwesenheit, Gro\xdfz\xfcgigkeit.
-        Der Dreierfl\xfcgel verleiht ihr ein ausgepr\xe4gtes Gef\xfchl f\xfcr Images
-        und Rollen: Gacy wusste genau, welche Erscheinung in welchem Kontext
-        Vertrauen erzeugt. Er schuf um sich eine Aura der Unantastbarkeit –
-        und nutzte sie als Deckmantel f\xfcr das Unvorstellbare.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>John Wayne Gacy</strong> is assigned to the <strong>Self-Preservation Type 2 with a Three-wing</strong> in the Enneagram. The passion of Type Two is <em>Pride</em> — the deep conviction of deserving special protection, exemption, and rights through caretaking, service, and public presence. The Self-Preservation Two (SP2) — described by Claudio Naranjo as "Privilege" — secures its standing through giving: through work, presence, and generosity. The Three-wing imparts a sharp instinct for image and social roles: Gacy knew precisely which presentation would inspire trust in any given context. He crafted an aura of invulnerability around himself — and used it as cover for the unthinkable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
-        Zeitgenossen beschrieben Gacy als gesellig, charmant und zuvorkommend.
-        Er nahm sich Zeit f\xfcr Menschen, kannte Namen, fragte nach Familien.
-        Das ist die Zwei auf ihrer gesellschaftlichen B\xfchne:
-        aufrichtige W\xe4rme als erlernte, perfektionierte Praxis.</p>
-        <p class="vb-intro"><strong>b) Ordnungsliebend und selbstzufrieden:</strong>
-        <strong>Gacy</strong> pr\xe4sentierte sich als erfolgreichen, geordneten Mann –
-        Unternehmer, B\xfcrger, Gastgeber. Der Dreierfl\xfcgel gibt der Zwei
-        eine Fa\xe7ade aus Kompetenz und Kontrolle:
-        Wer so viel organisiert und gibt, steht \xfcber Verdacht.</p>
-        <p class="vb-intro"><strong>c) Clown als bewusste Rollenverst\xe4rkung:</strong>
-        Die Clownsfigur „Pogo" war keine Nebenbeschäftigung –
-        sie war ein Instrument. Als Clown war Gacy grotesk gut getarnt:
-        Niemand sieht hinter die Maske des Entertainers.
-        Der Dreierfl\xfcgel versteht Rollen nicht als Verstellung,
-        sondern als Strategie.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Warm and Engaging:</strong> Contemporaries described Gacy as gregarious, charming, and attentive. He took time for people, remembered names, and asked about families. This is the Two on its social stage: genuine warmth cultivated as a perfected, habitual practice.</p>
+        <p class="vb-intro"><strong>b) Orderly and Self-Satisfied:</strong> <strong>Gacy</strong> presented himself as a successful, orderly man — an entrepreneur, civic leader, and generous host. The Three-wing provides the Two with a façade of competence and control: anyone who organizes and gives so much stands above suspicion.</p>
+        <p class="vb-intro"><strong>c) The Clown as Deliberate Role Amplification:</strong> The clown persona "Pogo" was no mere sideline — it was an instrument. As a clown, Gacy was grotesquely well-camouflaged: no one looks behind the mask of an entertainer. The Three-wing understands roles not as mere disguise, but as strategy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Helfen als Zugang und Schutz:</strong>
-        <strong>Gacy</strong> stellte junge Männer in seinem Bauunternehmen ein,
-        lud sie ein, gab Arbeit und Struktur.
-        Das ist SP2-Helfen in seiner dunkelsten Form:
-        F\xfcrsorge als Mittel der Ann\xe4herung, nicht als Selbstzweck.</p>
-        <p class="vb-intro"><strong>b) Gemeinschaft als Schutzschild:</strong>
-        Sein gesellschaftliches Engagement war kein Schmuck –
-        es war Kalkulation. Wer Nachbarschaftsfeste organisiert
-        und Fotos mit der First Lady macht,
-        wird nicht zuerst verdächtigt.
-        Das Zweier-Privileg in seiner effizientesten Form:
-        Gutsein als Immunisierung.</p>
-        <p class="vb-intro"><strong>c) Unf\xe4higkeit zur Schuld\xfcbernahme:</strong>
-        Im Gef\xe4ngnis, nach der Verurteilung, im Todestrakt
-        zeigte Gacy keine echte Reue – er malte Clownsbilder,
-        gab Interviews und bestand darauf, missverstanden worden zu sein.
-        Die SP2 im schweren Stolz kann Schuld nicht integrieren:
-        Sie existiert nicht in ihrem Selbstbild.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Helping as Access and Shield:</strong> <strong>Gacy</strong> hired young men for his construction business, offered them guidance, and provided employment and structure. This is SP2-helping in its darkest expression: caretaking as a means of approach rather than an end in itself.</p>
+        <p class="vb-intro"><strong>b) Community as an Immunization Shield:</strong> His civic engagement was no ornament — it was calculation. Someone who organizes neighborhood block parties and poses for photos with the First Lady is not an initial suspect. This is Two-privilege in its most efficient form: goodness as immunity.</p>
+        <p class="vb-intro"><strong>c) Inability to Assume Guilt:</strong> In prison, after his conviction, and on death row, Gacy demonstrated no genuine remorse — he painted clown portraits, granted interviews, and insisted he was misunderstood. The SP2 caught in severe Pride cannot integrate guilt: it simply cannot exist within their self-concept.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Doppelleben als Systemleistung:</strong>
-        <strong>Gacy</strong> f\xfchrte ein Doppelleben \xfcber mehr als sechs Jahre –
-        in einem Umfeld, das ihn kannte, sch\xe4tzte und w\xe4hlte.
-        Das gelingt nur, wenn die \xf6ffentliche Persona
-        vollst\xe4ndig integriert und \xfcberzeugend ist.
-        Der Dreierfl\xfcgel erschafft Personas mit einer Pr\xe4zision,
-        die von innen nicht als Fa\xe7ade erlebt wird.</p>
-        <p class="vb-intro"><strong>b) Kontrolle \xfcber Abh\xe4ngige:</strong>
-        <strong>Gacy</strong> suchte bewusst junge, wirtschaftlich verletzliche M\xe4nner –
-        Angestellte, die ihm etwas schuldeten oder von ihm abh\xe4ngig waren.
-        Das ist SP2-Kontrolle durch F\xfcrsorge:
-        Verbindlichkeit erzeugen, dann ausnutzen.</p>
-        <p class="vb-intro"><strong>c) Grandioses Selbstbild bis zuletzt:</strong>
-        <strong>Gacy</strong> sah sich als bedeutenden Menschen, dem Unrecht geschah.
-        Sein letzter Satz vor der Hinrichtung (1994)
-        war eine Klage, kein Gest\xe4ndnis.
-        Das ist das Zweier-Privileg in seiner extremsten Form:
-        das Gef\xfchl, durch das eigene Geben unantastbar zu sein –
-        selbst angesichts von 33 Morden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) A Systematized Double Life:</strong> <strong>Gacy</strong> maintained a double life for more than six years within a community that knew, respected, and elected him. This is only achievable when the public persona is fully integrated and convincing. The Three-wing crafts personas with a precision that feels genuine from within rather than an artificial façade.</p>
+        <p class="vb-intro"><strong>b) Control Over Dependents:</strong> <strong>Gacy</strong> deliberately targeted young, economically vulnerable men — employees who owed him or depended on his support. This is SP2-control through caretaking: generate obligation, then exploit it.</p>
+        <p class="vb-intro"><strong>c) Grandiose Self-Image to the End:</strong> <strong>Gacy</strong> viewed himself as an important man who had been wronged. His final words before execution in 1994 were a grievance, not a confession. This is Two-privilege in its most extreme form: the feeling of being untouchable because of one's own giving — even in the face of 33 murders.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Das freundliche Gesicht des Bösen:</strong>
-        <strong>Gacy</strong> wurde im Nachhinein zur Ikone einer kulturellen Angst:
-        dass das Böse nicht bedrohlich aussieht, sondern einladend.
-        Er demonstriert, was Enneagramm-Forscher die
-        „soziale Camouflage" der dunklen Zwei nennen:
-        W\xe4rme und Grausamkeit im selben K\xf6rper.</p>
-        <p class="vb-intro"><strong>b) Der Fall als Warnsignal:</strong>
-        Mehrfach gab es Hinweise, Beschwerden, Ermittlungsans\xe4tze –
-        die alle im gesellschaftlichen Ansehen Gacys versanken.
-        Das ist jenes systemische Versagen, das das Zweier-Privileg
-        erm\xf6glicht: Die Umgebung sieht das Bild,
-        nicht die Wirklichkeit dahinter.</p>
-        <p class="vb-intro"><strong>c) Pop-kulturelle Nachwirkung:</strong>
-        Gacys Clownsbilder werden heute als Kunst gehandelt.
-        Dokumentationen, Serien, B\xfccher.
-        Die Faszination gilt dem R\xe4tsel:
-        Wie konnte jemand so viel geben und gleichzeitig so viel nehmen?
-        Die Antwort ist das Enneagramm: Stolz und Gier
-        k\xf6nnen in einem Menschen koexistieren,
-        wenn das Ich gro\xdf genug ist, beides nicht zu sehen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) The Friendly Face of Evil:</strong> <strong>Gacy</strong> in retrospect became an icon of a cultural fear: that evil does not look threatening, but welcoming. He demonstrates what Enneagram researchers call the "social camouflage" of the dark Two: warmth and cruelty inhabiting the exact same body.</p>
+        <p class="vb-intro"><strong>b) The Case as a Warning System Failure:</strong> On multiple occasions, there were leads, complaints, and investigative threads — all of which dissolved into Gacy's high social standing. This is the systemic failure that Two-privilege enables: the community sees the image, not the reality behind it.</p>
+        <p class="vb-intro"><strong>c) Pop-Cultural Afterlife:</strong> Gacy's clown paintings are traded as art today, accompanied by endless documentaries, series, and books. The fascination centers on a single puzzle: how could someone give so much and simultaneously take so much? The answer lies in the Enneagram: Pride and greed can coexist within a person when the ego is large enough to remain blind to both.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Einladend und kontrolliert:</strong>
-        Gacys Energie war einladend – er zog Menschen an,
-        schuf Atmosph\xe4re, erzeugte das Gef\xfchl von Zugeh\xf6rigkeit.
-        Das ist die Zwei im Dreierfl\xfcgel als soziale Maschine:
-        pr\xe4zise kalibriert auf die W\xfcnsche der Umgebung.</p>
-        <p class="vb-intro"><strong>b) Ohne echte Gegenleistung:</strong>
-        Hinter der W\xe4rme stand kein echtes Interesse am Anderen –
-        nur das Interesse am Bild, das der Andere zur\xfcckwirft.
-        Das ist das Wesen des Zwei-Stolzes:
-        Beziehung als Spiegel, nicht als Begegnung.</p>
-        <p class="vb-intro"><strong>c) Die Maske ohne Gesicht:</strong>
-        Ehemalige Bekannte berichteten nach seiner Verhaftung,
-        dass sie das Gef\xfchl hatten, ihn nie wirklich gekannt zu haben.
-        Der Dreierfl\xfcgel kann eine Persona so perfekt erschaffen,
-        dass darunter nichts Erkennbares mehr \xfcbrig bleibt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Inviting and Controlled:</strong> Gacy's energy was magnetic — he drew people in, built an inviting atmosphere, and generated a sense of belonging. This is the Two with a Three-wing functioning as a social machine: precisely calibrated to the desires of its environment.</p>
+        <p class="vb-intro"><strong>b) Devoid of True Reciprocity:</strong> Behind the warmth lay no authentic interest in the other person — only an interest in the reflection the other returned. This is the essence of Two-pride: relationship as a mirror, not a meeting.</p>
+        <p class="vb-intro"><strong>c) The Mask Without a Face:</strong> Following his arrest, former acquaintances reported feeling as though they had never truly known him. The Three-wing can create a persona so complete that nothing recognizable remains beneath it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Das gem\xfctvollste aller gef\xe4hrlichen Tiere:</strong>
-        Das Flusspferd wirkt rund, gem\xfctlich, beinahe komisch –
-        und ist dabei eines der t\xf6dlichsten Tiere Afrikas.
-        Es t\xf6tet mehr Menschen pro Jahr als L\xf6wen oder Leoparden.
-        Gacy war das menschliche \xc4quivalent:
-        einladend, gesellig, scheinbar harmlos –
-        und dahinter abgrundtief gef\xe4hrlich.</p>
-        <p class="vb-intro"><strong>b) Unsichtbarkeit unter der Oberfl\xe4che:</strong>
-        Das Flusspferd verbringt den gr\xf6\xdften Teil seines Lebens
-        unter Wasser – sichtbar nur als Augen und Nasenl\xf6cher
-        \xfcber der Oberfl\xe4che. Gacys eigentliches Leben
-        war unter dem Haus vergraben – im w\xf6rtlichen Sinne.
-        Was alle sahen, war nur das, was er zeigen wollte.</p>
-        <p class="vb-intro"><strong>c) Territorial und absolut:</strong>
-        Das Flusspferd duldet keine Eindringlinge in seinem Revier –
-        es reagiert mit \xfcberw\xe4ltigender, blitzschneller Gewalt.
-        Gacy duldete keine Entdeckung, keine Grenzziehung,
-        keine Gegenwehr. Das Zweier-Privileg kippt ins Zerst\xf6rerische,
-        wenn es auf Widerstand trifft.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) The Most Amiable of Dangerous Animals:</strong> The hippopotamus appears round, placid, almost comical — yet it is among the deadliest animals in Africa, killing more humans annually than lions or leopards. Gacy was the human equivalent: inviting, gregarious, seemingly harmless — and profoundly lethal behind that exterior.</p>
+        <p class="vb-intro"><strong>b) Invisibility Beneath the Surface:</strong> The hippo spends most of its life submerged — visible only as eyes and nostrils above the waterline. Gacy's true life was buried beneath his house, quite literally. What the public saw was strictly what he intended to show.</p>
+        <p class="vb-intro"><strong>c) Territorial and Absolute:</strong> The hippo tolerates no intruders in its domain, reacting with overwhelming, instantaneous violence. Gacy tolerated no exposure, no boundary-setting, and no resistance. Two-privilege turns destructive the moment it encounters defiance.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>John Wayne Gacy</strong> ist der extremste Fall in dieser Reihe –
-        und deshalb der lehrreichste f\xfcr das Verst\xe4ndnis,
-        wohin ein ungeheilter Typ 2 im Stolz gelangen kann.
-        Er zeigt nicht, wohin jede Zwei f\xfchrt –
-        das w\xe4re eine grobe Vereinfachung.
-        Er zeigt, wohin eine Zwei gelangen kann,
-        wenn das Zweier-Privileg zur vollst\xe4ndigen Weltanschauung wird,
-        wenn F\xfcrsorge zum Instrument der Kontrolle degeneriert
-        und wenn der Dreierfl\xfcgel die Persona so dicht macht,
-        dass darunter kein Gewissen mehr atmen kann.
+        <strong>John Wayne Gacy</strong> stands as the most extreme case in this series — and therefore the most instructive for understanding where an unintegrated Type 2 caught in Pride can lead. This does not imply that every Two follows this trajectory — that would be a crude oversimplification. Rather, it demonstrates where a Two can end up when Two-privilege becomes an absolute worldview, when caretaking degenerates into an instrument of control, and when the Three-wing builds a persona so impermeable that no conscience can breathe beneath it.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP2 und das Privileg:</strong>
-        Naranjo beschreibt die SP2 als den Subtype,
-        der sein Geben als Anspruch versteht.
-        Bei Gacy war dieser Anspruch absolut:
-        Er glaubte, durch seinen gesellschaftlichen Einsatz
-        ein Recht auf Straflosigkeit erworben zu haben.
-        Das ist der Zwei-Stolz in seiner m\xf6rderischen Konsequenz.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel als Tarnung:</strong>
-        Kein anderer Fl\xfcgel h\xe4tte diese Tarnung so perfekt erm\xf6glicht.
-        Der Dreierfl\xfcgel gibt der Zwei die F\xe4higkeit,
-        jede Rolle so vollst\xe4ndig auszuf\xfcllen,
-        dass keine Inkonsistenz sichtbar wird.
-        Gacy war nicht Schauspieler – er war Verwandlungsk\xfcnstler.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Harvey Weinstein:</strong>
-        Weinstein (SP2w1) nutzte Macht und moralische Selbstrechtfertigung.
-        Gacy (SP2w3) nutzte Charme und gesellschaftliche Integration.
-        Beide zeigen das Zweier-Privileg – aber in verschiedenen Auspr\xe4gungen:
-        der Einserfl\xfcgel moralisiert, der Dreierfl\xfcgel inszeniert.</p>
-        <p class="vb-intro"><strong>d) Entspannungspunkt Vier – vollst\xe4ndig blockiert:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier:
-        Selbstreflexion, Zugang zur eigenen Schuld, zur eigenen Trauer.
-        Bei Gacy war dieser Kanal vollst\xe4ndig verschlossen.
-        Kein Gest\xe4ndnis, keine Reue, keine Begegnung mit sich selbst –
-        bis zur Hinrichtung.</p>
-        <p class="vb-intro"><strong>e) Das Foto mit Rosalynn Carter:</strong>
-        1978 wurde Gacy bei einem Empfang der Democratic Party
-        mit First Lady Rosalynn Carter fotografiert.
-        Das Bild wurde zum Symbol des Falls:
-        der Serienmörder neben der First Lady,
-        ausgezeichnet von ihr pers\xf6nlich f\xfcr seinen Gemeinsinn.
-        Kein Bild illustriert das Zweier-Privileg pr\xe4ziser.</p>
-        <p class="vb-intro"><strong>f) Clownsbilder als letzte Inszenierung:</strong>
-        Im Todestrakt malte Gacy Clownsbilder – Pogo, Disney-Figuren,
-        Selbstportr\xe4ts als Clown. Er verkaufte sie, gab Interviews,
-        pflegte eine Korrespondenz. Der Dreierfl\xfcgel
-        h\xf6rt nie auf zu inszenieren: Auch das Sterben
-        kann noch eine Rolle sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP2 and "Privilege":</strong> Claudio Naranjo describes the SP2 as the subtype that understands its giving as an entitlement. In Gacy, this entitlement became absolute: he believed his civic contributions earned him immunity from accountability. This is Two-pride taken to its murderous conclusion.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as Camouflage:</strong> No other wing provides such seamless camouflage. The Three-wing grants the Two the ability to inhabit any role so completely that no inconsistency shows on the surface. Gacy was no mere actor — he was a master of transformation.</p>
+        <p class="vb-intro"><strong>c) Comparison with Harvey Weinstein:</strong> Weinstein (SP2w1) utilized institutional power and moral self-righteousness. Gacy (SP2w3) relied on charm and social integration. Both illustrate Two-privilege in different expressions: the One-wing moralizes; the Three-wing stages.</p>
+        <p class="vb-intro"><strong>d) Integration Point Four – Completely Blocked:</strong> The growth point for Type Two is Type Four: self-reflection, access to one's own guilt, and contact with genuine grief. In Gacy, this channel was completely blocked. There was no confession, no remorse, and no meeting with himself — all the way to the execution chamber.</p>
+        <p class="vb-intro"><strong>e) The Photo with Rosalynn Carter:</strong> In 1978, Gacy was photographed at a Democratic Party reception alongside First Lady Rosalynn Carter. The image became a symbol of the case: the serial killer standing beside the First Lady, personally commended by her for his civic dedication. No image illustrates Two-privilege with greater precision.</p>
+        <p class="vb-intro"><strong>f) Clown Paintings as the Final Staging:</strong> On death row, Gacy painted clown portraits — Pogo, Disney characters, self-portraits as a clown. He sold them, granted interviews, and maintained an active correspondence. The Three-wing never stops staging: even dying can be turned into a performance.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierfl\xfcgel.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg: die tiefste Analyse des selbsterhaltenden Subtypes und sein Zusammenspiel mit dem Dreierflügel.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John Wayne Gacy wurde 1980 in 33 Fällen des Mordes verurteilt und 1994 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. John Wayne Gacy was convicted of 33 counts of murder in 1980 and executed in 1994. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -23725,139 +22533,54 @@ function karlaHomolkaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Karla Homolka</p>
         <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Kanada 1990–1993</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Canada 1990–1993</p>
       </div>
       <p class="psycho-intro">
-        <strong>Karla Homolka</strong>, geboren 1970 in Port Credit, Ontario,
-        war die Frau an der Seite von Paul Bernardo – und seine Komplizin bei drei Vergewaltigungen und Morden.
-        Ihre Opfer waren Tammy Homolka (Karlas eigene jüngere Schwester, 15),
-        Leslie Mahaffy (14) und Kristen French (15).
-        Die Öffentlichkeit nannte sie und Bernardo „Ken und Barbie" –
-        wegen ihres gepflegten Äußeren, ihrer scheinbaren Normalität, ihrer strahlend weißen Hausfassade.
-        Karla Homolka schloss einen Deal mit der Staatsanwaltschaft:
-        Im Austausch gegen ihre Aussage gegen Bernardo erhielt sie eine Verurteilung
-        wegen Totschlags – zwölf Jahre, von denen sie alle absaß.
-        Sie wurde 2005 entlassen und lebt heute unter anderem Namen.
-        Das Enneagramm macht sichtbar, wie das möglich war –
-        wie eine Frau, die als liebevoll, angepasst und ehrgeizlos galt,
-        bei der Ermordung ihrer eigenen Schwester half.
+        <strong>Karla Homolka</strong>, born in 1970 in Port Credit, Ontario, was the woman at the side of Paul Bernardo — and his accomplice in three rapes and murders. Their victims were Tammy Homolka (Karla's own younger sister, 15), Leslie Mahaffy (14), and Kristen French (15). The public dubbed her and Bernardo "Ken and Barbie" due to their pristine appearance, their outward normalcy, and their bright white suburban house facade. Karla Homolka struck a plea bargain with prosecutors: in exchange for her testimony against Bernardo, she received a conviction for manslaughter — a twelve-year sentence, all of which she served. She was released in 2005 and lives today under a new name. The Enneagram makes visible how this was possible — how a woman who was considered loving, dutiful, and unassuming assisted in the murder of her own sister.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Karla Homolka</strong> wird dem <strong>Self-Preservationen Typ 3 with Four-wing</strong> zugeordnet.
-        Die selbsterhaltende Drei organisiert ihr Leben um den Aufbau eines stabilen, attraktiven Selbstbildes –
-        Sicherheit durch Erscheinungsbild, Kontrolle durch Anpassung.
-        Der Four-wing bringt Tiefe, Selbstbezogenheit und die Fähigkeit zur emotionalen Selbstinszenierung.
-        Im Stress geht die Drei in Richtung <strong>Neun</strong>: Betäubung, Selbstauslöschung,
-        das Verschwinden hinter dem Willen eines anderen.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Karla Homolka</strong> is assigned to the <strong>Self-Preservation Type 3 with a Four-wing</strong>. The passion of Type Three is <em>Vanity / Deceit</em> — organizing life around the construction of a stable, attractive self-image; security achieved through appearance, control maintained through adaptation. The Four-wing introduces depth, self-absorption, and a capacity for emotional self-staging. Under stress, Type Three disintegrates toward <strong>Nine</strong>: numbing, self-effacement, and disappearing behind the will of another person.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Waschbär</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Raccoon</h3>
         <p class="vb-intro">
-        Der <strong>Waschbär</strong> ist die Animal correspondence der selbsterhaltenden Drei –
-        und er trifft Karla Homolka mit erschreckender Genauigkeit.
-        Der Waschbär ist nachtaktiv, äußerst anpassungsfähig, intelligent und ein Meister der Täuschung.
-        Er trägt eine natürliche Maske. Er „wäscht" seine Nahrung – ein Verhalten,
-        das von außen wie Reinheit aussieht, aber einem anderen Zweck dient.
-        Er überlebt in fast jeder Umgebung, weil er sich jeder anpassen kann.
-        Und er ist schwer zu fassen: glatt, beweglich, entwischt im letzten Moment.
-        Karla Homolka erschien der Öffentlichkeit als Opfer, als mitgerissene junge Frau.
-        Dem Gericht erschien sie als kooperative Zeugin. Beiden Bildern entkam sie.
-        Der Waschbär überlebt. Immer.
+        The <strong>Raccoon</strong> is the animal correspondence of the Self-Preservation Three — and it aligns with Karla Homolka with disturbing precision. The raccoon is nocturnal, highly adaptable, intelligent, and a master of evasion. It wears a natural facial mask. It "washes" its food — a behavior that presents to the outside world as cleanliness, but serves an entirely practical, instinctual purpose. It survives in almost any environment by adapting to its surroundings. It is notoriously difficult to capture: smooth, agile, slipping away at the final moment. Karla Homolka appeared to the public as a victim, a swept-along young woman. To the court, she appeared as a cooperative witness. She escaped both labels intact. The raccoon survives. Always.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Sicherheit durch Selbstbild</h3>
-        <p class="vb-intro"><strong>a) Das Erscheinungsbild als Schutz:</strong>
-        Die SP3 investiert in ihr Erscheinungsbild als primäre Überlebensstrategie.
-        Sie will attraktiv, erfolgreich, bewundert und stabil wirken –
-        nicht für andere, sondern für sich selbst als Fundament.
-        Homolka war in der Schule beliebt, arbeitete als Tierarzthelferin,
-        galt als verantwortungsbewusst und zuverlässig. Sie pflegte ihr Äußeres sorgfältig.
-        Als sie Bernardo kennenlernte, wurde er Teil dieses Selbstbildes:
-        der attraktive, charismatische Mann, der ihr Bild von sich selbst bestätigte.</p>
-        <p class="vb-intro"><strong>b) Der Four-wing: das Besondere, das Dunkle:</strong>
-        Der Four-wing der selbsterhaltenden Drei bringt Tiefe und Selbstbezogenheit.
-        Er ermöglicht, sich als besonders, einzigartig, missverstanden zu erleben.
-        Homolka schrieb nach ihrer Verhaftung Tagebücher, die Ermittler als kühl, distanziert,
-        fast literarisch beschrieben. Sie beschrieb sich selbst als Opfer Bernardos –
-        und war sich zugleich präzise bewusst, was sie getan hatte.
-        Diese Fähigkeit, beides gleichzeitig zu sein – Täter und Opfer,
-        kalt und verletzlich –, ist das Four-wing-Muster der SP3 in der Desintegration.</p>
-        <p class="vb-intro"><strong>c) Der Neuner-Stresspunkt: Auslöschung des Selbst:</strong>
-        Die Drei geht im Stress in Richtung Neun – Betäubung, Passivität,
-        das Verschwinden hinter dem Willen einer anderen Person.
-        Homolka beschrieb ihre Beziehung zu Bernardo als eine,
-        in der sie gelernt hatte, keinen eigenen Willen mehr zu haben.
-        Sie tat, was er wollte – weil das Selbstbild des perfekten Paares wichtiger war
-        als die Entscheidung zwischen Richtig und Falsch.
-        Das ist der Neuner-Stresspunkt in seiner dunkelsten Form:
-        Selbst-Auslöschung als Form der Selbsterhaltung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Three: Security Through Self-Image</h3>
+        <p class="vb-intro"><strong>a) Appearance as Protection:</strong> The SP3 invests in its appearance as a primary survival strategy. It seeks to appear attractive, successful, admired, and stable — not merely for external validation, but for its own internal sense of foundation. Homolka was popular in school, worked as a veterinary assistant, and was regarded as responsible and reliable. She cultivated her appearance carefully. When she met Bernardo, he became an extension of this self-image: the attractive, charismatic partner who validated her ideal vision of herself.</p>
+        <p class="vb-intro"><strong>b) The Four-Wing: The Unique, The Dark:</strong> The Four-wing introduces depth and self-absorption into the Self-Preservation Three, allowing the individual to experience themselves as tragic, unique, or misunderstood. Following her arrest, Homolka wrote journals that investigators described as cold, detached, almost literary. She portrayed herself as Bernardo's helpless victim while maintaining a precise awareness of what she had done. This capacity to inhabit two roles simultaneously — perpetrator and victim, cold strategist and vulnerable survivor — is the Four-wing pattern of the SP3 in disintegration.</p>
+        <p class="vb-intro"><strong>c) Disintegration to Nine: Erasure of the Self:</strong> Under severe stress, Type Three disintegrates toward Nine — numbing, passivity, and dissolving behind the will of another. Homolka described her relationship with Bernardo as one in which she learned to relinquish her own will entirely. She complied with his demands because maintaining the self-image of the perfect couple outweighed the distinction between right and wrong. This represents disintegration to Nine in its darkest form: self-erasure utilized as a mechanism of self-preservation.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Was Karla Homolka tat</h3>
-        <p class="vb-intro"><strong>a) Tammy Homolka – die eigene Schwester:</strong>
-        Im Dezember 1990 verabreichte Karla ihrer 15-jährigen Schwester Tammy
-        heimlich das Narkosemittel Halothane, das sie aus der Tierarztpraxis gestohlen hatte.
-        Während Tammy bewusstlos war, vergewaltigte Bernardo sie –
-        gefilmt von Karla, die die Szene absicherte.
-        Tammy aspiriierte ihren eigenen Mageninhalt und starb.
-        Der Tod wurde als Unfall eingestuft. Karla nahm an der Beerdigung teil.
-        Das ist die SP3 im Zusammenbruch: Die Schwester war ein Hindernis
-        für das Bild der perfekten Beziehung geworden. Bernardo wollte sie.
-        Karla lieferte sie.</p>
-        <p class="vb-intro"><strong>b) Leslie Mahaffy und Kristen French:</strong>
-        Im Juni 1991 entführten Bernardo und Homolka die 14-jährige Leslie Mahaffy.
-        Sie brachten sie in ihr Haus, hielten sie tagelang gefangen, vergewaltigten sie,
-        töteten sie und zerstückelten den Körper – einbetoniert in Zementblöcken,
-        die im Lake Gibson gefunden wurden.
-        Im April 1992 folgte Kristen French (15), ebenfalls entführt, tagelang festgehalten und getötet.
-        Homolka war bei allen Taten aktiv anwesend – nicht als erzwungene Beobachterin,
-        sondern als Teilnehmerin. Die Videoaufnahmen, die Bernardo angefertigt hatte,
-        dokumentierten ihre Beteiligung unwiderlegbar.</p>
-        <p class="vb-intro"><strong>c) Der Deal mit der Justiz:</strong>
-        Bevor die Videobänder entdeckt wurden, schloss Homolkas Anwalt
-        einen Deal mit der Staatsanwaltschaft: zwölf Jahre Totschlag,
-        im Austausch gegen ihre vollständige Aussage gegen Bernardo.
-        Als die Bänder später auftauchten und das Ausmaß ihrer aktiven Beteiligung zeigten,
-        war der Deal bereits rechtskräftig.
-        Die Presse sprach vom „Deal mit dem Teufel".
-        Karla Homolka wurde 2005 entlassen – jünger als viele ihrer Opfer,
-        wären sie am Leben geblieben. Heute lebt sie in Quebec unter anderem Namen,
-        hat wieder geheiratet und hat Kinder. Das ist der Waschbär:
-        Er entwischt. Er passt sich an. Er überlebt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: What Karla Homolka Did</h3>
+        <p class="vb-intro"><strong>a) Tammy Homolka – Her Own Sister:</strong> In December 1990, Karla secretly administered Halothane — an anesthetic stolen from the veterinary clinic where she worked — to her 15-year-old sister, Tammy. While Tammy was unconscious, Bernardo raped her while Karla recorded the assault and secured the scene. Tammy aspirated her own vomit and died. The death was initially ruled an accident, and Karla attended the funeral as a grieving sister. This is the SP3 in collapse: her sister became an obstacle to maintaining the image of her relationship with Bernardo. He demanded her; Karla delivered her.</p>
+        <p class="vb-intro"><strong>b) Leslie Mahaffy and Kristen French:</strong> In June 1991, Bernardo and Homolka abducted 14-year-old Leslie Mahaffy. They brought her to their home, held her captive for days, raped her, killed her, and dismembered her body — encasing the remains in concrete blocks that were later recovered from Lake Gibson. In April 1992, they abducted 15-year-old Kristen French, holding her captive for days before murdering her. Homolka was actively present during these crimes — not as a coerced bystander, but as an active participant. Video recordings made by Bernardo conclusively documented her involvement.</p>
+        <p class="vb-intro"><strong>c) The Plea Bargain:</strong> Before the videotapes were discovered by investigators, Homolka's defense attorney negotiated a plea deal with prosecutors: twelve years for manslaughter in exchange for her complete testimony against Bernardo. When the tapes subsequently surfaced, revealing the full extent of her active participation, the deal was already legally binding. The press termed it the "Deal with the Devil." Karla Homolka was released in 2005 — younger than many of her victims would have been had they lived. Today, she resides in Quebec under a new name, remarried, with children of her own. This is the raccoon: it slips away, adapts, and survives.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Karla Homolka ist kein Monster im klassischen Sinn. Sie ist die selbsterhaltende Drei
-        in ihrer absoluten Desintegration: ein Mensch, der das Überleben des eigenen Selbstbildes
-        über alles stellte – über die Schwester, über die Opfer, über das eigene Gewissen.
-        Die SP3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
-        Wenn Bernardo ihr Bild trug – wenn er die Quelle ihrer Selbstdefinition war –
-        dann wurde alles, was er wollte, zum Teil dieses Bildes.
-        Die Täuschung, die Homolka betrieb, war nicht nur nach außen gerichtet.
-        Sie täuschte sich selbst – über ihre Verantwortung, über ihren Anteil, über wer sie war.
-        Das ist das Erschreckendste an diesem Fall:
-        die Fähigkeit der SP3, sich selbst die überzeugendste Geschichte zu erzählen.
+        Karla Homolka is not a monster in the classical sense. She represents the Self-Preservation Three in total disintegration: an individual who prioritized the preservation of her own self-image above all else — above her sister, above the victims, and above her own conscience. The SP3 cannot allow its self-image to shatter. If Bernardo carried her identity — if he was the anchor of her self-definition — then whatever he demanded became integrated into that image. The deceit Homolka practiced was not merely directed outward. She deceived herself regarding her responsibility, her active role, and her fundamental identity. This is the most disturbing aspect of this case: the capacity of the SP3 to tell itself the most convincing story.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Classification & Summary Profile</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SP3w4 – Self-Preservatione Drei with Four-wing.<br>
-        <strong>Leidenschaft:</strong> Täuschung (Vanity) – das Selbstbild über die Wirklichkeit stellen.<br>
-        <strong>Stresspunkt:</strong> Neun – Selbstauslöschung, Passivität, Verschwinden hinter dem Willen eines anderen.<br>
-        <strong>Animal correspondence:</strong> Waschbär – natürliche Maske, extreme Anpassungsfähigkeit, immer ein Entkommen.<br>
+        <strong>Subtype:</strong> SP3w4 – Self-Preservation Three with Four-wing.<br>
+        <strong>Passion:</strong> Deceit / Vanity – placing the self-image above reality.<br>
+        <strong>Stress Direction:</strong> Nine – self-effacement, passivity, dissolving behind another's will.<br>
+        <strong>Animal Correspondence:</strong> Raccoon – natural mask, extreme adaptability, always finding an exit.<br>
         <strong>Partner:</strong> Paul Bernardo (SX1w2) →
         <a href="#kriminalpsychologie-paul-bernardo" data-route="kriminalpsychologie-paul-bernardo"
-           style="color:var(--gold-dark);text-decoration:underline;">Zum Portrait Paul Bernardo</a>
+           style="color:var(--gold-dark);text-decoration:underline;">View Paul Bernardo Portrait</a>
         </p>
       </div>
 
@@ -23868,7 +22591,7 @@ function karlaHomolkaPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Karla Homolka wurde 1993 in drei Fällen des Totschlags verurteilt und 2005 entlassen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Karla Homolka was convicted of manslaughter in 1993 and released in 2005. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -23894,249 +22617,79 @@ function busterMurdaughPortraitPage() {
         <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Buster Murdaugh</strong> ist der \xfcberlebende Sohn von Alex Murdaugh –
-        dem s\xfcdkarolinischen Anwalt und Patriarchen einer einflussreichen
-        Juristendynastie, der 2023 wegen der Morde an seiner Frau Maggie
-        und seinem Sohn Paul verurteilt wurde. Buster wuchs in einem Milieu
-        auf, in dem der Familienname \xdcber Rechtsnormen stand:
-        Die Murdaughs kontrollierten \xfcber drei Generationen die Staatsanwaltschaft
-        von Hampton County, S\xfcdkarolina – ein regionales Macht- und Schutzsystem
-        f\xfcr sich. Im Zuge der Ermittlungen gegen seinen Vater r\xfcckte auch
-        Buster in den Fokus: Sein Name tauchte im Zusammenhang mit dem
-        ungekl\xe4rten Tod von Stephen Smith (2015) auf, der in der
-        Nachermittlung 2022 wieder aufgerollt wurde. Buster wurde nie
-        angeklagt. Dennoch ist sein Fall aus Enneagramm-Sicht bedeutsam:
-        Er zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext
-        \xfcberlebt – als Glaube, dass die eigene Zugeh\xf6rigkeit
-        zu einer bestimmten Welt einen vor Konsequenzen sch\xfctzt.
+        <strong>Buster Murdaugh</strong> is the surviving son of Alex Murdaugh — the South Carolina attorney and patriarch of an influential legal dynasty who was convicted in 2023 for the murders of his wife, Maggie, and his younger son, Paul. Buster grew up in an environment where the family name stood above legal norms: for three generations, the Murdaughs controlled the Solicitor's Office in Hampton County, South Carolina, creating a self-sustaining regional power and protection system. In the wake of the investigations into his father, Buster also came under public scrutiny: his name emerged in connection with the unresolved 2015 death of Stephen Smith, an investigation reopened in 2021. Buster has never been charged. Nevertheless, his case is psychologically significant from an Enneagram perspective: it illustrates how Two-privilege survives within family and dynastic contexts — as an ingrained belief that one's belonging to a specific world grants immunity from ordinary consequences.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Buster Murdaugh</strong> wird der <strong>Self-Preservationen Zwei mit Dreierfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> –
-        das \xdcberzeugtsein, durch Zugeh\xf6rigkeit und Relationships
-        besonderen Schutz und besondere Rechte zu verdienen.
-        Die selbsterhaltende Zwei (SP2) – Naranjos „Privileg" –
-        stellt die Sicherung der eigenen Ressourcen und der eigenen Stellung
-        in den Vordergrund, getarnt durch den Anschein von Loyalit\xe4t
-        und Familiensinn. Der Dreierfl\xfcgel verleiht ihr die F\xe4higkeit,
-        nach au\xdfen angepasst und sympathisch zu wirken: das Bild
-        des pflichtbewussten Sohnes, der trotz allem standhaft bleibt.
-        In Busters Fall zeigt sich, wie tief das Zweier-Privileg
-        in Familienstrukturen verankert sein kann –
-        und wie es Generationen \xfcberdauert.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Buster Murdaugh</strong> is assigned to the <strong>Self-Preservation Type 2 with a Three-wing</strong> in the Enneagram. The passion of Type Two is <em>Pride</em> — the deep conviction of deserving special protection, exemption, and rights through belonging, status, and relationships. The Self-Preservation Two (SP2) — described by Claudio Naranjo as "Privilege" — prioritizes the security of its personal resources and standing, veiled behind an appearance of loyalty and family duty. The Three-wing provides the ability to project an adaptable, sympathetic public image: the dutiful, steadfast son navigating tragedy. In Buster's case, it demonstrates how deeply Two-privilege can embed itself in familial structures and endure across generations.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Zur\xfcckhaltend und kontrolliert:</strong>
-        Buster trat in der \xf6ffentlichen Berichterstattung
-        deutlich zur\xfckhaltender auf als sein Vater –
-        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten.
-        Das ist der Dreierfl\xfcgel in defensiver Haltung:
-        Image-Kontrolle durch Abwesenheit.</p>
-        <p class="vb-intro"><strong>b) Loyal nach au\xdfen, undurchsichtig nach innen:</strong>
-        Buster stand an der Seite seines Vaters bis zu dessen Verurteilung.
-        Diese Loyalit\xe4t war sichtbar, aber schwer einzusch\xe4tzen:
-        Handelte er aus Bindung oder aus strategischem
-        Selbstschutz? Die SP2w3 kann beides gleichzeitig sein.</p>
-        <p class="vb-intro"><strong>c) Sympathisch-defensiv unter Druck:</strong>
-        In den wenigen Interviews wirkte Buster besonnen
-        und verletzt zugleich – ein Opfer der Umst\xe4nde,
-        nicht ein Akteur. Das ist typische Zweier-Schutzstrategie:
-        Die eigene Verletzlichkeit als Schild einsetzen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Reserved and Controlled:</strong> In public coverage, Buster appeared significantly more reserved than his father — granting rare interviews and avoiding grand public displays. This represents the Three-wing in a defensive posture: image management maintained through distance.</p>
+        <p class="vb-intro"><strong>b) Loyal Outwardly, Opaque Inwardly:</strong> Buster stood by his father up until his conviction. While this loyalty was visible, its internal motive remained difficult to assess: was it genuine attachment or strategic self-preservation? The SP2w3 can embody both simultaneously.</p>
+        <p class="vb-intro"><strong>c) Sympathetic-Defensive Under Pressure:</strong> In brief media appearances, Buster seemed measured yet injured — presenting as a victim of circumstances rather than an actor. This is a classic Two defensive strategy: deploying personal vulnerability as an armor.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Dynastisches Privileg als zweite Natur:</strong>
-        Die Murdaughs waren keine gew\xf6hnliche Familie –
-        sie waren ein System. Drei Generationen als
-        leitende Staatsanw\xe4lte in Hampton County bedeutete:
-        Regeln galten f\xfcr andere. Buster wuchs in dieser
-        Atmosph\xe4re auf. Das Zweier-Privileg war
-        hier keine individuelle Einbildung, sondern
-        strukturell verankerte Realit\xe4t.</p>
-        <p class="vb-intro"><strong>b) Verbindungen als Schutzwall:</strong>
-        Die SP2 sichert sich ab durch Relationships.
-        In der Murdaugh-Welt bedeutete das:
-        Man kannte die Richter, die Staatsanw\xe4lte, die Sheriffs.
-        Buster erbte dieses Netz – und mit ihm die Erwartung,
-        dass es ihn sch\xfctzen w\xfcrde.</p>
-        <p class="vb-intro"><strong>c) Selbstbild als Opfer der Geschichte:</strong>
-        Nach dem Zusammenbruch der Familie positionierte sich Buster
-        als Hinterbliebener einer Tragödie – nicht als Teil des Problems.
-        Das ist SP2-Logik: Man gibt, man bleibt, man tr\xe4gt –
-        und bekommt daf\xfcr Straffreiheit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Dynastic Privilege as Second Nature:</strong> The Murdaughs were not merely a prominent family; they operated as a structural system. Holding the chief prosecutorial office for three generations meant rules applied to others. Growing up in this environment, Two-privilege was not an individual delusion for Buster, but an established reality.</p>
+        <p class="vb-intro"><strong>b) Connections as a Defensive Wall:</strong> The SP2 secures itself through relationships. In the Murdaugh world, this meant knowing every judge, prosecutor, and sheriff personally. Buster inherited this network along with the expectation that it would shield him.</p>
+        <p class="vb-intro"><strong>c) Self-Image as a Casualty of History:</strong> Following the collapse of the family empire, Buster positioned himself strictly as a survivor of a tragedy rather than a contributor to the system. This aligns with SP2 logic: one gives loyalty, remains steadfast, and expects exemption in return.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Familienloyalit\xe4t als Identit\xe4tskern:</strong>
-        Die Zwei definiert sich \xfcber ihre Zugeh\xf6rigkeiten.
-        F\xfcr Buster war die Murdaugh-Familie nicht nur
-        ein Kontext – sie war sein Selbstbild.
-        Mit ihrem Zusammenbruch verlor er nicht nur
-        ein Netzwerk, sondern eine Identit\xe4t.</p>
-        <p class="vb-intro"><strong>b) Dreierfl\xfcgel: das Image des pflichtbewussten Sohnes:</strong>
-        Buster blieb. Er erschien bei Gericht, er stand seinem Vater bei,
-        er navigierte den \xf6ffentlichen Druck.
-        Der Dreierfl\xfcgel erlaubt der Zwei,
-        eine Rolle zu spielen, die soziale Anerkennung bringt:
-        der aufrechte Sohn, der unter schrecklichen Umst\xe4nden
-        seinen Charakter beweist.</p>
-        <p class="vb-intro"><strong>c) Nicht angeklagt – aber nicht unber\xfchrt:</strong>
-        Die Wiederer\xf6ffnung des Falls Stephen Smith
-        warf einen langen Schatten auf Buster.
-        Bis heute sind diese Ermittlungen nicht
-        abgeschlossen. Die SP2 kann unangeklagt bleiben –
-        aber das Zweier-Privileg l\xf6scht Zusammenh\xe4nge
-        nicht aus der Geschichte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Family Loyalty as Core Identity:</strong> Type Two defines itself through its affiliations. For Buster, the Murdaugh name was not just a background — it was his core identity. With its collapse, he lost both a protective network and his sense of self.</p>
+        <p class="vb-intro"><strong>b) Three-Wing: The Dutiful Son Role:</strong> Buster remained present, attending court proceedings, standing by his father, and navigating intense media scrutiny. The Three-wing allows the Two to perform a socially validated role: the upright son demonstrating character under appalling circumstances.</p>
+        <p class="vb-intro"><strong>c) Uncharged, Yet Uncleared:</strong> The reopening of the Stephen Smith investigation cast a long shadow over Buster. While he has not been charged, Two-privilege cannot erase historical context from public memory.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Zwischen Mitleid und Misstrauen:</strong>
-        Buster l\xf6st in der \xf6ffentlichen Wahrnehmung
-        eine ambivalente Reaktion aus: Mitleid mit dem Sohn
-        eines Mörders – und Misstrauen gegen\xfcber dem,
-        was unaufgekl\xe4rt blieb. Diese Spannung ist
-        f\xfcr die SP2w3 charakteristisch:
-        Sie lebt in der L\xfccke zwischen Selbstdarstellung
-        und dem, was andere ahnen.</p>
-        <p class="vb-intro"><strong>b) Neuanfang als Inszenierung:</strong>
-        Nach dem Prozess versuchte Buster, ein neues Leben aufzubauen:
-        Hochzeit, R\xfcckzug aus der \xd6ffentlichkeit, beruflicher Neustart.
-        Der Dreierfl\xfcgel orchestriert das: Ein neues Bild
-        \xfcber das alte legen – und hoffen, dass das Neue
-        das Alte \xfcberlagert.</p>
-        <p class="vb-intro"><strong>c) Das Erbe des Systems:</strong>
-        Das Eigent\xfcmliche an Busters Fall:
-        Er hat das Privileg nicht erfunden.
-        Er hat es geerbt. Das macht ihn weniger
-        zu einem Architekt als zu einem Produkt –
-        aber das entlastet ihn nicht von der Frage,
-        was er damit gemacht hat.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Between Compassion and Suspicion:</strong> Public perception of Buster remains split between sympathy for the surviving son of a murderer and lingering suspicion surrounding unresolved questions. This tension is characteristic of the SP2w3: existing in the gap between public presentation and private speculation.</p>
+        <p class="vb-intro"><strong>b) Orchestrated Fresh Start:</strong> Following the trial, Buster attempted to rebuild his life through marriage, professional repositioning, and retreat from the spotlight. The Three-wing orchestrates this transition: overlaying the old image with a new, quiet presentation in hopes that the new will supplant the past.</p>
+        <p class="vb-intro"><strong>c) The Legacy of the System:</strong> The unique aspect of Buster's case is that he did not construct this privilege himself; he inherited it. This makes him less an architect and more a product of the system — though it does not absolve him from how he navigated its advantages.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Ruhig und kontrolliert:</strong>
-        Buster wirkt in \xf6ffentlichen Auftritten nicht charismatisch
-        wie Anna Delvey und nicht w\xe4rmend wie Jonathan Meijer –
-        er wirkt gedämpft, zur\xfcckgehalten.
-        Der Dreierfl\xfcgel in defensiver Haltung:
-        Energie sparen, kein Angriffspunkt bieten.</p>
-        <p class="vb-intro"><strong>b) Familienenergie als Schutzhülle:</strong>
-        Die Murdaugh-Energie, die Buster tr\xe4gt,
-        ist nicht seine eigene – sie ist geborgt,
-        \xfcbernommen, dynastisch. Das ist das Besondere
-        an diesem Fall: Das Zweier-Privileg
-        war keine individuelle Konstruktion,
-        sondern ein \xfcberliefertes System.</p>
-        <p class="vb-intro"><strong>c) Niedrige emotionale Sichtbarkeit:</strong>
-        Im Vergleich zu anderen Portr\xe4ts dieser Reihe
-        zeigt Buster wenig nach au\xdfen.
-        Das k\xf6nnte echte Introversion sein –
-        oder der Dreierfl\xfcgel, der gelernt hat:
-        Sichtbarkeit kostet in dieser Situation mehr als sie gibt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Quiet and Subdued:</strong> In public appearances, Buster does not project high charisma or outward warmth; instead, he appears muted and restrained. This reflects a defensive Three-wing: conserving energy and minimizing targets for critique.</p>
+        <p class="vb-intro"><strong>b) Borrowed Dynastic Weight:</strong> The presence Buster carries is not entirely individual — it is borrowed from the dynastic authority of his family line. Two-privilege here functions as an inherited structural shield rather than a newly forged persona.</p>
+        <p class="vb-intro"><strong>c) Low Emotional Visibility:</strong> Compared to more expressive portraits, Buster reveals very little of his internal state. This can signal natural introversion or a learned Three-wing strategy: in high-stakes situations, visibility incurs greater risk than silence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, unsichtbare Gef\xe4hrlichkeit:</strong>
-        Das Flusspferd wirkt gem\xfctlich und schwer fassbar –
-        und ist dabei eines der gef\xe4hrlichsten Tiere Afrikas.
-        Es greift selten an, aber wenn, dann mit
-        \xfcberw\xe4ltigender Kraft. Buster wirkt zur\xfckhaltend,
-        unscheinbar – und sitzt dennoch im Zentrum
-        ungekl\xe4rter Ereignisse.</p>
-        <p class="vb-intro"><strong>b) Massiver struktureller Fu\xdfabdruck:</strong>
-        Das Flusspferd ver\xe4ndert Gew\xe4sser durch seine
-        schiere Masse – nicht durch aktives Zutun,
-        sondern durch Pr\xe4senz. Die Murdaugh-Dynastie
-        hat Hampton County durch strukturelle Pr\xe4senz gepr\xe4gt:
-        keine spektakul\xe4ren Machtgesten –
-        ein eingewachsenes System.</p>
-        <p class="vb-intro"><strong>c) Territorial ohne Transparenz:</strong>
-        Das Flusspferd verteidigt sein Revier,
-        ohne dass von au\xdfen erkennbar ist, wo die Grenzen liegen.
-        Buster bewegt sich im selben Prinzip:
-        Ein Revier aus Schweigen, Zugeh\xf6rigkeit und
-        nicht aufgekl\xe4rten Zusammenh\xe4ngen –
-        territorial durch Unzug\xe4nglichkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Hippopotamus</h3>
+        <p class="vb-intro"><strong>a) Harmless Appearance, Hidden Danger:</strong> The hippopotamus appears placid, heavy, and unthreatening — yet it ranks among Africa's most dangerous animals. It rarely attacks unprovoked, but acts with immense force when triggered. Buster appears unobtrusive, yet sits at the center of unresolved events.</p>
+        <p class="vb-intro"><strong>b) Massive Structural Footprint:</strong> The hippo alters its environment through sheer physical presence. Similarly, the Murdaugh dynasty shaped Hampton County through entrenched structural presence rather than overt displays of force.</p>
+        <p class="vb-intro"><strong>c) Territorial Through Opacity:</strong> The hippo guards its territory without clear visual boundaries. Buster navigates a similar terrain: a boundary built of silence, family allegiance, and unspoken influence that remains territorial through its inaccessible nature.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Buster Murdaugh</strong> wurde nie verurteilt – wie Jonathan Meijer
-        geh\xf6rt er in diese Reihe als psychologisch bedeutsamer Fall,
-        nicht als klassischer T\xe4ter. Was seinen Fall besonders macht:
-        Das Zweier-Privileg wurde ihm nicht durch eigenen Stolz
-        zuteil – es war eine Erbschaft. Und darin liegt
-        die eigentliche Enneagramm-Frage: Wie viel Verantwortung
-        tr\xe4gt jemand f\xfcr ein System, das er nicht erfunden,
-        sondern \xfcbernommen hat? Die SP2 im Stolz kann
-        diese Frage nicht wirklich stellen –
-        weil das Privileg f\xfcr sie keine Frage ist,
-        sondern eine Tatsache.
+        <strong>Buster Murdaugh</strong> has never been convicted of a crime; like other psychologically complex figures, he enters this analysis as a case study of structural dynamics rather than a convicted perpetrator. What distinguishes his case is that his Two-privilege was largely an inheritance rather than a personal construction. This raises a core Enneagram question: how much responsibility does an individual bear for a protective system they did not build, but nevertheless inhabited? The SP2 caught in Pride rarely asks this question, because privilege is experienced not as an advantage to be questioned, but as an self-evident fact.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP2 – das Privileg als Erbschaft:</strong>
-        Die selbsterhaltende Zwei glaubt, durch ihre besondere
-        Zugeh\xf6rigkeit und ihre F\xfcrsorge besondere Rechte
-        verdient zu haben. Im Fall Buster wurde dieses Privileg
-        nicht erarbeitet, sondern eingesogen:
-        durch Familie, durch Ort, durch Generationen.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel – Rolle statt Identit\xe4t:</strong>
-        Der Dreierfl\xfcgel gibt der Zwei eine B\xfchne.
-        Bei Buster ist diese B\xfchne begrenzt –
-        er spielt keine glamour\xf6se Rolle wie Delvey,
-        sondern eine gedämpfte: der \xfcberlebende Sohn,
-        der trotz allem weitermacht. Auch das ist Inszenierung.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Anna Delvey:</strong>
-        Delvey baute das Zweier-Privileg selbst –
-        aus dem Nichts, mit Charme und Kalkül.
-        Buster erbte es. Beide sind SP2w3,
-        aber die Quelle des Privilegs ist verschieden.
-        Was sie verbindet: das Gef\xfchl, dass die Regeln
-        f\xfcr jemanden wie sie nicht in gleicher Weise gelten.</p>
-        <p class="vb-intro"><strong>d) Der Entspannungspunkt Vier – das Ungelebte:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier:
-        echte Selbstreflexion, Zugang zur eigenen Schuld,
-        zur eigenen Trauer \xfcber das, was war.
-        Ob Buster diesen Weg je gegangen ist,
-        ist nicht bekannt – nach au\xdfen zeigt er
-        kaum Anzeichen davon.</p>
-        <p class="vb-intro"><strong>e) Das System als T\xe4ter:</strong>
-        Ein wichtiger Blickwinkel: Die Murdaugh-Affäre zeigt,
-        wie regionale Machtmonopole Schutz f\xfcr Einzelne
-        und Ohnmacht f\xfcr andere erzeugen.
-        Buster ist Kind dieses Systems –
-        aber das System hat Opfer hinterlassen:
-        Paul und Maggie Murdaugh, m\xf6glicherweise Stephen Smith.
-        Das Zweier-Privileg ist nie ohne Kosten f\xfcr andere.</p>
-        <p class="vb-intro"><strong>f) Offene Fragen als bleibendes Merkmal:</strong>
-        Der Fall Buster Murdaugh ist nicht abgeschlossen.
-        Die Ermittlungen zu Stephen Smith laufen noch.
-        Das gibt diesem Portrait eine andere Qualit\xe4t
-        als anderen: Es ist kein abgerundetes Bild –
-        es ist eine laufende Frage.
-        Das Enneagramm zeigt den Typ, aber nicht die Antwort.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP2 – Privilege as an Inheritance:</strong> The Self-Preservation Two operates on the implicit belief that its connections entitle it to special consideration. In Buster's case, this entitlement was absorbed passively through family, location, and generational status.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing as Role Performance:</strong> The Three-wing provides the Two with a functional stage. For Buster, this performance is muted: playing the quiet survivor who perseveres amid ruin.</p>
+        <p class="vb-intro"><strong>c) Comparison with Anna Delvey:</strong> While Delvey (SP2w3) manufactured her sense of privilege out of nothing through active charm and calculation, Buster inherited his. Both share the underlying SP2w3 belief that standard rules apply differently to them, though their origins differ.</p>
+        <p class="vb-intro"><strong>d) Integration Point Four – The Unexamined Path:</strong> The growth path for Type Two leads to Type Four: honest self-reflection, confronting guilt, and experiencing genuine grief for the past. Whether Buster has engaged in this process remains unknown publicly, as his outward posture shows little sign of Four integration.</p>
+        <p class="vb-intro"><strong>e) The System and Its Victims:</strong> The Murdaugh affair demonstrates how regional power monopolies offer safety to insiders while inflicting harm on outsiders. While Buster grew up inside this protection, the system left victims in its wake — Paul and Maggie Murdaugh, and potentially Stephen Smith. Two-privilege never comes without a cost to others.</p>
+        <p class="vb-intro"><strong>f) An Open Question:</strong> The story surrounding Buster Murdaugh remains unfinished as legal inquiries continue. The Enneagram clarifies the psychological structure, but leaves the final outcome open.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2 – das Zweier-Privileg im Vergleich der drei Subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, Fürsorge und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Buster Murdaugh wurde bislang nicht angeklagt. Das Portrait analysiert psychologische Muster im Kontext der Murdaugh-Familienaffäre. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Buster Murdaugh has not been charged with any crime. This portrait analyzes psychological patterns within the context of the Murdaugh family saga. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -24160,171 +22713,57 @@ function angelResendezPortraitPage() {
         </div>
         <p class="krim-portrait-name">Ángel Reséndez</p>
         <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Eisenbahn-Killer" – USA 1997–1999</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Railroad Killer" – USA 1997–1999</p>
       </div>
       <p class="psycho-intro">
-        <strong>Ángel Maturino Reséndez</strong>, geboren am 1. August 1960
-        in Izúcar de Matamoros, Puebla, Mexiko,
-        ermordete als illegaler Einwanderer und Eisenbahnlandstreicher
-        mindestens <strong>neun Menschen</strong> in den Vereinigten Staaten;
-        sechs weitere Morde werden ihm zugeschrieben.
-        Er reiste entlang von Gütereisenbahnlinien quer durch die USA,
-        drang in Häuser nahe der Schienenstrecken ein
-        und tötete die Bewohner mit äußerster Brutalität.
-        1999 stand er auf der FBI-Liste der zehn meistgesuchten Flüchtigen.
-        Am 13. Juli 1999 stellte er sich freiwillig einem texanischen Ranger –
-        vermittelt durch seine Schwester.
-        Am 27. Juni 2006 wurde er in Huntsville, Texas, durch die Giftspritze hingerichtet.
-        Das Enneagramm macht sichtbar, wie ein Mensch, der nichts besaß und nirgends dazugehörte,
-        das Überleben mit rücksichtsloser Gewalt erzwang.
+        <strong>Ángel Maturino Reséndez</strong>, born on August 1, 1960, in Izúcar de Matamoros, Puebla, Mexico, was an undocumented immigrant and railroad drifter who murdered at least <strong>nine people</strong> in the United States; six additional murders are attributed to him. Traveling along freight rail lines across the US, he broke into homes near the tracks and killed the occupants with extreme brutality. By 1999, he was listed on the FBI's Ten Most Wanted Fugitives list. On July 13, 1999, he voluntarily surrendered to a Texas Ranger — brokered through his sister. On June 27, 2006, he was executed by lethal injection in Huntsville, Texas. The Enneagram makes visible how a man who owned nothing and belonged nowhere enforced his survival through ruthless violence.
       </p>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Ángel Reséndez</strong> wird dem <strong>Self-Preservationen Typ 2 with One-wing</strong> zugeordnet.
-        Die selbsterhaltende Zwei – auch als <em>„Ich zuerst"</em> oder <em>„Privileg"</em> bezeichnet –
-        sichert ihren Platz in der Welt durch Annäherung, durch das Erzwingen von Nähe,
-        durch das Besetzen fremder Sphären.
-        Sie ist die Zwei, die nicht fragt, ob sie gebraucht wird – sie nimmt sich, was sie braucht.
-        Der One-wing verleiht ihr ein inneres Regelwerk und moralische Selbstgerechtigkeit:
-        eine stille Überzeugung, dass das, was sie tut, gerechtfertigt ist.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>:
-        rohe Gewalt, Kontrollverlust, das brutalste Ende der Fürsorge-Fassade.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Ángel Reséndez</strong> is assigned to the <strong>Self-Preservation Type 2 with a One-wing</strong>. The Self-Preservation Two — also referred to as <em>"Me First"</em> or <em>"Privilege"</em> — secures its place in the world through approach, forcing proximity, and occupying the spheres of others. It is the Two that does not ask if it is needed; it simply takes what it requires. The One-wing provides an internal rulebook and a sense of moral self-righteousness: a quiet conviction that its actions are fully justified. The stress point lies at Type <strong>Eight</strong>: raw violence, loss of control, and the most brutal collapse of the caretaking facade.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Das Flusspferd</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Hippopotamus</h3>
         <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Animal correspondence des Self-Preservationen Typ 2:
-        massiv und unscheinbar zugleich, scheinbar träge und harmlos,
-        dabei jederzeit fähig zu explosiver Gewalt.
-        Es lebt am Wasser – an der Grenze zwischen zwei Welten –,
-        schützt sein Revier mit äußerster Entschlossenheit
-        und wirkt nach außen hin fast gesellig.
-        Reséndez lebte buchstäblich an einer Grenze: zwischen Mexiko und den USA,
-        zwischen Legalität und Kriminalität, zwischen Unsichtbarkeit und Brutalität.
-        Er tauchte auf, schlug zu, verschwand wieder –
-        das Flusspferd, das zwischen den Welten gleitet
-        und nur sichtbar wird, wenn es zu spät ist.
+        The <strong>Hippopotamus</strong> is the animal correspondence of the Self-Preservation Type 2: massive and inconspicuous at the same time, seemingly sluggish and harmless, yet capable of explosive violence at any moment. It lives by the water — on the border between two worlds — defends its territory with extreme determination, and appears almost social on the surface. Reséndez literally lived on a border: between Mexico and the US, legality and criminality, invisibility and brutality. He would emerge, strike, and disappear again — the hippopotamus gliding between worlds, becoming visible only when it was already too late.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Überleben als einziges Gesetz</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip:</strong>
-        Der Self-Preservation Type 2 sichert seinen Überlebensraum
-        durch die Besetzung des Raumes anderer.
-        Er nähert sich an – ob durch Hilfsbereitschaft, durch Charme oder durch Gewalt –
-        und macht sich unentbehrlich, indem er schlicht anwesend ist.
-        Bei Reséndez war diese Strategie radikal:
-        Er drang in Häuser ein, nicht um zu helfen,
-        sondern weil das Haus jemand anderem gehörte
-        und er keine eigene Sphäre besaß.
-        Das Eindringen war die Überlebensstrategie des SP2 in ihrer dunkelsten Form:
-        nicht Fürsorge als Tarnung, sondern Besitznahme als Trieb.</p>
-        <p class="vb-intro"><strong>b) Der One-wing: Die innere Rechtfertigung:</strong>
-        Der One-wing verleiht der selbsterhaltenden Zwei
-        eine stille innere Rechtfertigung.
-        Reséndez äußerte in Verhören eine Art moralische Gleichgültigkeit gegenüber seinen Opfern –
-        er zeigte wenig Reue, aber auch keine offene Grausamkeit im Ton.
-        Es war, als ob ein inneres Regelwerk besagte:
-        Das war notwendig. Das war mein Recht.
-        Diese moralische Selbstrechtfertigung ist das Markenzeichen des SP2w1 –
-        nicht Sadismus, sondern Indifferenz gegenüber dem Leid anderer,
-        wenn die eigene Überlebensstrategie bedroht ist.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als Anspruch:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
-        das unbewusste Festhalten an der eigenen Überlegenheit,
-        die Überzeugung, einen Anspruch auf das zu haben, was andere besitzen.
-        Bei Reséndez zeigte sich dieser Stolz nicht als Eitelkeit,
-        sondern als eine Art primitiver Souveränität:
-        die Überzeugung, dass seine Bedürfnisse zählen,
-        auch wenn die Gesellschaft ihn als unsichtbar behandelte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Two: Survival as the Only Law</h3>
+        <p class="vb-intro"><strong>a) The Core Principle:</strong> The Self-Preservation Type 2 secures its survival space by occupying the space of others. It approaches — whether through helpfulness, charm, or violence — and makes itself indispensable simply by being present. For Reséndez, this strategy was radical: he invaded homes not to help, but because the house belonged to someone else and he possessed no sphere of his own. Intrusion was the SP2's survival strategy in its darkest form: not caretaking as a disguise, but territorial takeover as a drive.</p>
+        <p class="vb-intro"><strong>b) The One-Wing: Internal Justification:</strong> The One-wing equips the Self-Preservation Two with a quiet inner justification. In interrogations, Reséndez expressed a form of moral indifference toward his victims — showing little remorse, yet maintaining a tone devoid of overt cruelty. It was as if an internal set of rules dictated: <em>This was necessary. This was my right.</em> This moral self-justification is the hallmark of the SP2w1 — not sadism, but indifference to the suffering of others when one's own survival strategy is threatened.</p>
+        <p class="vb-intro"><strong>c) The Passion: Pride as Entitlement:</strong> The passion of Type Two is <strong>Pride</strong> — the unconscious grasp on one's own sense of superiority and the conviction of being entitled to what others possess. In Reséndez, this pride manifested not as vanity, but as a primitive form of sovereignty: the conviction that his needs mattered, even when society treated him as invisible.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Der Eisenbahn-Killer</h3>
-        <p class="vb-intro"><strong>a) Herkunft und Vorgeschichte:</strong>
-        Reséndez wuchs in Mexiko in ärmlichen Verhältnissen auf
-        und überquerte ab den späten 1970er Jahren wiederholt illegal die Grenze zu den USA.
-        Er wurde mehrfach festgenommen und abgeschoben –
-        und kehrte jedes Mal zurück.
-        Er hatte keine feste Arbeit, kein Zuhause, keine sozialen Bindungen in den USA.
-        Sein Lebensmittelpunkt war die Gütereisenbahn:
-        Er reiste als blinder Passagier auf Güterwaggons,
-        orientierte sich an Streckenverläufen und schlug dort zu,
-        wo Häuser nahe an Gleisen lagen – abgelegen, schwer erreichbar,
-        ohne schnelle Polizeireaktionszeit.</p>
-        <p class="vb-intro"><strong>b) Die Opfer:</strong>
-        Reséndez' Opfer waren Menschen, deren Häuser zufällig in der Nähe von Schienenstrecken lagen.
-        Es gab kein erkennbares persönliches Motiv – kein sexuelles Muster, keinen rituellen Charakter.
-        Die Bewohner wurden Opfer, weil sie anwesend waren.
-        Er verwendete als Tatwaffe, was er vorfand: Hacken, Eisenstangen, Steine.
-        Unter den neun bestätigten Opfern waren ältere Frauen,
-        ein junges Pärchen, ein Priester und seine Haushälterin.
-        Die Taten verteilten sich auf Texas, Kentucky, Illinois und New Mexico
-        und erstreckten sich über einen Zeitraum von fast zwei Jahren (1997–1999).
-        Sechs weitere Morde in Texas und Mexiko werden ihm zugeschrieben,
-        konnten aber nicht abschließend bewiesen werden.</p>
-        <p class="vb-intro"><strong>c) Die Fahndung und Selbststellung:</strong>
-        Als die Verbindung der Taten zu einem einzigen Täter erkannt wurde,
-        setzte das FBI Reséndez auf seine Liste der zehn meistgesuchten Flüchtigen.
-        Er war schwer zu fassen: kein fester Wohnsitz, mehrere Aliase,
-        ständige Bewegung entlang von Tausenden Kilometern Gleis.
-        Den Durchbruch brachte ein ungewöhnlicher Schritt:
-        Seine Schwester <strong>Manuelita Reséndez</strong>
-        nahm Contact zu dem texanischen Ranger <strong>Drew Carter</strong> auf
-        und erklärte sich bereit zu vermitteln.
-        Am 13. Juli 1999 überquerte Reséndez an einem Grenzübergang
-        in El Paso freiwillig die Grenze und stellte sich.
-        Ob er tatsächlich glaubte, einer Todesstrafe zu entgehen,
-        oder ob er erschöpft war und aufgeben wollte, ist nicht abschließend bekannt.</p>
-        <p class="vb-intro"><strong>d) Prozess und Hinrichtung:</strong>
-        Reséndez wurde in Texas wegen des Mordes an
-        <strong>Claudia Benton</strong> (39), Neurologin in West University Place,
-        zum Tode verurteilt – einer der Fälle, in denen die Beweislage am eindeutigsten war.
-        Er legte keine Berufung ein und akzeptierte das Urteil.
-        Am <strong>27. Juni 2006</strong> wurde er in Huntsville, Texas,
-        durch die Giftspritze hingerichtet. Er war 45 Jahre alt.
-        Seine letzten Worte richtete er an die Familie seiner Opfer:
-        „I want to ask if it is in your heart to forgive me.
-        I am truly sorry for all the hurt I caused. I hope God will
-        not turn away from me."
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: The Railroad Killer</h3>
+        <p class="vb-intro"><strong>a) Background and Prehistory:</strong> Reséndez grew up in poverty in Mexico and repeatedly crossed the US border illegally starting in the late 1970s. He was arrested and deported multiple times — returning every single time. He had no steady job, no home, and no social ties in the United States. His life revolved around freight trains: traveling as a stowaway on boxcars, navigating along rail lines, and striking where homes were situated near the tracks — remote, hard to reach, and beyond quick police response times.</p>
+        <p class="vb-intro"><strong>b) The Victims:</strong> Reséndez's victims were people whose houses happened to sit near the railway lines. There was no discernible personal motive — no sexual pattern, no ritualistic character. The residents became victims simply because they were present. He used whatever weapons he found on site: pickaxes, iron bars, rocks. Among the nine confirmed victims were elderly women, a young couple, a priest, and his housekeeper. The crimes spanned Texas, Kentucky, Illinois, and New Mexico over nearly two years (1997–1999). Six additional murders in Texas and Mexico were attributed to him, though they could not be definitively proven in court.</p>
+        <p class="vb-intro"><strong>c) The Manhunt and Surrender:</strong> Once investigators linked the crimes to a single perpetrator, the FBI placed Reséndez on its Ten Most Wanted Fugitives list. He was elusive: no fixed address, multiple aliases, and constant movement along thousands of miles of track. The breakthrough came through an unusual step: his sister, <strong>Manuelita Reséndez</strong>, contacted Texas Ranger <strong>Drew Carter</strong> and agreed to mediate. On July 13, 1999, Reséndez voluntarily crossed the border at a checkpoint in El Paso and surrendered. Whether he truly believed he could avoid the death penalty or was simply exhausted and ready to give up remains unclear.</p>
+        <p class="vb-intro"><strong>d) Trial and Execution:</strong> Reséndez was sentenced to death in Texas for the murder of <strong>Claudia Benton</strong> (39), a neurologist in West University Place — one of the cases where physical evidence was most definitive. He declined to file appeals and accepted the verdict. On <strong>June 27, 2006</strong>, he was executed by lethal injection in Huntsville, Texas, at the age of 45. His final words were directed to the families of his victims: "I want to ask if it is in your heart to forgive me. I am truly sorry for all the hurt I caused. I hope God will not turn away from me."
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Makes Visible</h3>
         <p class="vb-intro">
-        Ángel Reséndez ist der Self-Preservation Type 2 in seiner elementarsten Form:
-        ein Mensch, der buchstäblich nichts besaß –
-        keine Papiere, kein Zuhause, keine Sprache des Gastlandes –
-        und das Überleben durch das gewaltsame Besetzen fremder Räume sicherte.
-        Das Flusspferd, das zwischen den Welten lebt,
-        das sich in die Nähe des Menschlichen wagt und tötet,
-        wenn sein Überlebensraum berührt wird –
-        das ist das treffende Bild.
-        Was diesen Fall von anderen SP2-Tätern unterscheidet:
-        Reséndez tötete nicht aus moralischem Urteil wie Sutcliffe,
-        nicht aus Identitätsfassade wie Unterweger.
-        Er tötete, weil Anwesenheit und Überleben für ihn identisch waren.
-        Die letzte Geste – die Selbststellung, die Bitte um Vergebung –
-        zeigt den Zweier-Kern: die tiefe Sehnsucht nach Verbindung,
-        die ein ganzes Leben lang durch Gewalt überdeckt wurde.
+        Ángel Reséndez represents the Self-Preservation Type 2 in its most elemental form: a human being who literally possessed nothing — no papers, no home, no language of his host country — and secured survival through the violent takeover of other people's spaces. The hippopotamus living between worlds, venturing close to human habitation and killing when its survival territory is touched — that is the fitting image. What sets this case apart from other SP2 perpetrators: Reséndez did not kill out of moral judgment like Peter Sutcliffe, nor out of an identity facade like Jack Unterweger. He killed because presence and survival were identical to him. His final gesture — his voluntary surrender and plea for forgiveness — reveals the core of the Two: a deep longing for connection that was buried under violence for an entire lifetime.
         </p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Classification & Profile Summary</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Ángel Maturino Reséndez</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Izúcar de Matamoros, Puebla, Mexiko</p>
-          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
-          <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
-          <p style="margin:0 0 0.3rem;"><strong>Bestätigte Opfer:</strong> 9 Morde in den USA (1997–1999); 6 weitere zugeschrieben</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
-          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
+          <p style="margin:0 0 0.3rem;"><strong>Born:</strong> August 1, 1960, Izúcar de Matamoros, Puebla, Mexico</p>
+          <p style="margin:0 0 0.3rem;"><strong>Executed:</strong> June 27, 2006, Huntsville, Texas (Lethal Injection)</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagram Type:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Animal Correspondence:</strong> Hippopotamus</p>
+          <p style="margin:0 0 0.3rem;"><strong>Confirmed Victims:</strong> 9 murders in the US (1997–1999); 6 additional attributed</p>
+          <p style="margin:0 0 0.3rem;"><strong>Passion:</strong> Pride</p>
+          <p style="margin:0;"><strong>Stress Point:</strong> Type 8</p>
         </div>
       </div>
 
@@ -24333,15 +22772,15 @@ function angelResendezPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Ángel Reséndez wurde in Texas wegen Mordes zum Tode verurteilt und 2006 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Ángel Reséndez was sentenced to death for murder in Texas and executed in 2006. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Criminal Psychology: Tommy Lynn Sells (SP2w1) – Coast-to-Coast-Killer"},
-        {route:"kriminalpsychologie-osama-bin-laden", label:"Criminal Psychology: Osama bin Loading (SO2w1) – al-Qaida"},
-        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – Der Dichter und der Tod"}
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Criminal Psychology: Tommy Lynn Sells (SP2w1) – Coast-to-Coast Killer"},
+        {route:"kriminalpsychologie-osama-bin-laden", label:"Criminal Psychology: Osama bin Laden (SO2w1) – al-Qaeda"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – The Poet and Death"}
       ])}
     </div>
   `);
@@ -24358,169 +22797,65 @@ function tommyLynnSellsPortraitPage() {
         </div>
         <p class="krim-portrait-name">Tommy Lynn Sells</p>
         <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Coast-to-Coast-Killer" – USA 1980–1999</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Coast-to-Coast Killer" – USA 1980–1999</p>
       </div>
       <p class="psycho-intro">
-        <strong>Tommy Lynn Sells</strong>, geboren am 28. Juni 1964 in Oakland, Kalifornien,
-        ermordete nach eigenen Angaben zwischen 13 und 70 Menschen in zahlreichen
-        US-Bundesstaaten – über einen Zeitraum von fast zwei Jahrzehnten.
-        Er zog als Drifter und Wanderarbeiter quer durch Amerika,
-        erschlich sich das Vertrauen fremder Familien und tötete dort, wo man ihn nicht erwartete.
-        Am 3. April 2014 wurde er im texanischen Huntsville durch die Giftspritze hingerichtet.
-        Die Strafverfolgungsbehörden konnten ihm mindestens 13 Morde zweifelsfrei nachweisen;
-        seine eigenen Geständnisse, die mal mehr und mal weniger Details enthielten,
-        blieben bis zuletzt widersprüchlich.
-        Sells gilt als einer der räumlich mobilsten Serienmörder der amerikanischen Kriminalgeschichte.
+        <strong>Tommy Lynn Sells</strong>, born on June 28, 1964, in Oakland, California, murdered by his own account between 13 and 70 people across numerous US states over a span of nearly two decades. Traveling as a drifter and migrant worker across America, he insidiously gained the trust of unfamiliar families and struck in places where he was least expected. On April 3, 2014, he was executed by lethal injection in Huntsville, Texas. Law enforcement agencies were able to definitively link him to at least 13 murders; his own confessions, which contained varying degrees of detail, remained contradictory to the end. Sells is considered one of the most geographically mobile serial killers in American criminal history.
       </p>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Tommy Lynn Sells</strong> wird dem <strong>Self-Preservationen Typ 2 with One-wing</strong> zugeordnet.
-        Die selbsterhaltende Zwei sichert ihren Selbstwert durch Fürsorge, Unentbehrlichkeit
-        und das Erschaffen von Nähe – auch zu Fremden, auch dort, wo Nähe zur Gefahr wird.
-        Der One-wing verleiht ihr moralische Selbstgerechtigkeit:
-        die eigene Geschichte als erlittenes Unrecht, die Taten als eine Art Abrechnung.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>: Kontrollverlust, Brutalität,
-        explosive Gewalt als Ausdruck eines überfluteten Systems.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Tommy Lynn Sells</strong> is assigned to the <strong>Self-Preservation Type 2 with a One-wing</strong>. The Self-Preservation Two secures its sense of self-worth through helpfulness, indispensability, and creating proximity — even to strangers, and even where closeness becomes a danger. The One-wing imparts a sense of moral self-righteousness: framing its own history as endured injustice and its crimes as a form of reckoning. The stress point lies at Type <strong>Eight</strong>: loss of control, brutality, and explosive violence as the expression of an overwhelmed system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Das Flusspferd</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Hippopotamus</h3>
         <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Animal correspondence des Self-Preservationen Typ 2:
-        massiv und unscheinbar zugleich, scheinbar träge und harmlos,
-        dabei jederzeit fähig zu explosiver Gewalt.
-        Das Flusspferd lebt am Wasser – an der Grenze zwischen zwei Welten –,
-        schützt sein Revier mit äußerster Entschlossenheit
-        und wirkt nach außen hin fast gesellig.
-        Sells spielte diese Ambivalenz auf erschreckende Weise:
-        der freundliche Fremde, dem man die Haustür öffnet – und der dann tötet.
+        The <strong>Hippopotamus</strong> is the animal correspondence of the Self-Preservation Type 2: massive and inconspicuous at the same time, seemingly sluggish and harmless, yet capable of explosive violence at any moment. The hippopotamus lives by the water — on the border between two worlds — defends its territory with extreme determination, and appears almost social on the surface. Sells played out this ambivalence in a chilling manner: the friendly stranger whom people welcomed through their front door — and who then killed them.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Fürsorge als Köder</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der selbsterhaltenden Zwei:</strong>
-        Der <strong>Self-Preservation Type 2</strong> – in der Tradition der Enneagramm-Schule
-        auch als <em>„Ich zuerst"</em> oder <em>„Privileg"</em> bezeichnet –
-        ist die am wenigsten typisch wirkende Ausprägung der Zwei.
-        Während andere Zweien offen Fürsorglichkeit zeigen,
-        ist die SP2 darauf ausgerichtet, die eigenen Überlebensbedürfnisse zu sichern:
-        durch Einschmeicheln, durch das Erschaffen von Abhängigkeit,
-        durch Kontrolle über die unmittelbare Umgebung.
-        Die Fürsorge ist real – aber sie hat immer einen Preis.
-        Sells präsentierte sich Fremden gegenüber auffallend hilfsbereit und zugänglich.
-        Er arbeitete auf Jahrmärkten und Wanderfestivals, half beim Aufbauen, war verfügbar –
-        und schuf so Nähe zu Menschen, die ihm dann ausgeliefert waren.</p>
-        <p class="vb-intro"><strong>b) Der One-wing: Moralische Selbstgerechtigkeit:</strong>
-        Der One-wing verleiht der Zwei ein scharfes inneres Regelwerk.
-        Sells beschrieb sich selbst in Interviews als jemanden,
-        dem das Leben übel mitgespielt hatte – ein Mann, der Unrecht erlitten hatte
-        und nun Rechnung beglich.
-        Diese moralische Selbstrechtfertigung, die eigene Täterschaft
-        als Reaktion auf erlittenes Unrecht zu rahmen,
-        ist das typische Narrativ des SP2w1 in seiner destruktiven Ausprägung.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
-        das unbewusste Festhalten an der eigenen Überlegenheit,
-        die tiefe Überzeugung, besondere Empfindsamkeit zu besitzen,
-        besonderes Leid erfahren zu haben, und deshalb besondere Regeln zu verdienen.
-        Sells glaubte, sein schwieriges Leben berechtige ihn zu Dingen,
-        die anderen verwehrt sind.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Two: Caretaking as Bait</h3>
+        <p class="vb-intro"><strong>a) The Core Principle of the Self-Preservation Two:</strong> The <strong>Self-Preservation Type 2</strong> — also referred to in the Enneagram tradition as <em>"Me First"</em> or <em>"Privilege"</em> — is the least typical-looking expression of Type Two. While other Twos openly demonstrate helpfulness and care, the SP2 is geared toward securing its own survival needs: through ingratiation, creating dependency, and exercising control over its immediate environment. The helpfulness is real, but it always comes at a price. Sells presented himself to strangers as remarkably helpful and approachable. He worked at carnivals and traveling fairs, helped with setup, made himself available — and thereby established proximity to people who were ultimately at his mercy.</p>
+        <p class="vb-intro"><strong>b) The One-Wing: Moral Self-Righteousness:</strong> The One-wing equips Type Two with a sharp internal rulebook. In interviews, Sells described himself as someone who had been dealt a bad hand by life — a man who had suffered injustice and was now settling the score. This moral self-justification — framing one's own perpetration as a reaction to endured wrong — is the classic narrative of the SP2w1 in its destructive form.</p>
+        <p class="vb-intro"><strong>c) The Passion: Pride:</strong> The passion of Type Two is <strong>Pride</strong> — the unconscious grasp on one's own superiority, the deep conviction of possessing special sensitivity, having endured unique suffering, and therefore deserving special rules. Sells believed his difficult life entitled him to things denied to others.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Herkunft und Kindheit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Background and Childhood</h3>
         <p class="vb-intro">
-        Tommy Lynn Sells wurde in ärmliche Verhältnisse hineingeboren
-        und schon früh von seiner Mutter weggegeben.
-        Er wuchs teils bei Verwandten, teils in Pflegefamilien auf,
-        erlebte nach eigenen Angaben sexuelle Übergriffe und körperliche Vernachlässigung.
-        Schon als Jugendlicher begann er, das Zuhause zu verlassen
-        und als Tramper durch die USA zu ziehen.
-        Sells behauptete später, seinen ersten Mord im Alter von 16 Jahren begangen zu haben.
-        Diese und viele andere Angaben ließen sich nicht vollständig verifizieren.
-        Die frühe Bindungslosigkeit, das wiederholte Erlebnis von Verrat durch Bezugspersonen
-        und der damit verbundene Vertrauensbruch bilden den psychologischen Boden,
-        auf dem sich die SP2-Dynamik in ihrer dunkelsten Form entfalten konnte:
-        Nähe als Vorstufe zur Gefahr.
+        Tommy Lynn Sells was born into impoverished circumstances and given away by his mother at an early age. He grew up partly with relatives and partly in foster care, reporting that he experienced sexual abuse and physical neglect. As early as his teenage years, he began leaving home and hitchhiking across the United States. Sells later claimed to have committed his first murder at the age of 16. This and many other assertions could never be fully verified. The early lack of secure attachment, repeated experiences of betrayal by primary caregivers, and the resulting breach of trust formed the psychological soil on which the SP2 dynamic could unfold in its darkest form: proximity as the prelude to danger.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Zwei Jahrzehnte quer durch Amerika</h3>
-        <p class="vb-intro"><strong>a) Der nomadische Täter:</strong>
-        Sells reiste jahrzehntelang quer durch die Vereinigten Staaten,
-        ohne festen Wohnsitz, ohne geregelten Beruf.
-        Er lebte von Gelegenheitsjobs auf Jahrmärkten und Bauernhöfen,
-        schlief in Lagerhallen, unter Brücken oder bei flüchtigen Bekanntschaften.
-        Diese Mobilität machte ihn jahrelang nahezu unsichtbar für die Strafverfolgung:
-        Jede Tat geschah in einem anderen Bundesstaat, jedes Opfer hatte einen anderen Kontext,
-        und eine übergreifende Verbindung war schwer herzustellen.</p>
-        <p class="vb-intro"><strong>b) Die Taten:</strong>
-        Sells ermordete Angehörige aller Altersgruppen: Kinder, Frauen, Männer, ganze Familien.
-        Er schlug bevorzugt nachts zu, oft in Häusern, in die er unbemerkt eingedrungen war
-        oder zu denen er eingeladen worden war.
-        Die Brutalität seiner Taten – Erwürgen, Erstechen, Erschlagen –
-        stand in krassem Kontrast zu seinem einnehmenden Auftreten im Alltag.</p>
-        <p class="vb-intro"><strong>c) Die entscheidende Nacht – Silvester 1999:</strong>
-        Der entscheidende Error unterlief ihm in der Silvesternacht 1999 in Del Rio, Texas.
-        Sells drang in das Haus der Familie Harris ein und ermordete die 13-jährige
-        <strong>Kaylene Harris</strong>.
-        Ihre Freundin <strong>Crystal Surles</strong>, zehn Jahre alt,
-        überlebte schwer verletzt, weil sie den Tod vortäuschte.
-        Sie konnte Sells am folgenden Morgen gegenüber den Ermittlern als „Tommy" identifizieren.
-        Innerhalb weniger Tage wurde Sells in einem nahegelegenen Wohnwagen verhaftet.</p>
-        <p class="vb-intro"><strong>d) Die Geständnisse:</strong>
-        Nach seiner Festnahme gestand Sells zahlreiche Morde,
-        zog manche Geständnisse zurück, ergänzte andere durch neue Details.
-        Kriminalisten aus verschiedenen Bundesstaaten reisten an,
-        um seine Aussagen mit ungeklärten Fällen abzugleichen.
-        In einigen Fällen stimmten die Details exakt, in anderen nicht.
-        Sells nutzte die Geständnisse offenkundig auch als Bühne:
-        Er war der Mittelpunkt, die Ermittler kamen zu ihm, er kontrollierte den Informationsfluss.
-        Das ist SP2-Dynamik in Reinform –
-        auch in der Gefangenschaft noch Aufmerksamkeit und Einfluss sichernd.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Crimes: Two Decades Across America</h3>
+        <p class="vb-intro"><strong>a) The Nomadic Perpetrator:</strong> For decades, Sells traveled back and forth across the United States without a fixed address or steady employment. He survived on odd jobs at carnivals and farms, slept in warehouses, under bridges, or with fleeting acquaintances. This mobility rendered him virtually invisible to law enforcement for years: each crime occurred in a different state, each victim existed in a different context, and establishing an overarching link was extremely difficult.</p>
+        <p class="vb-intro"><strong>b) The Attacks:</strong> Sells murdered people across all age groups: children, women, men, and entire families. He preferred to strike at night, often in homes he had broken into unnoticed or into which he had been invited. The brutality of his crimes — strangulation, stabbing, bludgeoning — stood in stark contrast to his engaging demeanor in daily life.</p>
+        <p class="vb-intro"><strong>c) The Decisive Night: New Year's Eve 1999:</strong> His fatal error occurred on New Year's Eve 1999 in Del Rio, Texas. Sells broke into the home of the Harris family and murdered 13-year-old <strong>Kaylene Harris</strong>. Her 10-year-old friend, <strong>Crystal Surles</strong>, survived despite severe injuries by playing dead. The following morning, Crystal was able to identify her attacker to investigators as "Tommy." Within days, Sells was arrested in a nearby trailer park.</p>
+        <p class="vb-intro"><strong>d) The Confessions:</strong> Following his arrest, Sells confessed to numerous murders, retracted some confessions, and supplemented others with new details. Investigators from various states traveled to interview him and cross-reference his statements with unsolved cold cases. In some instances, the details matched precisely; in others, they did not. Sells clearly used these confessions as a stage: he was the center of attention, investigators came to him, and he controlled the flow of information. This is SP2 dynamic in its purest form — securing attention and influence even while incarcerated.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung, Prozess und Hinrichtung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest, Trial, and Execution</h3>
         <p class="vb-intro">
-        Im Jahr 2000 wurde Sells in Texas wegen des Mordes an Kaylene Harris zum Tode verurteilt.
-        Nexte Anklagen in anderen Bundesstaaten folgten.
-        Er verbrachte über dreizehn Jahre in der Todeszelle des Gefängnisses in Livingston, Texas,
-        und gab in dieser Zeit zahlreichen Journalisten und Kriminologen Interviews.
-        Am <strong>3. April 2014</strong> wurde Tommy Lynn Sells in Huntsville, Texas,
-        durch die Giftspritze hingerichtet. Er war 49 Jahre alt.
-        Bis zuletzt blieb die genaue Zahl seiner Opfer ungeklärt –
-        mindestens 13 Morde sind sicher dokumentiert;
-        Sells selbst sprach von bis zu 70 Taten.
+        In 2000, Sells was sentenced to death in Texas for the murder of Kaylene Harris, with subsequent indictments following in other states. He spent over thirteen years on death row at the Allan B. Polunsky Unit in Livingston, Texas, giving interviews to numerous journalists and criminologists during that time. On <strong>April 3, 2014</strong>, Tommy Lynn Sells was executed by lethal injection in Huntsville, Texas, at the age of 49. Up to the end, the exact number of his victims remained unresolved — at least 13 murders are securely documented, while Sells himself claimed up to 70.
         </p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Fazit: Der freundliche Fremde</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Conclusion: The Friendly Stranger</h3>
         <p class="vb-intro">
-        Tommy Lynn Sells verkörpert die dunkelste Möglichkeit des Self-Preservationen Typ 2:
-        ein Mensch, dessen frühe Bindungserfahrungen so zerstörerisch waren,
-        dass die SP2-Überlebensstrategie – Fürsorge als Mittel zur Kontrolle,
-        Annäherung als Vorstufe zur Ausbeutung – keine sozialen Grenzen mehr kannte.
-        Das Flusspferd, das sich in die Nähe von Menschen wagt,
-        weil es dort findet, was es braucht, und dabei keine Schwäche zeigt –
-        das ist das treffende Bild für diesen Täter.
-        Was bleibt, ist der Fall Crystal Surles: ein zehnjähriges Mädchen,
-        das überlebte, weil es in einem Moment extremer Bedrohung geistesgegenwärtig genug war,
-        sich totzustellen – und am nächsten Morgen dafür sorgte, dass Sells verhaftet wurde.
-        Nicht Technologie, nicht ein Fahndungsnetz: ein Kind.
+        Tommy Lynn Sells embodies the darkest potential of the Self-Preservation Type 2: a human being whose early attachment experiences were so destructive that the SP2 survival strategy — caretaking as a means of control, approach as a prelude to exploitation — no longer recognized any social boundaries. The hippopotamus venturing near human presence because it finds what it needs there, showing no weakness — that is the fitting image for this perpetrator. What remains is the story of Crystal Surles: a ten-year-old girl who survived because, in a moment of extreme mortal peril, she had the presence of mind to play dead — and the next morning ensured that Sells was apprehended. Not technology, not a manhunt network: a child.
         </p>
         <div style="margin-top:1rem;padding:0.8rem;background:rgba(0,0,0,0.04);border-radius:6px;font-size:0.88rem;line-height:1.6;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
-          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
-          <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Flusspferd</p>
-          <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 bestätigt, bis zu 70 beansprucht</p>
-          <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz · <strong>Stresspunkt:</strong> Typ 8</p>
+          <p style="margin:0 0 0.3rem;"><strong>Born:</strong> June 28, 1964, Oakland, California</p>
+          <p style="margin:0 0 0.3rem;"><strong>Executed:</strong> April 3, 2014, Huntsville, Texas</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagram Type:</strong> SP2w1 – Self-Preservation Type 2 with One-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Animal Correspondence:</strong> Hippopotamus</p>
+          <p style="margin:0 0 0.3rem;"><strong>Confirmed Victims:</strong> At least 13 confirmed; up to 70 claimed</p>
+          <p style="margin:0;"><strong>Passion:</strong> Pride · <strong>Stress Point:</strong> Type 8</p>
         </div>
       </div>
 
@@ -24529,14 +22864,14 @@ function tommyLynnSellsPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Tommy Lynn Sells wurde 2000 in Texas wegen Mordes zum Tode verurteilt und 2014 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep-psychological analysis. The Enneagram assignment is a psychological hypothesis, not a legal or historical judgment. Tommy Lynn Sells was sentenced to death for murder in Texas in 2000 and executed in 2014. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Die Vermieterin des Todes"}
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Death House Landlady"}
       ])}
     </div>
   `);
@@ -25027,189 +23362,82 @@ function michaelFranzesePortraitPage() {
         </div>
         <p class="krim-portrait-name">Michael Franzese</p>
         <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with Two-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Mafia-Underboss und Aussteiger · Animal correspondence: Waschbär</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Former US Mafia underboss and defector · Animal correspondence: Raccoon</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Michael Franzese</strong> (geb. 1951, Brooklyn) war Capo der Colombo-Familie,
-        einer der mächtigsten Mafia-Clans New Yorks. Mit einem raffinierten Benzinsteuer-Betrug
-        verdiente er in den 1980er-Jahren bis zu f\xfcnf Millionen Dollar pro Woche –
-        insgesamt soll er \xfcber eine Milliarde Dollar f\xfcr das organisierte Verbrechen
-        erwirtschaftet haben. <strong>Franzese</strong> war der j\xfcngste Capo seit Al Capone.
-        Was ihn von anderen Mob-Figuren unterscheidet: Er verlie\xdf die Mafia lebend –
-        ohne Kronzeugenregelung, ohne Schutzprogramm. Er konvertierte im Gef\xe4ngnis zum
-        christlichen Glauben und wurde Motivationsredner, Buchautor und Kirchensprecher.
-        Diese Analyse fragt: Wie formt die selbsterhaltende Drei mit Zweierfl\xfcgel
-        einen Menschen, der in zwei v\xf6llig verschiedenen Welten gleich gut funktioniert?
+        Michael Franzese (born 1951, Brooklyn) was a capo in the Colombo crime family, one of New York's most powerful Mafia clans. Through a sophisticated gas tax fraud scheme, he made up to five million dollars per week in the 1980s — generating well over a billion dollars total for organized crime. Franzese was the youngest capo since Al Capone. What sets him apart from other mob figures: he left the Mafia alive — without witness protection, without turned-state testimony. In prison, he converted to Christianity and became a motivational speaker, author, and church spokesperson. This analysis asks: How does the Self-Preservation Three with a Two-wing shape a person who functions equally well in two entirely different worlds?
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Self-Preservation Type 3 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SP3w2 &middot;
-          <em>Leidenschaft:</em> T\xe4uschung &middot;
-          <em>Tieranalogie:</em> Waschb\xe4r
+          Type Allocation: Self-Preservation Type 3 · Type with Wing: SP3w2 · Passion: Deceit · Animal Analogy: Raccoon
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Charmant und bodenst\xe4ndig:</strong>
-        <strong>Franzese</strong> wirkte nie k\xe4lt oder bedrohlich – obwohl er einer der
-        mächtigsten Kriminellen seiner Zeit war. Der Zweierfl\xfcgel verleiht der Drei
-        W\xe4rme und Zug\xe4nglichkeit. Menschen in seiner N\xe4he f\xfchlten sich wohl,
-        nicht eingesch\xfcchtert.</p>
-        <p class="vb-intro"><strong>b) Souver\xe4n und situationsangepasst:</strong>
-        <strong>Franzese</strong> wechselte m\xfchelos zwischen der Sprache der Stra\xdfe und der
-        Sprache der Gesch\xe4ftswelt. Mit Bankern sprach er wie ein Finanzier,
-        mit Soldaten wie ein Boss. Die SP3 ist ein Meister der Rollenanpassung:
-        Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
-        <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
-        Wer <strong>Franzese</strong> begegnet – damals wie heute – beschreibt ihn als jemanden,
-        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SP3w2-Typ: er strahlt Erfolg aus,
-        ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro">a) Charming and Down-to-Earth: Franzese never came across as cold or threatening — despite being one of the most powerful criminals of his era. The Two-wing infuses the Three with warmth and approachability. People in his presence felt comfortable, not intimidated.</p>
+        <p class="vb-intro">b) Composed and Adaptable to Circumstances: Franzese switched effortlessly between street vernacular and the language of corporate business. He spoke with bankers like a financier, and with soldiers like a boss. The SP3 is a master of role adaptation: showing whichever face currently delivers success.</p>
+        <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. That is the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Was funktioniert hier?</strong>
-        Die selbsterhaltende Drei richtet ihren Blick zuerst auf Effizienz:
-        Welcher Weg f\xfchrt am schnellsten zum Ergebnis? <strong>Franzeses</strong> Benzinsteuerbetrug
-        war ein Meisterwerk der operativen Logik – er nutzte legale Strukturen,
-        um illegale Ziele zu verschleiern. Der Blick der SP3 ist pragmatisch, nicht ideologisch.</p>
-        <p class="vb-intro"><strong>b) Wie sichere ich das Erreichte ab?</strong>
-        Sicherheit ist das Kernthema der selbsterhaltenden Variante. <strong>Franzese</strong>
-        baute Strukturen auf, die ihn sch\xfctzten: Anw\xe4lte, Gesellschaften, Tarnnamen.
-        Er wollte nicht nur reich werden – er wollte unangreifbar sein.</p>
-        <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
-        Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Relationships.
-        <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt – er bezahlte gut,
-        behandelte seine Leute fair. Das ist die SP3w2-Kombination: Leistung plus
-        Verbindlichkeit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Focus of Attention</h3>
+        <p class="vb-intro">a) What Works Here? The Self-Preservation Three directs its gaze first toward efficiency: Which path reaches the objective fastest? Franzese's gas tax scam was a masterclass in operational logic — utilizing legal frameworks to disguise illegal aims. The SP3 gaze is pragmatic, not ideological.</p>
+        <p class="vb-intro">b) How Do I Secure What Has Been Achieved? Security is the core theme of the self-preservation instinct. Franzese built structures to insulate himself: attorneys, shell companies, aliases. He didn't just want to get rich — he wanted to be untouchable.</p>
+        <p class="vb-intro">c) How Do I Maintain the Loyalty of Those Around Me? The Two-wing channels a portion of attention toward relationships. Franzese was known for his generosity — paying well and treating his crew fairly. That is the SP3w2 combination: high performance plus connection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: T\xe4uschung</h3>
-        <p class="vb-intro"><strong>a) T\xe4uschung als Gesch\xe4ftsmodell:</strong>
-        Der Benzinsteuerbetrug war in seinem Kern ein Akt systematischer T\xe4uschung:
-        Scheingesellschaften, gef\xe4lschte Buchf\xfchrung, falsche Identit\xe4ten.
-        <strong>Franzese</strong> t\xe4uschte Beh\xf6rden, Partner und Konkurrenten gleichzeitig –
-        nicht aus Bosheit, sondern weil T\xe4uschung f\xfcr die Drei ein neutrales Werkzeug ist.</p>
-        <p class="vb-intro"><strong>b) Selbstt\xe4uschung: der gute Mann:</strong>
-        Wie alle Dreier \xfcbernahm <strong>Franzese</strong> das Selbstbild des kompetenten,
-        verantwortungsvollen Mannes – der f\xfcr seine Familie sorgt, der loyal ist,
-        der Wort h\xe4lt. Diese Selbstwahrnehmung \xfcberlebte die kriminelle Phase und
-        wurde nach der Konversion zum Fundament seiner neuen Identit\xe4t.</p>
-        <p class="vb-intro"><strong>c) T\xe4uschung durch Verwandlung:</strong>
-        Der Wechsel vom Mob-Boss zum Kirchensprecher ist aus Enneagramm-Sicht
-        keine \xdcberraschung: Die Drei kann sich neu erfinden. <strong>Franzese</strong> t\xe4uschte
-        nicht mehr andere – er erschuf sich selbst neu. Ob das echte Verwandlung
-        oder erneute Performance ist, bleibt die tiefste Frage dieses Portraits.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Passion: Deceit</h3>
+        <p class="vb-intro">a) Deceit as a Business Model: At its core, the gas tax fraud was a systematic act of deceit: shell companies, falsified accounting, fake identities. Franzese deceived authorities, partners, and competitors simultaneously — not out of malice, but because deceit is a neutral tool for Type Three.</p>
+        <p class="vb-intro">b) Self-Deception: The Good Man: Like all Threes, Franzese internalized the self-image of a competent, responsible man — someone who provides for his family, stays loyal, and keeps his word. This self-perception outlived his criminal career and became the foundation of his new identity after his conversion.</p>
+        <p class="vb-intro">c) Deceit Through Transformation: From an Enneagram perspective, shifting from mob boss to church speaker is no surprise: Type Three can reinvent itself. Franzese was no longer deceiving others — he was creating a brand-new self. Whether that represents genuine transformation or a renewed performance remains the deepest question of this portrait.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Leistung als Sprache:</strong>
-        <strong>Franzese</strong> kommunizierte \xfcber Ergebnisse. Im Mob: Geld, Macht, Loyalit\xe4t.
-        Heute: B\xfccher, Vortr\xe4ge, Reichweite. Der Kanal wechselt, das Muster bleibt.
-        Die SP3 lebt durch das, was sie produziert – Sein ohne Leistung ist ihr fremd.</p>
-        <p class="vb-intro"><strong>b) Strategische Gro\xdfz\xfcgigkeit:</strong>
-        <strong>Franzese</strong> war bekannt daf\xfcr, seine Leute zu belohnen. Das ist der
-        Zweierfl\xfcgel: Geben als Bindungsmittel. Aber anders als die reine Zwei
-        gibt die SP3w2 nicht aus emotionalem Bed\xfcrfnis – sie gibt, weil es
-        Loyalit\xe4t erzeugt, die das System stabil h\xe4lt.</p>
-        <p class="vb-intro"><strong>c) Risikoberechnung statt Impuls:</strong>
-        <strong>Franzese</strong> handelte selten aus Emotion. Sein Benzinsteuerbetrug war
-        jahrelang wasserdicht, weil er methodisch vorgegangen war. Die SP3 ist
-        kein Hasardeur – sie kalkuliert, sichert ab, plant Auswege. Das unterscheidet
-        sie von impulsiveren Typen wie der Acht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
+        <p class="vb-intro">a) Achievement as Language: Franzese communicated through results. In the mob: money, power, loyalty. Today: books, keynotes, media reach. The channel shifts, but the pattern remains. The SP3 exists through what it produces — being without doing is foreign to them.</p>
+        <p class="vb-intro">b) Strategic Generosity: Franzese was known for rewarding his people. That is the Two-wing: giving as a bonding mechanism. Unlike a core Two, however, the SP3w2 does not give out of raw emotional need — they give because it fosters loyalty that keeps the system stable.</p>
+        <p class="vb-intro">c) Calculated Risk Over Impulse: Franzese rarely acted on impulse. His gas tax scheme remained airtight for years because he operated methodically. The SP3 is no reckless gambler — they calculate, hedge, and plan escape routes. This distinguishes them from more impulsive types like Type Eight.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde des Wertlosen:</strong>
-        Hinter dem Erfolg der Drei liegt die tief verankerte \xdcberzeugung:
-        Ich bin nur dann wertvoll, wenn ich leiste. <strong>Franzese</strong> wuchs als
-        Sohn von Sonny Franzese auf – einem gefürchteten Mobster. Den Vater
-        zu \xfcbertreffen war die unbewusste Mission. Leistung als Liebesbeweis.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Unaufhaltbarkeit:</strong>
-        Die SP3 sch\xfctzt sich durch dauerhaften Erfolg: Wer immer gewinnt,
-        muss nie verlieren. <strong>Franzese</strong> baute ein System, das selbst Verh\xe4ngnisse
-        abfedern konnte. Die Gef\xe4ngnisstrafe wurde zum Transformationsnarrativ
-        umgedeutet – der SP3 verliert nicht, sie wechselt die Spielfeld-Seite.</p>
-        <p class="vb-intro"><strong>c) Identit\xe4t als Projekt:</strong>
-        Die Schutzstrategie der Drei ist Identit\xe4tskonstruktion: Ich bin, was ich
-        leiste. <strong>Franzeses</strong> radikale Neuerfindung als Christ und Sprecher ist
-        eine Schutzstrategie in zweiter Generation – die alte Identit\xe4t wurde
-        aufgegeben, eine neue gebaut, die ebenso wasserdicht ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wound and Protective Strategy</h3>
+        <p class="vb-intro">a) The Wound of Worthlessness: Beneath Type Three's success lies a deeply rooted conviction: I am only valuable if I achieve. Franzese grew up as the son of Sonny Franzese — a feared mobster. Surpassing his father became his unconscious mission. Achievement as proof of love.</p>
+        <p class="vb-intro">b) Protection Through Unstoppability: The SP3 protects itself through constant success: someone who always wins never has to suffer defeat. Franzese built a system capable of absorbing even major setbacks. His prison sentence was reinterpreted into a narrative of transformation — the SP3 doesn't lose; it simply switches playing fields.</p>
+        <p class="vb-intro">c) Identity as a Project: Type Three's defense mechanism is identity construction: I am what I achieve. Franzese's radical reinvention as a Christian and speaker is a second-generation protective strategy — the old identity was abandoned, and a new, equally airtight one was engineered.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SP3: der gute Mensch als Tarnung:</strong>
-        Naranjo beschreibt die selbsterhaltende Drei als den Subtype, der am
-        intensivsten das Image des „guten, anst\xe4ndigen Menschen" pflegt –
-        weil Ansehen Sicherheit bedeutet. <strong>Franzese</strong> war im Mob der Mann,
-        der Wort hielt, fair behandelte und nie unn\xf6tig grausam war.
-        Das war kein Zufall – es war Strategie.</p>
-        <p class="vb-intro"><strong>b) Zweierfl\xfcgel als Popularit\xe4tsfaktor:</strong>
-        Die w2-Anteile machten <strong>Franzese</strong> menschlicher als typische Mob-Figuren.
-        Er war kein k\xfchler Rechner wie eine reine Drei – er war auch warm,
-        zugewandt, f\xe4hig zur echten Verbindung. Das machte ihn gef\xe4hrlicher
-        im Mob und gl\xe4ubw\xfcrdiger danach.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Escobar (SP3):</strong>
-        <strong>Escobar</strong> war die SP3 ohne moralischen Anker – Leistung um jeden Preis.
-        <strong>Franzese</strong> ist die SP3 mit dem Zweierfl\xfcgel und einem sp\xe4teren Wendepunkt.
-        Beide bauten Imperien. Einer zerst\xf6rte sich dabei, der andere
-        erfand sich neu. Die Fl\xfcgelenergie macht den Unterschied.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagram Analysis</h3>
+        <p class="vb-intro">a) SP3: The "Good Person" as Cover: Naranjo describes the Self-Preservation Three as the subtype that most intensely maintains the image of a "good, decent person" — because reputation yields security. In the mob, Franzese was the man who kept his word, acted fairly, and avoided unnecessary cruelty. This was no coincidence — it was strategy.</p>
+        <p class="vb-intro">b) Two-Wing as Popularity Factor: The w2 elements made Franzese more relatable than typical mob figures. He wasn't purely a cold calculator like a core Three — he was also warm, engaging, and capable of genuine connection. That made him more dangerous in the mob and more credible afterward.</p>
+        <p class="vb-intro">c) Comparison with Escobar (SP3): Escobar was an SP3 without a moral anchor — achievement at any cost. Franzese represents the SP3 with a Two-wing and a subsequent turning point. Both built empires. One destroyed himself in the process; the other reinvented himself. Wing energy makes the difference.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Waschb\xe4r</h3>
-        <p class="vb-intro"><strong>a) Die Maske:</strong>
-        Der Waschb\xe4r tr\xe4gt von Natur aus eine Maske – das dunkle Fellmuster um
-        die Augen. <strong>Franzese</strong> trug seine Maske aus Charme und Geradlinigkeit
-        wie eine zweite Haut. Das Tier und der Mensch teilen dieselbe Eigenschaft:
-        Man sieht die Maske, aber sie wirkt trotzdem \xfcberzeugend.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4hig in jeder Umgebung:</strong>
-        Waschb\xe4ren \xfcberleben in W\xe4ldern, St\xe4dten, W\xfcstenrandgebieten – sie
-        brauchen keine ideale Umgebung. <strong>Franzese</strong> \xfcberlebte die Mafia,
-        das Gef\xe4ngnis und die \xf6ffentliche Entlassung gleicherma\xdfen. Der SP3w2er
-        ist der Anpassungsf\xe4higste aller Typen.</p>
-        <p class="vb-intro"><strong>c) Gewissenhaft und pragmatisch:</strong>
-        Waschb\xe4ren „waschen" ihre Nahrung – ein Ritual, das Sorgfalt und
-        Kontrolle signalisiert. <strong>Franzese</strong> arbeitete mit derselben Methodik:
-        nichts wurde dem Zufall \xfcberlassen. Jede Transaktion hatte ihre Struktur,
-        jede Beziehung ihren Zweck. Hinter der lockeren Fassade steckte
-        pr\xe4zise Planung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Animal Analogy: Raccoon</h3>
+        <p class="vb-intro">a) The Mask: The raccoon naturally wears a mask — the dark fur pattern around its eyes. Franzese wore his mask of charm and straight-forwardness like a second skin. The animal and the human share the same trait: you can see the mask, yet it remains convincing.</p>
+        <p class="vb-intro">b) Adaptable in Any Environment: Raccoons survive in forests, cities, and desert fringes — they do not require an ideal habitat. Franzese survived the Mafia, prison, and public exposure all the same. The SP3w2 is the most adaptable of all types.</p>
+        <p class="vb-intro">c) Conscientious and Pragmatic: Raccoons "wash" their food — a ritual signaling care and control. Franzese operated with the exact same methodology: nothing was left to chance. Every transaction had its structure; every relationship had its purpose. Behind the relaxed facade lay precise planning.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 3</h3>
-        <p class="vb-intro"><strong>a) Vom Tun zum Sein:</strong>
-        Der Heilungsweg der Drei f\xfchrt \xfcber die Frage: Wer bin ich, wenn ich
-        nichts leiste? <strong>Franzeses</strong> Konversion im Gef\xe4ngnis war m\xf6glicherweise
-        der erste Moment, in dem er dieser Frage wirklich begegnete –
-        aller Ressourcen, Rollen und Strukturen beraubt.</p>
-        <p class="vb-intro"><strong>b) Echtheit statt Image:</strong>
-        Die gesunde Drei entwickelt Authentizit\xe4t – die F\xe4higkeit, ohne Maske
-        zu existieren. Ob <strong>Franzese</strong> diesen Schritt vollst\xe4ndig vollzogen hat,
-        bleibt offen. Seine \xf6ffentliche Rolle als „bekehrter Mob-Boss" ist
-        selbst ein Image – aber vielleicht das ehrlichste, das er je getragen hat.</p>
-        <p class="vb-intro"><strong>c) Hoffnung als Botschaft:</strong>
-        Das Besondere an <strong>Franzese</strong> ist sein Heilungsnarrativ: Er ist der Beweis,
-        dass Transformation m\xf6glich ist – auch aus den dunkelsten Strukturen heraus.
-        F\xfcr den Typ 3 ist das die tiefste Aussage: Wert ist nicht verdient,
-        sondern geschenkt. Das ist der Weg von der T\xe4uschung zur Wahrheit.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Path of Healing for Type 3</h3>
+        <p class="vb-intro">a) From Doing to Being: Type Three's path to healing leads through the question: Who am I when I achieve nothing? Franzese's prison conversion was likely the first moment he truly encountered this question — stripped of all resources, roles, and structures.</p>
+        <p class="vb-intro">b) Authenticity Over Image: A healthy Three develops authenticity — the capacity to exist without a mask. Whether Franzese completed this step entirely remains open to debate. His public persona as the "converted mob boss" is itself an image — yet perhaps the most honest one he has ever worn.</p>
+        <p class="vb-intro">c) Hope as a Message: What makes Franzese distinct is his redemption narrative: he stands as proof that transformation is possible — even out of the darkest structures. For Type Three, this delivers the deepest truth: value is not earned, but given. That is the journey from deceit to truth.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 – der gute Mensch als Subtype: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – alle Dreier-Subtypes im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert – T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP3 – The Good Person as Subtype: The deepest analysis of the Self-Preservation Three and its mask of decency.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – All Type Three Subtypes at a Glance.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 Portrayed in Depth – Deceit, Image, and the Path to Healing Through Genuine Authenticity.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Michael Franzese bekannte sich schuldig und kooperierte mit Behörden; er verbüßte Gefängniszeit und lebt heute als freier Mann. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait is intended for depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Michael Franzese pleaded guilty and cooperated with authorities; he served prison time and lives today as a free man. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -25235,177 +23463,78 @@ function sebastianGreenwoodPortraitPage() {
         <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Sebastian Greenwood</strong> (geb. 1978, Schweden) war Mitgr\xfcnder und
-        Chefrekrutierer des OneCoin-Kryptow\xe4hrungs-Betrugs – des gr\xf6\xdften
-        Ponzi-Schemas der Geschichte mit einem Schaden von \xfcber vier Milliarden Euro.
-        W\xe4hrend <strong>Ruja Ignatova</strong> als „Cryptoqueen“ die intellektuelle Fassade
-        des Systems lieferte, war <strong>Greenwood</strong> der Netzwerker, der Menschenf\xe4nger,
-        der Mann, der Tausende Distributor-Partner weltweit anwarb und f\xfcr die
-        Sache begeisterte. Er wurde 2018 in Thailand verhaftet, 2023 in den USA
-        der Geldw\xe4sche und des Betruges schuldig gesprochen. Diese Analyse fragt:
-        Was treibt einen Menschen an, ein globales Vertrauenssystem aufzubauen –
-        und es zur Waffe zu machen?
+        Sebastian Greenwood (born 1978, Sweden) was co-founder and chief recruiter of the OneCoin cryptocurrency fraud — the largest Ponzi scheme in history with damages exceeding four billion euros. While Ruja Ignatova as the "Cryptoqueen" provided the intellectual facade of the system, Greenwood was the networker, the master recruiter, the man who enlisted thousands of distributor partners worldwide and inspired them for the cause. He was arrested in Thailand in 2018 and found guilty of money laundering and fraud in the US in 2023. This analysis asks: What drives a person to build a global system of trust — and turn it into a weapon?
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
                 border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
         <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Self-Preservation Type 2 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SP2w3 &middot;
-          <em>Leidenschaft:</em> Stolz &middot;
-          <em>Tieranalogie:</em> Flusspferd
+          Type Allocation: Self-Preservation Type 2 · Type with Wing: SP2w3 · Passion: Pride · Animal Analogy: Hippopotamus
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
-        <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
-        willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen – oft das erste
-        Mal in langer Zeit. Das ist die selbsterhaltende Zwei: Zuwendung als Werkzeug,
-        Warmherzigkeit als Eintrittskarte.</p>
-        <p class="vb-intro"><strong>b) Selbstsicher bis strahlend:</strong>
-        Der Dreierfl\xfcgel gibt der Zwei eine souver\xe4ne Au\xdfenpr\xe4senz. <strong>Greenwood</strong>
-        trat nicht wie ein Verkaufsredner auf, sondern wie ein Visionär. Seine
-        Selbstsicherheit war ansteckend – sie \xfcbertrug sich auf die Zuh\xf6rer
-        und verwandelte Skepsis in Begeisterung.</p>
-        <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
-        <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
-        Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
-        Das ist das SP2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro">a) Warming and Inviting: Greenwood was known for instantly making people feel welcome. Anyone who spoke with him felt seen — often for the first time in a long while. That is the Self-Preservation Two: affection as a tool, warmth as an entry ticket.</p>
+        <p class="vb-intro">b) Self-Confident to Radiant: The Three-wing gives Type Two a commanding public presence. Greenwood did not come across as a pushy salesperson, but as a visionary. His self-confidence was infectious — it transferred to his listeners and transformed skepticism into enthusiasm.</p>
+        <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. That is the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Wer braucht mich gerade?</strong>
-        Die selbsterhaltende Zwei sucht Menschen, die Orientierung, Sinn oder
-        Zugeh\xf6rigkeit suchen. <strong>Greenwood</strong> fand sein Publikum unter
-        Aufsteigern aus Entwicklungsl\xe4ndern, Unternehmern ohne Netzwerk, Menschen
-        mit dem Wunsch nach finanziellem Aufstieg. Er sah ihre Bed\xfcrftigkeit
-        und machte daraus ein Gesch\xe4ftsmodell.</p>
-        <p class="vb-intro"><strong>b) Wie baue ich Loyalit\xe4t auf?</strong>
-        <strong>Greenwood</strong> investierte in langfristige Bindungen. Er gab gro\xdfz\xfcgig
-        – Provisionen, Status, Anerkennung. Die Zwei gibt, damit sie gebraucht wird.
-        Das Geben erzeugt Schuld, die Schuld erzeugt Loyalit\xe4t. OneCoin war ein
-        Loyalit\xe4tssystem im Kern.</p>
-        <p class="vb-intro"><strong>c) Welche Vision begeistert die Masse?</strong>
-        Der Dreierfl\xfcgel verschafft <strong>Greenwood</strong> einen scharfen Sinn f\xfcr
-        Narrativ. Er verkaufte nicht eine Kryptow\xe4hrung, sondern eine Mission:
-        finanzielle Befreiung f\xfcr die Unterdr\xfcckten. Dieses Bild zog Millionen an.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Focus of Attention</h3>
+        <p class="vb-intro">a) Who Needs Me Right Now? The Self-Preservation Two seeks out people looking for direction, purpose, or belonging. Greenwood found his audience among aspiring individuals in developing countries, entrepreneurs lacking a network, and people with a desire for financial advancement. He saw their neediness and turned it into a business model.</p>
+        <p class="vb-intro">b) How Do I Build Loyalty? Greenwood invested in long-term relationships. He gave generously — commissions, status, recognition. Type Two gives so that it will be needed. Giving creates indebtedness, and indebtedness creates loyalty. OneCoin was a loyalty system at its core.</p>
+        <p class="vb-intro">c) What Vision Inspires the Masses? The Three-wing provides Greenwood with a sharp sense for narrative. He was not selling a cryptocurrency, but a mission: financial liberation for the disenfranchised. This image attracted millions.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Stolz</h3>
-        <p class="vb-intro"><strong>a) Stolz als Netzwerkkonstrukteur:</strong>
-        <strong>Greenwoods</strong> Stolz speiste sich nicht aus Geld allein, sondern daraus,
-        das gr\xf6\xdfte Netzwerk der Krypto-Geschichte aufgebaut zu haben. Er war
-        nicht der Dieb – er war der Architekt der Gemeinschaft. Der Typ 2
-        braucht das Gef\xfchl, unersetzlich zu sein.</p>
-        <p class="vb-intro"><strong>b) Blind gegen\xfcber dem Schaden:</strong>
-        Wie bei allen SP2-Typen schirmte der Stolz den Blick auf die Wirklichkeit ab.
-        <strong>Greenwood</strong> konnte den Betrug fortsetzen, weil er sich als Helfer
-        erlebte – jemand, der anderen eine Chance gab. Dass die Chance gef\xe4lscht war,
-        blieb unbewusst.</p>
-        <p class="vb-intro"><strong>c) Grandiosit\xe4t als Identit\xe4t:</strong>
-        Der Dreierfl\xfcgel verst\xe4rkte den Stolz durch \xf6ffentliche Inszenierung. Awards,
-        B\xfchnenereignisse, Titelverleihungen: <strong>Greenwood</strong> schuf ein Theater der
-        Bedeutsamkeit, in dem er selbst die Hauptrolle spielte – und glaubte, sie zu verdienen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Passion: Pride</h3>
+        <p class="vb-intro">a) Pride as a Network Architect: Greenwood's pride was fed not by money alone, but by having built the largest network in crypto history. He was not the thief — he was the architect of the community. Type Two needs to feel indispensable.</p>
+        <p class="vb-intro">b) Blind to the Harm Caused: As with all SP2 types, pride shielded his view of reality. Greenwood was able to continue the fraud because he experienced himself as a helper — someone providing an opportunity to others. That the opportunity was counterfeit remained unconscious.</p>
+        <p class="vb-intro">c) Grandiosity as Identity: The Three-wing amplified his pride through public staging. Awards, stage events, conferring of titles: Greenwood created a theater of significance in which he played the lead role — and believed he deserved it.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Geben als Machtinstrument:</strong>
-        <strong>Greenwoods</strong> Provisionsstruktur war psychologisch virtuos: sie schuf
-        ein System, in dem Helfen und Bereichern identisch wirkten. Wer andere anwarb,
-        half ihnen scheinbar. Die SP2-Dynamik des „Ich gebe, also habe ich Recht“
-        wurde hier zur Gesch\xe4ftsstrategie.</p>
-        <p class="vb-intro"><strong>b) Netzwerken ohne Grenzen:</strong>
-        <strong>Greenwood</strong> operierte in Uganda, Indien, China, den Emiraten und Europa.
-        Die selbsterhaltende Zwei kennt keine territorialen Grenzen, wenn es um
-        die Erweiterung des eigenen Einflussfeldes geht. Jeder Contact war ein
-        potenzieller Schuldner.</p>
-        <p class="vb-intro"><strong>c) Statusf\xf6rderung als Bindungsmittel:</strong>
-        OneCoin vergab Titel und Ränge an erfolgreiche Distributor-Partner. <strong>Greenwood</strong>
-        verstand, dass Menschen nicht nur Geld wollen – sie wollen Bedeutung.
-        Er verkaufte Bedeutung. Das ist SP2w3 in seiner reinsten Form.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
+        <p class="vb-intro">a) Giving as an Instrument of Power: Greenwood's commission structure was psychologically masterly: it created a system where helping and enriching oneself appeared identical. Anyone recruiting others was seemingly helping them. The SP2 dynamic of "I give, therefore I am right" became a business strategy here.</p>
+        <p class="vb-intro">b) Networking Without Borders: Greenwood operated in Uganda, India, China, the Emirates, and Europe. The Self-Preservation Two knows no territorial boundaries when it comes to expanding its sphere of influence. Every contact was a potential debtor.</p>
+        <p class="vb-intro">c) Status Promotion as a Bonding Mechanism: OneCoin awarded titles and ranks to successful distributor partners. Greenwood understood that people do not just want money — they want significance. He sold significance. That is SP2w3 in its purest form.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde des Unverzichtbaren:</strong>
-        Hinter dem Netzwerker verbirgt sich die Angst, ohne sein Netzwerk nichts zu sein.
-        Die Zwei baut Relationships auf, weil sie glaubt, nur durch Geben geliebt
-        zu werden. <strong>Greenwood</strong> brauchte das System, um sich selbst zu sp\xfcren.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Unentbehrlichkeit:</strong>
-        Die Schutzstrategie der SP2: so viele Menschen an sich binden, dass das
-        Loslassen undenkbar wird. <strong>Greenwood</strong> baute ein Netz, das ihn
-        ebenso gefangen hielt wie seine Opfer. Der Betrug wurde zur Identit\xe4t.</p>
-        <p class="vb-intro"><strong>c) Dreierfl\xfcgel als Rüstung:</strong>
-        Der w3-Anteil gab <strong>Greenwood</strong> die F\xe4higkeit, die innere Leere hinter
-        einer makellosen Performance zu verstecken. Erfolg, Beifall, Visionärstatus:
-        all das waren Schutzschichten gegen das Gef\xfchl, ohne diesen Apparat
-        nicht zu existieren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wound and Protective Strategy</h3>
+        <p class="vb-intro">a) The Wound of Being Indispensable: Behind the networker lurks the fear of being nothing without a network. Type Two builds relationships because it believes it can only be loved through giving. Greenwood needed the system to feel his own existence.</p>
+        <p class="vb-intro">b) Protection Through Indispensability: The protective strategy of the SP2: bind so many people to oneself that letting go becomes unthinkable. Greenwood built a web that held him just as captive as his victims. The fraud became his identity.</p>
+        <p class="vb-intro">c) Three-Wing as Armor: The w3 element gave Greenwood the ability to hide inner emptiness behind a flawless performance. Success, applause, visionary status: all of these were protective layers against the feeling of not existing without this apparatus.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SP2 und das Zweier-Privileg:</strong>
-        Die selbsterhaltende Zwei nimmt, was ihr zusteht – verh\xfcllt durch das
-        Narrativ des Gebens. <strong>Greenwood</strong> nahm Milliarden, aber er „gab“
-        sie weiter: in Form von Provisionen, Status, Versprechen. Das Zweier-Privileg
-        in globaler Dimension.</p>
-        <p class="vb-intro"><strong>b) Dreierfl\xfcgel als Inszenierungsmotor:</strong>
-        Ohne den w3-Anteil w\xe4re <strong>Greenwood</strong> ein lokaler Netzwerker geblieben.
-        Der Dreierfl\xfcgel lieferte das Gro\xdfformat: die B\xfchne, das Narrativ,
-        die Marke. SP2w3 kann Betrug in eine globale Vision verwandeln.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Ignatova:</strong>
-        <strong>Ignatova</strong> (SP3w4) lieferte das intellektuelle Fundament, <strong>Greenwood</strong>
-        (SP2w3) die Beziehungsarchitektur. Zwei komplementäre Selbsterhaltungstypen,
-        die sich gegenseitig verst\xe4rkten: die eine baut die Marke, der andere
-        baut die Gemeinschaft. Ein Lehrbeispiel f\xfcr Typ-Dynamiken im Team.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagram Analysis</h3>
+        <p class="vb-intro">a) SP2 and the Two's "Privilege": The Self-Preservation Two takes what it feels entitled to — cloaked by the narrative of giving. Greenwood took billions, but he "passed it on": in the form of commissions, status, and promises. The Two's privilege on a global scale.</p>
+        <p class="vb-intro">b) Three-Wing as the Engine of Staging: Without the w3 element, Greenwood would have remained a local networker. The Three-wing delivered the large format: the stage, the narrative, the brand. SP2w3 can transform fraud into a global vision.</p>
+        <p class="vb-intro">c) Comparison with Ignatova: Ignatova (SP3w4) provided the intellectual foundation, while Greenwood (SP2w3) provided the relational architecture. Two complementary Self-Preservation types reinforcing each other: one builds the brand, the other builds the community. A textbook example of team type dynamics.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Massiv und unterschätzt:</strong>
-        Das Flusspferd wirkt im Wasser tr\xe4ge und friedlich – an Land ist es das
-        gef\xe4hrlichste Gro\xdftier Afrikas. <strong>Greenwood</strong> wirkte wie der
-        nette Netzwerker, der anderen hilft. Die Gefahrlosigkeit war Inszenierung.</p>
-        <p class="vb-intro"><strong>b) Territorial und unsichtbar gef\xe4hrlich:</strong>
-        Das Flusspferd verteidigt sein Revier mit extremer Aggressivit\xe4t – ohne
-        Vorwarnung. <strong>Greenwood</strong> schützte sein Netzwerk genauso: freundlich
-        nach au\xdfen, erbarmungslos im Inneren. Wer ausstieg oder Fragen stellte,
-        verlor Status und Einkommen.</p>
-        <p class="vb-intro"><strong>c) Angepasst an zwei Welten:</strong>
-        Das Flusspferd lebt zwischen Wasser und Land – nirgendwo ganz zuhause,
-        \xfcberall funktionst\xfcchtig. <strong>Greenwood</strong> operierte zwischen Legalit\xe4t
-        und Betrug, zwischen Helfer und R\xe4uber, zwischen Vision und Manipulation.
-        Diese Ambivalenz ist das Markenzeichen des SP2w3 im Schatten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Animal Analogy: Hippopotamus</h3>
+        <p class="vb-intro">a) Massive and Underestimated: In water, the hippopotamus appears sluggish and peaceful — on land, it is Africa's most dangerous large animal. Greenwood came across as the friendly networker helping others. His harmlessness was a staged performance.</p>
+        <p class="vb-intro">b) Territorial and Invisibly Dangerous: The hippopotamus defends its territory with extreme aggressiveness — without warning. Greenwood protected his network the same way: friendly on the outside, ruthless on the inside. Anyone who opted out or asked questions lost status and income.</p>
+        <p class="vb-intro">c) Adapted to Two Worlds: The hippopotamus lives between water and land — never fully at home anywhere, fully functional everywhere. Greenwood operated between legality and fraud, between helper and predator, between vision and manipulation. This ambivalence is the trademark of the SP2w3 in the shadow.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 2</h3>
-        <p class="vb-intro"><strong>a) Vom Geben zum Sein:</strong>
-        Der Heilungsweg der Zwei beginnt mit der Frage: Was bin ich, wenn ich
-        nichts gebe? F\xfcr <strong>Greenwood</strong> w\xe4re das die radikalste Konfrontation:
-        sich selbst ohne Netzwerk, ohne Status, ohne Bedeutungsarchitektur zu begegnen.</p>
-        <p class="vb-intro"><strong>b) Echte Hilfe statt Einfluss:</strong>
-        Die gesunde Zwei gibt ohne Rechnung. <strong>Greenwood</strong> kannte nur das Geben
-        mit Erwartung: Loyalit\xe4t, Abh\xe4ngigkeit, R\xfcckzahlung. Der Weg zur Heilung
-        f\xfchrt \xfcber die Entdeckung, dass echtes Helfen keine Gegenleistung braucht.</p>
-        <p class="vb-intro"><strong>c) Demut als Gegenpol des Stolzes:</strong>
-        Die Tugend der Zwei ist Demut – die F\xe4higkeit, die eigene Begrenztheit
-        zu sehen und anzunehmen. F\xfcr <strong>Greenwood</strong> w\xe4re das die Anerkennung:
-        Ich habe nicht geholfen. Ich habe genommen. Dieser Satz, vollst\xe4ndig
-        gef\xfchlt, \xf6ffnet den Heilungsweg.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Path of Healing for Type 2</h3>
+        <p class="vb-intro">a) From Giving to Being: Type Two's path of healing begins with the question: What am I when I give nothing? For Greenwood, this would be the most radical confrontation: encountering himself without a network, without status, without an architecture of significance.</p>
+        <p class="vb-intro">b) Genuine Help Over Influence: A healthy Two gives without keeping score. Greenwood only knew giving with expectations attached: loyalty, dependency, payback. The path to healing leads through discovering that genuine helping requires nothing in return.</p>
+        <p class="vb-intro">c) Humility as the Antidote to Pride: The virtue of Type Two is humility — the capacity to recognize and accept one's own limitations. For Greenwood, that would be the acknowledgment: I did not help. I took. Fully feeling this sentence opens the path to healing.</p>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 – das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – alle Zwei-Subtypes im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert – Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SP2w3 – The Two's Privilege with Three-wing: The deepest analysis of the Self-Preservation subtype.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – All Type Two Subtypes at a Glance.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Type 2 Portrayed in Depth – Pride, Care, and the Path to Healing Through Genuine Humility.", "Wer du wirklich bist – Band 1")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Sebastian Greenwood wurde 2023 wegen Betrugs im Zusammenhang mit dem OneCoin-Skandal zu 20 Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait is intended for depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Sebastian Greenwood was sentenced in 2023 to 20 years in prison for fraud in connection with the OneCoin scandal. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -25429,203 +23558,80 @@ function pedroAlonsoLopezPortraitPage() {
         </div>
         <p class="krim-portrait-name">Pedro Alonso López</p>
         <p class="krim-portrait-typ">SO3w2 · Social Type 3 with Two-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Das Monster der Anden" – Kolumbien, Peru, Ecuador 1969–1980</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Monster of the Andes" – Colombia, Peru, Ecuador 1969–1980</p>
       </div>
       <p class="psycho-intro">
-        <strong>Pedro Alonso López</strong>, geboren 1948 in Tolima, Kolumbien,
-        ist einer der prolifiksten Serienmörder der Geschichte.
-        Er gestand nach seiner Verhaftung 1980 die Tötung von
-        mindestens <strong>350 jungen Mädchen</strong> in Kolumbien, Peru und Ecuador.
-        Die peruanische Polizei, der er zunächst übergeben wurde, ließ ihn frei –
-        für unzurechnungsfähig erklärt. In Ecuador verurteilte man ihn schließlich
-        zu 16 Jahren Haft, dem damaligen Maximum. Er wurde 1998 entlassen.
-        Sein Verbleib ist bis heute unklar.
-        Was López so schwer greifbar macht: Er war kein Phantom. Er war sichtbar –
-        charmant, zugewandt, vertrauenserweckend. Ein Fremder, der Kindern half.
-        Das Enneagramm macht sichtbar, was hinter dieser Fassade arbeitete.
+        Pedro Alonso López, born in 1948 in Tolima, Colombia, is one of the most prolific serial killers in history. Following his arrest in 1980, he confessed to the murder of at least 350 young girls across Colombia, Peru, and Ecuador. The Peruvian police, to whom he was initially handed over, released him — having declared him insane. In Ecuador, he was ultimately sentenced to 16 years in prison, the legal maximum at the time. He was released in 1998. His current whereabouts remain unknown to this day. What makes López so difficult to grasp: he was no phantom. He was visible — charming, engaging, inspiring trust. A stranger who helped children. The Enneagram makes visible what was operating behind this facade.
       </p>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid #b47800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Pedro Alonso López</strong> wird dem <strong>Sozialen Typ 3 with Two-wing</strong> zugeordnet.
-        Die soziale Drei ist der Verstärkungstyp unter den Dreiertypen –
-        sie koppelt ihren Selbstwert vollständig an sozialen Status, Ansehen und Leistungsnachweis.
-        Der Two-wing verleiht ihr Wärme, Zugewandtheit und die Fähigkeit,
-        emotionale Nähe herzustellen – als Werkzeug der Annäherung.
-        Der Stresspunkt liegt bei der <strong>Neun</strong>:
-        Betäubung, Dissoziation, das Verschwinden hinter einer leeren Routine.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);">Type Allocation: Pedro Alonso López is assigned to the Social Type 3 with Two-wing. The Social Three is the reinforcing type among the Type Three variants — coupling its sense of self-worth entirely to social status, reputation, and proof of achievement. The Two-wing provides warmth, approachability, and the ability to establish emotional closeness — used as a tool for approach. The stress point lies at Nine: numbing, dissociation, and disappearing behind an empty routine.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Gepard</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Cheetah</h3>
         <p class="vb-intro">
-        Der <strong>Gepard</strong> ist die Animal correspondence der sozialen Drei.
-        Er ist das schnellste Landtier der Welt – nicht durch Kraft, sondern durch
-        Präzision, Timing und die Fähigkeit, ein Ziel in kürzester Zeit einzuholen.
-        Der Gepard wählt sein Opfer sorgfältig. Er wartet. Er nähert sich ohne Alarm.
-        Dann schlägt er mit einer Geschwindigkeit zu, gegen die kein Entkommen möglich ist.
-        López arbeitete mit derselben Logik. Er wählte Kinder aus armen Verhältnissen –
-        häufig auf Märkten, an Busbahnhöfen, in Dörfern ohne Telefon.
-        Er sprach mit ihnen. Er schenkte ihnen etwas. Er schuf Vertrauen.
-        Der Gepard zeigt keine Zähne, bevor er zuschlägt.
-        López zeigte sie nie.
+        The Cheetah is the animal correspondence of the Social Three. It is the fastest land animal in the world — not through brute force, but through precision, timing, and the ability to overtake a target in the shortest possible time. The cheetah selects its victim carefully. It waits. It approaches without sounding any alarm. Then it strikes at a speed from which escape is impossible. López operated with that exact same logic. He selected children from impoverished backgrounds — frequently at markets, bus stations, or in villages without telephone access. He spoke with them. He gave them small gifts. He built trust. The cheetah never shows its teeth before striking. López never showed his.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Drei: Erfolg als einzige Währung</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen Drei:</strong>
-        Die soziale Drei ist der Verstärkungstyp unter den Dreiertypen, weil sie das,
-        was die Drei antreibt – Erfolg, Anerkennung, Selbstoptimierung –
-        in den sozialen Raum projiziert. Sie will nicht nur persönlich erfolgreich sein:
-        Sie will, dass ihr Erfolg gesehen wird, anerkannt wird, zählt.
-        Im Gesunden ist das antreibend und produktiv.
-        Im Ungesunden – und bei López in der äußersten Pathologie –
-        wurde aus diesem Muster etwas Ungeheuerliches:
-        Die Opfer waren sein Erfolgszähler. Nicht Qualität, sondern Quantität als Maßstab.
-        Nicht Ansehen in der Gesellschaft, sondern eine innere Buchführung,
-        die er in Verhören mit erschreckender Sachlichkeit beschrieb.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: Wärme als Werkzeug:</strong>
-        Der Two-wing der sozialen Drei verleiht ihr emotionale Zugänglichkeit.
-        Die Zwei will gebraucht werden, will helfen, will gemocht werden –
-        und die Drei nutzt diese Qualitäten instrumentell.
-        López war bekannt dafür, wie er auf Kinder wirkte:
-        Er war freundlich, geduldig, scheinbar fürsorglich.
-        Er verstand intuitiv, was ein Kind brauchte –
-        ein Lächeln, eine Kleinigkeit, ein Gefühl von Sicherheit –
-        und gab es ihnen präzise, bis das Vertrauen vollständig war.
-        Der Two-wing der sozialen Drei ist der gefährlichste Charme des Enneagramms:
-        Er fühlt sich echt an – weil er echt wirkt.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Eitelkeit als Akkumulation:</strong>
-        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> –
-        das Festhalten an einem Selbstbild, das glänzen muss, das zählen muss,
-        das nach Maßstäben bemessen wird.
-        Für López war der Maßstab eine innere, nie nach außen kommunizierte Skala.
-        Er beschrieb in Verhören, wie er abends die Zahl seiner Opfer rekapitulierte.
-        Wie er ein Gebiet wechselte, wenn er das Gefühl hatte,
-        dort „genug" getan zu haben.
-        Eitelkeit als moralisch entleerter Leistungsnachweis:
-        das Grausamste, was aus dem Drei-Muster werden kann.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Three: Success as the Only Currency</h3>
+        <p class="vb-intro">a) The Core Principle of the Social Three: The Social Three is the reinforcing type among the Type Threes because it projects what drives Type Three — success, recognition, self-optimization — into the social sphere. It doesn't just want to be personally successful: it wants its success to be seen, acknowledged, and counted. In a healthy state, this is driving and productive. In an unhealthy state — and in López's extreme pathology — this pattern turned into something monstrous: his victims became his score counter. Not quality, but quantity as the metric. Not societal acclaim, but an internal ledger that he described in interrogations with chilling objectivity.</p>
+        <p class="vb-intro">b) The Two-wing: Warmth as a Tool: The Two-wing gives the Social Three emotional accessibility. Type Two wants to be needed, wants to help, wants to be liked — and Type Three uses these qualities instrumentally. López was known for how he appeared to children: he was friendly, patient, seemingly caring. He intuitively understood what a child needed — a smile, a small gift, a sense of safety — and provided it precisely until trust was fully established. The Two-wing of the Social Three is the most dangerous charm in the Enneagram: it feels real because it appears real.</p>
+        <p class="vb-intro">c) The Passion: Vanity as Accumulation: The passion of Type Three is Vanity — holding onto a self-image that must shine, must count, and is measured by specific standards. For López, the metric was an internal scale never communicated to the outside world. During interrogations, he described how he would recount the number of his victims in the evening, or how he would switch territories whenever he felt he had done "enough" there. Vanity as a morally empty proof of achievement: the cruelest manifestation of the Three pattern.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 350 Opfer in drei Ländern</h3>
-        <p class="vb-intro"><strong>a) Die frühen Jahre und das erste Gefängnis (1969–1978):</strong>
-        López wurde 1948 als eines von 13 Kindern einer Prostituierten in Tolima geboren.
-        Mit acht Jahren wurde er von zu Hause geworfen, lebte auf der Straße,
-        wurde als Kind von einem Mann missbraucht, dem er vertraut hatte.
-        Mit 18 Jahren wurde er wegen Autodiebstahls verurteilt.
-        Im Gefängnis wurde er mehrfach vergewaltigt.
-        Er tötete drei Mitgefangene, die ihm gegenüber gewalttätig geworden waren –
-        und saß für diese Taten nur wenige zusätzliche Monate.
-        Nach seiner Entlassung begann er zu töten.
-        Er sagte später in Verhören, das Gefängniserlebnis sei der Wendepunkt gewesen:
-        Er habe entschieden, dass er nie wieder Opfer sein würde.</p>
-        <p class="vb-intro"><strong>b) Die Methode – der Gepard in Aktion:</strong>
-        López operierte auf Märkten, an Busbahnhöfen, in armen Stadtvierteln –
-        überall dort, wo Kinder unbeaufsichtigt waren und Fremde nicht auffielen.
-        Er sprach bevorzugt Mädchen zwischen 8 und 12 Jahren an.
-        Er beobachtete sie zuerst – wer war allein, wer wirkte schutzbedürftig,
-        wer würde auf einen freundlichen Fremden reagieren.
-        Dann trat er in Contact: ruhig, langsam, niemals aufdringlich.
-        Er schenkte ihnen etwas zu essen, versprach etwas, erzählte eine Geschichte.
-        Er führte sie aus dem Sichtbereich der anderen heraus –
-        immer schrittweise, immer mit ihrer Zustimmung.
-        Er erwürgte seine Opfer und vergrub sie anschließend.
-        Er wechselte regelmäßig zwischen Kolumbien, Peru und Ecuador –
-        nicht aus Angst, sondern nach einem internen Rotationsplan,
-        der sicherstellte, dass kein Gebiet zu schnell auffiel.</p>
-        <p class="vb-intro"><strong>c) Peru: Fast enttarnt, dann freigegeben:</strong>
-        In Peru wurden López 1978 von einem indigenen Stamm der Ayacucho-Region
-        beim Versuch der Entführung gestellt. Der Stamm hätte ihn getötet –
-        eine amerikanische Missionarin überredete sie, ihn stattdessen
-        an die peruanischen Behörden zu übergeben.
-        Die Behörden ließen ihn frei – nach eigener Aussage wegen Unzurechnungsfähigkeit.
-        Er setzte sofort seine Taten fort.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (1980):</strong>
-        Im April 1980 überlebte ein zwölfjähriges Mädchen in Ecuador einen Entführungsversuch.
-        Ein Marktverkäufer griff ein. López wurde gestellt.
-        Bei seiner Verhaftung gestand er der ecuadorianischen Polizei
-        die Tötung von mehr als 110 Mädchen allein in Ecuador.
-        Er führte die Behörden zu 53 Gräbern.
-        Im Verhör erweiterte er seinen Geständnis auf Peru und Kolumbien –
-        die Gesamtzahl, die er nannte, lag bei über 350.
-        Er sprach ruhig, sachlich, fast distanziert.
-        Er beschrieb bevorzugte Tagezeiten und bevorzugte Gesichter.
-        Die Ermittler beschrieben ihn als vollkommen affektlos.</p>
-        <p class="vb-intro"><strong>e) Verurteilung, Entlassung, Verschwinden:</strong>
-        Ecuador verurteilte López 1980 zu 16 Jahren Haft – dem gesetzlichen Maximum.
-        1994 wurde er in eine psychiatrische Einrichtung verlegt.
-        1998 wurde er für zurechnungsfähig erklärt und entlassen.
-        Kolumbien nahm ihn kurz in Haft wegen der dortigen Morde – und ließ ihn
-        im Jahr 2002 ebenfalls frei. Seitdem ist sein Aufenthaltsort unbekannt.
-        Interpol hat einen weltweiten Haftbefehl ausgestellt.
-        Der Gepard ist verschwunden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 350 Victims Across Three Countries</h3>
+        <p class="vb-intro">a) The Early Years and First Imprisonment (1969–1978): López was born in 1948 as one of 13 children to a prostitute in Tolima. At eight years old, he was cast out from home, lived on the streets, and was abused as a child by a man he had trusted. At 18, he was convicted of car theft. While in prison, he was repeatedly sexually assaulted. He killed three fellow inmates who had acted violently toward him — and served only a few additional months for these acts. After his release, he began killing. He later stated in interrogations that his prison experience was the turning point: he decided he would never be a victim again.</p>
+        <p class="vb-intro">b) The Method – The Cheetah in Action: López operated in markets, at bus stations, in impoverished neighborhoods — anywhere children were unsupervised and strangers went unnoticed. He preferred to target girls between the ages of 8 and 12. He observed them first — who was alone, who appeared vulnerable, who would respond to a friendly stranger. Then he initiated contact: calm, slow, never pushy. He gave them something to eat, promised something, told a story. He led them out of the sight of others — always step by step, always with their consent. He strangled his victims and subsequently buried them. He rotated regularly between Colombia, Peru, and Ecuador — not out of fear, but according to an internal rotation plan ensuring no single area attracted attention too quickly.</p>
+        <p class="vb-intro">c) Peru: Nearly Exposed, Then Released: In Peru in 1978, López was caught attempting an abduction by an indigenous tribe in the Ayacucho region. The tribe would have executed him, but an American missionary persuaded them to hand him over to Peruvian authorities instead. The authorities released him — by his own account due to a declaration of insanity. He immediately resumed his crimes.</p>
+        <p class="vb-intro">d) The Arrest (1980): In April 1980, a twelve-year-old girl in Ecuador survived an abduction attempt when a market vendor intervened. López was apprehended. Upon his arrest, he confessed to the Ecuadorian police to the murder of more than 110 girls in Ecuador alone. He led authorities to 53 graves. Under interrogation, he expanded his confession to Peru and Colombia — naming a total count of over 350. He spoke calmly, objectively, almost detached. He described preferred times of day and preferred faces. Investigators described him as completely devoid of affect.</p>
+        <p class="vb-intro">e) Conviction, Release, Disappearance: Ecuador sentenced López in 1980 to 16 years in prison — the statutory maximum. In 1994, he was transferred to a psychiatric facility. In 1998, he was declared sane and released. Colombia briefly detained him for the murders committed there — and likewise released him in 2002. His whereabouts have been unknown ever since. Interpol has issued an active worldwide arrest warrant. The cheetah has vanished.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Neuner-Stress: Betäubung als Grundzustand</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress at Nine: Numbing as a Default State</h3>
         <p class="vb-intro">
-        Die Drei bewegt sich im Stress in Richtung <strong>Neun</strong> –
-        Betäubung, Dissoziation, das Verschwinden hinter einer leeren Routine.
-        Die Neuner-Energie der desintegrierten Drei ist kein Zusammenbruch.
-        Sie ist Gleichgültigkeit. Mechanik. Das Abarbeiten eines inneren Programms,
-        das nicht mehr hinterfragt wird.
-        López beschrieb seinen Alltag des Tötens mit einer Monotonie,
-        die Ermittler mehr erschreckte als die Zahlen selbst.
-        Er schlief gut. Er aß gut. Er hatte keine Albträume.
-        Was wie Psychopathie klingt, lässt sich im Enneagramm
-        auch als tiefste Neuner-Desintegration der Drei lesen:
-        ein Selbst, das vollständig aufgehört hat zu fühlen,
-        weil das Fühlen nie gelernt wurde –
-        und weil die soziale Drei im Extremen die Emotion der Leistung
-        vollständig geopfert hat.
+        Under stress, Type Three moves toward Nine — numbing, dissociation, and disappearing behind an empty routine. The Nine energy of the disintegrated Three is not a emotional breakdown; it is indifference. Mechanics. The processing of an internal program that is no longer questioned. López described his daily routine of killing with a monotony that terrified investigators more than the numbers themselves. He slept well. He ate well. He had no nightmares. What sounds like psychopathy can also be read in the Enneagram as the deepest Nine-disintegration of Type Three: a self that has completely ceased to feel because feeling was never learned — and because the Social Three, in its extreme form, has entirely sacrificed emotion for performance.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Pedro Alonso López zeigt, was aus der sozialen Drei wird,
-        wenn frühe Traumatisierung, totale Isolation und das vollständige Fehlen
-        einer sicheren Bindungserfahrung zusammenkommen:
-        Das Grundmuster – Erfolg durch soziale Anerkennung, Wert durch Leistung –
-        dreht sich ins Leere. Es gibt keinen Spiegel mehr, der zurückwirft.
-        Nur die innere Buchführung.
-        Der Gepard jagt nicht aus Hunger. Er jagt, weil Jagen das Einzige ist,
-        wofür er sich zählt. Die soziale Drei ohne Zugang zu echter Verbindung
-        ist ein Hochleistungssystem, das ins Nichts beschleunigt.
-        López ist das extremste Beispiel dieser Dynamik in der kriminologischen Geschichte.
+        Pedro Alonso López demonstrates what becomes of the Social Three when early trauma, total isolation, and the complete absence of a secure attachment experience converge: the core pattern — success through social recognition, worth through achievement — spins out into a void. There is no longer a mirror reflecting anything back — only the internal ledger. The cheetah does not hunt out of hunger. It hunts because hunting is the only thing for which it counts itself. The Social Three without access to genuine connection is a high-performance system accelerating into nothingness. López is the most extreme example of this dynamic in criminological history.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Classification Summary</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO3w2 – Soziale Drei with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Eitelkeit – Selbstwert durch Akkumulation, Leistung ohne Inhalt, Erfolg als Selbstzweck.<br>
-        <strong>Stresspunkt:</strong> Neun – Betäubung, Dissoziation, das affektlose Abarbeiten einer inneren Routine.<br>
-        <strong>Animal correspondence:</strong> Gepard – präzise, schnell, vertrauenserweckend bis zur letzten Sekunde.<br>
-        <strong>Opfer:</strong> Mindestens 350 – fast ausschließlich Mädchen zwischen 8 und 12 Jahren, auf drei Länder verteilt.<br>
-        <strong>Status:</strong> Seit 2002 verschwunden; weltweiter Interpol-Haftbefehl aktiv.
+        Subtype: SO3w2 – Social Three with Two-wing.<br>
+        Passion: Vanity – Self-worth through accumulation, performance without substance, success as an end in itself.<br>
+        Stress Point: Nine – Numbing, dissociation, the emotionless processing of an internal routine.<br>
+        Animal Correspondence: Cheetah – Precise, fast, inspiring trust up until the final second.<br>
+        Victims: At least 350 – Almost exclusively girls between 8 and 12 years old, spread across three countries.<br>
+        Status: Missing since 2002; active worldwide Interpol arrest warrant.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Selbstbild und der Heilungsweg über echte Authentizität.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social Three in Comparison: How vanity expresses itself differently in SP3, SO3, and SX3.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 Portrayed in Depth – Vanity, Self-Image, and the Path to Healing Through Genuine Authenticity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Pedro Alonso López wurde 1980 in Ecuador verurteilt, 1994 aus psychiatrischen Gründen entlassen und gilt seitdem als verschollen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Pedro Alonso López was convicted in Ecuador in 1980, released on psychiatric grounds in 1994, and has been considered missing ever since. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo (SX4w3)"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo (SX4w3)"},
       ])}
     </div>
   `);
@@ -25641,78 +23647,78 @@ function andrewCunananPortraitPage() {
           <img src="../assets/portraits/andrew-cunanan-portrait.jpg" alt="Andrew Cunanan – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andrew Cunanan</p>
-        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der M\xf6rder von Gianni Versace &ndash; Animal correspondence: Gepard</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-sub">The Murderer of Gianni Versace – Animal Correspondence: Cheetah</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Andrew Cunanan mit einer fast unheimlichen Pr\xe4zision. Der Gepard ist das schnellste Landtier der Welt, aber kein Ausdauertier: Er ist auf den perfekten Moment des Angriffs ausgelegt, auf Geschwindigkeit und Treffsicherheit, nicht auf langen Atem. Er lebt von seiner \xe4u\xdferen Eleganz, seiner Anpassungsf\xe4higkeit an das Terrain, seiner F\xe4higkeit, sich genau in jene Position zu bringen, von der aus er am wirkungsvollsten zuschlagen kann. Wenn die Jagd scheitert, gibt es keinen Plan B &ndash; der Gepard bricht ab und setzt sich in Sicherheit. Andrew Cunanan hatte keinen Plan B. Als seine Welt kollabierte, jagte er weiter &ndash; bis er nichts mehr hatte als die gr\xf6\xdfte Schlagzeile, die er sich vorstellen konnte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Cheetah</h3>
+        <p class="vb-intro">The <strong>cheetah</strong> is the animal of the Social Three — and it fits Andrew Cunanan with an almost eerie precision. The cheetah is the fastest land animal in the world, but not a creature of endurance: it is built for the perfect moment of attack, for speed and accuracy, not for the long haul. It thrives on its external elegance, its adaptability to the terrain, its ability to maneuver into the exact position from which it can strike most effectively. When the hunt fails, there is no Plan B — the cheetah breaks off and retreats to safety. Andrew Cunanan had no Plan B. When his world collapsed, he kept hunting — until he had nothing left except the biggest headline he could possibly imagine.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Prestige als Lebensinhalt</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> ist unter den Dreier-Subtypes derjenige, dessen Lebensmittelpunkt die Gruppe ist &ndash; nicht irgendeine Gruppe, sondern die <em>richtige</em>. Die Elite. Die Kreise, in denen man gesehen werden muss, um jemand zu sein. Claudio Naranjo nennt diesen Subtype den &bdquo;Pr\xe4sentierenden&ldquo;: jemanden, der seine Energie darauf verwendet, sich als erfolgreich, wertvoll und zugeh\xf6rig zu inszenieren &ndash; nicht aus Freude an der Welt, sondern weil die Alternative unertr\xe4glich w\xe4re.</p>
-        <p class="vb-intro">Andrew Cunanan wurde am 31. August 1969 in National City bei San Diego geboren, Sohn eines philippinisch-amerikanischen Vaters und einer italoamerikanischen Mutter. Sein Vater Modesto Cunanan gab sich als wohlhabenden Gesch\xe4ftsmann aus, war in Wirklichkeit aber ein gescheiterter Anlageberater, der 1988 vor einer Betr\xfcgerei-Klage in die Philippinen floh &ndash; und die Familie in Armut zur\xfccklie\xdf. Andrew hatte bis dahin auf einer Eliteschule in La Jolla gelernt, war in gl\xe4nzenden sozialen Kreisen verkehrt, hatte sich an das Gefallen der Wohlhabenden gew\xf6hnt. Dieser Bruch hat ihn gepr\xe4gt &ndash; aber nicht in Richtung von Demut oder Neubeginn. Er hat ihn in Richtung von Verdopplung getrieben: noch \xfcberzeugender l\xfcgen, noch sch\xf6ner erscheinen, noch tiefer in die Kreise eindringen, die ihn best\xe4tigten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Three: Prestige as a Purpose in Life</h3>
+        <p class="vb-intro">The <strong>Social Type 3 (SO3)</strong> is the subtype among the Threes whose focal point of life is the group — not just any group, but the <em>right</em> one. The elite. The circles in which one must be seen in order to be someone. Claudio Naranjo calls this subtype the "Presenter": someone who devotes their energy to staging themselves as successful, valuable, and belonging — not out of joy for the world, but because the alternative would be unbearable.</p>
+        <p class="vb-intro">Andrew Cunanan was born on August 31, 1969, in National City near San Diego, the son of a Filipino-American father and an Italian-American mother. His father, Modesto Cunanan, posed as a wealthy businessman, but was actually a failed investment advisor who fled to the Philippines in 1988 to escape a fraud lawsuit — leaving the family behind in poverty. Until then, Andrew had attended an elite school in La Jolla, moved in glittering social circles, and grown accustomed to pleasing the wealthy. This rupture shaped him — not toward humility or a fresh start, but toward doubling down: lying even more convincingly, appearing even more impressive, penetrating even deeper into the circles that validated him.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Neid, Dramatik, dunkle Unterstr\xf6mung</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht dem sozialen Drei eine Tiefe, die dessen eigentlich nach vorne gerichteter Energie widerspricht. Die Vier tr\xe4gt Neid, Einsamkeit und ein Gef\xfchl von grunds\xe4tzlicher Unzul\xe4nglichkeit mit sich &ndash; Dinge, die der Drei eigentlich perfekt kaschieren kann, die aber im Hintergrund wirken. Cunanan war kein simpler Aufschneider. Er war charmant, witzig, belesen, unterhaltsam &ndash; und gleichzeitig von einer unterschwelligen Bitterkeit durchzogen gegen\xfcber denjenigen, die hatten, was er nur mimte. Das Reichtum, das er vorgab zu besitzen. Die Relationships, die er inszenierte. Den Status, den er borgte.</p>
-        <p class="vb-intro">Dieser Neid &ndash; Kernleidenschaft der Vier &ndash; blieb lange im Verborgenen, d\xe4mpft durch Charme und Wit und die Bereitschaft, unterhaltsam zu sein. Bis er es nicht mehr d\xe4mpfte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Four-Wing: Envy, Drama, and Dark Undercurrents</h3>
+        <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Social Three a depth that contradicts its usually forward-moving energy. Type Four carries envy, loneliness, and a fundamental sense of inadequacy — things that Type Three can usually conceal perfectly, but which operate in the background. Cunanan was no simple braggart. He was charming, witty, well-read, entertaining — and at the same time infused with a subtle bitterness toward those who possessed what he merely mimicked. The wealth he claimed to have. The relationships he staged. The status he borrowed.</p>
+        <p class="vb-intro">This envy — the core passion of Type Four — remained hidden for a long time, muffled by charm, wit, and a willingness to be entertaining. Until it was muffled no longer.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Fassade, F\xf6rderung, Absturz</h3>
-        <p class="vb-intro">Nach dem Verschwinden seines Vaters entwickelte Cunanan ein Doppelleben, das er \xfcber fast ein Jahrzehnt aufrechterh\xe4lt. In der schwulen High-Society San Diegos und San Franciscos war er bekannt &ndash; als Geschichtenerzähler, als Unterhalter, als jemand, der immer im richtigen Restaurant sa\xdf und die richtigen Namen kannte. Er lebte teils als bezahlter Begleiter \xe4lterer wohlhabender M\xe4nner, teils von der Freigebigkeit von Bekannten. Seine Geschichten \xfcber sein Leben waren ausnahmslos L\xfcgen: der reiche philippinische Vater, die internationalen Connections, das Erbe. Alle wussten, dass er aufschnitt. Keiner scherte sich, weil er unterhaltsam war.</p>
-        <p class="vb-intro">1996/1997 bricht diese Welt auseinander. Sein Hauptf\xf6rderer zieht sich zur\xfcck. Jeffrey Trail, ein enger Freund und fr\xfcherer Geliebter, distanziert sich. David Madson, ebenfalls ein Ex-Partner, den Cunanan noch immer begehrt, ist dabei, sein Leben ohne ihn aufzubauen. Cunanan verliert seinen sozialen Ort &ndash; und ohne diesen Ort existiert er im eigenen Erleben nicht mehr. Im Fr\xfchjahr 1997 f\xe4hrt er nach Minneapolis zu Trail und Madson. Was genau dann geschah, ist nicht vollst\xe4ndig rekonstruierbar. Was feststeht: er kehrt nicht zur\xfcck.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biography: Facade, Sponsorship, and Collapse</h3>
+        <p class="vb-intro">Following his father's disappearance, Cunanan developed a double life that he maintained for nearly a decade. In the gay high society of San Diego and San Francisco, he was well known — as a storyteller, an entertainer, someone who always sat at the right restaurant and knew the right names. He lived partly as a paid companion to older, wealthy men, and partly on the generosity of acquaintances. His stories about his life were lies without exception: the rich Filipino father, the international connections, the inheritance. Everyone knew he was exaggerating. No one cared, because he was entertaining.</p>
+        <p class="vb-intro">In 1996/1997, this world crumbled. His primary benefactor withdrew. Jeffrey Trail, a close friend and former lover, distanced himself. David Madson, another ex-partner whom Cunanan still coveted, was building a life without him. Cunanan lost his social place — and without that place, he ceased to exist in his own experience. In the spring of 1997, he traveled to Minneapolis to see Trail and Madson. What exactly happened next cannot be fully reconstructed. What is certain: he did not return.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Die Mordserie 1997</h3>
-        <p class="vb-intro"><strong>25. April 1997, Minneapolis, Minnesota:</strong> Andrew Cunanan erschl\xe4gt Jeffrey Trail (27) in der Wohnung von David Madson mit einem Hammer. Trail war ein fr\xfcherer Freund und Geliebter, dessen Distanzierung Cunanan als pers\xf6nliche Zur\xfcckweisung empfunden hatte. David Madson ist anwesend oder kehrt zur\xfcck; er bleibt zun\xe4chst mit Cunanan, aus bislang ungekl\xe4rten Gr\xfcnden.</p>
-        <p class="vb-intro"><strong>27.&ndash;29. April 1997, Rush Lake, Minnesota:</strong> David Madson (33), Architekt, Cunanans fr\xfcherer Partner, wird erschossen in der N\xe4he des Rush Lake aufgefunden. Cunanan hat ihn in den Tagen nach Trails Tod bei sich gehalten. Die genauen Umst\xe4nde &ndash; ob Madson freiwillig blieb, ob er fliehen wollte &ndash; sind nicht gesichert.</p>
-        <p class="vb-intro"><strong>3.&ndash;4. Mai 1997, Chicago, Illinois:</strong> Lee Miglin (72), angesehener Immobilienentwickler, wird in seiner Garage ermordet aufgefunden. Er wurde gefesselt, gefoltert und mit mehreren Wunden get\xf6tet. Cunanan hatte Miglin nach aktuellem Kenntnisstand nicht pers\xf6nlich gekannt &ndash; er hatte sein Fahrzeug gestohlen und offenbar zuf\xe4llig ein Opfer ausgew\xe4hlt. Mit Miglins Cadillac fl\xfcchtet er weiter Richtung Osten.</p>
-        <p class="vb-intro"><strong>9. Mai 1997, Pennsville, New Jersey:</strong> William Reese (45), Hausmeister eines nationalen Friedhofs, wird in seinem B\xfcro erschossen. Cunanan stiehlt seinen Pickup-Truck. Mit diesem Fahrzeug reist er nach Florida.</p>
-        <p class="vb-intro"><strong>15. Juli 1997, Miami Beach, Florida:</strong> Gianni Versace (50), einer der bekanntesten Modeschöpfer der Welt, kehrt morgens gegen 8:45 Uhr von einem Kiosk-Besuch zu\xfcck zu seiner Villa an der Ocean Drive. Andrew Cunanan erschie\xdft ihn auf den Eingangsstufen mit zwei Sch\xfcssen in den Kopf. Versace stirbt kurz darauf im Krankenhaus. Cunanan fl\xfcchtet &ndash; und wird zur meistgesuchten Person der USA.</p>
-        <p class="vb-intro"><strong>23. Juli 1997:</strong> Andrew Cunanan wird in einem Hausboot in Miami Beach tot aufgefunden. Er hat sich mit einer Schusswunde am Kopf selbst get\xf6tet, bevor die Polizei ihn greifen konnte. Er war 27 Jahre alt. Die genauen Motive f\xfcr die Mordserie &ndash; insbesondere f\xfcr die Wahl Versaces als letztes Opfer &ndash; sind bis heute nicht abschlie\xdfend gekl\xe4rt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Crimes: The 1997 Murder Spree</h3>
+        <p class="vb-intro"><strong>April 25, 1997, Minneapolis, Minnesota:</strong> Andrew Cunanan bludgeons Jeffrey Trail (27) to death with a hammer in David Madson's apartment. Trail was a former friend and lover whose distancing Cunanan perceived as a personal rejection. David Madson is present or returns shortly after; he initially remains with Cunanan for reasons that remain unclear to this day.</p>
+        <p class="vb-intro"><strong>April 27–29, 1997, Rush Lake, Minnesota:</strong> David Madson (33), an architect and Cunanan's former partner, is found shot to death near Rush Lake. Cunanan had kept Madson with him in the days following Trail's death. The exact circumstances — whether Madson stayed voluntarily or was trying to escape — are unconfirmed.</p>
+        <p class="vb-intro"><strong>May 3–4, 1997, Chicago, Illinois:</strong> Lee Miglin (72), a prominent real estate developer, is found murdered in his garage. He was bound, tortured, and killed with multiple wounds. Based on current knowledge, Cunanan did not know Miglin personally — he stole his vehicle and apparently chose a victim at random. He fled further east in Miglin's Cadillac.</p>
+        <p class="vb-intro"><strong>May 9, 1997, Pennsville, New Jersey:</strong> William Reese (45), a caretaker at a national cemetery, is shot dead in his office. Cunanan steals his pickup truck and travels to Florida.</p>
+        <p class="vb-intro"><strong>July 15, 1997, Miami Beach, Florida:</strong> Gianni Versace (50), one of the world's most famous fashion designers, returns around 8:45 AM from a visit to a newsstand to his mansion on Ocean Drive. Andrew Cunanan shoots him twice in the head on the entrance steps. Versace dies shortly afterward in the hospital. Cunanan flees — becoming the most wanted person in the United States.</p>
+        <p class="vb-intro"><strong>July 23, 1997:</strong> Andrew Cunanan is found dead inside a houseboat in Miami Beach. He committed suicide with a gunshot wound to the head before police could apprehend him. He was 27 years old. The exact motives for the murder spree — particularly the choice of Versace as his final victim — remain unclarified to this day.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Versace und die Bühne</h3>
-        <p class="vb-intro">Die Wahl von Gianni Versace als letztem Opfer ist psychologisch aufschlussreich. Versace war alles, was Cunanan vorgab zu sein: reich, weltber\xfchmt, in den richtigen Kreisen gefeiert, ein Mensch, dessen Bild die Welt kannte. Ob Cunanan ihn pers\xf6nlich kannte, ist umstritten &ndash; es gibt Hinweise auf fl\xfcchtige Begegnungen in Clubs, aber keine belegte Beziehung. Was Cunanan w\xe4hlte, war kein pers\xf6nlicher Feind. Es war ein Symbol.</p>
-        <p class="vb-intro">Ein SO3w4 im Absturz sucht keine Stille. Er sucht eine Bühne &ndash; auch wenn es die letzte ist. Den t\xf6dlichsten Schuss auf den gl\xe4nzendsten Menschen, den er kannte: das war Cunanans finale Inszenierung. Er hat damit genau das erreicht, was er sein ganzes Leben angestrebt hatte &ndash; weltweit \xfcber ihn zu reden. Auf die falsche Weise, aber unausweichlich.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Versace and the Stage</h3>
+        <p class="vb-intro">The choice of Gianni Versace as the final victim is psychologically revealing. Versace was everything Cunanan pretended to be: rich, world-famous, celebrated in the right circles, a person whose face was known worldwide. Whether Cunanan knew him personally is disputed — there are hints of brief encounters in clubs, but no documented relationship. What Cunanan chose was not a personal enemy. It was a symbol.</p>
+        <p class="vb-intro">An SO3w4 in freefall does not seek silence. He seeks a stage — even if it is his last. The fatal shot fired at the most brilliant person he knew: that was Cunanan's final production. In doing so, he achieved the very thing he had strived for his entire life — getting the world to talk about him. In the wrong way, but inescapably.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Der SO3er im Kollaps:</strong> Der gesunde soziale Drei ist ein Vorbild, Br\xfcckenbauer, jemand der echten Wert f\xfcr seine Gemeinschaft schafft. Der ungesunde SO3 hat seine Identit\xe4t vollst\xe4ndig an das Bild delegiert, das andere von ihm haben &ndash; und ist damit maximal gef\xe4hrdet, wenn dieses Bild zusammenbricht. Cunanan hatte keine innere Substanz entwickelt, die den Verlust seines sozialen Ortes h\xe4tte abpuffern k\xf6nnen. Als der Ort weg war, war er weg.</p>
-        <p class="vb-intro"><strong>b) L\xfcge als Identit\xe4tskonstruktion:</strong> Der Unterschied zu einem Typ-4-Profil liegt hier: Eine Vier l\xfcgt selten \xfcber das, was sie <em>ist</em>. Sie kann \xfcber das, was sie f\xfchlt, dramatisieren &ndash; aber ihr Innenleben ist ihr echt. Cunanan hat \xfcber alles gel\xf6gen: Herkunft, Reichtum, Verbindungen. Das ist Drei-Energie: das Selbst als zu optimierende Darstellung.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel als Kippmoment:</strong> Ohne den Four-wing h\xe4tte Cunanan vielleicht einfach eine neue Fassade aufgebaut, eine neue Stadt, neue Geschichten. Der Four-wing macht den Neid zu tief, den emotionalen Einbruch zu drastisch. Er kann den Schmerz nicht einfach umleiten &ndash; er muss ihn irgendwohin, und das irgendwohin war die Mordserie.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) The SO3 in Collapse:</strong> The healthy Social Three is a role model, a bridge builder, someone who creates genuine value for their community. The unhealthy SO3 has completely outsourced their identity to the image others have of them — and is thus maximally vulnerable when that image breaks down. Cunanan had developed no inner substance to cushion the loss of his social position. When that position was gone, he was gone.</p>
+        <p class="vb-intro"><strong>b) Lying as Identity Construction:</strong> The difference compared to a Type 4 profile lies here: a Four rarely lies about what they <em>are</em>. They may dramatize how they feel — but their inner life is real to them. Cunanan lied about everything: origins, wealth, connections. That is Three energy: the self as a display to be optimized.</p>
+        <p class="vb-intro"><strong>c) The Four-Wing as a Tipping Point:</strong> Without the Four-wing, Cunanan might have simply constructed a new facade, a new city, new stories. The Four-wing makes the envy too deep, the emotional collapse too drastic. He could not simply redirect the pain — it had to go somewhere, and that somewhere was the murder spree.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Der Gepard ohne Jagdgebiet</h3>
-        <p class="vb-intro">Andrew Cunanan ist einer der r\xe4tselhaftesten F\xe4lle dieser Sammlung &ndash; nicht wegen der Taten selbst, sondern wegen der Frage, wozu sie dienen sollten. Es gibt keine einheitliche Erkl\xe4rung f\xfcr die Mordserie. Was das Enneagramm sichtbar macht, ist die <em>Struktur</em> hinter dem Chaos: Ein Mensch, dessen gesamtes Selbstgef\xfchl auf der Anerkennung anderer beruhte, verliert diese Anerkennung &ndash; und hat keine innere Ressource, auf die er zur\xfcckgreifen k\xf6nnte.</p>
-        <p class="vb-intro">Der Gepard ist pr\xe4zise, schnell, elegant &ndash; aber er ben\xf6tigt Raum zum Laufen. Cunanan hatte keinen Raum mehr. Was folgte, war kein Plan, keine Ideologie, keine Botschaft. Es war ein freier Fall &ndash; \xe4sthetisch inszeniert bis zur letzten Sekunde, aber innerlich schon lange leer.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Conclusion: The Cheetah Without a Hunting Ground</h3>
+        <p class="vb-intro">Andrew Cunanan is one of the most enigmatic cases in this collection — not because of the acts themselves, but because of the question of what purpose they were meant to serve. There is no single, unified explanation for the murder series. What the Enneagram makes visible is the <em>structure</em> behind the chaos: a person whose entire sense of self rested on the validation of others loses that validation — and possesses no internal resources to fall back on.</p>
+        <p class="vb-intro">The cheetah is precise, fast, elegant — but it needs space to run. Cunanan had no space left. What followed was not a plan, an ideology, or a message. It was a free fall — aesthetically staged to the final second, but long empty on the inside.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Classification Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Andrew Phillip Cunanan</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO3w4 &ndash; Social Type 3 mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als Selbstbild, nicht nur als Mittel)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Gepard</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 31. August 1969 &ndash; 23. Juli 1997</span>
-          <span style="display:block;"><strong>Tatfolgen:</strong> 5 Tote; Mordserie April&ndash;Juli 1997, USA</span>
+          Name: Andrew Phillip Cunanan<br>
+        Subtype: SO3w4 – Social Type 3 with Four-wing<br>
+        Passion: Deceit (as a self-image, not just as a means to an end)<br>
+        Animal Correspondence: Cheetah<br>
+        Lifespan: August 31, 1969 – July 23, 1997<br>
+        Consequences: 5 deceased; murder spree April–July 1997, USA
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SP3, SO3 und SX3 unterschiedlich ausdr\xfcckt – und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social Three in Comparison: How deceit expresses itself differently in SP3, SO3, and SX3—and why the SO3 needs prestige like oxygen.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Deceit as a Core Motif of Type Three: How self-image becomes the only reality and what lies behind it.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Andrew Cunanan tötete sich selbst, bevor er festgenommen werden konnte. Fünf Morde, darunter der an Gianni Versace, sind ihm zuzurechnen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Andrew Cunanan killed himself before he could be apprehended. Five murders, including that of Gianni Versace, are attributed to him. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -26854,63 +24860,63 @@ function leslieVanHoutenPortraitPage() {
           <img src="../assets/portraits/leslie-van-houten-portrait.jpg" alt="Leslie Van Houten – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Leslie Van Houten</p>
-        <p class="krim-portrait-typ">SO9w1 · Social Type 9 mit Einserfl\xfcgel</p>
-        <p class="krim-portrait-sub">Mitglied der Manson Family &ndash; Animal correspondence: B\xfcffel</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with One-wing</p>
+        <p class="krim-portrait-sub">Member of the Manson Family – Animal Correspondence: Buffalo</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der B\xfcffel</h3>
-        <p class="vb-intro">Der <strong>B\xfcffel</strong> ist die Animal correspondence der sozialen Neun &ndash; und er beschreibt Leslie Van Houtens innere Natur auf eine Weise, die erst im R\xfcckblick auf ihr ganzes Leben deutlich wird. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe nicht als Kulisse, sondern als Lebensraum. Er bewegt sich ruhig, zuverl\xe4ssig, fast lautlos &ndash; aber immer mit der Herde. Wenn er sich in eine Richtung bewegt, macht er es vollst\xe4ndig. Genau so bewegte sich Leslie Van Houten durch ihr Leben: als Teil einer Gemeinschaft, in deren Richtung sie sich vollst\xe4ndig \xfcberantwortet hatte &ndash; erst der Manson Family, sp\xe4ter dem Gef\xe4ngnisleben, zuletzt dem Dienst an anderen Menschen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Buffalo</h3>
+        <p class="vb-intro">The <strong>buffalo</strong> is the animal correspondence of the Social Nine — and it describes Leslie Van Houten's inner nature in a way that only becomes clear in hindsight when looking at her entire life. The buffalo is a herd animal. It needs the group not as a backdrop, but as its habitat. It moves calmly, reliably, almost silently — but always with the herd. When it moves in a direction, it does so completely. That is precisely how Leslie Van Houten moved through her life: as part of a community to whose direction she surrendered completely — first to the Manson Family, later to prison life, and ultimately to the service of others.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Neun: Teilhabe als Identit\xe4t</h3>
-        <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> wird in der Enneagramm-Tradition als der Subtype der <em>Teilhabe</em> beschrieben (Naranjo: Participation). Die SO9 sucht nicht die intensive Zweierbeziehung &ndash; sie sucht <em>Zugeh\xf6rigkeit zu einer Gemeinschaft</em>. Ihr Selbst tritt nicht in einer Einzelperson auf, sondern in der Gruppe: Was die Gruppe denkt, f\xfchlt, glaubt, wird ihr eigenes Denken, F\xfchlen, Glauben.</p>
-        <p class="vb-intro"><strong>Leslie Van Houten</strong>, geboren am 23. August 1949 in Altadena, Kalifornien, wuchs in einer beh\xfcteten Mittelstandsfamilie auf. Mit 14 erlebte sie die Scheidung ihrer Eltern als tiefen Einschnitt &ndash; die Gemeinschaft, in der sie verwurzelt war, zerbrach. Im Alter von 17 wurde sie gegen ihren Willen abgetrieben; das Trauma lie\xdf sie ohne sozialen Halt zur\xfcck. Als sie 1968 auf die Manson Family traf, fand sie nicht einen Menschen &ndash; sie fand eine <em>Gemeinschaft</em>: ein Leben auf einer Ranch, gemeinsame Mahlzeiten, gemeinsame Rituale, ein Wir-Gef\xfchl, das sie seit der Elternscheidung vermisst hatte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Nine: Participation as Identity</h3>
+        <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is described in the Enneagram tradition as the subtype of <em>Participation</em> (Naranjo: Participation). The SO9 does not seek an intense one-on-one relationship — they seek <em>belonging to a community</em>. Their self does not emerge in an individual person, but in the group: what the group thinks, feels, and believes becomes their own thinking, feeling, and believing.</p>
+        <p class="vb-intro"><strong>Leslie Van Houten</strong>, born on August 23, 1949, in Altadena, California, grew up in a sheltered middle-class family. At age 14, she experienced her parents' divorce as a profound rupture — the community in which she was rooted broke apart. At age 17, she underwent a forced abortion against her will; the trauma left her without social footing. When she encountered the Manson Family in 1968, she didn't find just a person — she found a <em>community</em>: life on a ranch, shared meals, shared rituals, a sense of "us" that she had missed since her parents' divorce.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Pflicht und die innere Ordnung</h3>
-        <p class="vb-intro">Der <strong>Einserfl\xfcgel (w1)</strong> verleiht der sozialen Neun etwas Entscheidendes: eine tiefe Sehnsucht danach, in dem System, in dem sie lebt, alles <em>richtig</em> zu machen. Nicht aus Ehrgeiz, sondern aus einem moralischen Antrieb, der leise, aber konstant wirkt.</p>
-        <p class="vb-intro">Als Leslie in die Manson Family eintauchte, empfand sie Mansons Weltsicht nicht als chaotisch, sondern als eine <em>h\xf6here, richtige Ordnung</em>. Einmal in einem System verankert, wollte sie darin korrekt handeln. Das Gef\xe4ngnis sp\xe4ter wurde dieselbe Struktur: Leslie wurde zur musterhaftesten Insassin &ndash; h\xf6flich, fleißig, regelkonform. Jahrzehntelang kein einziger schwerwiegender Regelversto\xdf. Der One-wing lie\xdf sie in jedem System, in dem sie lebte, das Richtige tun &ndash; nach den Regeln dieses Systems.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One-Wing: Duty and the Inner Order</h3>
+        <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Social Nine something crucial: a deep longing to do everything <em>right</em> within the system in which they live. Not out of ambition, but out of a moral drive that operates quietly yet constantly.</p>
+        <p class="vb-intro">When Leslie immersed herself in the Manson Family, she did not perceive Manson's worldview as chaotic, but as a <em>higher, correct order</em>. Once anchored in a system, she wanted to act correctly within it. Prison later became that exact same structure: Leslie became the most exemplary inmate — polite, hard-working, rule-abiding. Decades passed without a single major rule violation. The One-wing caused her to do the right thing in whichever system she lived — according to the rules of that system.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die LaBianca-Morde &ndash; 9./10. August 1969</h3>
-        <p class="vb-intro">In der Nacht vom 9. auf den 10. August 1969 fuhr Manson mit einer Gruppe zur Villa von Leno und Rosemary LaBianca in Los Feliz. Manson betrat das Haus, fesselte das Ehepaar und \xfcberlie\xdf dann Tex Watson, Patricia Krenwinkel und Leslie Van Houten die Tat.</p>
-        <p class="vb-intro">Leslie Van Houten stach nach eigener Aussage mehrfach auf die bereits sterbende Rosemary LaBianca ein. Warum? Weil ihr gesagt wurde, sie m\xfcsse &bdquo;ihren Teil beitragen&ldquo; &ndash; zur Gruppe, zur gemeinsamen Sache. Das ist das pr\xe4ziseste Bild der ungesunden SO9w1: Es gab keine eigene Entscheidung, keine eigene Grenze. Die Tat war <em>Pflicht innerhalb der Gemeinschaft</em>, der sie sich vollst\xe4ndig \xfcberantwortet hatte. Der Einserfl\xfcgel verwandelte diese Gef\xfchllosigkeit in Pflichtgef\xfchl.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The LaBianca Murders – August 9/10, 1969</h3>
+        <p class="vb-intro">On the night of August 9 to 10, 1969, Manson drove with a group to the home of Leno and Rosemary LaBianca in Los Feliz. Manson entered the house, tied up the couple, and then left the crime to Tex Watson, Patricia Krenwinkel, and Leslie Van Houten.</p>
+        <p class="vb-intro">By her own account, Leslie Van Houten stabbed the already dying Rosemary LaBianca multiple times. Why? Because she was told she had to "do her part" — for the group, for the shared cause. This is the most precise illustration of the unhealthy SO9w1: there was no independent decision, no personal boundary. The act was a <em>duty within the community</em> to which she had fully surrendered herself. The One-wing transformed this numbness into a sense of duty.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. 53 Jahre Haft: Gemeinschaft als Heilung</h3>
-        <p class="vb-intro">Leslie Van Houten wurde 1971 zum Tod verurteilt. Als Kalifornien die Todesstrafe 1972 aussetzte, wurde das Urteil in lebensl\xe4ngliche Haft umgewandelt. Sie sa\xdf \xfcber f\xfcnf Jahrzehnte im Gef\xe4ngnis &ndash; und was dort geschah, ist aus Enneagramm-Sicht bemerkenswert.</p>
-        <p class="vb-intro">Sie holte einen Bachelor- und einen Masterabschluss in Geisteswissenschaften nach. Sie leitete die <em>Victim Offenders Education Group</em>, eine Gruppe, in der T\xe4ter und Opfer miteinander arbeiten. Sie leitete das <em>Actor's Gang Prison Project</em>, ein Theatertherapieprogramm. Sie war Vorsitzende des <em>Inmate Advisory Council</em> &ndash; gew\xe4hlte Vertreterin der Mitinsassinnen. Sie war Tutorin f\xfcr andere Gef\xe4ngene.</p>
-        <p class="vb-intro">Das ist kein zuf\xe4lliges Muster. Das ist <em>SO9 in ihrer gesunden Form</em>: Dienst an der Gemeinschaft, stilles Beitragen, Verantwortung f\xfcr die Gruppe \xfcbernehmen &ndash; ohne Selbstdarstellung, ohne Drama. Gutachter beschrieben sie als &bdquo;kind, thoughtful and compassionate&ldquo;. Im Jahr 2023 wurde sie nach 53 Jahren auf Bew\xe4hrung entlassen. Sie war 73 Jahre alt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. 53 Years in Prison: Community as Healing</h3>
+        <p class="vb-intro">Leslie Van Houten was sentenced to death in 1971. When California suspended the death penalty in 1972, her sentence was commuted to life imprisonment. She spent over five decades in prison — and what occurred there is remarkable from an Enneagram perspective.</p>
+        <p class="vb-intro">She earned both a Bachelor's and a Master's degree in the humanities. She facilitated the <em>Victim Offenders Education Group</em>, a program in which perpetrators and victims work together. She directed the <em>Actor's Gang Prison Project</em>, a theater therapy program. She served as chair of the <em>Inmate Advisory Council</em> — an elected representative of her fellow inmates. She tutored other prisoners.</p>
+        <p class="vb-intro">This is no random pattern. This is <em>SO9 in its healthy form</em>: service to the community, quiet contribution, taking responsibility for the group — without self-promotion, without drama. Evaluators described her as "kind, thoughtful and compassionate." In 2023, she was released on parole after 53 years. She was 73 years old.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO9 &ndash; &bdquo;Teilhabe / Participation&ldquo;:</strong> Claudio Naranjo beschreibt die SO9 als den Subtype, der die eigene Identit\xe4t in der Zugeh\xf6rigkeit zu einer Gemeinschaft aufl\xf6st. Die SO9 fragt nicht &bdquo;Wer bin ich?&ldquo;, sondern &bdquo;Wohin geh\xf6re ich?&ldquo;. Als Leslie die Manson Family fand, gab es f\xfcr sie keine h\xf6here Frage mehr. Die Gruppe hatte eine Antwort &ndash; und sie \xfcbernahm diese Antwort vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>b) Der Unterschied zu den anderen Family-Mitgliedern:</strong> Patricia Krenwinkel zeigt eher SO4-Muster (Scham, Selbstbestrafung). Tex Watson war funktional t\xe4ter-orientiert. Susan Atkins hatte etwas Exhibitionistisches (eher SX3). Leslie Van Houten steht allein: stille Gefolgschaft, totale Hingabe an die Gruppe, kein Drama, keine Sonderrolle. Das ist die unsichtbare Gef\xe4hrlichkeit der SO9 &ndash; nicht Bosheit, sondern Selbstvergessenheit in einer toxischen Gemeinschaft.</p>
-        <p class="vb-intro"><strong>c) Das Gef\xe4ngnis als Spiegel der Pers\xf6nlichkeit:</strong> Was Leslie Van Houten im Gef\xe4ngnis tat, ist die direkte Fortsetzung desselben Musters &ndash; diesmal in gesunder Form. Die SO9 braucht eine Gemeinschaft, um sich zu entfalten. Im Gef\xe4ngnis fand sie diese Gemeinschaft: die Mitinsassinnen, die Gruppen, die Institutionen. Und sie diente ihr &ndash; leise, verl\xe4sslich, jahrzehntelang. Das ist kein Widerspruch zum Portr\xe4t der T\xe4terin. Es ist seine Vollendung.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SO9 – "Participation":</strong> Claudio Naranjo describes the SO9 as the subtype that dissolves their own identity into belonging to a community. The SO9 does not ask "Who am I?", but rather "Where do I belong?". When Leslie found the Manson Family, there was no higher question left for her. The group had an answer — and she adopted that answer completely.</p>
+        <p class="vb-intro"><strong>b) The Difference from Other Family Members:</strong> Patricia Krenwinkel shows more SO4 patterns (shame, self-punishment). Tex Watson was functionally perpetrator-oriented. Susan Atkins had an exhibitionistic quality (more SX3). Leslie Van Houten stands alone: quiet followership, total devotion to the group, no drama, no special role. That is the invisible danger of the SO9 — not malice, but self-forgetfulness within a toxic community.</p>
+        <p class="vb-intro"><strong>c) Prison as a Mirror of Personality:</strong> What Leslie Van Houten did in prison is a direct continuation of the same pattern — this time in a healthy form. The SO9 needs a community to thrive. In prison, she found that community: her fellow inmates, the groups, the institutions. And she served it — quietly, reliably, for decades. This is not a contradiction to the portrait of a perpetrator. It is its fulfillment.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Leslie Louise Van Houten</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO9w1 &ndash; Soziale Neun mit Einserfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Tr\xe4gheit (als Selbstvergessenheit in der Gruppe)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> B\xfcffel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> geb. 23. August 1949</span>
-          <span style="display:block;"><strong>Verurteilung:</strong> Mord, lebensl\xe4nglich; 2023 nach 53 Jahren entlassen</span>
+          Name: Leslie Louise Van Houten<br>
+        Subtype: SO9w1 – Social Nine with One-wing<br>
+        Passion: Sloth (as self-forgetfulness in the group)<br>
+        Animal Correspondence: Buffalo<br>
+        Lifespan: born August 23, 1949<br>
+        Conviction: Murder, life imprisonment; released in 2023 after 53 years
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SP9, SO9 und SX9 unterschiedlich ausdr\xfcckt – und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP9, SO9, SX9 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Tr\xe4gheit als Grundmotiv der Neun: Wie der psychische Schlaf entsteht und wie Erwachen aussieht.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social Nine in Comparison: How sloth expresses itself differently in SP9, SO9, and SX9—and what participation means as a life pattern.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP9, SO9, SX9 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Sloth as a Core Motif of Type Nine: How psychological sleep arises and what awakening looks like.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Leslie Van Houten wurde wegen Beteiligung an den LaBianca-Morden verurteilt und 2023 nach über 50 Jahren entlassen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        Note: This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Leslie Van Houten was convicted for her participation in the LaBianca murders and released in 2023 after over 50 years. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -27167,198 +25173,83 @@ function nielsHoegelPortraitPage() {
         </div>
         <p class="krim-portrait-name">Niels Högel</p>
         <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Krankenpfleger und Serienmörder · Animal correspondence: Gorilla</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">German Nurse and Serial Killer · Animal Correspondence: Gorilla</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Niels H\xf6gel</strong> ist ein ehemaliger deutscher Krankenpfleger, der zwischen 2000 und 2005
-        f\xfcr den Tod von mindestens 85 Menschen verantwortlich war. Er t\xf6tete seine Opfer,
-        indem er ihnen t\xf6dliche Medikamente verabreichte – um sich anschlie\xdfend durch
-        Wiederbelebungsversuche als Retter zu inszenieren. Diese Morde wurden als
-        „Engelmorde" bekannt. Er wurde 2019 zu lebenslanger Haft verurteilt und gilt als
-        einer der schlimmsten Serienmörder in der Geschichte Deutschlands.
+        <strong>Niels Högel</strong> is a former German nurse who was responsible for the deaths of at least 85 people between 2000 and 2005. He killed his victims by administering lethal doses of medication to them — subsequently staging himself as a savior through resuscitation attempts. These killings became known as "angel murders." He was sentenced to life imprisonment in 2019 and is considered one of the worst serial killers in German history.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Niels H\xf6gel</strong> wird der <strong>Self-Preservationen Sieben mit Achterfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Sieben ist <em>Maßlosigkeit</em>
-        (Gluttony) – nicht prim\xe4r im materiellen Sinne, sondern als unstillbares Verlangen
-        nach Stimulation, Erleben und Positivit\xe4t, um innere Leere und Schmerz zu
-        vermeiden. Die selbsterhaltende Sieben (SP7) sucht diesen Schutz besonders
-        durch Sicherheit, warme Verbindungen und das Gef\xfchl, im eigenen Lebensumfeld
-        unverzichtbar zu sein. Der Achterfl\xfcgel erg\xe4nzt dies mit einem verborgenen
-        Machttrieb. Niels H\xf6gel wird in der Enneagramm-Literatur daher auch als
-        „versteckter Achter" bezeichnet: freundliche Siebener-Oberfl\xe4che,
-        Acht-Wille zur Kontrolle darunter.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong> <strong>Niels Högel</strong> is assigned to the <strong>Self-Preservation Type 7 with Eight-wing</strong> in the Enneagram. The passion of Type Seven is <em>Gluttony</em> — not primarily in a material sense, but as an insatiable craving for stimulation, experience, and positivity to avoid inner emptiness and pain. The Self-Preservation Seven (SP7) seeks this protection particularly through security, warm connections, and the feeling of being indispensable within their immediate environment. The Eight-wing complements this with a hidden drive for power. In Enneagram literature, Niels Högel is therefore also referred to as a "hidden Eight": a friendly Seven surface with an Eight's will to control underneath.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig, gefasst, bed\xe4chtig:</strong>
-        H\xf6gels Blick wurde oft als ruhig und unscheinbar beschrieben. Es war diese
-        Unauff\xe4lligkeit, die es ihm erm\xf6glichte, jahrelang seine Verbrechen
-        unentdeckt zu begehen.</p>
-        <p class="vb-intro"><strong>b) Berechnend und manipulativ:</strong>
-        Sein Blick konnte in den entscheidenden Momenten berechnend und manipulativ
-        sein, insbesondere wenn es darum ging, Kollegen und Vorgesetzte zu t\xe4uschen.</p>
-        <p class="vb-intro"><strong>c) Gef\xfchlsarm:</strong>
-        Augenzeugen und Ermittler berichteten, dass sein Blick oft emotionslos wirkte,
-        besonders in Momenten, in denen er \xfcber seine Verbrechen sprach. Empathie
-        oder Reue f\xfcr seine Taten fehlten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Calm, Composed, Deliberate:</strong> Högel's gaze was often described as calm and unremarkable. It was precisely this inconspicuousness that enabled him to commit his crimes undetected for years.</p>
+        <p class="vb-intro"><strong>b) Calculating and Manipulative:</strong> His gaze could be calculating and manipulative at crucial moments, especially when it came to deceiving colleagues and superiors.</p>
+        <p class="vb-intro"><strong>c) Emotionally Impoverished:</strong> Eyewitnesses and investigators reported that his gaze often appeared devoid of emotion, particularly in moments when he spoke about his crimes. Empathy or remorse for his actions was completely absent.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unauff\xe4llige Erscheinung:</strong>
-        <strong>H\xf6gel</strong> war \xe4u\xdferlich der unscheinbare, wohlwollende und hilfsbereite
-        Krankenpfleger. Seine ruhige, bed\xe4chtige und freundliche Art erm\xf6glichte es
-        ihm, das Vertrauen sowohl seiner Kollegen als auch seiner Patienten zu gewinnen.</p>
-        <p class="vb-intro"><strong>b) Pathologisches Bed\xfcrfnis nach Kontrolle:</strong>
-        Trotz seiner stillen Fassade hatte H\xf6gel ein tiefes, pathologisches Bed\xfcrfnis
-        nach Kontrolle \xfcber Leben und Tod. Er spielte mit dem Schicksal seiner Patienten
-        und genoss die Macht, die er \xfcber sie hatte. Die SP7 und speziell die SP7 mit
-        Achterfl\xfcgel werden auch als „versteckter Achter" bezeichnet.</p>
-        <p class="vb-intro"><strong>c) Scheinbare Bescheidenheit:</strong>
-        <strong>H\xf6gel</strong> machte nach au\xdfen hin nie den Eindruck eines Narzissten oder egomanen
-        Charakters, doch seine inneren Motive waren extrem selbstbezogen und von einem
-        ausgepr\xe4gten narzisstischen Bed\xfcrfnis nach Anerkennung gepr\xe4gt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Unremarkable Appearance:</strong> On the outside, <strong>Högel</strong> was the inconspicuous, benevolent, and helpful nurse. His calm, deliberate, and friendly demeanor allowed him to gain the trust of both his colleagues and his patients.</p>
+        <p class="vb-intro"><strong>b) Pathological Need for Control:</strong> Despite his quiet facade, Högel harbored a deep, pathological need for control over life and death. He played with the fate of his patients and relished the power he held over them. The SP7, and specifically the SP7 with an Eight-wing, is often described as a "hidden Eight."</p>
+        <p class="vb-intro"><strong>c) Seeming Modesty:</strong> Outwardly, <strong>Högel</strong> never gave the impression of a narcissist or an egomaniacal character, yet his inner motives were extremely self-centered and shaped by a pronounced narcissistic need for recognition.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Sucht nach Nervenkitzel:</strong>
-        H\xf6gels Taten lassen sich mit einer typischen Eigenschaft der
-        selbsterhaltenden Sieben erkl\xe4ren: der Search nach Stimulation und dem
-        Bed\xfcrfnis, Langeweile zu vermeiden. Er brachte absichtlich Patienten in
-        kritische Situationen, um den Adrenalinkick zu erleben, sie zu retten.</p>
-        <p class="vb-intro"><strong>b) Gef\xfchl der Unbesiegbarkeit:</strong>
-        <strong>H\xf6gel</strong> f\xfchlte sich lange Zeit unantastbar. Er genoss die Gefahr und das Spiel
-        mit dem Tod, glaubte jedoch auf seine kindliche, naive Art, dass er niemals
-        erwischt werden w\xfcrde. Diese \xdcberheblichkeit spiegelt die negative Seite der
-        Selbsterhaltungsstrategie einer tief unbewussten Sieben wider.</p>
-        <p class="vb-intro"><strong>c) Verdr\xe4ngung von Schuld:</strong>
-        Wie bei Siebenern in sehr unbewusstem Zustand \xfcblich, konnte H\xf6gel
-        Schuldgef\xfchle f\xfcr seine Verbrechen scheinbar leicht verdr\xe4ngen. Er rationalisierte
-        seine Taten und baute eine innere Distanz zu seinen Opfern auf. Als Kopfmenschen
-        k\xf6nnen Siebener sehr gut eine Welt der Phantasie aufbauen, in der sie sich
-        unschuldig und heil f\xfchlen. Gleichzeitig sind Siebener intelligent genug,
-        ihre Untaten rein verstandesm\xe4\xdfig \xfcber ein ganzes Leben rational zu begr\xfcnden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Core Traits</h3>
+        <p class="vb-intro"><strong>a) Addiction to Thrills:</strong> Högel's actions can be explained by a typical trait of the Self-Preservation Seven: the search for stimulation and the drive to avoid boredom. He intentionally placed patients in critical situations to experience the adrenaline rush of saving them.</p>
+        <p class="vb-intro"><strong>b) Sense of Invincibility:</strong> For a long time, <strong>Högel</strong> felt untouchable. He relished the danger and the game with death, believing in his naive, childlike way that he would never be caught. This arrogance reflects the negative side of the self-preservation strategy of a deeply unhealthy, unconscious Seven.</p>
+        <p class="vb-intro"><strong>c) Suppression of Guilt:</strong> As is common with Sevens in a deeply unconscious state, Högel was seemingly able to suppress guilt for his crimes with ease. He rationalized his actions and built an inner distance from his victims. As head types, Sevens are adept at constructing a fantasy world in which they feel innocent and whole. At the same time, Sevens are intelligent enough to purely intellectually rationalize their misdeeds over an entire lifetime.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ruhig, aber unberechenbar:</strong>
-        <strong>H\xf6gel</strong> trat ruhig und professionell auf, aber hinter dieser Fassade versteckte
-        sich ein t\xf6dlicher Instinkt. Seine Au\xdfenwirkung war die eines zuverl\xe4ssigen
-        Krankenpflegers, w\xe4hrend seine innere Motivation von einem destruktiven Drang
-        nach besonderer Aufmerksamkeit und Anerkennung getrieben wurde.</p>
-        <p class="vb-intro"><strong>b) Doppelgesichtige Wirkung:</strong>
-        <strong>Niels H\xf6gel</strong> pr\xe4sentierte sich stets als freundlicher Helfer, obwohl er in
-        Wahrheit das Gegenteil tat. Diese Doppeldeutigkeit machte ihn besonders
-        gef\xe4hrlich, da niemand seine wahren Motive erkennen konnte, bevor es zu sp\xe4t war.</p>
-        <p class="vb-intro"><strong>c) Kalt und pragmatisch:</strong>
-        Seine Verbrechen waren nicht von impulsiver Gewalt gepr\xe4gt, sondern von k\xfchler,
-        planender Berechnung und emotionsloser Methodik. Dies verst\xe4rkte die
-        Unberechenbarkeit seiner Taten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Calm, Yet Unpredictable:</strong> <strong>Högel</strong> came across as calm and professional, but behind this facade lay a deadly instinct. His outward impression was that of a reliable nurse, while his inner motivation was driven by a destructive urge for special attention and recognition.</p>
+        <p class="vb-intro"><strong>b) Dual-Faced Effect:</strong> <strong>Niels Högel</strong> constantly presented himself as a friendly helper, even though he was in truth doing the exact opposite. This ambiguity made him especially dangerous, as no one could recognize his true motives before it was too late.</p>
+        <p class="vb-intro"><strong>c) Cold and Pragmatic:</strong> His crimes were not characterized by impulsive violence, but by cool, calculated planning and emotionless methodology. This amplified the unpredictability of his actions.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Innere Rastlosigkeit:</strong>
-        <strong>H\xf6gel</strong> versp\xfcrte eine st\xe4ndige innere Unruhe, die ihn dazu trieb, immer wieder
-        neue Verbrechen zu begehen. Diese Rastlosigkeit ist typisch f\xfcr die
-        selbsterhaltende Sieben, die st\xe4ndig nach neuen Reizen und Erfahrungen sucht.</p>
-        <p class="vb-intro"><strong>b) K\xfcnstliche \xdcberlegenheit:</strong>
-        Seine Energie war von einer scheinbaren \xdcberlegenheit gepr\xe4gt – er f\xfchlte sich
-        \xfcber normale Menschen erhaben, da er die Macht \xfcber Leben und Tod besa\xdf.
-        Dies gab ihm ein Gef\xfchl der Erhabenheit, das auf t\xf6dlichen Motiven beruhte.</p>
-        <p class="vb-intro"><strong>c) Flucht vor Langeweile:</strong>
-        Seine Energie war darauf ausgerichtet, jegliche Langeweile zu vermeiden.
-        Die Monotonie des Krankenhausalltags schien ihn so sehr zu bedr\xfccken, dass
-        er sie mit extremen und t\xf6dlichen Handlungen durchbrach.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Inner Restlessness:</strong> <strong>Högel</strong> felt a constant inner agitation that drove him to commit new crimes again and again. This restlessness is typical for the Self-Preservation Seven, who is constantly searching for new stimuli and experiences.</p>
+        <p class="vb-intro"><strong>b) Artificial Superiority:</strong> His energy was marked by an apparent superiority — he felt exalted above ordinary people because he possessed the power over life and death. This gave him a sense of grandeur rooted in lethal motives.</p>
+        <p class="vb-intro"><strong>c) Flight from Boredom:</strong> His energy was directed toward avoiding any form of boredom. The monotony of daily hospital routine seemed to weigh on him so heavily that he shattered it through extreme and deadly acts.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Gorilla</h3>
-        <p class="vb-intro"><strong>a) Kontrollierte St\xe4rke:</strong>
-        Wie der Gorilla wirkte H\xf6gel in seiner Rolle als Krankenpfleger ruhig und
-        kontrolliert, w\xe4hrend er gleichzeitig die Macht \xfcber Leben und Tod seiner
-        Patienten in den H\xe4nden hielt.</p>
-        <p class="vb-intro"><strong>b) Territorialverhalten:</strong>
-        Gorillas sch\xfctzen ihr Territorium aggressiv. In \xe4hnlicher Weise beherrschte
-        H\xf6gel das Krankenhausumfeld und sah seine Patienten als Teil seines Reviers,
-        in dem er die ultimative Kontrolle aus\xfcbte.</p>
-        <p class="vb-intro"><strong>c) Bedrohliche Ruhe:</strong>
-        Gorillas sind oft ruhig, k\xf6nnen aber blitzschnell reagieren. Diese Parallele
-        spiegelt sich in H\xf6gels Verhalten wider: Er f\xfchrte seine t\xf6dlichen Handlungen
-        unauff\xe4llig und kalt durch, w\xe4hrend er nach au\xdfen hin ruhig und besonnen blieb.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Gorilla</h3>
+        <p class="vb-intro"><strong>a) Controlled Strength:</strong> Like the gorilla, Högel appeared calm and controlled in his role as a nurse, while simultaneously holding the power over the life and death of his patients in his hands.</p>
+        <p class="vb-intro"><strong>b) Territorial Behavior:</strong> Gorillas aggressively protect their territory. In a similar vein, Högel dominated the hospital environment and viewed his patients as part of his domain in which he exercised ultimate control.</p>
+        <p class="vb-intro"><strong>c) Threatening Calm:</strong> Gorillas are often calm, but can react in a flash. This parallel is reflected in Högel's behavior: he carried out his lethal actions discreetly and coldly while remaining calm and level-headed on the outside.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Niels H\xf6gel</strong> zeigt die negativen Auspr\xe4gungen der selbsterhaltenden Sieben.
-        Sein Streben nach Aufregung, seine spielerisch-manipulative Art, mit dem Leben
-        seiner Patienten empathielos zu spielen, und sein Bed\xfcrfnis nach Kontrolle
-        spiegeln die verzerrten Eigenschaften des Typ 7 in sehr unbewusstem Zustand
-        wider. Er nutzte seine Position als Krankenpfleger, um Macht auszu\xfcben und
-        seinem Leben Spannung zu verleihen, ohne dabei Empathie oder Mitgef\xfchl f\xfcr
-        seine Opfer zu empfinden.
+        <strong>Niels Högel</strong> demonstrates the negative manifestations of the Self-Preservation Seven. His pursuit of excitement, his playfully manipulative way of callously gambling with his patients' lives, and his need for control reflect the distorted traits of Type 7 in a deeply unconscious state. He used his position as a nurse to exert power and inject excitement into his life, completely devoid of empathy or compassion for his victims.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP7 – „Familie / Corviviality":</strong>
-        Claudio Naranjo nannte die selbsterhaltende Sieben „Familie": Sie sucht Sicherheit
-        durch warme Zugeh\xf6rigkeit, durch das Gef\xfchl, in ihrem n\xe4heren Lebensumfeld
-        unverzichtbar und geliebt zu sein. Das Krankenhaus war H\xf6gels Familie –
-        er der geliebte, kompetente Retter. Seine Morde waren der perverse Versuch,
-        in dieser Familie dauerhaft unersetzlich zu bleiben: kein Pfleger rettet
-        so eindrucksvoll wie einer, der die Krise selbst herbeiführt.</p>
-        <p class="vb-intro"><strong>b) Reframing – die gef\xe4hrlichste Gabe der Sieben:</strong>
-        Siebener sind Meister im Umdeuten von Realit\xe4t. H\xf6gel rahmte seine Morde
-        kognitiv als Rettungsaktionen um: Er t\xf6tete keine Patienten, er schuf
-        Gelegenheiten f\xfcr Heldenmomente. Dies ist der Siebener-Mechanismus in seiner
-        perversesten Form – die F\xe4higkeit, jede eigene Handlung so zu deuten, dass
-        sie innerlich ertr\xe4glich bleibt. Ohne dieses Reframing w\xe4re die Serie nicht
-        \xfcber f\xfcnf Jahre m\xf6glich gewesen.</p>
-        <p class="vb-intro"><strong>c) Der Achterfl\xfcgel – Macht unter der freundlichen Oberfl\xe4che:</strong>
-        Der Achterfl\xfcgel verleiht der Sieben einen Machttrieb, der nach au\xdfen nicht
-        sichtbar ist. H\xf6gel wirkte sanft, f\xfcrsorglich und hilfreich – darunter lag
-        das Acht-Bed\xfcrfnis nach totaler Kontrolle. Dieser „versteckte Achter" ist
-        das Gef\xe4hrlichste an der SP7w8: Die Achterkraft ist vorhanden, aber verkleidet.
-        Niemand warnt sich vor einem freundlichen Krankenpfleger.</p>
-        <p class="vb-intro"><strong>d) Die Sieben flieht vor Schmerz und Bedeutungslosigkeit:</strong>
-        Der fundamentale Sieben-Mechanismus ist die Vermeidung von Schmerz,
-        Entbehrung und Bedeutungslosigkeit. F\xfcr H\xf6gel war das Unertr\xe4gliche,
-        nur einer von vielen anonymen Pflegern zu sein. Der Moment, in dem ein
-        Kollege rief „H\xf6gel hat ihn gerettet!" – das war sein Drogenmoment.
-        Nicht Sadismus trieb ihn an, sondern die Angst vor dem Verschwinden im
-        Gew\xf6hnlichen.</p>
-        <p class="vb-intro"><strong>e) Suchtdynamik und Eskalation:</strong>
-        Siebener tendieren zu Suchtstrukturen – der n\xe4chste Kick muss gr\xf6\xdfer sein als
-        der letzte. H\xf6gels Eskalation \xfcber f\xfcnf Jahre ist eine klassische
-        Suchtdynamik: Der Adrenalinkick beim Retten wurde zur Droge,
-        die immer h\xe4ufiger gebraucht wurde. 85 Tote sind das Endstadium
-        einer Sucht, nicht das Ergebnis eines Plans.</p>
-        <p class="vb-intro"><strong>f) Das kindliche Unschuldsbild als letzte Abwehr:</strong>
-        Siebener halten tief in sich ein Selbstbild der Unschuld und inneren
-        G\xfcte aufrecht – ein psychisches Kleinkind, das „nichts B\xf6ses tut".
-        H\xf6gel schien auf einer Ebene tats\xe4chlich zu glauben, etwas Gutes zu tun.
-        Dieses kindliche Unschuldsbild ist die letzte Abwehrlinie der Sieben
-        gegen die eigene Schuld – und gleichzeitig die gef\xe4hrlichste Selbstt\xe4uschung,
-        die ein Typ 7 aufbauen kann.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP7 – "Family / Conviviality":</strong> Claudio Naranjo called the Self-Preservation Seven "Family": seeking security through warm belonging, through the feeling of being indispensable and loved in their immediate environment. The hospital was Högel's family — and he was the beloved, competent savior. His murders were a perverse attempt to remain permanently irreplaceable in this family: no nurse saves a life as impressively as the one who brought about the crisis in the first place.</p>
+        <p class="vb-intro"><strong>b) Reframing – The Seven's Most Dangerous Gift:</strong> Sevens are masters at reframing reality. Högel cognitively reframed his murders as rescue operations: he wasn't killing patients; he was creating opportunities for heroic moments. This is the Seven mechanism in its most perverse form — the ability to interpret any personal action in a way that keeps it internally tolerable. Without this reframing, the series of crimes could not have continued for over five years.</p>
+        <p class="vb-intro"><strong>c) The Eight-Wing – Power Beneath the Friendly Surface:</strong> The Eight-wing gives the Seven a drive for power that is invisible to the outside world. Högel appeared gentle, caring, and helpful — underneath lay the Eight's need for total control. This "hidden Eight" is the most dangerous aspect of the SP7w8: the Eight's force is present, but disguised. No one warns themselves against a friendly nurse.</p>
+        <p class="vb-intro"><strong>d) The Seven Flees from Pain and Insignificance:</strong> The fundamental Seven mechanism is the avoidance of pain, deprivation, and insignificance. For Högel, the unbearable thought was being just another anonymous nurse among many. The moment a colleague shouted "Högel saved him!" — that was his drug moment. It was not sadism that drove him, but the fear of vanishing into the ordinary.</p>
+        <p class="vb-intro"><strong>e) Addiction Dynamics and Escalation:</strong> Sevens are prone to addictive structures — the next hit has to be bigger than the last. Högel's escalation over five years follows a classic addiction dynamic: the adrenaline rush of saving a life became a drug that was needed with increasing frequency. 85 dead are the final stage of an addiction, not the result of a master plan.</p>
+        <p class="vb-intro"><strong>f) The Childlike Image of Innocence as the Ultimate Defense:</strong> Deep inside, Sevens maintain a self-image of innocence and inner goodness — a psychological toddler who "does no harm." On some level, Högel seemed to genuinely believe he was doing something good. This childlike image of innocence is the Seven's last line of defense against their own guilt — and simultaneously the most dangerous self-deception a Type 7 can construct.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypes unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert – Ma\xdflosigkeit, Reframing und der Heilungsweg \xfcber echte N\xfcchternheit.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Self-Preservation Seven in Comparison: How gluttony expresses itself differently across the three Seven subtypes.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 7 Portrayed in Detail – Gluttony, Reframing, and the Path to Healing Through Genuine Sobriety.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Niels Högel wurde 2019 wegen 85-fachen Mordes zu lebenslanger Haft verurteilt – einer der größten Serienmordprozesse der deutschen Nachkriegsgeschichte. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Niels Högel was sentenced to life imprisonment in 2019 for 85 counts of murder — one of the largest serial murder trials in German postwar history. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -27827,176 +25718,78 @@ function haroldShipmanPortraitPage() {
         </div>
         <p class="krim-portrait-name">Harold Shipman</p>
         <p class="krim-portrait-typ">SO5w6 · Social Type 5 with Six-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Doctor Death" – Hyde, England 1975–1998</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Doctor Death" – Hyde, England 1975–1998</p>
       </div>
       <p class="psycho-intro">
-        <strong>Harold Frederick Shipman</strong>, geboren 1946 in Nottingham, war über zwei Jahrzehnte
-        Hausarzt in der englischen Kleinstadt Hyde – geschätzt, vertrauenswürdig, von Patienten geliebt.
-        Hinter dieser Fassade tötete er mindestens <strong>218 Patienten</strong>, fast ausschließlich
-        ältere Frauen, durch Diamorphin-Überdosen. Die Dunkelziffer wird auf bis zu 250 geschätzt.
-        Shipman ist der tödlichste verurteilte Serienmörder der britischen Geschichte.
-        Er wurde 2000 wegen 15 Morden verurteilt und erhängte sich 2004 in seiner Gefängniszelle.
-        Was ihn so lange unentdeckt ließ: Er war Arzt. Er hatte das Wissen, die Substanzen,
-        die institutionelle Autorität – und er nutzte sie mit einer Kälte, die selbst
-        erfahrene Ermittler sprachlos machte. Das Enneagramm macht sichtbar, was dahinter arbeitete.
+        <strong>Harold Frederick Shipman</strong>, born in 1946 in Nottingham, was a general practitioner in the small English town of Hyde for over two decades — respected, trustworthy, beloved by patients. Behind this facade, he killed at least <strong>218 patients</strong>, almost exclusively elderly women, through diamorphine overdoses. Unreported cases are estimated to be as high as 250. Shipman is the deadliest convicted serial killer in British history. He was convicted in 2000 for 15 murders and hanged himself in his prison cell in 2004. What allowed him to go undetected for so long: he was a doctor. He had the knowledge, the substances, the institutional authority — and he used them with a coldness that left even experienced investigators speechless. The Enneagram makes visible what was operating beneath the surface.
       </p>
 
       <div class="vb-section" style="background:rgba(0,60,100,0.06);border-left:3px solid #003c64;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Harold Shipman</strong> wird dem <strong>Sozialen Typ 5 with Six-wing</strong> zugeordnet.
-        Die soziale Fünf sucht Zugehörigkeit über Wissen – sie sammelt Kompetenz als Eintrittskarte
-        in Systeme, in denen sie gebraucht wird, ohne sich wirklich anzunähern.
-        Der Six-wing verleiht ihr Pflichtbewusstsein, ein Gespür für Strukturen und Regeln –
-        und eine tiefe, oft verdeckte Angst vor dem Kontrollverlust.
-        Der Stresspunkt liegt bei der <strong>Sieben</strong>: impulsives Ausweichen,
-        verdecktes Genusserleben, das nach außen hin nie sichtbar wird.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong> <strong>Harold Shipman</strong> is assigned to the <strong>Social Type 5 with Six-wing</strong>. The Social Five seeks belonging through knowledge — they accumulate competence as an entry ticket into systems where they are needed, without ever truly drawing close. The Six-wing provides them with a sense of duty, an eye for structures and rules — and a deep, often covert fear of losing control. The stress point lies at <strong>Seven</strong>: impulsive evasion, covert gratification that never becomes visible to the outside world.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Oktopus</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Octopus</h3>
         <p class="vb-intro">
-        Der <strong>Oktopus</strong> ist die Animal correspondence der sozialen Fünf.
-        Er ist das intelligenteste Weichtier der Welt – hochanpassungsfähig, fähig zur Tarnung,
-        in der Lage, Probleme zu lösen, die weit über das Erwartbare hinausgehen.
-        Er operiert allein. Er zieht sich in Höhlen zurück. Er kommuniziert über Farbwechsel,
-        die nur der versteht, der genau hinschaut.
-        Shipman war ein Oktopus in einem weißen Kittel.
-        Er beherrschte das System Medizin vollständig: die Sprache, die Rituale, die Hierarchien.
-        Er wusste, wie Vertrauen funktioniert – und er wusste, wie man es ausnutzt,
-        ohne dass jemand die Tentakel sieht.
-        Der Oktopus tritt nicht in den Vordergrund. Er wartet. Er beobachtet. Er handelt.
-        Und er ist verschwunden, bevor jemand begreift, was gerade passiert ist.
+        The <strong>octopus</strong> is the animal correspondence of the Social Five. It is the most intelligent mollusk in the world — highly adaptable, capable of camouflage, able to solve problems far beyond expectation. It operates alone. It retreats into dens. It communicates through color shifts that can only be understood by those looking closely. Shipman was an octopus in a white coat. He mastered the medical system completely: the language, the rituals, the hierarchies. He understood how trust works — and he knew how to exploit it without anyone seeing the tentacles. The octopus does not step into the spotlight. It waits. It observes. It acts. And it vanishes before anyone realizes what just happened.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Fünf: Wissen als Herrschaft</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen Fünf:</strong>
-        Die soziale Fünf ist der Normaltyp unter den Fünfern – sie sucht Anschluss,
-        aber auf ihre eigene Weise: über Wissen, Kompetenz und institutionelle Einbindung.
-        Sie will dazugehören, aber nicht verschmelzen. Sie will gebraucht werden, aber nicht abhängig sein.
-        Sie hält Distanz durch Expertise.
-        Für Shipman war die Medizin das perfekte System: ein Feld, in dem Wissen buchstäblich
-        Leben und Tod bedeutet. Wer das Wissen besitzt, besitzt die Macht.
-        Wer die Macht besitzt, braucht keine emotionale Nähe.</p>
-        <p class="vb-intro"><strong>b) Der Six-wing: Ordnung, Struktur, Pflichtbewusstsein:</strong>
-        Der Six-wing der sozialen Fünf verstärkt das Bedürfnis nach Struktur und Zuverlässigkeit.
-        Shipman war bekannt für seine Pünktlichkeit, seine gründliche Dokumentation,
-        sein aufgeräumtes Praxismanagement. Er machte Hausbesuche, die andere Ärzte längst
-        aufgegeben hatten. Er rief Patienten zurück. Er erinnerte sich an Details.
-        Diese Eigenschaften machten ihn unantastbar – sie waren die Tarnung des Oktopus.
-        Hinter dem Pflichtbewusstsein lag keine Fürsorge, sondern Kontrolle.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Geiz als Wissensmonopol:</strong>
-        Die Leidenschaft der Fünf ist der <strong>Geiz</strong> – nicht primär auf Geld gerichtet,
-        sondern auf Energie, Raum, Information.
-        Die soziale Fünf geizes mit dem, was andere nicht wissen dürfen.
-        Shipman wusste als einziger, was er tat. Und er sorgte dafür, dass es so blieb.
-        Er fälschte Krankenakten, stellte gefälschte Todesurkunden aus, ließ Leichen einäschern,
-        bevor eine Untersuchung stattfinden konnte. Der Geiz des Oktopus ist informationeller Geiz:
-        alles festhalten, nichts herausgeben, das Wissen als einzige Währung hüten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Five: Knowledge as Dominion</h3>
+        <p class="vb-intro"><strong>a) The Core Principle of the Social Five:</strong> The Social Five is the archetype among Fives — they seek connection, but on their own terms: through knowledge, competence, and institutional integration. They want to belong, but not merge. They want to be needed, but not dependent. They maintain distance through expertise. For Shipman, medicine was the perfect system: a field where knowledge literally means life and death. Whoever holds the knowledge holds the power. Whoever holds the power has no need for emotional intimacy.</p>
+        <p class="vb-intro"><strong>b) The Six-Wing: Order, Structure, Sense of Duty:</strong> The Six-wing of the Social Five reinforces the need for structure and reliability. Shipman was known for his punctuality, his meticulous documentation, his well-organized practice management. He made house calls that other doctors had long given up on. He called patients back. He remembered details. These qualities rendered him untouchable — they were the octopus's camouflage. Behind the sense of duty lay not care, but control.</p>
+        <p class="vb-intro"><strong>c) The Passion: Avarice as a Monopoly on Knowledge:</strong> The passion of Type Five is <strong>Avarice</strong> — directed not primarily at money, but at energy, space, and information. The Social Five is miserly with what others must not know. As a doctor, Shipman was the only one who knew what he was doing. And he made sure it stayed that way. He falsified medical records, issued forged death certificates, and had bodies cremated before an investigation could take place. The octopus's avarice is informational avarice: hold onto everything, surrender nothing, guard knowledge as the sole currency.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 218 Morde in zwei Jahrzehnten</h3>
-        <p class="vb-intro"><strong>a) Der Beginn (1975):</strong>
-        Shipmans erste nachweisliche Tötung geht auf das Jahr 1975 zurück –
-        kurz nach seiner Niederlassung als Arzt in Todmorden, Yorkshire.
-        Zu diesem Zeitpunkt war er bereits wegen Meperidin-Missbrauchs aufgefallen:
-        Er hatte sich als Arzt Schmerzmittel auf eigenen Namen verschrieben und war
-        kurzzeitig in eine Entzugsklinik eingewiesen worden.
-        Dieses Wissen über die Pharmakologie starker Opioide trug er als Werkzeug
-        durch seine gesamte Laufbahn. Er wechselte zu Diamorphin – medizinisches Heroin,
-        das bei korrekter Dosierung lebensrettend, bei Überdosis tödlich und
-        im Körper nach dem Tod schwer nachweisbar ist.</p>
-        <p class="vb-intro"><strong>b) Hyde, 1977–1998 – der Alltag des Tötens:</strong>
-        In seiner Praxis in Hyde, Greater Manchester, entwickelte Shipman ein stabiles Muster.
-        Er besuchte Patientinnen – fast ausschließlich ältere Frauen, meist allein lebend –
-        zu Hause. Er injizierte eine tödliche Dosis Diamorphin. Er wartete, bis die Patientin
-        tot war. Dann rief er die Angehörigen an und teilte ihr Ableben mit,
-        oft mit dem Kommentar, er habe sich verabschiedet, kurz bevor es geschah.
-        Er tröstete. Er wirkte bestürzt. Er stellte die Todesurkunde aus.
-        Die meisten Familien dankten ihm für seine Fürsorge.
-        Über 23 Jahre beging er im Schnitt mehr als neun Morde pro Jahr –
-        in einem normalen Arztleben, mit normalen Patienten, in einer normalen englischen Kleinstadt.</p>
-        <p class="vb-intro"><strong>c) Der Error: Das Testament (1998):</strong>
-        Shipmans Ende kam nicht durch polizeiliche Ermittlungen, sondern durch einen Error,
-        der nicht aus dem Tötungsschema, sondern aus einem anderen Antrieb heraus entstand.
-        Seine letzte Patientin, Kathleen Grundy (81), eine wohlhabende frühere Bürgermeisterin,
-        wurde tot aufgefunden. Ihr Testament – in Shipmans Praxis gefunden und von seiner Schreibmaschine
-        stammend – enthielt eine seltsame Klausel: Die gesamte Erbschaft ging an Dr. Shipman.
-        Ihre Tochter, Angela Woodruff, selbst Anwältin, schöpfte sofort Verdacht.
-        Sie informierte die Polizei. Der Körper ihrer Mutter wurde exhumiert –
-        und Diamorphin in tödlicher Konzentration gefunden. Das Wissensmonopol war gebrochen.</p>
-        <p class="vb-intro"><strong>d) Der Prozess und die Shipman-Untersuchung:</strong>
-        Shipman wurde im Januar 2000 in 15 Fällen schuldig gesprochen.
-        Die anschließende öffentliche Untersuchung unter Dame Janet Smith
-        dauerte vier Jahre und ergab <strong>mindestens 218 bestätigte Tötungen</strong>.
-        Die Gesamtzahl könnte bei 250 liegen. Es gab keine Hinweise auf sexuelle Motive,
-        auf finanzielle Bereicherung im Großen, auf ein Beziehungsmuster zu den Opfern.
-        Shipman machte keine Aussage. Er zeigte keine Reue. Er erklärte nichts.
-        Der Oktopus gab nichts heraus.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 218 Murders in Two Decades</h3>
+        <p class="vb-intro"><strong>a) The Beginning (1975):</strong> Shipman's first verifiable killing dates back to 1975 — shortly after establishing his practice in Todmorden, Yorkshire. By that time, he had already drawn attention for pethidine abuse: as a physician, he had prescribed pain medication to himself under his own name and had been briefly admitted to a rehab clinic. He carried this knowledge of strong opioid pharmacology as a tool throughout his entire career. He switched to diamorphine — medical heroin, which is life-saving when dosed correctly, lethal in overdose, and difficult to detect in the body after death.</p>
+        <p class="vb-intro"><strong>b) Hyde, 1977–1998 – The Daily Routine of Killing:</strong> In his practice in Hyde, Greater Manchester, Shipman developed a stable pattern. He visited female patients — almost exclusively elderly women, mostly living alone — at home. He injected a lethal dose of diamorphine. He waited until the patient was dead. Then he called the relatives to inform them of her passing, often commenting that he had said goodbye shortly before it happened. He offered comfort. He appeared dismayed. He issued the death certificate. Most families thanked him for his care. Over 23 years, he committed an average of more than nine murders per year — within a normal medical life, with normal patients, in a normal English town.</p>
+        <p class="vb-intro"><strong>c) The Error: The Will (1998):</strong> Shipman's end came not through police investigation, but through an error stemming not from his killing routine, but from a different drive. His last patient, Kathleen Grundy (81), a wealthy former mayor, was found dead. Her will — found in Shipman's practice and typed on his typewriter — contained a strange clause: the entire inheritance was left to Dr. Shipman. Her daughter, Angela Woodruff, a lawyer herself, immediately became suspicious. She notified the police. Her mother's body was exhumed — and a lethal concentration of diamorphine was discovered. The monopoly on knowledge was broken.</p>
+        <p class="vb-intro"><strong>d) The Trial and the Shipman Inquiry:</strong> Shipman was found guilty of 15 counts of murder in January 2000. The subsequent public inquiry led by Dame Janet Smith lasted four years and confirmed <strong>at least 218 killings</strong>. The total figure could be as high as 250. There was no evidence of sexual motives, financial enrichment on a large scale, or a relational pattern with the victims. Shipman gave no statement. He showed no remorse. He explained nothing. The octopus surrendered nothing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Siebener-Stress: Das verdeckte Genusserleben</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress Point Seven: Covert Gratification</h3>
         <p class="vb-intro">
-        Die Fünf bewegt sich im Stress in Richtung <strong>Sieben</strong> –
-        weg von Tiefe und Sammlung, hin zu flüchtigem Erleben, innerem Genuss,
-        dem Ausweichen vor dem, was schmerzt.
-        Psychologen und Ermittler, die Shipmans Aussagen und Verhalten analysierten,
-        beschrieben eine subtile Freude an der Überlegenheit: das Wissen, was keiner weiß;
-        das Können, was keiner kann; die Stille nach der Tat, in der er der Einzige war,
-        der verstand, was gerade passiert war.
-        Diese Siebener-Energie ist bei Shipman nie laut, nie exhibitionistisch.
-        Sie ist still, privat, fast introvertiert.
-        Aber sie ist der Treibstoff, der hinter dem Oktopus-Muster liegt:
-        nicht Machtdemonstration nach außen – sondern die innerste Freude
-        an der absoluten Kontrolle über das Wissen selbst.
+        Under stress, Type Five moves toward <strong>Seven</strong> — away from depth and composure, toward fleeting experiences, inner gratification, and the evasion of pain. Psychologists and investigators who analyzed Shipman's statements and behavior described a subtle joy in superiority: knowing what no one else knows; being able to do what no one else can; the stillness after the deed, where he was the only one who understood what had just transpired. This Seven energy in Shipman was never loud, never exhibitionistic. It was quiet, private, almost introverted. But it was the fuel behind the octopus pattern: not an outward display of power, but the deepest inner delight in absolute control over knowledge itself.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Harold Shipman zeigt, was passiert, wenn die soziale Fünf keinen Zugang mehr
-        zu ihrer eigentlichen Sehnsucht findet: echter Zugehörigkeit, echter Resonanz,
-        dem Erleben, mit dem eigenen Wissen wirklich etwas beizutragen.
-        Stattdessen wurde Wissen zur Waffe. Kompetenz zur Kontrolle. Vertrauen zum Instrument.
-        Was Shipman von anderen Fünfern unterscheidet, ist das Ausmaß der institutionellen Einbettung:
-        Er operierte nicht im Verborgenen. Er operierte mitten in der Gesellschaft –
-        mit Billigung, Vertrauen und Dankbarkeit.
-        Der Six-wing machte ihn glaubwürdig. Der Oktopus machte ihn unsichtbar.
-        Und die soziale Fünf brauchte keine Dramatik, keine Eskalation, kein Chaos.
-        Nur Ordnung. Routine. Die tägliche Kontrolle über das Unbegreifliche.
+        Harold Shipman demonstrates what happens when the Social Five loses access to its true longing: genuine belonging, authentic resonance, and the experience of truly contributing through one's knowledge. Instead, knowledge became a weapon, competence became control, and trust became an instrument. What distinguishes Shipman from other Fives is the extent of his institutional embedding: he did not operate in secret. He operated in the open, in the heart of society — with approval, trust, and gratitude. The Six-wing made him credible. The octopus made him invisible. And the Social Five required no drama, no escalation, no chaos. Only order. Routine. Daily control over the incomprehensible.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Classification Summary</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SO5w6 – Soziale Fünf with Six-wing.<br>
-        <strong>Leidenschaft:</strong> Geiz – das Festhalten von Wissen, Energie und Kontrolle als einzige Währung.<br>
-        <strong>Stresspunkt:</strong> Sieben – verdecktes Genusserleben, die stille innere Freude an der Überlegenheit.<br>
-        <strong>Animal correspondence:</strong> Oktopus – höchste Intelligenz, perfekte Tarnung, solitäres Operieren.<br>
-        <strong>Opfer:</strong> Mindestens 218 – ausschließlich eigene Patienten, fast immer ältere Frauen, durch Diamorphin-Überdosierung.
+        <strong>Subtype:</strong> SO5w6 – Social Five with Six-wing.<br>
+        <strong>Passion:</strong> Avarice – withholding knowledge, energy, and control as the sole currency.<br>
+        <strong>Stress Point:</strong> Seven – covert gratification, the quiet inner delight in superiority.<br>
+        <strong>Animal Correspondence:</strong> Octopus – ultimate intelligence, flawless camouflage, solitary operation.<br>
+        <strong>Victims:</strong> At least 218 – exclusively his own patients, almost always elderly women, via diamorphine overdose.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Fünf im Vergleich: Wie sich Geiz bei SP5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social Five in Comparison: How avarice expresses itself differently across SP5, SO5, and SX5.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP5, SO5, SX5 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 5 Portrayed in Detail – Avarice, Withdrawal, and the Path to Healing Through Genuine Generosity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Harold Shipman wurde 2000 in 15 Fällen des Mordes schuldig gesprochen – spätere Untersuchungen gehen von mindestens 218 Opfern aus. Er starb 2004 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Harold Shipman was found guilty of 15 counts of murder in 2000 — subsequent investigations estimate at least 218 victims. He died in prison in 2004. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
         {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll (SP5w6)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4)"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP2w1) – Krankenpfleger, Serienmörder"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP2w1) – Nurse, Serial Killer"},
       ])}
     </div>
   `);
@@ -28708,167 +26501,72 @@ function cedricMaakePortraitPage() {
         </div>
         <p class="krim-portrait-name">Cedric Maake</p>
         <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">„Der Wemmer-Pan-Killer" – Johannesburg 1996–1997</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Wemmer Pan Killer" – Johannesburg 1996–1997</p>
       </div>
       <p class="psycho-intro">
-        <strong>Maoupa Cedric Maake</strong>, geboren 1965 in Südafrika,
-        ist einer der gefährlichsten Serienmörder in der Geschichte des post-apartheidischen Südafrikas.
-        Zwischen 1996 und 1997 ermordete er in und um Johannesburg
-        mindestens <strong>27 Menschen</strong>, vergewaltigte 26 weitere
-        und überlebten 14 seiner Angriffe schwer verletzt.
-        Seine Opfer – Männer, Frauen und Kinder aller Hautfarben –
-        fand er an Joggingstrecken, in Parks und an öffentlichen Orten.
-        Sein bevorzugter Tatort, der Wemmer Pan – ein Naherholungssee
-        im Süden Johannesburgs – gab ihm seinen Beinamen:
-        der <em>„Wemmer-Pan-Killer"</em>.
-        Im Oktober 1997 verhaftet, wurde er im Jahr 2000 verurteilt –
-        zu 1.395 Jahren Haft, einer der höchsten Strafen in der südafrikanischen Rechtsgeschichte.
-        Das Enneagramm macht sichtbar, wie hinter der Oberfläche eines geselligen,
-        scheinbar harmlosen Mannes eine Maschinerie aus Kontrollwillen und Gewalt wirkte.
+        <strong>Maoupa Cedric Maake</strong>, born in 1965 in South Africa, is one of the most dangerous serial killers in the history of post-apartheid South Africa. Between 1996 and 1997, he murdered at least <strong>27 people</strong>, raped 26 others, and left 14 severe survivors in and around Johannesburg. He found his victims — men, women, and children of all racial backgrounds — along jogging trails, in parks, and in public places. His preferred crime scene, Wemmer Pan — a recreational lake in southern Johannesburg — earned him his moniker: the <em>"Wemmer Pan Killer"</em>. Arrested in October 1997, he was sentenced in 2000 to 1,395 years in prison, one of the highest sentences in South African legal history. The Enneagram makes visible how, beneath the surface of a sociable, seemingly harmless man, a machinery of will to control and violence was at work.
       </p>
 
       <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Cedric Maake</strong> wird dem <strong>Sozialen Typ 2 with Three-wing</strong> zugeordnet.
-        Die soziale Zwei with Three-wing ist auf Sichtbarkeit, Status und gesellschaftliche Bedeutung ausgerichtet.
-        Sie will nicht nur helfen – sie will anerkannt werden, zählen, eine Rolle spielen.
-        Der Three-wing verstärkt das Leistungs- und Imagebewusstsein:
-        Wie wirke ich? Welchen Eindruck hinterlasse ich?
-        In Maakes Fall zeigt sich diese Dynamik invertiert:
-        Ein Täter, der in seiner sozialen Umgebung unauffällig und freundlich wirkte –
-        und in seinen Taten eine Art dunkler Selbstbehauptung vollzog.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>:
-        direktive Kontrolle, Brutalität, das Ende jeder sozialen Fassade.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong> <strong>Cedric Maake</strong> is assigned to the <strong>Social Type 2 with Three-wing</strong>. The Social Two with Three-wing is oriented toward visibility, status, and social significance. They do not just want to help — they want to be recognized, count for something, and play a role. The Three-wing reinforces achievement and image consciousness: How do I come across? What impression do I leave behind? In Maake's case, this dynamic manifests in an inverted way: a perpetrator who appeared inconspicuous and friendly in his social environment — and executed a form of dark self-assertion in his crimes. The stress point lies at <strong>Eight</strong>: directive control, brutality, the end of any social facade.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Golden Retriever</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Golden Retriever</h3>
         <p class="vb-intro">
-        Der <strong>Golden Retriever</strong> ist die Animal correspondence der sozialen Zwei.
-        Er ist das Tier, das alle mögen: freundlich, zugänglich, auf den Menschen ausgerichtet.
-        Er sucht Bestätigung und gibt Wärme zurück – solange er Zuwendung erhält.
-        Der Golden Retriever wirkt harmlos, weil er es im Alltag oft ist.
-        Genau diese Harmlosigkeit ist seine gefährlichste Eigenschaft:
-        Sie macht ihn unsichtbar als Täter.
-        Maakes Nachbarn und Bekannte beschrieben ihn nach seiner Verhaftung
-        als unauffällig, gesellig, normal.
-        Niemand hatte den Mörder gesehen, weil der Golden Retriever
-        nicht wie ein Raubtier aussieht.
+        The <strong>Golden Retriever</strong> is the animal correspondence of the Social Two. It is the animal that everyone likes: friendly, approachable, human-focused. It seeks validation and reflects warmth — as long as it receives affection. The Golden Retriever appears harmless because, in everyday life, it often is. Precisely this harmlessness is its most dangerous trait: it makes it invisible as a perpetrator. Maake's neighbors and acquaintances described him after his arrest as inconspicuous, sociable, normal. No one had seen the killer, because the Golden Retriever does not look like a predator.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei with Three-wing: Sichtbarkeit und Selbstbehauptung</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sozialen Zwei:</strong>
-        Die soziale Zwei – in der Enneagramm-Tradition auch als <em>„Ambition"</em> bezeichnet –
-        ist auf gesellschaftliche Bedeutung ausgerichtet.
-        Sie will wichtig sein: als Person, die zählt, die gesehen wird, die eine Rolle spielt.
-        Diese Ausrichtung auf das soziale Kollektiv kann in gesunder Form
-        zu echtem Engagement und Leadership führen.
-        In pathologischer Form führt sie zu einer tiefen Unfähigkeit,
-        Bedeutungslosigkeit zu ertragen – und zu einem zwanghaften Drang,
-        sich durch Handlungen zu definieren, die Spuren hinterlassen.</p>
-        <p class="vb-intro"><strong>b) Der Three-wing: Leistung und Image:</strong>
-        Der Three-wing der sozialen Zwei verstärkt die Orientierung an Wirkung und Eindruck.
-        Die Drei lebt für Erfolg und für das Bild, das andere von ihr haben.
-        Bei Maake zeigt sich dieser Flügel in der Konsequenz und Methodik seiner Taten:
-        eine erkennbare Vorgehensweise, ein bevorzugter Tatort, eine konstante Methode.
-        Es ist, als ob die dunkle Seite der Ambition eine eigene Professionalität entwickelt.
-        Gleichzeitig blieb er nach außen sozial integriert – arbeitend, unauffällig,
-        Teil einer Gemeinschaft.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> –
-        das unbewusste Festhalten an der eigenen Güte und Bedeutung,
-        die Unfähigkeit, die eigene Bedürftigkeit und den eigenen Schatten anzuerkennen.
-        In Maakes Fall zeigt sich der Stolz als tiefe Überzeugung,
-        nicht greifbar zu sein – als Selbstgefälligkeit, die ihn über 16 Monate
-        weitermachen ließ, ohne dass er seine Vorgehensweise grundlegend änderte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Two with Three-wing: Visibility and Self-Assertion</h3>
+        <p class="vb-intro"><strong>a) The Core Pattern of the Social Two:</strong> The Social Two — also referred to in the Enneagram tradition as <em>"Ambition"</em> — is oriented toward social significance. They want to be important: as a person who counts, who is seen, who plays a role. In a healthy state, this orientation toward the social collective can lead to genuine commitment and leadership. In a pathological state, it leads to a deep inability to endure insignificance — and to a compulsive urge to define oneself through actions that leave a mark.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing: Achievement and Image:</strong> The Three-wing of the Social Two reinforces the orientation toward effect and impression. The Three lives for success and for the image others have of them. In Maake's case, this wing manifests in the consistency and methodology of his crimes: a recognizable modus operandi, a preferred crime scene, a constant method. It is as if the dark side of ambition developed its own professionalism. At the same time, he remained socially integrated outwardly — working, inconspicuous, part of a community.</p>
+        <p class="vb-intro"><strong>c) The Passion: Pride as a Blind Spot:</strong> The passion of Type Two is <strong>Pride</strong> — the unconscious holding on to one's own goodness and importance, the inability to acknowledge one's own neediness and shadow. In Maake's case, pride shows up as a deep conviction of being untouchable — a complacency that allowed him to continue for 16 months without fundamentally changing his approach.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 27 Morde in 16 Monaten</h3>
-        <p class="vb-intro"><strong>a) Kontext: Post-Apartheid-Johannesburg:</strong>
-        Die Taten Maakes ereigneten sich in einer Zeit tiefgreifenden gesellschaftlichen Umbruchs.
-        Das Post-Apartheid-Südafrika der mittleren 1990er Jahre war geprägt von
-        massiver Kriminalität, überlasteten Strafverfolgungsbehörden
-        und dem Aufbau neuer staatlicher Strukturen.
-        Die Polizei war auf großangelegte Serienmord-Ermittlungen kaum vorbereitet.
-        Zudem war das Konzept des Serienmörders in der öffentlichen Wahrnehmung
-        lange als ein „westliches Phänomen" missverstanden worden –
-        was die Ermittlungen zusätzlich verzögerte.</p>
-        <p class="vb-intro"><strong>b) Die Taten:</strong>
-        Maake begann seine Mordserie im Jahr 1996.
-        Er griff Menschen an öffentlichen Orten an – in Parks, an Joggingstrecken,
-        auf Grünflächen und am Wemmer Pan, einem beliebten Naherholungsgebiet
-        im Süden Johannesburgs, das seiner Mordserie den Namen gab.
-        Seine Waffe war oft ein Hammer; er benutzte aber auch Messer und seine Hände.
-        Die Opfer waren gemischt: Männer und Frauen, jung und alt, schwarz und weiß –
-        ungewöhnlich für ein Land, das die Apartheid erst wenige Jahre hinter sich hatte.
-        Viele Überlebende schilderten einen freundlich wirkenden Mann,
-        der sich zunächst normal verhielt, bevor er ohne erkennbaren Auslöser angriff.</p>
-        <p class="vb-intro"><strong>c) Das Ausmaß:</strong>
-        Bis zu seiner Verhaftung im Oktober 1997 hatte Maake
-        27 Menschen ermordet, 26 Frauen vergewaltigt
-        und 14 weitere Opfer schwer verletzt.
-        Die Gesamtzahl seiner dokumentierten Vergehen im Prozess belief sich
-        auf über 130 Anklagepunkte.
-        Die Ermittlungen wurden von der neugegründeten südafrikanischen Polizei (SAPS)
-        in Zusammenarbeit mit frühen forensischen Profiling-Methoden geführt –
-        ein Meilenstein in der Entwicklung der südafrikanischen Kriminalistik.</p>
-        <p class="vb-intro"><strong>d) Verhaftung und Verurteilung:</strong>
-        Maake wurde im Oktober 1997 in Johannesburg festgenommen.
-        Im Jahr 2000 verurteilte ihn das Gericht in einem der längsten
-        und aufsehenerregendsten Strafprozesse der südafrikanischen Geschichte.
-        Das Strafmaß: <strong>1.395 Jahre Haft</strong> –
-        eine symbolische Zahl, die die Summe aller Einzelstrafen für
-        Mord, Vergewaltigung und versuchte Tötung widerspiegelt.
-        Maake ist seitdem inhaftiert.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: 27 Murders in 16 Months</h3>
+        <p class="vb-intro"><strong>a) Context: Post-Apartheid Johannesburg:</strong> Maake's crimes occurred during a time of profound societal transition. Post-apartheid South Africa in the mid-1990s was marked by massive crime, overwhelmed law enforcement agencies, and the establishment of new state structures. The police were barely prepared for large-scale serial murder investigations. Furthermore, the concept of the serial killer had long been misunderstood in public perception as a "Western phenomenon" — which caused additional delays in the investigation.</p>
+        <p class="vb-intro"><strong>b) The Crimes:</strong> Maake began his murder spree in 1996. He attacked people in public places — in parks, along jogging trails, on green spaces, and at Wemmer Pan, a popular recreational area in southern Johannesburg that gave his spree its name. His weapon of choice was often a hammer, though he also used knives and his bare hands. The victims were diverse: men and women, young and old, Black and White — unusual for a country that had only recently moved past apartheid. Many survivors described a friendly-appearing man who initially acted normally before attacking without any discernible trigger.</p>
+        <p class="vb-intro"><strong>c) The Extent:</strong> By the time of his arrest in October 1997, Maake had murdered 27 people, raped 26 women, and severely injured 14 other victims. The total number of documented charges against him at trial amounted to over 130 counts. The investigation was led by the newly established South African Police Service (SAPS) in conjunction with early forensic profiling methods — a milestone in the development of South African criminology.</p>
+        <p class="vb-intro"><strong>d) Arrest and Conviction:</strong> Maake was arrested in Johannesburg in October 1997. In 2000, the court sentenced him in one of the longest and most high-profile criminal trials in South African history. The sentence: <strong>1,395 years in prison</strong> — a symbolic figure reflecting the total sum of all individual sentences for murder, rape, and attempted murder. Maake has been incarcerated ever since.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Maakes Fall zeigt die soziale Zwei von ihrer dunkelsten Seite:
-        ein Täter, der in seiner Gemeinschaft unsichtbar war,
-        weil er die Oberfläche des freundlichen, geselligen Menschen perfekt bediente.
-        Der Golden Retriever, der alle anlächelt – niemand prüft ihn genauer.
-        Der Three-wing gab seinen Taten eine erschreckende Systematik:
-        immer derselbe Tatort, immer dieselbe Methode, immer dieselbe Unauffälligkeit danach.
-        Was das Post-Apartheid-Südafrika in diesem Fall auch lernte:
-        Serienmord ist kein westliches Phänomen.
-        Er entsteht überall dort, wo ein psychologisches Muster auf
-        fehlende Grenzen trifft – und wo die Gesellschaft denjenigen nicht sieht,
-        der ihr täglich ins Gesicht lächelt.
+        Maake's case shows the Social Two at its darkest: a perpetrator who was invisible in his community because he catered perfectly to the surface image of a friendly, sociable person. The Golden Retriever smiling at everyone — no one inspects him more closely. The Three-wing gave his deeds a terrifying systematic nature: always the same crime scene, always the same method, always the same inconspicuousness afterward. What post-apartheid South Africa also learned in this case: serial murder is not a Western phenomenon. It arises wherever a psychological pattern meets a lack of boundaries — and where society fails to see the person smiling right in its face every day.
         </p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Classification Summary</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Maoupa Cedric Maake</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1965, Südafrika</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w3 – Social Type 2 with Three-wing</p>
-          <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Golden Retriever</p>
-          <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 27 Morde, 26 Vergewaltigungen, 14 versuchte Tötungen (1996–1997)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Verurteilt:</strong> 2000, 1.395 Jahre Haft</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
-          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
+          <p style="margin:0 0 0.3rem;"><strong>Born:</strong> 1965, South Africa</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagram Type:</strong> SO2w3 – Social Type 2 with Three-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Animal Correspondence:</strong> Golden Retriever</p>
+          <p style="margin:0 0 0.3rem;"><strong>Victims:</strong> 27 murders, 26 rapes, 14 attempted murders (1996–1997)</p>
+          <p style="margin:0 0 0.3rem;"><strong>Convicted:</strong> 2000, 1,395 years in prison</p>
+          <p style="margin:0 0 0.3rem;"><strong>Passion:</strong> Pride</p>
+          <p style="margin:0;"><strong>Stress Point:</strong> Type 8</p>
         </div>
       </div>
 
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w3 im systemischen Vergleich – Ambition, Image und die dunkle Seite gesellschaftlicher Sichtbarkeit.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge als Kontrolle und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The SO2w3 in Systemic Comparison – Ambition, Image, and the Dark Side of Social Visibility.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Type 2 Portrayed in Detail – Pride, Caretaking as Control, and the Path to Healing Through Genuine Humility.", "Wer du wirklich bist – Band 1")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Cedric Maake wurde 2000 in Südafrika wegen 27-fachen Mordes zu aufeinanderfolgenden lebenslangen Haftstrafen verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Cedric Maake was sentenced in South Africa in 2000 to consecutive life terms for 27 counts of murder. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Sektenführer"},
-        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – Der Dichter und der Tod"},
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3) – Der Killer Clown"}
+        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Cult Leader"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – The Poet and Death"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3) – The Killer Clown"}
       ])}
     </div>
   `);
@@ -28989,158 +26687,78 @@ function dianeDownsPortraitPage() {
         </div>
         <p class="krim-portrait-name">Diane Downs</p>
         <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanische Kindsmörderin · Animal correspondence: Pfau</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">American Child Murderer · Animal Correspondence: Peacock</p>
       </div>
       <p class="psycho-intro">
-        <strong>Diane Downs</strong>, geboren 1955, erschoss am 19. Mai 1983 nachts auf einer verlassenen
-        Landstraße in Springfield, Oregon, ihre drei Kinder – Cheryl (7), Christie (8) und Danny (3) –
-        aus nächster Nähe mit einer Pistole. Cheryl starb sofort. Danny überlebte, blieb aber
-        dauerhaft gelähmt. Christie überlebte schwer verletzt.
-        Downs fuhr danach selbst ins Krankenhaus, mit einer selbst beigebrachten Schusswunde am Arm,
-        und erzählte den Ärzten, ein Fremder habe die Familie überfallen.
-        Was folgte, war eines der verstörendsten Verfahren der amerikanischen Kriminalgeschichte –
-        nicht wegen der Brutalität der Tat, sondern wegen dem, was das Enneagramm darin sichtbar macht:
-        wie eine Frau ihre eigenen Kinder töten konnte, um für einen Mann das perfekte, ungebundene Ideal zu sein.
+        <strong>Diane Downs</strong>, born in 1955, shot her three children — Cheryl (7), Christie (8), and Danny (3) — at close range with a handgun on the night of May 19, 1983, on a deserted country road in Springfield, Oregon. Cheryl died instantly. Danny survived but remained permanently paralyzed. Christie survived with severe injuries. Downs then drove to the hospital herself with a self-inflicted gunshot wound to her arm and told doctors that a stranger had attacked the family. What followed was one of the most disturbing proceedings in American criminal history — not because of the brutality of the act, but because of what the Enneagram makes visible within it: how a woman could kill her own children to embody the perfect, unattached ideal for a man.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Diane Downs</strong> wird dem <strong>Sexuellen Typ 3 with Four-wing</strong> im Enneagramm zugeordnet.
-        Die sexuelle Drei will nicht nur erfolgreich sein – sie will für eine bestimmte Person das perfekte, begehrliche Bild verkörpern.
-        Der Four-wing bringt dramatische Tiefe, innere Leere und eine Tendenz zur melodramatischen Selbstinszenierung.
-        Im Stress geht die Drei in Richtung <strong>Neun</strong>: emotionale Betäubung, Dissoziation,
-        ein Einfrieren des Innenlebens, das nach außen ruhig und kontrolliert wirkt.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong> <strong>Diane Downs</strong> is assigned to the <strong>Sexual Type 3 with Four-wing</strong> in the Enneagram. The Sexual Three does not merely want to be successful — they want to embody the perfect, desirable image for a specific person. The Four-wing brings dramatic depth, inner emptiness, and a tendency toward melodramatic self-staging. Under stress, the Three moves toward <strong>Nine</strong>: emotional numbing, dissociation, and a freezing of the inner life that appears calm and controlled to the outside world.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Der Pfau</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Peacock</h3>
         <p class="vb-intro">
-        Der <strong>Pfau</strong> ist die Animal correspondence der sexuellen Drei.
-        Der Pfau trägt seinen gesamten Wert offen vor sich her: Farbe, Symmetrie, Struktur.
-        Die Augen im Pfauenschwanz entstehen nicht durch Pigment, sondern durch Nanostrukturen,
-        die Licht brechen – Eindruck durch Konstruktion, nicht durch Substanz.
-        Diane Downs war ähnlich: eine Frau, deren Selbstbild technisch aufgebaut war –
-        durch Außenwirkung, Lächeln, Rollen. Als Mutter passte sie perfekt ins Bild.
-        Als dieser Entwurf ihrem neuen Liebesobjekt im Weg stand, wurde er kurzerhand abgelegt.
-        Der Pfau ändert nicht sich – er ändert, was er zeigt.
+        The <strong>peacock</strong> is the animal correspondence of the Sexual Three. The peacock displays its entire value openly for all to see: color, symmetry, structure. The eyes in the peacock tail are not created by pigment, but by nanostructures that refract light — impression through construction, not through substance. Diane Downs was similar: a woman whose self-image was technically constructed — through outward impression, smiles, and roles. As a mother, she fit the picture perfectly. When this construct stood in the way of her new romantic interest, it was discarded without hesitation. The peacock does not change itself — it changes what it displays.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Drei: Der Waschbär</h3>
-        <p class="vb-intro"><strong>a) Das perfekte Ideal:</strong>
-        Die sexuelle Drei scannt das Gegenüber und wird genau das, was es begehrt.
-        Ihr damaliger Partner hatte unmissverständlich klargemacht, dass Kinder in seinem Lebensentwurf keinen Platz haben.
-        Für eine ungesunde sexuelle Drei werden die eigenen Kinder in diesem Moment zu einem
-        „störenden Element“ – einem Hindernis im Weg zur fehlerfreien Rolle,
-        die sie für diesen Mann spielen will.</p>
-        <p class="vb-intro"><strong>b) Blockierte Herzenergie:</strong>
-        Die Drei liegt im Zentrum des Herzzentrums, blockiert diese Energie aber,
-        um zu funktionieren und Rollen zu spielen. Sie nimmt Gefühle nicht direkt wahr,
-        sondern übersetzt sie in Aufgaben und Ziele.
-        Als die Kinder zum Ausschlusskriterium wurden, schaltete Downs auf pure Pragmatik um.
-        Sie wurden von Subjekten zu Objekten – zu einem logistischen Problem, das gelöst werden musste.</p>
-        <p class="vb-intro"><strong>c) Eitelkeit als Leidenschaft:</strong>
-        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> – das Bild, das man nach außen entwirft,
-        hat Vorrang vor jeder inneren Wahrheit.
-        Downs sang im Krankenhaus. Sie scherzte mit den Ärzten, während ihre Kinder im Sterben lagen.
-        Ermittler und Krankenhauspersonal berichteten übereinstimmend von einer emotionalen Kälte,
-        die sie nicht einordnen konnten. Das ist nicht Psychopathie –
-        das ist die blockierte Herzenergie der Drei, die das Außenbild aufrechterhält, weil das Außenbild alles ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Three: The Raccoon</h3>
+        <p class="vb-intro"><strong>a) The Perfect Ideal:</strong> The Sexual Three scans their counterpart and becomes precisely what that person desires. Her partner at the time had made it unmistakably clear that children had no place in his vision for life. For an unhealthy Sexual Three, their own children become a "disruptive element" at that moment — an obstacle standing in the way of the flawless role she wishes to play for this man.</p>
+        <p class="vb-intro"><strong>b) Blocked Heart Energy:</strong> The Three sits at the core of the Heart Center, but blocks this energy in order to function and play roles. They do not perceive feelings directly; instead, they translate them into tasks and goals. When her children became a dealbreaker, Downs switched to pure pragmatism. They were transformed from subjects into objects — into a logistical problem that had to be solved.</p>
+        <p class="vb-intro"><strong>c) Vanity as Passion:</strong> The passion of Type Three is <strong>Vanity</strong> — the image projected outward takes precedence over any inner truth. Downs sang in the hospital. She joked with doctors while her children lay dying. Investigators and hospital staff consistently reported an emotional coldness they could not make sense of. This is not psychopathy — this is the blocked heart energy of the Three, maintaining the external image because the external image is everything.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Four-wing: Die dunkle Note</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Four-Wing: The Dark Note</h3>
         <p class="vb-intro">
-        Der Four-wing der Drei bringt im gesunden Zustand Tiefe und emotionale Authentizität –
-        im extrem ungesunden Zustand jedoch melodramatische Selbstbezogenheit und innere Leere.
-        Downs schrieb Tagebücher voller kitschiger, pseudo-tiefsinniger Liebeslyrik an ihren Partner.
-        Ihre Trauer nach der Tat wirkte nicht echt, sondern wie eine schlecht inszenierte Theaterrolle –
-        die „vom Schicksal geprüfte, melancholische Heldin“.
-        Die Austauschbarkeit der Bindung an ihre Kinder zeigt die Kehrseite dieses Flügels:
-        Während des Prozesses wurde bekannt, dass sie hochschwanger war – von einem Kind,
-        das sie in der Untersuchungshaft gezeugt hatte. In ihrer Logik war das ein Image-Projekt:
-        der lebende Beweis, dass sie eine liebende, gebärfähige Frau sei – kein Monster.
-        Das ungeborene Kind war Requisite.
+        In a healthy state, the Four-wing of the Three brings depth and emotional authenticity — however, in an extremely unhealthy state, it produces melodramatic self-centeredness and inner emptiness. Downs wrote journals filled with cheesy, pseudo-profound love poetry to her partner. Her grief after the crime did not seem genuine, but rather like a poorly staged theatrical performance — the "melancholy heroine tested by fate." The replaceability of the bond with her children reveals the flip side of this wing: during the trial, it was revealed that she was heavily pregnant — with a child conceived while in pre-trial detention. In her logic, this was an image project: living proof that she was a loving, fertile woman — not a monster. The unborn child was a prop.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Die Nacht auf der Landstraße</h3>
-        <p class="vb-intro"><strong>a) Die Planung:</strong>
-        Downs hatte die Tat nicht impulsiv begangen. Sie hatte in den Wochen zuvor
-        mehrfach angedeutet, dass ihre Kinder ihr Leben einschränkten.
-        Sie hatte eine .22er-Pistole erworben. Am Abend des 19. Mai 1983
-        fuhr sie mit ihren drei Kindern auf einer abgelegenen Straße,
-        hielt an – und erschoss sie eines nach dem anderen aus nächster Nähe.
-        Die Eiseskälte der Planung – kein Affekt, kein Überwältigtsein –
-        ist das entscheidende psychologische Merkmal: nicht die Zwei, die im Sturm handelt,
-        sondern die Drei, die ein Problem löst.</p>
-        <p class="vb-intro"><strong>b) Die Inszenierung:</strong>
-        Downs brachte sich selbst eine Schusswunde am Unterarm bei – oberflächlich, kalkuliert –
-        um die Geschichte eines bewaffneten Überfalls glaubhaft zu machen.
-        Sie fuhr ins Krankenhaus, schilderte den Überfall ruhig und detailliert.
-        Keine Tränen. Keine Panik. Nur die Geschichte. Nur die Rolle.</p>
-        <p class="vb-intro"><strong>c) Der Widerspruch:</strong>
-        Christie, die überlebende Tochter, identifizierte schließlich ihre Mutter als Schützin.
-        Das Kind, das die Mutter erschossen hatte, bezeugte gegen sie.
-        Die Frau, die sich als liebevoll inszeniert hatte,
-        wurde durch das einzige Opfer entlarvt, das sprechen konnte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Crime: The Night on the Country Road</h3>
+        <p class="vb-intro"><strong>a) The Planning:</strong> Downs had not committed the crime impulsively. In the preceding weeks, she had hinted multiple times that her children were restricting her life. She had acquired a .22 caliber handgun. On the evening of May 19, 1983, she drove with her three children down a secluded road, pulled over — and shot them one by one at close range. The ice-cold nature of the planning — no heat of passion, no feeling overwhelmed — is the decisive psychological feature: not the Two acting in a emotional storm, but the Three solving a problem.</p>
+        <p class="vb-intro"><strong>b) The Staging:</strong> Downs inflicted a gunshot wound to her own forearm — superficial, calculated — to make the story of an armed robbery credible. She drove to the hospital and narrated the attack calmly and in detail. No tears. No panic. Only the story. Only the role.</p>
+        <p class="vb-intro"><strong>c) The Contradiction:</strong> Christie, the surviving daughter, eventually identified her mother as the shooter. The child whom the mother had shot testified against her. The woman who had staged herself as loving was exposed by the only victim who could speak.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Prozess und das Leben danach</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Trial and Life Afterward</h3>
         <p class="vb-intro">
-        Diane Downs wurde 1984 wegen Mordes an Cheryl und des versuchten Mordes
-        an Christie und Danny zu lebenslanger Haft verurteilt.
-        Im Gerichtssaal gab sie lächelnd Interviews, spielte mit den Kameras und
-        schien sichtlich zu genießen, im Mittelpunkt zu stehen –
-        eine Parallele zu Ted Bundy, dem bekanntesten Serienmörder der amerikanischen Kriminalgeschichte.
-        Das Gefängnis-Baby wurde ihr nach der Geburt weggenommen und kam in eine Adoptivfamilie.
-        Ihre Tochter Becky Babcock erfuhr erst als Jugendliche, wer ihre leibliche Mutter ist.
-        1987 brach Downs aus dem Gefängnis aus, wurde nach zehn Tagen gefasst.
-        In Anhörungen beschreibt sie sich bis heute als liebevolle Mutter, die zu Unrecht verurteilt wurde.
-        Das Bild bleibt. Das Bild blieb immer.
+        Diane Downs was sentenced to life imprisonment in 1984 for the murder of Cheryl and the attempted murders of Christie and Danny. In the courtroom, she gave interviews with a smile, played to the cameras, and visibly appeared to enjoy being the center of attention — a parallel to Ted Bundy, the most famous serial killer in American criminal history. The prison baby was taken from her after birth and placed with an adoptive family. Her daughter Becky Babcock only discovered who her birth mother was as a teenager. In 1987, Downs escaped from prison and was recaptured ten days later. In parole hearings, she continues to describe herself to this day as a loving mother who was wrongly convicted. The image remains. The image always remained.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Diane Downs zeigt, was passiert, wenn die Herzenergie der Drei vollständig blockiert ist:
-        keine Empfangsfähigkeit, keine echte Verbindung, kein Mitgefühl, das über das gewünschte Bild hinausgeht.
-        Die SX3 ist in ihrer gesunden Form eine der intensivsten und charismatischsten Persönlichkeiten überhaupt.
-        In der deintegrierten Form wird dieses Charisma zur Waffe.
-        Die Kinder waren keine Monster für sie – sie waren schlicht keine Personen mehr.
-        Nur Requisiten in einem Drehbuch, in dem sie allein die Hauptrolle spielte.
-        Das Enneagramm macht hier sichtbar, was oberflächliche Psychologie übersieht:
-        nicht Kälte als Charakter, sondern blockierte Wärme als Struktur –
-        und die erschreckende Logik, die daraus folgt.
+        Diane Downs demonstrates what happens when the heart energy of the Three is completely blocked: no receptivity, no genuine connection, no empathy beyond the desired image. In its healthy form, the SX3 is one of the most intense and charismatic personalities of all. In a disintegrated form, this charisma becomes a weapon. Her children were not monsters to her — they were simply no longer persons. Merely props in a script where she alone played the lead role. The Enneagram makes visible here what surface psychology overlooks: not coldness as a character trait, but blocked warmth as a structure — and the terrifying logic that follows from it.
         </p>
       </div>
 
       <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Classification Summary</h3>
         <div style="font-size:0.88rem;line-height:1.8;">
-          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Diane Downs, geb. 1955</p>
-          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX3w4 – Sexuelle Drei with Four-wing</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit – das konstruierte Außenbild hat Vorrang vor jeder inneren Wahrheit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Stresspunkt:</strong> Neun – Dissoziation, emotionale Betäubung, Einfrieren des Innenlebens</p>
-          <p style="margin:0 0 0.3rem;"><strong>Animal correspondence:</strong> Pfau – Eindruck durch Konstruktion, nicht durch Substanz; ändert nicht sich selbst, sondern was er zeigt</p>
-          <p style="margin:0;"><strong>Lehrwert:</strong> Downs zeigt, dass blockierte Herzenergie nicht Kälte bedeutet –
-          sie bedeutet, dass gefühlte Bindung und echte Verbindung auseinanderfallen können,
-          bis Menschen zu Objekten in einem Selbstbild werden, das um jeden Preis geschützt werden muss.</p>
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Diane Downs, b. 1955</p>
+          <p style="margin:0 0 0.3rem;"><strong>Subtype:</strong> SX3w4 – Sexual Three with Four-wing</p>
+          <p style="margin:0 0 0.3rem;"><strong>Passion:</strong> Vanity – the constructed external image takes precedence over any inner truth</p>
+          <p style="margin:0 0 0.3rem;"><strong>Stress Point:</strong> Nine – dissociation, emotional numbing, freezing of the inner life</p>
+          <p style="margin:0 0 0.3rem;"><strong>Animal Correspondence:</strong> Peacock – impression through construction, not substance; changes not itself, but what it displays</p>
+          <p style="margin:0;"><strong>Instructive Value:</strong> Downs shows that blocked heart energy does not mean coldness — it means that felt attachment and genuine connection can pull apart until human beings become objects in a self-image that must be protected at all costs.</p>
         </div>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SP3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Erfolg und der Heilungsweg über echte Herzverbindung.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Three in Comparison: How vanity expresses itself differently in SP3, SO3, and SX3—and why blocked heart energy can become so dangerous.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 Character Profiles in Comparison.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 Portrayed in Detail – Vanity, Success, and the Path to Healing Through Genuine Heart Connection.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Diane Downs wurde 1984 wegen Mordes, versuchten Mordes und Angriffs mit einer tödlichen Waffe verurteilt und verbüßt lebenslange Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Diane Downs was convicted in 1984 of murder, attempted murder, and assault with a deadly weapon and is serving a life sentence. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -29755,77 +27373,77 @@ function charlesMansonPortraitPage() {
           <img src="../assets/portraits/charles-manson-portrait.jpg" alt="Charles Manson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Charles Manson</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 mit Siebenerfl\xfcgel</p>
-        <p class="krim-portrait-sub">Sektenf\xfchrer und Drahtzieher &ndash; Animal correspondence: Wolf</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-sub">Cult Leader and Mastermind · Animal Correspondence: Wolf</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Wolf</h3>
-        <p class="vb-intro">Der <strong>Wolf</strong> ist die Animal correspondence der sexuellen Sechs &ndash; und kein Tier passt besser zu Charles Manson. Der Wolf ist kein Einzelg\xe4nger: Er braucht das Rudel, er erschafft es, er f\xfchrt es durch Angst und Faszination zugleich. Der Wolf markiert sein Revier, pr\xfcft jeden auf Loyalit\xe4t und hetzt die Schwachen heraus. Manson war genau das: ein Rudelchef, der nie selbst zur Waffe griff &ndash; und doch der gef\xe4hrlichste im Rudel war.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Wolf</h3>
+        <p class="vb-intro">The <strong>wolf</strong> is the animal correspondence of the Sexual Six — and no animal fits Charles Manson better. The wolf is not a loner: it needs the pack, creates it, and leads it through a mix of fear and fascination. The wolf marks its territory, tests everyone for loyalty, and hunts down the weak. Manson was precisely that: a pack leader who never picked up a weapon himself — yet was the most dangerous member of the pack.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sechs: Angst als Charisma</h3>
-        <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> wird in der Enneagramm-Tradition als der <em>Kontratyp der Sechs</em> beschrieben: Anstatt Sicherheit durch Anpassung zu suchen, attackiert sie die Angst frontal. Der SX6er projiziert St\xe4rke, Unerschrockenheit, oft sogar Provokation &ndash; doch dahinter sitzt dieselbe tiefe Angst wie bei jeder anderen Sechs: die Angst, allein und ungesch\xfctzt zu sein.</p>
-        <p class="vb-intro"><strong>Charles Manson</strong>, geboren 1934 in Cincinnati als Sohn einer 16-j\xe4hrigen alkohols\xfcchtigen Mutter, wuchs ohne stabiles Fundament auf. Seine Mutter verkaufte ihn zeitweise f\xfcr einen Krug Bier. Elf Jahre seines Lebens vor den Morden verbrachte er in Einrichtungen und Gef\xe4ngnissen. Die Gef\xe4ngniszeit war keine Strafe &ndash; sie war die einzige Struktur, die er kannte. Dort lernte er die Sprache der Macht: Wer die Regeln kennt, kann sie benutzen. Wer die Menschen versteht, kann sie lenken.</p>
-        <p class="vb-intro">Nach seiner Entlassung 1967 zog er nach San Francisco, mitten in die Hippie-Bewegung. Die Zeit kam ihm entgegen: Junge Menschen auf der Search nach Sinn, nach Befreiung, nach einer neuen Ordnung. F\xfcr einen SX6 ist das ideales Terrain: eine zerstreute, orientierungslose Gruppe, die einen starken Kern sucht. Manson bot diesen Kern an.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Six: Fear as Charisma</h3>
+        <p class="vb-intro">In the Enneagram tradition, the <strong>Sexual Six (SX6)</strong> is described as the <em>countertype of Type Six</em>: instead of seeking security through compliance, it attacks fear head-on. The SX6 projects strength, fearlessness, and often outright provocation — yet behind it lies the same deep-seated fear as in any other Six: the fear of being alone and unprotected.</p>
+        <p class="vb-intro"><strong>Charles Manson</strong>, born in Cincinnati in 1934 to a 16-year-old alcoholic mother, grew up without a stable foundation. At one point, his mother traded him for a pitcher of beer. He spent eleven years of his life prior to the murders in reformatories and prisons. Prison time was not punishment to him — it was the only structure he knew. There, he learned the language of power: those who know the rules can use them; those who understand people can manipulate them.</p>
+        <p class="vb-intro">Following his release in 1967, he moved to San Francisco, right into the heart of the hippie movement. The era played into his hands: young people searching for meaning, liberation, and a new order. For an SX6, this was ideal terrain — a scattered, directionless group seeking a strong core. Manson offered that core.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Kontratyp: Angriff als Abwehr</h3>
-        <p class="vb-intro">Das Enneagramm beschreibt den Kontratyp der Sechs als jemanden, der die eigene Angst <em>nach au\xdfen</em> projiziert: Der Bedrohte wird selbst zur Bedrohung. Was anderen als unersch\xfctterte St\xe4rke erscheint, ist in Wahrheit eine kompensatorische Hyperstrategie gegen das Gef\xfchl der Ohnmacht.</p>
-        <p class="vb-intro">Manson lehrte seine Anh\xe4nger, die Gesellschaft zu verachten &ndash; doch tief darunter steckte sein eigenes Bem\xe4chtigungsbed\xfcrfnis. Er pr\xfcfte die Loyalit\xe4t seiner Gruppe permanent: Wer z\xf6gerte, wer zweifelte, wer nicht vollst\xe4ndig mitmachte, wurde durch Besch\xe4mung zur\xfcck in die Spur gebracht. Das ist das klassische SX6-Muster in seiner ungesunden Form: Treue wird erpresst, Zugeh\xf6rigkeit durch Gehorsam definiert.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Countertype: Attack as Defense</h3>
+        <p class="vb-intro">The Enneagram describes the countertype of the Six as someone who projects their own fear <em>outward</em>: the threatened individual becomes the threat. What appears to others as unshakable strength is actually a compensatory hyper-strategy against feelings of powerlessness.</p>
+        <p class="vb-intro">Manson taught his followers to despise society — yet beneath it lay his own overwhelming need for empowerment. He constantly tested his group's loyalty: anyone who hesitated, doubted, or failed to fully cooperate was shamed back into line. This is the classic SX6 pattern in its unhealthy form: loyalty is extorted, and belonging is defined through obedience.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Siebenerfl\xfcgel: Charisma, Vision, Maßlosigkeit</h3>
-        <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> verleiht der Sechs etwas, was sie allein nicht h\xe4tte: Abenteuergeist, Verlockung, Begeisterungsf\xe4higkeit. Wo die reine Sechs kontrolliert und sichert, macht der Siebenerfl\xfcgel die Sechs zum Magneten. Manson sang, spielte Gitarre, schrieb Songs, traf sich mit Musikern wie Dennis Wilson von den Beach Boys. Er glaubte ernsthaft, ein Rockstar zu werden.</p>
-        <p class="vb-intro">Als diese Vision scheiterte &ndash; sein Plattenvertrag mit Terry Melcher kam nicht zustande &ndash; kippte der Siebenerfl\xfcgel ins Destruktive. Die <em>Ma\xdflosigkeit</em> der Sieben verband sich mit der <em>Angst</em> der Sechs: Wut, Gro\xdfz\xfcgigkeit und Verfolgungswahn wurden Teil einer ideologischen Spirale. Manson entwickelte sein &bdquo;Helter Skelter&ldquo;-Narrativ: ein kommender Rassenkrieg, den seine Familie \xfcberleben und dann beherrschen w\xfcrde. Die Morde sollten diesen Krieg ausl\xf6sen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Seven-Wing: Charisma, Vision, Immoderation</h3>
+        <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six something it would not possess on its own: a spirit of adventure, seductiveness, and enthusiasm. Where a pure Six controls and secures, the Seven-wing turns the Six into a magnet. Manson sang, played guitar, wrote songs, and associated with musicians like Dennis Wilson of The Beach Boys. He genuinely believed he was going to become a rock star.</p>
+        <p class="vb-intro">When this vision collapsed — his record deal with Terry Melcher failed to materialize — the Seven-wing flipped into something destructive. The <em>immoderation</em> of the Seven combined with the <em>fear</em> of the Six: rage, grandiosity, and paranoia merged into an ideological spiral. Manson developed his "Helter Skelter" narrative: an impending race war that his Family would survive and ultimately rule over. The murders were intended to trigger this war.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Die Manson Family: das Rudel als Lebensversicherung</h3>
-        <p class="vb-intro">Manson erschuf keine Sekte im klassischen Sinne &ndash; er erschuf ein <em>Rudel</em>. Die Family lebte auf der Spahn Movie Ranch, abgeschnitten von der Gesellschaft, vollst\xe4ndig auf ihn ausgerichtet. Neue Mitglieder durchliefen ein subtiles Brechen der alten Identit\xe4t: LSD, Schlafentzug, sexuelle Freiz\xfcgigkeit und permanente Umdeutung der Realit\xe4t durch Manson selbst.</p>
-        <p class="vb-intro">Aus Enneagramm-Sicht war das eine meisterhafte &ndash; und zutiefst gest\xf6rte &ndash; Umsetzung der SX6-Dynamik: Der Rudelf\xfchrer sicherte sich durch vollst\xe4ndige Abh\xe4ngigkeit ab. Wer Manson treu war, geh\xf6rte dazu. Wer zweifelte, riskierte die Aussto\xdfung &ndash; und damit den einzigen sozialen Kontext, den die Mitglieder noch hatten.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Manson Family: The Pack as Life Insurance</h3>
+        <p class="vb-intro">Manson did not create a cult in the traditional sense — he built a <em>pack</em>. The Family lived at the Spahn Movie Ranch, cut off from society and completely focused on him. New members underwent a subtle breakdown of their former identities: LSD, sleep deprivation, sexual permissiveness, and a constant reinterpretation of reality by Manson himself.</p>
+        <p class="vb-intro">From an Enneagram perspective, this was a masterful — and deeply disturbed — manifestation of the SX6 dynamic: the pack leader secured himself through total dependency. Those loyal to Manson belonged; those who doubted risked expulsion — and with it, the loss of the only social context they had left.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Die Tate-LaBianca-Morde 1969</h3>
-        <p class="vb-intro">In der Nacht vom 8. auf den 9. August 1969 schickte Manson Tex Watson, Susan Atkins und Patricia Krenwinkel zum Haus von Sharon Tate in der Cielo Drive. F\xfcnf Menschen wurden get\xf6tet, darunter die hochschwangere Schauspielerin Sharon Tate. In der folgenden Nacht f\xfchrte Manson die Gruppe selbst zur LaBianca-Villa &ndash; er betrat das Haus, fesselte das Ehepaar und \xfcberlie\xdf dann seinen Anh\xe4ngern die Tat.</p>
-        <p class="vb-intro">Manson selbst t\xf6tete in beiden N\xe4chten niemanden &ndash; darauf legte er gro\xdfen Wert. Das ist das perfide Muster des ungesunden SX6: Er bleibt hinter der Front, sendet andere vor, testet die Loyalit\xe4t durch die schlimmste erdenkliche Handlung. Die T\xe4ter waren sein Beweis, dass das Rudel hielt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Tate-LaBianca Murders 1969</h3>
+        <p class="vb-intro">On the night of August 8 to 9, 1969, Manson sent Tex Watson, Susan Atkins, and Patricia Krenwinkel to Sharon Tate's house on Cielo Drive. Five people were killed, including the heavily pregnant actress Sharon Tate. The following night, Manson led the group to the LaBianca residence himself — he entered the house, tied up the couple, and left the execution to his followers.</p>
+        <p class="vb-intro">Manson himself did not kill anyone during either night — a detail he placed great importance on. This is the insidious pattern of the unhealthy SX6: staying behind the front lines, dispatching others, and testing loyalty through the most horrific acts imaginable. The perpetrators were his proof that the pack held together.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Prozess und Nachleben</h3>
-        <p class="vb-intro">Der Prozess 1970/71 wurde zu einem Medienereignis. Manson erschien mit einem Hakenkreuz in die Stirn geritzt vor Gericht &ndash; ein letztes Machtspiel des Kontratyps: Schock als Kontrolle. Er und seine Mitanh\xe4nger wurden zum Tod verurteilt. Als Kalifornien 1972 die Todesstrafe aussetzte, wurden die Urteile in lebenslange Haft umgewandelt.</p>
-        <p class="vb-intro">Manson starb am 19. November 2017 im Gef\xe4ngnis an einem Herzversagen. Er wurde 83 Jahre alt. Bis zuletzt gab er Interviews, sang, inszenierte sich und lehnte jede Reue ab. Das SX6-Muster blieb bis zum Ende stabil: Angriff als Abwehr, das Rudel als Spiegel, Kontrolle als einzig bekannte Form von N\xe4he.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. The Trial and Aftermath</h3>
+        <p class="vb-intro">The 1970/71 trial turned into a media spectacle. Manson appeared in court with a swastika carved into his forehead — a final power play of the countertype: shock as a tool of control. He and his co-defendants were sentenced to death. When California temporarily suspended the death penalty in 1972, their sentences were commuted to life imprisonment.</p>
+        <p class="vb-intro">Manson died of heart failure in prison on November 19, 2017, at the age of 83. Until the end, he gave interviews, sang, staged himself, and refused to express remorse. The SX6 pattern remained stable to the very end: attack as defense, the pack as a mirror, and control as the only known form of closeness.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">Manson wird oft als R\xe4tsel beschrieben: Wie konnte jemand so viele Menschen zu solchen Taten bringen, ohne selbst die Hand anzulegen? Das Enneagramm l\xf6st dieses R\xe4tsel nicht auf, aber es macht es lesbar.</p>
-        <p class="vb-intro"><strong>a) Naranjos SX6 &ndash; &bdquo;Angst/Mut&ldquo;:</strong> Claudio Naranjo beschreibt den SX6-Subtype als den Kontratyp, der Angst durch offensive St\xe4rke \xfcberspielt. Der SX6er testet unablässig: Er provoziert, fordert, pr\xfcft. Bei Manson wurde diese Dynamik zu einem manipulativen Instrumentarium: Wer standhielt, war loyal. Wer z\xf6gerte, wurde zur\xfcckgedr\xe4ngt oder ausgeschlossen.</p>
-        <p class="vb-intro"><strong>b) Das Rudel als Sicherheitsarchitektur:</strong> Der gesunde SX6 sucht tiefe, verlässliche Verbindung. Bei Manson war das totalit\xe4r verzerrt: Die Family war nicht Beziehung, sondern Festung. Jedes Mitglied war gleichzeitig Schutzwall und Beweism\xf6glichkeit f\xfcr seine eigene Macht.</p>
-        <p class="vb-intro"><strong>c) Die Sch\xe4den der fr\xfchen Bindungslosigkeit:</strong> Ein SX6, der nie eine verl\xe4ssliche Bezugsfigur hatte, entwickelt kein Grundvertrauen. Manson hatte nie jemanden, dem er sich \xfcbergeben konnte. Stattdessen lernte er: Wer zuerst dominiert, verliert nicht. Diese Lektion wurde zur einzigen Blaupause seiner Relationships.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. What the Enneagram Reveals</h3>
+        <p class="vb-intro">Manson is often described as an enigma: how could someone drive so many people to commit such atrocious acts without lifting a finger himself? The Enneagram does not erase this mystery, but it renders it legible.</p>
+        <p class="vb-intro"><strong>a) Naranjo's SX6 – "Fear/Strength":</strong> Claudio Naranjo describes the SX6 subtype as the countertype that overcompensates for fear through offensive strength. The SX6 incessantly tests: provoking, demanding, challenging. In Manson's case, this dynamic became a manipulative toolkit — those who held ground were loyal; those who hesitated were pushed back or cast out.</p>
+        <p class="vb-intro"><strong>b) The Pack as Security Architecture:</strong> A healthy SX6 seeks deep, reliable connection. With Manson, this was totalitarily distorted: the Family was not a set of relationships, but a fortress. Every member served as both a shield and a proof of his own power.</p>
+        <p class="vb-intro"><strong>c) The Damage of Early Attachment Loss:</strong> An SX6 who never had a reliable attachment figure fails to develop basic trust. Manson never had anyone to surrender to. Instead, he learned: whoever dominates first does not lose. This lesson became the sole blueprint for his relationships.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Classification Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Charles Milles Manson</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SX6w7 &ndash; Sexuelle Sechs mit Siebenerfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Angst (als Kontratyp nach au\xdfen projiziert)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Wolf</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 12. November 1934 &ndash; 19. November 2017</span>
-          <span style="display:block;"><strong>Verurteilung:</strong> Neunfacher Mord (Beihilfe/Anstiftung), lebensl\xe4nglich</span>
+          <strong>Name:</strong> Charles Milles Manson<br>
+        Subtype: SX6w7 – Sexual Six with Seven-wing<br>
+        Passion: Fear (projected outward as a countertype)<br>
+        Animal Correspondence: Wolf<br>
+        Lifespan: November 12, 1934 – November 19, 2017<br>
+        Conviction: Nine counts of murder (conspiracy/incitement), life sentence
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SX6 als Kontratyp so intensiv provoziert.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem der Sechs entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Six in Comparison: How fear manifests differently across SP6, SO6, and SX6—and why the SX6 as a countertype provokes so intensely.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Fear as the Core Motivation of Type Six: How the Six's defense system forms and how it dissolves in healing.", "Wer du wirklich bist (Band 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Charles Manson wurde 1971 wegen Mordes und Verschwörung verurteilt und starb 2017 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Charles Manson was convicted of murder and conspiracy in 1971 and died in custody in 2017. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -29849,85 +27467,85 @@ function johnListPortraitPage() {
           <img src="../assets/portraits/john-list-portrait.jpg" alt="John List – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John List</p>
-        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der Familienmord von Westfield &ndash; Animal correspondence: Kaninchen</p>
+        <p class="krim-portrait-typ">SP6w5 · Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-sub">The Westfield Family Murders · Animal Correspondence: Rabbit</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Kaninchen</h3>
-        <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; und es ist ein Tier, das man nicht sofort mit Gef\xe4hrlichkeit verbindet. Das Kaninchen ist ein Beutetier: immer wachsam, immer auf der Hut, die Ohren aufgestellt f\xfcr das kleinste Ger\xe4usch. Es lebt in unterirdischen Bauten, verborgen, gesch\xfctzt. Es flieht, wenn es kann. Aber in die Enge getrieben &ndash; ohne Ausweg, ohne Fluchtm\xf6glichkeit &ndash; schl\xe4gt es um sich. Hart, pl\xf6tzlich, \xfcberraschend.</p>
-        <p class="vb-intro">John List war ein Kaninchen. Jahrelang hielt er die Ohren oben, registrierte jedes Anzeichen von Gefahr, schwieg, duckte sich, funktionierte. Und dann, an einem Novembertag 1971, schlug er um sich &ndash; und traf f\xfcnf Menschen, die er liebte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Rabbit</h3>
+        <p class="vb-intro">The <strong>rabbit</strong> is the animal correspondence of the Self-Preservation Six — and it is an animal not immediately associated with danger. The rabbit is a prey animal: always vigilant, always on guard, ears perked for the slightest sound. It lives in underground burrows, hidden and protected. It flees when it can. But when cornered — with no way out, no possibility of escape — it lashes out. Hard, suddenly, surprisingly.</p>
+        <p class="vb-intro">John List was a rabbit. For years he kept his ears up, registered every sign of danger, kept silent, ducked down, and functioned. And then, on a November day in 1971, he lashed out — and struck five people he loved.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Sechs: Angst als Kompass</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 6 (SP6)</strong> ist unter den Sechs-Subtypes derjenige, der am deutlichsten von Angst gesteuert wird &ndash; und der diese Angst am sorgf\xe4ltigsten nach au\xdfen verbirgt. Claudio Naranjo beschreibt ihn als den &bdquo;W\xe4rmenden&ldquo;: jemanden, der durch Freundlichkeit, Pflichtbewusstsein und Zuverl\xe4ssigkeit Sicherheit herzustellen versucht. Der SP6er ist kein Aufreger. Er ist der Mann, der immer p\xfcnktlich zur Kirche kommt, der seine Steuern sorgsam deklariert, der seine Nachbarn h\xf6flich gr\xfc\xdft.</p>
-        <p class="vb-intro">Was die Welt nicht sieht: Innen l\xe4uft ein permanentes Alarmierungssystem. Der SP6er denkt in Katastrophenszenarien. Er \xfcberlegt, was schiefgehen k\xf6nnte &ndash; nicht einmal, sondern immer wieder. Er sucht Sicherheit in Systemen: in der Religion, in der Familie, im Beruf, im Gesetz. Wenn diese Systeme ins Wanken geraten, geriet auch er.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Six: Fear as a Compass</h3>
+        <p class="vb-intro">Among the Six subtypes, the <strong>Self-Preservation Type 6 (SP6)</strong> is the one driven most clearly by fear — and the one who conceals this fear most carefully from the outside world. Claudio Naranjo describes the SP6 as the "Warm-Maker": someone who tries to establish security through friendliness, dutifulness, and reliability. The SP6 is not a troublemaker. He is the man who always arrives at church on time, diligently files his taxes, and politely greets his neighbors.</p>
+        <p class="vb-intro">What the world doesn't see: inside, an alarm system is running constantly. The SP6 thinks in terms of catastrophe scenarios. He considers what could go wrong — not just once, but over and over again. He seeks security in systems: in religion, in family, in work, in the law. When these systems begin to falter, he falters too.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der F\xfcnferfl\xfcgel: R\xfcckzug, Analyse, Schweigen</h3>
-        <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der selbsterhaltenden Sechs eine zus\xe4tzliche Dimension: Introversion, Distanz, eine Neigung zum Beobachten statt zum Sprechen. Der SP6w5 ist nicht nur \xe4ngstlich &ndash; er ist au\xdferdem verschlossen. Er teilt sein Innenleben nicht. Er analysiert, gr\xfcbelt, kreist allein um seine Probleme. Er sucht keine Hilfe, weil er anderen nicht vertraut.</p>
-        <p class="vb-intro">Bei John List zeigt sich dieser F\xfcnferfl\xfcgel in seiner reinsten, zerst\xf6rerischsten Form: Er verlor seinen Job im Oktober 1971 &ndash; und sagte es niemandem. Nicht seiner Frau. Nicht seiner Mutter. Nicht seinen Kindern. Er fuhr jeden Morgen aus dem Haus, als g\xfcnge er arbeiten, verbrachte Stunden in einem Bahnhof oder wartete irgendwo, und kehrte abends zur\xfcck. Wochenlang. Das ist der F\xfcnferfl\xfcgel: nicht reden, nicht zeigen, allein tragen &ndash; bis die Last nicht mehr zu tragen ist.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Five-Wing: Withdrawal, Analysis, Silence</h3>
+        <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Self-Preservation Six an additional dimension: introversion, detachment, and an inclination to observe rather than speak. The SP6w5 is not only fearful — he is also secretive. He does not share his inner life. He analyzes, broods, and circles around his problems alone. He does not seek help because he does not trust others.</p>
+        <p class="vb-intro">In John List, this Five-wing shows itself in its purest, most destructive form: he lost his job in October 1971 — and told no one. Not his wife. Not his mother. Not his children. He left the house every morning as if going to work, spent hours in a train station or waiting somewhere, and returned home in the evening. For weeks. That is the Five-wing: not talking, not showing, carrying it all alone — until the burden can no longer be borne.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Pflicht, Rigidität, stiller Absturz</h3>
-        <p class="vb-intro">John Emil List wurde am 17. September 1925 in Bay City, Michigan, als Sohn deutschst\xe4mmiger lutherischer Einwanderer geboren. Seine Kindheit war gepr\xe4gt von Strenge, religi\xf6ser Pflicht und der Botschaft, dass ein Mann seine Familie zu versorgen und zu sch\xfctzen habe. Er diente im Zweiten Weltkrieg, studierte anschlie\xdfend Buchf\xfchrung und Betriebswirtschaft an der University of Michigan und arbeitete als Buchhalter und sp\xe4ter als leitender Finanzangestellter in verschiedenen Unternehmen.</p>
-        <p class="vb-intro">1951 heiratete er Helen Taylor. Sie litt an einer Syphilis-Erkrankung, die im Laufe der Jahre zunehmend ihr Nervensystem sch\xe4digte und zu psychischen Ver\xe4nderungen f\xfchrte. Die Ehe war schwierig. 1965 kaufte John List ein imposantes viktorianisches Herrenhaus in Westfield, New Jersey &ndash; 19 Zimmer, beeindruckend von au\xdfen, finanziell weit \xfcber seine Verh\xe4ltnisse. Er wollte der Vater sein, der seiner Familie etwas Gro\xdfes bietet. Das war der SP6: Sicherheit schaffen durch \xe4u\xdfere Symbole.</p>
-        <p class="vb-intro">Die Finanzen gerieten aus dem Ruder. Das Haus fraß Geld. John List nahm heimlich Geld aus dem Bankkonto seiner betagten Mutter Alma, die im Obergeschoss wohnte. Im Oktober 1971 verlor er seinen Job als Vizepräsident einer Bank. Er sagte es niemandem. Er stellte einfach weiter das Morgenritual nach: aufstehen, anziehen, das Haus verlassen, zur\xfckkehren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biography: Duty, Rigidity, Quiet Downfall</h3>
+        <p class="vb-intro">John Emil List was born on September 17, 1925, in Bay City, Michigan, the son of German-American Lutheran immigrants. His childhood was marked by strictness, religious duty, and the message that a man must provide for and protect his family. He served in World War II, subsequently studied accounting and business administration at the University of Michigan, and worked as an accountant and later as a senior financial executive in various companies.</p>
+        <p class="vb-intro">In 1951, he married Helen Taylor. She suffered from syphilis, which over the years increasingly damaged her nervous system and led to mental health changes. The marriage was difficult. In 1965, John List bought an imposing Victorian mansion in Westfield, New Jersey — 19 rooms, impressive from the outside, financially far beyond his means. He wanted to be the father who offers his family something grand. That was the SP6: creating security through external symbols.</p>
+        <p class="vb-intro">His finances spiraled out of control. The house bled money. John List secretly stole money from the bank account of his elderly mother, Alma, who lived on the top floor. In October 1971, he lost his job as a bank vice president. He told no one. He simply continued to enact the morning ritual: get up, get dressed, leave the house, return.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: 9. November 1971</h3>
-        <p class="vb-intro">Am Morgen des <strong>9. November 1971</strong> erschoss John List zun\xe4chst seine Mutter <strong>Alma</strong> (85) in ihrer Wohnung im Dachgeschoss. Dann erschoss er seine Frau <strong>Helen</strong> (45) in der K\xfcche. Er wartete, bis seine Kinder aus der Schule kamen, und erschoss nacheinander seine Tochter <strong>Patricia</strong> (16) und seine S\xf6hne <strong>Frederick</strong> (13) und <strong>John Jr.</strong> (15).</p>
-        <p class="vb-intro">Er schleppte die Leichen in den Ballsaal des Hauses, legte sie auf Schlafs\xe4cke und deckte sie sorgf\xe4ltig zu. Er stellte die Heizung aus, lie\xdf das Radio in der K\xfcche auf einem klassischen Musiksender laufen. Er bezahlte offene Rechnungen, stellte die Post ein, schrieb Entschuldigungen an die Schule der Kinder. Und dann schrieb er einen langen Brief an seinen lutherischen Pastor &ndash; f\xfcnf Seiten, in denen er seine Tat erkl\xe4rte: Seine Familie h\xe4tte den wirtschaftlichen Absturz nicht \xfcberlebt. Seine Frau wäre ins S\xfcndenhafte abgeglitten. Seine Kinder w\xe4ren in einem gottlosen Umfeld aufgewachsen. Er habe sie in einem Zustand der Gnade get\xf6tet, damit ihre Seelen gerettet sein k\xf6nnten. Er bat den Pastor, f\xfcr ihn zu beten.</p>
-        <p class="vb-intro">Dann verlie\xdf er das Haus, stieg in sein Auto und fuhr davon. Er war 46 Jahre alt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Crime: November 9, 1971</h3>
+        <p class="vb-intro">On the morning of <strong>November 9, 1971</strong>, John List first shot his mother <strong>Alma</strong> (85) in her attic apartment. Then he shot his wife <strong>Helen</strong> (45) in the kitchen. He waited for his children to come home from school and shot his daughter <strong>Patricia</strong> (16) and his sons <strong>Frederick</strong> (13) and <strong>John Jr.</strong> (15) one after another.</p>
+        <p class="vb-intro">He dragged the bodies into the house's ballroom, laid them on sleeping bags, and covered them carefully. He turned down the heat and left the radio in the kitchen tuned to a classical music station. He paid outstanding bills, stopped the mail, and wrote excuse notes for his children's school. And then he wrote a long letter to his Lutheran pastor — five pages explaining his act: his family would not have survived the financial ruin. His wife would have slipped into sinfulness. His children would have grown up in a godless environment. He had killed them in a state of grace so that their souls might be saved. He asked the pastor to pray for him.</p>
+        <p class="vb-intro">Then he left the house, got into his car, and drove away. He was 46 years old.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Verschwinden: 17 Jahre als Robert Clark</h3>
-        <p class="vb-intro">Die Leichen wurden erst <strong>vier Wochen sp\xe4ter</strong> entdeckt &ndash; als ein Nachbarsjunge das Haus betrat. Das Radio spielte noch. John List war l\xe4ngst weg.</p>
-        <p class="vb-intro">Er nahm eine neue Identit\xe4t an: <strong>Robert Peter Clark</strong>. Er zog nach Denver, Colorado, arbeitete als Buchhalter, heiratete 1985 erneut &ndash; eine Frau namens Delores Miller &ndash; und zog mit ihr nach Richmond, Virginia. Er besuchte weiterhin regelm\xe4\xdfig die lutherische Kirche. Er war der zuverl\xe4ssige, ruhige, freundliche Buchhalter von nebenan. Niemand ahnte etwas.</p>
-        <p class="vb-intro">Das ist der SP6w5 in seiner erschreckendsten Auspr\xe4gung: die F\xe4higkeit, eine neue Identit\xe4t zu konstruieren, sie konsequent zu leben, keinerlei Anzeichen von innerer Unruhe nach au\xdfen zu zeigen. Die Angst war weg &ndash; weil die Bedrohung beseitigt worden war. Er hatte das System neu aufgesetzt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Disappearance: 17 Years as Robert Clark</h3>
+        <p class="vb-intro">The bodies were only discovered <strong>four weeks later</strong> — when a neighbor's boy entered the house. The radio was still playing. John List was long gone.</p>
+        <p class="vb-intro">He assumed a new identity: <strong>Robert Peter Clark</strong>. He moved to Denver, Colorado, worked as an accountant, remarried in 1985 — a woman named Delores Miller — and moved with her to Richmond, Virginia. He continued to regularly attend the Lutheran church. He was the reliable, quiet, friendly accountant next door. No one suspected a thing.</p>
+        <p class="vb-intro">This is the SP6w5 in its most horrifying manifestation: the ability to construct a new identity, live it consistently, and display no outward signs of inner turmoil. The fear was gone — because the threat had been eliminated. He had reset the system.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Die Verhaftung: America&rsquo;s Most Wanted, 1989</h3>
-        <p class="vb-intro">Im Mai 1989 widmete sich die amerikanische Fernsehsendung <em>America&rsquo;s Most Wanted</em> dem Fall John List &ndash; inzwischen 18 Jahre alt. Ein forensischer Bildhauer hatte eine Altersbüste angefertigt: wie List heute aussehen k\xf6nnte. Eine Zuschauerin in Richmond, Virginia, erkannte ihren Nachbarn &bdquo;Robert Clark&ldquo;. Im Juni 1989 wurde John List in Richmond verhaftet. Er hatte zu diesem Zeitpunkt einen g\xfcltigen F\xfchrerschein auf den Namen Robert Clark, eine laufende Ehe, ein ordentliches Zuhause &ndash; und keine sichtbare Spur von Reue.</p>
-        <p class="vb-intro">Er gab die Morde zu. Er verteidigte sie. Er blieb dabei, dass er das Richtige getan hatte. Er wurde 1990 wegen f\xfcnffachen Mordes ersten Grades verurteilt und zu f\xfcnfmal lebenslänglich ohne Bew\xe4hrung verurteilt. Er starb am 21. M\xe4rz 2008 in Haft an einer Lungenentz\xfcndung. Er wurde 82 Jahre alt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. The Arrest: America's Most Wanted, 1989</h3>
+        <p class="vb-intro">In May 1989, the American television program <em>America's Most Wanted</em> featured the case of John List — by then 18 years old. A forensic sculptor had created an age-progressed bust showing what List might look like today. A viewer in Richmond, Virginia, recognized her neighbor "Robert Clark." In June 1989, John List was arrested in Richmond. At that time, he had a valid driver's license under the name Robert Clark, an active marriage, a tidy home — and no visible trace of remorse.</p>
+        <p class="vb-intro">He admitted to the murders. He defended them. He maintained that he had done the right thing. In 1990, he was convicted on five counts of first-degree murder and sentenced to five consecutive life terms without parole. He died of pneumonia in prison on March 21, 2008, at the age of 82.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Katastrophendenken als Tatmotiv:</strong> Die Leidenschaft der Sechs ist Angst / Feigheit &ndash; Angst als strukturelle Unfähigkeit, einer bedrohlichen Realit\xe4t direkt ins Gesicht zu sehen. John List sah den finanziellen Absturz kommen &ndash; und konnte nicht sagen: Wir haben ein Problem, wir brauchen Hilfe. Stattdessen konstruierte er in seinem Kopf ein Zukunftsszenario, das so katastrophal war, dass der Mord als L\xf6sung erschien. Der SP6er denkt nicht: <em>Was kann ich tun?</em> Er denkt: <em>Was wird das Schlimmste sein &ndash; und wie verhindere ich es?</em></p>
-        <p class="vb-intro"><strong>b) Religion als Sicherheitssystem:</strong> Der SP6er braucht ein System, dem er sich anvertrauen kann &ndash; eine Autorität, einen Glauben, einen Rahmen. F\xfcr List war das der lutherische Glaube. Das Erschreckende: Er hat die Morde nicht gegen diesen Glauben begangen. Er hat sie &ndash; in seiner eigenen Logik &ndash; <em>im Namen</em> dieses Glaubens begangen. Der Brief an den Pastor ist kein Dokument des Wahnsinns. Es ist das Dokument eines Mannes, der zutiefst \xfcberzeugt ist, im Recht zu sein.</p>
-        <p class="vb-intro"><strong>c) Der F\xfcnferfl\xfcgel als t\xf6dliche Isolation:</strong> Ein SP6 ohne den F\xfcnferfl\xfcgel h\xe4tte vielleicht einen Freund angerufen, den Pastor aufgesucht, seiner Frau die Wahrheit gesagt. Der F\xfcnferfl\xfcgel macht das unm\xf6glich: Er zieht sich zur\xfcck, vertraut niemandem, tr\xe4gt alles allein. Die Gedankenspirale wurde nie von au\xdfen unterbrochen. Niemand wusste, was in ihm vorging. Das Kaninchen in seinem Bau, allein mit seiner Angst &ndash; monatelang.</p>
-        <p class="vb-intro"><strong>d) Kein Sadismus, keine Wut:</strong> John List hat seine Familie nicht get\xf6tet, weil er sie hasste. Es gibt keine Hinweise auf Sadismus, keine Verstümmelung, keine Inszenierung. Er hat sie erschossen, die Leichen zugedeckt, ihre Schul-Entschuldigungen geschrieben. Das ist keine Aggression &ndash; das ist ein Buchhalter, der eine Aufgabenliste abarbeitet. Der SP6er im tiefsten Ungleichgewicht: Ausl\xf6schung als Verwaltungsakt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Catastrophic Thinking as a Motive:</strong> The passion of Type Six is Fear / Cowardice — fear as a structural inability to face a threatening reality directly. John List saw the financial crash coming — and was unable to say: We have a problem, we need help. Instead, he constructed a future scenario in his head that was so catastrophic that murder appeared to be the solution. The SP6 doesn't think: <em>What can I do?</em> He thinks: <em>What is the worst that could happen — and how do I prevent it?</em></p>
+        <p class="vb-intro"><strong>b) Religion as a Security System:</strong> The SP6 needs a system he can confide in — an authority, a faith, a structure. For List, that was the Lutheran faith. What is chilling: he did not commit the murders in defiance of this faith. He committed them — in his own logic — <em>in the name</em> of this faith. The letter to the pastor is not a document of madness. It is the document of a man who is deeply convinced that he is in the right.</p>
+        <p class="vb-intro"><strong>c) The Five-Wing as Deadly Isolation:</strong> An SP6 without the Five-wing might have called a friend, sought out the pastor, or told his wife the truth. The Five-wing makes that impossible: it withdraws, trusts no one, and carries everything alone. The thought spiral was never interrupted from the outside. Nobody knew what was going on inside him. The rabbit in his burrow, alone with his fear — for months.</p>
+        <p class="vb-intro"><strong>d) No Sadism, No Anger:</strong> John List did not kill his family because he hated them. There is no evidence of sadism, no mutilation, no staging. He shot them, covered the bodies, and wrote their school excuses. That is not aggression — that is an accountant working through a task list. The SP6 in extreme imbalance: liquidation as an administrative act.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Fazit: Das Kaninchen im Bau</h3>
-        <p class="vb-intro">John Lists Fall ist einer der verstörendsten dieser Sammlung &ndash; weil er so wenig nach einem M\xf6rder aussieht. Kein Psychopath, keine Impulskontrollst\xf6rung, kein erkennbarer Ausl\xf6ser. Ein pflichtbewusster, religi\xf6ser, arbeitsamer Mann, der jahrzehntelang funktionierte &ndash; und dann, als die Angst gro\xdf genug wurde und der F\xfcnferfl\xfcgel jeden Ausweg verschloss, handelte.</p>
-        <p class="vb-intro">Das Kaninchen schl\xe4gt nicht aus Bosheit um sich – es schl\xe4gt aus Angst um sich. In die Enge getrieben, ohne Fluchtm\xf6glichkeit, tut es das Einzige, was ihm bleibt. John List hat danach 17 Jahre lang in Frieden gelebt &ndash; als freundlicher Nachbar, als zuverl\xe4ssiger Buchhalter, als fleißiger Kirchg\xe4nger. Die Angst war weg. Das Problem war gel\xf6st. Das Kaninchen hatte seinen neuen Bau gefunden.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Conclusion: The Rabbit in the Burrow</h3>
+        <p class="vb-intro">John List's case is one of the most disturbing in this collection — because he looks so little like a killer. No psychopath, no impulse control disorder, no identifiable trigger. A dutiful, religious, industrious man who functioned for decades — and then, when the fear grew large enough and the Five-wing shut off every way out, he acted.</p>
+        <p class="vb-intro">The rabbit does not strike out of malice — it strikes out of fear. Cornered, with no escape, it does the only thing left to it. John List lived in peace for 17 years afterward — as a friendly neighbor, a reliable accountant, and a devoted churchgoer. The fear was gone. The problem was solved. The rabbit had found its new burrow.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Classification Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> John Emil List</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP6w5 &ndash; Self-Preservation Type 6 mit F\xfcnferfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Angst / Feigheit (strukturelle Unfähigkeit zur direkten Konfrontation)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Kaninchen</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 17. September 1925 &ndash; 21. März 2008</span>
-          <span style="display:block;"><strong>Tat:</strong> Fünffachmord an Frau, Mutter und drei Kindern, 9. November 1971, Westfield, New Jersey; 17 Jahre als &bdquo;Robert Clark&ldquo; auf der Flucht; verhaftet 1989, verurteilt 1990</span>
+          <strong>Name:</strong> John Emil List<br>
+        Subtype: SP6w5 – Self-Preservation Type 6 with Five-wing<br>
+        Passion: Fear / Cowardice (structural inability for direct confrontation)<br>
+        Animal Correspondence: Rabbit<br>
+        Lifespan: September 17, 1925 – March 21, 2008<br>
+        Crime: Quintuple murder of his wife, mother, and three children, November 9, 1971, Westfield, New Jersey; 17 years on the run as "Robert Clark"; arrested 1989, convicted 1990
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdrückt – und warum der Kontratyp der Sechs so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Angst und Feigheit als Grundmotiv der Sechs: Wie Angst das Denken übernimmt und warum das Schweigen gefährlicher ist als das Reden.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Self-Preservation Six in Comparison: How fear expresses itself differently in SP6, SO6, and SX6—and why the countertype of the Six is so difficult to recognize.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Character Profiles in Comparison.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Fear and Cowardice as the Core Motivation of Type Six: How fear takes over thought and why silence is more dangerous than speaking.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John List wurde 1990 – 18 Jahre nach der Tat – in fünf Fällen des Mordes schuldig gesprochen und starb 2008 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. John List was convicted in 1990 — 18 years after the crime — on five counts of murder and died in custody in 2008. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -29952,69 +27570,69 @@ function adolfEichmannPortraitPage() {
           <img src="../assets/portraits/adolf-eichmann-portrait.jpg" alt="Adolf Eichmann – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Adolf Eichmann</p>
-        <p class="krim-portrait-typ">SO6w5 · Social Type 6 mit F\xfcnferfl\xfcgel</p>
-        <p class="krim-portrait-sub">SS-Obersturmbannf\xfchrer &ndash; Animal correspondence: Erdm\xe4nnchen</p>
+        <p class="krim-portrait-typ">SO6w5 · Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-sub">SS-Obersturmbannführer · Animal Correspondence: Meerkat</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Erdm\xe4nnchen</h3>
-        <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> ist die Animal correspondence der sozialen Sechs &ndash; und es beschreibt die Psychologie von Adolf Eichmann mit erschreckender Genauigkeit. Das Erdm\xe4nnchen lebt in einer hochorganisierten Kolonie mit klaren Hierarchien und festen Rollen. Jedes Mitglied hat seine Funktion. Der Einzelne stellt die eigene Sicherheit nicht durch Individualit\xe4t her, sondern durch Einpassung: Wer seinen Platz kennt und ausf\xfcllt, ist gesch\xfctzt. Das Erdm\xe4nnchen vertraut dem System der Kolonie vollst\xe4ndig &ndash; es zweifelt nicht, es hinterfragt nicht, es f\xfchrt aus. Genau das war Adolf Eichmann.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Meerkat</h3>
+        <p class="vb-intro">The <strong>meerkat</strong> is the animal correspondence of the Social Six — and it describes the psychology of Adolf Eichmann with terrifying precision. The meerkat lives in a highly organized colony with clear hierarchies and fixed roles. Every member has its function. The individual does not establish their own security through individuality, but through fitting in: whoever knows their place and fills it is protected. The meerkat trusts the system of the colony completely — it does not doubt, it does not question, it executes. That was precisely Adolf Eichmann.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Sechs: Sicherheit durch Gehorsam</h3>
-        <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht durch eigene St\xe4rke, sondern durch Zugeh\xf6rigkeit zu einer Autorit\xe4tsstruktur. Die Leidenschaft der Sechs ist <em>Angst</em> &ndash; die SO6 bew\xe4ltigt diese Angst, indem sie sich in eine Institution, eine Ideologie oder eine Hierarchie einbettet. Solange sie dem System dient und das System ihr Deckung gibt, ist die Angst still.</p>
-        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, geboren am 19. M\xe4rz 1906 in Solingen, war ein durch und durch durchschnittlicher Mensch. Als junger Mann glücklos im Beruf, ohne besondere Begabung, ohne ausgep\xe4gten Ehrgeiz. Der Beitritt zur NSDAP und zur SS 1932 war f\xfcr ihn kein ideologischer Akt &ndash; es war ein Akt der <em>Einbindung</em>. Er fand eine Struktur, die ihm Halt, Zugeh\xf6rigkeit und Aufgaben gab. Er stieg auf, weil er zuverl\xe4ssig war, gehorsam war, Aufgaben sauber erledigte. Das ist die SO6-Karriere: nicht durch Brillanz, sondern durch Konformit\xe4t.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Six: Security Through Obedience</h3>
+        <p class="vb-intro">The <strong>Social Six (SO6)</strong> seeks security not through their own strength, but through belonging to an authority structure. The passion of Type Six is <em>Fear</em> — the SO6 copes with this fear by embedding themselves within an institution, an ideology, or a hierarchy. As long as they serve the system and the system provides them cover, the fear is quieted.</p>
+        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, born on March 19, 1906, in Solingen, was a thoroughly average man. As a young man, he was unsuccessful in his career, lacking special talent or pronounced ambition. Joining the NSDAP and the SS in 1932 was not an ideological act for him — it was an act of <em>integration</em>. He found a structure that provided him support, belonging, and duties. He rose through the ranks because he was reliable, obedient, and carried out tasks neatly. That is the SO6 career: achieved not through brilliance, but through conformity.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der F\xfcnferfl\xfcgel: System und Distanz</h3>
-        <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der sozialen Sechs eine k\xfchle, systematische Qualit\xe4t. Wo die SO6 durch Pflicht und Zugeh\xf6rigkeit motiviert wird, gibt der F\xfcnferfl\xfcgel dieser Pflicht eine technische, emotionslose Ausf\xfchrungslogik: Probleme werden als Systeme betrachtet, L\xf6sungen als Abl\xe4ufe geplant, Ergebnisse optimiert.</p>
-        <p class="vb-intro">Eichmann wurde zum Spezialisten f\xfcr &bdquo;Judenfragen&ldquo; &ndash; nicht weil ihn das Thema faszinierte, sondern weil man ihn dorthin einsetzte und er seine Aufgabe mit der k\xfchlen Systematik einer sozialen Sechs mit ausgepr\xe4gtem F\xfcnferfl\xfcgel ausf\xfchrte. Er studierte Hebr\xe4isch und Jiddisch, um sein Fachgebiet besser zu beherrschen. Er organisierte Transporte wie ein Logistiker, der Frachtbriefe optimiert. Die Distanz des F\xfcnferfl\xfcgels machte das Unertr\xe4gliche zu einem Verwaltungsproblem.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Five-Wing: System and Distance</h3>
+        <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Social Six a cool, systematic quality. Where the SO6 is motivated by duty and belonging, the Five-wing imparts a technical, emotionless logic of execution to that duty: problems are viewed as systems, solutions are planned as processes, and outcomes are optimized.</p>
+        <p class="vb-intro">Eichmann became a specialist in "Jewish affairs" — not because the subject fascinated him, but because he was assigned to it and executed his task with the cool systematics of a Social Six with a pronounced Five-wing. He studied Hebrew and Yiddish to better master his area of expertise. He organized transports like a logistics manager optimizing waybills. The detachment of the Five-wing turned the unbearable into an administrative problem.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Weg zur &bdquo;Endl\xf6sung&ldquo;</h3>
-        <p class="vb-intro">Als Leiter des &bdquo;Judenreferats&ldquo; im Reichssicherheitshauptamt war Eichmann verantwortlich f\xfcr die Organisation der Deportationen. Er koordinierte die Logistik der Deportationszüge, verhandelte mit den Bahn- und Transportbeh\xf6rden, stimmte mit den Lagern ab. Hunderttausende gingen auf Grundlage seiner Deportationslisten, Transportprotokolle und Aktenvorg\xe4nge in die Vernichtungslager.</p>
-        <p class="vb-intro">An der <strong>Wannsee-Konferenz</strong> vom 20. Januar 1942 nahm er als Protokollf\xfchrer teil &ndash; eine Funktion, die perfekt zu ihm passte: Er dokumentierte den Beschluss zur systematischen Vernichtung der europ\xe4ischen Juden, aber er traf ihn nicht. Er war der Mann, der Entscheidungen ausf\xfchrte, nicht derjenige, der sie traf. Das ist die gefährlichste Form der SO6-Pathologie: der gehorsame Vollstrecker ohne eigene moralische Instanz.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Path to the "Final Solution"</h3>
+        <p class="vb-intro">As head of the "Jewish Department" (Judenreferat) in the Reich Main Security Office, Eichmann was responsible for organizing the deportations. He coordinated the logistics of the deportation trains, negotiated with railway and transport authorities, and coordinated with the camps. Hundreds of thousands were sent to extermination camps based on his deportation lists, transport logs, and case files.</p>
+        <p class="vb-intro">He attended the <strong>Wannsee Conference</strong> on January 20, 1942, as the recording secretary — a function that suited him perfectly: he documented the decision for the systematic extermination of European Jews, but he did not make it. He was the man who executed decisions, not the one who made them. This is the most dangerous form of SO6 pathology: the obedient executor without an independent moral compass.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Flucht und Verhaftung</h3>
-        <p class="vb-intro">Nach Kriegsende fl\xfcchtete Eichmann \xfcber die sogenannte &bdquo;Rattenlinie&ldquo; nach Argentinien, wo er als <em>Ricardo Klement</em> in Buenos Aires untertauchte. Er lebte dort fast 15 Jahre &ndash; ein unauff\xe4lliges B\xfcrgerleben in einem Vorort, mit Familie, ohne Aufsehen.</p>
-        <p class="vb-intro">1960 sp\xfcrte der israelische Geheimdienst Mossad ihn auf. In einer pr\xe4zise geplanten Aktion wurde er am 11. Mai 1960 auf dem Weg von der Bushaltestelle nach Hause \xfcberw\xe4ltigt, in einem Versteck festgehalten und schlie\xdflich heimlich nach Israel ausgeflogen. Die Art seines Lebens im Exil &ndash; unauff\xe4llig, regelkonform, ohne Netzwerk &ndash; ist selbst ein SO6-Signal: keine Flucht mit Gleichgesinnten, keine geheime Gemeinschaft, kein Heldenmythos. Nur ein Mann, der versuchte, in einer neuen Struktur unsichtbar zu sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Escape and Arrest</h3>
+        <p class="vb-intro">After the end of the war, Eichmann escaped via the so-called "Ratlines" to Argentina, where he went into hiding in Buenos Aires as <em>Ricardo Klement</em>. He lived there for nearly 15 years — an inconspicuous middle-class life in a suburb with his family, causing no stir.</p>
+        <p class="vb-intro">In 1960, the Israeli intelligence service Mossad tracked him down. In a precisely planned operation on May 11, 1960, he was overpowered on his way home from the bus stop, held in a safehouse, and ultimately smuggled secretly to Israel. The nature of his life in exile — unobtrusive, rule-abiding, without a network — is itself an SO6 indicator: no escape with like-minded individuals, no secret community, no heroic myth. Just a man trying to be invisible within a new structure.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Der Prozess: Die Banalit\xe4t des B\xf6sen</h3>
-        <p class="vb-intro">Der Prozess gegen Adolf Eichmann fand 1961 in Jerusalem statt und wurde zu einem historischen Ereignis. Die Philosophin <strong>Hannah Arendt</strong> berichtete darüber f\xfcr den New Yorker und pr\xe4gte dabei einen der wirkmächtigsten Begriffe des 20. Jahrhunderts: <em>die Banalit\xe4t des B\xf6sen</em>.</p>
-        <p class="vb-intro">Arendt war erschüttert von dem, was sie sah: kein Monster, kein Sadist, kein ideologischer Fanatiker &ndash; sondern ein h\xf6chst gew\xf6hnlicher Mann. Eichmann beteuerte immer wieder, er habe nur Befehle ausgef\xfchrt. Er habe seinen Vorgesetzten gegen\xfcber Loyalit\xe4t empfunden. Er habe die Gesetze und Anordnungen des Staates befolgt. Er h\xe4tte nicht geglaubt, das Recht zu haben, selbst zu urteilen.</p>
-        <p class="vb-intro">Das Enneagramm macht sichtbar, was Arendt beschrieb: Eichmann war keine Ausnahme. Er war der <em>Prototyp der ungesunden SO6</em>: Ein Mensch, der seine gesamte moralische Urteilsf\xe4higkeit an eine Autorit\xe4tsstruktur abgegeben hatte. Er wurde am 31. Mai 1962 in Israel geh\xe4ngt &ndash; als erster und bislang einziger Verurteilter, der in Israel hingerichtet wurde.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Trial: The Banality of Evil</h3>
+        <p class="vb-intro">The trial against Adolf Eichmann took place in Jerusalem in 1961 and became a historic event. The philosopher <strong>Hannah Arendt</strong> reported on it for <em>The New Yorker</em>, coining one of the most influential concepts of the 20th century: <em>the banality of evil</em>.</p>
+        <p class="vb-intro">Arendt was shaken by what she saw: not a monster, not a sadist, not an ideological fanatic — but an utterly ordinary man. Eichmann repeatedly asserted that he had only followed orders. He felt loyalty toward his superiors. He had obeyed the laws and regulations of the state. He did not believe he had the right to judge for himself.</p>
+        <p class="vb-intro">The Enneagram makes visible what Arendt described: Eichmann was no exception. He was the <em>prototype of the unhealthy SO6</em>: a human being who had surrendered their entire capacity for moral judgment to an authority structure. He was hanged in Israel on May 31, 1962 — the first and so far only convict executed in Israel.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO6 &ndash; &bdquo;Pflicht / W\xe4rme&ldquo;:</strong> Claudio Naranjo beschreibt die SO6 als den Subtype, der Sicherheit durch Pflichtgef\xfchl und Zugeh\xf6rigkeit zur Gruppe herstellt. Der SO6er ist nicht kontraphobisch wie der SX6 und nicht selbst\xe4ndigkeitssuchend wie der SP6 &ndash; er sucht Einbettung in ein System und gibt diesem System seine Loyalit\xe4t. Eichmann war dieser Subtype in seiner extremsten, zerst\xf6rerischsten Form: vollst\xe4ndige Auslagerung des pers\xf6nlichen Gewissens an die Hierarchie.</p>
-        <p class="vb-intro"><strong>b) Der F\xfcnferfl\xfcgel als Verst\xe4rker:</strong> Der w5 machte Eichmanns Pflichtausf\xfchrung kalt und effizient. W\xe4hrend ein SO6 ohne diesen Fl\xfcgel m\xf6glicherweise emotional st\xe4rker ber\xfchrt worden w\xe4re, erm\xf6glichte der F\xfcnferfl\xfcgel eine intellektuelle Distanzierung: Menschen wurden zu Nummern in Transportlisten, Morde zu Verwaltungsproblemen.</p>
-        <p class="vb-intro"><strong>c) Die eigentliche Botschaft:</strong> Das Enneagramm lehrt hier keine Entschuldigung &ndash; es lehrt eine Warnung. Eichmanns Fall zeigt, was geschieht, wenn ein Mensch nie lernt, <em>gegen</em> das System zu denken, dem er angeh\xf6rt. Die Gesundheitsstufen der Sechs verlaufen genau entlang dieser Achse: von der blinden Autorit\xe4tsh\xf6rigkeit zur eigenst\xe4ndigen moralischen Urteilskraft. Eichmann war auf der untersten Stufe dieser Skala.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SO6 – "Duty / Warmth":</strong> Claudio Naranjo describes the SO6 as the subtype that establishes security through a sense of duty and belonging to the group. The SO6 is not counterphobic like the SX6 nor seeking independence like the SP6 — they seek embedding in a system and grant that system their loyalty. Eichmann was this subtype in its most extreme, most destructive form: the complete outsourcing of personal conscience to the hierarchy.</p>
+        <p class="vb-intro"><strong>b) The Five-Wing as an Amplifier:</strong> The w5 wing made Eichmann's execution of duty cold and efficient. While an SO6 without this wing might have been more emotionally affected, the Five-wing enabled intellectual detachment: human beings became numbers on transport lists, and murder became an administrative problem.</p>
+        <p class="vb-intro"><strong>c) The True Message:</strong> The Enneagram offers no excuse here — it teaches a warning. Eichmann's case demonstrates what happens when a person never learns to think <em>against</em> the system to which they belong. The levels of health for Type Six run precisely along this axis: from blind obedience to authority to independent moral judgment. Eichmann was at the very bottom level of this scale.</p>
       </div>
 
       <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Classification Summary</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Otto Adolf Eichmann</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO6w5 &ndash; Soziale Sechs mit F\xfcnferfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Angst (als blinder Gehorsam gegen\xfcber der Autorit\xe4t)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Erdm\xe4nnchen</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 19. M\xe4rz 1906 &ndash; 1. Juni 1962</span>
-          <span style="display:block;"><strong>Verurteilung:</strong> Verbrechen gegen die Menschlichkeit und das j\xfcdische Volk; Todesurteil, hingerichtet am 1. Juni 1962 in Israel</span>
+          <strong>Name:</strong> Otto Adolf Eichmann<br>
+        Subtype: SO6w5 – Social Type 6 with Five-wing<br>
+        Passion: Fear (as blind obedience to authority)<br>
+        Animal Correspondence: Meerkat<br>
+        Lifespan: March 19, 1906 – June 1, 1962<br>
+        Conviction: Crimes against humanity and the Jewish people; death sentence, executed on June 1, 1962, in Israel
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Sechs im Vergleich: Wie sich Angst bei SP6, SO6 und SX6 unterschiedlich ausdr\xfcckt – und warum die SO6 als Konformit\xe4tstyp besonders anf\xe4llig f\xfcr systemische Mittäterschaft ist.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Angst als Grundmotiv der Sechs: Wie das Schutzsystem entsteht und wie eigene moralische Urteilskraft w\xe4chst.", "Wer du wirklich bist (Band 1)")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social Six in Comparison: How fear expresses itself differently in SP6, SO6, and SX6—and why the SO6 as a conformity type is particularly susceptible to systemic complicity.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP6, SO6, SX6 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Fear as the Core Motivation of Type Six: How the defense system develops and how independent moral judgment grows.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Adolf Eichmann wurde 1961 in Jerusalem in 15 Anklagepunkten schuldig gesprochen und 1962 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Adolf Eichmann was found guilty on 15 counts in Jerusalem in 1961 and executed in 1962. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -30039,193 +27657,83 @@ function andersBreivikPortraitPage() {
         </div>
         <p class="krim-portrait-name">Anders Breivik</p>
         <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Norwegischer Rechtsterrorist · Animal correspondence: Wolf</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Norwegian Right-Wing Terrorist · Animal Correspondence: Wolf</p>
       </div>
 
       <p class="psycho-intro">
-        Anders Behring Breivik ist verantwortlich f\xfcr die Anschl\xe4ge in Norwegen am
-        22. Juli 2011, bei denen 77 Menschen starben. Er f\xfchrte zuerst einen Bombenanschlag
-        im Regierungsviertel von Oslo aus und anschlie\xdfend eine Schie\xdferei auf der Insel
-        Ut\xf8ya, wo er gezielt Jugendliche der sozialdemokratischen Arbeiterpartei angriff.
-        Breiviks Verbrechen waren Ausdruck eines fanatischen politischen Extremismus und
-        eines tiefen pers\xf6nlichen Wahns. Seine Ideologie entwickelte sich \xfcber Jahre hinweg
-        und kulminierte in einer m\xf6rderischen Manifestation von Hass und Entfremdung.
+        Anders Behring Breivik is responsible for the attacks in Norway on July 22, 2011, in which 77 people died. He first carried out a bombing in the government quarter of Oslo and subsequently a shooting on the island of Utøya, where he targeted youth members of the Social Democratic Workers' Party. Breivik's crimes were the expression of fanatical political extremism and a deep personal delusion. His ideology developed over years, culminating in a murderous manifestation of hatred and alienation.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        Anders Behring Breivik wird der <strong>Sexuellen Sechs mit F\xfcnferfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Sechs ist <em>Angst</em> –
-        eine tief verwurzelte Unsicherheit \xfcber die eigene Sicherheit und Zugeh\xf6rigkeit.
-        Beim sexuellen Subtype \xe4u\xdfert sich diese Angst kontraphobisch: Die sexuelle Sechs
-        st\xfcrzt sich in die Angst hinein, statt vor ihr zu fliehen. Der F\xfcnferfl\xfcgel
-        erg\xe4nzt dies mit intellektuellem R\xfcckzug, System-Denken und einer Tendenz zur
-        Isolation. In Breiviks Fall f\xfchrte diese Kombination zu einem jahrelang im
-        Verborgenen aufgebauten Weltbild, das sich schlie\xdflich in extremster Gewalt
-        entlud.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> Anders Behring Breivik is assigned to the <strong>Sexual Six with Five-wing</strong> in the Enneagram. The passion of Type Six is <em>Fear</em> — a deeply rooted insecurity regarding one's own safety and belonging. In the sexual subtype, this fear manifests counterphobically: the sexual Six charges into the fear rather than fleeing from it. The Five-wing supplements this with intellectual withdrawal, systems thinking, and a tendency toward isolation. In Breivik's case, this combination led to a worldview built up in secret over many years, which ultimately erupted in extreme violence.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Fixiert und wachsam:</strong>
-        Breiviks Blick war w\xe4hrend seines Prozesses und in \xf6ffentlichen Auftritten kalt
-        und kontrolliert, oft fokussiert und mit einem Ausdruck von Wachsamkeit,
-        wie man ihn bei der sexuellen Sechs h\xe4ufig beobachtet.</p>
-        <p class="vb-intro"><strong>b) Herausfordernd:</strong>
-        Der Blick der sexuellen Sechs ist oft intensiv, mit einer Mischung aus Misstrauen
-        und dem Bed\xfcrfnis nach Zugeh\xf6rigkeit. Breivik zeigte eine Faszination f\xfcr
-        Hierarchien und Loyalit\xe4t gegen\xfcber seiner eigenen Ideologie.</p>
-        <p class="vb-intro"><strong>c) Defensiv:</strong>
-        Obwohl Breivik dominierend wirken wollte, schien sein Blick oft defensiv,
-        was auf eine tief verwurzelte Angst und das Bed\xfcrfnis nach Kontrolle hindeutet –
-        typisch f\xfcr die unsichere Natur der Sechs.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Fixed and Vigilant:</strong> During his trial and public appearances, Breivik's gaze was cold and controlled, often focused, with an expression of watchfulness frequently observed in the sexual Six.</p>
+        <p class="vb-intro"><strong>b) Challenging:</strong> The gaze of the sexual Six is often intense, showing a mixture of mistrust and the need for belonging. Breivik displayed a fascination with hierarchies and loyalty to his own ideology.</p>
+        <p class="vb-intro"><strong>c) Defensive:</strong> Although Breivik wanted to appear dominant, his gaze often seemed defensive, pointing to a deeply rooted fear and the need for control — typical of the insecure nature of Type Six.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Misstrauen und Angst:</strong>
-        Wie viele Sechser neigte Breivik dazu, potenzielle Bedrohungen zu \xfcberbewerten,
-        sei es durch Einwanderung oder politische Ideologien. Dieses tiefe Misstrauen
-        pr\xe4gte seine Weltsicht und war die treibende Kraft hinter seinen Handlungen.</p>
-        <p class="vb-intro"><strong>b) Loyalit\xe4t und Feindschaft:</strong>
-        Sexuelle Sechsen zeichnen sich durch eine extreme Fixierung auf Loyalit\xe4t aus,
-        was bei Breivik in seiner obsessiven Hingabe an eine extreme, kriegerische
-        Ideologie sichtbar wurde. Gleichzeitig sah er diejenigen, die seine
-        Weltanschauung nicht teilten, als Feinde.</p>
-        <p class="vb-intro"><strong>c) Kampf gegen vermeintliche Bedrohungen:</strong>
-        Die sexuelle Sechs sucht oft nach einem Kampf, um sich sicher und gesch\xfctzt
-        zu f\xfchlen. Breiviks Attacken waren der H\xf6hepunkt eines jahrelangen internen
-        Krieges gegen das, was er als existenzielle Bedrohung f\xfcr Norwegen ansah.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Mistrust and Fear:</strong> Like many Sixes, Breivik tended to overestimate potential threats, whether from immigration or political ideologies. This deep mistrust shaped his worldview and was the driving force behind his actions.</p>
+        <p class="vb-intro"><strong>b) Loyalty and Enmity:</strong> Sexual Sixes are characterized by an extreme fixation on loyalty, which was visible in Breivik's obsessive devotion to an extreme, warlike ideology. At the same time, he viewed those who did not share his worldview as enemies.</p>
+        <p class="vb-intro"><strong>c) Battle Against Perceived Threats:</strong> The sexual Six often seeks out a fight to feel safe and protected. Breivik's attacks were the culmination of a years-long internal war against what he perceived as an existential threat to Norway.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fixierung auf Ideologien:</strong>
-        Anders Behring Breivik war besessen von der Idee, Norwegen und Europa vor dem
-        Einfluss des Islams und Multikulturalismus zu retten – eine Manifestation der
-        tiefen Angst, die die Sechs antreibt.</p>
-        <p class="vb-intro"><strong>b) \xc4ngstliche Aggression:</strong>
-        Die sexuelle Sechs kann, wenn sie sich bedroht f\xfchlt, in eine aggressive
-        Abwehrhaltung gehen, die Breivik schlie\xdflich in seine gewaltt\xe4tigen
-        Taten f\xfchrte.</p>
-        <p class="vb-intro"><strong>c) Extrem kontrolliert und strategisch:</strong>
-        Obwohl die Sechs oft als \xe4ngstlich wahrgenommen wird, kann sie in einem Gef\xfchl
-        der Bedrohung extrem strategisch und zielgerichtet handeln, wie Breiviks
-        detaillierte Planung und Durchf\xfchrung der Anschl\xe4ge zeigt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Fixation on Ideologies:</strong> Anders Behring Breivik was obsessed with the idea of saving Norway and Europe from the influence of Islam and multiculturalism — a manifestation of the deep fear that drives Type Six.</p>
+        <p class="vb-intro"><strong>b) Fearful Aggression:</strong> When feeling threatened, the sexual Six can assume an aggressive defensive stance, which ultimately led Breivik to commit his violent acts.</p>
+        <p class="vb-intro"><strong>c) Extremely Controlled and Strategic:</strong> Although Type Six is often perceived as fearful, when under a sense of threat it can act with extreme strategy and focus, as shown by Breivik's detailed planning and execution of the attacks.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Furchterregend und entfremdet:</strong>
-        Breiviks Gesamtwirkung auf seine Umwelt war eine Mischung aus Furcht und
-        Entfremdung. Er wirkte sowohl distanziert als auch bedrohlich.</p>
-        <p class="vb-intro"><strong>b) Polarisierend:</strong>
-        Seine Taten und Ideologien waren darauf ausgelegt, die Gesellschaft zu spalten
-        und hinterlie\xdfen tiefe Gr\xe4ben in Norwegen und dar\xfcber hinaus.</p>
-        <p class="vb-intro"><strong>c) Isolation:</strong>
-        Trotz seiner massiven \xf6ffentlichen Taten war Breiviks Energie stark auf
-        Isolation gerichtet, sowohl sozial als auch emotional, wie es h\xe4ufig bei
-        Sechsern der Fall ist, die sich durch Feindbilder abgeschottet f\xfchlen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Frightening and Alienated:</strong> Breivik's overall impression on those around him was a mix of fear and alienation. He appeared both distant and threatening.</p>
+        <p class="vb-intro"><strong>b) Polarizing:</strong> His actions and ideology were designed to divide society, leaving deep rifts in Norway and beyond.</p>
+        <p class="vb-intro"><strong>c) Isolation:</strong> Despite his massive public crimes, Breivik's energy was strongly directed toward isolation, both socially and emotionally, as is often the case with Sixes who feel walling themselves off behind enemy images.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Unruhig und angespannt:</strong>
-        Die sexuelle Sechs hat oft eine nerv\xf6se, unruhige Energie, die sich auch bei
-        Breivik zeigt. Seine Tatkraft kam aus einer inneren Anspannung, die \xfcber
-        Jahre hinweg aufgebaut wurde.</p>
-        <p class="vb-intro"><strong>b) Latente Aggression:</strong>
-        Wie bei der sexuellen Sechs \xfcblich, war in Breiviks Energie stets eine
-        latente Aggression sp\xfcrbar, die schlie\xdflich gewaltsam ausbrach.</p>
-        <p class="vb-intro"><strong>c) Erschreckende Entschlossenheit:</strong>
-        Trotz seiner inneren Unsicherheit und Angst war Breivik in seinen Handlungen
-        erschreckend entschlossen, was auf die F\xe4higkeit gerade der sexuellen Sechs
-        hinweist, in Momenten \xe4u\xdferer Bedrohung extreme Ma\xdfnahmen zu ergreifen und
-        willensstark bis zum bitteren Ende durchzuf\xfchren.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Restless and Tense:</strong> The sexual Six often possesses a nervous, restless energy, which was also evident in Breivik. His drive stemmed from an inner tension built up over years.</p>
+        <p class="vb-intro"><strong>b) Latent Aggression:</strong> As is typical for the sexual Six, a latent aggression was always palpable in Breivik's energy, which ultimately erupted violently.</p>
+        <p class="vb-intro"><strong>c) Chilling Determination:</strong> Despite his inner insecurity and fear, Breivik was chillingly determined in his actions, highlighting the ability of the sexual Six in particular to take extreme measures during moments of perceived external threat and carry them out with strong resolve to the bitter end.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Wolf</h3>
-        <p class="vb-intro"><strong>a) Loyalit\xe4t und Hierarchie:</strong>
-        Der Wolf zeigt intensive Loyalit\xe4t innerhalb seines Rudels und ist stark auf
-        Hierarchie fixiert. Breivik sah sich selbst als einen Krieger, der seine
-        Herde verteidigt.</p>
-        <p class="vb-intro"><strong>b) Rudelmentalit\xe4t:</strong>
-        Breiviks Obsession mit der europ\xe4ischen Kultur als etwas, das verteidigt
-        werden muss, ist vergleichbar mit der Art und Weise, wie W\xf6lfe ihr
-        Territorium sch\xfctzen.</p>
-        <p class="vb-intro"><strong>c) Isolation und Aggression:</strong>
-        Der Wolf kann, wenn er von seinem Rudel getrennt ist, \xe4u\xdferst aggressiv und
-        gef\xe4hrlich werden. Breivik agierte wie ein einsamer Wolf, der von der
-        Gesellschaft isoliert war und aus dieser Isolation heraus aggressiv handelte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Wolf</h3>
+        <p class="vb-intro"><strong>a) Loyalty and Hierarchy:</strong> The wolf displays intense loyalty within its pack and is strongly fixated on hierarchy. Breivik saw himself as a warrior defending his herd.</p>
+        <p class="vb-intro"><strong>b) Pack Mentality:</strong> Breivik's obsession with European culture as something that must be defended is comparable to the way wolves protect their territory.</p>
+        <p class="vb-intro"><strong>c) Isolation and Aggression:</strong> When separated from its pack, the wolf can become extremely aggressive and dangerous. Breivik acted like a lone wolf, isolated from society and acting aggressively out of that isolation.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Anders Behring Breivik kann als eine extreme, vollkommen unbewusste und
-        psychisch enorm kranke Manifestation der sexuellen Sechs verstanden werden.
-        Seine Verbrechen wurzeln in tiefem Misstrauen, Angst und der Wahrnehmung von
-        Bedrohungen, die seine Existenz und die seiner Kultur innerpsychisch gef\xe4hrden.
-        Die latente Aggression und extreme Loyalit\xe4t gegen\xfcber seiner eigenen Ideologie,
-        gepaart mit der F\xe4higkeit, in Zeiten wahrgenommener Bedrohung aggressiv und
-        strategisch zu handeln, sind Merkmale, die stark mit der sexuellen Sechs in
-        Verbindung stehen.
+        Anders Behring Breivik can be understood as an extreme, completely unconscious, and severely mentally ill manifestation of the sexual Six. His crimes are rooted in deep mistrust, fear, and the perception of threats that intrapsychically endanger his existence and that of his culture. The latent aggression and extreme loyalty to his own ideology, paired with the ability to act aggressively and strategically in times of perceived threat, are traits strongly associated with the sexual Six.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos sexuelle Sechs – „Beauty / Strength“:</strong>
-        Claudio Naranjo nannte die sexuelle Sechs „Beauty/Strength“: Die sexuelle Sechs
-        \xfcberwindet ihre Angst nicht durch Flucht, sondern durch Verwandlung in Kraft.
-        Sie wird selbst zur St\xe4rke, die sie sucht. Breiviks jahrelanges
-        k\xf6rperliches Training, die minutii\xf6se Vorbereitung der Anschl\xe4ge und sein
-        unerschrockenes Auftreten vor Gericht sind Ausdr\xfccke dieser Dynamik:
-        Angst, die sich in demonstrative Unerschrockenheit verwandelt.</p>
-        <p class="vb-intro"><strong>b) Kontraphobische Sechs – die Angst wird angegriffen:</strong>
-        Unter den drei Subtypes ist die sexuelle Sechs am st\xe4rksten kontraphobisch.
-        Sie l\xe4uft nicht vor der Bedrohung davon – sie st\xfcrzt sich hinein.
-        Breiviks K\xe4lte w\xe4hrend des Massakers auf Ut\xf8ya ist keine Gef\xfchllosigkeit,
-        sondern kontraphobisches Verhalten: das Durchf\xfchren des Gef\xfcrchteten als einziger
-        Weg, die Angst zu \xfcberwinden. Diese Dynamik unterscheidet ihn fundamental
-        von anderen Typen mit \xe4hnlicher Ideologie.</p>
-        <p class="vb-intro"><strong>c) Der F\xfcnferfl\xfcgel – Intellekt im Dienst der Angst:</strong>
-        Der F\xfcnferfl\xfcgel gibt der Sechs intellektuelle Tiefe, Systemdenken und die
-        Tendenz zur Isolation. Breivik verbrachte Jahre in fast vollst\xe4ndiger Abschirmung
-        und baute dabei ein ausgefeiltes ideologisches Geb\xe4ude auf. Das
-        1.500-seitige Manifest „2083: A European Declaration of Independence“ ist
-        Sechser-Angst mit Typ-F\xfcnf-Intellekt: akribisch, systematisch, in sich
-        geschlossen – und vollkommen realit\xe4tsfern.</p>
-        <p class="vb-intro"><strong>d) Die Ritter-Templar-Phantasie – Zugeh\xf6rigkeit als Wahnbild:</strong>
-        <strong>Breivik</strong> erfand einen geheimen Orden – die „Knights Templar“ – und
-        bezeichnete sich als dessen Kommandant. Dahinter steckt die tiefste Sehnsucht
-        der Sechs: Zugeh\xf6rigkeit zu einer Gemeinschaft, die Halt gibt und Sinn stiftet.
-        Da diese Gemeinschaft in der Realit\xe4t nicht existierte, schuf er sie selbst –
-        als Wahngebilde, das seine Isolation \xfcberbr\xfcckte und seinen Taten h\xf6here
-        Bedeutung verlieh.</p>
-        <p class="vb-intro"><strong>e) Das Freund-Feind-Schema der sexuellen Sechs:</strong>
-        Die sexuelle Sechs teilt die Welt scharf in Verb\xfcndete und Feinde.
-        Breiviks Auswahl der AUF-Jugendlichen als Zielgruppe war nicht zuf\xe4llig:
-        Sie repr\xe4sentierten in seiner Logik genau jene, die seinen „Stamm“ verrieten.
-        Das ist keine politische Kalk\xfclration allein – es ist das Freund-Feind-Denken
-        einer Sechs, die in einem imagin\xe4ren Krieg lebt und jeden als Verr\xe4ter sieht,
-        der nicht k\xe4mpft.</p>
-        <p class="vb-intro"><strong>f) Das Tribunal im Gerichtssaal:</strong>
-        <strong>Breivik</strong> inszenierte seinen Prozess als politische B\xfchne – er sah sich nicht
-        als Angeklagten, sondern als Ankl\xe4ger. Er forderte einen Freispruch im Namen
-        Europas. Die Sechs, die sich in ihrer „Sache“ v\xf6llig sicher ist, kennt keine
-        Reue – sie kennt nur Rechthaberei. Dieser Moment illustriert, wie tief
-        die Sechser-Angst in eine fanatische Gewissheit verkehrt werden kann.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's Sexual Six – "Beauty / Strength":</strong> Claudio Naranjo called the sexual Six "Beauty/Strength": the sexual Six overcomes fear not by fleeing, but by transforming it into strength. They become the very strength they seek. Breivik's years of physical training, the meticulous preparation of the attacks, and his fearless demeanor in court are expressions of this dynamic: fear transformed into demonstrative fearlessness.</p>
+        <p class="vb-intro"><strong>b) Counterphobic Six – Attacking the Fear:</strong> Among the three subtypes, the sexual Six is the most counterphobic. They do not run away from the threat — they rush into it. Breivik's coldness during the massacre on Utøya is not emotional numbness, but counterphobic behavior: carrying out the feared act as the only way to overcome the fear. This dynamic fundamentally distinguishes him from other types with similar ideologies.</p>
+        <p class="vb-intro"><strong>c) The Five-Wing – Intellect in the Service of Fear:</strong> The Five-wing provides the Six with intellectual depth, systems thinking, and a tendency toward isolation. Breivik spent years in near-complete seclusion, constructing an elaborate ideological framework. His 1,500-page manifesto, "2083: A European Declaration of Independence," is Type Six fear executed with Type Five intellect: meticulous, systematic, self-contained — and completely detached from reality.</p>
+        <p class="vb-intro"><strong>d) The Knights Templar Fantasy – Belonging as a Delusion:</strong> <strong>Breivik</strong> invented a secret order — the "Knights Templar" — and declared himself its commander. Behind this lies the deepest longing of Type Six: belonging to a community that provides support and bestows meaning. Since this community did not exist in reality, he created it himself — as a delusional fantasy that bridged his isolation and gave higher significance to his actions.</p>
+        <p class="vb-intro"><strong>e) The Friend-or-Foe Schema of the Sexual Six:</strong> The sexual Six sharply divides the world into allies and enemies. Breivik's selection of the AUF youth as targets was not random: in his logic, they represented the very individuals who betrayed his "tribe." This is not merely political calculation — it is the friend-or-foe thinking of a Six who lives in an imaginary war and views anyone who does not fight as a traitor.</p>
+        <p class="vb-intro"><strong>f) The Tribunal in the Courtroom:</strong> <strong>Breivik</strong> staged his trial as a political platform — he did not view himself as the accused, but as the prosecutor. He demanded an acquittal in the name of Europe. A Six who feels entirely righteous in their "cause" knows no remorse — they know only self-righteousness. This moment illustrates how deeply Six-fear can be inverted into fanatical certainty.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sechs im Vergleich: Wie sich Angst bei den drei Subtypes der Sechs unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Sexuelle Sechs, soziale Sechs, selbsterhaltende Sechs – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 6 ausf\xfchrlich portr\xe4tiert – Angst, Loyalit\xe4t und der Heilungsweg \xfcber echtes Vertrauen.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Six in Comparison: How fear expresses itself differently across the three subtypes of Type Six.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Sexual Six, Social Six, Self-Preservation Six – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 6 Portrayed in Detail – Fear, loyalty, and the path to healing through true trust.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Anders Breivik wurde 2012 wegen Terrorismus und 77-fachen Mordes zu 21 Jahren Sicherungsverwahrung verurteilt – der Höchststrafe nach norwegischem Recht. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Anders Breivik was sentenced in 2012 to 21 years of preventive detention for terrorism and 77 counts of murder — the maximum penalty under Norwegian law. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -31643,164 +29151,78 @@ function paulBernardoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Paul Bernardo</p>
         <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" – Kanada 1990–1993</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken & Barbie Killers" – Canada 1990–1993</p>
       </div>
       <p class="psycho-intro">
-        <strong>Paul Bernardo</strong>, geboren 1964 in Scarborough, Ontario, ist einer der bekanntesten
-        Serienstraftäter Kanadas. Er vergewaltigte zwischen 1987 und 1990 mindestens 14 Frauen
-        im Großraum Toronto – als der sogenannte „Scarborough Rapist", dessen Identität
-        jahrelang unbekannt blieb. Gemeinsam mit seiner Ehefrau Karla Homolka ermordete er
-        danach drei Teenager-Mädchen, darunter Karlas eigene Schwester Tammy (15).
-        Er wurde 1994 wegen erstgradigem Mord verurteilt und sitzt bis heute in Haft.
-        2023 wurde er als gefährlicher Straftäter eingestuft und von seiner Möglichkeit
-        einer Bewährung dauerhaft ausgeschlossen.
-        Was Bernardo so schwer fassbar macht: Er war äußerlich tadelloses Bild eines Erfolgstyps –
-        Buchhalter, charmant, gepflegt, beliebt. Das Enneagramm macht sichtbar,
-        was unter dieser Oberfläche arbeitete.
+        <strong>Paul Bernardo</strong>, born in 1964 in Scarborough, Ontario, is one of Canada's most notorious serial offenders. Between 1987 and 1990, he raped at least 14 women in the Greater Toronto Area as the so-called "Scarborough Rapist," whose identity remained unknown for years. Together with his wife, Karla Homolka, he subsequently murdered three teenage girls, including Karla's own sister Tammy (15). He was convicted of first-degree murder in 1995 and remains in prison to this day. In 1995, he was also designated a dangerous offender, effectively precluding any possibility of parole. What makes Bernardo so elusive is that outwardly he presented an impeccable image of a successful individual — an accountant, charming, well-groomed, and popular. The Enneagram makes visible what was operating beneath this surface.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Paul Bernardo</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong> zugeordnet.
-        Die sexuelle Eins sucht vollständige Kontrolle über die intimste Beziehung –
-        Reinheit, Absolutheit, keine Abweichung vom inneren Bild.
-        Der Two-wing verleiht ihr Charme, soziale Gewandtheit und die Fähigkeit,
-        auf andere einzugehen. Der Stresspunkt liegt bei der <strong>Vier</strong>:
-        innerer Aufruhr, Selbsthass, das Gefühl, im Kern defekt und unkontrollierbar zu sein.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Paul Bernardo</strong> is assigned to the <strong>Sexual Type 1 with Two-wing</strong>. The Sexual One seeks complete control over the most intimate connection — purity, absoluteness, and no deviation from the inner ideal image. The Two-wing grants charm, social dexterity, and the ability to connect with others. Its stress point lies at <strong>Type Four</strong>: inner turmoil, self-hatred, and the feeling of being inherently defective and uncontrollable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Die Schwarze Mamba</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Black Mamba</h3>
         <p class="vb-intro">
-        Die <strong>Schwarze Mamba</strong> ist die Animal correspondence der sexuellen Eins.
-        Sie ist nicht aggressiv aus Dominanz – sie ist präzise aus innerer Notwendigkeit.
-        Sie schlägt zu, wenn ihre Sphäre verletzt wird, wenn eine Grenze überschritten wurde,
-        wenn das, was ihr gehört, zu entgleiten droht.
-        Bernardo erschien seinen Opfern nicht bedrohlich. Er war freundlich, gut aussehend,
-        zugewandt. Der Two-wing schuf die Annäherung. Die Schwarze Mamba wartete darunter.
-        Was ihn von anderen SX1-Typen unterscheidet: die Kombination aus
-        scheinbarer Normalität, kalter Präzision und dem vollständigen Fehlen von Reue
-        im Moment der Tat. Die Mamba zittert nicht. Sie schlägt – und geht weiter.
+        The <strong>Black Mamba</strong> is the animal correspondence of the Sexual One. It is not aggressive out of dominance — it is precise out of inner necessity. It strikes when its domain is violated, when a boundary has been crossed, or when that which belongs to it threatens to slip away. Bernardo did not appear threatening to his victims. He was friendly, good-looking, and personable. The Two-wing created the approach; the Black Mamba waited underneath. What distinguishes him from other SX1 types is the combination of apparent normality, cold precision, and a total absence of remorse at the moment of the crime. The Mamba does not hesitate. It strikes — and moves on.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Reinheit als Herrschaft</h3>
-        <p class="vb-intro"><strong>a) Das innere Bild:</strong>
-        Die sexuelle Eins hat ein starres, präzises Bild davon, wie die intimste Verbindung
-        auszusehen hat – und wie der andere in dieser Verbindung zu sein hat.
-        Bernardo beschrieb in Verhören eine obsessive Vorstellung von der perfekten Partnerin:
-        jung, rein, absolut gehorsam, vollständig verfügbar.
-        Frauen, die diesem Bild entsprachen, wurden begehrt. Frauen, die abwichen,
-        wurden als Abweichung erlebt – als Zumutung, als Unreinheit, als Versagen der Welt.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: Charme und Contactfähigkeit:</strong>
-        Bernardo war bekannt für seine soziale Gewandtheit. Er arbeitete als Buchhalter,
-        war gut gekleidet, hatte Freunde, wurde als nett und zugänglich beschrieben.
-        Er nutzte diese Qualitäten, um Frauen in seine Nähe zu bringen.
-        Der Two-wing der sexuellen Eins ist ein Werkzeug der Annäherung:
-        Er schafft Vertrauen – das dann genutzt wird, um die Kontrolle zu übernehmen,
-        die die Eins in der intimsten Sphäre braucht.</p>
-        <p class="vb-intro"><strong>c) Der Zorn als Antrieb:</strong>
-        Die Leidenschaft der Eins ist der <strong>Zorn</strong> – nicht lauter, explosiver Zorn,
-        sondern stiller, akkumulierter, nach innen gerichteter Zorn auf alles,
-        was nicht dem inneren Bild entspricht. Bernardo wurde von Zorn angetrieben,
-        der sich in der Tat entlud: auf Frauen, die nicht waren, was er von ihnen wollte;
-        auf eine Welt, die seine Vorstellung von Reinheit nicht erfüllte.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual One: Purity as Dominance</h3>
+        <p class="vb-intro"><strong>a) The Inner Ideal:</strong> The Sexual One possesses a rigid, precise image of what the most intimate bond must look like — and how the other person in that bond ought to behave. In interrogations, Bernardo described an obsessive vision of the perfect partner: young, pure, absolutely obedient, and fully accessible. Women who fit this image were desired. Women who deviated were experienced as a disruption — an imposition, an impurity, and a failure of the world around him.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing: Charm and Interpersonal Ease:</strong> Bernardo was known for his social dexterity. He worked as an accountant, dressed well, had friends, and was described as nice and approachable. He utilized these qualities to draw women into his proximity. The Two-wing of the Sexual One acts as an instrument of approach: it builds trust — which is then leveraged to assume the control that the One requires in the intimate sphere.</p>
+        <p class="vb-intro"><strong>c) Anger as a Driving Force:</strong> The passion of Type One is <strong>Anger</strong> — not loud, explosive rage, but a quiet, accumulated, inwardly turned anger toward everything that fails to meet the inner ideal. Bernardo was driven by an anger that discharged itself in his crimes: directed at women who were not what he wanted them to be, and at a world that failed to fulfill his vision of purity.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Vom Scarborough Rapist zu den Morden</h3>
-        <p class="vb-intro"><strong>a) Die frühen Vergewaltigungen (1987–1990):</strong>
-        Bernardo begann bereits vor seiner Beziehung mit Homolka als Serienstraftäter.
-        Er attackierte Frauen in Scarborough, einem Vorort von Toronto –
-        meist abends, in ruhigen Wohnstraßen, aus dem Hinterhalt.
-        Sein Modus Operandi war gleichbleibend: Überraschung, schnelle Übernahme der Kontrolle,
-        präzises Vorgehen. Die Polizei suchte nach dem „Scarborough Rapist" –
-        während Bernardo ein geregeltes Leben als Student und später Buchhalter führte.
-        Er wurde 1990 als Verdächtiger befragt und DNA-Proben entnommen.
-        Die Auswertung dauerte Jahre. In dieser Zeit heiratete er Karla Homolka –
-        und begann zu morden.</p>
-        <p class="vb-intro"><strong>b) Tammy Homolka (Dezember 1990):</strong>
-        Bernardo hatte Karla von Anfang an klar gemacht, dass er ihre jüngere Schwester Tammy
-        sexuell begehrte – als Verkörperung seiner Vorstellung von Reinheit und Jugendlichkeit.
-        Karla beschaffte das Narkosemittel Halothane.
-        Gemeinsam sedierten sie Tammy, Bernardo vergewaltigte sie,
-        Karla war dabei und filmte. Tammy aspiriierte ihren Mageninhalt und starb.
-        Der Tod wurde als Unfall eingestuft. Bernardo filmte den nächsten Übergriff
-        wenige Wochen später an derselben Stelle.</p>
-        <p class="vb-intro"><strong>c) Leslie Mahaffy (Juni 1991) und Kristen French (April 1992):</strong>
-        Mahaffy wurde nachts vor ihrem Haus entführt – sie war nach einer Party ausgesperrt.
-        Bernardo brachte sie in das gemeinsame Haus. Die folgenden Stunden wurden gefilmt.
-        Danach tötete er sie. Der Körper wurde zerstückelt und in Zement gegossen –
-        die Blöcke wurden im Lake Gibson gefunden, einen Tag nach Bernardos und Homolkas Hochzeit.
-        French wurde von Bernardo und Homolka gemeinsam in breitester Öffentlichkeit entführt –
-        von einem Schulparkplatz, tagsüber. Sie wurde tagelang im Haus festgehalten,
-        brutal missbraucht und dann erwürgt. Ihre Leiche wurde auf einer Landstraße abgelegt.</p>
-        <p class="vb-intro"><strong>d) Verhaftung und die Videobänder:</strong>
-        1993 wurde Bernardo wegen häuslicher Gewalt gegen Homolka verhaftet –
-        nicht wegen der Morde. Homolka schloss ihren Deal, bevor die Ermittler
-        die entscheidenden Videobänder kannten. Bernardos Anwalt hatte sie
-        versteckt gehalten. Als sie gefunden wurden, zeigten sie Homolkas
-        aktive Beteiligung – der Deal war bereits in Kraft.
-        Bernardo wurde 1994 zu lebenslanger Haft ohne Bewährungsmöglichkeit verurteilt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: From the Scarborough Rapist to the Murders</h3>
+        <p class="vb-intro"><strong>a) The Early Rapes (1987–1990):</strong> Bernardo began operating as a serial offender even before his relationship with Homolka. He attacked women in Scarborough, a suburb of Toronto — mostly in the evenings, on quiet residential streets, striking from ambush. His modus operandi was consistent: surprise, rapid assertion of control, and precise execution. The police searched for the "Scarborough Rapist" while Bernardo led a settled life as a student and later as an accountant. He was interviewed as a suspect in 1990 and DNA samples were taken. Processing those samples took years. During this period, he married Karla Homolka — and began to commit murder.</p>
+        <p class="vb-intro"><strong>b) Tammy Homolka (December 1990):</strong> From the beginning, Bernardo made it clear to Karla that he desired her younger sister Tammy sexually — as the embodiment of his ideal of purity and youthfulness. Karla procured the anesthetic Halothane. Together, they sedated Tammy; Bernardo raped her while Karla was present and filmed the assault. Tammy aspirated her stomach contents and died. The death was initially ruled accidental. Bernardo filmed a subsequent assault weeks later at the same location.</p>
+        <p class="vb-intro"><strong>c) Leslie Mahaffy (June 1991) and Kristen French (April 1992):</strong> Mahaffy was abducted at night from outside her home after being locked out following a party. Bernardo brought her to their shared home. The subsequent hours were recorded on video before he killed her. Her body was dismembered and encased in concrete — the blocks were discovered in Lake Gibson a day after Bernardo and Homolka's wedding. French was abducted by Bernardo and Homolka together in broad daylight from a school parking lot. She was held captive in their home for days, brutally abused, and ultimately strangled. Her body was dumped along a country road.</p>
+        <p class="vb-intro"><strong>d) Arrest and the Videotapes:</strong> In 1993, Bernardo was arrested for domestic violence against Homolka — not for the murders. Homolka secured a plea deal before investigators became aware of the crucial videotapes, which Bernardo's defense lawyer had kept hidden. When finally uncovered, the tapes revealed Homolka's active participation — but her deal was already legally binding. Bernardo was sentenced in 1995 to life imprisonment with no chance of parole for 25 years.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Das innere Chaos hinter der Maske</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress at Four: The Inner Chaos Behind the Mask</h3>
         <p class="vb-intro">
-        Die Eins bewegt sich im Stress in Richtung <strong>Vier</strong> –
-        innerer Aufruhr, das quälende Gefühl, im Kern defekt zu sein, anders als alle anderen.
-        Bernardo beschrieb in Briefen aus dem Gefängnis ein inneres Leben voller Widersprüche:
-        Er sah sich gleichzeitig als Opfer einer ungerechten Gesellschaft und als jemanden,
-        der das Recht hatte, zu nehmen, was ihm die Welt verweigerte.
-        Diese Gleichzeitigkeit – Selbstmitleid und Anspruch, Selbsthass und Überlegenheitsgefühl –
-        ist das Vierer-Muster der desintegrierten Eins.
-        Nach außen: perfekt. Nach innen: brennend.
+        Under stress, Type One disintegrates toward <strong>Type Four</strong> — experiencing inner turmoil and the tormenting feeling of being inherently defective or fundamentally different from others. In letters written from prison, Bernardo described an inner life full of contradictions: he viewed himself simultaneously as the victim of an unjust society and as someone who had the right to take whatever the world denied him. This duality — self-pity alongside entitlement, self-hatred coupled with a sense of superiority — is the Four pattern of the disintegrated One. Perfect on the outside; burning on the inside.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Paul Bernardo zeigt, was passiert, wenn die sexuelle Eins keinen Zugang mehr zu sich selbst hat –
-        wenn der Zorn, der nach innen gehört und zur Transformation einlädt,
-        vollständig nach außen umgeleitet wird; auf Frauen, auf Jugendliche, auf Menschen,
-        die das innere Bild der Reinheit nicht erfüllen.
-        Der Two-wing gab ihm die soziale Maske. Die Schwarze Mamba wartete darunter.
-        Was Bernardo von Gary Ridgway unterscheidet: die Eskalation durch die Beziehung.
-        Karla Homolka war nicht seine Opponentin – sie war sein Spiegel, seine Komplizin,
-        die Frau, die für ihn das Unmögliche möglich machte.
-        Die SX1w2 in der Desintegration braucht jemanden, der mitmacht.
-        Und sie findet ihn.
+        Paul Bernardo demonstrates what occurs when the Sexual One loses all access to self-awareness — when anger, which belongs internally as an invitation for transformation, is completely redirected outward onto women, adolescents, and individuals who do not fulfill the inner ideal of purity. The Two-wing provided the social mask, while the Black Mamba waited underneath. What distinguishes Bernardo from Gary Ridgway is the escalation through a shared relationship. Karla Homolka was not his opponent — she was his mirror and accomplice, the woman who made the impossible achievable for him. A disintegrated SX1w2 requires someone to participate in their vision, and Bernardo found that partner.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Classification Summary</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Zorn – der innere Richter, der alles verurteilt, was nicht dem Bild der Reinheit entspricht.<br>
-        <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Selbsthass, das Gefühl des inneren Defekts.<br>
-        <strong>Animal correspondence:</strong> Schwarze Mamba – unauffällig, präzise, giftig in der intimsten Nähe.<br>
-        <strong>Partnerin:</strong> Karla Homolka (SP3w4) →
+        <strong>Subtype:</strong> SX1w2 – Sexual Type 1 with Two-wing.<br>
+        <strong>Passion:</strong> Anger – the internal judge that condemns everything that fails to match the ideal image of purity.<br>
+        <strong>Stress Point:</strong> Four – inner turmoil, self-hatred, and the feeling of internal defectiveness.<br>
+        <strong>Animal Correspondence:</strong> Black Mamba – inconspicuous, precise, and lethal in intimate proximity.<br>
+        <strong>Partner:</strong> Karla Homolka (SP3w4) →
         <a href="#kriminalpsychologie-karla-homolka" data-route="kriminalpsychologie-karla-homolka"
-           style="color:var(--gold-dark);text-decoration:underline;">Zum Portrait Karla Homolka</a>
+           style="color:var(--gold-dark);text-decoration:underline;">View Karla Homolka Portrait</a>
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SP1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in Comparison: How anger expresses itself differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 Character Profiles in Comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 Portrayed in Detail – Anger, perfectionism, and the path to healing.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Paul Bernardo wurde 1995 wegen Mordes, Vergewaltigung und weiterer Delikte zu lebenslanger Haft verurteilt und gilt als gemeingefährlicher Straftäter. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Paul Bernardo was sentenced in 1995 to life imprisonment for murder, rape, and other offenses, and is designated a dangerous offender. The Enneagram explains; it does not justify.
         </p>
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Partnerin"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Partner"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
       ])}
@@ -41863,84 +39285,70 @@ function osamaBinLadenPortraitPage() {
           <img src="../assets/portraits/osama-bin-laden-portrait.jpg" alt="Osama bin Laden – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Osama bin Laden</p>
-        <p class="krim-portrait-typ">SO2w1 \xb7 Sozialer Typ 2 mit Einserfl\xfcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xfcnder al-Qaida \xb7 11. September 2001 \xb7 Tierentsprechung: Golden Retriever</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Founder of al-Qaeda · September 11, 2001 · Animal Correspondence: Golden Retriever</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Osama bin Laden</strong> (1957\u20132011), Sohn einer reichen saudi-arabischen Unternehmerfamilie, gr\xfcndete Ende der 1980er-Jahre die Terrororganisation al-Qaida. Er organisierte zahlreiche Anschl\xe4ge, darunter die Bombenanschl\xe4ge auf die US-Botschaften in Kenia und Tansania (1998), den Anschlag auf die USS Cole (2000) und \u2013 in seiner gr\xf6\xdften Tat \u2013 die Anschl\xe4ge vom <strong>11. September 2001</strong> in New York, Washington und Pennsylvania: 2.977 Todesopfer, der schwerste Terroranschlag der Geschichte. Seit 2001 von US-Streitkr\xe4ften weltweit gesucht, lebte er jahrelang verborgen in Pakistan. Am 2. Mai 2011 wurde er bei einem gezielten US-Milit\xe4reinsatz in Abbottabad get\xf6tet. Das Enneagramm erkl\xe4rt, wie ein privilegierter, frommer Mann sich zur Vernichtungsinstanz f\xfcr Tausende verwandeln konnte.
+        <strong>Osama bin Laden</strong> (1957–2011), son of a wealthy Saudi Arabian business family, founded the terrorist organization al-Qaeda in the late 1980s. He organized numerous attacks, including the bombings of the US embassies in Kenya and Tanzania (1998), the attack on the USS Cole (2000), and — in his deadliest act — the attacks of <strong>September 11, 2001</strong> in New York, Washington, and Pennsylvania: 2,977 fatalities, the deadliest terrorist attack in history. Wanted globally by US forces starting in 2001, he spent years living in hiding in Pakistan. On May 2, 2011, he was killed in a targeted US military operation in Abbottabad. The Enneagram explains how a privileged, pious man could transform himself into an instrument of destruction for thousands.
       </p>
 
       <div class="vb-section" style="background:rgba(100,50,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Osama bin Laden</strong> wird dem <strong>Sozialen Typ 2 mit Einserfl\xfcgel</strong> zugeordnet. Claudio Naranjo nannte den sozialen Subtyp der Zwei \u201eAmbition\u201c: die soziale Zwei gibt nicht an Einzelne, sondern an Gruppen, Gemeinschaften, Ideen \u2013 und zieht daraus Bedeutung, Zugeh\xf6rigkeit und Stolz. Bin Ladens Stolz \u2013 die Leidenschaft der Zwei \u2013 war kein pers\xf6nlicher Stolz, sondern ein <em>kollektiver</em>: der Stolz als Besch\xfctzer und Retter der muslimischen Welt. Der Einserf\xfcgel f\xfcgte die moralische Unerbittlichkeit hinzu: eine unbedingte, rigoristische \xdcberzeugung der eigenen Rechtm\xe4\xdfigkeit, die jeden Kompromiss verbot. Das Tier \u2013 der <em>Golden Retriever</em> \u2013 illustriert das Paradox: loyal, warmherzig, zur Aufopferung f\xfcr das Rudel bereit \u2013 und gef\xe4hrlich, wenn er glaubt, seine Familie zu verteidigen.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> <strong>Osama bin Laden</strong> is assigned to the <strong>Social Type 2 with One-wing</strong>. Claudio Naranjo called the social subtype of Type Two "Ambition": the social Two gives not to individuals, but to groups, communities, and ideas — deriving significance, belonging, and pride from doing so. Bin Laden's pride — the passion of Type Two — was not personal vanity, but a <em>collective</em> pride: the pride of being a protector and savior of the Muslim world. The One-wing added moral relentless rigor: an unconditional, absolutist conviction of his own righteousness that forbade any compromise. The animal — the <em>Golden Retriever</em> — illustrates the paradox: loyal, warm-hearted, prepared for self-sacrifice for the pack — and dangerous when it believes it must defend its family.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig und \xfcberzeugt:</strong>
-        Bin Ladens Auftreten in Video-Botschaften war niemals aufgeregt oder aggressiv \u2013 es war die Ruhe eines Mannes, der wei\xdf, dass er recht hat. Kein Funkeln des Sadismus, keine Spur von Rausch. Die soziale Zwei braucht keine Erregung \u2013 sie braucht die Gew\xdfheit der eigenen Unentbehrlichkeit.</p>
-        <p class="vb-intro"><strong>b) W\xe4rmend und einladend:</strong>
-        In Interviews und Aufnahmen aus dem engsten Kreis zeigte sich bin Laden als f\xfcrsorglich, zugewandt, v\xe4terlich. Angeblich sch\xe4tzte er Humor, h\xf6rte seinen Mitk\xe4mpfern zu, kannte ihre Familien. Das ist keine Tarnung \u2013 es ist der authentische SO2-Kern: echte W\xe4rme als Grundlage von F\xfchrung.</p>
-        <p class="vb-intro"><strong>c) Moralisch und richterlich \u2013 der Einserfl\xfcgel:</strong>
-        Nach au\xdfen \u2013 gegen\xfcber dem \u201eFeind\u201c \u2013 war sein Blick verurteilend und kalt. Der Einserf\xfcgel produziert den moralischen Richter: <em>Ich tue nicht, was ich will \u2013 ich tue, was gerecht ist.</em> Das macht die soziale Zwei mit Einserfl\xfcgel so gef\xe4hrlich: die Vernichtung wird zur Pflicht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Calm and Convicted:</strong> Bin Laden's demeanor in video messages was never agitated or aggressive — it carried the composure of a man who knows he is right. No sparkle of sadism, no hint of frenzy. The social Two requires no excitement — it needs the certainty of its own indispensability.</p>
+        <p class="vb-intro"><strong>b) Warming and Welcoming:</strong> In interviews and recordings from his inner circle, bin Laden presented himself as caring, attentive, and fatherly. He reportedly appreciated humor, listened to his fellow fighters, and knew their families. This was not a disguise — it was the authentic SO2 core: genuine warmth as the foundation of leadership.</p>
+        <p class="vb-intro"><strong>c) Moral and Judicial—The One-wing:</strong> Outwardly — toward the "enemy" — his gaze was judgmental and cold. The One-wing produces the moral judge: <em>I am not doing what I want — I am doing what is just.</em> This is what makes the social Two with a One-wing so dangerous: destruction becomes a duty.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Geber f\xfcr die Gemeinschaft:</strong>
-        Bin Laden stammte aus einer der reichsten Familien Saudi-Arabiens. Er h\xe4tte in Komfort leben k\xf6nnen. Stattdessen gab er sein Verm\xf6gen, seine Sicherheit, schlie\xdflich sein Leben f\xfcr das, was er als Befreiung der muslimischen Welt verstand. Dieses <em>Geben</em> war kein Zeichen von Selbstlosigkeit \u2013 es war die Lebensstrategie der sozialen Zwei: Bedeutung durch Aufopferung.</p>
-        <p class="vb-intro"><strong>b) Der Besch\xfctzer des Rudels:</strong>
-        Al-Qaida war nicht prim\xe4r eine Ideologie \u2013 sie war eine Familie. Bin Laden pflegte seine Mitk\xe4mpfer, sch\xfctzte ihre Angeh\xf6rigen, ehrte die Gefallenen. Der Golden Retriever verteidigt sein Rudel mit absoluter Loyalit\xe4t. Bin Ladens Terrorismus war \u2013 in seiner eigenen Wahrnehmung \u2013 Verteidigung.</p>
-        <p class="vb-intro"><strong>c) Stolz als Motor:</strong>
-        Die Leidenschaft der Zwei ist Stolz \u2013 beim sozialen Subtyp nicht als Eitelkeit, sondern als <em>kollektiver Stolz</em>: die Demut\xfctigungen der muslimischen Welt durch den Westen wurden zu seinen pers\xf6nlichen Verletzungen. Jede weitere Dem\xfctigung der muslimischen Welt versch\xe4rfte seinen Antrieb. Er sprach selten von sich selbst \u2013 er sprach immer von \u201euns\u201c.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Giver to the Community:</strong> Bin Laden came from one of Saudi Arabia's wealthiest families. He could have lived in comfort. Instead, he gave his fortune, his security, and ultimately his life for what he understood to be the liberation of the Muslim world. This <em>giving</em> was not a mark of selflessness — it was the core life strategy of the social Two: significance through self-sacrifice.</p>
+        <p class="vb-intro"><strong>b) The Protector of the Pack:</strong> Al-Qaeda was not primarily an ideology — it was a family. Bin Laden cared for his fellow fighters, protected their relatives, and honored the fallen. The Golden Retriever defends its pack with absolute loyalty. Bin Laden's terrorism was — in his own perception — defense.</p>
+        <p class="vb-intro"><strong>c) Pride as a Motor:</strong> The passion of Two is pride — in the social subtype, not as personal vanity, but as <em>collective pride</em>: the humiliations of the Muslim world by the West became his personal wounds. Every further humiliation of the Muslim world intensified his drive. He rarely spoke of himself — he always spoke of "us."</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Der Weg zur Gewalt:</strong>
-        Bin Ladens Radikalisierung begann im sowjetisch-afghani\xadschen Krieg (1979\u20131989), wo er als Freiwilliger k\xe4mpfte und al-Qaida aus dem Netzwerk der Mudschaheddin heraus gr\xfcndete. Die US-Milit\xe4rpr\xe4senz in Saudi-Arabien nach dem Golfkrieg 1991 \u2013 heiliges Land, ber\xfchrt von Ungl\xe4ubigen \u2013 war f\xfcr ihn eine unertr\xe4gliche Dem\xfctigung. Der Einserfl\xfcgel verwandelte diese Verletzung in eine moralische Pflicht zur Gegenwehr.</p>
-        <p class="vb-intro"><strong>b) 11. September 2001:</strong>
-        Die Anschl\xe4ge auf das World Trade Center und das Pentagon waren das Ergebnis jahrelanger Planung: 19 Attent\xe4ter, vier entf\xfchrte Flugzeuge, 2.977 Tote. Bin Laden erkl\xe4rte sp\xe4ter, er habe nicht mit einem so vollst\xe4ndigen Gelingen gerechnet. Sein Ziel war nicht prim\xe4r die Maximierung von Opfern \u2013 es war die Demonstration: <em>Ihr seid nicht unangreifbar. Wir sind da.</em> Die soziale Zwei sendet eine Botschaft an die Gemeinschaft, f\xfcr die sie handelt.</p>
-        <p class="vb-intro"><strong>c) Das Versteck und das Ende:</strong>
-        Nach dem US-Einmarsch in Afghanistan 2001 lebte bin Laden jahrelang im Verborgenen \u2013 schlie\xdflich in einer Anlage in Abbottabad, Pakistan, keine zwei Kilometer von der Milit\xe4rakademie entfernt. Am 2. Mai 2011 t\xf6teten US-Spezialk\xe4mpfer ihn bei einem Nachteinsatz. Er war 53 Jahre alt. Sein Leichnam wurde auf See beigesetzt. Al-Qaida besteht fort.</p>
-        <p class="vb-intro"><strong>d) Ein Spiel des Schicksals:</strong>
-        Den Befehl zur Operation gab <strong>Barack Obama</strong> \u2013 damaliger US-Pr\xe4sident und, nach enneagrammatischer Einsch\xe4tzung, ebenfalls <strong>ein Sozialer Typ 2 mit Einserfl\xfcgel</strong>. Zwei M\xe4nner desselben Typs, an entgegengesetzten Polen der Geschichte: der eine, der alles gab, um seine Gemeinschaft zu befreien \u2013 der andere, der alles gab, um seine Gemeinschaft zu sch\xfctzen. Beide gepr\xe4gt von derselben inneren Struktur: kollektiver Stolz, moralische \xdcberzeugung, Dienst an der Gemeinschaft \xfcber das eigene Wohl. Was sie trennte, war nicht der Typ \u2013 es war die Welt, in der sie aufgewachsen waren, und die Gemeinschaft, der sie sich verpflichtet sahen. Das Enneagramm urteilt nicht. Es macht die wesentlichen Strukturen des Menschseins erkennbar und begreifbar.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes</h3>
+        <p class="vb-intro"><strong>a) The Path to Violence:</strong> Bin Laden's radicalization began during the Soviet-Afghan War (1979–1989), where he fought as a volunteer and founded al-Qaeda out of the mujahideen network. The US military presence in Saudi Arabia after the 1991 Gulf War — holy land touched by infidels — was an intolerable humiliation for him. The One-wing converted this injury into a moral duty to resist.</p>
+        <p class="vb-intro"><strong>b) September 11, 2001:</strong> The attacks on the World Trade Center and the Pentagon were the result of years of planning: 19 hijackers, four hijacked airplanes, 2,977 dead. Bin Laden later stated he had not anticipated such complete success. His goal was not primarily to maximize casualties — it was a demonstration: <em>You are not invulnerable. We are here.</em> The social Two sends a message on behalf of the community for which it acts.</p>
+        <p class="vb-intro"><strong>c) The Hideout and the End:</strong> Following the US invasion of Afghanistan in 2001, bin Laden lived for years in hiding — eventually in a compound in Abbottabad, Pakistan, less than two kilometers from the military academy. On May 2, 2011, US special forces killed him during a night raid. He was 53 years old. His body was buried at sea. Al-Qaeda persists.</p>
+        <p class="vb-intro"><strong>d) A Twist of Fate:</strong> The operation was authorized by <strong>Barack Obama</strong> — then US President and, according to Enneagram analysis, likewise <strong>a Social Type 2 with One-wing</strong>. Two men of the same type at opposite poles of history: one who gave everything to liberate his community — the other who gave everything to protect his community. Both shaped by the same inner structure: collective pride, moral conviction, and service to the community over personal well-being. What separated them was not their type — it was the world in which they grew up and the community to which they felt obligated. The Enneagram does not judge. It makes the essential structures of human existence visible and understandable.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Psychologisches Profil</h3>
-        <p class="vb-intro"><strong>a) Stolz ohne Hybris:</strong>
-        Bin Laden war kein narzisstischer Selbstdarsteller. Er inszenierte sich nicht als gro\xdfen F\xfchrer \u2013 er inszenierte sich als Diener. Das ist der Kern der sozialen Zwei: <em>Ich bin wichtig, weil ich gebraucht werde. Ich bin gro\xdf, weil ich gebe.</em> Dieser Stolz ist schwer zu erkennen \u2013 er tr\xe4gt das Gewand der Demut.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Rechtfertigungsmaschine:</strong>
-        Typ 1 liefert die moralische Grammatik: Es gibt Recht und Unrecht. Wir sind im Recht. Also ist das, was wir tun, gerecht \u2013 egal wie es aussieht. Diese Struktur macht aus einem f\xfcrsorglichen, loyalen Menschen einen kaltberechnenden Strategen des Massentods. Er trug keine innere Spannung zwischen Werten und Taten \u2013 er erlebte seine Taten als Ausdruck seiner Werte.</p>
-        <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Terrortypen:</strong>
-        Anders Breivik (SX6w5) handelte aus kontraphobischer Angst und narzisstischem Gr\xf6\xdfenwahn. Anders Breivik wollte anerkannt werden \u2013 bin Laden wollte <em>dienen</em>. Der Unterschied ist typologisch bedeutsam: Breivik war auf sich selbst fixiert, bin Laden auf die Gemeinschaft. Das macht die soziale Zwei in ihrer destruktiven Auspr\xe4gung so schwer zu stoppen: Sie h\xf6rt nicht auf, solange die Gemeinschaft leidet.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Psychological Profile</h3>
+        <p class="vb-intro"><strong>a) Pride Without Hubris:</strong> Bin Laden was not a narcissistic self-promoter. He did not stage himself as a grand leader — he staged himself as a servant. This is the core of the social Two: <em>I am important because I am needed. I am great because I give.</em> This pride is difficult to recognize — it wears the cloak of humility.</p>
+        <p class="vb-intro"><strong>b) The One-wing as a Justification Machine:</strong> Type One provides the moral framework: There is right and wrong. We are in the right. Therefore, what we do is just — regardless of how it appears. This structure turns a caring, loyal person into a cold, calculating strategist of mass murder. He experienced no internal tension between values and actions — he experienced his actions as the direct expression of his values.</p>
+        <p class="vb-intro"><strong>c) Distinct From Other Terrorist Types:</strong> Anders Breivik (SX6w5) acted out of counterphobic fear and narcissistic grandiosity. Anders Breivik sought recognition — bin Laden sought <em>to serve</em>. The difference is typologically significant: Breivik was fixated on himself; bin Laden was fixated on the community. This is what makes the social Two in its destructive form so difficult to stop: it does not cease as long as the community suffers.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(60,20,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Zusammenfassung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Summary</h3>
         <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Osama bin Laden war kein Monster im klassischen Sinne \u2013 er war ein frommer, loyaler, aufopferungsvoller Mann, dessen Geben zur Vernichtung wurde. Die soziale Zwei mit Einserfl\xfcgel braucht keine Feindseligkeit aus Hass \u2013 sie braucht die \xdcberzeugung, dass das Leiden ihrer Gemeinschaft eine moralische Antwort verlangt. Wenn diese \xdcberzeugung unkorrigiert w\xe4chst, wenn kein Gegen\xfcber die Wahrnehmung bricht, wenn der Einserf\xfcgel jede Tat als Pflicht rahmt \u2013 dann kann aus dem Golden Retriever, der sein Rudel liebt, ein Tier werden, das auf Befehl des eigenen Gewissens t\xf6tet.
+        Osama bin Laden was not a monster in the conventional sense — he was a pious, loyal, self-sacrificing man whose giving turned into destruction. The social Two with a One-wing does not require malice born of hatred — it requires the conviction that the suffering of its community demands a moral response. When this conviction grows unchecked, when no counterpart breaks the perception, and when the One-wing frames every act as a duty — then the Golden Retriever that loves its pack can become an animal that kills on the order of its own conscience.
         </p>
         <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Der Golden Retriever h\xf6rte nie auf zu lieben. Darin liegt das eigentliche Grauen.
+        The Golden Retriever never stopped loving. Therein lies the true horror.
         </p>
       </div>
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Taten bin Ladens sind uneingeschr\xe4nkt zu verurteilen \u2013 das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Bin Laden's actions are to be unequivocally condemned — the Enneagram explains; it does not justify.
         </p>
       </div>
 
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+            ${bookTip("wer-du-wirklich-bist-band-1", "The Nine Types in Depth – Defense patterns, passions, and the path to essence.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, defense strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Character Profiles in Comparison – How subtypes of the same type differ from one another.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"},
-        {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Massenmord in Jonestown"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5) \u2013 Vergleich: Terror aus Angst vs. Terror aus Stolz"}
+        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – The Poet and Death"},
+        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Mass Murder in Jonestown"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5) – Comparison: Terror Out of Fear vs. Terror Out of Pride"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
