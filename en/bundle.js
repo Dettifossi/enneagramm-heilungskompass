@@ -22555,209 +22555,98 @@ function salvatoreRiinaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Salvatore Riina</p>
         <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with Nine-wing</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Sizilianischer Mafia-Boss und Massenmörder · Animal correspondence: Orang-Utan</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Sicilian Mafia boss and mass murderer · Animal correspondence: Orangutan</p>
       </div>
 
       <p class="psycho-intro">
-        <strong>Salvatore Riina</strong>, genannt „Tot\xf2 u curtu" (der Kurze) oder „La Belva" (das Biest),
-        war von den 1970er bis zu seiner Verhaftung 1993 der m\xe4chtigste und
-        gef\xe4rlichste Mafioso Italiens. Als Boss der Corleonesi und sp\xe4ter
-        der gesamten Cosa Nostra verantwortete er Hunderte von Morden,
-        darunter die Ermordung der Richter Giovanni Falcone und Paolo Borsellino
-        sowie den Massaker-Krieg gegen rivalisierende Mafia-Clans in den 1980er Jahren.
-        23 Jahre lang lebte er untergetaucht – in Palermo, mitten unter Menschen,
-        ohne je gefunden zu werden. Riinas Fall ist eines der eindringlichsten
-        Beispiele f\xfcr absolute territoriale Macht, kombiniert mit einer Geduld
-        und Unauff\xe4lligkeit, die seinen Feinden r\xe4tselhaft erschien.
+        Salvatore Riina, known as "Totò u curtu" (the Short One) or "La Belva" (the Beast), was Italy's most powerful and dangerous Mafioso from the 1970s until his 1993 arrest. Boss of the Corleonesi and later all Cosa Nostra, he ordered hundreds of murders—including judges Giovanni Falcone and Paolo Borsellino—and waged the 1980s war against rival clans. He lived underground for 23 years in Palermo without detection. His case vividly exemplifies absolute territorial power combined with uncanny patience and stealth.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Salvatore Riina</strong> wird der <strong>Self-Preservationen Acht mit Neunerfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Acht ist <em>Wollust</em> –
-        nicht im sexuellen Sinne, sondern als \xfcberm\xe4\xdfige Intensit\xe4t, als Hunger
-        nach Kontrolle, Macht und der F\xe4higkeit, die eigene Welt zu dominieren.
-        Die selbsterhaltende Acht (SP8) richtet diese Energie auf territoriale Sicherheit:
-        Sie sichert ihren Bereich, ihre Familie, ihre Ressourcen – und eliminiert
-        kompromisslos jede Bedrohung. Der Neunerfl\xfcgel mildert die \xe4u\xdfere Pr\xe4senz
-        erheblich: Er gibt der Acht eine scheinbare Ruhe, eine F\xe4higkeit zum
-        R\xfcckzug und zur Geduld, die gef\xe4hrlicher ist als offene Aggression –
-        denn niemand sieht den Angriff kommen, bis es zu sp\xe4t ist.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Salvatore Riina is assigned to the Self-Preservation Eight with Nine-wing in the Enneagram. Type 8's core passion is Lust—not sexually, but as excessive intensity and a hunger for power, control, and total dominance. The Self-Preservation Eight (SP8) focuses this energy on territorial security, ruthlessly eliminating any threat. The Nine-wing softens their outward presence, granting a calm, patient demeanor that is far more dangerous than overt aggression—opponents never see the strike coming until it is too late.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig und durchdringend:</strong>
-        Zeitzeugen beschrieben Riinas Blick als still und durchdringend –
-        kein Rasen, keine Hektik, aber eine Intensit\xe4t, die den Gegen\xfcber
-        einsch\xfcchterte, ohne dass Riina die Stimme h\xe4tte heben m\xfcssen.
-        Das ist der Achter-Blick mit Neunerfl\xfcgel: ruhig nach au\xdfen,
-        aber mit einer Tiefe, die signalisiert: Hier ist jemand, der alles sieht.</p>
-        <p class="vb-intro"><strong>b) Abwartend und kalkulierend:</strong>
-        <strong>Riina</strong> beobachtete mehr als er sprach. Der Neunerfl\xfcgel verst\xe4rkt
-        diese Eigenschaft der Acht: weniger Konfrontation, mehr Analyse.
-        Er ma\xdf seine Umgebung aus, bevor er handelte – und wenn er handelte,
-        dann vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>c) Keine Schwäche zulassend:</strong>
-        In seinem Blick war kein Raum f\xfcr Unsicherheit oder Empathie mit
-        denen, die er als Bedrohung einstufte. Die Acht schaut die Welt
-        durch die Linse von St\xe4rke und Schw\xe4che – und Schw\xe4che
-        ist f\xfcr die SP8 eine Einladung zur Ausbeutung oder Elimination.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Calm and penetrating:</strong>
+Witnesses described Riina's gaze as quiet and piercing—unhurried, yet intimidating without raising his voice. This is the 8-gaze with a 9-wing: calm externally, but carrying a depth signaling that nothing escapes notice.</p>
+        <p class="vb-intro"><strong>b) Watchful and calculating:</strong>
+Riina observed far more than he spoke. The Nine-wing enhances this trait: less confrontation, more analysis. He measured his surroundings before acting—and when he struck, it was absolute.</p>
+        <p class="vb-intro"><strong>c) Permitting no weakness:</strong>
+His look left no room for uncertainty or empathy toward perceived threats. Eights view the world through strength versus weakness—and to an SP8, weakness invites exploitation or elimination.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Territoriale Kontrolle als Lebensprinzip:</strong>
-        Die selbsterhaltende Acht sichert ihren Bereich. F\xfcr Riina war
-        Sizilien und schlie\xdflich die gesamte Cosa Nostra dieser Bereich.
-        Er duldete keine Parallelstrukturen, keine ungel\xf6sten Machtkonflikte –
-        alles musste unter seiner Kontrolle stehen oder beseitigt werden.</p>
-        <p class="vb-intro"><strong>b) Absolute Loyalit\xe4t zur Kerngruppe:</strong>
-        <strong>Riina</strong> war seinen Corleoneser Clan-Angeh\xf6rigen gegen\xfcber tief loyal
-        und sch\xfctzend – das typische SP8-Muster: nach innen stark f\xfcrsorgend,
-        nach au\xdfen kompromisslos hart. Die Acht teilt die Welt in wenige
-        echte Vertraute und den Rest.</p>
-        <p class="vb-intro"><strong>c) Kompromisslose Eskalation bei Bedrohung:</strong>
-        Als Riina die rivalisierende Mafia-F\xfchrung als Bedrohung einstufte,
-        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Das ist die SP8
-        unter existenziellem Druck: kein Verhandeln, kein halbes Ma\xdf –
-        sondern die vollst\xe4ndige Ausl\xf6schung der Bedrohungsquelle.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Territorial control as a life principle:</strong>
+The SP8 secures its domain. For Riina, Sicily—and ultimately all Cosa Nostra—was that domain. He tolerated no parallel power structures or unresolved conflicts; everything had to yield or be destroyed.</p>
+        <p class="vb-intro"><strong>b) Absolute loyalty to the inner circle:</strong>
+Riina was deeply protective of his Corleonesi clan—a classic SP8 trait: fiercely nurturing internally, uncompromisingly harsh externally. Eights divide the world into trusted allies and everyone else.</p>
+        <p class="vb-intro"><strong>c) Uncompromising escalation under threat:</strong>
+When Riina felt threatened by rival Mafia leaders, he escalated directly to total annihilation. This is SP8 under existential pressure: no negotiations, no half-measures—only complete destruction of the threat.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Macht als Sicherheit:</strong>
-        F\xfcr die selbsterhaltende Acht ist Macht kein Selbstzweck,
-        sondern die einzige Form von Sicherheit, der sie wirklich vertraut.
-        Riina akkumulierte Macht, weil er tief verstand: Wer keine Macht hat,
-        ist verwundbar. Die Geschichte seiner Kindheit in Corleone – Armut,
-        fr\xfcher Verlust, der erbarmungslose Darwinismus der Mafia – pr\xe4gte
-        diese \xdcberzeugung unwiderruflich.</p>
-        <p class="vb-intro"><strong>b) Geduld als Waffe:</strong>
-        Der Neunerfl\xfcgel gab Riina eine Geduld, die bei einer Acht
-        ungew\xf6hnlich ist. Er wartete Jahrzehnte auf den richtigen Moment,
-        lebte 23 Jahre im Verborgenen ohne Ungeduld oder \xdcberheblichkeit.
-        Das ist die SP8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
-        den eigenen Angriffstrieb so lange zu z\xfcgeln, bis der Zeitpunkt stimmt.</p>
-        <p class="vb-intro"><strong>c) Einsch\xfccherung als Kommunikation:</strong>
-        <strong>Riina</strong> musste selten laut werden. Seine Reputation war sein Werkzeug –
-        der Ruf allein gen\xfcgte, um Gehorsam zu erzeugen. Das ist eine
-        SP8w9-Qualit\xe4t: Macht durch Pr\xe4senz statt durch Larm. Die Neun
-        verst\xe4rkt die stille Dimension der Acht.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Core Properties</h3>
+        <p class="vb-intro"><strong>a) Power as security:</strong>
+To the SP8, power is not an end in itself, but the only trustworthy form of safety. Riina accumulated power knowing that weakness leads to vulnerability. His Corleone childhood—poverty, early loss, and Mafia survivalism—forged this conviction permanently.</p>
+        <p class="vb-intro"><strong>b) Patience as a weapon:</strong>
+The Nine-wing granted Riina patience rare for an Eight. He waited decades for the right moment and lived hidden for 23 years without impatience or arrogance. This is the strategic SP8w9: restraining aggressive drives until the timing is precise.</p>
+        <p class="vb-intro"><strong>c) Intimidation as communication:</strong>
+Riina rarely needed to be loud. His reputation alone commanded obedience—a hallmark SP8w9 quality: power through presence rather than noise. The Nine-wing amplifies the Eight's quiet authority.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unscheinbar und \xfcberwältigend zugleich:</strong>
-        <strong>Riina</strong> war k\xf6rperlich klein – der Spitzname „der Kurze" war nicht
-        zuf\xe4llig. Und doch war seine Wirkung auf den Raum \xfcberw\xe4ltigend.
-        Das ist das Paradox der SP8w9: Au\xdfen ruhig und zur\xfcckgenommen,
-        innen eine Kraft, die jeden im Raum sp\xfcrte.</p>
-        <p class="vb-intro"><strong>b) Unlesbar f\xfcr Feinde:</strong>
-        Riinas Feinde konnten seine Absichten selten rechtzeitig erkennen.
-        Der Neunerfl\xfcgel tarnt die Acht – er nimmt ihr die offene Aggressivit\xe4t,
-        die einen warnen w\xfcrde. Riina wirkte harmloser, als er war,
-        und das war seine gr\xf6\xdfte Waffe.</p>
-        <p class="vb-intro"><strong>c) F\xfcrsorgend gegen\xfcber den Seinen:</strong>
-        Innerhalb seiner Kerngruppe war Riina loyal und f\xfcrsorgend – er sch\xfctzte
-        seine Familie, sorgte f\xfcr seine Leute. Das ist die Schutzseite der Acht,
-        die nach innen eine v\xf6llig andere Qualit\xe4t zeigt als nach au\xdfen.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Unassuming yet overwhelming:</strong>
+Though short in stature, Riina exerted an overwhelming presence. This embodies the SP8w9 paradox: quietly understated on the outside, yet projecting a force felt by everyone in the room.</p>
+        <p class="vb-intro"><strong>b) Unreadable to enemies:</strong>
+Rivals rarely foresaw Riina's moves. The Nine-wing masks the Eight, dampening obvious aggression that might serve as a warning. He appeared far more harmless than he was—his ultimate weapon.</p>
+        <p class="vb-intro"><strong>c) Protective of his own:</strong>
+Within his core circle, Riina was fiercely loyal and protective of his family and crew. This protective side of the Eight reveals a completely different character internally than to the outside world.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Geerdet und schwer:</strong>
-        Riinas Energie war geerdet – keine Hektik, keine Nervosit\xe4t.
-        Die selbsterhaltende Acht wirkt massiv und unverrückbar,
-        wie jemand, der wei\xdf, dass er nirgendwo hingehen muss,
-        weil alles zu ihm kommt.</p>
-        <p class="vb-intro"><strong>b) Latente Gef\xe4hrlichkeit:</strong>
-        Unter der ruhigen Oberfl\xe4che war eine latente Gef\xe4hrlichkeit sp\xfcrbar,
-        die jeden in seiner N\xe4he sp\xfcrte. Die Acht tr\xe4gt immer diese Ladung –
-        der Neunerfl\xfcgel h\xe4lt sie zurück, bis sie gebraucht wird.</p>
-        <p class="vb-intro"><strong>c) Keine verschwendete Energie:</strong>
-        <strong>Riina</strong> agierte \xf6konomisch. Keine Auftritte, kein Protz, keine
-        unn\xf6tigen Konflikte – nur Handlungen, die seiner Machtsicherung
-        dienten. Das ist SP8-Effizienz: alle Kraft f\xfcr das Wesentliche,
-        nichts f\xfcr das Nebens\xe4chliche.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Grounded and heavy:</strong>
+Riina's energy was firmly grounded—devoid of haste or nervousness. The SP8 feels immovable, like someone who knows everything will eventually come to them.</p>
+        <p class="vb-intro"><strong>b) Latent lethality:</strong>
+Beneath his calm exterior lay an ever-present danger. Eights constantly carry this charge; the Nine-wing holds it back until it is deployed.</p>
+        <p class="vb-intro"><strong>c) Zero wasted energy:</strong>
+Riina was economical: no posturing, vanity, or unnecessary conflicts. Every move served to consolidate power. This is SP8 efficiency—channeling all energy into what matters, wasting none on the trivial.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Orang-Utan</h3>
-        <p class="vb-intro"><strong>a) Zur\xfcckgezogen und territorial:</strong>
-        Der Orang-Utan lebt \xfcberwiegend allein, zieht sich in sein Revier zur\xfcck
-        und markiert es unsichtbar. Er ben\xf6tigt keine Gruppe, kein Rudel –
-        er ist sich selbst genug. Riinas 23 Jahre im Untergrund tragen
-        exakt diese Qualit\xe4t: absolute Selbstgen\xfcgsamkeit bei gleichzeitiger
-        Kontrolle des gesamten Territoriums.</p>
-        <p class="vb-intro"><strong>b) K\xf6rperliche \xdcberlegenheit ohne Aggression zur Schau:</strong>
-        Der Orang-Utan ist von \xfcberw\xe4ltigender K\xf6rperkraft – aber er zeigt
-        sie selten. Er lebt ruhig, bis jemand sein Revier betritt oder
-        seinen Nachwuchs bedroht. Dann ist die Reaktion absolut und ohne
-        Zögern. Riinas Eskalationsprinzip folgte derselben Logik:
-        keine Aggression als Selbstzweck, aber totale Reaktion bei Bedrohung.</p>
-        <p class="vb-intro"><strong>c) Intelligent und langfristig denkend:</strong>
-        Orang-Utans gelten als die intelligentesten Menschenaffen nach dem
-        Schimpansen – strategisch, geduldig, mit bemerkenlichem Langzeitged\xe4chtnis.
-        Riinas strategische Intelligenz – der Aufbau von Macht \xfcber Jahrzehnte,
-        die Planung und Steuerung komplexer Mafiastrukturen – spiegelt
-        diese Qualit\xe4t: rohe Kraft, kombiniert mit strategischer Tiefe.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Orangutan</h3>
+        <p class="vb-intro"><strong>a) Solitary and territorial:</strong>
+Orangutans live largely alone, marking and securing their territory without needing a pack. Riina's 23 years underground reflect this self-sufficiency: total independence while maintaining full territorial control.</p>
+        <p class="vb-intro"><strong>b) Physical dominance without showmanship:</strong>
+Possessing immense physical strength, orangutans rarely parade it, acting decisively only when their territory or offspring are threatened. Riina operated similarly: no senseless aggression, but absolute escalation when provoked.</p>
+        <p class="vb-intro"><strong>c) Strategic and long-term:</strong>
+Orangutans display high intelligence, patience, and memory. Riina's strategic mindset—building power over decades and managing complex structures—mirrors this combination of raw power and long-term planning.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Salvatore Riina</strong> verk\xf6rpert die selbsterhaltende Acht in ihrer dunkelsten
-        und konsequentesten Auspr\xe4gung: territoriale Macht als einzige Form
-        von Sicherheit, kompromisslose Elimination von Bedrohungen, absolute
-        Loyalit\xe4t gegen\xfcber dem Kern-Clan. Der Neunerfl\xfcgel macht diese Acht
-        besonders gef\xe4hrlich: Er nimmt ihr die Offensichtlichkeit. Riina war
-        kein polternder Machtmensch – er war still, geduldig, geerdet.
-        Und genau deshalb kaum zu fassen, bis es zu sp\xe4t war.
+        Salvatore Riina embodies the SP8 in its darkest, most uncompromising form: territorial power as survival, total elimination of threats, and fierce clan loyalty. The Nine-wing made him exceptionally dangerous by hiding his overt aggression—he was quiet, patient, and grounded, making him elusive until it was too late.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SP8 – territoriale Befriedigung:</strong>
-        Claudio Naranjo nannte die selbsterhaltende Acht „Befriedigung":
-        Sie ist die Acht, die ihre Leidenschaft – die \xfcbersteigerte Intensit\xe4t
-        und den Hunger nach Kontrolle – direkt auf die materielle und
-        territoriale Sicherung richtet. F\xfcr Riina war Macht nicht Statussymbol,
-        sondern gelebte Notwendigkeit: Wer in der Welt der Cosa Nostra aufwuchs,
-        lernte fr\xfch, dass nur Macht \xfcberleben sichert.</p>
-        <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel – stille Gef\xe4hrlichkeit:</strong>
-        Der Neunerfl\xfcgel nimmt der Acht ihre laute, konfrontative Seite und
-        gibt ihr Geduld, eine F\xe4higkeit zum Untertauchen und eine scheinbare
-        Harmlosigkeit. Riinas 23 Jahre im Verborgenen – lebend in Wohnungen,
-        unter falschen Namen, umgeben von normalen Menschen – w\xe4ren f\xfcr
-        eine „reine" Acht ohne Neunerfl\xfcgel kaum m\xf6glich gewesen.
-        Der Fl\xfcgel gab ihm die F\xe4higkeit zur Anpassung und zum Zur\xfcckhalten.</p>
-        <p class="vb-intro"><strong>c) Der Corleoneser Mafia-Krieg als SP8-Eskalation:</strong>
-        In den 1980er Jahren initiierte Riina den brutalen Vernichtungskrieg
-        gegen die traditionelle Mafia-F\xfchrung (die Kommission) und lie\xdf
-        rivalisierende Bosse, deren Familien und Verbündete systematisch
-        t\xf6ten. Das ist SP8-Logik in ihrer extremsten Form: Wenn das Territorium
-        bedroht ist, gibt es keine halben Ma\xdfnahmen. Entweder totale Kontrolle
-        oder totale Ausl\xf6schung der Bedrohung.</p>
-        <p class="vb-intro"><strong>d) Entspannungspunkt Zwei – F\xfcrsorglichkeit im Inneren:</strong>
-        Der Entspannungspunkt der Acht ist die Zwei. Im entspannten Zustand
-        \xf6ffnet sich die Acht, wird f\xfcrsorglicher und zugewandter.
-        Riinas tiefe Loyalit\xe4t und F\xfcrsorglichkeit gegen\xfcber seiner Familie
-        und seinen engsten Vertrauten – seine Frau, seine Kinder lebten
-        jahrelang mit ihm im Versteck – ist dieses Zweiermuster:
-        Im innersten Kreis war Riina ein anderer Mensch als nach au\xdfen.</p>
-        <p class="vb-intro"><strong>e) Stressmuster Fünf – totaler R\xfcckzug:</strong>
-        Unter extremem Stress geht die Acht in den Stressmuster-Punkt der F\xfcnf:
-        Sie zieht sich zur\xfcck, wird isoliert, abschottend, beobachtend.
-        Riinas jahrzehntelanger Untergrund tr\xe4gt auch diese Qualit\xe4t:
-        die F\xfcnfer-F\xe4higkeit zur v\xf6lligen Isolation und R\xfcckzug als
-        Strategie des \xdcberlebens.</p>
-        <p class="vb-intro"><strong>f) Macht ohne Repr\xe4sentation:</strong>
-        <strong>Riina</strong> prunkte nicht. Keine Villen, keine \xf6ffentlichen Auftritte,
-        kein Protz – er lebte schlicht. Das unterscheidet die SP8 von
-        anderen Machttypen: Macht ist f\xfcr sie Sicherheitsinstrument,
-        nicht Bühne. Der Orang-Utan baut keinen Palast –
-        er beansprucht den Wald.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary In-Depth Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP8 – Territorial Satisfaction:</strong>
+Claudio Naranjo called the SP8 "Satisfaction": directing Lust and control toward material and territorial security. To Riina, power was not a status symbol, but a necessity forged in the ruthless environment of Cosa Nostra.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing – Silent Danger:</strong>
+The Nine-wing replaces overt confrontation with patience, stealth, and apparent harmlessness. Living 23 years in plain sight among ordinary citizens would have been nearly impossible for an Eight without this wing's adaptability and restraint.</p>
+        <p class="vb-intro"><strong>c) The Corleonesi War as SP8 Escalation:</strong>
+In the 1980s, Riina waged a brutal war of extermination against rival bosses and their families. This represents extreme SP8 logic: when territory is threatened, half-measures are abandoned for total control or absolute eradication.</p>
+        <p class="vb-intro"><strong>d) Integration Point Two – Internal Care:</strong>
+Relaxed Eights move toward Type 2, becoming more caring and open. Riina's deep devotion to his wife and children—who lived with him in hiding—reflects this dynamic: an entirely different person inside his inner circle.</p>
+        <p class="vb-intro"><strong>e) Stress Point Five – Complete Withdrawal:</strong>
+Under severe stress, Eights shift to Type 5, becoming isolated, secretive, and observant. Riina's decades in hiding draw heavily on this 5 capacity for total isolation as a survival strategy.</p>
+        <p class="vb-intro"><strong>f) Power Without Display:</strong>
+Riina shunned ostentation, luxury, and public glory, living simply. Power for the SP8 is a tool for security, not a stage. Like the orangutan, he claimed the forest without needing to build a palace.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -22767,7 +22656,7 @@ function salvatoreRiinaPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Salvatore Riina wurde in zahlreichen Prozessen wegen Mordes und Mafia-Zugehörigkeit zu mehrfacher lebenslanger Haft verurteilt und starb 2017 in Gefangenschaft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep psychological analysis as a hypothesis, not a historical judgment. Salvatore Riina was convicted of multiple life sentences for murder and Mafia association, dying in custody in 2017. The Enneagram explains; it does not justify.
         </p>
       </div>
 
