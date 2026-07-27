@@ -11496,13 +11496,25 @@ function nonverbaleSignalePage() {
     ${pageHeader("nonverbale-signale")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Nonverbal Signals</p>
-      <h1>Nonverbale Signale der 9 Enneagrammtypen</h1>
+      <h1>Nonverbal Signals of the 9 Enneagram Types</h1>
       <p class="lead-small">Body language, facial expressions, gestures, and posture reveal a lot about a person's Enneagram type. This overview shows the typical nonverbal signals of all 9 types as additional typing factors.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
-             alt="Nonverbale Signale der 9 Enneagrammtypen"
+             alt="Nonverbal signals of the 9 Enneagram types"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:1.5rem auto 0;font-size:.9rem;line-height:1.75;color:var(--ink);display:grid;gap:.7rem;">
+        <p><strong>Type 9:</strong> Minimal facial tension, relaxed demeanor, easy posture, low physical energetic presence, a peripheral gaze quality with a wide field of view (the so-called &bdquo;referee gaze&ldquo;).</p>
+        <p><strong>Type 1:</strong> Tense jaw muscles to hold back anger, self-controlled body expression, frequent use of the index finger, very upright posture.</p>
+        <p><strong>Type 2:</strong> Rounded shoulders with a tendency toward a so-called funnel chest, eyes that convey warm, interpersonal contact, an inviting smile.</p>
+        <p><strong>Type 3:</strong> Shoulders more horizontal than rounded, life energy concentrated in the upper body (mainly face and upper torso), a confident bearing.</p>
+        <p><strong>Type 4:</strong> Appears energetically more inward-focused, moist/soulful eyes, an intense, authentic radiance, creative gestures and expressions.</p>
+        <p><strong>Type 5:</strong> An inward-directed gaze quality (the eyes seem as if observing or reflecting on oneself), sparse gestures and facial expressions.</p>
+        <p><strong>Type 6:</strong> A scrutinizing &bdquo;scanner&ldquo; gaze, at times restless or unsteady eye movement, or a deliberately fixed, bold gaze; hyper-vigilant behavior; appears energetically tense or stressed.</p>
+        <p><strong>Type 7:</strong> A radiant, lively expression in the eyes, frequent laughing/smiling, mobile, vital gestures and facial expressions.</p>
+        <p><strong>Type 8:</strong> An authoritative demeanor with strong physical presence, grounded energy (&bdquo;like a rock in the surf!&ldquo;), a more rigid bodily expression, holds direct eye contact that others sometimes find uncomfortably long.</p>
+      </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Body language, gaze, and gesture as typing tools &ndash; a step-by-step guide for all 9 types.", "Die Praxis der Typbestimmung")}
       <p style="margin-top:1.5rem; text-align:center;">
         &larr; Back to: Verbal Signals
       </p>
@@ -11682,11 +11694,16 @@ function zentraleFragenPage() {
              alt="The Central Questions of the 9 Enneagram Types"
              class="psycho-img" />
       </div>
+      <div style="max-width:640px;margin:1.5rem auto 0;font-size:.92rem;line-height:1.8;color:var(--ink);">
+        <p>Each type carries one recurring question worth sitting with: Type 9, the Peacemaker &ndash; &bdquo;How do you say &lsquo;no&rsquo;?&ldquo; Type 1, the Perfectionist &ndash; &bdquo;How do you criticize yourself and others?&ldquo; Type 2, the Helper &ndash; &bdquo;How do you manipulate others?&ldquo; Type 3, the Achiever &ndash; &bdquo;How do you secure recognition for yourself?&ldquo; Type 4, the Individualist &ndash; &bdquo;How do you show your longing?&ldquo; Type 5, the Thinker &ndash; &bdquo;How do you hold yourself back?&ldquo; Type 6, the Loyal Skeptic &ndash; &bdquo;How do you create security for yourself?&ldquo; Type 7, the Optimist &ndash; &bdquo;How do you rationalize your behavior?&ldquo; Type 8, the Challenger &ndash; &bdquo;How do you control others?&ldquo;</p>
+        <p style="text-align:center;font-style:italic;border-left:3px solid var(--gold);padding:.7rem 1.1rem;background:var(--paper);border-radius:0 8px 8px 0;">&bdquo;There are questions that are answers.&ldquo;<br><span style="font-style:normal;font-size:.85rem;color:var(--muted);">&mdash; Otto Weiß, Budapest-born musician; also active as playwright, columnist, and aphorist, 1849&ndash;1915</span></p>
+      </div>
       <p style="margin-top:1.5rem; text-align:center;">
         <a href="#befreiende-fragen" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
           Next: Liberating Questions →
         </a>
       </p>
+      ${bookTip("wer-du-wirklich-bist-band-1", "How each type&rsquo;s central question opens into a liberating one &ndash; a practical next step for all 9 types.", "Wer du wirklich bist")}
       ${relatedLinks([
         {route:"befreiende-fragen", label:"Liberating Questions"},
         {route:"60-sekunden-scan", label:"60-Second Scan"},
