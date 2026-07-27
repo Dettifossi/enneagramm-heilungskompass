@@ -31423,173 +31423,72 @@ function garyRidgwayPortraitPage() {
         <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
       </div>
       <p class="psycho-intro">
-        <strong>Gary Ridgway</strong>, geboren 1949 in Salt Lake City, ist einer der produktivsten
-        Serienmörder der amerikanischen Geschichte. Mindestens 49 Morde wurden ihm rechtskräftig
-        zugeordnet – er selbst gestand über 70, und Ermittler gehen von einer noch höheren Zahl aus.
-        Seine Opfer waren fast ausschließlich Prostituierte und Ausreißerinnen im Raum Seattle/Tacoma,
-        Washington, die er über fast zwei Jahrzehnte tötete – von 1982 bis zu seiner Verhaftung 2001.
-        Was Ridgway so schwer fassbar machte: Er war unauffällig. Kirchgänger.
-        Dreimal verheiratet. Vater eines Sohnes. Arbeitete über zwanzig Jahre als Lkw-Lackierer
-        bei derselben Firma. Kein Vorstrafen-Register, das auf Mord hingedeutet hätte.
-        Das Enneagramm macht sichtbar, was hinter dieser Unauffälligkeit arbeitete –
-        und warum die sexuelle Eins with Two-wing einer der gefährlichsten Typen
-        in der Desintegration sein kann.
+        Gary Ridgway, born in 1949 in Salt Lake City, is one of the most prolific serial killers in American history. At least 49 murders were legally attributed to him—he himself confessed to over 70, and investigators suspect an even higher count. His victims were almost exclusively sex workers and runaways in the Seattle/Tacoma area of Washington, whom he killed over nearly two decades—from 1982 until his arrest in 2001. What made Ridgway so elusive was how unassuming he was. A churchgoer. Married three times. Father of a son. Worked for over twenty years as a truck painter at the same company. No criminal record pointing toward murder. The Enneagram reveals what was at work beneath this unassuming exterior—and why the Sexual One with a Two-wing can be one of the most dangerous types in disintegration.
       </p>
 
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Gary Ridgway</strong> wird dem <strong>Sexuellen Typ 1 with Two-wing</strong> im Enneagramm zugeordnet.
-        Die sexuelle Eins ist getrieben von dem Bedürfnis, in der intimsten Beziehung vollständige Kontrolle
-        und Reinheit zu besitzen. Der Two-wing verleiht ihr Charme, Hilfsbereitschaft und die Fähigkeit,
-        Nähe herzustellen. Der Stresspunkt der Eins liegt bei der <strong>Vier</strong>:
-        innere Aufruhr, Selbstverurteilung, das Gefühl, im Kern defekt zu sein –
-        ein Zustand, den Ridgway nach außen durch sorgfältige Normalität verborgen hielt.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Gary Ridgway is assigned to the Sexual Type 1 with Two-wing in the Enneagram. The Sexual One is driven by the need to possess complete control and purity within their most intimate relationships. The Two-wing grants charm, helpfulness, and the ability to build rapport. Type 1's stress point lies at Type 4: inner turmoil, self-judgment, and the sensation of being core-defective—a state Ridgway hid behind a carefully maintained facade of normal life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: Die Schwarze Mamba</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal Correspondence: The Black Mamba</h3>
         <p class="vb-intro">
-        Die <strong>Schwarze Mamba</strong> ist die Animal correspondence der sexuellen Eins –
-        und sie trifft Gary Ridgway mit klinischer Präzision.
-        Die Schwarze Mamba ist nicht aggressiv im Sinne der Acht – sie greift nicht aus Dominanzwillen an.
-        Sie greift an, wenn sie sich bedroht fühlt, wenn eine Grenze überschritten wird,
-        wenn ihre Sphäre verletzt wird. Ihr Gift ist neurotoxisch: es lähmt, es schaltet ab,
-        es tötet präzise. Sie ist eines der schnellsten Tiere der Welt –
-        aber die meisten Menschen sehen sie nie, bevor es zu spät ist.
-        Ridgway war genau das: unauffällig, scheinbar harmlos, fast unsichtbar in der Menge.
-        Aber in seiner intimsten Sphäre – im Contact mit Frauen, die er als unrein, unkontrollierbar,
-        als Bedrohung seiner inneren Ordnung erlebte – schlug er zu.
-        Präzise. Schnell. Ohne Reue.
+        The Black Mamba is the animal correspondence of the Sexual One—and it captures Gary Ridgway with clinical precision. The Black Mamba is not aggressive in the sense of Type 8; it does not attack out of a drive for dominance. It strikes when feeling threatened, when a boundary is crossed, or when its sphere is violated. Its venom is neurotoxic: it paralyzes, shuts down, and kills with precision. It is one of the fastest animals in the world—yet most people never see it before it is too late. Ridgway was precisely that: unassuming, seemingly harmless, virtually invisible in a crowd. But within his most intimate sphere—in contact with women he perceived as impure, uncontrollable, or as threats to his inner order—he struck. Precisely. Swiftly. Without remorse.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Kontrolle als Reinheitsprinzip</h3>
-        <p class="vb-intro"><strong>a) Die innere Logik:</strong>
-        Die sexuelle Eins strebt nach der perfekten, reinen, vollständig kontrollierten Verbindung
-        in der intimsten Beziehung. Sie hat ein starkes, oft rigides Bild davon, wie diese Verbindung
-        auszusehen hat – und sie erlebt abweichende Wirklichkeit als Zumutung, als Befleckung,
-        als Versagen. Ridgway hatte nach eigener Aussage tiefe Verachtung für Prostituierte –
-        bezeichnete sie als Abfall, als Menschen, die nichts wert seien.
-        Gleichzeitig suchte er ständig ihren Contact. Diese Spannung –
-        Begehren und Verachtung für dasselbe Objekt – ist das Kernmuster der SX1 in der Desintegration:
-        Sie will etwas, das sie als unrein erlebt. Also vernichtet sie es.</p>
-        <p class="vb-intro"><strong>b) Der Two-wing: Charme als Waffe:</strong>
-        Der Two-wing bringt der sexuellen Eins Wärme, Anpassungsfähigkeit und die Fähigkeit,
-        Vertrauen herzustellen. Ridgway nutzte diesen Flügel systematisch.
-        Er war freundlich, entspannt, nicht bedrohlich wirkend.
-        Er konnte sich in die Erwartungen seiner Opfer einfügen:
-        ein Mann, der zahlt, der höflich ist, der kein Risiko zu sein scheint.
-        Frauen stiegen freiwillig in sein Auto. Das ist der Two-wing in seiner dunkelsten Funktion:
-        Hilfsbereitschaft und Wärme als Tarnung für das, was darunter liegt.</p>
-        <p class="vb-intro"><strong>c) Die Fassade des Normalen:</strong>
-        Ridgway besuchte regelmäßig den Gottesdienst, las die Bibel,
-        sprach mit Kollegen über den Glauben. Er heiratete dreimal.
-        Sein dritter Ehe dauerte fast dreißig Jahre – die gesamte Zeit seiner aktivsten Mordserie.
-        Sein Sohn wusste nichts. Seine Frau wusste nichts.
-        Das ist das SX1-Muster: Nach innen totale Kontrolle über eine intime Sphäre –
-        nach außen totale Anpassung an die Erwartungen der Gemeinschaft.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual One: Control as a Purity Principle</h3>
+        <p class="vb-intro"><strong>a) The Inner Logic:</strong>
+The Sexual One strives for a perfect, pure, completely controlled connection in their most intimate relationships. They hold a rigid image of how this connection ought to look—and experience any deviating reality as an affront, a stain, or a failure. Ridgway admitted to having a deep contempt for sex workers, referring to them as garbage and worthless human beings. At the same time, he constantly sought them out. This tension—desire and contempt for the very same object—is the core pattern of the disintegrating SX1: craving something perceived as impure, and destroying it as a result.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing: Charm as a Weapon:</strong>
+The Two-wing brings warmth, adaptability, and the ability to build trust to the Sexual One. Ridgway systematically exploited this wing. He came across as friendly, relaxed, and unthreatening, adapting smoothly to his victims' expectations: a paying customer, polite, appearing entirely safe. Women voluntarily got into his car. This is the Two-wing in its darkest function: helpfulness and warmth serving as camouflage for what lies beneath.</p>
+        <p class="vb-intro"><strong>c) The Facade of Normalcy:</strong>
+Ridgway regularly attended church services, read the Bible, and spoke with coworkers about his faith. He married three times. His third marriage lasted nearly thirty years—spanning the entire duration of his most active murder spree. His son knew nothing. His wife knew nothing. This is the SX1 pattern: absolute control over an intimate sphere internally, alongside complete adaptation to community expectations externally.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Methode und Muster</h3>
-        <p class="vb-intro"><strong>a) Auswahl der Opfer:</strong>
-        Ridgway wählte fast ausschließlich Frauen, die am Pacific Highway 99
-        südlich von Seattle der Prostitution nachgingen – Ausreißerinnen, Süchtige,
-        Frauen ohne stabiles soziales Netz. Er wählte sie nicht zufällig:
-        Sie waren gefährdet, wenig vermisst, von Behörden wenig beachtet.
-        Das entspricht dem SX1-Kalkül: die Opfer liegen außerhalb der als rein
-        empfundenen gesellschaftlichen Ordnung – und fallen damit in die Kategorie
-        dessen, was entfernt werden darf.</p>
-        <p class="vb-intro"><strong>b) Annäherung und Tat:</strong>
-        Ridgway sprach Frauen auf der Straße an, verhandelte kurz einen Preis,
-        fuhr mit ihnen in abgelegene Bereiche – oft in Wälder südlich des Flughafens Seattle-Tacoma,
-        in die Nähe des Green River oder auf unbebaute Grundstücke.
-        Er tötete durch Erwürgen – von hinten, schnell, mit seinen Händen oder einem Strick.
-        Er tötete in seinem Auto, in seiner Wohnung, in seinem Garten.
-        Er beschrieb den Ablauf in Verhören mit bürokratischer Präzision:
-        Wo er geparkt hatte. Wie er die Leichen bewegt hatte. Welchen Weg er nach Hause genommen hatte.
-        Keine Erregung. Keine Reue. Eine Sachlichkeit, die Ermittler bis heute erschreckt.</p>
-        <p class="vb-intro"><strong>c) Die Leichen:</strong>
-        Ridgway legte die Körper seiner Opfer in Gruppen ab –
-        er nannte diese Stellen „Cluster" –, damit er, wenn eine Leiche gefunden wurde,
-        die anderen noch nicht entdeckten Opfer behalten konnte.
-        Er kehrte regelmäßig zu den Ablageorten zurück.
-        Er brachte dort manchmal Zigarettenstummel und Gegenstände anderer Männer aus,
-        um die Ermittlungen zu verwirren. Er kannte die Ermittlungsmethoden
-        aus Medienberichten und passte sein Verhalten gezielt an.
-        Das ist die SX1-Intelligenz in ihrer dunkelsten Form:
-        Ordnung, Planung, Systemdenken – im Dienst der Vernichtung.</p>
-        <p class="vb-intro"><strong>d) Fast zwanzig Jahre unentdeckt:</strong>
-        Ridgway war bereits 1983, 1984 und 1987 von der Polizei befragt worden –
-        als Verdächtiger, nicht als Täter. Er bestand einen Lügendetektortest.
-        Erst 2001 führte eine DNA-Analyse von Proben aus dem Jahr 1987 zu seiner Verhaftung.
-        Die Proben hatten zwanzig Jahre in einem Kühlschrank gelegen.
-        Er wurde verhaftet, kurz nachdem er geheiratet hatte – zum dritten Mal,
-        auf dem Rückweg von der Hochzeitsreise. Das Normale und das Monströse
-        existierten bis zur letzten Minute nebeneinander.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crime Execution: Method and Pattern</h3>
+        <p class="vb-intro"><strong>a) Selection of Victims:</strong>
+Ridgway chose almost exclusively women engaged in sex work along Pacific Highway 99 south of Seattle—runaways, addicts, and women lacking a stable social safety net. He did not pick them at random: they were vulnerable, rarely reported missing immediately, and overlooked by authorities. This fit the SX1 calculation: these victims fell outside what was viewed as clean societal order, classifying them as something that could be removed.</p>
+        <p class="vb-intro"><strong>b) Approach and Execution:</strong>
+Ridgway approached women on the street, briefly negotiated a price, and drove them to remote areas—often woods south of the Seattle-Tacoma airport, near the Green River, or onto undeveloped lots. He killed by strangulation—from behind, swiftly, using his hands or a ligature. He killed inside his vehicle, in his home, and in his yard. He detailed the process during interrogations with bureaucratic precision: where he parked, how he moved the bodies, which route he drove home. No excitement. No remorse. A clinical matter-of-factness that unnerves investigators to this day.</p>
+        <p class="vb-intro"><strong>c) The Bodies:</strong>
+Ridgway placed his victims' bodies in groups—referring to these sites as "clusters"—so that if one body was discovered, he could retain the undiscovered ones. He returned to these sites regularly. At times, he scattered cigarette butts and belongings from other men there to confuse investigators. He studied police investigative methods from news reports and deliberately adjusted his behavior. This is SX1 intelligence at its darkest: order, planning, and systematic thinking serving the purpose of destruction.</p>
+        <p class="vb-intro"><strong>d) Undetected for Nearly Twenty Years:</strong>
+Ridgway was interviewed by police as early as 1983, 1984, and 1987—as a suspect, not the perpetrator. He passed a polygraph test. It was not until 2001 that DNA analysis of samples collected in 1987 led to his arrest; the samples had sat in a freezer for twenty years. He was arrested shortly after getting married for the third time, while returning from his honeymoon. The normal and the monstrous coexisted until the final minute.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Innerer Aufruhr hinter der Maske</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Type Four Stress: Inner Turmoil Behind the Mask</h3>
         <p class="vb-intro">
-        Die Eins bewegt sich im Stress in Richtung <strong>Vier</strong> –
-        innerer Aufruhr, Selbstverurteilung, das quälende Gefühl, im Kern fehlerhaft zu sein.
-        Ridgway beschrieb in Interviews ein Leben voller innerer Anspannung,
-        die er nie benennen konnte. Er sprach von dem Drang, dem er nicht widerstehen konnte –
-        einem Impuls, der stärker war als sein Wille, stärker als sein Glaube, stärker als seine Vernunft.
-        Er betete. Er las die Bibel. Er versuchte, ein guter Mann zu sein.
-        Und er tötete weiter.
-        Das ist der Vierer-Stresspunkt der Eins in seiner dunkelsten Form:
-        Das Wissen, dass man böse ist, ohne es stoppen zu können –
-        und die Entscheidung, es nach außen hin trotzdem perfekt zu verbergen.
+        Under stress, Type 1 moves toward Type 4—inner turmoil, self-condemnation, and the agonizing feeling of being fundamentally defective. In interviews, Ridgway described a life filled with internal tension he could never articulate. He spoke of an urge he could not resist—an impulse stronger than his will, his faith, or his reason. He prayed. He read the Bible. He tried to be a good man. And he kept killing. This is Type 1's stress point at Type 4 in its darkest form: knowing one is evil without being able to stop it—and deciding to conceal it perfectly from the outside world anyway.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Geständnis und der Handel</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Confession and the Plea Deal</h3>
         <p class="vb-intro">
-        2003 schloss Ridgway einen Deal mit der Staatsanwaltschaft:
-        Er würde vollständig gestehen, alle Opfer benennen, alle Ablageorte beschreiben –
-        im Gegenzug für den Ausschluss der Todesstrafe.
-        Über Monate hinweg führten Ermittler Verhöre mit ihm durch,
-        die inzwischen als Schulungsmaterial für Kriminologen weltweit eingesetzt werden.
-        Ridgway benannte 71 Opfer namentlich. Er beschrieb Tatorte,
-        die seit zwanzig Jahren unbekannt waren. Er führte Ermittler zu Knochen im Wald.
-        Er war kooperativ. Sachlich. Hilfreich.
-        Das ist die grausamste Manifestation des Two-wings:
-        Nach der Tat kam die Hilfsbereitschaft.
-        Er wurde zum unentbehrlichsten Zeugen seiner eigenen Verbrechen.
+        In 2003, Ridgway entered a plea deal with prosecutors: he would confess fully, identify all victims, and describe all body dump sites in exchange for removing the death penalty. Over several months, investigators conducted interrogations with him that are now used as training material for criminologists worldwide. Ridgway named 71 victims by name, described crime scenes unknown for twenty years, and led detectives to bones in the woods. He was cooperative, matter-of-fact, and helpful. This is the cruelest manifestation of the Two-wing: helpfulness emerging after the crime. He became the most indispensable witness to his own atrocities.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Gary Ridgway ist kein Rätsel für das Enneagramm.
-        Er ist die sexuelle Eins in ihrer absolutesten Dekonstruktion:
-        ein Mensch, der Reinheit wollte und sich von dem anzog, was er als unrein empfand.
-        Der Two-wing gab ihm die soziale Kompetenz, die er brauchte, um jahrzehntelang
-        als normaler Bürger zu leben. Der Vierer-Stresspunkt lieferte den inneren Aufruhr,
-        den er nie integrieren konnte.
-        Was Ridgway zeigt: dass Religiosität, Pflichtbewusstsein und soziale Angepasstheit
-        kein Schutz sind – weder für andere noch für einen selbst –
-        wenn die innere Welt nie wirklich angeschaut wurde.
-        Die Schwarze Mamba wartet. Ruhig. Unsichtbar. Solange kein Druck kommt.
-        Und dann schlägt sie zu.
+        Gary Ridgway is no mystery to the Enneagram. He represents the Sexual One in its most absolute deconstruction: a human being who craved purity yet was drawn to what he deemed impure. The Two-wing granted him the social competence needed to live as an ordinary citizen for decades. The Type 4 stress point supplied the inner turmoil he could never integrate. What Ridgway demonstrates is that religiosity, duty, and social compliance offer no safeguard—neither for others nor for oneself—when the inner world is never truly confronted. The Black Mamba waits. Quietly. Invisibly. As long as there is no pressure. And then it strikes.
         </p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Einordnung</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Categorization</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w2 – Sexuelle Eins with Two-wing.<br>
-        <strong>Leidenschaft:</strong> Zorn – der innere Richter, der alles bewertet und verurteilt, was nicht dem Bild der Reinheit entspricht.<br>
-        <strong>Stresspunkt:</strong> Vier – innerer Aufruhr, Selbstverurteilung, das Gefühl des inneren Defekts.<br>
-        <strong>Animal correspondence:</strong> Schwarze Mamba – schnell, präzise, unauffällig bis zur letzten Sekunde; giftig in der intimsten Nähe.<br>
-        <strong>Lehrwert:</strong> Ridgway zeigt, wie Reinheitsfixierung, unterdrückter Zorn und die Unfähigkeit,
-        innere Widersprüche anzusehen, über Jahrzehnte zur Vernichtung anderer führen können –
-        hinter der Fassade eines unauffälligen, frommen, arbeitssamen Mannes.
+        <strong>Subtype:</strong> SX1w2 – Sexual Type 1 with Two-wing.<br>
+        <strong>Passion:</strong> Anger – the internal judge that evaluates and condemns anything that fails to match the image of purity.<br>
+        <strong>Stress Point:</strong> Type 4 – inner turmoil, self-judgment, and the sensation of being fundamentally defective.<br>
+        <strong>Animal Correspondence:</strong> Black Mamba – fast, precise, unassuming until the final second; lethal in intimate proximity.<br>
+        <strong>Educational Value:</strong> Ridgway shows how a fixation on purity, suppressed anger, and an inability to confront inner contradictions can lead to the destruction of others over decades—behind the facade of an unassuming, devout, and hardworking man.
         </p>
       </div>
 
@@ -31600,7 +31499,7 @@ function garyRidgwayPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Gary Ridgway bekannte sich 2003 in 48 Fällen des Mordes schuldig und verbüßt lebenslange Haft ohne Bewährung. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Note:</strong> This portrait serves deep psychological analysis as a hypothesis, not a historical judgment. Gary Ridgway pled guilty to 48 counts of murder in 2003 and is serving life sentences without parole. The Enneagram explains; it does not justify.
         </p>
       </div>
 
@@ -31613,101 +31512,6 @@ function garyRidgwayPortraitPage() {
   `);
 }
 
-function osamaBinLoadingPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Osama bin Loading \u2013 Criminal Psychology")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="../assets/portraits/osama-bin-laden-portrait.jpg" alt="Osama bin Loading – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Osama bin Loading</p>
-        <p class="krim-portrait-typ">SO2w1 \xb7 Social Type 2 mit Einserfl\xfcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xfcnder al-Qaida \xb7 11. September 2001 \xb7 Animal correspondence: Golden Retriever</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Osama bin Loading</strong> (1957\u20132011), Sohn einer reichen saudi-arabischen Unternehmerfamilie, gr\xfcndete Ende der 1980er-Jahre die Terrororganisation al-Qaida. Er organisierte zahlreiche Anschl\xe4ge, darunter die Bombenanschl\xe4ge auf die US-Botschaften in Kenia und Tansania (1998), den Anschlag auf die USS Cole (2000) und \u2013 in seiner gr\xf6\xdften Tat \u2013 die Anschl\xe4ge vom <strong>11. September 2001</strong> in New York, Washington und Pennsylvania: 2.977 Todesopfer, der schwerste Terroranschlag der Geschichte. Seit 2001 von US-Streitkr\xe4ften weltweit gesucht, lebte er jahrelang verborgen in Pakistan. Am 2. Mai 2011 wurde er bei einem gezielten US-Milit\xe4reinsatz in Abbottabad get\xf6tet. Das Enneagramm erkl\xe4rt, wie ein privilegierter, frommer Mann sich zur Vernichtungsinstanz f\xfcr Tausende verwandeln konnte.
-      </p>
-
-      <div class="vb-section" style="background:rgba(100,50,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Osama bin Loading</strong> wird dem <strong>Sozialen Typ 2 mit Einserfl\xfcgel</strong> zugeordnet. Claudio Naranjo nannte den sozialen Subtype der Zwei \u201eAmbition\u201c: die soziale Zwei gibt nicht an Einzelne, sondern an Gruppen, Gemeinschaften, Ideen \u2013 und zieht daraus Bedeutung, Zugeh\xf6rigkeit und Stolz. Bin Loadings Stolz \u2013 die Leidenschaft der Zwei \u2013 war kein pers\xf6nlicher Stolz, sondern ein <em>kollektiver</em>: der Stolz als Besch\xfctzer und Retter der muslimischen Welt. Der Einserf\xfcgel f\xfcgte die moralische Unerbittlichkeit hinzu: eine unbedingte, rigoristische \xdcberzeugung der eigenen Rechtm\xe4\xdfigkeit, die jeden Kompromiss verbot. Das Tier \u2013 der <em>Golden Retriever</em> \u2013 illustriert das Paradox: loyal, warmherzig, zur Aufopferung f\xfcr das Rudel bereit \u2013 und gef\xe4hrlich, wenn er glaubt, seine Familie zu verteidigen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig und \xfcberzeugt:</strong>
-        Bin Loadings Auftreten in Video-Botschaften war niemals aufgeregt oder aggressiv \u2013 es war die Ruhe eines Mannes, der wei\xdf, dass er recht hat. Kein Funkeln des Sadismus, keine Spur von Rausch. Die soziale Zwei braucht keine Erregung \u2013 sie braucht die Gew\xdfheit der eigenen Unentbehrlichkeit.</p>
-        <p class="vb-intro"><strong>b) W\xe4rmend und einladend:</strong>
-        In Interviews und Aufnahmen aus dem engsten Kreis zeigte sich bin Loading als f\xfcrsorglich, zugewandt, v\xe4terlich. Angeblich sch\xe4tzte er Humor, h\xf6rte seinen Mitk\xe4mpfern zu, kannte ihre Familien. Das ist keine Tarnung \u2013 es ist der authentische SO2-Kern: echte W\xe4rme als Grundlage von F\xfchrung.</p>
-        <p class="vb-intro"><strong>c) Moralisch und richterlich \u2013 der Einserfl\xfcgel:</strong>
-        Nach au\xdfen \u2013 gegen\xfcber dem \u201eFeind\u201c \u2013 war sein Blick verurteilend und kalt. Der Einserf\xfcgel produziert den moralischen Richter: <em>Ich tue nicht, was ich will \u2013 ich tue, was gerecht ist.</em> Das macht die soziale Zwei mit Einserfl\xfcgel so gef\xe4hrlich: die Vernichtung wird zur Pflicht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Geber f\xfcr die Gemeinschaft:</strong>
-        Bin Loading stammte aus einer der reichsten Familien Saudi-Arabiens. Er h\xe4tte in Komfort leben k\xf6nnen. Stattdessen gab er sein Verm\xf6gen, seine Sicherheit, schlie\xdflich sein Leben f\xfcr das, was er als Befreiung der muslimischen Welt verstand. Dieses <em>Geben</em> war kein Zeichen von Selbstlosigkeit \u2013 es war die Lebensstrategie der sozialen Zwei: Bedeutung durch Aufopferung.</p>
-        <p class="vb-intro"><strong>b) Der Besch\xfctzer des Rudels:</strong>
-        Al-Qaida war nicht prim\xe4r eine Ideologie \u2013 sie war eine Familie. Bin Loading pflegte seine Mitk\xe4mpfer, sch\xfctzte ihre Angeh\xf6rigen, ehrte die Gefallenen. Der Golden Retriever verteidigt sein Rudel mit absoluter Loyalit\xe4t. Bin Loadings Terrorismus war \u2013 in seiner eigenen Wahrnehmung \u2013 Verteidigung.</p>
-        <p class="vb-intro"><strong>c) Stolz als Motor:</strong>
-        Die Leidenschaft der Zwei ist Stolz \u2013 beim sozialen Subtype nicht als Eitelkeit, sondern als <em>kollektiver Stolz</em>: die Demut\xfctigungen der muslimischen Welt durch den Westen wurden zu seinen pers\xf6nlichen Verletzungen. Jede weitere Dem\xfctigung der muslimischen Welt versch\xe4rfte seinen Antrieb. Er sprach selten von sich selbst \u2013 er sprach immer von \u201euns\u201c.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Der Weg zur Gewalt:</strong>
-        Bin Loadings Radikalisierung begann im sowjetisch-afghani\xadschen Krieg (1979\u20131989), wo er als Freiwilliger k\xe4mpfte und al-Qaida aus dem Netzwerk der Mudschaheddin heraus gr\xfcndete. Die US-Milit\xe4rpr\xe4senz in Saudi-Arabien nach dem Golfkrieg 1991 \u2013 heiliges Land, ber\xfchrt von Ungl\xe4ubigen \u2013 war f\xfcr ihn eine unertr\xe4gliche Dem\xfctigung. Der Einserfl\xfcgel verwandelte diese Verletzung in eine moralische Pflicht zur Gegenwehr.</p>
-        <p class="vb-intro"><strong>b) 11. September 2001:</strong>
-        Die Anschl\xe4ge auf das World Trade Center und das Pentagon waren das Ergebnis jahrelanger Planung: 19 Attent\xe4ter, vier entf\xfchrte Flugzeuge, 2.977 Tote. Bin Loading erkl\xe4rte sp\xe4ter, er habe nicht mit einem so vollst\xe4ndigen Gelingen gerechnet. Sein Ziel war nicht prim\xe4r die Maximierung von Opfern \u2013 es war die Demonstration: <em>Ihr seid nicht unangreifbar. Wir sind da.</em> Die soziale Zwei sendet eine Botschaft an die Gemeinschaft, f\xfcr die sie handelt.</p>
-        <p class="vb-intro"><strong>c) Das Versteck und das Ende:</strong>
-        Nach dem US-Einmarsch in Afghanistan 2001 lebte bin Loading jahrelang im Verborgenen \u2013 schlie\xdflich in einer Anlage in Abbottabad, Pakistan, keine zwei Kilometer von der Milit\xe4rakademie entfernt. Am 2. Mai 2011 t\xf6teten US-Spezialk\xe4mpfer ihn bei einem Nachteinsatz. Er war 53 Jahre alt. Sein Leichnam wurde auf See beigesetzt. Al-Qaida besteht fort.</p>
-        <p class="vb-intro"><strong>d) Ein Spiel des Schicksals:</strong>
-        Den Befehl zur Operation gab <strong>Barack Obama</strong> \u2013 damaliger US-Pr\xe4sident und, nach enneagrammatischer Einsch\xe4tzung, ebenfalls <strong>ein Social Type 2 mit Einserfl\xfcgel</strong>. Zwei M\xe4nner desselben Typs, an entgegengesetzten Polen der Geschichte: der eine, der alles gab, um seine Gemeinschaft zu befreien \u2013 der andere, der alles gab, um seine Gemeinschaft zu sch\xfctzen. Beide gepr\xe4gt von derselben inneren Struktur: kollektiver Stolz, moralische \xdcberzeugung, Dienst an der Gemeinschaft \xfcber das eigene Wohl. Was sie trennte, war nicht der Typ \u2013 es war die Welt, in der sie aufgewachsen waren, und die Gemeinschaft, der sie sich verpflichtet sahen. Das Enneagramm urteilt nicht. Es macht die wesentlichen Strukturen des Menschseins erkennbar und begreifbar.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Psychologisches Profil</h3>
-        <p class="vb-intro"><strong>a) Stolz ohne Hybris:</strong>
-        Bin Loading war kein narzisstischer Selbstdarsteller. Er inszenierte sich nicht als gro\xdfen F\xfchrer \u2013 er inszenierte sich als Diener. Das ist der Kern der sozialen Zwei: <em>Ich bin wichtig, weil ich gebraucht werde. Ich bin gro\xdf, weil ich gebe.</em> Dieser Stolz ist schwer zu erkennen \u2013 er tr\xe4gt das Gewand der Demut.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Rechtfertigungsmaschine:</strong>
-        Typ 1 liefert die moralische Grammatik: Es gibt Recht und Unrecht. Wir sind im Recht. Also ist das, was wir tun, gerecht \u2013 egal wie es aussieht. Diese Struktur macht aus einem f\xfcrsorglichen, loyalen Menschen einen kaltberechnenden Strategen des Massentods. Er trug keine innere Spannung zwischen Werten und Taten \u2013 er erlebte seine Taten als Ausdruck seiner Werte.</p>
-        <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Terrortypen:</strong>
-        Anders Breivik (SX6w5) handelte aus kontraphobischer Angst und narzisstischem Gr\xf6\xdfenwahn. Anders Breivik wollte anerkannt werden \u2013 bin Loading wollte <em>dienen</em>. Der Unterschied ist typologisch bedeutsam: Breivik war auf sich selbst fixiert, bin Loading auf die Gemeinschaft. Das macht die soziale Zwei in ihrer destruktiven Auspr\xe4gung so schwer zu stoppen: Sie h\xf6rt nicht auf, solange die Gemeinschaft leidet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(60,20,0,0.07);border-left:3px solid #7c3a00;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Zusammenfassung</h3>
-        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Osama bin Loading war kein Monster im klassischen Sinne \u2013 er war ein frommer, loyaler, aufopferungsvoller Mann, dessen Geben zur Vernichtung wurde. Die soziale Zwei mit Einserfl\xfcgel braucht keine Feindseligkeit aus Hass \u2013 sie braucht die \xdcberzeugung, dass das Leiden ihrer Gemeinschaft eine moralische Antwort verlangt. Wenn diese \xdcberzeugung unkorrigiert w\xe4chst, wenn kein Gegen\xfcber die Wahrnehmung bricht, wenn der Einserf\xfcgel jede Tat als Pflicht rahmt \u2013 dann kann aus dem Golden Retriever, der sein Rudel liebt, ein Tier werden, das auf Befehl des eigenen Gewissens t\xf6tet.
-        </p>
-        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Der Golden Retriever h\xf6rte nie auf zu lieben. Darin liegt das eigentliche Grauen.
-        </p>
-      </div>
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Taten bin Loadings sind uneingeschr\xe4nkt zu verurteilen \u2013 das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypes desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"},
-        {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) \u2013 Massenmord in Jonestown"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5) \u2013 Vergleich: Terror aus Angst vs. Terror aus Stolz"}
-      ])}
-      <div style="margin-top:1.5rem;max-width:100%;">
-        <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
-      </div>
-    </div>
-  `);
-}
 function alfonsSchuhbeckPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -42584,7 +42388,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-belle-gunness": belleGunnessPortraitPage,
       "kriminalpsychologie-karla-homolka": karlaHomolkaPortraitPage,
       "kriminalpsychologie-paul-bernardo": paulBernardoPortraitPage,
-      "kriminalpsychologie-osama-bin-laden": osamaBinLoadingPortraitPage,
+      "kriminalpsychologie-osama-bin-laden": osamaBinLadenPortraitPage,
       "kriminalpsychologie-bernie-madoff": bernieMadoffPortraitPage,
       "kriminalpsychologie-alfons-schuhbeck": alfonsSchuhbeckPortraitPage,
     "psychologisches-abwehrverhalten-der-9-typen": abwehrverhalteDer9TypenPage,
