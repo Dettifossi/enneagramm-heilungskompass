@@ -35685,15 +35685,22 @@ function datenschutzPage() {
     <p>Detlef Rathmer · Verlagshaus Rathmer · Molkereiweg 9 · 48727 Billerbeck · Germany<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
     <h2>2. Hosting</h2>
     <p>This app is hosted via GitHub Pages (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, a subsidiary of Microsoft Corporation). When the app is accessed, technically necessary data (IP address, browser type, file requested, date/time) is automatically stored in server log files. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">docs.github.com</a>.</p>
-    <h2>3. Local Storage</h2>
-    <p>This app stores your unlocked access level and optional profile entries exclusively in your browser's local storage. This data does not leave your device and is not transmitted to any server. You can delete this data at any time via your browser settings.</p>
-    <h2>4. Google Fonts</h2>
+    <h2>3. Local Storage (localStorage &amp; IndexedDB)</h2>
+    <p>This app stores your unlocked access level, optional profile entries, and – if you use these features – your own profile photo and any images you upload to your album exclusively in your browser (localStorage or IndexedDB). This data does not leave your device, is not transmitted to any server, and is only visible on the device you are using. You can remove this data at any time via your browser settings or the corresponding delete functions within the app.</p>
+    <h2>4. Optional Sign-In (Firebase Authentication)</h2>
+    <p>If you choose to sign in with your email address to use your access across multiple devices, this app uses Firebase Authentication, a service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland (Firebase is a Google service). This processes your email address and a technical sign-in status in order to link your unlocked access to your account. Processing by Google may take place outside the EU; Google commits to complying with the EU Standard Contractual Clauses and/or the EU-US Data Privacy Framework. Legal basis: Art. 6 Para. 1 lit. b GDPR (performance of the usage agreement). Further information: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>. The app remains fully usable on the respective device without this sign-in; the sign-in service itself does not store any photos, albums, or profile entries – these remain stored locally on your device as described in section 3.</p>
+    <h2>5. YouTube Videos</h2>
+    <p>Many parts of the app embed videos from YouTube (e.g. portraits, music, educational videos). When you open a page with an embedded YouTube video, a connection is established to YouTube's servers (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland); Google may collect technical data such as your IP address and may set cookies even before playback starts. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information, including your options to object: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+    <h2>6. Face Scan &amp; Video Recording (Camera and Microphone Access)</h2>
+    <p>On the optional "Face Scan &amp; Video" page used to prepare a personal type consultation, your browser requests access to your camera and, if applicable, your microphone with your explicit permission (Art. 6 Para. 1 lit. a GDPR, consent). The resulting photos or video are processed and stored exclusively on your own device; there is no automatic transmission to any server. Only if you actively choose to send them via email or WhatsApp do the recordings leave your device (see section 8). You can revoke camera access at any time via your browser or device settings.</p>
+    <h2>7. Google Fonts</h2>
     <p>This app uses fonts from Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland). When the page loads, a connection to Google's servers is established and your IP address is transmitted. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
-    <h2>5. Purchase and Payment Processing</h2>
+    <h2>8. Purchase, Payment Processing and Contact</h2>
     <p>Access codes are purchased via Stripe (stripe.com). This app itself does not process any payment data. Legal basis for processing by the payment provider: Art. 6 Para. 1 lit. b GDPR.</p>
-    <h2>6. No Cookies, No Tracking</h2>
-    <p>This app does not set any cookies of its own and does not use any analytics or tracking services.</p>
-    <h2>7. Your Rights</h2>
+    <p>In some places the app offers to contact Detlef Rathmer directly via email or WhatsApp (WhatsApp Ireland Limited, Dublin, Ireland, a Meta company), for example to schedule a personal consultation. These functions merely open your email program or WhatsApp with a pre-filled message; whether and which data you transmit is entirely your choice. Legal basis: Art. 6 Para. 1 lit. a or b GDPR.</p>
+    <h2>9. Cookies and Tracking</h2>
+    <p>This app does not set any cookies of its own and does not use any analytics or tracking services of its own. As described in section 5, embedded YouTube videos may set cookies provided by their respective operator for technical reasons.</p>
+    <h2>10. Your Rights</h2>
     <p>You have the right to access, rectification, erasure, restriction of processing, and data portability (Art. 15–20 GDPR), as well as the right to object to processing (Art. 21 GDPR). Complaints may be directed to a supervisory authority, e.g. the LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
   `);
 }
@@ -39119,7 +39126,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v684';
+  const MY_VERSION = 'inhalt-v685';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

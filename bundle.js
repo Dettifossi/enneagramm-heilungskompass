@@ -38773,15 +38773,22 @@ function datenschutzPage() {
     <p>Detlef Rathmer · Verlagshaus Rathmer · Molkereiweg 9 · 48727 Billerbeck<br>E-Mail: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
     <h2>2. Hosting</h2>
     <p>Diese App wird über GitHub Pages gehostet (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, ein Tochterunternehmen der Microsoft Corporation). Beim Aufruf werden technisch notwendige Daten (IP-Adresse, Browsertyp, aufgerufene Datei, Datum/Uhrzeit) automatisch in Server-Logfiles gespeichert. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">docs.github.com</a>.</p>
-    <h2>3. Lokaler Speicher (localStorage)</h2>
-    <p>Diese App speichert Ihren freigeschalteten Zugang (Zugangsstufe) sowie optionale Profileingaben ausschließlich lokal in Ihrem Browser (localStorage). Diese Daten verlassen Ihr Gerät nicht und werden nicht an Server übertragen. Sie können diese Daten jederzeit über die Browser-Einstellungen löschen.</p>
-    <h2>4. Google Fonts</h2>
+    <h2>3. Lokaler Speicher (localStorage &amp; IndexedDB)</h2>
+    <p>Diese App speichert Ihren freigeschalteten Zugang (Zugangsstufe), optionale Profileingaben sowie – falls Sie diese Funktionen nutzen – ein eigenes Profilfoto und selbst hochgeladene Bilder in Ihrem Album ausschließlich lokal in Ihrem Browser (localStorage bzw. IndexedDB). Diese Daten verlassen Ihr Gerät nicht, werden nicht an einen Server übertragen und sind nur auf dem jeweils verwendeten Gerät sichtbar. Sie können diese Daten jederzeit über die Browser-Einstellungen oder die entsprechenden Lösch-Funktionen in der App wieder entfernen.</p>
+    <h2>4. Optionale Anmeldung (Firebase Authentication)</h2>
+    <p>Wenn Sie sich in der App optional per E-Mail anmelden, um Ihren Zugang geräteübergreifend zu nutzen, wird hierfür der Dienst Firebase Authentication eingesetzt, ein Angebot der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (Firebase ist ein Google-Dienst). Dabei werden Ihre E-Mail-Adresse und ein technischer Anmeldestatus verarbeitet, um Ihren freigeschalteten Zugang Ihrem Konto zuzuordnen. Eine Verarbeitung durch Google kann auch außerhalb der EU erfolgen; Google verpflichtet sich hierbei zur Einhaltung der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Erfüllung des Nutzungsvertrags). Weitere Informationen: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>. Ohne diese Anmeldung ist die App auf dem jeweiligen Gerät ebenso vollständig nutzbar; der Anmeldedienst selbst speichert keine Fotos, Alben oder Profilangaben – diese verbleiben wie unter Punkt 3 beschrieben lokal auf Ihrem Gerät.</p>
+    <h2>5. YouTube-Videos</h2>
+    <p>An zahlreichen Stellen der App sind Videos von YouTube eingebunden (u. a. Porträts, Musik, Fachvideos). Beim Aufruf einer Seite mit einem eingebetteten YouTube-Video wird eine Verbindung zu Servern von YouTube (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) hergestellt; dabei kann Google bereits vor dem Abspielen technische Daten wie Ihre IP-Adresse erfassen und ggf. Cookies setzen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen, auch zu Ihren Widerspruchsmöglichkeiten: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+    <h2>6. Gesichts-Scan &amp; Video-Aufnahme (Kamera- und Mikrofonzugriff)</h2>
+    <p>Auf der optionalen Seite „Gesichts-Scan &amp; Video" zur Vorbereitung einer persönlichen Typberatung fragt Ihr Browser mit Ihrer ausdrücklichen Erlaubnis Zugriff auf Kamera und ggf. Mikrofon ab (Art. 6 Abs. 1 lit. a DSGVO, Einwilligung). Die dabei entstehenden Fotos bzw. das Video werden ausschließlich lokal auf Ihrem eigenen Gerät verarbeitet und gespeichert; es findet keine automatische Übertragung an einen Server statt. Erst wenn Sie selbst aktiv den Versand per E-Mail oder WhatsApp auswählen, verlassen die Aufnahmen Ihr Gerät (siehe Punkt 8). Sie können den Kamerazugriff jederzeit über Ihre Browser- bzw. Geräteeinstellungen widerrufen.</p>
+    <h2>7. Google Fonts</h2>
     <p>Diese App verwendet Schriftarten des Dienstes Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland). Beim Laden der Seite wird eine Verbindung zu Google-Servern hergestellt, wobei Ihre IP-Adresse übertragen wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
-    <h2>5. Kauf und Zahlungsabwicklung</h2>
+    <h2>8. Kauf, Zahlungsabwicklung und Kontaktaufnahme</h2>
     <p>Der Kauf von Zugangscodes erfolgt über Stripe (stripe.com). Diese App selbst verarbeitet keine Zahlungsdaten. Rechtsgrundlage für die Verarbeitung durch den Zahlungsanbieter: Art. 6 Abs. 1 lit. b DSGVO.</p>
-    <h2>6. Keine Cookies, kein Tracking</h2>
-    <p>Diese App setzt selbst keine Cookies und verwendet keine Analyse- oder Tracking-Dienste.</p>
-    <h2>7. Ihre Rechte</h2>
+    <p>An einigen Stellen bietet die App an, Detlef Rathmer direkt per E-Mail oder über WhatsApp (WhatsApp Ireland Limited, Dublin, Irland, ein Meta-Unternehmen) zu kontaktieren, etwa zur Terminvereinbarung einer persönlichen Beratung. Diese Funktionen öffnen lediglich Ihr E-Mail-Programm bzw. WhatsApp mit einem vorbereiteten Text; ob und welche Daten Sie dabei übermitteln, entscheiden Sie selbst. Rechtsgrundlage: Art. 6 Abs. 1 lit. a bzw. b DSGVO.</p>
+    <h2>9. Cookies und Tracking</h2>
+    <p>Diese App setzt selbst keine Cookies und verwendet keine eigenen Analyse- oder Tracking-Dienste. Wie unter Punkt 5 beschrieben, können eingebettete YouTube-Videos technisch bedingt Cookies der jeweiligen Anbieter setzen.</p>
+    <h2>10. Ihre Rechte</h2>
     <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit (Art. 15&ndash;20 DSGVO) und das Recht, der Verarbeitung zu widersprechen (Art. 21 DSGVO). Beschwerden richten Sie an eine Datenschutzaufsichtsbehörde, z. B. die LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
   `);
 }
@@ -42117,7 +42124,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v744';
+  const MY_VERSION = 'inhalt-v745';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
