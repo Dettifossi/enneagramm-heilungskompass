@@ -2552,6 +2552,36 @@ const EN_TOOL_LABELS = {
   "Dein Öl-Impuls":        "Your Oil Impulse",
   "Selbst-Beobachtung":    "Self-Observation",
 };
+// EN: per-subtype "Merksatz" (keyphrase) archetype labels
+const MERKSATZ_LABEL_EN = {
+  "Der Bewahrer": "The Preserver",
+  "Der Reformer": "The Reformer",
+  "Der Vollender": "The Perfecter",
+  "Die Nährende": "The Nurturer",
+  "Der Hilfreiche": "The Helper",
+  "Die Liebende": "The Loving One",
+  "Der Macher": "The Doer",
+  "Die Strahlende": "The Radiant One",
+  "Der Verführer": "The Seducer",
+  "Die Beständige": "The Steady One",
+  "Der Schöpfer": "The Creator",
+  "Der Leidenschaftliche": "The Passionate One",
+  "Der Beobachter": "The Observer",
+  "Der Weise": "The Sage",
+  "Der Verbundene": "The Connected One",
+  "Der Hüter": "The Guardian",
+  "Der Loyale": "The Loyalist",
+  "Vertrauen statt Kontrolle": "Trust Instead of Control",
+  "Der Genießer": "The Enjoyer",
+  "Der Enthusiast": "The Enthusiast",
+  "Der Abenteurer": "The Adventurer",
+  "Der Beschützer": "The Protector",
+  "Der Anführer": "The Leader",
+  "Die Mächtige": "The Powerful One",
+  "Der Friedvolle": "The Peaceful One",
+  "Der Vermittler": "The Mediator",
+  "Der Verbindende": "The Uniter",
+};
 const EN_TOOL_TEXTS = {
   "2-Punkte-Integration": "Feel both feet on the ground and place one hand on your heart. Breathe deeply. Let the moment arrive.",
   "Atemimpuls":           "Regulate tension in the body",
@@ -2562,8 +2592,8 @@ const EN_TOOL_TEXTS = {
   "Blickqualität":        "How are you looking at the world today? Observe your gaze direction, eye tension and the quality of your attention.",
 };
 function enToolName(t)  { return EN_TOOL_NAMES[t.name]  || t.name;  }
-function enToolLabel(t) { return EN_TOOL_LABELS[t.label] || t.label; }
-function enToolText(t)  { return EN_TOOL_TEXTS[t.name]  || t.text;  }
+function enToolLabel(t) { return MERKSATZ_LABEL_EN[t.label] || EN_TOOL_LABELS[t.label] || t.label; }
+function enToolText(t)  { return EN_TOOL_TEXTS[t.name]  || EN_TOOL_TEXT[t.text] || t.text;  }
 
 // EN: translate twoPoints data (point names, locations, needs, micro-instructions)
 const EN_TP_NAMES = {
@@ -39076,7 +39106,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v678';
+  const MY_VERSION = 'inhalt-v679';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
