@@ -39119,7 +39119,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v683';
+  const MY_VERSION = 'inhalt-v684';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
@@ -39157,4 +39157,5 @@ if (localStorage.getItem('kompass-admin-redirect')) {
   location.hash = 'admin/rathmer9';
 }
 render();
-setTimeout(showTagesimpuls, 600);
+// Tagesimpuls-Popup vorerst deaktiviert: Inhalte (TAGESIMPULSE) sind noch nicht ins Englische übersetzt.
+// setTimeout(showTagesimpuls, 600);
