@@ -4422,6 +4422,29 @@ button.primary:hover::after {
   color: var(--anthracite) !important;
   transform: translateY(-1px);
 }
+.cta-gold-btn {
+  transition: background 0.18s, transform 0.15s, box-shadow 0.18s;
+}
+.cta-gold-btn:hover {
+  background: var(--gold) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.28);
+}
+.chip-nav-btn {
+  transition: background 0.18s, transform 0.15s;
+}
+.chip-nav-btn:hover {
+  background: var(--gold) !important;
+  color: var(--anthracite) !important;
+  transform: translateY(-1px);
+}
+.top-link-btn {
+  transition: color 0.15s;
+}
+.top-link-btn:hover {
+  color: var(--gold-dark) !important;
+  text-decoration: underline;
+}
 .book-tip__icon { font-size: 1.4rem; flex-shrink: 0; }
 .book-tip__text {
   flex: 1;
