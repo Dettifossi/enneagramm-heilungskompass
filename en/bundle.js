@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=24";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=25";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -16451,6 +16451,65 @@ function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – Portraits"},
+      ])}
+    </div>
+  `);
+}
+
+function danBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dan-brown-portrait.jpg" alt="Dan Brown" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dan Brown</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Author, born 1964 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> sees patterns where others see only isolated pieces. It circles high above the landscape, connecting what appears separate on the ground, and only strikes when it is absolutely certain. That is precisely Dan Brown's literary signature: symbols, codes, hidden connections between art, history, and religion &ndash; made visible by a gaze that surveys everything at once.</p>
+          <p class="vb-intro">Before becoming a novelist, Brown was a musician and songwriter without major success. The turning point came only with an early novel and, above all, with his breakthrough novel about symbolism and hidden codes, which made him world-famous in 2003. Here too: years of circling, then the precise dive at exactly the right moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Research as Inner Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its striving for perfection not outward at the world, but inward &ndash; onto its own preparation, its own craft, its own thoroughness. Naranjo calls this subtype <em>Worry</em>. The SP1 constantly asks itself: Have I considered everything? Is every detail correct? Will this hold up to scrutiny?</p>
+          <p class="vb-intro">In Dan Brown, this shows in a near-legendary discipline of research. For his novels, he travels to locations himself, consults experts in art history, cryptography, and theology, and reworks manuscripts over years. His daily routine is reportedly tightly structured: an early start to writing, fixed breaks, an almost monastic work ritual. This is not perfectionism as an affectation &ndash; it is the inner voice of the One saying: <em>It has to be right before the world sees it.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Accessibility as a Gift to the Reader</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict, inwardly-directed One outward: it grants the capacity to give, to make accessible, to bring others along. The pure One could keep its expertise to itself, remaining academic and unapproachable. The Two-wing pushes it to share &ndash; understandably, excitingly, compellingly.</p>
+          <p class="vb-intro">This is precisely the key to Brown's literary success: highly complex subjects from art history, symbolism, and theology are packaged into short, breathless chapters that pull in even readers unfamiliar with the field. The SP1w2 does not just want to be right &ndash; it wants others to be able to share in it. The eagle's precision, given away to a readership of millions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1 is unmistakable: extraordinary thoroughness, reliable craftsmanship, a standard of quality that builds trust. Brown's books have sold in the tens of millions for over two decades &ndash; evidence that readers rely on that thoroughness.</p>
+          <p class="vb-intro">The shadow is the other side of the same coin: the fate pattern of the One is <strong>anger</strong> &ndash; in the SP1, usually turned inward as persistent self-criticism. Brown has been sharply attacked by literary critics for years, both for his prose style and for historical inaccuracies in his novels. For a One whose entire self-understanding rests on correctness, that is exactly the most sensitive spot: the accusation of not having been thorough enough after all.</p>
+          <p class="vb-intro">That he keeps writing undeterred despite this criticism, keeps researching, keeps producing further books with the same meticulous care, shows an SP1 who has learned to trust his own standard &ndash; even when public opinion disagrees with him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Worry to Quiet Certainty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to stillness, from constant worry to quiet certainty: what was done with care may speak for itself. It no longer needs constant re-checking.</p>
+          <p class="vb-intro">Dan Brown embodies this path in his sheer consistency. Decades of hard research work, recurring public criticism &ndash; and yet a body of work that keeps growing unbroken. The eagle is not thrown off course by headwinds. It knows its altitude. It knows what it is looking for &ndash; and when it has found it.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-christoph-waltz", label:"Christoph Waltz – SP1w2"},
       ])}
     </div>
   `);
@@ -38635,6 +38694,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
+      "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
@@ -39137,7 +39197,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v688';
+  const MY_VERSION = 'inhalt-v689';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

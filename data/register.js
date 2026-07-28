@@ -653,6 +653,7 @@ export const registerEntriesEN = [
   { term: "Leonardo DiCaprio", route: "beruehmte-leonardo-dicaprio", description: "Portrait: SX3w4 · Sexual Type 3 · Oscar winner, Environmental activist" },
   { term: "Linda Leinweber", route: "beruehmte-linda-leinweber", description: "Portrait: SX4w5 · Sexual Type 4 · Enneagram trainer" },
   { term: "Marie Kondo", route: "beruehmte-marie-kondo", description: "Portrait: SE1w2 · Self-Preservation Type 1 · tidying expert, KonMari" },
+  { term: "Dan Brown", route: "beruehmte-dan-brown", description: "Portrait: SE1w2 · Self-Preservation Type 1 · bestselling author" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 · Sexual Type 1 · FDP-Politician, Defense policy expert" },
   { term: "Mark Zuckerberg", route: "beruehmte-mark-zuckerberg", description: "Portrait: SX5w6 · Sexual Type 5 · Meta founder, knowledge as power" },
   { term: "Matthias Schweighöfer", route: "beruehmte-matthias-schweighoefer", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Actor, Director" },
