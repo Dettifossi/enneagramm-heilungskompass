@@ -3054,12 +3054,22 @@ function toolDetailPage(slug) {
 // Buchtipp-Banner: bookTip(buchId, teaser)
 // buchId = Schlüssel aus buecher-daten.js, teaser = kurze Einladung
 const VERLAG_BASE = "https://www.verlagshausrathmer.com/buch.html?slug=";
+// Bücher, die als englische Ausgabe direkt bei Amazon erscheinen (statt der deutschen Verlagsseite).
+const BOOK_EN_AMAZON = {
+  "die-verborgene-dynamik-der-27-subtypen": {
+    url: "https://www.amazon.com/-/de/dp/B0H2FNYT27/ref=tmm_pap_swatch_0",
+    title: "The Hidden Dynamics of the 27 Subtypes",
+  },
+};
 function bookTip(buchId, teaser, title) {
+  const enBook = BOOK_EN_AMAZON[buchId];
+  const href = enBook ? enBook.url : `${VERLAG_BASE}${buchId}`;
+  const displayTitle = enBook ? enBook.title : title;
   return `
-    <a class="book-tip" href="${VERLAG_BASE}${buchId}" target="_blank" rel="noopener">
+    <a class="book-tip" href="${href}" target="_blank" rel="noopener">
       <span class="book-tip__icon">📖</span>
       <div class="book-tip__text">
-        <strong>Book Tip: »${title}«</strong>
+        <strong>Book Tip: »${displayTitle}«</strong>
         <span>${teaser}</span>
       </div>
       <span class="book-tip__arrow">→</span>
@@ -39126,7 +39136,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v685';
+  const MY_VERSION = 'inhalt-v686';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
