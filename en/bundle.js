@@ -1,6 +1,6 @@
 import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-28-daily-body-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
-import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
+import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
@@ -35721,7 +35721,7 @@ function showTagesimpuls() {
   const today = new Date().toISOString().slice(0, 10);
   if (localStorage.getItem(IMPULS_KEY) === today) return;
   const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-  const impuls = TAGESIMPULSE[dayOfYear % TAGESIMPULSE.length];
+  const impuls = TAGESIMPULSE_EN[dayOfYear % TAGESIMPULSE_EN.length];
   if (!impuls) return;
   const paragraphs = impuls.text.split("\n\n").map(p => `<p>${p}</p>`).join("");
   const card = document.createElement("div");
@@ -39137,7 +39137,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v687';
+  const MY_VERSION = 'inhalt-v688';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
@@ -39175,5 +39175,4 @@ if (localStorage.getItem('kompass-admin-redirect')) {
   location.hash = 'admin/rathmer9';
 }
 render();
-// Tagesimpuls-Popup vorerst deaktiviert: Inhalte (TAGESIMPULSE) sind noch nicht ins Englische übersetzt.
-// setTimeout(showTagesimpuls, 600);
+setTimeout(showTagesimpuls, 600);
