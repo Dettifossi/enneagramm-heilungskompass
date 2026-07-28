@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=23";
+import { registerEntries } from "./data/register.js?v=24";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -182,6 +182,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marie Kondo – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1984. Ordnungsberaterin, Autorin der KonMari-Methode. \"Löst es Freude aus?\" – ein inneres System, so klar wie ein Adlerblick, und ein Zweierflügel, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Tierentsprechung: Adler.",
     tags:["Kultur","Gesellschaft"] , gender:"f"},
+  { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SE1w2",
+    heading:"Dan Brown – Selbsterhaltender Typ 1",
+    teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
+    tags:["Literatur"] , gender:"m"},
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
@@ -9220,6 +9224,65 @@ function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
+
+function danBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dan-brown-portrait.jpg" alt="Dan Brown" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dan Brown</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, geb. 1964 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> sieht Muster, wo andere nur Einzelteile erkennen. Er kreist hoch über der Landschaft, verbindet, was am Boden getrennt erscheint, und stößt erst herab, wenn er absolut sicher ist. Genau das ist die literarische Handschrift von Dan Brown: Symbole, Codes, verborgene Verbindungen zwischen Kunst, Geschichte und Religion &ndash; sichtbar gemacht durch einen Blick, der alles zugleich überschaut.</p>
+          <p class="vb-intro">Bevor er Schriftsteller wurde, war Brown Musiker und Songwriter, ohne durchschlagenden Erfolg. Der Wendepunkt kam erst mit „Diabolus" und vor allem mit seinem Roman über Symbolik und verborgene Codes, der ihn 2003 weltberühmt machte. Auch hier: Jahre des Kreisens, dann der präzise Sturzflug im richtigen Moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Recherche als innere Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihr Vollkommenheitsstreben nicht nach außen auf die Welt, sondern nach innen auf die eigene Vorbereitung, das eigene Handwerk, die eigene Sorgfalt. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich unablässig: Habe ich alles bedacht? Stimmt jedes Detail? Halte ich der Prüfung stand?</p>
+          <p class="vb-intro">Bei Dan Brown zeigt sich das in einer geradezu sprichwörtlichen Recherche-Disziplin. Für seine Romane bereist er Schauplätze selbst, befragt Fachleute aus Kunstgeschichte, Kryptographie und Theologie, und überarbeitet Manuskripte über Jahre hinweg. Sein Tagesablauf gilt als streng durchgetaktet: früher Schreibbeginn, feste Pausen, ein beinahe klösterliches Arbeitsritual. Das ist kein Perfektionismus als Attitüde &ndash; das ist die innere Stimme der Eins, die sagt: <em>Es muss stimmen, bevor es die Welt sieht.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Verständlichkeit als Geschenk an den Leser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> öffnet die strenge, nach innen gerichtete Eins nach außen: Er verleiht die Fähigkeit, zu geben, zugänglich zu machen, andere mitzunehmen. Die reine Eins könnte ihr Fachwissen für sich behalten, akademisch und unnahbar bleiben. Der Zweierflügel drängt darauf, es zu teilen &ndash; verständlich, spannend, mitreißend.</p>
+          <p class="vb-intro">Genau darin liegt Browns literarisches Erfolgsrezept: hochkomplexe Themen aus Kunstgeschichte, Symbolik und Theologie werden in kurze, geradezu atemlose Kapitel verpackt, die auch fachfremde Leser mitreißen. Der SE1w2er will nicht nur richtig liegen &ndash; er will, dass andere daran teilhaben können. Die Präzision des Adlers, verschenkt an ein Millionenpublikum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1 ist unübersehbar: außergewöhnliche Sorgfalt, verlässliches Handwerk, ein Qualitätsanspruch, der Vertrauen schafft. Browns Bücher verkaufen sich seit über zwei Jahrzehnten in zweistelligen Millionenauflagen &ndash; ein Beleg dafür, dass Leser sich auf diese Sorgfalt verlassen.</p>
+          <p class="vb-intro">Der Schatten ist die andere Seite derselben Münze: Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; bei der SE1 meist nach innen gewendet, als beständige Selbstkritik. Brown wurde von Literaturkritikern über Jahre hinweg scharf angegriffen, wegen seines Stils ebenso wie wegen historischer Ungenauigkeiten in seinen Romanen. Für eine Eins, deren gesamtes Selbstverständnis auf Korrektheit ruht, ist genau das die empfindlichste Stelle: der Vorwurf, doch nicht gründlich genug gewesen zu sein.</p>
+          <p class="vb-intro">Dass er trotz dieser Kritik unbeirrt weiterschreibt, weiter recherchiert, weitere Bücher mit derselben akribischen Sorgfalt vorlegt, zeigt einen SE1er, der gelernt hat, seinem eigenen Maßstab zu vertrauen &ndash; auch wenn die veröffentlichte Meinung ihm widerspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Sorge zur stillen Gewissheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Stille, von der ständigen Sorge zur ruhigen Gewissheit: Das, was mit Sorgfalt gemacht wurde, darf für sich selbst sprechen. Es braucht keine ständige Nachprüfung mehr.</p>
+          <p class="vb-intro">Dan Brown verkörpert diesen Weg in seiner schieren Beständigkeit. Jahrzehnte harter Recherche-Arbeit, wiederkehrende öffentliche Kritik &ndash; und dennoch ein Werk, das ungebrochen weiterwächst. Der Adler lässt sich von Gegenwind nicht aus der Bahn werfen. Er kennt seine Flughöhe. Er weiß, wonach er sucht &ndash; und wann er gefunden hat, was er suchte.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Christoph Waltz – SE1w2"},
       ])}
     </div>
   `);
@@ -41623,6 +41686,7 @@ function render() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
+      "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
@@ -42125,7 +42189,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v746';
+  const MY_VERSION = 'inhalt-v747';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
