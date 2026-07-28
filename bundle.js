@@ -1807,9 +1807,13 @@ function startPage() {
 
   const freischaltLink = !hasHeilwissen() ? `<button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren →</button>` : "";
   const returnActions = !firstVisit ? `
-    <button class="primary" data-route="dashboard">${copy.primaryAction}</button>
-    <button class="secondary" data-route="knowledge">Wissensbasis</button>
-    <button class="secondary${hasHeilwissen() ? "" : " is-locked"}" data-route="healing">Heilmittel${hasHeilwissen() ? "" : " <span class=\"btn-lock\" aria-hidden=\"true\">🔒</span>"}</button>
+    <div style="width:100%;display:flex;justify-content:center;">
+      <button class="primary" data-route="dashboard">${copy.primaryAction}</button>
+    </div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+      <button class="secondary" data-route="knowledge">Wissensbasis</button>
+      <button class="secondary${hasHeilwissen() ? "" : " is-locked"}" data-route="healing">Heilmittel${hasHeilwissen() ? "" : " <span class=\"btn-lock\" aria-hidden=\"true\">🔒</span>"}</button>
+    </div>
     ${freischaltLink}
   ` : `
     <button class="primary" data-route="profile">Meinen Subtyp wählen →</button>
@@ -42113,7 +42117,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v739';
+  const MY_VERSION = 'inhalt-v740';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
