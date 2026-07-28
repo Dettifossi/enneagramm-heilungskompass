@@ -50,6 +50,7 @@ export default async function handler(req, res) {
   const session = event.data.object;
   const email = session.customer_details?.email;
   const name = session.customer_details?.name || "";
+  const isEnglish = session.currency === "usd";
   if (!email) return res.status(200).json({ received: true, note: "no email" });
 
   const auth = getAuth();
@@ -63,7 +64,7 @@ export default async function handler(req, res) {
       await auth.createUser({ email, password, displayName: name, emailVerified: true });
     }
 
-    await sendWelcomeMail(email, name, password);
+    await sendWelcomeMail(email, name, password, isEnglish);
 
     console.log(`✅ Zugang erstellt für: ${email}`);
     return res.status(200).json({ success: true, email });
@@ -73,11 +74,37 @@ export default async function handler(req, res) {
   }
 }
 
-async function sendWelcomeMail(email, name, password) {
-  const anrede = name ? `Hallo ${name.split(" ")[0]},` : "Hallo,";
-  const appUrl = "https://www.verlagshausrathmer.com/enneagramm-kompass/";
+async function sendWelcomeMail(email, name, password, isEnglish) {
+  const appUrl = isEnglish
+    ? "https://kompass.verlagshausrathmer.com/en/"
+    : "https://kompass.verlagshausrathmer.com/";
 
-  const html = `
+  const html = isEnglish ? renderEnglishMail(email, name, password, appUrl) : renderGermanMail(email, name, password, appUrl);
+  const subject = isEnglish
+    ? "Your Enneagram Healing Compass access – login details & instructions"
+    : "Ihr Zugang zum Enneagramm-Heilungskompass – Zugangsdaten & Anleitung";
+
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${process.env.RESEND_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from: "Enneagramm-Heilungskompass <noreply@verlagshausrathmer.com>",
+      to: email,
+      subject,
+      html,
+    }),
+  });
+  if (!response.ok) {
+    throw new Error(`Email error: ${await response.text()}`);
+  }
+}
+
+function renderGermanMail(email, name, password, appUrl) {
+  const anrede = name ? `Hallo ${name.split(" ")[0]},` : "Hallo,";
+  return `
 <div style="font-family:Georgia,serif;max-width:580px;margin:0 auto;padding:2rem 1.5rem;background:#faf8f4;">
 
   <h1 style="color:#8a6a1a;font-size:1.4rem;margin:0 0 1rem;">
@@ -151,21 +178,82 @@ async function sendWelcomeMail(email, name, password) {
 
 </div>
 `;
+}
 
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${process.env.RESEND_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: "Enneagramm-Heilungskompass <noreply@verlagshausrathmer.com>",
-      to: email,
-      subject: "Ihr Zugang zum Enneagramm-Heilungskompass – Zugangsdaten & Anleitung",
-      html,
-    }),
-  });
-  if (!response.ok) {
-    throw new Error(`Email error: ${await response.text()}`);
-  }
+function renderEnglishMail(email, name, password, appUrl) {
+  const greeting = name ? `Hi ${name.split(" ")[0]},` : "Hi,";
+  return `
+<div style="font-family:Georgia,serif;max-width:580px;margin:0 auto;padding:2rem 1.5rem;background:#faf8f4;">
+
+  <h1 style="color:#8a6a1a;font-size:1.4rem;margin:0 0 1rem;">
+    Welcome to the Enneagram Healing Compass!
+  </h1>
+
+  <p style="color:#333;line-height:1.7;margin-bottom:1.5rem;">
+    ${greeting}<br><br>
+    thank you for your purchase. Here are your personal login details:
+  </p>
+
+  <!-- Login details -->
+  <div style="background:#fff;border:2px solid #c9a84c;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;">
+    <p style="margin:0 0 0.5rem;color:#555;font-size:.9rem;">Your login details:</p>
+    <p style="margin:0 0 0.4rem;font-size:1rem;color:#333;"><strong>Email:</strong> ${email}</p>
+    <p style="margin:0;font-size:1.15rem;color:#8a6a1a;"><strong>Password:</strong> ${password}</p>
+  </div>
+
+  <!-- Open app -->
+  <a href="${appUrl}"
+     style="display:inline-block;background:#8a6a1a;color:#fff;padding:.85rem 2rem;border-radius:8px;text-decoration:none;font-size:1rem;font-weight:bold;margin-bottom:2rem;">
+    Open the app →
+  </a>
+
+  <!-- Login instructions -->
+  <h2 style="color:#8a6a1a;font-size:1.05rem;margin:1.5rem 0 .5rem;">How to sign in:</h2>
+  <ol style="color:#444;line-height:1.8;padding-left:1.3rem;margin:0 0 2rem;">
+    <li>Open the app (link above)</li>
+    <li>Tap <strong>"Unlock access"</strong></li>
+    <li>Choose the <strong>"Email sign-in"</strong> tab</li>
+    <li>Enter your email address and the password above</li>
+    <li>Tap <strong>"Sign in"</strong> — done!</li>
+  </ol>
+
+  <!-- Homescreen iPhone -->
+  <div style="background:#fff;border:1px solid #e0d8c8;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1rem;">
+    <h2 style="color:#8a6a1a;font-size:1rem;margin:0 0 .6rem;">
+      📱 Save the app to your iPhone home screen
+    </h2>
+    <ol style="color:#444;line-height:1.9;padding-left:1.3rem;margin:0;font-size:.95rem;">
+      <li>Open the app in <strong>Safari</strong> (not Chrome!)</li>
+      <li>Tap the <strong>Share icon</strong> at the bottom (square with an arrow pointing up)</li>
+      <li>Tap <strong>"Add to Home Screen"</strong></li>
+      <li>Tap <strong>"Add"</strong></li>
+    </ol>
+    <p style="color:#888;font-size:.85rem;margin:.8rem 0 0;">
+      The app will then appear like a normal app on your home screen.
+    </p>
+  </div>
+
+  <!-- Homescreen Android -->
+  <div style="background:#fff;border:1px solid #e0d8c8;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:2rem;">
+    <h2 style="color:#8a6a1a;font-size:1rem;margin:0 0 .6rem;">
+      🤖 Save the app on Android
+    </h2>
+    <ol style="color:#444;line-height:1.9;padding-left:1.3rem;margin:0;font-size:.95rem;">
+      <li>Open the app in <strong>Chrome</strong></li>
+      <li>Tap the <strong>three dots</strong> (⋮) in the top right</li>
+      <li>Tap <strong>"Add to Home screen"</strong></li>
+      <li>Tap <strong>"Add"</strong></li>
+    </ol>
+    <p style="color:#888;font-size:.85rem;margin:.8rem 0 0;">
+      The app will then open directly from your home screen, without a browser bar.
+    </p>
+  </div>
+
+  <p style="color:#888;font-size:.85rem;line-height:1.6;border-top:1px solid #e0d8c8;padding-top:1rem;margin:0;">
+    Questions or issues? Just email us:<br>
+    <a href="mailto:detlefrathmer@t-online.de" style="color:#8a6a1a;">detlefrathmer@t-online.de</a>
+  </p>
+
+</div>
+`;
 }
