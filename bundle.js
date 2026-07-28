@@ -9266,7 +9266,7 @@ function danBrownPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE1 ist unübersehbar: außergewöhnliche Sorgfalt, verlässliches Handwerk, ein Qualitätsanspruch, der Vertrauen schafft. Browns Bücher verkaufen sich seit über zwei Jahrzehnten in zweistelligen Millionenauflagen &ndash; ein Beleg dafür, dass Leser sich auf diese Sorgfalt verlassen.</p>
           <p class="vb-intro">Der Schatten ist die andere Seite derselben Münze: Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; bei der SE1 meist nach innen gewendet, als beständige Selbstkritik. Brown wurde von Literaturkritikern über Jahre hinweg scharf angegriffen, wegen seines Stils ebenso wie wegen historischer Ungenauigkeiten in seinen Romanen. Für eine Eins, deren gesamtes Selbstverständnis auf Korrektheit ruht, ist genau das die empfindlichste Stelle: der Vorwurf, doch nicht gründlich genug gewesen zu sein.</p>
-          <p class="vb-intro">Dass er trotz dieser Kritik unbeirrt weiterschreibt, weiter recherchiert, weitere Bücher mit derselben akribischen Sorgfalt vorlegt, zeigt einen SE1er, der gelernt hat, seinem eigenen Maßstab zu vertrauen &ndash; auch wenn die veröffentlichte Meinung ihm widerspricht.</p>
+          <p class="vb-intro">Dass er trotz dieser Kritik unbeirrt weiterschreibt, weiter recherchiert, weitere Bücher mit derselben akribischen Sorgfalt vorlegt, zeigt einen SE1er, der gelernt hat, seinem eigenen Maßstab zu vertrauen &ndash; auch wenn die öffentliche Meinung ihm widerspricht.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Von der Sorge zur stillen Gewissheit</h2>
@@ -42189,7 +42189,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v747';
+  const MY_VERSION = 'inhalt-v748';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
