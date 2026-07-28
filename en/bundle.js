@@ -1625,7 +1625,7 @@ function leseprobePage() {
       <!-- Famous Personalities -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0 0 0.4rem;">
-          54 Famous Personalities &ndash; Portraits
+          ${BERUEHMT_PORTRAITS.length} Famous Personalities &ndash; Portraits
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
           For all 27 Subtypes there are two portraits of famous personalities each &ndash; with both wing expressions. This brings the subtype to life and makes it concretely recognisable.
@@ -39197,7 +39197,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v689';
+  const MY_VERSION = 'inhalt-v690';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -1201,7 +1201,7 @@ function leseprobePage() {
       <!-- Berühmte Persönlichkeiten -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
-          108 Berühmte Persönlichkeiten &ndash; Porträts
+          ${BERUEHMT_PORTRAITS.length} Berühmte Persönlichkeiten &ndash; Porträts
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
           Für alle 27 Subtypen mehrere Porträts berühmter Persönlichkeiten &ndash; mit verschiedenen Flügelausprägungen. So wird der Subtyp lebendig und konkret erkennbar.
@@ -42189,7 +42189,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v748';
+  const MY_VERSION = 'inhalt-v749';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
