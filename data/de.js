@@ -1944,7 +1944,7 @@ export const subtypeProfiles = {
       ],
       question: "Was brauche ich heute wirklich für mich?",
       step: "Erkennen, dass Vergleiche und Außenseitergefühle vom eigenen Wert trennen.",
-      body: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu we",
+      body: "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu werden.",
     },
     pattern: [
         "Vergleich",

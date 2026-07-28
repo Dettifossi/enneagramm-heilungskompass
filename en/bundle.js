@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-24-calcphos-neutral-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-28-daily-body-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE } from "../data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -2808,6 +2808,19 @@ function toolSlug(name) {
   return name.toLowerCase().replace(/[äöü]/g, c => ({ä:"ae",ö:"oe",ü:"ue"}[c])).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+// EN: translate p.daily.body (per-subtype tension sentences not covered by EN_TOOL_TEXT)
+const DAILY_BODY_EN = {
+  "Zwischen dem Wunsch, echt und verstanden zu sein, und der Angst, übernommen oder nicht gesehen zu werden.":
+    "Between the wish to be authentic and understood, and the fear of being overwhelmed or not being seen.",
+  "Zwischen dem Wunsch nach Sicherheit und der Angst vor Gefahr oder Verrat.":
+    "Between the wish for security and the fear of danger or betrayal.",
+  "Zwischen dem Bedürfnis nach Sicherheit und Zugehörigkeit und der Angst vor Verrat oder Überforderung":
+    "Between the need for security and belonging and the fear of betrayal or being overwhelmed",
+  "Lege eine Hand auf den Brustraum und eine Hand auf den Bauch. Atme langsam aus und erlaube dem Körper, erst wahrzunehmen, bevor er antwortet.":
+    "Place one hand on your chest and one hand on your belly. Breathe out slowly and allow the body to perceive first, before it responds.",
+};
+function enDailyBody(p) { return DAILY_BODY_EN[p.daily.body] || EN_TOOL_TEXT[p.daily.body] || p.daily.body; }
+
 function toolsPage() {
   const p = state.profile;
   const copy = text.routes.tools;
@@ -2816,7 +2829,7 @@ function toolsPage() {
     <section class="narrow centered">
       <p class="eyebrow">${p.code} · ${copy.suffix}</p>
       <h1>${copy.headline}</h1>
-      <p class="lead-small">${p.daily.body}</p>
+      <p class="lead-small">${enDailyBody(p)}</p>
     </section>
     <section class="tool-grid">
       ${p.tools
@@ -39106,7 +39119,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v679';
+  const MY_VERSION = 'inhalt-v680';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
