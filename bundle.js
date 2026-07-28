@@ -2477,7 +2477,7 @@ function oilsPage() {
           ${aetherischeOele.map(oilCard).join("")}
         </div>
         <p class="remedy-note">${copy.note}</p>
-        ${bookTip("enneagramm-bachblueten-therapie", "Welche Bachblüten helfen welchem Enneagrammtyp? Ein einzigartiger Zugang zur Seelenarbeit.", "Enneagramm-Bachblüten-Therapie")}
+        ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}
       </article>
     </section>
   `);
@@ -8841,11 +8841,6 @@ function kaesesortenPage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
         ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen &ndash; Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist &ndash; Band 2")}
         ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\xdfe Bild &ndash; Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist &ndash; Band 3")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Frank Abagnale Jr. wurde nie wegen Mordes verurteilt – seine Hochstapeleien sind jedoch dokumentiert und teilweise gerichtlich festgestellt. Das Enneagramm erklärt, es rechtfertigt nicht.
-        </p>
       </div>
 
       ${relatedLinks([
@@ -42118,7 +42113,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v738';
+  const MY_VERSION = 'inhalt-v739';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
