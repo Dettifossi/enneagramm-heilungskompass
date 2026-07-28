@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=25";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=26";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -16451,6 +16451,68 @@ function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – Portraits"},
+      ])}
+    </div>
+  `);
+}
+
+function kenFollettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ken-follett-portrait.jpg" alt="Ken Follett" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ken Follett</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Author, born 1949 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is not a frantic hunter. It circles calmly, steadily, over long stretches &ndash; and that long, patient circling, not a sudden dive, is the most fitting description of Ken Follett's writing career, now spanning more than six decades. No other living author of historical fiction can point to such an unbroken, decades-long consistency.</p>
+          <p class="vb-intro">His international breakthrough came with an espionage novel about a German agent in wartime England, published in 1978 &ndash; after years as a largely unnoticed author. Decade after decade of new, often thousand-page works followed, ranging from a medieval cathedral to the world wars of the twentieth century. The eagle circles, surveys the entire landscape of history &ndash; and lets nothing rush it.</p>
+          <p class="vb-intro">What stands out is sheer stamina: where other bestselling authors slow down after a few decades, Follett continues, well into old age, to publish extensive, meticulously researched doorstoppers. That is no coincidence, but lived self-preservation &ndash; a system that keeps itself stable across decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Structure as a Survival Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike the social or sexual One, the <strong>self-preservation One (SP1)</strong> directs its striving for perfection inward: onto its own discipline, its own craft, its own preparation. Naranjo calls this subtype <em>Worry</em>. It is a quiet, persistent concern about whether one's own work is truly sound, paired with an almost unshakeable work ethic.</p>
+          <p class="vb-intro">In Ken Follett, this shows in a legendary work routine: fixed writing hours, a carefully planned daily schedule, detailed written outlines long before the first chapter is written. For his historical novels, he has facts checked by academic historians, travels to original locations, and reworks manuscripts across multiple rounds, often accompanied by outside readers. Nothing is to be left to chance.</p>
+          <p class="vb-intro">For the SP1, this thoroughness is not an end in itself but a kind of inner protective mechanism: whoever has checked every detail need not reproach themselves later. That is the quiet, inward-facing logic of the subtype &ndash; <em>if I got it right, I am safe.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Composure Instead of Urgency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> differs fundamentally from the Two-wing carried, for example, by Dan Brown. While the Two-wing opens the One's energy outward &ndash; into warmth, giving, empathy &ndash; the Nine-wing brings in something else: calm, equanimity, an almost meditative composure. The SP1w9 feels less urgent, less insistent than the SP1w2. It does not need to convince anyone of anything. It does not even need to stand out.</p>
+          <p class="vb-intro">In Ken Follett, this shows in a remarkable public reticence, especially compared to many other bestselling authors. He rarely stages himself, seldom seeks controversy, and comes across in interviews as measured, almost unruffled. His books follow a similar principle: calm, expansive narrative pacing that lets historical events unfold across hundreds of pages, rather than relying on quick cliffhanger effects.</p>
+          <p class="vb-intro">Where the Two-wing carries warmth outward, the Nine-wing carries peace inward. That is why Follett, despite decades of public success, is rarely described as "driven" &ndash; more often as steady, even, almost unshakeable in his rhythm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is obvious: extraordinary reliability, historical thoroughness, a body of work of impressive coherence across decades. Readers know what they are getting with Follett &ndash; precisely researched, cleanly constructed, epic narratives that keep their promise.</p>
+          <p class="vb-intro">The shadow lies deeper than in the more reactive SP1w2. The fate pattern of the One is <strong>anger</strong> &ndash; in the SP1w9, this anger is further muted by the Nine-wing, almost numbed. Instead of open self-criticism, a diffuse inner self-effacement tends to emerge: a tendency to let one's own needs disappear behind the next deadline, the next research project. Work becomes a safe retreat &ndash; even at moments when rest would actually be called for.</p>
+          <p class="vb-intro">This fusion of diligence and self-forgetfulness is the real challenge of the subtype: one can be extraordinarily productive for decades without ever truly asking what one actually needs &ndash; beyond the next page.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Quiet Exhaustion to True Rest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; for the SP1w9, more precisely: from forced, work-bound rest to genuine, freely chosen rest. The growing One learns that equanimity need not be a means of avoiding conflict, but may be a genuine inner stance, one that does not have to be earned through diligence.</p>
+          <p class="vb-intro">Ken Follett embodies this path in his own, unspectacular way: a lifetime spent on the same craft, with the same care, without the urge to constantly reinvent or outdo himself. The eagle does not need to prove that it can fly. It simply keeps circling &ndash; decade after decade, in its own, unshakeable rhythm.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-dan-brown", label:"Dan Brown – SP1w2 compared"},
       ])}
     </div>
   `);
@@ -38695,6 +38757,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
@@ -39197,7 +39260,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v690';
+  const MY_VERSION = 'inhalt-v691';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

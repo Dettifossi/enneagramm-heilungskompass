@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=25";
+import { registerEntries } from "./data/register.js?v=26";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -185,6 +185,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SE1w2",
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
+    tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
+    heading:"Ken Follett – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1949. Bestseller-Autor historischer Romane, u. a. über eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. Über sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unerschütterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
@@ -9224,6 +9228,68 @@ function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
+
+function kenFollettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ken-follett-portrait.jpg" alt="Ken Follett" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ken Follett</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, geb. 1949 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist kein hektischer Jäger. Er kreist ruhig, ausdauernd, über weite Strecken hinweg &ndash; und genau dieses lange, geduldige Kreisen, nicht der plötzliche Sturzflug, ist die treffendste Beschreibung für Ken Folletts über sechzig Jahre währende Schriftstellerkarriere. Kein anderer lebender Autor historischer Romane hat eine derart lückenlose, jahrzehntelange Konstanz vorzuweisen.</p>
+          <p class="vb-intro">Sein internationaler Durchbruch gelang ihm mit einem Spionageroman über einen deutschen Agenten in England während des Zweiten Weltkriegs, der 1978 erschien &ndash; nach Jahren als weitgehend unbeachteter Autor. Danach folgten Jahrzehnt um Jahrzehnt neue, oft tausendseitige Werke, von einer mittelalterlichen Kathedrale bis zu den Weltkriegen des 20. Jahrhunderts. Der Adler kreist, beobachtet die gesamte Landschaft der Geschichte &ndash; und lässt sich dabei von nichts hetzen.</p>
+          <p class="vb-intro">Bemerkenswert ist die schiere Ausdauer: Wo andere Erfolgsautoren nach wenigen Jahrzehnten nachlassen, veröffentlicht Follett auch im hohen Alter weiterhin umfangreiche, akribisch recherchierte Wälzer. Das ist kein Zufall, sondern gelebte Selbsterhaltung &ndash; ein System, das sich selbst über Jahrzehnte hinweg stabil hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Struktur als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihr Vollkommenheitsstreben, anders als die soziale oder sexuelle Eins, nach innen: auf die eigene Disziplin, das eigene Handwerk, die eigene Vorbereitung. Naranjo nennt diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Es ist die stille, beständige Sorge, ob die eigene Arbeit wirklich hieb- und stichfest ist, gepaart mit einem fast unerschütterlichen Arbeitsethos.</p>
+          <p class="vb-intro">Bei Ken Follett zeigt sich das in einer legendären Arbeitsroutine: feste Schreibzeiten, ein durchgeplanter Tagesablauf, ausführliche schriftliche Handlungsgerüste, bevor überhaupt das erste Kapitel entsteht. Für seine historischen Romane lässt er Fakten von Fachhistorikern gegenlesen, bereist Originalschauplätze, überarbeitet Manuskripte in mehreren, oft von externen Lesern begleiteten Durchgängen. Nichts soll dem Zufall überlassen bleiben.</p>
+          <p class="vb-intro">Diese Sorgfalt ist bei der SE1 kein Selbstzweck, sondern eine Art innerer Schutzmechanismus: Wer jedes Detail kontrolliert hat, muss sich später keine Vorwürfe machen. Das ist die stille, nach innen gerichtete Logik des Subtyps &ndash; <em>Wenn ich es richtig gemacht habe, bin ich sicher.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit statt Getriebenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> unterscheidet sich grundlegend vom Zweierflügel, den beispielsweise Dan Brown trägt. Während der Zweierflügel die Energie der Eins nach außen öffnet &ndash; in Wärme, Geben, Anteilnahme &ndash; bringt der Neunerflügel etwas anderes hinein: Ruhe, Gleichmut, eine fast meditative Gelassenheit. Die SE1w9 wirkt weniger drängend, weniger fordernd als die SE1w2. Sie muss niemanden von etwas überzeugen. Sie muss nicht einmal auffallen.</p>
+          <p class="vb-intro">Bei Ken Follett äußert sich das in einer bemerkenswerten öffentlichen Zurückhaltung, gerade im Vergleich zu vielen anderen Bestsellerautoren. Er inszeniert sich kaum, sucht selten die große Kontroverse, tritt in Interviews sachlich, fast unaufgeregt auf. Seine Bücher selbst folgen einem ähnlichen Prinzip: ruhige, ausführliche Erzähltempi, in denen sich historische Ereignisse über hunderte Seiten hinweg entfalten dürfen, statt auf schnelle Cliffhanger-Effekte zu setzen.</p>
+          <p class="vb-intro">Wo der Zweierflügel Wärme nach außen trägt, trägt der Neunerflügel Frieden nach innen. Das erklärt, warum Follett trotz jahrzehntelangen öffentlichen Erfolgs kaum je als "getrieben" beschrieben wird &ndash; eher als beständig, gleichmäßig, fast unerschütterlich in seinem Rhythmus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist offensichtlich: außergewöhnliche Verlässlichkeit, historische Sorgfalt, ein Werk von beeindruckender Kohärenz über Jahrzehnte hinweg. Leser wissen bei Follett, was sie bekommen &ndash; präzise recherchierte, sauber konstruierte, epische Erzählungen, die ihr Versprechen halten.</p>
+          <p class="vb-intro">Der Schatten liegt tiefer verborgen als bei der reaktiveren SE1w2. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; bei der SE1w9 wird dieser Zorn durch den Neunerflügel zusätzlich gedämpft, fast betäubt. Statt offener Selbstkritik entsteht eher ein diffuses inneres Sich-Zurücknehmen: die Neigung, die eigenen Bedürfnisse hinter der nächsten Deadline, dem nächsten Rechercheprojekt verschwinden zu lassen. Die Arbeit wird zum sicheren Rückzugsort &ndash; auch dann, wenn eigentlich Ruhe angesagt wäre.</p>
+          <p class="vb-intro">Diese Verschmelzung von Fleiß und Selbstvergessenheit ist die eigentliche Herausforderung des Subtyps: Man kann jahrzehntelang außerordentlich produktiv sein, ohne sich je wirklich zu fragen, was man selbst &ndash; jenseits der nächsten Seite &ndash; eigentlich braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der stillen Erschöpfung zur echten Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; bei der SE1w9 genauer: von der erzwungenen, arbeitsbedingten Ruhe zur echten, selbstgewählten Ruhe. Die wachsende Eins lernt, dass Gleichmut kein Mittel zur Konfliktvermeidung sein muss, sondern eine echte innere Haltung sein darf, die sich nicht durch Fleiß erkaufen muss.</p>
+          <p class="vb-intro">Ken Follett verkörpert diesen Weg auf seine eigene, unspektakuläre Weise: ein Leben lang dasselbe Handwerk, mit derselben Sorgfalt, ohne den Drang, sich ständig neu zu erfinden oder zu übertreffen. Der Adler muss nicht beweisen, dass er fliegen kann. Er kreist einfach weiter &ndash; Jahrzehnt um Jahrzehnt, in seinem eigenen, unerschütterlichen Rhythmus.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-dan-brown", label:"Dan Brown – SE1w2 im Vergleich"},
       ])}
     </div>
   `);
@@ -41687,6 +41753,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
@@ -42189,7 +42256,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v749';
+  const MY_VERSION = 'inhalt-v750';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
