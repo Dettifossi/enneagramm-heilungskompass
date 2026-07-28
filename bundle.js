@@ -2416,7 +2416,7 @@ function relatedLinks(links) {
                 : hasPortrait                   ? "\xc4hnliche Portr\xe4ts"
                 :                                "\xc4hnliche \xdcbersichten";
   const buttons = links.map(({route, label}) =>
-    `<button data-route="${route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${label} &#8594;</button>`
+    `<button class="related-link-btn" data-route="${route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${label} &#8594;</button>`
   ).join("");
   return `
     <div style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border);">
@@ -42117,7 +42117,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v741';
+  const MY_VERSION = 'inhalt-v742';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -4413,6 +4413,15 @@ button.primary:hover::after {
   background: color-mix(in srgb, var(--copper) 14%, var(--paper));
   transform: translateY(-1px);
 }
+.related-link-btn {
+  transition: background 0.18s, transform 0.15s;
+}
+.related-link-btn:hover {
+  background: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--anthracite) !important;
+  transform: translateY(-1px);
+}
 .book-tip__icon { font-size: 1.4rem; flex-shrink: 0; }
 .book-tip__text {
   flex: 1;
