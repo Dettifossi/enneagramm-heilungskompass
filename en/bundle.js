@@ -4621,13 +4621,13 @@ function tierquizPage() {
             <div style="font-size:3.5rem;margin-bottom:1rem;letter-spacing:0.2rem;">&#129413;&#128025;&#129445;</div>
             <p class="eyebrow">Quick Test</p>
             <h1 class="typentest-titel" style="margin-bottom:0.5rem;">Which animal am I?</h1>
-            <p class="typentest-intro">3 kurze Fragen – und Sie erfahren, welches der 27 Enneagramm-Tiere am ehesten zu Ihnen passt.</p>
+            <p class="typentest-intro">3 short questions – and you'll find out which of the 27 Enneagram animals suits you best.</p>
             <div class="typentest-hinweis" style="text-align:left;margin-bottom:1.5rem;">
               <strong>A brief note before you start:</strong> No test can prove who you truly are – because you assess yourself, and we all have blind spots for our own psychological patterns. This 3-question quiz is only a first, rough approximation. Take the result as an invitation to reflect – not as a definitive answer.
             </div>
             <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2rem;">Approx. 1 minute &middot; no account needed</p>
             ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
-            ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+            ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
             <button class="typentest-start-btn" onclick="window._tqStart()">Start quiz &#8594;</button>
           </div>
         </div>
@@ -9896,7 +9896,7 @@ function typentestMotivationalPage() {
           <p class="typentest-intro">Your evaluation points to <strong>Type&nbsp;${topType}</strong>. The result is based on your self-assessment and should be understood as an orientation guide.</p>
 
           <div class="typentest-disclaimer" style="margin-top:1.5rem;">
-            <strong>Zur Einordnung:</strong> Kein Selbsttest kann den eigenen blinden Fleck vollständig überbrücken. Das Ergebnis ist ein <em>Hinweis</em>, kein Urteil. Für eine präzise Bestimmung empfiehlt sich eine persönliche Typisierungsberatung.
+            <strong>For context:</strong> No self-test can fully bridge one's own blind spot. The result is a <em>hint</em>, not a verdict. For a precise determination, a personal typing consultation is recommended.
           </div>
 
           <div class="typentest-cta-group">
@@ -10058,7 +10058,7 @@ function typentestPage() {
           <p class="typentest-result-text">${typKurz}</p>
 
           <div class="typentest-disclaimer">
-            <strong>Zur Einordnung:</strong> Dieser Test basiert auf Selbsteinschätzung. Da blinde Flecken zur Persönlichkeit gehören, ist das Ergebnis ein <em>Orientierungshinweis</em> — kein Urteil. Selbst sehr bewusste Menschen haben Schwierigkeiten, ihren eigenen Typ sicher zu bestimmen. Für eine präzise Einschätzung empfiehlt sich eine persönliche Beratung.
+            <strong>For context:</strong> This test is based on self-assessment. Since blind spots are part of personality, the result is an <em>orientation hint</em> — not a verdict. Even very self-aware people have difficulty determining their own type with certainty. For a precise assessment, a personal consultation is recommended.
           </div>
 
           <div class="typentest-cta-group">
@@ -10873,7 +10873,7 @@ function lasterTugendenAffirmationenPage() {
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">The Virtue Is Already There</h2>
         <img
           src="${CDN}assets/tugend.jpg"
-          alt="Die Tugend des Typs ist schon da – sie ist nur von Angst überdeckt."
+          alt="The type's virtue is already there – it is just covered by fear."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">This sentence changes the way one looks at vices and virtues. Often, the virtue is understood as a goal &ndash; as something one must first achieve once the vice has been overcome. Yet the Enneagram interprets it differently: The virtue is not the opposite of the vice. It is what lies beneath it.</p>
@@ -11841,7 +11841,7 @@ function egoPersoenlichkeitPage() {
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">The Ego in Motion &ndash; and the Space Behind It</h2>
         <img
           src="${CDN}assets/ego-in-bewegung.jpg"
-          alt="Der Typ ist das Ego in Bewegung. Essenz ist der Raum, in dem es sich bewegt."
+          alt="The type is the ego in motion. Essence is the space in which it moves."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">This sentence describes in two lines what many pages of theory only roughly capture: The Enneagram type is not a fixed entity &ndash; it is a process. It is the ego in the active execution of its protective mechanisms, convictions, and reaction patterns. The type is constantly in motion: it seeks, avoids, evaluates, controls, gives, withdraws.</p>
@@ -11931,11 +11931,11 @@ function energetischeBewegungPage() {
     ${pageHeader("energetische-bewegungen")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Energetic Movements</p>
-      <h1>Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Relationships</h1>
+      <h1>The Energetic Movement of the 9 Enneagram Types in Relationships</h1>
       <p class="lead-small">Every Enneagram type moves in relationships in a characteristic way: fight, flight, or deception &mdash; these three fundamental energetic movements shape how the 9 types react to intimacy, conflict, and connection.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
-             alt="Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Relationships"
+             alt="The energetic movement of the 9 Enneagram types in relationships"
              class="psycho-img" />
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "How intimacy, withdrawal, and connection manifest in relationships across all 9 types &ndash; 365 pairing combinations.", "Die Sprache unserer Beziehungen")}
@@ -28367,14 +28367,14 @@ function bewusstseinsgradTestPage() {
     ${pageHeader("Bewusstseinsgrad-Selbsttest", "Selbstreflexion · Orientierung")}
     <section class="narrow" style="padding-bottom:3rem;">
       <p class="eyebrow">Where do I stand right now?</p>
-      <h1 style="margin-bottom:0.5rem;">Mein aktueller Bewusstseinsgrad</h1>
+      <h1 style="margin-bottom:0.5rem;">My Current Level of Consciousness</h1>
       <p style="font-size:.97rem;line-height:1.75;color:var(--ink);margin:0 0 1.5rem;">
         Choose your type and then the statement that is most honest to you <em>right now</em> — without an ideal image, without how you would like to be.
       </p>
       <div style="background:var(--paper);border-radius:10px;border-left:3px solid var(--gold);padding:.8rem 1.2rem;margin-bottom:2rem;font-size:.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieser Test ist ein Spiegel, keine Diagnose. Bewusstseinsgrade sind fließend —
-        wir pendeln täglich zwischen verschiedenen Stufen. Und: Die Stufen, die wir bei uns am wenigsten sehen,
-        sind oft die, auf denen wir uns tatsächlich befinden.
+        <strong>Note:</strong> This test is a mirror, not a diagnosis. Levels of consciousness are fluid —
+        we shift between different levels daily. And: the levels we see least in ourselves
+        are often the ones we actually inhabit.
       </div>
 
       <!-- Schritt 1: Typ wählen -->
@@ -31102,7 +31102,7 @@ function werWirSindPage() {
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">From Autopilot to Presence</h2>
         <p class="vb-intro">The Enneagram gives us a precise map of our mental and emotional habits. But the map is not the territory. When used correctly, we learn to observe the mechanisms of our type with a touch of humor and genuine compassion. We recognize: The number we carry in the Enneagram is only the clothing &ndash; never the person inside it.</p>
 
-        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Wir sind nicht unsere Muster. &ndash; Detlef Rathmer</blockquote>
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">We are not our patterns. &ndash; Detlef Rathmer</blockquote>
 
         ${bookTip("nichts-und-alles", "A quiet book about the space beyond personality &ndash; consciousness, essence, and inner freedom.", "Nichts und Alles")}
         ${bookTip("du-bist-nicht-dein-zweifel", "Why we are not our thoughts and patterns &ndash; and how we can free ourselves from them.", "Du bist nicht dein Zweifel")}
@@ -32987,7 +32987,7 @@ function beziehungenSchaubildPage() {
       <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:2.5rem 0 0.75rem;">Two Strategies for Being Loved</h2>
       <img
         src="${CDN}assets/beziehungen-2.jpg"
-        alt="In Relationships begegnen sich nie nur zwei Menschen – es begegnen sich auch zwei Strategien, geliebt zu werden."
+        alt="In relationships, it is never just two people who meet – two strategies for being loved meet as well."
         style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
       />
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">In relationships, two people never just meet each other. Two strategies for being loved meet as well. This sentence encapsulates what the Enneagram describes in depth: Throughout life, every type has developed their own way to receive affection &ndash; or at least to protect themselves from losing it.</p>
@@ -33166,7 +33166,7 @@ function prinzipienPage() {
       <p class="psycho-intro">From a precise instrument for typing to a map of fundamental orders &ndash; what the Enneagram truly shows when you look closer.</p>
       <img
         src="${CDN}assets/prinzipien.jpg"
-        alt="Die neun Prinzipien des Enneagramms"
+        alt="The nine principles of the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -33185,7 +33185,7 @@ function prinzipienPage() {
         <p class="vb-intro">Typing opens the door. What waits behind it is the understanding of the underlying structure &ndash; and that is the true deepening. For these principles are not limited to the individual human being. They can be observed wherever energy takes form: in relationships, in groups, in creative processes, in development and crisis.</p>
         <p class="vb-intro">Thus, the Enneagram describes not only the human being, but fundamental orders found in the most diverse contexts. In this way, a method for personality determination becomes a map for development.</p>
 
-        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Etwas, das so konkret beginnt &ndash; in der genauen Beobachtung eines einzelnen Menschen &ndash; öffnet den Blick für etwas Allgemeines, das weit über ihn hinausgeht. &ndash; Detlef Rathmer</blockquote>
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Something that begins so concretely &ndash; in the precise observation of a single person &ndash; opens the view to something universal that reaches far beyond them. &ndash; Detlef Rathmer</blockquote>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "The Enneagram as a mirror: How the nine principles become visible in colored charts &ndash; from typing to deepening.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The principles in their deepest unfolding: How 27 unique expressions emerge from nine basic types.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -33410,7 +33410,7 @@ function grundformelPage() {
         <p class="vb-intro">The stated goal of the Rathmer Enneagram is not to perfect one's own type. It is about loosening identification with the type – step by step. A person has a type. A person is not a type. This small linguistic shift contains the entire transformative power of the model.</p>
         <p class="vb-intro">What this chart summarizes in a single image is the result of over twenty years of joint work by Detlef and David Rathmer – a living, growing model that connects psychology, spirituality, and practical healing arts into a single whole.</p>
 
-        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Der Mensch hat einen Typ. Der Mensch ist kein Typ. &ndash; Detlef &amp; David Rathmer</blockquote>
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">A person has a type. A person is not a type. &ndash; Detlef &amp; David Rathmer</blockquote>
 
         ${bookTip("hinter-der-leidenschaft", "The nine core deficits and their wounds – the theoretical foundation of the Rathmer Enneagram in book form.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The complete subtypes model: all 27 manifestations of deficit, energy form, and instinct.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -39072,7 +39072,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v675';
+  const MY_VERSION = 'inhalt-v676';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
