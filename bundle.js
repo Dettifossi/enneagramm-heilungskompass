@@ -1326,7 +1326,7 @@ function leseprobePage() {
         <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Der SE1er ist von allen Einser-Varianten am st\xe4rksten auf Perfektion im pers\xf6nlichen Alltag ausgerichtet. Er kontrolliert, ordnet und verfeinert &ndash; nicht um anderen zu imponieren, sondern weil Unvollkommenheit innerlich unertr\xe4glich wirkt. Sein Zorn ist still, sein Anspr\xfcch an sich selbst enorm.</p>
         <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; das vollst\xe4ndige Portrait enth\xe4lt: Ur-Wunde &middot; Leidenschaft &middot; Heilungsweg &middot; \xc4therisches \xd6l &middot; Hom\xf6opathisches Mittel &middot; Affirmation &middot; Entwicklungsimpuls</p>
       </div>
-      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SE1-Portrait ansehen &#8594;</button>
+      <button class="related-link-btn" data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">Vollst\xe4ndiges SE1-Portrait ansehen &#8594;</button>
 
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
 
@@ -4098,7 +4098,7 @@ function tierquizPage() {
           <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">Zum Subtyp-Profil &#8594;</button>
           <br>
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Quiz wiederholen</button>
-          <button onclick="window._tqShare('${emoji} Ich bin ${tier} (${code}) – mein Enneagramm-Tier im Heilungskompass von Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Ergebnis teilen</button>
+          <button class="related-link-btn" onclick="window._tqShare('${emoji} Ich bin ${tier} (${code}) – mein Enneagramm-Tier im Heilungskompass von Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Ergebnis teilen</button>
           <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Möchten Sie tiefer gehen?</p>
             <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">Der Kompass zeigt Ihnen das vollständige Heilungswissen für Ihr Tier.</p>
@@ -42117,7 +42117,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v742';
+  const MY_VERSION = 'inhalt-v743';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -1714,7 +1714,7 @@ function leseprobePage() {
         <p style="font-size:0.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">The SP1 is, of all the One variants, the most strongly focused on perfection in personal everyday life. They control, order and refine &ndash; not to impress others, but because imperfection feels intolerable inwardly. Their anger is quiet; their standards for themselves enormous.</p>
         <p style="font-size:0.82rem;color:var(--muted);font-style:italic;margin:0;">&#8230; the complete portrait includes: Core Wound &middot; Passion &middot; Healing Path &middot; Essential Oil &middot; Homeopathic Remedy &middot; Affirmation &middot; Growth Impulse</p>
       </div>
-      <button data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">View complete SP1 portrait &#8594;</button>
+      <button class="related-link-btn" data-route="subtype/se1" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.45rem 1rem;font-size:0.83rem;cursor:pointer;margin-bottom:1.8rem;">View complete SP1 portrait &#8594;</button>
 
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
 
@@ -4764,7 +4764,7 @@ function tierquizPage() {
           <button class="typentest-start-btn" data-route="${subtypRoute}" style="margin-bottom:0.8rem;">View Subtype Profile &#8594;</button>
           <br>
           <button onclick="window._tqReset()" style="background:none;border:1.5px solid var(--border);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--muted);">&#8635; Retake quiz</button>
-          <button onclick="window._tqShare('${emoji} I am ${tier} (${code}) – my Enneagram animal in the Healing Compass by Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Share result</button>
+          <button class="related-link-btn" onclick="window._tqShare('${emoji} I am ${tier} (${code}) – my Enneagram animal in the Healing Compass by Detlef Rathmer.')" style="background:none;border:1.5px solid var(--gold);border-radius:8px;padding:0.6rem 1.2rem;cursor:pointer;font-family:inherit;font-size:0.9rem;color:var(--gold);margin-top:0.5rem;">&#8679; Share result</button>
           <div style="margin-top:2rem;background:linear-gradient(135deg,#f5e8cc,#eedda0);border:2px solid var(--gold);border-radius:12px;padding:1.4rem 1.2rem;text-align:left;">
             <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 .3rem;">Would you like to go deeper?</p>
             <p style="font-family:'EB Garamond',serif;font-size:1.15rem;color:var(--ink);margin:0 0 .5rem;line-height:1.3;">The Compass shows you the complete healing knowledge for your animal.</p>
@@ -39119,7 +39119,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v681';
+  const MY_VERSION = 'inhalt-v682';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
