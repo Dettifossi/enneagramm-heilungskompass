@@ -3625,6 +3625,7 @@ function kaufenPage() {
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
         <h3 style="margin-top:0;">What is the Enneagram Healing Compass?</h3>
         <p>A synthesis of decades of therapeutic work by Detlef Rathmer — interactive, personal, immediately usable.</p>
+        <p>Detlef Rathmer is a direct student of Dr. Claudio Naranjo, one of the most influential Enneagram teachers worldwide — this personally transmitted knowledge flows directly into the Healing Compass.</p>
         <p>No book can do what this app does: enter your Enneagram type and immediately receive everything you need. No searching, no piecing together from dozens of sources.</p>
         <h3>What only this app can do:</h3>
         <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
@@ -39136,7 +39137,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v686';
+  const MY_VERSION = 'inhalt-v687';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

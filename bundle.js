@@ -2726,6 +2726,7 @@ function kaufenPage() {
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
         <h3 style="margin-top:0;">Was ist der Enneagramm-Heilungskompass?</h3>
         <p>Eine Synthese aus jahrzehntelanger therapeutischer Arbeit von Detlef Rathmer — interaktiv, persönlich, sofort nutzbar.</p>
+        <p>Detlef Rathmer ist direkter Schüler von Dr. Claudio Naranjo, einem der einflussreichsten Enneagramm-Lehrer weltweit — dieses persönlich weitergegebene Wissen fließt direkt in den Heilungskompass ein.</p>
         <p>Kein Buch kann das leisten, was diese App kann: Du gibst deinen Enneagrammtyp ein — und bekommst sofort alles, was du brauchst. Kein Blättern, kein Suchen, kein Zusammensetzen aus dutzenden Quellen.</p>
         <h3>Was nur diese App kann:</h3>
         <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
@@ -42124,7 +42125,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v745';
+  const MY_VERSION = 'inhalt-v746';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
