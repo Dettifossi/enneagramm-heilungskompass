@@ -188,13 +188,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
     tags:["Literatur"] },
-  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SP1w2",
-    heading:"David Bowie – Social Type 1",
-    teaser:"SP1w2 · 1947–2016. Musician, artist, cultural boundary-crosser. Ziggy Stardust, Thin White Duke, Berlin Trilogy – five decades of transformation aimed at dissolving social boundaries. The goose who opened the way for others. Animal correspondence: Goose.",
-    tags:["Musik"] },
-  { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SP1w9",
+  { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Social Type 1",
-    teaser:"SP1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
+    teaser:"SO1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
     tags:["Politics"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
@@ -208,6 +204,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Social Type 1",
     teaser:"SO1w2 · “The Goose”, born 1975. Actress, director, UN Special Envoy. Over 20 years of humanitarian work in crisis regions, six children, a body of work that always embodies conviction. Animal correspondence: Goose.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SO1w2",
+    heading:"David Bowie – Social Type 1",
+    teaser:"SO1w2 · 1947–2016. Musician, artist, cultural boundary-crosser. Ziggy Stardust, Thin White Duke, Berlin Trilogy – five decades of transformation aimed at dissolving social boundaries. The goose who opened the way for others. Animal correspondence: Goose.",
+    tags:["Musik"] },
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
@@ -19317,7 +19317,7 @@ function davidBowiePortraitPage() {
           <img src="../assets/portraits/beruehmte-david-bowie-portrait.jpg" alt="David Bowie" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">David Bowie</p>
-        <p class="krim-portrait-typ">SP1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
         <p class="krim-portrait-subtitle">Musician &amp; Artist, 1947&ndash;2016 &ndash; Animal correspondence: Goose</p>
       </div>
       <div class="page-content">
@@ -19379,7 +19379,7 @@ function ursulaVonDerLeyenPortraitPage() {
           <img src="../assets/portraits/beruehmte-ursula-von-der-leyen-portrait.jpg" alt="Ursula von der Leyen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ursula von der Leyen</p>
-        <p class="krim-portrait-typ">SP1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">President of the European Commission, born 1958 &ndash; Animal correspondence: Goose</p>
       </div>
       <div class="page-content">
@@ -19425,7 +19425,7 @@ function ursulaVonDerLeyenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – Subtype Profile"},
-        {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SP1w9 compared"},
+        {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SO1w9 compared"},
       ])}
     </div>
   `);
@@ -39402,7 +39402,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v697';
+  const MY_VERSION = 'inhalt-v698';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

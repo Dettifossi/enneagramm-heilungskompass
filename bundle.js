@@ -190,10 +190,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
-  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SO1w2",
-    heading:"David Bowie – Sozialer Typ 1",
-    teaser:"SO1w2 · 1947–2016. Musiker, Künstler, kulturelle Grenzgängerfigur. Ziggy Stardust, Thin White Duke, Berliner Trilogie – fünf Jahrzehnte Verwandlung mit dem Anspruch, gesellschaftliche Grenzen aufzulösen. Die Gans, die anderen den Weg öffnete. Tierentsprechung: Gans.",
-    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1958. Präsidentin der Europäischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade – und im Zentrum der umstrittenen \"Pfizergate\"-Affäre um verweigerte Transparenz bei den Impfstoff-Verträgen. Tierentsprechung: Gans.",
@@ -214,6 +210,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angelina Jolie – Sozialer Typ 1",
     teaser:"SO1w2 · „Die Gans“, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. Über 20 Jahre humanitäre Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SO1w2",
+    heading:"David Bowie – Sozialer Typ 1",
+    teaser:"SO1w2 · 1947–2016. Musiker, Künstler, kulturelle Grenzgängerfigur. Ziggy Stardust, Thin White Duke, Berliner Trilogie – fünf Jahrzehnte Verwandlung mit dem Anspruch, gesellschaftliche Grenzen aufzulösen. Die Gans, die anderen den Weg öffnete. Tierentsprechung: Gans.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski – Sexueller Typ 1",
     teaser:"SX1w9 · 1926–1991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen – Gleichgültigkeit war keine Option.",
@@ -14292,7 +14292,7 @@ function davidBowiePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das Kollektiv &ndash; auf das, was in der Gesellschaft falsch läuft und korrigiert werden muss. Naranjo beschrieb diesen Subtyp als besonders wortgewaltig im Vertreten eines Ideals, das über die eigene Person hinausgeht. Bei Bowie war dieses Ideal die Auflösung starrer Grenzen: zwischen männlich und weiblich, zwischen Genre und Genre, zwischen dem, was Popkultur zeigen durfte, und dem, was sie bislang verschwiegen hatte.</p>
           <p class="vb-intro">Sein öffentliches Bekenntnis zur Bisexualität 1972, in einer Zeit, in der das für einen Mainstream-Musiker geschäftlich riskant und gesellschaftlich hochbrisant war, war kein Zufallsprodukt privater Offenheit. Es war eine bewusste, fast pädagogische Geste &ndash; ein Statement, das eine ganze Generation queerer Jugendlicher erstmals eine öffentliche Identifikationsfigur gab. Die soziale Eins handelt selten aus reinem Selbstinteresse. Sie handelt, weil sie glaubt, dass die Gesellschaft dieses Vorbild braucht.</p>
-          <p class="vb-intro">Auch musikalisch trieb ihn dieser Reformwille: Er nahm Einflüsse aus Soul, elektronischer Avantgarde und Krautrock in den Mainstream-Pop, lange bevor das Genre-übergreifend als normal galt. Grenzen einreißen war für ihn kein ästhetisches Spiel &ndash; es war ein Prinzip.</p>
+          <p class="vb-intro">Auch musikalisch trieb ihn dieser Reformwille: Er nahm Einflüsse aus Soul, elektronischer Avantgarde und Krautrock in den Mainstream-Pop, lange bevor genreübergreifendes Arbeiten als normal galt. Grenzen einreißen war für ihn kein ästhetisches Spiel &ndash; es war ein Prinzip.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Großzügigkeit gegenüber anderen Künstlern</h2>
