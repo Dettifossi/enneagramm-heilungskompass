@@ -495,7 +495,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Film/Theater"] , gender:"f"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Social Type 1",
-    teaser:"SO1w2 · born 1967. Trainer, master, motivator. BVB, Liverpool, Red Bull – and possibly soon national coach. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
+    teaser:"SO1w2 · born 1967. Coach, champion, motivator. BVB, Liverpool, Red Bull – head coach of the German national team since August 2026. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
     tags:["Sports"] , gender:"m"},
   { route:"beruehmte-karl-lagerfeld", name:"Karl Lagerfeld", added:"2026-07-20", subtyp:"SO3w4",
     heading:"Karl Lagerfeld – Social Type 3",
@@ -14273,7 +14273,7 @@ function juergenKloppPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jürgen Klopp</p>
         <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-Wing</p>
-        <p class="krim-portrait-subtitle">Football manager, b. 1967 – Dortmund, Liverpool, Red Bull – Animal equivalent: Goose</p>
+        <p class="krim-portrait-subtitle">Head Coach of the German National Team, b. 1967 – Dortmund, Liverpool, Red Bull, DFB – Animal equivalent: Goose</p>
       </div>
       <div class="page-content">
 
@@ -14303,10 +14303,10 @@ function juergenKloppPortraitPage() {
           <p class="vb-intro">Klopp's outbursts on the sideline are legendary: the flying glasses, the red card he sometimes provokes. That is not a loss of control—that is the SO1 in its purest form. It fights for what is right. It does not hold back when the collective is at stake. The wrath is collective, not narcissistic—and that is the decisive difference.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Farewell and the Next Post</h2>
+        <h2 class="vb-section">5. The Farewell, the Pause – and the Return to Formation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In May 2024, Klopp left Liverpool after nine years—a farewell that moved the entire city. He said he was running on empty, he needed distance, he had to recover. That is typical SO1w2: the person who gives so much for others eventually needs space for himself.</p>
-          <p class="vb-intro">Since early 2024, he has been Head of Global Soccer at Red Bull. An unusual choice for a goose—Klopp in a corporate role, without his own team. And indeed: in July 2026, after Julian Nagelsmann's departure as national team manager, Klopp confirmed ongoing negotiations with the DFB. "I am ready," he said publicly. Hans-Joachim Watzke estimated the probability at more than fifty percent. The contract with Red Bull runs until 2029—the hurdle is real, but the goose knows its next destination.</p>
+          <p class="vb-intro">Since early 2024, he had been Head of Global Soccer at Red Bull—an unusual corporate role without a team of his own, for a goose that really wants to fly in formation. After Germany's exit from the 2026 World Cup under Julian Nagelsmann and his subsequent resignation, Klopp was officially presented as the new head coach of the German national team: a four-year contract, the goal being EURO 2028 and the 2030 World Cup, taking charge on August 15, 2026, with Peter Krawietz, Pepijn Lijnders, and Sven Bender as assistant coaches—three companions from his Dortmund and Liverpool days. The goose has found its formation again: no longer in a corporation, but back on the touchline, this time for an entire country.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Belief as Transmission</h2>
@@ -39335,7 +39335,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v695';
+  const MY_VERSION = 'inhalt-v696';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

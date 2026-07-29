@@ -204,7 +204,7 @@ const BERUEHMT_PORTRAITS = [
     added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] , gender:"m"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Sozialer Typ 1",
-    teaser:"SO1w2 · geb. 1967. Trainer, Meister, Motivator. BVB, Liverpool, Red Bull – und möglicherweise bald Bundestrainer. Die Gans, die ihrer Formation glaubt, bevor die Formation sich selbst glaubt. Tierentsprechung: Gans.",
+    teaser:"SO1w2 · geb. 1967. Trainer, Meister, Motivator. BVB, Liverpool, Red Bull – seit August 2026 Bundestrainer. Die Gans, die ihrer Formation glaubt, bevor die Formation sich selbst glaubt. Tierentsprechung: Gans.",
     tags:["Sport"] , gender:"m"},
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie – Sozialer Typ 1",
@@ -14724,7 +14724,7 @@ function juergenKloppPortraitPage() {
         </div>
         <p class="krim-portrait-name">Jürgen Klopp</p>
         <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Fußballtrainer, geb. 1967 &ndash; Dortmund, Liverpool, Red Bull &ndash; Tierentsprechung: Gans</p>
+        <p class="krim-portrait-subtitle">Bundestrainer, geb. 1967 &ndash; Dortmund, Liverpool, Red Bull, DFB &ndash; Tierentsprechung: Gans</p>
       </div>
       <div class="page-content">
 
@@ -14754,10 +14754,10 @@ function juergenKloppPortraitPage() {
           <p class="vb-intro">Klopps Ausraster auf der Seitenlinie sind legendär: die Brille, die fliegt, die rote Karte, die er manchmal provoziert. Das ist nicht Kontrollverlust &ndash; das ist die SO1 in ihrer reinsten Form. Sie kämpft für das, was richtig ist. Sie hält sich nicht zurück, wenn das Kollektiv auf dem Spiel steht. Der Zorn ist kollektiv, nicht narzisstisch &ndash; und das ist der entscheidende Unterschied.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Der Abschied und der nächste Posten</h2>
+        <h2 class="vb-section">5. Der Abschied, die Pause &ndash; und die Rückkehr zur Formation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Mai 2024 verließ Klopp Liverpool nach neun Jahren &ndash; ein Abschied, der die ganze Stadt bewegte. Er sagte, er sei leer, er brauche Abstand, er müsse sich erholen. Das ist typisch SO1w2: Der Mensch, der so viel für andere gibt, braucht irgendwann Raum für sich selbst.</p>
-          <p class="vb-intro">Seit Anfang 2024 ist er &bdquo;Head of Global Soccer&ldquo; bei Red Bull. Eine ungewöhnliche Wahl für eine Gans &ndash; Klopp in einer Konzernrolle, ohne eigene Mannschaft. Und tatsächlich: Im Juli 2026, nach dem Abgang von Julian Nagelsmann als Bundestrainer, bestätigte Klopp laufende Verhandlungen mit dem DFB. &bdquo;Ich bin bereit&ldquo;, sagte er öffentlich. Hans-Joachim Watzke bezifferte die Wahrscheinlichkeit auf &bdquo;mehr als fünfzig Prozent&ldquo;. Der Vertrag mit Red Bull läuft bis 2029 &ndash; die Hürde ist real, aber die Gans kennt ihr nächstes Ziel.</p>
+          <p class="vb-intro">Seit Anfang 2024 war er &bdquo;Head of Global Soccer&ldquo; bei Red Bull &ndash; eine ungewöhnliche Konzernrolle ohne eigene Mannschaft, für eine Gans, die eigentlich im Verband fliegen will. Nach dem Ausscheiden Deutschlands unter Julian Nagelsmann bei der WM 2026 und dessen Rücktritt wurde Klopp offiziell als neuer Bundestrainer vorgestellt: Vierjahresvertrag, Ziel EM 2028 und WM 2030, Amtsantritt am 15. August 2026, mit Peter Krawietz, Pepijn Lijnders und Sven Bender als Co-Trainern &ndash; drei Weggefährten aus Dortmunder und Liverpooler Tagen. Die Gans hat ihre Formation gefunden: nicht mehr im Konzern, sondern wieder an der Seitenlinie, diesmal für ein ganzes Land.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Geschenk: Glauben als Übertragung</h2>
@@ -42323,7 +42323,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v752';
+  const MY_VERSION = 'inhalt-v753';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
