@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=26";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=27";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -188,6 +188,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
     tags:["Literatur"] },
+  { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SP1w9",
+    heading:"Ursula von der Leyen – Social Type 1",
+    teaser:"SP1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
+    tags:["Politics"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -19294,6 +19298,68 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function ursulaVonDerLeyenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ursula-von-der-leyen-portrait.jpg" alt="Ursula von der Leyen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ursula von der Leyen</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">President of the European Commission, born 1958 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is not a quiet animal. It stands watch, loudly announces every disturbance, and defends its territory with bites if necessary &ndash; not out of malice, but from a deep inner mandate: order must be defended, or it falls apart. No other animal fits Ursula von der Leyen better, whose entire political career has been carried by an unshakeable sense of mission.</p>
+          <p class="vb-intro">From the German Federal Ministry of Family Affairs through the Ministry of Defence to the top of the EU Commission, her rise has followed a straightness rarely seen. Always where structures needed reordering, always with the claim to do it better, more disciplined, more European than her predecessors. The goose does not stand watch by accident &ndash; it sought out the watch post.</p>
+          <p class="vb-intro">But whoever stands watch inevitably comes into conflict with everything it believes it is protecting. That is precisely the point at which the goose becomes one of the most controversial figures in European politics of recent years &ndash; more on that shortly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: The World Should Function Correctly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike the self-preservation One, the <strong>social One (SP1)</strong> directs its striving for perfection not primarily inward but outward: onto systems, institutions, the collective. It does not merely want to act correctly itself &ndash; it wants the world to function correctly, and feels an almost missionary responsibility to ensure that it does. Naranjo describes this subtype as particularly morally outspoken, often with a pronounced sense of what "must be done".</p>
+          <p class="vb-intro">In von der Leyen, this shows in her governing style: she acts quickly in crises, centralizes decisions whenever she perceives disunity as a threat to the greater whole, and almost always justifies her approach with overriding necessity &ndash; joint vaccine procurement for all of Europe, a unified response to the war in Ukraine, a common course on climate policy. The social One thinks in systems, not in individual cases.</p>
+          <p class="vb-intro">This stance produces real capacity to act in times of crisis &ndash; but it also carries the temptation to mistake control for responsibility, and to treat dissenting opinions as a disruption of the correct order rather than as a legitimate part of democracy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Diplomacy as an Instrument of Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the confrontational edge of the pure social One. It brings in a calm, balancing, consensus-oriented note &ndash; outwardly, the SP1w9 appears conciliatory, patient, willing to compromise. But this calm is not a renunciation of the goal. It is a tool for pursuing the same goal more quietly, but no less relentlessly.</p>
+          <p class="vb-intro">Von der Leyen's diplomatic style in Brussels &ndash; the patient holding-together of 27 highly different member states, the constant search for the smallest common denominator, the avoidance of open confrontation wherever possible &ndash; is exactly this Nine-wing in action. She rarely appears loud. She almost always appears persistent.</p>
+          <p class="vb-intro">It is precisely this combination of soft demeanor and hard determination that makes her so difficult for critics to pin down: confrontation is rarely sought openly, but is instead created through quiet facts on the ground &ndash; through decisions that have long since been made before the public debate even begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: The Controversies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is unmistakable: crisis resilience, the ability to forge European unity in very short order where 27 conflicting national interests actually collide. The joint European vaccine procurement at the start of the COVID pandemic and the swift, unified EU response to Russia's war of aggression against Ukraine are widely cited as proof that she delivers in a crisis.</p>
+          <p class="vb-intro">The shadow is equally real and well documented. At its center is the so-called "Pfizergate" affair: during the multi-billion-euro negotiations over vaccine supply contracts, von der Leyen exchanged personal text messages with Pfizer CEO Albert Bourla &ndash; messages the Commission refused to release for years, despite press requests and a lawsuit brought by the New York Times. The European Ombudsman formally found the Commission guilty of maladministration, and an EU court ruled the refusal to disclose the messages unlawful. To this day, the full messages remain unpublished.</p>
+          <p class="vb-intro">Added to this is sharp criticism of a growing concentration of power at the top of the Commission itself: decisions on vaccine procurement, on joint arms purchases for Ukraine, and on sanctions packages have repeatedly been described as insufficiently transparent, insufficiently overseen by the European Parliament, and too closely shaped by von der Leyen's personal inner circle &ndash; a criticism voiced even by figures within the EU institutions themselves. This includes questions about her closeness to individual business actors and digital corporations, whose interests were noticeably often accommodated in key decisions on EU digital and financial policy &ndash; a pattern critics interpret as a conflict of interest, though no court-proof evidence of personal enrichment has so far been established.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Moral Certainty to Genuine Accountability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the social One leads from moral certainty about being in the right toward genuine humility &ndash; toward a willingness to examine oneself as critically as one examines the system around oneself. The growing SP1 learns: responsibility for the greater whole does not justify evading accountability to that very whole.</p>
+          <p class="vb-intro">For a figure like Ursula von der Leyen, the real test of maturity does not lie in further crisis-management successes, but in genuine transparency exactly where it is most uncomfortable &ndash; regarding her own texts, her own agreements, her own inner circle. The goose that watches over others must, at some point, also allow itself to be watched.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – Subtype Profile"},
+        {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SP1w9 compared"},
       ])}
     </div>
   `);
@@ -38811,6 +38877,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
+      "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
@@ -39268,7 +39335,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v694';
+  const MY_VERSION = 'inhalt-v695';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

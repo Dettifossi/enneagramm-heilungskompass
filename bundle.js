@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=26";
+import { registerEntries } from "./data/register.js?v=27";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -190,6 +190,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
+    heading:"Ursula von der Leyen – Sozialer Typ 1",
+    teaser:"SO1w9 · geb. 1958. Präsidentin der Europäischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade – und im Zentrum der umstrittenen \"Pfizergate\"-Affäre um verweigerte Transparenz bei den Impfstoff-Verträgen. Tierentsprechung: Gans.",
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
@@ -14253,6 +14257,68 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function ursulaVonDerLeyenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ursula-von-der-leyen-portrait.jpg" alt="Ursula von der Leyen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ursula von der Leyen</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Präsidentin der Europäischen Kommission, geb. 1958 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist kein stilles Tier. Sie steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen &ndash; und sie tut das nicht aus Bosheit, sondern aus einem tiefen inneren Auftrag heraus: Ordnung muss verteidigt werden, sonst zerfällt sie. Kein anderes Tier passt besser zu Ursula von der Leyen, deren gesamte politische Laufbahn von einem unerschütterlichen Sendungsbewusstsein getragen wird.</p>
+          <p class="vb-intro">Vom Bundesfamilienministerium über das Verteidigungsministerium bis an die Spitze der EU-Kommission verlief ihr Aufstieg in einer Geradlinigkeit, die selten ist. Immer dort, wo Strukturen neu geordnet werden mussten, immer mit dem Anspruch, es besser, disziplinierter, europäischer zu machen als die Vorgänger. Die Gans wacht nicht zufällig &ndash; sie hat sich den Wachposten gesucht.</p>
+          <p class="vb-intro">Doch wer wacht, gerät auch in Konflikt mit allem, was er zu beschützen glaubt. Genau an diesem Punkt wird die Gans zu einer der umstrittensten Figuren der europäischen Politik der letzten Jahre &ndash; dazu gleich mehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Die Welt soll richtig funktionieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihr Vollkommenheitsstreben, anders als die selbsterhaltende Eins, nicht primär nach innen, sondern nach außen: auf Systeme, Institutionen, das Kollektiv. Sie will nicht nur selbst richtig handeln &ndash; sie will, dass die Welt richtig funktioniert, und empfindet eine fast missionarische Verantwortung, dafür zu sorgen. Naranjo beschreibt diesen Subtyp als moralisch besonders wortgewaltig, oft mit einem ausgeprägten Sinn für das, was "man tun muss".</p>
+          <p class="vb-intro">Bei von der Leyen zeigt sich das in ihrem Politikstil: Sie handelt in Krisen schnell, zentralisiert Entscheidungen, wenn sie Uneinigkeit als Gefahr für das große Ganze wahrnimmt, und begründet ihr Vorgehen fast immer mit übergeordneter Notwendigkeit &ndash; gemeinsame Impfstoffbeschaffung für ganz Europa, gemeinsame Antwort auf den Ukraine-Krieg, gemeinsamer Kurs in der Klimapolitik. Die soziale Eins denkt in Systemen, nicht in Einzelfällen.</p>
+          <p class="vb-intro">Diese Haltung bringt echte Handlungsfähigkeit in Krisenzeiten &ndash; sie bringt aber auch die Versuchung mit sich, Kontrolle mit Verantwortung zu verwechseln, und abweichende Meinungen als Störung der richtigen Ordnung zu behandeln statt als legitimen Teil einer Demokratie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Diplomatie als Machtinstrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die konfrontative Schärfe der reinen sozialen Eins ab. Er bringt eine ruhige, ausgleichende, konsensorientierte Note hinein &ndash; nach außen wirkt die SO1w9 versöhnlich, geduldig, bereit zum Kompromiss. Doch diese Ruhe ist kein Verzicht auf das eigene Ziel. Sie ist ein Werkzeug, das eigene Ziel leiser, aber nicht weniger konsequent durchzusetzen.</p>
+          <p class="vb-intro">Von der Leyens diplomatischer Stil in Brüssel &ndash; das geduldige Zusammenhalten von 27 höchst unterschiedlichen Mitgliedstaaten, das beständige Suchen nach dem kleinsten gemeinsamen Nenner, das Vermeiden offener Konfrontation, wo immer möglich &ndash; ist genau dieser Neunerflügel in Aktion. Sie wirkt selten laut. Sie wirkt fast immer beharrlich.</p>
+          <p class="vb-intro">Gerade diese Kombination aus sanftem Auftreten und hartem Durchsetzungswillen macht sie für Kritiker so schwer greifbar: Konfrontation wird nicht offen gesucht, sondern durch stille Fakten geschaffen &ndash; durch Entscheidungen, die längst getroffen sind, bevor die öffentliche Debatte überhaupt beginnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Die Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist unübersehbar: Krisenfestigkeit, die Fähigkeit, in kürzester Zeit europäische Einigkeit herzustellen, wo eigentlich 27 widersprüchliche nationale Interessen aufeinandertreffen. Die gemeinsame europäische Impfstoffbeschaffung zu Beginn der Corona-Pandemie und die schnelle, geschlossene EU-Antwort auf den russischen Angriffskrieg gegen die Ukraine gelten vielen als Beleg dafür, dass sie in Krisen liefert.</p>
+          <p class="vb-intro">Der Schatten ist ebenso real und gut dokumentiert. Im Zentrum steht die sogenannte "Pfizergate"-Affäre: Während der milliardenschweren Verhandlungen über Impfstoff-Lieferverträge tauschte von der Leyen persönliche SMS-Nachrichten mit Pfizer-Chef Albert Bourla aus &ndash; deren Herausgabe die Kommission trotz Presseanfragen und einer Klage der New York Times über Jahre verweigerte. Die Europäische Bürgerbeauftragte rügte die Kommission offiziell wegen Missmanagements, und ein EU-Gericht erklärte die Verweigerung der Herausgabe für rechtswidrig. Bis heute sind die vollständigen Nachrichten nicht öffentlich einsehbar.</p>
+          <p class="vb-intro">Hinzu kommt scharfe Kritik an einer wachsenden Machtkonzentration in der Kommissionsspitze selbst: Entscheidungen zur Impfstoffbeschaffung, zu gemeinsamen Rüstungskäufen für die Ukraine und zu Sanktionspaketen wurden wiederholt als zu wenig transparent, zu wenig durch das Europäische Parlament kontrolliert und zu stark auf von der Leyens persönliches Umfeld zugeschnitten beschrieben &ndash; ein Vorwurf, den auch Stimmen innerhalb der EU-Institutionen selbst erheben. Das schließt Fragen nach der Nähe zu einzelnen Wirtschaftsakteuren und Digitalkonzernen ein, deren Interessen in zentralen Weichenstellungen der EU-Digital- und Finanzpolitik auffällig oft berücksichtigt wurden &ndash; ein Muster, das Kritiker als Interessenkonflikt werten, ohne dass bislang eine gerichtsfeste Beweislage für persönliche Bereicherung vorläge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der moralischen Gewissheit zur echten Rechenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der sozialen Eins führt von der moralischen Gewissheit, im Recht zu sein, zu echter Demut &ndash; zur Bereitschaft, sich selbst genauso kritisch zu prüfen, wie man das System um sich herum prüft. Die wachsende SO1 lernt: Verantwortung für das große Ganze rechtfertigt nicht, sich der Rechenschaftspflicht gegenüber genau diesem Ganzen zu entziehen.</p>
+          <p class="vb-intro">Für eine Figur wie Ursula von der Leyen liegt die eigentliche Reifeprüfung nicht in weiteren Krisenmanagement-Erfolgen, sondern in echter Transparenz dort, wo sie am unbequemsten ist &ndash; bei den eigenen SMS, den eigenen Absprachen, dem eigenen Umfeld. Die Gans, die andere bewacht, muss irgendwann auch zulassen, dass man sie selbst beobachtet.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SO1w9 im Vergleich"},
       ])}
     </div>
   `);
@@ -41833,6 +41899,7 @@ function render() {
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
+      "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
@@ -42256,7 +42323,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v751';
+  const MY_VERSION = 'inhalt-v752';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
