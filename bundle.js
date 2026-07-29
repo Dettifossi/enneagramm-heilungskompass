@@ -174,6 +174,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · „Der Adler”, geb. 1951. Sänger, Bassist, Komponist. The Police und eine beispiellose Solokarriere – von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
+    heading:"Ken Follett – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1949. Bestseller-Autor historischer Romane, u. a. über eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. Über sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unerschütterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
+    tags:["Literatur"] , gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -185,10 +189,6 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SE1w2",
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
-    tags:["Literatur"] , gender:"m"},
-  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
-    heading:"Ken Follett – Selbsterhaltender Typ 1",
-    teaser:"SE1w9 · geb. 1949. Bestseller-Autor historischer Romane, u. a. über eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. Über sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unerschütterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Sozialer Typ 1",
@@ -42256,7 +42256,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v750';
+  const MY_VERSION = 'inhalt-v751';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

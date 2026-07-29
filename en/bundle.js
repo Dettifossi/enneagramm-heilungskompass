@@ -164,10 +164,18 @@ const KRIMINAL_PORTRAITS = [
 ];
 
 const BERUEHMT_PORTRAITS = [
+  { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SP1w9",
+    heading:"Queen Elizabeth II. – Self-Preservation Type 1",
+    teaser:"SP1w9 · 1926–2022. Queen of the United Kingdom, 70 years on the throne. Duty as her life's purpose, silence as strength, never complain, never explain. The eagle who never left its post. Animal correspondence: Eagle.",
+    tags:["Politics","Nobility"] },
   { route:"beruehmte-sting", name:"Sting", subtyp:"SP1w9",
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
     tags:["Musik"] },
+  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SP1w9",
+    heading:"Ken Follett – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
+    tags:["Literatur"] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SP1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
@@ -179,10 +187,6 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SP1w2",
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
-    tags:["Literatur"] },
-  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SP1w9",
-    heading:"Ken Follett – Self-Preservation Type 1",
-    teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
     tags:["Literatur"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
@@ -545,10 +549,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pamela Reif – Sexual Type 2",
     teaser:"SX2w3 · born 1996. Fitness influencer, entrepreneur. Millions of connections through one screen - seduction as the art of connection, perfection as proof of love. Animal correspondence: Camel.",
     tags:["Sports","Lifestyle"] , gender:"f"},
-  { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SE1w9",
-    heading:"Queen Elizabeth II – Self-Preservation Type 1",
-    teaser:"SE1w9 · 1926–2022. Queen of the United Kingdom, 70 years on the throne. Duty as the meaning of life, silence as strength, never complain, never explain. The eagle that never left its post. Animal correspondence: eagles.",
-    tags:["Politics","Adel"] , gender:"f"},
   { route:"beruehmte-rihanna", name:"Rihanna", added:"2026-07-21", subtyp:"SX4w3",
     heading:"Rihanna – Sexual Type 4",
     teaser:"SX4w3 \xb7 born 1988, Barbados. Singer, entrepreneur, style icon. Umbrella, Diamonds, Fenty Beauty. The Bridgetown Chihuahua that turned the beauty industry on its head - raw, fearless, incomparable.",
@@ -39268,7 +39268,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v693';
+  const MY_VERSION = 'inhalt-v694';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
