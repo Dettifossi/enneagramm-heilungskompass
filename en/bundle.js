@@ -473,6 +473,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Golda Meir – Self-Preservation Type 8",
     teaser:"SE8w9 · 1898–1978. Politician, stateswoman, fourth prime minister of Israel (1969–1974). One of the signatories of Israel's Declaration of Independence. The orangutan that climbs slowly and ends up sitting higher than everyone who was louder.",
     tags:["Politics"], gender:"f"},
+  { route:"beruehmte-rasputin", name:"Grigori Rasputin", added:"2026-07-29", subtyp:"SX1w9",
+    heading:"Grigori Rasputin \u2013 Sexual Type 1",
+    teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
+    tags:["History"], gender:"m"},
   { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
@@ -14596,6 +14600,69 @@ function klausKinskiPortraitPage() {
     </div>
   `);
 }
+
+function rasputinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-rasputin-portrait.jpg" alt="Grigori Rasputin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Grigori Rasputin</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Wandering monk &amp; healer, 1869&ndash;1916 &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; an animal that works not through volume, but through the sheer inevitability of its presence. Anyone who comes too close feels an intensity that is almost impossible to escape. This is no accidental animal: the mamba does not strike out of rage, but out of an inner compulsion toward purity &ndash; a force that knows no half measures.</p>
+          <p class="vb-intro">Contemporaries described Rasputin's gaze as the first thing anyone noticed about him &ndash; piercing, impossible to ignore, unsettling to some, healing to others. Ladies of St. Petersburg's salons reported feeling completely seen under that gaze, stripped down to the core. This is the Black Mamba at work: not a charisma that flatters, but one that penetrates.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Purity as a Burning Desire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> is the most intense of all One subtypes. While the self-preservation One directs its perfectionism inward and the social One wants to reform the world, the SX1 channels its passion into direct, personal contact &ndash; into the one relationship, the one cause, the one concern to which it devotes itself completely. Naranjo calls this subtype <em>Jealousy</em> &ndash; a possessive intensity in experiencing whatever it holds to be true and pure.</p>
+          <p class="vb-intro">Rasputin's entire path begins with this logic. As a young man in Siberia he went through a religious crisis that turned him into a wandering pilgrim &ndash; monasteries, Mount Athos, Jerusalem. He returned convinced that true purity is not reached through renunciation but through fully living out and overcoming sin. This is SX1 logic in its most idiosyncratic form: not a gentle ideal, but a fire that must burn through contradiction itself in order to become pure.</p>
+          <p class="vb-intro">The same absoluteness carried him to court. When Tsarevich Alexei suffered from hemophilia and doctors stood helpless, Tsarina Alexandra turned to Rasputin &ndash; and again and again he succeeded, where medicine had failed, in easing the bleeding. Whether through suggestion, calm, or an actual gift, the SX1 throws its whole self into the one cause it has committed to. For Rasputin, that cause was saving this one child &ndash; and through it, a bond to the Tsar's family that would come to define both his life and his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Calm at the Center of the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> changes the sexual One in a decisive way. The pure SX1 can seem demanding, hot-tempered, almost impossible to contain. The Nine-wing brings a countervailing calm into play &ndash; a spaciousness, an apparent serenity that softens the One's fire on the outside without ever extinguishing it. Outwardly: peace. Inwardly: the same relentless drive.</p>
+          <p class="vb-intro">This combination explains why Rasputin appeared so differently to so many people. At court he seemed like a rock of calm &ndash; simple, earthy, unmoved by courtly ceremony, radiating a presence that soothed others even as they panicked. At the same time he lived a double life of excess and penance that knew no rest: drinking bouts, extramarital affairs, religious ecstasy in constant alternation. The Nine-wing conceals the One's intensity &ndash; makes it accessible, warm, almost sleepy &ndash; while the actual fire burns on unchanged.</p>
+          <p class="vb-intro">His teaching bore the same signature. Rasputin preached that one should not avoid sin but surrender to it calmly, without inner struggle, in order to find grace by passing through it. Not the typical severity of the One, but a Nine-like ease toward one's own wrongdoing &ndash; combined with the unshakeable SX1 conviction of being in the right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1 is its capacity for complete devotion. Rasputin's attention to the ailing Tsarevich, his presence in the family's darkest moments, his ability to ease fear through mere presence &ndash; none of it was calculation. It was the Mamba placing itself entirely in service of a cause it had committed to.</p>
+          <p class="vb-intro">The One's fateful pattern is <strong>anger</strong> &ndash; and in the SX1 that anger lives close to the surface, disguised as moral certainty. Rasputin's conviction that he was a healer sent by God tipped increasingly into self-righteousness: he let himself be venerated at court, meddled in affairs of state and the appointment of bishops, and surrounded himself with followers who took his teaching of purification through sin literally. The press turned him into a legendary figure of depravity &ndash; not entirely without cause, but also distorted by the scandal that his mere presence at court provoked.</p>
+          <p class="vb-intro">On December 30, 1916, he was murdered by a group of noble conspirators who believed his death could save the monarchy. The countless legends surrounding his death &ndash; poisoned, shot, drowned, supposedly impossible to kill &ndash; say less about Rasputin himself than about the force with which the SX1 presence gripped the people around him: no one could escape it, not even in his dying.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Compulsion to True Purity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity, from the demand for perfection to acceptance of what is. The growing One discovers that purity is not a state to be forced or fought for. It is already present the moment the struggle against oneself stops.</p>
+          <p class="vb-intro">Rasputin's path remained one of compulsion &ndash; the conviction that purity could only be reached by living through excess kept him trapped in a loop he never escaped. The Nine-wing could have given him the quiet presence in which perfection no longer needs to be proven. Instead, the Mamba stayed on the attack until the very end: a man who brought healing to others and never once found peace of his own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth \u2013 protective patterns, passions, and the path to essence.", "Who You Really Are \u2013 Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared \u2013 how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 \u2013 The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function lenaMeyerLandrutPortraitPage() {
   return shell(`
@@ -38984,6 +39051,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,

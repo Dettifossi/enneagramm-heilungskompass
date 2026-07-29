@@ -222,6 +222,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marie-Agnes Strack-Zimmermann – Sexueller Typ 1",
     teaser:"SX1w9 · geb. 1958. FDP-Politikerin, Vorsitzende des Verteidigungsausschusses, EU-Parlamentarierin. Die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu. Feuer und Ausdauer in einem. Tierentsprechung: Schwarze Mamba.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-rasputin", name:"Grigori Rasputin", added:"2026-07-29", subtyp:"SX1w9",
+    heading:"Grigori Rasputin – Sexueller Typ 1",
+    teaser:"SX1w9 · 1869–1916. Wandermönch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verstörte und einen kranken Zarewitsch heilte, wo Ärzte scheiterten – Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
+    tags:["Geschichte"] , gender:"m"},
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre Nüchternheit – die Schwarze Mamba, die keine Heuchelei erträgt und für andere ebenso brennt wie für sich selbst. Tierentsprechung: Schwarze Mamba.",
@@ -14978,6 +14982,69 @@ function marieAgnesStrackZimmermannPortraitPage() {
     </div>
   `);
 }
+
+function rasputinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rasputin-portrait.jpg" alt="Grigori Rasputin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Grigori Rasputin</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Wandermönch &amp; Heiler, 1869&ndash;1916 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; ein Tier, das nicht durch Lautstärke wirkt, sondern durch die Unausweichlichkeit ihrer Präsenz. Wer ihr zu nahe kommt, spürt eine Intensität, der man sich kaum entziehen kann. Kein Zufallstier: Die Mamba tötet nicht aus Wut, sondern aus einem inneren Zwang zur Reinheit &ndash; einer Kraft, die keine halben Sachen kennt.</p>
+          <p class="vb-intro">Zeitgenossen beschrieben Rasputins Blick als das erste, was an ihm auffiel &ndash; durchdringend, unmöglich zu ignorieren, für manche unheimlich, für andere heilend. Petersburger Salondamen berichteten, sie hätten sich unter diesem Blick vollständig gesehen gefühlt, ausgezogen bis auf den Grund. Das ist die Schwarze Mamba am Werk: kein Charisma, das schmeichelt, sondern eines, das durchdringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Reinheit als brennendes Verlangen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der intensivste aller Einser-Subtypen. Während die selbsterhaltende Eins ihre Perfektion nach innen richtet und die soziale Eins die Welt reformieren will, kanalisiert die SX1 ihre Leidenschaft in den unmittelbaren, persönlichen Kontakt &ndash; in die eine Beziehung, das eine Anliegen, die eine Sache, der sie sich mit ganzer Kraft verschreibt. Naranjo nennt diesen Subtyp <em>Jealousy</em> &ndash; eine besitzergreifende Intensität im Erleben dessen, was sie für wahr und rein hält.</p>
+          <p class="vb-intro">Rasputins gesamter Weg beginnt mit dieser Logik: Als junger Mann in Sibirien durchlebte er eine religiöse Krise, die ihn zum Wanderpilger machte &ndash; Klöster, Athos, Jerusalem. Er kehrte mit der Überzeugung zurück, dass wahre Reinheit nicht durch Verzicht, sondern durch das vollständige Durchleben und Überwinden der Sünde erreicht wird. Das ist SX1-Logik in ihrer eigenwilligsten Form: kein sanftes Ideal, sondern ein Feuer, das durch den Widerspruch selbst hindurchmuss, um rein zu werden.</p>
+          <p class="vb-intro">Dieselbe Unbedingtheit trug ihn an den Hof. Als der Zarewitsch Alexei an der Bluterkrankheit litt und Ärzte machtlos blieben, wandte sich Zarin Alexandra an Rasputin &ndash; und wiederholt gelang ihm, wo die Medizin scheiterte, eine Linderung der Blutungen. Ob durch Suggestion, Ruhe oder tatsächliche Gabe: Die SX1 wirft sich mit ihrer ganzen Person in das eine Anliegen, dem sie sich verschrieben hat. Für Rasputin war das die Rettung dieses einen Kindes &ndash; und darüber die Bindung an die Zarenfamilie, die sein Leben und sein Ende bestimmen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Ruhe im Sturm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verändert die sexuelle Eins auf entscheidende Weise. Die reine SX1 kann fordernd, hitzig, kaum zu bändigen wirken. Der Neunerflügel bringt eine gegenläufige Ruhe ins Spiel &ndash; eine Weite, eine scheinbare Gelassenheit, die das Feuer der Eins nach außen abmildert, ohne es zu löschen. Nach außen: Frieden. Im Inneren: derselbe unerbittliche Drang.</p>
+          <p class="vb-intro">Diese Kombination erklärt, warum Rasputin so vielen Menschen so unterschiedlich erschien. Am Hof wirkte er wie ein Fels der Ruhe &ndash; einfach, bäuerlich, ungerührt vom höfischen Zeremoniell, mit einer Präsenz, die beruhigte, wo andere in Panik gerieten. Zugleich lebte er ein Doppelleben aus Exzess und Buße, das keine Ruhe kannte: Trinkgelage, außereheliche Beziehungen, religiöse Verzückung im ständigen Wechsel. Der Neunerflügel verschleiert die Intensität der Eins &ndash; macht sie zugänglich, warm, fast schläfrig wirkend &ndash; während das eigentliche Feuer unverändert brennt.</p>
+          <p class="vb-intro">Auch seine Lehre trug diese Handschrift: Rasputin predigte, dass man der Sünde nicht ausweichen, sondern sich ihr ruhig, ohne Krampf, hingeben müsse, um durch sie hindurch zur Gnade zu finden. Keine Eins-typische Strenge, sondern eine neunertypische Gelassenheit gegenüber dem eigenen Fehlverhalten &ndash; verbunden mit dem unbeirrbaren SX1-Glauben, im Recht zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1 ist ihre Fähigkeit zur vollständigen Hingabe. Rasputins Zuwendung zum kranken Zarewitsch, seine Präsenz in Momenten größter Not der Zarenfamilie, seine Fähigkeit, Angst durch bloße Anwesenheit zu lindern &ndash; das war kein Kalkül. Das war die Mamba, die sich ganz in den Dienst einer Sache stellt, der sie sich verschrieben hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; und bei der SX1 lebt dieser Zorn nah an der Oberfläche, verkleidet als moralische Gewissheit. Rasputins Überzeugung, ein von Gott gesandter Heiler zu sein, kippte zunehmend in Selbstgerechtigkeit: Er ließ sich am Hof huldigen, mischte sich in Staatsgeschäfte und Bischofsernennungen ein, umgab sich mit Anhängerinnen, die seine Lehre der Reinigung durch Sünde wörtlich nahmen. Die Presse machte aus ihm eine Sagengestalt der Verderbtheit &ndash; nicht ganz zu Unrecht, aber auch verzerrt durch den Skandal, den seine bloße Existenz am Hof auslöste.</p>
+          <p class="vb-intro">Am 30. Dezember 1916 wurde er von einer Gruppe adliger Verschwörer ermordet, die glaubten, mit seinem Tod die Monarchie retten zu können. Die zahlreichen Legenden um seinen Tod &ndash; vergiftet, erschossen, ertränkt, angeblich unmöglich zu töten &ndash; sagen weniger über Rasputin selbst als über die Wucht, mit der die SX1-Präsenz die Menschen um ihn herum erfasste: Man konnte sich seiner nicht entziehen, selbst im Sterben nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Zwang zur wahren Reinheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Heiterkeit, von der Forderung nach Vollkommenheit zur Annahme dessen, was ist. Die wachsende Eins entdeckt: Reinheit ist kein Zustand, den man erzwingen oder erkämpfen muss. Sie ist bereits da, wenn der Kampf gegen sich selbst aufhört.</p>
+          <p class="vb-intro">Rasputins Weg blieb ein Weg des Zwangs &ndash; die Überzeugung, Reinheit nur durch das Durchleben des Exzesses erreichen zu können, hielt ihn in einer Schleife gefangen, aus der er nie heraustrat. Der Neunerflügel hätte ihm die stille Präsenz geben können, in der Vollkommenheit nicht mehr bewiesen werden muss. Stattdessen blieb die Mamba bis zuletzt im Angriff: ein Mann, der Heilung brachte und zugleich nie zur eigenen Ruhe fand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function klausKinskiPortraitPage() {
   return shell(`
@@ -41971,6 +42038,7 @@ function render() {
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
