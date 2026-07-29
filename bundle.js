@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=28";
+import { registerEntries } from "./data/register.js?v=29";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "355";
+const APP_BUILD = "356";
 (function checkForUpdate() {
   fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => r.json())
