@@ -172,6 +172,18 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SP1w2",
+    heading:"Marie Kondo – Self-Preservation Type 1",
+    teaser:"SP1w2 · born 1984. Tidying consultant, author of the KonMari method. \"Does it spark joy?\" – an inner system as clear as an eagle's gaze, and a Two-wing that turns it into a calling. The eagle who understands order as home. Animal correspondence: Eagle.",
+    tags:["Kultur","Gesellschaft"] },
+  { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SP1w2",
+    heading:"Dan Brown – Self-Preservation Type 1",
+    teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
+    tags:["Literatur"] },
+  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SP1w9",
+    heading:"Ken Follett – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
+    tags:["Literatur"] },
   { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -509,10 +521,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marie-Agnes Strack-Zimmermann – Sexual Type 1",
     teaser:"SX1w9 · born 1958. FDP politician, chairwoman of the Defense Committee, EU parliamentarian. The Black Mamba of German politics: sharp, persistent, principled. Fire and endurance in one. Animal correspondence: Black mamba.",
     tags:["Politics"] , gender:"f"},
-  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
-    heading:"Marie Kondo – Self-Preservation Type 1",
-    teaser:"SE1w2 · born 1984. Organization consultant, author of the KonMari method. \"Löst es Freude aus?\" – ein inneres System, so klar wie ein Adlerblick, und ein Two-wing, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Animal correspondence: Adler.",
-    tags:["Kultur","Gesellschaft"] , gender:"f"},
   { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexual Type 3",
     teaser:"SX3w4 · born 1961. Actress, director. Hollywood's favorite person of the 1990s - the peacock who wanted more than his role. Animal correspondence: Peacock.",
@@ -39260,7 +39268,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v691';
+  const MY_VERSION = 'inhalt-v693';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
