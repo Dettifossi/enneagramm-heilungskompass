@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=27";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=28";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -188,6 +188,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
     tags:["Literatur"] },
+  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SP1w2",
+    heading:"David Bowie – Social Type 1",
+    teaser:"SP1w2 · 1947–2016. Musician, artist, cultural boundary-crosser. Ziggy Stardust, Thin White Duke, Berlin Trilogy – five decades of transformation aimed at dissolving social boundaries. The goose who opened the way for others. Animal correspondence: Goose.",
+    tags:["Musik"] },
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SP1w9",
     heading:"Ursula von der Leyen – Social Type 1",
     teaser:"SP1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
@@ -19298,6 +19302,68 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function davidBowiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-bowie-portrait.jpg" alt="David Bowie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Bowie</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Musician &amp; Artist, 1947&ndash;2016 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; an animal that watches, warns, and opens spaces for the group that it would not otherwise have. In David Bowie, this shows not as musical formation but as cultural formation: he went ahead so others could follow. Each of his transformations &ndash; Ziggy Stardust, the Thin White Duke, later the reserved Berlin-era electronic experimenter &ndash; opened a space no one had entered before, and that many were allowed to enter afterward.</p>
+          <p class="vb-intro">Born in London in 1947 as David Robert Jones, he was at first a modestly successful musician under several names, before he transformed popular culture in the early 1970s with an androgynous, extraterrestrial stage persona. This was no accident and no mere self-expression &ndash; it was a deliberate, almost strategic opening of public space for everything that had had no place there before.</p>
+          <p class="vb-intro">The goose does not fly for itself alone. It calls out so that others can find the formation. Bowie did exactly that &ndash; across five decades, in ever new form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Art as a Mandate to Society</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SP1)</strong> directs its demand for perfection not primarily at itself, but at the collective &ndash; at what is going wrong in society and needs correcting. Naranjo described this subtype as particularly outspoken in advocating for an ideal that goes beyond the individual person. For Bowie, that ideal was the dissolution of rigid boundaries: between male and female, between genre and genre, between what popular culture was permitted to show and what it had until then kept silent about.</p>
+          <p class="vb-intro">His public declaration of bisexuality in 1972, at a time when this was commercially risky and socially explosive for a mainstream musician, was not a random product of personal openness. It was a deliberate, almost pedagogical gesture &ndash; a statement that gave an entire generation of queer young people a public figure to identify with for the first time. The social One rarely acts out of pure self-interest. It acts because it believes society needs this example.</p>
+          <p class="vb-intro">Musically, too, this reforming impulse drove him: he brought influences from soul, electronic avant-garde, and krautrock into mainstream pop, long before crossing genres like that was considered normal. Tearing down boundaries was not an aesthetic game for him &ndash; it was a principle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Generosity Toward Other Artists</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social One genuine human warmth &ndash; the capacity not only to fight for an ideal, but to give concretely to other people. In Bowie, this showed in an unusual generosity toward other artists, in an industry known for its competitiveness.</p>
+          <p class="vb-intro">He co-produced and was a major creative force behind Iggy Pop's first successful solo career, helped Lou Reed achieve a commercial breakthrough after his split from the Velvet Underground, and deliberately championed younger or lesser-known musicians whose talent he recognized &ndash; often without needing to be in the spotlight himself. This role as mentor and door-opener runs through his entire career.</p>
+          <p class="vb-intro">Collaborators repeatedly described him as surprisingly approachable, curious about others' work, and generous with recognition &ndash; a marked contrast to the distant, unapproachable image his stage personas often projected. The warmth of the Two-wing lived behind the mask, not on it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w2 is the cultural impact itself: few other artists of the twentieth century so lastingly changed what was even conceivable within popular culture &ndash; for music, fashion, gender presentation, and queer visibility alike.</p>
+          <p class="vb-intro">The shadow is equally real. The passion of the One is anger &ndash; and in the mid-1970s, at the height of a severe cocaine addiction during his "Thin White Duke" period, this surfaced in Bowie in one of the darkest episodes of his career: ambiguous, fascism-adjacent public statements and gestures, which he later repeatedly and unambiguously described as products of his drug use and psychologically unstable state at the time, and publicly regretted. He himself later said he could barely remember large parts of that period.</p>
+          <p class="vb-intro">This episode reveals the derailed shadow side of the social One: the missionary impulse to send a message to the collective can, once out of control, turn against the very values it was meant to serve. Bowie's later, decades-long, consistent disavowal of this period is itself evidence of the SP1 returning to its actual ideal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Persona to Peace</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the social One leads from the constant search for the next corrective message to the world toward a quieter, more integrated form of impact &ndash; no less significant, but less performative. Bowie's so-called Berlin Trilogy at the end of the 1970s, created during his deliberate turn away from cocaine and public role-play, marks exactly this turning point: more introspective, more electronic, less oriented toward outward effect.</p>
+          <p class="vb-intro">In his final years, living quietly in New York, married, a father, he kept working &ndash; more quietly, but unbroken in its consistency, right up to his final album, released two days before his death in 2016. The goose that had called out for others' formation its whole life found, at the end, a very personal peace of its own.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – Subtype Profile"},
+        {route:"beruehmte-freddie-mercury", label:"Freddie Mercury compared"},
       ])}
     </div>
   `);
@@ -38877,6 +38943,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
+      "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
@@ -39335,7 +39402,7 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v696';
+  const MY_VERSION = 'inhalt-v697';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

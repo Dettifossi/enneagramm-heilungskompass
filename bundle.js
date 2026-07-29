@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=27";
+import { registerEntries } from "./data/register.js?v=28";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -190,6 +190,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-david-bowie", name:"David Bowie", added:"2026-07-29", subtyp:"SO1w2",
+    heading:"David Bowie – Sozialer Typ 1",
+    teaser:"SO1w2 · 1947–2016. Musiker, Künstler, kulturelle Grenzgängerfigur. Ziggy Stardust, Thin White Duke, Berliner Trilogie – fünf Jahrzehnte Verwandlung mit dem Anspruch, gesellschaftliche Grenzen aufzulösen. Die Gans, die anderen den Weg öffnete. Tierentsprechung: Gans.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1958. Präsidentin der Europäischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade – und im Zentrum der umstrittenen \"Pfizergate\"-Affäre um verweigerte Transparenz bei den Impfstoff-Verträgen. Tierentsprechung: Gans.",
@@ -14257,6 +14261,68 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function davidBowiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-bowie-portrait.jpg" alt="David Bowie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Bowie</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Musiker &amp; Künstler, 1947&ndash;2016 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; ein Tier, das wacht, warnt, und Räume für die Gruppe öffnet, die sie sonst nicht hätte. Bei David Bowie zeigt sich das nicht als musikalische Formation, sondern als kulturelle: Er ging voran, damit andere folgen konnten. Jede seiner Verwandlungen &ndash; Ziggy Stardust, der Thin White Duke, später der zurückhaltende Berliner Elektronik-Experimentator &ndash; öffnete einen Raum, den vorher niemand betreten hatte, und den danach viele betreten durften.</p>
+          <p class="vb-intro">Geboren 1947 in London als David Robert Jones, war er zunächst ein mäßig erfolgreicher Musiker unter mehreren Namen, bevor er Anfang der Siebzigerjahre mit einer androgynen, außerirdischen Bühnenfigur die Popkultur veränderte. Das war kein Zufall und kein reiner Selbstausdruck &ndash; es war eine gezielte, fast strategische Öffnung des öffentlichen Raums für alles, was bis dahin dort keinen Platz hatte.</p>
+          <p class="vb-intro">Die Gans fliegt nicht für sich allein. Sie ruft, damit die anderen die Formation finden. Bowie tat genau das &ndash; über fünf Jahrzehnte hinweg, in immer neuer Gestalt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Kunst als Auftrag an die Gesellschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das Kollektiv &ndash; auf das, was in der Gesellschaft falsch läuft und korrigiert werden muss. Naranjo beschrieb diesen Subtyp als besonders wortgewaltig im Vertreten eines Ideals, das über die eigene Person hinausgeht. Bei Bowie war dieses Ideal die Auflösung starrer Grenzen: zwischen männlich und weiblich, zwischen Genre und Genre, zwischen dem, was Popkultur zeigen durfte, und dem, was sie bislang verschwiegen hatte.</p>
+          <p class="vb-intro">Sein öffentliches Bekenntnis zur Bisexualität 1972, in einer Zeit, in der das für einen Mainstream-Musiker geschäftlich riskant und gesellschaftlich hochbrisant war, war kein Zufallsprodukt privater Offenheit. Es war eine bewusste, fast pädagogische Geste &ndash; ein Statement, das eine ganze Generation queerer Jugendlicher erstmals eine öffentliche Identifikationsfigur gab. Die soziale Eins handelt selten aus reinem Selbstinteresse. Sie handelt, weil sie glaubt, dass die Gesellschaft dieses Vorbild braucht.</p>
+          <p class="vb-intro">Auch musikalisch trieb ihn dieser Reformwille: Er nahm Einflüsse aus Soul, elektronischer Avantgarde und Krautrock in den Mainstream-Pop, lange bevor das Genre-übergreifend als normal galt. Grenzen einreißen war für ihn kein ästhetisches Spiel &ndash; es war ein Prinzip.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Großzügigkeit gegenüber anderen Künstlern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins echte menschliche Wärme &ndash; die Fähigkeit, nicht nur für ein Ideal zu kämpfen, sondern anderen Menschen konkret zu geben. Bei Bowie zeigte sich das in seiner ungewöhnlichen Großzügigkeit gegenüber anderen Künstlern, in einer Branche, die für Konkurrenzdenken bekannt ist.</p>
+          <p class="vb-intro">Er co-produzierte und schrieb maßgeblich an Iggy Pops erster erfolgreicher Solokarriere mit, half Lou Reed nach dessen Trennung von der Band Velvet Underground zu einem kommerziellen Durchbruch, und förderte gezielt jüngere oder unbekanntere Musiker, deren Talent er erkannte &ndash; oft ohne selbst im Vordergrund stehen zu müssen. Diese Rolle als Mentor und Türöffner zieht sich durch sein gesamtes Berufsleben.</p>
+          <p class="vb-intro">Wegbegleiter beschrieben ihn immer wieder als überraschend zugänglich, neugierig auf die Arbeit anderer und großzügig mit Anerkennung &ndash; ein deutlicher Kontrast zu dem distanzierten, unnahbaren Bild, das seine Bühnenfiguren oft vermittelten. Die Wärme des Zweierflügels lebte hinter der Maske, nicht auf ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w2 ist die kulturelle Wirkung selbst: kaum ein anderer Künstler des 20. Jahrhunderts hat so nachhaltig verändert, was in der Popkultur überhaupt denkbar war &ndash; für Musik, Mode, Genderdarstellung und queere Sichtbarkeit gleichermaßen.</p>
+          <p class="vb-intro">Der Schatten ist ebenso real. Die Leidenschaft der Eins ist der Zorn &ndash; und Mitte der Siebzigerjahre, auf dem Höhepunkt eines schweren Kokainmissbrauchs während seiner Zeit als &bdquo;Thin White Duke&ldquo;, äußerte sich das bei Bowie in einer der dunkelsten Episoden seiner Karriere: mehrdeutige, faschismusnahe öffentliche Aussagen und Gesten, die er später wiederholt und unmissverständlich als Ausdruck seines damaligen Drogenkonsums und seines psychisch instabilen Zustands bezeichnete und öffentlich bereute. Er selbst sprach später davon, sich an weite Teile dieser Zeit kaum noch erinnern zu können.</p>
+          <p class="vb-intro">Diese Episode zeigt die Schattenseite der sozialen Eins in ihrer entgleisten Form: Der missionarische Impuls, eine Botschaft an das Kollektiv zu senden, kann sich, außer Kontrolle geraten, gegen genau die Werte richten, für die man eigentlich steht. Bowies spätere, jahrzehntelange konsequente Distanzierung von dieser Phase ist selbst ein Beleg für die Rückkehr der SO1 zu ihrem eigentlichen Ideal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Rolle zur Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der sozialen Eins führt von der ständigen Suche nach der nächsten korrigierenden Botschaft an die Welt zu einer stilleren, integrierteren Form von Wirkung &ndash; nicht weniger bedeutsam, aber weniger performativ. Bowies sogenannte Berliner Trilogie Ende der Siebzigerjahre, entstanden während seiner bewussten Abkehr von Kokain und öffentlichem Rollenspiel, markiert genau diesen Wendepunkt: introspektiver, elektronischer, weniger auf Wirkung nach außen ausgelegt.</p>
+          <p class="vb-intro">In seinen letzten Lebensjahren, zurückgezogen in New York, verheiratet, Vater, arbeitete er weiter &ndash; leiser, aber ungebrochen konsequent, bis zu seinem letzten Album, das zwei Tage vor seinem Tod 2016 erschien. Die Gans, die ihr Leben lang für die Formation anderer gerufen hat, fand am Ende einen eigenen, sehr persönlichen Frieden.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Freddie Mercury im Vergleich"},
       ])}
     </div>
   `);
@@ -41899,6 +41965,7 @@ function render() {
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
+      "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
@@ -42323,7 +42390,7 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v753';
+  const MY_VERSION = 'inhalt-v754';
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {
