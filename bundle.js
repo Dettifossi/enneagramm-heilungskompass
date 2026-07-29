@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "354";
+const APP_BUILD = "355";
 (function checkForUpdate() {
   fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => r.json())
