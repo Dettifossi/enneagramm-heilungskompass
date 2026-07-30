@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "359";
+const APP_BUILD = "360";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -16611,7 +16611,7 @@ function elvisPresleyPortraitPage() {
         <h2 class="vb-section">2. SX2: Verführung als Bühnensprache</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, durch intensive, persönliche Präsenz eine unmittelbare Verbindung herzustellen. Bei Elvis war das buchstäblich sichtbar: der Hüftschwung, der 1956 im amerikanischen Fernsehen zum Skandal wurde und ihm den Beinamen <em>Elvis the Pelvis</em> einbrachte, war kein einstudierter Trick, sondern der körperliche Ausdruck einer Energie, die keine Distanz zulassen wollte. Kameras durften ihn zeitweise nur bis zur Hüfte filmen &ndash; ein Versuch, etwas einzudämmen, das sich der Kontrolle entzog.</p>
-          <p class="vb-intro">Diese Verführungskraft war nicht auf die Bühne beschränkt. Wer Elvis begegnete, berichtete oft von einer Aufmerksamkeit, die sich ganz auf die eine Person im Raum richtete &ndash; ein direkter Blick, eine Zugewandtheit, die das Gegenüber das Gefühl gab, in diesem Moment der wichtigste Mensch der Welt zu sein. Genau das ist die SX2-Gabe: nicht die Masse zu erobern, sondern in jeder einzelnen Begegnung eine echte Verbindung zu behaupten, selbst wenn Millionen zusehen.</p>
+          <p class="vb-intro">Diese Verführungskraft war nicht auf die Bühne beschränkt. Wer Elvis begegnete, berichtete oft von einer Aufmerksamkeit, die sich ganz auf die eine Person im Raum richtete &ndash; ein direkter Blick, eine Zugewandtheit, die dem Gegenüber das Gefühl gab, in diesem Moment der wichtigste Mensch der Welt zu sein. Genau das ist die SX2-Gabe: nicht die Masse zu erobern, sondern in jeder einzelnen Begegnung eine echte Verbindung zu behaupten, selbst wenn Millionen zusehen.</p>
           <p class="vb-intro">Und die SX2 gibt. Legendär ist Elvis&rsquo; Großzügigkeit: Er verschenkte Cadillacs an Fremde, die er zufällig auf der Straße traf, bezahlte Krankenhausrechnungen für Menschen, die er nie kennengelernt hatte, überhäufte Freunde und Familie mit Geschenken, deren Wert weit über das Übliche hinausging. Das war kein Kalkül &ndash; es war die Zwei, die sich durch Geben beweist, dass sie liebenswert ist.</p>
         </blockquote>
 
