@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "368";
+const APP_BUILD = "369";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1103,6 +1103,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Frank", year:"2014", text:"Ein zurückgezogenes, exzentrisches Genie, das nur zu wenigen Menschen wirklich vordringen lässt." },
       { title:"Little Miss Sunshine", year:"2006", text:"Ein introvertierter Charakter, der sein Schweigen nur für die eine, entscheidende Verbindung bricht." },
       { title:"Moon", year:"2009", text:"Radikale Isolation, in der eine einzige Verbindung zur Außenwelt existenziell wichtig wird." },
+    ],
+  },
+  "SE6": {
+    typ: 6, instinkt: "SE", animal: "Kaninchen",
+    title: "SE6 – Selbsterhaltungstyp 6: Das Kaninchen, das Wärme sucht",
+    intro: "Zehn Filme über Sicherheit im vertrauten Nahbereich – Wärme, Bündnisse und die Suche nach einem verlässlichen Zuhause gegen die Angst.",
+    filme: [
+      { title:"The Blind Side", year:"2009", text:"Sicherheit, die über ein warmes, verlässliches Zuhause entsteht – Angst, die durch Zugehörigkeit aufgefangen wird." },
+      { title:"Little Miss Sunshine", year:"2006", text:"Eine chaotische, aber warme Familie, die trotz aller Ängste zusammenhält und sich gegenseitig Sicherheit gibt." },
+      { title:"Room", year:"2015", text:"Sicherheit, die trotz extremer Bedrohung im engsten, vertrautesten Bündnis – hier zwischen Mutter und Kind – entsteht." },
+      { title:"A Quiet Place", year:"2018", text:"Eine Familie, die ihre Ängste durch enge Bündnisse und eingespielte, verlässliche Routinen bewältigt." },
+      { title:"Captain Fantastic", year:"2016", text:"Sicherheit durch ein enges, selbst geschaffenes familiäres System, das Schutz vor einer als bedrohlich empfundenen Außenwelt bietet." },
+      { title:"We Need to Talk About Kevin", year:"2011", text:"Die Angst, im engsten familiären Nahbereich nicht wirklich sicher zu sein – eine dunkle Kehrseite des SE6-Themas." },
+      { title:"The Impossible", year:"2012", text:"Eine Familie, die unter existenzieller Bedrohung alles daransetzt, wieder zusammenzufinden und sich gegenseitig Sicherheit zu geben." },
+      { title:"Nebraska", year:"2013", text:"Brüchige, aber tief verwurzelte familiäre Bündnisse, die trotz aller Reibung Halt geben." },
+      { title:"Manchester by the Sea", year:"2016", text:"Die Suche nach einem sicheren Ort innerhalb der Familie, nachdem das Vertrauen in die eigene Verlässlichkeit erschüttert wurde." },
+      { title:"Beasts of No Nation", year:"2015", text:"Der verzweifelte Wunsch nach einer sicheren, verlässlichen Zugehörigkeit inmitten einer zutiefst bedrohlichen Welt." },
+    ],
+  },
+  "SO6": {
+    typ: 6, instinkt: "SO", animal: "Erdmännchen",
+    title: "SO6 – Sozialer Typ 6: Das Erdmännchen auf Wache",
+    intro: "Zehn Filme über Sicherheit durch Regeln, Autorität und Zugehörigkeit zu einer Gruppe – Loyalität als Schutz vor der eigenen Angst.",
+    filme: [
+      { title:"Zero Dark Thirty", year:"2012", text:"Systematische, institutionelle Wachsamkeit im Dienst eines größeren Systems – Sicherheit durch Verfahren und Struktur." },
+      { title:"Argo", year:"2012", text:"Loyalität zu einem Team und einem Plan, der unter extremem Risiko eingehalten wird, weil das System Sicherheit verspricht." },
+      { title:"Spotlight", year:"2015", text:"Vertrauen in ein Team und ein gemeinsames Regelwerk, das gegen eine übermächtige Institution antritt." },
+      { title:"Contagion", year:"2011", text:"Institutionelle Systeme und Autoritäten, denen in einer Krise vertraut oder misstraut werden muss – Sicherheit durch funktionierende Strukturen." },
+      { title:"The Report", year:"2019", text:"Beharrliches Vertrauen in Regeln und Verfahren als einziger Weg, ein größeres System zur Rechenschaft zu ziehen." },
+      { title:"Sully", year:"2016", text:"Vertrauen in erlernte Verfahren und institutionelle Autorität, das sich in der Krise bewährt – und anschließend infrage gestellt wird." },
+      { title:"World War Z", year:"2013", text:"Zusammenarbeit mit globalen Institutionen als einziger Weg, eine überwältigende Bedrohung einzudämmen." },
+      { title:"Erin Brockovich", year:"2000", text:"Der Kampf gegen ein System, dem eigentlich vertraut werden sollte, das aber selbst zur Bedrohung wird." },
+      { title:"The Post", year:"2017", text:"Loyalität zu einem Team und der eigenen Institution, selbst wenn übergeordnete Autoritäten das infrage stellen." },
+      { title:"Selma", year:"2014", text:"Der organisierte, disziplinierte Zusammenschluss einer Bewegung als Schutz und Kraftquelle gegen ein feindliches System." },
+    ],
+  },
+  "SX6": {
+    typ: 6, instinkt: "SX", animal: "Wolf",
+    title: "SX6 – Sexueller Typ 6: Der Wolf und die Kraft gegen die Angst",
+    intro: "Zehn Filme über Angst, die in Stärke, Provokation oder kompromisslose Loyalität zu einer einzigen Person verwandelt wird.",
+    filme: [
+      { title:"No Country for Old Men", year:"2007", text:"Angst, die in unerschütterliche, fast furchtlos wirkende Härte verwandelt wird – die Kehrseite der Bedrohung als Stärke." },
+      { title:"The Departed", year:"2006", text:"Kompromisslose, riskante Loyalität innerhalb eines gefährlichen Systems, in dem Vertrauen über Leben und Tod entscheidet." },
+      { title:"Sicario", year:"2015", text:"Angst, die sich in provokante, grenzüberschreitende Konfrontation mit der Gefahr selbst verwandelt." },
+      { title:"Whiplash", year:"2014", text:"Eine Beziehung, die Angst in kompromisslose Intensität und Härte übersetzt, um sich der Bedrohung zu stellen statt ihr auszuweichen." },
+      { title:"Warrior", year:"2011", text:"Körperliche Kraft und Kampf als direkte Antwort auf tief sitzende Angst und familiäre Verletzung." },
+      { title:"The Hurt Locker", year:"2008", text:"Eine Anziehungskraft der Gefahr selbst – Angst, die sich in provokantes Aufsuchen des Risikos verwandelt." },
+      { title:"Fight Club", year:"1999", text:"Angst und Ohnmacht, die sich in kompromisslose körperliche Konfrontation und riskante Loyalität zu einer einzigen Verbündeten umwandeln." },
+      { title:"Killing Them Softly", year:"2012", text:"Misstrauen und Wachsamkeit, die sich in kalkulierte, kompromisslose Härte verwandeln, um die eigene Position zu sichern." },
+      { title:"A History of Violence", year:"2005", text:"Die dünne Grenze zwischen Angst, Schutz und der eigenen verborgenen Gewaltbereitschaft." },
+      { title:"Nightcrawler", year:"2014", text:"Eine Figur, die Unsicherheit in kalte, riskante Kompromisslosigkeit übersetzt, um Kontrolle über eine bedrohliche Welt zu gewinnen." },
     ],
   },
 };
