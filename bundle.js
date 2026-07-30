@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "367";
+const APP_BUILD = "368";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1052,6 +1052,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Blue Is the Warmest Colour", year:"2013", text:"Gefühlsintensität, die keine halben Sachen kennt und keine gesellschaftliche Norm respektiert." },
       { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"Die Weigerung, Schmerz und Sehnsucht durch Vergessen zu betäuben – lieber ganz fühlen als gar nicht." },
       { title:"A Star Is Born", year:"2018", text:"Kompromisslose künstlerische und emotionale Wahrhaftigkeit, koste es, was es wolle." },
+    ],
+  },
+  "SE5": {
+    typ: 5, instinkt: "SE", animal: "Eule",
+    title: "SE5 – Selbsterhaltungstyp 5: Die Eule und die eigene Burg",
+    intro: "Zehn Filme über den Rückzug ins Notwendigste – Ressourcenschutz, minimale Bedürfnisse und ein enges, kontrolliertes Refugium.",
+    filme: [
+      { title:"Into the Wild", year:"2007", text:"Ein Rückzug aus der Welt in ein absichtlich minimales, ressourcenarmes Leben – Sicherheit durch radikale Reduktion statt durch Fülle." },
+      { title:"Good Will Hunting", year:"1997", text:"Ein brillanter Verstand, der sich hinter einem engen, kontrollierten Lebensraum verschanzt, um sich vor der Welt zu schützen." },
+      { title:"Room", year:"2015", text:"Ein extrem begrenzter, aber vollständig kontrollierter Raum als einziger sicherer Ort in einer bedrohlichen Welt." },
+      { title:"A Beautiful Mind", year:"2001", text:"Ein Innenleben von enormer Komplexität, das sich in einem zurückgezogenen, streng geordneten Alltag zu schützen versucht." },
+      { title:"Captain Fantastic", year:"2016", text:"Eine Familie, die sich bewusst von der Gesellschaft zurückzieht, um mit minimalen Mitteln autark zu leben." },
+      { title:"The Revenant", year:"2016", text:"Reines Überleben mit dem, was unbedingt nötig ist – jede Ressource zählt, nichts wird verschwendet." },
+      { title:"Manchester by the Sea", year:"2016", text:"Ein Leben, das sich bewusst klein und überschaubar hält, um die eigenen Ressourcen – emotional wie materiell – nicht zu überfordern." },
+      { title:"The Theory of Everything", year:"2014", text:"Ein Geist, der sich trotz körperlicher Einschränkung in einen riesigen, aber streng eigenen inneren Denkraum zurückzieht." },
+      { title:"Wild", year:"2014", text:"Rückzug in die Reduktion – ein Leben, das bewusst auf das Notwendigste zurückgeschraubt wird, um wieder Boden zu finden." },
+      { title:"127 Hours", year:"2010", text:"Extreme Ressourcenknappheit, in der jede kleinste Reserve über Leben und Tod entscheidet." },
+    ],
+  },
+  "SO5": {
+    typ: 5, instinkt: "SO", animal: "Oktopus",
+    title: "SO5 – Sozialer Typ 5: Der Oktopus, der Systeme durchdringt",
+    intro: "Zehn Filme über Expertentum, das sich der Gruppe über Wissen statt über Nähe zeigt – der Beitrag als Denker, nicht als Teilnehmer.",
+    filme: [
+      { title:"The Imitation Game", year:"2014", text:"Ein brillanter Kopf, der der Gemeinschaft ausschließlich über seine intellektuelle Leistung dient, nicht über soziale Nähe." },
+      { title:"The Social Network", year:"2010", text:"Ein System, das die gesamte Gesellschaft verändert, entworfen von jemandem, der sich sozial lieber fernhält." },
+      { title:"Steve Jobs", year:"2015", text:"Ein Visionär, der ganze Systeme und Industrien neu denkt, während persönliche Nähe zur Nebensache wird." },
+      { title:"The Big Short", year:"2015", text:"Außenseiter, die als Einzige das komplexe System durchschauen, das alle anderen übersehen." },
+      { title:"Moneyball", year:"2011", text:"Ein neues analytisches System, das eine ganze Branche von außen und mit kühlem Verstand neu ordnet." },
+      { title:"Arrival", year:"2016", text:"Verstehen als Rettung der ganzen Menschheit – Wissen, das der Gemeinschaft dient, gewonnen aus einer Position der Distanz." },
+      { title:"Hidden Figures", year:"2016", text:"Fachwissen, das im Verborgenen erarbeitet wird und am Ende ein ganzes System – die Raumfahrt – trägt." },
+      { title:"The Man Who Knew Infinity", year:"2015", text:"Ein mathematisches Genie, dessen Beitrag zur Gemeinschaft ganz im abstrakten Denken liegt, nicht im sozialen Auftritt." },
+      { title:"Spotlight", year:"2015", text:"Systematische, distanzierte Recherche, die am Ende der ganzen Gesellschaft dient." },
+      { title:"Ex Machina", year:"2014", text:"Ein System, das die Grenzen des Verstehens selbst zum Thema macht – Wissen als Machtquelle und Risiko zugleich." },
+    ],
+  },
+  "SX5": {
+    typ: 5, instinkt: "SX", animal: "Igel",
+    title: "SX5 – Sexueller Typ 5: Der Igel und die eine vertraute Verbindung",
+    intro: "Zehn Filme über seltene, aber intensive Verbindung zu einer einzigen Person – Vertrauen, das sich nur ausnahmsweise öffnet.",
+    filme: [
+      { title:"Good Will Hunting", year:"1997", text:"Ein Mensch, der sich vor der Welt verschließt, sich aber genau einer einzigen Person gegenüber ausnahmsweise öffnet." },
+      { title:"Lost in Translation", year:"2003", text:"Zwei zurückgezogene Menschen, die sich gerade füreinander öffnen, weil die Verbindung selten und deshalb kostbar ist." },
+      { title:"Her", year:"2013", text:"Intensive, exklusive Verbindung zu einer einzigen Stimme – Nähe, die bewusst außerhalb des sozialen Trubels gesucht wird." },
+      { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"Eine einzige, ungewöhnlich intensive Verbindung, die selbst dem Vergessen widersteht." },
+      { title:"A Beautiful Mind", year:"2001", text:"Eine seltene, aber tragfähige Verbindung zu einem einzigen Menschen als Anker in einer sonst unzugänglichen inneren Welt." },
+      { title:"The Theory of Everything", year:"2014", text:"Eine intensive Zweierbeziehung als einziger verlässlicher Kontakt zu einer Welt, die sonst auf Distanz gehalten wird." },
+      { title:"Arrival", year:"2016", text:"Eine tiefe, seltene Verbindung, die alles Übrige – auch das Verständnis des Universums – erst zugänglich macht." },
+      { title:"Frank", year:"2014", text:"Ein zurückgezogenes, exzentrisches Genie, das nur zu wenigen Menschen wirklich vordringen lässt." },
+      { title:"Little Miss Sunshine", year:"2006", text:"Ein introvertierter Charakter, der sein Schweigen nur für die eine, entscheidende Verbindung bricht." },
+      { title:"Moon", year:"2009", text:"Radikale Isolation, in der eine einzige Verbindung zur Außenwelt existenziell wichtig wird." },
     ],
   },
 };
