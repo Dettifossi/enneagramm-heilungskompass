@@ -15560,7 +15560,7 @@ function marisaAbelaPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO2w1 ist ihre Fähigkeit, sich vollständig in eine Gemeinschaft, ein Projekt, eine Rolle zu geben &ndash; und dabei einen Qualitätsanspruch zu behalten, der über bloßes Gefallen-Wollen hinausgeht. Marisa Abela wird von Kolleginnen und Kollegen wiederholt als großzügige, hochprofessionelle Schauspielerin beschrieben, die das Ensemble stärkt, statt es sich unterzuordnen.</p>
+          <p class="vb-intro">Das Licht der SO2w1 ist ihre Fähigkeit, sich vollständig in eine Gemeinschaft, ein Projekt, eine Rolle zu begeben &ndash; und dabei einen Qualitätsanspruch zu behalten, der über bloßes Gefallen-Wollen hinausgeht. Marisa Abela wird von Kolleginnen und Kollegen wiederholt als großzügige, hochprofessionelle Schauspielerin beschrieben, die das Ensemble stärkt, statt es sich unterzuordnen.</p>
           <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; das tiefe Bedürfnis, gebraucht und geschätzt zu werden. Bei der SO2w1 zeigt sich das als die stille Sorge, es nicht gut genug gemacht zu haben, verbunden mit dem Anspruch, es besser zu machen als erwartet. Diese Kombination treibt zu Höchstleistungen &ndash; sie kann aber auch erschöpfen, wenn der eigene Wert zu eng an die Anerkennung durch andere gekoppelt bleibt.</p>
         </blockquote>
 
