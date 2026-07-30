@@ -262,6 +262,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jan Ullrich – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. Fünfmal Zweiter hinter Armstrong – nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
     tags:["Sport"] , gender:"m"},
+  { route:"beruehmte-oprah-winfrey", name:"Oprah Winfrey", added:"2026-07-30", subtyp:"SE2w3",
+    heading:"Oprah Winfrey – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1954. Moderatorin, Unternehmerin, Philanthropin. Vom Trauma zum Medienimperium – Fürsorge im großen Maßstab, unternehmerischer Wille ohne Kompromiss. Tierentsprechung: Flusspferd.",
+    tags:["Medien","Wirtschaft"] , gender:"f"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unermüdlicher Mahner. Der Golden Retriever, der Alarm schlägt – weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
@@ -14791,6 +14795,73 @@ function uliHoenessPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Porträt: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function oprahWinfreyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-oprah-winfrey-portrait.jpg" alt="Oprah Winfrey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oprah Winfrey</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Moderatorin, Unternehmerin &amp; Philanthropin, geb. 1954 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und Oprah Winfrey trägt seine Doppelnatur mit einer Klarheit, die selten ist. Das Flusspferd wirkt warm, rund, zugänglich &ndash; und ist zugleich eines der mächtigsten Tiere seines Lebensraums, das sein Territorium mit unbedingter Entschlossenheit verteidigt. Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden.</p>
+          <p class="vb-intro">Oprah Winfrey wuchs in Armut in Mississippi auf, erlebte Missbrauch und Vernachlässigung in ihrer Kindheit &ndash; und baute daraus eines der einflussreichsten Medienimperien der Welt. Das ist keine Aufstiegsgeschichte im gewöhnlichen Sinn. Es ist die Geschichte eines Flusspferds, das sein eigenes Territorium erst erkämpfen musste, bevor es begann, für andere Raum zu schaffen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei am direktesten auf das eigene Überleben und auf das, was ihr am nächsten steht. Naranjo nennt diesen Subtyp <em>Me First</em>: nicht Egoismus, sondern die Einsicht, dass man selbst zuerst tragfähig sein muss, um andere tragen zu können. Die SE2 ist konkret, bodenständig, unmittelbar &ndash; sie sorgt nicht abstrakt, sondern mit den eigenen Händen, der eigenen Stimme, der eigenen Präsenz.</p>
+          <p class="vb-intro">Bei Oprah Winfrey zeigt sich das in der Art, wie sie Talkshow-Fernsehen neu erfand: Sie saß nicht distanziert gegenüber ihren Gästen, sie weinte mit ihnen, berührte sie, teilte eigene Verletzungen. <em>The Oprah Winfrey Show</em> wurde zum größten Talkformat der US-Geschichte, weil sie Fürsorge nicht simulierte, sondern lebte &ndash; direkt, körperlich, ungefiltert.</p>
+          <p class="vb-intro">Auch ihr Engagement reicht über die Kameras hinaus: die Gründung der Oprah Winfrey Leadership Academy for Girls in Südafrika, Millionenspenden für Bildung, ihr persönlicher Einsatz für einzelne Menschen in Not. Die SE2 sorgt nicht aus der Ferne. Sie geht dorthin, wo die Not ist, und packt an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Wille zum Imperium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei etwas, das die reine Zwei nicht von selbst mitbringt: den Hunger nach messbarem Erfolg, nach Wachstum, nach dem Beweis, dass die eigene Arbeit trägt. Die Drei denkt in Reichweite, in Zahlen, in Ergebnissen. In Kombination mit der SE2 entsteht jemand, der gleichzeitig zutiefst mitfühlend und strategisch unerbittlich ist.</p>
+          <p class="vb-intro">Oprah Winfrey hat aus einer einzelnen Talkshow ein Medienimperium gebaut: Harpo Productions, das eigene Network OWN, eine Zeitschrift, einen Buchclub, der ganze Bestsellerlisten prägte. Sie wurde die erste Schwarze Milliardärin Nordamerikas &ndash; nicht durch Erbe, sondern durch eigene unternehmerische Kraft. Der Dreierflügel lässt keine halben Sachen zu. Er fragt: Wie weit kann das noch wachsen? Wie viele Menschen kann das noch erreichen?</p>
+          <p class="vb-intro">Dieser Flügel hat auch seinen Preis. Der Dreierflügel der SE2 neigt dazu, Wert über Wirkung zu definieren: Ich bin, was ich erreiche, wie viele ich erreiche. Oprah Winfrey hat selbst offen über den Druck gesprochen, immer noch mehr leisten zu müssen &ndash; ein Flusspferd, das sein Revier ständig erweitert, statt es einfach zu bewohnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz als Antrieb und als Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> &ndash; und bei der SE2w3 richtet sich dieser Stolz auf das Geschaffene: auf das Imperium, das aus eigener Kraft entstand, auf die Reichweite, die eigene Worte und eigenes Mitgefühl erreicht haben. Dieser Stolz ist verdient &ndash; und er wird zur Falle, wenn der eigene Wert an die Größe des Wirkens gekoppelt bleibt.</p>
+          <p class="vb-intro">Oprah Winfrey hat wiederholt betont, dass ihr eigentliches Ziel nie Reichtum oder Ruhm war, sondern die Frage: <em>Wie kann ich am meisten dienen?</em> Das ist der Stolz der SE2w3 in seiner reifsten Form &ndash; nicht Eitelkeit, sondern die tiefe Überzeugung, gebraucht zu werden, verbunden mit dem unternehmerischen Willen, diese Wirkung so groß wie möglich zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Trauma zur Stimme: Die eigene Geschichte als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Oprah Winfrey hat ihre eigene Kindheit &ndash; Armut, sexueller Missbrauch, eine Teenagerschwangerschaft, den frühen Tod ihres Sohnes &ndash; nie versteckt, sondern immer wieder öffentlich gemacht. Für eine SE2 ist das keine Schwäche, sondern Strategie: Die eigene verwundbare Geschichte wird zum Beweis, dass Heilung möglich ist, und zur Brücke zu Millionen Menschen, die sich in ihr wiedererkennen.</p>
+          <p class="vb-intro">Diese Offenheit machte sie zu weit mehr als einer Talkshow-Moderatorin &ndash; zu einer Instanz, die über Bücher, Therapie, Spiritualität und Selbstermächtigung sprach, lange bevor diese Themen im Mainstream ankamen. Das Flusspferd, das selbst um sein Überleben kämpfen musste, kennt den Wert eines sicheren Ufers &ndash; und baute eines für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Empathie im großen Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Oprah Winfrey der Welt gegeben hat, lässt sich kaum in Zahlen fassen, auch wenn die Zahlen beeindruckend sind: Milliarden an Reichweite, Bildungsprojekte, die tausende Leben verändert haben, eine Kultur des offenen Sprechens über Trauma und Heilung, die sie mitbegründet hat. Sie hat gezeigt, dass Fürsorge und Unternehmertum sich nicht ausschließen &ndash; dass ein Flusspferd sein Revier vergrößern und dabei Raum für andere schaffen kann.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE2w3: Empathie, die sich nicht mit kleinen Gesten zufriedengibt, sondern ein Imperium baut, um so vielen Menschen wie möglich zu helfen. Oprah Winfrey hat aus der eigenen Not ein Werkzeug gemacht, das Millionen trägt. Das Flusspferd hat sein Revier gefunden &ndash; und es ist größer geworden, als irgendjemand für möglich gehalten hätte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-jack-black", label:"Porträt: Jack Black (SE2w1)"},
       ])}
     </div>
   `);
@@ -42195,6 +42266,7 @@ function render() {
       "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
+      "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,

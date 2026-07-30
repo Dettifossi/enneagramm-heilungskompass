@@ -224,6 +224,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jan Ullrich – Self-Preservation Type 2",
     teaser:"SP2w3 · born 1973. Cyclist, Tour de France winner 1997, Olympic champion 2000. Five times runner-up behind Armstrong – never gave up. The hippopotamus needs its water. Animal correspondence: Hippopotamus.",
     tags:["Sport"] },
+  { route:"beruehmte-oprah-winfrey", name:"Oprah Winfrey", added:"2026-07-30", subtyp:"SE2w3",
+    heading:"Oprah Winfrey – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1954. TV host, entrepreneur, philanthropist. From trauma to media empire – care at scale, entrepreneurial will without compromise. Animal correspondence: Hippopotamus.",
+    tags:["Medien","Business"] , gender:"f"},
   { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Social Type 2",
     teaser:"SO2w1 · born 1961. 44th US President, community organizer, Nobel Peace Prize laureate. Yes We Can – not a message about Obama, but about what we can make possible together. Animal correspondence: Golden Retriever.",
@@ -16240,6 +16244,73 @@ function uliHoenessPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function oprahWinfreyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-oprah-winfrey-portrait.jpg" alt="Oprah Winfrey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oprah Winfrey</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">TV host, entrepreneur & philanthropist, b. 1954 – Animal equivalent: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The hippopotamus is the animal of the Self-Preservation Two, and Oprah Winfrey carries its double nature with rare clarity. The hippopotamus appears warm, round, approachable, and is at the same time one of the most powerful animals in its habitat, defending its territory with absolute determination. Whoever believes warmth and power exclude each other has not understood the hippopotamus.</p>
+          <p class="vb-intro">Oprah Winfrey grew up in poverty in Mississippi, experienced abuse and neglect in her childhood, and built out of that one of the most influential media empires in the world. This is not an ordinary rags-to-riches story. It is the story of a hippopotamus that first had to fight for its own territory before it began creating space for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care as Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Self-Preservation Two (SP2) directs the energy of Type Two most directly toward its own survival and toward what is closest to it. Naranjo calls this subtype "Me First": not selfishness, but the insight that one must be viable oneself first in order to carry others. The SP2 is concrete, grounded, immediate—it cares not abstractly, but with its own hands, its own voice, its own presence.</p>
+          <p class="vb-intro">In Oprah Winfrey, this shows in the way she reinvented talk-show television: she did not sit at a distance from her guests, she cried with them, touched them, shared her own wounds. <em>The Oprah Winfrey Show</em> became the biggest talk format in US history because she did not simulate care but lived it—directly, physically, unfiltered.</p>
+          <p class="vb-intro">Her commitment also reaches beyond the cameras: founding the Oprah Winfrey Leadership Academy for Girls in South Africa, millions in donations for education, her personal involvement for individuals in need. The SP2 does not care from a distance. It goes where the need is and takes action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: The Will to Build an Empire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three wing (w3) gives the Self-Preservation Two something the pure Two does not bring on its own: the hunger for measurable success, for growth, for proof that one's own work carries weight. The Three thinks in reach, in numbers, in results. Combined with the SP2, it creates someone who is simultaneously deeply compassionate and strategically relentless.</p>
+          <p class="vb-intro">Oprah Winfrey built a single talk show into a media empire: Harpo Productions, her own network OWN, a magazine, a book club that shaped entire bestseller lists. She became the first Black billionaire in North America, not through inheritance, but through her own entrepreneurial force. The Three wing permits no half-measures. It asks: how much further can this grow? How many more people can this reach?</p>
+          <p class="vb-intro">This wing also has its price. The Three wing of the SP2 tends to equate worth with impact: I am what I achieve, how many I reach. Oprah Winfrey has spoken openly about the pressure to always achieve more, a hippopotamus that keeps expanding its territory instead of simply inhabiting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Pride as Drive and as Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of Type Two is pride, and in the SP2w3, this pride is directed at what was created: the empire built through her own strength, the reach her words and her compassion have achieved. This pride is earned, and it becomes a trap when self-worth stays tied to the scale of one's impact.</p>
+          <p class="vb-intro">Oprah Winfrey has repeatedly said that her actual goal was never wealth or fame, but the question: <em>How can I serve the most?</em> That is the pride of the SP2w3 in its most mature form, not vanity, but the deep conviction of being needed, combined with the entrepreneurial will to make that impact as large as possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From Trauma to Voice: Her Own Story as a Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Oprah Winfrey has never hidden her own childhood, poverty, sexual abuse, a teenage pregnancy, the early death of her son, and instead made it public again and again. For an SP2, that is no weakness but strategy: her own vulnerable story becomes proof that healing is possible, and a bridge to millions of people who recognize themselves in her.</p>
+          <p class="vb-intro">This openness made her far more than a talk-show host, an authority who spoke about books, therapy, spirituality, and self-empowerment long before these topics reached the mainstream. The hippopotamus that had to fight for its own survival knows the value of a safe shore, and built one for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Empathy at Scale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Oprah Winfrey has given the world can hardly be captured in numbers, even though the numbers are impressive: billions in reach, education projects that have changed thousands of lives, a culture of speaking openly about trauma and healing that she helped establish. She has shown that care and entrepreneurship do not exclude each other, that a hippopotamus can expand its territory while creating room for others within it.</p>
+          <p class="vb-intro">That is the gift of the SP2w3: empathy that does not settle for small gestures but builds an empire to help as many people as possible. Oprah Winfrey turned her own hardship into a tool that carries millions. The hippopotamus has found its territory, and it has grown larger than anyone thought possible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
       ])}
     </div>
   `);
@@ -39234,6 +39305,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
+      "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
