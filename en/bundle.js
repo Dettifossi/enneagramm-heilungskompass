@@ -13017,8 +13017,15 @@ function beruehmtePersoenlichkeitenPage() {
     if (BERUEHMT_PORTRAITS.length === 0) {
       return '<p style="color:var(--muted);font-style:italic;padding:2rem 0;">The first portraits will be added shortly.</p>';
     }
+    const codeOrder = {};
+    allCodes.forEach(function(c, i) { codeOrder[c] = i; });
+    const sortedPortraits = BERUEHMT_PORTRAITS.slice().sort(function(a, b) {
+      const ca = (a.subtyp||'').substring(0,3).toUpperCase();
+      const cb = (b.subtyp||'').substring(0,3).toUpperCase();
+      return (codeOrder[ca] !== undefined ? codeOrder[ca] : 999) - (codeOrder[cb] !== undefined ? codeOrder[cb] : 999);
+    });
     let lastCode = null, out = '';
-    BERUEHMT_PORTRAITS.forEach(function(p) {
+    sortedPortraits.forEach(function(p) {
       const code = (p.subtyp||'').substring(0,3).toUpperCase();
       if (code && code !== lastCode) {
         if (lastCode !== null) {
