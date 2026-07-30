@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "357";
+const APP_BUILD = "358";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
