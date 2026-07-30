@@ -13,6 +13,7 @@ export const registerEntries = [
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
   { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagramm-Typen und astrologischen Zeichen" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
+  { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "Filmtipps pro Subtyp – Typ 1 (SE1/SO1/SX1) verfügbar, weitere Typen folgen" },
 
   // David & Detlef Rathmer – Videos & Seiten
   { term: "David Rathmer – Erfolgsinterviews", route: "david-rathmer-erfolgsinterviews", description: "David L. Rathmer: Interviews mit Unternehmer-Persönlichkeiten aus Enneagramm-Perspektive" },

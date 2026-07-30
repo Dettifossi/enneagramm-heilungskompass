@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "363";
+const APP_BUILD = "364";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -849,12 +849,138 @@ function enneagrammKunstTypPage(n) {
   `);
 }
 
+const ENNEAGRAMM_FILME = {
+  "SE1": {
+    typ: 1, instinkt: "SE", animal: "Adler",
+    title: "SE1 – Selbsterhaltungstyp 1: Der Adler in den eigenen vier Wänden",
+    intro: "Zehn Filme über die Sorge um das eigene richtige Leben – Ordnung, Selbstdisziplin und Wärme, die sich hinter Strenge verbirgt.",
+    filme: [
+      { title:"Phantom Thread", year:"2017", text:"Ein Modeschöpfer, dessen ganzes Leben von Ritualen und Regeln getragen wird – Perfektion nicht als Show, sondern als tägliche Selbstverpflichtung. So lebt die SE1 ihre Ordnung: leise, unerbittlich, nach innen gerichtet." },
+      { title:"The Intern", year:"2015", text:"Ben, gespielt als Mann der alten Schule, verkörpert Anstand, Verlässlichkeit und Zurückhaltung, ohne belehrend zu wirken. Genau diese stille moralische Klarheit ist die SE1-Signatur." },
+      { title:"Julie & Julia", year:"2009", text:"Julia Childs jahrelange, akribische Hingabe an die korrekte Technik – nicht für Applaus, sondern weil es richtig gemacht werden muss. Ein Musterbild selbsterhaltender Einser-Disziplin." },
+      { title:"Sully", year:"2016", text:"Captain Sullenberger unterzieht sich nach seiner Heldentat einer gnadenlosen Selbstprüfung, ob er wirklich alles richtig gemacht hat. Die SE1 misst sich an einem inneren Standard, den niemand sonst sieht." },
+      { title:"A Man Called Otto", year:"2022", text:"Otto lebt nach strengen, selbst auferlegten Regeln – Mülltrennung, Pünktlichkeit, Ordnung –, unter denen sich zunehmend Wärme zeigt. Die typische SE1-Bewegung: von der Strenge zur stillen Zuneigung." },
+      { title:"Miss Potter", year:"2006", text:"Beatrix Potters diszipliniertes, zurückgezogenes Arbeitsleben, das sich in kleinen, sorgfältig ausgeführten Werken ausdrückt. Die SE1 sucht Vollkommenheit im überschaubaren, eigenen Bereich." },
+      { title:"The Best Exotic Marigold Hotel", year:"2011", text:"Muriels scharfe, unnachgiebige Urteilskraft, die sich im Lauf des Films als tief verwurzelter Ordnungssinn statt bloßer Härte entpuppt – ein SE1-Bogen in Reinform." },
+      { title:"Amour", year:"2012", text:"Georges' diszipliniertes, stilles Pflichtgefühl gegenüber seiner erkrankten Frau, ohne große Gesten, ohne Klage. Verantwortung als tägliche, selbstauferlegte Übung." },
+      { title:"Little Women", year:"2019", text:"Marmees zurückhaltende moralische Standhaftigkeit, die ihre Töchter durch Vorbild statt durch Predigt erzieht. Die SE1 lehrt durch die eigene Lebensführung." },
+      { title:"The Remains of the Day", year:"1993", text:"Der Butler Stevens, dessen gesamtes Leben in Pflichterfüllung und korrektem Verhalten aufgeht, bis er die eigene emotionale Kälte erkennt. Ein Klassiker – zeigt die SE1-Falle so klar wie kein Film danach." },
+    ],
+  },
+  "SO1": {
+    typ: 1, instinkt: "SO", animal: "Gans",
+    title: "SO1 – Sozialer Typ 1: Die Gans als Reformerin der Gesellschaft",
+    intro: "Zehn Filme über den Kampf für das Richtige im großen Maßstab – Gerechtigkeit, Reform und moralische Führung.",
+    filme: [
+      { title:"Erin Brockovich", year:"2000", text:"Eine Frau, die einen ganzen Konzern für sein Unrecht zur Rechenschaft zieht – Gerechtigkeitssinn, der sich nicht mit Teillösungen zufriedengibt. Die SO1-Energie in ihrer kämpferischsten Form." },
+      { title:"Spotlight", year:"2015", text:"Ein Journalistenteam, das systematisches Unrecht in einer Institution aufdeckt, unbeirrt von Widerstand aus dem eigenen sozialen Umfeld. Reform als journalistische Pflicht." },
+      { title:"Dark Waters", year:"2019", text:"Ein Anwalt, der über Jahre gegen einen übermächtigen Konzern kämpft, weil das Richtige getan werden muss, komme was wolle. Die SO1 gibt nicht auf, wenn das System versagt." },
+      { title:"The Report", year:"2019", text:"Ein Ermittler, der einen 6.000-seitigen Bericht über staatliches Fehlverhalten durchsetzt, gegen jeden politischen Widerstand. Prinzipientreue als Beruf." },
+      { title:"Milk", year:"2008", text:"Harvey Milks Kampf für gesellschaftliche Gleichberechtigung, öffentlich, unermüdlich, mit dem Anspruch, die Gesellschaft insgesamt zu verändern." },
+      { title:"Suffragette", year:"2015", text:"Frauen, die für ihr Wahlrecht kämpfen, obwohl der Preis persönlich hoch ist – Reform, der man sich mit dem ganzen Leben verschreibt." },
+      { title:"The Post", year:"2017", text:"Eine Zeitung, die gegen den Druck der Regierung auf ihrem Recht besteht, die Wahrheit zu veröffentlichen. Öffentliche Verantwortung über persönliche Sicherheit gestellt." },
+      { title:"Selma", year:"2014", text:"Martin Luther Kings organisierter, disziplinierter Kampf für Bürgerrechte – Reform als strukturierte, durchgehaltene Bewegung, nicht als spontaner Ausbruch." },
+      { title:"Trumbo", year:"2015", text:"Ein Drehbuchautor, der auf seinen Prinzipien beharrt, während eine ganze Industrie ihn dafür bestraft. Standhaftigkeit als Widerstand." },
+      { title:"On the Basis of Sex", year:"2018", text:"Der jahrzehntelange juristische Kampf für Gleichberechtigung vor dem Gesetz – Reform, Schritt für Schritt, Fall für Fall erstritten." },
+    ],
+  },
+  "SX1": {
+    typ: 1, instinkt: "SX", animal: "Schwarze Mamba",
+    title: "SX1 – Sexueller Typ 1: Die Schwarze Mamba und die eine Sache",
+    intro: "Zehn Filme über brennende, kompromisslose Intensität in der einen Beziehung, der einen Sache – inklusive zweier Rollen von Schauspielern, die im Kompass selbst als SX1 geführt werden.",
+    filme: [
+      { title:"Aguirre, der Zorn Gottes", year:"1972", text:"Klaus Kinski – im Kompass selbst als SX1w9 geführt – spielt einen besessenen Eroberer, der sich mit messianischer Gewissheit gegen den ganzen Dschungel stellt. Kaum eine Rolle verkörpert die SX1-Intensität so unmittelbar wie diese." },
+      { title:"The Revenant", year:"2016", text:"Leonardo DiCaprio – im Kompass als SX1w2 geführt – als Mann, dessen gesamtes Überleben sich auf einen einzigen, unerbittlichen Fokus reduziert: Vergeltung. Die SX1 kennt keine halben Ziele." },
+      { title:"Whiplash", year:"2014", text:"Ein Lehrer, dessen kompromisslose, fast zerstörerische Hingabe an einen einzigen Schützling keine Nachsicht kennt. Die Schwarze Mamba akzeptiert kein Mittelmaß, auch nicht im Namen der Liebe." },
+      { title:"Carol", year:"2015", text:"Eine besitzergreifende, alles verzehrende Liebe, die sich über gesellschaftliche Konventionen hinwegsetzt. SX1-Intensität als Widerstand gegen die Regeln der Welt." },
+      { title:"Marriage Story", year:"2019", text:"Zwei Menschen, die noch im Zerfall ihrer Ehe von der eigenen moralischen Gewissheit nicht lassen können. Die SX1 kämpft um Wahrheit, selbst wenn sie verletzt." },
+      { title:"Phantom Thread", year:"2017", text:"Kontrolle, Eifersucht und Hingabe in einer einzigen, obsessiven Zweierbeziehung – niemand sonst zählt, solange diese eine Verbindung ungeklärt bleibt." },
+      { title:"Little Children", year:"2006", text:"Eine Affäre, getragen von der Überzeugung, im Recht zu sein – moralische Selbstgerechtigkeit als Deckmantel der eigenen Leidenschaft." },
+      { title:"Blue Valentine", year:"2010", text:"Die Intensität einer Liebe, die an den eigenen unerreichbaren Ansprüchen zerbricht. Enttäuschung als Kehrseite der SX1-Hingabe." },
+      { title:"Nosferatu", year:"1979", text:"Klaus Kinski erneut, diesmal als tragische, besessene Figur, deren ganzes Wesen sich um eine einzige, unstillbare Sehnsucht dreht." },
+      { title:"A Star Is Born", year:"2018", text:"Bedingungslose Hingabe an einen Menschen und eine gemeinsame Sache, bis zur Selbstaufgabe. Die SX1 liebt ganz oder gar nicht." },
+    ],
+  },
+};
+// ─── Enneagramm Filme ───────────────────────────────────────────────────────
+
+function enneagrammFilmeUebersichtPage() {
+  const tile = n => {
+    const col = TYPE_COLORS[n] || "var(--copper)";
+    const hasData = ["SE"+n,"SO"+n,"SX"+n].some(c => ENNEAGRAMM_FILME[c]);
+    if (!hasData) {
+      return `<div class="kf-card" style="padding:1rem;border-radius:12px;border:1.5px dashed var(--border);background:var(--bg);opacity:0.6;">
+        <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">Typ ${n}</div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--muted);">In Kürze verfügbar</div>
+      </div>`;
+    }
+    return `<div class="kf-card" data-route="enneagramm-filme-typ-${n}" onclick="go('enneagramm-filme-typ-${n}')"
+      style="cursor:pointer;padding:1rem;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">Typ ${n}</div>
+      <div style="font-weight:700;font-size:0.95rem;color:var(--ink);">30 Filme · SE, SO, SX</div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm-Filmempfehlungen')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm-Filmempfehlungen</h1>
+      <p class="psycho-intro">Neun Typen, 27 Subtypen – und die Filme, die ihre Themen greifbar machen. Pro Subtyp zehn Filme, die Leidenschaft, Fixierung oder Heilungsweg spiegeln. Wo möglich, mit Rollen von Schauspieler:innen, die im Kompass selbst diesem Subtyp zugeordnet sind – die vermutlich stimmigste Darstellung. Wir bauen diese Rubrik Typ für Typ aus.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(tile).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-kunst", label:"Enneagramm-Kunstgalerie"},
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammFilmeTypPage(n) {
+  const col = TYPE_COLORS[n] || "var(--copper)";
+  const codes = ["SE"+n, "SO"+n, "SX"+n];
+  const subtypBlock = code => {
+    const d = ENNEAGRAMM_FILME[code];
+    if (!d) return `<div class="kf-card" style="padding:1rem;border-radius:12px;border:1.5px dashed var(--border);opacity:0.6;margin-bottom:1.2rem;">
+        <div style="font-weight:700;color:var(--muted);">${code} – in Kürze verfügbar</div>
+      </div>`;
+    const filmCard = f => `<div class="kf-card" style="padding:0.9rem 1.1rem;border-radius:10px;border:1px solid var(--border);background:var(--ivory);">
+        <div style="font-weight:700;font-size:0.95rem;color:var(--ink);margin-bottom:0.15rem;">${f.title} <span style="font-weight:400;color:${col};">&middot; ${f.year}</span></div>
+        <p class="vb-intro" style="margin:0;font-size:0.88rem;">${f.text}</p>
+      </div>`;
+    return `<div style="margin-bottom:1.8rem;">
+        <h2 class="vb-section" style="color:${col};">${d.title}</h2>
+        <p class="vb-intro" style="margin:0 0 0.8rem;font-style:italic;">${d.intro}</p>
+        <div style="display:flex;flex-direction:column;gap:0.6rem;">
+          ${d.filme.map(filmCard).join('')}
+        </div>
+      </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm-Filmempfehlungen')}
+      <div id="js-back-target" data-route="enneagramm-filme" style="display:none;"></div>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Filme zu Typ ${n}</h1>
+      ${codes.map(subtypBlock).join('')}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-filme", label:"Alle 9 Typen"},
+        {route:"type/" + n, label:"Zum Typ " + n + " im Kompass"},
+        {route:"enneagramm-kunst", label:"Enneagramm-Kunstgalerie"},
+      ])}
+    </div>
+  `);
+}
+
 // NEU-Markierungen für Schaubilder: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -42631,6 +42757,8 @@ function render() {
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
+      "enneagramm-filme": enneagrammFilmeUebersichtPage,
+      ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-filme-typ-"+n, () => enneagrammFilmeTypPage(n)])),
       "persoenlichkeitsmodelle-vergleich": persoenlichkeitsmodelleVergleichPage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,

@@ -5158,6 +5158,7 @@ export const uiText = {
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Hom\xf6opathie" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
+      { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
