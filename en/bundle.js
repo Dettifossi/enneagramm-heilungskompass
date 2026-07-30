@@ -232,6 +232,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Barack Obama – Social Type 2",
     teaser:"SO2w1 · born 1961. 44th US President, community organizer, Nobel Peace Prize laureate. Yes We Can – not a message about Obama, but about what we can make possible together. Animal correspondence: Golden Retriever.",
     tags:["Politik"] },
+  { route:"beruehmte-marisa-abela", name:"Marisa Abela", added:"2026-07-30", subtyp:"SO2w1",
+    heading:"Marisa Abela – Social Type 2",
+    teaser:"SO2w1 · born 1996. Actress, Industry, Back to Black. Ensemble feeling and preparation discipline – the Golden Retriever that earns connection through care. Animal correspondence: Golden Retriever.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-nina-chuba", name:"Nina Chuba", subtyp:"SO2w3",
     heading:"Nina Chuba – Social Type 2",
     teaser:"SO2w3 · born 2000. Singer, songwriter. With Wildberry Lillet she captured a feeling millions recognize. Closeness instead of performance – music as a space where no one is alone. Animal correspondence: Golden Retriever.",
@@ -20040,6 +20044,73 @@ function barackObamaPortraitPage() {
 }
 
 
+function marisaAbelaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marisa-abela-portrait.jpg" alt="Marisa Abela" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marisa Abela</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1996 – Industry, Back to Black – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, attentive to what a room needs. The Golden Retriever does not push itself forward, it is simply present, attuned, ready. And when things get serious, it becomes clear that behind the warmth lies remarkable stamina.</p>
+          <p class="vb-intro">Marisa Abela, born in 1996 in London, has grown in just a few years from supporting roles to celebrated lead performances, not through volume, but through a presence that binds directors and audiences alike. Those who work with her describe someone who reads a room before she enters it, and who knows exactly what a scene, an ensemble, a moment needs right now.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Belonging as Drive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs the energy of the Two not toward single personal bonds, but toward the larger field: group, ensemble, community, social impact. Naranjo calls this subtype <em>Ambition</em>, not ambition for its own sake, but the drive to accomplish more for the whole through influence and belonging. The SO2 asks: <em>How can I become indispensable within this community?</em></p>
+          <p class="vb-intro">In Marisa Abela this shows in her work on the HBO series <em>Industry</em>, where she plays a young investment banker fighting to hold her ground in a ruthless, male-dominated environment. Abela has repeatedly stressed in interviews how important the ensemble feeling was to her on set, the conviction that a series is only as strong as how well the whole cast plays together. That is SO2 logic: success is not won alone, but carried together.</p>
+          <p class="vb-intro">Her preparation for the role of Amy Winehouse in <em>Back to Black</em> carried the same signature: months of vocal training, immersing herself personally in Winehouse's music and world, trying not just to imitate a figure but to build a connection to her that would feel genuine to the audience. The social Two does not simply want to be seen, it wants the connection between itself and the people it touches to remain felt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: Discipline as an Expression of Respect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis the pure Two does not have on its own: the wish to do it right, not merely to be agreeable. Where the pure SO2 might lose itself in approval, the One demands care, preparation, seriousness toward the task itself.</p>
+          <p class="vb-intro">In Marisa Abela this wing shows in her remarkable work discipline: months of training for the Winehouse role, meticulous preparation of technical jargon for <em>Industry</em>, the standard of not merely playing a role but doing it justice. That is not vanity, it is the conviction that one owes something to the people one portrays and to the audience watching.</p>
+          <p class="vb-intro">Even in the controversy over her casting as Amy Winehouse, criticism that the resemblance was not close enough, Abela responded not with withdrawal or defiance, but with a calm, factual defense of her work. That is the SO2w1: the warmth of the Two combined with the inner straightforwardness of the One, who knows what she has accomplished.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 is its ability to give itself fully to a community, a project, a role, while keeping a standard of quality that goes beyond mere people-pleasing. Marisa Abela has repeatedly been described by colleagues as a generous, highly professional actress who strengthens an ensemble rather than subordinating herself to it.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong>, the deep need to be needed and valued. In the SO2w1 this shows as the quiet worry of not having done well enough, combined with the standard of doing better than expected. This combination drives exceptional performance, but it can also exhaust when self-worth stays too tightly bound to recognition from others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Between Ensemble and Lead Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shift from the ensemble series <em>Industry</em> to the leading role in <em>Back to Black</em> presented Marisa Abela with a new challenge: suddenly the responsibility for an entire film rested on her shoulders, no longer shared with a cast. The SO2w1 meets this shift not with retreat, but with even more preparation, even more care, as if she had to prove herself worthy of the trust placed in her.</p>
+          <p class="vb-intro">The social orientation remains visible throughout: in interviews she speaks often of her responsibility toward Amy Winehouse's memory, toward her family and fans, rarely only about her own performance. The Golden Retriever carries the attention of others with humility, not with pride in itself alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Connection with Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Marisa Abela brings to her work is a rare combination: the warmth that holds an ensemble together, and the discipline that carries a role. That is the gift of the SO2w1, a Golden Retriever that does not merely want to please, but knows that real connection only forms when you make the effort to earn it.</p>
+          <p class="vb-intro">In an industry that often rewards self-promotion, Abela stands out for the opposite: her willingness to submit to an ensemble, a character, a standard, and to grow precisely through that. The Golden Retriever does not run ahead to be admired. It runs because it is needed, and that is enough for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function ninaChubaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39251,6 +39322,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
+      "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
