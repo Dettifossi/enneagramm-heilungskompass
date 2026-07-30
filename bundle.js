@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "365";
+const APP_BUILD = "366";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -950,6 +950,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Notting Hill", year:"1999", text:"Die Verführungskraft ungeteilter Aufmerksamkeit, die sich ganz auf eine einzige Person richtet." },
       { title:"500 Days of Summer", year:"2009", text:"Die Sehnsucht, für eine bestimmte Person unwiderstehlich und unvergesslich zu sein." },
       { title:"A Star Is Born", year:"2018", text:"Verführung durch bedingungslose künstlerische und persönliche Hingabe an einen einzigen Menschen." },
+    ],
+  },
+  "SE3": {
+    typ: 3, instinkt: "SE", animal: "Waschbär",
+    title: "SE3 – Selbsterhaltungstyp 3: Der Waschbär, der funktioniert",
+    intro: "Zehn Filme über Wert, der sich durch handfeste Leistung und Absicherung beweist – Identität, die sich am eigenen Funktionieren misst.",
+    filme: [
+      { title:"Joy", year:"2015", text:"Eine Frau, die ihren Wert ausschließlich über wirtschaftlichen Erfolg und funktionierende Selbstständigkeit beweisen muss – keine Zeit für Zweifel, nur für Ergebnisse." },
+      { title:"The Founder", year:"2016", text:"Eine Identität, die sich vollständig über die eigene unternehmerische Leistungsfähigkeit definiert – Beziehungen werden dem Erfolg untergeordnet." },
+      { title:"Moneyball", year:"2011", text:"Pragmatischer, nüchterner Erfolg als Existenzsicherung, ganz ohne Glanz – Funktionieren wichtiger als Wirkung." },
+      { title:"Molly's Game", year:"2017", text:"Kontrolle über die eigene Leistungsfähigkeit als einzige verlässliche Grundlage, wenn alles andere wegbricht." },
+      { title:"The Pursuit of Happyness", year:"2006", text:"Überleben durch reine Funktionstüchtigkeit – Erfolg nicht als Statussymbol, sondern als nacktes Existenzminimum." },
+      { title:"Nomadland", year:"2020", text:"Ein Leben, das sich neu organisiert, um trotz Verlust arbeitsfähig und eigenständig zu bleiben." },
+      { title:"Wall Street: Money Never Sleeps", year:"2010", text:"Wiederaufbau der eigenen Reputation und finanziellen Sicherheit nach dem Fall – Wert durch Wiederherstellung." },
+      { title:"The Intern", year:"2015", text:"Ein Mann, der seinen Wert über verlässliche Arbeitsfähigkeit definiert, auch im Ruhestand." },
+      { title:"Erin Brockovich", year:"2000", text:"Eine Frau, die sich beweisen muss, indem sie handfest liefert – Anerkennung nicht durch Titel, sondern durch Ergebnisse." },
+      { title:"The Devil Wears Prada", year:"2006", text:"Funktionieren unter extremem Leistungsdruck als Eintrittspreis für beruflichen Wert und Sicherheit." },
+    ],
+  },
+  "SO3": {
+    typ: 3, instinkt: "SO", animal: "Gepard",
+    title: "SO3 – Sozialer Typ 3: Der Gepard im Rampenlicht der Gruppe",
+    intro: "Zehn Filme über Prestige, öffentliche Anerkennung und die Frage, wer man ist, wenn niemand zusieht.",
+    filme: [
+      { title:"The Social Network", year:"2010", text:"Prestige, öffentliche Anerkennung und Status als zentraler Lebensmotor – Erfolg, gemessen an gesellschaftlicher Sichtbarkeit." },
+      { title:"I, Tonya", year:"2017", text:"Der erbitterte Kampf um gesellschaftliche Anerkennung trotz Herkunft – Leistung, die immer auch Beweis sein muss." },
+      { title:"Tár", year:"2022", text:"Öffentliches Prestige und Reputation als Identität – und der Absturz, wenn das Bild zu bröckeln beginnt." },
+      { title:"Miss Americana", year:"2020", text:"Ein öffentliches Image als Existenzgrundlage und die schrittweise Suche nach dem, was darunter liegt." },
+      { title:"Whiplash", year:"2014", text:"Ein Ensemble, das Leistung zum einzigen Maßstab von Zugehörigkeit macht – Anerkennung nur durch messbaren Erfolg." },
+      { title:"La La Land", year:"2016", text:"Der öffentliche Traum vom Erfolg, der zwischen persönlicher Bindung und gesellschaftlichem Prestige abgewogen werden muss." },
+      { title:"Bohemian Rhapsody", year:"2018", text:"Öffentliches Image und Bühnenpräsenz als Mittel, gesellschaftliche Anerkennung zu erringen – und die Suche nach Echtheit dahinter." },
+      { title:"Rocketman", year:"2019", text:"Der Aufstieg zum öffentlichen Erfolgsbild und der hohe persönliche Preis, der dafür gezahlt wird." },
+      { title:"The Greatest Showman", year:"2017", text:"Erfolg als öffentliches Spektakel, das gesellschaftliche Anerkennung um jeden Preis sucht." },
+      { title:"Ford v Ferrari", year:"2019", text:"Prestige und öffentlicher Ruf eines Unternehmens, für den persönliche Integrität immer wieder verhandelt werden muss." },
+    ],
+  },
+  "SX3": {
+    typ: 3, instinkt: "SX", animal: "Pfau",
+    title: "SX3 – Sexueller Typ 3: Der Pfau und die eine Bühne",
+    intro: "Zehn Filme über persönliches Charisma, das eine Beziehung oder ein Publikum ganz für sich einnehmen will.",
+    filme: [
+      { title:"Kate & Leopold", year:"2001", text:"Meg Ryan – im Kompass als SX3w4 geführt – von der charismatischen Ausstrahlung einer Figur eingenommen, die den Raum füllt, sobald sie ihn betritt." },
+      { title:"You've Got Mail", year:"1998", text:"Meg Ryan erneut, deren persönlicher Charme selbst durch anonyme Kommunikation hindurch wirkt." },
+      { title:"In the Cut", year:"2003", text:"Meg Ryan in einer dunkleren Rolle – Identität, die eng an die eigene Anziehungskraft gekoppelt ist." },
+      { title:"A Star Is Born", year:"2018", text:"Charismatischer Aufstieg im Rampenlicht, bei dem die eigene Bühnenpräsenz zur Identität wird." },
+      { title:"Elvis", year:"2022", text:"Charisma als Lebenskraft, die eine ganze Bühne und ein ganzes Publikum an sich bindet." },
+      { title:"Walk the Line", year:"2005", text:"Persönliche Anziehungskraft, die sich in einer einzigen, alles überstrahlenden Beziehung bündelt." },
+      { title:"Ray", year:"2004", text:"Bühnenpräsenz als Ausdruck einer Identität, die sich vor allem im direkten, intensiven Kontakt mit dem Publikum vollständig zeigt." },
+      { title:"Coyote Ugly", year:"2000", text:"Persönlicher Glanz und Ausstrahlung als Weg, gesehen und begehrt zu werden." },
+      { title:"Burlesque", year:"2010", text:"Die Bühne als Ort, an dem charismatische Präsenz zur einzig wahren Form der Selbstbestätigung wird." },
+      { title:"Crazy Heart", year:"2009", text:"Charisma, das trotz persönlichem Verfall noch immer eine einzige, intensive Verbindung zum Publikum herstellen kann." },
     ],
   },
 };
