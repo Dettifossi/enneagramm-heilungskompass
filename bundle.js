@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "370";
+const APP_BUILD = "371";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1205,6 +1205,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Chef", year:"2014", text:"Leidenschaft und Begeisterung, die im persönlichen Kontakt unmittelbar überspringt." },
       { title:"About Time", year:"2013", text:"Enthusiasmus und Hingabe, die sich ganz auf die eine besondere Verbindung richten." },
       { title:"La La Land", year:"2016", text:"Charismatische, mitreißende Begeisterung, die zwei Menschen füreinander entflammen lässt." },
+    ],
+  },
+  "SE8": {
+    typ: 8, instinkt: "SE", animal: "Orang-Utan",
+    title: "SE8 – Selbsterhaltungstyp 8: Der Orang-Utan und das gesicherte Territorium",
+    intro: "Zehn Filme über handfeste Kontrolle über Ressourcen und den engsten Kreis – Stärke, die vor allem das eigene Überleben und das der Nächsten sichert.",
+    filme: [
+      { title:"King Richard", year:"2021", text:"Ein Vater, dessen ganze Kraft der handfesten, kompromisslosen Absicherung der Zukunft seiner Töchter gilt." },
+      { title:"There Will Be Blood", year:"2007", text:"Kontrolle über Land und Ressourcen als Lebensinhalt – Stärke, die keine Rücksicht auf andere kennt." },
+      { title:"American Gangster", year:"2007", text:"Aufbau und Verteidigung eines eigenen wirtschaftlichen Territoriums mit unerbittlicher Härte." },
+      { title:"Killers of the Flower Moon", year:"2023", text:"Kontrolle über Land und Vermögen, durchgesetzt mit rücksichtsloser Härte im engsten familiären Umfeld." },
+      { title:"The Irishman", year:"2019", text:"Loyalität und Härte im Dienst der eigenen wirtschaftlichen und familiären Absicherung." },
+      { title:"Hell or High Water", year:"2016", text:"Der Kampf, das eigene Land und die eigene Familie gegen den drohenden Verlust zu verteidigen." },
+      { title:"Wind River", year:"2017", text:"Beschützerische Härte, die vor allem dem eigenen, nahen Umfeld gilt." },
+      { title:"Mudbound", year:"2017", text:"Der erbitterte Kampf um Land und Überleben in einer feindlichen Umgebung." },
+      { title:"The Town", year:"2010", text:"Kontrolle über das eigene Terrain, erkämpft und verteidigt mit roher Entschlossenheit." },
+      { title:"A Simple Plan", year:"1998", text:"Der Wunsch nach materieller Absicherung, der eine Figur zu immer härteren Mitteln greifen lässt." },
+    ],
+  },
+  "SO8": {
+    typ: 8, instinkt: "SO", animal: "Löwe",
+    title: "SO8 – Sozialer Typ 8: Der Löwe im Schutz der Gemeinschaft",
+    intro: "Zehn Filme über Führung, die sich schützend vor eine unterdrückte Gruppe stellt – Stärke im Dienst der Solidarität, nicht der eigenen Macht.",
+    filme: [
+      { title:"They Call Me Trinity", year:"1970", text:"Bud Spencer – im Kompass als SO8w9 geführt – als kraftvoller Beschützer einer bedrängten Gemeinschaft gegen einen übermächtigen Gegner." },
+      { title:"The Hunger Games", year:"2012", text:"Eine Figur, die sich zur Anführerin einer unterdrückten Bevölkerung entwickelt, weil sie sich nicht mit Ungerechtigkeit abfinden kann." },
+      { title:"V for Vendetta", year:"2005", text:"Widerstand gegen eine unterdrückerische Autorität im Namen aller, die selbst keine Stimme haben." },
+      { title:"Black Panther", year:"2018", text:"Führung, die ihre Stärke ganz in den Dienst des Schutzes der eigenen Gemeinschaft stellt." },
+      { title:"Braveheart", year:"1995", text:"Ein Anführer, der sich mit voller Härte gegen eine übermächtige, unterdrückende Autorität stellt." },
+      { title:"Gladiator", year:"2000", text:"Der Kampf gegen korrupte Macht im Namen derer, die sich selbst nicht wehren können." },
+      { title:"Les Misérables", year:"2012", text:"Solidarität mit den Unterdrückten als treibende Kraft gegen ein ungerechtes System." },
+      { title:"Invictus", year:"2009", text:"Führung, die eine gespaltene Gemeinschaft eint und beschützt, statt sie zu beherrschen." },
+      { title:"Judas and the Black Messiah", year:"2021", text:"Revolutionäre Führung im unmittelbaren Dienst und Schutz der eigenen Gemeinschaft." },
+      { title:"Harriet", year:"2019", text:"Unerschrockene, beschützende Führung, die andere aus Unterdrückung befreit." },
+    ],
+  },
+  "SX8": {
+    typ: 8, instinkt: "SX", animal: "Krokodil",
+    title: "SX8 – Sexueller Typ 8: Das Krokodil und die alles verzehrende Bindung",
+    intro: "Zehn Filme über besitzergreifende, kompromisslose Intensität in der einen Beziehung – alles oder nichts.",
+    filme: [
+      { title:"Wuthering Heights", year:"2011", text:"Eine alles verzehrende, besitzergreifende Leidenschaft, die keine Grenzen und keine Vernunft kennt." },
+      { title:"Basic Instinct", year:"1992", text:"Intensität und Kontrolle in einer gefährlichen, kompromisslosen Anziehung." },
+      { title:"Fifty Shades of Grey", year:"2015", text:"Kontrolle und Besitzanspruch als zentrales Thema einer intensiven Zweierbeziehung." },
+      { title:"Body Heat", year:"1981", text:"Eine Leidenschaft, die jede Rücksicht und jede Grenze verschwinden lässt." },
+      { title:"Unfaithful", year:"2002", text:"Eine Intensität, die sich über alle Konsequenzen hinwegsetzt, sobald sie einmal entfacht ist." },
+      { title:"Match Point", year:"2005", text:"Besitzanspruch und Leidenschaft, die bereit sind, für die eine Verbindung alles zu riskieren." },
+      { title:"Gone Girl", year:"2014", text:"Eine Beziehung, in der Kontrolle und Besitzanspruch bis zum Äußersten getrieben werden." },
+      { title:"Original Sin", year:"2001", text:"Bedingungslose, gefährliche Hingabe an eine einzige, alles beherrschende Leidenschaft." },
+      { title:"The Notebook", year:"2004", text:"Eine Liebe, die kompromisslos alles oder nichts fordert – bis zum Ende." },
+      { title:"9½ Weeks", year:"1986", text:"Besitzergreifende Intensität, die eine Beziehung vollständig übernimmt." },
     ],
   },
 };
