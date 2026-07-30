@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kompass Admin – Newsletter</title>
+<style>
+  body { font-family: Georgia, serif; background: #faf8f4; margin: 0; padding: 2rem 1rem; color: #333; }
+  .box { max-width: 560px; margin: 0 auto; }
+  h1 { color: #8a6a1a; font-size: 1.3rem; margin: 0 0 1.5rem; }
+  .karte { background: #fff; border: 2px solid #c9a84c; border-radius: 12px; padding: 1.5rem; }
+  .betreff { font-size: 1.1rem; font-weight: bold; margin-bottom: 1rem; color: #333; }
+  .inhalt { border: 1px solid #e0d5b0; border-radius: 8px; overflow: hidden; margin-bottom: 1.5rem; background: #fff; }
+  iframe { width: 100%; height: 60vh; border: none; }
+  button { background: #4caf50; color: #fff; border: none; padding: .9rem 2rem; border-radius: 8px; font-size: 1.05rem; font-weight: bold; cursor: pointer; width: 100%; }
+  button:disabled { opacity: .5; cursor: default; }
+  button:hover:not(:disabled) { background: #388e3c; }
+  .leer { color: #888; font-style: italic; text-align: center; padding: 2rem 0; }
+  .meldung { padding: .8rem 1rem; border-radius: 8px; margin-top: 1rem; font-size: .95rem; display: none; }
+  .meldung.ok { background: #f0faf0; border: 1px solid #4caf50; color: #2e7d32; }
+  .meldung.err { background: #fff3f3; border: 1px solid #e57373; color: #c62828; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>📧 Kompass Admin – Newsletter</h1>
+  <div id="bereich"><div class="leer">Wird geladen…</div></div>
+</div>
+
+<script>
+const ADMIN_SECRET = "rathmer9";
+const API = "https://enneagramm-heilungskompass.vercel.app/api/newsletter";
+let aktuellerEntwurf = null;
+
+laden();
+
+async function laden() {
+  const bereich = document.getElementById("bereich");
+  bereich.innerHTML = '<div class="leer">Wird geladen…</div>';
+  try {
+    const r = await fetch(`${API}?adminSecret=${encodeURIComponent(ADMIN_SECRET)}`);
+    const data = await r.json();
+    if (!r.ok) {
+      bereich.innerHTML = `<div class="leer">${data.error || "Kein Entwurf gefunden."}</div>`;
+      return;
+    }
+    aktuellerEntwurf = data;
+    bereich.innerHTML = `
+      <div class="karte">
+        <div class="betreff">${data.subject}</div>
+        <div class="inhalt"><iframe srcdoc="${data.htmlContent.replace(/"/g, "&quot;")}"></iframe></div>
+        <button id="btn" onclick="senden()">✓ Jetzt versenden</button>
+        <div class="meldung" id="meldung"></div>
+      </div>`;
+  } catch (e) {
+    bereich.innerHTML = `<div class="leer">Ladefehler: ${e.message}</div>`;
+  }
+}
+
+async function senden() {
+  if (!aktuellerEntwurf) return;
+  if (!confirm(`Newsletter "${aktuellerEntwurf.subject}" jetzt wirklich an alle Empfänger versenden?`)) return;
+
+  const btn = document.getElementById("btn");
+  btn.disabled = true;
+  btn.textContent = "Wird gesendet…";
+
+  try {
+    const r = await fetch(API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ adminSecret: ADMIN_SECRET, campaignId: aktuellerEntwurf.id }),
+    });
+    const data = await r.json();
+    if (r.ok && data.success) {
+      zeigeMeldung("Newsletter wurde versendet! ✓", true);
+      btn.textContent = "Versendet ✓";
+    } else {
+      zeigeMeldung("Fehler: " + (data.error || "Unbekannter Fehler"), false);
+      btn.disabled = false;
+      btn.textContent = "✓ Jetzt versenden";
+    }
+  } catch (e) {
+    zeigeMeldung("Netzwerkfehler: " + e.message, false);
+    btn.disabled = false;
+    btn.textContent = "✓ Jetzt versenden";
+  }
+}
+
+function zeigeMeldung(text, ok) {
+  const el = document.getElementById("meldung");
+  el.textContent = text;
+  el.className = "meldung " + (ok ? "ok" : "err");
+  el.style.display = "block";
+}
+</script>
+</body>
+</html>
