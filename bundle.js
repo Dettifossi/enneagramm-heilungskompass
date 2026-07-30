@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "366";
+const APP_BUILD = "367";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1001,6 +1001,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Coyote Ugly", year:"2000", text:"Persönlicher Glanz und Ausstrahlung als Weg, gesehen und begehrt zu werden." },
       { title:"Burlesque", year:"2010", text:"Die Bühne als Ort, an dem charismatische Präsenz zur einzig wahren Form der Selbstbestätigung wird." },
       { title:"Crazy Heart", year:"2009", text:"Charisma, das trotz persönlichem Verfall noch immer eine einzige, intensive Verbindung zum Publikum herstellen kann." },
+    ],
+  },
+  "SE4": {
+    typ: 4, instinkt: "SE", animal: "Taube",
+    title: "SE4 – Selbsterhaltungstyp 4: Die Taube und das stille Leiden",
+    intro: "Zehn Filme über Melancholie im ganz privaten, alltäglichen Rahmen – Stoizismus statt Drama, Sehnsucht, die niemand sehen soll.",
+    filme: [
+      { title:"Nomadland", year:"2020", text:"Ein stilles, unaufdringliches Leben mit dem eigenen Verlust – Trauer, die sich in Bewegung und Alltag verwandelt statt in großer Geste." },
+      { title:"Manchester by the Sea", year:"2016", text:"Ein Mann, der seinen Schmerz in stiller Routine erträgt, weil offene Trauer für ihn unmöglich geworden ist." },
+      { title:"Paterson", year:"2016", text:"Ein zurückgezogenes, poetisches Innenleben, das sich nie lautstark zeigt, sondern in kleinen, privaten Momenten Ausdruck findet." },
+      { title:"Wunderschön", year:"2020", text:"Karoline Herfurth – im Kompass als SE4w5 geführt – erzählt als Regisseurin und Darstellerin von stiller innerer Verletzlichkeit im ganz privaten Ringen um das eigene Selbstbild." },
+      { title:"A Ghost Story", year:"2017", text:"Trauer und Sehnsucht, die sich über Jahre in einem einzigen, stillen, häuslichen Raum festsetzen." },
+      { title:"Still Alice", year:"2014", text:"Ein innerer Verlust, der ganz im Privaten, ohne öffentliche Bühne, durchlebt werden muss." },
+      { title:"Lost in Translation", year:"2003", text:"Melancholische Verbundenheit zweier Menschen, die ihre Einsamkeit lieber teilen als lautstark ausdrücken." },
+      { title:"The Diving Bell and the Butterfly", year:"2007", text:"Ein reiches, sehnsuchtsvolles Innenleben, das nach außen fast unsichtbar bleibt." },
+      { title:"Nebraska", year:"2013", text:"Stille, unaufgeregte Trauer und Sehnsucht innerhalb einer ganz gewöhnlichen Familie." },
+      { title:"Amour", year:"2012", text:"Verlust und Sehnsucht, die im engsten häuslichen Rahmen durchlitten werden, ohne dass die Welt draußen etwas davon erfährt." },
+    ],
+  },
+  "SO4": {
+    typ: 4, instinkt: "SO", animal: "Gürteltier",
+    title: "SO4 – Sozialer Typ 4: Das Gürteltier, das sich einrollt",
+    intro: "Zehn Filme über das Gefühl, in der Gruppe nicht dazuzugehören – Scham, sozialer Rückzug und die Sehnsucht nach Zugehörigkeit trotz Andersartigkeit.",
+    filme: [
+      { title:"Sissi", year:"1955–1957", text:"Romy Schneider – im Kompass als SO4w3 geführt – als Figur, die im gesellschaftlichen Rampenlicht steht und sich zugleich innerlich fremd und unverstanden fühlt." },
+      { title:"La Piscine", year:"1969", text:"Romy Schneider erneut, in einer Rolle voller sozialer Spannung zwischen Zugehörigkeit und innerer Isolation." },
+      { title:"Lady Bird", year:"2017", text:"Das quälende Gefühl, sozial nicht dazuzupassen, während man sich verzweifelt eine eigene Identität in der Gruppe erkämpft." },
+      { title:"The Perks of Being a Wallflower", year:"2012", text:"Sozialer Rückzug aus Scham, bis eine kleine Gruppe die eigene Andersartigkeit annimmt statt bestraft." },
+      { title:"Eighth Grade", year:"2018", text:"Die schmerzhafte soziale Selbstbeobachtung eines Teenagers, der ständig mit anderen verglichen wird und sich selbst dabei verliert." },
+      { title:"Frances Ha", year:"2012", text:"Das Gefühl, sozial hinter allen anderen zurückzubleiben, während man verzweifelt versucht, dazuzugehören." },
+      { title:"Moonlight", year:"2016", text:"Identität, die sich unter dem Druck sozialer Erwartung erst verstecken und dann langsam zeigen muss." },
+      { title:"Booksmart", year:"2019", text:"Die Angst, sozial nie wirklich dazugehört zu haben, trotz aller eigenen Anstrengung." },
+      { title:"Elephant", year:"2003", text:"Extreme soziale Isolation und das Gefühl, in der Gruppe unsichtbar oder falsch zu sein." },
+      { title:"Call Me by Your Name", year:"2017", text:"Zugehörigkeit und Andersartigkeit, die im sozialen Umfeld erst versteckt und dann zaghaft offenbart werden." },
+    ],
+  },
+  "SX4": {
+    typ: 4, instinkt: "SX", animal: "Chihuahua",
+    title: "SX4 – Sexueller Typ 4: Der Chihuahua und die kompromisslose Intensität",
+    intro: "Zehn Filme über Neid als vergleichende Konkurrenz, kompromisslose Gefühlsintensität und den Mut, unangepasst zu sein.",
+    filme: [
+      { title:"Blonde", year:"2022", text:"Ana de Armas – im Kompass als SX4w5 geführt – in einer Rolle von schonungsloser emotionaler Intensität und dem Gefühl, innerlich nie ganz gesehen zu werden." },
+      { title:"Knives Out", year:"2019", text:"Ana de Armas erneut, als Figur, deren emotionale Echtheit sie von einer ganzen Familie voller Fassaden unterscheidet." },
+      { title:"Black Swan", year:"2010", text:"Kompromisslose, selbstzerstörerische emotionale Intensität im Wettstreit um das eine, unerreichbare Ideal." },
+      { title:"Requiem for a Dream", year:"2000", text:"Sehnsucht und Verzweiflung in ihrer intensivsten, unangepassten Form, ohne jede Beschönigung." },
+      { title:"Marriage Story", year:"2019", text:"Emotionale Wahrheit, die kompromisslos ausgesprochen werden muss, komme was wolle." },
+      { title:"The Virgin Suicides", year:"1999", text:"Unerreichbare, romantisierte Sehnsucht und Melancholie, die sich der Umwelt vollständig entzieht." },
+      { title:"Call Me by Your Name", year:"2017", text:"Erste, kompromisslose Liebe in ihrer ganzen ungefilterten emotionalen Intensität." },
+      { title:"Blue Is the Warmest Colour", year:"2013", text:"Gefühlsintensität, die keine halben Sachen kennt und keine gesellschaftliche Norm respektiert." },
+      { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"Die Weigerung, Schmerz und Sehnsucht durch Vergessen zu betäuben – lieber ganz fühlen als gar nicht." },
+      { title:"A Star Is Born", year:"2018", text:"Kompromisslose künstlerische und emotionale Wahrhaftigkeit, koste es, was es wolle." },
     ],
   },
 };
