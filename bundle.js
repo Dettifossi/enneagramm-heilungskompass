@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "361";
+const APP_BUILD = "362";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -804,8 +804,8 @@ function enneagrammKunstUebersichtPage() {
   };
   return shell(`
     <div class="page-container">
-      ${pageHeader('Enneagramm Kunst')}
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm Kunst</h1>
+      ${pageHeader('Enneagramm-Kunstgalerie')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm-Kunstgalerie</h1>
       <p class="psycho-intro">Neun Typen, neun Leidenschaften – gespiegelt in vier Jahrhunderten Kunstgeschichte. Von Dürer bis Matisse, von der Renaissance bis zur Moderne: Jedes Kunstwerk erzählt auf seine eigene Weise von der Fixierung, der Sehnsucht oder dem Schatten eines Enneagrammtyps. Wählen Sie einen Typ, um seine Galerie zu entdecken.</p>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
         ${[1,2,3,4,5,6,7,8,9].map(tile).join('')}
@@ -832,7 +832,7 @@ function enneagrammKunstTypPage(n) {
     </div>`;
   return shell(`
     <div class="page-container">
-      ${pageHeader('Enneagramm Kunst')}
+      ${pageHeader('Enneagramm-Kunstgalerie')}
       <div id="js-back-target" data-route="enneagramm-kunst" style="display:none;"></div>
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.3rem;line-height:1.2;">${d.title}</h1>
       <p class="psycho-intro">${d.intro}</p>
