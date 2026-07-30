@@ -4,7 +4,7 @@
     {
       "name": "enneagramm-kompass",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/detlefrathmer/Enneagramm-Kompass/.claude/server.py"],
+      "runtimeArgs": ["/Users/detlefrathmer/enneagramm-heilungskompass/.claude/server.py"],
       "port": 8006,
       "open": "preview.html"
     }

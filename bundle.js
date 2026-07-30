@@ -55,10 +55,14 @@ const app = document.querySelector("#app");
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
 const APP_BUILD = "356";
 (function checkForUpdate() {
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
+  if (sessionStorage.getItem(BUILD_GUARD_KEY)) return; // schon einmal neu geladen – kein Loop
   fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => r.json())
     .then(data => {
       if (data && data.build && data.build !== APP_BUILD) {
+        sessionStorage.setItem(BUILD_GUARD_KEY, '1'); // vor dem Reload setzen!
         if ("caches" in window) {
           caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))))
             .then(() => { window.location.reload(true); });
@@ -226,6 +230,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin – Sexueller Typ 1",
     teaser:"SX1w9 · 1869–1916. Wandermönch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verstörte und einen kranken Zarewitsch heilte, wo Ärzte scheiterten – Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
     tags:["Geschichte"] , gender:"m"},
+  { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
+    heading:"Robbie Williams – Sexueller Typ 1",
+    teaser:"SX1w2 · geb. 1974. Sänger, Entertainer, ehemals Take That. Radikale Offenheit über Sucht, Depression und Selbstzweifel – die Schwarze Mamba, die keine Lüge erträgt, auch nicht die eigene. Tierentsprechung: Schwarze Mamba.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre Nüchternheit – die Schwarze Mamba, die keine Heuchelei erträgt und für andere ebenso brennt wie für sich selbst. Tierentsprechung: Schwarze Mamba.",
@@ -14911,6 +14919,73 @@ function jamieleecurtisPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function robbieWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robbie-williams-portrait.jpg" alt="Robbie Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Williams</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sänger &amp; Entertainer, geb. 1974 &ndash; Take That, Solokarriere, radikale Offenheit &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, präzise, kompromisslos. Sie greift nicht aus Bosheit an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft. Kein Tier verkörpert so sehr die Unfähigkeit, sich zu verstellen &ndash; und die Konsequenzen, die daraus entstehen, wenn man es trotzdem versucht.</p>
+          <p class="vb-intro">Robbie Williams, geboren 1974 in Stoke-on-Trent, trat mit sechzehn Jahren der Boygroup Take That bei &ndash; und wurde schon dort zur unruhigsten, unangepasstesten Figur der Gruppe. Während die anderen das Image pflegten, brach er es: zu laut, zu ehrlich, zu sehr er selbst für ein Format, das Kontrolle verlangte. Die Mamba lässt sich nicht dauerhaft in eine Choreografie zwingen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Radikale Ehrlichkeit als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihren Vollkommenheitsanspruch nicht auf äußere Ordnung oder gesellschaftliche Reform, sondern auf Intensität: auf das vollständige, ungeschönte Zeigen dessen, was wahr ist. Naranjo nannte diesen Subtyp <em>Zeal</em> &ndash; Inbrunst, ein brennendes Verlangen, keine Lüge stehen zu lassen, auch nicht die eigene.</p>
+          <p class="vb-intro">Kaum ein Popstar hat dieses Muster so öffentlich gelebt wie Robbie Williams. Er sprach früh und ungefragt über Drogenabhängigkeit, Alkoholexzesse, Klinikaufenthalte, Panikattacken, Depressionen &ndash; zu einer Zeit, als Popstars ihr Image noch mit aller Kraft schützten. Kein Management konnte ihn dazu bringen, eine glattere Version seiner selbst zu verkaufen. Was er fühlte, sagte er &ndash; auf der Bühne, in Interviews, in Songtexten wie <em>Feel</em> oder <em>Angels</em>, die genau deshalb Millionen erreichten: weil sie keine Pose waren.</p>
+          <p class="vb-intro">Sein Ausstieg aus Take That 1995, mitten im Erfolg, war reine SX1-Logik: Die Band funktionierte kommerziell blendend &ndash; aber sie fühlte sich für ihn unwahr an. Für die sexuelle Eins zählt keine Erfolgsbilanz, wenn das Innere nicht mehr übereinstimmt mit dem, was nach außen gezeigt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Verletzlichkeit als Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sexuellen Eins eine entscheidende zweite Note: das Bedürfnis, geliebt zu werden, und die Fähigkeit, sich dafür zu öffnen. Die reine SX1 kann in ihrer Intensität isolierend wirken. Der Zweierflügel macht diese Intensität beziehungsfähig &ndash; verwandelt Konfrontation in Nähe, wenn das Publikum bereit ist, mitzugehen.</p>
+          <p class="vb-intro">Robbie Williams' gesamte Bühnenpersönlichkeit lebt von diesem Zweierflügel: der ständige Blickkontakt mit dem Publikum, das Bedürfnis, geliebt und zugleich gebraucht zu werden, die selbstironischen Zwischenrufe, die Verletzlichkeit, die er nie versteckt. Er singt nicht nur für ein Publikum &ndash; er sucht in jedem Konzert eine Bestätigung, dass er, so wie er wirklich ist, akzeptiert wird. Das ist keine Schwäche, sondern die zweite Kraft der Mamba: Sie beißt, aber sie will auch gehalten werden.</p>
+          <p class="vb-intro">Seine öffentlichen Eingeständnisse über die eigene Eitelkeit, seine Angst vor dem Altern, seine Sehnsucht nach Anerkennung durch seinen Vater &ndash; all das zeigt einen Mann, der seine Bedürftigkeit nicht versteckt, sondern zum Teil seiner Kunst macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn gegen die eigene Unruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> &ndash; und bei Robbie Williams richtete er sich über weite Strecken seines Lebens nach innen. Die Sucht, die Exzesse, die selbstzerstörerischen Phasen seiner Karriere sind Ausdruck einer inneren Strenge, die sich selbst nie genügte: Er war einer der erfolgreichsten Solokünstler der britischen Popgeschichte &ndash; und konnte es sich lange nicht glauben, nicht fühlen, nicht annehmen.</p>
+          <p class="vb-intro">Dieser Zorn zeigte sich auch nach außen: in Konflikten mit der Musikindustrie, in öffentlichen Fehden, in seiner Weigerung, sich dem Erwartungsdruck des Popbetriebs anzupassen. Doch anders als bei vielen Einsern blieb bei Williams stets ein zweiter Ton hörbar &ndash; der des Zweierflügels: Selbstironie. Er machte sich über sich selbst lustig, bevor es andere tun konnten. Ein Schutzmechanismus, aber auch eine Form von Ehrlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Rückkehr und die Reife</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2010 kehrte Robbie Williams zu Take That zurück, nahm Alben mit der Band auf, versöhnte sich mit früheren Weggefährten. 2010 heiratete er die Schauspielerin Ayda Field, mit der er vier Kinder hat &ndash; und sprach offen über die Herausforderungen von Vaterschaft, Therapie und dem eigenen ADHS. Auch hier: keine geglättete Erfolgsgeschichte, sondern eine, die ihre Brüche zeigt.</p>
+          <p class="vb-intro">2023 begleitete eine Netflix-Dokumentation seine Karriere in ungewöhnlicher Offenheit &ndash; Williams selbst kommentierte Archivaufnahmen seines jüngeren Ich, oft schonungslos kritisch mit sich selbst. Auch das ist die Mamba: Sie beißt notfalls sich selbst, wenn sie erkennt, dass sie nicht ehrlich war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Verletzlichkeit als Stärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Robbie Williams der Popkultur gegeben hat, ist eine seltene Erlaubnis: dass ein Superstar nicht perfekt sein muss, um geliebt zu werden &ndash; im Gegenteil, dass gerade die sichtbaren Risse die Verbindung zum Publikum schaffen. Das ist das Geschenk der SX1w2: die Weigerung, eine polierte Fassade zu zeigen, kombiniert mit dem Bedürfnis, wirklich gesehen zu werden.</p>
+          <p class="vb-intro">Die Schwarze Mamba mit Zweierflügel beißt nicht, um zu verletzen &ndash; sie beißt, weil sie keine Lüge erträgt, auch nicht die eigene. Und sie sucht danach die Nähe, die sie durch diese Ehrlichkeit erst möglich macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2)"},
       ])}
     </div>
   `);
@@ -42039,6 +42114,7 @@ function render() {
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
@@ -42458,7 +42534,10 @@ document.addEventListener("click", (e) => {
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
-  const MY_VERSION = 'inhalt-v754';
+  const MY_VERSION = (function() {
+    try { return new URL(import.meta.url).searchParams.get('v'); } catch (e) { return null; }
+  })();
+  if (!MY_VERSION) return;
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

@@ -52,12 +52,16 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "356";
+const APP_BUILD = "357";
 (function checkForUpdate() {
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
+  if (sessionStorage.getItem(BUILD_GUARD_KEY)) return; // schon einmal neu geladen – kein Loop
   fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => r.json())
     .then(data => {
       if (data && data.build && data.build !== APP_BUILD) {
+        sessionStorage.setItem(BUILD_GUARD_KEY, '1'); // vor dem Reload setzen!
         if ("caches" in window) {
           caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))))
             .then(() => { window.location.reload(true); });
@@ -89,13 +93,13 @@ function hasHeilwissen() { return getTier() === "heilwissen"; }
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Table of Contents und Leseprobe aktualisieren sich automatisch.
 const KRIMINAL_PORTRAITS = [
-  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SP1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SP1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SP1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SP1w9",  heading:"Michail Popkow – Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, born 1964. At least 86 victims in the Siberian city of Angarsk between 1992 and 2010. Police officer, family man, neighborhood figure – and the man who understood his murders as moral cleansing." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SP1w9",  heading:"Dennis Rader – Self-Preservation Type 1",                               teaser:"SP1w9 – BTK Killer, born 1945. Ten murders between 1974 and 1991. Church council chairman, compliance officer, family man – and the man who signed his crimes with a self-coined label and craved recognition for decades." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SP1w9",  heading:"Andrei Tschikatilo \u2013 Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, 1936–1994. 52 confirmed victims in the Soviet Union. The Butcher of Rostov: One’s perfectionism as extermination logic, Nine-wing as perfect camouflage." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SP1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Self-Preservation Type 1",        teaser:"Extortionist, born 1951. Six years, never harming anyone – the self-preservation One with Nine-wing: quiet resentment, meticulous method, absolute non-violence." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SP1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SP1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SE1w9",  heading:"Michail Popkow – Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, born 1964. At least 86 victims in the Siberian city of Angarsk between 1992 and 2010. Police officer, family man, neighborhood figure – and the man who understood his murders as moral cleansing." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SE1w9",  heading:"Dennis Rader – Self-Preservation Type 1",                               teaser:"SP1w9 – BTK Killer, born 1945. Ten murders between 1974 and 1991. Church council chairman, compliance officer, family man – and the man who signed his crimes with a self-coined label and craved recognition for decades." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-andrei-tschikatilo",  name:"Andrei Tschikatilo",               subtyp:"SE1w9",  heading:"Andrei Tschikatilo \u2013 Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, 1936–1994. 52 confirmed victims in the Soviet Union. The Butcher of Rostov: One’s perfectionism as extermination logic, Nine-wing as perfect camouflage." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SE1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Self-Preservation Type 1",        teaser:"Extortionist, born 1951. Six years, never harming anyone – the self-preservation One with Nine-wing: quiet resentment, meticulous method, absolute non-violence." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Social Type 1",                                           teaser:"SO1w9 – Serial killer, 1946–1989. Bourgeois facade, repressed rage, resentment. The social One with Nine-wing: self-righteousness as delusion, anger as cold driving force. Animal correspondence: Goose." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Social Type 1",                                teaser:"SO1w9 – Serial killer, 1937–2008. At least 10 victims in southern Germany 1959–60. The ‘Monster of the Black Forest’: delusional divine mandate for punishment, emotional dissociation and a life under the sign of compulsive atonement." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexual Type 1",                                      teaser:"SX1w2 – Lawyer and double murderer, born 1968. 87 years of legal dynasty, million-dollar fraud, double murder of wife and son 2021. The Two-wing as charm facade, the One as merciless judge over its own image. Animal correspondence: Black Mamba." , tags:["Nahbereich"]},
@@ -104,29 +108,29 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-gennadi-mikhasevich",  name:"Gennadi Mikhasevich",                 subtyp:"SX1w2",  heading:"Gennadi Mikhasevich – Sexual Type 1",                                 teaser:"SX1w2 – 'The Strangler of Vitebsk', born 1947. 36 women murdered in the Byelorussian SSR (now Belarus) (1971–1985). Family man, Druzhinnik (voluntary civil order keeper), party activist – and serial killer who remained undetected for 14 years while an innocent man was executed for his crimes. Animal correspondence: Black Mamba." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-fritz-haarmann",        name:"Fritz Haarmann",                   subtyp:"SX1w9",  heading:"Fritz Haarmann – Sexual Type 1",                                     teaser:"SX1w9 – Hannover 1918–1924. At least 24 murders, police informant, neighborhood figure. The Werewolf of Hannover: SX1 will to control as final possession, Nine-wing as warm everyday facade. Animal correspondence: Black Mamba." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-josef-fritzl",         name:"Josef Fritzl",                     subtyp:"SX1w9",  heading:"Josef Fritzl – Sexual Type 1",                                       teaser:"SX1w9 – Amstetten, Austria, 1984–2008. 24 years of imprisonment, 7 children, double life as a respected citizen. The sexual One with Nine-wing: absolute control over the most intimate relationship, completely inconspicuous to the outside world. Animal correspondence: Black Mamba." , tags:["Missbrauch","Nahbereich"]},
-  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SP2w1",  heading:"Harvey Weinstein \u2013 Self-Preservation Type 2",                           teaser:"Film producer, born 1952. Patron and predator in one – the self-preservation Two with One-wing as blueprint of systemic abuse of power. Trigger of the global #MeToo movement." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SP2w1",  heading:"Jonathan Meijer \u2013 Self-Preservation Type 2",                              teaser:"SP2w1 – Sperm donor who fathered over 550 children. Helping as identity, pride as blind spot: Type 2 in the Jonathan Meijer case." , tags:["Betrug","Missbrauch"]},
-  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SP2w1",  heading:"Ángel Reséndez – Self-Preservation Type 2",                          teaser:"SP2w1 – 'The Railroad Killer', 1960–2006. 9 confirmed murders in the USA (1997–1999), 6 more attributed. Traveling the USA as an illegal immigrant along freight train routes – break-in and violence as survival strategy. Animal correspondence: Hippopotamus." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SP2w1",  heading:"Tommy Lynn Sells – Self-Preservation Type 2",                           teaser:"SP2w1 – 'The Coast-to-Coast Killer', 1964–2014. Between 13 and 70 murders in numerous US states over two decades. Itinerant laborer, drifter, seemingly harmless stranger – care as bait, moral self-righteousness as justification. Animal correspondence: Coyote." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SP2w1",  heading:"Peter Sutcliffe – Self-Preservation Type 2",                             teaser:"SP2w1 – 'The Yorkshire Ripper', 1946–2020. 13 murders of women in northern England 1975–1980, 7 further survivors. Truck driver, family man, helpful neighbor – care as camouflage, moral judgment as murder motive. Animal correspondence: Hippopotamus." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SP2w3",  heading:"Anna Delvey \u2013 Self-Preservation Type 2",                                  teaser:"SP2w3 – Fake heiress of New York high society. Pride as performance: how the Three-wing of the Two enables a complete life fiction." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SP2w3",  heading:"Buster Murdaugh \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Son of the Murdaugh dynasty. Inherited Two privilege: how an adopted power system shapes Enneagram Type 2." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SP2w3",  heading:"John Wayne Gacy \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – the ‘Killer Clown’. 33 murders behind the facade of civic engagement: the Two privilege in its most extreme manifestation." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SP2w3",  heading:"Sebastian Greenwood \u2013 Self-Preservation Type 2",                          teaser:"SP2w3 – Co-founder of the OneCoin fraud. The networker behind the 'Cryptoqueen': relationship architecture as weapon, giving as an instrument of domination." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SP2w3",  heading:"Rudolf Pleil \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Serial killer, 1924–1958. At least 9 victims in the postwar border zone. ‘The best death-maker’: the self-preservation Two with Three-wing in its darkest manifestation – pride as claim over life and death." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-harvey-weinstein",    name:"Harvey Weinstein",                    subtyp:"SE2w1",  heading:"Harvey Weinstein \u2013 Self-Preservation Type 2",                           teaser:"Film producer, born 1952. Patron and predator in one – the self-preservation Two with One-wing as blueprint of systemic abuse of power. Trigger of the global #MeToo movement." , tags:["Missbrauch"]},
+  { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Self-Preservation Type 2",                              teaser:"SP2w1 – Sperm donor who fathered over 550 children. Helping as identity, pride as blind spot: Type 2 in the Jonathan Meijer case." , tags:["Betrug","Missbrauch"]},
+  { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SE2w1",  heading:"Ángel Reséndez – Self-Preservation Type 2",                          teaser:"SP2w1 – 'The Railroad Killer', 1960–2006. 9 confirmed murders in the USA (1997–1999), 6 more attributed. Traveling the USA as an illegal immigrant along freight train routes – break-in and violence as survival strategy. Animal correspondence: Hippopotamus." , tags:["Sonstiges"]},
+  { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells – Self-Preservation Type 2",                           teaser:"SP2w1 – 'The Coast-to-Coast Killer', 1964–2014. Between 13 and 70 murders in numerous US states over two decades. Itinerant laborer, drifter, seemingly harmless stranger – care as bait, moral self-righteousness as justification. Animal correspondence: Coyote." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe – Self-Preservation Type 2",                             teaser:"SP2w1 – 'The Yorkshire Ripper', 1946–2020. 13 murders of women in northern England 1975–1980, 7 further survivors. Truck driver, family man, helpful neighbor – care as camouflage, moral judgment as murder motive. Animal correspondence: Hippopotamus." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Self-Preservation Type 2",                                  teaser:"SP2w3 – Fake heiress of New York high society. Pride as performance: how the Three-wing of the Two enables a complete life fiction." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Son of the Murdaugh dynasty. Inherited Two privilege: how an adopted power system shapes Enneagram Type 2." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-john-wayne-gacy",     name:"John Wayne Gacy",                     subtyp:"SE2w3",  heading:"John Wayne Gacy \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – the ‘Killer Clown’. 33 murders behind the facade of civic engagement: the Two privilege in its most extreme manifestation." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-sebastian-greenwood", name:"Sebastian Greenwood",             subtyp:"SE2w3",  heading:"Sebastian Greenwood \u2013 Self-Preservation Type 2",                          teaser:"SP2w3 – Co-founder of the OneCoin fraud. The networker behind the 'Cryptoqueen': relationship architecture as weapon, giving as an instrument of domination." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-rudolf-pleil",         name:"Rudolf Pleil",                        subtyp:"SE2w3",  heading:"Rudolf Pleil \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Serial killer, 1924–1958. At least 9 victims in the postwar border zone. ‘The best death-maker’: the self-preservation Two with Three-wing in its darkest manifestation – pride as claim over life and death." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jack-unterweger",     name:"Jack Unterweger",                     subtyp:"SO2w1",  heading:"Jack Unterweger – Social Type 2",                                      teaser:"SO2w1 – 'The Poet and Death', 1950–1994. Serial killer, prison author, TV journalist – a 'rehabilitated' man celebrated by intellectuals, who resumed murdering immediately after his release. At least 10 murders, possibly 13. Animal correspondence: Golden Retriever." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jim-jones",             name:"Jim Jones",                           subtyp:"SO2w3",  heading:"Jim Jones – Social Type 2",                                          teaser:"SO2w3 – Cult leader and mass murder director, 1931–1978. Over 900 dead in Jonestown, Guyana. The helper as savior: how the social Two with Three-wing went from hospital builder to master over life and death – and in the Eight stress point destroyed everything it loved." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-cedric-maake",        name:"Cedric Maake",                        subtyp:"SO2w3",  heading:"Cedric Maake – Social Type 2",                                         teaser:"SO2w3 – 'The Wemmer Pan Killer', born 1965. 27 murders in Johannesburg 1996–1997 – one of the most severe serial murder cases in South African history. 1,395 years imprisonment. The social Two with Three-wing: sociable invisibility as cover. Animal correspondence: Golden Retriever." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-osama-bin-laden",      name:"Osama bin Laden",                    subtyp:"SO2w1",  heading:"Osama bin Laden – Social Type 2",                                    teaser:"SO2w1 – Founder of al-Qaeda, 1957–2011. Chief responsible for the attacks of September 11, 2001. The social Two with One-wing: self-sacrifice for the community as the highest pride, moral sensitivity as extermination logic. Animal correspondence: Golden Retriever." , tags:["Terror"]},
   { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexual Type 2",                                        teaser:"SX2w3 – The Seductress of Derry, born 1967. Manipulated a 15-year-old student into murdering her husband (1990). The only one of those involved still in prison. The sexual Two with Three-wing: love as leverage, pride as blind spot. Animal correspondence: Camel." , tags:["Nahbereich"]},
-  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SP3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SP3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SP3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SP3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
-  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SP3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SP3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
-  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SP3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
-  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SP3w4",  heading:"Karla Homolka \u2013 Self-Preservation Type 3",                           teaser:"SP3w4 – ‘Barbie’ of the Ken-and-Barbie Killers, born 1970. Three murders together with Paul Bernardo 1990–93, including her own sister. Raccoon energy: perfect adaptation, double face, the deal with justice as a final act of staging." , tags:["Serienmord","Missbrauch"]},
-  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SP3w4", heading:"Frank Abagnale Jr. – Self-Preservation Type 3", teaser:"SP3w4 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The self-preserving Three counter-type with Four-wing: competence as survival strategy, identity as resource. Animal correspondence: Raccoon.", tags:["Betrug"]},
-  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SP3w4",  heading:"Bernie Madoff – Self-Preservation Type 3",                              teaser:"SP3w4 – Largest investment fraud in history, 1938–2021. 65 billion dollars in falsified account statements, at least 20 years of Ponzi scheme – the self-preservation Three with Four-wing: quiet staging, trust as weapon, raccoon energy until the last day. Animal correspondence: Raccoon." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SP3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SP3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
+  { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
+  { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Self-Preservation Type 3",                           teaser:"SP3w4 – ‘Barbie’ of the Ken-and-Barbie Killers, born 1970. Three murders together with Paul Bernardo 1990–93, including her own sister. Raccoon energy: perfect adaptation, double face, the deal with justice as a final act of staging." , tags:["Serienmord","Missbrauch"]},
+  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SE3w4", heading:"Frank Abagnale Jr. – Self-Preservation Type 3", teaser:"SP3w4 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The self-preserving Three counter-type with Four-wing: competence as survival strategy, identity as resource. Animal correspondence: Raccoon.", tags:["Betrug"]},
+  { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Self-Preservation Type 3",                              teaser:"SP3w4 – Largest investment fraud in history, 1938–2021. 65 billion dollars in falsified account statements, at least 20 years of Ponzi scheme – the self-preservation Three with Four-wing: quiet staging, trust as weapon, raccoon energy until the last day. Animal correspondence: Raccoon." , tags:["Betrug"]},
   { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Social Type 3",                                   teaser:"SO3w2 – 'Monster of the Andes', born 1948. At least 350 murders of young girls in Colombia, Peru and Ecuador, 1969–1980. The cheetah: precise seduction, charismatic mask, success measured in victim count – the social Three with Two-wing in its darkest manifestation." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Social Type 3",                                       teaser:"SO3w4 – Five-time killer and murderer of Gianni Versace, 1969–1997. Four murders in twelve days across the USA, then Versace in front of his villa in Miami Beach. The cheetah: prestige as purpose of life, facade as the only reality, Four-wing as dark undercurrent." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Social Type 3",                                         teaser:"SO3w4 – NFL legend and protagonist of the ‘Trial of the Century’, 1947–2024. Acquitted in the criminal trial 1995, found civilly liable 1997. The cheetah: the public self-image as the only reality, performance until the last moment. Animal correspondence: Cheetah." , tags:["Nahbereich"]},
@@ -135,56 +139,56 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexual Type 3",                                       teaser:"SX3w4 – Child killer, born 1955. In 1983 she shot her three children in Oregon to be the perfect, unattached ideal for a man. The sexual Three with Four-wing: children as disruptive props, blocked heart energy as murder motive, calculation instead of feeling. Animal correspondence: Peacock." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexual Type 3",                                     teaser:"SX3w4 – Murderer and digital self-stager, 2012. 70+ aliases, murder as content, arrested while reading his own headlines – the sexual Three in its darkest manifestation." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexual Type 3",                                     teaser:"SX3w4 – 'The Night Stalker', born 1960, died 2013. 13 murders, rapes, burglaries in Southern California 1984–1985. Satanic iconography, staging of evil, groupies in the courtroom – the sexual Three with Four-wing: self-mythologization as lethal weapon. Animal correspondence: Peacock." , tags:["Sonstiges"]},
-  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SP4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SP4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SP4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Social Type 4",                                        teaser:"SO4w5 – Isla Vista massacre 2014. 6 dead, 14 injured – the social Four with Five-wing: envy as world judgment, exclusion as mandate for annihilation. Animal correspondence: Armadillo." , tags:["Terror"]},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , tags:["Terror"]},
-  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SP5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
   { route:"kriminalpsychologie-harold-shipman",    name:"Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Social Type 5",                                      teaser:"SO5w6 – General practitioner and serial killer, 1946–2004. At least 218 victims – the most lethal solo perpetrator in British criminal history. The octopus: knowledge as control, quiet dominance over life and death behind the facade of the trusted doctor." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexual Type 5",                                    teaser:"SX5w4 – Serial killer, 1960–1994. 17 victims, radical merger fantasies – the sexual Five with Four-wing in its darkest manifestation: greed as absorption." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-joel-rifkin",          name:"Joel Rifkin",                         subtyp:"SX5w6",  heading:"Joel Rifkin – Sexual Type 5",                                         teaser:"SX5w6 – American serial killer, born 1959. 17 murders of prostitutes in New York City 1989–1993. Suburban resident, socially invisible, active at night in search of controlled closeness. Animal correspondence: Hedgehog." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SP6w5",  heading:"John List – Self-Preservation Type 6",                                   teaser:"SP6w5 – Five-time killer, 1925–2008. Shot his entire family on November 9, 1971 in Westfield, New Jersey – and lived undetected for 17 years afterwards as accountant \'Robert Clark\'. The rabbit: fear as motive, silence as Five-wing, religion as destructive justification." , tags:["Nahbereich"]},
+  { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SE6w5",  heading:"John List – Self-Preservation Type 6",                                   teaser:"SP6w5 – Five-time killer, 1925–2008. Shot his entire family on November 9, 1971 in Westfield, New Jersey – and lived undetected for 17 years afterwards as accountant \'Robert Clark\'. The rabbit: fear as motive, silence as Five-wing, religion as destructive justification." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-adolf-eichmann",      name:"Adolf Eichmann",                       subtyp:"SO6w5",  heading:"Adolf Eichmann \u2013 Social Type 6",                                     teaser:"SO6w5 – SS Lieutenant Colonel and chief organizer of the Holocaust logistics, 1906–1962. The textbook example of the banality of evil: the social Six with Five-wing as obedient bureaucratic executor. Animal correspondence: Meerkat." , tags:["Terror"]},
   { route:"kriminalpsychologie-anders-breivik",      name:"Anders Breivik",                      subtyp:"SX6w5",  heading:"Anders Breivik \u2013 Sexual Type 6",                                    teaser:"SX6w5 – Attacker, born 1979. 77 dead, years of secret planning – the sexual Six with Five-wing in its darkest manifestation: counter-phobic fear as extermination logic." , tags:["Terror"]},
   { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexual Type 6",                                      teaser:"SX6w5 – ‘The Cannibal of Rotenburg’, born 1961. Voluntary cannibalism case 2001 – the sexual Six with Five-wing: fear of being alone as absolute, deadly longing for merger. Animal correspondence: Wolf." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexual Type 6",                                     teaser:"SX6w7 – Cult founder and mastermind, 1934–2017. Tate-LaBianca murders 1969 – the sexual Six with Seven-wing: fear as charisma, control through surrender. Animal correspondence: Wolf." , tags:["Terror","Missbrauch"]},
-  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SP7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Social Type 7",                                  teaser:"SO7w6 – American family murderer, born 1985. Murdered his pregnant wife and two daughters to start a new life with his mistress. Arrested 2018, five consecutive life sentences. Animal correspondence: Beaver." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexual Type 7",                                       teaser:"SX7w8 – American serial killer, 1956–2002. Seven murders of men in Florida, November 1989 to November 1990. The sexual Seven with Eight-wing: idealized love as survival project, relationship as the only foundation, rage as the final boundary. Animal correspondence: Chimpanzee." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SP8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SP8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
-  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SP8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SP8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
+  { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Social Type 8",                                     teaser:"SO8w7 – The Teflon Don, 1940–2002. Boss of the Gambino family, acquitted three times, ultimately betrayed by his closest confidant – the social Eight with Seven-wing: dominance through protection, power through visibility. Animal correspondence: Lion." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-mcafee",          name:"John McAfee",                         subtyp:"SX8w9",  heading:"John McAfee – Sexual Type 8",                                    teaser:"SX8w9 – Founder of the first antivirus program, fugitive, anarchist. From Belize to a Spanish prison cell: the sexual Eight without limits – inward as much as outward." , tags:["Betrug","Nahbereich"]},
   { route:"kriminalpsychologie-jeffrey-epstein",     name:"Jeffrey Epstein",                     subtyp:"SX8w9",  heading:"Jeffrey Epstein \u2013 Sexual Type 8",                                   teaser:"Financier and sex offender, 1953–2019. Decades-long network of power and compromise – the sexual Eight with Nine-wing: possession through closeness, dominance through inclusion." , tags:["Missbrauch"]},
-  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SP9w1",  heading:"Alfons Schuhbeck \u2013 Self-Preservation Type 9",                              teaser:"SP9w1 – The TV chef, born 1949. Tax evasion of 2.3 million euros – for years, quietly and persistently. The self-preservation Nine with One-wing: appetite as way of life, inertia as the sleep of conscience. Animal correspondence: Elephant." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-alfons-schuhbeck",    name:"Alfons Schuhbeck",                      subtyp:"SE9w1",  heading:"Alfons Schuhbeck \u2013 Self-Preservation Type 9",                              teaser:"SP9w1 – The TV chef, born 1949. Tax evasion of 2.3 million euros – for years, quietly and persistently. The self-preservation Nine with One-wing: appetite as way of life, inertia as the sleep of conscience. Animal correspondence: Elephant." , tags:["Betrug"]},
   { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Social Type 9",                                  teaser:"SO9w8 – Rogue Trader, born 1967. Brought down Barings Bank in 1995 – the social Nine with Eight-wing: belonging as identity, inertia as self-forgetting. Animal correspondence: Buffalo." , tags:["Betrug"]},
   { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Social Type 9",                                   teaser:"SO9w1 – Member of the Manson Family, born 1949. Involved in the LaBianca murders 1969 – the social Nine with One-wing: dissolution into the group as home, service to the community as life's path. Animal correspondence: Buffalo." , tags:["Terror"]},
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexual Type 9",                               teaser:"SX9w1 – Art forger, born 1951. Over 50 forged masterworks, undetected for decades – the sexual Nine with One-wing: merger with the spirit of dead masters." , tags:["Betrug"]},
 ];
 
 const BERUEHMT_PORTRAITS = [
-  { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SP1w9",
+  { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SE1w9",
     heading:"Queen Elizabeth II. – Self-Preservation Type 1",
     teaser:"SP1w9 · 1926–2022. Queen of the United Kingdom, 70 years on the throne. Duty as her life's purpose, silence as strength, never complain, never explain. The eagle who never left its post. Animal correspondence: Eagle.",
     tags:["Politics","Nobility"] },
-  { route:"beruehmte-sting", name:"Sting", subtyp:"SP1w9",
+  { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
     tags:["Musik"] },
-  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SP1w9",
+  { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
     heading:"Ken Follett – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
     tags:["Literatur"] },
-  { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SP1w2",
+  { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SP1w2",
+  { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
     heading:"Marie Kondo – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1984. Tidying consultant, author of the KonMari method. \"Does it spark joy?\" – an inner system as clear as an eagle's gaze, and a Two-wing that turns it into a calling. The eagle who understands order as home. Animal correspondence: Eagle.",
     tags:["Kultur","Gesellschaft"] },
-  { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SP1w2",
+  { route:"beruehmte-dan-brown", name:"Dan Brown", added:"2026-07-28", subtyp:"SE1w2",
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
     tags:["Literatur"] },
@@ -212,11 +216,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SP2w1",
+  { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
     heading:"Greta Thunberg – Self-Preservation Type 2",
     teaser:"SP2w1 · born 2003. Climate activist, founder of Fridays for Future. At 15 years old, alone in front of the Swedish parliament – with a homemade sign. The hippopotamus does not yield. Animal correspondence: Hippopotamus.",
     tags:["Politik"] },
-  { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SP2w3",
+  { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich – Self-Preservation Type 2",
     teaser:"SP2w3 · born 1973. Cyclist, Tour de France winner 1997, Olympic champion 2000. Five times runner-up behind Armstrong – never gave up. The hippopotamus needs its water. Animal correspondence: Hippopotamus.",
     tags:["Sport"] },
@@ -236,11 +240,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexual Type 2",
     teaser:"SX2w3 · born 1967. Healer, The Gazer. He does not speak, he does not touch – he looks. In silent group events worldwide, his gaze creates what many words cannot: the feeling of being truly seen. Animal correspondence: Camel.",
     tags:["Sonstiges"] },
-  { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SP3w2",
+  { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"] },
-  { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SP3w4",
+  { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
     tags:["Medien"] },
@@ -260,11 +264,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen – Sexual Type 3",
     teaser:"SX3w4 · born 1954. Music producer, composer, TV judge. Over 500 million records sold. The peacock that spreads its feathers – and wants to know what lies beneath.",
     tags:["Musik"] },
-  { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SP4w3",
+  { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
     heading:"Lady Diana – Self-Preservation Type 4",
     teaser:"SP4w3 · 1961–1997. Princess of Wales. The dove that carries messages – empathy as strength, inner pain as a silent burden, and a warmth that touched millions.",
     tags:["Politik"] },
-  { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SP4w5",
+  { route:"beruehmte-clemens-arvay", name:"Clemens G. Arvay", subtyp:"SE4w5",
     heading:"Clemens G. Arvay – Self-Preservation Type 4",
     teaser:"SP4w5 · 1980–2022. Biologist, author, nature healer. The Biophilia Effect – knowledge and longing as a bridge. The dove that showed others the way into the forest.",
     tags:["Wissenschaft"] },
@@ -292,11 +296,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ana de Armas – Sexual Type 4",
     teaser:"SX4w5 · born 1988. Actress. Knives Out, Blonde. The chihuahua that fears no stage – and never forgets where it comes from.",
     tags:["Schauspiel"] },
-  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SP5w4",
+  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Self-Preservation Type 5",
     teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
     tags:["Wissenschaft"] },
-  { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SP5w6",
+  { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Self-Preservation Type 5",
     teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
     tags:["Medien","Wissenschaft"] },
@@ -324,11 +328,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexual Type 5",
     teaser:"SX5w6 · born 1983. Whistleblower, former NSA contractor. Permanent Record. The hedgehog that curled up – and then revealed everything, because it could no longer carry it alone.",
     tags:["Politik"] },
-  { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SP6w5",
+  { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
     tags:["Politik"] },
-  { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SP6w7",
+  { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
     tags:["Sport"] },
@@ -352,11 +356,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexual Type 6",
     teaser:"SX6w7 · born 1965. Comedian, actress, entertainer, singer, voice actress, presenter. Courage through showing up: the SX6 that transforms fear into energy and humor. Animal correspondence: Wolf.",
     tags:["Medien","Kunst"] },
-  { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SP7w6",
+  { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
     heading:"Jasmine Paolini – Self-Preservation Type 7",
     teaser:"SP7w6 · born 1996. Italian tennis player, world number four 2024. Finalist Roland Garros & Wimbledon, WTA Finals winner. The gorilla: joy as foundation, warmth as weapon, fighting spirit as gift. Animal correspondence: Gorilla.",
     tags:["Sport"] },
-  { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SP7w8",
+  { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
     tags:["Musik"] },
@@ -376,11 +380,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
     tags:["Musik","Medien"] },
-  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SP8w7",
+  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Self-Preservation Type 8",
     teaser:"SP8w7 · 1932–2016. Writer, semiotician, philosopher, media scholar. The Name of the Rose, Foucault's Pendulum. 30,000 books. The orangutan at home in the labyrinth – who knows that all signs lie. Animal correspondence: Orangutan.",
     tags:["Literatur","Wissenschaft"] },
-  { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SP8w9",
+  { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
     heading:"Toni Morrison – Self-Preservation Type 8",
     teaser:"SP8w9 · 1931–2019. Writer, Nobel Prize in Literature 1993. Beloved, Sula, The Bluest Eye. The orangutan woman who broke the silence of history – grounded, unshakeable, of lasting force. Animal correspondence: Orangutan.",
     tags:["Literatur"] },
@@ -400,11 +404,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
     tags:["Musik","Kunst"] },
-  { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SP9w1",
+  { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Self-Preservation Type 9",
     teaser:"SP9w1 · born 1968. Politician (SPD), President of the Bundestag since 2021. The elephant that guards the house – persistent, quiet, with a stability stronger than any volume. Animal correspondence: Elephant.",
     tags:["Politik"] },
-  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SP9w8",
+  { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
     tags:["Politik"] },
@@ -477,6 +481,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
     tags:["History"], gender:"m"},
+  { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
+    heading:"Robbie Williams \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 born 1974. Singer, entertainer, formerly of Take That. Radical honesty about addiction, depression and self-doubt \u2013 the Black Mamba that cannot tolerate a lie, not even its own. Animal correspondence: Black Mamba.",
+    tags:["Music"], gender:"m"},
   { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
@@ -13019,10 +13027,19 @@ function beruehmtePersoenlichkeitenPage() {
     }
     const codeOrder = {};
     allCodes.forEach(function(c, i) { codeOrder[c] = i; });
+    const wingOrder = function(subtyp) {
+      const typ = parseInt((subtyp||'').replace(/[^0-9]/g,'')[0]||'0');
+      const wing = parseInt((subtyp||'').split('w')[1]||'0');
+      if (!typ || !wing) return 0;
+      const prevNeighbor = typ === 1 ? 9 : typ - 1;
+      return wing === prevNeighbor ? 0 : 1;
+    };
     const sortedPortraits = BERUEHMT_PORTRAITS.slice().sort(function(a, b) {
       const ca = (a.subtyp||'').substring(0,3).toUpperCase();
       const cb = (b.subtyp||'').substring(0,3).toUpperCase();
-      return (codeOrder[ca] !== undefined ? codeOrder[ca] : 999) - (codeOrder[cb] !== undefined ? codeOrder[cb] : 999);
+      const codeDiff = (codeOrder[ca] !== undefined ? codeOrder[ca] : 999) - (codeOrder[cb] !== undefined ? codeOrder[cb] : 999);
+      if (codeDiff !== 0) return codeDiff;
+      return wingOrder(a.subtyp) - wingOrder(b.subtyp);
     });
     let lastCode = null, out = '';
     sortedPortraits.forEach(function(p) {
@@ -14207,6 +14224,73 @@ function jamesLevinePortraitPage() {
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function robbieWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-robbie-williams-portrait.jpg" alt="Robbie Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Williams</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-Wing</p>
+        <p class="krim-portrait-subtitle">Singer & entertainer, b. 1974 – Take That, solo career, radical honesty – Animal equivalent: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Black Mamba is the animal of the sexual One—lightning-fast, precise, uncompromising. It does not attack out of malice, but out of an inner law: what is wrong is named, even when it concerns the self. Few animals embody so precisely the inability to pretend—and the consequences that follow when someone tries to anyway.</p>
+          <p class="vb-intro">Robbie Williams, born in 1974 in Stoke-on-Trent, joined the boy band Take That at sixteen—and quickly became the most restless, least manageable figure in the group. While the others maintained the image, he broke it: too loud, too honest, too much himself for a format that demanded control. The Black Mamba cannot be permanently forced into a choreography.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Radical Honesty as a Driving Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual One (SX1) directs its demand for perfection not at outer order or social reform, but at intensity: at the complete, unpolished revealing of what is true. Naranjo called this subtype Zeal—a burning desire to let no lie stand, not even one's own.</p>
+          <p class="vb-intro">Few pop stars have lived this pattern as publicly as Robbie Williams. He spoke early and unprompted about drug addiction, alcohol excess, clinic stays, panic attacks, and depression—at a time when pop stars still guarded their image with all their might. No management could get him to sell a smoother version of himself. What he felt, he said—on stage, in interviews, in song lyrics like <em>Feel</em> or <em>Angels</em>, which reached millions for exactly that reason: because they were not a pose.</p>
+          <p class="vb-intro">His departure from Take That in 1995, at the height of success, was pure SX1 logic: the band worked brilliantly commercially—but it felt untrue to him. For the sexual One, no track record of success counts if the inside no longer matches what is shown on the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two Wing: Vulnerability as Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two wing (w2) gives the sexual One a decisive second note: the need to be loved, and the ability to open up for it. The pure SX1 can seem isolating in its intensity. The Two wing makes this intensity capable of relationship—turns confrontation into closeness, when the audience is willing to come along.</p>
+          <p class="vb-intro">Robbie Williams' entire stage persona lives from this Two wing: the constant eye contact with the audience, the need to be loved and needed at once, the self-deprecating asides, the vulnerability he never hides. He doesn't just sing for an audience—he seeks, in every concert, confirmation that he, exactly as he really is, is accepted. That is no weakness, but the second force of the mamba: it bites, but it also wants to be held.</p>
+          <p class="vb-intro">His public admissions about his own vanity, his fear of aging, his longing for recognition from his father—all of it shows a man who does not hide his neediness, but makes it part of his art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Wrath Against His Own Restlessness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called wrath—and for much of Robbie Williams' life it turned inward. The addiction, the excesses, the self-destructive phases of his career are the expression of an inner strictness that was never satisfied with itself: he was one of the most successful solo artists in British pop history—and for a long time could not believe it, feel it, or accept it.</p>
+          <p class="vb-intro">This wrath also showed outward: in conflicts with the music industry, in public feuds, in his refusal to bend to the expectations of the pop business. But unlike many Ones, a second tone always remained audible in Williams—that of the Two wing: self-irony. He made fun of himself before others could. A defense mechanism, but also a form of honesty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Return and the Maturing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2010, Robbie Williams returned to Take That, recorded albums with the band, and reconciled with former bandmates. In 2010 he married actress Ayda Field, with whom he has four children—and spoke openly about the challenges of fatherhood, therapy, and his own ADHD. Here too: no polished success story, but one that shows its cracks.</p>
+          <p class="vb-intro">In 2023, a Netflix documentary accompanied his career with unusual openness—Williams himself commented on archive footage of his younger self, often ruthlessly self-critical. This too is the mamba: it bites itself when necessary, when it recognizes it was not honest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Vulnerability as Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Robbie Williams gave pop culture is a rare permission: that a superstar does not have to be perfect to be loved—that, on the contrary, it is precisely the visible cracks that create the connection to the audience. That is the gift of the SX1w2: the refusal to show a polished facade, combined with the need to be truly seen.</p>
+          <p class="vb-intro">The Black Mamba with the Two wing does not bite to hurt—it bites because it cannot bear a lie, not even its own. And afterward it seeks the closeness that this honesty makes possible in the first place.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
+      ])}
     </div>
   `);
 }
@@ -39059,6 +39143,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
@@ -39477,7 +39562,11 @@ document.addEventListener("click", (e) => {
 
 // Automatischer Versions-Check – nur einmal pro Session (kein Reload-Loop)
 (function() {
-  const MY_VERSION = 'inhalt-v698';
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  const MY_VERSION = (function() {
+    try { return new URL(import.meta.url).searchParams.get('v'); } catch (e) { return null; }
+  })();
+  if (!MY_VERSION) return;
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
   if (sessionStorage.getItem(GUARD_KEY)) return; // schon einmal neu geladen
   setTimeout(function() {

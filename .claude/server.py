@@ -2,7 +2,7 @@
 import os, socketserver, http.server
 
 PORT = int(os.environ.get("PORT", 8005))
-os.chdir("/Users/detlefrathmer/Enneagramm-Kompass")
+os.chdir("/Users/detlefrathmer/enneagramm-heilungskompass")
 
 class UTF8Handler(http.server.SimpleHTTPRequestHandler):
     def send_header(self, keyword, value):
