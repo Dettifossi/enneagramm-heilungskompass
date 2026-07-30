@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "371";
+const APP_BUILD = "372";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1258,6 +1258,57 @@ const ENNEAGRAMM_FILME = {
       { title:"9½ Weeks", year:"1986", text:"Besitzergreifende Intensität, die eine Beziehung vollständig übernimmt." },
     ],
   },
+  "SE9": {
+    typ: 9, instinkt: "SE", animal: "Elefant",
+    title: "SE9 – Selbsterhaltungstyp 9: Der Elefant und die bequeme Routine",
+    intro: "Zehn Filme über Trost durch Gewohnheit und Komfort – ein Leben, das sich in vertrauten Routinen einrichtet, bis der Ruf zur Veränderung zu laut wird.",
+    filme: [
+      { title:"The Big Lebowski", year:"1998", text:"Ein Leben, das sich ganz bewusst in Gemütlichkeit und Routine einrichtet und jeder Anstrengung aus dem Weg geht." },
+      { title:"Sideways", year:"2004", text:"Komfortable Vermeidung großer Entscheidungen, verpackt in angenehme, wiederkehrende Rituale." },
+      { title:"The Descendants", year:"2011", text:"Ein passives, treibendes Leben, das erst durch eine Krise aus seiner bequemen Routine gerissen wird." },
+      { title:"Up in the Air", year:"2009", text:"Komfort durch eingespielte Routinen und Distanz, die tiefere Bindung lange auf Abstand hält." },
+      { title:"Groundhog Day", year:"1993", text:"Gefangensein in bequemer Wiederholung, bis echtes Wachstum nicht mehr zu vermeiden ist." },
+      { title:"Hector and the Search for Happiness", year:"2014", text:"Der Ausbruch aus einer allzu bequemen Routine, um wieder wirklich lebendig zu werden." },
+      { title:"About a Boy", year:"2002", text:"Ein Leben in angenehmer, folgenloser Routine, das sich erst durch eine echte Bindung verändert." },
+      { title:"Nebraska", year:"2013", text:"Trägheit und stille Gewohnheit innerhalb einer Familie, die sich nur schwer in Bewegung setzt." },
+      { title:"Little Miss Sunshine", year:"2006", text:"Eine Familie, die trotz Chaos in eingespielten, komfortablen Mustern verharrt, bis sie gemeinsam aufbrechen muss." },
+      { title:"American Beauty", year:"1999", text:"Das Erwachen aus einer betäubenden, allzu bequemen Alltagsroutine." },
+    ],
+  },
+  "SO9": {
+    typ: 9, instinkt: "SO", animal: "Büffel",
+    title: "SO9 – Sozialer Typ 9: Der Büffel in der Herde",
+    intro: "Zehn Filme über das Verschmelzen mit einer Gemeinschaft – Identität, die sich ganz über Zugehörigkeit zu einer Gruppe definiert.",
+    filme: [
+      { title:"Dances with Wolves", year:"1990", text:"Kevin Costner – im Kompass als SO9w1 geführt – als Mann, der seine frühere Identität vollständig in einer neuen Gemeinschaft aufgehen lässt." },
+      { title:"Field of Dreams", year:"1989", text:"Kevin Costner erneut, in einer Geschichte über Verbindung, gemeinsame Erinnerung und das Zusammenkommen einer Gemeinschaft." },
+      { title:"The Shawshank Redemption", year:"1994", text:"Identität und Halt, die sich über die stille Zugehörigkeit zu einer Gemeinschaft hinter Mauern definieren." },
+      { title:"Remember the Titans", year:"2000", text:"Eine Gruppe, die ihre einzelnen Identitäten hinter sich lässt, um zu einer einzigen, geeinten Mannschaft zu verschmelzen." },
+      { title:"Coach Carter", year:"2005", text:"Identität und Selbstwert, die sich über die Zugehörigkeit zu einem Team und dessen gemeinsamen Werten aufbauen." },
+      { title:"Hoosiers", year:"1986", text:"Eine kleine Gemeinschaft, die sich vollständig mit dem Erfolg und Zusammenhalt ihres Teams identifiziert." },
+      { title:"A League of Their Own", year:"1992", text:"Identität, die im gemeinsamen Erleben und Zusammenhalt einer Gruppe entsteht." },
+      { title:"Friday Night Lights", year:"2004", text:"Eine ganze Gemeinschaft, deren Identität untrennbar mit der ihres Teams verbunden ist." },
+      { title:"Sing Street", year:"2016", text:"Der Aufbau einer eigenen Identität, die erst durch Zugehörigkeit zu einer selbstgewählten Gruppe möglich wird." },
+      { title:"Invictus", year:"2009", text:"Eine ganze Nation, die über die Identifikation mit einer gemeinsamen Sache zusammenfindet." },
+    ],
+  },
+  "SX9": {
+    typ: 9, instinkt: "SX", animal: "Faultier",
+    title: "SX9 – Sexueller Typ 9: Das Faultier und die vollständige Verschmelzung",
+    intro: "Zehn Filme über das Verschmelzen mit einer einzigen Person, bis die eigenen Grenzen kaum noch spürbar sind.",
+    filme: [
+      { title:"Fifty Shades of Grey", year:"2015", text:"Dakota Johnson – im Kompass als SX9w8 geführt – als Figur, die sich in einer intensiven Zweierbeziehung fast vollständig selbst aufgibt." },
+      { title:"John Wick", year:"2014", text:"Keanu Reeves – im Kompass als SX9w1 geführt – als Mann, dessen ganze Identität untrennbar mit der Liebe zu einem einzigen Menschen verschmolzen ist." },
+      { title:"The Lake House", year:"2006", text:"Keanu Reeves erneut, in einer Geschichte über eine Verbindung, die über alle Grenzen hinweg exklusiv bestehen bleibt." },
+      { title:"Love Actually", year:"2003", text:"Heike Makatsch – im Kompass als SX9w8 geführt – in einem Ensemble, das die vollständige Hingabe an die eine besondere Verbindung feiert." },
+      { title:"Vicky Cristina Barcelona", year:"2008", text:"Identitäten, die sich in intensiven, verschmelzenden Beziehungen fast auflösen." },
+      { title:"Brokeback Mountain", year:"2005", text:"Eine Bindung, die trotz Unterdrückung so tief verschmilzt, dass sie das ganze Leben bestimmt." },
+      { title:"Twilight", year:"2008", text:"Eine Identität, die sich vollständig mit der des geliebten Menschen verwebt." },
+      { title:"Before Sunrise", year:"1995", text:"Zwei Menschen, die in einer einzigen, intensiven Begegnung fast vollständig ineinander aufgehen." },
+      { title:"The Age of Adaline", year:"2015", text:"Eine Verbindung, die stark genug ist, jahrzehntelange Distanz und Selbstschutz aufzulösen." },
+      { title:"Her", year:"2013", text:"Vollständiges Verschmelzen mit einer einzigen Stimme und Präsenz, bis die eigenen Grenzen kaum noch spürbar sind." },
+    ],
+  },
 };
 // ─── Enneagramm Filme ───────────────────────────────────────────────────────
 
@@ -1283,7 +1334,7 @@ function enneagrammFilmeUebersichtPage() {
     <div class="page-container">
       ${pageHeader('Enneagramm-Filmempfehlungen')}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm-Filmempfehlungen</h1>
-      <p class="psycho-intro">Neun Typen, 27 Subtypen – und die Filme, die ihre Themen greifbar machen. Pro Subtyp zehn Filme, die Leidenschaft, Fixierung oder Heilungsweg spiegeln. Wo möglich, mit Rollen von Schauspieler:innen, die im Kompass selbst diesem Subtyp zugeordnet sind – die vermutlich stimmigste Darstellung. Wir bauen diese Rubrik Typ für Typ aus.</p>
+      <p class="psycho-intro">Neun Typen, 27 Subtypen – und die Filme, die ihre Themen greifbar machen. Pro Subtyp zehn Filme, die Leidenschaft, Fixierung oder Heilungsweg spiegeln. Wo möglich, mit Rollen von Schauspieler:innen, die im Kompass selbst diesem Subtyp zugeordnet sind – die vermutlich stimmigste Darstellung.</p>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
         ${[1,2,3,4,5,6,7,8,9].map(tile).join('')}
       </div>
