@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "373";
+const APP_BUILD = "374";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -6067,7 +6067,7 @@ function bindEvents() {
   });
   // Kriminalporträt-Filter – Karten-Klick + Initialisierung
   if (document.getElementById('kf-list')) {
-    window.kfState = { inst:"ALL", typ:0, tag:"ALL" };
+    window.kfState = { inst:"ALL", typ:0, tag:"ALL", gender:"ALL" };
     document.querySelectorAll('.kf-card').forEach(el => {
       el.addEventListener('click', () => go(el.dataset.route));
     });
