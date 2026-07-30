@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "369";
+const APP_BUILD = "370";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1154,6 +1154,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Killing Them Softly", year:"2012", text:"Misstrauen und Wachsamkeit, die sich in kalkulierte, kompromisslose Härte verwandeln, um die eigene Position zu sichern." },
       { title:"A History of Violence", year:"2005", text:"Die dünne Grenze zwischen Angst, Schutz und der eigenen verborgenen Gewaltbereitschaft." },
       { title:"Nightcrawler", year:"2014", text:"Eine Figur, die Unsicherheit in kalte, riskante Kompromisslosigkeit übersetzt, um Kontrolle über eine bedrohliche Welt zu gewinnen." },
+    ],
+  },
+  "SE7": {
+    typ: 7, instinkt: "SE", animal: "Gorilla",
+    title: "SE7 – Selbsterhaltungstyp 7: Der Gorilla und der gedeckte Tisch",
+    intro: "Zehn Filme über praktischen Genuss und ein verlässliches Netz an Optionen – Fülle als Absicherung gegen den Mangel.",
+    filme: [
+      { title:"My Dinner with André", year:"1981", text:"Wallace Shawn – im Kompass als SE7w6 geführt – in einem ausgedehnten Gespräch über Genuss, Ideen und die Fülle des Lebens im vertrauten Kreis." },
+      { title:"The Princess Bride", year:"1987", text:"Wallace Shawn erneut, als gewitzter Stratege, der sich immer mehrere Optionen und Auswege offenhält." },
+      { title:"Eat Pray Love", year:"2010", text:"Genuss und neue Möglichkeiten als bewusste Strategie gegen Schmerz und Enge." },
+      { title:"Under the Tuscan Sun", year:"2003", text:"Der Aufbau eines neuen, versorgenden Umfelds als Antwort auf Verlust – Fülle statt Mangel." },
+      { title:"Chef", year:"2014", text:"Freude am Genuss und an der eigenen Praxis als Quelle von Sicherheit und Lebendigkeit." },
+      { title:"Julie & Julia", year:"2009", text:"Kulinarischer Genuss als verlässliche, wiederkehrende Quelle von Freude im Alltag." },
+      { title:"The Hundred-Foot Journey", year:"2014", text:"Genuss und kulinarische Fülle als Weg, sich in einer neuen Umgebung ein sicheres, angenehmes Leben aufzubauen." },
+      { title:"Chocolat", year:"2000", text:"Sinnlicher Genuss als bewusste Gegenkraft zu Enge und Verzicht." },
+      { title:"A Good Year", year:"2006", text:"Der Umbau eines Lebens hin zu mehr Genuss, Leichtigkeit und offenen Möglichkeiten." },
+      { title:"The Secret Life of Walter Mitty", year:"2013", text:"Praktischer Aufbruch zu neuen Erfahrungen, sobald der Alltag zu eng wird." },
+    ],
+  },
+  "SO7": {
+    typ: 7, instinkt: "SO", animal: "Biber",
+    title: "SO7 – Sozialer Typ 7: Der Biber im Dienst der Gruppe",
+    intro: "Zehn Filme über Idealismus, der sich für das Wohl der Gruppe einsetzt – Begeisterung, die auch eigene Unzulänglichkeiten in Kauf nimmt.",
+    filme: [
+      { title:"Johnny English", year:"2003", text:"Rowan Atkinson – im Kompass als SO7w6 geführt – als tollpatschiger, aber unbeirrbar einsatzbereiter Held im Dienst des großen Ganzen." },
+      { title:"Mr. Bean's Holiday", year:"2007", text:"Rowan Atkinson erneut, unfreiwillig, aber folgenreich in das Wohlergehen anderer verstrickt." },
+      { title:"Yes Man", year:"2008", text:"Begeisterung, die sich radikal für jede neue Möglichkeit öffnet, um dem eigenen Leben und dem Umfeld mehr zu geben." },
+      { title:"Pitch Perfect", year:"2012", text:"Begeisterung und Einsatz für eine Gruppe, deren gemeinsamer Erfolg wichtiger wird als die eigene Bühne." },
+      { title:"Sister Act", year:"1992", text:"Ansteckende Begeisterung, die eine ganze Gemeinschaft neu belebt." },
+      { title:"Almost Famous", year:"2000", text:"Idealistische Begeisterung für eine Gruppe und ihre gemeinsame Sache, trotz aller Reibung." },
+      { title:"Kinky Boots", year:"2005", text:"Einsatz für das Wohl eines ganzen Teams, der die eigene Komfortzone überschreitet." },
+      { title:"Zombieland", year:"2009", text:"Der Aufbau einer improvisierten Gemeinschaft, die trotz Chaos zusammenhält und sich gegenseitig Freude schenkt." },
+      { title:"We're the Millers", year:"2013", text:"Eine notgedrungene Gruppe, die durch gemeinsame Abenteuer zu einem echten Zusammenhalt findet." },
+      { title:"School of Rock", year:"2003", text:"Begeisterung, die eine ganze Gruppe mitreißt und alle über sich hinauswachsen lässt." },
+    ],
+  },
+  "SX7": {
+    typ: 7, instinkt: "SX", animal: "Schimpanse",
+    title: "SX7 – Sexueller Typ 7: Der Schimpanse und die ansteckende Begeisterung",
+    intro: "Zehn Filme über Charme, Geschichten und Enthusiasmus, der eine einzelne Person sofort für sich einnimmt.",
+    filme: [
+      { title:"Big Fish", year:"2003", text:"Eine Figur, deren Lebensgeschichten so charismatisch und übersteigert sind, dass sie jeden im Raum sofort für sich einnehmen." },
+      { title:"Catch Me If You Can", year:"2002", text:"Ein charmanter, geschichtenerzählender Hochstapler, dessen Enthusiasmus sofort ansteckend wirkt." },
+      { title:"Forrest Gump", year:"1994", text:"Ein Leben voller Begeisterung und Direktheit, das im persönlichen Kontakt sofort für sich einnimmt." },
+      { title:"Life of Pi", year:"2012", text:"Die Kraft einer intensiv erzählten Geschichte, die ihr Gegenüber sofort in ihren Bann zieht." },
+      { title:"The Secret Life of Walter Mitty", year:"2013", text:"Ausbruch aus dem Alltag in eine Welt voller Erlebnisse, angetrieben von der Sehnsucht nach echter Verbindung." },
+      { title:"Yes Man", year:"2008", text:"Ansteckende Begeisterung, die sich ganz auf einzelne, intensive Begegnungen konzentriert." },
+      { title:"Amélie", year:"2001", text:"Verspielter, ansteckender Charme, der gezielt einzelne Menschen im direkten Kontakt verzaubert." },
+      { title:"Chef", year:"2014", text:"Leidenschaft und Begeisterung, die im persönlichen Kontakt unmittelbar überspringt." },
+      { title:"About Time", year:"2013", text:"Enthusiasmus und Hingabe, die sich ganz auf die eine besondere Verbindung richten." },
+      { title:"La La Land", year:"2016", text:"Charismatische, mitreißende Begeisterung, die zwei Menschen füreinander entflammen lässt." },
     ],
   },
 };
