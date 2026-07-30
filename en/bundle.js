@@ -384,6 +384,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] },
+  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
+    heading:"Elvis Presley – Sexual Type 2",
+    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, singer, actor. Hip-shaking as scandal, ballads as proof of love, boundless generosity toward fans and strangers alike. Animal correspondence: Camel.",
+    tags:["Musik"] },
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -15523,6 +15527,72 @@ function neilArmstrongPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function elvisPresleyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-elvis-presley-portrait.jpg" alt="Elvis Presley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elvis Presley</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-Wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">King of Rock&rsquo;n&rsquo;Roll, singer &amp; actor, 1935&ndash;1977 &ndash; Animal equivalent: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others. It carries what it has straight to the one person who needs it right now, without calculation, without holding back. In Elvis Presley, this image became a stage presence that electrified an entire generation: he did not sing to an audience, he sang to every single person in it, with an intensity that reached across the room as if no one else existed.</p>
+          <p class="vb-intro">Elvis Aaron Presley, born in 1935 in Tupelo, Mississippi, grew up in modest circumstances, closely bonded to his mother Gladys, whose love he described throughout his life as his surest ground. In 1954 he recorded his first songs in Memphis &ndash; and within a few years, a shy young man with an unusual voice became the best-selling solo artist in music history. The camel knows the desert of beginnings. And it still gives everything the moment it is needed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Seduction as a Stage Language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Two <strong>seduction</strong> &ndash; the ability to create immediate connection through intense, personal presence. With Elvis, this was literally visible: the hip-shaking that became a scandal on American television in 1956 and earned him the nickname <em>Elvis the Pelvis</em> was not a rehearsed trick, but the physical expression of an energy that refused to allow distance. For a time, cameras were only permitted to film him from the waist up &ndash; an attempt to contain something that resisted control.</p>
+          <p class="vb-intro">This seductive power was not confined to the stage. Those who met Elvis often described an attention that focused entirely on the one person in the room &ndash; a direct gaze, a turned-toward-you quality that made the other feel like the most important person in the world in that moment. That is exactly the gift of the SX2: not to conquer the masses, but to assert a genuine connection in every single encounter, even while millions are watching.</p>
+          <p class="vb-intro">And the SX2 gives. Elvis&rsquo;s generosity is legendary: he gave away Cadillacs to strangers he happened to meet on the street, paid hospital bills for people he had never known, showered friends and family with gifts far beyond the ordinary. This was not calculation &ndash; it was the Two proving through giving that it is worthy of love.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: Perfection as Proof of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>three wing (w3)</strong> adds a second dimension to the SX2's longing for connection: image, performance, polish. Elvis relentlessly refined his stage presence &ndash; his voice, his costumes, his choreography, his entrances. From the modest beginnings in Memphis to the elaborately staged Las Vegas shows of the 1970s with capes, rhinestones, and orchestra, a constant evolution of his own image is visible &ndash; not out of vanity, but out of a need to give the audience the best he had, every single time.</p>
+          <p class="vb-intro">His path to Hollywood carries the same signature: over 30 films, many of them pure vehicles for his music and his image, produced at the pace dictated by his manager, Colonel Tom Parker. The Three wants to shine, wants to be seen, wants success in measurable form &ndash; record sales, sold-out arenas, film contracts. In Elvis, this ambition never felt cold, because it always served the same question that drives the SX2: Am I worthy of being loved?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Overall Impact: Fire That Fills the Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who watches footage of Elvis's early performances immediately understands why entire concert halls fell into collective ecstasy: it was not a detached performance but an energy that transferred directly onto the audience. Fans screaming, crying, fainting were not tabloid exaggeration but the real response to a stage presence that simulated personal closeness even when thousands were watching.</p>
+          <p class="vb-intro">At the same time, a tenderness remained visible in Elvis's performances that stood in contrast to the explosive sexuality of his early career &ndash; ballads like <em>Can&rsquo;t Help Falling in Love</em> reveal the other side of the SX2: not only seduction, but a devoted, almost childlike longing for genuine connection. Both belong together. That is the camel that knows both the heat of the desert and the cool of the night.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Impact: Closeness to the Mother, Closeness to the Abyss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The death of his mother Gladys in 1958 hit Elvis like an earthquake &ndash; witnesses described a man collapsing at the graveside, never fully recovering. For an SX2 whose deepest bond is often tied to the first, most formative attachment figure, this loss was a wound that never closed. The following decades reveal a person trying to fill that emptiness through ever-new relationships, ever-new audiences, ever-new confirmation &ndash; and increasingly seeking refuge in prescribed medication.</p>
+          <p class="vb-intro">The dependency on sedatives and painkillers that intensified through the 1970s was also an expression of the SX2's shadow side: the exhaustion of someone who gives endlessly without ever being refilled. On August 16, 1977, Elvis Presley died at Graceland at only 42 years old from heart failure, brought on by years of medication abuse. The camel who carried so much for so many others eventually had no one left to carry it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Voice That Connects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Elvis Presley gave the world was more than music. He broke down barriers between genres, between Black and white musical traditions, between what was considered proper and what people actually felt. His gospel roots, his love of rhythm and blues, his ballads &ndash; all of it carried the same SX2w3 message: I am showing you my full intensity, unfiltered, and I hope you love me for it.</p>
+          <p class="vb-intro">The camel knows the desert, and it knows the exhaustion that comes from giving without limit. Yet what remains is the memory of a man who made millions of strangers feel completely seen in a single song or a single glance. That is Elvis Presley. That is the SX2w3, celebrated and vulnerable at once.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
       ])}
     </div>
   `);
@@ -39504,6 +39574,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,

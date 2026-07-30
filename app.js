@@ -526,6 +526,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
+    heading:"Elvis Presley – Sexueller Typ 2",
+    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, Sänger, Schauspieler. Hüftschwung als Skandal, Balladen als Liebesbeweis, grenzenlose Großzügigkeit gegenüber Fans und Fremden. Tierentsprechung: Kamel.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
     heading:"Dieter Nuhr – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterflügel: Komik als Dienst an der Öffentlichkeit, Haltung als Schutzschild.",
@@ -16578,6 +16582,72 @@ function pamelaReifPortraitPage() {
         {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
         {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function elvisPresleyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elvis-presley-portrait.jpg" alt="Elvis Presley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elvis Presley</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">King of Rock&rsquo;n&rsquo;Roll, Sänger &amp; Schauspieler, 1935&ndash;1977 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; ausdauernd, hingebungsvoll, in der Lage, für andere über die eigenen Grenzen hinauszugehen. Es trägt, was es hat, direkt zu dem einen Menschen, der es gerade braucht &ndash; ohne Rechnung, ohne Zurückhaltung. Bei Elvis Presley wurde aus diesem Bild eine Bühnenpräsenz, die eine ganze Generation elektrisierte: Er sang nicht für ein Publikum, er sang für jeden Einzelnen darin, mit einer Intensität, die durch den Raum griff, als gäbe es niemanden sonst.</p>
+          <p class="vb-intro">Elvis Aaron Presley, geboren 1935 in Tupelo, Mississippi, wuchs in bescheidenen Verhältnissen auf, eng gebunden an seine Mutter Gladys, deren Liebe er zeitlebens als seinen sichersten Boden beschrieb. 1954 nahm er in Memphis seine ersten Songs auf &ndash; und innerhalb weniger Jahre wurde aus einem schüchternen jungen Mann mit einer ungewöhnlichen Stimme der meistverkaufte Solokünstler der Musikgeschichte. Das Kamel kennt die Wüste der Anfänge. Und es gibt trotzdem alles, sobald es gebraucht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verführung als Bühnensprache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, durch intensive, persönliche Präsenz eine unmittelbare Verbindung herzustellen. Bei Elvis war das buchstäblich sichtbar: der Hüftschwung, der 1956 im amerikanischen Fernsehen zum Skandal wurde und ihm den Beinamen <em>Elvis the Pelvis</em> einbrachte, war kein einstudierter Trick, sondern der körperliche Ausdruck einer Energie, die keine Distanz zulassen wollte. Kameras durften ihn zeitweise nur bis zur Hüfte filmen &ndash; ein Versuch, etwas einzudämmen, das sich der Kontrolle entzog.</p>
+          <p class="vb-intro">Diese Verführungskraft war nicht auf die Bühne beschränkt. Wer Elvis begegnete, berichtete oft von einer Aufmerksamkeit, die sich ganz auf die eine Person im Raum richtete &ndash; ein direkter Blick, eine Zugewandtheit, die das Gegenüber das Gefühl gab, in diesem Moment der wichtigste Mensch der Welt zu sein. Genau das ist die SX2-Gabe: nicht die Masse zu erobern, sondern in jeder einzelnen Begegnung eine echte Verbindung zu behaupten, selbst wenn Millionen zusehen.</p>
+          <p class="vb-intro">Und die SX2 gibt. Legendär ist Elvis&rsquo; Großzügigkeit: Er verschenkte Cadillacs an Fremde, die er zufällig auf der Straße traf, bezahlte Krankenhausrechnungen für Menschen, die er nie kennengelernt hatte, überhäufte Freunde und Familie mit Geschenken, deren Wert weit über das Übliche hinausging. Das war kein Kalkül &ndash; es war die Zwei, die sich durch Geben beweist, dass sie liebenswert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Perfektion als Liebesbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Verbindungssehnsucht der SX2 eine zweite Dimension: Image, Leistung, Glanz. Elvis feilte unablässig an seiner Bühnenpräsenz &ndash; an Stimme, Kostüm, Choreografie, Auftritt. Von den schlichten Anfängen in Memphis bis zu den aufwendig inszenierten Las-Vegas-Shows der Siebzigerjahre mit Cape, Nieten und Orchester zeigt sich eine ständige Weiterentwicklung des eigenen Bildes &ndash; nicht aus Eitelkeit, sondern aus dem Bedürfnis, dem Publikum jedes Mal das Beste zu geben, das er zu geben hatte.</p>
+          <p class="vb-intro">Auch sein Weg nach Hollywood trägt diese Handschrift: über 30 Filme, viele davon reine Vehikel für seine Musik und sein Image, produziert im Takt der Studiologik unter seinem Manager Colonel Tom Parker. Die Drei will glänzen, will gesehen werden, will Erfolg in messbarer Form &ndash; Rekordverkäufe, ausverkaufte Hallen, Filmverträge. Bei Elvis wirkte diese Ambition nie kalt, weil sie stets im Dienst derselben Frage stand, die die SX2 antreibt: Bin ich es wert, geliebt zu werden?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Feuer, das den Raum füllt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Aufnahmen von Elvis&rsquo; frühen Auftritten sieht, erkennt sofort, warum ganze Konzertsäle in kollektive Ekstase verfielen: Es war keine distanzierte Performance, sondern eine Energie, die sich unmittelbar auf das Publikum übertrug. Schreiende, weinende, ohnmächtig werdende Fans waren keine Übertreibung der Boulevardpresse, sondern die reale Reaktion auf eine Bühnenpräsenz, die persönliche Nähe simulierte, wo eigentlich tausende Menschen zusahen.</p>
+          <p class="vb-intro">Gleichzeitig blieb in Elvis&rsquo; Auftreten eine Zärtlichkeit spürbar, die im Kontrast zur explosiven Sexualität seiner frühen Karriere stand &ndash; Balladen wie <em>Can&rsquo;t Help Falling in Love</em> zeigen die andere Seite der SX2: nicht nur Verführung, sondern hingebungsvolle, fast kindliche Sehnsucht nach echter Verbindung. Beides gehört zusammen. Das ist das Kamel, das sowohl die Wüstenhitze als auch die kühle Nacht kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Die Nähe zur Mutter, die Nähe zum Abgrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Tod seiner Mutter Gladys 1958 traf Elvis wie ein Erdbeben &ndash; Zeitzeugen beschrieben einen Mann, der am Grab zusammenbrach und sich nie vollständig davon erholte. Für eine SX2, deren tiefste Verbindung oft an der ersten, prägendsten Bezugsperson hängt, war dieser Verlust eine Wunde, die offenblieb. Die folgenden Jahrzehnte zeigen eine Persönlichkeit, die versuchte, diese Leere durch immer neue Beziehungen, immer neues Publikum, immer neue Bestätigung zu füllen &ndash; und die zunehmend Zuflucht in verschriebenen Medikamenten suchte.</p>
+          <p class="vb-intro">Die Abhängigkeit von Beruhigungs- und Schmerzmitteln, die sich über die Siebzigerjahre verschärfte, war auch ein Ausdruck der Schattenseite der SX2: die Erschöpfung dessen, der endlos gibt, ohne selbst aufgefüllt zu werden. Am 16. August 1977 starb Elvis Presley in Graceland im Alter von nur 42 Jahren an Herzversagen, begünstigt durch jahrelangen Medikamentenmissbrauch. Das Kamel, das für so viele andere trug, hatte irgendwann niemanden mehr, der es selbst trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Eine Stimme, die verbindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Elvis Presley der Welt gab, war mehr als Musik. Er brach Grenzen zwischen Genres, zwischen Schwarzer und Weißer Musiktradition, zwischen dem, was als schicklich galt, und dem, was Menschen wirklich fühlten. Seine Gospel-Wurzeln, seine Liebe zum Rhythm and Blues, seine Balladen &ndash; all das trug dieselbe Botschaft der SX2w3: Ich zeige dir meine ganze Intensität, ungefiltert, und ich hoffe, du liebst mich dafür.</p>
+          <p class="vb-intro">Das Kamel kennt die Wüste und kennt die Erschöpfung, die aus grenzenlosem Geben entsteht. Doch was bleibt, ist die Erinnerung an einen Menschen, der Millionen Fremden das Gefühl gab, in einem einzigen Song oder Blick vollständig gesehen zu werden. Das ist Elvis Presley. Das ist die SX2w3, gefeiert und verletzlich zugleich.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-pamela-reif", label:"Porträt: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-braco", label:"Porträt: Braco (SX2w3)"},
       ])}
     </div>
   `);
@@ -42473,6 +42543,7 @@ function render() {
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
