@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "358";
+const APP_BUILD = "359";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -310,6 +310,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1967. Heiler, The Gazer. Er spricht nicht, er berührt nicht – er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht können: das Gefühl, gesehen zu werden. Tierentsprechung: Kamel.",
     tags:["Sonstiges"] , gender:"m"},
+  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
+    heading:"Elvis Presley – Sexueller Typ 2",
+    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, Sänger, Schauspieler. Hüftschwung als Skandal, Balladen als Liebesbeweis, grenzenlose Großzügigkeit gegenüber Fans und Fremden. Tierentsprechung: Kamel.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-wolodymyr-selenskyj", name:"Wolodymyr Selenskyj", added:"2026-07-20", subtyp:"SE3w2",
     heading:"Wolodymyr Selenskyj – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1978. Komiker, Schauspieler, Staatspräsident. Kontratyp der Drei: meisterhaft im Verbergen der eigenen Inszenierung. Der Waschbär, der den Helden spielt – und den Unterschied vergessen hat. Tierentsprechung: Waschbär.",
@@ -526,10 +530,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1971. Unternehmer, Gründer von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut – und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
-  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
-    heading:"Elvis Presley – Sexueller Typ 2",
-    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, Sänger, Schauspieler. Hüftschwung als Skandal, Balladen als Liebesbeweis, grenzenlose Großzügigkeit gegenüber Fans und Fremden. Tierentsprechung: Kamel.",
-    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
     heading:"Dieter Nuhr – Sozialer Typ 7",
     teaser:"SO7w8 · geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterflügel: Komik als Dienst an der Öffentlichkeit, Haltung als Schutzschild.",

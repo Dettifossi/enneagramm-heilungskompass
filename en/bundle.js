@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "358";
+const APP_BUILD = "359";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -256,6 +256,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Braco – Sexual Type 2",
     teaser:"SX2w3 · born 1967. Healer, The Gazer. He does not speak, he does not touch – he looks. In silent group events worldwide, his gaze creates what many words cannot: the feeling of being truly seen. Animal correspondence: Camel.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
+    heading:"Elvis Presley – Sexual Type 2",
+    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, singer, actor. Hip-shaking as scandal, ballads as proof of love, boundless generosity toward fans and strangers alike. Animal correspondence: Camel.",
+    tags:["Musik"] },
   { route:"beruehmte-sadhguru", name:"Sadhguru", subtyp:"SE3w2",
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
@@ -384,10 +388,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] },
-  { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
-    heading:"Elvis Presley – Sexual Type 2",
-    teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, singer, actor. Hip-shaking as scandal, ballads as proof of love, boundless generosity toward fans and strangers alike. Animal correspondence: Camel.",
-    tags:["Musik"] },
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
