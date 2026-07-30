@@ -286,6 +286,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nina Chuba – Soziale Typ 2",
     teaser:"SO2w3 · geb. 2000. Sängerin, Songwriterin. Mit Wildberry Lillet ein Gefühl getroffen, das Millionen kennen. Nähe statt Inszenierung – Musik als Raum, in dem niemand allein ist. Tierentsprechung: Golden Retriever.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-kamala-harris", name:"Kamala Harris", added:"2026-07-30", subtyp:"SO2w3",
+    heading:"Kamala Harris – Sozialer Typ 2",
+    teaser:"SO2w3 · geb. 1964. Politikerin, ehem. Vizepräsidentin der USA. Staatsanwältin, Senatorin, Vizepräsidentin – Dienst als politische Berufung, mehrere historische Premieren. Tierentsprechung: Golden Retriever.",
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
     heading:"Monika Gruber – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1970. Kabarettistin, Schauspielerin. Bayerns schärfste Verführerin zur Wahrheit – Humor als Heimat, Haltung als zweite Natur. Das Kamel, das tausend Menschen gleichzeitig anschaut. Tierentsprechung: Kamel.",
@@ -15651,6 +15655,75 @@ function ninaChubaPortraitPage() {
   `);
 }
 
+
+function kamalaHarrisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kamala-harris-portrait.jpg" alt="Kamala Harris" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kamala Harris</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Politikerin, ehem. Vizepräsidentin der USA, geb. 1964 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das Zugehörigkeit sucht, indem es sich für die Gemeinschaft einsetzt. Freundlich, engagiert, auf Verbindung ausgerichtet. Der Golden Retriever will gebraucht werden &ndash; nicht von einem Einzelnen, sondern von vielen. Er läuft voraus, schaut zurück, sammelt die Gruppe ein. Und wenn es hart auf hart kommt, zeigt sich, dass hinter der Warmherzigkeit ein zäher Wille steckt.</p>
+          <p class="vb-intro">Kamala Harris, geboren 1964 in Oakland als Tochter einer indischen Krebsforscherin und eines jamaikanischen Ökonomen, wuchs in einem Elternhaus auf, das von Bürgerrechtsaktivismus geprägt war &ndash; ihre Mutter nahm sie schon als Kleinkind zu Demonstrationen mit. Aus dieser frühen Prägung wurde eine Karriere, die sich fast lückenlos um eine Frage drehte: Wie kann ich für die Gemeinschaft wirksam werden?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Dienst als politische Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet die Energie der Zwei nicht auf einzelne persönliche Bindungen, sondern auf das größere Feld: Gemeinschaft, Öffentlichkeit, gesellschaftliche Wirkung. Naranjo nennt diesen Subtyp <em>Ambition</em> &ndash; nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, durch Einfluss und Sichtbarkeit mehr für viele bewirken zu können. Die SO2 fragt: <em>Wie kann ich in dieser Gemeinschaft unentbehrlich werden?</em></p>
+          <p class="vb-intro">Kamala Harris' gesamter Werdegang folgt dieser Logik: Staatsanwältin, Attorney General von Kalifornien, US-Senatorin, Vizepräsidentin. Sie hat sich immer wieder für Ämter entschieden, in denen sie unmittelbar für andere handeln konnte &ndash; als Anklägerin für Opfer, als Senatorin für Wählerinnen und Wähler, als Vizepräsidentin für ein ganzes Land. Ihr Wahlkampfmotto <em>For the People</em>, das sie aus ihrer Zeit als Staatsanwältin übernahm, bringt die SO2-Haltung auf den Punkt: Handeln im Namen der Gemeinschaft, nicht im eigenen.</p>
+          <p class="vb-intro">Auch ihre Art, öffentlich aufzutreten &ndash; das Lachen, die Umarmungen, das Bedürfnis, mit möglichst vielen Menschen persönlich in Kontakt zu treten &ndash; ist typische SO2-Energie. Der Golden Retriever bellt nicht von der Bühne herab. Er geht ins Publikum, schüttelt Hände, hört zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirksamkeit als Beweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei etwas Entscheidendes: den Antrieb zur sichtbaren Leistung, zum messbaren Erfolg, zum Beweis, dass die eigene Arbeit wirkt. Die reine SO2 könnte sich im Dienst an anderen verlieren. Der Dreierflügel setzt Ziele, verlangt Ergebnisse, will ankommen und nicht nur unterwegs sein.</p>
+          <p class="vb-intro">Bei Kamala Harris zeigt sich das in einer Reihe historischer Premieren: erste Frau, erste Schwarze und erste Person südasiatischer Abstammung als Attorney General von Kalifornien, als US-Senatorin aus Kalifornien in dieser Kombination, als Vizepräsidentin der Vereinigten Staaten. Der Dreierflügel lässt sich nicht mit dem zweiten Platz zufriedengeben &ndash; er fragt: Wie weit kann das noch gehen? Wer kann davon noch profitieren?</p>
+          <p class="vb-intro">Dieser Flügel hat auch seinen Preis. Kritiker warfen Harris während ihrer Zeit als Staatsanwältin vor, zu sehr auf harte Bilanzen gesetzt zu haben &ndash; Verurteilungsquoten, Härte gegenüber Bewährungsverstößen &ndash; Themen, die sie später selbst kritisch reflektierte. Der Dreierflügel der SO2 kann Erfolg mit Wirksamkeit verwechseln, auch dort, wo Fürsorge eigentlich mehr Nachsicht verlangt hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 ist ihre Fähigkeit, echtes Engagement mit strategischer Wirksamkeit zu verbinden. Kamala Harris hat als Staatsanwältin Programme zur Resozialisierung junger Ersttäter aufgebaut, sich für Verbraucherschutz und gegen Hypothekenbetrug eingesetzt &ndash; Themen, die selten Schlagzeilen machen, aber unmittelbar Menschen helfen. Das ist die SO2 in ihrer konstruktivsten Form: Wirkung, die nicht auf Applaus wartet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; das tiefe Bedürfnis, gebraucht und unentbehrlich zu sein. Bei der SO2w3 äußert sich das als der Druck, jede Rolle perfekt auszufüllen, jede Erwartung zu erfüllen &ndash; als Vizepräsidentin, als Präsidentschaftskandidatin, als Symbolfigur für mehrere gesellschaftliche Gruppen gleichzeitig. Diese Vielfachbelastung an Repräsentation ist eine reale Last, die viele SO2w3-Persönlichkeiten in öffentlichen Ämtern tragen &ndash; und die selten offen angesprochen wird.</p>
+          <p class="vb-intro">Kritiker haben Harris vorgeworfen, ihre Positionen je nach politischem Klima anzupassen. Aus der SO2-Perspektive lässt sich das auch anders lesen: der beständige Versuch, die Verbindung zu möglichst vielen unterschiedlichen Gruppen nicht zu verlieren &ndash; eine Stärke, die zur Schwäche wird, wenn die eigene Klarheit darüber verloren geht, wofür man selbst steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kandidatur 2024: Dienst unter Zeitdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Präsident Biden im Sommer 2024 seinen Rückzug aus dem Rennen erklärte, übernahm Kamala Harris innerhalb weniger Tage die Führung der demokratischen Kampagne &ndash; ohne Vorwarnung, ohne Vorbereitungszeit, unter enormem öffentlichem Druck. Für eine SO2w3 ist das die ultimative Bewährungsprobe: die Gemeinschaft ruft, und sie antwortet, egal wie kurz die Frist ist.</p>
+          <p class="vb-intro">Ihre Kampagne war geprägt von einer auffälligen Betonung von Gemeinschaft und Zusammenhalt &ndash; <em>We are not going back</em> &ndash; und von unermüdlichem persönlichem Einsatz, Kundgebung um Kundgebung. Der Golden Retriever mit Dreierflügel läuft auch dann noch, wenn die Kräfte längst erschöpft sein müssten &ndash; weil das Rudel es braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Wirksamer Dienst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Kamala Harris in die amerikanische Politik eingebracht hat, lässt sich nicht auf Wahlergebnisse reduzieren: die Öffnung höchster Ämter für Menschen, die zuvor nicht dort vertreten waren, und eine Vorstellung von politischem Dienst, die persönliche Nähe zu den Menschen nie aufgeben wollte, selbst auf der größtmöglichen Bühne.</p>
+          <p class="vb-intro">Das ist das Geschenk der SO2w3: Engagement, das sich nicht mit stillem Wirken zufriedengibt, sondern sichtbar werden will, damit es mehr Menschen erreicht. Der Golden Retriever, der nicht nur wedelt, sondern rennt &ndash; weil er weiß, dass irgendwo am anderen Ende jemand auf ihn wartet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function willSmithPortraitPage() {
   return shell(`
@@ -42342,6 +42415,7 @@ function render() {
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
+      "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,

@@ -240,6 +240,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nina Chuba – Social Type 2",
     teaser:"SO2w3 · born 2000. Singer, songwriter. With Wildberry Lillet she captured a feeling millions recognize. Closeness instead of performance – music as a space where no one is alone. Animal correspondence: Golden Retriever.",
     tags:["Musik"] },
+  { route:"beruehmte-kamala-harris", name:"Kamala Harris", added:"2026-07-30", subtyp:"SO2w3",
+    heading:"Kamala Harris – Social Type 2",
+    teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
+    tags:["Politik"] , gender:"f"},
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
     heading:"Matthias Schweighöfer – Sexual Type 2",
     teaser:"SX2w1 · born 1981. Actor, director, producer. Closeness instead of distance – whether as performer or director, he carries his ensemble like the camel carries its path. Animal correspondence: Camel.",
@@ -20173,6 +20177,74 @@ function ninaChubaPortraitPage() {
 }
 
 
+function kamalaHarrisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-kamala-harris-portrait.jpg" alt="Kamala Harris" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kamala Harris</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Politician, former US Vice President, b. 1964 – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that seeks belonging by committing itself to the community. Friendly, engaged, oriented toward connection. The Golden Retriever wants to be needed, not by one person, but by many. It runs ahead, looks back, gathers the group. And when things get tough, it becomes clear that behind the warmth lies a tenacious will.</p>
+          <p class="vb-intro">Kamala Harris, born in 1964 in Oakland as the daughter of an Indian cancer researcher and a Jamaican economist, grew up in a household shaped by civil rights activism, her mother took her to demonstrations as a toddler. That early imprint became a career that circled almost without interruption around a single question: how can I become effective for the community?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Service as Political Calling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs the energy of the Two not toward individual personal bonds, but toward the larger field: community, the public, social impact. Naranjo calls this subtype <em>Ambition</em>, not ambition for its own sake, but the drive to accomplish more for many through influence and visibility. The SO2 asks: <em>How can I become indispensable to this community?</em></p>
+          <p class="vb-intro">Kamala Harris's entire career follows this logic: prosecutor, Attorney General of California, US Senator, Vice President. She repeatedly chose offices in which she could act directly on behalf of others, as a prosecutor for victims, as a senator for voters, as vice president for an entire country. Her campaign slogan <em>For the People</em>, carried over from her time as a prosecutor, captures the SO2 stance exactly: acting in the name of the community, not the self.</p>
+          <p class="vb-intro">Her public manner too, the laughter, the embraces, the need to connect personally with as many people as possible, is typical SO2 energy. The Golden Retriever does not bark down from the stage. It goes into the crowd, shakes hands, listens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: Effectiveness as Proof</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two something decisive: the drive toward visible achievement, measurable success, proof that one's own work is effective. The pure SO2 could lose itself in service to others. The Three-wing sets goals, demands results, wants to arrive rather than merely be on the way.</p>
+          <p class="vb-intro">In Kamala Harris this shows in a series of historic firsts: first woman, first Black person, and first person of South Asian descent as Attorney General of California, as a US Senator from California in that combination, as Vice President of the United States. The Three-wing does not settle for second place, it asks: how much further can this go? Who else can benefit from it?</p>
+          <p class="vb-intro">This wing also has its price. Critics accused Harris during her time as a prosecutor of relying too heavily on tough statistics, conviction rates, harshness on parole violations, issues she later reflected on critically herself. The Three-wing of the SO2 can mistake success for effectiveness, even in places where care would have called for more leniency.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 is its ability to combine genuine engagement with strategic effectiveness. As a prosecutor, Kamala Harris built programs for the rehabilitation of young first-time offenders, championed consumer protection, and fought mortgage fraud, issues that rarely make headlines but help people directly. That is the SO2 at its most constructive: impact that does not wait for applause.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong>, the deep need to be needed and indispensable. In the SO2w3 this shows as the pressure to fill every role perfectly, to meet every expectation, as vice president, as presidential candidate, as a symbolic figure for several social groups at once. This layered burden of representation is a real weight many SO2w3 personalities in public office carry, and one rarely spoken about openly.</p>
+          <p class="vb-intro">Critics have accused Harris of adjusting her positions to the political climate. From the SO2 perspective this can also be read differently: the constant effort not to lose connection with as many different groups as possible, a strength that becomes a weakness when it costs clarity about what one stands for oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The 2024 Campaign: Service Under Time Pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When President Biden announced his withdrawal from the race in the summer of 2024, Kamala Harris took over leadership of the Democratic campaign within days, without warning, without preparation time, under enormous public pressure. For an SO2w3, that is the ultimate test: the community calls, and she answers, no matter how short the notice.</p>
+          <p class="vb-intro">Her campaign was marked by a striking emphasis on community and unity, <em>We are not going back</em>, and by tireless personal effort, rally after rally. The Golden Retriever with the Three-wing keeps running even when its strength should long have run out, because the pack needs it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Effective Service</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Kamala Harris has brought to American politics cannot be reduced to election results: the opening of the highest offices to people not previously represented there, and a vision of political service that never wanted to give up personal closeness to people, even on the largest possible stage.</p>
+          <p class="vb-intro">That is the gift of the SO2w3: engagement that does not settle for quiet effort but wants to become visible so it can reach more people. The Golden Retriever that does not just wag its tail but runs, because it knows someone is waiting on the other end.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function matthiasSchweighoeferPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39324,6 +39396,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
+      "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
