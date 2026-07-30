@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "372";
+const APP_BUILD = "373";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -130,7 +130,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Selbsterhaltender Typ 3",                              teaser:"\u201eCryptoqueen\u201c, geb. 1980. \xdcber 4\xa0Mrd. Euro Schaden, seit 2017 spurlos verschwunden \u2013 die selbsterhaltende Drei mit Viererfl\xfcgel: perfekte Inszenierung, globaler Betrug, radikales Verschwinden." , tags:["Betrug"], gender:"f"},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Selbsterhaltender Typ 3",                               teaser:"SE3w4 – Die Schwarze Witwe von La Porte, 1859–1908(?). Mindestens 25–40 Opfer, darunter zwei Ehem\xe4nner und zahlreiche M\xe4nner, die sie per Heiratsanzeige anlockte. Der Waschb\xe4r: stille T\xe4uschung, Ressourcenkontrolle, kein Geltungsdrang – nur die n\xe4chste Mahlzeit. Tierentsprechung: Waschb\xe4r." , tags:["Serienmord","Betrug"], gender:"f"},
   { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Selbsterhaltender Typ 3",                           teaser:"SE3w4 \u2013 \u201eBarbie\u201c der Ken-und-Barbie-Killer, geb. 1970. Drei Morde gemeinsam mit Paul Bernardo 1990\u201393, darunter ihre eigene Schwester. Waschb\xe4r-Energie: perfekte Anpassung, doppeltes Gesicht, der Deal mit der Justiz als letzter Inszenierungsakt." , tags:["Serienmord","Missbrauch"], gender:"f"},
-  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SE3w4", heading:"Frank Abagnale Jr. – Selbsterhaltender Typ 3", teaser:"SE3w4 – Berühmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt – ohne je einer gewesen zu sein. Der selbsterhaltende Dreier-Kontratyp mit Viererflügel: Kompetenz als Überlebensstrategie, Identität als Ressource. Tierentsprechung: Waschbär.", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Sozialer Typ 7", teaser:"SO7w6 – Berühmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt – ohne je einer gewesen zu sein. Die soziale Sieben mit Sechserflügel: rastlose Suche nach neuen Systemen, Zugehörigkeit als Antrieb, Vertrauen als letztes Ziel. Tierentsprechung: Biber.", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Selbsterhaltender Typ 3",                              teaser:"SE3w4 – Größter Anlagebetrug der Geschichte, 1938–2021. 65 Milliarden Dollar gefälschte Kontoauszüge, mindestens 20 Jahre Ponzi-System – der selbsterhaltende Dreier mit Viererflügel: stille Inszenierung, Vertrauen als Waffe, Waschbär-Energie bis zum letzten Tag. Tierentsprechung: Waschbär." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-pedro-alonso-lopez",  name:"Pedro Alonso López",                  subtyp:"SO3w2",  heading:"Pedro Alonso López – Sozialer Typ 3",                                   teaser:"SO3w2 – 'Monster der Anden', geb. 1948. Mindestens 350 Morde an jungen Mädchen in Kolumbien, Peru und Ecuador, 1969–1980. Der Gepard: zielgenaue Verführung, charismatische Maske, Erfolg als Opferzahl – die soziale Drei mit Zweierflügel in ihrer dunkelsten Ausprägung." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-andrew-cunanan",      name:"Andrew Cunanan",                      subtyp:"SO3w4",  heading:"Andrew Cunanan – Sozialer Typ 3",                                       teaser:"SO3w4 – F\xfcnffachmörder und Mörder von Gianni Versace, 1969–1997. Vier Morde in zwölf Tagen quer durch die USA, dann Versace vor seiner Villa in Miami Beach. Der Gepard: Prestige als Lebensinhalt, Fassade als einzige Realität, Viererflügel als dunkle Unterströmung." , tags:["Serienmord"], gender:"m"},
@@ -3829,133 +3829,109 @@ function frankAbagnalePortraitPage() {
           <img src="./assets/portraits/frank-abagnale-portrait.jpg" alt="Frank Abagnale Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Frank Abagnale Jr.</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Hochstapler und Betrug&shy;er &middot; Tierentsprechung: Cham\xe4leon</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Hochstapler und Betrüger &middot; Tierentsprechung: Biber</p>
       </div>
 
       <p class="psycho-intro">
         <strong>Frank William Abagnale Jr.</strong>, geboren am 27. April 1948
         in Bronxville, New York, gilt als einer der geschicktesten Hochstapler
-        der Kriminalgeschichte. Als seine Eltern sich scheiden lie\xdfen – er war sechzehn –
+        der Kriminalgeschichte. Als seine Eltern sich scheiden ließen – er war sechzehn –
         lief er von zu Hause fort und begann eine beispiellose Karriere als
-        Betr\xfcger: Zwischen 1964 und 1969 gab er sich als Pan-Am-Pilot,
-        p\xe4diatrischer Assistenzarzt, Staatsanwalt in Louisiana und FBI-Agent aus.
-        Er soll gef\xe4lschte Schecks im Wert von rund 2,5 Millionen Dollar
-        in sechsundzwanzig L\xe4ndern eingel\xf6st haben.
-        1969 wurde er in Frankreich verhaftet, in mehreren L\xe4ndern inhaftiert
-        und schlie\xdflich in die USA ausgeliefert. Nach seiner Entlassung arbeitete
-        er jahrzehntelang als Sicherheitsberater f\xfcr Banken und Beh\xf6rden.
-        Steven Spielbergs Film „Catch Me If You Can“ (2002) machte seine Geschichte weltber\xfchmt.
-        Sp\xe4tere journalistische Recherchen stellten Teile seiner Biografie infrage –
-        m\xf6glicherweise ist auch die Geschichte des gr\xf6\xdften Hochstaplers selbst eine Hochstapelei.
+        Betrüger: Zwischen 1964 und 1969 gab er sich als Pan-Am-Pilot,
+        pädiatrischer Assistenzarzt, Staatsanwalt in Louisiana und FBI-Agent aus.
+        Er soll gefälschte Schecks im Wert von rund 2,5 Millionen Dollar
+        in sechsundzwanzig Ländern eingelöst haben.
+        1969 wurde er in Frankreich verhaftet, in mehreren Ländern inhaftiert
+        und schließlich in die USA ausgeliefert. Nach seiner Entlassung arbeitete
+        er jahrzehntelang als Sicherheitsberater für Banken und Behörden.
+        Steven Spielbergs Film „Catch Me If You Can“ (2002) machte seine Geschichte weltberühmt.
+        Spätere journalistische Recherchen stellten Teile seiner Biografie infrage –
+        möglicherweise ist auch die Geschichte des größten Hochstaplers selbst eine Hochstapelei.
       </p>
 
-      <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <div class="vb-section" style="background:rgba(232,146,42,0.08);border-left:3px solid #e8922a;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Frank Abagnale Jr.</strong> wird dem <strong>Selbsterhaltenden Typ 3
-        mit Viererfl\xfcgel (SE3w4)</strong> im Enneagramm zugeordnet.
-        Der SE3er ist der <em>Kontratyp</em> der Drei: Er zeigt Eitelkeit nicht als offene
-        Selbstdarstellung, sondern nach innen gewendet als unerbittlichen Antrieb,
-        kompetent, funktionst\xfcchtig und unangreifbar zu wirken.
-        Der Selbsterhaltungsinstinkt richtet diese Energie auf pers\xf6nliche Sicherheit:
-        Der SE3er arbeitet nicht f\xfcr Applaus, sondern f\xfcr Ressourcen –
-        f\xfcr die abgesicherte Position, den n\xe4chsten Schritt, das n\xe4chste Fundament.
-        Bei Abagnale \xfcbersetzte sich das in eine k\xfchle, pragmatische Logik:
-        Welche Identit\xe4t verschafft mir Zugang, Versorgung und Schutz?
-        Der Viererfl\xfcgel verleiht der Drei eine unruhige Tiefe –
-        ein Gef\xfchl, nie wirklich anzukommen, verbunden mit dem
-        k\xfcnstlerischen Instinkt, jede Rolle mit innerer \xdcberzeugung zu f\xfcllen.</p>
+        <strong>Frank Abagnale Jr.</strong> wird dem <strong>Sozialen Typ 7
+        mit Sechserflügel (SO7w6)</strong> im Enneagramm zugeordnet.
+        Naranjo nennt diesen Subtyp <em>Sacrifice</em> (Opferbereitschaft):
+        Die soziale Sieben verzichtet auf den ungebremsten, hedonistischen Genuss
+        der anderen Siebener-Subtypen und stellt sich stattdessen scheinbar
+        selbstlos in den Dienst eines größeren Systems, einer Gruppe, einer Mission.
+        Der Verzicht ist jedoch eine Inszenierung: Wer sich unentbehrlich macht,
+        sichert sich Zugang zu immer neuen Bühnen, Rollen und Möglichkeiten.
+        Bei Abagnale zeigte sich das als rastlose Suche nach neuen Systemen,
+        in die er sich als nützliches, geschätztes Mitglied einfügen konnte –
+        Fluggesellschaft, Klinik, Kanzlei, zuletzt das FBI selbst.
+        Der Sechserflügel bringt eine zusätzliche Sicherheitsorientierung:
+        das Bedürfnis, Autoritäten und Systeme auf ihre Vertrauenswürdigkeit
+        zu testen, und die tiefe Sehnsucht, irgendwann selbst als vertrauenswürdig
+        in ein stabiles System aufgenommen zu werden.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier des selbsterhaltenden Drei –
-        und er trifft Abagnales innere Logik auf eine fast erschreckend pr\xe4zise Weise.
-        Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an.
-        Er ist geduldig, geschickt, anpassungsf\xe4hig.
-        Er taucht auf, wo Ressourcen sind, findet, was er gebrauchen kann,
-        und verschwindet wieder – ohne Spuren zu hinterlassen, die jemand sucht.
-        Sein Gesicht tr\xe4gt eine Maske: die dunklen Augen hinter dem hellen Fell
-        lassen nicht erkennen, was er gerade tut.
-        Er wirkt harmlos. Er ist es nicht.
-        Abagnale war dieser Waschb\xe4r: ein Mensch, der Identit\xe4ten nicht spielte,
-        sondern sie <em>bewohnte</em> – so selbstverst\xe4ndlich, dass die Umgebung
-        nie auf den Gedanken kam, hinter der Maske k\xf6nnte nichts sein.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Biber</h3>
+        <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – ein
+        Baumeister, kein Einzelgänger. Er verschwendet keine Energie im Alleingang,
+        sondern errichtet Strukturen, die einem größeren Zweck dienen: den Damm,
+        das Revier, das Netzwerk aus Kanälen, die das ganze Ökosystem verändern.
+        Er ist geschäftig, geschickt, optimistisch – und stets damit beschäftigt,
+        sich in ein System einzubauen, das ihn trägt und in dem er unentbehrlich wird.
+        Abagnale war dieser Biber: Er baute sich nicht in eine Rolle ein, um zu
+        verschwinden, sondern um Teil eines funktionierenden Ganzen zu werden –
+        einer Fluglinie, eines Krankenhauses, einer Kanzlei, eines Bundesamts.
+        Jede neue Identität war ein neuer Damm, ein neues Bauprojekt, mit dem er
+        sich Zugehörigkeit und Bewegungsfreiheit zugleich verschaffte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Kompetent, nie brillant:</strong>
-        Abagnales Auftreten war nie das des Blenders, der Aufmerksamkeit sucht.
-        Er wirkte <em>gew\xf6hnlich kompetent</em> – gerade so viel,
-        dass keine R\xfcckfragen entstanden.
-        Das ist die Meisterleistung des SE3:
-        Er liefert genau das erwartete Bild, nicht mehr.
-        Eine Sieben h\xe4tte zu viel geredet.
-        Eine Acht h\xe4tte zu viel dominiert.
-        Der SE3er trifft instinktiv den richtigen Ton –
-        weil sein ganzes System auf Effizienz getrimmt ist.</p>
-        <p class="vb-intro"><strong>b) Zielgerichteter Blick, keine Vertr\xe4umtheit:</strong>
-        Zeitgenossen beschrieben Abagnale als fokussiert und gesch\xe4ftsm\xe4\xdfig.
-        Kein Schwelgen, kein Philosophieren.
-        Er war immer auf den n\xe4chsten Schritt konzentriert.
-        Das ist die SE3-Energie in Reinform:
-        Das Ziel steht fest, die Mittel werden pragmatisch gew\xe4hlt.
-        Der Viererfl\xfcgel sorgt f\xfcr ein gewisses inneres Grau –
-        eine Nachdenklichkeit, die er aber nie nach au\xdfen lie\xdf.</p>
-        <p class="vb-intro"><strong>c) Keine Spur von Eitelkeit – und genau das ist die Eitelkeit:</strong>
-        Der Kontratyp der Drei wirkt paradox: Er zeigt keine Drei-Eitelkeit.
-        Er tr\xe4gt keine Zeichen von Status, protzt nicht, sucht keinen Beifall.
-        Und genau darin liegt die tiefere Eitelkeit des SE3 –
-        die Identifikation mit dem Bild des selbstgen\xfcgsamen,
-        kompetenten, unauff\xe4lligen Experten.
-        Auch das ist ein Bild. Auch das ist Konstruktion.
-        Nur eine unauff\xe4lligere.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Charmant, redegewandt, sofort vertraut wirkend:</strong>
+        Abagnale trat nicht als Blender auf, der Misstrauen weckt, sondern als
+        jemand, den man sofort ins Herz schließt – zugewandt, gesprächig,
+        mit einer optimistischen Leichtigkeit, die Skepsis gar nicht erst aufkommen ließ.
+        Das ist die soziale Sieben in Reinform: Charme als Eintrittskarte in jedes System.</p>
+        <p class="vb-intro"><strong>b) Immer eine Option in der Hinterhand:</strong>
+        Zeitgenossen beschrieben ihn als schnell denkend und nie um eine Ausrede
+        oder einen Ausweg verlegen. Wurde eine Identität zu eng oder zu riskant,
+        hatte er längst die nächste vorbereitet. Diese Fähigkeit, sich mental nie
+        in eine Ecke drängen zu lassen, ist Kernmerkmal der Sieben – bei der
+        sozialen Ausprägung gepaart mit dem Anspruch, dass der nächste Schritt
+        auch dem größeren Ganzen dient, nicht nur dem eigenen Vergnügen.</p>
+        <p class="vb-intro"><strong>c) Der Sechserflügel: Autoritäten prüfen, Sicherheit suchen:</strong>
+        Anders als eine reine Sieben, die sich treiben lässt, prüfte Abagnale die
+        Systeme, in die er eindrang, genau auf ihre Regeln, Schwachstellen und
+        Vertrauensmechanismen – eine typische Sechser-Wachsamkeit. Und genau
+        dieselbe Wachsamkeit führte ihn am Ende dorthin, wo er nie hinwollte
+        und doch am meisten brauchte: in ein System, dem er wirklich vertrauen konnte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sicherheit als prim\xe4res Motiv:</strong>
-        Abagnale w\xe4hlte keine Identit\xe4ten f\xfcr den gro\xdfen Auftritt.
-        Er w\xe4hlte sie nach einem einzigen Kriterium:
-        Was sichert mein n\xe4chstes Jahr ab?
-        Pilot: Freifl\xfcge, Unterkunft, Status ohne Risiko.
-        Arzt: ein stabiles Institutionsgef\xfcge, das keine tiefen Fragen stellt.
-        Anwalt: der Schutz des Systems selbst.
-        All das sind SE3-Entscheidungen –
-        Ressourcensicherung durch Identit\xe4tsadaption.</p>
-        <p class="vb-intro"><strong>b) Effizienz statt \xdcbertreibung – das Minimalprinzip der SE3:</strong>
-        Die selbsterhaltende Drei folgt einem Grundsatz,
-        den man bei keinem anderen Subtyp so konsequent findet:
-        <em>minimaler Mitteleinsatz, maximaler Erfolg</em>.
-        Sie lernt nicht mehr als n\xf6tig.
-        Sie beeindruckt nicht mehr als n\xf6tig.
-        Sie gibt so wenig von sich preis wie m\xf6glich –
-        und erzielt damit mehr als jene, die alles geben.
-        Dieses Minimalprinzip ist eines der sichersten Erkennungszeichen der SE3:
-        W\xe4hrend die soziale oder sexuelle Drei auf Wirkung aus ist
-        und gerne etwas dr\xfcber l\xe4sst, rechnet die SE3 genau nach,
-        was die Situation <em>braucht</em> – und liefert exakt das.
-        Nicht mehr. Nie mehr.
-        Abagnale eignete sich das Minimum an Fachvokabular an,
-        um den beruflich n\xf6tigen Eindruck zu erzeugen –
-        und \xfcberlie\xdf den Rest dem System,
-        das sein Bild von allein erg\xe4nzte.
-        Keine Sieben h\xe4tte es dabei belassen.
-        Eine soziale oder sexuelle Drei h\xe4tte sich als Star inszeniert.
-        Der SE3er inszeniert sich als Normalit\xe4t –
-        und das ist die schwerer zu durchschauende T\xe4uschung.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel: Tiefe und Unruhe:</strong>
-        Was den SE3 von einer glatten Drei unterscheidet,
-        ist der Viererfl\xfcgel: ein nagender Unterton,
-        ein Gef\xfchl, nie wirklich zu sein, was man darstellt –
-        selbst wenn die Darstellung perfekt gelingt.
-        Dieser Fl\xfcgel erkl\xe4rt, warum Abagnale nie zur Ruhe kam,
-        warum er eine Identit\xe4t nach der anderen verlie\xdf,
-        sobald die Struktur zu eng wurde.
-        Er suchte nicht Bewunderung. Er suchte Zugeh\xf6rigkeit.
-        Und fand sie nie, weil er immer eine Rolle spielte,
-        statt eine Person zu sein.</p>
+        <p class="vb-intro"><strong>a) Vielfalt statt Sicherheit als primäres Motiv:</strong>
+        Abagnale wechselte seine Identitäten nicht in erster Linie aus Angst
+        um sein Überleben, sondern weil jede Rolle nach einer Weile ihre
+        Möglichkeiten erschöpfte. Pilot: freier Zugang zur ganzen Welt.
+        Arzt: Zugehörigkeit zu einer angesehenen Institution. Anwalt: Einblick
+        in ein weiteres mächtiges System. Das ist siebenerhafte Logik –
+        die Welt hat so viele Türen, warum nur eine offenhalten?</p>
+        <p class="vb-intro"><strong>b) Der Dienst am System als Tarnung – das Opferprinzip der SO7:</strong>
+        Die soziale Sieben verkauft ihre Rastlosigkeit als Beitrag zum Ganzen:
+        Sie ist die Nützliche, die Kompetente, diejenige, ohne die es nicht
+        rundläuft. Genau das tat Abagnale – er stellte sich als hilfreiches,
+        funktionierendes Mitglied jeder Institution dar, in die er eindrang,
+        und wurde dafür mit Vertrauen, Zugang und Bewegungsfreiheit belohnt.
+        Anders als eine Drei, die Bewunderung für die eigene Leistung sucht,
+        wollte Abagnale vor allem eines: gebraucht werden, ohne festgehalten zu werden.</p>
+        <p class="vb-intro"><strong>c) Der Sechserflügel: die Suche nach dem einen verlässlichen System:</strong>
+        Was den SO7 von einer unbeschwerteren Siebener-Ausprägung unterscheidet,
+        ist eine untergründige Unruhe: das Bedürfnis nach einem System, dem
+        wirklich zu vertrauen ist. Dieser Flügel erklärt, warum Abagnale nie
+        wirklich zur Ruhe kam, obwohl er scheinbar alles hatte – Zugang, Status,
+        Bewunderung. Er suchte nicht den nächsten Kick. Er suchte den einen Ort,
+        an dem seine Fähigkeiten legitim gebraucht würden. Er fand ihn am Ende
+        ausgerechnet dort, wo er am meisten gefürchtet hatte: bei der Behörde,
+        die ihn jagte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3965,106 +3941,99 @@ function frankAbagnalePortraitPage() {
         Er rief Pan American World Airways an und behauptete,
         seine Uniform sei verloren gegangen.
         Man nannte ihm den Lieferanten – der Rest war Routine.
-        Mit Uniform und gef\xe4lschter Pilotenkennung
-        stellte er sich vor Schalter und bat um Deadhead-Mitfl\xfcge –
+        Mit Uniform und gefälschter Pilotenkennung
+        stellte er sich vor Schalter und bat um Deadhead-Mitflüge –
         Freiplätze für reisende Besatzungsmitglieder.
-        \xdcber zwei Jahre flog er in 26 L\xe4nder.
-        Unterkunft und Verpflegung stellte er dem Pan-Am-B\xfcro in Rechnung.
-        Kein Auftritt. Keine Szene. Pure Verwaltungslogik.</p>
+        Über zwei Jahre flog er in 26 Länder.
+        Unterkunft und Verpflegung stellte er dem Pan-Am-Büro in Rechnung.
+        Ein neues Revier, ein neuer Damm – und die ganze Welt als Spielfeld.</p>
         <p class="vb-intro"><strong>b) Ein Jahr als Assistenzarzt in Georgia:</strong>
         Er gab sich als Dr. Frank Adams aus – Pädiater, frisch aus New York –
         und wurde als leitender Supervisor von Medizinstudenten angestellt.
         Fast ein Jahr lang unterschrieb er Krankenakten
         und organisierte seinen Alltag so,
         dass er nie selbst am Bett behandeln musste.
-        Als ein irischer Kollege Tiefengespr\xe4che suchte,
-        verschwand er still. Ohne Szene.</p>
+        Als ein irischer Kollege eine echte, tiefere Freundschaft suchte,
+        wich er aus – Nähe, die ihn hätte festlegen können, war ihm nicht geheuer.</p>
         <p class="vb-intro"><strong>c) Anwalt in Louisiana – dreimal den Stempel geholt:</strong>
-        Abagnale f\xe4lschte ein Harvard-Abschlusszeugnis
+        Abagnale fälschte ein Harvard-Abschlusszeugnis
         und legte das Staatsexamen erst beim dritten Anlauf ab.
-        Keine Panik, kein Aufgeben –
-        die ruhige Ausdauer des SE3,
-        der so lange an einer Aufgabe bleibt,
-        bis sie nutzbar ist.
+        Keine Panik, kein Aufgeben – die optimistische Beharrlichkeit der Sieben,
+        die jeden Rückschlag nur als vorübergehende Hürde auf dem Weg
+        zur nächsten offenen Tür begreift.
         Fast ein Jahr arbeitete er als Assistant Attorney General,
         bis ein echter Harvard-Absolvent in die Kanzlei eintrat.</p>
-        <p class="vb-intro"><strong>d) Scheckf\xe4lschung im industriellen Ma\xdfstab:</strong>
-        Den gr\xf6\xdften finanziellen Schaden richtete Abagnale
-        durch gef\xe4lschte Schecks an.
+        <p class="vb-intro"><strong>d) Scheckfälschung im industriellen Maßstab:</strong>
+        Den größten finanziellen Schaden richtete Abagnale
+        durch gefälschte Schecks an.
         Er druckte Schecks mit echten Bankleitzahlen,
-        l\xf6ste sie mit seiner Piloten-ID weltweit ein –
+        löste sie mit seiner Piloten-ID weltweit ein –
         in Hotels, Banken, Wechselstuben.
-        Keine Waffe. Kein Komplize. Nur Papier und Auftritt.</p>
+        Ein System, in immer neue Länder und Kanäle erweitert – Bibergeschäft
+        im ganz großen Stil.</p>
         <p class="vb-intro"><strong>e) Verhaftung, Flucht, Verhaftung:</strong>
         1969 erkannte ihn eine Air-France-Stewardess in Montpellier.
         Er wurde in Frankreich, Schweden und den USA inhaftiert.
-        Aus dem schwedischen Gef\xe4ngnis entkam er,
-        indem er sich als US-amerikanischer Gef\xe4ngnisinspektor ausgab.
-        In den USA \xfcberzeugte er einen W\xe4rter,
-        er sei undercover f\xfcr das Justizministerium t\xe4tig.
-        Selbst hinter Gittern blieb er im Modus: Welche Rolle sichert mir hier das \xdcberleben?</p>
-        <p class="vb-intro"><strong>f) Vom T\xe4ter zum FBI-Berater:</strong>
+        Aus dem schwedischen Gefängnis entkam er,
+        indem er sich als US-amerikanischer Gefängnisinspektor ausgab.
+        In den USA überzeugte er einen Wärter,
+        er sei undercover für das Justizministerium tätig.
+        Selbst hinter Gittern blieb er im Modus: Welche Rolle öffnet mir hier die nächste Tür?</p>
+        <p class="vb-intro"><strong>f) Vom Täter zum FBI-Berater:</strong>
         Nach einer Haftstrafe schloss Abagnale einen Deal mit dem FBI:
-        Er half bei der \xdcberf\xfchrung von Scheckf\xe4lschern
-        und wurde zum gesuchten Experten f\xfcr Dokumentenbetrug.
-        Das ist die SE3-Rehabilitation in Reinform:
-        Dieselbe Kompetenz, dieselbe Effizienz –
-        nur jetzt von einem System gedeckt und bezahlt.</p>
+        Er half bei der Überführung von Scheckfälschern
+        und wurde zum gesuchten Experten für Dokumentenbetrug.
+        Das ist die SO7w6-Auflösung in Reinform:
+        Aus der endlosen Suche nach dem nächsten System wird endlich eine
+        Zugehörigkeit, der er wirklich vertrauen kann – legitim, gebraucht,
+        endlich angekommen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. T\xe4terprofil &amp; Einordnung</h3>
-        <p class="vb-intro"><strong>a) Kein Narzisst – ein Effizienzdenker:</strong>
-        Abagnale suchte keinen Applaus.
-        Er suchte keine Verehrung, keinen Ruhm.
-        Er suchte Zugang, Versorgung, den n\xe4chsten sicheren Schritt.
-        Das machte ihn so schwer greifbar:
-        Ohne das klassische Narzissten-Profil
-        fehlt dem Beobachter der einfache Erkl\xe4rungsrahmen.</p>
-        <p class="vb-intro"><strong>b) Die Biografie als letzte Inszenierung:</strong>
-        Sp\xe4tere Recherchen haben Teile seiner
-        Selbstdarstellung als \xfcbertrieben oder erfunden entlarvt.
-        Auch das ist SE3w4:
-        Sobald die eigene Geschichte zur Ressource wird –
-        zur Grundlage eines Buchdeals, einer Beratungskarriere,
-        einer Hollywood-Verfilmung –
-        wird sie genauso optimiert wie die Piloten-Identit\xe4t zuvor.
-        Das Cham\xe4leon – \xfcbergeordnetes Sinnbild des Enneagrammtyps 3 – h\xf6rte nie auf, seine Farbe zu wechseln.</p>
-        <p class="vb-intro"><strong>c) Der SE3er unter den Hochstaplern:</strong>
-        Was Abagnale von klassischen Betr\xfcgern wie Anna Delvey (SE2w3)
-        oder Ruja Ignatova (SE3w4)
-        unterscheidet: er brauchte keine B\xfchne.
-        Ruja Ignatova ist zwar derselbe Typ –
-        aber sie brauchte die B\xfchne, um ihre T\xe4uschung zu entfalten.
-        Abagnale nicht. Er brauchte eine Funktion.
-        Er wollte nicht bewundert werden –
-        er wollte als Ressource im System fungieren,
-        bis das System ihn tr\xe4gt.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Täterprofil &amp; Einordnung</h3>
+        <p class="vb-intro"><strong>a) Kein Narzisst – ein rastloser Optimist:</strong>
+        Abagnale suchte keine Bühne für Applaus und auch keine stille
+        Ressourcensicherung. Er suchte Bewegung, Vielfalt und ein Gefühl,
+        gebraucht zu werden, ohne sich endgültig festzulegen. Das macht ihn
+        untypisch für das Bild des kalten Hochstaplers: Seine Energie wirkte
+        eher wie ungebremster Enthusiasmus als wie Berechnung.</p>
+        <p class="vb-intro"><strong>b) Die Biografie als letzte Geschichte:</strong>
+        Spätere Recherchen haben Teile seiner Selbstdarstellung als übertrieben
+        oder erfunden infrage gestellt. Auch das passt zur SO7w6: Die Sieben
+        erzählt ihre eigene Geschichte gern größer, bunter und bedeutsamer,
+        als sie vielleicht war – nicht aus Berechnung, sondern weil die
+        optimistische Umdeutung der eigenen Vergangenheit zu ihrem Grundmuster gehört.</p>
+        <p class="vb-intro"><strong>c) Abgrenzung zu anderen Hochstaplern:</strong>
+        Anders als selbsterhaltende Dreier-Betrüger wie Bernie Madoff oder
+        Ruja Ignatova, die vor allem stille Kontrolle über Ressourcen oder
+        eine perfekte Bühne suchten, ging es Abagnale nie um ein einzelnes,
+        sorgfältig gehütetes System. Er wollte viele Türen offenhalten,
+        viele Systeme betreten – und in jedem von ihnen kurzzeitig unentbehrlich
+        sein. Das ist der entscheidende Unterschied zwischen der ruhigen
+        Ressourcenlogik der SE3 und der bewegten, systemsuchenden Logik der SO7w6.</p>
       </div>
 
-      <div class="vb-section" style="background:rgba(31,166,136,0.06);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <div class="vb-section" style="background:rgba(232,146,42,0.07);border-left:3px solid #e8922a;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Frank Abagnale Jr. ist der SE3w4 in seiner pathologischen Reinform:
-        ein Mensch, der Identit\xe4t nicht als Selbstausdruck versteht,
-        sondern als Werkzeug zur Ressourcensicherung.
-        Die Leidenschaft der Eitelkeit zeigt sich bei ihm nicht als Glanz,
-        sondern als k\xfchl kalkulierter Kompetenzanspruch –
-        immer genau so viel Profil, wie das System ben\xf6tigt,
-        um ihn durchzulassen.</p>
+        Frank Abagnale Jr. ist der SO7w6 in seiner pathologischen Reinform:
+        ein Mensch, der Identität nicht als Selbstausdruck versteht,
+        sondern als Eintrittskarte in immer neue Systeme, in denen er sich
+        nützlich, willkommen und lebendig fühlen konnte.
+        Die Leidenschaft der Unmäßigkeit zeigt sich bei ihm nicht als Exzess
+        oder Vergnügungssucht, sondern als rastlose Vielfalt an Rollen,
+        Orten und Institutionen, die keine je lange genug hielt.</p>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Der Viererfl\xfcgel l\xe4sst ihn nie zur Ruhe kommen.
-        Hinter jeder neuen Identit\xe4t wartet das alte Gef\xfchl:
-        irgendwo nicht wirklich dazuzugeh\xf6ren.
-        Nicht weil er entlarvt worden w\xe4re –
-        sondern weil er selbst nicht wei\xdf, wer er w\xe4re,
-        wenn niemand zuschaut.</p>
+        Der Sechserflügel ließ ihn nie ganz zur Ruhe kommen.
+        Hinter jeder neuen Rolle wartete dieselbe Frage:
+        Ist das hier endlich ein System, dem ich trauen kann?
+        Erst im Bündnis mit dem FBI – dem System, das ihn einst jagte –
+        fand er eine Antwort, mit der er leben konnte.</p>
         <p style="margin:0;font-size:0.95rem;color:var(--ink);">
-        Das Cham\xe4leon \xe4ndert seine Farbe,
-        bis es die Umgebung vergisst.
-        Aber vergisst es dabei auch sich selbst?
+        Der Biber baut weiter, bis das Ökosystem um ihn herum vollständig ist.
+        Aber baut er dabei auch etwas, das ihn selbst trägt?
         Das ist die Frage, die Abagnales Leben stellt –
-        und die er bis zuletzt nicht beantwortet hat.</p>
+        und die er erst spät, mit dem FBI an seiner Seite, halbwegs beantwortet hat.</p>
       </div>
 
     </div>
@@ -20681,7 +20650,7 @@ function bernieMadoffPortraitPage() {
         <p class="vb-intro"><strong>b) Die S\xf6hne als tragischer Spiegel:</strong>
         Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SE3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
         <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Betr\xfcgern:</strong>
-        Samuel Bankman-Fried (SE3w4) brauchte das Narrativ des altruistischen Genies \u2013 er inszenierte sich als Retter der Welt. Ruja Ignatova (SE3w4) brauchte die B\xfchne, den Glamour, die Menge. Madoff brauchte keines davon. Er brauchte <em>Stille</em>. Diskretion. Das leise Vertrauen des Zirkels. Das ist der reinste SE3w4: nicht der lauteste Betr\xfcger, sondern der, den man am wenigsten f\xfcr einen h\xe4lt. Auch Frank Abagnale Jr. betrog auf diese stille, unauff\xe4llige Art \u2013 nicht durch Lautst\xe4rke, sondern durch Glaubw\xfcrdigkeit.</p>
+        Samuel Bankman-Fried (SE3w4) brauchte das Narrativ des altruistischen Genies \u2013 er inszenierte sich als Retter der Welt. Ruja Ignatova (SE3w4) brauchte die B\xfchne, den Glamour, die Menge. Madoff brauchte keines davon. Er brauchte <em>Stille</em>. Diskretion. Das leise Vertrauen des Zirkels. Das ist der reinste SE3w4: nicht der lauteste Betr\xfcger, sondern der, den man am wenigsten f\xfcr einen h\xe4lt \u2013 anders als etwa Frank Abagnale Jr. (SO7w6), dessen Betrug nicht auf Stille, sondern auf rastloser Vielfalt und ansteckendem Charme beruhte.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #7c5200;padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
@@ -20709,7 +20678,7 @@ function bernieMadoffPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-samuel-bankman-fried", label:"Kriminalpsychologie: Samuel Bankman-Fried (SE3w4) \u2013 FTX-Betrug"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4) \u2013 Die Cryptoqueen"},
-        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SE3w4) \u2013 Der Hochstapler"}
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) \u2013 Der Hochstapler"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
