@@ -298,6 +298,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweighöfer – Sexueller Typ 2",
     teaser:"SX2w1 · geb. 1981. Schauspieler, Regisseur, Produzent. Nähe statt Distanz – ob als Darsteller oder als Regisseur trägt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-milow", name:"Milow", added:"2026-07-30", subtyp:"SX2w1",
+    heading:"Milow – Sexueller Typ 2",
+    teaser:"SX2w1 · geb. 1982. Sänger, Songwriter. Ayo Technology, Little in the Middle. Leise, ehrliche Nähe statt lauter Inszenierung – das Kamel, das seine Last mit Sorgfalt trägt. Tierentsprechung: Kamel.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-pamela-reif", name:"Pamela Reif", added:"2026-07-20", subtyp:"SX2w3",
     heading:"Pamela Reif – Sexueller Typ 2",
     teaser:"SX2w3 · geb. 1996. Fitness-Influencerin, Unternehmerin. Millionen Verbindungen durch einen Bildschirm – Verführung als Verbindungskunst, Perfektion als Liebesbeweis. Tierentsprechung: Kamel.",
@@ -15853,6 +15857,74 @@ function matthiasSchweighoeferPortraitPage() {
   `);
 }
 
+
+function milowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-milow-portrait.jpg" alt="Milow" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Milow</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Sänger &amp; Songwriter, geb. 1982 &ndash; Ayo Technology, Little in the Middle &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Kein lautes Tier. Ein Tier, das Nähe herstellt, indem es einfach mitgeht &ndash; Schritt für Schritt, verlässlich, mit einem Blick, der direkt und warm zugleich ist.</p>
+          <p class="vb-intro">Milow, geboren 1982 als Jonathan Vandenbroeck in Belgien, wurde 2007 mit einer leisen Akustik-Coverversion von Ayo Technology weltbekannt &ndash; ein Song, dessen Original laut und aggressiv war, den er in eine zerbrechliche, intime Ballade verwandelte. Das ist die Geste des Kamels: Es nimmt etwas Hartes und trägt es sanft weiter, bis es ankommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verbindung als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei &ndash; sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nennt diesen Subtyp <em>Aggressivität</em> &ndash; nicht im gewöhnlichen Sinn, sondern als aktives, vorwärtsdrängendes Zugehen auf den anderen. Die SX2 wartet nicht, bis Verbindung entsteht. Sie sucht sie.</p>
+          <p class="vb-intro">Bei Milow zeigt sich das in der Unmittelbarkeit seiner Musik: leise, akustische Songs, die direkt ins Private gehen, ohne Umweg über große Gesten. Seine Texte handeln fast immer von zwischenmenschlicher Nähe &ndash; von Sehnsucht, von Zerbrechlichkeit, von dem Moment, in dem zwei Menschen sich wirklich sehen. Das ist keine Kalkulation für den Markt. Das ist die SX2, die ihre innerste Frage in Klang übersetzt: <em>Kann ich wirklich berühren? Kann ich wirklich berührt werden?</em></p>
+          <p class="vb-intro">Auch seine Bühnenpräsenz trägt diese Energie: Milow spielt kleine, intime Konzerte ebenso gern wie große Bühnen, aber immer mit demselben Ziel &ndash; das Publikum soll sich nicht wie eine Masse fühlen, sondern wie ein Gegenüber. Das Kamel geht nicht an der Karawane vorbei. Es bleibt in Kontakt mit jedem einzelnen Schritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Sorgfalt als Ausdruck der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine innere Achse, die die reine Zwei nicht von selbst hat: das Bewusstsein für Qualität, für das Richtige, für die Verantwortung gegenüber dem, was man tut. Die reine SX2 könnte sich in der Intensität der Verbindung verlieren. Der Einserflügel sagt: <em>Es reicht nicht, Nähe zu wollen. Es kommt darauf an, wie sorgfältig man mit ihr umgeht.</em></p>
+          <p class="vb-intro">Bei Milow zeigt sich dieser Flügel in seiner musikalischen Präzision: die reduzierten, sorgfältig arrangierten Produktionen, das jahrelange Feilen an Songs, bevor sie veröffentlicht werden, der Anspruch, jede Zeile eines Textes ehrlich zu meinen und nicht bloß gefällig klingen zu lassen. Er hat wiederholt betont, dass ihm die Echtheit eines Songs wichtiger ist als sein Erfolgspotenzial &ndash; eine typische Einser-Haltung innerhalb der SX2: lieber wahrhaftig als bequem.</p>
+          <p class="vb-intro">Auch sein zurückhaltender, undramatischer Umgang mit Ruhm gehört hierher. Trotz internationalem Erfolg blieb Milow bodenständig, fast introvertiert im Auftreten &ndash; kein Popstar-Gehabe, sondern die stille Disziplin eines Musikers, der seiner Arbeit treu bleiben will, unabhängig vom Rummel um sie herum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w1 ist ihre Fähigkeit, echte, unverstellte Nähe herzustellen &ndash; in der Musik wie im persönlichen Kontakt. Milows größte Songs funktionieren nicht durch Effekt, sondern durch Verletzlichkeit: eine Stimme, eine Gitarre, ein Gefühl, das ehrlich bleibt. Das ist selten in einer Branche, die oft auf Lautstärke setzt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht und geliebt werden zu müssen, verbunden mit der Schwierigkeit, die eigenen Bedürfnisse offen zu benennen. Bei der SX2w1 zeigt sich das als die stille Sorge, nicht genug zu geben, gepaart mit dem Anspruch, es perfekt zu machen. Das kann zu einem hohen inneren Druck führen: Wer immer feilt, findet selten den Punkt, an dem etwas fertig sein darf.</p>
+          <p class="vb-intro">Milow hat in Interviews über die langen Schaffenspausen zwischen seinen Alben gesprochen &ndash; Phasen des Zweifelns, des Verwerfens, des Neuanfangens. Das Kamel trägt geduldig, aber es trägt auch die eigene Unsicherheit mit sich, bis es sicher ist, dass die Last, die es weitergibt, es wert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Coversong zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der internationale Durchbruch mit einer Coverversion hätte für viele Musiker eine Falle sein können &ndash; auf ewig mit einem fremden Song identifiziert zu werden. Milow begegnete dem nicht mit Widerstand, sondern mit Geduld: Album für Album baute er eine eigene, unverwechselbare Klangwelt auf, ohne den intimen Grundton zu verlassen, der ihn zuerst berühmt gemacht hatte.</p>
+          <p class="vb-intro">Diese Beständigkeit ist typische SX2w1-Energie: keine ständige Neuerfindung um der Aufmerksamkeit willen, sondern die Vertiefung einer einmal gefundenen, ehrlichen Verbindung &ndash; zur eigenen Musik und zum Publikum, das ihm über die Jahre treu geblieben ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nähe ohne Lärm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Milow der Musik gegeben hat, ist eine leise, aber beständige Gegenrede zur lauten Selbstinszenierung des Pop-Betriebs: Nähe entsteht nicht durch Reichweite, sondern durch Ehrlichkeit. Ein Song muss nicht schreien, um gehört zu werden &ndash; er muss nur wahr sein.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die schnellste, sondern die verlässlichste Verbindung sucht. Es trägt seine Last mit Sorgfalt, Schritt für Schritt, und kommt genau dort an, wo es gebraucht wird &ndash; im direkten, ungeschönten Kontakt zwischen zwei Menschen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function bellaThornePage() {
   return shell(`
@@ -42418,6 +42490,7 @@ function render() {
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-milow": milowPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,

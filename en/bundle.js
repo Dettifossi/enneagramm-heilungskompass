@@ -248,6 +248,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweighöfer – Sexual Type 2",
     teaser:"SX2w1 · born 1981. Actor, director, producer. Closeness instead of distance – whether as performer or director, he carries his ensemble like the camel carries its path. Animal correspondence: Camel.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-milow", name:"Milow", added:"2026-07-30", subtyp:"SX2w1",
+    heading:"Milow – Sexual Type 2",
+    teaser:"SX2w1 · born 1982. Singer, songwriter. Ayo Technology, Little in the Middle. Quiet, honest closeness instead of loud performance – the camel that carries its load with care. Animal correspondence: Camel.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
     heading:"Braco – Sexual Type 2",
     teaser:"SX2w3 · born 1967. Healer, The Gazer. He does not speak, he does not touch – he looks. In silent group events worldwide, his gaze creates what many words cannot: the feeling of being truly seen. Animal correspondence: Camel.",
@@ -20307,6 +20311,73 @@ function matthiasSchweighoeferPortraitPage() {
 }
 
 
+function milowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-milow-portrait.jpg" alt="Milow" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Milow</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Singer & songwriter, b. 1982 – Ayo Technology, Little in the Middle – Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two, a creature that carries without imposing itself. It crosses long distances, quietly, patiently, staying in steady contact with what it accompanies. Not a loud animal. An animal that creates closeness simply by going along, step by step, reliable, with a gaze that is direct and warm at once.</p>
+          <p class="vb-intro">Milow, born Jonathan Vandenbroeck in 1982 in Belgium, became internationally known in 2007 with a quiet acoustic cover of Ayo Technology, a song whose original was loud and aggressive, which he turned into a fragile, intimate ballad. That is the gesture of the camel: it takes something hard and carries it gently onward until it arrives.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: Connection as a Life Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Two (SX2)</strong> does not channel the energy of the Two into the large group like the social Two, nor into securing its own existence like the self-preservation Two, but into the direct, personal space between two people. Naranjo calls this subtype <em>Aggressivity</em>, not in the ordinary sense, but as an active, forward-moving approach toward the other. The SX2 does not wait for connection to happen. It seeks it out.</p>
+          <p class="vb-intro">In Milow this shows in the immediacy of his music: quiet, acoustic songs that go straight into the private, without detours through grand gestures. His lyrics almost always deal with interpersonal closeness, with longing, with fragility, with the moment two people truly see each other. That is not a calculation for the market. That is the SX2 translating its innermost question into sound: <em>Can I truly touch someone? Can I truly be touched?</em></p>
+          <p class="vb-intro">His stage presence carries the same energy: Milow plays small, intimate concerts just as gladly as large stages, but always with the same goal, that the audience should not feel like a mass, but like a counterpart. The camel does not pass by the caravan. It stays in contact with every single step.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: Care as an Expression of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Two an inner axis the pure Two does not have on its own: the awareness of quality, of what is right, of responsibility toward what one does. The pure SX2 could lose itself in the intensity of connection. The One-wing says: <em>It is not enough to want closeness. What matters is how carefully you handle it.</em></p>
+          <p class="vb-intro">In Milow this wing shows in his musical precision: the reduced, carefully arranged productions, years of refining songs before releasing them, the standard of meaning every line of a lyric honestly rather than letting it merely sound pleasant. He has repeatedly said that a song's authenticity matters more to him than its commercial potential, a typical One stance within the SX2: better truthful than convenient.</p>
+          <p class="vb-intro">His reserved, undramatic relationship to fame belongs here too. Despite international success, Milow remained grounded, almost introverted in his public manner, no pop-star posturing, but the quiet discipline of a musician who wants to stay true to his work regardless of the noise around it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w1 is its ability to create real, unadorned closeness, in music as in personal contact. Milow's biggest songs do not work through effect but through vulnerability: a voice, a guitar, a feeling that stays honest. That is rare in an industry that often relies on volume.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong>, the deep conviction of needing to be needed and loved, combined with the difficulty of openly naming one's own needs. In the SX2w1 this shows as the quiet worry of not giving enough, paired with the standard of doing it perfectly. That can create a high inner pressure: those who keep refining rarely find the point where something is allowed to be finished.</p>
+          <p class="vb-intro">Milow has spoken in interviews about the long creative pauses between his albums, phases of doubt, discarding, starting over. The camel carries patiently, but it also carries its own uncertainty with it, until it is sure that the load it passes on is worth it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From Cover Song to a Voice of His Own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An international breakthrough with a cover version could have been a trap for many musicians, forever identified with someone else's song. Milow did not meet this with resistance but with patience: album by album, he built his own, unmistakable sound world, without abandoning the intimate base tone that first made him famous.</p>
+          <p class="vb-intro">This consistency is typical SX2w1 energy: not constant reinvention for the sake of attention, but the deepening of a connection once found and trusted, to his own music and to the audience that has stayed loyal to him over the years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Closeness Without Noise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Milow has given music is a quiet, but persistent counterpoint to the loud self-promotion of the pop industry: closeness does not come from reach, but from honesty. A song does not need to shout to be heard, it only needs to be true.</p>
+          <p class="vb-intro">That is the gift of the SX2w1: a camel that does not seek the fastest connection, but the most reliable one. It carries its load with care, step by step, and arrives exactly where it is needed, in direct, unpolished contact between two people.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function cristianoRonaldoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39398,6 +39469,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-milow": milowPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
