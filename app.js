@@ -250,6 +250,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gloria von Thurn und Taxis – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1960. Fürstin, Unternehmerin, Mäzenin. Vom Punkprinzess-Exzess der 1980er zur eisernen Matriarchin eines der größten Privatvermögen Europas. Das Flusspferd kennt sein Territorium – und gibt es nicht auf. Tierentsprechung: Flusspferd.",
     tags:["Adel","Wirtschaft"] , gender:"f"},
+  { route:"beruehmte-jack-black", name:"Jack Black", added:"2026-07-30", subtyp:"SE2w1",
+    heading:"Jack Black – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · geb. 1969. Schauspieler & Musiker, School of Rock, Tenacious D. Vollkörperliche, ungebremste Hingabe an die Freude, verpackt in Handwerk und Haltung. Tierentsprechung: Flusspferd.",
+    tags:["Schauspiel","Musik"] , gender:"m"},
   { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
     heading:"Uli Hoeneß – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1952. Fußballweltmeister 1974, Manager und Präsident des FC Bayern München. Vier Jahrzehnte Aufbauarbeit, Steueraffäre und Rückkehr. Das Flusspferd verteidigt sein Revier – und kommt nach dem Sturz stärker zurück als zuvor. Tierentsprechung: Flusspferd.",
@@ -14652,6 +14656,74 @@ function gloriaVonThurnUndTaxisPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-jan-ullrich", label:"Porträt: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function jackBlackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jack-black-portrait.jpg" alt="Jack Black" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Black</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Musiker, geb. 1969 &ndash; School of Rock, Tenacious D &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das man unterschätzt, bis man seine wahre Kraft zu spüren bekommt. Es wirkt plump, laut, tollpatschig &ndash; und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint. Genau diese Doppelnatur, Clownerie an der Oberfläche, unbändige Energie darunter, ist Jack Blacks Markenzeichen.</p>
+          <p class="vb-intro">Kaum ein Schauspieler wirft sich mit solcher körperlichen Rückhaltlosigkeit in eine Rolle wie Jack Black. Die ausladende Mimik, die theatralischen Gesten, die Lautstärke, mit der er einen Raum füllt &ndash; das ist kein Zufall, sondern die Energie des Flusspferds in Reinform: erst scheinbar harmlos komisch, dann plötzlich mit einer Wucht da, der sich niemand entziehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge mit vollem Körpereinsatz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei am unmittelbarsten auf das eigene Überleben und das ihres engsten Umfelds. Naranjo nennt diesen Subtyp <em>Me First</em> &ndash; keine Egozentrik, sondern die Überzeugung, dass man selbst zuerst stabil, versorgt und lebendig sein muss, um für andere da sein zu können. Die SE2 ist die konkreteste, körperlichste der drei Zweier-Varianten &ndash; sie gibt nicht abstrakt, sie gibt mit vollem Einsatz.</p>
+          <p class="vb-intro">Bei Jack Black zeigt sich das in seiner Art, Fürsorge und Unterhaltung untrennbar zu verschmelzen. In <em>School of Rock</em> spielt er einen gescheiterten Musiker, der eine Klasse verklemmter Kinder durch Rockmusik zum Leben erweckt &ndash; nicht durch Belehrung, sondern durch reine, ansteckende Energie. Die Figur Dewey Finn ist im Kern eine SE2: Er gibt alles, was er hat, damit andere aufblühen, und tut das nicht leise, sondern mit größtmöglicher Lautstärke.</p>
+          <p class="vb-intro">Auch privat trägt Jack Black diese Qualität: Er gilt als einer der zugänglichsten, fürsorglichsten Stars Hollywoods im Umgang mit jungen Fans, mit seinem Bandkollegen Kyle Gass, mit seiner Familie. Die SE2 sorgt nicht aus der Distanz &ndash; sie sorgt, indem sie sich mitten hineinwirft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Handwerk und Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei etwas, das ihrem Feuer eine Richtung gibt: einen inneren Maßstab für Qualität und Ernsthaftigkeit. Wo die reine Zwei sich in reiner Zuneigung erschöpfen könnte, verlangt die Eins Handwerk, Disziplin, einen Standard, an dem gemessen wird.</p>
+          <p class="vb-intro">Bei Jack Black zeigt sich das am deutlichsten in seiner Musik. Mit Tenacious D betreibt er nicht bloß eine Comedy-Band &ndash; er nimmt die Musik selbst ernst: technisch anspruchsvolle Gitarrenarbeit, sorgfältig komponierte Songs, eine tiefe, unironische Liebe zum Rock als Kunstform, verpackt in absurden Humor. Der Einserflügel verlangt, dass der Scherz auf echtem Können ruht &ndash; sonst ist er nur Lärm.</p>
+          <p class="vb-intro">Auch seine Art, Filmprojekte auszuwählen, trägt diese Handschrift: Jack Black hat immer wieder betont, dass er Rollen ablehnt, die er für unehrlich oder qualitativ schwach hält. Die Eins im Hintergrund sagt: Nicht jede Gelegenheit für Applaus ist es wert, ergriffen zu werden. Es muss stimmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist ihre Fähigkeit, Freude als Geschenk zu geben, ohne sie kleinzureden. Jack Blacks Karriere, von den Anfängen im Independent-Kino über <em>School of Rock</em> bis zu Welterfolgen wie den <em>Kung Fu Panda</em>-Filmen und dem <em>Minecraft</em>-Film, folgt einer klaren Linie: Er will, dass Menschen sich lebendig fühlen, wenn sie ihn sehen. Das ist kein Nebeneffekt seines Talents &ndash; es ist der Kern seines Antriebs.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch das eigene Geben unentbehrlich zu sein. Bei der SE2w1 zeigt sich das als die stille Gewissheit: <em>Ich weiß, wie man Freude macht, und das kann mir niemand nehmen.</em> Diese Gewissheit trägt, aber sie kann auch erschöpfen &ndash; wer sich fortlaufend über Energie und Unterhaltung definiert, riskiert, die eigenen ruhigeren, verletzlicheren Anteile zu übergehen.</p>
+          <p class="vb-intro">Jack Black hat in Interviews offen über Selbstzweifel, Ängste und die Herausforderungen des Älterwerdens in einer auf Jugend fixierten Branche gesprochen &ndash; ein Flusspferd, das auch einmal zugibt, dass das Wasser nicht immer trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Musik als zweites Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Jack Black neben der Schauspielerei eine ernsthafte Musikkarriere mit Tenacious D verfolgt, ist typisch für die SE2: Sie braucht mehrere Territorien, in denen sie ihre Kraft investieren kann. Die Bühne mit der Gitarre ist ein Ort, an dem er nicht spielt, dass er lebendig ist &ndash; er ist es. Grammy-Nominierungen, ausverkaufte Tourneen, ein eigener Film (<em>Tenacious D in The Pick of Destiny</em>) &ndash; das Flusspferd verteidigt dieses zweite Revier mit derselben Hingabe wie das erste.</p>
+          <p class="vb-intro">Diese Doppelrolle, Filmstar und Rockmusiker, ist kein Widerspruch, sondern zwei Ausdrucksformen derselben Energie: vollständige, körperliche, laute Hingabe an das, was gerade gebraucht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Freude ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jack Black der Popkultur gegeben hat, ist eine seltene Erlaubnis: sich vollständig, unironisch und ohne falsche Coolness der Freude hinzugeben. In einer Unterhaltungsindustrie, die oft auf Distanz und Ironie setzt, wirft er sich ungebremst hinein &ndash; und macht damit anderen Mut, es ihm gleichzutun.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE2w1: ein Flusspferd, das sein Territorium nicht mit Aggression verteidigt, sondern mit ansteckender Lebendigkeit füllt. Wer Jack Black auf der Bühne oder auf der Leinwand erlebt, spürt: Hier gibt jemand alles, was er hat &ndash; und genau darin liegt seine Kraft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Porträt: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
     </div>
   `);
@@ -42120,6 +42192,7 @@ function render() {
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
+      "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,

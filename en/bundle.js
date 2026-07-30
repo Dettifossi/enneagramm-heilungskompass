@@ -473,6 +473,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gloria von Thurn und Taxis – Self-Preservation Type 2",
     teaser:"SE2w1 · born 1960. Princess, entrepreneur, patron. From the punk princess excess of the 1980s to the iron matriarch of one of Europe's largest private fortunes. The hippopotamus knows its territory - and doesn't give it up. Animal correspondence: Hippo.",
     tags:["Adel","Business"] , gender:"f"},
+  { route:"beruehmte-jack-black", name:"Jack Black", added:"2026-07-30", subtyp:"SE2w1",
+    heading:"Jack Black – Self-Preservation Type 2",
+    teaser:"SE2w1 · born 1969. Actor & musician, School of Rock, Tenacious D. Full-body, unrestrained devotion to joy, wrapped in craft and standards. Animal correspondence: Hippo.",
+    tags:["Film/Theater","Music"] , gender:"m"},
   { route:"beruehmte-golda-meir", name:"Golda Meir", added:"2026-07-22", subtyp:"SE8w9",
     heading:"Golda Meir – Self-Preservation Type 8",
     teaser:"SE8w9 · 1898–1978. Politician, stateswoman, fourth prime minister of Israel (1969–1974). One of the signatories of Israel's Declaration of Independence. The orangutan that climbs slowly and ends up sitting higher than everyone who was louder.",
@@ -13838,6 +13842,74 @@ function gloriaVonThurnUndTaxisPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function jackBlackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jack-black-portrait.jpg" alt="Jack Black" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Black</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-Wing</p>
+        <p class="krim-portrait-subtitle">Actor & musician, b. 1969 – School of Rock, Tenacious D – Animal equivalent: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two—an animal people underestimate until they feel its true power. It looks bulky, loud, clumsy—and is at the same time one of the most dangerous animals in Africa the moment its territory seems threatened. This exact double nature, clowning on the surface, unbridled energy underneath, is Jack Black's signature.</p>
+          <p class="vb-intro">Few actors throw themselves into a role with such physical abandon as Jack Black. The sweeping facial expressions, the theatrical gestures, the volume with which he fills a room—that is no accident, but the energy of the hippopotamus in its purest form: seemingly harmless and comic at first, then suddenly there with a force nobody can escape.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care with Full Physical Commitment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation Two (SE2) directs the energy of the Two most directly toward its own survival and that of its closest circle. Naranjo called this subtype Me First—not egocentrism, but the conviction that one must first be stable, provided for, and alive oneself in order to be there for others. The SE2 is the most concrete, most physical of the three Two variants—it does not give abstractly, it gives with full commitment.</p>
+          <p class="vb-intro">In Jack Black, this shows in the way he fuses care and entertainment into one. In <em>School of Rock</em>, he plays a failed musician who brings a class of uptight children to life through rock music—not through lecturing, but through pure, infectious energy. The character Dewey Finn is at his core an SE2: he gives everything he has so that others can bloom, and he does it not quietly, but at the highest possible volume.</p>
+          <p class="vb-intro">Privately, too, Jack Black carries this quality: he is known as one of Hollywood's most approachable, caring stars in dealing with young fans, with his bandmate Kyle Gass, with his family. The SE2 does not care from a distance—it cares by throwing itself right into the middle of things.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One Wing: Craft and Standards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One wing (w1) gives the self-preservation Two something that gives its fire a direction: an inner standard for quality and seriousness. Where the pure Two might exhaust itself in pure affection, the One demands craft, discipline, a standard to be measured against.</p>
+          <p class="vb-intro">In Jack Black this shows most clearly in his music. With Tenacious D he does not merely run a comedy band—he takes the music itself seriously: technically demanding guitar work, carefully composed songs, a deep, unironic love for rock as an art form, wrapped in absurd humor. The One wing demands that the joke rest on real skill—otherwise it is just noise.</p>
+          <p class="vb-intro">His way of choosing film projects carries the same signature: Jack Black has repeatedly said he turns down roles he considers dishonest or of poor quality. The One in the background says: not every opportunity for applause is worth taking. It has to be right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w1 is its ability to give joy as a gift without downplaying it. Jack Black's career, from independent film beginnings through <em>School of Rock</em> to global hits like the <em>Kung Fu Panda</em> films and the <em>Minecraft</em> movie, follows a clear line: he wants people to feel alive when they see him. That is not a side effect of his talent—it is the core of his drive.</p>
+          <p class="vb-intro">The passion of the Two is called pride—the conviction that one is indispensable through one's own giving. In the SE2w1, this shows as the quiet certainty: <em>I know how to create joy, and nobody can take that from me.</em> This certainty carries, but it can also exhaust—anyone who continuously defines themselves through energy and entertainment risks overlooking their own quieter, more vulnerable sides.</p>
+          <p class="vb-intro">Jack Black has spoken openly in interviews about self-doubt, fears, and the challenges of aging in an industry fixated on youth—a hippopotamus that also admits, at times, that the water does not always carry.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Music as a Second Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That Jack Black pursues a serious music career with Tenacious D alongside acting is typical for the SE2: it needs several territories in which to invest its energy. The stage with the guitar is a place where he does not perform aliveness—he is alive. Grammy nominations, sold-out tours, his own film (<em>Tenacious D in The Pick of Destiny</em>)—the hippopotamus defends this second territory with the same devotion as the first.</p>
+          <p class="vb-intro">This double role, film star and rock musician, is not a contradiction but two expressions of the same energy: complete, physical, loud devotion to whatever is needed in the moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Joy Without Reservation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Jack Black has given popular culture is a rare permission: to give oneself completely, unironically, and without false coolness to joy. In an entertainment industry that often relies on distance and irony, he throws himself in without restraint—and by doing so gives others the courage to do the same.</p>
+          <p class="vb-intro">That is the gift of the SE2w1: a hippopotamus that does not defend its territory with aggression, but fills it with infectious aliveness. Whoever experiences Jack Black on stage or on screen feels it: here is someone giving everything he has—and that is exactly where his strength lies.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
     </div>
   `);
@@ -39126,6 +39198,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
+      "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-golda-meir": goldaMeirPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
