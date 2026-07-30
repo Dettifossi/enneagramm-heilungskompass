@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "362";
+const APP_BUILD = "363";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -724,7 +724,7 @@ const ENNEAGRAMM_KUNST = {
       { img:"typ5-01-vangogh-sternennacht", artist:"Vincent van Gogh", title:"Die Sternennacht", year:"1889", text:"Ein Himmel voller Bewegung und Energie, gemalt aus der Klosterzelle einer psychiatrischen Anstalt heraus, in die van Gogh sich zurückgezogen hatte. Die Fünf erkennt sich in dieser Spannung: aus der sicheren Distanz des Rückzugs heraus eine ganze, überwältigende innere Welt zu erschaffen." },
       { img:"typ5-02-vangogh-selbstbildnis-pfeife", artist:"Vincent van Gogh", title:"Selbstbildnis mit Pfeife", year:"1886", text:"Ein ruhiger, fast distanzierter Blick, die Pfeife wie eine Barriere zwischen sich und dem Betrachter. Genau diese sanfte, aber deutliche Grenzsetzung ist typisch fünferhaft: Nähe auf Abstand, Kontakt nur nach eigenen Bedingungen." },
       { img:"typ5-03-rodin-der-denker", artist:"Auguste Rodin", title:"Der Denker", year:"1881–1883", text:"Eine Figur, ganz in sich zurückgezogen, den Kopf auf die Hand gestützt, versunken im eigenen Gedankengang. Kaum ein Kunstwerk verkörpert die fünferhafte Grundhaltung so unmittelbar: die Welt zuerst verstehen, bevor man sich ihr zeigt." },
-      { img:"typ5-04-caravaggio-unglaeubige-thomas", artist:"Caravaggio", title:"Der ungläubige Thomas", year:"1601–1602", text:"Thomas steckt seinen Finger buchstäblich in die Wunde, weil er nur glaubt, was er selbst geprüft hat. Kein Bild fasst die Erkenntnishaltung der Fünf treffender: Vertrauen erst nach eigener, direkter Untersuchung." },
+      { img:"typ5-04-morghen-portrait-leonardo", artist:"Raffaello Morghen", title:"Porträt Leonardo da Vincis", year:"19. Jahrhundert", text:"Dieser Kupferstich zeigt Leonardo als alten, weisen Gelehrten – der Blick nach innen gerichtet, das Gesicht fast hinter einem langen Bart verborgen, als wollte es sich der Welt entziehen. Genau dieses Bild trifft die Fünf im Kern: der Mensch, der sich hinter Wissen und Beobachtung zurückzieht, um von dort aus die Welt zu verstehen, ohne sich ihr ganz auszusetzen." },
       { img:"typ5-05-davinci-anna-selbdritt", artist:"Leonardo da Vinci", title:"Die heilige Anna selbdritt", year:"1500–1513", text:"Drei Generationen in einer komplexen, über Jahre entwickelten Komposition – ein Werk, an dem Leonardo bis zu seinem Tod arbeitete, nie ganz fertig. Diese unstillbare Wissbegierde, die nie zum Abschluss kommen will, ist zutiefst fünferhaft." },
       { img:"typ5-06-hals-descartes", artist:"Frans Hals", title:"Porträt von René Descartes", year:"um 1649", text:"Der Philosoph, der den methodischen Zweifel zum Ausgangspunkt allen Wissens machte, mit wachem, prüfendem Blick festgehalten. Descartes' „cogito ergo sum“ ist im Kern ein fünferhafter Satz: Rückzug ins Denken als letzte sichere Position." },
     ],

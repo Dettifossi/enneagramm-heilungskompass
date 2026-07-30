@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "361";
+const APP_BUILD = "363";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -711,7 +711,7 @@ const ENNEAGRAMM_KUNST = {
       { img:"typ5-01-vangogh-sternennacht", artist:"Vincent van Gogh", title:"The Starry Night", year:"1889", text:"A sky full of movement and energy, painted from the cell of a psychiatric asylum where van Gogh had withdrawn. The Five recognizes itself in this tension: creating an entire, overwhelming inner world from the safe distance of retreat." },
       { img:"typ5-02-vangogh-selbstbildnis-pfeife", artist:"Vincent van Gogh", title:"Self-Portrait with Pipe", year:"1886", text:"A calm, almost distanced gaze, the pipe like a barrier between himself and the viewer. This gentle but clear boundary-setting is typically Five-like: closeness kept at arm's length, contact only on one's own terms." },
       { img:"typ5-03-rodin-der-denker", artist:"Auguste Rodin", title:"The Thinker", year:"1881–1883", text:"A figure entirely withdrawn into itself, head resting on hand, lost in its own train of thought. Few artworks embody the Five's basic posture so directly: understand the world first, before showing yourself to it." },
-      { img:"typ5-04-caravaggio-unglaeubige-thomas", artist:"Caravaggio", title:"The Incredulity of Saint Thomas", year:"1601–1602", text:"Thomas literally puts his finger in the wound, because he only believes what he has examined himself. Few images capture the Five's way of knowing more precisely: trust only after one's own, direct investigation." },
+      { img:"typ5-04-morghen-portrait-leonardo", artist:"Raffaello Morghen", title:"Portrait of Leonardo da Vinci", year:"19th century", text:"This engraving shows Leonardo as an old, wise scholar – his gaze turned inward, his face almost hidden behind a long beard, as if withdrawing from the world. This image captures the Five at its core: someone who retreats behind knowledge and observation in order to understand the world from there, without fully exposing themselves to it." },
       { img:"typ5-05-davinci-anna-selbdritt", artist:"Leonardo da Vinci", title:"The Virgin and Child with St Anne", year:"1500–1513", text:"Three generations in a complex composition developed over years – a work Leonardo kept working on until his death, never quite finished. This insatiable curiosity that never wants to reach completion is deeply Five-like." },
       { img:"typ5-06-hals-descartes", artist:"Frans Hals", title:"Portrait of René Descartes", year:"c. 1649", text:"The philosopher who made methodical doubt the starting point of all knowledge, captured with an alert, examining gaze. Descartes' \"cogito ergo sum\" is at its core a Five-like sentence: retreat into thought as the last secure position." },
     ],
