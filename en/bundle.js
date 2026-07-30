@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "359";
+const APP_BUILD = "361";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -650,12 +650,198 @@ const BERUEHMT_PORTRAITS = [
     teaser:"SE3w2 · born 1978. Comedian, actor, state president. Countertype of the three: masterful at concealing his own production. The raccoon who plays the hero - and has forgotten the difference. Animal correspondence: Raccoon.",
     tags:["Politics"] , gender:"m"}];
 
+const ENNEAGRAMM_KUNST = {
+  1: {
+    principle: "Wrath & Perfection",
+    title: "Type 1 – The Art of Wrath and Perfection",
+    intro: "Six artworks about order, moral certainty, and the inner judge – the signature of the One.",
+    works: [
+      { img:"typ1-01-munch-eifersucht", artist:"Edvard Munch", title:"Jealousy", year:"1895", text:"Munch paints jealous tension as an oppressive field of colour – a brooding male figure in the foreground, the couple behind. The One recognizes itself here not in jealousy itself, but in the harshness of the inner judge: the constant comparison between what is and what should be, the feeling of being right yet still falling short." },
+      { img:"typ1-02-rembrandt-apostel-paulus", artist:"Rembrandt", title:"The Apostle Paul", year:"1657", text:"Rembrandt shows Paul as a brooding scholar, sword in his lap, gaze turned inward. This exact mix of moral certainty and quiet self-examination is the One's signature: a life in service of a truth that is constantly weighed against one's own perceived inadequacy." },
+      { img:"typ1-03-duerer-rosenkranzfest", artist:"Albrecht Dürer", title:"Feast of the Rose Garlands", year:"1506", text:"A strictly composed, symmetrical devotional painting with the Pope and Emperor at Mary's feet, every figure placed with exactness. Dürer's precision itself is typically One-like: order as a path to grace, craft as moral discipline." },
+      { img:"typ1-04-cranach-suendenfall", artist:"Lucas Cranach the Elder", title:"The Fall and Redemption of Man", year:"1529", text:"Cranach places two states of humanity side by side in a single painting: the Fall and Redemption, Law and Grace. This sharp moral division – right and wrong, fallen and saved – is the mode of thought the One has inhabited since childhood." },
+      { img:"typ1-05-grant-wood-american-gothic", artist:"Grant Wood", title:"American Gothic", year:"1930", text:"Two people in front of a stern farmhouse, upright, unmoving, their faces marked by a sense of duty. Few images capture the One's bearing so precisely: discipline over indulgence, order as visible virtue." },
+      { img:"typ1-06-duerer-vater", artist:"Albrecht Dürer", title:"Portrait of the Artist's Father at 70", year:"1497", text:"Every wrinkle, every vein rendered with almost merciless accuracy – no flattery, only truth. This unsparing honesty toward what is, without embellishment, is the artistic equivalent of the One's claim to truth." },
+    ],
+  },
+  2: {
+    principle: "Pride & Devotion",
+    title: "Type 2 – The Art of Love and Devotion",
+    intro: "Six artworks about affection, attraction, and the need to be needed through love – the signature of the Two.",
+    works: [
+      { img:"typ2-01-davinci-abendmahl", artist:"Leonardo da Vinci (copy after)", title:"The Last Supper", year:"1494–1497", text:"Christ at the centre, surrounded by his disciples, the gesture of devotion in the moment of farewell – relationship as what remains when everything else fades. The Two recognizes itself in this scene: giving oneself entirely to others so the bond does not break." },
+      { img:"typ2-02-raffael-sixtinische-madonna", artist:"Raphael", title:"The Sistine Madonna", year:"1513–1514", text:"Mary carries the child with a gesture that is both tenderness and willingness to sacrifice, holding him out to the world. That is exactly the Two's movement: making one's love visible by turning fully toward another." },
+      { img:"typ2-03-botticelli-geburt-der-venus", artist:"Sandro Botticelli", title:"The Birth of Venus", year:"1484–1485", text:"Venus, the goddess of love, steps into life flawless, graceful, ready to receive – an image of pure magnetism. The Two knows this longing: to be irresistibly lovable, so as to be certain of being loved." },
+      { img:"typ2-04-venus-von-milo", artist:"Unknown sculptor", title:"Venus de Milo", year:"late 2nd century BCE", text:"Even without arms, this figure radiates timeless grace – beauty that needs to do nothing to have an effect. And yet it is exactly this effect the Two quietly works toward: to be seen and needed." },
+      { img:"typ2-05-veronese-mars-venus", artist:"Paolo Veronese", title:"Mars and Venus United by Love", year:"1580", text:"The god of war lays down his weapons, softened by love – an image of how affection can disarm even the hardest. The Two believes deeply in this power: that love can transform, if only given unconditionally enough." },
+      { img:"typ2-06-allori-venus-amor", artist:"Alessandro Allori", title:"Venus and Cupid", year:"after 1570", text:"Mother and son, tenderness in a close embrace – an image of nurturing, protective love. This is exactly the role the Two seeks in every relationship: the nourishing, indispensable one, without whom no one can imagine getting by." },
+    ],
+  },
+  3: {
+    principle: "Vanity & Self-Deception",
+    title: "Type 3 – The Art of Vanity",
+    intro: "Six artworks about the mirror, image, and what remains when the performance ends – the signature of the Three.",
+    works: [
+      { img:"typ3-01-tizian-eitelkeit-der-welt", artist:"Titian", title:"Vanity of the World", year:"c. 1520", text:"A young woman looks into a mirror while a skull and crown point to the transience of all glamour. The Three recognizes itself immediately in this image: the effort to maintain a flawless image, while the question of what lies beneath goes unasked." },
+      { img:"typ3-02-gilbert-all-is-vanity", artist:"Charles Allan Gilbert", title:"All is Vanity", year:"1892", text:"A double image: a woman at her mirror – or a skull, depending on how you look. Few pictures capture the Three's warning so precisely: when image becomes the whole identity, only emptiness is left behind it." },
+      { img:"typ3-03-bosch-hochmut-eitelkeit", artist:"Hieronymus Bosch", title:"Pride, from The Seven Deadly Sins", year:"c. 1500", text:"A woman admires herself in a mirror held up by a demon – vanity as a trap she lures herself into. Bosch shows what the Three feels but rarely admits: that self-presentation is steered by something other than one's own free will." },
+      { img:"typ3-04-segantini-eitelkeit", artist:"Giovanni Segantini", title:"Vanity", year:"1897", text:"A young woman in a light-filled landscape, entirely absorbed by her own reflection while the world around her carries on. This exact absorption in one's own image, paired with distance from one's inner world, is the Three's signature." },
+      { img:"typ3-05-otto-friedrich-eitelkeit", artist:"Otto Friedrich", title:"Vanity", year:"1904", text:"A symbolist depiction of self-contemplation, shifting between allure and warning. The work belongs to a tradition the Three understands instantly: the mirror as the most dangerous and most beloved place at once." },
+      { img:"typ3-06-cruikshank-crowded-room", artist:"George Cruikshank", title:"The Inconveniences of a Crowded Drawing Room", year:"19th c.", text:"A satirical scene of social self-display, everyone watching everyone, all wanting to be seen. Cruikshank caricatures what the Three takes entirely seriously: appearing before an audience as life's true purpose." },
+    ],
+  },
+  4: {
+    principle: "Envy & Longing",
+    title: "Type 4 – The Art of Longing",
+    intro: "Six artworks about melancholy, beauty, and the feeling of being uniquely, unreachably special – the signature of the Four.",
+    works: [
+      { img:"typ4-01-vermeer-perlenohrgehaenge", artist:"Jan Vermeer", title:"Girl with a Pearl Earring", year:"1665", text:"A glance over the shoulder, half question, half secret – no one knows who she is or what she feels. This unknowability, both inviting and withholding, is the language of the Four: wanting to be seen, yet remaining out of reach." },
+      { img:"typ4-02-friedrich-wanderer-nebelmeer", artist:"Caspar David Friedrich", title:"Wanderer above the Sea of Fog", year:"1818", text:"A man stands alone on a rock above a sea of mist, his back to the viewer. Few images capture the Four's romantic longing so precisely: the feeling of standing alone somewhere no one else can reach." },
+      { img:"typ4-03-michelangelo-david", artist:"Michelangelo Buonarroti", title:"David", year:"1501–1504", text:"The moment before battle, tension and beauty fused in a single body. The Four sees in this ideal not only perfection but its tragedy: that flawless beauty seems made for one single, decisive instant." },
+      { img:"typ4-04-monet-impression-sonnenaufgang", artist:"Claude Monet", title:"Impression, Sunrise", year:"1872", text:"Outlines dissolve, light itself becomes the real subject – an image that conveys mood more than depiction. That is exactly the Four: more interested in the feeling behind things than in the things themselves." },
+      { img:"typ4-05-courbet-der-verzweifelte", artist:"Gustave Courbet", title:"Self-Portrait, \"The Desperate Man\"", year:"c. 1843–1845", text:"Courbet stares wide-eyed straight into the mirror, hands clutching his hair. This unvarnished depiction of his own despair, with no embellishment, is the Four in its purest form: feeling as the truest thing there is to show." },
+      { img:"typ4-06-fra-angelico-fresken", artist:"Fra Angelico", title:"From the fresco cycle", year:"1437–1446", text:"Quiet, light-filled religious scenes of deep inner absorption. Fra Angelico's art shows where the Four's longing can lead when it doesn't dissolve into melancholy but expresses itself as quiet, devoted beauty instead." },
+    ],
+  },
+  5: {
+    principle: "Avarice & Withdrawal",
+    title: "Type 5 – The Art of Withdrawal and Insight",
+    intro: "Six artworks about observation, distance, and the safety found in thought itself – the signature of the Five.",
+    works: [
+      { img:"typ5-01-vangogh-sternennacht", artist:"Vincent van Gogh", title:"The Starry Night", year:"1889", text:"A sky full of movement and energy, painted from the cell of a psychiatric asylum where van Gogh had withdrawn. The Five recognizes itself in this tension: creating an entire, overwhelming inner world from the safe distance of retreat." },
+      { img:"typ5-02-vangogh-selbstbildnis-pfeife", artist:"Vincent van Gogh", title:"Self-Portrait with Pipe", year:"1886", text:"A calm, almost distanced gaze, the pipe like a barrier between himself and the viewer. This gentle but clear boundary-setting is typically Five-like: closeness kept at arm's length, contact only on one's own terms." },
+      { img:"typ5-03-rodin-der-denker", artist:"Auguste Rodin", title:"The Thinker", year:"1881–1883", text:"A figure entirely withdrawn into itself, head resting on hand, lost in its own train of thought. Few artworks embody the Five's basic posture so directly: understand the world first, before showing yourself to it." },
+      { img:"typ5-04-caravaggio-unglaeubige-thomas", artist:"Caravaggio", title:"The Incredulity of Saint Thomas", year:"1601–1602", text:"Thomas literally puts his finger in the wound, because he only believes what he has examined himself. Few images capture the Five's way of knowing more precisely: trust only after one's own, direct investigation." },
+      { img:"typ5-05-davinci-anna-selbdritt", artist:"Leonardo da Vinci", title:"The Virgin and Child with St Anne", year:"1500–1513", text:"Three generations in a complex composition developed over years – a work Leonardo kept working on until his death, never quite finished. This insatiable curiosity that never wants to reach completion is deeply Five-like." },
+      { img:"typ5-06-hals-descartes", artist:"Frans Hals", title:"Portrait of René Descartes", year:"c. 1649", text:"The philosopher who made methodical doubt the starting point of all knowledge, captured with an alert, examining gaze. Descartes' \"cogito ergo sum\" is at its core a Five-like sentence: retreat into thought as the last secure position." },
+    ],
+  },
+  6: {
+    principle: "Fear & Loyalty",
+    title: "Type 6 – The Art of Fear and Courage",
+    intro: "Six artworks about doubt, vigilance, and the search for safety in community – the signature of the Six.",
+    works: [
+      { img:"typ6-01-munch-der-schrei", artist:"Edvard Munch", title:"The Scream", year:"1910", text:"A figure, hands pressed to its head, as sky and landscape dissolve into a whirl of anxiety. Few images in art history capture the Six's basic feeling so directly: the world as a place where threat can surface at any moment." },
+      { img:"typ6-02-caravaggio-unglaube-thomas", artist:"Caravaggio", title:"The Incredulity of Saint Thomas", year:"1601–1602", text:"Doubt as a physical necessity – only one's own hand in the wound brings certainty. The Six knows this pattern: not trusting peace until it has proven itself safe." },
+      { img:"typ6-03-sant-mut-angst-verzweiflung", artist:"James Sant", title:"Courage, Anxiety and Despair", year:"1850", text:"Three faces, three reactions to the same threat – a picture of how differently people respond to danger. Exactly this spectrum lives within the Six itself: between bravery and retreat, often in the same moment." },
+      { img:"typ6-04-raffael-schule-von-athen", artist:"Raphael", title:"The School of Athens (detail)", year:"1509–1511", text:"Plato and Aristotle at the centre of a building full of thinkers searching together for truth. The Six longs for exactly this kind of community: a reliable system, a group of allies to belong to." },
+      { img:"typ6-05-gauguin-arlesiennes", artist:"Paul Gauguin", title:"Arlésiennes (Mistral)", year:"1888", text:"Women wrapped tightly in their shawls, defying the wind, standing together against harsh weather. This image of solidarity against adversity captures the Six's core: safety arises in the group, not in going it alone." },
+      { img:"typ6-06-fugel-david-goliath", artist:"Gebhard Fugel", title:"David and Goliath", year:"c. 1900", text:"Small David steps up to overpowering Goliath – not out of fearlessness, but out of a courage that includes fear rather than denying it. This is the Six's most mature form: courage not as the absence of fear, but as its overcoming." },
+    ],
+  },
+  7: {
+    principle: "Gluttony & Excess",
+    title: "Type 7 – The Art of Gluttony",
+    intro: "Six artworks about pleasure, excess, and the flight from pain through abundance – the signature of the Seven.",
+    works: [
+      { img:"typ7-01-fressender-narr", artist:"Unknown", title:"The Gluttonous Fool", year:"15th/16th c.", text:"A fool, surrounded by jugs and food, lost in unrestrained indulgence – a medieval warning against excess. The Seven recognizes itself here without disguise: reaching for more and more, just to avoid feeling any emptiness." },
+      { img:"typ7-02-rubens-sodom", artist:"Peter Paul Rubens", title:"Sodom", year:"1625", text:"Rubens paints the biblical city of excess at the moment of its downfall – lavish, dramatic, cautionary. The Seven knows this tension between delight in abundance and the suspicion that limitless pleasure has its price." },
+      { img:"typ7-03-bronzino-allegorie-des-gluecks", artist:"Bronzino", title:"Allegory of Happiness", year:"1564", text:"A dense, symbol-laden composition around Fortuna and her gifts – wealth, pleasure, abundance united in one image. This gathering of possibilities, none left out, is the visual equivalent of the Seven's need to miss nothing." },
+      { img:"typ7-04-bryullov-traum-der-nonne", artist:"Karl Bryullov", title:"The Nun's Dream", year:"1831", text:"A nun dreams of worldly pleasure amid her own asceticism – the longing for abundance breaks through even the strictest discipline. A fitting image of how irresistible the Seven's call for more can be, even for those who have renounced it." },
+      { img:"typ7-05-brispot-gourmand", artist:"Henri Brispot", title:"A Gourmand", year:"1928", text:"A man lost in absolute enjoyment at the table, every dish a small celebration. Brispot's image celebrates exactly what the Seven seeks: the moment in which pleasure crowds out everything else." },
+      { img:"typ7-06-opiz-der-voeller", artist:"Georg Emanuel Opiz", title:"The Glutton", year:"1804", text:"A satirical, almost caricature-like depiction of boundless eating and drinking. Opiz shows where the Seven's forward flight can lead if left unchecked: abundance that ultimately crushes itself." },
+    ],
+  },
+  8: {
+    principle: "Lust & Intensity",
+    title: "Type 8 – The Art of Lust and Desire",
+    intro: "Six artworks about intensity, control, and the closeness to the abyss – the signature of the Eight.",
+    works: [
+      { img:"typ8-01-baldung-tod-und-wollust", artist:"Hans Baldung", title:"Death and the Maiden", year:"1517", text:"Death embraces a young woman from behind, desire and mortality united in one image. Baldung shows what the Eight knows deep down: that full intensity and closeness to the abyss are inseparable." },
+      { img:"typ8-02-brouwer-luxuria", artist:"Adriaen Brouwer", title:"Luxuria, \"The Fat Man\"", year:"1634–1637", text:"A man entirely given over to his desires, depicted without any restraint. Brouwer's unsparing look at unchecked craving hits the Eight's truth: better whole and unvarnished than controlled and half." },
+      { img:"typ8-03-gauguin-gold-ihrer-koerper", artist:"Paul Gauguin", title:"And the Gold of Their Bodies", year:"1901", text:"Two women in unselfconscious, confident physicality, without any shame about their own desire. Gauguin celebrates a directness the Eight understands deeply: not hiding the body and its wanting, but showing it openly." },
+      { img:"typ8-04-bosch-tisch-der-suenden", artist:"Hieronymus Bosch", title:"Table of the Mortal Sins: Luxuria", year:"c. 1500", text:"A couple under a tent, surrounded by musical instruments and pleasures – one of seven sin-fields in Bosch's famous panel. The label \"luxuria\" marks exactly the force the Eight carries most strongly and is least willing to restrain." },
+      { img:"typ8-05-rops-die-begierde", artist:"Félicien Rops", title:"Desire", year:"1878–1881", text:"A woman, visibly swept away by her own longing, control deliberately abandoned. Rops' image shows the flip side of Eight-like strength: the fear of losing control, which is precisely why so much energy goes into controlling others." },
+      { img:"typ8-06-courbet-schlaeferinnen", artist:"Gustave Courbet", title:"The Sleepers", year:"1866", text:"Two women, exhausted and completely surrendered in their rest after passion. Courbet's unretouched image shows what remains after intensity: a stillness the Eight rarely allows itself, because vulnerability feels like weakness." },
+    ],
+  },
+  9: {
+    principle: "Sloth & Harmony",
+    title: "Type 9 – The Art of Sloth and Harmony",
+    intro: "Six artworks about stillness, self-forgetting, and the longing to merge into the greater whole – the signature of the Nine.",
+    works: [
+      { img:"typ9-01-davinci-mona-lisa", artist:"Leonardo da Vinci", title:"Mona Lisa", year:"1503–1506", text:"A smile that resists any single interpretation – present and yet unreadably held back. Few faces in art history embody the Nine's quality so precisely: being fully present without fully revealing oneself." },
+      { img:"typ9-02-matisse-harmony-in-red", artist:"Henri Matisse", title:"Harmony in Red", year:"1908", text:"An interior scene in which pattern and colour dissolve almost every boundary between figure and surroundings. That is exactly the Nine's longing: to merge into the greater whole without having to sharply define oneself as separate." },
+      { img:"typ9-03-courbet-die-haengematte", artist:"Gustave Courbet", title:"The Hammock", year:"1844", text:"A woman entirely relaxed in a hammock, given over to doing nothing, surrounded by lush nature. Few images show the Nine's longing for undisturbed rest so directly – a moment in which nothing needs to be done." },
+      { img:"typ9-04-delacroix-see-von-galilaea", artist:"Eugène Delacroix", title:"Christ Asleep during the Tempest", year:"1854", text:"Jesus sleeps through a raging storm while the disciples panic – calm amid chaos as the true source of strength. This image captures the Nine's deepest gift: an inner stillness that even a storm cannot break." },
+      { img:"typ9-05-brueghel-jona-und-der-wal", artist:"Jan Brueghel the Elder", title:"Jonah Emerging from the Whale", year:"1568", text:"After three days in the belly of the whale, Jonah is spat out again – an image of withdrawal, avoidance, and eventual, unavoidable return to life. The Nine knows exactly this pattern: withdrawing until life's call grows too loud to ignore any longer." },
+      { img:"typ9-06-bloemaert-unkraut-weizen", artist:"Abraham Bloemaert", title:"Parable of the Wheat and the Tares", year:"17th c.", text:"A biblical scene about patience – weeds and wheat allowed to grow side by side until everything sorts itself out in the end. This stance of non-intervention, of trusting that things will settle on their own, is the Nine's wisdom in its purest form." },
+    ],
+  },
+};
+// ─── Enneagram Art ──────────────────────────────────────────────────────────
+
+function enneagrammKunstUebersichtPage() {
+  const tile = n => {
+    const col = TYPE_COLORS[n] || "var(--copper)";
+    const d = ENNEAGRAMM_KUNST[n];
+    const cover = d.works[0].img;
+    return `<div class="kf-card" data-route="enneagramm-kunst-typ-${n}" onclick="go('enneagramm-kunst-typ-${n}')"
+      style="cursor:pointer;padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="aspect-ratio:4/3;overflow:hidden;background:#eee;">
+        <img src="../assets/kunst/${cover}.jpg" alt="${d.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+      <div style="padding:0.8rem 1rem;">
+        <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">Type ${n}</div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--ink);">${d.principle}</div>
+      </div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagram Art')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagram Art</h1>
+      <p class="psycho-intro">Nine types, nine passions – mirrored across four centuries of art history. From Dürer to Matisse, from the Renaissance to modernism: each artwork tells, in its own way, of a type's fixation, longing, or shadow. Choose a type to explore its gallery.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(tile).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-astrologie", label:"Enneagram meets Astrology"},
+        {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
+        {route:"schaubilder", label:"All Diagrams"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammKunstTypPage(n) {
+  const d = ENNEAGRAMM_KUNST[n];
+  const col = TYPE_COLORS[n] || "var(--copper)";
+  const workCard = w => `<div class="kf-card" style="padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);">
+      <img src="../assets/kunst/${w.img}.jpg" alt="${w.artist} – ${w.title}" loading="lazy" style="width:100%;display:block;" />
+      <div style="padding:1rem 1.1rem;">
+        <div style="font-weight:700;font-size:1rem;color:var(--ink);margin-bottom:0.1rem;">${w.artist}</div>
+        <div style="font-size:0.85rem;color:${col};font-weight:600;margin-bottom:0.6rem;">${w.title} &middot; ${w.year}</div>
+        <p class="vb-intro" style="margin:0;font-size:0.92rem;">${w.text}</p>
+      </div>
+    </div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagram Art')}
+      <div id="js-back-target" data-route="enneagramm-kunst" style="display:none;"></div>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.3rem;line-height:1.2;">${d.title}</h1>
+      <p class="psycho-intro">${d.intro}</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.1rem;max-width:100%;margin-bottom:2rem;">
+        ${d.works.map(workCard).join('')}
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-kunst", label:"All 9 Art Galleries"},
+        {route:"type/" + n, label:"Go to Type " + n + " in the Compass"},
+        {route:"enneagramm-astrologie", label:"Enneagram meets Astrology"},
+      ])}
+    </div>
+  `);
+}
+
 // NEU-Markierungen für Charts: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -765,6 +951,7 @@ text.nav = [
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
+    { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
   ]},
@@ -39469,6 +39656,8 @@ function subtypeSchaubilderPage() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-kunst": enneagrammKunstUebersichtPage,
+      ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "persoenlichkeitsmodelle-vergleich": persoenlichkeitsmodelleVergleichPage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,

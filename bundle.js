@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "360";
+const APP_BUILD = "361";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -663,12 +663,198 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Selbsterhaltende Typ 9",       teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Schütze im 3. Haus – die unbewegliche Vermittlerin der Macht." },
 ];
 
+const ENNEAGRAMM_KUNST = {
+  1: {
+    principle: "Zorn & Vollkommenheit",
+    title: "Typ 1 – Die Kunst des Zorns und der Vollkommenheit",
+    intro: "Sechs Kunstwerke, die von Ordnung, moralischer Gewissheit und dem inneren Richter erzählen – der Signatur der Eins.",
+    works: [
+      { img:"typ1-01-munch-eifersucht", artist:"Edvard Munch", title:"Eifersucht", year:"1895", text:"Munch malt eifersüchtige Spannung als beklemmende Farbfläche – im Vordergrund eine grüblerische männliche Figur, im Hintergrund das Paar. Die Eins erkennt sich hier nicht in der Eifersucht selbst, sondern in der Härte des inneren Richters: der ständige Vergleich zwischen dem, was ist, und dem, was sein sollte, das Gefühl, im Recht zu sein und doch zu kurz zu kommen." },
+      { img:"typ1-02-rembrandt-apostel-paulus", artist:"Rembrandt", title:"Der Apostel Paulus", year:"1657", text:"Rembrandt zeigt Paulus als grüblerischen Gelehrten, das Schwert im Schoß, den Blick nach innen gerichtet. Genau diese Mischung aus moralischer Gewissheit und stiller Selbstprüfung ist die Signatur der Eins: ein Leben im Dienst einer Wahrheit, die ständig gegen das eigene Ungenügen abgewogen wird." },
+      { img:"typ1-03-duerer-rosenkranzfest", artist:"Albrecht Dürer", title:"Rosenkranzfest", year:"1506", text:"Ein streng komponiertes, symmetrisches Andachtsbild mit Papst und Kaiser zu Füßen Marias, jede Figur exakt platziert. Dürers Präzision selbst ist typisch einserhaft: Ordnung als Weg zur Gnade, Handwerk als moralische Disziplin." },
+      { img:"typ1-04-cranach-suendenfall", artist:"Lucas Cranach d. Ä.", title:"Sündenfall und Erlösung", year:"1529", text:"Cranach stellt in einem Bild zwei Zustände der Menschheit gegenüber: Sündenfall und Erlösung, Gesetz und Gnade. Diese scharfe moralische Zweiteilung – richtig und falsch, gefallen und erlöst – ist die Denkform, in der die Eins von Kindheit an zu Hause ist." },
+      { img:"typ1-05-grant-wood-american-gothic", artist:"Grant Wood", title:"American Gothic", year:"1930", text:"Zwei Menschen vor einem strengen Bauernhaus, aufrecht, unbewegt, die Mienen von Pflichtbewusstsein gezeichnet. Wenige Bilder fangen die einserhafte Haltung so genau ein: Zucht statt Nachgiebigkeit, Ordnung als sichtbare Tugend." },
+      { img:"typ1-06-duerer-vater", artist:"Albrecht Dürer", title:"Porträt von Dürers Vater", year:"1497", text:"Jede Falte, jede Ader mit fast unbarmherziger Genauigkeit wiedergegeben – keine Schmeichelei, nur Wahrheit. Diese schonungslose Ehrlichkeit im Blick auf das, was ist, ohne Beschönigung, ist die künstlerische Entsprechung des einserhaften Wahrheitsanspruchs." },
+    ],
+  },
+  2: {
+    principle: "Stolz & Hingabe",
+    title: "Typ 2 – Die Kunst der Liebe und Hingabe",
+    intro: "Sechs Kunstwerke über Zuneigung, Anziehungskraft und das Bedürfnis, durch Liebe gebraucht zu werden – die Signatur der Zwei.",
+    works: [
+      { img:"typ2-01-davinci-abendmahl", artist:"Leonardo da Vinci (Kopie nach)", title:"Das letzte Abendmahl", year:"1494–1497", text:"Christus im Zentrum, umgeben von den Jüngern, die Geste der Hingabe im Moment des Abschieds – Beziehung als das, was bleibt, wenn alles andere vergeht. Die Zwei erkennt sich in dieser Szene: sich ganz für andere hingeben, damit die Verbindung nicht abreißt." },
+      { img:"typ2-02-raffael-sixtinische-madonna", artist:"Raffael", title:"Sixtinische Madonna", year:"1513–1514", text:"Maria trägt das Kind mit einer Geste, die Zärtlichkeit und Opferbereitschaft zugleich ist, während sie es der Welt entgegenhält. Genau das ist die Bewegung der Zwei: die eigene Liebe sichtbar machen, indem sie sich einem anderen ganz zuwendet." },
+      { img:"typ2-03-botticelli-geburt-der-venus", artist:"Sandro Botticelli", title:"Die Geburt der Venus", year:"1484–1485", text:"Venus, die Göttin der Liebe, tritt makellos, anmutig, empfangsbereit ins Leben – ein Bild reiner Anziehungskraft. Die Zwei kennt diese Sehnsucht, unwiderstehlich liebenswert zu sein, um sicher sein zu können, geliebt zu werden." },
+      { img:"typ2-04-venus-von-milo", artist:"Unbekannter Bildhauer", title:"Venus von Milo", year:"Ende 2. Jh. v. Chr.", text:"Auch ohne Arme strahlt diese Figur zeitlose Anmut aus – Schönheit, die nichts tun muss, um zu wirken. Und doch ist es genau diese Wirkung, um die sich die Zwei im Verborgenen bemüht: gesehen und gebraucht zu werden." },
+      { img:"typ2-05-veronese-mars-venus", artist:"Paolo Veronese", title:"Mars und Venus", year:"1580", text:"Der Kriegsgott legt seine Waffen ab, berührt von der Liebe – ein Bild davon, wie Zuneigung selbst die Härtesten weich macht. Die Zwei glaubt zutiefst an diese Kraft: dass Liebe verwandeln kann, wenn man sie nur bedingungslos genug gibt." },
+      { img:"typ2-06-allori-venus-amor", artist:"Alessandro Allori", title:"Venus und Amor", year:"nach 1570", text:"Mutter und Sohn, Zärtlichkeit in inniger Umarmung – ein Bild der fürsorglichen, beschützenden Liebe. Genau diese Rolle sucht die Zwei in jeder Beziehung: die Nährende, Unentbehrliche, ohne die zu sein sich niemand vorstellen kann." },
+    ],
+  },
+  3: {
+    principle: "Eitelkeit & Selbstbetrug",
+    title: "Typ 3 – Die Kunst der Eitelkeit",
+    intro: "Sechs Kunstwerke über den Spiegel, das Image und die Frage, was bleibt, wenn die Inszenierung endet – die Signatur der Drei.",
+    works: [
+      { img:"typ3-01-tizian-eitelkeit-der-welt", artist:"Tizian", title:"Die Eitelkeit der Welt", year:"um 1520", text:"Eine junge Frau blickt in den Spiegel, während Schädel und Krone auf die Vergänglichkeit allen Glanzes verweisen. Die Drei erkennt sich in diesem Bild unmittelbar: das Bemühen um ein makelloses Bild, während die Frage nach dem, was darunter liegt, ungestellt bleibt." },
+      { img:"typ3-02-gilbert-all-is-vanity", artist:"Charles Allan Gilbert", title:"All is Vanity", year:"1892", text:"Eine Doppelbelichtung: Frau vor dem Spiegel – oder Totenschädel, je nach Blickwinkel. Kein Bild fasst die Warnung der Drei präziser: Wenn das Image zur ganzen Identität wird, bleibt am Ende nur die Leere dahinter sichtbar." },
+      { img:"typ3-03-bosch-hochmut-eitelkeit", artist:"Hieronymus Bosch", title:"Hochmut in der Ausformung der Eitelkeit", year:"um 1500", text:"Eine Frau bewundert sich im Spiegel, den ein Dämon ihr hinhält – Eitelkeit als Falle, in die man sich selbst lockt. Bosch zeigt, was die Drei spürt, aber selten zugibt: dass die Selbstinszenierung von etwas anderem gesteuert wird als vom eigenen Willen." },
+      { img:"typ3-04-segantini-eitelkeit", artist:"Giovanni Segantini", title:"Eitelkeit", year:"1897", text:"Eine junge Frau in lichtdurchfluteter Landschaft, ganz mit ihrem Spiegelbild beschäftigt, während die Welt um sie herum weiterlebt. Genau diese Versunkenheit ins eigene Bild, bei gleichzeitiger Distanz zur eigenen Innenwelt, ist die Signatur der Drei." },
+      { img:"typ3-05-otto-friedrich-eitelkeit", artist:"Otto Friedrich", title:"Eitelkeit", year:"1904", text:"Eine symbolistische Darstellung der Selbstbetrachtung, changierend zwischen Anziehung und Warnung. Das Werk fügt sich in eine Tradition ein, die die Drei sofort versteht: der Spiegel als gefährlichster und liebster Ort zugleich." },
+      { img:"typ3-06-cruikshank-crowded-room", artist:"George Cruikshank", title:"Die Unbequemlichkeiten eines überfüllten Empfangszimmers", year:"19. Jh.", text:"Eine satirische Szene gesellschaftlicher Selbstdarstellung, in der jeder auf jeden schaut und gesehen werden will. Cruikshank karikiert, was die Drei ernst nimmt: den Auftritt vor Publikum als eigentlichen Daseinszweck." },
+    ],
+  },
+  4: {
+    principle: "Neid & Sehnsucht",
+    title: "Typ 4 – Die Kunst der Sehnsucht",
+    intro: "Sechs Kunstwerke über Melancholie, Schönheit und das Gefühl, unerreichbar besonders zu sein – die Signatur der Vier.",
+    works: [
+      { img:"typ4-01-vermeer-perlenohrgehaenge", artist:"Jan Vermeer", title:"Das Mädchen mit dem Perlenohrgehänge", year:"1665", text:"Ein Blick über die Schulter, halb Frage, halb Geheimnis – niemand weiß, wer sie ist oder was sie fühlt. Diese Unergründlichkeit, die zugleich anzieht und entzieht, ist die Sprache der Vier: gesehen werden wollen und doch unerreichbar bleiben." },
+      { img:"typ4-02-friedrich-wanderer-nebelmeer", artist:"Caspar David Friedrich", title:"Der Wanderer über dem Nebelmeer", year:"1818", text:"Ein Mann steht allein auf einem Felsen über einem Meer aus Nebel, den Rücken dem Betrachter zugewandt. Kein Bild trifft die romantische Sehnsucht der Vier präziser: das Gefühl, allein an einem Ort zu stehen, den sonst niemand erreicht." },
+      { img:"typ4-03-michelangelo-david", artist:"Michelangelo Buonarroti", title:"David", year:"1501–1504", text:"Der Moment vor dem Kampf, Anspannung und Schönheit in einem Körper vereint. Die Vier erkennt in diesem Ideal nicht nur Perfektion, sondern die Tragik, die darin liegt: dass makellose Schönheit für einen einzigen entscheidenden Augenblick geschaffen scheint." },
+      { img:"typ4-04-monet-impression-sonnenaufgang", artist:"Claude Monet", title:"Impression, Sonnenaufgang", year:"1872", text:"Die Konturen lösen sich auf, das Licht wird zur eigentlichen Aussage – ein Bild, das mehr Stimmung als Abbild ist. Genau das ist die Vier: mehr am Gefühl hinter den Dingen interessiert als an den Dingen selbst." },
+      { img:"typ4-05-courbet-der-verzweifelte", artist:"Gustave Courbet", title:"Selbstporträt „Der Verzweifelte“", year:"um 1843–1845", text:"Courbet blickt mit aufgerissenen Augen direkt in den Spiegel, die Hände in die Haare gekrallt. Diese ungeschminkte Darstellung der eigenen Verzweiflung, ohne jede Beschönigung, ist die Vier in Reinform: das Gefühl als das Wahrste, was es zu zeigen gibt." },
+      { img:"typ4-06-fra-angelico-fresken", artist:"Fra Angelico", title:"Aus dem Freskenzyklus", year:"1437–1446", text:"Stille, lichtdurchflutete religiöse Szenen von tiefer innerer Versenkung. Fra Angelicos Kunst zeigt, wohin die Sehnsucht der Vier führen kann, wenn sie sich nicht in Melancholie verliert, sondern in stiller, hingebungsvoller Schönheit ausdrückt." },
+    ],
+  },
+  5: {
+    principle: "Geiz & Rückzug",
+    title: "Typ 5 – Die Kunst des Rückzugs und der Erkenntnis",
+    intro: "Sechs Kunstwerke über Beobachtung, Distanz und die Sicherheit, die im Denken selbst liegt – die Signatur der Fünf.",
+    works: [
+      { img:"typ5-01-vangogh-sternennacht", artist:"Vincent van Gogh", title:"Die Sternennacht", year:"1889", text:"Ein Himmel voller Bewegung und Energie, gemalt aus der Klosterzelle einer psychiatrischen Anstalt heraus, in die van Gogh sich zurückgezogen hatte. Die Fünf erkennt sich in dieser Spannung: aus der sicheren Distanz des Rückzugs heraus eine ganze, überwältigende innere Welt zu erschaffen." },
+      { img:"typ5-02-vangogh-selbstbildnis-pfeife", artist:"Vincent van Gogh", title:"Selbstbildnis mit Pfeife", year:"1886", text:"Ein ruhiger, fast distanzierter Blick, die Pfeife wie eine Barriere zwischen sich und dem Betrachter. Genau diese sanfte, aber deutliche Grenzsetzung ist typisch fünferhaft: Nähe auf Abstand, Kontakt nur nach eigenen Bedingungen." },
+      { img:"typ5-03-rodin-der-denker", artist:"Auguste Rodin", title:"Der Denker", year:"1881–1883", text:"Eine Figur, ganz in sich zurückgezogen, den Kopf auf die Hand gestützt, versunken im eigenen Gedankengang. Kaum ein Kunstwerk verkörpert die fünferhafte Grundhaltung so unmittelbar: die Welt zuerst verstehen, bevor man sich ihr zeigt." },
+      { img:"typ5-04-caravaggio-unglaeubige-thomas", artist:"Caravaggio", title:"Der ungläubige Thomas", year:"1601–1602", text:"Thomas steckt seinen Finger buchstäblich in die Wunde, weil er nur glaubt, was er selbst geprüft hat. Kein Bild fasst die Erkenntnishaltung der Fünf treffender: Vertrauen erst nach eigener, direkter Untersuchung." },
+      { img:"typ5-05-davinci-anna-selbdritt", artist:"Leonardo da Vinci", title:"Die heilige Anna selbdritt", year:"1500–1513", text:"Drei Generationen in einer komplexen, über Jahre entwickelten Komposition – ein Werk, an dem Leonardo bis zu seinem Tod arbeitete, nie ganz fertig. Diese unstillbare Wissbegierde, die nie zum Abschluss kommen will, ist zutiefst fünferhaft." },
+      { img:"typ5-06-hals-descartes", artist:"Frans Hals", title:"Porträt von René Descartes", year:"um 1649", text:"Der Philosoph, der den methodischen Zweifel zum Ausgangspunkt allen Wissens machte, mit wachem, prüfendem Blick festgehalten. Descartes' „cogito ergo sum“ ist im Kern ein fünferhafter Satz: Rückzug ins Denken als letzte sichere Position." },
+    ],
+  },
+  6: {
+    principle: "Angst & Loyalität",
+    title: "Typ 6 – Die Kunst der Angst und des Mutes",
+    intro: "Sechs Kunstwerke über Zweifel, Wachsamkeit und die Suche nach Sicherheit in Gemeinschaft – die Signatur der Sechs.",
+    works: [
+      { img:"typ6-01-munch-der-schrei", artist:"Edvard Munch", title:"Der Schrei", year:"1910", text:"Eine Figur, die Hände an den Kopf gepresst, während sich Himmel und Landschaft in einem Wirbel der Angst auflösen. Kein Bild der Kunstgeschichte trifft das Grundgefühl der Sechs so unmittelbar: die Welt als Ort, an dem Bedrohung jederzeit spürbar wird." },
+      { img:"typ6-02-caravaggio-unglaube-thomas", artist:"Caravaggio", title:"Der Unglaube des heiligen Thomas", year:"1601–1602", text:"Zweifel als körperliche Notwendigkeit – erst die eigene Hand in der Wunde bringt Gewissheit. Die Sechs kennt dieses Muster: dem Frieden nicht trauen, bis er sich als sicher erwiesen hat." },
+      { img:"typ6-03-sant-mut-angst-verzweiflung", artist:"James Sant", title:"Mut, Angst und Verzweiflung", year:"1850", text:"Drei Gesichter, drei Reaktionen auf dieselbe Bedrohung – ein Bild darüber, wie unterschiedlich Menschen auf Gefahr reagieren. Genau dieses Spektrum lebt in der Sechs selbst: zwischen Tapferkeit und Rückzug, oft im selben Moment." },
+      { img:"typ6-04-raffael-schule-von-athen", artist:"Raffael", title:"Die Schule von Athen (Ausschnitt)", year:"1509–1511", text:"Platon und Aristoteles im Zentrum eines Gebäudes voller Denker, die gemeinsam nach Wahrheit suchen. Die Sechs sehnt sich nach genau dieser Gemeinschaft: einem verlässlichen System, einer Gruppe von Verbündeten, der sie sich anschließen kann." },
+      { img:"typ6-05-gauguin-arlesiennes", artist:"Paul Gauguin", title:"Arlésiennes (Mistral)", year:"1888", text:"Frauen, fest in ihre Tücher gehüllt, dem Wind trotzend, zusammenstehend gegen das raue Wetter. Dieses Bild der Solidarität gegen widrige Umstände trifft den Kern der Sechs: Sicherheit entsteht in der Gruppe, nicht im Alleingang." },
+      { img:"typ6-06-fugel-david-goliath", artist:"Gebhard Fugel", title:"David und Goliath", year:"um 1900", text:"Der kleine David tritt dem übermächtigen Goliath entgegen – nicht aus Furchtlosigkeit, sondern aus einem Mut, der die Angst einschließt statt sie zu verleugnen. Das ist die reifste Form der Sechs: Mut nicht als Abwesenheit von Angst, sondern als ihre Überwindung." },
+    ],
+  },
+  7: {
+    principle: "Unmäßigkeit & Völlerei",
+    title: "Typ 7 – Die Kunst der Völlerei",
+    intro: "Sechs Kunstwerke über Genuss, Übermaß und die Flucht vor Schmerz durch Fülle – die Signatur der Sieben.",
+    works: [
+      { img:"typ7-01-fressender-narr", artist:"Unbekannt", title:"Der fressende Narr", year:"15./16. Jh.", text:"Ein Narr, umgeben von Krügen und Speisen, in hemmungslosem Genuss versunken – eine mittelalterliche Warnung vor der Maßlosigkeit. Die Sieben erkennt sich hier ungeschminkt: der Griff nach immer mehr, um bloß keine Leere zu spüren." },
+      { img:"typ7-02-rubens-sodom", artist:"Peter Paul Rubens", title:"Sodom", year:"1625", text:"Rubens malt die biblische Stadt des Übermaßes im Moment ihres Untergangs – üppig, dramatisch, warnend. Die Sieben kennt diese Spannung zwischen Lust an der Fülle und der Ahnung, dass grenzenloser Genuss seinen Preis hat." },
+      { img:"typ7-03-bronzino-allegorie-des-gluecks", artist:"Bronzino", title:"Allegorie des Glücks", year:"1564", text:"Eine überladene, symbolreiche Komposition rund um Fortuna und ihre Gaben – Reichtum, Vergnügen, Überfluss in einem Bild vereint. Genau diese Sammlung von Möglichkeiten, keine ausgelassen, ist die visuelle Entsprechung des sieberhaften Bedürfnisses, nichts zu verpassen." },
+      { img:"typ7-04-bryullov-traum-der-nonne", artist:"Karl Bryullov", title:"Der Traum der Nonne", year:"1831", text:"Eine Nonne träumt inmitten ihrer Askese von weltlichem Vergnügen – der Wunsch nach Fülle bricht selbst durch die strengste Disziplin. Ein treffendes Bild dafür, wie unwiderstehlich der sieberhafte Ruf nach mehr sein kann, selbst wenn man ihm eigentlich entsagt hat." },
+      { img:"typ7-05-brispot-gourmand", artist:"Henri Brispot", title:"Ein Gourmand", year:"1928", text:"Ein Mann, versunken in absoluten Genuss an der Tafel, jede Speise eine kleine Feier. Brispots Bild feiert genau das, was die Sieben sucht: den Moment, in dem Genuss alles andere verdrängt." },
+      { img:"typ7-06-opiz-der-voeller", artist:"Georg Emanuel Opiz", title:"Der Völler", year:"1804", text:"Eine satirische, fast karikaturhafte Darstellung grenzenlosen Essens und Trinkens. Opiz zeigt, wohin die sieberhafte Flucht nach vorn führen kann, wenn sie nicht gebremst wird: Fülle, die sich selbst erdrückt." },
+    ],
+  },
+  8: {
+    principle: "Wollust & Intensität",
+    title: "Typ 8 – Die Kunst der Wollust und Begierde",
+    intro: "Sechs Kunstwerke über Intensität, Kontrolle und die Nähe zum Abgrund – die Signatur der Acht.",
+    works: [
+      { img:"typ8-01-baldung-tod-und-wollust", artist:"Hans Baldung", title:"Der Tod und die Wollust", year:"1517", text:"Der Tod umarmt eine junge Frau von hinten, Lust und Vergänglichkeit in einem Bild vereint. Baldung zeigt, was die Achter tief im Inneren weiß: dass volle Intensität und die Nähe zum Abgrund untrennbar zusammengehören." },
+      { img:"typ8-02-brouwer-luxuria", artist:"Adriaen Brouwer", title:"Luxuria, „der dicke Mann“", year:"1634–1637", text:"Ein Mann, ganz seinen Begierden hingegeben, ohne jede Zurückhaltung dargestellt. Brouwers schonungsloser Blick auf ungezügeltes Verlangen trifft die Achter-Wahrheit: lieber ganz und ungeschminkt als kontrolliert und halb." },
+      { img:"typ8-03-gauguin-gold-ihrer-koerper", artist:"Paul Gauguin", title:"Und das Gold ihrer Körper", year:"1901", text:"Zwei Frauen in ungezwungener, selbstbewusster Körperlichkeit, ohne jede Scham vor dem eigenen Begehren. Gauguin feiert hier eine Direktheit, die die Achter zutiefst versteht: den Körper und das Verlangen nicht zu verstecken, sondern offen zu zeigen." },
+      { img:"typ8-04-bosch-tisch-der-suenden", artist:"Hieronymus Bosch", title:"Der Tisch der sterblichen Sünden, Luxuria", year:"um 1500", text:"Ein Liebespaar unter einem Zelt, umgeben von Musikinstrumenten und Genussmitteln – eines von sieben Sündenfeldern in Boschs berühmter Tafel. Die Beschriftung „luxuria“ markiert genau jene Kraft, die die Achter am stärksten in sich trägt und am wenigsten zügeln will." },
+      { img:"typ8-05-rops-die-begierde", artist:"Félicien Rops", title:"Die Begierde", year:"1878–1881", text:"Eine Frau, von ihrem eigenen Verlangen förmlich fortgetragen, die Kontrolle bewusst aufgegeben. Rops' Bild zeigt die Kehrseite achterhafter Stärke: die Angst vor Kontrollverlust, die genau deshalb so viel Kraft in die Kontrolle über andere investiert." },
+      { img:"typ8-06-courbet-schlaeferinnen", artist:"Gustave Courbet", title:"Die Schläferinnen", year:"1866", text:"Zwei Frauen, erschöpft und vollkommen hingegeben in ihrer Ruhe nach der Leidenschaft. Courbets ungeschöntes Bild zeigt, was nach der Intensität bleibt: eine Ruhe, die sich die Achter oft schwer erlaubt, weil Verletzlichkeit als Schwäche empfunden wird." },
+    ],
+  },
+  9: {
+    principle: "Trägheit & Harmonie",
+    title: "Typ 9 – Die Kunst der Trägheit und Harmonie",
+    intro: "Sechs Kunstwerke über Ruhe, Selbstvergessenheit und die Sehnsucht, im großen Ganzen aufzugehen – die Signatur der Neun.",
+    works: [
+      { img:"typ9-01-davinci-mona-lisa", artist:"Leonardo da Vinci", title:"Mona Lisa", year:"1503–1506", text:"Ein Lächeln, das sich jeder eindeutigen Deutung entzieht – präsent und zugleich unergründlich zurückgenommen. Kein Gesicht der Kunstgeschichte verkörpert die neunerhafte Qualität so genau: ganz da zu sein, ohne sich vollständig zu zeigen." },
+      { img:"typ9-02-matisse-harmony-in-red", artist:"Henri Matisse", title:"Harmony in Red", year:"1908", text:"Eine Innenraumszene, in der Muster und Farbe fast alle Grenzen zwischen Figur und Umgebung auflösen. Genau das ist die neunerhafte Sehnsucht: aufzugehen im großen Ganzen, ohne sich als Einzelne oder Einzelner scharf abgrenzen zu müssen." },
+      { img:"typ9-03-courbet-die-haengematte", artist:"Gustave Courbet", title:"Die Hängematte", year:"1844", text:"Eine Frau, vollkommen entspannt in einer Hängematte, dem Nichtstun hingegeben, umgeben von üppiger Natur. Wenige Bilder zeigen die neunerhafte Sehnsucht nach ungestörter Ruhe so unmittelbar – ein Moment, in dem nichts getan werden muss." },
+      { img:"typ9-04-delacroix-see-von-galilaea", artist:"Eugène Delacroix", title:"Jesus auf dem See von Galiläa", year:"1854", text:"Jesus schläft im tosenden Sturm, während die Jünger in Panik geraten – Ruhe inmitten des Chaos als eigentliche Kraftquelle. Dieses Bild trifft die tiefste Gabe der Neun: eine innere Stille, die selbst im Sturm nicht zerbricht." },
+      { img:"typ9-05-brueghel-jona-und-der-wal", artist:"Jan Brueghel d. Ä.", title:"Jona entsteigt dem Rachen des Walfisches", year:"1568", text:"Jona wird nach drei Tagen im Bauch des Wals wieder ausgespien – ein Bild von Rückzug, Verdrängung und schließlich unausweichlicher Rückkehr ins Leben. Genau dieses Muster kennt die Neun: sich zurückziehen, bis der Ruf des Lebens zu laut wird, um ihn noch zu überhören." },
+      { img:"typ9-06-bloemaert-unkraut-weizen", artist:"Abraham Bloemaert", title:"Gleichnis vom Unkraut unter dem Weizen", year:"17. Jh.", text:"Eine biblische Szene über Geduld – Unkraut und Weizen dürfen nebeneinander wachsen, bis sich am Ende alles von selbst klärt. Diese Haltung des Nicht-Eingreifens, des Vertrauens, dass sich die Dinge von selbst ordnen, ist die neunerhafte Weisheit in Reinform." },
+    ],
+  },
+};
+// ─── Enneagramm Kunst ───────────────────────────────────────────────────────
+
+function enneagrammKunstUebersichtPage() {
+  const tile = n => {
+    const col = TYPE_COLORS[n] || "var(--copper)";
+    const d = ENNEAGRAMM_KUNST[n];
+    const cover = d.works[0].img;
+    return `<div class="kf-card" data-route="enneagramm-kunst-typ-${n}" onclick="go('enneagramm-kunst-typ-${n}')"
+      style="cursor:pointer;padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="aspect-ratio:4/3;overflow:hidden;background:#eee;">
+        <img src="./assets/kunst/${cover}.jpg" alt="${d.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+      <div style="padding:0.8rem 1rem;">
+        <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">Typ ${n}</div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--ink);">${d.principle}</div>
+      </div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm Kunst')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagramm Kunst</h1>
+      <p class="psycho-intro">Neun Typen, neun Leidenschaften – gespiegelt in vier Jahrhunderten Kunstgeschichte. Von Dürer bis Matisse, von der Renaissance bis zur Moderne: Jedes Kunstwerk erzählt auf seine eigene Weise von der Fixierung, der Sehnsucht oder dem Schatten eines Enneagrammtyps. Wählen Sie einen Typ, um seine Galerie zu entdecken.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(tile).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        {route:"schaubilder", label:"Alle Schaubilder"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammKunstTypPage(n) {
+  const d = ENNEAGRAMM_KUNST[n];
+  const col = TYPE_COLORS[n] || "var(--copper)";
+  const workCard = w => `<div class="kf-card" style="padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);">
+      <img src="./assets/kunst/${w.img}.jpg" alt="${w.artist} – ${w.title}" loading="lazy" style="width:100%;display:block;" />
+      <div style="padding:1rem 1.1rem;">
+        <div style="font-weight:700;font-size:1rem;color:var(--ink);margin-bottom:0.1rem;">${w.artist}</div>
+        <div style="font-size:0.85rem;color:${col};font-weight:600;margin-bottom:0.6rem;">${w.title} &middot; ${w.year}</div>
+        <p class="vb-intro" style="margin:0;font-size:0.92rem;">${w.text}</p>
+      </div>
+    </div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagramm Kunst')}
+      <div id="js-back-target" data-route="enneagramm-kunst" style="display:none;"></div>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.3rem;line-height:1.2;">${d.title}</h1>
+      <p class="psycho-intro">${d.intro}</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.1rem;max-width:100%;margin-bottom:2rem;">
+        ${d.works.map(workCard).join('')}
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-kunst", label:"Alle 9 Kunst-Galerien"},
+        {route:"type/" + n, label:"Zum Typ " + n + " im Kompass"},
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+      ])}
+    </div>
+  `);
+}
+
 // NEU-Markierungen für Schaubilder: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -42443,6 +42629,8 @@ function render() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-kunst": enneagrammKunstUebersichtPage,
+      ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "persoenlichkeitsmodelle-vergleich": persoenlichkeitsmodelleVergleichPage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,

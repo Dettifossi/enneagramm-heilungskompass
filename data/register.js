@@ -12,6 +12,7 @@ export const registerEntries = [
   { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
   { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagramm-Typen und astrologischen Zeichen" },
+  { term: "Enneagramm Kunst",               route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
 
   // David & Detlef Rathmer – Videos & Seiten
   { term: "David Rathmer – Erfolgsinterviews", route: "david-rathmer-erfolgsinterviews", description: "David L. Rathmer: Interviews mit Unternehmer-Persönlichkeiten aus Enneagramm-Perspektive" },
@@ -629,6 +630,7 @@ export const registerEntriesEN = [
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 · Social Type 7 · Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SX5w4 · Sexual Type 5 · Tesla, SpaceX, Visionary" },
   { term: "Elvis Presley", route: "beruehmte-elvis-presley", description: "Portrait: SX2w3 · Sexual Type 2 · King of Rock'n'Roll, singer, actor" },
+  { term: "Enneagram Art", route: "enneagramm-kunst", description: "9 galleries of 6 artworks each – classic paintings as a mirror of the 9 Enneagram types" },
   { term: "Freddie Mercury", route: "beruehmte-freddie-mercury", description: "Portrait: SX2w3 · Sexual Type 2 · Queen-lead singer, stage magician" },
   { term: "Frédéric Chopin", route: "beruehmte-frederic-chopin", description: "Portrait: SX5w4 · Sexual Type 5 · Composer, Romantic piano music" },
   { term: "David Bowie", route: "beruehmte-david-bowie", description: "Portrait: SP1w2 · Social Type 1 · musician, cultural boundary-crosser" },
