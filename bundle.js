@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "364";
+const APP_BUILD = "365";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -899,6 +899,57 @@ const ENNEAGRAMM_FILME = {
       { title:"Blue Valentine", year:"2010", text:"Die Intensität einer Liebe, die an den eigenen unerreichbaren Ansprüchen zerbricht. Enttäuschung als Kehrseite der SX1-Hingabe." },
       { title:"Nosferatu", year:"1979", text:"Klaus Kinski erneut, diesmal als tragische, besessene Figur, deren ganzes Wesen sich um eine einzige, unstillbare Sehnsucht dreht." },
       { title:"A Star Is Born", year:"2018", text:"Bedingungslose Hingabe an einen Menschen und eine gemeinsame Sache, bis zur Selbstaufgabe. Die SX1 liebt ganz oder gar nicht." },
+    ],
+  },
+  "SE2": {
+    typ: 2, instinkt: "SE", animal: "Flusspferd",
+    title: "SE2 – Selbsterhaltungstyp 2: Das Flusspferd, das verwöhnt",
+    intro: "Zehn Filme über Fürsorge im eigenen, nahen Umfeld – Nähren, Verwöhnen und sich durch Hingabe unentbehrlich machen.",
+    filme: [
+      { title:"School of Rock", year:"2003", text:"Jack Black – im Kompass als SE2w1 geführt – als Lehrer, dessen warmherzige, verwöhnende Fürsorge sich selbst unentbehrlich macht. Eine der stimmigsten Verkörperungen der SE2 überhaupt." },
+      { title:"Chef", year:"2014", text:"Ein Koch, der Nähe und Liebe ausschließlich über selbst zubereitetes Essen ausdrückt. Nähren als Sprache, in der die SE2 zu Hause ist." },
+      { title:"The Intouchables", year:"2011", text:"Eine körperliche, warme, humorvolle Fürsorge, die aus einem Arbeitsverhältnis eine echte Familie macht." },
+      { title:"Nanny McPhee", year:"2005", text:"Strenge, die sich Schritt für Schritt in echte Zuneigung verwandelt – die SE2-Bewegung von der Kontrolle zur Wärme." },
+      { title:"About a Boy", year:"2002", text:"Eine zunächst widerwillige Fürsorge, die sich unter der Oberfläche in echte, verwundbare Bindung verwandelt." },
+      { title:"Marley & Me", year:"2008", text:"Hingabe und Fürsorge im engsten familiären Kreis, ganz ohne großen gesellschaftlichen Auftritt." },
+      { title:"Paddington", year:"2014", text:"Bedingungslose häusliche Aufnahme eines Fremden – Fürsorge als spontaner, warmer Reflex." },
+      { title:"Instant Family", year:"2018", text:"Eine Familie, die sich durch das aktive Fürsorgen für fremde Kinder im eigenen Zuhause neu erschafft." },
+      { title:"Julie & Julia", year:"2009", text:"Fürsorge, die sich durch perfektionierte Gastfreundschaft und Kochkunst ausdrückt – Nähe über den gedeckten Tisch." },
+      { title:"The Blind Side", year:"2009", text:"Aufopfernde häusliche Fürsorge, die einen fremden jungen Menschen vorbehaltlos in die eigene Familie aufnimmt." },
+    ],
+  },
+  "SO2": {
+    typ: 2, instinkt: "SO", animal: "Golden Retriever",
+    title: "SO2 – Sozialer Typ 2: Der Golden Retriever im Dienst der Gemeinschaft",
+    intro: "Zehn Filme über sichtbare, öffentliche Fürsorge – Ehrgeiz und Hilfsbereitschaft, die sich vor der Gruppe beweisen.",
+    filme: [
+      { title:"The Pursuit of Happyness", year:"2006", text:"Will Smith – im Kompass als SO2w3 geführt – als Vater, dessen Ehrgeiz ganz im Dienst der Fürsorgepflicht für den eigenen Sohn steht." },
+      { title:"Concussion", year:"2015", text:"Will Smith erneut, diesmal im öffentlichen, sichtbaren Kampf für das Wohl vieler Menschen gegen mächtigen Widerstand." },
+      { title:"Freedom Writers", year:"2007", text:"Engagierte, öffentlich sichtbare Fürsorge im Klassenzimmer, die eine ganze Gruppe zusammenhält." },
+      { title:"Dead Poets Society", year:"1989", text:"Ein Mentor, der sich öffentlich und mit Nachdruck für seine Schüler einsetzt – Fürsorge als pädagogische Mission." },
+      { title:"Won't You Be My Neighbor?", year:"2018", text:"Eine öffentliche, lebenslange Fürsorge-Mission, dokumentiert über Jahrzehnte – Hilfsbereitschaft als Lebenswerk." },
+      { title:"Radio", year:"2003", text:"Eine Gemeinschaft, angeführt von einem Trainer, die sich sichtbar und beharrlich um einen Außenseiter kümmert." },
+      { title:"Hidden Figures", year:"2016", text:"Gegenseitige Fürsorge im gemeinsamen Kampf um gesellschaftliche Anerkennung." },
+      { title:"Green Book", year:"2018", text:"Fürsorge und Loyalität, die sich in der Öffentlichkeit und unter Beobachtung beweisen müssen." },
+      { title:"Spare Parts", year:"2015", text:"Gemeinschaftlicher, öffentlich sichtbarer Einsatz für benachteiligte Jugendliche." },
+      { title:"Music of the Heart", year:"1999", text:"Pädagogisches Engagement, das öffentliche Anerkennung sucht, um seinen Wert zu beweisen." },
+    ],
+  },
+  "SX2": {
+    typ: 2, instinkt: "SX", animal: "Kamel",
+    title: "SX2 – Sexueller Typ 2: Das Kamel und die eine Verführung",
+    intro: "Zehn Filme über Verführung als Verbindungskunst – die volle Aufmerksamkeit auf die eine, exklusive Beziehung gerichtet.",
+    filme: [
+      { title:"What a Man", year:"2011", text:"Matthias Schweighöfer – im Kompass als SX2w1 geführt – als charmanter Verführer, dessen Beziehungsstrategie ganz auf persönliche Nähe setzt." },
+      { title:"Crazy, Stupid, Love", year:"2011", text:"Verführungskunst als zentrale Lebensidentität – und die Frage, was darunter an echtem Gefühl liegt." },
+      { title:"Silver Linings Playbook", year:"2012", text:"Eine intensive, alles überstrahlende persönliche Verbindung, die alle Vernunft beiseiteschiebt." },
+      { title:"Her", year:"2013", text:"Die Sehnsucht nach der einen, exklusiven Verbindung, ungeachtet ihrer ungewöhnlichen Form." },
+      { title:"About Time", year:"2013", text:"Bedingungslose, hingebungsvolle Verführung und Zuwendung einer einzigen Person – Zeit als Ausdruck von Liebe." },
+      { title:"La La Land", year:"2016", text:"Verführung durch vollständige Hingabe an die eine Beziehung, auch wenn sie am Ende nicht bleibt." },
+      { title:"Titanic", year:"1997", text:"Grenzenlose, alles überstrahlende Verführung und Hingabe innerhalb weniger, intensiver Tage." },
+      { title:"Notting Hill", year:"1999", text:"Die Verführungskraft ungeteilter Aufmerksamkeit, die sich ganz auf eine einzige Person richtet." },
+      { title:"500 Days of Summer", year:"2009", text:"Die Sehnsucht, für eine bestimmte Person unwiderstehlich und unvergesslich zu sein." },
+      { title:"A Star Is Born", year:"2018", text:"Verführung durch bedingungslose künstlerische und persönliche Hingabe an einen einzigen Menschen." },
     ],
   },
 };
