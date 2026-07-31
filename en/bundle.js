@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-28-daily-body-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-wetter-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=29";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=30";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
