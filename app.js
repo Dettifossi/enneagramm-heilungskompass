@@ -430,6 +430,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Lennon – Sozialer Typ 4",
     teaser:"SO4w5 · 1940–1980. Musiker, Komponist, Friedensaktivist, Mitbegründer der Beatles. Das Gürteltier, das die Welt fragte: Stell Dir vor, es wäre Frieden.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-javier-parisi", name:"Javier Parisi", added:"2026-08-01", subtyp:"SO4w5",
+    heading:"Javier Parisi – Sozialer Typ 4",
+    teaser:"SO4w5 · geb. 1980. Musiker, weltweit bekanntestes John-Lennon-Double. Von der Kindheit in Lanús bis zum Auftritt in den Abbey Road Studios – das Gürteltier, das sich so lange mit einem Vorbild vergleicht, bis es darin die eigene Bühne findet. Tierentsprechung: Gürteltier.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
@@ -10212,9 +10216,80 @@ function johnLennonPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-javier-parisi", label:"Porträt: Javier Parisi (SO4w5)"},
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+      ])}
+    </div>
+  `);
+}
+
+function javierParisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-javier-parisi-portrait.jpg" alt="Javier Parisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Javier Parisi</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musiker &amp; John-Lennon-Double, geb. 1980 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">Javier Parisi ist derselbe Subtyp wie John Lennon selbst (SO4w5) &ndash; ein seltener Fall, in dem ein Mensch sein ganzes Leben der detailgetreuen Verkörperung eines anderen Menschen desselben Subtyps widmet. Ein Porträt über Vergleich, Studium und die Frage, wo die eigene Identität beginnt.</p>
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; ein Tier voller Widersprüche: ein harter Panzer nach außen, eine außergewöhnliche Empfindlichkeit im Inneren. Kein Einzelgänger, sondern ein Wesen, das die Gemeinschaft braucht, auch wenn es sich in ihr oft fremd fühlt. Und trotz seiner Einzigartigkeit trägt es ein Paradox in sich: Es sucht seinen Platz gerade dadurch, dass es sich unablässig mit anderen vergleicht.</p>
+          <p class="vb-intro">Javier Parisi, geboren 1980 in Lanús bei Buenos Aires, ist weltweit bekannt als der wohl verblüffendste John-Lennon-Doppelgänger der Gegenwart &ndash; ein Mann, der sein Leben der exakten Verkörperung eines anderen Menschen gewidmet hat. Das Gürteltier, das sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt &ndash; und darin, paradoxerweise, sich selbst findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Vergleich als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt den Schmerz der Vier in die soziale Dimension. Naranjo nannte diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht ganz dazuzugehören &ndash; verbunden mit einem unablässigen Vergleichen der eigenen Person mit anderen, in der Hoffnung, darin endlich Bestätigung zu finden. Kein anderer Subtyp lebt die Leidenschaft der Vier &ndash; den Neid, das Sich-Messen an anderen &ndash; so unmittelbar wie die SO4.</p>
+          <p class="vb-intro">Bei Parisi nimmt dieser Vergleich eine fast wörtliche, kaum zu überbietende Form an: Er hat sein Leben darauf ausgerichtet, einem anderen Menschen so nahe wie möglich zu kommen &ndash; im Aussehen, in der Stimme, in der Gestik, in der musikalischen Phrasierung. Als Kind entdeckte er die Beatles im Haus seiner Eltern, begann mit acht Jahren Gitarre zu lernen und Englisch zu üben, um die Songs seiner Idole zu verstehen. Was bei anderen Fans eine Leidenschaft bleibt, wurde bei Parisi zur Lebensaufgabe: das eigene Selbst neben ein fremdes zu stellen und in diesem Vergleich zu bestehen.</p>
+          <p class="vb-intro">Mit zwanzig Jahren gründete er mit Freunden aus seiner Heimatstadt seine erste Beatles-Tributeband &ndash; und traf dabei eine Entscheidung, die typisch SO4 ist: Es sollte nicht reichen, wie die Beatles zu klingen. Man musste auch wie sie aussehen. Die soziale Vier sucht die Bestätigung im Blick der anderen &ndash; und Parisi fand sie, indem er sich so lange verglich und verfeinerte, bis der Vergleich zur Ununterscheidbarkeit wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Perfektion durch Studium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier die Fähigkeit zur konzentrierten, fast wissenschaftlichen Vertiefung. Wo die reine SO4 vor allem fühlt und vergleicht, bringt der Fünferflügel das geduldige Studium hinzu: die Bereitschaft, ein Thema so lange zu durchdringen, bis man es vollständig beherrscht.</p>
+          <p class="vb-intro">Bei Parisi zeigt sich das in der schieren Genauigkeit seiner Verkörperung: nicht nur die runde Brille und die Frisur, sondern der Tonfall, die Bühnenbewegungen, der liverpooler Akzent im Englischen, die exakte Chronologie von Lennons Garderobe über die verschiedenen Schaffensphasen der Beatles hinweg. Das ist keine oberflächliche Nachahmung, sondern jahrzehntelange, akribische Forschung an einer einzigen Biografie. Der Fünferflügel verwandelt die Bewunderung der SO4 in Handwerk.</p>
+          <p class="vb-intro">Diese Genauigkeit ist es, die Parisi von gewöhnlichen Tribute-Künstlern unterscheidet. Sein Publikum berichtet immer wieder von demselben Moment: Für Sekunden verschwindet der Unterschied zwischen Original und Verkörperung. Das ist der Fünferflügel in seiner vollendetsten Form &ndash; Wissen, das so tief sitzt, dass es nicht mehr wie Wissen wirkt, sondern wie Wesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Abbey Road: Der Vergleich wird zur Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im April 2022 wurde Parisi eingeladen, in den legendären Abbey Road Studios in London aufzutreten &ndash; demselben Ort, an dem die Beatles einen Großteil ihres Werks aufgenommen hatten. Für einen Mann, dessen gesamtes Lebensprojekt der Vergleich mit John Lennon ist, war das mehr als ein Konzert: Es war eine Form der Bestätigung durch genau die Institution, an der sich sein Vorbild einst gemessen hatte.</p>
+          <p class="vb-intro">Über soziale Medien erreichte Parisi in den folgenden Jahren ein Millionenpublikum, das seine Videos &ndash; darunter Interpretationen von &bdquo;Imagine&ldquo; und &bdquo;Now and Then&ldquo; &ndash; mit einer Mischung aus Verblüffung und Rührung teilte. Die soziale Vier lebt für diesen Moment der Anerkennung: gesehen zu werden, nicht trotz, sondern wegen der Nähe zu einem anderen. Was als Kindheitsleidenschaft in einem Vorort von Buenos Aires begann, wurde zu einer weltweiten Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4 ist ihre Fähigkeit, aus dem Vergleich mit anderen eine Form von Verbindung zu schaffen, die weit über sich selbst hinausweist. Parisis Auftritte lassen Beatles-Fans weltweit noch einmal spüren, was Lennons Musik einst bewirkte &ndash; er hält eine Erinnerung lebendig, die sonst nur noch in Aufnahmen existiert.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SO4 als ständiges Sich-Messen. Bei Parisi trägt diese Struktur ein besonderes Risiko in sich: Ein Leben, das der Ähnlichkeit mit einem anderen gewidmet ist, kann die Frage nach der eigenen, unverwechselbaren Stimme in den Hintergrund drängen. Wo endet die Hommage, wo beginnt der Verlust des eigenen Gesichts hinter der Maske eines anderen?</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr, sich so vollständig in ein Studienobjekt zu vertiefen, dass die eigene Perspektive dahinter verschwindet. Parisi selbst hat in Interviews betont, dass ihn nicht nur die Musik, sondern auch Lennons Botschaft von Frieden und Ehrlichkeit motiviert &ndash; ein Hinweis darauf, dass die Verkörperung für ihn mehr sein soll als äußere Ähnlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Vergleichen zum eigenen Ausdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich weniger als der andere, mit dem ich mich vergleiche?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig, auch wenn ich einem anderen ähnle.</em> Für die SO4w5 bedeutet das, das jahrelange Studium eines fremden Vorbilds nicht als Ersatz für die eigene Stimme zu behandeln, sondern als einen Weg, über den die eigene Stimme letztlich doch gefunden wird.</p>
+          <p class="vb-intro">Parisis Karriere zeigt genau diese Bewegung in Ansätzen: vom reinen Imitator zum eigenständigen Interpreten, der Lennons Botschaft mit eigener Ausdruckskraft weiterträgt, statt sie nur zu kopieren. Das Gürteltier, das gelernt hat, dass die Verwandtschaft mit einem anderen die eigene Einzigartigkeit nicht auslöscht &ndash; sondern, richtig verstanden, ein Weg sein kann, sie erst zu entdecken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
       ])}
     </div>
   `);
@@ -44112,6 +44187,7 @@ function render() {
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,

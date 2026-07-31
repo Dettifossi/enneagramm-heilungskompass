@@ -324,6 +324,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Lennon – Social Type 4",
     teaser:"SO4w5 · 1940–1980. Musician, composer, peace activist, co-founder of The Beatles. The armadillo that asked the world: Imagine there’s peace.",
     tags:["Musik"] },
+  { route:"beruehmte-javier-parisi", name:"Javier Parisi", added:"2026-08-01", subtyp:"SO4w5",
+    heading:"Javier Parisi – Social Type 4",
+    teaser:"SO4w5 · born 1980. Musician, the world's best-known John Lennon double. From a childhood in Lanús to a performance at Abbey Road Studios – the armadillo that compares itself to a role model for so long that it finds its own stage within it. Animal correspondence: Armadillo.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
     teaser:"SX4w3 · 1946–1991. Rock singer, songwriter, co-founder of Queen. Bohemian Rhapsody, Live Aid 1985. The chihuahua that knew no fear – and made the stage a home.",
@@ -18274,7 +18278,78 @@ function johnLennonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function javierParisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-javier-parisi-portrait.jpg" alt="Javier Parisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Javier Parisi</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Musician &amp; John Lennon Double, born 1980 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">Javier Parisi is the same subtype as John Lennon himself (SO4w5) &ndash; a rare case in which one person devotes an entire life to the meticulous embodiment of another person of the same subtype. A portrait about comparison, study, and the question of where one&#39;s own identity begins.</p>
+
+        <h2 class="vb-section">1. The Armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; an animal full of contradictions: a hard shell on the outside, extraordinary sensitivity within. Not a loner, but a creature that needs community, even if it often feels foreign within it. And despite its uniqueness, it carries a paradox: it seeks its place precisely by ceaselessly comparing itself to others.</p>
+          <p class="vb-intro">Javier Parisi, born in 1980 in Lanús near Buenos Aires, is known worldwide as perhaps the most uncanny John Lennon lookalike of our time &ndash; a man who has devoted his life to the exact embodiment of another person. The armadillo that does not content itself with its own shell, but puts on a second, borrowed one &ndash; and in doing so, paradoxically, finds itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Comparison as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> carries the pain of the Four into the social dimension. Naranjo called this subtype <em>shame</em>: the deep feeling of not quite belonging &ndash; combined with an incessant comparing of oneself to others, in the hope of finally finding confirmation there. No other subtype lives the Four&#39;s passion &ndash; envy, measuring oneself against others &ndash; as directly as the SO4.</p>
+          <p class="vb-intro">In Parisi this comparison takes on an almost literal, hard-to-surpass form: he has oriented his entire life toward coming as close as possible to another person &ndash; in appearance, in voice, in gesture, in musical phrasing. As a child he discovered the Beatles at his parents&#39; house, began learning guitar at age eight and practicing English in order to understand the songs of his idols. What remains a passion for other fans became, for Parisi, a life&#39;s work: placing his own self beside a foreign one and standing his ground within that comparison.</p>
+          <p class="vb-intro">At twenty he founded his first Beatles tribute band with friends from his hometown &ndash; and made a decision that is characteristically SO4: it would not be enough to sound like the Beatles. One also had to look like them. The social Four seeks confirmation in the gaze of others &ndash; and Parisi found it by comparing and refining himself for so long that the comparison became indistinguishability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Perfection Through Study</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity for concentrated, almost scientific depth. Where the pure SO4 mostly feels and compares, the Five-wing adds patient study: the willingness to penetrate a subject until one has fully mastered it.</p>
+          <p class="vb-intro">In Parisi this shows in the sheer precision of his embodiment: not only the round glasses and the haircut, but the tone of voice, the stage movements, the Liverpudlian accent in his English, the exact chronology of Lennon&#39;s wardrobe across the various creative phases of the Beatles. This is no superficial imitation, but decades of meticulous research into a single biography. The Five-wing turns the SO4&#39;s admiration into craft.</p>
+          <p class="vb-intro">This precision is what sets Parisi apart from ordinary tribute artists. His audiences repeatedly report the same moment: for seconds, the difference between original and embodiment disappears. That is the Five-wing in its most complete form &ndash; knowledge so deeply internalized that it no longer feels like knowledge, but like being.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Abbey Road: Comparison Becomes Recognition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In April 2022, Parisi was invited to perform at the legendary Abbey Road Studios in London &ndash; the same place where the Beatles recorded much of their work. For a man whose entire life project is comparison with John Lennon, this was more than a concert: it was a form of confirmation from the very institution against which his role model had once measured himself.</p>
+          <p class="vb-intro">Through social media, Parisi reached a global audience in the years that followed, one that shared his videos &ndash; including interpretations of &bdquo;Imagine&ldquo; and &bdquo;Now and Then&ldquo; &ndash; with a mixture of astonishment and emotion. The social Four lives for this moment of recognition: to be seen, not despite, but because of closeness to another. What began as a childhood passion in a suburb of Buenos Aires became a worldwide stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4 is its ability to create, out of comparison with others, a form of connection that reaches far beyond itself. Parisi&#39;s performances let Beatles fans worldwide feel once more what Lennon&#39;s music once achieved &ndash; he keeps alive a memory that would otherwise exist only in recordings.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SO4 expressed as constant self-measurement. In Parisi this structure carries a particular risk: a life devoted to resemblance with another can push the question of one&#39;s own, unmistakable voice into the background. Where does homage end, and where does the loss of one&#39;s own face behind another&#39;s mask begin?</p>
+          <p class="vb-intro">The Five-wing brings the risk of immersing oneself so completely in an object of study that one&#39;s own perspective disappears behind it. Parisi himself has emphasized in interviews that he is motivated not only by the music but also by Lennon&#39;s message of peace and honesty &ndash; a sign that, for him, the embodiment is meant to be more than mere outward resemblance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Comparison to Own Expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I less than the one I compare myself to?</em> to the insight <em>What I am is complete &ndash; and it is unique, even if I resemble another.</em> For the SO4w5 this means no longer treating years of studying a foreign role model as a substitute for one&#39;s own voice, but as a path through which that own voice is ultimately found.</p>
+          <p class="vb-intro">Parisi&#39;s career shows glimpses of exactly this movement: from pure imitator to independent interpreter, who carries Lennon&#39;s message forward with his own expressive power rather than merely copying it. The armadillo that has learned that kinship with another does not erase one&#39;s own uniqueness &ndash; but, rightly understood, can be a path to discovering it in the first place.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
       ])}
     </div>
   `);
@@ -41165,6 +41240,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
