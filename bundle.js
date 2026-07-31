@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "376";
+const APP_BUILD = "377";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1090,7 +1090,7 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über Expertentum, das sich der Gruppe über Wissen statt über Nähe zeigt – der Beitrag als Denker, nicht als Teilnehmer.",
     filme: [
       { title:"The Imitation Game", year:"2014", text:"Ein brillanter Kopf, der der Gemeinschaft ausschließlich über seine intellektuelle Leistung dient, nicht über soziale Nähe." },
-      { title:"Steve Jobs", year:"2015", text:"Ein Visionär, der ganze Systeme und Industrien neu denkt, während persönliche Nähe zur Nebensache wird." },
+      { title:"Contact", year:"1997", text:"Eine Wissenschaftlerin, die ihr gesamtes Fachwissen in den Dienst eines Ereignisses stellt, das die ganze Menschheit betrifft – Erkenntnis nicht als privates Projekt, sondern als Beitrag für alle." },
       { title:"The Big Short", year:"2015", text:"Außenseiter, die als Einzige das komplexe System durchschauen, das alle anderen übersehen." },
       { title:"Arrival", year:"2016", text:"Verstehen als Rettung der ganzen Menschheit – Wissen, das der Gemeinschaft dient, gewonnen aus einer Position der Distanz." },
       { title:"Die Poesie des Unendlichen (The Man Who Knew Infinity)", year:"2015", text:"Ein mathematisches Genie, dessen Beitrag zur Gemeinschaft ganz im abstrakten Denken liegt, nicht im sozialen Auftritt." },
