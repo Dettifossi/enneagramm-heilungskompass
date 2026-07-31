@@ -230,6 +230,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin – Sexueller Typ 1",
     teaser:"SX1w9 · 1869–1916. Wandermönch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verstörte und einen kranken Zarewitsch heilte, wo Ärzte scheiterten – Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
     tags:["Geschichte"] , gender:"m"},
+  { route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w1",
+    heading:"Friedensreich Hundertwasser – Sexueller Typ 9",
+    teaser:"SX9w1 · 1928–2000. Maler, Architekt, Ökologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser – ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, für das organische Fließen. Tierentsprechung: Faultier.",
+    tags:["Kunst","Architektur"] , gender:"m"},
   { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
     heading:"Robbie Williams – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1974. Sänger, Entertainer, ehemals Take That. Radikale Offenheit über Sucht, Depression und Selbstzweifel – die Schwarze Mamba, die keine Lüge erträgt, auch nicht die eigene. Tierentsprechung: Schwarze Mamba.",
@@ -15993,6 +15997,72 @@ function rasputinPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function hundertwasserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Maler &amp; Architekt, 1928&ndash;2000 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein Symbol für Trägheit, sondern für eine Existenzweise, die sich der Umgebung so vollständig anverwandelt, dass die Grenze zwischen Wesen und Lebensraum verschwimmt. Faultiere bewegen sich langsam, weil Eile der Verschmelzung im Weg steht &ndash; und ihr Fell trägt eigene Algen und Ökosysteme: Das Tier wird buchstäblich zum Lebensraum für anderes Leben. Kein Zufallstier für einen Mann, der sein Haus mit Erde bedecken und Bäume auf jedem Balkon wachsen lassen wollte.</p>
+          <p class="vb-intro">Hundertwassers gesamtes Werk ist der Versuch, diese Verschmelzung sichtbar zu machen: Häuser ohne gerade Linie, Dächer, die Wiesen tragen, Fassaden, die wie Baumrinde wachsen. Wo andere Architektur gegen die Natur behaupten, ließ er sie mit der Natur verschmelzen &ndash; das Faultier, das keine Grenze zwischen sich und seinem Baum kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Der Verstärkungstyp der Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> gilt in der Subtypenlehre als <em>Verstärkungstyp</em> der Neun: Während die selbsterhaltende Neun sich in Gewohnheiten und Komfort verliert und die soziale Neun sich in Gruppen und Aufgaben auflöst, sucht die SX9 die Verschmelzung in ihrer intensivsten, unmittelbarsten Form &ndash; mit einem einzigen Menschen, einem Ideal oder, wie bei Hundertwasser, mit der Natur selbst. Naranjo beschreibt diesen Subtyp als denjenigen, der am ehesten von der neuentypischen Trägheit ausbricht, weil die Verschmelzungssehnsucht so stark ist, dass sie in konkretes Handeln drängt.</p>
+          <p class="vb-intro">Diese Sehnsucht steht bei Hundertwasser sogar im Namen. Geboren als <strong>Friedrich Stowasser</strong>, gab er sich selbst einen neuen Namen: <strong>Friedensreich Hundertwasser</strong>. Aus Friedrich wurde Friedensreich &ndash; das Friedensprinzip, die neuentypische Sehnsucht nach Harmonie, ausgesprochen als Programm. Aus Stowasser wurde Hundertwasser &ndash; das Naturprinzip Wasser, Sinnbild des lebendigen, unaufhaltsamen Fließens, das keine gerade Linie kennt und keinen Widerstand leistet, sondern sich jeder Form anschmiegt. Eine Selbstumbenennung als Verschmelzungsakt: Der Name wird zum Bekenntnis, mit welchem Prinzip man eins sein will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Das Manifest als Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Neun etwas, das die reine Neun selten zeigt: einen moralischen Anspruch, ein Prinzip, für das es sich zu kämpfen lohnt. Hundertwasser war kein stiller Künstler &ndash; er schrieb Manifeste. Das berühmteste, das <em>Verschimmelungsmanifest gegen den Rationalismus in der Architektur</em> (1958), ist ein wütender, kompromissloser Text gegen die gerade Linie, die er als &bdquo;gottlos und unmoralisch&ldquo; bezeichnete. Das ist ungewöhnlich für eine Neun &ndash; aber genau die Handschrift des Einserflügels: Harmonie wird nicht nur gelebt, sondern zur ethischen Forderung erhoben.</p>
+          <p class="vb-intro">Sein Architekturprogramm folgte klaren, fast dogmatischen Regeln: Fensterrecht (jeder Bewohner darf sein Fenster nach eigenem Willen gestalten), Baumpflicht (jeder Baum, dem ein Haus im Weg steht, muss durch das Haus hindurchwachsen dürfen), keine geraden Böden. Prinzipien, die er unnachgiebig vertrat &ndash; die Neun, die sich für ihr Harmonieideal in einen unerbittlichen Regelkatalog verwandelt. Der Einserflügel verleiht der Verschmelzungssehnsucht eine moralische Schärfe, die aus einem Traum ein Programm macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Nacktrede: Verschmelzung als radikale Geste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1968 hielt Hundertwasser in München seine berühmte &bdquo;Nacktrede&ldquo; &ndash; er zog sich während eines Vortrags gegen die &bdquo;Boxarchitektur&ldquo; vollständig aus. Für viele ein Skandal, für die Subtypenlehre ein Lehrstück: Genau das ist sexuelle Verschmelzung in Reinform. Keine Grenze zwischen Redner und Publikum, keine Hülle, kein Abstand &ndash; das Faultier, das sich seiner Umgebung so vollständig zeigt, dass nichts mehr zwischen ihm und den Zuschauern steht. Wo eine soziale Neun einen Vortrag hält, um eine Gruppe zusammenzuhalten, sucht die sexuelle Neun den unmittelbaren, körperlichen Verschmelzungsmoment &ndash; auch wenn das bedeutet, alle gesellschaftlichen Hüllen fallen zu lassen.</p>
+          <p class="vb-intro">Später wählte er Neuseeland zur Wahlheimat &ndash; ein Land am Rand der Welt, von ursprünglicher Natur geprägt, fernab europäischer Zivilisation. Auch das folgt der SX9-Logik: nicht die soziale Bühne, sondern der Rückzug in ein intensives, unmittelbares Naturverhältnis. Auf seiner Farm bei Kawakawa lebte er zeitweise ohne fließendes Wasser und Elektrizität &ndash; die konsequenteste Form der Verschmelzung, die sich denken lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9 ist ihre Fähigkeit, sich restlos mit etwas Größerem zu verbinden &ndash; und daraus schöpferische Kraft zu ziehen, statt darin zu verschwinden. Hundertwassers Bauten (die Grüne Zitadelle in Magdeburg, das Hundertwasserhaus in Wien, die Kunst Haus Wien) sind keine Rückzugsorte, sondern lebendige Manifeste dieser Verschmelzung &ndash; Architektur, die Menschen tatsächlich bewohnen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Neun ist die <strong>Selbstvergessenheit (Trägheit)</strong> &ndash; und bei der SX9 zeigt sie sich als Auflösung der eigenen Position im Verschmelzungsobjekt. Hundertwassers wiederholte Selbstumbenennung, seine Rückzüge, seine radikale Ablehnung jeder Konvention lassen sich auch so lesen: die Sehnsucht, ganz in der Natur, im Werk, im Prinzip aufzugehen &ndash; bis kaum noch erkennbar ist, wo der Mensch Friedrich Stowasser endet und das Programm Hundertwasser beginnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Verschmelzen zum bewussten Verbundensein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit zur handelnden Präsenz &ndash; von der Auflösung im Anderen zur bewussten, klaren Anwesenheit, die Verbindung sucht, ohne sich selbst darin zu verlieren. Die wachsende Neun entdeckt: Verschmelzung mit der Natur muss die eigene Gestalt nicht auslöschen &ndash; sie kann sie erst hervortreten lassen.</p>
+          <p class="vb-intro">Hundertwassers Werk zeigt genau diese Reifung: aus der stillen Sehnsucht eines jungen Malers wurde ein öffentliches, unübersehbares architektonisches Programm, das bis heute Millionen Menschen erreicht. Das Faultier, das langsam, beharrlich, ohne Eile seinen Platz in der Welt einnahm &ndash; und darin nicht verschwand, sondern sichtbar wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-iga-swiatek", label:"Porträt: Iga Świątek (SX9w1)"},
+        {route:"architektur-raumgestaltung-der-9-typen", label:"Schaubild: Architektur & Raumgestaltung der 9 Typen"},
       ])}
     </div>
   `);
@@ -34563,7 +34633,7 @@ function architekturRaumgestaltungDer9TypenPage() {
 
       <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Organische Architektur (Hundertwasser/Steiner): Integriert in die Natur</h3>
       ${bild("architektur-9-organisch.jpg", "Hundertwasserhaus mit bunter, organisch geschwungener Fassade")}
-      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen würde – Fassaden wachsen wie Baumstämme, Dächer tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchlässig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund drängt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Präsenz darin klar spürbar wird.</p>
+      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen würde – Fassaden wachsen wie Baumstämme, Dächer tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchlässig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund drängt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Präsenz darin klar spürbar wird. Mehr zu Hundertwasser als sexuellem Typ 9 (SX9w1) im Porträt weiter unten verlinkt.</p>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
@@ -34574,6 +34644,7 @@ function architekturRaumgestaltungDer9TypenPage() {
         {route:"wetter-naturphaenomene-der-9-typen", label:"Wetter- und Naturphänomene der 9 Typen"},
         {route:"beziehungen", label:"Beziehungen der 9 Typen"},
         {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
+        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w1)"},
       ])}
     </div>
   `);
@@ -43384,6 +43455,7 @@ function render() {
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,

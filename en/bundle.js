@@ -505,6 +505,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
     tags:["History"], gender:"m"},
+  { route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w1",
+    heading:"Friedensreich Hundertwasser \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 1928\u20132000. Painter, architect, ecologist. From Friedrich Stowasser to Friedensreich Hundertwasser \u2013 a life as fusion with nature, against the straight line, for organic flow. Animal correspondence: Sloth.",
+    tags:["Art","Architecture"], gender:"m"},
   { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
     heading:"Robbie Williams \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 born 1974. Singer, entertainer, formerly of Take That. Radical honesty about addiction, depression and self-doubt \u2013 the Black Mamba that cannot tolerate a lie, not even its own. Animal correspondence: Black Mamba.",
@@ -15627,6 +15631,71 @@ function rasputinPortraitPage() {
   `);
 }
 
+function hundertwasserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Painter &amp; architect, 1928&ndash;2000 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; not a symbol of laziness, but of a mode of existence that merges so completely with its surroundings that the boundary between creature and habitat dissolves. Sloths move slowly because haste would get in the way of fusion &ndash; and their fur hosts its own algae and ecosystems: the animal literally becomes a habitat for other life. No accidental animal for a man who wanted to cover his house in soil and grow trees on every balcony.</p>
+          <p class="vb-intro">Hundertwasser's entire body of work is an attempt to make this fusion visible: houses without a single straight line, roofs that carry meadows, facades that grow like tree bark. Where other architecture asserts itself against nature, he let it merge with nature &ndash; the Sloth that knows no boundary between itself and its tree.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: The Intensifying Type of Fusion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In subtype theory, the <strong>sexual Nine (SX9)</strong> is considered the Nine's <em>intensifying (counter-type)</em> subtype: while the self-preservation Nine loses itself in habits and comfort, and the social Nine dissolves into groups and tasks, the SX9 seeks fusion in its most intense, most immediate form &ndash; with a single person, an ideal, or, as with Hundertwasser, with nature itself. Naranjo describes this subtype as the one most likely to break out of the Nine's typical inertia, because the longing for fusion is so strong that it drives concrete action.</p>
+          <p class="vb-intro">For Hundertwasser, this longing is written into his very name. Born <strong>Friedrich Stowasser</strong>, he gave himself a new one: <strong>Friedensreich Hundertwasser</strong>. Friedrich became Friedensreich &ndash; "rich in peace," the Nine's longing for harmony spoken as a program. Stowasser became Hundertwasser &ndash; "hundred waters," the nature-principle of water, symbol of living, unstoppable flow that knows no straight line and offers no resistance, but conforms to every shape. A self-renaming as an act of fusion: the name itself becomes a declaration of which principle one wishes to become one with.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: The Manifesto as Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something the pure Nine rarely shows: a moral claim, a principle worth fighting for. Hundertwasser was no quiet artist &ndash; he wrote manifestos. The most famous, the <em>Mould Manifesto Against Rationalism in Architecture</em> (1958), is an angry, uncompromising text against the straight line, which he called "godless and immoral." Unusual for a Nine &ndash; but exactly the signature of the One-wing: harmony is not just lived, but raised to an ethical demand.</p>
+          <p class="vb-intro">His architectural program followed clear, almost dogmatic rules: the "window right" (every resident may design their own window as they wish), the "tree duty" (any tree blocking a building must be allowed to grow through the house), no flat, even floors. Principles he defended unyieldingly &ndash; the Nine who transforms its ideal of harmony into an uncompromising set of rules. The One-wing gives the longing for fusion a moral edge that turns a dream into a program.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nude Speech: Fusion as a Radical Gesture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1968, Hundertwasser gave his famous "nude speech" in Munich &ndash; he undressed completely during a lecture against "box architecture." A scandal to many, but a lesson for subtype theory: this is sexual fusion in its purest form. No boundary between speaker and audience, no covering, no distance &ndash; the Sloth revealing itself so completely to its surroundings that nothing remains between it and its onlookers. Where a social Nine gives a speech to hold a group together, the sexual Nine seeks the immediate, physical moment of fusion &ndash; even if that means shedding every social covering.</p>
+          <p class="vb-intro">Later he chose New Zealand as his adopted home &ndash; a country at the edge of the world, shaped by untouched nature, far from European civilization. This too follows SX9 logic: not the social stage, but retreat into an intense, immediate relationship with nature. On his farm near Kawakawa he lived for a time without running water or electricity &ndash; the most consistent form of fusion imaginable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9 is its capacity to bond completely with something larger &ndash; and to draw creative power from it, rather than disappearing into it. Hundertwasser's buildings (the Green Citadel in Magdeburg, the Hundertwasser House in Vienna, the KunstHausWien) are not places of retreat, but living manifestos of this fusion &ndash; architecture that people actually inhabit.</p>
+          <p class="vb-intro">The Nine's fateful pattern is <strong>self-forgetting (sloth/inertia)</strong> &ndash; and in the SX9 it shows up as the dissolution of one's own position within the object of fusion. Hundertwasser's repeated self-renaming, his retreats, his radical rejection of every convention can also be read this way: the longing to dissolve entirely into nature, into the work, into the principle &ndash; until it becomes hard to tell where the man Friedrich Stowasser ends and the program called Hundertwasser begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Fusion to Conscious Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from self-forgetting to active presence &ndash; from dissolving into the other to a conscious, clear presence that seeks connection without losing itself in it. The growing Nine discovers that fusion with nature does not have to erase one's own shape &ndash; it can be exactly what allows that shape to emerge.</p>
+          <p class="vb-intro">Hundertwasser's work shows precisely this maturation: from the quiet longing of a young painter grew a public, unmistakable architectural program that still reaches millions of people today. The Sloth that slowly, persistently, without haste, claimed its place in the world &ndash; and in doing so did not disappear, but became visible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth \u2013 protective patterns, passions, and the path to essence.", "Who You Really Are \u2013 Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared \u2013 how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
+        {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
 
 function lenaMeyerLandrutPortraitPage() {
   return shell(`
@@ -31366,7 +31435,7 @@ function architekturRaumgestaltungDer9TypenPage() {
 
       <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Organic Architecture (Hundertwasser/Steiner): Integrated into Nature</h3>
       ${img("architektur-9-organisch.jpg", "Hundertwasser building with colorful, organically curved facade")}
-      <p class="vb-intro">Hundertwasser's buildings know no straight line, no right angle that would interrupt nature — facades grow like tree trunks, roofs carry soil and plants, the house becomes part of the landscape rather than a contradiction to it. That is exactly Type 9: a space that isn't asserted against its surroundings but merges with them, in which boundaries stay soft and permeable because harmony matters more than separation. Soft shapes, warm colors, no element pushing itself into the foreground. The downside: a house without clear contour can also mean its resident dissolves within it. Maturity for Type 9 arises when the organic softness remains, but one's own presence within it becomes clearly felt.</p>
+      <p class="vb-intro">Hundertwasser's buildings know no straight line, no right angle that would interrupt nature — facades grow like tree trunks, roofs carry soil and plants, the house becomes part of the landscape rather than a contradiction to it. That is exactly Type 9: a space that isn't asserted against its surroundings but merges with them, in which boundaries stay soft and permeable because harmony matters more than separation. Soft shapes, warm colors, no element pushing itself into the foreground. The downside: a house without clear contour can also mean its resident dissolves within it. Maturity for Type 9 arises when the organic softness remains, but one's own presence within it becomes clearly felt. More on Hundertwasser as sexual Type 9 (SX9w1) in the portrait linked below.</p>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
@@ -31377,6 +31446,7 @@ function architekturRaumgestaltungDer9TypenPage() {
         {route:"wetter-naturphaenomene-der-9-typen", label:"Weather and Nature Phenomena of the 9 Types"},
         {route:"beziehungen", label:"Relationships of the 9 Types"},
         {route:"arbeitsverhalten-der-9-typen", label:"Work Behavior of the 9 Types"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
       ])}
     </div>
   `);
@@ -40477,6 +40547,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
+      "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
