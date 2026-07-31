@@ -382,6 +382,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Meg Ryan – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1961. Schauspielerin, Regisseurin. Hollywoods Lieblingsperson der 1990er – der Pfau, der mehr wollte als seine Rolle. Tierentsprechung: Pfau.",
     tags:["Schauspiel","Film"] , gender:"f"},
+  { route:"beruehmte-marilyn-monroe", name:"Marilyn Monroe", added:"2026-07-31", subtyp:"SX3w4",
+    heading:"Marilyn Monroe – Sexueller Typ 3",
+    teaser:"SX3w4 · 1926–1962. Schauspielerin, Ikone des 20. Jahrhunderts. Vom Waisenhaus zur eigenen Produktionsfirma, vom Bühnenbild zur Method-Acting-Schülerin – der Pfau, dessen Leuchten die Person dahinter fast verschlang. Tierentsprechung: Pfau.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-dieter-bohlen", name:"Dieter Bohlen", subtyp:"SX3w4",
     heading:"Dieter Bohlen – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1954. Musikproduzent, Komponist, DSDS-Juror. Über 500 Millionen verkaufte Tonträger. Der Pfau, der das Rad schlägt – und der wissen will, was dahinter liegt.",
@@ -14728,6 +14732,76 @@ function megRyanPortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-lena-meyer-landrut", label:"Porträt: Lena Meyer-Landrut (SX3w2)"},
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"}
+      ])}
+    </div>
+  `);
+}
+
+function marilynMonroePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marilyn Monroe</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, 1926&ndash;1962 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Kaum eine Gestalt des 20. Jahrhunderts verkörperte diese Wirkung reiner als Marilyn Monroe: Ihr Auftritt auf der Leinwand war nicht Technik, sondern eine Präsenz, der sich niemand entziehen konnte &ndash; ein Leuchten, das durch die Kamera hindurch direkt beim Publikum ankam.</p>
+          <p class="vb-intro">Die Szene mit dem hochwehenden Kleid über dem U-Bahn-Gitter in &bdquo;Das verflixte 7. Jahr&ldquo; (1955) wurde zu einer der meistreproduzierten Filmaufnahmen der Geschichte &ndash; nicht wegen einer besonderen dramaturgischen Leistung, sondern weil in diesem einen Moment die reine Wirkung des Pfaus sichtbar wurde. Kein Zufall, dass gerade dieses Bild zum globalen Symbol wurde: Es zeigt nichts als Strahlkraft selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht Erfolg vor der Masse wie die soziale Drei, sondern die unmittelbare, körperliche Resonanz mit dem Gegenüber. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten, intimsten Form.</p>
+          <p class="vb-intro">Norma Jeane Mortenson, aufgewachsen in Pflegefamilien und einem Waisenhaus in Los Angeles, baute sich als Marilyn Monroe eine Bühnenpersona, die auf genau dieser Energie beruhte. Filme wie &bdquo;Blondinen bevorzugt&ldquo; (1953), &bdquo;Wie angelt man sich einen Millionär?&ldquo; (1953) und &bdquo;Manche mögen's heiß&ldquo; (1959) funktionierten nicht wegen komplizierter Drehbücher &ndash; sie funktionierten, weil das Publikum in jeder Einstellung eine echte, unmittelbare Anziehung spürte, die sich nicht spielen ließ.</p>
+          <p class="vb-intro">Ihre Wirkung erschöpfte sich nie im rein Visuellen. Regisseure und Kollegen beschrieben eine Präsenz, die sich vor der Kamera vervielfachte &ndash; als würde die Linse selbst zum Gegenüber, dem sie sich zuwandte. Genau das ist die reinste Form der SX3-Wirkung: nicht Distanz, sondern Nähe, die durch die Leinwand hindurch trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Sehnsucht nach Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei einen Hunger, den reiner Magnetismus nicht stillen kann: das Bedürfnis nach Bedeutung, nach echtem künstlerischem Ausdruck, nach einem Selbst jenseits des Bildes, das andere sich von einem machen. Die SX3w4 will nicht nur begehrt werden &ndash; sie will auch ernst genommen werden.</p>
+          <p class="vb-intro">Monroe gründete 1955 mit &bdquo;Marilyn Monroe Productions&ldquo; eine eigene Produktionsfirma &ndash; ein für eine Schauspielerin dieser Zeit fast beispielloser Schritt, mit dem sie gegen die Typisierung als &bdquo;dumme Blondine&ldquo; kämpfte, in die die Studios sie gepresst hatten. Im selben Jahr begann sie ein Studium der Method-Acting-Technik am Actors Studio bei Lee Strasberg &ndash; neben Marlon Brando und James Dean eine der wenigen Hollywood-Stars, die sich dieser strengen Schauspielschule öffentlich unterzogen.</p>
+          <p class="vb-intro">1956 heiratete sie den Dramatiker Arthur Miller, dessen intellektuelles Renommee in scharfem Kontrast zu ihrem öffentlichen Image stand &ndash; eine Verbindung, die Monroe selbst als Zeichen ihres Ernstes verstand. Der Viererflügel sucht nicht die Bestätigung der Masse, sondern die Anerkennung dessen, was jenseits der Oberfläche liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Norma Jeane und Marilyn: Die zwei Gesichter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum eine Berühmtheit trug den Riss zwischen öffentlicher Person und privatem Selbst so sichtbar wie Monroe. Norma Jeane Mortenson wuchs in wechselnden Pflegefamilien und einem Waisenhaus auf, ohne stabile Bindung, mit einer psychisch erkrankten Mutter, die sie kaum kannte. Aus dieser Unsicherheit heraus entstand &bdquo;Marilyn&ldquo; &ndash; eine Figur, die Kontrolle über die eigene Wirkung versprach, wo das Leben selbst keine Kontrolle geboten hatte.</p>
+          <p class="vb-intro">Kollegen und Vertraute berichteten immer wieder von zwei unterschiedlichen Menschen: der scheuen, unsicheren, lesehungrigen Norma Jeane hinter den Kulissen und der strahlenden Marilyn, die sich buchstäblich einschalten ließ, sobald eine Kamera oder ein Publikum erschien. &bdquo;Wenn ich Marilyn sein will, werde ich Marilyn&ldquo;, sagte sie einmal &ndash; ein Satz, der die bewusste Konstruktion einer Rolle offenlegt, mit der sich das eigentliche Selbst kaum noch deckte.</p>
+          <p class="vb-intro">Der Pfau trägt sein Gefieder, weil es zu ihm gehört &ndash; doch bei Monroe wurde das Gefieder zunehmend zur Rüstung, hinter der Norma Jeane immer schwerer zu finden war, selbst für sie selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3 ist ihre Fähigkeit, durch reine Präsenz zu berühren &ndash; und dabei etwas auszudrücken, das über die eigene Person hinausweist. Monroes Filme bleiben bis heute Referenzpunkte des Kinos, ihre Bildsprache prägt Mode, Fotografie und Popkultur bis in die Gegenwart.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; das Verwechseln der eigenen Identität mit der eigenen Wirkung. Bei Monroe verschärfte der Viererflügel dieses Muster auf tragische Weise: Sie wusste um den Unterschied zwischen Norma Jeane und Marilyn, konnte ihn aber nie auflösen. Depressionen, Angstzustände, die Abhängigkeit von Beruhigungsmitteln und Schlafmitteln begleiteten die letzten Jahre ihres Lebens &ndash; ein innerer Zustand, der im scharfen Kontrast zum strahlenden öffentlichen Bild stand.</p>
+          <p class="vb-intro">Am 5. August 1962 wurde Monroe tot in ihrem Haus in Los Angeles aufgefunden, im Alter von 36 Jahren &ndash; die Todesursache wurde offiziell als wahrscheinlicher Suizid durch eine Überdosis Barbiturate eingestuft. Der Pfau, dessen Leuchten so hell brannte, dass die Person dahinter darin fast verschwand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Rolle zum Selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Werde ich begehrt?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne dieses Bild.</em> Für die SX3w4 bedeutet das, die eigene Ausstrahlung nicht mehr als einzigen Anker der Identität zu behandeln, sondern die Tiefe zu finden, ohne dafür ständig eine Rolle spielen zu müssen.</p>
+          <p class="vb-intro">Monroes letzte Lebensjahre lassen sich als Suchbewegung genau in diese Richtung lesen: das ernsthafte Studium der Schauspielkunst, der Versuch literarischer Bildung, der Wunsch nach einem Kind, nach Stabilität, nach einem Leben jenseits der Kamera. Ihr letzter vollendeter Film, &bdquo;Misfits &ndash; Nicht gesellschaftsfähig&ldquo; (1961), von Arthur Miller eigens für sie geschrieben, zeigt eine verletzlichere, erdverbundenere Marilyn als je zuvor &ndash; ein Hinweis darauf, wohin ihr Weg vielleicht geführt hätte.</p>
+          <p class="vb-intro">Der Pfau, der nie die Gelegenheit bekam, sein Gefieder endgültig für sich selbst zu tragen, statt für ein Publikum, das nie genug bekommen konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-meg-ryan", label:"Porträt: Meg Ryan (SX3w4)"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
       ])}
     </div>
   `);
@@ -43821,6 +43895,7 @@ function render() {
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
+      "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,

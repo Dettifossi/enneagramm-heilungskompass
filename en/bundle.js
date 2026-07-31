@@ -597,6 +597,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Meg Ryan – Sexual Type 3",
     teaser:"SX3w4 · born 1961. Actress, director. Hollywood's favorite person of the 1990s - the peacock who wanted more than his role. Animal correspondence: Peacock.",
     tags:["Film/Theater","Film"] , gender:"f"},
+  { route:"beruehmte-marilyn-monroe", name:"Marilyn Monroe", added:"2026-07-31", subtyp:"SX3w4",
+    heading:"Marilyn Monroe – Sexual Type 3",
+    teaser:"SX3w4 · 1926–1962. Actress, 20th-century icon. From orphanage to her own production company, from screen persona to Method acting student – the peacock whose glow nearly swallowed the person beneath it. Animal correspondence: Peacock.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-melanie-kreis", name:"Melanie Kreis", added:"2026-07-21", subtyp:"SO6w5",
     heading:"Melanie Kreis – Social Type 6",
     teaser:"SO6w5 \xb7 born 1971 in Bonn. Chief Financial Officer (CFO) of the DHL Group. Physicist, McKinsey consultant, DAX manager. The meerkat that keeps watch - for one of the largest logistics companies in the world.",
@@ -16277,6 +16281,76 @@ function marieKondoPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function marilynMonroePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marilyn Monroe</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actress, 1926&ndash;1962 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the sexual Three &ndash; an animal whose splendor is not calculation but expression. Few figures of the 20th century embodied this impact more purely than Marilyn Monroe: her presence on screen was not technique, but a presence no one could escape &ndash; a glow that reached the audience directly through the camera.</p>
+          <p class="vb-intro">The scene of her billowing dress over the subway grate in <em>The Seven Year Itch</em> (1955) became one of the most reproduced film images in history &ndash; not because of any particular dramatic achievement, but because in that single moment the pure impact of the peacock became visible. It is no accident that exactly this image became a global symbol: it shows nothing but radiance itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as Life&#39;s Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> makes personal attraction its life&#39;s work &ndash; not success before the masses as with the social Three, but immediate, physical resonance with the person in front of it. Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest, most intimate form.</p>
+          <p class="vb-intro">Norma Jeane Mortenson, raised in a series of foster homes and an orphanage in Los Angeles, built as Marilyn Monroe a stage persona resting on exactly this energy. Films such as <em>Gentlemen Prefer Blondes</em> (1953), <em>How to Marry a Millionaire</em> (1953), and <em>Some Like It Hot</em> (1959) did not work because of complicated scripts &ndash; they worked because audiences felt, in every shot, a genuine, immediate attraction that could not be acted.</p>
+          <p class="vb-intro">Her impact never exhausted itself in the purely visual. Directors and colleagues described a presence that seemed to multiply in front of the camera &ndash; as if the lens itself became the person she was turning toward. That is the purest form of SX3 impact: not distance, but closeness that carries through the screen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: The Longing for Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Three a hunger that pure magnetism cannot satisfy: the need for meaning, for genuine artistic expression, for a self beyond the image others form of it. The SX3w4 does not only want to be desired &ndash; it also wants to be taken seriously.</p>
+          <p class="vb-intro">Monroe founded her own production company, Marilyn Monroe Productions, in 1955 &ndash; an almost unprecedented step for an actress of her era, with which she fought against the &bdquo;dumb blonde&ldquo; typecasting the studios had pressed her into. That same year she began studying Method acting at the Actors Studio under Lee Strasberg &ndash; alongside Marlon Brando and James Dean, one of the few Hollywood stars to publicly submit to this rigorous school of acting.</p>
+          <p class="vb-intro">In 1956 she married the playwright Arthur Miller, whose intellectual standing stood in sharp contrast to her public image &ndash; a union Monroe herself understood as a sign of her seriousness. The Four-wing does not seek the crowd&#39;s approval, but recognition of what lies beneath the surface.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Norma Jeane and Marilyn: The Two Faces</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any celebrity carried the split between public persona and private self as visibly as Monroe. Norma Jeane Mortenson grew up in a succession of foster homes and an orphanage, without stable attachment, with a mother suffering from mental illness whom she barely knew. Out of this insecurity arose &bdquo;Marilyn&ldquo; &ndash; a figure that promised control over her own impact where life itself had offered none.</p>
+          <p class="vb-intro">Colleagues and confidants repeatedly described two different people: the shy, insecure, voraciously reading Norma Jeane behind the scenes, and the radiant Marilyn who switched on, almost literally, the moment a camera or an audience appeared. &bdquo;When I want to be Marilyn, I become Marilyn,&ldquo; she once said &ndash; a sentence that lays bare the deliberate construction of a role that the actual self could barely match anymore.</p>
+          <p class="vb-intro">The peacock wears its plumage because it belongs to it &ndash; but in Monroe the plumage increasingly became armor, behind which Norma Jeane grew harder and harder to find, even for herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3 is its ability to move people through pure presence &ndash; and in doing so to express something that points beyond itself. Monroe&#39;s films remain reference points of cinema to this day, and her visual language still shapes fashion, photography, and pop culture.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>deception</strong> &ndash; confusing one&#39;s own identity with one&#39;s own impact. In Monroe the Four-wing sharpened this pattern tragically: she knew the difference between Norma Jeane and Marilyn but could never resolve it. Depression, anxiety, and dependence on sedatives and sleeping pills accompanied the final years of her life &ndash; an inner state in sharp contrast to the radiant public image.</p>
+          <p class="vb-intro">On August 5, 1962, Monroe was found dead in her home in Los Angeles at the age of 36 &ndash; the cause of death was officially ruled a probable suicide from a barbiturate overdose. The peacock whose glow burned so bright that the person behind it nearly disappeared in it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Role to Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>Am I desired?</em> to the insight <em>I am &ndash; even without this image.</em> For the SX3w4 this means no longer treating one&#39;s own radiance as the sole anchor of identity, but finding depth without constantly having to play a role.</p>
+          <p class="vb-intro">Monroe&#39;s final years can be read as a search in exactly this direction: the serious study of the craft of acting, the attempt at literary education, the longing for a child, for stability, for a life beyond the camera. Her last completed film, <em>The Misfits</em> (1961), written by Arthur Miller specifically for her, shows a more vulnerable, more grounded Marilyn than ever before &ndash; a hint of where her path might have led.</p>
+          <p class="vb-intro">The peacock that never got the chance to finally wear its plumage for itself, rather than for an audience that could never get enough.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-meg-ryan", label:"Portrait: Meg Ryan (SX3w4)"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
       ])}
     </div>
   `);
@@ -41005,6 +41079,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
+      "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
