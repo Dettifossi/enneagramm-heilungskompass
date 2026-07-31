@@ -34063,7 +34063,7 @@ function davidRathmerPersoenlichkeitenPage() {
     "Ennea Exposed: Famous Personalities",
     "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
     [
-      { titel: "Ennea Exposed: Famous Personalities", bookTipAfterEach: bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth — protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1") + bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit"), videos: [
+      { titel: "Ennea Exposed: Famous Personalities", bookTipAfterEach: bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth — protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1") + bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit") + bookTip("fuehrung-mit-fundament", "Understanding leaders and teams — the Enneagram as a leadership compass.", "Führung mit Fundament"), videos: [
         { id: "LaWtvvpo-x8", label: "Episode 1: Personality Analysis of Vladimir Putin" },
         { id: "wcYhn3-K3Pc", label: "Episode 2: Personality Analysis of Friedrich Merz" },
         { id: "KUMqh3aiCwk", label: "Episode 3: Personality Analysis of P. Diddy" },
