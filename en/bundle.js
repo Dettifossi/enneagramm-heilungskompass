@@ -836,12 +836,532 @@ function enneagrammKunstTypPage(n) {
   `);
 }
 
+// ─── Enneagram Movie Recommendations ───────────────────────────────────────
+const ENNEAGRAMM_FILME = {
+  "SE1": {
+    typ: 1, instinkt: "SE", animal: "Eagle",
+    title: "SE1 – Self-Preservation Type 1: The Eagle at Home",
+    intro: "Ten films about the drive to live correctly within one's own four walls – order, self-discipline, and a warmth that hides behind strictness.",
+    filme: [
+      { title:"The Intern", year:"2015", text:"Ben, played as an old-school gentleman, embodies decency, reliability, and restraint without ever moralizing. That quiet moral clarity is the SE1 signature." },
+      { title:"Julie & Julia", year:"2009", text:"Julia Child's years of meticulous devotion to getting the technique right – not for applause, but because it must be done properly. A model of self-preservation One discipline." },
+      { title:"Sully", year:"2016", text:"Captain Sullenberger subjects himself to merciless self-scrutiny after his heroic act, questioning whether he truly did everything right. SE1 measures itself against an inner standard no one else can see." },
+      { title:"A Man Called Otto", year:"2022", text:"Otto lives by strict, self-imposed rules – recycling, punctuality, order – beneath which real warmth increasingly shows through. The classic SE1 arc: from strictness to quiet affection." },
+      { title:"Miss Potter", year:"2006", text:"Beatrix Potter's disciplined, withdrawn working life, expressed in small, carefully executed works. SE1 seeks perfection within its own manageable domain." },
+      { title:"The Best Exotic Marigold Hotel", year:"2011", text:"Muriel's sharp, unyielding judgment turns out, over the course of the film, to be a deeply rooted sense of order rather than mere harshness – an SE1 arc in pure form." },
+      { title:"Little Women", year:"2019", text:"Marmee's restrained moral steadfastness, raising her daughters by example rather than by preaching. SE1 teaches through how it lives, not what it says." },
+      { title:"The Remains of the Day", year:"1993", text:"The butler Stevens, whose entire life is consumed by duty and correct conduct, until he recognizes his own emotional coldness. A classic – no film since has shown the SE1 trap as clearly." },
+      { title:"The Wife", year:"2017", text:"A woman who spends decades setting aside her own competence for her husband's career, filling her role with quiet, disciplined perfection. SE1 recognizes itself in this understated, never-claimed greatness." },
+      { title:"45 Years", year:"2015", text:"A carefully ordered marriage of decades is shaken when an old truth surfaces – the SE1 facade of control and decorum is tested down to its foundations." },
+    ],
+  },
+  "SO1": {
+    typ: 1, instinkt: "SO", animal: "Goose",
+    title: "SO1 – Social Type 1: The Goose as Society's Reformer",
+    intro: "Ten films about fighting for what's right on a grand scale – justice, reform, and moral leadership.",
+    filme: [
+      { title:"Erin Brockovich", year:"2000", text:"A woman who holds an entire corporation accountable for its wrongdoing – a sense of justice that won't settle for half-measures. SO1 energy at its most combative." },
+      { title:"Spotlight", year:"2015", text:"A team of journalists uncovers systemic wrongdoing within an institution, undeterred by pushback from their own social circle. Reform as journalistic duty." },
+      { title:"Dark Waters", year:"2019", text:"A lawyer fights for years against an overpowering corporation, because the right thing must be done, whatever it takes. SO1 doesn't give up when the system fails." },
+      { title:"The Report", year:"2019", text:"An investigator pushes a 6,000-page report on government misconduct through every wall of political resistance. Principle as profession." },
+      { title:"Milk", year:"2008", text:"Harvey Milk's fight for social equality – public, tireless, aimed at nothing less than changing society as a whole." },
+      { title:"Suffragette", year:"2015", text:"Women fighting for the right to vote even at enormous personal cost – reform as something you devote your whole life to." },
+      { title:"The Post", year:"2017", text:"A newspaper stands by its right to publish the truth against government pressure. Public responsibility placed above personal safety." },
+      { title:"Selma", year:"2014", text:"Martin Luther King's organized, disciplined fight for civil rights – reform as a sustained, structured movement, not a spontaneous outburst." },
+      { title:"Trumbo", year:"2015", text:"A screenwriter holds to his principles while an entire industry punishes him for it. Steadfastness as resistance." },
+      { title:"On the Basis of Sex", year:"2018", text:"A decades-long legal fight for equality under the law – reform won step by step, case by case." },
+    ],
+  },
+  "SX1": {
+    typ: 1, instinkt: "SX", animal: "Black Mamba",
+    title: "SX1 – Sexual Type 1: The Black Mamba and the One Cause",
+    intro: "Ten films about burning, uncompromising intensity within the one relationship, the one cause – including two roles played by actors who are themselves classified as SX1 in the Compass.",
+    filme: [
+      { title:"Aguirre, the Wrath of God", year:"1972", text:"Klaus Kinski – classified in the Compass as SX1w9 – plays an obsessed conqueror who pits himself against an entire jungle with messianic certainty. Few roles embody SX1 intensity as directly as this one." },
+      { title:"The Revenant", year:"2016", text:"Leonardo DiCaprio – classified in the Compass as SX1w2 – as a man whose entire survival narrows down to a single, relentless focus: retribution. SX1 knows no half-hearted goals." },
+      { title:"Whiplash", year:"2014", text:"A teacher whose uncompromising, almost destructive devotion to a single student knows no leniency. The Black Mamba accepts no mediocrity, not even in the name of love." },
+      { title:"Carol", year:"2015", text:"A possessive, all-consuming love that defies social convention. SX1 intensity as resistance against the world's rules." },
+      { title:"Marriage Story", year:"2019", text:"Two people who, even as their marriage falls apart, cannot let go of their own moral certainty. SX1 fights for the truth, even when it wounds." },
+      { title:"Phantom Thread", year:"2017", text:"Control, jealousy, and devotion within a single, obsessive relationship – no one else matters as long as this one bond remains unresolved." },
+      { title:"Little Children", year:"2006", text:"An affair carried by the conviction of being in the right – moral self-righteousness as cover for one's own passion." },
+      { title:"Blue Valentine", year:"2010", text:"The intensity of a love that breaks against its own unattainable standards. Disappointment as the flip side of SX1 devotion." },
+      { title:"Nosferatu the Vampyre", year:"1979", text:"Klaus Kinski again, this time as a tragic, obsessed figure whose entire being revolves around a single, unquenchable longing." },
+      { title:"Fatal Attraction", year:"1987", text:"An affair that turns into possessive, uncompromising intensity the moment it's called into question. The Black Mamba knows no retreat once it has bonded." },
+    ],
+  },
+  "SE2": {
+    typ: 2, instinkt: "SE", animal: "Hippo",
+    title: "SE2 – Self-Preservation Type 2: The Hippo Who Pampers",
+    intro: "Ten films about caregiving within one's own close circle – nurturing, pampering, and making oneself indispensable through devotion.",
+    filme: [
+      { title:"School of Rock", year:"2003", text:"Jack Black – classified in the Compass as SE2w1 – as a teacher whose warm, pampering care makes him indispensable to those around him. One of the most fitting embodiments of SE2 on screen." },
+      { title:"The Intouchables", year:"2011", text:"Physical, warm, humor-filled caregiving that turns a working relationship into a real family." },
+      { title:"Nanny McPhee", year:"2005", text:"Strictness that transforms, step by step, into real affection – the SE2 movement from control to warmth." },
+      { title:"About a Boy", year:"2002", text:"A caregiving that begins reluctantly and, beneath the surface, turns into a genuine, vulnerable bond." },
+      { title:"Marley & Me", year:"2008", text:"Devotion and caregiving within the closest family circle, without any grand public gesture." },
+      { title:"Paddington", year:"2014", text:"Unconditional domestic welcome of a stranger – caregiving as a spontaneous, warm reflex." },
+      { title:"Instant Family", year:"2018", text:"A family that remakes itself through actively caring for someone else's children in their own home." },
+      { title:"The Blind Side", year:"2009", text:"Self-sacrificing domestic care that takes in a stranger unreservedly as one of the family." },
+      { title:"Wonder", year:"2017", text:"A family whose entire daily life is organized around loving, tireless care for a child – attention as a quiet daily practice rather than a grand gesture." },
+      { title:"Life as We Know It", year:"2010", text:"Two people unexpectedly thrown into caring for a child, discovering how much nurturing can become part of their own identity." },
+    ],
+  },
+  "SO2": {
+    typ: 2, instinkt: "SO", animal: "Golden Retriever",
+    title: "SO2 – Social Type 2: The Golden Retriever in Service of the Community",
+    intro: "Ten films about visible, public caregiving – ambition and helpfulness that prove themselves in front of the group.",
+    filme: [
+      { title:"The Pursuit of Happyness", year:"2006", text:"Will Smith – classified in the Compass as SO2w3 – as a father whose ambition is entirely in service of caring for his son." },
+      { title:"Concussion", year:"2015", text:"Will Smith again, this time in a public, visible fight for the wellbeing of many against powerful resistance." },
+      { title:"Freedom Writers", year:"2007", text:"Committed, publicly visible caregiving in the classroom that holds an entire group together." },
+      { title:"Dead Poets Society", year:"1989", text:"A mentor who stands up publicly and forcefully for his students – caregiving as pedagogical mission." },
+      { title:"Won't You Be My Neighbor?", year:"2018", text:"A public, lifelong mission of caregiving documented across decades – helpfulness as life's work." },
+      { title:"Radio", year:"2003", text:"A community, led by a coach, that visibly and persistently looks after an outsider." },
+      { title:"Hidden Figures", year:"2016", text:"Mutual caregiving in the shared struggle for social recognition." },
+      { title:"Green Book", year:"2018", text:"Caregiving and loyalty that must prove themselves in public, under scrutiny." },
+      { title:"Spare Parts", year:"2015", text:"Communal, publicly visible commitment to disadvantaged young people." },
+      { title:"Music of the Heart", year:"1999", text:"Educational dedication that seeks public recognition to prove its worth." },
+    ],
+  },
+  "SX2": {
+    typ: 2, instinkt: "SX", animal: "Camel",
+    title: "SX2 – Sexual Type 2: The Camel and the One Seduction",
+    intro: "Ten films about seduction as the art of connection – full attention focused on the one, exclusive relationship.",
+    filme: [
+      { title:"What a Man", year:"2011", text:"Matthias Schweighöfer – classified in the Compass as SX2w1 – as a charming seducer whose relational strategy relies entirely on personal closeness." },
+      { title:"Crazy, Stupid, Love", year:"2011", text:"Seduction as a central life identity – and the question of how much real feeling lies beneath it." },
+      { title:"Silver Linings Playbook", year:"2012", text:"An intense, all-consuming personal connection that pushes every rational consideration aside." },
+      { title:"About Time", year:"2013", text:"Unconditional, devoted courtship and attention toward a single person – time as an expression of love." },
+      { title:"La La Land", year:"2016", text:"Seduction through total devotion to the one relationship, even if it doesn't last in the end." },
+      { title:"Titanic", year:"1997", text:"Boundless, all-consuming seduction and devotion compressed into a handful of intense days." },
+      { title:"Notting Hill", year:"1999", text:"The seductive power of undivided attention, focused entirely on a single person." },
+      { title:"500 Days of Summer", year:"2009", text:"The longing to be irresistible and unforgettable for one particular person." },
+      { title:"Elvis", year:"2022", text:"Charisma as a life force that binds an entire stage and an entire audience to itself." },
+      { title:"Say Anything...", year:"1989", text:"A young man whose entire energy is directed at one unconditional courtship of one person – devotion with no exit ramp, the very heart of SX2." },
+    ],
+  },
+  "SE3": {
+    typ: 3, instinkt: "SE", animal: "Raccoon",
+    title: "SE3 – Self-Preservation Type 3: The Raccoon Who Functions",
+    intro: "Ten films about worth proven through tangible achievement and security – identity measured by one's own ability to function.",
+    filme: [
+      { title:"Joy", year:"2015", text:"A woman who must prove her worth purely through economic success and a functioning business – no time for doubt, only for results." },
+      { title:"The Founder", year:"2016", text:"An identity that defines itself entirely through entrepreneurial performance – relationships subordinated to success." },
+      { title:"Moneyball", year:"2011", text:"Pragmatic, sober success as a means of survival, with no glamour attached – functioning matters more than impact." },
+      { title:"Molly's Game", year:"2017", text:"Control over one's own performance as the only reliable foundation when everything else collapses." },
+      { title:"Wall Street: Money Never Sleeps", year:"2010", text:"Rebuilding one's own reputation and financial security after a fall – worth through restoration." },
+      { title:"The Devil Wears Prada", year:"2006", text:"Functioning under extreme performance pressure as the entry price for professional worth and security." },
+      { title:"Margin Call", year:"2011", text:"One night in which competence and cool functioning decide the survival of an entire firm – efficiency as the only reliable currency once everything else falls apart." },
+      { title:"Boiler Room", year:"2000", text:"A young man buys his way into status and security through proven sales skill – functioning as the entry ticket into a system that asks no questions." },
+      { title:"American Made", year:"2017", text:"A pilot sells his flying skills to one competing system after another – security through usefulness, with no moral detours." },
+      { title:"War Dogs", year:"2016", text:"Two young men buy their way into a lucrative, dangerous system through pragmatic business talent – competence as the only credential that's needed." },
+    ],
+  },
+  "SO3": {
+    typ: 3, instinkt: "SO", animal: "Cheetah",
+    title: "SO3 – Social Type 3: The Cheetah in the Group's Spotlight",
+    intro: "Ten films about prestige, public recognition, and the question of who you are when no one is watching.",
+    filme: [
+      { title:"The Social Network", year:"2010", text:"Prestige, public recognition, and status as the central engine of a life – success measured by social visibility." },
+      { title:"I, Tonya", year:"2017", text:"A bitter fight for social recognition despite one's background – achievement that always has to serve as proof." },
+      { title:"Tár", year:"2022", text:"Public prestige and reputation as identity – and the collapse that follows once the image starts to crack." },
+      { title:"Miss Americana", year:"2020", text:"A public image as the foundation of one's livelihood, and the gradual search for what lies beneath it." },
+      { title:"Bohemian Rhapsody", year:"2018", text:"Public image and stage presence as a means of winning social recognition – and the search for authenticity behind it." },
+      { title:"Rocketman", year:"2019", text:"The rise to a public image of success, and the steep personal price paid for it." },
+      { title:"The Greatest Showman", year:"2017", text:"Success as public spectacle, chasing social recognition at any cost." },
+      { title:"Ford v Ferrari", year:"2019", text:"A company's prestige and public reputation, for which personal integrity must repeatedly be negotiated." },
+      { title:"The Iron Lady", year:"2011", text:"A politician whose entire public image is built on unshakeable resolve and prestige – status as armor, behind which the private person nearly disappears." },
+      { title:"Miss Sloane", year:"2016", text:"A lobbyist whose identity fuses completely with professional success and public reputation – prestige as the only foundation she stands on." },
+    ],
+  },
+  "SX3": {
+    typ: 3, instinkt: "SX", animal: "Peacock",
+    title: "SX3 – Sexual Type 3: The Peacock and the One Stage",
+    intro: "Ten films about personal charisma that wants to win over a relationship or an audience entirely for itself.",
+    filme: [
+      { title:"Kate & Leopold", year:"2001", text:"Meg Ryan – classified in the Compass as SX3w4 – radiates a charisma that fills the room the moment her character enters it." },
+      { title:"You've Got Mail", year:"1998", text:"Meg Ryan again, whose personal charm carries through even anonymous communication." },
+      { title:"In the Cut", year:"2003", text:"Meg Ryan in a darker role – identity tightly bound to her own magnetism." },
+      { title:"Walk the Line", year:"2005", text:"Personal magnetism concentrated into a single, all-consuming relationship." },
+      { title:"Ray", year:"2004", text:"Stage presence as the expression of an identity that fully reveals itself above all in direct, intense contact with the audience." },
+      { title:"Coyote Ugly", year:"2000", text:"Personal shine and radiance as a way of being seen and desired." },
+      { title:"Burlesque", year:"2010", text:"The stage as the place where charismatic presence becomes the one true form of self-affirmation." },
+      { title:"Crazy Heart", year:"2009", text:"Charisma that, despite personal decline, can still forge a single, intense connection with an audience." },
+      { title:"Yesterday", year:"2019", text:"A musician who becomes a charismatic superstar overnight, and must learn whether fame truly sustains him or only blinds him – charisma as a sudden, overwhelming stage." },
+      { title:"Judy", year:"2019", text:"An aging stage legend whose personal radiance still captivates an audience while the life behind it falls apart – the glamour and tragedy of SX3 stage presence in a single image." },
+    ],
+  },
+  "SE4": {
+    typ: 4, instinkt: "SE", animal: "Dove",
+    title: "SE4 – Self-Preservation Type 4: The Dove and Quiet Suffering",
+    intro: "Ten films about melancholy in a wholly private, everyday setting – stoicism instead of drama, longing that no one is meant to see.",
+    filme: [
+      { title:"Manchester by the Sea", year:"2016", text:"A man who endures his pain through quiet routine, because open grief has become impossible for him." },
+      { title:"Paterson", year:"2016", text:"A withdrawn, poetic inner life that never announces itself loudly but finds expression in small, private moments." },
+      { title:"Wonderful (Wunderschön)", year:"2020", text:"Karoline Herfurth – classified in the Compass as SE4w5 – tells, as director and lead actress, a story of quiet inner vulnerability in a wholly private struggle over self-image." },
+      { title:"A Ghost Story", year:"2017", text:"Grief and longing that settle for years within a single, silent, domestic space." },
+      { title:"Still Alice", year:"2014", text:"An inner loss that must be lived through entirely in private, with no public stage." },
+      { title:"The Diving Bell and the Butterfly", year:"2007", text:"A rich, yearning inner life that remains almost invisible on the outside." },
+      { title:"Amour", year:"2012", text:"Loss and longing endured within the closest domestic setting, with the world outside none the wiser." },
+      { title:"The Hours", year:"2002", text:"Three women, three eras, the same quiet, private melancholy – longing that shows itself not in grand gestures but in the daily, barely visible struggle with oneself." },
+      { title:"Rabbit Hole", year:"2010", text:"A couple processing their loss within the silence of their own home, each in their own private way – grief without an audience." },
+      { title:"A Single Man", year:"2009", text:"A man moves through a single day with stylized precision, walking through his own private grief – melancholy as an aesthetic, quiet discipline." },
+    ],
+  },
+  "SO4": {
+    typ: 4, instinkt: "SO", animal: "Armadillo",
+    title: "SO4 – Social Type 4: The Armadillo That Curls Up",
+    intro: "Ten films about the feeling of not belonging within the group – shame, social withdrawal, and the longing for belonging despite feeling different.",
+    filme: [
+      { title:"Sissi", year:"1955–1957", text:"Romy Schneider – classified in the Compass as SO4w3 – as a figure who stands in society's spotlight while feeling inwardly foreign and misunderstood." },
+      { title:"The Swimming Pool (La Piscine)", year:"1969", text:"Romy Schneider again, in a role full of social tension between belonging and inner isolation." },
+      { title:"Lady Bird", year:"2017", text:"The agonizing feeling of not fitting in socially, while desperately fighting to carve out one's own identity within the group." },
+      { title:"The Perks of Being a Wallflower", year:"2012", text:"Social withdrawal out of shame, until a small group embraces rather than punishes one's own difference." },
+      { title:"Eighth Grade", year:"2018", text:"The painful social self-scrutiny of a teenager constantly measured against others, losing herself in the process." },
+      { title:"Frances Ha", year:"2012", text:"The feeling of socially falling behind everyone else while desperately trying to belong." },
+      { title:"Moonlight", year:"2016", text:"An identity that, under the pressure of social expectation, must first hide and then slowly reveal itself." },
+      { title:"Booksmart", year:"2019", text:"The fear of never having truly belonged, despite every effort of one's own." },
+      { title:"Elephant", year:"2003", text:"Extreme social isolation and the feeling of being invisible or wrong within the group." },
+      { title:"Mean Girls", year:"2004", text:"A student desperately trying to fit into a social hierarchy she simultaneously experiences as alien – the feeling of never quite belonging, right in the middle of the group." },
+    ],
+  },
+  "SX4": {
+    typ: 4, instinkt: "SX", animal: "Chihuahua",
+    title: "SX4 – Sexual Type 4: The Chihuahua and Uncompromising Intensity",
+    intro: "Ten films about envy as comparative competition, uncompromising emotional intensity, and the courage to be unconventional.",
+    filme: [
+      { title:"Blonde", year:"2022", text:"Ana de Armas – classified in the Compass as SX4w5 – in a role of unsparing emotional intensity and the feeling of never being fully seen inside." },
+      { title:"Knives Out", year:"2019", text:"Ana de Armas again, as a figure whose emotional authenticity sets her apart from a whole family of facades." },
+      { title:"Black Swan", year:"2010", text:"Uncompromising, self-destructive emotional intensity in the competition for a single, unattainable ideal." },
+      { title:"Requiem for a Dream", year:"2000", text:"Longing and despair in their most intense, unfiltered, unconventional form, without any embellishment." },
+      { title:"The Virgin Suicides", year:"1999", text:"Unattainable, romanticized longing and melancholy that completely withdraws from the surrounding world." },
+      { title:"Call Me by Your Name", year:"2017", text:"First, uncompromising love in its full, unfiltered emotional intensity." },
+      { title:"Blue Is the Warmest Colour", year:"2013", text:"Emotional intensity that knows no half-measures and respects no social norm." },
+      { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"The refusal to numb pain and longing through forgetting – better to feel it all than not at all." },
+      { title:"A Star Is Born", year:"2018", text:"Uncompromising artistic and emotional truthfulness, whatever the cost." },
+      { title:"Shame", year:"2011", text:"A man whose uncontrollable emotional and physical intensity pushes him further from real closeness rather than nearer to it – feeling in its rawest, most unfiltered form." },
+    ],
+  },
+  "SE5": {
+    typ: 5, instinkt: "SE", animal: "Owl",
+    title: "SE5 – Self-Preservation Type 5: The Owl and Its Own Fortress",
+    intro: "Ten films about withdrawing to the bare essentials – guarding resources, minimal needs, and a narrow, controlled refuge.",
+    filme: [
+      { title:"Into the Wild", year:"2007", text:"A withdrawal from the world into a deliberately minimal, resource-scarce life – security through radical reduction rather than abundance." },
+      { title:"A Beautiful Mind", year:"2001", text:"An inner life of enormous complexity that tries to protect itself within a withdrawn, strictly ordered daily routine." },
+      { title:"Wild", year:"2014", text:"Withdrawal into reduction – a life deliberately stripped down to the essentials in order to find solid ground again." },
+      { title:"127 Hours", year:"2010", text:"Extreme scarcity of resources, where every smallest reserve decides between life and death." },
+      { title:"Leave No Trace", year:"2018", text:"A father and his daughter deliberately living with minimal means outside society – security through radical withdrawal rather than participation." },
+      { title:"Nell", year:"1994", text:"A woman who grew up in near-total isolation and opens herself to the outside world only in the smallest, controlled doses – withdrawal as the only refuge she knows." },
+      { title:"Cast Away", year:"2000", text:"A man reduced to the absolute minimum of resources, learning to survive on nothing but his own powers of observation." },
+      { title:"Tracks", year:"2013", text:"A woman crosses an Australian desert alone with a few camels – radical reduction and withdrawal as a path to herself." },
+      { title:"The Machinist", year:"2004", text:"A man reduces himself to the brink of physical dissolution – a dark image of where Five-like frugality can tip over into." },
+      { title:"Wendy and Lucy", year:"2008", text:"A young woman navigating life on the barest possible means – every resource carefully calculated, every bond reduced to the essentials." },
+    ],
+  },
+  "SO5": {
+    typ: 5, instinkt: "SO", animal: "Octopus",
+    title: "SO5 – Social Type 5: The Octopus That Sees Through Systems",
+    intro: "Ten films about expertise that shows itself to the group through knowledge rather than closeness – contribution as thinker, not as participant.",
+    filme: [
+      { title:"The Imitation Game", year:"2014", text:"A brilliant mind who serves the community purely through intellectual achievement, not through social closeness." },
+      { title:"Contact", year:"1997", text:"A scientist places her entire expertise in service of an event that affects all of humanity – knowledge not as a private project but as a contribution for everyone." },
+      { title:"The Big Short", year:"2015", text:"Outsiders who alone see through the complex system that everyone else overlooks." },
+      { title:"Arrival", year:"2016", text:"Understanding as the salvation of all humanity – knowledge that serves the community, gained from a position of distance." },
+      { title:"The Man Who Knew Infinity", year:"2015", text:"A mathematical genius whose contribution to the community lies entirely in abstract thought, not in social performance." },
+      { title:"Ex Machina", year:"2014", text:"A system that makes the limits of understanding itself the subject – knowledge as both a source of power and a risk." },
+      { title:"Interstellar", year:"2014", text:"Scientific understanding in service of all humanity – expertise devoted not to personal closeness but to everyone's survival." },
+      { title:"Gifted", year:"2017", text:"An extraordinarily gifted child, and the question of how much of her knowledge belongs to society – intellect as something the community lays claim to." },
+      { title:"Radioactive", year:"2019", text:"Marie Curie's scientific work, which changes the entire world far beyond her own person – knowledge as a contribution to humanity, not a private project." },
+      { title:"The Aeronauts", year:"2019", text:"A risky scientific expedition whose findings are meant to benefit all of society – discovery in service of collective knowledge." },
+    ],
+  },
+  "SX5": {
+    typ: 5, instinkt: "SX", animal: "Hedgehog",
+    title: "SX5 – Sexual Type 5: The Hedgehog and the One Trusted Bond",
+    intro: "Ten films about rare but intense connection to a single person – trust that opens only as the exception.",
+    filme: [
+      { title:"Good Will Hunting", year:"1997", text:"A person who shuts out the world but opens up, as the one exception, to a single person." },
+      { title:"Lost in Translation", year:"2003", text:"Two withdrawn people who open up to each other precisely because the connection is rare, and therefore precious." },
+      { title:"The Theory of Everything", year:"2014", text:"An intense two-person bond as the only reliable contact to a world otherwise kept at a distance." },
+      { title:"Frank", year:"2014", text:"A withdrawn, eccentric genius who lets very few people truly reach him." },
+      { title:"Moon", year:"2009", text:"Radical isolation in which a single connection to the outside world becomes existentially important." },
+      { title:"Before Sunset", year:"2004", text:"Two people who, after years of distance, find each other again for a few intense hours – rare closeness that becomes only more precious for it." },
+      { title:"Adaptation", year:"2002", text:"A withdrawn, brooding writer who opens himself to the world almost exclusively through the one person he truly trusts." },
+      { title:"Lars and the Real Girl", year:"2007", text:"A man who withdraws almost entirely from social life and pours his entire emotional world into a single, unusual relationship." },
+      { title:"Robot & Frank", year:"2012", text:"A withdrawn older man surprisingly forms a single, unexpected connection – closeness that doesn't undo the withdrawal but complements it." },
+      { title:"The Skeleton Twins", year:"2014", text:"Two estranged siblings find their way back to each other after years of distance – rare but deeply meaningful closeness between two people who are difficult even for themselves to reach." },
+    ],
+  },
+  "SE6": {
+    typ: 6, instinkt: "SE", animal: "Rabbit",
+    title: "SE6 – Self-Preservation Type 6: The Rabbit in Search of Warmth",
+    intro: "Ten films about safety within the trusted, close circle – warmth, alliances, and the search for a reliable home against fear.",
+    filme: [
+      { title:"Little Miss Sunshine", year:"2006", text:"A chaotic but warm family that, despite all its fears, sticks together and gives one another safety." },
+      { title:"Room", year:"2015", text:"Safety that arises, despite extreme threat, within the closest, most trusted bond – here between mother and child." },
+      { title:"A Quiet Place", year:"2018", text:"A family that manages its fears through close alliances and well-practiced, reliable routines." },
+      { title:"Captain Fantastic", year:"2016", text:"Safety through a close, self-made family system that offers protection from an outside world perceived as threatening." },
+      { title:"We Need to Talk About Kevin", year:"2011", text:"The fear of not truly being safe even within one's closest family circle – a dark flip side of the SE6 theme." },
+      { title:"The Impossible", year:"2012", text:"A family that, under existential threat, does everything to find each other again and give one another safety." },
+      { title:"Beasts of No Nation", year:"2015", text:"The desperate wish for safe, reliable belonging amid a deeply threatening world." },
+      { title:"Panic Room", year:"2002", text:"A mother and her daughter retreat into a specially secured room during a break-in – safety, literally built into four walls." },
+      { title:"The Road", year:"2009", text:"A father whose every action is devoted to protecting his son in a hostile world – vigilance as the last form of love." },
+      { title:"Take Shelter", year:"2011", text:"A man, driven by growing anxiety, does everything to secure his family against a coming threat – precaution as the only answer to his own unrest." },
+    ],
+  },
+  "SO6": {
+    typ: 6, instinkt: "SO", animal: "Meerkat",
+    title: "SO6 – Social Type 6: The Meerkat on Watch",
+    intro: "Ten films about safety through rules, authority, and belonging to a group – loyalty as protection against one's own fear.",
+    filme: [
+      { title:"Zero Dark Thirty", year:"2012", text:"Systematic, institutional vigilance in service of a larger system – safety through procedure and structure." },
+      { title:"Argo", year:"2012", text:"Loyalty to a team and a plan followed under extreme risk, because the system promises safety." },
+      { title:"Contagion", year:"2011", text:"Institutional systems and authorities that must be trusted or distrusted in a crisis – safety through functioning structures." },
+      { title:"World War Z", year:"2013", text:"Cooperation with global institutions as the only way to contain an overwhelming threat." },
+      { title:"Bridge of Spies", year:"2015", text:"Trust in negotiated rules and institutions even in the middle of the Cold War – safety through functioning systems, not solo action." },
+      { title:"The Insider", year:"1999", text:"A man torn between loyalty to a powerful institution and his own integrity – the Six's question of who can really be trusted in the end." },
+      { title:"13 Hours", year:"2016", text:"A group that must rely entirely on mutual trust and well-drilled procedure during a crisis, while the official system fails." },
+      { title:"United 93", year:"2006", text:"A group of strangers who unite in an extreme crisis for collective, coordinated action – safety through shared, disciplined effort." },
+      { title:"Deepwater Horizon", year:"2016", text:"Institutional safety systems that fail under pressure – and the people who must rely on each other anyway to survive." },
+      { title:"Captain Phillips", year:"2013", text:"Trust in trained procedure and a larger rescue structure, once control over the situation is long lost." },
+    ],
+  },
+  "SX6": {
+    typ: 6, instinkt: "SX", animal: "Wolf",
+    title: "SX6 – Sexual Type 6: The Wolf and Strength Against Fear",
+    intro: "Ten films about fear transformed into strength, provocation, or uncompromising loyalty to a single person.",
+    filme: [
+      { title:"No Country for Old Men", year:"2007", text:"Fear transformed into an unshakeable, almost fearless-seeming hardness – threat's flip side as strength." },
+      { title:"The Departed", year:"2006", text:"Uncompromising, risky loyalty within a dangerous system where trust decides between life and death." },
+      { title:"Sicario", year:"2015", text:"Fear turned into provocative, boundary-crossing confrontation with danger itself." },
+      { title:"Warrior", year:"2011", text:"Physical strength and combat as a direct answer to deep-seated fear and family wounds." },
+      { title:"The Hurt Locker", year:"2008", text:"Danger's own pull – fear that turns into a provocative seeking-out of risk." },
+      { title:"Fight Club", year:"1999", text:"Fear and powerlessness transformed into uncompromising physical confrontation and risky loyalty to a single ally." },
+      { title:"Killing Them Softly", year:"2012", text:"Distrust and vigilance transformed into calculated, uncompromising hardness to secure one's own position." },
+      { title:"A History of Violence", year:"2005", text:"The thin line between fear, protection, and one's own hidden capacity for violence." },
+      { title:"Nightcrawler", year:"2014", text:"A character who translates insecurity into cold, risky ruthlessness in order to gain control over a threatening world." },
+      { title:"Prisoners", year:"2013", text:"A father whose fear for his daughter turns into uncompromising, risky confrontation with danger itself – fear that hardens instead of freezing." },
+    ],
+  },
+  "SE7": {
+    typ: 7, instinkt: "SE", animal: "Gorilla",
+    title: "SE7 – Self-Preservation Type 7: The Gorilla and the Well-Stocked Table",
+    intro: "Ten films about practical enjoyment and a reliable network of options – abundance as a safeguard against want.",
+    filme: [
+      { title:"My Dinner with André", year:"1981", text:"Wallace Shawn – classified in the Compass as SE7w6 – in an extended conversation about pleasure, ideas, and the fullness of life among trusted company." },
+      { title:"The Princess Bride", year:"1987", text:"Wallace Shawn again, as a witty strategist who always keeps several options and escape routes open." },
+      { title:"Eat Pray Love", year:"2010", text:"Pleasure and new possibilities as a deliberate strategy against pain and constraint." },
+      { title:"Under the Tuscan Sun", year:"2003", text:"Building a new, nourishing environment as an answer to loss – abundance instead of scarcity." },
+      { title:"Chef", year:"2014", text:"Joy in pleasure and in one's own craft as a source of security and vitality." },
+      { title:"The Hundred-Foot Journey", year:"2014", text:"Pleasure and culinary abundance as a way of building a safe, agreeable life in a new environment." },
+      { title:"Chocolat", year:"2000", text:"Sensual pleasure as a deliberate counterforce to restriction and denial." },
+      { title:"A Good Year", year:"2006", text:"Rebuilding a life toward more pleasure, ease, and open possibilities." },
+      { title:"The Secret Life of Walter Mitty", year:"2013", text:"Practical setting-out toward new experiences the moment everyday life feels too confining." },
+      { title:"Big Night", year:"1996", text:"Two brothers try to save their livelihood and their relationship to each other through one lavishly celebrated feast – pleasure as both a practical survival strategy and joie de vivre in one." },
+    ],
+  },
+  "SO7": {
+    typ: 7, instinkt: "SO", animal: "Beaver",
+    title: "SO7 – Social Type 7: The Beaver in Service of the Group",
+    intro: "Ten films about idealism that commits itself to the group's wellbeing – enthusiasm that accepts even its own shortcomings.",
+    filme: [
+      { title:"Johnny English", year:"2003", text:"Rowan Atkinson – classified in the Compass as SO7w6 – as a bumbling but unshakeably game hero in service of the greater good." },
+      { title:"Mr. Bean's Holiday", year:"2007", text:"Rowan Atkinson again, unwittingly but consequentially caught up in other people's wellbeing." },
+      { title:"Pitch Perfect", year:"2012", text:"Enthusiasm and commitment to a group, whose shared success grows more important than one's own spotlight." },
+      { title:"Sister Act", year:"1992", text:"Infectious enthusiasm that revives an entire community." },
+      { title:"Almost Famous", year:"2000", text:"Idealistic enthusiasm for a group and its shared cause, despite all the friction." },
+      { title:"Kinky Boots", year:"2005", text:"Commitment to the wellbeing of an entire team that pushes past one's own comfort zone." },
+      { title:"Zombieland", year:"2009", text:"Building an improvised community that, despite the chaos, sticks together and brings each other joy." },
+      { title:"We're the Millers", year:"2013", text:"A group thrown together by necessity that finds real solidarity through shared adventure." },
+      { title:"Catch Me If You Can", year:"2002", text:"A young con artist charms his way into one system after another, until he's finally, genuinely needed in one – the FBI. The Social Seven in pure form: restless variety that finally turns into real belonging." },
+      { title:"Dolemite Is My Name", year:"2019", text:"An entertainer rallies an entire community of outsiders around his project, tying his own success inseparably to their rise – enthusiasm in service of the group." },
+    ],
+  },
+  "SX7": {
+    typ: 7, instinkt: "SX", animal: "Chimpanzee",
+    title: "SX7 – Sexual Type 7: The Chimpanzee and Infectious Enthusiasm",
+    intro: "Ten films about charm, storytelling, and enthusiasm that wins over a single person instantly.",
+    filme: [
+      { title:"Big Fish", year:"2003", text:"A character whose life stories are so charismatic and larger than life that they win over everyone in the room instantly." },
+      { title:"Forrest Gump", year:"1994", text:"A life full of enthusiasm and directness that wins people over instantly in personal contact." },
+      { title:"Life of Pi", year:"2012", text:"The power of an intensely told story that captivates its listener at once." },
+      { title:"Amélie", year:"2001", text:"Playful, infectious charm that enchants individual people in direct contact." },
+      { title:"Yes Man", year:"2008", text:"Infectious enthusiasm that concentrates entirely on individual, intense encounters." },
+      { title:"The Truman Show", year:"1998", text:"A man whose infectious, carefree manner captivates an entire audience without his even knowing it – charm that enthralls others though it was never calculated." },
+      { title:"Ferris Bueller's Day Off", year:"1986", text:"A teenager whose infectious energy turns a single day with his closest friends into an unforgettable adventure – enthusiasm that catches others instantly." },
+      { title:"Good Morning, Vietnam", year:"1987", text:"A radio DJ whose sparkling wit and infectious energy creates connection and levity even in a war zone." },
+      { title:"Roman Holiday", year:"1953", text:"A spontaneous, charming encounter that makes every obligation forgettable for a day – lightness and magnetism in direct, personal contact." },
+      { title:"The Fisher King", year:"1991", text:"An eccentric storyteller whose infectious imagination brings a single, deeply wounded person back to life." },
+    ],
+  },
+  "SE8": {
+    typ: 8, instinkt: "SE", animal: "Orangutan",
+    title: "SE8 – Self-Preservation Type 8: The Orangutan and Secured Territory",
+    intro: "Ten films about hands-on control over resources and the innermost circle – strength devoted above all to securing survival for oneself and those closest.",
+    filme: [
+      { title:"King Richard", year:"2021", text:"A father whose entire strength is devoted to the hands-on, uncompromising securing of his daughters' future." },
+      { title:"There Will Be Blood", year:"2007", text:"Control over land and resources as life's purpose – strength with no regard for anyone else." },
+      { title:"American Gangster", year:"2007", text:"Building and defending an economic territory of one's own with relentless hardness." },
+      { title:"Killers of the Flower Moon", year:"2023", text:"Control over land and wealth, enforced with ruthless hardness within one's own family circle." },
+      { title:"The Irishman", year:"2019", text:"Loyalty and hardness in service of one's own economic and family security." },
+      { title:"Hell or High Water", year:"2016", text:"The fight to defend one's own land and family against looming loss." },
+      { title:"Wind River", year:"2017", text:"Protective hardness directed above all at one's own close circle." },
+      { title:"Mudbound", year:"2017", text:"A bitter fight for land and survival in a hostile environment." },
+      { title:"The Town", year:"2010", text:"Control over one's own territory, fought for and defended with raw determination." },
+      { title:"A Simple Plan", year:"1998", text:"The desire for material security that drives a character to ever harsher measures." },
+    ],
+  },
+  "SO8": {
+    typ: 8, instinkt: "SO", animal: "Lion",
+    title: "SO8 – Social Type 8: The Lion in Defense of the Community",
+    intro: "Ten films about leadership that protectively places itself in front of an oppressed group – strength in service of solidarity, not personal power.",
+    filme: [
+      { title:"They Call Me Trinity", year:"1970", text:"Bud Spencer – classified in the Compass as SO8w9 – as the powerful protector of a besieged community against an overwhelming opponent." },
+      { title:"The Hunger Games", year:"2012", text:"A character who grows into the leader of an oppressed population because she cannot accept injustice." },
+      { title:"V for Vendetta", year:"2005", text:"Resistance against an oppressive authority on behalf of everyone who has no voice of their own." },
+      { title:"Black Panther", year:"2018", text:"Leadership that places its entire strength in service of protecting its own community." },
+      { title:"Braveheart", year:"1995", text:"A leader who confronts an overwhelming, oppressive authority with full force." },
+      { title:"Gladiator", year:"2000", text:"The fight against corrupt power on behalf of those who cannot defend themselves." },
+      { title:"Les Misérables", year:"2012", text:"Solidarity with the oppressed as the driving force against an unjust system." },
+      { title:"Judas and the Black Messiah", year:"2021", text:"Revolutionary leadership in direct service and protection of one's own community." },
+      { title:"Harriet", year:"2019", text:"Fearless, protective leadership that frees others from oppression." },
+      { title:"Malcolm X", year:"1992", text:"A man whose leadership is placed entirely in service of the protection and dignity of his community – strength that steps into the breach for others." },
+    ],
+  },
+  "SX8": {
+    typ: 8, instinkt: "SX", animal: "Crocodile",
+    title: "SX8 – Sexual Type 8: The Crocodile and All-Consuming Bonding",
+    intro: "Ten films about possessive, uncompromising intensity within the one relationship – all or nothing.",
+    filme: [
+      { title:"Wuthering Heights", year:"2011", text:"An all-consuming, possessive passion that knows no boundaries and no reason." },
+      { title:"Basic Instinct", year:"1992", text:"Intensity and control within a dangerous, uncompromising attraction." },
+      { title:"Body Heat", year:"1981", text:"A passion that erases every caution and every boundary." },
+      { title:"Unfaithful", year:"2002", text:"An intensity that disregards every consequence once it's been set alight." },
+      { title:"Match Point", year:"2005", text:"Possessiveness and passion willing to risk everything for the one connection." },
+      { title:"Gone Girl", year:"2014", text:"A relationship in which control and possessiveness are pushed to the extreme." },
+      { title:"Original Sin", year:"2001", text:"Unconditional, dangerous devotion to a single, all-consuming passion." },
+      { title:"The Notebook", year:"2004", text:"A love that demands all or nothing, uncompromisingly, to the very end." },
+      { title:"9½ Weeks", year:"1986", text:"Possessive intensity that completely takes over a relationship." },
+      { title:"Damage", year:"1992", text:"A passion that consumes all reason, all caution, and ultimately the entire lives of those involved – possessiveness and intensity with no brakes." },
+    ],
+  },
+  "SE9": {
+    typ: 9, instinkt: "SE", animal: "Elephant",
+    title: "SE9 – Self-Preservation Type 9: The Elephant and Comfortable Routine",
+    intro: "Ten films about comfort found in habit and routine – a life that settles into familiar patterns until the call to change grows too loud to ignore.",
+    filme: [
+      { title:"The Big Lebowski", year:"1998", text:"A life deliberately arranged around comfort and routine, avoiding every kind of exertion." },
+      { title:"Sideways", year:"2004", text:"Comfortable avoidance of big decisions, wrapped in pleasant, recurring rituals." },
+      { title:"The Descendants", year:"2011", text:"A passive, drifting life that only a crisis can shake out of its comfortable routine." },
+      { title:"Up in the Air", year:"2009", text:"Comfort through well-practiced routines and distance that keeps deeper connection at bay for a long time." },
+      { title:"Groundhog Day", year:"1993", text:"Being trapped in comfortable repetition, until genuine growth can no longer be avoided." },
+      { title:"Hector and the Search for Happiness", year:"2014", text:"Breaking out of an overly comfortable routine to truly feel alive again." },
+      { title:"Nebraska", year:"2013", text:"Inertia and quiet habit within a family that only reluctantly gets moving." },
+      { title:"American Beauty", year:"1999", text:"Waking up from a numbing, all-too-comfortable everyday routine." },
+      { title:"Local Hero", year:"1983", text:"A businessman arrives in a sleepy Scottish village to change it – and instead is won over himself by its cozy slowness." },
+      { title:"The Way, Way Back", year:"2013", text:"A withdrawn teenager grows, over a sluggish summer, into a relaxed, comfortable water-park community – comfort through routine and casual belonging, rather than big change." },
+    ],
+  },
+  "SO9": {
+    typ: 9, instinkt: "SO", animal: "Buffalo",
+    title: "SO9 – Social Type 9: The Buffalo in the Herd",
+    intro: "Ten films about merging with a community – identity defined entirely through belonging to a group.",
+    filme: [
+      { title:"Dances with Wolves", year:"1990", text:"Kevin Costner – classified in the Compass as SO9w1 – as a man who lets his former identity fully dissolve into a new community." },
+      { title:"Field of Dreams", year:"1989", text:"Kevin Costner again, in a story about connection, shared memory, and a community coming together." },
+      { title:"The Shawshank Redemption", year:"1994", text:"Identity and stability defined through quiet belonging to a community behind walls." },
+      { title:"Remember the Titans", year:"2000", text:"A group that leaves individual identities behind to merge into a single, united team." },
+      { title:"Coach Carter", year:"2005", text:"Identity and self-worth built through belonging to a team and its shared values." },
+      { title:"Hoosiers", year:"1986", text:"A small community that identifies completely with its team's success and cohesion." },
+      { title:"A League of Their Own", year:"1992", text:"Identity that emerges from a group's shared experience and cohesion." },
+      { title:"Friday Night Lights", year:"2004", text:"An entire community whose identity is inseparably bound to that of its team." },
+      { title:"Sing Street", year:"2016", text:"Building an identity of one's own that only becomes possible through belonging to a self-chosen group." },
+      { title:"Invictus", year:"2009", text:"An entire nation coming together through identification with a shared cause." },
+    ],
+  },
+  "SX9": {
+    typ: 9, instinkt: "SX", animal: "Sloth",
+    title: "SX9 – Sexual Type 9: The Sloth and Complete Merging",
+    intro: "Ten films about merging with a single person until one's own boundaries are barely felt anymore.",
+    filme: [
+      { title:"Fifty Shades of Grey", year:"2015", text:"Dakota Johnson – classified in the Compass as SX9w8 – as a character who almost completely gives up herself within an intense two-person relationship." },
+      { title:"John Wick", year:"2014", text:"Keanu Reeves – classified in the Compass as SX9w1 – as a man whose entire identity is inseparably fused with love for a single person." },
+      { title:"The Lake House", year:"2006", text:"Keanu Reeves again, in a story about a connection that remains exclusive across every possible boundary." },
+      { title:"Love Actually", year:"2003", text:"Heike Makatsch – classified in the Compass as SX9w8 – in an ensemble that celebrates complete devotion to the one special connection." },
+      { title:"Vicky Cristina Barcelona", year:"2008", text:"Identities that nearly dissolve within intense, merging relationships." },
+      { title:"Brokeback Mountain", year:"2005", text:"A bond that, despite suppression, merges so deeply it comes to define an entire life." },
+      { title:"Twilight", year:"2008", text:"An identity that weaves itself completely into that of the person one loves." },
+      { title:"Before Sunrise", year:"1995", text:"Two people who, in a single intense encounter, almost completely dissolve into one another." },
+      { title:"The Age of Adaline", year:"2015", text:"A connection strong enough to dissolve decades of distance and self-protection." },
+      { title:"Her", year:"2013", text:"Complete merging with a single voice and presence, until one's own boundaries are barely felt anymore." },
+    ],
+  },
+};
+
+function enneagrammFilmeUebersichtPage() {
+  const tile = code => {
+    const d = ENNEAGRAMM_FILME[code];
+    const col = TYPE_COLORS[d.typ] || "var(--copper)";
+    return `<div class="kf-card" data-route="enneagramm-filme-typ-${code}" onclick="go('enneagramm-filme-typ-${code}')"
+      style="cursor:pointer;padding:1rem 1.1rem;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.3rem;">${code} &middot; Type ${d.typ}</div>
+      <div style="font-weight:700;font-size:0.95rem;color:var(--ink);margin-bottom:0.3rem;">${d.title}</div>
+      <div style="font-size:0.8rem;color:var(--ink-soft,#666);">10 films to explore</div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagram Movie Recommendations')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Enneagram Movie Recommendations</h1>
+      <p class="psycho-intro">Twenty-seven subtypes, two hundred seventy films – each one chosen to mirror a subtype's core pattern on screen. From quiet self-preservation discipline to sweeping social reform to all-consuming sexual intensity: every film comes with a short psychological rationale. Choose a subtype to explore its full collection.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;max-width:100%;margin-bottom:2rem;">
+        ${["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(tile).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-kunst", label:"Enneagram Art"},
+        {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
+        {route:"schaubilder", label:"All Diagrams"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammFilmeTypPage(code) {
+  const d = ENNEAGRAMM_FILME[code];
+  const col = TYPE_COLORS[d.typ] || "var(--copper)";
+  const filmCard = f => `<div class="kf-card" style="padding:1rem 1.1rem;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin-bottom:0.1rem;">${f.title}</div>
+      <div style="font-size:0.85rem;color:${col};font-weight:600;margin-bottom:0.6rem;">${f.year}</div>
+      <p class="vb-intro" style="margin:0;font-size:0.92rem;">${f.text}</p>
+    </div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Enneagram Movie Recommendations')}
+      <div id="js-back-target" data-route="enneagramm-filme" style="display:none;"></div>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.3rem;line-height:1.2;">${d.title}</h1>
+      <p class="psycho-intro">${d.intro}</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.1rem;max-width:100%;margin-bottom:2rem;">
+        ${d.filme.map(filmCard).join('')}
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-filme", label:"All 27 Film Collections"},
+        {route:"type/" + d.typ, label:"Go to Type " + d.typ + " in the Compass"},
+        {route:"enneagramm-kunst", label:"Enneagram Art"},
+      ])}
+    </div>
+  `);
+}
+
 // NEU-Markierungen für Charts: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -952,6 +1472,7 @@ text.nav = [
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
+    { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
   ]},
@@ -39658,6 +40179,8 @@ function subtypeSchaubilderPage() {
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
+      "enneagramm-filme": enneagrammFilmeUebersichtPage,
+      ...Object.fromEntries(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => ["enneagramm-filme-typ-"+code, () => enneagrammFilmeTypPage(code)])),
       "persoenlichkeitsmodelle-vergleich": persoenlichkeitsmodelleVergleichPage,
       "astrologie-reinhold-messner": astrologieReinholdMessnerPage,
       "astrologie-marilyn-monroe": astrologieMarilynMonroePage,
